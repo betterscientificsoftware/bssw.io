@@ -9,12 +9,5 @@ For more information on better scientific software go to [Better Scientific Soft
 
 <!--- 
 Content area:  philosophy
-Filters: advice, strategy, team 
+Filters: advice, strategy, reproducibility, productivity, sustainability 
 --->
-
-
-
-
-
-
-https://www.youtube.com/watch?v=B_wOVepa_WU&list=PLGj2a3KTwhRb6LNVucPkwdpzg9OHd8jli&index=35
