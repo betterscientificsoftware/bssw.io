@@ -4,7 +4,7 @@
 
 
 #### Preferred Approach
-1. Open a browser window pointed at https://github.com/betterscientificsoftware/betterscientificsoftware.github.io
+1. Open a browser window pointed at [https://github.com/betterscientificsoftware/betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
 2. Select `Create New File` or open an existing file.
 3. Edit using [GitHub Markdown](https://guides.github.com/features/mastering-markdown).
 4. Select `Commit New File` at the bottom of the page.  
