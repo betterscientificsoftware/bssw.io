@@ -1,5 +1,8 @@
 ### How to Contribute Content to Better Scientific Software
 
+#### Background
+
+
 #### Preferred Approach
 1. Open a browser window pointed at https://github.com/betterscientificsoftware/betterscientificsoftware.github.io
 2. Select `Create New File` or open an existing file.
