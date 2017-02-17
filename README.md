@@ -5,4 +5,4 @@ This repository provides source material for the (still under construction) Bett
 * **Cloning**: If you have push access, you can clone and commit to this repository.  This approach could be best for remote editing and activities that span across multiple source files.
 * **Forking**: This option is like cloning, but works for anyone.  You can make edit to your own forked copy of the repo, either in a browser or from a local repository.
 
-For details see:
+For details see our [How To Contribute page](HowtoContribute.md).
