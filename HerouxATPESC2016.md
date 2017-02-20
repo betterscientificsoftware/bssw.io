@@ -1,6 +1,6 @@
 # HPC Complete: Reproducible, Sustainable, Productive
 
-### Contributed by [Mike Heroux](http://www.sandia.gov/~maherou/ "Mike Heroux Homepage")
+#### Contributed by [Mike Heroux](http://www.sandia.gov/~maherou/ "Mike Heroux Homepage")
 
 My presentation from the [Argonne Training Program on Extreme-Scale Computing (ATPESC)](https://extremecomputingtraining.anl.gov/archive/atpesc-2016/ "ATPESC 2016 Homepage") gives an overview of strategies we are using in the IDEAS Productivity Project.
 
