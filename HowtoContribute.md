@@ -7,9 +7,13 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 
 #### Preferred Approach: Web based
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
-2. Select `Create New File` or open an existing file.
-3. Edit using [GitHub Markdown](https://guides.github.com/features/mastering-markdown).
-4. Select `Commit New File` at the bottom of the page.  
+1. Find an existing article that is similar in type.
+  - View the article in Raw mode.
+  - Copy article text.
+1. Select `Create New File` or open an existing file.
+1. Paste text from existing article into your new document, as a starting point.
+1. Edit using [GitHub Markdown](https://guides.github.com/features/mastering-markdown).
+1. Select `Commit New File` at the bottom of the page.  
   - If you have permission, you can commit directly to master.
   - If not, you can create a branch and submit a pull-request (follow instructions).
   
