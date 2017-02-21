@@ -2,7 +2,7 @@
 
 #### Background
 
-The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](WhatIsProductivity.md) and [software sustainability](WhatIsSustainability.md).  
+The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](WhatIsProductivity.md) and [software sustainability](WhatIsSustainability.md).  See details on [How To Contribute](HowtoContribute.md).
 
 Please follow these guidelines for naming resources and files.   Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSS site.
 
@@ -33,7 +33,7 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 - Prerequisites:  Specify any assumed knowledge (usually Level0, Level1 BSS docs)
 - Aggregate: Optional info for aggregating content to define a more complex resource
 
-#### Categories [Primary display via BSS website interface]
+#### Categories: [Primary display via BSS website interface]
 - Planning
 - Reliability
 - Performance
@@ -41,7 +41,7 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 - Individual Productivity
 - Crosscutting Resources
 
-#### Topics [Visible filters via BSS website interface]
+#### Topics: [Visible filters via BSS website interface]
 - All categories and also finer grain topics.  
     - Add/revise topics as needed.
     - Topics: 4-7: family of topics that make sense together
@@ -80,7 +80,39 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
     - Discussion forums, Q&A sites
     - Software publishing and citation
     - On-line learning
-    
 
+#### Tags: [optional additional keywords for searches]
+- Add/revise topics as needed (important terms from curated content; aim for comprehensive coverage to facilitate searches)
 
-See details on [How To Contribute](HowtoContribute.md).
+- Bitbucket
+- Computational Science Stack Exchange
+- Conference
+- Doxygen
+- FORCE11
+- Git
+- Gitlab
+- Jenkins
+- Minisymposium
+- SoftwareX
+- Software Carpentry
+- Software Sustainability Institute
+- Strategy
+- Team
+- Test-driven development
+- Travis CI
+- Workshop
+- etc
+
+#### Levels:  Specify level of content
+- Level 0:  BSS WhatIs document
+- Level 1:  BSS HowTo document (or equivalent level of detail)
+- Level 2:  More detailed content, beginner or intermediate levels
+- Level 3:  Advanced content
+
+#### Prerequisites: 
+- Specify any assumed knowledge (usually Level0, Level1 BSS docs)
+
+#### Aggregate: 
+- Optional info for aggregating content to define a more complex resource
+- Coming later ...
+
