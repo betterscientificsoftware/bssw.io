@@ -24,3 +24,6 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 4. Push the change, or create a pull request, to send the file to the main GitHub repository
 5. If you submitted a pull request, it will be reviewed by BSS team members for inclusion in the repository.
 **Note: If you are not familiar with GitHub workflows, there are many tutorial to help.**
+
+#### Style Guide
+See the [BSS Style Guide](StyleGuide.md) for guidance on on naming conventions, descriptive text, and metadata.
