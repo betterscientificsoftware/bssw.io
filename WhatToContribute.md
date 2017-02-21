@@ -1,4 +1,4 @@
-### What to Contribute Content to Better Scientific Software
+### What to Contribute: Content for Better Scientific Software
 
 #### Background
 
@@ -17,7 +17,7 @@ Content categories can include:
 The exact scope of relevant content will evolve as we learn about community interests.  However, presently we believe the following guidelines should be useful:
 #### In-scope Content
 - General productivity and sustainability that overlaps with common challenges faced in the CSE software community.
-- General tools that can be widely used by CSE developers.
+- General tools for productivity and sustainability that can be widely used by CSE developers.
 - Characterization of challenges and solutions that may be particularly valuable to the CSE community.
 
 #### Out-of-scope Content
@@ -26,4 +26,4 @@ The exact scope of relevant content will evolve as we learn about community inte
 
 #### Does your idea seem to fit?
 
-If you have an idean that might work, continue to the [How To Contribute](HowtoContribute.md) page.
+If you have an idea that might work, continue to the [How To Contribute](HowtoContribute.md) page.
