@@ -9,22 +9,18 @@ Software testing is essential for ensuring robust, reliable software.  Introduct
 
 A variety of tutorials on software testing provide information for various circumstances.
 
-## Testing Tutorials for CSE Software
+[placeholder for aggregate resource: Section 1]
 
-Blurb about ATPESC tutorials and link.
-
-Blurb about Webinar tutorials and links.
-
-## Testing Tutorials for General Software
-
-Blurb about Udacity tutorial and link.
-
-Blurb about TutorialsPoint tutorial and link.
-
+[placeholder for aggregate resource: Section 2]
 
 For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!--- 
-Category: Reliability
-Tags: testing, reliability, reproducibility, robustness
+Categories: reliability
+Topics: testing
+Tags: reliability, reproducibility, robustness
+Level: 2
+Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md
+Aggregate: Base: SwTestingTutorials.md
 --->
+
