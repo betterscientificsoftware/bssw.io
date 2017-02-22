@@ -85,6 +85,7 @@ Each aspect of metadata is described below.
 
 #### Tags: [optional additional keywords for searches]
 - Add/revise topics as needed (important terms from curated content; aim for comprehensive coverage to facilitate searches)
+- ATPESC
 - Bitbucket
 - Computational Science Stack Exchange
 - Conference
@@ -92,6 +93,7 @@ Each aspect of metadata is described below.
 - FORCE11
 - Git
 - Gitlab
+- HPC
 - Jenkins
 - Minisymposium
 - SoftwareX
@@ -101,6 +103,8 @@ Each aspect of metadata is described below.
 - Team
 - Test-driven development
 - Travis CI
+- TutorialsPoint
+- Udacity
 - Workshop
 - etc
 
@@ -110,13 +114,13 @@ Each aspect of metadata is described below.
 - **Level 2**:  More detailed content, beginner or intermediate levels
 - **Level 3**:  Advanced content
 
-#### Prerequisites: Specify any assumed knowledge (usually Level0, Level1 BSS docs)
-- ** Level 0**: filename(s)
-- ** Level 1**: filename(s)
-- ** Level 2**: filename(s)
+#### Prerequisites: Specify files for any assumed knowledge (usually Level0, Level1 BSS docs)
+- prerequisites: filename1, filename2, etc.
 
 #### Aggregate: 
 - Optional info for aggregating content to define a more complex resource
-- Aggregate:Base: filename
-- Aggregate:Section1: name
-- Aggregate:Section2: name
+- Aggregate: Base: filename
+- Aggregate: Section1
+- Aggregate: Section2
+- Aggregate: Section3
+
