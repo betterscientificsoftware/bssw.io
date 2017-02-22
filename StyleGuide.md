@@ -110,10 +110,13 @@ Each aspect of metadata is described below.
 - **Level 2**:  More detailed content, beginner or intermediate levels
 - **Level 3**:  Advanced content
 
-#### Prerequisites: 
-- Specify any assumed knowledge (usually Level0, Level1 BSS docs)
+#### Prerequisites: Specify any assumed knowledge (usually Level0, Level1 BSS docs)
+- ** Level 0**: filename(s)
+- ** Level 1**: filename(s)
+- ** Level 2**: filename(s)
 
 #### Aggregate: 
 - Optional info for aggregating content to define a more complex resource
-- Coming later ...
-
+- Aggregate:Base: filename
+- Aggregate:Section1: name
+- Aggregate:Section2: name
