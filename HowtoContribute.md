@@ -9,15 +9,15 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 1. Is your content a good fit?  If you have doubts, please [What To Contribute](WhatToContribute.md).  If you are still unsure, contact the BSS team.
 1. Ready to contribute? Please set up a GitHub Issue:
   1. Go to the [GitHub Issues page](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues).
-  1. Tap on green New issue button.
+  1. Tap on green `New issue` button.
   1. Enter a descriptive title and a longer comment about the work you will do.
   1. If you have site permissions, you can assign the issue to yourself or someone else.
   1. Assign appropriate labels. Common choices are:
-    - blog - Tell us what is on your mind about Better Scientific Software.  Keep it short and to the point.
-    - curated link - Did you find an article you want to share with the BSS community?  Describe it and include a link.
-    - howto - Did you write instructions for how to accomplish a useful task? Write a How To.
-    - short article - Like a blog, but more fact than experience.
-    - whatis - A What Is describes terms and concepts, especially useful as background for a How To.
+    - `blog` - Tell us what is on your mind about Better Scientific Software.  Keep it short and to the point.
+    - `curated` link - Did you find an article you want to share with the BSS community?  Describe it and include a link.
+    - `howto` - Did you write instructions for how to accomplish a useful task? Write a How To.
+    - `short` article - Like a blog, but more fact than experience.
+    - `whatis` - A What Is describes terms and concepts, especially useful as background for a How To.
   1. Assign issue to a milestone, if you want to commit to a deadline.
   1. Create your contribution!
 
