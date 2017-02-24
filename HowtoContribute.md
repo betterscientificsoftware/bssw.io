@@ -5,6 +5,22 @@
 
 Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/mastering-markdown) is automatically visible via its pre-defined URL.  Given the ease of content development using GitHub's online content capabilities, the ability to work with the website as a GitHub repository, and the possibility to create scripting tools that can extract, create and test content in this repository, we encourage contributors to the BSS project to use the following processes.
 
+#### Before creating your content
+1. Is your content a good fit?  If you have doubts, please [What To Contribute](WhatToContribute.md).  If you are still unsure, contact the BSS team.
+1. Ready to contribute? Please set up a GitHub Issue:
+  a. Go to the [GitHub Issues page](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues).
+  a. Tap on green New issue button.
+  a. Enter a descriptive title and a longer comment about the work you will do.
+  a. If you have site permissions, you can assign the issue to yourself or someone else.
+  a. Assign appropriate labels. Common choices are:
+    - blog - Tell us what is on your mind about Better Scientific Software.  Keep it short and to the point.
+    - curated link - Did you find an article you want to share with the BSS community?  Describe it and include a link.
+    - howto - Did you write instructions for how to accomplish a useful task? Write a How To.
+    - short article - Like a blog, but more fact than experience.
+    - whatis - A What Is describes terms and concepts, especially useful as background for a How To.
+  a. Assign issue to a milestone, if you want to commit to a deadline.
+  a. Create your contribution!
+
 #### Preferred Approach: Web based
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
 1. Find an existing article that is similar in type.
