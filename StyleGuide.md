@@ -25,6 +25,9 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 - Use links to WhatIs and HowTo docs when appropriate for background info
 - Image file (e.g., logo) - optional (encouraged when this exists)
 
+#### Contributor:
+- Name of contributor, hyperlinked to website
+
 #### Metadata:
 - **Categories**: Specify 1 or more categories (BSS website interface)
 - **Topics**: Specify 1 or more topics (visible filters)
