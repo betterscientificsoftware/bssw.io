@@ -50,7 +50,7 @@ Each aspect of metadata is described below.
 - All categories and also finer grain topics.  
     - Add/revise topics as needed.
     - Topics: 4-7: family of topics that make sense together
-- Planning 
+- **Planning** 
     - Improving productivity and sustainability
     - Requirements
     - Design
@@ -59,27 +59,27 @@ Each aspect of metadata is described below.
     - Configuration and builds
     - Legacy code
     - Software engineering
-- Reliability
+- **Reliability**
     - Testing
     - Debugging 
     - Continuous integration testing
     - Reproducibility
-- Performance
+- **Performance**
     - Performance portability
     - Software interoperability
     - Performance at leadership computing facilities (LCFs)
     - High-performance computing (HPC)
- - Collaboration
+- **Collaboration**
     - Version control
     - Documentation
     - Issue tracking
     - Licensing
     - Strategies for more effective teams
     - Coordination with stakeholders
-- Individual Productivity
+- **Individual Productivity**
     - Personal kanban
     - Personal learning plans
-- Crosscutting Resources
+- **Crosscutting Resources**
     - Funding sources and programs
     - Projects and organizations
     - Discussion forums, Q&A sites
