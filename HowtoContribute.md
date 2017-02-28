@@ -6,7 +6,7 @@
 Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/mastering-markdown) is automatically visible via its pre-defined URL.  Given the ease of content development using GitHub's online content capabilities, the ability to work with the website as a GitHub repository, and the possibility to create scripting tools that can extract, create and test content in this repository, we encourage contributors to the BSS project to use the following processes.
 
 #### Before creating your content
-1. Is your content a good fit?  If you have doubts, please [What To Contribute](WhatToContribute.md).  If you are still unsure, contact the BSS team.
+1. Is your content a good fit?  If you have doubts, please see [What To Contribute](WhatToContribute.md).  If you are still unsure, contact the BSS team.
 1. Ready to contribute? Please set up a GitHub Issue:
   1. Go to the [GitHub Issues page](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues).
   1. Tap on green `New issue` button.
