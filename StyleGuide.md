@@ -28,7 +28,10 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 #### Contributor:
 - Name of contributor, hyperlinked to website
 
-#### Metadata:
+#### Footer: Add the following at the bottom of each page:
+For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
+
+#### Metadata:  Include metadata as formatted comments at the end of the file
 - **Categories**: Specify 1 or more categories (BSS website interface)
 - **Topics**: Specify 1 or more topics (visible filters)
 - **Tags**: Specify additional tags as keywords for searches (optional)
