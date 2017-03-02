@@ -23,7 +23,7 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
   1. Assign issue to a milestone, if you want to commit to a deadline.
   1. Create your contribution!
   
-### Create Your Contribution!
+### Create Your Contribution
 
 #### Preferred Approach: Web based
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
