@@ -16,6 +16,8 @@ The SIAM CSE conference seeks to enable in-depth technical discussions on a wide
 
 ### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
 
+**Organizers**:  David Bernholdt (ORNL), Mike Heroux (SNL), Dan Katz (University of Illinois), Anders Logg (Chalmers University of Technology), Lois Curfman McInnes (ANL)
+
 **Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community. 
 
 The minisymposium speakers and poster presenters discuss work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby is helping software to fulfill its critical role as a cornerstone of long-term CSE collaboration.
@@ -44,6 +46,8 @@ It is recommended that participants first install Git on their own laptops (see 
 
 ### Tutorial: CSE Collaboration through Software: Improving Productivity and Sustainability
 
+**Presenters:**  David Bernholdt (ORNL), Anshu Dubey (ANL), Mike Heroux (SNL), Alicia Klinvex (SNL), Lois Curfman McInnes (ANL)
+
 **Abstract:** CSE software—crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering—is a foundation of sustained CSE collaboration and scientific progress. However, the need for increasingly broad functionality on ever more complex computer architectures creates daunting challenges for software development and sustainability.
 
 This tutorial provides information on best practices in software engineering explicitly tailored for CSE. Goals are improving the productivity of those who develop CSE software and increasing the sustainability of software artifacts. We will discuss practices that are relevant for projects of all sizes, with emphasis on small teams (for example, a faculty member and collaborating students).
@@ -64,7 +68,7 @@ In this presentation we discuss elements that impact the effectiveness of CSE ef
 
 Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62113
 
-For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
+For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!--- 
 Categories: crosscutting, individual productivity, planning, collaboration, reliability
