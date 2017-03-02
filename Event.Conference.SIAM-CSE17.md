@@ -12,9 +12,9 @@ CSE is naturally interdisciplinary. Its goals concern understanding and analyzin
 
 The SIAM CSE conference seeks to enable in-depth technical discussions on a wide variety of major computational efforts on large-scale problems in science and engineering, foster the interdisciplinary culture required to meet these large-scale challenges, and promote the training of the next generation of computational scientists. 
 
-### CSE17 Events on Productivity and Sustainability Topics
+## CSE17 Events on Productivity and Sustainability Topics
 
-#### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
+### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
 
 **Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community. 
 
@@ -26,7 +26,14 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
 - Minisymposterium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022
 - Posters: https://doi.org/10.6084/m9.figshare.c.3703771
 
-#### Tutorial: CSE Collaboration through Software: Improving Productivity and Sustainability
+### Tutorial: Version Control with Git
+
+Presenters: Randall LeVeque, University of Washington, USA; David I. Ketcheson, King Abdullah University of Science & Technology (KAUST), Saudi Arabia; Kyle T. Mandli, Columbia University, 
+
+ - Tutorial URL: meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61491
+ - Resources for tutorial: https://github.com/uwescience/git-tutorials-siamcse2017
+
+### Tutorial: CSE Collaboration through Software: Improving Productivity and Sustainability
 
 **Abstract:** CSE software—crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering—is a foundation of sustained CSE collaboration and scientific progress. However, the need for increasingly broad functionality on ever more complex computer architectures creates daunting challenges for software development and sustainability.
 
@@ -38,7 +45,7 @@ Materials for interactive exercises are provided via Git. We encourage participa
 - Slides for tutorial: https://doi.org/10.6084/m9.figshare.c.3704287
 - Coming soon from SIAM: Recorded audio, synchronized with slides
 
-#### Invited Presentation: Productive and Sustainable: More Effective Computational Science and Engineering
+### Invited Presentation: Productive and Sustainable: More Effective Computational Science and Engineering
 
 Speaker: Mike Heroux, Sandia National Laboratories
 
