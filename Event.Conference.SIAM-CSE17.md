@@ -16,7 +16,7 @@ The SIAM CSE conference seeks to enable in-depth technical discussions on a wide
 
 ### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
 
-**Organizers**:  David Bernholdt (ORNL), Mike Heroux (SNL), Dan Katz (University of Illinois), Anders Logg (Chalmers University of Technology), Lois Curfman McInnes (ANL)
+**Organizers:**  David Bernholdt (ORNL), Mike Heroux (SNL), Dan Katz (University of Illinois), Anders Logg (Chalmers University of Technology), Lois Curfman McInnes (ANL)
 
 **Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community. 
 
@@ -27,6 +27,14 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
 
 - Minisymposterium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022
 - Posters: https://doi.org/10.6084/m9.figshare.c.3703771
+
+### Minisymposium: How to Succeed with Open Source Software
+
+**Organizers:** Brian M. Adams (SNL), Damon McDougall (University of Texas at Austin)
+
+**Abstract:** The open source model holds great promise for CS&E software. Diverse contributions and peer reviews improve technical quality, distributed teams contribute developer horsepower, integration and testing in myriad environments improve software quality, and the open source code itself allows flexibility to tailor to new applications. Open source CS&E software fosters open, reproducible research and supports an open science process. Yet achieving truly collaborative and open software can be challenging. Representing exemplar software projects, the speakers in this session emphasize benefits and challenges of open source CS&E software, and advise on best practices to succeed in collaborative development. 
+
+- Minisymposium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61149
 
 ### Tutorial: Version Control with Git
 
