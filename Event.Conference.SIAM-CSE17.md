@@ -28,10 +28,19 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
 
 ### Tutorial: Version Control with Git
 
-Presenters: Randall LeVeque, University of Washington, USA; David I. Ketcheson, King Abdullah University of Science & Technology (KAUST), Saudi Arabia; Kyle T. Mandli, Columbia University, 
+Presenters: Randall LeVeque, University of Washington, USA; David I. Ketcheson, King Abdullah University of Science & Technology (KAUST), Saudi Arabia; Kyle T. Mandli, Columbia University
 
- - Tutorial URL: meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61491
+**Abstract:** The Git version control system is now widely used in the scientific computing community, not only for developing code (individually or collaboratively) but also for writing papers and grant proposals, sharing course materials with students and supporting group projects, and a host of other uses.
+
+The first part of this tutorial will introduce the basic concepts of Git and show how easy it is to get started using version control for your own work, on your own computer, as a good way to back up your work, keep track of changes you've made, revert to an earlier version if needed, and improve your ability to reproduce your own earlier work.
+
+The second part will cover more advanced concepts that are useful when using Git to collaborate with others, either privately or as part of an open source software community. We will cover branching, merging, forking, and the use of pull requests. We will also explore the tools available on GitHub, a popular collaboration site that hosts many open source projects.
+
+It is recommended that participants first install Git on their own laptops (see https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a free account on GitHub (see https://github.com/).
+
+ - Tutorial URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61491
  - Resources for tutorial: https://github.com/uwescience/git-tutorials-siamcse2017
+ - Coming soon from SIAM: Recorded audio, synchronized with presentation screen
 
 ### Tutorial: CSE Collaboration through Software: Improving Productivity and Sustainability
 
@@ -43,7 +52,7 @@ Materials for interactive exercises are provided via Git. We encourage participa
 
 - Tutorial URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61488
 - Slides for tutorial: https://doi.org/10.6084/m9.figshare.c.3704287
-- Coming soon from SIAM: Recorded audio, synchronized with slides
+- Coming soon from SIAM: Recorded audio, synchronized with presentation screen
 
 ### Invited Presentation: Productive and Sustainable: More Effective Computational Science and Engineering
 
@@ -60,7 +69,7 @@ For more information on better scientific software, go to [Better Scientific Sof
 <!--- 
 Categories: crosscutting, individual productivity, planning, collaboration, reliability
 Topics: improving productivity and sustainability
-Tags: improving productivity and sustainability
+Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
 Aggregate: none
