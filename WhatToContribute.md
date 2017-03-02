@@ -23,6 +23,7 @@ The exact scope of relevant content will evolve as we learn about community inte
 #### Out-of-scope Content
 - Narrow scope, focused on a particular CSE subcommunity.
 - Tools, processes and practices that have little in common with CSE.
+- Content that is deemed incomplete or biased, as determined by the BSSW leaders.
 
 #### Does your idea seem to fit?
 
