@@ -11,8 +11,8 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
   1. Go to the [GitHub Issues page](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues).
   1. Tap on green `New issue` button.
   1. Enter a descriptive title and a longer comment about the work you will do.
-1. (BSSW non-members) Wait for confirmation from the BSSW team that your proposed contribution is a good fit.  Once this is confirmed, continue to **Create Your Contribution**.
-1. (BSSW members)
+1. (**BSSW non-members**) Wait for confirmation from the BSSW team that your proposed contribution is a good fit.  Once this is confirmed, continue to **Create Your Contribution**.
+1. (**BSSW members**)
   1. If you have site permissions, you can assign the issue to yourself or someone else.
   1. Assign appropriate labels. Common choices are:
     - `blog` - Tell us what is on your mind about Better Scientific Software.  Keep it short and to the point.
