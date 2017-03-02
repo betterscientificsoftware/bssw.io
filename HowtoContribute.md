@@ -7,8 +7,8 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 
 #### Before creating your content
 1. Is your content a good fit?  If you have doubts, please see [What To Contribute](WhatToContribute.md).  If you are still unsure, contact the BSSW team.
-1. Ready to contribute? Please set up a GitHub Issue:
-  1. Go to the [GitHub Issues page](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues).
+1. Ready to contribute? Please set up a GitHub Issue (New to GitHub Issues?  [See this intro](https://help.github.com/articles/creating-an-issue)):
+  1. Go to the [BSSW GitHub Issues page](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues).
   1. Tap on green `New issue` button.
   1. Enter a descriptive title and a longer comment about the work you will do.
 1. (**BSSW non-members**) Wait for confirmation from the BSSW team that your proposed contribution is a good fit.  Once this is confirmed, continue to **Create Your Contribution**.
