@@ -15,6 +15,8 @@ The front-end for the BSSW site will combine the information into an aggregate r
  - Aggregate: Section 2
  - Aggregate: Section 3
  - Etc.
+ 
+ See also [Aggregate Resource Sample: Base](AggregateResourceSample.Base.md).
 
 For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
 
