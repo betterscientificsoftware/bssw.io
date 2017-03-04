@@ -43,7 +43,7 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 3. [Add](https://help.github.com/articles/adding-a-file-to-a-repository/) the file to the repo (if new) or commit the updated file to your local repository.
 4. Push the change, or create a pull request, to send the file to the main GitHub repository
 5. If you submitted a pull request, it will be reviewed by BSSW team members for inclusion in the repository.
-**Note: If you are not familiar with GitHub workflows, there are many tutorial to help.**
+**Note: If you are not familiar with GitHub workflows, there are many tutorials to help.**
 
 #### Style Guide
 See the [BSSW Style Guide](StyleGuide.md) for guidance on on naming conventions, descriptive text, and metadata.
