@@ -2,7 +2,7 @@
 
 #### Background
 
-The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](WhatIsProductivity.md) and [software sustainability](WhatIsSustainability.md).  
+The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](WhatisProductivity.md) and [software sustainability](WhatisSustainability.md).  
 
 #### Content Categories
 
