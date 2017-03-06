@@ -6,7 +6,8 @@ This site is the collaborative development platform that the Better Scientific S
 
 ### Contributing
 
-Coming soon: Instructions for contributing content to BSS.
+Content contributions are kept in the Git repository [https://github.com/betterscientificsoftware/betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).  Follow the instructions in the [README.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/README.md) file found there.
+
 
 For more information on better scientific software go to [Better Scientific Software main page](http://betterscientificsoftware.info).
 
