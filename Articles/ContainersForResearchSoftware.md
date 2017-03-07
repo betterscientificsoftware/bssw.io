@@ -10,7 +10,7 @@ to be running on the host machine, but this is now almost always the case, and c
 
 ### Example
 
-The most popular container format at present is [docker](www.docker.com). The docker software is available from their website for Linux, MacOS and Windows.
+The most popular container format at present is [docker](https://www.docker.com). The docker software is available from their website for Linux, MacOS and Windows.
 Many of the popular base environments are available in the docker online registry. For example, one can start up an ubuntu container like this:
 
 ```
@@ -35,8 +35,20 @@ It will take some time experimenting with docker to fully get a feel for how it 
 ### Installing your stack in a container
 
 Interactive docker can be quite handy to try out different OS environments, but in order to build a software stack, we
-would like to be able to write a script to describe the setup. This is possible using a `Dockerfile`.
+would like to be able to write a script to describe the setup. This is possible using a `Dockerfile`. The `Dockerfile` lists all the steps needed to build an image. It start with a `FROM` statement, which defines the base image. Usually, this will be a stock OS. Following from that, you can add "layers" onto it by running any arbitrary set of commands. Here is a simple example, which just creates an image with some python libraries installed:
+```
+FROM ubuntu:16.10
 
+RUN apt-get update && apt-get install -y python-numpy python-scipy python-matplotlib
+
+```
+We can save this file as 'Dockerfile' and run `docker build --tag mypythonimage` in the same directory. Docker will run the commands in the Dockerfile and create an image with the name "mypythonimage". If you have an account at an online registry, it is also possible to `docker push` the image to the registry, so it can be shared with others.
+
+### TODO: Online with github and automatic image building
+
+### TODO: Continuous integration testing in docker images
+
+### TODO: HPC with shifter and singularity
 
 
 <!--- 
