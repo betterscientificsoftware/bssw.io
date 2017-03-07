@@ -1,9 +1,16 @@
 # Resource Skeleton
 
-This is a skeleton file to use as a starting point for a new resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](StyleGuide.md).
+This is a skeleton file to use as a starting point for a new resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](../StyleGuide.md).
 
 While this skeleton is appropriate for most new resources on the site, we also provide skeletons for aggregate resources, composed of an introduction to a topic and then multiple topical sections, contributed by potentially different authors.  For this case, see
 [ResourceSkeleton.Aggregate.Base](ResourceSkeleton.Aggregate.Base.md) and [ResourceSkeleton.Aggregate.SectionX](ResourceSkeleton.Aggregate.SectionX.md).
+
+**To add a new resource using this file as a starting point:**
+- View this file in Raw mode.
+- Copy all text.
+- Select `Create New File`.
+- Paste text from existing article into your new document, as a starting point.
+- Continue following instructions in [How To Contribute](../HowToContribute.md).
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
