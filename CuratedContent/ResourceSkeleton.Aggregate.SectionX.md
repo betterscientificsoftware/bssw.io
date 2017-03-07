@@ -19,8 +19,11 @@ The front-end for the BSSW site will combine the information into an aggregate r
  - Etc.
  
  See also [ResourceSkeleton.Aggregate.Base](ResourceSkeleton.Aggregate.Base.md).
+ 
+ A skeleton for new resources that can be covered well in a single file, rather than as an aggregate, is: 
+[ResourceSkeleton.Basic](ResourceSkeleton.Basic.md).
 
-For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
+For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!--- 
 Categories: specify 1 or more categories
