@@ -1,6 +1,6 @@
 # Resource Skeleton: Aggregate: Section X
 
-This is a skeleton file to use as a starting point for a new aggregate resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](StyleGuide.md).
+This is a skeleton file to use as a starting point for a new aggregate resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](../StyleGuide.md).
 
 This is a sample "section" file for an aggregate resource. Provide introductory text for the topic in a separate "base" file and then information on various subtopics in separate "section" files. Use the following metadata to describe the aggregate resource components:
 
@@ -17,6 +17,13 @@ The front-end for the BSSW site will combine the information into an aggregate r
  - Aggregate: Section 2
  - Aggregate: Section 3
  - Etc.
+ 
+ **To add a new resource using this file as a starting point:**
+- View this file in Raw mode.
+- Copy all text.
+- Select `Create New File`.
+- Paste text from existing article into your new document, as a starting point.
+- Continue following instructions in [How To Contribute](../HowToContribute.md).
  
  See also [ResourceSkeleton.Aggregate.Base](ResourceSkeleton.Aggregate.Base.md).
  
