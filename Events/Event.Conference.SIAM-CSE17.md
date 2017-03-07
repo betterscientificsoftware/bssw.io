@@ -66,7 +66,7 @@ Materials for interactive exercises are provided via Git. We encourage participa
 - Slides for tutorial: https://doi.org/10.6084/m9.figshare.c.3704287
 - Coming soon from SIAM: Recorded audio, synchronized with presentation screen
 
-### Invited Presentation: Productive and Sustainable: More Effective Computational Science and Engineering
+### Invited Presentation: Productive and Sustainable: More Effective CSE
 
 Speaker: Mike Heroux, Sandia National Laboratories
 
@@ -74,7 +74,8 @@ Speaker: Mike Heroux, Sandia National Laboratories
 
 In this presentation we discuss elements that impact the effectiveness of CSE efforts, beyond just the direct activities to produce results. We discuss how processes, tools and a holistic view of efforts can lead to more effective CSE. We also discuss the importance of human factors in CSE activities, highlighting ways we can provide natural incentives toward more effective CSE. 
 
-Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62113
+- Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62113
+- Slides for presentation: https://doi.org/10.6084/m9.figshare.4728697
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
