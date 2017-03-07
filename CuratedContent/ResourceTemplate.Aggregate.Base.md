@@ -1,9 +1,9 @@
 
-# Resource Skeleton: Aggregate: Base
+# Resource Template: Aggregate: Base
 
-This is a skeleton file to use as a starting point for a new aggregate resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](../StyleGuide.md).  
+This is a template file to use as a starting point for a new aggregate resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](../StyleGuide.md).  
 
-This is a sample "base" file for an aggregate resource.  Provide introductory text for the topic in this file and then information on various subtopics in separate "section" files. Use the following metadata to describe the aggregate resource components:
+This is a template "base" file for an aggregate resource.  Provide introductory text for the topic in this file and then information on various subtopics in separate "section" files (possibly contributed by different authors). Use the following metadata to describe the aggregate resource components:
 
 This file ("base" for aggregate resource):  
 - Aggregate: Base: [NameOfAggregateResourceBaseFile].md
@@ -23,13 +23,13 @@ The front-end for the BSSW site will combine the information into an aggregate r
 - View this file in Raw mode.
 - Copy all text.
 - Select `Create New File`.
-- Paste text from existing article into your new document, as a starting point.
+- Paste text into your new document, as a starting point. Then edit as you like.
 - Continue following instructions in [How To Contribute](../HowToContribute.md).
 
-See also [ResourceSkeleton.Aggregate.SectionX](ResourceSkeleton.Aggregate.SectionX.md).
+See also [ResourceTemplate.Aggregate.SectionX](ResourceTemplate.Aggregate.SectionX.md).
 
 A skeleton for new resources that can be covered well in a single file, rather than as an aggregate, is: 
-[ResourceSkeleton.Basic](ResourceSkeleton.Basic.md).
+[ResourceTemplate.Basic](ResourceTemplate.Basic.md).
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
@@ -87,7 +87,7 @@ Each aspect of metadata is described below.
 
 Categories: [Primary display via BSSW website interface]
 
-[BSSW curators may add/revise topics as needed over time.]
+[BSSW curators may add/revise categories as needed over time.]
 
     Planning
     Reliability
