@@ -42,13 +42,25 @@ FROM ubuntu:16.10
 RUN apt-get update && apt-get install -y python-numpy python-scipy python-matplotlib
 
 ```
-We can save this file as 'Dockerfile' and run `docker build --tag mypythonimage` in the same directory. Docker will run the commands in the Dockerfile and create an image with the name "mypythonimage". If you have an account at an online registry, it is also possible to `docker push` the image to the registry, so it can be shared with others.
+We can save this file as 'Dockerfile' and run `docker build --tag mypythonimage` in the same directory. Docker will run the commands in the Dockerfile and create an image with the name "mypythonimage". In the `RUN` command, you can put any sequence of commands that you would normally execute, so for example, you could use `wget` to download some external software, and then `cmake` and/or `make install` to install it in the image. 
+If you have an account at an online registry, it is also possible to `docker push` the image to the registry, so it can be shared with others. 
 
-### TODO: Online with github and automatic image building
+### Online with github and automatic image building
 
-### TODO: Continuous integration testing in docker images
+Once you have a `Dockerfile` describing your software stack, it is only natural to put the Dockerfile under revision control, and push it to a repository, such as [github](https://github.com). With a little bit more work, it is also possible to have it [build automatically every time you make a revision](https://docs.docker.com/docker-hub/builds/) and store the image in an online registry. Dockerhub polls github, and rebuilds your image online, every time ([quay.io](https://quay.io) also offers a similar service).
+
+### Continuous integration testing in docker images
+
+Once you have an image in an online registry (such as dockerhub or quay.io), you can point your users at it, and they will
+be able to use it to run your application. Another useful application of container technology is in automated testing or continuous integration. 
+
+TODO: create a "development image"
+TODO: mention bitbucket pipelines
 
 ### TODO: HPC with shifter and singularity
+
+### TODO: Cloud computing with docker
+
 
 
 <!--- 
