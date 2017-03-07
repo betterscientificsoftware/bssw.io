@@ -27,4 +27,4 @@ The exact scope of relevant content will evolve as we learn about community inte
 
 #### Does your idea seem to fit?
 
-If you have an idea that might work, continue to the [How To Contribute](HowtoContribute.md) page.
+If you have an idea that might work, continue to the [How To Contribute](HowToContribute.md) page.
