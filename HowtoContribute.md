@@ -46,4 +46,4 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 **Note: If you are not familiar with GitHub workflows, there are many tutorials to help.**
 
 #### Style Guide
-See the [BSSW Style Guide](StyleGuide.md) for guidance on on naming conventions, descriptive text, and metadata.
+See the [BSSW Style Guide](StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
