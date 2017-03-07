@@ -20,6 +20,14 @@ The exact scope of relevant content will evolve as we learn about community inte
 - General tools for productivity and sustainability that can be widely used by CSE developers.
 - Characterization of challenges and solutions that may be particularly valuable to the CSE community.
 
+#### Highlight Connections to CSE
+- How your topic intersects with themes that are of particular interest to CSE, for example MPI, Fortran, C++, architectures, modeling and simulation.
+- Why your topic could be of particular interest to CSE.
+
+#### Ease of Adoption and Use
+- Address how easy or hard it is to benefit from your topic.
+- Address who would be particularly interested in the topic.
+
 #### Out-of-scope Content
 - Narrow scope, focused on a particular CSE subcommunity.
 - Tools, processes and practices that have little in common with CSE.
