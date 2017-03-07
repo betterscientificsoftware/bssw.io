@@ -169,7 +169,7 @@ Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually
  Aggregate:
 
     Optional info for aggregating content to define a more complex resource
-    Aggregate: Base: filename
+    Aggregate: Base: filename.md
     Aggregate: Section 1
     Aggregate: Section 2
     Aggregate: Section 3
