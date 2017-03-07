@@ -45,7 +45,7 @@ If you have an account at an online registry, it is also possible to `docker pus
 
 #### Online with github and automatic image building
 
-Once you have a `Dockerfile` describing your software stack, it is only natural to put the Dockerfile under revision control, and push it to a repository, such as [github](https://github.com). With a little bit more work, it is also possible to have it [build automatically every time you make a revision](https://docs.docker.com/docker-hub/builds/) and store the image in an online registry. Dockerhub polls github, and rebuilds your image online, every time ([quay.io](https://quay.io) also offers a similar service).
+Once you have a `Dockerfile` describing your software stack, it is only natural to put the Dockerfile under revision control, and push it to a repository, such as [github](https://github.com) or [bitbucket](https://bitbucket.org). With a little bit more work, it is also possible to have it [build automatically every time you make a revision](https://docs.docker.com/docker-hub/builds/) and store the image in an online registry. Dockerhub polls the repository, and rebuilds your image online, every time ([quay.io](https://quay.io) also offers a similar service).
 
 #### Continuous integration testing in docker images
 
