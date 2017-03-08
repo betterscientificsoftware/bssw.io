@@ -1,7 +1,7 @@
 
 # 2017 International Workshop on Software Engineering for Science
 
-Overview:
+**Overview:**
 - Website: https://http://se4science.org/workshops/se4science17/
 - Organizers: Jeff Carver (University of Alabama), Neil Chue Hong (University of Edinburgh)
 - Date: May 22, 2017
@@ -13,7 +13,7 @@ Overview:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!--- 
-Categories: planning
+Categories: planning, crosscutting
 Topics: software engineering
 Tags: workshop
 Level: 2
