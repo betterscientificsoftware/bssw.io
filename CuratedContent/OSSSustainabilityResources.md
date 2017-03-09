@@ -89,3 +89,13 @@ to implement your sustainability plan.
   fighting inequality. One thrust area is
   [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/),
   which funded the Roads & Bridges report on open source.
+
+
+<!---
+Categories: Collaboration, Planning
+Topics: Improving productivity and sustainability, Licensing, Strategies for more effective teams
+Tags: sustainability, links, resources, funding, licenses, podcasts, open source, guides
+Level: 1
+Prerequisites:
+Aggregate:
+--->
