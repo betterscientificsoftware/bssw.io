@@ -34,10 +34,14 @@ CSE software in HPC must address a broad range of complexities, including memory
 HPC software productivity challenges are discussed in the following community report: _**Software Productivity for Extreme-scale Science**_, H. Johansen, L.C. McInnes, et al., 2014, Report on DOE Workshop, http://www.orau.gov/swproductivity2014/SoftwareProductivityWorkshopReport2014.pdf.
 
 ### Communities.  
-Members of diverse research and software communities collaborate on developing and using resources on the BSSW site.  Community-specific landing pages, tailored to unique perspectives and priorities, provide a variety of starting points for using the BSSW site. See the [Communities](Communities.md) page for an introduction to BSSW resources from the perspectives of the Exascale Computing Community, Scientific Libraries Community, Terrestrial Ecosystems Community, Software Engineering Community, etc.
+Members of diverse research and software communities collaborate on developing and using resources on the BSSW site.  Community-specific landing pages, tailored to unique perspectives and priorities, provide a variety of starting points for using the BSSW site. See the [Communities](Communities.md) page for an introduction to BSSW resources from the perspectives of the 
+- Exascale Computing Community
+- Scientific Libraries Community
+- Terrestrial Ecosystems Community
+- Software Engineering Community
+- and others.
 
-
-For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
+For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!--- 
 BSS Site: Get Oriented
