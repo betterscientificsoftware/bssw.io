@@ -10,4 +10,4 @@ The transition of applications to exploit massive on-node concurrency, the requi
 
 ### Learn how the Exascale Computing Community can contribute to the BetterScientificSoftware site
 
-We encourage extreme-scale computing researchers to share ideas about addressing challenges in refactoring, performance portability, and other concerns. See [../What To Contribute](WhatToContribute.md) and [../How To Contribute](HowToContribute.md).
+We encourage extreme-scale computing researchers to share ideas about addressing challenges in refactoring, performance portability, and other concerns. See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
