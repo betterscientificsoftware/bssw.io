@@ -7,4 +7,4 @@ Background paragraph goes here.
 Challenges go here.
 
 ### Learn how the software engineering community can contribute to the BetterScientificSoftware site.
-We encourage softwarse engineeris to share ideas about X,Y,Z, and other concerns.  See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
+We encourage software engineers to share ideas about X,Y,Z, and other concerns.  See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
