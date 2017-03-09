@@ -52,20 +52,6 @@ It is recommended that participants first install Git on their own laptops (see 
  - Resources for tutorial: https://github.com/uwescience/git-tutorials-siamcse2017
  - Coming soon from SIAM: Recorded audio, synchronized with presentation screen
 
-### Tutorial: CSE Collaboration through Software: Improving Productivity and Sustainability
-
-**Presenters:**  David Bernholdt (ORNL), Anshu Dubey (ANL), Mike Heroux (SNL), Alicia Klinvex (SNL), Lois Curfman McInnes (ANL)
-
-**Abstract:** CSE software—crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering—is a foundation of sustained CSE collaboration and scientific progress. However, the need for increasingly broad functionality on ever more complex computer architectures creates daunting challenges for software development and sustainability.
-
-This tutorial provides information on best practices in software engineering explicitly tailored for CSE. Goals are improving the productivity of those who develop CSE software and increasing the sustainability of software artifacts. We will discuss practices that are relevant for projects of all sizes, with emphasis on small teams (for example, a faculty member and collaborating students).
-
-Materials for interactive exercises are provided via Git. We encourage participants to first install Git on their own laptops and create a free account on GitHub (see https://github.com/). 
-
-- Tutorial URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61488
-- Slides for tutorial: https://doi.org/10.6084/m9.figshare.c.3704287
-- Coming soon from SIAM: Recorded audio, synchronized with presentation screen
-
 ### Invited Presentation: Productive and Sustainable: More Effective CSE
 
 Speaker: Mike Heroux, Sandia National Laboratories
@@ -85,5 +71,5 @@ Topics: improving productivity and sustainability
 Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
-Aggregate: none
+Aggregate: Base: Conference.SIAM-CSE17.md
 --->
