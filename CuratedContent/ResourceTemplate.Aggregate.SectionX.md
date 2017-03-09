@@ -38,7 +38,8 @@ Topics: specify 1 or more topics (corresponding to each category)
 Tags: specify optional tags
 Level: specify level of content 
 Prerequisites: specify prerequisites 
-Base: none
+Aggregate: Base: NameOfBaseFile.md
+Aggregate: Section X [where X=1,2,3,... specifies the number of the section, in order of inclusion in the aggregate resrouce]
 --->
 
 <!---
