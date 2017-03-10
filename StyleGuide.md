@@ -64,15 +64,15 @@ Each aspect of metadata is described below.
     - Legacy code
     - Software engineering
 - **Reliability**
-    - Testing
     - Debugging 
+    - Testing
     - Continuous integration testing
     - Reproducibility
 - **Performance**
+    - High-performance computing (HPC)
     - Performance portability
     - Software interoperability
     - Performance at leadership computing facilities (LCFs)
-    - High-performance computing (HPC)
 - **Collaboration**
     - Version control
     - Documentation
@@ -83,6 +83,7 @@ Each aspect of metadata is described below.
 - **Individual Productivity**
     - Personal kanban
     - Personal learning plans
+    - Personal productivity and sustainability
 - **Crosscutting Resources**
     - Funding sources and programs
     - Projects and organizations
