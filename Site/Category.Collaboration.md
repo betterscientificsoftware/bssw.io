@@ -8,18 +8,32 @@
 
 **Topics:**
 - **Version control:** Management of changes to files.  Also known as revision control, source control, or source management.
+
+[2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.]
+
     - [What is Version Control?](../CuratedContent/WhatIsVersionControl.md)
     - [How to Do Version Control with Git in Your CSE Project](..CuratedContent/HowToDoVersionControlWithGitInYourCseProject.md)
     
 - **Documentation:**  Written text or illustration that accompanies computer software to explain how it operates or how to use it.
+
+[2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.]
+
     - [What Is Good Documentation?](../CuratedContent/WhatIsGoodDocumentation.md)
     - [How to Write Good Documentation?](../CuratedContent/HowToWriteGoodDocumentation.md)
     
 - **Issue tracking:** Software that manages and maintains a list of issues (where an issue is a unit of work needed to accomplish an improvement in a system).  An issue could be a bug, feature request, missing documentation, etc.
 
+[2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.]
+
 - **Licensing:** A legal instrument governing the use or redistribution of software.
 
-- **Strategies for more effective teams:**  Ways to foster teamwork, leveraging people's diverse skills in pursuit of a common goal.  
+[2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.]
+
+- **Strategies for more effective teams:**  Ways to foster teamwork, leveraging people's diverse skills in pursuit of a common goal. 
+
+[2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.]
 
 - **Coordination with stakeholders:** Communicating with program managers, sponsors, and other stakeholders about project goals, activities, and progress.
+
+[2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.]
 
