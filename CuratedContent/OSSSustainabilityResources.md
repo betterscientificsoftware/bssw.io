@@ -96,6 +96,6 @@ Categories: Collaboration, Planning
 Topics: Improving productivity and sustainability, Licensing, Strategies for more effective teams
 Tags: sustainability, links, resources, funding, licenses, podcasts, open source, guides
 Level: 1
-Prerequisites:
+Prerequisites: WhatIsSustainability.md
 Aggregate:
 --->
