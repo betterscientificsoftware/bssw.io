@@ -1,23 +1,25 @@
 
-# Resource Template: Aggregate: Base
+# Resource Template: Aggregate Base
 
-This is a template file to use as a starting point for a new aggregate resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](../StyleGuide.md).  
+This is a template "base" file to use as a starting point for a new aggregate resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](../StyleGuide.md).  
 
-This is a template "base" file for an aggregate resource.  Provide introductory text for the topic in this file and then information on various subtopics in separate "section" files (possibly contributed by different authors). Use the following metadata to describe the aggregate resource components:
+Provide introductory text for the topic in this file and then information on various subtopics in separate "subresource" files (possibly contributed by different authors). Use the following format to specify subresources, listed in the order to be shown on front-end BSSW site:
+
+Subresources:
+- [Name of Subresource1](SubresourceFile1.md)
+- [Name of Subresource2](SubresourceFile2.md)
+- etc.
+
+The front-end for the BSSW site will then combine the information into an aggregate resource.  
+
+Use the following metadata to describe the aggregate resource components:
 
 This file ("base" for aggregate resource):  
-- Aggregate: Base: [NameOfAggregateResourceBaseFile].md
+- Aggregate: base
 
 Subtopic resource files:
-- Aggregate: Base: [NameOfAggregateResourceBaseFile].md
-- Aggregate: Section: [number of section in the aggregate, e.g., 1, 2, 3, ...]
-
-The front-end for the BSSW site will combine the information into an aggregate resource as follows:
- - Aggregate: Base
- - Aggregate: Section 1
- - Aggregate: Section 2
- - Aggregate: Section 3
- - Etc.
+- Aggregate: subresource
+The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate.    
  
 **To add a new resource using this file as a starting point:**
 - View this file in Raw mode.
@@ -26,9 +28,9 @@ The front-end for the BSSW site will combine the information into an aggregate r
 - Paste text into your new document, as a starting point. Then edit as you like.
 - Continue following instructions in [How To Contribute](../HowToContribute.md).
 
-See also [ResourceTemplate.Aggregate.SectionX](ResourceTemplate.Aggregate.SectionX.md).
+See also [ResourceTemplate.AggregateSubresource](ResourceTemplate.AggregateSubresource.md).
 
-A skeleton for new resources that can be covered well in a single file, rather than as an aggregate, is: 
+A template for new resources that can be covered well in a single file, rather than as an aggregate, is: 
 [ResourceTemplate.Basic](ResourceTemplate.Basic.md).
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
@@ -39,7 +41,7 @@ Topics: specify 1 or more topics (corresponding to each category)
 Tags: specify optional tags
 Level: specify level of content 
 Prerequisites: specify prerequisites 
-Aggregate: Base: ThisFileName.md
+Aggregate: base
 --->
 
 <!---
@@ -110,15 +112,15 @@ Topics: [Visible filters via BSS website interface]
         Legacy code
         Software engineering
     Reliability
-        Testing
         Debugging
+        Testing
         Continuous integration testing
         Reproducibility
     Performance
+        High-performance computing (HPC)
         Performance portability
         Software interoperability
         Performance at leadership computing facilities (LCFs)
-        High-performance computing (HPC)
     Collaboration
         Version control
         Documentation
@@ -129,6 +131,7 @@ Topics: [Visible filters via BSS website interface]
     Individual Productivity
         Personal kanban
         Personal learning plans
+        Personal productivity and sustainability
     Crosscutting Resources
         Funding sources and programs
         Projects and organizations
@@ -176,10 +179,9 @@ Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually
  Aggregate:
 
     Optional info for aggregating content to define a more complex resource
-    Aggregate: Base: filename.md
-    Aggregate: Section 1
-    Aggregate: Section 2
-    Aggregate: Section 3
-    etc.
+    Aggregate: base (to specify the base of an aggregate resources)
+    Aggregate: subresource (to specify a subresource for an aggregate resource)
+    
+    The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate.    
    
 --->
