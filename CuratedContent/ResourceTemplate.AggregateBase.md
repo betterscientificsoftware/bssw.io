@@ -14,12 +14,13 @@ The front-end for the BSSW site will then combine the information into an aggreg
 
 Use the following metadata to describe the aggregate resource components:
 
-This file ("base" for aggregate resource):  
-- Aggregate: base
+This file ("base"):  
+- Aggregate: base 
+   - The "base" designation indicates that content and metadata will be included from specified subresource files.
 
 Subtopic resource files:
-- Aggregate: subresource
-The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate.    
+- Aggregate: subresource (to specify a subresource for an aggregate resource)
+  - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
  
 **To add a new resource using this file as a starting point:**
 - View this file in Raw mode.
@@ -176,12 +177,12 @@ Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually
 
     prerequisites: filename1.md, filename2.md, etc.
     
- Aggregate:
+Aggregate:
 
-    Optional info for aggregating content to define a more complex resource
-    Aggregate: base (to specify the base of an aggregate resources)
-    Aggregate: subresource (to specify a subresource for an aggregate resource)
-    
-    The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate.    
+   Aggregate: base
+   - The "base" designation indicates that content and metadata will be included from specified subresource files.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](ResourceTemplate.AggregateBase.md) for an example "base" file.
+   
+  Aggregate: subresource
+   - The "subresource" designation indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource metadata will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource. 
    
 --->
