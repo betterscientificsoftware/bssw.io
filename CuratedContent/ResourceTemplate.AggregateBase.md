@@ -5,21 +5,19 @@ This is a template "base" file to use as a starting point for a new aggregate re
 
 Provide introductory text for the topic in this file and then information on various subtopics in separate "subresource" files (possibly contributed by different authors). Use the following format to specify subresources, listed in the order to be shown on front-end BSSW site:
 
-Subresources:
+**Subresources:**
 - [Name of Subresource1](SubresourceFile1.md)
 - [Name of Subresource2](SubresourceFile2.md)
 - etc.
 
-The front-end for the BSSW site will then combine the information into an aggregate resource.  
-
-Use the following metadata to describe the aggregate resource components:
+The front-end for the BSSW site will then combine the information into an aggregate resource.  Use the following metadata to describe the aggregate resource components:
 
 This file ("base"):  
 - Aggregate: base 
-   - The "base" designation indicates that content and metadata will be included from specified subresource files.
+   - The "base" designation indicates that content and metadata will be included from subresource files, as specified in the bulletted list of subresources.
 
 Subtopic resource files:
-- Aggregate: subresource (to specify a subresource for an aggregate resource)
+- Aggregate: subresource
   - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
  
 **To add a new resource using this file as a starting point:**
