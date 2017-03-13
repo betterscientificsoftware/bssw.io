@@ -1,18 +1,23 @@
 
 # SIAM Conference on Computational Science and Engineering (CSE17)
 
-Overview:
+**Overview:**
 - Website: https://www.siam.org/meetings/cse17/
+- Organizers: [SIAM Activity Group on Computational Science and Engineering] (http://www.siam.org/activity/cse/ "SIAG/CSE")
 - Dates: Feb 27 - March 3, 2017
 - Location: Atlanta, GA
 
-**Conference Description:** Computational Science and Engineering (CSE) complement theory and experiment as a critical component of scientific discovery. CSE is indispensable for leading edge investigation and engineering design in a vast number of industrial sectors, including for example, aerospace, automotive, biological, chemical, and semiconductor technologies that all rely increasingly on advanced modeling and simulation. CSE also contributes to policy and decisions relating to human health, resources, transportation, and defense. Finally, in many new areas such as medicine, the life sciences, management and marketing (e.g. data- and stream mining), and finance, techniques and algorithms from CSE are of growing importance.
+**Description:** Computational Science and Engineering (CSE) complement theory and experiment as a critical component of scientific discovery. CSE is indispensable for leading edge investigation and engineering design in a vast number of industrial sectors, including for example, aerospace, automotive, biological, chemical, and semiconductor technologies that all rely increasingly on advanced modeling and simulation. CSE also contributes to policy and decisions relating to human health, resources, transportation, and defense. Finally, in many new areas such as medicine, the life sciences, management and marketing (e.g. data- and stream mining), and finance, techniques and algorithms from CSE are of growing importance.
 
 CSE is naturally interdisciplinary. Its goals concern understanding and analyzing complex systems, predicting their behavior, and optimizing processes and designs. CSE thus grows out of physical applications, while depending on computer architecture and software, and having at its core powerful algorithms. At the frontiers of CSE remain many open problems and challenges, including the verification, validation, and uncertainty quantification of computational models; the analysis and assimilation of large and complex data sets, including techniques for visualization and animation; and the design of flexible CSE software.
 
 The SIAM CSE conference seeks to enable in-depth technical discussions on a wide variety of major computational efforts on large-scale problems in science and engineering, foster the interdisciplinary culture required to meet these large-scale challenges, and promote the training of the next generation of computational scientists. 
 
 ## CSE17 Events on Productivity and Sustainability Topics
+
+Subresources:
+- [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability]
+(../CuratedContent/CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.md)
 
 ### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
 
@@ -67,9 +72,9 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!--- 
 Categories: crosscutting, individual productivity, planning, collaboration, reliability
-Topics: improving productivity and sustainability
-Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim
+Topics: improving productivity and sustainability, [import from subresources]
+Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim, [import from subresources]
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
-Aggregate: Base: Conference.SIAM-CSE17.md
+Aggregate: base
 --->
