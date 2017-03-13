@@ -16,6 +16,5 @@ Topics: testing
 Tags: reliability, reproducibility, robustness, ATPESC, HPC
 Level: 2
 Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md, WhatIsOnlineLearning.md
-Aggregate: Base: SwTestingTutorials.md
-Aggregate: Section 2
+Aggregate: Subresource
 --->
