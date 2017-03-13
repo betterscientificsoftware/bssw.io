@@ -9,16 +9,15 @@ Subresources:
 - [Name of Subresource2](SubresourceFile2.md)
 - etc.
 
-The front-end for the BSSW site will then combine the information into an aggregate resource.  
-
-Use the following metadata to describe the aggregate resource components:
+The front-end for the BSSW site will then combine the information into an aggregate resource.  Used the following metadata to describe the aggregate resource components:
 
 Aggregate resource "base" file:  
 - Aggregate: base
+   - The "base" designation indicates that content and metadata will be included from subresource files, as specified in the bulletted list of subresources.
 
 Subtopic resource files:
 - Aggregate: subresource
-The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate.    
+  - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
  
  **To add a new resource using this file as a starting point:**
 - View this file in Raw mode.
@@ -27,9 +26,9 @@ The "subresource" specification indicates that the item will not be displayed as
 - Paste text into your new document, as a starting point. Then edit as you like.
 - Continue following instructions in [How To Contribute](../HowToContribute.md).
  
- See also [ResourceTemplate.AggregateBase](ResourceTemplate.AggregateBase.md).
+See also [ResourceTemplate.AggregateBase](ResourceTemplate.AggregateBase.md).
  
- A skeleton for new resources that can be covered well in a single file, rather than as an aggregate, is: 
+A template for a new resource that can be handled effectively in a single file, rather than as an aggregate, is: 
 [ResourceTemplate.Basic](ResourceTemplate.Basic.md).
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
@@ -174,12 +173,14 @@ Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually
 
     prerequisites: filename1.md, filename2.md, etc.
     
- Aggregate:
+Aggregate:
 
     Optional info for aggregating content to define a more complex resource
     Aggregate: base (to specify the base of an aggregate resources)
+       - The "base" designation indicates that content and metadata will be included from specified subresource files.  See the file [ResourceTemplate.AggregateBase.md](ResourceTemplate.AggregateBase.md) for an example "base" file.
+       
     Aggregate: subresource (to specify a subresource for an aggregate resource)
     
-    The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate. 
+     - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate. 
    
 --->
