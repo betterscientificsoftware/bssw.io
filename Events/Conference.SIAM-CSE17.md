@@ -15,7 +15,7 @@ The SIAM CSE conference seeks to enable in-depth technical discussions on a wide
 
 ## CSE17 Events on Productivity and Sustainability Topics
 
-Subresources:
+**Subresources:**
 - [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability]
 (../CuratedContent/CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.md)
 
