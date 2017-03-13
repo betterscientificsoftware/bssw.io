@@ -32,6 +32,7 @@ often before they become permanent.
 - eye-wear
 - Room lighting and screen
 - Breaks, Exercises
+- Bad foods for vision
 
 ## Eye Health
 To be written
