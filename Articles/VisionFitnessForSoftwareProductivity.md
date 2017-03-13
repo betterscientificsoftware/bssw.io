@@ -20,8 +20,8 @@ over the age of 40 because the lenses become less flexible requiring more muscle
 The next best thing you can do for your vision is to have your eyes regularly examined by a medical
 professional; an Opthhalmologist or an Optometrist. An Ophthalmologist is best because of the additional years of
 medical training. If you are fortunate enough to have vision insurance through your employer, take advantage of it.
-By building a medical history of your vision, problems can be detected and corrected sooner, often before they become
-permanent.
+By building a medical history of your vision, even subtle changes in vision health can be detected and corrected sooner,
+often before they become permanent.
 
 ## 
 
