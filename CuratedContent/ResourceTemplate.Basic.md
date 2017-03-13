@@ -2,8 +2,7 @@
 
 This is a template file to use as a starting point for a new resource for the Better Scientific Software site.  The comments section of this file includes guidelines on naming conventions and metadata, as provided in the [BSSW Style Guide](../StyleGuide.md).
 
-While this template is appropriate for most new resources on the site, we also provide templates for aggregate resources, composed of an introduction to a topic and then multiple topical sections, contributed by potentially different authors.  For this case, see
-[ResourceTemplate.Aggregate.Base](ResourceTemplate.Aggregate.Base.md) and [ResourceTemplate.Aggregate.SectionX](ResourceTemplate.Aggregate.SectionX.md).
+While this template is appropriate for most new resources on the site, we also provide templates for aggregate resources, composed of an introduction to a topic and then multiple subresources (topical sections), contributed by potentially different authors.  For this case, see [ResourceTemplate.AggregateBase](ResourceTemplate.AggregateBase.md) and [ResourceTemplate.AggregateSubresource](ResourceTemplate.AggregateSubresource.md).
 
 **To add a new resource using this file as a starting point:**
 - View this file in Raw mode.
@@ -20,7 +19,7 @@ Topics: specify 1 or more topics (corresponding to each category)
 Tags: specify optional tags
 Level: specify level of content 
 Prerequisites: specify prerequisites 
-Base: none
+Aggregate: none
 --->
 
 <!---
