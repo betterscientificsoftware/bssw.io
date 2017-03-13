@@ -29,7 +29,7 @@ Subtopic resource files:
 
 See also [ResourceTemplate.AggregateSubresource](ResourceTemplate.AggregateSubresource.md).
 
-A template for new resources that can be covered well in a single file, rather than as an aggregate, is: 
+A template for a new resource that can be handled effectively in a single file, rather than as an aggregate, is: 
 [ResourceTemplate.Basic](ResourceTemplate.Basic.md).
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
@@ -178,7 +178,7 @@ Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually
 Aggregate:
 
    Aggregate: base
-   - The "base" designation indicates that content and metadata will be included from specified subresource files.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](ResourceTemplate.AggregateBase.md) for an example "base" file.
+   - The "base" designation indicates that content and metadata will be included from specified subresource files.  
    
   Aggregate: subresource
    - The "subresource" designation indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource metadata will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource. 
