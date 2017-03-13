@@ -31,7 +31,7 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 #### Footer: Add the following at the bottom of each page:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-#### Metadata:  Include metadata as formatted comments at the end of the file
+#### Metadata: Include metadata as formatted comments at the end of the file
 - **Categories**: Specify 1 or more categories (primary display via BSSW website)
 - **Topics**: Specify 1 or more topics (visible filters via BSSW website)
 - **Tags**: Specify additional tags as keywords for searches (optional)
@@ -41,7 +41,7 @@ For more information on better scientific software, go to the [Better Scientific
 
 Each aspect of metadata is described below.
 
-#### Categories: [Primary display via BSSW website interface]
+#### Categories: Primary display via BSSW website interface
 [BSSW curators may add/revise topics as needed over time.] 
 - Planning
 - Reliability
@@ -50,7 +50,7 @@ Each aspect of metadata is described below.
 - Individual Productivity
 - Crosscutting Resources
 
-#### Topics: [Visible filters via BSS website interface]
+#### Topics: Visible filters via BSS website interface
 - All categories and also finer grain topics within categories
   [BSSW curators may add/revise topics as needed over time.]  
   [Topics: 4-7 per category: family of topics that make sense together]
@@ -91,7 +91,7 @@ Each aspect of metadata is described below.
     - Software publishing and citation
     - On-line learning
 
-#### Tags: [optional additional keywords for searches]
+#### Tags: Optional additional keywords for searches
 - Add/revise topics as needed (important terms from curated content; aim for comprehensive coverage to facilitate searches)
 - ATPESC
 - Bitbucket
@@ -116,7 +116,7 @@ Each aspect of metadata is described below.
 - Workshop
 - etc.
 
-#### Levels:  Specify level of detail and depth of content
+#### Levels: Specify level of detail and depth of content
 - **Level 0**:  BSSW WhatIs document
 - **Level 1**:  BSSW HowTo document (or equivalent level of detail)
 - **Level 2**:  More detailed content, beginner or intermediate levels
@@ -125,11 +125,11 @@ Each aspect of metadata is described below.
 #### Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually Level 0 and Level1 BSSW docs)
 - prerequisites: filename1.md, filename2.md, etc.
 
-#### Aggregate: 
-- Optional info for aggregating content to define a more complex resource
-- Aggregate: Base: filename
-- Aggregate: Section 1
-- Aggregate: Section 2
-- Aggregate: Section 3
-- etc.
+#### Aggregate: Optional info for aggregating content to define a more complex resource
+ - Aggregate: base 
+   - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulletted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
+   
+ - Aggregate: subresource
+   - The "subresource" designation of an aggregate resource indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
+   
 
