@@ -25,8 +25,5 @@ Topics: improving productivity and sustainability, reproducibility, testing, con
 Tags: tutorial
 Level: 2 
 Prerequisites: WhatIsSoftwareProductivity.md 
-Aggregate: Base: ../Events/Conference.SIAM-CSE17.md
-Aggregate: Section 1
-Aggregate: Base: Training.ProductivityAndSustainability.md
-Aggregate: Section 2
+Aggregate: subresource
 --->
