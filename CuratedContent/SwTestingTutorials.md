@@ -8,11 +8,11 @@ Software testing is essential for ensuring robust, reliable software.  Introduct
 
 A variety of tutorials on software testing provide information for various circumstances.
 
-Subresources:
+**Subresources:**
 - [Testing Tutorials for CSE Software](SwTestingTutorials.Cse.md)
 - [Testing Tutorials for General-Purpose Software](SwTestingTutorials.General.md)
 
-For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
+For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!--- 
 Categories: reliability
