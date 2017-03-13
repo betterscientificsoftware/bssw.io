@@ -6,21 +6,19 @@ Software testing is essential for ensuring robust, reliable software.  Introduct
 * [How to Improve Testing for CSE Software] (https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingHowtoAddImproveTestinginyourCSESoftwareProject-V0.2.pdf)
 * [Categorizing Tests for CSE Software] (https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingWhatIsDefinitionandCategorizationofTestsforCSESoftware-V0.2.pdf)
 
-
 A variety of tutorials on software testing provide information for various circumstances.
 
-[placeholder for aggregate resource: Section 1]
-
-[placeholder for aggregate resource: Section 2]
+Subresources:
+- [Testing Tutorials for CSE Software](SwTestingTutorials.Cse.md)
+- [Testing Tutorials for General-Purpose Software](SwTestingTutorials.General.md)
 
 For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!--- 
 Categories: reliability
-Topics: testing
-Tags: reliability, reproducibility, robustness
+Topics: [import from subresources]
+Tags: [import from subresources]
 Level: 2
 Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md
-Aggregate: Base: SwTestingTutorials.md
+Aggregate: base
 --->
-
