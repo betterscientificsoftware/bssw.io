@@ -33,13 +33,11 @@ slides and video for all presentations: https://www.olcf.ornl.gov/training-event
 - _Basic Performance Analysis and Optimization — An Ant Farm Approach_ - [Jack Disleppe (NERSC)](http://www.nersc.gov/about/nersc-staff/application-performance/jack-deslippe/)
     - **Abstract:** How is optimizing HPC applications like an Ant Farm? Attend this presentation to find out. We’ll discuss the basic concepts around optimizing code for the HPC systems of today and tomorrow. These systems require codes to effectively exploit both parallelism between nodes and an ever growing amount of parallelism on-node. We’ll discuss profiling strategies, tools (for profiling and debugging) and common issues with both internode communication and on-node parallelism. We will give an overview of traditional optimizations areas in HPC applications like parallel IO and MPI strong and weak scaling as well as topics relevant for modern GPU and many-core systems like threading, SIMD/AVX, SIMT and effectively using cache and memory hierarchies. The “Ant Farm” approach places a heavy emphasis on the roofline performance model and encouraging users to understand the compute, bandwidth and latency sensitivity of their applications and kernels through a series of easy to perform experiments and an easy to follow flow chart. Finally, we’ll discuss what we expect to change in the optimization process as we move towards exascale computers.
 
-
 <!--- 
 Categories: Planning, Reliability, Collaboration, Crosscutting, Performance
 Topics: improving productivity and sustainability, reproducibility, testing, continuous integration testing, documentation
 Tags: I/O, HPC
 Level: 2 
 Prerequisites: WhatIsSoftwareProductivity.md 
-Aggregate: Base: Training.ProductivityAndSustainability.md
-Aggregate: Section 1
+Aggregate: subresource
 --->
