@@ -9,7 +9,7 @@ _sustainable_ vision health.
 
 ## Understand the Risks
 First, know the risks to your eyes. Eye problems caused by computer work are generally
-classified as _Computer Vision Syndrom (CVS)_. CVS includes a variety of symptoms such as eye fatigue,
+classified as [_Computer Vision Syndrom (CVS)_](https://en.wikipedia.org/wiki/Computer_vision_syndrome). CVS includes a variety of symptoms such as eye fatigue,
 blurred vision, double vision, dry or red eyes, headaches and/or neck or back pain. The most common of
 these is eye fatigue. The eye muscles tire of doing the work required to maintain focus on the screen. As we age,
 this problem can worsen because the lenses become less flexible requiring more muscle work to maintain focus on
