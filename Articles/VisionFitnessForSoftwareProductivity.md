@@ -36,29 +36,12 @@ light in the room. Use LCD monitors with high refresh rates (120Hz and above).
 For your terminal color schemes, should you use light text on dark background or vice versa? The web is full of opinions
 and anecodotal evidence but lacking in formal medical studies with definitive outcomes. It may be that different color
 schemes work better for different people or that routinely alternativing schemes may stave off eye fatigue.
-One color scheme worth considering, however, is [Solarized] (http://ethanschoonover.com/solarized). It offers both dark and light background themes and is designed to maintain good _selective contrast_ for _syntax highlighting_ used in various editors.
-What about fonts? The most important thing about fonts is to use fonts that enable rather than inhibit
+One color scheme worth considering, however, is [Solarized](http://ethanschoonover.com/solarized). It offers both dark and light background themes and is designed to maintain good _selective contrast_ for _syntax highlighting_ used in various editors. You
+can find color _settings_ files for numerous editors and IDEs on [Github](https://github.com/altercation/solarized).
+What about fonts? The most important thing about fonts is to use fonts that enable rather than get in the way of [code development](https://spin.atomicobject.com/2016/07/11/programming-fonts).
 
-
-
-
-## Breaks, Exercises 
-
-- apps (GlassesOff), Flux
-- eye-wear
-- Breaks, Exercises, 20-20-20
-- Bad foods for vision
-
-## Eye Health
-To be written
- - https://glarminy.com/2016/03/29/least-likely-background-colors-to-cause-computer-eye-strain/
- - https://spin.atomicobject.com/2016/07/11/programming-fonts/
- - [Solarized Color Table](http://ethanschoonover.com/solarized)
- - [Fonts](https://essilorusa.com/content/essilor-usa/en/newsroom/news/be_careful_coloran.html)
- - [Actions](http://www.allaboutvision.com/cvs/irritated.htm)
- 
-## Body Health
-
+## Breaks, Exercises and Apps
+Take frequent breaks to briefly rest your eyes. A common best practice is the [_20-20-20_](https://www.labnol.org/software/computer-eye-exercise/14069/) rule...every 20 minutes, find some object 20 feet away and stare at it for 20 seconds. You can find many apps for your phone, pad or laptop that help you to remember to take breaks. There are also apps that help to exercise your eyes and might even be able to [improve your vision](http://www.iflscience.com/brain/apps-can-improve-your-vision/). One in particular, [Flux](https://justgetflux.com) tries to optimize the color mix of your screen's light based on time of day.
 
 <!--- 
 Categories: reliability
