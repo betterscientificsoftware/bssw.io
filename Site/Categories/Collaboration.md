@@ -21,25 +21,25 @@
     - [What Is Good Documentation?](../CuratedContent/WhatIsGoodDocumentation.md)
     - [How to Write Good Documentation?](../CuratedContent/HowToWriteGoodDocumentation.md)
     
-- **Issue tracking:** Software that manages and maintains a list of issues (where an issue is a unit of work needed to accomplish an improvement in a system).  An issue could be a bug, feature request, missing documentation, etc.
+- **Issue tracking:** Software that manages and maintains a list of issues (bugs, feature requests, missing documentation, etc.).
 
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
-   - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
+  An "issue" is defined as a unit of work needed to accomplish an improvement in a system. 2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+   - [What Is Issue Tracking?](../Articles/Site/WhatIsIssueTracking.md)
 
 - **Licensing:** A legal instrument governing the use or redistribution of software.
 
   2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
   
-   - [What Is Licensing?](Topics/WhatIsLicensing.md)
+   - [What Is Licensing?](../Articles/Site/WhatIsLicensing.md)
 
 - **Strategies for more effective teams:**  Ways to foster teamwork, leveraging people's diverse skills in pursuit of a common goal. 
 
   2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
   
-   - [What Are Strategies for More Effective Teams?](Topics/WhatAreStrategiesForMoreEffectiveTeams.md)  
+   - [What Are Strategies for More Effective Teams?](../Articles/Site/WhatAreStrategiesForMoreEffectiveTeams.md)  
 
 - **Coordination with stakeholders:** Communicating with program managers, sponsors, and other stakeholders about project goals, activities, and progress.
    
   2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
   
-   - [What Is Coordination with Stakeholders?](Topics/WhatIsCoordinationWithStakeholders.md)  
+   - [What Is Coordination with Stakeholders?](../Articles/Site/WhatIsCoordinationWithStakeholders.md)  
