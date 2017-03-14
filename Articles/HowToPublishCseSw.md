@@ -22,39 +22,41 @@ The following is a list of journals in use today which specialize,
 to varying degrees, in presenting a scientific software package as a
 piece of scientific literature which can be cited by later works:
 
- - [TOMS]() (ACM Transactions on Mathematical Software):
+ - [TOMS](http://toms.acm.org) (ACM Transactions on Mathematical Software):
    This is a well-established journal whose articles often describe
    novel algorithms and their implementation as mature, usable
    software products.
    It has also pioneered policies to improve the reproducibility
    of published research.
- - [TOMACS]() (ACM Transactions on Modeling and Computer Simulation):
+ - [TOMACS](http://tomacs.acm.org/about.cfm) (ACM Transactions on Modeling and Computer Simulation):
    Another well-established journal, which deals more with applications,
    their impact and results, as well as their methodology
    (e.g. Verification & Validation).
- - [SoftwareX](): An Elsevier journal which aims to ensure software
+ - [SoftwareX](https://www.journals.elsevier.com/softwarex/):
+   An Elsevier journal which aims to ensure software
    is cited and gets credit in the literature.
    This journal accepts submissions regarding software that is used
    in any of a wide range of disciplines, from mathematics to the
    sciences and humanities.
- - [ANS]() (Archive of Numerical Software):
+ - [ANS](http://journals.ub.uni-heidelberg.de/index.php/ans/) (Archive of Numerical Software):
    This journal aims to promote the re-use of high-quality scientific
    software libraries by publishing articles about application software
    that is based on these libraries.
    Authors need to submit a manuscript describing their software.
    ANS also accepts articles that introduce a new library, which may
    then form the basis of future application articles.
- - [JSS]() (Journal of Statistical Software):
+ - [JSS](https://www.jstatsoft.org/index) (Journal of Statistical Software):
    Like TOMS, but with a focus on software which implements statistical
    methods rather than other mathematical modeling topics.
- - [JOSS]() (The Journal of Open Source Software): This journal provides
+ - [JOSS](http://joss.theoj.org) (The Journal of Open Source Software): This journal provides
    authors with a DOI for their software package without requiring a
    full-length manuscript.
    Instead, authors must demonstrate (via a form of peer review) that
    their package follows certain best practices of open-source software,
    including proper licensing and documentation,
    and helps meet scientific research challenges.
- - [Zenodo]() Like JOSS, Zenodo can provide a DOI for your software.
+ - [Zenodo](https://zenodo.org)
+   Like JOSS, Zenodo can provide a DOI for your software.
    Unlike JOSS, it does not require a review of the software,
    and can generate a DOI for each release of your package via GitHub
    integration.
