@@ -129,7 +129,8 @@ Each aspect of metadata is described below.
  - Aggregate: base 
    - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulletted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](CuratedContent/ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
    
- - Aggregate: subresource
-   - The "subresource" designation of an aggregate resource indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
-   
+- Aggregate: subresource
+  - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  
 
+- Aggregate: stand-alone and subresource
+   - The "stand-alone and subresource" specification indicates that the item will be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
