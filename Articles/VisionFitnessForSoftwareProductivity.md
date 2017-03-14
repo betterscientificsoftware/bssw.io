@@ -27,15 +27,15 @@ early, often before they become such that permanent eye-wear is needed.
 
 ## Monitor and Room Lighting
 Avoid glare and or light sources in your field of view, even the periphery, as you look at your computer screen. For
-example, avoid having your screen positioned in front a window. For most office spaces, the ambient light should be
+example, avoid having your screen positioned in front of a window. For most office spaces, the ambient light should be
 about half of what the office lighting was designed for. Indirect lighting (off the cieling or wall) is better than
-direct lighting because its more diffuse. Adjust your monitor brightness to match the ambient
+direct lighting because it's more diffuse. Adjust your monitor brightness to match the ambient
 light in the room. Use LCD monitors with high refresh rates (120Hz and above).
 
 ## Fonts and Color Schemes
 For your terminal color schemes, should you use light text on dark background or vice versa? The web is full of opinions
 and anecodotal evidence but lacking in formal medical studies with definitive outcomes. It may be that different color
-schemes work better for different people or that routinely alternativing schemes may stave off eye fatigue.
+schemes work better for different people or that routinely alternating schemes may stave off eye fatigue.
 One color scheme worth considering, however, is [Solarized](http://ethanschoonover.com/solarized). It offers both dark and light background themes and is designed to maintain good _selective contrast_ for _syntax highlighting_ used in various editors. You
 can find color _settings_ files for numerous editors and IDEs on [Github](https://github.com/altercation/solarized).
 What about fonts? The most important thing about fonts is to use fonts that enable rather than get in the way of [code development](https://spin.atomicobject.com/2016/07/11/programming-fonts).
