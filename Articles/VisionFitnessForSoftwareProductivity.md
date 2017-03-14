@@ -10,22 +10,26 @@ _sustainable_ vision health.
 ## Understand the Risks
 First, know the risks to your eyes. Eye problems caused by computer work are generally
 classified as _Computer Vision Syndrom (CVS)_. CVS includes a variety of symptoms such as eye fatigue,
-blurred vision, double vision, dry or red eyes, headaches and/or neck or back pain. The single most common of
+blurred vision, double vision, dry or red eyes, headaches and/or neck or back pain. The most common of
 these is eye fatigue. The eye muscles tire of doing the work required to maintain focus on the screen. As we age,
-this problem can worsen and may become particularly noticeable over the age of 40 because the lenses become less
-flexible requiring more muscle work to maintain focus on close objects.
+this problem can worsen because the lenses become less flexible requiring more muscle work to maintain focus on
+the screen.
 
 ## Yearly Eye Exams
 The next best thing you can do for your vision is to have your eyes regularly examined by a medical
 professional; an Opthhalmologist or an Optometrist. An Ophthalmologist is best because of the additional years of
 medical training. If you are fortunate enough to have vision insurance through your employer, take advantage of it.
+Many programs cover annual vision exams and a yearly perscription for _computer glasses_. Also, be aware that
+[_computer glasses_](http://lifehacker.com/5980509/do-computer-glasses-really-work)
+are different from _reading glasses_ due to the difference in distance the eyes have to focus for computer work vs. reading.
 By building a medical history of your vision, even subtle changes in vision health can be detected and corrected
-early, often before they become permanent.
+early, often before they become such that permanent eye-wear is needed.
 
 ## Monitor and Room Lighting
 Avoid glare and or light sources in your field of view, even the periphery, as you look at your computer screen. For
 example, avoid having your screen positioned in front a window. For most office spaces, the ambient light should be
-about half of what the office lighting was designed for. Adjust your monitor brightness to match the ambient
+about half of what the office lighting was designed for. Indirect lighting (off the cieling or wall) is better than
+direct lighting because its more diffuse. Adjust your monitor brightness to match the ambient
 light in the room. Use LCD monitors with high refresh rates (120Hz and above).
 
 ## Fonts and Color Schemes
