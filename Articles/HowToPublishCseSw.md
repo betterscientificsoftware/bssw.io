@@ -1,6 +1,6 @@
 # How to Publish CSE Software
 
-#### Contributed by [Dan Ibanez](@ibaned)
+#### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
 CSE software is used to generate many significant results
 in the scientific literature.
