@@ -16,22 +16,8 @@ The SIAM CSE conference seeks to enable in-depth technical discussions on a wide
 ## CSE17 Events on Productivity and Sustainability Topics
 
 **Subresources:**
-- [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability]
-(../CuratedContent/CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.md)
-
-### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
-
-**Organizers:**  David Bernholdt (ORNL), Mike Heroux (SNL), Dan Katz (University of Illinois), Anders Logg (Chalmers University of Technology), Lois Curfman McInnes (ANL)
-
-**Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community. 
-
-The minisymposium speakers and poster presenters discuss work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby is helping software to fulfill its critical role as a cornerstone of long-term CSE collaboration.
-
-- Minisymposium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947
-- Slides for presentations: https://doi.org/10.6084/m9.figshare.c.3705946
-
-- Minisymposterium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022
-- Posters: https://doi.org/10.6084/m9.figshare.c.3703771
+- [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability](../CuratedContent/CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.SIAM-CSE17.md)
+- [Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science](../CuratedContent/SwProductivityAndSustainabilityForCseAndDataScience.SIAM-CSE17.md)
 
 ### Minisymposium: How to Succeed with Open Source Software
 
