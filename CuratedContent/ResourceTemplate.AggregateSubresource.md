@@ -19,7 +19,7 @@ Subtopic resource files:
 - Aggregate: subresource
   - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
  
- **To add a new resource using this file as a starting point:**
+**To add a new resource using this file as a starting point:**
 - View this file in Raw mode.
 - Copy all text.
 - Select `Create New File`.
