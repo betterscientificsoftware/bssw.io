@@ -18,8 +18,8 @@ the screen.
 ## Yearly Eye Exams
 The next best thing you can do for your vision is to have your eyes regularly examined by a medical
 professional; an Opthhalmologist or an Optometrist. An Ophthalmologist is best because of the additional years of
-medical training. If you are fortunate enough to have vision insurance through your employer, take advantage of it.
-Many programs cover annual vision exams and a yearly perscription for _computer glasses_. Also, be aware that
+medical training. If you are fortunate enough to have vision insurance, take advantage of it.
+Many programs cover annual vision exams and perscription _computer glasses_. Also, be aware that
 [_computer glasses_](http://lifehacker.com/5980509/do-computer-glasses-really-work)
 are different from _reading glasses_ due to the difference in distance the eyes have to focus for computer work vs. reading.
 By building a medical history of your vision, even subtle changes in vision health can be detected and corrected
