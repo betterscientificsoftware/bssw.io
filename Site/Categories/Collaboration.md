@@ -30,9 +30,9 @@
 
 - **Licensing:** A legal instrument governing the use or redistribution of software.
 
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+  Copyright and patents are two of the primary legal frameworks used around the world to govern the intellectual property rights associated with software.  Patents are related to the novel ideas embodied in the software, while copyright is associated with the expression of the code itself.  License agreements provide a means for the owners of the intellectual property rights to selectively grant rights to others, such as the use or redistribution of the software.
 
-   - [What Is Licensing?](Topics/WhatIsLicensing.md)
+   - [What Is Software Intellectual Property?](Topics/WhatIsSoftwareIntellectualProperty.md)
 
 - **Strategies for more effective teams:**  Ways to foster teamwork, leveraging people's diverse skills in pursuit of a common goal.
 
