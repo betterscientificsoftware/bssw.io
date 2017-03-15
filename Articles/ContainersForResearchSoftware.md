@@ -15,7 +15,7 @@ Many of the popular base environments are available in the docker online registr
 docker run -ti ubuntu
 ```
 (the `-ti` option means "connect a terminal in interactive mode"). Running this command will give you a root terminal in an
-ubuntu distribution, and you can do whatever you like with it. Other distributions are available, e.g. `docker run -ti centos`. It is also possible to specify a revision, e.g. `docker run -ti ubuntu:16.04`.
+ubuntu distribution, and you can do whatever you like with it. Other distributions are available, e.g. `docker run -ti centos`. It is also possible to specify a revision, e.g. `docker run -ti ubuntu:16.04`. **Note**: docker requires a direct internet connection in order to pull the images. It has been observed that VPNs or caching DNS servers can cause problems. Disable any VPN and/or DNS proxy configuration before running docker.
 
 ### Managing docker
 
@@ -40,7 +40,7 @@ FROM ubuntu:16.10
 RUN apt-get update && apt-get install -y python-numpy python-scipy python-matplotlib
 
 ```
-We can save this file as 'Dockerfile' and run `docker build --tag mypythonimage` in the same directory. Docker will run the commands in the Dockerfile and create an image with the name "mypythonimage". In the `RUN` command, you can put any sequence of commands that you would normally execute, so for example, you could use `wget` to download some external software, and then `cmake` and/or `make install` to install it in the image. 
+We can save this file as 'Dockerfile' and run `docker build --tag mypythonimage .` in the same directory (note the "."). Docker will run the commands in the Dockerfile and create an image with the name "mypythonimage". In the `RUN` command, you can put any sequence of commands that you would normally execute, so for example, you could use `wget` to download some external software, and then `cmake` and/or `make install` to install it in the image. 
 If you have an account at an online registry, it is also possible to `docker push` the image to the registry, so it can be shared with others. 
 
 #### Online with github and automatic image building
