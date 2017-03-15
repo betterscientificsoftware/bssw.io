@@ -12,8 +12,8 @@
 
   2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
 
-    - [What Is Software Productivity?](Topics/WhatIsSwProductivity.md)
-    - [What Is Software Sustainability?](Topics/WhatIsSwSustainability.md)
+    - [What Is Productivity?](Topics/WhatIsProductivity.md)
+    - [What Is Sustainability?](Topics/WhatIsSustainability.md)
 
 - **Requirements:** Short description goes here.  1 phrase only. length estimate [xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx]
 
