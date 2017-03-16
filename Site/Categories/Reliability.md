@@ -8,9 +8,9 @@
 
 **Topics:**
 
-- **Debugging:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx.
+- **Debugging:** The process of finding and fixing defects in software.
 
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+  Debugging involves the creative application of a variety of strategies and/or tools to diagnose the cause of a defective software behavior, to develop and implement a correction and finally to confirm, typically through [_regression testing_](https://en.wikipedia.org/wiki/Regression_testing), the correction fixes the defect without introducing more defects.
 
     - [What Is Debugging?](Topics/WhatIsDebugging.md)
 
