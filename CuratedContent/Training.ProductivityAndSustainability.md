@@ -5,8 +5,7 @@ Information on effective practices for scientific software can help individuals 
 A variety of tutorials, webinars, and training sessions provide resources for improving various aspects of software productivity.  
 
 **Subresources:**
-- [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability]
-(CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.SIAM-CSE17.md)
+- [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability](CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.SIAM-CSE17.md)
 - [Webinar Series: Best Practices for HPC Software Developers](BestPracticesForHPCSwDevelopersWebinarSeries.md)
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
