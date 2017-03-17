@@ -27,6 +27,7 @@
   An "issue" is defined as a unit of work needed to accomplish an improvement in a system. 2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
 
    - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
+   - [Placeholder Text](/IssueTrackingPlaceholder.md)
 
 - **Licensing:** A legal instrument governing the use or redistribution of software.
 
