@@ -21,9 +21,9 @@
     - [What Is CSE Software Testing](../CuratedContent/WhatIsCseSwTesting.md)
     - [How To Improve Testing for CSE Software](../CuratedContent/HowToImproveTestingForCseSw.md)
 
-- **Continuous integration testing:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx.
+- **Continuous integration testing:** Testing occurs at the same frequency and granularity as _isolated_ code changes.
 
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+  Taken to its extreme, you can think of continuous integration (CI) testing like auto-correct in a word processor where code tests are performed with each key-stroke entered by a programmer. Of course, this isn't truly practical. However CI testing is aimed in the direction of high frequency and fine grained testing of each isolated code change committed by developers.
 
     - [What Is Continuous Integration Testing?](Topics/WhatIsContinuousIntegrationTesting.md)
 
