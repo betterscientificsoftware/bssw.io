@@ -1,3 +1,5 @@
+# What is Debugging?
+
 Defects in software (e.g. _bugs_) can take many forms. Defects are generally described as causing
 unexpected or unintended behavior including outright crashes, incorrect or invalid
 results, missing or disabled functionality and unexpected time and/or space performance.
