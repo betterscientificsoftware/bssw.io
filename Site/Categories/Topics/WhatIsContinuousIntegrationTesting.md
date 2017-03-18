@@ -19,7 +19,7 @@ may be many times per day and granularity may be each method/function/subroutine
 As a purely conceptual tool in understaind the aims of CI, one can imagine CI testing like _auto correct_
 in a word processor where programmers would get immediate feedback regarding test status with each key-stroke.
 
-CI testing has a number of implications for **both** software and test development. First, it can demand a
+CI testing may have a number of implications for **both** software and test development. First, it can demand a
 very high level of _automation_.
 
 * Commits on multiple branches can be automatically merged.
@@ -27,7 +27,7 @@ very high level of _automation_.
 * Only _relevant_ tests can be automatically determined for a given commit.
 * The cause of test failures can be automatically localized to a given developer's commit(s).
 
-Next, it often requires that tests be designed with several important attributes
+Next, CI testing can often require that tests be designed with several important attributes
 
 * Tests _know_ which code blocks they depend on.
 * Different tests do not depend on each other.
