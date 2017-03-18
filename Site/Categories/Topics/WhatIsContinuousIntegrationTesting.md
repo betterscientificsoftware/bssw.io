@@ -10,11 +10,14 @@ from development processes. Instead of develop, develop, develop, test, test, te
 develop, test, develop, test, develop, test. 
 
 What constitutes _reasonable_ frequency and granularity for CI testing? Teams are free to define what
-is _reasonable_ and this can vary among teams. For some teams, frequency may be once at the end of each
-day and granularity may be _completed_ bug fixes or enhancements. For high functioning CI, frequency may
-be many times per day and granularity may be each method/function/subroutine added or changed. Taken to its
-extreme, one can conceptualize of CI testing like _auto correct_ in a word processor where programmers would
-get immediate feedback regarding test status with each key-stroke.
+is _reasonable_ and this can vary among and even within teams for different categories of work.
+For some teams, frequency may be once at the end of each day and granularity may be _completed_ bug fixes.
+For high functioning CI, frequency may be many times per day and granularity may be each method/function/subroutine
+added or changed. Taken to its extreme, one can conceptualize of CI testing like _auto correct_ in a word
+processor where programmers would get immediate feedback regarding test status with each key-stroke.
+Even within a team, different categories of work may be handled with different frequency and granularity.
+For example, major enhancments requiring many person-weeks of development, may be use a frequency of a week
+and a granularity of whatever amount of work is completed in a week.
 
 CI testing has a number of implications for **both** software and test development. First, it can demand a
 very high level of _automation_.
