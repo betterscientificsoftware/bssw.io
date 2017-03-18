@@ -24,7 +24,7 @@
 
 - **Issue tracking:** is the process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team. 
 
-  An issue *tracker* is a software system that is used by the software developers to keep track of the issues (who is responsible for each issue, when the issue was reported, etc). Most modern issue trackers are web-based and provide rich functionality for adding new issues, assigning issues to developers, recording notes on the issue, linking repository commits associated with the issue, etc. Issue trackers can also be used to plan new development activities. 
+  An issue *tracker* is a software system that is used by the software developers to keep track of the issues (who is responsible for each issue, when the issue was reported, etc). Most modern issue trackers used in the open source community are web-based and provide rich functionality for adding new issues, assigning issues to developers, recording notes on the issue, linking repository commits associated with the issue, etc. Issue trackers can also be used to plan new development activities. 
   
    - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
 
