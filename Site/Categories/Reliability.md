@@ -21,9 +21,9 @@
     - [What Is CSE Software Testing](../CuratedContent/WhatIsCseSwTesting.md)
     - [How To Improve Testing for CSE Software](../CuratedContent/HowToImproveTestingForCseSw.md)
 
-- **Continuous integration testing:** Branch changes are combined and tested on a sub-daily basis.
+- **Continuous integration testing:** Branch changes are merged and tested with high frequency.
 
-  Taken to its extreme, one can think of continuous integration (CI) testing like auto-correct in a word processor where tests would be performed with each key-stroke entered by a programmer. Of course, that is neither practical nor likely to be too meaningful. However CI testing does mean that code changes, even on multiple branches of development, are combined and tested on a daily even hourly basis. 
+  Taken to its extreme, one can think of continuous integration (CI) testing like auto-correct in a word processor where tests would be performed with each key-stroke entered by a programmer. Of course, that is neither practical nor likely to be too meaningful. However CI testing does mean that code changes, even on multiple branches of development, are merged and tested very frequently. 
   
     - [What Is Continuous Integration Testing?](Topics/WhatIsContinuousIntegrationTesting.md)
 
