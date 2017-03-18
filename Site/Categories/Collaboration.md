@@ -22,12 +22,11 @@
     - [What Is Good Documentation?](../CuratedContent/WhatIsGoodDocumentation.md)
     - [How to Write Good Documentation?](../CuratedContent/HowToWriteGoodDocumentation.md)
 
-- **Issue tracking:** Software that manages and maintains a list of issues (bugs, feature requests, missing documentation, etc.).
+- **Issue tracking:** is the process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team. 
 
-  An "issue" is defined as a unit of work needed to accomplish an improvement in a system. 2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
-
+  An issue *tracker* is a software system that is used by the software developers to keep track of the issues (who is responsible for each issue, when the issue was reported, etc). Most modern issue trackers are web-based and provide rich functionality for adding new issues, assigning issues to developers, recording notes on the issue, linking repository commits associated with the issue, etc. Issue trackers can also be used to plan new development activities. 
+  
    - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
-   - [Placeholder Text](/IssueTrackingPlaceholder.md)
 
 - **Licensing:** A legal instrument governing the use or redistribution of software.
 
