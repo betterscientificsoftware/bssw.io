@@ -2,23 +2,22 @@
 
 Continuous integration (CI) testing is a particular way of testing software that is aimed at testing
 the merged changes from multiple branches of development, with the highest _reasonable_ frequency
-and smallest _reasonable_ granularity of changes. _Continuous_ means that merged changes are continuously
-tested. _Integration_ means a
-couple of things. First, it means that the changes from multiple branches are merged and the _integrated_
-result is tested. It also means that testing processes are integrated with as opposed to standing apart 
+and smallest _reasonable_ granularity of changes. _Continuous_ means that changes are being continuously
+merged and tested. _Integration_ means that changes from multiple branches are merged and the _integrated_
+result is tested. _Integration_ also means that testing processes are integrated with as opposed to standing apart 
 from development processes. Instead of develop, develop, develop, test, test, test, it is
 develop, test, develop, test, develop, test. 
 
 What constitutes _reasonable_ frequency and granularity for CI testing? Teams are free to define what
-is _reasonable_ and this can vary among and even within teams for different categories of work.
-For some teams, frequency may be once at the end of each day and granularity may be _completed_ bug fixes.
-Even within a team, different categories of work may be handled with different frequency and granularity.
-For example, major enhancments requiring many person-weeks of development, may be use a frequency of a week
-and a granularity of whatever amount of work is completed in a week. For high functioning CI, frequency
-may be many times per day and granularity may be each method/function/subroutine added or changed.
-As a purely conceptual tool in understanding the aims of CI, one can imagine CI testing takien to the extreme
-being like _auto correct_ in a word processor where programmers would get immediate feedback regarding test
-status with each key-stroke they enter.
+is _reasonable_. This can vary amoung teams. Even within a team, different categories of work may be
+handled with different frequency and granularity. For example, for bug-fix work, frequency may be once
+at the end of each day and granularity may be _completed_ bug fixes whereas for feature enhancements
+requiring many person-weeks of development, frequency may be once a week and granularity whatever
+coherent changes are completed in a week of work. For high functioning CI, frequency may be many times
+per day and granularity may be each method/function/subroutine added or changed. As a purely conceptual
+tool in understanding the aims of CI, one can imagine CI testing taken to the extreme being like _auto correct_
+in a word processor where programmers would get immediate feedback regarding test status with each key-stroke
+they enter.
 
 CI testing may have a number of implications for **both** software and test development. First, it can demand a
 very high level of _automation_.
@@ -36,13 +35,14 @@ Next, CI testing can often require that tests be designed with several important
 * Multiple tests can be executed in parallel.
 * Tests are designed and compute resources are such that tests complete with immediacy.
 
-The ability to do CI testing can also mean that software changes are designed to follow incrimental
-stages of development. It means that new tests are added and obsoleted tests updated or removed,
-almost as often as the code that is being tested. Finally, it can require that test coverage be high
+High frequency and/or fine granularity of CI testing can also mean that software changes are designed
+to follow incrimental stages of development. It means that new tests are added and obsoleted tests updated
+or removed, almost as often as the code that is being tested. Finally, it can require that test coverage be high
 enough that relatively small, isolated code changes anywhere in the code wind up being tested. In
-particlar, CI testing can mean that developers are prevented from working on separate branches of
+particlar, CI testing typically means that developers are prevented from working on separate branches of
 development for extended periods without being required to merge other's work with their own on a
-routine basis.
+routine basis. Indeed, this is one of the aims of CI testing; to prevent any one branch of development to
+fall too far out of sync with any other.
 
 Compute resources necessary to complete tests must be sufficient that CI testing feedback to developers
 is immediate or nearly so. Typically, for CSE/HPC codes, this means that only certain types of tests are
