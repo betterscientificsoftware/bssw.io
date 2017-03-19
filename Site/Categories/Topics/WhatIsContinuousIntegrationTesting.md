@@ -16,16 +16,17 @@ Even within a team, different categories of work may be handled with different f
 For example, major enhancments requiring many person-weeks of development, may be use a frequency of a week
 and a granularity of whatever amount of work is completed in a week. For high functioning CI, frequency
 may be many times per day and granularity may be each method/function/subroutine added or changed.
-As a purely conceptual tool in understaind the aims of CI, one can imagine CI testing like _auto correct_
-in a word processor where programmers would get immediate feedback regarding test status with each key-stroke.
+As a purely conceptual tool in understanding the aims of CI, one can imagine CI testing takien to the extreme
+being like _auto correct_ in a word processor where programmers would get immediate feedback regarding test
+status with each key-stroke they enter.
 
 CI testing may have a number of implications for **both** software and test development. First, it can demand a
 very high level of _automation_.
 
 * Commits on multiple branches can be automatically merged.
 * Tests can be automatically triggered as commits are made.
-* Only _relevant_ tests can be automatically determined for a given commit.
-* The cause of test failures can be automatically localized to a given developer's commit(s).
+* _Relevant_ tests can be automatically determined for a given commit.
+* The cause of test failures can be automatically attributed to a given developer's commit(s).
 
 Next, CI testing can often require that tests be designed with several important attributes
 
