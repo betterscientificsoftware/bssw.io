@@ -4,8 +4,6 @@
 
 **Brief Overview:** Software is the key crosscutting technology that sustains long-term CSE collaboration, encapsulating advances in applied mathematics, computer science, and domain-specific science and engineering for use by others.  We provide information for CSE projects of all sizes, ranging from small teams (for example, a professor and collaborating students) to broad partnerships that span different scientific, institutional, and geographic areas.  
 
-**Quote:** “Alone we can do so little; together we can do so much.”  — Helen Keller
-
 **Topics:**
 
 - **Version control:** Management of changes to files.  Also known as revision control, source control, or source management.
@@ -22,10 +20,10 @@
     - [What Is Good Documentation?](../CuratedContent/WhatIsGoodDocumentation.md)
     - [How to Write Good Documentation?](../CuratedContent/HowToWriteGoodDocumentation.md)
 
-- **Issue tracking:** is the process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team. 
+- **Issue tracking:** is the process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
 
-  An issue *tracker* is a software system that is used by the software developers to keep track of the issues (who is responsible for each issue, when the issue was reported, etc). Most modern issue trackers used in the open source community are web-based and provide rich functionality for adding new issues, assigning issues to developers, recording notes on the issue, linking repository commits associated with the issue, etc. Issue trackers can also be used to plan new development activities. 
-  
+  An issue *tracker* is a software system that is used by the software developers to keep track of the issues (who is responsible for each issue, when the issue was reported, etc). Most modern issue trackers used in the open source community are web-based and provide rich functionality for adding new issues, assigning issues to developers, recording notes on the issue, linking repository commits associated with the issue, etc. Issue trackers can also be used to plan new development activities.
+
    - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
 
 - **Licensing:** A legal instrument governing the use or redistribution of software.

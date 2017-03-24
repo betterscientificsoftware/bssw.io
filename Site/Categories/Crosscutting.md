@@ -4,8 +4,6 @@
 
 **Brief Overview:** [Description goes here.]
 
-**Quote:** “The function of good software is to make the complex appear to be simple.” — Grady Booch
-
 **Topics:**
 
 - **Funding sources and programs:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx.
