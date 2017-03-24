@@ -1,37 +1,32 @@
 # Crosscutting Resources
 
-**Basic Description:**  Strategies for better software for the advancement of science—topics spanning across several categories.
+**Description:**  Strategies for better software for the advancement of science -- topics spanning several categories.
 
-**Brief Overview:** [Description goes here.]
+**Overview:** [Description goes here.]
 
 **Topics:**
 
-- **Funding sources and programs:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx.
-
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+- **Funding sources and programs:**
+Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
     - [What Are Funding Sources and Programs Addressing Better Scientific Software?](Topics/WhatAreFundingSourcesAndProgramsAddressingBetterScientificSw.md)
 
-- **Projects and organizations:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx.
-
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+- **Projects and organizations:**
+Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
     - [What Are Projects and Organizations Addressing Better Scientific Software?](Topics/WhatAreProjectsAndOrganizationsAddressingBetterScientificSw.md)
 
-- **Discussion forums, Q&A sites:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx.
-
-    2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+- **Discussion forums, Q&A sites:**
+Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
     - [What Are Discussion Forums and Q&A Sites for Better Scientific Software?](Topics/WhatAreDisussionForumsAndQASitesForBetterScientificSw.md)
 
-- **Software publishing and citation:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxxx.
-
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+- **Software publishing and citation:**
+Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
     - [What Is Work on Software Publishing and Citation?](Topics/WhatIsWorkOnSwPublishingAndCitation.md)
 
-- **Online learning:** Short description goes here.  1 phrase only. length estimate xxxxx xxxxx xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxx xxxx.
-
-  2-sentence description goes here. estimate of space is xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx.
+- **Online learning:**
+Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
     - [What Is Online Learning?](Topics/WhatIsOnlineLearning.md)
