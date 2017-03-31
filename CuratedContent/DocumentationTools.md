@@ -11,7 +11,7 @@ A variety of tools exist for writing, rendering, and managing documentation.
 **Subresources:**
 - [Doxygen](DocumentationTools.Doxygen.md)
 - ReadTheDocs
-- Sphinx
+- [Sphinx](DocumentationTools.Sphinx.md)
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 
