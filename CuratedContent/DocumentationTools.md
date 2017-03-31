@@ -9,7 +9,7 @@ interacted with.  Introductory information:
 A variety of tools exist for writing, rendering, and managing documentation.
 
 **Subresources:**
-- Doxygen
+- [Doxygen](DocumentationTools.Doxygen.md)
 - ReadTheDocs
 - Sphinx
 
