@@ -13,7 +13,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [What Is Sustainability?](Topics/WhatIsSustainability.md)
 
 - **Requirements:**
-Requirements are statements about *what* a new software product shall do avoiding unnecessary constraints in *how* it shall do it.
+Statements about *what* operations a software product shall perform including constraints, if any, under which it shall operate but avoiding as much as practical constraints on *how* it shall be implemented.
 
     - [What Are CSE Software Requirements?](Topics/WhatAreCseSwRequirements.md)
 
