@@ -10,7 +10,10 @@ the complete capabilities of a software component, product or system. The result
 
 In CSE, software requirements typically arise out of the needs of users to perform some computational operation. For example,
 given a software package to model the [Heat Equation](https://en.wikipedia.org/wiki/Heat_equation), users may *require* that
-the package support anisotropic thermally conductive media.
+the package support anisotropic thermally conductive media or that it support strong scaling of the homogenous
+
+For software developers, requirements are necessary to understand the capabilities their software must meet. For software users,
+requirements are necessary 
 
 
 why need them?
