@@ -21,7 +21,7 @@ crux and challange of *legacy code*.
 
 In legacy code, changes to the code base are required to be *evolutionary* rather than *revolutionary*. Eventually,
 however, even evolutionary code changes can become intractible. Typically, by the time legacy code faces this demise,
-typically after 20 or more years of use, the evolutionary approach has provided ample time for suitable alternatives
+often after 20 or more years of use, the evolutionary approach has provided ample time for suitable alternatives
 to develop and become adopted.
 
 A simple way to think about *legacy* code is that it is really, really old source code from a bygone era but which
