@@ -9,7 +9,7 @@ engineering tool. These include
 * User training and expertise in use of the tool
 * Input model development costs
 * Community adoption and development costs
-* Perceived or measured committment to results validity
+* Perceived or measured committment to validity of results
 
 Eventually, investments in a computational engineering tool, both tangible and intangible, become so great that
 whole-sale re-write (that is throwing existing code out and re-writing from scratch), is not seen as an acceptable
