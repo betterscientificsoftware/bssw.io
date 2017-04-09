@@ -13,7 +13,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [What Is Sustainability?](Topics/WhatIsSustainability.md)
 
 - **Requirements:**
-Statements about *what* operations a software product shall perform including constraints, if any, under which it shall operate but avoiding as much as practical constraints on *how* it shall be implemented.
+Statements about *what* functions a software product shall perform including any constraints under which it shall operate but avoiding any entanglements in *how* it shall be implemented.
 
     - [What Are CSE Software Requirements?](Topics/WhatAreCseSwRequirements.md)
 
