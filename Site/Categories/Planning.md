@@ -39,7 +39,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 
 - **Legacy code:**
-Source code developed with computing technology (e.g. hardware, languages) that is no longer supported but that is still required to operate with newer technology. 
+Source code developed for/with computing technology (e.g. hardware, languages) that is no longer supported yet is still required to work with current technology. 
 
     - [What Is CSE Legacy Code?](Topics/WhatIsCseLegacyCode.md)
 
