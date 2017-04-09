@@ -1,6 +1,16 @@
 
 # What are CSE Software Requirements?
 
+In CSE software development, a *requirement* is a singular, documented statement identifying a capability, characteristic, or
+quality a software product shall possess to satisfy *one* of the needs of it's stakeholders (e.g. developers, users, sponsors, etc.).
+
+Software requirements *specification* is the process of eliciting and documenting whole sets of requirements aimed and defining
+a software component, product or system. The resulting document is also often refered to as the *Requirements Specification* or
+*Requirements Spec.* or, imprecisely, just *Spec*.
+
+
+
+
 why need them?
 - establish terms of contract, scope of desgin, 
 
