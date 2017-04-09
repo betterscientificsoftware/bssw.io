@@ -12,20 +12,14 @@ In CSE, software requirements typically arise out of the needs of users to perfo
 given a software package to model the [Heat Equation](https://en.wikipedia.org/wiki/Heat_equation), users may *require* that
 the package support anisotropic thermally conductive media or that it support strong scaling of the homogenous
 
-For software developers, requirements are necessary to understand the capabilities their software must meet. For software users,
-requirements are necessary 
+For developers, requirements are necessary to understand the capabilities the software they create must meet. For users,
+sponsors and other stakeholders, requirements are necessary communicate to developers the capabilities they seek. Requiements
+serve to define a contract between those developing software and those using it.
 
+It is common to have many different types of requirements in a full specification. These include functional, performance,
+interface, and reliability requirements. 
 
-why need them?
-- establish terms of contract, scope of desgin, 
-
-requirements vs. requirements specification
-
-types of requirements; functional, performance, interface, implementation, reliability, availability, 
-
-examples
-
-challenges in defining
+## Challenges Often Encountered in Defining Requirements
 - don't know what you don't know
 - verbiage steeped in how business is done today
 - often not fully specified (time vs. space)
