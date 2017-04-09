@@ -24,7 +24,7 @@ challenges in defining
 - don't know what you don't know
 - verbiage steeped in how business is done today
 - often not fully specified (time vs. space)
-
+- what vs. how statements
 
 In theory, if all requirements are fully specified, a software product meeting those requirements fits terms of contract
 
