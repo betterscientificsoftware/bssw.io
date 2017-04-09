@@ -14,11 +14,15 @@ engineering tool. These include
 Eventually, investments in a computational engineering tool, both tangible and intangible, become so great that
 whole-sale re-write (that is throwing existing code out and re-writing from scratch), is not seen as an acceptable
 strategy to move the code forward with new generation of computing hardware for which it was not originally designed.
-Instead, changes to the code are required to be *evolutionary* rather than *revolutionary*.
 
-The key software engineering challenge then becomes, keeping the existing source code not only running, but running at
+The key software engineering challenge then becomes, keeping the existing source code largely intact running at
 an acceptable level of performance, with computing technology for which it was not originally designed. This is the
 crux and challange of *legacy code*.
+
+In legacy code, changes to the code base are required to be *evolutionary* rather than *revolutionary*. Eventually,
+however, even evolutionary code changes can become intractible. Typically, by the time legacy code faces this demise,
+often more than 20 years of use, the evolutionary approach has provided ample time for suitable alternative tools to
+develop.
 
 A simple way to think about *legacy* code is that it is really, really old source code from a bygone era but which
 has been carried forward, largely unchanged, through various generations of computing technology changes.
