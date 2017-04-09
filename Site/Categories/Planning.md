@@ -13,7 +13,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [What Is Sustainability?](Topics/WhatIsSustainability.md)
 
 - **Requirements:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Requirements are statements about *what* a new software product shall do avoiding unnecessary constraints in *how* it shall do it.
 
     - [What Are CSE Software Requirements?](Topics/WhatAreCseSwRequirements.md)
 
