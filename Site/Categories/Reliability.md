@@ -7,7 +7,7 @@
 **Topics:**
 
 - **Debugging:**
-The process of finding and fixing defects in software. **TO DO: Shorten this:  Debugging involves the creative application of a variety of strategies and/or tools to diagnose the cause of a defective software behavior, to develop and implement a correction and finally to confirm, typically through [_regression testing_](https://en.wikipedia.org/wiki/Regression_testing), the correction fixes the defect without introducing more defects.**
+The process of finding and fixing defects in software.
 
     - [What Is Debugging?](Topics/WhatIsDebugging.md)
 
@@ -18,7 +18,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [How To Improve Testing for CSE Software](../CuratedContent/HowToImproveTestingForCseSw.md)
 
 - **Continuous integration testing:**
-Code changes are merged and tested with high frequency. **TO DO: Shorten this: Taken to its extreme, one can think of continuous integration (CI) testing like auto-correct in a word processor where tests would be performed with each key-stroke entered by a programmer. Of course, that is neither practical nor likely to be too meaningful. However CI testing does mean that code changes, even on multiple branches of development, are merged and tested very frequently.**
+A form of testing *maximally* integrated with code commits. 
 
     - [What Is Continuous Integration Testing?](Topics/WhatIsContinuousIntegrationTesting.md)
 
