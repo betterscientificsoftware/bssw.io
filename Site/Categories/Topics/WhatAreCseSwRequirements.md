@@ -20,15 +20,19 @@ It is common to have many different types of requirements in a full specificatio
 interface, and reliability requirements. 
 
 ## Challenges Often Encountered in Defining Requirements
-- don't know what you don't know
-- verbiage steeped in how business is done today
-- often not fully specified (time vs. space)
-- what vs. how statements
-- change with time
+Eliciting and defining requirements can often be tricky for developers and users alike. First, new software development projects
+are almost always seeking to develop some new application not ever previously seen by any users. It is difficult for users to
+articulate statements about something they've never seen before. User's statements about requirements wind up being steeped in 
+verbiage about products and practices with which they are already familiar. For long software development cycles,
+it is not uncommon for requirements to change with time. Perhaps the biggest pitfall in defining requirements is common
+confusion over *what* vs. *how* statements. Requirements need to be statements about *what* the software shall do and not about
+*how* it shall be implimented. For example, is it fair for an end-user to *require* that a piece of software *"run on gpus"*?
+Probably not. An end user may care about performance and about floating point power efficiency (e.g. flops/watt) but then
+his or her requirements need to be stated in those terms and not in terms of a particular implementation.
 
-In theory, if all requirements are fully specified, a software product meeting those requirements fits terms of contract
-
-waterfall vs. agile paradigms and how requirements fit int
-
+## Requirements in Waterfall vs. Agile Development Processes
+In the traditional waterfall software development process, development costs are heavily front loaded by investing a significant
+amount of time in requirements specification before a single class is designed or line of code is written. This is in stark contrast
+to the *Agile* paradigm where requirements specification is iterated and refined right along with the software it specifies.
 
 Contributed by: Mark C. Miller
