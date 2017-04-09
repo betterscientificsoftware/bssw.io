@@ -39,11 +39,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 
 - **Legacy code:**
-Source code in which there is a substantial enough investment in both actual costs and in accepted computational validity that wholesale re-write to fully exploit newer computing technology is deemed to risky. 
-
-or
-
-Source code developed for/with computing technology (e.g. hardware, languages) that is no longer supported yet is still required to work with current technology. 
+Source code in which investment, in development costs and/or in perceived validity, is so great that wholesale re-write to optimally exploit newer computing technology is deemed too costly and/or too risky. 
 
     - [What Is CSE Legacy Code?](Topics/WhatIsCseLegacyCode.md)
 
