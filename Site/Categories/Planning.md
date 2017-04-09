@@ -39,7 +39,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 
 - **Legacy code:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Source code developed with computing technology (e.g. hardware, languages) that is no longer supported but that is still required to operate with newer technology. 
 
     - [What Is CSE Legacy Code?](Topics/WhatIsCseLegacyCode.md)
 
