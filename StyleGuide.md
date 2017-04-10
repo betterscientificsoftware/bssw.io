@@ -26,12 +26,13 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 - Image file (e.g., logo) - optional (encouraged when this exists)
 
 #### Contributor:
-- Name of contributor, hyperlinked to Github ID
+- Name of contributor, hyperlinked to GitHub profile
 
 #### Footer: Add the following at the bottom of each page:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 #### Metadata: Include metadata as formatted comments at the end of the file
+- **Publish**: Publish on the BSSw front-end site?
 - **Categories**: Specify 1 or more categories (primary display via BSSw website)
 - **Topics**: Specify 1 or more topics (visible filters via BSSW website)
 - **Tags**: Specify additional tags as keywords for searches (optional)
@@ -40,6 +41,12 @@ For more information on better scientific software, go to the [Better Scientific
 - **Aggregate**: Optional info for aggregating content to define a more complex resource
 
 Each aspect of metadata is described below.
+
+#### Publish: Publish on the BSSw front-end site?
+- Publish: Yes
+- Publish: No
+
+Only files designated as 'Publish: Yes' will be published on the front-end BSSw site.  Work that has not been finalized or is not intended for the front-end site should be designated 'Publish: No'
 
 #### Categories: Primary display via BSSw website interface
 [BSSw curators may add/revise topics as needed over time.]

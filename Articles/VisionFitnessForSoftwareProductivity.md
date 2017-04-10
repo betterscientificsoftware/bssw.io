@@ -5,7 +5,7 @@
 A career in software or computing can involve years of staring at a computer screen for extended periods.
 The consequences to your vision, which can effect not only your productivity as a software developer but
 also your quality of life in general, should be taken seriously. Here, we outline key strategies for
-_sustainable_ vision health. 
+_sustainable_ vision health.
 
 ## Understand the Risks
 First, know the risks to your eyes. Eye problems caused by computer work are generally
@@ -43,12 +43,12 @@ What about fonts? The most important thing about fonts is to use fonts that enab
 ## Breaks, Exercises and Apps
 Take frequent breaks to briefly rest your eyes. A common best practice is the [_20-20-20_](https://www.labnol.org/software/computer-eye-exercise/14069/) rule...every 20 minutes, find some object 20 feet away and stare at it for 20 seconds. You can find many apps for your phone, pad or laptop that help you to remember to take breaks. There are also apps that help to exercise your eyes and might even be able to [improve your vision](http://www.iflscience.com/brain/apps-can-improve-your-vision/). One in particular, [Flux](https://justgetflux.com) tries to optimize the color mix of your screen's light based on time of day.
 
-<!--- 
-Categories: reliability
-Topics: testing
-Tags: reliability, reproducibility, robustness, ATPESC, HPC
+<!---
+Publish: Yes
+Categories: individual productivity
+Topics: personal productivity and sustainability
+Tags: vision
 Level: 2
-Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md, WhatIsOnlineLearning.md
-Aggregate: Base: SwTestingTutorials.md
-Aggregate: Section2
+Prerequisites: defaults
+Aggregate: none
 --->

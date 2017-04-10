@@ -40,8 +40,8 @@ FROM ubuntu:16.10
 RUN apt-get update && apt-get install -y python-numpy python-scipy python-matplotlib
 
 ```
-We can save this file as 'Dockerfile' and run `docker build --tag mypythonimage .` in the same directory (note the "."). Docker will run the commands in the Dockerfile and create an image with the name "mypythonimage". In the `RUN` command, you can put any sequence of commands that you would normally execute, so for example, you could use `wget` to download some external software, and then `cmake` and/or `make install` to install it in the image. 
-If you have an account at an online registry, it is also possible to `docker push` the image to the registry, so it can be shared with others. 
+We can save this file as 'Dockerfile' and run `docker build --tag mypythonimage .` in the same directory (note the "."). Docker will run the commands in the Dockerfile and create an image with the name "mypythonimage". In the `RUN` command, you can put any sequence of commands that you would normally execute, so for example, you could use `wget` to download some external software, and then `cmake` and/or `make install` to install it in the image.
+If you have an account at an online registry, it is also possible to `docker push` the image to the registry, so it can be shared with others.
 
 #### Online with github and automatic image building
 
@@ -61,15 +61,15 @@ Because docker runs as root, it is not suitable for HPC installations, but there
 
 ### Cloud computing with docker
 
-In the case of cloud computing, such as Amazon Web Services, Google Compute Engine or Microsoft Azure, we usually get a VM. It is quite easy to run docker inside the cloud provider's VM, and in many cases, there is a predefined VM with docker preinstalled. Many cloud instances are now quite powerful, so it is possible to run serious codes on a single node. 
-Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now also has RDMA infiniband instances available, and a project called [Batch Shipyard](https://github.com/Azure/batch-shipyard) which allows you to run docker images across multiple nodes with MPI. 
+In the case of cloud computing, such as Amazon Web Services, Google Compute Engine or Microsoft Azure, we usually get a VM. It is quite easy to run docker inside the cloud provider's VM, and in many cases, there is a predefined VM with docker preinstalled. Many cloud instances are now quite powerful, so it is possible to run serious codes on a single node.
+Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now also has RDMA infiniband instances available, and a project called [Batch Shipyard](https://github.com/Azure/batch-shipyard) which allows you to run docker images across multiple nodes with MPI.
 
-<!--- 
-Categories: 
-Topics: 
+<!---
+Publish: yes
+Categories: planning
+Topics: development
 Tags: docker, containers, HPC
-Level: 
-Prerequisites: 
-Aggregate: Base: 
-Aggregate: 
+Level: 2
+Prerequisites: default
+Aggregate: none
 --->

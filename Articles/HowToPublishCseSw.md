@@ -64,7 +64,8 @@ piece of scientific literature which can be cited by later works:
    data, while also acting as a hosting/distribution platform for others
    to access that data.
 
-<!--- 
+<!---
+Publish: yes
 Categories: crosscutting resources
 Topics: software publishing and citation
 Tags: SoftwareX, journal, cite, publish
