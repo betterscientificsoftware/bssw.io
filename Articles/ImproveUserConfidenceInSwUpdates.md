@@ -1,6 +1,6 @@
 # Improve user confidence in your software updates
 
-#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub ID")
+#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 #### Publication date: April 10, 2017
 
@@ -25,8 +25,8 @@ Some sources for behavior change:
 
 <!---
 Categories: reliability, collaboration
-Topics: testing, documentation
-Tags: reliability, reproducibility, robustness, HPC
+Topics: testing, reproducibility, documentation
+Tags: reliability, reproducibility, robustness, HPC, documentation
 Level: 2
 Prerequisites: Defaults
 Aggregate: None
