@@ -1,6 +1,8 @@
 # Improve user confidence in your software updates
 
-#### Contributed by [Mike Heroux](http://www.sandia.gov/~maherou/ "Mike Heroux Homepage")
+#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub ID")
+
+#### Publication date: April 10, 2017
 
 When a customer updates to a new version of your software, changes are not just about new features, but often (perhaps mostly) include improvements to existing capabilities.
 
@@ -17,16 +19,15 @@ Improve customer confidence in your update by considering the following:
 - Include performance differences, even if the changes are improvements.
 
 Some sources for behavior change:
-- Performance optimizations for vectorization: Vectorization represents one of the current commodity performance improvement curves.  The number of simultaneous operations a process can perform (as either SIMD or SIMT), we continue to increase as a resource for concurrency.  Introducing vector operations into your code, directly or through compiler transformations, will result in floating point results differences, including differences from one architecture to the next.
-- Reordering of irregular (gather/scatter) computations for better performance:  Changes in the order of irregular computations can improve cache utilization and reduce memory bandwidth requirements, leading to better performance.  These changes also lead to floating point result differences.
-- Changes in heuristics for automatic parameter settings:  Many algorithms are tunable, able to exploit problem details to improve robustness, reliability or performance.  Automatic parameter setting can improve software usability by reducing how many details the user needs to explicitly manage.  Improved heuristics, often derived from customer use, can lead to changes in behavior, even though the change is an improvement.
+- **Performance optimizations for vectorization:** Vectorization represents one of the current commodity performance improvement curves.  As a resource for concurrency, we continue to increase the number of simultaneous operations a process can perform (as either SIMD or SIMT).  Introducing vector operations into your code, directly or through compiler transformations, will result in floating point results differences, including differences from one architecture to the next.
+- **Reordering of irregular (gather/scatter) computations for better performance:**  Changes in the order of irregular computations can improve cache utilization and reduce memory bandwidth requirements, leading to better performance.  These changes also lead to floating point result differences.
+- **Changes in heuristics for automatic parameter settings:**  Many algorithms are tunable, able to exploit problem details to improve robustness, reliability or performance.  Automatic parameter setting can improve software usability by reducing how many details the user needs to explicitly manage.  Improved heuristics, often derived from customer use, can lead to changes in behavior, even though the change is an improvement.
 
-<!--- 
-Categories: reliability
-Topics: testing
-Tags: reliability, reproducibility, robustness, ATPESC, HPC
+<!---
+Categories: reliability, collaboration
+Topics: testing, documentation
+Tags: reliability, reproducibility, robustness, HPC
 Level: 2
-Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md, WhatIsOnlineLearning.md
-Aggregate: Base: SwTestingTutorials.md
-Aggregate: Section2
+Prerequisites: Defaults
+Aggregate: None
 --->

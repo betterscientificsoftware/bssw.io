@@ -9,7 +9,7 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 #### Resource Name:
 - Brief, essential words only, nothing extra
 - For curated content: Follow name of content (e.g., title of book, article, event, site)
-- Filename:  Same as resource name 
+- Filename:  Same as resource name
     - No spaces
     - Cap for first letter of each word
     - Abbreviations:
@@ -26,23 +26,23 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 - Image file (e.g., logo) - optional (encouraged when this exists)
 
 #### Contributor:
-- Name of contributor, hyperlinked to website
+- Name of contributor, hyperlinked to Github ID
 
 #### Footer: Add the following at the bottom of each page:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 #### Metadata: Include metadata as formatted comments at the end of the file
-- **Categories**: Specify 1 or more categories (primary display via BSSW website)
+- **Categories**: Specify 1 or more categories (primary display via BSSw website)
 - **Topics**: Specify 1 or more topics (visible filters via BSSW website)
 - **Tags**: Specify additional tags as keywords for searches (optional)
 - **Level**: Specify level of content
-- **Prerequisites**:  Specify any assumed knowledge on the BSSW site (usually Level 0 and Level 1 BSSW docs)
+- **Prerequisites**:  Specify any assumed knowledge on the BSSW site (usually Level 0 and Level 1 BSSw docs)
 - **Aggregate**: Optional info for aggregating content to define a more complex resource
 
 Each aspect of metadata is described below.
 
-#### Categories: Primary display via BSSW website interface
-[BSSW curators may add/revise topics as needed over time.] 
+#### Categories: Primary display via BSSw website interface
+[BSSw curators may add/revise topics as needed over time.]
 - Planning
 - Reliability
 - Performance
@@ -50,11 +50,10 @@ Each aspect of metadata is described below.
 - Individual Productivity
 - Crosscutting Resources
 
-#### Topics: Visible filters via BSS website interface
+#### Topics: Visible filters via BSSw website interface
 - All categories and also finer grain topics within categories
-  [BSSW curators may add/revise topics as needed over time.]  
-  [Topics: 4-7 per category: family of topics that make sense together]
-- **Planning** 
+  [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
+- **Planning**
     - Improving productivity and sustainability
     - Requirements
     - Design
@@ -64,7 +63,7 @@ Each aspect of metadata is described below.
     - Legacy code
     - Software engineering
 - **Reliability**
-    - Debugging 
+    - Debugging
     - Testing
     - Continuous integration testing
     - Reproducibility
@@ -117,20 +116,23 @@ Each aspect of metadata is described below.
 - etc.
 
 #### Levels: Specify level of detail and depth of content
-- **Level 0**:  BSSW WhatIs document
-- **Level 1**:  BSSW HowTo document (or equivalent level of detail)
+- **Level 0**:  BSSw WhatIs document
+- **Level 1**:  BSSw HowTo document (or equivalent level of detail)
 - **Level 2**:  More detailed content, beginner or intermediate levels
 - **Level 3**:  Advanced content
 
-#### Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually Level 0 and Level1 BSSW docs)
-- prerequisites: filename1.md, filename2.md, etc.
+#### Prerequisites: Specify files for any assumed knowledge on the BSSw site (usually Level 0 and Level1 BSSw docs)
+- Most prerequisites are specified automatically according to Topics. In this case, use:
+   - Prerequisites: default
+- Specify additional prerequisites only for information not already covered by Topics.
+   - Prerequisites: filename1.md, filename2.md, etc.
 
 #### Aggregate: Optional info for aggregating content to define a more complex resource
- - Aggregate: base 
+ - Aggregate: base
    - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulletted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](CuratedContent/ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
-   
+
 - Aggregate: subresource
-  - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  
+  - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSw site.  We expect this to be the most common usage.  
 
 - Aggregate: stand-alone and subresource
    - The "stand-alone and subresource" specification indicates that the item will be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
