@@ -29,10 +29,12 @@ For long software development cycles, it is not uncommon for requirements to cha
 developers are creating can become a moving target.
 
 Perhaps the biggest pitfall in defining requirements is common confusion over *what* vs. *how* statements. Requirements need
-to be statements about *what* the software shall do and not about *how* it shall do it. For example, is it fair for
-an end-user to *require* that a piece of software *"run on gpus"*? Probably not. An end user may care about performance and
-about floating point power efficiency (e.g. flops/watt). However, the requirement needs to be stated in those terms (e.g.
-we require 6 gigaflops/watt power efficiency) and not in terms of a particular implementation (e.g. gpus).
+to be statements about *what* the software shall do avoiding any entanglements about *how* it shall do it. However, *how*
+statements are sometimes necessary to define any relevant *constraints* under which the software shall operate.
+For example, is it fair for an end-user to *require* that a piece of software *"run on gpus"*? Probably not. An end user
+may care about performance and about floating point power efficiency (e.g. flops/watt). However, the requirement needs to
+be stated in those terms (e.g. we require 6 gigaflops/watt power efficiency) and not in terms of a particular implementation
+(e.g. gpus).
 
 ## Requirements in Waterfall vs. Agile Development Processes
 In the traditional [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model) software development process,
