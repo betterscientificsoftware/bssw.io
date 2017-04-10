@@ -28,7 +28,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [What Is CSE Software Development?](Topics/WhatIsCseSwDevelopment.md)
 
 - **Refactoring:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+The process of improving *internal* attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
 
     - [What Is CSE Software Refactoring?](Topics/WhatIsCseSwRefactoring.md)
 
