@@ -19,11 +19,12 @@ This tutorial provides information on best practices in software engineering exp
 - Collection of all tutorial slides (5 topics): https://doi.org/10.6084/m9.figshare.c.3704287
 - Coming soon from SIAM: Recorded audio, synchronized with presentation screen
 
-<!--- 
+<!---
+Publish: yes
 Categories: Planning, Reliability, Collaboration, Individual Productivity
 Topics: improving productivity and sustainability, reproducibility, testing, continuous integration testing, licensing, strategies for more effective teams, personal kanban
 Tags: tutorial
-Level: 2 
-Prerequisites: WhatIsSoftwareProductivity.md 
+Level: 2
+Prerequisites: WhatIsSoftwareProductivity.md
 Aggregate: subresource
 --->

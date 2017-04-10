@@ -10,3 +10,7 @@ This repository provides source material for the (still under construction) Bett
 * **Forking**: This option is like cloning, but works for anyone.  You can make edits to your own forked copy of the repo, either in a browser or from a local repository.  Contributions are submitted to BSSW by using a pull request.
 
 For details see our [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md) pages.
+
+<!---
+Publish: no
+---!>

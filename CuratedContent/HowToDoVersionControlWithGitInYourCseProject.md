@@ -6,7 +6,8 @@ The short document [How to do Version Control with Git in your CSE Project](http
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: collaboration
 Topics: version control
 Tags: Git, Udacity

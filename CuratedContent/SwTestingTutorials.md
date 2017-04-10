@@ -14,7 +14,8 @@ A variety of tutorials on software testing provide information for various circu
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: reliability
 Topics: [import from subresources]
 Tags: [import from subresources]

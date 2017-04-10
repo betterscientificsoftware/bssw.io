@@ -8,7 +8,8 @@ My presentation from the [Argonne Training Program on Extreme-Scale Computing (A
 
 For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: planning
 Topics: strategies for more effective teams
 Tags: advice, strategy, team, reproducibility, productivity, sustainability

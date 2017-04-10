@@ -8,7 +8,8 @@ Test-Driven Development (TDD) is often touted as a best practice for software de
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: reliability
 Topics: testing, reliability, reproducibility
 Tags: experience, strategy

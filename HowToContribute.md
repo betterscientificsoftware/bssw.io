@@ -22,7 +22,7 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
     - `whatis` - A What Is describes terms and concepts, especially useful as background for a How To.
   1. Assign issue to a milestone, if you want to commit to a deadline.
   1. Create your contribution!
-  
+
 ### Create Your Contribution
 
 #### Preferred Approach: Web based
@@ -36,7 +36,7 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 1. Select `Commit New File` at the bottom of the page.  
   - If you have permission, you can commit directly to master.
   - If not, you can create a branch and submit a pull-request (follow instructions).
-  
+
 #### Alternative: Clone/Fork repository locally  
 1. Clone (if you are a BSSW member) or [fork](https://help.github.com/articles/fork-a-repo/) the repository.
 2. Create a new .md file in your local repository, or edit an existing file.
@@ -47,3 +47,7 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 
 #### Style Guide
 See the [BSSW Style Guide](StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
+
+<!---
+Publish: no
+---!>

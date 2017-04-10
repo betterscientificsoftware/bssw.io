@@ -92,6 +92,7 @@ to implement your sustainability plan.
 
 
 <!---
+Publish: yes
 Categories: Collaboration, Planning
 Topics: Improving productivity and sustainability, Licensing, Strategies for more effective teams
 Tags: sustainability, links, resources, funding, licenses, podcasts, open source, guides

@@ -11,7 +11,8 @@ Recently, many tools and workflows have emerged in the software industry that ha
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: reliability, collaboration
 Topics: continuous integration testing, version control
 Tags: reliability, GitHub, Travis CI

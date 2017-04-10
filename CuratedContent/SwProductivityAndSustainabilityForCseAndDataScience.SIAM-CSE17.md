@@ -4,7 +4,7 @@
 
 **Organizers:**  David Bernholdt (ORNL), Mike Heroux (SNL), Dan Katz (University of Illinois), Anders Logg (Chalmers University of Technology), Lois Curfman McInnes (ANL)
 
-**Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community. 
+**Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community.
 
 The minisymposium speakers and poster presenters discuss work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby is helping software to fulfill its critical role as a cornerstone of long-term CSE collaboration.
 
@@ -17,7 +17,7 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
   - _A Software Infrastructure for Solving Quantum Physics Problems on Extremely Parallel Systems_
   - _Role of the Molecular Science Software Institute Toward Sustainable Software_
   - _What We Have Learned About Using Software Engineering Practices in Scientific Software_
-  
+
 - Minisymposterium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022
 - Posters (29 total): https://doi.org/10.6084/m9.figshare.c.3703771
 
@@ -32,7 +32,7 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
   - _The Impact of Structured AMR Representation on Software Design_
   - _Improving Software Productivity of Uintah Through Task-Based Architectures, Performance Portability Libraries and Modern C++ Features_
   - _The Journal of Open Source Software_
-  - _Jupyter Notebooks Facilitating Productivity, Sustainability, and Accessibility of Data Science_ 
+  - _Jupyter Notebooks Facilitating Productivity, Sustainability, and Accessibility of Data Science_
   - _Lessons Learned from Integrating Scientific Libraries Within a Plugin-Based Architecture_
   - _Managing the Scientific Software Ecosystem with Spack_
   - _Maximizing Usability and Performance in Numerical Software Packages_
@@ -52,11 +52,12 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
   - _xSDK: Working toward a Community CSE Software Ecosystem_
 
 
-<!--- 
+<!---
+Publish: yes
 Categories: Planning, Reliability, Collaboration, Performance, Crosscutting
 Topics: improving productivity and sustainability, configuration and builds, testing, documentation, software interoperability, strategies for more effective teams
 Tags: citation principles, NumFOCUS, DOECode, xSDK
-Level: 2 
-Prerequisites: WhatIsSoftwareProductivity.md 
+Level: 2
+Prerequisites: WhatIsSoftwareProductivity.md
 Aggregate: subresource, stand-alone
 --->

@@ -57,6 +57,7 @@ In this presentation we discuss elements that impact the effectiveness of CSE ef
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
+Publish: yes
 Categories: crosscutting, individual productivity, planning, collaboration, reliability
 Topics: improving productivity and sustainability, [import from subresources]
 Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim, [import from subresources]

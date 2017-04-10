@@ -21,27 +21,28 @@ Subtopic resource files:
 
 - Aggregate: stand-alone and subresource
    - The "stand-alone and subresource" specification indicates that the item will be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
- 
+
 **To add a new resource using this file as a starting point:**
 - View this file in Raw mode.
 - Copy all text.
 - Select `Create New File`.
 - Paste text into your new document, as a starting point. Then edit as you like.
 - Continue following instructions in [How To Contribute](../HowToContribute.md).
- 
+
 See also [ResourceTemplate.AggregateBase](ResourceTemplate.AggregateBase.md).
- 
-A template for a new resource that can be handled effectively in a single file, rather than as an aggregate, is: 
+
+A template for a new resource that can be handled effectively in a single file, rather than as an aggregate, is:
 [ResourceTemplate.Basic](ResourceTemplate.Basic.md).
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: Publish on the BSSw front-end site?
 Categories: specify 1 or more categories
 Topics: specify 1 or more topics (corresponding to each category)
 Tags: specify optional tags
-Level: specify level of content 
-Prerequisites: specify prerequisites 
+Level: specify level of content
+Prerequisites: specify prerequisites
 Aggregate: subresource
 --->
 
@@ -79,6 +80,7 @@ For more information on better scientific software, go to the [Better Scientific
 
 Metadata: Include metadata as formatted comments at the end of the file
 
+    Publish: Publish on the BSSw front-end site?
     Categories: Specify 1 or more categories (primary display via BSSW website)
     Topics: Specify 1 or more topics (visible filters via BSSW website)
     Tags: Specify additional tags as keywords for searches (optional)
@@ -87,6 +89,10 @@ Metadata: Include metadata as formatted comments at the end of the file
     Aggregate: Optional info for aggregating content to define a more complex resource
 
 Each aspect of metadata is described below.
+
+Publish: Publish on the BSSw front-end site?
+Publish: Yes
+Publish: No
 
 Categories: [Primary display via BSSW website interface]
 
@@ -175,15 +181,15 @@ Levels: Specify level of detail and depth of content
 Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually Level 0 and Level1 BSSW docs)
 
     prerequisites: filename1.md, filename2.md, etc.
-    
+
 Aggregate:
 
     Optional info for aggregating content to define a more complex resource
     Aggregate: base (to specify the base of an aggregate resources)
        - The "base" designation indicates that content and metadata will be included from specified subresource files.  See the file [ResourceTemplate.AggregateBase.md](ResourceTemplate.AggregateBase.md) for an example "base" file.
-       
+
     Aggregate: subresource (to specify a subresource for an aggregate resource)
-    
-     - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate. 
-   
+
+     - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSW site.  We expect this to be the most common usage.  However, omitting this subresource designation will enable the item to be both (1) listed as a separate resource on the front-end site and (2) used as a subresource in the aggregate.
+
 --->

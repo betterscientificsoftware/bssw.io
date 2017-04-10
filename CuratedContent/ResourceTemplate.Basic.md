@@ -13,12 +13,13 @@ While this template is appropriate for most new resources on the site, we also p
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: Publish on the BSSw front-end site?
 Categories: specify 1 or more categories
 Topics: specify 1 or more topics (corresponding to each category)
 Tags: specify optional tags
-Level: specify level of content 
-Prerequisites: specify prerequisites 
+Level: specify level of content
+Prerequisites: specify prerequisites
 Aggregate: none
 --->
 
@@ -56,6 +57,7 @@ For more information on better scientific software, go to the [Better Scientific
 
 Metadata: Include metadata as formatted comments at the end of the file
 
+    Publish: Publish on the BSSw front-end site?
     Categories: Specify 1 or more categories (primary display via BSSW website)
     Topics: Specify 1 or more topics (visible filters via BSSW website)
     Tags: Specify additional tags as keywords for searches (optional)
@@ -64,6 +66,10 @@ Metadata: Include metadata as formatted comments at the end of the file
     Aggregate: Optional info for aggregating content to define a more complex resource
 
 Each aspect of metadata is described below.
+
+Publish: Publish on the BSSw front-end site?
+Publish: Yes
+Publish: No
 
 Categories: [Primary display via BSSW website interface]
 
@@ -153,5 +159,5 @@ Levels: Specify level of detail and depth of content
 Prerequisites: Specify files for any assumed knowledge on the BSSW site (usually Level 0 and Level1 BSSW docs)
 
     prerequisites: filename1.md, filename2.md, etc.
-    
+
 --->

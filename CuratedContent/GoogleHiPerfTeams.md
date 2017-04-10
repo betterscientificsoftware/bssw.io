@@ -6,7 +6,8 @@ What makes for a high performing team?  [This interview podcast](https://www.inf
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: advice, strategy, team

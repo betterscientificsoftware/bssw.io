@@ -11,7 +11,8 @@ Software verification and validation are needed for high-quality and reliable sc
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: reliability, collaboration
 Topics: testing, documentation
 Tags: reliability, Doxygen

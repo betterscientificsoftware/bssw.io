@@ -10,7 +10,8 @@ A variety of tutorials, webinars, and training sessions provide resources for im
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
+Publish: yes
 Categories: crosscutting, planning, reliability, collaboration, performance, individual productivity
 Topics: [import from subresources]
 Tags: [import from subresources]
