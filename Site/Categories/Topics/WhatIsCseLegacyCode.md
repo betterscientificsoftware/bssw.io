@@ -22,7 +22,7 @@ The key software engineering challenge of *legacy code* involves balancing sever
 * Maintaining *acceptable* consistency in numerical results
 * Maintaining external interfaces (both data and user)
 
-To achieve these goals, changes to the legacy code are typically *evolutionary* rather than *revolutionary* in nature.
+To achieve these goals, changes to legacy code are typically *evolutionary* rather than *revolutionary* in nature.
 Eventually, however, even evolutionary code changes can become cost prohibitive. Typically, by the time legacy code faces
 this demise, which could easily involve more than 30 years of development, the evolutionary approach has provided ample
 time for suitable alternatives to develop and become adopted.
