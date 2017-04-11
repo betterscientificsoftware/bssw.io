@@ -12,6 +12,8 @@
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
+Announcement: 2017 International Workshop on Software Engineering for Science, May 22, 2017
+Announcement dates: 05/01/2017 - 05/22/2017
 Publish: yes
 Categories: planning, crosscutting
 Topics: software engineering
