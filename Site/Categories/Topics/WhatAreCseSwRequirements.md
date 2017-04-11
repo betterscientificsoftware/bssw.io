@@ -13,7 +13,7 @@ given a software product to model the [Heat Equation](https://en.wikipedia.org/w
 the package support anisotropic thermally conductive media or that it support time-varying boundary conditions.
 
 For developers, requirements are necessary to understand the capabilities the software they create must meet. For users,
-sponsors and other stakeholders, requirements are necessary communicate the capabilities they seek. Requiements
+sponsors and other stakeholders, requirements are necessary to communicate the capabilities they seek. Requiements
 serve to define a contract between those developing software, those funding its development and those using it.
 
 It is common to have many different types of requirements in a full specification. These include functional, performance,
