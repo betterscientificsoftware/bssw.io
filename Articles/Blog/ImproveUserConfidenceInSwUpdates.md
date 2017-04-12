@@ -24,8 +24,6 @@ Some sources for behavior change:
 - **Changes in heuristics for automatic parameter settings:**  Many algorithms are tunable, able to exploit problem details to improve robustness, reliability or performance.  Automatic parameter setting can improve software usability by reducing how many details the user needs to explicitly manage.  Improved heuristics, often derived from customer use, can lead to changes in behavior, even though the change is an improvement.
 
 <!---
-Announcement: Blog post: Improve user confidence in your software updates
-Announcement dates: 04/13/2017 - 04/18/2017
 Publish: Yes
 Categories: reliability, collaboration
 Topics: testing, reproducibility, documentation

@@ -13,8 +13,6 @@
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
-Announcement: Scientific Software Days, April 27-28, 2017
-Announcement dates: 04/11/2017 - 04/28/2017
 Publish: yes
 Categories: planning, crosscutting
 Topics: software engineering

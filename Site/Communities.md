@@ -13,4 +13,4 @@ In order to promote a shared understanding of software issues among the members 
 - [Software Engineering Community](Communities.SoftwareEngineering.md)
 - and many more ...
 
-We want your input and perspectivies.  Please contact us if you would like to start a community-specific landing page.
+We want your input and perspectives.  Please contact us if you would like to start a community-specific landing page.
