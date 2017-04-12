@@ -1,7 +1,7 @@
 # BSSw Announcements for 2018
 
 Announcement:
-- [Blog post: Improve user confidence in your software updates](Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
+- [Blog post: Improve user confidence in your software updates](../Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
 - Display dates: 01/1/2018 - 01/25/2018
 
 
