@@ -65,9 +65,10 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Requirements
     - Design
     - Development
-    - Refactoring
+    - Deployment
     - Configuration and builds
     - Legacy code
+    - Refactoring
     - Software engineering
 - **Reliability**
     - Debugging
@@ -135,6 +136,9 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
    - Prerequisites: filename1.md, filename2.md, etc.
 
 #### Aggregate: Optional info for aggregating content to define a more complex resource
+ - Aggregate: none
+   - Note an aggregate resource
+
  - Aggregate: base
    - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulletted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](CuratedContent/ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
 

@@ -27,4 +27,4 @@ Eventually, however, even evolutionary code changes can become cost prohibitive.
 this demise, which could easily involve more than 30 years of development, the evolutionary approach has provided ample
 time for suitable alternatives to develop and become adopted.
 
-Contributed by: Mark C Miller
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)

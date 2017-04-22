@@ -18,4 +18,4 @@ programming, although possibly the most expedient, inevitably **creates** a re-f
 Later on, another developer having to maintain such code will have to do the software engineering work to collapse all
 the cut-n-paste instances into a single implementation that can be re-used where necessary.
 
-Contributed by: Mark C. Miller
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)

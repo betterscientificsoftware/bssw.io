@@ -1,6 +1,6 @@
 # Keeping your Vision Fit for Years of Software Development
 
-#### Contributed by [Mark C Miller](https://github.com/markcmiller86)
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 
 A career in software or computing can involve years of staring at a computer screen for extended periods.
 The consequences to your vision, which can effect not only your productivity as a software developer but

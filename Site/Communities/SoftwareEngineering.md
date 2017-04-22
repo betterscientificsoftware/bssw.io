@@ -1,10 +1,11 @@
 # Software Engineering Community
 
-### Background 
+1-sentence explanation of importance goes here.
+
 Background paragraph goes here.
 
-### Collaborating with the CSE Community on Software Engineering Issues
-Challenges go here.
+### Software Engineering Challenges in CSE
+1 paragraph about challenges goes here.
 
 ### Go to the [Better Scientific Software main page](../Homepage.md)
 

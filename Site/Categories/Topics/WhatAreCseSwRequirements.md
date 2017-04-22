@@ -17,12 +17,12 @@ sponsors and other stakeholders, requirements are necessary to communicate the c
 serve to define a contract between those developing software, those funding its development and those using it.
 
 It is common to have many different types of requirements in a full specification. These include functional, performance,
-interface, and reliability requirements. 
+interface, and reliability requirements.
 
 ## Challenges Often Encountered in Defining Requirements
 Eliciting and defining requirements can often be tricky for developers and users alike. First, new software development projects
 are almost always seeking to develop some new capability not ever previously seen by any users. It is difficult for users to
-articulate statements about something they've never seen before. User's statements about requirements wind up being steeped in 
+articulate statements about something they've never seen before. User's statements about requirements wind up being steeped in
 verbiage about products and practices with which they are already familiar.
 
 For long software development cycles, it is not uncommon for requirements to change with time. This means the software product
@@ -44,4 +44,4 @@ before a single class is designed or line of code is written. This is in stark c
 to the [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development process where the requirements specification
 is iterated and refined right along with the software it specifies.
 
-Contributed by: Mark C. Miller
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)

@@ -27,10 +27,10 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
 
     - [What Is CSE Software Development?](Topics/WhatIsCseSwDevelopment.md)
 
-- **Refactoring:**
-The process of improving *internal* attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
+- **Deployment:**
+    Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
-    - [What Is CSE Software Refactoring?](Topics/WhatIsCseSwRefactoring.md)
+        - [What Is CSE Software Deployment?](Topics/WhatIsCseSwDeployment.md)
 
 - **Configuration and builds:**
 Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
@@ -39,9 +39,14 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 
 - **Legacy code:**
-Source code in which investments, tangible and in-tangible, are so great that wholesale re-write to *optimally* utilize newer computing technology is deemed too costly and/or too risky. 
+Source code in which investments, tangible and in-tangible, are so great that wholesale re-write to *optimally* utilize newer computing technology is deemed too costly and/or too risky.
 
     - [What Is CSE Legacy Code?](Topics/WhatIsCseLegacyCode.md)
+
+- **Refactoring:**
+The process of improving *internal* attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
+
+- [What Is CSE Software Refactoring?](Topics/WhatIsCseSwRefactoring.md)
 
 - **Software engineering:**
 Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.

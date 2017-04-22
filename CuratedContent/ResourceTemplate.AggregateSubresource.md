@@ -114,9 +114,10 @@ Topics: [Visible filters via BSS website interface]
         Requirements
         Design
         Development
-        Refactoring
+        Deployment
         Configuration and builds
         Legacy code
+        Refactoring
         Software engineering
     Reliability
         Testing

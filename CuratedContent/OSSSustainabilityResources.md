@@ -10,7 +10,7 @@ This page documents resources available for maintainers of open source
 software, from reports and books discussing the problems facing OSS
 maintainers, to foundations and non-profits that can potentially provide
 community funding for open source projects.  Much scientific software is
-open source, and the needs of mainstream open soruce projects frequently
+open source, and the needs of mainstream open source projects frequently
 overlap with those of the scientific community.  Better Scientific
 Software encourages leveraging the wisdom of existing successful projects
 to implement your sustainability plan.
@@ -90,13 +90,16 @@ to implement your sustainability plan.
   [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/),
   which funded the Roads & Bridges report on open source.
 
+#### Contributed by [Todd Gamblin](https://github.com/tgamblin)
+
+For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
 Publish: yes
-Categories: Collaboration, Planning
-Topics: Improving productivity and sustainability, Licensing, Strategies for more effective teams
+Categories: Collaboration, Planning, Crosscutting Resources
+Topics: Improving productivity and sustainability, Licensing, Strategies for more effective teams, Funding sources and programs
 Tags: sustainability, links, resources, funding, licenses, podcasts, open source, guides
-Level: 1
+Level: 2
 Prerequisites: WhatIsSustainability.md
-Aggregate:
+Aggregate: none
 --->

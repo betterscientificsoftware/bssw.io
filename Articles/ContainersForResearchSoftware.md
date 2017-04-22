@@ -1,6 +1,6 @@
 # Containers for Research Software
 
-#### Contributed by [Chris Richardson](http://www.bpi.cam.ac.uk/user/chris)
+#### Contributed by [Chris Richardson](https://github.com/chrisrichardson)
 
 ### Introduction
 
@@ -67,7 +67,7 @@ Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now als
 <!---
 Publish: yes
 Categories: planning
-Topics: development
+Topics: development, deployment
 Tags: docker, containers, HPC
 Level: 2
 Prerequisites: default

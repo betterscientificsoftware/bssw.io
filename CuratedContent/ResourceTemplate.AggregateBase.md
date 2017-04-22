@@ -37,7 +37,7 @@ A template for a new resource that can be handled effectively in a single file, 
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
 Publish: Publish on the BSSw front-end site?
 Categories: specify 1 or more categories
 Topics: specify 1 or more topics (corresponding to each category)
@@ -117,9 +117,10 @@ Topics: [Visible filters via BSS website interface]
         Requirements
         Design
         Development
-        Refactoring
+        Deployment
         Configuration and builds
         Legacy code
+        Refactoring
         Software engineering
     Reliability
         Debugging

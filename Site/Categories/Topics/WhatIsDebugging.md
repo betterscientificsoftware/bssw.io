@@ -30,3 +30,5 @@ many dependencies may manifest noticeable performance behavior only for extremel
 encountered in routine testing. When its practical to do so, it is good practice for
 developers to add the _reproducer_ recipe to the software's routine testing so as to ensure the defect
 won't creep back into the software in later versions. This practice is typically called _regression_ testing.
+
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)

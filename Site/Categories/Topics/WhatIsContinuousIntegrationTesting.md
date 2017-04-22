@@ -4,9 +4,9 @@ Continuous integration (CI) testing is a particular way of testing software that
 the merged changes from multiple branches of development, with the highest _reasonable_ frequency
 and smallest _reasonable_ granularity of changes. _Continuous_ means that changes are being continuously
 merged and tested. _Integration_ means that changes from multiple branches are merged and the _integrated_
-result is tested. _Integration_ also means that testing processes are integrated with as opposed to handled apart 
+result is tested. _Integration_ also means that testing processes are integrated with as opposed to handled apart
 from development processes. Instead of develop, develop, develop, test, test, test, it is
-develop, test, develop, test, develop, test. 
+develop, test, develop, test, develop, test.
 
 What constitutes _reasonable_ frequency and granularity for CI testing? Teams are free to define what
 is _reasonable_. This can vary amoung teams. Even within a team, different categories of work may be
@@ -48,3 +48,4 @@ are immediate or nearly so. Typically, for CSE/HPC codes, this means that only c
 appropriate. For example, a test that checks convergence of a numerical algorithm at scale is
 likely to require too much time (or too large of a compute resource) to be appropriate for CI testing.
 
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)

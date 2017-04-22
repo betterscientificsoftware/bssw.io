@@ -18,9 +18,9 @@ of scientific software development.
 
 ## Journals that Publish CSE Software
 
-The following is a list of journals in use today which specialize,
+The following is a list of journals that specialize,
 to varying degrees, in presenting a scientific software package as a
-piece of scientific literature which can be cited by later works:
+piece of scientific literature that can be cited by later works:
 
  - [TOMS](http://toms.acm.org) (ACM Transactions on Mathematical Software):
    This is a well-established journal whose articles often describe
@@ -31,9 +31,9 @@ piece of scientific literature which can be cited by later works:
  - [TOMACS](http://tomacs.acm.org/about.cfm) (ACM Transactions on Modeling and Computer Simulation):
    Another well-established journal, which deals more with applications,
    their impact and results, as well as their methodology
-   (e.g. Verification & Validation).
+   (e.g., verification and validation).
  - [SoftwareX](https://www.journals.elsevier.com/softwarex/):
-   An Elsevier journal which aims to ensure software
+   An Elsevier journal that aims to ensure software
    is cited and gets credit in the literature.
    This journal accepts submissions regarding software that is used
    in any of a wide range of disciplines, from mathematics to the
@@ -69,7 +69,7 @@ Publish: yes
 Categories: crosscutting resources
 Topics: software publishing and citation
 Tags: SoftwareX, journal, cite, publish
-Level: 1
+Level: 2
 Prerequisites: WhatIsSustainability.md WhatIsGoodDocumentation.md WhatIsCseSwTesting.md
 Aggregate: none
 --->
