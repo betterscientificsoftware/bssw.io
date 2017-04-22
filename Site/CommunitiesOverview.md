@@ -5,10 +5,10 @@ The Better Scientific Software umbrella encompasses a rich variety of communitie
 Community-specific landing pages, tailored to unique perspectives and priorities, provide a variety of starting points for using the BSSw site and promote a shared understanding of CSE software issues.  
 
 ### Better Scientific Software Communities:
-- [Exascale Computing Community](Communities.ExascaleComputing.md)
-- [Terrestrial Ecosystem Community](Communities.TerrestrialEcosystem.md)
-- [Scientific Libraries Community](Communities.SoftwareLibraries.md)
-- [Software Engineering Community](Communities.SoftwareEngineering.md)
+- [Exascale Computing Community](Communities/ExascaleComputing.md)
+- [Terrestrial Ecosystem Community](Communities/TerrestrialEcosystem.md)
+- [Scientific Libraries Community](Communities/SoftwareLibraries.md)
+- [Software Engineering Community](Communities/SoftwareEngineering.md)
 - and many more ...
 
 We want your input and perspectives.  Please contact us if you would like to start a community-specific landing page.
