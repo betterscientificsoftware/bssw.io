@@ -18,12 +18,12 @@ Statements about *what* functions a software product shall perform including any
     - [What Are CSE Software Requirements?](Topics/WhatAreCseSwRequirements.md)
 
 - **Design:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Major considerations in designing software to meet its scientific objectives and sustainability goals. 
 
     - [What Is CSE Software Design?](Topics/WhatIsCseSwDesign.md)
 
 - **Development:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+A description of what is involved in scientific software development and what policies need to be articulated.
 
     - [What Is CSE Software Development?](Topics/WhatIsCseSwDevelopment.md)
 
@@ -49,6 +49,5 @@ The process of improving *internal* attributes of a software product (e.g. reada
 - [What Is CSE Software Refactoring?](Topics/WhatIsCseSwRefactoring.md)
 
 - **Software engineering:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
-
+Procedures and considerations for getting a well engineered, reliable and maintained software.
     - [What Is Software Engineering for CSE?](Topics/WhatIsSwEngForCse.md)
