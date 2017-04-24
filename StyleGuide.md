@@ -15,6 +15,7 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
     - Abbreviations:
         - Apps = Applications
         - Cse = CSE = Computational Science and Engineering
+        - Devpt = Development
         - Eng = Engineering
         - Hpc = HPC = High-Performance Computing
         - Perf = Performance

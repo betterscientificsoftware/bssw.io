@@ -7,7 +7,16 @@ A software library is a high-quality, encapsulated, documented, tested, and mult
 ### Software Challenges for Developers of Scientific Libraries
 As computational science addresses more advanced modeling, simulation, and analysis, the developers of open-source scientific libraries are considering how to design libraries for extensibility and performance portability, while encouraging community contributions to their software and at the same time devising more effective strategies for connections with external packages that provide complementary functionality.  As we work toward broader community scientific software ecosystems, we need to harness the collective experiences and insights of scientific library developers on scientific software issues.
 
-### Go to the [Better Scientific Software main page](../Homepage.md)
+### Resource Highlights
+* [How to Configure Software](../../CuratedContent/HowToConfigureSw.md)
 
-### Contribute to the BetterScientificSoftware site.
+* [Open Source Software Sustainability Resources](../../CuratedContent/OSSSustainabilityResources.md)
+
+* [Test Driven Development in Scientific Software: A Survey](../../CuratedContent/TestDrivenDevptInScientificSwASurvey.md)
+
+* [High Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
+
+### See all resources at the [Better Scientific Software main page](../Homepage.md)
+
+### Contribute to the Better Scientific Software site
 We encourage scientific library developers to share ideas about library interoperability, user contributions, work toward community scientific software ecosystems, and other concerns.  See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
