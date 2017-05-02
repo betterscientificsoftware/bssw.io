@@ -12,7 +12,7 @@ CSE is naturally interdisciplinary. Its goals concern understanding and analyzin
 
 The SIAM CSE conference seeks to enable in-depth technical discussions on a wide variety of major computational efforts on large-scale problems in science and engineering, foster the interdisciplinary culture required to meet these large-scale challenges, and promote the training of the next generation of computational scientists.
 
-## CSE17 Events on Productivity and Sustainability Topics
+## Highlights: CSE17 Events on Productivity and Sustainability Topics
 
 **Subresources:**
 - [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability](../CuratedContent/CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.SIAM-CSE17.md)
