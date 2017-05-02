@@ -1,11 +1,10 @@
 
 # SIAM Conference on Computational Science and Engineering (CSE17)
 
-**Overview:**
-- Event Website: https://www.siam.org/meetings/cse17/
-- Organizers: [SIAM Activity Group on Computational Science and Engineering] (http://www.siam.org/activity/cse/ "SIAG/CSE")
+- Organizers: SIAM Activity Group on Computational Science and Engineering (http://www.siam.org/activity/cse/ "SIAG/CSE")
 - Dates: Feb 27 - March 3, 2017
 - Location: Atlanta, GA
+- Event Website: https://www.siam.org/meetings/cse17/
 
 **Description:** Computational Science and Engineering (CSE) complement theory and experiment as a critical component of scientific discovery. CSE is indispensable for leading edge investigation and engineering design in a vast number of industrial sectors, including for example, aerospace, automotive, biological, chemical, and semiconductor technologies that all rely increasingly on advanced modeling and simulation. CSE also contributes to policy and decisions relating to human health, resources, transportation, and defense. Finally, in many new areas such as medicine, the life sciences, management and marketing (e.g. data- and stream mining), and finance, techniques and algorithms from CSE are of growing importance.
 

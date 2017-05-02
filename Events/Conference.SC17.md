@@ -1,10 +1,9 @@
 
 # SC17
 
-**Overview:**
-- Event Website: http://sc17.supercomputing.org/
 - Dates: Nov 12-17, 2017
 - Location: Denver, CO
+- Event Website: http://sc17.supercomputing.org/
 
 **Description:**  The 2017 International Conference for High Performance Computing, Networking, Storage and Analysis (SC17) brings together the international high performance computing community for an exceptional program of technical presentations, papers, informative tutorials, timely research posters and Birds-of-a-Feather (BoF) sessions.
 
