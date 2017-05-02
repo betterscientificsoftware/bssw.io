@@ -1,5 +1,5 @@
 
-# 2017 Scientific Software Days
+# 8th Annual Scientific Software Days
 
 - Dates: April 27-28, 2017
 - Location: Austin, TX
