@@ -1,10 +1,8 @@
 # How to Publish CSE Software
 
-#### Contributed by [Dan Ibanez](https://github.com/ibaned)
-
 CSE software is used to generate many significant results
 in the scientific literature.
-The articles which present these results should have a way
+The articles that present these results should have a way
 to acknowledge the work that went
 into developing the software, ideally via the same citation
 mechanism used to acknowledge previous articles.
@@ -63,6 +61,10 @@ piece of scientific literature that can be cited by later works:
    Zenodo also allows users to upload data, and obtain a DOI for their
    data, while also acting as a hosting/distribution platform for others
    to access that data.
+
+#### Contributed by [Dan Ibanez](https://github.com/ibaned)
+
+For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
 Publish: yes
