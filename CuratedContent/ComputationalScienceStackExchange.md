@@ -2,7 +2,7 @@
 
 [Computational Science Stack Exchange](https://scicomp.stackexchange.com/) is a question and answer site for scientists using computers to solve scientific problems.
 
-The charter for this particular Stack Exchange site is buch broader than just software engineering, productivity, sustainability, and related topics.  Most of the questions tend to be more about methods and algorithms for computational science and engineering, but more software-oriented questions do arise.
+This Stack Exchange site covers computational science in general.  Most of the questions tend to be more about algorithms and methods, and also about how to use particular software packages.  However there have been some questions in the software engineering, productivity, sustainability, and related areas.  And good questions in these areas are likely to attract more.
 
 <!---
      Native image is too large.  Need to reduce size for reasonable display.
