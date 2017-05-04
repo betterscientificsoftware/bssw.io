@@ -1,4 +1,4 @@
-# What Is CSE?
+# Intro to CSE
 Computational science and engineering (CSE) is a multidisciplinary field of research and education lying at the intersection of applied mathematics, statistics, computer science, and core disciplines of science and engineering.  CSE is devoted to the development and use of computational methods for scientific discovery in all branches of the sciences, for the advancement of innovation in engineering and technology, and for the support of decision-making across a spectrum of societally important application areas. CSE is widely recognized as an essential driver of scientific and technological progress in conjunction with theory and experiment.  
 
 The broad impact of CSE and next-generation opportunities are summarized in a recent report, led by the [SIAM Activity Group on CSE](www.siam.org/activity/cse/): _**Research and Education in Computational Science and Engineering**_, U. Rüde, K. Willcox, L.C. McInnes, H. De Sterck, et al., Oct 2016, https://arxiv.org/abs/1610.02608.
