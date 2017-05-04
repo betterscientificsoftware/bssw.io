@@ -2,14 +2,6 @@ Scientific software has emerged as an essential discipline in its own right.   B
 
 ### Get Oriented:
 
-Site Overview
-
-Communities Overview
-
-Intro to CSE
-
-Intro to HPC
-
 <!---
 [Site Overview](SiteOverview.md)
 
