@@ -67,7 +67,7 @@ piece of scientific literature that can be cited by later works:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
-Publish: yes
+Publish: no
 Categories: crosscutting resources
 Topics: software publishing and citation
 Tags: SoftwareX, journal, cite, publish
