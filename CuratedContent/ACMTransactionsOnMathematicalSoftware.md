@@ -1,31 +1,8 @@
-# How to Publish CSE Software
+# ACM Transactions on Mathematical Software
 
-CSE software is used to generate many significant results
-in the scientific literature.
-The articles that present these results should have a way
-to acknowledge the work that went
-into developing the software, ideally via the same citation
-mechanism used to acknowledge previous articles.
-At the same time, making software visible to searches
-of scientific literature will help potential users discover
-software they may benefit from using.
-As a community, we are still experimenting with various
-methods of citing software while trying to keep up with the
-rapidly accelerating scale, pace, and visibility
-of scientific software development.
+[ACM Transactions on Mathematical Software (TOMS)](http://toms.acm.org) is a well-established journal whose articles often describe novel algorithms and their implementation as mature, usable software products. It has also pioneered policies to improve the reproducibility of published research.
 
-## Journals that Publish CSE Software
-
-The following is a list of journals that specialize,
-to varying degrees, in presenting a scientific software package as a
-piece of scientific literature that can be cited by later works:
-
- - [TOMS](http://toms.acm.org) (ACM Transactions on Mathematical Software):
-   This is a well-established journal whose articles often describe
-   novel algorithms and their implementation as mature, usable
-   software products.
-   It has also pioneered policies to improve the reproducibility
-   of published research.
+<!---
  - [TOMACS](http://tomacs.acm.org/about.cfm) (ACM Transactions on Modeling and Computer Simulation):
    Another well-established journal, which deals more with applications,
    their impact and results, as well as their methodology
@@ -61,17 +38,18 @@ piece of scientific literature that can be cited by later works:
    Zenodo also allows users to upload data, and obtain a DOI for their
    data, while also acting as a hosting/distribution platform for others
    to access that data.
+--->
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
-Publish: no
+Publish: yes
 Categories: crosscutting resources
 Topics: software publishing and citation
-Tags: SoftwareX, journal, cite, publish
+Tags: publish
 Level: 2
-Prerequisites: WhatIsSustainability.md WhatIsGoodDocumentation.md WhatIsCseSwTesting.md
+Prerequisites: WhatIsWorkOnSwPublishingAndCitation.md
 Aggregate: none
 --->
