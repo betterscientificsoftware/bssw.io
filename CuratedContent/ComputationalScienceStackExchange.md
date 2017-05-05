@@ -1,4 +1,4 @@
-# Compuational Science Stack Exchange
+# Computational Science Stack Exchange
 
 [Computational Science Stack Exchange](https://scicomp.stackexchange.com/) is a question and answer site for scientists using computers to solve scientific problems.
 
@@ -16,7 +16,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: Crosscutting Resources
 Topics: Discussion forums, Q&A sites
-Tags: 
+Tags:
 Level: 2
 Prerequisites: WhatAreDisussionForumsAndQASitesForBetterScientificSw.md
 Aggregate: none
