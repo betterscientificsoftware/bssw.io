@@ -3,12 +3,6 @@
 [SoftwareX](https://www.journals.elsevier.com/softwarex/) is an Elsevier journal that aims to ensure software is cited and gets credit in the literature. This journal accepts submissions regarding software that is used in any of a wide range of disciplines, from mathematics to the sciences and humanities.
 
 <!---
- - [SoftwareX](https://www.journals.elsevier.com/softwarex/):
-   An Elsevier journal that aims to ensure software
-   is cited and gets credit in the literature.
-   This journal accepts submissions regarding software that is used
-   in any of a wide range of disciplines, from mathematics to the
-   sciences and humanities.
  - [ANS](http://journals.ub.uni-heidelberg.de/index.php/ans/) (Archive of Numerical Software):
    This journal aims to promote the re-use of high-quality scientific
    software libraries by publishing articles about application software
