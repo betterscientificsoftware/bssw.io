@@ -18,7 +18,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [How To Improve Testing for CSE Software](../CuratedContent/HowToImproveTestingForCseSw.md)
 
 - **Continuous integration testing:**
-A form of testing *maximally* integrated with code commits. 
+A form of testing *maximally* integrated with code commits.
 
     - [What Is Continuous Integration Testing?](Topics/WhatIsContinuousIntegrationTesting.md)
 
@@ -26,3 +26,7 @@ A form of testing *maximally* integrated with code commits.
 Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
      - [What Is Reproducibility?](Topics/WhatIsReproducibility.md)
+
+<!---
+Category order: 2
+--->

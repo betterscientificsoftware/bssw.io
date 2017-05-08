@@ -30,3 +30,7 @@ Venues that facilitate the publication of software as a distinct artifact (from,
 Pointers to online lectures, tutorials, and other learning material focusing on scientific software development, productivity, and sustainability.
 
     - [What Is Online Learning?](Topics/WhatIsOnlineLearning.md)
+
+<!---
+Category order: 6
+--->

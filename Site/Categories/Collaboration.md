@@ -6,7 +6,7 @@
 
 **Topics:**
 
-- **Version control:** 
+- **Version control:**
 Management of changes to files.  Also known as revision control, source control, or source management. xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx xxxx xxx xxxxx xxxx.
 
     - [What is Version Control?](../CuratedContent/WhatIsVersionControl.md)
@@ -37,3 +37,7 @@ Ways to foster teamwork, leveraging people's diverse skills in pursuit of a comm
 Communicating with program managers, sponsors, and other stakeholders about project goals, progress, and impact.  xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxxx.
 
    - [What Is Coordination with Stakeholders?](Topics/WhatIsCoordinationWithStakeholders.md)  
+
+<!---
+Category order: 5
+--->

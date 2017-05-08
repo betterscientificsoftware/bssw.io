@@ -18,7 +18,7 @@ Statements about *what* functions a software product shall perform including any
     - [What Are CSE Software Requirements?](Topics/WhatAreCseSwRequirements.md)
 
 - **Design:**
-Major considerations in designing software to meet its scientific objectives and sustainability goals. 
+Major considerations in designing software to meet its scientific objectives and sustainability goals.
 
     - [What Is CSE Software Design?](Topics/WhatIsCseSwDesign.md)
 
@@ -51,3 +51,7 @@ The process of improving *internal* attributes of a software product (e.g. reada
 - **Software engineering:**
 Procedures and considerations for getting a well engineered, reliable and maintained software.
     - [What Is Software Engineering for CSE?](Topics/WhatIsSwEngForCse.md)
+
+<!---
+Category order: 1
+--->
