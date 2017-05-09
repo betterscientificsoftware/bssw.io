@@ -6,6 +6,16 @@ An unambiguously defined software process that includes a rigorous verification 
 
 The process should also define practices for services such as issue tracking and agile tools project management for development and maintenance of the software. The policies for code contribution and maintenance should be defined early in the project, with provisions for modification if circumstances warrant. If software is to be released publicly, another issue is determination of a suitable license.
 
-For software sustainability documentation is critical. All interfaces should be fully documented with description of their functionality, input and output parameters, and any changes in the state that they may cause. Inline documentation explaining the control flow and parameter choices as appropriate is critical in preventing loss of capabilities when developers leave. Similarly, documentation and availability of training modules can be helpful in bringing new team members online rapidly. 
+For software sustainability documentation is critical. All interfaces should be fully documented with description of their functionality, input and output parameters, and any changes in the state that they may cause. Inline documentation explaining the control flow and parameter choices as appropriate is critical in preventing loss of capabilities when developers leave. Similarly, documentation and availability of training modules can be helpful in bringing new team members online rapidly.
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
+
+<!---
+Publish: yes
+Categories: planning
+Topics: software engineering
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->
