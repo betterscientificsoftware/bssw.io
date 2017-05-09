@@ -2,7 +2,7 @@
 
 Scientific software incorporates a broad range of expertise ranging
 from domain knowledge and applied mathematics to computer science
-issues such as performance and portability. It is necessary to untangle various complexities so that 
+issues such as performance and portability. It is necessary to untangle various complexities so that
 experts can focus on what they know best. Therefore, the process of software design in the
 context of scientific software involves determining a union of
 capabilities needed to achieve scientific objectives, the
@@ -11,12 +11,12 @@ functionality and an ability to compose these components as needed by
 the application. Decomposition can be functional and data/spatial
 domain. There are several examples of application codes and frameworks
 where sections of the code that pertain to the science of the application
-are written and verified separately and then plugged into a composing 
+are written and verified separately and then plugged into a composing
 framework with a wrapper. The internals of the framework handle the
 data management and other infrastructural concerns such as
-parallelization if needed. 
+parallelization if needed.
 
-Therefore, one of the very first choices to make in designing a software 
+Therefore, one of the very first choices to make in designing a software
 is which abstractions to use, and how to provide footholds for the
 abstractions in the framework so that they maintain separation of
 concerns. There are many long standing obstacles to meeting requirements above.
@@ -29,7 +29,7 @@ multiphysics and composability. Sometimes this means using suboptimal options fo
 components. The framework should be able to facilitate such unorthodox
 approaches and therefore should provide hooks for being able to make
 these choices. For more details on framework design see
-[Dubey2009,uintah2,valiev2010nwchem,case2014amber,O'Shea2005,Dubey2015] 
+[Dubey2009,uintah2,valiev2010nwchem,case2014amber,O'Shea2005,Dubey2015]
 
 Another important consideration in scientific software design is its
 dynamic nature. Codes designed for one problem are routinely modified
@@ -38,3 +38,13 @@ understanding places more demands on the current model. Therefore,
 extensibility in also a very important aspect of scientific software design.
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
+
+<!---
+Publish: yes
+Categories: planning
+Topics: design
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

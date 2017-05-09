@@ -19,3 +19,13 @@ Later on, another developer having to maintain such code will have to do the sof
 the cut-n-paste instances into a single implementation that can be re-used where necessary.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+<!---
+Publish: yes
+Categories: planning
+Topics: refactoring
+Tags: 
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

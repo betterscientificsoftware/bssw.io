@@ -19,4 +19,14 @@ An "issue" represents anything that, if resolved, results in an improvement to a
 
 All three modern web-based repository hosting systems, [BitBucket](https://bitbucket.com), [GitHub](http://github.org), and [GitLab](https://gitlab.com/explore/projects/trending) provide integrated issue tracking systems and support most, if not all of the capabilities listed above.
 
-#### Contributed by [Barry Smith](■	https://github.com/BarrySmith)
+#### Contributed by [Barry Smith](https://github.com/BarrySmith)
+
+<!---
+Publish: yes
+Categories: collaboration
+Topics: issue tracking
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

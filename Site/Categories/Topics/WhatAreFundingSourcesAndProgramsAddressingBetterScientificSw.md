@@ -7,3 +7,13 @@ However, some funding agencies are beginning to recognize the importance of soft
 Resources unde this topic are topic are pointers to funding agencies and programs that are specifically target the software itself in some fashion, rather than the more common science/engineering R&D.
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)
+
+<!---
+Publish: yes
+Categories: crosscutting
+Topics: funding sources and programs
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->
