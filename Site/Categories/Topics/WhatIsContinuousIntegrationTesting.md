@@ -49,3 +49,13 @@ appropriate. For example, a test that checks convergence of a numerical algorith
 likely to require too much time (or too large of a compute resource) to be appropriate for CI testing.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+<!---
+Publish: yes
+Categories: reliability
+Topics: continuous integration testing
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

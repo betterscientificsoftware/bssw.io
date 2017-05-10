@@ -5,3 +5,13 @@ An increasing number of online discussion forums or question and answer (Q&A) si
 This topic covers resources which are open to questions about software development, productivity, and sustainability, as opposed to, for example, questions about algorithms or the use of particular numerical libraries, or other questions about CSE software (though in many cases, sites may be open to a broader range of questions).
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)
+
+<!---
+Publish: yes
+Categories: crosscutting
+Topics: discussion forums and Q&A sites
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

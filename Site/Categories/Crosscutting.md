@@ -9,24 +9,38 @@
 - **Funding sources and programs:**
 Sources of financial support for efforts to improve scientific software development practices, productivity, sustainability, and community-building. Note that this is distinct from traditional computational science and engineering R&D.
 
+<!---
     - [What Are Funding Sources and Programs Addressing Better Scientific Software?](Topics/WhatAreFundingSourcesAndProgramsAddressingBetterScientificSw.md)
+--->
 
 - **Projects and organizations:**
 Projects and organizations having a particular emphasis on scientific software development, productivity and sustainability.
 
+<!---
     - [What Are Projects and Organizations Addressing Better Scientific Software?](Topics/WhatAreProjectsAndOrganizationsAddressingBetterScientificSw.md)
+--->
 
 - **Discussion forums, Q&A sites:**
 Discussion forums and Q&A sites where questions about scientific software development, productivity, and sustainability are welcome.
 
+<!---
     - [What Are Discussion Forums and Q&A Sites for Better Scientific Software?](Topics/WhatAreDisussionForumsAndQASitesForBetterScientificSw.md)
+--->
 
 - **Software publishing and citation:**
 Venues that facilitate the publication of software as a distinct artifact (from, e.g., scientific papers). Resources on citation policies for software as a distinct artifact.
 
+<!---
     - [What Is Work on Software Publishing and Citation?](Topics/WhatIsWorkOnSwPublishingAndCitation.md)
+--->
 
 - **Online learning:**
 Pointers to online lectures, tutorials, and other learning material focusing on scientific software development, productivity, and sustainability.
 
+<!---
     - [What Is Online Learning?](Topics/WhatIsOnlineLearning.md)
+--->
+
+<!---
+Category order: 6
+--->

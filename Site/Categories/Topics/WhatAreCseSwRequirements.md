@@ -45,3 +45,13 @@ to the [Agile](https://en.wikipedia.org/wiki/Agile_software_development) develop
 is iterated and refined right along with the software it specifies.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+<!---
+Publish: yes
+Categories: planning
+Topics: requirements
+Tags: waterfall, agile
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->
