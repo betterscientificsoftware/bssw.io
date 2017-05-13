@@ -2,7 +2,7 @@
 
 The exascale computing community is working toward unprecedented computational resources for next-generation science.
 
-The international exascale computing community is developing a holistic computational capability, including hardware, system software, libraries, and applications, to deliver and effectively use systems capable of at least one quintillion (10^18) calculations per second.   In comparison, today’s fastest supercomputers operate in the petascale range (10^15 calculations per second).  When paired with critical advances in CSE algorithms and software, the unprecedented power of extreme-scale architectures will enable high-fidelity, multiscale, multiphysics modeling, simulation, and analysis—leading to accelerated, broadly impactful scientific discoveries.   More information:
+The international exascale computing community is developing a holistic computational capability, including hardware, system software, libraries, and applications, to deliver and effectively use systems capable of at least one quintillion (10<sup>18</sup>) calculations per second.   In comparison, today’s fastest supercomputers operate in the petascale range (10<sup>15</sup> calculations per second).  When paired with critical advances in CSE algorithms and software, the unprecedented power of extreme-scale architectures will enable high-fidelity, multiscale, multiphysics modeling, simulation, and analysis—leading to accelerated, broadly impactful scientific discoveries.   More information:
 - [Exascale Computing Project (ECP)] (https://exascaleproject.org "ECP Homepage")
 - [European Exascale Software Initiative (EESI)] (http://www.eesi-project.eu/ "EESI Homepage")
 
