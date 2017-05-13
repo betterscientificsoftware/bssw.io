@@ -31,7 +31,7 @@ CSE software on high-performance computer must address a broad range of complexi
 - HPC software productivity challenges are discussed in the following community report: _**Software Productivity for Extreme-scale Science**_, H. Johansen, L.C. McInnes, et al., 2014, Report on DOE Workshop, http://www.orau.gov/swproductivity2014/SoftwareProductivityWorkshopReport2014.pdf.
 
 <!---  Currently we're not attributing the Intro articles
-#### Contributed by [Lois Curfman McInnes](https://github.com/curfman), [David E. Bernholdt](https://github.com/bernhold), [Suzanne Parete-Koon](https://github.com/suzannepk), and [Rebecca Hartman-Baker](https://github.com/)
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman), [David E. Bernholdt](https://github.com/bernhold), [Suzanne Parete-Koon](https://github.com/suzannepk), and [Rebecca Hartman-Baker](https://github.com/hartmanbaker)
 --->
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
