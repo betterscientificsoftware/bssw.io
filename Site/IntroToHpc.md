@@ -19,16 +19,15 @@ HPC and computational science and engineering (CSE) are intertwined in a symbiot
 
 CSE software on high-performance computer must address a broad range of complexities.  A primary concern on modern HPC systems is parallelism, especially at the largest scales.  However the various architectures on the market, including heterogeneous processor types, hierarchical memories, and other distinctive features making it particularly challenging to express algorithms in a way that is portable across the variety of architectures.  The hardware-related challenges of programming HPC systems are exacerbated by the increasing complexity on the science side, with multiscale and multiphysics simulations, increasingly complex models, etc. The Better Scientific Software community is working to overcome challenges in CSE software complexity in both traditional HPC environments (clusters, networks of workstations, petascale machines) as well as [emerging extreme-scale architectures](Communities.ExascaleComputing.md).
 
-### For More Information
-- The Pawsey Supercomputer Centre training material includes several introductory tutorials:
--- Introductory Supercomputing
--- Introduction to Supercomputer Technology
--- Intermediate Supercomputing
-- The Archer (UK National Supercomputing Service) training archive includes a Hands-On Introduction to HPC
+### For More Introductory Material on HPC
+- The [Pawsey Supercomputer Centre](https://www.pawsey.org.au/) [training material archive](https://support.pawsey.org.au/documentation/display/US/Training+Material) includes several introductory tutorials:
+  - [Introductory Supercomputing](https://support.pawsey.org.au/documentation/download/attachments/2162899/Introductory%20Supercomputing.pdf?api=v2)
+  - [Introduction to Supercomputer Technology](https://support.pawsey.org.au/documentation/download/attachments/2162899/Introduction%20to%20Supercomputer%20Technology.pdf?api=v2)
+  - [Intermediate Supercomputing](https://support.pawsey.org.au/documentation/download/attachments/2162899/Intermediate%20Supercomputing.pptx?api=v2)
+- The [Archer](http://www.archer.ac.uk/) (UK National Supercomputing Service) [training archive](http://www.archer.ac.uk/training/past_courses.php) includes a [Hands-On Introduction to HPC](http://www.archer.ac.uk/training/course-material/2016/11/intro_newcastle/index.php)
+- HPC software productivity challenges are discussed in the following community report: _**Software Productivity for Extreme-scale Science**_, H. Johansen, L.C. McInnes, et al., 2014, Report on DOE Workshop, http://www.orau.gov/swproductivity2014/SoftwareProductivityWorkshopReport2014.pdf.
 
-HPC software productivity challenges are discussed in the following community report: _**Software Productivity for Extreme-scale Science**_, H. Johansen, L.C. McInnes, et al., 2014, Report on DOE Workshop, http://www.orau.gov/swproductivity2014/SoftwareProductivityWorkshopReport2014.pdf.
-
-#### Contributed by Lois Curfman McInnes, David E. Bernholdt, Suzanne Parete-Koon, and Rebecca Hartman-Baker
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman), [David E. Bernholdt](https://github.com/bernhold), [Suzanne Parete-Koon](https://github.com/), and [Rebecca Hartman-Baker](https://github.com/)
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
