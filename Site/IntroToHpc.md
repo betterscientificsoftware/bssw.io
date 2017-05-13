@@ -20,7 +20,9 @@ HPC and [computational science and engineering (CSE)](IntroToCSE.md) are intertw
 
 CSE software on high-performance computer must address a broad range of complexities.  A primary concern on modern HPC systems is parallelism, especially at the largest scales.  However the various architectures on the market, including heterogeneous processor types, hierarchical memories, and other distinctive features making it particularly challenging to express algorithms in a way that is portable across the variety of architectures.  The hardware-related challenges of programming HPC systems are exacerbated by the increasing complexity on the science side, with multiscale and multiphysics simulations, increasingly complex models, etc. The Better Scientific Software community is working to overcome challenges in CSE software complexity in both traditional HPC environments (clusters, networks of workstations, petascale machines) as well as [emerging extreme-scale architectures](Communities/ExascaleComputing.md).
 
-### For More Introductory Material on HPC
+### More Introductory Material on HPC
+- [InsideHPC](http://insidehpc.com/)'s article on [What is High-Performance Computing?](http://insidehpc.com/hpc-basic-training/what-is-hpc/)
+- [Wikipedia](https://wikipedia.org) entry on [Supercomputers](https://en.wikipedia.org/wiki/Supercomputer)
 - The [Pawsey Supercomputer Centre](https://www.pawsey.org.au/) [training material archive](https://support.pawsey.org.au/documentation/display/US/Training+Material) includes several introductory tutorials:
   - [Introductory Supercomputing](https://support.pawsey.org.au/documentation/download/attachments/2162899/Introductory%20Supercomputing.pdf?api=v2)
   - [Introduction to Supercomputer Technology](https://support.pawsey.org.au/documentation/download/attachments/2162899/Introduction%20to%20Supercomputer%20Technology.pdf?api=v2)
