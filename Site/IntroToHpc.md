@@ -1,7 +1,8 @@
 # Intro to HPC
 
-<!--- This could be the deck, if one is required for this type of document --->
-High-performance computers are significantly more powerful than their general-purpose counterparts, and are used to tackle particularly challenging computational problems in science and engineering, as well as other areas. The initialism *HPC* can refer to either high-performance *computers* (the systems themselves) or high-performance *computing* (the *use* of high-performance computers).  It is usually clear from the context which is meant.
+High-performance computers are significantly more powerful than their general-purpose counterparts, and are used to tackle particularly challenging computational problems in science and engineering, as well as other areas. 
+
+The initialism *HPC* can refer to either high-performance *computers* (the systems themselves) or high-performance *computing* (the *use* of high-performance computers).  It is usually clear from the context which is meant.
 
 As computers began to become generally available as commercial products, the community began to realize that different workloads place different demands on the systems.  The idea of *high-performance computers*, or *supercomputers*, began to emerge in the 1960s as systems specially designed to address high-end computing needs, most often for technical, scientific, and engineering problems.  While there is no strict definition of a supercomputer, they are generally recognized as offering significantly higher performance than the general-purpose or *commodity* counterparts of the day, allowing them to handle computational problems that are too large for commodity computers or would take too long to solve.
 

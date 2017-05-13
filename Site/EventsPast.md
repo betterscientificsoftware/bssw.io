@@ -1,8 +1,8 @@
 # Past Events
 
-We provide pointers to upcoming events related to better scientific software, with emphasis on productivity and sustainability issues.  
+We provide pointers to events related to better scientific software, with emphasis on productivity and sustainability issues.  
 
-We include conferences, workshops, webinars, tutorials, and other training events.
+We include conferences, workshops, webinars, tutorials, and other training events.  Paragraph with more info xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx.
 
 We welcome pointers to events.  [Instructions for submitting event pointers goes here.]
 

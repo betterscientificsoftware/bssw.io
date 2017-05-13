@@ -21,13 +21,16 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
         - Perf = Performance
         - Sw = Software
 
-#### Resource Description:
+#### One-sentence resource description:
+- Complete sentence that orients the reader (moderate length, not too long).  This sentence will appear prominently on the front-end site in larger font than the more detailed resource description that follows.  The goal is for readers to understand where they've arrived on this page.
+
+#### Full resource Description:
 - Concise paragraph explaining resource from the perspective of the CSE community
 - Use links to WhatIs and HowTo docs when appropriate for background info
 - Image file (e.g., logo) - optional (encouraged when this exists)
 
-#### Contributor:
-- Name of contributor, hyperlinked to GitHub profile
+#### Contributor(s):
+- Name of contributor(s), hyperlinked to GitHub profile(s)
 
 #### Footer: Add the following at the bottom of each page:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
