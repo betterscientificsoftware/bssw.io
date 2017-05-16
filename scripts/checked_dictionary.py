@@ -2,6 +2,9 @@
 """
 checked_dictionary
 
+v1.0: restrict-to version
+v1.1: restrict-if addition
+
 """
 from pprint import pformat
 import sys
@@ -10,6 +13,10 @@ import sys
 
 class checked_dictionary(object):
     """
+    A checked dictionary structure.
+
+    Emulates much of the behaviour of a dictionary, but adds the ability to have
+    restrict the value of entries based on the keys provided.
     """
 
     # Static Data (Property Map Whitelist)
