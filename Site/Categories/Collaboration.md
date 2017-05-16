@@ -6,28 +6,6 @@
 
 **Topics:**
 
-- **Version control:**
-Management of changes to files.  Also known as revision control, source control, or source management. xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx xxxx xxx xxxxx xxxx.
-
-<!---
-    - [What is Version Control?](../CuratedContent/WhatIsVersionControl.md)
-    - [How to Do Version Control with Git in Your CSE Project](..CuratedContent/HowToDoVersionControlWithGitInYourCseProject.md)
---->
-
-- **Documentation:**
-Written text or illustration that accompanies computer software to explain how it operates or how to use it.   xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx xxxx xxxx xxxxxx.
-
-<!---
-    - [What Is Good Documentation?](../CuratedContent/WhatIsGoodDocumentation.md)
-    - [How to Write Good Documentation?](../CuratedContent/HowToWriteGoodDocumentation.md)
---->
-
-- **Issue tracking:**
-The process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
-
-<!---
-   - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
---->
 
 - **Licensing:**
 A legal instrument governing the use or redistribution of software.  **TO DO: Shorten this: Copyright and patents are two of the primary legal frameworks used around the world to govern the intellectual property rights associated with software.  Patents are related to the novel ideas embodied in the software, while copyright is associated with the expression of the code itself.  License agreements provide a means for the owners of the intellectual property rights to selectively grant rights to others, such as the use or redistribution of the software.**
@@ -43,10 +21,39 @@ Ways to foster teamwork, leveraging people's diverse skills in pursuit of a comm
    - [What Are Strategies for More Effective Teams?](Topics/WhatAreStrategiesForMoreEffectiveTeams.md)  
 --->
 
+- **Discussion forums, Q&A sites:**
+Discussion forums and Q&A sites where questions about scientific software development, productivity, and sustainability are welcome.
+
+<!---
+    - [What Are Discussion Forums and Q&A Sites for Better Scientific Software?](Topics/WhatAreDisussionForumsAndQASitesForBetterScientificSw.md)
+--->
+
+- **Software publishing and citation:**
+Venues that facilitate the publication of software as a distinct artifact (from, e.g., scientific papers). Resources on citation policies for software as a distinct artifact.
+
+<!---
+    - [What Is Work on Software Publishing and Citation?](Topics/WhatIsWorkOnSwPublishingAndCitation.md)
+--->
+
+- **Funding sources and programs:**
+Sources of financial support for efforts to improve scientific software development practices, productivity, sustainability, and community-building. Note that this is distinct from traditional computational science and engineering R&D.
+
+<!---
+    - [What Are Funding Sources and Programs Addressing Better Scientific Software?](Topics/WhatAreFundingSourcesAndProgramsAddressingBetterScientificSw.md)
+--->
+
+- **Projects and organizations:**
+Projects and organizations having a particular emphasis on scientific software development, productivity and sustainability.
+
+<!---
+    - [What Are Projects and Organizations Addressing Better Scientific Software?](Topics/WhatAreProjectsAndOrganizationsAddressingBetterScientificSw.md)
+--->
+
+<!---
 - **Coordination with stakeholders:**
 Communicating with program managers, sponsors, and other stakeholders about project goals, progress, and impact.  xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxxx.
 
-<!---
+
    - [What Is Coordination with Stakeholders?](Topics/WhatIsCoordinationWithStakeholders.md)  
 --->
 
