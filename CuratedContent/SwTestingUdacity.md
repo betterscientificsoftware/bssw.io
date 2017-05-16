@@ -12,10 +12,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: Reliability, Crosscutting resources
+Categories: Reliability, skills
 Topics: testing, online learning
-Tags: 
+Tags:
 Level: 2
-Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md, WhatIsOnlineLearning.md
+Prerequisites: defaults
 Aggregate: none
 --->

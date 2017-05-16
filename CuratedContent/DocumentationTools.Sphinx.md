@@ -22,10 +22,10 @@ For more information on better scientific software, go to the
 
 <!---
 Publish: yes
-Categories: collaboration
+Categories: development
 Topics: documentation
 Tags: Sphinx
 Level: 2
-Prerequisites: DocumentationTools.md, DocumentationTools.Doxygen.md
+Prerequisites: defaults
 Aggregate: subresource
 --->

@@ -12,10 +12,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: crosscutting, planning, reliability, collaboration, performance, individual productivity
+Categories: planning, reliability, collaboration, performance, skills
 Topics: [import from subresources]
 Tags: [import from subresources]
 Level: 2
-Prerequisites: WhatIsSoftwareProductivity.md
+Prerequisites: defaults
 Aggregate: base
 --->

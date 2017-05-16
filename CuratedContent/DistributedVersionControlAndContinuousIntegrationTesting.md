@@ -17,6 +17,6 @@ Categories: reliability, collaboration
 Topics: continuous integration testing, version control
 Tags: reliability, GitHub, Travis CI
 Level: 2
-Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md
+Prerequisites: defaults
 Aggregate: none
 --->

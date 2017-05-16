@@ -9,15 +9,11 @@ As discussed in ["What Is CSE Software Testing?"](WhatIsCseSwTesting.md), automa
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
-Content area:  tools
-Filters: reliability, testing, continuous integration
---->
-<!---
 Publish: yes
-Categories: reliability
-Topics: testing, continuous integration testing
+Categories: reliability, development
+Topics: testing, continuous integration testing, development tools
 Tags: Jenkins
 Level: 2
-Prerequisites: WhatIsCseSoftwareTesting.md
+Prerequisites: defaults
 Aggregate: none
 --->

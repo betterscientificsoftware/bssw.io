@@ -10,10 +10,10 @@ For more information on better scientific software, go to [Better Scientific Sof
 
 <!---
 Publish: yes
-Categories: planning
-Topics: strategies for more effective teams
+Categories: collaboration, reliability
+Topics: strategies for more effective teams, testing
 Tags: advice, strategy, team, reproducibility, productivity, sustainability
 Level: 2
-Prerequisites: WhatIsPlanning.md (does not exist yet)
+Prerequisites: defaults
 Aggregate: none
 --->

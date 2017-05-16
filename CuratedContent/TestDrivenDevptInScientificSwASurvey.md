@@ -14,6 +14,6 @@ Categories: reliability
 Topics: testing, reliability, reproducibility
 Tags: experience, strategy
 Level: 2
-Prerequisites: WhatIsTesting, HowToTesting
+Prerequisites: defaults
 Aggregate: none
 --->

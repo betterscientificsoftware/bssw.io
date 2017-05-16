@@ -12,6 +12,6 @@ Categories: collaboration
 Topics: strategies for more effective teams
 Tags: advice, strategy, team
 Level: 2
-Prerequisites: WhatIsCollaboration.md (does not exist yet)
+Prerequisites: defaults
 Aggregate: none
 --->

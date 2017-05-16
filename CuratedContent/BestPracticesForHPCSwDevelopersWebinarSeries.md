@@ -48,6 +48,6 @@ Categories: Planning, Reliability, Collaboration, Crosscutting, Performance
 Topics: improving productivity and sustainability, reproducibility, testing, continuous integration testing, documentation
 Tags: I/O, HPC
 Level: 2
-Prerequisites: WhatIsSoftwareProductivity.md
+Prerequisites: defaults
 Aggregate: subresource
 --->

@@ -10,10 +10,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: Crosscutting Resources
+Categories: collaboration
 Topics: Projects and organizations
 Tags: Organizations
 Level: 2
-Prerequisites: WhatAreProjectsAndOrganizationsAddressingBetterScientificSw.md
+Prerequisites: defaults
 Aggregate: none
 --->

@@ -21,10 +21,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: Crosscutting Resources
+Categories: Collaboration
 Topics: Funding sources and programs
 Tags: Funding
 Level: 2
-Prerequisites: WhatAreFundingSourcesAndProgramsAddressingBetterScientificSw.md
+Prerequisites: defaults
 Aggregate: none
 --->

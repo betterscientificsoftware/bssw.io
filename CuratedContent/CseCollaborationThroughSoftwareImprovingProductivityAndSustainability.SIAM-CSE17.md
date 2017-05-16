@@ -25,6 +25,6 @@ Categories: Planning, Reliability, Collaboration, Individual Productivity
 Topics: improving productivity and sustainability, reproducibility, testing, continuous integration testing, licensing, strategies for more effective teams, personal kanban
 Tags: tutorial
 Level: 2
-Prerequisites: WhatIsSoftwareProductivity.md
+Prerequisites: defaults
 Aggregate: subresource
 --->

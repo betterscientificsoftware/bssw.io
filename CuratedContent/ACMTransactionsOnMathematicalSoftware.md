@@ -46,10 +46,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: crosscutting resources
+Categories: collaboration
 Topics: software publishing and citation
 Tags: publish
 Level: 2
-Prerequisites: WhatIsWorkOnSwPublishingAndCitation.md
+Prerequisites: defaults
 Aggregate: none
 --->

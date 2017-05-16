@@ -21,10 +21,10 @@ For more information on better scientific software, go to the
 
 <!---
 Publish: yes
-Categories: collaboration
+Categories: development
 Topics: documentation
 Tags: Read the Docs, hosting
 Level: 2
-Prerequisites: DocumentationTools.md, DocumentationTools.Sphinx.md
+Prerequisites: defaults
 Aggregate: subresource
 --->
