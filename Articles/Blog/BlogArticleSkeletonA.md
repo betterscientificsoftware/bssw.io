@@ -14,7 +14,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 <!---
 Publish: Yes
-Categories: collaboration
+Categories: development
 Topics: documentation
 Tags: HPC, documentation
 Level: 2

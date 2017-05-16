@@ -75,22 +75,22 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Refactoring
     - Software engineering
     - Development tools
+- **Performance**
+    - High-performance computing (HPC)
+    - Performance at leadership computing facilities (LCFs)
+    - Performance portability
 - **Reliability**
     - Testing
     - Continuous integration testing
     - Reproducibility
     - Debugging
-- **Performance**
-    - High-performance computing (HPC)
-    - Performance at leadership computing facilities (LCFs)
-    - Performance portability
 - **Collaboration**
     - Licensing
     - Strategies for more effective teams
     - Funding sources and programs
     - Projects and organizations
     - Software publishing and citation
-    - Discussion forums, Q&A sites
+    - Discussion forums, Q&A sites 
 - **Skills**
     - Personal productivity and sustainability
     - Online learning

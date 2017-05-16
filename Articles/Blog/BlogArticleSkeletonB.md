@@ -12,7 +12,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 <!---
 Publish: Yes
-Categories: reliability, collaboration
+Categories: reliability, development
 Topics: testing, reproducibility, documentation
 Tags: reliability, reproducibility, robustness, HPC, documentation
 Level: 2

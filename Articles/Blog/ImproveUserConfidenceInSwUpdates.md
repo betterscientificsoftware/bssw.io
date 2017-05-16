@@ -25,7 +25,7 @@ Some sources for behavior change:
 
 <!---
 Publish: Yes
-Categories: reliability, collaboration
+Categories: reliability, development
 Topics: testing, reproducibility, documentation
 Tags: reliability, reproducibility, robustness, HPC, documentation
 Level: 2
