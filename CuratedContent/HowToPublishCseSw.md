@@ -68,10 +68,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: no
-Categories: crosscutting resources
+Categories: collaboration
 Topics: software publishing and citation
 Tags: SoftwareX, journal, cite, publish
 Level: 2
-Prerequisites: WhatIsSustainability.md WhatIsGoodDocumentation.md WhatIsCseSwTesting.md
+Prerequisites: defaults
 Aggregate: none
 --->

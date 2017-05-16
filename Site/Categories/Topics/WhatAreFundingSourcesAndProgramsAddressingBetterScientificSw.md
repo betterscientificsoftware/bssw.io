@@ -10,7 +10,7 @@ Resources unde this topic are topic are pointers to funding agencies and program
 
 <!---
 Publish: yes
-Categories: crosscutting
+Categories: collaboration
 Topics: funding sources and programs
 Tags:
 Level: 0

@@ -8,7 +8,7 @@ In scientific software requirements gathering phase only loosely determines the 
 
 <!---
 Publish: yes
-Categories: planning
+Categories: development
 Topics: development
 Tags:
 Level: 0

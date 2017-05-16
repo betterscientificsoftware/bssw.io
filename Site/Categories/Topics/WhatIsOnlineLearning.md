@@ -6,7 +6,7 @@ Online learning resources on the internet span a very broad range, from formal c
 
 <!---
 Publish: yes
-Categories: individual productivity
+Categories: skills
 Topics: online learning
 Tags:
 Level: 0

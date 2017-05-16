@@ -8,6 +8,6 @@ Categories: reliability
 Topics: testing
 Tags: testing, terminology
 Level: 1
-Prerequisites: WhatIsCseSwTesting
+Prerequisites: defaults
 Aggregate: none
 --->

@@ -6,7 +6,7 @@ Peer-reviewed papers are the "gold standard" for credit and recognition of resea
 
 <!---
 Publish: yes
-Categories: crosscutting
+Categories: collaboration
 Topics: software publishing and citation
 Tags:
 Level: 0
