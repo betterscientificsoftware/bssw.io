@@ -169,7 +169,7 @@ def main():
 
     file_lines = load_textfile_to_stringlist(program_options.param_ifilename, program_options)
 
-    print "Validate metadata for '%s': "%(program_options.param_ifilename),
+    print "Validate metadata for '%s': \n"%(program_options.param_ifilename),
     try:
         metadata = extract_metadata_entries(file_lines, program_options)
     except ValueError, msg:
