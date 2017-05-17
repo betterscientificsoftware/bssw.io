@@ -8,7 +8,7 @@
 
 
 - **Licensing:**
-A legal instrument governing the use or redistribution of software.  **TO DO: Shorten this: Copyright and patents are two of the primary legal frameworks used around the world to govern the intellectual property rights associated with software.  Patents are related to the novel ideas embodied in the software, while copyright is associated with the expression of the code itself.  License agreements provide a means for the owners of the intellectual property rights to selectively grant rights to others, such as the use or redistribution of the software.**
+The legal side of controlling software distribution and use.  
 
 <!---
    - [What Is Software Intellectual Property?](Topics/WhatIsSoftwareIntellectualProperty.md)
@@ -29,7 +29,7 @@ Discussion forums and Q&A sites where questions about scientific software develo
 --->
 
 - **Software publishing and citation:**
-Venues that facilitate the publication of software as a distinct artifact (from, e.g., scientific papers). Resources on citation policies for software as a distinct artifact.
+Publishing and citing software as a distinct artifact (from, e.g., scientific papers), and publication venues focusing on software development topics, as distinct from the scientific results and methods.
 
 <!---
     - [What Is Work on Software Publishing and Citation?](Topics/WhatIsWorkOnSwPublishingAndCitation.md)
