@@ -13,6 +13,60 @@ from colors    import colorize
 from utilities import *
 
 
+class article_metadata(checked_dictionary):
+    """
+    checked dictionary implementation for article metadata.
+    """
+    def __init__(self):
+        """
+        Default c'tor.
+
+        """
+        self.__init_default__()
+
+        self.add_restriction("Publish", restrictions=["yes","no"])
+        self.add_restriction("Categories", restrictions=["Planning",
+                                                         "Development",
+                                                         "Performance",
+                                                         "Reliability",
+                                                         "Collaboration",
+                                                         "Skills"])
+        self.add_restriction("Topics", restrictions=None)
+        self.add_restriction_dependency("Topics", "Categories", "Planning", restrictions=["Improving productivity and sustainability",
+                                                                                          "Requirements",
+                                                                                          "Design",
+                                                                                          "Software interoperability"])
+        self.add_restriction_dependency("Topics", "Categories", "Development", restrictions=["Documentation",
+                                                                                             "Version control",
+                                                                                             "Configuration and builds",
+                                                                                             "Deployment",
+                                                                                             "Issue tracking",
+                                                                                             "Refactoring",
+                                                                                             "Software engineering",
+                                                                                             "Development tools"])
+        self.add_restriction_dependency("Topics", "Categories", "Performance", restrictions=["High-performance computing (HPC)",
+                                                                                             "Performance at leadership computing facilities (LCFs)",
+                                                                                             "Performance portability"])
+        self.add_restriction_dependency("Topics", "Categories", "Reliability", restrictions=["Testing",
+                                                                                             "Continuous integration testing",
+                                                                                             "Reproducibility",
+                                                                                             "Debugging"])
+        self.add_restriction_dependency("Topics", "Categories", "Collaboration", restrictions=["Licensing",
+                                                                                               "Strategies for more effective teams",
+                                                                                               "Funding sources and programs",
+                                                                                               "Projects and organizations",
+                                                                                               "Software publishing and citation",
+                                                                                               "Discussion forums, Q&A sites"])
+        self.add_restriction_dependency("Topics", "Categories", "Skills", restrictions=["Personal productivity and sustainability",
+                                                                                        "Online learning"])
+
+
+        self.add_restriction("Tags", restrictions=None)
+        self.add_restriction("Level", restrictions=[0,1,2,3])
+        self.add_restriction("Prerequisites", restrictions=None)
+        self.add_restriction("Aggregate", restrictions=["none","base","subresource","stand-alone and subresource"])
+
+
 
 def process_program_options():
     parser = OptionParser()
@@ -47,7 +101,6 @@ def process_program_options():
     return options
 
 
-
 def load_textfile_to_stringlist(filename, program_options=None):
     """
     Load a text file and return it as a list of strings and strip
@@ -72,39 +125,6 @@ def load_textfile_to_stringlist(filename, program_options=None):
             print_debug(line, program_options)
 
     return output
-
-
-
-class article_metadata(checked_dictionary):
-    """
-    checked dictionary implementation for article metadata.
-    """
-
-    def __init__(self):
-        """
-        Default c'tor.
-
-        """
-        self.__init_default__()
-
-
-    def __init_default__(self):
-        """
-        This should be called by all c'tors.
-        """
-        self.__init_restrictions__()
-        self.__init_data__()
-
-        self.add_restriction("Publish", restrictions=["yes","no"])
-        self.add_restriction("Categories", restrictions=["Planning", "Reliability","Performance","Collaboration","Individual Productivity", "Crosscutting Resources"])
-        self.add_restriction("Topics", restrictions=None)
-        self.add_restriction("Tags", restrictions=None)
-        self.add_restriction("Level", restrictions=[0,1,2,3])
-        self.add_restriction("Prerequisites", restrictions=None)
-        self.add_restriction("Aggregate", restrictions=["none","base","subresource","stand-alone and subresource"])
-
-        return True
-
 
 
 def extract_metadata_entries(file_lines, program_options):
@@ -137,10 +157,6 @@ def extract_metadata_entries(file_lines, program_options):
     return metadata
 
 
-
-
-
-
 def main():
     """
     """
@@ -148,14 +164,15 @@ def main():
 
     file_lines = load_textfile_to_stringlist(program_options.param_ifilename, program_options)
 
+    print "Validate metadata for '%s': "%(program_options.param_ifilename),
     try:
         metadata = extract_metadata_entries(file_lines, program_options)
     except ValueError, msg:
-        print "Validate Metadata: FAIL"
+        print "FAIL"
         print msg
         exit(1)
 
-    print "Validate Metadata: PASS"
+    print "PASS"
 
 
 if __name__ == "__main__":
