@@ -216,6 +216,68 @@ class checked_dictionary(object):
         return pformat(self._data, width=width, indent=indent)
 
 
+    def __2tuple_lower__(self, data):
+        """
+        converts a 2-tuple of strings to lower case.
+        """
+        return (str(data[0]).lower(), str(data[1]).lower())
+
+
+    def __in_2tuple__(self, value, data_list, case_sensitive=False):
+        """
+        Check a 2-tuple for inclusion in a data list.
+        """
+        output = False
+        if case_sensitive is False:
+            for x in data_list:
+                if isinstance(x, tuple):
+                    if self.__2tuple_lower__(value) == self.__2tuple_lower__(x):
+                        output = True
+                        break
+        else:
+            for x in data_list:
+                if isinstance(x, tuple):
+                    if value == x:
+                        output = True
+                        break
+        return output
+
+
+    def __in_list__(self, value, data_list, case_sensitive=False):
+        """
+        Check a value for inclusion within a list with optional case-sensitive checking.
+        """
+        output = False
+        if case_sensitive is False:
+            output = str(value).lower() in [ str(x).lower() for x in data_list ]
+        else:
+            output = value in [ x for x in data_list ]
+        return output
+
+
+    def __restrict_if_lookup__(self, key, restrict_to, case_sensitive=False):
+        """
+        Lookup a key (tuple) in a restrict_if structure.
+        TODO: this needs improving
+        """
+        output = None
+        if case_sensitive is False:
+            key = self.__2tuple_lower__(key)
+        for k,v in restrict_to.iteritems():
+            if case_sensitive is False:
+                if isinstance(k, tuple):
+                    if key == self.__2tuple_lower__(k):
+                        output = v
+                        break
+            else:
+                if key == k:
+                    output = v
+                    break
+        return output
+
+
+
+
     def __validate_data__(self, property_name, property_value, throw_error_on_fail=False):
         """
         Check a property against the restrictions.  Returns True if
@@ -245,19 +307,22 @@ class checked_dictionary(object):
             dep_key = str(restrict_if["dep"])
             dep_val = str(self.get_property_value(dep_key))
 
-            if not restrict_if.has_key( (dep_key,dep_val) ):
+            #if not restrict_if.has_key( (dep_key,dep_val) ):
+            allowable_values = self.__restrict_if_lookup__((dep_key,dep_val), restrict_if, case_sensitive=False)
+
+            if allowable_values is None:
                 output = False
                 if throw_error_on_fail is True:
                     msg = ">>> Error: Dependency not configured for property/value:'%s'/'%s'"%(dep_key,dep_val)
                     raise ValueError,msg
 
-            if str(property_value).lower() not in [str(value).lower() for value in restrict_if[(dep_key,dep_val)]]:
+            if not self.__in_list__(property_value, allowable_values, case_sensitive=False):
                 output = False
                 if throw_error_on_fail is True:
                     msg  = ">>> Invalid value for property '%s', given value '%s'.\n"%(property_name, property_value)
                     msg += ">>> Failed depenency check against property/value pair '%s'/'%s'\n"%(dep_key,dep_val)
                     msg += ">>> Allowable values are:\n"
-                    for r in restrict_if[(dep_key,dep_val)]:
+                    for r in allowable_values:
                         msg += ">>> - '%s'\n"%(r)
                     raise ValueError, msg
 
