@@ -152,7 +152,71 @@ class checked_dictionary(object):
         return self.get_restriction_list(property_name)["restrict-if"]
 
 
-    def _validate_data(self, property_name, property_value, throw_error_on_fail=False):
+    def set_property_value(self, property_name, property_value, validate=True):
+        """
+        Set a property value.  Optionally validate it for acceptance.
+        If we're setting an unknown property with validation off, then
+        add the property to the list with no restrictions.
+        """
+        if validate is True:
+            self.__validate_data__(property_name, property_value, throw_error_on_fail=True)
+        else:
+            self.add_restriction(property_name)
+
+        self._data[property_name] = property_value
+        return True
+
+
+    def has_property_value(self, property_name):
+        """
+        True if the key, property_name, exists.
+        """
+        self.__init_default__()
+        if not self._data.has_key(property_name):
+            return False
+        return True
+
+
+    def get_property_value(self, property_name, validate=False):
+        """
+        Get the value of a property.  Optionally validate for correctness.
+        """
+        output = None
+        if self.has_property_value(property_name):
+            output = self._data[property_name]
+        else:
+            msg  = ">>> Property '%s' was not found.\n"%(property_name)
+            msg += ">>> Perhaps you're looking for %s"%(str(self._data.keys()))
+            raise KeyError, msg
+
+        if validate is True:
+            self.__validate_data__(property_name, output, throw_error_on_fail=True)
+
+        return output
+
+
+    def iteritems(self):
+        self.__init_default__()
+        for k,v in self._data.iteritems():
+            yield k,v
+
+
+    def keys(self):
+        self.__init_default__()
+        return self._data.keys()
+
+
+    def str_restrictions(self, indent=0, width=90):
+        self.__init_default__()
+        return pformat(self._restriction_list, width=width, indent=indent)
+
+
+    def str_data(self, indent=0, width=90):
+        self.__init_default__()
+        return pformat(self._data, width=width, indent=indent)
+
+
+    def __validate_data__(self, property_name, property_value, throw_error_on_fail=False):
         """
         Check a property against the restrictions.  Returns True if
         the property is ok, False otherwise.
@@ -200,58 +264,9 @@ class checked_dictionary(object):
         return output
 
 
-    def set_property_value(self, property_name, property_value, validate=True):
-        """
-        Set a property value.  Optionally validate it for acceptance.
-        If we're setting an unknown property with validation off, then
-        add the property to the list with no restrictions.
-        """
-        if validate is True:
-            self._validate_data(property_name, property_value, throw_error_on_fail=True)
-        else:
-            self.add_restriction(property_name)
-
-        self._data[property_name] = property_value
-        return True
-
-
-    def has_property_value(self, property_name):
-        """
-        True if the key, property_name, exists.
-        """
-        self.__init_default__()
-        if not self._data.has_key(property_name):
-            return False
-        return True
-
-
-    def get_property_value(self, property_name, validate=False):
-        """
-        Get the value of a property.  Optionally validate for correctness.
-        """
-        output = None
-        if self.has_property_value(property_name):
-            output = self._data[property_name]
-        else:
-            msg  = ">>> Property '%s' was not found.\n"%(property_name)
-            msg += ">>> Perhaps you're looking for %s"%(str(self._data.keys()))
-            raise KeyError, msg
-
-        if validate is True:
-            self._validate_data(property_name, output, throw_error_on_fail=True)
-
-        return output
-
-
     def __iter__(self):
         self.__init_default__()
         return iter(self._data)
-
-
-    def iteritems(self):
-        self.__init_default__()
-        for k,v in self._data.iteritems():
-            yield k,v
 
 
     def __getitem__(self, property_name):
@@ -269,11 +284,6 @@ class checked_dictionary(object):
             del self._data[property_name]
 
 
-    def keys(self):
-        self.__init_default__()
-        return self._data.keys()
-
-
     def __str__(self):
         self.__init_default__()
         output  = "Restrictions:\n"
@@ -283,14 +293,6 @@ class checked_dictionary(object):
         return output
 
 
-    def str_restrictions(self, indent=0, width=90):
-        self.__init_default__()
-        return pformat(self._restriction_list, width=width, indent=indent)
-
-
-    def str_data(self, indent=0, width=90):
-        self.__init_default__()
-        return pformat(self._data, width=width, indent=indent)
 
 
 
