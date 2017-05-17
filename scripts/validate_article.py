@@ -22,15 +22,17 @@ class article_metadata(checked_dictionary):
         Default c'tor.
 
         """
-        self.__init_default__()
+        self.__init_default__()  # This is important...
 
         self.add_restriction("Publish", restrictions=["yes","no"])
+
         self.add_restriction("Categories", restrictions=["Planning",
                                                          "Development",
                                                          "Performance",
                                                          "Reliability",
                                                          "Collaboration",
                                                          "Skills"])
+
         self.add_restriction("Topics", restrictions=None)
         self.add_restriction_dependency("Topics", "Categories", "Planning", restrictions=["Improving productivity and sustainability",
                                                                                           "Requirements",
@@ -60,12 +62,15 @@ class article_metadata(checked_dictionary):
         self.add_restriction_dependency("Topics", "Categories", "Skills", restrictions=["Personal productivity and sustainability",
                                                                                         "Online learning"])
 
-
         self.add_restriction("Tags", restrictions=None)
+
         self.add_restriction("Level", restrictions=[0,1,2,3])
+
         self.add_restriction("Prerequisites", restrictions=None)
+
         self.add_restriction("Aggregate", restrictions=["none","base","subresource","stand-alone and subresource"])
 
+        # c'tor finished.
 
 
 def process_program_options():

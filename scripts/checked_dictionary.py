@@ -26,9 +26,14 @@ class checked_dictionary(object):
     def __init__(self):
         """
         Default c'tor.
-
         """
         self.__init_default__()
+
+        ####
+        ##
+        ## custom content here!
+        ##
+        ####
 
 
     def __init_default__(self):
@@ -37,13 +42,6 @@ class checked_dictionary(object):
         """
         self.__init_restriction_list__()
         self.__init_data__()
-
-        ###
-        ##
-        ## Override and fill in default values here
-        ##
-        ###
-
         return True
 
 
@@ -63,7 +61,7 @@ class checked_dictionary(object):
         """
         Initialize an empty restriction.
         """
-        self.__init_restriction_list__()
+        self.__init_default__()
 
         if not self._restriction_list.has_key(property_name):
             self._restriction_list[property_name] = { "restrict-to": None,
@@ -131,12 +129,12 @@ class checked_dictionary(object):
 
 
     def has_restriction(self, property_name):
-        self.__init_restriction_list__()
+        self.__init_default__()
         return self._restriction_list.has_key(property_name)
 
 
     def get_restriction_list(self, property_name):
-        self.__init_restriction_list__()
+        self.__init_default__()
         if not self._restriction_list.has_key(property_name):
             msg  = ">>> Unknown property: '%s'\n"%(property_name)
             msg += ">>> Valid values are:\n"
@@ -208,7 +206,6 @@ class checked_dictionary(object):
         If we're setting an unknown property with validation off, then
         add the property to the list with no restrictions.
         """
-        self.__init_data__()
         if validate is True:
             self._validate_data(property_name, property_value, throw_error_on_fail=True)
         else:
@@ -220,9 +217,9 @@ class checked_dictionary(object):
 
     def has_property_value(self, property_name):
         """
-        True if the property exists.
+        True if the key, property_name, exists.
         """
-        self.__init_data__()
+        self.__init_default__()
         if not self._data.has_key(property_name):
             return False
         return True
@@ -232,7 +229,6 @@ class checked_dictionary(object):
         """
         Get the value of a property.  Optionally validate for correctness.
         """
-        self.__init_data__()
         output = None
         if self.has_property_value(property_name):
             output = self._data[property_name]
@@ -248,10 +244,12 @@ class checked_dictionary(object):
 
 
     def __iter__(self):
+        self.__init_default__()
         return iter(self._data)
 
 
     def iteritems(self):
+        self.__init_default__()
         for k,v in self._data.iteritems():
             yield k,v
 
@@ -272,10 +270,12 @@ class checked_dictionary(object):
 
 
     def keys(self):
+        self.__init_default__()
         return self._data.keys()
 
 
     def __str__(self):
+        self.__init_default__()
         output  = "Restrictions:\n"
         output += self.str_restrictions(indent=5, width=90)
         output += "\nData:\n"
@@ -284,10 +284,12 @@ class checked_dictionary(object):
 
 
     def str_restrictions(self, indent=0, width=90):
+        self.__init_default__()
         return pformat(self._restriction_list, width=width, indent=indent)
 
 
     def str_data(self, indent=0, width=90):
+        self.__init_default__()
         return pformat(self._data, width=width, indent=indent)
 
 
