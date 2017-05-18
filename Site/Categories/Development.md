@@ -24,39 +24,6 @@ Management of changes to files.  Also known as revision control, source control,
 --->
 
 
-
-- **Issue tracking:**
-The process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
-
-<!---
-   - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
---->
-
-
-- **Requirements:**
-Statements about *what* functions a software product shall perform including any constraints under which it shall operate but avoiding any entanglements in *how* it shall be implemented.
-
-<!---
-    - [What Are CSE Software Requirements?](Topics/WhatAreCseSwRequirements.md)
---->
-
-- **Design:**
-Major considerations in designing software to meet its scientific objectives and sustainability goals.
-
-<!---
-    - [What Is CSE Software Design?](Topics/WhatIsCseSwDesign.md)
---->
-
-- **Software interoperability:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
-
-<!---
-     - [What Are Interoperable Software Libraries?](../CuratedContent/WhatAreInteoperableSwLibraries.md)
---->
-
-- **Deployment:**
-    Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
-
 <!---
         - [What Is CSE Software Deployment?](Topics/WhatIsCseSwDeployment.md)
 --->
@@ -80,6 +47,13 @@ Source code in which investments, tangible and in-tangible, are so great that wh
     - [What Is CSE Legacy Code?](Topics/WhatIsCseLegacyCode.md)
 --->
 
+- **Issue tracking:**
+The process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
+
+<!---
+   - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
+--->
+
 - **Refactoring:**
 The process of improving *internal* attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
 
@@ -96,6 +70,10 @@ Procedures and considerations for getting a well engineered, reliable and mainta
 
 - **Development tools:**
 xxx xxxx xxxx xxxxx xxx xxxx xxxx xxx xxxx xxxx xxxxx xxx xxxx xxxx.
+
+<!---
+    - [What Are CSE Development Tools?](Topics/WhatAreCseDevptTools.md)
+--->
 
 <!---
 Category order: 2
