@@ -2,7 +2,7 @@
 
 Development tools are tools that support different aspects of software design and implementation, such as editors, 
 integrated development environments, revision control systems, performance measurement and analysis tools, memory checkers, 
-and debuggers. Some tools, e.g., debuggers, are designed for a single development activity type. 
+and [debuggers](WhatIsDebugging.md). Some tools, e.g., debuggers, are designed for a single development activity type. 
 Other tools support a variety of different tasks, for example, the Eclipse IDE provides support for 
 editing, compilation, testing, debugging, and performance analysis.
 
