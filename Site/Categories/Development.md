@@ -69,7 +69,7 @@ Procedures and considerations for getting a well engineered, reliable and mainta
 --->
 
 - **Development tools:**
-xxx xxxx xxxx xxxxx xxx xxxx xxxx xxx xxxx xxxx xxxxx xxx xxxx xxxx.
+Tools that support different aspects of software development, such as editors, integrated development environments, performance measurement and analysis toolsa, memory checkers, and debuggers.
 
 <!---
     - [What Are CSE Development Tools?](Topics/WhatAreCseDevptTools.md)
