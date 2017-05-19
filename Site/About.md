@@ -14,16 +14,16 @@ We encourage community contributions Better Scientific Software; see details at 
 
 ### BSSw Editorial Team
 
-David Bernholdt
-Oak Ridge National Laboratory
+David Bernholdt<br/>
+Oak Ridge National Laboratory<br/>
 https://github.com/bernhold
 
-Mike Heroux
-Sandia National Laboratories
+Mike Heroux<br/>
+Sandia National Laboratories<br/>
 https://github.com/maherou
 
-Lois Curfman McInnes
-Argonne National Laboratory
+Lois Curfman McInnes<br/>
+Argonne National Laboratory<br/>
 https://github.com/curfman
 
 <!---
