@@ -1,13 +1,14 @@
 ### What Are Development Tools?
 
 Development tools are tools that support different aspects of software design and implementation, such as editors, 
-integrated development environments, revision control systems, performance measurement and analysis tools, memory checkers, 
+integrated development environments, revision control systems, [issue trackers](WhatIsIssueTracking.md), 
+performance measurement and analysis tools, memory checkers, 
 and [debuggers](WhatIsDebugging.md). Some tools, e.g., debuggers, are designed for a single development activity type. 
 Other tools support a variety of different tasks, for example, the Eclipse IDE provides support for 
 editing, compilation, testing, debugging, and performance analysis.
 
-From creating a project design to low-level code optimization, tools can be used to 
-at least in part automate development tasks, which can lead to improved developer productivity.
+From the initial design to low-level code optimization, tools can be used to 
+at least in part automate development tasks, which can lead to improved developer [productivity](WhatIsProductivity.md).
 Development environments typically automate error-prone and labor intensive tasks, such as build system
 generation and management.
 Another way in which tools can improve productivity is by reducing the likelyhood of errors (e.g., 
