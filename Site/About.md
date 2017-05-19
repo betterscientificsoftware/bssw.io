@@ -13,17 +13,18 @@ We’re creating a clearinghouse to gather, discuss, and disseminate experiences
 We encourage community contributions Better Scientific Software; see details at [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md).  See the list of current contributors [link to Contributors page -- coming from Parallactic?]
 
 ### BSSw Editorial Team
-Person A
-Institution X
-Role AA
 
-Person B
-Institution Y
-Role BB
+David Bernholdt
+Oak Ridge National Laboratory
+https://github.com/bernhold
 
-Person C
-Institution Z
-Role CC
+Mike Heroux
+Sandia National Laboratories
+https://github.com/maherou
+
+Lois Curfman McInnes
+Argonne National Laboratory
+https://github.com/curfman
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
