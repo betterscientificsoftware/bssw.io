@@ -14,6 +14,6 @@ Categories: Development
 Topics: Software engineering
 Tags: blog
 Level: 2
-Prerequisites: WhatIsSwEngForCse.md
+Prerequisites: defaults
 Aggregate: none
 --->
