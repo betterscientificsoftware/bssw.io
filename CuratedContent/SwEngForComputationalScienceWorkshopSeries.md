@@ -14,6 +14,6 @@ Categories: Collaboration
 Topics: Publication
 Tags: workshop
 Level: 2
-Prerequisites: WhatIsWorkOnSwPublishingAndCitation.md 	
+Prerequisites: defaults
 Aggregate: none
 --->
