@@ -8,7 +8,7 @@ This topic covers resources which are open to questions about software developme
 
 <!---
 Publish: yes
-Categories: crosscutting
+Categories: collaboration
 Topics: discussion forums and Q&A sites
 Tags:
 Level: 0
