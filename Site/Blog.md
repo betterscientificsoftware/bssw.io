@@ -1,7 +1,7 @@
 # BSSw Blog
 
-1 sentence about editorial direction for BSSw Blog goes here.
+The Better Scientific Software (BSSw) project welcomes insightful and informative articles from community members on a variety of topics.
 
-Paragraph with more details goes here.  xxxx xxxx xxxx xxxx xxxx xxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxx xxxx xxxx.
+Developer productivity and software sustainability efforts for computational science benefit from communicating the experiences and reasoned insights from a broad spectrum of community members.  BSSw welcomes contributed articles in the form of blogs of 250 - 500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone. Please following the contribution policies reference in the [BSSw README file](README.md)
 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
