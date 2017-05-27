@@ -23,7 +23,7 @@ For more information on better scientific software, go to the
 Publish: yes
 Categories: development
 Topics: documentation
-Tags: Read the Docs, hosting
+Tags: service, tool
 Level: 2
 Prerequisites: defaults
 Aggregate: subresource

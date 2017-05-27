@@ -10,7 +10,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: collaborations
 Topics: software publishing and citation
-Tags: publish
+Tags: service
 Level: 2
 Prerequisites: defaults
 Aggregate: none

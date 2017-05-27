@@ -70,7 +70,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: no
 Categories: collaboration
 Topics: software publishing and citation
-Tags: SoftwareX, journal, cite, publish
+Tags: journal, service
 Level: 2
 Prerequisites: defaults
 Aggregate: none

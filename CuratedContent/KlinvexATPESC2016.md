@@ -5,3 +5,13 @@ My presentation from the [Argonne Training Program on Extreme-Scale Computing (A
 [![Alicia Klinvex ATPESC 2016 Talk](https://i.ytimg.com/vi/FmMlBbbc_GE/hqdefault.jpg)](https://www.youtube.com/watch?v=FmMlBbbc_GE)
 
 #### Contributed by [Alicia Klinvex](https://github.com/amklinv)
+
+<!---
+Publish: yes
+Categories: development
+Topics: documentation
+Tags: training, video
+Level: 2
+Prerequisites: defaults
+Aggregate: none
+--->

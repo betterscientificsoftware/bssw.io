@@ -23,7 +23,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: Collaboration
 Topics: Funding sources and programs
-Tags: Funding
+Tags: funding-program
 Level: 2
 Prerequisites: defaults
 Aggregate: none

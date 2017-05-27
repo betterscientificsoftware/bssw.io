@@ -10,7 +10,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: development
 Topics: documentation
-Tags: [optional: add specific terms here that are unique to your content]
+Tags: document, howto
 Level: 1
 Prerequisites: defaults
 Aggregate: none

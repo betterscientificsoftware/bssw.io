@@ -14,7 +14,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: collaboration
 Topics: licensing
-Tags: training
+Tags: training, video
 Level: 2
 Prerequisites: defaults
 Aggregate: none

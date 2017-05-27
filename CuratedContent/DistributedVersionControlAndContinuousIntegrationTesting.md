@@ -15,7 +15,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: reliability, collaboration
 Topics: continuous integration testing, version control
-Tags: reliability, GitHub, Travis CI
+Tags: training, webinar, video
 Level: 2
 Prerequisites: defaults
 Aggregate: none

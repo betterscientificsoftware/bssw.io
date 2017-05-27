@@ -8,7 +8,7 @@ The operational intensity introduced in the [Roofline model](https://escholarshi
 Publish: yes
 Categories: performance
 Topics: performance
-Tags: HPC
+Tags: paper
 Level: 2
 Prerequisites: defaults
 Aggregate: none

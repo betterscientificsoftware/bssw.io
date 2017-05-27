@@ -14,7 +14,7 @@ For more information on better scientific software, go to [Better Scientific Sof
 Publish: yes
 Categories: reliability
 Topics: testing
-Tags: reliability, reproducibility, robustness, ATPESC, HPC
+Tags: [import from subresources]
 Level: 2
 Prerequisites: defaults
 Aggregate: Subresource

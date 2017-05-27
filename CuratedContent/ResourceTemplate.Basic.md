@@ -14,10 +14,10 @@ While this template is appropriate for most new resources on the site, we also p
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
-Publish: Publish on the BSSw front-end site?
+Publish: no
 Categories: specify 1 or more categories
 Topics: specify 1 or more topics (corresponding to each category)
-Tags: specify optional tags
+Tags: bssw-internal
 Level: specify level of content
 Prerequisites: specify prerequisites
 Aggregate: none

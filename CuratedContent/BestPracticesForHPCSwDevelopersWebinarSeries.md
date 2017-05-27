@@ -46,7 +46,7 @@ slides and video for all presentations: https://www.olcf.ornl.gov/training-event
 Publish: yes
 Categories: Planning, Reliability, Collaboration, Crosscutting, Performance
 Topics: improving productivity and sustainability, reproducibility, testing, continuous integration testing, documentation
-Tags: I/O, HPC
+Tags: training, webinar, video
 Level: 2
 Prerequisites: defaults
 Aggregate: subresource

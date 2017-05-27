@@ -10,7 +10,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: development
 Topics: version control
-Tags: Git, Udacity
+Tags: document, whatis, terminology
 Level: 0
 Prerequisites: none
 Aggregate: none

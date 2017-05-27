@@ -9,7 +9,7 @@
 Publish: yes
 Categories: collaboration
 Topics: licensing
-Tags: website
+Tags: bssw-internal
 Level: 2
 Prerequisites: defaults
 Aggregate: none

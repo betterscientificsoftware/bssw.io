@@ -15,7 +15,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: reliability, development
 Topics: testing, documentation
-Tags: reliability, Doxygen
+Tags: training, video, doxygen
 Level: 2
 Prerequisites: defaults
 Aggregate: none

@@ -24,7 +24,7 @@ For more information on better scientific software, go to the
 Publish: yes
 Categories: development
 Topics: documentation
-Tags: Sphinx
+Tags: tool
 Level: 2
 Prerequisites: defaults
 Aggregate: subresource

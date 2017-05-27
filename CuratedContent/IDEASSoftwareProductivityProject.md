@@ -18,7 +18,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: Collaboration
 Topics: Projects and organizations
-Tags: Projects
+Tags: project, organization
 Level: 2
 Prerequisites: defaults
 Aggregate: none

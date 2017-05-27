@@ -12,7 +12,7 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: reliability, development
 Topics: testing, continuous integration testing, development tools
-Tags: Jenkins
+Tags: tool
 Level: 2
 Prerequisites: defaults
 Aggregate: none

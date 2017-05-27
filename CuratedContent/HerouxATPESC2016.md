@@ -12,7 +12,8 @@ For more information on better scientific software, go to [Better Scientific Sof
 Publish: yes
 Categories: collaboration, reliability
 Topics: strategies for more effective teams, testing
-Tags: advice, strategy, team, reproducibility, productivity, sustainability
+Keywords: advice, strategy, team, reproducibility, productivity, sustainability
+Tags: training, video
 Level: 2
 Prerequisites: defaults
 Aggregate: none
