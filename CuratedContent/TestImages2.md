@@ -1,4 +1,4 @@
-# Test With Images
+# Test With Images 2
 #### Contributed by [Lois](http://github.com/curfman)
 <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-sw-interactions.jpg' class='page' />
 <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-sw-interactions.jpg' class='logo' />
