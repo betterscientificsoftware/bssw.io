@@ -28,17 +28,24 @@ No IDE is going to meet all the requirements, but
 | XCode             |   Y   |    N    |   2                |
 | Code::Blocks      |   Y   |    N    |   3                |
 
+1. Requires PyDev
+2. Requires manual configuration
+3. Requires 3rd party plugin
+
 ## Build Systems
 
-| IDE               | Makefile | CMake | autotools          |
-|-------------------|:--------:|:-----:|:------------------:|
-| Eclipse CDT       |   Y      |    N  |   1                |
-| Eclipse PTP       |   Y      |    Y  |   1                |
-| Visual Studio.NET |   Y      |    N  |   N                |
-| Netbeans          |   Y      |    N  |   Y (since 8.1)    |
-| CLion             |   Y      |    N  |   Y                |
-| XCode             |   Y      |    N  |   2                |
-| Code::Blocks      |   Y      |    N  |   3                |
+| IDE               | Makefile | CMake              | autotools          |
+|-------------------|:--------:|:------------------:|:------------------:|
+| Eclipse CDT       |   Y      |    Y               |   Y                |
+| Eclipse PTP       |   Y      |    Y               |   Y                |
+| Visual Studio.NET |   Y      |    Y (since 2017)  |   N                |
+| Netbeans          |   Y      |    1 (since 8.2)   |   2  |
+| CLion             |   Y      |    N               |   1                |
+| XCode             |   Y      |    N               |   2                |
+| Code::Blocks      |   Y      |    N               |   3                |
+
+1. [Requires manual configuration](http://www.frankliuao.com/blogs/how-to-work-with-cmake-and-netbeans-8-2-or-newer-on-os-x/)
+2. Requires 3rd party plugin
 
 ## Platforms
 
