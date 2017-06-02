@@ -22,15 +22,17 @@ The following sections describe IDEs that meet one or more of the requirements f
 
 ### Eclipse PTP
 
+### Netbeans
+
 ### Code::Blocks
 
 ## Commercial/Proprietary IDEs
 
 ### CLion
 
-### Visual Studio.NET
+### XCode
 
-### Netbeans
+### Visual Studio.NET
 
 ## Language Support
 
