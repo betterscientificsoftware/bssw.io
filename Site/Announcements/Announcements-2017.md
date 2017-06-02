@@ -3,11 +3,11 @@
 Announcement:
 - [Blog post: Improve user confidence in your software updates](../../Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
 - Display dates: 04/12/2017 - 04/16/2017
-- Display dates: 04/29/2017 - 05/04/2017
+- Display dates: 04/29/2017 - 10/04/2017
 
 Announcement:
 - [Scientific Software Days Conference, April 27-28, 2017](../../Events/Conference.ScientificSoftwareDays17.md)
-- Display dates: 04/19/2017 - 04/28/2017
+- Display dates: 04/19/2017 - 10/28/2017
 
 Announcement:
 - [2017 International Workshop on Software Engineering for Science, May 22, 2017](../../Events/Workshop.SE4Science17.md)
