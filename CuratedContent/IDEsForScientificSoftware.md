@@ -14,19 +14,35 @@ When choosing an IDE for scientific software development, some important conside
 - Works on a variety of platforms (Windows, Mac, Linux).
 - Allows remote development.
 
-No IDE is going to meet all the requirements, but 
+The following sections describe IDEs that meet one or more of the requirements for scientific code development. 
+
+## Free IDEs
+
+### Eclipse CDT
+
+### Eclipse PTP
+
+### Code::Blocks
+
+## Commercial/Proprietary IDEs
+
+### CLion
+
+### Visual Studio.NET
+
+### Netbeans
 
 ## Language Support
 
 | IDE               | C/C++ | Fortran | Python             |
 |-------------------|:-----:|:-------:|:------------------:|
-| Eclipse CDT       |   Y   |    N    |   1                |
-| Eclipse PTP       |   Y   |    Y    |   1                |
+| Eclipse CDT       |   Y   |    N    |   Y<sup>1</sup>    |
+| Eclipse PTP       |   Y   |    Y    |   Y<sup>1</sup>    |
 | Visual Studio.NET |   Y   |    N    |   N                |
 | Netbeans          |   Y   |    N    |   Y (since 8.1)    |
 | CLion             |   Y   |    N    |   Y                |
-| XCode             |   Y   |    N    |   2                |
-| Code::Blocks      |   Y   |    N    |   3                |
+| XCode             |   Y   |    N    |   Y<sup>2</sup>    |
+| Code::Blocks      |   Y   |    N    |   Y<sup>3</sup>    |
 
 1. Requires PyDev
 2. Requires manual configuration
@@ -39,13 +55,14 @@ No IDE is going to meet all the requirements, but
 | Eclipse CDT       |   Y      |    Y               |   Y                |
 | Eclipse PTP       |   Y      |    Y               |   Y                |
 | Visual Studio.NET |   Y      |    Y (since 2017)  |   N                |
-| Netbeans          |   Y      |    1 (since 8.2)   |   2  |
-| CLion             |   Y      |    N               |   1                |
-| XCode             |   Y      |    N               |   2                |
-| Code::Blocks      |   Y      |    N               |   3                |
+| Netbeans          |   Y      |    Y<sup>1</sup> (since 8.2)   |   Y<sup>2</sup>  |
+| CLion             |   Y      |    N               |   Y<sup>1</sup>    |
+| XCode             |   Y      |    N               |   Y<sup>2</sup>    |
+| Code::Blocks      |   N      |    N<sup>3</sup>   |   N    |
 
 1. [Requires manual configuration](http://www.frankliuao.com/blogs/how-to-work-with-cmake-and-netbeans-8-2-or-newer-on-os-x/)
 2. Requires 3rd party plugin
+3. CMake can be used to generate Code::Blocks project files
 
 ## Platforms
 
