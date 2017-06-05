@@ -1,6 +1,6 @@
-# Better Individual Productivity
+# Better Skills
 
-**Description:**  Ways to improve time management and personal learning—from the perspective of individuals.
+**Description:**  Ways to improve productivity and sustainability from an individual perspective.
 
 **Overview:** [Intro text goes here.]  
 
@@ -14,7 +14,7 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
 --->
 
 - **Online learning:**
-Pointers to online lectures, tutorials, and other learning material focusing on scientific software development, productivity, and sustainability.
+Information about strategies for fully reaping the benefits of online lectures, tutorials, and other learning material to help improve scientific software development, productivity, and sustainability.
 
 <!---
     - [What Is Online Learning?](Topics/WhatIsOnlineLearning.md)
