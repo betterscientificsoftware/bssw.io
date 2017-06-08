@@ -38,3 +38,11 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
 <!---
 Category order: 1
 --->
+
+- **Software Deployment:**
+Giving users the ability to use software on supported platforms. This will consist of releasing the software, for example in a traditional versioned (e.x. version X.Y.Z) way, or through continuous release. Deployment may also including installing the software for users in some situations.
+
+<!---
+    - [What Is CSE Software Deployment?](Topics/WhatIsCseSwDeployment.md)
+--->
+
