@@ -29,7 +29,7 @@ A form of testing *maximally* integrated with code commits.
 --->
 
 - **Reproducibility:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Any effort whose goal is to increase trustworthiness and reuse of computational capabilities and results and assure correctness.
 
 <!---
      - [What Is Reproducibility?](Topics/WhatIsReproducibility.md)
