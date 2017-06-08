@@ -20,7 +20,42 @@ The following sections describe IDEs that meet one or more of the requirements f
 
 ### Eclipse CDT
 
+Eclipse is a professional quality integrated development environment and tool integration platform. It is built on the OSGI framework, which allows functionality to be added via plugin components. Eclipse was traditionally used for Java development, but C and C++ support has been available for many years. The [C/C++ Development Tools (CDT)](https://eclipse.org/cdt/) project adds support for developing and building C and C++ applications. Features include:
+
+* Project and build support
+* Full featured editor
+* Source code navigation
+* Refactoring
+* Static code analysis
+* Debugging
+* Autotools
+
+CDT can also be combined with the [LinuxTools project](https://eclipse.org/linuxtools/) to provide integration with a variety of Linux based tools, including:
+
+* Callgraph
+* Changelog
+* Docker
+* GProf
+* Gcov
+* Libhover
+* Man page
+* OProfile
+* Perf
+* Systemtap
+* Valgrind
+* RPM
+
+Eclipse CDT can be downloaded from [here](https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3).
+
 ### Eclipse PTP
+
+Eclipse PTP is an extension of Eclipse CDT that adds support for developing parallel and scientific programs. It includes most of the features found in Eclipse CDT, plus:
+
+* Support for Fortran
+* MPI/OpenMP/OpenACC/OpenSHMEM bindings
+* Parallel debugging
+* Synchronized projects
+* Job scheduler integration
 
 ### Netbeans
 
