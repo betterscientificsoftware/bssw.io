@@ -125,7 +125,20 @@ The XCode IDE is primarily aimed at developing applications for Apple platoforms
 
 The latest version of XCode 9 is available from [here](https://developer.apple.com/download/) (requires login).
 
-### Visual Studio.NET
+### [Visual Studio IDE](https://www.visualstudio.com/vs/)
+
+Visual Studio IDE is Microsoft's proprietary integrated development environment, and the primary environment for developing Windows applications. It provides builtin support for C and C++, so is suited for scientific application development, although applications will only run on Windows without some additional work. It can be extended via plugins, and support for Fortran and Python are available this way. Features include:
+
+* Application projects
+* Syntax highlighting
+* Code completion
+* Code folding
+* Incremental search
+* Debugging (Visual Studio debugger only)
+* VCS integration
+* Database integration
+
+The latest version of Visual Studio IDE is available from [here](https://www.visualstudio.com/downloads/).
 
 ## Language Support
 
@@ -133,7 +146,7 @@ The latest version of XCode 9 is available from [here](https://developer.apple.c
 |-------------------|:-----:|:-------:|:------------------:|
 | Eclipse CDT       |   Y   |    N    |   Y<sup>1</sup>    |
 | Eclipse PTP       |   Y   |    Y    |   Y<sup>1</sup>    |
-| Visual Studio.NET |   Y   |    N    |   N                |
+| Visual Studio.NET |   Y   |    Y<sup>3</sup>    |   Y<sup>3</sup> |
 | Netbeans          |   Y   |    N    |   Y (since 8.1)    |
 | CLion             |   Y   |    N    |   Y                |
 | XCode             |   Y   |    N    |   Y<sup>2</sup>    |
