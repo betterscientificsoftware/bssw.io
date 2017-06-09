@@ -140,23 +140,26 @@ Visual Studio IDE is Microsoft's proprietary integrated development environment,
 
 The latest version of Visual Studio IDE is available from [here](https://www.visualstudio.com/downloads/).
 
-## Language Support
+## Supported Features
+
+The following tables show which IDEs support important features for scientific code development.
+
+### Language Support
 
 | IDE               | C/C++ | Fortran | Python             |
 |-------------------|:-----:|:-------:|:------------------:|
 | Eclipse CDT       |   Y   |    N    |   Y<sup>1</sup>    |
 | Eclipse PTP       |   Y   |    Y    |   Y<sup>1</sup>    |
-| Visual Studio.NET |   Y   |    Y<sup>3</sup>    |   Y<sup>3</sup> |
+| Visual Studio.NET |   Y   |    Y<sup>1</sup>    |   Y<sup>1</sup> |
 | Netbeans          |   Y   |    N    |   Y (since 8.1)    |
 | CLion             |   Y   |    N    |   Y                |
 | XCode             |   Y   |    N    |   Y<sup>2</sup>    |
-| Code::Blocks      |   Y   |    N    |   Y<sup>3</sup>    |
+| Code::Blocks      |   Y   |    N    |   Y<sup>1</sup>    |
 
-1. Requires PyDev
+1. Requires 3rd party plugin
 2. Requires manual configuration
-3. Requires 3rd party plugin
 
-## Build Systems
+### Build Systems
 
 | IDE               | Makefile | CMake              | autotools          |
 |-------------------|:--------:|:------------------:|:------------------:|
@@ -172,6 +175,17 @@ The latest version of Visual Studio IDE is available from [here](https://www.vis
 2. Requires 3rd party plugin
 3. CMake can be used to generate Code::Blocks project files
 
-## Platforms
+### Platforms
 
-## Misc
+| IDE               | Windows | Linux | Mac OS X |
+|-------------------|:-----:|:-------:|:--------:|
+| Eclipse CDT       |   Y   |    Y    |   Y      |
+| Eclipse PTP       |   Y   |    Y    |   Y      |
+| Visual Studio.NET |   Y   |    N    |   Y      |
+| Netbeans          |   Y   |    Y    |   Y      |
+| CLion             |   Y   |    Y    |   Y      |
+| XCode             |   N   |    N    |   Y      |
+| Code::Blocks      |   Y   |    Y    |   Y<sup>1</sup> |
+
+1. Current version not supported
+
