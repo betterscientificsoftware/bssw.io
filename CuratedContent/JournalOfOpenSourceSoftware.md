@@ -1,6 +1,6 @@
 # Journal of Open Source Software
 
-[Journal of Open Source Softwaree (JOSS)](http://joss.theoj.org) provides authors with a DOE for their software package without requiring a full-length manuscript. Instead, authors must demonstrate (via a form of peer review) that their package follows certain best practices of open-source software, including proper licensing and documentation, and helps meet scientific research challenges.
+[Journal of Open Source Software (JOSS)](http://joss.theoj.org) provides authors with a DOE for their software package without requiring a full-length manuscript. Instead, authors must demonstrate (via a form of peer review) that their package follows certain best practices of open-source software, including proper licensing and documentation, and helps meet scientific research challenges.
 
 <!---
  - [Zenodo](https://zenodo.org)
