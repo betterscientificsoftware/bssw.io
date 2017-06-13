@@ -276,8 +276,6 @@ class checked_dictionary(object):
         return output
 
 
-
-
     def __validate_data__(self, property_name, property_value, throw_error_on_fail=False):
         """
         Check a property against the restrictions.  Returns True if
@@ -516,6 +514,7 @@ if __name__ == "__main__":
         rval = 1
     except ValueError,msg:
         print "PASS"
+        #print msg
 
 
     print ""
