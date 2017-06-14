@@ -1,5 +1,7 @@
 # Kitchen-sink resource test
 
+### Contributed by [Clara](http://github.com/clararaubertas) and [Erica](http://github.com/rockygulliver)
+
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
 - [What is good documentation?](WhatIsGoodDocumentation.md)
