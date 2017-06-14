@@ -1,7 +1,5 @@
 # Kitchen-sink resource test
 
-### Contributed by [Clara](http://github.com/clararaubertas) and [Erica](http://github.com/rockygulliver)
-
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
 - [What is good documentation?](WhatIsGoodDocumentation.md)
@@ -103,7 +101,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 - [ReadTheDocs](DocumentationTools.ReadTheDocs.md)
 - [Sphinx](DocumentationTools.Sphinx.md)
 
-#### Contributed by [Damon McDougall](https://github.com/dmcdougall)
+#### Contributed by [Damon McDougall](https://github.com/dmcdougall) and [Clara](https://github.com/clararaubertas)
 
 For more information on better scientific software, go to the
 [Better Scientific Software main page](http://betterscientificsoftware.info).
