@@ -96,10 +96,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: Collaboration, Planning, Crosscutting Resources
+Categories: Collaboration, Planning
 Topics: Improving productivity and sustainability, Licensing, Strategies for more effective teams, Funding sources and programs
-Tags: sustainability, links, resources, funding, licenses, podcasts, open source, guides
+Tags: document, website, book, organization, funding-program, funding-agency
 Level: 2
-Prerequisites: WhatIsSustainability.md
+Prerequisites: defaults
 Aggregate: none
 --->

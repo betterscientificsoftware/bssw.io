@@ -10,8 +10,8 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: performance
 Topics: performance, portability
-Tags: HPC, leadership-class facilities (LCFs)
+Tags: document, howto
 Level: 1
-Prerequisites: WhatIsPerfPortabilityForCseApps.md
+Prerequisites: defaults
 Aggregate: none
 --->

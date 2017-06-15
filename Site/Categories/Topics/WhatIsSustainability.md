@@ -4,6 +4,16 @@ Software products are dynamic, even after they are released.  In fact, numerous 
 
 A key factor of proper investment in sustainability is the expected lifespan of a product.  If the product is a script, its lifespan may be fairly short, maybe a few years.  However, most scientific and engineering software products have lifespans of decades. Given the maintenance cost of software, it is often the case that sustainability improvements--investments that make software more sustainable--are often worth strong consideration.
 
-Of particular importance to scientific and engineering software sustainability is software design and implementation that enable easy enhancement, extension and portability.  Also important is automation of common task that assure correct behavior of the software.  Working code must be tested and protected from changes in compilers and other dependencies.  It must also be protected as changes and additions to the code are submitted. 
+Of particular importance to scientific and engineering software sustainability is software design and implementation that enable easy enhancement, extension and portability.  Also important is automation of common task that assure correct behavior of the software.  Working code must be tested and protected from changes in compilers and other dependencies.  It must also be protected as changes and additions to the code are submitted.
 
 These activities are essential as we adapt our software informed by new scientific discoveries, better models and requirements to run our software on new and emerging computing platforms.
+
+<!---
+Publish: yes
+Categories: planning
+Topics: productivity and sustainability
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

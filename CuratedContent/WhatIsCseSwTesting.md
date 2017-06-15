@@ -6,7 +6,7 @@ Software requires regular extensive testing to ensure correctly functioning code
 Publish: yes
 Categories: reliability
 Topics: testing
-Tags: testing, terminology
+Tags: terminology, whatis, document
 Level: 0
 Prerequisites: none
 Aggregate: none

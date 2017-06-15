@@ -12,8 +12,8 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: reliability
 Topics: testing, reliability, reproducibility
-Tags: experience, strategy
+Tags: paper
 Level: 2
-Prerequisites: WhatIsTesting, HowToTesting
+Prerequisites: defaults
 Aggregate: none
 --->

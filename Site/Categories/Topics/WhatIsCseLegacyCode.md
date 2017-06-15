@@ -28,3 +28,13 @@ this demise, which could easily involve more than 30 years of development, the e
 time for suitable alternatives to develop and become adopted.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+<!---
+Publish: yes
+Categories: development
+Topics: legacy code
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

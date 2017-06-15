@@ -26,8 +26,8 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 - Use links to WhatIs and HowTo docs when appropriate for background info
 - Image file (e.g., logo) - optional (encouraged when this exists)
 
-#### Contributor:
-- Name of contributor, hyperlinked to GitHub profile
+#### Contributor(s):
+- Name(s) of contributor(s), hyperlinked to GitHub profile(s)
 
 #### Footer: Add the following at the bottom of each page:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
@@ -52,11 +52,11 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
 #### Categories: Primary display via BSSw website interface
 [BSSw curators may add/revise topics as needed over time.]
 - Planning
-- Reliability
+- Development
 - Performance
+- Reliability
 - Collaboration
-- Individual Productivity
-- Crosscutting Resources
+- Skills
 
 #### Topics: Visible filters via BSSw website interface
 - All categories and also finer grain topics within categories
@@ -65,39 +65,35 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Improving productivity and sustainability
     - Requirements
     - Design
-    - Development
-    - Deployment
+    - Software interoperability
+- **Development**
+    - Documentation
+    - Version control
     - Configuration and builds
-    - Legacy code
+    - Deployment
+    - Issue tracking
     - Refactoring
     - Software engineering
+    - Development tools
+- **Performance**
+    - High-performance computing (HPC)
+    - Performance at leadership computing facilities (LCFs)
+    - Performance portability
 - **Reliability**
-    - Debugging
     - Testing
     - Continuous integration testing
     - Reproducibility
-- **Performance**
-    - High-performance computing (HPC)
-    - Performance portability
-    - Software interoperability
-    - Performance at leadership computing facilities (LCFs)
+    - Debugging
 - **Collaboration**
-    - Version control
-    - Documentation
-    - Issue tracking
     - Licensing
     - Strategies for more effective teams
-    - Coordination with stakeholders
-- **Individual Productivity**
-    - Personal kanban
-    - Personal learning plans
-    - Personal productivity and sustainability
-- **Crosscutting Resources**
     - Funding sources and programs
     - Projects and organizations
-    - Discussion forums, Q&A sites
     - Software publishing and citation
-    - On-line learning
+    - Discussion forums, Q&A sites 
+- **Skills**
+    - Personal productivity and sustainability
+    - Online learning
 
 #### Tags: Optional additional keywords for searches
 - Add/revise topics as needed (important terms from curated content; aim for comprehensive coverage to facilitate searches)

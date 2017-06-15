@@ -20,10 +20,10 @@ For more information on better scientific software, go to the
 
 <!---
 Publish: yes
-Categories: collaboration
+Categories: development
 Topics: [import from subresources]
 Tags: [import from subresources]
 Level: 2
-Prerequisites: WhatIsGoodDocumentation.md, HowToWriteGoodDocumentation.md
+Prerequisites: [import from subresources]
 Aggregate: base
 --->

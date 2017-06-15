@@ -67,11 +67,11 @@ piece of scientific literature that can be cited by later works:
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
-Publish: yes
-Categories: crosscutting resources
+Publish: no
+Categories: collaboration
 Topics: software publishing and citation
-Tags: SoftwareX, journal, cite, publish
+Tags: journal, service
 Level: 2
-Prerequisites: WhatIsSustainability.md WhatIsGoodDocumentation.md WhatIsCseSwTesting.md
+Prerequisites: defaults
 Aggregate: none
 --->

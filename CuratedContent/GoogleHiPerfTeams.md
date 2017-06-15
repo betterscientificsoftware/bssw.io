@@ -10,8 +10,8 @@ For more information on better scientific software, go to the [Better Scientific
 Publish: yes
 Categories: collaboration
 Topics: strategies for more effective teams
-Tags: advice, strategy, team
+Tags: podcast-episode
 Level: 2
-Prerequisites: WhatIsCollaboration.md (does not exist yet)
+Prerequisites: defaults
 Aggregate: none
 --->

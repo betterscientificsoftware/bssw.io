@@ -9,20 +9,25 @@
 - **High-performance computing (HPC):**
 Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
+<!---
     - [What Is High-Performance Computing?](Topics/WhatIsHighPerfComputing.md)
-
-- **Performance portability:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
-
-    - [What is Performance Portability for CSE Applications?](../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
-    - [How to Enable Performance Portability for CSE Applications?](../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
-
-- **Software interoperability:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
-
-     - [What Are Interoperable Software Libraries?](../CuratedContent/WhatAreInteoperableSwLibraries.md)
+--->
 
 - **Performance at leadership computing facilities (LCFs):**
 Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
+<!---
     - [What is Performance at Leadership Computing Facilities?](Topics/WhatIsPerfAtLCFs.md)
+--->
+
+- **Performance portability:**
+Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+
+<!---
+    - [What is Performance Portability for CSE Applications?](../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
+    - [How to Enable Performance Portability for CSE Applications?](../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
+--->
+
+<!---
+Category order: 3
+--->

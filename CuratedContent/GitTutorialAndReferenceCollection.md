@@ -8,10 +8,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: collaboration
+Categories: Development
 Topics: version control
-Tags: Git, Udacity
+Tags: training, meta
 Level: 2
-Prerequisites: WhatIsVersionControl.md
+Prerequisites: defaults
 Aggregate: none
 --->

@@ -54,10 +54,10 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
 
 <!---
 Publish: yes
-Categories: Planning, Reliability, Collaboration, Performance, Crosscutting
+Categories: Planning, Reliability, Collaboration, Performance
 Topics: improving productivity and sustainability, configuration and builds, testing, documentation, software interoperability, strategies for more effective teams
-Tags: citation principles, NumFOCUS, DOECode, xSDK
+Tags: event, poster
 Level: 2
-Prerequisites: WhatIsSoftwareProductivity.md
+Prerequisites: defaults
 Aggregate: subresource, stand-alone
 --->

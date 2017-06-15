@@ -32,3 +32,13 @@ developers to add the _reproducer_ recipe to the software's routine testing so a
 won't creep back into the software in later versions. This practice is typically called _regression_ testing.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+<!---
+Publish: yes
+Categories: reliability
+Topics: debugging
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

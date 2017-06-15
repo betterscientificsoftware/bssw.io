@@ -21,10 +21,10 @@ For more information on better scientific software, go to the
 
 <!---
 Publish: yes
-Categories: collaboration
+Categories: development
 Topics: documentation
-Tags: Doxygen
+Tags: tool
 Level: 2
-Prerequisites: DocumentationTools.md
+Prerequisites: defaults
 Aggregate: subresource
 --->

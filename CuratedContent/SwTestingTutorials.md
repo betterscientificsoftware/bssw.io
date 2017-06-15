@@ -20,6 +20,6 @@ Categories: reliability
 Topics: [import from subresources]
 Tags: [import from subresources]
 Level: 2
-Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md
+Prerequisites: defaults
 Aggregate: base
 --->

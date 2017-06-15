@@ -8,10 +8,10 @@ For more information on better scientific software, go to the [Better Scientific
 
 <!---
 Publish: yes
-Categories: planning
-Topics: configuration and buildling
-Tags:
+Categories: development
+Topics: configuration and building
+Tags: document, howto
 Level: 1
-Prerequisites: WhatIsSwConfiguration.md
+Prerequisites: defaults
 Aggregate: none
 --->

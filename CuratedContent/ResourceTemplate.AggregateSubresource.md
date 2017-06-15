@@ -37,10 +37,10 @@ A template for a new resource that can be handled effectively in a single file, 
 For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
-Publish: Publish on the BSSw front-end site?
+Publish: no
 Categories: specify 1 or more categories
 Topics: specify 1 or more topics (corresponding to each category)
-Tags: specify optional tags
+Tags: bssw-internal
 Level: specify level of content
 Prerequisites: specify prerequisites
 Aggregate: subresource
@@ -73,7 +73,7 @@ Resource Description:
 
 Contributor:
 
-    Name of contributor, hyperlinked to website
+    Name(s) of contributor(s), hyperlinked to GitHub profile(s)
 
 Footer: Add the following at the bottom of each page:
 
@@ -99,53 +99,50 @@ Categories: [Primary display via BSSW website interface]
 
 [BSSW curators may add/revise categories as needed over time.]
 
-    Planning
-    Reliability
-    Performance
-    Collaboration
-    Individual Productivity
-    Crosscutting Resources
+- Planning
+- Development
+- Performance
+- Reliability
+- Collaboration
+- Skills
 
-Topics: [Visible filters via BSS website interface]
+#### Topics: Visible filters via BSSw website interface
+- All categories and also finer grain topics within categories
+ [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
+- **Planning**
+   - Improving productivity and sustainability
+   - Requirements
+   - Design
+   - Software interoperability
+- **Development**
+   - Documentation
+   - Version control
+   - Configuration and builds
+   - Deployment
+   - Issue tracking
+   - Refactoring
+   - Software engineering
+   - Development tools
+- **Performance**
+   - High-performance computing (HPC)
+   - Performance at leadership computing facilities (LCFs)
+   - Performance portability
+- **Reliability**
+   - Testing
+   - Continuous integration testing
+   - Reproducibility
+   - Debugging
 
-    All categories and also finer grain topics within categories [BSSW curators may add/revise topics as needed over time.]
-    [Topics: 4-7 per category: family of topics that make sense together]
-    Planning
-        Improving productivity and sustainability
-        Requirements
-        Design
-        Development
-        Deployment
-        Configuration and builds
-        Legacy code
-        Refactoring
-        Software engineering
-    Reliability
-        Testing
-        Debugging
-        Continuous integration testing
-        Reproducibility
-    Performance
-        High-performance computing (HPC)
-        Performance portability
-        Software interoperability
-        Performance at leadership computing facilities (LCFs)
-    Collaboration
-        Version control
-        Documentation
-        Issue tracking
-        Licensing
-        Strategies for more effective teams
-        Coordination with stakeholders
-    Individual Productivity
-        Personal kanban
-        Personal learning plans
-    Crosscutting Resources
-        Funding sources and programs
-        Projects and organizations
-        Discussion forums, Q&A sites
-        Software publishing and citation
-        On-line learning
+- **Collaboration**
+   - Licensing
+   - Strategies for more effective teams
+   - Funding sources and programs
+   - Projects and organizations
+   - Software publishing and citation
+   - Discussion forums, Q&A sites
+- **Skills**
+   - Personal productivity and sustainability
+   - Online learning
 
 Tags: [optional additional keywords for searches]
 

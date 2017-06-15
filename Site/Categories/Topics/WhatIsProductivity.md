@@ -6,4 +6,14 @@ While it is true in our experience that an explicit measurement of productivity 
 
 Given this context, we define *Productivity Improvement* as increasing the volume of better, faster *and* cheaper.  In other words, as we look for ways to improve how we conduct our work, we want to consider how the change will positively impact the quantity and quality (better), the amount of time (faster) and the amount of resources (cheaper) associated with developing our scientific and engineering software.
 
-By focusing on producitivity improvement as a relative measure comparing our current software activities with a new approach, we can avoid the typical quagmire that leads to unproductive discussions on productivity.
+By focusing on productivity improvement as a relative measure comparing our current software activities with a new approach, we can avoid the typical quagmire that leads to unproductive discussions on productivity.
+
+<!---
+Publish: yes
+Categories: planning
+Topics: productivity and sustainability
+Tags:
+Level: 0
+Prerequisites: none
+Aggregate: none
+--->

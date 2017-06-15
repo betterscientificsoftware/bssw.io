@@ -45,7 +45,7 @@ Take frequent breaks to briefly rest your eyes. A common best practice is the [_
 
 <!---
 Publish: Yes
-Categories: individual productivity
+Categories: skills
 Topics: personal productivity and sustainability
 Tags: vision
 Level: 2

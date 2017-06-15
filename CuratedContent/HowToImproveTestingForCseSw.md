@@ -6,8 +6,8 @@ Software requires regular extensive testing to ensure correctly functioning code
 Publish: yes
 Categories: reliability
 Topics: testing
-Tags: testing, terminology
+Tags: document, howto
 Level: 1
-Prerequisites: WhatIsCseSwTesting
+Prerequisites: defaults
 Aggregate: none
 --->
