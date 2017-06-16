@@ -101,6 +101,18 @@ class checked_dictionary(object):
           key2 = value2
 
         in which allowable values for value2 depend on what value1 is.
+        
+        Args:
+            property_name: The property name that we are adding a dependency to.
+            dependency_name: Name of the other property that this property depends on.
+            dependency_value: Value of the other property that we're adding restrictions to.
+            restrictions: LIST of allowable values for property_name, given (dependecy_name, dependency_value).
+        
+        Returns:
+            True if successful
+            
+        Raises:
+            ValueError: Raises an exception if we try to assign two dependency_names for a property_name.
         """
         self.add_restriction(property_name,   restrictions=None)
         self.add_restriction(dependency_name, restrictions=None)
@@ -465,9 +477,12 @@ if __name__ == "__main__":
     print ""
     mydata.add_restriction("foo", restrictions=None)
     mydata.add_restriction("bar", restrictions=["A","B"])
+    mydata.add_restriction("bar", restrictions="C")
     mydata.add_restriction("baz", restrictions=None)
+    
     mydata.add_restriction_dependency("baz", "bar", "A", restrictions=["C","D"])
-    mydata.add_restriction_dependency("baz", "bar", "B", restrictions=["E","F"])
+    mydata.add_restriction_dependency("baz", "bar", "B", restrictions=["E"])
+    mydata.add_restriction_dependency("baz", "bar", "B", restrictions=["F"])
 
 
     print "Test invalid assignment: ",

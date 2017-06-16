@@ -1,0 +1,63 @@
+#
+# Article Metadata Rules
+#
+
+# Publish
+R Publish,yes
+R Publish,no
+
+# Categories
+R Categories,Planning
+R Categories,Development
+R Categories,Performance
+R Categories,Reliability
+R Categories,Collaboration
+R Categories,Skills
+
+# Topics
+# Topics (Category = Planning)
+D Topics,Categories,Planning,Improving productivity and sustainability
+D Topics,Categories,Planning,Requirements
+D Topics,Categories,Planning,Design
+D Topics,Categories,Planning,Software interoperability
+
+# Topics (Category = Development)
+D Topics,Categories,Development,Documentation
+D Topics,Categories,Development,Version control
+D Topics,Categories,Development,Configuration and builds
+D Topics,Categories,Development,Deployment
+D Topics,Categories,Development,Issue tracking
+D Topics,Categories,Development,Refactoring
+D Topics,Categories,Development,Software engineering
+D Topics,Categories,Development,Development tools
+
+# Topics (Category = Performance)
+D Topics,Categories,Performance,High-performance computing (HPC)
+D Topics,Categories,Performance,Performance at leadership computing facilities (LCFs)
+D Topics,Categories,Performance,Performance portability
+
+
+# Topics (Category = Reliability)
+D Topics,Categories,Reliability,Testing
+D Topics,Categories,Reliability,Continuous integration testing
+D Topics,Categories,Reliability,Reproducibility
+D Topics,Categories,Reliability,Debugging
+
+
+# Topics (Category = Collaboration)
+D Topics,Categories,Collaboration,Licensing
+D Topics,Categories,Collaboration,Strategies for more effective teams
+D Topics,Categories,Collaboration,Funding sources and programs
+D Topics,Categories,Collaboration,Projects and organizations
+D Topics,Categories,Collaboration,Software publishing and citation
+D Topics,Categories,Collaboration,Discussion forums, Q&A sites
+
+# Topics (Category = Skills)
+D Topics,Categories,Collaboration,Personal productivity and sustainability
+D Topics,Categories,Collaboration,Online learning
+
+
+
+
+
+
