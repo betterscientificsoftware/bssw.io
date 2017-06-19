@@ -8,7 +8,7 @@ import sys
 
 from optparse import OptionParser
 
-from checked_dictionary import checked_dictionary
+from checked_dictionary_v002 import checked_dictionary
 from colors    import colorize
 from utilities import *
 
