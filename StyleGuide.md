@@ -62,7 +62,6 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
 - All categories and also finer grain topics within categories
   [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
 - **Planning**
-    - Improving productivity and sustainability
     - Requirements
     - Design
     - Software interoperability
@@ -90,35 +89,14 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Funding sources and programs
     - Projects and organizations
     - Software publishing and citation
-    - Discussion forums, Q&A sites 
+    - Discussion forums, Q&A sites
 - **Skills**
     - Personal productivity and sustainability
     - Online learning
 
 #### Tags: Optional additional keywords for searches
 - Add/revise topics as needed (important terms from curated content; aim for comprehensive coverage to facilitate searches)
-- ATPESC
-- Bitbucket
-- Computational Science Stack Exchange
-- Conference
-- Doxygen
-- FORCE11
-- Git
-- Gitlab
-- HPC
-- Jenkins
-- Minisymposium
-- SoftwareX
-- Software Carpentry
-- Software Sustainability Institute
-- Strategy
-- Team
-- Test-driven development
-- Travis CI
-- TutorialsPoint
-- Udacity
-- Workshop
-- etc.
+- [updated tags coming soon]
 
 #### Levels: Specify level of detail and depth of content
 - **Level 0**:  BSSw WhatIs document

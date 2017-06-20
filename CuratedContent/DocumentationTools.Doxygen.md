@@ -1,4 +1,4 @@
-# Documentation Tools: Doxygen
+# Doxygen
 
 As mentioned in [Documentation Tools](DocumentationTools.md), documentation
 establishes the contract the client abides by when interacting with software.

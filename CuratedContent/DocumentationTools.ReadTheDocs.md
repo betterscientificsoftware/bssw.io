@@ -1,4 +1,4 @@
-# Documentation Tools: Read the Docs
+# Read the Docs
 
 As mentioned in [Documentation Tools](DocumentationTools.md), documentation
 establishes the contract the client abides by when interacting with software.
