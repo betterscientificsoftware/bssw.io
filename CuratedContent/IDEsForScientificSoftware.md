@@ -1,6 +1,6 @@
 # Integrated Development Environments (IDEs) for Scientific Sofware Development
 
-IDEs have been used extensively for software development for many years, and in most software engineering domains, 
+IDEs have been used extensively for software development for many years, and in most software engineering domains,
 are considered best practice. However, their uptake for scientific software development, and in particular, high
 performance computing (HPC), has been much slower. Nevertheless, IDEs are quite widely used, particularly where software
 engineering professionals are actively involved in the development of scientific software.
@@ -14,7 +14,7 @@ When choosing an IDE for scientific software development, some important conside
 - Works on a variety of platforms (Windows, Mac, Linux).
 - Allows remote development.
 
-The following sections describe IDEs that meet one or more of the requirements for scientific code development. 
+The following sections describe IDEs that meet one or more of the requirements for scientific code development.
 
 ## Free IDEs
 
@@ -189,3 +189,14 @@ The following tables show which IDEs support important features for scientific c
 
 1. Current version not supported
 
+#### Contributed by [Greg Watson](https://github.com/jarrah42")
+
+<!---
+Publish: yes
+Categories: development
+Topics: development tools
+Tags: tools
+Level: 2
+Prerequisites: defaults
+Aggregate: none
+--->

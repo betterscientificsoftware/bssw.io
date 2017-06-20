@@ -2,7 +2,7 @@
 
 What is online learning? You'll see many definitions describing online learning as learning or education that is delivered via the internet or personal computer. However, your online learning experience can be much more. For example, each of these are variants of online learning offering different levels of interactivity from pointing and clicking, or viewing videos, to hands-on experimentation:
 
-* e-Learning (web-based multimedia courseware including videos, podcasts, etc.) 
+* e-Learning (web-based multimedia courseware including videos, podcasts, etc.)
 * Mobile learning or m-learning (includes tablet or mobile performance support, apps, audiocasts, e-books, etc.)
 * Video conferencing or telepresence (online lectures, webcasts, webinars, tutorials, etc.)
 * Web or browser-based virtual worlds, serious games, and simulations
@@ -15,13 +15,11 @@ You can get started by entering your area of interest in the search field of the
 
 * [TED](https://www.ted.com)
 * [ACM Queue](http://queue.acm.org/index.cfm)
-* [Coursera](https://www.coursera.org) 
-* [Udacity](https://www.udacity.com) 
-* [edX](https://www.edx.org) 
+* [Coursera](https://www.coursera.org)
+* [Udacity](https://www.udacity.com)
+* [edX](https://www.edx.org)
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
 Publish: yes
