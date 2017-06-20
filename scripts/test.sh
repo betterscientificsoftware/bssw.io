@@ -45,8 +45,8 @@ echo "==========================================================================
 echo ""
 python validate_article.py -f test_file_002.md -s metadata_spec.txt -D --color=tty
 
-echo "================================================================================"
-echo ""
-python validate_article.py -f test_file_003.md -s metadata_spec.txt -D --color=tty
+#echo "================================================================================"
+#echo ""
+#python validate_article.py -f test_file_003.md -s metadata_spec.txt -D --color=tty
 
 
