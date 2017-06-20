@@ -8,7 +8,7 @@ import sys
 
 from optparse import OptionParser
 
-from checked_dictionary_v002 import checked_dictionary
+from checked_multivalue_dictionary import checked_multivalue_dictionary
 from colors    import colorize
 from utilities import *
 
@@ -27,38 +27,38 @@ from utilities import *
         #self.add_restriction("Publish", restrictions=["yes","no"])
 
         #self.add_restriction("Categories", restrictions=["Planning",
-                                                         #"Development",
-                                                         #"Performance",
-                                                         #"Reliability",
-                                                         #"Collaboration",
-                                                         #"Skills"])
+                                                            #"Development",
+                                                            #"Performance",
+                                                            #"Reliability",
+                                                            #"Collaboration",
+                                                            #"Skills"])
 
         #self.add_restriction("Topics", restrictions=None)
         #self.add_restriction_dependency("Topics", "Categories", "Planning", restrictions=["Improving productivity and sustainability",
-                                                                                          #"Requirements",
-                                                                                          #"Design",
-                                                                                          #"Software interoperability"])
+                                                                                            #"Requirements",
+                                                                                            #"Design",
+                                                                                            #"Software interoperability"])
         #self.add_restriction_dependency("Topics", "Categories", "Development", restrictions=["Documentation",
-                                                                                             #"Version control",
-                                                                                             #"Configuration and builds",
-                                                                                             #"Deployment",
-                                                                                             #"Issue tracking",
-                                                                                             #"Refactoring",
-                                                                                             #"Software engineering",
-                                                                                             #"Development tools"])
+                                                                                                #"Version control",
+                                                                                                #"Configuration and builds",
+                                                                                                #"Deployment",
+                                                                                                #"Issue tracking",
+                                                                                                #"Refactoring",
+                                                                                                #"Software engineering",
+                                                                                                #"Development tools"])
         #self.add_restriction_dependency("Topics", "Categories", "Performance", restrictions=["High-performance computing (HPC)",
-                                                                                             #"Performance at leadership computing facilities (LCFs)",
-                                                                                             #"Performance portability"])
+                                                                                                #"Performance at leadership computing facilities (LCFs)",
+                                                                                                #"Performance portability"])
         #self.add_restriction_dependency("Topics", "Categories", "Reliability", restrictions=["Testing",
-                                                                                             #"Continuous integration testing",
-                                                                                             #"Reproducibility",
-                                                                                             #"Debugging"])
+                                                                                                #"Continuous integration testing",
+                                                                                                #"Reproducibility",
+                                                                                                #"Debugging"])
         #self.add_restriction_dependency("Topics", "Categories", "Collaboration", restrictions=["Licensing",
-                                                                                               #"Strategies for more effective teams",
-                                                                                               #"Funding sources and programs",
-                                                                                               #"Projects and organizations",
-                                                                                               #"Software publishing and citation",
-                                                                                               #"Discussion forums, Q&A sites"])
+                                                                                                #"Strategies for more effective teams",
+                                                                                                #"Funding sources and programs",
+                                                                                                #"Projects and organizations",
+                                                                                                #"Software publishing and citation",
+                                                                                                #"Discussion forums, Q&A sites"])
         #self.add_restriction_dependency("Topics", "Categories", "Skills", restrictions=["Personal productivity and sustainability",
                                                                                         #"Online learning"])
 
@@ -194,7 +194,8 @@ def tokenize_metadata(file_lines, program_options):
             #value_list = [x.strip() for x in value_list.split(",")]
             for v in value_list.split(","):
                 v = v.strip()
-                metadata_token_list.append( (key,v) )
+                if v is not None and v != "":
+                    metadata_token_list.append( (key,v) )
 
     if in_metadata:
         print "ERROR: Missing metadata section terminator '--->'."
@@ -206,6 +207,27 @@ def tokenize_metadata(file_lines, program_options):
 
 
 
+class mvdict(object):
+    def __init__(self):
+        self.data = checked_multivalue_dictionary()
+
+
+
+def check_metadata_tokens(metadata_tokens, mv_dict, program_options):
+    """
+    mv_dict is a checked_multivalue_dictionary with appropriate rules set up.
+    """
+    output = True
+    try:
+        for key,value in metadata_tokens:
+            pass
+    except:
+        pass
+
+    return output
+
+
+
 
 def main():
     """
@@ -213,17 +235,77 @@ def main():
     program_options = process_program_options()
 
     file_lines = load_textfile_to_stringlist(program_options.param_ifilename, program_options)
+    passed = True
 
-    print "Validate metadata for '%s': \n"%(program_options.param_ifilename),
+    print "Validate metadata for '%s': "%(program_options.param_ifilename),
     try:
         metadata = tokenize_metadata(file_lines, program_options)
+
+        metadata_valid = mvdict()
+        metadata_valid.data.add_restriction("Publish", restrictions=["yes", "no"])
+        metadata_valid.data.add_restriction("Categories", restrictions=["Planning",
+                                                                        "Development",
+                                                                        "Performance",
+                                                                        "Reliability",
+                                                                        "Collaboration",
+                                                                        "Skills"])
+        metadata_valid.data.add_restriction("Topics", restrictions=None)
+        metadata_valid.data.add_restriction_dependency("Topics", "Categories", "Planning",
+                                                       restrictions=["Requirements",
+                                                                     "Design",
+                                                                     "Software interoperability"])
+        metadata_valid.data.add_restriction_dependency("Topics", "Categories", "Development",
+                                                       restrictions=["Documentation",
+                                                                     "Version control",
+                                                                     "Configuration and builds",
+                                                                     "Deployment",
+                                                                     "Issue tracking",
+                                                                     "Refactoring",
+                                                                     "Software engineering",
+                                                                     "Development tools"])
+
+        metadata_valid.data.add_restriction_dependency("Topics", "Categories", "Performance",
+                                                       restrictions=["High-performance computing",
+                                                                     "Performance at LCFs",
+                                                                     "Performance portability"])
+        metadata_valid.data.add_restriction_dependency("Topics", "Categories", "Reliability",
+                                                       restrictions=["Testing",
+                                                                     "Continuous integration testing",
+                                                                     "Reproducibility",
+                                                                     "Debugging"])
+        metadata_valid.data.add_restriction_dependency("Topics", "Categories", "Collaboration",
+                                                       restrictions=["Licensing",
+                                                                     "Strategies for more effective teams",
+                                                                     "Funding sources and programs",
+                                                                     "Projects and organizations",
+                                                                     "Software publishing and citation",
+                                                                     "Discussion forums, Q&A sites"])
+        metadata_valid.data.add_restriction_dependency("Topics", "Categories", "Skills",
+                                                       restrictions=["Personal productivity and sustainability",
+                                                                     "Online learning"])
+
+        metadata_valid.data.add_restriction("Tags", restrictions=None)
+
+        metadata_valid.data.add_restriction("Level", restrictions=[0,1,2,3])
+
+        metadata_valid.data.add_restriction("Prerequisites", restrictions=None)
+
+        metadata_valid.data.add_restriction("Aggregate", restrictions=["none","base","subresource","stand-alone and subresource"])
+
+        for k,v in metadata:
+            metadata_valid.data.append_property_value(k, v)
+
+
+        breakpt01 = None
 
     except ValueError, msg:
         print "FAIL"
         print msg
+        passed = False
         exit(1)
 
-    print "PASS"
+    if passed is True:
+        print "PASS"
 
 
 if __name__ == "__main__":

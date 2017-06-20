@@ -143,7 +143,7 @@ class checked_multivalue_dictionary(checked_dictionary):
         if restrict_to is not None and str(property_value).lower() not in [str(value).lower() for value in restrict_to]:
             output = False
             if throw_error_on_fail is True:
-                msg  = ">>> Invalid value for property '%s'.\n"%(property_name)
+                msg  = ">>> '%s' is an invalid value for property '%s'.\n"%(property_value, property_name)
                 msg += ">>> Allowable values are:\n"
                 for r in restrict_to:
                     msg += ">>> - '%s'\n"%(r)
