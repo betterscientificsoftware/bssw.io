@@ -6,7 +6,7 @@ from pprint import pformat
 from pprint import pprint
 import sys
 
-from checked_dictionary_v002 import checked_dictionary
+from checked_dictionary import checked_dictionary
 
 
 class checked_multivalue_dictionary(checked_dictionary):
