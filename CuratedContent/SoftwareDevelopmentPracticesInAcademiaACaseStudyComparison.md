@@ -8,8 +8,6 @@ This case study is extremely relevant for the better scientific software develop
 
 #### Contributed by [Christoph Junghans](https://github.com/junghans)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: reliability

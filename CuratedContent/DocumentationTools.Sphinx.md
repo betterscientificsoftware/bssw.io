@@ -1,8 +1,5 @@
 # Sphinx
 
-As mentioned in [Documentation Tools](DocumentationTools.md), documentation
-establishes the contract the client abides by when interacting with software.
-
 Much like [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html),
 [Sphinx](http://www.sphinx-doc.org/en/stable/) is a free and open source tool
 that processes markup describing classes, functions, and variables in your
@@ -16,9 +13,6 @@ Sphinx supports many programming languages, and can also generate a
 LaTeX-generated PDF file.
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
-
-For more information on better scientific software, go to the
-[Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
 Publish: yes

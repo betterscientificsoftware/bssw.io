@@ -8,8 +8,6 @@ When writing software, destruction can be just as valuable as creation. Learn ho
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Reliability, skills

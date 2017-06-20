@@ -8,8 +8,6 @@ A variety of tutorials, webinars, and training sessions provide resources for im
 - [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability](CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.SIAM-CSE17.md)
 - [Webinar Series: Best Practices for HPC Software Developers](BestPracticesForHPCSwDevelopersWebinarSeries.md)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: planning, reliability, collaboration, performance, skills

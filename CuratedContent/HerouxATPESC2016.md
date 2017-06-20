@@ -6,8 +6,6 @@ My presentation from the [Argonne Training Program on Extreme-Scale Computing (A
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
-For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: collaboration, reliability

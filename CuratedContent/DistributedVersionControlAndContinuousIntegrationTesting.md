@@ -8,9 +8,6 @@ Recently, many tools and workflows have emerged in the software industry that ha
 - **Slides:** https://www.olcf.ornl.gov/wp-content/uploads/2016/04/HPC-Session3.pdf
 - **Video:** https://www.youtube.com/watch?v=cqH-PIRpnRo&feature=youtu.be
 
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: reliability, collaboration

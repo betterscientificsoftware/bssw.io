@@ -4,8 +4,6 @@ Achieving good performance across a range of platforms is an important goal for 
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: performance

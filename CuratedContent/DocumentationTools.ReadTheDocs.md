@@ -1,8 +1,5 @@
 # Read the Docs
 
-As mentioned in [Documentation Tools](DocumentationTools.md), documentation
-establishes the contract the client abides by when interacting with software.
-
 [Read The Docs](https://readthedocs.org/) is a free service for hosting
 documentation generated from tools such as
 [Sphinx](DocumentationTools.Sphinx.md).  Read The Docs typically requires
@@ -15,9 +12,6 @@ Version Control and Continuous Integration
 Testing](DistributedVersionControlAndContinuousIntegrationTesting.md)).
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
-
-For more information on better scientific software, go to the
-[Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
 Publish: yes

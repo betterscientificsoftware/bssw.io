@@ -15,8 +15,6 @@ WSSSPE5.2 aims to facilitate the creation of a regional community focussed on su
 
 WSSSPE5.2 is held in conjuction with the [2017 IEEE International Conference on eScience](http://escience2017.org.nz).
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: planning, crosscutting

@@ -12,8 +12,6 @@ Fellows are drawn from a wide range of areas, experience, and career stages.
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Collaboration

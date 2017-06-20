@@ -9,8 +9,6 @@
 
 Links to events at SC17 related to better scientific software will be posted as these are determined.
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: planning, crosscutting

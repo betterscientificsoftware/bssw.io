@@ -6,8 +6,6 @@ As discussed in ["What Is CSE Software Testing?"](WhatIsCseSwTesting.md), automa
 
 #### Contributed by [Lois Curfman McInnes](http://press3.mcs.anl.gov/curfman/ "Lois Curfman McInnes Homepage")
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: reliability, development

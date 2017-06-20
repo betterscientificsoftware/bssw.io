@@ -92,8 +92,6 @@ to implement your sustainability plan.
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Collaboration, Planning

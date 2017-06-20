@@ -1,7 +1,7 @@
 # Documentation Tools
 
-Documentation is critical for establishing a contract for how software is
-interacted with.  Introductory information:
+Documentation is critical for explaining how users
+interacted with software.  Introductory information:
 
 - [What is good documentation?](WhatIsGoodDocumentation.md)
 - [How to write good documentation](HowToWriteGoodDocumentation.md)

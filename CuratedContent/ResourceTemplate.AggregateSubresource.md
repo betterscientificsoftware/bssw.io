@@ -34,8 +34,6 @@ See also [ResourceTemplate.AggregateBase](ResourceTemplate.AggregateBase.md).
 A template for a new resource that can be handled effectively in a single file, rather than as an aggregate, is:
 [ResourceTemplate.Basic](ResourceTemplate.Basic.md).
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: no
 Categories: specify 1 or more categories
@@ -75,10 +73,6 @@ Contributor:
 
     Name(s) of contributor(s), hyperlinked to GitHub profile(s)
 
-Footer: Add the following at the bottom of each page:
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 Metadata: Include metadata as formatted comments at the end of the file
 
     Publish: Publish on the BSSw front-end site?
@@ -109,66 +103,12 @@ Categories: [Primary display via BSSW website interface]
 #### Topics: Visible filters via BSSw website interface
 - All categories and also finer grain topics within categories
  [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
-- **Planning**
-   - Improving productivity and sustainability
-   - Requirements
-   - Design
-   - Software interoperability
-- **Development**
-   - Documentation
-   - Version control
-   - Configuration and builds
-   - Deployment
-   - Issue tracking
-   - Refactoring
-   - Software engineering
-   - Development tools
-- **Performance**
-   - High-performance computing (HPC)
-   - Performance at leadership computing facilities (LCFs)
-   - Performance portability
-- **Reliability**
-   - Testing
-   - Continuous integration testing
-   - Reproducibility
-   - Debugging
 
-- **Collaboration**
-   - Licensing
-   - Strategies for more effective teams
-   - Funding sources and programs
-   - Projects and organizations
-   - Software publishing and citation
-   - Discussion forums, Q&A sites
-- **Skills**
-   - Personal productivity and sustainability
-   - Online learning
+[need to update]
 
 Tags: [optional additional keywords for searches]
 
-    Add/revise topics as needed (important terms from curated content; aim for comprehensive coverage to facilitate searches)
-    ATPESC
-    Bitbucket
-    Computational Science Stack Exchange
-    Conference
-    Doxygen
-    FORCE11
-    Git
-    Gitlab
-    HPC
-    Jenkins
-    Minisymposium
-    SoftwareX
-    Software Carpentry
-    Software Sustainability Institute
-    Strategy
-    Team
-    Test-driven development
-    Travis CI
-    TutorialsPoint
-    Udacity
-    Workshop
-    etc.
+[under revision]
 
 Levels: Specify level of detail and depth of content
 

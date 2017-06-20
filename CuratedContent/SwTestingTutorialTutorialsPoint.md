@@ -21,8 +21,6 @@ Before proceeding with this tutorial, you should have a basic understanding of t
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Reliability, skills

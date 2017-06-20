@@ -4,8 +4,6 @@ The short document [What is Version Control](https://ideas-productivity.org/word
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: development

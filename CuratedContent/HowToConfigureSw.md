@@ -4,8 +4,6 @@ Most CSE software needs to be installed from source on a wide variety of machine
 
 #### Contributed by [Jason Sarich](https://github.com/sarich)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: development

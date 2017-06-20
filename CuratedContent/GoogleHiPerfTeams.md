@@ -4,8 +4,6 @@ What makes for a high performing team?  [This interview podcast](https://www.inf
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: collaboration

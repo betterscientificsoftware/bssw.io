@@ -6,8 +6,6 @@ The [Free Software Foundation](http://www.fsf.org/) (FSF) is the organization be
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: collaboration

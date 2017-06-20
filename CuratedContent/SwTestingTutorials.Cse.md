@@ -7,9 +7,6 @@ Blurb about ATPESC tutorials and link.
 
 Blurb about Webinar tutorials and links.
 
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: reliability

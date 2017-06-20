@@ -8,8 +8,6 @@ A [blog](http://neverworkintheory.org/) intended to help bridge between software
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Development

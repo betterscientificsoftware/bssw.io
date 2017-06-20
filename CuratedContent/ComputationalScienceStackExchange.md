@@ -10,8 +10,6 @@ This Stack Exchange site covers computational science in general.  Most of the q
 --->
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Collaboration

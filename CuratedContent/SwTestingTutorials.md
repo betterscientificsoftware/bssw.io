@@ -12,8 +12,6 @@ A variety of tutorials on software testing provide information for various circu
 - [Testing Tutorials for CSE Software](SwTestingTutorials.Cse.md)
 - [Testing Tutorials for General-Purpose Software](SwTestingTutorials.General.md)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: reliability

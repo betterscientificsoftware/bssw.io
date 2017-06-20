@@ -5,8 +5,6 @@ Installing scientific libraries or applications from source requires a system fo
 
 #### Contributed by [Jason Sarich](https://github.com/sarich)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: development

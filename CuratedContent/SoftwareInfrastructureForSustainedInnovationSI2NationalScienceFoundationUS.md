@@ -17,8 +17,6 @@ Multidisciplinary projects at the SSE, SSI, and S2I2 levels should be submitted 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Collaboration

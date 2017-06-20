@@ -38,7 +38,7 @@ The *quick brown fox* jumps over the **lazy dog**. The quick brown fox jumps ove
 2. Ordered list item
 3. Ordered list item
 
-The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
 #### Subsubhead
 
@@ -91,7 +91,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' class='page lightbox' /> 
+<img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' class='page lightbox' />
 
 
 
@@ -102,11 +102,6 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 - [Sphinx](DocumentationTools.Sphinx.md)
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall) and [Clara Raubertas](https://github.com/clararaubertas)
-
-For more information on better scientific software, go to the
-[Better Scientific Software main page](http://betterscientificsoftware.info).
-
-
 
 
 <!---

@@ -4,8 +4,6 @@ Git is a powerful open-source version control system (VCS) that is increasing us
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: Development

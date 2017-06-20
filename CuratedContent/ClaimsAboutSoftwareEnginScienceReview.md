@@ -6,8 +6,6 @@ A significant difference between traditional software and scientific software is
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: reliability

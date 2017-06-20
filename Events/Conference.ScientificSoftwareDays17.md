@@ -9,8 +9,6 @@
 - Share best practices among scientific software communities.
 - Share the latest tools and technology relevant to scientific software.
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: planning, crosscutting

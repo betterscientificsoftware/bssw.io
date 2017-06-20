@@ -4,8 +4,6 @@ The short document [How to do Version Control with Git in your CSE Project](http
 
 #### Contributed by [Roscoe A. Bartlett](http://www.cs.sandia.gov/cr-rabartl)
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: development

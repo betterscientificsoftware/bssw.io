@@ -53,8 +53,6 @@ In this presentation we discuss elements that impact the effectiveness of CSE ef
 - Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62113
 - Slides for presentation: https://doi.org/10.6084/m9.figshare.4728697
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: crosscutting, individual productivity, planning, collaboration, reliability
