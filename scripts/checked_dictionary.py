@@ -35,6 +35,8 @@ class checked_dictionary(object):
         ##
         ####
 
+        return None
+
 
     def __init_default__(self):
         """
@@ -101,16 +103,16 @@ class checked_dictionary(object):
           key2 = value2
 
         in which allowable values for value2 depend on what value1 is.
-        
+
         Args:
             property_name: The property name that we are adding a dependency to.
             dependency_name: Name of the other property that this property depends on.
             dependency_value: Value of the other property that we're adding restrictions to.
             restrictions: LIST of allowable values for property_name, given (dependecy_name, dependency_value).
-        
+
         Returns:
             True if successful
-            
+
         Raises:
             ValueError: Raises an exception if we try to assign two dependency_names for a property_name.
         """
@@ -181,7 +183,7 @@ class checked_dictionary(object):
 
     def has_property_value(self, property_name):
         """
-        True if the key, property_name, exists.
+        True if the key (property_name) exists.
         """
         self.__init_default__()
         if not self._data.has_key(property_name):
@@ -362,18 +364,16 @@ class checked_dictionary(object):
     def __str__(self):
         self.__init_default__()
         output  = "Restrictions:\n"
-        output += self.str_restrictions(indent=5, width=90)
+        output += self.str_restrictions(indent=3, width=90)
         output += "\nData:\n"
-        output += self.str_data(indent=5, width=90)
+        output += self.str_data(indent=3, width=90)
         return output
 
 
 
 
 
-
-
-if __name__ == "__main__":
+def __test_checked_dictionary__():
     """
     testing
     """
@@ -479,7 +479,7 @@ if __name__ == "__main__":
     mydata.add_restriction("bar", restrictions=["A","B"])
     mydata.add_restriction("bar", restrictions="C")
     mydata.add_restriction("baz", restrictions=None)
-    
+
     mydata.add_restriction_dependency("baz", "bar", "A", restrictions=["C","D"])
     mydata.add_restriction_dependency("baz", "bar", "B", restrictions=["E"])
     mydata.add_restriction_dependency("baz", "bar", "B", restrictions=["F"])
@@ -543,4 +543,13 @@ if __name__ == "__main__":
         print "FAIL - checked_dictionary"
 
 
+
+if __name__ == "__main__":
+
+    rval = 0
+    rval = __test_checked_dictionary__()
+
     sys.exit(rval)
+
+
+
