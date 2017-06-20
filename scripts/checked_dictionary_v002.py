@@ -364,9 +364,9 @@ class checked_dictionary(object):
     def __str__(self):
         self.__init_default__()
         output  = "Restrictions:\n"
-        output += self.str_restrictions(indent=5, width=90)
+        output += self.str_restrictions(indent=3, width=90)
         output += "\nData:\n"
-        output += self.str_data(indent=5, width=90)
+        output += self.str_data(indent=3, width=90)
         return output
 
 
