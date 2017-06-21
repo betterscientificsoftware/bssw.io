@@ -1,6 +1,6 @@
 # Environmental System Science Community
 
-1 sentence overview goes here xxxx xxxx xxxx xxxx xxxxx xxxx xxxxx xxxxx.
+Scientific Software enables the modeling and simulation that is critical for addressing important environmental questions.
 
 Flexible mechanistic modeling and simulation are critical for enabling the Terrestrial Ecosystem Community to address important environmental questions, such as the prediction of water availability and quality from watersheds under prolonged drought and warming temperatures. Integrated multidisciplinary projects in the DOE Office of Biological and Environmental Research (BER) are developing mechanistic process-rich models of nutrient and carbon cycling, and are collecting field and laboratory data to help inform and constrain these models.  
 
