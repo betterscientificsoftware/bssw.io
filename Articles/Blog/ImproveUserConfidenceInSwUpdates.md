@@ -4,6 +4,8 @@
 
 #### Publication date: April 10, 2017
 
+Deck: 1-sentence explanation of blog article topic goes here -- brief and to the point.
+
 When a customer updates to a new version of your software, changes are not just about new features, but often (perhaps mostly) include improvements to existing capabilities.
 
 When a customer is integrating your latest version, they are looking for changes in behavior.  Changes include timing differences and changes in input requirements and output data.  In HPC software, changes in output can be common, especially with floating point computations, where difference in order of operations can produce correct but different results.
