@@ -28,8 +28,8 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 #### Preferred Approach: Web based
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
 1. Find an existing article that is similar in type.
-  - View the article in Raw mode.
-  - Copy article text.
+  - View the article in **Raw** mode.
+  - Copy article text **including the comment containing the metadata**.
 1. Select `Create New File` or open an existing file.
 1. Paste text from existing article into your new document, as a starting point.
 1. Edit using [GitHub Markdown](https://guides.github.com/features/mastering-markdown).
