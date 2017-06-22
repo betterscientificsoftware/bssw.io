@@ -28,3 +28,7 @@ We encourage extreme-scale computing researchers to share ideas about addressing
 * [How To Enable Performance Portability for CSE Applications](../../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
 
 * [High Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
+
+<!---
+Publish: yes
+--->

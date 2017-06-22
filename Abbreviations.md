@@ -1,5 +1,9 @@
 ### Abbreviations Used on the BSSw Site
 
+<!---
+Note on process:  Need to inform Parallactic when changes are made to the abbreviations, as this currently requires manual update for front-end.
+---!>
+
 - CSE: Computational Science and Engineering
 - HPC: High-Performance Computing
 - LCF: Leadership Computing Facility

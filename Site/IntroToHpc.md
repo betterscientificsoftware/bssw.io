@@ -1,6 +1,6 @@
 # Intro to HPC
 
-High-performance computers are significantly more powerful than their general-purpose counterparts, and are used to tackle particularly challenging computational problems in science and engineering, as well as other areas. 
+High-performance computers are significantly more powerful than their general-purpose counterparts, and are used to tackle particularly challenging computational problems in science and engineering, as well as other areas.
 
 The initialism *HPC* can refer to either high-performance *computers* (the systems themselves) or high-performance *computing* (the *use* of high-performance computers).  It is usually clear from the context which is meant.
 
@@ -33,8 +33,6 @@ CSE software on high-performance computer must address a broad range of complexi
 <!---  Currently we're not attributing the Intro articles
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman), [David E. Bernholdt](https://github.com/bernhold), [Suzanne Parete-Koon](https://github.com/suzannepk), and [Rebecca Hartman-Baker](https://github.com/hartmanbaker)
 --->
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
 
 <!---
 BSSw Site: Get Oriented: About HPC

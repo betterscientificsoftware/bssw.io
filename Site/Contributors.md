@@ -9,5 +9,3 @@ Paragraph with more info xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx x
 ### Contribute to BSSw
 
 We welcome contributions from anyone who would like to share information on software issues for CSE.  Please see [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).

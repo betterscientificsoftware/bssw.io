@@ -23,4 +23,6 @@ We encourage software engineers to share ideas about X,Y,Z, and other concerns. 
 
 * [Containers for Research Software](../../Articles/ContainersForResearchSw.md)
 
-### See all resources at the [Better Scientific Software main page](../Homepage.md)
+<!---
+Publish: yes
+--->

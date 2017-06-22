@@ -2,7 +2,7 @@
 
 The majority of computational scientists and engineers access high-performance computing resources through one or more centralized supercomputing facilities, which serve many users.
 
-Supercomputers are large, expensive devices requiring significant infrastructure and support staff to operated effectively.  As such, they are often purchased and operated as centralized facilities with size and scope typically related to their funding sources.  This may range from departmental-scale to institutional, state or regional, and national or international. 
+Supercomputers are large, expensive devices requiring significant infrastructure and support staff to operated effectively.  As such, they are often purchased and operated as centralized facilities with size and scope typically related to their funding sources.  This may range from departmental-scale to institutional, state or regional, and national or international.
 
 Facilities and their systems are often categorized as either *capacity* or *capability* systems, depending on the nature of the computing load and users they are designed to serve.  Capability, or *leadership-class* systems are the largest scale of system, which provide levels of computational capability not available elsewhere, and support users requiring that level of capability for individual jobs that due to size or time-to-solution requirements cannot be run on lesser systems.  Capacity systems are designed to support a broader base of users and problems, where computational requirements warrant the use of HPC systems, but individual jobs do not reach the scale of dominating a lerge HPC system.
 
@@ -11,7 +11,7 @@ Access to supercomputer facilities is handled in different ways. Many facilities
 Facilities often host users with a broad range of experience and sophistication in CSE and HPC.  Many facilities offer training opportunities aimed at helping users (and prospective users) improved their skills and knowledge, thereby making more effective use of the resources of the facility.  Some facilities have staff dedicated to providing various levels of support and assistance to users, with the same goal.
 
 There are a vast number of supercomputing facilities aruond the world, and it is impossible to list them all, but some of those BWWs contributors are associated with include:
-<!--- 
+<!---
        These could point to the facility pages proper, or to a BSSw "sub-community" page that makes more specific connections between that facility and BSSw content
 --->
 - [Argonne Leadership Computing Facility](http://www.alcf.anl.gov/)
@@ -45,3 +45,7 @@ We encourage facility staff and users to share ideas about addressing challenges
 * [What Is CSE Software Testing](../../CuratedContent/WhatIsCseSwTesting.md)
 
 * [How To Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
+
+<!---
+Publish: yes
+--->

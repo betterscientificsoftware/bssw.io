@@ -10,5 +10,3 @@ A BSSW Fellow receives funds for one year.  We encourage BSSw Fellows to continu
 
 ### Become a BSSw Fellow
 Have something to share with the scientific software community?  Have a passion to learn and teach others about better software?  Apply for a BSSw Fellowship.  Help the community and receive funding and recognition for your efforts.  
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).

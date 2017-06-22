@@ -26,3 +26,7 @@ We encourage scientific library developers to share ideas about library interope
 * [Test Driven Development in Scientific Software: A Survey](../../CuratedContent/TestDrivenDevptInScientificSwASurvey.md)
 
 * [High Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
+
+<!---
+Publish: yes
+--->

@@ -11,7 +11,7 @@ Content contributions are kept in the Git repository [https://github.com/betters
 
 For more information on better scientific software go to [Better Scientific Software main page](http://betterscientificsoftware.info).
 
-<!--- 
+<!---
 Publish: no
 Content area:  main page
 Filters: introduction

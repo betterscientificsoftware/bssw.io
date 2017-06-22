@@ -18,8 +18,6 @@ In comparison to larger software communities for whom much of the software impro
 
 CSE software challenges are discussed in a recent community report:  _**Computational Science and Engineering Software Sustainability and Productivity Challenges (CSESSP) Workshop Report**_, M. Heroux, G. Allen, et al., 2016, Networking and Information Technology Research and Development (NITRD) Program, https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf.
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 BSSw Site: Get Oriented: About CSE
 --->

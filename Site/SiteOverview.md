@@ -10,8 +10,6 @@ The site provides instructional materials, WhatIs and HowTo documents (concise c
 ### Who Contributes and Why?
 We welcome contributions from anyone who would like to share information on software issues for CSE.  Goals are to help CSE researchers work more effectively both within their own projects and also to increase collaboration, leverage, recognition, and impact—all with the long-term goal of advancing scientific discoveries.  Please see [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 BSSw Site: Get Oriented: Site Overview
 --->
