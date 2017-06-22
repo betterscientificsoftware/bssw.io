@@ -19,13 +19,13 @@ We encourage scientific library developers to share ideas about library interope
 
 ### Featured resources for the scientific libraries community
 
+* [Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE5.2)](../../Events/WSSSPE5.2.md)
+
+* [Keeping your Vision Fit for Years of Software Development](../../Articles/VisionFitnessForSoftwareProductivity.md)
+
 * [How to Configure Software](../../CuratedContent/HowToConfigureSw.md)
 
 * [Open Source Software Sustainability Resources](../../CuratedContent/OSSSustainabilityResources.md)
-
-* [Test Driven Development in Scientific Software: A Survey](../../CuratedContent/TestDrivenDevptInScientificSwASurvey.md)
-
-* [High Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
 
 <!---
 Publish: yes
