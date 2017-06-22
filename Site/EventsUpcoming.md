@@ -1,7 +1,5 @@
 # Upcoming Events
 
-We provide pointers to upcoming events related to better scientific software, with emphasis on productivity and sustainability issues.  
+We provide pointers to conferences, workshops, webinars, tutorials, and other training events related to better scientific software, with emphasis on productivity and sustainability issues.  
 
-Included are conferences, workshops, webinars, tutorials, and other training events.  
-
-We welcome pointers to other events within this scope. [Instructions for submitting event pointers goes here.]
+We welcome contributed information about events.  See instructions on [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md) pages.

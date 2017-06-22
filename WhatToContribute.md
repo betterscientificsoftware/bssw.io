@@ -4,13 +4,18 @@
 
 The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Articles/WhatIsProductivity.md) and [software sustainability](Articles/WhatIsSustainability.md).  
 
+Developer productivity and software sustainability efforts for computational science and engineering (CSE) benefit from communicating the experiences, reasoned insights, and curated content from a broad spectrum of community members.
+
 #### Content Categories
 
 Content categories can include:
 - **"What Is" document:** A document that defines terms and concepts in a particular topic area.  For example, the article could describe terms and concepts related to automated testing.  This kind of document is often helpful as background for "How To" documents that describe testing processes.
-- **"How To" document:** A document that describes a process for improving producitivity and sustainability.
-- **Original experience:** An original article (brevity is appreciated) for informing the computational science and engineering (CSE) community about how to improve developer productivity and software sustainability.
+- **"How To" document:** A document that describes a process for improving productivity and sustainability.
+- **Original experience:** An original article (brevity is appreciated) to inform the CSE community about how to improve developer productivity and software sustainability.
+- **Blog article:** An original article in the form of a blog of 250 - 500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
 - **Curated links:** A brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content.
+- **Event:** A brief description of an event relevant to better scientific software. 
+
 
 #### Content Scope
 
