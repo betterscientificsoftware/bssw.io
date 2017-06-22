@@ -15,9 +15,6 @@ A variety of tools exist for writing, rendering, and managing documentation.
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 
-For more information on better scientific software, go to the
-[Better Scientific Software main page](http://betterscientificsoftware.info).
-
 <!---
 Publish: yes
 Categories: development

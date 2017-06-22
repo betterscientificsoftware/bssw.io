@@ -5,11 +5,7 @@ documentation generated from tools such as
 [Sphinx](DocumentationTools.Sphinx.md).  Read The Docs typically requires
 documentation to be written in either reStructuredText or Markdown, and can be
 configured to produce branch- or commit-specific documentation in a version
-control system (see [What Is Version Control?](WhatIsVersionControl.md), [How
-to do Version Control with Git in your CSE
-Project](HowToDoVersionControlWithGitInYourCseProject.md), and [Distributed
-Version Control and Continuous Integration
-Testing](DistributedVersionControlAndContinuousIntegrationTesting.md)).
+control system (see [What Is Version Control?](WhatIsVersionControl.md)). 
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 

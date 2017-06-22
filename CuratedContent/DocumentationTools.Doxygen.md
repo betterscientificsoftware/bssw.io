@@ -1,8 +1,5 @@
 # Doxygen
 
-As mentioned in [Documentation Tools](DocumentationTools.md), documentation
-establishes the contract the client abides by when interacting with software.
-
 [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) is a free and open
 source tool that processes markup describing classes, functions, and variables
 in your software's header files and generates a user-friendly hyperlinked set
