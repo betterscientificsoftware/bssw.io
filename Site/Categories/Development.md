@@ -36,8 +36,12 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 --->
 
-- **Deployment:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+- **Software Distribution:**
+Making software available to users and related activities. This could involve providing users with an installer, deploying the software on systems where the users can access it, or a combination of both.
+
+<!---
+   - [What Is CSE Software Distribution?](Topics/WhatIsCseSwDistribution.md)
+--->
 
 <!---
 - **Legacy code:**
