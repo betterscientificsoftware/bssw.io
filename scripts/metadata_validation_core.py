@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """
+Core validation functions
 """
 import re
 
@@ -103,6 +104,7 @@ def get_metadata_section(file_lines, program_options):
     return metadata_file_lines
 
 
+
 def tokenize_metadata(metadata_file_lines, program_options):
     """
     Tokenize the metadata in the file into key/value pairs.
@@ -130,13 +132,14 @@ def check_metadata_tokens(metadata_tokens, mv_dict, program_options):
 
 
 
-def check_metadata_stringlist(metadata_stringlist, program_options):
+def check_metadata_stringlist(metadata_stringlist, specfile_data, program_options):
     """
     """
     output_passed = True
     metadata_tokens = tokenize_metadata(metadata_stringlist, program_options)
 
-    mv_dict = setup_mv_dict()
+    #mv_dict = setup_mv_dict()
+    mv_dict = setup_mv_dict_from_specification(specfile_data, program_options)
 
     try:
         check_metadata_tokens(metadata_tokens, mv_dict, program_options)
@@ -148,13 +151,14 @@ def check_metadata_stringlist(metadata_stringlist, program_options):
     return output_passed
 
 
-def check_metadata_in_file_lines(file_lines, program_options):
+
+def check_metadata_in_file_lines(file_lines, specfile_data, program_options):
     """
     """
     output_passed = True
     try:
         metadata_lines = get_metadata_section(file_lines, program_options)
-        output_passed = check_metadata_stringlist(metadata_lines, program_options)
+        output_passed = check_metadata_stringlist(metadata_lines, specfile_data, program_options)
 
     except EOFError, msg:
         print "ERROR:"
@@ -164,74 +168,132 @@ def check_metadata_in_file_lines(file_lines, program_options):
     return output_passed
 
 
-def check_metadata_in_file(filename, program_options):
+
+def check_metadata_in_file(filename, specfile_data, program_options):
     """
     """
-    print "Check metadata for '%s': "%(filename)
+    print_debug("Check metadata for '%s': "%(filename), program_options)
 
     output_passed = True
     file_lines = load_textfile_to_stringlist(filename, program_options)
-    output_passed = check_metadata_in_file_lines(file_lines, program_options)
+    output_passed = check_metadata_in_file_lines(file_lines, specfile_data, program_options)
     return output_passed
 
 
 
+def setup_mv_dict_from_specification(specfile_data, program_options=None):
+    """
+    Set up the rules for the checked dictionary from specfile data.
+    See load_metadata_specfile() for information on the required data structure.
+    """
+    print_debug("Configuring Restrictions", program_options)
 
-def setup_mv_dict():
-    """
-    Sets up the rules for the checked dictionary.
-    """
     mv_dict = checked_multivalue_dictionary()
-    mv_dict.add_restriction("Publish", restrictions=["yes", "no"])
-    mv_dict.add_restriction("Categories", restrictions=["Planning",
-                                                                        "Development",
-                                                                        "Performance",
-                                                                        "Reliability",
-                                                                        "Collaboration",
-                                                                        "Skills"])
-    mv_dict.add_restriction("Topics", restrictions=None)
-    mv_dict.add_restriction_dependency("Topics", "Categories", "Planning",
-                                                       restrictions=["Requirements",
-                                                                     "Design",
-                                                                     "Software interoperability"])
-    mv_dict.add_restriction_dependency("Topics", "Categories", "Development",
-                                                       restrictions=["Documentation",
-                                                                     "Version control",
-                                                                     "Configuration and builds",
-                                                                     "Deployment",
-                                                                     "Issue tracking",
-                                                                     "Refactoring",
-                                                                     "Software engineering",
-                                                                     "Development tools"])
 
-    mv_dict.add_restriction_dependency("Topics", "Categories", "Performance",
-                                                       restrictions=["High-performance computing",
-                                                                     "Performance at LCFs",
-                                                                     "Performance portability"])
-    mv_dict.add_restriction_dependency("Topics", "Categories", "Reliability",
-                                                       restrictions=["Testing",
-                                                                     "Continuous integration testing",
-                                                                     "Reproducibility",
-                                                                     "Debugging"])
-    mv_dict.add_restriction_dependency("Topics", "Categories", "Collaboration",
-                                                       restrictions=["Licensing",
-                                                                     "Strategies for more effective teams",
-                                                                     "Funding sources and programs",
-                                                                     "Projects and organizations",
-                                                                     "Software publishing and citation",
-                                                                     "Discussion forums, Q&A sites"])
-    mv_dict.add_restriction_dependency("Topics", "Categories", "Skills",
-                                                       restrictions=["Personal productivity and sustainability",
-                                                                     "Online learning"])
+    if not isinstance(specfile_data, list):
+        raise TypeError, "expected a list"
 
-    mv_dict.add_restriction("Tags", restrictions=None)
+    for entry in specfile_data:
 
-    mv_dict.add_restriction("Level", restrictions=[0,1,2,3])
+        if 'R' == entry['type']:
+            print_debug("ADD RESTRICTION     : '%s' CAN HAVE '%s'"%(entry['property_name'], entry['allowable_value']), program_options)
+            mv_dict.add_restriction(entry['property_name'], restrictions=entry['allowable_value'])
 
-    mv_dict.add_restriction("Prerequisites", restrictions=None)
+        if 'D' == entry['type']:
+            print_debug("ADD RESTRICTION DEP : '%s' CAN HAVE '%s' IF '%s' HAS '%s'"%(entry['property_name'],
+                                                  entry['allowable_value'],
+                                                  entry['dependency_name'],
+                                                  entry['dependency_value']), program_options)
 
-    mv_dict.add_restriction("Aggregate", restrictions=["none","base","subresource","stand-alone and subresource"])
+            mv_dict.add_restriction_dependency(property_name=entry['property_name'],
+                                               dependency_name = entry['dependency_name'],
+                                               dependency_value = entry['dependency_value'],
+                                               restrictions=entry['allowable_value'])
+
+        if 'N' == entry['type']:
+            print_debug("ADD RESTRICTION NONE: '%s'"%(entry['property_name']), program_options)
+            mv_dict.add_restriction(property_name=entry['property_name'], restrictions=None)
+
+    print_debug("%s"%(mv_dict), program_options)
 
     return mv_dict
+
+
+
+def load_metadata_specfile(filename, program_options=None):
+    """
+    Load the metadata spec file.
+
+    Returns: A list of dicts:
+    [
+      {'type': 'R', 'property_name': <string>,   'allowable_value':  <string>
+      }
+      {'type': 'D', 'property_name': <string>,   'allowable_value':  <string>
+                    'dependency_name': <string>, 'dependency_value': <string>
+      }
+      {'type': 'N', 'property_name': <string>
+      }
+    ]
+
+    Type R entries are simple restrictions in which keys with property_name may only have values
+    in the allowable_value list.
+    Type D entries have restrictions based on a dependency to another property.  dependency_name
+    contains the property_name this property has a dependency on.  Dependency_value is the value
+    of the other property that we're applying a restriction to for allowable_value.
+
+    For example:
+        property_name: FOO
+        dependency_name: BAR
+        dependency_value: baz
+        allowable_value: biff
+
+        Says that the property FOO can contain the value 'biff' if the value of BAR is 'baz'
+
+    """
+    specfile_data = []
+
+    ifp = open(filename, "r")
+
+    for line in ifp:
+        line = line.strip()
+
+        if len(line)==0:
+            continue
+
+        if line[0] == "#":
+            continue
+
+        line_type = line[0].upper()
+
+        if line_type not in ['R', 'D', 'N']:
+            raise ValueError, "Bad value in column 0.  Allowable values are 'R' or 'D' but I got a '%s'"%(line[0])
+
+        line = line[1:].strip()
+
+        line_contents = [x.strip() for x in line.split(',')]
+
+        print_debug("%s: %s"%(line_type, line_contents), program_options)
+
+        entry = { 'type': line_type }
+        if line_type == 'R':
+            entry['property_name']   = line_contents[0]
+            entry['allowable_value'] = line_contents[1]
+        elif line_type == 'D':
+            entry['property_name']    = line_contents[0]
+            entry['dependency_name']  = line_contents[1]
+            entry['dependency_value'] = line_contents[2]
+            entry['allowable_value']  = line_contents[3]
+        elif line_type == 'N':
+            entry['property_name'] = line_contents[0]
+        else:
+            raise ValueError
+
+        specfile_data.append(entry)
+
+    ifp.close()
+
+    return specfile_data
+
+
 
 

@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 """
-Checked multivalue dictionary
+Checked multivalue dictionary class
+
+This extends the checked_dictionary class, but expands the data store beyond <key>: <value> pairs
+into a <key>: <value list> storage.
+
+Dependency constraints will also support the 'union' of values in a dependent key.
+
 """
 from pprint import pformat
 from pprint import pprint

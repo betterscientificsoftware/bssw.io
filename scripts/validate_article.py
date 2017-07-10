@@ -1,5 +1,26 @@
 #!/usr/bin/env python
 """
+Validation driver to test the metadata of a single article.
+
+
+    Usage: validate_article.py [options]
+
+    Options:
+      -h, --help            show this help message and exit
+      -f PARAM_IFILENAME, --filename=PARAM_IFILENAME
+                            [REQUIRED] Input filename
+      -s PARAM_SPECFILENAME, --specfile=PARAM_SPECFILENAME
+                            [REQUIRED] Constraints Specification Filename
+      -d, --dry-run         [OPTIONAL] Dry Run. If enabled then don't modify any
+                            files. Default: False
+      -D, --debug           [OPTIONAL] Debug mode.  Default: False
+      -V, --verbose         [OPTIONAL] Verbose mode.  Default: False
+      --color=PARAM_COLOR_STDOUT
+                            [OPTIONAL] Colorize the output. Use --color=tty for
+                            ansi color.  Default: none
+
+Returns: 0 if passed, 1 if failed.
+
 """
 import os
 import sys
@@ -17,7 +38,7 @@ def process_program_options():
     parser.add_option("-D", "--debug",    action="store_true",       dest="param_log_debug",    default=False, help="[OPTIONAL] Debug mode.  Default: %default")
     parser.add_option("-V", "--verbose",  action="store_true",       dest="param_log_verbose",  default=False, help="[OPTIONAL] Verbose mode.  Default: %default")
     parser.add_option(      "--color",    dest="param_color_stdout", default=None,              choices=["tty"],
-                            help="Use --color=tty for ansi color.  Default: %default")
+                            help="[OPTIONAL] Colorize the output. Use --color=tty for ansi color.  Default: %default")
     (options, arguments) = parser.parse_args()
 
     # print out help if no arguments are provided
@@ -48,23 +69,35 @@ def process_program_options():
 
 
 
-
 def main():
     """
+    main function
     """
     program_options = process_program_options()
 
+    specfile_data = load_metadata_specfile(program_options.param_specfilename, program_options)
+
     passed = True
-    passed = check_metadata_in_file(program_options.param_ifilename, program_options)
+    passed = check_metadata_in_file(program_options.param_ifilename, specfile_data, program_options)
 
     s = "Unknown"
     if passed is True:
-        s = colorize("Green", "PASSED", apply_color=program_options.param_color_stdout)
+        s = colorize("Green", "PASSED", terminal_type=program_options.param_color_stdout)
     else:
-        s = colorize("Red", "FAILED", apply_color=program_options.param_color_stdout)
+        s = colorize("Red", "FAILED", terminal_type=program_options.param_color_stdout)
     print "Check of '%s' %s"%(program_options.param_ifilename, s)
+
+    return passed
 
 
 
 if __name__ == "__main__":
-    main()
+    passed = main()
+
+    rvalue = 0
+    if passed is not True:
+        rvalue = 1
+
+    exit(rvalue)
+
+
