@@ -39,11 +39,11 @@ echo ""
 
 echo "================================================================================"
 echo ""
-python validate_article.py -f test_file_001.md -s metadata_spec.txt -D --color=tty
+python validate_article.py -f test_data/test_file_001.md -s metadata_spec.txt --color=tty
 
 echo "================================================================================"
 echo ""
-python validate_article.py -f test_file_002.md -s metadata_spec.txt -D --color=tty
+python validate_article.py -f test_data/test_file_002.md -s metadata_spec.txt --color=tty
 
 #echo "================================================================================"
 #echo ""
