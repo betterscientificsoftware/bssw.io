@@ -71,6 +71,8 @@ def get_metadata_section(file_lines, program_options):
     """
     Extract the metadata section from the file.
     """
+    print_verbose("Extract metadata lines", program_options)
+
     metadata_start_token = "<!---"
     metadata_stop_token  = "--->"
     metadata_file_lines  = []
@@ -95,11 +97,13 @@ def get_metadata_section(file_lines, program_options):
             metadata_file_lines.append(line)
 
     if in_metadata:
-        msg = "Missing metadata section terminator '--->'."
+        msg = "Metadata section not found. Missing metadata section end token: '--->'."
         raise EOFError, msg
     if has_metadata is not True:
-        msg = "Metadata section not found.  Requires starting token: '<!---'."
+        msg = "Metadata section not found. Missing metadata section start token: '<!---'."
         raise EOFError, msg
+
+    print_verbose("Extract metadata lines - Complete", program_options)
 
     return metadata_file_lines
 
@@ -136,10 +140,14 @@ def check_metadata_stringlist(metadata_stringlist, specfile_data, program_option
     """
     """
     output_passed = True
-    metadata_tokens = tokenize_metadata(metadata_stringlist, program_options)
 
-    #mv_dict = setup_mv_dict()
+    # Fail if there's nothing in metadata...
+    if 0 == len(metadata_stringlist):
+        return False
+
     mv_dict = setup_mv_dict_from_specification(specfile_data, program_options)
+
+    metadata_tokens = tokenize_metadata(metadata_stringlist, program_options)
 
     try:
         check_metadata_tokens(metadata_tokens, mv_dict, program_options)
@@ -149,6 +157,22 @@ def check_metadata_stringlist(metadata_stringlist, specfile_data, program_option
         output_passed = False
 
     return output_passed
+
+
+
+def get_metadata_lines_from_file(filename, program_options):
+    """
+    Load a file and pull out the meta lines into a list of strings.
+    """
+    metadata_lines = []
+    file_lines = load_textfile_to_stringlist(filename, program_options)
+    try:
+        metadata_lines = get_metadata_section(file_lines, program_options)
+    except EOFError, msg:
+        print "ERROR:"
+        print msg,"\n"
+
+    return metadata_lines
 
 
 
@@ -250,6 +274,8 @@ def load_metadata_specfile(filename, program_options=None):
         Says that the property FOO can contain the value 'biff' if the value of BAR is 'baz'
 
     """
+    print_verbose("Load metadata spec file: %s"%(filename), program_options)
+
     specfile_data = []
 
     ifp = open(filename, "r")
@@ -291,6 +317,8 @@ def load_metadata_specfile(filename, program_options=None):
         specfile_data.append(entry)
 
     ifp.close()
+
+    print_verbose("Load metadata spec file: Complete", program_options)
 
     return specfile_data
 

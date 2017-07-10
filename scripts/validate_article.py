@@ -28,6 +28,7 @@ from optparse import OptionParser
 
 from colors import colorize
 from metadata_validation_core import *
+from utilities import *
 
 
 def process_program_options():
@@ -73,17 +74,28 @@ def main():
     """
     main function
     """
+    passed = True
+
     program_options = process_program_options()
 
     specfile_data = load_metadata_specfile(program_options.param_specfilename, program_options)
 
-    passed = True
-    passed = check_metadata_in_file(program_options.param_ifilename, specfile_data, program_options)
+    metadata_lines = get_metadata_lines_from_file(program_options.param_ifilename, program_options)
+
+    passed = check_metadata_stringlist(metadata_lines, specfile_data, program_options)
 
     s = "Unknown"
     if passed is True:
         s = colorize("Green", "PASSED", terminal_type=program_options.param_color_stdout)
     else:
+
+        if program_options.param_log_verbose is True and len(metadata_lines)>0:
+            print_verbose("===== metadata begin =====", program_options)
+            for line in metadata_lines:
+                print_verbose(line, program_options)
+            print_verbose("===== metadata end =====", program_options)
+
+
         s = colorize("Red", "FAILED", terminal_type=program_options.param_color_stdout)
     print "Check of '%s' %s"%(program_options.param_ifilename, s)
 
