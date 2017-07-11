@@ -28,14 +28,6 @@ R Publish, no
 
 
 ################################################################################
-# Categories
-R Categories,Planning
-R Categories,Development
-R Categories,Performance
-R Categories,Reliability
-R Categories,Collaboration
-R Categories,Skills
-
 
 
 ################################################################################
