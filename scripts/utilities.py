@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """
 Utilities
+- debug message printing wrappers.
 """
 from colors import colorize
 
@@ -17,7 +18,7 @@ def print_debug(text, program_options):
                             - 'param_log_debug' : True/False to control whether or not the message is printed.
 
     """
-    if program_options.param_log_debug is True:
+    if program_options is not None and program_options.param_log_debug is True:
         prefix_str = colorize("red", "[D] ", program_options.param_color_stdout)
         print "%s%s"%(prefix_str, text)
     return None
@@ -34,7 +35,7 @@ def print_verbose(text, program_options):
                             - 'param_log_debug' : True/False to control whether or not the message is printed.
 
     """
-    if program_options.param_log_verbose is True:
+    if program_options is not None and program_options.param_log_verbose is True:
         prefix_str = colorize("cyan", "[V] ", program_options.param_color_stdout)
         print "%s%s"%(prefix_str, text)
     return None
