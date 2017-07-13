@@ -21,8 +21,8 @@ For scenarios I and II, reproducibility requirements demand a detailed accountin
 
 <!---
 Publish: yes
-Categories: collaboration
-Topics: reproducibility
+Categories: Reliability
+Topics: Reliability, Reproducibility
 Tags:
 Level: 0
 Prerequisites: none
