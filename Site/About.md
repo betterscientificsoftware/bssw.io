@@ -6,13 +6,13 @@ The BSSw community is an international group of researchers, practitioners, and 
 
 We’re creating a clearinghouse to gather, discuss, and disseminate experiences, techniques, tools, and other resources to improve developer productivity and software sustainability for CSE.  Site users can find information on many scientific software topics and can propose to curate or create new content based on their own experiences.
 
-### Site Use Policies
+## Site Use Policies
 2 sentences about site use policies goes here + link to the [BSSw Policies](Policies.md).
 
-### BSSw Contributors
+## BSSw Contributors
 We encourage community contributions Better Scientific Software; see details at [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md).  See the list of current contributors [link to Contributors page -- coming from Parallactic?]
 
-### BSSw Editorial Team
+## BSSw Editorial Team
 
 David Bernholdt<br/>
 Oak Ridge National Laboratory<br/>
