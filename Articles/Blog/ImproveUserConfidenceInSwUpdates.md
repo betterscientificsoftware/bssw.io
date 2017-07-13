@@ -2,9 +2,9 @@
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
-#### Publication date: April 10, 2017
+#### Publication date: July 14, 2017
 
-Deck: 1-sentence explanation of blog article topic goes here -- brief and to the point.
+Informing users about what has changed is key to instilling confidence.
 
 When a customer updates to a new version of your software, changes are not just about new features, but often (perhaps mostly) include improvements to existing capabilities.
 
