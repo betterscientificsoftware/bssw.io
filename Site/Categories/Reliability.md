@@ -30,10 +30,8 @@ A form of testing *maximally* integrated with code commits.
 
 - **Reproducibility:**
 Any effort whose goal is to increase trustworthiness and reuse of computational capabilities and results and assure correctness.
-
-<!---
      - [What Is Reproducibility?](Topics/WhatIsReproducibility.md)
---->
+
 
 <!---
 Category order: 4
