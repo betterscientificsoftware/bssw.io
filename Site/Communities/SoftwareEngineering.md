@@ -4,16 +4,16 @@
 
 Background paragraph goes here.
 
-### Software engineering challenges in CSE
+## Software engineering challenges in CSE
 1 paragraph about challenges goes here.
 
-### Explore all the offerings of BSSw.io
+## Explore all the offerings of BSSw.io
 
 Get oriented with all of BSSw's offerings and search a wide range of resources on the BSSw Homepage.
 
 [Visit Homepage](../Homepage.md)
 
-### Learn how the software engineering community can contribute to BSSw.io
+## Learn how the software engineering community can contribute to BSSw.io
 
 We encourage software engineers to share ideas about X,Y,Z, and other concerns.  See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
 
