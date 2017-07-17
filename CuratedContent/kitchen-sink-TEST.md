@@ -2,7 +2,7 @@
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
-- [What is good documentation?](WhatIsGoodDocumentation.md)
+- [What is good documentation?](https://www.github.com/BSSWimageteam/bsswimagery/IDEAS-DocumentationHowToWriteGoodDocumentation-V0.1.pdf)
 - [How to write good documentation](HowToWriteGoodDocumentation.md)
 
 
