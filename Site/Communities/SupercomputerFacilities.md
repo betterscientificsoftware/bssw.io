@@ -18,17 +18,17 @@ There are a vast number of supercomputing facilities aruond the world, and it is
 - [National Energy Research Scientific Computing Center](http://www.nersc.gov/)
 - [Oak Ridge Leadership Computing Facility](https://www.olcf.ornl.gov/)
 
-### Software challenges for supercomputer facilities and their users
+## Software challenges for supercomputer facilities and their users
 
 Users bring many software challenges to the facilities where they carry out their computing.  However there are a number of particular challenges from the facility's perspective.  First of all, facilities field specific supercomputers.  They have an interest in seeing their users get the best possible performance out of their particular systems while recognizing that most of their users really want software solutioms that work well across the multiple facilities where they may do their computing.  As such, performance portability takes on a high profile.  Another particular challenge arises when facility staff are working with users to track down bugs or improve performance.  It is best for everyone, facility staff and users alike, when such issues can be quickly isolated and addressed, but not all users' software is easy to understand and work with.  Improvements in the quality (and existence) of documentation, software quality, and testing can greatly simplify and reduce the time required to find and fix bugs and performance issues.
 
-### Explore all the offerings of BSSw.io
+## Explore all the offerings of BSSw.io
 
 Get oriented with all of BSSw's offerings and search a wide range of resources on the BSSw Homepage.
 
 [Visit Homepage](../Homepage.md)
 
-### Learn how the supercomputing facilities and their users can  contribute to BSSw.io
+## Learn how the supercomputing facilities and their users can  contribute to BSSw.io
 
 We encourage facility staff and users to share ideas about addressing challenges performance portability, documentation, testing, and other concerns. See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
 
