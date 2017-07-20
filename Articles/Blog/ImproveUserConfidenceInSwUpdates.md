@@ -1,5 +1,8 @@
 # Improve user confidence in your software updates
 
+**Hero Image:**
+- <img src="https://s-media-cache-ak0.pinimg.com/736x/e2/59/71/e2597197db792223d23e75146f5c8678--sleeping-puppies-the-office.jpg">[Puppy at work]
+
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 #### Publication date: July 14, 2017
