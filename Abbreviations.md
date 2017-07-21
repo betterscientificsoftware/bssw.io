@@ -15,6 +15,6 @@ Note on process:  Need to inform Parallactic when changes are made to the abbrev
 - US: United States
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
 
-<!---
+<!--
 Publish: no
----!>
+--!>
