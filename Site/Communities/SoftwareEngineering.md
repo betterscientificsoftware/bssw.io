@@ -7,17 +7,15 @@ Background paragraph goes here.
 ## Software engineering challenges in CSE
 1 paragraph about challenges goes here.
 
-## Explore all the offerings of BSSw.io
+## Where do I go next?
+- **Explore** the resources below.
+- **Get oriented and investigate** all of BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Share your ideas and experiences** about multiscale and multiphysics coupling, refactoring, and other concerns. See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
 
-Get oriented with all of BSSw's offerings and search a wide range of resources on the BSSw Homepage.
-
-[Visit Homepage](../Homepage.md)
-
-## Learn how the software engineering community can contribute to BSSw.io
-
-We encourage software engineers to share ideas about X,Y,Z, and other concerns.  See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
-
-### Featured resources for the software engineering community
+<!--
+Featured resources for the Software Engineering community.
+Edit this list to change resources that appear on the front-end site.
+-->
 
 * [How to Write Good Documentation](../../CuratedContent/HowToWriteGoodDocumentation.md)
 
