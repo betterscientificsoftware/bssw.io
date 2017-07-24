@@ -22,7 +22,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 Publish: Yes
 Categories: development
 Topics: documentation
-Tags: HPC, documentation
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none

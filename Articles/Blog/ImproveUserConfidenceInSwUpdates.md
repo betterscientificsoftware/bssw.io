@@ -32,7 +32,7 @@ Some sources for behavior change:
 Publish: Yes
 Categories: reliability, development
 Topics: testing, reproducibility, documentation
-Tags: reliability, reproducibility, robustness, HPC, documentation
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
