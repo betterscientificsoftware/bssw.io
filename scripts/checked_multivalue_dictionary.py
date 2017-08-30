@@ -174,7 +174,7 @@ class checked_multivalue_dictionary(checked_dictionary):
             if not self.__in_list__(property_value, allowable_values, case_sensitive=False):
                 output = False
                 if throw_error_on_fail is True:
-                    msg  = " Invalid value for property '%s', given value '%s'.\n"%(property_name, property_value)
+                    msg  = "Invalid value for property '%s', given value '%s'.\n"%(property_name, property_value)
                     msg += ">>> Failed depenency check against property/value pair '%s'/'%s'\n"%(dep_key,dep_val)
                     msg += ">>> Allowable values are:\n"
                     allowable_values.sort()
