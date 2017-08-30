@@ -36,6 +36,14 @@ def load_textfile_to_stringlist(filename, program_options=None):
 
 
 
+def string_to_stringlist(text, program_options=None):
+    """
+    Convert a (possibly) multi-line string into a list of strings.
+    """
+    return text.splitlines()
+
+
+
 def extract_metadata_entries(file_lines, program_options):
     """
     Extract the metadata key/value properties from the file
@@ -138,8 +146,17 @@ def check_metadata_tokens(metadata_tokens, mv_dict, program_options):
 
 def check_metadata_stringlist(metadata_stringlist, specfile_data, program_options):
     """
+    Check the content of the metadata (a list of strings, one for each line)
+    and return True or False if the metadata content passed.
+
+    Returns (tuple):
+        bool: True if the metadata passed
+              False otherwise.
+        str : "" if test passed
+              reasons for failure if the test failed.
     """
     output_passed = True
+    output_info   = ""
 
     # Fail if there's nothing in metadata...
     if 0 == len(metadata_stringlist):
@@ -152,11 +169,10 @@ def check_metadata_stringlist(metadata_stringlist, specfile_data, program_option
     try:
         check_metadata_tokens(metadata_tokens, mv_dict, program_options)
     except ValueError, msg:
-        print "ERROR:"
-        print msg
         output_passed = False
+        output_info   = msg
 
-    return output_passed
+    return output_passed, output_info
 
 
 
@@ -182,14 +198,20 @@ def check_metadata_in_file_lines(file_lines, specfile_data, program_options):
     output_passed = True
     try:
         metadata_lines = get_metadata_section(file_lines, program_options)
-        output_passed = check_metadata_stringlist(metadata_lines, specfile_data, program_options)
+        output_passed,output_failmsg = check_metadata_stringlist(metadata_lines, specfile_data, program_options)
 
     except EOFError, msg:
         print "ERROR:"
         print msg
         output_passed = False
 
-    return output_passed
+    if program_options.param_log_verbose is True and len(metadata_lines)>0:
+        print_verbose("===== metadata begin =====", program_options)
+        for line in metadata_lines:
+            print_verbose(line, program_options)
+        print_verbose("===== metadata end =====", program_options)
+
+    return output_passed,output_failmsg
 
 
 
@@ -200,8 +222,9 @@ def check_metadata_in_file(filename, specfile_data, program_options):
 
     output_passed = True
     file_lines = load_textfile_to_stringlist(filename, program_options)
-    output_passed = check_metadata_in_file_lines(file_lines, specfile_data, program_options)
-    return output_passed
+    output_passed,output_failmsg = check_metadata_in_file_lines(file_lines, specfile_data, program_options)
+
+    return output_passed,output_failmsg
 
 
 

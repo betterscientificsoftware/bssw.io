@@ -70,7 +70,7 @@ def main():
         print "Check entry %d: "%(entry_idx),
         stringlist = to_stringlist(entry)
 
-        passed = check_metadata_in_file_lines(stringlist, program_options=None)
+        passed,failmsg = check_metadata_in_file_lines(stringlist, program_options=None)
 
         if passed is True:
             print "PASSED"
