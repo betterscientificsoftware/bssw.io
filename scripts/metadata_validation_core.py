@@ -36,6 +36,14 @@ def load_textfile_to_stringlist(filename, program_options=None):
 
 
 
+def string_to_stringlist(text, program_options=None):
+    """
+    Convert a (possibly) multi-line string into a list of strings.
+    """
+    return text.splitlines()
+
+
+
 def extract_metadata_entries(file_lines, program_options):
     """
     Extract the metadata key/value properties from the file
