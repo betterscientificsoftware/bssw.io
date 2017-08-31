@@ -202,16 +202,16 @@ def check_metadata_in_file_lines(file_lines, specfile_data, program_options):
         output_passed,output_failmsg = check_metadata_stringlist(metadata_lines, specfile_data, program_options)
 
     except EOFError, msg:
-        print "ERROR:"
-        print msg
         output_passed  = False
         output_failmsg = msg
+        print_debug("ERROR:", program_options)
+        print_debug(msg, program_options)
 
     if program_options.param_log_verbose is True and len(metadata_lines)>0:
-        print_verbose("===== metadata begin =====", program_options)
+        print_debug("===== metadata begin =====", program_options)
         for line in metadata_lines:
-            print_verbose(line, program_options)
-        print_verbose("===== metadata end =====", program_options)
+            print_debug(line, program_options)
+        print_debug("===== metadata end =====", program_options)
 
     return output_passed,output_failmsg
 

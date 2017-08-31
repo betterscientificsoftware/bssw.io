@@ -48,11 +48,11 @@ def process_program_options():
         options.param_log_verbose = True
 
     if options.param_log_debug:
-        print "Program Options:"
+        print_debug("Program Options:", options)
         for k,v in options.__dict__.items():
-            print "    %-20s: %s"%(k,v)
-        print "    %-20s: %s"%("working directory", os.path.dirname(os.path.realpath(__file__)))
-        print ""
+            print_debug("    %-20s: %s"%(k,v), options)
+        print_debug("    %-20s: %s"%("working directory", os.path.dirname(os.path.realpath(__file__))), options)
+        print_debug("",options)
 
     return options
 
@@ -104,10 +104,6 @@ class package_collection(object):
     def add(self, package_name, package_path):
         self.packages[package_name] = package(package_name,package_path)
 
-    def prettyPrint(self, indent=0):
-        for key in self.packages:
-            print "%s%-20s %s"%(" "*indent, self.packages[key].name(), self.packages[key].path())
-
     def iteritems(self):
         for key in self.packages:
             yield key, self.packages[key]
@@ -129,6 +125,22 @@ class package_collection(object):
                 break
 
         return output
+
+    def prettyString(self, indent=0):
+        """
+        Generate a string containing the contents in a nicely formatted look.
+        """
+        s = ""
+        for key in self.packages:
+            s += "%s%-20s %s\n"%(" "*indent, self.packages[key].name(), self.packages[key].path())
+        return s
+
+    def prettyPrint(self, indent=0):
+        """
+        Print contents in a visually nice way.
+        """
+        print self.prettyString(indent=indent)
+        return True
 
 
 
@@ -229,26 +241,26 @@ def main():
     print_verbose("Prepare BSSIO test package information.", program_options)
     print_verbose("-"*80, program_options)
     packages = gen_bssio_packages()
-    packages.prettyPrint(indent=2)
+    # packages.prettyPrint(indent=2)
+    print_verbose("Packages:\n%s"%(packages.prettyString(indent=2)), program_options)
 
     # Load specfile data
-    print_verbose("-"*80, program_options)
-    print_verbose("Load metadata specfile information", program_options)
-    print_verbose("-"*80, program_options)
+    print_message("-"*80, program_options)
+    print_message("Load metadata specfile information", program_options)
+    print_message("-"*80, program_options)
     specfile_data = load_metadata_specfile(program_options.param_specfilename, program_options)
 
     # load file into lines.
-    print_verbose("-"*80, program_options)
-    print_verbose("Load git diff file", program_options)
-    print_verbose("-"*80, program_options)
+    print_message("-"*80, program_options)
+    print_message("Load git diff file", program_options)
+    print_message("-"*80, program_options)
 
     file_lines = load_textfile_to_stringlist(program_options.param_ifilename, program_options)
     numstat_entry_list = prepare_git_numstat_lines(file_lines)
 
-    print_verbose("-"*80, program_options)
-    print_verbose("Inspect files", program_options)
-    print_verbose("-"*80, program_options)
-
+    print_message("-"*80, program_options)
+    print_message("Inspect files", program_options)
+    print_message("-"*80, program_options)
 
     all_tests_passed = True
 
@@ -260,10 +272,10 @@ def main():
     for entry in numstat_entry_list:
         summary_num_tested += 1
 
-        print_verbose("-", program_options)
-        print_verbose("Inspect File: [%s] %s"%(entry.gen_filename(), entry.gen_file_with_relpath()), program_options)
+        print_message("-", program_options)
+        print_message("Inspect File: [%s] %s"%(entry.gen_filename(), entry.gen_file_with_relpath()), program_options)
         print_debug  ("    abs file: %s"%(entry.gen_file_with_abspath()), program_options)
-        print_verbose("-", program_options)
+        print_message("-", program_options)
 
         pkg = packages.find_package(entry.filepath)
 
@@ -273,42 +285,37 @@ def main():
         # if the file 'fails' the check then we should print out the message and keep going but set
         # the overall pass/fail status to FAIL.
         if pkg is None:
-            print_verbose("Skipping: file is not in a designated package area.")
+            print_message("Skipping: file is not in a designated package area.")
             continue
 
-        print_verbose("Checking metadata ...", program_options)
-
-        #print ">>>", pkg
-        #print ">>>", entry
-        #print ">>>", entry.filepath
+        print_message("Checking metadata ...", program_options)
 
         passed,failmsg = check_metadata_in_file(entry.gen_file_with_relpath(), specfile_data, program_options)
 
         if passed is True:
-            print_verbose("Metadata verification PASSED", program_options)
+            print_message("Metadata verification PASSED", program_options)
             summary_num_passed += 1
         else:
-            print_verbose("Metadata verification FAILED", program_options)
+            print_message("Metadata verification FAILED", program_options)
             print_verbose("Reasons:\n%s"%(failmsg), program_options)
             summary_num_failed += 1
             summary_list_failed.append(entry.gen_file_with_relpath())
             all_tests_passed = False
 
-        print_verbose("-"*40, program_options)
+        print_message("-"*40, program_options)
 
-
-    print_verbose("Summary:", program_options)
-    print_verbose("  Num Tested: %d"%(summary_num_tested), program_options)
-    print_verbose("  Num Passed: %d"%(summary_num_passed), program_options)
-    print_verbose("  Num Failed: %d"%(summary_num_failed), program_options)
-    print_verbose("  Files failed:", program_options)
+    print_message("Summary:", program_options)
+    print_message("  Num Tested: %d"%(summary_num_tested), program_options)
+    print_message("  Num Passed: %d"%(summary_num_passed), program_options)
+    print_message("  Num Failed: %d"%(summary_num_failed), program_options)
+    print_message("  Files failed:", program_options)
     for e in summary_list_failed:
-        print_verbose("  - %s"%(e), program_options)
+        print_message("  - %s"%(e), program_options)
 
     if all_tests_passed is True:
-        print_verbose("Finished: All testsed files PASSED", program_options)
+        print_message("Finished: All testsed files PASSED", program_options)
     else:
-        print_verbose("Finished: Something FAILED", program_options)
+        print_message("Finished: Something FAILED", program_options)
 
     return all_tests_passed
 

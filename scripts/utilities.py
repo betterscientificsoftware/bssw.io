@@ -42,6 +42,23 @@ def print_verbose(text, program_options):
 
 
 
+def print_message(text, program_options):
+    """
+    Prints messages.
+
+    @param text: The message text to print out.
+    @param program_options: A program options object (from optparse.OptionParser),
+                            or an object that has the following members:
+                            - 'param_color_stdout' : what kind of colorization is allowed (currently 'tty' or None are allowed).
+                            - 'param_log_debug' : True/False to control whether or not the message is printed.
+
+    """
+    prefix_str = colorize("green", "[L] ", program_options.param_color_stdout)
+    print "%s%s"%(prefix_str, text)
+    return None
+
+
+
 def load_textfile_to_stringlist(filename, program_options=None):
     """
     Load a text file and return it as a list of strings and strip
@@ -65,7 +82,6 @@ def load_textfile_to_stringlist(filename, program_options=None):
 
     print_verbose("Load input file: Loaded %d lines"%(len(output)), program_options)
     print_verbose("Load input file: Complete", program_options)
-
 
     return output
 
