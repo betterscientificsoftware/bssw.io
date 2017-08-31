@@ -195,7 +195,8 @@ def get_metadata_lines_from_file(filename, program_options):
 def check_metadata_in_file_lines(file_lines, specfile_data, program_options):
     """
     """
-    output_passed = True
+    output_passed  = True
+    metadata_lines = []
     try:
         metadata_lines = get_metadata_section(file_lines, program_options)
         output_passed,output_failmsg = check_metadata_stringlist(metadata_lines, specfile_data, program_options)
@@ -203,7 +204,8 @@ def check_metadata_in_file_lines(file_lines, specfile_data, program_options):
     except EOFError, msg:
         print "ERROR:"
         print msg
-        output_passed = False
+        output_passed  = False
+        output_failmsg = msg
 
     if program_options.param_log_verbose is True and len(metadata_lines)>0:
         print_verbose("===== metadata begin =====", program_options)
