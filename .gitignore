@@ -4,5 +4,6 @@
 ._.DS_Store
 *.pyc
 *.pyo
-
+___*
+.vscode
 
