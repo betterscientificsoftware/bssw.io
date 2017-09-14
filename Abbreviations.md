@@ -1,7 +1,7 @@
 ### Abbreviations Used on the BSSw Site
 
-- BS
-- BSSw
+
+- BSSw: Better Scientific Software
 - CSE: Computational Science and Engineering
 - HPC: High-Performance Computing
 - LCF: Leadership Computing Facility
