@@ -1,9 +1,15 @@
 # BSSw Announcements for 2017
 
 Announcement:
+- [BSSw site under construction; not yet complete!](../../Articles/Blog/BSSwSiteUnderConstruction.md)
+- Display dates: 09/26/2017 - 11/16/2017
+
+<!--- 
+Announcement:
 - [Blog post: Improve user confidence in your software updates](../../Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
 - Display dates: 04/12/2017 - 04/16/2017
 - Display dates: 04/29/2017 - 10/04/2017
+--->
 
 <!--- 
 Announcement:
