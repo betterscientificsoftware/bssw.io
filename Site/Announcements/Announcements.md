@@ -1,7 +1,7 @@
 # BSSw Announcements for 2017
 
 Announcement:
-- [Pending BSSw Site Launch November 15, 2017](../../Articles/Blog/PendingBSSwSiteLaunch.md)
+- [Pending BSSw Site Launch November 15, 2017](../../Articles/Blog/BSSwSiteUnderConstruction.md)
 - Display dates: 09/26/2017 - 11/16/2017
 
 <!--- 
