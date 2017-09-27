@@ -14,7 +14,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 Publish: Yes
 Categories: reliability
 Topics: testing, reproducibility
-Tags: reliability, reproducibility
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none

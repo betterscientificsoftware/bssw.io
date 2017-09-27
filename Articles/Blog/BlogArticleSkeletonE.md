@@ -14,7 +14,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 Publish: Yes
 Categories: planning, performance
 Topics: requirements, performance portability
-Tags: HPC, libraries
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none

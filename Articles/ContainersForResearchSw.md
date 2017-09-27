@@ -68,7 +68,7 @@ Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now als
 Publish: yes
 Categories: development
 Topics: development, deployment
-Tags: docker, containers, HPC
+Tags: bssw-article
 Level: 2
 Prerequisites: default
 Aggregate: none

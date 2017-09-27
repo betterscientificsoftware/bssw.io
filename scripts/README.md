@@ -1,3 +1,0 @@
-This directory contains scripts.
-
-

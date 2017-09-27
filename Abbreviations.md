@@ -1,12 +1,11 @@
 ### Abbreviations Used on the BSSw Site
 
-<!---
-Note on process:  Need to inform Parallactic when changes are made to the abbreviations, as this currently requires manual update for front-end.
----!>
 
+- BSSw
 - CSE: Computational Science and Engineering
 - HPC: High-Performance Computing
 - LCF: Leadership Computing Facility
+- LCFs: Leadership Computing Facilities
 - SC: Supercomputing
 - SC17: SC17 Conference
 - SIAM: Society for Industrial and Applied Mathematics
@@ -14,7 +13,8 @@ Note on process:  Need to inform Parallactic when changes are made to the abbrev
 - UK: United Kingdom
 - US: United States
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
+- ACM: Association for Computing Machinery
 
-<!---
+<!--
 Publish: no
----!>
+--!>

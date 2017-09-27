@@ -2,7 +2,7 @@
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
-- [What is good documentation?](WhatIsGoodDocumentation.md)
+- [What is good documentation?](https://www.github.com/BSSWimageteam/bsswimagery/IDEAS-DocumentationHowToWriteGoodDocumentation-V0.1.pdf)
 - [How to write good documentation](HowToWriteGoodDocumentation.md)
 
 
@@ -92,6 +92,12 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' class='page lightbox' />
+
+<img src='https://s-media-cache-ak0.pinimg.com/736x/92/9d/3d/929d3d9f76f406b5ac6020323d2d32dc--pretty-cats-beautiful-cats.jpg' class='page lightbox' />
+
+<img src='http://www.communitycatspodcast.com/wp-content/uploads/2014/11/Cat_Content.jpg' class='page lightbox' />
+
+<img src='https://s-media-cache-ak0.pinimg.com/736x/07/c3/45/07c345d0eca11d0bc97c894751ba1b46--ginger-kitten-ginger-cats.jpg' class='page lightbox' />
 
 
 

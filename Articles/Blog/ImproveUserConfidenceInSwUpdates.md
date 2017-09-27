@@ -1,10 +1,13 @@
 # Improve user confidence in your software updates
 
+**Hero Image:**
+- <img src="https://s-media-cache-ak0.pinimg.com/736x/e2/59/71/e2597197db792223d23e75146f5c8678--sleeping-puppies-the-office.jpg">[Puppy at work]
+
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
-#### Publication date: April 10, 2017
+#### Publication date: July 14, 2017
 
-Deck: 1-sentence explanation of blog article topic goes here -- brief and to the point.
+Informing users about what has changed is key to instilling confidence.
 
 When a customer updates to a new version of your software, changes are not just about new features, but often (perhaps mostly) include improvements to existing capabilities.
 
@@ -29,7 +32,7 @@ Some sources for behavior change:
 Publish: Yes
 Categories: reliability, development
 Topics: testing, reproducibility, documentation
-Tags: reliability, reproducibility, robustness, HPC, documentation
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
