@@ -48,6 +48,6 @@ Any `.md` file written in [GitHub Markdown](https://guides.github.com/features/m
 #### Style Guide
 See the [BSSW Style Guide](StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
 
-<!---
+<!--
 Publish: no
----!>
+--!>
