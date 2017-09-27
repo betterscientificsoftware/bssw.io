@@ -15,6 +15,6 @@
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
 - ACM: Association for Computing Machinery
 
-<!---
+<!--
 Publish: no
----!>
+--!>
