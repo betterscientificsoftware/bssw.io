@@ -4,8 +4,7 @@
 
 **Hero Image:**
 
-- [The quick brown fox caption text jumps over the lazy dog.]<img src='https://github.com/BSSWimageteam/bsswimagery/raw/master/Blog_hero_test_1176_432.png' />
-
+- [The debut of Better Scientific Software.]<img src='https://github.com/BSSWimageteam/bsswimagery/raw/master/bss_blogImg.png' />
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
 
