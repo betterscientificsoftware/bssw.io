@@ -1,5 +1,5 @@
 
-# Pending BSSw Site Launch November 10, 2017
+# Pending BSSw Site Launch In November 2017
 
 
 **Hero Image:**
