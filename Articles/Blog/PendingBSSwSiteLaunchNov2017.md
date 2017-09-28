@@ -1,11 +1,6 @@
 
 # Pending BSSw Site Launch In November 2017
 
-
-**Hero Image:**
-
-- [The debut of Better Scientific Software.]<img src='https://github.com/BSSWimageteam/bsswimagery/raw/master/bss_blogImg.png' />
-
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
 
 #### Publication date: Sept 27, 2017
