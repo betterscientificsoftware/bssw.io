@@ -1,6 +1,8 @@
-# Test 003 FAIL
+# test_003_fail
 
-This test should fail the metadata check because the metadata section is missing the termination comment `--->`.
+This test will 'pass' the acceptance check even though there is a metadata section...
+the metadata comment is never 'closed off', so the website should not actually publish
+this since it, theoretically, wouldn't have the comment to work with.
 
 <!---
 Publish: yes
