@@ -1,6 +1,6 @@
 # The Community of Supercomputer Facilities and their Users
 
-The majority of computational scientists and engineers access high-performance computing resources through one or more centralized supercomputing facilities, which serve many users.
+Many computational scientists and engineers access high-performance computing resources through one or more centralized supercomputing facilities, which serve many users.
 
 Supercomputers are large, expensive devices requiring significant infrastructure and support staff to operated effectively.  As such, they are often purchased and operated as centralized facilities with size and scope typically related to their funding sources.  This may range from departmental-scale to institutional, state or regional, and national or international.
 
@@ -10,7 +10,7 @@ Access to supercomputer facilities is handled in different ways. Many facilities
 
 Facilities often host users with a broad range of experience and sophistication in CSE and HPC.  Many facilities offer training opportunities aimed at helping users (and prospective users) improved their skills and knowledge, thereby making more effective use of the resources of the facility.  Some facilities have staff dedicated to providing various levels of support and assistance to users, with the same goal.
 
-There are a vast number of supercomputing facilities aruond the world, and it is impossible to list them all, but some of those BWWs contributors are associated with include:
+There are a vast number of supercomputing facilities around the world, and it is impossible to list them all, but some of used by BSSw contributors include:
 <!---
        These could point to the facility pages proper, or to a BSSw "sub-community" page that makes more specific connections between that facility and BSSw content
 --->
