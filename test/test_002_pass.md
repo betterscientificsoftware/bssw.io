@@ -3,6 +3,7 @@
 This test should PASS the autotester because it has a properly formatted metadata section.
 
 
+<!--- ============================================================================= --->
 <!---
 Publish: yes
 Categories: Planning, Reliability
@@ -12,5 +13,4 @@ Level: 2
 Prerequisites: defaults
 Aggregate: subresource
 --->
-
 
