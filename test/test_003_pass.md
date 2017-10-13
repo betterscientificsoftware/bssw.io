@@ -1,4 +1,4 @@
-# test_003_fail
+# test\_003\_pass
 
 This test will 'pass' the acceptance check even though there is a metadata section...
 the metadata comment is never 'closed off', so the website should not actually publish
