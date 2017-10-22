@@ -19,7 +19,7 @@ Performance portablity is often a significant concern for users of multiple faci
 ## Next steps
 - **Explore** the resources below.
 - **Get oriented and investigate** all of BSSw's offerings [BSSw Homepage](../Homepage.md).
-- **Share your ideas and experiences** about X,Y,Z, and other concerns. See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
+- **Share your ideas and experiences** about making software better across facilities, and how to more productively engage with facility staff. See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
 
 <!--
 Featured resources for the Community of Supercomputer Facilities and their Users
