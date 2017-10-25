@@ -9,9 +9,6 @@ We’re creating a clearinghouse to gather, discuss, and disseminate experiences
 ## Site Use Policies
 2 sentences about site use policies goes here + link to the [BSSw Policies](Policies.md).
 
-## BSSw Contributors
-We encourage community contributions Better Scientific Software; see details at [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md).  See the list of current contributors [link to Contributors page -- coming from Parallactic?]
-
 ## BSSw Editorial Team
 
 David Bernholdt<br/>
