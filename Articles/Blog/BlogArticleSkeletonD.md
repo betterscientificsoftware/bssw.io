@@ -10,8 +10,10 @@ A few paragraphs for the blog article go here.  xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx.
 
+Unpublishing an existing article as part of a test of the RSS system.  Nothing shoudl happen at this point, but later, when I republish, it should generate a new RSS item.  We hope.
+
 <!--
-Publish: Yes
+Publish: No
 Categories: planning
 Topics: requirements
 Tags: bssw-blog-article
