@@ -11,10 +11,10 @@ A few paragraphs for the blog article go here.  xxxx xxxx xxxxx xxxx xxxx xxxxx 
 xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx.
 
 This is a brand new article.  It should generate an RSS feed.
-Unpublishing
+Unpublishing. Republishing.  This should generate an RSS item.
 
 <!---
-Publish: No
+Publish: Yes
 Categories: planning, performance
 Topics: requirements, performance portability
 Tags: bssw-blog-article
