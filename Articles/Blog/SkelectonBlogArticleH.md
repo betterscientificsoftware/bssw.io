@@ -12,9 +12,10 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 This is a brand new article.  It should generate an RSS feed.
 Unpublishing. Republishing.  This should generate an RSS item.
+Unpublishing again.  When republishing, I need to remember to change the publication date!
 
 <!---
-Publish: Yes
+Publish: No
 Categories: planning, performance
 Topics: requirements, performance portability
 Tags: bssw-blog-article
