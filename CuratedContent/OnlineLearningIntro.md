@@ -2,6 +2,8 @@
 
 What is online learning? You'll see many definitions describing online learning as learning or education that is delivered via the internet or personal computer. However, your online learning experience can be much more. For example, each of these are variants of online learning offering different levels of interactivity from pointing and clicking, or viewing videos, to hands-on experimentation:
 
+Examples:
+
 * e-Learning (web-based multimedia courseware including videos, podcasts, etc.)
 * Mobile learning or m-learning (includes tablet or mobile performance support, apps, audiocasts, e-books, etc.)
 * Video conferencing or telepresence (online lectures, webcasts, webinars, tutorials, etc.)
