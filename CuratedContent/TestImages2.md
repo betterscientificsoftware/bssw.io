@@ -11,9 +11,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <br>
+<br>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-sw-interactions.jpg' class='page' />
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<br>
 <br>
 <img src='https://jenkins.io/images/226px-Jenkins_logo.svg.png' alt="Jenkins Logo" class='logo' />
 
