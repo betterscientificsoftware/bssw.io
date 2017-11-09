@@ -15,19 +15,23 @@ The process of finding and fixing defects in software.
 
 - **Testing:**
 Testing is the process of assuring that a software product is meeting it requirements.
-
+<!---
     - [What is Testing?](Topics/WhatIsTesting.md)
     - [What Is CSE Software Testing](../CuratedContent/WhatIsCseSwTesting.md)
     - [How To Improve Testing for CSE Software](../CuratedContent/HowToImproveTestingForCseSw.md)
+--->
 
 - **Continuous integration testing:**
 A form of testing *maximally* integrated with code commits.
+<!---
     - [What Is Continuous Integration Testing?](Topics/WhatIsContinuousIntegrationTesting.md)
+--->
 
 - **Reproducibility:**
 Any effort whose goal is to increase trustworthiness and reuse of computational capabilities and results and assure correctness.
+<!---
      - [What Is Reproducibility?](Topics/WhatIsReproducibility.md)
-
+ --->
 
 <!---
 Category order: 4
