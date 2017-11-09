@@ -1,3 +1,3 @@
 # BSSw Blog
 
-The Better Scientific Software (BSSw) project welcomes insightful and informative articles from community members on a variety of topics.
+Better Scientific Software (BSSw) presents articles from expert community members on a topics related to software productivity and sustainability.
