@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 <!---
-Publish: yes
+Publish: no
 Categories: collaboration
 Topics: licensing
 Tags: bssw-internal

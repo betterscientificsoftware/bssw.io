@@ -13,7 +13,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 This is a modification to a published article.  It should *not* generate an RSS item.
 
 <!---
-Publish: Yes
+Publish: No
 Categories: planning, performance
 Topics: requirements, performance portability
 Tags: bssw-blog-article
