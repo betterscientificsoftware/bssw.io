@@ -19,7 +19,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [How to Write Good Documentation](../../CuratedContent/HowToWriteGoodDocumentation.md)
 
-* [High Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
+* [High-Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
 
 * [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
 
