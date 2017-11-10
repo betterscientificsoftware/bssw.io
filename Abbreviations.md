@@ -15,6 +15,8 @@
 - UK: United Kingdom
 - US: United States
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
+- WSSSPE5.1: WSSSPE event
+- WSSSPE5.2: WSSSPE event
 - ACM: Association for Computing Machinery
 
 <!--
