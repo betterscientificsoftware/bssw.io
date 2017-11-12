@@ -13,8 +13,8 @@ This event focuses on sharing best practices, tools, and technologies among scie
 
 <!---
 Publish: yes
-Categories: planning, crosscutting
-Topics: software engineering
+Categories: development, Collaboration
+Topics: software engineering, projects and organizations
 Tags: conference
 Level: 2
 Prerequisites: default
