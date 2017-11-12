@@ -1,4 +1,6 @@
-# BSSw Fellowship Program (Under construction)
+# BSSw Fellowship Program 
+
+## Under construction!!
 
 The Better Scientific Software (BSSw) Fellowship Program gives recognition and opportunity to leaders and advocates of improved scientific software.  
 
