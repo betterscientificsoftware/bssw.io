@@ -2,7 +2,7 @@
 
 - Dates: November 12bb, 2017
 - Location: SC17, Denver, CO
-- Event Website: http://sc17.supercomputing.org/session/?sess=sess419
+- Event Website: http://sc17.supercomputing.org/session/?sess=sess419, https://se4science.github.io/SE-CODESE17/
 
 This is a workshop at the SC17 conference.
 
