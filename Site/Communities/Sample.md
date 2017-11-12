@@ -8,8 +8,8 @@ Background paragraph goes here.
 
 ## Next steps
 - **Explore** the resources below.
-- **Get oriented and investigate** all of BSSw's offerings [BSSw Homepage](../Homepage.md).
-- **Share your ideas and experiences** about X,Y,Z, and other concerns. See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
+- **Investigate** BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Share your ideas and experiences** about X,Y,Z, and other concerns. See [What to Contribute](../WhatToContribute.md) and [How to Contribute](../HowToContribute.md).
 
 <!--
 Featured resources for the XXX community.
