@@ -4,7 +4,9 @@ We thank all BSSw contributors for sharing information and perspectives on issue
 
 Below is an alphabetized list of contributors.
 
-[alphabetical list of site contributors goes here, including name, institution(s), link to GitHub profile.]
+<!---
+Input contributors on front-end
+--->
 
 ## Contribute to BSSw
 
