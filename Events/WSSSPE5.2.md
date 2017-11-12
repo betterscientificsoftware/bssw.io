@@ -5,7 +5,7 @@
 - Location: Auckland, NZ
 - Event Website: http://wssspe.researchcomputing.org.uk/wssspe5/
 
-Deck goes here.  Explain relevance of event to BSSw community in 1 sentence.
+WSSSPE promotes sustainable research software by addressing challenges related to the full lifecycle of research software through shared learning and community action.
 
 **Description:**  Progress in scientific research is dependent on the quality and accessibility of research software at all levels. It is critical to address many new challenges related to the development, deployment, maintenance, and sustainability of open-use research software: the software upon which specific research results rely. Open-use software means that the software is widely accessible (whether open source, shareware, or commercial). Research software means that the choice of software is essential to specific research results; using different software could produce different results.
 
@@ -15,10 +15,12 @@ WSSSPE5.2 aims to facilitate the creation of a regional community focussed on su
 
 WSSSPE5.2 is held in conjuction with the [2017 IEEE International Conference on eScience](http://escience2017.org.nz).
 
+#### Contributed by [Dan Katz](https://github.com/danielskatz)
+
 <!---
 Publish: yes
-Categories: planning, crosscutting
-Topics: software engineering
+Categories: development, collaboration
+Topics: software engineering, projects and organizations
 Tags: conference
 Level: 2
 Prerequisites: default

@@ -6,6 +6,9 @@
 - Location: Atlanta, GA
 - Event Website: https://www.siam.org/meetings/cse17/
 
+
+The CSE17 conference features a number of events related to software productivity and sustainability, as listed below.
+
 **Description:** Computational Science and Engineering (CSE) complement theory and experiment as a critical component of scientific discovery. CSE is indispensable for leading edge investigation and engineering design in a vast number of industrial sectors, including for example, aerospace, automotive, biological, chemical, and semiconductor technologies that all rely increasingly on advanced modeling and simulation. CSE also contributes to policy and decisions relating to human health, resources, transportation, and defense. Finally, in many new areas such as medicine, the life sciences, management and marketing (e.g. data- and stream mining), and finance, techniques and algorithms from CSE are of growing importance.
 
 CSE is naturally interdisciplinary. Its goals concern understanding and analyzing complex systems, predicting their behavior, and optimizing processes and designs. CSE thus grows out of physical applications, while depending on computer architecture and software, and having at its core powerful algorithms. At the frontiers of CSE remain many open problems and challenges, including the verification, validation, and uncertainty quantification of computational models; the analysis and assimilation of large and complex data sets, including techniques for visualization and animation; and the design of flexible CSE software.
@@ -55,8 +58,8 @@ In this presentation we discuss elements that impact the effectiveness of CSE ef
 
 <!---
 Publish: yes
-Categories: crosscutting, individual productivity, planning, collaboration, reliability
-Topics: improving productivity and sustainability, [import from subresources]
+Categories: collaboration, skills, reliability
+Topics: strategies for more effective teams, [import from subresources]
 Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim, [import from subresources]
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
