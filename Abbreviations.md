@@ -7,6 +7,8 @@
 - FORCE11: FORCE11 Software Citation Implementation Working Group
 - HPC: High-Performance Computing
 - IDEAS: Interoperable Design of Extreme-scale Application Software
+- IDE: Integrated Development Environment
+- IDEs: ntegrated Development Environments
 - LCF: Leadership Computing Facility
 - LCFs: Leadership Computing Facilities
 - SC: Supercomputing

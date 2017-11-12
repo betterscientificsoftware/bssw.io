@@ -107,11 +107,11 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 - [ReadTheDocs](DocumentationTools.ReadTheDocs.md)
 - [Sphinx](DocumentationTools.Sphinx.md)
 
-#### Contributed by [Damon McDougall](https://github.com/dmcdougall) and [Clara Raubertas](https://github.com/clararaubertas)
+#### Contributed by [Clara Raubertas](https://github.com/clararaubertas)
 
 
 <!---
-Publish: no
+Publish: yes
 Categories: development
 Topics: [import from subresources]
 Tags: [import from subresources]

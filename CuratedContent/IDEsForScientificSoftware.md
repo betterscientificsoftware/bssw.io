@@ -7,12 +7,12 @@ engineering professionals are actively involved in the development of scientific
 
 When choosing an IDE for scientific software development, some important considerations include:
 
-- Provides support for multiple languages, in particular, C/C++, Fortran, and Python.
-- Does not interfere with existing build practices and toolchains.
-- Integrates simply and smoothly with existing tools and systems.
-- Is easily customizable to suit individual or team requirements.
-- Works on a variety of platforms (Windows, Mac, Linux).
-- Allows remote development.
+1. Provides support for multiple languages, in particular, C/C++, Fortran, and Python.
+2. Does not interfere with existing build practices and toolchains.
+3. Integrates simply and smoothly with existing tools and systems.
+4. Is easily customizable to suit individual or team requirements.
+5. Works on a variety of platforms (Windows, Mac, Linux).
+6. Allows remote development.
 
 The following sections describe IDEs that meet one or more of the requirements for scientific code development.
 
