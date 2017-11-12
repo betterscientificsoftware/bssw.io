@@ -1,6 +1,6 @@
 # The 2017 International Workshop on Software Engineering for High Performance Computing in Computational and Data-Enabled Science and Engineering (SE-CoDeSE 2017) (SC17 Workshop)
 
-- Dates: November 12bb, 2017
+- Dates: November 12, 2017
 - Location: SC17, Denver, CO
 - Event Website: http://sc17.supercomputing.org/session/?sess=sess419, https://se4science.github.io/SE-CODESE17/
 
