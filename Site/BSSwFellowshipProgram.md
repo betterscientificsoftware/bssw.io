@@ -11,7 +11,7 @@ A BSSW Fellow receives funds for one year.  We encourage BSSw Fellows to continu
 ## Become a BSSw Fellow
 Have something to share with the scientific software community?  Have a passion to learn and teach others about better software?  Apply for a BSSw Fellowship.  Help the community and receive funding and recognition for your efforts.  
 
-# Who Should Apply
+## Who Should Apply
 
 Applicants must be affiliated with a US-based institution that is able to receive funding from the US Department of Energy.  Typically this include US government labs, US universities and US-based corporations.  
 
@@ -21,7 +21,7 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly impact the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows, and promote better scientific software in their community.
 
-# Timeline
+## Timeline
 
 - December 1, 2017: Fellowship application process opens.
 - December 8, 2017: Fellowship webinar, Q&A.
