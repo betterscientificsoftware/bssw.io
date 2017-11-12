@@ -9,7 +9,7 @@ Tests typically come in the form of additional software that executes the softwa
 - Unit testing: Fine-grain testing of individual funtions for correct behavior.
 - Functional testing: Testing of the software across of set of functions as a proxy for how a user would use the product.
 
-#### Contributed by [Michael Heroux](https://github.com/maherou)
+#### Contributed by [Mike Heroux](https://github.com/maherou)
 
 <!---
 Publish: yes

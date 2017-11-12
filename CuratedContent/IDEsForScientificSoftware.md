@@ -189,7 +189,7 @@ The following tables show which IDEs support important features for scientific c
 
 1. Current version not supported
 
-#### Contributed by [Greg Watson](https://github.com/jarrah42")
+#### Contributed by [Greg Watson] (https://github.com/jarrah42 "Greg Watson")
 
 <!---
 Publish: yes
