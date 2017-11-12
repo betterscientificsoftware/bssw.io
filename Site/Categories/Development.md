@@ -29,7 +29,7 @@ Management of changes to files.  Also known as revision control, source control,
 --->
 
 - **Configuration and builds:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Installing scientific software from source requires a system for setting up (configuring) software to compile and link (build) the code according to the user's specific platform and needs.
 
 <!---
     - [What Is Software Configuration?](../CuratedContent/WhatIsSwConfiguration.md)

@@ -39,7 +39,7 @@
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
 <!---
-Publish: yes
+Publish: no
 Categories: collaboration
 Topics: software publishing and citation
 Tags: journal
