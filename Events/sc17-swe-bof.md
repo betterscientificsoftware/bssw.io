@@ -1,4 +1,4 @@
-# Software Engineering and Reuse in Computational Science and Engineering (Birds of a Feather)
+# Software Engineering and Reuse in Computational Science and Engineering (SC17 Birds of a Feather)
 
 - Dates: November 14, 2017
 - Location: SC17, Denver, CO
