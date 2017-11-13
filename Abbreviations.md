@@ -2,6 +2,7 @@
 
 
 - BSSw: Better Scientific Software
+- CoDeSe: Computational and Eata-enabled Science and Engineering 
 - CSE: Computational Science and Engineering
 - CSE17: 2017 SIAM Conference on Computational Science and Engineering
 - FORCE11: FORCE11 Software Citation Implementation Working Group
