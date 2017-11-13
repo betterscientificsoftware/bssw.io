@@ -12,7 +12,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 <!---
 Publish: No
-Categories: reliability, development
+Categories: skills
 Topics: testing, reproducibility, documentation
 Tags: bssw-blog-article
 Level: 2

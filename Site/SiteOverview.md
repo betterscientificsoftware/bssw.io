@@ -8,7 +8,7 @@ We are raising awareness of the importance of good software practices to scienti
 The site provides instructional materials, WhatIs and HowTo documents (concise characterizations and best practices), and a community-driven collection of resources on software development and software engineering, all in an accessible CSE context.  
 
 ## Who Contributes and Why?
-We welcome contributions from anyone who would like to share information on software issues for CSE.  Goals are to help CSE researchers work more effectively  within their own projects and  to increase collaboration, leverage, recognition, and impact — all with the long-term goal of advancing scientific discoveries.  Please see [What to Contribute](../WhatToContribute.md) and [How to Contribute](../HowToContribute.md).
+We welcome contributions from anyone who would like to share information on software issues for CSE.  Goals are to help CSE researchers work more effectively  within their own projects and to increase collaboration, leverage, recognition, and impact — all with the long-term goal of advancing scientific discoveries.  Please see [ContributeToBSSw](ContributeToBSSw.md).
 
 <!---
 BSSw Site: Get Oriented: Site Overview

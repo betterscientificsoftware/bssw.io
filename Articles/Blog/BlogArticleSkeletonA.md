@@ -21,7 +21,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 <!---
 Publish: No
 Categories: development
-Topics: documentation
+Topics: skills
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
