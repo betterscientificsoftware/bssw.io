@@ -14,14 +14,14 @@ Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx x
 --->
 
 - **Performance at leadership computing facilities (LCFs):**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Factors that must be considered when developing software for the leadership-class supercomputers, among the fastest computers in the world.  
 
 <!---
     - [What is Performance at Leadership Computing Facilities?](Topics/WhatIsPerfAtLCFs.md)
 --->
 
 - **Performance portability:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Software exhibiting similar performance across multiple platforms, with the time to solution reflecting efficient utilization computational resources on each platform.
 
 <!---
     - [What is Performance Portability for CSE Applications?](../CuratedContent/WhatIsPerfPortabilityForCseApps.md)

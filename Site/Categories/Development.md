@@ -2,8 +2,7 @@
 
 **Description:**  Aspects of scientific software development that should be systematically addressed in order to improve software productivity, quality, and sustainability.
 
-**Overview:** XXXXX  xx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx xx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
-what policies that need to be articulated.
+**Overview:** Software development is a process of writing, maintaining, and extending source code to create software products. In a broad sense, software development includes all that is involved between the conception of the software through to the final manifestation of the software. 
 
 **Topics:**
 
