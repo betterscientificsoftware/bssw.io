@@ -4,7 +4,7 @@
 
 The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](WhatIsProductivity.md) and [software sustainability](WhatIsSustainability.md).  See details on [How To Contribute](HowtoContribute.md).
 
-Please follow these guidelines for naming resources and files.   Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSW site.
+Please follow these guidelines for naming resources and files.   Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site.
 
 #### Resource Name:
 - Brief, essential words only, nothing extra
@@ -23,22 +23,17 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 
 #### Resource Description:
 - Concise paragraph explaining resource from the perspective of the CSE community
-- Use links to WhatIs and HowTo docs when appropriate for background info
-- Image file (e.g., logo) - optional (encouraged when this exists)
+- Image file (e.g., logo, relevant diagram, science image) - optional (encouraged when this exists)
 
 #### Contributor(s):
 - Name(s) of contributor(s), hyperlinked to GitHub profile(s)
 
-#### Footer: Add the following at the bottom of each page:
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
 #### Metadata: Include metadata as formatted comments at the end of the file
 - **Publish**: Publish on the BSSw front-end site?
 - **Categories**: Specify 1 or more categories (primary display via BSSw website)
-- **Topics**: Specify 1 or more topics (visible filters via BSSW website)
-- **Tags**: Specify additional tags as keywords for searches (optional)
+- **Topics**: Specify 1 or more topics (visible filters via BSSwe website)
+- **Tags**: Specify additional tags as keywords for searches (optional -- not currently used on front-end website)
 - **Level**: Specify level of content
-- **Prerequisites**:  Specify any assumed knowledge on the BSSW site (usually Level 0 and Level 1 BSSw docs)
 - **Aggregate**: Optional info for aggregating content to define a more complex resource
 
 Each aspect of metadata is described below.
@@ -95,10 +90,9 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Online learning
 
 #### Tags: Optional additional keywords for searches
-- Add/revise topics as needed (important terms from curated content; aim for comprehensive coverage to facilitate searches)
-- [updated tags coming soon]
+- currently not used on front-end website
 
-#### Levels: Specify level of detail and depth of content
+#### Level: Specify level of detail and depth of content
 - **Level 0**:  BSSw WhatIs document
 - **Level 1**:  BSSw HowTo document (or equivalent level of detail)
 - **Level 2**:  More detailed content, beginner or intermediate levels
