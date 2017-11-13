@@ -2,7 +2,7 @@
 
 Announcement:
 - [Pending BSSw Site Launch at SC17 2017](../../Articles/Blog/PendingBSSwSiteLaunchNov2017.md)
-- Display dates: 09/27/2017 - 11/13/2017
+- Display dates: 09/27/2017 - 11/14/2017
 
 <!---
 Announcement:
