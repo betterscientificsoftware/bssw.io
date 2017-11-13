@@ -2,7 +2,7 @@
 
 #### Background
 
-The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](WhatIsProductivity.md) and [software sustainability](WhatIsSustainability.md).  See details on [How To Contribute](HowtoContribute.md).
+The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). See details on [How To Contribute](HowToContribute.md).
 
 Please follow these guidelines for naming resources and files.   Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site.
 
