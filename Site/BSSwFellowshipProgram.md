@@ -1,6 +1,6 @@
 # BSSw Fellowship Program 
 
-The Better Scientific Software (BSSw) Fellowship Program gives recognition and funding to leaders and advocates of improved scientific software.  
+The Better Scientific Software (BSSw) Fellowship Program gives recognition and funding to leaders and advocates of high-quality scientific software.  
 
 ## About Our Fellows Program
 
