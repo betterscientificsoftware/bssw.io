@@ -5,7 +5,7 @@ Half-page description of the topic goes here, in order to provide basic informat
 #### Contributed by [FirstName LastName](https://github.com/your-githubID)
 
 <!---
-Publish: yes
+Publish: no
 Categories: category-goes-here
 Topics: topic-goes-here
 Tags:

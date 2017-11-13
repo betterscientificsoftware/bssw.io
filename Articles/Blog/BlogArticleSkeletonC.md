@@ -11,10 +11,10 @@ A few paragraphs for the blog article go here.  xxxx xxxx xxxxx xxxx xxxx xxxxx 
 xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx.
 
 <!---
-Publish: Yes
+Publish: No
 Categories: reliability
-Topics: testing, reproducibility
-Tags: reliability, reproducibility
+Topics: testing
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none

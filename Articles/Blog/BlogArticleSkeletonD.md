@@ -10,12 +10,14 @@ A few paragraphs for the blog article go here.  xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx.
 
-<!---
-Publish: Yes
+Unpublishing an existing article as part of a test of the RSS system.  Nothing shoudl happen at this point, but later, when I republish, it should generate a new RSS item.  We hope.
+
+<!--
+Publish: No
 Categories: planning
 Topics: requirements
-Tags: HPC, libraries
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
---->
+-->

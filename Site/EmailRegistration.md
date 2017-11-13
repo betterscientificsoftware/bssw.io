@@ -1,5 +1,3 @@
 # Receive our Email Digest
 
-Info about registering for BSSw email goes here.
-
-Paragraph with more info xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx.
+Better Scientific Software will send periodic updates about new material, including events, blog articles, and other resources.  If you would like to receive this email digest, please register below.  

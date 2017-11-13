@@ -6,17 +6,15 @@ Background paragraph goes here.
 ## Software challenges for XXX
 1 paragraph about challenges goes here.
 
-## Explore all the offerings of BSSw.io
+## Next steps
+- **Explore** the resources below.
+- **Investigate** BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Share your ideas and experiences** about X,Y,Z, and other concerns. See [What to Contribute](../WhatToContribute.md) and [How to Contribute](../HowToContribute.md).
 
-Get oriented with all of BSSw's offerings and search a wide range of resources on the BSSw Homepage.
-
-[Visit Homepage](../Homepage.md)
-
-## Learn how the scientific libraries community can contribute to BSSw.io
-
-We encourage XXX to share ideas about X,Y,Z, and other concerns.  See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
-
-### Featured resources for the XXX community
+<!--
+Featured resources for the XXX community.
+Edit this list to change resources that appear on the front-end site.
+-->
 
 * [How to Write Good Documentation](../../CuratedContent/HowToWriteGoodDocumentation.md)
 

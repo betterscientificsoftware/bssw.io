@@ -11,10 +11,10 @@ A few paragraphs for the blog article go here.  xxxx xxxx xxxxx xxxx xxxx xxxxx 
 xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx.
 
 <!---
-Publish: Yes
-Categories: reliability, development
-Topics: testing, reproducibility, documentation
-Tags: reliability, reproducibility, robustness, HPC, documentation
+Publish: No
+Categories: development
+Topics: documentation
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none

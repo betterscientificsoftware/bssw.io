@@ -10,11 +10,13 @@ A few paragraphs for the blog article go here.  xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx.
 
+I am just making a small update to this page to test the RSS system.  This is not a new article, it is just an update.
+
 <!---
-Publish: Yes
+Publish: No
 Categories: planning, performance
 Topics: requirements, performance portability
-Tags: HPC, libraries
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none

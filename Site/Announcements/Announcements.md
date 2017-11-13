@@ -1,11 +1,22 @@
 # BSSw Announcements for 2017
 
 Announcement:
+- [Seeking contributors to Better Scientific Software ... Join us!](../../Articles/Blog/BSSwSiteLaunch2017.md)
+- Display dates: 11/12/2017 - 12/01/2017
+
+<!---
+- [Pending BSSw Site Launch at SC17 2017](../../Articles/Blog/PendingBSSwSiteLaunchNov2017.md)
+- Display dates: 09/27/2017 - 11/12/2017
+--->
+
+<!---
+Announcement:
 - [Blog post: Improve user confidence in your software updates](../../Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
 - Display dates: 04/12/2017 - 04/16/2017
 - Display dates: 04/29/2017 - 10/04/2017
+--->
 
-<!--- 
+<!---
 Announcement:
 - [Scientific Software Days Conference, April 27-28, 2017](../../Events/Conference.ScientificSoftwareDays17.md)
 - Display dates: 04/19/2017 - 10/28/2017
