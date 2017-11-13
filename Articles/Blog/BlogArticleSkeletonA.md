@@ -20,8 +20,8 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 <!---
 Publish: No
-Categories: skills
-Topics: online learning
+Categories: reliability
+Topics: testing
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

@@ -1,6 +1,5 @@
 # Seeking BSSw Contributors
 
-**Hero Image:**
 [The debut of Better Scientific Software.]<img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png' />
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
