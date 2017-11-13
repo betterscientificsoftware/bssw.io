@@ -1,4 +1,4 @@
-# Seeking contributors to Better Scientific Software ... Join us!
+# BSSw site launch at SC17 ... Contribute to Better Scientific Software!
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png' />[Better Scientific Software Topics]
 
