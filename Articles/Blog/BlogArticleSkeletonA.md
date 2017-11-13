@@ -20,8 +20,8 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 
 <!---
 Publish: No
-Categories: development
-Topics: skills
+Categories: skills
+Topics: online learning
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

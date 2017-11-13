@@ -13,7 +13,7 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 <!---
 Publish: No
 Categories: skills
-Topics: testing, reproducibility
+Topics: online learning
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
