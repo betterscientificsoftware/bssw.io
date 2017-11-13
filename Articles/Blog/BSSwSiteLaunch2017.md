@@ -1,4 +1,4 @@
-# Seeking BSSw Contributors
+# Seeking contributors to Better Scientific Software ... Join us!
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png' />[Better Scientific Software Topics]
 
