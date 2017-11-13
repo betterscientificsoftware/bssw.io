@@ -7,7 +7,7 @@
 **Topics:**
 
 - **High-performance computing (HPC):**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+The practice of aggregating computing power in a way that delivers much higher performance than one could get out of a typical desktop computer or workstation in order to solve large problems, often in science and engineering.
 
 <!---
     - [What Is High-Performance Computing?](Topics/WhatIsHighPerfComputing.md)

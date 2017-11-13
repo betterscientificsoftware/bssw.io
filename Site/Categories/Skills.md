@@ -2,12 +2,12 @@
 
 **Description:**  Ways to improve productivity and sustainability from an individual perspective.
 
-**Overview:** [Intro text goes here.]  
+**Overview:** A variety of factors contribute to individual effectiveness in working with scientific software. We provide information on issues such as managing time, customizing environments, and learning new skills.
 
 **Topics:**
 
 - **Personal productivity and sustainability:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Information on factors that impact how effectively and we work, both now and looking toward the future.
 
 <!---
     - [What Is Personal Productivity and Sustainability?](Topics/WhatIsPersonalProductivityAndSustainability.md)
