@@ -21,7 +21,7 @@ Types of content can include:
 
 The exact scope of relevant content will evolve as we learn about community interests.  However, presently we believe the following guidelines should be useful:
 #### In-scope Content
-- General productivity and sustainability that overlaps with common challenges faced in the CSE software community.
+- General issues in productivity and sustainability that overlap with common challenges faced in the CSE software community.
 - General tools for productivity and sustainability that can be widely used by CSE developers.
 - Characterization of challenges and solutions that may be particularly valuable to the CSE community.
 
