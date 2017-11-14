@@ -48,6 +48,7 @@ After undergoing review for content and formatting, resources in `.md` files wri
 #### Style Guide
 See the [BSSw Style Guide](StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
 
+
 <!---
 Publish: No
 ---!>
