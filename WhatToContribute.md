@@ -6,9 +6,9 @@ The [betterscientificsoftware.github.io](https://github.com/betterscientificsoft
 
 Developer productivity and software sustainability efforts for computational science and engineering (CSE) benefit from communicating the experiences, reasoned insights, and curated content from a broad spectrum of community members.
 
-#### Content Categories
+#### Content Types
 
-Content categories can include:
+Types of content can include:
 - **"What Is" document:** A document that defines terms and concepts in a particular topic area.  For example, the article could describe terms and concepts related to automated testing.  This kind of document is often helpful as background for "How To" documents that describe testing processes.
 - **"How To" document:** A document that describes a process for improving productivity and sustainability.
 - **Original experience:** An original article (brevity is appreciated) to inform the CSE community about how to improve developer productivity and software sustainability.
