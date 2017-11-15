@@ -1,4 +1,4 @@
-# How to Publish CSE Software
+# Publishing CSE Software
 
 CSE software is used to generate many significant results
 in the scientific literature.
