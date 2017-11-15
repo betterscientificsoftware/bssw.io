@@ -65,7 +65,7 @@ piece of scientific literature that can be cited by later works:
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
 <!---
-Publish: no
+Publish: yes
 Categories: collaboration
 Topics: software publishing and citation
 Tags: journal, service
