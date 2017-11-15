@@ -62,11 +62,11 @@ piece of scientific literature that can be cited by later works:
    data, while also acting as a hosting/distribution platform for others
    to access that data.
 
-#### Contributed by [Dan Ibanez](https://github.com/ibaned)
+#### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez")
 
 <!---
 Publish: yes
-Categories: collaboration
+Categories: Collaboration
 Topics: software publishing and citation
 Tags: journal, service
 Level: 2
