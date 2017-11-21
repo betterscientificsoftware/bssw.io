@@ -12,6 +12,7 @@
 - IDEs: ntegrated Development Environments
 - LCF: Leadership Computing Facility
 - LCFs: Leadership Computing Facilities
+- PSIP: Productivity and Sustainability Improvement Planning
 - SC: Supercomputing
 - SC17: SC17 Conference
 - SIAM: Society for Industrial and Applied Mathematics
@@ -19,8 +20,8 @@
 - UK: United Kingdom
 - US: United States
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
-- WSSSPE5.1: WSSSPE event
-- WSSSPE5.2: WSSSPE event
+- WSSSPE 5.1: WSSSPE event
+- WSSSPE 5.2: WSSSPE event
 - ACM: Association for Computing Machinery
 
 <!--
