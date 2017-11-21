@@ -16,7 +16,7 @@ We need your contributions to build the BSSw site into a vibrant resource, with 
 As part of the webinar series on [Best Practices in HPC Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars), we're hosting a webinar on December 6, 2017 (1-2 pm ET) to introduce the vision for the site and explain more details on how to contribute.  The webinar is free but [registration](https://www.eventbrite.com/e/better-scientific-software-webinar-tickets-39613498039) is required.  
 
 #### BSSw Fellowship Program
-Also, we're launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-program) to give recognition and funding to leaders and advocates of improved scientific software.  We're hosting a webinar on December 11, 2017 for Q&A; applications are due by January 5, 2018.  
+Also, we're launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-program) to give recognition and funding to leaders and advocates of improved scientific software.  We're hosting a webinar on December 12, 2017 for Q&A; applications are due by January 5, 2018.  
 
 <!---
 Publish: Yes
