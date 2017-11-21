@@ -10,18 +10,17 @@ These science questions raise a number of software challenges.  First, legacy co
 ## Where do I go next?
 - **Explore** the resources below.
 - **Investigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
-- **Share your ideas and experiences** about multiscale and multiphysics coupling, refactoring, and other concerns. See [What to Contribute](../WhatToContribute.md) and [How to Contribute](../HowToContribute.md).
 
 <!--
 Featured resources for the Environmental System Science Community.
 Edit this list to change resources that appear on the front-end site.
 -->
 
-* [How to Write Good Documentation](../../CuratedContent/HowToWriteGoodDocumentation.md)
-
-* [High-Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
+* [Planning for Better Software: How to Use PSIP Tools](../../CuratedContent/PlanningUsingPSIPs.md)
 
 * [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
+
+* [High-Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
 
 <!---
 Publish: yes
