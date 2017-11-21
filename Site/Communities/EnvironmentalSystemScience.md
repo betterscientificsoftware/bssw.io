@@ -18,9 +18,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [Planning for Better Software: How to Use PSIP Tools](../../CuratedContent/PlanningUsingPSIPs.md)
 
-* [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
-
-* [High-Performing Teams at Google](../../CuratedContent/GoogleHiPerfTeams.md)
+* [Test Driven Development in Scientific Software: A Survey](../../TestDrivenDevptInScientificSwASurvey.md)
 
 <!---
 Publish: yes
