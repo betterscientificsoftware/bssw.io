@@ -27,7 +27,7 @@ Beyond this categorical requirement, we are looking for applications from people
 ## Timeline
 
 - December 1, 2017: Fellowship application process opens.
-- December 12, 2017, 4:00 - 5:00 pm EST: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details.
+- December 12, 2017, 4:30 - 5:30 pm EST: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details.
 - January 5, 2018: Application deadline, before midnight, PST.
 - January 12, 2018: Notification of 2018 BSSw Fellows.
 - February 6 - 8, 2018: Fellows announced at DOE ECP Annual Meeting in Knoxville, TN.
