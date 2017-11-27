@@ -28,7 +28,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [What Is Performance Portability for CSE Applications?](../../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
 
-* [How T\to Enable Performance Portability for CSE Applications](../../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
+* [How to Enable Performance Portability for CSE Applications](../../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
 
 * [What Is Good Documentation](../../CuratedContent/WhatIsGoodDocumentation.md)
 
