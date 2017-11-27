@@ -8,7 +8,9 @@ The idea of *high-performance computers*, or *supercomputers*, began to emerge i
 
 Early supercomputers tended to rely on custom processors that were typically faster than the general-purpose processors of the day; and the processors and other aspects of the system often included special architectural features not present in general-purpose computers, such as vector processors and solid-state disc drives. (Many unique features of supercomputers eventually work their way into commodity systems, as technologies improve and prices drop.) More recently, limits related to semiconductor physics as well as cost have dictated that most modern supercomputers be based primarily on commodity components, with the extra computational capability coming from parallelism.  Today's supercomputers typically comprise tens to hundreds or even many thousands of individual *nodes* integrated via a high-performance network.  Each individual node resembles a personal computer or server.  
 
+<!---
 [More details](HpcMoreDetails.md)
+--->
 
 ### Why Is HPC So Important?
 
