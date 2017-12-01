@@ -1,8 +1,13 @@
 # BSSw Announcements for 2017
 
 Announcement:
+- [Applications Open For New BSSw Fellowship Program ... Q&A Webinar On Dec 12, 2017](../../Articles/Blog/BSSwFellowshipApplicationsOpen.md)
+- Display dates: 12/01/2017 - 12/18/2017
+
+<!---
 - [Seeking contributors to Better Scientific Software ... Join us!](../../Articles/Blog/BSSwSiteLaunch2017.md)
-- Display dates: 11/12/2017 - 12/01/2017
+- Display dates: 11/12/2017 - 11/30/2017
+--->
 
 <!---
 - [Pending BSSw Site Launch at SC17 2017](../../Articles/Blog/PendingBSSwSiteLaunchNov2017.md)
