@@ -1,8 +1,7 @@
 # BSSw site launch at SC17 ... Contribute to Better Scientific Software!
-
 <img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png' />[Better Scientific Software Topics]
 
-#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") and [David Bernholdt](https://github.com/bernhold "Lois Curfman McInnes GitHub Profile")
+#### Contributed by [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
 
 #### Publication date: Nov 13, 2017
 
