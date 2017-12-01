@@ -1,7 +1,7 @@
 # BSSw Announcements for 2017
 
 Announcement:
-- [Applications Open For New BSSw Fellowship Program ... Q&A Webinar On Dec 12, 2017](../../Articles/Blog/BSSwFellowshipApplicationsOpen.md)
+- [Applications open for new BSSw Fellowship Program ... Q&A Webinar on Dec 12, 2017](../../Articles/Blog/BSSwFellowshipApplicationsOpen.md)
 - Display dates: 12/01/2017 - 12/18/2017
 
 <!---
