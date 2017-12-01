@@ -24,8 +24,7 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly benefit the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows and promote better scientific software in their community.
 
-## [Application Form]
-(https://docs.google.com/forms/d/e/1FAIpQLSfC4bvRO-hm9WcmX0Q-WhM7l0X0V9cLDvKtLToQlRhw3UikjQ/viewform)
+## [BSSw Fellowship Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfC4bvRO-hm9WcmX0Q-WhM7l0X0V9cLDvKtLToQlRhw3UikjQ/viewform)
 
 ## Timeline
 
@@ -35,3 +34,6 @@ Beyond this categorical requirement, we are looking for applications from people
 - January 12, 2018: Notification of 2018 BSSw Fellows.
 - February 6 - 8, 2018: Fellows announced at DOE ECP Annual Meeting in Knoxville, TN.
 - February 1, 2018 -- January 31, 2019: Period of performance for 2018 BSSw Fellows  
+
+## Questions
+If you have any questions, please contact us at <info@bssw.io>.
