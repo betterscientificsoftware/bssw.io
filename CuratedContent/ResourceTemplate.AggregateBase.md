@@ -30,6 +30,8 @@ Subtopic resource files:
 - Paste text into your new document, as a starting point. Then edit as you like.
 - Continue following instructions in [How To Contribute](../HowToContribute.md).
 
+To incorporate images, see the guidelines in the [Better Scientific Software images repository](https://github.com/betterscientificsoftware/images/blob/master/README.md).
+
 See also [ResourceTemplate.AggregateSubresource](ResourceTemplate.AggregateSubresource.md).
 
 A template for a new resource that can be handled effectively in a single file, rather than as an aggregate, is:
@@ -78,10 +80,10 @@ Metadata: Include metadata as formatted comments at the end of the file
 
     Publish: Publish on the BSSw front-end site?
     Categories: Specify 1 or more categories (primary display via BSSW website)
-    Topics: Specify 1 or more topics (visible filters via BSSW website)
+    Topics: Specify 1 or more topics (visible filters via BSSw website)
     Tags: Specify additional tags as keywords for searches (optional)
     Level: Specify level of content
-    Prerequisites: Specify any assumed knowledge on the BSSW site (usually Level 0 and Level 1 BSSW docs)
+    Prerequisites: Specify any assumed knowledge on the BSSw site (usually Level 0 and Level 1 BSSW docs)
     Aggregate: Optional info for aggregating content to define a more complex resource
 
 Each aspect of metadata is described below.

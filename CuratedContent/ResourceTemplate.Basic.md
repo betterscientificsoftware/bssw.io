@@ -11,7 +11,7 @@ While this template is appropriate for most new resources on the site, we also p
 - Paste text into your new document, as a starting point.  Then edit as you like.
 - Continue following instructions in [How To Contribute](../HowToContribute.md).
 
-For more information on better scientific software, go to the [Better Scientific Software main page](https://bssw.io).
+To incorporate images, see the guidelines in the [Better Scientific Software images repository](https://github.com/betterscientificsoftware/images/blob/master/README.md).
 
 <!---
 Publish: no
