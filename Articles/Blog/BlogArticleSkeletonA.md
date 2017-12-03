@@ -1,10 +1,7 @@
 # Insightful blog article on topic A
 
-
 **Hero Image:**
-
-[The quick brown fox caption text jumps over the lazy dog.]<img src='https://raw.githubusercontent.com/BSSWimageteam/bsswimagery/master/Blog_hero_test_1176_432.png ' />
-
+  <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
 #### Contributed by [Person A](https://github.com/PersonA "Person A GitHub Profile")
 
 #### Publication date: May 11, 2017
