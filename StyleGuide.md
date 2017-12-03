@@ -4,7 +4,7 @@
 
 The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). Also see information on [How to Contribute](HowToContribute.md).
 
-See details on [What to Contribute](WhatToContribute.md).  Please place your new file in one of the following folders on the site, as specified according to the type of content you are creating:
+See details on [What to Contribute](WhatToContribute.md).  Please place your new file in one of the following folders on the site, according to the type of content you are creating:
 - Articles
 - Articles/Blog
 - CuratedContent

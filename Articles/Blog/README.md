@@ -1,4 +1,4 @@
-### BSSw Blog Folder
+### BSSw Blogs
 
 As explained in [What To Contribute](../../WhatToContribute.md), this folder contains Blog articles:
 

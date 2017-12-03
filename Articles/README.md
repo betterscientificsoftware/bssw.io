@@ -1,6 +1,4 @@
-### BSSw Articles Folder
-
-### Article Types
+### BSSw Articles
 
 As explained in [What To Contribute](../WhatToContribute.md), the BSSw Articles folder contains the following types of content:
 
