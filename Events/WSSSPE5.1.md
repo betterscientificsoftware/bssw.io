@@ -1,5 +1,5 @@
 
-# WSSSPE5.1
+# WSSSPE 5.1
 
 - Dates: September 6, 2017
 - Location: Manchester, UK

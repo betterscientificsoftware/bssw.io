@@ -9,13 +9,19 @@ Developer productivity and software sustainability efforts for computational sci
 #### Content Types
 
 Types of content can include:
-- **"What Is" document:** A document that defines terms and concepts in a particular topic area.  For example, the article could describe terms and concepts related to automated testing.  This kind of document is often helpful as background for "How To" documents that describe testing processes.
-- **"How To" document:** A document that describes a process for improving productivity and sustainability.
-- **Original experience:** An original article (brevity is appreciated) to inform the CSE community about how to improve developer productivity and software sustainability.
-- **Blog article:** An original article in the form of a blog of 250 - 500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
-- **Curated links:** A brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content.
-- **Event:** A brief description of an event relevant to better scientific software. 
 
+- **"What Is" document:** A document that defines terms and concepts in a particular topic area.  For example, the article could describe terms and concepts related to automated testing.  This kind of document is often helpful as background for "How To" documents that describe testing processes.
+  - folder: [Articles](Articles/README.md)
+- **"How To" document:** A document that describes a process for improving productivity and sustainability.
+  - folder: [Articles](Articles/README.md)
+- **Original experience:** An original article (brevity is appreciated) to inform the CSE community about how to improve developer productivity and software sustainability.
+  - folder: [Articles](Articles/README.md)
+- **Blog article:** An original article in the form of a blog of 250 - 500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
+  - folder: [Articles/Blog](Articles/Blog/README.md)
+- **Curated links:** A brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content.
+  - folder: [CuratedContent](CuratedContent/README.md)
+- **Event:** A brief description of an event (such as a workshop, conference, or tutorial) relevant to better scientific software.
+  - folder: [Events](Events/README.md)
 
 #### Content Scope
 

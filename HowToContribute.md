@@ -16,14 +16,17 @@ After undergoing review for content and formatting, resources in `.md` files wri
   1. If you have site permissions, you can assign the issue to yourself or someone else.
   1. Assign appropriate labels. Common choices are:
     - `blog` - Tell us what is on your mind about Better Scientific Software.  Keep it short and to the point.
-    - `curated` link - Did you find an article you want to share with the BSSW community?  Describe it and include a link.
+    - `curated` link - Did you find an article you want to share with the BSSw community?  Describe it and include a link.
     - `howto` - Did you write instructions for how to accomplish a useful task? Write a How To.
     - `short` article - Like a blog, but more fact than experience.
     - `whatis` - A What Is describes terms and concepts, especially useful as background for a How To.
+    - `event` - A workshop, tutorial, conference, or other event with activities related to software productivity and sustainability.
   1. Assign issue to a milestone, if you want to commit to a deadline.
   1. Create your contribution!
 
 ### Create Your Contribution
+
+The document [What To Contribute](WhatToContribute.md) provides guidance about where to put the file for your new contribution in the BSSw Github repo, depending on the type of content you are creating (article, curated content, event).
 
 #### Preferred Approach: Web based
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).

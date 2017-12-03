@@ -1,10 +1,16 @@
-### Style Guide: Content for Better Scientific Software (BSSW) Site
+### Style Guide: Content for Better Scientific Software (BSSw) Site
 
 #### Background
 
-The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). See details on [How To Contribute](HowToContribute.md).
+The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). Also see information on [How to Contribute](HowToContribute.md).
 
-Please follow these guidelines for naming resources and files.   Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site.
+See details on [What to Contribute](WhatToContribute.md).  Please place your new file in one of the following folders on the site, as specified according to the type of content you are creating:
+- Articles
+- Articles/Blog
+- CuratedContent
+- Events
+
+Follow the guidelines below for naming resources and files.  Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site.
 
 #### Resource Name:
 - Brief, essential words only, nothing extra
@@ -20,6 +26,7 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
         - Hpc = HPC = High-Performance Computing
         - Perf = Performance
         - Sw = Software
+        - etc.
 
 #### Resource Description:
 - Concise paragraph explaining resource from the perspective of the CSE community
@@ -31,7 +38,7 @@ Please follow these guidelines for naming resources and files.   Be sure to incl
 #### Metadata: Include metadata as formatted comments at the end of the file
 - **Publish**: Publish on the BSSw front-end site?
 - **Categories**: Specify 1 or more categories (primary display via BSSw website)
-- **Topics**: Specify 1 or more topics (visible filters via BSSwe website)
+- **Topics**: Specify 1 or more topics (visible filters via BSSw website)
 - **Tags**: Specify additional tags as keywords for searches (optional -- not currently used on front-end website)
 - **Level**: Specify level of content
 - **Aggregate**: Optional info for aggregating content to define a more complex resource

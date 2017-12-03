@@ -1,5 +1,5 @@
 
-# WSSSPE5.2
+# WSSSPE 5.2
 
 - Dates: October 24, 2017
 - Location: Auckland, NZ
