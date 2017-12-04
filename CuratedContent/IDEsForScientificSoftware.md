@@ -1,4 +1,4 @@
-# Integrated Development Environments (IDEs) for Scientific Sofware Development
+# Integrated Development Environments (IDEs) for Scientific Software Development
 
 IDEs have been used extensively for software development for many years, and in most software engineering domains
 they are considered best practice. However, their uptake for scientific software development and, in particular, high-performance computing has been much slower. Nevertheless, IDEs are widely used, especially where software
@@ -62,7 +62,7 @@ The latest version of Eclipse PTP Neon.3 can be downloaded from [here](https://w
 
 ### [Netbeans IDE](https://netbeans.org)
 
-Netbeans IDE is the offcial IDE for Java 8 and, like Eclipse, is extensible via a plugin mechansim. Plugins are available to support for C, C++, and Fortran development. Features include the following:
+Netbeans IDE is the official IDE for Java 8 and, like Eclipse, is extensible via a plugin mechanism. Plugins are available to support  C, C++, and Fortran development. Features include the following:
 
 * C and C++ projects
 * C and C++ editor
