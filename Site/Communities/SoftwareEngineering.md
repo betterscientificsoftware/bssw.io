@@ -10,7 +10,6 @@ Use of CSE software in making important decisions based on large-scale simulatio
 ## Where do I go next?
 - **Explore** the resources below.
 - **Investigate** all of BSSw's offerings [BSSw Homepage](../Homepage.md).
-- **Share your ideas and experiences** about multiscale and multiphysics coupling, refactoring, and other concerns. See [What to Contribute](../WhatToContribute.md) and [How to Contribute](../HowToContribute.md).
 
 <!--
 Featured resources for the Software Engineering community.
