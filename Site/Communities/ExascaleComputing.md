@@ -19,7 +19,6 @@ The transition of applications to exploit massive on-node concurrency, the requi
 
 ## Where do I go next?
 - **Investigate** the BSSw's offerings. See the [BSSw Homepage](../Homepage.md)
-- **Share your ideas and experiences** about refactoring, performance portability, and other concerns. See [What to Contribute](../WhatToContribute.md) and [How to Contribute](../HowToContribute.md).
 - **Explore** the resources below.
 
 <!--
