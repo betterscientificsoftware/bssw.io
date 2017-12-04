@@ -2,7 +2,7 @@
 
 
 - BSSw: Better Scientific Software
-- CoDeSe: Computational and Eata-enabled Science and Engineering 
+- CoDeSe: Computational and Data-enabled Science and Engineering
 - CSE: Computational Science and Engineering
 - CSE17: 2017 SIAM Conference on Computational Science and Engineering
 - FORCE11: FORCE11 Software Citation Implementation Working Group
@@ -14,6 +14,7 @@
 - LCFs: Leadership Computing Facilities
 - PSIP: Productivity and Sustainability Improvement Planning
 - SC: Supercomputing
+- SE-CoDeSe: Software Engineering for Computational and Data-enabled Science and Engineering
 - SC17: SC17 Conference
 - SIAM: Society for Industrial and Applied Mathematics
 - SI2: Software Infrastructure for Sustained Innovation
