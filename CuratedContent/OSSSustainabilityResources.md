@@ -50,7 +50,7 @@ to implement your sustainability plan.
   maintainers, researchers, and developers of popular HPC software
   projects. It is run by Brock Palen (UMich) and Jeff Sqyres (Cisco).
 
-## Foundations and non-profits that fund open source development
+## Foundations and nonprofits that fund open source development
 
 * [NumFOCUS](http://www.numfocus.org/): 501 (c) nonprofit sustaining
   open source projects in data science.
