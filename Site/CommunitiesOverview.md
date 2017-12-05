@@ -2,7 +2,7 @@
 
 The Better Scientific Software umbrella encompasses a rich variety of communities who are working to advance the methods, practices, and processes of CSE software.  
 
-**Community-specific landing pages**, tailored to unique perspectives and priorities, provide a variety of starting points for using the BSSw site and promote a shared understanding of CSE software issues.  Goals are to fully realize the role of CSE software as a cornerstone of long-term collaboration and scientific discovery — and in turn to help build stronger communities that increase leverage, recognition, and impact.
+**Community-specific landing pages**, tailored to unique perspectives and priorities, provide a variety of starting points for using the BSSw site and promote a shared understanding of CSE software issues.  Curators of a community landing page can customize content to serve the needs community members through highlighted resources and other custom content.
 
 ### Better Scientific Software Communities:
 - [Exascale Computing Community](Communities/ExascaleComputing.md)
