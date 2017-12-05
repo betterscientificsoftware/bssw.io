@@ -7,7 +7,7 @@
 
 Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering (CSE).
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png' class='page' />[Better Scientific Software Topics]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png' class='page' />
 
 We are launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-program) to give recognition and funding to leaders and advocates of high-quality scientific software.  The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select three Fellows per year. Each Fellow is awarded up to $10,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community. 
 
