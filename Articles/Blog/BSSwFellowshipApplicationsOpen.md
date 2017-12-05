@@ -1,11 +1,11 @@
 # Applications open for new BSSw Fellowship Program ... Q&A webinar on Dec 12, 2017
 
-**Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png">[Better Scientific Software Topics]
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
 
 #### Publication date: Dec 1, 2017
+
+<img src="https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png" class='page'>[Better Scientific Software Topics]
 
 Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering (CSE).
 
