@@ -9,7 +9,8 @@ These resources can be useful for anyone engaged in large projects where require
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
-<!---Publish: yes
+<!---
+Publish: yes
 Categories: collaboration
 Topics: strategies for more effective teams
 Level: 2
