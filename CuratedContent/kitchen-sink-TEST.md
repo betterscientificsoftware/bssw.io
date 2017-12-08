@@ -97,7 +97,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 [test caption]<img src='http://www.communitycatspodcast.com/wp-content/uploads/2014/11/Cat_Content.jpg' class='page lightbox' />
 
-[Caption goes here?]<img src='https://s-media-cache-ak0.pinimg.com/736x/07/c3/45/07c345d0eca11d0bc97c894751ba1b46--ginger-kitten-ginger-cats.jpg' class='page lightbox' />
+[Caption goes here.]<img src='https://s-media-cache-ak0.pinimg.com/736x/07/c3/45/07c345d0eca11d0bc97c894751ba1b46--ginger-kitten-ginger-cats.jpg' class='page lightbox' />
 
 
 
