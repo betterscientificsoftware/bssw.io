@@ -56,6 +56,9 @@ range of disciplines can be found [here](https://www.software.ac.uk/which-journa
    their package follows certain best practices of open-source software,
    including proper licensing and documentation,
    and helps meet scientific research challenges.
+
+Moving away from journals that require a manuscript and/or peer review, there are also
+sites which can provide a DOI for your software with little to no review:
  - [Zenodo](https://zenodo.org)
    Like JOSS, Zenodo can provide a DOI for your software.
    Unlike JOSS, it does not require a review of the software,
@@ -64,6 +67,13 @@ range of disciplines can be found [here](https://www.software.ac.uk/which-journa
    Zenodo also allows users to upload data, and obtain a DOI for their
    data, while also acting as a hosting/distribution platform for others
    to access that data.
+ - [figshare](https://figshare.com)
+   Like Zenodo, figshare can provide a DOI for a snapshot of your software
+   that you upload, although figshare is more commonly used to upload data
+   such that it can also be cited from a journal article that produced or
+   used said data.
+   It is also often used to upload slides and posters in a way that makes them
+   citeable.
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez")
 
