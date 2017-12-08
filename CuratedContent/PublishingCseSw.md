@@ -16,9 +16,12 @@ of scientific software development.
 
 ## Journals that Publish CSE Software
 
-The following is a list of journals that specialize,
+What follows is a short list of journals that specialize,
 to varying degrees, in presenting a scientific software package as a
-piece of scientific literature that can be cited by later works:
+piece of scientific literature that can be cited by later works.
+A longer and possibly more up-to-date list from the Software
+Sustainability Institute that covers a wider
+range of disciplines can be found [here](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
 
  - [TOMS](http://toms.acm.org) (ACM Transactions on Mathematical Software):
    This is a well-established journal whose articles often describe
