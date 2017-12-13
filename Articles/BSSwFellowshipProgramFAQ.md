@@ -2,9 +2,12 @@
 
 #### Contributed by [Mike Heroux](https://github.com/maherou) and [Lois Curfman McInnes](https://github.com/curfman)
 
-As described in this [blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the Better Scientific Software (BSSw) organization is launching a new BSSw Fellowship Program to give recognition and funding to leaders and advocates of high-quality scientific software.  The application deadine is January 5, 2018.
+As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the Better Scientific Software (BSSw) organization is launching a new BSSw Fellowship Program to give recognition and funding to leaders and advocates of high-quality scientific software.   This blog article summarizes questions/answers from a recent Q&A session.  A recording of the session is also available [here].
 
-Below are questions/answers that summarize discussion in a recent Q&A session.  A recording of the session is also available [here].
+## Frequently Asked Questions
+
+### What is the fellowship application deadline for this year?
+The application deadine is January 5, 2018. 
 
 ### Is a particular format required for the proposal?
 
@@ -12,7 +15,8 @@ Yes, please see the [BSSw Fellowship webpage](https://bssw.io/pages/bssw-fellows
   - **Experience:**
     - Describe your work relevant to scientific software (1000 - 1500 characters).
     - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
-&nbsp
+<br>
+
   - **Proposed work and impact:**
     - What would you do as a BSSw Fellow? (1000 - 1500 characters).
     - What impact do you foresee from your efforts? (1000 - 1500 characters).
