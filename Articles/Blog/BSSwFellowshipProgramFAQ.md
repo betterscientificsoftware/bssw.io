@@ -1,6 +1,8 @@
 # Better Scientific Software Fellowship Program: Frequently Asked Questions
 
-#### Contributed by [Mike Heroux](https://github.com/maherou) and [Lois Curfman McInnes](https://github.com/curfman)
+#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
+
+#### Publication date: Dec 13, 2017
 
 As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the Better Scientific Software (BSSw) organization is launching a new BSSw Fellowship Program to give recognition and funding to leaders and advocates of high-quality scientific software.   This blog article summarizes questions/answers from a recent Q&A session.  A recording of the session is also available [here].
 
@@ -13,13 +15,13 @@ The application deadine is January 5, 2018.
 
 Yes, please see the [BSSw Fellowship webpage](https://bssw.io/pages/bssw-fellowship-program) for details, including a link to the application form.  Question summary:
   - **Experience:**
-    - Describe your work relevant to scientific software (1000 - 1500 characters).
-    - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
+      - Describe your work relevant to scientific software (1000 - 1500 characters).
+      - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
 <br>
 
   - **Proposed work and impact:**
-    - What would you do as a BSSw Fellow? (1000 - 1500 characters).
-    - What impact do you foresee from your efforts? (1000 - 1500 characters).
+     - What would you do as a BSSw Fellow? (1000 - 1500 characters).
+     - What impact do you foresee from your efforts? (1000 - 1500 characters).
 
 ### Are there any restrictions on how the funding is used? Can it be used for travel?
 
@@ -40,13 +42,13 @@ We welcome content contributions to the site, in a variety of formats.
 
 Needs span throughout diverse areas of scientific software, including topics listed in the [Computational Science and Engineering Software Sustainability and Productivity Workshop Report](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf). Specific current needs include practices and methodologies that:
 
-- Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
+      - Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
 
-- Are used by the broader software community and can be adapted and adopted for use in scientific software.
+      - Are used by the broader software community and can be adapted and adopted for use in scientific software.
     
-- Assist new scientific C++ programmers migrating from Fortran.
+    - Assist new scientific C++ programmers migrating from Fortran.
     
-- Help teams collaborate more effectively.
+    - Help teams collaborate more effectively.
 
 ### Do you expect fellows to attend events or meetings?
 
