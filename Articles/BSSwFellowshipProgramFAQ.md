@@ -36,13 +36,13 @@ We welcome content contributions to the site, in a variety of formats.
 
 Needs span throughout diverse areas of scientific software, including topics listed in the [Computational Science and Engineering Software Sustainability and Productivity Workshop Report](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf). Specific current needs include practices and methodologies that:
 
-    - Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
+- Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
+
+- Are used by the broader software community and can be adapted and adopted for use in scientific software.
     
-    - Are used by the broader software community and can be adapted and adopted for use in scientific software.
+- Assist new scientific C++ programmers migrating from Fortran.
     
-    - Assist new scientific C++ programmers migrating from Fortran.
-    
-    - Help teams collaborate more effectively.
+- Help teams collaborate more effectively.
 
 ### Do you expect fellows to attend events or meetings?
 
