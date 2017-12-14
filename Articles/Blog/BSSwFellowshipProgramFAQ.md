@@ -14,14 +14,14 @@ The application deadine is January 5, 2018.
 ### Is a particular format required for the proposal?
 
 Yes, please see the [BSSw Fellowship webpage](https://bssw.io/pages/bssw-fellowship-program) for details, including a link to the application form.  Question summary:
-  - **Experience:**
+    - **Experience:**
       - Describe your work relevant to scientific software (1000 - 1500 characters).
       - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
 <br>
 
-  - **Proposed work and impact:**
-     - What would you do as a BSSw Fellow? (1000 - 1500 characters).
-     - What impact do you foresee from your efforts? (1000 - 1500 characters).
+    - **Proposed work and impact:**
+      - What would you do as a BSSw Fellow? (1000 - 1500 characters).
+      - What impact do you foresee from your efforts? (1000 - 1500 characters).
 
 ### Are there any restrictions on how the funding is used? Can it be used for travel?
 
@@ -42,9 +42,9 @@ We welcome content contributions to the site, in a variety of formats.
 
 Needs span throughout diverse areas of scientific software, including topics listed in the [Computational Science and Engineering Software Sustainability and Productivity Workshop Report](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf). Specific current needs include practices and methodologies that:
 
-      - Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
+    - Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
 
-      - Are used by the broader software community and can be adapted and adopted for use in scientific software.
+    - Are used by the broader software community and can be adapted and adopted for use in scientific software.
     
     - Assist new scientific C++ programmers migrating from Fortran.
     
@@ -52,7 +52,7 @@ Needs span throughout diverse areas of scientific software, including topics lis
 
 ### Do you expect fellows to attend events or meetings?
 
-We encourage fellows to attend the Exascale Computing Project Annual Meeting, to be held during the week of Feb 5, 2018 in Knoxville, TN.
+We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of Feb 5, 2018 in Knoxville, TN.
 
 ### Does the proposal have to be involved with the Exascale Computing Project (ECP) or any kind of funded project?
 
