@@ -14,14 +14,15 @@ The application deadine is January 5, 2018.
 ### Is a particular format required for the proposal?
 
 Yes, please see the [BSSw Fellowship webpage](https://bssw.io/pages/bssw-fellowship-program) for details, including a link to the application form.  Question summary:
-    - **Experience:**
-      - Describe your work relevant to scientific software (1000 - 1500 characters).
-      - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
+
+**Experience:**
+        - Describe your work relevant to scientific software (1000 - 1500 characters).
+        - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
 <br>
 
-    - **Proposed work and impact:**
-      - What would you do as a BSSw Fellow? (1000 - 1500 characters).
-      - What impact do you foresee from your efforts? (1000 - 1500 characters).
+**Proposed work and impact:**
+        - What would you do as a BSSw Fellow? (1000 - 1500 characters).
+        - What impact do you foresee from your efforts? (1000 - 1500 characters).
 
 ### Are there any restrictions on how the funding is used? Can it be used for travel?
 
