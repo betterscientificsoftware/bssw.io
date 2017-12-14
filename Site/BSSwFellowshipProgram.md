@@ -36,4 +36,5 @@ Beyond this categorical requirement, we are looking for applications from people
 - **Feb 1, 2018 - Jan 31, 2019**: Period of performance for 2018 BSSw Fellows  
 
 ### Questions
-If you have any questions, please contact us at <info@bssw.io>.
+
+See the [FAQ for the BSSw Fellowship](https://bssw.io/resources/better-scientific-software-fellowship-program-frequently-asked-questions).  If you have additional questions, please contact us at <info@bssw.io>.
