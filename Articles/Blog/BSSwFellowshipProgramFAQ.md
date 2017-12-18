@@ -1,4 +1,4 @@
-# New FAQ list for Better Scientific Software Fellowship Program ... Applications due by Jan 5, 2018
+# New FAQ list for BSSw Fellowship Program ... Applications due by Jan 5, 2018
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
 
