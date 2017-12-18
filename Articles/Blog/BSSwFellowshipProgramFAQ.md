@@ -1,10 +1,10 @@
-# Better Scientific Software Fellowship Program: Frequently Asked Questions
+# New FAQ list for Better Scientific Software Fellowship Program ... Applications due by Jan 5, 2018
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
 
 #### Publication date: Dec 13, 2017
 
-As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the Better Scientific Software (BSSw) organization is launching a new BSSw Fellowship Program to give recognition and funding to leaders and advocates of high-quality scientific software.   This blog article summarizes questions/answers from a recent Q&A session.  A recording of the session is also available [here].
+As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the Better Scientific Software (BSSw) organization is launching a new BSSw Fellowship Program to give recognition and funding to leaders and advocates of high-quality scientific software.   This blog article summarizes questions/answers from a recent Q&A session.  
 
 ## Frequently Asked Questions
 
