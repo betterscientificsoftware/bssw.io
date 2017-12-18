@@ -5,6 +5,7 @@
 - CoDeSe: Computational and Data-enabled Science and Engineering
 - CSE: Computational Science and Engineering
 - CSE17: 2017 SIAM Conference on Computational Science and Engineering
+- FAQ: Frequently Asked Question
 - FORCE11: FORCE11 Software Citation Implementation Working Group
 - HPC: High-Performance Computing
 - IDEAS: Interoperable Design of Extreme-scale Application Software
