@@ -1,3 +1,3 @@
 # Resources
 
-BSSw offers informative methods, practices and tools to aid researchers and developers in improving their skills or solving a specific problem.
+BSSw offers informative methods, practices, and tools to help researchers and developers improve their skills or solve a specific problem.

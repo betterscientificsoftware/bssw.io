@@ -1,4 +1,4 @@
-# How to Publish CSE Software
+# Publishing CSE Software
 
 CSE software is used to generate many significant results
 in the scientific literature.
@@ -16,9 +16,12 @@ of scientific software development.
 
 ## Journals that Publish CSE Software
 
-The following is a list of journals that specialize,
+What follows is a short list of journals that specialize,
 to varying degrees, in presenting a scientific software package as a
-piece of scientific literature that can be cited by later works:
+piece of scientific literature that can be cited by later works.
+A longer and possibly more up-to-date list from the Software
+Sustainability Institute that covers a wider
+range of disciplines can be found [here](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
 
  - [TOMS](http://toms.acm.org) (ACM Transactions on Mathematical Software):
    This is a well-established journal whose articles often describe
@@ -53,6 +56,9 @@ piece of scientific literature that can be cited by later works:
    their package follows certain best practices of open-source software,
    including proper licensing and documentation,
    and helps meet scientific research challenges.
+
+Moving away from journals that require a manuscript and/or peer review, there are also
+sites which can provide a DOI for your software with little to no review:
  - [Zenodo](https://zenodo.org)
    Like JOSS, Zenodo can provide a DOI for your software.
    Unlike JOSS, it does not require a review of the software,
@@ -61,12 +67,19 @@ piece of scientific literature that can be cited by later works:
    Zenodo also allows users to upload data, and obtain a DOI for their
    data, while also acting as a hosting/distribution platform for others
    to access that data.
+ - [figshare](https://figshare.com)
+   Like Zenodo, figshare can provide a DOI for a snapshot of your software
+   that you upload, although figshare is more commonly used to upload data
+   such that it can also be cited from a journal article that produced or
+   used said data.
+   It is also often used to upload slides and posters in a way that makes them
+   citeable.
 
-#### Contributed by [Dan Ibanez](https://github.com/ibaned)
+#### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez")
 
 <!---
-Publish: no
-Categories: collaboration
+Publish: yes
+Categories: Collaboration
 Topics: software publishing and citation
 Tags: journal, service
 Level: 2

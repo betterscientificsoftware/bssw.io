@@ -5,17 +5,17 @@ An issue tracker is a software system that is used by the software developers to
 
 An "issue" represents anything that, if resolved, results in an improvement to a software system. When used for bug tracking, an issue is often called a (trouble) ticket. This document takes the expansive view, as is common in open source development, that a single issue tracker can be used to manage both bug tracking as well as development plans. As such, an issue tracker must have the following capabilities.
 
-* Be accessible anywhere, from any system, i.e. web based.
-* Be available for both users to report bugs, (and requests for new features) and track progress on the requests, while also allowing developers to manage permissions for updating issues with progress reports etc.
-* Provide email updates on the status of the issue to relevent users and developers.
-* Allow setting priorities on issues.
-* Allow assigning developers to particular issues.
-* Allowing searching and sorting issues.
-* Allow labeling issues with keywords to facilitate searching issues.
-* Allow establishing and tracking milestones needed for resolution of an issue.
-* Allow both users and developers to add (and update) notes on particular issues.
-* Provide links from the issue tracker to the commits in the software that represent progress on the issue, and vice versa.
-* Be intuitive to new and casual users, yet retain powerful features needed by experienced developers.
+1. Be accessible anywhere, from any system, i.e. web based.
+2. Be available for both users to report bugs, (and requests for new features) and track progress on the requests, while also allowing developers to manage permissions for updating issues with progress reports etc.
+3. Provide email updates on the status of the issue to relevent users and developers.
+4. Allow setting priorities on issues.
+5. Allow assigning developers to particular issues.
+6. Allowing searching and sorting issues.
+7. Allow labeling issues with keywords to facilitate searching issues.
+8. Allow establishing and tracking milestones needed for resolution of an issue.
+9. Allow both users and developers to add (and update) notes on particular issues.
+10. Provide links from the issue tracker to the commits in the software that represent progress on the issue, and vice versa.
+11. Be intuitive to new and casual users, yet retain powerful features needed by experienced developers.
 
 All three modern web-based repository hosting systems, [BitBucket](https://bitbucket.com), [GitHub](https://github.com), and [GitLab](https://gitlab.com/explore/projects/trending) provide integrated issue tracking systems and support most, if not all of the capabilities listed above.
 

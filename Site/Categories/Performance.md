@@ -7,21 +7,21 @@
 **Topics:**
 
 - **High-performance computing (HPC):**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+The practice of aggregating computing power in a way that delivers much higher performance than one could get out of a typical desktop computer or workstation in order to solve large problems, often in science and engineering.
 
 <!---
     - [What Is High-Performance Computing?](Topics/WhatIsHighPerfComputing.md)
 --->
 
 - **Performance at leadership computing facilities (LCFs):**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Factors that must be considered when developing software for the leadership-class supercomputers, among the fastest computers in the world.  
 
 <!---
     - [What is Performance at Leadership Computing Facilities?](Topics/WhatIsPerfAtLCFs.md)
 --->
 
 - **Performance portability:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+Software exhibiting similar performance across multiple platforms, with the time to solution reflecting efficient utilization computational resources on each platform.
 
 <!---
     - [What is Performance Portability for CSE Applications?](../CuratedContent/WhatIsPerfPortabilityForCseApps.md)

@@ -2,15 +2,9 @@
 
 Many computational scientists and engineers access high-performance computing resources through one or more centralized supercomputing facilities, which serve many users.
 
-Supercomputers are large, expensive devices requiring significant infrastructure and support staff to operated effectively.  As such, they are often purchased and operated as centralized facilities with size and scope typically related to their funding sources.  This may range from departmental-scale to institutional, state or regional, and national or international.
+Although the details of the systems, tools, and support resources available can vary greatly from one facility to another, many high-level aspects  are common across them.  Because of inherent lifetimes and technological advances, supercomputer systems typically periodically change every five years.  Also, with limited resources available for support and training, facilities typically focus first and foremost on the systems, tools, and environments that they're fielding at any given moment. This situation can pose a challenge for users, who are in many cases using multiple supercomputer facilities simultaneously. The goal of BSSw in supporting supercomputer facilities and users is to provide a place for information that spans facilities and specific computer architectures, complementing local facility resources, and helps users deal wtih multiple environments in a productive and sustainable way.
 
-Facilities and their systems are often categorized as either *capacity* or *capability* systems, depending on the nature of the computing load and users they are designed to serve.  Capability, or *leadership-class* systems are the largest scale of system, which provide levels of computational capability not available elsewhere, and support users requiring that level of capability for individual jobs that due to size or time-to-solution requirements cannot be run on lesser systems.  Capacity systems are designed to support a broader base of users and problems, where computational requirements warrant the use of HPC systems, but individual jobs do not reach the scale of dominating a lerge HPC system.
-
-Access to supercomputer facilities is handled in different ways. Many facilities face greater demands for computing resources than the have available, and use proposal-based mechanisms to help prioritize requests, though the rigor of the review may vary.  In many cases, allocations are made only to members of the sponsoring organization, though there are some facilities or allocation programs are open to a broader community.
-
-Facilities often host users with a broad range of experience and sophistication in CSE and HPC.  Many facilities offer training opportunities aimed at helping users (and prospective users) improved their skills and knowledge, thereby making more effective use of the resources of the facility.  Some facilities have staff dedicated to providing various levels of support and assistance to users, with the same goal.
-
-There are a vast number of supercomputing facilities around the world, and it is impossible to list them all, but some of used by BSSw contributors include:
+A vast number of supercomputing facilities exist around the world, and listing them all is impossible. But the following are some of the major facilities used by BSSw contributors.
 <!---
        These could point to the facility pages proper, or to a BSSw "sub-community" page that makes more specific connections between that facility and BSSw content
 --->
@@ -20,12 +14,11 @@ There are a vast number of supercomputing facilities around the world, and it is
 
 ## Software challenges for supercomputer facilities and their users
 
-Users bring many software challenges to the facilities where they carry out their computing.  However there are a number of particular challenges from the facility's perspective.  First of all, facilities field specific supercomputers.  They have an interest in seeing their users get the best possible performance out of their particular systems while recognizing that most of their users really want software solutioms that work well across the multiple facilities where they may do their computing.  As such, performance portability takes on a high profile.  Another particular challenge arises when facility staff are working with users to track down bugs or improve performance.  It is best for everyone, facility staff and users alike, when such issues can be quickly isolated and addressed, but not all users' software is easy to understand and work with.  Improvements in the quality (and existence) of documentation, software quality, and testing can greatly simplify and reduce the time required to find and fix bugs and performance issues.
+Performance portablity is often a significant concern for users of multiple facilities. Many facilities offer support to improve the performance of an application on the platform(s) they field, but the staff often find it difficult to speak definitively about an application they are not deeply familiar with and the application's performance on platforms other than their own. Thus, the onus for performance portability is on the users. In  working with facility staff on performance, debugging, or other issues, it is best for everyone when such issues can be quickly isolated and addressed.  This goal can be greatly facilitated by emphasizing software quality, documentation, and testing during the development process.
 
 ## Next steps
 - **Explore** the resources below.
-- **Get oriented and investigate** all of BSSw's offerings [BSSw Homepage](../Homepage.md).
-- **Share your ideas and experiences** about X,Y,Z, and other concerns. See [What To Contribute](../WhatToContribute.md) and [How To Contribute](../HowToContribute.md).
+- **Ivestigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
 
 <!--
 Featured resources for the Community of Supercomputer Facilities and their Users
@@ -34,7 +27,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [What Is Performance Portability for CSE Applications?](../../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
 
-* [How To Enable Performance Portability for CSE Applications](../../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
+* [How to Enable Performance Portability for CSE Applications](../../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
 
 * [What Is Good Documentation](../../CuratedContent/WhatIsGoodDocumentation.md)
 
@@ -42,7 +35,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [What Is CSE Software Testing](../../CuratedContent/WhatIsCseSwTesting.md)
 
-* [How To Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
+* [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
 
 <!---
 Publish: yes

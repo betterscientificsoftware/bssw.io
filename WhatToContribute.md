@@ -6,22 +6,28 @@ The [betterscientificsoftware.github.io](https://github.com/betterscientificsoft
 
 Developer productivity and software sustainability efforts for computational science and engineering (CSE) benefit from communicating the experiences, reasoned insights, and curated content from a broad spectrum of community members.
 
-#### Content Categories
+#### Content Types
 
-Content categories can include:
+Types of content can include:
+
 - **"What Is" document:** A document that defines terms and concepts in a particular topic area.  For example, the article could describe terms and concepts related to automated testing.  This kind of document is often helpful as background for "How To" documents that describe testing processes.
+  - folder: [Articles](Articles/README.md)
 - **"How To" document:** A document that describes a process for improving productivity and sustainability.
+  - folder: [Articles](Articles/README.md)
 - **Original experience:** An original article (brevity is appreciated) to inform the CSE community about how to improve developer productivity and software sustainability.
+  - folder: [Articles](Articles/README.md)
 - **Blog article:** An original article in the form of a blog of 250 - 500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
+  - folder: [Articles/Blog](Articles/Blog/README.md)
 - **Curated links:** A brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content.
-- **Event:** A brief description of an event relevant to better scientific software. 
-
+  - folder: [CuratedContent](CuratedContent/README.md)
+- **Event:** A brief description of an event (such as a workshop, conference, or tutorial) relevant to better scientific software.
+  - folder: [Events](Events/README.md)
 
 #### Content Scope
 
 The exact scope of relevant content will evolve as we learn about community interests.  However, presently we believe the following guidelines should be useful:
 #### In-scope Content
-- General productivity and sustainability that overlaps with common challenges faced in the CSE software community.
+- General issues in productivity and sustainability that overlap with common challenges faced in the CSE software community.
 - General tools for productivity and sustainability that can be widely used by CSE developers.
 - Characterization of challenges and solutions that may be particularly valuable to the CSE community.
 

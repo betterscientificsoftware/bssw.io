@@ -6,10 +6,11 @@
 
 **Topics:**
 
+<!---
+
 - **Improving productivity and sustainability:**
 Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
 
-<!---
     - [What Is Productivity?](Topics/WhatIsProductivity.md)
     - [What Is Sustainability?](Topics/WhatIsSustainability.md)
 --->
@@ -29,7 +30,7 @@ Major considerations in designing software to meet its scientific objectives and
 --->
 
 - **Software interoperability:**
-Short description goes here. length estimate xxxxx xxxxx xxxxxx xxxxxx xxxxxxx xxxxxx xxxxxx xxxxx. xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx.
+The ability of two or more software elements to be used together in an application, without special effort on the part of the user.
 
 <!---
      - [What Are Interoperable Software Libraries?](../CuratedContent/WhatAreInteoperableSwLibraries.md)

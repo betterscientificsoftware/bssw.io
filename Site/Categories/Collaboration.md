@@ -15,7 +15,7 @@ The legal side of controlling software distribution and use.
 --->
 
 - **Strategies for more effective teams:**
-Ways to foster teamwork, leveraging people's diverse skills in pursuit of a common goal. xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxxx xxxxx xxxxxx xxxx xxxx xxx xxxxx xxxxxxxxx.
+Ways to foster teamwork, leveraging people's diverse skills in pursuit of a common goal. 
 
 <!---
    - [What Are Strategies for More Effective Teams?](Topics/WhatAreStrategiesForMoreEffectiveTeams.md)  
@@ -29,21 +29,21 @@ Discussion forums and Q&A sites where questions about scientific software develo
 --->
 
 - **Software publishing and citation:**
-Publishing and citing software as a distinct artifact (from, e.g., scientific papers), and publication venues focusing on software development topics, as distinct from the scientific results and methods.
+Publishing and citing of software as a distinct artifact (i.e., different from scientific papers); and publication venues focusing on software development topics, as distinct from the scientific results and methods.
 
 <!---
     - [What Is Work on Software Publishing and Citation?](Topics/WhatIsWorkOnSwPublishingAndCitation.md)
 --->
 
 - **Funding sources and programs:**
-Sources of financial support for efforts to improve scientific software development practices, productivity, sustainability, and community-building. Note that this is distinct from traditional computational science and engineering R&D.
+Sources of financial support for efforts to improve scientific software development practices, productivity, sustainability, and community-building. Note that these efforts are distinct from traditional computational science and engineering R&D.
 
 <!---
     - [What Are Funding Sources and Programs Addressing Better Scientific Software?](Topics/WhatAreFundingSourcesAndProgramsAddressingBetterScientificSw.md)
 --->
 
 - **Projects and organizations:**
-Projects and organizations having a particular emphasis on scientific software development, productivity and sustainability.
+Projects and organizations having a particular emphasis on scientific software development, productivity, and sustainability.
 
 <!---
     - [What Are Projects and Organizations Addressing Better Scientific Software?](Topics/WhatAreProjectsAndOrganizationsAddressingBetterScientificSw.md)
@@ -51,7 +51,7 @@ Projects and organizations having a particular emphasis on scientific software d
 
 <!---
 - **Coordination with stakeholders:**
-Communicating with program managers, sponsors, and other stakeholders about project goals, progress, and impact.  xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxx xxxx xxxx xxxx xxxxx xxxxxx.
+Communicating with program managers, sponsors, and other stakeholders about project goals, progress, and impact.  
 
 
    - [What Is Coordination with Stakeholders?](Topics/WhatIsCoordinationWithStakeholders.md)  

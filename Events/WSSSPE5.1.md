@@ -1,9 +1,11 @@
 
-# WSSSPE5.1
+# WSSSPE 5.1
 
 - Dates: September 6, 2017
 - Location: Manchester, UK
 - Event Website: http://wssspe.researchcomputing.org.uk/wssspe5-1/
+
+WSSSPE promotes sustainable research software by addressing challenges related to the full lifecycle of research software through shared learning and community action.
 
 **Description:**  Progress in scientific research is dependent on the quality and accessibility of research software at all levels. It is critical to address many new challenges related to the development, deployment, maintenance, and sustainability of open-use research software: the software upon which specific research results rely. Open-use software means that the software is widely accessible (whether open source, shareware, or commercial). Research software means that the choice of software is essential to specific research results; using different software could produce different results.
 
@@ -13,12 +15,12 @@ WSSSPE5.1 aims to capture the state of the art in sustainable research software,
 
 WSSSPE5.1 immediately precedes and cis o-located with the [2nd RSE Conference](http://rse.ac.uk/conf2017/).
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
+#### Contributed by [Dan Katz](https://github.com/danielskatz)
 
 <!---
 Publish: yes
-Categories: planning, crosscutting
-Topics: software engineering
+Categories: planning, collaboration
+Topics: software engineering, projects and organizations
 Tags: conference
 Level: 2
 Prerequisites: default

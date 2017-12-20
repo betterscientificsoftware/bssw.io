@@ -1,5 +1,5 @@
 
-# Pending BSSw Site Launch In November 2017
+# Pending BSSw Site Launch at SC17
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
 
