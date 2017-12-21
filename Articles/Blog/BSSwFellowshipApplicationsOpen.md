@@ -24,7 +24,7 @@ We are launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw-fell
 <!---
 Publish: Yes
 Categories: collaboration
-Topics: discussion forums, Q&A sites
+Topics: discussion forums, Q&A sites, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
