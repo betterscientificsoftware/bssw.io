@@ -18,7 +18,7 @@ For more on what's here and who contributes and why, see the [Site Overview Page
 <!---
 Publish: Yes
 Categories: collaboration
-Topics: discussion forums, Q&A sites
+Topics: discussion forums, Q&A sites, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
