@@ -4,7 +4,7 @@
 
 #### Publication date: Dec 13, 2017
 
-As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the Better Scientific Software (BSSw) organization is launching a new BSSw Fellowship Program to give recognition and funding to leaders and advocates of high-quality scientific software.   This blog article summarizes questions/answers from a recent Q&A session. A [recording of the webinar](https://bluejeans.com/playback/s/5uNroGtkIITxVvQ6RCUxdNqobCLHIaREtnKiBxWKw9N7stSw1Sotp5QXnA1aNYBw) is also available.
+As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the Better Scientific Software (BSSw) organization is launching a new BSSw Fellowship Program to give recognition and funding to leaders and advocates of high-quality scientific software.   This blog article summarizes questions/answers from a recent Q&A session. A [recording of the Q&A session](https://bluejeans.com/playback/s/5uNroGtkIITxVvQ6RCUxdNqobCLHIaREtnKiBxWKw9N7stSw1Sotp5QXnA1aNYBw) is also available.
 
 ## Frequently Asked Questions
 
