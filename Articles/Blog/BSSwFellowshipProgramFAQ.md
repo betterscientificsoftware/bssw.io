@@ -65,7 +65,7 @@ No, connections are not required to any funded projects.  We encourage applicati
 
 ###  Is co-authorship allowed for applications to the BSSw Fellowship Program or you expect proposals to have solitary authors?
 
-While we recognize that lots of important work is takes place as collaborative partnerships, the BSSw Fellowship Program is limited to individual applicants.
+While we recognize that lots of important work takes place as collaborative partnerships, the BSSw Fellowship Program is limited to individual applicants.
 
 ## Other questions?  
 If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
