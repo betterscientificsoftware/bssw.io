@@ -2,7 +2,7 @@
 
 Announcement:
 - [Applications due by Jan 5, 2018 for BSSw Fellowship Program ... See FAQ list](../../Articles/Blog/BSSwFellowshipProgramFAQ.md)
-- Display dates: 12/18/2017 - 1/15/2018
+- Display dates: 12/18/2017 - 1/30/2018
 
 <!---
 - [Applications open for new BSSw Fellowship Program ... Q&A Webinar on Dec 12, 2017](../../Articles/Blog/BSSwFellowshipApplicationsOpen.md)
