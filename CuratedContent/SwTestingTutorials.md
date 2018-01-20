@@ -1,12 +1,7 @@
 
 # Software Testing Tutorials
 
-Software testing is essential for ensuring robust, reliable software.  Introductory information:
-* [What is CSE Software Testing?](https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingWhatAreSoftwareTestingPractices-V0.2.pdf)
-* [How to Improve Testing for CSE Software] (https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingHowtoAddImproveTestinginyourCSESoftwareProject-V0.2.pdf)
-* [Categorizing Tests for CSE Software] (https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingWhatIsDefinitionandCategorizationofTestsforCSESoftware-V0.2.pdf)
-
-A variety of tutorials on software testing provide information for various circumstances.
+Software testing is essential for ensuring robust, reliable software.  A variety of tutorials on software testing provide information for various circumstances.
 
 **Subresources:**
 - [Testing Tutorials for CSE Software](SwTestingTutorials.Cse.md)
