@@ -18,6 +18,8 @@ Edit this list to change resources that appear on the front-end site.
 
 * [Multiphysics Simulations: Challenges and Opportunities](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
 
+* [Planning for Better Software: PSIP-Tools](../../CuratedContent/PlanningUsingPSIPs.md)
+
 * [Team of Teams: Strategies for Large Organizations](../../CuratedContent/TeamOfTeams.md)
 
 * [Test Driven Development in Scientific Software: A Survey](../../TestDrivenDevptInScientificSwASurvey.md)
