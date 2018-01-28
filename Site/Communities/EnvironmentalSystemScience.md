@@ -16,7 +16,9 @@ Featured resources for the Environmental System Science Community.
 Edit this list to change resources that appear on the front-end site.
 -->
 
-* [Planning for Better Software: How to Use PSIP Tools](../../CuratedContent/PlanningUsingPSIPs.md)
+* [Multiphysics Simulations: Challenges and Opportunities](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
+
+* [Team of Teams: Strategies for Large Organizations](../../CuratedContent/TeamOfTeams.md)
 
 * [Test Driven Development in Scientific Software: A Survey](../../TestDrivenDevptInScientificSwASurvey.md)
 
