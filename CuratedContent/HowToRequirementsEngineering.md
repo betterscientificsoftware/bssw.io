@@ -44,6 +44,8 @@ The first objective is to identify the stakeholders. A stakeholder can be anyone
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
 
+#### Publication date: October 26, 2017
+
 <!---
 Publish: yes
 Categories: Collaboration, Planning
