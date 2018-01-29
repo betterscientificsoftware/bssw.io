@@ -37,6 +37,8 @@ Having to establish the scope on non-functional requirements is a key benefit of
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
 
+#### Publication date: October 26, 2017
+
 <!---
 Publish: yes
 Categories: Collaboration, Planning
