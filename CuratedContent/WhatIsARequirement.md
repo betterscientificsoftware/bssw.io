@@ -27,7 +27,7 @@ Meanwhile, explicitly documenting non-functional requirements is important becau
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
 
-#### Publication Date: October 26, 2017
+#### Publication date: October 26, 2017
 
 <!---
 Publish: yes
