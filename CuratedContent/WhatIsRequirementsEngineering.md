@@ -10,6 +10,9 @@ In this resource, we shall elaborate on the requirements process, which encompas
 The elicitation and analysis steps are collectively known as the *sensemaking* phase of the requirements process, and the specification and validation steps are known as the *problem structuring* phase.
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
+
+#### Publication date: October 26, 2017
+
 <!---
 Publish: yes
 Categories: Collaboration, Planning
