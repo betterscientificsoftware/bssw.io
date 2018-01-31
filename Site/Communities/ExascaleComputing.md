@@ -1,6 +1,8 @@
 # Exascale Computing Community
 
-The international exascale computing community is anticipating unprecedented computational resources for next-generation science -- including hardware, system software, libraries, and applications. When paired with critical advances in CSE algorithms and software, the enormous power of extreme-scale architectures will enable high-fidelity multiscale, multiphysics modeling, simulation, and analysis, leading to accelerated, broadly impactful scientific discoveries. The challenge is how to deliver and effectively use systems that are capable of at least one quintillion (10<sup>18</sup>) calculations per second. (In comparison, today’s fastest supercomputers operate in the petascale range of 10<sup>15</sup> calculations per second.) One approach currently being explored is a holistic approach that coordinates efforts to achieve an integrated exascale ecosystem. For more information, see the following.
+The international exascale computing community is working toward unprecedented computational resources for next-generation science -- including hardware, system software, libraries, and applications. 
+
+When paired with critical advances in CSE algorithms and software, the enormous power of extreme-scale architectures will enable high-fidelity multiscale, multiphysics modeling, simulation, and analysis, leading to accelerated, broadly impactful scientific discoveries. The challenge is how to deliver and effectively use systems that are capable of at least one quintillion (10<sup>18</sup>) calculations per second. (In comparison, today’s fastest supercomputers operate in the petascale range of 10<sup>15</sup> calculations per second.) One approach currently being explored is a holistic approach that coordinates efforts to achieve an integrated exascale ecosystem. For more information, see the following.
 
 - [U.S. Exascale Computing Project (ECP)](https://exascaleproject.org "ECP Homepage")
 - [European Exascale Software Initiative (EESI)](http://www.eesi-project.eu "EESI Homepage")
@@ -30,7 +32,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [How to Enable Performance Portability for CSE Applications](../../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
 
-* [Improve User Confidence in Software Updates](../../Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
+* [Planning for Better Software: PSIP-Tools](../../CuratedContent/PlanningUsingPSIPs.md)
 
 <!-- Defer events until later
 * [SC17 Conference](../../Events/Conference.SC17.md)
