@@ -8,12 +8,16 @@ The PSIP process has been successfully used to help scientific software teams ac
 
 #### Contributed by [Mike Heroux](http://github.com/maherou)
 
+#### Publication date: November 21, 2017
+
 <!---
 Publish: yes
 Categories: Planning, Collaboration
-Topics: Requirements, Strategies for more effective teams
+Topics: Design, Strategies for more effective teams
 Tags: website
 Level: 2
 Prerequisites: defaults
 Aggregate: none
+
+% LCM: temporarily drop 'requirements' topic in order to get poster screen shot
 --->
