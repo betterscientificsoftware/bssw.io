@@ -25,15 +25,11 @@ Featured resources for the Community of Supercomputer Facilities and their Users
 Edit this list to change resources that appear on the front-end site.
 -->
 
+* [How to Estimate Operational Intensity](../../CuratedContent/HowToEstimateOperationalIntensity.md)
+
 * [What Is Performance Portability for CSE Applications?](../../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
 
-* [How to Enable Performance Portability for CSE Applications](../../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
-
-* [What Is Good Documentation](../../CuratedContent/WhatIsGoodDocumentation.md)
-
-* [How to Write Good Documentation](../../CuratedContent/HowToWriteGoodDocumentation.md)
-
-* [What Is CSE Software Testing](../../CuratedContent/WhatIsCseSwTesting.md)
+* [Portability Across DOE Office of Science HPC Facilities](../../CuratedContent/PortabilityAcrossDOEOfficeOfScienceHPCFacilities.md)
 
 * [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
 
