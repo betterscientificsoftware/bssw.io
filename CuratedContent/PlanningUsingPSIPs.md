@@ -13,7 +13,7 @@ The PSIP process has been successfully used to help scientific software teams ac
 <!---
 Publish: yes
 Categories: Planning, Collaboration
-Topics: Design, Strategies for more effective teams
+Topics: Design, Requirements, Strategies for more effective teams
 Tags: website
 Level: 2
 Prerequisites: defaults
