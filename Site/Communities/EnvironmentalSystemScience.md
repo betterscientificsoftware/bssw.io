@@ -18,9 +18,11 @@ Edit this list to change resources that appear on the front-end site.
 
 * [Multiphysics Simulations: Challenges and Opportunities](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
 
-* [Planning for Better Software: PSIP-Tools](../../CuratedContent/PlanningUsingPSIPs.md)
+* [Enabling Interoperable Biogeochemistry with Alquimia in the xSDK] (../../EnablingInteroperableBiogeochemistryWithAlquimia.md)
 
 * [Team of Teams: Strategies for Large Organizations](../../CuratedContent/TeamOfTeams.md)
+
+* [Planning for Better Software: PSIP-Tools](../../CuratedContent/PlanningUsingPSIPs.md)
 
 * [Test Driven Development in Scientific Software: A Survey](../../TestDrivenDevptInScientificSwASurvey.md)
 
