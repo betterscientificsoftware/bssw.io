@@ -47,7 +47,7 @@ The first objective is to identify the stakeholders. A stakeholder can be anyone
 #### Publication date: October 26, 2017
 
 <!---
-Publish: yes
+Publish: no
 Categories: Collaboration, Planning
 Topics: requirements
 Tags: requirements
@@ -56,4 +56,5 @@ Prerequisites: WhatIsRequirementsEngineering.md
 Aggregate: none
 
 % LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements (and howto tag)
+% LCM: Temporarily unpublish, in order to get PSIP poster screenshot
 --->
