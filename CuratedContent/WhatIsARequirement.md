@@ -34,7 +34,9 @@ Publish: yes
 Categories: Collaboration, Planning
 Topics: requirements
 Tags: requirements, whatis, terminology
-Level: 0
+Level: 2
 Prerequisites: none
 Aggregate: none
+
+% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
 --->
