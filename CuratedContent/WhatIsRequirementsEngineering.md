@@ -17,10 +17,10 @@ The elicitation and analysis steps are collectively known as the *sensemaking* p
 Publish: yes
 Categories: Collaboration, Planning
 Topics: requirements
-Tags: requirements, whatis, terminology
+Tags: requirements, terminology
 Level: 2
 Prerequisites: WhatAreRequirements.md, HowToWriteARequirement.md
 Aggregate: none
 
-% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
+% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements (and add whatis tag)
 --->
