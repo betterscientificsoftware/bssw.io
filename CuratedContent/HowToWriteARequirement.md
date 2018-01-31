@@ -40,7 +40,7 @@ Having to establish the scope on non-functional requirements is a key benefit of
 #### Publication date: October 26, 2017
 
 <!---
-Publish: yes
+Publish: no
 Categories: Collaboration, Planning
 Topics: requirements
 Tags: requirements, howto
@@ -49,4 +49,5 @@ Prerequisites: WhatIsARequirement.md
 Aggregate: none
 
 % LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
+% LCM: Temporarily unpublish, in order to get PSIP poster screenshot
 --->
