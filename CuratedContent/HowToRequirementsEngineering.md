@@ -50,10 +50,10 @@ The first objective is to identify the stakeholders. A stakeholder can be anyone
 Publish: yes
 Categories: Collaboration, Planning
 Topics: requirements
-Tags: requirements, howto
+Tags: requirements
 Level: 2
 Prerequisites: WhatIsRequirementsEngineering.md
 Aggregate: none
 
-% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
+% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements (and howto tag)
 --->
