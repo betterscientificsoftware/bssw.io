@@ -1,6 +1,7 @@
 ### Abbreviations Used on the BSSw Site
 
 
+- ACM: Association for Computing Machinery
 - BSSw: Better Scientific Software
 - CoDeSe: Computational and Data-enabled Science and Engineering
 - CSE: Computational Science and Engineering
@@ -24,7 +25,7 @@
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
 - WSSSPE 5.1: WSSSPE event
 - WSSSPE 5.2: WSSSPE event
-- ACM: Association for Computing Machinery
+- xSDK: Extreme-scale Scientific Software Development Kit
 
 <!--
 Publish: no
