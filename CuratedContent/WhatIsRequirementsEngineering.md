@@ -19,8 +19,8 @@ Categories: Collaboration, Planning
 Topics: requirements
 Tags: requirements, whatis, terminology
 Level: 2
-Prerequisites: none
+Prerequisites: WhatAreRequirements.md, HowToWriteARequirement.md
 Aggregate: none
 
-% LCM: Temporariliy change to level 2, reconsider later for aggregate WhatIs content for requirements
+% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
 --->
