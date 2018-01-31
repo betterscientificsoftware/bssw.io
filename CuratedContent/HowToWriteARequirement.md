@@ -2,13 +2,13 @@
 
 In this resource, we work through a number of examples of requirements and how to write them.
 
-### Technologicical Requirements on Data Types 
+### Technological Requirements on Data Types 
 
 Some functional requirements can be technological requirements; that is, there are particular constraints on the technologies that are employed in the solution. This is a common situation in the scientific computing world, which operates on the ever-changing cutting edge of hardware and software. For example, a team developing a tool to simulate ice sheet dynamics needs to translate geometry data provided by glaciologists to construct a mesh. That data is most often stored in a NetCDF format, and the team might write a requirement like sthe following:
 
 > **Description**: The product shall support the NetCDF format.
 
-The requirement is specific and fundamental. However, we can note several ambiguities. First, it isn't clear whether the tool will need to read NetCDF files, write data in that format, or both. Second, the very meaning of "NetCDF" is ambiguous because the standard comprises multiple binary formats. Version 3.6+ extends the classic format with 64-bit offsets, and version 4 allows for data to be stored in an HDF5-equivalent format. In this case, consultation with clients reveals that data is stored in both version 3 and version 4 formats, which in turn informs the following requirement:
+The requirement is specific and fundamental. However, we can identify several ambiguities. First, it isn't clear whether the tool will need to read NetCDF files, write data in that format, or both. Second, the very meaning of "NetCDF" is ambiguous because the standard comprises multiple binary formats. Version 3.6+ extends the classic format with 64-bit offsets, and version 4 allows for data to be stored in an HDF5-equivalent format. In this case, consultation with clients reveals that data is stored in both version 3 and version 4 formats, which in turn informs the following requirement:
 
 > **Description**: The product shall support data input both in NetCDF-3.6.0+ and NetCDF-4.0+ formats.
 
