@@ -51,7 +51,9 @@ Publish: yes
 Categories: Collaboration, Planning
 Topics: requirements
 Tags: requirements, howto
-Level: 0
-Prerequisites: none
+Level: 2
+Prerequisites: WhatIsRequirementsEngineering.md
 Aggregate: none
+
+% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
 --->
