@@ -1,4 +1,4 @@
-# Enabling Interoperable Biogeochemistry with Alquimia in the xSDK
+# Enabling Interoperable Biogeochemistry with Alquimia
 
 Environmental applications involve a wide range of processes, from hydrology and vegetation dynamics to genome-informed biogeochemistry, and many research groups are actively developing and enhancing mechanistic models for these processes. To share these specialized capabilities across codes efficiently, and to accelerate their future development, componentization is necessary. 
 
