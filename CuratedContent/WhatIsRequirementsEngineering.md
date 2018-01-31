@@ -1,6 +1,6 @@
 # What is the Requirements Engineering Process?
 
-In this resource, we shall elaborate on the requirements process, which encompasses the discovery and documentation of requirements. There is no single methodology for requirements engineering. The process can be sequential or iterative. It may target internal or external users. The requirements documentation needs for, say, a web service framework are radically different than for avionics software. In any case, a full treatment of requirements engineering praxis goes beyond the scope of this article. Instead, we shall outline the common steps involved. In this what-is document, we divide the requirements process into four steps:
+We elaborate on the requirements process, which encompasses the discovery and documentation of requirements. No single methodology exists for requirements engineering. The process can be sequential or iterative. It may target internal or external users. The requirements documentation needs for, say, a web service framework are radically different from those for avionics software. In any case, a full treatment of requirements engineering praxis goes beyond the scope of this article. Instead, we outline the four common steps involved. 
 
 - **Requirements Elicitation**: Gathering data on the needs and wants of stakeholders.
 - **Requirements Analysis**: Identifying the requirements.
