@@ -16,7 +16,7 @@ A vast number of supercomputing facilities exist around the world, and listing t
 
 Performance portablity is often a significant concern for users of multiple facilities. Many facilities offer support to improve the performance of an application on the platform(s) they field, but the staff often find it difficult to speak definitively about an application that they are not deeply familiar with and the application's performance on platforms other than their own. Thus, the onus for performance portability is on the users. In  working with facility staff on performance, debugging, or other issues, it is best for everyone when such issues can be quickly isolated and addressed.  This goal can be greatly facilitated by emphasizing software quality, documentation, and testing during the development process.
 
-## Next steps
+## Where do I go next?
 - **Explore** the resources below.
 - **Ivestigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
 
