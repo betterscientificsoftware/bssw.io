@@ -7,7 +7,7 @@ A software library is a high-quality, encapsulated, documented, tested, and mult
 ## Software challenges for developers of scientific libraries
 As computational science addresses more advanced modeling, simulation, and analysis, the developers of open-source scientific libraries are considering how to design libraries for extensibility and performance portability, while encouraging community contributions to their software and at the same time devising more effective strategies for connections with external packages that provide complementary functionality.  As we work toward broader scientific software ecosystems, we need to harness the collective experiences and insights of library developers on scientific software issues.
 
-## Next steps
+## Where do I go next?
 - **Explore** the resources below.
 - **Investigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
 
