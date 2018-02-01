@@ -18,7 +18,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [Multiphysics Simulations: Challenges and Opportunities](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
 
-* [Enabling Interoperable Biogeochemistry with Alquimia in the xSDK] (../../EnablingInteroperableBiogeochemistryWithAlquimia.md)
+* [Enabling Interoperable Biogeochemistry with Alquimia in the xSDK](../../EnablingInteroperableBiogeochemistryWithAlquimia.md)
 
 * [Team of Teams: Strategies for Large Organizations](../../CuratedContent/TeamOfTeams.md)
 
