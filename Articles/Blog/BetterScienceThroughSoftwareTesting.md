@@ -5,7 +5,7 @@
 
 #### Contributed by [Tom Evans](https://github.com/tmdelellis "Tom Evans GitHub Profile")
 
-#### Publication date: Feb 2, 2018
+#### Publication date: February 2, 2018
 
 *In November 2017, Tom Evans gave a webinar titled "[Managing Defects in HPC Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar012)" in the series [Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars/).  In this article, Tom summarizes how the strategies he employs have helped his teams deliver better science.  Tom is a scientist at Oak Ridge National Laboratory; he leads the project "Coupled Monte Carlo Neutronics and Fluid Flow Simulation of Small Modular Reactors," part of the [DOE Exascale Computing Project](https://www.exascaleproject.org).*
 
@@ -71,7 +71,7 @@ Software Development](https://ideas-productivity.org/events/hpc-best-practices-w
 unit testing and DBC into our daily code-development workflow.
 
 <!---
-Publish: No
+Publish: yes
 Categories: reliability, planning
 Topics: testing, requirements, design
 Tags: bssw-blog-article
