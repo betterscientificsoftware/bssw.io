@@ -1,9 +1,9 @@
 # Better Science through Software Testing
 **Hero Image:**
-- <img src="https://s-media-cache-ak0.pinimg.com/736x/e2/59/71/e2597197db792223d23e75146f5c8678--sleeping-puppies-the-office.jpg">[Puppy at work]
+<img src='https://github.com/betterscientificsoftware/images/blob/master/high-flux-isotope-reactor2.jpg' />[High-flux isotope reactor]
 
 <!---
-<img src='https://github.com/betterscientificsoftware/images/blob/master/high-flux-isotope-reactor2.png' />[High-flux isotope reactor]
+- <img src="https://s-media-cache-ak0.pinimg.com/736x/e2/59/71/e2597197db792223d23e75146f5c8678--sleeping-puppies-the-office.jpg">[Puppy at work]
 --->
 
 <!---
