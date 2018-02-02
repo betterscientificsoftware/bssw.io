@@ -3,25 +3,10 @@
 **Hero Image:**
 <img src="https://github.com/betterscientificsoftware/images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png" />[High-flux isotope reactor]
 
-<!---
-<img src='https://github.com/betterscientificsoftware/images/blob/master/high-flux-isotope-reactor2.jpg' />[High-flux isotope reactor]
---->
-
-<!---
-- <img src="https://s-media-cache-ak0.pinimg.com/736x/e2/59/71/e2597197db792223d23e75146f5c8678--sleeping-puppies-the-office.jpg">[Puppy at work]
---->
-
-<!---
-**Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/blob/master/high-flux-isotope-reactor2.png">[High-flux isotope reactor]
---->
-
 #### Contributed by [Tom Evans](https://github.com/tmdelellis "Tom Evans GitHub Profile")
 
 #### Publication date: February 2, 2018
 
-(PLaceholder Deck) One of the great challenges in computational science is the management of
-software quality in a discovery-based endeavor.
 
 *In November 2017, Tom Evans gave a webinar titled "[Managing Defects in HPC Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar012)" in the series [Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars/).  In this article, Tom summarizes how the strategies he employs have helped his teams deliver better science.  Tom is a scientist at Oak Ridge National Laboratory; he leads the project "Coupled Monte Carlo Neutronics and Fluid Flow Simulation of Small Modular Reactors," part of the [DOE Exascale Computing Project](https://www.exascaleproject.org).*
 
