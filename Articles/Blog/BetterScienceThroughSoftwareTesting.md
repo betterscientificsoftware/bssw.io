@@ -40,8 +40,6 @@ accurate. The method is implemented, and flow verification problems yield
 first-order convergence.  Now, we must answer the question, "Is this a code
 bug or an error in analysis?"
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/high-flux-isotope-reactor2.jpg' class='page lightbox' />
-
 SQE practiced in an agile manner appropriate for discovery, research-based
 endeavors can help answer this question.  So, not only is SQE compatible with
 research-driven software development, it is essential.  This is especially
