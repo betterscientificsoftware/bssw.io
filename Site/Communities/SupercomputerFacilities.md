@@ -25,11 +25,11 @@ Featured resources for the Community of Supercomputer Facilities and their Users
 Edit this list to change resources that appear on the front-end site.
 -->
 
+* [Portability Across DOE Office of Science HPC Facilities](../../CuratedContent/PortabilityAcrossDOEOfficeOfScienceHPCFacilities.md)
+
 * [How to Estimate Operational Intensity](../../CuratedContent/HowToEstimateOperationalIntensity.md)
 
 * [What Is Performance Portability for CSE Applications?](../../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
-
-* [Portability Across DOE Office of Science HPC Facilities](../../CuratedContent/PortabilityAcrossDOEOfficeOfScienceHPCFacilities.md)
 
 * [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
 
