@@ -1,7 +1,10 @@
 # Better Science through Software Testing
+<img src='https://github.com/betterscientificsoftware/images/blob/master/high-flux-isotope-reactor2.png' />[High-flux isotope reactor]
 
+<!---
 **Hero Image:**
 - <img src="https://github.com/betterscientificsoftware/images/blob/master/high-flux-isotope-reactor2.png">[High-flux isotope reactor]
+--->
 
 #### Contributed by [Tom Evans](https://github.com/tmdelellis "Tom Evans GitHub Profile")
 
