@@ -15,5 +15,5 @@ Topics: online learning
 Tags: bssw-article
 Level: 2
 Prerequisites: default
-Aggregate: base
+Aggregate: subresource
 --->
