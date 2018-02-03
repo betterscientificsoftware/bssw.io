@@ -74,7 +74,7 @@ unit testing and DBC into our daily code-development workflow.
 <!---
 Publish: yes
 Categories: reliability, planning
-Topics: testing, requirements, design
+Topics: testing, design
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
