@@ -1,4 +1,4 @@
-# On Demand Learning for Better Scientific Software2
+# Using Resources & Technology to Optimize your Productivity
 
 This is a sample aggregate resource file to demonstrate use of subresources.
 
