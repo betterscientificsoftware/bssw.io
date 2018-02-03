@@ -1,6 +1,8 @@
-# On-demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize your Productivity 
+# On-demand Learning for Better Scientific Software: Using Resources & Technology to Optimize your Productivity 
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn")
+
+#### Publication date: February 3, 2018
 
 Applying on-demand learning strategies for self-paced “learning in the wild” can augment professional learning from massively open online courses (MOOC) such as EdX, Udacity, and videos available from YouTube and other sources. 
 
