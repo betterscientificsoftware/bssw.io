@@ -1,4 +1,4 @@
-# Sample Aggregate Resource 2
+# On Demand Learning For Better Scientific Software3
 
 This is a sample aggregate resource file to demonstrate use of subresources.
 
@@ -8,7 +8,13 @@ More introductory information goes in this paragraph. More introductory informat
 - [TLF Example: Python1](OnlineLearningTLF.Python.md)
 - [TLF Example: Python2](OnlineLearningTLF.Python.md)
 
-#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn")
+<!---
+**Subresources:**
+- [Resource1](DocumentationTools.Doxygen.md)
+- [Resource2](DocumentationTools.ReadTheDocs.md)
+--->
+
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes")
 
 #### Publication date: February 3, 2018
 
