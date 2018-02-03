@@ -1,4 +1,4 @@
-# On-demand Learning for Better Scientific Software 
+# On Demand Learning for Better Scientific Software
 
 Applying on-demand learning strategies for self-paced “learning in the wild” can augment professional learning from massively open online courses (MOOC) such as EdX, Udacity, and videos available from YouTube and other sources. 
 
@@ -14,7 +14,7 @@ A forthcoming article will explain key points of self-directed online learning, 
 
 <!---
 Publish: yes
-Categories: skills
+Categories: development
 Topics: [import from subresources]
 Tags: [import from subresources]
 Level: 2
