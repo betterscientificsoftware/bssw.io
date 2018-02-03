@@ -1,4 +1,4 @@
-# On-demand Learning for Better Scientific Software: Using Resources & Technology to Optimize your Productivity 
+# On-demand Learning for Better Scientific Software 
 
 Applying on-demand learning strategies for self-paced “learning in the wild” can augment professional learning from massively open online courses (MOOC) such as EdX, Udacity, and videos available from YouTube and other sources. 
 
@@ -20,4 +20,9 @@ Tags: [import from subresources]
 Level: 2
 Prerequisites: [import from subresources]
 Aggregate: base
+--->
+
+<!---
+Original title
+# On-demand Learning for Better Scientific Software: Using Resources & Technology to Optimize your Productivity 
 --->
