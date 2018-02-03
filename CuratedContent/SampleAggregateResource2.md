@@ -14,9 +14,9 @@ More introductory information goes in this paragraph. More introductory informat
 - [Resource2](DocumentationTools.ReadTheDocs.md)
 --->
 
-#### Publication date: February 3, 2018
-
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes")
+
+#### Publication date: February 3, 2018
 
 <!---
 Publish: yes
