@@ -4,9 +4,9 @@
 
 #### Publication date: February 5, 2017
 
-We are pleased to announce the inaugural class of Better Scientific Software (BSSw) Fellows: four Fellows and four Honorable Mentions, who will be recognized during the Exascale Computing Project 2nd Annual Meeting, February 6-9, 2018, in Knoxville, TN.  
+We are pleased to announce the inaugural class of Better Scientific Software (BSSw) Fellows: four Fellows and four Honorable Mentions, who will be recognized during the [Exascale Computing Project 2nd Annual Meeting](https://www.ecpannualmeeting.com), February 6-9, 2018, in Knoxville, TN.  
 
-The BSSw Fellowship Program gives recognition and funding to leaders and advocates of high-quality scientific software. Each Fellow will receive up to $10,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
+The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each Fellow will receive up to $10,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
 
 We thank all fellowship applicants for such a strong showing.  The selection process was difficult, as many creative proposals with interesting ideas were submitted.
 
