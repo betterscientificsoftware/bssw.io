@@ -1,6 +1,6 @@
 # Transmedia Learning Framework for Git and GitHub
 
-Below you will find some resources for a Transmedia Learning Framework for GitHub, with emphasis on use for computational science and high-performance computing. 
+Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
 
 - [Udacity MOOC How to use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 This free Udacity massively open online course (MOOC) focuses on version control for code using Git and GitHub.
