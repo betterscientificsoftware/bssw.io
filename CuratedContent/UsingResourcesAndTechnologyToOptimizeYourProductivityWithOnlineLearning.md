@@ -6,7 +6,7 @@ A forthcoming article will explain key points of self-directed online learning, 
 
 **Subresources:**
 - [TLF Example: Python1](OnlineLearningTLF.Python.md)
-- [TLF Example: Python2](OnlineLearningTLF.Python.md)
+- [TLF Example: Git and GitHub](OnlineLearningTLF.Python.md)
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn")
 
