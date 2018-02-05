@@ -4,11 +4,11 @@
 
 #### Publication date: February 5, 2017
 
-We are pleased to announce the inaugural class of Better Scientific Software (BSSw) Fellows: four Fellows and four Honorable Mentions, who will be recognized during the [Exascale Computing Project 2nd Annual Meeting](https://www.ecpannualmeeting.com), February 6-9, 2018, in Knoxville, TN.  
+We are pleased to announce the inaugural class of Better Scientific Software (BSSw) Fellows: four Fellows and four Honorable Mentions, who will be recognized during the [Exascale Computing Project 2nd Annual Meeting](https://www.ecpannualmeeting.com), February 6-9, 2018, in Knoxville, TN.  Thanks to **all** fellowship applicants. The broad range of creative and interesting proposals made the selection process difficult.
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each Fellow will receive up to $10,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
 
-We thank all fellowship applicants for such a strong showing.  The selection process was difficult, as many creative proposals with interesting ideas were submitted.
+
 
 ## 2018 BSSw Fellows
 <p>&nbsp;</p>
@@ -70,9 +70,9 @@ Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facil
 <p>&nbsp;</p>
 
 ### About the BSSw Fellowship
-As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the BSSw email list for notification about next year’s call for applications, which will be announced in fall 2018.
+As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in fall 2018.
 
-Stay tuned for more about the activities that the 2018 BSSw Fellows will be leading and how the focus of each will broaden BSSw resources. 
+Stay tuned for more from the 2018 BSSw Fellows. 
 
 <!---
 Publish: yes
