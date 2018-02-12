@@ -38,7 +38,9 @@ and anecodotal evidence but lacking in formal medical studies with definitive ou
 schemes may work better for different people, or routinely alternating schemes may stave off eye fatigue.
 One color scheme worth considering, however, is [Solarized](http://ethanschoonover.com/solarized). It offers both dark and light background themes and is designed to maintain good _selective contrast_ for _syntax highlighting_ used in various editors. You
 can find color _settings_ files for numerous editors and IDEs on [Github](https://github.com/altercation/solarized).
-What about fonts? The most important strategy is to use fonts that enable rather than get in the way of [code development](https://spin.atomicobject.com/2016/07/11/programming-fonts).
+What about fonts? The most important strategy is to use fonts that enable rather than get in the way of [code development](https://spin.atomicobject.com/2016/07/11/programming-fonts). Of course, use a font size that is easier rather than harder
+on your eyes. In our desire to cram as much information as possible onto a single screen full of text, we all too often opt
+for font sizes that are too small and can cause our eyes to fatigue quickly.
 
 ## Take Breaks
 Take frequent breaks to briefly rest your eyes. A common best practice is the [_20-20-20_](https://www.labnol.org/software/computer-eye-exercise/14069/) rule: Every 20 minutes, find some object 20 feet away and stare at it for 20 seconds. Many apps are available for your phone, pad, or laptop that can help you remember to take breaks. Several apps also can help you exercise your eyes and might even be able to [improve your vision](http://www.iflscience.com/brain/apps-can-improve-your-vision/). One in particular, [Flux](https://justgetflux.com), tries to optimize the color mix of your screen's light based on the time of day.
