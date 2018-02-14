@@ -21,25 +21,25 @@ feedback regarding test status with each key-stroke they enter.
 CI testing may have a number of implications for **both** software and test development. First, it can demand a
 very high level of _automation_.
 
-&bull Commits on multiple branches can be automatically merged.
+&bull; Commits on multiple branches can be automatically merged.
 
-&bull Tests can be automatically triggered as commits are made.
+&bull; Tests can be automatically triggered as commits are made.
 
-&bull _Relevant_ tests can be automatically determined for a given commit.
+&bull; _Relevant_ tests can be automatically determined for a given commit.
 
-&bull The cause of test failures can be automatically attributed to a given developer's commit(s).
+&bull; The cause of test failures can be automatically attributed to a given developer's commit(s).
 
 Next, CI testing can often require that tests be designed with several important attributes
 
-&bull Tests _know_ which code blocks they depend on.
+&bull; Tests _know_ which code blocks they depend on.
 
-&bull Different tests do not depend on each other.
+&bull; Different tests do not depend on each other.
 
-&bull Incremental re-test of only failed tests is supported.
+&bull; Incremental re-test of only failed tests is supported.
 
-&bull Multiple tests can be executed in parallel.
+&bull; Multiple tests can be executed in parallel.
 
-&bull Tests are designed and compute resources are such that tests complete with immediacy.
+&bull; Tests are designed and compute resources are such that tests complete with immediacy.
 
 
 High frequency and/or fine granularity of CI testing can also mean that software changes are required
