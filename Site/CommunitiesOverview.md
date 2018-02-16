@@ -6,6 +6,7 @@ The Better Scientific Software umbrella encompasses a rich variety of communitie
 
 ### Better Scientific Software Communities:
 - [Community of Supercomputing Facilities and Their Users](Communities/SupercomputerFacilities.md)
+- [Computational Molecular Sciences](Communities/ComputationalMolecular.md)
 - [Environmental System Science Community](Communities/EnvironmentalSystemScience.md)
 - [Exascale Computing Community](Communities/ExascaleComputing.md)
 - [Scientific Libraries Community](Communities/ScientificLibraries.md)
