@@ -28,7 +28,7 @@ A form of testing where the primary aim is to operate the software as a proxy fo
 #### Continuous Integration (CI) testing
 A form of testing where the primary aims are to provide _immediate_ feedback regarding compatability of changes with respect to multiple, parallel branches of development as well as overall software functionality.
 
-#### Contributed by [Mike Heroux](https://github.com/maherou)
+#### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C Miller](https://github.com/markcmiller86)
 
 <!---
 Publish: yes
