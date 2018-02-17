@@ -14,7 +14,7 @@ Different testing practices serve different aims. To help differentiate them, we
 practices into a handful of categories. However, these are not carved in stone. The lines between
 categories are often blurred and can easily change as practices and aims evolve. It is more important
 to keep the focus on the aims rather than the category/label we assign them. With this in mind, we
-breifly describe a few of the more commonly used categories of sofware testing.
+breifly describe a few of the more commonly used categories of software testing.
 
 #### Regression testing:
 A form of testing where the primary aim is to ensure software changes do not break previously developed and known to be working functionality (e.g. cause the software to _regress_ in its functionality).
