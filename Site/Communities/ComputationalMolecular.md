@@ -1,4 +1,4 @@
-# The Computational Molecular Sciences Community
+# Computational Molecular Sciences Community
 
 Computational molecular science (CMS) encompasses the fields of quantum chemistry, materials science, and biomolecular simulation, including both atomistic and coarse-grained models — ranging from classical molecular dynamics to quantum mechanics and the hierarchy of models in between.
 
@@ -20,7 +20,7 @@ The CMS community shares many of the software challenges faced by other fields o
   * [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/index.html "Netherlands eScience Center Guide")
   * [GitHub Best Practices](../../CuratedContent/GitHub.md "GitHub Best Practices")
   * [Getting Git Right](../../CuratedContent/GettingGitRight.md "Getting Git Right")
-  * [What is Software Engineering for CSE](../../CuratedContent/WhatIsSoftwareEngineeringForCSE.md "What is Software Engineering for CSE")
+  * [What is Software Engineering for CSE](../../Site/Categories/Topics/WhatIsSwEngForCse.md "What is Software Engineering for CSE")
 
 <!---
 Publish: yes
