@@ -1,4 +1,3 @@
-@@
 # Transmedia Learning Framework for Git and GitHub
 Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
 
@@ -18,3 +17,13 @@ Below you will find some resources for a Transmedia Learning Framework for Git a
 The git-game is a terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system. The theme of the game is a scavanger hunt. Using git's commands you find clues that will help you solve the "puzzle". 
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn") 
+
+<!---
+Publish: yes
+Categories: skills, development
+Topics: online learning, software engineering
+Tags: bssw-article
+Level: 2
+Prerequisites: defaults
+Aggregate: subresource
+--->
