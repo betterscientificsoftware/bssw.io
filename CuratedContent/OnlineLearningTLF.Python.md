@@ -1,23 +1,23 @@
-# Transmedia Learning Framework for Git and GitHub
+# Transmedia Learning Framework for Python
 
-Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
+Below you will find some resources for a Transmedia Learning Framework for Python, with emphasis on use for computational science and high-performance computing. 
 
-- [Udacity MOOC How to use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-This free Udacity massively open online course (MOOC) focuses on version control for code using Git and GitHub.
+- [Learn Python Programming - 1 - How to Download and Install Python in 2 Minutes](https://www.youtube.com/watch?v=wp15jyylSEQ)  
+The Clever Programmer YouTube channel offers a number of short videos for learning Python.
 
-- [Git tutorial 2 Advanced Techniques with Rachel](https://www.youtube.com/watch?v=hF9X62rLSjE)
-This tutorial covers advanced git commands including fetching, cloning, remotes, branches, merging, forking and stashing.
+- [Python in HPC ](https://www.youtube.com/watch?v=14rbhkrRxUs)
+William Scullin from Argonne National Laboratory presents "Python for High Performance Computing" at the Argonne Training Program on Extreme-Scale Computing (ATPESC), Summer, 2015.
 
-- [IDEAS Productivity Intermediate Git Webinar](https://www.youtube.com/watch?v=xBNlcq2B2E8)
-Roscoe Bartlett, Sandia National Laboratories discusses intermediate-level tutorial and reference information about the Git version control (VC) system. This overview takes the view that the best way to learn to use Git effectively is to learn it as a data structure and a set of algorithms to manipulate that data structure.  
+- [Python Software Engineering Training Materials](https://shuds13.github.io/python-tutorials)
+Stephen Hudson, from Argonne National Laboratory has created Python tips, tutorials, and resources for computational scientists. 
 
-- [IDEAS Productivity Git Tutorial and Reference Collection](https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection/)
-This page provides links to some useful tutorial and reference information about the git version control system.
+- [Udacity MOOC Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036)
+This free introductory programming class is for beginners with little or no experience with Object-Oriented Programming.
 
-- [GitGame](https://www.git-game.com/)
-The git-game is a terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system. The theme of the game is a scavanger hunt. Using git's commands you find clues that will help you solve the "puzzle". 
+- [Codewars](https://www.codewars.com/)
+Sign up to try your hand at training with others on "real code challenges." 
 
-#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn") 
+#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn") and [Stephen Hudson](https://github.com/shuds13 "Stephen Hudson")
 
 <!---
 Publish: yes
