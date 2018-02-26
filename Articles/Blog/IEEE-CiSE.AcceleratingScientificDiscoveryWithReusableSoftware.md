@@ -23,8 +23,8 @@ Please contact the guest editors at <cise2-2019@computer.org> with any questions
 
 <!---
 Publish: No
-Categories: collaboration
-Topics: discussion forums, Q&A sites, projects and organizations
+Categories: collaboration, skills
+Topics: projects and organizations, online learning
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
