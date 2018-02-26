@@ -3,7 +3,7 @@
 
 #### Contributed by [Scott Lathrop](https://github.com/scottlathrop " Scott Lathrop GitHub Profile")
 
-#### Publication date: February 28, 2017
+#### Publication date: February 26, 2017
 
 Share your knowledge and perspectives on developing, applying and promoting reusable research software by submitting an idea for an article for a special issue of IEEE's Computing in Science and Engineering that will be published by April of 2019.
 
