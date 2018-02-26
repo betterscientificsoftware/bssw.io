@@ -1,11 +1,11 @@
-# Call for Papers -- Accelerating Scientific Discovery with Reusable Software
+# Accelerating Scientific Discovery with Reusable Software ... Call for Papers
 <img src='https://github.com/betterscientificsoftware/images/raw/master/IEEE-CiSE-special-issue.png' />[]
 
 #### Contributed by [Scott Lathrop](https://github.com/scottlathrop " Scott Lathrop GitHub Profile")
 
-#### Publication date: February 26, 2017
+#### Publication date: February 26, 2018
 
-Share your knowledge and perspectives on developing, applying and promoting reusable research software by submitting an idea for an article for a special issue of IEEE's Computing in Science and Engineering that will be published by April of 2019.
+Share your knowledge and perspectives on developing, applying, and promoting reusable research software by submitting an idea for an article for a special issue of IEEE's Computing in Science and Engineering that will be published by April of 2019.
 
 #### Submit an idea for an article to a special issue of IEEE-CiSE
 - Letter of intent to submit (with abstract) deadline: April 2, 2018
