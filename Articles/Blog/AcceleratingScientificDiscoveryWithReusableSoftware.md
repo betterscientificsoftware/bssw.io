@@ -22,7 +22,7 @@ We are soliciting papers on topics that include, but are not limited to, the sta
 Please contact the guest editors at <cise2-2019@computer.org> with any questions.
 
 <!---
-Publish: No
+Publish: Yes
 Categories: collaboration, skills
 Topics: projects and organizations, online learning
 Tags: bssw-blog-article
