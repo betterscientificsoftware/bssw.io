@@ -17,7 +17,7 @@ A research team produced and published a set of computational results.  Starting
 
 For scenarios I and II, reproducibility requirements demand a detailed accounting and retention of algorithms, software and input data used to produce the initial computational results.  Therefore, reproducibility increases incentives for computational science teams to invest in high-quality software and data management practices.
 
-#### Contributed by [Michael Heroux](https://github.com/maherou)
+#### Contributed by [Mike Heroux](https://github.com/maherou)
 
 <!---
 Publish: yes

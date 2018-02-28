@@ -3,9 +3,6 @@
 Documentation is critical for explaining how users
 interacted with software.  Introductory information:
 
-- [What is good documentation?](WhatIsGoodDocumentation.md)
-- [How to write good documentation](HowToWriteGoodDocumentation.md)
-
 A variety of tools exist for writing, rendering, and managing documentation.
 
 **Subresources:**

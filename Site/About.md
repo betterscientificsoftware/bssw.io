@@ -1,16 +1,11 @@
 # About
 
-The Better Scientific Software (BSSw) community is working to improve software productivity and sustainability--a key element of overall scientific productivity.
+The Better Scientific Software (BSSw) community is an international group of researchers, practitioners, and stakeholders from national laboratories, academic institutions, and industry who are dedicated to curating, creating, and disseminating information that leads to improved software for the advancement of computational science and engineering (CSE) and related technical computing areas, with a particular interest in CSE on high-performance (parallel) computers.  We invite anyone interested in CSE software to join us in this effort.  
 
-The BSSw community is an international group of researchers, practitioners, and stakeholders from national laboratories, academic institutions, and industry who are dedicated to curating, creating, and disseminating information that leads to improved software for the advancement of computational science and engineering (CSE) and related technical computing areas, with a particular interest in CSE on high-performance (parallel) computers.  We are a community endeavor and invite anyone interested in CSE software to join us in this effort.  
-
-We’re creating a clearinghouse to gather, discuss, and disseminate experiences, techniques, tools, and other resources to improve developer productivity and software sustainability for CSE.  Site users can find information on many scientific software topics and can propose to curate or create new content based on their own experiences.
+We’re creating a clearinghouse to gather, discuss, and disseminate experiences, techniques, tools, and other resources to improve developer productivity and software sustainability - a key element of overall scientific productivity.  Site users can find information on many scientific software topics and can propose to curate or create new content based on their own experiences.
 
 ## Site Use Policies
-2 sentences about site use policies goes here + link to the [BSSw Policies](Policies.md).
-
-## BSSw Contributors
-We encourage community contributions Better Scientific Software; see details at [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md).  See the list of current contributors [link to Contributors page -- coming from Parallactic?]
+We expect all contributors to the Better Scientific Software site to follow a Contributor Code of Conduct, as described in the [BSSw Policies](Policies.md).
 
 ## BSSw Editorial Team
 

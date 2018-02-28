@@ -1,5 +1,3 @@
 # Contact BSSw
 
-Info about how to contact BSSw goes here.
-
-And here is a paragraph with more info.  xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx xxxx xxx xxxxxx xxxx xxxx xxxxxx.
+Please contact us if you have questions, comments, or suggestions.
