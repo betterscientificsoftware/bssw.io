@@ -1,8 +1,7 @@
 # test\_007\_pass.md
 
-This test should 'pass' the auto testing because it's not intended to be published, so no further checks on 
+This test should 'pass' the auto testing because it's not intended to be published, so no further checks on
 the metadata will be performed.
-
 
 <!---
 Publish: no
