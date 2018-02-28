@@ -28,8 +28,10 @@ composable codes run relatively slowly because they sacrifice performance for
 multiphysics and composability. Sometimes this means using suboptimal options for individual
 components. The framework should be able to facilitate such unorthodox
 approaches and therefore should provide hooks for being able to make
-these choices. For more details on framework design see
-[Dubey2009,uintah2,valiev2010nwchem,case2014amber,O'Shea2005,Dubey2015]
+these choices. 
+<!--- For more details on framework design see
+[Dubey2009,uintah2,valiev2010nwchem,case2014amber,O'Shea2005,Dubey2015] 
+--->
 
 Another important consideration in scientific software design is its
 dynamic nature. Codes designed for one problem are routinely modified
@@ -38,6 +40,8 @@ understanding places more demands on the current model. Therefore,
 extensibility in also a very important aspect of scientific software design.
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
+
+#### Publication date: May 17, 2017
 
 <!---
 Publish: yes

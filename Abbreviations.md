@@ -1,10 +1,12 @@
 ### Abbreviations Used on the BSSw Site
 
 
+- ACM: Association for Computing Machinery
 - BSSw: Better Scientific Software
 - CoDeSe: Computational and Data-enabled Science and Engineering
 - CSE: Computational Science and Engineering
 - CSE17: 2017 SIAM Conference on Computational Science and Engineering
+- DOE: Department of Energy
 - FAQ: Frequently Asked Question
 - FORCE11: FORCE11 Software Citation Implementation Working Group
 - HPC: High-Performance Computing
@@ -24,7 +26,7 @@
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
 - WSSSPE 5.1: WSSSPE event
 - WSSSPE 5.2: WSSSPE event
-- ACM: Association for Computing Machinery
+- xSDK: Extreme-scale Scientific Software Development Kit
 
 <!--
 Publish: no

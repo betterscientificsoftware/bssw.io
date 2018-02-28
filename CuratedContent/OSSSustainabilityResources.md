@@ -7,7 +7,7 @@ you are successful, the work involved in sustaining the community can
 come to dominate your time.
 
 This page documents resources available for maintainers of open source
-software, from reports and books discussing the problems facing OSS
+software (OSS), from reports and books discussing the problems facing OSS
 maintainers, to foundations and nonprofits that can potentially provide
 community funding for open source projects.  Much scientific software is
 open source, and the needs of mainstream open source projects frequently
@@ -18,20 +18,19 @@ to implement your sustainability plan.
 
 ## Reports and books on open source software
 
-* Nadia Eghbal. [Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/). Ford Foundation Report. 2016.
+* [Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/)
 
-  Ford Foundation report on long-term sustainability of open source
-  software infrastructure.
+Nadia Eghbal, 2016. Ford Foundation report on long-term sustainability of open source software infrastructure.
 
-* Open Source Guides, by GitHub: [opensource.guide](https://opensource.guide/)
+* [opensource.guide](https://opensource.guide/)
 
-  A series of how-tos on launching and sustaining open source
-  projects. It includes topics on starting a project, licensing, maintaining, establishing
+Open Source Guides, by GitHub: A series of how-tos on launching and sustaining open source
+  projects. Information includes topics on starting a project, licensing, maintaining, establishing
   community governance, and finding funding.
 
-* Karl Fogel. [Producing Open Source Software](https://www.amazon.com/Producing-Open-Source-Software-Successful/dp/0596007590/). 2005.
+* [Producing Open Source Software](https://www.amazon.com/Producing-Open-Source-Software-Successful/dp/0596007590/)
 
-  This book is soon to be
+Karl Fogel, 2005.  This book is soon to be
   [updated to a second edition](https://www.kickstarter.com/projects/kfogel/updating-producing-open-source-software-for-2nd-ed).
   It discusses various aspects of managing a community of open source
   developers.
@@ -52,13 +51,16 @@ to implement your sustainability plan.
 
 ## Foundations and nonprofits that fund open source development
 
-* [NumFOCUS](http://www.numfocus.org/): 501 (c) nonprofit sustaining
-  open source projects in data science.
+* [NumFOCUS](http://www.numfocus.org/)
 
-* [Linux Foundation](https://www.linuxfoundation.org/) A nonprofit technology trade association chartered to
+501 (c) nonprofit sustaining open source projects in data science.
+
+* [Linux Foundation](https://www.linuxfoundation.org/) 
+
+A nonprofit technology trade association chartered to
   promote, protect, and advance Linux and collaborative development.
 
-  * [OpenHPC](openhpc.community) is a member project.
+* [OpenHPC](openhpc.community) is a member project.
 
 
 ## Grants
@@ -90,6 +92,8 @@ to implement your sustainability plan.
   which funded the Roads & Bridges report on open source.
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin)
+
+#### Publication date: December 4, 2017
 
 <!---
 Publish: yes

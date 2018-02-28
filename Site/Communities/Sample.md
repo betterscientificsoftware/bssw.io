@@ -6,10 +6,9 @@ Background paragraph goes here.
 ## Software challenges for XXX
 1 paragraph about challenges goes here.
 
-## Next steps
+## Where do I go next?
 - **Explore** the resources below.
 - **Investigate** BSSw's offerings [BSSw Homepage](../Homepage.md).
-- **Share your ideas and experiences** about X,Y,Z, and other concerns. See [What to Contribute](../WhatToContribute.md) and [How to Contribute](../HowToContribute.md).
 
 <!--
 Featured resources for the XXX community.

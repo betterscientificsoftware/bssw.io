@@ -8,16 +8,27 @@ Testing addresses these basic questions:
 
 Tests typically come in the form of additional software that executes the software product, exercising it with known inputs that should produce expected output. Further testing concepts include:
 
+#### Categories of testing
+
+Different testing practices serve different aims. To help differentiate them, we often group testing
+practices into a handful of categories. However, these are not carved in stone. The lines between
+categories are often blurred and can easily change as practices and aims evolve. It is more important
+to keep the focus on the aims rather than the category/label we assign them. With this in mind, we
+breifly describe a few of the more commonly used categories of software testing.
+
 #### Regression testing:
-Executing a collection of tests that can detect if changes to the product have introduced a regression (failure).
+A form of testing where the primary aim is to ensure software changes do not break previously developed and known to be working functionality (e.g. cause the software to _regress_ in its functionality).
 
 #### Unit testing:
-Fine-grain testing of individual funtions for correct behavior.
+A form of testing where the primary aim is to enable fine-grain portions of the software (usually individual functions or subroutines) to be tested in isolation apart from the larger software product in which they are used.
 
 #### Functional testing:
-Testing of the software across of set of functions as a proxy for how a user would use the product.
+A form of testing where the primary aim is to operate the software as a proxy for how a user would use the product.
 
-#### Contributed by [Mike Heroux](https://github.com/maherou)
+#### Continuous Integration (CI) testing
+A form of testing where the primary aims are to provide _immediate_ feedback regarding compatability of changes with respect to multiple, parallel branches of development as well as overall software functionality.
+
+#### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C Miller](https://github.com/markcmiller86)
 
 <!---
 Publish: yes
