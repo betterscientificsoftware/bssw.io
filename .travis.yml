@@ -2,7 +2,7 @@ language: python
 python:
   - '2.7'
 before_script:
-  - git clone https://github.com/betterscientificsoftware/Scripts.git __Scripts
+  - git clone https://github.com/betterscientificsoftware/Scripts.git ___Scripts
 script:
-  - __Scripts/test_bssw_pr.sh
+  - ___Scripts/test_bssw_pr.sh
 
