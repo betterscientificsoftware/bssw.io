@@ -1,0 +1,10 @@
+language: python
+python:
+  - '2.7'
+before_script:
+  - echo "before script"
+  - git clone https://github.com/betterscientificsoftware/Scripts.git __Scripts
+script:
+  - echo "script"
+  - ls -ltr
+  - ls -ltr __Scripts/
