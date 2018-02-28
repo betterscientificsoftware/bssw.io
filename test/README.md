@@ -4,7 +4,6 @@ This directory contains sample article markdown files used for testing the auto-
 
 
 
-
 <!---
 Publish: No
 --->
