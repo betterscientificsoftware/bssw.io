@@ -16,6 +16,7 @@
 - LCF: Leadership Computing Facility
 - LCFs: Leadership Computing Facilities
 - PSIP: Productivity and Sustainability Improvement Planning
+- PP18: SIAM Conference on Parallel Processing for Scientific Computing 2018
 - SC: Supercomputing
 - SE-CoDeSe: Software Engineering for Computational and Data-enabled Science and Engineering
 - SC17: SC17 Conference
