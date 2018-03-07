@@ -4,13 +4,13 @@
 - Location: Tokyo, Japan
 - Event Website: https://www.siam.org/meetings/pp18/
 
-The SIAM Conference on Parallel Processing for Scientific Computing (PP18) features an invited presentation related to software productivity and sustainability.
+The SIAM Conference on Parallel Processing for Scientific Computing (PP18) features an invited presentation on how software ecosystems can help to improve software productivity and sustainability.
 
 **Description:** The Society for Industrial and Applied Mathematics presents the Eighteenth Conference on Parallel Processing for Scientific Computing. This series of conferences has played a key role in promoting parallel scientific computing, algorithms for parallel systems, and parallel numerical algorithms. The conference is unique in its emphasis on the intersection between high performance scientific computing and scalable algorithms, architectures, and software. The conference provides a forum for communication among the applied mathematics, computer science, and computational science and engineering communities.
 
-## Highlights: PP18 Event on Productivity and Sustainability
+## PP18 Invited Presentation on Software Ecosystems
 
-### Invited Presentation: Toward Community Software Ecosystems for High-Performance Computational Science
+### Toward Community Software Ecosystems for High-Performance Computational Science
 
 Speaker: Lois Curfman McInnes, Argonne National Laboratory
 
@@ -18,12 +18,11 @@ Speaker: Lois Curfman McInnes, Argonne National Laboratory
 
 These challenges create the unique opportunity to fundamentally change how scientific software is designed, developed, and sustained---with explicit work toward scientific software ecosystems. This presentation will introduce the xSDK, or Extreme-scale Scientific Software Development Kit, where community-defined policies are increasing the quality and interoperability across numerical libraries as needed by the DOE Exascale Computing Project.  We will also discuss complementary efforts to increase scientific software productivity and sustainability.
 
-
 - Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=63858
 - Slides for presentation: https://doi.org/10.6084/m9.figshare.5959714
 
 <!---
-Publish: no
+Publish: yes
 Categories: planning, collaboration, development
 Topics: software interoperability, strategies for more effective teams, software engineering
 Tags: conference
