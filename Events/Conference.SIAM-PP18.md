@@ -20,7 +20,7 @@ These challenges create the unique opportunity to fundamentally change how scien
 
 
 - Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=63858
-- Slides for presentation: to be provided
+- Slides for presentation: https://doi.org/10.6084/m9.figshare.5959714
 
 <!---
 Publish: no
