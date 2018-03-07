@@ -1,15 +1,15 @@
 
-# SIAM Conference on Parallel Processing for Scientific Computing (PP18)
+# SIAM PP18
 
 - Dates: March 7, 2018 - March 10, 2018
 - Location: Tokyo, Japan
 - Event Website: https://www.siam.org/meetings/pp18/
 
-The PP18 conference features an invited presentation related to software productivity and sustainability.
+The SIAM Conference on Parallel Processing for Scientific Computing (PP18) features an invited presentation related to software productivity and sustainability.
 
 **Description:** The Society for Industrial and Applied Mathematics presents the Eighteenth Conference on Parallel Processing for Scientific Computing. This series of conferences has played a key role in promoting parallel scientific computing, algorithms for parallel systems, and parallel numerical algorithms. The conference is unique in its emphasis on the intersection between high performance scientific computing and scalable algorithms, architectures, and software. The conference provides a forum for communication among the applied mathematics, computer science, and computational science and engineering communities.
 
-## Highlights: PP18 Event on Productivity and Sustainability Topics
+## Highlights: PP18 Event on Productivity and Sustainability
 
 ### Invited Presentation: Toward Community Software Ecosystems for High-Performance Computational Science
 
