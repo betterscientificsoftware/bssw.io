@@ -24,7 +24,7 @@ These challenges create the unique opportunity to fundamentally change how scien
 - Slides for presentation: to be provided
 
 <!---
-Publish: yes
+Publish: no
 Categories: planning, collaboration, development
 Topics: software interoperability, strategies for more effective teams, software engineering
 Tags: conference
