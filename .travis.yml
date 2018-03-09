@@ -12,9 +12,10 @@ script:
 secure: "I/SsVpGItDAxNPrXBwK0SJQI2H+EmVIhapOxg/NwU+TSY9thn+6mxvjUrVUMc6leCYqAsePQSavyWDzQNSHwJ9i5NHcQ0rB9KupuTPOe+ak4+8a8Dzpx5TUkJqjqKWAI4ks75OzvCiy+aS+dE8NvCXDYRV2jNsMjrcPSPKHxUoyHsMiwq3NOzzfhKYB1o1PTdob8aKdyFQmu/bbjA/rTwxIXJzCEOdC6eHv+SS6CcDuPXm9LYQGHjI+nGpD2ev0KYzi439XRsBAeP+v4BDGG97iFp87jls619/zOtlczuucWZ3on8qrBwJ+Ywr/p8V25yAVqTLWfQdSx6W837D42EfpHTRd0dL7gYl9aC69Q8Qcclv1NaGeqZvtYXVXlNRVJP4eWJqdBsonYkSDsX62PcEi/zToHsUzf9vVy3Pfcs6PJBWPkQ22r2o4wouUClhsw1hMVyTxRcGoY3tnkRxzi09tICpZ0341QYoD8GenOGOXQ+e+hM/ml/mHxAMPAgyGIqI76ffcAW7rlZGHl7vvwiU2o3eATuYrye2WB7iR6f2+eDMz9upJxSopfV0zow5IQqCBKQWEdIhHUwyr/E07FVHSvDC+nlI3HJE6a3OTLY3qluvn0aJZ7uFGGfUypnWgH2kNlThHT5uOBNLrWmgymZqVhaQjSM2+eGlu+qwlONAg="
 
 after_success:
-  - "curl -o /tmp/travis-automerge https://raw.githubusercontent.com/betterscientificsoftware/Scripts/master/travis-automerge/travis-automerge"
-  - "chmod a+x /tmp/travis-automerge"
-  - "BRANCHES_TO_MERGE_REGEX='develop' BRANCH_TO_MERGE_INTO=develop GITHUB_REPO=william76/betterscientificsoftware.github.io /tmp/travis-automerge"
+  - env
+#  - "curl -o /tmp/travis-automerge https://raw.githubusercontent.com/betterscientificsoftware/Scripts/master/travis-automerge/travis-automerge"
+#  - "chmod a+x /tmp/travis-automerge"
+#  - "BRANCHES_TO_MERGE_REGEX='develop' BRANCH_TO_MERGE_INTO=develop GITHUB_REPO=william76/betterscientificsoftware.github.io /tmp/travis-automerge"
 
 
 
