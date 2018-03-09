@@ -6,4 +6,3 @@ Since only documents that (1) have a metadata section, and (2) contain a 'Publis
 that metadata will get pushed up to the website, we don't want to reject documents that have no
 metadata in them since they might be works-in-progress.
 
-
