@@ -110,6 +110,7 @@ def write_file(values, fo):
 
     # for blog, article and curated links
     else:
+        fo.write("### {}\n".format(get_filename(values)))
         for i in CONTENTS:
             if values[i] != "":
                 fo.write(values[i]+"\n")
