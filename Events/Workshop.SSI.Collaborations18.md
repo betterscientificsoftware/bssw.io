@@ -1,7 +1,7 @@
 
 # Collaborations Workshop 2018 (CW18)
 
-- Dates: March 26-28, 2018
+- Dates: March 26, 2018 - March 28, 2018
 - Location: Cardiff University, UK
 - Event Website: https://www.software.ac.uk/cw18
 
