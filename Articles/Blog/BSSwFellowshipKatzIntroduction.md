@@ -1,4 +1,4 @@
-# Better Scientific Software Fellowship Activity: Promoting software citation
+# BSSw Fellowship Activity: Promoting Software Citation
 
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
