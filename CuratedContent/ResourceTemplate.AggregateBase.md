@@ -6,8 +6,8 @@ This is a template "base" file to use as a starting point for a new aggregate re
 Provide introductory text for the topic in this file and then information on various subtopics in separate "subresource" files (possibly contributed by different authors). Use the following format to specify subresources, listed in the order to be shown on front-end BSSW site:
 
 **Subresources:**
-- [Name of Subresource1](SubresourceFile1.md)
-- [Name of Subresource2](SubresourceFile2.md)
+- [Name of Subresource1](CuratedContent/SubresourceFile1.md)
+- [Name of Subresource2](CuratedContent/SubresourceFile2.md)
 - etc.
 
 The front-end for the BSSw site will then combine the information into an aggregate resource.  Use the following metadata to describe the aggregate resource components:
@@ -54,7 +54,7 @@ Resource Name:
 
     Brief, essential words only, nothing extra
     For curated content: Follow name of content (e.g., title of book, article, event, site)
-    Filename: Same as resource name
+    Filename: Same as resource name, adding the suffix ".md" to indicate a Markdown file
         No spaces
         Cap for first letter of each word
         Abbreviations:
@@ -66,14 +66,16 @@ Resource Name:
             Perf = Performance
             Sw = Software
             etc.
+         Example filename: MyNewArticleTopic.md
+
+Resource Deck:
+    One-sentence resource description (limited length, appears in header area of frontend)
 
 Resource Description:
-
     Concise paragraph explaining resource from the perspective of the CSE community
     Image file (e.g., logo) - optional (encouraged when this exists)
 
 Contributor:
-
     Name(s) of contributor(s), hyperlinked to GitHub profile(s)
 
 Metadata: Include metadata as formatted comments at the end of the file
