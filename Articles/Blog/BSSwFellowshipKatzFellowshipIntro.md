@@ -12,8 +12,6 @@ I plan to work with astronomers, physicists, and geoscientists:
 - with the repositories and services that are used in these fields, and
 - with other organizations in these domains that are also concerned with recognizing the role of software and its developers and maintainers in these fields.
 
-<br>
-
 I've written [a blog about this that includes my fellowship application](https://danielskatzblog.wordpress.com/2018/02/08/better-scientific-software-fellowship/).
 
 ### More information: 
