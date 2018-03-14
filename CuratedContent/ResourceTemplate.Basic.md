@@ -30,7 +30,7 @@ Resource Name:
 
     Brief, essential words only, nothing extra
     For curated content: Follow name of content (e.g., title of book, article, event, site)
-    Filename: Same as resource name
+    Filename: Same as resource name, adding the suffix ".md" to indicate a Markdown file
         No spaces
         Cap for first letter of each word
         Abbreviations:
@@ -42,18 +42,19 @@ Resource Name:
             Perf = Performance
             Sw = Software
             etc.
+      Example filename: MyNewArticleTopic.md
 
+Resource Deck:
+    One-sentence resource description (limited length, appears in header area of frontend)
+    
 Resource Description:
-
     Concise paragraph explaining resource from the perspective of the CSE community
     Image file (e.g., logo) - optional (encouraged when this exists)
 
 Contributor:
-
         Name(s) of contributor(s), hyperlinked to GitHub profile(s)
 
 Metadata: Include metadata as formatted comments at the end of the file
-
     Publish: Publish on the BSSw front-end site?
     Categories: Specify 1 or more categories (primary display via BSSw website)
     Topics: Specify 1 or more topics (visible filters via BSSw website)
