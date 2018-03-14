@@ -6,6 +6,7 @@
 #### Publication date: March 13, 2018
 
 The Better Scientific Software organization has awarded four inaugural fellowships, including one to me to make scientific software more sustainable by providing credit to its developers via software citation.
+
 I plan to work with astronomers, physicists, and geoscientists: 
 - through conferences,
 - with the repositories and services that are used in these fields, and
@@ -15,7 +16,7 @@ I plan to work with astronomers, physicists, and geoscientists:
 
 I've written [a blog about this that includes my fellowship application](https://danielskatzblog.wordpress.com/2018/02/08/better-scientific-software-fellowship/).
 
-#### More information about the BSSw Fellowship Program
+### More information: 
 - [BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-program)
 
 <!---
