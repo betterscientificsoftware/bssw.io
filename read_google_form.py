@@ -6,7 +6,7 @@ import gspread
 from oauth2client.client import SignedJwtAssertionCredentials
 import json
 import os
-
+from datetime import datetime
 
 # Find the correct folder
 FOLDER_LOOKUP = {
@@ -18,12 +18,20 @@ FOLDER_LOOKUP = {
 
 # Below are the indexes of necessary information in the Google Sheet. Need to change if needed
 
-FOLDER = 21  # index of folder name
+FOLDER = 14  # index of folder name
 LAST_NAME = 4  # index of last name
-FILE_NAME = 27  # index of file name
-TOPICS = range(15, 21)  # indexes of topic
-CATEGORY = 14  # index of category
-CONTENTS = range(22, 27)  # indexes of file content
+ARTICLE_NAME = [15, 17, 19]  # index of file name
+TOPICS = range(8, 14)  # indexes of topic
+CATEGORY = 7  # index of category
+CONTENTS = [16, 18, 20]  # indexes of file content
+EMAIL = 5  # index of file name
+EVENT_TITLE = 21
+EVENT_START = 22
+EVENT_END = 23
+EVENT_LOCATION = 24
+EVENT_WEBSITE = 25
+EVENT_SHORT_DESC = 26
+EVENT_LONG_DESC = 27
 PREFIX = "Google"  # Unique Prefix to distinguish between Google Form with currently existing file in bssw.io
 
 
@@ -46,7 +54,7 @@ def generate_filepath(values):
     folder = FOLDER_LOOKUP[values[FOLDER]]
 
     # name of the file and filepath
-    name = values[LAST_NAME] + values[FILE_NAME]
+    name = values[LAST_NAME] + get_filename(values)
 
     filepath = "{}/{}{}.md".format(folder, PREFIX, name)
 
@@ -54,11 +62,31 @@ def generate_filepath(values):
     if os.path.isfile(filepath):
         suffix = 1
         while True:
-            filepath = "{}/{}{}{}.md".format(folder, PREFIX, name, suffix)
+            filepath = "{}/{}_{}{}.md".format(folder, PREFIX, name, suffix)
             if not os.path.isfile(filepath):
                 return filepath
             suffix += 1
     return filepath
+
+
+# convert date the the correct format
+def convert_date(date_str1, date_str2):
+    # convert string date to date
+    date1 = datetime.strptime(date_str1, '%m/%d/%Y')
+    date2 = datetime.strptime(date_str2, '%m/%d/%Y')
+
+    # convert date bback to string in the right format
+    if date1.year == date2.year:
+        return "{} - {}".format(datetime.strftime(date1, "%B %d"), datetime.strftime(date2, "%B %d, %Y"))
+    return "{} - {}".format(datetime.strftime(date1, "%B %d, %Y"), datetime.strftime(date2, "%B %d, %Y"))
+
+
+# get file name
+def get_filename(values):
+    for i in ARTICLE_NAME:
+        if values[i]:
+            return values[i]
+    return ""
 
 
 # get the topic from Google sheet
@@ -69,6 +97,25 @@ def get_topic(values):
     return ""
 
 
+# write content to file
+def write_file(values, fo):
+    # check if the event
+    if values[EVENT_LOCATION] != "":
+        fo.write("# {}\n\n".format(values[EVENT_TITLE]))
+        fo.write("- Dates: " + convert_date(values[EVENT_START], values[EVENT_END]))
+        fo.write("\n- Location: {}\n".format(values[EVENT_LOCATION]))
+        fo.write("- Event Website: {}\n\n".format(values[EVENT_WEBSITE]))
+        fo.write(" {}\n\n".format(values[EVENT_SHORT_DESC]))
+        fo.write("**Description**: {}\n".format(values[EVENT_LONG_DESC]))
+
+    # for blog, article and curated links
+    else:
+        fo.write("### {}\n".format(get_filename(values)))
+        for i in CONTENTS:
+            if values[i] != "":
+                fo.write(values[i]+"\n")
+
+
 # write content to files
 def process_value(values):
     # get topic and file path
@@ -77,8 +124,7 @@ def process_value(values):
 
     # open file and write
     with open(filepath, "w") as fo:
-        for i in CONTENTS:
-            fo.write(values[i])
+        write_file(values, fo)
         fo.write("\n\n<!---")
         fo.write("\nCategories: {}".format(values[CATEGORY]))
         fo.write("\nTopic: {}".format(topic))
@@ -102,7 +148,7 @@ def run():
     gc = get_google_client()
 
     # Open file: key in the Google Sheet URL
-    doc = gc.open_by_key('1xFi0frEQdLb7a3LPtn8-2zFt2myO5dk15_8soseMkDk')
+    doc = gc.open_by_key('16-RpWOIeOCU66WdrIGjMNl6f3qIFH7H8D9_oPX2O2j4')
 
     # Open tab: tab name in the Google Sheet
     sheet = doc.worksheet("Form Responses 1")
@@ -114,7 +160,6 @@ def run():
     # run through all rows of the Google Sheet
     for row in range(2, row_count + 1):
         values = sheet.row_values(row)
-
         # Blank row
         if not values[0]:
             break

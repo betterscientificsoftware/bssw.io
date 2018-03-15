@@ -11,7 +11,7 @@ This [DOE performance portability website](http://performanceportability.org) is
 <!---
 Publish: yes
 Categories: performance
-Topics: performance, portability
+Topics: High-performance computing (HPC), Performance at leadership computing facilities (LCFs), Performance portability
 Tags: site
 Level: 2
 Prerequisites: default

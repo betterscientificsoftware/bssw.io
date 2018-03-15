@@ -5,8 +5,8 @@ This is a template "subresource" file to use as a starting point for a new subre
 Provide introductory text for the topic in a separate "base" file and then information on various subtopics in separate "subresource" files (possibly contributed by different authors).  In the "base" file, use the following format to specify subresources, listed in the order to be shown on front-end BSSw site:
 
 Subresources:
-- [Name of Subresource1](SubresourceFile1.md)
-- [Name of Subresource2](SubresourceFile2.md)
+- [Name of Subresource1](CuratedContent/SubresourceFile1.md)
+- [Name of Subresource2](CuratedContent/SubresourceFile2.md)
 - etc.
 
 The front-end for the BSSw site will then combine the information into an aggregate resource.  Used the following metadata to describe the aggregate resource components:
@@ -50,10 +50,9 @@ Aggregate: subresource
 Please follow these guidelines for naming resources and files. Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSW site.
 
 Resource Name:
-
     Brief, essential words only, nothing extra
     For curated content: Follow name of content (e.g., title of book, article, event, site)
-    Filename: Same as resource name
+    Filename: Same as resource name, adding the suffix ".md" to indicate a Markdown file
         No spaces
         Cap for first letter of each word
         Abbreviations:
@@ -65,18 +64,19 @@ Resource Name:
             Perf = Performance
             Sw = Software
             etc.
-
+        Example filename: MyNewArticleTopic.md
+            
+Resource Deck:
+    One-sentence resource description (limited length, appears in header area of frontend)
+    
 Resource Description:
-
     Concise paragraph explaining resource from the perspective of the CSE community
     Image file (e.g., logo) - optional (encouraged when this exists)
 
 Contributor:
-
     Name(s) of contributor(s), hyperlinked to GitHub profile(s)
 
 Metadata: Include metadata as formatted comments at the end of the file
-
     Publish: Publish on the BSSw front-end site?
     Categories: Specify 1 or more categories (primary display via BSSW website)
     Topics: Specify 1 or more topics (visible filters via BSSw website)

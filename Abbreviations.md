@@ -6,6 +6,7 @@
 - CoDeSe: Computational and Data-enabled Science and Engineering
 - CSE: Computational Science and Engineering
 - CSE17: 2017 SIAM Conference on Computational Science and Engineering
+- CW18: Collaborations Workshop 2018
 - DOE: Department of Energy
 - FAQ: Frequently Asked Question
 - FORCE11: FORCE11 Software Citation Implementation Working Group
@@ -16,6 +17,7 @@
 - LCF: Leadership Computing Facility
 - LCFs: Leadership Computing Facilities
 - PSIP: Productivity and Sustainability Improvement Planning
+- PP18: SIAM Conference on Parallel Processing for Scientific Computing 2018
 - SC: Supercomputing
 - SE-CoDeSe: Software Engineering for Computational and Data-enabled Science and Engineering
 - SC17: SC17 Conference

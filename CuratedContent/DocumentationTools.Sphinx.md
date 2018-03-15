@@ -9,10 +9,15 @@ and variables and see 1) class hierachy relationships; 2) input and output
 parameters for methods and functions; and 3) other variables and associated
 data.
 
-Sphinx supports many programming languages, and can also generate a
-LaTeX-generated PDF file.
+Sphinx supports many programming languages.
+Besides HTML documents it can also generate a LaTeX-generated PDF file and
+the e-book format EPUB.
 
-#### Contributed by [Damon McDougall](https://github.com/dmcdougall)
+One can also include Doxygen generated XML content into Sphinx.
+See the
+[Breathe](https://github.com/michaeljones/breathe/) extension for details.
+
+#### Contributed by [Damon McDougall](https://github.com/dmcdougall) and [Axel Huebl](https://github.com/ax3l)
 
 <!---
 Publish: yes

@@ -1,9 +1,9 @@
 
-# 8th Annual Scientific Software Days
+# 9th Annual Scientific Software Days
 
-- Dates: April 27, 2017 - April 28, 2017
+- Dates: April 26, 2018 - April 27, 2018
 - Location: Austin, TX
-- Event Website: http://scisoftdays.org/pages/2017_details.html
+- Event Website: http://scisoftdays.org/
 
 This event focuses on sharing best practices, tools, and technologies among scientific software communities.
 

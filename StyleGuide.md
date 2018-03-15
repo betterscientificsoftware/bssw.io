@@ -15,7 +15,7 @@ Follow the guidelines below for naming resources and files.  Be sure to include 
 #### Resource Name:
 - Brief, essential words only, nothing extra
 - For curated content: Follow name of content (e.g., title of book, article, event, site)
-- Filename:  Same as resource name
+- Filename:  Same as resource name, adding the suffix ".md" to indicate a Markdown file
     - No spaces
     - Cap for first letter of each word
     - Abbreviations:
@@ -27,6 +27,10 @@ Follow the guidelines below for naming resources and files.  Be sure to include 
         - Perf = Performance
         - Sw = Software
         - etc.
+     - Example filename: MyNewArticleTopic.md
+
+#### Resource Deck:
+- One-sentence resource description (limited length, appears in header area of frontend)
 
 #### Resource Description:
 - Concise paragraph explaining resource from the perspective of the CSE community
