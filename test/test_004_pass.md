@@ -1,14 +1,11 @@
-### Really nifty title
+# test_004_pass.md
 
-**Important:** this must be important because it's got some emphasis... 
-
-**Dates:** 03-14-2015
-
-This document should fail the metadata check because of a Topic that is inconsistent with allowable topic
-given the categories.
+This file will actually PASS the acceptance check even though the meta-data section
+exists but the comment wasn't opened properly.  The website wouldn't find the 'Publish: yes'
+tag and thus shouldn't actually publish this.  It's effecitvely the same as a file with no
+metadata section
 
 
-<!---
 Publish: yes
 Categories: Planning, Reliability, Collaboration, Crosscutting, Performance
 Topics: improving productivity and sustainability, reproducibility, testing, continuous integration testing, documentation
@@ -17,4 +14,5 @@ Level: 2
 Prerequisites: defaults
 Aggregate: subresource
 --->
+
 
