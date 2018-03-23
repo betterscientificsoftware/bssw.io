@@ -1,8 +1,8 @@
-# Can You Teach and Old Code New Tricks?
+# Can You Teach an Old Code New Tricks?
 
 #### Contributed by [Charles Ferenbaugh](https://github.com/cferenba "Charles Ferenbaugh GitHub Profile") 
 
-#### Publication date: March 26, 2017
+#### Publication date: March 26, 2018
 
 *In January 2018, Charles Ferenbaugh presented a webinar titled "[Bringing Best Practices to a Long-Lived Production Code](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014)" in the series [Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars/).  In this article, Charles explains challenges faced by the developers of long-lived production codes.  Charles is a scientist at Los Alamos National Laboratory.*
 
