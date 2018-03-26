@@ -6,7 +6,9 @@
 
 In January 2018, Charles Ferenbaugh presented a webinar titled “Bringing Best Practices to a Long-Lived Production Code” in the series Best Practices for HPC Software Developers on the IDEAS Productivity website. In this article, Charles explains challenges faced by the developers of long-lived production codes. Charles is a scientist at Los Alamos National Laboratory.
 
-*See Charles's original webinar, Bringing Best Practices to a Long-Lived Production Code, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014), and the full series, Best Practices for HPC Software Developers, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/).*
+To see Charles's original webinar, and the full series see the following links:
+* [Bringing Best Practices to a Long-Lived Production Code](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014)
+* [Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars/)
 
 <br> 
 
