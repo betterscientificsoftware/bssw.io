@@ -6,7 +6,9 @@
 
 In January 2018, Charles Ferenbaugh presented a webinar titled “Bringing Best Practices to a Long-Lived Production Code” in the series Best Practices for HPC Software Developers on the IDEAS Productivity website. In this article, Charles explains challenges faced by the developers of long-lived production codes. Charles is a scientist at Los Alamos National Laboratory.
 
-See Charles's original webinar, Bringing Best Practices to a Long-Lived Production Code, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014), and the full series, Best Practices for HPC Software Developers, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/).
+<br> 
+
+*See Charles's original webinar, Bringing Best Practices to a Long-Lived Production Code, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014), and the full series, Best Practices for HPC Software Developers, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/).*
 
 There's a lot of interest in the scientific software community about how to adopt best practices and improve software quality.  In many cases, the discussion assumes (perhaps implicitly) that you’re starting a new project and a new code.  But what if you want to introduce best practices to an ongoing, years- or even decades-old project?  What if you already have a large and complex code base, a code team with well-established habits, and a user base using the code regularly?  While some projects have a history of good software practices, many others have major obstacles to quality:  hastily written software, minimal testing and documentation, and little or no software process.  A particular difficulty for such projects is a culture that thinks it is “getting along just fine, thank you” by doing what it’s always done.
 
