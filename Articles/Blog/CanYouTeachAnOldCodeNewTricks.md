@@ -6,7 +6,7 @@
 
 In January 2018, Charles Ferenbaugh presented a webinar titled "Bringing Best Practices to a Long-Lived Production Code" in the series Best Practices for HPC Software Developers on the IDEAS Productivity website. In this article, Charles explains challenges faced by the developers of long-lived production codes. Charles is a scientist at Los Alamos National Laboratory.
 
-See Charles's original webinar, Bringing Best Practices to a Long-Lived Production Code, [here:](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014), and the full series, Best Practices for HPC Software Developers, [here:](https://ideas-productivity.org/events/hpc-best-practices-webinars/).
+See Charles's original webinar, Bringing Best Practices to a Long-Lived Production Code, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014), and the full series, Best Practices for HPC Software Developers, [here](https://ideas-productivity.org/events/hpc-best-practices-webinars/).
 
 There's a lot of interest in the scientific software community about how to adopt best practices and improve software quality.  In many cases, the discussion assumes (perhaps implicitly) that you’re starting a new project and a new code.  But what if you want to introduce best practices to an ongoing, years- or even decades-old project?  What if you already have a large and complex code base, a code team with well-established habits, and a user base using the code regularly?  While some projects have a history of good software practices, many others have major obstacles to quality:  hastily written software, minimal testing and documentation, and little or no software process.  A particular difficulty for such projects is a culture that thinks it is “getting along just fine, thank you” by doing what it’s always done.
 
@@ -21,7 +21,11 @@ More recently, many projects have tried to introduce more sustainable developmen
 *	How performance is evaluated
 These choices become embedded in the project and reinforce each other, pushing the project in a certain direction.  This means that it’s difficult to make much progress in changing practices, unless the underlying values and culture can be changed and past choices can be reversed.
 
+<br>
+
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_diag_032218.png' class='page lightbox' />[xRage code dependency graphs: before (left) and after (right) untangling code dependencies]
+
+<br>
 
 Over the years at Los Alamos National Laboratory, we've seen several software quality initiatives that had minimal impact on our project practices, for many of the reasons described above.  But more recently, we’ve also seen management make conscious decisions to adjust their values and make significant changes in how the projects are run, enabling new and better development practices to take hold.  In one of our large multiphysics code projects, the development team has been given time and resources for major restructuring of the code base.  Build systems and version control are being modernized.  Unit testing and performance optimizations are being introduced.  The webinar "[Bringing Best Practices to a Long-Lived Production Code](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014)" tells more of the story of these changes.
 
