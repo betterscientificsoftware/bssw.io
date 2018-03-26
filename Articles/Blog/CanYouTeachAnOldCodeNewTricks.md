@@ -8,8 +8,8 @@ In January 2018, Charles Ferenbaugh presented a webinar titled “Bringing Best 
 
 To view Charles's original webinar, and the full webinar series see the following links:
 
-- [Bringing Best Practices to a Long-Lived Production Code](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014)
-- [Series: Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars/)
+<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014/" class="link-row">Bringing Best Practices to a Long-Lived Production Code</a>
+<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/" class="link-row">Series: Best Practices for HPC Software Developers</a>
 
 <br> 
 
