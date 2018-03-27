@@ -26,11 +26,11 @@ More recently, many projects have tried to introduce more sustainable developmen
 *	How performance is evaluated
 These choices become embedded in the project and reinforce each other, pushing the project in a certain direction.  This means that it’s difficult to make much progress in changing practices, unless the underlying values and culture can be changed and past choices can be reversed.
 
- <br>
+<!--- <br>
 
 [xRage code dependency graphs: before (left) and after (right) untangling code dependencies]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_diag_032718.jpg' class='page lightbox' />
 
-<br> 
+<br> --->
 
 Over the years at Los Alamos National Laboratory, we've seen several software quality initiatives that had minimal impact on our project practices, for many of the reasons described above.  But more recently, we’ve also seen management make conscious decisions to adjust their values and make significant changes in how the projects are run, enabling new and better development practices to take hold.  In one of our large multiphysics code projects, the development team has been given time and resources for major restructuring of the code base.  Build systems and version control are being modernized.  Unit testing and performance optimizations are being introduced.  The webinar "[Bringing Best Practices to a Long-Lived Production Code](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014)" tells more of the story of these changes.
 
