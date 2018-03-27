@@ -24,6 +24,7 @@ More recently, many projects have tried to introduce more sustainable developmen
 *	How leadership is selected
 *	How training and career development are done
 *	How performance is evaluated
+
 These choices become embedded in the project and reinforce each other, pushing the project in a certain direction.  This means that it’s difficult to make much progress in changing practices, unless the underlying values and culture can be changed and past choices can be reversed.
 
 
