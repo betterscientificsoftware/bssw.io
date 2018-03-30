@@ -60,7 +60,7 @@ Karl Fogel, 2005.  This book is soon to be
 A nonprofit technology trade association chartered to
   promote, protect, and advance Linux and collaborative development.
 
-* [OpenHPC](openhpc.community) is a member project.
+* [OpenHPC](https://openhpc.community) is a member project.
 
 
 ## Grants
