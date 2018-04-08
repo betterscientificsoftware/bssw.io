@@ -8,7 +8,7 @@
  
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_TeamworkImage_1176_432.jpg' />
 
-*This post, the first in a series on the topic of better collaboration, introduces the idea of developing shared consciousness among and within teams as an important step on the path toward scaling the productivity of small teams to a large networked aggregate team, or a *team of teams* (McChrystal et al., 2015).*
+*This post, the first in a series on the topic of better collaboration, introduces the idea of developing shared consciousness among and within teams as an important step on the path toward scaling the productivity of small teams to a large networked aggregate team, or a *team of teams* ([McChrystal et al., 2015](./#ref-mcchrystal2015)).*
 
 <br>
 
@@ -46,11 +46,11 @@ Achieving a team of teams will rely on our ability to foster interdependent team
 In summary, when scaling from small teams to a team of teams, consider how to bootstrap your efforts with the goal of *shared consciousness*. While this may sound daunting at first, scaling collaboration found in small teams to an aggregate can be made much smoother within our programs by considering the connectivity of an aligning narrative, trust among interdependent teams, and the use of modern technology to foster transparent communication, and efficient information sharing. Taking time to build trust and a unified sense of purpose *within* and *across* teams are important steps in scaling from a small team to a distributed aggregate, or *team of teams*. 
 
 ### References
-Fussell, C. & Goodyear, C.W. (2017). One mission: How leaders build a team of teams. New York, NY: Penguin Random House LLC.
+<a id="#ref-fussell2017"></a>Fussell, C. & Goodyear, C.W. (2017). One mission: How leaders build a team of teams. New York, NY: Penguin Random House LLC.
 
-Hansen, M. T. (2018). Great at work: How top performers do less, work better, and achieve more. New York, NY: Simon & Schuster.
+<a id="#ref-hansen2018"></a>Hansen, M. T. (2018). Great at work: How top performers do less, work better, and achieve more. New York, NY: Simon & Schuster.
 
-McCrystal, S., Collins, T., Silverman, D., Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC.
+<a id="#ref-mcchrystal2015"></a>McChrystal, S., Collins, T., Silverman, D., Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC.
 
 <!---
 Publish: No
