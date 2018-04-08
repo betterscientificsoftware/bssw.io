@@ -43,7 +43,7 @@ Achieving a team of teams will rely on our ability to foster interdependent team
 > Could your organization leverage both physical and virtual spaces to drive cross-silo coordination and improve communication on strategy?
 
 ### Summary
-In summary, when scaling from small teams to a team of teams, consider how to bootstrap your efforts with the goal of shared consciousness. While this may sound daunting at first, scaling collaboration found in small teams to an aggregate can be made much smoother within our programs by considering the connectivity of an aligning narrative, trust among interdependent teams, and the use of modern technology to foster transparent communication, and efficient information sharing. Taking time to build trust and a unified sense of purpose within and across teams are important steps in scaling from a small team to a distributed aggregate, or team of teams. 
+In summary, when scaling from small teams to a team of teams, consider how to bootstrap your efforts with the goal of *shared consciousness*. While this may sound daunting at first, scaling collaboration found in small teams to an aggregate can be made much smoother within our programs by considering the connectivity of an aligning narrative, trust among interdependent teams, and the use of modern technology to foster transparent communication, and efficient information sharing. Taking time to build trust and a unified sense of purpose *within* and *across* teams are important steps in scaling from a small team to a distributed aggregate, or *team of teams*. 
 
 ### References
 Fussell, C. & Goodyear, C.W. (2017). One mission: How leaders build a team of teams. New York, NY: Penguin Random House LLC.
