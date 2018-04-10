@@ -53,7 +53,7 @@ In summary, when scaling from small teams to a team of teams, consider how to bo
 <a id="ref-mcchrystal2015"></a>[McChrystal, S., Collins, T., Silverman, D., Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC.](http://a.co/38vFE6K)
 
 <!---
-Publish: Yes
+Publish: No
 Categories: collaboration
 Topics: discussion forums, Q&A sites, projects and organizations
 Tags: bssw-blog-article
