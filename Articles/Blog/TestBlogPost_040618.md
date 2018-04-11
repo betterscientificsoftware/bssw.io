@@ -24,7 +24,7 @@ Before we can have shared consciousness among our distributed teams, we’ll hav
 
 *What is your aligning narrative? [Fussell & Goodyear (2017, pg. 61)](#user-content-ref-fussell2017) offer the following question to consider as you create your narrative:*
 
-> In your organization’s current state, how would an aligning narrative be best emphasized and contextualized for your teams?
+In your organization’s current state, how would an aligning narrative be best emphasized and contextualized for your teams?
 
 ### 2. Build trust: 
 
@@ -32,7 +32,7 @@ Use the common conceptual model or aligning narrative of the entire, interconnec
 
 *Do your partnerships need a “trust booster?” [Fussell & Goodyear (2017, pg. 61)](#user-content-ref-fussell2017) offer the following question as you consider how well your aligning narrative is supported by trust:*
 
-> Your teams might claim to trust and have open lines of dialogue with one another—but can they demonstrate examples of how this trust is helping accomplish your organization’s strategy?
+Your teams might claim to trust and have open lines of dialogue with one another—but can they demonstrate examples of how this trust is helping accomplish your organization’s strategy?
 
 ### 3. Commit to sharing information to develop and maintain strong connections among teams:  
 
@@ -40,7 +40,7 @@ Achieving a team of teams will rely on our ability to foster interdependent team
 
 *[Fussell & Goodyear (2017, pg. 108)](#user-content-ref-fussell2017) offer the following question as you consider how well your aligning narrative is supported by trust:*
 
-> Could your organization leverage both physical and virtual spaces to drive cross-silo coordination and improve communication on strategy?
+Could your organization leverage both physical and virtual spaces to drive cross-silo coordination and improve communication on strategy?
 
 ### Summary
 In summary, when scaling from small teams to a team of teams, consider how to bootstrap your efforts with the goal of *shared consciousness*. While this may sound daunting at first, scaling collaboration found in small teams to an aggregate can be made much smoother within our programs by considering the connectivity of an aligning narrative, trust among interdependent teams, and the use of modern technology to foster transparent communication, and efficient information sharing. Taking time to build trust and a unified sense of purpose *within* and *across* teams are important steps in scaling from a small team to a distributed aggregate, or *team of teams*. 
