@@ -1,10 +1,14 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article: Scaling Small Teams to a Team of Teams: Shared Consciousness](../../Articles/Blog/ScalingSmallTeamsToATeamOfTeams.md)
+- Display dates: 04/17/2018 - 04/30/2018
+
+https://bssw.io/blog_posts/scaling-small-teams-to-a-team-of-teams-shared-consciousness
+<!---
 - [Call for Papers ... Accelerating Scientific Discovery with Reusable Software](../../Articles/Blog/AcceleratingScientificDiscoveryWithReusableSoftware.md)
 - Display dates: 02/28/2018 - 04/10/2018
 
-<!---
 - [Introducing the 2018 BSSw Fellows](../../Articles/Blog/BSSwFellowsAnnouncement.md)
 - Display dates: 02/5/2018 - 02/27/2018
 
