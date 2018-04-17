@@ -1,6 +1,6 @@
 # Scaling Small Teams to a *Team of Teams*: Shared Consciousness
 
-#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile") and [David Moulton](https://github.com/jd-moulton "David Moulton GitHub Profile")
+#### Contributed by [Elaine M. Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile") and [David Moulton](https://github.com/jd-moulton "David Moulton GitHub Profile")
 
 #### Publication date: April 17, 2018
 
