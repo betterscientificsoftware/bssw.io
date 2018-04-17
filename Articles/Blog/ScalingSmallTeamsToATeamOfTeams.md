@@ -22,25 +22,22 @@ We believe shared consciousness among teams can enhance organizational productiv
 
 Before we can have shared consciousness among our distributed teams, we’ll have to first foster a shared mental model of why we are doing what we are doing. That is, before focusing on the technical capabilities to connect, we could take time to engender the willingness to connect ([Fussell & Goodyear, 2017](#user-content-ref-fussell2017)).  One way to accomplish this is to have a single unifying message that speaks to everyone—consider, each individual, on every team, can see themselves as participants in the story as it unfolds. Try repeating this aligning narrative as often as needed, perhaps by opening each meeting with the common purpose, until team members feel comfortable articulating it themselves.
 
-*What is your aligning narrative? [Fussell & Goodyear (2017, pg. 61)](#user-content-ref-fussell2017) offer the following question to consider as you create your narrative:*
-
-In your organization’s current state, how would an aligning narrative be best emphasized and contextualized for your teams?
+#### What is your aligning narrative? 
+In your organization’s current state, how would an aligning narrative be best emphasized and contextualized for your teams?  [Fussell & Goodyear (2017, pg. 61)](#user-content-ref-fussell2017) 
 
 ### 2. Build trust: 
 
 Use the common conceptual model or aligning narrative of the entire, interconnected project to build trust among individuals within a team, and across distributed teams. The terms “within” and “across,” may also refer to vertical and horizontal alignment in hierarchical organizations. Many of us who are part of hierarchical organizations may often perceive building trust within vertical alignment to be easiest, although that may not always be the case. Trust may also be built across horizontal organizational alignment with individuals with whom we share common purpose, language, and conceptual models. In the book, “Great at Work,” [Hansen (2018)](#user-content-ref-hansen2018) describes trust as confidence in individuals to consistently and reliably deliver high quality work that is expected from them. If our teams have not reached this level of trust, Hansen recommends applying “trust boosters” to specific trust problems as needed. For example, if distributed team members across a project do not know each other well (they may be strangers), the teams may want to try some bonding exercises or techniques to share personal information.
 
-*Do your partnerships need a “trust booster?” [Fussell & Goodyear (2017, pg. 61)](#user-content-ref-fussell2017) offer the following question as you consider how well your aligning narrative is supported by trust:*
-
-Your teams might claim to trust and have open lines of dialogue with one another—but can they demonstrate examples of how this trust is helping accomplish your organization’s strategy?
+#### Do your partnerships need a “trust booster?” 
+Your teams might claim to trust and have open lines of dialogue with one another—but can they demonstrate examples of how this trust is helping accomplish your organization’s strategy? [Fussell & Goodyear (2017, pg. 61)](#user-content-ref-fussell2017)
 
 ### 3. Commit to sharing information to develop and maintain strong connections among teams:  
 
 Achieving a team of teams will rely on our ability to foster interdependent teams. Interdependence does not merely rely on co-located, “shoulder-to-shoulder” communication. Interdependence must be built on information sharing that is transparent and efficient, and allowing teams to execute work based on their initiative. Since teams are increasingly distributed and virtual, we can try using cloud-based development tools and video/whiteboard meeting software environments. The use of information technology will help propagate information across the network and foster transparent communication. We’ll have to be patient—strong connections won’t happen overnight. 
 
-*[Fussell & Goodyear (2017, pg. 108)](#user-content-ref-fussell2017) offer the following question as you consider how well your aligning narrative is supported by trust:*
-
-Could your organization leverage both physical and virtual spaces to drive cross-silo coordination and improve communication on strategy?
+#### How well is your aligning narrative supported by trust?
+Could your organization leverage both physical and virtual spaces to drive cross-silo coordination and improve communication on strategy? [Fussell & Goodyear (2017, pg. 108)](#user-content-ref-fussell2017)
 
 ### Summary
 In summary, when scaling from small teams to a team of teams, consider how to bootstrap your efforts with the goal of *shared consciousness*. While this may sound daunting at first, scaling collaboration found in small teams to an aggregate can be made much smoother within our programs by considering the connectivity of an aligning narrative, trust among interdependent teams, and the use of modern technology to foster transparent communication, and efficient information sharing. Taking time to build trust and a unified sense of purpose *within* and *across* teams are important steps in scaling from a small team to a distributed aggregate, or *team of teams*. 
