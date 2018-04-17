@@ -46,7 +46,7 @@ Could your organization leverage both physical and virtual spaces to drive cross
 In summary, when scaling from small teams to a team of teams, consider how to bootstrap your efforts with the goal of *shared consciousness*. While this may sound daunting at first, scaling collaboration found in small teams to an aggregate can be made much smoother within our programs by considering the connectivity of an aligning narrative, trust among interdependent teams, and the use of modern technology to foster transparent communication, and efficient information sharing. Taking time to build trust and a unified sense of purpose *within* and *across* teams are important steps in scaling from a small team to a distributed aggregate, or *team of teams*. 
 
 ### More Info
-See slides from a breakout session led by Elaine and David the 2018 ECP Annual Meeting: https://doi.org/10.6084/m9.figshare.6151097.
+See slides from a breakout session led by Elaine and David at the 2018 ECP Annual Meeting: https://doi.org/10.6084/m9.figshare.6151097.
 
 ### References
 <a id="ref-fussell2017"></a>[Fussell, C. & Goodyear, C.W. (2017). One mission: How leaders build a team of teams. New York, NY: Penguin Random House LLC.](http://a.co/5e1O2Gw)
