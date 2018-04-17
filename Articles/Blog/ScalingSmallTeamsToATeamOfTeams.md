@@ -2,7 +2,7 @@
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile") and [David Moulton](https://github.com/jd-moulton "David Moulton GitHub Profile")
 
-#### Publication date: Sept 6, 2018
+#### Publication date: April 17, 2018
 
 **Hero Image:**
  
@@ -45,6 +45,9 @@ Could your organization leverage both physical and virtual spaces to drive cross
 ### Summary
 In summary, when scaling from small teams to a team of teams, consider how to bootstrap your efforts with the goal of *shared consciousness*. While this may sound daunting at first, scaling collaboration found in small teams to an aggregate can be made much smoother within our programs by considering the connectivity of an aligning narrative, trust among interdependent teams, and the use of modern technology to foster transparent communication, and efficient information sharing. Taking time to build trust and a unified sense of purpose *within* and *across* teams are important steps in scaling from a small team to a distributed aggregate, or *team of teams*. 
 
+### More Info
+See slides from a breakout session led by Elaine and David the 2018 ECP Annual Meeting: https://doi.org/10.6084/m9.figshare.6151097.
+
 ### References
 <a id="ref-fussell2017"></a>[Fussell, C. & Goodyear, C.W. (2017). One mission: How leaders build a team of teams. New York, NY: Penguin Random House LLC.](http://a.co/5e1O2Gw)
 
@@ -53,7 +56,7 @@ In summary, when scaling from small teams to a team of teams, consider how to bo
 <a id="ref-mcchrystal2015"></a>[McChrystal, S., Collins, T., Silverman, D., Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC.](http://a.co/38vFE6K)
 
 <!---
-Publish: No
+Publish: Yes
 Categories: collaboration
 Topics: discussion forums, Q&A sites, projects and organizations
 Tags: bssw-blog-article
