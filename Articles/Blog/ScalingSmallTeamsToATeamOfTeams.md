@@ -36,7 +36,7 @@ Your teams might claim to trust and have open lines of dialogue with one another
 
 Achieving a team of teams will rely on our ability to foster interdependent teams. Interdependence does not merely rely on co-located, “shoulder-to-shoulder” communication. Interdependence must be built on information sharing that is transparent and efficient, and allowing teams to execute work based on their initiative. Since teams are increasingly distributed and virtual, we can try using cloud-based development tools and video/whiteboard meeting software environments. The use of information technology will help propagate information across the network and foster transparent communication. We’ll have to be patient—strong connections won’t happen overnight. 
 
-#### How well is your aligning narrative supported by trust?
+#### How well is your aligning narrative supported by transparent and effective communication?
 Could your organization leverage both physical and virtual spaces to drive cross-silo coordination and improve communication on strategy? [Fussell & Goodyear (2017, pg. 108)](#user-content-ref-fussell2017)
 
 ### Summary
