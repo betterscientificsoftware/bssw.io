@@ -7,6 +7,9 @@ Key concepts include the goals of:
 - *Empowered execution*: Fostering authority of sub-teams and individuals to act without explicit senior leadership consultation.
 These resources can be useful for anyone engaged in large projects where requirements are multi-scale and emergent or, in other words, complex.
 
+**Subresources:**
+- [Team of Teams Disccussion Materials](ToTDiscussionMaterials.md)
+
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
 <!---
@@ -15,5 +18,5 @@ Categories: collaboration
 Topics: strategies for more effective teams
 Level: 2
 Prerequisites: defaults
-Aggregate: none
+Aggregate: base
 --->
