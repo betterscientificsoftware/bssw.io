@@ -4,10 +4,12 @@ If you want some practical tips about coding, and enjoy some (salty!) humor and 
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
+#### Publication date: February 3, 2018
+
 <!---
 Publish: yes
-Categories: development
-Topics: software engineering
+Categories: development, planning
+Topics: software engineering, design
 Tags:
 Level: 2
 Prerequisites: defaults
