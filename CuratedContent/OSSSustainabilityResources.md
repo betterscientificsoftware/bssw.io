@@ -2,9 +2,7 @@
 
 Sustaining a scientific software project is a difficult task.  One
 strategy for sustaining scientific software is to build a community of
-open source contributors.  Building such a community can be daunting, however; and if
-you are successful, the work involved in sustaining the community can
-come to dominate your time.
+open source contributors.  
 
 This page documents resources available for maintainers of open source
 software (OSS), from reports and books discussing the problems facing OSS
@@ -81,9 +79,9 @@ A nonprofit technology trade association chartered to
   [Moore Foundation](https://www.moore.org/) offer grants in science and
   technology, among other areas. They have funded large data science
   initiatives that support open source, such as the
-  [Moore-Sloan Data Sciecne Environments (MSDE)](http://msdse.org/) and
+  [Moore-Sloan Data Science Environments (MSDE)](http://msdse.org/) and
   the
-  [Jupyter Project](https://blog.jupyter.org/2015/07/07/jupyter-funding-2015/).
+  [Jupyter Project](https://blog.jupyter.org/new-funding-for-jupyter-12009a836867).
 
 * The [Ford Foundation](https://www.fordfoundation.org) has
   [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to
