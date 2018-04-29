@@ -1,6 +1,6 @@
 # What is Continuous Integration Testing?
 
-Continuous integration (CI) testing is a particular [category](WhatIsTesting.md#categories-of-testing)
+Continuous integration (CI) testing is a particular [category](../../../CuratedContent/WhatIsCseSwTesting.md#categories-of-testing)
 of testing software that is aimed at testing
 the merged changes from multiple branches of development, with the highest _reasonable_ frequency
 and smallest _reasonable_ granularity of changes. _Continuous_ means that changes are being continuously
