@@ -1,4 +1,4 @@
-# SuperLU: All Grown Up and Showing Its Muscle in Tackling Sparse Linear Systems
+# SuperLU: How Advances in Software Practices are Increasing Sustainability and Collaboration
 
 #### Contributed by [Sherry Li](https://github.com/xiaoyeli "Sherry Li GitHub Profile")
 
