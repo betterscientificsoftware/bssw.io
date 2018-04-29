@@ -8,7 +8,7 @@ Installing scientific libraries or applications from source requires a system fo
 <!---
 Publish: yes
 Categories: development
-Topics: configuration and building
+Topics: configuration and builds
 Tags: document, whatis, terminology
 Level: 0
 Prerequisites: none
