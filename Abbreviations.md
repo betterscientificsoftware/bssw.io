@@ -23,11 +23,10 @@
 - SC17: SC17 Conference
 - SIAM: Society for Industrial and Applied Mathematics
 - SI2: Software Infrastructure for Sustained Innovation
+- SuperLU: Supernodal LU software package
 - UK: United Kingdom
 - US: United States
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
-- WSSSPE 5.1: WSSSPE event
-- WSSSPE 5.2: WSSSPE event
 - xSDK: Extreme-scale Scientific Software Development Kit
 
 <!--
