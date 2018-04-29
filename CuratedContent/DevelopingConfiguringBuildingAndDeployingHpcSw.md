@@ -8,8 +8,9 @@ In May 2016, Barry Smith presented a webinar titled "Developing, Configuring, Bu
 
 To view Barry's original webinar, and the full webinar series, see the following links:
 
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar02/" class="link-row">Developing, Configuring, Building, and Deploying HPC Software</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/" class="link-row">Series: Best Practices for HPC Software Developers</a>
+<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar02" class="link-row">Developing, Configuring, Building, and Deploying HPC Software</a>
+
+<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars" class="link-row">Series: Best Practices for HPC Software Developers</a>
 
 <br> 
 
