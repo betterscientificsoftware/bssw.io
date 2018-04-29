@@ -32,6 +32,8 @@ This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/20
 
 #### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C Miller](https://github.com/markcmiller86)
 
+#### Publication date: May 8, 2017
+
 <!---
 Publish: yes
 Categories: reliability
