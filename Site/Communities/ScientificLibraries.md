@@ -16,8 +16,6 @@ Featured resources for the Scientific libraries community.
 Edit this list to change resources that appear on the front-end site.
 -->
 
-* [SuperLU: All Grown Up and Showing Its Muscle in Tackling Sparse Linear Systems](../../Articles/Blog/SuperLUAllGrownUpAndShowingItsMuscle.md)
-
 * [Open Source Software Sustainability Resources](../../CuratedContent/OSSSustainabilityResources.md)
 
 * [What are Interoperable Software Libraries? Introducing the xSDK](../../CuratedContent/WhatAreInteroperableSwLibraries.md)
@@ -28,4 +26,7 @@ Edit this list to change resources that appear on the front-end site.
 
 <!---
 Publish: yes
+
+LCM: Add later, after fix for blog articles
+* [SuperLU: All Grown Up and Showing Its Muscle in Tackling Sparse Linear Systems](../../Articles/Blog/SuperLUAllGrownUpAndShowingItsMuscle.md)
 --->
