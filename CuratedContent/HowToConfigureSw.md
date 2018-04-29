@@ -7,7 +7,7 @@ Most CSE software needs to be installed from source on a wide variety of machine
 <!---
 Publish: yes
 Categories: development
-Topics: configuration and building
+Topics: configuration and builds
 Tags: document, howto
 Level: 1
 Prerequisites: defaults
