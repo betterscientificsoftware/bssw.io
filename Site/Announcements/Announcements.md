@@ -1,11 +1,15 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article: Scaling Small Teams to a Team of Teams: Shared Consciousness](../../Articles/Blog/ScalingSmallTeamsToATeamOfTeams.md)
-- Display dates: 04/17/2018 - 04/30/2018
+- [New blog article ... SuperLU: How Advances In Software Practices Are Increasing Sustainability And Collaboration](../../Articles/Blog/ScalingSmallTeamsToATeamOfTeams.md)
+- Display dates: 04/30/2018 - 05/18/2018
 
 https://bssw.io/blog_posts/scaling-small-teams-to-a-team-of-teams-shared-consciousness
 <!---
+
+- [New blog article: Scaling Small Teams to a Team of Teams: Shared Consciousness](../../Articles/Blog/ScalingSmallTeamsToATeamOfTeams.md)
+- Display dates: 04/17/2018 - 04/30/2018
+
 - [Call for Papers ... Accelerating Scientific Discovery with Reusable Software](../../Articles/Blog/AcceleratingScientificDiscoveryWithReusableSoftware.md)
 - Display dates: 02/28/2018 - 04/10/2018
 
