@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... SuperLU: How Advances In Software Practices Are Increasing Sustainability And Collaboration](https://bssw.io/blog_posts/superlu-how-advances-in-software-practices-are-increasing-sustainability-and-collaboration)
+- [New blog article ... SuperLU: How Advances In Software Practices Are Increasing Sustainability And Collaboration](../../Articles/Blog/SuperLUHowAdvancesInSwPracticesAreIncreasingSustainabilityAndCollaboration.md)
 - Display dates: 04/29/2018 - 05/18/2018
 
 <!---
