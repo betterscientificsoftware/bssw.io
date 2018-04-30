@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... SuperLU: How Advances In Software Practices Are Increasing Sustainability And Collaboration](../../Articles/Blog/ScalingSmallTeamsToATeamOfTeams.md)
+- [New blog article ... SuperLU: How Advances In Software Practices Are Increasing Sustainability And Collaboration](https://bssw.io/blog_posts/superlu-how-advances-in-software-practices-are-increasing-sustainability-and-collaboration)
 - Display dates: 04/30/2018 - 05/18/2018
 
 https://bssw.io/blog_posts/scaling-small-teams-to-a-team-of-teams-shared-consciousness
