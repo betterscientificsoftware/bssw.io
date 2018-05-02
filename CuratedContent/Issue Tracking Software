@@ -1,0 +1,77 @@
+ # Issue Tracking Software
+
+Issue tracking software is used to make it easier for software developers to manage, record, track, resolve and be able to 
+search on past issues, software bugs, or other problems. Issue Tracking software is especially useful in eliminating 
+duplicate efforts. 
+ 
+The Issue Tracking software that is used most frequently by software developers are listed but many other Issue Tracking Software
+Tools are available such as for HELP desks and are more customer focused to deal with business practices and ITIL standards.
+
+Software developers who collaborate and work in a community environment want simple but effective tools 
+that are intuitive and easy to use. At the same time, they want the tool to be robust and have options that are straight forward 
+to understand and are benefical to all the users of the tools. 
+
+As a community, we are talking to scientific software developers to find out which tools they use that are the most effective for the 
+way they work.  Some developers collaborate across the country and on different time zones and have to work rapidly to meet 
+hard deadlines. 
+
+## Examples of Issue Tracking Software
+The following is a short list of Issue Tracking Software that is used or recommended by scientific
+software developers in the High Performance Computing and Exascale Community.
+
+There are many Issue Tracking Software systems that are used for a variety of purposes such as HELPDESKs and businesses 
+who need ITIL standards.  This article will focus on Scientific Software Issue tracking tools for a community of people 
+who collaborate across distances and disciplines (computer scientists, engineers, physicists, software developers, etc.) 
+
+Issue tracking tools are chosen for a variety of reasons (not in any order): 
+1. Ease of use
+2. Customizable
+3. Web based or installed 
+4. Good documentation
+5. Price (no hidden costs)
+6. Many features and functions - (features not used can be tranparent)
+7. Searchable
+8. History tracking 
+9. Workflow
+10. Continuous Integration
+11. Real-time collaboration
+
+One of the most popular Issue Tracking software is Jira and others are listed 
+
+
+ - [JIRA](https://www.atlassian.com/software/jira) by Atlassian
+   Jira is a proprietary Issue Tracking product, developed by Atlassian. 
+   It provides bug tracking, issue tracking, and project managment functions. 
+   According to Atlassian, Jira is used for issue tracking and project managment by over 75,000 
+   customers in 122 countries around the globe and is a mature, usable
+   software product. Thousands of teams choose JIRA to capture and organize issues, assign work,
+   and follow team activity. 
+
+ - [TRACKER](https://www.capterra.com/p/115913/Tracker/) by PhaseWare
+   Another well-established Issue Tracking product, which supports organization needs. 
+   Their Issue Tracking solutions provide a customizable and configurabe, 
+   responsive tool set to help your business streamline the issue tracking process, 
+   effectively manage the workload, and increase productivity.
+   
+ - [Bugzilla](https://www.bugzilla.org/):
+   Bugzilla is a web-based general-purpose bugtracker and testing tool originally developed and used by 
+   the Modilla project and licensed under the Mozilla Public LLicense. Bugzilla is server software designed to help manage 
+   software development.  Its features are: excellent security to protect confidntialitiy, integrated email capabilities,
+   advanced query tools that can remember your searches. 
+ - 
+
+Moving away from just Issue and Bug Tracking Systems there are also Trouble ticket systems used by HELPDESKS.
+ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
+
+
+#### Contributed by [Jean Shuler](https://github.com/ibaned "Jean Shuler")
+
+<!---
+Publish: no
+Categories: Collaboration
+Topics: Issue Tracking 
+Tags: Bug tracking, issue tracking 
+Level: 2
+Prerequisites: defaults
+Aggregate: none
+--->
