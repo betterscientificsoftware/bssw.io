@@ -62,7 +62,7 @@ because of the different implementations of thread pools.
 <!---
 Publish: yes
 Categories: performance
-Topics: performance, portability
+Topics: Performance portability
 Tags: document
 Level: 1
 Prerequisites: defaults
