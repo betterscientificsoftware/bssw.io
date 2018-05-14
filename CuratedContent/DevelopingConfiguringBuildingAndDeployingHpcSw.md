@@ -20,5 +20,5 @@ Topics: configuration and builds, deployment
 Tags: 
 Level: 2
 Prerequisites: default
-Aggregate: stand-alone and subresource
+Aggregate: none
 --->
