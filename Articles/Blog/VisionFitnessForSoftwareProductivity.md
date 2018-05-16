@@ -1,5 +1,9 @@
 # Keeping Your Vision Fit for Years of Software Development
 
+**Hero Image:**
+ 
+- <img src='https://github.com/betterscientificsoftware/images/Blog_EyestrainImage_Blue_1176_432_CE.png' />
+
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 
 A career in software or computing can involve years of staring at a computer screen for extended periods.
