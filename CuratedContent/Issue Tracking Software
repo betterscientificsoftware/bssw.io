@@ -23,18 +23,25 @@ There are many Issue Tracking Software systems that are used for a variety of pu
 who need ITIL standards.  This article will focus on Scientific Software Issue tracking tools for a community of people 
 who collaborate across distances and disciplines (computer scientists, engineers, physicists, software developers, etc.) 
 
-Issue tracking tools are chosen for a variety of reasons (not in any order): 
-1. Ease of use
-2. Customizable
-3. Web based or installed 
-4. Good documentation
-5. Price (no hidden costs)
-6. Many features and functions - (features not used can be tranparent)
-7. Searchable
-8. History tracking 
-9. Workflow
-10. Continuous Integration
-11. Real-time collaboration
+Issue tracking tools are chosen for a variety of reasons: 
+1. Be accessible anywhere, from any system, i.e web based
+2. Be available for both users to report bugs, track progress on requests
+3. Allow developers to manage permissions for updating issues 
+4. Provide email updates on status of issues
+5. Allow priority setting on issues
+6. Allow searching and sorting
+7. Allow labeling issues with keyworks to facilitate searching
+8. Allow establishing and tracking milestones needed for resolutions
+9. Allow both users and developers the ability to add and update notes
+10. Provide links from the issue tracker to the commits in the software that represent progress on the issue
+11. Be intuitive to new and casual users, and retain features needed by experienced developers 
+12. Have a help package and good documentation
+13. Be affordable  (no hidden costs)
+14. Provde many features and functions - (features not used can be tranparent)
+15. Provide history tracking, intuitive workflow, continuous integration, and real-time collaboration
+
+modern web-based repository hosting systems, BitBucket, GitHub, and GitLab provide integrated issue tracking systems and support most,
+if not all of the capabilities listed above.
 
 One of the most popular Issue Tracking software is Jira and others are listed 
 
@@ -61,7 +68,12 @@ Wikipedia has an extensive page on the comparison Issue tracking systems
    the Modilla project and licensed under the Mozilla Public LLicense. Bugzilla is server software designed to help manage 
    software development.  Its features are: excellent security to protect confidntialitiy, integrated email capabilities,
    advanced query tools that can remember your searches. 
- - 
+   
+ - [Bitbucket] (https://bitbucket.org):
+  Built for proessional teams - Distributed version control system that makes it easy for you to collaborate with your team. 
+  The only collaborative Git solution that massively scales
+  
+ - [GitHub] (http://github.com): GitHub is a web-based hosting service for version control using git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features
 
 Moving away from just Issue and Bug Tracking Systems there are also Trouble ticket systems used by HELPDESKS.
 ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
