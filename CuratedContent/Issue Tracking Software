@@ -37,7 +37,7 @@ Issue tracking tools are chosen for a variety of reasons:
 11. Be intuitive to new and casual users, and retain features needed by experienced developers 
 12. Have a help package and good documentation
 13. Be affordable  (no hidden costs)
-14. Provde many features and functions - (features not used can be tranparent)
+14. Provide many features and functions - (features not used can be transparent)
 15. Provide history tracking, intuitive workflow, continuous integration, and real-time collaboration
 
 modern web-based repository hosting systems, BitBucket, GitHub, and GitLab provide integrated issue tracking systems and support most,
@@ -77,8 +77,8 @@ Wikipedia has an extensive page on the comparison Issue tracking systems
   It is mostly used for computer code. It offers all of the distributed version control and source code management 
   functionality of Git as well as adding its own features.
   
- - [GitLab] (http://www.giytlab.com): GitLab is a web based Git-repository manager 
- with wiki and issue-tacking features, using an open_source license, developed by GitLab Inc. 
+ - [GitLab] (http://www.gitlab.com): GitLab is a web based Git-repository manager 
+ with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
  
  Moving away from just Issue and Bug Tracking Systems there are also Trouble ticket systems used by HELPDESKS.
  ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
