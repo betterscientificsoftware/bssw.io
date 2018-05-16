@@ -73,16 +73,21 @@ Wikipedia has an extensive page on the comparison Issue tracking systems
   Built for proessional teams - Distributed version control system that makes it easy for you to collaborate with your team. 
   The only collaborative Git solution that massively scales
   
- - [GitHub] (http://github.com): GitHub is a web-based hosting service for version control using git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features
-
-Moving away from just Issue and Bug Tracking Systems there are also Trouble ticket systems used by HELPDESKS.
-ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
+ - [GitHub] (http://github.com): GitHub is a web-based hosting service for version control using git.
+  It is mostly used for computer code. It offers all of the distributed version control and source code management 
+  functionality of Git as well as adding its own features.
+  
+ - [GitLab] (http://www.giytlab.com): GitLab is a web based Git-repository manager 
+ with wiki and issue-tacking features, using an open_source license, developed by GitLab Inc. 
+ 
+ Moving away from just Issue and Bug Tracking Systems there are also Trouble ticket systems used by HELPDESKS.
+ ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
 
 
 #### Contributed by [Jean Shuler](https://github.com/ibaned "Jean Shuler")
 
 <!---
-Publish: no
+Publish: yes
 Categories: Collaboration
 Topics: Issue Tracking 
 Tags: Bug tracking, issue tracking 
