@@ -20,6 +20,16 @@ You can provide a pull request for the article in the appropriate directory of t
 
 If you prefer to use another format, you can email the draft to the editor you've been dealing with.
 
+### Detailed Formatting Tips
+
+ - The formatting to include a hero image is a bit finicky.
+   - The `**Hero Image:**` tag must be followed by a blank line
+   - The image itself must be in a Markdown list item (that is, it starts with `-`)
+ - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter
+ - Having a deck and having a hero image in a blog post are mutually exclusive
+   - A way to approximate having both is to have the hero image and then put the deck as your first (short) paragraph after the image and italicize it.
+ - `Publication date:` is case sensitive (`d` in particular)
+
 ## Editorial Process
 
 Once we receive your draft, we'll run it by a professional editor, check that the links and images work as expected, and otherwise prepare it for publication.  If your employer requires an internal review and approval process prior to publication, please let us know.
