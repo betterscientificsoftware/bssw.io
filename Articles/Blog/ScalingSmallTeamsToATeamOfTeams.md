@@ -2,7 +2,7 @@
 
 #### Contributed by [Elaine M. Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile") and [David Moulton](https://github.com/jd-moulton "David Moulton GitHub Profile")
 
-#### Publication Date: April 17, 2018
+#### Publication date: April 17, 2018
 
 **Hero Image:**
 
