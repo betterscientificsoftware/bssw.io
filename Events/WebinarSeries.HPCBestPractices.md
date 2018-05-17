@@ -14,6 +14,7 @@ Below, are some of the webinars which have been referenced elsewhere on the Bett
 
 **Subresources:**
 - [Developing, Configuring, Building, and Deploying HPC Software](../CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSw.md)
+- [Bringing Best Practices to a Long-Lived Production Code](Webinar.HPCBP014BestPractices.md)
 
 <!---
 Publish: yes
