@@ -1,7 +1,8 @@
 # Insightful blog article on topic A
 
 **Hero Image:**
-  <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
+
 #### Contributed by [Person A](https://github.com/PersonA "Person A GitHub Profile")
 
 #### Publication date: May 11, 2017
