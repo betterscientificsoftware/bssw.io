@@ -6,7 +6,9 @@
  
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_EyestrainImage_Blue_1176_432_CE.png' />
 
-*May is Healthy Vision month, so it seems particularly timely to offer these thoughts on protecting your vision if you spend a lot of time in front of a computer.*
+#### Publication Date: May 17, 2018
+
+May is Healthy Vision month, so it seems particularly timely to offer these thoughts on protecting your vision if you spend a lot of time in front of a computer.
 
 A career in software or computing can involve years of staring at a computer screen for extended periods.
 The consequences to your vision, which can affect not only your [productivity](http://www.allaboutvision.com/cvs/productivity.htm)
