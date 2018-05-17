@@ -5,7 +5,6 @@
 #### Publication date: April 17, 2018
 
 **Hero Image:**
- 
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_TeamworkImage_Blue_1176_432.jpg' />
 
 *This post, the first in a series on the topic of better collaboration, introduces the idea of developing shared consciousness among and within teams as an important step on the path toward scaling the productivity of small teams to a large networked aggregate team, or a team of teams ([McChrystal et al., 2015](#user-content-ref-mcchrystal2015)).* 
