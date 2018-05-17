@@ -28,7 +28,7 @@ If you prefer to use another format, you can email the draft to the editor you'v
  - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter
  - Having a deck and having a hero image in a blog post are mutually exclusive
    - A way to approximate having both is to have the hero image and then put the deck as your first (short) paragraph after the image and italicize it.
- - `Publication date:` is case sensitive (`d` in particular)
+ - `#### Publication date:` is case sensitive (`d` in particular)
 
 ## Editorial Process
 
