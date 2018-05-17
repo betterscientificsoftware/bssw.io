@@ -6,9 +6,9 @@
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/
 
-The HPC Best Practices (HPC-BP) webinars address issues faced by developers of computational science and engineering (CSE) software on high-performance computers (HPC). Webinars are scheduled on roughly a monthly basis and are available live (registration required) and then archived for future reference.  
+The HPC Best Practices (HPC-BP) webinars address issues faced by developers of computational science and engineering (CSE) software on high-performance computers (HPC). 
 
-The event web site provides more details about the webinar series, including announcements of upcoming webinars, a mailing list to receive announcements, and archival information for the entire series.
+Webinars are scheduled on roughly a monthly basis and are available live and then archived for future reference. The event web site provides details about the webinar series, including announcements of upcoming webinars, a mailing list to receive announcements, and archival information for the entire series.
 
 Below, are some of the webinars which have been referenced elsewhere on the Better Scientific Software site.
 
