@@ -10,7 +10,7 @@ In this study, [10 Common Learning Myths That Might Be Holding You Back] (https:
 <!---
 Publish: yes
 Categories: Skills
-Topics: 
+Topics: Personal productivity and sustainability, Online learning
 Level: 2
 Prerequisites: defaults
 Aggregate: none
