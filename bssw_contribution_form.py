@@ -1,6 +1,37 @@
 # This script reads input from the Google Form:
 # https://docs.google.com/forms/d/e/1FAIpQLScuM_jGV5MO2K6CCurHlC7s_YwIVQcOuLPExobCq9uDnX4p5Q/viewform
+# using the key string '1u6CLr6LbVbbWnpUVij1_z_ugWwAy-5RI7d6QwyFxK00' (ID of the generated Google spreadsheet).
 # Each submission is converted into an article of one of the contribution types supported by the site https://bssw.io
+# This script should be executed on any platform that supports python.
+#
+# Steps:
+# 1. Clone or update the betterscientificsoftware.github.io repo onto your local system.
+#
+# 2. Execute this script.
+# 
+# 3. After executing this script, any contributions found in the spreadsheet will be found in properly formatted markdown
+# files with the publish field set to 'no'.
+# Files will be found in:
+#   BSSW_GENERATED_FILES/Articles
+#   BSSW_GENERATED_FILES/CuratedContent
+#   BSSW_GENERATED_FILES/Events
+#   BSSW_GENERATED_FILES/Site
+#
+# 4. Review the generated files. Some submissions may have non-ASCII characters if the author copied and pasted from
+#    an editor that supports such symbols.  For example, MS Word will convert standard quotes to non-standard quotes.
+#    The spreadsheet cells can be directly edited to remove these anomolies.
+#
+# 5. After reviewing the content, these files can be moved to the main folders.  For example, files in
+#    BSSW_GENERATED_FILES/Articles should be moved to the top-level folder Articles.
+#
+# 6. Commit the new files back to the GitHub repo.
+#
+# 7. From the GitHub web interface to betterscientificsoftware.github.io, confirm that the new files are present
+#    and render properly in the web preview.
+#
+# 8. Edit the file from the web interface. Fix any rendering errors and change the Publish field in the meta-date
+#    block at the bottom of the article to yes.
+# 9. You are done! The new files should appear on bssw.io after the next auto-generate cycle.
 
 # required install package: Run those two lines below in the Terminal
 # pip install oauth2client==1.5.2
