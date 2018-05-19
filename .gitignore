@@ -7,3 +7,7 @@
 ___*
 .vscode
 
+BSSW_GENERATED_FILES/Articles/*.md
+BSSW_GENERATED_FILES/CuratedContent/*.md
+BSSW_GENERATED_FILES/Events/*.md
+BSSW_GENERATED_FILES/Site/*.md
