@@ -28,13 +28,13 @@ After undergoing review for content and formatting, resources in `.md` files wri
 
 The document [What To Contribute](WhatToContribute.md) provides guidance about where to put the file for your new contribution in the BSSw Github repo, depending on the type of content you are creating (article, curated content, event).
 
-#### Preferred Approach: Google Form Submission
+#### Preferred Approach (Simple): Google Form Submission
 *The BSSw team has a new preferred approach that will work for most submissions (article, blog, curated content or event announcement).  This approach simplifies the creation of meta data by providing the author with a guided list of meta data choices.  Once the author submits the form, a back end processing tool converts the form submission to the markdown equivalent.*
 1. Make sure you review the [What To Contribute](WhatToContribute.md) guidance.  While the Google form makes the submission simpler, the author must still be familiar with contribution policies.
-2. Enter information in this [Google form](https://goo.gl/forms/IOnjfvtV9DFBKBDI3).
+2. Enter information in this [Google form](https://goo.gl/forms/IJyJKbI5OK9Lzcna2).
 3. Notify us of your contribution by contacting us on the [bssw.io contact page](https://bssw.io/contributes/new).
 
-#### Preferred Approach: Web based
+#### Preferred Approach (Advanced): Web based
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
 1. Find an existing article that is similar in type.
   - View the article in **Raw** mode.
