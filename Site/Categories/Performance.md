@@ -26,6 +26,7 @@ Software exhibiting similar performance across multiple platforms, with the time
 <!---
     - [What is Performance Portability for CSE Applications?](../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
     - [How to Enable Performance Portability for CSE Applications?](../CuratedContent/HowToEnablePerfPortabilityForCseApps.md)
+    - [What Performance Portability Tools are Compatible?](../CuratedContent/WhatPerfPortabilityToolsAreCompatible.md)
 --->
 
 <!---
