@@ -11,13 +11,12 @@ The article starts out with a summary of the best practices, making it easy to e
 If your team has done well in implementing some of these practices, those can be skipped while you emphasize those that need to be implemented or improved. Have someone from your team revisit these ideas to see how the team is doing, what can be improved, and what they need to dwell into for more advanced ideas.
 Finally, the article suggests implementing the practices incrementally and gives a link to the software carpentry website for more advanced ideas. 
 
-[Software Carpentry] (http://software-carpentry.org)
+[Software Carpentry](http://software-carpentry.org)
 
-[Best Practices for Scientific Computing]
-(http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+[Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 
 <!---
-Publish: no
+Publish: yes
 Categories: Development
 Topics: Documentation, Version control, Configuration and builds, Software engineering
 Level: 2
