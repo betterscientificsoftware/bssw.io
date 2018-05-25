@@ -114,8 +114,8 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 <!---
 Publish: preview
-Categories: Better Development
-Topics: Refactoring
+Categories: Planning, Reliability
+Topics: testing
 Tags: [import from subresources]
 Level: 2
 Prerequisites: [import from subresources]
