@@ -5,7 +5,7 @@
 
 #### Publication date: May 18, 2018
 
-In this study, [10 Common Learning Myths That Might Be Holding You Back] (https://www.opencolleges.edu.au/informed/features/10-common-learning-myths-might-holding-back/), commonly held opinions about education and learning are challenged.
+In this study, [10 Common Learning Myths That Might Be Holding You Back](https://www.opencolleges.edu.au/informed/features/10-common-learning-myths-might-holding-back/), commonly held opinions about education and learning are challenged.
 
 <!---
 Publish: yes
