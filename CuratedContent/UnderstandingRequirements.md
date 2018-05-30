@@ -36,7 +36,7 @@ Topics: requirements
 Tags: requirements, whatis, terminology
 Level: 2
 Prerequisites: none
-Aggregate: none
+Aggregate: subresource
 
 % LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
 
