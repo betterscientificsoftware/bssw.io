@@ -18,7 +18,7 @@ To view Elaine's original webinar, and the full webinar series see the following
 
 text goes here.
 
-[Caption goes here.  Need to change image]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_diag_032718.jpg' class='page lightbox' />
+[Caption goes here.  Need to change image]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_OnDemandLearning_Hexagon_2000_1227.png' class='page lightbox' />
 
 <br>
 
