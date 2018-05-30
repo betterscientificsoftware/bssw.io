@@ -14,8 +14,8 @@ The elicitation and analysis steps are collectively known as the *sensemaking* p
 #### Publication date: October 26, 2017
 
 <!---
-Publish: no
-Categories: Collaboration, Planning
+Publish: yes
+Categories: Planning
 Topics: requirements
 Tags: requirements, terminology
 Level: 2
@@ -23,5 +23,4 @@ Prerequisites: WhatAreRequirements.md, HowToWriteARequirement.md
 Aggregate: none
 
 % LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements (and add whatis tag)
-% Temporarily unpublish, in order to get PSIP poster screenshot
 --->
