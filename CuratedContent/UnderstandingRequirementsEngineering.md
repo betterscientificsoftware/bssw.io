@@ -19,8 +19,8 @@ Categories: Planning
 Topics: requirements
 Tags: requirements, terminology
 Level: 2
-Prerequisites: WhatAreRequirements.md, HowToWriteARequirement.md
-Aggregate: none
+Prerequisites: default
+Aggregate: subresource
 
 % LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements (and add whatis tag)
 --->
