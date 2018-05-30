@@ -1,7 +1,7 @@
 # Blog - On Demand Learning for Better Scientific Software ... How to Use Resources & Technology to Optimize Your Productivity
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png" />[need to change hero image]
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_OnDemandLearning_Blue_1176_432.jpg" />[image caption]
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn")
 
