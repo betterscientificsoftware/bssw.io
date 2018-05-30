@@ -52,8 +52,8 @@ Categories: Planning
 Topics: requirements
 Tags: requirements
 Level: 2
-Prerequisites: WhatIsRequirementsEngineering.md
-Aggregate: none
+Prerequisites: default
+Aggregate: subresource
 
 % LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements (and howto tag)
 --->
