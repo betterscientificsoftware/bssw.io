@@ -21,7 +21,7 @@ tools can provide better coverage than any manual approach in certain areas, suc
 <!---
 Publish: yes
 Categories: development
-Topics: development tools
+Topics: programming languages and tools
 Tags:
 Level: 0
 Prerequisites: none
