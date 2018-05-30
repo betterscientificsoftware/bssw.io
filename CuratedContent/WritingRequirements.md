@@ -1,4 +1,4 @@
-# How to Write a Requirement
+# Writing Requirements
 
 In this resource, we work through a number of examples of requirements and how to write them.
 
