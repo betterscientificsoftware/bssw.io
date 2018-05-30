@@ -1,6 +1,6 @@
-# On Demand Learning for Better Scientific Software
+# Transmedia Learning Frameworks (TLF)
 
-Applying on-demand learning strategies for self-paced "learning in the wild" can augment professional learning from massively open online courses (MOOC) such as EdX, Udacity, and videos available from YouTube and other sources. 
+Applying on-demand learning strategies for self-paced "learning in the wild" such as the use of a transmedia learning framework (TLF) can augment professional learning from massively open online courses (MOOC) such as EdX, Udacity, and videos available from YouTube and other sources. 
 
 ### Using Resources and Technology to Optimize Your Productivity
 
