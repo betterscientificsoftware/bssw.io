@@ -30,8 +30,8 @@ Meanwhile, explicitly documenting non-functional requirements is important becau
 #### Publication date: October 26, 2017
 
 <!---
-Publish: no
-Categories: Collaboration, Planning
+Publish: Yes
+Categories: Planning
 Topics: requirements
 Tags: requirements, whatis, terminology
 Level: 2
@@ -39,5 +39,5 @@ Prerequisites: none
 Aggregate: none
 
 % LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
-% LCM: Temporarily unpublish, in order to get PSIP poster screenshot
+
 --->
