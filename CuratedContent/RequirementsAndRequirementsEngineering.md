@@ -9,10 +9,10 @@ Nevertheless, numerous studies have found that scientific software developers, a
 In this series, we explore the practical application of requirements engineering for scientific software. We provide terms, tools, and techniques to empower both scientific software developers and clients. Moreover, we give step-by-step examples to illustrate how the requirements phase can be employed, both for small projects intended for a limited audience and for large-scale, mission-critical codes.
 
 ## Resources
-- [What is a requirement](WhatIsARequirement.md)
-- [How to write a requirement](HowToWriteARequirement.md)
-- [What is the requirements engineering process](WhatIsRequirementsEngineering.md)
-- [How to perform the requirements engineering process](HowToRequirementsEngineering.md)
+- [Understanding requirements](UnderstandingRequirements.md)
+- [Writing requirements](WritingRequirements.md)
+- [Understanding the requirements engineering process](UnderstandingRequirementsEngineering.md)
+- [Performing the requirements engineering process](PerformingRequirementsEngineering.md)
 
 ### Citations
 - John S Reel. Critical success factors in software projects. *IEEE Software*, 16(3):18–23, 1999.
@@ -31,10 +31,10 @@ In this series, we explore the practical application of requirements engineering
 
 <!---
 Publish: yes
-Categories: Collaboration, Planning
-Topics: [import from subresources]
-Tags: [import from subresources]
+Categories: Planning
+Topics: Requirements
+Tags: 
 Level: 2
-Prerequisites: [import from subresources]
+Prerequisites: Default
 Aggregate: base
 --->
