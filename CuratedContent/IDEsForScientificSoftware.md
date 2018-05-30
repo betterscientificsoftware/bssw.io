@@ -193,7 +193,7 @@ The following tables show which IDEs support important features for scientific c
 <!---
 Publish: yes
 Categories: development
-Topics: development tools
+Topics: programming languages and tools
 Tags: tools
 Level: 2
 Prerequisites: defaults

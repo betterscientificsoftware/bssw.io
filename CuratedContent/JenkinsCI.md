@@ -9,7 +9,7 @@ As discussed in ["What Is CSE Software Testing?"](WhatIsCseSwTesting.md), automa
 <!---
 Publish: yes
 Categories: reliability, development
-Topics: testing, continuous integration testing, development tools
+Topics: testing, continuous integration testing, programming languages and tools
 Tags: tool
 Level: 2
 Prerequisites: defaults

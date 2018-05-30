@@ -21,11 +21,11 @@ Ways to foster teamwork, leveraging people's diverse skills in pursuit of a comm
    - [What Are Strategies for More Effective Teams?](Topics/WhatAreStrategiesForMoreEffectiveTeams.md)  
 --->
 
-- **Discussion forums, Q&A sites:**
-Discussion forums and Q&A sites where questions about scientific software development, productivity, and sustainability are welcome.
+- **Discussion and question sites:**
+Discussion forums and sites where questions about scientific software development, productivity, and sustainability are welcome.
 
 <!---
-    - [What Are Discussion Forums and Q&A Sites for Better Scientific Software?](Topics/WhatAreDisussionForumsAndQASitesForBetterScientificSw.md)
+    - [What Are Discussion and Question Sites for Better Scientific Software?](Topics/WhatAreDisussionAndQuestionSitesForBetterScientificSw.md)
 --->
 
 - **Software publishing and citation:**

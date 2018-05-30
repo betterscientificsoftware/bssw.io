@@ -79,7 +79,7 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Issue tracking
     - Refactoring
     - Software engineering
-    - Development tools
+    - Programming languages and tools
 - **Performance**
     - High-performance computing (HPC)
     - Performance at leadership computing facilities (LCFs)
@@ -95,7 +95,7 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Funding sources and programs
     - Projects and organizations
     - Software publishing and citation
-    - Discussion forums, Q&A sites
+    - Discussion and question sites
 - **Skills**
     - Personal productivity and sustainability
     - Online learning

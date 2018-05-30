@@ -96,7 +96,7 @@ Categories: [Primary display via BSSW website interface]
      - Issue tracking
      - Refactoring
      - Software engineering
-     - Development tools
+     - Programming languages and tools
  - **Performance**
      - High-performance computing (HPC)
      - Performance at leadership computing facilities (LCFs)
@@ -112,7 +112,7 @@ Categories: [Primary display via BSSW website interface]
      - Funding sources and programs
      - Projects and organizations
      - Software publishing and citation
-     - Discussion forums, Q&A sites
+     - Discussion and question sites
  - **Skills**
      - Personal productivity and sustainability
      - Online learning

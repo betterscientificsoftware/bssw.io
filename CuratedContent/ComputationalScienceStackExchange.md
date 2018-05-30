@@ -13,7 +13,7 @@ This Stack Exchange site covers computational science in general.  Most of the q
 <!---
 Publish: yes
 Categories: Collaboration
-Topics: Discussion forums, Q&A sites
+Topics: Discussion and question sites
 Tags: website, service
 Level: 2
 Prerequisites: defaults

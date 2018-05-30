@@ -71,11 +71,11 @@ Procedures and considerations for getting a well engineered, reliable and mainta
     - [What Is Software Engineering for CSE?](Topics/WhatIsSwEngForCse.md)
 --->
 
-- **Development tools:**
-Tools that support different aspects of software development, such as editors, integrated development environments, performance measurement and analysis tools, memory checkers, and debuggers.
+- **Programming languages and tools:**
+Programming languages as well as tools that support various aspects of software development, such as editors, integrated development environments, performance measurement and analysis tools, and memory checkers.
 
 <!---
-    - [What Are CSE Development Tools?](Topics/WhatAreCseDevptTools.md)
+    - [What Are CSE Programming Languages and Development Tools?](Topics/WhatAreCseProgrammingLanguagesAndDevptTools.md)
 --->
 
 <!---

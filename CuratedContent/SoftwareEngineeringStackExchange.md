@@ -13,7 +13,7 @@ The focus of this particular Stack Exchange site is on software engineering; com
 <!---
 Publish: yes
 Categories: Collaboration
-Topics: Discussion forums, Q&A sites
+Topics: Discussion and question sites
 Tags: website, service
 Level: 2
 Prerequisites: defaults
