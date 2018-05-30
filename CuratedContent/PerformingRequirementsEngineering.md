@@ -1,4 +1,4 @@
-# How to Perform the Requirements Engineering Process
+# Performing the Requirements Engineering Process
 
 How should the requirements process be carried out in the context of a scientific software development project? A review of the literature suggests three trends of interest:
 
