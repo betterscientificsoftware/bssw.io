@@ -16,8 +16,8 @@ A forthcoming webinar explains key points of self-directed online learning, incl
 
 <!---
 Publish: yes
-Categories: development
-Topics: [import from subresources]
+Categories: skills, development
+Topics: Personal productivity and sustainability, [import from subresources]
 Tags: [import from subresources]
 Level: 2
 Prerequisites: [import from subresources]
