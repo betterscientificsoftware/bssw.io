@@ -57,7 +57,7 @@ I’ve provided guidelines and a transmedia learning framework (TLF) for content
 
 
 <!---
-Publish: Preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Tags: bssw-blog-article
