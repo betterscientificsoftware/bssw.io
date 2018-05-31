@@ -1,5 +1,5 @@
 
-# 10 Important Learning Studies from 2017
+# Ten Important Learning Studies from 2017
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
 
