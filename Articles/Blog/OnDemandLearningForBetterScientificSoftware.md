@@ -59,7 +59,7 @@ I’ve provided guidelines and a transmedia learning framework (TLF) for content
 <!---
 Publish: yes
 Categories: skills
-Topics: online learning
+Topics: online learning, personal productivity and sustainability
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
