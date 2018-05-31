@@ -7,7 +7,7 @@
 
 #### Publication date: May 31, 2018
 
-*In May 2018, Elaine Raybourn presented a webinar titled "On-demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize your Productivity" in the series Best Practices for HPC Software Developers on the IDEAS Productivity website. In this article, Elaine answers questions from her webinar participants about challenges associated with transmedia learning in the wild (i.e., as it naturally occurs in a social context). Elaine is a scientist at Sandia National Laboratories.*
+*In May 2018, Elaine Raybourn presented a webinar titled "On-demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize your Productivity" in the series Best Practices for HPC Software Developers on the IDEAS Productivity website. In this article, Elaine answers questions from her webinar participants about challenges associated with learning in the wild (i.e., as it naturally occurs in a social context). Elaine is a scientist at Sandia National Laboratories.*
 
 <br> 
 
