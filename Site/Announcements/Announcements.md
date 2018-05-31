@@ -1,10 +1,14 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Keeping Your Vision Fit for Years of Software Development](../../Articles/Blog/VisionFitnessForSoftwareProductivity.md)
-- Display dates: 05/18/2018 - 05/31/2018
+
+- [New blog article ... On Demand Learning for Better Scientific Software: How to Use Resources and Technology to Optimize Your Productivity](../../Articles/Blog/OnDemandLearningForBetterScientificSoftware.md)
+- Display dates: 05/31/2018 - 06/20/2018
 
 <!---
+- [New blog article ... Keeping Your Vision Fit for Years of Software Development](../../Articles/Blog/VisionFitnessForSoftwareProductivity.md)
+- Display dates: 05/18/2018 - 05/30/2018
+
 - [New blog article ... SuperLU: How Advances In Software Practices Are Increasing Sustainability And Collaboration](../../Articles/Blog/SuperLUHowAdvancesInSwPracticesAreIncreasingSustainabilityAndCollaboration.md)
 - Display dates: 04/29/2018 - 05/18/2018
 
