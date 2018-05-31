@@ -20,7 +20,7 @@ To view Elaine's original webinar, and the full webinar series see the following
 
 <br> 
 
-<strong>Q:</strong> The transmedia learning framework (TLF) and storytelling arcs are a good outline for how we are self-learning and engaging information in today’s world.  One could have this in mind when developing one’s own HPC “products”.  In other words, couldn’t we implement these various self-learning tools into our plans so that the impact of our HPC software is greater?  I suppose some platforms would be more applicable than others.  How does one get started down this path, in other words how to prioritize which tools one should use first etc.?
+<strong>Question:</strong> The transmedia learning framework (TLF) and storytelling arcs are a good outline for how we are self-learning and engaging information in today’s world.  One could have this in mind when developing one’s own HPC “products”.  In other words, couldn’t we implement these various self-learning tools into our plans so that the impact of our HPC software is greater?  I suppose some platforms would be more applicable than others.  How does one get started down this path, in other words how to prioritize which tools one should use first etc.?
 
 <strong>Elaine:</strong> I love this question. Yes, your comment about implementing various self-learning tools into your HPC “software product” plans to increase impact, is a great, actionable goal. Any team that would like to pursue this with IDEAS-ECP should not hesitate to contact us. We can easily begin a PSIP (Productivity and Sustainability Improvement Planning) activity around the use of transmedia learning frameworks for HPC and scientific computing “products.” I’m personally very motivated to engage with the ECP community on this topic.
 
@@ -34,7 +34,7 @@ If I were to answer the same question and design a TLF for a team, I would have 
 
 <br> 
 
-[Transmedia learning is the scalable system of messages representing a core experience that unfolds from the use of multiple media and emotionally engages learners by involving them personally in the story (Raybourn, 2014, Journal of Computational Science)]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_OnDemandLearning_hex_1250_767.png' class='page lightbox' />
+[Transmedia learning is the scalable system of messages representing a core experience that unfolds from the use of multiple media and emotionally engages learners by involving them personally in the story (Raybourn, 2014, Journal of Computational Science).]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_OnDemandLearning_hex_1250_767.png' class='page lightbox' />
 
 <br>
 
