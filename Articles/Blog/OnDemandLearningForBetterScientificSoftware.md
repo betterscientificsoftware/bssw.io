@@ -64,6 +64,6 @@ Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
-RSS update: 2018-06-01
+RSS update: June 1, 2018
 SAND #: SAND2018-5878 O
 --->
