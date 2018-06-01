@@ -63,7 +63,7 @@ Topics: online learning, personal productivity and sustainability
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
-AggregateMay: none
-RSS update: June May 31, 2018
+Aggregate: none
+RSS update: May 31, 2018
 SAND #: SAND2018-5878 O
 --->
