@@ -38,7 +38,7 @@ Over the years at Los Alamos National Laboratory, we've seen several software qu
 <!---
 Publish: Yes
 Categories: planning, development
-Topics: design, version control, configuration and builds
+Topics: design, refactoring, software engineering
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
