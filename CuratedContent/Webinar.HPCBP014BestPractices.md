@@ -13,8 +13,8 @@ To view Charles's original webinar, see:
 
 <!---
 Publish: yes
-Categories: development
-Topics: refactoring, software engineering
+Categories: planning, development
+Topics: design, refactoring, software engineering
 Tags: 
 Level: 2
 Prerequisites: none
