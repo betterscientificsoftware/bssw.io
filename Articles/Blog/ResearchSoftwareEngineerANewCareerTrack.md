@@ -1,16 +1,10 @@
 # Research Software Engineer: A New Career Track
 
-Research relies on software, and not just word-processing and spreadsheets. A study by the Software Sustainability Institute in the UK found that over 50% of researchers, in diverse fields including veterinary science, architecture, engineering and medicine, all develop their own software. 
-<!---  We're not using a hero image now.
-**Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png" />[High-flux isotope reactor]
----!>
-
 #### Contributed by [Chris Richardson](https://github.com/chrisrichardson "Chris Richardson GitHub Profile")
 
 #### Publication date: June 14, 2018
 
-<br>
+Research relies on software, and not just word-processing and spreadsheets. A study by the Software Sustainability Institute in the UK found that over 50% of researchers, in diverse fields including veterinary science, architecture, engineering and medicine, all develop their own software. 
 
 Shared software development benefits the community, but it is not rewarded in the same way as journal publications.  To fill the gap, a body of Research Software Engineers has emerged, and  the model is now spreading across the world. Read this article in *SIAM News* to find out more: 
 [https://sinews.siam.org/Details-Page/research-software-engineer-a-new-career-track-3](https://sinews.siam.org/Details-Page/research-software-engineer-a-new-career-track-3)
