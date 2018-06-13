@@ -10,7 +10,7 @@ Research relies on software, and not just word-processing and spreadsheets. A st
 
 <br>
 
-Read [this article](https://sinews.siam.org/Details-Page/research-software-engineer-a-new-career-track-3) in *SIAM News* to find out more: 
+Read [this article](https://sinews.siam.org/Details-Page/research-software-engineer-a-new-career-track-3) in *SIAM News* to find out more.
  
 <br>
 
