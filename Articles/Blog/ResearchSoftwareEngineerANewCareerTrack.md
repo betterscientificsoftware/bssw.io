@@ -10,6 +10,7 @@ Research relies on software, and not just word-processing and spreadsheets. A st
  
 <br>
 #### A Gathering of Research Software Engineers
+
 Consider attending the [Third Conference of Research Software Engineers](http://rse.ac.uk/conf2018), which will take place September 3-4, 2018 at the University of Birmingham, UK.  The registration deadline is July 31, 2018.  The conference seeks to expand to around 300 attendees, an international mix, and a program full of interesting talks, discussion sessions and practical workshops. 
 
 <!---
