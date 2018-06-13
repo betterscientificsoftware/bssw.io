@@ -14,7 +14,7 @@ Read [this article](https://sinews.siam.org/Details-Page/research-software-engin
  
 <br>
 
-Also, consider attending the [Third Conference of Research Software Engineers](http://rse.ac.uk/conf2018), which will take place during Sept 3-4, 2018 at the University of Birmingham, UK.  The registration deadline is July 31, 2018.  The conference seeks to expand to around 300 attendees, an international mix, and a program full of interesting talks, discussion sessions and practical workshops. 
+Also, consider attending the [Third Conference of Research Software Engineers](http://rse.ac.uk/conf2018), which will take place September 3-4, 2018 at the University of Birmingham, UK.  The registration deadline is July 31, 2018.  The conference seeks to expand to around 300 attendees, an international mix, and a program full of interesting talks, discussion sessions and practical workshops. 
 
 <!---
 Publish: preview
