@@ -1,7 +1,7 @@
 
 # Constructive Code Critique Advice
 
-#### Contributed by [Michael Heroux](https://github.com/maherou)
+#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 #### Publication date: May 28, 2018
 

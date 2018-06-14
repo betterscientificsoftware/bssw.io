@@ -1,4 +1,3 @@
-
 # WSSSPE 6.1
 
 - Date: October 29, 2018

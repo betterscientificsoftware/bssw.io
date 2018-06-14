@@ -9,7 +9,7 @@ The Clever Programmer YouTube channel offers a number of short videos for learni
 William Scullin from Argonne National Laboratory presents "Python for High Performance Computing" at the Argonne Training Program on Extreme-Scale Computing (ATPESC), Summer, 2015.
 
 - [Python Software Engineering Training Materials](https://shuds13.github.io/python-tutorials)
-Stephen Hudson, from Argonne National Laboratory has created Python tips, tutorials, and resources for computational scientists. 
+Steve Hudson, from Argonne National Laboratory has created Python tips, tutorials, and resources for computational scientists. 
 
 - [Udacity MOOC Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036)
 This free introductory programming class is for beginners with little or no experience with Object-Oriented Programming.
@@ -17,7 +17,7 @@ This free introductory programming class is for beginners with little or no expe
 - [Codewars](https://www.codewars.com/)
 Sign up to try your hand at training with others on "real code challenges." 
 
-#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn") and [Stephen Hudson](https://github.com/shuds13 "Stephen Hudson")
+#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Github Profile") and [Steve Hudson](https://github.com/shuds13 "Steve Hudson Github Profile")
 
 <!---
 Publish: yes

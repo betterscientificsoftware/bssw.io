@@ -15,7 +15,7 @@ WSSSPE5.2 aims to facilitate the creation of a regional community focussed on su
 
 WSSSPE5.2 is held in conjuction with the [2017 IEEE International Conference on eScience](http://escience2017.org.nz).
 
-#### Contributed by [Dan Katz](https://github.com/danielskatz)
+#### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
 <!---
 Publish: yes

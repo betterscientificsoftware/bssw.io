@@ -15,7 +15,7 @@ WSSSPE5.1 aims to capture the state of the art in sustainable research software,
 
 WSSSPE5.1 immediately precedes and cis o-located with the [2nd RSE Conference](http://rse.ac.uk/conf2017/).
 
-#### Contributed by [Dan Katz](https://github.com/danielskatz)
+#### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
 <!---
 Publish: yes

@@ -4,8 +4,8 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Trust_Blue_1176_432_10.jpg' />
 
-#### Contributed by [Michael A. Heroux]
-#### Publication date: June 30, 2018
+#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
+#### Publication date: June 28, 2018
 
 I have worked in the scientific software field for more than 30 years.  Long ago I learned the pithy phrase “Verification is doing things right, and validation is doing the right thing.”  I committed this phrase to memory in order to avoid confusion when the distinction between V & V mattered.  
 
@@ -23,9 +23,10 @@ While Covey’s book focuses on human interactions and pursuits, I think a focus
 
 <!---
 Publish: preview
+RSS update: 2018-06-28
 Categories: skills
 Topics: Personal productivity and sustainability
-Tags: bssw-article
+Tags: bssw-blog-article
 Level: 2
 Prerequisites: defaults
 Aggregate: none
