@@ -16,7 +16,7 @@ In recent years, I have come to appreciate that many other paired phrases acknow
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0618_Building_Trusted_SSw_Table_1250_767.png' class='page lightbox' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0618_Building_Trusted_SSw_Table_1250_767_1.png' class='page lightbox' />
 
 <br>
 
