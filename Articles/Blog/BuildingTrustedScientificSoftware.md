@@ -1,4 +1,4 @@
-# Building Trusted Scientific Software
+# Building Trusted Scientific Software: Part I
 
 **Hero Image:**
 
@@ -12,7 +12,7 @@ I have worked in the scientific software field for more than 30 years.  Long ago
 
 Verification focuses on internal concerns of a good software product such as unit testing, while validation focuses on the external, such as product relevance.   Which focus is most important?  Clearly, a product that does the wrong thing well (verified but not valid) is not useful.  When we consider the long lifespan of many scientific codes, however, a product that does the right thing poorly (valid but not verified) leads to high usage and maintenance costs and increases the risk of incorrect scientific results from undetected software errors.  In other words, both internal and external concerns are essential.
 
-In recent years, I have come to appreciate that many other paired phrases acknowledge this internal-external complementarity.  The word pair efficient & effective has the same pithy phrase as V & V: “Efficiency is doing things right, and effectiveness is doing the right thing.”  The same substitution can be made for management & leadership and tactic & strategy.  
+In recent years, I have come to appreciate that many other paired phrases acknowledge this internal-external complementarity.  The word pair efficient & effective has the same pithy phrase as V & V: “Efficiency is doing things right, and effectiveness is doing the right thing.”  The same substitution can be made for management & leadership and tactics & strategy.  
 
 <br> 
 
