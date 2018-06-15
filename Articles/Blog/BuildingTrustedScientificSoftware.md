@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Trust_Blue_1176_432_10.jpg' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0618_Building_Trusted_SSw_1176_432.png' />
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
