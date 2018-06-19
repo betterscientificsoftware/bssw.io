@@ -75,7 +75,7 @@ Procedures and considerations for getting a well engineered, reliable and mainta
 Programming languages as well as tools that support various aspects of software development, such as editors, integrated development environments, performance measurement and analysis tools, and memory checkers.
 
 <!---
-    - [What Are CSE Programming Languages and Development Tools?](Topics/WhatAreCseProgrammingLanguagesAndDevptTools.md)
+    - [What Are CSE Programming Languages and Tools?](Topics/WhatAreCseProgrammingLanguagesAndDevptTools.md)
 --->
 
 <!---
