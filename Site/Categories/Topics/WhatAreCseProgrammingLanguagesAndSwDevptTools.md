@@ -1,4 +1,4 @@
-### What Are Programming Languages and Development Tools?
+### What Are Programming Languages and Tools?
 
 Development tools are tools that support different aspects of software design and implementation, such as editors, 
 integrated development environments (IDEs), revision control systems (RCS), [issue trackers](WhatIsIssueTracking.md), 
