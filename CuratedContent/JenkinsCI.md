@@ -6,10 +6,12 @@ As discussed in ["What Is CSE Software Testing?"](WhatIsCseSwTesting.md), automa
 
 #### Contributed by [Lois Curfman McInnes](http://press3.mcs.anl.gov/curfman/ "Lois Curfman McInnes Homepage")
 
+#### Publication date: May 30, 2018
+
 <!---
 Publish: yes
-Categories: reliability, development
-Topics: testing, continuous integration testing, programming languages and tools
+Categories: reliability
+Topics: testing, continuous integration testing
 Tags: tool
 Level: 2
 Prerequisites: defaults
