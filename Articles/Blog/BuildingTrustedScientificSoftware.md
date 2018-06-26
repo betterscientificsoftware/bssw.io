@@ -1,4 +1,4 @@
-# Building Trusted Scientific Software: Part I
+# Building Trusted Scientific Software: Part 1
 
 **Hero Image:**
 
