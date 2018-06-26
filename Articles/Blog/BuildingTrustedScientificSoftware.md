@@ -16,10 +16,12 @@ Verification focuses on internal concerns of a good software product such as uni
 
 In recent years, I have come to appreciate that many other paired phrases acknowledge this internal-external complementarity.  The word pair efficient & effective has the same pithy phrase as V & V: “Efficiency is doing things right, and effectiveness is doing the right thing.”  The same substitution can be made for management & leadership and tactics & strategy.  
 
+<br>
 <br> 
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0618_Building_Trusted_SSw_Table_1250_767_3.png' class='page' />
 
+<br>
 <br>
 
 Other internal-external examples include coupling and cohesion, which are used to guide software design.  A software module should have high internal cohesion of its functions and data but only essential external coupling to other modules.  In another example, Fred Brooks illustrates the internal-external distinction in his statement “Scientists build in order to learn, and engineers learn in order to build.” A scientist seeks new scientific discovery, an external focus.  An engineer creates something, an internal focus.  Henry Ford highlighted the internal efficiency element of engineering when he said “An engineer can build for a nickel what any damn fool can build for a dollar.”
