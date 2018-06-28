@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Building Trusted Scientific Software](../../Articles/Blog/BuildingTrustedScientificSoftware.md)
+- Display dates: 06/27/2018 - 07/18/2018
+
+<!---
 - [New blog article ... Research Software Engineer: A New Career Track?](../../Articles/Blog/ResearchSoftwareEngineerANewCareerTrack.md)
 - Display dates: 06/13/2018 - 06/30/2018
 
-<!---
 - [New blog article ... On Demand Learning for Better Scientific Software: How to Use Resources and Technology to Optimize Your Productivity](../../Articles/Blog/OnDemandLearningForBetterScientificSoftware.md)
 - Display dates: 05/31/2018 - 06/20/2018
 
