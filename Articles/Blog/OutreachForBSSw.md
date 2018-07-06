@@ -29,7 +29,7 @@ So you might describe our approach to helping the ECP code teams improve their s
 
 <!---
 Publish: preview
-RSS update: 2018-06-28
+RSS update: 
 Categories: skills
 Topics: Personal productivity and sustainability
 Tags: bssw-blog-article
