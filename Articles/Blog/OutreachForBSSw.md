@@ -4,7 +4,9 @@
 
 #### Publication date: July 15, 2018
 
-<em> Helping code teams improve their software development, productivity, and sustainability is no small challenge. In the IDEAS Productivity Project, we have found that one of the keys to aiding the ECP software development teams involves extensive outreach to the broader community of computational scientists and engineers (CSE) in high-performance computing (HPC). </em>
+Helping code teams improve their software development, productivity, and sustainability is no small challenge. 
+  
+<em> In the IDEAS Productivity Project, we have found that one of the keys to aiding the ECP software development teams involves extensive outreach to the broader community of computational scientists and engineers (CSE) in high-performance computing (HPC). </em>
 
 The Exascale Computing Project (ECP) needs to deliver a software environment and applications ready to run on exascale computers, which are scheduled to be deployed starting in 2021. This entails a major, large-scale software development effort. Recognizing the challenges development teams will face, the ECP is supporting the IDEAS Productivity project team to help developers improve their development practices.
 
