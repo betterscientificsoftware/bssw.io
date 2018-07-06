@@ -13,6 +13,7 @@ Our goal is to work with as many of the code teams as want our help (some alread
 <br>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_OutreachForBSSw_1250_767.png' class='page' />[Online Outreach for ECP Code Teams and the HPC/CSE Community]
 <br>
+<br>
 
 But we’re not a large project, and there are many code teams across ECP. So how do we do it? We do a lot of outreach! That may sound like a contradiction, but it really isn’t. Based on our own collective experience in the HPC/CSE area, as well as initial interviews with many code teams, we know many topics that are likely to come up in the PSIP process. Every new code team interview, or a conversation with a colleague outside of ECP, is likely to turn up more topics or reinforce ones already on our list. 
 
