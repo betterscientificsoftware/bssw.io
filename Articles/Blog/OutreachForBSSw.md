@@ -13,6 +13,7 @@ The Exascale Computing Project (ECP) needs to deliver a software environment and
 Our goal is to work with as many of the code teams as want our help (some already have excellent software development practices or are comfortable improving on their own). We have developed a Productivity and Sustainability Improvement Process (PSIP) that breaks the process down into smaller steps, which are easier to implement and help the realize improvements sooner through a series of iterations. The real work has to be done by the project team, but we help all along the way. Sometimes that involves helping them analyze their situation and understanding the origins of their software development challenges. Sometimes it is helping them learn about best practices. And sometimes it is helping them implement them.
 
 <br>
+<br>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_OutreachForBSSw_1250_767.png' class='page' />[Online Outreach for ECP Code Teams and the HPC/CSE Community]
 <br>
 <br>
