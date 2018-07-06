@@ -1,6 +1,6 @@
 # Think Locally, Act Globally: Outreach for Better Scientific Software
 
-#### Contributed by [David E. Bernholdt](https://github.com/maherou "David E. Bernholdt GitHub Profile")
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub Profile")
 
 #### Publication date: June 28, 2018
 
