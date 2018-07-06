@@ -2,7 +2,7 @@
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub Profile")
 
-#### Publication date: June 28, 2018
+#### Publication date: July 15, 2018
 
 <em> Helping code teams improve their software development, productivity, and sustainability is no small challenge. In the IDEAS Productivity Project, we have found that one of the keys to aiding the ECP software development teams involves extensive outreach to the broader community of computational scientists and engineers (CSE) in high-performance computing (HPC). </em>
 
