@@ -8,16 +8,11 @@ Unit testing is valuable for ensuring correctness of a program, performing regre
  and decomposing the program into small, testable units.
 
 
-<!-- Do I even need a framework? -->
 Using an existing framework is not strictly necessary - it is straight forward write a piece of code that exercises some functionality, tests it, and prints the results ('PASS' or 'FAIL').
 Compile this into an executable and you have a unit test.
 As more tests are written, you will want some way to organize them, run all of the tests and track the overall number of passes and fails.
 As this builds in complexity, it will evolve into a unit test framework.
 Before going down this path it is worth a look at existing frameworks and see what issues arise and how they are addressed.
-
-<!-- What should I look for in a unit test framework?  What questions should I ask? -->
-<!-- How to write and organize test cases -->
-<!-- How to incorporate the framework - keep with project or add to list of prequisites -->
 
 We needed to add unit tests to our project ([QMCPACK](https://github.com/QMCPACK/qmcpack)) to improve testing.
 We evaluated Google Test and Catch, and decided to use Catch.
@@ -28,12 +23,6 @@ The main advantages of Catch for our project are:
 
 
 The [Catch website](https://github.com/catchorg/Catch2) has a longer description of the [rationale for Catch and feature list](https://github.com/catchorg/Catch2/blob/master/docs/why-catch.md#top)
-
-<!--
-The version named Catch2 requires a C++ 11 compiler.
-The older [Catch 1 version](https://github.com/catchorg/Catch2/tree/Catch1.x) is still available
-for use with pre-C++11 compilers.
--->
 
 
 ## Using Catch
@@ -78,17 +67,6 @@ One solution is to make assertion macros with two arguments, such as `ASSERT_EQ(
 Catch uses templates to decompose the expression into parts so that it can use more natural comparison syntax and still be able to report values in the comparison.
  There is a limitation that the comparisons must be simple expressions.
    For example, `REQUIRE((a==1) || (a==2))` will not be decomposed.
-
-<!---
-
-   (Explanation of expression decomposition: https://theheisenbugblog.wordpress.com/2014/09/06/c-expression-decomposition/)
-   ( The lest test framework uses the same technique, but the code is simpler and easier
-      to understand
-       https://github.com/martinmoene/lest
-      in this file
-        https://github.com/martinmoene/lest/blob/master/include/lest/lest_decompose.hpp
-   )
--->
 
 
 ### Organization
@@ -135,12 +113,6 @@ REQUIRE(a == Approx(3.1));
 ```
 The `Approx` class has methods for adjusting the tolerance of the comparison (e.g. `Approx(1.0).epsilon(1e-12)`)
 
-<!--
-## Complex values
-
-Complex values are not handled by the `Approx` classes.  Our solution is to create a class named `ComplexApprox` that behaves similarly.
-
--->
 
 ### Custom main
 
