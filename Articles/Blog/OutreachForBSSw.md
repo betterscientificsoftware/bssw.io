@@ -47,8 +47,8 @@ We look forward to hearing from you!
 
 
 <!---
-Publish: yes
-RSS update: 
+Publish: yes 
+RSS update: 2018-07-17
 Categories: skills
 Topics: Personal productivity and sustainability
 Tags: bssw-blog-article
