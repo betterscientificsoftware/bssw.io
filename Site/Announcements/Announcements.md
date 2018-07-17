@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Think Locally, Act Globally: Outreach for Better Scientific Software](../../Articles/Blog/OutreachForBSSw.md)
+- Display dates: 07/16/2018 - 07-31/2018
+
+<!---
 - [New blog article ... Building Trusted Scientific Software](../../Articles/Blog/BuildingTrustedScientificSoftware.md)
 - Display dates: 06/27/2018 - 07/18/2018
 
-<!---
 - [New blog article ... Research Software Engineer: A New Career Track?](../../Articles/Blog/ResearchSoftwareEngineerANewCareerTrack.md)
 - Display dates: 06/13/2018 - 06/30/2018
 
