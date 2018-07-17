@@ -21,10 +21,7 @@ Our objective is to work with as many of the code teams as want our help (some a
 But we’re not a large project, and ECP comprises many code teams.  So how do we do it? We do a lot of outreach! That may sound like a contradiction, but it really isn’t.  Based on our own collective experience in the HPC/CSE area, as well as initial interviews with many code teams, we know many topics that are likely to come up in the PSIP process.  Every new code team interview or a conversation with a colleague outside of ECP is likely to turn up more topics or reinforce ones already on our list.  
 
 ### Tutorials and webinars
-We use this information to guide the development of tutorial materials, the selection of webinar topics, and other outreach activities.  If we’re going to help one code team with a topic, others are likely to be interested, too.  We look for existing tutorials to point our colleagues to; but for software development topics, tutorials can be hard to find. So we also develop tutorial materials that we can present in a variety of venues.  Sometimes, we even have the opportunity to record a tutorial and make it available on the web.  The code teams we’re supporting can benefit from these tutorials, but so can the broader community.  We’ve given tutorials at large-scale venues such as the Supercomputing and ISC conference series and SIAM Computational Science and Engineering.
-
-* [SC17: Better Scientific Software Tutorial](https://bssw.io/events/better-scientific-software-sc17-tutorial)
-* SC18: Better Scientific Software Tutorial: To take place in November, 2018, Dallas, TX
+We use this information to guide the development of tutorial materials, the selection of webinar topics, and other outreach activities.  If we’re going to help one code team with a topic, others are likely to be interested, too.  We look for existing tutorials to point our colleagues to; but for software development topics, tutorials can be hard to find. So we also develop tutorial materials that we can present in a variety of venues.  Sometimes, we even have the opportunity to record a tutorial and make it available on the web.  The code teams we’re supporting can benefit from these tutorials, but so can the broader community.  We’ve given tutorials at large-scale venues such as the Supercomputing and ISC conference series and SIAM Computational Science and Engineering (for example: our SC17 [Better Scientific Software Tutorial](https://bssw.io/events/better-scientific-software-sc17-tutorial)).
 
 Since 2016, we’ve also been producing a webinar series called [Best Practices for HPC Software Developers (HPC-BP)](https://ideas-productivity.org/events/hpc-best-practices-webinars/).  The webinars are shorter than tutorials – typically just an hour.  We try to think of them as introductions – giving people a taste of a topic and letting them decide whether they want to dig deeper on their own – and we cast a wide net of topics and speakers (not just from the IDEAS project).  Since these are “virtual” events and relatively short, it is easier for people to participate.  We’ve had over 1,200 people register for the 19 webinars we’ve had so far.  Perhaps 25% of registrants are associated with ECP projects, so once again we’re reaching a much broader audience.
 
@@ -44,11 +41,13 @@ But if you don’t have the time for that, you can still help.  Do you have to t
 
 Or become a contributor to **BSSw.io**. We're trying to make contributing as easy as possible.  If there is a resource you've found useful that's not already on BSSw, please [contribute it](https://bssw.io/contributes/new) to the site.  
 
+We also welcome additional participants in our outreach activities. You can check the IDEAS Productivity Project's [Events]( https://ideas-productivity.org/events/) page for tutorials, webinars, and other events (as well as past ones) or [subscribe to our mailing list](http://eepurl.com/cQCyJ5) (~2-3 messages per month).  And as a pre-announcement, we will be offering an expanded full-day version of our [Better Scientific Software Tutorial](https://bssw.io/events/better-scientific-software-sc17-tutorial) at SC18 in Dallas, TX.
+
 We look forward to hearing from you!
 
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 
 Categories: skills
 Topics: Personal productivity and sustainability
