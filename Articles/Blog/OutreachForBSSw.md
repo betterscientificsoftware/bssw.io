@@ -40,7 +40,7 @@ You might describe our approach to helping the ECP code teams improve their soft
 
 You can contribute too.  Of course, you can undertake outreach activities of your own – there’s plenty of room for good material on a plethora of important topics for software development.  
 
-But if you don’t have the time for that, you can still help.  Do you have to topic to suggest for a future HPC Best Practices webinar?  Do you want to give a webinar?  Send us an email at [IDEASProductivity@gmail.com](IDEASProductivity@gmail.com).  
+But if you don’t have the time for that, you can still help.  Do you have to topic to suggest for a future HPC Best Practices webinar?  Do you want to give a webinar?  Send us an email at <IDEASProductivity@gmail.com>.  
 
 Or become a contributor to **BSSw.io**. We're trying to make contributing as easy as possible.  If there is a resource you've found useful that's not already on BSSw, please [contribute it](https://bssw.io/contributes/new) to the site.  
 
