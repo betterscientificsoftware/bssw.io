@@ -6,7 +6,7 @@
 
 We are organizing a minisymposterium (thematic poster group) submission on **Software Productivity and Sustainability for CSE and Data Science** (see abstract below) to the [SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/CM/Main/cse19) (CSE19), which will be held during Feb 25 - March 1, 2019 in Spokane, WA. We welcome poster presentation submissions as part of this thematic poster group.  
 
-**Please let us know by Tuesday, August 7** if you are interested in submitting a poster as part of this session. If so, email David Bernholdt <bernholdtde@ornl.gov> with a draft title of your poster and a sentence or two about your area of work.  We will then follow up with instructions for you to submit a poster abstract (1,500 characters maximum) to the CSE19 conference system (and also to us by email); our goal is to collect all abstracts by Tuesday, August 14.  Unfortunately, SIAM does not provide travel support for poster presenters. If you are also submitting a talk in a minisymposium or contributed session, note that CSE19 conference guidelines allow an individual to present a poster in addition to a talk, provided that the talk and poster are on different results.
+**Please let us know by Tuesday, August 7, 2018** if you are interested in submitting a poster as part of this session. If so, email David Bernholdt <bernholdtde@ornl.gov> with a draft title of your poster and a sentence or two about your area of work.  We will then follow up with instructions for you to submit a poster abstract (1,500 characters maximum) to the CSE19 conference system (and also to us by email); our goal is to collect all abstracts by Tuesday, August 14.  Unfortunately, SIAM does not provide travel support for poster presenters. If you are also submitting a talk in a minisymposium or contributed session, note that CSE19 conference guidelines allow an individual to present a poster in addition to a talk, provided that the talk and poster are on different results.
 
 All posters in the thematic poster group will be co-located in the poster viewing area, which will provide a rich environment for informal exchange of ideas on software productivity and sustainability issues.   At CSE17, we had a similar minisymposterium including 28 posters, which we subsequently collected and archived on FigShare (<https://doi.org/10.6084/m9.figshare.c.3703771>).
 
@@ -14,7 +14,7 @@ If you are working on issues in software productivity and sustainability for CSE
 
 Best regards, David (on behalf of Mike, Catherine, Dan, and Lois)
 
-## Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
+### Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
 
 ### Organizers:
 - David E. Bernholdt (Oak Ridge National Laboratory)
