@@ -14,7 +14,7 @@ If you are working on issues in software productivity and sustainability for CSE
 
 Best regards, David (on behalf of Mike, Catherine, Dan, and Lois)
 
-## Software Productivity and Sustainability for CSE and Data Science
+## Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
 
 ### Organizers:
 - David E. Bernholdt (Oak Ridge National Laboratory)
@@ -29,7 +29,8 @@ Software is the key crosscutting technology that enables advances in mathematics
 
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2018-07-18
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: conference
