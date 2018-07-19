@@ -83,8 +83,8 @@ guest [blog post](http://urssi.us/blog/) with us on a topic around software sust
 
 <!---
 Publish: No
-Categories: sustainability
-Topics: community, standards, policies, practices
+Categories: Collaboration
+Topics: community, standards, policies, practices, sustainability
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
