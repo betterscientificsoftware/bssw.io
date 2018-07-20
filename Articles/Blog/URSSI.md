@@ -8,6 +8,8 @@
 
 #### Publication date: July 30, 2018
 
+1-sentence 'deck' goes here.
+
 The NSF-funded [conceptualization of a US Research Software Sustainability Institute (URSSI)](http://urssi.us/) is
 making the case for and planning a possible institute to improve science and engineering research by supporting the
 development and sustainability of research software in the US. 
@@ -43,12 +45,12 @@ researchers in the usage of software.
 The goal of this conceptualization project is to create a roadmap for a URSSI to minimize or at least decrease these
 types of concerns. To do this, the two aims of the URSSI conceptualization are to
 
-1. Bring the research software community together to determine how to address the issues about which we have already
+- Bring the research software community together to determine how to address the issues about which we have already
 learned (described below). In some cases, there are already subcommunities working together on a specific problem,
 including those that we are part of, but those subcommunities might not be working with the larger community.
 This leads to a risk of developing solutions that solve one issue but don't reduce (or might even deepen) other concerns.
 
-1. Identify additional issues URSSI should address, identify communities for whom these issues are relevant, determine
+- Identify additional issues URSSI should address, identify communities for whom these issues are relevant, determine
 how we should address the issues in coordination with the communities, and determine how to prioritize all the issues
 in URSSI.
 
@@ -82,9 +84,10 @@ guest [blog post](http://urssi.us/blog/) with us on a topic around software sust
 
 
 <!---
-Publish: No
+Publish: Preview
+RSS update: 2018-07-30
 Categories: Collaboration
-Topics: community, standards, policies, practices, sustainability
+Topics: projects and organizations, funding sources and programs
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
