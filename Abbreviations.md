@@ -28,6 +28,7 @@
 - TLF: Transmedia Learning Frameworks
 - UK: United Kingdom
 - US: United States
+- URSSI: United States Research Software Sustainability Institute
 - WSSSPE: Workshop on Sustainable Software for Science Practice and Experiences
 - xSDK: Extreme-scale Scientific Software Development Kit
 
