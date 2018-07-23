@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
+ - <img src='https://github.com/tscheibe/betterscientificsoftware.github.io/blob/scheibe/Articles/Blog/Web_ScreenCapture.jpg' />
 
 #### Contributed by [Tim Scheibe](https://github.com/tscheibe "Tim Scheibe GitHub Profile")
 
