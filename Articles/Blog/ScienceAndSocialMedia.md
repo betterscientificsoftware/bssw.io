@@ -6,7 +6,7 @@
 
 #### Publication date: Late August 2018 (Proposed)
 
-1-sentence explanation of blog article topic goes here -- brief and to the point.
+The use of social media such as Twitter in the context of scientific research may seem like a time-consuming distraction from more productive and rewarding activities, such as writing a paper. Are there any tangible benefits? How can we maximize those benefits while avoiding potential pitfalls?
 
 A few paragraphs for the blog article go here.  xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx.
 
