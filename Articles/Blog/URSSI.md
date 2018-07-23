@@ -22,7 +22,7 @@ maintained, it can be open source (most likely in academia and national laborato
 (most likely in industry, although industry also produces and contributes to open source).
 
 The open source movement has created a tremendous variety of software, and this plethora of solutions is not easy for researchers to find and use out of the box.
-Standards and a platform for categorizing software for communities are lacking, a situation tht often leads to inefficient redevelopment
+Standards and a platform for categorizing software for communities are lacking, a situation that often leads to inefficient redevelopment
 rather than efficient reuse of solutions. Three primary classes of concern are pervasive across research software in all research
 disciplines and have stymied research software from achieving maximum impact:
 
