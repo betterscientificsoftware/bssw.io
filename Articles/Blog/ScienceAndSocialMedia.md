@@ -4,7 +4,7 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
 
-#### Contributed by [Person A](https://github.com/tscheibe "Tim Scheibe GitHub Profile")
+#### Contributed by [Tim Scheibe](https://github.com/tscheibe "Tim Scheibe GitHub Profile")
 
 #### Publication date: May 11, 2017
 
