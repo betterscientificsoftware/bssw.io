@@ -1,4 +1,4 @@
-# Insightful blog article on topic A
+# Do Social Media and Science Mix? A Case Study of Twitter Use in a Large Research Project
 
 **Hero Image:**
 
