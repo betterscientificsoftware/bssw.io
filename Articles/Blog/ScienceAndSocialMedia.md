@@ -4,7 +4,7 @@
 
 #### Contributed by [Tim Scheibe](https://github.com/tscheibe "Tim Scheibe GitHub Profile")
 
-#### Publication date: May 11, 2017
+#### Publication date: Late August 2018 (Proposed)
 
 1-sentence explanation of blog article topic goes here -- brief and to the point.
 
