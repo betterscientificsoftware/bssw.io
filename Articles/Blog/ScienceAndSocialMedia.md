@@ -1,4 +1,4 @@
-# Do Social Media and Science Mix? A Case Study of Twitter Use in a Large Research Project
+# Do Social Media and Science Mix? Twitter Use in a Large Research Project
 
  <img src='https://github.com/tscheibe/betterscientificsoftware.github.io/blob/scheibe/Articles/Blog/Web_ScreenCapture.jpg' />
 
