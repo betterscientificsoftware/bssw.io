@@ -8,7 +8,7 @@ The NSF-funded [Conceptualization of a US Research Software Sustainability Insti
 making the case for and planning a possible institute to improve science and engineering research by supporting the
 development and sustainability of research software in the United States. 
 
-#### Challenges in research software
+### Challenges in research software
 Research software is essential to progress in the sciences, engineering, humanities, and myriad other fields.  In many
 fields, research software is produced within academia, by academics who range in experience and status from students
 and postdocs to staff members and faculty.  Important software
@@ -21,22 +21,29 @@ Standards and a platform for categorizing software for communities are lacking, 
 rather than efficient reuse of solutions. Three primary classes of concern are pervasive across research software in all research
 disciplines and have stymied research software from achieving maximum impact:
 
-- Functioning of the individual and team: issues such as training and education, ensuring appropriate credit for
+- **Functioning of the individual and team:** issues such as training and education, ensuring appropriate credit for
 software development, enabling publication pathways for research software including novel methods beyond “classical”
 academic publications, fostering satisfactory and rewarding career paths for people who develop and maintain software,
 increasing the participation of underrepresented groups in software engineering, and creating and sustaining pipelines
 of diverse developers.
 
-- Functioning of the research software: supporting sustainability of the software; expanding the community, evolving governance,
+- **Functioning of the research software:** supporting sustainability of the software; expanding the community, evolving governance,
 and developing relationships between organizations, both academic and industrial; fostering both testing and
 reproducibility, supporting new models and developments (for example, agile web frameworks, software as a service), and
 supporting contributions of transient contributors (for example, students).
 
-- Functioning of the research field itself: expanding communities around research software and disparate user requirements,
+- **Functioning of the research field itself:** expanding communities around research software and disparate user requirements,
 avoiding siloed developments, cataloging extant and necessary software, disseminating new developments, and training
 researchers in the usage of software.
 
-#### Creating a roadmap
+<br>
+
+[First URSSI workshop attendees (Credit: [Mike Hucka](https://github.com/mhucka))]
+<img src='https://raw.githubusercontent.com/si2-urssi/berkeley_workshop/master/images/URSSI_w1_attendees_small.jpg' />
+
+<br>
+
+### Creating a roadmap
 The goal of the conceptualization project is to create a roadmap for URSSI to minimize or at least decrease these
 types of concerns. In order to do so, the  URSSI conceptualization has two aims:
 
@@ -49,7 +56,7 @@ This situation leads to a risk of developing solutions that solve one issue but 
 how we should address the issues in coordination with the communities, and determine how to prioritize all the issues
 in URSSI.
 
-#### Collaboration
+### Collaboration
 We are not working in a vacuum, but with other like-minded projects.  In addition to
 [Better Scientific Software (BSSw)](https://bssw.io/) and activities around research facilitators
 ([ACI-REF](https://aciref.org/)) in the United States, there are two ongoing institutes in
@@ -67,19 +74,12 @@ as working with the SGCI to offer incubator services to a wider community than j
 decide to collaborate with one or more groups, such as on policy campaigns aimed at providing better career paths
 for research software developers in universities.
 
-<br>
-
-[First URSSI workshop attendees (Credit: [Mike Hucka](https://github.com/mhucka))]
-<img src='https://raw.githubusercontent.com/si2-urssi/berkeley_workshop/master/images/URSSI_w1_attendees_small.jpg' />
-
-<br>
-
 We have held [one workshop](http://urssi.us/workshops/berkeley/) and are planning three more, in addition to a
 community survey we plan to have out soon and a set of ethnographic studies on specific projects. We are
 communicating through our [website](http://urssi.us), a [series of newsletters](http://urssi.us/newsletter/), and
 a [community discussion site](https://discuss.urssi.us). 
 
-#### Get involved!
+### Get involved!
 We welcome members of the BSSw community to join us, both to help us determine how to proceed and to directly
 contribute. Please
 [sign up for our mailing list](https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d),
