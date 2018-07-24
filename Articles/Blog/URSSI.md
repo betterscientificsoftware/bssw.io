@@ -1,19 +1,14 @@
 # URSSI: Conceptualizing a US Research Software Sustainability Institute
 
-**First URSSI workshop attendees (Credit: [Mike Hucka](https://github.com/mhucka))**
-
-  <img src='https://raw.githubusercontent.com/si2-urssi/berkeley_workshop/master/images/URSSI_w1_attendees_small.jpg' />
-
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz), [Jeff Carver](https://github.com/JeffCarver), [Sandra Gesing](https://github.com/sandragesing), [Karthik Ram](https://github.com/karthik), [Nic Weber](https://github.com/nniiicc)
 
 #### Publication date: July 30, 2018
-
-1-sentence 'deck' goes here.
 
 The NSF-funded [Conceptualization of a US Research Software Sustainability Institute (URSSI)](http://urssi.us/) is
 making the case for and planning a possible institute to improve science and engineering research by supporting the
 development and sustainability of research software in the United States. 
 
+#### Challenges in research software
 Research software is essential to progress in the sciences, engineering, humanities, and myriad other fields.  In many
 fields, research software is produced within academia, by academics who range in experience and status from students
 and postdocs to staff members and faculty.  Important software
@@ -41,7 +36,8 @@ supporting contributions of transient contributors (for example, students).
 avoiding siloed developments, cataloging extant and necessary software, disseminating new developments, and training
 researchers in the usage of software.
 
-The goal of this conceptualization project is to create a roadmap for URSSI to minimize or at least decrease these
+#### Creating a roadmap
+The goal of the conceptualization project is to create a roadmap for URSSI to minimize or at least decrease these
 types of concerns. In order to do so, the  URSSI conceptualization has two aims:
 
 - Bring the research software community together to determine how to address the issues about which we have already
@@ -53,6 +49,7 @@ This situation leads to a risk of developing solutions that solve one issue but 
 how we should address the issues in coordination with the communities, and determine how to prioritize all the issues
 in URSSI.
 
+#### Collaboration
 We are not working in a vacuum, but with other like-minded projects.  In addition to
 [Better Scientific Software (BSSw)](https://bssw.io/) and activities around research facilitators
 ([ACI-REF](https://aciref.org/)) in the United States, there are two ongoing institutes in
@@ -70,11 +67,19 @@ as working with the SGCI to offer incubator services to a wider community than j
 decide to collaborate with one or more groups, such as on policy campaigns aimed at providing better career paths
 for research software developers in universities.
 
+<br>
+
+[First URSSI workshop attendees (Credit: [Mike Hucka](https://github.com/mhucka))]
+<img src='https://raw.githubusercontent.com/si2-urssi/berkeley_workshop/master/images/URSSI_w1_attendees_small.jpg' />
+
+<br>
+
 We have held [one workshop](http://urssi.us/workshops/berkeley/) and are planning three more, in addition to a
 community survey we plan to have out soon and a set of ethnographic studies on specific projects. We are
 communicating through our [website](http://urssi.us), a [series of newsletters](http://urssi.us/newsletter/), and
 a [community discussion site](https://discuss.urssi.us). 
 
+#### Get involved!
 We welcome members of the BSSw community to join us, both to help us determine how to proceed and to directly
 contribute. Please
 [sign up for our mailing list](https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d),
