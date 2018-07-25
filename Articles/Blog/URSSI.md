@@ -1,6 +1,6 @@
 # URSSI: Conceptualizing a US Research Software Sustainability Institute
 
-#### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile"), [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile"), [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile"), [Karthik Ram](https://github.com/karthik "Karthik Ram GitHub Profile"), and [Nic Weber](https://github.com/nniiicc "Nic Weber GitHub Profile")
+#### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile"), [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile"), [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile"), [Karthik Ram](https://github.com/karthik "Karthik Ram GitHub Profile")
 
 #### Publication date: July 30, 2018
 
