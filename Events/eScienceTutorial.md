@@ -16,9 +16,9 @@ Anyone who writes code for any types of software, especially scientific software
 This tutorial is held in conjuction with the [2018 IEEE International Conference on eScience](https://www.escience2018.com).
 
 <!---
-Publish: yes
-Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Publish: preview
+Categories: development
+Topics: software engineering
 Tags: tutorial
 Level: 2
 Prerequisites: default
