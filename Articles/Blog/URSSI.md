@@ -39,7 +39,7 @@ researchers in the usage of software.
 <br>
 
 [First URSSI workshop attendees (Credit: [Mike Hucka](https://github.com/mhucka))]
-<img src='https://raw.githubusercontent.com/si2-urssi/berkeley_workshop/master/images/URSSI_w1_attendees_small.jpg' />
+<img src='Blog_0718_URSSI_SSw_800_465.png' />
 
 <br>
 
