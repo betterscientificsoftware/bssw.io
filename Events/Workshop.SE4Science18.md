@@ -20,7 +20,7 @@ The goals of this workshop are to:
 <!---
 Publish: yes
 Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Topics: software engineering
 Tags: workshop
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
