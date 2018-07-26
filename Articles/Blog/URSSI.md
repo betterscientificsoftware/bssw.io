@@ -4,9 +4,11 @@
 
 #### Publication date: July 30, 2018
 
-The NSF-funded [Conceptualization of a US Research Software Sustainability Institute (URSSI)](http://urssi.us/) is
+The NSF-funded Conceptualization of a US Research Software Sustainability Institute (URSSI) is
 making the case for and planning a possible institute to improve science and engineering research by supporting the
 development and sustainability of research software in the United States. 
+
+The goal of the conceptualization project is to create a roadmap for [URSSI](http://urssi.us/) to overcome pervasive concerns research software.
 
 ### Challenges in research software
 Research software is essential to progress in the sciences, engineering, humanities, and myriad other fields.  In many
@@ -38,7 +40,7 @@ researchers in the usage of software.
 
 <br>
 
-[First URSSI workshop attendees (Credit: [Mike Hucka](https://github.com/mhucka))]
+[First URSSI workshop attendees (Photo credit: [Mike Hucka](https://github.com/mhucka))]
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0718_URSSI_SSw_1250_728.png' />
 
 <br>
