@@ -12,7 +12,7 @@ This workshop brings together members of the software engineering and scientific
 <!---
 Publish: yes
 Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Topics: software engineering
 Tags: workshop
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
