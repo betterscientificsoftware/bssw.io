@@ -9,12 +9,14 @@
 - CSE19: 2019 SIAM Conference on Computational Science and Engineering
 - CW18: Collaborations Workshop 2018
 - DOE: Department of Energy
+- eScience: IEEE International eScience Conference
 - FAQ: Frequently Asked Question
 - FORCE11: FORCE11 Software Citation Implementation Working Group
 - HPC: High-Performance Computing
 - IDEAS: Interoperable Design of Extreme-scale Application Software
 - IDE: Integrated Development Environment
 - IDEs: ntegrated Development Environments
+- IEEE: Institute of Electrical and Electronics Engineers
 - LCF: Leadership Computing Facility
 - LCFs: Leadership Computing Facilities
 - PSIP: Productivity and Sustainability Improvement Planning
