@@ -50,7 +50,7 @@ The goal of the conceptualization project is to create a roadmap for URSSI to mi
 types of concerns. In order to do so, the  URSSI conceptualization has two aims:
 
 - Bring the research software community together to determine how to address the issues about which we have already
-learned (described below). In some cases,  subcommunities already are working together on a specific problem,
+learned. In some cases,  subcommunities already are working together on a specific problem,
 including those that we are part of; but these subcommunities might not be working with the larger community.
 This situation leads to a risk of developing solutions that solve one issue but don't reduce (or might even deepen) other concerns.
 
