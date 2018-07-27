@@ -1,9 +1,8 @@
 # Contemporary Peer Code Review in Scientific Software Development (eScience 2018 Tutorial)
 
-- Date: October 29, 2018 -- 9:00 - 12:00
+- Date: October 29, 2018
 - Location: Amsterdam, The Netherlands
 - Event Website: https://se4science.org/tutorials/escience18/
-- Organizers: [Jeffrey C. Carver](http://carver.cs.ua.edu) and [Nasir U. Eisty](http://neisty.students.cs.ua.edu/)
 
 This tutorial will train attendees on tool-based contemporary peer code review for use in scientific software development.
 
@@ -15,8 +14,11 @@ Anyone who writes code for any types of software, especially scientific software
 
 This tutorial is held in conjuction with the [2018 IEEE International Conference on eScience](https://www.escience2018.com).
 
+**Organizers:** [Jeffrey C. Carver](http://carver.cs.ua.edu) and [Nasir U. Eisty](http://neisty.students.cs.ua.edu/)
+
 <!---
 Publish: yes
+RSS upate: 2018-07-27
 Categories: development
 Topics: software engineering
 Tags: tutorial
