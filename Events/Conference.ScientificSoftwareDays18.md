@@ -13,8 +13,8 @@ This event focuses on sharing best practices, tools, and technologies among scie
 
 <!---
 Publish: yes
-Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Categories: development
+Topics: software engineering
 Tags: conference
 Level: 2
 Prerequisites: default
