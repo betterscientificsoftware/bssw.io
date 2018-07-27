@@ -21,7 +21,7 @@ This tutorial is held in conjuction with the [2018 IEEE International Conference
 
 <!---
 Publish: yes
-RSS upate: 2018-07-27
+RSS update: 2018-07-27
 Categories: development
 Topics: software engineering
 Tags: tutorial
