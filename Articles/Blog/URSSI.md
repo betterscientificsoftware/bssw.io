@@ -8,7 +8,7 @@ The NSF-funded Conceptualization of a US Research Software Sustainability Instit
 making the case for and planning a possible institute to improve science and engineering research by supporting the
 development and sustainability of research software in the United States. 
 
-The goal of the conceptualization project is to create a roadmap for [URSSI](http://urssi.us/) to overcome pervasive concerns in research software.
+The goal of the [URSSI](http://urssi.us/) conceptualization project is to create a roadmap for a software institute to overcome pervasive concerns in research software.
 
 ### Challenges in research software
 Research software is essential to progress in the sciences, engineering, humanities, and myriad other fields.  In many
