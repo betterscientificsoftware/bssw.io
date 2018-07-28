@@ -25,8 +25,9 @@ The scientific endeavor is increasingly global, interconnected, open, and collab
 
 <!---
 Publish: No
-Categories: reliability
-Topics: testing
+RSS update: 2018-08-28
+Categories: collaboration
+Topics: strategies for more effective teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
