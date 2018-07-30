@@ -17,7 +17,7 @@ Anyone who writes code for any types of software, especially scientific software
 
 This tutorial is held in conjuction with the [2018 IEEE International Conference on eScience](https://www.escience2018.com).
 
-
+#### Contributed by [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile")
 
 <!---
 Publish: yes
