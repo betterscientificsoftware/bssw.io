@@ -90,7 +90,7 @@ guest [blog post](http://urssi.us/blog/) with us on a topic around software sust
 
 
 <!---
-Publish: Preview
+Publish: yes
 RSS update: 2018-07-30
 Categories: Collaboration
 Topics: projects and organizations, funding sources and programs
