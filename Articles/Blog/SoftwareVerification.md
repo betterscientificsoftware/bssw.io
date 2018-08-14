@@ -29,6 +29,10 @@ Furthermore, validation can become a strong component in a good verification pro
 
 Ultimately, when it comes to scientific discovery, any defined process can go only so far. All the tools and techniques can only aid scientific intuition, which in the end has to undergo peer review for acceptance. And even then, the models being solved and methods used to solve them are, at best, approximations based on scientific intuition. All that they guard against is that wrong conclusions are not being drawn through negligence. And that is the foundation stone for a credible scientific process. 
 
+<br> 
+
+<em>Figure at top: Nuclear flame in a controlled model validation simualtion</em>
+
 <!---
 Publish: Preview
 RSS update: 2018-08-13
