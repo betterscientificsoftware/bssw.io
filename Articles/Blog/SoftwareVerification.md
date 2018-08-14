@@ -6,8 +6,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />[Nuclear flame in a controlled model validation simualtion]
-
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
 
 In the realm of software, verification is often erroneously conflated with testing. In truth, testing is a proper subset of verification for gaining confidence in the correct behavior of one’s software. It is the holistic process by which the developers convince themselves that their software is doing what it was designed to do. In scientific software this could mean verifying the convergence order, numerical stability, and efficacy of the method in the regime of interest over and above testing for expected results.  Note that verification is limited to ensuring that the implementation matches the model specification, not that the model itself matches reality. The latter is normally a part of the validation process.
 
@@ -19,7 +18,7 @@ Many techniques for verification of scientific software come at the problem side
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer_Diag.png' class='page lightbox' />[Figure at top: Nuclear flame in a controlled model validation simualtion]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer_Diag.png' class='page lightbox' />[Figure: Nuclear flame in a controlled model validation simulation]
 
 <br> 
 
