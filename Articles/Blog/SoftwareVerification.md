@@ -17,6 +17,12 @@ For scientific software, verification is as complex and difficult as it is criti
 ### Approaches to verification
 Many techniques for verification of scientific software come at the problem sideways. Often a new problem being tackled combines components that can be exercised individually against known, simpler problems. Individual components and their combinations can also be verified against known solutions or manufactured solutions. In this way one can build a scaffolding of tests that help build confidence in an increasingly complex collection of permutations and combinations. Additionally, one can resort to indirect verification such as conservation of physics quantities or obeying scientific laws to satisfy oneself that the application is not doing something unphysical. 
 
+<br> 
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer_Diag.png' class='page lightbox' />[Figure at top: Nuclear flame in a controlled model validation simualtion]
+
+<br> 
+
 ### Resources
 Furthermore, validation can become a strong component in a good verification process. For example, the image above is from a [FLASH](http://flash.uchicago.edu) [simulation](http://flash.uchicago.edu/site/gallery) performed to validate the model of nuclear flame, which in turn is used in the simulation of supernova explosions.  The following links provide more resources and examples of the verification process employed in scientific software.
 
@@ -26,10 +32,8 @@ Furthermore, validation can become a strong component in a good verification pro
 
 <br> 
 
-
 Ultimately, when it comes to scientific discovery, any defined process can go only so far. All the tools and techniques can only aid scientific intuition, which in the end has to undergo peer review for acceptance. And even then, the models being solved and methods used to solve them are, at best, approximations based on scientific intuition. All that they guard against is that wrong conclusions are not being drawn through negligence. And that is the foundation stone for a credible scientific process. 
 
-<em>Figure at top: Nuclear flame in a controlled model validation simualtion</em>
 
 <!---
 Publish: Preview
