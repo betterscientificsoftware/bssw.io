@@ -20,11 +20,11 @@ Many techniques for verification of scientific software come at the problem side
 ### Resources
 Furthermore, validation can become a strong component in a good verification process. For example, the image above is from a [FLASH](http://flash.uchicago.edu) [simulation](http://flash.uchicago.edu/site/gallery) performed to validate the model of nuclear flame, which in turn is used in the simulation of supernova explosions.  The following links provide more resources and examples of the verification process employed in scientific software.
 
-[Slides from a tutorial on verification at ISC-2018](https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017)
+<a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
+<a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>
+<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2220" class="link-row">A paper on scientific software verification and testing</a>
 
-[Video of a lecture on testing and verification](https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw)
-
-[A paper on scientific software verification and testing](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2220)
+<br> 
 
 
 Ultimately, when it comes to scientific discovery, any defined process can go only so far. All the tools and techniques can only aid scientific intuition, which in the end has to undergo peer review for acceptance. And even then, the models being solved and methods used to solve them are, at best, approximations based on scientific intuition. All that they guard against is that wrong conclusions are not being drawn through negligence. And that is the foundation stone for a credible scientific process. 
