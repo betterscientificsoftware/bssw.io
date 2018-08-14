@@ -1,6 +1,6 @@
 # Software Verification
 
-#### Publication date: August 13, 2018
+#### Publication date: August 15, 2018
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
@@ -22,8 +22,8 @@ Many techniques for verification of scientific software come at the problem side
 
 <br> 
 
-### Resources
-Furthermore, validation can become a strong component in a good verification process. For example, the image above is from a [FLASH](http://flash.uchicago.edu) [simulation](http://flash.uchicago.edu/site/gallery) performed to validate the model of nuclear flame, which in turn is used in the simulation of supernova explosions.  The following links provide more resources and examples of the verification process employed in scientific software.
+### Resources 
+Furthermore, validation can become a strong component in a good software assurance process. For example, the image above is from a [simulation](http://flash.uchicago.edu/site/gallery) of [FLASH](http://flash.uchicago.edu) performed to validate the model of nuclear flame, which in turn is used in the simulation of supernova explosions. Though direct experimental data is lacking for the behavior of these flames in high-gravity environments, the statistical properties of the flow are known from observations and can be directly compared.  The following links provide more resources and examples of the verification process employed in scientific software.
 
 <a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
 <a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>
@@ -36,7 +36,7 @@ Ultimately, when it comes to scientific discovery, any defined process can go on
 
 <!---
 Publish: Preview
-RSS update: 2018-08-13
+RSS update: 2018-08-15
 Categories: Reliability
 Topics: testing
 Tags: bssw-blog-article
