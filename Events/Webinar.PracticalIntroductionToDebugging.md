@@ -1,5 +1,5 @@
 
-# Sustainable Horizons Webinar: A Practical Introduction to Debugging!
+# A Practical Introduction to Debugging (Sustainable Horizons Webinar)
 
 - Date: August 24, 2018
 - Location: Online
