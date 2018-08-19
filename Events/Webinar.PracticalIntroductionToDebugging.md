@@ -12,8 +12,6 @@ The mission of Sustainable Horizons is to build sustainable, inclusive connectio
 
 Dr. Jeremy Melvin is an ICES postdoctoral fellow at the University of Texas at Austin. He received his Ph.D in Computational Applied Mathematics from Stony Brook University. His research interests are focused on developing tools and models to improve the predictive capabilities of numerical simulations for turbulent flows in complex engineering problems.
 
-<!--- #### Contributed by [Mary Ann Leung](https://github.com/ "Mary Ann Leung GitHub Profile") --->
-
 <!---
 Publish: yes
 Categories: reliability
