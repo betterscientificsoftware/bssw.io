@@ -13,6 +13,8 @@ Dr. Jeremy Melvin is an ICES postdoctoral fellow at the University of Texas at A
 
 Advance registration is required through the event website.
 
+#### Contributed by [Mary Ann Leung](https://github.com/shinstitute "Mary Ann Leung (SH Institute) GitHub Profile")
+
 <!---
 Publish: yes
 Categories: reliability
