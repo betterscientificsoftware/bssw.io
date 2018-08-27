@@ -8,7 +8,7 @@ The main goal of the BSSw Fellowship program is to foster and promote practices,
 
 **BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software.  We select at least three Fellows per year and honorable mentions as appropriate.  Each 2019 BSSw Fellow will be awarded up to $25,000 for an activity that promotes better scientific software.**  Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
-BSSW Fellows receive funds through their respective institution for one year.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
+BSSw Fellows receive funds through their respective institution for one year.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
 ### Become a BSSw Fellow
 
