@@ -24,13 +24,13 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly benefit the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows and promote better scientific software in their community.
 
-### [BSSw Fellowship Application Form]: Will open on September 4, 2018 
+### BSSw Fellowship Application Form: Will open on September 4, 2018 ... Check back then for a link.
 
 ### Timeline
 
 - **Tuesday, Sept 4, 2018**: Fellowship application process opens.
 - **Friday, Sept 21, 1:00-2:00 pm EST**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details.
-- **Tuesday, Oct 16, 2018**: Application deadline, before midnight, PST.
+- **Tuesday, Oct 16, 2018**: Application deadline, before midnight, PST.  
 - **Jan 15-17, 2018**: Fellows announced at DOE ECP Annual Meeting in Knoxville, TN.
 - **Jan 8, 2019 - Jan 7, 2020**: Period of performance for 2019 BSSw Fellows.
 
