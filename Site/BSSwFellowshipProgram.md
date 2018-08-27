@@ -34,6 +34,8 @@ Beyond this categorical requirement, we are looking for applications from people
 - **Jan 15-17, 2019**: Fellows announced at DOE ECP Annual Meeting in Knoxville, TN.
 - **Jan 8, 2019 - Jan 7, 2020**: Period of performance for 2019 BSSw Fellows.
 
-### Questions
+### More Information
 
-A [FAQ for the 2018 BSSw Fellowship Program](https://bssw.io/blog_posts/new-faq-list-for-bssw-fellowship-program-applications-due-by-jan-5-2018), is available, including a recorded Q&A session.  Stay tuned for a FAQ for the 2019 BSSw Fellowship program.  If you have additional questions, please contact us at <info@bssw.io>.
+- [Introducing the 2018 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows)
+- [FAQ for the 2018 BSSw Fellowship Program](https://bssw.io/blog_posts/new-faq-list-for-bssw-fellowship-program-applications-due-by-jan-5-2018), including a recorded Q&A session.  
+- Coming soon: More information about the 2018 BSSw Fellows and a FAQ for the 2019 BSSw Fellowship program.  If you have additional questions, please contact us at <info@bssw.io>.
