@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Do Social Media And Science Mix? Twitter Use In A Large Research Projec](../../Articles/Blog/ScienceAndSocialMedia.md)
+- [New blog article ... Do Social Media And Science Mix? Twitter Use In A Large Research Project](../../Articles/Blog/ScienceAndSocialMedia.md)
 - Display dates: 08/29/2018 - 09/18/2018
 
 <!---
