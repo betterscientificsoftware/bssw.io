@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Do Social Media And Science Mix? Twitter Use In A Large Research Projec](../../Article/Blog/ScienceAndSocialMedia.md)
+- Display dates: 08/29/2018 - 09/18/2018
+
+<!---
 - [New blog article ... Software Verification](../../Article/Blog/SoftwareVerification.md)
 - Display dates: 08/14/2018 - 08/31/2018
 
-<!---
 - [New blog article ... URSSI: Conceptualizing a US Research Software Sustainability Institute](../../Articles/Blog/URSSI.md)
 - Display dates: 07/29/2018 - 08/16/2018
 
