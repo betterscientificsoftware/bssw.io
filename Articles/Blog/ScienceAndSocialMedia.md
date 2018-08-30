@@ -35,8 +35,8 @@ Some suggestions from our experience:
 The scientific endeavor is increasingly global, interconnected, open, and collaborative. Social media is one avenue to engage; and while it takes some effort and care, it is becoming essential to success in the modern research environment.
 
 <!---
-Publish: Preview
-RSS update: 2018-08-28
+Publish: Yes
+RSS update: 2018-08-30
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: bssw-blog-article
