@@ -8,6 +8,8 @@ The paper provides a compilation of 66 studies related to scientific software de
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
+#### Publication date: June 19, 2017
+
 <!---
 Publish: yes
 Categories: reliability
