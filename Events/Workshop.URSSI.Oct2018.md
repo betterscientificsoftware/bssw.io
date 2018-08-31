@@ -1,7 +1,7 @@
 
 # Second URSSI Workshop
 
-- Dates: October 23 - 24, 2018
+- Dates: October 23, 2018 - October 24, 2018
 - Location: Chicago, IL
 - Event Website: http://urssi.us/workshops/chicago/
 
@@ -16,7 +16,7 @@ Participation is welcome from anyone interested in issues and challenges facing 
 [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
 <!---
-Publish: yes
+Publish: Yes
 RSS update: 2018-08-31
 Categories: collaboration
 Topics: projects and organizations
