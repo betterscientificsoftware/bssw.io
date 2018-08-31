@@ -34,7 +34,13 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 - [*Using the Roofline Model and Intel Advisor*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar010), Sam Williams (LBNL) and Tuomas Koskela (NERSC), 2017-08-16
 - [*Intermediate Git*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar009), Roscoe A. Bartlett (SNL), 2017-07-12
 - [*Python in HPC*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar008), Rollin Thomas (NERSC), William Scullin (ANL) and Matt Belhorn (ORNL), 2017-06-07
-- [*Basic Performance Analysis and Optimization – An Ant Farm Approach*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar007), Jack Deslippe (
+- [*Basic Performance Analysis and Optimization – An Ant Farm Approach*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar007), Jack Deslippe (NERSC), 2016-08-09
+- [*An Introduction to High-Performance Parallel I/O*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar006), Feiyi Wang (OLCF), 2016-07-28
+- [*How the HPC Environment is Different from the Desktop (and Why)*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar005), Katherine Riley (ALCF), 2016-07-14
+- [*Testing and Documenting your Code*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar004), Alicia Klinvex (SNL), 2016-06-15
+- [*Distributed Version Control and Continuous Integration Testing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar003), Jeff Johnson (LBNL), 2016-06-02
+- [*Developing, Configuring, Building, and Deploying HPC Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar002), Barry Smith (ANL), 2016-05-18
+- [*What All Codes Should Do:  Overview of Best Practices in HPC Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001), Anshu Dubey (ANL), 2016-05-04
 
 <!---
 LCM: Omit subresources for now.
