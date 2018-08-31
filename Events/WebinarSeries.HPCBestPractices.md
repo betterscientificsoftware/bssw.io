@@ -54,9 +54,10 @@ Below, are some of the webinars which have been referenced elsewhere on the Bett
 
 <!---
 Publish: yes
-Categories: skills, [import from subresources]
-Topics: online learning, [import from subresources]
-Tags: webinar, webinar series, learning, [import from subresources]
+RSS update: 2018-08-31
+Categories: skills
+Topics: online learning
+Tags: webinar, webinar series, learning
 Level: 2
 Prerequisites: none
 Aggregate: base
