@@ -10,7 +10,7 @@ The HPC Best Practices (HPC-BP) webinars address issues faced by developers of c
 
 Webinars are scheduled on roughly a monthly basis and are available live and then archived for future reference. The event web site provides details about the webinar series, including announcements of upcoming webinars, a mailing list to receive announcements, and archival information for the entire series.
 
-**Webinars are free and open to the public, but registration is required.**
+**Webinars are free and open to the public, but registration is required (individually, for each session).**
 
 ## Next webinar: Modern CMake
 
