@@ -11,9 +11,7 @@ The NSF-funded Conceptualization of a US Research Software Sustainability Instit
 
 Participation is welcome from anyone interested in issues and challenges facing research software sustainability, though workshop size is limited in order to allow for dynamic discussions in small breakout groups.  See the event website for instructions on communicating with the organizers (deadline: mid-September, 2018).
 
-#### Contributed by 
-[Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile") and
-[Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
+#### Contributed by [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
 <!---
 Publish: Yes
