@@ -2,7 +2,7 @@
 # Best Practices for HPC Software Developers Webinar Series
 
 - Organizers: The [IDEAS Productivity Project](https://ideas-productivity.org/)
-- Dates: May 4 2016 - Dec 31 2018
+- Dates: May 4, 2016 - Dec 31, 2018
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/
 
