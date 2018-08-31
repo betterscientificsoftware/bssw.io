@@ -17,7 +17,7 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 - **Date and Time:**  Wednesday, September 19, 2018, 1:00-2:00 pm ET
 - **Presenter:** Bill Hoffman, Kitware
 - **Description:** Bill Hoffman, the creator of the CMake project, will give an introduction to development with modern CMake constructs. CMake is 17 years old and has evolved over time into the most widely used C++ build tool in the world. In the past 5 years, many new features have been added to CMake to make the creation of cross-platform build files easier. This webinar will provide best practices for development and maintenance of a CMake build system. The webinar will cover the “target centric” approach to writing CMake files. In addition, testing and quality dashboards with CDash will be covered. Kitware’s experience with HPC systems and CMake will also be discussed.
-- **Event Registration:** https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022
+- **More info and registration link:** https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022
 
 ## Past Webinars
 - [*Software Sustainability -- Lessons Learned from Different Disciplines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar021), Neil Chue Hong, Software Sustainability Institute (University of Edinburgh), 2018-08-21
