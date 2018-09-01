@@ -1,0 +1,102 @@
+# The 2018 BSSw Fellows: Projects and Perspectives
+
+#### Publication date: September 4, 2018
+
+This article provides information about the work of the inaugural class of Better Scientific Software (BSSw) Fellows and their perspectives on the BSSw Fellowship Program.
+
+The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. As introduced in a prior [BSSw blog article](https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows), the 2018 Fellows are working on a variety of impactful projects.
+
+## 2018 BSSw Fellows
+<p>&nbsp;</p>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_carver.jpg' class='logo' />
+### Jeffrey Carver
+University of Alabama, Professor, Computer Science
+
+_BSSw Focus_: **Contemporary peer code review in scientific software development:**  Contemporary peer code review is a lightweight, asynchronous method for ensuring high-quality code. While this practice has been shown to be beneficial to help developers identify and remove faults from code, it is underutilized in scientific software. To remedy this situation, this BSSw Fellowship supports the development and delivery of a hands-on tutorial, including an introduction to code review support tools commonly used in open-source and commercial software, such as Gerrit, Review Board, Phabricator, and Crucible.  The tutorial includes a discussion of peer code review needs in scientific software, an overview of peer code review best practices, and hands-on code review exercises.
+
+_Resources and events:_
+- Upcoming: [Contemporary Peer Code Review in Scientific Software Development](https://bssw.io/events/contemporary-peer-code-review-in-scientific-software-development-escience-2018-tutorial), eScience 2018 tutorial, October 29, 2018
+- [Slides: Peer Code Review](https://se4science.org/tutorials/Peer-Code-Review.pdf) from tutorial at UCAR Software Engineering Assembly Conference
+- Planning underway for additional events, to be announced on the BSSw mailing list
+
+_Perspectives on the BSSw Fellowship Program_: I wanted to be a BSSw Fellow because of the recognition such an honor gives me within the research software community. The BSSw organization provides visibility to an important segment of the population. While still early in the project, the connections that I have formed and are continuing to form will be valuable in advancing my current research and in identifying additional directions in the future.
+
+<p>&nbsp;</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_jiminez.jpg' class='logo' />
+### Ivo Jimenez
+University of California Santa Cruz, Ph.D. candidate, Computer Science
+
+_BSSw focus_: **Generation of computational experimentation pipelines that are easy to re-execute and validate:** Popper is a convention and command line interface (CLI) tool for conducting computational experiments and writing academic articles following an approach that allows researchers to automate the re-execution and validation of experiments.  Using best practices in open-source software and DevOps (development and operations), Popper helps researchers organize artifacts associated with a scientific exploration inside a code repository such as Git. This BSSw Fellowship supports the creation of an online lesson on Popper, as well as the organization of several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate.
+
+_Resources and events:_
+- Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), Ivo Jimenez (UC Santa Cruz), 2018-06-13
+- Planning underway for additional events, to be announced on the BSSw mailing list
+
+_Perspectives on the BSSw Fellowship Program_: 
+
+<p>&nbsp;</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_katz.jpg' class='logo' />
+### Daniel S. Katz</b>     
+University of Illinois at Urbana-Champaign, Research Associate Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences
+<br>
+National Center for Supercomputing Applications, Assistant Director for Scientific Software and Applications
+
+_BSSw focus_: **Techniques for making scientific software more sustainable by providing credit to its developers via software citation:** As a scientific software developer for 30 years and as a founder of Working towards Sustainable Software for Science: Practice and Experiences (WSSSPE), I want to use this opportunity as a BSSSw Fellow to make scientific software more sustainable by providing credit to its developers via software citation, similar to how scientists gain credit for their research via paper citations. I co-led the FORCE11 Software Citation working group, where we produced a set of software citation principles, and I’ve been co-leading the FORCE11 Software Citation Implementation working group, where we are working with publishers and others to implement these principles. One challenge is finding points of leverage on which to focus implementation activities. This fellowship provides an opportunity to work with specific conferences and communities as such leverage points. 
+
+_Resources and events:_
+- Blog post: [*BSSw Fellowship Activity: Promoting Software Citation*](https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation), 2018-03-13
+- Webinar recording and slides: [*Software Citation Today and Tomorrow*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), Daniel S. Katz (NCSA and University of Illinois at Urbana-Champaign), 2018-04-18
+
+_Perspectives on the BSSw Fellowship Program_: 
+I applied to be a BSSw Fellow because I saw this as an opportunity to extend some of the work I had started in software citation to have a larger impact, by encouraging new communities to include software citation as part of their professional culture, and while this is a slow activity, I feel that the fellowship has allowed me to help these communities move farther than they otherwise would have. I've enjoyed the experience of understanding the projects of the other fellows, and getting better insight into ECP. Based on what I've learned, I suggest that new fellows think about how to expand something they are already doing and increase the impact of their work, rather than proposing something completely new.
+
+<p>&nbsp;</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_lumsdaine.jpg' class='logo' />
+### Andrew Lumsdaine
+Pacific Northwest National Laboratory, Fellow, Advanced Computing, Mathematics, and Data Division
+<br>
+University of Washington, Affiliate Professor, Computer Science
+<br>
+Northwest Institute for Advanced Computing, Chief Scientist
+
+_BSSw focus_: **Practices for high-performance and high-quality scientific software in modern C++:** This BSSw Fellowship supports continued development and dissemination of a course on software construction for high-performance computing.  The course will emphasize current best practices for high-performance and high-quality scientific software using modern C++ (up through C++17).  Taking a careful slice of C++ focused on the needs of DOE application developers, the content will include performance-oriented topics such as pipelining, hierarchical memory, multithreading, and message passing.  A unifying theme will be the use of abstraction for expressiveness and for performance.  Specific attention will be paid to migrating from Fortran to C++ as well as from previous versions of C++.  Course materials, including video lectures, slides, notes, assignments, and code, will be made available online.
+
+_Perspectives on the BSSw Fellowship Program_: 
+I became interested in becoming a BSSw fellow because I believe in the mission of BSSw.  Scientific software is an important tool for scientific discovery.  By enabling scientists to be more effective and efficient with this tool we are also enabling them to do more and better science.  Being selected as a BSSw fellow was quite an honor and it has been an encouragement to develop educational materials with a specific focus on the unique needs of scientific software.  It has been quite an opportunity to be on “the ground floor” with this important effort and I look forward to participating long into the future.  The impact you can make as a BSSw fellow may be non-traditional, but it is nevertheless vitally important.
+
+
+## 2018 BSSw Honorable Mentions
+<p>&nbsp;</p>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_davis.jpg' class='logo' />
+### Neal Davis 
+University of Illinois at Urbana-Champaign, Teaching Assistant Professor, Computer Science
+<p>&nbsp;</p>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_gonsiorowski.jpg' class='logo' />
+### Elsa Gonsiorowski
+Lawrence Livermore National Laboratory, HPC I/O Specialist, Livermore Computing
+<p>&nbsp;</p>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_henrydefrahan.jpg' class='logo' />
+### Marc Henry de Frahan
+National Renewable Energy Laboratory, Postdoctoral Researcher
+<p>&nbsp;</p>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_li.jpg' class='logo' />
+### Ying Li
+Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facility
+<p>&nbsp;</p>
+
+
+<!---
+Publish: preview
+RSS Update: 2018-09-04
+Categories: collaboration
+Topics: discussion forums, Q&A sites, projects and organizations
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
