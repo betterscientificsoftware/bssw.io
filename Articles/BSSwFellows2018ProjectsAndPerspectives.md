@@ -6,7 +6,7 @@ This article provides information about the work of the inaugural class of Bette
 
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. As introduced in a prior [BSSw blog article](https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows), the 2018 Fellows are working on a variety of impactful projects. 
 
-The inaugural cohort of BSSW Fellows currently are only partially through their work in the 2018 program.  The information below is a snapshot from August 2018.  Register for the [BSSw email list](https://bssw.io/pages/receive-our-email-digest) to be notified of upcoming activities and new resources by BSSw Fellows and the broader BSSw community.
+September 2018: The information below provides a snapshot of current work by the 2018 BSSw Fellows.  We will periodically update this page as new resources become available.  Register for the [BSSw email list](https://bssw.io/pages/receive-our-email-digest) to be notified of upcoming activities and new resources by BSSw Fellows and the broader BSSw community.
 
 ## 2018 BSSw Fellows
 <p>&nbsp;</p>
@@ -19,13 +19,13 @@ _BSSw Focus_: **Contemporary peer code review in scientific software development
 
 _Resources:_
 
-&nbsp; &nbsp; &bull; Upcoming: [Contemporary Peer Code Review in Scientific Software Development](https://bssw.io/events/contemporary-peer-code-review-in-scientific-software-development-escience-2018-tutorial), eScience 2018 tutorial, October 29, 2018
+&nbsp; &nbsp; &bull; Upcoming event: [*Contemporary Peer Code Review in Scientific Software Development*](https://bssw.io/events/contemporary-peer-code-review-in-scientific-software-development-escience-2018-tutorial), eScience 2018 tutorial, October 29, 2018
 
-&nbsp; &nbsp; &bull;  [Slides: Peer Code Review](https://se4science.org/tutorials/Peer-Code-Review.pdf) from tutorial at UCAR Software Engineering Assembly Conference
+&nbsp; &nbsp; &bull;  Tutorial slides (pdf format): [*Contemporary Peer Code Review Practices*](https://se4science.org/tutorials/Peer-Code-Review.pdf), UCAR Software Engineering Assembly Conference, April 2018
 
 &nbsp; &nbsp; &bull;  Check back for additional resources
 
-_Perspectives on the BSSw Fellowship Program_: I wanted to be a BSSw Fellow because of the recognition such an honor gives me within the research software community. The BSSw organization provides visibility to an important segment of the population. While still early in the project, the connections that I have formed and are continuing to form will be valuable in advancing my current work on contemporary peer code review and in identifying additional directions in the future.
+_Perspectives on the BSSw Fellowship Program_: I wanted to be a BSSw Fellow because of the recognition such an honor gives me within the research software community. The BSSw organization provides visibility to an important segment of the population. While still early in the project, the connections that I have formed and are continuing to form are valuable in advancing my work on contemporary peer code review and in identifying future directions.
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_jiminez.jpg' class='logo' />
@@ -36,7 +36,7 @@ _BSSw focus_: **Generation of computational experimentation pipelines that are e
 
 _Resources:_
 
-&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), Ivo Jimenez (UC Santa Cruz), 2018-06-13
+&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), Ivo Jimenez (UC Santa Cruz), June 2018
 
 &nbsp; &nbsp; &bull;  Check back for additional resources
 
@@ -54,9 +54,9 @@ _BSSw focus_: **Techniques for making scientific software more sustainable by pr
 
 _Resources:_
 
-&nbsp; &nbsp; &bull;  Blog post: [*BSSw Fellowship Activity: Promoting Software Citation*](https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation), 2018-03-13
+&nbsp; &nbsp; &bull;  Blog post: [*BSSw Fellowship Activity: Promoting Software Citation*](https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation), March 2018
 
-&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Software Citation Today and Tomorrow*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), Daniel S. Katz (NCSA and University of Illinois at Urbana-Champaign), 2018-04-18
+&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Software Citation Today and Tomorrow*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), Daniel S. Katz (NCSA and University of Illinois at Urbana-Champaign), April 2018
 
 &nbsp; &nbsp; &bull;  Check back for additional resources
 
