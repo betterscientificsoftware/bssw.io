@@ -1,4 +1,4 @@
-# The 2018 BSSw Fellows: Projects and Perspectives
+# BSSw Fellows 2018: Projects and Perspectives
 
 #### Publication date: September 4, 2018
 
