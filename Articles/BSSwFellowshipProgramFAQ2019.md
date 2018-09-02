@@ -38,7 +38,7 @@ Funding can be used to support effort in developing and delivering content, incl
 
 ### I am working on a scientific software project and have done a lot of coding to build reusable, open-source code.  Can this program provide support for my continued work on this (code/application/tool)?
 
-The BSSw Fellowship Program focuses on fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  The application includes the proposal of a funded activity that promotes better scientific software.  The BSSw Fellowship Program is not intended to support ongoing software development (although candidates may be developing software as part of their broader work).
+While any idea may be submitted, we cannot guaranteed that this kind of idea would be competitive.  The BSSw Fellowship Program focuses on fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  The application includes the proposal of a funded activity that promotes better scientific software.  While candidates often are developing software as part of their broader scope of work, the BSSw Fellowship Program is not intended to support ongoing software development. 
 
 ### Do you require a budget plan to be submitted as part of the application? if so, how detailed does it have to be?
 Brief budget information can be provided as part of the proposed work section of the application.  We will follow up later about more specific details.
@@ -71,7 +71,7 @@ While we recognize that lots of important work takes place as collaborative part
 
 ###  Is it permissible for current BSSw Fellows to apply for the program in a future year?  
 
-No, applications of current BSSw Fellows will not be considered for awards in future years of the program.  While BSSw Fellows receive funding for activities during the particular period of performance for their cohort, the BSSw Fellow designation is ongoing.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
+No, applications of current BSSw Fellows will not be considered for awards in future years.  While BSSw Fellows receive funding for activities during a particular period of performance, the BSSw Fellow designation is ongoing.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
 ### Does the proposal have to be involved with the Exascale Computing Project (ECP) or any kind of funded project?
 
@@ -79,7 +79,7 @@ No, connections are not required to any funded projects.  We encourage applicati
  
 ### What is the long-term vision for the BSSw Organization and BSSw Fellowship Program?
 
-The long-term vision for the BSSw Organization is to serve as an international community-driven and -managed resource for scientific software improvement, with content and processes provided by volunteers, initially nucleated by the IDEAS team but over time expanding to much larger participation.  Future plans center on working toward broad community leadership and growth of the BSSw Organization and BSSw Fellowship Program---that is, working toward collaboration with complementary groups, stakeholders, sponsors, and individual contributors.
+The long-term vision for the BSSw Organization is to serve as an international community-driven and -managed resource for scientific software improvement, with content and processes provided by volunteers.  Future plans center on working toward broad community leadership, growth, and diversification of the BSSw Organization and BSSw Fellowship Program---that is, expanding collaboration with complementary groups, stakeholders, sponsors, and individual contributors.  
 
 ## Other questions?  
 If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
