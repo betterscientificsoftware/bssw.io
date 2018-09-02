@@ -36,12 +36,12 @@ _BSSw focus_: **Generation of computational experimentation pipelines that are e
 
 _Resources:_
 
-&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), Ivo Jimenez (UC Santa Cruz), June 2018
+&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), June 2018
 
 &nbsp; &nbsp; &bull;  Check back for additional resources
 
 _Perspectives on the BSSw Fellowship Program_: 
-The long-term goal of my work is improving the state of practice for computational experiments, by teaching newer generations more efficient approaches for carrying out scientific explorations.  Through the BSSw Fellowship Program, I have been able to reach a broad audience and to create connections with people who have significantly enriched my professional network, and with whom I would have not had the chance to interact otherwise.  
+The goal of my work is improving the state of practice for computational experiments by teaching new generations more efficient approaches for carrying out scientific explorations.  Through the BSSw Fellowship Program, I have been able to reach a broad audience and to create connections with people who have significantly enriched my professional network, and with whom I would have not had the chance to interact otherwise.  
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_katz.jpg' class='logo' />
@@ -56,12 +56,12 @@ _Resources:_
 
 &nbsp; &nbsp; &bull;  Blog post: [*BSSw Fellowship Activity: Promoting Software Citation*](https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation), March 2018
 
-&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Software Citation Today and Tomorrow*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), Daniel S. Katz (NCSA and University of Illinois at Urbana-Champaign), April 2018
+&nbsp; &nbsp; &bull;  Webinar recording and slides: [*Software Citation Today and Tomorrow*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), April 2018
 
 &nbsp; &nbsp; &bull;  Check back for additional resources
 
 _Perspectives on the BSSw Fellowship Program_: 
-I applied to be a BSSw Fellow because I saw this as an opportunity to extend some of the work I had started in software citation to have a larger impact, by encouraging new communities to include software citation as part of their professional culture. While this work is a slow activity, I feel that the fellowship has allowed me to help these communities move farther than they otherwise would have. I've enjoyed the experience of understanding the projects of the other fellows, and getting better insight into ECP. Based on what I've learned, I suggest that prospective fellows think about how to expand something they are already doing and increase the impact of their work, rather than proposing something completely new.
+I applied to be a BSSw Fellow because I saw this as an opportunity to extend some of the work I had started in software citation to have a larger impact, by encouraging new communities to include software citation as part of their professional culture. While this work is a slow activity, I feel that the fellowship has allowed me to help these communities move farther than they otherwise would have. I've enjoyed the experience of understanding the projects of the other fellows and getting better insight into ECP. Based on what I've learned, I suggest that prospective fellows think about how to expand something they are already doing and increase the impact of their work, rather than proposing something completely new.
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_lumsdaine.jpg' class='logo' />
@@ -110,8 +110,8 @@ Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facil
 Publish: preview
 RSS Update: 2018-09-04
 Categories: collaboration
-Topics: discussion forums, Q&A sites, projects and organizations
-Tags: bssw-blog-article
+Topics: projects and organizations
+Tags: bssw-rticle
 Level: 2
 Prerequisites: default
 Aggregate: none
