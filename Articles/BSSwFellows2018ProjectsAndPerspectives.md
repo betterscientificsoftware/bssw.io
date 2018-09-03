@@ -79,7 +79,7 @@ _Resources_:
 &nbsp; &nbsp; &bull; Course materials, including video lectures, slides, notes, assignments, and code, will be made available online.
 
 _Perspectives on the BSSw Fellowship Program_: 
-I became interested in becoming a BSSw Fellow because I believe in the mission of BSSw.  Scientific software is an important tool for scientific discovery.  By enabling scientists to be more effective and efficient with this tool, we are also enabling them to do more and better science.  Being selected as a BSSw Fellow has been quite an honor and it has been an encouragement to develop educational materials with a specific focus on the unique needs of scientific software.  Being a BSSw Fellow has been quite an opportunity to be on "the ground floor" with this important effort, and I look forward to participating long into the future.  The impact you can make as a BSSw Fellow may be non-traditional, but it is nevertheless vitally important.
+I became interested in becoming a BSSw Fellow because I believe in the mission of BSSw.  Scientific software is an important tool for scientific discovery.  By enabling scientists to be more effective and efficient with this tool, we are also enabling them to do more and better science.  Being selected as a BSSw Fellow has been quite an honor and it has been an encouragement to develop educational materials with a specific focus on the unique needs of scientific software.  Being a BSSw Fellow has been an opportunity to be on "the ground floor" with this important effort, and I look forward to participating long into the future.  The impact you can make as a BSSw Fellow may be non-traditional, but it is nevertheless vitally important.
 
 
 ## 2018 BSSw Honorable Mentions
@@ -111,7 +111,7 @@ Publish: preview
 RSS Update: 2018-09-04
 Categories: collaboration
 Topics: projects and organizations
-Tags: bssw-rticle
+Tags: bssw-article
 Level: 2
 Prerequisites: default
 Aggregate: none
