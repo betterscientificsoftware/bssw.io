@@ -59,7 +59,7 @@ Needs span throughout diverse areas of scientific software, including topics lis
 
 ### I am working on a scientific software project and have done a lot of coding to build reusable, open-source code.  Can this program provide support for my continued work on this (code/application/tool)?
 
-While any idea may be submitted, we cannot guaranteed that this kind of idea would be competitive.  The BSSw Fellowship Program focuses on fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  The application includes the proposal of a funded activity that promotes better scientific software.  While candidates often are developing software as part of their broader scope of work, the BSSw Fellowship Program is not intended to support ongoing software development. 
+While any idea may be submitted, we cannot guarantee that this kind of idea would be competitive.  The BSSw Fellowship Program focuses on fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  The application includes the proposal of a funded activity that promotes better scientific software.  While candidates often are developing software as part of their broader scope of work, the BSSw Fellowship Program is not intended to support ongoing software development. 
 
 ### Do you expect fellows to attend events or meetings?
 
