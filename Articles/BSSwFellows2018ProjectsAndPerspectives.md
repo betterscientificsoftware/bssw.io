@@ -110,7 +110,7 @@ Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facil
 Publish: preview
 RSS Update: 2018-09-04
 Categories: collaboration
-Topics: projects and organizations
+Topics: collaboration
 Tags: bssw-article
 Level: 2
 Prerequisites: default
