@@ -24,18 +24,18 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly benefit the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows and promote better scientific software in their community.
 
-### 2019 BSSw Fellowship Application Form: Will open on September 4, 2018 ... Check back then for a link.
+### 2019 BSSw Fellowship Application Form: [click here](https://docs.google.com/forms/d/1PLW9vo4DgYz-Sxg_gtskL49NVBSZciOeTIAhQ6CbhN4/edit)
 
 ### Timeline for 2019 BSSw Fellowship Program
 
 - **Tuesday, Sept 4, 2018**: Fellowship application process opens.
 - **Friday, Sept 21, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details.
 - **Tuesday, Oct 16, 2018**: Application deadline, before midnight, PST.  
+- **Jan 8, 2019 - March 31, 2020**: Period of performance for 2019 BSSw Fellows.
 - **Jan 15-17, 2019**: Fellows announced at DOE ECP Annual Meeting in Houston, TX.
-- **Jan 8, 2019 - Jan 7, 2020**: Period of performance for 2019 BSSw Fellows.
 
 ### More Information
 
-- [Introducing the 2018 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows)
-- [FAQ for the 2018 BSSw Fellowship Program](https://bssw.io/blog_posts/new-faq-list-for-bssw-fellowship-program-applications-due-by-jan-5-2018), including a recorded Q&A session.  
-- Coming soon: More information about the 2018 BSSw Fellows and a FAQ for the 2019 BSSw Fellowship program.  If you have additional questions, please contact us at <info@bssw.io>.
+- [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives) ... Read about work of the 2018 BSSw Fellows and their perspectives on the program.
+- [FAQ for the 2019 BSSw Fellowship Program](https://bssw.io/resources/bssw-fellowship-program-faq-2019) ... Check back for updates; we will post additional Q&A here as these arise.
+- If you have additional questions, please contact us at <info@bssw.io>.
