@@ -85,7 +85,7 @@ The long-term vision for the BSSw Organization is to serve as an international c
 If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
 
 <!---
-Publish: preview
+Publish: yes
 RSS-update: 2018-09-04
 Categories: collaboration
 Topics: collaboration
