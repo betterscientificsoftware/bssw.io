@@ -86,8 +86,9 @@ If you have additional questions, please contact us via email to [info@bssw.io](
 
 <!---
 Publish: preview
+RSS-update: 2018-09-04
 Categories: collaboration
-Topics: projects and organizations
+Topics: collaboration
 Tags: bssw-article
 Level: 2
 Prerequisites: default
