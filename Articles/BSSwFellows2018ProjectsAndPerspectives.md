@@ -107,7 +107,7 @@ Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facil
 
 
 <!---
-Publish: preview
+Publish: yes
 RSS Update: 2018-09-04
 Categories: collaboration
 Topics: collaboration
