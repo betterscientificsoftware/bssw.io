@@ -30,7 +30,7 @@ I find the internal-external complementarity framework useful in my planning and
 
 ### Increasing trust through internal-external complementarities
 
-Given the dual nature of internal-external complementarity, it might seem like our goal should be to balance our efforts so that both types of concerns are met.  However, I think a better approach is to consider advice from Steven M. R. Covey in his book *The Speed of Trust: The One Thing That Changes Everything*.  While his framework is more detailed, he argues that trust is our primary goal and that trust is a result of character and competence.  Character is who we are, an internal focus.  Competence is what we can do, an external focus.  
+Given the dual nature of internal-external complementarity, it might seem like our goal should be to balance our efforts so that both types of concerns are met.  However, I think a better approach is to consider advice from Steven M. R. Covey in his book *The Speed of Trust: The One Thing That Changes Everything*.  While his framework is more detailed, he argues that trust is our primary goal and that trust is a result of character and competence.  Character is who we are, doing the right things.  Competence is what we can do, doing things right.  
 
 While Covey’s book focuses on human interactions and pursuits, I think a focus on trust is appropriate in the context of our scientific software efforts.  Therefore, while I think the internal-external complementarity framework is useful, we don’t want to strike a balance.  Instead, the real objective is increasing trust.  Internal-external complementarity frameworks help us build that trust.
 
