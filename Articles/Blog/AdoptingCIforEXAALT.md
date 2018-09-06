@@ -2,7 +2,7 @@
 
 #### Contributed by [Richard Zamora](https://rjzamora.github.io "Rick Zamora's Github.io Profile")
 
-#### Publication date: September 10th, 2018
+#### Publication date: September 24, 2018
 
 **In order to develop software that can push the limits of accelerated molecular dynamics, the EXAALT team is working with IDEAS-ECP to adopt continuous integration practices.**
 
@@ -47,9 +47,10 @@ At this stage, the EXAALT team has successfully adopted continuous integration, 
 
 
 <!---
-Publish: No
+Publish: preview
+RSS-update: 2018-09-24
 Categories: reliability
-Topics: testing
+Topics: testing, continuous integration testing
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
