@@ -30,7 +30,7 @@ Yes, please see the [BSSw Fellowship webpage](https://bssw.io/fellowship) for de
 
 ### What is the amount of funding for 2019 BSSw Fellows?
 
-Each 2019 BSSw Fellow will be awarded up to $25,000 for an activity that promotes better scientific software.
+Each 2019 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 
 ### Do you require a budget plan to be submitted as part of the application? if so, how detailed does it have to be?
 Brief budget information can be provided as part of the proposed work section of the application.  We will follow up later about more specific details.
