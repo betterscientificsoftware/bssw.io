@@ -19,7 +19,7 @@ Applications are now open for the 2019 [BSSw Fellowship Program](https://bssw.io
 
 #### More information, including on-line application
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-- Application deadline: Tuesday, October 16, 2018
+- Application deadline: Tuesday, October 16, 2018; this is a firm deadline that will not be extended.
 
 <!---
 Publish: yes
