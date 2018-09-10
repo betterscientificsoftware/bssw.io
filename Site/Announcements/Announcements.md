@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [Applications open for 2019 BSSw Fellowship Program ... Q&A webinar on Sept 21](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
+- [Applications open for 2019 BSSw Fellowship Program ... Q&A webinar on Sept 21, 2018](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
 - Display dates: 09/09/2018 - 09/28/2018
 
 <!---
