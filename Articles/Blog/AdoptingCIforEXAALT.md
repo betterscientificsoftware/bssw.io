@@ -35,7 +35,7 @@ One significant advantage of the PSIP management approach is that it forces the 
 - [CMake] (https://cmake.org/): To manage the end-to-end compilation and testing execution using CTest
 - [Boost] (https://www.boost.org/): To implement and organize functionality tests (integration, regression, and unit) inside CTest
 - [GitLab CI] (https://about.gitlab.com/features/gitlab-ci-cd/): To automatically build and test the software framework (using CMake) to validate new repository commits (usually using docker)
-- [Docker](https://www.docker.com/): To generate standard system images (with library dependencies) for use in GitLab CI
+- [Docker] (https://www.docker.com/): To generate standard system images (with library dependencies) for use in GitLab CI
 
 
 As illustrated in Fig 2, most of the work detailed in the PSIP cards was carried out by members of the IDEAS-EXAALT collaboration by the end of July 2018. With that said, the completion of these PSIP cards does not mean that the EXAALT team is finished improving their CI and/or testing infrastructure. Like most aspects of software engineering, PSIP is an iterative process, and the initial plan may need  change if unexpected roadblocks emerge. Whether or not a PSIP card can be followed to completion, documenting, revising, and repeating the process make sense when a natural finishing point is reached.
