@@ -28,8 +28,8 @@ Python resources for computational scientists:
 
 <!---
 Publish: yes
-Categories: development
-Topics: Programming languages and tools
+Categories: Software engineering
+Topics: Software engineering
 Level: 2
 Prerequisites: defaults
 Aggregate: none
