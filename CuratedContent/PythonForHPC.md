@@ -9,14 +9,14 @@ Python is a very popular language in many domains. Traditionally, these are doma
  - [Python For HPC Community Materials](https://betterscientificsoftware.github.io/python-for-hpc/)
  
 Tutorials:
- - [Python for HPC](tutorials/python.whatis.md)
- - [Creating a PYPI package](tutorials/python.pypi-packaging.md)
- - [Using Conda / Anaconda](tutorials/python.conda.md)
- - [Documenting with Sphinx](tutorials/python.doc-sphinx.md)
+ - [Python for HPC](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python.whatis.md)
+ - [Creating a PYPI package](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python.pypi-packaging.md)
+ - [Using Conda / Anaconda](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python.conda.md)
+ - [Documenting with Sphinx](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python.doc-sphinx.md)
 
 Tips on Python for Scientific Computing:
- - [Interrogating NumPy Configuration/Compiler Options](tutorials/interrogating_numpy.md)
- - [Links for moving from Matlab to NumPy](tutorials/matlab-numpy-conversion.md)
+ - [Interrogating NumPy Configuration/Compiler Options](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/interrogating_numpy.md)
+ - [Links for moving from Matlab to NumPy](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/matlab-numpy-conversion.md)
 
 Presentations:
  - [ECP Python Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/ECP_Python_Tutorial_2018.pdf)
@@ -25,7 +25,6 @@ Presentations:
 Python resources for computational scientists:
  - [XSD Python Training Home](https://confluence.aps.anl.gov/display/XSDPT/XSD+Python+Training+Home)
  - [On-demand learning for Python - using a Transmedia Learning Framework](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
-  - 
 
 <!---
 Publish: yes
