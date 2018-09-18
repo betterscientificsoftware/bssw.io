@@ -8,7 +8,7 @@ The Clever Programmer YouTube channel offers a number of short videos for learni
 - [Python in HPC ](https://www.youtube.com/watch?v=14rbhkrRxUs)
 William Scullin from Argonne National Laboratory presents "Python for High Performance Computing" at the Argonne Training Program on Extreme-Scale Computing (ATPESC), Summer, 2015.
 
-- [Python Software Engineering Training Materials](https://shuds13.github.io/python-tutorials)
+- [Python Software Engineering Training Materials](https://betterscientificsoftware.github.io/python-for-hpc/)
 Steve Hudson, from Argonne National Laboratory has created Python tips, tutorials, and resources for computational scientists. 
 
 - [Udacity MOOC Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036)
