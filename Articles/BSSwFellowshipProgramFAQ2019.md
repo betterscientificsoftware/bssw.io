@@ -39,6 +39,10 @@ Brief budget information can be provided as part of the proposed work section of
 
 Funding can be used to support effort in developing and delivering content, including travel.  We suggest providing brief information in the proposed work section of the application.  We will follow up with chosen BSSw Fellows about more specific budget details, including advance approval for travel, as required by the policies of our sponsors.
 
+### My institution’s project office inquired about indirect/overhead costs for BSSw Fellowship recipients.  Are indirect/overhead costs allowed and should these be mentioned in the budget?
+ 
+In addition to direct support for proposed work up to $25,000, the BSSw Fellowship covers usual and customary institutional indirect/overhead costs. Do not include your institution’s indirect/overhead costs in the brief budget information that is submitted in the proposed work section of the application. 
+
 ### So one idea would be to host a bunch of tutorials at our host institute on useful software practices, like version control? Is this the right idea?
 
 We encourage emphasis on activities with a view toward broad impact, with some element that could serve more than a single set of people attending a single event.
