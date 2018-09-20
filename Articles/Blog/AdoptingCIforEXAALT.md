@@ -44,7 +44,7 @@ One significant advantage of the PSIP management approach is that it forces the 
 
 As illustrated in Figure 2, most of the work detailed in the PSIP cards was carried out by members of the IDEAS-EXAALT collaboration by the end of July 2018. With that said, the completion of these PSIP cards does not mean that the EXAALT team is finished improving their CI and/or testing infrastructure. Like most aspects of software engineering, PSIP is an iterative process, and the initial plan may need  change if unexpected roadblocks emerge. Whether or not a PSIP card can be followed to completion, documenting, revising, and repeating the process make sense when a natural finishing point is reached.
 
-At this stage, the EXAALT team members have successfully adopted continuous integration and is ready apply the PSIP process to improve their CI pipeline further.  The plan is to modify the existing infrastructure to interface with ECP-supported facilities (e.g., ALCF and OLCF). They will also expand on the Boost testing suite to tackle a related software development issue: code coverage.
+At this stage, the EXAALT team members have successfully adopted continuous integration and are ready apply the PSIP process to improve their CI pipeline further.  The plan is to modify the existing infrastructure to interface with ECP-supported facilities (e.g., ALCF and OLCF). They will also expand on the Boost testing suite to tackle a related software development issue: code coverage.
 
 
 <!---
