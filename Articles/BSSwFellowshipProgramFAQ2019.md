@@ -6,7 +6,7 @@ This page addresses frequently asked questions (FAQs) about the 2019 BSSw Fellow
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. A Q&A webinar about the application process for the 2019 BSSw Fellowship Program will take place on Friday, September 21, 2018, 1 pm EDT.  [Subscribe](https://bssw.io/pages/receive-our-email-digest) to the BSSw mailing list to be notified about webinar details.
 
-## [Slides for Q&A Webinar (pdf format)](https://dx.doi.org/10.6084/m9.figshare.7117829)
+### [Slides for Q&A Webinar (pdf format)](https://dx.doi.org/10.6084/m9.figshare.7117829)
 
 ## Frequently Asked Questions
 
