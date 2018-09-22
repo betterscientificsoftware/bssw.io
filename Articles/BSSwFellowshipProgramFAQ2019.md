@@ -4,9 +4,14 @@
 
 This page addresses frequently asked questions (FAQs) about the 2019 BSSw Fellowship Program.  More questions/answers will be added to this page over time; check back for updates. 
 
-The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. A Q&A webinar about the application process for the 2019 BSSw Fellowship Program will take place on Friday, September 21, 2018, 1 pm EDT.  [Subscribe](https://bssw.io/pages/receive-our-email-digest) to the BSSw mailing list to be notified about webinar details.
+The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to the BSSw mailing list to be notified about fellowship details.
 
-### [Slides for Q&A Webinar (pdf format)](https://dx.doi.org/10.6084/m9.figshare.7117829)
+### FAQ updated September 22, 2018
+
+### Q&A Webinar:
+A Q&A webinar for the 2019 BSSw Fellowship Program took place on Friday, September 21, 2018. 
+- [**Slides (pdf)**](https://dx.doi.org/10.6084/m9.figshare.7117829)
+- [**Recording**](https://bluejeans.com/s/7Ha2s)
 
 ## Frequently Asked Questions
 
@@ -90,9 +95,17 @@ No, applications of current BSSw Fellows will not be considered for awards in fu
 
 No, connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.
  
+### Are there restrictions on who can apply for a BSSw Fellowship?
+
+Applicants must be affiliated with a U.S.-based institution that is able to receive funding from the U.S. Department of Energy. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. We encourage diverse applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
+
 ### What is the long-term vision for the BSSw Organization and BSSw Fellowship Program?
 
 The long-term vision for the BSSw Organization is to serve as an international community-driven and community-managed resource for scientific software improvement, with content and processes provided by volunteers.  Future plans center on working toward broad community leadership, growth, and diversification of the BSSw Organization and BSSw Fellowship Program---that is, expanding collaboration with complementary groups, stakeholders, sponsors, and individual contributors.  
+
+### I am passionate about scientific software and would like to get involved in the BSSw community but currently am not eligible to pursue a BSSw Fellowship.  How can I proceed?
+
+We want and need contributions from the international community for the BSSw site. If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/contribute).  Also, we welcome conversations about potential for expanding international collaboration and sponsorship.  
 
 ## Other questions?  
 If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
