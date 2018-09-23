@@ -6,7 +6,7 @@ This page addresses frequently asked questions (FAQs) about the 2019 BSSw Fellow
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to the BSSw mailing list to be notified about fellowship details.
 
-### FAQ updated September 22, 2018
+### FAQ updated September 23, 2018
 
 ### Q&A Webinar:
 A Q&A webinar for the 2019 BSSw Fellowship Program took place on Friday, September 21, 2018. 
