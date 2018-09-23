@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [FAQ for BSSw Fellowship Program now includes Q&A webinar slides and recording](../../Articles/BSSwFellowshipProgramFAQ2019.md)
+- Display dates: 09/22/2018 - 09/26/2018
+
+<!---
 - [Applications open for 2019 BSSw Fellowship Program ... Q&A webinar on Sept 21, 2018](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
 - Display dates: 09/09/2018 - 09/28/2018
 
-<!---
 - [New blog article ... Do Social Media And Science Mix? Twitter Use In A Large Research Project](../../Articles/Blog/ScienceAndSocialMedia.md)
 - Display dates: 08/29/2018 - 09/18/2018
 
