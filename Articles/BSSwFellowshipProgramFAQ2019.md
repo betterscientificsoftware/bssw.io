@@ -91,6 +91,9 @@ While we recognize that lots of important work takes place as collaborative part
 
 No, applications of current BSSw Fellows will not be considered for awards in future years.  While BSSw Fellows receive funding for activities during a particular period of performance, the designation of being a BSSw Fellow is ongoing.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
+### Where can I learn more about the work of current BSSw Fellows?
+Information about projects and perspectives of the inaugural class of BSSw Fellows is available [here](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives).  
+
 ### Does the proposal have to be involved with the Exascale Computing Project (ECP) or any kind of funded project?
 
 No, connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.
@@ -105,7 +108,7 @@ The long-term vision for the BSSw Organization is to serve as an international c
 
 ### I am passionate about scientific software and would like to get involved in the BSSw community but currently am not eligible to pursue a BSSw Fellowship.  How can I proceed?
 
-We want and need contributions from the international community for the BSSw site. If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/contribute).  Also, we welcome conversations about potential for expanding international collaboration and sponsorship.  
+The goal of the BSSw organization is to foster a broad, international community of researchers, practitioners, and stakeholders from national laboratories, academic institutions, and industry who are dedicated to curating, creating, and disseminating information that leads to improved software for the advancement of scientific software.  We want and need contributions from the international community for the BSSw site. If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/contribute).  Also, we welcome conversations about potential for expanding international collaborations and sponsorship.  
 
 ## Other questions?  
 If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
