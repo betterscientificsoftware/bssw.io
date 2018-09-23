@@ -12,17 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Modern CMake
+## Next webinar: Open Source Best Practices: From Continuous Integration to Static Linters
 
-### Date and Time: Wednesday, September 19, 2018, 1:00-2:00 pm ET
-### Presenter: Bill Hoffman, Kitware
+### Date and Time: Wednesday, October 17, 2018, 1:00-2:00 pm ET
+### Presenter: Ben Prichard and Daniel Smith 
 ### Description:
-Bill Hoffman, the creator of the CMake project, will give an introduction to development with modern CMake constructs. CMake is 17 years old and has evolved over time into the most widely used C++ build tool in the world. In the past 5 years, many new features have been added to CMake to make the creation of cross-platform build files easier. This webinar will provide best practices for development and maintenance of a CMake build system. The webinar will cover the “target centric” approach to writing CMake files. In addition, testing and quality dashboards with CDash will be covered. Kitware’s experience with HPC systems and CMake will also be discussed.
+Ben Prichard and Daniel Smith (members of the NSF-funded Molecular Sciences Software Institute) will discuss resources to support open source software, including services for continous integration, code coverage, and static analysis.  These services are agnostic to software language of HPC software application and should be of interest to anyone interested in tools to help ease the burden of software maintenance.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar023
 
 ## Past Webinars
+- [*Modern CMake*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022), Bill Hoffman (Kitware), 2018-09-19
 - [*Software Sustainability -- Lessons Learned from Different Disciplines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar021), Neil Chue Hong (Software Sustainability Institute, University of Edinburgh, UK), 2018-08-21
 - [*How Open Source Software Supports the Largest Computers on the Planet*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar020), Ian Lee (LLNL), 2018-07-18
 - [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), Ivo Jimenez (UC Santa Cruz), 2018-06-13
