@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [FAQ for BSSw Fellowship Program now includes Q&A webinar slides and recording](../../Articles/BSSwFellowshipProgramFAQ2019.md)
+- [FAQ for BSSw Fellowship Program now includes slides and recording from recent Q&A webinar](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
 - Display dates: 09/22/2018 - 09/26/2018
 
 <!---
