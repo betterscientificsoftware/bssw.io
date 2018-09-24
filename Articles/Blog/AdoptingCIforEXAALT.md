@@ -50,7 +50,8 @@ As illustrated in Figure 2, most of the work detailed in the PSIP cards was carr
 At this stage, the EXAALT team members have successfully adopted continuous integration and are ready to apply the PSIP process to improve their CI pipeline further.  The plan is to modify the existing infrastructure to interface with ECP-supported facilities (e.g., ALCF and OLCF). They will also expand on the Boost testing suite to tackle a related software development issue: code coverage.
 
 ### Author Bio
-Rick Zamora is XXXXX. [50-100 word bio goes here.] 
+Richard Zamora is an assistant computer scientist in the [ALCF](https://www.alcf.anl.gov/) Data Science group at Argonne National Laboratory.  His research is focused on the development and optimization of parallel software for high-performance computing and machine learning. Before joining Argonne, Richard worked in the Theoretical Division at Los Alamos National Laboratory, where he was heavily involved in the design and application of accelerated molecular dynamics algorithms. While working on the EXAALT package at LANL, he helped manage the official software repository, and has since taken a special interest in sustainable and productive development practices. 
+
 
 <!---
 Publish: preview
