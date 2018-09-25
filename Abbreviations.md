@@ -24,6 +24,7 @@
 - SC: Supercomputing
 - SE-CoDeSe: Software Engineering for Computational and Data-enabled Science and Engineering
 - SC17: SC17 Conference
+- SC18: SC18 Conference
 - SIAM: Society for Industrial and Applied Mathematics
 - SI2: Software Infrastructure for Sustained Innovation
 - SuperLU: Supernodal LU software package
