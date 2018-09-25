@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
-- [FAQ for BSSw Fellowship Program now includes slides and recording from recent Q&A webinar](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
-- Display dates: 09/22/2018 - 09/26/2018
+- [New blog article ... Adopting Continuous Integration For Long Timescale Materials Simulation](../../Articles/Blog/AdoptingCIforEXAALT.md)
+- Display dates: 09/24/2018 - 10/12/2018
 
 <!---
+- [FAQ for BSSw Fellowship Program now includes slides and recording from recent Q&A webinar](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
+- Display dates: 09/22/2018 - 09/25/2018
+
 - [Applications open for 2019 BSSw Fellowship Program ... Q&A webinar on Sept 21, 2018](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
 - Display dates: 09/09/2018 - 09/28/2018
 
