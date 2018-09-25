@@ -13,9 +13,9 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 
 Day and Time | Event Type | Event Title (see linked program page for full details) | Registration Categories
 ----|------------|--------------------------------------------------------|-------------------------
-Sunday 9:00am-12:30pm |	Workshop | [ResCuE-HPC: 1st Workshop on Reproducible, Customizable, and Portable Workflows for HPC](https://sc18.supercomputing.org/presentation/?id=wksp134&sess=sess167)	| W
-Monday 8:30am-5:00pm |	Tutorial | [Better Scientific Software](https://sc18.supercomputing.org/presentation/?id=tut154&sess=sess239)	| TUT
-Monday 8:30am-5:00pm |	Tutorial	| [Managing HPC Software Complexity with Spack](https://sc18.supercomputing.org/presentation/?id=tut165&sess=sess252)	| TUT
+Sunday<br>9:00am-12:30pm |	Workshop | [ResCuE-HPC: 1st Workshop on Reproducible, Customizable, and Portable Workflows for HPC](https://sc18.supercomputing.org/presentation/?id=wksp134&sess=sess167)	| W
+Monday<br>8:30am-5:00pm |	Tutorial | [Better Scientific Software](https://sc18.supercomputing.org/presentation/?id=tut154&sess=sess239)	| TUT
+Monday<br>8:30am-5:00pm |	Tutorial	| [Managing HPC Software Complexity with Spack](https://sc18.supercomputing.org/presentation/?id=tut165&sess=sess252)	| TUT
 Monday 9:00am-5:30pm | Workshop	| [Fifth SC Workshop on Best Practices for HPC Training and Education](https://sc18.supercomputing.org/presentation/?id=wksp133&sess=sess166)	| W
 Tuesday 12:15pm-1:15pm | BOF	| Spack Community BOF [*tentative schedule, program page not yet available*]	| TP, EX, EXH
 Tuesday 12:15pm-1:15pm | BOF | Software Engineers: Careers in Research [*tentative schedule, program page not yet available*] 	| TP, EX, EXH
