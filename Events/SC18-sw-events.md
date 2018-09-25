@@ -18,8 +18,11 @@ Monday |	Tutorial | [Better Scientific Software](https://sc18.supercomputing.org
 Monday |	Tutorial	| [Managing HPC Software Complexity with Spack](https://sc18.supercomputing.org/presentation/?id=tut165&sess=sess252)	| TUT
 Monday | Workshop paper	| [Fifth SC Workshop on Best Practices for HPC Training and Education](https://sc18.supercomputing.org/presentation/?id=wksp133&sess=sess166)	| W
 Tuesday	| BOF	| Spack Community BOF [*tentative schedule, program page not yet available*]	| TP, EX, EXH
+Tuesday | BOF | Software Engineers: Careers in Research [*tentative schedule, program page not yet available*] 	| TP, EX, EXH
 Wednesday |	Panel	| [Innovative Approaches for Developing Accessible, Productive, Scalable HPC Training](https://sc18.supercomputing.org/?post_type=page&p=3479&id=pan113&sess=sess297)	| TP
+Wednesday | BOF | National Research Infrastructure: Collaborative Session [*tentative schedule, program page not yet available*] | TP, EX, EXH
 Wednesday |	BOF	| Software Engineering and Reuse for Computational Science and Engineering [*tentative schedule, program page not yet available*]	| TP, EX, EXH
+Friday | Panel | [Sustaining Research Software](https://sc18.supercomputing.org/presentation/?id=pan110&sess=sess295) | W, TUT, TP, EX
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
