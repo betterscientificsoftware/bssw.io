@@ -4,12 +4,12 @@
 - Location: Dallas, TX
 - Event Website: https://sc18.supercomputing.org/
 
-The Supercomputing Conference series is one of the premier venues for high-performance computing and computational science and engineering.  Numerous events within this enormous conference relate to producing better scientific software.
+The Supercomputing conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
 
 
 **Description:** The program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration.
 
-If you know of other events which should be featured here, please let us know by emailing info@bssw.io
+**If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
 Day | Event Type | Event Title (see linked program page for full details) | Registration Categories
 ----|------------|--------------------------------------------------------|-------------------------
