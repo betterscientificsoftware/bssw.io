@@ -32,7 +32,7 @@ We also agreed early on  that all work should begin as an issue.  We created a h
 
 ### GitLab Merge Requests
 
-Instead of allowing developers to push directly to "develop," we decided that changes must come in via a GitLab merge request (MR).  You can set this up by [protecting the `develop` branch] (https://docs.gitlab.com/ee/user/project/protected_branches.html) and selecting that **Maintainers** can push and **Developers + Maintainers** can merge.  Code review comes built-in to MRs, and as a team policy we said that MRs must be reviewed and approved by at least one person.  Reviewers are supposed to compile and test the feature branch before approving.  Building this code review into the process has helped us catch bugs sooner rather than later, and we wind up training more team members in how various parts of the code work.
+Instead of allowing developers to push directly to "develop," we decided that changes must come in via a GitLab merge request (MR).  You can set this up by [protecting the "develop" branch] (https://docs.gitlab.com/ee/user/project/protected_branches.html) and selecting that **Maintainers** can push and **Developers + Maintainers** can merge.  Code review comes built-in to MRs, and as a team policy we said that MRs must be reviewed and approved by at least one person.  Reviewers are supposed to compile and test the feature branch before approving.  Building this code review into the process has helped us catch bugs sooner rather than later, and we wind up training more team members in how various parts of the code work.
 
 ### Documentation
 
