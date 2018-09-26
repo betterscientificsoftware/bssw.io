@@ -12,7 +12,7 @@ Prior to the summer of 2017, the EMPIRE team&mdash;working on a next-generation 
 
 At the time, a few team members realized that if we were to hit the various milestones that loomed ominously ahead of us, we needed to rethink how we did things.  We wound up getting everyone in one room together (which was the first time I realized I was even part of this team) and made a few key decisions for moving forward.
 
-First and foremost, we decided to use [GitLab] (https://gitlab.com) for everything we can; and with that as our starting point, we needed some sort of
+First and foremost, we decided to use [GitLab] (https://gitlab.com) for everything we could; and with that as our starting point, we needed some sort of
 * issue tracking;
 * code review;
 * documentation;
