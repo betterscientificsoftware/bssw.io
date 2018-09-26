@@ -4,6 +4,8 @@
 - Location: United States
 - Event Website: https://nd.qualtrics.com/jfe/form/SV_8ik4azGuHmojKW9
 
+The URSSI project seeks opinions from the community about sustainable research software.
+
 On behalf of the NSF-Funded [US Research Software Sustainability Institute (URSSI) conceptualization project](http://urssi.us),
 we are looking for your opinions about needs in the US research software community.
 Please consider participating in [our brief 10 to 15 minute survey](https://nd.qualtrics.com/jfe/form/SV_8ik4azGuHmojKW9)
@@ -12,6 +14,9 @@ and improve the research that relies on that software.
 We will use this information to plan a potential institute to carry out some of the activities in response to the needs.
 
 Please feel free to share this survey with other research software developers and users.
+
+#### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
+
 <!---
 Publish: preview
 RSS-update: 2018-09-26
