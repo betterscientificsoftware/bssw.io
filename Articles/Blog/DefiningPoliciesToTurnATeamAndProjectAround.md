@@ -44,7 +44,7 @@ For documenting the code itself&mdash;the classes, their functions, and data&mda
 
 #### Interacting with the Code and Team
 
-In addition to documenting the code itself, we needed documentation for how to interact with the code.  For this we turned mainly to GitLab wikis, creating pages explaining all the policies outlined here.  Wiki pages were also created for how to get, configure, build, and test the code.  Some of this information was also put into a `CONTRIBUTING.md` file in the repository root, which GitLab treats specially and links to on the new issue and new merge request pages.
+In addition to documenting the code itself, we needed documentation for how to interact with the code.  For this we turned mainly to [GitLab wikis] (https://docs.gitlab.com/ee/user/project/wiki/), creating pages explaining all the policies outlined here.  Wiki pages were also created for how to get, configure, build, and test the code.  Some of this information was also put into a `CONTRIBUTING.md` file in the repository root, which GitLab treats specially and links to on the new issue and new merge request pages.
 
 ### Code Style Guide
 
