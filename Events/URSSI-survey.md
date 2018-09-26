@@ -13,7 +13,8 @@ We will use this information to plan a potential institute to carry out some of 
 
 Please feel free to share this survey with other research software developers and users.
 <!---
-Publish: yes
+Publish: preview
+RSS-update: 2018-09-26
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: survey
