@@ -88,6 +88,10 @@ Another interesting realization was that while we had high initial commitment to
 
 While it may be tempting to walk away thinking, "Okay, I need to get set up with GitLab and Jenkins and Doxygen and&hellip;," keep in mind that those were just the implementation details we settled on and how we implemented them has developed over time.  The important thing&mdash;the big takeaway here&mdash;is that you actually sit down and **define your policies** and then **get your team to commit to them.**  If you're in a place where everything looks like a mess and you're wondering what to do, feel free to start small and let your policies grow over time.  What is your greatest need, your biggest pain point, today?  Start there, and just see how things go.
 
+### Author Bio
+
+Jason M. Gates is a Research Software Engineer in the Software Engineering and Research department of Sandia National Laboratories, where his role is to help scientific R&D codes and teams to transition toward becoming high-quality production-stable software engineering efforts.  To that end, he leads a team that offers introductory and intermediate git courses to Sandians throughout the year.  He has a background in engineering physics, simulating magnetically confined high-termperature plasmas, and applied mathematics, focussing on numerical methods and scientific computing, but his passions are teaching and helping people do the work they do in more usable, maintainble, and extensible ways.
+
 
 
 <!---
