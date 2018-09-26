@@ -24,7 +24,7 @@ When we made these decisions, we didn't fully know how to implement anything&mda
 
 ### Git Workflow
 
-One of the first actions we took was to switch to a master/develop workflow.  Feature branches are created off of "develop." and the only way to get those changes into "develop" is via merge requests (discussed below).  The "master" branch gets updated via nightly testing (again, see below), and other than that no one can push or merge to it.
+One of the first actions we took was to switch to a master/develop workflow.  Feature branches are created off of "develop" and the only way to get those changes into "develop" is via merge requests (discussed below).  The "master" branch gets updated via nightly testing (again, see below), and other than that no one can push or merge to it.
 
 ### GitLab Issues
 
