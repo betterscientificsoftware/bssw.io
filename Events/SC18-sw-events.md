@@ -27,8 +27,8 @@ Friday<br>10:30am-12:00pm | Panel<br>W, TUT, TP, EX | [Sustaining Research Softw
 #### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
 <!---
-Publish: Preview
-RSS update: 2018-09-26
+Publish: yes
+RSS update: 2018-09-25
 Categories: collaboration
 Topics: projects and organizations
 Tags: conference
