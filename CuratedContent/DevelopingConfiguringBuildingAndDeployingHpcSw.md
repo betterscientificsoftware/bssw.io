@@ -1,6 +1,6 @@
 # Developing, Configuring, Building, and Deploying HPC Software
 
-#### Contributed by [Barry Smith](https://github.com/bsmith "Barry Smith GitHub Profile") 
+#### Contributed by [Barry Smith](https://github.com/BarrySmith "Barry Smith GitHub Profile") 
 
 #### Publication date: March 10, 2017
 
