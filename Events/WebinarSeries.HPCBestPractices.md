@@ -15,7 +15,7 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 ## Next webinar: Open Source Best Practices: From Continuous Integration to Static Linters
 
 ### Date and Time: Wednesday, October 17, 2018, 1:00-2:00 pm ET
-### Presenter: Ben Prichard and Daniel Smith 
+### Presenters: Ben Prichard and Daniel Smith 
 ### Description:
 Ben Prichard and Daniel Smith (members of the NSF-funded Molecular Sciences Software Institute) will discuss resources to support open source software, including services for continous integration, code coverage, and static analysis.  These services are agnostic to software language of HPC software application and should be of interest to anyone interested in tools to help ease the burden of software maintenance.
 
