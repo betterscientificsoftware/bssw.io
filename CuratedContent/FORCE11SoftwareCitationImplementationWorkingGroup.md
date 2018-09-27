@@ -12,7 +12,7 @@ The FORCE11 [Software Citation Implementation Working Group](https://www.force11
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-#### Publication date: 2017-06-20
+#### Publication date: June 20, 2018
 
 <!---
 Publish: yes
