@@ -16,9 +16,11 @@ Please feel free to share this survey with other research software developers an
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
+#### Publication date:  June 26, 2018
+
 <!---
 Publish: yes
-RSS-update: 2018-09-26
+RSS update: 2018-09-26
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: survey
