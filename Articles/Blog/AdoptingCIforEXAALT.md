@@ -55,7 +55,7 @@ Richard Zamora is an assistant computer scientist in the [ALCF](https://www.alcf
 
 <!---
 Publish: yes
-RSS-update: 2018-09-25
+RSS update: 2018-09-25
 Categories: reliability
 Topics: testing, continuous integration testing
 Tags: bssw-blog-article
