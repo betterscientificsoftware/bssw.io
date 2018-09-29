@@ -17,6 +17,7 @@ Sunday<br>9:00am-12:30pm |	Workshop<br>W | [ResCuE-HPC: 1st Workshop on Reproduc
 Monday<br>8:30am-5:00pm |	Tutorial<br>TUT | [Better Scientific Software](https://sc18.supercomputing.org/presentation/?id=tut154&sess=sess239)
 Monday<br>8:30am-5:00pm |	Tutorial<br>TUT | [Managing HPC Software Complexity with Spack](https://sc18.supercomputing.org/presentation/?id=tut165&sess=sess252)
 Monday<br>9:00am-5:30pm | Workshop<br>W	| [Fifth SC Workshop on Best Practices for HPC Training and Education](https://sc18.supercomputing.org/presentation/?id=wksp133&sess=sess166)
+Monday<br>9:00am-5:30pm | Workshop<br>W	| [2nd International Workshop on Software Correctness for HPC Applications (Correctness 2018)](https://sc18.supercomputing.org/presentation/?id=wksp114&sess=sess150)
 Tuesday<br>12:15pm-1:15pm | BOF<br>TP, EX, EXH	| [Spack Community BOF](https://sc18.supercomputing.org/?post_type=page&p=3479&id=bof173&sess=sess428)
 Wednesday<br>10:30am-12:00pm |	Panel<br>TP	| [Innovative Approaches for Developing Accessible, Productive, Scalable HPC Training](https://sc18.supercomputing.org/?post_type=page&p=3479&id=pan113&sess=sess297)
 Wednesday<br>12:15pm-1:15pm | BOF<br>TP, EX, EXH | [Software Engineers: Careers in Research](https://sc18.supercomputing.org/?post_type=page&p=3479&id=bof144&sess=sess411)
