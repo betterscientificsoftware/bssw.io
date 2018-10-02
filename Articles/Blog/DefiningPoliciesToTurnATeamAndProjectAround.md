@@ -95,7 +95,7 @@ Take a look at the PDF version of [our poster] (https://cfwebprod.sandia.gov/cfd
 
 ### Author Bio
 
-Jason M. Gates is a Research Software Engineer in the Software Engineering and Research department of Sandia National Laboratories, where his role is to help scientific R&D codes and teams to transition toward becoming high-quality production-stable software engineering efforts.  To that end, he leads a team that offers introductory and intermediate git courses to Sandians throughout the year.  He has a background in engineering physics, simulating magnetically confined high-termperature plasmas, and applied mathematics, focussing on numerical methods and scientific computing, but his passions are teaching and helping people do the work they do in more usable, maintainble, and extensible ways.
+Jason M. Gates is a Research Software Engineer in the Software Engineering and Research department of Sandia National Laboratories, where his role is to help scientific R&D codes and teams to transition toward becoming high-quality production-stable software engineering efforts.  To that end, he leads a team that offers introductory and intermediate git courses to Sandians throughout the year.  He has a background in engineering physics, simulating magnetically confined high-temperature plasmas, and applied mathematics, focussing on numerical methods and scientific computing, but his passions are teaching and helping people do the work they do in more usable, maintainble, and extensible ways.
 
 
 
