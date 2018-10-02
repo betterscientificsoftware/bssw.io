@@ -50,6 +50,8 @@ Discussions of code style are rarely productive, particularly in the realm of C+
 
 With regard to testing, we had a particular problem we were trying to solve where changes to an underlying library would wind up breaking our testing.  We settled on utilizing [Jenkins Pipelines] (https://jenkins.io/doc/book/pipeline/), which allow us to fire off a number of jobs on all the machines and with all the configurations we care about, in order to test the underlying library and then aggregate those results.  If all is well, we can fire off a second stage of jobs to test our codes on top of the library update and then aggregate those results.  If all is well, we wind up updating our fork of the library.  In the process, we developed a library for driving this pipeline framework, which then allowed us to stand up a secondary pipeline to handle automatic merges from "develop" to "master."  When either of these pipelines succeeds, it  updates a wiki page that contains an ever-expanding table of all the SHA1s in all of our repositories that are known to work together.  Additionally, automated emails are sent out at the completion of either pipeline, with results summaries and links to job console output if something goes wrong and developers need to debug.
 
+<br>
+
 [Poster presented at the [Third Conference of Research Software Engineers](https://rse.ac.uk/conf2018), Sept. 2018]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_DefiningPoliciesPoster_2000_1198.png' class='page lightbox' />
 
 ### What Did All That Buy Us?
@@ -89,8 +91,7 @@ Another interesting realization was that while we had high initial commitment to
 While it may be tempting to walk away thinking, "Okay, I need to get set up with GitLab and Jenkins and Doxygen and&hellip;," keep in mind that those were just the implementation details we settled on and how we implemented them has developed over time.  The important thing&mdash;the big takeaway here&mdash;is that you actually sit down and **define your policies** and then **get your team to commit to them.**  If you're in a place where everything looks like a mess and you're wondering what to do, feel free to start small and let your policies grow over time.  What is your greatest need, your biggest pain point, today?  Start there, and just see how things go.
 
 
-
-[A PDF version of our poster describing this process can be found here. ](https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/DefiningPoliciesToTurnATeamAndProjectAround.pdf "What is Good Documentation?")
+Take a look at the PDF version of [our poster] (https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/DefiningPoliciesToTurnATeamAndProjectAround.pdf "Defining Policies Poster") describing this process.
 
 ### Author Bio
 
