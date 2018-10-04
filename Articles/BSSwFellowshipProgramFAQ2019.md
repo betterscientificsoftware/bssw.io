@@ -6,7 +6,7 @@ This page addresses frequently asked questions (FAQs) about the 2019 BSSw Fellow
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to the BSSw mailing list to be notified about fellowship details.
 
-### FAQ updated September 23, 2018
+### FAQ updated October 4, 2018
 
 ### Q&A Webinar:
 A Q&A webinar for the 2019 BSSw Fellowship Program took place on Friday, September 21, 2018. 
@@ -34,6 +34,12 @@ Yes, please see the [BSSw Fellowship webpage](https://bssw.io/fellowship) for de
                 - What would you do as a BSSw Fellow? (1000 - 1500 characters).
         
                 - What impact do you foresee from your efforts? (1000 - 1500 characters).
+
+### What is the difference between the two Experience questions on the applicaton form?
+
+The first (*Describe your work relevant to scientific software*) is asking about your background in scientific software products, and what "hands-on" experience you have had that would make you a credible expert in some aspect of scientific software.
+
+The second (*Describe your background and experience relevant to being a BSSw Fellow*) is asking about evidence that you could be an effective advocate for better scientific software, reaching out to others to convey what you know as an expert.
 
 ### What is the amount of funding for 2019 BSSw Fellows?
 
