@@ -4,7 +4,7 @@
 
 #### Publication date: October TBD, 2018
 
-When trying to decide what software engineering best practices to apply to your scientific software project, the key task is to **define your policies**, whatever they may be, and **get your team to commit to them**, realizing that you can refine implementation details as you go along.
+When trying to decide what software engineering best practices to apply to your scientific software project, the key task is to define your policies, whatever they may be, and get your team to commit to them, realizing that you can refine implementation details as you go along.
 
 ### EMPIRE's Story
 
@@ -91,7 +91,7 @@ Another interesting realization was that while we had high initial commitment to
 While it may be tempting to walk away thinking, "Okay, I need to get set up with GitLab and Jenkins and Doxygen and&hellip;," keep in mind that those were just the implementation details we settled on and how we implemented them has developed over time.  The important thing&mdash;the big takeaway here&mdash;is that you actually sit down and **define your policies** and then **get your team to commit to them.**  If you're in a place where everything looks like a mess and you're wondering what to do, feel free to start small and let your policies grow over time.  What is your greatest need, your biggest pain point, today?  Start there, and just see how things go.
 
 
-Take a look at the PDF version of [our poster] (https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/DefiningPoliciesToTurnATeamAndProjectAround.pdf "Defining Policies Poster") describing this process.
+Take a look at the PDF version of [our poster] (https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/DefiningPoliciesToTurnATeamAndProjectAround.pdf "Defining Policies Poster") presented at the [Third Conference of Research Software Engineers](https://rse.ac.uk/conf2018), Sept. 2018.
 
 ### Author Bio
 
