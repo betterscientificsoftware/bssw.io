@@ -138,7 +138,7 @@ This can be incorporated into the project by defining an include file, such at '
 
 
 <!---
-Publish: No
+Publish: preview
 Categories: reliability
 Topics: testing, reliability
 Tags: bssw-article
