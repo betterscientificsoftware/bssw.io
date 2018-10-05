@@ -52,7 +52,7 @@ With regard to testing, we had a particular problem we were trying to solve wher
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_DefiningPoliciesPoster_2000_1198.png' class='page lightbox' />[Poster presented at the Third Conference of Research Software Engineers, September 2018]
+ [Poster presented at the [Third Conference of Research Software Engineers](https://rse.ac.uk/conf2018), Sept. 2018]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_DefiningPoliciesPoster_2000_1198.png' class='page lightbox' />
 
 ### What Did All That Buy Us?
 
