@@ -19,17 +19,20 @@ Quick-start Guides:
  - [HPC Python Testing and Debugging Tutorial 2018](https://github.com/wscullin/ecp_python_tutorial/blob/master/slides/debugging_slides.pdf) ECP Annual Meeting 2018. Matt Belhorn (OLCF), William Scullin (ALCF), Rollin Thomas (NERSC) 
  - [Analyzing Python Performance with Intel VTune](https://www.alcf.anl.gov/files/Tullos-Analyzing_Python_Performance.pdf) 2017 Intel presentation.
  - [Using and Scaling Python](https://www.alcf.anl.gov/files/Scullin-Pavlyk%20_SDL2018_Python.pdf) ALCF Simulation, Data, and Learning Workshop 2018. William Scullin (ALCF) and Oleksandr Pavlyk (Intel)
- - [Python in HPC Webinar 2017 (See Webinar No. 8)](https://ideas-productivity.org/events/hpc-best-practices-webinars) 
+ - [Python in HPC Webinar 2017](https://www.exascaleproject.org/event/python-in-hpc-2) 
  - [Jupyter and HPC Webinar](https://www.exascaleproject.org/event/jupyter) Current State and Future Roadmap 2018
 
 ### Tips on Python for Scientific Computing
- - [Interrogating NumPy Configuration/Compiler Options](tutorials/interrogating_numpy.md)
- - [Links for moving from Matlab to NumPy](tutorials/matlab-numpy-conversion.md)
+ - [Interrogating NumPy Configuration/Compiler Options](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/interrogating_numpy.md)
+ - [Links for moving from Matlab to NumPy](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/matlab-numpy-conversion.md)
  
 ### Python resources for computational scientists
  - [XSD Python Training Home: Python lecture/video series for Scientists](https://confluence.aps.anl.gov/display/XSDPT/XSD+Python+Training+Home) (From Argonne APS) Recommended as an introductory course for scientists.
  - [SciPy Lectures](http://www.scipy-lectures.org/) A community-based series of tutorials.
- - [On-demand learning for Python - using a Transmedia Learning Framework](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
+ - On-demand learning for Python - using a Transmedia Learning Framework [Webinar](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018) [Python TLF](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
+
+### Scientific Notebooks
+ - [Jupyter Notebooks](http://jupyter.org/) The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
 
  
 ### Scientific Libraries
@@ -54,10 +57,24 @@ Quick-start Guides:
 #### I/O:
  - [h5py](https://www.h5py.org/) The h5py package is a Pythonic interface to the HDF5 binary data format.
 
- 
-### Python on Accelerators
 
- - [Numba](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code (Mark hotspot functions with decorators and they are compiled.). Numba supports Intel and AMD x86, POWER8/9, and ARM CPUs, NVIDIA and AMD GPUs. Relies on decorators to identify code sections to accelerate. Requires LLVM. Works with the standard CPython.  [Accelerating Python with the Numba (Video)](https://www.youtube.com/watch?v=eYIPEDnp5C4)
+### Speeding up Python
+ - [Cython](http://cython.org/) Create C code from modified Python. Enables performance and threading [Beginners video](https://www.youtube.com/watch?v=NfnMJMkhDoQ&list=PLhsR3m5MO5X6T4Bs_9h1azJoQ9srQmQAC)
+ - [PyPy](https://pypy.org/) Implementation of the Python language that JIT compiles for performance. No code changes required.
+ - [Numba](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code. Numba supports Intel and AMD x86, POWER8/9, and ARM CPUs, NVIDIA and AMD GPUs. Relies on decorators to identify code sections to accelerate. Requires LLVM for compiler, but works with the standard CPython.  [Accelerating Python with Numba (Video)](https://www.youtube.com/watch?v=eYIPEDnp5C4) 
+ - Note: A growing alternative to speeding up Python is the compiled language [Julia](https://julialang.org/)
+
+#### Or to create your own Python bindings to compiled code:
+ - [SWIG](http://www.swig.org/) – Generate bindings to C/C++. Works with Python and other high level languages.
+ - [F2PY](https://docs.scipy.org/doc/numpy-1.15.0/f2py/index.html) – Create Python interfaces to Fortran (part of NumPy).
+ - [PyBind11](https://pybind11.readthedocs.io/en/master/) – “seamless operability between C++11 and Python”
+ - [Boost.Python](https://www.boost.org/doc/libs/1_68_0/libs/python/doc/html/index.html) – “seamless operability between C++ and Python”
+ - [ctypes](https://docs.python.org/3/library/ctypes.html) – built-in Python FFI for interfacing C
+ 
+ - Recommended reading: [Python modules in C](http://dan.iel.fm/posts/python-c-extensions)
+
+### Python on Accelerators
+ - [Numba](https://numba.pydata.org/) supports GPUS (see desciprtion above). 
  - [PyCUDA](https://documen.tician.de/pycuda/tutorial.html)
    PyCUDA lets you access Nvidia's CUDA parallel computation API from Python.
  - [PyOpenCL](https://documen.tician.de/pyopencl/index.html)
@@ -77,6 +94,14 @@ Quick-start Guides:
  - PyHPC Workshop 2018 (In conjunction with SC18) [Announcements](https://twitter.com/pythonhpc?lang=en) [Register](https://www.dlr.de/sc/desktopdefault.aspx/tabid-12954/22625_read-52397/)
  
 Find more software engineering materials for computational scientists at the [Better Scientific Software](https://bssw.io/) website.
+
+
+### Alternatives to Python
+ - [Julia](https://julialang.org/) A scripting like language that compiles to efficient native code for multiple platforms via LLVM.
+
+### Feedback
+
+Any feedback, corrections and suggested additions are welcome: shudson@anl.gov
 
 <!---
 Publish: yes
