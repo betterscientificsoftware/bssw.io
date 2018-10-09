@@ -75,7 +75,7 @@ You don't want to switch up your policies every week or so&mdash;in that case th
 
 Along with the ability to evaluate your current practices and see how they could be improved, it's important to ask yourselves if you're not doing something yet that you should perhaps start.  Here are a few items on our to-do list.
 
-*  *Improve automated testing:*  We will probably always want to be in a place where we're improving our automated testing to improve stability and ease debugging when something goes wrong. Specifically, in the near-future we'll be looking into the automated testing of merge request branches before they get merged in.  While our policy has been for MR reviewers to build and test these branches, this has become significantly more difficult as the ways our codes our built and integrated have become more complicated.  It would be nice to automate the process and take it out of the hands of developers and reviewers.
+*  *Improve automated testing:*  We will probably always want to be in a place where we're improving our automated testing to improve stability and ease debugging when something goes wrong. Specifically, in the near-future we'll be looking into the automated testing of merge request branches before they get merged in.  While our policy has been for MR reviewers to build and test these branches, this has become significantly more difficult as the ways our codes are built and integrated have become more complicated.  It would be nice to automate the process and take it out of the hands of developers and reviewers.
 *  *Team room hackathons:*  We've tried these a few times and decided they need to be a more regular part of our team rhythm.  The general idea is to get everyone on the team in one room together in front of computers and working on some collaborative effort, for example, refactoring the way we do input deck parsing.  This has aided significantly in knowledge transfer throughout the team.
 *  *Onboarding checklist:*  Our team has grown on the order of 50% over the past year; and while we had plenty of team policy documentation spread throughout our wikis, there wasn't a single digital point of contact for introducing new members to the team.  Additionally, even those who were around when these decisions were made a year ago often have forgotten where we documented various decisions, and it will be useful to have a single page where you start that will quickly point you to the information you need.
 *  *More official Scrum adoption:*  While issue tracking has been great for us, we've found we could benefit from better defined (or perhaps just better enforced) rules of engagement and more formalized communication and documentation of work done and decisions made.
@@ -86,7 +86,7 @@ Is there anything that stands out after our year and a half or so of experience?
 
 *  First, you need a project lead who is open to experimenting with new ideas in terms of how you do things as a team.  
 
-*  Second, you need individuals on the team who are passionate about improving the software engineering** side of research who can feed such ideas to the project lead and push things in the right direction. 
+*  Second, you need individuals on the team who are passionate about improving the software engineering side of research who can feed such ideas to the project lead and push things in the right direction. 
 
 *  Third, and somewhat implicit in the preceding two statements, you actually need a team&mdash;not a collection of individuals who don't act as a team.  
 
@@ -103,7 +103,7 @@ Take a look at the PDF version of [our poster] (https://cfwebprod.sandia.gov/cfd
 
 ### Author Bio
 
-Jason M. Gates is a Research Software Engineer in the Software Engineering and Research department of Sandia National Laboratories, where his role is to help scientific R&D codes and teams to transition toward becoming high-quality production-stable software engineering efforts.  To that end, he leads a team that offers introductory and intermediate git courses to Sandians throughout the year.  He has a background in engineering physics, simulating magnetically confined high-temperature plasmas, and applied mathematics, focussing on numerical methods and scientific computing, but his passions are teaching and helping people do the work they do in more usable, maintainble, and extensible ways.
+Jason M. Gates is a Research Software Engineer in the Software Engineering and Research department of Sandia National Laboratories, where his role is to help scientific R&D codes and teams to transition toward becoming high-quality production-stable software engineering efforts.  To that end, he leads a team that offers introductory and intermediate git courses to Sandians throughout the year.  He has a background in engineering physics, simulating magnetically confined high-temperature plasmas, and applied mathematics, focusing on numerical methods and scientific computing, but his passions are teaching and helping people do the work they do in more usable, maintainble, and extensible ways.
 
 
 
