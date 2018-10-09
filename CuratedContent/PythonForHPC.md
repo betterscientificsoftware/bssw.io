@@ -31,6 +31,8 @@ Quick-start Guides:
  - [SciPy Lectures](http://www.scipy-lectures.org/) A community-based series of tutorials.
  - On-demand learning for Python - using a Transmedia Learning Framework [Webinar](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018) [Python TLF](https://bssw.io/resources/transmedia-learning-frameworks-tlf)
 
+### Scientific Notebooks
+ - [Jupyter Notebooks](http://jupyter.org/) The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. [Beginner's Video](https://www.youtube.com/watch?v=HW29067qVWk&t=1009s)
 
  
 ### Scientific Libraries
@@ -62,7 +64,15 @@ Quick-start Guides:
  - [Numba](https://numba.pydata.org/) Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code. Numba supports Intel and AMD x86, POWER8/9, and ARM CPUs, NVIDIA and AMD GPUs. Relies on decorators to identify code sections to accelerate. Requires LLVM for compiler, but works with the standard CPython.  [Accelerating Python with Numba (Video)](https://www.youtube.com/watch?v=eYIPEDnp5C4) 
  - Note: A growing alternative to speeding up Python is the compiled language [Julia](https://julialang.org/)
 
+#### Or to create your own Python bindings to compiled code:
+ - [SWIG](http://www.swig.org/) – Generate bindings to C/C++. Works with Python and other high level languages.
+ - [F2PY](https://docs.scipy.org/doc/numpy-1.15.0/f2py/index.html) – Create Python interfaces to Fortran (part of NumPy).
+ - [PyBind11](https://pybind11.readthedocs.io/en/master/) – “seamless operability between C++11 and Python”
+ - [Boost.Python](https://www.boost.org/doc/libs/1_68_0/libs/python/doc/html/index.html) – “seamless operability between C++ and Python”
+ - [ctypes](https://docs.python.org/3/library/ctypes.html) – built-in Python FFI for interfacing C
  
+ - Recommended reading: [Python modules in C](http://dan.iel.fm/posts/python-c-extensions)
+
 ### Python on Accelerators
  - [Numba](https://numba.pydata.org/) supports GPUS (see desciprtion above). 
  - [PyCUDA](https://documen.tician.de/pycuda/tutorial.html)
