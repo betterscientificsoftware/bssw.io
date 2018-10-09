@@ -2,7 +2,7 @@
 
 #### Contributed by [Jason M. Gates](https://github.com/jmgate "Jason M. Gates GitHub Profile")
 
-#### Publication date: October TBD, 2018
+#### Publication date: October 10, 2018
 
 When trying to decide what software engineering best practices to apply to your scientific software project, the key task is to define your policies, whatever they may be, and get your team to commit to them, realizing that you can refine implementation details as you go along.
 
@@ -82,7 +82,15 @@ Along with the ability to evaluate your current practices and see how they could
 
 ### Observations
 
-Is there anything that stands out after our year and a half or so of experience?  Indeed.  To have success along the lines we've had, a few key components are necessary.  First, you need a **project lead who is open to experimenting with new ideas** in terms of how you do things as a team.  Second, you need individuals on the team who are **passionate about improving the software engineering** side of research who can feed such ideas to the project lead and push things in the right direction. Third, and somewhat implicit in the preceding two statements,  you actually need a **team**&mdash;not a collection of individuals who don't act as a team.  If you're missing any of these three pieces, initiating and maintaining forward momentum will be difficult.
+Is there anything that stands out after our year and a half or so of experience?  Indeed.  To have success along the lines we've had, a few key components are necessary.  
+
+*  First, you need a project lead who is open to experimenting with new ideas in terms of how you do things as a team.  
+
+*  Second, you need individuals on the team who are passionate about improving the software engineering** side of research who can feed such ideas to the project lead and push things in the right direction. 
+
+*  Third, and somewhat implicit in the preceding two statements, you actually need a team&mdash;not a collection of individuals who don't act as a team.  
+
+If you're missing any of these three pieces, initiating and maintaining forward momentum will be difficult.
 
 Another interesting realization was that while we had high initial commitment to certain policies&mdash;e.g., GitLab usage, Doxygen, etc.&mdash;our enthusiasm in those areas had waned somewhat and we weren't as diligent at following the policies we'd laid out.  That wasn't entirely a bad thing&mdash;for instance, we wound up revamping our issue and MR templates to better fit how we work as a team&mdash;but it does mean we need a periodic reevaluation of and recommitment to our team policies.
 
@@ -101,7 +109,7 @@ Jason M. Gates is a Research Software Engineer in the Software Engineering and R
 
 <!---
 Publish: Preview
-RSS-update: 2018-10-XX
+RSS-update: 2018-10-10
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: bssw-blog-article
