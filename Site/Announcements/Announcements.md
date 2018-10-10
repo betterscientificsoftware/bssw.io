@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Defining Policies to Turn a Team and Project Around](../../Articles/Blog/DefiningPoliciesToTurnATeamAndProjectAround.md)
+- Display dates: 10/09/2018 - 10/30/2018
+
+<!---
 - [New blog article ... Adopting Continuous Integration For Long Timescale Materials Simulation](../../Articles/Blog/AdoptingCIforEXAALT.md)
 - Display dates: 09/24/2018 - 10/12/2018
 
-<!---
 - [FAQ for BSSw Fellowship Program now includes slides and recording from recent Q&A webinar](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
 - Display dates: 09/22/2018 - 09/25/2018
 
