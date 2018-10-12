@@ -17,7 +17,7 @@ We needed to add unit tests to our project -- [QMCPACK] (https://github.com/QMCP
 We evaluated two existing frameworks, Google Test and Catch, to see what issues arise and how they are addressed.
 We decided to use Catch. 
 
-The main advantages of Catch for our project are twofole:
+The main advantages of Catch for our project are twofold:
 
  - It is a single include file (about 400 KB), making it easy to integrate into the project source tree.
  - Tests use simple assertion macros with C++ comparison operators.
