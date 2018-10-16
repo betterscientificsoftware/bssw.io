@@ -1,6 +1,6 @@
 # Code Review Survey
 
-- Date: October 17, 2018 - October 31, 2018
+- Date: October 1, 2018 - December 31, 2018
 - Location: Global
 - Event Website: https://universityofalabama.az1.qualtrics.com/jfe/form/SV_bBdeMr08ix8YbXL
 
@@ -23,7 +23,7 @@ https://universityofalabama.az1.qualtrics.com/jfe/form/SV_bBdeMr08ix8YbXL
 
 <!---
 Publish: yes
-RSS update: 2018-10-17
+RSS update: 2018-10-16
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: survey
