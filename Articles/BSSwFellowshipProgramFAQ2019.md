@@ -78,6 +78,10 @@ Needs span throughout diverse areas of scientific software, including topics lis
 
 While any idea may be submitted, we cannot guarantee that this kind of idea would be competitive.  The BSSw Fellowship Program focuses on fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  The application includes the proposal of a funded activity that promotes better scientific software.  While candidates often are developing software as part of their broader scope of work, the BSSw Fellowship Program is not intended to support ongoing software development. 
 
+### I recently began a new research project.  Should I write a Fellowship proposal based on what I hope to achieve in a year's time frame?  Or would it be better to base it on research that is more or less completed?
+
+The BSSw Fellowship program is not about supporting new research, but rather about fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. This may be connected to research that is in progress, but not in a way that puts the Fellowship activities at risk if problems arise in the research.
+
 ### The topic I want to pursue has been the subject of a recent BSSw Fellowship project by someone else. Should I apply?
  
 The BSSw Fellowship program seeks to grow a broad community to help tackle many challenges in scientific software productivity and sustainability.  In that spirit, we expect that applications that enhance topical diversity will be more competitive. For topics covered by recent BSSw Fellowships, we encourage applications to consider different approaches to the challenges.
