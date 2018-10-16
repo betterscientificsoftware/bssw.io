@@ -30,6 +30,7 @@ Beyond this categorical requirement, we are looking for applications from people
 
 - **Tuesday, Sept 4, 2018**: Fellowship application process opens.
 - **Friday, Sept 21, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details.
+  - If you missed the webinar, please see the [FAQ page](https://bssw.io/resources/bssw-fellowship-program-faq-2019) for links to a recording, as well as the questions that have been raised (with answers, of course!)
 - **Tuesday, Oct 16, 2018**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **Jan 8, 2019 - March 31, 2020**: Period of performance for 2019 BSSw Fellows.
 - **Jan 15-17, 2019**: Fellows announced at DOE ECP Annual Meeting in Houston, TX.
