@@ -1,4 +1,4 @@
-# Connecting Software Developers at Oak Ridge National Laboratory
+# Connecting Software Developers at National Laboratories
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_ORNLSoftwareExpo_Tutorial.jpg' />
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_ORNLSoftwareExpo_Poster.jpg' />
@@ -41,6 +41,8 @@ Overall, the ORNL Software Expo 2018 was a well attended and worthwhile event.
 It managed to bring together a diverse group of scientific software developers, software engineers, and domain scientists in a forum that encouraged discussion and collaboration.
 A wide variety of tutorials also allowed less experienced participants to enhance their skills across a broad range of topics.
 This type of event provides an excellent means of enhancing communication across the laboratory, and I'm looking forward to participating again next year!
+
+*More details about the ORNL Software Expo can be found on the [expo web site](https://software.ornl.gov/expo/).*
 
 ## LLNL Developer Day
 
