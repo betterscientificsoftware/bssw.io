@@ -26,13 +26,11 @@ This type of event provides an excellent means of enhancing communication across
 
 ## LLNL Developer Day
 
-At Lawrence Livermore National Laboratory, Kyle Dickerson spearheaded the Developer Day initiative to bring software developers together. Begun in 2017, Developer Day was designed to reduce the duplication of effort between teams across the Laboratory working on similar projects. 
+At Lawrence Livermore National Laboratory, Kyle Dickerson spearheaded the Developer Day initiative to bring software developers together. Begun in 2017, Developer Day was designed to reduce the duplication of effort between teams across the Laboratory working on similar projects.  
 
-This year’s Developer Day was held in August 2018. The morning featured a series of “lightning talks” -- three-minute overviews of projects from around the Lab -- and panel sessions, while the afternoon provided deeper insight into particular topics through a series of four "Deep Dive" sessions.
+This year’s Developer Day was held in August 2018. The morning featured a series of “lightning talks” -- three-minute overviews of projects from around the Lab -- and panel sessions, while the afternoon provided deeper insight into particular topics through a series of four "Deep Dive" sessions.  
 
-“In both cases we hope to enable software developers at the Laboratory discover new methods and share solutions that will improve their day-to-day work,” said Dickerson.
-
-Developer Day also seeks to familiarize early-career staff and interns with the computational resources, strategies, and opportunities available at Lawrence Livermore. 
+Developer Day aims to enable software developers at the Laboratory discover new methods and share solutions that will improve their day-to-day work.  Developer Day also seeks to familiarize early-career staff and interns with the computational resources, strategies, and opportunities available at Lawrence Livermore. 
 
 "The success of Developer Day is measured by the connections that the participants make to each other," said Elsa Gonsiorowski, one of the organizers of this year's event.
 
