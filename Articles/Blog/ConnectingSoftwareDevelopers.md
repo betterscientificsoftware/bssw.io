@@ -4,7 +4,7 @@
 
 #### Publication date: October 29, 2018
 
-Building connections and community among developers of high-performance software is important at many levels.  Two DOE labs have started events that enable sharing of experiences and insights *within* and institution.
+Building connections and community among developers of high-performance software is important at many levels.  Two DOE labs have started events that enable sharing of experiences and insights *within* an institution.
 
 Many of us assume that once we have written a new piece of software, presented it at conferences, published in peer-reviewed journals, and made the code open source, people will use it. All too often, however, the truth is the opposite. The software doesn’t get used -- or, worse, someone spends precious time reinventing the idea. 
 
