@@ -4,6 +4,8 @@
 
 #### Publication date: October 29, 2018
 
+Building connections and community among developers of high-performance software is important at many levels.  Two DOE labs have started events that enable sharing of experiences and insights *within* and institution.
+
 Many of us assume that once we have written a new piece of software, presented it at conferences, published in peer-reviewed journals, and made the code open source, people will use it. All too often, however, the truth is the opposite. The software doesn’t get used -- or, worse, someone spends precious time reinventing the idea. 
 
 Ironically, this problem arises even within a single institution. Anyone who has spent time in a large organization can attest to the fact that finding out what other teams are working on can be difficult. For projects involving software development, this situation can often mean a missed opportunity, particularly when a project is in its startup phase and could benefit from existing expertise, code, or algorithms developed by other teams. This problem can be exacerbated by the security-conscious environments at the national laboratories. 
