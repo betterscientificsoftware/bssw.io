@@ -47,6 +47,20 @@ We see this message as an encouragement to other institutions to consider planni
 More details about these two events can be found on the [ORNL Software Expo web site](https://software.ornl.gov/expo/) and in
 the original [LLNL Developer Day press release](https://computation.llnl.gov/newsroom/second-annual-developer-day-continues-build-success).
 
+### Author Bios
+
+<!--- Guidance for blog author bios:
+•	Length: 50-100 words.
+•	Can include hyperlinks.
+•	Mention your current position, employer, a bit about your background.
+•	Include info about your interests related to software productivity and sustainability.
+•	Anything else you want to mention.
+--->
+
+Author 1 bio goes here as a paragraph.
+
+Author 2 bio goes here as a paragraph.
+
 <!---
 Publish: preview
 RSS update: 2018-10-29
