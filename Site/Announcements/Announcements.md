@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Building Connections and Community within An Institution](../../Articles/Blog/ConnectingSoftwareDevelopers.md)
+- [New blog article ... Building Connections and Community within an Institution](../../Articles/Blog/ConnectingSoftwareDevelopers.md)
 - Display dates: 10/25/2018 - 11/09/2018
 
 <!---
