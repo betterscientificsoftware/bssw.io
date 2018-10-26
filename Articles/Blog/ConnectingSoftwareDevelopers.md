@@ -63,7 +63,7 @@ the original [LLNL Developer Day press release](https://computation.llnl.gov/new
 Publish: yes
 RSS update: 2018-10-26
 Categories: collaboration
-Topics: communication
+Topics: projects and organizations, strategies for more effective teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
