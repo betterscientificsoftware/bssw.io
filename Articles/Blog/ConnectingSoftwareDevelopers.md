@@ -1,10 +1,10 @@
 # Building Connections and Community within an Institution
 
-#### Contributed by [Gregory R. Watson] (https://github.com/jarrah42 "GitHub Profile") and [Elsa Gonsiorowski] (https://github.com/gonsie "GitHub Profile")
+#### Contributed by [Greg Watson] (https://github.com/jarrah42 "GitHub Profile") and [Elsa Gonsiorowski] (https://github.com/gonsie "GitHub Profile")
 
 #### Publication date: October 29, 2018
 
-Building connections and community among developers of high-performance software is important at many levels.  Two DOE labs have started events that enable sharing of experiences and insights *within* an institution.
+Building connections and community among developers of scientific software is important at many levels.  Two DOE labs have started events that enable sharing of experiences and insights *within* an institution.
 
 Many of us assume that once we have written a new piece of software, presented it at conferences, published in peer-reviewed journals, and made the code open source, people will use it. All too often, however, the truth is the opposite. The software doesn’t get used -- or, worse, someone spends precious time reinventing the idea. 
 
@@ -14,13 +14,9 @@ Two DOE labs, Oak Ridge and Lawrence Livermore, have started events to help soft
 
 ### ORNL Software Expo
 
-Oak Ridge National Laboratory is using Software Expos as one way to overcome some of the communication barriers within the institution. The initiative -- started in 2014 by Jay Jay Billings, leader of the Scientific Software Development team -- provides a venue where researchers can share experiences and discuss their projects.
+Oak Ridge National Laboratory is using Software Expos as one way to overcome some of the communication barriers within the institution. The initiative -- started in 2014 by Jay Jay Billings, leader of the Research Software Engineering group -- provides a venue where researchers can share experiences and discuss their projects.
 
-The most recent of these expos, held in May 2018, featured three days of tutorials, hackathons, poster sessions, keynote addresses, and Birds of a Feather sessions.
-
-“If this all sounds like a typical international computing conference, you are both right and wrong,” Billings said. “Arguably, it covered many of the topics you would expect at a conference: new methods and tools, I/O frameworks, workflow platforms, math libraries, and programming models. But our emphasis throughout was building community, not simply showcasing our wares.”
-
-To that end, the Expo brought together a diverse group of scientific software developers, software engineers, and domain scientists from across the Laboratory, in a venue that encouraged discussion of ideas and issues. For example, one panel focused on ways to promote software-related activities and communication within the Laboratory. A wide variety of tutorials also allowed less-experienced participants enhance their skills across a broad range of topics. And a four-hour session on Amazon Web Services provided an opportunity for ORNL researchers to get first-hand experience in leveraging cloud services to increase developer productivity. 
+The most recent of these expos, held in May 2018, featured three days of tutorials, hackathons, poster sessions, a keynote address, and Birds of a Feather sessions. This year's expo brought together a diverse group of scientific software developers, software engineers, and domain scientists from across the Laboratory, in a venue that encouraged discussion of ideas and issues, and allowed participants to showcase their accomplishments. For example, one panel focused on ways to promote software-related activities and communication within the Laboratory, and the poster session allowed attendees to delve more deeply into topics of particular interest. A wide variety of tutorials also allowed less-experienced participants enhance their skills across a broad range of topics. The event wrapped up with a four-hour session on Amazon Web Services to provide ORNL researchers with the opportunity to get first-hand experience in leveraging cloud services to increase developer productivity. 
 
 This type of event provides an excellent means of enhancing communication across the Laboratory. The Expo is small enough to feel personable, yet diverse enough to expose participants to a variety of projects that they may have known little about yet are relevant to their own work.
 
@@ -56,6 +52,8 @@ the original [LLNL Developer Day press release](https://computation.llnl.gov/new
 •	Include info about your interests related to software productivity and sustainability.
 •	Anything else you want to mention.
 --->
+
+<a href="https://csmd.ornl.gov/profile/gregory-watson">Dr. Gregory Watson</a> is a Senior Research Scientist in the Research Software Engineering Group at Oak Ridge National Laboratory. He completed his Ph.D. in Computer Science in 2000 from Monash University. Dr. Watson's research interests include software engineering practices, development environments, programming tools, and modeling and simulation tools for high performance and scientific computing. He is founder of the <a href="https://eclipse.org/ptp">Eclipse Parallel Tools Platform</a>, and project leader of the <a href="https://science.eclipse.org">Eclipse Science Top Level Project</a>.
 
 Elsa Gonsiorowski is an HPC I/O Specialist working at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
 
