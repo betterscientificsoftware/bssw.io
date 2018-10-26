@@ -12,7 +12,7 @@ Ironically, this problem arises even within a single institution. Anyone who has
 
 Two DOE labs, Oak Ridge and Lawrence Livermore, have started events to help software developers overcome these difficulties and meet others working on high-performance software projects.
 
-## ORNL Software Expo
+### ORNL Software Expo
 
 Oak Ridge National Laboratory is using Software Expos as one way to overcome some of the communication barriers within the institution. The initiative -- started in 2014 by Jay Jay Billings, leader of the Scientific Software Development team -- provides a venue where researchers can share experiences and discuss their projects.
 
@@ -26,7 +26,7 @@ This type of event provides an excellent means of enhancing communication across
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_ORNLSoftwareExpo_Poster.jpg' class='page' />[Poster session at ORNL Software Expo.] 
 
-## LLNL Developer Day
+### LLNL Developer Day
 
 At Lawrence Livermore National Laboratory, Kyle Dickerson spearheaded the Developer Day initiative to bring software developers together. Begun in 2017, Developer Day was designed to reduce the duplication of effort between teams across the Laboratory working on similar projects.  
 
@@ -36,7 +36,7 @@ Developer Day aims to enable software developers at the Laboratory discover new 
 
 "The success of Developer Day is measured by the connections that the participants make to each other," said Elsa Gonsiorowski, one of the organizers of this year's event.
 
-## Bridging the Great Divide
+### Bridging the Great Divide
 
 The examples from these two national laboratories provide a common message: 
 
@@ -57,9 +57,7 @@ the original [LLNL Developer Day press release](https://computation.llnl.gov/new
 •	Anything else you want to mention.
 --->
 
-Author 1 bio goes here as a paragraph.
-
-Author 2 bio goes here as a paragraph.
+Elsa Gonsiorowski is an HPC I/O Specialist working at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
 
 <!---
 Publish: preview
