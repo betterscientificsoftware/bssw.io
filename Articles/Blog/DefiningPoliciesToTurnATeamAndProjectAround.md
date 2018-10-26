@@ -109,7 +109,7 @@ Jason M. Gates is a Research Software Engineer in the Software Engineering and R
 
 <!---
 Publish: yes
-RSS-update: 2018-10-10
+RSS update: 2018-10-10
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: bssw-blog-article
