@@ -40,7 +40,7 @@ Developer Day aims to enable software developers at the Laboratory discover new 
 
 The examples from these two national laboratories provide a common message: 
 
-**Events such as these can break through communication barriers and build community within an institution.**
+**Events that highlight collaborative software projects, like the ORNL Software Expo and LLNL Developer Day, can break through communication barriers and build community within an institution.**
 
 We see this message as an encouragement to other institutions to consider planning similar events and approaches. Software development need not -- indeed should not -- be done in isolation. Sharing ideas and projects can help bridge the gap that may otherwise occur within an institution.
 
