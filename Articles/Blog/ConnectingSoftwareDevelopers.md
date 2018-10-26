@@ -2,7 +2,7 @@
 
 #### Contributed by [Greg Watson](https://github.com/jarrah42 "GitHub Profile") and [Elsa Gonsiorowski](https://github.com/gonsie "GitHub Profile")
 
-#### Publication date: October 29, 2018
+#### Publication date: October 26, 2018
 
 Building connections and community among developers of scientific software is important at many levels.  Two DOE labs have started events that enable sharing of experiences and insights within an institution.
 
@@ -60,8 +60,8 @@ the original [LLNL Developer Day press release](https://computation.llnl.gov/new
 <a href="https://computation.llnl.gov/about/our-people/highlights/elsa-gonsiorowski">Elsa Gonsiorowski</a> is an HPC I/O Specialist working at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
 
 <!---
-Publish: preview
-RSS update: 2018-10-29
+Publish: yes
+RSS update: 2018-10-26
 Categories: collaboration
 Topics: communication
 Tags: bssw-blog-article
