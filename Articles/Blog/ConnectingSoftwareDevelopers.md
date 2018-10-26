@@ -1,6 +1,6 @@
 # Building Connections and Community within an Institution
 
-#### Contributed by [Greg Watson] (https://github.com/jarrah42 "GitHub Profile") and [Elsa Gonsiorowski] (https://github.com/gonsie "GitHub Profile")
+#### Contributed by [Greg Watson](https://github.com/jarrah42 "GitHub Profile") and [Elsa Gonsiorowski](https://github.com/gonsie "GitHub Profile")
 
 #### Publication date: October 29, 2018
 
