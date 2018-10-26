@@ -20,6 +20,8 @@ The most recent of these expos, held in May 2018, featured three days of tutoria
 
 This type of event provides an excellent means of enhancing communication across the Laboratory. The Expo is small enough to feel personable, yet diverse enough to expose participants to a variety of projects that they may have known little about yet are relevant to their own work.
 
+<br>
+
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_ORNLSoftwareExpo_Poster.jpg' class='page' />[Poster session at ORNL Software Expo.] 
 
 ### LLNL Developer Day
