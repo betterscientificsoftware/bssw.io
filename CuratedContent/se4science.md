@@ -12,6 +12,12 @@ tutorial materials on testing, test-driven development (TDD), and code review;
 a list of publications on software engineering for science from Carver's research group and collaborators;
 and a nascent "paper hub", collecting other papers about software engineering for science.
 
+<ul>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item three</li>
+  </ul>
+
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
 <!---
