@@ -9,7 +9,7 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 
 **Description:** The program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration.
 
-*Updated: 2018-10-25*
+*Updated: 2018-10-27*
 
 **If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
@@ -27,7 +27,7 @@ Wednesday<br>12:15pm-1:15pm | BOF<br>TP, EX, EXH | [Software Engineers: Careers 
 Wednesday<br>3:30pm-5:00pm | Panel<br>W, TUT, TP, EX | [Sustaining Research Software](https://sc18.supercomputing.org/presentation/?id=pan110&sess=sess295)
 Wednesday<br>5:15pm-6:45pm |	BOF<br>TP, EX, EXH	| [Software Engineering and Reuse for Computational Science and Engineering](https://sc18.supercomputing.org/presentation/?id=bof171&sess=sess426)
 Thursday<br>12:15pm-1:15pm | BOF<br>TP, EX, EXH | [National Research Infrastructure: Collaborative Session](https://sc18.supercomputing.org/?post_type=page&p=3479&id=bof110&sess=sess371)
-Friday<br>8:30am-12:00pm | Workshop<br>W | [7th Workshop on Extreme-Scale Programming Tools (ESPT)](https://sc18.supercomputing.org/presentation/?id=wksp118&sess=sess153)
+Friday<br>8:30am-9:15am | Workshop Keynote<br>W | Understanding Software Sustainability: Learning from Parsl and Other Projects, in [7th Workshop on Extreme-Scale Programming Tools (ESPT)](https://sc18.supercomputing.org/presentation/?id=wksp118&sess=sess153)
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
