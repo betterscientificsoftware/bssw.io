@@ -13,7 +13,8 @@ Some of the resources included on the site are:
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
 <!---
-Publish: yes
+Publish: preview
+Publication date: 2018-10-27
 Categories: development, reliability, collaboration, skills
 Topics: software engineering, testing, publishing, online learning
 Tags: workshop-series
