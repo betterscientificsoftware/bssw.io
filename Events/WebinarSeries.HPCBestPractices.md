@@ -12,7 +12,7 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Open Source Best Practices: From Continuous Integration to Static Linters
+## Next webinar: Introduction to Software Licensing
 
 ### Date and Time: Wednesday, December 5, 2018, 1:00-2:00 pm ET
 ### Presenters: David E. Bernholdt 
