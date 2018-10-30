@@ -15,7 +15,7 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 ## Next webinar: Introduction to Software Licensing
 
 ### Date and Time: Wednesday, December 5, 2018, 1:00-2:00 pm ET
-### Presenters: David E. Bernholdt 
+### Presenter: David E. Bernholdt 
 ### Description:
 Software licensing and related matters of intellectual property can often seem confusing or hopelessly complicated, especially when many present their opinions as dogma. This presentation takes a different approach: getting you to think about software licensing from the standpoint of what you want others to be able to do (or not do) with your software. We will start by developing a common understanding of the terminology used around software licenses. Then we’ll consider various scenarios of what you might want to accomplish with a software license, and what to look for in the license. We’ll also discuss some pragmatic issues around actually applying a license to your software. A list of resources will be provided to help with further exploration of these topics.
 
