@@ -14,15 +14,16 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 ## Next webinar: Open Source Best Practices: From Continuous Integration to Static Linters
 
-### Date and Time: Wednesday, October 17, 2018, 1:00-2:00 pm ET
-### Presenters: Ben Prichard and Daniel Smith 
+### Date and Time: Wednesday, December 5, 2018, 1:00-2:00 pm ET
+### Presenters: David E. Bernholdt 
 ### Description:
-Ben Prichard and Daniel Smith (members of the NSF-funded Molecular Sciences Software Institute) will discuss resources to support open source software, including services for continous integration, code coverage, and static analysis.  These services are agnostic to software language of HPC software application and should be of interest to anyone interested in tools to help ease the burden of software maintenance.
+Software licensing and related matters of intellectual property can often seem confusing or hopelessly complicated, especially when many present their opinions as dogma. This presentation takes a different approach: getting you to think about software licensing from the standpoint of what you want others to be able to do (or not do) with your software. We will start by developing a common understanding of the terminology used around software licenses. Then we’ll consider various scenarios of what you might want to accomplish with a software license, and what to look for in the license. We’ll also discuss some pragmatic issues around actually applying a license to your software. A list of resources will be provided to help with further exploration of these topics.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar023
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar024
 
 ## Past Webinars
+- [*Open Source Best Practices: From Continuous Integration to Static Linters*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar023), Ben Prichard and Daniel Smith (MolSSI), 2018-10-17
 - [*Modern CMake*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022), Bill Hoffman (Kitware), 2018-09-19
 - [*Software Sustainability -- Lessons Learned from Different Disciplines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar021), Neil Chue Hong (Software Sustainability Institute, University of Edinburgh, UK), 2018-08-21
 - [*How Open Source Software Supports the Largest Computers on the Planet*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar020), Ian Lee (LLNL), 2018-07-18
