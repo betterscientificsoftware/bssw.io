@@ -36,7 +36,7 @@ computational science and engineering software for high-end computers.
 Since 2000, I’ve attended every Supercomputing conference but one. And over
 time, I’ve seen significant growth in the role that *software* plays in the
 conference. Next week, SC18 will convene in Dallas, Texas, and the [roster of
-software-related events] (https://bssw.io/events/sc18-software-related-events) at
+software-related events](https://bssw.io/events/sc18-software-related-events) at
 this year’s conference is extensive. There are workshops on
 reproducibility and correctness, as well as on training and education in HPC –
 particularly important since so little formal training is available in
@@ -84,7 +84,7 @@ has submission deadlines coming up in the November-February time frame
 (depending on the type of event). SIAM conferences are traditionally 
 participatory, with opportunities to organize minisymposia and topical poster
 sessions. You may have noticed previously on the [BSSw
-Events] (https://bssw.io/events) page that events were listed for the Computational
+Events](https://bssw.io/events) page that events were listed for the Computational
 Science and Engineering 2017 (CSE17) and Parallel Processing 2018 (PP18)
 conferences, as well as a call for posters (now closed) for CSE19, coming this
 February. The Platform for Advanced Scientific Computing (PASC) conference
@@ -92,12 +92,12 @@ series also includes the opportunity to organize minisymposia, with submission
 deadlines in the December-January time frame. And many other conferences offer
 opportunities for companion tutorials and workshops. The long-standing [Software
 Engineering for Science
-(SE4Science)] (https://bssw.io/resources/software-engineering-for-science-se4science)
+(SE4Science)](https://bssw.io/resources/software-engineering-for-science-se4science)
 workshop series has been associated with the International Conference on
 Software Engineering for many years, and in the past also with Supercomputing.
 The [International Workshop on Sustainable Software for Science: Practice and
 Experiences (WSSSPE)
-series] (https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe),
+series](https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe),
 for example, has colocated variously with Supercomputing, SciPy, Gateway
 Community Environments, the RSE Conference, and eScience.
 
