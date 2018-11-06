@@ -40,12 +40,12 @@ software-related events](https://bssw.io/events/sc18-software-related-events) at
 this year’s conference is extensive. There are workshops on
 reproducibility and correctness, as well as on training and education in HPC –
 particularly important since so little formal training is available in
-software development practices for computational scientists and engineers. There are keynotes on software sustainability and development practices at two
-other workshops. There is a tutorial on producing better scientific software, and
+software development practices for computational scientists and engineers. There are keynotes on software sustainability and development practices at two other workshops. There is a tutorial on producing better scientific software, and
 a tutorial on Spack, a next-generation package management tool designed with the
 special environment and needs of typical supercomputers in mind. And there’s a
-panel discussion on sustaining research software. There are also a number of
-BOFs related to *software*. BOF stands for Birds of a Feather, and they are really just
+panel discussion on sustaining research software. 
+
+There are also a number of BOFs related to *software*. BOF stands for Birds of a Feather, and they are really just
 opportunities to gather communities of interest for discussions in a format
 defined by the organizers. But when you have 12,000+ people at a conference,
 there's a lot to discuss! This year, there are BOFs for the Spack
@@ -78,32 +78,25 @@ iron on which they were obtained.
 
 But remember, too, that Supercomputing is not the only venue that provides
 significant opportunities for the community to shape the meeting, beyond the
-traditional paper and poster submissions. ISC High Performance, the European
-counterpart to Supercomputing, offers many of the same types of events as SC and
+traditional paper and poster submissions. 
+
+- ISC High Performance, the European counterpart to Supercomputing, offers many of the same types of events as SC and
 has submission deadlines coming up in the November-February time frame
-(depending on the type of event). SIAM conferences are traditionally 
-participatory, with opportunities to organize minisymposia and topical poster
-sessions. You may have noticed previously on the [BSSw
-Events](https://bssw.io/events) page that events were listed for the Computational
+(depending on the type of event). 
+- SIAM conferences are traditionally participatory, with opportunities to organize minisymposia and topical poster
+sessions. 
+- You may have noticed previously on the [BSSw Events](https://bssw.io/events) page that events were listed for the Computational
 Science and Engineering 2017 (CSE17) and Parallel Processing 2018 (PP18)
 conferences, as well as a call for posters (now closed) for CSE19, coming this
-February. The Platform for Advanced Scientific Computing (PASC) conference
-series also includes the opportunity to organize minisymposia, with submission
-deadlines in the December-January time frame. And many other conferences offer
-opportunities for companion tutorials and workshops. The long-standing [Software
-Engineering for Science
-(SE4Science)](https://bssw.io/resources/software-engineering-for-science-se4science)
-workshop series has been associated with the International Conference on
-Software Engineering for many years, and in the past also with Supercomputing.
-The [International Workshop on Sustainable Software for Science: Practice and
-Experiences (WSSSPE)
-series](https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe),
-for example, has colocated variously with Supercomputing, SciPy, Gateway
-Community Environments, the RSE Conference, and eScience.
+February. 
+- The Platform for Advanced Scientific Computing (PASC) conference series also includes the opportunity to organize minisymposia, with submission deadlines in the December-January time frame. And many other conferences offer opportunities for companion tutorials and workshops. 
+- The long-standing [Software Engineering for Science(SE4Science)](https://bssw.io/resources/software-engineering-for-science-se4science)
+workshop series has been associated with the International Conference on Software Engineering for many years, and in the past also with Supercomputing.
+- The [International Workshop on Sustainable Software for Science: Practice and
+Experiences (WSSSPE) series](https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe),
+for example, has colocated variously with Supercomputing, SciPy, Gateway Community Environments, the RSE Conference, and eScience.
 
-Maybe in time, by working together, we can ensure that discussions about
-*software* are a prominent part of all of the technical conferences that we care
-about.
+Maybe in time, by working together, we can ensure that discussions about *software* are a prominent part of all of the technical conferences that we care about.
 
 **See you in Dallas!**
 
