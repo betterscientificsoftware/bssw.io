@@ -41,14 +41,14 @@ this year’s conference is extensive. There are workshops on
 reproducibility and correctness, as well as on training and education in HPC –
 particularly important since so little formal training is available in
 software development practices for computational scientists and engineers. There are keynotes on software sustainability and development practices at two
-other workshops There is a tutorial on producing better scientific software, and
+other workshops. There is a tutorial on producing better scientific software, and
 a tutorial on Spack, a next-generation package management tool designed with the
 special environment and needs of typical supercomputers in mind. And there’s a
 panel discussion on sustaining research software. There are also a number of
 BOFs related to *software*. BOF stands for Birds of a Feather, and they are really just
 opportunities to gather communities of interest for discussions in a format
 defined by the organizers. But when you have 12,000+ people at a conference,
-there's a lot to discuss! This year, there are BOFs on for the Spack
+there's a lot to discuss! This year, there are BOFs for the Spack
 community and the U.S. national research infrastructure for computing. But more
 significant to me is the BOF on "Software Engineering and Reuse for Computational
 Science and Engineering," which will be the fourth installment at Supercomputing,
@@ -62,13 +62,13 @@ Supercomputing community.
 So if you think software development, productivity, and sustainability are
 important issues (and if you’re reading this blog, chances are you do), then I
 encourage you to join us at these events at SC18! Not only is your participation 
-an opportunity for you to find like-minded people to discuss and exchange experiences; it is also a statement to the organizers of Supercomputing that you value events on
+an opportunity for you to find like-minded people for discussion and exchanging experiences; it is also a statement to the organizers of Supercomputing that you value events on
 *software,* which helps pave the way for even more of these events in the future.
 
 And remember, the Supercomputing conference series is
 fundamentally defined by what the community submits – not only papers and
 posters, but also proposals for workshops, tutorials, BOFs, panels, and other
-types of events. It can be competitive, so not every proposal will be accepted.
+types of events. Submissions are competitive, so not every proposal will be accepted.
 But with persistence, we have the opportunity to make SC into even more
 of a software conference than it is already - to *create* a future where we can discuss
 software development experiences on par with the scientific results and the big
