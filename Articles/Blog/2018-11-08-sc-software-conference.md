@@ -80,25 +80,19 @@ But remember, too, that Supercomputing is not the only venue that provides
 significant opportunities for the community to shape the meeting, beyond the
 traditional paper and poster submissions. 
 
-- ISC High Performance, the European counterpart to Supercomputing, offers many of the same types of events as SC and
+- **ISC High Performance**, the European counterpart to Supercomputing, offers many of the same types of events as SC and
 has submission deadlines coming up in the November-February time frame
 (depending on the type of event). 
-- SIAM conferences are traditionally participatory, with opportunities to organize minisymposia and topical poster
+- **SIAM conferences** are traditionally participatory, with opportunities to organize minisymposia and topical poster
 sessions. 
-- You may have noticed previously on the [BSSw Events](https://bssw.io/events) page that events were listed for the Computational
-Science and Engineering 2017 (CSE17) and Parallel Processing 2018 (PP18)
-conferences, as well as a call for posters (now closed) for CSE19, coming this
-February. 
-- The Platform for Advanced Scientific Computing (PASC) conference series also includes the opportunity to organize minisymposia, with submission deadlines in the December-January time frame. And many other conferences offer opportunities for companion tutorials and workshops. 
-- The long-standing [Software Engineering for Science(SE4Science)](https://bssw.io/resources/software-engineering-for-science-se4science)
-workshop series has been associated with the International Conference on Software Engineering for many years, and in the past also with Supercomputing.
-- The [International Workshop on Sustainable Software for Science: Practice and
-Experiences (WSSSPE) series](https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe),
-for example, has colocated variously with Supercomputing, SciPy, Gateway Community Environments, the RSE Conference, and eScience.
+- You may have noticed previously on the [BSSw Events](https://bssw.io/events) page that events were listed for the **Computational Science and Engineering 2017 (CSE17)** and **Parallel Processing 2018 (PP18)** conferences, as well as a call for posters (now closed) for **CSE19**, coming this February. 
+- The **Platform for Advanced Scientific Computing (PASC)** conference series also includes the opportunity to organize minisymposia, with submission deadlines in the December-January time frame. And many other conferences offer opportunities for companion tutorials and workshops. 
+- The long-standing **[Software Engineering for Science(SE4Science)](https://bssw.io/resources/software-engineering-for-science-se4science)** workshop series has been associated with the International Conference on Software Engineering for many years, and in the past also with Supercomputing.
+- The **[International Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE) series](https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe)**, for example, has colocated variously with Supercomputing, SciPy, Gateway Community Environments, the RSE Conference, and eScience.
 
 Maybe in time, by working together, we can ensure that discussions about *software* are a prominent part of all of the technical conferences that we care about.
 
-**See you in Dallas!**
+See you in Dallas!
 
 <!---
 Publish: preview
