@@ -96,7 +96,7 @@ Maybe in time, by working together, we can ensure that discussions about *softwa
 
 See you in Dallas!
 
-#### Author Bio
+### Author Bio
 
 David Bernholdt is a Distinguished R&D Staff Member and Group Leader at Oak Ridge National Laboratory (ORNL). He has leadership roles in multiple projects in the DOE Exascale Computing Project (ECP) and the Scientific Discovery through Advanced Computing (SciDAC) program. He also leads the Programming Environment and Tools area of the Oak Ridge Leadership Computing Facility (OLCF). His research interests center on making it easier and more productive to create and use computational science and engineering software on the largest high-performance computer systems.
 
