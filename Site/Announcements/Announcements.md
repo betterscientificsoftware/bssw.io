@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... SC18: Does That Stand for "Software Conference"?](../../Articles/Blog/2018-11-08-sc-software-conference.md)
+- [New blog article ... SC18: Does That Stand for "Software Conference"?](../../Articles/Blog/SCSoftwareConference.md)
 - Display dates: 11/08/2018 - 11/27/2018
 
 <!---
@@ -13,7 +13,7 @@ Announcement:
 
 - [New blog article ... Adopting Continuous Integration For Long Timescale Materials Simulation](../../Articles/Blog/AdoptingCIforEXAALT.md)
 - Display dates: 09/24/2018 - 10/12/2018
-
+2018
 - [FAQ for BSSw Fellowship Program now includes slides and recording from recent Q&A webinar](../../Articles/Blog/BSSwFellowshipApplicationsOpen2018.md)
 - Display dates: 09/22/2018 - 09/25/2018
 
