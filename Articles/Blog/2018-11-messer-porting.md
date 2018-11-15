@@ -1,6 +1,10 @@
 
 # Porting Codes to New Architectures
 
+#### Contributed by [Bronson Messer](https://github.com/ "Bronson Messer GitHub Profile")
+
+#### Publication date: November 28, 2018
+
 The advent of new computing architectures in recent years has given new impetus to efforts to update and improve application performance. 
 
 The inexorable march of Moore's Law and Dennard scaling that obtained through the end of the first decade of this century allowed HPC application developers to rely on "scp and make" to provide increased performance. Every eighteen months provided a new platform, different from the last only in its computational power and raw speed. Even straightforward and well-known optimizations (e.g. arranging memory accesses to take advantage of high-speed caches) were often left undone, as the clear need to produce as much science as possible was greater than the need to improve performance. However, modern, highly-parallel node architectures have brought this age of essentially effortless performance improvement to an end.
@@ -29,8 +33,33 @@ There are other, more advanced techniques that can be brought to bear on any spe
 
 For more information on particular experiences from the OLCF CAAR program and other recent work, see:
 
+<!--- David will add a curated content item --->
+
 Joubert, W., Archibald, R., Berrill, M., Brown, W.M., Eisenbach, M., Grout, R., Larkin, J., Levesque, J., Messer, B., Norman, M. and Philip, B., 2015. Accelerated application development: The ORNL Titan experience. Computers & Electrical Engineering, 46, pp.123-138. [https://www.sciencedirect.com/science/article/pii/S0045790615001366]
 
 Straatsma, T.P., Antypas, K.B. and Williams, T.J., 2017. Exascale Scientific Applications: Scalability and Performance Portability. Chapman and Hall/CRC. [https://www.crcpress.com/Exascale-Scientific-Applications-Scalability-and-Performance-Portability/Straatsma-Antypas-Williams/p/book/9781138197541]
 
 Messer, O.E.B., D’Azevedo, E., Hill, J., Joubert, W., Berrill, M. and Zimmer, C., 2016. MiniApps derived from production HPC applications using multiple programing models. The International Journal of High Performance Computing Applications, p.1094342016668241. [https://journals.sagepub.com/doi/abs/10.1177/1094342016668241]
+
+<!--- Guidance for blog author bios:
+•       Length: 50-100 words.
+•       Can include hyperlinks.
+•       Mention your current position, employer, a bit about your background.
+•       Include info about your interests related to software productivity and sustainability.
+•       Anything else you want to mention.
+--->
+
+### Author Bio
+
+Bronson Messer is a ...
+
+<!---
+Publish: preview
+RSS update: 2018-11-28
+Categories: Performance
+Topics: performance and portability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
