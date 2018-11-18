@@ -1,7 +1,7 @@
 
 # Porting Codes to New Architectures
 
-#### Contributed by [Bronson Messer](https://github.com/ "Bronson Messer GitHub Profile")
+#### Contributed by [Bronson Messer](https://github.com/bronson79 "Bronson Messer GitHub Profile")
 
 #### Publication date: November 28, 2018
 
@@ -51,7 +51,7 @@ Messer, O.E.B., D’Azevedo, E., Hill, J., Joubert, W., Berrill, M. and Zimmer, 
 
 ### Author Bio
 
-Bronson Messer is a ...
+[Bronson Messer](http://astro.phys.utk.edu/bronson) is a Senior R&D Staff Member at Oak Ridge National Laboratory (ORNL) and a Joint Faculty Associate Professor at the University of Tennessee. He is involved in the DOE Exascale Computing Project (ECP) as co-I of the [ExaStar](https://sites.google.com/lbl.gov/exastar) application development and [ECP Proxy Application](https://proxyapps.exascaleproject.org/) projects. He is also the computational PI of the Scientific Discovery through Advanced Computing (SciDAC) [TEAMS](https://teams-scidac.github.io/) project to study explosive astrophysical events. His research interests range from supernovae, stellar evolution, and numerical relativity to studies of mini-apps and performance modeling. His adventures in maintaining and extending several, decades-old codes has led to his strong interest in software sustainability and productivity. 
 
 <!---
 Publish: preview
