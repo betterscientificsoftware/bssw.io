@@ -3,11 +3,11 @@
 
 #### Contributed by [Bronson Messer](https://github.com/bronson79 "Bronson Messer GitHub Profile")
 
-#### Publication date: November 28, 2018
+#### Publication date: November 26, 2018
 
 The advent of new computing architectures in recent years has given new impetus to efforts to update and improve application performance. 
 
-The inexorable march of Moore's law and Dennard scaling that obtained through the end of the first decade of this century allowed HPC application developers to rely on "scp and make" to provide increased performance. Every eighteen months provided a new platform, different from the last only in its computational power and raw speed. Even straightforward and well-known optimizations (e.g., arranging memory accesses to take advantage of high-speed caches) were often left undone, since the clear need to produce as much science as possible was greater than the need to improve performance. However, modern, highly parallel node architectures have brought this age of essentially effortless performance improvement to an end.
+The inexorable march of Moore's law and Dennard scaling through the end of the first decade of this century allowed HPC application developers to rely on "scp and make" to provide increased performance. Every eighteen months provided a new platform, different from the last only in its computational power and raw speed. Even straightforward and well-known optimizations (e.g., arranging memory accesses to take advantage of high-speed caches) were often left undone, since the clear need to produce as much science as possible was greater than the need to improve performance. However, modern, highly parallel node architectures have brought this age of essentially effortless performance improvement to an end.
 
 Achieving performance on GPU-based architectures, in particular, requires considerable effort by application developers to make their code amenable to opportunities and limitations of the hardware. The OLCF's Center for Accelerated Application Readiness (CAAR) has enabled GPU ports for a variety of application codes, on both Titan and Summit, in recent years. Though the programming tools and specific hardware characteristics have certainly changed over the time from the advent of Titan to today, basic notions remain that can be used to help port legacy codes to GPUs. Here are a few of the most fundamental things you can do to get started.
 
@@ -15,7 +15,7 @@ Achieving performance on GPU-based architectures, in particular, requires consid
 
 No, seriously: We know that you already know where all the time is being spent, but go ahead and use a tool to confirm.
 
-Obtaining an accurate and up-to-date code profile is essential to beginning an GPU porting project. This profile should include, of course, where the FLOP/s are being done, but also where and how memory references are being made throughout the code. ScoreP, TAU, ARM Forge, and a variety of other tools can be used to gather this information. Perhaps most important, the use of one of these tools does not preclude the use of any other. A "pincer movement," wherein several tools are used to obtain profiling information, can often be useful. Once an accurate profile is in hand, decisions will have to be made to determine where effort is best expended. If an application is "lucky" enough to have a handful of "hot" kernels, the choice is often obvious. More likely a few kernels are more-or-less obvious choices for acceleration, but a handful of other kernels could probably be accelerated with some additional effort. This calculus can be done only in the context of the developer's other work on the code, but care must be taken to realize that those unaccelerated kernels will become the bottleneck in the next stage of development. 
+Obtaining an accurate and up-to-date code profile is essential to beginning any GPU porting project. This profile should include, of course, where the FLOP/s are being done, but also where and how memory references are being made throughout the code. ScoreP, TAU, ARM Forge, and a variety of other tools can be used to gather this information. Perhaps most important, the use of one of these tools does not preclude the use of any other. A "pincer movement," wherein several tools are used to obtain profiling information, can often be useful. Once an accurate profile is in hand, decisions will have to be made to determine where effort is best expended. If an application is "lucky" enough to have a handful of "hot" kernels, the choice is often obvious. More likely a few kernels are more-or-less obvious choices for acceleration, but a handful of other kernels could probably be accelerated with some additional effort. This calculus can be done only in the context of the developer's other work on the code, but care must be taken to realize that those unaccelerated kernels will become the bottleneck in the next stage of development. 
 
 ### Decide on a programming model 
 
@@ -55,9 +55,9 @@ Messer, O.E.B., D’Azevedo, E., Hill, J., Joubert, W., Berrill, M. and Zimmer, 
 
 <!---
 Publish: preview
-RSS update: 2018-11-28
-Categories: Performance
-Topics: performance and portability
+RSS update: 2018-11-26
+Categories: Performance, Development
+Topics: high-performance computing, performance at LCFs, performance portability, refactoring
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
