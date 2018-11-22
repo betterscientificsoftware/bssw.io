@@ -34,7 +34,7 @@ Though the need to understand and ameliorate the high cost of data movement was 
 
 Other, more advanced techniques can be brought to bear on any specific architecture. But the above considerations are, at least, first among equals when it comes to ideas for porting codes to new, highly parallel architectures. 
 
-For more information on particular experiences from the OLCF CAAR program and other recent work, see the following:
+### For more information on particular experiences from the OLCF CAAR program and other recent work, see the following:
 
 <!--- David will add a curated content item --->
 
