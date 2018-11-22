@@ -1,6 +1,9 @@
 
 # Porting Codes to New Architectures
 
+**Hero Image:**
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_1118_SummitCabs_1176x432.png" />[Closeup of Summit computer at ORNL]
+
 #### Contributed by [Bronson Messer](https://github.com/bronson79 "Bronson Messer GitHub Profile")
 
 #### Publication date: November 26, 2018
