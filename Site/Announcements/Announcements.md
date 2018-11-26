@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Porting Codes to New Architectures](../../Articles/Blog/2018-11-messer-porting.md)
+- Display dates: 11/26/2018 - 12/12/2018
+
+<!---
 - [New blog article ... SC18: Does That Stand for "Software Conference"?](../../Articles/Blog/SCSoftwareConference.md)
 - Display dates: 11/08/2018 - 11/27/2018
 
-<!---
 - [New blog article ... Building Connections and Community within an Institution](../../Articles/Blog/ConnectingSoftwareDevelopers.md)
 - Display dates: 10/25/2018 - 11/07/2018
 
