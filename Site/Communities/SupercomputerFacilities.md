@@ -27,7 +27,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [Portability Across DOE Office of Science HPC Facilities](../../CuratedContent/PortabilityAcrossDOEOfficeOfScienceHPCFacilities.md)
 
-* [Estimating Operational Intensity](../../CuratedContent/EstimatingOperationalIntensity.md)
+* [Porting Codes to New Architectures](../../Articles/Blog/2018-11-messer-porting.md)
 
 * [What Is Performance Portability for CSE Applications?](../../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
 
