@@ -82,26 +82,26 @@ _Perspectives on the BSSw Fellowship Program_:
 I became interested in becoming a BSSw Fellow because I believe in the mission of BSSw.  Scientific software is an important tool for scientific discovery.  By enabling scientists to be more effective and efficient with this tool, we are also enabling them to do more and better science.  Being selected as a BSSw Fellow has been quite an honor and it has been an encouragement to develop educational materials with a specific focus on the unique needs of scientific software.  Being a BSSw Fellow has been an opportunity to be on "the ground floor" with this important effort, and I look forward to participating long into the future.  The impact you can make as a BSSw Fellow may be non-traditional, but it is nevertheless vitally important.
 
 
-## 2018 BSSw Honorable Mentions
+## 2019 BSSw Honorable Mentions
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_davis.jpg' class='logo' />
-### Neal Davis 
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_andrews_stephen.jpg' class='logo' />
+### Stephen Andrews 
 University of Illinois at Urbana-Champaign, Teaching Assistant Professor, Computer Science
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_gonsiorowski.jpg' class='logo' />
-### Elsa Gonsiorowski
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_prichard_benjamin.jpg' class='logo' />
+### Benjamin Prichard
 Lawrence Livermore National Laboratory, HPC I/O Specialist, Livermore Computing
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_henrydefrahan.jpg' class='logo' />
-### Marc Henry de Frahan
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_sochat_vanessa.jpg' class='logo' />
+### Vanessa Sochat
 National Renewable Energy Laboratory, Postdoctoral Researcher
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_li.jpg' class='logo' />
-### Ying Li
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_uddinEisty_nassir.jpg' class='logo' />
+### Nassir Uddin-Eisty
 Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facility
 <p>&nbsp;</p>
 
