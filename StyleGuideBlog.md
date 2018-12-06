@@ -46,3 +46,8 @@ We encourage you to point to a modest numder of additional resources that enhanc
 ### Images
 
 *Need to say something about what kind of images we want to encourage/discourage and point to writeup of how to deal with images in the other repo.*
+
+<!--
+Publish: no
+--!>
+
