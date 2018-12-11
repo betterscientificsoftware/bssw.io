@@ -123,19 +123,11 @@ convinced that this software development cycle, along with the sophisticated lib
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz-Young-Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Senior Research Scientist position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://github.com/ginkgo-project), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
 
 <!---
- <!---
- Publish: No
- Publish: No
- Categories: reliability
- Categories: reliability
- Topics: testing
- Topics: testing
- Tags: bssw-blog-article
- Tags: bssw-blog-article
- Level: 2
- Level: 2
- Prerequisites: default
- Prerequisites: default
- Aggregate: none
- Aggregate: none
+Publish: No
+Categories: reliability
+Topics: testing
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
 --->
