@@ -79,7 +79,7 @@ Stay tuned for more from the 2018 BSSw Fellows.
 <!---
 Publish: yes
 Categories: collaboration
-Topics: discussion forums, Q&A sites, projects and organizations
+Topics: projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
