@@ -17,29 +17,29 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_gassmoeller_rene.jpg' class='logo' />
-### Rene Gassmoeller
-University of California, Davis, Assistant Project Scientist, Earth and Planetary Sciences
+### Rene Gassmoeller, University of California, Davis
+Assistant Project Scientist, Earth and Planetary Sciences
 
 _BSSw Focus_: Social challenges in the evolution of scientific software projects
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_laguna_ignacio.jpg' class='logo' />
-### Ignacio Laguna
-Lawrence Livermore National Laboratory, Computer Scientist, Center for Applied Scientific Computing
+### Ignacio Laguna, Lawrence Livermore National Laboratory
+Computer Scientist, Center for Applied Scientific Computing
 
 _BSSw focus_: Debugging and improving the reliability of scientific applications
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_malik_tanu.jpg' class='logo' />
-### Tanu Malik</b>     
-DePaul University, Assistant Professor, School of Computing
+### Tanu Malik, DePaul University
+Assistant Professor, School of Computing
 
 _BSSw focus_: Reducing technical debt in scientific software
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_niemeyer_kyle.jpg' class='logo' />
-### Kyle Niemeyer
-Oregon State University, Assistant Professor, School of Mechanical, Industrial, and Manufacturing Engineering 
+### Kyle Niemeyer, Oregon State University
+Assistant Professor, School of Mechanical, Industrial, and Manufacturing Engineering 
 
 _BSSw focus_: Best practices for developing research software
 
@@ -47,29 +47,29 @@ _BSSw focus_: Best practices for developing research software
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_andrews_stephen.jpg' class='logo' />
-### Stephen Andrews 
-Los Alamos National Laboratory, Staff Scientist, XCP-8: Verification and Analysis 
+### Stephen Andrews, Los Alamos National Laboratory
+Staff Scientist, XCP-8: Verification and Analysis 
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_uddinEisty_nasir.jpg' class='logo' />
-### Nasir Eisty
-University of Alabama, Ph.D. Student, Computer Science
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_eisty_nasir.jpg' class='logo' />
+### Nasir Eisty, University of Alabama 
+Ph.D. Student, Computer Science
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_prichard_benjamin.jpg' class='logo' />
-### Benjamin Pritchard
-Virginia Tech, Software Scientist, Molecular Sciences Software Institute
+### Benjamin Pritchard, Virginia Tech
+Software Scientist, Molecular Sciences Software Institute
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_HM_sochat_vanessa.jpg' class='logo' />
-### Vanessa Sochat
-Stanford University, Research Software Engineer, Stanford Research Computing Center
+### Vanessa Sochat, Stanford University
+Research Software Engineer, Stanford Research Computing Center
 <p>&nbsp;</p>
 
 ### About the BSSw Fellowship
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2019.  More information:
 
-- [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives) ... Read about work of the 2018 BSSw Fellows and their perspectives on the program.
+- [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives)
 - [FAQ for the 2019 BSSw Fellowship Program](https://bssw.io/resources/bssw-fellowship-program-faq-2019) 
 
 Stay tuned for more from the 2019 BSSw Fellows. 
