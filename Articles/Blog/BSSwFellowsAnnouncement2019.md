@@ -75,8 +75,7 @@ The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to
 Stay tuned for more from the 2019 BSSw Fellows. 
 
 <!---
-Publish: preview
-RSS Update: 2018-12-11
+Publish: yes
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-article
