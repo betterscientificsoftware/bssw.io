@@ -76,6 +76,7 @@ Stay tuned for more from the 2019 BSSw Fellows.
 
 <!---
 Publish: yes
+RSS update: 2018-12-11
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-article
