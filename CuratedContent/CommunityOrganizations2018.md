@@ -8,10 +8,13 @@ Software is the key crosscutting technology that enables advances in mathematics
 
 To appear (spring 2019) in a special issue of _IEEE Computing in Science and Engineering (CiSE)_ on Accelerating Scientific Discovery with Reusable Software, early online access: [DOI:10.1109/MCSE.2018.2883051](https://dx.doi.org/10.1109/MCSE.2018.2883051).
 
+#### Publication date: 2018-12-17
+
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
 
 <!---
 Publish: yes
+RSS update: 2018-12-17
 Categories: collaboration
 Topics: projects and organizations
 Tags: paper
