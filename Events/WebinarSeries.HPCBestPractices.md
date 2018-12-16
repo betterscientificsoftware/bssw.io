@@ -2,7 +2,7 @@
 # Best Practices for HPC Software Developers Webinar Series
 
 - Organizers: The [IDEAS Productivity Project](https://ideas-productivity.org/)
-- Dates: May 4, 2016 - Dec 31, 2018
+- Dates: May 4, 2016 - Dec 31, 2019
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/
 
@@ -12,17 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Introduction to Software Licensing
+## Next webinar: Quantitatively Assessing Performance Portability with Roofline
 
-### Date and Time: Wednesday, December 5, 2018, 1:00-2:00 pm ET
-### Presenter: David E. Bernholdt 
+### Date and Time: Wednesday, January 23, 2018, 1:00-2:00 pm ET
+### Presenter: John Pennycook (Intel), Charlene Yang (Lawrence Berkeley National Laboratory) and Jack Deslippe (Lawrence Berkeley National Laboratory)
 ### Description:
-Software licensing and related matters of intellectual property can often seem confusing or hopelessly complicated, especially when many present their opinions as dogma. This presentation takes a different approach: getting you to think about software licensing from the standpoint of what you want others to be able to do (or not do) with your software. We will start by developing a common understanding of the terminology used around software licenses. Then we’ll consider various scenarios of what you might want to accomplish with a software license, and what to look for in the license. We’ll also discuss some pragmatic issues around actually applying a license to your software. A list of resources will be provided to help with further exploration of these topics.
+Wouldn't it be great if we could port a code to a new high-performance architecture without substantially changing the code yet achieving a similar level of performance as hand-optimized code? This webinar will frame the discussion around ‘performance portability’, why it is important and desirable, and how to quantitatively measure it. The webinar will start with a background check on how the concept of performance portability came about and past attempts to define it and quantify it. Then we will introduce a simple yet powerful metric and an empirical methodology to quantitatively assess a code’s performance portability across multiple platforms. The methodology uses the Roofline performance model to measure an ‘architectural efficiency’ term in the metric proposed by Pennycook et al. We will dive into a few nuances of this methodology, for example, how and why empirical ceilings should be used for performance bounds, how to accurately account for complex instructions such as divides, how to model strided memory accesses, and how to select the appropriate Roofline ceilings and application performance points to make sure that the performance portability analysis is not erroneously skewed. We will also show some results of measuring performance portability using the aforementioned metric and methodology on two modern architectures, Intel Xeon Phi and NVIDIA V100 GPUs.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar024
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar025
 
 ## Past Webinars
+- [*Introduction to Software Licensing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar024), David E. Bernholdt (ORNL), 2018-12-05
 - [*Open Source Best Practices: From Continuous Integration to Static Linters*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar023), Ben Prichard and Daniel Smith (MolSSI), 2018-10-17
 - [*Modern CMake*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022), Bill Hoffman (Kitware), 2018-09-19
 - [*Software Sustainability -- Lessons Learned from Different Disciplines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar021), Neil Chue Hong (Software Sustainability Institute, University of Edinburgh, UK), 2018-08-21
