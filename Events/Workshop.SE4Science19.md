@@ -6,7 +6,7 @@
 - Event Website:
 http://se4science.org/workshops/se4science19/
 
-Most conference and journal venues are either software engineering-focused or domain-focused (i.e. computational chemistry or computational hydrology), but rarely on the intersection of those domains. Specifically, within the scientific software community, there are few places to publish results related to the unique software engineering challenges faced by scientific software developers.
+Most conference and journal venues are either software engineering-focused or domain-focused (i.e., computational chemistry or computational hydrology), but rarely on the intersection of those domains. Specifically, within the scientific software community, there are few places to publish results related to the unique software engineering challenges faced by scientific software developers.
 
 **Description:**
 
@@ -21,8 +21,9 @@ The goals of this workshop are to:
 
 <!---
 Publish: yes
+RSS update: 2018-12-19
 Categories: development, collaboration
-Topics: software engineering
+Topics: software engineering, projects and organizations
 Tags: workshop
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
