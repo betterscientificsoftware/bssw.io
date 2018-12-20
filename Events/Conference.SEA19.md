@@ -18,6 +18,7 @@ Improving Scientific Software is the theme of this year's annual conference, org
 
 <!---
 Publish: yes
+RSS update: 2018-12-20
 Categories: development
 Topics: software engineering 
 Tags: conference
