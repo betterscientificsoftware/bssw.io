@@ -6,9 +6,11 @@
 - Event Website:
 http://se4science.org/workshops/se4science19/
 
-Most conference and journal venues are either software engineering-focused or domain-focused (i.e., computational chemistry or computational hydrology), but rarely on the intersection of those domains. Specifically, within the scientific software community, there are few places to publish results related to the unique software engineering challenges faced by scientific software developers.
+The International Workshop on Software Engineering for Science builds connections among the communities of software engineers and computational scientists.  
 
 **Description:**
+
+Most conference and journal venues are either software engineering-focused or domain-focused (i.e., computational chemistry or computational hydrology), but rarely on the intersection of those domains. Specifically, within the scientific software community, there are few places to publish results related to the unique software engineering challenges faced by scientific software developers.
 
 The goals of this workshop are to:
 - Provide a venue for members of the software engineering and research software communities to discuss issues relevant of common interest.
@@ -16,6 +18,9 @@ The goals of this workshop are to:
 - Identify key areas of study where participants agree there is a lack of existing data or studies.
 - Support the building of a common research agenda to address the complex software development issues typical of research software.
 - Provide a venue for sharing early work and work-in-progress to obtain feedback from the wider community.
+
+### Call for Papers
+**Submission deadline: February 1, 2019**: See https://se4science.org/workshops/se4science19/cfp.htm
 
 #### Contributed by [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile")
 
