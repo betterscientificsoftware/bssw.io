@@ -6,7 +6,7 @@
 - Event Website:
 http://se4science.org/workshops/se4science19/
 
-The International Workshop on Software Engineering for Science builds connections among the communities of software engineers and computational scientists.  
+The International Workshop on Software Engineering for Science provides a venue for the software engineering and research software communities to discuss issues relevant of common interest.
 
 **Description:**
 
