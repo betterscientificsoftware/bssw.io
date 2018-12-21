@@ -2,13 +2,15 @@
 
 #### Contributed by [Mark Dewing](https://github.com/markdewing)
 
+#### Publication date: December 21, 2018
+
 ### Introduction
 
-After more than ten years of growth and development, our project -- [QMCPACK] (https://github.com/QMCPACK/qmcpack) -- needed to improve its development processes.
+After more than ten years of growth and development, our project -- [QMCPACK](https://github.com/QMCPACK/qmcpack) -- needed to improve its development processes.
 Changing and understanding the code had become increasingly difficult amid added features,
 platforms supported, and the normal student turnover.
 
-Our team determined that one step towards enhancing development velocity was to add unit testing.
+Our team determined that one step toward enhancing development velocity was to add unit testing.
 Unit testing is valuable for ensuring correctness of a program, performing regression tests, and decomposing the program into small, testable units.
 The next step is to choose a method for implementing unit tests.
 
@@ -26,16 +28,16 @@ writing several tests, we decided to use Catch.
 
 The main advantages of Catch for our project are twofold:
 
- * It is a single include file (about 400 KB), making it easy to integrate into the project source tree. (By comparison, Google Test is 3.8 MB and over 200 files)
+ * It is a single include file (about 400 KB), making it easy to integrate into the project source tree. (By comparison, Google Test is 3.8 MB and over 200 files.)
  * Being able to use simple C++ comparison operators in the assertion macros looks neater to us than the type and comparison-specific macros in Google Test.
 
 
-The [Catch website](https://github.com/catchorg/Catch2) has a longer description of the [rationale for Catch and feature list] (https://github.com/catchorg/Catch2/blob/master/docs/why-catch.md#top)
+The [Catch website](https://github.com/catchorg/Catch2) has a longer description of the [rationale for Catch and feature list](https://github.com/catchorg/Catch2/blob/master/docs/why-catch.md#top).
 
 
 ## Catch overview
 
-The existing [Catch tutorial] (https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md#top) is the essential first stop for learning more about Catch.
+The existing [Catch tutorial](https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md#top) is the essential first stop for learning more about Catch.
 
 Here is a simple example to give the flavor of using Catch.
 ```
@@ -105,7 +107,6 @@ int main(int argc, char *argv[])
 
 ```
 This custom main can be incorporated into a project by placing it in an include file, such as `catch_mpi_main.hpp`, and including this file in place of `#define CATCH_CONFIG_MAIN / #include <catch.hpp>`.
-
 
 
 ### Organization
