@@ -55,7 +55,7 @@ Personally, I have the privilege of several funding efforts and significant comm
 <img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoLogo.png' class='page' width="400"/>
 
 
-In the [Ginkgo](https://github.com/ginkgo-project/ginkgo) software effort we turn the development upside down: we do not start with implementing features; instead, we start with the design of the library structure and a healthy software development process.
+In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the development upside down: we do not start with implementing features; instead, we start with the design of the library structure and a healthy software development process.
 
 ### Sustainable Software Design in Ginkgo
 
@@ -120,7 +120,7 @@ convinced that this software development cycle, along with the sophisticated lib
 
 
 ### Author Bio
-[Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Senior Research Scientist position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://github.com/ginkgo-project), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
+[Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Senior Research Scientist position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
 
 <!---
 Publish: No
