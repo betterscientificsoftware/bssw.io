@@ -42,7 +42,7 @@ We hope that you may discover connections in BSSw resources to your circumstance
 
 ### BSSw succeeds by your contributions
 
-The BSSw site provides a venue to share information and experiences on scientific software issues.  Join the BSSw community in raising awareness of the importance of good software practices to scientific productivity!  If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/contributes/new).  We welcome original articles, blog posts, curated links (brief article that highlights other web-based content), and [event announcements](https://bssw.io/events).
+The BSSw site provides a venue to share information and experiences on scientific software issues.  Join the BSSw community in raising awareness of the importance of good software practices to scientific productivity!  If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/contributes/new).  We welcome original articles, blog posts, curated links (brief articles that highlights other web-based content), and [event announcements](https://bssw.io/events).
 
 <!---
 Publish: preview
