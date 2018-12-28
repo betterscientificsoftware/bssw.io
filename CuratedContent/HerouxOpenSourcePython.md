@@ -10,7 +10,7 @@ The article [How to open source your Python library](https://opensource.com/arti
 While targeted specifically at Python libraries, recommendations are relevant to other languages.  Tools mentioned are either applicable to other languages, or similar tools exist.  I think anyone interested in providing open source software could find valuable advice.
 
 <!---
-Publish: no
+Publish: yes
 Categories: Development
 Topics: Documentation, Version control, Configuration and builds, Deployment, Software engineering, Development tools
 Level: 2
