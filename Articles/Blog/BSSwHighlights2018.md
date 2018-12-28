@@ -4,6 +4,8 @@
 
 #### Publication date: January 4, 2019
 
+Hero image goes here.
+
 Launched in November 2017, the BSSw site features an ever-expanding collection of resources from a growing community of [contributors](https://bssw.io/items/authors) who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability.  As the new year begins, we highlight a few resources contributed in 2018.
 
 #### Better Development:
