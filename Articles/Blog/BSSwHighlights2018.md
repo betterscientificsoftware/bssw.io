@@ -39,7 +39,7 @@ Launched in November 2017, the Better Scientific Software (BSSw) site features a
 - [Community Organizations: Changing the Culture in Which Research Software is Developed and Sustained](https://bssw.io/items/community-organizations-changing-the-culture-in-which-research-software-is-developed-and-sustained), Lois Curfman McInnes
 
 ### Better Skills:
-- [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-[development), Mark Miller
+- [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-development), Mark Miller
 - [On Demand Learning for Better Scientific Software: How to Use Resources and Technology to Optimize Your Productivity](https://bssw.io/blog_posts/on-demand-learning-for-better-scientific-software-how-to-use-resources-technology-to-optimize-your-productivity), Elaine Raybourn 
 
 ### BSSw Succeeds by Your Contributions
