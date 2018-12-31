@@ -6,24 +6,24 @@
 
 ### Introduction
 
-After more than ten years of growth and development, our project -- [QMCPACK](https://github.com/QMCPACK/qmcpack) -- needed to improve its development processes.
+After more than ten years of growth and development, our project -- [QMCPACK](https://github.com/QMCPACK/qmcpack) -- needed  improvements to its development processes.
 Changing and understanding the code had become increasingly difficult amid added features,
 platforms supported, and the normal student turnover.
 
 Our team determined that one step toward enhancing development velocity was to add unit testing.
 Unit testing is valuable for ensuring correctness of a program, performing regression tests, and decomposing the program into small, testable units.
-The next step is to choose a method for implementing unit tests.
+The next step was to choose a method for implementing unit tests.
 
-### Chosing a framework
+### Choosing a framework
 
-But before diving into examining unit test frameworks, we might ask if using a framework is even necessary?
+But before diving into examining unit test frameworks, we might ask whether using a framework is even necessary.
 After all, it is straightforward to write a piece of code that exercises some functionality, tests it, and prints the results (pass or fail).
 Compiling this code into an executable yields a unit test.
-However, as more tests are written, having an easy method to organize them, run all of the tests, and track the overall number of passes and fails becomes essential.
-Instead of writing it from scratch, it is worth looking first at existing frameworks.
+As more tests are written, however, having an easy method to organize them, run all the tests, and track the overall number of passes and fails becomes essential.
+Instead of writing such a test from scratch, it is worth looking first at existing frameworks.
 
-After looking through several existing C++ unit test frameworks, we took two of them - Google Test and Catch - out for a trial run.
-Through integrating each test framework into the project build system and
+After considering several C++ unit test frameworks, we took two of them -- Google Test and Catch -- out for a trial run.
+After integrating each test framework into the project build system and
 writing several tests, we decided to use Catch.
 
 The main advantages of Catch for our project are twofold:
@@ -92,7 +92,7 @@ The Approx class has methods for adjusting the tolerance of the comparison (e.g.
 
 ### Custom main
 
-Some versions of MPI will output a warning if `MPI_Finalize` is not called before the program exits. However, calling `MPI_Finalize` at the end of a test will disable MPI for all the other tests. This can be handled by creating a custom runner that performs initialization before any tests run and shutdown after all tests complete.
+Some versions of MPI will output a warning if `MPI_Finalize` is not called before the program exits. However, calling `MPI_Finalize` at the end of a test will disable MPI for all the other tests. This can be handled by creating a custom runner that performs initialization before any tests run and shuts down after all tests complete.
 ```
 #define CATCH_CONFIG_RUNNER
 #include "catch.hpp"
@@ -126,22 +126,22 @@ The test executables are named after the directory, such as `test_utilities` and
 
 ### Interaction with CMake and CTest
 
-Our project uses CMake and CTest for building and running tests. After defining the unit test executable, it can be added to CTest with the `add_test` command (assuming the test executable is in the `TEST_BINARY` variable.)
+Our project uses CMake and CTest for building and running tests. After  the unit test executable is defined, it can be added to CTest with the `add_test` command (assuming the test executable is in the `TEST_BINARY` variable).
 ```
    add_test(NAME ${TESTNAME} COMMAND ${TEST_BINARY})
 ```
 
-Tests can be given stylized names to facilitate selections, or can be given labels. In our case, the label "unit" is added to denote the unit tests (`set_tests_properties(${TESTNAME} PROPERTIES LABELS "unit")`.
+Tests can be given stylized names to facilitate selections or can be given labels. In our case, the label "unit" is added to denote the unit tests (`set_tests_properties(${TESTNAME} PROPERTIES LABELS "unit")`.
 
 Tests can be selected from CTest by using the `-R` option to perform a regular expression filter on the test name or by using the `-L` options to select a label. For example, all the unit tests can be run with `ctest -L unit`.
 
 
 ### Interaction with other software development processes
 Other changes to our development process included adding code review with pull requests on Github.
-Unit tests enabled a continuous integration (CI) step where the code is built and unit tests are run for every submitted change to the code.  This helps catch errors earlier in the development cycle.
+Unit tests enabled a continuous integration step where the code is built and unit tests are run for every submitted change to the code.  This helps catch errors earlier in the development cycle.
 
 ### Conclusion
-We added the Catch framework for unit testing to our project and now it is an integral part of our development process.
+We added the Catch framework for unit testing to our project, and now it is an integral part of our development process.
 
 
 <!---
