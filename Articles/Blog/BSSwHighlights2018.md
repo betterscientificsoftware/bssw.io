@@ -9,7 +9,7 @@ Hero image goes here. Matt is making this.
 Launched in November 2017, the Better Scientific Software (BSSw) site features an ever-expanding collection of resources from a growing community of [contributors](https://bssw.io/items/authors) who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability.  As the new year begins, we thank the entire BSSw community for ongoing work toward better scientific software, and we highlight a few BSSw resources contributed in 2018.   We hope that you may discover connections in BSSw resources to your circumstances and priorities.  We invite you to peruse the site for lots more content.
 
 ### Better Planning:
-- [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools), Mike Heroux
+- [Planning for Better Software: PSIP-Tools](https://bssw.io/items/planning-for-better-software-psip-tools), Mike Heroux
 - [Adopting Continuous Integration for Long-Timescale Materials](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation), Richard Zamora
 
 ### Better Development:
@@ -40,7 +40,7 @@ Launched in November 2017, the Better Scientific Software (BSSw) site features a
 
 ### Better Skills:
 - [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-development), Mark Miller
-- [On Demand Learning for Better Scientific Software: How to Use Resources and Technology to Optimize Your Productivity](https://bssw.io/blog_posts/on-demand-learning-for-better-scientific-software-how-to-use-resources-technology-to-optimize-your-productivity), Elaine Raybourn 
+- [On Demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize Your Productivity](https://bssw.io/blog_posts/on-demand-learning-for-better-scientific-software-how-to-use-resources-technology-to-optimize-your-productivity), Elaine Raybourn 
 
 ### BSSw Succeeds by Your Contributions
 
