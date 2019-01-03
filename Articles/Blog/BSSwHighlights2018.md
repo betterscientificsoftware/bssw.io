@@ -1,4 +1,4 @@
-# Better Scientific Software: Highlights of 2018
+# Better Scientific Software: 2018 Highlights
 
 **Hero Image:**
 - <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_010219_Mantage.png" />[2018 Highlights]
