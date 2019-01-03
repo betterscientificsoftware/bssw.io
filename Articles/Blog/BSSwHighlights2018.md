@@ -1,10 +1,11 @@
 # Better Scientific Software: Highlights of 2018
 
+**Hero Image:**
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_010219_Mantage.png" />[2018 Highlights]
+
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") 
 
 #### Publication date: January 4, 2019
-
-Hero image goes here. Matt is making this.
 
 Launched in November 2017, the Better Scientific Software (BSSw) site features an ever-expanding collection of resources from a growing community of [contributors](https://bssw.io/items/authors) who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability.  As the new year begins, we thank the entire BSSw community for ongoing work toward better scientific software, and we highlight a few BSSw resources contributed in 2018.   We hope that you may discover connections in BSSw resources to your circumstances and priorities.  We invite you to peruse the site for lots more content.
 
