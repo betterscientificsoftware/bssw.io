@@ -1,7 +1,7 @@
 
 # SC17
 
-- Dates: Nov 12 - Nov 17, 2017
+- Dates: Nov 12, 2017 - Nov 17, 2017
 - Location: Denver, CO
 - Event Website: http://sc17.supercomputing.org/
 
