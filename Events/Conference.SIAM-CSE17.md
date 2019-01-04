@@ -2,7 +2,7 @@
 # SIAM Conference on Computational Science and Engineering (CSE17)
 
 - Organizers: SIAM Activity Group on Computational Science and Engineering (http://www.siam.org/activity/cse/ "SIAG/CSE")
-- Dates: Feb 27 - March 3, 2017
+- Dates: Feb 27, 2017 - March 3, 2017
 - Location: Atlanta, GA
 - Event Website: https://www.siam.org/meetings/cse17/
 
