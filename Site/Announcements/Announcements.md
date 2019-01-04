@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Introducing the 2019 BSSw Fellows](../../Articles/Blog/BSSwFellowsAnnouncement2019.md)
-- Display dates: 12/11/2018 - 01/08/2019
+- [New blog article ... Better Scientific Software: 2018 Highlights](../../Articles/Blog/BSSwHighlights2018.md)
+- Display dates: 01/03/2019 - 01/27/2019
 
 <!---
+- [New blog article ... Introducing the 2019 BSSw Fellows](../../Articles/Blog/BSSwFellowsAnnouncement2019.md)
+- Display dates: 12/11/2018 - 01/04/2019
+
 - [New blog article ... Porting Codes to New Architectures](../../Articles/Blog/2018-11-messer-porting.md)
 - Display dates: 11/26/2018 - 12/12/2018
 
