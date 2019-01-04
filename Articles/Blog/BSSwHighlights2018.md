@@ -7,7 +7,8 @@
 
 #### Publication date: January 4, 2019
 
-Launched in November 2017, the Better Scientific Software (BSSw) site features an ever-expanding collection of resources from a growing community of [contributors](https://bssw.io/items/authors) who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability.  As the new year begins, we thank the entire BSSw community for ongoing work toward better scientific software, and we highlight a few BSSw resources contributed in 2018.   We hope that you may discover connections in BSSw resources to your circumstances and priorities.  We invite you to peruse the site for lots more content.
+Launched in November 2017, the Better Scientific Software (BSSw) site features an ever-expanding collection of resources from a growing community of contributors
+who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability.  As the new year begins, we thank the entire BSSw community for ongoing work toward better scientific software, and we highlight a few BSSw resources contributed in 2018.   We hope that you may discover connections in BSSw resources to your circumstances and priorities.  We invite you to peruse the site for lots more content.
 
 ### Better Planning:
 - [Planning for Better Software: PSIP-Tools](https://bssw.io/items/planning-for-better-software-psip-tools), Mike Heroux
@@ -15,7 +16,7 @@ Launched in November 2017, the Better Scientific Software (BSSw) site features a
 
 ### Better Development:
 - [SuperLU: How Advances in Software Practices Are Increasing Sustainability and Collaboration](https://bssw.io/blog_posts/superlu-how-advances-in-software-practices-are-increasing-sustainability-and-collaboration), Xiaoye Li
-- [Can You Teach an Old Code New Tricks](https://bssw.io/blog_posts/can-you-teach-an-old-code-new-tricks), Charles Ferenbaugh
+- [Can You Teach an Old Code New Tricks?](https://bssw.io/blog_posts/can-you-teach-an-old-code-new-tricks), Charles Ferenbaugh
 - [Defining Policies to Turn a Team and Project Around](https://bssw.io/blog_posts/defining-policies-to-turn-a-team-and-project-around), Jason Gates
 - [Best Practices for Scientific Computing](https://bssw.io/items/best-practices-for-scientific-computing), Patricia Grubel
 - [Integrated Development Environments (IDEs) for Scientific Software Development](https://bssw.io/items/integrated-development-environments-ides-for-scientific-software-development), Greg Watson
@@ -51,7 +52,7 @@ Join the BSSw community in raising awareness of the importance of good software 
 David Bernholdt, Mike Heroux, and Lois Curfman McInnes serve as the founding editorial team for the Better Scientific Software site.  They are passionate about partnering with the computational science community to increase developer productivity and software sustainability.
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2019-01-04
 Categories: collaboration
 Topics: projects and organizations
