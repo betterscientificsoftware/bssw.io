@@ -2,11 +2,10 @@
 
 #### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt)
 
-#### Publication date: ???, 2019
+#### Publication date: January 23, 2019
 
 **Hero Image:**
-
-<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoWorkingTeam.png' class='page' width="1000"/>
+- <img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoWorkingTeam.png' class='page' width="1000"/>
 
 **Academic software development needs to balance academic aspects such as confidentiality and intellectual property with ready-to-use production code. In the Ginkgo software project we address this challange by employing sustainable software design with a healthy software development cycle.**
 <br>
@@ -123,7 +122,8 @@ convinced that this software development cycle, along with the sophisticated lib
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Senior Research Scientist position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
 
 <!---
-Publish: No
+Publish: preview
+RSS update: 2019-01-23
 Categories: reliability
 Topics: testing
 Tags: bssw-blog-article
