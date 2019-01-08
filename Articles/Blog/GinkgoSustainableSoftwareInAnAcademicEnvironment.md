@@ -50,11 +50,12 @@ Personally, I have the privilege of several funding efforts and significant comm
 
 <br>
 
+In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the development upside down: we do not start with implementing features; instead, we start with the design of the library structure and a healthy software development process.
+
+
 <!--- Image to illustrate the Software Development Cycle --->
 <img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoLogo.png' class='page' width="400"/>
 
-
-In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the development upside down: we do not start with implementing features; instead, we start with the design of the library structure and a healthy software development process.
 
 ### Sustainable Software Design in Ginkgo
 
@@ -84,8 +85,7 @@ theft and in adhering to the principles of academic publication. Synchronization
 <br>
 <p align="center">
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoSoftwareEcosystem.png' class='page' width="700"/>
-<figcaption>[Figure 1. Illustration of the Sustaibe Software Development Cycle employed for the Ginkgo ecosystem.]</figcaption>
+<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoSoftwareEcosystem.png' class='page' width="700"/>[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.]
 </p>
 <br>
 
@@ -110,8 +110,7 @@ This not only enables monitoring performance changes over time but also allows e
 <br>
 <p align="center">
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoGPE.png' class='page' width="1000"/>
-<figcaption>[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.]</figcaption>
+<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoGPE.png' class='page' width="1000"/>[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.]
 </p>
 
 We are
