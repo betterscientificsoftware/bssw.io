@@ -54,7 +54,7 @@ In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the d
 <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png'/>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoLogo.png'/>
 
 
 ### Sustainable Software Design in Ginkgo
