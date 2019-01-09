@@ -2,7 +2,7 @@
 
 #### Contributed by [Mark Dewing](https://github.com/markdewing)
 
-#### Publication date: December 21, 2018
+#### Publication date: January 9, 2019
 
 ### Introduction
 
@@ -145,7 +145,8 @@ We added the Catch framework for unit testing to our project, and now it is an i
 
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2018-01-09
 Categories: reliability
 Topics: testing, reliability
 Tags: bssw-article
