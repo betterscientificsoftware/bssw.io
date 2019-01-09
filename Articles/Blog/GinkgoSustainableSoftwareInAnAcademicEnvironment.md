@@ -7,10 +7,9 @@
 **Hero Image:**
 - <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoWorkingTeam.jpeg"/>
 
-### Header
 Academic software development needs to balance academic aspects such as confidentiality and intellectual property with ready-to-use production code. In the Ginkgo software project we address this challange by employing sustainable software design with a healthy software development cycle.
-<br>
 
+### Header
 It all starts with a Ph.D. project or a master's project. We write our first piece of scientific software, not in a sophisticated software design with appropriate documentation or correctness tests, but with the single goal of having the code running and delivering the results or insights we need to graduate. 
 <br>
 
@@ -23,7 +22,7 @@ That situation may change, however, when the first external users start using ou
 Moving on, we try to introduce tests that check the correctness of our routines and cross-platform compatibility -- an adventure doomed to fail because the code typically  adheres neither to the single responsibility principle nor to the interface-segregation principle. In response to the situation, we design tests that ensure the correctness of some key functionality and commonly used execution patterns. While these actions may provide a glimpse of what is working, they can never serve as a bulletproof test for all scenarios. 
 <br>
 
-Often, the only option is to rewrite everything from scratch. At that point, making a high-level analysis of the efforts is imporatnt:
+Often, the only option is to rewrite everything from scratch. At that point, making a high-level analysis of the efforts is important:
 
 * Does the software have long-term potential, justifying a complete rewrite?
 
@@ -54,7 +53,7 @@ In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the d
 <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoLogo.png' class='logo'/>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoLogo.png' class='logo' />
 
 
 ### Sustainable Software Design in Ginkgo
@@ -63,25 +62,19 @@ Ginkgo is designed as an open source C++ linear algebra library following the [S
 responsibility; Open/closed; Liskov substitution; Interface segregation; and the Dependency principle. 
 <br>
 With the goal of maximizing compatibility and extensibility, we decided to completely separate the linear algebra algorithms from the architecture-specific kernel implementations. Using an architecture-specific "Executor" allows adding, removing,
-or modifying backends according to future changes in the hardware architectures and parallelization strategies. Currently, Ginkgo is designed for node parallelism, featuring backends for NVIDIA GPUs and OpenMP-supporting platforms. Additionally, it features
-a sequential reference executor that is used in the unit tests to ensure the correctness of the hardware-specific parallel kernels. 
+or modifying backends according to future changes in the hardware architectures and parallelization strategies. Currently, Ginkgo is designed for node parallelism, featuring backends for NVIDIA GPUs and OpenMP-supporting platforms. Additionally, it features a sequential reference executor that is used in the unit tests to ensure the correctness of the hardware-specific parallel kernels. 
 
 <br>
 
-The unit tests are realized by using the [Google Test](https://github.com/abseil/googletest) framework and having new features covered by unit tests is a prerequisite
-for merging them into the master branch of the repository. 
+The unit tests are realized by using the [Google Test](https://github.com/abseil/googletest) framework and having new features covered by unit tests is a prerequisite for merging them into the master branch of the repository. 
 
 <br>
 Another central design feature of Ginkgo is the concept of expressing not only basic linear algebra operations such as matrix-vector products but also complex algorithms such as iterative solvers and
-preconditioners as linear operators that all share key functionalities like apply, clone, and copy. This greatly enhances user friendliness, reduces the coding effort, and efficiently avoids code duplication. In order to simplify its use, library features  not
-only are thoroughly documented by using [Doxygen](https://en.wikipedia.org/wiki/Doxygen) but also  typically are accompanied by small usage examples or tutorials.
+preconditioners as linear operators that all share key functionalities like apply, clone, and copy. This greatly enhances user friendliness, reduces the coding effort, and efficiently avoids code duplication. In order to simplify its use, library features are not only thoroughly documented by using [Doxygen](https://en.wikipedia.org/wiki/Doxygen) but also typically are accompanied by small usage examples or tutorials.
 
 ### Academic Aspects in the Ginkgo Software Development
 
-To enable a healthy software development
-process, Ginkgo is a community effort licensed under the [modified BSD license](https://en.wikipedia.org/wiki/BSD_licenses). A central Git repository requires two reviews on every merge to the master branch. This branch is automatically mirrored into a private repository where branches are used for
-the development of novel algorithms and the deployment of unpublished performance optimizations. In this way, Ginkgo keeps in mind academic software development, where the option of keeping new ideas and algorithms confidential is important in avoiding knowledge
-theft and in adhering to the principles of academic publication. Synchronization with the public master branch enables quick integration of successful development into production code.
+To enable a healthy software development process, Ginkgo is a community effort licensed under the [modified BSD license](https://en.wikipedia.org/wiki/BSD_licenses). A central Git repository requires two reviews on every merge to the master branch. This branch is automatically mirrored into a private repository where branches are used for the development of novel algorithms and the deployment of unpublished performance optimizations. In this way, Ginkgo keeps in mind academic software development, where the option of keeping new ideas and algorithms confidential is important in avoiding knowledge theft and in adhering to the principles of academic publication. Synchronization with the public master branch enables quick integration of successful development into production code.
  
 <br>
 <p align="center">
@@ -93,20 +86,15 @@ theft and in adhering to the principles of academic publication. Synchronization
 ### Continuous Integration and Continuous Benchmarking
 
 Public and private feature developments
-are automated with the help of a [continuous integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) framework that checks the [CMake](https://cmake.org/) compilation process for a large number of hardware architectures and compiler/library environments [(Cross-Platform Portability)](https://en.wikipedia.org/wiki/Software_portability). The CI system also ensures
-successful completion of the unit tests. If all tests pass successfully and two reviewers approve the merge request, a new feature is integrated into Ginkgo's master branch and benchmarked on an HPC system; see Figure 1. 
-While this approach also allows external contributors to have their features executed on an HPC cluster (which they may not even have access to), 
-the reviewers approving the merge take full responsibility for the integrity of the code. 
+are automated with the help of a [continuous integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) framework that checks the [CMake](https://cmake.org/) compilation process for a large number of hardware architectures and compiler/library environments [(Cross-Platform Portability)](https://en.wikipedia.org/wiki/Software_portability). The CI system also ensures successful completion of the unit tests. If all tests pass successfully and two reviewers approve the merge request, a new feature is integrated into Ginkgo's master branch and benchmarked on an HPC system; see Figure 1. 
+While this approach also allows external contributors to have their features executed on an HPC cluster (which they may not even have access to), the reviewers approving the merge take full responsibility for the integrity of the code. 
 
 <br>
 
 ### Ginkgo Performance Explorer
 
 The performance results for the new feature are then retrieved from the HPC system
-and archived in a repository storing performance data of Ginkgo routines. The [Ginkgo Performance Explorer (GPE)](https://ginkgo-project.github.io/gpe/) is a web application that can retrieve the performance data from the repository and visualize it in user-defined fashion, with the help of the
-integrated JSONata scripting language; see Figure 2. 
-This not only enables monitoring performance changes over time but also allows external contributors to receive feedback about the feature they contributed. Moreover, it can potentially optimize the implementation. 
-
+and archived in a repository storing performance data of Ginkgo routines. The [Ginkgo Performance Explorer (GPE)](https://ginkgo-project.github.io/gpe/) is a web application that can retrieve the performance data from the repository and visualize it in user-defined fashion, with the help of the integrated JSONata scripting language; see Figure 2. This not only enables monitoring performance changes over time but also allows external contributors to receive feedback about the feature they contributed. Moreover, it can potentially optimize the implementation. 
 
 <br>
 
