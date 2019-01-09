@@ -5,9 +5,10 @@
 #### Publication date: January 23, 2019
 
 **Hero Image:**
-- <img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoWorkingTeam.png' class='page' width="1000"/>
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoWorkingTeam.jpeg"/>
 
-**Academic software development needs to balance academic aspects such as confidentiality and intellectual property with ready-to-use production code. In the Ginkgo software project we address this challange by employing sustainable software design with a healthy software development cycle.**
+### Header
+Academic software development needs to balance academic aspects such as confidentiality and intellectual property with ready-to-use production code. In the Ginkgo software project we address this challange by employing sustainable software design with a healthy software development cycle.
 <br>
 
 It all starts with a Ph.D. project or a master's project. We write our first piece of scientific software, not in a sophisticated software design with appropriate documentation or correctness tests, but with the single goal of having the code running and delivering the results or insights we need to graduate. 
@@ -48,13 +49,12 @@ Aside from these critical questions determining the feasibility of a redesign ef
 Personally, I have the privilege of several funding efforts and significant community support, which allowed me to meet all requirements.
 <br>
 
-<br>
-
 In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the development upside down: we do not start with implementing features; instead, we start with the design of the library structure and a healthy software development process.
 
+<br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoLogo.png' class='page' width="400"/>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png'/>
 
 
 ### Sustainable Software Design in Ginkgo
@@ -67,6 +67,7 @@ or modifying backends according to future changes in the hardware architectures 
 a sequential reference executor that is used in the unit tests to ensure the correctness of the hardware-specific parallel kernels. 
 
 <br>
+
 The unit tests are realized by using the [Google Test](https://github.com/abseil/googletest) framework and having new features covered by unit tests is a prerequisite
 for merging them into the master branch of the repository. 
 
@@ -85,7 +86,7 @@ theft and in adhering to the principles of academic publication. Synchronization
 <br>
 <p align="center">
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoSoftwareEcosystem.png' class='page' width="700"/>[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem.png' />[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.]
 </p>
 <br>
 
@@ -108,13 +109,13 @@ This not only enables monitoring performance changes over time but also allows e
 
 
 <br>
-<p align="center">
-<!--- Image to illustrate the Software Development Cycle --->
-<img src='http://www.icl.utk.edu/~hanzt/tmp/GinkgoGPE.png' class='page' width="1000"/>[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.]
-</p>
 
-We are
-convinced that this software development cycle, along with the sophisticated library design, forms the basis for a successful academic community effort and allows Ginkgo to transition from a "small community" project to a high-profile software ecosystem.
+<!--- Image to illustrate the Software Development Cycle --->
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png'/>[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.]
+
+<br>
+
+We are convinced that this software development cycle, along with the sophisticated library design, forms the basis for a successful academic community effort and allows Ginkgo to transition from a "small community" project to a high-profile software ecosystem.
 
 
 ### Author Bio
