@@ -1,6 +1,6 @@
 # Software Sustainability Institute Fellowship Programme 2019
 
-- Dates: February 3, 2019
+- Dates: Applicaton deadline: February 3, 2019
 - Location: Open to researchers based in the UK or collaborating with a group based in the UK
 - Event Website: https://www.software.ac.uk/programmes-and-events/fellowship-programme
 
