@@ -19,7 +19,7 @@ Additional information about the user story approach can be found at:
 
 The IDEAS-ECP project has been pursuing the user story approach to streamline the project’s activities and 
 also to understand how user stories could support ECP software development efforts. For the purposes of the project,
-the stories are are classified as follows:
+the stories are classified as follows:
 - *training and documentation*: stories related to specific needs for documentation and training, such
 as the casual usage of services for version control, description of design patterns for version control,
 design of specific training courses (e.g., on new features in a programming language), etc.
