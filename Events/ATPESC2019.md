@@ -5,7 +5,7 @@
 - Event Website: https://extremecomputingtraining.anl.gov/
 
 Doctoral students, postdocs, and computational scientists are encouraged to apply to this intensive two-week course.
-Applications accespted through March 4, 2019..
+Applications accepted through March 4, 2019.
 
 **Description:** The Argonne Training Program on Extreme-Scale Computing (ATPESC) provides intensive, two weeks of training on the key skills, approaches, and tools to design, implement, and execute computational science and engineering applications on current high-end computing systems and the leadership-class computing systems of the future.
 
@@ -26,7 +26,7 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 * Approaches to building community codes for HPC systems
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills, performance 
 Topics: training, High-performance computing (HPC), Performance At Leadership Computing Facilities (LCFs)
 Tags: fellowship
