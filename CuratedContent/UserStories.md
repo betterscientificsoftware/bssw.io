@@ -41,7 +41,7 @@ by the project, documenting and publicizing the project’s outreach activities,
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
-#### Publication date:  January 14, 2018
+#### Publication date:  January 11, 2018
 
 <!---
 Publish: yes
