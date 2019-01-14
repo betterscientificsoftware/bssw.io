@@ -39,11 +39,15 @@ software, etc.
 - *operational*: stories related to the editorial workflow for BSSw (this website), interviews performed 
 by the project, documenting and publicizing the project’s outreach activities, etc.
 
+#### Contributed by [Osni Marques](https://github.com/oamarques)
+
+#### Publication date:  January 14, 2018
+
 <!---
 Publish: yes
 Categories: development, planning
-Topics: refactoring, design
-Tags: book
+Topics: user story, product development
+Tags: requirements
 Level: 2
 Prerequisites: defaults
 Aggregate: none
