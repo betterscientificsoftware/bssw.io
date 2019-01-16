@@ -32,7 +32,6 @@ Often, the only option is to rewrite everything from scratch. At that point, mak
 
 * Do I have the infrastructure, support, and expertise to realize a redesign in a healthy software development workflow?
 
-<br>
 Aside from these critical questions determining the feasibility of a redesign effort, one has to consider aspects concerning the existing software stack: 
 
 * Will it be maintained in the future? 
@@ -53,22 +52,21 @@ In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the d
 <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoLogo.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoLogo.png' class='page' />
 
 
 ### Sustainable Software Design in Ginkgo
 
-Ginkgo is designed as an open source C++ linear algebra library following the [SOLID](https://en.wikipedia.org/wiki/SOLID) software design principles:  Single
-responsibility; Open/closed; Liskov substitution; Interface segregation; and the Dependency principle. 
+Ginkgo is designed as an open source C++ linear algebra library following the [SOLID](https://en.wikipedia.org/wiki/SOLID) software design principles: Single responsibility; Open/closed; Liskov substitution; Interface segregation; and the Dependency principle. 
 <br>
+
 With the goal of maximizing compatibility and extensibility, we decided to completely separate the linear algebra algorithms from the architecture-specific kernel implementations. Using an architecture-specific "Executor" allows adding, removing,
 or modifying backends according to future changes in the hardware architectures and parallelization strategies. Currently, Ginkgo is designed for node parallelism, featuring backends for NVIDIA GPUs and OpenMP-supporting platforms. Additionally, it features a sequential reference executor that is used in the unit tests to ensure the correctness of the hardware-specific parallel kernels. 
-
 <br>
 
 The unit tests are realized by using the [Google Test](https://github.com/abseil/googletest) framework and having new features covered by unit tests is a prerequisite for merging them into the master branch of the repository. 
-
 <br>
+
 Another central design feature of Ginkgo is the concept of expressing not only basic linear algebra operations such as matrix-vector products but also complex algorithms such as iterative solvers and
 preconditioners as linear operators that all share key functionalities like apply, clone, and copy. This greatly enhances user friendliness, reduces the coding effort, and efficiently avoids code duplication. In order to simplify its use, library features are not only thoroughly documented by using [Doxygen](https://en.wikipedia.org/wiki/Doxygen) but also typically are accompanied by small usage examples or tutorials.
 
@@ -76,30 +74,28 @@ preconditioners as linear operators that all share key functionalities like appl
 
 To enable a healthy software development process, Ginkgo is a community effort licensed under the [modified BSD license](https://en.wikipedia.org/wiki/BSD_licenses). A central Git repository requires two reviews on every merge to the master branch. This branch is automatically mirrored into a private repository where branches are used for the development of novel algorithms and the deployment of unpublished performance optimizations. In this way, Ginkgo keeps in mind academic software development, where the option of keeping new ideas and algorithms confidential is important in avoiding knowledge theft and in adhering to the principles of academic publication. Synchronization with the public master branch enables quick integration of successful development into production code.
  
-<br>
-<p align="center">
+
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem.png' />[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem.png' class='page' />[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.] class=‘caption'
 </p>
 <br>
 
 ### Continuous Integration and Continuous Benchmarking
 
-Public and private feature developments
-are automated with the help of a [continuous integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) framework that checks the [CMake](https://cmake.org/) compilation process for a large number of hardware architectures and compiler/library environments [(Cross-Platform Portability)](https://en.wikipedia.org/wiki/Software_portability). The CI system also ensures successful completion of the unit tests. If all tests pass successfully and two reviewers approve the merge request, a new feature is integrated into Ginkgo's master branch and benchmarked on an HPC system; see Figure 1. 
+Public and private feature developments are automated with the help of a [continuous integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) framework that checks the [CMake](https://cmake.org/) compilation process for a large number of hardware architectures and compiler/library environments [(Cross-Platform Portability)](https://en.wikipedia.org/wiki/Software_portability). The CI system also ensures successful completion of the unit tests. If all tests pass successfully and two reviewers approve the merge request, a new feature is integrated into Ginkgo's master branch and benchmarked on an HPC system; see Figure 1. 
+<br>
+
 While this approach also allows external contributors to have their features executed on an HPC cluster (which they may not even have access to), the reviewers approving the merge take full responsibility for the integrity of the code. 
 
-<br>
 
 ### Ginkgo Performance Explorer
 
 The performance results for the new feature are then retrieved from the HPC system
 and archived in a repository storing performance data of Ginkgo routines. The [Ginkgo Performance Explorer (GPE)](https://ginkgo-project.github.io/gpe/) is a web application that can retrieve the performance data from the repository and visualize it in user-defined fashion, with the help of the integrated JSONata scripting language; see Figure 2. This not only enables monitoring performance changes over time but also allows external contributors to receive feedback about the feature they contributed. Moreover, it can potentially optimize the implementation. 
-
 <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png'/>[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png' class='page' />[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.] class=‘caption'
 
 <br>
 
