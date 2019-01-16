@@ -76,7 +76,7 @@ To enable a healthy software development process, Ginkgo is a community effort l
  
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem.png' class='page' />[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.] class=‘caption'
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem1176_432.png' class='page' />[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.]
 </p>
 <br>
 
@@ -92,10 +92,12 @@ While this approach also allows external contributors to have their features exe
 
 The performance results for the new feature are then retrieved from the HPC system
 and archived in a repository storing performance data of Ginkgo routines. The [Ginkgo Performance Explorer (GPE)](https://ginkgo-project.github.io/gpe/) is a web application that can retrieve the performance data from the repository and visualize it in user-defined fashion, with the help of the integrated JSONata scripting language; see Figure 2. This not only enables monitoring performance changes over time but also allows external contributors to receive feedback about the feature they contributed. Moreover, it can potentially optimize the implementation. 
+
+<br>
 <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png' class='page' />[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.] class=‘caption'
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png' class='page' />[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.]
 
 <br>
 
