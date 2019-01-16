@@ -74,6 +74,8 @@ preconditioners as linear operators that all share key functionalities like appl
 
 To enable a healthy software development process, Ginkgo is a community effort licensed under the [modified BSD license](https://en.wikipedia.org/wiki/BSD_licenses). A central Git repository requires two reviews on every merge to the master branch. This branch is automatically mirrored into a private repository where branches are used for the development of novel algorithms and the deployment of unpublished performance optimizations. In this way, Ginkgo keeps in mind academic software development, where the option of keeping new ideas and algorithms confidential is important in avoiding knowledge theft and in adhering to the principles of academic publication. Synchronization with the public master branch enables quick integration of successful development into production code.
  
+ <br>
+ <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem1176_432.png' class='page' />[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.]
