@@ -78,7 +78,7 @@ To enable a healthy software development process, Ginkgo is a community effort l
  <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem1176_432.png' class='page' />[Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoSoftwareEcosystem1176_432.png' class='page' /><p class='caption'>Figure 1. Illustration of the sustainable software development cycle employed for the Ginkgo ecosystem.</p>
 </p>
 <br>
 
@@ -99,7 +99,7 @@ and archived in a repository storing performance data of Ginkgo routines. The [G
 <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png' class='page' />[Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoGPE.png' class='page' /><p class='caption'>Figure 2. The Gingko Performance Explorer allows users to interactively analyze the data collected in the continuous benchmarking framework by using a web browser.</p>
 
 <br>
 
