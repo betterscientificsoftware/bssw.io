@@ -17,9 +17,6 @@ Announcement:
 - [New blog article ... Building Connections and Community within an Institution](../../Articles/Blog/ConnectingSoftwareDevelopers.md)
 - Display dates: 10/25/2018 - 11/07/2018
 
-- [New blog article ... Defining Policies to Turn a Team and Project Around](../../Articles/Blog/DefiningPoliciesToTurnATeamAndProjectAround.md)
-- Display dates: 10/09/2018 - 10/26/2018
-
 - [New blog article ... Adopting Continuous Integration For Long Timescale Materials Simulation](../../Articles/Blog/AdoptingCIforEXAALT.md)
 - Display dates: 09/24/2018 - 10/12/2018
 2018
