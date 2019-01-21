@@ -17,7 +17,6 @@ who are sharing their perspectives on challenges, strategies, and best practices
 ### Better Development:
 - [SuperLU: How Advances in Software Practices Are Increasing Sustainability and Collaboration](https://bssw.io/blog_posts/superlu-how-advances-in-software-practices-are-increasing-sustainability-and-collaboration), Xiaoye Li
 - [Can You Teach an Old Code New Tricks?](https://bssw.io/blog_posts/can-you-teach-an-old-code-new-tricks), Charles Ferenbaugh
-- [Defining Policies to Turn a Team and Project Around](https://bssw.io/blog_posts/defining-policies-to-turn-a-team-and-project-around), Jason Gates
 - [Best Practices for Scientific Computing](https://bssw.io/items/best-practices-for-scientific-computing), Patricia Grubel
 - [Integrated Development Environments (IDEs) for Scientific Software Development](https://bssw.io/items/integrated-development-environments-ides-for-scientific-software-development), Greg Watson
 
@@ -53,7 +52,7 @@ David Bernholdt, Mike Heroux, and Lois Curfman McInnes serve as the founding edi
 
 <!---
 Publish: yes
-RSS update: 2019-01-04
+RSS Update: 2019-01-04
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-article
