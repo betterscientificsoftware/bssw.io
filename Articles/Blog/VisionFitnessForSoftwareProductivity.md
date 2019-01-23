@@ -55,7 +55,7 @@ for font sizes that are too small and can cause our eyes to fatigue quickly.
 ### Take Breaks
 Take frequent breaks to briefly rest your eyes. A common best practice is the [_20-20-20_](https://www.labnol.org/software/computer-eye-exercise/14069/) rule: Every 20 minutes, find some object 20 feet away and stare at it for 20 seconds. Many apps are available for your phone, pad, or laptop that can help you remember to take breaks. Several apps also can help you exercise your eyes and might even be able to [improve your vision](http://www.iflscience.com/brain/apps-can-improve-your-vision/). One in particular, [Flux](https://justgetflux.com), tries to optimize the color mix of your screen's light based on the time of day. There is a lot of [research](https://www.scientificamerican.com/article/mental-downtime/) to substantiate that frequent short breaks often lead to greater productivity in general.
 
-|[Feedback](https://docs.google.com/forms/d/e/1FAIpQLSdKm54cxdBdt7d3plBGK1JuKWbmtlpuKkLJWWLD9EsYPsFpkA/viewform?usp=pp_url&entry.817910894=bssw-blog-post-051718)|
+|[Feedback](https://docs.google.com/forms/d/e/1FAIpQLSdKm54cxdBdt7d3plBGK1JuKWbmtlpuKkLJWWLD9EsYPsFpkA/viewform?usp=pp_url&entry.817910894=bssw-blog:vision-fitness:3e949bf)|
 |---:|
 
 <!---
