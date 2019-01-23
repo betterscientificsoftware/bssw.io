@@ -18,7 +18,7 @@ Additional information about the user story approach can be found at:
 <ul>
 <li><a href="https://www.mountaingoatsoftware.com/agile/user-stories"> Overview and Examples</a> from Mountain Goat Software</li>
 <li><a href="https://www.youtube.com/watch?v=tKSUokG3Y0w"> YouTube video</a> from CA Technologies</li>
-<li><p><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0ahUKEwjs6faQ0O3VAhWKqFQKHZp7DpQQtwIIKDAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ8YLL_Wi66A&usg=AFQjCNEBUa2zSbgqd35dO1vZ0bkTX5Zv6w"> YouTube video </a> on *Getting Started with Agile : Epics, Features, and User Stories*</p></li>
+<li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0ahUKEwjs6faQ0O3VAhWKqFQKHZp7DpQQtwIIKDAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ8YLL_Wi66A&usg=AFQjCNEBUa2zSbgqd35dO1vZ0bkTX5Zv6w"> YouTube video </a> on *Getting Started with Agile : Epics, Features, and User Stories*</li>
   </ul>
 
 The IDEAS-ECP project has been pursuing the user story approach to streamline the project’s activities and 
