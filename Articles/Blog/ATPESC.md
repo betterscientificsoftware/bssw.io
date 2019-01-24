@@ -1,6 +1,6 @@
 # ATPESC Story Title
 
-#### Contributed by [Marta Garcia Martinez](https://github.com/?? "Marta Garcia Martinez's Github.io Profile")
+#### Contributed by [Marta Garcia Martinez](https://github.com/??)
 
 #### Publication date: January 29, 2019
 
