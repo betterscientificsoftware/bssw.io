@@ -6,7 +6,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_32311D13_crop.jpg' />[
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_32311D13_crop.jpg' />
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br>
 
 <!--- Image to illustrate the complexity of EXAALT --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_EXAALTfwork_1250_729.png' class='page' />[Figure 1. Illustration of the EXAALT framework. The three main software components (LAMMPS, LATTE, and ParSplice) are represented as colored circles, while other libraries are represented as grey circles. Lines (graph edges) depict dependencies between the various software components.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_EXAALTfwork_1250_729.png' class='page' /><p class='caption'>Figure 1. Illustration of the EXAALT framework. The three main software components (LAMMPS, LATTE, and ParSplice) are represented as colored circles, while other libraries are represented as grey circles. Lines (graph edges) depict dependencies between the various software components.</p>
 
 <br>
 
