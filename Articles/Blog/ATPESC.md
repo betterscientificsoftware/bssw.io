@@ -1,6 +1,6 @@
 # Preparing the next generation of supercomputer users
 
-#### Contributed by [Marta Garcia Martinez](https://github.com/??)
+#### Contributed by [Marta Garcia Martinez](https://github.com/martagarciamartinez)
 
 #### Publication date: January 29, 2019
 
@@ -25,9 +25,9 @@ ATPESC is funded by the [Exascale Computing Project](https://www.exascaleproject
 
 <!---
 Publish: preview
-RSS update: 2018-09-25
-Categories: reliability
-Topics: training, ??
+RSS update: 2019-01-29
+Categories: skills
+Topics: training
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
