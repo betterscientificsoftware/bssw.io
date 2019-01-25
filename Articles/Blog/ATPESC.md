@@ -26,8 +26,8 @@ ATPESC is funded by the [Exascale Computing Project](https://www.exascaleproject
 <!---
 Publish: preview
 RSS update: 2019-01-29
-Categories: skills
-Topics: training
+Categories: performance
+Topics: high-performance computing
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
