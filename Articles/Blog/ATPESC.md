@@ -27,7 +27,7 @@ Dr. Eng. Marta García Martínez joined the Argonne Leadership Computing Facilit
 
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2019-01-29
 Categories: performance
 Topics: high-performance computing
