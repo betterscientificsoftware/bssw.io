@@ -9,7 +9,7 @@
 
 Academic software development needs to balance academic aspects such as confidentiality and intellectual property with ready-to-use production code. In the Ginkgo software project we address this challange by employing sustainable software design with a healthy software development cycle.
 
-### Header
+### A Software Journey
 It all starts with a Ph.D. project or a master's project. We write our first piece of scientific software, not in a sophisticated software design with appropriate documentation or correctness tests, but with the single goal of having the code running and delivering the results or insights we need to graduate. 
 <br>
 
