@@ -1,4 +1,4 @@
-# Preparing the next generation of supercomputer users
+# Preparing the Next Generation of Supercomputer Users
 
 #### Contributed by [Marta Garcia Martinez](https://github.com/martagarciamartinez)
 
