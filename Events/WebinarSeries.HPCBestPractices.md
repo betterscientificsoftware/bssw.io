@@ -12,17 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Quantitatively Assessing Performance Portability with Roofline
+## Next webinar: Containers in HPC
 
-### Date and Time: Wednesday, January 23, 2018, 1:00-2:00 pm ET
-### Presenters: John Pennycook (Intel), Charlene Yang (LBNL) and Jack Deslippe (LBNL)
+### Date and Time: Wednesday, February 13, 2019, 1:00-2:00 pm ET
+### Presenters: Shane Cannon (LBNL)
 ### Description:
-Wouldn't it be great if we could port a code to a new high-performance architecture without substantially changing the code yet achieving a similar level of performance as hand-optimized code? This webinar will frame the discussion around ‘performance portability’, why it is important and desirable, and how to quantitatively measure it. The webinar will start with a background check on how the concept of performance portability came about and past attempts to define it and quantify it. Then we will introduce a simple yet powerful metric and an empirical methodology to quantitatively assess a code’s performance portability across multiple platforms. The methodology uses the Roofline performance model to measure an ‘architectural efficiency’ term in the metric proposed by Pennycook et al. We will dive into a few nuances of this methodology, for example, how and why empirical ceilings should be used for performance bounds, how to accurately account for complex instructions such as divides, how to model strided memory accesses, and how to select the appropriate Roofline ceilings and application performance points to make sure that the performance portability analysis is not erroneously skewed. We will also show some results of measuring performance portability using the aforementioned metric and methodology on two modern architectures, Intel Xeon Phi and NVIDIA V100 GPUs.
+Containers have gained adoption in the HPC and scientific computing space through specialized runtimes like Shifter, Singularity and Charliecloud. Containers enable reproducible, shareable, portable execution of applications. In this webinar, we will give a brief introduction on how to build images and run containers on HPC systems. We will also discuss some best practices to ensure containers can take full advantage of HPC systems.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar025
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026
 
 ## Past Webinars
+- [*Quantitatively Assessing Performance Portability with Roofline*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar025), John Pennycook (Intel), Charlene Yang (LBNL) and Jack Deslippe (LBNL), 2019-01-23
 - [*Introduction to Software Licensing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar024), David E. Bernholdt (ORNL), 2018-12-05
 - [*Open Source Best Practices: From Continuous Integration to Static Linters*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar023), Ben Prichard and Daniel Smith (MolSSI), 2018-10-17
 - [*Modern CMake*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022), Bill Hoffman (Kitware), 2018-09-19
