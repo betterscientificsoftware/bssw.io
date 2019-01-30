@@ -1,6 +1,6 @@
 # Call for Posters: Minisymposterium on Software Productivity and Sustainability for CSE and Data Science at SIAM CSE19
 
-- Date: February 25 - March 1, 2019
+- Date: August 23, 2018
 - Location: Spokane, WA
 - Event Website: https://www.siam.org/conferences/CM/Main/cse19 
 
