@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Better Scientific Software: 2018 Highlights](../../Articles/Blog/BSSwHighlights2018.md)
-- Display dates: 01/03/2019 - 01/27/2019
+- [New blog article ... Preparing the Next Generation of Supercomputer Users](../../Articles/Blog/ATPESC.md)
+- Display dates: 01/29/2019 - 02/18/2019
 
 <!---
+- [New blog article ... Better Scientific Software: 2018 Highlights](../../Articles/Blog/BSSwHighlights2018.md)
+- Display dates: 01/03/2019 - 01/29/2019
+
 - [New blog article ... Introducing the 2019 BSSw Fellows](../../Articles/Blog/BSSwFellowsAnnouncement2019.md)
 - Display dates: 12/11/2018 - 01/04/2019
 
