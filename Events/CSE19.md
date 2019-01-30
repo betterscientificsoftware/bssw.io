@@ -4,9 +4,9 @@
 - Location: Spokane, WA
 - Event Website: https://www.siam.org/conferences/CM/Main/cse19 
 
-The SIAM Conference on Computational Science and Engineering is a well-known event in our community, and includes a growing number of software-related sessions.  Please join us there!
+The SIAM Conference on Computational Science and Engineering is a large and well-known event in our community, and includes a growing number of software-related sessions.  Please join us there!
 
-If you know of other events which should be featured here, please let us know by emailing info@bssw.io
+**If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
 - Minisymposium: Scientific Software: Practices, Concerns, and Solution Strategies [sessions [MS2](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=65900) and [MS36](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=65901)]
 - Minisymposium: Toward Software Ecosystems for Computational Science and Engineering [session [MS137](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=65687)]
