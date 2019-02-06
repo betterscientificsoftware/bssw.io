@@ -29,7 +29,7 @@ Software is the key crosscutting technology that enables advances in mathematics
 
 
 <!---
-Publish: no
+Publish: yes
 RSS update: 2018-07-18
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
