@@ -12,7 +12,7 @@ This year, July 20th will mark the 50th anniversary of the 1969 Apollo 11 Moon l
 
 In commemoration of this historical achievement, this is the first of three articles about the AGC. Part 1 describes the hardware. Part 2 will describe the software and part 3 its application in Moon missions. In the years since its development, jargon may have changed but the HPC community will recognize many common themes such as flops/watt power constraints, checkpoint and restart strategies, the need for performance portability and more.
 
-## The AGC Architecture: A Giant Leap in FLOPS  per W, Kg, m<sup>3</sup> 
+## The AGC Architecture: A Giant Leap in FLOPS<sup>*</sup> per W, Kg, m<sup>3</sup> 
 
 Apollo needed a computer orders of magnitude better than those typical of the era; lower power, lighter weight, smaller size, greater reliability and able to operate in the extreme environmental conditions of space flight. In mid-1961, NASA accorded MIT/Draper Labs “sole source” status to design the AGC and soon after selected Raytheon to manufacture them<sup>[6]</sup>. Both had been involved in development of the Polaris missile GNC system<sup>[22]</sup>.
 
@@ -27,6 +27,8 @@ The AGC was the first computer to use integrated circuits. It was constructed en
 |AGC Block II<sup>[14]</sup>|42|76|14,245|(55) 259.0|(32) 445|(00.03) 50000|
 |IBM 360-20<sup>[10],[11]</sup>|7,400|32|3,011|(5000) 0.6|(600) 5|(30.00) 100|
 Summit<sup>[28],[29]</sup>|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13|
+
+<sup>*</sup>FLOP = single precision multiple + add
 
 ## Rope Core: A New Type of NVM
 
