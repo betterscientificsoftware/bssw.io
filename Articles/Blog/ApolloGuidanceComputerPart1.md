@@ -1,7 +1,9 @@
 # When 10<sup>2</sup> Flops/Watt Was a Giant Leap
 ## Part 1 of 3: The Apollo Guidance Computer Hardware
 
-<a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.png' /></a>
+**Hero Image:**
+
+- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.png' /></a>
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May, 2019
