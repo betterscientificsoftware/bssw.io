@@ -18,7 +18,7 @@ Apollo needed a computer orders of magnitude better than those typical of the er
 
 | ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_computer.png) |
 |:---:|
-| The AGC (left) with Display and Keyboard (DSK - right) |
+| The AGC (left) with Display and Keyboard (DSKY - right) |
 
 The AGC was the first computer to use integrated circuits. It was constructed entirely from dual-packaged, 3-input NOR gate flat-packs produced by Fairchild Semiconductor<sup>[23]</sup> in an area that would eventually become known as Silicon Valley. At its peak, the effort consumed over 60% of all ICs produced in the country. The AGC used a total of 5600 NOR gates, operated at 1.024 MHz with a 16-bit word and had 34 basic instructions each micro-coded into a 12 step sequence. It had 4 central registers plus 15 special purpose registers<sup>[19]</sup>. The table below compares key AGC performance metrics with an early model of the IBM 360. Both systems were released in 1966, the same year initial designs of the first massively parallel computer, Illiac IV<sup>[30]</sup>, were completed. Costing nearly $5 billon to develop, 20% of the entire Apollo budget, the 360 was a big gamble and even bigger success for IBM. We also include a row for comparison to IBM’s newest AC922 based systems (Summit / Sierra).
 
