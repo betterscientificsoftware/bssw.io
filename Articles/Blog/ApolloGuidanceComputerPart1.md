@@ -1,9 +1,7 @@
 # When 10<sup>2</sup> Flops/Watt Was a Giant Leap
 ## Part 1 of 3: The Apollo Guidance Computer Hardware
 
-**Hero Image:**
-
- - <a href='https://github.com/betterscientificsoftware/images/raw/master/2JYjREL.jpg'><img src='https://github.com/betterscientificsoftware/images/raw/master/agc_and_mission_profile.png' /></a>
+<a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.png' /></a>
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May, 2019
@@ -18,24 +16,26 @@ In commemoration of this historical achievement, this is the first of three arti
 
 Apollo needed a computer orders of magnitude better than those typical of the era; lower power, lighter weight, smaller size, greater reliability and able to operate in the extreme environmental conditions of space flight. In mid-1961, NASA accorded MIT/Draper Labs “sole source” status to design the AGC and soon after selected Raytheon to manufacture them<sup>[6]</sup>. Both had been involved in development of the Polaris missile GNC system<sup>[22]</sup>.
 
-FIGURE HERE
+| ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_computer.png) |
+|:---:|
+| The AGC (left) with Display and Keyboard (DSK - right) |
 
 The AGC was the first computer to use integrated circuits. It was constructed entirely from dual-packaged, 3-input NOR gate flat-packs produced by Fairchild Semiconductor<sup>[23]</sup> in an area that would eventually become known as Silicon Valley. At its peak, the effort consumed over 60% of all ICs produced in the country. The AGC used a total of 5600 NOR gates, operated at 1.024 MHz with a 16-bit word and had 34 basic instructions each micro-coded into a 12 step sequence. It had 4 central registers plus 15 special purpose registers<sup>[19]</sup>. The table below compares key AGC performance metrics with an early model of the IBM 360. Both systems were released in 1966, the same year initial designs of the first massively parallel computer, Illiac IV<sup>[30]</sup>, were completed. Costing nearly $5 billon to develop, 20% of the entire Apollo budget, the 360 was a big gamble and even bigger success for IBM. We also include a row for comparison to IBM’s newest AC922 based systems (Summit / Sierra).
 
-System	#units	Kb	Flops (F)	(Watts) F/W 	(Kg) F/Kg	(m3) F/m3
-AGC Block II<sup>[14]</sup>
-   42	76	14,245	(55)259.0	  (32)  445	(00.03)50000
-IBM 360-20<sup>[10],[11]</sup>
-7,400	32	 3,011	(5000)  0.6  	(600)    5 	(30.00)  100
-Summit<sup>[28],[29]</sup>
-    2	1E12	14E16	(97E5) 14E9  	(31E4)45E10	(930) 15E13 
+|System|#units|Kb|Flops (F)|(Watts) F/W|(Kg) F/Kg|(m3) F/m3|
+|:---|---:|---:|---:|---:|---:|---:|
+|AGC Block II<sup>[14]</sup>|42|76|14,245|(55)259.0|(32)  445|(00.03)50000|
+|IBM 360-20<sup>[10],[11]</sup>|7,400|32|3,011|(5000)0.6|(600)5|(30.00) 100|
+Summit<sup>[28],[29]</sup>|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13|
 
 ## Rope Core: A New Type of NVM
+
 The AGC utilized two types of core memory<sup>[17]</sup>; erasable memory using coincident current cores and fixed (read-only) memory using rope cores<sup>[18]</sup> specifically designed for the AGC. Both were non-volatile providing extra protection against data loss during faults. The advantages of rope core were superlative robustness and significantly higher density because a single core stored 24 bits<sup>[16]</sup>  On the other hand, rope core took weeks of painstaking labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or around (logical ‘0’) arrays of cores. Bugs were costly to correct and often just worked around with additional steps in astronaut checklists or even by revising mission parameters. Raytheon was never able to fully automate this crucial manufacturing step. Instead, they hired an army of experienced textile workers, all women. Remarkably, weaving and its place in computing dates back more than 150 years before the AGC to the Jacquard Loom<sup>[40]</sup>.
 
  
-Figure 2 A worker weaves copper wires through an array of cores for the AGC.
- (Photo courtesy of the Raytheon Company)
+| ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_RaytheonWorker.jpg) |
+|:---:|
+| A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company) |
 
 ## The Executive: An Operating System with Checkpoint/Restart Services
 The AGC used a priority-driven, collaborative, multi-tasking operating system called the Executive<sup>[26]</sup>. Priority based job scheduling was revolutionary for its time. The Executive could detect a variety of hardware and software faults and had restart utilities to recover. But, only the most critical programs were restart enabled<sup>[25]</sup>. This involved careful design with periodic updates of waypoints and saves of redundant copies of essential state throughout program execution. Restart support consumed resources and complicated testing. In 1968, an internal NASA report<sup>[25]</sup> raised significant doubts about its value. In Part 3 of this series, we’ll describe why its importance would later be proven invaluable during the Apollo 11 landing.
@@ -46,8 +46,9 @@ The Executive and other system functions were all implemented in AGC native asse
 ## Multiple Spacecraft Configurations: A Performance Portability Challenge
 Apollo wasn’t just a single spacecraft. It was two; The Command and Service Module (CSM) and the Lunar Module (LM). Each had its own AGC and was further divided into two stages. Depending on the phase of a mission, the vehicles were joined together in various configurations with dramatically different operating characteristics. Developing a single program, the Digital Auto Pilot (DAP)<sup>[7]</sup>, to provide affective GNC for any configuration, even off-nominal cases, presented what amounts to a significant performance portability problem.
 
- 
-Figure 3 NASA artist’s rendition of the CSM (left) and LM (right) docked. Each had its own AGC.
+| ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_CSM_and_LM.png) |
+|:---:|
+| Apollo Spacecraft |
 
 The AGC may not have been extreme in scale but it was extreme in reliability. Of the 42 Block II systems delivered and an aggregate of 11,000 hours of vibration and thermal testing plus 32,500 hours of normal operation only 4 hardware faults were observed<sup>[41]</sup> and none of these occurred in actual Moon missions. Little did AGC hardware engineers know that writing the software would present even greater challenges ultimately becoming the rate-determining factor in delivering flight-ready units.
 
