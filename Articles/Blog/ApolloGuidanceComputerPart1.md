@@ -1,4 +1,4 @@
-# When 10<sup>2</sup> Flops/Watt Was a Giant Leap
+# When 10<sup>2</sup> FLOPS/Watt Was a Giant Leap
 ## Part 1 of 3: The Apollo Guidance Computer Hardware
 
 **Hero Image:**
