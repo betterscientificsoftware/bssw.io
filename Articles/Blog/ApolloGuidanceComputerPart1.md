@@ -1,4 +1,4 @@
-# When 10<sup>2</sup> FLOPS/Watt Was a Giant Leap
+# When 100 FLOPS/Watt Was a Giant Leap
 ## Part 1 of 3: The Apollo Guidance Computer Hardware
 
 **Hero Image:**
@@ -14,7 +14,7 @@ This year, July 20th will mark the 50th anniversary of the 1969 Apollo 11 Moon l
 
 In commemoration of this historical achievement, this is the first of three articles about the AGC. Part 1 describes the hardware. Part 2 will describe the software and part 3 its application in Moon missions. In the years since its development, jargon may have changed but the HPC community will recognize many common themes such as flops/watt power constraints, checkpoint and restart strategies, the need for performance portability and more.
 
-## The AGC Architecture: A Giant Leap in FLOPS<sup>*</sup> per W, Kg, m<sup>3</sup> 
+### The AGC Architecture: A Giant Leap in FLOPS<sup>*</sup> per W, Kg, m<sup>3</sup> 
 
 Apollo needed a computer orders of magnitude better than those typical of the era; lower power, lighter weight, smaller size, greater reliability and able to operate in the extreme environmental conditions of space flight. In mid-1961, NASA accorded MIT/Draper Labs “sole source” status to design the AGC and soon after selected Raytheon to manufacture them<sup>[6]</sup>. Both had been involved in development of the Polaris missile GNC system<sup>[22]</sup>.
 
@@ -32,7 +32,7 @@ Summit<sup>[28],[29],[42]</sup>|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13
 
 <sup>*</sup>FLOP = single precision multiple + add
 
-## Rope Core: A New Type of NVM
+### Rope Core: A New Type of NVM
 
 The AGC utilized two types of core memory<sup>[17]</sup>; erasable memory using coincident current cores and fixed (read-only) memory using rope cores<sup>[18]</sup>, technology specifically designed for and unique to the AGC. Both were non-volatile providing extra protection against data loss during faults. The advantages of rope core were superlative robustness and significantly higher density because a single core stored 24 bits<sup>[16]</sup>  On the other hand, rope core took weeks of painstaking labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or around (logical ‘0’) arrays of cores. Bugs were costly to correct and often just worked around with additional steps in astronaut checklists or even by revising mission parameters. Raytheon was never able to fully automate this crucial manufacturing step. Instead, they hired an army of experienced textile workers from the New England area, all women. Remarkably, weaving and its place in computing dates back more than 150 years *before* the AGC to the Jacquard Loom<sup>[40],[46]</sup>.
 
@@ -41,13 +41,13 @@ The AGC utilized two types of core memory<sup>[17]</sup>; erasable memory using 
 |:---:|
 | A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company) |
 
-## The Executive: An Operating System with Checkpoint/Restart Services
+### The Executive: An Operating System with Checkpoint/Restart Services
 The AGC used a priority-driven, collaborative, multi-tasking operating system called the Executive<sup>[26]</sup>. Priority based job scheduling was revolutionary for its time. The Executive could detect a variety of hardware and software faults and had restart utilities to recover. But, only the most critical programs were restart enabled<sup>[25]</sup>. This involved careful design with periodic updates of waypoints and saves of redundant copies of essential state throughout program execution. Restart support consumed resources and complicated testing. In 1968, an internal NASA report<sup>[25]</sup> raised significant doubts about its value. In Part 3 of this series, we’ll describe why its importance would later be proven invaluable during the Apollo 11 landing.
 
-## The Interpreter: A Domain Specific Language
+### The Interpreter: A Domain Specific Language
 The Executive and other system functions were all implemented in AGC native assembly code. However, solving complex, 3D spatial navigation problems with this simple instruction set was tedious, error prone and memory consuming. Early on, engineers designed a higher-level language, called the *Interpreter*<sup>[26]</sup>, to support the complex software required for GNC operations. Operands were scalar, vector and matrix data types in single, double and even triple precision. Instructions included vector and matrix arithmetic functions, transcendental functions, float normalization functions and other miscellaneous control-flow functions. It was still a form of assembly language. But, it operated at a much higher level of abstraction easing development, improving overall reliability and helping to reduce memory requirements.
 
-## Multiple Spacecraft Configurations: A Performance Portability Challenge
+### Multiple Spacecraft Configurations: A Performance Portability Challenge
 Apollo wasn’t just a single spacecraft. It was two; The Command and Service Module (CSM) and the Lunar Module (LM). Each had its own AGC and was further divided into two stages. Depending on the phase of a mission, the vehicles were joined together in various configurations with dramatically different operating characteristics. Developing a single program, the Digital Auto Pilot (DAP)<sup>[7]</sup>, to provide affective GNC for any configuration, even off-nominal cases, presented what amounts to a significant performance portability problem. In Part 2 of this series we'll discuss some of the solutions.
 
 | ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_CSM_and_LM.png) |
@@ -65,8 +65,6 @@ The AGC may not have been extreme in scale but it was extreme in reliability. Of
 •	Include info about your interests related to software productivity and sustainability.
 •	Anything else you want to mention.
 --->
-
-### References
 
 [1]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [2]: https://en.wikipedia.org/wiki/Moon_landing
