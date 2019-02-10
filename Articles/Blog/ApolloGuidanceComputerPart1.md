@@ -24,7 +24,7 @@ Apollo needed a computer orders of magnitude better than those typical of the er
 
 The AGC was the first computer to use integrated circuits. It was constructed entirely from dual-packaged, 3-input NOR gate flat-packs produced by Fairchild Semiconductor<sup>[23]</sup> in an area that would eventually become known as Silicon Valley<sup>[43],[44]</sup>. At its peak, the effort consumed over 60% of all ICs produced in the country. The AGC used a total of 5600 NOR gates, operated at 1.024 MHz with a 16-bit word and had 34 basic instructions each micro-coded into a 12 step sequence. It had 4 central registers plus 15 special purpose registers<sup>[19]</sup>. The table below compares key AGC performance metrics with an early model of the IBM 360. Both systems were released in 1966, the same year initial designs of the first massively parallel computer, Illiac IV<sup>[30]</sup>, were completed. Costing nearly $5 billon to develop, 20% of the entire Apollo budget, the 360 was a big gamble and even bigger success for IBM. We also include a row for comparison to IBM’s newest AC922<sup>[45]</sup> based systems (Summit<sup>[28]</sup> / Sierra<sup>[42]</sup>).
 
-|System|#units|Kb|Flops (F)|(Watts) F/W|(Kg) F/Kg|(m3) F/m3|
+|System|#units|Kb|Flops (F)|(Watts) F/W|(Kg) F/Kg|(m<sup>3</sup>) F/m<sup>3</sup>|
 |:---|---:|---:|---:|---:|---:|---:|
 |AGC Block II<sup>[14]</sup>|42|76|14,245|(55) 259.0|(32) 445|(00.03) 50000|
 |IBM 360-20<sup>[10],[11]</sup>|7,400|32|3,011|(5000) 0.6|(600) 5|(30.00) 100|
@@ -55,6 +55,18 @@ Apollo wasn’t just a single spacecraft. It was two; The Command and Service Mo
 | Early NASA artist's rendition of Apollo Spacecraft.<br>Command and Service Module (left).<br>Lunar Module Ascent and Descent Stages (right)|
 
 The AGC may not have been extreme in scale but it was extreme in reliability. Of the 42 Block II systems delivered and an aggregate of 11,000 hours of vibration and thermal testing plus 32,500 hours of normal operation only 4 hardware faults were observed<sup>[41]</sup> and none of these occurred in actual Moon missions. Little did AGC hardware engineers know that writing the software would present even greater challenges ultimately becoming the rate-determining factor in delivering flight-ready units.
+
+### Author Bio
+
+<!--- Guidance for blog author bios:
+•	Length: 50-100 words.
+•	Can include hyperlinks.
+•	Mention your current position, employer, a bit about your background.
+•	Include info about your interests related to software productivity and sustainability.
+•	Anything else you want to mention.
+--->
+
+### References
 
 [1]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [2]: https://en.wikipedia.org/wiki/Moon_landing
@@ -93,4 +105,15 @@ Image copyright source info…
 https://commons.wikimedia.org/wiki/File:NASA_spacecraft_comparison.jpg
 https://en.wikipedia.org/wiki/Apollo_Guidance_Computer#/media/File:Agc_view.jpg
 The Raytheon image I recieved approval email from Raytheon customer relations
+--->
+
+<!---
+Publish: preview
+RSS update: 2019-05-15
+Categories: performance
+Topics: high performance computing, performance portability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
 --->
