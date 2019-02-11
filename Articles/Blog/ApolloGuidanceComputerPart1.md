@@ -28,18 +28,18 @@ The AGC was the first computer to use integrated circuits. It was constructed en
 |:---|---:|---:|---:|---:|---:|---:|
 |AGC Block II<sup>[14]</sup>|42|76|14,245|(55) 259.0|(32) 445|(00.03) 50000|
 |IBM 360-20<sup>[10],[11]</sup>|7,400|32|3,011|(5000) 0.6|(600) 5|(30.00) 100|
-Summit<sup>[28],[29],[42]</sup>|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13|
+|IBM AC922 (Summit<sup>[28],[29],[42]</sup>)|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13|
 
-<sup>*</sup>FLOP = single precision multiple + add
+<sup>*</sup>FLOP = single precision multiply + add
 
 ### Rope Core: A New Type of NVM
 
-The AGC utilized two types of core memory<sup>[17]</sup>; erasable memory using coincident current cores and fixed (read-only) memory using rope cores<sup>[18]</sup>, technology specifically designed for and unique to the AGC. Both were non-volatile providing extra protection against data loss during faults. The advantages of rope core were superlative robustness and significantly higher density because a single core stored 24 bits<sup>[16]</sup>  On the other hand, rope core took weeks of painstaking labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or around (logical ‘0’) arrays of cores. Bugs were costly to correct and often just worked around with additional steps in astronaut checklists or even by revising mission parameters. Raytheon was never able to fully automate this crucial manufacturing step. Instead, they hired an army of experienced textile workers from the New England area, all women. Remarkably, weaving and its place in computing dates back more than 150 years *before* the AGC to the Jacquard Loom<sup>[40],[46]</sup>.
+The AGC utilized two types of core memory<sup>[17]</sup>; erasable memory using coincident current cores and fixed (read-only) memory using rope cores<sup>[18]</sup>, technology specifically designed for and unique to the AGC. Both were non-volatile providing extra protection against data loss during faults. The advantages of rope core were superlative robustness and significantly higher density because a single core stored 24 bits<sup>[16]</sup>. On the other hand, rope core took weeks of painstaking labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or around (logical ‘0’) arrays of cores. Bugs were costly to correct and often just worked around with additional steps in astronaut checklists or even by revising mission parameters. Raytheon was never able to fully automate this crucial manufacturing step. Instead, they hired an army of experienced textile workers from the New England area, all women. Remarkably, weaving and its place in computing dates back more than 150 years *before* the AGC to the Jacquard Loom<sup>[40],[46]</sup>.
 
  
 | ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_RaytheonWorker.jpg) |
 |:---:|
-| A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company) |
+| A worker weaves copper wires through an array of cores for the AGC<br>(Photo courtesy of Raytheon Company) |
 
 ### The Executive: An Operating System with Checkpoint/Restart Services
 The AGC used a priority-driven, collaborative, multi-tasking operating system called the Executive<sup>[26]</sup>. Priority based job scheduling was revolutionary for its time. The Executive could detect a variety of hardware and software faults and had restart utilities to recover. But, only the most critical programs were restart enabled<sup>[25]</sup>. This involved careful design with periodic updates of waypoints and saves of redundant copies of essential state throughout program execution. Restart support consumed resources and complicated testing. In 1968, an internal NASA report<sup>[25]</sup> raised significant doubts about its value. In Part 3 of this series, we’ll describe why its importance would later be proven invaluable during the Apollo 11 landing.
@@ -58,13 +58,21 @@ The AGC may not have been extreme in scale but it was extreme in reliability. Of
 
 ### Author Bio
 
-<!--- Guidance for blog author bios:
-•	Length: 50-100 words.
-•	Can include hyperlinks.
-•	Mention your current position, employer, a bit about your background.
-•	Include info about your interests related to software productivity and sustainability.
-•	Anything else you want to mention.
---->
+Mark Miller is a computer scientist supporting [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+program at [LLNL](https://www.llnl.gov) since 1995.
+He is a contributor to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit)
+and the lead developer of
+[Silo](https://wci.llnl.gov/simulation/computer-codes/silo)
+supporting scalable I/O of LLNL HPC simulations. He has contributed
+to various scientific database technologies including
+[ASCI-DMF](https://e-reports-ext.llnl.gov/pdf/234737.pdf),
+[HDF5](https://support.hdfgroup.org/HDF5/),
+[ITAPS](http://www.scidac.gov/math/ITAPS.html),
+[MACSio](https://codesign.llnl.gov/macsio.php).
+Mark's interests include data models and their impact on software
+interoperability, high performance I/O and Software Quality Engineering
+([Smart Libraries](https://wci.llnl.gov/codes/smartlibs/UCRL-JRNL-208636.pdf)) for HPC libraries.
 
 [1]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [2]: https://en.wikipedia.org/wiki/Moon_landing
@@ -100,9 +108,10 @@ The AGC may not have been extreme in scale but it was extreme in reliability. Of
 
 <!---
 Image copyright source info…
-https://commons.wikimedia.org/wiki/File:NASA_spacecraft_comparison.jpg
-https://en.wikipedia.org/wiki/Apollo_Guidance_Computer#/media/File:Agc_view.jpg
-The Raytheon image I recieved approval email from Raytheon customer relations
+  Two are public domain...
+      * https://commons.wikimedia.org/wiki/File:NASA_spacecraft_comparison.jpg
+      * https://en.wikipedia.org/wiki/Apollo_Guidance_Computer#/media/File:Agc_view.jpg
+  The Raytheon image I recieved approval email from Raytheon customer relations
 --->
 
 <!---
