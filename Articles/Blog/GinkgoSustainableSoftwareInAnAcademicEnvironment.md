@@ -2,7 +2,7 @@
 
 #### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt)
 
-#### Publication date: January 23, 2019
+#### Publication date: February 11, 2019
 
 **Hero Image:**
 - <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoWorkingTeam.jpeg"/>
