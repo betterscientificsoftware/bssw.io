@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Preparing the Next Generation of Supercomputer Users](../../Articles/Blog/ATPESC.md)
-- Display dates: 01/29/2019 - 02/18/2019
+- [New blog article ... The Art of Writing Scientific Software in an Academic Environment](../../Articles/Blog/GinkgoSustainableSoftwareInAnAcademicEnvironment.md)
+- Display dates: 02/11/2019 - 02/28/2019
 
 <!---
+- [New blog article ... Preparing the Next Generation of Supercomputer Users](../../Articles/Blog/ATPESC.md)
+- Display dates: 01/29/2019 - 02/10/2019
+
 - [New blog article ... Better Scientific Software: 2018 Highlights](../../Articles/Blog/BSSwHighlights2018.md)
 - Display dates: 01/03/2019 - 01/29/2019
 
