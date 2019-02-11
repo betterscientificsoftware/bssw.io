@@ -52,7 +52,7 @@ In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the d
 <br>
 
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoLogo.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_GinkgoLogo.png' class='logo' />
 
 
 ### Sustainable Software Design in Ginkgo
@@ -110,10 +110,10 @@ We are convinced that this software development cycle, along with the sophistica
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Senior Research Scientist position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
 
 <!---
-Publish: preview
-RSS update: 2019-01-23
-Categories: reliability
-Topics: testing
+Publish: yes
+RSS update: 2019-02-11
+Categories: reliability, development
+Topics: testing, design
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
