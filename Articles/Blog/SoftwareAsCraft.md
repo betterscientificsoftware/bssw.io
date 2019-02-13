@@ -8,7 +8,6 @@
 
 #### Publication date: February 25th, 2019
 
-1-sentence explanation of blog article topic goes here -- brief and to the point.
 A focus on craftsmanship in software can matter as much as algorithm design or optimization and show as great a reward.
 
 As part of an effort to improve our software testing my group at work recently started watching Bob Martin’s “Clean Code” videos. What struck me most forcibly about them was not the content itself as I have read and used or rejected almost all of these methods in my career. The real surprise is that somehow I had ceased to utilize them in a full and robust manner. I can think of several reasons why this occurred, understaffing short deadlines and significant technical debt for starters. These are exactly the techniques that are best suited to help resolve those issues in the long term, so how did they get bypassed? The team has been very receptive to adopting good testing, and review practices (and is working on others.) I decided it is important to share reminders about how we should approach software work in general terms that can apply to all our code teams. We have groups in research, operations, and applications working in C, C++, python, bash, fortran, and matlab, so this will be vague. (Java and Ruby do happen, just not in our group as they don’t typically have the numerical libraries and historical support needed.)
