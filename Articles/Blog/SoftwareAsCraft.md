@@ -12,6 +12,7 @@
 A focus on craftsmanship in software can matter as much as algorithm design or optimization and show as great a reward.
 
 As part of an effort to improve our software testing my group at work recently started watching Bob Martin’s “Clean Code” videos. What struck me most forcibly about them was not the content itself as I have read and used or rejected almost all of these methods in my career. The real surprise is that somehow I had ceased to utilize them in a full and robust manner. I can think of several reasons why this occurred, understaffing short deadlines and significant technical debt for starters. These are exactly the techniques that are best suited to help resolve those issues in the long term, so how did they get bypassed? The team has been very receptive to adopting good testing, and review practices (and is working on others.) I decided it is important to share reminders about how we should approach software work in general terms that can apply to all our code teams. We have groups in research, operations, and applications working in C, C++, python, bash, fortran, and matlab, so this will be vague.[^1]
+
 ([^1]: Java and Ruby do happen, just not in our group as they don’t typically have the numerical libraries and historical support needed.)
 
 **Keep it simple**
@@ -41,6 +42,7 @@ So what exactly am I referring to? Interfaces are in fact so ubiquitous in softw
 While Fowler was not actually referring only to interface design it applies well. In my own case, we are dealing with several large legacy codes that use multiple research libraries and several commercial libraries. The dependency graph is the proverbial “[Big Ball of Mud](http://www.laputan.org/mud)”. That means our compile times are slow, extraordinary methods are in place to constrain configure times, and linking is not parallelized as the applications are simply to large. The compiler understands all of this at a cost of time and cpu cycles, but most of the developers are lost without reading prior examples. We do see that not all of our dependencies contribute to this issue. In fact two require only run-time linking to change versions in most cases. The difference is entirely in the volatility of the API and ABI, those products have been well designed to constrain the interfaces, while most of our in-house work and partners are more free-form or completely unstructured.
 
 Interfacing to the compiler or interpreter is the easy part, the humans are harder. When you convolve both of those with build systems as complex as Ant or Makedepend (or worse,) it can seem hopeless. It's not. [^2] Look at and simplify every interface, from PiPiml headers to select library interfaces and readable functions and classes. Create proper python directory packages with small sets of interfaces. In short, make sure you can sort it out easily years down the line when you can't even remember writing this thing. The machine will have far less problems anyway.
+
 [^2](Sure it is other humans can't even hardly feed themselves)
 
 **Remember craftsmanship**
