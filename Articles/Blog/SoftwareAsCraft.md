@@ -62,7 +62,7 @@ Each of us will have their own methods for keeping these principals working. Som
 
 This article was originally published as follows: https://www.linkedin.com/pulse/software-craft-paul-wolfenbarger
 
-#### Author bio
+### Author bio
 <!---
 - Length: 50-100 words.
 - Can include hyperlinks.
