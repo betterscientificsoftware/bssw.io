@@ -1,4 +1,4 @@
-# Software Is As Much or More Craft Than Science
+# Software As Craft
 
 **Hero Image:**
 
@@ -8,7 +8,7 @@
 
 #### Publication date: February 25th, 2019
 
-A focus on craftsmanship in software can matter as much as algorithm design or optimization and show as great a reward.
+Software is as much or more craft than science: a focus on craftsmanship in software can matter as much as algorithm design or optimization and show as great a reward.
 
 As part of an effort to improve our software testing my group at work recently started watching Bob Martin’s “Clean Code” videos. What struck me most forcibly about them was not the content itself as I have read and used or rejected almost all of these methods in my career. The real surprise is that somehow I had ceased to utilize them in a full and robust manner. I can think of several reasons why this occurred, understaffing short deadlines and significant technical debt for starters. These are exactly the techniques that are best suited to help resolve those issues in the long term, so how did they get bypassed? The team has been very receptive to adopting good testing, and review practices (and is working on others.) I decided it is important to share reminders about how we should approach software work in general terms that can apply to all our code teams. We have groups in research, operations, and applications working in C, C++, python, bash, fortran, and matlab, so this will be vague. (Java and Ruby do happen, just not in our group as they don’t typically have the numerical libraries and historical support needed.)
 
@@ -63,13 +63,7 @@ Each of us will have their own methods for keeping these principals working. Som
 This article was originally published as follows: https://www.linkedin.com/pulse/software-craft-paul-wolfenbarger
 
 ### Author bio
-<!---
-- Length: 50-100 words.
-- Can include hyperlinks.
-- Mention your current position, employer, a bit about your background.
-- Include info about your interests related to software productivity and sustainability.
-- Anything else you want to mention.
----!>
+Paul Wolfenbarger is a structural and software engineer at Sandia National Laboratories and a member of the ECP-IDEAS team. His background includes lots of buildings in New Mexico and Texas and he is currently focused on policy and automation to enable legacy HPC software to survive long-term. He is currently thinking about the decision-making process of software maintenance versus replacement. He also tries to keep up with his youngest daughter (a failing effort.)
  
 
 <!---
