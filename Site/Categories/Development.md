@@ -14,7 +14,7 @@ Written text or illustration that accompanies computer software to explain how i
     - [How to Write Good Documentation?](../CuratedContent/HowToWriteGoodDocumentation.md)
 --->
 
-- **Version control:**
+- **Version Control:**
 Management of changes to files.  Also known as revision control, source control, or source management.
 
 <!---
@@ -27,7 +27,7 @@ Management of changes to files.  Also known as revision control, source control,
         - [What Is CSE Software Deployment?](Topics/WhatIsCseSwDeployment.md)
 --->
 
-- **Configuration and builds:**
+- **Configuration and Builds:**
 Installing scientific software from source requires a system for setting up (configuring) software to compile and link (build) the code according to the user's specific platform and needs.
 
 <!---
@@ -50,7 +50,7 @@ Source code in which investments, tangible and in-tangible, are so great that wh
     - [What Is CSE Legacy Code?](Topics/WhatIsCseLegacyCode.md)
 --->
 
-- **Issue tracking:**
+- **Issue Tracking:**
 The process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
 
 <!---
@@ -64,14 +64,14 @@ The process of improving *internal* attributes of a software product (e.g. reada
 - [What Is CSE Software Refactoring?](Topics/WhatIsCseSwRefactoring.md)
 --->
 
-- **Software engineering:**
+- **Software Engineering:**
 Procedures and considerations for getting a well engineered, reliable and maintained software.
 
 <!---
     - [What Is Software Engineering for CSE?](Topics/WhatIsSwEngForCse.md)
 --->
 
-- **Programming languages and tools:**
+- **Programming Languages and Tools:**
 Programming languages as well as tools that support various aspects of software development, such as editors, integrated development environments, performance measurement and analysis tools, and memory checkers.
 
 <!---
