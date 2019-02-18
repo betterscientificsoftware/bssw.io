@@ -22,7 +22,7 @@ The process of ensuring that a software product is meeting its requirements.
     - [How to Improve Testing for CSE Software](../CuratedContent/HowToImproveTestingForCseSw.md)
 --->
 
-- **Continuous integration testing:**
+- **Continuous Integration Testing:**
 A form of testing *maximally* integrated with code commits.
 
 <!---
