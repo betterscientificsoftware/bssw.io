@@ -6,21 +6,21 @@
 
 **Topics:**
 
-- **High-performance computing (HPC):**
+- **High-Performance Computing (HPC):**
 The practice of aggregating computing power in a way that delivers much higher performance than one could get out of a typical desktop computer or workstation in order to solve large problems, often in science and engineering.
 
 <!---
     - [What Is High-Performance Computing?](Topics/WhatIsHighPerfComputing.md)
 --->
 
-- **Performance at leadership computing facilities (LCFs):**
+- **Performance at Leadership Computing Facilities (LCFs):**
 Factors that must be considered when developing software for the leadership-class supercomputers, among the fastest computers in the world.  
 
 <!---
     - [What is Performance at Leadership Computing Facilities?](Topics/WhatIsPerfAtLCFs.md)
 --->
 
-- **Performance portability:**
+- **Performance Portability:**
 Software exhibiting similar performance across multiple platforms, with the time to solution reflecting efficient utilization computational resources on each platform.
 
 <!---
