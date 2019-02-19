@@ -63,7 +63,7 @@ Each of us will have our own method for keeping these principles working. Some w
 This article was originally published as follows: https://www.linkedin.com/pulse/software-craft-paul-wolfenbarger
 
 ### Author bio
-Paul Wolfenbarger is a structural and software engineer at Sandia National Laboratories and a member of the ECP-IDEAS team. His background includes lots of buildings in New Mexico and Texas, and he is currently focused on policy and automation to enable legacy HPC software to survive long-term. He is  thinking about the decision-making process of software maintenance versus replacement. He also tries to keep up with his youngest daughter (a failing effort).
+Paul Wolfenbarger is a structural and software engineer at Sandia National Laboratories and a member of the IDEAS-ECP team. His background includes lots of buildings in New Mexico and Texas, and he is currently focused on policy and automation to enable legacy HPC software to survive long-term. He is  thinking about the decision-making process of software maintenance versus replacement. He also tries to keep up with his youngest daughter (a failing effort).
  
 
 <!---
