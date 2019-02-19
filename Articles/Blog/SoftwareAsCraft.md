@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0219_weaving-a-basket1.png' />
 
 #### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
 
