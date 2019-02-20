@@ -12,7 +12,7 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Containers in HPC
+## Next webinar: Parallel I/O with HDF5: Overview, Tuning, and New Features
 
 ### Date and Time: Wednesday, March 13, 2019, 1:00-2:00 pm ET
 ### Presenter: Quincey Koziol (NERSC)
