@@ -23,7 +23,7 @@ HDF5 is a data model, file format, and I/O library that has become a de facto st
 https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027
 
 ## Past Webinars
-- [*Containers in HPC*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026). Shane Canon (LBNL), 2019-02-13
+- [*Containers in HPC*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026), Shane Canon (LBNL), 2019-02-13
 - [*Quantitatively Assessing Performance Portability with Roofline*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar025), John Pennycook (Intel), Charlene Yang (LBNL) and Jack Deslippe (LBNL), 2019-01-23
 - [*Introduction to Software Licensing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar024), David E. Bernholdt (ORNL), 2018-12-05
 - [*Open Source Best Practices: From Continuous Integration to Static Linters*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar023), Ben Prichard and Daniel Smith (MolSSI), 2018-10-17
