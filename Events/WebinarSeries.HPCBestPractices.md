@@ -14,15 +14,16 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 ## Next webinar: Containers in HPC
 
-### Date and Time: Wednesday, February 13, 2019, 1:00-2:00 pm ET
-### Presenters: Shane Cannon (LBNL)
+### Date and Time: Wednesday, March 13, 2019, 1:00-2:00 pm ET
+### Presenter: Quincey Koziol (NERSC)
 ### Description:
-Containers have gained adoption in the HPC and scientific computing space through specialized runtimes like Shifter, Singularity and Charliecloud. Containers enable reproducible, shareable, portable execution of applications. In this webinar, we will give a brief introduction on how to build images and run containers on HPC systems. We will also discuss some best practices to ensure containers can take full advantage of HPC systems.
+HDF5 is a data model, file format, and I/O library that has become a de facto standard for HPC applications to achieve scalable I/O and for storing and managing big data from computer modeling, large physics experiments and observations. This webinar will give an introduction to using the HDF5 library, with a focus on parallel I/O and performance tuning options. The webinar will also provide an overview of the latest performance and productivity enhancement features being developed as part of the DOE’s Exascale Computing Project (ECP) ExaHDF5 effort, and will present optimizations used in improving I/O performance of ECP applications.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027
 
 ## Past Webinars
+- [*Containers in HPC*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026). Shane Canon (LBNL), 2019-02-13
 - [*Quantitatively Assessing Performance Portability with Roofline*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar025), John Pennycook (Intel), Charlene Yang (LBNL) and Jack Deslippe (LBNL), 2019-01-23
 - [*Introduction to Software Licensing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar024), David E. Bernholdt (ORNL), 2018-12-05
 - [*Open Source Best Practices: From Continuous Integration to Static Linters*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar023), Ben Prichard and Daniel Smith (MolSSI), 2018-10-17
