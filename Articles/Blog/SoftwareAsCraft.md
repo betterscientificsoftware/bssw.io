@@ -67,7 +67,7 @@ Paul Wolfenbarger is a structural and software engineer at Sandia National Labor
  
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2019-02-25
 Categories: development, reliability
 Topics: design, testing
