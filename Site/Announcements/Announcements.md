@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... The Art of Writing Scientific Software in an Academic Environment](../../Articles/Blog/GinkgoSustainableSoftwareInAnAcademicEnvironment.md)
-- Display dates: 02/11/2019 - 02/28/2019
+- [New blog article ... Software as Craft](../../Articles/Blog/SoftwareAsCraft.md)
+- Display dates: 02/25/2019 - 03/13/2019
 
 <!---
+- [New blog article ... The Art of Writing Scientific Software in an Academic Environment](../../Articles/Blog/GinkgoSustainableSoftwareInAnAcademicEnvironment.md)
+- Display dates: 02/11/2019 - 02/24/2019
+
 - [New blog article ... Preparing the Next Generation of Supercomputer Users](../../Articles/Blog/ATPESC.md)
 - Display dates: 01/29/2019 - 02/10/2019
 
