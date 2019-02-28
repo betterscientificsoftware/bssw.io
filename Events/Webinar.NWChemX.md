@@ -1,7 +1,5 @@
 # The SDE -- A General Computational Chemistry Software Framework 
 
-## In the NCSA Blue Waters webinar track on Scientific Software Ecosystems
-
 - Date: March 27, 2019
 - Location: Online
 - Event Website: https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems/chemistry
