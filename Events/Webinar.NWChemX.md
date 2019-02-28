@@ -1,4 +1,4 @@
-# SDE: A General Computational Chemistry Software Framework 
+# SDE: A General Computational Chemistry Software Framework (Blue Waters Webinar)
 
 - Date: March 27, 2019
 - Location: Online
