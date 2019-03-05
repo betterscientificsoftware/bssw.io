@@ -34,7 +34,7 @@ We welcome you to attend the [webinar series on Best Practices for HPC Software 
 We encourage you to contribute to accelerating scientific discovery by participating in community efforts such as [Better Scientific Software](https://bssw.io), the UK's [Software Sustainability Institute](https://software.ac.uk), and the [US Research Software Sustainability Institute](http://urssi.us) to enhance the development and applications of reusable software.
 
 ### Author bio
-[Scott Lathrop](https://github.com/scottlathrop) xxxx xxxx ... bio goes here. 
+[Scott Lathrop](https://github.com/scottlathrop) coordinates the [education, outreach and training activities for the Blue Waters project](https://bluewaters.ncsa.illinois.edu/education-overview). Lathrop has served as a member of the SC Steering Committee and has been the Conference Chair for the SC’11 and XSEDE14 Conferences.  He is a member of ACM and IEEE, and an ex-officio officer of the [ACM SIGHPC Education Chapter](https://sighpceducation.acm.org). Lathrop has been active in the planning and participation in HPC education and training workshops at numerous conferences, including the ISC, PEARC and SC Conferences.
 
 <!---
 - Guidance for author bio:
