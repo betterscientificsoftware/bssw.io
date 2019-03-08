@@ -1,10 +1,11 @@
 # Accelerating Scientific Discovery with Reusable Software: Special issue of IEEE CiSE    
 
-#### [Scott Lathrop](https://github.com/scottlathrop "Scott Lathrop GitHub Profile")
+**Hero Image:**
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0319_CiSEIssueMono_1176x432.png" />[2018 Highlights]
+
+#### Contributed by [Scott Lathrop](https://github.com/scottlathrop "Scott Lathrop GitHub Profile")
 
 #### Publication date: March 11, 2019
-
-Matt will insert hero image following https://publications.computer.org/cise (when this is updated for March/April)
 
 ### Is your research code giving you the best "time to science"?
 
