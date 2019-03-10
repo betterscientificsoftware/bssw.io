@@ -15,20 +15,20 @@ We recognize that many research teams lack the resources and expertise to focus 
 
 ### Reusable software
 
-We encourage you to read  the [March/April issue of *IEEE Computing in Science and Engineering*](https://publications.computer.org/cise). This issue includes six papers on “Accelerating Scientific Discovery with Reusable Software.” These papers describe proven strategies for enhancing computational and data analytics research:
+We encourage you to read  the [March/April issue of *IEEE Computing in Science and Engineering*](https://www.computer.org/csdl/magazine/cs). This issue includes six papers on “Accelerating Scientific Discovery with Reusable Software.” These papers describe proven strategies for enhancing computational and data analytics research:
 
-* _Community organizations: Changing the culture in which research software is developed and sustained_ (Katz et al.) ... survey of organizational efforts for developing better scientific software
-* _The role of scientific communities in creating reusable software: Lessons from geophysics_ (Kellogg et al.) ... introduction to the CIG community and best practices for developing reusable software for geophysics
-* _A community of practice around peer review for long-term research software sustainability_ (Ram et al.) ... overview of rOpenSci and best practices for developing software to support reproducible science
-* _Developing a computational chemistry framework for the exascale era_ (Richard et al.) ... strategy for designing NWChemEx to enable extreme-scale, collaborative computational chemistry
-* _How to professionally develop reusable scientific software – and when not to_ (Adorf et al.) ... approach for balancing reusable scientific software development with obtaining rapid scientific results
-* _Fostering reuse in scientific computing with embedded components_ (Lanore) ... component-based programming paradigm for building and using reusable software
+* _Community organizations: Changing the culture in which research software is developed and sustained_ (Daniel S. Katz et al.) ... survey of organizational efforts for developing better scientific software
+* _The role of scientific communities in creating reusable software: Lessons from geophysics_ (Louise H. Kellogg et al.) ... introduction to the CIG community and best practices for developing reusable software for geophysics
+* _A community of practice around peer review for long-term research software sustainability_ (Karthik Ram et al.) ... overview of rOpenSci and best practices for developing software to support reproducible science
+* _Developing a computational chemistry framework for the exascale era_ (Ryan M. Richard et al.) ... strategy for designing NWChemEx to enable extreme-scale, collaborative computational chemistry
+* _How to professionally develop reusable scientific software – and when not to_ (Carl S. Adorf et al.) ... approach for balancing reusable scientific software development with obtaining rapid scientific results
+* _Fostering reuse in scientific computing with embedded components: Application to Bayesian inference for bioinformatics_ (Vincent Lanore) ... component-based programming paradigm for building and using reusable software
 
 ### Webinar series related to reusable software
 
-We welcome you to attend the Blue Waters Webinar series, which includes a track on Scientific Software Ecosystems; see https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems ... The next speaker in the series (March 27) will discuss the strategy for designing NWChemX. 
+We welcome you to attend the Blue Waters Webinar series, which includes a track on Scientific Software Ecosystems; see https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems ... The next speaker in the track (March 27) is Ryan Richard, who will discuss the strategy for designing NWChemX; on May 15 Lorraine Hwang will discuss scientific software communities in geophysics.
 
-We welcome you to attend the [webinar series on Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars), presented by the IDEAS Productivity project, in partnership with the Argonne Leadership Computing Facility (ALCF), National Energy Research Scientific Computing Center (NERSC), Oak Ridge Leadership Computing Facility (OLCF), and the DOE Exascale Computing Project (ECP).  
+We also invite you to attend the [webinar series on Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars), presented by the IDEAS Productivity project, in partnership with the Argonne Leadership Computing Facility (ALCF), National Energy Research Scientific Computing Center (NERSC), Oak Ridge Leadership Computing Facility (OLCF), and the DOE Exascale Computing Project (ECP).  
 
 ### Get involved!
 
