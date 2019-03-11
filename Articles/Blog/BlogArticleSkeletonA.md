@@ -23,9 +23,8 @@ xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx xxxx xxxx xxxxx 
 ### Author bio
 
 - Guidance for author bio:
-- Length: 50-100 words.
-- Can include hyperlinks.
-- Mention your current position, employer, a bit about your background.
+- Length: 50-100 words (paragraph form), can include hyperlinks.  
+- Mention your current position, employer, a bit about your background. 
 - Include info about your interests related to software productivity and sustainability.
 - Anything else you want to mention.
 
