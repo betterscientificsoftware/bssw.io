@@ -9,7 +9,7 @@
 
 ### Is your research code giving you the best "time to science"?
 
-Every field of research is under increasing pressure to publish high-quality, reproducible results more quickly -- to reduce the “time to science” or, more generally, the "time to scholarship."
+Every field of research is under increasing pressure to publish high-quality, reproducible results more quickly  &mdash; to reduce the “time to science” or, more generally, the "time to scholarship."
 
 We recognize that many research teams lack the resources and expertise to focus on getting the best performance from their software codes on today’s constantly evolving computing environments, adding new complex features to improve their computational methods, or using practices that may simplify and improve their software development and maintenance. And yet, for many years now, many projects  have been aggressively developing high-quality software and documenting their good practices. Research teams that have adopted these highly developed libraries, software modules, and good practices have realized significant improvements. They have enhanced the quality of their research findings, expanded their ability to solve more complex problems, and   published computationally based research more quickly. Their research software can be reused to both verify and validate the research findings, as well as to conduct further research.
 
