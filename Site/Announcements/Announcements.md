@@ -2,7 +2,7 @@
 
 Announcement:
 - [New blog article ... Software as Craft](../../Articles/Blog/SoftwareAsCraft.md)
-- Display dates: 02/25/2019 - 03/13/2019
+- Display dates: 02/25/2019 - 03/17/2019
 
 <!---
 - [New blog article ... The Art of Writing Scientific Software in an Academic Environment](../../Articles/Blog/GinkgoSustainableSoftwareInAnAcademicEnvironment.md)
