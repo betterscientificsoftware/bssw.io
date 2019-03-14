@@ -7,7 +7,7 @@
 
 During their tenure, the 2018 BSSw Fellows used their skills – in code review, reproducibility, software citation, and modern C++ — to tackle scientific software development and sustainability challenges.  
 
-BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Read more about how our 2018 BSSw fellows are making an impact on scientific software development.
+BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. This is how our 2018 BSSw fellows are making an impact on scientific software development.
 
 ### Fellows improve code quality
 
