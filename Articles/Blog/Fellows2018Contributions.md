@@ -1,8 +1,5 @@
 # 2018 BSSw Fellows Tackle Scientific Productivity Challenges
 
-**Hero Image:**
-
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
 
 #### Contributed by [Hai Ah Nam](https://github.com/PersonA "Person A GitHub Profile")
 
