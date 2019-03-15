@@ -5,7 +5,7 @@
 
 #### Publication date: March 26, 2019
 
-BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Here's what our 2018 BSSw fellows are up to.
+BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Here's what our 2018 fellows are up to.
 
 
 ### Fellows are improving code quality
@@ -27,7 +27,7 @@ Ivo is a Ph.D. student in Computer Science at the University of California, Sant
 
 ### Fellows are giving software developers long-overdue credit
 
-Paper citations are tracked to measure impact, similarly software citations should be tracked to measure impact and recognize the significant time spent developing software & data. BSSw Fellow Daniel S. Katz developed principles for software citation to make scientific software more sustainable by providing credit to its developers, similar to research via paper citations. He led working groups to produce the principles, and is currently working with publishers on implementation to impact institutionalized citation practices. Learn more about software citation through his webinar recording and slides: [Software Citation Today and Tomorrow](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), April 2018
+Paper citations are tracked to measure impact, similarly software citations should be tracked to measure impact and recognize the significant time spent developing software and data. BSSw Fellow Daniel S. Katz developed principles for software citation to make scientific software more sustainable by providing credit to its developers, similar to research via paper citations. He led working groups to produce the principles, and is currently working with publishers on implementation to impact institutionalized citation practices. Learn more about software citation through his webinar recording and slides: [Software Citation Today and Tomorrow](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), April 2018
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_katz.jpg' class='logo' />
