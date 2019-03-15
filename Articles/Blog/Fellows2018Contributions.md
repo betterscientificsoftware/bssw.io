@@ -14,7 +14,7 @@ Even the most seasoned code developer can spend countless hours tracking down a 
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_carver.jpg' class='logo' />
-Jeff is a Professor of Computer Science at the University of Alabama. [Contact Jeff](mailto:carver@cs.ua.edu) if you are interested in hosting a tutorial and developing code review in your organization.
+Jeff is a Professor of Computer Science at the University of Alabama. <a href="mailto:carver@cs.ua.edu">Contact Jeff</a> if you are interested in hosting a tutorial and developing code review in your organization.
 
 
 ### Fellows are enabling reproducible computational research
