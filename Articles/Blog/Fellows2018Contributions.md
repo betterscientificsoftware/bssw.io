@@ -45,7 +45,7 @@ Andrew is a Fellow at Pacific Northwest National Laboratory, Affiliate Professor
 
 ### Learn more about the BSSw Fellowship program
 
-BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship) and work underway by the [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows). We will begin accepting applications for 2020 BSSw Fellowships during September 2019. Register for the [BSSw Digest](https://bssw.io/pages/receive-our-email-digest) to receive information.
+BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship) and work underway by the [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows). We will begin accepting applications for 2020 BSSw Fellowships during September 2019. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
 
 ### Author bio
