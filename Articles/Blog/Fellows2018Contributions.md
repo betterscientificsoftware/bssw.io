@@ -1,11 +1,11 @@
 # 2018 BSSw Fellows Tackle Scientific Productivity Challenges
 
 
-#### Contributed by [Hai Ah Nam](https://github.com/PersonA "Person A GitHub Profile")
+#### Contributed by [Hai Ah Nam](https://github.com/PersonA "Hai Ah Nam GitHub Profile")
 
 #### Publication date: March 26, 2019
 
-BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Here's what our 2018 fellows have been up to.
+BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
 During their tenure, 2018 BSSw Fellows used their skills -- in code review, reproducibility, software citation, and modern C++ -- to create tutorials, webinars, and tools that help to tackle challenges in scientific software development and sustainability.  Read more about how our 2018 BSSw fellows are impacting scientific software development.
 
@@ -43,8 +43,14 @@ Just because the programming language allows you to do it doesn’t mean you sho
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_lumsdaine.jpg' class='logo' />
 Andrew is a Fellow at Pacific Northwest National Laboratory, Affiliate Professor of Computer Science at the University of Washington, and Chief Scientist at Northwest Institute for Advanced Computing.  
 
+### Learn more about the BSSw Fellowship program
+
+BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship) and work underway by the [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows). We will begin accepting applications for 2020 BSSw Fellowships during September 2019. Register for the [BSSw Digest](https://bssw.io/pages/receive-our-email-digest) to receive information.
+
+
 ### Author bio
 
+Ha Ah Nam is Coordinator of the BSSw Fellowship Program.  She ....
 - Guidance for author bio:
 - Length: 50-100 words (paragraph form), can include hyperlinks.  
 - Mention your current position, employer, a bit about your background. 
