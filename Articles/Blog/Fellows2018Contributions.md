@@ -16,6 +16,7 @@ Even the most seasoned code developer can spend countless hours tracking down a 
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_carver.jpg' class='logo' />
+
 Jeff is a Professor of Computer Science at the University of Alabama. <a href="mailto:carver@cs.ua.edu">Contact Jeff</a> if you are interested in hosting a tutorial and developing code review in your organization.
 
 
@@ -25,6 +26,7 @@ If you can’t repeat your experiments and others can’t reproduce your results
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_jiminez.jpg' class='logo' />
+
 Ivo is a Ph.D. student in Computer Science at the University of California, Santa Cruz.  
 
 ### Fellows give software developers long-overdue credit
@@ -33,6 +35,7 @@ Paper citations are tracked to measure impact; similarly, software citations sho
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_katz.jpg' class='logo' />
+
 Dan is a Research Associate Professor of Computer Science at the University of Illinois at Urbana-Champaign and Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications.  
 
 ### Fellows guide efficient use of modern C++ 
@@ -41,6 +44,7 @@ Just because a programming language allows various approaches doesn’t mean tha
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_lumsdaine.jpg' class='logo' />
+
 Andrew is a Fellow at Pacific Northwest National Laboratory, Affiliate Professor of Computer Science at the University of Washington, and Chief Scientist at Northwest Institute for Advanced Computing.  
 
 ### Learn more about the BSSw Fellowship program
@@ -50,7 +54,7 @@ BSSw Fellows are selected annually based on an application process that includes
 
 ### Author bio
 
-Hai Ah Nam is Coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team and a computational physicist at Los Alamos National Laboratory.  Her a background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading the Trinity Center of Excellence, helping to improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing) codes for [Trinity](https://www.lanl.gov/projects/trinity/index.php) and future architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
+Hai Ah Nam is Coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her a background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading the Trinity Center of Excellence, helping to improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing) codes for [Trinity](https://www.lanl.gov/projects/trinity/index.php) and future architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
 
 
 <!---
