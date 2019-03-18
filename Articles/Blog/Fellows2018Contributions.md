@@ -1,7 +1,7 @@
 # 2018 BSSw Fellows Tackle Scientific Productivity Challenges
 
 
-#### Contributed by [Hai Ah Nam](https://github.com/PersonA "Hai Ah Nam GitHub Profile")
+#### Contributed by [Hai Ah Nam](https://github.com/hmanLANL "Hai Ah Nam GitHub Profile")
 
 #### Publication date: March 26, 2019
 
@@ -50,12 +50,7 @@ BSSw Fellows are selected annually based on an application process that includes
 
 ### Author bio
 
-Ha Ah Nam is Coordinator of the BSSw Fellowship Program.  She ....
-- Guidance for author bio:
-- Length: 50-100 words (paragraph form), can include hyperlinks.  
-- Mention your current position, employer, a bit about your background. 
-- Include info about your interests related to software productivity and sustainability.
-- Anything else you want to mention.
+Hai Ah Nam is Coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team and a computational physicist at Los Alamos National Laboratory.  Her a background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading the Trinity Center of Excellence, helping to improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing) codes for [Trinity](https://www.lanl.gov/projects/trinity/index.php) and future architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
 
 
 <!---
