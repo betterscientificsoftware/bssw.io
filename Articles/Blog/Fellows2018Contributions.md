@@ -11,7 +11,8 @@ During their tenure, 2018 BSSw Fellows have used their skills -- in code review,
 
 
 ### Fellows improve code quality
-<i>Even the most seasoned code developer can spend countless hours tracking down a bug that could have been caught with peer code review. </i>
+---
+**_Even the most seasoned code developer can spend countless hours tracking down a bug that could have been caught with peer code review._ **
 
 BSSw Fellow <b>Jeffrey Carver</b> modernizes scientific software quality assurance by teaching contemporary peer code review in scientific software development through best practices tutorials and hands-on code review exercises. His tutorial includes a general introduction to code review, a more specific discussion of the unique nature of scientific code review, and an overview of available tool support. Tutorial attendees participate in hands-on exercises to practice code review. The tutorial concludes with a group discussion about best practices for performing scientific code review. Learn more about peer code review through his tutorial website (including slides): [Contemporary Peer Code Review Practices](https://se4science.org/tutorials/ECP19/), from the 2019 Annual Meeting of the DOE Exascale Computing Project. 
 <p>&nbsp;</p>
