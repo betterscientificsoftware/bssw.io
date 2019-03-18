@@ -10,7 +10,7 @@ BSSw Fellowships provide resources and community to those who foster and promote
 During their tenure, 2018 BSSw Fellows have used their skills -- in code review, reproducibility, software citation, and modern C++ -- to create tutorials, webinars, and tools that help to tackle challenges in scientific software development and sustainability.  Read more about how the 2018 BSSw fellows are impacting scientific software development.
 
 
-### Fellows improve code quality
+###  :diamond_shape_with_a_dot_inside: Fellows improve code quality
 > _Even the most seasoned code developer can spend countless hours tracking down a bug that could have been caught with peer code review._ 
 
 BSSw Fellow <b>Jeffrey Carver</b> modernizes scientific software quality assurance by teaching contemporary peer code review in scientific software development through best practices tutorials and hands-on code review exercises. His tutorial includes a general introduction to code review, a more specific discussion of the unique nature of scientific code review, and an overview of available tool support. Tutorial attendees participate in hands-on exercises to practice code review. The tutorial concludes with a group discussion about best practices for performing scientific code review. Learn more about peer code review through his tutorial website (including slides): [Contemporary Peer Code Review Practices](https://se4science.org/tutorials/ECP19/), from the 2019 Annual Meeting of the DOE Exascale Computing Project. 
@@ -22,7 +22,7 @@ Jeff is a Professor of Computer Science at the University of Alabama. <a href="m
 
 
 
-### Fellows enable reproducible computational research
+###  :diamond_shape_with_a_dot_inside: Fellows enable reproducible computational research
 > _If you can’t repeat your experiments and others can’t reproduce your results, it is difficult to claim with confidence that your experiments have advanced science._  
 
 BSSw Fellow <b>Ivo Jimenez</b> created Popper, a tool to automate computational experimentation, organize artifacts, and validate results to enable high standards of reproducibility in computational research. He created an online lesson on Popper and delivered several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate. Learn more about Popper through his webinar recording and slides: [Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), June 2018.
@@ -34,7 +34,7 @@ Ivo is a Ph.D. student in Computer Science at the University of California, Sant
 
 
 
-### Fellows give software developers long-overdue credit
+###  :diamond_shape_with_a_dot_inside: Fellows give software developers long-overdue credit
 > _Paper citations are tracked to measure impact; similarly, software citations should be tracked to measure impact and recognize the significant time spent developing software and data._ 
 
 BSSw Fellow <b>Daniel S. Katz</b> developed principles for software citation to make scientific software more sustainable by providing credit to its developers, similar to research via paper citations. He led working groups to produce the principles, and he is currently working with publishers on implementation to impact institutionalized citation practices. Learn more about software citation through his webinar recording and slides: [Software Citation Today and Tomorrow](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), April 2018.
@@ -46,7 +46,7 @@ Dan is a Research Associate Professor of Computer Science at the University of I
 
 
 
-### Fellows guide efficient use of modern C++ 
+###  :diamond_shape_with_a_dot_inside: Fellows guide efficient use of modern C++ 
 > _Just because a programming language allows various approaches doesn’t mean that you should use them; programming is an art that should consider quality, sustainability, and performance._  
 
 BSSw Fellow <b>Andrew Lumsdaine</b> has developed best practices for high-performance and high-quality software using modern C++ (up through C++17) for high-performance computing.  His course materials include performance-orientated topics and migration from Fortran or previous versions of C++.  Learn more about high-performance modern C++ through an upcoming webinar (June 2019) in the series [HPC Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars).
