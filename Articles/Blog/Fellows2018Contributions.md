@@ -65,7 +65,7 @@ Hai Ah Nam is Coordinator of the BSSw Fellowship Program, a member of the IDEAS-
 
 
 <!---
-Publish: Preview
+Publish: yes
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-blog-article
