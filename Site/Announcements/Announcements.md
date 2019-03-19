@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... 2018 BSSw Fellows Tackle Challenges in Scientific Productivity](../../Articles/Fellows2018Contributions1.md)
+- [New blog article ... 2018 BSSw Fellows Tackle Challenges in Scientific Productivity](../../Articles/Blog/Fellows2018Contributions.md)
 - Display dates: 03/18/2019 - 03/29/2019
 
 <!---
