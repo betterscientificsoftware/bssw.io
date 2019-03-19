@@ -3,7 +3,7 @@
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
 
-#### Publication date: March 18, 2019
+#### Publication date: March 28, 2019
 
 BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
@@ -65,7 +65,7 @@ Hai Ah Nam is Coordinator of the BSSw Fellowship Program, a member of the IDEAS-
 
 
 <!---
-Publish: yes
+Publish: preview
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-blog-article
