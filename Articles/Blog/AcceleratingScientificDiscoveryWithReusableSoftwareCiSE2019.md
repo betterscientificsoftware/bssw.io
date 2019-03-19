@@ -5,7 +5,7 @@
 
 #### Contributed by [Scott Lathrop](https://github.com/scottlathrop "Scott Lathrop GitHub Profile")
 
-#### Publication date: March 11, 2019
+#### Publication date: March 19, 2019
 
 ### Is your research code giving you the best "time to science"?
 
