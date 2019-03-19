@@ -6,7 +6,7 @@ The Better Scientific Software (BSSw) Fellowship Program gives recognition and f
 
 The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  We also anticipate accumulating a growing community of BSSw Fellowship alums who can serve as leaders, mentors, and consultants to increase the visibility of those involved in scientific software production and sustainability in the pursuit of scientific discovery.
 
-**BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software.  We select at least three Fellows per year and honorable mentions as appropriate.  Each 2019 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.**  Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
+**BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software.  We select at least three Fellows per year and honorable mentions as appropriate.  Each 2019 BSSw Fellow receives up to $25,000 for an activity that promotes better scientific software.**  Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
 BSSw Fellows receive funds through their respective institution for one year.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
@@ -24,19 +24,20 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly benefit the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows and promote better scientific software in their community.
 
-### 2019 BSSw Fellowship Application Form: [click here](https://docs.google.com/forms/d/1PLW9vo4DgYz-Sxg_gtskL49NVBSZciOeTIAhQ6CbhN4/edit)
+### 2020 BSSw Fellowship Application Form: Opening September 2019
 
-### Timeline for 2019 BSSw Fellowship Program
+### Timeline for 2020 BSSw Fellowship Program
 
-- **Tuesday, Sept 4, 2018**: Fellowship application process opens.
-- **Friday, Sept 21, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details.
+- **Tuesday, Sept 3, 2019**: Fellowship application process opens.
+- **Friday, Sept 20, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details.
   - If you missed the webinar, please see the [FAQ page](https://bssw.io/resources/bssw-fellowship-program-faq-2019) for links to a recording, as well as the questions that have been raised (with answers, of course!)
-- **Tuesday, Oct 16, 2018**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
-- **Jan 8, 2019 - March 31, 2020**: Period of performance for 2019 BSSw Fellows.
-- **Jan 15-17, 2019**: Fellows announced at DOE ECP Annual Meeting in Houston, TX.
+- **Tuesday, Oct 15, 2019**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
+- **Jan 6, 2019 - March 31, 2020**: Period of performance for 2019 BSSw Fellows.
+- **Jan 2020**: Fellows announced at DOE ECP Annual Meeting.
 
 ### More Information
 
+- [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows) ... Read about the 2019 BSSw Fellows.
 - [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives) ... Read about work of the 2018 BSSw Fellows and their perspectives on the program.
-- [FAQ for the 2019 BSSw Fellowship Program](https://bssw.io/resources/bssw-fellowship-program-faq-2019) ... Check back for updates; we will post additional Q&A here as these arise.
+- [FAQ for the BSSw Fellowship Program](https://bssw.io/resources/bssw-fellowship-program-faq-2019) ... Check back for updates; we will post additional Q&A here as these arise.
 - If you have additional questions, please contact us at <info@bssw.io>.

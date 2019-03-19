@@ -1,4 +1,8 @@
 # Quotes
+- We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%. -- Donald Knuth
+
+- Any fool can write code that a computer can understand. Good programmers write code that humans can understand. -- Martin Fowler
+
 - Give me six hours to chop down a tree and I will spend the first four sharpening the axe. -- Abraham Lincoln
 
 - The function of good software is to make the complex appear to be simple. -- Grady Booch
