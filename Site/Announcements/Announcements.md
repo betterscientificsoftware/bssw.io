@@ -2,7 +2,7 @@
 
 
 Announcement:
-- [New blog article ... 2018 BSSw Fellows Tackle Challenges in Scientific Productivity](../../Articles/Blog/Fellows2018Contributions.md)	- [New blog article ... Accelerating Scientific Discovery with Reusable Software: Special issue of IEEE CiSE](../../Articles/Blog/AcceleratingScientificDiscoveryWithReusableSoftwareCiSE2019.md)
+- [New blog article ... Accelerating Scientific Discovery with Reusable Software: Special issue of IEEE CiSE](../../Articles/Blog/AcceleratingScientificDiscoveryWithReusableSoftwareCiSE2019.md)
 - Display dates: 03/18/2019 - 03/29/2019	- Display dates: 03/18/2019 - 03/29/2019
 
 <!---
