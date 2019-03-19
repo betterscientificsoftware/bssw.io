@@ -1,8 +1,8 @@
-# 2018 BSSw Fellows Tackle Scientific Productivity Challenges
+# 2018 BSSw Fellows Tackle Challenges in Scientific Productivity
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
 
-#### Publication date: March 18, 2019
+#### Publication date: March 19, 2019
 
 BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
