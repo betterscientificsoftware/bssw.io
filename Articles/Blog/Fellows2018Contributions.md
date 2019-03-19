@@ -9,7 +9,7 @@ BSSw Fellowships provide resources and community to those who foster and promote
 
 During their tenure, 2018 BSSw Fellows have used their skills — in code review, reproducibility, software citation, and modern C++ — to create tutorials, webinars, and tools that help to tackle challenges in scientific software development and sustainability.  Here's more about what they have been up to.
 
-
+---
 ### Fellows improve code quality
 _Even the most seasoned code developer can spend countless hours tracking down a bug that could have been caught with peer code review._ 
 
@@ -21,7 +21,7 @@ BSSw Fellow Jeffrey Carver modernizes scientific software quality assurance by t
 Jeff is a Professor of Computer Science at the University of Alabama. <a href="mailto:carver@cs.ua.edu">Contact Jeff</a> if you are interested in hosting a tutorial and developing code review in your organization.
 
 
-
+---
 ### Fellows enable reproducible computational research
 _If you can’t repeat your experiments and others can’t reproduce your results, it is difficult to claim with confidence that your experiments have advanced science._  
 
@@ -33,7 +33,7 @@ BSSw Fellow Ivo Jimenez created Popper, a tool to automate computational experim
 Ivo is a Ph.D. student in Computer Science at the University of California, Santa Cruz.  
 
 
-
+---
 ### Fellows give software developers long-overdue credit
 _Paper citations are tracked to measure impact; similarly, software citations should be tracked to measure impact and recognize the significant time spent developing software and data._ 
 
@@ -45,7 +45,7 @@ BSSw Fellow Daniel S. Katz developed principles for software citation to make sc
 Dan is a Research Associate Professor of Computer Science at the University of Illinois at Urbana-Champaign and Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications.  
 
 
-
+---
 ### Fellows guide efficient use of modern C++ 
 _Just because a programming language allows various approaches doesn’t mean that you should use them; programming is an art that should consider quality, sustainability, and performance._  
 
