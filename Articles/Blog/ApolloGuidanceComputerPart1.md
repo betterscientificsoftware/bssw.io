@@ -14,7 +14,7 @@ This year, July 20th will mark the 50th anniversary of the 1969 Apollo 11 Moon l
 
 In commemoration of this historical achievement, this is the first of three articles about the AGC. Part 1 describes the hardware. Part 2 will describe the software and part 3 its application in Moon missions. In the years since its development, jargon may have changed but the HPC community will recognize many common themes such as flops/watt power constraints, checkpoint and restart strategies, the need for performance portability and more.
 
-### The AGC Architecture: A Giant Leap in FLOPS<sup>*</sup> per W, Kg, m<sup>3</sup> 
+### The AGC Architecture: A Giant Leap in FLOPS<sup>a</sup> per W, Kg, m<sup>3</sup> 
 
 Apollo needed a computer orders of magnitude better than those typical of the era; lower power, lighter weight, smaller size, greater reliability and able to operate in the extreme environmental conditions of space flight. In mid-1961, NASA accorded MIT/Draper Labs “sole source” status to design the AGC and soon after selected Raytheon to manufacture them<sup>[6]</sup>. Both had been involved in development of the Polaris missile GNC system<sup>[22]</sup>.
 
@@ -30,11 +30,11 @@ The AGC was the first computer to use integrated circuits. It was constructed en
 |IBM 360-20<sup>[10],[11]</sup>|7,400|32|3,011|(5000) 0.6|(600) 5|(30.00) 100|
 |IBM AC922 (Summit<sup>[28],[29],[42]</sup>)|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13|
 
-<sup>*</sup>FLOP = single precision multiply + add
+<sup>a</sup>FLOP = single precision multiply + add
 
 ### Rope Core: A New Type of NVM
 
-The AGC utilized two types of core memory<sup>[17]</sup>; erasable memory using coincident current cores and fixed (read-only) memory using rope cores<sup>[18]</sup>, technology specifically designed for and unique to the AGC. Both were non-volatile providing extra protection against data loss during faults. The advantages of rope core were superlative robustness and significantly higher density because a single core stored 24 bits<sup>[16]</sup>. On the other hand, rope core took weeks of painstaking labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or around (logical ‘0’) arrays of cores. Bugs were costly to correct and often just worked around with additional steps in astronaut checklists or even by revising mission parameters. Raytheon was never able to fully automate this crucial manufacturing step. Instead, they hired an army of experienced textile workers from the New England area, all women. Remarkably, weaving and its place in computing dates back more than 150 years *before* the AGC to the Jacquard Loom<sup>[40],[46]</sup>.
+The AGC utilized two types of core memory<sup>[17]</sup>; erasable memory using coincident current cores and fixed (read-only) memory using rope cores<sup>[18]</sup>, technology specifically designed for and unique to the AGC. Both were non-volatile providing extra protection against data loss during faults. The advantages of rope core were superlative robustness and significantly higher density because a single core stored 24 bits<sup>[16]</sup>. On the other hand, rope core took weeks of painstaking labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or around (logical ‘0’) arrays of cores. Bugs were costly to correct and often just worked around with additional steps in astronaut checklists or even by revising mission parameters. Raytheon was never able to fully automate this crucial manufacturing step. Instead, they hired an army of experienced textile workers from the New England area, all women. Remarkably, weaving and its place in computing dates back more than 150 years *earlier* to the Jacquard Loom<sup>[40],[46]</sup>. Present data operating system's use of terms such *core dump* or *core image* derive their names from this early memory technology.
 
  
 | ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_RaytheonWorker.jpg) |

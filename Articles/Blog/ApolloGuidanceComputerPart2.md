@@ -10,30 +10,40 @@
 
 *Part two of three about the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
 
-The Guidance, Navigation and Control (GN&C)<sup>[3]</sup> system for Apollo was deemed so
-critical, it was the first contract NASA awarded only months after Kennedy's speech
-to congress announcing plans for a Moon landing<sup>[4]</sup>. So much of the initial
-focus was on the hardware that no one involved at the time, either at NASA or MIT,
-had any clue about the monumental software development task that lay ahead.
+In mid-2016, with the help of MIT as well as various retro-computing and software archeology
+enthusiasts, the AGC source code for the Apollo 11 mission went live on GitHub<sup>[7]</sup>. In
+all likelihood, it is the oldest *maintained* code on GitHub. It can even be compiled and run
+on the Virtual AGC<sup>[8]</sup>. Back in 1962, long before a single line of that code had been written, a
+bug in the guidance software for Mariner 1<sup>[1]</sup> forced it to self-destruct only 294 seconds
+after launch. ($18.5M (153M in 2019 dollars)). Investigations found the bug to have originated in the
+hand-written guidance equations upon which the software was based. An over-bar to indicate the use
+of *average* rather than *instantaneous* velocity was missing.
 
-Before a single line of code had been written, the consequences of failure were painfully
-demonstrated during the launch of Mariner 1<sup>[1]</sup>. A bug in the guidance software forced
-flight controllers to send it a self-destruct command 294 seconds after launch
-($18.5M (153M in 2019 dollars)). Investigations revealed the same bug existed in several
-previous Ranger missions<sup>[6]</sup> but luckily did not manifest. Because Mariner had also suffered a
-non-critical hardware failure, the guidance software had taken a different logic path, one that had never
-been exercised previously. The bug was later found to have originated in the hand-written equations
-upon which the guidance software was based; a missing over-bar to indicate the use of average rather
-than instantaneous velocity.
+The Guidance, Navigation and
+Control (GN&C)<sup>[3]</sup> system for Apollo was deemed so critical, it was the first
+contract NASA awarded only months after Kennedy's speech to congress announcing plans for
+a Moon landing<sup>[4]</sup>. So much of the initial focus was on the hardware that no one
+involved at the time, at NASA or MIT, had any clue about the monumental software development
+task that lay ahead. (work the dates in)
 
-The complete GN&C system was much more than
-the computer. It involved the
+The present day HPC community will sympathize with many of the challenges the AGC software 
+development team faced; tight memory constraints, tighter delivery deadlines, sufficient
+testing resoruces, auto documentation tools, software oversight committees, communications
+constantly evolving requirements, developing software of as yet unknown hardware, developing
+maintaining multiple lines of development, supporting multiple different architectures
+(block 1 and 2), improving processes, 
 
-The biggest challenge was that all of these components were being developed almost simultaneously.
-Their size, weight, interfaces, performance characteristics and anticipated position within the
-spacecraft (which effects things like center of mass, torques, moments, angles, etc.), were constantly
-changing. In addition, NASA's expectations for what functions the GN&C system would perform were also
-expanding (requirements creep). A lot of the changes were motiviated for increased safety and optimizing
+## The Integrated GN&C System
+
+The software was only the central component of an *integrated* collection of hardware
+that formed the while GN&C system.
+
+The biggest challenge facing software developers was that all of these components were under
+development almost simultaneously. Their interfaces, performance characteristics size, weight
+and even anticipated position within the spacecraft (which effects things like center of mass,
+torques, moments, angles, etc.), were constantly changing throughout the early stages of development.
+In addition, NASA's expectations for what functions the GN&C system would perform were also expanding
+(requirements creep). A lot of the changes were motiviated by increasing safety margins, optimizing
 the use of propellents.
 
 Viewed holistically, the GN&C system was a massive feedback control system. Th
@@ -41,16 +51,27 @@ Fortunately, early on in the software development, the problem was to understand
 spacecraft motions and developing numerical algorithms capable of utilizing the available data to estimate
 control responses would provide the essentail control 
 
-There was no "secondary memory" in the AGC. All software and data had to fit within the rope memory.
 
 This were primarily a concern during powered flight (velocity changes)...when the main engine. So, a
 Moon mission was typically broken down into pieces, each piece focusing on the specifics of the 
+
 velocity manuervers required for that portion of the mission. Those involving motions near the Moon
 were the most crucial. Lunar Orbit Insertion...there's an app for that, Lunar Landing...there's an
 app for that, Lunar liftoff...there's an app for that and Lunar Orbit Rendevouz.
 Abort scenarious . 
 Without a doubt, the single most important being Lunar landing and 
 
+## Core Memory Size: A Fundamental Constraint
+
+Although IBM-developed triple redundant Auxiliary Tape Memory<sup>[10]</sup> had been used in the
+Gemini Guidance Computer<sup>[9]</sup>, magnetic tape, drum or disk was considered unsuitable for
+Apollo due to reliability, power and/or weight considerations.
+Consequently, all software and data for Apollo needed to fit within the AGC's *core* memory. 1962
+estimates placed memory requirements for Apollo guidance software at 4Kb.
+Even after several increases in memory size between 1962 and 1966 by nearly an order of magnitude
+software programs that had been so far developed exceeded the memory capacity of the machine.
+
+## Evolving Hardware and Requirements
 There were three major approaches for landing on the Moon by Kennedy's deadline. Each involved
 substantially different vehicles and mission scenarios. It would be a full year before NASA had
 selected Lunar Orbit Rendevous
@@ -95,7 +116,8 @@ However, before the code for a given guidance application could be written, week
 of analysis and design effort would go into the defining equations, control logic and algorithms
 for selecting. Once the defining equations were written down and the logic and control flow for
 driving them, it was often a relatively simple matter of transcribing the result into AGC
-interpretive language. For this reason ... coding ...
+interpretive language. For this reason, this phase of the software development work was seen
+as a rather banal exercise in coding.
 
     * anecdote about engineers vs. coders
 
@@ -127,6 +149,7 @@ Outline
       * Example code
       * anecdote about coders vs. engineers
   * Evolving Mission enhancements
+      * In flight repair eliminated
       * Faster rondevous
       * Greater accuracy
       * Lesser fuel margins
@@ -176,9 +199,6 @@ Notes:
   * requirements, interfaces, languages changing under development
   * a feedback control system (complicated)
   * dealing with variety of safety contingencies
-
-The AGC software is available on GitHub. In all likelihood, it is the oldest (working) code on
-GitHub, part of the Virtual AGC Project.
 
 By the time this blog article is published, Tesla will have patented a new "AI CPU"
 to support autonomous nagivation of all Tesla cars. Its part of AutoPilot 3.0. Thats right,
@@ -325,6 +345,10 @@ Examples of interpretive code...
 [5]: https://www.ibiblio.org/apollo/hrst/archive/1687.pdf
 
 [6]: https://en.wikipedia.org/wiki/Ranger_program
+[7]: https://github.com/chrislgarry/Apollo-11
+[8]: http://www.ibiblio.org/apollo
+[9]: https://en.wikipedia.org/wiki/Gemini_Guidance_Computer
+[10]: https://history.nasa.gov/computers/Ch1-3.html
 
 Old References
 
