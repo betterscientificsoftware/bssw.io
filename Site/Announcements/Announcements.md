@@ -1,8 +1,5 @@
 # BSSw Announcements
 
-Announcement:
-- [New blog article ... Accelerating Scientific Discovery with Reusable Software: Special issue of IEEE CiSE](../../Articles/Blog/AcceleratingScientificDiscoveryWithReusableSoftwareCiSE2019.md)
-- Display dates: 03/18/2019 - 03/29/2019
 
 <!---
 
