@@ -5,7 +5,7 @@
 
 #### Publication date: March 28, 2019
 
-BSSw Fellowships provide resources and community to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
+BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
 During their tenure, 2018 BSSw Fellows have used their skills — in code review, reproducibility, software citation, and modern C++ — to create tutorials, webinars, and tools that help tackle challenges in scientific software development and sustainability.  Here's more about what they have been up to.
 
