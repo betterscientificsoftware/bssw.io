@@ -1,6 +1,6 @@
 # SIAM CSE19 Software-Related Events
 
-- Date: February 25 - March 1, 2019
+- Date: February 25, 2019 - March 1, 2019
 - Location: Spokane, WA
 - Event Website: https://www.siam.org/conferences/CM/Main/cse19 
 
