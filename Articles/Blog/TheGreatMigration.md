@@ -15,7 +15,11 @@ solutions, integrating burst buffers into workflows and revision control systems
 is, the more involved such migrations can be. Using recent experiences on the VisIt project, we outline key
 issues teams should be aware of and plan for in migrating from Subversion to GitHub.
 
-The table below outlines key development processes (*services* column) in the VisIt project and how those process
+| ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_TheGreatMigration_table.png) |
+|:---:|
+| VisIt project development process migrations |
+
+The table above outlines key development processes (*services* column) in the VisIt project and how those process
 were supported prior to the GitHub migration. The source code was hosted at NERSC as a *raw* conventional `trunk/branches/tags`
 style Subversion repository<sup>b</sup> for more than 10 years prior to migrating to GitHub<sup>a</sup>. For
 many reasons, the VisIt project found it convenient to use the Subversion respository not only for source
