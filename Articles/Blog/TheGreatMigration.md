@@ -15,7 +15,7 @@ solutions, integrating burst buffers into workflows and revision control systems
 is, the more involved such migrations can be. Using recent experiences on the VisIt project, we outline key
 issues teams should be aware of and plan for in migrating from Subversion to GitHub.
 
-| ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_TheGreatMigration_table.png) |
+| ![](https://raw.githubusercontent.com/betterscientificsoftware/images/master/Blog_TheGreatMigration_table.png) |
 |:---:|
 | VisIt project development process migrations |
 
