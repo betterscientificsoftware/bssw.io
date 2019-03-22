@@ -12,17 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Parallel I/O with HDF5: Overview, Tuning, and New Features
+## Next webinar: Testing Fortran Software with pFUnit
 
-### Date and Time: Wednesday, March 13, 2019, 1:00-2:00 pm ET
-### Presenter: Quincey Koziol (NERSC)
+### Date and Time: Wednesday, April 10, 2019, 1:00-2:00 pm ET
+### Presenter: Thomas Clune (NASA/Goddard)
 ### Description:
-HDF5 is a data model, file format, and I/O library that has become a de facto standard for HPC applications to achieve scalable I/O and for storing and managing big data from computer modeling, large physics experiments and observations. This webinar will give an introduction to using the HDF5 library, with a focus on parallel I/O and performance tuning options. The webinar will also provide an overview of the latest performance and productivity enhancement features being developed as part of the DOE’s Exascale Computing Project (ECP) ExaHDF5 effort, and will present optimizations used in improving I/O performance of ECP applications.
+Over the past two decades, the emergence of highly effective software testing frameworks has greatly simplified the development and use of unit tests and has led to new software development paradigms such as test driven development (TDD). However, technical computing introduces a number of unique testing challenges, including distributed parallelism and numerical accuracy. This webinar will begin with a basic introduction to the use of pFUnit to develop tests for MPI+Fortran software and then present some of the new capabilities in the latest release. We will also discuss some specialized methodologies for testing numerical algorithms and speculate about future framework capabilities that may improve our ability to test at exascale.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar028
 
 ## Past Webinars
+- [*I/O with HDF5: Overview, Tuning, and New Features*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027), Quincey Koziol (NERSC), 2019-03-13
 - [*Containers in HPC*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026), Shane Canon (LBNL), 2019-02-13
 - [*Quantitatively Assessing Performance Portability with Roofline*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar025), John Pennycook (Intel), Charlene Yang (LBNL) and Jack Deslippe (LBNL), 2019-01-23
 - [*Introduction to Software Licensing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar024), David E. Bernholdt (ORNL), 2018-12-05

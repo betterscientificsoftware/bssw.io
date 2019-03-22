@@ -5,7 +5,7 @@
 
 #### Contributed by [Scott Lathrop](https://github.com/scottlathrop "Scott Lathrop GitHub Profile")
 
-#### Publication date: March 11, 2019
+#### Publication date: March 19, 2019
 
 ### Is your research code giving you the best "time to science"?
 
@@ -15,7 +15,7 @@ We recognize that many research teams lack the resources and expertise to focus 
 
 ### Reusable software
 
-We encourage you to read  the [March/April issue of *IEEE Computing in Science and Engineering*](https://www.computer.org/csdl/magazine/cs). This issue includes six papers on “Accelerating Scientific Discovery with Reusable Software.” These papers describe proven strategies for enhancing computational and data analytics research:
+We encourage you to read  the [March/April issue of *IEEE Computing in Science and Engineering*](https://www.computer.org/csdl/magazine/cs/2019/02). This issue includes six papers on “Accelerating Scientific Discovery with Reusable Software.” These papers describe proven strategies for enhancing computational and data analytics research:
 
 * _Community organizations: Changing the culture in which research software is developed and sustained_ (Daniel S. Katz et al.) ... survey of organizational efforts for developing better scientific software
 * _The role of scientific communities in creating reusable software: Lessons from geophysics_ (Louise H. Kellogg et al.) ... introduction to the CIG community and best practices for developing reusable software for geophysics
@@ -47,7 +47,8 @@ We encourage you to contribute to accelerating scientific discovery by participa
 ---!>
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-03-19
 Categories: planning, collaboration
 Topics: design, projects and organizations
 Tags: bssw-blog-article

@@ -2,7 +2,7 @@
 
 - Date: March 27, 2019
 - Location: Online
-- Event Website: https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems/chemistry
+- Event Website: https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems/sde
 
 NCSA Blue Waters provides a series of free webinars throughout the year.  The webinar track on scientific software ecosystems provides sessions addressing the development and applications of software used in all fields of study.  
 
