@@ -23,7 +23,9 @@ A longer and possibly more up-to-date list from the Software
 Sustainability Institute that covers a wider
 range of disciplines can be found [here](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
 
- <!--- In alphabetical order by JOURNAL NAME (not initials) --->
+ <!--- 
+In alphabetical order by JOURNAL NAME (not initials) 
+--->
  
  - [ACM Transactions on Mathematical Software](http://toms.acm.org) (TOMS):
    This is a well-established journal whose articles often describe
