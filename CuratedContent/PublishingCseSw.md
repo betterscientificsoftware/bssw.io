@@ -24,6 +24,7 @@ Sustainability Institute that covers a wider
 range of disciplines can be found [here](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
 
  <!--- In alphabetical order by JOURNAL NAME (not initials) --->
+ 
  - [ACM Transactions on Mathematical Software](http://toms.acm.org) (TOMS):
    This is a well-established journal whose articles often describe
    novel algorithms and their implementation as mature, usable
@@ -41,7 +42,7 @@ range of disciplines can be found [here](https://www.software.ac.uk/which-journa
    Authors need to submit a manuscript describing their software.
    ANS also accepts articles that introduce a new library, which may
    then form the basis of future application articles.
- - [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs) (CiSE): A joint publication of the IEEE Computer Society and the American Institure of Physics which is positioned at the intersection of science and computation.  It includes peer reviewed papers as well as a number of departments which publish shorted non-peer-reviewed articles.  The journal is open to topical special issues as well.
+ - [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs) (CiSE): A joint publication of the IEEE Computer Society and the American Institure of Physics which is positioned at the intersection of science and computation and tends to publish papers that don't fit comfortably in either the "pure" science or "pure" computer science spaces.  It includes peer reviewed papers as well as a number of departments which publish shorted non-peer-reviewed articles.  The journal is open to topical special issues as well.
  - [The Journal of Open Source Software](http://joss.theoj.org) (JOSS): This journal provides
    authors with a DOI for their software package without requiring a
    full-length manuscript.
