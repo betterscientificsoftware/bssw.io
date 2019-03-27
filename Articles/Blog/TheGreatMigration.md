@@ -7,6 +7,8 @@
 
 #### Contributed by [Holly Auten](https://github.com/hauten) and [Mark C. Miller](https://github.com/markcmiller86)
 
+#### Publication date: April 11, 2019
+
 **DRAFT DRAFT DRAFT**
 
 Software sustainability demands continuous, yet strategic, migration to new technologies. Recent examples
@@ -107,8 +109,6 @@ Concluding paragraph goes here.
 - <sup>a</sup>Prior to that, it was hosted in a ClearCase repository private to LLNL.
 - <sup>b</sup>By *raw*, we mean there was no convenient web *front-end*. It was basic, ssh command-line
 access for developers and raw `https://` read-only access for users.
-
-
 
 
 ### Autho bios
