@@ -1,13 +1,13 @@
 # The Great Migration
 ## Experiences migrating 2 million lines of code and 20 years of development history from Subversion to GitHub.
 
-# DRAFT DRAFT DRAFT
-
 **Hero Image:**
 
 - <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_car.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_car.jpg' /></a>
 
 #### Contributed by [Holly Auten](https://github.com/hauten) and [Mark C. Miller](https://github.com/markcmiller86)
+
+**DRAFT DRAFT DRAFT**
 
 Software sustainability demands continuous, yet strategic, migration to new technologies. Recent examples
 the scientific computing community has been facing include C++ language standards, performance portability
@@ -39,7 +39,7 @@ a release of a major new version of VisIt, 3.0 *beta*.
 * Migrating issues to GitHub issue tracking
 * Miscellaneous other technology updates
 
-## Repository Reorganization for Better Development Workflow
+### Repository reorganization for better development workflow
 
 A key goal in the repository re-organization was to ensure a single GitHub repository would
 contain *everything* a developer would need including documentation, test tools, data and baselines
@@ -50,8 +50,7 @@ third_party, releases), and only some of those would be checked out by developer
 organization, test, data and docs are all under src and releases, even historical ones of the past,
 was re-formulated to manifest properly as *true* GitHub releases. 
 
-
-## Source Code Repository and History Migration
+### Source code repository and history migration
 
 Migrating the state of a subversion repository at a specific moment in time (e.g. a *snapshot*) is very
 simple. However, migrating a large project with a long development history such that the resulting GitHub
@@ -63,7 +62,7 @@ these scripts were run, results tested and examined, repositories destroyed and 
 times before all the kinks in the process were worked out. The result is....In particular, historical
 contributions made by developers years ago are properly captured in GitHub history as are previous releases.
 
-## Issues Migration
+### Issues migration
 
 A key challenge in migrating issues was mapping Redmine issue metadata
 (e.g. trackers, statuses and custom fields, etc.) to their equivalent GitHub notions and/or labels and then
@@ -78,7 +77,7 @@ the resulting files with their new GitHub ids. The team then engaged an an attac
 where each team member was assigned about 10% of the attachments to manually attach to the appropriate
 GitHub issues. That work was quick and easy.
 
-## Other technology Updates
+### Other technology updates
 
 (add a sentence about LFS here)
 As part of this major migration effort, we also folded in a number of other technology updates.
@@ -102,6 +101,37 @@ Note that nightly testing is not subsumbed by GitHub CI services. That is becaus
 compiling all of VisIt's dependencies, many of which are non-essential for CI, can take hours to run and
 generates about 1/4G of results data. So, when integrating CI
 
-<sup>a</sup>Prior to that, it was hosted in a ClearCase repository private to LLNL.
-<sup>b</sup>By *raw*, we mean there was no convenient web *front-end*. It was basic, ssh command-line
+Concluding paragraph goes here.
+
+### Footnotes
+- <sup>a</sup>Prior to that, it was hosted in a ClearCase repository private to LLNL.
+- <sup>b</sup>By *raw*, we mean there was no convenient web *front-end*. It was basic, ssh command-line
 access for developers and raw `https://` read-only access for users.
+
+
+
+
+### Autho bios
+Holly Auten ....
+
+Mark Miller ...
+
+Guidance for author bio:
+- Length: 50-100 words (paragraph form).
+- Can include hyperlinks.
+- Mention your current position, employer, a bit about your background.
+- Include info about your interests related to software productivity and sustainability.
+- Anything else you want to mention.
+
+
+<!--
+Publish: preview
+RSS update: 2019-04-XX
+Categories: development
+Topics: version control
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+-->
+
