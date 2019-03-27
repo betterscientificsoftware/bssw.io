@@ -1,5 +1,5 @@
-# The Great Migration
-## Experiences migrating 2 million lines of code and 20 years of development history from Subversion to GitHub.
+# Tech. Refresh for Software?
+## Continuous Technology Refreshment really is a thing...for *hardware*. Does it also apply to Software?
 
 # DRAFT DRAFT DRAFT
 
@@ -9,25 +9,44 @@
 
 #### Contributed by [Holly Auten](https://github.com/hauten) and [Mark C. Miller](https://github.com/markcmiller86)
 
-Software sustainability demands continuous, yet strategic, migration to new technologies. Recent examples
-the scientific computing community has been facing include C++ language standards, performance portability
-solutions, integrating burst buffers into workflows and revision control systems. The older and bigger a project
-is, the more involved such migrations can be. Using recent experiences on the VisIt project, we outline key
-issues teams should be aware of and plan for in migrating from Subversion to GitHub.
+Instead of using systems until they can no longer function, many companies choose to upgrade or replace certain infrastructure on a regular schedule. This process is often referred to as "tech refresh."
+
+Technology Refresh (sometimes abbreviated to simply TR) is the periodic replacement of equipment to ensure continuing reliability of equipment and/or improved speed and capacity. cf evergreening, technology replacement. This definition includes a contribution by Craig Senior.
+
+http://info.alphanumeric.com/blog/benefits-establishing-technology-refresh-cycle
+
+
+
+Technology refresh is a term primarily used in the context of replacing obsolete *hardware*. In fact the IT world
+defines **Continuous Technology Refreshment (CTR)**
+Keeping software sustainable demands continuous, yet strategic, migration to new technologies. Recent examples
+in scientific computing include wide-spread adoption of new C++ language standards, integration of performance portability
+solutions, use of burst buffers in workflows and even new revision control systems. The longer lived and bigger
+a project is, the more involved technology migrations can be. Using recent experiences preparing for a major new
+release of VisIt (3.0.0 Beta), we describe experiences and lessons learned updating several technologies;
+Subversion to GitHub + LFS
+OpenOffice to Sphinx+ReadTheDocs
+Redmine Issues to GitHub Issues
+Redmine Wiki to GitHib Wiki
+
+migrating VisIt from
+Subversion to GitHub, we outline key issues teams should be aware of and plan for in migrating from Subversion to GitHub.
 
 | ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_table.png) |
 |:---:|
 | VisIt project development process migrations |
 
-The table above outlines key development processes (*services* column) in the VisIt project and how those process
+The table above outlines key development processes (*services* column) in the VisIt project and how those processes
 were supported prior to the GitHub migration. The source code was hosted at NERSC as a *raw* conventional `trunk/branches/tags`
 style Subversion repository<sup>b</sup> for more than 10 years prior to migrating to GitHub<sup>a</sup>. For
-many reasons, the VisIt project found it convenient to use the Subversion respository not only for source
+many reasons, the VisIt project found it convenient to use the respository not only for source
 code revsion control but also as a sort of internet-wide, world-readable shared file space including a lot of
 large binary files (e.g. binary releases and tarballs, PowerPoint presentations) for
 which revision control was non-essential as well as large binary data for test inputs and outputs.
 Over many years of development, this binary content grew in size such that the whole repo was several tens
 of gigabytes.
+
+a common way VisIt is deployed is via a build_visit script which downloads 50+ TPLs. (long before Spack existed)
 
 In preparing to migrate to GitHub, we aimed to address this issue along with several other goals of 
 a release of a major new version of VisIt, 3.0 *beta*.
@@ -42,13 +61,15 @@ a release of a major new version of VisIt, 3.0 *beta*.
 ## Repository Reorganization for Better Development Workflow
 
 A key goal in the repository re-organization was to ensure a single GitHub repository would
-contain *everything* a developer would need including documentation, test tools, data and baselines
+contain *everything* developer needs including documentation, test tools, data and baselines
 yet not suffer any GitHub bandwidth penalties when engaging in development activities not involving
-that content. In subversion, a checkout of trunk was so massive it would rarely if ever be done.
+that content. In Subversion, a checkout of trunk was so massive it would rarely if ever be done.
 Instead, the subversion trunk was split into several top-level directories (src, test, data, docs,
 third_party, releases), and only some of those would be checked out by developers. In the new
 organization, test, data and docs are all under src and releases, even historical ones of the past,
-was re-formulated to manifest properly as *true* GitHub releases. 
+were re-formulated to manifest properly as *true* GitHub releases. 
+
+Add info about the re-org itself
 
 
 ## Source Code Repository and History Migration
@@ -77,6 +98,8 @@ of the old Redmine issue id and the new GitHub issue id) we captured all Redmine
 the resulting files with their new GitHub ids. The team then engaged an an attach-a-polooza exercise
 where each team member was assigned about 10% of the attachments to manually attach to the appropriate
 GitHub issues. That work was quick and easy.
+
+Can we add detail links?
 
 ## Other technology Updates
 
