@@ -17,7 +17,7 @@ development. One can view this book as the logical culmination of the books
 practical examples that show nearly every trick there is for refactoring nasty
 code to break dependencies and getting code into a unit test harness. By the
 time one is done reading this book if one is not convinced of the need for
-unit testing and TDD, then one likely should not developing software.
+unit testing and TDD, then one likely should not be developing software.
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
