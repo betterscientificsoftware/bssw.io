@@ -13,7 +13,7 @@ read. What’s more, Michael mentions and reviews many of the object-oriented
 principles in Agile Software Development as well as other little bits of
 information that one would find in other great books about software
 development. One can view this book as the logical culmination of the books
-"Refactoring" and "Test Driven Development". This book is packed with
+"Refactoring" and "Test Driven Development" (TDD). This book is packed with
 practical examples that show nearly every trick there is for refactoring nasty
 code to break dependencies and getting code into a unit test harness. By the
 time one is done reading this book if one is not convinced of the need for
