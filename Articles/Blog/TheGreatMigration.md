@@ -1,81 +1,53 @@
-# Tech. Refresh for Software?
-## Continuous Technology Refreshment really is a thing...for *hardware*. Does it also apply to Software?
-
-# DRAFT DRAFT DRAFT
+# Continuous Technology Refreshment (CTR): A Sustainable Software Best Practice
+## Most code teams already do it. Here we describe recent CTR experiences on VisIt.
 
 **Hero Image:**
 
 - <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_car.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_car.jpg' /></a>
 
+#### Publication date: April 11, 2019
+
 #### Contributed by [Holly Auten](https://github.com/hauten) and [Mark C. Miller](https://github.com/markcmiller86)
-
-Instead of using systems until they can no longer function, many companies choose to upgrade or replace certain infrastructure on a regular schedule. This process is often referred to as "tech refresh."
-
-Technology Refresh (sometimes abbreviated to simply TR) is the periodic replacement of equipment to ensure continuing reliability of equipment and/or improved speed and capacity. cf evergreening, technology replacement. This definition includes a contribution by Craig Senior.
 
 http://info.alphanumeric.com/blog/benefits-establishing-technology-refresh-cycle
 
+*Technology refresh* is a term used primarily for replacing obsolete *hardware*. In the IT world,
+the practice of **Continuous Technology Refreshment (CTR)** is defined as the periodic upgrade or
+replacement of infrastructure to ensure continued reliability and/or improved speed, capacity or
+features. But, long lived *software* projects often wind up having to engage in equivalent work.
+Recent examples of CTR for software scientific computing teams have faced include wide-spread adoption of new 
+language standards, integration of performance portability solutions, application of burst buffers in
+workflows and even new revision control systems. The longer lived and bigger a project is, the more
+involved technology refresh can be. Using recent work for a major release of VisIt, 3.0.0 Beta,
+we describe experiences and lessons learned refreshing several technologies
+* Routine Repository Housekeeping and Reorganization
+* Source Revision Control: Subversion to GitHub
+* Large Binary Content: Subversion to GitHub-LFS
+* Issue Tracking: Redmine to GitHub Issues
+* Documentation: OpenOffice to Sphinx+ReadTheDocs
+* Other Misc. Refreshments Completed and Planned
 
+## Routine Repository Housekeeping and Reorganization
+In addition, as the code evolved the organization of development resources within the repo got
+diffused and required some basic housekeeping and reorganization.
 
-Technology refresh is a term primarily used in the context of replacing obsolete *hardware*. In fact the IT world
-defines **Continuous Technology Refreshment (CTR)**
-Keeping software sustainable demands continuous, yet strategic, migration to new technologies. Recent examples
-in scientific computing include wide-spread adoption of new C++ language standards, integration of performance portability
-solutions, use of burst buffers in workflows and even new revision control systems. The longer lived and bigger
-a project is, the more involved technology migrations can be. Using recent experiences preparing for a major new
-release of VisIt (3.0.0 Beta), we describe experiences and lessons learned updating several technologies;
-Subversion to GitHub + LFS
-OpenOffice to Sphinx+ReadTheDocs
-Redmine Issues to GitHub Issues
-Redmine Wiki to GitHib Wiki
+With Subversion, in the past the VisIt project found it convenient to also use the repo as a sort of
+internet-wide, world-readable shared file space including a lot of large binary files such as pre-built
+release binaries and tar files, PowerPoint presentations, data ensembles used in tutorials, etc. These
+didn't really require revision control and were only in the repo because it was a convenient way to *host*
+the content on-line. Over many years of development, this and other binary content used in testing grew
+in size making working with the whole repo unwieldly. For example, branch creation could take more than
+an hour. In moving to GitHub, a key aim was to utilize GitHub Large File Support (LFS) to address issues
+with this large binary content correctly. Because basic GitHub LFS has bandwidth and storage limits, we
+needed to purchase upgraded LFS service.
 
-migrating VisIt from
-Subversion to GitHub, we outline key issues teams should be aware of and plan for in migrating from Subversion to GitHub.
+### Source code repository and history migration
+Migrating a single branch of a small project from Subversion to GitHub is trivial. There are several
+tools available for this such as XXX. However, migrating all branches, tags and releases of a large project
+(whilst side-stepping history of large binary content as described above) such that they are realized in
+Git *correctly*, is complicated. There are no publicly available tools for doing this out of the box.
 
-| ![](https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_table.png) |
-|:---:|
-| VisIt project development process migrations |
-
-The table above outlines key development processes (*services* column) in the VisIt project and how those processes
-were supported prior to the GitHub migration. The source code was hosted at NERSC as a *raw* conventional `trunk/branches/tags`
-style Subversion repository<sup>b</sup> for more than 10 years prior to migrating to GitHub<sup>a</sup>. For
-many reasons, the VisIt project found it convenient to use the respository not only for source
-code revsion control but also as a sort of internet-wide, world-readable shared file space including a lot of
-large binary files (e.g. binary releases and tarballs, PowerPoint presentations) for
-which revision control was non-essential as well as large binary data for test inputs and outputs.
-Over many years of development, this binary content grew in size such that the whole repo was several tens
-of gigabytes.
-
-a common way VisIt is deployed is via a build_visit script which downloads 50+ TPLs. (long before Spack existed)
-
-In preparing to migrate to GitHub, we aimed to address this issue along with several other goals of 
-a release of a major new version of VisIt, 3.0 *beta*.
-
-* Using Large File Storage (LFS)
-* Capturing development history in most *GitHub-natural* way.
-* Optimizing use of GitHub bandwidth and storage limits
-* Reorganizing our repo for better development workflows
-* Migrating issues to GitHub issue tracking
-* Miscellaneous other technology updates
-
-## Repository Reorganization for Better Development Workflow
-
-A key goal in the repository re-organization was to ensure a single GitHub repository would
-contain *everything* developer needs including documentation, test tools, data and baselines
-yet not suffer any GitHub bandwidth penalties when engaging in development activities not involving
-that content. In Subversion, a checkout of trunk was so massive it would rarely if ever be done.
-Instead, the subversion trunk was split into several top-level directories (src, test, data, docs,
-third_party, releases), and only some of those would be checked out by developers. In the new
-organization, test, data and docs are all under src and releases, even historical ones of the past,
-were re-formulated to manifest properly as *true* GitHub releases. 
-
-Add info about the re-org itself
-
-
-## Source Code Repository and History Migration
-
-Migrating the state of a subversion repository at a specific moment in time (e.g. a *snapshot*) is very
-simple. However, migrating a large project with a long development history such that the resulting GitHub
+However, migrating a large project with a long development history such that the resulting GitHub
 repository appears, more or less, as if all the development had originally occurred on GitHub and,
 in particular, proper use of LFS for large, binary content, GitHub branches, tags and releases whilst also
 capturing development history required advanced scripting of the GitHub api to basically *replay* all
@@ -84,33 +56,38 @@ these scripts were run, results tested and examined, repositories destroyed and 
 times before all the kinks in the process were worked out. The result is....In particular, historical
 contributions made by developers years ago are properly captured in GitHub history as are previous releases.
 
-## Issues Migration
+### Issues migration
 
 A key challenge in migrating issues was mapping Redmine issue metadata
 (e.g. trackers, statuses and custom fields, etc.) to their equivalent GitHub notions and/or labels and then
 writing a script. To capture all issue history, we wanted to migrate both open and resolved issues. We found
-thta capturing Redmine issue comments as *true* GitHub conversations was not easily possible. All original
+that capturing Redmine issue comments as *true* GitHub conversations was not easily possible. All original
 Redmine conversation was poured into the initial issue submission on GitHub. We also included all Redmine
-metadata there as a hedge against unforeseen data loss. A final issue
-was attachments. Fewer than 10% of the issues contained attachments. However, there was no way to
-migrate these automatically. After migrating the issues themselves (which then defined a mapping
-of the old Redmine issue id and the new GitHub issue id) we captured all Redmine attachments renaming
+metadata there as a hedge against unforeseen data loss. A final challenge
+was attachments. Fewer than 10% of the issues contained attachments. However, attachments could be migrated
+only manually. After migrating the issues themselves (which then defined a mapping between the old
+Redmine and new GitHub issue ids), we scripted download of all Redmine attachments renaming
 the resulting files with their new GitHub ids. The team then engaged an an attach-a-polooza exercise
 where each team member was assigned about 10% of the attachments to manually attach to the appropriate
-GitHub issues. That work was quick and easy.
-
+GitHub issues. The planning made that tedious work quick and easy.
 Can we add detail links?
 
-## Other technology Updates
+### Documentation
+Finally, we migrated VisIt's GUI User Manual from OpenOffice to Sphinx+ReadTheDocs. This involved an initial
+converstion script to bootstrap the process generating an initial restructured text output. Then, the
+team engaged in 3-4 of documentation sprints, each of length 2-3 hours, manually reading, fixing, reogranizing,
+updating and polishing the resulting .rst files. VisIt's CLI (Python) User Manual existed as a compileable
+C code in the form of Python docstrings. This design facilitates in-line help within Python as well as 
+Still completing migration of Python Doc strings to .rst files.
+
+### Other technology refreshes
 
 (add a sentence about LFS here)
 As part of this major migration effort, we also folded in a number of other technology updates.
 We switched from .tar.gz file formats for
 our test data to 7z. This reduced the storage (and GitHib bandwidth) by almost half. We upgraded
 from VTK-6 to VTK-8 and doing so involved also making a number of improvments to handling of GL, a key
-graphics technology critical to any visualization applications. Finally, we migrated documentation
-from OpenOffice to Sphinx with ReadTheDocs integration, which involved some scripted conversion to
-bootstrap the process followed by a few team sprints to polish the .rst files.
+graphics technology critical to any visualization applications.
 Finally, we updated our BSD 3-clause license verbiage to match GitHub's built-in license recognition.
 Still to make some remarks regarding
 - LFS
@@ -125,6 +102,35 @@ Note that nightly testing is not subsumbed by GitHub CI services. That is becaus
 compiling all of VisIt's dependencies, many of which are non-essential for CI, can take hours to run and
 generates about 1/4G of results data. So, when integrating CI
 
-<sup>a</sup>Prior to that, it was hosted in a ClearCase repository private to LLNL.
-<sup>b</sup>By *raw*, we mean there was no convenient web *front-end*. It was basic, ssh command-line
+Concluding paragraph goes here.
+
+### Footnotes
+- <sup>a</sup>Prior to that, it was hosted in a ClearCase repository private to LLNL.
+- <sup>b</sup>By *raw*, we mean there was no convenient web *front-end*. It was basic, ssh command-line
 access for developers and raw `https://` read-only access for users.
+
+
+### Autho bios
+Holly Auten ....
+
+Mark Miller ...
+
+Guidance for author bio:
+- Length: 50-100 words (paragraph form).
+- Can include hyperlinks.
+- Mention your current position, employer, a bit about your background.
+- Include info about your interests related to software productivity and sustainability.
+- Anything else you want to mention.
+
+
+<!--
+Publish: preview
+RSS update: 2019-04-XX
+Categories: development
+Topics: version control
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+-->
+
