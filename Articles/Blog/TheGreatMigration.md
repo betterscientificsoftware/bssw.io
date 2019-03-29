@@ -7,7 +7,7 @@
 
 #### Publication date: April 11, 2019
 
-#### Contributed by [Holly Auten](https://github.com/hauten) and [Mark C. Miller](https://github.com/markcmiller86)
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86) and [Holly Auten](https://github.com/hauten)
 
 http://info.alphanumeric.com/blog/benefits-establishing-technology-refresh-cycle
 
@@ -17,21 +17,21 @@ replacement of infrastructure to ensure continued reliability and/or improved sp
 features. But, long lived *software* projects often wind up having to engage in equivalent work.
 Recent examples of CTR for software scientific computing teams have faced include wide-spread adoption of new 
 language standards, integration of performance portability solutions, application of burst buffers in
-workflows and even new revision control systems. The longer lived and bigger a project is, the more
+workflow and even new revision control systems. The longer lived and bigger a project is, the more
 involved technology refresh can be. Using recent work for a major release of VisIt, 3.0.0 Beta,
 we describe experiences and lessons learned refreshing several technologies
-* Routine Repository Housekeeping and Reorganization
-* Source Revision Control: Subversion to GitHub
-* Large Binary Content: Subversion to GitHub-LFS
-* Issue Tracking: Redmine to GitHub Issues
+* Routine repository housekeeping and reorganization
+* Source revision control: Subversion to GitHub
+* Large binary content: Subversion to GitHub-LFS
+* Issue tracking: Redmine to GitHub Issues
 * Documentation: OpenOffice to Sphinx+ReadTheDocs
 * Other Misc. Refreshments Completed and Planned
 
-## Routine Repository Housekeeping and Reorganization
+### Routine repository housekeeping and reorganization
 In addition, as the code evolved the organization of development resources within the repo got
 diffused and required some basic housekeeping and reorganization.
 
-With Subversion, in the past the VisIt project found it convenient to also use the repo as a sort of
+With Subversion, in the past the VisIt project team found it convenient to also use the repo as a sort of
 internet-wide, world-readable shared file space including a lot of large binary files such as pre-built
 release binaries and tar files, PowerPoint presentations, data ensembles used in tutorials, etc. These
 didn't really require revision control and were only in the repo because it was a convenient way to *host*
@@ -49,7 +49,7 @@ Git *correctly*, is complicated. There are no publicly available tools for doing
 
 However, migrating a large project with a long development history such that the resulting GitHub
 repository appears, more or less, as if all the development had originally occurred on GitHub and,
-in particular, proper use of LFS for large, binary content, GitHub branches, tags and releases whilst also
+in particular, proper use of LFS for large, binary content, GitHub branches, tags and releases while also
 capturing development history required advanced scripting of the GitHub api to basically *replay* all
 the changes from the old Subversion repo into the new GitHub repo, a process that took hours. In addition,
 these scripts were run, results tested and examined, repositories destroyed and re-created, several
@@ -95,7 +95,7 @@ Still to make some remarks regarding
 - Nightly testing vs. CI vs. "hooks"
 
 Planning the migration took months mainly to make sure we'd position the project 
-to optimize developer workflows using GitHub features. Executing the actual migration was only
+to optimize developer workflow using GitHub features. Executing the actual migration was only
 a matter of days.
 
 Note that nightly testing is not subsumbed by GitHub CI services. That is because nightly testing involves
