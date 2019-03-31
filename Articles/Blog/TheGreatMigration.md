@@ -1,5 +1,5 @@
-# Continuous Technology Refreshment (CTR): A Sustainable Software Best Practice
-## Most code teams already do it. Here we describe recent CTR experiences on VisIt.
+# Continuous Technology Refreshment (CTR)
+## Most code teams already do it. Here we describe what CTR is and recent tech refresh experiences on VisIt.
 
 **Hero Image:**
 
@@ -11,10 +11,10 @@
 
 http://info.alphanumeric.com/blog/benefits-establishing-technology-refresh-cycle
 
-*Technology refresh* is a term used primarily for replacing obsolete *hardware*. In the IT world,
-the practice of **Continuous Technology Refreshment (CTR)** is defined as the periodic upgrade or
-replacement of infrastructure to ensure continued reliability and/or improved speed, capacity or
-features. But, long lived *software* projects often wind up having to engage in equivalent work.
+In the IT world, the practice of *Continuous Technology Refreshment (CTR)* is defined as the
+*periodic upgrade or replacement of infrastructure to deliver continued reliability, improved speed,
+capacity and/or new features*. Technology refresh is a term used primarily for replacing obsolete *hardware*.
+But, long lived *software* projects often wind up having to engage in equivalent work.
 Recent examples of CTR for software scientific computing teams have faced include wide-spread adoption of new 
 language standards, integration of performance portability solutions, application of burst buffers in
 workflow and even new revision control systems. The longer lived and bigger a project is, the more
@@ -80,40 +80,45 @@ updating and polishing the resulting .rst files. VisIt's CLI (Python) User Manua
 C code in the form of Python docstrings. This design facilitates in-line help within Python as well as 
 Still completing migration of Python Doc strings to .rst files.
 
-### Other technology refreshes
+### Other refreshes completed or still in progress
 
-(add a sentence about LFS here)
-As part of this major migration effort, we also folded in a number of other technology updates.
-We switched from .tar.gz file formats for
-our test data to 7z. This reduced the storage (and GitHib bandwidth) by almost half. We upgraded
-from VTK-6 to VTK-8 and doing so involved also making a number of improvments to handling of GL, a key
-graphics technology critical to any visualization applications.
-Finally, we updated our BSD 3-clause license verbiage to match GitHub's built-in license recognition.
-Still to make some remarks regarding
-- LFS
-- Travis-CI vs. Circle-CI
-- Nightly testing vs. CI vs. "hooks"
-
-Planning the migration took months mainly to make sure we'd position the project 
-to optimize developer workflow using GitHub features. Executing the actual migration was only
-a matter of days.
-
-Note that nightly testing is not subsumbed by GitHub CI services. That is because nightly testing involves
-compiling all of VisIt's dependencies, many of which are non-essential for CI, can take hours to run and
-generates about 1/4G of results data. So, when integrating CI
-
-Concluding paragraph goes here.
+When making big changes, it is a good idea to combine as many of them together as possible rather than
+dribble out each over numerous releases. As part of the 3.0 beta release, the VisIt team also refreshed
+or plans to refresh
+* from VTK-6 to VTK-8
+  * This required also refreshing GL, a key graphics technology critical to any visualization application
+  * There is a still a small backlog testing issues related to VTK-8 changes we are working to complete.
+* from `.tar.gz` to `.7z` for binary test data
+  * This reduced storage of test data by almost 50%
+  * Because `7z` isn't as ubiquitous as `.tar.gz` we've yet to switch to it for release binaries.
+* Commit hooks
+  * We have yet to convert several Subversion commit hooks to check things such as tabs, calls to abort(), file name case clashing
+    to work in the new GitHub repo.
+* Nightly testing vs. CI testing
+  * We opted for Circle-CI for our CI tests on GitHub and this presently involves just compilation testing
+  * We plan to refactor or test suite to define a subset suitable for CI testing
+  * Note that nightly testing is not subsumbed by GitHub CI services. That is because nightly testing involves
+    compiling all of VisIt's dependencies, many of which are non-essential for CI, can take hours to run and
+    generates about 1/4G of results data.
+* Web site and Testing Dashboard
+  * We plan to migrate these to GitHub as well but that will happen later this year.
+ 
+Most code teams find it necessary to engage in regular technology refresh activity often in response 
+to changing development workflow. For example, in its 25+ year long history, the PETSc project has refreshed
+revision control systems on four separate occasions. Each of these changes was motivated by the growing set of
+distributed developers collaborating on PETSc. Technology refresh can represent a lot of work. Proper planning,
+prototyping and testing can help to make it go more smoothly.
 
 ### Footnotes
 - <sup>a</sup>Prior to that, it was hosted in a ClearCase repository private to LLNL.
 - <sup>b</sup>By *raw*, we mean there was no convenient web *front-end*. It was basic, ssh command-line
 access for developers and raw `https://` read-only access for users.
 
-
 ### Autho bios
-Holly Auten ....
 
 Mark Miller ...
+
+Holly Auten ....
 
 Guidance for author bio:
 - Length: 50-100 words (paragraph form).
