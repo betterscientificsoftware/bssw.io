@@ -1,5 +1,5 @@
 # Continuous Technology Refreshment (CTR)
-## Most code teams already do it. Here we describe what CTR is and recent tech refresh experiences on VisIt.
+### Most code teams already do it. Here we describe what CTR is and recent tech refresh experiences on VisIt.
 
 **Hero Image:**
 
@@ -9,110 +9,99 @@
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86) and [Holly Auten](https://github.com/hauten)
 
-http://info.alphanumeric.com/blog/benefits-establishing-technology-refresh-cycle
-
-In the IT world, the practice of *Continuous Technology Refreshment (CTR)* is defined as the
-*periodic upgrade or replacement of infrastructure to deliver continued reliability, improved speed,
-capacity and/or new features*. Technology refresh is a term used primarily for replacing obsolete *hardware*.
-But, long lived *software* projects often wind up having to engage in equivalent work.
-Recent examples of CTR for software scientific computing teams have faced include wide-spread adoption of new 
+In the IT world, the practice of
+[*Continuous Technology Refreshment (CTR)*](http://info.alphanumeric.com/blog/benefits-establishing-technology-refresh-cycle)
+is defined as the *periodic upgrade or replacement of infrastructure to deliver continued reliability, improved speed,
+capacity and/or new features*. The term is used primarily for replacing obsolete *hardware*.
+But, long lived *software* projects often wind up having to engage in equivalent activity.
+Examples of CTR scientific computing software include wide-spread adoption of new 
 language standards, integration of performance portability solutions, application of burst buffers in
 workflow and even new revision control systems. The longer lived and bigger a project is, the more
-involved technology refresh can be. Using recent work for a major release of VisIt, 3.0.0 Beta,
+involved technology refresh can be. Using recent work for a major release of
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit/), 3.0.0 Beta,
 we describe experiences and lessons learned refreshing several technologies
-* Routine repository housekeeping and reorganization
-* Source revision control: Subversion to GitHub
-* Large binary content: Subversion to GitHub-LFS
+* Wrangling binary content: Subversion to GitHub [Large File Support (LFS)](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs)
+* Revision control: Subversion to GitHub
 * Issue tracking: Redmine to GitHub Issues
 * Documentation: OpenOffice to Sphinx+ReadTheDocs
 * Other Misc. Refreshments Completed and Planned
 
-### Routine repository housekeeping and reorganization
-In addition, as the code evolved the organization of development resources within the repo got
-diffused and required some basic housekeeping and reorganization.
-
-With Subversion, in the past the VisIt project team found it convenient to also use the repo as a sort of
+### Wrangling binary content: Subversion to GitHub Large File Support (LFS)
+Due to lack of hosting alternatives, the VisIt team wound up having to use its Subversion repo as a sort of
 internet-wide, world-readable shared file space including a lot of large binary files such as pre-built
 release binaries and tar files, PowerPoint presentations, data ensembles used in tutorials, etc. These
-didn't really require revision control and were only in the repo because it was a convenient way to *host*
-the content on-line. Over many years of development, this and other binary content used in testing grew
+didn't really require revision control and were in the repo only because it was the only means avaiable to
+*host* the content on-line. Binary content is very
+[problematic](https://hackernoon.com/what-should-be-in-version-control-d5f16e9a2bf2)
+for revsion control systems. Over many years of development, this and other binary content used in testing grew
 in size making working with the whole repo unwieldly. For example, branch creation could take more than
-an hour. In moving to GitHub, a key aim was to utilize GitHub Large File Support (LFS) to address issues
+an hour. In moving to GitHub, a key aim was to utilize Git Large File Support (LFS) to address issues
 with this large binary content correctly. Because basic GitHub LFS has bandwidth and storage limits, we
-needed to purchase upgraded LFS service.
+needed to purchase upgraded LFS service. $300 buys us 300 Gb of storage and 3Tb/year of data transfer.
 
-### Source code repository and history migration
-Migrating a single branch of a small project from Subversion to GitHub is trivial. There are several
-tools available for this such as XXX. However, migrating all branches, tags and releases of a large project
-(whilst side-stepping history of large binary content as described above) such that they are realized in
-Git *correctly*, is complicated. There are no publicly available tools for doing this out of the box.
-
-However, migrating a large project with a long development history such that the resulting GitHub
-repository appears, more or less, as if all the development had originally occurred on GitHub and,
-in particular, proper use of LFS for large, binary content, GitHub branches, tags and releases while also
-capturing development history required advanced scripting of the GitHub api to basically *replay* all
-the changes from the old Subversion repo into the new GitHub repo, a process that took hours. In addition,
-these scripts were run, results tested and examined, repositories destroyed and re-created, several
-times before all the kinks in the process were worked out. The result is....In particular, historical
-contributions made by developers years ago are properly captured in GitHub history as are previous releases.
+### Revision control: Subversion to GitHub
+Migrating a few branches of a small project from [Subversion to GitHub](https://blog.axosoft.com/migrating-git-svn/)
+is trivial. A Google search of
+[*migrate from subversion to git*](https://www.google.com/search?q=migrate+from+subversion+to+git&oq=migrate+from+subversion+to+git&aqs=chrome..69i57j0l5.2131j0j8&sourceid=chrome&ie=UTF-8)
+reveals many options. However, there are no tools for migrating many branches, tags and releases of a large project
+with a long development history while also culling and/or LFS'ing unwieldly binary content (described above)
+such that the resulting GitHub repo captures all history and looks, more or less, as if all
+the development had originally occurred on GitHub. We developed and tested custom Python scripts to basically
+*replay* all the changes from the old Subversion repo into the new GitHub repo. The process takes hours.
+In addition, these scripts were tested, results examined, repositories destroyed and re-created, several
+times before all the kinks in the process were worked out. [The result](https://github.com/visit-dav/visit)
+is that key branches and tags, all release
+and development history are captured on GitHub in what one would expect to be the GitHub-native way.
+Furthermore unwieldly binary content is properly LSF'd with only the revision history of essential binary
+content is captured. We reduced the size of the repository from several tens of gigabytes in Subversion to
+under half a gigabyte in Git.
 
 ### Issues migration
-
 A key challenge in migrating issues was mapping Redmine issue metadata
-(e.g. trackers, statuses and custom fields, etc.) to their equivalent GitHub notions and/or labels and then
-writing a script. To capture all issue history, we wanted to migrate both open and resolved issues. We found
-that capturing Redmine issue comments as *true* GitHub conversations was not easily possible. All original
-Redmine conversation was poured into the initial issue submission on GitHub. We also included all Redmine
-metadata there as a hedge against unforeseen data loss. A final challenge
-was attachments. Fewer than 10% of the issues contained attachments. However, attachments could be migrated
-only manually. After migrating the issues themselves (which then defined a mapping between the old
+(e.g. trackers, statuses and custom fields, etc.) to reasonable GitHub equivalents and then
+automating the conversion with a script. To capture all issue history, we migrated both open and resolved issues.
+We found that capturing Redmine issue comments as *true* GitHub conversations was not easily possible. All original
+Redmine conversation was poured into the initial GitHub issue submission. We also included all Redmine
+metadata there as a hedge against unforeseen data loss. A final challenge was attachments. Fewer than 10% of the
+issues contained attachments. However, GitHub offered no way to automate adding attachments to issues.
+After migrating the issues themselves (which then defined a mapping between the old
 Redmine and new GitHub issue ids), we scripted download of all Redmine attachments renaming
-the resulting files with their new GitHub ids. The team then engaged an an attach-a-polooza exercise
-where each team member was assigned about 10% of the attachments to manually attach to the appropriate
-GitHub issues. The planning made that tedious work quick and easy.
-Can we add detail links?
+the resulting files with their new GitHub ids. The team then engaged an an *attach-a-polooza* exercise
+where each member was assigned about 10% of the attachments to manually attach to the appropriate
+GitHub issues. The planning made this tedious work quick and easy.
 
 ### Documentation
-Finally, we migrated VisIt's GUI User Manual from OpenOffice to Sphinx+ReadTheDocs. This involved an initial
-converstion script to bootstrap the process generating an initial restructured text output. Then, the
-team engaged in 3-4 of documentation sprints, each of length 2-3 hours, manually reading, fixing, reogranizing,
-updating and polishing the resulting .rst files. VisIt's CLI (Python) User Manual existed as a compileable
-C code in the form of Python docstrings. This design facilitates in-line help within Python as well as 
-Still completing migration of Python Doc strings to .rst files.
+Finally, we migrated VisIt's GUI User Manual from OpenOffice to
+[Sphinx](http://www.sphinx-doc.org/en/master/) and [ReadTheDocs](https://readthedocs.org).
+This involved an converstion script to bootstrap the process generating an initial
+[restructured text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) output. Then, the
+team engaged in 3-4 documentation sprints, each of length 2-3 hours, manually reviewing, fixing, reogranizing,
+and polishing the resulting `.rst` files. VisIt's CLI (Python) User Manual existed as compileable
+C code in the form of Python docstrings. This design facilitates in-line help within Python
+(e.g. `>>> help(myFunc)`) but is otherwise not the best format for humans to write documentation. We wrote
+a script to automate conversion of the C code Python doc-strings to `.rst` files. We were very happy
+with [the result](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/)
 
 ### Other refreshes completed or still in progress
 
-When making big changes, it is a good idea to combine as many of them together as possible rather than
-dribble out each over numerous releases. As part of the 3.0 beta release, the VisIt team also refreshed
-or plans to refresh
-* from VTK-6 to VTK-8
-  * This required also refreshing GL, a key graphics technology critical to any visualization application
-  * There is a still a small backlog testing issues related to VTK-8 changes we are working to complete.
-* from `.tar.gz` to `.7z` for binary test data
-  * This reduced storage of test data by almost 50%
-  * Because `7z` isn't as ubiquitous as `.tar.gz` we've yet to switch to it for release binaries.
-* Commit hooks
-  * We have yet to convert several Subversion commit hooks to check things such as tabs, calls to abort(), file name case clashing
-    to work in the new GitHub repo.
-* Nightly testing vs. CI testing
-  * We opted for Circle-CI for our CI tests on GitHub and this presently involves just compilation testing
-  * We plan to refactor or test suite to define a subset suitable for CI testing
-  * Note that nightly testing is not subsumbed by GitHub CI services. That is because nightly testing involves
-    compiling all of VisIt's dependencies, many of which are non-essential for CI, can take hours to run and
-    generates about 1/4G of results data.
-* Web site and Testing Dashboard
-  * We plan to migrate these to GitHub as well but that will happen later this year.
+When making big changes, it is a good idea to combine as many together as possible rather than
+dribble them out over numerous releases. As part of the 3.0 beta release, the VisIt team also refreshed
+from VTK-6 to VTK-8 (necessitating refreshing GL infrastructure as well), 
+from `.tar.gz` to `.7z` for binary test data (reduced storage by 50%). And, we plan to refresh later this
+year commit hooks (for tab characters, `abort()` calls, file name case clasing, etc.),
+CI testing (we are presently testing only proper compilation), as well as moving our Web site and Test Dashboard
+to GitHub.
  
-Most code teams find it necessary to engage in regular technology refresh activity often in response 
-to changing development workflow. For example, in its 25+ year long history, the PETSc project has refreshed
-revision control systems on four separate occasions. Each of these changes was motivated by the growing set of
-distributed developers collaborating on PETSc. Technology refresh can represent a lot of work. Proper planning,
-prototyping and testing can help to make it go more smoothly.
-
-### Footnotes
-- <sup>a</sup>Prior to that, it was hosted in a ClearCase repository private to LLNL.
-- <sup>b</sup>By *raw*, we mean there was no convenient web *front-end*. It was basic, ssh command-line
-access for developers and raw `https://` read-only access for users.
+### Summary
+The HPC software community doesn't typically use the term *Continuous Technology Refreshment* because it is
+seen as applying only to hardware. However, we hope this article describing recent experiences on the VisIt
+project, which are by no means unique amoung HPC code teams, demonstrates that CTR is equally applicable to software.
+Most code teams find it necessary to engage in activities similar to those described here on a regular basis often
+in response to changing development workflow needs.  For example, in its 25+ year long history, the
+[PETSc](https://www.mcs.anl.gov/petsc/) project
+has refreshed revision control systems on four separate occasions. Each of these changes was motivated by the
+growing set of distributed developers collaborating on PETSc. Technology refresh can represent a lot of work.
+Proper planning, prototyping and testing can help to make it go more smoothly.
 
 ### Autho bios
 
