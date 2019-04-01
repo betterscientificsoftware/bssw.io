@@ -1,5 +1,5 @@
 # Continuous Technology Refreshment (CTR)
-### Here we demonstrate what CTR is with recent tech refresh experiences on VisIt.
+### A demonstration of what CTR is through recent tech refresh experiences on VisIt.
 
 **Hero Image:**
 
@@ -31,8 +31,8 @@ Due to lack of alternatives, the VisIt team wound up having to use its Subversio
 content, much of it binary, not really requiring revision control. This included pre-built release
 binaries and tar files, PowerPoint presentations, data ensembles used in tutorials, etc.
 Binary content is very [problematic](https://hackernoon.com/what-should-be-in-version-control-d5f16e9a2bf2)
-for revsion control systems. Over many years of development, this and other binary content used in testing grew
-in size making working with the whole repo unwieldly. For example, branch creation could take more than
+for revision control systems. Over many years of development, this and other binary content used in testing grew
+in size making working with the whole repo unwieldy. For example, branch creation could take more than
 an hour. In moving to GitHub, a key aim was to utilize Git Large File Support (LFS) to address issues
 with this large binary content correctly. Because basic GitHub LFS has bandwidth and storage limits, we
 needed to purchase upgraded LFS service. $300 buys us 300 Gb of storage and 3Tb/year of data transfer.
@@ -42,7 +42,7 @@ Migrating a few branches of a small project from [Subversion to GitHub](https://
 is trivial. A Google search of
 [*migrate from subversion to git*](https://www.google.com/search?q=migrate+from+subversion+to+git&oq=migrate+from+subversion+to+git&aqs=chrome..69i57j0l5.2131j0j8&sourceid=chrome&ie=UTF-8)
 reveals many options. However, there are no tools for migrating many branches, tags and releases of a large project
-with a long development history while also culling and/or LFS'ing unwieldly binary content (described above)
+with a long development history while also culling and/or LFS'ing unwieldy binary content (described above)
 such that the resulting GitHub repo captures all history and looks, more or less, as if all
 the development had originally occurred on GitHub. We developed and tested custom Python scripts to basically
 *replay* all the changes from the old Subversion repo into the new GitHub repo. The process takes hours.
@@ -50,7 +50,7 @@ In addition, these scripts were tested, results examined, repositories destroyed
 times before all the kinks in the process were worked out. [The result](https://github.com/visit-dav/visit)
 is that key branches and tags, all release
 and development history are captured on GitHub in what one would expect to be the GitHub-native way.
-Furthermore unwieldly binary content is properly LSF'd with only the revision history of essential binary
+Furthermore unwieldy binary content is properly LSF'd with only the revision history of essential binary
 content is captured. We reduced the size of the repository from several tens of gigabytes in Subversion to
 under half a gigabyte in Git.
 
@@ -71,29 +71,29 @@ GitHub issues. The planning made this tedious work quick and easy.
 ### Documentation
 Finally, we migrated VisIt's GUI User Manual from OpenOffice to
 [Sphinx](http://www.sphinx-doc.org/en/master/) and [ReadTheDocs](https://readthedocs.org).
-This involved an converstion script to bootstrap the process generating an initial
+This involved a conversion script to bootstrap the process generating an initial
 [restructured text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) output. Then, the
-team engaged in 3-4 documentation sprints, each of length 2-3 hours, manually reviewing, fixing, reogranizing,
+team engaged in 3-4 documentation sprints, each of length 2-3 hours, manually reviewing, fixing, reorganizing,
 and polishing the resulting `.rst` files. VisIt's CLI (Python) User Manual existed as compileable
 C code in the form of Python docstrings. This design facilitates in-line help within Python
 (e.g. `>>> help(myFunc)`) but is otherwise not the best format for humans to write documentation. We wrote
 a script to automate conversion of the C code Python doc-strings to `.rst` files. We were very happy
 with [the result](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/).
 
-### Other refresments
+### Other refreshments
 
 When making big changes, it is a good idea to combine as many together as possible rather than
 dribble them out over numerous releases. As part of the 3.0 beta release, the VisIt team also refreshed
 from VTK-6 to VTK-8 (necessitating refreshing GL infrastructure as well), 
 from `.tar.gz` to `.7z` for binary test data (reduced storage by 50%). And, we plan to refresh later this
-year commit hooks (for tab characters, `abort()` calls, file name case clasing, etc.),
+year commit hooks (for tab characters, `abort()` calls, file name case clashing, etc.),
 CI testing (we are presently testing only proper compilation), as well as moving our Web site and Test Dashboard
 to GitHub.
  
 ### Summary
 The HPC software community doesn't typically use the term *Continuous Technology Refreshment* because it is
 seen as applying only to hardware. However, we hope this article describing recent experiences on the VisIt
-project, which are by no means unique amoung HPC code teams, demonstrates that CTR is equally applicable to software.
+project, which are by no means unique among HPC code teams, demonstrates that CTR is equally applicable to software.
 Most code teams find it necessary to engage in activities similar to those described here on a regular basis often
 in response to changing development workflow needs.  For example, in its 25+ year long history, the
 [PETSc](https://www.mcs.anl.gov/petsc/) project
