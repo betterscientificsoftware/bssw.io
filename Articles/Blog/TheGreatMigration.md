@@ -80,7 +80,7 @@ and polishing the resulting `.rst` files. VisIt's CLI (Python) User Manual exist
 C code in the form of Python docstrings. This design facilitates in-line help within Python
 (e.g. `>>> help(myFunc)`) but is otherwise not the best format for humans to write documentation. We wrote
 a script to automate conversion of the C code Python doc-strings to `.rst` files. We were very happy
-with [the result](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/)
+with [the result](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/).
 
 ### Other refreshes completed or still in progress
 
@@ -105,17 +105,17 @@ Proper planning, prototyping and testing can help to make it go more smoothly.
 
 ### Autho bios
 
-Mark Miller ...
+Mark Miller is a computer scientist supporting [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+program at [LLNL](https://www.llnl.gov) since 1995.
+He is a contributor to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit)
+and the lead developer of
+[Silo](https://wci.llnl.gov/simulation/computer-codes/silo). He is also a contributor to the
+[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/) project.
 
-Holly Auten ....
-
-Guidance for author bio:
-- Length: 50-100 words (paragraph form).
-- Can include hyperlinks.
-- Mention your current position, employer, a bit about your background.
-- Include info about your interests related to software productivity and sustainability.
-- Anything else you want to mention.
-
+Holly Auten is the Web Content Lead for the Computation Web Team and
+routinely contributes articles regarding various aspects of on-going software
+development activities within the Computation department at [LLNL](https://www.llnl.gov).
 
 <!--
 Publish: preview
