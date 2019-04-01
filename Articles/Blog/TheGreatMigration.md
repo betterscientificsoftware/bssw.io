@@ -14,7 +14,7 @@ In the IT world, the practice of
 is defined as the *periodic upgrade or replacement of infrastructure to deliver continued reliability, improved speed,
 capacity and/or new features*. The term is used primarily for replacing obsolete *hardware*.
 But, long lived *software* projects often wind up having to engage in equivalent activity.
-Examples of CTR scientific computing software include wide-spread adoption of new 
+Examples of CTR in scientific computing software include wide-spread adoption of new 
 language standards, integration of performance portability solutions, application of burst buffers in
 workflow and even new revision control systems. The longer lived and bigger a project is, the more
 involved technology refresh can be. Using recent work for a major release of
