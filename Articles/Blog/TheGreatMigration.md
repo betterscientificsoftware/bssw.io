@@ -24,9 +24,9 @@ we describe experiences and lessons learned refreshing several technologies
 * Revision control: Subversion to GitHub
 * Issue tracking: Redmine to GitHub Issues
 * Documentation: OpenOffice to Sphinx+ReadTheDocs
-* Other Misc. Refreshments Completed and Planned
+* Other Refreshments Completed and Planned
 
-### Wrangling binary content: Subversion to GitHub Large File Support (LFS)
+### Wrangling binary content
 Due to lack of hosting alternatives, the VisIt team wound up having to use its Subversion repo as a sort of
 internet-wide, world-readable shared file space including a lot of large binary files such as pre-built
 release binaries and tar files, PowerPoint presentations, data ensembles used in tutorials, etc. These
@@ -39,7 +39,7 @@ an hour. In moving to GitHub, a key aim was to utilize Git Large File Support (L
 with this large binary content correctly. Because basic GitHub LFS has bandwidth and storage limits, we
 needed to purchase upgraded LFS service. $300 buys us 300 Gb of storage and 3Tb/year of data transfer.
 
-### Revision control: Subversion to GitHub
+### Revision control
 Migrating a few branches of a small project from [Subversion to GitHub](https://blog.axosoft.com/migrating-git-svn/)
 is trivial. A Google search of
 [*migrate from subversion to git*](https://www.google.com/search?q=migrate+from+subversion+to+git&oq=migrate+from+subversion+to+git&aqs=chrome..69i57j0l5.2131j0j8&sourceid=chrome&ie=UTF-8)
@@ -56,7 +56,7 @@ Furthermore unwieldly binary content is properly LSF'd with only the revision hi
 content is captured. We reduced the size of the repository from several tens of gigabytes in Subversion to
 under half a gigabyte in Git.
 
-### Issues migration
+### Issues tracking
 A key challenge in migrating issues was mapping Redmine issue metadata
 (e.g. trackers, statuses and custom fields, etc.) to reasonable GitHub equivalents and then
 automating the conversion with a script. To capture all issue history, we migrated both open and resolved issues.
@@ -82,7 +82,7 @@ C code in the form of Python docstrings. This design facilitates in-line help wi
 a script to automate conversion of the C code Python doc-strings to `.rst` files. We were very happy
 with [the result](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/).
 
-### Other refreshes completed or still in progress
+### Other refresments
 
 When making big changes, it is a good idea to combine as many together as possible rather than
 dribble them out over numerous releases. As part of the 3.0 beta release, the VisIt team also refreshed
