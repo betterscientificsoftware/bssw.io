@@ -1,9 +1,9 @@
 # Continuous Technology Refreshment (CTR)
-### Most code teams already do it. Here we describe what CTR is and recent tech refresh experiences on VisIt.
+### Here we demonstrate what CTR is with recent tech refresh experiences on VisIt.
 
 **Hero Image:**
 
-- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_car.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_car.jpg' /></a>
+- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_bikes.png'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_bikes.png' /></a>
 
 #### Publication date: April 11, 2019
 
