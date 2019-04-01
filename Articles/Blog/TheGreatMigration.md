@@ -18,7 +18,7 @@ Examples of CTR in scientific computing software include wide-spread adoption of
 language standards, integration of performance portability solutions, application of burst buffers in
 workflow and even new revision control systems. The longer lived and bigger a project is, the more
 involved technology refresh can be. Using recent work for a major release of
-[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit/), 3.0.0 Beta,
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit/), 3.0 Beta,
 we describe experiences and lessons learned refreshing several technologies
 * Wrangling binary content: Subversion to GitHub [Large File Support (LFS)](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs)
 * Revision control: Subversion to GitHub
@@ -27,12 +27,10 @@ we describe experiences and lessons learned refreshing several technologies
 * Other Refreshments Completed and Planned
 
 ### Wrangling binary content
-Due to lack of hosting alternatives, the VisIt team wound up having to use its Subversion repo as a sort of
-internet-wide, world-readable shared file space including a lot of large binary files such as pre-built
-release binaries and tar files, PowerPoint presentations, data ensembles used in tutorials, etc. These
-didn't really require revision control and were in the repo only because it was the only means avaiable to
-*host* the content on-line. Binary content is very
-[problematic](https://hackernoon.com/what-should-be-in-version-control-d5f16e9a2bf2)
+Due to lack of alternatives, the VisIt team wound up having to use its Subversion repo to *host*
+content, much of it binary, not really requiring revision control. This included pre-built release
+binaries and tar files, PowerPoint presentations, data ensembles used in tutorials, etc.
+Binary content is very [problematic](https://hackernoon.com/what-should-be-in-version-control-d5f16e9a2bf2)
 for revsion control systems. Over many years of development, this and other binary content used in testing grew
 in size making working with the whole repo unwieldly. For example, branch creation could take more than
 an hour. In moving to GitHub, a key aim was to utilize Git Large File Support (LFS) to address issues
@@ -65,8 +63,8 @@ Redmine conversation was poured into the initial GitHub issue submission. We als
 metadata there as a hedge against unforeseen data loss. A final challenge was attachments. Fewer than 10% of the
 issues contained attachments. However, GitHub offered no way to automate adding attachments to issues.
 After migrating the issues themselves (which then defined a mapping between the old
-Redmine and new GitHub issue ids), we scripted download of all Redmine attachments renaming
-the resulting files with their new GitHub ids. The team then engaged an an *attach-a-polooza* exercise
+Redmine and new GitHub issue ids), we scripted the download of all Redmine attachments renaming
+the resulting files with their new GitHub ids. The team then engaged in an *attach-a-polooza* exercise
 where each member was assigned about 10% of the attachments to manually attach to the appropriate
 GitHub issues. The planning made this tedious work quick and easy.
 
@@ -103,9 +101,9 @@ has refreshed revision control systems on four separate occasions. Each of these
 growing set of distributed developers collaborating on PETSc. Technology refresh can represent a lot of work.
 Proper planning, prototyping and testing can help to make it go more smoothly.
 
-### Autho bios
+### Author bios
 
-Mark Miller is a computer scientist supporting [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+Mark Miller is a computer scientist supporting the [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
 He is a contributor to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit)
