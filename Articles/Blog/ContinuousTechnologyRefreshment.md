@@ -1,11 +1,11 @@
 # Continuous Technology Refreshment: An introduction using recent tech refresh experiences on VisIt
 
 **Hero Image:**
+- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/master/Blog_TheGreatMigration_bikes.png'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/master/Blog_TheGreatMigration_bikes.png' /></a>
+
 <!--
 Reference for image rights, https://commons.wikimedia.org/wiki/File:Bicycle_evolution-fr.svg
 -->
-
-- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/master/Blog_TheGreatMigration_bikes.png'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/master/Blog_TheGreatMigration_bikes.png' /></a>
 
 #### Publication date: April 11, 2019
 
