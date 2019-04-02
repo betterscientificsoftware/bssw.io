@@ -2,8 +2,11 @@
 ### An introduction to CTR using recent tech refresh experiences on VisIt.
 
 **Hero Image:**
+<!--
+Reference for image rights, https://commons.wikimedia.org/wiki/File:Bicycle_evolution-fr.svg
+-->
 
-- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_bikes.png'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_svn_gh_migration/Blog_TheGreatMigration_bikes.png' /></a>
+- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/master/Blog_TheGreatMigration_bikes.png'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/master/Blog_TheGreatMigration_bikes.png' /></a>
 
 #### Publication date: April 11, 2019
 
