@@ -1,5 +1,4 @@
-# Continuous Technology Refreshment (CTR)
-### An introduction to CTR using recent tech refresh experiences on VisIt.
+# Continuous Technology Refreshment: An introduction using recent tech refresh experiences on VisIt
 
 **Hero Image:**
 <!--
@@ -60,7 +59,7 @@ Furthermore unwieldy binary content is properly LSF'd with only the revision his
 content being captured. We reduced the size of the repository from several tens of gigabytes in Subversion to
 under half a gigabyte in Git.
 
-### Issues tracking
+### Issue tracking
 A key challenge in migrating issues was deciding upon a mapping from Redmine issue metadata
 (e.g. trackers, statuses and custom fields, etc.) to reasonable GitHub equivalents and then
 automating the conversion with a script. To capture all issue history, we chose to migrate both open and resolved issues.
@@ -77,7 +76,7 @@ GitHub issues.
 ### Documentation
 Finally, we migrated VisIt's GUI User Manual from OpenOffice to
 [Sphinx](http://www.sphinx-doc.org/en/master/) and
-[ReadTheDocs](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/)
+[ReadTheDocs](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/).
 This involved a conversion script to bootstrap the process generating an initial
 [restructured text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) output. Then, the
 team engaged in 3-4 documentation sprints, each of length 2-3 hours, manually reviewing, fixing, reorganizing,
@@ -104,9 +103,9 @@ Most code teams find it necessary to engage in activities similar to those descr
 in response to changing development workflow needs. For example, in its 25+ year long history, the
 [PETSc](https://www.mcs.anl.gov/petsc/) project has refreshed revision control systems on four separate occasions.
 Each of these changes was motivated by the growing set of distributed developers collaborating on PETSc.
-The HPC software community doesn't use the term *Continuous Technology Refreshment*. This may be because
+The HPC software community doesn't use the term *Continuous Technology Refreshment*, possibly because
 it is typically used only in the context of hardware. However, we hope this article demonstrates that CTR is equally
-applicable to software. Technology refresh can represent a lot of work. Proper planning, prototyping and testing can
+applicable to software. Technology refresh can represent a lot of work. Proper planning, prototyping, and testing can
 help to make it go more smoothly.
 
 ### Author bios
@@ -127,7 +126,7 @@ development activities within the Computation department at [LLNL](https://www.l
 Publish: preview
 RSS update: 2019-04-XX
 Categories: development
-Topics: version control
+Topics: version control, issue tracking, documentation
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
