@@ -8,14 +8,12 @@ Software verification and validation are needed for high-quality and reliable sc
 - **Slides:** https://www.olcf.ornl.gov/wp-content/uploads/2016/04/testing_webinar.pdf
 - **Video:** https://www.youtube.com/watch?v=kAC0N84JaHA&feature=youtu.be
 
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
-<!--- 
-Categories: reliability, collaboration
+<!---
+Publish: yes
+Categories: reliability, development
 Topics: testing, documentation
-Tags: reliability, Doxygen
+Tags: training, video, doxygen
 Level: 2
-Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md, WhatIsGoodDocumentation.md, HowToWriteGoodDocumentation.md
+Prerequisites: defaults
 Aggregate: none
 --->

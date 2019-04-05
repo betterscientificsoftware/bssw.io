@@ -1,38 +1,31 @@
 
 # SIAM Conference on Computational Science and Engineering (CSE17)
 
-Overview:
-- Website: https://www.siam.org/meetings/cse17/
-- Dates: Feb 27 - March 3, 2017
+- Organizers: SIAM Activity Group on Computational Science and Engineering (http://www.siam.org/activity/cse/ "SIAG/CSE")
+- Dates: Feb 27, 2017 - March 3, 2017
 - Location: Atlanta, GA
+- Event Website: https://www.siam.org/meetings/cse17/
 
-**Conference Description:** Computational Science and Engineering (CSE) complement theory and experiment as a critical component of scientific discovery. CSE is indispensable for leading edge investigation and engineering design in a vast number of industrial sectors, including for example, aerospace, automotive, biological, chemical, and semiconductor technologies that all rely increasingly on advanced modeling and simulation. CSE also contributes to policy and decisions relating to human health, resources, transportation, and defense. Finally, in many new areas such as medicine, the life sciences, management and marketing (e.g. data- and stream mining), and finance, techniques and algorithms from CSE are of growing importance.
+
+The CSE17 conference features a number of events related to software productivity and sustainability, as listed below.
+
+**Description:** Computational Science and Engineering (CSE) complement theory and experiment as a critical component of scientific discovery. CSE is indispensable for leading edge investigation and engineering design in a vast number of industrial sectors, including for example, aerospace, automotive, biological, chemical, and semiconductor technologies that all rely increasingly on advanced modeling and simulation. CSE also contributes to policy and decisions relating to human health, resources, transportation, and defense. Finally, in many new areas such as medicine, the life sciences, management and marketing (e.g. data- and stream mining), and finance, techniques and algorithms from CSE are of growing importance.
 
 CSE is naturally interdisciplinary. Its goals concern understanding and analyzing complex systems, predicting their behavior, and optimizing processes and designs. CSE thus grows out of physical applications, while depending on computer architecture and software, and having at its core powerful algorithms. At the frontiers of CSE remain many open problems and challenges, including the verification, validation, and uncertainty quantification of computational models; the analysis and assimilation of large and complex data sets, including techniques for visualization and animation; and the design of flexible CSE software.
 
-The SIAM CSE conference seeks to enable in-depth technical discussions on a wide variety of major computational efforts on large-scale problems in science and engineering, foster the interdisciplinary culture required to meet these large-scale challenges, and promote the training of the next generation of computational scientists. 
+The SIAM CSE conference seeks to enable in-depth technical discussions on a wide variety of major computational efforts on large-scale problems in science and engineering, foster the interdisciplinary culture required to meet these large-scale challenges, and promote the training of the next generation of computational scientists.
 
-## CSE17 Events on Productivity and Sustainability Topics
+## Highlights: CSE17 Events on Productivity and Sustainability Topics
 
-### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
-
-**Organizers:**  David Bernholdt (ORNL), Mike Heroux (SNL), Dan Katz (University of Illinois), Anders Logg (Chalmers University of Technology), Lois Curfman McInnes (ANL)
-
-**Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community. 
-
-The minisymposium speakers and poster presenters discuss work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby is helping software to fulfill its critical role as a cornerstone of long-term CSE collaboration.
-
-- Minisymposium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947
-- Slides for presentations: https://doi.org/10.6084/m9.figshare.c.3705946
-
-- Minisymposterium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022
-- Posters: https://doi.org/10.6084/m9.figshare.c.3703771
+**Subresources:**
+- [Tutorial: CSE Collaboration Through Software: Improving Productivity and Sustainability](../CuratedContent/CseCollaborationThroughSoftwareImprovingProductivityAndSustainability.SIAM-CSE17.md)
+- [Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science](../CuratedContent/SwProductivityAndSustainabilityForCseAndDataScience.SIAM-CSE17.md)
 
 ### Minisymposium: How to Succeed with Open Source Software
 
 **Organizers:** Brian M. Adams (SNL), Damon McDougall (University of Texas at Austin)
 
-**Abstract:** The open source model holds great promise for CS&E software. Diverse contributions and peer reviews improve technical quality, distributed teams contribute developer horsepower, integration and testing in myriad environments improve software quality, and the open source code itself allows flexibility to tailor to new applications. Open source CS&E software fosters open, reproducible research and supports an open science process. Yet achieving truly collaborative and open software can be challenging. Representing exemplar software projects, the speakers in this session emphasize benefits and challenges of open source CS&E software, and advise on best practices to succeed in collaborative development. 
+**Abstract:** The open source model holds great promise for CS&E software. Diverse contributions and peer reviews improve technical quality, distributed teams contribute developer horsepower, integration and testing in myriad environments improve software quality, and the open source code itself allows flexibility to tailor to new applications. Open source CS&E software fosters open, reproducible research and supports an open science process. Yet achieving truly collaborative and open software can be challenging. Representing exemplar software projects, the speakers in this session emphasize benefits and challenges of open source CS&E software, and advise on best practices to succeed in collaborative development.
 
 - Minisymposium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61149
 
@@ -58,18 +51,17 @@ Speaker: Mike Heroux, Sandia National Laboratories
 
 **Abstract:** Computational Science and Engineering (CSE) is effective to the extent it contributes to overall scientific and engineering pursuits. Its contributions are most tangible when delivering concrete scientific and engineering results via modeling, simulation and analysis. At the same time, delivery of CSE results is impacted by how we develop and support the ecosystem that produced these results, including, in particular, software and people. While delivering results is the ultimate goal of our CSE efforts, the shortest path to results is often not the most productive and sustainable.
 
-In this presentation we discuss elements that impact the effectiveness of CSE efforts, beyond just the direct activities to produce results. We discuss how processes, tools and a holistic view of efforts can lead to more effective CSE. We also discuss the importance of human factors in CSE activities, highlighting ways we can provide natural incentives toward more effective CSE. 
+In this presentation we discuss elements that impact the effectiveness of CSE efforts, beyond just the direct activities to produce results. We discuss how processes, tools and a holistic view of efforts can lead to more effective CSE. We also discuss the importance of human factors in CSE activities, highlighting ways we can provide natural incentives toward more effective CSE.
 
 - Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62113
 - Slides for presentation: https://doi.org/10.6084/m9.figshare.4728697
 
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
-<!--- 
-Categories: crosscutting, individual productivity, planning, collaboration, reliability
-Topics: improving productivity and sustainability
-Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim
+<!---
+Publish: yes
+Categories: collaboration, skills, reliability
+Topics: strategies for more effective teams, [import from subresources]
+Tags: improving productivity and sustainability, conference, tutorial, minisymposium, minisymposterim, [import from subresources]
 Level: 2
 Prerequisites: WhatIsCseSwProductivity.md
-Aggregate: Base: Conference.SIAM-CSE17.md
+Aggregate: base
 --->

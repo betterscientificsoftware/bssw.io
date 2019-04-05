@@ -7,15 +7,12 @@ Blurb about ATPESC tutorials and link.
 
 Blurb about Webinar tutorials and links.
 
-
-For more information on better scientific software, go to the [Better Scientific Software main page](http://betterscientificsoftware.info).
-
-<!--- 
+<!---
+Publish: yes
 Categories: reliability
 Topics: testing
-Tags: reliability, reproducibility, robustness, ATPESC, HPC
+Tags: [inport from subresources]
 Level: 2
-Prerequisites: WhatIsCseSwTesting.md, HowToImproveTestingForCseSw.md
-Aggregate: Base: SwTestingTutorials.md
-Aggregate: Section 1
+Prerequisites: defaults
+Aggregate: Subresource
 --->

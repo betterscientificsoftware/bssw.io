@@ -1,2 +1,15 @@
-
 *.swp
+*~
+.DS_Store
+._.DS_Store
+*.pyc
+*.pyo
+___*
+.vscode
+
+BSSW_GENERATED_FILES/Articles/*.md
+BSSW_GENERATED_FILES/CuratedContent/*.md
+BSSW_GENERATED_FILES/Events/*.md
+BSSW_GENERATED_FILES/Site/*.md
+bssw_contribution_form.py
+*.json

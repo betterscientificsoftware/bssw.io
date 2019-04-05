@@ -4,15 +4,15 @@ My presentation from the [Argonne Training Program on Extreme-Scale Computing (A
 
 [![Mike Heroux ATPESC 2016 Talk](http://i3.ytimg.com/vi/B_wOVepa_WU/hqdefault.jpg)](http://www.youtube.com/watch?v=B_wOVepa_WU&list=PLGj2a3KTwhRb6LNVucPkwdpzg9OHd8jli&index=35)
 
-#### Contributed by [Mike Heroux](http://www.sandia.gov/~maherou/ "Mike Heroux Homepage")
+#### Contributed by [Mike Heroux](https://github.com/maherou)
 
-For more information on better scientific software, go to [Better Scientific Software main page](http://betterscientificsoftware.info).
-
-<!--- 
-Categories: planning
-Topics: strategies for more effective teams
-Tags: advice, strategy, team, reproducibility, productivity, sustainability
+<!---
+Publish: yes
+Categories: collaboration, reliability
+Topics: strategies for more effective teams, testing
+Keywords: advice, strategy, team, reproducibility, productivity, sustainability
+Tags: training, video
 Level: 2
-Prerequisites: WhatIsPlanning.md (does not exist yet)
+Prerequisites: defaults
 Aggregate: none
 --->
