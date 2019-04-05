@@ -1,3 +1,7 @@
+<p class="aligncenter">
+<a href='https://github.com/betterscientificsoftware/images/blob/master/WorkingEffectivelyWithLegacyCode.jpg'><img src='https://github.com/betterscientificsoftware/images/blob/master/WorkingEffectivelyWithLegacyCode.jpg'/></a>
+</p>
+
 # Working Effectively with Legacy Code
 
 ## Feathers, Michael, 2005
@@ -13,6 +17,9 @@ By the time one is done reading this book you should be convinced of the need fo
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
 #### Publication date:  March 28, 2019
+
+#### ISBN-13: 978-0131177055
+
 
 <!---
 Publish: yes
