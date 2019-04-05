@@ -1,5 +1,7 @@
 ### How to Contribute Content to Better Scientific Software
 
+Bad edit we don't want to merge!
+
 #### Background
 [The repository https://github.com/betterscientificsoftware/betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) is a specially-designated repository according to GitHub organizational policy.  The contents of this repository are rendered as a front-end website with the URL: [https://bssw.io](https://bssw.io).  
 
