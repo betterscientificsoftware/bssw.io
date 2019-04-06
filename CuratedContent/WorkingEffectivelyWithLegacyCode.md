@@ -23,7 +23,7 @@ By the time one is done reading this book you should be convinced of the need fo
 
 <!---
 Publish: yes
-Categories: development, reliability, skills
+Categories: Personal productivity and sustainability Refactoring, Software engineering, Version control
 Topics: refactoring, design, software engineering, testing, Personal productivity and sustainability
 Tags: book
 Level: 2
