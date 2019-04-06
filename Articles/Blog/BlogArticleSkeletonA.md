@@ -2,7 +2,9 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
+ 
+The hero image must be this dimension.  Put it in the images repo:  https://github.com/betterscientificsoftware/images/README.md
 
 #### Contributed by [Person A](https://github.com/PersonA "Person A GitHub Profile")
 
