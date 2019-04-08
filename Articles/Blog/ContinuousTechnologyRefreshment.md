@@ -100,10 +100,10 @@ Most code teams find it necessary to engage in activities similar to those descr
 in response to changing development workflow needs. For example, in its 25+ year history, the
 [PETSc](https://www.mcs.anl.gov/petsc/) project has refreshed revision control systems on four separate occasions.
 Each of these changes was motivated by the growing set of distributed developers collaborating on PETSc.
-The HPC software community doesn't use the term *Continuous Technology Refreshment*, possibly because
-it is typically used only in the context of hardware. However, we hope this article demonstrates that CTR is equally
-applicable to software. Technology refresh can represent a lot of work. Proper planning, prototyping, and testing can
-help  make it go more smoothly.
+The HPC software community has yet to adopt the term *Continuous Technology Refreshment* to characterize such
+activities. However, we hope this article demonstrates that CTR is an essential aspect of sustaining software.
+Although technology refresh efforts can be costly, the benefits are improved development workflow and reduced long
+term costs.
 
 ### Author bios
 
