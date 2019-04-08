@@ -91,7 +91,7 @@ dribble them out over numerous releases. As part of the 3.0 beta release, the Vi
 from VTK-6 to VTK-8 which necessitated refreshing GL infrastructure as well, 
 from `.tar.gz` to `.7z`, which reduced storage for binary test data by 50%. Later this year, we plan to refresh
 commit hooks (e.g., tab characters, `abort()` calls, file name case clashing, using statements in headers),
-do CI testing (we are currntly testing only proper compilation), and move our
+do CI testing (we currently test only proper compilation), and move our
 [web site](https://wci.llnl.gov/simulation/computer-codes/visit/) and
 [test dashboard](https://portal.nersc.gov/project/visit/) to GitHub as well.
 
