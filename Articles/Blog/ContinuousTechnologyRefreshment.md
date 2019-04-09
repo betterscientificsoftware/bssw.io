@@ -1,4 +1,4 @@
-# Continuous Technology Refreshment: An introduction using recent tech refresh experiences on VisIt
+# Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt
 
 **Hero Image:**
 - <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_CTR_1176_432.png" />[Image source: NASA]
@@ -102,8 +102,7 @@ in response to changing development workflow needs. For example, in its 25+ year
 Each of these changes was motivated by the growing set of distributed developers collaborating on PETSc.
 The HPC software community has yet to adopt the term *Continuous Technology Refreshment* to characterize such
 activities. However, we hope this article demonstrates that CTR is an essential aspect of sustaining software.
-Although technology refresh efforts can be costly, the benefits are improved development workflow and reduced long
-term costs.
+Although technology refresh efforts can be costly, the benefits are improved development workflow and reduced long-term costs.
 
 ### Author bios
 
