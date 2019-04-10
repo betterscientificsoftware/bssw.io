@@ -1,5 +1,7 @@
 # Streamlining Software Development through Cloud-Based Continuous Integration
 
+#### Contributed by Glenn Hammond
+
 ### Introduction
 
 Continuous integration facilitates sustainable software development when properly utilized.  Through continuous integration, source code and documentation can be automatically downloaded, compiled, tested and deployed, and steps requiring human intervention are eliminated.  One potential challenge with continuous integration is the ongoing maintenance of supporting software and hardware infrastructure, which may be routine for IT specialists, but somewhat bothersome for domain scientists.  However, frameworks exist within cloud computing that greatly facilitate continuous integration, many of which are free to open source code development projects.
@@ -20,4 +22,8 @@ The various Cloud-based continuous integration frameworks utilized above have th
 
 The use of Cloud-based continuous integration within the PFLOTRAN project has greatly increased confidence in code robustness and reduced time spent manually uploading documentation to the code’s website.
 
-Poster URL: https://doi.org/10.6084/m9.figshare.7761950.v1
+<a href="https://doi.org/10.6084/m9.figshare.7761950.v1">A Look at PFLOTRAN's Cloud-Based Continuous Integration</a>
+
+#### Author Bio
+
+Glenn is a computational geohydrologist and one of the principal developers of PFLOTRAN, a massively parallel simulator for modeling reactive multiphase flow and transport processes in the subsurface.  He earned his BS from Brigham Young University (Civil Eng.) and MS/PhD from the University of Illinois at Urbana Champaign (Civil and Env. Eng.).  Glenn is a principal member of the technical staff at Sandia National Laboratories and has worked at DOE national laboratories his entire professional career.
