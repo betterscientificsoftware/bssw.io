@@ -4,9 +4,9 @@
 
 Legacy software is very hard to modify and extend, as it often relies on obsolete software and hardware, lacks testing, and may have no devlopers familiar with its complexities.  This book gives one hope that we can use targeted, incremental unit testing and refactoring to turn legacy software into better tested, understood, and extensible software while implementing and delivering new functionality at the same time.
 
-<br>
-<img src='https://github.com/betterscientificsoftware/images/blob/master/WorkingEffectivelyWithLegacyCode.jpg' class='page'/>
-<br>
+
+<img src='https://github.com/betterscientificsoftware/images/blob/master/WorkingEffectivelyWithLegacyCode.jpg' class='page' />
+
 
 If one read the book "Refactoring" by Martin Fowler and felt a little uneasy about how this would apply to large nasty software projects, then "Working Effectively with Legacy Code" is the book to read.
 What’s more, Michael mentions and reviews many of the object-oriented principles in Agile Software Development as well as other bits of information that one would find in other great books about software development.
