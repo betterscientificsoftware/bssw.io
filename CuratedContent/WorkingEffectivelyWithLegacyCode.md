@@ -26,15 +26,15 @@ This book is packed with practical examples that show nearly every trick there i
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date:  March 28, 2019
+#### Publication date:  April 9, 2019
 
 #### ISBN-13: 978-0131177055
 
 
 <!---
-Publish: yes
-Categories: Personal productivity and sustainability Refactoring, Software engineering, Version control
-Topics: refactoring, design, software engineering, testing, Personal productivity and sustainability
+Publish: preview
+Categories: Development, Reliability, Skills
+Topics: refactoring, design, software engineering, testing, personal productivity and sustainability
 Tags: book
 Level: 2
 Prerequisites: defaults
