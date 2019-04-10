@@ -20,7 +20,7 @@ The main contribution of this book is the "Legacy Code Change Algorithm":
 
 This book is packed with practical examples that show nearly every trick there is for refactoring nasty code to break dependencies and getting code into a unit test harness.  After reading this book, you should be convinced of the need for unit testing and TDD.
 
-<img src='https://github.com/betterscientificsoftware/images/blob/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
