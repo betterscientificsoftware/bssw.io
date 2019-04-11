@@ -119,8 +119,8 @@ routinely contributes articles regarding various aspects of on-going software
 development activities within the Computation department at [LLNL](https://www.llnl.gov).
 
 <!--
-Publish: preview
-RSS update: 2019-04-XX
+Publish: yes
+RSS update: 2019-04-11
 Categories: development
 Topics: version control, issue tracking, documentation
 Tags: bssw-blog-article
