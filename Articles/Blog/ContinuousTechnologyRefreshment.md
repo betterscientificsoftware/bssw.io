@@ -4,7 +4,7 @@
 - <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_CTR_1176_432.png" />[Image source: NASA]
 
 
-#### Publication date: April 11, 2019
+#### Publication date: April 12, 2019
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86) and [Holly Auten](https://github.com/hauten)
 
@@ -120,7 +120,7 @@ development activities within the Computation department at [LLNL](https://www.l
 
 <!--
 Publish: yes
-RSS update: 2019-04-11
+RSS update: 2019-04-12
 Categories: development
 Topics: version control, issue tracking, documentation
 Tags: bssw-blog-article
