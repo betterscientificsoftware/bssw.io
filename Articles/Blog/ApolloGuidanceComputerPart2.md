@@ -10,19 +10,20 @@
 
 *Part two of three about the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
 
-In mid-2016, with the help of MIT as well as various retro-computing and software archeology
-enthusiasts, the AGC source code for the Apollo 11 mission went live on GitHub<sup>[7]</sup>. In
-all likelihood, it is the oldest *maintained* code on GitHub. It can even be compiled and run
-on the Virtual AGC<sup>[8]</sup>. Back in 1962, long before a single line of that code had been written, a
-bug in the guidance software for Mariner 1<sup>[1]</sup> forced it to self-destruct only 294 seconds
-after launch. ($18.5M (153M in 2019 dollars)). Investigations found the bug to have originated in the
-hand-written guidance equations upon which the software was based. An over-bar to indicate the use
-of *average* rather than *instantaneous* velocity was missing.
+With help from MIT, retro-computing enthusiasts recently uploaded AGC source code for various Apollo missions to
+GitHub<sup>[7]</sup>. It even compiles and runs on the *Virtual AGC*<sup>[8]</sup>. In all likelihood, it is the
+oldest code on GitHub. Arguably, its the *coolest* too. But its development began in the shadows of a guidance
+software disaster. In July of 1962, less than a year after NASA placed the first contract for Apollo, a bug in the
+guidance software for Mariner 1<sup>[1]</sup> led to its destruction only 294 seconds after launch.
+($18.5M (153M in 2019 dollars)). Investigations found the bug originated in the transcription of the hand-written
+equations onto computer punch cards. An over-bar to indicate the use of *average* rather than *instantaneous* velocity
+went missing. The software was solving the guidance equations correctly (e.g. verified). However, it wasn't solving
+the correct guidance equations (e.g. not valid).
 
-The Guidance, Navigation and
-Control (GN&C)<sup>[3]</sup> system for Apollo was deemed so critical, it was the first
-contract NASA awarded only months after Kennedy's speech to congress announcing plans for
-a Moon landing<sup>[4]</sup>. So much of the initial focus was on the hardware that no one
+; a failure in validation of software
+transcription from hand-written equations to punch cards.
+
+So much of the initial focus was on the hardware that no one
 involved at the time, at NASA or MIT, had any clue about the monumental software development
 task that lay ahead. (work the dates in)
 
@@ -349,6 +350,7 @@ Examples of interpretive code...
 [8]: http://www.ibiblio.org/apollo
 [9]: https://en.wikipedia.org/wiki/Gemini_Guidance_Computer
 [10]: https://history.nasa.gov/computers/Ch1-3.html
+[11]: https://www.itworld.com/article/2717299/mariner-1-s--135-million-software-bug.html
 
 Old References
 
@@ -405,3 +407,12 @@ Level: 2
 Prerequisites: default
 Aggregate: none
 --->
+
+
+
+
+The Guidance, Navigation and
+Control (GN&C)<sup>[3]</sup> system for Apollo was deemed so critical, it was the first
+contract NASA awarded only months after Kennedy's speech to congress announcing plans for
+a Moon landing<sup>[4]</sup>.
+
