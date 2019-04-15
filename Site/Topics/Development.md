@@ -1,32 +1,36 @@
 # Better Development
 
-**Overview:** Software development is a process of writing, maintaining, and extending source code to create software products. In a broad sense, software development includes all that is involved between the conception of the software through to the final manifestation of the software. 
+**Overview:** 
+Improving scientific software development—a process of writing, maintaining, and extending code—in order to increase software productivity, quality, and sustainability, as key aspects of advancing overall scientific productivity.
 
 **Child Topics:**
+<!--
+These need to be reordered/renamed: Documentation, Configuration and Builds, Revision Control [change: former Version Control], Software Release and Deployment [change: former Software Distribution], Issue Tracking, Scientific Programming Languages  [change: former Programming Languages and Tools], Programming Tools [change: former Programming Languages and Tools], Refactoring
+-->
 
 - **Refactoring:**
-The process of improving *internal* attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
+The process of improving internal attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
 
 - **Software Engineering:**
 Procedures and considerations for getting a well engineered, reliable and maintained software.
 
 - **Documentation:**
-Written text or illustration that accompanies computer software to explain how it operates or how to use it.  
+Creating, maintaining, and hosting quality documentation (written text or illustration) about the use, operation, or design of software. 
 
 - **Version Control:**
-Management of changes to files.  Also known as revision control, source control, or source management.
+Approaches for managing changes to files (source code, documentation, data) as well as maintaining their history and attribution, especially across multiple contributors and branches of development (also known as version control).
 
 - **Configuration and Builds:**
-Installing scientific software from source requires a system for setting up (configuring) software to compile and link (build) the code according to the user's specific platform and needs.
+Ensuring that users can easily configure, compile, link, test, and interoperate software packages for the various computing environments in which they are needed.
 
 - **Software Distribution:**
-Making software available to users and related activities. This could involve providing users with an installer, deploying the software on systems where the users can access it, or a combination of both.
+Approaches for versioning, packaging, releasing, and deploying software, documentation, or data for users to then obtain, install, and use.
 
 - **Programming Languages and Tools:**
 Programming languages as well as tools that support various aspects of software development, such as editors, integrated development environments, performance measurement and analysis tools, and memory checkers.
 
 - **Issue Tracking:**
-The process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
+The process of capturing, reporting, tracking, and managing information about issues related to software. Issues include bugs, feature requests, missing documentation, and other problems and/or requirements.
 
 <!---
 Category order: 2
