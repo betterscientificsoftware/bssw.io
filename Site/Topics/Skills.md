@@ -1,6 +1,7 @@
 # Better Skills
 
-**Overview:** Improving productivity from an individual perspective. Adopting proven practices will improve individual effectiveness in working with scientific software; we consider topics such as managing time, customizing environments, and learning new skills.
+**Overview:** 
+Improving productivity from an individual perspective. Adopting proven practices will improve individual effectiveness in working with scientific software; we consider topics such as managing time, customizing environments, and learning new skills.
 
 **Child Topics:**
 
