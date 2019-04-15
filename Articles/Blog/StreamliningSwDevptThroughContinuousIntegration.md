@@ -22,7 +22,8 @@ The various Cloud-based continuous integration frameworks utilized above have th
 
 The use of Cloud-based continuous integration within the PFLOTRAN project has greatly increased confidence in code robustness and reduced time spent manually uploading documentation to the code’s website.
 
-<a href="https://doi.org/10.6084/m9.figshare.7761950.v1">A Look at PFLOTRAN's cloud-based continuous integration</a>
+This approach is summarized in a poster presented at the SIAM CSE19 Conference, entitled 
+<a href="https://doi.org/10.6084/m9.figshare.7761950.v1">_A look at PFLOTRAN's cloud-based continuous integration_</a>.
 
 ### Author bio
 
