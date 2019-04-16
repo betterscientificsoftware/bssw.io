@@ -3,7 +3,7 @@
 #### Contributed by [Glenn Hammond](https://github.com/ghammond86 "Glenn Hammond's Github.io Profile")
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png" />[PFLOTRAN simulation of Iodine-129 migrating downgradient from a nuclear waste repository]
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png" />[PFLOTRAN simulation of Iodine-129 migrating downgradient from a nuclear waste repository.  Image courtesy of Emily Stein, Sandia National Laboratories.]
 
 **To do**: Replace above image with PFLOTRAN simulation.
 
