@@ -5,7 +5,6 @@
 **Hero Image:**
 - <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_SDwithCI.png" />[PFLOTRAN simulation of Iodine-129 migrating downgradient from a nuclear waste repository.  Image courtesy of Emily Stein, Sandia National Laboratories.]
 
-**To do**: Replace above image with PFLOTRAN simulation.
 
 Continuous integration facilitates sustainable software development when properly utilized.  Through continuous integration, source code and documentation can be automatically downloaded, compiled, tested, and deployed; and steps requiring human intervention are eliminated.  
 
