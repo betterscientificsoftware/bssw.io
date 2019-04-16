@@ -25,17 +25,19 @@ The use of cloud-based continuous integration within the PFLOTRAN project has gr
 This approach is summarized in a poster presented at the SIAM CSE19 conference, titled 
 <a href="https://doi.org/10.6084/m9.figshare.7761950.v1">_A look at PFLOTRAN's cloud-based continuous integration_</a>.
 
-### Author bio
-
-Glenn is a computational geohydrologist and one of the principal developers of PFLOTRAN, a massively parallel simulator for modeling reactive multiphase flow and transport processes in the subsurface.  He earned a B.S. in civil engineering from Brigham Young University and an M.S. and Ph.D. in civil and environmental engineering from the University of Illinois at Urbana-Champaign, where he was a U.S. Department of Energy Computational Science Graduate Fellow.  Glenn is a principal member of the technical staff at Sandia National Laboratories and has worked at DOE national laboratories his entire professional career.
-
-### Cloud-Based Resources
+### Resource summary for this work
 
 * Bitbucket: https://bitbucket.org 
 * Codecov: https://codecov.io
 * CodeShip: https://codeship.com
 * PFLOTRAN: https://www.pflotran.org
 * Travis CI: https://travis-ci.org
+
+### Author bio
+
+Glenn is a computational geohydrologist and one of the principal developers of PFLOTRAN, a massively parallel simulator for modeling reactive multiphase flow and transport processes in the subsurface.  He earned a B.S. in civil engineering from Brigham Young University and an M.S. and Ph.D. in civil and environmental engineering from the University of Illinois at Urbana-Champaign, where he was a U.S. Department of Energy Computational Science Graduate Fellow.  Glenn is a principal member of the technical staff at Sandia National Laboratories and has worked at DOE national laboratories his entire professional career.
+
+
 
 <!---
 Publish: preview
