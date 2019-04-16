@@ -31,11 +31,11 @@ Glenn is a computational geohydrologist and one of the principal developers of P
 
 ### Cloud-Based Resources
 
-Bitbucket: https://bitbucket.org 
-Codecov: https://codecov.io
-CodeShip: https://codeship.com
-PFLOTRAN: https://www.pflotran.org
-Travis CI: https://travis-ci.org
+* Bitbucket: https://bitbucket.org 
+* Codecov: https://codecov.io
+* CodeShip: https://codeship.com
+* PFLOTRAN: https://www.pflotran.org
+* Travis CI: https://travis-ci.org
 
 <!---
 Publish: preview
