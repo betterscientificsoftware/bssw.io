@@ -22,6 +22,7 @@ the cut-n-paste instances into a single implementation that can be re-used where
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: development
 Topics: refactoring
 Tags:

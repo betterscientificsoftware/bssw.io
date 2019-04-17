@@ -36,6 +36,7 @@ This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/20
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: reliability
 Topics: testing
 Tags: terminology, whatis, document

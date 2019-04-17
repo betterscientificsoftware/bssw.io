@@ -48,6 +48,7 @@ is iterated and refined right along with the software it specifies.
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: planning
 Topics: requirements
 Tags: waterfall, agile

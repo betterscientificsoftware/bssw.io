@@ -7,6 +7,7 @@ Research in CSE is inherently collaborative, bringing together people whose comb
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags:

@@ -10,6 +10,7 @@ By focusing on productivity improvement as a relative measure comparing our curr
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: planning
 Topics: productivity and sustainability
 Tags:

@@ -9,6 +9,7 @@ code, without special effort on the part of the user. The document also introduc
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: planning
 Topics: software interoperability
 Tags: terminology, whatis, document

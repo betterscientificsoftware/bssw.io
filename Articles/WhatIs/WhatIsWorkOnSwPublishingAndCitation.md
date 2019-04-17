@@ -10,6 +10,7 @@ This topic provides pointers to venues that support publishing of software artif
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: collaboration
 Topics: software publishing and citation
 Tags:

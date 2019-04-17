@@ -10,6 +10,7 @@ These activities are essential as we adapt our software informed by new scientif
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: planning
 Topics: productivity and sustainability
 Tags:

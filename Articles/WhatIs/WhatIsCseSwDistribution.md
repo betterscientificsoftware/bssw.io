@@ -12,7 +12,8 @@ Also included under the general topic of CSE software distribution are other act
 #### Contributed by [James Willenbring](https://github.com/jwillenbring)
 
 <!---
-Publish: no
+Publish: yes
+Pinned: yes
 Categories: development
 Topics: software distribution
 Tags:

@@ -45,6 +45,7 @@ extensibility in also a very important aspect of scientific software design.
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: planning
 Topics: design
 Tags:

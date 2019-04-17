@@ -6,6 +6,7 @@ Half-page description of the topic goes here, in order to provide basic informat
 
 <!---
 Publish: no
+Pinned: yes
 Categories: category-goes-here
 Topics: topic-goes-here
 Tags:

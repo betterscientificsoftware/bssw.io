@@ -23,6 +23,7 @@ All three modern web-based repository hosting systems, [BitBucket](https://bitbu
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: development
 Topics: issue tracking
 Tags:

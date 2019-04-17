@@ -18,6 +18,7 @@ Some projects require contributor agreements when submitting software.  These ar
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: collaboration
 Topics: licensing
 Tags:

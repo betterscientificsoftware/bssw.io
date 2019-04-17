@@ -8,6 +8,7 @@ This topic covers resources which are open to questions about software developme
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: collaboration
 Topics: discussion and question sites
 Tags:
