@@ -39,5 +39,5 @@ Beyond this categorical requirement, we are looking for applications from people
 
 - [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows) ... Read about the 2019 BSSw Fellows.
 - [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives) ... Read about work of the 2018 BSSw Fellows and their perspectives on the program.
-- [FAQ for the BSSw Fellowship Program](https://bssw.io/resources/bssw-fellowship-program-faq-2019) ... Check back for updates; we will post additional Q&A here as these arise.
+- [FAQ for the BSSw Fellowship Program](https://bssw.io/resources/bssw-fellowship-program-faq) ... Check back for updates; we will post additional Q&A here as these arise.
 - If you have additional questions, please contact us at <info@bssw.io>.
