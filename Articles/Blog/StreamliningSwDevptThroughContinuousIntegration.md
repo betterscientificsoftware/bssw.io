@@ -2,9 +2,11 @@
 
 #### Contributed by [Glenn Hammond](https://github.com/ghammond86 "Glenn Hammond's Github.io Profile")
 
-Continuous integration facilitates sustainable software development when properly utilized.  Through continuous integration, source code and documentation can be automatically downloaded, compiled, tested, and deployed; and steps requiring human intervention are eliminated.  
+**Hero Image:**
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_SDwithCI.png" />[PFLOTRAN simulation of Iodine-129 migrating downgradient from a nuclear waste repository.  Image courtesy of Emily Stein, Sandia National Laboratories.]
 
-One potential challenge with continuous integration is the ongoing maintenance of supporting software and hardware infrastructure, which may be routine for IT specialists but bothersome for domain scientists. Within cloud computing, however, frameworks exist that greatly facilitate continuous integration, many of which are free to open source code development projects.
+
+Continuous integration facilitates sustainable software development when properly utilized.  Through continuous integration, source code and documentation can be automatically downloaded, compiled, tested, and deployed; and steps requiring human intervention are eliminated.  One potential challenge with continuous integration is the ongoing maintenance of supporting software and hardware infrastructure, which may be routine for IT specialists but bothersome for domain scientists. Within cloud computing, however, frameworks exist that greatly facilitate continuous integration, many of which are free to open source code development projects.
 
 ### Continuous integration within the PFLOTRAN project
 
@@ -12,7 +14,7 @@ The PFLOTRAN project has leveraged continuous integration since 2012, when autom
 
 In 2017, the PFLOTRAN project migrated its automated build/test sequence from Buildbot to Travis CI, a free service that eliminated hardware maintenance through the use of virtual machines in the cloud.  Today, all commits to the master branch of PFLOTRAN on Bitbucket are automatically built and tested by Travis CI (https://travis-ci.org/pflotran/pflotran), and errors are reported immediately to developers by email.  In addition, code coverage for the unit and regression tests is reported through Codecov (https://codecov.io/gh/pflotran/pflotran), which integrates seamlessly with Travis CI.  
 
-### Eliminating manual updates
+### Eliminating manual updates for documentation
 
 Another challenge for the project was the manual approach to updating the development version of PFLOTRAN's documentation hosted online (e.g., theory guide, user guide).  Documentation is written in reStructuredText and compiled to HTML (or PDF) using Sphinx.  Prior to fall 2018, each update to the documentation required a manual Sphinx compilation and upload to the cloud-based server hosting the PFLOTRAN website.  Because of the manual steps for updating, the development version of documentation continually lagged behind the implemented functionality in the code.  In order to resolve this issue, continuous integration was implemented through CodeShip and Docker.  All commits to the master branch of the PFLOTRAN documentation repository on Bitbucket spawn builds on CodeShip; and upon successful completion, the documentation is automatically uploaded to the PFLOTRAN website.  Failures are reported to the developer.  PFLOTRAN’s development version of the quality assurance (QA) framework functions similarly with the building of PFLOTRAN and running of QA tests executed prior to the build and deployment of QA documentation.
 
@@ -25,11 +27,7 @@ The use of cloud-based continuous integration within the PFLOTRAN project has gr
 This approach is summarized in a poster presented at the SIAM CSE19 conference, titled 
 <a href="https://doi.org/10.6084/m9.figshare.7761950.v1">_A look at PFLOTRAN's cloud-based continuous integration_</a>.
 
-### Author bio
-
-Glenn is a computational geohydrologist and one of the principal developers of PFLOTRAN, a massively parallel simulator for modeling reactive multiphase flow and transport processes in the subsurface.  He earned a B.S. in civil engineering from Brigham Young University and an M.S. and Ph.D. in civil and environmental engineering from the University of Illinois at Urbana-Champaign, where he was a U.S. Department of Energy Computational Science Graduate Fellow.  Glenn is a principal member of the technical staff at Sandia National Laboratories and has worked at DOE national laboratories his entire professional career. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.
-
-### Cloud-Based Resources
+### Resource summary for this work
 
 * Bitbucket: https://bitbucket.org 
 * Codecov: https://codecov.io
@@ -37,10 +35,14 @@ Glenn is a computational geohydrologist and one of the principal developers of P
 * PFLOTRAN: https://www.pflotran.org
 * Travis CI: https://travis-ci.org
 
+### Author bio
+
+Glenn is a computational geohydrologist and one of the principal developers of PFLOTRAN, a massively parallel simulator for modeling reactive multiphase flow and transport processes in the subsurface.  He earned a B.S. in civil engineering from Brigham Young University and an M.S. and Ph.D. in civil and environmental engineering from the University of Illinois at Urbana-Champaign, where he was a U.S. Department of Energy Computational Science Graduate Fellow.  Glenn is a principal member of the technical staff at Sandia National Laboratories and has worked at DOE national laboratories his entire professional career. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.
+
 <!---
 Publish: preview
-Categories: reliability
-Topics: testing, continuous integration testing
+Categories: reliability, development
+Topics: testing, continuous integration testing, documentation
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
