@@ -27,7 +27,7 @@ This approach is summarized in a poster presented at the SIAM CSE19 conference, 
 
 ### Author bio
 
-Glenn is a computational geohydrologist and one of the principal developers of PFLOTRAN, a massively parallel simulator for modeling reactive multiphase flow and transport processes in the subsurface.  He earned a B.S. in civil engineering from Brigham Young University and an M.S. and Ph.D. in civil and environmental engineering from the University of Illinois at Urbana-Champaign, where he was a U.S. Department of Energy Computational Science Graduate Fellow.  Glenn is a principal member of the technical staff at Sandia National Laboratories and has worked at DOE national laboratories his entire professional career. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.
+Glenn is a computational geohydrologist and one of the principal developers of PFLOTRAN, a massively parallel simulator for modeling reactive multiphase flow and transport processes in the subsurface.  He earned a B.S. in civil engineering from Brigham Young University and an M.S. and Ph.D. in civil and environmental engineering from the University of Illinois at Urbana-Champaign, where he was a U.S. Department of Energy Computational Science Graduate Fellow.  Glenn is a principal member of the technical staff at Sandia National Laboratories and has worked at DOE national laboratories his entire professional career. Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA0003525.
 
 ### Cloud-Based Resources
 
@@ -45,4 +45,7 @@ Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
+
+SAND #: SAND2019-4553 S
+Image owned or licensed by Sandia
 --->
