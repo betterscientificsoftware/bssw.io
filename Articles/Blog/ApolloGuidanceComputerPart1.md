@@ -6,7 +6,7 @@
 - <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.jpg' /></a>
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: May, 2019
+#### Publication date: May 10, 2019
 
 *A retrospective on the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
 
@@ -116,10 +116,9 @@ Image copyright source info…
 --->
 
 <!---
-Publish: no
-RSS update: 2019-05-15
+Publish: preview
 Categories: performance
-Topics: high performance computing, performance portability
+Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
