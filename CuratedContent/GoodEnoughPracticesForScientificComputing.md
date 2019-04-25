@@ -1,5 +1,5 @@
 
-# Good Enough Practices for Scientific Computing - A Review
+# Good Enough Practices for Scientific Computing
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 
@@ -17,7 +17,7 @@ it covers many good practices, but may be interpreted by some to be "good
 enough". This article is not meant be a guide to restructure practices of a
 successful research team, but to aid individual new researchers and teams that
 need to add or improve current practices. *Good Enough Practices for Scientific
-Computing*" can be a tool for the beginning graduate student, intern, or anyone
+Computing* can be a tool for the beginning graduate student, intern, or anyone
 new to research computing.  Professors and mentors will find it beneficial to
 direct students and interns to this article very early in their research.
 
@@ -51,9 +51,8 @@ See:
 
 <!---
 Publish: preview
-Categories: Development
-Topics: Documentation, Version control
-Reproducibility 
+Categories: Development, Reliability
+Topics: Documentation, Version control, Reproducibility 
 Level: 
 Prerequisites: defaults
 Aggregate: none
