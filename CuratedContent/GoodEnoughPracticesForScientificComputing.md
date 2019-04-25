@@ -3,13 +3,15 @@
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 
-#### Publication date: April 25, 2019
+#### Publication date: April 26, 2019
 
 ## G. Wilson et al., 2017. DOI: [10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
 
 *Good Enough Practices for Scientific Computing* presents a minimum set of
 practices for starting reproducible workflows needed for scientific computing
-research. The authors target researchers that are new to scientific computing,
+research. 
+
+The authors target researchers who are new to scientific computing,
 short term projects, and small collaborative teams.  However, anyone who wishes
 to improve scientific computing research practices can benefit from examining
 the practices described. The title of the article is somewhat misleading, since
@@ -43,10 +45,9 @@ these practices from their personal experiences, and from the experiences of
 thousands of participants in Software Carpentry and Data Carpentry workshops.
 
 See:
-* [Good Enough Practices for Scientific Computing]\
-(https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
-* [Software Carpentry] (http://software-carpentry.org)
-* [Data Carpentry] (http://data-carpentry.org)
+* [Good Enough Practices for Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+* [Software Carpentry](http://software-carpentry.org)
+* [Data Carpentry](http://data-carpentry.org)
 
 
 <!---
