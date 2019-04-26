@@ -6,6 +6,7 @@ The short document [What is Version Control](https://ideas-productivity.org/word
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: development
 Topics: version control
 Tags: document, whatis, terminology

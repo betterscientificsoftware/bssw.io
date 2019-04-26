@@ -2,10 +2,16 @@
 
 
 Announcement:
-- [New blog article ... 2018 BSSw Fellows Tackle Challenges in Scientific Productivity](../../Articles/Blog/Fellows2018Contributions.md)
-- Display dates: 03/28/2019 - 04/18/2019
+- [New blog article ... Streamlining Software Development through Continuous Integration](../../Articles/Blog/StreamliningSwDevptThroughContinuousIntegration.md)
+- Display dates: 04/26/2019 - 05/14/2019
 
 <!---
+- [New blog article ... Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt](../../Articles/Blog/ContinuousTechnologyRefreshment.md)
+- Display dates: 04/11/2019 - 04/25/2019
+
+- [New blog article ... 2018 BSSw Fellows Tackle Challenges in Scientific Productivity](../../Articles/Blog/Fellows2018Contributions.md)
+- Display dates: 03/29/2019 - 04/11/2019
+
 - [New blog article ... Accelerating Scientific Discovery with Reusable Software: Special issue of IEEE CiSE](../../Articles/Blog/AcceleratingScientificDiscoveryWithReusableSoftwareCiSE2019.md)
 - Display dates: 03/18/2019 - 03/29/2019
 

@@ -7,6 +7,7 @@ Good documentation is essential for several reasons including information about 
 
 <!---
 Publish: yes
+Pinned: yes
 Categories: development
 Topics: documentation
 Tags: document, whatis, terminology
