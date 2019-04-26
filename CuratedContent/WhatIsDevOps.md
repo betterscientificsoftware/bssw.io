@@ -10,11 +10,9 @@ Mueller does a nice job of discussing many of the complexities and trade-offs in
 
 1. The discussion focuses on web apps - a common issue for HPC practioners. Don't let that stop you from understanding and applying these concepts.
 
-2. Mueller includes an entire section titled
-## What is DevOps Not?
-in which he walks us through a lot of the pitfalls and complaints that keep organizations from gaining the benefits of DevOps.
+2. Mueller includes an entire section titled `What is DevOps Not?` in which he walks us through a lot of the pitfalls and complaints that keep organizations from gaining the benefits of DevOps.
 
-Finally, the post has been maintained with new content and reference links which may be more valuable than the actual prose.
+The post has been maintained with new content and reference links which may be more valuable than the actual prose.
 If you are wondering about DevOps, having trouble supporting an existing code base, or just curious, this is worth a read. 
 
 #### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
