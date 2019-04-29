@@ -27,9 +27,9 @@ The AGC was the first computer to use integrated circuits. It was constructed en
 
 System | #units | Kb | Flops (F) | (Watts) F/W | (Kg) F/Kg|(m<sup>3</sup>) F/m<sup>3</sup>
 :--- | ---: | ---: | ---: | ---: | ---: | ---:
-AGC Block II<sup>[14]</sup> |42 | 76 | 14,245 | (55) 259.0 | (32) 445 | (00.03) 50000
-IBM 360-20<sup>[10],[11]</sup> | 7,400 | 32 | 3,011 | (5000) 0.6 | (600) 5 | (30.00) 100
-IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 2 | 1E12 | 14E16| (97E5) 14E9 | (31E4)45E10 | (930) 15E13
+AGC Block II<sup>[14]</sup> |42 | 76 | 14,245 | (55)<br>259.0 | (32)<br>445 | (00.03)<br>50000
+IBM 360-20<sup>[10],[11]</sup> | 7,400 | 32 | 3,011 | (5000)<br>0.6 | (600) 5 | (30.00)<br>100
+IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 2 | 1E12 | 14E16| (97E5)<br>14E9 | (31E4)<br>45E10 | (930)<br>15E13
 
 <sup>a</sup>FLOP = single precision multiply + add
 
