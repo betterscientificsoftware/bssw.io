@@ -41,7 +41,7 @@ The AGC utilized two types of core memory<sup>[17]</sup>: erasable memory using 
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_875_803.jpg' class='page' />[A worker weaves copper wires through an array of cores for the AGC<br>(Photo courtesy of Raytheon Company)]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_875_803.jpg' class='page' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
 
 ### The Executive: An Operating System with Checkpoint/Restart Services
 The AGC used a priority-driven, collaborative, multitasking operating system called the Executive.<sup>[26]</sup> Priority-based job scheduling was revolutionary for its time. The Executive could detect a variety of hardware and software faults and had restart utilities to recover. But, only the most critical programs were restart enabled.<sup>[25]</sup> This involved careful design with periodic updates of waypoints and saves of redundant copies of essential state throughout program execution. Restart support consumed resources and complicated testing. In 1968, an internal NASA report<sup>[25]</sup> raised significant doubts about its value. In Part 3 of this series, we’ll describe why it would later be proven invaluable during the Apollo 11 landing.
