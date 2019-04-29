@@ -12,17 +12,22 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Testing Fortran Software with pFUnit
+## Next webinar: So, You Want to Be Agile? Strategies for Introducing Agility into Your Scientific Software Project
 
-### Date and Time: Wednesday, April 10, 2019, 1:00-2:00 pm ET
-### Presenter: Thomas Clune (NASA/Goddard)
+### Date and Time: Wednesday, May 8, 2019, 1:00-2:00 pm ET
+### Presenter: Mike Heroux (SNL)
 ### Description:
-Over the past two decades, the emergence of highly effective software testing frameworks has greatly simplified the development and use of unit tests and has led to new software development paradigms such as test driven development (TDD). However, technical computing introduces a number of unique testing challenges, including distributed parallelism and numerical accuracy. This webinar will begin with a basic introduction to the use of pFUnit to develop tests for MPI+Fortran software and then present some of the new capabilities in the latest release. We will also discuss some specialized methodologies for testing numerical algorithms and speculate about future framework capabilities that may improve our ability to test at exascale.
+Scientific software team cultures have natural consistencies with agile practices. Discovery-driven development, a focus on regular delivery of results, in-person discussions within and across research teams, and a focus on long-term sustainable research programs are commonplace dynamics on computational science teams that develop software. These dynamics are also particular expressions of core agile principles.
+
+Many scientific software teams have already assimilated industry best practices in some aspects of their work. The advent of open software development platforms such as GitHub and GitLab have accelerated awareness and adoption, as have numerous on-line resources that enable a motivated person to continue learning new ideas and approaches. Even so, we propose that a healthy team habit is continued exploration and improvement of software practices, processes and skills.
+
+In this webinar, we discuss a few agile practices and strategies that are readily adapted and adopted by scientific software teams. In addition, we describe an attitude and strategy for continual process improvement that enables computational science teams to simultaneously deliver science results and, at the same time, dedicate a slice of time to improving software practices on their way to delivering those results.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar028
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar029
 
 ## Past Webinars
+- [*Testing Fortran Software with pFUnit*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar028), Thomas Clune (NASA/Goddard), 2019-04-10
 - [*I/O with HDF5: Overview, Tuning, and New Features*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027), Quincey Koziol (NERSC), 2019-03-13
 - [*Containers in HPC*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026), Shane Canon (LBNL), 2019-02-13
 - [*Quantitatively Assessing Performance Portability with Roofline*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar025), John Pennycook (Intel), Charlene Yang (LBNL) and Jack Deslippe (LBNL), 2019-01-23
