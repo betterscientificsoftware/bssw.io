@@ -54,7 +54,7 @@ Apollo wasn't just a single spacecraft. It was two: the Command and Service Modu
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_CSM_and_LM_875_493.png' class='page' />[Early NASA artist's rendition of Apollo Spacecraft.<br>Command and Service Module (left).<br>Lunar Module Ascent and Descent Stages (right)]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_CSM_and_LM_875_493.png' class='page' />[Early NASA artist's rendition of Apollo Spacecraft. Command and Service Module (left) Lunar Module Ascent and Descent Stages (right)]
 
 <br>
 
