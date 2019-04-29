@@ -3,7 +3,7 @@
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 
-#### Publication date: April 26, 2019
+#### Publication date: April 29, 2019
 
 ## G. Wilson et al., 2017. DOI: [10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
 
@@ -51,10 +51,11 @@ See:
 
 
 <!---
-Publish: preview
-Categories: Development, Reliability
-Topics: Documentation, Version control, Reproducibility 
-Level: 
+Publish: yes
+RSS update: 2019-04-29
+Categories: Development
+Topics: Software engineering 
+Level: 2
 Prerequisites: defaults
 Aggregate: none
 --->
