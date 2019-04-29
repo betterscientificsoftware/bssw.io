@@ -54,6 +54,8 @@ Apollo wasn't just a single spacecraft. It was two: the Command and Service Modu
 
 <img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_CSM_and_LM.png' class='page' />[Early NASA artist's rendition of Apollo Spacecraft.<br>Command and Service Module (left).<br>Lunar Module Ascent and Descent Stages (right)]
 
+<br>
+
 The AGC may not have been extreme in scale but it was extreme in reliability. Of the 42 Block II systems delivered and an aggregate of 11,000 hours of vibration and thermal testing plus 32,500 hours of normal operation, only 4 hardware faults were observed,<sup>[41]</sup> and none of these occurred in actual Moon missions. Little did AGC hardware engineers know that writing the software would present even greater challenges, ultimately becoming the rate-determining factor in delivering flight-ready units.
 
 ### Author Bio
