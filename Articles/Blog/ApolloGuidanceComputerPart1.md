@@ -7,7 +7,7 @@
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May 10, 2019
 
-*Part 1 of 3 in the series: The Apollo Guidance Computer Hardware, a retrospective on the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
+*Part 1 of 3 in the series* The Apollo Guidance Computer Hardware *, a retrospective on the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
 
 <br> 
 
