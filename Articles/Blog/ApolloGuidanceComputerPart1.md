@@ -1,5 +1,4 @@
 # When 100 FLOPS/Watt Was a Giant Leap
-## Part 1 of 3: The Apollo Guidance Computer Hardware
 
 **Hero Image:**
 
@@ -8,9 +7,9 @@
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May 10, 2019
 
-*A retrospective on the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
+*Part 1 of 3 in the series: The Apollo Guidance Computer Hardware, a retrospective on the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
 
-This year, July 20 will mark the 50th anniversary of the 1969 Apollo 11 Moon landing.<sup>[1]</sup> Between 1958 and 1965, both Russian and American space programs  attempted a total of over 36 unmanned Moon missions.<sup>[2]</sup> Of the 6 that succeeded, none were survivable soft landings. Just crashing into the Moon proved exceedingly difficult. Developing a guidance, navigation, and control (GNC) system for Apollo<sup>[3],[9]</sup> was an enormous challenge. At its heart was a revolutionary new computer: the Apollo Guidance Computer (AGC).<sup>[4],[5],[6]</sup>
+This year, July 20 will mark the 50th anniversary of the 1969 Apollo 11 Moon landing.<sup>[1]</sup> Between 1958 and 1965, both Russian and American space programs attempted a total of over 36 unmanned Moon missions.<sup>[2]</sup> Of the 6 that succeeded, none were survivable soft landings. Just crashing into the Moon proved exceedingly difficult. Developing a guidance, navigation, and control (GNC) system for Apollo<sup>[3],[9]</sup> was an enormous challenge. At its heart was a revolutionary new computer: the Apollo Guidance Computer (AGC).<sup>[4],[5],[6]</sup>
 
 In commemoration of that historical achievement, this is the first of three articles about the AGC. Part 1 describes the hardware. Part 2 will describe the software and part 3 its application in Moon missions. In the years since AGC's development, jargon may have changed, but the HPC community will recognize many common themes such as flops/watt power constraints, checkpoint and restart strategies, and the need for performance portability.
 
@@ -24,11 +23,11 @@ Apollo needed a computer orders of magnitude better than those typical of the er
 
 The AGC was the first computer to use integrated circuits. It was constructed entirely from dual-packaged, 3-input NOR gate flat-packs produced by Fairchild Semiconductor<sup>[23]</sup> in an area that would eventually become known as Silicon Valley.<sup>[43],[44]</sup> At its peak, the effort consumed over 60% of all ICs produced in the country. The AGC used a total of 5,600 NOR gates, operated at 1.024 MHz with a 16-bit word, and had 34 basic instructions each micro-coded into a 12-step sequence. It had 4 central registers plus 15 special-purpose registers.<sup>[19]</sup> The table below compares key AGC performance metrics with an early model of the IBM 360. Both systems were released in 1966, the same year initial designs of the first massively parallel computer, ILLIAC IV,<sup>[30]</sup> were completed. Costing nearly $5 billion to develop, 20% of the entire Apollo budget, the IBM 360 was a big gamble and even bigger success for IBM.<sup>[48]</sup> We also include a row for comparison with IBM’s newest AC922<sup>[45]</sup> based systems (Summit<sup>[28]</sup> / Sierra<sup>[42]</sup>).
 
-|System|#units|Kb|Flops (F)|(Watts) F/W|(Kg) F/Kg|(m<sup>3</sup>) F/m<sup>3</sup>|
-|:---|---:|---:|---:|---:|---:|---:|
-|AGC Block II<sup>[14]</sup>|42|76|14,245|(55) 259.0|(32) 445|(00.03) 50000|
-|IBM 360-20<sup>[10],[11]</sup>|7,400|32|3,011|(5000) 0.6|(600) 5|(30.00) 100|
-|IBM AC922 (Summit<sup>[28],[29],[42]</sup>)|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13|
+System|#units|Kb|Flops (F)|(Watts) F/W|(Kg) F/Kg|(m<sup>3</sup>) F/m<sup>3</sup>
+:---|---:|---:|---:|---:|---:|---:
+AGC Block II<sup>[14]</sup>|42|76|14,245|(55) 259.0|(32) 445|(00.03) 50000
+IBM 360-20<sup>[10],[11]</sup>|7,400|32|3,011|(5000) 0.6|(600) 5|(30.00) 100
+IBM AC922 (Summit<sup>[28],[29],[42]</sup>)|2|1E12|14E16|(97E5) 14E9|(31E4)45E10|(930) 15E13
 
 <sup>a</sup>FLOP = single precision multiply + add
 
