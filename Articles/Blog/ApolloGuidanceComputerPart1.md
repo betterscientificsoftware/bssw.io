@@ -21,7 +21,7 @@ Apollo needed a computer orders of magnitude better than those typical of the er
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_computer_875_464.png' class='page' />[The AGC (left) with its Display and Keyboard Interface (DSKY - right)]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_computer_875_464.png' class='page lightbox' />[The AGC (left) with its Display and Keyboard Interface (DSKY - right)]
 
 <br> 
 
@@ -41,7 +41,7 @@ The AGC utilized two types of core memory<sup>[17]</sup>: erasable memory using 
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_875_803.jpg' class='page' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_875_803.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
 
 ### The Executive: An Operating System with Checkpoint/Restart Services
 The AGC used a priority-driven, collaborative, multitasking operating system called the Executive.<sup>[26]</sup> Priority-based job scheduling was revolutionary for its time. The Executive could detect a variety of hardware and software faults and had restart utilities to recover. But, only the most critical programs were restart enabled.<sup>[25]</sup> This involved careful design with periodic updates of waypoints and saves of redundant copies of essential state throughout program execution. Restart support consumed resources and complicated testing. In 1968, an internal NASA report<sup>[25]</sup> raised significant doubts about its value. In Part 3 of this series, we’ll describe why it would later be proven invaluable during the Apollo 11 landing.
@@ -54,7 +54,7 @@ Apollo wasn't just a single spacecraft. It was two: the Command and Service Modu
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_CSM_and_LM_875_493.png' class='page' />[Early NASA artist's rendition of Apollo Spacecraft. Command and Service Module (left) Lunar Module Ascent and Descent Stages (right)]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_CSM_and_LM_875_493.png' class='page lightbox' />[Early NASA artist's rendition of Apollo Spacecraft. Command and Service Module (left) Lunar Module Ascent and Descent Stages (right)]
 
 <br>
 
