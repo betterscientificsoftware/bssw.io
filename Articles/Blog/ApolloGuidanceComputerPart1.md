@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.jpg' /></a>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_Apollo1.jpg' class='page lightbox' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May 10, 2019
