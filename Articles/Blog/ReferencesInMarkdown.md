@@ -3,8 +3,11 @@
 In each major sub-section that follows, we use blocks of Lorem Ipsum text to
 demonstrate various ways of attempting using
 [GitHub Flavored Markdown](https://github.github.com/gfm/)
-to achieve Wiki-Media style footnoting and references. Some of our goals
-include
+to achieve Wiki-Media style footnoting and references. Also, I am using 4
+different link examples; one ftp link to a pdf file, one YouTube video link,
+one normal wikipedia page link and one link to a specific page of a PDF. I have
+noticed GitHub's rendering doesn't support the FTP link but the BSSw site does
+I think. Some of our goals include
 
 - Mobile friendly
 - Get teaser or summary text about the purpose of a linked reference
@@ -23,6 +26,8 @@ include
  - [GitHub Reference Style Links w/Duplication](#just-github-reference-style-links)
  - [Using In-Line HTML Anchors](#using-in-line-html-anchors)
 
+---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget elit tempor tristique nec sed leo. Vivamus commodo nisl tellus, lobortis imperdiet nisl consequat in. Sed tellus ex, laoreet eu dapibus sed, malesuada imperdiet diam. Nunc eu rutrum dui. Nam ut turpis neque. Mauris at nulla faucibus, ullamcorper dolor in, tincidunt ante. Quisque consequat ullamcorper quam, quis ullamcorper sapien sollicitudin eu. Curabitur mattis ipsum et elit semper sollicitudin. Cras ut eros vitae tellus pharetra commodo. Donec blandit sagittis purus ac commodo. Curabitur fermentum suscipit odio, ac pellentesque ipsum auctor eu.
 
 Quisque ac augue iaculis, mollis sem vel, vehicula ante. Mauris sollicitudin metus placerat risus sodales cursus. Duis euismod nisi justo, non fermentum est posuere sed. Praesent sagittis eros non aliquet ultricies. Nullam sit amet tincidunt elit. Vivamus scelerisque, enim ut pharetra cursus, odio velit molestie eros, sed ultrices orci urna a nibh. Integer luctus mi metus, id porta neque ornare ac. Curabitur viverra feugiat leo ut convallis. Suspendisse potenti. Proin a libero pharetra, convallis sapien in, facilisis turpis. Integer eget dui turpis.
@@ -33,14 +38,17 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 
 Vestibulum eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus purus. Curabitur venenatis eget elit eu posuere. Nunc euismod consequat lectus, nec aliquet nisl efficitur eu. Fusce a feugiat felis. Sed maximus metus eget tempus pharetra. Maecenas pharetra fermentum massa id bibendum. Integer ac metus iaculis, euismod purus et, convallis justo.
 
+---
+
 ## Just GitHub Reference Style Links
 
 Pros:
  - Simplest
- - Get balloon notes about where links go
+ - Link balloons notes about where links go
 
 Cons:
  - Duplication and re-format of reference content
+ - Links direct to ref instead of down to ref list
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit<sup>[1]</sup>.
 Sed quis dui et tortor molestie malesuada. Donec non consectetur arcu,
@@ -89,9 +97,10 @@ Pros:
 - Link to reference list before going to actual reference
 
 Cons:
-- Funky syntax where ref id gets duplicated
+- Funky syntax where ref handle is duplicated multiple times
 - More in-line HTML
 - Not sure `a` element `name` or `id` attribute should be used
+- No link balloons
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit<sup>[1](#1)</sup>.
 Sed quis dui et tortor molestie malesuada. Donec non consectetur arcu,
