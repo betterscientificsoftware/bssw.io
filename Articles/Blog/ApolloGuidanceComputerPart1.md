@@ -56,6 +56,9 @@ Apollo wasn't just a single spacecraft. It was two: the Command and Service Modu
 
 The AGC may not have been extreme in scale but it was extreme in reliability. Of the 42 Block II systems delivered and an aggregate of 11,000 hours of vibration and thermal testing plus 32,500 hours of normal operation, only 4 hardware faults were observed,<sup>[41]</sup> and none of these occurred in actual Moon missions. Little did AGC hardware engineers know that writing the software would present even greater challenges, ultimately becoming the rate-determining factor in delivering flight-ready units.
 
+Guidance was so critical for Apollo it was the first contract awarded by NASA. Half a century later,
+self-driving is so critical to Telsa, they recently developed their own proprietary CPUs<sup>[50]</sup>.
+
 ### Author Bio
 
 Mark Miller is a computer scientist supporting the
@@ -99,6 +102,7 @@ He also contributes to [VisIt](https://wci.llnl.gov/simulation/computer-codes/vi
 [47]: https://youtu.be/P12r8DKHsak?t=35
 [48]: https://www.telegraph.co.uk/technology/news/10719418/IBMs-5bn-gamble-revolutionary-computer-turns-50.html
 [49]: https://www.ibiblio.org/apollo/assembly_language_manual.html
+[50]: https://www.theverge.com/2019/4/22/18511594/tesla-new-self-driving-chip-is-here-and-this-is-your-best-look-yet
 
 <!---
 Image copyright source info…
