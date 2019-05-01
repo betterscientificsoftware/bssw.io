@@ -131,3 +131,13 @@ Fusce sollicitudin feugiat odio, sit amet dictum mi euismod eu. Nam quam orci, e
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed scelerisque eros eget risus cursus, sit amet congue elit tincidunt. Quisque porttitor gravida urna imperdiet malesuada. Cras semper arcu velit, quis tincidunt mi commodo at. Duis vitae ornare nisl. Donec accumsan, sapien nec tristique sagittis, augue nibh volutpat tortor, luctus gravida tellus felis vitae neque. Morbi scelerisque risus scelerisque dolor ultrices placerat. Phasellus vulputate, metus a tristique aliquam, enim quam ultricies nunc, in ullamcorper odio sapien ut neque. Phasellus suscipit fringilla risus ut vulputate.
 
 Vestibulum eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus purus. Curabitur venenatis eget elit eu posuere. Nunc euismod consequat lectus, nec aliquet nisl efficitur eu. Fusce a feugiat felis. Sed maximus metus eget tempus pharetra. Maecenas pharetra fermentum massa id bibendum. Integer ac metus iaculis, euismod purus et, convallis justo.
+
+<!---
+Publish: preview
+Categories: collaboration
+Topics: projects and organizations
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
