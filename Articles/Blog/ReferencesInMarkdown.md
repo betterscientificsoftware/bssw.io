@@ -36,7 +36,7 @@ but only for an implicit name-mangling of section headings. We could support
 our list of references as level-6 (`######`) section headings but by default
 those render (as `<h6>`) with far too much verticle space between each entry.
 
-### Examples
+### Examples of the Possible Strategies
 
 - [GitHub Reference Style Links w/Duplication](#just-github-reference-style-links)
 - [Using In-Line HTML Anchors](#using-in-line-html-anchors)
@@ -158,6 +158,15 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 Vestibulum eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus purus. Curabitur venenatis eget elit eu posuere. Nunc euismod consequat lectus, nec aliquet nisl efficitur eu. Fusce a feugiat felis. Sed maximus metus eget tempus pharetra. Maecenas pharetra fermentum massa id bibendum. Integer ac metus iaculis, euismod purus et, convallis justo.
 
 ## Using Level-6 Section Headings for Reference List
+
+Pros
+- No in-lined html (expcept for super-scripting footnotes)
+
+Cons:
+- Reference handles are very, very, very long
+- Vertical spacing in reference list is too high
+- Numbering the references just adds to the ref. handles
+- Balloon links possible but only at ref use, not in definition
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit<sup>[1](#whole-book-apollo-guidance-computer-architecture-and-operation-)</sup>.
 Sed quis dui et tortor molestie malesuada. Donec non consectetur arcu,
