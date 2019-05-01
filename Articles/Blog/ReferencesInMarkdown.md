@@ -1,5 +1,9 @@
 # Wiki-Media Like References In GitHub Markdown
 
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+#### Publication date: May 1, 2019
+
 In each major sub-section that follows, we use blocks of Lorem Ipsum text to
 demonstrate various ways of attempting using
 [GitHub Flavored Markdown](https://github.github.com/gfm/)
