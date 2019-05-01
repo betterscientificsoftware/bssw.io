@@ -4,10 +4,10 @@ The Better Scientific Software (BSSw) community is an international group of res
 
 We’re creating a clearinghouse to gather, discuss, and disseminate experiences, techniques, tools, and other resources to improve developer productivity and software sustainability - a key element of overall scientific productivity.  Site users can find information on many scientific software topics and can propose to curate or create new content based on their own experiences.
 
-## Site Use Policies
+### Site Use Policies
 We expect all contributors to the Better Scientific Software site to follow a Contributor Code of Conduct, as described in the [BSSw Policies](Policies.md).
 
-## BSSw Editorial Team
+### BSSw Editorial Team
 
 David Bernholdt<br/>
 Oak Ridge National Laboratory<br/>
