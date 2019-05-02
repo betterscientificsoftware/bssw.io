@@ -1,6 +1,6 @@
 ---
 name: Curated Content
-about: Template for Submitting Curated Content for Consideration
+about: https://bssw.io A Curated Content submission is a brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content and, where appropriate, the scope of applicability of the article.  
 title: Possible Curated Content
 labels: curated content ideas
 assignees: pagrubel
