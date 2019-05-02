@@ -1,6 +1,6 @@
 ---
 name: Curated Content
-about: https://bssw.io A Curated Content submission is a brief article that highlights other web-based articles and should describe why the CSE community might find value in it.  
+about: A brief article to highlight other web-based content and describe why the HPC/CSE community may value it.  
 title: Possible Curated Content
 labels: curated content ideas
 assignees: pagrubel
