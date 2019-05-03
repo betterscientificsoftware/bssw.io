@@ -82,10 +82,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget e
 
 <br>
 
-- <p>A1   </p>[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-- <p>A02  </p>[IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-- <p>ALCM </p>[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-- <p>A3   </p>[Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
+- <p>A1   [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)</p>
+- <p>A02  [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)</p>
+- <p>ALCM [Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)</p>
+- <p>A3   [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)</p>
 
 <br>
 
