@@ -1,6 +1,6 @@
 ---
 name: Curated Content
-about: Template for Submitting Curated Content for Consideration
+about: A brief article to highlight other web-based content and describe why the HPC/CSE community may value it.  
 title: Possible Curated Content
 labels: curated content ideas
 assignees: pagrubel
