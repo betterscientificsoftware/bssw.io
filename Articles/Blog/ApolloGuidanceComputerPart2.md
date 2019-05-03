@@ -17,13 +17,28 @@ over half a century earlier in the ashes of a guidance software disaster. The lo
 contact combined with a bug in the backup guidance software of Mariner 1 led to its destruction
 only 294 seconds after launch. Investigations revealed that during the transcription of hand-written
 guidance equations onto computer punch cards, an over-bar to indicate the use of *average* rather
-than *instantaneous* velocity went missing. The same bug was found to have flown, undiscovered,
-on two earlier Ranger missions.
+than *instantaneous* velocity went missing. The same bug was found to have flown on two earlier
+Ranger missions.
 
-## AGC Architecture and Peripherals
+## Hypothetical Hardware and Roaming Requirements 
 
-The AGC had unique *periperhals* not at all similar to our external displays, usb drives or
-wireless mice.
+The AGC and its software was only the central component of an integrated collection of sensors,
+displays, controls and propulsion systems. The whole system forms a complex feedback control system
+the stability<sup>[1]</sup> of which is an essential characteristic. Early on in the software development,
+the problem was to understand the equations governing spaceflight certain mission objectives
+and then develop approaches utilizing available sensors and controls to affect responses in real-time.
+
+A big challenge facing software developers was that all of these components were under
+development almost simultaneously. Their interfaces, performance characteristics, size, weight,
+and position within the spacecraft, all of which effect things like center of mass, angles,
+moments and torques were constantly evolving. In addition, NASA's expectations for what functions
+the GN&C system should perform were also evolving motiviated by a desire for increased safety
+margins and optimizing propellent usage.
+
+Three key things impacted AGC software development more than any other. The first was the
+decision to implement a digital auto-pilot (DAP). The second was the design of the memory
+sub-system. The third was the 1967 fire of Apollo 1.
+
 
 ## Management of a Big Software Project
 
@@ -62,25 +77,7 @@ position data at the anticipated time of the mission were then computed and stor
 fixed memory (rope core). This data would be among the approximately 70 kilobytes of data
 hand woven into the rope core in the weeks before a mission.
 
-Three key things impacted AGC software development more than any other. The first was the
-decision to implement a digital auto-pilot (DAP). The second was memory first small then
-larger. The third was the 1967 fire of Apollo 1.
 
-
-## GNC System Architecture
-
-The AGC and its software was only the central component of an integrated collection of sensors,
-displays, controls and propulsion systems. The whole system forms a complex feedback control system
-the stability<sup>[1]</sup> of which is an essential characteristic. Early on in the software development,
-the problem was to understand the equations governing spacecraft motions for certain mission objectives
-and then develop approaches utilizing available sensors and controls to affect responses in real-time.
-
-A big challenge facing software developers was that all of these components were under
-development almost simultaneously. Their interfaces, performance characteristics, size, weight,
-and position within the spacecraft, all of which effects things like center of mass, angles,
-moments and torques were constantly evolving. In addition, NASA's expectations for what functions
-the GN&C system should perform were also evolving motiviated by a desire for increased safety
-margins and optimizing propellent usage.
 
 
 ## Where's the Moon?
