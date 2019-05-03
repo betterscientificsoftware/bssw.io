@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget e
 [A3]: #B3 "Random Page of Reliability Report"
 
 References: Approach 1: Frontend strips out table formatting
-:--- | :---
+:--- |
 <a name="B1"></a><sup>A1</sup>[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
 <a name="B02"></a><sup>A02</sup>[IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
 <a name="BLCM"></a><sup>ALCM</sup>[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
@@ -74,7 +74,7 @@ References: Approach 1: Frontend strips out table formatting
 <br>
 
 References: | Approach 1: Frontend strips out table formatting
-:---| :--- | :---
+:---| :--- 
 A1 | [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
 A02 | [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
 ALCM | [Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
