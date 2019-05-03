@@ -248,7 +248,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 Vestibulum eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus purus. Curabitur venenatis eget elit eu posuere. Nunc euismod consequat lectus, nec aliquet nisl efficitur eu. Fusce a feugiat felis. Sed maximus metus eget tempus pharetra. Maecenas pharetra fermentum massa id bibendum. Integer ac metus iaculis, euismod purus et, convallis justo.
 
 <!---
-Publish: preview
+Publish: no
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-blog-article
