@@ -98,10 +98,10 @@ A3 | [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/hi
 
 <br>
 
-A1. [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-A2. [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-A3. [Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-A4. [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
+1. [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
+2. [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
+3. [Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
+4. [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
 
 <br>
 
