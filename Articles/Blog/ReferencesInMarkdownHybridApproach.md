@@ -90,8 +90,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget e
 <br>
 
 A1 <a href="ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf" class="link-row">Whole Book 'Apollo Guidance Computer Architecture and Operation'</a>
+<br>
 A02 <a href="https://en.wikipedia.org/wiki/IBM_System/360_Model_20" class="link-row">IBM System 360 Model 20 Spec</a>
+<br>
 ALCM <a href="https://youtu.be/YIBhPsyYCiM" class="link-row">Women Manufacturing AGC Rope Core</a>
+<br>
 A3 <a href="https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39" class="link-row">Random Page of Reliability Report</a>
 
 <!---
