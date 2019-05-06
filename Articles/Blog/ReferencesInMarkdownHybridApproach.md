@@ -64,56 +64,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget e
 [A02]: #B02 "IBM System 360 Model 20 Specs"
 [A3]: #B3 "Random Page of Reliability Report"
 
-References: Approach 1: Frontend strips out table formatting
-:--- |
-<sup>A1</sup>[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-<sup>A02</sup>[IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-<sup>ALCM</sup>[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-</a><sup>A3</sup>[Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
-
 <br>
 
-References: | Approach 1: Frontend strips out table formatting
+**References**
+&nbsp; | &nbsp;
 :---| :--- 
-<a name="B1"></a>A1 | [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-<a name="BLCM"></a>A02 | [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-<a name="B02"></a>ALCM | [Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-<a name="B3"></a>A3 | [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
+<a name="B1"></a>01 | Apple, Jr., R.W.[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf) (Transcript of the recording of a meeting between President Nixon and H. R. Haldeman). Watergate.info website. June 23, 1972. Retrieved January 17, 2007.
+<a name="BLCM"></a>02 | [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)narrative by R.W. Apple, Jr.; chronology by Linda Amster; general ed.: Gerald Gold. (1973). The Watergate hearings: break-in and cover-up; proceedings. New York: Viking Press. 
+<a name="B02"></a>03 | Kilpatrick, Carroll (November 18, 1973[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
+<a name="B3"></a>04 | Dean, John W. The Nixon Defense: What He Knew and When He Knew It, pp. 610–620, Penguin Group, 2014 [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39) 
 
 <!-- Frontend strips out table formatting, so trying another approach -->
-
-### References: Approach 2: Bullets
-
-- </a><sup>A1</sup>[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-- <sup>A02</sup>[IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-- <sup>ALCM</sup>[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-- <sup>A3</sup>[Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
-
-<!-- Removed <a name="B3"></a> from each above -->
-
-<br>
-
-- A1 &nbsp; &nbsp; &nbsp; &nbsp; [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-- A02 &nbsp; &nbsp; &nbsp; [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-- ALCM &nbsp;[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-- A3 &nbsp; &nbsp; &nbsp; &nbsp; [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
-
-<br>
-
-1. [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-2. [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-3. [Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-4. [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
-
-<br>
-
-A1 <a href="ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf" class="link-row">Whole Book 'Apollo Guidance Computer Architecture and Operation'</a>
-<br>
-A02 <a href="https://en.wikipedia.org/wiki/IBM_System/360_Model_20" class="link-row">IBM System 360 Model 20 Spec</a>
-<br>
-ALCM <a href="https://youtu.be/YIBhPsyYCiM" class="link-row">Women Manufacturing AGC Rope Core</a>
-<br>
-A3 <a href="https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39" class="link-row">Random Page of Reliability Report</a>
 
 <!---
 Publish: preview
