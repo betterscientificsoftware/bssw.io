@@ -66,8 +66,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget e
 
 <br>
 
-### References
-
 References | &nbsp;
 :--- | :--- 
 <a name="B1"></a>01 | Apple, Jr., R.W. &nbsp; [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf) (Transcript of the recording of a meeting between President Nixon and H. R. Haldeman). Watergate.info website. June 23, 1972. Retrieved January 17, 2007.
