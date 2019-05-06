@@ -67,6 +67,10 @@ self-driving is so critical to Telsa, they recently developed their own propriet
 
 <br>
 
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_ApolloDiagram_fullres.jpg' class='page lightbox' />[NASA created this chart in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon.]
+
+<br>
+
 <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.jpg' /></a>
 
 ### Author Bio
