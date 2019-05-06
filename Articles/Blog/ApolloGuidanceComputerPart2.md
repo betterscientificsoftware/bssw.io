@@ -20,10 +20,61 @@ guidance equations onto computer punch cards, an over-bar to indicate the use of
 than *instantaneous* velocity went missing. The same bug was found to have flown on two earlier
 Ranger missions.
 
-## Hypothetical Hardware and Roaming Requirements 
+Early development activity focused on infrastructural software; the Executive, the Waitlist,
+the Interpreter, DSKY I/O all of which were written in AGC assembly language. By 1965, most
+of this code had been written and fully tested.
 
-The AGC and its software was only the central component of an integrated collection of sensors,
-displays, controls and propulsion systems. The whole system forms a complex feedback control system
+Flying to the moon and returning safely involved a lot of coasting. A mission was divided into
+phases by *velocity change manuevers*. For each manuever, there was an app for that. There was
+a cooresponding program in the AGC. For time crtical maneuvers such as lunar landing, rendevouse
+and docking and re-entry groups of programs worked together.
+
+The first step in developing these guidance routines was to understand the equations governing
+spacecraft motion during certain maneuver objectives and then develop approaches utilizing available
+sensors and controls to affect responses within in various constraints such as time, memory, 
+fuel usage, propulsive device response characteristics. The complexities were enormous; sensor
+drift / failed sensors, failed thrusters, avoiding gimbal lock, the moon’s lumpy gravity field,
+fuel slosh, changing center of mass, optimizing use of RCS fuel Narrow windows of opportunity
+Maximize safety margins Software errors Human errors (check lists) Communication lapses and blackouts
+Allowing for failures & contingencies
+
+A good example of the kind of problem AGC developers needed to solve was finding a way for the AGC
+to know the position of the Moon as a function of time. Doing so using a minimum of fixed and
+eraseable storage and without consuming too much of the CPU's attention or taking longer than
+needed for real-time operation were all design considerations in developing AGC software. 
+In this case, after developing and evaluating various methods in MAC Fortran on MIT
+mainframe systems, developers settled on an approach using 8th degree polynomial fits to
+X, Y and Z positional data predicted from separate and independent solution of the 3-body
+(Earth, Sun, Moon) problem. The polynomial coefficents fitting a 2-week period of Moon
+position data at the planned time of the mission were then computed and stored in
+fixed memory (rope core). This data would be among the approximately 70 kilobytes of data
+hand woven into the rope core in the weeks before a mission.
+
+
+
+
+
+
+## Maintaining Knowledge of the State Vector At All Times
+
+A critical problem the AGC needed to solve was maintaining accurate knowledge at all times
+of spacecraft position and position rates (e.g. *velocity*), orientation (e.g. roll, pitch and
+yaw) and orientation rates (*rotational velocity*). This is the *state vector*. The inertial
+measurement unit (IMU), is the critical sensor system responsible for measuring linear and
+angular accelerations the spacecraft experiences. Integration of the accleration data is
+required to obtain velocity and position data.
+
+
+## Hypothetical Hardware and Revising Requirements 
+
+As crtical as the AGC and its software was, it was only one part of an integrated
+collection of guidance hardware
+system of displays, controllers, sensors and 
+
+The AGC and its software was only the central component of a larger system. A collection of
+sensors, displays, controls and propulsive devices
+
+systems. The whole system forms a complex feedback control system
 the stability<sup>[1]</sup> of which is an essential characteristic. Early on in the software development,
 the problem was to understand the equations governing spaceflight certain mission objectives
 and then develop approaches utilizing available sensors and controls to affect responses in real-time.
@@ -65,17 +116,6 @@ required special groups of programs working together. For every phase of the mis
 an *app* for that. But, whole programs utilized smaller sub-routines that performed highly
 specialized operations.
 
-Computing the position of the Moon as a function of time is a typical example of the kind of
-problem AGC software developers faced. Doing so using a minimum of fixed and
-eraseable storage and without consuming too much of the CPU's attention or taking longer than
-needed for real-time operation were all design considerations in developing AGC software. 
-In this case, after developing and evaluating various methods in MAC Fortran on MIT
-mainframe systems, developers settled on an approach using 3, 8th degree polynomial
-fits to positional data predicted from separate and independent solution of the 3-body
-(Earth, Sun, Moon) problem. The polynomial coefficents fitting a 2-week period of Moon
-position data at the anticipated time of the mission were then computed and stored in
-fixed memory (rope core). This data would be among the approximately 70 kilobytes of data
-hand woven into the rope core in the weeks before a mission.
 
 
 
@@ -128,6 +168,23 @@ http://web.mit.edu/digitalapollo/Documents/Chapter6/hoagprogreport.pdf?#page=24 
 
 https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html "Simulink Model of DAP"
 
-http://thecomputerboys.com "Early Programmers as Data Entry Personnel"
+http://thecomputerboys.com "Early Programmers as Data Entry Personnel - Women's Work"
 
 http://www.ibiblio.org/apollo/hrst/archive/1695.pdf "AGC Software Development Plan"
+
+http://klabs.org/history/history_docs/mit_docs/1711.pdf?#page=12 "Hoag Report: THE HISTORY OF APOLLO ON-BOARD GUIDANCE, NAVIGATION, AND CONTROL"
+
+http://tindallgrams.net "Select Tindall memos"
+
+https://www.ibiblio.org/apollo/hrst/archive/1687.pdf?#page=40 "Example AGC Interpretive Program"
+
+Numerics of Apollo Guidance System
+
+- IMU degredation signature
+- eraseable programs
+- filter coefficients and instability
+- ALU number representations
+- scaling among subroutines
+- moon position data
+- Apollo mission accruacy needs
+- 3 or 4 gimbals
