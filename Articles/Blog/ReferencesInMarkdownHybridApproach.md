@@ -67,14 +67,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget e
 <br>
 
 **References**
-&nbsp; | &nbsp;
-:---| :--- 
+
+No. | Citation
+:--- | :--- 
 <a name="B1"></a>01 | Apple, Jr., R.W.[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf) (Transcript of the recording of a meeting between President Nixon and H. R. Haldeman). Watergate.info website. June 23, 1972. Retrieved January 17, 2007.
 <a name="BLCM"></a>02 | [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)narrative by R.W. Apple, Jr.; chronology by Linda Amster; general ed.: Gerald Gold. (1973). The Watergate hearings: break-in and cover-up; proceedings. New York: Viking Press. 
 <a name="B02"></a>03 | Kilpatrick, Carroll (November 18, 1973[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
 <a name="B3"></a>04 | Dean, John W. The Nixon Defense: What He Knew and When He Knew It, pp. 610–620, Penguin Group, 2014 [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39) 
 
 <!-- Frontend strips out table formatting, so trying another approach -->
+
+<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget elit tempor tristique nec sed leo. Vivamus commodo nisl tellus, lobortis imperdiet nisl consequat in. Sed tellus ex, laoreet eu dapibus sed, malesuada imperdiet diam. Nunc eu rutrum dui. Nam ut turpis neque. Mauris at nulla faucibus, ullamcorper dolor in, tincidunt ante. Quisque consequat ullamcorper quam, quis ullamcorper sapien sollicitudin eu. Curabitur mattis ipsum et elit semper sollicitudin. Cras ut eros vitae tellus pharetra commodo. Donec blandit sagittis purus ac commodo. Curabitur fermentum suscipit odio, ac pellentesque ipsum auctor eu.
+
+<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget elit tempor tristique nec sed leo. Vivamus commodo nisl tellus, lobortis imperdiet nisl consequat in. Sed tellus ex, laoreet eu dapibus sed, malesuada imperdiet diam. Nunc eu rutrum dui. Nam ut turpis neque. Mauris at nulla faucibus, ullamcorper dolor in, tincidunt ante. Quisque consequat ullamcorper quam, quis ullamcorper sapien sollicitudin eu. Curabitur mattis ipsum et elit semper sollicitudin. Cras ut eros vitae tellus pharetra commodo. Donec blandit sagittis purus ac commodo. Curabitur fermentum suscipit odio, ac pellentesque ipsum auctor eu.
 
 <!---
 Publish: preview
