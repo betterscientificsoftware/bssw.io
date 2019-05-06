@@ -11,6 +11,8 @@
 
 <br> 
 
+- <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.jpg' /></a>
+
 This year, July 20 will mark the 50th anniversary of the 1969 Apollo 11 Moon landing.<sup>[1]</sup> Between 1958 and 1965, both Russian and American space programs attempted a total of over 36 unmanned Moon missions.<sup>[2]</sup> Of the 6 that succeeded, none were survivable soft landings. Just crashing into the Moon proved exceedingly difficult. Developing a guidance, navigation, and control (GNC) system for Apollo<sup>[3],[9]</sup> was an enormous challenge. At its heart was a revolutionary new computer: the Apollo Guidance Computer (AGC).<sup>[4],[5],[6]</sup>
 
 In commemoration of that historical achievement, this is the first of three articles about the AGC. Part 1 describes the hardware. Part 2 will describe the software and part 3 its application in Moon missions. In the years since AGC's development, jargon may have changed, but the HPC community will recognize many common themes such as flops/watt power constraints, checkpoint and restart strategies, and the need for performance portability.
