@@ -71,6 +71,13 @@ self-driving is so critical to Telsa, they recently developed their own propriet
 
 <br>
 
+### About our Artwork
+The images we chose to illustrate the <em>The Apollo Guidance Computer</em> series are details from a chart NASA created in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include the full-res image below.
+
+<a href='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_ApolloDiagram_fullres.jpg' /><img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_ApolloDiagram_fullres.jpg' /></a>
+
+<br>
+
 <a href='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile_fullres.jpg'><img src='https://raw.githubusercontent.com/betterscientificsoftware/images/blog_agc_part1/Blog_AGCPart1_profile.jpg' /></a>
 
 ### Author Bio
