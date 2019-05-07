@@ -1,6 +1,6 @@
 # Sustaining Open Source Software and Their Communities in Computational Geodynamics (Blue Waters Webinar)
 
-- Date: May 15, 2019
+- Date: May 15, 2019 - CANCELLED
 - Location: Online
 - Event Website: https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems/geodynamics
 
