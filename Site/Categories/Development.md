@@ -30,7 +30,7 @@ Ensuring that users can easily configure, compile, link, test, and interoperate 
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 --->
 
-- **Software Release and Deployment**
+- **Software Release and Deployment:**
 Approaches for versioning, packaging, releasing, and deploying software, documentation, or data for users to then obtain, install, and use.
 
 <!---
@@ -51,7 +51,7 @@ The process of improving internal attributes of a software product (e.g. readabi
 - [What Is CSE Software Refactoring?](Topics/WhatIsCseSwRefactoring.md)
 --->
 
-- **Software Engineering**
+- **Software Engineering:**
 Procedures and considerations for developing well-engineered, reliable and maintainable software.
 
 <!---
