@@ -9,7 +9,7 @@ A collection of tutorials, articles and tips for Git.
 <!---
 Publish: yes
 Categories: development
-Topics: version control, revision control
+Topics: revision control
 Tags: training
 Level: 2
 Prerequisites: defaults
