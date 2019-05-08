@@ -53,9 +53,9 @@ special-purpose registers.<sup>[19]</sup> The table below compares key AGC
 performance metrics with an early model of the IBM 360. Both systems were
 released in 1966, the same year initial designs of the first massively parallel
 computer, ILLIAC IV,<sup>[30]</sup> were completed. Costing nearly $5 billion
-to develop, 20% of the entire Apollo budget, the IBM 360 was a big gamble and
-even bigger success for IBM.<sup>[48]</sup> We also include a row for comparison
-with IBM’s newest AC922<sup>[45]</sup> based systems
+to develop, 20% of the entire Apollo budget, IBM's System 360 was a big gamble
+and even bigger success.<sup>[48]</sup> In the table below, we also include a
+row for comparison with IBM’s newest AC922<sup>[45]</sup> based systems
 (Summit<sup>[28]</sup> / Sierra<sup>[42]</sup>).
 
 <br> 
@@ -120,11 +120,11 @@ most importantly, reducing memory usage.
 ### Multiple Spacecraft Configurations: A Performance Portability Challenge
 Apollo wasn't just a single spacecraft. It was two: the Command and Service
 Module (CSM) and the Lunar Module (LM). Each had its own AGC and was further
-divided into two stages. Depending on the phase of a mission, the vehicles
-were joined together in various configurations with dramatically different
-operating characteristics. Developing a single program, the Digital Auto Pilot
-(DAP),<sup>[7]</sup> to provide effective GNC for any configuration, even
-off-nominal cases, presented what amounts to a significant performance
+divided into two stages. Depending on the phase of a mission<sup>[54]</sup>,
+the vehicles were joined together in various configurations with dramatically
+different operating characteristics. Developing a single program, the Digital
+Auto Pilot (DAP),<sup>[7]</sup> to provide effective GNC for any configuration,
+even off-nominal cases, presented what amounts to a significant performance
 portability problem. In Part 2 of this series we'll discuss how software
 developers met this challenge.
 
@@ -194,7 +194,7 @@ Among other things, he contributes to
 [51]: https://en.wikipedia.org/wiki/P-code_machine "Example of a P-code language {}"
 [52]: https://history.nasa.gov/computers/Part1.html "NASA archive on Computers in Spaceflight {}"
 [53]: https://history.nasa.gov/computers/Ch2-1.html "The need for an on-board computer {}"
-[54]: https://moon.nasa.gov/resources/348/apollo-mission-flight-plan-1967/ "NASA Apollo Flight Plan Diagram {}"
+[54]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "NASA Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
 
 <!---
 Image copyright source info…
