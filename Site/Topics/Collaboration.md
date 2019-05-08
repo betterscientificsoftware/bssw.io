@@ -32,6 +32,7 @@ Discussion forums and sites where questions about scientific software developmen
 - **Conferences and Workshops**
 Recurring series of conferences and workshops that highlight advances in scientific software productivity and sustainability. 
 -->
+<!---Topic order: 7--->
 
 <!---
 Category order: 5
