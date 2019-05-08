@@ -1,4 +1,4 @@
-# When 100 FLOPS/Watt Was a Giant Leap
+# Apollo Series Part 1: When 100 FLOPS/Watt Was a Giant Leap
 
 **Hero Image:**
 
