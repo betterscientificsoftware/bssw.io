@@ -27,7 +27,7 @@ development, jargon may have changed, but the HPC community will recognize
 many common themes such as flops/watt power constraints, checkpoint and restart
 strategies, and the need for performance portability.
 
-### The AGC Architecture: A Giant Leap in FLOPS<sup>a</sup> per W, Kg, m<sup>3</sup> 
+### The AGC architecture: A giant leap in FLOPS<sup>a</sup> per W, Kg, m<sup>3</sup> 
 
 Apollo needed a computer orders of magnitude better than those typical of the
 era: lower power, lighter weight, smaller size, greater reliability, and able
@@ -68,7 +68,7 @@ IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 1E12 | 14E16| (97E5) 14E9 | (31
 
 <sup>a</sup>FLOP = single precision multiply + add
 
-### Rope Core: A New Type of NVM
+### Rope core: A new type of nonvolatile memory
 
 The AGC utilized two types of *core* memory<sup>[17]</sup>: erasable memory
 using coincident current cores and fixed (read-only) memory using rope
@@ -91,7 +91,7 @@ derived from this early memory technology.
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
 
-### The Executive: An Operating System with Checkpoint/Restart Services
+### The Executive: An operating system with checkpoint/restart services
 The AGC used a priority-driven, collaborative, multitasking operating system
 called the *Executive*.<sup>[4]</sup> Priority-based job scheduling was
 revolutionary for its time. The Executive could detect a variety of hardware
@@ -103,7 +103,7 @@ complicated testing. In 1968, an internal NASA report<sup>[25]</sup> raised
 significant doubts about its value. In Part 3 of this series, we’ll describe why
 it would later be proven invaluable during the Apollo 11 landing.
 
-### The Interpreter: A Domain-Specific Language
+### The Interpreter: A domain-specific language
 The Executive and other system functions were all implemented in AGC native
 assembly code<sup>[49]</sup>. However, solving complex, 3D spatial navigation
 problems with this simple instruction set was tedious, error prone, and memory
@@ -117,7 +117,7 @@ it was still a form of assembly language. But, it operated at a much higher
 level of abstraction easing development, improving overall reliability and,
 most importantly, reducing memory usage.
 
-### Multiple Spacecraft Configurations: A Performance Portability Challenge
+### Multiple spacecraft configurations: A performance portability challenge
 Apollo wasn't just a single spacecraft. It was two: the Command and Service
 Module (CSM) and the Lunar Module (LM). Each had its own AGC and was further
 divided into two stages. Depending on the phase of a mission<sup>[54]</sup>,
@@ -149,7 +149,7 @@ developed a custom, proprietary AI chip to support it.<sup>[50]</sup>
 
 <br>
 
-### Author Bio
+### Author bio
 
 Mark Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
