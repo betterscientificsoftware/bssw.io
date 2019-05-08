@@ -14,8 +14,8 @@ Written text or illustration that accompanies computer software to explain how i
     - [How to Write Good Documentation?](../CuratedContent/HowToWriteGoodDocumentation.md)
 --->
 
-- **Version Control:**
-Management of changes to files.  Also known as revision control, source control, or source management.
+- **Revision Control:**
+Management of changes to files.  Also known as version control, source control, or source management.
 
 <!---
     - [What is Version Control?](../CuratedContent/WhatIsVersionControl.md)

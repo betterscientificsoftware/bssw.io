@@ -11,7 +11,7 @@ But while Git is power and flexible, it is not easy for most people to learn and
 <!---
 Publish: yes
 Categories: Development
-Topics: version control
+Topics: version control, revision control
 Tags: training, meta
 Level: 2
 Prerequisites: defaults

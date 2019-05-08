@@ -9,7 +9,7 @@ The short document [How to do Version Control with Git in your CSE Project](http
 <!---
 Publish: yes
 Categories: development
-Topics: version control
+Topics: version control, revision control
 Tags: document, howto
 Level: 2
 Prerequisites: defaults

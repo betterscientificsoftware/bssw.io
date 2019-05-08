@@ -7,7 +7,7 @@
 <!---
 Publish: yes
 Categories: development
-Topics: version control
+Topics: version control, revision control
 Tags: service, tool
 Level: 2
 Prerequisites: defaults

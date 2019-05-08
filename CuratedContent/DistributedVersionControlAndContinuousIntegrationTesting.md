@@ -11,7 +11,7 @@ Recently, many tools and workflows have emerged in the software industry that ha
 <!---
 Publish: yes
 Categories: reliability, collaboration
-Topics: continuous integration testing, version control
+Topics: continuous integration testing, version control, revision control
 Tags: training, webinar, video
 Level: 2
 Prerequisites: defaults
