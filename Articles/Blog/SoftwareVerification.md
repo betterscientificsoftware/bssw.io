@@ -18,7 +18,7 @@ Many techniques for verification of scientific software come at the problem side
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer_Diag.png' class='page lightbox' />
+[Figure: Nuclear flame in a controlled model validation simulation]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer_Diag.png' class='page lightbox' />
 
 <br> 
 
