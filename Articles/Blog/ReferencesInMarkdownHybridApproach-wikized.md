@@ -1,3 +1,4 @@
+<!--- WARNING: Auto-generated with wikize-refs.py from ReferencesInMarkdownHybridApproach.md --->
 # Wikipedia-Like Citations and References In GitHub Markdown
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
@@ -78,25 +79,25 @@ Reference numbers should appear:
 
 Examples:
 
-    This drug is used to treat hepatitis.<sup>[1]</sup>
+    This drug is used to treat hepatitis.<sup>[2]</sup>
 
-    Storing latex at high heat may cause degradation,<sup>[mcm],[1]</sup>
+    Storing latex at high heat may cause degradation,<sup>[1],[2]</sup>
     but it is difficult to keep materials cool in a desert environment.
 
     Some physicians choose to store prescription pads in locked
-    cabinets<sup>[ale3d-paper]</sup>; others keep them in their
-    coats at all times.<sup>[1]</sup>
+    cabinets<sup>[3]</sup>; others keep them in their
+    coats at all times.<sup>[2]</sup>
 
 Which would appear as...
 
-This drug is used to treat hepatitis.<sup>[1]</sup>
+This drug is used to treat hepatitis.<sup>[2]</sup>
 
-Storing latex at high heat may cause degradation,<sup>[mcm],[1]</sup>
+Storing latex at high heat may cause degradation,<sup>[1],[2]</sup>
 but it is difficult to keep materials cool in a desert environment.
 
 Some physicians choose to store prescription pads in locked
-cabinets<sup>[ale3d-paper]</sup>; others keep them in their
-coats at all times.<sup>[1]</sup>
+cabinets<sup>[3]</sup>; others keep them in their
+coats at all times.<sup>[2]</sup>
 
 Hover over the footnote links in the above and observe the
 tool-tip/ballon-help.
@@ -123,6 +124,29 @@ For example, running script on this markdown file...
 
 produces the new markdown file [`ReferencesInMarkdownHybridApproach-wikized.md`](./ReferencesInMarkdownHybridApproach-wikized.md)
 
+
+<br>
+
+<!---
 [mcm]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
 [1]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
 [ale3d-paper]: https://wci.llnl.gov/simulation/computer-codes/ale3d " {}"
+
+--->
+<br>
+
+[1]: #ref1 "Smart Libraries"
+[2]: #ref2 "Hello World"
+[3]: #ref3 ""
+
+<br>
+
+References | &nbsp;
+:--- | :---
+<a name="ref1"></a>1 | [Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636](https://wci.llnl.gov/codes/smartlibs/index.html)
+<a name="ref2"></a>2 | [Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241](https://)
+<a name="ref3"></a>3 | [](https://wci.llnl.gov/simulation/computer-codes/ale3d)
+
+<br>
+
+

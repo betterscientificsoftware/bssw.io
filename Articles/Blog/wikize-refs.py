@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-# run ./add_refs.py --help for documentation
+# run ./wikize-refs.py --help for documentation
+
 def usage():
     return \
 """
@@ -17,18 +18,19 @@ intended destinations. The resulting file is still GitHub flavored
 Markdown but with a minimal amount of embedded HTML.
 
 For our purposes, GitHub Markdown reference style links should be
-formmated as follows...
+formated as follows...
 
 [<LINK-ID>]: <URL> "<DESC> {<BIB-DATA>}"
 
 where...
 
+all characters outside <> delimeters are required
 <LINK-ID> is any alpha-numeric text (must start at col 0)
-<URL> is the actual url of the on-line reference
-<DESC> is a short, 3-10 word description
-<BIB-DATA> is a full bibliographic entry (optional if none {})
+<URL> is the actual url of the  an on-line reference
+<DESC> is a short description/summary of the referenced item
+<BIB-DATA> is a full bibliographic entry (Optional. If none use {})
 
-Some sanity checking of footnotes and references is performed.
+Some sanity checking is performed.
 
 Examples...
 
@@ -36,9 +38,9 @@ To process a file...
 
     ./wikize-refs.py foo.md
 
-...will produce a new file, foo-wikized.md, with the references
-adjusted.
+...produces foo-wikized.md, with the references adjusted.
 """
+
 from optparse import OptionParser
 import re, os
 
@@ -77,7 +79,7 @@ for mdfile in mdfiles:
     with open(mdfile, 'r') as mdf:
         for mdfl in mdf.readlines():
             # grep for ^[xxx]: URL "Short Description {Formal Bibliographic data}"$
-            mdfparts = re.search("^\[([0-9]*)\]: (.*) \"(.*) {(.*)}\"$", mdfl)
+            mdfparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*) {(.*)}\"$", mdfl)
             if in_comment:
                 comment_lines += [mdfl]
             elif re.match("<!---", mdfl):
@@ -110,7 +112,6 @@ for mdfile in mdfiles:
 # Sanity checks for footnote references and the reference list
 #    - ensure every footnote references an existing item in the ref list
 #    - ensure every ref list item is referenced at least once
-#    - ensure no duplicates in ref list
 #
 ref_handles = set(ref_map.keys())
 missing_refs = fn_handles - ref_handles
@@ -133,6 +134,11 @@ if missing_fns:
 # Write the re-numbered and re-formatted md file
 # 
 with open("%s-wikized.md"%os.path.splitext(mdfile)[0], 'w') as wmdf:
+
+    #
+    # write warning comment about this being auto-generated
+    #
+    wmdf.write("<!--- WARNING: Auto-generated with wikize-refs.py from %s --->\n"%mdfile)
 
     #
     # Write all non-reference definition lines (e.g. article content) first
@@ -172,7 +178,7 @@ with open("%s-wikized.md"%os.path.splitext(mdfile)[0], 'w') as wmdf:
 
     #
     # Finally, write the references and off-page links as a table
-    # where each row defines an anchor for the link definitions, above
+    # where each row defines an anchor for one of the link definitions, above
     #
     wmdf.write("\n<br>\n\n")
     wmdf.write("References | &nbsp;\n")

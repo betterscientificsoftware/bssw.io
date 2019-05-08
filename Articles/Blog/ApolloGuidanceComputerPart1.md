@@ -12,7 +12,7 @@
 <br>
 
 This year, July 20 will mark the 50th anniversary of the 1969 Apollo 11 Moon
-landing.<sup>[1]</sup> Between 1958 and 1965, both Russian and American space
+landing.<sup>[0],[1]</sup> Between 1958 and 1965, both Russian and American space
 programs attempted a total of over 36 unmanned Moon missions.<sup>[2]</sup>
 Of the 6 that succeeded, none were survivable soft landings. Just crashing into
 the Moon proved exceedingly difficult. Developing a guidance, navigation, and
@@ -30,11 +30,11 @@ strategies, and the need for performance portability.
 ### The AGC Architecture: A Giant Leap in FLOPS<sup>a</sup> per W, Kg, m<sup>3</sup> 
 
 Apollo needed a computer orders of magnitude better than those typical of the
-era: lower power, lighter weight, smaller size, greater reliability, and able
-to operate in the extreme environmental conditions of space flight. In mid-1961,
-NASA accorded MIT/Draper Labs “sole source” status to design the AGC and soon
-after selected Raytheon to manufacture it.<sup>[6]</sup> Both organizations had
-been involved in development of the Polaris missile GNC system.<sup>[22]</sup>
+era:<sup>[55]</sup> lower power, lighter weight, smaller size, greater reliability,
+and able to operate in the extreme environmental conditions of space flight.
+In mid-1961, NASA accorded MIT/Draper Labs “sole source” status to design the AGC
+and soon after selected Raytheon to manufacture it.<sup>[6]</sup> Both organizations
+had been involved in development of the Polaris missile GNC system.<sup>[22]</sup>
 
 <br> 
 
@@ -81,7 +81,7 @@ labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or aroun
 (logical ‘0’) arrays of cores. Bugs were costly to correct and often were just
 worked around with additional steps in astronaut checklists or even by revising
 mission parameters. Unable to fully automate this crucial manufacturing step,
-Raython instead hired an army of experienced textile workers from the New
+Raytheon instead hired an army of experienced textile workers from the New
 England area, all women. Remarkably, weaving and its place in computing date
 back more than 150 years *earlier* to the Jacquard loom.<sup>[40],[46]</sup>
 Present day operating system terms such as *core dump* or *core image* are
@@ -120,7 +120,7 @@ most importantly, reducing memory usage.
 ### Multiple Spacecraft Configurations: A Performance Portability Challenge
 Apollo wasn't just a single spacecraft. It was two: the Command and Service
 Module (CSM) and the Lunar Module (LM). Each had its own AGC and was further
-divided into two stages. Depending on the phase of a mission<sup>[54]</sup>,
+divided into two stages. Depending on the phase of a mission<sup>[0]</sup>,
 the vehicles were joined together in various configurations with dramatically
 different operating characteristics. Developing a single program, the Digital
 Auto Pilot (DAP),<sup>[7]</sup> to provide effective GNC for any configuration,
@@ -134,18 +134,21 @@ developers met this challenge.
 
 <br>
 
+### An MTBF of 40,000 Hours: Extremely Reliable Computing
 The AGC may not have been extreme in scale but it was extreme in reliability.
 Of the 42 Block II systems delivered and an aggregate of 11,000 hours of
-vibration and thermal testing plus 32,500 hours of normal operation, only
-4 hardware faults were observed,<sup>[14]</sup> none of which occurred in
-actual Moon missions. Little did AGC hardware engineers know that writing the
-software would present even greater challenges, ultimately becoming the
+vibration exposure and thermal cycling plus 32,500 hours of normal operation,
+only 4 hardware faults were observed,<sup>[14]</sup> none of which occurred in
+actual Moon missions. A conservative estimate of the MTBF of the AGC was later
+calculated to be over 40,000 hours, more than an order of magnitude better than
+machines typical of that era. Little did AGC hardware engineers know that writing
+the software would present even greater challenges, ultimately becoming the
 rate-determining factor in delivering flight-ready units.
 
-Autonomous guidance for Apollo was so critical to success, NASA funded the
-development of this revolutionary new computer to support it.<sup>[53]</sup>
-Half a century later, self-driving is so critical for Telsa, they have
-developed a custom, proprietary AI chip to support it.<sup>[50]</sup>
+Autonomous guidance was so critical for Apollo, NASA funded the development of
+this revolutionary new computer to support it.<sup>[53]</sup> Half a century
+later, self-driving is so critical in the auto industry, Tesla has
+developed their own custom, proprietary AI chip to support it.<sup>[50]</sup>
 
 <br>
 
@@ -160,6 +163,7 @@ Among other things, he contributes to
 [HDF5](https://www.hdfgroup.org) and
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
+[0]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
 [1]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html "Overview of Apollo 11 Mission {}"
 [2]: https://en.wikipedia.org/wiki/Moon_landing "List of Moon missions since 1958 {}"
 [3]: https://en.wikipedia.org/wiki/Apollo_PGNCS "What is Primary Guidance, Navigation and Control {}"
@@ -194,7 +198,7 @@ Among other things, he contributes to
 [51]: https://en.wikipedia.org/wiki/P-code_machine "Example of a P-code language {}"
 [52]: https://history.nasa.gov/computers/Part1.html "NASA archive on Computers in Spaceflight {}"
 [53]: https://history.nasa.gov/computers/Ch2-1.html "The need for an on-board computer {}"
-[54]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "NASA Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
+[55]: https://www.computerhistory.org/timeline/ "Computer History Timeline {}"
 
 <!---
 Image copyright source info…
