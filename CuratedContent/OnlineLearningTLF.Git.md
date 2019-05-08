@@ -21,7 +21,7 @@ The git-game is a terminal based game that teaches both new and advances users s
 <!---
 Publish: yes
 Categories: skills, development
-Topics: online learning, version control, revision control
+Topics: online learning, revision control
 Tags: bssw-article
 Level: 2
 Prerequisites: defaults

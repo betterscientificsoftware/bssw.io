@@ -7,7 +7,7 @@
 **Topics:**
 
 - **Documentation:**
-Written text or illustration that accompanies computer software to explain how it operates or how to use it.  
+Creating, maintaining, and hosting quality documentation (written text or illustration) about the use, operation, or design of software.
 
 <!---
     - [What Is Good Documentation?](../CuratedContent/WhatIsGoodDocumentation.md)
@@ -15,60 +15,47 @@ Written text or illustration that accompanies computer software to explain how i
 --->
 
 - **Revision Control:**
-Management of changes to files.  Also known as version control, source control, or source management.
+Approaches for managing changes to files (source code, documentation, data) as well as maintaining their history and attribution, especially across multiple contributors and branches of development (also known as version control).
 
 <!---
     - [What is Version Control?](../CuratedContent/WhatIsVersionControl.md)
     - [How to Do Version Control with Git in Your CSE Project](..CuratedContent/HowToDoVersionControlWithGitInYourCseProject.md)
 --->
 
-
-<!---
-        - [What Is CSE Software Deployment?](Topics/WhatIsCseSwDeployment.md)
---->
-
 - **Configuration and Builds:**
-Installing scientific software from source requires a system for setting up (configuring) software to compile and link (build) the code according to the user's specific platform and needs.
+Ensuring that users can easily configure, compile, link, test, and interoperate software packages for the various computing environments in which they are needed.
 
 <!---
     - [What Is Software Configuration?](../CuratedContent/WhatIsSwConfiguration.md)
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 --->
 
-- **Software Distribution:**
-Making software available to users and related activities. This could involve providing users with an installer, deploying the software on systems where the users can access it, or a combination of both.
+- **Software Release and Deployment:**
+Approaches for versioning, packaging, releasing, and deploying software, documentation, or data for users to then obtain, install, and use.
 
 <!---
    - [What Is CSE Software Distribution?](Topics/WhatIsCseSwDistribution.md)
 --->
 
-<!---
-- **Legacy code:**
-Source code in which investments, tangible and in-tangible, are so great that wholesale re-write to *optimally* utilize newer computing technology is deemed too costly and/or too risky.
-
-
-    - [What Is CSE Legacy Code?](Topics/WhatIsCseLegacyCode.md)
---->
-
 - **Issue Tracking:**
-The process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
+The process of capturing, reporting, tracking, and managing information about issues related to software. Issues include bugs, feature requests, missing documentation, and other problems and/or requirements.
 
 <!---
    - [What Is Issue Tracking?](Topics/WhatIsIssueTracking.md)
 --->
 
 - **Refactoring:**
-The process of improving *internal* attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
+The process of improving internal attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
 
 <!---
 - [What Is CSE Software Refactoring?](Topics/WhatIsCseSwRefactoring.md)
 --->
 
 - **Software Engineering:**
-Procedures and considerations for getting a well engineered, reliable and maintained software.
+Procedures and considerations for developing well-engineered, reliable and maintainable software.
 
 <!---
-    - [What Is Software Engineering for CSE?](Topics/WhatIsSwEngForCse.md)
+- [What Is Software Engineering for CSE?](Topics/WhatIsSwEngForCse.md)
 --->
 
 - **Programming Languages and Tools:**
@@ -77,6 +64,7 @@ Programming languages as well as tools that support various aspects of software 
 <!---
     - [What Are CSE Programming Languages and Tools?](Topics/WhatAreCseProgrammingLanguagesAndDevptTools.md)
 --->
+
 
 <!---
 Category order: 2

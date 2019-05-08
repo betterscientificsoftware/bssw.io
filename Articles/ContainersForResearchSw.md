@@ -71,7 +71,7 @@ Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now als
 <!---
 Publish: yes
 Categories: development
-Topics: software distribution
+Topics: software release and deployment
 Tags: bssw-article
 Level: 2
 Prerequisites: default

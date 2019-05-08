@@ -16,7 +16,7 @@ Advance registration is required through the event website.
 Publish: yes
 RSS update: 2019-01-30
 Categories: Development
-Topics: version control
+Topics: revision control
 Tags: webinar
 Level: 2
 Prerequisites: default

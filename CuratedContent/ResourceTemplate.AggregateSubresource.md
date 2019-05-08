@@ -112,16 +112,16 @@ Categories: [Primary display via BSSw website interface]
      - Software interoperability
  - **Development**
      - Documentation
-     - Version control
+     - Revision control
      - Configuration and builds
-     - Deployment
+     - Distribution and release
      - Issue tracking
      - Refactoring
      - Software engineering
      - Programming languages and tools
  - **Performance**
      - High-performance computing (HPC)
-     - Performance at leadership computing facilities (LCFs)
+     - Performance at leadership computing facilities
      - Performance portability
  - **Reliability**
      - Testing

@@ -13,7 +13,7 @@ The practice of aggregating computing power in a way that delivers much higher p
     - [What Is High-Performance Computing?](Topics/WhatIsHighPerfComputing.md)
 --->
 
-- **Performance at Leadership Computing Facilities (LCFs):**
+- **Performance at Leadership Computing Facilities:**
 Factors that must be considered when developing software for the leadership-class supercomputers, among the fastest computers in the world.  
 
 <!---
