@@ -1,4 +1,4 @@
-# When 100 FLOPS/Watt Was a Giant Leap
+# Pre-Reference Version: When 100 FLOPS/Watt Was a Giant Leap
 
 **Hero Image:**
 
