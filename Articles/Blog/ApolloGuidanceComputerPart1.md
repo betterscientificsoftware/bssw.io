@@ -2,14 +2,14 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_Apollo1.jpg' />
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_Apollo1.jpg'/>[Image Source: NASA (see below)]
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May 10, 2019
 
-*Hardware is covered in part one of a three-part series titled* The Apollo Guidance Computer *that commemorates the 50th anniversary of the Moon landing.*
+*First of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
-<br> 
+<br>
 
 This year, July 20 will mark the 50th anniversary of the 1969 Apollo 11 Moon
 landing.<sup>[1]</sup> Between 1958 and 1965, both Russian and American space
@@ -38,7 +38,7 @@ been involved in development of the Polaris missile GNC system.<sup>[22]</sup>
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_computer_600_318.png' class='page lightbox' />[The AGC (left) with its Display and Keyboard Interface (DSKY - right)]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_computer_600_318.png' class='page lightbox' />[The AGC (left) with its Display and Keyboard Interface (DSKY - right). Image Source: NASA]
 
 <br> 
 
@@ -58,10 +58,13 @@ even bigger success for IBM.<sup>[48]</sup> We also include a row for comparison
 with IBM’s newest AC922<sup>[45]</sup> based systems
 (Summit<sup>[28]</sup> / Sierra<sup>[42]</sup>).
 
-System | #units | Kb | Flops (F) | (Watts) F/W | (Kg) F/Kg|(m<sup>3</sup>) F/m<sup>3</sup>
-:--- | ---: | ---: | ---: | ---: | ---: | ---:
-AGC Block II<sup>[14]</sup> |42 | 76 | 14,245 | (55)<br>259.0 | (32)<br>445 | (00.03)<br>50000
-IBM 360-20<sup>[10],[11]</sup> | 7,400 | 32 | 3,011 | (5000)<br>0.6 | (600) 5 | (30.00)<br>100 IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 2 | 1E12 | 14E16| (97E5)<br>14E9 | (31E4)<br>45E10 | (930)<br>15E13
+<br> 
+
+System | Kb | Flops (F) | (Watts) F/W | (Kg) F/Kg | (m<sup>3</sup>) F/m<sup>3</sup>
+:--- | :---: | :---: | :---: | :---: | :---:
+AGC Block II<sup>[14]</sup> | 76 | 14,245 | (55) 259.0 | (32) 445 | (00.03) 50000
+IBM 360-20<sup>[10],[11]</sup> | 32 | 3,011 | (5000) 0.6 | (600) 5 | (30.00) 100
+IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 1E12 | 14E16| (97E5) 14E9 | (31E4) 45E10 | (930) 15E13
 
 <sup>a</sup>FLOP = single precision multiply + add
 
@@ -73,7 +76,7 @@ cores,<sup>[18]</sup> technology specifically designed for and unique to the
 AGC. Both were nonvolatile, providing extra protection against data loss during
 faults. The advantages of rope core were superlative robustness and
 significantly higher density because a single core was used to store
-24 bits.<sup>[16]</sup> On the other hand, rope core took weeks of painstaking
+24 bits.<sup>[4]</sup> On the other hand, rope core took weeks of painstaking
 labor to hand-weave<sup>[15]</sup> thin wires through (logical ‘1’) or around
 (logical ‘0’) arrays of cores. Bugs were costly to correct and often were just
 worked around with additional steps in astronaut checklists or even by revising
@@ -90,7 +93,7 @@ derived from this early memory technology.
 
 ### The Executive: An Operating System with Checkpoint/Restart Services
 The AGC used a priority-driven, collaborative, multitasking operating system
-called the *Executive*.<sup>[26]</sup> Priority-based job scheduling was
+called the *Executive*.<sup>[4]</sup> Priority-based job scheduling was
 revolutionary for its time. The Executive could detect a variety of hardware
 and software faults and had restart utilities to recover. But, only the most
 critical programs were restart protected.<sup>[25]</sup> This involved careful
@@ -105,7 +108,7 @@ The Executive and other system functions were all implemented in AGC native
 assembly code<sup>[49]</sup>. However, solving complex, 3D spatial navigation
 problems with this simple instruction set was tedious, error prone, and memory
 consuming. Early on, engineers designed a higher-level language, called the
-*Interpreter*,<sup>[26]</sup> to support the complex software required for GNC
+*Interpreter*,<sup>[4]</sup> to support the complex software required for GNC
 operations. Operands were scalar, vector, and matrix data types in single,
 double, and even triple precision. Instructions included vector and matrix
 arithmetic functions, transcendental functions, float normalization functions
@@ -122,8 +125,8 @@ were joined together in various configurations with dramatically different
 operating characteristics. Developing a single program, the Digital Auto Pilot
 (DAP),<sup>[7]</sup> to provide effective GNC for any configuration, even
 off-nominal cases, presented what amounts to a significant performance
-portability problem. In Part 2 of this series we'll describe how developers
-met this challenge.
+portability problem. In Part 2 of this series we'll discuss how software
+developers met this challenge.
 
 <br> 
 
@@ -134,63 +137,64 @@ met this challenge.
 The AGC may not have been extreme in scale but it was extreme in reliability.
 Of the 42 Block II systems delivered and an aggregate of 11,000 hours of
 vibration and thermal testing plus 32,500 hours of normal operation, only
-4 hardware faults were observed,<sup>[41]</sup> and none of these occurred in
+4 hardware faults were observed,<sup>[14]</sup> none of which occurred in
 actual Moon missions. Little did AGC hardware engineers know that writing the
 software would present even greater challenges, ultimately becoming the
 rate-determining factor in delivering flight-ready units.
 
-Autonomous guidance for Apollo was so critical to NASA, they funded the
-development of a revolutionary new computer to support it.<sup>[53]</sup>
-Half a century later, self-driving is so critical for Telsa, they developed
-their own a custom AI chip to support it.<sup>[50]</sup>
+Autonomous guidance for Apollo was so critical to success, NASA funded the
+development of this revolutionary new computer to support it.<sup>[53]</sup>
+Half a century later, self-driving is so critical for Telsa, they have
+developed a custom, proprietary AI chip to support it.<sup>[50]</sup>
+
+<br>
 
 ### Author Bio
 
 Mark Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
-He also contributes to [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
+Among other things, he contributes to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
-[1]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
-[2]: https://en.wikipedia.org/wiki/Moon_landing
-[3]: https://en.wikipedia.org/wiki/Apollo_PGNCS
-[4]: ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf
-[5]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
-[6]: https://youtu.be/YIBhPsyYCiM
-[7]: https://pdfs.semanticscholar.org/0d44/2a1b41da2ccbffeda8aa2e1a7c2417ac71e0.pdf
-[9]: https://www.ibiblio.org/apollo/hrst/archive/1713.pdf
-[10]: https://en.wikipedia.org/wiki/IBM_System/360_Model_20
-[11]: http://www.bitsavers.org/pdf/ibm/360/fe/GC22-6820-12_System_360_Installation_Manual_Physical_Planning.pdf
-[14]: https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf
-[15]: https://youtu.be/P12r8DKHsak
-[16]: ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf
-[17]: https://en.wikipedia.org/wiki/Magnetic-core_memory
-[18]: https://en.wikipedia.org/wiki/Core_rope_memory
-[19]: https://youtu.be/xx7Lfh5SKUQ
-[22]: https://www.computerhistory.org/revolution/real-time-computing/6/128/529
-[23]: https://en.wikipedia.org/wiki/Fairchild_Semiconductor
-[25]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf
-[26]: ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf
-[28]: https://www.ornl.gov/news/ornl-launches-summit-supercomputer
-[29]: https://www.top500.org/green500/list/2018/11/
-[30]: https://en.wikipedia.org/wiki/ILLIAC_IV
-[40]: https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing
-[41]: https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf
-[42]: https://hpc.llnl.gov/hardware/platforms/sierra
-[43]: https://www.computerworld.com/article/2525898/app-development/nasa-s-apollo-technology-has-changed-history.html
-[44]: https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips
-[45]: https://www.ibm.com/us-en/marketplace/power-systems-ac922
-[46]: http://www.computersciencelab.com/ComputerHistory/HistoryPt2.htm
-[47]: https://youtu.be/P12r8DKHsak?t=35
-[48]: https://www.telegraph.co.uk/technology/news/10719418/IBMs-5bn-gamble-revolutionary-computer-turns-50.html
-[49]: https://www.ibiblio.org/apollo/assembly_language_manual.html
-[50]: https://www.theverge.com/2019/4/22/18511594/tesla-new-self-driving-chip-is-here-and-this-is-your-best-look-yet "Tesla CPU"
-[51]: https://en.wikipedia.org/wiki/P-code_machine
-[52]: https://history.nasa.gov/computers/Part1.html
-[53]: https://history.nasa.gov/computers/Ch2-1.html "The need for an on-board computer"
+[1]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html "Overview of Apollo 11 Mission {}"
+[2]: https://en.wikipedia.org/wiki/Moon_landing "List of Moon missions since 1958 {}"
+[3]: https://en.wikipedia.org/wiki/Apollo_PGNCS "What is Primary Guidance, Navigation and Control {}"
+[4]: ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf "Whole book: 'Apollo Guidance Computer Architecture and Operation' {}"
+[5]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer "Overview of AGC Architecture {}"
+[6]: https://youtu.be/YIBhPsyYCiM "YouTube Video of Rope Core Manufacture {}"
+[7]: https://pdfs.semanticscholar.org/0d44/2a1b41da2ccbffeda8aa2e1a7c2417ac71e0.pdf "Computer-Controlled Steering of the Apollo Spacecraft {Martin FH, Battin RH. 1968. Computer-Controlled Steering of the Apollo Spacecraft. J Spacecraft. 5(4):400-7}"
+[9]: https://www.ibiblio.org/apollo/hrst/archive/1713.pdf "MIT Technical Report on Apollo Guidance and Navigation {}"
+[10]: https://en.wikipedia.org/wiki/IBM_System/360_Model_20 "IBM 360/20 Specs {}"
+[11]: http://www.bitsavers.org/pdf/ibm/360/fe/GC22-6820-12_System_360_Installation_Manual_Physical_Planning.pdf "IBM 360 Detailed Installation Manual {}"
+[14]: https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf "Reliability History of the AGC {}"
+[15]: https://youtu.be/P12r8DKHsak "Weaving Rope Core Memory {}"
+[17]: https://en.wikipedia.org/wiki/Magnetic-core_memory "Description of Core Memory {}"
+[18]: https://en.wikipedia.org/wiki/Core_rope_memory "Description of Rope Core Memory {}"
+[19]: https://youtu.be/xx7Lfh5SKUQ "Amazingly Detailed Presentation on Architecture and Operation of the AGC {}"
+[22]: https://www.computerhistory.org/revolution/real-time-computing/6/128/529 "Polaris Guidance System {}"
+[23]: https://en.wikipedia.org/wiki/Fairchild_Semiconductor "Historical Note about Fairchild Semiconductor {}"
+[25]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design {}"
+[28]: https://www.ornl.gov/news/ornl-launches-summit-supercomputer "ORNL Launch of Summit {}"
+[29]: https://www.top500.org/green500/list/2018/11/ "Top Green 500 List, November 2018 {}"
+[30]: https://en.wikipedia.org/wiki/ILLIAC_IV "Description of Illiac IV {}"
+[40]: https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing "Jacquard Loom & Computing {}"
+[42]: https://hpc.llnl.gov/hardware/platforms/sierra "LLNL Description of Sierra {}"
+[43]: https://www.computerworld.com/article/2525898/app-development/nasa-s-apollo-technology-has-changed-history.html "Historical Impact of AGC on Computing Technology {}"
+[44]: https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips "Historical Impact of AGC on Chip Manufacture {}"
+[45]: https://www.ibm.com/us-en/marketplace/power-systems-ac922 "Description of IBM AC922 Systems {}"
+[46]: http://www.computersciencelab.com/ComputerHistory/History.htm "Illustrated History of Computers {}"
+[47]: https://youtu.be/P12r8DKHsak?t=35 "Rope Memory Description {}"
+[48]: https://www.telegraph.co.uk/technology/news/10719418/IBMs-5bn-gamble-revolutionary-computer-turns-50.html "IBM $5B Gamble with System 360 {}"
+[49]: https://www.ibiblio.org/apollo/assembly_language_manual.html "AGC Assembly Language Manual {}"
+[50]: https://www.theverge.com/2019/4/22/18511594/tesla-new-self-driving-chip-is-here-and-this-is-your-best-look-yet "Tesla's new AI Chip {}"
+[51]: https://en.wikipedia.org/wiki/P-code_machine "Example of a P-code language {}"
+[52]: https://history.nasa.gov/computers/Part1.html "NASA archive on Computers in Spaceflight {}"
+[53]: https://history.nasa.gov/computers/Ch2-1.html "The need for an on-board computer {}"
+[54]: https://moon.nasa.gov/resources/348/apollo-mission-flight-plan-1967/ "NASA Apollo Flight Plan Diagram {}"
 
 <!---
 Image copyright source info…

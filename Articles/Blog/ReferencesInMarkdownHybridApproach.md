@@ -64,21 +64,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget e
 [A02]: #B02 "IBM System 360 Model 20 Specs"
 [A3]: #B3 "Random Page of Reliability Report"
 
-|References: Approach 1: Frontend strips out table formatting|
-|:---|
-<a name="B1"></a><sup>A1</sup>[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-|<a name="B02"></a><sup>A02</sup>[IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)|
-|<a name="BLCM"></a><sup>ALCM</sup>[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-|<a name="B3"></a><sup>A3</sup>[Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
+<br>
 
-<!--- Frontend strips out table formatting, so trying another approach --->
+References | &nbsp;
+:--- | :--- 
+<a name="B1"></a>01 | Apple, Jr., R.W. &nbsp; [Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf) (Transcript of the recording of a meeting between President Nixon and H. R. Haldeman). Watergate.info website. June 23, 1972. Retrieved January 17, 2007.
+<a name="BLCM"></a>02 | [IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20) &nbsp; narrative by R.W. Apple, Jr.; chronology by Linda Amster; general ed.: Gerald Gold. (1973). The Watergate hearings: break-in and cover-up; proceedings. New York: Viking Press. 
+<a name="B02"></a>03 | Kilpatrick, Carroll (November 18, 1973) &nbsp; [Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
+<a name="B3"></a>04 | Dean, John W. The Nixon Defense: What He Knew and When He Knew It, pp. 610–620, Penguin Group, 2014 &nbsp; [Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39) 
 
-### References: Approach 2: Bullets
+<!-- I found table breaks without a table head with characters in both cells, so I am trying different approach  -->
 
-- <a name="B1"></a><sup>A1</sup>[Whole Book 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-- <a name="B02"></a><sup>A02</sup>[IBM System 360 Model 20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-- <a name="BLCM"></a><sup>ALCM</sup>[Women Manufacturing AGC Rope Core](https://youtu.be/YIBhPsyYCiM)
-- <a name="B3"></a><sup>A3</sup>[Random Page of Reliability Report](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf?#page=39)
+<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget elit tempor tristique nec sed leo. Vivamus commodo nisl tellus, lobortis imperdiet nisl consequat in. Sed tellus ex, laoreet eu dapibus sed, malesuada imperdiet diam. Nunc eu rutrum dui. Nam ut turpis neque. Mauris at nulla faucibus, ullamcorper dolor in, tincidunt ante. Quisque consequat ullamcorper quam, quis ullamcorper sapien sollicitudin eu. Curabitur mattis ipsum et elit semper sollicitudin. Cras ut eros vitae tellus pharetra commodo. Donec blandit sagittis purus ac commodo. Curabitur fermentum suscipit odio, ac pellentesque ipsum auctor eu.
+
+<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit eget elit tempor tristique nec sed leo. Vivamus commodo nisl tellus, lobortis imperdiet nisl consequat in. Sed tellus ex, laoreet eu dapibus sed, malesuada imperdiet diam. Nunc eu rutrum dui. Nam ut turpis neque. Mauris at nulla faucibus, ullamcorper dolor in, tincidunt ante. Quisque consequat ullamcorper quam, quis ullamcorper sapien sollicitudin eu. Curabitur mattis ipsum et elit semper sollicitudin. Cras ut eros vitae tellus pharetra commodo. Donec blandit sagittis purus ac commodo. Curabitur fermentum suscipit odio, ac pellentesque ipsum auctor eu.
 
 <!---
 Publish: preview
