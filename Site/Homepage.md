@@ -1,6 +1,6 @@
 # Better Scientific Software (BSSw)
 
-Scientific software—the foundation of collaboration and discovery in Computational Science & Engineering (CSE)—faces increasing complexity in computational models and computer architectures. The BSSw site provides a central hub to address pressing challenges of software productivity, quality, and sustainability.
+Software—the foundation of collaboration and discovery in computational science & engineering (CSE)—faces increasing complexity in computational models and computer architectures. The BSSw site provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
 Prior version:
