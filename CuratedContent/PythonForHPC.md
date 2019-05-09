@@ -10,7 +10,7 @@ Python is a very popular language in many domains. Traditionally, these are doma
 
 <!---
 Publish: yes
-Categories: Development
+Categories: Development, programming languages
 Topics: Software engineering
 Level: 2
 Prerequisites: none

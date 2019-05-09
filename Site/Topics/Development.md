@@ -5,7 +5,7 @@ Improving scientific software development—a process of writing, maintaining, a
 
 **Child Topics:**
 <!--
-These need to be renamed: Documentation, Configuration and Builds, Revision Control [change: former Version Control], Software Release and Deployment [change: former Software Distribution], Issue Tracking, Scientific Programming Languages  [change: former Programming Languages and Tools], Programming Tools [change: former Programming Languages and Tools], Refactoring
+These need to be renamed: Documentation, Configuration and Builds, Revision Control [change: former Version Control], Software Release and Deployment [change: former Software Distribution], Issue Tracking, Programming Languages  [change: former Programming Languages and Tools], Programming Tools [change: former Programming Languages and Tools], Refactoring
 -->
 
 - **Documentation**
@@ -20,7 +20,7 @@ Ensuring that users can easily configure, compile, link, test, and interoperate 
 Approaches for managing changes to files (source code, documentation, data) as well as maintaining their history and attribution, especially across multiple contributors and branches of development (also known as version control).
 <!---Topic order: 3--->
 
-- **Software Release and Deployment**
+- **Software Deployment**
 Approaches for versioning, packaging, releasing, and deploying software, documentation, or data for users to then obtain, install, and use.
 <!---Topic order: 4--->
 
@@ -28,7 +28,7 @@ Approaches for versioning, packaging, releasing, and deploying software, documen
 The process of capturing, reporting, tracking, and managing information about issues related to software. Issues include bugs, feature requests, missing documentation, and other problems and/or requirements.
 <!---Topic order: 5--->
 
-- **Scientific Programming Languages**
+- **Programming Languages**
 Languages providing syntax and semantics, combined with a large set of libraries, that facilitate writing scientific algorithms and thus are widely used for scientific programming.
 <!---Topic order: 6--->
 

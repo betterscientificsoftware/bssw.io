@@ -5,7 +5,7 @@ Improving strategies for writing scientific software that is efficient, scalable
 
 **Child Topics:**
 <!--
-Need reordering: High Performance Computing (HPC), Performance At Leadership Computing Facilities, Performance Portability
+Need reordering: High-Performance Computing (HPC), Performance At Leadership Computing Facilities, Performance Portability
 -->
 
 - **High-Performance Computing (HPC)**
