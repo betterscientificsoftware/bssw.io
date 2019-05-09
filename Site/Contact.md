@@ -1,3 +1,3 @@
 # Contact BSSw
 
-Please contact us if you have questions, comments, or suggestions.
+We'd like to hear your questions, comments, or suggestions.

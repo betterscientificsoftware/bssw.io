@@ -20,7 +20,7 @@ Ensuring that users can easily configure, compile, link, test, and interoperate 
 Approaches for managing changes to files (source code, documentation, data) as well as maintaining their history and attribution, especially across multiple contributors and branches of development (also known as version control).
 <!---Topic order: 3--->
 
-- **Software Release and Deployment:**
+- **Software Release and Deployment**
 Approaches for versioning, packaging, releasing, and deploying software, documentation, or data for users to then obtain, install, and use.
 <!---Topic order: 4--->
 
@@ -28,13 +28,17 @@ Approaches for versioning, packaging, releasing, and deploying software, documen
 The process of capturing, reporting, tracking, and managing information about issues related to software. Issues include bugs, feature requests, missing documentation, and other problems and/or requirements.
 <!---Topic order: 5--->
 
-- **Programming Languages and Tools**
-Programming languages as well as tools that support various aspects of software development, such as editors, integrated development environments, performance measurement and analysis tools, and memory checkers.
+- **Scientific Programming Languages**
+Languages providing syntax and semantics, combined with a large set of libraries, that facilitate writing scientific algorithms and thus are widely used for scientific programming.
 <!---Topic order: 6--->
+
+- **Programming Tools**
+Tools that support various aspects of scientific software development, such as editors, integrated development environments, performance measurement and analysis tools, debuggers, memory checkers, and refactoring tools.
+<!---Topic order: 7--->
 
 - **Refactoring**
 The process of improving internal attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
-<!---Topic order: 7--->
+<!---Topic order: 8--->
 
 <!---
 Category order: 2

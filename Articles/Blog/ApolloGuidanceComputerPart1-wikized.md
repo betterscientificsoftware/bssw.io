@@ -136,12 +136,12 @@ developers met this challenge.
 
 <br>
 
-### An MTBF of 40,000 Hours: Extremely Reliable Computing
+### An MTBF of 40,000 hours: Extremely reliable computing
 The AGC may not have been extreme in scale but it was extreme in reliability.
 Of the 42 Block II systems delivered and an aggregate of 11,000 hours of
 vibration exposure and thermal cycling plus 32,500 hours of normal operation,
 only 4 hardware faults were observed,<sup>[12]</sup> none of which occurred in
-actual Moon missions. A conservative estimate of the MTBF of the AGC was later
+actual Moon missions. A conservative estimate of the mean time between failures (MTBF) of the AGC was later
 calculated to be over 40,000 hours, more than an order of magnitude better than
 machines typical of that era. Little did AGC hardware engineers know that writing
 the software would present even greater challenges, ultimately becoming the
