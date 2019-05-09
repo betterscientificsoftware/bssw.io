@@ -184,7 +184,9 @@ with open("%s-wikized.md"%os.path.splitext(mdfile)[0], 'w') as wmdf:
     wmdf.write("References | &nbsp;\n")
     wmdf.write(":--- | :---\n")
     for k,v in sorted(remapped_ref_map.items()):
-        if v[0] in v[2]:
+        if (not v[0] or v[0].isspace()) and (not v[2] or v[2].isspace()):
+            wmdf.write("<a name=\"ref%d\"></a>%d | %s\n"%(k, k, v[1]))
+        elif v[0] in v[2]:
             wmdf.write("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[1]))
         else:
             wmdf.write("<a name=\"ref%d\"></a>%d | [%s %s](%s)\n"%(k, k, v[0], v[2], v[1]))

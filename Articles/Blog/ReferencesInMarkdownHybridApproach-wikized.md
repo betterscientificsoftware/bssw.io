@@ -6,7 +6,7 @@
 #### Publication date: May 1, 2019
 
 This document describes conventions in the use of 
-[GitHub Flavored Markdown (GFM)](https://www.markdownguide.org/basic-syntax)
+[GitHub Flavored Markdown (GFM)][GFM]
 ([full spec](https://github.github.com/gfm/))
 to implement [Wikipedia style](https://en.wikipedia.org/wiki/Note_(typography)#References)
 footnote citations and references.
@@ -125,6 +125,8 @@ For example, running script on this markdown file...
 produces the new markdown file [`ReferencesInMarkdownHybridApproach-wikized.md`](./ReferencesInMarkdownHybridApproach-wikized.md)
 
 
+[GFM]: https://www.markdownguide.org/basic-syntax "Basic GitHub Flavored Markdown"
+
 <br>
 
 <!---
@@ -145,7 +147,7 @@ References | &nbsp;
 :--- | :---
 <a name="ref1"></a>1 | [Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636](https://wci.llnl.gov/codes/smartlibs/index.html)
 <a name="ref2"></a>2 | [Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241](https://)
-<a name="ref3"></a>3 | [](https://wci.llnl.gov/simulation/computer-codes/ale3d)
+<a name="ref3"></a>3 | https://wci.llnl.gov/simulation/computer-codes/ale3d
 
 <br>
 
