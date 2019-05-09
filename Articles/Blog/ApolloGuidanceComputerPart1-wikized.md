@@ -39,7 +39,7 @@ had been involved in development of the Polaris missile GNC system.<sup>[17]</su
 
 <br> 
 
-[The AGC (left) with its Display and Keyboard Interface (DSKY - right). Image Source: NASA]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_computer_600_318.png' class='page lightbox' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_computer_600_318.png' class='page lightbox' />[The AGC (left) with its Display and Keyboard Interface (DSKY - right). Image Source: NASA]
 
 <br> 
 
@@ -65,7 +65,7 @@ System | Kb | Flops (F) | (Watts) F/W | (Kg) F/Kg | (m<sup>3</sup>) F/m<sup>3</s
 :--- | :---: | :---: | :---: | :---: | :---:
 AGC Block II<sup>[12]</sup> | 76 | 14,245 | (55) 259.0 | (32) 445 | (00.03) 50000
 IBM 360-20<sup>[10],[11]</sup> | 32 | 3,011 | (5000) 0.6 | (600) 5 | (30.00) 100
-IBM AC922<br>(Summit<sup>[20],[21],[24]</sup>) | 1E12 | 14E16| (97E5) 14E9 | (31E4) 45E10 | (930) 15E13
+IBM AC922<br>(Summit<sup>[20],[21],[24]</sup>) | 1e<sup>12</sup> | 14e<sup>16</sup> | (97e<sup>5</sup> ) 14e<sup>9</sup>  | (31e<sup>4</sup> ) 45e<sup>10</sup>  | (930) 15e<sup>13</sup>
 
 <sup>a</sup>FLOP = single precision multiply + add
 
@@ -90,8 +90,7 @@ derived from this early memory technology.
 
 <br> 
 
-[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
 
 ### The Executive: An operating system with checkpoint/restart services
 The AGC used a priority-driven, collaborative, multitasking operating system
@@ -132,11 +131,11 @@ developers met this challenge.
 
 <br> 
 
-[Early NASA artist's rendition of Apollo Spacecraft. Command and Service Module (left) Lunar Module Ascent and Descent Stages (right)]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_CSM_and_LM_600_338.png' class='page lightbox' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_CSM_and_LM_600_338.png' class='page lightbox' />[Early NASA artist's rendition of Apollo Spacecraft. Command and Service Module (left) Lunar Module Ascent and Descent Stages (right)]
 
 <br>
 
-### An MTBF of 40,000 hours: Extremely reliable computing
+### MTBF of 40,000 hours: Extremely reliable computing
 The AGC may not have been extreme in scale but it was extreme in reliability.
 Of the 42 Block II systems delivered and an aggregate of 11,000 hours of
 vibration exposure and thermal cycling plus 32,500 hours of normal operation,

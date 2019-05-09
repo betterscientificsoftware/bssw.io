@@ -134,7 +134,7 @@ developers met this challenge.
 
 <br>
 
-### An MTBF of 40,000 hours: Extremely reliable computing
+### MTBF of 40,000 hours: Extremely reliable computing
 The AGC may not have been extreme in scale but it was extreme in reliability.
 Of the 42 Block II systems delivered and an aggregate of 11,000 hours of
 vibration exposure and thermal cycling plus 32,500 hours of normal operation,
