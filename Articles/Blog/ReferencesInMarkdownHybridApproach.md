@@ -24,7 +24,7 @@ Features of this approach include...
 - Bi-level linking
   - Footnote links on-page to reference table item
   - Reference table item links off-page to indended destination 
-- Tool-tips/balloon-help teaser text about a link's topic/purpose
+- When hovering, tool-tip text appears about a link's topic/purpose
 - Ease of use for authors
   - No need for duplication of link/reference content
 - Mobile friendliness
@@ -48,7 +48,7 @@ the form
 - Must begin at column 0 in the markdown file
 - `<ID>`: Alphanumeric identifier for the reference
 - `<URL>`: The URL for the reference
-- `<DESC>`: A short description of the reference (appears as tool-top/balloon-help hover)
+- `<DESC>`: A short description of the reference (appears as tool-tip during hover)
 - `<BIB>`: Full bibliographic information for the reference (Optional. Use `{}` if none)
 
 Here, we are using the `{<BIB>}` entry as a *conventional* field inside the
@@ -89,6 +89,8 @@ Examples:
 
 Which would appear as...
 
+---
+
 This drug is used to treat hepatitis.<sup>[1]</sup>
 
 Storing latex at high heat may cause degradation,<sup>[mcm],[1]</sup>
@@ -98,8 +100,16 @@ Some physicians choose to store prescription pads in locked
 cabinets<sup>[ale3d-paper]</sup>; others keep them in their
 coats at all times.<sup>[1]</sup>
 
+---
+
 Hover over the footnote links in the above and observe the
-tool-tip/ballon-help.
+tool-tip text that appears. Note also that you do not see any
+explicit list of the references these footnotes refer to here
+in the rendered markdown file. This is because link reference
+definitions in [GFM][GFM] are designed to *not* appear in the
+final rendered HTML. To work-around this issue, we post-process
+the markdown file producing an altered markdown file that has
+the desired behavior.
 
 ## A Python Post Processing Script
 Once an author is finished with all references, a python script
@@ -122,6 +132,13 @@ For example, running script on this markdown file...
     ./wikize-refs.py ReferencesInMarkdownHybridApproach.md
 
 produces the new markdown file [`ReferencesInMarkdownHybridApproach-wikized.md`](./ReferencesInMarkdownHybridApproach-wikized.md)
+
+To view and compare the actual markdown of both of these files on
+GitHub, use the `Raw` button next to `Raw | Blame | History` in the
+upper right corner of the file(s) or follow the links below.
+
+- [Raw Original](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md)
+- [Raw Post-Processed](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md)
 
 [mcm]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
 [1]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
