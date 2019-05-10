@@ -46,7 +46,7 @@ The AGC was the first computer to use integrated circuits. It was constructed
 entirely from dual-packaged, 3-input NOR gate flat-packs produced by Fairchild
 Semiconductor<sup>[23]</sup> in an area that would eventually become known as
 Silicon Valley.<sup>[43],[44]</sup> At its peak, the effort consumed over 60%
-of all ICs produced in the country. The AGC used a total of 5,600 NOR gates,
+of all integrated circuits produced in the country. The AGC used a total of 5,600 NOR gates,
 operated at 1.024 MHz with a 16-bit word, and had 34 basic instructions each
 micro-coded into a 12-step sequence. It had 4 central registers plus 15
 special-purpose registers.<sup>[19]</sup> The table below compares key AGC
@@ -66,7 +66,7 @@ AGC Block II<sup>[14]</sup> | 76 | 14,245 | (55) 259.0 | (32) 445 | (00.03) 5000
 IBM 360-20<sup>[10],[11]</sup> | 32 | 3,011 | (5000) 0.6 | (600) 5 | (30.00) 100
 IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 1e<sup>12</sup> | 14e<sup>16</sup> | (97e<sup>5</sup> ) 14e<sup>9</sup>  | (31e<sup>4</sup> ) 45e<sup>10</sup>  | (930) 15e<sup>13</sup>
 
-<sup>a</sup>FLOP = single precision multiply + add
+<sup>a</sup>Flop = single-precision multiply + add
 
 ### Rope core: A new type of nonvolatile memory
 
@@ -114,7 +114,7 @@ double, and even triple precision. Instructions included vector and matrix
 arithmetic functions, transcendental functions, float normalization functions
 and other miscellaneous control-flow functions. Similar to p-code,<sup>[51]</sup>
 it was still a form of assembly language. But, it operated at a much higher
-level of abstraction easing development, improving overall reliability and,
+level of abstraction—easing development, improving overall reliability and,
 most importantly, reducing memory usage.
 
 ### Multiple spacecraft configurations: A performance portability challenge
@@ -135,7 +135,7 @@ developers met this challenge.
 <br>
 
 ### MTBF of 40,000 hours: Extremely reliable computing
-The AGC may not have been extreme in scale but it was extreme in reliability.
+The AGC may not have been extreme in scale, but it was extreme in reliability.
 Of the 42 Block II systems delivered and an aggregate of 11,000 hours of
 vibration exposure and thermal cycling plus 32,500 hours of normal operation,
 only 4 hardware faults were observed,<sup>[14]</sup> none of which occurred in
@@ -145,9 +145,9 @@ machines typical of that era. Little did AGC hardware engineers know that writin
 the software would present even greater challenges, ultimately becoming the
 rate-determining factor in delivering flight-ready units.
 
-Autonomous guidance was so critical for Apollo, NASA funded the development of
+Because autonomous guidance was so critical for Apollo, NASA funded the development of
 this revolutionary new computer to support it.<sup>[53]</sup> Half a century
-later, self-driving is so critical in the auto industry, Tesla has
+later, because self-driving is so critical in the auto industry, Tesla has
 developed their own custom, proprietary AI chip to support it.<sup>[50]</sup>
 
 <br>
