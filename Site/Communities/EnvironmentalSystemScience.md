@@ -17,15 +17,15 @@ Featured resources for the Environmental System Science Community.
 Edit this list to change resources that appear on the front-end site.
 -->
 
+* [Streamlining Software Development through Continuous Integration](../../Articles/Blog/StreamliningSwDevptThroughContinuousIntegration.md )
+
+* [Enabling Interoperable Biogeochemistry with Alquimia in the xSDK](../../CuratedContent/EnablingInteroperableBiogeochemistryWithAlquimia.md)
+
 * [Multiphysics Simulations: Challenges and Opportunities](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
-
-* [Enabling Interoperable Biogeochemistry with Alquimia in the xSDK](../../EnablingInteroperableBiogeochemistryWithAlquimia.md)
-
-* [Team of Teams: Strategies for Large Organizations](../../CuratedContent/TeamOfTeams.md)
 
 * [Planning for Better Software: PSIP-Tools](../../CuratedContent/PlanningUsingPSIPs.md)
 
-* [Test Driven Development in Scientific Software: A Survey](../../TestDrivenDevptInScientificSwASurvey.md)
+* [Test Driven Development in Scientific Software: A Survey](../../CuratedContent/TestDrivenDevptInScientificSwASurvey.md)
 
 <!---
 Publish: yes
