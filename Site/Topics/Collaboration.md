@@ -28,7 +28,6 @@ The legal side of controlling software distribution and use, as well as implicat
 Discussion forums and sites where questions about scientific software development, productivity, and sustainability are welcome.
 <!---Topic order: 6--->
 
-<!--
 - **Conferences and Workshops**
 Recurring series of conferences and workshops that highlight advances in scientific software productivity and sustainability. 
 -->
