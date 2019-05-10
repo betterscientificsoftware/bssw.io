@@ -17,11 +17,11 @@ Featured resources for the Environmental System Science Community.
 Edit this list to change resources that appear on the front-end site.
 -->
 
-* [Multiphysics Simulations: Challenges and Opportunities](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
+* [Streamlining Software Development through Continuous Integration](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
 
 * [Enabling Interoperable Biogeochemistry with Alquimia in the xSDK](../../EnablingInteroperableBiogeochemistryWithAlquimia.md)
 
-* [Team of Teams: Strategies for Large Organizations](../../CuratedContent/TeamOfTeams.md)
+* [Multiphysics Simulations: Challenges and Opportunities](../../Articles/Blog/StreamliningSwDevptThroughContinuousIntegration.md)
 
 * [Planning for Better Software: PSIP-Tools](../../CuratedContent/PlanningUsingPSIPs.md)
 
