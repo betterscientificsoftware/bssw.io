@@ -1,5 +1,4 @@
-# The Oldest Code on GitHub
-## Part 2 of 3: The Apollo Guidance Computer Software
+# Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub
 
 **Hero Image:**
 
@@ -8,26 +7,53 @@
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: June, 2019
 
-*Part two of three about the Apollo Guidance Computer commemorating the 50th anniversary of the Moon landing.*
+*Second of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
 Retro-computing enthusiasts recently uploaded AGC source code for various Apollo missions to
-GitHub<sup>[7]</sup>. The code even compiles and runs on the *Virtual AGC*<sup>[8]</sup>. In all
-likelihood, it is the oldest *maintained* code on GitHub. Ironically, its development began
-over half a century earlier in the ashes of a guidance software disaster. The loss of radar
-contact combined with a bug in the backup guidance software of Mariner 1 led to its destruction
-only 294 seconds after launch. Investigations revealed that during the transcription of hand-written
-guidance equations onto computer punch cards, an over-bar to indicate the use of *average* rather
-than *instantaneous* velocity went missing. The same bug was found to have flown on two earlier
-Ranger missions.
+GitHub<sup>[7]</sup>. There is even a *Virtual AGC*<sup>[8]</sup> that executes this code.
+In all likelihood, it is the oldest *maintained* code on GitHub. Ironically, its development
+began over half a century earlier in the ashes of a guidance software disaster. The loss of a
+radar signal combined with a bug in the guidance software of Mariner 1 led to its destruction
+shortly after launch. Investigations revealed that during the transcription of hand-written
+guidance equations onto computer punch cards, an over-bar to indicate the use of *average*
+rather than *instantaneous* velocity went missing. The same bug had flown on two earlier
+Ranger missions but loss of radar necessary to trigger it never occurred.
 
-Early development activity focused on infrastructural software; the Executive, the Waitlist,
-the Interpreter, DSKY I/O all of which were written in AGC assembly language. By 1965, most
-of this code had been written and fully tested.
+A lunar mission was divided into phases by *velocity change manuevers*. For each manuever,
+*there was an app for that*. There was a cooresponding program in the AGC. For time crtical
+maneuvers such as lunar landing, rendevouse and docking and re-entry several programs worked
+together.
 
-Flying to the moon and returning safely involved a lot of coasting. A mission was divided into
-phases by *velocity change manuevers*. For each manuever, there was an app for that. There was
-a cooresponding program in the AGC. For time crtical maneuvers such as lunar landing, rendevouse
-and docking and re-entry groups of programs worked together.
+For any particular maneuver, the set of considerations impacting program design and
+development were enormous. They included fuel slosh, changing center of mass due to
+fuel consumption, main engine throttle and gimbal response times and limits,
+sensor drift and measurement uncertainty, avoiding gimbal lock, optimizing use of RCS
+propellants, contingency logic for failed (on or off) thrusters, gravity of Sun,
+Earth and Moon (all in constant motion) as well as their *lumpy*<sup>[3],[4]</sup>
+gravity fields, narrow windows of opportunity as lines of sight to ground communication
+stations varied.
+
+In the AGC, there was no drum, tape or disk for secondary storage. There was 2K words of
+read-write core mainly for temporary storage and 36K words of read only core (also called
+*fixed* or *rope*) core. All programs and data needed to fit into this available memory.
+
+Early development activity, 1961-1965 focused on infrastructure software...
+
+**Program Name** | **Purpose** | **Size (AGC words)**
+:--- | :---: | ---:
+Executive | Priority driven large/long-running program manager | ~350
+Waitlist | Time sequenced small/short-running program manager | ~300
+Interpreter | Space guidance domain specific language | ~2200
+DSKY I/O | Cockpit Displays and keyboard | ~3500
+**Combined Total** | --- | **~6350**
+
+words) all of which were written in AGC assembly language. These programs largely comprised
+what we would know today as the AGC *operating system*. By 1965, most of this code had been
+written and fully tested. And, it represented only a tiny fraction of the whole software
+development effort to come.
+
+
+Moon/Sun Ephemeris Subroutine: ~200 words (Interpretive code)
 
 The first step in developing these guidance routines was to understand the equations governing
 spacecraft motion during certain maneuver objectives and then develop approaches utilizing available
@@ -159,6 +185,10 @@ A day in the life?
 
 [1]: https://en.wikipedia.org/wiki/Control_theory#Stability
 [2]: https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf "Software Development Activities Summary Memo 1962"
+
+[3]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field"
+[4]: https://en.wikipedia.org/wiki/Gravitation_of_the_Moon "Moon's Lumpy Gravity Field"
+[5]: https://www.americanscientist.org/article/moonshot-computing "Great Article on AGC Software"
 
 http://www.klabs.org/history/apollo_11_alarms/eyles_2004/eyles_2004.htm "Tales from Lunar Landing"
 
