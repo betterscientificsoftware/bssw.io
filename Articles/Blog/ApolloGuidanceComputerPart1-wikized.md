@@ -1,5 +1,5 @@
 <!--- WARNING: Auto-generated with wikize-refs.py from ApolloGuidanceComputerPart1.md --->
-# Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap
+# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap
 
 **Hero Image:**
 
@@ -72,8 +72,8 @@ IBM AC922<br>(Summit<sup>[20],[21],[24]</sup>) | 1e<sup>12</sup> | 14e<sup>16</s
 ### Rope core: A new type of nonvolatile memory
 
 The AGC utilized two types of *core* memory<sup>[14]</sup>: erasable memory
-using coincident current cores and fixed (read-only) memory using rope
-cores,<sup>[15]</sup> technology specifically designed for and unique to the
+(2K words) using coincident current cores and fixed (read-only) memory (36K words)
+using rope cores,<sup>[15]</sup> technology specifically designed for and unique to the
 AGC. Both were nonvolatile, providing extra protection against data loss during
 faults. The advantages of rope core were superlative robustness and
 significantly higher density because a single core was used to store
@@ -298,7 +298,7 @@ Image copyright source info…
 --->
 
 <!---
-Publish: preview
+Publish: no
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
