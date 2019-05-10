@@ -21,7 +21,7 @@ Edit this list to change resources that appear on the front-end site.
 
 * [Enabling Interoperable Biogeochemistry with Alquimia in the xSDK](../../CuratedContent/EnablingInteroperableBiogeochemistryWithAlquimia.md)
 
-* [Multiphysics Simulations: Challenges and Opportunities (../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
+* [Multiphysics Simulations: Challenges and Opportunities](../../CuratedContent/MultiphysicsSimulationsChallengesAndOpportunities.md)
 
 * [Planning for Better Software: PSIP-Tools](../../CuratedContent/PlanningUsingPSIPs.md)
 
