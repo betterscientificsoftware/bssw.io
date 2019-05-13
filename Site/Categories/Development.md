@@ -30,7 +30,7 @@ Ensuring that users can easily configure, compile, link, test, and interoperate 
     - [How to Configure Software](../CuratedContent/HowToConfigureSoftware.md)
 --->
 
-- **Software Release and Deployment:**
+- **Release and Deployment:**
 Approaches for versioning, packaging, releasing, and deploying software, documentation, or data for users to then obtain, install, and use.
 
 <!---
