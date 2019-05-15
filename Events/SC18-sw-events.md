@@ -13,7 +13,7 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 
 **If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
-Day/<br>Time | Event Type/<br>Registration Categories | Event Title (see linked program page for full details)
+Day/Time | Event Type/<br>Registration Categories | Event Title (see linked program page for full details)
 :---        |    :------------------------------    |--------------------------------------------------------
 Sunday<br>9:00am-12:30pm |	Workshop W | [ResCuE-HPC: 1st Workshop on Reproducible, Customizable, and Portable Workflows for HPC](https://sc18.supercomputing.org/presentation/?id=wksp134&sess=sess167)
 Monday<br>8:30am-5:00pm |	Tutorial TUT | [Better Scientific Software](https://sc18.supercomputing.org/presentation/?id=tut154&sess=sess239)
