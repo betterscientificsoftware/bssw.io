@@ -1,5 +1,5 @@
 <!--- WARNING: Auto-generated with wikize-refs.py from ApolloGuidanceComputerPart1.md --->
-# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap
+# Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap
 
 **Hero Image:**
 
@@ -298,7 +298,7 @@ Image copyright source info…
 --->
 
 <!---
-Publish: no
+Publish: preview
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
