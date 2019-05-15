@@ -13,7 +13,7 @@ By requesting that a commit (a change to the repository content) be added to a r
 Publish: yes
 RSS update: 2019-03-29
 Categories: Development
-Topics: Version control
+Topics: Revision control
 Level: 2
 Prerequisites: none
 Aggregate: none

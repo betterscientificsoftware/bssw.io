@@ -17,7 +17,7 @@ WSSSPE provides a forum for discussion of the challenges, including both positio
 <!---
 Publish: yes
 Categories: Collaboration
-Topics: Publication
+Topics: Projects and organizations, conferences and workshops
 Tags: workshop-series
 Level: 2
 Prerequisites: defaults

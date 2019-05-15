@@ -20,7 +20,7 @@ Ensuring that users can easily configure, compile, link, test, and interoperate 
 Approaches for managing changes to files (source code, documentation, data) as well as maintaining their history and attribution, especially across multiple contributors and branches of development (also known as version control).
 <!---Topic order: 3--->
 
-- **Software Deployment**
+- **Release and Deployment**
 Approaches for versioning, packaging, releasing, and deploying software, documentation, or data for users to then obtain, install, and use.
 <!---Topic order: 4--->
 

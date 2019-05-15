@@ -1,5 +1,5 @@
 <!--- WARNING: Auto-generated with wikize-refs.py from ApolloGuidanceComputerPart1.md --->
-# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap
+# Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap
 
 **Hero Image:**
 
@@ -65,7 +65,7 @@ System | #Units | Kb | Flops (F) | (Watts) F/W | (Kg) F/Kg | (m<sup>3</sup>) F/m
 :--- | :---: | :---: | :---: | :---: | :---: | :---:
 AGC Block II<sup>[12]</sup> | 42 | 76 | 14,245 | (55) 259.0 | (32) 445 | (00.03) 50000
 IBM 360-20<sup>[10],[11]</sup> | 7,400 | 32 | 3,011 | (5000) 0.6 | (600) 5 | (30.00) 100
-IBM AC922<br>(Summit<sup>[20],[21],[24]</sup>) | 2 | 1e<sup>12</sup> | 14e<sup>16</sup> | (97e<sup>5</sup> ) 14e<sup>9</sup>  | (31e<sup>4</sup> ) 45e<sup>10</sup>  | (930) 15e<sup>13</sup>
+IBM AC922<br>(Summit<sup>[20],[21],[24]</sup>) | 2 | 1e<sup>12</sup> | 14e<sup>16</sup> | (97e<sup>5</sup>) 14e<sup>9</sup>  | (31e<sup>4</sup>) 45e<sup>10</sup>  | (930) 15e<sup>13</sup>
 
 <sup>a</sup>Flop = single-precision multiply + add
 
@@ -298,7 +298,7 @@ Image copyright source info…
 --->
 
 <!---
-Publish: no
+Publish: preview
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article

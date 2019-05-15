@@ -7,7 +7,7 @@ In scientific software requirements gathering phase only loosely determines the 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
 <!---
-Publish: yes
+Publish: no
 Pinned: yes
 Categories: development
 Topics: development

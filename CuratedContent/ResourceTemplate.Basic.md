@@ -85,18 +85,19 @@ Categories: [Primary display via BSSW website interface]
  [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
 
  - **Planning**
+     - Software engineering
      - Requirements
      - Design
      - Software interoperability
  - **Development**
      - Documentation
-     - Revision control
      - Configuration and builds
-     - Distribution and release
+     - Revision control
+     - Release and deployment
      - Issue tracking
+     - Programming languages
+     - Programming tools
      - Refactoring
-     - Software engineering
-     - Programming languages and tools
  - **Performance**
      - High-performance computing (HPC)
      - Performance at leadership computing facilities
@@ -107,12 +108,13 @@ Categories: [Primary display via BSSW website interface]
      - Reproducibility
      - Debugging
  - **Collaboration**
-     - Licensing
+     - Projects and organizations
      - Strategies for more effective teams
      - Funding sources and programs
-     - Projects and organizations
      - Software publishing and citation
+     - Licensing
      - Discussion and question sites
+     - Conferences and workshops
  - **Skills**
      - Personal productivity and sustainability
      - Online learning

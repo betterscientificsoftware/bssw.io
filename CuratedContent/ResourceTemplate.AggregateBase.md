@@ -111,38 +111,40 @@ Categories: [Primary display via BSSw website interface]
 - All categories and also finer grain topics within categories
  [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
 
-  - **Planning**
-      - Requirements
-      - Design
-      - Software interoperability
-  - **Development**
-      - Documentation
-      - Revision control
-      - Configuration and builds
-      - Distribution and release
-      - Issue tracking
-      - Refactoring
-      - Software engineering
-      - Programming languages and tools
-  - **Performance**
-      - High-performance computing (HPC)
-      - Performance at leadership computing facilities
-      - Performance portability
-  - **Reliability**
-      - Testing
-      - Continuous integration testing
-      - Reproducibility
-      - Debugging
-  - **Collaboration**
-      - Licensing
-      - Strategies for more effective teams
-      - Funding sources and programs
-      - Projects and organizations
-      - Software publishing and citation
-      - Discussion and question sites
-  - **Skills**
-      - Personal productivity and sustainability
-      - Online learning
+ - **Planning**
+     - Software engineering
+     - Requirements
+     - Design
+     - Software interoperability
+ - **Development**
+     - Documentation
+     - Configuration and builds
+     - Revision control
+     - Release and deployment
+     - Issue tracking
+     - Programming languages
+     - Programming tools
+     - Refactoring
+ - **Performance**
+     - High-performance computing (HPC)
+     - Performance at leadership computing facilities
+     - Performance portability
+ - **Reliability**
+     - Testing
+     - Continuous integration testing
+     - Reproducibility
+     - Debugging
+ - **Collaboration**
+     - Projects and organizations
+     - Strategies for more effective teams
+     - Funding sources and programs
+     - Software publishing and citation
+     - Licensing
+     - Discussion and question sites
+     - Conferences and workshops
+ - **Skills**
+     - Personal productivity and sustainability
+     - Online learning
 
 Tags: [optional additional keywords for searches]
 

@@ -33,7 +33,7 @@ time for suitable alternatives to develop and become adopted.
 Publish: yes
 Pinned: yes
 Categories: development
-Topics: legacy code
+Topics: refactoring
 Tags:
 Level: 0
 Prerequisites: none
