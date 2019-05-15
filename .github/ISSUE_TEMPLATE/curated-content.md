@@ -9,7 +9,7 @@ assignees: pagrubel
 
 To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete them entirely from the body of this issue before entering your submission.
 
-A Curated Content submission is a brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content and, where appropriate, the scope of applicability of the article. See the [BSSw Style Guide](../StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
+A Curated Content submission is a brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content and, where appropriate, the scope of applicability of the article. See the [BSSw Style Guide](../../StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
 
 Please submit your article here, in this GitHub issue using [GitHub Markdown](https://guides.github.com/features/mastering-markdown) for an specific styling you may want. Please be sure your submission adheres to our guidelines in our [code of conduct](CODE_OF_CONDUCT.md).
 
