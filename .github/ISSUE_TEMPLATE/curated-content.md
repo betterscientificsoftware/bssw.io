@@ -3,11 +3,11 @@ name: Curated Content
 about: A brief article to highlight other web-based content and describe why the HPC/CSE community may value it.  
 title: Possible Curated Content
 labels: curated content ideas
-assignees:
+assignees: pagrubel
 
 ---
 
-To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete the entire text above the dashed line of  then type in your submission, aboveabovethe dashed line and review checkmarks.
+To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions and are ready to add a submission, edit the title, to reflect the subject of the content. Click on the the **Write** tab and delete the entire text above the dashed line. Then, above the dashed line, add your submission.
 
 A Curated Content submission is a brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content and, where appropriate, the scope of applicability of the article. See the [BSSw Style Guide](../../StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
 
