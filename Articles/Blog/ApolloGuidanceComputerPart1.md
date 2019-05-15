@@ -60,11 +60,11 @@ row for comparison with IBM’s newest AC922<sup>[45]</sup> based systems
 
 <br> 
 
-System | #Units | Kb | Flops (F) | (Watts) F/W | (Kg) F/Kg | (m<sup>3</sup>) F/m<sup>3</sup>
-:--- | :---: | :---: | :---: | :---: | :---: | :---:
-AGC Block II<sup>[14]</sup> | 42 | 76 | 14,245 | (55) 259.0 | (32) 445 | (00.03) 50000
-IBM 360-20<sup>[10],[11]</sup> | 7,400 | 32 | 3,011 | (5000) 0.6 | (600) 5 | (30.00) 100
-IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 2 | 1e<sup>12</sup> | 14e<sup>16</sup> | (97e<sup>5</sup> ) 14e<sup>9</sup>  | (31e<sup>4</sup> ) 45e<sup>10</sup>  | (930) 15e<sup>13</sup>
+System | Kb | Flops (F) | (Watts) F/W | (Kg) F/Kg | (m<sup>3</sup>) F/m<sup>3</sup>
+:--- | :---: | :---: | :---: | :---: | :---:
+AGC Block II<sup>[14]</sup> | 76 | 14,245 | (55) 259.0 | (32) 445 | (00.03) 50000
+IBM 360-20<sup>[10],[11]</sup> | 32 | 3,011 | (5000) 0.6 | (600) 5 | (30.00) 100
+IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 1e<sup>12</sup> | 14e<sup>16</sup> | (97e<sup>5</sup>) 14e<sup>9</sup>  | (31e<sup>4</sup>) 45e<sup>10</sup>  | (930) 15e<sup>13</sup>
 
 <sup>a</sup>Flop = single-precision multiply + add
 
