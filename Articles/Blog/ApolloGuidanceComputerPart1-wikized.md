@@ -298,7 +298,7 @@ Image copyright source info…
 --->
 
 <!---
-Publish: no
+Publish: preview
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
