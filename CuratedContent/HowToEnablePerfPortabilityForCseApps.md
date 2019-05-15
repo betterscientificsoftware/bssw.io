@@ -7,7 +7,7 @@ Achieving good performance across a range of platforms is an important goal for 
 <!---
 Publish: yes
 Categories: performance
-Topics: performance, portability
+Topics: performance portability
 Tags: document, howto
 Level: 1
 Prerequisites: defaults

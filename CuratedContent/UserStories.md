@@ -48,8 +48,8 @@ by the project, documenting and publicizing the project’s outreach activities,
 
 <!---
 Publish: yes
-Categories: development, planning
-Topics: user story, product development
+Categories: Planning
+Topics: Requirements
 Tags: requirements
 Level: 2
 Prerequisites: defaults

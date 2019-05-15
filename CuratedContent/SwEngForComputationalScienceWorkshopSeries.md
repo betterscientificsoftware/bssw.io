@@ -9,7 +9,7 @@ A series of software engineering workshops focused on computational science (and
 <!---
 Publish: yes
 Categories: Collaboration
-Topics: Publication
+Topics: Conferences and workshops, projects and organizations
 Tags: workshop-series
 Level: 2
 Prerequisites: defaults
