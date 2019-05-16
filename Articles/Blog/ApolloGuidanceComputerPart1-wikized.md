@@ -90,7 +90,7 @@ derived from this early memory technology.
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company).]
 
 ### The Executive: An operating system with checkpoint/restart services
 The AGC used a priority-driven, collaborative, multitasking operating system
@@ -298,7 +298,8 @@ Image copyright source info…
 --->
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-05-15
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
