@@ -2,10 +2,13 @@
 
 
 Announcement:
+- [New blog article ... Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap](../../Articles/Blog/ApolloGuidanceComputerPart1-wikized.md)
+- Display dates: 05/15/2019 - 05/30/2019
+
+<!---
 - [New blog article ... Streamlining Software Development through Continuous Integration](../../Articles/Blog/StreamliningSwDevptThroughContinuousIntegration.md)
 - Display dates: 04/26/2019 - 05/14/2019
 
-<!---
 - [New blog article ... Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt](../../Articles/Blog/ContinuousTechnologyRefreshment.md)
 - Display dates: 04/11/2019 - 04/25/2019
 
