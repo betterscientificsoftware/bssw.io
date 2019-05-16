@@ -14,7 +14,6 @@ Reference:
 
 # Actors
 * **Anyone** who can submit a GitHub issue can use this approach to suggest a curated content topic
-  * Do we need to do anything to accommodate those who can’t (or don’t want to) submit a GH issue?
 * **Editorial Board Member**
 * **Author** who can fork the repository and submit a pull request for a new article
   * Do we need to do anything to accommodate those who can’t (or don’t want to) use the GH pull request process?
@@ -32,9 +31,15 @@ Reference:
      it doesn’t appear that issue templates allow direct assignment to boards yet.  Maybe this can be
      done with a bot for issues with the appropriate label. *This can be done automatically by a setting
      on the project board column.*
-1. An **Editorial Board member** (EB) moves the issue into the *Topic Review* column and provides input
-   via the discussion and/or reaction capabilities of GitHub issues.
+1. A self-selected **Editorial Board member** (EB) moves the issue into the *Topic Review* column and
+   provides input via the discussion and/or reaction capabilities of GitHub issues.
    * Perhaps this move can be automated by a bot that notices discussion or reaction in an issue in Backlog.
+   * EB member may wish to utilize @ mentions in the issue to enlist input from specific people.
+     * **Note:** Since this is an *issue* and not a *PR*, @ mentions are the only way to enlist
+       other's input.
+   * EB member agrees to take *ownership* of marshalling the remaining steps in the workflow. 
+   * EB member sets deadline for completion of *Topic Review* discussion period and includes that.
+     How? See [below](#things_to_consider)
 1. Discussion and reaction proceeds among the **EB**.  When there are two or more “thumbs up” than
    “thumbs down” reactions on a topic in review, it moves to the Item *Development Backlog* column.
    * I think this can be automated via GitHub’s API.
@@ -52,3 +57,19 @@ Reference:
    approves the PR. The PR is moved to the *Ready for Publication* column.
 1. An **editorial assistant** merges the PR and marks the metadata for publication. The PR is
    moved to the *Done* column.
+
+# Things To Consider
+
+1. **Setting deadlines**: Periodically, we can run a script that deletes past *milestones* and
+   creates one-per-month *milestones* for a period of time in the future via the
+   [GitHub web api](https://developer.github.com/v3/issues/milestones/#create-a-milestone). This
+   would give EB members one month granularity to set deadlines yet avoid creating a milestone each time
+   we wanna set a deadline.
+1. Would it be valuable to separate the editorial board role from a reviewer role?
+   Initially they might be the same, but if we want to expand participation to a broader
+   community, it might be useful.
+1. **Authors with no GitHub account:**
+   * Do we need to do anything to accommodate those who can’t (or don’t want to) submit a GH issue?
+     * [@pagrubel] provide a link to the form where they can submit content ideas or a comment about it"
+     * [@markcmiller86] No, lets not support this in any way other than via GH issue.
+
