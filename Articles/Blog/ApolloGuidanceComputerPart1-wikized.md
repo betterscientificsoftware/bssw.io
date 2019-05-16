@@ -6,7 +6,7 @@
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_Apollo1.jpg'/>[Image Source: NASA (see below)]
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: May 10, 2019
+#### Publication date: May 15, 2019
 
 *First of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
