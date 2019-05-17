@@ -39,7 +39,7 @@ Reference:
        other's input.
    * EB member agrees to take *ownership* of marshalling the remaining steps in the workflow. 
    * EB member sets deadline for completion of *Topic Review* discussion period and includes that.
-     How? See [below](#things_to_consider)
+     How? See [below](#things-to-consider)
 1. Discussion and reaction proceeds among the **EB**.  When there are two or more “thumbs up” than
    “thumbs down” reactions on a topic in review, it moves to the Item *Development Backlog* column.
    * I think this can be automated via GitHub’s API.
