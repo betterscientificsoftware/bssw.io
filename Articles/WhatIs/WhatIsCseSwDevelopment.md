@@ -1,4 +1,4 @@
-# What is CSE Software Development
+# What is CSE Software Development?
 
 All software development should be cognizant of quality control, and should ideally adopt software practices that lead to reproducible results.  Beyond that, the rigor and extent of software practices adopted should reflect the scope and complexity of the project. The requirements that we advocate address most demanding project needs; others can adopt a subset of these practices depending upon their needs.
 
@@ -8,7 +8,7 @@ In scientific software requirements gathering phase only loosely determines the 
 
 <!---
 Publish: no
-Pinned: yes
+Pinned: no
 Categories: development
 Topics: development
 Tags:
