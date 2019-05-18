@@ -10,15 +10,53 @@
 *Second of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
 Retro-computing enthusiasts recently uploaded AGC source code for various Apollo missions to
-GitHub<sup>[7]</sup>. There is even a *Virtual AGC*<sup>[8]</sup> that runs this code.
-In all likelihood, it is the oldest *maintained* code on GitHub. Ironically, its development
-began over half a century ago in the ashes of a guidance software disaster. The loss of
-radar triggered a defective guidance subroutine which led to the destruction of Mariner 1 shortly
-after launch. In the transcription of hand-written guidance equations onto computer punch cards,
-an over-bar to indicate the use of *average* rather than *instantaneous* velocity went missing.
-The same bug had flown on two earlier Ranger missions but loss of radar necessary to trigger
-it never occurred. For NASA and MIT, the consequences of defects in the guidance software for
-Apollo were all too real.
+GitHub. There is even a *Virtual AGC* that runs this code. In all likelihood, it is the oldest
+*maintained* code on GitHub. Ironically, its development began over half a century ago in the
+ashes of a guidance software disaster. The loss of radar contact triggered defective guidance
+software which led to the destruction of Mariner 1 shortly after launch. Accounts vary but 
+one explanation is that the defect was introduced in the transcription of hand-written
+guidance equations into a program specification for the contractor. An over-bar to indicate the
+use of *average* rather than *instantaneous* velocity went missing. The contractor had
+implemented the guidance software to specification. The specification was wrong.
+The same bug had flown on two earlier Ranger missions but loss of radar necessary to trigger it
+never occurred. Mariner 1 would be a painful reminder of the consequences of defects in the
+guidance software for Apollo.
+
+Possible framing concepts
+   - testing and debugging
+   - co-design (a lot of changes at once)
+   - workflow (flight programs)
+   - numerics
+
+   - application vs. infrastruction like I/O
+   - GUI/Visualization
+   - ecosystem or stack
+   - restart
+   - memory management
+   - "communication", people style (a lot of meetings)
+   - project organization and management
+
+
+### Budget 
+
+> ~$600 Million for whole GNC system in 1962 ($5B in 2019 dollars) over 9 years
+> ~$60 Million just on software development ($500 million in 2019 dollars) over 9 years
+
+>Before the first lunar landing, more than 1400 man-years of software engineering effort had been expended, with a peak manpower level of 350 engineers reached in 1968.
+
+> 2020 DOE Budet Request for Exascale $809 Million ($500 OoS, $309 NNSA)
+
+> The Budget Request furthers discovery at the frontiers of science, maintaining 40% of its budget for research supporting over 22,000 researchers, including $500M to achieve exascale computing
+
+## JIT (Just in Time) Ropes
+
+The AGC had only 2K words of read-write core and 36K words of read-only core (called
+*fixed memory* or *rope core*). All software and data had to fit into this combined
+76KB of memory. Manufacture of rope core, installation and integration testing in
+the spacecraft along with crew rehersals demanded that all software development be
+completed 3-4 months before launch.
+
+
 
 # Co-Design in the Extreme
 When AGC development started even the specific steps involved and the vehicle(s) to be used in
@@ -104,8 +142,8 @@ Testing the software written for
 
 2 variants block 1 and block 2
 
-MIT software developers were supporting two AGC variants, Block I and Block II with differing
-instruction sets and memory capacities.
+MIT software developers were supporting two AGC variants, Block I (very similar to earlier Polaris
+system) and Block II with differing instruction sets and memory capacities.
 
 Test hardware development
 
@@ -126,6 +164,7 @@ Changes in Memory requirements.
 
 Triaging the software
 
+# Continuous Testing but not so Continous Integration
 
 
 # Background
@@ -169,6 +208,16 @@ These programs largely comprised what we would know today as the AGC *operating 
 All were written in AGC assembly language.  By 1965, most of this code had been
 written and fully tested. And, it represented only a tiny fraction of the whole software
 development effort to come.
+
+### From Computers in Spaceflight: The NASA Experience
+> The need for formal validation rose with the size of the 
+> software. Programs of 2,000 instructions took between 50 and 100 test 
+> runs to be fully debugged, and full-size mission loads took from 1,000 
+> to 1,200 runs ^12 
+
+> There 
+> always seem to be enough deficiencies in a final product that the 
+> designers wish they had a second chance. 
 
 
 Moon/Sun Ephemeris Subroutine: ~90 words (Interpretive code)
@@ -311,3 +360,19 @@ Numerics of Apollo Guidance System
 - moon position data
 - Apollo mission accruacy needs
 - 3 or 4 gimbals
+
+Analysis/Development
+    equations of motion
+    feedback control system
+    Kalman filtering
+MAC prototype first
+Documentation?
+Debugging
+   - eraseable programs
+   - trace/dump
+   - more on hybrid sim.
+Testing
+   - 4 tiers
+   - unit and gradual larger components
+   - test plans
+Management and Organization
