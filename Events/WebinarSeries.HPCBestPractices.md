@@ -12,21 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: So, You Want to Be Agile? Strategies for Introducing Agility into Your Scientific Software Project
+## Next webinar: Modern C++ for High-Performance Computing
 
-### Date and Time: Wednesday, May 8, 2019, 1:00-2:00 pm ET
-### Presenter: Mike Heroux (SNL)
+### Date and Time: Wednesday, June 12, 2019, 1:00-2:00 pm ET
+### Presenter: Andrew Lumsdaine, PNNL and University of Washington
 ### Description:
-Scientific software team cultures have natural consistencies with agile practices. Discovery-driven development, a focus on regular delivery of results, in-person discussions within and across research teams, and a focus on long-term sustainable research programs are commonplace dynamics on computational science teams that develop software. These dynamics are also particular expressions of core agile principles.
-
-Many scientific software teams have already assimilated industry best practices in some aspects of their work. The advent of open software development platforms such as GitHub and GitLab have accelerated awareness and adoption, as have numerous on-line resources that enable a motivated person to continue learning new ideas and approaches. Even so, we propose that a healthy team habit is continued exploration and improvement of software practices, processes and skills.
-
-In this webinar, we discuss a few agile practices and strategies that are readily adapted and adopted by scientific software teams. In addition, we describe an attitude and strategy for continual process improvement that enables computational science teams to simultaneously deliver science results and, at the same time, dedicate a slice of time to improving software practices on their way to delivering those results.
+Since its creation by Bjarne Stroustrup in the early 1980s, C++ has steadily evolved to become a multi-paradigm programming language that fully supports the needs of modern programmers. Because C++ had its roots in the C programming language, conventional wisdom (and longstanding practice) had been to use C++ in a dichotomous fashion: abstractions for productivity with escape to C for performance. However, C++ today is best viewed holistically — as it is today — rather than as extension of C or even of earlier versions of C++. In this webinar I will give a tour of features from modern C++ relevant to HPC, along with guidelines for their use — and demonstrate that C++ can offer productivity and elegance while sacrificing nothing in performance.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar029
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030
 
 ## Past Webinars
+- [*So, You Want to Be Agile? Strategies for Introducing Agility into Your Scientific Software Project*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar029), Mike Heroux (SNL), 2019-05-08
 - [*Testing Fortran Software with pFUnit*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar028), Thomas Clune (NASA/Goddard), 2019-04-10
 - [*I/O with HDF5: Overview, Tuning, and New Features*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027), Quincey Koziol (NERSC), 2019-03-13
 - [*Containers in HPC*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar026), Shane Canon (LBNL), 2019-02-13
