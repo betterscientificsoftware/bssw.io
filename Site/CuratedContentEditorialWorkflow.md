@@ -23,7 +23,7 @@ Reference:
   member or subject matter expert would be expected to have.
 
 # Workflow
-1. **Anyone** creates a GitHub issue for a proposed curated content (CC) item
+1. **Anyone** submits (the *submitter*) a GitHub issue for a proposed curated content (CC) item
    * We should use issue templates to tailor the requested data and automatically
    apply an appropriate label/project board assignment
 1. The issue is added to the “Curated Content Ideas” (CCI) project board *Idea Backlog* column.
@@ -52,6 +52,8 @@ Reference:
 1. An interested **Author** picks an issue from the *Development Backlog* column and produces a
    draft of the item as a pull request (PR), associated with the issue.  The pull request is added
    to the *Item Review* column.
+   * When the *author* does this s/he should also send a note to the *submitter* about this fact.
+   * Its possible this step could also be automated
 1. Any desired automated tests run on the PR and results are reported.
 1. An **EB member** reviews the item, interacts with the **Author** to refine as necessary, and
    approves the PR. The PR is moved to the *Ready for Publication* column.
