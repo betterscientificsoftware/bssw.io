@@ -74,4 +74,6 @@ Reference:
    * Do we need to do anything to accommodate those who can’t (or don’t want to) submit a GH issue?
      * [@pagrubel] provide a link to the form where they can submit content ideas or a comment about it"
      * [@markcmiller86] No, lets not support this in any way other than via GH issue.
+1. Possible [resource link](https://www.youtube.com/watch?v=e3bjQX9jIBk&t=157s)
+   for instruction on submitting a PR @rinkug found.
 
