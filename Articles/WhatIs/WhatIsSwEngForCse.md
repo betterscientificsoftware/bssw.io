@@ -1,4 +1,4 @@
-# What is Software Engineering for CSE
+# What is Software Engineering for CSE?
 
 Any software development should be cognizant of quality control, and ideally should adopt software practices that lead to reproducible results. Beyond that the rigor and extent of software practices adopted should reflect the scope and complexity of the project. A small project with limited lifecycle has different software engineering needs from those of a large and complex multicomponent software. The process we describe addresses most demanding project needs, others can adopt a subset of these practices depending upon their needs.  
 

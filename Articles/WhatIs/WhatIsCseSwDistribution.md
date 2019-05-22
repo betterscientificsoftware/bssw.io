@@ -1,4 +1,4 @@
-# What is CSE Software Distribution
+# What is CSE Software Distribution?
 
 CSE software distribution involves making CSE software available to users and related activties. Providing a portable installer is one important form of software distribution (sometimes a software artifact that represents a tested, released version of a software product is itself referred to as a *distribution*. This use of the term is narrower than the focus of this what-is document). Software is also commonly distributed using a package manager or app store. Another key form of software distribution is deploying software on a target platform where users can access it. Examples of this include deploying on a large supercomputer at a computing facility, or containerizing the software.
 
