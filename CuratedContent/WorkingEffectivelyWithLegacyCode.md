@@ -91,7 +91,7 @@ After reading this book, you should be convinced of the need for unit testing an
 
 <!---
 Publish: preview
-Categories: Development, Reliability, Skills
+Categories: Continuous integration testing, Personal productivity and sustainability, Refactoring, Software engineering, Testing
 Topics: refactoring, design, software engineering, testing, personal productivity and sustainability
 Tags: book
 Level: 2
