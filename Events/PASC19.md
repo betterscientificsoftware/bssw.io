@@ -12,7 +12,7 @@ The Platform for Advanced Scientific Computing Conference, includes a number of 
 - Friday — Minisymposium — [MS55 – Towards Sustainable Scientific Software through Better Engineering, Development, Documentation, Publication and Curation](https://pasc19.pasc-conference.org/program/schedule/session/?sess=sess155)
 
 <!---
-Publish: preview
+Publish: Preview
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: conference
