@@ -78,5 +78,6 @@ Reference:
    for instruction on submitting a PR @rinkug found.
 1. We need to use *symbolic constants* here in this workflow document for actual people
    (e.g. **EB Member** for an editorial board) and maintain a list of the *values* of those
-   constants (e.g. who currently comprises the editorial board) elsewhere.
+   constants (e.g. who currently comprises the editorial board) elsewhere. In this way,
+   the workflow doesn't change when staffing changes.
    member
