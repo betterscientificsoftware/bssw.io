@@ -80,4 +80,3 @@ Reference:
    (e.g. **EB Member** for an editorial board) and maintain a list of the *values* of those
    constants (e.g. who currently comprises the editorial board) elsewhere. In this way,
    the workflow doesn't change when staffing changes.
-   member
