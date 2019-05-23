@@ -26,7 +26,7 @@ We also encourage submission of two types of shorter (up to 4 page papers) that 
 We especially encourage members of the HPC and HPDA communities to submit practical experience papers. Papers on other related topics are also welcome; please contact the organizers with any questions about the relevance of particular topics. 
 
 <!---
-Publish: preview
+Publish: Preview
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: conference
