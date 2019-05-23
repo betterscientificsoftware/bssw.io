@@ -76,4 +76,7 @@ Reference:
      * [@markcmiller86] No, lets not support this in any way other than via GH issue.
 1. Possible [resource link](https://www.youtube.com/watch?v=e3bjQX9jIBk&t=157s)
    for instruction on submitting a PR @rinkug found.
-
+1. We need to use *symbolic constants* here in this workflow document for actual people
+   (e.g. **EB Member** for an editorial board) and maintain a list of the *values* of those
+   constants (e.g. who currently comprises the editorial board) elsewhere.
+   member
