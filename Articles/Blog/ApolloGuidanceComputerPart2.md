@@ -199,18 +199,21 @@ decision to implement a digital auto-pilot (DAP). The second was the design of t
 sub-system. The third was the 1967 fire of Apollo 1.
 
 # Apollo Mission Worklow: The AGC had an App for That
-Flying to the moon and returning safely involved a lot of coasting. A mission was divided into
-phases by *velocity changes*. For each manuever, there was a cooresponding program to handle it.
+Flying to the moon and returning safely involved
+*long periods of boredom punctuated by moments of shear terror*. A mission was divided into
+phases by *velocity change maneuvers*. For each manuever, there was a cooresponding program to handle it.
 In addition, time crtical maneuvers such as lunar landing, rendevouse and docking and re-entry
-required special groups of programs working together. For every phase of the mission, there was
+required special sequences of programs working together. For every phase of the mission, there was
 an *app* for that. But, whole programs utilized smaller sub-routines that performed highly
 specialized operations.
-
 
 A lunar mission was divided into phases by *velocity change manuevers*. For each manuever,
 *there was an app for that*; there was a cooresponding program in the AGC to manage the
 manuever. For time crtical maneuvers such as lunar landing, rendevouse & docking and
-re-entry, several programs worked in sequence.
+re-entry, several programs worked in sequence. By far the most time-critical sequence of
+manuevers occured during lunar landing. Lunar landing was divided into 4 distinct phases
+
+- Powered Descent (P63)
 
 For any particular maneuver, factors impacting program development were considerable.
 They included zero gravity fuel slosh, changing center of mass due to fuel consumption,
