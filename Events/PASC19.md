@@ -4,7 +4,7 @@
 - Location: Zurich, Switzerland
 - Event Website: https://pasc19.pasc-conference.org/ 
 
-The Platform for Advanced Scientific Computing Conference, includes a number of software-related events.  Please join us there!
+The Platform for Advanced Scientific Computing Conference (PASC), includes a number of software-related events.  Please join us there!
 
 **If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
