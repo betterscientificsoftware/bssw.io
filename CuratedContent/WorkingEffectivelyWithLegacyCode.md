@@ -82,6 +82,25 @@ In fact, at some point, the software may have improved to the point where there 
 This book is packed with practical examples that show nearly every trick there is for refactoring nasty code to break dependencies and getting code into a unit test harness.
 After reading this book, you should be convinced of the need for unit testing and TDD.
 
+<br>
+
+[1]: #ref1 "Fowler, Martin. Refactoring, Addison Wesley, 1999"
+[2]: #ref2 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004"
+[3]: #ref3 "Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003"
+[4]: #ref4 "Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003"
+
+<br>
+
+
+References | &nbsp;
+:--- | :---
+<a name="ref1"></a>1 | [Fowler, Martin. Refactoring, Addison Wesley, 1999](https://martinfowler.com/books/refactoring.html)
+<a name="ref2"></a>2 | [Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)
+<a name="ref3"></a>3 | [Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003](https://www.pearson.com/us/higher-education/program/Martin-Agile-Software-Development-Principles-Patterns-and-Practices/PGM272869.html)
+<a name="ref4"></a>4 | [Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003](https://www.pearson.com/us/higher-education/program/Beck-Test-Driven-Development-By-Example/PGM206172.html)
+
+<br>
+
 <img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
