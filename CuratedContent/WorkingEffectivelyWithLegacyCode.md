@@ -43,9 +43,9 @@ The main contribution of this book is the *Legacy Code Change Algorithm*:
 Step 1 defines the targeted subset of legacy code that must have tests which depend on what needs to change, what can be sensed, and where dependencies can be broken.
 After unit tests which cover the targeted code have been implemented in Step 2, it should have close to 100% coverage.
 Without full coverage, it is difficult to know if existing behavior is preserved.
-Any refactoring in Step 4 is safe to perform once the targeted code is sufficiently covered with tests.
+Any refactorings in Step 4 is safe to perform once the targeted code is sufficiently covered with tests.
 Refactoring is critical to improve the clarity and maintainability of the code.
-**WARNING:** Refactoring must not extend outside code that is sufficiently covered by tests!
+**WARNING:** The refactorings must not extend outside code that is sufficiently covered by tests!
 
 The most challenging part of the *Legacy Software Change Algorithm* is getting the targeted legacy code into a unit test harness and covering it with tests which (in more detail) includes these steps:
 
@@ -57,7 +57,7 @@ You may need to add "sensing" variables to help see what you need to see in a un
 
 * **Break dependencies**: Dependencies need to be broken for one of two reasons: Sensing and Separation.
 With **Sensing**, one must be able to inspect the behavior of the code that we can’t otherwise see.  While **Separation** is needed to allow the code to be run in a test harness outside of the production setting.
-Actually breaking the dependencies involves doing minimal refactoring with careful hyper-sensitive editing.
+Actually breaking the dependencies involves applying minimal refactorings with careful hyper-sensitive editing.
 (There are special dependency-breaking refactorings defined in this book to help with this critical task.)
 
 * **Cover legacy code with unit tests**: If you have the specification for how the targeted legacy code is supposed to work, then write tests to that specification.
@@ -76,7 +76,7 @@ Finally, another major contribution of this book is in detailing the strategies 
   - **Object Seams**: Define interfaces and replace production objects with mock or fake objects in a test harness. (NOTE: Prefer object seams to link or preprocessing seams!)
 
 The Legacy Code Change Algorithm is applied in many small iterations over and over again as pieces of the legacy software are changed.
-Over time, all the refactoring can result in significant improvements to the quality and sustainability of the software and can even perform major (beneficial) architectural changes over time.
+Over time, these small incremental refactorings can result in significant improvements to the quality and sustainability of the software and can even perform major (beneficial) architectural changes.
 In fact, at some point, the software may have improved to the point where there is enough strong testing that it is no longer considered legacy code!
 
 This book is packed with practical examples that show nearly every trick there is for refactoring nasty code to break dependencies and getting code into a unit test harness.
