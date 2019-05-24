@@ -7,9 +7,7 @@ This book gives us hope that we can use targeted, incremental unit testing and r
 delivering new functionality at the same time.
 
 If you've read *Refactoring*<sup>[1]</sup> and felt a little uneasy about how this would apply to large, nasty software projects, then *Working Effectively with Legacy Code*<sup>[2]</sup> is the book to read.
-Michael mentions and reviews many of the object-oriented principles in *Agile Software Development*<sup>[3]</sup>
-as well as other bits of information that you can find in other
-great books about software development.
+Michael mentions and reviews many of the object-oriented principles in *Agile Software Development*<sup>[3]</sup> as well as other bits of information that you can find in other great books about software development.
 *Working Effectively with Legacy Code* is the logical culmination of  *Refactoring* and *Test Driven Development*<sup>[4]</sup> (TDD); it's where the rubber meets the road when combining unit testing and refactoring.
 
 The definition of "Legacy Code" given in this book is simple but often shocking to the uninitiated:
@@ -57,7 +55,8 @@ Targeted changes should be done in small iterations so this should hopefully jus
 * **Find test points**: Find out where in the code you can sense variables, or call functions, etc. such that you can detect the behavior of the code you want to change.
 You may need to add "sensing" variables to help see what you need to see in a unit test.
 
-* **Break dependencies**: Dependencies need to be broken for one of two reasons: Sensing and Separation.  With **Sensing**, one must be able to inspect the behavior of the code that we can’t otherwise see.  While **Separation** is needed to allow the code to be run in a test harness outside of the production setting.
+* **Break dependencies**: Dependencies need to be broken for one of two reasons: Sensing and Separation.
+With **Sensing**, one must be able to inspect the behavior of the code that we can’t otherwise see.  While **Separation** is needed to allow the code to be run in a test harness outside of the production setting.
 Actually breaking the dependencies involves doing minimal refactoring with careful hyper-sensitive editing.
 (There are special dependency-breaking refactorings defined in this book to help with this critical task.)
 
