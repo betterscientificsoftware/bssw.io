@@ -13,32 +13,22 @@ footnote links behave more Wikipedia-like. In the new file, the original
 reference style link definitions are copied over but commented out by
 bracketing in <!--- and --->. The renumbered and re-formatted links are
 bi-level. Footnotes in the content link to entries in a table of 
-references. Items in the table of references link off-page to their
-intended destinations. The resulting file is still GitHub flavored
-Markdown but with a minimal amount of embedded HTML.
+references at the bottom of the document. Items in the table of references
+link off-page to their intended destinations. The resulting file is still
+GitHub flavored Markdown with a minimal amount of embedded HTML.
+For more information, see https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md
 
-For our purposes, GitHub Markdown reference style links should be
-formated as follows...
-
-[<LINK-ID>]: <URL> "<DESC> {<BIB-DATA>}"
-
-where...
-
-all characters outside <> delimeters are required
-<LINK-ID> is any alpha-numeric text (must start at col 0)
-<URL> is the actual url of the  an on-line reference
-<DESC> is a short description/summary of the referenced item
-<BIB-DATA> is a full bibliographic entry (Optional. If none use {})
-
-Some sanity checking is performed.
-
-Examples...
+By default, infile.md is moved to infile.src.md and the new file is
+given the name infile.md and is made read-only. However, you can set
+the name of the output file instead and disable the read-only setting.
+By default, failed sanity checks cause an abort. However, this can
+be disabled by setting them to warn.
 
 To process a file...
 
-    ./wikize-refs.py foo.md
+    ./wikize_refs.py foo.md
 
-...produces foo-wikized.md, with the references adjusted.
+...moves foo.md to foo.src.md and the new file is foo.md
 """
 
 from optparse import OptionParser
@@ -53,7 +43,7 @@ def parse_args():
     parser.add_option("--warn",
                       default=False,
                       action="store_true",
-                      help="[Optional] Warn instead of error during sanity checks.")
+                      help="Warn instead of error during sanity checks.")
 
     parser.add_option("--no-rdonly",
                       default=False,
@@ -61,10 +51,10 @@ def parse_args():
                       help="Disable making output file read-only.")
 
     parser.add_option("-o", "--outfile",
-                      help="Specify output file name instead of ")
+                      help="Specify output file name.")
 
     opts, mdfiles = parser.parse_args()
-    return opts, mdfiles
+    return opts, mdfiles[0]
 
 #
 # Process the original md file grepping for
@@ -116,7 +106,7 @@ def process_input_file(filename):
 #    - ensure every footnote references an existing item in the ref list
 #    - ensure every ref list item is referenced at least once
 #
-def sanity_checks(fn_handls, ref_map, warn):
+def sanity_checks(fn_handles, ref_map, warn):
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
     if missing_refs:
@@ -134,7 +124,7 @@ def sanity_checks(fn_handls, ref_map, warn):
             print "Correct above issues and re-try..."
             exit()
 
-def generate_output_file_lines(other_lines, original_refs, ref_map, comment_lines):
+def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comment_lines):
     outlines = []
 
     #
@@ -210,10 +200,10 @@ def generate_output_file_lines(other_lines, original_refs, ref_map, comment_line
 
 def write_output_temp_file(outlines):
     with tempfile.NamedTemporaryFile(mode='w', delete=False) as outf:
-        out.writelines(["%s\n" % item  for item in outlines])
-        return tempfile.name
+        outf.writelines(["%s\n" % item  for item in outlines])
+        return outf.name
 
-def rename_files(in_filename, tmp_filename, out_filename, rd_only):
+def rename_files(in_filename, tmp_filename, out_filename, no_rdonly):
     if not out_filename:
         new_in_filename = "%s.src.md"%os.path.splitext(in_filename)[0]
         if os.path.exists(new_in_filename):
@@ -221,14 +211,14 @@ def rename_files(in_filename, tmp_filename, out_filename, rd_only):
             exit()
         os.rename(in_filename, new_in_filename)
         os.rename(tmp_filename, in_filename)
-        if not vopts['no_rdonly']:
+        if not no_rdonly:
             os.chmod(in_filename, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
     else:
         if os.path.exists(out_filename):
             print "Cannot write to \"%s\" because it already exists"%out_filename
             exit()
         os.rename(tmp_filename, out_filename)
-        if not vopts['no_rdonly']:
+        if not no_rdonly:
             os.chmod(out_filename, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
 
 def main():
@@ -259,7 +249,7 @@ def main():
     # Build up the list of lines for output file
     #
     outlines = \
-    generate_ouput_file_lines(other_lines, original_refs, ref_map, comment_lines)
+    generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comment_lines)
 
     #
     # Write the output file to a temporary file
