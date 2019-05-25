@@ -42,7 +42,7 @@ To process a file...
 """
 
 from optparse import OptionParser
-import re, os
+import re, os, stat, tempfile
 
 def parse_args():
     """
@@ -52,31 +52,32 @@ def parse_args():
 
     parser.add_option("--warn",
                       default=False,
-                      dest="warn",
                       action="store_true",
                       help="[Optional] Warn instead of error during sanity checks.")
+
+    parser.add_option("--no-rdonly",
+                      default=False,
+                      action="store_true",
+                      help="Disable making output file read-only.")
+
+    parser.add_option("-o", "--outfile",
+                      help="Specify output file name instead of ")
 
     opts, mdfiles = parser.parse_args()
     return opts, mdfiles
 
 #
-# Read the command line
-#
-opts, mdfiles = parse_args()
-vopts = vars(opts)
-
-#
 # Process the original md file grepping for
 # footnotes and reference definitions
 #
-fn_handles = set()
-other_lines = []
-comment_lines = []
-original_refs = []
-ref_map = {}
-in_comment = False
-for mdfile in mdfiles:
-    with open(mdfile, 'r') as mdf:
+def process_input_file(filename):
+    fn_handles = set()
+    other_lines = []
+    comment_lines = []
+    original_refs = []
+    ref_map = {}
+    in_comment = False
+    with open(filename, 'r') as mdf:
         for mdfl in mdf.readlines():
             # grep for ^[xxx]: URL "Short Description {Formal Bibliographic data}"$
             mdfparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*) {(.*)}\"$", mdfl)
@@ -108,37 +109,38 @@ for mdfile in mdfiles:
                 for fn in fns3: fn_handles = fn_handles.union(set(fn))
                 other_lines += [mdfl]
 
+    return fn_handles, other_lines, comment_lines, original_refs, ref_map
+
 #
 # Sanity checks for footnote references and the reference list
 #    - ensure every footnote references an existing item in the ref list
 #    - ensure every ref list item is referenced at least once
 #
-ref_handles = set(ref_map.keys())
-missing_refs = fn_handles - ref_handles
-if missing_refs:
-    print "Some footnotes never appear in the references..."
-    print "   ", [x for x in missing_refs]
-    if not vopts['warn']:
-        print "Correct above issues and re-try..."
-        exit()
+def sanity_checks(fn_handls, ref_map, warn):
+    ref_handles = set(ref_map.keys())
+    missing_refs = fn_handles - ref_handles
+    if missing_refs:
+        print "Some footnotes never appear in the references..."
+        print "   ", [x for x in missing_refs]
+        if not warn:
+            print "Correct above issues and re-try..."
+            exit()
 
-missing_fns = ref_handles - fn_handles
-if missing_fns:
-    print "Some references never appear in a footnote..."
-    print "   ", [x for x in missing_fns]
-    if not vopts['warn']:
-        print "Correct above issues and re-try..."
-        exit()
+    missing_fns = ref_handles - fn_handles
+    if missing_fns:
+        print "Some references never appear in a footnote..."
+        print "   ", [x for x in missing_fns]
+        if not warn:
+            print "Correct above issues and re-try..."
+            exit()
 
-#
-# Write the re-numbered and re-formatted md file
-# 
-with open("%s-wikized.md"%os.path.splitext(mdfile)[0], 'w') as wmdf:
+def generate_output_file_lines(other_lines, original_refs, ref_map, comment_lines):
+    outlines = []
 
     #
     # write warning comment about this being auto-generated
     #
-    wmdf.write("<!--- WARNING: Auto-generated with wikize-refs.py from %s --->\n"%mdfile)
+    outlines.append("<!--- WARNING: Auto-generated with wikize-refs.py from %s --->\n"%mdfile)
 
     #
     # Write all non-reference definition lines (e.g. article content) first
@@ -159,42 +161,115 @@ with open("%s-wikized.md"%os.path.splitext(mdfile)[0], 'w') as wmdf:
             ol = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]), "<pus>[%d],[%d],[%d]</pus>"%(ref_map[fn[0]][3],ref_map[fn[1]][3],ref_map[fn[2]][3]), ol)
         ol = re.sub("<pus>","<sup>", ol)
         ol = re.sub("</pus>","</sup>", ol)
-        wmdf.write(ol)
+        outlines.append(ol)
 
     #
     # Write original set of refs embedded in comments
     #
-    wmdf.write("\n<br>\n\n<!---\n")
+    outlines.append("\n<br>\n\n<!---\n")
     for l in original_refs:
-        wmdf.write(l)
-    wmdf.write("\n--->\n<br>\n\n")
+        outlines.append(l)
+    outlines.append("\n--->\n<br>\n\n")
 
     #
     # Write link definitions with links to anchors in reference table
     #
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
     for k,v in sorted(remapped_ref_map.items()):
-        wmdf.write("[%d]: #ref%d \"%s\"\n"%(k, k, v[0]))
+        outlines.append("[%d]: #ref%d \"%s\"\n"%(k, k, v[0]))
 
     #
     # Finally, write the references and off-page links as a table
     # where each row defines an anchor for one of the link definitions, above
     #
-    wmdf.write("\n<br>\n\n")
-    wmdf.write("References | &nbsp;\n")
-    wmdf.write(":--- | :---\n")
+    outlines.append("\n<br>\n\n")
+    outlines.append("References | &nbsp;\n")
+    outlines.append(":--- | :---\n")
     for k,v in sorted(remapped_ref_map.items()):
         if (not v[0] or v[0].isspace()) and (not v[2] or v[2].isspace()):
-            wmdf.write("<a name=\"ref%d\"></a>%d | %s\n"%(k, k, v[1]))
+            outlines.append("<a name=\"ref%d\"></a>%d | %s\n"%(k, k, v[1]))
         elif v[0] in v[2]:
-            wmdf.write("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[1]))
+            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[1]))
         else:
-            wmdf.write("<a name=\"ref%d\"></a>%d | [%s %s](%s)\n"%(k, k, v[0], v[2], v[1]))
+            outlines.append("<a name=\"ref%d\"></a>%d | [%s %s](%s)\n"%(k, k, v[0], v[2], v[1]))
 
     #
     # Write all comment lines
     #
-    wmdf.write("\n<br>\n\n")
+    outlines.append("\n<br>\n\n")
     for l in comment_lines:
-        wmdf.write(l)
-    wmdf.write("\n")
+        outlines.append(l)
+    outlines.append("\n")
+
+    #
+    # write warning comment about this being auto-generated
+    #
+    outlines.append("<!--- WARNING: Auto-generated with wikize-refs.py from %s --->\n"%mdfile)
+
+    return outlines
+
+def write_output_temp_file(outlines):
+    with tempfile.NamedTemporaryFile(mode='w', delete=False) as outf:
+        out.writelines(["%s\n" % item  for item in outlines])
+        return tempfile.name
+
+def rename_files(in_filename, tmp_filename, out_filename, rd_only):
+    if not out_filename:
+        new_in_filename = "%s.src.md"%os.path.splitext(in_filename)[0]
+        if os.path.exists(new_in_filename):
+            print "Cannot rename \"%s\" to \"%s\" because it already exists"%(in_filename, new_in_filename)
+            exit()
+        os.rename(in_filename, new_in_filename)
+        os.rename(tmp_filename, in_filename)
+        if not vopts['no_rdonly']:
+            os.chmod(in_filename, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
+    else:
+        if os.path.exists(out_filename):
+            print "Cannot write to \"%s\" because it already exists"%out_filename
+            exit()
+        os.rename(tmp_filename, out_filename)
+        if not vopts['no_rdonly']:
+            os.chmod(out_filename, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
+
+def main():
+
+    #
+    # Process command line
+    #
+    opts, mdfile = parse_args()
+    vopts = vars(opts)
+
+    #
+    # Process the input file, collecting up refs and various
+    # kinds of lines into different lists and maps
+    #
+    fn_handles, \
+    other_lines, \
+    comment_lines, \
+    original_refs, \
+    ref_map = \
+    process_input_file(mdfile)
+
+    #
+    # Check basic sanity of refs
+    #
+    sanity_checks(fn_handles, ref_map, vopts['warn'])
+
+    #
+    # Build up the list of lines for output file
+    #
+    outlines = \
+    generate_ouput_file_lines(other_lines, original_refs, ref_map, comment_lines)
+
+    #
+    # Write the output file to a temporary file
+    #
+    tmp_filename = write_output_temp_file(outlines)
+
+    #
+    # Rename files as cl args indicate
+    #
+    rename_files(mdfile, tmp_filename, vopts['outfile'], vopts['no_rdonly'])
+
+if __name__ == '__main__':
+    main()
