@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 
-# run ./wikize-refs.py --help for documentation
+# run ./wikize_refs.py --help for documentation
+
+from optparse import OptionParser
+import re, os, stat
+
+def warning_msg(mdfile):
+    return "<!--- WARNING: Auto-generated with wikize_refs.py from %s --->\n"%mdfile
 
 def usage():
     return \
@@ -16,7 +22,9 @@ bi-level. Footnotes in the content link to entries in a table of
 references at the bottom of the document. Items in the table of references
 link off-page to their intended destinations. The resulting file is still
 GitHub flavored Markdown with a minimal amount of embedded HTML.
-For more information, see https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md
+For more information, see https://github.com/betterscientificsoftware/\
+betterscientificsoftware.github.io/blob/master/Articles/Blog/\
+ReferencesInMarkdownHybridApproach.md
 
 By default, infile.md is moved to infile.src.md and the new file is
 given the name infile.md and is made read-only. However, you can set
@@ -31,12 +39,9 @@ To process a file...
 ...moves foo.md to foo.src.md and the new file is foo.md
 """
 
-from optparse import OptionParser
-import re, os, stat, tempfile
-
 def parse_args():
     """
-    Parses arguments to wikize-refs.py.
+    Parses arguments to wikize_refs.py.
     """
     parser = OptionParser(usage())
 
@@ -45,7 +50,7 @@ def parse_args():
                       action="store_true",
                       help="Warn instead of error during sanity checks.")
 
-    parser.add_option("--no-rdonly",
+    parser.add_option("--no-readonly",
                       default=False,
                       action="store_true",
                       help="Disable making output file read-only.")
@@ -54,6 +59,11 @@ def parse_args():
                       help="Specify output file name.")
 
     opts, mdfiles = parser.parse_args()
+
+    if not mdfiles:
+        print "Must include the name of a markdown file to process."
+        exit(1)
+
     return opts, mdfiles[0]
 
 #
@@ -86,7 +96,7 @@ def process_input_file(filename):
                 ref_bib = mdfparts.groups()[3]
                 if ref_hdl in ref_map:
                     print "Error: repeated reference definition handle", ref_hdl
-                    exit()
+                    exit(1)
                 ref_map[ref_hdl] = [ref_desc, ref_url, ref_bib]
                 ref_map[ref_hdl].append(len(ref_map))
                 original_refs += [mdfl]
@@ -114,7 +124,7 @@ def sanity_checks(fn_handles, ref_map, warn):
         print "   ", [x for x in missing_refs]
         if not warn:
             print "Correct above issues and re-try..."
-            exit()
+            exit(1)
 
     missing_fns = ref_handles - fn_handles
     if missing_fns:
@@ -122,7 +132,7 @@ def sanity_checks(fn_handles, ref_map, warn):
         print "   ", [x for x in missing_fns]
         if not warn:
             print "Correct above issues and re-try..."
-            exit()
+            exit(1)
 
 def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comment_lines):
     outlines = []
@@ -130,7 +140,7 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comm
     #
     # write warning comment about this being auto-generated
     #
-    outlines.append("<!--- WARNING: Auto-generated with wikize-refs.py from %s --->\n"%mdfile)
+    outlines.append(warning_msg(mdfile))
 
     #
     # Write all non-reference definition lines (e.g. article content) first
@@ -194,32 +204,18 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comm
     #
     # write warning comment about this being auto-generated
     #
-    outlines.append("<!--- WARNING: Auto-generated with wikize-refs.py from %s --->\n"%mdfile)
+    outlines.append(warning_msg(mdfile))
 
     return outlines
 
-def write_output_temp_file(outlines):
-    with tempfile.NamedTemporaryFile(mode='w', delete=False) as outf:
-        outf.writelines(["%s\n" % item  for item in outlines])
-        return outf.name
-
-def rename_files(in_filename, tmp_filename, out_filename, no_rdonly):
+def write_output_file(outlines, in_filename, out_filename, no_readonly):
+    outfname = out_filename
     if not out_filename:
-        new_in_filename = "%s.src.md"%os.path.splitext(in_filename)[0]
-        if os.path.exists(new_in_filename):
-            print "Cannot rename \"%s\" to \"%s\" because it already exists"%(in_filename, new_in_filename)
-            exit()
-        os.rename(in_filename, new_in_filename)
-        os.rename(tmp_filename, in_filename)
-        if not no_rdonly:
-            os.chmod(in_filename, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
-    else:
-        if os.path.exists(out_filename):
-            print "Cannot write to \"%s\" because it already exists"%out_filename
-            exit()
-        os.rename(tmp_filename, out_filename)
-        if not no_rdonly:
-            os.chmod(out_filename, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
+        outfname = "%s-wikized.md"%os.path.splitext(in_filename)[0]
+    with open(outfname, 'w') as outf:
+        outf.writelines(["%s" % line for line in outlines])
+    if not no_readonly:
+        os.chmod(outfname, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
 
 def main():
 
@@ -230,8 +226,8 @@ def main():
     vopts = vars(opts)
 
     #
-    # Process the input file, collecting up refs and various
-    # kinds of lines into different lists and maps
+    # Process the input file, collecting up footnotes and refs
+    # various types of lines into different lists and maps
     #
     fn_handles, \
     other_lines, \
@@ -254,12 +250,11 @@ def main():
     #
     # Write the output file to a temporary file
     #
-    tmp_filename = write_output_temp_file(outlines)
+    write_output_file(outlines, mdfile, vopts['outfile'], vopts['no_readonly'])
 
-    #
-    # Rename files as cl args indicate
-    #
-    rename_files(mdfile, tmp_filename, vopts['outfile'], vopts['no_rdonly'])
-
+#
+# So this python script can be used both as a shell command
+# and as an imported python module.
+#
 if __name__ == '__main__':
     main()
