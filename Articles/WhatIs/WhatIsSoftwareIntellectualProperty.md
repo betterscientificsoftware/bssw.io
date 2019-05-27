@@ -1,6 +1,12 @@
 ### What is Software Intellectual Property?
 
-Copyright and patents are two of the primary legal frameworks used around the world to govern the intellectual property rights associated with software.  Patents are related to the novel ideas embodied in the software, while copyright is associated with the expression of the code itself.
+<!--deck start--->
+Copyright and patents are two widely-used software intellectual property frameworks -- software developers and team leads need to be cognizant of these frameworks in order to understand which licensing terms can be used to protect their software and achieve their project's desired goals.
+
+<!--deck end--->
+
+<!--body start--->
+When it comes to  software, the two primary legal frameworks used around the world to govern the intellectual property rights are (1) patents and (2) software.  Patents are related to the novel ideas embodied in the software, while copyright is associated with the expression of the code itself.
 
 Copyright grants the creator of an original work the exclusive rights to its use and distribution.  Rights of particular interest for software include reproduction and distribution of the work, and the creation of derivative works.  License agreements provide a means for the owners of the intellectual property rights to selectively grant rights to others.  In nearly all jurisdictions, software (and other original works) are subject to copyright on creation -- you to not have to do anything special to claim copyright. The work might be owned by you, or by your employer if was "work for hire".  IP rights are often set out explicitly in employment contracts.
 
@@ -15,6 +21,8 @@ Some licenses include terms related to patents.  Patents are quite different tha
 Some projects require contributor agreements when submitting software.  These are legal agreements that make explicit the terms under which the developer is conveying the software.  In the absence of a contributor agreement, the contribution is typically made under the assumption that it will be distributed under the same license terms as existing code base.
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)
+<!--body end--->
+
 
 <!---
 Publish: yes
