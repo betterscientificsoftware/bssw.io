@@ -1,5 +1,11 @@
 # What is Issue Tracking?
+<!--deck start---> 
 
+Understanding what is issue tracking, how issue tracking tools help in software development life cycle and what myriad capabilities are now bring offered by popular issue tracking systems - are important topics to be considered by teams focussing on software development with increased sustainability and productivity in mind.
+<!--deck end--->
+
+
+<!--body start--->
 Issue tracking is the process of managing a collection of issues (bugs, feature requests, missing documentation, etc.) that are currently being handled, or should be handled, by a software development team.
 An issue tracker is a software system that is used by the software developers to keep track of the issues (who is responsible for each issue, when the issue was reported, etc). Most modern issue trackers used in the open source community are web-based and provide rich functionality for adding new issues, assigning issues to developers, recording notes on the issue, linking repository commits associated with the issue, etc. Issue trackers can also be used to plan new development activities.
 
@@ -20,6 +26,8 @@ An "issue" represents anything that, if resolved, results in an improvement to a
 All three modern web-based repository hosting systems, [BitBucket](https://bitbucket.com), [GitHub](https://github.com), and [GitLab](https://gitlab.com/explore/projects/trending) provide integrated issue tracking systems and support most, if not all of the capabilities listed above.
 
 #### Contributed by [Barry Smith](https://github.com/BarrySmith)
+<!--body end--->
+
 
 <!---
 Publish: yes
