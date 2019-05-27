@@ -1,6 +1,6 @@
 ### What Is Work on Software Publishing and Citation?
 <!--deck start--->
-While theory and experimentation within the CSE community are well recognized and appreciated through publications and conferences, software supporting this theory and experimentation has traditionally not been given same recognition - this is now changing due to several efforts in the direction of software publishing and citation.
+While theory and experimentation within the CSE community are well recognized and appreciated through publications and conferences, software supporting this theory and experimentation has traditionally not been given the same recognition - this is now changing due to several efforts in the direction of software publishing and citation.
 <!--deck end--->
 
 <!--body start--->
