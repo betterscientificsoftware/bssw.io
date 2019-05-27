@@ -1,6 +1,6 @@
 ### What Are Software Development Tools?
 
-Development tools aid developers by supporting different aspects of software design and implementation and cover a broad spectrum ranging from code editing to improving developer productivity.
+Software Development tools aid developers by supporting different aspects of software design and implementation and cover a broad spectrum ranging from code editing to improving developer productivity.
 
 Development tools are tools that support different aspects of software design and implementation, such as editors, 
 integrated development environments (IDEs), revision control systems (RCS), [issue trackers](WhatIsIssueTracking.md), 
