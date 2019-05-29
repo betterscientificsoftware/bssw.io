@@ -1,5 +1,10 @@
 # What is Continuous Integration Testing?
+<!--deck start--->
 
+Continuous integration testing refers to a software development methodology where code changes are committed and merged, automatically built and tested on a give infrastructure frequently and at reasonable granularity - in an effort to reduce integration risk, reduce merge conflicts and bugs and improve overall operational code quality.
+<!--deck end--->
+
+<!--body start--->
 Continuous integration (CI) testing is a particular [category](../../../CuratedContent/WhatIsCseSwTesting.md#categories-of-testing)
 of testing software that is aimed at testing
 the merged changes from multiple branches of development, with the highest _reasonable_ frequency
@@ -59,6 +64,7 @@ likely to require too much time (or too large of a compute resource) to be appro
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 
 #### Publication date: May 8, 2017
+<!--body end--->
 
 <!---
 Publish: yes
