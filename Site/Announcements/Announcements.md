@@ -2,10 +2,13 @@
 
 
 Announcement:
-- [New blog article ... Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap](../../Articles/Blog/ApolloGuidanceComputerPart1-wikized.md)
-- Display dates: 05/15/2019 - 05/30/2019
+- [New blog article ... Talking about Software Development at SIAM CSE19](../../Articles/Blog/2019-05-siam-cse19.md)
+- Display dates: 05/29/2019 - 06/17/2019
 
 <!---
+- [New blog article ... Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap](../../Articles/Blog/ApolloGuidanceComputerPart1-wikized.md)
+- Display dates: 05/15/2019 - 05/28/2019
+
 - [New blog article ... Streamlining Software Development through Continuous Integration](../../Articles/Blog/StreamliningSwDevptThroughContinuousIntegration.md)
 - Display dates: 04/26/2019 - 05/14/2019
 
