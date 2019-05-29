@@ -1,6 +1,6 @@
 # What is CSE Legacy Code?
 <!--deck start--->
-CSE Legacy code can involve several years or even decades of development and resource invested in it. Maintaining such legacy code comes with several engineering challenges and its imperative to know how to balance the critical goals associated with the code.
+CSE Legacy code can involve several years or even decades of development and resources invested in it. Maintaining such legacy code comes with several engineering challenges and its imperative to know how to balance the critical goals associated with the code.
 <!--deck end--->
 
 <!--body start--->
