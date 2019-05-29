@@ -6,14 +6,14 @@
 
 **Topics:**
 
-- **Personal productivity and sustainability:**
+- **Personal Productivity and Sustainability:**
 Information on factors that impact how effectively we work, both now and looking toward the future.
 
 <!---
     - [What Is Personal Productivity and Sustainability?](Topics/WhatIsPersonalProductivityAndSustainability.md)
 --->
 
-- **Online learning:**
+- **Online Learning:**
 Information about strategies for fully reaping the benefits of online lectures, tutorials, and other learning material to help improve scientific software development, productivity, and sustainability.
 
 <!---
