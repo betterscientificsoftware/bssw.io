@@ -29,6 +29,10 @@ and was later hired by NASA to review AGC code for quality. He dedicated himself
 becoming a human static analyzer, often manually reverse engineering AGC code he was
 asked to review to reveal the equations it had been programmed to solve.
 
+As much information as there is available regarding the AGC, it is difficult to
+find details about the specific software development processes AGC software
+developers followed.
+
 # Background 
 
 (Put this at end)
@@ -59,8 +63,8 @@ were total unknowns.
 > MIT received a contract based on only a short, very general requirements statement.
 > Requirements started changing immediately and continued to change throughout the program."
 
-MIT knew guidance would need to be accurate to 1 part in 100,000 and a digital rather than
-analog computer would be required.
+MIT knew guidance would need to be accurate to 1 part in 100,000 and the flexibility
+provided by a digital computer would be required.
 
 The AGC would be the centerpiece controlling a complex collection of sensors, controllers,
 cockpit displays, thusters and engines. A big challenge facing software developers was that
@@ -198,22 +202,61 @@ Three key things impacted AGC software development more than any other. The firs
 decision to implement a digital auto-pilot (DAP). The second was the design of the memory
 sub-system. The third was the 1967 fire of Apollo 1.
 
-# Apollo Mission Worklow: The AGC had an App for That
-Flying to the moon and returning safely involved
-*long periods of boredom punctuated by moments of shear terror*. A mission was divided into
-phases by *velocity change maneuvers*. For each manuever, there was a cooresponding program to handle it.
-In addition, time crtical maneuvers such as lunar landing, rendevouse and docking and re-entry
-required special sequences of programs working together. For every phase of the mission, there was
-an *app* for that. But, whole programs utilized smaller sub-routines that performed highly
-specialized operations.
+# AGC *Apps* and Apollo Mission Workflow
+Flying to the moon and returning safely involved *long periods of boredom
+punctuated by moments of extreme peril*. A mission was divided into phases by
+*velocity change maneuvers* or *burns* of the main engines. For each manuever,
+there was a cooresponding program, called a *major mode* in the AGC to handle
+it. Time crtical maneuvers such as lunar landing, rendevouse and docking and
+re-entry involved multiple programs working in sequence. For every phase of the
+mission, in today's parlance we'd say *there was an app for that*.
 
-A lunar mission was divided into phases by *velocity change manuevers*. For each manuever,
-*there was an app for that*; there was a cooresponding program in the AGC to manage the
-manuever. For time crtical maneuvers such as lunar landing, rendevouse & docking and
-re-entry, several programs worked in sequence. By far the most time-critical sequence of
-manuevers occured during lunar landing. Lunar landing was divided into 4 distinct phases
+Development of a *major mode* software program began by understanding the equations
+of motion governing the particular phase of spaceflight and then outline computational
+approaches utilizing available spacecraft sensors, controls and engines to affect the
+desired outcomes and in specified computer time and space (memory) requirements.
+The minimum time an RCS thruster could be fired was 14 milli-seconds. The LEM descent
+engine could not operate 
 
-- Powered Descent (P63)
+equations of motion
+of design and planning, development of the equations of motion,
+identification of goals and constraints (usually fuel consumption), prototypes
+code on IBM and Honeywell mainframes
+
+As mission software evolved...
+
+
+By far the most critical sequence of manuevers occured during lunar landing.
+Lunar landing was divided into 4 phases depending on the amount and type of
+control the pilot required. Powered Descent (P63), Approach (P64), Terminal Descent (P66), Touchdown (P68)
+
+- Powered Descent / Braking Phase (P63)
+  - Fully auotmatic
+  - Pilots compare state to cheat sheet prediction
+- Approach Phase (P64) 
+  - Pilot can re-designate landing target for auto to hit
+  - Pilot controls rate of descent
+- Terminal Descent (P66)
+  - Auto Descent (P65)
+  - Full Manual (P67)
+- Touchdown (P68)
+
+The sequence of operations the software needed to perform during these 4 phases were...
+small *ullage* burn of the RCS thrusters to force main engine fuel to bottom of the tank,
+countdown and pilot **PRO**ceed acknowledgement to descent engine start up at 10% thrust,
+gimbaling main engine around to detect center of mass, throttle up to 96% thrust at 26 seconds
+maintaining windows down attitude, yaw-around to windows up attitude at about 6 minutes
+into descent, maintaining orientation for communication with Houston, maintaining landing
+radar lock on the lunar surface, maintaining spacecraft attitude with DAP, responding to
+pilot inputs on the keyboard, joystick or other controls and updating cockpit displays
+and status lights. So, although the *main* program (major mode) the AGC was running during
+each phase was P63-\>P64-\>P66, the AGC would typically be running several other (a maximum
+of 8 simultaneous programs) programs to perform other functions. Although the spacecraft
+is no longer in motion at the moment of touchdown, the main engine is still running, the
+DAP is still furiously trying to maintain attitude. The astronauts need to perform a 
+
+the DAP is still trying to maintain spacecraft attitude even though it is no longer moving
+there are a number of time-critical tasks to astronauts needed to perform
 
 For any particular maneuver, factors impacting program development were considerable.
 They included zero gravity fuel slosh, changing center of mass due to fuel consumption,
@@ -364,3 +407,25 @@ Possible framing concepts
    - productive output of "journal" publications
 
 Say something about the Russion program, 3-way redundant computer
+
+Say something about Kerbel Space Program and how its calculational aspects work and how they are broken down into pieces.
+
+Say something about 4 computers
+
+Say something about Russian space program computers
+
+Mission specific programming and testing.
+
+11 burns needed...
+
+Launch from earth. This you might count as three burns, since it requires all three stages of the Saturn V rocket. They're not only launching from earth at this point, but they're also burning to get into a circular orbit around the earth.
+Leave earth orbit for the moon (translunar injection). Here they relight the third stage of the Saturn V, using up the rest of its fuel. At this point, they should be on a free-return trajectory, meaning that if they do nothing else, they'll slingshot around the moon and come back to the vicinity of the earth.
+Make a midcourse correction. These corrections are made using the engine built onto the Service Module (SM).
+Make another midcourse correction, as needed.
+Get into an elongated orbit around the moon. This uses the SM engine.
+Circularize the orbit around the moon. This also uses the SM engine.
+Get into descent orbit. This uses the descent engine on the Lunar Module (LM).
+Descend to the moon. This also uses the descent engine on the LM.
+Ascend from the moon. This uses the ascent engine on the LM, leaving the descent portion behind.
+Leave lunar orbit for the earth (transearth injection). This uses the SM engine.
+Make a midcourse correction. This also uses the SM engine.
