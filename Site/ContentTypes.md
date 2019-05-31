@@ -12,7 +12,7 @@ original ideas based on the discussion in #361.
 
 The content types we support are outlined in the first column of the table below.
 
-| Content Type| Sourcing|Complexity|Originality|Quality Threshold|Time Sensitivity|
+| Content Type| Sourcing|Complexity|Originality|Quality Objective|Time Sensitivity|
 |-------------|---------|----------|-----------|-----------------|----------------|
 | Event       |  L      | L        | L         | L               | H              |
 | Curated     |  L-M    | M        | L-M       | M               | L              |
@@ -72,14 +72,15 @@ typically an article. Some content is actively solicited from specific SMEs
 whereas other content (we hope) is submitted unsolicited.
 
 ### Complexity
-*Complexity* has to do with the amount of *effort* needed by **EB Members** or
-**EB Assistants** in supporting the development of the content. This includes
-review of the content for relevance, tone of evaluative statements, the shear
-length/size of the article, etc.
+*Complexity* has to do with how technically complicated the material is either
+for reviewers to review or for readers to later read. It effects the level of
+*effort* by **EB Members** or **EB Assistants** in supporting the development
+of the content. This includes review of the content for relevance, tone of
+evaluative statements, the shear length/size of the article, etc.
 
-Low complexity content requires only a basic sanity check for review whereas
-other content may require a degree of vetting similar to that used for a
-conference proceedings.
+Low complexity content such as **Events** requires only a basic sanity check
+for review whereas other content such as an original **Article** may require a
+degree of vetting similar to that used for a conference proceedings.
 
 We expect **Event** type to be of low complexity, **Curated** low-medium and
 **Article** medium-high.
@@ -93,23 +94,23 @@ characterization within the context of HPC/CSE software development practices is
 The more original a given piece of content is, the more scrutiny it may require
 before final publication.
 
-### Quality Threshold
-The *quality threshold* of a piece of content is a measure of the effort required
+We expect **Event** type to be of low originality, **Curated** low-medium and
+**Article** medium-high.
+
+### Quality Objective
+The *quality objective* of a piece of content is a measure of the effort required
 to finaly properly publish the article including whatever special needs it might
 have. An example of a higher than normal quality threshold is the article on the
 [Apollo Guidance Computer](../Articles/Blog/ApolloGuidanceComputerPart1.md) which
 required the development of a style for handling footnote references and a script
 to post-process them.
 
-(Or, is this a measure of the effort required to review...in which case how is
-this different from *complexity*).
-
 ### Time Sensitivity
 This is a measure of how critical it is to publish the article by a certain
 date. Certainly, **Event** content has high time sensitivity whereas other
-types of content probably do not.
+types of content typically do not.
 
-## A Note Level of Scrutiny for Reviews
+## A Note about Level of Scrutiny for Reviews
 We should expect any generalist in SWE for HPC/CSE to provide adequate levels of
 vetting for most of the content we publish. The threshold simply should not be all
 that high. Only for a subset of articles, the most complex and/or original, should
