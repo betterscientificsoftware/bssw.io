@@ -1,4 +1,4 @@
-# Proposed Content Types and Attributes
+# Content Types and Their Attributes
 
 Before we can develop editorial *workflow* for various types of content, we need to
 have a clear idea of the types of content we expect to support. We also need to
@@ -109,6 +109,7 @@ This is a measure of how critical it is to publish the article by a certain
 date. Certainly, **Event** content has high time sensitivity whereas other
 types of content probably do not.
 
+## A Note Level of Scrutiny for Reviews
 We should expect any generalist in SWE for HPC/CSE to provide adequate levels of
 vetting for most of the content we publish. The threshold simply should not be all
 that high. Only for a subset of articles, the most complex and/or original, should
