@@ -87,7 +87,7 @@ We expect **Event** type to be of low complexity, **Curated** low-medium and
 
 ### Originality
 *Originality* has to do with how new the content is likely to be to an HPC/CSE
-audience. An example of something with high originality is the
+audience. An example of something with moderate originality is the
 [tech. refresh blog article](../Articles/Blog/ContinuousTechnologyRefreshment.md).
 The concept of technology refreshment itself is not new or original. However, its
 characterization within the context of HPC/CSE software development practices is.
@@ -119,7 +119,7 @@ needed expertise is available among **EB Members**.
 
 ## Identification and Origanization by Content Type
 
-We have several options for identify and organizing the repository by
+We have several options to identify and organize the repository by
 content type. These are...
 
 - YAML tagging
