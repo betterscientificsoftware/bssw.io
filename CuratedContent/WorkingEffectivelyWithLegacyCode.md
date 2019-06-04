@@ -101,17 +101,18 @@ References | &nbsp;
 
 <br>
 
+
 <img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date:  April 11, 2019
+#### Publication date: June 4, 2019
 
 
 <!---
 Publish: preview
-Categories: Development, Planning, Reliability, Skills
-Topics: refactoring, design, software engineering, testing, personal productivity and sustainability
+Categories: Development, Planning, Reliability
+Topics: refactoring, design, testing
 Tags: book
 Level: 2
 Prerequisites: defaults
