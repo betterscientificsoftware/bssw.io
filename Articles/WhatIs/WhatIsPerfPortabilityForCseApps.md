@@ -1,8 +1,16 @@
 ### What is Performance Portability for CSE Applications?
+<!--deck start--->
 
+The performance of CSE  applications depends on the model, discretization, numerical algorithm, input data, and implementation.  This, when combined with heterogeneity and diversity in platform architecture makes performance portability an important topic in CSE.
+
+<!--deck end--->
+
+
+<!--body start--->
 Achieving good performance across a range of platforms is an important goal for high-performance CSE software.  This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-PerformanceWhatIsPerformancePortability-V0.2.pdf "What is Performance Portability?") introduces basic concepts in performance portability.
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
+<!--body end--->
 
 <!---
 Publish: yes
