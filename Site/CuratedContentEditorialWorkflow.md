@@ -63,21 +63,21 @@ Reference:
 # Criteria for Content
 
 1. **In-scope Content** ( The exact scope of relevant content will evolve as we learn about community interests. )
-   * General issues in productivity and sustainability that overlap with common challenges faced in the CSE software community.
-   * General tools for productivity and sustainability that can be widely used by CSE developers.
-   * Characterization of challenges and solutions that may be particularly valuable to the CSE community.
+   * General issues in productivity and sustainability that overlap with common challenges faced in the HPC/CSE software community.
+   * General tools for productivity and sustainability that can be widely used by HPC/CSE developers.
+   * Characterization of challenges and solutions that may be particularly valuable to the HPC/CSE community.
 
-1. **Highlight Connections to CSE**
-   * How the topic intersects with themes that are of particular interest to CSE, for example MPI, Fortran, C++, architectures, modeling and simulation.
-   * Why the topic could be of particular interest to CSE.
+1. **Highlight Connections to HPC/CSE**
+   * How the topic intersects with themes that are of particular interest to HPC/CSE, for example MPI, Fortran, C++, architectures, modeling and simulation.
+   * Why the topic could be of particular interest to HPC/CSE.
 
 1. **Ease of Adoption and Use**
    * Does it address how easy or hard it is to benefit from the topic?
-   * Does it Address who would be particularly interested in the topic?
+   * Does it address who would be particularly interested in the topic?
 
 1. **Out-of-scope Content**
-   * Narrow scope, focused on a particular CSE subcommunity.
-   * Tools, processes, and practices that have little in common with CSE.
+   * Narrow scope, focused on a particular HPC/CSE subcommunity.
+   * Tools, processes, and practices that have little in common with HPC/CSE.
    * Content that is deemed incomplete or biased, as determined by the BSSW leaders.
 
 # Things To Consider
