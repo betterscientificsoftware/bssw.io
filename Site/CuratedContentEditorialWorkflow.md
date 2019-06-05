@@ -71,6 +71,7 @@ Reference:
 1. **Highlight Connections to HPC/CSE**
    * How the topic intersects with themes that are of particular interest to HPC/CSE, for example MPI, Fortran, C++, architectures, modeling and simulation.
    * Why the topic could be of particular interest to HPC/CSE.
+   * Not broadly covered in other common HPC/CSE venues.
 
 1. **Ease of Adoption and Use**
    * Does it address how easy or hard it is to benefit from the topic?
@@ -80,7 +81,6 @@ Reference:
    * Narrow scope, focused on a particular HPC/CSE subcommunity.
    * Tools, processes, and practices that have little in common with HPC/CSE.
    * Content that is deemed incomplete or biased, as determined by the BSSW leaders.
-   * Already broadly covered in other common HPC/CSE venues.
 
 # Things To Consider
 
