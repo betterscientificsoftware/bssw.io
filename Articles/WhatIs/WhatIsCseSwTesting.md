@@ -1,8 +1,11 @@
 ### What is CSE Software Testing?
-
+<!--deck start--->
 Testing is the process of assuring that a software product is meeting it requirements. Software requires regular extensive testing to ensure correctly functioning code.  
+<!--deck end--->
 
-Testing addresses these basic questions:
+<!--body start--->
+Testing is an important part of software development. Testing addresses these basic questions:
+
 ##### Is the software written correctly, with no faults? (Verification testing)
 ##### Is the software solving the right problem? (Validation testing)
 
@@ -33,6 +36,7 @@ This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/20
 #### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C Miller](https://github.com/markcmiller86)
 
 #### Publication date: May 8, 2017
+<!--body end--->
 
 <!---
 Publish: yes
