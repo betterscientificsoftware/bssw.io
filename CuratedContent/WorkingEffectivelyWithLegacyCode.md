@@ -110,7 +110,8 @@ References | &nbsp;
 
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-06-05
 Categories: Development, Planning, Reliability
 Topics: refactoring, design, testing
 Tags: book
