@@ -66,6 +66,7 @@ Reference:
    * General issues in productivity and sustainability that overlap with common challenges faced in the HPC/CSE software community.
    * General tools for productivity and sustainability that can be widely used by HPC/CSE developers.
    * Characterization of challenges and solutions that may be particularly valuable to the HPC/CSE community.
+   * Likely to impact or inform HPC/CSE software devlopment process or planning.
 
 1. **Highlight Connections to HPC/CSE**
    * How the topic intersects with themes that are of particular interest to HPC/CSE, for example MPI, Fortran, C++, architectures, modeling and simulation.
@@ -79,6 +80,7 @@ Reference:
    * Narrow scope, focused on a particular HPC/CSE subcommunity.
    * Tools, processes, and practices that have little in common with HPC/CSE.
    * Content that is deemed incomplete or biased, as determined by the BSSW leaders.
+   * Already broadly covered in other common HPC/CSE venues.
 
 # Things To Consider
 
