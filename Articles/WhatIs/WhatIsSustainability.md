@@ -1,8 +1,6 @@
 ### What is Sustainability?
 <!--deck start--->
-
 Software, in today times, can be used and may last much beyond their expected usage time. Sustaining the software, after it has been developed, can be expensive but sustainability practices, when correctly implemented, can help ease the pain.
-
 <!--deck end--->
 
 <!--body start--->
