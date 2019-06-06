@@ -1,4 +1,5 @@
 ### What is Version Control?
+
 <!--deck start--->
 Understanding what are Version control systems and how they function is important in today's software ecosystem -- Versioncontrol systems not only help in building better scientific software, but also help in improving developer productivity on a project.
 <!--deck end--->
