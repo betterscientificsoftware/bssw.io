@@ -1,12 +1,10 @@
 # What is Software Engineering for CSE?
 
 <!--deck start--->
-
 Projects with CSE can lie on wide spectrum when it comes to team size and requirements and code complexity. Software engineering practices, thus, need to be wisely adapted based on the project needs since one size will probably not fit all.  
 <!--deck end--->
 
 <!--body start--->
-
 Any software development should be cognizant of quality control, and ideally should adopt software practices that lead to reproducible results. Beyond that the rigor and extent of software practices adopted should reflect the scope and complexity of the project. A small project with limited lifecycle has different software engineering needs from those of a large and complex multicomponent software. The process we describe addresses most demanding project needs, others can adopt a subset of these practices depending upon their needs.  
 
 An unambiguously defined software process that includes a rigorous verification and testing regime is critical. Verification can be classified into three categories: verification during development, verification of ongoing correctness of the code, and verification before and during a production schedule. All code components should be subjected to verification tests before they are accepted into the stable code base. The tests should be designed to stress not only the component in question, but also its interoperability with other components.  In addition to correctness, one must also ensure that there is no regression in either capabilities or performance. A subset of tests built during code development, whether unit tests or tests at higher grnaularities, can become part of regular automated testing. The selection of tests should ensure good code and interoperability coverage with an emphasis on being able to isolate error sources quickly.
