@@ -10,8 +10,8 @@ We expect all contributors to the Better Scientific Software site to follow a Co
 
 <!--
 Addition before David:
-Title: Editor-in-chief
 Rinku Gupta<br/>
+Title: Editor-in-chief
 Argonne National Laboratory<br/>
 https://github.com/rinkug
 -->
