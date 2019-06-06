@@ -14,7 +14,7 @@ We expect all contributors to the Better Scientific Software site to follow a Co
 Addition before David:
 Title: Editor-in-chief
 Rinku Gupta<br/>
-Oak Ridge National Laboratory<br/>
+Argonne National Laboratory<br/>
 https://github.com/rinkug
 -->
 
@@ -32,7 +32,7 @@ https://github.com/curfman
 
 <!--
 Additional section:
-## Senior Editors
+## BSSw Associate Editors
 
 Roscoe Bartlett
 Sandia National Laboratories<br/>
@@ -47,7 +47,7 @@ Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
 
 Greg Watson
-??<br/>
+Oak Ridge National Laboratory<br/>
 https://github.com/jarrah42
 
 Paul Wolfenbarger
