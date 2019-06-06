@@ -26,7 +26,7 @@ Reference:
 1. **Anyone** submits (the *submitter*) a GitHub issue for a proposed curated content (CC) item
    * We should use issue templates to tailor the requested data and automatically
    apply an appropriate label/project board assignment
-1. The issue is added to the “Curated Content Ideas” (CCI) project board *Idea Backlog* column.
+1. The issue is added to the “Content Development” project board *Idea Backlog* column.
    * Ideally, this should be done automatically on creation of the issue.  From research on the web,
      it doesn’t appear that issue templates allow direct assignment to boards yet.  Maybe this can be
      done with a bot for issues with the appropriate label. *This can be done automatically by a setting
