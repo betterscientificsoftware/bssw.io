@@ -12,11 +12,11 @@ original ideas based on the discussion in #361.
 
 The content types we support are outlined in the first column of the table below.
 
-| Content Type| Sourcing|Complexity|Originality|Quality Threshold|Time Sensitivity|
-|-------------|---------|----------|-----------|-----------------|----------------|
-| Event       |  L      | L        | L         | L               | H              |
-| Curated     |  L-M    | M        | L-M       | M               | L              |
-| Article     |  M-H    | M-H      | H         | M-H             | L              |
+| Content Type     | Sourcing|Complexity|Originality|Quality Threshold|Time Sensitivity|
+|------------------|---------|----------|-----------|-----------------|----------------|
+| Event            |  L      | L        | L         | L               | H              |
+| Curated Content  |  L-M    | M        | L-M       | M               | L              |
+| Original Article |  M-H    | M-H      | H         | M-H             | L              |
 
 ## Content Types
 
@@ -38,23 +38,23 @@ process which we anticipate can be handled by simple issue submission using an
 **Event** specific GitHub issue template. In particular, we foresee no need for
 handling **Event** submissions with project boards or pull requests.
 
-### Curated
+### Curated Content
 
-The **Curated** content type is typically a short-ish article to briefly
+The **Curated Content** content type is typically a short-ish article to briefly
 highlight or describe another resource, developed and published elsewhere,
 that is believed to impact or inform HPC/CSE software development processes.
-A **Curated** article may also summarize or cull out key points from the
+A **Curated Content** article may also summarize or cull out key points from the
 resource(s) it serves to highlight. In this case, the article may be longer
-than typical. As an example of the two extremes a **Curated** article may
+than typical. As an example of the two extremes a **Curated Content** article may
 take, see [CppUnit](../CuratedContent/CppUnit.md) for a really short example
 and see
 [Working Effectively With Legacy Code](../CuratedContent/WorkingEffectivelyWithLegacyCode.md)
 as an example of a longer one.
 
-### Article
+### Original Article
 
-If a proposed piece of content is neither of type **Event** or **Curated**, it is
-treated as type **Article**. Within the this content type, there may be one or
+If a proposed piece of content is neither of type **Event** or **Curated Content**, it is
+treated as type **Original Article**. Within the this content type, there may be one or
 more sub-types. This includes *blog* articles, *what is* and *how to* articles
 as well as *original experience* articles. Such articles may vary significantly
 in length, contain images, references, occur in series, etc. 
@@ -81,8 +81,8 @@ Low complexity content requires only a basic sanity check for review whereas
 other content may require a degree of vetting similar to that used for a
 conference proceedings.
 
-We expect **Event** type to be of low complexity, **Curated** low-medium and
-**Article** medium-high.
+We expect **Event** type to be of low complexity, **Curated Content** low-medium and
+**Original Article** medium-high.
 
 ### Originality
 *Originality* has to do with how new the content is likely to be to an HPC/CSE
