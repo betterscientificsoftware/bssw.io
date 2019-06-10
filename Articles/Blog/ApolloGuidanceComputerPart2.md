@@ -34,7 +34,7 @@ computer would be the centerpiece of a complex collection of GN&C sub-systems.
 More than year would pass before NASA finally selected the Lunar Orbit
 Rendevous (LOR) mission plan involving two separately piloted and radically
 different vehicles each with its own AGC controlling a substantially different
-configuration of GN&C sub-systems. These would be the first digitally controlled,
+configuration of GN&C sub-systems. These would be the first all digitally controlled,
 fly-by-wire vehicles ever created. At the heart of it all, AGC software would
 control everything. Even so called *manually controlled* inputs would first
 pass through AGC software before affecting the relevant hardware. 
@@ -156,60 +156,42 @@ mountainous regions of the Moon and required a minimal terrain model for the lan
 A 1962 memo<sup>[25]</sup> lists 45 major software analysis efforts then
 underway for various aspects of planned Apollo missions.
 
-# Digital Feedback Control System: Kalman Filters
-
-performance portability
-
-The whole collection of components
-represented a complex feedback control system, the stability of which was
+# The whole spacecraft as a feedback control loop
+The whole collection of GN&C sub-systems with the AGC at the center
+represented a complex feedback control loop, the stability of which was
 crucial to crew safety and mission success.
 
-Originally, Honeywell was to develop the autopilot was the responsibility of the Honeywell.
-However, was an analog design that lacked the flexibility and versatility required for the
-complex Apollo mission plans. It also added significant
-weight to the spacecraft. Consequently, NASA directed the MIT to develop software for
-a digital autopilot which would have none of these limitations.
+Originally, the auto-pilot features to be implemented using tried and true
+analog control techniques. However, as confidence grew in the potential for
+the AGC to function as as a *digital* control system, the decision was made in late
+1964 to develop the Digital Autopilot (DAP) software. DAP software would control
+main engine gimbal and attitude control thrusters during a *burn* to maintain a
+given attitude or attitude rate and to achieve a given desired velocity change
+(magnitude and direction). DAP software would also need to affect its controls
+subject to a number of constraints in the RCS jet usage rules including optimizing
+RCS propellant use, avoiding gimbal lock as the spacecraft orientation is changed,
+detecting and avoiding failed on or off RCS jets, minimizing jet thrust durations
+in certain directions that impinge on spacecraft skin or direct exhaust debris at
+windows.
 
-Originally, the auto-pilot features of the LEM were planned to be developed using tried and true
-analog control system. However, as concepts and confidence grew in the potential to use
-the AGC as a *digital* control system, the decision was made in late 1964 to develop the
-Digital Autopilot (DAP) software. The DAP software would control main engine gimbal and
-attitude control thrusters during a *burn* to maintain a given attitude or attitude rate
-and to achieve a given desired velocity change (magnitude and direction). The DAP software
-would also need to affect its controls subject to a number of limitations in the RCS jets
-and main engine including optimizing RCS propellant use, avoiding gimbal lock as the
-spacecraft orientation is changed, detecting and avoiding failed on or off RCS jets,
-minimizing jet thrust durations in certain directions that impinge on spacecraft skin
-or direct debris at windows
+DAP software was given a budget of 10% of rope core memory (< 3,600 words) and
+20-30% of full computational load (3-4.5 kFLOPS). Apollo's DAP software was the
+first known use of a fully digital control system for a *flying* vehicle
+Something like this had never been done before. It would take 4 developers 3 years
+and 2000 words of rope core to develop DAP sofware. A crtical technological advancement
+was the introduction of *Kalman* filtering as the main control logic. A key optimization
+realized late in the development was that a change in coordinates used in the computations
+from *body axes* to *jet axes* reduced complexity of the code and increased performance.
 
-DAP software was
-given a budget of 10% of rope core memory (< 3,600 words) and 20-30% of full computational
-load (3-4.5 kFLOPS).
+![](agc_phase_plane_switching_logic.png)
 
-Apollo's DAP software was the first known use of a fully digital control system for
-a *flying* vehicle
+The picture here shows the complex, non-linear switching logic used by the Kalman
+filtering algorithm. With a change of a dial on the control panel, astronouts could
+adjust the filter from *course* to *fine* control. In addition, the control logic
+needed to handle failed thrusters (either failed on or failed off).
 
-With the AGC at the hear of complex collection of sensors, thrusters, the main engine and
-pilot controls and displays, the whole set of components formed a complex feedback control
-system.  *Stability* was a key concern.
-
-Something like this had never been done before.
-
-It would take 4 developers 3 years and 2000 words of rope core
-
-4 developers over 3 years ~2000 words at 20% of CPU 
-
-change in coordinates to *jet axes* reduced complexity of code, increased performance, 
-
-. The whole system forms a complex feedback control system
-the stability<sup>[1]</sup> of which is an essential characteristic. Early on in the software development,
-the problem was to understand the equations governing spaceflight certain mission objectives
-and then develop approaches utilizing available sensors and controls to affect responses in real-time.
-
-In the software system, just as in the case of hardware systems, the engineering attention required of the interface between two components may sometimes exceed the attention required for the selection or de- sign of the components.
-
-
-By early 1965, the basic RCS autopilot functions were laid out, including phase-plane and jet- select logic, a new maneuver routine, and interfaces for the various manual modes.
+> By early 1965, the basic RCS autopilot functions were laid out, including phase-plane
+> and jet-select logic, a new maneuver routine, and interfaces for the various manual modes.
 
 # There's an AGC App for that
 Flying to the moon and returning safely involved *long periods of boredom
@@ -370,6 +352,11 @@ ECP Software | XXX | XXX | XXX
 
 > Throughout much of the Apollo effort, MIT experienced difficulty in estimating the
 > time and effort requirements to design, test and verify successive mission programs.<sup>[30]</sup>
+
+> In the software system, just as in the case of hardware systems, the engineering
+> attention required of the interface between components may sometimes exceed the
+> attention required for the selection or design of the any of the components individually.
+>
 >
 > No one doubted the quality of the software eventually produced by MIT. It was the
 > process used in software development that caused great concern. The lessons were:
