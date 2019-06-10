@@ -28,7 +28,7 @@ some familiar themes such as the necessity of *co-design*, the importance of
 sufficient testing resources, the role and impact of software process
 improvements and more.
 
-# Extreme Co-Design
+### Extreme Co-design
 Initially, about all that was known with any certainty was that a digital
 computer would be the centerpiece of a complex collection of GN&C sub-systems.
 More than year would pass before NASA finally selected the Lunar Orbit
@@ -64,7 +64,7 @@ But, in the 1960's where there were no dev-ops best practices and collaborative 
 like GitLab, Jenkins, Confluence, Kanban, WebEx, or even Email, it presented a massive
 coordination and management challenge.
 
-# Evolving Requirements, Versions and Flight Rope Releases
+### Evolving requirements, versions and flight rope releases
 Throughout the early phases of development, NASA's expectations for what functions
 the GN&C system would perform, and therefore the AGC software, continued to evolve
 motivated by a desire to reduce weight, increase safety margins, improve mission
@@ -107,7 +107,7 @@ NASA put a stop to this and only the names **COLOSSUS** and **LUMINARY** togethe
 with their revision numbers would be used to identify CM and LM flight programs
 respectively. <sup>[34]</sup>
 
-# The AGC Software Stack
+### The AGC software stack
 Each flight program involved a combination of common, utility modules as well as those
 that were highly mission specific. The mission specific components required significant
 analysis and development time. Early development activity, 1961-1965, focused on
@@ -156,7 +156,7 @@ mountainous regions of the Moon and required a minimal terrain model for the lan
 A 1962 memo<sup>[25]</sup> lists 45 major software analysis efforts then
 underway for various aspects of planned Apollo missions.
 
-# The whole spacecraft as a feedback control loop
+### The whole spacecraft as a feedback control loop
 The whole collection of GN&C sub-systems with the AGC at the center
 represented a complex feedback control loop, the stability of which was
 crucial to crew safety and mission success.
@@ -193,7 +193,7 @@ needed to handle failed thrusters (either failed on or failed off).
 > By early 1965, the basic RCS autopilot functions were laid out, including phase-plane
 > and jet-select logic, a new maneuver routine, and interfaces for the various manual modes.
 
-# There's an AGC App for that
+### There's an AGC app for that
 Flying to the moon and returning safely involved *long periods of boredom
 punctuated by moments of extreme peril*. A mission was divided into phases by
 *velocity change maneuvers* or *burns* of the main engines. A complete mission
@@ -223,7 +223,7 @@ contingencies depending upon which phase in the landing abort might be required.
 
 ![](lunar_module_landing_profile.png)
 
-# Code Heroes and Heroines
+### Code heroes and heroines
 The failure of Mariner 1 was a painful experience for one NASA team member in particular;
 John Norton. Norton was a guidance software expert at TRW and was partly responsible for
 the Mariner 1 software failure. Remarkably, he was later hired by NASA to perform
@@ -278,7 +278,7 @@ lead MIT from triage mode to optimization mode.
 We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
 work on the on AGC<sup>[29]</sup>, for being the first to champion *Software Engineering*<sup>[28]</sup>
 as a discipline unto itself "...to bring the software [effort] legitimacy so that it
-and those building it would be given due respect." Hamilton was the only women working
+and those building it would be given due respect." Hamilton was the only woman working
 on AGC software and ultimately became a rope mother for LM fight program **LUMINARY**.
 
 Hamilton would often bring her 11 year old daughter to work on weekends and she would
@@ -288,7 +288,7 @@ investigation, Hamilton discovered the cause and alerted colleagues of the need 
 add error input checking logic. She developed logic to validate astronaut DSKY inputs
 and made a program change request which was initially denied due to various constraints.
 
-# Testing
+### Testing
 Six different levels of testing were developed to test AGC software.
 * An all-software simulator (also known as the *all-digital* simulator)
   of *just* the AGC itself implemented in MAC Fortran on MIT mainframes
@@ -325,7 +325,7 @@ The all-digital simulation of the AGC would eventually require MIT to purchase o
 Honeywell 800, 2 Honeywell-1800s and 2 IBM 360/75 peaking at about 4,500 cpu hours/month
 (equiv. H-1800 cpu) testing solely for the all-digital testing simulator per month.
 
-# Managing Software in the face of Evolving Requirements
+### Managing software in the face of evolving requirements
 ![AGC Major Software Releases](manloading_on_releases.png)
 
 The whole GN&C system for all 16 uncrewed and 11 crewed Apollo missions
