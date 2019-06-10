@@ -244,7 +244,6 @@ quirky...often not cashing several months worth of paychecks at a time. One when
 programmer tried to have a bit of fun, burying the phrase "Norton Needs Glasses" in comments
 in the bowels of major mode program P52 just to see how long it would take Norton to find it
 (apparently only a few hours of analysis), Norton asked for MIT to be removed from the project.
-
 Norton's work was a form of *independent peer review* akin to what code teams do now every
 day with pull requests on GitHub.
 
@@ -292,7 +291,7 @@ Six different levels of testing were developed to test AGC software.
 * An all-software simulator (also known as the *all-digital* simulator)
   of *just* the AGC itself implemented in MAC Fortran on MIT mainframes
   which ran at 10% speed.
-* A hybrid simulator using a real AGC together a rope core simulator and a
+* A hybrid simulator using a real AGC together with a rope core simulator and a
   software simulation of all other GN&C components the latter requiring two
   massive machine rooms in the second and third stores of the test facility.
 * System test labs using a real AGC and real key GN&C sub-systems. There were multiple of
