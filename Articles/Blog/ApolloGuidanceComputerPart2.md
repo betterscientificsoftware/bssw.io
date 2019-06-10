@@ -221,6 +221,8 @@ Terminal Descent (P66), and Touchdown (P68). That was for a *normal* landing.
 In addition, the software needed to be prepared to handle a variant of abort
 contingencies depending upon which phase in the landing abort might be required.
 
+![](lunar_module_landing_profile.png)
+
 # Code Heroes and Heroines
 The failure of Mariner 1 was a painful experience for one NASA team member in particular;
 John Norton. Norton was a guidance software expert at TRW and was partly responsible for
