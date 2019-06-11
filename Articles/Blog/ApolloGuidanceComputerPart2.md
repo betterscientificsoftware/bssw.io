@@ -141,9 +141,7 @@ For every phase of the mission, *there was an app for that*.
 By far the most critical sequence of maneuvers occurred during lunar landing.
 It was divided into 4 phases (pictured below left) depending on the amount and type of
 control the pilot required; Powered Descent (major mode P63), Approach (P64),
-Terminal Descent (P66), and Touchdown (P68). That was for a *normal* landing.
-In addition, the software needed to be prepared to handle a variety of abort
-contingencies depending upon which phase in the landing abort might be required.
+Terminal Descent (P66), and Touchdown (P68).
 
 Development of a major mode program began with an analysis of the equations
 of motion governing the particular phase of the mission, an assessment of
@@ -156,50 +154,39 @@ modes, main engine throttle and gimbal characteristics, sensor drift and
 deadbands (e.g. IMU gimbal lock), sensor measurement biases and uncertainties,
 optimizing use of RCS propellants, contingency logic for failed (on or off)
 RCS thrusters, minimizing RCS jet thrust durations in certain directions that
-impinge on spacecraft skin or direct exhaust debris at windows or sensitive
+impinged on spacecraft skin or directed exhaust debris at windows or sensitive
 equipment, positions of Sun, Earth and Moon (all in constant motion) as well
 as their *lumpy*<sup>[3],[4]</sup> gravity fields, and precise timing of events
-coordinated with lines of sight to ground communication stations.
+coordinating with lines of sight for communications.
 
 ![](agc_major_modes.png)
 
-Digital Autopilot (DAP) software was developed based on *Kalman Filtering*,<sup>[60]</sup>
+### Performance portability of the digital autopilot (DAP)
+
+Digital Autopilot (DAP) software was developed based on *Kalman Filtering*.<sup>[60]</sup>
 The computation is decomposed into a *prediction* phase where an idealized model
 of the spacecraft is used to estimate the current state. In the second phase, noisy
-direct measurement of system state (from spacecraft sensors) is compared with the
+direct measurement of system state from spacecraft sensors is compared with the
 predicted state to produce control decisions.
 
-A key challenge was ensuring the
-same DAP software would provide effective control given a variety of spacecraft
-configurations. For example, the CM DAP software handled (1) coasting-flight control
-of the Saturn IVB using Saturn IVB thrusters, (2) coasting-flight control of the CSM,
-(3) powered-flight control of the CSM, (4) coasting-flight control of the CSM/LM,
-(5) powered-flight control of the CSM/LM, and (6) aerodynamic entry of the CM.
-The main engine on the CSM gimbaled but was not throttleable.
-
-The descent engine
-on the LM gimbaled and throttled while the ascent engine did neither.
-Developing a single piece of code for each vehicle to perform effectively in this
-large variety of configurations presented a what we would call a *performance portability*
-problem.<sup>[12]</sup> DAP software was configurable through a number of parameters.
-Prior to a burn, astronauts would follow a checklist setting a number of switches and
-entering data on the DSKY to set parameters for the DAP.
+A key challenge was ensuring a single implementatin of DAP software would provide
+effective control given a variety of spacecraft configurations and operating
+scenarios. Doing so presented what we would call a *performance portability*
+problem.<sup>[12]</sup> Software developers made DAP execution configurable through a
+number of parameters. Prior to a burn, astronauts would follow a checklist setting
+a number of switches and entering data on the DSKY to set parameters for the DAP
+execution during the burn.
 
 DAP software developers were given a budget of 10% of rope core memory (< 3,600 words) and
-20-30% of full computational load (3-4.5 kFLOPS). Apollo's DAP software was the
-first known use of Kalman filtering for space guidance and first known use of a fully
-digital control system for a *flying* vehicle. It would take 4 developers 3 years
+20-30% of full computational load (3-4.5 kFLOPS). It would take 4 developers 3 years
 and 2000 words of rope core to develop the LM DAP software alone.
 A key optimization realized late in development was that a change in coordinates used
 in the computations from *body axes* to *jet axes* reduced complexity of the code and
 increased performance<sup>[7],[13]</sup>.
 
-The picture here (above right) shows the complex, non-linear switching logic used by the Kalman
-filtering algorithm controlling RCS jet firings. With a change of a dial on the
+The picture above right shows the complex, non-linear switching logic used by the
+Kalman filtering algorithm controlling RCS jet firings. With a change of a dial on the
 control panel, astronauts could adjust the filter from *course* to *fine* control.
-
-> By early 1965, the basic RCS autopilot functions were laid out, including phase-plane
-> and jet-select logic, a new maneuver routine, and interfaces for the various manual modes.
 
 ### Testing
 Six different levels of testing were developed to test AGC software.
@@ -297,7 +284,6 @@ aborting from a lunar landing. The Saturn booster had its own computer called th
 allow it to serve as a backup to the LVDC. With the flick of a switch, an Apollo
 astronaut could have taken control of the Saturn rocket during launch and boosted
 into orbit under full manual control through the AGC.
-
 
 <!---
 Publish: no
