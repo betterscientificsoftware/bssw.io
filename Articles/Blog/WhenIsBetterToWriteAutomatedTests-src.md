@@ -21,10 +21,10 @@ I have been wrestling with this question since 2007 when I first read the book [
 In the 10+ years of my professional career prior to 2007, I wrote a lot of Computational Science and Engineering (CSE) and applied math software with very little strong automated testing.
 I used the validation-centric approach<sup>[2]</sup> to test the software that I was writing (i.e. only test/validate the software in the downstream customer code and then perhaps only manually).
 As a result, I had personally written O(100k) lines of code that were being used by other people and was in the position to have to maintain.
-When I realized that almost all of this software was considered "Legacy Code" according to "Working Effectively with Legacy Code" (i.e. "code without tests == legacy code"), I felt ashamed and horrified at the mass of useful but buggy and difficult-to=maintain software that I had created and now would have to deal with for years to come.
+When I realized that almost all of this software was considered "Legacy Code" according to *Working Effectively with Legacy Code* (i.e. "code without tests == legacy code"), I felt ashamed and horrified at the mass of useful but buggy and difficult-to=maintain software that I had created and now would have to deal with for years to come.
 (Just recently a nasty bug came up in software I wrote around 2006 without strong automated testing that caused a good deal of harm and was an embarrassment.)
 
-After reading the book "Working Effectively with Legacy Code", I resolved to turn over a new leaf and become a born-again Agile software engineer that would use TDD to write all new code and religiously apply the Legacy Code Change Algorithm to modify all legacy code (i.e. code without tests).
+After reading the book *Working Effectively with Legacy Code*, I resolved to turn over a new leaf and become a born-again Agile software engineer that would use TDD to write all new code and religiously apply the Legacy Code Change Algorithm to modify all legacy code (i.e. code without tests).
 Over the years since my conversion to an Agile software engineer, I often rigorously wrote automated tests for nearly every piece of software I touched.
 There where times  under schedule pressure that I slipped and reverted back to my old ways and failed to write sufficient automated tests and came to regret it.
 However, there were also times where my overzealous drive to religiously test everything (which usually came after the guilt of a recent slip of not testing enough) where I wasted time writing automated tests that were not worth the effort.
@@ -73,7 +73,7 @@ If the first four criteria above are satisfied but it is not too hard to write a
 
 Adjectives like "minor", "obvious", "easy", and "hard" are all subjective and do not have precise definitions.
 For example, while for one person might consider these five criteria as "minor", "obvious", "easy", "easy" and "hard", another person may consider them "significant", "non-obvious", "not easy", "painful", and/or "tractable".
-For example, if one does not know the sensing, separation, and fake collaborators strategies for unit testing described in "Working Effectively with Legacy Code", then one might think that adding automated tests for a piece of software is "hard" while another more skilled, knowledgeable, and/or experienced developer might consider adding tests for that piece of software to be quite tractable.
+For example, if one does not know the sensing, separation, and fake collaborators strategies for unit testing described in *Working Effectively with Legacy Code*, then one might think that adding automated tests for a piece of software is "hard" while another more skilled, knowledgeable, and/or experienced developer might consider adding tests for that piece of software to be quite tractable.
 
 ## Summary
 
