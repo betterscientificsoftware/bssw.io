@@ -50,7 +50,7 @@ For example, some bash scripts used locally that load some modules and then conf
 * The damage done by not having everything complete correctly will be minor because you can just run it again.
 * A failure will be obvious because the software will not even build and no tests will be run.
 * The scripts do pretty basic stuff and will be easy to fix if they fail.
-* It would be difficult to write mock up the various commands run by the script.
+* It would be difficult to mock up the various commands run by the script.
 
 Therefore, it is often not worth the investment to write automated tests for locally run scripts of this type.
 
