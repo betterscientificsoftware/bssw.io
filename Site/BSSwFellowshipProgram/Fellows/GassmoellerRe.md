@@ -2,7 +2,8 @@
 Rene Gassmoeller
 University of California, Davis
 /images/blob/master/HM_davis.jpg
-LinkedIn: 
+URL: https:xxx.com
+LinkedIn: https:xxx.com
 Github: https://github.com/gassmoeller
 Short Bio: Text text text social challenges in the evolution of scientific software projects
 Long Bio: Text text text social challenges in the evolution of scientific software projects, Text text text social challenges in the evolution of scientific software projects
