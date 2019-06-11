@@ -161,7 +161,7 @@ coordinating with lines of sight for communications.
 
 ![](agc_major_modes.png)
 
-### Performance portability of the digital autopilot (DAP)
+### Performance portability and the digital autopilot (DAP)
 
 Digital Autopilot (DAP) software was developed based on *Kalman Filtering*.<sup>[60]</sup>
 The computation is decomposed into a *prediction* phase where an idealized model
@@ -189,33 +189,37 @@ Kalman filtering algorithm controlling RCS jet firings. With a change of a dial 
 control panel, astronauts could adjust the filter from *course* to *fine* control.
 
 ### Testing
-Six different levels of testing were developed to test AGC software.
+Five different levels of testing were developed.
 * An all-software simulator (also known as the *all-digital* simulator)
-  of *just* the AGC itself implemented in MAC Fortran on MIT mainframes
-  which ran at 10% speed.
+  for the AGC itself which included simulation of the *environment*.
+  A key concern was whether the *environment* faithfully represented the
+  behavior of the real GN&C hardware and spacecraft in which it was housed
+  including such issues as engine performance, fuel slosh and even structural
+  responses of the spacecraft under torques and loads imposed by engine
+  gimbaling and thruster firings. The all-digital simulation was implemented in
+  MAC Fortran on MIT mainframes and ran at 10% of real-time speed. All-digital
+  simulations were bit-for-bit repeatable.
 * A hybrid simulator using a real AGC together with a rope core simulator and a
-  software simulation of all other GN&C components the latter requiring two
-  massive machine rooms in the second and third stores of the test facility.
-* System test labs using a real AGC and real key GN&C sub-systems. There were multiple of
-  these system test labs at MIT and other spacecraft contractors.
+  combination of digital and analog simulation of various GN&C components the latter
+  requiring two massive machine rooms in the second and third stories of the test facility.
+  Hybrid simulations were not repeatable.
+* System test labs using a real AGC and real GN&C sensor-systems such as the IMU,
+  radar and optics. These were used primarily to test AGC hardware and software
+  response to noisey inputs from these components.
 * Crew rehearsals with a real AGC in the actual spacecraft exercising *some* of
   the actual GN&C sub-systems. As a practical matter, such tests of course could not
   include engine or thruster firings but did exercise other system components.
 * Actual flight tests of the fully integrated GN&C system both in uncrewed and crewed
-  flights.
+  flights. Early missions included several objectives designed specifically to
+  test AGC software.
 
-For tests involving software simulation of GN&C sub-systems, a key concern was
-whether those simulations faithfully represented the behavior of the actual
-hardware and spacecraft in which it was housed including such key
-issues as engine performance, fuel slosh and even structural responses of the
-spacecraft under torques and loads imposed by engine gimbaling and thruster firings.
 
 ![](agc_alldig_sim_compare.png)
 
 In the data pictured here, data from actual flight tests of the LM descent engine
-(left) is compared with the all-digital simulation (middle), revealing a clear
-bug in failure to faithfully model structural dynamics which was eventually corrected
-(right).
+is compared with the all-digital simulation. The inner gimbal angle data agree reasonbly
+well (left). However, a clear bug is revealed (middle) in failure to faithfully model outer gimbal angle
+due to missing structural dynamics modeling which was eventually corrected (right).
 
 > The need for formal validation rose with the size of the software. Programs of
 > 2,000 words took between 50 and 100 test runs to be fully debugged, and
@@ -223,7 +227,7 @@ bug in failure to faithfully model structural dynamics which was eventually corr
 
 The all-digital simulation of the AGC would eventually require MIT to purchase one
 Honeywell 800, 2 Honeywell-1800s and 2 IBM 360/75 peaking at about 4,500 cpu hours/month
-(equiv. H-1800 cpu) testing solely for the all-digital testing simulator per month.
+(equiv. H-1800 cpu) testing solely for the all-digital test simulator.
 
 ### Putting the software effort in context
 The whole GN&C system for all 16 uncrewed and 11 crewed Apollo missions
@@ -241,7 +245,8 @@ effort alone is on par with the software effort of the ECP program.
 In a 1972 Master's thesis,<sup>[23]</sup> software
 costs are broken down by category shown below, left. The *Computer* category
 is the cost of machine hardware purchased by MIT used primarily for testing
-purposes. Factoring this out, we have the adjusted, relative costs right.
+purposes. Factoring this out, we have the adjusted, relative costs of the
+software only right.
 There was even an automatic documentation system developed to help manage
 costs of documentation for test engineers, crew, and flight controls.<sup>[61]</sup>
 
