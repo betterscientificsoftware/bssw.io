@@ -1,6 +1,8 @@
-# Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub
+# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub
 
 **Hero Image:**
+
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0615_Apollo2.jpg' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: June 14, 2019
