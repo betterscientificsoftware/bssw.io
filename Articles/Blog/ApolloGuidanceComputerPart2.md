@@ -276,7 +276,7 @@ Earth eventually forced the Russians to begin their own digital, on-board comput
 development. In August 1969, the uncrewed Russian probe Zond-7 guided by an Argon-11S<sup>[62]</sup>
 digital computer completed the first fully successful Russian circumlunar mission.
 
-There were four on-board computers on an Apollo mission. There were two AGC's, one each
+In all, there were four on-board computers on an Apollo mission. There were two AGC's, one each
 in the CM and LM. The LM also had a backup computer called the
 *Abort Guidance System (AGS)*<sup>[63]</sup> that was designed to be used only for
 aborting from a lunar landing. The Saturn booster had its own computer called the
