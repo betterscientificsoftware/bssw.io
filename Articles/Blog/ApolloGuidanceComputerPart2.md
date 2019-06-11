@@ -293,7 +293,7 @@ There were four on-board computers on an Apollo mission. There were two AGC's, o
 in the CM and LM. The LM also had a backup computer called the
 *Abort Guidance System (AGS)*<sup>[63]</sup> that was designed to be used only for
 aborting from a lunar landing. The Saturn booster had its own computer called the
-*Launch Vehicle Digital Computer (LVDC)*.<sup>[64]</sup>The AGC included software to
+*Launch Vehicle Digital Computer (LVDC)*.<sup>[64]</sup> The AGC included software to
 allow it to serve as a backup to the LVDC. With the flick of a switch, an Apollo
 astronaut could have taken control of the Saturn rocket during launch and boosted
 into orbit under full manual control through the AGC.
