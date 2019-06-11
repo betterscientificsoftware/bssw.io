@@ -17,9 +17,9 @@ But does it always pay off to write automated tests for some piece of code?
 Are there situations where one is better off not writing automated tests?
 Will you be considered to be a bad developer and chastised by your peers, users, stakeholders, or your manager if every line of code that you write is not under strong automated testing?
 
-I have been wrestling with this question since 2007 when I first read the book "Working Effectively with Legacy Code"<sup>[1]</sup> and radically changed my thinking about automated testing.
+I have been wrestling with this question since 2007 when I first read the book [*Working Effectively with Legacy Code*](https://bssw.io/items/working-effectively-with-legacy-code/)<sup>[1]</sup> and radically changed my thinking about automated testing.
 In the 10+ years of my professional career prior to 2007, I wrote a lot of Computational Science and Engineering (CSE) and applied math software with very little strong automated testing.
-I used the validation-centric approach<sup>[2]</sup> to test the software that I was writing (i.e. only test the software in the downstream customer code and then parhaps only manually).
+I used the validation-centric approach<sup>[2]</sup> to test the software that I was writing (i.e. only test/validate the software in the downstream customer code and then perhaps only manually).
 As a result, I had personally written O(100k) lines of code that were being used by other people and was in the position to have to maintain.
 When I realized that almost all of this software was considered "Legacy Code" according to "Working Effectively with Legacy Code" (i.e. "code without tests == legacy code"), I felt ashamed and horrified at the mass of useful but buggy and difficult-to=maintain software that I had created and now would have to deal with for years to come.
 (Just recently a nasty bug came up in software I wrote around 2006 without strong automated testing that caused a good deal of harm and was an embarrassment.)
