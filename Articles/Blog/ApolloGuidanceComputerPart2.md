@@ -84,7 +84,6 @@ checkout, integrated system testing, crew rehearsals and final erasable memory l
 
 MIT needed to deliver flight programs for ~30 Apollo flights (crewed and uncrewed),
 many with unique guidance requirements, planned between 1966 and 1972.<sup>[58]</sup>
-
 The lead engineer in coordinating and approving a completed flight program was
 called a *rope mother* and would also name the release. Early on the names were fairly
 creative including **ECLIPSE**, **SUNRISE**, **RETREAD** and **AURORA**. Eventually,
@@ -111,7 +110,7 @@ DSKY I/O<sup>[43]</sup> | Cockpit Displays and Keypad | ~3500
 
 ![](./agc_sw_stack.png)
 
-These programs comprised what we would call today the *Apollo Guidance Software Stack*.
+These programs comprised what we might call today the *Apollo Guidance Software Stack*.
 All were implemented in assembly language. By 1965, most of this code had been
 written and fully tested and changed little with each new flight program. All
 higher level space guidance routines were implmented using some of these pieces.
@@ -131,41 +130,7 @@ multiple ropes for different launch windows would be manufactured as contingenci
 A 1962 memo<sup>[25]</sup> lists 45 major software analysis efforts then
 underway for various aspects of planned Apollo missions.
 
-### The whole spacecraft was a feedback control system
-The whole collection of GN&C sub-systems with AGC software at the center
-controlling everything represented a complex feedback control loop, the
-stability of which was crucial to crew safety and mission success.
-
-Digital Autopilot (DAP) software would control
-main engine gimbal and attitude control thrusters during a *burn* to maintain a
-given attitude or attitude rate and to achieve a given desired velocity change
-(magnitude and direction). DAP software would also need to affect its controls
-subject to a number of constraints in the RCS jet usage rules including optimizing
-RCS propellant use, avoiding gimbal lock as the spacecraft orientation is changed,
-detecting and avoiding failed on or off RCS jets, minimizing jet thrust durations
-in certain directions that impinge on spacecraft skin or direct exhaust debris at
-windows.
-
-DAP software was given a budget of 10% of rope core memory (< 3,600 words) and
-20-30% of full computational load (3-4.5 kFLOPS). Apollo's DAP software was the
-first known use of a fully digital control system for a *flying* vehicle.
-Something like this had never been done before. It would take 4 developers 3 years
-and 2000 words of rope core to develop DAP sofware. A crtical technological advancement
-was the introduction of *Kalman* filtering as the main control logic. A key optimization
-realized late in the development was that a change in coordinates used in the computations
-from *body axes* to *jet axes* reduced complexity of the code and increased performance.
-
-![](agc_phase_plane_switching_logic.png)
-
-The picture here shows the complex, non-linear switching logic used by the Kalman
-filtering algorithm. With a change of a dial on the control panel, astronouts could
-adjust the filter from *course* to *fine* control. In addition, the control logic
-needed to handle failed thrusters (either failed on or failed off).
-
-> By early 1965, the basic RCS autopilot functions were laid out, including phase-plane
-> and jet-select logic, a new maneuver routine, and interfaces for the various manual modes.
-
-### There's an AGC app for that
+### There's AGC app for that
 Flying to the moon and returning safely involved *long periods of boredom
 punctuated by moments of extreme peril*. A mission was divided into phases by
 *velocity change maneuvers* or *burns* of the main engines. A complete mission
@@ -173,92 +138,68 @@ involved around 11 main engine burns. For each maneuver,
 there was a corresponding program, called a *major mode program*, to handle it.
 For every phase of the mission, *there was an app for that*.
 
-Development of a major mode program began with an analysis of the equations
-of motion governing the particular phase of the mission and an assessement of
-approaches utilizing available spacecraft sensors, controls and engines to affect the
-desired outcomes subject to numerous constraints.
-For any particular maneuver, factors impacting the equations of motion were considerable.
-They included zero gravity fuel slosh, changing center of mass due to fuel consumption,
-main engine throttle and gimbal characteristics, sensor drift, measurement
-biases, uncertainties and deadbands, optimizing use of RCS
-propellants, contingency logic for failed (on or off) RCS thrusters, positions of Sun,
-Earth and Moon (all in constant motion) as well as their *lumpy*<sup>[3],[4]</sup>
-gravity fields, and precise timing of events to coordinate with lines of sight to
-ground communication stations.
-
 By far the most critical sequence of maneuvers occurred during lunar landing.
-It was divided into 4 phases depending on the amount and type of
+It was divided into 4 phases (pictured below left) depending on the amount and type of
 control the pilot required; Powered Descent (major mode P63), Approach (P64),
 Terminal Descent (P66), and Touchdown (P68). That was for a *normal* landing.
 In addition, the software needed to be prepared to handle a variety of abort
 contingencies depending upon which phase in the landing abort might be required.
 
-![](lunar_module_landing_profile.png)
+Development of a major mode program began with an analysis of the equations
+of motion governing the particular phase of the mission, an assessement of
+computational approaches utilizing available sensors, controls and engines
+to affect the desired velocity change (magnitude and direction) yet subject
+to a variety of constraints. For any particular maneuver, factors impacting
+algorithm design were considerable. They included zero gravity fuel slosh,
+changing center of mass due to fuel consumption, vehicle structrual bending
+modes, main engine throttle and gimbal characteristics, sensor drift and
+deadbands (e.g. IMU gimbal lock), sensor measurement biases and uncertainties,
+optimizing use of RCS propellants, contingency logic for failed (on or off)
+RCS thrusters, minimizing RCS jet thrust durations in certain directions that
+impinge on spacecraft skin or direct exhaust debris at windows or sensitive
+equipment, positions of Sun, Earth and Moon (all in constant motion) as well
+as their *lumpy*<sup>[3],[4]</sup> gravity fields, and precise timing of events
+coordinated with lines of sight to ground communication stations.
 
-### Code heroes and heroines
-The failure of Mariner 1 was a painful experience for one NASA team member in particular;
-John Norton. Norton was a guidance software expert at TRW and was partly responsible for
-the Mariner 1 software failure. Remarkably, he was later hired by NASA to perform
-independent peer review of the code MIT was producing.
+![](agc_major_modes.png)
 
-In his new role at NASA, he dedicated himself to becoming what can only be described as
-a human static analyzer. Norton developed a way of expressing AGC assembly code in a
-human readable form he called *Programmed Equations*.<sup>[32]</sup> He would then
-manually read and reverse engineer critical sections of AGC interpreter code that
-performed key guidance functions, documenting them in this form. The documents he
-produced became invaluable technical documentation for both NASA and MIT.
+Digital Autopilot (DAP) software was developed based on *Kalman Filtering*,<sup>[60]</sup>
+The computation is decomposed into a *prediction* phase where an idealized model
+of the spacecraft is used to estimate the current state. In the second phase, noisy
+direct measurment of system state (from spacecraft sensors) is compared with the
+predicted state to produce control decisions.
 
-Early on, he discovered bugs such as prolific use of the numerically poor approximation
-of pie as 22/7, failures in units conversions between astronaut displays in feet/second
-and internal AGC computatons which used meters/second, and occasional discrepancies
-between documented guidance equations and the equations finally programmed.
+A key challenge was ensuring the
+same DAP software would provide effective control given a variety of spacecraft
+configuratons. For example, the CM DAP software handled (1) coasting-flight control
+of the Saturn IVB using Saturn IVB thrusters, (2) coasting-flight control of the CSM,
+(3) powered-flight control of the CSM, (4) coasting-flight control of the CSM/LM,
+(5) powered-flight control of the CSM/LM, and (6) aerodynamic entry of the CM.
+The main engine on the CSM gimbaled but was not throttleable.
 
-Although Norton's software skills became legendary, he was otherwise apparently a tad
-quirky...often not cashing several months worth of paychecks at a time. One when one MIT
-programmer tried to have a bit of fun, burying the phrase "Norton Needs Glasses" in comments
-in the bowels of major mode program P52 just to see how long it would take Norton to find it
-(apparently only a few hours of analysis), Norton asked for MIT to be removed from the project.
-Norton's work was a form of *independent peer review* akin to what code teams do now every
-day with pull requests on GitHub.
+The descent engine
+on the LM gimbaled and throttled while the ascent engine did neither.
+Developing a single piece of code for each vehicle to perform effectively in this
+large variety of configurations presented a what we would call a *performance portability*
+problem. DAP software was configurable through a number of parameters. Prior to a burn,
+astronauts would follow a checklist setting a number of switches and entering data on
+the DSKY to set parameters for the DAP.
 
-Developer productivity was measured in new *words per month* of flight program
-ready and released AGC code. Given the tight memory constraints, however, the
-main problem was not developer productivity. It was fitting all the developed
-functionality into memory. In early 1966, NASA appointed a new *watchdog*
-manager; Bill Tindall. He became famous for his sharply worded progress memos
-known as *Tindallgrams*. He was the first to realize that software development
-processes were jeapardizing the whole program's ability to meet their mission
-schedule. His first major action was to triage the flight program for Apollo 1,
-the first crewed mission. In a meeting on Friday the 13th of May, 1966 he led
-discussions on what functionality to cut to meet schedule deadlines. Even after
-making dramatic cuts in functionality<sup>[52]</sup>, he considered the early
-flight programs MIT released of dubious quality. This was the first of many
-such meetings which became known as *Black Friday* meetings. As difficult and
-emotional as these meetings were resulting in months if not years of software
-development work being cut from flight programs, most MIT development staff
-eventually recognized they would not have produced a working flight program
-without Bill Tindall's relentless efforts to cut functionality to meet schedule
-constraints. His role was a systems integrator. Apollo 1 suffered a horrible fire
-killing the crew during a dress rehearsal and delaying all flights for 18 months.
-The subsequent relaxation of software schedule pressures allowed Tindall to 
-lead MIT from triage mode to optimization mode.
+DAP software developers were given a budget of 10% of rope core memory (< 3,600 words) and
+20-30% of full computational load (3-4.5 kFLOPS). Apollo's DAP software was the
+first known use of Kalman filtering for space guidance and first known use of a fully
+digital control system for a *flying* vehicle. It would take 4 developers 3 years
+and 2000 words of rope core to develop the LM DAP sofware alone.
+A key optimization realized late in development was that a change in coordinates used
+in the computations from *body axes* to *jet axes* reduced complexity of the code and
+increased performance.
 
-> In the early stages, there were no "programmers". Instead engineers and scientists
-> learned the techniques of programming. It was believed that competent engineers could
-> learn programming more easily than programmers could learn engineering.<sup>[30]</sup>
+The picture here (above right) shows the complex, non-linear switching logic used by the Kalman
+filtering algorithm controlling RCS jet firings. With a change of a dial on the
+control panel, astronouts could adjust the filter from *course* to *fine* control.
 
-We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
-work on the on AGC<sup>[29]</sup>, for being the first to champion *Software Engineering*<sup>[28]</sup>
-as a discipline unto itself "...to bring the software [effort] legitimacy so that it
-and those building it would be given due respect." Hamilton was the only woman working
-on AGC software and ultimately became a rope mother for LM fight program **LUMINARY**.
-
-Hamilton would often bring her 11 year old daughter to work on weekends and she would
-sometimes randomly tap out commands on a DSKY attached to an AGC simulator. One day,
-she shocked her mother by entering a command that managed to crash the AGC. Upon
-investigation, Hamilton discovered the cause and alerted colleagues of the need to
-add error input checking logic. She developed logic to validate astronaut DSKY inputs
-and made a program change request which was initially denied due to various constraints.
+> By early 1965, the basic RCS autopilot functions were laid out, including phase-plane
+> and jet-select logic, a new maneuver routine, and interfaces for the various manual modes.
 
 ### Testing
 Six different levels of testing were developed to test AGC software.
@@ -278,9 +219,9 @@ Six different levels of testing were developed to test AGC software.
 
 For tests involving software simulation of GN&C sub-systems, a key concern was
 whether those simulations faithfully represented the behavior of the actual
-hardware as well as the spacecraft in which they are housed including such key
-issues engine performance, fuel slosh and even structural responses of the
-spacecraft under torques and loads imposed by engine and thruster firings.
+hardware and spacecraft in which it was housed including such key
+issues as engine performance, fuel slosh and even structural responses of the
+spacecraft under torques and loads imposed by engine gimbaling and thruster firings.
 
 ![](agc_alldig_sim_compare.png)
 
@@ -297,24 +238,23 @@ The all-digital simulation of the AGC would eventually require MIT to purchase o
 Honeywell 800, 2 Honeywell-1800s and 2 IBM 360/75 peaking at about 4,500 cpu hours/month
 (equiv. H-1800 cpu) testing solely for the all-digital testing simulator per month.
 
-### Managing software in the face of evolving requirements
-![AGC Major Software Releases](manloading_on_releases.png)
+### Putting the Software Effort in Context
 
 The whole GN&C system for all 16 uncrewed and 11 crewed Apollo missions
 cost a total of ~$600 million<sup>[24]</sup> over 10 years. The software
 effort was about 10% of that<sup>[23]</sup> the majority of it occurring
-over the last 5 years.
+over the last 5 years. In a 1972 Master's thesis,<sup>[23]</sup> software
+costs are broken down by category shown below. The *Computer* category
+is the cost of machine hardware purchased by MIT for testing purposes. If
+that cost is shared equally between analysis, coding and testing, then
+each is about 30% of the total with documentation and management accounting
+for the remaining 10% of software development costs.
+
+![](agc_sw_costs.png)
 
 > Before the first lunar landing, more than 1400 person-years of software
 > engineering effort had been expended, with a peak level of effort of 350
 > engineers reached in 1968.
-
-Below we compare key aspects of the Apollo GN&C effort with
-the Exascale Computing Project. One aspect in all likelihood remarkably
-different between the two projects is the emphasis on publication.
-Although the Apollo effort did publish some, the amount of publication
-relative to the whole effort is in all likelihood smaller than that
-required of ECP software developers.
 
 Project | 1965 Dollars | 2019 Dollars | Publications + Theses 
 ---|---|---|---
@@ -323,20 +263,28 @@ Apollo GNC Software | $60M | ~$0.5B | ~25 + 13
 ECP Total | ~$100M | $809M |
 ECP Software | XXX | XXX | XXX
 
+> In the early stages, there were no "programmers". Instead engineers and scientists
+> learned the techniques of programming. It was believed that competent engineers could
+> learn programming more easily than programmers could learn engineering.<sup>[30]</sup>
+
+We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
+work on the on AGC<sup>[29]</sup>, for being the first to champion *Software Engineering*<sup>[28]</sup>
+as a discipline unto itself "...to bring the software [effort] legitimacy so that it
+and those building it would be given due respect." Hamilton was the only woman working
+on AGC software and ultimately became a rope mother for LM fight program **LUMINARY**.
+
 > Throughout much of the Apollo effort, MIT experienced difficulty in estimating the
 > time and effort requirements to design, test and verify successive mission programs.<sup>[30]</sup>
 
-> In the software system, just as in the case of hardware systems, the engineering
-> attention required of the interface between components may sometimes exceed the
-> attention required for the selection or design of the any of the components individually.
->
->
 > No one doubted the quality of the software eventually produced by MIT. It was the
 > process used in software development that caused great concern. The lessons were:
 > (a) up-to-date documentation is crucial, (b) verification must proceed through
 > several levels, (c) requirements must be clearly defined and carefully managed,
 > (d) good development plans should be created and executed, and (e) more programmers
 > do not mean faster development<sup>[19]</sup>.
+
+
+
 
 [1]: https://en.wikipedia.org/wiki/Control_theory#Stability "Stability in Control Theory {}"
 [2]: https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf "Software Development Activities Summary Memo 1962 {}"
@@ -390,3 +338,4 @@ ECP Software | XXX | XXX | XXX
 [57]: https://history.nasa.gov/computers/Ch2-5.html "Computers in Spaceflight {}"
 [58]: https://en.wikipedia.org/wiki/List_of_Apollo_missions "List of Apollo Flights {}"
 [59]: https://github.com/virtualagc/virtualagc/blob/master/Colossus249/STAR_TABLES.agc "AGC source code for star tables {}"
+[60]: https://en.wikipedia.org/wiki/Kalman_filter "Description of Kalman filter {}"
