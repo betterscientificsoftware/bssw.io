@@ -1,6 +1,7 @@
 2019
 Ignacio Laguna
 Lawrence Livermore National Laboratory
+/images/blob/master/HM_davis.jpg
 LinkedIn: 
 Github: https://github.com/ilagunap
 Short Bio: Debugging and improving the reliability of scientific applications
