@@ -3,7 +3,7 @@
 **Hero Image:**
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: June, 2019
+#### Publication date: June 14, 2019
 
 *Second of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
@@ -238,7 +238,7 @@ The all-digital simulation of the AGC would eventually require MIT to purchase o
 Honeywell 800, 2 Honeywell-1800s and 2 IBM 360/75 peaking at about 4,500 cpu hours/month
 (equiv. H-1800 cpu) testing solely for the all-digital testing simulator per month.
 
-### Putting the Software Effort in Context
+### Putting the software effort in context
 The whole GN&C system for all 16 uncrewed and 11 crewed Apollo missions
 cost a total of ~$600M<sup>[24]</sup> over 10 years. The software
 effort was about 10% of that<sup>[23]</sup> ($500M in 2019 dollars) the majority
@@ -297,6 +297,17 @@ aborting from a lunar landing. The Saturn booster had its own computer called th
 allow it to serve as a backup to the LVDC. With the flick of a switch, an Apollo
 astronaut could have taken control of the Saturn rocket during launch and boosted
 into orbit under full manual control through the AGC.
+
+
+<!---
+Publish: no
+Categories: performance
+Topics: high-performance computing, performance portability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
 
 [3]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field {}"
 [4]: https://en.wikipedia.org/wiki/Gravitation_of_the_Moon "Moon's Lumpy Gravity Field {}"
