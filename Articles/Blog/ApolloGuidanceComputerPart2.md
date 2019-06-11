@@ -289,6 +289,15 @@ Earth eventually forced the Russians to begin their own digital, on-board comput
 development. In August 1969, the uncrewed Russian probe Zond-7 guided by an Argon-11S
 digital computer completed the first fully successful Russian circumlunar mission.
 
+There were four on-board computers on an Apollo mission. There were two AGC's, one each
+in the CM and LM. The LM also had a backup computer called the
+*Abort Guidance System (AGS)*<sup>[63]</sup> that was designed to be used only for
+aborting from a lunar landing. The Saturn booster had its own computer called the
+*Launch Vehicle Digital Computer (LVDC)*.<sup>[64]</sup>The AGC included software to
+allow it to serve as a backup to the LVDC. With the flick of a switch, an Apollo
+astronaut could have taken control of the Saturn rocket during launch and boosted
+into orbit under full manual control through the AGC.
+
 [1]: https://en.wikipedia.org/wiki/Control_theory#Stability "Stability in Control Theory {}"
 [2]: https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf "Software Development Activities Summary Memo 1962 {}"
 [3]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field {}"
@@ -344,3 +353,5 @@ digital computer completed the first fully successful Russian circumlunar missio
 [60]: https://en.wikipedia.org/wiki/Kalman_filter "Description of Kalman filter {}"
 [61]: https://www.ibiblio.org/apollo/hrst/archive/1719.pdf "Automatic Documentation System {}"
 [62]: http://web.mit.edu/slava/space/introduction.htm "Russian Argon-11S Guidance Computer {}"
+[63]: https://en.wikipedia.org/wiki/Apollo_Abort_Guidance_System "Abort Guidance System (AGS) Computer {}"
+[64]: https://en.wikipedia.org/wiki/Saturn_Launch_Vehicle_Digital_Computer "Saturn LVDC Computer {}"
