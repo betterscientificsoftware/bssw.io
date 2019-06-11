@@ -52,7 +52,7 @@ For example, some bash scripts used locally that load some modules and then conf
 
 Therefore, it is often not worth the investment to write automated tests for locally run scripts of this type.
 
-## Example where automated tests should have been added
+## An example of where automated tests should have been added
 
 However, if such scripts are being used to automate some important process like deploying the software to users where not performing the task correctly would cause non-trivial harm, then one should write some automated tests to protect the critical functionality of the scripts.
 Or, if other people are running the scripts and it will not be obvious to them that a failure has occurred or they will not know how to fix it quickly, then one should likely write some automated tests for the scripts.
