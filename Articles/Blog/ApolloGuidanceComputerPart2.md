@@ -106,7 +106,7 @@ Down-Telemetry<sup>[44]</sup> | Transmit system data to ground | ~200
 Restart<sup>[45],[46],[47] | Error recovery and restart protection | ~1225
 Interpreter<sup>[42]</sup> | Space guidance domain specific programming language interpreter | ~2200
 DSKY I/O<sup>[43]</sup> | Cockpit Displays and Keypad | ~3500
-**Combined Total** | %22 of fixed memory | **~7775**
+**Combined Total** | 22% of fixed memory | **~7775**
 
 ![](./agc_sw_stack.png)
 
@@ -239,36 +239,34 @@ Honeywell 800, 2 Honeywell-1800s and 2 IBM 360/75 peaking at about 4,500 cpu hou
 (equiv. H-1800 cpu) testing solely for the all-digital testing simulator per month.
 
 ### Putting the Software Effort in Context
-
 The whole GN&C system for all 16 uncrewed and 11 crewed Apollo missions
-cost a total of ~$600 million<sup>[24]</sup> over 10 years. The software
-effort was about 10% of that<sup>[23]</sup> the majority of it occurring
-over the last 5 years. In a 1972 Master's thesis,<sup>[23]</sup> software
-costs are broken down by category shown below. The *Computer* category
-is the cost of machine hardware purchased by MIT for testing purposes. If
-that cost is shared equally between analysis, coding and testing, then
-each is about 30% of the total with documentation and management accounting
-for the remaining 10% of software development costs.
-
-![](agc_sw_costs.png)
+cost a total of ~$600M<sup>[24]</sup> over 10 years. The software
+effort was about 10% of that<sup>[23]</sup> ($500M in 2019 dollars) the majority
+of it occurring over the last 5 years or about $100M/year in 2019 dollars.
+By comparison, the Exascale Computing Project budget for 2019 is projected to be
+$809M which includes many non-software related costs suggesting the AGC software
+effort alone is on par with the software effort of the ECP program.
 
 > Before the first lunar landing, more than 1400 person-years of software
 > engineering effort had been expended, with a peak level of effort of 350
 > engineers reached in 1968.
 
-Project | 1965 Dollars | 2019 Dollars | Publications + Theses 
----|---|---|---
-Apollo GNC Total | $600M | ~$5B | ~60 + 60
-Apollo GNC Software | $60M | ~$0.5B | ~25 + 13
-ECP Total | ~$100M | $809M |
-ECP Software | XXX | XXX | XXX
+In a 1972 Master's thesis,<sup>[23]</sup> software
+costs are broken down by category shown below, left. The *Computer* category
+is the cost of machine hardware purchased by MIT used primarily for testing
+purposes. Factoring this out, we have the adjusted, relative costs right.
+There was even an automatic documentation system developed to help manage
+costs of documentation for test engineers, crew, and flight controls.<sup>[61]</sup>
+
+![](agc_sw_costs_combined.png)
 
 > In the early stages, there were no "programmers". Instead engineers and scientists
 > learned the techniques of programming. It was believed that competent engineers could
 > learn programming more easily than programmers could learn engineering.<sup>[30]</sup>
 
 We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
-work on the on AGC<sup>[29]</sup>, for being the first to champion *Software Engineering*<sup>[28]</sup>
+work on the on AGC<sup>[29]</sup>, for being the first to champion
+*Software Engineering*<sup>[28]</sup>
 as a discipline unto itself "...to bring the software [effort] legitimacy so that it
 and those building it would be given due respect." Hamilton was the only woman working
 on AGC software and ultimately became a rope mother for LM fight program **LUMINARY**.
@@ -283,8 +281,13 @@ on AGC software and ultimately became a rope mother for LM fight program **LUMIN
 > (d) good development plans should be created and executed, and (e) more programmers
 > do not mean faster development<sup>[19]</sup>.
 
-
-
+In the space race, the Russian program achieved all of its early successes, which were
+many, using analog on-board and digital ground computers for guidance. This is possible
+for Earth orbital flights involving a single vehicle. But the complexities of providing
+guidance for multiple vehicles or lunar missions including soft landing and return to
+Earth eventually forced the Russians to begin their own digital, on-board computer
+development. In August 1969, the uncrewed Russian probe Zond-7 guided by an Argon-11S
+digital computer completed the first fully successful Russian circumlunar mission.
 
 [1]: https://en.wikipedia.org/wiki/Control_theory#Stability "Stability in Control Theory {}"
 [2]: https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf "Software Development Activities Summary Memo 1962 {}"
@@ -339,3 +342,5 @@ on AGC software and ultimately became a rope mother for LM fight program **LUMIN
 [58]: https://en.wikipedia.org/wiki/List_of_Apollo_missions "List of Apollo Flights {}"
 [59]: https://github.com/virtualagc/virtualagc/blob/master/Colossus249/STAR_TABLES.agc "AGC source code for star tables {}"
 [60]: https://en.wikipedia.org/wiki/Kalman_filter "Description of Kalman filter {}"
+[61]: https://www.ibiblio.org/apollo/hrst/archive/1719.pdf "Automatic Documentation System {}"
+[62]: http://web.mit.edu/slava/space/introduction.htm "Russian Argon-11S Guidance Computer {}"
