@@ -28,11 +28,13 @@ After reading the book "Working Effectively with Legacy Code", I resolved to tur
 Over the years since my conversion to an Agile software engineer, I often rigorously wrote automated tests for nearly every piece of software I touched.
 There where times  under schedule pressure that I slipped and reverted back to my old ways and failed to write sufficient automated tests and came to regret it.
 However, there were also times where my overzealous drive to religiously test everything (which usually came after the guilt of a recent slip of not testing enough) where I wasted time writing automated tests that were not worth the effort.
-And now after having had followed this road from 2007 until now having written and maintained thousands of automated tests over that time, I have come to realize that there are times when it is actually better not to write automated tests for some pieces of software!
+(One example is for some code in Trilinos that did not end up getting a lot of usage and is now actually deprecated to be removed from Trilinos.)
+And now after having had followed this road from 2007 until now (having written and maintained thousands of automated tests over that time period) I have come to realize that while in the majority of cases writing automated tests is necessary or overwhelmingly beneficial, alternatively there are cases when it is actually better (all things considered) not to write automated tests for some pieces of software!
+(Or to hold off in writing automated tests for now.)
 
 ## Criteria for when it is better to not add automated tests
 
-I have come to realize that it often does not pay off to write automated tests for a piece of software when the following five things are true about that software:
+I have come to realize that it often does not pay off to write automated tests for a piece of software when the following five things are **ALL** true about that software:
 
 * **The damage done by a defect is minor.**
 * **The majority of defects will be obvious.**
@@ -54,8 +56,8 @@ Therefore, it is often not worth the investment to write automated tests for loc
 
 ## An example of where automated tests should have been added
 
-However, if such scripts are being used to automate some important process like deploying the software to users where not performing the task correctly would cause non-trivial harm, then one should write some automated tests to protect the critical functionality of the scripts.
-Or, if other people are running the scripts and it will not be obvious to them that a failure has occurred or they will not know how to fix it quickly, then one should likely write some automated tests for the scripts.
+A critical point worth remembering is that if some scripts are being used to automate some important process like deploying the software to users where not performing the task correctly would cause non-trivial harm, then one should write some automated tests to protect the critical functionality of the scripts.
+Or, if other people are running the scripts and it will not be obvious to them that a failure has occurred or they will not know how to fix it quickly, then one should likely write some automated tests for the such scripts.
 
 For example, there was a bash test-driver script in a CSE project where the script (run as a cron job) failed to detect that the code's tests were failing and instead sent out emails that everything was passing.
 As a result, the code was broken for weeks with no one noticing.
