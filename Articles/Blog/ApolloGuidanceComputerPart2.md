@@ -113,7 +113,7 @@ DSKY I/O<sup>[43]</sup> | Cockpit Displays and Keypad | ~3500
 These programs comprised what we might call today the *Apollo Guidance Software Stack*.
 All were implemented in assembly language. By 1965, most of this code had been
 written and fully tested and changed little with each new flight program. All
-higher level space guidance routines were implmented using some of these pieces.
+higher level space guidance routines were implemented using some of these pieces.
 
 An example of a space guidance subroutine is computing the relative positions of Earth,
 Sun and Moon at any moment. After evaluating options<sup>[51]</sup> in MAC Fortran on 
@@ -146,12 +146,12 @@ In addition, the software needed to be prepared to handle a variety of abort
 contingencies depending upon which phase in the landing abort might be required.
 
 Development of a major mode program began with an analysis of the equations
-of motion governing the particular phase of the mission, an assessement of
+of motion governing the particular phase of the mission, an assessment of
 computational approaches utilizing available sensors, controls and engines
 to affect the desired velocity change (magnitude and direction) yet subject
 to a variety of constraints. For any particular maneuver, factors impacting
 algorithm design were considerable. They included zero gravity fuel slosh,
-changing center of mass due to fuel consumption, vehicle structrual bending
+changing center of mass due to fuel consumption, vehicle structural bending
 modes, main engine throttle and gimbal characteristics, sensor drift and
 deadbands (e.g. IMU gimbal lock), sensor measurement biases and uncertainties,
 optimizing use of RCS propellants, contingency logic for failed (on or off)
@@ -166,12 +166,12 @@ coordinated with lines of sight to ground communication stations.
 Digital Autopilot (DAP) software was developed based on *Kalman Filtering*,<sup>[60]</sup>
 The computation is decomposed into a *prediction* phase where an idealized model
 of the spacecraft is used to estimate the current state. In the second phase, noisy
-direct measurment of system state (from spacecraft sensors) is compared with the
+direct measurement of system state (from spacecraft sensors) is compared with the
 predicted state to produce control decisions.
 
 A key challenge was ensuring the
 same DAP software would provide effective control given a variety of spacecraft
-configuratons. For example, the CM DAP software handled (1) coasting-flight control
+configurations. For example, the CM DAP software handled (1) coasting-flight control
 of the Saturn IVB using Saturn IVB thrusters, (2) coasting-flight control of the CSM,
 (3) powered-flight control of the CSM, (4) coasting-flight control of the CSM/LM,
 (5) powered-flight control of the CSM/LM, and (6) aerodynamic entry of the CM.
@@ -189,14 +189,14 @@ DAP software developers were given a budget of 10% of rope core memory (< 3,600 
 20-30% of full computational load (3-4.5 kFLOPS). Apollo's DAP software was the
 first known use of Kalman filtering for space guidance and first known use of a fully
 digital control system for a *flying* vehicle. It would take 4 developers 3 years
-and 2000 words of rope core to develop the LM DAP sofware alone.
+and 2000 words of rope core to develop the LM DAP software alone.
 A key optimization realized late in development was that a change in coordinates used
 in the computations from *body axes* to *jet axes* reduced complexity of the code and
 increased performance.
 
 The picture here (above right) shows the complex, non-linear switching logic used by the Kalman
 filtering algorithm controlling RCS jet firings. With a change of a dial on the
-control panel, astronouts could adjust the filter from *course* to *fine* control.
+control panel, astronauts could adjust the filter from *course* to *fine* control.
 
 > By early 1965, the basic RCS autopilot functions were laid out, including phase-plane
 > and jet-select logic, a new maneuver routine, and interfaces for the various manual modes.
