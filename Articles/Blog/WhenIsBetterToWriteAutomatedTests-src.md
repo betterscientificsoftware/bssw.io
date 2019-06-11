@@ -62,8 +62,9 @@ For example, there was a bash test-driver script in a CSE project where the scri
 As a result, the code was broken for weeks with no one noticing.
 A release of the software went out (to hundreds of internal users) and it was the users who noticed the new defects.
 This wasted user's time, may have resulted in incorrect results, and damaged the reputation of the project releasing the software.
-The lesson is that some *scripts* may actually need to be considered *software* in their own right and need to have strong automated testing just like any piece of non-trivial software.
-(Just become some piece of software is written in bash or python does not mean it can be dismissed as "scripts" and avoid any automated testing.)
+The lesson is that many *scripts* may actually need to be considered *software* in their own right and need to have strong automated testing just like any piece of non-trivial software.
+(Just become some piece of software is written in bash or python does not mean it can be dismissed as "scripts" and avoid any automated testing.
+And just because it is harder to write automated tests in some languages like bash than others like Java is not an excuse for not writing automated tests.  You can write automated tests in any Turing-complete language.)
 
 ## Notes
 
