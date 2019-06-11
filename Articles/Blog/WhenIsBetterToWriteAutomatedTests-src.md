@@ -5,9 +5,8 @@
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/testing-hero-image.png'/>[Image Source: https://www.testingspot.net (see below)]
 
 #### Contributed by [Roscoe A. Barltett](https://bartlettroscoe.github.io)
-#### Publication date: MONTH DD, YEAR
 
-*SOME GOOD SUBTITLE.  Any suggestions?*
+#### Publication date: MONTH DD, YEAR
 
 <br>
 
