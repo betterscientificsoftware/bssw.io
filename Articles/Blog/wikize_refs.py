@@ -6,7 +6,7 @@ from optparse import OptionParser
 import re, os, stat
 
 def warning_msg(mdfile):
-    return "<!--- WARNING: Auto-generated with wikize_refs.py from %s --->\n"%mdfile
+    return "<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from %s --->\n"%mdfile
 
 def usage():
     return \
@@ -95,13 +95,15 @@ def process_input_file(filename):
                 ref_map[ref_hdl] = [ref_desc, ref_url, ref_bib]
                 ref_map[ref_hdl].append(len(ref_map))
                 original_refs += [mdfl]
-            else: # handle up to 3 footnotes in a single <sup></sup>
+            elif not in_comment: # handle up to 3 footnotes in a single <sup></sup>
                 fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", mdfl)
                 fn_handles = fn_handles.union(set(fns1))
                 fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mdfl)
                 for fn in fns2: fn_handles = fn_handles.union(set(fn))
                 fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mdfl)
                 for fn in fns3: fn_handles = fn_handles.union(set(fn))
+                other_lines += [mdfl]
+            else:
                 other_lines += [mdfl]
 
     return fn_handles, other_lines, original_refs, ref_map
