@@ -1,4 +1,4 @@
-<!--- WARNING: Auto-generated with wikize-refs.py from ApolloGuidanceComputerPart2.md --->
+<!--- WARNING: Auto-generated with wikize_refs.py from ApolloGuidanceComputerPart2.md --->
 # Pre-Reference Version: Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub
 
 **Hero Image:**
@@ -312,7 +312,7 @@ Aggregate: none
 [6]: http://www.klabs.org/history/apollo_11_alarms/eyles_2004/eyles_2004.htm "Tales from the Lunar Landing {Eyles D. (March 2018) 'SUNBURST and LUMINARY An Apollo Memoir, Fort Point Press, Boston, ISBN-13: 978-0986385902}"
 [7]: https://www.mathworks.com/company/newsletters/articles/fly-me-to-the-moon-then-and-now.html "DAP Design Then and Now with MathWorks {Gran RJ. (1999) Fly Me to the Moon - Then and Now, webpage @ mathworks.com}"
 [8]: https://www.ibiblio.org/apollo/index.html "Virtual AGC Project Home Page {}"
-[9]: https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design "Architectural Simulation for ExascaleHardware/Software Co-design {Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.}"
+[9]: https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design "Architectural Simulation for Exascale Hardware/Software Co-design {Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.}"
 [10]: https://www.design-reuse.com/articles/31951/the-power-of-developing-hardware-and-software-in-parallel.html "The Power of Developing Hardware and Software in Parallel {De Schutter T. (~2012) The Power of Developing Hardware and Software in Parallel, webpage @ design-reuse.com}"
 [12]: http://web.mit.edu/digitalapollo/Documents/Chapter6/hoagprogreport.pdf?#page=24 "Hoag Report including DAP Design and Performance {Hoag DG. (April 1969) Apollo Navigation, Guidance and Control Systems: A Progress Report, MIT-IL E-2411}"
 [13]: https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html "MathWorks Model of DAP {}"
@@ -361,7 +361,7 @@ Aggregate: none
 [4]: #ref4 "Tales from the Lunar Landing"
 [5]: #ref5 "DAP Design Then and Now with MathWorks"
 [6]: #ref6 "Virtual AGC Project Home Page"
-[7]: #ref7 "Architectural Simulation for ExascaleHardware/Software Co-design"
+[7]: #ref7 "Architectural Simulation for Exascale Hardware/Software Co-design"
 [8]: #ref8 "The Power of Developing Hardware and Software in Parallel"
 [9]: #ref9 "Hoag Report including DAP Design and Performance"
 [10]: #ref10 "MathWorks Model of DAP"
@@ -411,7 +411,7 @@ References | &nbsp;
 <a name="ref4"></a>4 | [Tales from the Lunar Landing Eyles D. (March 2018) 'SUNBURST and LUMINARY An Apollo Memoir, Fort Point Press, Boston, ISBN-13: 978-0986385902](http://www.klabs.org/history/apollo_11_alarms/eyles_2004/eyles_2004.htm)
 <a name="ref5"></a>5 | [DAP Design Then and Now with MathWorks Gran RJ. (1999) Fly Me to the Moon - Then and Now, webpage @ mathworks.com](https://www.mathworks.com/company/newsletters/articles/fly-me-to-the-moon-then-and-now.html)
 <a name="ref6"></a>6 | [Virtual AGC Project Home Page ](https://www.ibiblio.org/apollo/index.html)
-<a name="ref7"></a>7 | [Architectural Simulation for ExascaleHardware/Software Co-design Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.](https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design)
+<a name="ref7"></a>7 | [Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.](https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design)
 <a name="ref8"></a>8 | [De Schutter T. (~2012) The Power of Developing Hardware and Software in Parallel, webpage @ design-reuse.com](https://www.design-reuse.com/articles/31951/the-power-of-developing-hardware-and-software-in-parallel.html)
 <a name="ref9"></a>9 | [Hoag Report including DAP Design and Performance Hoag DG. (April 1969) Apollo Navigation, Guidance and Control Systems: A Progress Report, MIT-IL E-2411](http://web.mit.edu/digitalapollo/Documents/Chapter6/hoagprogreport.pdf?#page=24)
 <a name="ref10"></a>10 | [MathWorks Model of DAP ](https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html)
@@ -454,3 +454,4 @@ References | &nbsp;
 <br>
 
 
+<!--- WARNING: Auto-generated with wikize_refs.py from ApolloGuidanceComputerPart2.md --->
