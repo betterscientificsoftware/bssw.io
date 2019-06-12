@@ -100,7 +100,7 @@ Roscoe is a long-time contributor to the [Trilinos Project](https://trilinos.org
 
 <!---
 [1]: https://bssw.io/items/working-effectively-with-legacy-code/ "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 {}"
-[2]: https://doi.org/10.1109/eScience.2012.6404448/ "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software {}"
+[2]: https://doi.org/10.1109/eScience.2012.6404448 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software {}"
 
 --->
 <br>
@@ -113,7 +113,7 @@ Roscoe is a long-time contributor to the [Trilinos Project](https://trilinos.org
 References | &nbsp;
 :--- | :---
 <a name="ref1"></a>1 | [Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 ](https://bssw.io/items/working-effectively-with-legacy-code/)
-<a name="ref2"></a>2 | [Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software ](https://doi.org/10.1109/eScience.2012.6404448/)
+<a name="ref2"></a>2 | [Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software ](https://doi.org/10.1109/eScience.2012.6404448)
 
 <br>
 
