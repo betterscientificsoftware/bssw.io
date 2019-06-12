@@ -1,4 +1,4 @@
-<!--- WARNING: Auto-generated with wikize-refs.py from ReferencesInMarkdownHybridApproach.md --->
+<!--- WARNING: Auto-generated with wikize_refs.py from ReferencesInMarkdownHybridApproach.md --->
 # Wikipedia-Like Citations and References In GitHub Markdown
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
@@ -104,7 +104,7 @@ tool-tip/ballon-help.
 
 ## A Python Post Processing Script
 Once an author is finished with all references, a python script
-`wikize-refs.py` is provided to post-process the markdown file
+`wikize_refs.py` is provided to post-process the markdown file
 creating a new markdown file. This script renumbers 1...N and
 re-formats, slightly, footnotes and the series of reference style
 links in a GitHub Markdown file so that the article's footnote
@@ -120,7 +120,7 @@ and once for the reference list at the end of the document.
 
 For example, running script on this markdown file...
 
-    ./wikize-refs.py ReferencesInMarkdownHybridApproach.md
+    ./wikize_refs.py ReferencesInMarkdownHybridApproach.md
 
 produces the new markdown file [`ReferencesInMarkdownHybridApproach-wikized.md`](./ReferencesInMarkdownHybridApproach-wikized.md)
 
