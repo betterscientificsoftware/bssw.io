@@ -45,13 +45,7 @@ pictured above were under development *simultaneously*
 right along with the software itself. Their interfaces, performance
 characteristics, size, weight and position within the spacecraft, all of
 which effect key parameters in guidance equations were constantly evolving.
-
-Another challenge was testing the software's
-ability to interact with all these sub-systems
-without actually flying the vehicle?
-Ultimately, several different test simulators would be developed.
-Again, these testing resources were being developed right along with
-the software it was intended to test. Even techniques to manage the
+Even techniques to manage the
 software effort were effectively under development and evolving with the
 software. Eventually, NASA would pressure MIT to adopt techniques pioneered
 by IBM to help manage large software development projects.
@@ -63,17 +57,12 @@ like GitLab, Jenkins, Confluence, Kanban, WebEx, or even Email, it presented a m
 coordination and management challenge.
 
 ### Evolving requirements, versions and flight rope releases
-Early on, NASA's expectations for what functions
-the GN&C system would perform, and therefore the AGC software, continued to evolve
-motivated by such needs to reduce weight, increase safety margins, improve mission
-flexibility and optimize propellant usage.
-
 > NASA had established a need for the machine and had determined its general tasks, and
 > MIT received a contract based on only a short, very general requirements statement.
 > Requirements started changing immediately and continued to change throughout the program.<sup>[57]</sup>
 
 Midway through development, the AGC was re-designed to support more memory and an expanded
-instruction set. Software developers had to support both.
+instruction set.
 They were different enough that each required separate software development teams
 which only worsened already strained resources.
 The re-designed AGC had only 2K words of *erasable* core and 36K words of *fixed*
@@ -115,7 +104,8 @@ DSKY I/O<sup>[43]</sup> | Cockpit Displays and Keypad | ~3500
 These programs comprised what we might call today the *Apollo Guidance Software Stack*.
 All were implemented in assembly language. By 1965, most of this code had been
 written and fully tested and changed little with each new flight program. All
-higher level space guidance routines were implemented using some of these pieces.
+higher level space guidance routines were implemented primarily in the Interpreter
+language but also using some of these lower-level pieces.
 
 An example of a space guidance subroutine is computing the relative positions of Earth,
 Sun and Moon at any moment. After evaluating options<sup>[51]</sup> in MAC Fortran on 
@@ -123,7 +113,7 @@ mainframe systems, developers settled on an approach using 8th degree polynomial
 time-varying positional data predicted from mainframe solution of the 3-body (Earth, Sun, Moon)
 problem. Eight, double precision, X, Y and Z polynomial coefficients, 48 words of data,
 fitting a 2-week period of Moon position data would
-then be stored in fixed memory. Another example is a list of stars,
+then be stored in fixed memory. Another example is a list of stars<sup>[67]</sup>,
 and spatial positions used with the Apollo space sextant<sup>[50]</sup>
 requiring 112 words.<sup>[59]</sup> This data
 and code would be among the 76 kilobytes of a flight program
@@ -132,34 +122,30 @@ multiple ropes for different launch windows would be manufactured as contingenci
 A 1962 memo<sup>[25]</sup> lists 45 major software analysis efforts then
 underway for various aspects of planned Apollo missions.
 
-### There's AGC app for that
+### The AGC had an app for that
 Flying to the moon and returning safely involved *long periods of boredom
 punctuated by moments of extreme peril*. A mission was divided into phases by
 *velocity change maneuvers* or *burns* of the main engines. A complete mission
-involved around 11 main engine burns. For each maneuver,
-there was a corresponding program, called a *major mode program*, to handle it.
-For every phase of the mission, *there was an app for that*.
+involved around 11 burns. For each maneuver,
+there was a corresponding *major mode program*, to handle it.
+For every phase of the mission, *the AGC had an app for that*.<sup>[65]</sup>
 
 By far the most critical sequence of maneuvers occurred during lunar landing.
-It was divided into 4 phases (pictured below left) depending on the amount and type of
-control the pilot required; Powered Descent (major mode P63), Approach (P64),
-Terminal Descent (P66), and Touchdown (P68).<sup>[6]</sup>
+It was divided into 4 phases (pictured below left) depending on the balance of
+automated vs. manual control the astronauts required; Powered Descent
+(major mode P63), Approach (P64), Terminal Descent (P66), and Touchdown (P68).<sup>[6]</sup>
+Examples of other mode mode programs were Trans Lunar Injection (P15), 
+Return To Earth (P37), Ballistic Re-entry (P66).
 
-Development of a major mode program began with an analysis of the equations
-of motion governing the particular phase of the mission, an assessment of
-computational approaches utilizing available sensors, controls and engines
-to affect the desired velocity change (magnitude and direction) yet subject
-to a variety of constraints. For any particular maneuver, factors impacting
-algorithm design were considerable. They included zero gravity fuel slosh,
-changing center of mass due to fuel consumption, vehicle structural bending
-modes, main engine throttle and gimbal characteristics, sensor drift and
-deadbands (e.g. IMU gimbal lock), sensor measurement biases and uncertainties,
-optimizing use of RCS propellants, contingency logic for failed (on or off)
-RCS thrusters, minimizing RCS jet thrust durations in certain directions that
-impinged on spacecraft skin or directed exhaust debris at windows or sensitive
-equipment, positions of Sun, Earth and Moon (all in constant motion) as well
-as their *lumpy*<sup>[3],[4]</sup> gravity fields, and precise timing of events
-coordinating with lines of sight for communications.
+Development of a major mode program began with an analysis of the relevant equations
+of motion and an assessment of available computational approaches to affect the
+desired velocity change (magnitude and direction) subject to numerous constraints
+including zero gravity fuel slosh, changing center of mass due to fuel consumption,
+main engine performance characteristics, sensor drift and deadbands (e.g. IMU gimbal lock),
+optimizing use of propellants, contingency logic for failed (on or off) RCS thrusters,
+the Moon's lump gravity field,<sup>[3],[4]</sup> and precision timing to coordinate
+a planetary ballet of Earth, Moon Sun and multiple spacecraft and the lines of sight
+of communications between them and mission control.
 
 ![](agc_major_modes.png)
 
@@ -177,20 +163,21 @@ scenarios. Doing so presented what we would call a *performance portability*
 problem.<sup>[12]</sup> Software developers made DAP execution configurable through a
 number of parameters. Prior to a burn, astronauts would follow a checklist setting
 a number of switches and entering data on the DSKY to set parameters for the DAP
-execution during the burn.
+execution during the burn.<sup>[66]</sup>
 
-DAP software developers were given a budget of 10% of rope core memory (< 3,600 words) and
-20-30% of full computational load (3-4.5 kFLOPS). It would take 4 developers 3 years
-and 2000 words of rope core to develop the LM DAP software alone.
-A key optimization realized late in development was that a change in coordinates used
-in the computations from *body axes* to *jet axes* reduced complexity of the code and
-increased performance<sup>[7],[13]</sup>.
+Software developers were given a budget of 10% of rope core memory and
+20-30% of full computational load (3-4.5 kFLOPS) in which the DAP would have to 
+operate. It would take 4 developers 3 years and 2000 words of rope core to develop the
+LM DAP software alone. A key optimization realized late in development was that a change
+in coordinates used in the computations from *body axes* to *jet axes* reduced complexity
+of the code and increased performance<sup>[7],[13]</sup>.
 
-The picture above right shows the complex, non-linear switching logic used by the
-Kalman filtering algorithm controlling RCS jet firings. With a change of a dial on the
-control panel, astronauts could adjust the filter from *course* to *fine* control.
+The picture above, right shows the non-linear switching logic used by the
+Kalman filtering algorithm to control RCS jet firings in coasting flight.
+With a change of a dial on the control panel, astronauts could adjust the
+filter from *course* to *fine* control.
 
-### Testing
+### AGC software testing: 60% of the whole effort
 Five different levels of testing were developed.
 * An all-software simulator (also known as the *all-digital* simulator)
   for the AGC itself which included simulation of the *environment*.
@@ -215,7 +202,6 @@ Five different levels of testing were developed.
   flights. Early missions included several objectives designed specifically to
   test AGC software.
 
-
 ![](agc_alldig_sim_compare.png)
 
 In the data pictured here, data from actual flight tests of the LM descent engine
@@ -229,28 +215,26 @@ due to missing structural dynamics modeling which was eventually corrected (righ
 
 The all-digital simulation of the AGC would eventually require MIT to purchase one
 Honeywell 800, 2 Honeywell-1800s and 2 IBM 360/75 peaking at about 4,500 cpu hours/month
-(equiv. H-1800 cpu) testing solely for the all-digital test simulator.
+(equiv. H-1800 cpu) testing solely for the all-digital test simulator. These hardware
+testing resources together with simulator software development and test operators comprised
+nearly 60% of the entire software development budget. 
 
 ### Putting the software effort in context
-The whole GN&C system for all 16 uncrewed and 11 crewed Apollo missions
-cost a total of ~$600M<sup>[24]</sup> over 10 years. The software
-effort was about 10% of that<sup>[23]</sup> ($500M in 2019 dollars) the majority
+The software effort was about $60M<sup>[23],[24]</sup> ($500M in 2019 dollars) the majority
 of it occurring over the last 5 years or about $100M/year in 2019 dollars.
 By comparison, the Exascale Computing Project budget for 2019 is projected to be
-$809M which includes many non-software related costs suggesting the AGC software
-effort alone is on par with the software effort of the ECP program.
+$809M an overwhelming majority of which is not software suggesting the AGC software
+effort was on par with the ECP program.
 
 > Before the first lunar landing, more than 1400 person-years of software
 > engineering effort had been expended, with a peak level of effort of 350
 > engineers reached in 1968.
 
-In a 1972 Master's thesis,<sup>[23]</sup> software
-costs are broken down by category shown below, left. The *Computer* category
-is the cost of machine hardware purchased by MIT used primarily for testing
-purposes. Factoring this out, we have the adjusted, relative costs of the
-software only right.
-There was even an automatic documentation system developed to help manage
-costs of documentation for test engineers, crew, and flight controls.<sup>[61]</sup>
+A 1972 Master's thesis<sup>[23]</sup> breaks down software costs by
+category shown below, left. Factoring out the *Computer* category used
+almost exclusively for testing, the adjusted, relative costs of the
+software development alone is shown below, right. To help keep documentation
+costs down, there was even a computer-automated documentation system developed.<sup>[61]</sup>
 
 ![](agc_sw_costs_combined.png)
 
@@ -267,7 +251,7 @@ on AGC software and ultimately became a rope mother for LM fight program **LUMIN
 
 > Throughout much of the Apollo effort, MIT experienced difficulty in estimating the
 > time and effort requirements to design, test and verify successive mission programs.<sup>[54]</sup>
-
+>
 > No one doubted the quality of the software eventually produced by MIT. It was the
 > process used in software development that caused great concern. The lessons were:
 > (a) up-to-date documentation is crucial, (b) verification must proceed through
@@ -282,15 +266,6 @@ guidance for multiple vehicles or lunar missions including soft landing and retu
 Earth eventually forced the Russians to begin their own digital, on-board computer
 development. In August 1969, the uncrewed Russian probe Zond-7 guided by an Argon-11S<sup>[62]</sup>
 digital computer completed the first fully successful Russian circumlunar mission.
-
-In all, there were four on-board computers on an Apollo mission. There were two AGC's, one each
-in the CM and LM. The LM also had a backup computer called the
-*Abort Guidance System (AGS)*<sup>[63]</sup> that was designed to be used only for
-aborting from a lunar landing. The Saturn booster had its own computer called the
-*Launch Vehicle Digital Computer (LVDC)*.<sup>[64]</sup> The AGC included software to
-allow it to serve as a backup to the LVDC. With the flick of a switch, an Apollo
-astronaut could have taken control of the Saturn rocket during launch and boosted
-into orbit under full manual control through the AGC.
 
 <!---
 Publish: no
@@ -348,3 +323,6 @@ Aggregate: none
 [62]: http://web.mit.edu/slava/space/introduction.htm "Russian Argon-11S Guidance Computer {}"
 [63]: https://en.wikipedia.org/wiki/Apollo_Abort_Guidance_System "Abort Guidance System (AGS) Computer {}"
 [64]: https://en.wikipedia.org/wiki/Saturn_Launch_Vehicle_Digital_Computer "Saturn LVDC Computer {}"
+[65]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=25 "AGC CM Major Mode Programs {}"
+[66]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31 "AGC CM DAP Configuration {}"
+[67]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29 "AGC CM Star Names {}"
