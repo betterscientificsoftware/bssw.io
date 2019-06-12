@@ -94,7 +94,7 @@ So please use discretion when applying this criteria to some piece of software w
 Roscoe is a long-time contributor to the [Trilinos Project](https://trilinos.org) and is currently working on various subprojects in the [Exascale Computing Project](https://www.exascaleproject.org/) including [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
 [1]: https://bssw.io/items/working-effectively-with-legacy-code/ "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 {}"
-[2]: https://doi.org/10.1109/eScience.2012.6404448/ "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software {}"
+[2]: https://doi.org/10.1109/eScience.2012.6404448 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software {}"
 
 <!---
 Image copyright source info…
