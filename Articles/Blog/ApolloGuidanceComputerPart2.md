@@ -44,7 +44,7 @@ A challenge in developing the software was that all the GN&C subsystems
 pictured above were under development *simultaneously*
 right along with the software itself. Their interfaces, performance
 characteristics, size, weight and position within the spacecraft, all of
-which effect key parameters in guidance equations, were constantly evolving.
+which affect key parameters in the guidance equations, were constantly evolving.
 Even techniques to manage the
 software effort were under development and evolving with the
 software. Eventually, NASA would pressure MIT to adopt techniques pioneered
@@ -53,7 +53,7 @@ by IBM to help manage large software development projects.
 Today, we would call all of this simultaneous development activity
 *co-design,*<sup>[9],[10],[31]</sup> and it has a lot of advantages.
 But, in the 1960s where there were no DevOps<sup>[56]</sup> best practices and collaborative tools
-such aa GitLab, Jenkins, Confluence, Kanban and WebEx, or even email, it presented a massive
+such as GitLab, Jenkins, Confluence, Kanban and WebEx, or even email, it presented a massive
 coordination and management challenge.
 
 ### Evolving requirements, versions and flight rope releases
@@ -105,7 +105,7 @@ These programs constituted what we might call today the *Apollo guidance softwar
 All were implemented in assembly language. By 1965, most of this code had been
 written and fully tested and changed little with each new flight program. All
 higher level space guidance routines were implemented primarily in the Interpreter
-language but also using some of these lower-level pieces.
+language but also by using some of these lower-level pieces.
 
 An example of a space guidance subroutine is computing the relative positions of Earth,
 Sun and Moon at any moment. After evaluating options<sup>[51]</sup> in MAC Fortran on 
@@ -113,7 +113,7 @@ mainframe systems, developers settled on an approach using 8th-degree polynomial
 time-varying positional data predicted from mainframe solution of the 3-body (Earth, Sun, Moon)
 problem. Eight double-precision X, Y and Z polynomial coefficients, 48 words of data,
 fitting a 2-week period of Moon position data would
-then be stored in fixed memory. Another example is a list of stars<sup>[67]</sup>,
+then be stored in fixed memory. Another example is a list of stars<sup>[67]</sup>
 and spatial positions used with the Apollo space sextant<sup>[50]</sup>
 requiring 112 words.<sup>[59]</sup> This data
 and code would be among the 76 kilobytes of a flight program
@@ -126,13 +126,13 @@ underway for various aspects of planned Apollo missions.
 Flying to the moon and returning safely involved *long periods of boredom
 punctuated by moments of extreme peril*. A mission was divided into phases by
 *velocity change maneuvers* or *burns* of the main engines. A complete mission
-involved around 11 burns. For each maneuver,
+involved around 11 burns. For each maneuver
 there was a corresponding *major mode program*, to handle it.
 For every phase of the mission, *the AGC had an app for that*.<sup>[65]</sup>
 
 By far the most critical sequence of maneuvers occurred during lunar landing.
-It was divided into 4 phases (pictured below left) depending on the balance of
-automated and manual control the astronauts required; Powered Descent
+It was divided into four phases (pictured below left) depending on the balance of
+automated and manual control the astronauts required: Powered Descent
 (major mode P63), Approach (P64), Terminal Descent (P66) and Touchdown (P68).<sup>[6]</sup>
 Examples of other mode mode programs were Trans Lunar Injection (P15), 
 Return To Earth (P37), Ballistic Re-entry (P66).
@@ -151,7 +151,7 @@ of communications between them and mission control.
 
 ### Performance portability and the digital autopilot (DAP)
 
-Digital autopilot (DAP) software was developed based on *Kalman filtering*.<sup>[60]</sup>
+Digital Autopilot (DAP) software was developed based on *Kalman Filtering*.<sup>[60]</sup>
 The computation is decomposed into a *prediction* phase where an idealized model
 of the spacecraft is used to estimate the current state. In the second phase, noisy
 direct measurement of system state from spacecraft sensors is compared with the
@@ -167,15 +167,15 @@ execution during the burn.<sup>[66]</sup>
 
 Software developers were given a budget of 10% of rope core memory and
 20-30% of full computational load (3-4.5 kFLOPS) in which the DAP would have to 
-operate. It would take 4 developers 3 years and 2000 words of rope core to develop the
+operate. It would take four developers three years and 2,000 words of rope core to develop the
 LM DAP software alone. A key optimization realized late in development was that a change
 in coordinates used in the computations from *body axes* to *jet axes* reduced complexity
-of the code and increased performance.<sup>[7],[13]</sup>
+and increased performance.<sup>[7],[13]</sup>
 
-The picture above, right shows the non-linear switching logic used by the
+The picture above, right shows the nonlinear switching logic used by the
 Kalman filtering algorithm to control RCS jet firings in coasting flight.
 With a change of a dial on the control panel, astronauts could adjust the
-filter from *course* to *fine* control.
+filter from *coarse* to *fine* control.
 
 ### AGC software testing: 60% of the whole effort
 Five different levels of testing were developed.
@@ -215,26 +215,26 @@ because of missing structural dynamics modeling, which was eventually corrected 
 > full-size flight program took from 1,000 to 1,200 runs.
 
 The all-digital simulation of the AGC would eventually require MIT to purchase one
-Honeywell 800, two Honeywell-1800s and two IBM 360/75 peaking at about 4,500 cpu hours/month
-(equiv. H-1800 cpu) testing solely for the all-digital test simulator. These hardware
+Honeywell 800, two Honeywell-1800s and two IBM 360/75 peaking at about 4,500 CPU-hours/month
+(equiv. H-1800 CPU-hour) testing solely for the all-digital test simulator. These hardware
 testing resources together with simulator software development and test operators comprised
 nearly 60% of the entire software development budget. 
 
 ### Putting the software effort in context
-The software effort was about $60M<sup>[23],[24]</sup> ($500M in 2019 dollars) the majority
-of it occurring over the last 5 years or about $100M/year in 2019 dollars.
+The software effort was about $60M<sup>[23],[24]</sup> ($500M in 2019 dollars), the majority
+of it occurring over the last five years or about $100M/year in 2019 dollars.
 By comparison, the Exascale Computing Project budget for 2019 is projected to be
-$809M an overwhelming majority of which is not software suggesting the AGC software
+$809M, an overwhelming majority of which is not software suggesting that the AGC software
 effort was on par with the ECP program.
 
 > Before the first lunar landing, more than 1400 person-years of software
 > engineering effort had been expended, with a peak level of effort of 350
 > engineers reached in 1968.
 
-A 1972 Master's thesis<sup>[23]</sup> breaks down software costs by
+A 1972 master's thesis<sup>[23]</sup> breaks down software costs by
 category shown below, left. Factoring out the *Computer* category used
 almost exclusively for testing, the adjusted, relative costs of the
-software development alone is shown below, right. To help keep documentation
+software development alone are shown below, right. To help keep documentation
 costs down, there was even a computer-automated documentation system developed.<sup>[61]</sup>
 
 ![](agc_sw_costs_combined.png)
@@ -260,13 +260,14 @@ on AGC software and ultimately became a rope mother for the LM fight program **L
 > (4) good development plans should be created and executed, and (5) more programmers
 > do not mean faster development.<sup>[19]</sup>
 
-In the space race, the Russian program achieved all of its early successes, which were
-many, using analog on-board and digital ground computers for guidance. This approach is possible
-for Earth orbital flights involving a single vehicle. But the complexities of providing
+The Russian program achieved all of its early successes
+using ground-based computers for guidance. This approach is possible
+for Earth orbital flights and a single vehicle. Providing sufficiently accurate and timely
 guidance for multiple vehicles or lunar missions including soft landing and return to
 Earth eventually forced the Russians to begin their own digital, on-board computer
-development. In August 1969, the uncrewed Russian probe Zond-7 guided by an Argon-11S<sup>[62]</sup>
-digital computer completed the first fully successful Russian circumlunar mission.
+development. In August 1969, the uncrewed Russian probe Zond-7<sup>[68]</sup>
+guided by an Argon-11S<sup>[62]</sup> digital computer completed the first fully
+successful Russian circumlunar mission.
 
 <!---
 Publish: no
@@ -327,3 +328,4 @@ Aggregate: none
 [65]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=25 "AGC CM Major Mode Programs {}"
 [66]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31 "AGC CM DAP Configuration {}"
 [67]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29 "AGC CM Star Names {}"
+[68]: https://en.wikipedia.org/wiki/Zond_7 "Russian Zond-7 Mission {}"
