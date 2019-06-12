@@ -46,7 +46,7 @@ Vestibulum eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus
 
 ### Ref not used in any footnote
 
-### More than 3 footnotes in same <sup></sup> pair
+### More than 3 footnotes in same `<sup></sup>` pair
 
 ### Link validation
 
