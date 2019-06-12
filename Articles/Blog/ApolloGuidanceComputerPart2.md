@@ -105,7 +105,7 @@ These programs constituted what we might call today the *Apollo guidance softwar
 All were implemented in assembly language. By 1965, most of this code had been
 written and fully tested and changed little with each new flight program. All
 higher level space guidance routines were implemented primarily in the Interpreter
-language but also by using some of these lower-level pieces.
+language<sup>[18]</sup> but also by using some of these lower-level pieces.
 
 An example of a space guidance subroutine is computing the relative positions of Earth,
 Sun and Moon at any moment. After evaluating options<sup>[51]</sup> in MAC Fortran on 
@@ -323,8 +323,6 @@ Aggregate: none
 [60]: https://en.wikipedia.org/wiki/Kalman_filter "Description of Kalman filter {}"
 [61]: https://www.ibiblio.org/apollo/hrst/archive/1719.pdf "Automatic Documentation System {Dunbar JC, Larson RA, Augart PT (May 1966) An Automated Documentation Technique for Integrating Apollo Crew Procedures and Computer Logic, MIT-IL, E-1956}"
 [62]: http://web.mit.edu/slava/space/introduction.htm "Russian Argon-11S Guidance Computer {}"
-[63]: https://en.wikipedia.org/wiki/Apollo_Abort_Guidance_System "Abort Guidance System (AGS) Computer {}"
-[64]: https://en.wikipedia.org/wiki/Saturn_Launch_Vehicle_Digital_Computer "Saturn LVDC Computer {}"
 [65]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=25 "AGC CM Major Mode Programs {}"
 [66]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31 "AGC CM DAP Configuration {}"
 [67]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29 "AGC CM Star Names {}"
