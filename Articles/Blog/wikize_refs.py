@@ -80,7 +80,11 @@ def process_input_file(filename):
         for mdfl in mdf.readlines():
             # grep for ^[xxx]: URL "Short Description {Formal Bibliographic data}"$
             mdfparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*) {(.*)}\"$", mdfl)
-            if mdfparts != None and len(mdfparts.groups()) == 4:
+            if in_comment and re.match("--->", mdfl):
+                in_comment = False
+            elif re.match("<!---", mdfl):
+                in_comment = True
+            if not in_comment and mdfparts != None and len(mdfparts.groups()) == 4:
                 ref_hdl = mdfparts.groups()[0]
                 ref_url = mdfparts.groups()[1]
                 ref_desc = mdfparts.groups()[2]
