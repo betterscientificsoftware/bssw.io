@@ -73,7 +73,6 @@ def parse_args():
 def process_input_file(filename):
     fn_handles = set()
     other_lines = []
-    comment_lines = []
     original_refs = []
     ref_map = {}
     in_comment = False
@@ -81,15 +80,7 @@ def process_input_file(filename):
         for mdfl in mdf.readlines():
             # grep for ^[xxx]: URL "Short Description {Formal Bibliographic data}"$
             mdfparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*) {(.*)}\"$", mdfl)
-            if in_comment and re.match("--->", mdfl):
-                in_comment = False
-                comment_lines += [mdfl]
-            elif in_comment:
-                comment_lines += [mdfl]
-            elif re.match("<!---", mdfl):
-                in_comment = True
-                comment_lines += [mdfl]
-            elif mdfparts != None and len(mdfparts.groups()) == 4:
+            if mdfparts != None and len(mdfparts.groups()) == 4:
                 ref_hdl = mdfparts.groups()[0]
                 ref_url = mdfparts.groups()[1]
                 ref_desc = mdfparts.groups()[2]
@@ -109,7 +100,7 @@ def process_input_file(filename):
                 for fn in fns3: fn_handles = fn_handles.union(set(fn))
                 other_lines += [mdfl]
 
-    return fn_handles, other_lines, comment_lines, original_refs, ref_map
+    return fn_handles, other_lines, original_refs, ref_map
 
 #
 # Sanity checks for footnote references and the reference list
@@ -134,7 +125,7 @@ def sanity_checks(fn_handles, ref_map, warn):
             print "Correct above issues and re-try..."
             exit(1)
 
-def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comment_lines):
+def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
     outlines = []
 
     #
@@ -194,14 +185,6 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comm
             outlines.append("<a name=\"ref%d\"></a>%d | [%s %s](%s)\n"%(k, k, v[0], v[2], v[1]))
 
     #
-    # Write all comment lines
-    #
-    outlines.append("\n<br>\n\n")
-    for l in comment_lines:
-        outlines.append(l)
-    outlines.append("\n")
-
-    #
     # write warning comment about this being auto-generated
     #
     outlines.append(warning_msg(mdfile))
@@ -231,7 +214,6 @@ def main():
     #
     fn_handles, \
     other_lines, \
-    comment_lines, \
     original_refs, \
     ref_map = \
     process_input_file(mdfile)
@@ -245,7 +227,7 @@ def main():
     # Build up the list of lines for output file
     #
     outlines = \
-    generate_output_file_lines(mdfile, other_lines, original_refs, ref_map, comment_lines)
+    generate_output_file_lines(mdfile, other_lines, original_refs, ref_map)
 
     #
     # Write the output file to a temporary file
