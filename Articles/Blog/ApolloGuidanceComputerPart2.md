@@ -9,15 +9,15 @@
 
 *Second of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
-Retro-computing enthusiasts recently uploaded Apollo Guidance Computer (AGC)
+Retrocomputing enthusiasts recently uploaded Apollo Guidance Computer (AGC)
 source code for various Apollo missions to GitHub. There is even a *Virtual AGC*
 that can run this code.<sup>[8]</sup> In all likelihood, it is the oldest *active* code on
 GitHub. Remarkably, its development began over half a century ago in the ashes
-of Mariner 1, a Venus probe destroyed shortly after launch due to a bug in its
+of Mariner 1, a Venus probe destroyed shortly after launch because of a bug in its
 guidance software.<sup>[20],[53]</sup> The prevailing explanation was that in the
 transcription of hand-written guidance equations into a software specification
-for the contractor, TRW, an over-bar to indicate the use of *average* rather than
-*instantaneous* velocity went missing; along with it, an $18M
+for the contractor, TRW, an overbar to indicate the use of *average* rather than
+*instantaneous* velocity went missing, and along with it an $18M
 probe ($152M in 2019 dollars) and a regrettable ration of American prestige.
 How would MIT and NASA avoid similar mistakes developing software for the AGC?
 
@@ -31,147 +31,147 @@ improvements and more.
 
 ### Extreme Co-design
 Initially, about all that was known with any certainty was that a digital
-computer would be the centerpiece of a complex collection of GN&C sub-systems.
+computer would be the centerpiece of a complex collection of GN&C subsystems.
 A year would pass before NASA selected the Lunar Orbit
 Rendezvous<sup>[55]</sup> (LOR) mission plan involving two separate
 and substantially different vehicles each with its own AGC.
-AGC software would control everything. Even so called *manually controlled* inputs would first
+AGC software would control everything. Even so-called manually controlled inputs would first
 pass through AGC software before affecting the relevant hardware. 
 
 ![](agc_and_spacecraft3.png)
 
-A challenge in developing the software is that all the GN&C sub-systems
+A challenge in developing the software was that all the GN&C subsystems
 pictured above were under development *simultaneously*
 right along with the software itself. Their interfaces, performance
 characteristics, size, weight and position within the spacecraft, all of
-which effect key parameters in guidance equations were constantly evolving.
+which affect key parameters in the guidance equations, were constantly evolving.
 
 Another challenge was testing the software's
-ability to interact with all these sub-systems
-without actually flying the vehicle?
+ability to interact with all these subsystems
+without actually flying the vehicle.
 Ultimately, several different test simulators would be developed.
 Again, these testing resources were being developed right along with
-the software it was intended to test. Even techniques to manage the
-software effort were effectively under development and evolving with the
+the software they were intended to test. Even techniques to manage the
+software effort were  under development and evolving with the
 software. Eventually, NASA would pressure MIT to adopt techniques pioneered
 by IBM to help manage large software development projects.
 
 Today, we would call all of this simultaneous development activity
-*co-design*<sup>[9],[10],[31]</sup> and it has a lot of advantages.
-But, in the 1960's where there were no DevOps<sup>[56]</sup> best practices and collaborative tools
-like GitLab, Jenkins, Confluence, Kanban, WebEx, or even Email, it presented a massive
+*co-design,*<sup>[9],[10],[31]</sup> and it has a lot of advantages.
+But, in the 1960s where there were no DevOps<sup>[56]</sup> best practices and collaborative tools
+such aa GitLab, Jenkins, Confluence, Kanban and WebEx, or even email, it presented a massive
 coordination and management challenge.
 
 ### Evolving requirements, versions and flight rope releases
 Early on, NASA's expectations for what functions
 the GN&C system would perform, and therefore the AGC software, continued to evolve
-motivated by such needs to reduce weight, increase safety margins, improve mission
+motivated by needs to reduce weight, increase safety margins, improve mission
 flexibility and optimize propellant usage.
 
 > NASA had established a need for the machine and had determined its general tasks, and
 > MIT received a contract based on only a short, very general requirements statement.
 > Requirements started changing immediately and continued to change throughout the program.<sup>[57]</sup>
 
-Midway through development, the AGC was re-designed to support more memory and an expanded
+Midway through development, the AGC was redesigned to support more memory and an expanded
 instruction set. Software developers had to support both.
-They were different enough that each required separate software development teams
-which only worsened already strained resources.
-The re-designed AGC had only 2K words of *erasable* core and 36K words of *fixed*
-or *rope core* memory. All software and data had to fit into this combined 76KB of memory.
+They were different enough that each required separate software development teams, a situation that
+ only worsened already strained resources.
+The redesigned AGC had only 2K words of *erasable* core and 36K words of *fixed*
+or *rope core* memory. All software and data had to fit into this combined 76 KB of memory.
 
 **The essential step for software developers was to produce a *flight program* or *rope*
-and release it to Raytheon for rope core manufacture approximately 4 months prior to launch;
+and release it to Raytheon for rope core  manufacture approximately 4 months prior to launch:
 2 months to manufacture the ropes followed by 2 months for installation in the spacecraft,
 checkout, integrated system testing, crew rehearsals and final erasable memory load.**
 
 MIT needed to deliver flight programs for ~30 Apollo flights (crewed and uncrewed),
 many with unique guidance requirements, planned between 1966 and 1972.<sup>[58]</sup>
 The lead engineer in coordinating and approving a completed flight program was
-called a *rope mother* and would also name the release. Early on the names were fairly
-creative including **ECLIPSE**, **SUNRISE**, **RETREAD** and **AURORA**. Eventually,
-NASA put a stop to this and only the names **COLOSSUS** and **LUMINARY** together
-with their revision numbers would be used to identify CM and LM flight programs
+called a *rope mother* and would also name the release. Early on, the names were fairly
+creative, including **ECLIPSE**, **SUNRISE**, **RETREAD** and **AURORA**. Eventually,
+NASA put a stop to this, and only the names **COLOSSUS** and **LUMINARY** together
+with their revision numbers would be used to identify CM and LM flight programs,
 respectively.<sup>[34]</sup> **LUMINARY 1A** is the revision used in the first lunar
 landing of Apollo 11.
 
 ### The AGC software stack
-Each flight program involved a combination of common utilities and mission specific
-space guidance subroutines. Mission specific components required significant
+Each flight program involved a combination of common utilities and mission-specific
+space guidance subroutines. Mission-specific components required significant
 analysis and development time. Early development activity, 1961-1965, focused on
 infrastructural software.
 
 **Program Name** | **Purpose** | **Size (AGC words)**
 :--- | :--- | ---:
-Executive<sup>[40]</sup> | Priority driven large/long-running process manager | ~350
-Waitlist<sup>[41]</sup> | Time sequenced small/short-running process manager | ~300
+Executive<sup>[40]</sup> | Priority-driven large/long-running process manager | ~350
+Waitlist<sup>[41]</sup> | Time-sequenced small/short-running process manager | ~300
 Down-Telemetry<sup>[44]</sup> | Transmit system data to ground | ~200
 Restart<sup>[45],[46],[47]</sup> | Error recovery and restart protection | ~1225
-Interpreter<sup>[42]</sup> | Space guidance domain specific programming language interpreter | ~2200
-DSKY I/O<sup>[43]</sup> | Cockpit Displays and Keypad | ~3500
+Interpreter<sup>[42]</sup> | Space guidance domain-specific programming language interpreter | ~2200
+DSKY I/O<sup>[43]</sup> | Cockpit displays and keypad | ~3500
 **Combined Total** | 22% of fixed memory | **~7775**
 
 ![](./agc_sw_stack.png)
 
-These programs comprised what we might call today the *Apollo Guidance Software Stack*.
+These programs constituted what we might call today the *Apollo guidance software stack*.
 All were implemented in assembly language. By 1965, most of this code had been
 written and fully tested and changed little with each new flight program. All
-higher level space guidance routines were implemented using some of these pieces.
+higher-level space guidance routines were implemented by using some of these pieces.
 
 An example of a space guidance subroutine is computing the relative positions of Earth,
 Sun and Moon at any moment. After evaluating options<sup>[51]</sup> in MAC Fortran on 
-mainframe systems, developers settled on an approach using 8th degree polynomial fits to
+mainframe systems, developers settled on an approach using 8th-degree polynomial fits to
 time-varying positional data predicted from mainframe solution of the 3-body (Earth, Sun, Moon)
-problem. Eight, double precision, X, Y and Z polynomial coefficients, 48 words of data,
+problem. Eight double-precision X, Y and Z polynomial coefficients, 48 words of data,
 fitting a 2-week period of Moon position data would
-then be stored in fixed memory. Another example is a list of stars,
+then be stored in fixed memory. Another example is a list of stars
 and spatial positions used with the Apollo space sextant<sup>[50]</sup>
 requiring 112 words.<sup>[59]</sup> This data
 and code would be among the 76 kilobytes of a flight program
-hand woven into rope core in the months before launch. For time sensitive data,
+hand woven into rope core in the months before launch. For time-sensitive data,
 multiple ropes for different launch windows would be manufactured as contingencies.
 A 1962 memo<sup>[25]</sup> lists 45 major software analysis efforts then
 underway for various aspects of planned Apollo missions.
 
 ### There's AGC app for that
-Flying to the moon and returning safely involved *long periods of boredom
+Flying to the Moon and returning safely involved *long periods of boredom
 punctuated by moments of extreme peril*. A mission was divided into phases by
 *velocity change maneuvers* or *burns* of the main engines. A complete mission
-involved around 11 main engine burns. For each maneuver,
+involved around 11 main engine burns. For each maneuver
 there was a corresponding program, called a *major mode program*, to handle it.
 For every phase of the mission, *there was an app for that*.
 
 By far the most critical sequence of maneuvers occurred during lunar landing.
-It was divided into 4 phases (pictured below left) depending on the amount and type of
-control the pilot required; Powered Descent (major mode P63), Approach (P64),
-Terminal Descent (P66), and Touchdown (P68).<sup>[6]</sup>
+It was divided into four phases (pictured below left) depending on the amount and type of
+control the pilot required: Powered Descent (major mode P63), Approach (P64),
+Terminal Descent (P66) and Touchdown (P68).<sup>[6]</sup>
 
 Development of a major mode program began with an analysis of the equations
 of motion governing the particular phase of the mission, an assessment of
 computational approaches utilizing available sensors, controls and engines
 to affect the desired velocity change (magnitude and direction) yet subject
 to a variety of constraints. For any particular maneuver, factors impacting
-algorithm design were considerable. They included zero gravity fuel slosh,
-changing center of mass due to fuel consumption, vehicle structural bending
-modes, main engine throttle and gimbal characteristics, sensor drift and
-deadbands (e.g. IMU gimbal lock), sensor measurement biases and uncertainties,
-optimizing use of RCS propellants, contingency logic for failed (on or off)
-RCS thrusters, minimizing RCS jet thrust durations in certain directions that
+algorithm design were considerable. They included zero-gravity fuel slosh;
+changing center of mass due to fuel consumption; vehicle structural bending
+modes; main engine throttle and gimbal characteristics; sensor drift and
+deadbands (e.g., IMU gimbal lock); sensor measurement biases and uncertainties;
+optimizing use of RCS propellants; contingency logic for failed (on or off)
+RCS thrusters; minimizing RCS jet thrust durations in certain directions that
 impinged on spacecraft skin or directed exhaust debris at windows or sensitive
-equipment, positions of Sun, Earth and Moon (all in constant motion) as well
-as their *lumpy*<sup>[3],[4]</sup> gravity fields, and precise timing of events
+equipment; positions of Sun, Earth and Moon (all in constant motion) as well
+as their *lumpy*<sup>[3],[4]</sup> gravity fields; and precise timing of events
 coordinating with lines of sight for communications.
 
 ![](agc_major_modes.png)
 
 ### Performance portability and the digital autopilot (DAP)
 
-Digital Autopilot (DAP) software was developed based on *Kalman Filtering*.<sup>[60]</sup>
+Digital autopilot (DAP) software was developed based on *Kalman filtering*.<sup>[60]</sup>
 The computation is decomposed into a *prediction* phase where an idealized model
 of the spacecraft is used to estimate the current state. In the second phase, noisy
 direct measurement of system state from spacecraft sensors is compared with the
 predicted state to produce control decisions.
 
-A key challenge was ensuring a single implementatin of DAP software would provide
+A key challenge was ensuring that a single implementation of DAP software would provide
 effective control given a variety of spacecraft configurations and operating
 scenarios. Doing so presented what we would call a *performance portability*
 problem.<sup>[12]</sup> Software developers made DAP execution configurable through a
@@ -179,37 +179,37 @@ number of parameters. Prior to a burn, astronauts would follow a checklist setti
 a number of switches and entering data on the DSKY to set parameters for the DAP
 execution during the burn.
 
-DAP software developers were given a budget of 10% of rope core memory (< 3,600 words) and
-20-30% of full computational load (3-4.5 kFLOPS). It would take 4 developers 3 years
-and 2000 words of rope core to develop the LM DAP software alone.
+DAP software developers were given a budget of 10% of rope core memory (<3,600 words) and
+20--30% of full computational load (3-4.5 kFLOPS). It would take four developers three years
+and 2,000 words of rope core to develop the LM DAP software alone.
 A key optimization realized late in development was that a change in coordinates used
-in the computations from *body axes* to *jet axes* reduced complexity of the code and
-increased performance<sup>[7],[13]</sup>.
+in the computations from *body axes* to *jet axes* reduced the complexity of the code and
+increased the performance<sup>[7],[13]</sup>.
 
-The picture above right shows the complex, non-linear switching logic used by the
+The picture above right shows the complex, nonlinear switching logic used by the
 Kalman filtering algorithm controlling RCS jet firings. With a change of a dial on the
-control panel, astronauts could adjust the filter from *course* to *fine* control.
+control panel, astronauts could adjust the filter from *coarse* to *fine* control.
 
 ### Testing
-Five different levels of testing were developed.
+Five  levels of testing were developed.
 * An all-software simulator (also known as the *all-digital* simulator)
-  for the AGC itself which included simulation of the *environment*.
+  for the AGC itself, which included simulation of the *environment*.
   A key concern was whether the *environment* faithfully represented the
-  behavior of the real GN&C hardware and spacecraft in which it was housed
+  behavior of the real GN&C hardware and spacecraft in which it was housed,
   including such issues as engine performance, fuel slosh and even structural
   responses of the spacecraft under torques and loads imposed by engine
   gimbaling and thruster firings. The all-digital simulation was implemented in
   MAC Fortran on MIT mainframes and ran at 10% of real-time speed. All-digital
   simulations were bit-for-bit repeatable.
 * A hybrid simulator using a real AGC together with a rope core simulator and a
-  combination of digital and analog simulation of various GN&C components the latter
+  combination of digital and analog simulation of various GN&C components, the latter
   requiring two massive machine rooms in the second and third stories of the test facility.
   Hybrid simulations were not repeatable.
-* System test labs using a real AGC and real GN&C sensor-systems such as the IMU,
+* System test labs using a real AGC and real GN&C sensor systems such as the IMU,
   radar and optics. These were used primarily to test AGC hardware and software
-  response to noisey inputs from these components.
+  response to noisy inputs from these components.
 * Crew rehearsals with a real AGC in the actual spacecraft exercising *some* of
-  the actual GN&C sub-systems. As a practical matter, such tests of course could not
+  the actual GN&C subsystems. As a practical matter, such tests of course could not
   include engine or thruster firings but did exercise other system components.
 * Actual flight tests of the fully integrated GN&C system both in uncrewed and crewed
   flights. Early missions included several objectives designed specifically to
@@ -220,70 +220,70 @@ Five different levels of testing were developed.
 
 In the data pictured here, data from actual flight tests of the LM descent engine
 is compared with the all-digital simulation. The inner gimbal angle data agree reasonbly
-well (left). However, a clear bug is revealed (middle) in failure to faithfully model outer gimbal angle
-due to missing structural dynamics modeling which was eventually corrected (right).
+well (left). However, a clear bug is revealed (middle) in failure to faithfully model the outer gimbal angle
+because of missing structural dynamics modeling, which was eventually corrected (right).
 
 > The need for formal validation rose with the size of the software. Programs of
 > 2,000 words took between 50 and 100 test runs to be fully debugged, and
 > full-size flight program took from 1,000 to 1,200 runs.
 
 The all-digital simulation of the AGC would eventually require MIT to purchase one
-Honeywell 800, 2 Honeywell-1800s and 2 IBM 360/75 peaking at about 4,500 cpu hours/month
-(equiv. H-1800 cpu) testing solely for the all-digital test simulator.
+Honeywell 800, two Honeywell-1800s and two IBM 360/75 peaking at about 4,500 CPU-hours/month
+(equiv. H-1800 CPU) testing solely for the all-digital test simulator.
 
 ### Putting the software effort in context
 The whole GN&C system for all 16 uncrewed and 11 crewed Apollo missions
 cost a total of ~$600M<sup>[24]</sup> over 10 years. The software
-effort was about 10% of that<sup>[23]</sup> ($500M in 2019 dollars) the majority
-of it occurring over the last 5 years or about $100M/year in 2019 dollars.
+effort was about 10% of that<sup>[23]</sup> ($500M in 2019 dollars), the majority
+of it occurring over the last five years or about $100M/year in 2019 dollars.
 By comparison, the Exascale Computing Project budget for 2019 is projected to be
-$809M which includes many non-software related costs suggesting the AGC software
+$809M, which includes many non-software-related costs, suggesting that the AGC software
 effort alone is on par with the software effort of the ECP program.
 
 > Before the first lunar landing, more than 1400 person-years of software
 > engineering effort had been expended, with a peak level of effort of 350
 > engineers reached in 1968.
 
-In a 1972 Master's thesis,<sup>[23]</sup> software
+In a 1972 master's thesis,<sup>[23]</sup> software
 costs are broken down by category shown below, left. The *Computer* category
 is the cost of machine hardware purchased by MIT used primarily for testing
 purposes. Factoring this out, we have the adjusted, relative costs of the
-software only right.
+software on the right.
 There was even an automatic documentation system developed to help manage
-costs of documentation for test engineers, crew, and flight controls.<sup>[61]</sup>
+costs of documentation for test engineers, crew and flight controls.<sup>[61]</sup>
 
 ![](agc_sw_costs_combined.png)
 
-> In the early stages, there were no "programmers". Instead engineers and scientists
+> In the early stages, there were no "programmers." Instead, engineers and scientists
 > learned the techniques of programming. It was believed that competent engineers could
 > learn programming more easily than programmers could learn engineering.<sup>[54]</sup>
 
 We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
 work on the on AGC<sup>[21],[29]</sup>, for being the first to champion
-*Software Engineering*<sup>[28]</sup>
-as a discipline unto itself "...to bring the software [effort] legitimacy so that it
+*software engineering*<sup>[28]</sup>
+as a discipline unto itself "to bring the software [effort] legitimacy so that it
 and those building it would be given due respect." Hamilton was the only woman working
-on AGC software and ultimately became a rope mother for LM fight program **LUMINARY**.
+on AGC software and ultimately became a rope mother for the LM fight program **LUMINARY**.
 
 > Throughout much of the Apollo effort, MIT experienced difficulty in estimating the
 > time and effort requirements to design, test and verify successive mission programs.<sup>[54]</sup>
 
 > No one doubted the quality of the software eventually produced by MIT. It was the
-> process used in software development that caused great concern. The lessons were:
-> (a) up-to-date documentation is crucial, (b) verification must proceed through
-> several levels, (c) requirements must be clearly defined and carefully managed,
-> (d) good development plans should be created and executed, and (e) more programmers
-> do not mean faster development<sup>[19]</sup>.
+> process used in software development that caused great concern. Five lessons were identified:
+> (1) up-to-date documentation is crucial, (2) verification must proceed through
+> several levels, (3) requirements must be clearly defined and carefully managed,
+> (4) good development plans should be created and executed, and (5) more programmers
+> do not mean faster development.<sup>[19]</sup>
 
 In the space race, the Russian program achieved all of its early successes, which were
-many, using analog on-board and digital ground computers for guidance. This is possible
+many, using analog on-board and digital ground computers for guidance. This approach is possible
 for Earth orbital flights involving a single vehicle. But the complexities of providing
 guidance for multiple vehicles or lunar missions including soft landing and return to
 Earth eventually forced the Russians to begin their own digital, on-board computer
 development. In August 1969, the uncrewed Russian probe Zond-7 guided by an Argon-11S<sup>[62]</sup>
 digital computer completed the first fully successful Russian circumlunar mission.
 
-In all, there were four on-board computers on an Apollo mission. There were two AGC's, one each
+In all, there were four on-board computers on an Apollo mission. There were two AGCs, one each
 in the CM and LM. The LM also had a backup computer called the
 *Abort Guidance System (AGS)*<sup>[63]</sup> that was designed to be used only for
 aborting from a lunar landing. The Saturn booster had its own computer called the
