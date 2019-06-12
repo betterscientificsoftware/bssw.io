@@ -48,7 +48,11 @@ Vestibulum eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus
 
 ### More than 3 footnotes in same `<sup></sup>` pair
 
-### Link validation
+## Ref link validation
+
+Presently, wikizer script doesn't do any reference link validation. But, it could and maybe it should.
+If it does, it should probably only validate links that are in the reference list and actually
+referenced.
 
 ## Reference sub-part processing
 
