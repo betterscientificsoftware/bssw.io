@@ -24,9 +24,9 @@ Reference:
 # Workflow
 1. **Somehow** is used in the steps described here to refer to one of several proposed modalites
    of action when it is not otherwise clear.
-  * Automatically via Git/GitHub features or via yet to be developed scripts.
-  * Organically via some **EB Member** simply volunteering to do it.
-  * Meeting via decision/action at proposed bi-weekly content meetings.
+   * Automatically via Git/GitHub features or via yet to be developed scripts.
+   * Organically via some **EB Member** simply volunteering to do it.
+   * Meeting via decision/action at proposed bi-weekly content meetings.
 1. **Anyone** submits (the *submitter*) a GitHub issue using the curated content issue template. 
 1. Somehow, the issue is added to the “Content Development” project board *Idea Backlog* column.
 1. Somehow, the issue is selected from the *Idea Backlog* for discussion and review and moved to the *Topic Review* column.
@@ -34,11 +34,11 @@ Reference:
 1. Somehow, a deadline for completion of discussion and review period is set. See [below](#setting-deadlines)
 1. Discussion and reaction proceeds among **EB Members**.
 1. Somewhow, the issue is either accepted and moved to the *Development Backlog* or rejected.
-  * Acceptance criteria:
-    * When there are two or more “thumbs up” than “thumbs down” reactions 
-  * Rejection criteria:
-    * if an issue has not reached +2 by deadline
-    * if the issue is inactive for 30 days, its
+   * Acceptance criteria:
+     * When there are two or more “thumbs up” than “thumbs down” reactions 
+   * Rejection criteria:
+     * if an issue has not reached +2 by deadline
+     * if the issue is inactive for 30 days, its
 1. Somehow, an **Author** is selected and then assigned using the *assignees* feature on GitHub issues
    and a deadline for completion is set. See [below](#setting-deadlines)
 1. Somehow, issue is moved from the *Development Backlog* column.
