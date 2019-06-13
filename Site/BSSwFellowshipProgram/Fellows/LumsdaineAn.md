@@ -1,11 +1,19 @@
 **Year:** 2018
+
 **Name:** Andrew Lumsdaine
+
 **Affiliation:** Pacific Northwest National Laboratory, University of Washington, Northwest Institute for Advanced Computing
+
 **Image:** /images/blob/master/HM_davis.jpg
+
 **URL:** https:xxx.com
+
 **LinkedIn:** https:xxx.com
+
 **Github:** No github presence?
+
 **Short Bio:** Text text text practices for high-performance and high-quality scientific software in modern C++
+
 **Long Bio:** Text text text practices for high-performance and high-quality scientific software in modern C++, Text text text practices for high-performance and high-quality scientific software in modern C++
 
 Andrew is a Fellow, Advanced Computing, Mathematics, and Data Division at The Pacific Northwest National Laboratory; Affiliate Professor, Computer Science at The University of Washington; Chief Scientist at the Northwest Institute for Advanced Computing 
