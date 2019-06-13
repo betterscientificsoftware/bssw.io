@@ -1,5 +1,5 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from ApolloGuidanceComputerPart2.md --->
-# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub
+# Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub
 
 **Hero Image:**
 
@@ -271,7 +271,7 @@ guided by an Argon-11S<sup>[43]</sup> digital computer completed the first fully
 successful Russian circumlunar mission.
 
 <!---
-Publish: no
+Publish: preview
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
