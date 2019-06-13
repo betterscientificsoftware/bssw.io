@@ -41,14 +41,13 @@ Reference:
     * if the issue is inactive for 30 days, its
 1. Somehow, an **Author** is selected and then assigned using the *assignees* feature on GitHub issues
    and a deadline for completion is set. See [below](#setting-deadlines)
-1. **Author** moves issue from the *Development Backlog* column and produces a
-   draft of the item as a pull request (PR) and associates with the issue using GitHub.
-   * Only repository owners can manipulate project boards so this implies **Author** is always an owner.
-1. Somehow, the pull request is added to the *Item Review* column.
-   * When the *author* does this s/he should also send a note to the *submitter* about this fact.
+1. Somehow, issue is moved from the *Development Backlog* column.
+1. **Author** produces a draft of the item as a pull request (PR) and associates with the issue using GitHub.
+1. Somehow, the pull request is added to the *Item Review* column and *submitter* is notified.
 1. Any desired automated tests run on the PR and results are reported.
-1. An **EB member** reviews the item, interacts with the **Author** to refine as necessary, and
-   approves the PR. The PR is moved to the *Ready for Publication* column.
+1. **EB members** review the item, interact with the **Author** to refine as necessary, and
+   approves the PR.
+1. Somehow, the PR is moved to the *Ready for Publication* column.
 1. An **Editorial Assistant** merges the PR and marks the metadata for publication. The PR is
    moved to the *Done* column.
 
@@ -70,6 +69,13 @@ Reference:
    (e.g. **EB Member** for an editorial board) and maintain a list of the *values* of those
    constants (e.g. who currently comprises the editorial board) elsewhere. In this way,
    the workflow doesn't change when staffing changes.
+1. There are a lot of **Somehows** here suggesting we have to think through these steps.
+1. It feels like the original workflow was designed around the concept of a *pool* of **EB Members** who
+   organically cultivate activity and perform various steps on a volunteer, as-needed or as-available
+   basis. That modality of operation might work but does some a bit more complicated than simple
+   *assignment* of a responsible **EB Member** to marshal a given approved content idea from inception
+   to completion.
+1. **Editorial Assistant** role is mentioned only in last step. Do we really need a special role for this?
 
 ###### Setting deadlines
 Periodically, we can run a script that deletes past *milestones* and
