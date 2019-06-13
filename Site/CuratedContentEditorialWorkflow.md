@@ -38,7 +38,7 @@ Reference:
      * When there are two or more “thumbs up” than “thumbs down” reactions 
    * Rejection criteria:
      * if an issue has not reached +2 by deadline
-     * if the issue is inactive for 30 days, its
+     * if the issue is inactive for 30 days
 1. Somehow, an **Author** is selected and then assigned using the *assignees* feature on GitHub issues
    and a deadline for completion is set. See [below](#setting-deadlines)
 1. Somehow, issue is moved from the *Development Backlog* column.
