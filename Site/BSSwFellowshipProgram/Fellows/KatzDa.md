@@ -1,11 +1,19 @@
 **Year:** 2018
+
 **Name:** Daniel S. Katz
+
 **Affiliation:** University of Illinois at Urbana-Champaign, National Center for Supercomputing Applications
+
 **Image:** /images/blob/master/HM_davis.jpg
+
 **URL:** https:xxx.com
+
 **LinkedIn:** https:xxx.com
+
 **Github:** https://github.com/danielskatz
+
 **Short Bio:** Text text text generation of computational experimentation pipelines that are easy to re-execute and validate
+
 **Long Bio:** Text text text generation of computational experimentation pipelines that are easy to re-execute and validate, Text text text generation of computational experimentation pipelines that are easy to re-execute and validate
 
 Daniel is a Research Associate and Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences at The University of Illinois at Urbana-Champaign and Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications.

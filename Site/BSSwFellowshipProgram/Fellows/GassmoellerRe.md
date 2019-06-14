@@ -1,11 +1,19 @@
 **Year:** 2019
+
 **Name:** Rene Gassmoeller
+
 **Affiliation:** University of California, Davis
+
 **Image:** /images/blob/master/HM_davis.jpg
+
 **URL:** https:xxx.com
+
 **LinkedIn:** https:xxx.com
+
 **Github:** https://github.com/gassmoeller
+
 **Short Bio:** Text text text social challenges in the evolution of scientific software projects
+
 **Long Bio:** Text text text social challenges in the evolution of scientific software projects, Text text text social challenges in the evolution of scientific software projects
 
 Rene is an Assistant Project Scientist focusing on Earth and Planetary Sciences

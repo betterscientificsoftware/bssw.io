@@ -1,11 +1,19 @@
 **Year:** 2019
+
 **Name:** Tanu Malik
+
 **Affiliation:** DePaul University
+
 **Image:** /images/blob/master/HM_davis.jpg
+
 **URL:** https:xxx.com
+
 **LinkedIn:** https://www.linkedin.com/in/tanu-malik-53513628/
+
 **Github:** https://github.com/TanuMalik
+
 **Short Bio:** Reducing technical debt in scientific software
+
 **Long Bio:** Text text text reducing technical debt in scientific software, Text text text reducing technical debt in scientific software
 
 Tanu is an Assistant Professor in DePaul's School of Computing
