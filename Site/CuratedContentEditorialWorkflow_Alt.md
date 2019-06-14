@@ -50,3 +50,6 @@ a bi-weekly progress meeting.
    * Approved PRs are merged and metadata is added in preparation for publication
    * Unapproved PRs are reviewed in-situ and approved or not. If no approval forthcoming,
      revisions required by author are explained in comments in the PR.
+1. Milestones (deadlines) are reviewed to ensure any items intended for a given
+   date are either completed, have committments they will be completed or pushed
+   to a new deadline.
