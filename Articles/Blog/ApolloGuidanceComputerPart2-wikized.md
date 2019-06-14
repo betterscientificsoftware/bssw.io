@@ -39,7 +39,9 @@ and substantially different vehicles each with its own AGC.
 AGC software would control everything. Even so-called manually controlled inputs would first
 pass through AGC software before affecting the relevant hardware. 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page' />
+<br> 
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_B.png' class='page' />
 
 <br> 
 
@@ -102,7 +104,9 @@ Interpreter<sup>[27]</sup> | Space guidance domain-specific programming language
 DSKY I/O<sup>[28]</sup> | Cockpit displays and keypad | ~3500
 **Combined Total** | 22% of fixed memory | **~7775**
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png' class='page' />
+<br>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.png' class='page' />
 
 <br> 
 
@@ -154,7 +158,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes.png_B' class='page' />
 
 <br>
 
@@ -214,7 +218,7 @@ Five different levels of testing were developed.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.png' class='page' />
 
 <br>
 
@@ -253,7 +257,7 @@ costs down, there was even a computer-automated documentation system developed.<
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined.png)' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.png' class='page' />
 
 <br>
 
