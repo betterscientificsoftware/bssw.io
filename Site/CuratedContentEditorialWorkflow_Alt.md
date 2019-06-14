@@ -41,7 +41,7 @@ a bi-weekly progress meeting.
      **EB Member** is assigned. An author, if different from **EB Member** is
      identified (via @ mention) and a deadline is set (via milestone) for completion.
 1. Issues in Development backlog are handled as follows
-   * Issues in jeapordy of making completion are reviewed and discussed. Authors are
+   * Issues in jeapordy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
    * Issues that are woefully beyond deadline are labeled as `insuffucient development`
      and closed.
@@ -52,4 +52,15 @@ a bi-weekly progress meeting.
      revisions required by author are explained in comments in the PR.
 1. Milestones (deadlines) are reviewed to ensure any items intended for a given
    date are either completed, have committments they will be completed or pushed
-   to a new deadline.
+
+The key challenge in this process is the *iteration rate*. That is, how fast issues can
+move through the steps. At a meeting interval of every other weeks. Any issues not
+handled entirely during one meeting need to wait for the next. So, for example, suppose
+a completed PR for a CC article is in the system but hasn't been approved by its assigned
+approver. If the solution is to wait for the approver, then the item sits for two weeks
+even if the approver provided approval the day after the meeting.
+
+The solution to this problem is potentially a bit higher iteration rate of meetings once
+a week instead of once every other week. Another solution is to empower (some) **EB Members**
+to take steps agreed to during a meeting *as the work happens* instead of waiting until the
+next meeting.
