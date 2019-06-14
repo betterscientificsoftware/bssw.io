@@ -39,7 +39,9 @@ and substantially different vehicles each with its own AGC.
 AGC software would control everything. Even so-called manually controlled inputs would first
 pass through AGC software before affecting the relevant hardware. 
 
-![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png)
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page' />
+
+<br> 
 
 A challenge in developing the software was that all the GN&C subsystems
 pictured above were under development *simultaneously*
@@ -100,7 +102,9 @@ Interpreter<sup>[27]</sup> | Space guidance domain-specific programming language
 DSKY I/O<sup>[28]</sup> | Cockpit displays and keypad | ~3500
 **Combined Total** | 22% of fixed memory | **~7775**
 
-![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png)
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png' class='page' />
+
+<br> 
 
 These programs constituted what we might call today the *Apollo guidance software stack*.
 All were implemented in assembly language. By 1965, most of this code had been
@@ -148,7 +152,11 @@ the Moon's lump gravity field;<sup>[2],[3]</sup> and precision timing to coordin
 a planetary ballet of Earth, Moon Sun and multiple spacecraft and the lines of sight
 of communications between them and mission control.
 
-![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes.png)
+<br>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes.png' class='page' />
+
+<br>
 
 ### Performance portability and the digital autopilot (DAP)
 
@@ -204,7 +212,12 @@ Five different levels of testing were developed.
   flights. Early missions included several objectives designed specifically to
   test AGC software.
 
-![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare.png)
+<br>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare.png' class='page' />
+
+<br>
+
 
 In the data pictured here, data from actual flight tests of the LM descent engine
 is compared with the all-digital simulation. The inner gimbal angle data agree reasonbly
@@ -238,7 +251,11 @@ almost exclusively for testing, the adjusted, relative costs of the
 software development alone are shown below, right. To help keep documentation
 costs down, there was even a computer-automated documentation system developed.<sup>[43]</sup>
 
-![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined.png)
+<br>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined.png)' class='page' />
+
+<br>
 
 > In the early stages, there were no "programmers." Instead, engineers and scientists
 > learned the techniques of programming. It was believed that competent engineers could
