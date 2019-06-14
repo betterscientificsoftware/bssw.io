@@ -41,7 +41,7 @@ pass through AGC software before affecting the relevant hardware.
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_B.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_B.jpg' class='page' />
 
 <br> 
 
@@ -94,7 +94,7 @@ space guidance subroutines. Mission-specific components required significant
 analysis and development time. Early development activity, 1961-1965, focused on
 infrastructural software.
 
-**Program Name** | **Purpose** | **Size (AGC words)**
+Program Name | Purpose | Size (AGC words)
 :--- | :--- | ---:
 Executive<sup>[25]</sup> | Priority-driven large/long-running process manager | ~350
 Waitlist<sup>[26]</sup> | Time-sequenced small/short-running process manager | ~300
@@ -102,11 +102,11 @@ Down-Telemetry<sup>[29]</sup> | Transmit system data to ground | ~200
 Restart<sup>[30],[31],[32]</sup> | Error recovery and restart protection | ~1225
 Interpreter<sup>[27]</sup> | Space guidance domain-specific programming language interpreter | ~2200
 DSKY I/O<sup>[28]</sup> | Cockpit displays and keypad | ~3500
-**Combined Total** | 22% of fixed memory | **~7775**
+Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page' />
 
 <br> 
 
@@ -158,7 +158,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />
 
 <br>
 
@@ -218,7 +218,7 @@ Five different levels of testing were developed.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />
 
 <br>
 
@@ -257,7 +257,7 @@ costs down, there was even a computer-automated documentation system developed.<
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />
 
 <br>
 
