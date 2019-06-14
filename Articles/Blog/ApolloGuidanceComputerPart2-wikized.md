@@ -158,7 +158,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes.png_B' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.png' class='page' />
 
 <br>
 
