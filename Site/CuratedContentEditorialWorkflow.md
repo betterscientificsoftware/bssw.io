@@ -83,3 +83,30 @@ creates one-per-month *milestones* for a period of time in the future via the
 [GitHub web api](https://developer.github.com/v3/issues/milestones/#create-a-milestone). This
    would give EB members one month granularity to set deadlines yet avoid creating a milestone each time
    we wanna set a deadline.
+
+
+## Alternative Workflow
+
+The key difference in this alternative workflow is that it explicitly requires
+**EB Members** engage in specific activities on a routine basis.
+
+1. **EB Members** meet, virtually, every other week for a half-hour meeting to consider new
+   issue submissions, update on progress of current content development tasks, assign
+   members to issues. During such meetings, the **EB Member** leading the meeting for that
+   day performs various GitHub operations using a shared screen including
+   * Leading discussion of *new issues* since last meeting.
+   * Adjusting labels on issues as decided during the meeting.
+   * Moving issues to various columns of the Content Development project board.
+   * Assigning issues to people as decided during the meeting.
+   * Creating and assigning milestones to various issues as decided during the meeting.
+   * Recording notes on progress of various items in progress.
+   * Merging to master any PRs that are known ready.
+1. Ideas for curated content articles are submitted by anyone with a GitHub account
+   using curated content issue template.
+1. During bi-weekly meeting, curated content issues are handled as follows...
+   * Curated content issues more than 30 days old that have garnered no
+     interest are labeled as `wontdo` and closed.
+   * New issues are reviewed  
+
+all new issues are reviewed. Any new or curated content issues
+   that are selected for further consideration are moved to the
