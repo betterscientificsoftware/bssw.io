@@ -6,7 +6,7 @@
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0615_Apollo2.jpg' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: June 14, 2019
+#### Publication date: June 17, 2019
 
 *Second of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
@@ -22,7 +22,7 @@ for the contractor, TRW, an overbar to indicate the use of *average* rather than
 probe ($152M in 2019 dollars) and a regrettable ration of American prestige.
 How would MIT and NASA avoid similar mistakes developing software for the AGC?
 
-This is the second of three articles about the AGC. In part 1, we described the
+This is the second of three articles about the AGC. In [part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap), we described the
 hardware.<sup>[20]</sup> Here, in part 2, we focus on MIT's effort to develop
 the software.<sup>[4],[12],[36]</sup>
 As in part 1, the scientific computing community will recognize
@@ -82,10 +82,10 @@ MIT needed to deliver flight programs for ~30 Apollo flights (crewed and uncrewe
 many with unique guidance requirements, planned between 1966 and 1972.<sup>[40]</sup>
 The lead engineer in coordinating and approving a completed flight program was
 called a *rope mother* and would also name the release. Early on, the names were fairly
-creative, including **ECLIPSE**, **SUNRISE**, **RETREAD** and **AURORA**. Eventually,
-NASA put a stop to this, and only the names **COLOSSUS** and **LUMINARY** together
+creative, including ECLIPSE, SUNRISE, RETREAD and AURORA. Eventually,
+NASA put a stop to this, and only the names COLOSSUS and LUMINARY together
 with their revision numbers would be used to identify CM and LM flight programs,
-respectively.<sup>[24]</sup> **LUMINARY 1A** is the revision used in the first lunar
+respectively.<sup>[24]</sup> LUMINARY 1A is the revision used in the first lunar
 landing of Apollo 11.
 
 ### The AGC software stack
@@ -94,7 +94,7 @@ space guidance subroutines. Mission-specific components required significant
 analysis and development time. Early development activity, 1961-1965, focused on
 infrastructural software.
 
-Program Name | Purpose | Size (AGC words)
+<strong>Program Name</strong> | <strong>Purpose</strong> | Size (AGC words)
 :--- | :--- | ---:
 Executive<sup>[25]</sup> | Priority-driven large/long-running process manager | ~350
 Waitlist<sup>[26]</sup> | Time-sequenced small/short-running process manager | ~300
@@ -102,7 +102,7 @@ Down-Telemetry<sup>[29]</sup> | Transmit system data to ground | ~200
 Restart<sup>[30],[31],[32]</sup> | Error recovery and restart protection | ~1225
 Interpreter<sup>[27]</sup> | Space guidance domain-specific programming language interpreter | ~2200
 DSKY I/O<sup>[28]</sup> | Cockpit displays and keypad | ~3500
-Combined Total | 22% of fixed memory | ~7775
+<strong>Combined Total</strong> | 22% of fixed memory | ~7775
 
 <br>
 
@@ -270,7 +270,7 @@ work on the on AGC<sup>[16],[22]</sup>, for being the first to champion
 *software engineering*<sup>[21]</sup>
 as a discipline unto itself "to bring the software [effort] legitimacy so that it
 and those building it would be given due respect." Hamilton was the only woman working
-on AGC software and ultimately became a rope mother for the LM fight program **LUMINARY**.
+on AGC software and ultimately became a rope mother for the LM fight program LUMINARY.
 
 > Throughout much of the Apollo effort, MIT experienced difficulty in estimating the
 > time and effort requirements to design, test and verify successive mission programs.<sup>[36]</sup>
