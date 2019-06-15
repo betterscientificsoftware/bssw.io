@@ -41,7 +41,7 @@ pass through AGC software before affecting the relevant hardware.
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_B.jpg' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page' />
 
 <br> 
 
