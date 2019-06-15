@@ -68,8 +68,8 @@ coordination and management challenge.
 
 Midway through development, the AGC was redesigned to support more memory and an expanded
 instruction set.
-They were different enough that each required separate software development teams, a situation that
-only worsened already strained resources.
+The original and redesigned systems were different enough that each required separate software
+development teams, a situation that only worsened already strained resources.
 The redesigned AGC had only 2K words of *erasable* core and 36K words of *fixed*
 or *rope core* memory. All software and data had to fit into this combined 76KB of memory.
 
