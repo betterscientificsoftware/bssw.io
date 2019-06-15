@@ -291,18 +291,6 @@ development. In August 1969, the uncrewed Russian probe Zond-7<sup>[48]</sup>
 guided by an Argon-11S<sup>[44]</sup> digital computer completed the first fully
 successful Russian circumlunar mission.
 
-<!---
-Publish: preview
-Categories: performance
-Topics: high-performance computing, performance portability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
---->
-
-
-
 <br>
 
 <!---
