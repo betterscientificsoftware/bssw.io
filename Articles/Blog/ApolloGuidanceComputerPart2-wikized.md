@@ -143,7 +143,7 @@ By far the most critical sequence of maneuvers occurred during lunar landing.
 It was divided into four phases (pictured below left) depending on the balance of
 automated and manual control the astronauts required: Powered Descent
 (major mode P63), Approach (P64), Terminal Descent (P66) and Touchdown (P68).<sup>[5]</sup>
-Examples of other mode mode programs were Trans Lunar Injection (P15), 
+Examples of other major mode programs were Trans Lunar Injection (P15), 
 Return To Earth (P37), Ballistic Re-entry (P66).
 
 Development of a major mode program began with an analysis of the relevant equations
