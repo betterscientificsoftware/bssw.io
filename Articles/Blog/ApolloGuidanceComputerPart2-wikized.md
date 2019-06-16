@@ -241,8 +241,7 @@ nearly 60% of the entire software development budget.
 ### Putting the software effort in context
 The whole Apollo GN&C system was about $600M over ten years<sup>[18]</sup>. The software alone
 was about 10% of that or about $60M<sup>[17]</sup>, the majority
-of it occurring over the last five years. This equates to $100M/year in 2019 dollars, about the
-same level of effort as the non-hardware portion of the Exascale Computing Program (ECP).
+of it occurring over the last five years. This equates to $100M/year in 2019 dollars.
 
 > Before the first lunar landing, more than 1400 person-years of software
 > engineering effort had been expended, with a peak level of effort of 350
