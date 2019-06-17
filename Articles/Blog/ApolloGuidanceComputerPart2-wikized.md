@@ -267,12 +267,7 @@ on AGC software and ultimately became a rope mother for the LM fight program LUM
 
 **Throughout much of the Apollo effort, MIT experienced difficulty in estimating the time and effort requirements to design, test and verify successive mission programs.**<sup>[36]</sup>
 
-**No one doubted the quality of the software eventually produced by MIT. It was the
-> process used in software development that caused great concern. Five lessons were identified:
-> (1) up-to-date documentation is crucial, (2) verification must proceed through
-> several levels, (3) requirements must be clearly defined and carefully managed,
-> (4) good development plans should be created and executed, and (5) more programmers
-> do not mean faster development.**<sup>[14]</sup>
+**No one doubted the quality of the software eventually produced by MIT. It was the process used in software development that caused great concern. Five lessons were identified: (1) up-to-date documentation is crucial, (2) verification must proceed through several levels, (3) requirements must be clearly defined and carefully managed, (4) good development plans should be created and executed, and (5) more programmers do not mean faster development.**<sup>[14]</sup>
 
 The Russian program achieved all of its early successes
 using ground-based computers for guidance. This approach is possible
