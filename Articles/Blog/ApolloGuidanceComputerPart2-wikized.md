@@ -42,7 +42,7 @@ the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicle
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page lightbox' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_C.jpg' class='page' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
 
 <br> 
 
@@ -107,7 +107,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png' class='page lightbox' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png' class='page' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
 
 <br> 
 
