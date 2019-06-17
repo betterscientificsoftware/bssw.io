@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0615_Apollo2.jpg' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0615_Apollo2.jpg' />[Image Source: NASA (see below)]
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: June 17, 2019
@@ -42,7 +42,7 @@ the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicle
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page lightbox' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page lightbox' />[The two principal components of the Apollo mission: The Command and Service Module (CSM) and Lunar Module (LM).]
 
 <br> 
 
@@ -103,11 +103,11 @@ Down-Telemetry<sup>[29]</sup> | Transmit system data to ground | ~200
 Restart<sup>[30],[31],[32]</sup> | Error recovery and restart protection | ~1225
 Interpreter<sup>[27]</sup> | Space guidance domain-specific programming language interpreter | ~2200
 DSKY I/O<sup>[28]</sup> | Cockpit displays and keypad | ~3500
-<strong>Combined Total</strong> | <strong>22% of fixed memory</strong> | <strong>~7775</strong>
+Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page lightbox' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page lightbox' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
 
 <br> 
 
@@ -159,7 +159,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, a critical sequence of maneuvers occurred during lunar landing; right, a graph of switching logic used to control RCS jet firings in coasting flight]
 
 <br>
 
@@ -219,7 +219,7 @@ Five different levels of testing were developed.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />[Data from actual flight tests of the LM descent engine is shown alongside the data from the all-digital simulation.]
 
 <br>
 
@@ -252,7 +252,7 @@ costs down, there was even a computer-automated documentation system developed.<
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC Software Development Productivity and Costs]
 
 <br>
 
