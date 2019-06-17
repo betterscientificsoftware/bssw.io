@@ -103,7 +103,7 @@ Down-Telemetry<sup>[29]</sup> | Transmit system data to ground | ~200
 Restart<sup>[30],[31],[32]</sup> | Error recovery and restart protection | ~1225
 Interpreter<sup>[27]</sup> | Space guidance domain-specific programming language interpreter | ~2200
 DSKY I/O<sup>[28]</sup> | Cockpit displays and keypad | ~3500
-Combined Total | 22% of fixed memory | ~7775
+<strong>Combined Total</strong> | <strong>22% of fixed memory</strong> | <strong>~7775</strong>
 
 <br>
 
