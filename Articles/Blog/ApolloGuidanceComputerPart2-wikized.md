@@ -58,7 +58,7 @@ by IBM to help manage large software development projects.
 
 Today, we would call all of this simultaneous development activity
 *co-design,*<sup>[8],[9],[23]</sup> and it has a lot of advantages.
-But, in the 1960s where there were no DevOps<sup>[38]</sup> best practices and collaborative tools
+But, in the 1960s when there were no DevOps<sup>[38]</sup> best practices and collaborative tools
 such as GitLab, Jenkins, Confluence, Kanban and WebEx, or even email, it presented a massive
 coordination and management challenge.
 
@@ -195,7 +195,7 @@ filter from *coarse* to *fine* control.
 Five different levels of testing were developed.
 
 * An all-software simulator (also known as the *all-digital* simulator)
-  for the AGC which included simulation of the *environment*.<sup>[51]</sup>
+  for the AGC, which included simulation of the *environment*.<sup>[51]</sup>
   A key concern was whether the *environment* faithfully represented the
   behavior of the real GN&C hardware and spacecraft
   including such issues as engine performance, fuel slosh and even structural
@@ -243,7 +243,6 @@ nearly 60% of the entire software development budget.
 The whole Apollo GN&C system cost about $600M over ten years<sup>[18]</sup>. The software alone
 was about 10% of that or about $60M<sup>[17]</sup>, the majority
 of it occurring over the last five years. This equates to $100M/year in 2019 dollars.
-To put this in context, that level of effort is potentially on par with or might even rival the software portion of the Exascale Computing Project (ECP).
 
 > Before the first lunar landing, more than 1400 person-years of software
 > engineering effort had been expended, with a peak level of effort of 350
