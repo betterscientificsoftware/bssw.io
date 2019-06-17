@@ -95,7 +95,7 @@ space guidance subroutines. Mission-specific components required significant
 analysis and development time. Early development activity, 1961-1965, focused on
 infrastructural software.
 
-<strong>Program Name</strong> | <strong>Purpose</strong> | Size (AGC words)
+Program Name | Purpose | Size (AGC words)
 :--- | :--- | ---:
 Executive<sup>[25]</sup> | Priority-driven large/long-running process manager | ~350
 Waitlist<sup>[26]</sup> | Time-sequenced small/short-running process manager | ~300
@@ -103,7 +103,7 @@ Down-Telemetry<sup>[29]</sup> | Transmit system data to ground | ~200
 Restart<sup>[30],[31],[32]</sup> | Error recovery and restart protection | ~1225
 Interpreter<sup>[27]</sup> | Space guidance domain-specific programming language interpreter | ~2200
 DSKY I/O<sup>[28]</sup> | Cockpit displays and keypad | ~3500
-<strong>Combined Total</strong> | 22% of fixed memory | ~7775
+Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
