@@ -107,7 +107,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png' class='page' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
 
 <br> 
 
