@@ -30,7 +30,7 @@ some familiar themes such as the benefits and challenges of *co-design*, the imp
 sufficient testing resources, the role and impact of software process
 improvements and more.
 
-### Extreme Co-design
+### Extreme co-design
 Initially, about all that was known with any certainty was that a digital
 computer would be the centerpiece of a complex collection of GN&C subsystems.
 A year would pass before NASA selected the Lunar Orbit
@@ -42,7 +42,7 @@ the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicle
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page lightbox' />
 
 <br> 
 
@@ -63,9 +63,9 @@ such as GitLab, Jenkins, Confluence, Kanban and WebEx, or even email, it present
 coordination and management challenge.
 
 ### Evolving requirements, versions and flight rope releases
-> NASA had established a need for the machine and had determined its general tasks, and
-> MIT received a contract based on only a short, very general requirements statement.
-> Requirements started changing immediately and continued to change throughout the program.<sup>[39]</sup>
+NASA had established a need for the machine and had determined its general tasks, and
+MIT received a contract based on only a short, very general requirements statement.
+Requirements started changing immediately and continued to change throughout the program.<sup>[39]</sup>
 
 Midway through development, the AGC was redesigned to support more memory and an expanded
 instruction set.
@@ -92,7 +92,7 @@ landing of Apollo 11.
 ### The AGC software stack
 Each flight program involved a combination of common utilities and mission-specific
 space guidance subroutines. Mission-specific components required significant
-analysis and development time. Early development activity, 1961-1965, focused on
+analysis and development time. Early development activity, 1961–1965, focused on
 infrastructural software.
 
 Program Name | Purpose | Size (AGC words)
@@ -107,7 +107,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page lightbox' />
 
 <br> 
 
@@ -229,9 +229,7 @@ is compared with the all-digital simulation. The inner gimbal angle data agree r
 well (left). However, a clear bug is revealed (middle) in failure to faithfully model the outer gimbal angle
 because of missing structural dynamics modeling, which was eventually corrected (right).
 
-> The need for formal validation rose with the size of the software. Programs of
-> 2,000 words took between 50 and 100 test runs to be fully debugged, and
-> full-size flight program took from 1,000 to 1,200 runs.
+**The need for formal validation rose with the size of the software. Programs of 2,000 words took between 50 and 100 test runs to be fully debugged, and full-size flight program took from 1,000 to 1,200 runs.**
 
 The all-digital simulation of the AGC would eventually require MIT to purchase one
 Honeywell 800, two Honeywell-1800s and two IBM 360/75 peaking at about 4,500 CPU-hours/month
@@ -244,9 +242,7 @@ The whole Apollo GN&C system cost about $600M over ten years<sup>[18]</sup>. The
 was about 10% of that or about $60M<sup>[17]</sup>, the majority
 of it occurring over the last five years. This equates to $100M/year in 2019 dollars.
 
-> Before the first lunar landing, more than 1400 person-years of software
-> engineering effort had been expended, with a peak level of effort of 350
-> engineers reached in 1968.
+**Before the first lunar landing, more than 1400 person-years of software engineering effort had been expended, with a peak level of effort of 350 engineers reached in 1968.**
 
 A 1972 master's thesis<sup>[17]</sup> breaks down software costs by
 category shown below, left. Factoring out the *Computer* category used
@@ -260,9 +256,7 @@ costs down, there was even a computer-automated documentation system developed.<
 
 <br>
 
-> In the early stages, there were no "programmers." Instead, engineers and scientists
-> learned the techniques of programming. It was believed that competent engineers could
-> learn programming more easily than programmers could learn engineering.<sup>[36]</sup>
+**In the early stages, there were no "programmers." Instead, engineers and scientists learned the techniques of programming. It was believed that competent engineers could learn programming more easily than programmers could learn engineering.**<sup>[36]</sup>
 
 We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
 work on the on AGC<sup>[16],[22]</sup>, for being the first to champion
@@ -271,15 +265,14 @@ as a discipline unto itself "to bring the software [effort] legitimacy so that i
 and those building it would be given due respect." Hamilton was the only woman working
 on AGC software and ultimately became a rope mother for the LM fight program LUMINARY.
 
-> Throughout much of the Apollo effort, MIT experienced difficulty in estimating the
-> time and effort requirements to design, test and verify successive mission programs.<sup>[36]</sup>
->
-> No one doubted the quality of the software eventually produced by MIT. It was the
+**Throughout much of the Apollo effort, MIT experienced difficulty in estimating the time and effort requirements to design, test and verify successive mission programs.**<sup>[36]</sup>
+
+**No one doubted the quality of the software eventually produced by MIT. It was the
 > process used in software development that caused great concern. Five lessons were identified:
 > (1) up-to-date documentation is crucial, (2) verification must proceed through
 > several levels, (3) requirements must be clearly defined and carefully managed,
 > (4) good development plans should be created and executed, and (5) more programmers
-> do not mean faster development.<sup>[14]</sup>
+> do not mean faster development.**<sup>[14]</sup>
 
 The Russian program achieved all of its early successes
 using ground-based computers for guidance. This approach is possible
