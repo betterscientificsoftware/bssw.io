@@ -74,10 +74,10 @@ development teams, a situation that only worsened already strained resources.
 The redesigned AGC had only 2K words of *erasable* core and 36K words of *fixed*
 or *rope core* memory. All software and data had to fit into this combined 76KB of memory.
 
-*The essential step for software developers was to produce a flight program or rope
+The essential step for software developers was to produce a flight program or rope
 and release it to Raytheon for rope core  manufacture approximately 4 months prior to launch:
 2 months to manufacture the ropes followed by 2 months for installation in the spacecraft,
-checkout, integrated system testing, crew rehearsals and final erasable memory load.*
+checkout, integrated system testing, crew rehearsals and final erasable memory load.
 
 MIT needed to deliver flight programs for ~30 Apollo flights (crewed and uncrewed),
 many with unique guidance requirements, planned between 1966 and 1972.<sup>[40]</sup>
