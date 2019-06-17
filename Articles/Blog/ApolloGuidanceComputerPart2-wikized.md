@@ -37,7 +37,8 @@ A year would pass before NASA selected the Lunar Orbit
 Rendezvous<sup>[37]</sup> (LOR) mission plan involving two separate
 and substantially different vehicles each with its own AGC.
 AGC software would control everything. Even so-called manually controlled inputs would first
-pass through AGC software before affecting the relevant hardware. 
+pass through AGC software before affecting the relevant hardware making
+the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicles ever created.
 
 <br> 
 
@@ -117,7 +118,7 @@ higher level space guidance routines were implemented primarily in the Interpret
 language<sup>[13]</sup> but also by using some of these lower-level pieces.
 
 An example of a space guidance subroutine is computing the relative positions of Earth,
-Sun and Moon at any moment. After evaluating options<sup>[34]</sup> in MAC Fortran on 
+Sun and Moon at any moment. After evaluating options<sup>[34]</sup> in MAC<sup>[50]</sup> or Fortran on 
 mainframe systems, developers settled on an approach using 8th-degree polynomial fits to
 time-varying positional data predicted from mainframe solution of the 3-body (Earth, Sun, Moon)
 problem. Eight double-precision X, Y and Z polynomial coefficients, 48 words of data,
@@ -132,8 +133,8 @@ A 1962 memo<sup>[19]</sup> lists 45 major software analysis efforts then
 underway for various aspects of planned Apollo missions.
 
 ### The AGC had an app for that
-Flying to the moon and returning safely involved *long periods of boredom
-punctuated by moments of extreme peril*. A mission was divided into phases by
+Flying to the moon and returning safely involved long periods of boredom
+punctuated by moments of extreme peril. A mission was divided into phases by
 *velocity change maneuvers* or *burns* of the main engines<sup>[1]</sup>. A complete mission
 involved around 11 burns. For each maneuver
 there was a corresponding *major mode program*, to handle it.
@@ -144,16 +145,16 @@ It was divided into four phases (pictured below left) depending on the balance o
 automated and manual control the astronauts required: Powered Descent
 (major mode P63), Approach (P64), Terminal Descent (P66) and Touchdown (P68).<sup>[5]</sup>
 Examples of other major mode programs were Trans Lunar Injection (P15), 
-Return To Earth (P37), Ballistic Re-entry (P66).
+Return To Earth (P37) and Ballistic Re-entry (P66).
 
 Development of a major mode program began with an analysis of the relevant equations
 of motion and an assessment of available computational approaches to affect the
-desired velocity change (magnitude and direction) subject to numerous constraints
+desired velocity change (magnitude and direction) subject to numerous considerations 
 including zero gravity fuel slosh; changing center of mass due to fuel consumption;
 main engine performance characteristics; sensor drift and deadbands (e.g. IMU gimbal lock);
-optimizing use of propellants; contingency logic for failed (on or off) RCS thrusters;
+optimizing use of RCS propellants; contingencies for failed (on or off) RCS thrusters;
 the Moon's lump gravity field;<sup>[2],[3]</sup> and precision timing to coordinate
-a planetary ballet of Earth, Moon Sun and multiple spacecraft and the lines of sight
+a planetary ballet of Earth, Moon, Sun and multiple spacecraft and the lines of sight
 of communications between them and mission control.
 
 <br>
@@ -171,11 +172,11 @@ direct measurement of system state from spacecraft sensors is compared with the
 predicted state to produce control decisions.
 
 A key challenge was ensuring that a single implementation of DAP software would provide
-effective control given a variety of spacecraft configurations and operating
+effective control given a wide variety of spacecraft configurations and operating
 scenarios. Doing so presented what we would call a *performance portability*
 problem.<sup>[10]</sup> Software developers made DAP execution configurable through a
 number of parameters. Prior to a burn, astronauts would follow a checklist setting
-a number of switches and entering data on the DSKY to set parameters for the DAP
+a number of switches and entering data on the DSKY to set parameters for DAP
 execution during the burn.<sup>[46]</sup>
 
 Software developers were given a budget of 10% of rope core memory and
@@ -194,13 +195,13 @@ filter from *coarse* to *fine* control.
 Five different levels of testing were developed.
 
 * An all-software simulator (also known as the *all-digital* simulator)
-  for the AGC itself, which included simulation of the *environment*.
+  for the AGC which included simulation of the *environment*.<sup>[51]</sup>
   A key concern was whether the *environment* faithfully represented the
-  behavior of the real GN&C hardware and spacecraft in which it was housed,
+  behavior of the real GN&C hardware and spacecraft
   including such issues as engine performance, fuel slosh and even structural
   responses of the spacecraft under torques and loads imposed by engine
   gimbaling and thruster firings. The all-digital simulation was implemented in
-  MAC Fortran on MIT mainframes and ran at 10% of real-time speed. All-digital
+  MAC and Fortran on MIT mainframes and ran at 10% of real-time speed. All-digital
   simulations were bit-for-bit repeatable.
 * A hybrid simulator using a real AGC together with a rope core simulator and a
   combination of digital and analog simulation of various GN&C components, the latter
@@ -392,6 +393,9 @@ successful Russian circumlunar mission.
 [46]: #ref46 "AGC CM DAP Configuration"
 [47]: #ref47 "AGC CM Star Names"
 [48]: #ref48 "Russian Zond-7 Mission"
+[49]: #ref49 "Description of Fly-by-wire"
+[50]: #ref50 "MIT Algebraic Compiler (MAC) Language"
+[51]: #ref51 "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software"
 
 <br>
 
@@ -445,6 +449,9 @@ References | &nbsp;
 <a name="ref46"></a>46 | [AGC CM DAP Configuration ](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31)
 <a name="ref47"></a>47 | [AGC CM Star Names ](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29)
 <a name="ref48"></a>48 | [Russian Zond-7 Mission ](https://en.wikipedia.org/wiki/Zond_7)
+<a name="ref49"></a>49 | [Description of Fly By Wire](https://en.wikipedia.org/wiki/Fly-by-wire#Digital_systems)
+<a name="ref50"></a>50 | [Laning, J.H., Jr. and Miller, J.S., (1970) The MIT Algebraic Compiler Language, MIT Instrumentation Laboratory report R-681, (MIT Charles Stark Draper Laboratory, Report R-681) Cambridge, Mass., November 1970 ](http://www.gravityassist.com/IAF-3.3%202010/Ref.%203-230.pdf)
+<a name="ref51"></a>51 | [Glick FK, Femino SR (January, 1970) A Comprehensive Digital Simulation for the Verification of Apollo Flight Software. MIT-IL Report E-2475, 31 pages](https://www.ibiblio.org/apollo/hrst/archive/1678.pdf)
 
 <br>
 
