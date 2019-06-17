@@ -42,7 +42,7 @@ the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicle
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page lightbox' />[The two principal components of the Apollo mission: The Command and Service Module (CSM) and Lunar Module (LM).]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page lightbox' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
 
 <br> 
 
@@ -74,10 +74,10 @@ development teams, a situation that only worsened already strained resources.
 The redesigned AGC had only 2K words of *erasable* core and 36K words of *fixed*
 or *rope core* memory. All software and data had to fit into this combined 76KB of memory.
 
-**The essential step for software developers was to produce a *flight program* or *rope*
+*The essential step for software developers was to produce a flight program or rope
 and release it to Raytheon for rope core  manufacture approximately 4 months prior to launch:
 2 months to manufacture the ropes followed by 2 months for installation in the spacecraft,
-checkout, integrated system testing, crew rehearsals and final erasable memory load.**
+checkout, integrated system testing, crew rehearsals and final erasable memory load.*
 
 MIT needed to deliver flight programs for ~30 Apollo flights (crewed and uncrewed),
 many with unique guidance requirements, planned between 1966 and 1972.<sup>[40]</sup>
@@ -107,7 +107,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page lightbox' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png' class='page lightbox' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
 
 <br> 
 
@@ -159,7 +159,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, a critical sequence of maneuvers occurred during lunar landing; right, a graph of switching logic used to control RCS jet firings in coasting flight]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, a critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic used to control RCS jet firings in coasting flight]
 
 <br>
 
@@ -219,17 +219,17 @@ Five different levels of testing were developed.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />[Data from actual flight tests of the LM descent engine is shown alongside the data from the all-digital simulation.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />[Data from actual flight tests of the LM descent engine is compared with the data from the all-digital simulation.]
 
 <br>
 
 
 In the data pictured here, data from actual flight tests of the LM descent engine
-is compared with the all-digital simulation. The inner gimbal angle data agree reasonbly
+is compared with the all-digital simulation. The inner gimbal angle data agree reasonably
 well (left). However, a clear bug is revealed (middle) in failure to faithfully model the outer gimbal angle
 because of missing structural dynamics modeling, which was eventually corrected (right).
 
-**The need for formal validation rose with the size of the software. Programs of 2,000 words took between 50 and 100 test runs to be fully debugged, and full-size flight program took from 1,000 to 1,200 runs.**
+*The need for formal validation rose with the size of the software. Programs of 2,000 words took between 50 and 100 test runs to be fully debugged, and full-size flight program took from 1,000 to 1,200 runs.*
 
 The all-digital simulation of the AGC would eventually require MIT to purchase one
 Honeywell 800, two Honeywell-1800s and two IBM 360/75 peaking at about 4,500 CPU-hours/month
@@ -242,7 +242,7 @@ The whole Apollo GN&C system cost about $600M over ten years<sup>[18]</sup>. The
 was about 10% of that or about $60M<sup>[17]</sup>, the majority
 of it occurring over the last five years. This equates to $100M/year in 2019 dollars.
 
-**Before the first lunar landing, more than 1400 person-years of software engineering effort had been expended, with a peak level of effort of 350 engineers reached in 1968.**
+*Before the first lunar landing, more than 1400 person-years of software engineering effort had been expended, with a peak level of effort of 350 engineers reached in 1968.*
 
 A 1972 master's thesis<sup>[17]</sup> breaks down software costs by
 category shown below, left. Factoring out the *Computer* category used
@@ -252,11 +252,11 @@ costs down, there was even a computer-automated documentation system developed.<
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC Software Development Productivity and Costs]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC software development costs by category: left includes test hardware costs and right with hardware costs factored out.]
 
 <br>
 
-**In the early stages, there were no "programmers." Instead, engineers and scientists learned the techniques of programming. It was believed that competent engineers could learn programming more easily than programmers could learn engineering.**<sup>[36]</sup>
+*In the early stages, there were no "programmers." Instead, engineers and scientists learned the techniques of programming. It was believed that competent engineers could learn programming more easily than programmers could learn engineering.*<sup>[36]</sup>
 
 We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
 work on the on AGC<sup>[16],[22]</sup>, for being the first to champion
@@ -265,9 +265,9 @@ as a discipline unto itself "to bring the software [effort] legitimacy so that i
 and those building it would be given due respect." Hamilton was the only woman working
 on AGC software and ultimately became a rope mother for the LM fight program LUMINARY.
 
-**Throughout much of the Apollo effort, MIT experienced difficulty in estimating the time and effort requirements to design, test and verify successive mission programs.**<sup>[36]</sup>
+*Throughout much of the Apollo effort, MIT experienced difficulty in estimating the time and effort requirements to design, test and verify successive mission programs.*<sup>[36]</sup>
 
-**No one doubted the quality of the software eventually produced by MIT. It was the process used in software development that caused great concern. Five lessons were identified: (1) up-to-date documentation is crucial, (2) verification must proceed through several levels, (3) requirements must be clearly defined and carefully managed, (4) good development plans should be created and executed, and (5) more programmers do not mean faster development.**<sup>[14]</sup>
+*No one doubted the quality of the software eventually produced by MIT. It was the process used in software development that caused great concern. Five lessons were identified: (1) up-to-date documentation is crucial, (2) verification must proceed through several levels, (3) requirements must be clearly defined and carefully managed, (4) good development plans should be created and executed, and (5) more programmers do not mean faster development.*<sup>[14]</sup>
 
 The Russian program achieved all of its early successes
 using ground-based computers for guidance. This approach is possible
@@ -301,7 +301,7 @@ successful Russian circumlunar mission.
 [24]: https://history.nasa.gov/SP-4029/Apollo_18-16_Apollo_Program_Budget_Appropriations.htm "Apollo Budget By Sub-Program and Year {}"
 [25]: https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf "List of Software Studies Underway in 1962 {Battin RH (July 1962) SGA Studies Presently Underway, Space Guidance Analysis Memo #11, MIT-IL, 9 pages}"
 [26]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "Part 1 in this series {}"
-[28]: https://www.computer.org/publications/tech-news/events/what-to-know-about-the-scientist-who-invented-the-term-software-engineering "Origin of the term 'Software Engineering' {Cameron L () What to Know about the Scientist who Invented the term 'Software Enginering', IEEE Computer Society webpage}"
+[28]: https://www.computer.org/publications/tech-news/events/what-to-know-about-the-scientist-who-invented-the-term-software-engineering "Origin of the term 'Software Engineering' {Cameron L () What to Know about the Scientist who Invented the term 'Software Engineering', IEEE Computer Society webpage}"
 [29]: https://www.nasa.gov/feature/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom "Margaret Hamilton Medal of Freedom {Russo NP (November 2016) Margaret Hamilton, Apollo Software Engineer, Awarded Presidential Medal of Freedom, NASA History Division webpage}"
 [31]: https://www.google.com/search?client=safari&rls=en&ei=YeryXMO2H6m_0PEPvciWiA8&q=what+is+co-design+in+computing&oq=what+is&gs_l=psy-ab.1.0.35i39l2j0i67l5j0l2j0i131.1499.3009..4244...2.0..0.121.836.5j4......0....1..gws-wiz.......0i71j0i10j0i10i67.bQxpLbPTVwU "Google Search co-design in computing {}"
 [34]: https://www.ibiblio.org/apollo/AGC-versions.jpg "AGC Software Version History {}"
