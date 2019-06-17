@@ -159,7 +159,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, a critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic used to control RCS jet firings in coasting flight]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, A critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic was used to control RCS jet firings in coasting flight.]
 
 <br>
 
