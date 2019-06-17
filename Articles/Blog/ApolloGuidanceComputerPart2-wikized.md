@@ -229,7 +229,7 @@ is compared with the all-digital simulation. The inner gimbal angle data agree r
 well (left). However, a clear bug is revealed (middle) in failure to faithfully model the outer gimbal angle
 because of missing structural dynamics modeling, which was eventually corrected (right).
 
-*The need for formal validation rose with the size of the software. Programs of 2,000 words took between 50 and 100 test runs to be fully debugged, and full-size flight program took from 1,000 to 1,200 runs.*
+> The need for formal validation rose with the size of the software. Programs of 2,000 words took between 50 and 100 test runs to be fully debugged, and full-size flight program took from 1,000 to 1,200 runs.<sup>[14]</sup>
 
 The all-digital simulation of the AGC would eventually require MIT to purchase one
 Honeywell 800, two Honeywell-1800s and two IBM 360/75 peaking at about 4,500 CPU-hours/month
@@ -242,7 +242,7 @@ The whole Apollo GN&C system cost about $600M over ten years<sup>[18]</sup>. The
 was about 10% of that or about $60M<sup>[17]</sup>, the majority
 of it occurring over the last five years. This equates to $100M/year in 2019 dollars.
 
-*Before the first lunar landing, more than 1400 person-years of software engineering effort had been expended, with a peak level of effort of 350 engineers reached in 1968.*
+> Before the first lunar landing, more than 1400 person-years of software engineering effort had been expended, with a peak level of effort of 350 engineers reached in 1968.<sup>[17],[52]</sup>
 
 A 1972 master's thesis<sup>[17]</sup> breaks down software costs by
 category shown below, left. Factoring out the *Computer* category used
@@ -256,7 +256,7 @@ costs down, there was even a computer-automated documentation system developed.<
 
 <br>
 
-*In the early stages, there were no "programmers." Instead, engineers and scientists learned the techniques of programming. It was believed that competent engineers could learn programming more easily than programmers could learn engineering.*<sup>[36]</sup>
+> In the early stages, there were no "programmers." Instead, engineers and scientists learned the techniques of programming. It was believed that competent engineers could learn programming more easily than programmers could learn engineering.<sup>[36]</sup>
 
 We can thank Margaret Hamilton, who received the Presidential Medal of Freedom for her
 work on the on AGC<sup>[16],[22]</sup>, for being the first to champion
@@ -265,9 +265,9 @@ as a discipline unto itself "to bring the software [effort] legitimacy so that i
 and those building it would be given due respect." Hamilton was the only woman working
 on AGC software and ultimately became a rope mother for the LM fight program LUMINARY.
 
-*Throughout much of the Apollo effort, MIT experienced difficulty in estimating the time and effort requirements to design, test and verify successive mission programs.*<sup>[36]</sup>
+> Throughout much of the Apollo effort, MIT experienced difficulty in estimating the time and effort requirements to design, test and verify successive mission programs.<sup>[36]</sup>
 
-*No one doubted the quality of the software eventually produced by MIT. It was the process used in software development that caused great concern. Five lessons were identified: (1) up-to-date documentation is crucial, (2) verification must proceed through several levels, (3) requirements must be clearly defined and carefully managed, (4) good development plans should be created and executed, and (5) more programmers do not mean faster development.*<sup>[14]</sup>
+> No one doubted the quality of the software eventually produced by MIT. It was the process used in software development that caused great concern. Five lessons were identified: (1) up-to-date documentation is crucial, (2) verification must proceed through several levels, (3) requirements must be clearly defined and carefully managed, (4) good development plans should be created and executed, and (5) more programmers do not mean faster development.<sup>[14]</sup>
 
 The Russian program achieved all of its early successes
 using ground-based computers for guidance. This approach is possible
@@ -384,6 +384,7 @@ successful Russian circumlunar mission.
 [49]: #ref49 "Description of Fly-by-wire"
 [50]: #ref50 "MIT Algebraic Compiler (MAC) Language"
 [51]: #ref51 "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software"
+[52]: #ref52 "MIT and navigating a path to the moon"
 
 <br>
 
@@ -440,6 +441,7 @@ References | &nbsp;
 <a name="ref49"></a>49 | [Description of Fly By Wire](https://en.wikipedia.org/wiki/Fly-by-wire#Digital_systems)
 <a name="ref50"></a>50 | [Laning, J.H., Jr. and Miller, J.S., (1970) The MIT Algebraic Compiler Language, MIT Instrumentation Laboratory report R-681, (MIT Charles Stark Draper Laboratory, Report R-681) Cambridge, Mass., November 1970 ](http://www.gravityassist.com/IAF-3.3%202010/Ref.%203-230.pdf)
 <a name="ref51"></a>51 | [Glick FK, Femino SR (January, 1970) A Comprehensive Digital Simulation for the Verification of Apollo Flight Software. MIT-IL Report E-2475, 31 pages](https://www.ibiblio.org/apollo/hrst/archive/1678.pdf)
+<a name="ref52"></a>52 | [Tylko J (2009) MIT and navigating the path to the moon. AeroAstro Magazine annual report of the MIT Aeronautics and Astronautics Department](http://web.mit.edu/aeroastro/news/magazine/aeroastro6/mit-apollo.html)
 
 <br>
 
