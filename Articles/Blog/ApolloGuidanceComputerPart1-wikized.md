@@ -22,7 +22,9 @@ enormous challenge. At its heart was a revolutionary new computer: the Apollo
 Guidance Computer (AGC).<sup>[5],[6],[7]</sup>
 
 In commemoration of that historical achievement, this is the first of three
-articles about the AGC. Part 1 describes the hardware. Part 2 will describe
+articles about the AGC. Part 1 describes the hardware.
+[Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github)
+will describe
 the software and part 3 its application in Moon missions. In the years since its
 development, jargon may have changed, but the HPC community will recognize
 many common themes such as flops/watt power constraints, checkpoint and restart
@@ -150,6 +152,10 @@ Because autonomous guidance was so critical for Apollo, NASA funded the developm
 this revolutionary new computer to support it.<sup>[35]</sup> Half a century
 later, because self-driving is so critical in the auto industry, Tesla has
 developed their own custom, proprietary AI chip to support it.<sup>[32]</sup>
+
+---
+
+Part 1 | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) | Part 3
 
 <br>
 
