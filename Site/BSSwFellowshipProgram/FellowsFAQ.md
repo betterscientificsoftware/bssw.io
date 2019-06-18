@@ -2,7 +2,7 @@
 
 More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io)
 
-## APPLICATION QUESTIONS
+## Application questions
 
 ### What is the fellowship application deadline for this year?
 The application deadine is Tuesday, October 15, 2019, before midnight, PDT.  This is a firm deadline that will not be extended. See [BSSw Application webpage](https://bssw.io/BSSwFellowshipProgram/FellowshipApply) for the complete timeline.
@@ -21,7 +21,7 @@ The second (*Describe your background and experience relevant to being a BSSw Fe
 
 No, applications of current BSSw Fellows will not be considered for awards in future years.  While BSSw Fellows receive funding for activities during a particular period of performance, the designation of being a BSSw Fellow is ongoing.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
-## FUNDING QUESTIONS
+## Funding questions
 
 ### What is the amount of funding for 2020 BSSw Fellows?
 
@@ -91,7 +91,7 @@ We encourage fellows to attend the [Exascale Computing Project Annual Meeting](h
 
 Applicants must be affiliated with a U.S.-based institution that is able to receive funding from the U.S. Department of Energy. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. We encourage diverse applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
 
-## GENERAL QUESTIONS
+## General questions
 
 ### What is the long-term vision for the BSSw Organization and BSSw Fellowship Program?
 
