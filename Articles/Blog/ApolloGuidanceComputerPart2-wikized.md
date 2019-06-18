@@ -446,7 +446,8 @@ References | &nbsp;
 <br>
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-06-17
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
