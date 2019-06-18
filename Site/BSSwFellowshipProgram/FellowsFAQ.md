@@ -53,11 +53,9 @@ We welcome content contributions to the site, in a variety of formats.
 
 Needs span throughout diverse areas of scientific software, including topics listed in the [Computational Science and Engineering Software Sustainability and Productivity Workshop Report](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf). Specific current needs include practices and methodologies that:
 
-    - Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
-
-    - Are used by the broader software community and can be adapted and adopted for use in scientific software.
-    
-    - Help teams collaborate more effectively.
+- Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
+- Are used by the broader software community and can be adapted and adopted for use in scientific software.
+- Help teams collaborate more effectively.
 
 ### I am working on a scientific software project and have done a lot of coding to build reusable, open-source code.  Can this program provide support for my continued work on this (code/application/tool)?
 
@@ -83,7 +81,7 @@ No, connections are not required to any funded projects.  We encourage applicati
 
 ## Fellowship Requirements Questions
 
- ### Do you expect fellows to attend events or meetings?
+### Do you expect fellows to attend events or meetings?
 
 We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of January 14, 2019 in Houston, TX.
 
