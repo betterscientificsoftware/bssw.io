@@ -2,7 +2,7 @@
 
 More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io)
 
-## APPLICATION QUESTIONS
+## Application Questions
 
 ### What is the fellowship application deadline for this year?
 The application deadine is Tuesday, October 15, 2019, before midnight, PDT.  This is a firm deadline that will not be extended. See [BSSw Application webpage](https://bssw.io/BSSwFellowshipProgram/FellowshipApply) for the complete timeline.
@@ -21,7 +21,7 @@ The second (*Describe your background and experience relevant to being a BSSw Fe
 
 No, applications of current BSSw Fellows will not be considered for awards in future years.  While BSSw Fellows receive funding for activities during a particular period of performance, the designation of being a BSSw Fellow is ongoing.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
-## FUNDING QUESTIONS
+## Funding questions
 
 ### What is the amount of funding for 2020 BSSw Fellows?
 
@@ -39,7 +39,7 @@ Funding can be used to support effort in developing and delivering content, incl
  
 In addition to direct support for proposed work up to $25,000, the BSSw Fellowship covers usual and customary institutional indirect/overhead costs. Do not include your institution’s indirect/overhead costs in the brief budget information that is submitted in the proposed work section of the application. 
 
-## PROPOSAL TOPICS
+## Proposal Topics
 
 ### Can I host a bunch of tutorials at our host institution on useful software practices, like version control? Is this the right idea?
 
@@ -53,11 +53,9 @@ We welcome content contributions to the site, in a variety of formats.
 
 Needs span throughout diverse areas of scientific software, including topics listed in the [Computational Science and Engineering Software Sustainability and Productivity Workshop Report](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf). Specific current needs include practices and methodologies that:
 
-    - Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
-
-    - Are used by the broader software community and can be adapted and adopted for use in scientific software.
-    
-    - Help teams collaborate more effectively.
+- Assist transition to modern high concurrency node architectures to exploit features such as vector, GPU, threading and tasking.
+- Are used by the broader software community and can be adapted and adopted for use in scientific software.
+- Help teams collaborate more effectively.
 
 ### I am working on a scientific software project and have done a lot of coding to build reusable, open-source code.  Can this program provide support for my continued work on this (code/application/tool)?
 
@@ -81,9 +79,9 @@ While we recognize that lots of important work takes place as collaborative part
 
 No, connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.
 
-## FELLOWSHIP REQUIREMENTS QUESTIONS
+## Fellowship Requirements Questions
 
- ### Do you expect fellows to attend events or meetings?
+### Do you expect fellows to attend events or meetings?
 
 We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of January 14, 2019 in Houston, TX.
 
@@ -91,13 +89,13 @@ We encourage fellows to attend the [Exascale Computing Project Annual Meeting](h
 
 Applicants must be affiliated with a U.S.-based institution that is able to receive funding from the U.S. Department of Energy. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. We encourage diverse applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
 
-## GENERAL QUESTIONS
+## General Questions
 
 ### What is the long-term vision for the BSSw Organization and BSSw Fellowship Program?
 
 The long-term vision for the BSSw Organization is to serve as an international community-driven and community-managed resource for scientific software improvement, with content and processes provided by volunteers.  Future plans center on working toward broad community leadership, growth, and diversification of the BSSw Organization and BSSw Fellowship Program---that is, expanding collaboration with complementary groups, stakeholders, sponsors, and individual contributors.  
 
-### I am passionate about scientific software and would like to get involved in the BSSw community but currently am not eligible to pursue a BSSw Fellowship.  How can I proceed?
+### I am passionate about scientific software and would like to get involved in the BSSw community but currently am not eligible to pursue a BSSw Fellowship. How can I proceed?
 
 The goal of the BSSw organization is to foster a broad, international community of researchers, practitioners, and stakeholders from national laboratories, academic institutions, and industry who are dedicated to curating, creating, and disseminating information that leads to improved software for the advancement of computational science and related technical computing areas.  We want and need contributions from the international community for the BSSw site. If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/contribute).  Also, we welcome conversations about potential for expanding international collaborations and sponsorship.  
 

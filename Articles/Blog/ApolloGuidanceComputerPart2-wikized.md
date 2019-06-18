@@ -42,7 +42,7 @@ the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicle
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png' class='page lightbox' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_C.jpg' class='page' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
 
 <br> 
 
@@ -74,10 +74,10 @@ development teams, a situation that only worsened already strained resources.
 The redesigned AGC had only 2K words of *erasable* core and 36K words of *fixed*
 or *rope core* memory. All software and data had to fit into this combined 76KB of memory.
 
-*The essential step for software developers was to produce a flight program or rope
+The essential step for software developers was to produce a flight program or rope
 and release it to Raytheon for rope core  manufacture approximately 4 months prior to launch:
 2 months to manufacture the ropes followed by 2 months for installation in the spacecraft,
-checkout, integrated system testing, crew rehearsals and final erasable memory load.*
+checkout, integrated system testing, crew rehearsals and final erasable memory load.
 
 MIT needed to deliver flight programs for ~30 Apollo flights (crewed and uncrewed),
 many with unique guidance requirements, planned between 1966 and 1972.<sup>[40]</sup>
@@ -107,7 +107,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png' class='page lightbox' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
 
 <br> 
 
@@ -159,7 +159,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, a critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic used to control RCS jet firings in coasting flight]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, A critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic was used to control RCS jet firings in coasting flight.]
 
 <br>
 
@@ -446,7 +446,8 @@ References | &nbsp;
 <br>
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-06-17
 Categories: performance
 Topics: high-performance computing, performance portability
 Tags: bssw-blog-article
