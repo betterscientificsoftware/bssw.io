@@ -1,11 +1,19 @@
 **Year:** 2018
+
 **Name:** Jeffrey Carver
+
 **Affiliation:** University of Alabama
+
 **Image:** /images/blob/master/HM_davis.jpg
+
 **URL:** https:xxx.com
+
 **LinkedIn:** https:xxx.com
+
 **Github:** Not on Github
+
 **Short Bio:** Text text text contemporary peer code review in scientific software development
+
 **Long Bio:** Text text text contemporary peer code review in scientific software development, Text text text contemporary peer code review in scientific software development
 
 Rene is a Professor of Computer Science

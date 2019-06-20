@@ -51,18 +51,30 @@ Reference:
 1. An **Editorial Assistant** merges the PR and marks the metadata for publication. The PR is
    moved to the *Done* column.
 
-# Things To Consider
+# Criteria for Content
 
-1. Do we need to do anything to accommodate **Authors** who can’t (or don’t want to) use
-   the GH pull request process?
-  * We could maybe handle a simplified process where the markdown is drafted in the issue itself.
-1. Would it be valuable to separate the editorial board role from a reviewer role?
-   Initially they might be the same, but if we want to expand participation to a broader
-   community, it might be useful.
-1. **Authors with no GitHub account:**
-   * Do we need to do anything to accommodate those who can’t (or don’t want to) submit a GH issue?
-     * [@pagrubel] provide a link to the form where they can submit content ideas or a comment about it"
-     * [@markcmiller86] No, lets not support this in any way other than via GH issue.
+1. **In-scope Content** ( The exact scope of relevant content will evolve as we learn about community interests. )
+   * General issues in productivity and sustainability that overlap with common challenges faced in the HPC/CSE software community.
+   * General tools for productivity and sustainability that can be widely used by HPC/CSE developers.
+   * Characterization of challenges and solutions that may be particularly valuable to the HPC/CSE community.
+   * Likely to impact or inform HPC/CSE software devlopment process or planning.
+
+1. **Highlight Connections to HPC/CSE**
+   * How the topic intersects with themes that are of particular interest to HPC/CSE, for example MPI, Fortran, C++, architectures, modeling and simulation.
+   * Why the topic could be of particular interest to HPC/CSE.
+   * Not broadly covered in other common HPC/CSE venues.
+
+1. **Ease of Adoption and Use**
+   * Does it address how easy or hard it is to benefit from the topic?
+   * Does it address who would be particularly interested in the topic?
+
+1. **Out-of-scope Content**
+   * Narrow scope, focused on a particular HPC/CSE subcommunity.
+   * Tools, processes, and practices that have little in common with HPC/CSE.
+   * Content that is deemed incomplete or biased, as determined by the BSSW leaders.
+
+## Notes
+1. We agreed its ok that we require submitters and **Authors** to have GitHub accounts 
 1. Possible [resource link](https://www.youtube.com/watch?v=e3bjQX9jIBk&t=157s)
    for instruction on submitting a PR @rinkug found.
 1. We need to use *symbolic constants* here in this workflow document for actual people
@@ -81,5 +93,5 @@ Reference:
 Periodically, we can run a script that deletes past *milestones* and
 creates one-per-month *milestones* for a period of time in the future via the
 [GitHub web api](https://developer.github.com/v3/issues/milestones/#create-a-milestone). This
-   would give EB members one month granularity to set deadlines yet avoid creating a milestone each time
-   we wanna set a deadline.
+would give EB members one month granularity to set deadlines yet avoid creating a milestone each time
+we wanna set a deadline.

@@ -38,7 +38,7 @@ and substantially different vehicles each with its own AGC.
 AGC software would control everything. Even so-called manually controlled inputs would first
 pass through AGC software before affecting the relevant hardware. 
 
-![](agc_and_spacecraft3.png)
+![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3.png)
 
 A challenge in developing the software was that all the GN&C subsystems
 pictured above were under development *simultaneously*
@@ -99,7 +99,7 @@ Interpreter<sup>[42]</sup> | Space guidance domain-specific programming language
 DSKY I/O<sup>[43]</sup> | Cockpit displays and keypad | ~3500
 **Combined Total** | 22% of fixed memory | **~7775**
 
-![](./agc_sw_stack.png)
+![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2.png)
 
 These programs constituted what we might call today the *Apollo guidance software stack*.
 All were implemented in assembly language. By 1965, most of this code had been
@@ -125,7 +125,7 @@ underway for various aspects of planned Apollo missions.
 ### The AGC had an app for that
 Flying to the moon and returning safely involved *long periods of boredom
 punctuated by moments of extreme peril*. A mission was divided into phases by
-*velocity change maneuvers* or *burns* of the main engines. A complete mission
+*velocity change maneuvers* or *burns* of the main engines<sup>[0]</sup>. A complete mission
 involved around 11 burns. For each maneuver
 there was a corresponding *major mode program*, to handle it.
 For every phase of the mission, *the AGC had an app for that*.<sup>[65]</sup>
@@ -147,7 +147,7 @@ the Moon's lump gravity field;<sup>[3],[4]</sup> and precision timing to coordin
 a planetary ballet of Earth, Moon Sun and multiple spacecraft and the lines of sight
 of communications between them and mission control.
 
-![](agc_major_modes.png)
+![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes.png)
 
 ### Performance portability and the digital autopilot (DAP)
 
@@ -203,7 +203,7 @@ Five different levels of testing were developed.
   flights. Early missions included several objectives designed specifically to
   test AGC software.
 
-![](agc_alldig_sim_compare.png)
+![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare.png)
 
 In the data pictured here, data from actual flight tests of the LM descent engine
 is compared with the all-digital simulation. The inner gimbal angle data agree reasonbly
@@ -237,7 +237,7 @@ almost exclusively for testing, the adjusted, relative costs of the
 software development alone are shown below, right. To help keep documentation
 costs down, there was even a computer-automated documentation system developed.<sup>[61]</sup>
 
-![](agc_sw_costs_combined.png)
+![](https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined.png)
 
 > In the early stages, there were no "programmers." Instead, engineers and scientists
 > learned the techniques of programming. It was believed that competent engineers could
@@ -279,6 +279,7 @@ Prerequisites: default
 Aggregate: none
 --->
 
+[0]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
 [3]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field {}"
 [4]: https://en.wikipedia.org/wiki/Gravitation_of_the_Moon "Moon's Lumpy Gravity Field {}"
 [5]: https://www.americanscientist.org/article/moonshot-computing "Great Article on AGC Software {Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147}"
