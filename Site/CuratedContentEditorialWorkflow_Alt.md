@@ -1,8 +1,16 @@
 # A Proposed Alternative Editorial Workflow for BSSw.io Curated Content
 
-The key difference in this alternative workflow is that it explicitly requires
-**EB Members** engage in specific activities on a routine basis, in particular
-a bi-weekly progress meeting.
+This description of workflow for content development of Curated Content ideas
+is based entirely on [earlier workflow document](CuratedContentEditorialWorkflow.md).
+
+A key difference in this alternative workflow is that it explicitly requires
+**EB Members** to engage in specific activities on a routine basis, in particular
+a weekly progress meeting.
+
+Here, we describe the workflow in terms of the *states* a Curated Content issue can
+move through from inception to disposition. In each state, there are only a few
+*directions* (e.g. new states) an issue may move. Those are the bullets under
+each of the numbered steps in the description below.
 
 # Actors
 * **Anyone** who can submit a GitHub issue can use this approach to suggest a curated content topic.
@@ -32,35 +40,58 @@ a bi-weekly progress meeting.
    * The issue is rejected for one of a variety of reasons. The reason is
      recorded in a comment and the issue is labeled as `wontdo` and closed.
    * The issue is considered a candidate for further development and moved to
-     Topic Review and a deadline (milestone) is assigned.
-1. Issues in Topic Review are handled as follows
+     *Topic Review*.
+1. Issues in *Topic Review* are handled as follows
    * Any more than 30 days old that have garnered insufficient interest are labeled
-     as `wontdo`. A comment regarding to lack of interest is added the the issue is
-     and closed.
-   * Any issues with sufficient interest are moved to the Development Backlog. An
-     **EB Member** is assigned. An author, if different from **EB Member** is
-     identified (via @ mention) and a deadline is set (via milestone) for completion.
-1. Issues in Development backlog are handled as follows
-   * Issues in jeapordy of making deadline are reviewed and discussed. Authors are
+     as `no-interest` and closed.
+   * Any issues with sufficient interest are moved to *In Progress* (this
+     is a rename and re-purpose of the *Development Backlog*). An **EB Member** is
+     assigned. An author, if different from **EB Member** is identified (via @ mention)
+     and a deadline is set (via milestone) for completion.
+1. Issues in *In Progress* are handled as follows
+   * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
-   * Issues that are woefully beyond deadline are labeled as `insuffucient development`
-     and closed.
-   * Issues for which PR has been submitted are moved to Item Review and 1 reviewer is assigned.
-1. Issues in Item review are handled as follows
-   * Approved PRs are merged and metadata is added in preparation for publication
-   * Unapproved PRs are reviewed in-situ and approved or not. If no approval forthcoming,
-     revisions required by author are explained in comments in the PR.
+   * Issues that are woefully beyond deadline are labeled as `no-development` and closed.
+   * Issues for which a PR has been submitted are moved to *Item Review* and 1 reviewer
+     is assigned.
+1. Issues in *Item Review* are handled as follows
+   * Unapproved PRs are reviewed on the spot and approved or not. If no approval is
+     forthcoming, revisions required by author are explained in review comments in the
+     PR (if they have not already py preceding review(s))
+   * Approved PRs
+     * **Editorial Assistance** review is requested assigning an **EA**.
+     * **EA** may request or explicitly revise the content with commits to the PR.
+     * **Author** should indicate approval (or not) of any changes made by **EA** via
+       comments in the PR.
+   * Approved PRs with **EA** and **Author** approval are merged and metadata is added
+     in preparation for publication.
 1. Milestones (deadlines) are reviewed to ensure any items intended for a given
-   date are either completed, have committments they will be completed or pushed
+   date are either completed, have reliable commitments they will be completed
+   by deadline or are re-assigned a new milestone deadline.
 
+## Notes
+
+###### Quantization of Progress
 The key challenge in this process is the *iteration rate*. That is, how fast issues can
-move through the steps. At a meeting interval of every other weeks. Any issues not
-handled entirely during one meeting need to wait for the next. So, for example, suppose
-a completed PR for a CC article is in the system but hasn't been approved by its assigned
-approver. If the solution is to wait for the approver, then the item sits for two weeks
-even if the approver provided approval the day after the meeting.
+move through the steps. At a meeting interval of every other week. Any issues not handled
+entirely during one meeting need to wait for the next. So, for example, suppose a
+completed PR for a CC article is in the system but hasn't been approved by its assigned
+approver. If the answer is to wait for the approver, then the item sits for two weeks
+even if the approval is provided the day after the meeting.
 
-The solution to this problem is potentially a bit higher iteration rate of meetings once
-a week instead of once every other week. Another solution is to empower (some) **EB Members**
+###### Some EB Members Work As Needed
+The solution to the above problem is potentially a bit higher iteration rate of meetings once
+a week instead of once every other week. Another solution is to require (some) **EB Members**
 to take steps agreed to during a meeting *as the work happens* instead of waiting until the
 next meeting.
+
+###### Setting Deadlines
+The only way to set deadlines on GitHub is by using *Milestones*. Periodically, we will
+create milestones for the first and third Friday of each month for some period of time
+into the future. These milestones will represent succeeding *publications* of BSSw content.
+Periodically, we will also need to delete old milestones.
+
+###### Automation with GitHub Web API 
+There is a [GitHub web api](https://developer.github.com/v3/issues/milestones/#create-a-milestone)
+that could help automate a number of these steps. Lets keep this on the todo list until
+we determine it is essential for productivity's sake.
