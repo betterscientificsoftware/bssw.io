@@ -14,7 +14,7 @@ people." So while I could be writing about all the technical things
 that are going on in my scientific software projects, let me instead
 write about people.
 
-### Emacs's CC Mode
+### Emacs's CC mode
 
 My first involvement with open source was when I was a freshman at the
 University of Stuttgart, in Germany, in 1994. I got an account on one
@@ -83,7 +83,7 @@ knew what we were doing but because we could: that's what one did at
 the time, with the World Wide Web as we know it today just finding
 its shape at the time. We had no expectations for the whole endeavor; but
 to our surprise, people started using the package. And they started asking
-question. And then they also started contributing functionality.
+questions. And then they also started contributing functionality.
 
 All of this led to some sort of reckoning: If we spend time answering
 questions, we won't have time to write code ourselves; if we start
