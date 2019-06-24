@@ -6,7 +6,7 @@
 
 **Hero Image:**
  
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_TwoSpheres.jpg" />[Placeholder image; replace this. Image courtesy of Wolfgang Bangerth, Colorado State]
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_TwoSpheres.jpg" />[Imagery created by Advanced Simulator for Problems in Earth ConvecTion (ASPECT), a software package that simulates convection in the Earth mantle and the dynamics of Earth's crust.]
 
 I've been participating in open source software projects since around
 1994; and when asked what I've learned, I always say, "It's all about
