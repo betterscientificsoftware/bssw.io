@@ -6,8 +6,7 @@
 
 **Hero Image:**
  
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_SDwithCI.png" />[Placeholder image; replace this.  Caption: Simulations of convection in the Earth mantle, obtained with the Advanced Solver for Problems in Earth ConvecTion (ASPECT, a community code built
-   on deal.II). Image courtesy of XXX.]
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_TwoSpheres.jpg" />[Placeholder image; replace this. Image courtesy of Wolfgang Bangerth, Colorado State]
 
 I've been participating in open source software projects since around
 1994; and when asked what I've learned, I always say, "It's all about
