@@ -12,17 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Modern C++ for High-Performance Computing
+## Next webinar: When 100 Flops/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software and Application in Moon Missions
 
-### Date and Time: Wednesday, June 12, 2019, 1:00-2:00 pm ET
-### Presenter: Andrew Lumsdaine, PNNL and University of Washington
+### Date and Time: Wednesday, July 17, 2019, 1:00-2:00 pm ET
+### Presenter: Mark C. Miller, Lawrence Livermore National Laboratory
 ### Description:
-Since its creation by Bjarne Stroustrup in the early 1980s, C++ has steadily evolved to become a multi-paradigm programming language that fully supports the needs of modern programmers. Because C++ had its roots in the C programming language, conventional wisdom (and longstanding practice) had been to use C++ in a dichotomous fashion: abstractions for productivity with escape to C for performance. However, C++ today is best viewed holistically — as it is today — rather than as extension of C or even of earlier versions of C++. In this webinar I will give a tour of features from modern C++ relevant to HPC, along with guidelines for their use — and demonstrate that C++ can offer productivity and elegance while sacrificing nothing in performance.
+Commemorating the 50th Anniversary of the Apollo Moon landings, this webinar will describe the revolutionary computer, the Apollo Guidance Computer (AGC). The AGC made autonomous travel to the Moon and back not only possible but added profoundly to crew safety, flight profile accuracy and even optimized propellant use to such an extent that final missions plans traded fuel for added weight in equipment and lunar samples. The webinar will give an overview of the AGC hardware architecture, the guidance software it executed as well as the pioneering efforts in developing both. HPC/CSE code teams will discover many familiar themes such as flops/watt power constraints and performance portability challenges. The webinar will conclude with several user stories about the actual operation of the AGC in various Apollo missions.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031
 
 ## Past Webinars
+- [*Modern C++ for High-Performance Computing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030), Andrew Lumsdaine (PNNL and University of Washington), 2019-06-12
 - [*So, You Want to Be Agile? Strategies for Introducing Agility into Your Scientific Software Project*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar029), Mike Heroux (SNL), 2019-05-08
 - [*Testing Fortran Software with pFUnit*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar028), Thomas Clune (NASA/Goddard), 2019-04-10
 - [*I/O with HDF5: Overview, Tuning, and New Features*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027), Quincey Koziol (NERSC), 2019-03-13
