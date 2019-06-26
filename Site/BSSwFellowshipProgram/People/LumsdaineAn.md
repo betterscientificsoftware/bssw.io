@@ -6,18 +6,18 @@
 
 **Image:** /images/blob/master/HM_davis.jpg
 
-**URL:** https:xxx.com
+**URL:** https://homes.cs.washington.edu/~al75/index.html
 
-**LinkedIn:** https:xxx.com
+**LinkedIn:** https://www.linkedin.com/in/andrew-lumsdaine-704782/
 
-**Github:** No github presence?
+**Github:** https://lums658.github.io/amath583s19/
 
-**Short Bio:** Text text text practices for high-performance and high-quality scientific software in modern C++
+**Short Bio:** Fellows guide efficient use of modern C++:  Just because a programming language allows various approaches doesn’t mean that you should use them; programming is an art that should consider quality, sustainability, and performance. 
 
-**Long Bio:** Text text text practices for high-performance and high-quality scientific software in modern C++, Text text text practices for high-performance and high-quality scientific software in modern C++
+**Long Bio:** BSSw Fellow Andrew Lumsdaine has developed best practices for high-performance and high-quality software using modern C++ (up through C++17). His course materials include performance-orientated topics and migration from Fortran or previous versions of C++. Taking a careful slice of C++ focused on the needs of DOE application developers, the content includes performance-oriented topics such as pipelining, hierarchical memory, multithreading, and message passing. A unifying theme is the use of abstraction for expressiveness and for performance. Learn more about high-performance modern C++ through his webinar recording and slides: <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030">Modern C++ for High-Performance Computing</a>.
 
-Andrew is a Fellow, Advanced Computing, Mathematics, and Data Division at The Pacific Northwest National Laboratory; Affiliate Professor, Computer Science at The University of Washington; Chief Scientist at the Northwest Institute for Advanced Computing 
+Andrew is a Fellow at Pacific Northwest National Laboratory, affiliate professor of computer science at the University of Washington, and chief scientist at Northwest Institute for Advanced Computing. 
 
-<a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
-<a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2220" class="link-row">A paper on scientific software verification and testing</a>
+<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030" class="link-row">HPC Best Practices Webinar:  Modern C++ for High-Performance Computing</a>
+<a href="https://lums658.github.io/amath583s19/" class="link-row">High Performance Scientific Computing, University of Washington, Spring 2019</a>
+
