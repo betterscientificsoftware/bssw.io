@@ -6,18 +6,17 @@
 
 **Image:** /images/blob/master/HM_davis.jpg
 
-**URL:** https:xxx.com
+**URL:** https://gassmoeller.github.io/
 
-**LinkedIn:** https:xxx.com
+**LinkedIn:** https://www.linkedin.com/in/rene-gassm%C3%B6ller-00332a179/ 
 
 **Github:** https://github.com/gassmoeller
 
-**Short Bio:** Text text text social challenges in the evolution of scientific software projects
+**Short Bio:** Focus: Social challenges in the evolution of scientific software projects 
 
-**Long Bio:** Text text text social challenges in the evolution of scientific software projects, Text text text social challenges in the evolution of scientific software projects
+**Long Bio:** Rene is creating a series of guides and tutorials about managing the community around a scientific software project targeted for maintainers and potential maintainers. The tutorials will teach this knowledge in small modules that are accessible to scientists. Thus, if you are currently maintaining a scientific software project, or think about starting one, Rene's guide will help you navigate your scientific software project from inception to long-term sustaintability through his best practices and and experience.  
 
-Rene is an Assistant Project Scientist focusing on Earth and Planetary Sciences
+Rene is an Assistant Project Scientist in the Earth and Planetary Sciences Department at the University of California, Davis.  He is also one of the maintainers for the free modeling software <a href="http://aspect.geodynamics.org/">ASPECT</a> (Advanced Solver for Problems in Earth's Convection). ASPECT combines modern software development techniques to allow for more sophisticated and better tested geodynamic modelling studies.
 
-<a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
-<a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2220" class="link-row">A paper on scientific software verification and testing</a>
+<a href="https://github.com/gassmoeller/BSSC " class="link-row">Better Scientific Software Communities</a>
+
