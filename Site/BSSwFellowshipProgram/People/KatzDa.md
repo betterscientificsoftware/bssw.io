@@ -19,4 +19,5 @@
 Daniel is a Research Associate Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences at The University of Illinois at Urbana-Champaign and Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications.
 
 <a href="https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation" class="link-row">BSSw Blog Post: Promoting Software Citation</a>
+<a href="https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation" class="link-row">HPC Best Practices Webinar:  Software Citation Today and Tomorrow</a>
 
