@@ -6,13 +6,13 @@
 
 **Image:** /images/blob/master/HM_davis.jpg
 
-**URL:** https:xxx.com
+**URL:** http://lagunaresearch.org/
 
-**LinkedIn:** https:xxx.com
+**LinkedIn:** https://www.linkedin.com/in/ignacio-laguna-b8a0b418/ 
 
 **Github:** https://github.com/ilagunap
 
-**Short Bio:** Debugging and improving the reliability of scientific applications
+**Short Bio:** Focus:  Analyzing and debugging floating-point software 
 
 **Long Bio:** Text text text debugging and improving the reliability of scientific applications, Text text text debugging and improving the reliability of scientific applications
 
