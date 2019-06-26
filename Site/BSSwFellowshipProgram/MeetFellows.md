@@ -1,7 +1,6 @@
 # Meet Our Fellows
 
-Each year since 2018, a class of fellows has been selected by Better Scientific Software based on their talents 
-Below we introduce them as well as their peers who are recognized in the evaluation process. 
+The BSSw Fellowship program gives recognition and funding to leaders and advocates of high-quality scientific software.  Meet the Fellows and learn more about how they are using their fellowship to impact Better Scientific Software.  Honorable Mentions do not receive funding, but are encouraged to engage with the BSSw community to learn more about specific needs.
 
 <!---
 Years presented: 2019, 2018
