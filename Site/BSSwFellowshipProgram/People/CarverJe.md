@@ -6,18 +6,17 @@
 
 **Image:** /images/blob/master/HM_davis.jpg
 
-**URL:** https:xxx.com
+**URL:** http://carver.cs.ua.edu/
 
-**LinkedIn:** https:xxx.com
+**LinkedIn:** https://www.linkedin.com/in/jeff-carver/
 
 **Github:** Not on Github
 
-**Short Bio:** Text text text contemporary peer code review in scientific software development
+**Short Bio:** Fellows improve code quality:  Even the most seasoned code developer can spend countless hours tracking down a bug that could have been caught with peer code review. 
 
-**Long Bio:** Text text text contemporary peer code review in scientific software development, Text text text contemporary peer code review in scientific software development
+**Long Bio:** BSSw Fellow Jeffrey Carver modernizes scientific software quality assurance by teaching contemporary peer code review in scientific software development. His tutorial includes a general introduction to code review, a more specific discussion of the unique nature of scientific code review, and an overview of available tool support. Tutorial attendees participate in hands-on exercises to practice code review. The tutorial concludes with a group discussion about best practices for performing scientific code review. Learn more about peer code review through his tutorial website (including slides): <a href="https://se4science.org/tutorials/ECP19/"> Contemporary Peer Code Review Practices</a>, from the 2019 Annual Meeting of the DOE Exascale Computing Project. 
 
-Rene is a Professor of Computer Science
+Jeff is a professor of computer science at the University of Alabama. Contact Jeff if you are interested in hosting a tutorial and developing code review in your organization.
 
-<a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
-<a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2220" class="link-row">A paper on scientific software verification and testing</a>
+<a href="https://bssw.io/events/contemporary-peer-code-review-in-scientific-software-development-escience-2018-tutorial" class="link-row">Contemporary Peer Code Review in Scientific Software Development</a>
+
