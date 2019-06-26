@@ -6,18 +6,17 @@
 
 **Image:** /images/blob/master/HM_davis.jpg
 
-**URL:** https:xxx.com
+**URL:** https://danielskatz.org/
 
-**LinkedIn:** https:xxx.com
+**LinkedIn:** https://www.linkedin.com/in/danielskatz/
 
 **Github:** https://github.com/danielskatz
 
-**Short Bio:** Text text text generation of computational experimentation pipelines that are easy to re-execute and validate
+**Short Bio:** Fellows give software developers long-overdue credit:  Paper citations are tracked to measure impact; similarly, software citations should be tracked to measure impact and recognize the significant time spent developing software and data. 
 
-**Long Bio:** Text text text generation of computational experimentation pipelines that are easy to re-execute and validate, Text text text generation of computational experimentation pipelines that are easy to re-execute and validate
+**Long Bio:** BSSw Fellow Daniel S. Katz developed principles for software citation to make scientific software more sustainable by providing credit to its developers, similar to research via paper citations. He led working groups to produce the principles, and he is currently working with publishers on implementation in institutionalized citation practices. Learn more about software citation through his webinar recording and slides: <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017> Software Citation Today and Tomorrow</a>, April 2018.
 
-Daniel is a Research Associate and Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences at The University of Illinois at Urbana-Champaign and Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications.
+Daniel is a Research Associate Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences at The University of Illinois at Urbana-Champaign and Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications.
 
-<a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
-<a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2220" class="link-row">A paper on scientific software verification and testing</a>
+<a href="https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation" class="link-row">BSSw Blog Post: Promoting Software Citation</a>
+
