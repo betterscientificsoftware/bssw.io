@@ -2,22 +2,21 @@
 
 **Name:** Ivo Jimenez
 
-**Affiliation:** University of California Santa Cruz
+**Affiliation:** University of California, Santa Cruz
 
 **Image:** /images/blob/master/HM_davis.jpg
 
-**URL:** https:xxx.com
+**URL:** https://users.soe.ucsc.edu/~ivo/
 
-**LinkedIn:** https:xxx.com
+**LinkedIn:** https://www.linkedin.com/in/ivotron/
 
 **Github:** https://github.com/ivotron
 
-**Short Bio:** Text text text generation of computational experimentation pipelines that are easy to re-execute and validate
+**Short Bio:** Fellows enable reproducible computational research:  If you can’t repeat your experiments and others can’t reproduce your results, it is difficult to claim with confidence that your experiments have advanced science. 
 
-**Long Bio:** Text text text generation of computational experimentation pipelines that are easy to re-execute and validate, Text text text generation of computational experimentation pipelines that are easy to re-execute and validate
+**Long Bio:** BSSw Fellow Ivo Jimenez created Popper, a tool to automate computational experimentation, organize artifacts, and validate results to enable high standards of reproducibility in computational research. He created an online lesson on Popper and delivered several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate. Learn more about Popper through his webinar recording and slides: <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019Popper"> Creating Reproducible Computational and Data Science Experimentation Pipelines</a>, June 2018.
 
-Ivo is a Ph.D. candidate, Computer Science
+Ivo is a Ph.D. student in computer science at the University of California, Santa Cruz. 
 
-<a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
-<a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>
-<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2220" class="link-row">A paper on scientific software verification and testing</a>
+<a href="https://falsifiable.us/" class="link-row">Popper Website</a>
+
