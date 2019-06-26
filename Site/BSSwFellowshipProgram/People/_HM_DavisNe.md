@@ -7,3 +7,5 @@
 **Affiliation:** University of Illinois at Urbana-Champaign
 
 **Short Bio:** Teaching Assistant Professor, Computer Science
+
+**Honorable Mention:** Yes
