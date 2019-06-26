@@ -166,10 +166,12 @@ to respond to questions on the mailing list, explaining how to implement
 something in user code and then adding "I think that would also make an
 excellent addition to the library itself. Would you like to give that a try?
 For this, you'd have to look at A, B, and C, and when you're there, get
-back to us and we'll talk you to the next few steps to make this into a
+back to us and we'll talk you through the next few steps to make this into a
 pull request!" Nine out of ten times you never get to see any code, but
 the remainder of the time you do get a half-baked pull request out of
-it that requires some more work on your behalf; and occasionally, that
+it that requires some more work on your behalf; the second time around,
+this person's code is already better; and occasionally after feeling encouraged
+a number of times to contribute their work, that
 person will become a future principal developer who will write the kind
 of sentence above in a few years when answering someone on the mailing
 list.
