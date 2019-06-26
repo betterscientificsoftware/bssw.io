@@ -7,3 +7,5 @@
 **Affiliation:** Stanford University
 
 **Short Bio:** Research Software Engineer, Stanford Research Computing Center
+
+**Honorable Mention:** Yes
