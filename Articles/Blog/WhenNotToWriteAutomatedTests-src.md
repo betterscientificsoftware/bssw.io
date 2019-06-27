@@ -1,4 +1,4 @@
-# When is it Better not to Write Automated Tests?
+# When NOT to Write Automated Tests?
 
 **Hero Image:**
 
