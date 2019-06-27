@@ -1,6 +1,6 @@
 # Leading a Scientific Software Project: It's All Personal
 
-#### Contributed by [Wolfgang Bangerth](https://github.com/martagarciamartinez)
+#### Contributed by [Wolfgang Bangerth](https://github.com/bangerth)
 
 #### Publication date: June 27, 2019
 
