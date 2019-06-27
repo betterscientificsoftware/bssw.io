@@ -75,7 +75,7 @@ The section above describes the various states *Curated Content* may move throug
 The actual workflow of **EB Members** during weekly meetings is really the *reverse*
 of the above steps. Working from the
 [*project board*](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/projects/3),
-**EB Members** work *first* with issues in the *right-most*, *Item Review* column.
+**EB Members** work *first* with issues in the *right-most*, *Item Review* column
 and subsequently issues in columns further to the left.
 
 ## Notes
