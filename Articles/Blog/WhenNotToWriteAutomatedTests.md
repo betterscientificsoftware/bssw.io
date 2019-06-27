@@ -1,5 +1,5 @@
-<!--- WARNING: Auto-generated with wikize_refs.py from WhenIsBetterToWriteAutomatedTests-src.md --->
-# When is it Better not to Write Automated Tests?
+<!--- WARNING: Auto-generated with wikize_refs.py from WhenNotToWriteAutomatedTests-src.md --->
+# When NOT to Write Automated Tests?
 
 **Hero Image:**
 
@@ -95,6 +95,21 @@ So please use discretion when applying this criteria to some piece of software w
 Roscoe is a long-time contributor to the [Trilinos Project](https://trilinos.org) and is currently working on various subprojects in the [Exascale Computing Project](https://www.exascaleproject.org/) including [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
 
+<!---
+Image copyright source info…
+  One public domain...
+      * http://www.testingspot.net/tst-cloud.png
+--->
+
+<!---
+Publish: no
+Categories: Development, Planning, Reliability
+Topics: design, testing
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
 
 <br>
 
@@ -114,23 +129,4 @@ References | &nbsp;
 :--- | :---
 <a name="ref1"></a>1 | [Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 ](https://bssw.io/items/working-effectively-with-legacy-code/)
 <a name="ref2"></a>2 | [Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software ](https://doi.org/10.1109/eScience.2012.6404448)
-
-<br>
-
-<!---
-Image copyright source info…
-  One public domain...
-      * http://www.testingspot.net/tst-cloud.png
---->
-
-<!---
-Publish: no
-Categories: Development, Planning, Reliability
-Topics: design, testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
---->
-
-<!--- WARNING: Auto-generated with wikize_refs.py from WhenIsBetterToWriteAutomatedTests-src.md --->
+<!--- WARNING: Auto-generated with wikize_refs.py from WhenNotToWriteAutomatedTests-src.md --->
