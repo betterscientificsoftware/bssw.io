@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Leading a Scientific Software Project: It's All Personal](../../Articles/Blog/LeadingAScientificSoftwareProject.md)
+- Display dates: 06/27/2019 - 07/17/2019
+
+<!---
 - [New blog article ... Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub](../../Articles/Blog/ApolloGuidanceComputerPart2-wikized.md)
 - Display dates: 06/17/2019 - 07/01/2019
 
-<!---
 - [New blog article ... Talking about Software Development at SIAM CSE19](../../Articles/Blog/2019-05-siam-cse19.md)
 - Display dates: 05/29/2019 - 06/16/2019
 
