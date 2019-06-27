@@ -45,9 +45,11 @@ each of the numbered steps in the description below.
    * Any more than 30 days old that have garnered insufficient interest are labeled
      as `no-interest` and closed.
    * Any issues with sufficient interest are moved to *In Progress*. An **EB Member**
-     which must be different than the actual **Author** is assigned. The author is
-     indicated by @ mention in the issue comments a deadline is set by assigning a
-     milestone.
+     which must be different than the actual **Author** is assigned. GitHub has recently
+     made it possible to assign anyone who has commented on the issue, not just project
+     members. If this work, the **Author** is indicated by assignment. Failing that the
+     **Author** can be indicated via @ mention in the issue comments. Finally, a
+     deadline is set by assigning a milestone.
 1. Issues in *In Progress* are handled as follows
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
