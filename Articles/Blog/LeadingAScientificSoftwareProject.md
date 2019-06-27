@@ -196,7 +196,8 @@ Austin. He received his Ph.D. from the University of Heidelberg,
 Germany, in 2002.
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-06-27
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: bssw-blog-article
