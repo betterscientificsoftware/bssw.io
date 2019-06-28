@@ -25,7 +25,7 @@ When I realized that almost all of this software was considered "Legacy Code" ac
 (Just recently a nasty bug came up in software I wrote around 2006 without strong automated testing that caused a good deal of harm and was an embarrassment.)
 
 After reading the book *Working Effectively with Legacy Code*, I resolved to turn over a new leaf and become a born-again Agile software engineer that would use TDD to write all new code and religiously apply the [Legacy Code Change Algorithm](https://bssw.io/items/working-effectively-with-legacy-code/) to modify all legacy code (i.e. code without tests).
-Over the years since my conversion to an Agile software engineer, I often rigorously wrote automated ests for nearly every piece of software I touched.
+Over the years since my conversion to an Agile software engineer, I often rigorously wrote automated tests for nearly every piece of software I touched.
 There where times  under schedule pressure that I slipped and reverted back to my old ways and failed to write sufficient automated tests and came to regret it.
 However, there were also times where my overzealous drive to religiously test everything (which usually came after the guilt of a recent slip of not testing enough) where I wasted time writing automated tests that were not worth the effort.
 (One example is for some code in Trilinos that did not end up getting a lot of usage and is now actually deprecated to be removed from Trilinos.)
