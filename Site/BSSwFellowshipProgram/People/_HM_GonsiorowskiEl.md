@@ -2,7 +2,7 @@
 
 **Name:** Elsa Gonsiorowski
 
-**Image:** /images/blob/master/HM_davis.jpg
+**Image:** /images/blob/master/People_GonsiorowskiElsa.jpg
 
 **Affiliation:** Lawrence Livermore National Laboratory
 
