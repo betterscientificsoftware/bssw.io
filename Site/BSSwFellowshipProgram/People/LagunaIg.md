@@ -4,7 +4,7 @@
 
 **Affiliation:** Lawrence Livermore National Laboratory
 
-**Image:** /images/blob/master/HM_davis.jpg
+**Image:** /images/blob/master/People_IgnacioLaguna.jpg
 
 **URL:** http://lagunaresearch.org/
 
