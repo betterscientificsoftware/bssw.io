@@ -4,7 +4,7 @@
 
 **Affiliation:** University of Alabama
 
-**Image:** /images/blob/master/HM_davis.jpg
+**Image:** /images/blob/master/People_CarverJeff.jpg
 
 **URL:** http://carver.cs.ua.edu/
 
