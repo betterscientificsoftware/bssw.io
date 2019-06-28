@@ -4,7 +4,7 @@
 
 **Affiliation:** DePaul University
 
-**Image:** /images/blob/master/HM_davis.jpg
+**Image:** /images/blob/master/People_TanuMalik.jpg
 
 **URL:** http://facsrv.cs.depaul.edu/~tmalik1
 
