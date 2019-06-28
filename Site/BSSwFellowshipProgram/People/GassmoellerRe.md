@@ -4,7 +4,7 @@
 
 **Affiliation:** University of California, Davis
 
-**Image:** /images/blob/master/HM_davis.jpg
+**Image:** /images/blob/master/People_ReneGassmoeller.jpg
 
 **URL:** https://gassmoeller.github.io/
 
