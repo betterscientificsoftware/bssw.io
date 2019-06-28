@@ -4,7 +4,7 @@
 
 **Affiliation:** University of California, Santa Cruz
 
-**Image:** /images/blob/master/HM_davis.jpg
+**Image:** /images/blob/master/People_JiminezIvo.jpg
 
 **URL:** https://users.soe.ucsc.edu/~ivo/
 
