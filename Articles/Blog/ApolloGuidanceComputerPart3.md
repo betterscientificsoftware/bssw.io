@@ -9,7 +9,7 @@
 
 *Third of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
-In the Apollo program, the computer *users* were first and foremost the astronauts who
+In the Apollo program, the *end-users* were first and foremost the astronauts who
 had to fly the vehicles the AGC controlled. Among the astronauts there were widely varying
 perspectives about how much and what kind of control they would yield to this new technology.
 
@@ -65,7 +65,8 @@ While practicing guidance alignments with the space sextent on the return leg of
 Jim Lovell accidentally keyed in a pre-flight program, `P01`, instead of star identifier
 `01` from the AGC's star catalog. This potentially corrupted key portions of the AGC's
 eraseable memory causing the computer to loose track of the spacecraft's position and
-orientation. Little did Lovell know that an elementary aged school girl had helped to
+orientation. It took NASA and MIT 9 long hours to radio up a fix to the problem.
+Little did Lovell know that an elementary aged school girl had helped to
 find this problem and a program change to fix it had been proposed months earlier.
 
 One user nobody had planned for was Margaret
@@ -88,6 +89,33 @@ brought them home. A third burn was also needed but because the LM AGC had been 
 used a second computer, the Abort Guidance System (AGS) and a guidance technique using the
 Sun and both end-points of the Earth's terminator, something Lovell had in fact practiced
 on Apollo 8.
+
+## Apollo 9 and EMPs (in-situ firmware updates to Apollo hardware) Flashing the CSM
+EMPs are Erasable Memory Programs;<sup>[5]</sup> that is, programs stored in erasable rather
+than fixed AGC memory. While for special purpose testing of the AGC, EMPs were viewed as too
+risky (last minute changes) to be a planned part of any crewed mission.
+However, they were used with increasing regularity in later Apollo missions to work into the
+mission functionality that was fully developed but nonetheless couldn't make the typical 4
+month lead time for rope core manufacture. An early success of EMPs happened on Apollo 9.
+Apollo 9 was an Earth orbital mission to test the lunar module descent and ascent engines as
+well as rendezvous betwween CSM and LM. One key capability the astronauts wanted as to have
+the AGC maintain the CSM nose always pointing "down" towards the Earth as it orbited. This
+meant the CSM needed to rotate in sync with its orbital position. A program to support this
+had been developed and tested (in simulator testing) earlier but was not part of Apollo 9's
+rope core flight program. Once in orbit, the astronauts entered a few dozen DSKY keystrokes
+to upload the EMP and it worked as advertised.
+
+## Barbeque Mode (10)
+After the lunar landing itself, *Passive Thermal Control (PTC)* is perhaps the most challenging
+manuever in the Apollo program. Why? It is very subtle. It is also known as *Barbecue Mode*.
+The goal is to spin up the docked CSM/LM (or on return from the moon just the CSM) rotating
+along its longitudnal axis, at one to three revolutions per hour to even out heating over the
+spacecraft due to the Sun. The challenge comes in due to *wobble*. If it isn't done just right,
+the spacecraft's orientation will slowly wobble causing a whole host of issues with IMU drift
+potential of gimbal lock, overuse of RCS propellents to keep the wobble in check, etc. In
+particular, it can prevent the crew from getting a good night's sleep if they have to always
+be pestered to make adjustments or if the AGC is frequently firing RCS thrusters. The problem
+was best described during Apollo 10
 
 ## Jack Garman, Niel Armstrong and Computer Alarms
 The Apollo 11 lunar landing is perhaps the most dramatic and oft-told story about the AGC.
@@ -125,9 +153,40 @@ primary guidance routines needed for landing. The resulting additional load on t
 meant that it occasionally did not have sufficient memory to run all processes.
 
 ## John Aaron, Alan Bean 
-John Aaron wasn't a *user*. He was, however, an Apollo fight controller.
+Less than 30 seconds into the launch of Apollo 12, with the Saturn booster pushing them 
+towards space with 7 million pounds of thrust, much to the surprise of the crew, the AGC
+went on the fritz. The DSKY went blank and then the whole cabin lit up with caution and
+warning lights and buzzers. Pete Conrad reported "we just lost the whole platform". In
+mission control...the same story. All the telemetry went on the fritz. Nonetheless, 
+John Aarons noticed a pattern in the jibberish on the displays in mission control.
+John Aaron wasn't an *end-user*. He was an Apollo flight controller. So, he sort of worked
+at the main Apollo telephone support center. In simulations years prior to Apollo 12,
+Aarons had experienced a similar situation for which the solution was to switch the
+CSM Signal Conditioning Equipment (SCE) to Auxiliary. Aaron's had mission control radio
+up to the crew "Try SCE to Aux." Miraculously, the AGC and all the displays in mission
+control came back on line and Apollo 12 safely continued flying
 
-## Pete Conrad and Alan Bean Lunar Landing Accuracy
+Apollo 12 had been hit by lightning. Fortunately, the AGC was only monitoring the Saturn
+booster during the launch, not controlling it. A second computer, the Launch Vehicle Digital
+Computer (LVDC) designed and manufactured by IBM, was controlling the vehicle into Earth orbit.
+It performed flawlessly and Apollo 12 continued to the moon.
+
+## Greatest Hack in the History of Computers
+
+## Terrain Models
+
+## IMU "Recognition"
+
+## Earth Rotation and IMU
+Russian failure and American
+
+## Uses of AGS (10, 11, 13)
+
+## Russian
+
+## Apollo had Four Computers
+
+
 
 ###### Ref to Fairchild, AGS and Moore's law
 https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips
@@ -137,5 +196,6 @@ https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-
 [2]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github "AGC Blog Part 2 {}"
 [3]: https://youtu.be/hCywOf0Czgg?t=1841 "Presentation by Dave Scott about the AGC {}"
 [4]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design {}"
+[5]: https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720025984.pdf "Erasable Memory Programs {}"
 
 
