@@ -89,16 +89,45 @@ used a second computer, the Abort Guidance System (AGS) and a guidance technique
 Sun and both end-points of the Earth's terminator, something Lovell had in fact practiced
 on Apollo 8.
 
-## John Aaron (or Alan Bean) CSE-2-Aux
+## Jack Garman, Niel Armstrong and Computer Alarms
+The Apollo 11 lunar landing is perhaps the most dramatic and oft-told story about the AGC.
+Most versions of this story focus on what was happening in the cockpit of the lunar lander.
+In this most intense moment of the Apollo program, the first time humans would land on the
+surface of the moon, the AGC flashed a *program alarm*, a *1202*. The particular situation
+causing the alarm is perhaps less important than the computer's response to it; a *restart*.
+It cleared out all running programs and then restarted them in priority order according to
+a pre-programmed set of restart rules. Restart was something that had been designed into
+the AGC from the very beginning. For Niel and Buzz who were still descending to the surface
+and streaking across the lunar horizon at over 2,000 feet/second, their DSKY went blank 
+for several seconds. The descent engine was still burning to slow their velocity. They could
+see the surface approaching out the windows. But their computer, which controlled the whole show,
+blanked out. In hundreds of simulations, neither Niel nor Buzz had ever seen this program alarm.
+In fact, most software developers at MIT had never seen it. But, one did; Jack Garman.
+At Gene Kranz' behest, in the months before the Apollo 11 launch, Jack audited AGC software 
+and compiled a cheat sheet of every possible error code the AGC could produce, their meanings and
+what their impact would be depending on when they occurred during landing. After consulting his
+cheat sheet, it was the 26 year old Jack Garman who made the "go" call to proceed with the landing.
+But, at mission control, the whole process took 30 seconds.  From the time Niel
+and Buzz reported the program alarm and awaited guidance from mission control on what to do
+about it, 30 seconds passed. The LEM dropped over a mile in altitude and traveled over 10 miles
+down range. During the landing, Armstrong and Aldrin experienced four 1202 alarms and one 1201
+alarm. Each time, Jack Garman made the "go" call to proceed past them.
+
+Later investigations found the root cause to be a problem in phasing in the hardware interface
+between the computer and rendezvous radar. The AGC used the technique of *cycle stealing* to
+allow GN&C hardware components to update their state in eraseable memory. In cycle stealing,
+normal program execution is briefly delayed as the program counter is temporarily stopped
+incrementing while data from the external hardware is routed to the computer's eraseable
+memory. Ordinarily, the delays caused by cycle stealing are insignificant to overal computer
+performance. The problem with Apollo 11 is that due to a phasing problem in RR circuitry,
+the computer was being updated 6400 times per second, each time stealing precious cycles
+primary guidance routines needed for landing. The resulting additional load on the computer
+meant that it occasionally did not have sufficient memory to run all processes.
+
+## John Aaron, Alan Bean 
 John Aaron wasn't a *user*. He was, however, an Apollo fight controller.
 
-## Apollo 1
-Pure oxygen at 2 psi above atmospheric pressure, 5000 in<sup>2</sup> of highly combustable
-Velcro and a spark in the electrical system lead to a horrendous fire killing the crew
-of Apollo 1 during a launch rehersal. The subsequent pause in the launch schedule for safety
-improvements gave MIT an extra 21 months to resolve issues with delivering flight-ready software.
-In that time, under the relentless leadership of system integrator Bill Tindall, MIT developers
-transitioned from *triage* mode to *optimization* mode.
+## Pete Conrad and Alan Bean Lunar Landing Accuracy
 
 ###### Ref to Fairchild, AGS and Moore's law
 https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips
@@ -107,5 +136,6 @@ https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-
 [1]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "AGC Blog Part 1 {}"
 [2]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github "AGC Blog Part 2 {}"
 [3]: https://youtu.be/hCywOf0Czgg?t=1841 "Presentation by Dave Scott about the AGC {}"
+[4]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design {}"
 
 
