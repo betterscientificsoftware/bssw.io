@@ -8,7 +8,7 @@ We expect all contributors to the Better Scientific Software site to follow a Co
 
 ### BSSw Editorial Team
 
-Addition before David:
+
 Rinku Gupta<br/>
 Title: Editor-in-chief
 Argonne National Laboratory<br/>
@@ -19,9 +19,9 @@ Oak Ridge National Laboratory<br/>
 https://github.com/bernhold
 
 Mike Heroux<br/>
-Sandia National Laboratories<br/>
+Sandia National Laboratories<br/> 
 https://github.com/maherou
-
+ 
 Lois Curfman McInnes<br/>
 Argonne National Laboratory<br/>
 https://github.com/curfman
