@@ -10,7 +10,7 @@ We expect all contributors to the Better Scientific Software site to follow a Co
 
 
 Rinku Gupta<br/>
-Title: Editor-in-chief
+Title: Editor-in-chief<br />
 Argonne National Laboratory<br/>
 https://github.com/rinkug
 
