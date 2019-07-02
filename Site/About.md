@@ -8,13 +8,11 @@ We expect all contributors to the Better Scientific Software site to follow a Co
 
 ### BSSw Editorial Team
 
-<!--
 Addition before David:
 Rinku Gupta<br/>
 Title: Editor-in-chief
 Argonne National Laboratory<br/>
 https://github.com/rinkug
--->
 
 David Bernholdt<br/>
 Oak Ridge National Laboratory<br/>
@@ -28,9 +26,8 @@ Lois Curfman McInnes<br/>
 Argonne National Laboratory<br/>
 https://github.com/curfman
 
-<!--
-Additional section:
-## BSSw Associate Editors
+
+### BSSw Associate Editors
 
 Roscoe Bartlett
 Sandia National Laboratories<br/>
@@ -51,7 +48,6 @@ https://github.com/jarrah42
 Paul Wolfenbarger
 Sandia National Laboratories<br/>
 https://github.com/prwolfe
--->
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
