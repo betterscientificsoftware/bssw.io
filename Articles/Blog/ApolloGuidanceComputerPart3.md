@@ -1,5 +1,4 @@
-# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: User Stories from Space
-
+# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: User Stories from Space 
 **Hero Image:**
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/foo.jpg' />
@@ -38,18 +37,9 @@ hardware<sup>[1]</sup> and software.<sup>[2]</sup> Here, in part 3, we focus on 
 that is the actual use of the AGC in Apollo missions.
 
 
+## Verbs and Nouns
 We cannot write about how Apollo astronauts flew to the moon without using *verbs*
 and *nouns*?
-
-## Uncrewed Missions
-Block I AGCs were used in 4 uncrewed Apollo missions designed primarily to test
-the main spacecraft components and less so to test the AGC. Nonetheless, the computer was a
-critical part of these missions because of the flexibility it gave mission planners and
-mission control. For example, Apollo 6 was to be the first Apollo flight to perform
-a trans-lunar injection burn. However, the main Saturn booster suffered serious
-*pogo oscillations* damaging the upper stages preventing such a test. Using the in-situ
-programmability of the AGC, mission control was able to easily adjust the mission plan
-mid-flight.
 
 ## Wally Schirra
 
@@ -63,9 +53,8 @@ the crew the extra time they needed to finish adjusting equipment and strapping 
 ## Jim Lovell
 While practicing guidance alignments with the space sextent on the return leg of Apollo 8,
 Jim Lovell accidentally keyed in a pre-flight program, `P01`, instead of star identifier
-`01` from the AGC's star catalog. This potentially corrupted key portions of the AGC's
-eraseable memory causing the computer to loose track of the spacecraft's position and
-orientation. It took NASA and MIT 9 long hours to radio up a fix to the problem.
+`01` from the AGC's star catalog. This corrupted key parameters used in guidance computations
+in the AGC's eraseable memory. It took NASA and MIT 9 long hours to radio up a fix to the problem.
 Little did Lovell know that an elementary aged school girl had helped to
 find this problem and a program change to fix it had been proposed months earlier.
 
@@ -81,8 +70,8 @@ trained the would never make such a mistake and rejected the program change.
 On Apollo 13, Lovell would benefit from "what if" thinking by MIT software developers that
 might have prevented his earlier problems on Apollo 8. For Apollo 9, MIT software developers
 needed to create a major mode program that allowed the crew to test the lunar module descent
-engine while the LM and CSM were docked, a unusual coniguration not ordinarily used for a
-normal Apollo mission. It was considered the safest configuration for the first ever test of
+engine while the LM and CSM were docked, a coniguration not ordinarily used for an
+Apollo mission. It was considered the safest configuration for the first ever test of
 the lunar module. That code remained in the flight program for later Apollo missions and is
 what enabled the crew of Apollo 13 to use the LM descent engine for two of the burns that
 brought them home. A third burn was also needed but because the LM AGC had been shut down
@@ -106,18 +95,28 @@ rope core flight program. Once in orbit, the astronauts entered a few dozen DSKY
 to upload the EMP and it worked as advertised.
 
 ## Barbeque Mode (10)
-After the lunar landing itself, *Passive Thermal Control (PTC)* is perhaps the most challenging
-manuever in the Apollo program. Why? It is very subtle. It is also known as *Barbecue Mode*.
+*Passive Thermal Control (PTC)* or *Barbecue Mode* as it is often called, is likely most
+tempermental manuever in the Apollo program. Why? It is very sensitive to initial conditions
 The goal is to spin up the docked CSM/LM (or on return from the moon just the CSM) rotating
-along its longitudnal axis, at one to three revolutions per hour to even out heating over the
-spacecraft due to the Sun. The challenge comes in due to *wobble*. If it isn't done just right,
+along its longitudnal axis ever so slightly at one to three revolutions per hour to even out heating over the
+spacecraft skin due to the Sun. The challenge is to get the spacecraft *barbecueing* and then
+allow it to just coast for long periods of time without falling into a bad *wobble*. If it isn't done just right,
 the spacecraft's orientation will slowly wobble causing a whole host of issues with IMU drift
-potential of gimbal lock, overuse of RCS propellents to keep the wobble in check, etc. In
+risk of gimbal lock, overuse of RCS propellents to keep the wobble in check, etc. In
 particular, it can prevent the crew from getting a good night's sleep if they have to always
-be pestered to make adjustments or if the AGC is frequently firing RCS thrusters. The problem
-was best described during Apollo 10
+be pestered to make adjustments or if the AGC is frequently firing RCS thrusters. The 
+challenge with this manuever was that the desired axis of rotation (down the geometric center of the
+docked CSM/LM) doesn't align with any of the body's inertial principle axes of rotation.
+This means the RCS have to be consantly firing to maintain the torque required to keep the
+axis of rotation aligned correctly.
+This means that starting with an initial condition of of angular velocity about only the desired
+axis of rotation, alone is that over time, the time varying rotation of the body will be such 
+that it will rotate signficantly on all 3 axes. The solution is to input some non-zero rotational
+velocity (two orders of magnitude lower) about the other axes of rotation which has the effect
+of keeping under control the growth of rotation about those axes as time evolves. Ultimately,
+this mean astronauts needed to engage the AGC to impose a small driving torque
 
-## Jack Garman, Niel Armstrong and Computer Alarms
+## Cycle Stealing Almost Stole the Whole Show; Restart to the Rescue
 The Apollo 11 lunar landing is perhaps the most dramatic and oft-told story about the AGC.
 Most versions of this story focus on what was happening in the cockpit of the lunar lander.
 In this most intense moment of the Apollo program, the first time humans would land on the
@@ -129,8 +128,8 @@ the AGC from the very beginning. For Niel and Buzz who were still descending to 
 and streaking across the lunar horizon at over 2,000 feet/second, their DSKY went blank 
 for several seconds. The descent engine was still burning to slow their velocity. They could
 see the surface approaching out the windows. But their computer, which controlled the whole show,
-blanked out. In hundreds of simulations, neither Niel nor Buzz had ever seen this program alarm.
-In fact, most software developers at MIT had never seen it. But, one did; Jack Garman.
+blanked out. In hundreds of simulations, neither Niel nor Buzz had ever been confronted with
+this situaton. In fact, most software developers at MIT had never seen it. But, one did; Jack Garman.
 At Gene Kranz' behest, in the months before the Apollo 11 launch, Jack audited AGC software 
 and compiled a cheat sheet of every possible error code the AGC could produce, their meanings and
 what their impact would be depending on when they occurred during landing. After consulting his
@@ -144,8 +143,8 @@ alarm. Each time, Jack Garman made the "go" call to proceed past them.
 Later investigations found the root cause to be a problem in phasing in the hardware interface
 between the computer and rendezvous radar. The AGC used the technique of *cycle stealing* to
 allow GN&C hardware components to update their state in eraseable memory. In cycle stealing,
-normal program execution is briefly delayed as the program counter is temporarily stopped
-incrementing while data from the external hardware is routed to the computer's eraseable
+normal program execution is briefly paused as the program counter is temporarily stopped
+incrementing while data from the external hardware is routed over the bus to the computer's eraseable
 memory. Ordinarily, the delays caused by cycle stealing are insignificant to overal computer
 performance. The problem with Apollo 11 is that due to a phasing problem in RR circuitry,
 the computer was being updated 6400 times per second, each time stealing precious cycles
@@ -171,7 +170,7 @@ booster during the launch, not controlling it. A second computer, the Launch Veh
 Computer (LVDC) designed and manufactured by IBM, was controlling the vehicle into Earth orbit.
 It performed flawlessly and Apollo 12 continued to the moon.
 
-## Greatest Hack in the History of Computers
+## 
 
 ## Terrain Models
 
@@ -180,11 +179,35 @@ It performed flawlessly and Apollo 12 continued to the moon.
 ## Earth Rotation and IMU
 Russian failure and American
 
-## Uses of AGS (10, 11, 13)
+## Spaceflight and Computing
+Each Apollo lunar landing mission included four computers. There was on AGC in each of the the CSM and LM.
+There was also the Launch Vehicle Digital Computer (LVDC) that provided guidance for the Saturn rocket's
+first three stages during launch and the Abort Guidance System (AGS) on the LM which served as a backup
+to the AGC in case a lunar landing needed to be aborted. Below, we capture some of the key design features
+of each of these computers
 
-## Russian
+Computer | Manufacturer | Power &<br>Weight
+---|---|---
+LVDC|IBM|
+AGC|Raytheon|32kg, 55W
+AGS|TRW|14Kb, 90W
 
-## Apollo had Four Computers
+Although it was intended only for backup, AGS was ultimately used in four Apollo missions. In Apollo 9,
+both the descent and ascent stages of the LM were tested in Earth orbital flight. The test of the ascent
+stage and rendevous with the CSM used the AGS computer for guidance. In Apollo 10, the LM descended to
+within 47,000 feet of the lunar surface and then, as planned, executed a full up abort 
+severing the descent stage and turning control of the ascent stage from the AGC over to the AGS computer.
+However, an incorrect switch setting putting AGS in *Auto* mode rather than *Attitude Hold* prior to the
+manuever led to a prompt and pronounced deviation in attitude just moments before staging. In 16mm camera
+footage, the descent stage as well as the lunar horizon are seen racing across field of view for a period
+of ~15 seconds before the situation is brought under control. In Apollo 11, AGS was briefly used for 
+attitude control at the final moments of docking with the CSM because the LM had been manuevered such
+that PGNS was in gimbal lock. The final use of AGS was in Apollo 13 for two mid-course corrections on 
+the return to Earth. PGNS had been fully shut down due to its power and water use.
+
+* RTCC
+* The Russians
+* 
 
 
 
