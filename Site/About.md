@@ -31,23 +31,22 @@ https://github.com/curfman
 <!--
 Additional section:
 ### BSSw Associate Editors
+-->
 
+<!--
+Names/info:
 Roscoe Bartlett<br />
 Sandia National Laboratories<br/>
 [https://github.com/bartlettroscoe](https://github.com/bartlettroscoe)
-
 Patricia Grubel<br />
 Los Alamos National Laboratory<br/>
 https://github.com/pagrubel
-
 Mark Miller<br />
 Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
-
 Greg Watson
 Oak Ridge National Laboratory<br/>
 https://github.com/jarrah42
-
 Paul Wolfenbarger
 Sandia National Laboratories<br/>
 https://github.com/prwolfe
