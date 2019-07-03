@@ -8,12 +8,12 @@ Scientific software has emerged as an essential discipline in its own right.   B
 --->
 
 <!---
-Slide1 Left: blog_posts/bssw-fellowship-activity-promoting-software-citation
-Slide1 Right: blog_posts/software-as-craft
-Slide2 Left: blog_posts/better-science-through-software-testing
-Slide2 Right: images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png
-Slide3 Left: blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation
-Slide3 Right: images/raw/master/Blog_0918_Alcator_C-Mod_Fisheye_1176_432.png
+Slide1 Left: events/call-for-papers-software-engineering-for-hpc-enabled-research-sc19-se-her-2019 
+Slide1 Right: events/best-practices-for-hpc-software-developers-webinar-series 
+Slide2 Left: items/working-effectively-with-legacy-code/
+Slide2 Right: items/unit-testing-c-with-catch/
+Slide3 Left: blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap
+Slide3 Right: images/raw/master/Blog_0429_Apollo1.jpg
 --->
 
 
