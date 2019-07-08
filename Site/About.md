@@ -44,6 +44,9 @@ https://github.com/pagrubel
 Mark Miller<br />
 Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
+Jean Shuler<br />
+Lawrence Livermore National Laboratory<br/>
+https://github.com/JeanShuler
 Greg Watson
 Oak Ridge National Laboratory<br/>
 https://github.com/jarrah42
