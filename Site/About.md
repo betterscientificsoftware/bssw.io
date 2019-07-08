@@ -35,16 +35,16 @@ Additional section:
 
 <!--
 Names/info:
-Roscoe Bartlett<br />
+Roscoe Bartlett<br/>
 Sandia National Laboratories<br/>
 [https://github.com/bartlettroscoe](https://github.com/bartlettroscoe)
-Patricia Grubel<br />
+Patricia Grubel<br/>
 Los Alamos National Laboratory<br/>
 https://github.com/pagrubel
-Mark Miller<br />
+Mark Miller<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
-Jean Shuler<br />
+Jean Shuler<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/JeanShuler
 Greg Watson
