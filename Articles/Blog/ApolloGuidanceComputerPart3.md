@@ -28,33 +28,35 @@ that is experiences in the use of the AGC in actual Apollo missions.
 It is impossible to write about how Apollo astronauts flew to the moon without using `Verb`s and
 `Noun`s. Unlike Kubrik's 1969 film, *2001: A Space Odyssey*, where the crew held conversations
 with their HAL computer, Apollo crews interacted directly with the AGC through LED-like displays
-and a keypad called the DSKY (proncouned *disskee*). Verb codes specified an action to take.
+and a keypad called the DSKY (pronounced *disskee*). Verb codes specified an action to take.
 Noun codes specified the data upon which the action was taken.<sup>[6]</sup> For example, to
 display current velocity, the astronauts would perform the following keystrokes, `Verb`, `0`, `6`,
 `Noun`, `6`, `0`, `Enter`. The Verb code `06` means to display some data in decimal. The Noun code
 `60` means the data for velocity. The keystrokes, `Verb`, `3`, `7`, `Noun`, `0`, `1`, `Enter`
-meant to begin a pre-launch program to align the Intertial Measurement Unit (IMU). More on that
-from an experience with Jim Lovell had on Apollo 8.
+meant to begin a pre-launch program to align the Inertial Measurement Unit (IMU). More on that
+later from an experience on Apollo 8.
+
+![Apollo DSKY in Command-Service Module (CSM)](https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_dsky.png)
 
 Data displayed to or entered by the astronauts via the DSKY was handled in English units and
 converted to/from the Metric system for internal guidance computations. The astronauts sometimes
-refered to the AGC as the fourth crew-member. After hundreds of hours training in simulators, they
+referred to the AGC as the fourth crew-member. After hundreds of hours training in simulators, they
 had AGC *code-speak* memorized and could probably operate it blind-folded. Nonetheless, operating
-the DSKY in thickly gloved hands, quickly and accuratley under the time pressures of crtical flight
-manuevers was not easy. Dave Scott explained that in the lunar module, the computer's *Proceed*
+the DSKY in thickly gloved hands, quickly and accurately under the time pressures of critical flight
+maneuvers was not easy. Dave Scott explained that in the lunar module, the computer's *Proceed*
 button, the main engine *Shutdown* button and the *Abort* button were in such close proximity<sup>[3]</sup>,
 it would have been very easy for users to hit the wrong button at the wrong time. All the astronauts
 had to *"...think very hard..."* to avoid making such a mistake. This is a surprising vulnerability
 to have existed given the amount of human-computer interface design effort that went into the whole
 GN&C system.
 
-## What an Elementary School Girl Knew about the AGC that Jim Lovell Didn't
-While practicing guidance alignments with the space sextent on the return leg of Apollo 8,
-Jim Lovell accidentally keyed in a command to start a pre-flight program, `P01`, instead of star
-identifier `01` from the AGC's star catalog. This corrupted key guidance parameters in eraseable
+## What an Elementary School Girl Knew about the AGC that Apollo 8 Didn't 
+While practicing guidance alignments with the space sextant on the return leg of Apollo 8,
+the crew accidentally keyed in a command to start a pre-flight program, `P01`, instead of star
+identifier `01` from the AGC's star catalog. This corrupted key guidance parameters in erasable
 memory. It took NASA and MIT nine long hours to radio up a fix to the problem. Fortunately, this
-had occurred during a segment of the flight where there were no time-crtical manuevers occurring.
-Little did Lovell know that an elementary aged school girl had helped to find this problem and a
+had occurred during a segment of the flight where there were no time-critical maneuvers occurring.
+Little did the crew know that an elementary aged school girl had helped to find this problem and a
 program change to fix it had been proposed months earlier.
 
 One user nobody had planned for was Margaret Hamilton's elementary school daughter, Lauren.
@@ -63,7 +65,7 @@ DSKY commands causing an AGC simulator to crash. The simulator was running an in
 and Lauren had keyed in a command to select and run a pre-flight program. Alarmed, Hamilton's
 first thought was *what if an astronaut did that in flight?* She investigated the cause and
 proposed a program change to prevent such accidental. However, NASA believed the astronauts were
-so well trained they would never make such a mistake and rejected the program change. After Lovell's
+so well trained they would never make such a mistake and rejected the program change. After the
 accidental entry in Apollo 8, the program change was approved.
 
 ## Flashing the AGC with EMPs 
@@ -82,15 +84,15 @@ astronauts entered a few dozen DSKY keystrokes to upload the EMP and it worked e
 wanted it to work.
 
 ## Overcooking the Barbecue
-*Passive Thermal Control (PTC)* or *Barbecue Mode*, is likely the most tempermental manuever in
-the Apollo program. The goal is to spin up the spacecraft rotating along its longitudnal axis ever
+*Passive Thermal Control (PTC)* or *Barbecue Mode*, is likely the most temperamental maneuver in
+the Apollo program. The goal is to spin up the spacecraft rotating along its longitudinal axis ever
 so slowly at one to three revolutions per hour to even out heating due to the Sun. The challenge is
-to get the spacecraft *barbecueing* and then allow it to coast for long periods of time without
+to get the spacecraft *barbecuing* and then allow it to coast for long periods of time without
 falling into a bad *wobble* causing several issues with IMU drift, risk of gimbal lock and overuse
-of RCS propellents to keep the wobble in check. On Apollo 10, the astronauts had difficulty sleeping
+of RCS propellants to keep the wobble in check. On Apollo 10, the astronauts had difficulty sleeping
 because the AGC was constantly firing RCS jets to counter the wobble. On other flights, mission control
 would have to wake the astronauts to bring the wobble under control. Unless the axis of rotation is
-perfectly aligned with a spacecraft *principle* axis, free body rotations have stability issues.
+perfectly aligned with a spacecraft *principle* axis, free rotations have stability issues.
 A control algorithm that seeks to maintain a target angular velocity about an axis that is *not* one
 of the spacecraft's principle axes of rotation creates the need for the AGC to regularly fire RCS jet
 bursts to maintain the needed torque. On the other hand, an algorithm that seeks to impose a
@@ -100,11 +102,11 @@ attempted in Apollo 10. Instead of using the AGC, the astronauts used their manu
 to impose a series of small rotational torques and the approach worked.
 
 ## Cycle Stealing Gone Awry; Restart to the Rescue
-GN&C hardware components used the technique of *cycling stealing* to update their state in AGC
+GN&C hardware components used the technique of *cycling stealing*<sup>[11]</sup> to update their state in AGC
 erasable memory. In cycle stealing, normal program execution is briefly paused. The program counter
 temporarily stops incrementing while data from external hardware is routed over the bus to the
-computer's eraseable memory. In normal operation, delays caused by cycle stealing were insignificant
-occuring perhaps dozens of times per second. However, in Apollo 11 there was a phasing problem in the
+computer's erasable memory. In normal operation, delays caused by cycle stealing were insignificant
+occurring perhaps dozens of times per second. However, in Apollo 11 there was a phasing problem in the
 rendezvous radar circuitry causing cycles to be stolen at their maximum allowed rate of 6400 times per
 second. The resulting additional load meant the computer occasionally did not have sufficient
 resources to complete all work within its pre-defined *duty cycle* triggering program alarms.<sup>[8]</sup>
@@ -118,12 +120,14 @@ raised significant doubts about its value only months prior to the Apollo 11 mis
 approached the lunar surface for landing, changing major mode programs from `P64` to `P66`, the
 computational load on the AGC lessened and the program alarms abated. 
 
+![Jack Garman's Cheat Sheet of AGC Program Alarms](https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_garman_cheat_sheet.png)
+
 Why wasn't the landing aborted? Turns out it was...in simulations with the Apollo 12 backup crew just
-weeks prior to launch. Flight controllers in those simulations were excoriated because the circumstances
+weeks prior to launch.<sup>[9]</sup> Flight controllers in those simulations were excoriated because the circumstances
 didn't warrant an abort. At NASA's behest, MIT performed an audit of all program alarms the AGC could
-trigger. A 26 year old Jack Garman compiled a cheat sheet which he consulted during the Apollo 11
+trigger. A 26 year old Jack Garman compiled a cheat sheet, pictured above, which he consulted during the Apollo 11
 landing to give the "go" decision to flight controllers to continue the landing a process that took
-30 long seconds in which time the LEM dropped 6,000 feet in altitude and traveled 10 miles downrange.
+30 long seconds in which time the LEM dropped over a mile in altitude and traveled 10 miles downrange.
 
 ## "Try SCE To Aux"
 Less than 30 seconds into the launch of Apollo 12, with the Saturn booster accelerating them 
@@ -131,9 +135,9 @@ towards space with 7 million pounds of thrust, much to the surprise of the crew,
 went on the fritz. The DSKY went blank and then the whole cabin lit up with caution and
 warning lights and buzzers. Pete Conrad reported "we just lost the whole platform". In
 mission control...the same story. All the telemetry went on the fritz. Nonetheless, 
-John Aarons recognized something familiar in the jibberish on the displays in mission control.
+John Aarons recognized something familiar in the gibberish on the displays in mission control.
 In simulations years prior to Apollo 12, Aarons had experienced a similar situation which 
-produced the same screens of jibberish telemetry. He remembered the solution then was to switch the
+produced the same screens of gibberish telemetry. He remembered the solution then was to switch the
 CSM Signal Conditioning Equipment (SCE) to Auxiliary. Aaron's had mission control radio
 up to the crew "Try SCE to Aux." Miraculously, the AGC and all the displays in mission
 control came back to life and Apollo 12 safely continued into orbit.
@@ -145,70 +149,64 @@ It performed flawlessly and Apollo 12 went on to perform a pin-point lunar landi
 within a short lunar stroll of Surveyor III. To achieve this landing accuracy, AGC software was
 revised to incorporate tracking telemetry from multiple ground stations.
 
+![Left: John Aarons at Mission Control. Right: Pete Conrad of Apollo 12 at Surveyor III with LM Intrepid in the background](https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_apollo_12_and_aarons.png)
+
 ## What-if Thinking
-On Apollo 13, Lovell would benefit from "what if" thinking by MIT software developers that
-might have prevented his earlier problems on Apollo 8. For Apollo 9, MIT software developers
-needed to create a major mode program that allowed the crew to test the lunar module descent
-engine while the LM and CSM were docked, a coniguration not ordinarily used for an
-Apollo mission. It was considered the safest configuration for the first ever test of
-the lunar module. That code remained in the flight program for later Apollo missions and is
-what enabled the crew of Apollo 13 to use the LM descent engine for two of the burns that
-brought them home. A third burn was also needed but because the LM AGC had been shut down
+Early on, MIT engineers adopted a *what-if* approach to software development trying to account
+for every possible contingency. The crew of Apollo 13 would benefit from this what-if thinking.
+For Apollo 9, MIT software developers needed to create a major mode program that allowed the
+crew to test the lunar module descent
+engine while remaining docked with the CSM, a configuration not ordinarily used or needed for any
+other Apollo mission. It was considered the safest configuration for the first ever test of
+the lunar module. Instead of removing that code from future flight programs, MIT asked, what if
+we might need that in a future mission? So, the guidance code that was developed for that configuration
+remained in the flight program for later Apollo missions and is what enabled the crew of Apollo 13 to use the LM
+descent engine for the first two burns that 1) put them on a free return trajectory and 2)
+accelerated their return by 24 hours to bring them home. A third burn was also needed but because
+the LM AGC had been shut down
 used a second computer, the Abort Guidance System (AGS) and a guidance technique using the
-Sun and both end-points of the Earth's terminator, something Lovell had in fact practiced
-on Apollo 8.
+Sun and both end-points of the Earth's terminator, something one crew member, Jim Lovell had in
+fact practiced on Apollo 8.
 
-## Tech Support from 1/4 Million Miles
-During Apollo 14, the all important *Abort* button in the LEM was found to be faulty. It was occasionally
-closing a circuit indicating to the AGC that the *Abort* command had been given. This of course
-would be disasterous if it occurred during a landing attempt. MIT needed to quickly devise a
-procedure the crew would use to allow the landing to proceed without risk of being inadvertently
+## A Quarter Million Mile Tech Support Call
+During Apollo 14, the *Abort* button in the LEM was found to be faulty. It was occasionally
+closing a circuit indicating to the AGC that the *Abort* button had been pushed. This of course
+would be disastrous if it occurred during a landing attempt. MIT needed to quickly devise a
+procedure the crew could use to allow the landing to proceed without risk of it being inadvertently
 aborted due to the faulty switch. Apollo 14 waited, orbiting the moon and delaying their landing
-four long hours as MIT poured over AGC source code looking for a solution that required as few
-keystrokes as possible but provided assurance the faulty *Abort* switch would be ignored. MIT
-radioed up
-
-. It his hard to enter keystrokes in thickly gloved hands accurately and quickly while you also flying
-a vehicle descending at high speed to the lunar surface.
-
-## Earth Rotation and IMU
-Russian failure and American
+for four long hours as MIT poured over AGC source code looking for a solution that required as few
+keystrokes as possible but provided assurance the faulty *Abort* switch would be ignored by the
+computer. The fix involved over-writing certain *flag bits* in AGC erasable memory at key points
+during the descent.<sup>[15]</sup> Each over-write involved a sequence of verb and noun keystrokes to enter the
+desired memory address and mask word to fool the computer into believing one condition or another
+was either true or false. Apollo 14 went on to the most accurate landing of all missions, just
+175 feet from its target.
 
 ## Computing and Spaceflight
-Each Apollo lunar landing mission included four computers. There was on AGC in each of the the CSM and LM.
+Computing was an absolutely essential tool for the Apollo program.
+Each Apollo lunar landing mission included four on-board guidance computers. There was on AGC in each of the the CSM and LM.
 There was also the Launch Vehicle Digital Computer (LVDC) that provided guidance for the Saturn rocket's
 first three stages during launch and the Abort Guidance System (AGS) on the LM which served as a backup
 to the AGC in case a lunar landing needed to be aborted. Below, we capture some of the key design features
 of each of these computers
 
-Computer | Manufacturer | Power &<br>Weight
----|---|---
-LVDC|IBM|
-AGC|Raytheon|32kg, 55W
-AGS|TRW|14Kb, 90W
+Computer | Manufacturer | Word (bits) /<br>Memory (Kb) | Clock (Mhz) /<br> Flops (Kf) | Weight (kg) /<br> Power (W) | Notes
+---|---|---|---|---|---
+LVDC<sup>[13]</sup>|IBM|14, 28.5 |2.048, 3 |33, 137 | triple-redundant logic w/voting
+AGS<sup>[12]</sup>|TRW|18, 4.6|??, 12.5|15, 90 | Used in Apollo 9, 10, 11 & 13
+AGC|Raytheon|16, 76 | 1.024, 14.5 | 32, 55 | 
 
-Although it was intended only for backup, AGS was ultimately used in four Apollo missions. In Apollo 9,
-both the descent and ascent stages of the LM were tested in Earth orbital flight. The test of the ascent
-stage and rendevous with the CSM used the AGS computer for guidance. In Apollo 10, the LM descended to
-within 47,000 feet of the lunar surface and then, as planned, executed a full up abort 
-severing the descent stage and turning control of the ascent stage from the AGC over to the AGS computer.
-However, an incorrect switch setting putting AGS in *Auto* mode rather than *Attitude Hold* prior to the
-manuever led to a prompt and pronounced deviation in attitude just moments before staging. In 16mm camera
-footage, the descent stage as well as the lunar horizon are seen racing across field of view for a period
-of ~15 seconds before the situation is brought under control. In Apollo 11, AGS was briefly used for 
-attitude control at the final moments of docking with the CSM because the LM had been manuevered such
-that PGNS was in gimbal lock. The final use of AGS was in Apollo 13 for two mid-course corrections on 
-the return to Earth. PGNS had been fully shut down due to its power and water use.
+But the role computing played in the Apollo program was not confined to autonomous
+guidance for the spacecraft in actual missions. Computing and simulation was used by every major
+sub-contractor, in every phase of development and in every vehicle and almost every sub-system. Computing was a
+key facilitator in providing realistic simulators of the CSM and LM to train Apollo crews. In NASA's
+Real-Time Computing Complex (RTCC) alone 5 IBM 360/75s were in use 24/7 during every mission. The RTCC
+supported ground tracking and computation of orbits, trajectories, rendezvous solutions, abort
+contingencies, weather forecasting and more. NASA would not have met President Kennedy's challenge of landing
+people on the moon before 1970 without the major role computers and computing and simulation played. The
+Apollo program simultaneously drove innovations in computing and benefited from them.<sup>[14]</sup>
 
-* RTCC
-* The Russians
-* 
-
-
-
-###### Ref to Fairchild, AGS and Moore's law
-https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips
-
+[Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap) | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) | Part 3
 
 [1]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "AGC Blog Part 1 {}"
 [2]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github "AGC Blog Part 2 {}"
@@ -220,9 +218,14 @@ https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-
 [8]: https://www.doneyles.com/LM/Tales.html "Done Eyles definitive description of Apollo 11 program alarms {}"
 [9]: https://www.airspacemag.com/daily-planet/troubleshooting-101-1201-actually-and-1202-too-111339271/ "Program alarms simulation {}"
 [10]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design {}"
+[11]: https://en.wikipedia.org/wiki/Cycle_stealing "Description of Cycle Stealing {}"
+[12]: https://www.ibiblio.org/apollo/yaAGS.html "Description of AGS {}"
+[13]: https://www.ibiblio.org/apollo/LVDC.html "Description of LVDC {}"
+[14]: https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips "AGC and the First Si Chips {}"
+[15]: https://youtu.be/wSSmNUl9Snw "Video describing Apollo 14 fix {}"
 
 <!---
-Image source infor
+Image source info
 
 https://en.wikipedia.org/wiki/Apollo_Guidance_Computer#/media/File:Dsky.jpg
 
