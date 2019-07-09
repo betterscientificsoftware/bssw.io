@@ -100,62 +100,50 @@ attempted in Apollo 10. Instead of using the AGC, the astronauts used their manu
 to impose a series of small rotational torques and the approach worked.
 
 ## Cycle Stealing Gone Awry; Restart to the Rescue
-The Apollo 11 lunar landing is perhaps the most dramatic and oft-told story about the AGC.
-Most versions of this story focus on what was happening in the cockpit of the lunar lander.
-In this most intense moment of the Apollo program, the first time humans would land on the
-surface of the moon, the AGC flashed a *program alarm*, a *1202*. The particular situation
-causing the alarm is perhaps less important than the computer's response to it; a *restart*.
-It cleared out all running programs and then restarted them in priority order according to
-a pre-programmed set of restart rules. Restart was something that had been designed into
-the AGC from the very beginning. For Niel and Buzz who were still descending to the surface
-and streaking across the lunar horizon at over 2,000 feet/second, their DSKY went blank 
-for several seconds. The descent engine was still burning to slow their velocity. They could
-see the surface approaching out the windows. But their computer, which controlled the whole show,
-blanked out. In hundreds of simulations, neither Niel nor Buzz had ever been confronted with
-this situaton. In fact, most software developers at MIT had never seen it. But, one did; Jack Garman.
-At Gene Kranz' behest, in the months before the Apollo 11 launch, Jack audited AGC software 
-and compiled a cheat sheet of every possible error code the AGC could produce, their meanings and
-what their impact would be depending on when they occurred during landing. After consulting his
-cheat sheet, it was the 26 year old Jack Garman who made the "go" call to proceed with the landing.
-But, at mission control, the whole process took 30 seconds.  From the time Niel
-and Buzz reported the program alarm and awaited guidance from mission control on what to do
-about it, 30 seconds passed. The LEM dropped over a mile in altitude and traveled over 10 miles
-down range. During the landing, Armstrong and Aldrin experienced four 1202 alarms and one 1201
-alarm. Each time, Jack Garman made the "go" call to proceed past them.
+GN&C hardware components used the technique of *cycling stealing* to update their state in AGC
+erasable memory. In cycle stealing, normal program execution is briefly paused. The program counter
+temporarily stops incrementing while data from external hardware is routed over the bus to the
+computer's eraseable memory. In normal operation, delays caused by cycle stealing were insignificant
+occuring perhaps dozens of times per second. However, in Apollo 11 there was a phasing problem in the
+rendezvous radar circuitry causing cycles to be stolen at their maximum allowed rate of 6400 times per
+second. The resulting additional load meant the computer occasionally did not have sufficient
+resources to complete all work within its pre-defined *duty cycle* triggering program alarms.<sup>[8]</sup>
 
-Later investigations found the root cause to be a problem in phasing in the hardware interface
-between the computer and rendezvous radar. The AGC used the technique of *cycle stealing* to
-allow GN&C hardware components to update their state in eraseable memory. In cycle stealing,
-normal program execution is briefly paused as the program counter is temporarily stopped
-incrementing while data from the external hardware is routed over the bus to the computer's eraseable
-memory. Ordinarily, the delays caused by cycle stealing are insignificant to overal computer
-performance. The problem with Apollo 11 is that due to a phasing problem in RR circuitry,
-the computer was being updated 6400 times per second, each time stealing precious cycles
-primary guidance routines needed for landing. The resulting additional load on the computer
-meant that it occasionally did not have sufficient memory to run all processes.
+As Armstrong and Aldrin streaked across the lunar horizon and dropped to the surface, their
+DSKY flashed a program alarm, momentarily stopped operating and blanked out. The AGC effectively rebooted.
+All running programs were cleared and those that were restart protected were restarted in priority
+order according to a pre-programmed set of restart rules. Restart took only a few seconds and had been
+designed into the AGC from the very beginning. Remarkably, an internal NASA report<sup>[10]</sup> had
+raised significant doubts about its value only months prior to the Apollo 11 mission. As Apollo 11
+approached the lunar surface for landing, changing major mode programs from `P64` to `P66`, the
+computational load on the AGC lessened and the program alarms abated. 
+
+Why wasn't the landing aborted? Turns out it was...in simulations with the Apollo 12 backup crew just
+weeks prior to launch. Flight controllers in those simulations were excoriated because the circumstances
+didn't warrant an abort. At NASA's behest, MIT performed an audit of all program alarms the AGC could
+trigger. A 26 year old Jack Garman compiled a cheat sheet which he consulted during the Apollo 11
+landing to give the "go" decision to flight controllers to continue the landing a process that took
+30 long seconds in which time the LEM dropped 6,000 feet in altitude and traveled 10 miles downrange.
 
 ## "Try SCE To Aux"
-I tried to get a personalized plate with SCE2AUX. Someone in California already has it.
-Less than 30 seconds into the launch of Apollo 12, with the Saturn booster pushing them 
+Less than 30 seconds into the launch of Apollo 12, with the Saturn booster accelerating them 
 towards space with 7 million pounds of thrust, much to the surprise of the crew, the AGC
 went on the fritz. The DSKY went blank and then the whole cabin lit up with caution and
 warning lights and buzzers. Pete Conrad reported "we just lost the whole platform". In
 mission control...the same story. All the telemetry went on the fritz. Nonetheless, 
-John Aarons noticed a pattern in the jibberish on the displays in mission control.
-John Aaron wasn't an *end-user*. He was an Apollo flight controller. So, he sort of worked
-at the main Apollo telephone support center. In simulations years prior to Apollo 12,
-Aarons had experienced a similar situation for which the solution was to switch the
+John Aarons recognized something familiar in the jibberish on the displays in mission control.
+In simulations years prior to Apollo 12, Aarons had experienced a similar situation which 
+produced the same screens of jibberish telemetry. He remembered the solution then was to switch the
 CSM Signal Conditioning Equipment (SCE) to Auxiliary. Aaron's had mission control radio
 up to the crew "Try SCE to Aux." Miraculously, the AGC and all the displays in mission
-control came back on line and Apollo 12 safely continued flying
+control came back to life and Apollo 12 safely continued into orbit.
 
-Apollo 12 had been hit by lightning. Fortunately, the AGC was only monitoring the Saturn
-booster during the launch, not controlling it. A second computer, the Launch Vehicle Digital
+Apollo 12 had been hit by lightning. Fortunately, the AGC was only *monitoring* the Saturn
+booster during the launch, not actually controlling it. A second computer, the Launch Vehicle Digital
 Computer (LVDC) designed and manufactured by IBM, was controlling the vehicle into Earth orbit.
-It performed flawlessly and Apollo 12 continued to the moon.
-
-Apollo 12 went on to perform a pin-point landing, within a short lunar stroll of Surveyor III.
-To achieve this landing accuracy, AGC software was revised just for this mission to incorporate  
+It performed flawlessly and Apollo 12 went on to perform a pin-point lunar landing
+within a short lunar stroll of Surveyor III. To achieve this landing accuracy, AGC software was
+revised to incorporate tracking telemetry from multiple ground stations.
 
 ## What-if Thinking
 On Apollo 13, Lovell would benefit from "what if" thinking by MIT software developers that
@@ -169,7 +157,6 @@ brought them home. A third burn was also needed but because the LM AGC had been 
 used a second computer, the Abort Guidance System (AGS) and a guidance technique using the
 Sun and both end-points of the Earth's terminator, something Lovell had in fact practiced
 on Apollo 8.
-
 
 ## Tech Support from 1/4 Million Miles
 During Apollo 14, the all important *Abort* button in the LEM was found to be faulty. It was occasionally
@@ -230,11 +217,16 @@ https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-
 [5]: https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720025984.pdf "Erasable Memory Programs {}"
 [6]: https://www.ibiblio.org/apollo/A17_VN_Checklist.png "Verbs and Nouns Cheat Sheet {}"
 [7]: https://youtu.be/22adjMrYl0E?t=20 "Demonstrating DSKY during Apollo 11 {}"
+[8]: https://www.doneyles.com/LM/Tales.html "Done Eyles definitive description of Apollo 11 program alarms {}"
+[9]: https://www.airspacemag.com/daily-planet/troubleshooting-101-1201-actually-and-1202-too-111339271/ "Program alarms simulation {}"
+[10]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design {}"
 
 <!---
 Image source infor
 
 https://en.wikipedia.org/wiki/Apollo_Guidance_Computer#/media/File:Dsky.jpg
+
+https://wehackthemoon.com/bios/jack-garman - indicates image is courtesy of NASA cheat sheet
 
 --->
 
