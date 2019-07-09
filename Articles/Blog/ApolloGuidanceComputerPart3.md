@@ -13,12 +13,12 @@ In the Apollo program, the *end-users* were first and foremost the astronauts wh
 spacecraft the AGC controlled. Among them throughout the development of the AGC, there were widely
 varying perspectives about how much and what kind of control should be given up to the computer.
 Wally Schirra was perhaps the most automation-resistant of the bunch. So much so, he planned to
-manually fly the re-entry of Apollo 7. But when delays put them dangerously behind on checklist
-items, at the last minute he had no choice but to switch to automated re-entry. With the AGC in
-control, Apollo 7 splashed down safely, on schedule and within 2 miles of their intended target.
-After, Schirra couldn't stop singing the praises of the AGC. He felt it had saved their lives,
-giving the crew the extra time they needed to finish stowing equipment and strapping in for
-re-entry.
+manually fly the re-entry of Apollo 7. When delays prior to re-entry put them dangerously behind
+on checklist items, at the last minute he had no choice but to switch to automated re-entry. With
+the AGC in control, Apollo 7 splashed down safely, on schedule and within 2 miles of their intended
+target. After, Schirra couldn't stop singing the praises of the AGC. He felt it had saved their lives,
+giving the crew the extra time they needed to finish stowing equipment, strapping in and preparing
+for the ferocity of re-entry.
 
 This is the third of three articles about the AGC. In parts 1 and 2, we described the
 hardware<sup>[1]</sup> and software.<sup>[2]</sup> Here, in part 3, we focus on *applications*;
@@ -33,71 +33,71 @@ Noun codes specified the data upon which the action was taken.<sup>[6]</sup> For
 display current velocity, the astronauts would perform the following keystrokes, `Verb`, `0`, `6`,
 `Noun`, `6`, `0`, `Enter`. The Verb code `06` means to display some data in decimal. The Noun code
 `60` means the data for velocity. The keystrokes, `Verb`, `3`, `7`, `Noun`, `0`, `1`, `Enter`
-means to begin the pre-launch program to align the Intertial Measurement Unit (IMU).
+meant to begin a pre-launch program to align the Intertial Measurement Unit (IMU). More on that
+from an experience with Jim Lovell had on Apollo 8.
 
-The AGC was sometimes refered to as Apollo's fourth crew-member. After hundreds of hours training
-in simulators, the astronauts had AGC *code-speak* memorized and could probably operate it
-blind-folded. Nonetheless, operating the DSKY in thickly gloved hands, quickly and accuratley under
-the pressure of time-crtical flight operations was not easy. Dave Scott explained that in the
-lunar module, the computer's *Proceed* button, the main engine *Shutdown* button and the *Abort*
-button were in such close proximity<sup>[3]</sup>, it would have been very easy for users to hit
-the wrong button at the wrong time. All the astronauts had to *"...think very hard..."* to avoid
-making such a mistake. Fortunately, that never happened.
+Data displayed to or entered by the astronauts via the DSKY was handled in English units and
+converted to/from the Metric system for internal guidance computations. The astronauts sometimes
+refered to the AGC as the fourth crew-member. After hundreds of hours training in simulators, they
+had AGC *code-speak* memorized and could probably operate it blind-folded. Nonetheless, operating
+the DSKY in thickly gloved hands, quickly and accuratley under the time pressures of crtical flight
+manuevers was not easy. Dave Scott explained that in the lunar module, the computer's *Proceed*
+button, the main engine *Shutdown* button and the *Abort* button were in such close proximity<sup>[3]</sup>,
+it would have been very easy for users to hit the wrong button at the wrong time. All the astronauts
+had to *"...think very hard..."* to avoid making such a mistake. This is a surprising vulnerability
+to have existed given the amount of human-computer interface design effort that went into the whole
+GN&C system.
 
 ## What an Elementary School Girl Knew about the AGC that Jim Lovell Didn't
 While practicing guidance alignments with the space sextent on the return leg of Apollo 8,
-Jim Lovell accidentally keyed in a pre-flight program, `P01`, instead of star identifier
-`01` from the AGC's star catalog. This corrupted key parameters used in guidance computations
-in the AGC's eraseable memory. It took NASA and MIT nine long hours to radio up a fix to the
-problem. Little did Lovell know that an elementary aged school girl had helped to find this
-problem and a program change to fix it had been proposed months earlier.
+Jim Lovell accidentally keyed in a command to start a pre-flight program, `P01`, instead of star
+identifier `01` from the AGC's star catalog. This corrupted key guidance parameters in eraseable
+memory. It took NASA and MIT nine long hours to radio up a fix to the problem. Fortunately, this
+had occurred during a segment of the flight where there were no time-crtical manuevers occurring.
+Little did Lovell know that an elementary aged school girl had helped to find this problem and a
+program change to fix it had been proposed months earlier.
 
-One AGC user nobody had planned for was Margaret Hamilton's elementary school daughter, Lauren.
+One user nobody had planned for was Margaret Hamilton's elementary school daughter, Lauren.
 Once while playing astronaut during a visit with her mother at work, Lauren managed to key in
 DSKY commands causing an AGC simulator to crash. The simulator was running an in-flight program
 and Lauren had keyed in a command to select and run a pre-flight program. Alarmed, Hamilton's
 first thought was *what if an astronaut did that in flight?* She investigated the cause and
-proposed a program change to prevent such accidental entry. However, NASA believed the
-astronauts were so well trained they would never make such a mistake and rejected the
-program change. After Lovell's accidental entry in Apollo 8, the program change was approved.
+proposed a program change to prevent such accidental. However, NASA believed the astronauts were
+so well trained they would never make such a mistake and rejected the program change. After Lovell's
+accidental entry in Apollo 8, the program change was approved.
 
 ## Flashing the AGC with EMPs 
 EMPs are Erasable Memory Programs;<sup>[5]</sup> that is, programs stored in erasable rather
-than fixed AGC memory. While often used for special purpose testing of the AGC, EMPs were
-thought too risky (last minute changes) to be a planned part of any crewed mission.
+than fixed AGC memory. While often used for special purpose ground testing of the AGC, EMPs
+were considered too risky (last minute changes) to be a planned part of any crewed mission.
 However, they were used with increasing regularity in later Apollo missions to work in
-functionality that was fully developed but nonetheless couldn't make the typical four
-month lead time for rope core manufacture. An early success of EMPs happened on Apollo 9.
-Apollo 9 was an Earth orbital mission to test the lunar module descent and ascent engines as
-well as rendezvous betwween CSM and LM. One key capability the astronauts wanted as to have
-the AGC maintain the CSM nose always pointing "down" towards the Earth as it orbited. This
-meant the CSM needed to rotate in sync with its orbital position. A program to support this
-had been developed and tested (in simulator testing) earlier but was not part of Apollo 9's
-rope core flight program. Once in orbit, the astronauts entered a few dozen DSKY keystrokes
-to upload the EMP and it worked exactly how they wanted it to work.
+functionality that had been fully developed but nonetheless couldn't make the typical four
+month lead time for rope core manufacture. An early success of EMPs happened on Apollo 9,
+an Earth orbital mission to test the lunar module descent and ascent engines as CSM/LM
+rendezvous. A key capability the astronauts wanted was to have the AGC maintain the CSM nose
+always pointing "down" towards the Earth as it orbited. This meant the CSM needed to rotate in
+sync with its orbital position. A program to support this had been developed and tested in
+simulators earlier but was not part of Apollo 9's rope core flight program. Once in orbit, the
+astronauts entered a few dozen DSKY keystrokes to upload the EMP and it worked exactly how they
+wanted it to work.
 
 ## Overcooking the Barbecue
-*Passive Thermal Control (PTC)* or *Barbecue Mode* as it is often called, is likely most
-tempermental manuever in the Apollo program. Why? It is very sensitive to initial conditions
-The goal is to spin up the docked CSM/LM (or on return from the moon just the CSM) rotating
-along its longitudnal axis ever so slightly at one to three revolutions per hour to even out heating over the
-spacecraft skin due to the Sun. The challenge is to get the spacecraft *barbecueing* and then
-allow it to just coast for long periods of time without falling into a bad *wobble*. If it isn't done just right,
-the spacecraft's orientation will slowly wobble causing a whole host of issues with IMU drift
-risk of gimbal lock, overuse of RCS propellents to keep the wobble in check, etc. In
-particular, it can prevent the crew from getting a good night's sleep if they have to always
-be pestered to make adjustments or if the AGC is frequently firing RCS thrusters. The 
-challenge with this manuever was that the desired axis of rotation (down the geometric center of the
-docked CSM/LM) doesn't align with any of the body's inertial principle axes of rotation.
-This means the RCS have to be consantly firing to maintain the torque required to keep the
-axis of rotation aligned correctly.
-
-This means that starting with an initial condition of angular velocity about only the desired
-axis of rotation, alone is that over time, the time varying rotation of the body will be such 
-that it will rotate signficantly on all 3 axes. The solution is to input some non-zero rotational
-velocity (two orders of magnitude lower) about the other axes of rotation which has the effect
-of keeping under control the growth of rotation about those axes as time evolves. Ultimately,
-this mean astronauts needed to engage the AGC to impose a small driving torque
+*Passive Thermal Control (PTC)* or *Barbecue Mode*, is likely the most tempermental manuever in
+the Apollo program. The goal is to spin up the spacecraft rotating along its longitudnal axis ever
+so slowly at one to three revolutions per hour to even out heating due to the Sun. The challenge is
+to get the spacecraft *barbecueing* and then allow it to coast for long periods of time without
+falling into a bad *wobble* causing several issues with IMU drift, risk of gimbal lock and overuse
+of RCS propellents to keep the wobble in check. On Apollo 10, the astronauts had difficulty sleeping
+because the AGC was constantly firing RCS jets to counter the wobble. On other flights, mission control
+would have to wake the astronauts to bring the wobble under control. Unless the axis of rotation is
+perfectly aligned with a spacecraft *principle* axis, free body rotations have stability issues.
+A control algorithm that seeks to maintain a target angular velocity about an axis that is *not* one
+of the spacecraft's principle axes of rotation creates the need for the AGC to regularly fire RCS jet
+bursts to maintain the needed torque. On the other hand, an algorithm that seeks to impose a
+series of tiny, impulsive torques until a desired angular velocity is achieved is more likely to 
+result in an angular velocity that aligns better with the principle axis. This approach was first
+attempted in Apollo 10. Instead of using the AGC, the astronauts used their manual hand controllers
+to impose a series of small rotational torques and the approach worked.
 
 ## Cycle Stealing Gone Awry; Restart to the Rescue
 The Apollo 11 lunar landing is perhaps the most dramatic and oft-told story about the AGC.
