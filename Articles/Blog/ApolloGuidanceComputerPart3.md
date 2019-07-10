@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-  - <img src='https://github.com/betterscientificsoftware/images/raw/master/image-goes-here.jpg' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_Apollo3.jpg' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: July 15, 2019
