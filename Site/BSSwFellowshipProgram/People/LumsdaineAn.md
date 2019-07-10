@@ -19,6 +19,8 @@ BSSw Fellow Andrew Lumsdaine has developed best practices for high-performance a
 
 Andrew is a Fellow at Pacific Northwest National Laboratory, affiliate professor of computer science at the University of Washington, and chief scientist at Northwest Institute for Advanced Computing. 
 
+### Selected resources
+
 <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030" class="link-row">HPC Best Practices Webinar:  Modern C++ for High-Performance Computing</a>
 <a href="https://lums658.github.io/amath583s19/" class="link-row">High Performance Scientific Computing, University of Washington, Spring 2019</a>
 
