@@ -12,9 +12,10 @@
 
 **Github:** https://github.com/kyleniemeyer
 
-**Short Bio:** Focus: Best practices for developing research software
+**Short Bio:** Educating scientists on best practices for developing research software
 
-**Long Bio:** Kyle is developing, condensing and focusing his 10-week course for Oregon State University graduate students on Software Development for Engineering Research into reusable bootcamp modules to present in a 2-day workshop. The workshop modules include hands-on lessons on version control, peer code review, open-source licensing and copyright, software and data citation, documentation, testing, parallel computing, and reproducible workflows. Kyle plans to deliver the workshop in the combustion and reacting-flows modeling community, and make the modules openly available to the broader community. By educating researchers on both the importance of best practices, and then showing them in a hands-on fashion how to employ such tools, his efforts will help multiple research communities develop more trustworthy, reusable, and sustainable scientific software.
+**Long Bio:** <h3>Learn 10-weeks of research software development in intense hands-on bootcamp style.</h3> <br>
+Kyle is developing, condensing and focusing his 10-week course for Oregon State University graduate students on Software Development for Engineering Research into reusable bootcamp modules to present in a 2-day workshop. The workshop modules include hands-on lessons on version control, peer code review, open-source licensing and copyright, software and data citation, documentation, testing, parallel computing, and reproducible workflows. Kyle plans to deliver the workshop in the combustion and reacting-flows modeling community, and make the modules openly available to the broader community. By educating researchers on both the importance of best practices, and then showing them in a hands-on fashion how to employ such tools, his efforts will help multiple research communities develop more trustworthy, reusable, and sustainable scientific software.
 
 Kyle E. Niemeyer is an Assistant Professor at the Oregon State University in the School of Mechanical, Industrial, and Manufacturing Engineering. He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. 
 
