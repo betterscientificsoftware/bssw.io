@@ -2,21 +2,21 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/foo.jpg' />
+  - <img src='https://github.com/betterscientificsoftware/images/raw/master/image-goes-here.jpg' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: July 12, 2019
+#### Publication date: July 15, 2019
 
 *Third of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
 In the Apollo program, the *end-users* were first and foremost the astronauts who had to fly the
-spacecraft the AGC controlled. Among them there were widely
+spacecraft the AGC controlled. These people had widely
 varying perspectives about how much and what kind of control the computer should have.
 Wally Schirra was perhaps the most automation-resistant of the bunch. So much so, he planned to
 manually fly the re-entry of Apollo 7. When delays put them dangerously behind
 on checklist items, at the last minute he had no choice but to switch to automated re-entry. With
 the AGC in control, Apollo 7 splashed down safely, on schedule and within 2 miles of their intended
-target. After, Schirra couldn't stop singing the praises of the AGC. He felt it had saved their lives,
+target. After the mission, Schirra couldn't stop singing the praises of the AGC. He felt it had saved their lives,
 giving the crew the extra time they needed to finish stowing equipment, strapping in and preparing
 for the ferocity of re-entry.
 
@@ -24,14 +24,14 @@ This is the third of three articles about the AGC. In parts 1 and 2, we describe
 hardware<sup>[1]</sup> and software.<sup>[2]</sup> Here, in part 3, we focus on *applications*;
 that is experiences in the use of the AGC in actual Apollo missions.
 
-## There are no User Stories without Verbs and Nouns
-It is impossible to write about how Apollo astronauts flew to the moon without using `Verb`s and
-`Noun`s. Unlike Kubrik's Apollo era film, *2001: A Space Odyssey*, where the crew held conversations
+### There are no user stories without verbs and nouns
+It is impossible to write about how Apollo astronauts flew to the moon without using `verb`s and
+`noun`s. Unlike Kubrik's Apollo era film, *2001: A Space Odyssey*, where the crew held conversations
 with their HAL computer, Apollo crews interacted directly with the AGC through EL displays
 and a keypad called the DSKY (pronounced *disskee*).<sup>[16],[17]</sup> Verb codes specified an action to take.
 Noun codes specified the data upon which the action was taken.<sup>[6]</sup> For example, to
 display current velocity, the astronauts would perform the following keystrokes, `Verb`, `0`, `6`,
-`Noun`, `6`, `0`, `Enter`. The Verb code `06` means to display some data in decimal. The Noun code
+`Noun`, `6`, `0`, `Enter`. The verb code `06` means to display some data in decimal. The noun code
 `60` means the data for velocity. The keystrokes, `Verb`, `3`, `7`, `Noun`, `0`, `1`, `Enter`
 meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
@@ -43,14 +43,14 @@ converted to/from the Metric system for internal guidance computations. The astr
 referred to the AGC as the fourth crew-member. After hundreds of hours training in simulators, they
 had AGC *code-speak* memorized and could probably operate it blind-folded. Nonetheless, operating
 the DSKY in the thickly gloved hands of a spacesuit, quickly and accurately under the time pressures of critical flight
-maneuvers was not easy. Dave Scott explained that in the lunar module, the computer's *Proceed*
-button, the main engine *Shutdown* button and the *Abort* button were in such close proximity<sup>[3]</sup>,
+maneuvers, was not easy. Dave Scott explained that in the lunar module, the computer's *Proceed*
+button, the main engine *Shutdown* button, and the *Abort* button were in such close proximity<sup>[3]</sup>,
 it would have been very easy for users to hit the wrong button at the wrong time. All the astronauts
 had to *...think very hard...* to avoid making such a mistake. This is a surprising vulnerability
 to have existed given the amount of human-computer interface design effort that went into the whole
 GN&C system.
 
-## What an Elementary School Girl Knew about the AGC that Apollo 8 Didn't 
+### What an elementary school girl knew about the AGC that Apollo 8 didn't 
 While practicing guidance alignments with the space sextant on the return leg of Apollo 8,
 the crew accidentally keyed in a command to start a pre-flight program, `P01`, instead of star
 identifier `01` from the AGC's star catalog. This corrupted key guidance parameters in erasable
@@ -68,7 +68,7 @@ proposed a program change to prevent such mistakes. However, NASA believed the a
 so well trained they would never make such a mistake and rejected the program change. After the
 accidental entry on Apollo 8, the program change was approved and implemented.
 
-## Flashing the AGC with EMPs 
+### Flashing the AGC with EMPs 
 EMPs are Erasable Memory Programs;<sup>[5]</sup> that is, programs stored in erasable rather
 than fixed AGC memory. While often used for special purpose ground testing of the AGC, EMPs
 were considered too risky because of the last minute changes they enabled.
@@ -77,13 +77,13 @@ functionality that had been fully developed but nonetheless couldn't make the ty
 month lead time for rope core manufacture. An early success of EMPs happened on Apollo 9,
 an Earth orbital mission to test the lunar module descent and ascent engines and CSM/LM
 rendezvous. A key capability the astronauts wanted was to have the AGC maintain the CSM nose
-always pointing "down" towards the Earth as it orbited. This meant the CSM needed to rotate in
+always pointing "down" toward the Earth as it orbited. This meant the CSM needed to rotate in
 sync with its orbital position. A program to support this had been developed and tested in
 simulators earlier but was not part of Apollo 9's rope core flight program. Once in orbit, the
 astronauts entered a few dozen DSKY keystrokes to upload the EMP and it worked exactly how they
 wanted it to work.
 
-## Overcooking the Barbecue
+### Overcooking the barbecue
 *Passive Thermal Control (PTC)* or *Barbecue Mode*, is likely the most temperamental maneuver in
 the Apollo program. The goal is to spin the spacecraft rotating on its long axis at one to three
 revolutions per hour to even out solar heating. The challenge is to get the spacecraft *barbecuing*
@@ -111,7 +111,7 @@ manual hand controllers at minimum impulse. Over a period of 10-20 minutes, they
 accelerated the roll with a series of short bursts of the RCS jets. It worked perfectly and
 the astronauts got their much needed sleep.
 
-## Cycle Stealing Gone Awry; Restart to the Rescue
+### Cycle stealing gone awry; restart to the rescue
 GN&C sensors such as the IMU and radar used the technique of *cycling stealing*<sup>[11]</sup> to update their state in AGC
 erasable memory. In cycle stealing, normal program execution is briefly paused. The program counter
 temporarily stops incrementing while data from external hardware is routed over the bus to the
@@ -141,7 +141,7 @@ pictured above, which he consulted during the Apollo 11 landing to give the "go"
 controllers to continue the landing, a process that took 30 long seconds in which time the LEM dropped
 over a mile in altitude and traveled 10 miles downrange.
 
-## "Try SCE To Aux"
+### "Try SCE to aux"
 Less than 30 seconds into the launch of Apollo 12, with the Saturn booster accelerating them 
 towards space with 7 million pounds of thrust, much to the surprise of the crew, the AGC
 went on the fritz. The DSKY went blank and then the whole cabin lit up with caution and
@@ -163,7 +163,7 @@ enhanced to incorporate tracking telemetry from multiple ground stations simulta
 
 ![Left: John Aarons at Mission Control. Right: Pete Conrad of Apollo 12 at Surveyor III with LM Intrepid in the background](https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_apollo_12_and_aarons.png)
 
-## What-if Thinking
+### What-if thinking
 Early on, MIT engineers adopted a *what-if* approach to software development trying to account
 for every possible contingency. For Apollo 9, MIT software developers needed to create a major
 mode program that allowed the crew to test the lunar module descent engine while remaining docked
@@ -181,7 +181,7 @@ a guidance technique using the Sun and both end-points of the Earth's terminator
 This is something at least one member of the crew, Jim Lovell, had practiced on a prior mission
 on Apollo 8.
 
-## A Quarter Million Mile Tech Support Call
+## A quarter million mile tech Support call
 During Apollo 14, the *Abort* button in the LEM was found to be faulty. It was occasionally
 closing a circuit indicating to the AGC that the *Abort* button had been pushed. This of course
 would be disastrous if it occurred during a landing attempt. MIT needed to quickly devise a
@@ -195,7 +195,7 @@ desired memory address and mask word to fool the computer into believing one con
 was either true or false. Apollo 14 went on to the most accurate landing of all missions, just
 175 feet from its target.
 
-## Computing and Spaceflight
+## Computing and spaceflight
 Computing was an absolutely essential tool for the Apollo program.
 Each Apollo lunar landing mission included four on-board guidance computers. There was on AGC in each of the the CSM and LM.
 There was also the Launch Vehicle Digital Computer (LVDC) that provided guidance for the Saturn rocket's
@@ -251,5 +251,14 @@ https://wehackthemoon.com/bios/jack-garman - indicates image is courtesy of NASA
 
 --->
 
+<!---
+Publish: preview
+Categories: performance
+Topics: high-performance computing, performance portability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
 
 
