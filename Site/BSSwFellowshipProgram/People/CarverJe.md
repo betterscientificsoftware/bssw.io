@@ -23,4 +23,4 @@ Jeff is a professor of computer science at the University of Alabama. Contact Je
 
 <a href="https://bssw.io/events/contemporary-peer-code-review-in-scientific-software-development-escience-2018-tutorial" class="link-row">Contemporary Peer Code Review in Scientific Software Development</a>
 
-<a href="https://se4science.org/" class="link-row">Software Engineering for Science</a>
+<a href="https://bssw.io/items/software-engineering-for-science-se4science/" class="link-row">Software Engineering for Science</a>
