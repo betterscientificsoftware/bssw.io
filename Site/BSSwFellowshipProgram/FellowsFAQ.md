@@ -21,6 +21,10 @@ The second (*Describe your background and experience relevant to being a BSSw Fe
 
 No, applications of current BSSw Fellows will not be considered for awards in future years.  While BSSw Fellows receive funding for activities during a particular period of performance, the designation of being a BSSw Fellow is ongoing.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
+### What is the difference between a Fellow and an Honorable Mention?
+
+Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, mentorship and community building opportunities.  Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw.  Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
+
 ## Funding questions
 
 ### What is the amount of funding for 2020 BSSw Fellows?
