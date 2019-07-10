@@ -280,6 +280,18 @@ successful Russian circumlunar mission.
 
 <br>
 
+### Author bio
+
+Mark Miller is a computer scientist supporting the
+[WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+program at [LLNL](https://www.llnl.gov) since 1995.
+Among other things, he contributes to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
+[Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
+[HDF5](https://www.hdfgroup.org) and
+[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+
+
 <!---
 [0]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
 [3]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field {}"
