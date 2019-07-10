@@ -181,7 +181,7 @@ a guidance technique using the Sun and both end-points of the Earth's terminator
 This is something at least one member of the crew, Jim Lovell, had practiced on a prior mission
 on Apollo 8.
 
-### A quarter million mile tech Support call
+### A quarter million mile tech support call
 During Apollo 14, the *Abort* button in the LEM was found to be faulty. It was occasionally
 closing a circuit indicating to the AGC that the *Abort* button had been pushed. This of course
 would be disastrous if it occurred during a landing attempt. MIT needed to quickly devise a
