@@ -181,7 +181,7 @@ a guidance technique using the Sun and both end-points of the Earth's terminator
 This is something at least one member of the crew, Jim Lovell, had practiced on a prior mission
 on Apollo 8.
 
-## A quarter million mile tech Support call
+### A quarter million mile tech Support call
 During Apollo 14, the *Abort* button in the LEM was found to be faulty. It was occasionally
 closing a circuit indicating to the AGC that the *Abort* button had been pushed. This of course
 would be disastrous if it occurred during a landing attempt. MIT needed to quickly devise a
@@ -195,7 +195,7 @@ desired memory address and mask word to fool the computer into believing one con
 was either true or false. Apollo 14 went on to the most accurate landing of all missions, just
 175 feet from its target.
 
-## Computing and spaceflight
+### Computing and spaceflight
 Computing was an absolutely essential tool for the Apollo program.
 Each Apollo lunar landing mission included four on-board guidance computers. There was on AGC in each of the the CSM and LM.
 There was also the Launch Vehicle Digital Computer (LVDC) that provided guidance for the Saturn rocket's
@@ -218,6 +218,18 @@ supported ground tracking and computation of orbits, trajectories, rendezvous so
 contingencies, weather forecasting and more. NASA would not have met President Kennedy's challenge of landing
 people on the moon before 1970 without the major role computers and computing and simulation played. The
 Apollo program simultaneously drove innovations in computing and benefited from them.<sup>[14]</sup>
+
+### Author bio
+
+Mark Miller is a computer scientist supporting the
+[WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+program at [LLNL](https://www.llnl.gov) since 1995.
+Among other things, he contributes to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
+[Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
+[HDF5](https://www.hdfgroup.org) and
+[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+
 
 [Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap) | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) | Part 3
 
