@@ -10,7 +10,7 @@
 *Third of a three-part series to commemorate the 50th anniversary of the Moon landings.*
 
 In the Apollo program, the *end-users* were first and foremost the astronauts who had to fly the
-spacecraft the AGC controlled. Among them throughout development of the AGC, there were widely
+spacecraft the AGC controlled. Among them there were widely
 varying perspectives about how much and what kind of control the computer should have.
 Wally Schirra was perhaps the most automation-resistant of the bunch. So much so, he planned to
 manually fly the re-entry of Apollo 7. When delays put them dangerously behind
@@ -33,7 +33,7 @@ Noun codes specified the data upon which the action was taken.<sup>[6]</sup> For
 display current velocity, the astronauts would perform the following keystrokes, `Verb`, `0`, `6`,
 `Noun`, `6`, `0`, `Enter`. The Verb code `06` means to display some data in decimal. The Noun code
 `60` means the data for velocity. The keystrokes, `Verb`, `3`, `7`, `Noun`, `0`, `1`, `Enter`
-meant to begin a pre-launch program to align the Inertial Measurement Unit (IMU). More on that
+meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
 
 ![Apollo DSKY in Command-Service Module (CSM)](https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_dsky.png)
@@ -42,7 +42,7 @@ Data displayed to or entered by the astronauts via the DSKY was handled in Engli
 converted to/from the Metric system for internal guidance computations. The astronauts sometimes
 referred to the AGC as the fourth crew-member. After hundreds of hours training in simulators, they
 had AGC *code-speak* memorized and could probably operate it blind-folded. Nonetheless, operating
-the DSKY in thickly gloved hands, quickly and accurately under the time pressures of critical flight
+the DSKY in the thickly gloved hands of a spacesuit, quickly and accurately under the time pressures of critical flight
 maneuvers was not easy. Dave Scott explained that in the lunar module, the computer's *Proceed*
 button, the main engine *Shutdown* button and the *Abort* button were in such close proximity<sup>[3]</sup>,
 it would have been very easy for users to hit the wrong button at the wrong time. All the astronauts
@@ -112,7 +112,7 @@ accelerated the roll with a series of short bursts of the RCS jets. It worked pe
 the astronauts got their much needed sleep.
 
 ## Cycle Stealing Gone Awry; Restart to the Rescue
-GN&C sensors such as the IMU and radara used the technique of *cycling stealing*<sup>[11]</sup> to update their state in AGC
+GN&C sensors such as the IMU and radar used the technique of *cycling stealing*<sup>[11]</sup> to update their state in AGC
 erasable memory. In cycle stealing, normal program execution is briefly paused. The program counter
 temporarily stops incrementing while data from external hardware is routed over the bus to the
 computer's erasable memory. In normal operation, delays caused by cycle stealing were insignificant
@@ -147,8 +147,8 @@ towards space with 7 million pounds of thrust, much to the surprise of the crew,
 went on the fritz. The DSKY went blank and then the whole cabin lit up with caution and
 warning lights and buzzers. Pete Conrad reported "we just lost the whole platform". In
 mission control...the same story. All the telemetry went on the fritz. Screens went blank
-with gibberish. Nonetheless, John Aarons recognized something familiar in the gibberish on
-the displays. In simulations years prior to Apollo 12, Aarons had experienced a similar situation
+with gibberish. Nonetheless, John Aarons recognized something familiar in that gibberish.
+In simulations years prior to Apollo 12, Aarons had experienced a similar situation
 which produced the same screens of gibberish telemetry. He remembered the solution then was to
 switch the CSM Signal Conditioning Equipment (SCE) to Auxiliary. Aaron's had mission control radio
 up to the crew "Try SCE to Aux." Miraculously, the AGC and all the displays in mission
