@@ -19,5 +19,7 @@ Rene is creating a series of guides and tutorials about managing the community a
 
 Rene is an Assistant Project Scientist in the Earth and Planetary Sciences Department at the University of California, Davis.  He is also one of the maintainers for the free modeling software <a href="http://aspect.geodynamics.org/">ASPECT</a> (Advanced Solver for Problems in Earth's Convection). ASPECT combines modern software development techniques to allow for more sophisticated and better tested geodynamic modelling studies.
 
+### Selected resources
+
 <a href="https://github.com/gassmoeller/BSSC " class="link-row">Better Scientific Software Communities</a>
 
