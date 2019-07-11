@@ -38,7 +38,7 @@ display current velocity, the astronauts would perform the following keystrokes,
 meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
 
-[Apollo DSKY in Command-Service Module (CSM)]<img src='https://github.com/betterscientificsoftware/images/images/raw/master/Blog_0719_agc_dsky2.png' class='page' />
+[Apollo DSKY in Command-Service Module (CSM)]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_dsky2.png' class='page' />
 
 
 Data displayed to or entered by the astronauts via the DSKY was handled in English units and
