@@ -1,6 +1,7 @@
 # Better Skills
 
-**Description:**  Ways to improve productivity and sustainability from an individual perspective.
+**Homepage:** 
+Ways to improve productivity and sustainability from an individual perspective.
 
 **Overview:** 
 Improving productivity from an individual perspective. Adopting proven practices will improve individual effectiveness in working with scientific software; we consider topics such as managing time, customizing environments, and learning new skills.
