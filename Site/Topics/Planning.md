@@ -1,5 +1,7 @@
 # Better Planning
 
+**Description:**  Strategies for planning in order to improve software productivity, quality, and sustainability.  
+
 **Overview:** 
 Improving strategies for planning in order to increase software productivity, quality, and sustainability, while underscoring the unique characteristics of scientific software, including that requirements often change during discovery.
 
