@@ -98,7 +98,7 @@ when a majority of the spacecraft's mass is fluid such as propellants even if in
 Ultimately, the challenge in this maneuver is getting the angular momentum vector of the barbecue
 roll to align well with a principle axis. The more out of alignment these two axes were, the more
 wobble and subsequent RCS control to counter the wobble the AGC would have to exert. On Apollo 10,
-the recurring RCS jet firings and resulting spacecraft bending noises ere so problematic, the
+the recurring RCS jet firings and resulting spacecraft bending noises were so problematic, the
 astronauts were unable to sleep. NASA asked MIT for a solution.
 
 There were various approaches to get the spacecraft into the desired roll. One was to seek
