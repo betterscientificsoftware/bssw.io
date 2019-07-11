@@ -25,7 +25,7 @@ each of the numbered steps in the description below.
 
 1. **Anyone** with a GitHub account may submit ideas for curated content articles
    using curated content issue template by anyone with a GitHub account.
-1. **EB Members** meet every other week for a half-hour meeting to consider new
+1. **EB Members** meet every week for a half-hour meeting to consider new
    issue submissions, update on progress of current content development tasks, assign
    members new work. During such meetings, the **EB Member** leading the meeting for that
    day performs various GitHub tasks using a shared screen including
