@@ -155,7 +155,7 @@ developed their own custom, proprietary AI chip to support it.<sup>[32]</sup>
 
 ---
 
-Part 1 | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) | Part 3
+Part 1 | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) | [Part 3](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space)
 
 <br>
 

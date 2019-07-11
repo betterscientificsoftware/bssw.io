@@ -229,6 +229,12 @@ contingencies, weather forecasting and more. NASA would not have met President K
 people on the moon before 1970 without the major role computers and computing and simulation played. The
 Apollo program simultaneously drove innovations in computing and benefited from them.<sup>[14]</sup>
 
+---
+
+[Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap) | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) | Part 3
+
+<br>
+
 ### Author bio
 
 Mark Miller is a computer scientist supporting the
