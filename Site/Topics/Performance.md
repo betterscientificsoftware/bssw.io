@@ -1,6 +1,7 @@
 # Better Performance
 
-**Description:**  Approaches for developing code that is efficient, scalable, and portable—from laptops to emerging extreme-scale architectures.
+**Homepage:**  
+Approaches for developing code that is efficient, scalable, and portable—from laptops to emerging extreme-scale architectures.
 
 **Overview:** 
 Improving strategies for writing scientific software that is efficient, scalable, and portable—from laptops to emerging extreme-scale architectures—while preserving other code quality metrics such as correctness and usability. 
