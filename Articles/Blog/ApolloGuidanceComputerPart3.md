@@ -1,4 +1,4 @@
-# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: User's Stories from Space 
+# Pre-Reference Version: Celebrating Apollo's 50th Anniversary: Users' Stories from Space 
 
 **Hero Image:**
 
@@ -22,8 +22,8 @@ for the ferocity of re-entry.
 
 This is the third of three articles about the AGC. In parts 1 and 2, we described the
 hardware<sup>[1]</sup> and software.<sup>[2]</sup> Here, in part 3, we focus on *applications*
-by recounting the *user's stories* in applying the AGC to achieve Apollo mission objectives.
-These user's stories are not to be confused with [*User Stories*](https://bssw.io/items/user-stories/),
+by recounting the *users' stories* in applying the AGC to achieve Apollo mission objectives.
+These users' stories are not to be confused with [*User Stories*](https://bssw.io/items/user-stories/),
 a formal agile development technique for specifying requirements.
 
 ### There are no user's stories without verbs and nouns
@@ -262,7 +262,7 @@ Among other things, he contributes to
 [19]: http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node61.html "Rigid Body Rotation {}"
 [20]: https://youtu.be/BPMjcN-sBJ4 "Demonstration of Free Body Rotation in Micro-Gravity {}"
 [21]: https://en.wikipedia.org/wiki/HAL_9000 "HAL 9000 Computer {}"
-[22]: https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation "Laren Hamilton crashes the AGC {}"
+[22]: https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation "Lauren Hamilton crashes the AGC {}"
 [23]: https://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html "Keystrokes to enable abort {}"
 [24]: https://www.hq.nasa.gov/alsj/a14/a14.landing.html "Apollo 14 Journal {}"
 [25]: https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample) "Big Bertha Apollo 14 Rock Sample {}"
