@@ -14,7 +14,8 @@
 
 **Short Bio:** Enabling reproducible research through automated computational experimentation  
 
-**Long Bio:** <h3>Have confidence in your scientific results through automated computational experimentation and reproducibility.</h3> 
+**Long Bio:** 
+### Have confidence in your scientific results through automated computational experimentation and reproducibility. 
 BSSw Fellow Ivo Jimenez created Popper, a tool to automate computational experimentation, organize artifacts, and validate results to enable high standards of reproducibility in computational research. He created an online lesson on Popper and delivered several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate. Learn more about Popper through his webinar recording and slides: <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019Popper"> Creating Reproducible Computational and Data Science Experimentation Pipelines</a>, June 2018.
 
 Ivo is a Ph.D. student in computer science at the University of California, Santa Cruz. 
