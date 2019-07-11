@@ -7,7 +7,7 @@ A key difference in this alternative workflow is that it explicitly requires
 **EB Members** to engage in specific activities on a routine basis, in particular
 a weekly progress meeting.
 
-Here, we describe the workflow in terms of the *states* a Curated Content issue can
+Below, we describe the *states* a Curated Content issue can
 move through from inception to disposition. In each state, there are only a few
 *directions* (e.g. new states) an issue may move. Those are the bullets under
 each of the numbered steps in the description below.
@@ -21,7 +21,7 @@ each of the numbered steps in the description below.
   need to have the technical expertise to evaluate content that an editorial board
   member or subject matter expert would be expected to have.
 
-# Process
+# Curated Content States
 
 1. **Anyone** with a GitHub account may submit ideas for curated content articles
    using curated content issue template by anyone with a GitHub account.
@@ -44,10 +44,12 @@ each of the numbered steps in the description below.
 1. Issues in *Topic Review* are handled as follows
    * Any more than 30 days old that have garnered insufficient interest are labeled
      as `no-interest` and closed.
-   * Any issues with sufficient interest are moved to *In Progress* (this
-     is a rename and re-purpose of the *Development Backlog*). An **EB Member** is
-     assigned. An author, if different from **EB Member** is identified (via @ mention)
-     and a deadline is set (via milestone) for completion.
+   * Any issues with sufficient interest are moved to *In Progress*. An **EB Member**
+     which must be different than the actual **Author** is assigned. GitHub has recently
+     made it possible to assign anyone who has commented on the issue, not just project
+     members. If this work, the **Author** is indicated by assignment. Failing that the
+     **Author** can be indicated via @ mention in the issue comments. Finally, a
+     deadline is set by assigning a milestone.
 1. Issues in *In Progress* are handled as follows
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
@@ -69,7 +71,26 @@ each of the numbered steps in the description below.
    date are either completed, have reliable commitments they will be completed
    by deadline or are re-assigned a new milestone deadline.
 
+# Editorial Workflow
+
+The section above describes the various states *Curated Content* may move through.
+The actual workflow of **EB Members** during weekly meetings is really the *reverse*
+of the above steps. Working from the
+[*project board*](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/projects/3),
+**EB Members** work *first* with issues in the *right-most*, *Item Review* column
+and subsequently issues in columns further to the left.
+
 ## Notes
+
+###### Light Weight Process for Authors
+It is important to keep in mind that we aim for a light-weight process here, particularly
+for *Authors* submitting content. Towards this end, we ask **EB Members** to exercise
+discretion in the degree of commentary and engagement with *Authors* on GitHub perhaps
+leaving the work to the assigned **EB Member**. A short list of criteria to be watching
+for is
+* Unnecessarily critical or negative tone associated with specific projects or people
+* Significant factual inaccuracies or departures from widely adopted standards of practice.
+* Substantially lacking in relevance to HPC/CSE software development.
 
 ###### Quantization of Progress
 The key challenge in this process is the *iteration rate*. That is, how fast issues can
