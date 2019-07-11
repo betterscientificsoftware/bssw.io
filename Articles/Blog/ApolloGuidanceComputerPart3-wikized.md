@@ -1,3 +1,4 @@
+<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from ApolloGuidanceComputerPart3.md --->
 # Pre-Reference Version: Celebrating Apollo's 50th Anniversary: User's Stories from Space 
 
 **Hero Image:**
@@ -29,9 +30,9 @@ a formal agile development technique for specifying requirements.
 ### There are no user's stories without verbs and nouns
 It is impossible to write about how Apollo astronauts flew to the moon without using `verb`s and
 `noun`s. Unlike Kubrik's Apollo era film, *2001: A Space Odyssey*, where the crew held conversations
-with their HAL 9000 computer<sup>[21]</sup>, Apollo crews interacted directly with the AGC through EL displays
-and a keypad called the DSKY (pronounced *disskee*).<sup>[16],[17]</sup> Verb codes specified an action to take.
-Noun codes specified the data upon which the action was taken.<sup>[6],[7]</sup> For example, to
+with their HAL 9000 computer<sup>[20]</sup>, Apollo crews interacted directly with the AGC through EL displays
+and a keypad called the DSKY (pronounced *disskee*).<sup>[15],[16]</sup> Verb codes specified an action to take.
+Noun codes specified the data upon which the action was taken.<sup>[5],[6]</sup> For example, to
 display current velocity, the astronauts would perform the following keystrokes, `Verb`, `0`, `6`,
 `Noun`, `6`, `0`, `Enter`. The verb code `06` means to display some data in decimal. The noun code
 `60` means the data for velocity. The keystrokes, `Verb`, `3`, `7`, `Noun`, `0`, `1`, `Enter`
@@ -64,14 +65,14 @@ program change to fix it had been proposed in the months prior to their flight.
 One user nobody had planned for was Margaret Hamilton's daughter, Lauren.
 Once while playing astronaut during a visit with her mother at work, Lauren managed to key in
 DSKY commands causing an AGC simulator to crash. The simulator was running an in-flight program
-and Lauren had keyed in a command to select and run a pre-flight program.<sup>[22]</sup> Alarmed, Hamilton's
+and Lauren had keyed in a command to select and run a pre-flight program.<sup>[21]</sup> Alarmed, Hamilton's
 first thought was *what if an astronaut did that in flight?* She investigated the cause and
 proposed a program change to prevent such mistakes. However, NASA believed the astronauts were
 so well trained they would never make such a mistake. The program change was rejected. After the
 accidental entry on Apollo 8, it was approved and implemented.
 
 ### Flashing the AGC with EMPs 
-EMPs are Erasable Memory Programs;<sup>[5]</sup> that is, programs stored in erasable rather
+EMPs are Erasable Memory Programs;<sup>[4]</sup> that is, programs stored in erasable rather
 than fixed AGC memory. While frequently used for special purpose ground testing of the AGC, EMPs
 were considered too risky for crewed missions because of the last minute changes they entailed.
 However, they were used with increasing regularity in later Apollo missions to work in
@@ -92,7 +93,7 @@ revolutions per hour to even out solar heating. The challenge is to get the spac
 such that it can coast for long periods without falling into a bad *wobble*. Wobble causes
 IMU sensor drift, risk of gimbal lock and overuse of RCS propellants. Unless the axis of rotation
 is perfectly aligned with a *principle* axis, coasting rotations can be unstable leading to
-wobble.<sup>[18],[19],[20]</sup> Rotational behavior and subsequent control is further complicated
+wobble.<sup>[17],[18],[19]</sup> Rotational behavior and subsequent control is further complicated
 when a majority of the spacecraft's mass is fluid such as propellants even if in baffled tanks.
 
 Ultimately, the challenge in this maneuver is getting the angular momentum vector of the barbecue
@@ -115,7 +116,7 @@ accelerated the roll with a series of short bursts of the RCS jets. It worked pe
 the astronauts got their much needed sleep.
 
 ### Cycle stealing gone awry; restart to the rescue
-GN&C sensors such as the IMU and radar used the technique of *cycling stealing*<sup>[11]</sup> to update their state in AGC
+GN&C sensors such as the IMU and radar used the technique of *cycling stealing*<sup>[10]</sup> to update their state in AGC
 erasable memory. In cycle stealing, normal program execution is briefly paused. The program counter
 temporarily stops incrementing while data from external hardware is routed over the bus to the
 computer's erasable memory. In normal operation, delays caused by cycle stealing were insignificant
@@ -123,13 +124,13 @@ occurring perhaps dozens of times per second. However, in Apollo 11 there was a 
 rendezvous radar circuitry causing cycles to be stolen at their maximum allowed rate of 12,800 times per
 second. The resulting delays in essential guidance and control programs meant the computer occasionally
 did not have sufficient resources to complete all work within its pre-defined *duty cycle* triggering
-program alarms.<sup>[8]</sup>
+program alarms.<sup>[7]</sup>
 
 As Armstrong and Aldrin streaked across the lunar horizon and dropped to the surface, their
 DSKY flashed a program alarm, momentarily stopped operating and blanked out. The AGC effectively rebooted.
 All running programs were cleared and those that were protected were restarted in priority
 order according to a pre-programmed set of restart rules. Restart took only a few seconds and had been
-designed into the AGC from the very beginning. Remarkably, an internal NASA report<sup>[10]</sup> had
+designed into the AGC from the very beginning. Remarkably, an internal NASA report<sup>[9]</sup> had
 raised significant doubts about its value only months prior to the Apollo 11 mission. As Apollo 11
 approached the lunar surface for landing, changing major mode programs from `P64` to `P66`, the
 computational load on the AGC lessened and the program alarms abated. 
@@ -137,7 +138,7 @@ computational load on the AGC lessened and the program alarms abated.
 ![Jack Garman's Cheat Sheet of AGC Program Alarms](https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_garman_cheat_sheet.png)
 
 Why wasn't the landing aborted? Turns out it was...in simulations with the Apollo 12 backup crew just
-weeks prior to Apollo 11's launch.<sup>[9]</sup> Flight controllers in those simulations were excoriated
+weeks prior to Apollo 11's launch.<sup>[8]</sup> Flight controllers in those simulations were excoriated
 for calling an abort then because the circumstances didn't warrant it. At NASA's behest, MIT performed
 an audit of all program alarms the AGC could trigger. A 26 year old Jack Garman compiled a cheat sheet,
 pictured above, which he consulted during the Apollo 11 landing to give the "go" decision to flight
@@ -193,15 +194,15 @@ aborted due to the faulty switch. Apollo 14 waited, orbiting the moon and delayi
 for four long hours as MIT poured over AGC source code looking for a solution that required as few
 keystrokes as possible but provided assurance the faulty *Abort* switch would be ignored by the
 computer. The fix involved over-writing certain *flag bits* in AGC erasable memory at key points
-during the descent.<sup>[15]</sup> For example, if they could fool the computer into thinking the
+during the descent.<sup>[14]</sup> For example, if they could fool the computer into thinking the
 abort mode was already active, the logic was such that it wouldn't try to abort an abort already
 in progress. In the first minute of powered descent, major mode program `P63`, the crew had 
 to work together timing the entry of no less than 60 DSKY keystrokes as well as manual throttle
-settings to ultimately work-around the faulty *Abort* button.<sup>[24]</sup> But, MIT's procedure worked and
+settings to ultimately work-around the faulty *Abort* button.<sup>[23]</sup> But, MIT's procedure worked and
 Apollo 14 went on to the most accurate landing of all missions, just 175 feet from its target. 
 If Apollo 14 had *really needed* to abort, the crew would have had to enter the following keystrokes:
-`Verb`, `2`, `5`, `Noun`, `7`, `Enter`, `1`,`0`,`5` `Enter`, `4`,`0`,`0` `Enter`, `1`, `Enter`.<sup>[23]</sup>
-Of the 42.5 kg of moon rocks Apollo 14 brought back the biggest, known as *Big Berhta*<sup>[25]</sup> at 9 kg,
+`Verb`, `2`, `5`, `Noun`, `7`, `Enter`, `1`,`0`,`5` `Enter`, `4`,`0`,`0` `Enter`, `1`, `Enter`.<sup>[22]</sup>
+Of the 42.5 kg of moon rocks Apollo 14 brought back the biggest, known as *Big Berhta*<sup>[24]</sup> at 9 kg,
 was just this year determined to have originated from Earth.
 
 ### Computing and spaceflight
@@ -214,9 +215,9 @@ of each of these computers
 
 Computer | Manufacturer | Bit-width /<br>Memory (Kb) | Clock (Mhz) /<br> Flops (Kf) | Weight (kg) /<br> Power (W) | Notes
 ---|---|---|---|---|---
-LVDC<sup>[13]</sup>|IBM|14, 28.5 |2.048, 3 |33, 137 | Triple-redundant logic w/voting
-AGS<sup>[12]</sup>|TRW|18, 4.6|?????, 12.5|15, 90 | Used on Apollo 9, 10, 11 & 13
-AGC<sup>[26]</sup>|Raytheon|16, 76 | 1.024, 14.5 | 32, 55 | First to exceed 100 Flops/Watt
+LVDC<sup>[12]</sup>|IBM|14, 28.5 |2.048, 3 |33, 137 | Triple-redundant logic w/voting
+AGS<sup>[11]</sup>|TRW|18, 4.6|?????, 12.5|15, 90 | Used on Apollo 9, 10, 11 & 13
+AGC<sup>[25]</sup>|Raytheon|16, 76 | 1.024, 14.5 | 32, 55 | First to exceed 100 Flops/Watt
 
 But the role computing played in the Apollo program was not confined to autonomous
 guidance for the spacecraft in actual missions. Computing and simulation was used by every major
@@ -227,7 +228,7 @@ Real-Time Computing Complex (RTCC) alone 5 IBM 360/75s were in use 24/7 during e
 supported ground tracking, computation of orbits, trajectories, rendezvous solutions, abort
 contingencies, weather forecasting and more. NASA would not have met President Kennedy's challenge of landing
 people on the moon before 1970 without the major role computers and computing and simulation played. The
-Apollo program simultaneously drove innovations in computing and benefited from them.<sup>[14]</sup>
+Apollo program simultaneously drove innovations in computing and benefited from them.<sup>[13]</sup>
 
 ### Author bio
 
@@ -242,6 +243,31 @@ Among other things, he contributes to
 
 [Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap) | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) | Part 3
 
+
+<!---
+Image source info
+
+https://en.wikipedia.org/wiki/Apollo_Guidance_Computer#/media/File:Dsky.jpg
+
+https://wehackthemoon.com/bios/jack-garman - indicates image is courtesy of NASA cheat sheet
+
+--->
+
+<!---
+Publish: preview
+Categories: performance
+Topics: high-performance computing, performance portability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
+
+
+
+<br>
+
+<!---
 [1]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "AGC Blog Part 1 {}"
 [2]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github "AGC Blog Part 2 {}"
 [3]: https://youtu.be/hCywOf0Czgg?t=1841 "Presentation by Dave Scott about the AGC {}"
@@ -268,23 +294,62 @@ Among other things, he contributes to
 [25]: https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample) "Big Bertha Apollo 14 Rock Sample {}"
 [26]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer "Apollo Guidance Computer {}"
 
-<!---
-Image source info
-
-https://en.wikipedia.org/wiki/Apollo_Guidance_Computer#/media/File:Dsky.jpg
-
-https://wehackthemoon.com/bios/jack-garman - indicates image is courtesy of NASA cheat sheet
-
 --->
+<br>
 
-<!---
-Publish: preview
-Categories: performance
-Topics: high-performance computing, performance portability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
---->
+[1]: #ref1 "AGC Blog Part 1"
+[2]: #ref2 "AGC Blog Part 2"
+[3]: #ref3 "Presentation by Dave Scott about the AGC"
+[4]: #ref4 "Erasable Memory Programs"
+[5]: #ref5 "Verbs and Nouns Cheat Sheet"
+[6]: #ref6 "Demonstrating DSKY during Apollo 11"
+[7]: #ref7 "Done Eyles definitive description of Apollo 11 program alarms"
+[8]: #ref8 "Program alarms simulation"
+[9]: #ref9 "AGC Restart System Design"
+[10]: #ref10 "Description of Cycle Stealing"
+[11]: #ref11 "Description of AGS"
+[12]: #ref12 "Description of LVDC"
+[13]: #ref13 "AGC and the First Si Chips"
+[14]: #ref14 "Video describing Apollo 14 fix"
+[15]: #ref15 "AGC Restoration"
+[16]: #ref16 "CG Simulation of Apollo CSM and DSKY during re-entry"
+[17]: #ref17 "Rotation Dynamics of a Rigid Body"
+[18]: #ref18 "Rigid Body Rotation"
+[19]: #ref19 "Demonstration of Free Body Rotation in Micro-Gravity"
+[20]: #ref20 "HAL 9000 Computer"
+[21]: #ref21 "Laren Hamilton crashes the AGC"
+[22]: #ref22 "Keystrokes to enable abort"
+[23]: #ref23 "Apollo 14 Journal"
+[24]: #ref24 "Big Bertha Apollo 14 Rock Sample"
+[25]: #ref25 "Apollo Guidance Computer"
 
+<br>
 
+References | &nbsp;
+:--- | :---
+<a name="ref1"></a>1 | [AGC Blog Part 1 ](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap)
+<a name="ref2"></a>2 | [AGC Blog Part 2 ](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github)
+<a name="ref3"></a>3 | [Presentation by Dave Scott about the AGC ](https://youtu.be/hCywOf0Czgg?t=1841)
+<a name="ref4"></a>4 | [Erasable Memory Programs ](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720025984.pdf)
+<a name="ref5"></a>5 | [Verbs and Nouns Cheat Sheet ](https://www.ibiblio.org/apollo/A17_VN_Checklist.png)
+<a name="ref6"></a>6 | [Demonstrating DSKY during Apollo 11 ](https://youtu.be/22adjMrYl0E?t=20)
+<a name="ref7"></a>7 | [Done Eyles definitive description of Apollo 11 program alarms ](https://www.doneyles.com/LM/Tales.html)
+<a name="ref8"></a>8 | [Program alarms simulation ](https://www.airspacemag.com/daily-planet/troubleshooting-101-1201-actually-and-1202-too-111339271/)
+<a name="ref9"></a>9 | [AGC Restart System Design ](https://www.ibiblio.org/apollo/hrst/archive/1033.pdf)
+<a name="ref10"></a>10 | [Description of Cycle Stealing ](https://en.wikipedia.org/wiki/Cycle_stealing)
+<a name="ref11"></a>11 | [Description of AGS ](https://www.ibiblio.org/apollo/yaAGS.html)
+<a name="ref12"></a>12 | [Description of LVDC ](https://www.ibiblio.org/apollo/LVDC.html)
+<a name="ref13"></a>13 | [AGC and the First Si Chips ](https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips)
+<a name="ref14"></a>14 | [Video describing Apollo 14 fix ](https://youtu.be/wSSmNUl9Snw)
+<a name="ref15"></a>15 | [AGC Restoration ](https://youtu.be/cPxaGrcimMQ?t=612)
+<a name="ref16"></a>16 | [CG Simulation of Apollo CSM and DSKY during re-entry ](https://youtu.be/fjAeBJrsj5Q)
+<a name="ref17"></a>17 | [Rotation Dynamics of a Rigid Body ](https://en.wikipedia.org/wiki/Rigid_body_dynamics#Rotation_in_three_dimensions)
+<a name="ref18"></a>18 | [Rigid Body Rotation ](http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node61.html)
+<a name="ref19"></a>19 | [Demonstration of Free Body Rotation in Micro-Gravity ](https://youtu.be/BPMjcN-sBJ4)
+<a name="ref20"></a>20 | [HAL 9000 Computer ](https://en.wikipedia.org/wiki/HAL_9000)
+<a name="ref21"></a>21 | [Laren Hamilton crashes the AGC ](https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation)
+<a name="ref22"></a>22 | [Keystrokes to enable abort ](https://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html)
+<a name="ref23"></a>23 | [Apollo 14 Journal ](https://www.hq.nasa.gov/alsj/a14/a14.landing.html)
+<a name="ref24"></a>24 | [Big Bertha Apollo 14 Rock Sample ](https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample))
+<a name="ref25"></a>25 | [Apollo Guidance Computer ](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
+<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from ApolloGuidanceComputerPart3.md --->
