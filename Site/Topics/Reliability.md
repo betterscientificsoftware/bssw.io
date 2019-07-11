@@ -1,6 +1,6 @@
 # Better Reliability
 
-**Description:**  Methods for testing and verification to ensure that software is robust and produces reliable results.
+**Homepage:**  Methods for testing and verification to ensure that software is robust and produces reliable results.
 
 **Overview:** 
 Improving methods of testing and verification to ensure that software is robust and produces reliable results, thereby helping to ensure the integrity of research and enable collaboration across teams.
