@@ -1,6 +1,15 @@
 # Working Effectively with Legacy Code
 
-## Feathers, Michael, 2005, ISBN-13: 978-0131177055
+
+This book talks about legacy code and how to work effectively with it.
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
+
+**Book information** | **Details** 
+:--- | :--- 
+Title  | Working Effectively with Legacy Code
+Authors | Michael Feathers
+Publication | 2005, ISBN-13: 978-0131177055
 
 Legacy software is very hard to modify and extend, as it often relies on obsolete software and hardware, lacks testing, and may have no developers familiar with its complexities.
 This book gives us hope that we can use targeted, incremental unit testing and refactoring to turn legacy software into better tested, understood, and extensible software while implementing and
@@ -101,8 +110,6 @@ References | &nbsp;
 
 <br>
 
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
