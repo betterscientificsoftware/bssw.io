@@ -7,7 +7,7 @@ This book talks about legacy code and how to work effectively with it.
 
 **Book information** | **Details** 
 :--- | :--- 
-Title  | Working Effectively with Legacy Code
+Title  | [Working Effectively with Legacy Code](https://dl.acm.org/citation.cfm?id=1050933)
 Authors | Michael Feathers
 Publication | 2005, ISBN-13: 978-0131177055
 
