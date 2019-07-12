@@ -1,5 +1,9 @@
 # Working Towards Sustainable Software for Science: Practice and Experiences (WSSSPE)
 
+The current decade has bought bright focus on sustainable software in the field of science. WSSSPE is once such important international community-driven organization that promotes sustainable research software.
+
+<img src='https://github.com/betterscientificsoftware/images/blob/master/WSSSPE_logo_square_low.png' class='logo' />
+
 [http://wssspe.researchcomputing.org.uk/](http://wssspe.researchcomputing.org.uk/)
 
 Progress in scientific research is dependent on the quality and accessibility of software at all levels and it is now critical to address many new challenges related to the development, deployment, and maintenance of reusable software. In addition, it is essential that scientists, researchers, and students are able to learn and adopt a new set of software-related skills and methodologies.
