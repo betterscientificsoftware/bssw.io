@@ -3,8 +3,6 @@
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
 
-#### Publication date: May 23, 2018
-
 The “Best Practices for Scientific Computing” article was published in PLOS Biology journal in Jan 2014 and it explores the best practices for scientific computing based on the authors collective experience in this field.
 
 #### Article title: 
