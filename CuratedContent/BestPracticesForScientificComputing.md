@@ -5,14 +5,13 @@
 
 The “Best Practices for Scientific Computing” article was published in PLOS Biology journal in Jan 2014 and it explores the best practices for scientific computing based on the authors collective experience in this field.
 
-#### Article title: 
-Best Practices for Scientific Computing
 
-#### Article Authors: 
-Greg Wilson, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, Kathryn D. Huff, Ian M. Mitchell, Mark D. Plumbley, Ben Waugh, Ethan P. White and Paul Wilson
+**Article information** | **Details** 
+:--- | :--- 
+Title  | Best Practices for Scientific Computing
+Authors | Greg Wilson, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, Kathryn D. Huff, Ian M. Mitchell, Mark D. Plumbley, Ben Waugh, Ethan P. White and Paul Wilson
+Publication | Year  2014, PLOS Biology Journal, DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
 
-#### Article details:
-Year 2014, PLOS Biology Journal, DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
 
 The *Best Practices for Scientific Computing* paper was published in 2014 in PLOS Biology journal and it is a good place to start for implementing practices that will improve scientific software development. It is a practical article that presents eight key topics with 24 specific practices recommended for scientists and is useful for anyone on teams that develop or maintain scientific software. The article is brief, so those short on time can glean practices that will aid their development, while those who are new to the practices can work through the suggestions. It is estimated that scientists spend approximately 30% of their time developing software.  *Best Practices for Scientific Computing* is aimed to help those scientists improve their efficiency and productivity and the accuracy of their applications. 
 
