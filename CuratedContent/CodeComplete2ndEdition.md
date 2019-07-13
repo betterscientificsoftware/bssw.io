@@ -1,8 +1,17 @@
-# Code Complete: A Practical Handbook of Software Construction (2nd Edition)
+# Code Complete: A Practical Handbook of Software Construction
 
-## Steve McConnell, 2004
+Originally published in 1993, and revised to second edition in 2004, the "Code Complete: A Practical Handbook of Software Construction" by Steve McConnell has been a popular book for software developers for more than two decades!
 
-Code Complete should be fascinating reading for anyone working on code development projects. Although in a first approach the book's thickness may be a little intimidating -- 850+ pages -- its thickness is justified by its scope and depth.
+<img src='https://github.com/betterscientificsoftware/images/blob/master/book_bssw_code-complete.jpg' class='logo' />
+
+**Book information** | **Details** 
+:--- | :--- 
+Title | [Code Complete: A Practical Handbook of Software Construction, 2nd edition](https://dl.acm.org/citation.cfm?id=1096143)
+Authors | Steve McConnell	
+Publication | 2004, ISBN-13: 978-0735619678, ISBN-10: 0735619670
+
+
+The book "Code Complete: A Practical Handbook of Software Construction (2nd edition)" should be fascinating reading for anyone working on code development projects. Although in a first approach the book's thickness may be a little intimidating -- 850+ pages -- its thickness is justified by its scope and depth.
 
 The book is divided into seven parts, starting with some basics about the software development process, and then introducing design concepts for creating high-quality codes, for properly using variables and statements to facilitate maintenance, for improving the quality of the software and development time, for taking the software development effort in a holistic way, and for improving software development skills. These parts total 34 chapters that do not need to be followed in a strict order. A number of examples, some related to real-world problems and unexpected consequences (not necessarily related to software), are used to illustrate the importance of design. Cross-references abound and help sailing through the book. Noteworthy, each chapter ends with a summary of related key points that are very helpful to the reader -- specially a hurried one.
 
@@ -12,7 +21,7 @@ While going through the book, the reader will find justifications for following 
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
-#### Publication date:  February 3, 2018
+<!--- #### Publication date:  February 3, 2018 --->
 
 <!---
 Publish: yes
