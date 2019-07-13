@@ -8,7 +8,7 @@ This book talks about legacy code and how to work effectively with it.
 **Book information** | **Details** 
 :--- | :--- 
 Title  | [Working Effectively with Legacy Code](https://dl.acm.org/citation.cfm?id=1050933)
-Authors | Michael Feathers
+Author | Michael Feathers
 Publication | 2005, ISBN-13: 978-0131177055
 
 Legacy software is very hard to modify and extend, as it often relies on obsolete software and hardware, lacks testing, and may have no developers familiar with its complexities.
