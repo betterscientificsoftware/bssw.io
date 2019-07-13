@@ -5,7 +5,7 @@ This book talks about legacy code and how to work effectively with it.
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
 
-**Book information** | **Details** 
+Book information | Details 
 :--- | :--- 
 Title  | [Working Effectively with Legacy Code](https://dl.acm.org/citation.cfm?id=1050933)
 Author | Michael Feathers
