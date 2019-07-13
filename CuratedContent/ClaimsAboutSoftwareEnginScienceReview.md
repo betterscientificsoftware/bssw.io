@@ -1,6 +1,13 @@
 # Claims about the use of software engineering practices in science: A systematic literature review
 
-## Heaton, D., and Carver, J. C., Information and Software Technology (2015). doi:[10.1016/j.infsof.2015.07.011](http://dx.doi.org/10.1016/j.infsof.2015.07.011)
+The “Claims about the use of software engineering practices in science: A systematic literature review” article was published in Journal of Information and Software Technology in 2015 and it explores claims from software engineers about different software engineering practices and their use in developing scientific software.
+
+
+**Article information** | **Details** 
+:--- | :--- 
+Title  | Claims about the use of software engineering practices in science: A systematic literature review
+Authors | Dustin Heaton and Jeffrey C. Carver
+Publication | Year 2015, Journal of Information and Software Technology, DOI: [10.1016/j.infsof.2015.07.011](http://dx.doi.org/10.1016/j.infsof.2015.07.011)
 
 A significant difference between traditional software and scientific software is that the latter emphasizes the creation of scientific knowledge, and in a number of development efforts important software features end up sidelined. This paper examines software engineering practices that have been used by developers of scientific software, and analyzes the effectiveness of such practices as reported in the literature. 
 
@@ -8,7 +15,7 @@ The paper provides a compilation of 66 studies related to scientific software de
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
-#### Publication date: June 19, 2017
+<!--- #### Publication date: June 19, 2017 --->
 
 <!---
 Publish: yes
