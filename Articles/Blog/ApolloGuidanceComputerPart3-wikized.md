@@ -38,7 +38,7 @@ display current velocity, the astronauts would perform the following keystrokes,
 meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
 
-[Apollo DSKY in Command-Service Module (CSM)]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_dsky2.png' class='page' />
+[Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_dsky2.png' class='page' />
 
 
 Data displayed to or entered by the astronauts via the DSKY was handled in English units and
@@ -162,7 +162,7 @@ Apollo 12 had been hit by lightning. Fortunately, the AGC was only *monitoring* 
 booster during the launch, not actually controlling it. A second computer, the Launch Vehicle Digital
 Computer (LVDC) designed and manufactured by IBM, was controlling the vehicle into Earth orbit.
 It worked flawlessly and Apollo 12 went on to perform a pin-point landing
-within a short lunar stroll of Surveyor III. To achieve this landing accuracy, AGC software was
+within a short lunar stroll of Surveyor III.<sup>[26]</sup> To achieve this landing accuracy, AGC software was
 enhanced to incorporate tracking telemetry from multiple ground stations simultaneously.
 
 [Left: John Aarons at Mission Control. Right: Alan Bean of Apollo 12 at Surveyor III with LM Intrepid in the background]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_apollo_12_and_aarons.png' class='page' />
@@ -210,14 +210,15 @@ Computing was an absolutely essential tool for the Apollo program.
 Each Apollo lunar landing mission included four on-board guidance computers. There was on AGC in each of the the CSM and LM.
 There was also the Launch Vehicle Digital Computer (LVDC) that provided guidance for the Saturn rocket's
 first three stages during launch and the Abort Guidance System (AGS) on the LM which served as a backup
-to the AGC in case a lunar landing needed to be aborted. Below, we capture some of the key design features
-of each of these computers
+to the AGC in case a lunar landing needed to be aborted. Below, we list some of the key specifications
+of each of these computers long with a Russian design of the same era.
 
 Computer | Manufacturer | Bit-width /<br>Memory (Kb) | Clock (Mhz) /<br> Flops (Kf) | Weight (kg) /<br> Power (W) | Notes
 ---|---|---|---|---|---
 LVDC<sup>[12]</sup>|IBM|14, 28.5 |2.048, 3 |33, 137 | Triple-redundant logic w/voting
 AGS<sup>[11]</sup>|TRW|18, 4.6|?????, 12.5|15, 90 | Used on Apollo 9, 10, 11 & 13
 AGC<sup>[25]</sup>|Raytheon|16, 76 | 1.024, 14.5 | 32, 55 | First to exceed 100 Flops/Watt
+Argon-11C<sup>[27]</sup>|NEIM (Russian)|14&17, 9|?????, 5.2| 34, 75 | Triple-redundant logic w/voting
 
 But the role computing played in the Apollo program was not confined to autonomous
 guidance for the spacecraft in actual missions. Computing and simulation was used by every major
@@ -298,6 +299,8 @@ Aggregate: none
 [24]: https://www.hq.nasa.gov/alsj/a14/a14.landing.html "Apollo 14 Journal {}"
 [25]: https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample) "Big Bertha Apollo 14 Rock Sample {}"
 [26]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer "Apollo Guidance Computer {}"
+[27]: https://en.wikipedia.org/wiki/Surveyor_3 "Surveyor III {}"
+[28]: http://www.computer-museum.ru/english/argon11c.htm "Russian Argon-11C Guidance Computer {}"
 
 --->
 <br>
@@ -322,11 +325,13 @@ Aggregate: none
 [18]: #ref18 "Rigid Body Rotation"
 [19]: #ref19 "Demonstration of Free Body Rotation in Micro-Gravity"
 [20]: #ref20 "HAL 9000 Computer"
-[21]: #ref21 "Laren Hamilton crashes the AGC"
+[21]: #ref21 "Lauren Hamilton crashes the AGC"
 [22]: #ref22 "Keystrokes to enable abort"
 [23]: #ref23 "Apollo 14 Journal"
 [24]: #ref24 "Big Bertha Apollo 14 Rock Sample"
 [25]: #ref25 "Apollo Guidance Computer"
+[26]: #ref26 "Surveyor III"
+[27]: #ref27 "Russian Argon-11C Guidance Computer"
 
 <br>
 
@@ -352,9 +357,11 @@ References | &nbsp;
 <a name="ref18"></a>18 | [Rigid Body Rotation ](http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node61.html)
 <a name="ref19"></a>19 | [Demonstration of Free Body Rotation in Micro-Gravity ](https://youtu.be/BPMjcN-sBJ4)
 <a name="ref20"></a>20 | [HAL 9000 Computer ](https://en.wikipedia.org/wiki/HAL_9000)
-<a name="ref21"></a>21 | [Laren Hamilton crashes the AGC ](https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation)
+<a name="ref21"></a>21 | [Lauren Hamilton crashes the AGC ](https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation)
 <a name="ref22"></a>22 | [Keystrokes to enable abort ](https://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html)
 <a name="ref23"></a>23 | [Apollo 14 Journal ](https://www.hq.nasa.gov/alsj/a14/a14.landing.html)
 <a name="ref24"></a>24 | [Big Bertha Apollo 14 Rock Sample ](https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample))
 <a name="ref25"></a>25 | [Apollo Guidance Computer ](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
+<a name="ref26"></a>26 | [Surveyor III ](https://en.wikipedia.org/wiki/Surveyor_3)
+<a name="ref27"></a>27 | [Russian Argon-11C Guidance Computer ](http://www.computer-museum.ru/english/argon11c.htm)
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from ApolloGuidanceComputerPart3.md --->
