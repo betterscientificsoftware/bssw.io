@@ -6,7 +6,7 @@ Do you work in computational science and need an online forum for asking questio
 :--- | :--- 
 Name  | Computational Science Stack Exchange
 Website  | https://scicomp.stackexchange.com/
-Focus | Discussion forum for scientific problems
+Focus | Discussion forum for computational science problems
 
 [Computational Science Stack Exchange](https://scicomp.stackexchange.com/) is a question and answer site for scientists using computers to solve scientific problems.
 
