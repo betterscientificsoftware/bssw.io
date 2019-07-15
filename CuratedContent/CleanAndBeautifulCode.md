@@ -1,4 +1,4 @@
-# Clean and Beautiful Code
+# How to write clean and beautiful code?
 
 Writing clean code can be a challenge, especially for beginners! Do you know what constitutes beauty in a code and how do you incorporate it in your daily software coding life?
 
