@@ -24,8 +24,8 @@ Guidance Computer (AGC).<sup>[5],[6],[7]</sup>
 In commemoration of that historical achievement, this is the first of three
 articles about the AGC. Part 1 describes the hardware.
 [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github)
-will describe
-the software and part 3 its application in Moon missions. In the years since its
+describes
+the software and [Part 3](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space) its application in Moon missions. In the years since its
 development, jargon may have changed, but the HPC community will recognize
 many common themes such as flops/watt power constraints, checkpoint and restart
 strategies, and the need for performance portability.
