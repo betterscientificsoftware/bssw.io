@@ -1,4 +1,4 @@
-# Computational Science Stack Exchange
+# An introduction to Computational Science Stack Exchange
 
 Do you work in computational science and need an online forum for asking questions and discusssing scientific computational problems? 
 
