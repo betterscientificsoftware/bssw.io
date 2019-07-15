@@ -38,8 +38,11 @@ display current velocity, the astronauts would perform the following keystrokes,
 meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
 
+<br>
+
 [Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_SquareImages_dsky_2.jpg' class='page' />
 
+<br>
 
 Data displayed to or entered by the astronauts via the DSKY was handled in English units and
 converted to/from the Metric system for internal guidance computations. The astronauts sometimes
@@ -135,7 +138,11 @@ raised significant doubts about its value only months prior to the Apollo 11 mis
 approached the lunar surface for landing, changing major mode programs from `P64` to `P66`, the
 computational load on the AGC lessened and the program alarms abated. 
 
+<br>
+
 [Jack Garman's Cheat Sheet of AGC Program Alarms]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_garman_cheat_sheetB.png' class='page' />
+
+<br>
 
 Why wasn't the landing aborted? Turns out it was...in simulations with the Apollo 12 backup crew just
 weeks prior to Apollo 11's launch.<sup>[8]</sup> Flight controllers in those simulations were excoriated
@@ -164,6 +171,8 @@ Computer (LVDC) designed and manufactured by IBM, was controlling the vehicle in
 It worked flawlessly and Apollo 12 went on to perform a pin-point landing
 within a short lunar stroll of Surveyor III.<sup>[26]</sup> To achieve this landing accuracy, AGC software was
 enhanced to incorporate tracking telemetry from multiple ground stations simultaneously.
+
+<br>
 
 [Left: John Aarons at Mission Control. Right: Alan Bean of Apollo 12 at Surveyor III with LM Intrepid in the background]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_apollo_12_and_aaronsB.png' class='page' />
 
@@ -212,6 +221,8 @@ There was also the Launch Vehicle Digital Computer (LVDC) that provided guidance
 first three stages during launch and the Abort Guidance System (AGS) on the LM which served as a backup
 to the AGC in case a lunar landing needed to be aborted. Below, we list some of the key specifications
 of each of these computers long with a Russian design of the same era.
+
+<br>
 
 Computer | Manufacturer | Bit-width /<br>Memory (Kb) | Clock (Mhz) /<br> Flops (Kf) | Weight (kg) /<br> Power (W) | Notes
 ---|---|---|---|---|---
