@@ -1,13 +1,15 @@
 # Software Testing Tutorial (TutorialsPoint)
 
-**Resource:** [Software Testing Tutorial](http://www.tutorialspoint.com/software_testing/) from [TutorialsPoint](https://www.tutorialspoint.com/index.htm)
+Softare testing is an imporant part of the software development life cycle. Do you understand the software testing processes and frameworks involved?
+
+**Tutorial information** | **Details** 
+:--- | :--- 
+Title  | Software Testing Tutorial
+Presenters | [TutorialsPoint](https://www.tutorialspoint.com/index.htm)
+Tutorials links|[Software Testing Tutorial website](http://www.tutorialspoint.com/software_testing/)                
 
 ## Description
-Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.
-
-Testing is executing a system in order to identify any gaps, errors, or missing requirements in contrary to the actual requirements.
-
-This tutorial will give you a basic understanding on software testing, its types, methods, levels, and other related terminologies.
+Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. Testing is executing a system in order to identify any gaps, errors, or missing requirements in contrary to the actual requirements. This tutorial from [TutorialsPoint](https://www.tutorialspoint.com/index.htm) will give you a basic understanding on software testing, its types, methods, levels, and other related terminologies.
 
 ### Audience
 
@@ -17,7 +19,7 @@ This tutorial is designed for software testing professionals who would like to u
 
 Before proceeding with this tutorial, you should have a basic understanding of the software development life cycle (SDLC). In addition, you should have a basic understanding of software programming using any programming language.
 
-![alt text](https://www.tutorialspoint.com/green/images/logo.png "TutorialsPoint Logo")
+<img src='https://github.com/betterscientificsoftware/images/blob/master/Logo-class_tutorialpoint_logo.png' class='logo' />
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
