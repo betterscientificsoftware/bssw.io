@@ -2,17 +2,19 @@
 
 Several flavors of open source licensing are prevalent today. Do you know how to choose the correct open source license for your project?
 
-
+<!---
 ### Tutorial: An Introduction to Software Licensing
 
 <a href="https://doi.org/10.6084/m9.figshare.4696285" class="link-row">Slides</a>
 <a href="https://www.pathlms.com/siam/courses/4150/sections/5826/video_presentations/42639" class="link-row">Synced Audio</a>
+--->
 
-<!---
-Tutorial name | Website links
+
+**Tutorial information** | **Details** 
 :--- | :--- 
-An Introduction to Software Licensing | [Slides](https://doi.org/10.6084/m9.figshare.4696285), [Synced Audio](https://www.pathlms.com/siam/courses/4150/sections/5826/video_presentations/42639)
-  --->                    
+Title  | An Introduction to Software Licensing
+Presenters | David Bernholdt
+Web links|[Slides](https://doi.org/10.6084/m9.figshare.4696285), [Synced Audio](https://www.pathlms.com/siam/courses/4150/sections/5826/video_presentations/42639)                   
 
 <br>
 
