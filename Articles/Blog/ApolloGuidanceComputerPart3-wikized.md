@@ -18,7 +18,7 @@ on checklist items, at the last minute he had no choice but to switch to automat
 the AGC in control, Apollo 7 splashed down safely, on schedule and within 2 miles of their intended
 target. After the mission, Schirra couldn't stop singing the praises of the AGC. He felt it had saved their lives,
 giving the crew the extra time they needed to finish stowing equipment, strapping in and preparing
-for the ferocity of re-entry.
+for the ferocity of re-entry. 
 
 This is the third of three articles about the AGC. In parts 1 and 2, we described the
 hardware<sup>[1]</sup> and software.<sup>[2]</sup> Here, in part 3, we focus on *applications*
