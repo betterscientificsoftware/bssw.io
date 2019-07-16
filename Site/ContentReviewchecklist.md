@@ -81,8 +81,6 @@ We have decided to introduce a table (Example: [Bitbucket](https://bssw.io/items
 
 ----------
 ### Other checks that need to be done at prior stages
-
-This is based on discussion in Issue [#372](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/pull/372).
  - [x] Topic is of interest to readers
  - [x] Relevance of the article
  - [x] Judging whether an article idea is appropriate for BSSw - This is done when the topic is in backlog column
