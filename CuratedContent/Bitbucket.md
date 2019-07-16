@@ -1,4 +1,4 @@
-# An introduction to Bitbucket
+# An Introduction to Bitbucket
 
 Are you familiar with version control repository services? Bitbucket is a well known Git focussed revision control repository service.
 
