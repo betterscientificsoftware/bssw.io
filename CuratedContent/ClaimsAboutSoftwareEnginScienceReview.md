@@ -1,4 +1,4 @@
-# Claims about the use of software engineering practices in science: A systematic literature review
+# A Literature Review on the Use of Software Engineering Practices in Science
 
 The *Claims about the use of software engineering practices in science: A systematic literature review* article was published in Journal of Information and Software Technology in 2015 and it explores claims from software engineers about different software engineering practices and their use in developing scientific software.
 
