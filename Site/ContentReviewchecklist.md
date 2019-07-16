@@ -2,7 +2,7 @@
 
 Before the document can go online, we need to have a checklist of the things that need to be reviewed in the document before we can push it out onto the website. This document is for figuring out what this checklist will look like.
 
-This document may contain ideas (if any) based on the discussion in [#391](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/391).
+This document may contain ideas (if any) based on the discussion in Issue [#391](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/391) or PR [#392](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/pull/392).
 
 Before we can develop review checklists for various types of content, we need to
 have a clear idea of the types of content we expect to support.  Our original understanding of our content types was described in the [What to Contribute](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/91648f8f992639ad8a9f5467e00cf6dc1bec21a7/WhatToContribute.md) document. Lately, there is another PR/issue (PR [#373](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/pull/373), Issue [#361](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/361)) in the works which attempts to revise the content types and their attributes. These proposed changes are listed in the [content types and their attributes](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/markcmiller86-content-types-doc/Site/ContentTypes.md) document. We will follow this new document for our checklist discussion.
