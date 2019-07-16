@@ -10,7 +10,7 @@ Several flavors of open source licensing are prevalent today. Do you know how to
 --->
 
 
-**Tutorial information** | **Details** 
+Tutorial information | Details 
 :--- | :--- 
 Title  | An Introduction to Software Licensing
 Presenters | David Bernholdt
