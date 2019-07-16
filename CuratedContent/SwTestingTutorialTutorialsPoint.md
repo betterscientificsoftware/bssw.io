@@ -1,14 +1,14 @@
-# Software Testing Tutorial (TutorialsPoint)
+# An introduction to Software Testing Tutorial (TutorialsPoint)
 
 Softare testing is an imporant part of the software development life cycle. Do you understand the software testing processes and frameworks involved?
 
-**Tutorial information** | **Details** 
+Tutorial information | Details 
 :--- | :--- 
 Title  | Software Testing Tutorial
 Presenters | [TutorialsPoint](https://www.tutorialspoint.com/index.htm)
 Tutorials links|[Software Testing Tutorial website](http://www.tutorialspoint.com/software_testing/)                
 
-Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. Testing is executing a system in order to identify any gaps, errors, or missing requirements in contrary to the actual requirements. This tutorial from [TutorialsPoint](https://www.tutorialspoint.com/index.htm) will give you a basic understanding on software testing, its types, methods, levels, and other related terminologies.
+Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. Testing is executing a system in order to identify any gaps, errors, or missing requirements in contrary to the actual requirements. This tutorial from *[TutorialsPoint](https://www.tutorialspoint.com/index.htm)* will give you a basic understanding on software testing, its types, methods, levels, and other related terminologies.
 
 ### Audience
 
