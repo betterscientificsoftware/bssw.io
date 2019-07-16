@@ -1,9 +1,9 @@
 # Claims about the use of software engineering practices in science: A systematic literature review
 
-The “Claims about the use of software engineering practices in science: A systematic literature review” article was published in Journal of Information and Software Technology in 2015 and it explores claims from software engineers about different software engineering practices and their use in developing scientific software.
+The *Claims about the use of software engineering practices in science: A systematic literature review* article was published in Journal of Information and Software Technology in 2015 and it explores claims from software engineers about different software engineering practices and their use in developing scientific software.
 
 
-**Article information** | **Details** 
+Article information | Details 
 :--- | :--- 
 Title  | Claims about the use of software engineering practices in science: A systematic literature review
 Authors | Dustin Heaton and Jeffrey C. Carver
