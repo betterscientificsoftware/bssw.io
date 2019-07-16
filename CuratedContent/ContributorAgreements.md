@@ -1,13 +1,13 @@
-# Contributor Agreements
+# An introduction to Contributor Agreements
 Have you heard of Contributor Agreements? Learn more about these agreements to proactively avoid future legal issues and code disputes.
 
-**Resource information** | **Details** 
+Resource information | Details 
 :--- | :--- 
-Website Name  | Contributor Agreements
-Website url  | http://contributoragreements.org/
+Name  | Contributor Agreements
+Website | http://contributoragreements.org/
 Focus | Copyright, Code contributions and Licensing
 
-Contributor agreements are a way of managing a variety of legal issues associated with *receiving* (software) contributions to an open collaborative project.  The [Contributor Agreements](http://contributoragreements.org/) site provides resources to help projects understand and select a contributor agreement, if they want to use one.  The long-term goal of the effort is to consolidate around a small number of standardized contributor agreements that serve the broad needs of the community, similar to the Creative Commons family of licenses.
+Contributor agreements are a way of managing a variety of legal issues associated with *receiving* (software) contributions to an open collaborative project.  The *[Contributor Agreements](http://contributoragreements.org/)* site provides resources to help projects understand and select a contributor agreement, if they want to use one.  The long-term goal of the effort is to consolidate around a small number of standardized contributor agreements that serve the broad needs of the community, similar to the Creative Commons family of licenses.
 
 <img src='https://github.com/betterscientificsoftware/images/blob/master/Logo-class_contributor_agreements.jpg' class='logo' />
 
