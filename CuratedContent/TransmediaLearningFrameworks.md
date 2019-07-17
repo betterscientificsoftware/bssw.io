@@ -17,7 +17,6 @@ The webinar explains key points of self-directed online learning, including how 
 
 <!---
 Publish: yes
-Pinned: yes
 Categories: skills, development
 Topics: Personal productivity and sustainability, [import from subresources]
 Tags: [import from subresources]
