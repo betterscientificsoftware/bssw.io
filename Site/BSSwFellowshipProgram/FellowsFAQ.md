@@ -87,7 +87,7 @@ No, connections are not required to any funded projects.  We encourage applicati
 
 ### Do you expect fellows to attend events or meetings?
 
-We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of January 14, 2019 in Houston, TX.
+We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of February 3-7, 2020 in Houston, TX.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
