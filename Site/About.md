@@ -43,11 +43,11 @@ Jean Shuler<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/JeanShuler
 
-Greg Watson
+Greg Watson<br/>
 Oak Ridge National Laboratory<br/>
 https://github.com/jarrah42
 
-Paul Wolfenbarger
+Paul Wolfenbarger<br/>
 Sandia National Laboratories<br/>
 https://github.com/prwolfe
 
