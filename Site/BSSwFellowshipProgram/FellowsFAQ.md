@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# BSSw Fellowship FAQ
 
 More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io)
 
