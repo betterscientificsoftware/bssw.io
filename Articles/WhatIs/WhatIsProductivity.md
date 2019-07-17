@@ -4,7 +4,7 @@ Productivity, by (one of the generic) definition, is a measure of efficiency in 
 <!--deck end--->
 
 <!--body start--->
-Many people have a difficult time defining productivity in a practical way, and find it particularly difficult to measure it in an objective way.  For the Better Scientific Software (BSS) project, we use a pragmatic definition based on the well-known [*Iron Triangle*](https://www.atlassian.com/agile/agile-iron-triangle) model.  The most familiar quote associated with this model is "Better, Faster, Cheaper, pick two of the three."
+Many people have a difficult time defining productivity in a practical way, and find it particularly difficult to measure it in an objective way.  For the Better Scientific Software (BSS) project, we use a pragmatic definition based on the well-known [*Iron Triangle*](https://www.atlassian.com/agile-at-scale/agile-iron-triangle) model.  The most familiar quote associated with this model is "Better, Faster, Cheaper, pick two of the three."
 
 While it is true in our experience that an explicit measurement of productivity is difficult, relative comparison of the producivity difference between two approaches for conducting work can often be done well enough for practical purposes.  
 
