@@ -16,7 +16,10 @@ Compared with larger software communities for whom much of the software improvem
 - Many CSE software products are used by the developers and a small group of colleagues.
 - Because of the nature of scientific research, CSE software requirements often change as understanding evolves and next steps of research are determined.
 
-CSE software challenges are discussed in a community report:  _**Computational Science and Engineering Software Sustainability and Productivity Challenges (CSESSP) Workshop Report**_, M. Heroux, G. Allen, et al., 2016, Networking and Information Technology Research and Development (NITRD) Program, https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf.
+CSE software challenges are discussed in the following community reports: 
+_**Software Productivity for Extreme-Scale Science**_, H. Johansen, L.C. McInnes, et al., 2014, https://science.osti.gov/-/media/ascr/pdf/research/cs/Exascale-Workshop/SoftwareProductivityWorkshopReport2014.pdf
+
+_**Computational Science and Engineering Software Sustainability and Productivity Challenges (CSESSP) Workshop Report**_, M. Heroux, G. Allen, et al., 2016, Networking and Information Technology Research and Development (NITRD) Program, https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf.
 
 <!---
 BSSw Site: Get Oriented: About CSE
