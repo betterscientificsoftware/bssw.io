@@ -6,7 +6,7 @@
 
 **Image:** /images/blob/master/People_LumsdaineAndrew.jpg
 
-**URL:** https://homes.cs.washington.edu/~al75/index.html
+**URL:** https://homes.cs.washington.edu/~al75
 
 **LinkedIn:** https://www.linkedin.com/in/andrew-lumsdaine-704782/
 
