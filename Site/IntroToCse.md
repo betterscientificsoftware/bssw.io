@@ -17,9 +17,9 @@ Compared with larger software communities for whom much of the software improvem
 - Because of the nature of scientific research, CSE software requirements often change as understanding evolves and next steps of research are determined.
 
 CSE software challenges are discussed in the following community reports: 
-[_**Software Productivity for Extreme-Scale Science**_](ttps://science.osti.gov/-/media/ascr/pdf/research/cs/Exascale-Workshop/SoftwareProductivityWorkshopReport2014.pdf), H. Johansen, L.C. McInnes, et al., 2014, h
+[_**Software Productivity for Extreme-Scale Science**_](https://science.osti.gov/-/media/ascr/pdf/research/cs/Exascale-Workshop/SoftwareProductivityWorkshopReport2014.pdf), H. Johansen, L.C. McInnes, et al., 2014, DOE Office of Science.
 
-[_**Computational Science and Engineering Software Sustainability and Productivity Challenges (CSESSP) Workshop Report**_](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf), M. Heroux, G. Allen, et al., 2016, Networking and Information Technology Research and Development (NITRD) Program, .
+[_**Computational Science and Engineering Software Sustainability and Productivity Challenges (CSESSP) Workshop Report**_](https://www.nitrd.gov/PUBS/CSESSPWorkshopReport.pdf), M. Heroux, G. Allen, et al., 2016, Networking and Information Technology Research and Development (NITRD) Program.
 
 <!---
 BSSw Site: Get Oriented: About CSE
