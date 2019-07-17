@@ -5,7 +5,7 @@ BSSw will begin accepting applications in September. This designation offers rec
 ### Timeline for 2020 BSSw Fellowship Program
 
 - **Tuesday, Sept 3, 2019**: Fellowship application process opens.
-- **Friday, Sept 20, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. If you missed the webinar, please see the [FAQ page](https://bssw.io/resources/bssw-fellowship-program-faq-2019) for links to a recording, as well as the questions that have been raised (with answers, of course!)
+- **Friday, Sept 20, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. If you missed the webinar, please see the [FAQ page](https://bssw.io/resources/bssw-fellowship-program-faq) for links to a recording, as well as the questions that have been raised (with answers, of course!)
 - **Tuesday, Oct 15, 2019**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **Jan 6, 2020 – March 31, 2021**: Period of performance for 2020 BSSw Fellows.
 - **Jan 2020**: Fellows announced at DOE ECP Annual Meeting.
