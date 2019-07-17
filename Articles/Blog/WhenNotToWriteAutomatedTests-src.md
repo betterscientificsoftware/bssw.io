@@ -2,15 +2,15 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/testing-hero-image.png'/>[Image Source: https://www.testingspot.net (see below)]
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/testing-hero-image.png'/>[Image Source: https://www.testingspot.net]
 
 #### Contributed by [Roscoe A. Barltett](https://bartlettroscoe.github.io)
 
-#### Publication date: MONTH DD, YEAR
+#### Publication date: July 29, 2019
 
 <br>
 
-## Introduction
+### Introduction
 
 The importance of writing and maintaining strong automated tests for software is well established in the modern software engineering community (and in fact, tests will be written before the code when using test-driven development, TDD).
 But does it always pay off to write automated tests for some piece of code?
@@ -18,29 +18,29 @@ Are there situations where one is better off not writing automated tests?
 Will you be considered to be a bad developer and chastised by your peers, users, stakeholders, or your manager if every line of code that you write is not under strong automated testing?
 
 I have been wrestling with this question since 2007 when I first read the book [*Working Effectively with Legacy Code*](https://bssw.io/items/working-effectively-with-legacy-code/)<sup>[1]</sup> and [many other books on software engineering](https://bartlettroscoe.github.io/reading-list/) and radically changed my thinking about automated testing.
-In the 10+ years of my professional career prior to 2007, I wrote a lot of Computational Science and Engineering (CSE) and applied math software with very little strong automated testing.
-I used the validation-centric approach<sup>[2]</sup> to test the software that I was writing (i.e. only test/validate the software in the downstream customer code and then perhaps only manually).
+In the 10+ years of my professional career prior to 2007, I wrote a lot of computational science and engineering (CSE) and applied math software with very little strong automated testing.
+I used the validation-centric approach<sup>[2]</sup> to test the software that I was writing (i.e., only test/validate the software in the downstream customer code and then perhaps only manually).
 As a result, I had personally written O(100k) lines of code that were being used by other people and was in the position to have to maintain.
-When I realized that almost all of this software was considered "Legacy Code" according to *Working Effectively with Legacy Code* (i.e. "code without tests == legacy code"), I felt ashamed and horrified at the mass of useful but buggy and difficult-to-maintain software that I had created and now would have to deal with for years to come.
+When I realized that almost all of this software was considered "Legacy Code" according to *Working Effectively with Legacy Code* (i.e., "code without tests == legacy code"), I felt ashamed and horrified at the mass of useful but buggy and difficult-to-maintain software that I had created and now would have to deal with for years to come.
 (Just recently a nasty bug came up in software I wrote around 2006 without strong automated testing that caused a good deal of harm and was an embarrassment.)
 
-After reading the book *Working Effectively with Legacy Code*, I resolved to turn over a new leaf and become a born-again Agile software engineer that would use TDD to write all new code and religiously apply the [Legacy Code Change Algorithm](https://bssw.io/items/working-effectively-with-legacy-code/) to modify all legacy code (i.e. code without tests).
+After reading the book *Working Effectively with Legacy Code*, I resolved to turn over a new leaf and become a born-again Agile software engineer who would use TDD to write all new code and religiously apply the [Legacy Code Change Algorithm](https://bssw.io/items/working-effectively-with-legacy-code/) to modify all legacy code (i.e., code without tests).
 Over the years since my conversion to an Agile software engineer, I often rigorously wrote automated tests for nearly every piece of software I touched.
 There where times  under schedule pressure that I slipped and reverted back to my old ways and failed to write sufficient automated tests and came to regret it.
-However, there were also times where my overzealous drive to religiously test everything (which usually came after the guilt of a recent slip of not testing enough) where I wasted time writing automated tests that were not worth the effort.
-(One example is for some code in Trilinos that did not end up getting a lot of usage and is now actually deprecated to be removed from Trilinos.)
-And now after having had followed this road from 2007 until now (having written and maintained thousands of automated tests over that time period) I have come to realize that while in the majority of cases writing automated tests is necessary or overwhelmingly beneficial, alternatively there are cases when it is actually better (all things considered) not to write automated tests for some pieces of software!
+However, there were also times where my overzealous drive to religiously test everything (which usually came after the guilt of a recent slip of not testing enough) caused me to waste time writing automated tests that were not worth the effort.
+(One example is for some code in Trilinos that did not end up getting a lot of usage and is now actually deprecated to be removed.)
+And now after having had followed this road from 2007 until now (having written and maintained thousands of automated tests over that time period), I have come to realize that while in the majority of cases writing automated tests is necessary or overwhelmingly beneficial, alternatively there are cases when it is actually better (all things considered) not to write automated tests for some pieces of software!
 (Or to hold off in writing automated tests for now.)
 
-## Criteria for when writing automated tests may not pay off
+### Criteria for when writing automated tests may not pay off
 
-I have come to realize that it often does not pay off to write automated tests for a piece of software when the following five things are **ALL** true about that software:
+I have come to realize that often writing automated tests for a piece of software does not pay offwhen the following five things are ALL true about that software:
 
-* **The damage done by a defect is minor.**
-* **The majority of defects will be obvious.**
-* **Fixing the majority of defects will be easy.**
-* **Manually testing the software after a change is easy.**
-* **Writing automated tests is hard or the tests will be hard to maintain.**
+* The damage done by a defect is minor.
+* The majority of defects will be obvious.
+* Fixing the majority of defects will be easy.
+* Manually testing the software after a change is easy.
+* Writing automated tests is hard or the tests will be hard to maintain.
 
 If all five of the above criteria are satisfied, it is often better not to write automated tests for a piece of software.
 The time spent writing, maintaining, and running the automated tests does not have enough benefit to outweigh the cost.
@@ -54,30 +54,30 @@ For example, some bash scripts used locally that load some modules and then conf
 
 Therefore, it is often not worth the investment to write automated tests for locally run scripts of this type.
 
-## An example of where automated tests should have been added
+### An example of where automated tests should have been added
 
-A critical point worth remembering is that if some scripts are being used to automate some important process like deploying the software to users where not performing the task correctly would cause non-trivial harm, then one should write some automated tests to protect the critical functionality of the scripts.
-Or, if other people are running the scripts and it will not be obvious to them that a failure has occurred or they will not know how to fix it quickly, then one should likely write some automated tests for the such scripts.
+A critical point worth remembering is that if some scripts are being used to automate some important process like deploying the software to users, where not performing the task correctly would cause non-trivial harm, then one should write some automated tests to protect the critical functionality of the scripts.
+Or, if other people are running the scripts and it will not be obvious to them that a failure has occurred or they will not know how to fix it quickly, then one should likely write some automated tests for such scripts.
 
 For example, there was a bash test-driver script in a CSE project where the script (run as a cron job) failed to detect that the code's tests were failing and instead sent out emails that everything was passing.
 As a result, the code was broken for weeks with no one noticing.
-A release of the software went out (to hundreds of internal users) and it was the users who noticed the new defects.
+A release of the software went out (to hundreds of internal users), and it was the users who noticed the new defects.
 This wasted user's time, may have resulted in incorrect results, and damaged the reputation of the project releasing the software.
-The lesson is that many *scripts* may actually need to be considered *software* in their own right and need to have strong automated testing just like any piece of non-trivial software.
+The lesson is that many *scripts* may actually need to be considered *software* in their own right and need to have strong automated testing just like any piece of nontrivial software.
 (Just become some piece of software is written in bash or python does not mean it can be dismissed as "scripts" and avoid any automated testing.
 And just because it is harder to write automated tests in some languages like bash than others like Java is not an excuse for not writing automated tests.  You can write automated tests in any Turing-complete language.)
 
-## Notes
+### Notes
 
 If the first four criteria above are satisfied but it is not too hard to write automated tests, then often one should write them anyway because it will make the code easier extend and to maintain going forward.
 
 Adjectives like "minor", "obvious", "easy", and "hard" are all subjective and do not have precise definitions.
-For example, while for one person might consider these five criteria as "minor", "obvious", "easy", "easy" and "hard", another person may consider them "significant", "non-obvious", "not easy", "painful", and/or "tractable".
-For example, if one does not know the sensing, separation, and fake collaborators strategies for unit testing described in *Working Effectively with Legacy Code*, then one might think that adding automated tests for a piece of software is "hard" while another more skilled, knowledgeable, and/or experienced developer might consider adding tests for that piece of software to be quite tractable.
+For example, while one person might consider these five criteria as "minor", "obvious", "easy", "easy" and "hard", another person may consider them "significant", "non-obvious", "not easy", "painful", and/or "tractable".
+For example, if one does not know the sensing, separation, and fake collaborators strategies for unit testing described in *Working Effectively with Legacy Code*, then one might think that adding automated tests for a piece of software is "hard" while another more knowledgeable and/or experienced developer might consider adding tests for that piece of software to be quite tractable.
 
-## Summary
+### Summary
 
-While it often pays off to write a high quality automated test suite for a piece of software (i.e. reduce initial development costs and improve long-term maintenance), there are situations where it does not pay off.
+While it often pays off to write a high-quality automated test suite for a piece of software (i.e., reduce initial development costs and improve long-term maintenance), there are situations where it does not pay off.
 Here were listed five criteria that if satisfied, then it is often better not to write automated tests and instead do manual testing when any changes are made to the code.
 
 ## Disclaimer
@@ -103,8 +103,8 @@ Image copyright source info…
 --->
 
 <!---
-Publish: no
-Categories: Development, Planning, Reliability
+Publish: preview
+Categories: Planning, Reliability
 Topics: design, testing
 Tags: bssw-blog-article
 Level: 2
