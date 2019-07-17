@@ -80,7 +80,7 @@ For example, if one does not know the sensing, separation, and fake collaborator
 While it often pays off to write a high-quality automated test suite for a piece of software (i.e., reduce initial development costs and improve long-term maintenance), there are situations where it does not pay off.
 Here were listed five criteria that if satisfied, then it is often better not to write automated tests and instead do manual testing when any changes are made to the code.
 
-## Disclaimer
+### Disclaimer
 
 Please don't use this blog article as an excuse for not writing automated tests for some piece of software by trying to convince yourself that the damage done by defects will be "minor", any failures will be "obvious", or the defects will be "easy" for anyone to fix.
 You might think that but your users, stakeholders, and other developers (who will need to maintain this software) may not feel the same way.
