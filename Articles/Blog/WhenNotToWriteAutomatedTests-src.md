@@ -64,7 +64,7 @@ As a result, the code was broken for weeks with no one noticing.
 A release of the software went out (to hundreds of internal users), and it was the users who noticed the new defects.
 This wasted user's time, may have resulted in incorrect results, and damaged the reputation of the project releasing the software.
 The lesson is that many *scripts* may actually need to be considered *software* in their own right and need to have strong automated testing just like any piece of nontrivial software.
-Just become some piece of software is written in bash or Python does not mean it can be dismissed as "scripts" and avoid any automated testing.
+Just because some piece of software is written in bash or Python does not mean it can be dismissed as "scripts" and avoid any automated testing.
 And just because it is harder to write automated tests in some languages like bash than in others like Java, that is not an excuse for not writing automated tests.  One can write automated tests in any Turing-complete language.
 
 ### Notes
