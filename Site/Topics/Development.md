@@ -35,7 +35,7 @@ The process of capturing, reporting, tracking, and managing information about is
 Languages providing syntax and semantics, combined with a large set of libraries, that facilitate writing scientific algorithms and thus are widely used for scientific programming.
 <!---Topic order: 6--->
 
-- **Development Tools**
+- **Programming Tools**
 Tools that support various aspects of scientific software development, such as editors, integrated development environments, performance measurement and analysis tools, debuggers, memory checkers, and refactoring tools.
 <!---Topic order: 7--->
 
