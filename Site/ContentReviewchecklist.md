@@ -1,15 +1,6 @@
 # Checklist for review of content types
 
-Before the document can go online and be considered ready for publication, we need to have a checklist of the things that need to be reviewed in the document before we can push it out onto the website. This document is for figuring out what this checklist will look like. 
-
-Please note that the editorial processes will have a shepherd/reviewers for all stages who will review the topic being proposed, the actual content being written and whether it fits the BSSw content policies etc. This current document is more about what auxillary things need to be in place for the document to be considered ready for publication.
-
-This document will be posted in Issue [#391](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/391) or PR [#392](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/pull/392), so the document will eventually contain any discussion held at these links.
-
-Prior discussion that touch this topic are outlined in PR [#372](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/pull/372), Issue [#371](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/371) and in our new proposed [curated content workflow](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Site/CuratedContentEditorialWorkflow_Alt.md#light-weight-process-for-authors)
-
-Before we can develop review checklists for various types of content, we need to
-have a clear idea of the types of content we expect to support.  Our original understanding of our content types was described in the [What to Contribute](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/91648f8f992639ad8a9f5467e00cf6dc1bec21a7/WhatToContribute.md) document. Lately, there is another PR/issue (PR [#373](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/pull/373), Issue [#361](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/361)) in the works which attempts to revise the content types and their attributes. These proposed changes are listed in the [content types and their attributes](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/markcmiller86-content-types-doc/Site/ContentTypes.md) document. We will follow this new document for our checklist discussion.
+Before we can develop review checklists for various types of content, we need to have a clear idea of the types of content we expect to support.  Issue [#361](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/361) attempts to revise the content types and their attributes. These proposed changes are listed in the [content types and their attributes](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/markcmiller86-content-types-doc/Site/ContentTypes.md) document. We will follow this new document for our checklist discussion.
 
 ## Common review criteria
 Once the document is ready for review, there are some checks that will be common across all the content types. The following is a list of such common review criteria
