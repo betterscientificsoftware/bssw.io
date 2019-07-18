@@ -14,7 +14,7 @@ Software encourages leveraging the wisdom of existing successful projects
 to implement your sustainability plan.
 
 
-## Reports and books on open source software
+### Reports and books on open source software
 
 * [Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/)
 
@@ -33,7 +33,7 @@ Karl Fogel, 2005.  This book is soon to be
   It discusses various aspects of managing a community of open source
   developers.
 
-## Podcasts
+### Podcasts
 
 * [Request for Commits](https://changelog.com/rfc)
 
@@ -47,7 +47,7 @@ Karl Fogel, 2005.  This book is soon to be
   maintainers, researchers, and developers of popular HPC software
   projects. It is run by Brock Palen (UMich) and Jeff Sqyres (Cisco).
 
-## Foundations and nonprofits that fund open source development
+### Foundations and nonprofits that fund open source development
 
 * [NumFOCUS](http://www.numfocus.org/)
 
@@ -61,7 +61,7 @@ A nonprofit technology trade association chartered to
 * [OpenHPC](https://openhpc.community) is a member project.
 
 
-## Grants
+### Grants
 
 * The [NSF](https://www.nsf.gov) offers
   funding for
@@ -95,8 +95,8 @@ A nonprofit technology trade association chartered to
 
 <!---
 Publish: yes
-Categories: Collaboration, Planning
-Topics: Improving productivity and sustainability, Licensing, Strategies for more effective teams, Funding sources and programs
+Categories: Collaboration
+Topics: Licensing, Strategies for more effective teams, Funding sources and programs
 Tags: document, website, book, organization, funding-program, funding-agency
 Level: 2
 Prerequisites: defaults
