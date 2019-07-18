@@ -1,7 +1,6 @@
 # Better Development
 
-**Homepage:**  
-Aspects of scientific software development that should be systematically addressed in order to improve software productivity, quality, and sustainability.
+**Homepage:** Aspects of scientific software development that should be systematically addressed in order to improve software productivity, quality, and sustainability.
 
 **Overview:** 
 Improving scientific software development—a process of writing, maintaining, and extending code—in order to increase software productivity, quality, and sustainability, as key aspects of advancing overall scientific productivity.
