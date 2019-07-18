@@ -6,7 +6,7 @@ We’re creating a clearinghouse to gather, discuss, and disseminate experiences
 
 We expect all contributors to the Better Scientific Software site to follow a Contributor Code of Conduct, as described in the [BSSw Policies](Policies.md).
 
-### BSSw Senior Editors
+## BSSw Senior Editors
 
 Rinku Gupta<br/>
 Title: Editor-in-chief<br/>
@@ -25,7 +25,7 @@ Lois Curfman McInnes<br/>
 Argonne National Laboratory<br/>
 https://github.com/curfman
 
-### BSSw Associate Editors
+## BSSw Associate Editors
 
 Roscoe Bartlett<br/>
 Sandia National Laboratories<br/>
