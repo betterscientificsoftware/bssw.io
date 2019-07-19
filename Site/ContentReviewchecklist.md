@@ -77,4 +77,13 @@ We have decided to introduce a table (Example: [Bitbucket](https://bssw.io/items
  - [x] Judging whether an article idea is appropriate for BSSw - This is done when the topic is in backlog column
  - [x] Judging the actual content of a contribution i.e PR is aceeptable or not - This needs to be done by the reviewers
  - [x] Judging whether content is ready for publication - This "content" needs to be done by the reviewers but the auxillary things can be done following this current document.
+ 
+ ----------
+### Style Guide for Content
+### Curated Content:
+#### Title
+1. Conjuctions and Prepositions will be lowercase. Everything else would usually be uppercase
+2. Maintain consistency with titles. For ex: "An Introduction to..." for organizations or website
+
+ 
   
