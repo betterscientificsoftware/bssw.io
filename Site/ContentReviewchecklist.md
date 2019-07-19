@@ -102,7 +102,8 @@ Website  | Link to website (Ex: [Python For HPC Community Materials](https://bet
 Focus | Custom focus area (Ex: Python language and its application in HPC)
 
 #### Body text
-Contains one or more paragraph about the resource
+1. Contains one or more paragraph about the resource.
+2. Usually when the resource is mentioned verbatim in the body text, it is italicized.
 
 #### Logos
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
