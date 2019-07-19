@@ -23,6 +23,7 @@ The BSSw development and editorial team
 
 <!---
 Publish: Yes
+RSS update: 2019-07-19
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-article
