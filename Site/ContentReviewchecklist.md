@@ -120,7 +120,6 @@ Publication | Mention "Year, Journal name, DOI with link". See example for forma
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
 
 #### Contributor name.
-This is usually at the end of the article, with a hyperlink if available. For ex: 
-####Contributed by [Foo Foo](http://github.com/Foo "Foo Foo")
+This is usually at the end of the article, with a hyperlink if available. For ex: Contributed by [Foo Foo](http://github.com/Foo "Foo Foo")
 
   
