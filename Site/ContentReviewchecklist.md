@@ -81,12 +81,19 @@ We have decided to introduce a table (Example: [Bitbucket](https://bssw.io/items
  ----------
 ### Style Guide for Content
 ### Curated Content:
+Curated content follow the below style guide. There are several examples available in the repo for you to use as a starting point.
+
 #### Title
 1. Conjuctions and Prepositions will be lowercase. Everything else would usually be uppercase
 2. Maintain consistency with titles. For ex: "An Introduction to..." for organizations or website
 
+
+#### Deck
+Contains one or two sentences about the article which piques user interest.
+
+
 #### Tables
-For websites: 
+For specific websites, organizations: 
 
 Resource information | Details 
 :--- | :--- 
@@ -94,5 +101,13 @@ Name  | Name of website (Ex: Python for HPC)
 Website  | Link to website (Ex: [Python For HPC Community Materials](https://betterscientificsoftware.github.io/python-for-hpc/))
 Focus | Custom focus area (Ex: Python language and its application in HPC)
 
- 
+#### Body text
+Contains one or more paragraph about the resource
+
+#### Logos
+Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
+
+#### Contributor name.
+This is usually at the end of the article, with a hyperlink if available. For ex: #### Contributed by [Foo Foo](http://github.com/Foo "Foo Foo")
+
   
