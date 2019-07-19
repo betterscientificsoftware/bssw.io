@@ -55,7 +55,7 @@ See slides from a breakout session led by Elaine and David at the 2018 ECP Annua
 <!---
 Publish: Yes
 Categories: collaboration
-Topics: discussion forums, Q&A sites, projects and organizations
+Topics: discussion and question sites, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

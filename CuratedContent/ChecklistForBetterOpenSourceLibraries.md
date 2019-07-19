@@ -14,7 +14,7 @@ While targeted specifically at Python libraries, recommendations are relevant to
 <!---
 Publish: yes
 Categories: Development
-Topics: Documentation, Version control, Configuration and builds
+Topics: Documentation, Revision control, Configuration and builds
 Level: 2
 Prerequisites: defaults
 Aggregate: none

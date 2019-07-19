@@ -16,7 +16,7 @@ To view Barry's original webinar, and the full webinar series, see the following
 <!---
 Publish: Yes
 Categories: development
-Topics: configuration and builds, deployment
+Topics: configuration and builds, release and deployment
 Tags: 
 Level: 2
 Prerequisites: default

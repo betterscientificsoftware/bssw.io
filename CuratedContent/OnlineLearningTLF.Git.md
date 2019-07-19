@@ -2,7 +2,7 @@
 Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
 
 - [Udacity MOOC How to use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
--This free Udacity massively open online course (MOOC) focuses on version control for code using Git and GitHub.
+-This free Udacity massively open online course (MOOC) focuses on revision control for code using Git and GitHub.
 
 - [Git tutorial 2: Advanced Techniques with Rachel](https://www.youtube.com/watch?v=hF9X62rLSjE)
 -This tutorial covers advanced git commands including fetching, cloning, remotes, branches, merging, forking and stashing.

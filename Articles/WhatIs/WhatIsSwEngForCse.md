@@ -20,7 +20,7 @@ For software sustainability documentation is critical. All interfaces should be 
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
+Categories: planning
 Topics: software engineering
 Tags:
 Level: 0

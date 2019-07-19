@@ -18,8 +18,8 @@ Some of the resources included on the site include:
 Publish: yes
 Publication date: 2018-11-06
 RSS update: 2018-11-06
-Categories: development, reliability, collaboration, skills
-Topics: software engineering, testing, publishing, online learning
+Categories: planning, reliability, collaboration
+Topics: software engineering, testing, projects and organizations
 Tags: workshop-series
 Level: 2
 Prerequisites: defaults

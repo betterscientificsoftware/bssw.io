@@ -11,7 +11,7 @@ The article [10 Git Commands You Should Know: Plus tips to save time with Git](h
 
 <!---
 Publish: yes
-Categories: Development
+Categories: Planning
 Topics: Software engineering
 Level: 2
 Prerequisites: none

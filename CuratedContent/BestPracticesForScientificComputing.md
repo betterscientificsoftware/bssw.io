@@ -26,8 +26,8 @@ Readers may also be interested in resources at
 
 <!---
 Publish: yes
-Categories: Development
-Topics: Documentation, Version control, Configuration and builds, Software engineering
+Categories: Development, Planning
+Topics: Documentation, Revision control, Configuration and builds, Software engineering
 Level: 2
 Prerequisites: defaults
 Aggregate: none

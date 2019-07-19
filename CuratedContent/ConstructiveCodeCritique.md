@@ -16,7 +16,7 @@ Peer code review is beneficial in helping developers identify and remove faults 
 
 <!---
 Publish: yes
-Categories: Development
+Categories: Planning
 Topics: Software engineering
 Level: 2
 Prerequisites: defaults
