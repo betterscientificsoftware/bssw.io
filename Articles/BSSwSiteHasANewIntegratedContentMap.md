@@ -2,9 +2,9 @@
 
 #### Publication date: July 19, 2019
 
-The BSSw site has a new look!  We're enthused to release a new phase of the Better Scientific Software site, incorporating an integrated content map to facilitate navigation and learning.  
+The BSSw site has a new look!  We're enthused to release a new phase of the Better Scientific Software site, incorporating an integrated content map to enable navigation and learning.  
 
-Goals of the content map are to clearly present resources according to six primary categories:
+Goals of the content map are to present resources according to six primary categories and various subtopics---and to facilitate navigation throughout the site.  Explore the site to learn more about:
 - Better Planning
 - Better Development
 - Better Performance
@@ -12,9 +12,7 @@ Goals of the content map are to clearly present resources according to six prima
 - Better Collaboration 
 - Better Skills
 
-And to enable navigation among information on various topics in each category.
-
-We encourage feedback on this new functionality--and the site overall.  We also would appreciate reports of any difficulties you may encounter.  Please [contact the BSSw team](https://bssw.io/contact) with your comments and suggestions.  
+We encourage feedback on this new functionality--and the site overall.  We would greatly appreciate reports of any difficulties you may encounter.  Please [contact the BSSw team](https://bssw.io/contact) with your comments and suggestions.  
 
 As always, we welcome [contributions to the BSSw site](https://bssw.io/contributes/new). If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an original article or point users to existing resources you find useful.
 
