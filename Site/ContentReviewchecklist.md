@@ -89,7 +89,9 @@ Curated content follow the below style guide. There are several examples availab
 
 
 #### Deck
-Contains one or two sentences about the article which piques user interest.
+0. No links in the deck
+1. Contains one or two sentences about the article which piques user interest.
+2. If it is a publication, it can start with "The "title of article" article, published in the "journal name" in "month, year", explores....". For ex: The “Best Practices for Scientific Computing” article, published in the PLOS Biology journal in Jan 2014, explores..
 
 
 #### Tables
@@ -100,6 +102,14 @@ Resource information | Details
 Name  | Name of website (Ex: Python for HPC)
 Website  | Link to website (Ex: [Python For HPC Community Materials](https://betterscientificsoftware.github.io/python-for-hpc/))
 Focus | Custom focus area (Ex: Python language and its application in HPC)
+
+For publications: 
+
+Resource information | Details
+:--- | :--- 
+Title  | Title of paper (Ex: Best Practices for Scientific Computing)
+Authors | Author list. See example for format(Ex: Greg Wilson, Ben Waugh and Paul Wilson)
+Publication | Mention "Year, Journal name, DOI with link". See example for format (Ex: Year  2014, PLOS Biology Journal, DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745))
 
 #### Body text
 1. Contains one or more paragraph about the resource.
