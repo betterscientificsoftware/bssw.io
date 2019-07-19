@@ -465,7 +465,7 @@ References | &nbsp;
 Publish: yes
 RSS update: 2019-06-17
 Categories: performance
-Topics: high-performance computing, performance portability
+Topics: high-performance computing (hpc), performance portability
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
