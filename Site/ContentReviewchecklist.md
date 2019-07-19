@@ -85,5 +85,14 @@ We have decided to introduce a table (Example: [Bitbucket](https://bssw.io/items
 1. Conjuctions and Prepositions will be lowercase. Everything else would usually be uppercase
 2. Maintain consistency with titles. For ex: "An Introduction to..." for organizations or website
 
+#### Tables
+For websites: 
+
+Resource information | Details 
+:--- | :--- 
+Name  | Name of website (Ex: Python for HPC)
+Website  | Link to website (Ex: [Python For HPC Community Materials](https://betterscientificsoftware.github.io/python-for-hpc/))
+Focus | Custom focus area (Ex: Python language and its application in HPC)
+
  
   
