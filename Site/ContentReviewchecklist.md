@@ -92,7 +92,7 @@ Curated content follow the below style guide. There are several examples availab
 #### Deck
 0. No links in the deck
 1. Contains one or two sentences about the article which piques user interest.
-2. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in "month, year", explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in Jan 2014, explores..
+2. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores..
 
 
 #### Tables
@@ -120,6 +120,6 @@ Publication | Mention "Year, Journal name, DOI with link". See example for forma
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
 
 #### Contributor name.
-This is usually at the end of the article, with a hyperlink if available. For ex: #### Contributed by [Foo Foo](http://github.com/Foo "Foo Foo")
+This is usually at the end of the article, with a hyperlink if available. For ex: ####Contributed by [Foo Foo](http://github.com/Foo "Foo Foo")
 
   
