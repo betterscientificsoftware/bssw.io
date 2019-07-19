@@ -14,7 +14,7 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 ## Next webinar: Software Management Plans in Research Projects
 
-### Date and Time: Wednesday, August 14, 2019, 12:00-1:00 pm ET
+### Date and Time: Wednesday, August 14, 2019, 12:00-1:00 pm ET [**Note: 1 hour earlier than the usual webinar time.**]
 ### Presenter: Shoaib Sufi, Software Sustainabilty Institute, UK
 ### Description:
 Software is a necessary by-product of research. Software in this context can range from small shell scripts to complex and layered software ecosystems. Dealing with software as a first class citizen at the time of grant formulation is aided by the development of a Software Management Plan (SMP). An SMP can help to formalize a set of structures and goals that ensure your software is accessible and reusable in the short, medium and long term. SMP’s aim at becoming for software what Data Management Plans (DMP’s) have become for research data (DMP’s are mandatory for National Science Foundation grants). This webinar takes you through the questions you should consider when developing a Software Management Plan, how to manage the implementation of the plan, and some of the current motivation driving discussion in this area of research management.
