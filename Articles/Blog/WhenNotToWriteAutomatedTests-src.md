@@ -1,4 +1,4 @@
-# When NOT to Write Automated Tests?
+# Pre-Reference Version: When NOT to Write Automated Tests?
 
 **Hero Image:**
 
@@ -102,7 +102,7 @@ Image copyright source info…
 --->
 
 <!---
-Publish: preview
+Publish: no
 Categories: Planning, Reliability
 Topics: design, testing
 Tags: bssw-blog-article
