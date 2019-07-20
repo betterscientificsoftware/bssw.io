@@ -2,7 +2,7 @@
 
 Writing clean code can be a challenge, especially for beginners! Do you know what constitutes beauty in a code and how do you incorporate it in your daily software coding life?
 
-**Resource information** | **Details** 
+Resource information | Details
 :--- | :--- 
 Title  | [How to Make Your Code CLEAN and BEAUTIFUL](https://medium.com/swlh/excellent-code-clean-and-beautiful-code-b541ca4b5a39)
 Author | [Ravi Shankar Rajan](https://medium.com/@rsrajan1)
