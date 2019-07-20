@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [The BSSw site has a new integrated content map ... we encourage your feedback](../../Articles/BSSwSiteHasANewIntegratedContentMap.md)
+- [The BSSw site has a new integrated content map ... we encourage your feedback.](../../Articles/BSSwSiteHasANewIntegratedContentMap.md)
 - Display dates: 07/19/2019 - 07/30/2019
 
 <!---
