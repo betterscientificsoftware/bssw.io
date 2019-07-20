@@ -1,10 +1,13 @@
-# Writing Requirements
+# A Walk-through for Writing Requirements
+<!--- deck start -->
+Gathering and writing requirements is an essential process in  software development. Do you know how to write good requirements for  scientific software?
+<!---deck end --->
 
-In this resource, we work through a number of examples of requirements and how to write them.
+Gathering requirements and charting them down is a typical process in any kind of software development. In this short article, we walk-through some examples of different kinds of requirements and understand how to write them. 
 
 ### Technological Requirements on Data Types 
 
-Some functional requirements can be technological requirements; that is, there are particular constraints on the technologies that are employed in the solution. This is a common situation in the scientific computing world, which operates on the ever-changing cutting edge of hardware and software. For example, a team developing a tool to simulate ice sheet dynamics needs to translate geometry data provided by glaciologists to construct a mesh. That data is most often stored in a NetCDF format, and the team might write a requirement like sthe following:
+Some functional requirements can be technological requirements; that is, there are particular constraints on the technologies that are employed in the solution. This is a common situation in the scientific computing world, which operates on the ever-changing cutting edge of hardware and software. For example, a team developing a tool to simulate ice sheet dynamics needs to translate geometry data provided by glaciologists to construct a mesh. That data is most often stored in a NetCDF format, and the team might write a requirement like the following:
 
 > **Description**: The product shall support the NetCDF format.
 
@@ -32,9 +35,10 @@ Having to establish the scope on nonfunctional requirements is a key benefit of 
 >
 > **Criterion**: A new customer shall be able to install the software in under thirty minutes, not including build times.
 
-#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
+Thus, its important for requirements to be clearly defined, be un-ambiguous and as specific as possible, so as to ensure that correct expectations about the software are conveyed to all stakeholders and that the resulting product is well-defined, complete and functions as expected.
 
-#### Publication date: October 26, 2017
+
+#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
 
 <!---
 Publish: yes

@@ -1,6 +1,6 @@
 # An Introduction to the WSSSPE organization
 
-The current decade has bought bright focus on sustainable software in the field of science. WSSSPE is once such important international community-driven organization that promotes sustainable research software.
+The current decade has bought bright focus on sustainable software in the field of science. *WSSSPE* is once such important international community-driven organization that promotes sustainable research software.
 
 Resource information | Details 
 :--- | :--- 

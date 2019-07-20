@@ -3,8 +3,8 @@ Have you heard of Creative Commons licensing? Learn more about this family of li
 
 Resource information | Details 
 :--- | :--- 
-Resource name  | Creative Commons
-Website | https://creativecommons.org/
+Resource name | Creative Commons
+Website | [https://creativecommons.org/](https://creativecommons.org/)
 Focus | Copyright, Code contributions and Licensing
 
 Licensing is an important topic that needs attention right from the inception time of the project!
