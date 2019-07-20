@@ -1,9 +1,9 @@
-# An introduction to Creative Commons
+# An Introduction to Creative Commons
 Have you heard of Creative Commons licensing? Learn more about this family of licenses and see how it may help your software project.
 
 Resource information | Details 
 :--- | :--- 
-Name  | Creative Commons
+Resource name  | Creative Commons
 Website | https://creativecommons.org/
 Focus | Copyright, Code contributions and Licensing
 

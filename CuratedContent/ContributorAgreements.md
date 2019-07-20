@@ -1,9 +1,9 @@
-# An introduction to Contributor Agreements
+# An Introduction to Contributor Agreements
 Have you heard of Contributor Agreements? Learn more about these agreements to proactively avoid future legal issues and code disputes.
 
 Resource information | Details 
 :--- | :--- 
-Name  | Contributor Agreements
+Resource name  | Contributor Agreements
 Website | http://contributoragreements.org/
 Focus | Copyright, Code contributions and Licensing
 
