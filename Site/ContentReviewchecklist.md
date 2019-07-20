@@ -112,6 +112,16 @@ Title  | Title of paper (Ex: Best Practices for Scientific Computing)
 Authors | Author list. See example for format(Ex: Greg Wilson, Ben Waugh and Paul Wilson)
 Publication | Mention "Year, Journal name, DOI with link". See example for format (Ex: Year  2014, PLOS Biology Journal, DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745))
 
+For Web articles:
+
+Resource information | Details
+:--- | :--- 
+Title  | Title of the article with hyperlink (Ex: [How to Make Your Code CLEAN and BEAUTIFUL](https://medium.com/swlh/excellent-code-clean-and-beautiful-code-b541ca4b5a39))
+Author | Author name in the following format with hyperlink, if available (Ex: [Ravi Shankar Rajan](https://medium.com/@rsrajan1))
+Focus | Custom focus area (Ex: Software coding)
+
+
+
 #### Body text
 1. Contains one or more paragraph about the resource.
 2. Usually when the resource is mentioned verbatim in the body text, it is italicized.
