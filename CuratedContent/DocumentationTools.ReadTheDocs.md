@@ -1,4 +1,12 @@
-# Read the Docs
+# An Introduction to Read The Docs
+
+Documentation is an important part of any software. Learn about the *Read the Docs* service to aid you in this process!
+
+Resource information | Details 
+:--- | :--- 
+Resource name | Read the Docs
+Website  | [https://readthedocs.org/](https://readthedocs.org/) 
+Focus | Documentation tools
 
 [Read The Docs](https://readthedocs.org/) is a free service for hosting
 documentation generated from tools such as

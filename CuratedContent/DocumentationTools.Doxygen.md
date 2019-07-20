@@ -4,8 +4,8 @@ Documentation is an important part of any software. Learn about the Doxygen sour
 
 Resource information | Details 
 :--- | :--- 
-Resource name| Doxygen
-Website  | [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) 
+Resource name | Doxygen
+Website  | [http://www.stack.nl/~dimitri/doxygen/index.html](http://www.stack.nl/~dimitri/doxygen/index.html) 
 Focus | Documentation tools
 
 [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) is a free and open
