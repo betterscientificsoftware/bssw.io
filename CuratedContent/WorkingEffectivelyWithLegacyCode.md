@@ -1,14 +1,11 @@
-# Working Effectively with Legacy Code
+# How to Work Effectively with Legacy Code
 
+Legacy code can be challenging to work with many times. The book *Working Effectively with Legacy Code*, written by *Michael Feathers*, talks about legacy code and how to work effectively with it.
 
-This book talks about legacy code and how to work effectively with it.
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
-
-Book information | Details 
+Resource information | Details 
 :--- | :--- 
-Title  | [Working Effectively with Legacy Code](https://dl.acm.org/citation.cfm?id=1050933)
-Author | Michael Feathers
+Book title  | [Working Effectively with Legacy Code](https://dl.acm.org/citation.cfm?id=1050933)
+Authors | Michael Feathers
 Publication | 2005, ISBN-13: 978-0131177055
 
 Legacy software is very hard to modify and extend, as it often relies on obsolete software and hardware, lacks testing, and may have no developers familiar with its complexities.
@@ -90,6 +87,8 @@ In fact, at some point, the software may have improved to the point where there 
 
 This book is packed with practical examples that show nearly every trick there is for refactoring nasty code to break dependencies and getting code into a unit test harness.
 After reading this book, you should be convinced of the need for unit testing and TDD.
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
 
 <br>
 

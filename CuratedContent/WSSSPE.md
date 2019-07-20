@@ -1,10 +1,10 @@
-# An introduction to the WSSSPE organization
+# An Introduction to the WSSSPE organization
 
 The current decade has bought bright focus on sustainable software in the field of science. WSSSPE is once such important international community-driven organization that promotes sustainable research software.
 
 Resource information | Details 
 :--- | :--- 
-Name  | Working Towards Sustainable Software for Science: Practice and Experiences (WSSSPE)
+Organization name  | Working Towards Sustainable Software for Science: Practice and Experiences (WSSSPE)
 Website  | [http://wssspe.researchcomputing.org.uk/](http://wssspe.researchcomputing.org.uk/)
 Focus | Sustainable software
 
