@@ -1,10 +1,10 @@
-# An introduction to Computational Science Stack Exchange
+# An Introduction to Computational Science Stack Exchange
 
 Do you work in computational science and need an online forum for asking questions and discusssing scientific computational problems? 
 
 Resource information | Details
 :--- | :--- 
-Name  | Computational Science Stack Exchange
+Resource name  | Computational Science Stack Exchange
 Website  | https://scicomp.stackexchange.com/
 Focus | Discussion forum for computational science problems
 

@@ -4,7 +4,7 @@ Different organizations exist which focus on different aspects of software and s
 
 Resource information | Details 
 :--- | :--- 
-Name  | Association for Software Testing (AST)
+Organization name  | Association for Software Testing (AST)
 Website  | https://www.associationforsoftwaretesting.org/
 Focus | Software Testing
 

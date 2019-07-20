@@ -4,7 +4,7 @@ Are you familiar with revision control repository services? Bitbucket is a well-
 
 Resource information | Details 
 :--- | :--- 
-Name  | Bitbucket
+Resource name  | Bitbucket
 Website  | https://bitbucket.org/
 Focus | Git code management, Code collaboration
 

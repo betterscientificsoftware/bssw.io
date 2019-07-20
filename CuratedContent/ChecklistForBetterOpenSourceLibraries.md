@@ -5,8 +5,8 @@ Software developers should consider a variety of factors when creating open sour
 
 Resource information | Details
 :--- | :--- 
-Title  | [How to open source your Python library](https://opensource.com/article/18/12/tips-open-sourcing-python-libraries)
-Author | [Moshe Zadka](https://opensource.com/users/moshez)
+Article title  | [How to open source your Python library](https://opensource.com/article/18/12/tips-open-sourcing-python-libraries)
+Authors | [Moshe Zadka](https://opensource.com/users/moshez)
 Focus | Writing open source code
 
 The article *[How to open source your Python library](https://opensource.com/article/18/12/tips-open-sourcing-python-libraries)* by [Moshe Zadka](https://opensource.com/users/moshez) presents a useful checklist advising developers of what they should do when providing an open source Python library to the broader community.  Advice covers a broad spectrum of concerns, including source management, testing, documentation and versioning, plus useful links to tools and concepts mentioned in the article.  

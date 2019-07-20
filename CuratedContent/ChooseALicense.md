@@ -4,7 +4,7 @@ Several flavors of open source licensing are prevalent today.  Do you know how t
 
 Resource information | Details
 :--- | :--- 
-Name| Choose a License
+Article title | Choose a License
 Website | https://choosealicense.com/
 Focus | Software Licensing
 
