@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Celebrating Apollo's 50th Anniversary: Users' Stories from Space](../../Articles/Blog/ApolloGuidanceComputerPart3-wikized.md)
-- Display dates: 07/15/2019 - 07/30/2019
+- [The BSSw site has a new integrated content map ... we encourage your feedback.](../../Articles/BSSwSiteHasANewIntegratedContentMap.md)
+- Display dates: 07/19/2019 - 07/30/2019
 
 <!---
+- [New blog article ... Celebrating Apollo's 50th Anniversary: Users' Stories from Space](../../Articles/Blog/ApolloGuidanceComputerPart3-wikized.md)
+- Display dates: 07/15/2019 - 07/18/2019
+
 - [New blog article ... Leading a Scientific Software Project: It's All Personal](../../Articles/Blog/LeadingAScientificSoftwareProject.md)
 - Display dates: 06/27/2019 - 07/17/2019
 

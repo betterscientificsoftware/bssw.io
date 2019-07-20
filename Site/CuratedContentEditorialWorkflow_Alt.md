@@ -42,7 +42,14 @@ each of the numbered steps in the description below.
    * The issue is considered a candidate for further development and moved to
      *Topic Review*.
 1. Issues in *Topic Review* are handled as follows
-   * Any more than 30 days old that have garnered insufficient interest are labeled
+   * Interest in an item in *Topic Review* is expressed via GitHub
+     [*reaction* emojis](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)
+     thumbs up (:+1:) to indicate interest or thumbs down (:-1:) to indicate undesireability.
+     Such reactions shall be added to the *original* comment either as **EB Members** happen
+     to encounter the issues or during the weekly meetings.
+   * Sufficient interest is considered to be a thumbs up count of two more than the thumbs down
+     count.
+   * Any more than 30 days old that have *not* garnered sufficient interest are labeled
      as `no-interest` and closed.
    * Any issues with sufficient interest are moved to *In Progress*. An **EB Member**
      which must be different than the actual **Author** is assigned. GitHub has recently

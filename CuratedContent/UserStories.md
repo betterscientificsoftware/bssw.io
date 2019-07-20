@@ -26,7 +26,7 @@ The IDEAS-ECP project has been pursuing the user story approach to streamline th
 also to understand how user stories could support ECP software development efforts. For the purposes of the project,
 the stories are classified as follows:
 - *Training and documentation*: stories related to specific needs for documentation and training, such
-as the casual usage of services for version control, description of design patterns for version control,
+as the casual usage of services for revision control, description of design patterns for revision control,
 design of specific training courses (e.g., on new features in a programming language), etc.
 - *Software integration and testing*: stories related to component integration and testing, software robustness,
 multi-repository development, process to stress software functionalities under different compilation

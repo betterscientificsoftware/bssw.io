@@ -22,7 +22,7 @@ Sign up to try your hand at training with others on "real code challenges."
 <!---
 Publish: yes
 Categories: skills, development
-Topics: online learning, programming languages, programming languages and tools
+Topics: online learning, programming languages
 Tags: bssw-article
 Level: 2
 Prerequisites: defaults

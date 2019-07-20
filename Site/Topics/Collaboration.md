@@ -1,7 +1,6 @@
 # Better Collaboration
 
-**Homepage:**  
-Ways to facilitate and distribute work across teams, promote partnerships via software, and contribute to stronger communities.
+**Homepage:** Ways to facilitate and distribute work across teams, promote partnerships via software, and contribute to stronger communities.
 
 **Overview:** 
 Improving ways to facilitate work across teams and to promote partnerships and community contributions via software. We consider projects of all sizes, from small teams through multi-institutional aggregate teams.  

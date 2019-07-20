@@ -1,12 +1,12 @@
 
-# Best Practices for Scientific Computing
+# Exploring Best Practices for Scientific Computing
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
 
-The “Best Practices for Scientific Computing” article, published in the PLOS Biology journal in Jan 2014, explores best practices for scientific computing based on the authors' collective experience in this field.
+The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores best practices for scientific computing based on the authors' collective experience in this field.
 
 
-Article information | Details
+Resource information | Details
 :--- | :--- 
 Title  | Best Practices for Scientific Computing
 Authors | Greg Wilson, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, Kathryn D. Huff, Ian M. Mitchell, Mark D. Plumbley, Ben Waugh, Ethan P. White and Paul Wilson
@@ -26,8 +26,8 @@ Readers may also be interested in resources at
 
 <!---
 Publish: yes
-Categories: Development
-Topics: Documentation, Version control, Configuration and builds, Software engineering
+Categories: Development, Planning
+Topics: Documentation, Revision control, Configuration and builds, Software engineering
 Level: 2
 Prerequisites: defaults
 Aggregate: none

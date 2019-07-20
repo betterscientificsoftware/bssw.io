@@ -96,7 +96,7 @@ Categories: [Primary display via BSSW website interface]
      - Release and deployment
      - Issue tracking
      - Programming languages
-     - Programming tools
+     - Development tools
      - Refactoring
  - **Performance**
      - High-performance computing (HPC)

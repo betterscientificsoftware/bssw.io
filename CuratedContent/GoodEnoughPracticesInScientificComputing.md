@@ -32,7 +32,7 @@ the following key topics:
 * Keeping track of changes 
 * Manuscripts  
 
-The practices include using manual methods or version control systems for
+The practices include using manual methods or revision control systems for
 preserving analysis procedures and manuscript development.  Including manual
 procedures can help the beginner start good practices before learning git or
 another versioning system. Data management suggestions include preserving raw
@@ -53,8 +53,8 @@ See:
 <!---
 Publish: yes
 RSS update: 2019-04-29
-Categories: Development
-Topics: Software engineering 
+Categories: Planning, Development
+Topics: Software engineering, revision control
 Level: 2
 Prerequisites: defaults
 Aggregate: none

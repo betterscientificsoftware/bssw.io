@@ -9,7 +9,7 @@ A variety of tutorials, webinars, and training sessions provide resources for im
 - [Webinar Series: Best Practices for HPC Software Developers](BestPracticesForHPCSwDevelopersWebinarSeries.md)
 
 <!---
-Publish: yes
+Publish: no
 Categories: planning, reliability, collaboration, performance, skills
 Topics: [import from subresources]
 Tags: [import from subresources]

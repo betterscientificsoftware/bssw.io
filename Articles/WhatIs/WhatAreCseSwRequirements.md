@@ -14,7 +14,7 @@ Software requirements *specification* is the process of eliciting and documentin
 the complete capabilities of a software component, product, or system. The resulting document is also often referred to as the
 *Requirements Specification* or *Requirements Spec.* or, imprecisely, just *Spec*.
 
-## Need for CSE Software Requirements  
+### Need for CSE Software Requirements  
 In CSE, software requirements typically arise out of the needs of users to perform some computational operation. For example,
 given a software product to model the [heat equation](https://en.wikipedia.org/wiki/Heat_equation), users may *require* that
 the package support anisotropic thermally conductive media or that it support time-varying boundary conditions.
@@ -26,7 +26,7 @@ serve to define a contract between those developing software, those funding its 
 A full specification commonly comprises many different types of requirements. These include functional, performance,
 interface, and reliability requirements.
 
-## Challenges Often Encountered in Defining Requirements
+### Challenges Often Encountered in Defining Requirements
 Eliciting and defining requirements can often be tricky for developers and users alike. New software development projects
 are almost always seeking to develop some capability. Users clearly have trouble articulating a statement about something they have not previously seen. User statements about requirements thus may wind up being steeped in
 verbiage about products and practices with which they are already familiar.
@@ -43,7 +43,7 @@ may care about performance and about floating-point power efficiency (flops/watt
 be stated in those terms (e.g., "We require 6 gigaflops/watt power efficiency") and not in terms of a particular implementation
 (e.g., "we require GPUs"").
 
-## Requirements in Waterfall vs. Agile Development Processes
+### Requirements in Waterfall vs. Agile Development Processes
 In the traditional [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model) software development process,
 development costs are heavily front loaded by investing significant resources in a complete requirements specification
 before a single class is designed or a single line of code is written. This is in stark contrast

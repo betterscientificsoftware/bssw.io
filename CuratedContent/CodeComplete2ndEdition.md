@@ -2,7 +2,7 @@
 
 Originally published in 1993, and revised to second edition in 2004, the *Code Complete: A Practical Handbook of Software Construction* by Steve McConnell has been a popular book for software developers for more than two decades!
 
-<img src='https://github.com/betterscientificsoftware/images/blob/master/book_bssw_code-complete.jpg' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/book_bssw_code-complete.jpg' class='logo' />
 
 Book information | Details 
 :--- | :--- 

@@ -10,7 +10,7 @@ A [blog](http://neverworkintheory.org/) intended to help bridge between software
 
 <!---
 Publish: yes
-Categories: Development
+Categories: Planning
 Topics: Software engineering
 Tags: blog
 Level: 2

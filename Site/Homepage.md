@@ -8,12 +8,12 @@ Scientific software has emerged as an essential discipline in its own right.   B
 --->
 
 <!---
-Slide1 Left: events/call-for-papers-software-engineering-for-hpc-enabled-research-sc19-se-her-2019 
-Slide1 Right: events/best-practices-for-hpc-software-developers-webinar-series 
-Slide2 Left: items/working-effectively-with-legacy-code/
-Slide2 Right: items/unit-testing-c-with-catch/
-Slide3 Left: blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap
-Slide3 Right: images/raw/master/Blog_0429_Apollo1.jpg
+Slide1 Left: blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space
+Slide1 Right: images/raw/master/Blog_0719_Apollo3.png
+Slide2 Left: events/call-for-papers-software-engineering-for-hpc-enabled-research-sc19-se-her-2019 
+Slide2 Right: events/best-practices-for-hpc-software-developers-webinar-series 
+Slide3 Left: items/working-effectively-with-legacy-code/
+Slide3 Right: items/unit-testing-c-with-catch/
 --->
 
 

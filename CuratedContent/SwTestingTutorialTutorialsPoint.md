@@ -18,7 +18,7 @@ This tutorial is designed for software testing professionals who would like to u
 
 Before proceeding with this tutorial, you should have a basic understanding of the software development life cycle (SDLC). In addition, you should have a basic understanding of software programming using any programming language.
 
-<img src='https://github.com/betterscientificsoftware/images/blob/master/Logo-class_tutorialpoint_logo.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class_tutorialpoint_logo.png' class='logo' />
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 

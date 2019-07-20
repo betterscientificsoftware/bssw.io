@@ -287,7 +287,7 @@ https://wehackthemoon.com/bios/jack-garman - indicates image is courtesy of NASA
 <!---
 Publish: no
 Categories: performance
-Topics: high-performance computing, performance portability
+Topics: high-performance computing (hpc), performance portability
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

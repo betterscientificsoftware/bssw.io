@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# BSSw Fellowship FAQ
 
 More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io)
 
@@ -25,7 +25,7 @@ No, applications of current BSSw Fellows will not be considered for awards in fu
 
 Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, mentorship and community building opportunities.  Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw.  Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
 
-## Funding questions
+## Funding Questions
 
 ### What is the amount of funding for 2020 BSSw Fellows?
 
@@ -87,7 +87,7 @@ No, connections are not required to any funded projects.  We encourage applicati
 
 ### Do you expect fellows to attend events or meetings?
 
-We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of January 14, 2019 in Houston, TX.
+We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of February 3-7, 2020 in Houston, TX.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 

@@ -12,17 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: When 100 Flops/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software and Application in Moon Missions
+## Next webinar: Software Management Plans in Research Projects
 
-### Date and Time: Wednesday, July 17, 2019, 1:00-2:00 pm ET
-### Presenter: Mark C. Miller, Lawrence Livermore National Laboratory
+### Date and Time: Wednesday, August 14, 2019, 12:00-1:00 pm ET [**Note: 1 hour earlier than the usual webinar time.**]
+### Presenter: Shoaib Sufi, Software Sustainabilty Institute, UK
 ### Description:
-Commemorating the 50th Anniversary of the Apollo Moon landings, this webinar will describe the revolutionary computer, the Apollo Guidance Computer (AGC). The AGC made autonomous travel to the Moon and back not only possible but added profoundly to crew safety, flight profile accuracy and even optimized propellant use to such an extent that final missions plans traded fuel for added weight in equipment and lunar samples. The webinar will give an overview of the AGC hardware architecture, the guidance software it executed as well as the pioneering efforts in developing both. HPC/CSE code teams will discover many familiar themes such as flops/watt power constraints and performance portability challenges. The webinar will conclude with several user stories about the actual operation of the AGC in various Apollo missions.
+Software is a necessary by-product of research. Software in this context can range from small shell scripts to complex and layered software ecosystems. Dealing with software as a first class citizen at the time of grant formulation is aided by the development of a Software Management Plan (SMP). An SMP can help to formalize a set of structures and goals that ensure your software is accessible and reusable in the short, medium and long term. SMP’s aim at becoming for software what Data Management Plans (DMP’s) have become for research data (DMP’s are mandatory for National Science Foundation grants). This webinar takes you through the questions you should consider when developing a Software Management Plan, how to manage the implementation of the plan, and some of the current motivation driving discussion in this area of research management.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar032
 
 ## Past Webinars
+- [*When 100 Flops/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software and Application in Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark C. Miller (LLNL), 2019-07-17
 - [*Modern C++ for High-Performance Computing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030), Andrew Lumsdaine (PNNL and University of Washington), 2019-06-12
 - [*So, You Want to Be Agile? Strategies for Introducing Agility into Your Scientific Software Project*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar029), Mike Heroux (SNL), 2019-05-08
 - [*Testing Fortran Software with pFUnit*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar028), Thomas Clune (NASA/Goddard), 2019-04-10

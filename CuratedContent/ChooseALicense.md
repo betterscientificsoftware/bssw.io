@@ -1,4 +1,4 @@
-# An introduction to Choosing an Open Source Code License
+# An Introduction to Choosing an Open Source Code License
 
 Several flavors of open source licensing are prevalent today.  Do you know how to choose the correct open source license for your project?
 

@@ -19,7 +19,7 @@ Of particular interest in the BSSw context is section 4 (Multiphysics Software),
 <!---
 Publish: yes
 Categories: planning, performance
-Topics: software interoperability, high-performance computing
+Topics: software interoperability, high-performance computing (HPC)
 Tags: paper
 Level: 2
 Prerequisites: defaults
