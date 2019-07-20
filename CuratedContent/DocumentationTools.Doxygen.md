@@ -1,4 +1,12 @@
-# Doxygen
+# An Introduction to Doxygen
+
+Documentation is an important part of any software. Learn about the Doxygen source tool to aid you in this process!
+
+Resource information | Details 
+:--- | :--- 
+Resource name| Doxygen
+Website  | [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) 
+Focus | Documentation tools
 
 [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) is a free and open
 source tool that processes markup describing classes, functions, and variables
