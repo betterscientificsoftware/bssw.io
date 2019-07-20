@@ -6,7 +6,7 @@ Do you love Python and want to understand its usage in HPC environments? This sh
 
 Resource information | Details 
 :--- | :--- 
-Name  | Python for HPC
+Resource name  | Python for HPC
 Website  | [Python For HPC Community Materials](https://betterscientificsoftware.github.io/python-for-hpc/)
 Focus | Python language and its application in HPC
 
