@@ -1,4 +1,4 @@
-# Exploring the most useful Git Commands
+# Exploring the Most Useful Git Commands
 
 Git is one of the most widely used version control systems. This article explores the top 10 Git commands a developer should know in order to save time with Git.
 
