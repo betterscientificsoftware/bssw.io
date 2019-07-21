@@ -1,8 +1,15 @@
-# Useful Git Commands
+# Exploring the most useful Git Commands
+
+Git is one of the most widely used version control systems. This article explores the top 10 Git commands a developer should know in order to save time with Git.
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
-#### Publication date: March 18, 2019
+
+Resource information | Details
+:--- | :--- 
+Article title  | [10 Git Commands You Should Know](https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c)
+Authors | [Jeff Hale](https://towardsdatascience.com/@jeffhale) 
+Focus |  Software Development
 
 The distributed source management tool Git can be complicated to learn and use, especially for software developers who started with CVS or SVN or similar tools where there was always an official master repository.  I tend to use GitHub and have found the GitHub desktop client to be very useful.  It does 99% of what I need.  However there are times when I am working on the command line, or need to do something beyond what the desktop client can do.  
 
