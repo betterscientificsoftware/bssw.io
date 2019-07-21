@@ -11,7 +11,7 @@ Focus | Software publishing and citation
 
 general-purpose open-access repository
 
-*[Zenodo](https://zenodo.org)* is an general-purpose open-access repository, that provides authors with a DOI for their software package without requiring a full-length manuscript or any (peer) review of the software, and can generate a DOI for each release of your package via GitHub integration. *Zenodo* also allows users to upload data, and obtain a DOI for their data, while also acting as a hosting/distribution platform for others to access that data. This effort makes it easier for users to cite the datasets, source code or any software that they use.
+*[Zenodo](https://zenodo.org)* is a general-purpose open-access repository, that provides authors with a DOI for their software package without requiring a full-length manuscript or any (peer) review of the software, and can generate a DOI for each release of your package via GitHub integration. *Zenodo* also allows users to upload data, and obtain a DOI for their data, while also acting as a hosting/distribution platform for others to access that data. This effort makes it easier for users to cite the datasets, source code or any software that they use.
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
