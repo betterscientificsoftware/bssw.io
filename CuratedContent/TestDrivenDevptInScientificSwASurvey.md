@@ -1,6 +1,13 @@
-# Test-Driven Development in Scientific Software: A Survey
+# Surveying Test-Driven Development in Scientific Software
 
-## Nanthaamornphong, A. & Carver, J.C. Software Qual J (2015). doi:[10.1007/s11219-015-9292-4](http://dx.doi.org/10.1007/s11219-015-9292-4)
+The *Test-Driven Development in Scientific Software: A Survey* paper, published in the *J.C. Software Qual  journal* in *2015*, examines the experiences with Test-Driven Development in the scientific computing area.   
+
+Resource information | Details
+:--- | :--- 
+Paper title  | Test-Driven Development in Scientific Software: A Survey
+Authors | A. Nanthaamornphong and J. Carver
+Publication | Year  2015, J.C. Software Qual, DOI: [10.1007/s11219-015-9292-4](http://dx.doi.org/10.1007/s11219-015-9292-4)
+
 
 Test-Driven Development (TDD) is often touted as a best practice for software development.  However studies of the impact of TDD in traditional software development have so far shown mixed results in practice.  This paper is one of the few to examine experience with TDD specifically in the scientific computing area.  
 
