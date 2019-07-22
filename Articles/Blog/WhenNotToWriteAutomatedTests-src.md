@@ -8,8 +8,6 @@
 
 #### Publication date: July 29, 2019
 
-<br>
-
 ### Introduction
 
 The importance of writing and maintaining strong automated tests for software is well established in the modern software engineering community (and, in fact, tests will be written before the code when using test-driven development, TDD).
