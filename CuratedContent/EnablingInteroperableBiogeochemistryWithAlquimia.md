@@ -1,11 +1,11 @@
 # How to Enable Interoperable Biogeochemistry with Alquimia
 
-Codes in diverse but inter-related fields have specialized capabilities that need to shared with each other through efficient componentization. Libraries such as Alquimia help achieve this!
+Codes in diverse but inter-related fields have specialized capabilities that need to be shared with each other through efficient componentization. Libraries such as Alquimia help achieve this!
 
 Resource information | Details 
 :--- | :---  
 Resource name | Alquimia
-Website  | [https://github.com/LBL-EESA/alquimia-dev)](https://github.com/LBL-EESA/alquimia-dev))
+Website  | [https://github.com/LBL-EESA/alquimia-dev)](https://github.com/LBL-EESA/alquimia-dev)
 Focus | Interoperable libraries
 
 Environmental applications involve a wide range of processes, from hydrology and vegetation dynamics to genome-informed biogeochemistry, and many research groups are actively developing and enhancing mechanistic models for these processes. To share these specialized capabilities across codes efficiently, and to accelerate their future development, componentization is necessary. 
