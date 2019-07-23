@@ -16,7 +16,7 @@ Suppose you have a thin metal rod along the x-axis starting at position 0 and en
 * Heat only moves horizontally through the bar
 * There are no external heating/cooling sources
 
-<div style="text-align:center"><img width="75%" src="Bar.png" /></div>
+<div style="text-align:center"><img width="75%" src="https://github.com/betterscientificsoftware/images/blob/master/Blog_0719_HeatEqnBar.png" /></div>
 
 To model the temperature distribution of the rod, we can use the 1-dimensional Heat Equation given by the formula:
 
