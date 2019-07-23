@@ -4,8 +4,6 @@ As discussed in ["What Is CSE Software Testing?"](WhatIsCseSwTesting.md), automa
 
 ![alt text](https://jenkins.io/images/226px-Jenkins_logo.svg.png "Jenkins Logo")
 
-#### Contributed by [Lois Curfman McInnes](http://press3.mcs.anl.gov/curfman/ "Lois Curfman McInnes Homepage")
-
 #### Publication date: May 30, 2018
 
 <!---
