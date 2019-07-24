@@ -1,5 +1,9 @@
 # A Style Guide for BSSw content
-This is a work-in-progress style guide for all content that goes on the BSSw site.
+This is a work-in-progress style guide for all content that goes on the BSSw site. 
+
+Content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
+
+Currently, this style guide only talks about curated content.
 
 ### Curated Content:
 Curated content follow the below style guide. There are several examples available in the repo for you to use as a starting point.
@@ -78,7 +82,7 @@ Focus | Custom focus area
 #### Logo
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
 1. Please upload logo to https://github.com/betterscientificsoftware/images . *Do images have to be a certain format or size*
-2. Add following text with url to end of body text <img src='url' class='logo' />
+2. Add following text with url to end of body text "<img src='url' class='logo' />"
 3. *Do we need copyright or permissions for logos? Doublecheck*
 
 #### References
