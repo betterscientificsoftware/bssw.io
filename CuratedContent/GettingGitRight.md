@@ -1,4 +1,4 @@
-# Understand and Getting Git Right
+# Want to Start Getting Git Right?
 
 Revision control systems like Git are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project. This article provides a collection of resources to learn about *Git*.
 
