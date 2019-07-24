@@ -1,27 +1,16 @@
- # Issue Tracking Software
+# An Introduction to Issue Tracking Software
 
+Understanding what is issue tracking, how issue tracking tools help in software development life cycle and what myriad capabilities are now bring offered by popular issue tracking systems - are important topics to be considered by teams focussing on software development with increased sustainability and productivity in mind.
+ 
 Issue tracking software is used to make it easier for software developers to manage, record, track, resolve and be able to 
 search on past issues, software bugs, or other problems. Issue Tracking software is especially useful in eliminating 
 duplicate efforts. 
  
-The Issue Tracking software that is used most frequently by software developers are listed but many other Issue Tracking Software
-Tools are available such as for HELP desks and are more customer focused to deal with business practices and ITIL standards.
+Software developers who collaborate and work in a community environment want simple but effective tools that are intuitive and easy to use. At the same time, they want the tools to be robust and have options that are straightforward to understand and are benefical to all team members. 
 
-Software developers who collaborate and work in a community environment want simple but effective tools 
-that are intuitive and easy to use. At the same time, they want the tool to be robust and have options that are straight forward 
-to understand and are benefical to all the users of the tools. 
+As a community, we are talking to scientific software developers to find out which tools they use that are the most effective for the way they work. Some developers collaborate across countries and on different time zones and have to work rapidly to meet hard deadlines. 
 
-As a community, we are talking to scientific software developers to find out which tools they use that are the most effective for the 
-way they work.  Some developers collaborate across the country and on different time zones and have to work rapidly to meet 
-hard deadlines. 
-
-## Examples of Issue Tracking Software
-The following is a short list of Issue Tracking Software that is used or recommended by scientific
-software developers in the High Performance Computing and Exascale Community.
-
-There are many Issue Tracking Software systems that are used for a variety of purposes such as HELPDESKs and businesses 
-who need ITIL standards.  This article will focus on Scientific Software Issue tracking tools for a community of people 
-who collaborate across distances and disciplines (computer scientists, engineers, physicists, software developers, etc.) 
+This article will focus on Scientific Software Issue tracking tools for a community of people  who collaborate across distances and disciplines (computer scientists, engineers, physicists, software developers, etc.) 
 
 Issue tracking tools are chosen for a variety of reasons: 
 1. Be accessible anywhere, from any system, i.e web based
@@ -40,45 +29,48 @@ Issue tracking tools are chosen for a variety of reasons:
 14. Provide many features and functions - (features not used can be transparent)
 15. Provide history tracking, intuitive workflow, continuous integration, and real-time collaboration
 
-modern web-based repository hosting systems, BitBucket, GitHub, and GitLab provide integrated issue tracking systems and support most,
-if not all of the capabilities listed above.
+Most modern web-based repository hosting systems such as BitBucket, GitHub, and GitLab provide integrated issue tracking systems and support most, if not all, of the capabilities listed above.
 
-One of the most popular Issue Tracking software is Jira and others are listed 
+The Issue Tracking software that are most frequently used by software developers are listed in this article but there exists several other Issue Tracking Software Tools such as HELP desks - which are more customer focused and help deal with business practices and ITIL standards.
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems) Wikipedia has an extensive page on the comparison Issue tracking systems 
+[Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems) has an extensive page comparing various Issue Tracking Systems that are in use today.
 
- - [JIRA](https://www.atlassian.com/software/jira) by Atlassian
-   Jira is a proprietary Issue Tracking product, developed by Atlassian. 
+## Popular Issue Tracking Software
+
+The following is a short list of Issue Tracking Software that are used or recommended by scientific software developers in the High Performance Computing and Exascale Community.
+
+ #### JIRA by Atlassian
+   [JIRA](https://www.atlassian.com/software/jira) is a proprietary Issue Tracking product, developed by Atlassian. 
    It provides bug tracking, issue tracking, and project managment functions. 
    According to Atlassian, Jira is used for issue tracking and project managment by over 75,000 
    customers in 122 countries around the globe and is a mature, usable
    software product. Thousands of teams choose JIRA to capture and organize issues, assign work,
    and follow team activity. 
 
- - [TRACKER](https://www.capterra.com/p/115913/Tracker/) by PhaseWare
-   Another well-established Issue Tracking product, which supports organization needs. 
-   Their Issue Tracking solutions provide a customizable and configurabe, 
-   responsive tool set to help your business streamline the issue tracking process, 
+ #### TRACKER by PhaseWare
+   [TRACKER](https://www.capterra.com/p/115913/Tracker/) is another well-established Issue Tracking product, which supports organization needs. 
+   Its Issue Tracking solutions provides a customizable and configurabe, 
+   responsive tool which is set to help a business streamline the issue tracking process, 
    effectively manage the workload, and increase productivity.
    
- - [Bugzilla](https://www.bugzilla.org/):
-   Bugzilla is a web-based general-purpose bugtracker and testing tool originally developed and used by 
-   the Modilla project and licensed under the Mozilla Public LLicense. Bugzilla is server software designed to help manage 
+ #### Bugzilla 
+   [Bugzilla](https://www.bugzilla.org/) is a web-based general-purpose bugtracker and testing tool originally developed and    used by the Modilla project and licensed under the Mozilla Public LLicense. Bugzilla is server software designed to help    manage 
    software development.  Its features are: excellent security to protect confidntialitiy, integrated email capabilities,
    advanced query tools that can remember your searches. 
    
- - [Bitbucket](https://bitbucket.org):
-  Built for professional teams - Distributed version control system that makes it easy for you to collaborate with your team. 
-  The only collaborative Git solution that massively scales
+ #### Bitbucket
+  [Bitbucket](https://bitbucket.org) is built for professional teams and is a distributed version control system that makes it easy for one to collaborate with theur team. 
   
- - [GitHub](http://github.com): GitHub is a web-based hosting service for version control using git.
+ #### GitHub
+ [GitHub](http://github.com) is a web-based hosting service for version control using git.
   It is mostly used for computer code. It offers all of the distributed version control and source code management 
   functionality of Git as well as adding its own features.
   
- - [GitLab](http://www.gitlab.com): GitLab is a web based Git-repository manager 
+ #### GitLab
+ [GitLab](http://www.gitlab.com) is a web based Git-repository manager 
  with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
  
- Moving away from just Issue and Bug Tracking Systems there are also Trouble ticket systems used by HELPDESKS.
+ Moving away from just Issue and Bug Tracking Systems, know that there are also Trouble ticket systems used by HELPDESKS.
  ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
 
 
