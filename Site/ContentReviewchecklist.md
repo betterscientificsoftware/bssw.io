@@ -24,12 +24,12 @@ Once the document is ready for review, there are some checks that will be common
 - [x] Deck format
 - [x] Logos/images formatting
 - [x] Image copyright permissions
-- [x] Licensing
 - [x] Check if professional proof-reading required. If yes, initiate and follow-through the entire proecedure
 - [x] Check if it conforms to .md requirements of bssw.io frontend website and not just github
 - [x] Category list (what category will the resource fall under?)
 - [x] Check is tags are set properly for displaying (these are usually at the bottom of the article)
 - [x] Check the document against the preview site
+- [x] We need to have something of the format "By checking this box, author acknowledges and agrees to licensing terms of content they develop here".
 
 ## A Checklist for Specific Content Criteria
 Based on the type of content, additonal review criteria may come into picture.
