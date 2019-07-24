@@ -1,10 +1,6 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from WhenNotToWriteAutomatedTests-src.md --->
 # When NOT to Write Automated Tests?
 
-**Hero Image:**
-
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/testing-hero-image.png'/>[Image Source: https://www.testingspot.net]
-
 #### Contributed by [Roscoe A. Barltett](https://bartlettroscoe.github.io)
 
 #### Publication date: July 29, 2019
@@ -88,7 +84,7 @@ So please use discretion when applying these criteria to some piece of software 
 
 ### Author bio
 
-[Roscoe A. Bartlett](https://bartlettroscoe.github.io) is a computational scientist and engineer in the [Center for Computing Research](https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/research.cfm) at [Sandia National Laboratories](https://sandia.gov).
+Roscoe A. Bartlett is a computational scientist and engineer in the [Center for Computing Research](https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/research.cfm) at [Sandia National Laboratories](https://sandia.gov).
 Roscoe is a long-time contributor to the [Trilinos project](https://trilinos.org) and is currently working on various subprojects in the [Exascale Computing Project](https://www.exascaleproject.org/) including [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
 
