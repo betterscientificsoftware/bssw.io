@@ -1,8 +1,10 @@
 # Checklist for review of content types
-Before we can develop review checklists for various types of content, we need to have a clear idea of the types of content we expect to support.  Issue [#361](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/361) attempts to revise the content types and their attributes. These proposed changes are listed in the [content types and their attributes](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/markcmiller86-content-types-doc/Site/ContentTypes.md) document. We will follow this new document for our checklist discussion.
+This is a work-in-progress review checkist for all content that goes on the BSSw site. This document is to be used when we are ready with the content and need a final review of the document before publishing it.
 
-## Checks that need to be done at prior stages
-Following is a list of checks that need to be done before the article reaches the final review stage:
+Content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article. We discuss the review checklist for these three types of content.
+
+## Expected Completed Common Checks 
+Following is a list of checks that need to be done before the article reaches the final review stage. These checks are common to all content. Its expected that these checks are completed before we reach the "ready for publish" stage:
 
 - [x] Topic is of interest to readers
 - [x] Relevance of the article
