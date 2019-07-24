@@ -72,7 +72,7 @@ Original articles can be of the following types: blogs, original experiences, ho
 - [x] PI approval (if article talks about anything that can be contrued as sensitive information)
 - [x] TBD
 
-#### How-to and What-is
+##### How-to and What-is
 - [x] Does it follow the format of the how-to and what-is article? (we havent yet figured out this format)
 - [x] TBD
 
