@@ -1,15 +1,17 @@
 
-# Good Enough Practices in Scientific Computing
+# Determing Good Enough Practices in Scientific Computing
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 
-#### Publication date: April 29, 2019
+The *Good Enough Practices in Scientific Computing* article, published in the *PLOS Computational Biology journal* in *Jan 2017*, explores a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill.
 
-## G. Wilson et al., 2017. DOI: [10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
+Resource information | Details
+:--- | :--- 
+Paper title  | Good Enough Practices in Scientific Computing
+Authors | Greg Wilson, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt and Tracy Teal
+Publication | Year 2017, PLOS Computational Biology Journal, DOI: [110.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
 
-*Good Enough Practices in Scientific Computing* presents a minimum set of
-practices for starting reproducible workflows needed for scientific computing
-research. 
+The *Good Enough Practices in Scientific Computing*, published in the *PLOS Computational Biology journal* in *Jan 2017*, presents a minimum set of practices for starting reproducible workflows needed for scientific computing research. 
 
 The authors target researchers who are new to scientific computing,
 short term projects, and small collaborative teams.  However, anyone who wishes
@@ -45,7 +47,6 @@ these practices from their personal experiences, and from the experiences of
 thousands of participants in Software Carpentry and Data Carpentry workshops.
 
 See:
-* [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 * [Software Carpentry](http://software-carpentry.org)
 * [Data Carpentry](http://data-carpentry.org)
 
