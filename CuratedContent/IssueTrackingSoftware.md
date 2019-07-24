@@ -30,9 +30,7 @@ Folks in the scientific computing field need a myriad of capabilities from Issue
 14. Provide many features and functions - (features not used can be transparent)
 15. Provide history tracking, intuitive workflow, continuous integration, and real-time collaboration
 
-Most modern web-based repository hosting systems such as BitBucket, GitHub, and GitLab provide integrated issue tracking systems and support most, if not all, of the capabilities listed above.
-
-While we discuss Issue and Bug Tracking Systems, remember that there are also Trouble ticket systems used by HelpDesks across the organizations. Some of the popular ones are ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc. 
+Most modern web-based repository hosting systems such as BitBucket, GitHub, and GitLab provide integrated issue tracking systems and support most, if not all, of the capabilities listed above. 
 
 The Issue Tracking software that are most frequently used by software developers are listed in this article. However, in addition to Issue Tracking software, there exist several other options such as Trouble ticket systems used by HelpDesks across the organizations. Some of the popular ones are ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
 
@@ -73,7 +71,7 @@ The following is a short list of Issue Tracking Software that are used or recomm
  [GitLab](http://www.gitlab.com) is a web based Git-repository manager 
  with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
  
-
+With several options now available, software developers have oppurtunities to pick and choose the right Issue Tracking Tool that fits the needs of their team and overall project.
 
 
 #### Contributed by [Jean Shuler](https://github.com/ibaned "Jean Shuler")
