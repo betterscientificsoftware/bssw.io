@@ -5,10 +5,10 @@ Documentation is an important part of any software. Learn about the Doxygen sour
 Resource information | Details 
 :--- | :--- 
 Resource name | Doxygen
-Website  | [http://www.stack.nl/~dimitri/doxygen/index.html](http://www.stack.nl/~dimitri/doxygen/index.html) 
+Website  | [http://www.doxygen.nl/](http://www.doxygen.nl/) 
 Focus | Documentation tools
 
-[Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) is a free and open
+[Doxygen](http://www.doxygen.nl/) is a free and open
 source tool that processes markup describing classes, functions, and variables
 in your software's header files and generates a user-friendly hyperlinked set
 of web pages.  These web pages allow the user to navigate all the classes,

@@ -5,10 +5,10 @@ Documentation is an important part of any software. Learn about the Sphinx sourc
 Resource information | Details 
 :--- | :--- 
 Resource name | Sphinx
-Website  | [http://www.sphinx-doc.org/en/stable/](http://www.sphinx-doc.org/en/stable/) 
+Website  | [http://www.sphinx-doc.org](http://www.sphinx-doc.org) 
 Focus | Documentation tools
 
-[Sphinx](http://www.sphinx-doc.org/en/stable/) is a free and open source tool
+[Sphinx](http://www.sphinx-doc.org) is a free and open source tool
 that processes markup describing classes, functions, and variables in your
 software's header files and generates a user-friendly hyperlinked set of web
 pages.  These web pages allow the user to navigate all the classes, functions,
