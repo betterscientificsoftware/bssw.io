@@ -45,9 +45,7 @@ if not all of the capabilities listed above.
 
 One of the most popular Issue Tracking software is Jira and others are listed 
 
-Wikipedia has an extensive page on the comparison Issue tracking systems 
-- [Wikipedia] (https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems)
-
+- [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems) Wikipedia has an extensive page on the comparison Issue tracking systems 
 
  - [JIRA](https://www.atlassian.com/software/jira) by Atlassian
    Jira is a proprietary Issue Tracking product, developed by Atlassian. 
@@ -69,15 +67,15 @@ Wikipedia has an extensive page on the comparison Issue tracking systems
    software development.  Its features are: excellent security to protect confidntialitiy, integrated email capabilities,
    advanced query tools that can remember your searches. 
    
- - [Bitbucket] (https://bitbucket.org):
+ - [Bitbucket](https://bitbucket.org):
   Built for professional teams - Distributed version control system that makes it easy for you to collaborate with your team. 
   The only collaborative Git solution that massively scales
   
- - [GitHub] (http://github.com): GitHub is a web-based hosting service for version control using git.
+ - [GitHub](http://github.com): GitHub is a web-based hosting service for version control using git.
   It is mostly used for computer code. It offers all of the distributed version control and source code management 
   functionality of Git as well as adding its own features.
   
- - [GitLab] (http://www.gitlab.com): GitLab is a web based Git-repository manager 
+ - [GitLab](http://www.gitlab.com): GitLab is a web based Git-repository manager 
  with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
  
  Moving away from just Issue and Bug Tracking Systems there are also Trouble ticket systems used by HELPDESKS.
