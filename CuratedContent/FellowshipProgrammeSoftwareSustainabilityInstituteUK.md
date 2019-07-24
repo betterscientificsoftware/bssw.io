@@ -20,7 +20,6 @@ Fellows are drawn from a wide range of areas, experience, and career stages.
 
 <img src='https://github.com/betterscientificsoftware/images/blob/master/Logo-class-ssi-with-name-small2.png' class='logo' />
 
-![alt text](https://www.software.ac.uk/themes/ssi/ssi_logo_with_name-small2.png "Software Sustainability Institute Logo")
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)
 
