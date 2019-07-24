@@ -30,6 +30,8 @@ The IDEAS project has been pursuing the user story approach to streamline the pr
 - *Software requirements and development*: stories related to time-saving tips for developing better software, improvement of design processes, introduction of code reviews for producing higher quality software, etc.
 - *Operational*: stories related to the editorial workflow for BSSw (this website), interviews performed  by the project, documenting and publicizing the project’s outreach activities, etc.
 
+Additional information about user stories in the context of the IDEAS Project has been [presented at the SIAM CSE Conference](https://doi.org/10.6084/m9.figshare.7761914.v5), Spokane, WA, Feb 25 - Mar 01, 2019.
+
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
 <!---
