@@ -132,13 +132,13 @@ Resource information | Details
 :--- | :--- 
 Webinar title  | List title without hyperlink 
 Presenters | Author names  (format: author name in format "firstname lastname" seperated by comma)
-Web links | Links to slides, slide-synced audio, video (format : [Slides](url), [Synced audio](url)), [Video](url)) 
+Web links | Links to slides, slide-synced audio, video (format : [Slides](url), [Synced audio](url), [Video](url)) 
 
 ##### Website
 Resource information | Details 
 :--- | :--- 
 Resource name | Name of website
-Website | Link to website (format : [website name](url)
+Website | Link to website (format : [website name](url))
 Focus | Custom focus area
 
 ##### Web article
