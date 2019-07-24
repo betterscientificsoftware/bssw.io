@@ -12,7 +12,7 @@ As a community, we are talking to scientific software developers to find out whi
 
 This article will focus on Scientific Software Issue tracking tools for a community of people  who collaborate across distances and disciplines (computer scientists, engineers, physicists, software developers, etc.) 
 
-Folks in the Scientific Computing field need a myriad of capabilities from Issue Tracking Systems:
+Folks in the scientific computing field need a myriad of capabilities from Issue Tracking Systems:
 
 1. Be accessible anywhere, from any system, i.e web based
 2. Be available for both users to report bugs, track progress on requests
