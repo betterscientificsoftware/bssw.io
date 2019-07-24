@@ -12,7 +12,8 @@ As a community, we are talking to scientific software developers to find out whi
 
 This article will focus on Scientific Software Issue tracking tools for a community of people  who collaborate across distances and disciplines (computer scientists, engineers, physicists, software developers, etc.) 
 
-Issue tracking tools are chosen for a variety of reasons: 
+Folks in the Scientific Computing field need a myriad of capabilities from Issue Tracking Systems:
+
 1. Be accessible anywhere, from any system, i.e web based
 2. Be available for both users to report bugs, track progress on requests
 3. Allow developers to manage permissions for updating issues 
@@ -31,7 +32,9 @@ Issue tracking tools are chosen for a variety of reasons:
 
 Most modern web-based repository hosting systems such as BitBucket, GitHub, and GitLab provide integrated issue tracking systems and support most, if not all, of the capabilities listed above.
 
-The Issue Tracking software that are most frequently used by software developers are listed in this article but there exists several other Issue Tracking Software Tools such as HELP desks - which are more customer focused and help deal with business practices and ITIL standards.
+While we discuss Issue and Bug Tracking Systems, remember that there are also Trouble ticket systems used by HelpDesks across the organizations. Some of the popular ones are ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc. 
+
+The Issue Tracking software that are most frequently used by software developers are listed in this article. However, in addition to Issue Tracking software, there exist several other options such as Trouble ticket systems used by HelpDesks across the organizations. Some of the popular ones are ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems) has an extensive page comparing various Issue Tracking Systems that are in use today.
 
@@ -49,20 +52,20 @@ The following is a short list of Issue Tracking Software that are used or recomm
 
  #### TRACKER by PhaseWare
    [TRACKER](https://www.capterra.com/p/115913/Tracker/) is another well-established Issue Tracking product, which supports organization needs. 
-   Its Issue Tracking solutions provides a customizable and configurabe, 
-   responsive tool which is set to help a business streamline the issue tracking process, 
+   Its Issue Tracking solution provides a customizable and configurabe, 
+   responsive tool which is set to help a project streamline the issue tracking process, 
    effectively manage the workload, and increase productivity.
    
  #### Bugzilla 
-   [Bugzilla](https://www.bugzilla.org/) is a web-based general-purpose bugtracker and testing tool originally developed and    used by the Modilla project and licensed under the Mozilla Public LLicense. Bugzilla is server software designed to help    manage 
+   [Bugzilla](https://www.bugzilla.org/) is a web-based general-purpose bugtracker and testing tool originally developed and    used by the Mozilla project and licensed under the Mozilla Public License. Bugzilla is server software designed to help    manage 
    software development.  Its features are: excellent security to protect confidntialitiy, integrated email capabilities,
    advanced query tools that can remember your searches. 
    
  #### Bitbucket
-  [Bitbucket](https://bitbucket.org) is built for professional teams and is a distributed version control system that makes it easy for one to collaborate with theur team. 
+  [Bitbucket](https://bitbucket.org) is built for professional teams and is a distributed version control system that makes it easy for one to collaborate with their team. 
   
  #### GitHub
- [GitHub](http://github.com) is a web-based hosting service for version control using git.
+ [GitHub](http://github.com) is a web-based hosting service for version control using Git.
   It is mostly used for computer code. It offers all of the distributed version control and source code management 
   functionality of Git as well as adding its own features.
   
@@ -70,8 +73,7 @@ The following is a short list of Issue Tracking Software that are used or recomm
  [GitLab](http://www.gitlab.com) is a web based Git-repository manager 
  with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
  
- Moving away from just Issue and Bug Tracking Systems, know that there are also Trouble ticket systems used by HELPDESKS.
- ServiceNow, Remedy, Salesforce, Samanage, Wrike, etc.
+
 
 
 #### Contributed by [Jean Shuler](https://github.com/ibaned "Jean Shuler")
