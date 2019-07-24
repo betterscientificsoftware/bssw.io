@@ -1,6 +1,6 @@
 # An Introduction to GitHub
 
-Revision control systems are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project. *GitHub* is a well-known and popular service in this domain.
+Are you familiar with revision control repository services? *GitHub* is a well-known Git-focused revision control repository service.
 
 Resource information | Details 
 :--- | :--- 
