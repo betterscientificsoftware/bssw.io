@@ -1,6 +1,6 @@
 # Introducing the Fellowship Programme — Software Sustainability Institute (UK)
 
-The Software Sustainability Institute (UK) is a national facility for cultivating better, more sustainable, research software to enable world-class research. This article introduces the *[Fellowship Programme](https://www.software.ac.uk/fellowship-programme)* from the Software Sustainability Institute (SSI).
+The Software Sustainability Institute (UK) is a national facility for cultivating better, more sustainable, research software to enable world-class research. This article introduces the *Fellowship Programme* from the Software Sustainability Institute (SSI).
 
 
 Resource information | Details 
