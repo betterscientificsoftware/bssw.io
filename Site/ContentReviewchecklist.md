@@ -2,6 +2,19 @@
 
 Before we can develop review checklists for various types of content, we need to have a clear idea of the types of content we expect to support.  Issue [#361](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/issues/361) attempts to revise the content types and their attributes. These proposed changes are listed in the [content types and their attributes](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/markcmiller86-content-types-doc/Site/ContentTypes.md) document. We will follow this new document for our checklist discussion.
 
+## Checks that need to be done at prior stages
+Following is a list of checks that need to be done before the article reaches the final review stage:
+
+- [x] Topic is of interest to readers
+- [x] Relevance of the article
+- [x] Judging whether an article idea is appropriate for BSSw - This is done when the topic is in backlog column
+- [x] Judging the actual content of a contribution i.e PR is aceeptable or not - This needs to be done by the reviewers
+- [x] Judging whether content is ready for publication - This "content" needs to be done by the reviewers but the auxillary things can be done following this current document.
+- [x] Document follows style guide
+
+--------------------------------------------------
+
+
 ## Common review criteria
 Once the document is ready for review, there are some checks that will be common across all the content types. The following is a list of such common review criteria
 - [x] Spell checks, grammar, punctuation and syntax
@@ -29,35 +42,33 @@ Based on the type of content, additonal review criteria may come into picture.
 - [x] TBD
 
 
-### Curated Content: can be of the following types
-We have decided to introduce a table (Example: [Bitbucket](https://bssw.io/items/an-introduction-to-bitbucket/) shows table for a website, [Legacy-code](https://bssw.io/items/working-effectively-with-legacy-code/) shows for a book, [Case studies paper](https://bssw.io/items/software-development-practices-in-academia-a-case-study-comparison/) shows for a paper, [Intro to Licensing](https://bssw.io/items/an-introduction-to-software-licensing/) for tutorials, [WSSSPE](https://bssw.io/items/an-introduction-to-the-wssspe-organization/) for organization) at the start of the curated content document to give consistency and a brief picture of what the curated content contains. The content of the table will be different for each curated content type (do we describe the layout of the table for each curated content in this document?). We havent yet discussed if such a table is needed outside of curated content resources.
+### Curated Content: 
 
-- [x] Curated content table formatted correctly? (headings need to be bold)
+Curated content can be of the following 7 types: book, organization, publication, tutorial, web article, webinar and website
+- [x] Curated content table formatted correctly as per style guide?
+
+#### Book
 - [x] TBD
 
-#### Publications
-- [x] Does it follow the rules for publications table?
-- [x] DOI verified
-- [x] Publication year, author list verified?
-- [x] Does body text mention why this paper is interesting, for what audience is may be suitable etc? (this should already have been done by reviewers as well - do we need this here??)
+#### Organizations 
+- [x] TBD
+
+#### Publications 
+- [x] TBD
 
 #### Tutorials
-- [x] Does it follow the rules for tutorials table?
-- [x] Links to slide, slide-synced audio, video?
 - [x] Check if older versions of the tutorial existed on BSSw and are they candidates for removal? Check traffic statistics before removing older tutorials
 
 #### Web articles
-- [x] Does it follow the rules for web articles table?
 - [x] TBD
 
-#### Websites or Organization
-- [x] Does it follow the rules for organization/website table?
-- [x] Organization or website logo?
+#### Webinars
+- [x] TBD
 
-#### Book
-- [x] Does it follow the rules for book table?
-- [x] ISBN numbers
-- [x] Does body text mention why this book is interesting, for what audience is may be suitable etc.? (this should already have been done by reviewers as well - do we need this here??)
+#### Websites 
+- [x] TBD
+
+
 
 ### Original Article: can be of the following types
 
@@ -70,16 +81,11 @@ We have decided to introduce a table (Example: [Bitbucket](https://bssw.io/items
 - [x] Does it follow the format of the how-to and what-is article? (we havent yet figured out this format)
 - [x] TBD
 
-----------
-### Other checks that need to be done at prior stages
- - [x] Topic is of interest to readers
- - [x] Relevance of the article
- - [x] Judging whether an article idea is appropriate for BSSw - This is done when the topic is in backlog column
- - [x] Judging the actual content of a contribution i.e PR is aceeptable or not - This needs to be done by the reviewers
- - [x] Judging whether content is ready for publication - This "content" needs to be done by the reviewers but the auxillary things can be done following this current document.
- 
- ----------
-### Style Guide for Content
+---------------------------------------
+## Style Guide for Content
+
+This is a work-in-progress style guide for all content that goes on the BSSw site.
+
 ### Curated Content:
 Curated content follow the below style guide. There are several examples available in the repo for you to use as a starting point.
 
@@ -90,44 +96,84 @@ Curated content follow the below style guide. There are several examples availab
 
 
 #### Deck
-0. No links in the deck
+0. No hyperlinks in the deck
 1. Contains one or two sentences about the article which piques user interest.
 2. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores..
+3.  Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
 
 
 #### Tables
-For specific websites, organizations: 
 
+We have decided to introduce a table at the start of the curated content document to give consistency and a brief picture of what the curated content contains. Curated content can be of the following 7 types: book, organization, publication, tutorial, web article, webinar and website. The content of the table will be different for each curated content type and is described below. 
+
+We havent yet discussed if such a table is needed outside of curated content resources.
+
+Tables should follow the below format:
+
+#### For Books,
 Resource information | Details 
 :--- | :--- 
-Name  | Name of website (Ex: Python for HPC)
-Website  | Link to website (Ex: [Python For HPC Community Materials](https://betterscientificsoftware.github.io/python-for-hpc/))
-Focus | Custom focus area (Ex: Python language and its application in HPC)
+Book title | Name of the book with hyperlink from a neutral non-vendor website (format: [book-name](url to book))
+Authors | Author names in the following format with hyperlink from a  neutral website, if available (format: [author name in format "firstname lastname" seperated by comma](url to author))
+Publication | Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13) (format: "year, ISBN numbers seperated by comma")
 
-For publications: 
+##### For Organization
+Resource information | Details 
+:--- | :--- 
+Organization name | Name of Organization without hyperlink
+Website | Link to website (format: [url](url))
+Focus | Custom focus area 
 
+##### For Publications: 
 Resource information | Details
 :--- | :--- 
-Title  | Title of paper (Ex: Best Practices for Scientific Computing)
-Authors | Author list. See example for format(Ex: Greg Wilson, Ben Waugh and Paul Wilson)
-Publication | Mention "Year, Journal name, DOI with link". See example for format (Ex: Year  2014, PLOS Biology Journal, DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745))
+Paper title  | Title of paper without hyperlink 
+Authors | Author names  (format: author name in format "firstname lastname" seperated by comma)
+Publication | Year, Journal name, DOI with link (format: "year, journal name, DOI:[doi-url][doi-url)")
 
-For Web articles:
+##### For Tutorials,
+Resource information | Details 
+:--- | :--- 
+Tutorial title  | Name of the tutorial without hyperlink 
+Presenters | Author names  (format: author name in format "firstname lastname" seperated by comma) OR  tutorial-hosting website website name (format: [website-name](website-url)]
+Web links | Links to slides, slide-synced audio, video, or link to website tutorial (format : [Slides](url), [Synced audio](url)), [Video](url), [website link](url)) 
 
+##### For Webinars,
+Resource information | Details 
+:--- | :--- 
+Webinar title  | List title without hyperlink 
+Presenters | Author names  (format: author name in format "firstname lastname" seperated by comma)
+Web links | Links to slides, slide-synced audio, video (format : [Slides](url), [Synced audio](url)), [Video](url)) 
+
+##### Websites 
+Resource information | Details 
+:--- | :--- 
+Resource name | Name of website
+Website | Link to website (format : [website name](url)
+Focus | Custom focus area
+
+##### For Web articles:
 Resource information | Details
 :--- | :--- 
-Title  | Title of the article with hyperlink (Ex: [How to Make Your Code CLEAN and BEAUTIFUL](https://medium.com/swlh/excellent-code-clean-and-beautiful-code-b541ca4b5a39))
-Author | Author name in the following format with hyperlink, if available (Ex: [Ravi Shankar Rajan](https://medium.com/@rsrajan1))
-Focus | Custom focus area (Ex: Software coding)
-
-
+Article title  | Title of the article with hyperlink (format:  [title of article](url))
+Authors | Author names  (format: author name in format "firstname lastname" seperated by comma), with hyperlink if available (format: [author name](url))
+Focus | Custom focus area
 
 #### Body text
 1. Contains one or more paragraph about the resource.
-2. Usually when the resource is mentioned verbatim in the body text, it is italicized.
+2. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
+3. Its good for body text to go into details of why the resource is interesting and to what audience. 
+4. This text should not be a copy-paste from a website. Rather, please write this in your onwards to avoid legal issues
 
 #### Logos
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
+1. Please upload logo to https://github.com/betterscientificsoftware/images . *Do images have to be a certain format or size*
+2. Add following text with url to end of body text <img src='url' class='logo' />
+3. *Do we need copyright or permissions for logos? Doublecheck*
+
+#### References
+What are rules for these?
+
 
 #### Contributor name.
 This is usually at the end of the article, with a hyperlink if available. For ex: Contributed by [Foo Foo](http://github.com/Foo "Foo Foo")
