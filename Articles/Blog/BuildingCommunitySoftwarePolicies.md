@@ -112,18 +112,17 @@ Bochum, Germany.
 
 Piotr Luszczek is a Research Assistant Professor at the Innovative Computing
 Laboratory in the University of Tennessee, Knoxville's Tickle College of
-Engineering. Piotr earned his MSc in Computer Science from AGH University of
-Science and Technology in Kraków, Poland, and he earned his PhD in Computer
+Engineering. Piotr earned his BS and MSc degrees in Computer Science from AGH
+University of Science and Technology in Kraków, Poland, and his PhD in Computer
 Science from the University of Tennessee Knoxville. Piotr's research interests
 include benchmarking, numerical linear algebra for high-performance computing,
-automatic performance tuning for hardware accelerators, and stochastic models
-for performance. Piotr has over a decade or experience developing high
-performance numerical software for large scale, distributed memory systems with
-multicore processors and GPU accelerators. His main research interests include
-benchmarking and automated performance tuning. Currently, Piotr serves a co-PI
-for the ECP xSDK project, the primary goal of which is to improve access to
-world-class software on exascale machines. In the course of his career, Piotr
-has achieved a Google Scholar h-index of 33 and an i10-index of 91.
+automatic performance tuning for modern hardware, and stochastic models for
+performance. Piotr has over a decade of experience developing HPC numerical
+software for large scale, distributed memory systems with multicore processors
+and hardware accelerators. Currently, Piotr serves a co-PI for the ECP xSDK
+project, the primary goal of which is to improve access to world-class software
+on exascale machines. In the course of his career, Piotr has achieved a Google
+Scholar h-index of 33 and an i10-index of 91.
 
 <!---
 Publish: No
