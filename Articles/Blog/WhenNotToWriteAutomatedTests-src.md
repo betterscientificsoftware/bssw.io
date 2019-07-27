@@ -1,8 +1,4 @@
-# Pre-Reference Version: When NOT to Write Automated Tests?
-
-**Hero Image:**
-
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/testing-hero-image.png'/>[Image Source: https://www.testingspot.net]
+# When NOT to Write Automated Tests?
 
 #### Contributed by [Roscoe A. Barltett](https://bartlettroscoe.github.io)
 
@@ -32,16 +28,16 @@ And having followed this road from 2007 until now (having written and maintained
 
 ### Criteria for when writing automated tests may not pay off
 
-In deciding whether to write automated tests for a piece of software, the following five criteria should be considered:
+In deciding whether to write automated tests for a piece of software, one should consider the following questions/criteria:
 
-* The damage done by a defect is minor.
-* The majority of defects will be obvious.
-* Fixing the majority of defects will be easy.
-* Manually testing the software after a change is easy.
-* Writing automated tests is hard, or the tests will be hard to maintain.
+* Will the damage done by manifested defects be minor?
+* Will the majority of manifested defects will be obvious?
+* Will fixing the majority of the manifested defects will be easy?
+* Will manually testing the software after a change be easy?
+* Will writing automated tests be hard, or will the tests will be hard to maintain?
 
-If all five of these criteria are satisfied -- in other words, all the criteria are true -- it is often better not to write automated tests for a piece of software.
-The time spent writing, maintaining, and running the automated tests does not have enough benefit to outweigh the cost.
+If the answer to all five of these questions is "yes", then it is often better not to write automated tests for a piece of software.
+The time spent writing, maintaining, and running the automated tests likely will not have enough benefit to outweigh the cost.
 
 For example, let's apply the criteria to the case of some bash scripts used locally that load some modules and then configure, build, and run tests for some software. 
 
