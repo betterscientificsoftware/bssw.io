@@ -1,7 +1,5 @@
 # IDEAS Software Productivity Project
 
-[Interoperable Design of Extreme-Scale Application Software (IDEAS)](http://ideas-productivity.org/).
-
 The IDEAS project addresses productivity and sustainability concerns that are emerging from important trends in extreme-scale computing for science and engineering.
 
 Resource information | Details 
