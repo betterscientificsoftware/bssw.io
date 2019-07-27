@@ -96,33 +96,25 @@ https://github.com/xsdk-project/xsdk-community-policies
 
 Bio:
 
-Ulrike Meier Yang is a computational mathematician at the Center for Applied
-Scientific Computing (CASC) of Lawrence Livermore National Laboratory. She leads
-the Mathematical Algorithms & Computing Group in CASC. She is the lead of the
-xSDK project in DOE's Exascale Computing Project. Her research interests are
-numerical algorithms, parallel computing, performance evaluation and software
-design. She is a developer of hypre, a parallel linear solvers and
-preconditioners software library that won an R&D 100 award in 2006 and is used
-all around the world. Before she came to LLNL, she worked at the Center for
-Supercomputing Research and Development at the University of Illinois in
-Urbana-Champaign and at Forschungszentrum Jülich in Germany. She earned her
-Ph.D. in Computer Science from the University of Illinois in Urbana-Champaign
-and received a Diplom (equivalent to an MS) in Mathematics from Ruhr-Universität
-Bochum, Germany.
+Ulrike Meier Yang leads the Mathematical Algorithms & Computing Group in the
+Center for Applied Scientific Computing of Lawrence Livermore National
+Laboratory. She is the lead of the xSDK project in DOE's Exascale Computing
+Project, the Linear Solvers Topical Area Lead in the SciDAC FASTMath Institute,
+and a developer of the software library hypre. She earned her Ph.D. in Computer
+Science from the University of Illinois in Urbana-Champaign. Her research
+interests are numerical algorithms, parallel computing, and scientific software
+design.
 
 Piotr Luszczek is a Research Assistant Professor at the Innovative Computing
 Laboratory in the University of Tennessee, Knoxville's Tickle College of
-Engineering. Piotr earned his BS and MSc degrees in Computer Science from AGH
-University of Science and Technology in Kraków, Poland, and his PhD in Computer
-Science from the University of Tennessee Knoxville. Piotr's research interests
-include benchmarking, numerical linear algebra for high-performance computing,
-automatic performance tuning for modern hardware, and stochastic models for
-performance. Piotr has over a decade of experience developing HPC numerical
-software for large scale, distributed memory systems with multicore processors
-and hardware accelerators. Currently, Piotr serves a co-PI for the ECP xSDK
-project, the primary goal of which is to improve access to world-class software
-on exascale machines. In the course of his career, Piotr has achieved a Google
-Scholar h-index of 33 and an i10-index of 91.
+Engineering. Piotr earned his PhD in Computer Science from the University of
+Tennessee, Knoxville. His research interests include benchmarking, numerical
+linear algebra for high-performance computing, automatic performance tuning,
+and stochastic performance models. He has over a decade of experience
+developing HPC numerical software for large scale, distributed memory multicore
+systems with hardware accelerators.  Piotr serves as a co-PI on the ECP xSDK
+project that aims to improve access to world-class software on exascale
+machines.
 
 <!---
 Publish: No
