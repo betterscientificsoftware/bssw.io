@@ -1,9 +1,5 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from WhenNotToWriteAutomatedTests-src.md --->
-# Pre-Reference Version: When NOT to Write Automated Tests?
-
-**Hero Image:**
-
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/testing-hero-image.png'/>[Image Source: https://www.testingspot.net]
+# When NOT to Write Automated Tests?
 
 #### Contributed by [Roscoe A. Barltett](https://bartlettroscoe.github.io)
 
