@@ -34,6 +34,8 @@ Additional information about user stories in the context of the IDEAS project wa
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
+#### Publication date: July 27, 2019
+
 <!---
 Publish: yes
 Categories: Planning
