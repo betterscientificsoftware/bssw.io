@@ -95,7 +95,8 @@ Image copyright source info…
 --->
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-07-29
 Categories: Planning, Reliability
 Topics: design, testing
 Tags: bssw-blog-article
