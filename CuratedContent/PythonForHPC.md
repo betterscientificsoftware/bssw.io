@@ -4,6 +4,8 @@ Do you love Python and want to understand its usage in HPC environments? The Pyt
 
 #### Contributed by [Steve Hudson](https://github.com/shuds13)
 
+#### Publication date: July 27, 2019
+
 Resource information | Details 
 :--- | :--- 
 Resource name  | Python for HPC
