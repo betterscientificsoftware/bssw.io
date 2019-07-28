@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... When NOT to Write Automated Tests?](../../Articles/WhenNotToWriteAutomatedTests.md)
+- Display dates: 07/29/2019 - 08/14/2019
+
+<!---
 - [The BSSw site has a new integrated content map ... we encourage your feedback.](../../Articles/BSSwSiteHasANewIntegratedContentMap.md)
 - Display dates: 07/19/2019 - 07/30/2019
 
-<!---
 - [New blog article ... Celebrating Apollo's 50th Anniversary: Users' Stories from Space](../../Articles/Blog/ApolloGuidanceComputerPart3-wikized.md)
 - Display dates: 07/15/2019 - 07/18/2019
 
