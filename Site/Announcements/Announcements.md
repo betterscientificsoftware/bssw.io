@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... When NOT to Write Automated Tests?](../../Articles/WhenNotToWriteAutomatedTests.md)
+- [New blog article ... When NOT to Write Automated Tests?](../../Articles/Blog/WhenNotToWriteAutomatedTests.md)
 - Display dates: 07/29/2019 - 08/14/2019
 
 <!---
