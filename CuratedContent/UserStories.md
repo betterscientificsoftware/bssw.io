@@ -1,4 +1,4 @@
-# Introduction to User Stories and How to Write Them
+# An Introduction to User Stories and How to Write Them
 
 <!--- deck start --->
 Several software development methodologies employ user stories as a method to convey product requirements. Do you know what user stories are and how to use them in scientific software development?
