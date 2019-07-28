@@ -1,4 +1,4 @@
-# Improve user confidence in your software updates
+# Improve User Confidence in Your Software Updates
 
 **Hero Image:**
 - <img src="https://s-media-cache-ak0.pinimg.com/736x/e2/59/71/e2597197db792223d23e75146f5c8678--sleeping-puppies-the-office.jpg">[Puppy at work]
