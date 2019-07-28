@@ -4,7 +4,7 @@ Legacy code can be challenging to work with many times. The book *Working Effect
 
 Resource information | Details 
 :--- | :--- 
-Book title  | [Working Effectively with Legacy Code](https://dl.acm.org/citation.cfm?id=1050933)
+Book title  | [Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052)
 Authors | Michael Feathers
 Publication | 2005, ISBN-13: 978-0131177055
 
