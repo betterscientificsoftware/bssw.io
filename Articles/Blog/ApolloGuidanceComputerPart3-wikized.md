@@ -23,8 +23,7 @@ for the ferocity of re-entry.
 This is the third of three articles about the AGC. In parts 1 and 2, we described the
 hardware<sup>[1]</sup> and software.<sup>[2]</sup> Here, in part 3, we focus on *applications*
 by recounting the *users' stories* in applying the AGC to achieve Apollo mission objectives.
-These users' stories are not to be confused with [*User Stories*](https://bssw.io/items/user-stories/),
-a formal agile development technique for specifying requirements.
+These users' stories are not to be confused with [*User Stories*](https://bssw.io/items/an-introduction-to-user-stories-and-how-to-write-them), a formal agile development technique for specifying requirements.
 
 ### There are no user's stories without verbs and nouns
 It is impossible to write about how Apollo astronauts flew to the moon without using `verb`s and
