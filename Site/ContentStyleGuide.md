@@ -36,6 +36,7 @@ Resource information | Details
 :--- | :--- 
 Course title  | Name of the course with hyperlink 
 Presenters | Presenter names  (format: author name in format "firstname lastname" seperated by comma) 
+Course hosting website | Name of hosting website such as coursera, youtube, udacity [name of hosting website](url)
 Web links | Links to slides, slide-synced audio, video, or link to website course (format : [Course link](url), [Slides](url), [Synced audio](url)), [Video](url), [website link](url) etc) 
 
 ###### Organization
