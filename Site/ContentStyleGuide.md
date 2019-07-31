@@ -31,6 +31,13 @@ Book title | Name of the book with hyperlink from a neutral non-vendor website (
 Authors | Author names in the following format with hyperlink from a  neutral website, if available (format: [author name in format "firstname lastname" seperated by comma](url to author))
 Publication | Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13) (format: "year, ISBN numbers seperated by comma")
 
+###### Course
+Resource information | Details 
+:--- | :--- 
+Course title  | Name of the course with hyperlink 
+Presenters | Presenter names  (format: author name in format "firstname lastname" seperated by comma) 
+Web links | Links to slides, slide-synced audio, video, or link to website course (format : [Course link](url), [Slides](url), [Synced audio](url)), [Video](url), [website link](url) etc) 
+
 ###### Organization
 Resource information | Details 
 :--- | :--- 
