@@ -1,4 +1,4 @@
-# An Introduction to Software Testing Tutorial (TutorialsPoint)
+# An Introduction to Software Testing Tutorial from TutorialsPoint
 
 Softare testing is an imporant part of the software development life cycle. Do you understand the software testing processes and frameworks involved?
 
