@@ -1,7 +1,7 @@
 
 ## A Collection of Testing Tutorials for General-Purpose Software
 
-Softare testing is an important part of the software development life cycle. We list resources that may be useful for learning about testing in the context of general-purpose software.
+Software testing is an important part of the software development life cycle. We list resources that may be useful for learning about testing in the context of general-purpose software.
 
 Resource information | Details 
 :--- | :--- 
