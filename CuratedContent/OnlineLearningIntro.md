@@ -2,6 +2,12 @@
 
 Online Learning is gaining a lot of popularity. This article briefly introduces some popular online learning resources.
 
+##### Website
+Resource information | Details 
+:--- | :--- 
+Resource name |Online learning websites
+Website | [TED](https://www.ted.com), [ACM Queue](http://queue.acm.org/index.cfm), [Coursera](https://www.coursera.org), [Udacity](https://www.udacity.com), [edX](https://www.edx.org)
+Focus | Online learning
 
 Many definitions describe online learning as learning or education that is delivered via the internet or personal computer. However, your online learning experience can be much more. Online learning websites can come in various diverse flavors. There are variants of online learning that offer different levels of interactivity from pointing and clicking, or viewing videos, to hands-on experimentation.
 
@@ -30,8 +36,7 @@ The blog post, titled *[5 Advantages Of Online Learning: Education Without Leavi
 4. Self-paced learning, and 
 5. Low cost or free when you audit. As an example of free cost, one can review [Class Central's](https://www.class-central.com) guide on [How to Sign up for Coursera Courses for Free](https://www.class-central.com/report/coursera-signup-for-free/?utm_medium=email&utm_source=other&utm_campaign=opencourse.GdeNrll1EeSROyIACtiVvg.announcements%7Eopencourse.GdeNrll1EeSROyIACtiVvg._A0MF0zjEeenAQpMKPxN_g) as a starting point.
 
-You can get started by entering your area of interest in the search field of the suggested sites below:
-
+Listed below are some of the popular online learning sites. You can get started by entering your area of interest in the search field of the suggested sites below:
 * [TED](https://www.ted.com)
 * [ACM Queue](http://queue.acm.org/index.cfm)
 * [Coursera](https://www.coursera.org)
