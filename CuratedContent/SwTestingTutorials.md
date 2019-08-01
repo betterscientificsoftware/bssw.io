@@ -13,7 +13,7 @@ Focus | Software testing
 Software testing processes, methods and techniques can vary depending on the software under consideration. CSE software, many times, require an understanding of specific tools and frameworks that can aid the testing process. The *[Testing Tutorials for CSE Software](SwTestingTutorials.Cse.md)* sub resources provides information for testing CSE software. The *[Testing Tutorials for General-Purpose Software](SwTestingTutorials.General.md)* sub resource will help get an understanding of what is involved in testing any generic general purpose software.
 
 <!---
-Publish: yes
+Publish: no
 Categories: reliability
 Topics: [import from subresources]
 Tags: [import from subresources]
