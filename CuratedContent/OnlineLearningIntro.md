@@ -2,7 +2,6 @@
 
 Online Learning is gaining a lot of popularity. This article briefly introduces some popular online learning resources.
 
-##### Website
 Resource information | Details 
 :--- | :--- 
 Resource name |Online learning websites
