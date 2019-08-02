@@ -1,6 +1,6 @@
 # Pre-reference Version: When NOT to Write Automated Tests?
 
-#### Contributed by [Roscoe A. Barltett](https://bartlettroscoe.github.io)
+#### Contributed by [Roscoe A. Bartlett](https://bartlettroscoe.github.io)
 
 #### Publication date: July 29, 2019
 
