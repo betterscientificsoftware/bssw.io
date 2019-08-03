@@ -26,8 +26,10 @@ We solicit the following types of content from our readers and our CSE community
 - **Curated articles:** A brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content.
 <!-- - folder: [CuratedContent](CuratedContent/README.md) -->
 
+<!--
 - **Event:** An event content is a brief description of an event (such as a workshop, conference, or tutorial) relevant to better scientific software.
-  <!-- - folder: [Events](Events/README.md) -->
+ - folder: [Events](Events/README.md)
+  -->
 
 #### Scope of the content
 The exact scope of the above content is work in progress as we learn about our community interests.  However, presently we believe the following guidelines should be useful:
