@@ -1,6 +1,6 @@
 # A Collection of Resources for Sustaining Open Source Software
 <!-- deck start -->
-Are you a researcher or developer interested in sustaining open source software? This article gives resources that discuss challenges facing open source software maintainers, to organizations that provide community funding for open source projects.
+Are you a researcher or developer interested in sustaining open source software? This article gives resources that focus on discussing challenges facing open source software maintainers, to organizations that provide community funding for open source projects.
 <!-- deck end -->
 
 Sustaining a scientific software project is a difficult task.  One
@@ -41,7 +41,7 @@ Book title | Producing Open Source Software
 Authors | Karl Fogel
 Publication | 2005, ISBN-10: 0596007590, ISBN-13: 978-0596007591
 
-The *Producing Open Source Software* book is authired by Karl Fogel in 2005. It discusses various aspects of managing a community of open source developers.
+The *Producing Open Source Software* book was authored by Karl Fogel in 2005. It discusses various aspects of managing a community of open source developers.
 
 ### Podcasts
 
@@ -116,7 +116,7 @@ The [Sloan Foundation](https://sloan.org/) and the [Moore Foundation](https://ww
 Resource information | Details 
 :--- | :--- 
 Organization name | Ford Foundation
-Website | Ford Foundation](https://www.fordfoundation.org)
+Website | [Ford Foundation](https://www.fordfoundation.org)
 Focus | Funding science
 
 The [Ford Foundation](https://www.fordfoundation.org) has [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to fighting inequality. One thrust area is [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/), which funded the Roads & Bridges report on open source.
