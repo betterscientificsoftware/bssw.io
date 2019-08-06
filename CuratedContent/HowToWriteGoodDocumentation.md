@@ -1,6 +1,6 @@
 ### How to Write Good Documentation for CSE Software
 
-Documentation is critical for explaining how users interact with software. This "How To" document is a good resource on learning how to write effective documentation for CSE software.
+Documentation is critical for explaining how users interact with software. This *How To* document is a good resource on learning how to write effective documentation for CSE software.
 
 Resource information | Details
 :--- | :--- 
