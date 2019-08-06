@@ -1,7 +1,7 @@
 # A Collection of Resources for Sustaining Open Source Software
-
+<!-- deck start -->
 Are you a researcher or developer interested in sustaining open source software? This article gives resources that discuss challenges facing open source software maintainers, to organizations that provide community funding for open source projects.
-
+<!-- deck end -->
 
 Sustaining a scientific software project is a difficult task.  One
 strategy for sustaining scientific software is to build a community of
@@ -18,7 +18,6 @@ to implement your sustainability plan.
 
 
 ### Reports and books on open source software
-
 
 Resource information | Details 
 :--- | :--- 
@@ -69,7 +68,7 @@ Organization name | NumFOCUS
 Website | [NumFOCUS](http://www.numfocus.org/)
 Focus | Sustainability
 
-[NumFOCUS](http://www.numfocus.org/) is A501 (c) nonprofit focussed on sustaining open source projects in data science.
+*[NumFOCUS](http://www.numfocus.org/)* is A501 (c) nonprofit focussed on sustaining open source projects in data science.
 
 Resource information | Details 
 :--- | :--- 
@@ -77,8 +76,7 @@ Organization name | Linux Foundation
 Website | [Linux Foundation](https://www.linuxfoundation.org/)
 Focus | Collaboration
 
-The [Linux Foundation](https://www.linuxfoundation.org/) is a nonprofit technology trade association chartered to
-  promote, protect, and advance Linux and collaborative development.
+The *[Linux Foundation](https://www.linuxfoundation.org/)* is a nonprofit technology trade association chartered to promote, protect, and advance Linux and collaborative development.
 
 Resource information | Details 
 :--- | :--- 
@@ -86,7 +84,7 @@ Organization name | OpenHPC
 Website | [OpenHPC](https://openhpc.community)
 Focus | Collaboration
 
-[OpenHPC](https://openhpc.community) is a Linux Foundation Collaborative Project whose mission is to provide a reference collection of open-source HPC software components and best practices, lowering barriers to deployment, advancement, and use of modern HPC methods and tools.
+*[OpenHPC](https://openhpc.community)* is a Linux Foundation Collaborative Project whose mission is to provide a reference collection of open-source HPC software components and best practices, lowering barriers to deployment, advancement, and use of modern HPC methods and tools.
 
 
 ### Grants
@@ -97,9 +95,7 @@ Organization name | National Science Foundation (NSF)
 Website | [NSF](https://www.nsf.gov)
 Focus | Funding science
 
-The [NSF](https://www.nsf.gov) offers funding for
-  [Software Infrastructure for Sustained Innovation (SI2)](https://www.nsf.gov/pubs/2016/nsf16532/nsf16532.htm)
-  and has frequent calls for proposals.
+The *[NSF](https://www.nsf.gov)* offers funding for [Software Infrastructure for Sustained Innovation (SI2)](https://www.nsf.gov/pubs/2016/nsf16532/nsf16532.htm) and has frequent calls for proposals.
 
 Resource information | Details 
 :--- | :--- 
@@ -107,12 +103,7 @@ Organization name | Department of Energy (DOE)
 Website | [DOE](https://energy.gov/)
 Focus | Funding science
 
-[DOE](https://energy.gov/) and other agencies work with the U.S.
-  [SBIR Program](https://www.sbir.gov/) to help small businesses conduct
-  R&D. The website provides information to starting companies on how to apply for SBIR funding, which is a potential way to
-  productize and sustain an open source project started on research
-  funds.  See the [ASCR SBIR page](https://science.energy.gov/sbir/) to
-  get started.
+*[DOE](https://energy.gov/)* and other agencies work with the U.S [SBIR Program](https://www.sbir.gov/) to help small businesses conduct R&D. The website provides information to starting companies on how to apply for SBIR funding, which is a potential way to productize and sustain an open source project started on research funds. See the [ASCR SBIR page](https://science.energy.gov/sbir/) to get started.
 
 Resource information | Details 
 :--- | :--- 
@@ -120,13 +111,7 @@ Organization name | Sloan Foundation
 Website | [Sloan Foundation](https://sloan.org/)
 Focus | Funding science
 
-The [Sloan Foundation](https://sloan.org/) and the
-  [Moore Foundation](https://www.moore.org/) offer grants in science and
-  technology, among other areas. They have funded large data science
-  initiatives that support open source, such as the
-  [Moore-Sloan Data Science Environments (MSDE)](http://msdse.org/) and
-  the
-  [Jupyter Project](https://blog.jupyter.org/new-funding-for-jupyter-12009a836867).
+The [Sloan Foundation](https://sloan.org/) and the [Moore Foundation](https://www.moore.org/) offer grants in science and technology, among other areas. They have funded large data science initiatives that support open source, such as the [Moore-Sloan Data Science Environments (MSDE)](http://msdse.org/) and the [Jupyter Project](https://blog.jupyter.org/new-funding-for-jupyter-12009a836867).
 
 Resource information | Details 
 :--- | :--- 
@@ -134,14 +119,9 @@ Organization name | Ford Foundation
 Website | Ford Foundation](https://www.fordfoundation.org)
 Focus | Funding science
 
-The [Ford Foundation](https://www.fordfoundation.org) has
-  [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to
-  fighting inequality. One thrust area is
-  [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/),
-  which funded the Roads & Bridges report on open source.
+The [Ford Foundation](https://www.fordfoundation.org) has [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to fighting inequality. One thrust area is [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/), which funded the Roads & Bridges report on open source.
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin)
-
 
 <!---
 Publish: yes
