@@ -1,4 +1,4 @@
-# Planning for Better Software using using PSIP-Tools
+# Planning for Better Software using PSIP-Tools
  
 Do you wish to learn how to incorporate improvements focussing on software sustainability and productivity in an easy and efficient manner in your project? This article introduces a good resource for this purpose.
 
