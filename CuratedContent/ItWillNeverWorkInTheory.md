@@ -1,10 +1,16 @@
 # It Will Never Work in Theory
+An easy-reading, interesting blog, is presented in this article. The blog would be interesting to anyone looking to bridge the gap between researchers and practitioners in software engineering.
 
-[http://neverworkintheory.org/](http://neverworkintheory.org/)
+Resource information | Details 
+:--- | :--- 
+Resource name  | It Will Never Work in Theory
+Website  | http://neverworkintheory.org/
+Focus | Software engineering
 
-A [blog](http://neverworkintheory.org/) intended to help bridge between software engineering researchers and practitioners building complex software.  Most posts summarize and review papers from the software engineering literature that might be interesting and useful to those who develop CSE software.  The blog is fairly low volume.
+This slightly old, but interesting blog, titled *[It Will Never Work in Theory](http://neverworkintheory.org/)* is intended to help bridge between software engineering researchers and practitioners building complex software.  Most posts summarize and review papers from the software engineering literature that might be interesting and useful to those who develop CSE software.  The blog is fairly low volume and an easy read. 
 
-![alt text](http://neverworkintheory.org/assets/img/scales.svg "blog logo")
+<img src='https://github.com/betterscientificsoftware/images/blob/master/Logo-class-theory.svg' class='logo' />
+ 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
