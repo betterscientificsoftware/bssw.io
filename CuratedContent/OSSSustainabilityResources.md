@@ -19,12 +19,30 @@ to implement your sustainability plan.
 
 ### Reports and books on open source software
 
-* [Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/): By Nadia Eghbal, 2016. Ford Foundation report on long-term sustainability of open source software infrastructure.
 
-* [opensource.guide](https://opensource.guide/): Open Source Guides, by GitHub: A series of how-tos on launching and sustaining open source projects. Information includes topics on starting a project, licensing, maintaining, establishing community governance, and finding funding.
+Resource information | Details 
+:--- | :--- 
+Book title | [Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/)
+Authors | Nadia Eghbal
+Publication | 2016
 
-* [Producing Open Source Software](https://www.amazon.com/Producing-Open-Source-Software-Successful/dp/0596007590/): By Karl Fogel, 2005.  This book is soon to be [updated to a second edition](https://www.kickstarter.com/projects/kfogel/updating-producing-open-source-software-for-2nd-ed). It discusses various aspects of managing a community of open source
-  developers.
+The *[Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/)* is a report authored by Nadia Eghbal in 2016 by Ford Foundation. This is a report that talks about long-term sustainability of open source software infrastructure.
+
+Resource information | Details 
+:--- | :--- 
+Resource name | Open Source Guides
+Website | https://opensource.guide/
+Focus | Sustainability
+
+The *[Open Source Guides](https://opensource.guide/)* is a website by GitHub. It contains a series of how-tos on launching and sustaining open source projects. Information includes topics on starting a project, licensing, maintaining, establishing community governance, and finding funding.
+
+Resource information | Details 
+:--- | :--- 
+Book title | Producing Open Source Software
+Authors | Karl Fogel
+Publication | 2005, ISBN-10: 0596007590, ISBN-13: 978-0596007591
+
+The *Producing Open Source Software* book is authired by Karl Fogel in 2005. It discusses various aspects of managing a community of open source developers.
 
 ### Podcasts
 
