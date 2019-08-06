@@ -1,5 +1,5 @@
 
-# Determing Good Enough Practices in Scientific Computing
+# Determining Good Enough Practices in Scientific Computing
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 
