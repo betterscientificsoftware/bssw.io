@@ -42,38 +42,28 @@ The Issue Tracking software that are most frequently used by software developers
 
 [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems) has an extensive page comparing various Issue Tracking Systems that are in use today.
 
+
 ## Popular Issue Tracking Software
 
 The following is a short list of Issue Tracking Software that are used or recommended by scientific software developers in the High Performance Computing and Exascale Community.
 
- ### JIRA by Atlassian
-   *[JIRA](https://www.atlassian.com/software/jira)* is a proprietary Issue Tracking product, developed by Atlassian. 
-   It provides bug tracking, issue tracking, and project managment functions. 
-   According to Atlassian, Jira is used for issue tracking and project managment by over 75,000 
-   customers in 122 countries around the globe and is a mature, usable
-   software product. Thousands of teams choose JIRA to capture and organize issues, assign work,
-   and follow team activity. 
+### JIRA by Atlassian
+*[JIRA](https://www.atlassian.com/software/jira)* is a proprietary Issue Tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project managment functions. According to Atlassian, Jira is used for issue tracking and project managment by over 75,000 customers in 122 countries around the globe and is a mature, usable software product. Thousands of teams choose JIRA to capture and organize issues, assign work, and follow team activity. 
 
- ### TRACKER by PhaseWare
-   *[TRACKER](https://www.capterra.com/p/115913/Tracker/)* is another well-established Issue Tracking product, which supports organization needs. Its Issue Tracking solution provides a customizable and configurabe, 
-   responsive tool which is set to help a project streamline the issue tracking process, 
-   effectively manage the workload, and increase productivity.
+### TRACKER by PhaseWare
+*[TRACKER](https://www.capterra.com/p/115913/Tracker/)* is another well-established Issue Tracking product, which supports organization needs. Its Issue Tracking solution provides a customizable and configurabe, responsive tool which is set to help a project streamline the issue tracking process, effectively manage the workload, and increase productivity.
    
- ### Bugzilla 
-   *[Bugzilla](https://www.bugzilla.org/)* is a web-based general-purpose bugtracker and testing tool originally developed and    used by the Mozilla project and licensed under the Mozilla Public License. Bugzilla is server software designed to help manage 
-   software development.  Its features are: excellent security to protect confidntialitiy, integrated email capabilities,
-   advanced query tools that can remember your searches. 
+### Bugzilla 
+*[Bugzilla](https://www.bugzilla.org/)* is a web-based general-purpose bugtracker and testing tool originally developed and    used by the Mozilla project and licensed under the Mozilla Public License. Bugzilla is server software designed to help manage software development.  Its features are: excellent security to protect confidntialitiy, integrated email capabilities, advanced query tools that can remember your searches. 
    
- ### Bitbucket
-  *[Bitbucket](https://bitbucket.org)* is built for professional teams and is a distributed version control system that makes it easy for one to collaborate with their team. 
+### Bitbucket
+*[Bitbucket](https://bitbucket.org)* is built for professional teams and is a distributed version control system that makes it easy for one to collaborate with their team. 
   
- ### GitHub
- *[GitHub](http://github.com)* is a web-based hosting service for version control using Git.
-  It is mostly used for computer code. It offers all of the distributed version control and source code management 
-  functionality of Git as well as adding its own features.
+### GitHub
+*[GitHub](http://github.com)* is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
   
- ### GitLab
- *[GitLab](http://www.gitlab.com)* is a web based Git-repository manager with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
+### GitLab
+*[GitLab](http://www.gitlab.com)* is a web based Git-repository manager with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
  
 With several options now available, software developers have oppurtunities to pick and choose the right Issue Tracking Tool that fits the needs of their team and overall project.
 
