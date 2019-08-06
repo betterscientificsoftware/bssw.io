@@ -16,46 +16,28 @@ to implement your sustainability plan.
 
 ### Reports and books on open source software
 
-* [Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/)
+* [Roads and Bridges: The Unseen Labor behind Our Digital Infrastructure](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/): By Nadia Eghbal, 2016. Ford Foundation report on long-term sustainability of open source software infrastructure.
 
-Nadia Eghbal, 2016. Ford Foundation report on long-term sustainability of open source software infrastructure.
+* [opensource.guide](https://opensource.guide/): Open Source Guides, by GitHub: A series of how-tos on launching and sustaining open source projects. Information includes topics on starting a project, licensing, maintaining, establishing community governance, and finding funding.
 
-* [opensource.guide](https://opensource.guide/)
-
-Open Source Guides, by GitHub: A series of how-tos on launching and sustaining open source
-  projects. Information includes topics on starting a project, licensing, maintaining, establishing
-  community governance, and finding funding.
-
-* [Producing Open Source Software](https://www.amazon.com/Producing-Open-Source-Software-Successful/dp/0596007590/)
-
-Karl Fogel, 2005.  This book is soon to be
-  [updated to a second edition](https://www.kickstarter.com/projects/kfogel/updating-producing-open-source-software-for-2nd-ed).
-  It discusses various aspects of managing a community of open source
+* [Producing Open Source Software](https://www.amazon.com/Producing-Open-Source-Software-Successful/dp/0596007590/): By Karl Fogel, 2005.  This book is soon to be [updated to a second edition](https://www.kickstarter.com/projects/kfogel/updating-producing-open-source-software-for-2nd-ed). It discusses various aspects of managing a community of open source
   developers.
 
 ### Podcasts
 
-* [Request for Commits](https://changelog.com/rfc)
-
-  A podcast about the human aspects of software development, focusing on
+* [Request for Commits](https://changelog.com/rfc) : A podcast about the human aspects of software development, focusing on
   software sustainability. It includes many interviews with leaders in major open
   source projects.
 
-* [RCE Podcast](http://www.rce-cast.com/)
-
-  A podcast that covers open source projects in HPC. It includes many interviews with
+* [RCE Podcast](http://www.rce-cast.com/): A podcast that covers open source projects in HPC. It includes many interviews with
   maintainers, researchers, and developers of popular HPC software
   projects. It is run by Brock Palen (UMich) and Jeff Sqyres (Cisco).
 
 ### Foundations and nonprofits that fund open source development
 
-* [NumFOCUS](http://www.numfocus.org/)
+* [NumFOCUS](http://www.numfocus.org/): A501 (c) nonprofit sustaining open source projects in data science.
 
-501 (c) nonprofit sustaining open source projects in data science.
-
-* [Linux Foundation](https://www.linuxfoundation.org/) 
-
-A nonprofit technology trade association chartered to
+* [Linux Foundation](https://www.linuxfoundation.org/): A nonprofit technology trade association chartered to
   promote, protect, and advance Linux and collaborative development.
 
 * [OpenHPC](https://openhpc.community) is a member project.
