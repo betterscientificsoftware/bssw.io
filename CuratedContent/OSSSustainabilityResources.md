@@ -55,13 +55,31 @@ The *Producing Open Source Software* book is authired by Karl Fogel in 2005. It 
   projects. It is run by Brock Palen (UMich) and Jeff Sqyres (Cisco).
 
 ### Foundations and nonprofits that fund open source development
+Resource information | Details 
+:--- | :--- 
+Organization name | NumFOCUS
+Website | [NumFOCUS](http://www.numfocus.org/)
+Focus | Sustainability
 
-* [NumFOCUS](http://www.numfocus.org/): A501 (c) nonprofit sustaining open source projects in data science.
+*[NumFOCUS](http://www.numfocus.org/) is A501 (c) nonprofit focussed on sustaining open source projects in data science.
 
-* [Linux Foundation](https://www.linuxfoundation.org/): A nonprofit technology trade association chartered to
+Resource information | Details 
+:--- | :--- 
+Organization name | Linux Foundation
+Website | [Linux Foundation](https://www.linuxfoundation.org/)
+Focus | Collaboration
+
+The [Linux Foundation](https://www.linuxfoundation.org/) is a nonprofit technology trade association chartered to
   promote, protect, and advance Linux and collaborative development.
 
-* [OpenHPC](https://openhpc.community) is a member project.
+Resource information | Details 
+:--- | :--- 
+Organization name | OpenHPC
+Website | [OpenHPC](https://openhpc.community)
+Focus | Collaboration
+
+[OpenHPC](https://openhpc.community) is a Linux Foundation Collaborative Project whose mission is to provide a reference collection of open-source HPC software components and best practices, lowering barriers to deployment, advancement, and use of modern HPC methods and tools.
+
 
 
 ### Grants
