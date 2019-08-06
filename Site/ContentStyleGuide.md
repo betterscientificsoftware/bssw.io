@@ -10,7 +10,7 @@ Curated content follow the below style guide. There are several examples availab
 
 #### Title
 1. Conjuctions and Prepositions will be lowercase. Everything else would usually be uppercase
-2. Maintain consistency with titles. For ex: "An Introduction to..." for organizations or website
+2. Maintain consistency with titles. For ex: "An Introduction to..." for organizations or website, if it makes sense
 3. As of Jul 2019, the title of the article continues to be the url of the article. Be smart while selecting title and avoid changing it after publishing (in case the article gets bookmarked by readers)
 
 #### Deck
