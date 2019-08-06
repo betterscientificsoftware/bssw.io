@@ -1,4 +1,12 @@
-# Publishing CSE Software
+# Where and How to Publish CSE Software?
+
+Publishing software is gaining traction in the CSE community. This article discusses possible venues and methods to publish CSE software.
+
+Resource information | Details 
+:--- | :--- 
+Resource name | Assorted venues to publish CSE software
+Websites | [ACM Transactions on Mathematical Software](http://toms.acm.org), [ACM Transactions on Modeling and Computer Simulation](http://tomacs.acm.org/about.cfm), [Archive of Numerical Software](http://journals.ub.uni-heidelberg.de/index.php/ans/), [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs),  [The Journal of Open Source Software](http://joss.theoj.org), [Journal of Statistical Software](https://www.jstatsoft.org/index), [SoftwareX](https://www.journals.elsevier.com/softwarex/), [Zenodo](https://zenodo.org), [FigShare](https://figshare.com)
+Focus |  Software publishing and citation
 
 CSE software is used to generate many significant results
 in the scientific literature.
