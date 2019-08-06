@@ -61,7 +61,7 @@ Organization name | NumFOCUS
 Website | [NumFOCUS](http://www.numfocus.org/)
 Focus | Sustainability
 
-*[NumFOCUS](http://www.numfocus.org/) is A501 (c) nonprofit focussed on sustaining open source projects in data science.
+[NumFOCUS](http://www.numfocus.org/) is A501 (c) nonprofit focussed on sustaining open source projects in data science.
 
 Resource information | Details 
 :--- | :--- 
@@ -84,19 +84,36 @@ Focus | Collaboration
 
 ### Grants
 
-* The [NSF](https://www.nsf.gov) offers
-  funding for
+Resource information | Details 
+:--- | :--- 
+Organization name | National Science Foundation (NSF)
+Website | [NSF](https://www.nsf.gov)
+Focus | Funding science
+
+The [NSF](https://www.nsf.gov) offers funding for
   [Software Infrastructure for Sustained Innovation (SI2)](https://www.nsf.gov/pubs/2016/nsf16532/nsf16532.htm)
   and has frequent calls for proposals.
 
-* [DOE](https://energy.gov/) and other agencies work with the U.S.
+Resource information | Details 
+:--- | :--- 
+Organization name | Department of Energy (DOE)
+Website | [DOE](https://energy.gov/)
+Focus | Funding science
+
+[DOE](https://energy.gov/) and other agencies work with the U.S.
   [SBIR Program](https://www.sbir.gov/) to help small businesses conduct
   R&D. The website provides information to starting companies on how to apply for SBIR funding, which is a potential way to
   productize and sustain an open source project started on research
   funds.  See the [ASCR SBIR page](https://science.energy.gov/sbir/) to
   get started.
 
-* The [Sloan Foundation](https://sloan.org/) and the
+Resource information | Details 
+:--- | :--- 
+Organization name | Sloan Foundation
+Website | [Sloan Foundation](https://sloan.org/)
+Focus | Funding science
+
+The [Sloan Foundation](https://sloan.org/) and the
   [Moore Foundation](https://www.moore.org/) offer grants in science and
   technology, among other areas. They have funded large data science
   initiatives that support open source, such as the
@@ -104,7 +121,13 @@ Focus | Collaboration
   the
   [Jupyter Project](https://blog.jupyter.org/new-funding-for-jupyter-12009a836867).
 
-* The [Ford Foundation](https://www.fordfoundation.org) has
+Resource information | Details 
+:--- | :--- 
+Organization name | Ford Foundation
+Website | Ford Foundation](https://www.fordfoundation.org)
+Focus | Funding science
+
+The [Ford Foundation](https://www.fordfoundation.org) has
   [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to
   fighting inequality. One thrust area is
   [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/),
