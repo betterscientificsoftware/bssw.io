@@ -24,7 +24,7 @@ We have decided to introduce a table at the start of the curated content documen
 We havent yet discussed if such a table is needed outside of curated content resources.
 
 Tables should follow the below format:
-##### Book
+###### Book
 Resource information | Details 
 :--- | :--- 
 Book title | Name of the book with hyperlink from a neutral non-vendor website (format: [book-name](url to book))
@@ -60,14 +60,14 @@ Tutorial title  | Name of the tutorial without hyperlink
 Presenters | Author names  (format: author name in format "firstname lastname" seperated by comma) OR  tutorial-hosting website website name (format: [website-name](website-url)]
 Web links | Links to slides, slide-synced audio, video, or link to website tutorial (format : [Slides](url), [Synced audio](url)), [Video](url), [website link](url)) 
 
-##### Webinar
+###### Webinar
 Resource information | Details 
 :--- | :--- 
 Webinar title  | List title without hyperlink 
 Presenters | Author names  (format: author name in format "firstname lastname" seperated by comma)
 Web links | Links to slides, slide-synced audio, video (format : [Slides](url), [Synced audio](url), [Video](url)) 
 
-##### Website
+###### Website
 Resource information | Details 
 :--- | :--- 
 Resource name | Name of website
@@ -82,7 +82,7 @@ Resource name | Text that describes the overall websites
 Websites | Link to website (format : [website name](url)) separated by commas
 Focus | Custom focus area
 
-##### Web article
+###### Web article
 Resource information | Details
 :--- | :--- 
 Article title  | Title of the article with hyperlink (format:  [title of article](url))
