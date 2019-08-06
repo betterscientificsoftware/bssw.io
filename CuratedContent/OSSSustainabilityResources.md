@@ -1,4 +1,7 @@
-# Sustaining Open Source Software
+# A Collection of Resources for Sustaining Open Source Software
+
+Are you a researcher or developer interested in sustaining open source software? This article gives resources that discuss challenges facing open source software maintainers, to organizations that provide community funding for open source projects.
+
 
 Sustaining a scientific software project is a difficult task.  One
 strategy for sustaining scientific software is to build a community of
@@ -73,7 +76,6 @@ to implement your sustainability plan.
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin)
 
-#### Publication date: December 4, 2017
 
 <!---
 Publish: yes
