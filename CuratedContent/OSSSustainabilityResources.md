@@ -46,13 +46,21 @@ The *Producing Open Source Software* book is authired by Karl Fogel in 2005. It 
 
 ### Podcasts
 
-* [Request for Commits](https://changelog.com/rfc) : A podcast about the human aspects of software development, focusing on
-  software sustainability. It includes many interviews with leaders in major open
-  source projects.
+Resource information | Details 
+:--- | :--- 
+Podcast title  | Request for Commits 
+Presenters | Nadia Eghbal and Mikeal Rogers
+Web links | [Request for Commits Podcast](https://changelog.com/rfc)
 
-* [RCE Podcast](http://www.rce-cast.com/): A podcast that covers open source projects in HPC. It includes many interviews with
-  maintainers, researchers, and developers of popular HPC software
-  projects. It is run by Brock Palen (UMich) and Jeff Sqyres (Cisco).
+*[Request for Commits](https://changelog.com/rfc)* is a podcast about the human aspects of software development, focusing on software sustainability. It includes many interviews with leaders in major open source projects.
+
+Resource information | Details 
+:--- | :--- 
+Podcast title  | Name of the tutorial without hyperlink 
+Presenters | Brock Palen and Jeff Sqyres
+Web links | [RCE Podcast](http://www.rce-cast.com/)
+
+The *[RCE Podcast](http://www.rce-cast.com/)* is a podcast that covers open source projects in HPC. It includes many interviews with maintainers, researchers, and developers of popular HPC software projects. 
 
 ### Foundations and nonprofits that fund open source development
 Resource information | Details 
@@ -79,7 +87,6 @@ Website | [OpenHPC](https://openhpc.community)
 Focus | Collaboration
 
 [OpenHPC](https://openhpc.community) is a Linux Foundation Collaborative Project whose mission is to provide a reference collection of open-source HPC software components and best practices, lowering barriers to deployment, advancement, and use of modern HPC methods and tools.
-
 
 
 ### Grants
