@@ -74,7 +74,7 @@ Resource name | Name of website
 Website | Link to website (format : [website name](url))
 Focus | Custom focus area
 
-Many times, a curated article may mention many website (for ex: links to coding-tools). In that case, use the following format:
+Many times, a curated article may mention many websites (for ex: links to coding-tools). In that case, use the following format:
 
 Resource information | Details 
 :--- | :--- 
