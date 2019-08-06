@@ -46,6 +46,13 @@ Organization name | Name of Organization without hyperlink
 Website | Link to website (format: [url](url))
 Focus | Custom focus area 
 
+###### Podcast
+Resource information | Details 
+:--- | :--- 
+Podcast title  | Name of the tutorial without hyperlink 
+Presenters | Author names  (format: author name in format "firstname lastname" seperated by comma) OR  tutorial-hosting website website name (format: [website-name](website-url)]
+Web links | Links to podcast (format: [Name-of-podcast Podcast](url)) 
+
 ###### Publication
 Resource information | Details
 :--- | :--- 
@@ -88,6 +95,9 @@ Resource information | Details
 Article title  | Title of the article with hyperlink (format:  [title of article](url))
 Authors | Author names  (format: author name in format "firstname lastname" seperated by comma), with hyperlink if available (format: [author name](url))
 Focus | Custom focus area
+
+###### Notes on tables
+Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the article [A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md) in the curated content directory
 
 #### Body text
 1. Contains one or more paragraph about the resource.
