@@ -49,6 +49,7 @@ See:
 * [Software Carpentry](http://software-carpentry.org)
 * [Data Carpentry](http://data-carpentry.org)
 
+#### Publication date: April 29, 2019
 
 <!---
 Publish: yes
@@ -58,5 +59,4 @@ Topics: Software engineering
 Level: 2
 Prerequisites: defaults
 Aggregate: none
-Publication date: April 29, 2019
 --->
