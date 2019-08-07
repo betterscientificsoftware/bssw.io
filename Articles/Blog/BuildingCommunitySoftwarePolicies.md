@@ -89,7 +89,7 @@ policies' release, leading to an overall improved set of policies.
 The xSDK team welcomes any feedback, which can be provided at
 https://github.com/xsdk-project/xsdk-community-policies.
 
-### Author bios:
+### Author bios
 
 Ulrike Meier Yang leads the Mathematical Algorithms & Computing Group in the
 Center for Applied Scientific Computing of Lawrence Livermore National
