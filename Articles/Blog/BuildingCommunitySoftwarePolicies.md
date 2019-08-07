@@ -6,13 +6,9 @@
 
 **Hero Image:**
 
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_xSDK-packages.jpg"/>
+- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_xSDK.png"/>
 
-We discuss community policies for long-term development of a sustainable software ecosystem for scalable high-performance libraries and applications.
-
-It takes a whole community to build an ecosystem consisting of various
-independently developed software products that work well together. Providing a
-set of guidelines is an essential ingredient.
+We discuss community policies for long-term development of a sustainable software ecosystem for scalable high-performance libraries and applications. It takes a whole community to build an ecosystem consisting of various independently developed software products that work well together. Providing a set of guidelines is an essential ingredient.
 
 ### Building a software community
 
@@ -93,7 +89,7 @@ policies' release, leading to an overall improved set of policies.
 The xSDK team welcomes any feedback, which can be provided at
 https://github.com/xsdk-project/xsdk-community-policies.
 
-Autho bios:
+### Author bios:
 
 Ulrike Meier Yang leads the Mathematical Algorithms & Computing Group in the
 Center for Applied Scientific Computing of Lawrence Livermore National
