@@ -1,4 +1,4 @@
-# An Introduction to Software Sustainability Institute
+# An Introduction to the Software Sustainability Institute
 
 This short article introduces the *Software Sustainability Institute*, a UK-based national facility, with focus on building better software.
 
