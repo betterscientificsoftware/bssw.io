@@ -111,7 +111,8 @@ project that aims to improve access to world-class software on exascale
 machines.
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-08-12
 Categories: Collaboration
 Topics: projects and organizations
 Tags: bssw-blog-article
