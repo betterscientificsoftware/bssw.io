@@ -10,7 +10,7 @@ Scientific software has emerged as an essential discipline in its own right.   B
 <!---
 Slide1 Left: items/bssw-site-has-a-new-integrated-content-map
 Slide1 Right: items/python-for-hpc 
-Slide2 Left: events/call-for-papers-software-engineering-for-hpc-enabled-research-sc19-se-her-2019 
+Slide2 Left: blog_posts/when-not-to-write-automated-tests
 Slide2 Right: events/best-practices-for-hpc-software-developers-webinar-series 
 Slide3 Left: blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space
 Slide3 Right: images/raw/master/Blog_0719_Apollo3.png
