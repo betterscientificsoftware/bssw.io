@@ -65,7 +65,9 @@ each of the numbered steps in the description below.
    * Add GitHub issue `#<issue-id>` to PR comment (to link PR and Issue).
    * Assign the PR to the **Author**.
    * Manually add to *In Progress* on *Content Development* project board.
-   * Close the associated Issue and add comment that continued discussion will occur in the PR `#<pr-id>`.
+   * Close the associated Issue, add comment that continued discussion will occur in the 
+     PR `#<pr-id>`, and remove from the "Curated Content" board. (Unless a PR was created
+     from the start instead of an Issue, see below.)
    * PRs that are ready to be reviewed are  moved to *Item Review* and 1 reviewer
      is assigned.
 1. Pull Requests in *Item Review* are handled as follows.
@@ -93,6 +95,12 @@ of the above steps. Working from the
 and subsequently issues in columns further to the left.
 
 ## Notes
+
+###### If a PR is Added Instead of an Issue for a Suggeted Contribution
+If a contributor creates and posts a PR for a suggeted contribution instead of using an Issue
+as described above, then the PR will be treated as an Issue in the above process starting
+in the *Idea Backlog.  If the PR gets to the *In Progress* stage, then there is no issue
+to close so the same PR is just kept open and comments in that PR continue.
 
 ###### Light Weight Process for Authors
 It is important to keep in mind that we aim for a light-weight process here, particularly
