@@ -38,7 +38,8 @@ each of the numbered steps in the description below.
    * Merging to master any PRs that are known ready.
 1. New issues are reviewed and one of the following actions is taken:
    * The issue is rejected for one of a variety of reasons. The reason is
-     recorded in a comment and the issue is labeled as `wontdo` and closed.
+     recorded in a comment and the issue is labeled as `no interest`, is closed,
+     and remove from the "Curated Content" project board.
    * The issue is considered a candidate for further development and moved to
      *Topic Review*.
 1. Issues in *Topic Review* are handled as follows
