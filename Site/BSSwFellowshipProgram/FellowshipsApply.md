@@ -23,6 +23,7 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
 
 - What would you do as a BSSw Fellow? (1000 - 1500 characters).
 - What impact do you foresee from your efforts? (1000 - 1500 characters).
+- Which BSSw focus areas and subtopics apply to your proposed work? Specify all that apply.  See https://bssw.io for list of focus areas and subtopics (e.g. Focus Area:  Planning;  Subtopic: Requirements).
                 
 ### Q&A Webinar about the BSSw Fellowship Program
 
