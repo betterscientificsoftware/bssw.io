@@ -5,10 +5,11 @@ Please note that the word "Content" and "Resource" may be used interchangeably i
 
 ## Background
 
-The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). Also see information on [How to Contribute](HowToContribute.md).
+The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). Please also see information on [How to Contribute](HowToContribute.md).
 
-See details on [What to Contribute](WhatToContribute.md).  Please note that resources/content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
+To start with, see details on [What to Contribute](WhatToContribute.md).  Please note that resources/content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
 
+## Where to place your content in Github repo?
 Please place your new file in one of the following folders on the site, according to the type of content you are creating:
 
 **The below folder need to be clarified - since they do not match our content types. We may need a folder for howto, whatis etc etc**
@@ -19,7 +20,7 @@ Please place your new file in one of the following folders on the site, accordin
 
 Following are the guidelines below for naming resources/contents and their files.
 
-## Creating "Content Name" in Github repo
+## Naming your content in Github repo
 This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. Most points have been taken from the original [Styleguide.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/StyleGuide.md) file, present in the main betterscientificsoftware.github.io repo.
 
 For naming a content, please follow the below rules.
@@ -38,7 +39,7 @@ For naming a content, please follow the below rules.
         - etc.
      - Example filename: MyNewArticleTopic.md
      
-## Common Layout of the Resource
+## Common Layout of All Resources
 All resources have the following sections, in common:
 
 ### Content Deck
