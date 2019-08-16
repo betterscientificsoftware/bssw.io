@@ -1,7 +1,8 @@
 # A Proposed Alternative Editorial Workflow for BSSw.io Curated Content
 
 This description of workflow for content development of Curated Content ideas
-is based entirely on [earlier workflow document](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/80d90aef9b9df524a3397425a5a09e1d6f880b70/Site/CuratedContentEditorialWorkflow.md) which has since been deleted.
+is based entirely on [earlier workflow document](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/80d90aef9b9df524a3397425a5a09e1d6f880b70/Site/CuratedContentEditorialWorkflow.md)
+which has since been deleted.
 
 A key difference in this alternative workflow is that it explicitly requires
 **EB Members** to engage in specific activities on a routine basis, in particular
@@ -38,7 +39,8 @@ each of the numbered steps in the description below.
    * Merging to master any PRs that are known ready.
 1. New issues are reviewed and one of the following actions is taken:
    * The issue is rejected for one of a variety of reasons. The reason is
-     recorded in a comment and the issue is labeled as `wontdo` and closed.
+     recorded in a comment and the issue is labeled as `no interest`, is closed,
+     and removed from the "Curated Content" project board.
    * The issue is considered a candidate for further development and moved to
      *Topic Review*.
 1. Issues in *Topic Review* are handled as follows
@@ -50,7 +52,7 @@ each of the numbered steps in the description below.
    * Sufficient interest is considered to be a thumbs up count of two more than the thumbs down
      count.
    * Any more than 30 days old that have *not* garnered sufficient interest are labeled
-     as `no-interest` and closed.
+     as `no interest` and closed.
    * Any issues with sufficient interest are moved to *In Progress*. An **EB Member**
      which must be different than the actual **Author** is assigned. GitHub has recently
      made it possible to assign anyone who has commented on the issue, not just project
@@ -61,9 +63,15 @@ each of the numbered steps in the description below.
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
    * Issues that are woefully beyond deadline are labeled as `no-development` and closed.
-   * Issues for which a PR has been submitted are moved to *Item Review* and 1 reviewer
-     is assigned.
-1. Issues in *Item Review* are handled as follows
+   * **Author**s submit Pull Requests (PR) for completed work
+     * Add GitHub issue `#<issue-id>` to PR comment (to link PR and Issue).
+     * Manually add to *In Progress* on *Content Development* project board.
+     * Close the associated Issue, add comment that continued discussion will occur in the 
+       PR `#<pr-id>`, and remove from the "Curated Content" board. (Unless a PR was created
+       from the start instead of an Issue, see below.)
+     * PRs that are ready to be reviewed are  moved to *Item Review* and 1 reviewer
+       is assigned.
+1. Pull Requests in *Item Review* are handled as follows.
    * Unapproved PRs are reviewed on the spot and approved or not. If no approval is
      forthcoming, revisions required by author are explained in review comments in the
      PR (if they have not already py preceding review(s))
@@ -88,6 +96,12 @@ of the above steps. Working from the
 and subsequently issues in columns further to the left.
 
 ## Notes
+
+###### If a PR is Added Instead of an Issue for a Suggeted Contribution
+If a contributor creates and posts a PR for a suggeted contribution instead of using an Issue
+as described above, then the PR will be treated as an Issue in the above process starting
+in the *Idea Backlog.  If the PR gets to the *In Progress* stage, then there is no issue
+to close so the same PR is just kept open and comments in that PR continue.
 
 ###### Light Weight Process for Authors
 It is important to keep in mind that we aim for a light-weight process here, particularly
