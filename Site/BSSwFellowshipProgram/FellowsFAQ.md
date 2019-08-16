@@ -79,9 +79,9 @@ We recognize that many scientific software challenges will require sustained eff
 
 While we recognize that lots of important work takes place as collaborative partnerships, the BSSw Fellowship Program is limited to individual applicants. 
 
-### Does the proposal have to be involved with the Exascale Computing Project (ECP) or any kind of funded project?
+### Does the proposal have to be involved with the Exascale Computing Project (ECP) or any kind of DOE funded project?
 
-No, connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.
+No, existing connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.  BSSw Fellows will receive guidance to help fine tune their project plans to impact ECP efforts, including possible presentation opportunities or collaborations.  Applicants are encouraged to specify known venues and dates where the work may be presented (e.g. conferences, local communities, websites, etc.) in the description of impact in the proposal.
 
 ## Fellowship Requirements Questions
 
