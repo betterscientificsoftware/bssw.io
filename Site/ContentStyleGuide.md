@@ -7,15 +7,17 @@ Please note that the word "Content" and "Resource" may be used interchangeably i
 
 The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). Also see information on [How to Contribute](HowToContribute.md).
 
-See details on [What to Contribute](WhatToContribute.md).  Please place your new file in one of the following folders on the site, according to the type of content you are creating:
+See details on [What to Contribute](WhatToContribute.md).  Please note that resources/content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
 
-**The below types need to be clarified**
+Please place your new file in one of the following folders on the site, according to the type of content you are creating:
+
+**The below folder need to be clarified - since they do not match our content types. We may need a folder for howto, whatis etc etc**
 - Articles
 - Articles/Blog
 - CuratedContent
 - Events
 
-Following are the guidelines below for naming resources/contents and their files. Please note that resources/content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
+Following are the guidelines below for naming resources/contents and their files.
 
 ## Creating "Content Name" in Github repo
 This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. Most points have been taken from the original [Styleguide.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/StyleGuide.md) file, present in the main betterscientificsoftware.github.io repo.
@@ -164,6 +166,12 @@ Sometimes, logos may be present at the end. This is especially relevant for orga
 
 #### References
 What are rules for these?
+
+### Articles
+There is a style guide for blogs in the main bssw directory called "StyleGuideBlog.md". This needs to be reviewed, applicable parts need to be put in this document and refined further
+
+### Events
+Is there an existing style guide for events? I did not find any.
 
 
 ## Understanding Metadata
