@@ -56,7 +56,7 @@ We include metadata as formatted comments at the end of the file. Metadata helps
 
 
 ## Styling Rules for Individual Content Type
-Currently, this style guide only talks about curated content.
+Resources/content are of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
 
 ### Curated Content:
 Curated content follow the below style guide. There are several examples available in the repo for you to use as a starting point.
@@ -167,7 +167,7 @@ Sometimes, logos may be present at the end. This is especially relevant for orga
 #### References
 What are rules for these?
 
-### Articles
+### Original Article
 There is a style guide for blogs in the main bssw directory called "StyleGuideBlog.md". This needs to be reviewed, applicable parts need to be put in this document and refined further
 
 ### Events
