@@ -1,9 +1,21 @@
 # A Style Guide for BSSw content
 This is a work-in-progress style guide for all content that goes on the BSSw site. 
 
-Please note that the word "Content" and "Resource" may be used interchangeably in this document. 
+Please note that the word "Content" and "Resource" may be used interchangeably in this document.
 
-Content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
+## Background
+
+The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). Also see information on [How to Contribute](HowToContribute.md).
+
+See details on [What to Contribute](WhatToContribute.md).  Please place your new file in one of the following folders on the site, according to the type of content you are creating:
+
+**The below types need to be clarified**
+- Articles
+- Articles/Blog
+- CuratedContent
+- Events
+
+Following are the guidelines below for naming resources/contents and their files. Please note that resources/content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
 
 ## Creating "Content Name" in Github repo
 This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. Most points have been taken from the original [Styleguide.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/StyleGuide.md) file, present in the main betterscientificsoftware.github.io repo.
@@ -37,7 +49,7 @@ This is the main body, explaining the content from the perspective of the CSE co
 This is name of the contributor, usually at the end of the resource text, with a hyperlink (usually to a GitHub profile(s)) if available. For ex: Contributed by [Foo Foo](http://github.com/Foo "Foo Foo")
 
 ### Metadata
-We include metadata as formatted comments at the end of the file. Metadata helps define rules about publishing an article, tagging them, selecting categories etc. Please read the the section on Meta-data to get detailed insight on the different tags and their importance.
+We include metadata as formatted comments at the end of the file. Metadata helps define rules about publishing an article, tagging them, selecting categories etc. Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site. Please read the the section on Meta-data to get detailed insight on the different tags and their importance.
 
 
 
