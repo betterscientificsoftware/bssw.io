@@ -20,7 +20,7 @@ The equations:
 
 
 <!---
-Publish: Preview
+Publish: No
 Categories: collaboration
 Topics: discussion and question sites, projects and organizations
 Tags: bssw-blog-article
