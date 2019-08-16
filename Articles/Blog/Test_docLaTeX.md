@@ -9,7 +9,7 @@ Placeholder text for deck.
 
 Here are two equations paragraphs with equations.It is critical that expressions are written in dollar signs $$...$$, and that the following script be included: 
 
-  <script src="//tex.s2cms.ru/latex.js"></script>
+    <script src="//tex.s2cms.ru/latex.js"></script>
 
 The equations:
 
