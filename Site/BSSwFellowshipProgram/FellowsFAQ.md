@@ -5,7 +5,7 @@ More questions and answers will be added to this page over time; check back for 
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-The application deadine is Tuesday, October 15, 2019, before midnight, PDT.  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
+**The application deadine is Tuesday, October 15, 2019, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
 
 ### Is a particular format required for the proposal?
 
