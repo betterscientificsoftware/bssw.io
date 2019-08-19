@@ -81,13 +81,13 @@ While we recognize that lots of important work takes place as collaborative part
 
 ### Does the proposal have to be involved with the Exascale Computing Project (ECP) or any kind of DOE funded project?
 
-No, existing connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.  BSSw Fellows will receive guidance to help fine tune their project plans to impact ECP efforts, including possible presentation opportunities or collaborations.  Applicants are encouraged to specify known venues and dates where the work may be presented (e.g. conferences, local communities, websites, etc.) in the description of impact in the proposal.
+No, existing connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.  BSSw Fellows will receive guidance to help fine tune their project plans in order to impact sponsor priorities, including possible presentation opportunities or collaborations.  Applicants are encouraged to specify known venues and dates where the work may be presented (e.g., conferences, local communities, websites, etc.) in the description of impact in the proposal.
 
 ## Fellowship Requirements Questions
 
 ### What are the expectations for a BSSw Fellow?
 
-Aside from completing the proposed scope of work, BSSw Fellows are life-long members of the BSSw community, to be leaders and advocates for better scientific software and  BSSw.  Work performed during the period of performance should include the proper BSSw acknowledgement.  Fellows will be asked to contribute volunteer time, for activities such as BSSw Fellowship applicant reviews and helping to promote the fellowship within their network.
+Beyond completing the proposed scope of work, BSSw Fellows are life-long members of the BSSw community, serving as leaders and advocates for better scientific software.  Work performed during the period of performance should include the proper BSSw acknowledgement.  Fellows will be asked to contribute volunteer time for activities such as BSSw Fellowship applicant reviews and helping to promote the fellowship within their network.
 
 ### Do you expect fellows to attend events or meetings?
 
