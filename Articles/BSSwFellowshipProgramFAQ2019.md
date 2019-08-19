@@ -124,7 +124,7 @@ The goal of the BSSw organization is to foster a broad, international community 
 If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
 
 <!---
-Publish: yes
+Publish: no
 RSS update: 2018-09-04
 Categories: collaboration
 Topics: projects and organizations
