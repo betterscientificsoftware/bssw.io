@@ -5,15 +5,15 @@ More questions and answers will be added to this page over time; check back for 
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-The application deadine is Tuesday, October 15, 2019, before midnight, PDT.  This is a firm deadline that will not be extended. See [BSSw Application webpage](https://bssw.io/BSSwFellowshipProgram/FellowshipApply) for the complete timeline.
+The application deadine is Tuesday, October 15, 2019, before midnight, PDT.  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
 
 ### Is a particular format required for the proposal?
 
-Yes, please see the [BSSw Application webpage](https://bssw.io/BSSwFellowshipProgram/FellowshipApply) for details, including a link to the application form.  
+Yes, please see the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for details, including a link to the application form.  
 
-### What is the difference between the two Experience questions on the application form?
+### What is the difference between the two "Experience" questions on the application form?
 
-The first (*Describe your work relevant to scientific software*) is asking about your background in scientific software products, and what "hands-on" experience you have had that would make you a credible expert in some aspect of scientific software.
+The first (*Describe your work relevant to scientific software*) is asking about your background in scientific software products, and what "hands-on" experience you've had that would make you a credible expert in some aspect of scientific software.
 
 The second (*Describe your background and experience relevant to being a BSSw Fellow*) is asking about evidence that you could be an effective advocate for better scientific software, reaching out to others to convey what you know as an expert.
 
