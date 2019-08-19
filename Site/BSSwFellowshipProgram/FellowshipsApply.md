@@ -5,7 +5,7 @@ BSSw will begin accepting applications in September. BSSw Fellows receive recogn
 ### Timeline for 2020 BSSw Fellowship Program
 
 - **Tuesday, Sept 3, 2019**: Fellowship application process opens.
-- **Friday, Sept 20, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. If you missed the webinar, please see the [FAQ page](https://bssw.io/resources/bssw-fellowship-program-faq) for links to a recording, as well as the questions that have been raised (with answers, of course!)
+- **Friday, Sept 20, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. If you miss the webinar, please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post links to a recording, as well as the questions that have been raised (with answers, of course!)
 - **Tuesday, Oct 15, 2019**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **Jan 6, 2020 – March 31, 2021**: Period of performance for 2020 BSSw Fellows.
 - **Feb 3-7,2020**: Fellows announced at DOE ECP Annual Meeting in Houston, TX.
@@ -23,7 +23,7 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
 
 - What would you do as a BSSw Fellow? (1000 - 1500 characters).
 - What impact do you foresee from your efforts? (1000 - 1500 characters).
-- Which BSSw focus areas and subtopics apply to your proposed work? Specify all that apply.  See https://bssw.io for list of focus areas and subtopics (e.g. Focus Area:  Planning;  Subtopic: Requirements).
+- Which BSSw focus areas and subtopics apply to your proposed work? Specify all that apply. See https://bssw.io for a list of focus areas and subtopics (e.g., Focus Area: Planning; Subtopic: Requirements). 
                 
 ### Q&A Webinar about the BSSw Fellowship Program
 
