@@ -85,6 +85,10 @@ No, existing connections are not required to any funded projects.  We encourage 
 
 ## Fellowship Requirements Questions
 
+### What are the expectations for a BSSw Fellow?
+
+Aside from completing the proposed scope of work, BSSw Fellows are life-long members of the BSSw community, to be leaders and advocates for better scientific software and  BSSw.  Work performed during the period of performance should include the proper BSSw acknowledgement.  Fellows will be asked to contribute volunteer time, for activities such as BSSw Fellowship applicant reviews and helping to promote the fellowship within their network.
+
 ### Do you expect fellows to attend events or meetings?
 
 We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of February 3-7, 2020 in Houston, TX.
