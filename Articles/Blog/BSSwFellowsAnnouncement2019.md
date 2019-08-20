@@ -70,7 +70,7 @@ Research Software Engineer, Stanford Research Computing Center
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2019.  More information:
 
 - [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives)
-- [FAQ for the 2019 BSSw Fellowship Program](https://bssw.io/resources/bssw-fellowship-program-faq-2019) 
+- [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq) 
 
 Stay tuned for more from the 2019 BSSw Fellows. 
 
