@@ -43,7 +43,7 @@ slides and video for all presentations: https://www.olcf.ornl.gov/training-event
 #### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile") and [Osni Marques](https://github.com/oamarques "Osni Marques GitHub Profile")
 
 <!---
-Publish: yes
+Publish: no
 Categories: Reliability, Development, Performance
 Topics: testing, documentation, high-performance computing (hpc), performance at leadership computing facilities
 Tags: training, webinar, video
