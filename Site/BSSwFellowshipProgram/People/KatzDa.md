@@ -20,6 +20,8 @@ BSSw Fellow Daniel S. Katz developed principles for software citation to make sc
 
 Daniel is a Research Associate Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences at The University of Illinois at Urbana-Champaign and Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications.
 
+***Perspectives on the BSSw Fellowship Program:*** I applied to be a BSSw Fellow because I saw this as an opportunity to extend some of the work I had started in software citation to have a larger impact, by encouraging new communities to include software citation as part of their professional culture. While this work is a slow activity, I feel that the fellowship has allowed me to help these communities move farther than they otherwise would have. I've enjoyed the experience of understanding the projects of the other fellows and getting better insight into ECP. Based on what I've learned, I suggest that prospective fellows think about how to expand something they are already doing and increase the impact of their work, rather than proposing something completely new.
+
 ### Selected resources
 
 <a href="https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation" class="link-row">BSSw Blog Post: Promoting Software Citation</a>
