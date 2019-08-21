@@ -20,6 +20,8 @@ BSSw Fellow Andrew Lumsdaine has developed best practices for high-performance a
 
 Andrew is a Fellow at Pacific Northwest National Laboratory, affiliate professor of computer science at the University of Washington, and chief scientist at Northwest Institute for Advanced Computing. 
 
+***Perspectives on the BSSw Fellowship Program:*** I became interested in becoming a BSSw Fellow because I believe in the mission of BSSw.  Scientific software is an important tool for scientific discovery.  By enabling scientists to be more effective and efficient with this tool, we are also enabling them to do more and better science.  Being selected as a BSSw Fellow has been quite an honor and it has been an encouragement to develop educational materials with a specific focus on the unique needs of scientific software.  Being a BSSw Fellow has been an opportunity to be on "the ground floor" with this important effort, and I look forward to participating long into the future.  The impact you can make as a BSSw Fellow may be non-traditional, but it is nevertheless vitally important.
+
 ### Selected resources
 
 <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030" class="link-row">HPC Best Practices Webinar:  Modern C++ for High-Performance Computing</a>
