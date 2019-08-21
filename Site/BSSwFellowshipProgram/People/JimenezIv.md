@@ -20,6 +20,8 @@ BSSw Fellow Ivo Jimenez created Popper, a tool to automate computational experim
 
 Ivo is a Ph.D. student in computer science at the University of California, Santa Cruz. 
 
+***Perspectives on the BSSw Fellowship Program:*** Through the BSSw Fellowship Program, I have been able to reach a broad audience and to create connections with people who have significantly enriched my professional network, and with whom I would have not had the chance to interact otherwise.  
+
 ### Selected resources
 
 <a href="https://falsifiable.us/" class="link-row">Popper Website</a>
