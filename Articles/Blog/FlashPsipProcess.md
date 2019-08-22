@@ -1,4 +1,4 @@
-# A FLASH5 Refactoing and PSIP
+# A FLASH5 Refactoring and PSIP
 
 **Hero Image:**
 
