@@ -12,8 +12,8 @@ Much of modern HPC software is underpinned by Open Source - be that the [Linux K
 
 Daniel Oberhaus explores the problems in this model using the now infamous "Heartbleed Bug" tracing it's introduction into openSSL through to the final discovery and fix.
 Along the way he looks at the cost estimates for dealing with the bug ([~500Million](https://www.eweek.com/security/heartbleed-ssl-flaw-s-true-cost-will-take-time-to-tally)) and compares that to the development budget for openSSL at the time ([$2000/year](http://veridicalsystems.com/blog/of-money-responsibility-and-pride)).
-Much of the compensation for developers in Open Source work is non-monetary forcing much influence to be indirect.
-The author traces a series of actions organizations can take from directly tasking employees to work on projects to paying for support contracts, that can help assure the codes they use are robust and reliable without having the direct control typical of traditional development.
+Much of the compensation for developers in Open Source work is non-monetary forcing influence to be less direct.
+The author traces a series of actions organizations can take including directly tasking employees to work on projects, establishing grants, and paying for support contracts to help assure the codes they rely on are robust and reliable without having the costs or direct control typical of traditional development.
 
 #### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
 
