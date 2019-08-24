@@ -6,7 +6,7 @@
  
 #### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Jared O'Neal](https://github.com/jared321)
 
-#### Publication date: August XX, 2019
+#### Publication date: August 27, 2019
 
 During the lifecycle of any long-lived software, circumstances demand
 non-trivial changes from time to time. Such circumstances can arise in 
