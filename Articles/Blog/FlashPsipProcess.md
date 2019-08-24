@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_Dataviz.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_Dataviz.png' />[Simulation of a core-collapse supernova using the FLASH application.]
  
 #### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Jared O'Neal](https://github.com/jared321)
 
@@ -30,7 +30,7 @@ several components of the infrastructure are inadequate to meet the challenges
 posed by these platforms.  We started to restructure the code infrastructure two
 years ago by examining the scope and extent of changes that needed to occur in 
 the APIs of the code units to replace or modify the outdated infrastructural
-units. The code restructuring described in this article is being carried out under the AMReX Co-design Center, with the intent of enabling exascale simulations to be done under the Exastar Project. Both AMReX and Exastar are members of the Application Development focus area of the ECP project.
+units. The code restructuring described in this article is being carried out under the AMReX Co-design Center, with the intent of enabling exascale simulations to be done under the ExaStar project. Both AMReX and ExaStar are members of the Application Development focus area of the U.S. [Exascale Computing Project](https://exascaleproject.org).
 
 The primary objective of the refactoring was to modify the interfaces of the
 so-called Grid code unit so that, (1) looping over domain sections (blocks)
