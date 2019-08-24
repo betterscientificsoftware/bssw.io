@@ -30,7 +30,7 @@ several components of the infrastructure are inadequate to meet the challenges
 posed by these platforms.  We started to restructure the code infrastructure two
 years ago by examining the scope and extent of changes that needed to occur in 
 the APIs of the code units to replace or modify the outdated infrastructural
-units.
+units. The code restructuring described in this article is being carried out under the AMReX Co-design Center, with the intent of enabling exascale simulations to be done under the Exastar Project. Both AMReX and Exastar are members of the Application Development focus area of the ECP project.
 
 The primary objective of the refactoring was to modify the interfaces of the
 so-called Grid code unit so that, (1) looping over domain sections (blocks)
