@@ -18,7 +18,7 @@ their development processes to avoid duplication of closely related functionalit
 source code.
 
 It should be noted that in all but the most trivial of situations, the common practice of *cut-n-paste-n-adjust*
-programming, although possibly the most expedient, inevitably **creates** a re-factoring burden rather than solves one.
+programming, although possibly the most expedient, inevitably creates a re-factoring burden rather than solves one.
 Later on, another developer having to maintain such code will have to do the software engineering work to collapse all
 the cut-n-paste instances into a single implementation that can be re-used where necessary.
 
