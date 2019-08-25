@@ -48,7 +48,9 @@ While working on this effort, we were introduced to the [Productivity and Sustai
 
 ### Refactoring and testing
 <br>
+
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPTestingCard.png' class='page lightbox'/>[Figure 1. A PSIP progress tracking card that represents the incremental steps used to improve our verification process.]
+
 <br>
 
 The first improvement addressed the need to grow our test-suite and to improve techniques for documenting how the test-suite evolves in response to changes in the software.  This work has been retroactively represented by the PSIP Verification coverage and test-suite management [progress tracking card](https://github.com/betterscientificsoftware/PSIP-Tools/tree/master/PTCs) (PTC) shown in Figure 1 and was linked to the effort to refactor the mesh management component of FLASH to work with AMReX so that we could address perceived barriers to correctly and productively achieving this goal.  The need for this process improvement is best understood through explaining our plan of attack for the refactoring.
@@ -62,7 +64,9 @@ As this refactoring was large and complicated, we appreciated the incremental na
 
 ### Git workflow
 <br>
+
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPGitCard.png' class='page lightbox' />[Figure 2. A PSIP progress tracking card that represents the process of designing, implementing, and improving our git workflow.]
+
 <br>
 
 As we decided to transition the management of our code to git, the second improvement related to designing and evolving a test-driven git workflow so that we could improve the collaboration that occurs when team members integrate work developed in parallel through a revision control system.  Rather than adopt a full-featured and possibly excessive workflow, we started simple and added capabilities as needed.  This incremental process has been retroactively represented by the PSIP Git Workflow progress tracking card (PTC) shown in Figure 2.
