@@ -1,11 +1,11 @@
 # What is CSE Legacy Code?
 <!--deck start--->
-CSE Legacy code can involve several years or even decades of development and resources invested in it. Maintaining such legacy code comes with several engineering challenges and its imperative to know how to balance the critical goals associated with the code.
+CSE legacy code can involve several years or even decades of development and resources invested in it. Maintaining such legacy code comes with several engineering challenges and its imperative to know how to balance the critical goals associated with the code.
 <!--deck end--->
 
 <!--body start--->
 
-Successful computational engineering tools involve many person years of development. Nonetheless, software development costs alone represent only a portion of stakeholder's (developers, users, consumers and sponsors)
+Successful computational engineering tools involve many person years of development. Nonetheless, software development costs alone represent only a portion of stakeholders' (developers, users, consumers and sponsors)
 *total investment* in such tools. There are many ways in which stakeholders become *invested in* a computational
 engineering tool. These include
 
@@ -32,6 +32,9 @@ this demise, which could easily involve more than 30 years of development, the e
 time for suitable alternatives to develop and become adopted.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+#### Publication date: May 29, 2019
+
 <!--body end--->
 
 
