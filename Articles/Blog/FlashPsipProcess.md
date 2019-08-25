@@ -41,7 +41,7 @@ so that a block can be handed to an operator as soon as its dependencies are
 met. AMReX was adopted, as it supports hierarchical parallelism and asynchronous
 operations, which the old adaptive mesh refinement (AMR) library, Paramesh,
 simply does not.  The fine details of this refactoring effort have already been
-described elsewhere (O'Neal, Dubey, & Weide, 2018).
+described elsewhere (O'Neal, Dubey, & Weide, 2018)<sup>[1]</sup>.
 
 ### PSIP and FLASH
 While working on this effort, we were introduced to the [Productivity and Sustainability Improvement Planning](https://bssw.io/resources/planning-for-better-software-psip-tools) (PSIP) process, which is developed and promoted by the [IDEAS-ECP](https://ideas-productivity.org/) project.   PSIP is itself a work in progress that is becoming a useful methodology for improving productivity and software sustainability.  We now recognize that the fundamental philosophy of our process aligns well with that of PSIP – take stock of where the project is and make changes in small, well-planned, and manageable steps.  Due to this similarity, we are able to map retroactively our process for improving two development processes onto PSIP and discuss how we may have used PSIP to improve our productivity and the quality of our work.
@@ -73,8 +73,10 @@ As we decided to transition the management of our code to git, the second improv
 
 To date, the code in the git repository is a small subset of the production version of FLASH. Though this relatively simple workflow has worked well so far, we have already identified an area where we would like improvement, and where we can explicitly apply PSIP. This area is to smoke test changes made to the software in the repository with a continuous integration test server such as Travis CI. As more code components from the production version are transitioned to git, and more users and contributors switch to the git version, we will be faced with many more challenges and the need for process improvements. While our development philosophy has always mirrored PSIP, the formalization brought by PSIP makes the philosophy explicit to new team members and external contributors. We foresee many instances of PSIP being used before the new version of FLASH is ready for production.
  
+<!-- Replace using hyperlinked ref format
 #### Citations
 * Jared O'Neal, Anshu Dubey, & Klaus Weide. [Experience report: refactoring the mesh interface in FLASH, a multiphysics software](https://doi.org/10.1109/eScience.2018.00141). 2018 IEEE 14th International Conference on e-Science (e-Science). IEEE.
+-->
 
 ### Author bios
 Anshu Dubey is a Computer Scientist in Argonne National Laboratory’s Mathematics and Computer Science Division. She is the primary software architect for the FLASH code. She is interested in all aspects of scientific software development and has largely been responsible for the establishing FLASH's software process.
@@ -85,6 +87,14 @@ computational science applications with an eye on improving processes to ensure
 productivity while maintaining scientific rigor.  Jared has a background in
 physics and mathematics and had the pleasure to work as an instrumentation
 and systems engineer at the Paranal Observatory in the Atacama desert.
+
+<br>
+
+[1]: #ref1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
+
+References | &nbsp;
+:--- | :---
+<a name="ref1"></a>1 | [Jared O'Neal, Anshu Dubey, and Klaus Weide. Experience report: Refactoring the mesh interface in FLASH, a multiphysics software. 2018 IEEE 14th International Conference on e-Science ](https://doi.org/10.1109/eScience.2018.00141)
 
 <!---
 Publish: preview
