@@ -12,17 +12,18 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Software Management Plans in Research Projects
+## Next webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects
 
-### Date and Time: Wednesday, August 14, 2019, 12:00-1:00 pm ET [**Note: 1 hour earlier than the usual webinar time.**]
-### Presenter: Shoaib Sufi, Software Sustainabilty Institute, UK
-### Description:
-Software is a necessary by-product of research. Software in this context can range from small shell scripts to complex and layered software ecosystems. Dealing with software as a first class citizen at the time of grant formulation is aided by the development of a Software Management Plan (SMP). An SMP can help to formalize a set of structures and goals that ensure your software is accessible and reusable in the short, medium and long term. SMP’s aim at becoming for software what Data Management Plans (DMP’s) have become for research data (DMP’s are mandatory for National Science Foundation grants). This webinar takes you through the questions you should consider when developing a Software Management Plan, how to manage the implementation of the plan, and some of the current motivation driving discussion in this area of research management.
+### Date and Time: Wednesday, September 11 2019, 1:00-2:00 pm ET 
+### Presenter: Rene Gassmoeller, UC Davis
+### Description: 
+In recent years scientific software projects have increasingly incorporated state-of-the-art technical best practices like continuous integration into their development cycle. However, many projects still struggle to create and maintain an active and welcoming user/developer community, and there exists little documentation on what makes a scientific software community successful. In this webinar I will introduce my work — as a Better Scientific Software Fellow — to collect typical social challenges and potential solutions that arise during the evolution of a scientific software project. Aimed at current and prospective software maintainers and community leaders, I will discuss topics such as building and maintaining a welcoming community atmosphere, overcoming skepticism of sharing science and software, mediating between users working on conflicting topics or publications, and providing credit and growth opportunities for community members. Finally, I hope to initiate a conversation among project and community leaders about what makes communities successful so that we can learn from each other and improve scientific software development together.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar032
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033
 
 ## Past Webinars
+- [*Software Management Plans in Research Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar032), Shoaib Sufi (Software Sustainabilty Institute, UK), 2019-08-14
 - [*When 100 Flops/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software and Application in Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark C. Miller (LLNL), 2019-07-17
 - [*Modern C++ for High-Performance Computing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030), Andrew Lumsdaine (PNNL and University of Washington), 2019-06-12
 - [*So, You Want to Be Agile? Strategies for Introducing Agility into Your Scientific Software Project*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar029), Mike Heroux (SNL), 2019-05-08
