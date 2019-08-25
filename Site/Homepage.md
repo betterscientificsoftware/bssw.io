@@ -8,12 +8,12 @@ Scientific software has emerged as an essential discipline in its own right.   B
 --->
 
 <!---
-Slide1 Left: items/bssw-site-has-a-new-integrated-content-map
-Slide1 Right: items/python-for-hpc 
-Slide2 Left: blog_posts/when-not-to-write-automated-tests
-Slide2 Right: events/best-practices-for-hpc-software-developers-webinar-series 
-Slide3 Left: blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space
-Slide3 Right: images/raw/master/Blog_0719_Apollo3.png
+Slide1 Left: blog_posts/building-community-through-software-policies
+Slide1 Right: images/raw/master/Blog_0819_xSDK_blueV3_sm.png
+Slide2 Left: items/bssw-site-has-a-new-integrated-content-map
+Slide2 Right: items/python-for-hpc 
+Slide3 Left: blog_posts/when-not-to-write-automated-tests
+Slide3 Right: events/best-practices-for-hpc-software-developers-webinar-series 
 --->
 
 
