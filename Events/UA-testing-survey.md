@@ -25,7 +25,7 @@ Here is the link of the survey - <https://universityofalabama.az1.qualtrics.com/
 #### Publication date:  August 27, 2019
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2019-08-27
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
