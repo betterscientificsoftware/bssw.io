@@ -1,4 +1,4 @@
-# Survey: Testing Research Software
+# Testing Research Software Survey
 
 - Date: August 27, 2019 - September 30, 2019
 - Location: Global
