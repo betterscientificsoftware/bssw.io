@@ -6,7 +6,7 @@
  
 #### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Jared O'Neal](https://github.com/jared321)
 
-#### Publication date: August 27, 2019
+#### Publication date: August 28, 2019
 
 During the lifecycle of any long-lived software, circumstances demand
 non-trivial changes from time to time. Such circumstances can arise in 
@@ -99,7 +99,7 @@ References | &nbsp;
 <a name="ref1"></a>1 | [Jared O'Neal, Anshu Dubey, and Klaus Weide. Experience report: Refactoring the mesh interface in FLASH, a multiphysics software. 2018 IEEE 14th International Conference on e-Science ](https://doi.org/10.1109/eScience.2018.00141)
 
 <!---
-Publish: preview
+Publish: yes
 Categories: development, reliability
 Topics: refactoring, testing
 Tags: bssw-blog-article
