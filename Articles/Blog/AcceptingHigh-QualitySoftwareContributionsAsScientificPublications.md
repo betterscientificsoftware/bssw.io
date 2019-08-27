@@ -5,7 +5,7 @@
 #### Publication date: ??, 2019
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_1219_NewPeerReview.pdf"/>
+- <img src="https://github.com/hartwiganzt/betterscientificsoftware.github.io/blob/master/Articles/Blog/NewPeerReview.pdf"/>
 
 
 Like in any other research field, academically surviving in the High 
