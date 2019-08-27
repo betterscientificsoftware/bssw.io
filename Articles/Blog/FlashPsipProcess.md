@@ -6,7 +6,7 @@
  
 #### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Jared O'Neal](https://github.com/jared321)
 
-#### Publication date: August 28, 2019
+#### Publication date: August 27, 2019
 
 During the lifecycle of any long-lived software, circumstances demand
 non-trivial changes from time to time. Such circumstances can arise in 
@@ -33,10 +33,10 @@ the APIs of the code units to replace or modify the outdated infrastructural
 units. The code restructuring described in this article is being carried out under the AMReX Co-design Center, with the intent of enabling exascale simulations to be done under the ExaStar project. Both AMReX and ExaStar are members of the Application Development focus area of the U.S. [Exascale Computing Project](https://exascaleproject.org).
 
 The primary objective of the refactoring was to modify the interfaces of the
-so-called Grid code unit so that, (1) looping over domain sections (blocks)
-could be done using smart iterators, and (2) an alternative adaptive mesh
+so-called Grid code unit so that (1) looping over domain sections (blocks)
+could be done using smart iterators and (2) an alternative adaptive mesh
 refinement library, [AMReX](https://amrex-codes.github.io/amrex), could be used with the code. The smart iterators
-enable out of order execution of blocks, and therefore, asynchronization,
+enable out of order execution of blocks, and therefore asynchronization,
 so that a block can be handed to an operator as soon as its dependencies are
 met. AMReX was adopted, as it supports hierarchical parallelism and asynchronous
 operations, which the old adaptive mesh refinement (AMR) library, Paramesh,
@@ -48,7 +48,7 @@ While working on this effort, we were introduced to the [Productivity and Sustai
 
 ### Refactoring and testing
 
-The first improvement addressed the need to grow our test-suite and to improve techniques for documenting how the test-suite evolves in response to changes in the software.  This work has been retroactively represented by a PSIP [progress tracking card](https://github.com/betterscientificsoftware/PSIP-Tools/tree/master/PTCs) (PTC) for verification coverage and test-suite management, shown in Figure 1.  This work was linked to the effort to refactor the mesh management component of FLASH to work with AMReX so that we could address perceived barriers to correctly and productively achieving this goal.  The need for this process improvement is best understood through explaining our plan of attack for the refactoring.
+The first improvement addressed the need to grow our test-suite and to improve techniques for documenting how the test-suite evolves in response to changes in the software.  This work has been retroactively represented by a PSIP [progress tracking card](https://github.com/betterscientificsoftware/PSIP-Tools/tree/master/PTCs) (PTC) for verification coverage and test-suite management, shown in Figure 1.  This work was linked to the effort to refactor the mesh management component of FLASH to work with AMReX, so that we could address perceived barriers to correctly and productively achieving this goal.  The need for this process improvement is best understood through explaining our plan of attack for the refactoring.
 
 <br>
 
@@ -61,7 +61,7 @@ We therefore used test-driven development to design and implement integration-le
 
 In addition to these changes to the test-suite, we identified the need to improve our documentation of the setup of each execution environment used to run our test-suite.  For example, we decided to maintain a history of which third-party libraries were installed, when, and why.  Also, we would like to be able to trace the provenance of each baseline we establish for regression testing and needed to create a procedure for documenting how a baseline was verified both when created and when updated.
 
-As this refactoring was large and complicated, we appreciated the incremental nature of making improvements, which is in accord with the PSIP method.  For instance, as we were working on items 1 and 2, we could use the experience of writing more tests and adding these to the test-suite to try out potential protocols for documenting the history of changes to baselines.  However, we did not feel pressured to work on item 5 until the refactoring effort was close to finished and we had learned enough from these experiments.  While this approach meant that we might not record the full history of the test-suite, the process allowed us to manage carefully the amount of work we were undertaking at any point in time as well as the complexity of the work.
+As this refactoring was large and complicated, we appreciated the incremental nature of making improvements, which is in accord with the PSIP methodology.  For instance, as we were working on items 1 and 2, we could use the experience of writing more tests and adding these to the test-suite to try out potential protocols for documenting the history of changes to baselines.  However, we did not feel pressured to work on item 5 until the refactoring effort was nearly finished and we had learned enough from these experiments.  While this approach meant that we might not record the full history of the test-suite, the process allowed us to manage carefully the amount of work we were undertaking at any point in time as well as the complexity of the work.
 
 ### Git workflow
 
@@ -100,7 +100,7 @@ References | &nbsp;
 
 <!---
 Publish: yes
-RSS update: 2019-08-28
+RSS update: 2019-08-27
 Categories: development, reliability
 Topics: refactoring, testing
 Tags: bssw-blog-article
