@@ -169,7 +169,7 @@ Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing ensu
 
 <!---
 Publish: yes
-RSS update: 2019-02-11
+RSS Update: 2019-08-27
 Categories: reliability, development
 Topics: testing, design
 Tags: bssw-blog-article
