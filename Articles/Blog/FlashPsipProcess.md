@@ -100,6 +100,7 @@ References | &nbsp;
 
 <!---
 Publish: yes
+RSS update: 2019-08-28
 Categories: development, reliability
 Topics: refactoring, testing
 Tags: bssw-blog-article
