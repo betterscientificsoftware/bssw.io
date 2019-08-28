@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... A FLASH5 Refactoring and PSIP](../../Articles/Blog/FlashPsipProcess.md)
+- [New blog article ... FLASH5 Refactoring and PSIP](../../Articles/Blog/FlashPsipProcess.md)
 - Display dates: 08/27/2019 - 09/16/2019
 
 <!---
