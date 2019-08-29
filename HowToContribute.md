@@ -22,7 +22,7 @@ After undergoing review for content and formatting, resources in `.md` files wri
     - `whatis` - A What Is describes terms and concepts, especially useful as background for a How To.
     - `event` - A workshop, tutorial, conference, or other event with activities related to software productivity and sustainability.
   1. Assign issue to a milestone, if you want to commit to a deadline.
-  1. Create your contribution!
+  1. Your issue and suggested contribution will then be handled by the [BSSw Contibution Editorial Process](Site/CuratedContentEditorialWorkflow.md).
 
 ### Create Your Contribution
 
