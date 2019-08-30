@@ -18,6 +18,6 @@ Categories: development
 Topics: documentation
 Tags: documentation
 Level: 2
-Prerequisites: [import from subresources]
-Aggregate: base
+Prerequisites: default
+Aggregate: none
 --->
