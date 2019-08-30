@@ -15,8 +15,8 @@ Good documentation plays an important role during the software development life 
 <!---
 Publish: yes
 Categories: development
-Topics: [import from subresources]
-Tags: [import from subresources]
+Topics: documentation
+Tags: documentation
 Level: 2
 Prerequisites: [import from subresources]
 Aggregate: base
