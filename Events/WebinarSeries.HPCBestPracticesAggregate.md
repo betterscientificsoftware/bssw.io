@@ -62,9 +62,10 @@ https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033
 Below, are some webinars that have been referenced elsewhere on the Better Scientific Software site.
 
 **Subresources:**
+- [Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects](Events/DiscoveringAndAddressingSocialChallengesInTheEvolutionOfSciSwProjects.md)
 - [Developing, Configuring, Building, and Deploying HPC Software](../CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSw.md)
 - [Bringing Best Practices to a Long-Lived Production Code](../CuratedContent/Webinar.HPCBP014BestPractices.md)
---->
+
 
 <!---
 Publish: preview
