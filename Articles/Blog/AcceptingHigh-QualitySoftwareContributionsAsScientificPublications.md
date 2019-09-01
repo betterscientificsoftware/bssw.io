@@ -2,11 +2,9 @@
 
 #### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt)
 
-#### Publication date: ??, 2019
+#### Publication date: September XX, 2019
 
-**Hero Image:**
-<img src="https://github.com/hartwiganzt/betterscientificsoftware.github.io/blob/master/Articles/Blog/NewPeerReview.jpeg"/>
-
+To do: 1-sentence summary of the whole article goes here (instead of hero image) -- this will appear in large font at the start of the article.
 
 Like in any other research field, academically surviving in the High 
 Performance Computing (HPC) community generally requires to publish papers, in 
@@ -34,13 +32,13 @@ The side benefit is that the community can leverage the novel technology by
 accessing the sources and re-engineering the algorithms in already existing 
 software libraries or simulation codes.
 
-### The community software ecosystem
+### Community software ecosystems
 Unfortunately mostly disconnected from these efforts, 
-there exists a number of established open source software packages that are 
+there exist a number of established open source software packages that are 
 developed as collaborative community effort to provide domain 
 scientists with the technology and the tools to realize scientific simulations. 
-These software packages typically feature a high standard in terms of [software 
-quality and software sustainability](https://xsdk.info/), 
+These software packages typically feature high standards in terms of software 
+quality and software sustainability (e.g., https://xsdk.info), 
 and serve as the powertrain 
 behind many of the recent research achievements and operational simulation 
 codes. 
@@ -54,7 +52,7 @@ of documentation and code readability that would be preferred for software
 sustainability. 
 <br>
 
-In a summarizing field analysis, the community of high performance computing
+In a summarizing field analysis, the community of high-performance computing
 
 * responds to academic pressure by publishing an increasing number of 
 scientific papers (often containing novel algorithms and parallelization 
@@ -99,6 +97,8 @@ system by accepting such software contributions after an additional (independent
 as a full-value conference submission that is later included in the 
 post-conference proceedings. 
 <br>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview.jpeg' class='page lightbox'/>[Caption goes here. Someplace in the text: refer to this diagram.  Can relocate if needed.]
 
 Obviously, such a process requires defining minimum standards on what level of 
 innovation and novelty qualifies software development as a conference 
@@ -165,11 +165,10 @@ Anzt and Flegar: [<i>Are we doing the right thing? - A Critical Analysis of the 
 Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf), Proceedings in Applied Mathematics and Mechanics - 90th GAMM Annual Meeting - 2019.
 
 ### Author Bio
-[Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Research Consultant position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
+[Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Research Consultant position in the [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
 
 <!---
-Publish: yes
-RSS Update: 2019-08-27
+Publish: preview
 Categories: Collaboration
 Topics: Software publishing and citation
 Tags: bssw-blog-article
