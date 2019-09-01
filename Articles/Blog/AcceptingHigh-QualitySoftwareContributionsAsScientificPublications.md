@@ -7,8 +7,8 @@
 To do: 1-sentence summary of the whole article goes here (instead of hero image) -- this will appear in large font at the start of the article.
 
 Like in any other research field, academically surviving in the High 
-Performance Computing (HPC) community generally requires to publish papers, in 
-the bast case many of them and in high-ranked journals or at top-tier 
+Performance Computing (HPC) community generally requires publishing papers, in 
+the best case many of them and in high-ranked journals or at top-tier 
 conferences.
 As a result, the number of scientific papers published each year in this 
 (relatively small) community easily outnumbers what a single researcher can 
@@ -19,14 +19,14 @@ hardware-optimized implementations never make it beyond the prototype stage, as
 they are abandoned once they served the single purpose of yielding (another) 
 publication. In particular, they often fail to contribute to the 
 community's software ecosystem: the publications typically lack the level of 
-detail that allows to reproduce the technology, and, with prototype 
+detail that allows reproducing the technology, and, with prototype 
 realizations often remaining private, the readers are unable to track the code.
-In response to the situation, different publication formats now encourage (or 
+In response to this situation, different publication formats now encourage (or 
 even require) the release of source code and supporting data. These 
-[reproducibility efforts](https://www.acm.org/publications/policies/artifact-review-badging) 
-providing reviewers access to 
+reproducibility efforts (for example, [ACM badging](https://www.acm.org/publications/policies/artifact-review-badging))
+provide reviewers access to 
 the raw 
-material aim at increasing the replicability, traceability, and general 
+material aim at increasing replicability, traceability, and general 
 software quality.
 The side benefit is that the community can leverage the novel technology by 
 accessing the sources and re-engineering the algorithms in already existing 
@@ -35,17 +35,17 @@ software libraries or simulation codes.
 ### Community software ecosystems
 Unfortunately mostly disconnected from these efforts, 
 there exist a number of established open source software packages that are 
-developed as collaborative community effort to provide domain 
+developed as collaborative community efforts to provide domain 
 scientists with the technology and the tools to realize scientific simulations. 
 These software packages typically feature high standards in terms of software 
 quality and software sustainability (e.g., https://xsdk.info), 
 and serve as the powertrain 
-behind many of the recent research achievements and operational simulation 
+behind many research achievements and simulation 
 codes. 
-At the same time, the community software packages are dependent on 
+At the same time, community software packages are dependent on 
 high-quality contributions from software developers. And with
-scientists responding to the academic pressure on publishing scientific papers, 
-the software packages are often lacking the production-ready implementation of 
+scientists responding to the academic pressure to publish scientific papers, 
+the software packages often lack the production-ready implementation of 
 novel algorithms and hardware-specific efficient implementations. As a result, 
 software packages are inclined to also accept contributions that lack the level 
 of documentation and code readability that would be preferred for software 
@@ -69,7 +69,7 @@ efficiency analysis.
 <br>
 
 
-In a time and field where high-quality manpower is a scarce 
+In a time and field where a high-quality labor pool is a scarce 
 resource, this situation is extremely inefficient.
 <br>
 
@@ -98,7 +98,7 @@ as a full-value conference submission that is later included in the
 post-conference proceedings. 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview.jpeg' class='page lightbox'/>[Caption goes here. Someplace in the text: refer to this diagram.  Can relocate if needed.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview092019.jpg' class='page lightbox'/>[Caption goes here. Someplace in the text: refer to this diagram.  Can relocate if needed.]
 
 Obviously, such a process requires defining minimum standards on what level of 
 innovation and novelty qualifies software development as a conference 
