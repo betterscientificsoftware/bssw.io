@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [2020 BSSw Fellowships Applications Open ... Q&A Webinar on Sept 20](BSSwFellowshipProgram/FellowshipsOverview.md)
+- [2020 BSSw Fellowships Applications Open ... Q&A Webinar on Sept 20](../BSSwFellowshipProgram/FellowshipsOverview.md)
 - Display dates: 09/03/2019 - 09/16/2019
 
 <!---
