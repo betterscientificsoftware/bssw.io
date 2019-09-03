@@ -1,6 +1,6 @@
 # Apply for the BSSw Fellowship Program 
 
-BSSw will begin accepting applications in September. BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.
+BSSw is currently accepting applications for the 2020 BSSw Fellowship Program. BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  Submissions are accepted through the [online application form](https://forms.gle/WPDMsLLzbg7LQwcU9).
 
 ### Timeline for 2020 BSSw Fellowship Program
 
