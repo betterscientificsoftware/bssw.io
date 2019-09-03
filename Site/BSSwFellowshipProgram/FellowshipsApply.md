@@ -33,6 +33,6 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
 ### More information, including on-line application
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-- Online Application (Opens September 3, 2019)
+- [Online Application](https://forms.gle/WPDMsLLzbg7LQwcU9) (Submissions Open!)
 - Application deadline: Tuesday, October 15, 2019; this is a firm deadline that will not be extended.
 
