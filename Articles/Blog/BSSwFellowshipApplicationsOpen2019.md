@@ -25,7 +25,7 @@ The main goal of the BSSw Fellowship program is to foster and promote practices,
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
 - Application deadline: Tuesday, October 15, 2019; this is a firm deadline that will not be extended.
 
-#### Past BSSw Fellows are:
+#### Current and past BSSw Fellows are:
 
 - Navigating the social challenges in the evolution of scientific software projects (Rene Gassmoeller, 2019)
 - Improving the reliability of scientific software through analyzing and debugging floating-point software (Ignacio Laguna, 2019)
