@@ -1,4 +1,4 @@
-# Applications open for 2020 BSSw Fellowship Program ... Q&A webinar on Sept 20, 2019
+# Applications Open for 2020 BSSw Fellowship Program ... Q&A Webinar on Sept 20, 2019
 
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile") 
