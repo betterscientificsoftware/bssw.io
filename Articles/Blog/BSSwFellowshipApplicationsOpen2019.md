@@ -1,7 +1,7 @@
 # Applications open for 2020 BSSw Fellowship Program ... Q&A webinar on Sept 20, 2019
 
 
-#### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
+#### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile") 
 
 #### Publication date: September 4, 2019
 
@@ -31,6 +31,9 @@ The main goal of the BSSw Fellowship program is to foster and promote practices,
 - Improving the reliability of scientific software through analyzing and debugging floating-point software (Ignacio Laguna, 2019)
 - Improving code quality through modern peer code review (Jeff Carver, 2018)
 - And more!  [Check out how our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
+
+### Author bio
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading the Trinity Center of Excellence, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for [Trinity](https://www.lanl.gov/projects/trinity/index.php) and future architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
 
 <!---
 Publish: yes
