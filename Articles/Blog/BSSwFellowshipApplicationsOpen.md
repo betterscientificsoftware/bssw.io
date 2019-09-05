@@ -1,4 +1,4 @@
-# Applications open for new BSSw Fellowship Program ... Q&A webinar on Dec 12, 2017
+# Applications Open for New BSSw Fellowship Program ... Q&A Webinar on Dec 12, 2017
 
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 

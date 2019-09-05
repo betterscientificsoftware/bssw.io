@@ -1,4 +1,4 @@
-# Applications open for 2019 BSSw Fellowship Program ... Q&A webinar on Sept 21, 2018
+# Applications Open for 2019 BSSw Fellowship Program ... Q&A Webinar on Sept 21, 2018
 
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
