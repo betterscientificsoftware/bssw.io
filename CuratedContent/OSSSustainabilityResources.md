@@ -68,7 +68,7 @@ Organization name | NumFOCUS
 Website | [NumFOCUS](http://www.numfocus.org/)
 Focus | Sustainability
 
-*[NumFOCUS](http://www.numfocus.org/)* is A501 (c) nonprofit focussed on sustaining open source projects in data science.
+*[NumFOCUS](http://www.numfocus.org/)* is A501 (c) nonprofit focused on sustaining open source projects in data science.
 
 Resource information | Details 
 :--- | :--- 

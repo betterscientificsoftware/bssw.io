@@ -1,6 +1,6 @@
-# An Introduction to Software Testing Tutorial from TutorialsPoint
+# An Introduction to a Software Testing Tutorial from TutorialsPoint
 
-Softare testing is an imporant part of the software development life cycle. Do you understand the software testing processes and frameworks involved?
+Software testing is an imporant part of the software development lifecycle. Do you understand the software testing processes and frameworks involved?
 
 Resource information | Details 
 :--- | :--- 
@@ -12,11 +12,13 @@ Testing is the process of evaluating a system or its component(s) with the inten
 
 This tutorial is designed for software testing professionals who would like to understand the Testing Framework in detail along with its types, methods, and levels. This tutorial provides enough ingredients to start with the software testing process from where you can take yourself to higher levels of expertise.
 
-Before proceeding with this tutorial, you should have a basic understanding of the software development life cycle (SDLC). In addition, you should have a basic understanding of software programming using any programming language.
+Before proceeding with this tutorial, you should have a basic understanding of the software development lifecycle. In addition, you should have a basic understanding of software programming using any programming language.
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class_tutorialpoint_logo.png' class='logo' />
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
+
+#### Publication date: August 1, 2019
 
 <!---
 Publish: yes

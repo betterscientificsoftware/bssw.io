@@ -1,7 +1,7 @@
 ### What Are Funding Sources and Programs Addressing Better Scientific Software?
 
 <!--deck start--->
-The topic of *Better Scientific Software* focusses on how to improve software development and software sustainability, along with improving developer productivity - Are there funding sources and programs that attempt to address building better scientific software?
+The topic of *Better Scientific Software* focuses on how to improve software development and software sustainability, along with improving developer productivity. Are there funding sources and programs that attempt to address building better scientific software?
 <!--deck end--->
 
 <!--body start--->
@@ -13,7 +13,7 @@ Resources under this topic are pointers to funding agencies and programs that ar
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)
 
-#### Publication date: May 16, 2017
+#### Publication date: May 16, 2019
 <!--body end--->
 
 

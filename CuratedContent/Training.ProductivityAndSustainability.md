@@ -1,4 +1,4 @@
-#  Focussing on Training Resources for Software Productivity and Sustainability
+#  Focusing on Training Resources for Software Productivity and Sustainability
 
 How do we improve software sustainability and productivity? We focus on a variety of resources in the form of tutorials, webinars, and training sessions to help achieve these goals!
 

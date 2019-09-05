@@ -1,6 +1,6 @@
-# An Introduction to Association for Software Testing (AST)
+# An Introduction to the Association for Software Testing (AST)
 
-Different organizations exist which focus on different aspects of software and software life cycle. The *Association for Software Testing organization (AST)* is one such well-known organization.
+Various organizations focus on different aspects of software and the software lifecycle. The *Association for Software Testing organization (AST)* is one such well-known organization.
 
 Resource information | Details 
 :--- | :--- 

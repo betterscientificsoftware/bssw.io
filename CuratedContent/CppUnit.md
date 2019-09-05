@@ -1,6 +1,6 @@
 # Exploring CppUnit for Software Testing
 
-Unit testing is an important step in software development life cycle and several frameworks such as JUnit exist to help developers in this effort. CppUnit is a useful C++ port of the JUnit framework!
+Unit testing is an important step in the software development lifecycle; several frameworks such as JUnit exist to help developers in this effort. CppUnit is a useful C++ port of the JUnit framework!
 
 Resource information | Details 
 :--- | :--- 
