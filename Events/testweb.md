@@ -15,8 +15,6 @@ Focus | Social challenges
 
 This webinar is a part of the ["Best Practices for HPC Software Developers" webinar series](https://ideas-productivity.org/events/hpc-best-practices-webinars/). The webinars are free and open to the public, but advance registration is required. The archives will be available at webinar website in a couple of weeks after the event.
 
-
-
 In recent years scientific software projects have increasingly
 incorporated state-of-the-art technical best practices like continuous
 integration into their development cycle. However, many projects still
@@ -36,6 +34,8 @@ project and community leaders about what makes communities successful
 so that we can learn from each other and improve scientific software
 development together.</p>
 
+#### Presenter Bio
+Rene Gassmoeller is from UC Davis.
 
 ### More information and registration link:
 <https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>
