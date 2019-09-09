@@ -64,7 +64,7 @@ Determining how to do this is a community challenge. Some ideas include:
  
 —-
 
-Thanks to Katy Huff for helpful feedback on an earlier draft of this white paper.
+Thanks to Katy Huff for helpful feedback on a draft of the white paper upon which this blog post is based.
 
 
 ### Author bio
