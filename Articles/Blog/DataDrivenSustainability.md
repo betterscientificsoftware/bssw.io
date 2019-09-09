@@ -10,7 +10,7 @@ The hero image must be this dimension.  Put it in the images repo:  https://gith
 
 #### Publication date: September xx, 2019
 
-This blog post suggests a formula that can be used to describe software sustainability, and then proposes that projects that seek sustainaiblity use this formula when making decisions.
+This blog post suggests an expression that can be used to loosely quantify software sustainability, and then proposes that projects that seek sustainaiblity use this formula when making decisions.
 
 It's heavily based on a [a white paper for the 2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/WorkshopResources/WhitePapers/KatzDanielS_CW3S19_white_paper.pdf),
 which in turn is based on a [previous blog post](https://danielskatzblog.wordpress.com/2018/09/26/fundamentals-of-software-sustainability/),
@@ -20,7 +20,7 @@ and it is crossposted on the [BSSw](https://bssw.io/blog_posts) and [URSSI](http
 
 While it’s difficult to define or measure software sustainability as a future property of software, we can define it in hindsight as “the software has continued to exist, been supported, and been used over some period of time.” When this is the case, we can say that sufficient work was done to make this happen, which we can simplistically view as:
 
-resources ≥ needed work
+&nbsp;&nbsp;&nbsp;resources ≥ needed work
 
 Thinking about the future then, we can use the same “equation” but without completely knowing either the future resources or needs.  Given this uncertainty, we can focus on the things we can control, increasing the resources and/or decreasing the needs as much as possible. Given some experience with research software, we can often say whether we think we will have sufficient resources to meet the expected needs, recognizing that this is really a guess.
 
@@ -28,15 +28,15 @@ Thus, to increase the likelihood that any particular software package will be su
 
 ### Improving sustainability
 
-Resources are money and effort, and a software project can use money to purchase effort. There are a number of general sources of money, including public and private funding agencies, and institutional support, and Nadia Eghbal maintains a list of options. We, as a community, can also try to influence public and private funding agenciesto increase and sustain their funding of software projects.
+Resources are money and effort, and a software project can use money to purchase effort. There are a number of general sources of money, including public and private funding agencies, and institutional support, and Nadia Eghbal maintains a [list of options](https://github.com/nayafia/lemonade-stand). We, as a community, can also [try to influence public and private funding agencies to increase and sustain their funding of software projects](http://www.researchsoft.org/).
 
 In addition, effort can be provided by volunteers. Such volunteers can be motivated to contribute to software projects because of intrinsic and/or extrinsic motivation. Intrinsic motivation factors include self-fulfillment, altruism, satisfaction, accomplishment, pleasure of sharing, curiosity, and real contribution to science. Extrinsic motivation factors include job, rewards, recognition, influence, knowledge, relationships, and community membership.
 
-Some of these are specific to the software and the project, and the project can work to improve them. It can to build a community around the project, including having an identity via stickers, prizes, regular communications, etc. It can highlight how the software is used, and what discoveries it enables. It can create roles for contributors (AstroPy provides a great example) and ways that contributors can govern parts or all of the project.
+Some of these are specific to the software and the project, and the project can work to improve them. It can to build a community around the project, including having an identity via stickers, prizes, regular communications, etc. It can highlight how the software is used, and what discoveries it enables. It can create roles for contributors ([AstroPy](https://www.astropy.org/) provides a great example) and ways that contributors can govern parts or all of the project.
 
-Some of the motivation factors are related to the ecosystem, and we as a community can also work to improve them. For example, we can create jobs for research software developers, such as Research Software Engineers (RSE)positions. We can also measure the impact of software by using software citations. We can encourage hiring and promotion processes to take software work into account. We can create prizes for open source development, maintenance, and contributions. And we can build a general research software community that underpins and enables the community (e.g., via SSI, URSSI, BSSw).
+Some of the motivation factors are related to the ecosystem, and we as a community can also work to improve them. For example, we can create jobs for research software developers, such as [Research Software Engineers (RSE)](https://rse.ac.uk/) positions. We can also measure the impact of software by using [software citations](https://doi.org/10.7717/peerj-cs.86). We can encourage hiring and promotion processes to take software work into account. We can create prizes for open source development, maintenance, and contributions. And we can build a general research software community that underpins and enables the community (e.g., via [SSI](https://www.software.ac.uk/), [URSSI](http://urssi.us/), [BSSw](https://bssw.io/)).
 
-To decrease work, we can consider best practices – ways to improve the processes by which the work is performed. These processes can be studied by researchers interested in the intersection between software engineering and research software and communities, including those in the SE4ScienceandCSCW communities. Once we understand good and best practices, we can use them to provide guidance and training, which can be provided and disseminated through training-focuses communities such as the Carpentries, institutional groups such as at the German Aerospace Center (DLR), disciplinary groups such as ELIXIR, and more general research software communities such as SSI, URSSI, BSSw.
+To decrease work, we can consider best practices – ways to improve the processes by which the work is performed. These processes can be studied by researchers interested in the intersection between software engineering and research software and [communities](https://doi.org/10.1109/MCSE.2018.2883051), including those in the [SE4Science](https://se4science.org/) and [CSCW]() communities. Once we understand good and best practices, we can use them to provide guidance and training, which can be provided and disseminated through training-focuses communities such as [the Carpentries](https://www.carpentries.org/), institutional groups such as at the [German Aerospace Center (DLR)](https://rse.dlr.de/), disciplinary groups such as [ELIXIR](https://elixir-europe.org/platforms/tools), and more general research software communities such as [SSI](https://www.software.ac.uk/), [URSSI](http://urssi.us/), [BSSw](https://bssw.io/).
 
 ### Making project decisions to improve sustainability
 
@@ -50,7 +50,7 @@ Of course, these examples ignore the fact that research software, in many cases,
 
 In addition, we might think about target audiences not just based on the size of the potential user community, but also (or even primarily) on the size of the potential developer community. We might try to balance two future states – one where there are 500 users of our software, but only a couple of them are likely to contribute to future development and maintenance, and the other where there are 20 users, but all are likely to contribute to future development and maintenance.  The first case might lead to more funding, if we think a funding agency will be supportive based on the number of users, while the second might lead to a larger community of developers. Evaluating which case is more sustainable is difficult.
 
-And of course, how to measure any of these things is part of the difficulty. We first need to decide how to measure the health of a project today, perhaps by the CHAOSS metrics, or perhaps by other means, and then we need to understand how these measures might change in the future.
+And of course, how to measure any of these things is part of the difficulty. We first need to decide how to measure the health of a project today, perhaps by the [CHAOSS metrics](https://chaoss.community/), or perhaps by [other means](https://projects.iq.harvard.edu/osshealthindex), and then we need to understand how these measures might change in the future.
 
 ### Potential future research
 
@@ -69,11 +69,7 @@ Thanks to Katy Huff for helpful feedback on an earlier draft of this white paper
 
 ### Author bio
 
-- Guidance for author bio:
-- Length: 50-100 words (paragraph form), can include hyperlinks.  
-- Mention your current position, employer, a bit about your background. 
-- Include info about your interests related to software productivity and sustainability.
-- Anything else you want to mention.
+Daniel S. Katz is Assistant Director for [Scientific Software and Applications](http://ssa.ncsa.illinois.edu) at the [National Center for Supercomputing Applications (NCSA)](http://www.ncsa.illinois.edu), Research Associate Professor in Computer Science (CS), Research Associate Professor in Electrical and Computer Engineering (ECE), and Research Associate Professor in the School of Information Sciences (iSchool) at the University of Illinois Urbana-Champaign, and Guest Faculty at Argonne National Laboratory. Dan's interest is in the development and use of advanced cyberinfrastructure to solve challenging problems at multiple scales. His technical research interests are in applications, algorithms, fault tolerance, and programming in parallel and distributed computing, including HPC, Grid, Cloud, etc. He is also interested in policy issues, including citation and credit mechanisms and practices associated with software and data, organization and community practices for collaboration, and career paths for computing researchers.
 
 
 <!---
