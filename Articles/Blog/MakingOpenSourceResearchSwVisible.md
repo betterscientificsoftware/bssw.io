@@ -54,11 +54,11 @@ The challenge with maintaining research software is that there is more software 
 
 ### Acknowledgments
 
-The original idea behind this blog post was the result of a conversation with [Allison Randal](https://allisonrandal.com). Additional feedback was given by [Daniel S Katz](https://danielskatz.org). It was first presented as a white paper at the [2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/) before being revised and extended for this blog post, which is cross-posted on the [SSI](https://www.software.ac.uk), [BSSw](https://bssw.io), and [URSSI](http://urssi.us) sites.
+The original idea behind this blog post was the result of a conversation with [Allison Randal](https://allisonrandal.com). Additional feedback was given by [Daniel S Katz](https://danielskatz.org). It was first presented as a white paper at the [2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/) before being revised and extended for this blog post, which is cross-posted on the [SSI](https://www.software.ac.uk/), [BSSw](https://bssw.io), and [URSSI](http://urssi.us) sites.
 
 ### Author bio
 
-Neil Chue Hong is Director of the Software Sustainability Institute ([SSI](https://www.software.ac.uk)) and Senior Research Fellow at the [EPCC](https://www.epcc.ed.ac.uk), University of Edinburgh.
+[Neil Chue Hong](https://www.software.ac.uk/about/staff/person/neil-chue-hong) is Director of the Software Sustainability Institute ([SSI](https://www.software.ac.uk)) and a Senior Research Fellow at [EPCC](https://www.epcc.ed.ac.uk), University of Edinburgh.
 
 
 <!---
