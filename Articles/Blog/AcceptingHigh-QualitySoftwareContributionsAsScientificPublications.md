@@ -2,14 +2,11 @@
 
 #### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt)
 
-#### Publication date: September XX, 2019
+#### Publication date: October XX, 2019
 
-__
 As the traditional scientific peer review concept is hitting its capacity limits 
 and high-quality software contributions establish as powertrain behind for 
 the success of computational sciences, it is time to change academic publishing.
-__
-
 
 Like in any other research field, academically surviving in the High 
 Performance Computing (HPC) community generally requires publishing papers, in 
@@ -155,8 +152,7 @@ high performance implementation) we want to promote the idea of complementing
 the already-existing classical publication format with the software-based. 
 Concretely, we plan to initially allow for software-based conference 
 contributions in the submission process for the [Scalable Data Analytics in 
-Scientific Computing](https://sdascconf.github.io/) (SDASC) workshop in conjunction with ISC High Performance 
-2020. 
+Scientific Computing](https://sdascconf.github.io/) (SDASC) workshop, which we will propose in conjunction with [ISC High Performance 2020](https://www.isc-hpc.com/). 
 <br>
 
 We encourage everyone to contribute to the idea, by implementing a 
@@ -164,13 +160,26 @@ similar workflow or submitting a software development as contribution to SDASC
 2020.
 <br>
 
+
+<!-- Replace using hyperlinked ref format
 ### References
 Anzt and Flegar: [<i>Are we doing the right thing? - A Critical Analysis of the Academic HPC Community</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf), 20th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC 2019).
 
 Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf), Proceedings in Applied Mathematics and Mechanics - 90th GAMM Annual Meeting - 2019.
+-->
 
-### Author Bio
+### Author bio
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Research Consultant position in the [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
+
+<br>
+
+[1]: #ref1 "Are we doing the right thing? - A Critical Analysis of the Academic HPC Community"
+[2]: #ref2 "Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility"
+
+References | &nbsp;
+:--- | :---
+<a name="ref1"></a>1 | [Anzt and Flegar, Are we doing the right thing? - A Critical Analysis of the Academic HPC Community, 20th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC 2019) ](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf)
+<a name="ref2"></a>2 | [Anzt et al., Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility, Proceedings in Applied Mathematics and Mechanics - 90th GAMM Annual Meeting, 2019 ](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf)
 
 <!---
 Publish: preview
