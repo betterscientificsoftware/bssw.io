@@ -54,7 +54,7 @@ The challenge with maintaining research software is that there is more software 
 
 ### Acknowledgments
 
-The original idea behind this blog post was the result of a conversation with [Allison Randal](https://allisonrandal.com). Additional feedback was given by [Daniel S Katz](https://danielskatz.org). It was first presented as a white paper at the [2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/) before being revised and extended for this blog post, which is cross-posted on the [SSI](https://www.software.ac.uk/), [BSSw](https://bssw.io), and [URSSI](http://urssi.us) sites.
+The original idea behind this blog post was the result of a conversation with [Allison Randal](https://allisonrandal.com). Additional feedback was given by [Daniel S Katz](https://danielskatz.org). It was first presented as a white paper at the [2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/) before being revised and extended for this blog post, which is crossposted on the [SSI](https://www.software.ac.uk/), [BSSw](https://bssw.io), and [URSSI](http://urssi.us) sites.
 
 ### Author bio
 
@@ -63,8 +63,8 @@ The original idea behind this blog post was the result of a conversation with [A
 
 <!---
 Publish: preview
-Categories: Funding sources and programs, strategies for more effective teams
-Topics: testing
+Categories: Collaboration
+Topics: Funding sources and programs, strategies for more effective teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
