@@ -4,7 +4,12 @@
 
 #### Publication date: September XX, 2019
 
-To do: 1-sentence summary of the whole article goes here (instead of hero image) -- this will appear in large font at the start of the article.
+__
+As the traditional scientific peer review concept is hitting its capacity limits 
+and high-quality software contributions establish as powertrain behind for 
+the success of computational sciences, it is time to change academic publishing.
+__
+
 
 Like in any other research field, academically surviving in the High 
 Performance Computing (HPC) community generally requires publishing papers, in 
@@ -95,10 +100,10 @@ academic system to consider well-documented software contributions on
 their own as a scientific publication, we can trick the 
 system by accepting such software contributions after an additional (independent) review 
 as a full-value conference submission that is later included in the 
-post-conference proceedings. 
+post-conference proceedings, see Figure 1. 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview092019.jpg' class='page lightbox'/>[Caption goes here. Someplace in the text: refer to this diagram.  Can relocate if needed.]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview092019.jpg' class='page lightbox'/>[Figure 1. A community-based review concept for scientific publications based on high-qality software contributions.]
 
 Obviously, such a process requires defining minimum standards on what level of 
 innovation and novelty qualifies software development as a conference 
