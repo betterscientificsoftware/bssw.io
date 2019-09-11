@@ -48,7 +48,7 @@ And of course, how to measure any of these things is part of the difficulty. We 
 
 ### Potential future research
 
-Determining how to do this is a community challenge. Some ideas include:
+Determining how to address these issues is a community challenge. Some ideas include:
 
 * Gather any data tying such decisions in past projects to their impact, and use these to project the possible impact of future decisions in new projects
 * Run role-playing exercises with real developers and real users
