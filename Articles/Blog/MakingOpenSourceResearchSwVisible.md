@@ -14,7 +14,7 @@ First, let’s do a quick crash course on economics, in particular how goods are
 
 To see what this means in practice, consider the following table:
 
-Category | Excludable | Non-excludable
+&nbsp; | Excludable | Non-excludable
 :--- | :--- | :---
 Rivalrous  | Private goods (Food, clothing, cars, parking spaces) | Common pool resources (Fish-stocks, timber, coal)
 Non-rivalrous | Club goods (Cinemas, private parks, satellite television) | Public goods (Free-to-air television, air, national defense)
