@@ -25,3 +25,7 @@ But in another case, the two dash version didn't work either.  I never found an 
 ## The HTML comments used to delineate the article's metadata seem to be fine with three dashes
 
 It seems that some example for the metadata that we need in articles used a three-dash-comment, and it has been propagated virtually everywhere on the site.  Fortunately, it seems to work fine for the metadata, even though it is interpreted differently elsehwere.
+
+<!---
+Publish: No
+---!>
