@@ -1,8 +1,8 @@
-# Data-driven software sustainability
+# Data-driven Software Sustainability
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz's GitHub Profile")
 
-#### Publication date: September xx, 2019
+#### Publication date: September 18, 2019
 
 This blog post suggests an expression that can be used to loosely quantify software sustainability, and then proposes that projects that seek sustainaiblity use this formula when making decisions.
 
@@ -56,10 +56,9 @@ Determining how to address these issues is a community challenge. Some ideas inc
 * Gather data from successful and unsuccessful projects and tie anecdotes about these projects to their outcomes
 * Survey the leaders of successful projects to understand what choices they would make in a particular situation
  
-—-
+### Acknowledgement
 
 Thanks to Katy Huff for helpful feedback on a draft of the white paper upon which this blog post is based.
-
 
 ### Author bio
 
@@ -67,9 +66,9 @@ Daniel S. Katz is Assistant Director for [Scientific Software and Applications](
 
 
 <!---
-Publish: No
-Categories: sustainability
-Topics: testing
+Publish: preview
+Categories: Collaboration
+Topics: funding sources and programs, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
