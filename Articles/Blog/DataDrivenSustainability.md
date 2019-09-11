@@ -1,11 +1,5 @@
 # Data-driven software sustainability
 
-**Hero Image:**
-
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
- 
-The hero image must be this dimension.  Put it in the images repo:  https://github.com/betterscientificsoftware/images
-
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz's GitHub Profile")
 
 #### Publication date: September xx, 2019
