@@ -98,9 +98,14 @@ their own as a scientific publication, we can trick the
 system by accepting such software contributions after an additional (independent) review 
 as a full-value conference submission that is later included in the 
 post-conference proceedings, see Figure 1. 
+
+<br>
+
 <br>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview092019.jpg' class='page lightbox'/>[Figure 1. A community-based review concept for scientific publications based on high-qality software contributions.]
+
+<br>
 
 Obviously, such a process requires defining minimum standards on what level of 
 innovation and novelty qualifies software development as a conference 
