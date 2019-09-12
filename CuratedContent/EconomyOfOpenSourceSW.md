@@ -20,10 +20,11 @@ The author traces a series of actions organizations can take, including directly
 #### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-09-13
 Categories: planning, collaboration
 Topics: Software interoperability, Funding sources and programs
-Tags: Open Source Software, 
+Tags: Open Source Software
 Level: 2
 Prerequisites: defaults
 Aggregate: none
