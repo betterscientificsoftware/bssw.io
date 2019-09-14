@@ -39,7 +39,7 @@ Tools that support various aspects of scientific software development, such as e
 <!---Topic order: 7--->
 
 - **Refactoring**
-The process of improving internal attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
+The process of improving internal attributes of a software product (e.g., readability, maintainability, data structures for efficient performance) without modifying any of its existing external functionality.
 <!---Topic order: 8--->
 
 <!---
