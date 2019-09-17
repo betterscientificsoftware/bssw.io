@@ -24,6 +24,6 @@ adapted as needed (and applied to other scenarios). For example, over time we ha
 interacting with speakers earlier, and adjust timelines accordingly.
 
 The process described in the repository has been successful in delivering 26 webinars since June 2017, with an 
-averageof 79 participants per webinar.
+average of 79 participants per webinar.
 
 #### Contributed by [Osni Marques](http://github.com/oamarques)
