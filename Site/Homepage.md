@@ -9,7 +9,6 @@ Slide2 Left: blog_posts/flash5-refactoring-and-psip
 Slide2 Right: images/raw/master/Blog_0819_Dataviz.png
 Slide3 Left: blog_posts/building-community-through-software-policies
 Slide3 Right: images/raw/master/Blog_0819_xSDK_blueV3_sm.png
-Slide3 Left: items/bssw-site-has-a-new-integrated-content-map
 --->
 
 
