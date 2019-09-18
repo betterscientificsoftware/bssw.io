@@ -66,7 +66,8 @@ Daniel S. Katz is Assistant Director for [Scientific Software and Applications](
 
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-09-18
 Categories: Collaboration
 Topics: funding sources and programs, projects and organizations
 Tags: bssw-blog-article
