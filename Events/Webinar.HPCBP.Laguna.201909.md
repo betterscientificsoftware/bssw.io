@@ -1,6 +1,6 @@
 # Webinar: Tools and Techniques for Floating-Point Analysis
 
-- Date: 2019-10-16
+- Date: October 16, 2019
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034
 - Organizers: The IDEAS Productivity Project
@@ -10,7 +10,7 @@ This event is part of the "Best Practices for HPC Software Developers" webinar s
 Resource Informaton | Details
 :--- | :---			   
 Webinar Title | Tools and Techniques for Floating-Point Analysis
-Date and Time | 2019-10-16 01:00 pm EDT
+Date and Time | 2019-10-16, 01:00 pm EDT
 Presenter | Ignacio Laguna (Lawrence Livermore National Laboratory)
 Registration and Information | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034>	   
 
