@@ -1,11 +1,11 @@
 # Webinar: Tools and Techniques for Floating-Point Analysis
 
-- Date: 2019-09-16
+- Date: 2019-10-16
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034
 - Organizers: The IDEAS Productivity Project
 			   
-Part of the ["Best Practices for HPC Software Developers" webinar series](https://ideas-productivity.org/events/hpc-best-practices-webinars/)
+This event is part of the "Best Practices for HPC Software Developers" webinar series.
 
 Resource Informaton | Details
 :--- | :---			   
