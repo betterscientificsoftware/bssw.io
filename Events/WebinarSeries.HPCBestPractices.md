@@ -12,17 +12,19 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects
+## Next webinar: Tools and Techniques for Floating-Point Analysis
 
-### Date and Time: Wednesday, September 11, 2019, 1:00-2:00 pm ET 
-### Presenter: Rene Gassmoeller, UC Davis
+### Date and Time: Wednesday, October 16, 2019, 1:00-2:00 pm ET 
+### Presenter: Ignacio Laguna, Lawrence Livermore National Laboratory
 ### Description: 
-In recent years scientific software projects have increasingly incorporated state-of-the-art technical best practices like continuous integration into their development cycle. However, many projects still struggle to create and maintain an active and welcoming user/developer community, and there exists little documentation on what makes a scientific software community successful. In this webinar I will introduce my work — as a Better Scientific Software Fellow — to collect typical social challenges and potential solutions that arise during the evolution of a scientific software project. Aimed at current and prospective software maintainers and community leaders, I will discuss topics such as building and maintaining a welcoming community atmosphere, overcoming skepticism of sharing science and software, mediating between users working on conflicting topics or publications, and providing credit and growth opportunities for community members. Finally, I hope to initiate a conversation among project and community leaders about what makes communities successful so that we can learn from each other and improve scientific software development together.
+Scientific software is central to the practice of research computing. While software is widely used in many science and engineering disciplines to simulate real-world phenomena, developing accurate and reliable scientific software is notoriously difficult. One of the most serious difficulties comes from dealing with floating-point arithmetic to perform numerical computations. Round-off errors occur and accumulate at all levels of computation, while compiler optimizations and low-precision arithmetic can significantly affect the final computational results. With accelerators such as GPUs dominating high-performance computing systems, computational scientists are faced with even bigger challenges, given that ensuring numerical reproducibility in these systems poses a very difficult problem. This webinar provides highlights from a half-day tutorial discussing tools that are available today to analyze floating-point scientific software. We focus on tools that allow programmers to get insight about how different aspects of floating-point arithmetic affect their code and how to fix potential bugs.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034
+
 
 ## Past Webinars
+- [*Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033), Rene Gassmoeller (UC Davis), 2019-09-11
 - [*Software Management Plans in Research Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar032), Shoaib Sufi (Software Sustainabilty Institute, UK), 2019-08-14
 - [*When 100 Flops/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software and Application in Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark C. Miller (LLNL), 2019-07-17
 - [*Modern C++ for High-Performance Computing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030), Andrew Lumsdaine (PNNL and University of Washington), 2019-06-12
