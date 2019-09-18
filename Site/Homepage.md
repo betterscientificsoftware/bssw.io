@@ -2,13 +2,15 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
+
 <!---
-Slide1 Left: blog_posts/making-open-source-research-software-visible-a-path-to-better-sustainability
-Slide1 Right: events/testing-research-software-survey
+Slide1 Left: blog_posts/data-driven-software-sustainability
+Slide1 Right: blog_posts/making-open-source-research-software-visible-a-path-to-better-sustainability
 Slide2 Left: blog_posts/flash5-refactoring-and-psip
 Slide2 Right: images/raw/master/Blog_0819_Dataviz.png
 Slide3 Left: blog_posts/building-community-through-software-policies
 Slide3 Right: images/raw/master/Blog_0819_xSDK_blueV3_sm.png
+Slide3 Left: events/testing-research-software-survey
 --->
 
 
