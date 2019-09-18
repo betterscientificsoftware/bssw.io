@@ -6,11 +6,12 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 Left: blog_posts/data-driven-software-sustainability
 Slide1 Right: blog_posts/making-open-source-research-software-visible-a-path-to-better-sustainability
-Slide2 Left: blog_posts/flash5-refactoring-and-psip
-Slide2 Right: images/raw/master/Blog_0819_Dataviz.png
-Slide3 Left: blog_posts/building-community-through-software-policies
-Slide3 Right: images/raw/master/Blog_0819_xSDK_blueV3_sm.png
-Slide3 Left: events/testing-research-software-survey
+Slide2 Left: events/webinar-tools-and-techniques-for-floating-point-analysis
+Slide2 Right: events/testing-research-software-survey
+Slide3 Left: blog_posts/flash5-refactoring-and-psip
+Slide3 Right: images/raw/master/Blog_0819_Dataviz.png
+Slide4 Left: blog_posts/building-community-through-software-policies
+Slide4 Right: images/raw/master/Blog_0819_xSDK_blueV3_sm.png
 --->
 
 
