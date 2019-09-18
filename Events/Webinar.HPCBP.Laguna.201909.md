@@ -7,7 +7,7 @@
 			   
 This event is part of the "Best Practices for HPC Software Developers" webinar series.
 
-Resource Informaton | Details
+Resource Information | Details
 :--- | :---			   
 Webinar Title | Tools and Techniques for Floating-Point Analysis
 Date and Time | 2019-10-16, 01:00 pm EDT
