@@ -25,7 +25,7 @@ Registration and Information | 	<https://ideas-productivity.org/events/hpc-best-
 Archives will be available at this link a couple of weeks after the event.
 
 <!---
-Publish: no
+Publish: preview
 Categories: reliability
 Topics: debugging
 Level: 2
