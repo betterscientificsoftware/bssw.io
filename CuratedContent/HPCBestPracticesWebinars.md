@@ -12,8 +12,8 @@ Focus | Training, Outreach
 
 The [HPC Best Practices (HPC-BP) Webinars Series](https://ideas-productivity.org/events/hpc-best-practices-webinars)
 is a vehicle for disseminating information related to scientific software, and for addressing productivity challenges. The 
-series aims at delivering contents ranging from software refactoring and testing, potential impacts of advances in computer 
-architectures, to software performance and licensing. Apart from the selecion ot topics and speakers in a timely manner, 
+series aims at delivering contents ranging from software refactoring and testing, to potential impacts of advances in computer 
+architectures, and to software performance and licensing. Apart from the selecion ot topics and speakers in a timely manner, 
 it is important to follow a (rather large) number of steps to lead a webinar to completion.
 
 The [How to produce a webinar series](https://github.com/betterscientificsoftware/How-To-Produce-a-Webinar-Series)
