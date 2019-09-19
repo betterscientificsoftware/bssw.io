@@ -29,8 +29,6 @@ Edit this list to change resources that appear on the front-end site.
 
 * [Porting Codes to New Architectures](../../Articles/Blog/2018-11-messer-porting.md)
 
-* [What Is Performance Portability for CSE Applications?](../../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
-
 * [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
 
 <!---
