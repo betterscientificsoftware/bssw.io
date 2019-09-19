@@ -16,7 +16,7 @@ series aims at delivering contents ranging from software refactoring and testing
 architectures, and to software performance and licensing. Apart from the selecion ot topics and speakers in a timely manner, 
 it is important to follow a (rather large) number of steps to lead a webinar to completion.
 
-The [Webinar Process](https://github.com/betterscientificsoftware/Webinar-Process) (or How to produce a webinar series) 
+The [Webinar Process](https://github.com/betterscientificsoftware/Webinar-Process) (*How to Produce a Webinar Series*) 
 repository describes the process we follow for the HPC-BP Series. While the series works in concert with
 DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), the process can be refined and
 adapted as needed, as well as applied to other scenarios. For example, over time we found necessary to start 
