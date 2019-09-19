@@ -1,7 +1,6 @@
-# Putting The HPC Best Practices Webinar Series in Motion
+# Producing a Webinar Series: Webinar Process
 
-Do you want to know what it takes to put in place a series of webinars focusing on software development 
-methodologies, tools and experiences to improve developer productivity and software sustainability? 
+Do you want to know what it takes to put in place a series of webinars? 
 In this note we introduce the *machinery* behind the 
 [HPC Best Practices (HPC-BP) Webinars Series](https://ideas-productivity.org/events/hpc-best-practices-webinars).
 
