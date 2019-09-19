@@ -1,6 +1,6 @@
 # BSSw Fellowship FAQ
 
-More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io)
+More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
 
 ## Q & A Webinar, September 20, 2019
 [Slides](https://doi.org/10.6084/m9.figshare.9883013)
