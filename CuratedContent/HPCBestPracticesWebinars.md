@@ -7,7 +7,7 @@ In this note we introduce the *machinery* behind the
 Resource information | Details 
 :--- | :--- 
 Resource name | Producing a webinar series
-Website | [How to produce a webinar series](https://github.com/betterscientificsoftware/How-To-Produce-a-Webinar-Series)
+Website | [Process for producing a webinar](https://github.com/betterscientificsoftware/Webinar-Process)
 Focus | Training, Outreach
 
 The [HPC Best Practices (HPC-BP) Webinars Series](https://ideas-productivity.org/events/hpc-best-practices-webinars)
