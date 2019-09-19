@@ -4,7 +4,7 @@
 
 #### Publication date: September 18, 2019
 
-This blog post suggests an expression that can be used to loosely quantify software sustainability, and then proposes that projects that seek sustainaiblity use this formula when making decisions.
+This blog post suggests an expression that can be used to loosely quantify software sustainability, and then proposes that projects that seek sustainability use this formula when making decisions.
 
 It's heavily based on a [a white paper for the 2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/WorkshopResources/WhitePapers/KatzDanielS_CW3S19_white_paper.pdf),
 which in turn is based on a [previous blog post](https://danielskatzblog.wordpress.com/2018/09/26/fundamentals-of-software-sustainability/),
