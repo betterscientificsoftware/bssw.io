@@ -29,6 +29,17 @@ No, applications of current BSSw Fellows will not be considered for awards in fu
 
 Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, mentorship and community building opportunities.  Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw.  Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
 
+### How are the applications reviewed?  Is there an application review criteria?
+
+Applications are reviewed by a panel of diverse members of the CSE community across national laboratories, academia and industry.  Applications are reviewed using the following guiding criteria:
+
+* The proposed work is relevant to scientific software and can benefit the [DOE, ECP](https://bssw.io/communities/exascale-computing-community), and broader [HPC](https://bssw.io/pages/intro-to-hpc) and [CSE](https://bssw.io/pages/intro-to-cse) communities
+* The proposed work is well-scoped and likely to be accomplished. 
+* The proposed work has broad impact that spans beyond a single community/event and is sustainable beyond the fellowship period of performance.
+* The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
+* The proposer will be a long-term advocate for better scientific software beyond the fellowship period of performance.
+
+
 ## Funding Questions
 
 ### What is the amount of funding for 2020 BSSw Fellows?
