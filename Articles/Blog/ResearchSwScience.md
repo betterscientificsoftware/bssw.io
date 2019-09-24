@@ -2,7 +2,7 @@
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
-#### Publication date: September 18, 2019
+#### Publication date: September 25, 2019
 
 Development and use of research software are rich and dynamic pursuits, worthy of scientific study in their own right. Viewing the efforts as scientific problems opens the door to applying our skills as scientists to assist in making our software development and use even more effective.   
 
@@ -17,13 +17,10 @@ In this article, I propose that the scientific method—which is central to scie
 ### Science applied to research software
 
 As stated above, the primary objective of research software science as I am proposing it is to apply the scientific method to understanding the development and use of research software. This pursuit has strong technical, social, and cognitive components:
-
 #### Technical component: 
 The purpose of research software is modeling and simulation of scientific theories; the gathering, analysis, and understanding of scientific data; and related pursuits. These activities typically require years of education in the domain and ongoing community engagement in order to contribute to and keep abreast of new discoveries and approaches. For example, to develop and use computational fluid dynamics (CFD) research software, one must complete years of study in mathematics, physics, and engineering and then continue study of CFD and related fields even when developing and using software.
-
 #### Social component: 
 Development and use of scientific software are typically a team effort, increasingly involving more people and more diverse roles. Team interactions, workflows, and tools play a large part in the effectiveness of a research software team. While many people have realized the importance of the technical component of research software development and use, fewer people have focused on the social elements, and even fewer have applied a scientific approach to studying and improving research software team interactions.
-
 #### Cognitive component: 
 Improving our approaches to developing and using research software typically requires learning. In my experience, scientists tend to enjoy solving problems. Framing change as a problem or puzzle to be solved can be effective in engaging scientists. Posing improvement goals in a descriptive way, more than a prescriptive, enables scientists to be part of the creative process. More generally, leveraging knowledge from cognitive sciences improves our ability to understand how developers and users of research software approach their work and interact with each other. 
 
