@@ -1,8 +1,8 @@
 # BSSw Announcements
 
 Announcement:
-- [Applications open for the 2020 BSSw Fellowship Program ... Q&A webinar on Sept 20, 2019](../../Articles/Blog/BSSwFellowshipApplicationsOpen2019.md)
-- Display dates: 09/03/2019 - 09/21/2019
+- [See updated FAQ for 2020 BSSw Fellowship Program ... Submission deadline October 15, 2019](../BSSwFellowshipProgram/FellowsFAQ.md)
+- Display dates: 09/24/2019 - 10/15/2019
 
 <!---
 - [New blog article ... FLASH5 Refactoring and PSIP](../../Articles/Blog/FlashPsipProcess.md)
