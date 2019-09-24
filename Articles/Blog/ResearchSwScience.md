@@ -65,7 +65,7 @@ The original idea behind this blog post was first presented as a white paper at 
 <!---
 Publish: preview
 Categories: Collaboration
-Topics: projects and organizations
+Topics: projects and organizations, strategies for more effective teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
