@@ -29,7 +29,7 @@ No, applications of current BSSw Fellows will not be considered for awards in fu
 
 Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, mentorship and community building opportunities.  Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw.  Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
 
-### How are the applications reviewed?  Is there an application review criteria?
+### How are the applications reviewed?  What are application review criteria?
 
 Applications are reviewed by a panel of diverse members of the CSE community across national laboratories, academia and industry.  Applications are reviewed using the following guiding criteria:
 
