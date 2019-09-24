@@ -46,9 +46,17 @@ Applications are reviewed by a panel of diverse members of the CSE community acr
 
 Each 2020 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 
-### Do you require a budget plan to be submitted as part of the application? If so, how detailed does it have to be?
+### How are the funds awarded?  Are there any restrictions on how the fellowship funds can be used?
 
-Brief budget information can be provided as part of the proposed work section of the application.  We will follow up later about more specific details.
+The Fellowship award will be in the form of a subcontract from Oak Ridge National Laboratory to the winner’s institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  But for planning purposes, we provide the following guidance.
+
+Most institutions have well-established rules for what constitute “allowable” expenses on research grants or contracts.  Generally, these must be followed.  (There are a few cases where ORNL and Dept. of Energy rules trump local rules.) The categories of expenses on the budget form include: personnel, travel, equipment (over $5k), supplies (under $5k), and contracting.
+* The Fellowship is limited to individual applicants, not a team.  The inclusion of other personnel or contracts to others are generally discouraged.  Modest amounts budgeted for support services, such as technical editing or graphical design, may make sense in some cases.
+* Travel must be well justified in relation to the proposed work.
+* _Special rules apply to international travel_, including multiple approval processes that require significant lead time.  Approval of international travel by our sponsors is not guaranteed.
+*	The purchase of computer equipment or other durable equipment is strongly discouraged.
+*	If you’re organizing a workshop or similar event, participant costs (e.g., travel, lodging, per diem) and venue costs (e.g., meeting room rental, AV services) would be allowable.  Food costs would be allowable with limitations.
+
 
 ### Are there any restrictions on how the funding is used? Can it be used for travel?
 
@@ -57,6 +65,9 @@ Funding can be used to support effort in developing and delivering content, incl
 ### My institution’s project office inquired about indirect/overhead costs for BSSw Fellowship recipients.  Are indirect/overhead costs allowed and should these be mentioned in the budget?
  
 In addition to direct support for proposed work up to $25,000, the BSSw Fellowship covers usual and customary institutional indirect/overhead costs. Do not include your institution’s indirect/overhead costs in the brief budget information that is submitted in the proposed work section of the application. 
+
+<!--- ### Do you require a budget plan to be submitted as part of the application? If so, how detailed does it have to be?
+#Brief budget information can be provided as part of the proposed work section of the application.  We will follow up later about more specific details. Commented out since it now covered in a larger question about funding. --->
 
 ## Proposal Topics
 
