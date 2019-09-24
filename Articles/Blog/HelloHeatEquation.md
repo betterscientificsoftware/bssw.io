@@ -66,10 +66,10 @@ build, accommodating a common set of command-line arguments, producing ascii
 text files for results output and providing time and space performance data via 
 tools such as [PAPI](https://icl.utk.edu/papi/) or [Caliper](https://software.llnl.gov/Caliper/).
 
-Our goal in collecting these examples isn't so much to demonstrate the use of
+Our goal in collecting such examples isn't so much to demonstrate the use of
 different programming languages as it is to demonstrate different approaches
-to computation and execution paradigms as well as provide utility in the
-comparison of time and space performance of the approaches.
+to computation and execution paradigms as well as provide instructive insights
+by comparing of time, space and scaling performance of various approaches.
 
 ## Conclusion
 The Heat Equation is well known and has many practical applications even in
