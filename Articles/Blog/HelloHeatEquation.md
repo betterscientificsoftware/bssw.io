@@ -1,4 +1,8 @@
-# You had me at Hello CSE World
+# That time CSE had me at Hello World
+
+**Hero Image:**
+
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/hello_world_sun_heat.png'/>
 
 #### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile") and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
 
@@ -31,14 +35,15 @@ To make the equation even more approachable, we make some simplifying assumption
 * Only Cartesian coordinates in 1 dimension are used
 
 ## Why this form of the Heat Equation?
-Even in this relatively simple form, interesting and meaningful science
-questions may be investigated involving both transient and steady-state
-behavior. Examples are determining if water pipes embedded in log cabin
-(solid wood) walls would freeze during a cold storm or the required
-thickness of insulation around fuel pipeline to avoid combustion from a
-fast burning brush fire. These and many other questions involving heat
-flow can be investigated with this relatively simply form of the heat
-equation.
+While the one dimensional heat equation might not be sufficient to
+model solar heating of the Earth, even in this relatively simple form,
+interesting and meaningful science questions may be investigated involving
+both transient and steady-state behavior. Examples are determining if water
+pipes embedded in log cabin (solid wood) walls would freeze during a cold
+storm or the required thickness of insulation around fuel pipeline to avoid
+combustion from a fast burning brush fire. These and many other questions
+involving heat flow can be investigated with this relatively simply form of
+the heat equation.
 
 Solutions to the one dimensional heat equation are also very easy for
 beginners to visualize. This can help them understand how different
@@ -55,11 +60,11 @@ about fundamental aspects of the design and development of CSE software as
 well as provide examples of continuous integration testing including
 demonstrating the use of ECP-CI resources.
 
-Each implementation we gather into this repository will be have to conform
+Each implementation we gather into this repository will have to conform
 to a *minimal* set of requirements including providing a fully self-contained
 build, accommodating a common set of command-line arguments, producing ascii
 text files for results output and providing time and space performance data via 
-tools such as PAPI and Caliper.
+tools such as [PAPI](https://icl.utk.edu/papi/) or [Caliper](https://software.llnl.gov/Caliper/).
 
 Our goal in collecting these examples isn't so much to demonstrate the use of
 different programming languages as it is to demonstrate different approaches
@@ -80,6 +85,10 @@ To get involved, please contact one of the authors.
 Heather M. Switzer is working as a computing summer intern at Lawrence Livermore National Laboratory. She graduated with her B.S. in Mathematics and Computer Science from Longwood University in 2018 and is currently a 2nd-year M.S./Ph.D. student in Computer Science with a specialization in Computational Science at the College of William & Mary.
 
 Elsa Gonsiorowski is an HPC I/O Specialist at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
+
+Mark C. Miller is a computer scientist at Lawrence Livermore National Laboratory supporting
+[VisIt](https:/visit.llnl.gov), [Silo](https://silo.llnl.gov) and other visualization and
+data infrastructure for LLNL simulation codes.
 
 <!---
 Publish: Yes
