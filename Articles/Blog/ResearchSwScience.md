@@ -63,7 +63,8 @@ The original idea behind this blog post was first presented as a white paper at 
 
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-09-25
 Categories: Collaboration
 Topics: projects and organizations, strategies for more effective teams
 Tags: bssw-blog-article
