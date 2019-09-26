@@ -303,7 +303,8 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 ### Contributed by [The IDEAS Productivity Project](https://github.com/ideas-productivity "The IDEAS Productivity Project")
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-09-26
 Categories: skills
 Topics: online learning
 Level: 2
