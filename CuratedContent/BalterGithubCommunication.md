@@ -8,7 +8,7 @@ Resource name  | 15 rules for communicating at GitHub
 Website  | https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/
 Focus | Communication in GitHub issues and PRs
 
-From his fifteen rules, here are three that stand out to:
+From his fifteen rules, here are three that stand out:
 
   * Be flexible with tickets. Many of us think of tickets as fully completed thoughts that require time
     and money to resolve. However, a ticket can be a question, a suggestion, an early idea that flowers
