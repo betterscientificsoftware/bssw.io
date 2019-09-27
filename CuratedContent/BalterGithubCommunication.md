@@ -23,8 +23,8 @@ From his fifteen rules, here are three that stand out:
     time to back them up. Otherwise, your comments can sidetrack or stall the conversation.
     As Balter says, “Avoid drive-by opinions.”
 
-Finally, communication policies matter only if the team is dedicated to following them.
-There are many ways to break every one of Balter’s 15 rules. For example, you can enforce PR reviews by locking
+Finally, its worth reiterating that communication policies matter only if the team is dedicated to following them.
+There are many ways to break every one of Balter’s fifteen rules. For example, you can enforce PR reviews by locking
 the merge button without approval. But, this matters only if the team is dedicated to actually reviewing
 PRs instead of blindly approving (say, because of a lack of time) them. For communication policies to effect
 positive change, the team must understand the context of the rule—why it is needed or useful—and must agree to practice it.
