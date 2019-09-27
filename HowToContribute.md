@@ -59,5 +59,5 @@ See the [BSSw Style Guide](StyleGuide.md) for guidance on naming conventions, de
 
 
 <!---
-Publish: No
+Publish: Yes  
 ---!>
