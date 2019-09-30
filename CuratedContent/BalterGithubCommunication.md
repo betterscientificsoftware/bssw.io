@@ -15,19 +15,19 @@ From his fifteen rules, here are three that stand out:
     into a great new feature, etc. A ticket is just the start of a conversation, and software teams can
     improve by cultivating an environment that promotes communication via tickets.
   * Asynchronous communication means that *everyone* can get involved in the conversation. Instead of
-    engaging a single @employee, you can engage the entire team on a distributed and easy-to-track
+    engaging a single @employee, you can engage the entire @team on a distributed and easy-to-track
     platform (such as GitHub issues). This opens up the conversation to whoever on the team is willing
     to get involved. This leads to another point:
   * Contribute to a discussion only if you have the time to give the communication the thought it deserves.
-    That is, put your time (money) where your mouth is. If you have thoughts on an issue, make sure you have the
+    That is, put your money (time) where your mouth is. If you have thoughts on an issue, make sure you have the
     time to back them up. Otherwise, your comments can sidetrack or stall the conversation.
     As Balter says, “Avoid drive-by opinions.”
 
 Finally, its worth reiterating that communication policies matter only if the team is dedicated to following them.
 There are many ways to break every one of Balter’s fifteen rules. For example, you can enforce PR reviews by locking
 the merge button without approval. But, this matters only if the team is dedicated to actually reviewing
-PRs instead of blindly approving (say, because of a lack of time) them. For communication policies to effect
+PRs instead of blindly approving them (say, because of lack of time). For communication policies to effect
 positive change, the team must understand the context of the rule—why it is needed or useful—and must agree to practice it.
-Then, Balter's strategies can provide a great boost in the pursuit of Better Scientific Software.
+A team that can come together on a set of communication strategies can experience a significant boost in the pursuit of Better Scientific Software.
 
 #### Contributed by [Eddie Rusu](http://github.com/rusu24edward)
