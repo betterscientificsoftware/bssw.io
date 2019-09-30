@@ -99,9 +99,11 @@ The BSSw Fellowship program is not about supporting new research, but rather abo
 
 ### The topic I want to pursue has been the subject of a recent BSSw Fellowship project by someone else. Should I apply?
  
-The BSSw Fellowship program seeks to grow a broad community to help tackle many challenges in scientific software productivity and sustainability.  In that spirit, we expect that applications that enhance topical diversity will be more competitive. For topics covered by recent BSSw Fellowships, we encourage applications to consider different approaches to the challenges.
- 
-We recognize that many scientific software challenges will require sustained effort to impact.  But the goal of the BSSw Fellowship program is to mobilize the community on a variety of fronts related to software productivity and sustainability.
+The BSSw Fellowship program seeks to grow a broad community to help tackle many challenges in scientific software productivity and sustainability.  We recognize that many scientific software challenges will require sustained effort to impact.  But the goal of the BSSw Fellowship program is to mobilize the community on a variety of fronts related to software productivity and sustainability.
+
+In that spirit, we expect that applications that enhance topical diversity will be more competitive. 
+
+For topics covered by recent BSSw Fellowships, we encourage applications to consider different approaches to the challenges.  Applicants are encouraged to clearly identify how their proposed project is different from past projects.  For example, new projects can differentiate in content, target audience and impact plan, etc.
 
 ###  Is co-authorship allowed for applications to the BSSw Fellowship Program or do you expect proposals to have solitary authors?
 
