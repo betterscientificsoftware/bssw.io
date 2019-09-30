@@ -3,6 +3,7 @@
 - Dates: November 17, 2019 - November 22, 2019
 - Location: Denver, CO
 - Event Website: https://sc19.supercomputing.org/
+- Organizers: [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile") and [Sandra Gessing](https://github.com/sandragesing "Sandra Gessing GitHub Profile")
 
 The Supercomputing conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
 
@@ -29,6 +30,7 @@ Thursday<br>12:15pm-1:15pm | BoF | [Quality Assurance and Coding Standards for P
 Thursday<br>3:30pm-5:00pm | Panel | [Sustainability of HPC Research Computing: Fostering Career Paths for Facilitators, Research Software Engineers, and Gateway Creators](https://sc19.supercomputing.org/presentation/?id=pan109&sess=sess227)
 Friday<br>10:30am-12:00pm | Panel | [The Road to Exascale and Beyond is Paved by Software: How Algorithms, Libraries and Tools Will Make Exascale Performance Real](https://sc19.supercomputing.org/presentation/?id=pan117&sess=sess232)
 
+<!--- Note that the Contributed by tag is ignored for events.  Use Organizers in the list structure immediately following the title ---> 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile") and [Sandra Gessing](https://github.com/sandragesing "Sandra Gessing GitHub Profile")
 
 <!---
