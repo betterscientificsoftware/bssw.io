@@ -54,22 +54,28 @@ mathematical support libraries.
 
 ## A Hello CSE World Repository
 We are announcing the beginnings of an effort to populate and maintain a
-repository of implementations of the heat equation demonstrating various
+repository of working implementations of the heat equation demonstrating various
 aspects of CSE software. The resulting repository will be useful in training
 about fundamental aspects of the design and development of CSE software as
 well as provide examples of continuous integration testing including
 demonstrating the use of ECP-CI resources.
 
-Each implementation we gather into this repository will have to conform
+Each implementation we gather will have to conform
 to a *minimal* set of requirements including providing a fully self-contained
 build, accommodating a common set of command-line arguments, producing ascii
-text files for results output and providing time and space performance data via 
-tools such as [PAPI](https://icl.utk.edu/papi/) or [Caliper](https://software.llnl.gov/Caliper/).
+text files for results output and providing ways to probe time and space performance
+behavior via tools such as [PAPI](https://icl.utk.edu/papi/) or
+[Caliper](https://software.llnl.gov/Caliper/).
 
 Our goal in collecting such examples isn't so much to demonstrate the use of
 different programming languages as it is to demonstrate different approaches
 to computation and execution paradigms as well as provide instructive insights
 by comparing of time, space and scaling performance of various approaches.
+
+As a pre-cursor to that effort, we have begun collecting, documenting and
+articulating similarities and differences of various
+[code snipits](https://github.com/betterscientificsoftware/hello-heat-equation)
+in a *temporary* repository.
 
 ## Conclusion
 The Heat Equation is well known and has many practical applications even in
@@ -91,7 +97,7 @@ Mark C. Miller is a computer scientist at Lawrence Livermore National Laboratory
 data infrastructure for LLNL simulation codes.
 
 <!---
-Publish: Yes
+Publish: no
 RSS update:
 Categories: Development
 Topics: Software Engineering, Programming Languages and Tools
