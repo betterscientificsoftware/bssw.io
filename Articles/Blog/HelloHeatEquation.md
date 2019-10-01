@@ -35,8 +35,8 @@ To make the equation even more approachable, we make some simplifying assumption
 * Only Cartesian coordinates in 1 dimension are used
 
 ## Why this form of the Heat Equation?
-While the one dimensional heat equation might not be sufficient to
-model solar heating of the Earth, even in this relatively simple form,
+The one dimensional heat equation might not be sufficient to
+model solar heating of the Earth. However, even in this relatively simple form,
 interesting and meaningful science questions may be investigated involving
 both transient and steady-state behavior. Examples are determining if water
 pipes embedded in log cabin (solid wood) walls would freeze during a cold
