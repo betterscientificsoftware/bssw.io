@@ -83,8 +83,7 @@ its one dimensional form. Because of this, a variety of implementations are
 easily available. This exemplar PDE makes it the perfect "Hello World!" for
 the scientific software community. Collecting a number of working examples
 together with unique implementation characteristics will help to create 
-useful introductory CSE training material. We welcome collaboration.
-To get involved, please contact one of the authors.
+useful introductory CSE training material.
 
 ## Author Bios
 
