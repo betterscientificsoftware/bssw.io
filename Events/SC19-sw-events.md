@@ -34,7 +34,7 @@ Friday<br>10:30am-12:00pm | Panel | [The Road to Exascale and Beyond is Paved by
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile") and [Sandra Gessing](https://github.com/sandragesing "Sandra Gessing GitHub Profile")
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2019-09-26
 Categories: collaboration
 Topics: projects and organizations, conferences and workshops
