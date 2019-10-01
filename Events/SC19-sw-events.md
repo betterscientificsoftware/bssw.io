@@ -3,7 +3,7 @@
 - Dates: November 17, 2019 - November 22, 2019
 - Location: Denver, CO
 - Event Website: https://sc19.supercomputing.org/
-- Organizers: [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile") and [Sandra Gessing](https://github.com/sandragesing "Sandra Gessing GitHub Profile")
+- Organizers: Daniel S. Katz and Sandra Gessing
 
 The Supercomputing conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
 
@@ -34,7 +34,7 @@ Friday<br>10:30am-12:00pm | Panel | [The Road to Exascale and Beyond is Paved by
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile") and [Sandra Gessing](https://github.com/sandragesing "Sandra Gessing GitHub Profile")
 
 <!---
-Publish: yes
+Publish: preview
 RSS update: 2019-09-26
 Categories: collaboration
 Topics: projects and organizations, conferences and workshops
