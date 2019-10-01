@@ -1,3 +1,5 @@
+# Balter's Rules for GitHub Communication
+
 [Ben Balter’s article “15 rules for communicating at GitHub”](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
 presents fifteen communication rules that GitHub employees follow to improve their overall workflow; rules that establish a
 communication strategy from which modern software development can greatly benefit.
