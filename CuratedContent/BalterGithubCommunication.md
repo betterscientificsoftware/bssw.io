@@ -34,7 +34,7 @@ A team that can come together on a set of communication strategies can experienc
 
 #### Contributed by [Eddie Rusu](http://github.com/rusu24edward)
 
-#### <!---
+<!---
 Publish: preview
 Categories: development
 Topics: revision control
