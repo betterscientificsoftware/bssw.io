@@ -1,7 +1,7 @@
 # Balter's Rules for GitHub Communication
 
 [Ben Balter’s article “15 rules for communicating at GitHub”](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
-presents fifteen communication rules that GitHub employees follow to improve their overall workflow; rules that establish a
+presents fifteen communication rules that GitHub employees follow to improve their overall workflow---rules that establish a
 communication strategy from which modern software development can greatly benefit.
 
 Resource information | Details 
@@ -18,7 +18,7 @@ From his fifteen rules, here are three that stand out:
     improve by cultivating an environment that promotes communication via tickets.
   * Asynchronous communication means that *everyone* can get involved in the conversation. Instead of
     engaging a single @employee, you can engage the entire @team on a distributed and easy-to-track
-    platform (such as GitHub issues). This opens up the conversation to whoever on the team is willing
+    platform (such as GitHub issues). This opens up the conversation to whomever on the team is willing
     to get involved. This leads to another point:
   * Contribute to a discussion only if you have the time to give the communication the thought it deserves.
     That is, put your money (time) where your mouth is. If you have thoughts on an issue, make sure you have the
@@ -29,7 +29,18 @@ Finally, its worth reiterating that communication policies matter only if the te
 There are many ways to break every one of Balter’s fifteen rules. For example, you can enforce PR reviews by locking
 the merge button without approval. But, this matters only if the team is dedicated to actually reviewing
 PRs instead of blindly approving them (say, because of lack of time). For communication policies to effect
-positive change, the team must understand the context of the rule—why it is needed or useful—and must agree to practice it.
+positive change, the team must understand the context of the rule--why it is needed or useful--and must agree to practice it.
 A team that can come together on a set of communication strategies can experience a significant boost in the pursuit of Better Scientific Software.
 
 #### Contributed by [Eddie Rusu](http://github.com/rusu24edward)
+
+#### <!---
+Publish: preview
+Categories: development
+Topics: revision control
+Tags: training
+Level: 2
+Prerequisites: defaults
+Aggregate: none
+--->
+
