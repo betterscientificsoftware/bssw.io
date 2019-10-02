@@ -4,13 +4,13 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/hello_world_sun_heat.png'/>
 
-#### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile") and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
+#### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
 
 ["Hello World!"](https://www.thesoftwareguild.com/blog/the-history-of-hello-world/)
 is the canonical *first* program beginners write to learn new programming methodologies.
 In computational science and engineering ([CSE](https://en.wikipedia.org/wiki/Computational_engineering))
 circles, programming methodologies can involve a variety of languages, parallel execution
-and programming models, discretization techniques, interdependent libraries and more.
+and programming models, discretization techniques, interdependent libraries, and more.
 An application solving the [heat equation](https://en.wikipedia.org/wiki/Heat_equation)
 represents the perfect "Hello World!" program for the CSE world.
 
@@ -49,7 +49,7 @@ Solutions to the one dimensional heat equation are also very easy for
 beginners to visualize. This can help them understand how different
 approaches work. The simplicity of the physics and mathematics also
 allows beginners to focus more on the implementation details; the
-programming language, parallel execution paradigm, discretization and
+programming language, parallel execution paradigm, discretization, and
 mathematical support libraries.
 
 ## A Hello CSE World Repository
@@ -70,9 +70,9 @@ behavior via tools such as [PAPI](https://icl.utk.edu/papi/) or
 Our goal in collecting such examples isn't so much to demonstrate the use of
 different programming languages as it is to demonstrate different approaches
 to computation and execution paradigms as well as provide instructive insights
-by comparing of time, space and scaling performance of various approaches.
+by comparing of time, space, and scaling performance of various approaches.
 
-As a pre-cursor to that effort, we have begun collecting, documenting and
+As a pre-cursor to that effort, we have begun collecting, documenting, and
 articulating similarities and differences of various
 [code snipits](https://github.com/betterscientificsoftware/hello-heat-equation)
 in a *temporary* repository.
@@ -92,7 +92,7 @@ Heather M. Switzer is working as a computing summer intern at Lawrence Livermore
 Elsa Gonsiorowski is an HPC I/O Specialist at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
 
 Mark C. Miller is a computer scientist at Lawrence Livermore National Laboratory supporting
-[VisIt](https:/visit.llnl.gov), [Silo](https://silo.llnl.gov) and other visualization and
+[VisIt](https:/visit.llnl.gov), [Silo](https://silo.llnl.gov), and other visualization and
 data infrastructure for LLNL simulation codes.
 
 <!---
