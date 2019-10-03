@@ -1,6 +1,6 @@
 # Balter's Rules for GitHub Communication
 
-[Ben Balter’s article “15 rules for communicating at GitHub”](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
+Ben Balter’s article “15 rules for communicating at GitHub”
 presents fifteen communication rules that GitHub employees follow to improve their overall workflow---rules that establish a
 communication strategy from which modern software development can greatly benefit.
 
@@ -10,17 +10,19 @@ Resource name  | 15 rules for communicating at GitHub
 Website  | https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/
 Focus | Communication in GitHub issues and PRs
 
-From his fifteen rules, here are three that stand out:
+From [Ben Balter’s article “15 rules for communicating at GitHub”](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/, here are three that stand out:
 
-  * Be flexible with tickets. Many of us think of tickets as fully completed thoughts that require time
+#### Be flexible with tickets. 
+Many of us think of tickets as fully completed thoughts that require time
     and money to resolve. However, a ticket can be a question, a suggestion, an early idea that flowers
     into a great new feature, etc. A ticket is just the start of a conversation, and software teams can
     improve by cultivating an environment that promotes communication via tickets.
-  * Asynchronous communication means that *everyone* can get involved in the conversation. Instead of
+#### Asynchronous communication means that *everyone* can get involved in the conversation. 
+Instead of
     engaging a single @employee, you can engage the entire @team on a distributed and easy-to-track
     platform (such as GitHub issues). This opens up the conversation to whomever on the team is willing
     to get involved. This leads to another point:
-  * Contribute to a discussion only if you have the time to give the communication the thought it deserves.
+#### Contribute to a discussion only if you have the time to give the communication the thought it deserves.
     That is, put your money (time) where your mouth is. If you have thoughts on an issue, make sure you have the
     time to back them up. Otherwise, your comments can sidetrack or stall the conversation.
     As Balter says, “Avoid drive-by opinions.”
