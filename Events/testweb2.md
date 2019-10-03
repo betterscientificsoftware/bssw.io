@@ -1,10 +1,20 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 			   
 
 <!-- Note: this label does NOT include the trailing colon -->
-
-
-
 
 
 
@@ -17,7 +27,11 @@
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033
 - Organizers: The IDEAS Productivity Project
 			   
-Part of the ["Best Practices for HPC Software Developers" webinar series](https://ideas-productivity.org/events/hpc-best-practices-webinars/)
+This event is a part of the "Best Practices for HPC Software
+Developers" webinar series, produced by the IDEAS Productivity
+Project. The HPC Best Practices webinars address issues faced by
+developers of computational science and engineering (CSE) software on
+high-performance computers (HPC) and occur approximately monthly.
 
 Resource Informaton | Details
 :--- | :---			   
@@ -26,7 +40,7 @@ Date and Time | 2019-09-11 01:00 pm EDT
 Presenter | Rene Gassmoeller (UC Davis)
 Registration and Information | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>	   
 
-**Webinars are free and open to the public, but advance registration is required.**
+**Webinars are free and open to the public, but advance registration is required through the Event website.**
 
 <p>In recent years scientific software projects have increasingly
 incorporated state-of-the-art technical best practices like continuous
@@ -48,16 +62,33 @@ so that we can learn from each other and improve scientific software
 development together.</p>
 
 
-### More information and registration link:
-<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>
-
 Archives will be available at this link a couple of weeks after the event.
+
+
+### Presenter Bio
+<p>Rene Gassmoeller (<a href="mailto:rgassmoeller@ucdavis.edu">rgassmoeller@ucdavis.edu</a>) is Project Scientist at
+the Computational Infrastructure for Geodynamics at the University of
+California, Davis. His research focuses on the interaction between
+mantle convection and plate tectonic processes, numerical methods for
+geodynamic modeling, and sustainable software development in the Earth
+Sciences. He received a Ph.D. in Geophysics from Potsdam University in
+cooperation with the German Research Centre for Geosciences.</p>
+
+    
+
+### Contributed by Rene Gassmoeller
 
 <!---
 Publish: preview
-Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Categories: skills
+Topics: online learning
 Level: 2
 Prerequisites: default
 Aggregate: none
 --->
+
+
+
+
+
+

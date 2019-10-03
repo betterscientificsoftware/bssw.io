@@ -1,3 +1,7 @@
+
+
+
+
 # Best Practices for HPC Software Developers Webinar Series
 
 The HPC Best Practices (HPC-BP) webinars address issues faced by
@@ -26,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order*
+*Listed in reverse chronological order. Last updated: 2019-10-03*
 
 
 
@@ -300,11 +304,10 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 - [*What All Codes Should Do:  Overview of Best Practices in HPC Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001), Anshu Dubey (<a href="http://www.anl.gov/">Argonne National Laboratory</a>), 2016-05-04
 
 
-### Contributed by [The IDEAS Productivity Project](https://github.com/ideas-productivity "The IDEAS Productivity Project")
+### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
 
 <!---
-Publish: yes
-RSS update: 2019-09-26
+Publish: preview
 Categories: skills
 Topics: online learning
 Level: 2
