@@ -1,7 +1,7 @@
-# Producing a Webinar Series: Webinar Process
+# Producing a Webinar Series
 
 Do you want to know what it takes to put in place a series of webinars? 
-In this note we introduce the *machinery* behind the 
+In this article we introduce the *machinery* behind the 
 HPC Best Practices Webinar Series.
 
 Resource information | Details 
