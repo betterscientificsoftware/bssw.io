@@ -6,6 +6,8 @@
 
 #### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
 
+#### Publication date: October XX, 2019
+
 ["Hello World!"](https://www.thesoftwareguild.com/blog/the-history-of-hello-world/)
 is the canonical *first* program beginners write to learn new programming methodologies.
 In computational science and engineering ([CSE](https://en.wikipedia.org/wiki/Computational_engineering))
