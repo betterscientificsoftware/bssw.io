@@ -1,7 +1,10 @@
+<!-- start of deck -->
 ### What to Contribute: Content for Better Scientific Software
 
 We want and need contributions to the BSSw site from the community. If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an original article or point users to existing resources you find useful.
+<!-- end of deck -->
 
+<!-- start of body -->
 ### Background
 
 The BSSw site focuses on collaborative content development on general topics related to [developer productivity](Articles/WhatIsProductivity.md) and [software sustainability](Articles/WhatIsSustainability.md).  
@@ -59,6 +62,8 @@ The exact scope of relevant content will evolve as we learn about community inte
 ### Does your idea seem to fit?
 
 If you have an idea that might work, continue to the [How To Contribute](./HowToContribute.md) page.
+
+<!-- end of body -->
 
 <!--
 Publish: no
