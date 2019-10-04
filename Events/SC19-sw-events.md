@@ -3,12 +3,12 @@
 - Dates: November 17, 2019 - November 22, 2019
 - Location: Denver, CO
 - Event Website: https://sc19.supercomputing.org/
-- Organizers: Daniel S. Katz and Sandra Gessing
+- Organizers: The "Software Community"
 
 The Supercomputing conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
 
 
-**Description:** The program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration.
+**Description:** The SC19 program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration.
 
 *Updated: 2019-09-26*
 
