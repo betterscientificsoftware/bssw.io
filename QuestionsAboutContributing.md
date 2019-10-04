@@ -1,4 +1,4 @@
-### Questions About Contributing?
+### Questions About Contributing to BSSw?
 
 We look forward to your contributions to the BSSw site. Should you have questions, please contact us.
 
