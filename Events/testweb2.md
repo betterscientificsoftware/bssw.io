@@ -40,7 +40,7 @@ Date and Time | 2019-09-11 01:00 pm EDT
 Presenter | Rene Gassmoeller (UC Davis)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>	   
 
-**Webinars are free and open to the public, but advance registration is required through the Event website. Archives will be posted at the same link soon after the event.**
+**Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 
 ### Abstract
 <p>In recent years scientific software projects have increasingly
@@ -65,7 +65,7 @@ development together.</p>
 
 
 ### Presenter Bio
-<p>Rene Gassmoeller (<a href="mailto:rgassmoeller@ucdavis.edu">rgassmoeller@ucdavis.edu</a>) is Project Scientist at
+<p>Rene Gassmoeller is Project Scientist at
 the Computational Infrastructure for Geodynamics at the University of
 California, Davis. His research focuses on the interaction between
 mantle convection and plate tectonic processes, numerical methods for
@@ -79,8 +79,8 @@ cooperation with the German Research Centre for Geosciences.</p>
 
 <!---
 Publish: preview
-Categories: skills, skills
-Topics: online learning, productivity
+Categories: skills
+Topics: online learning
 Level: 2
 Prerequisites: default
 Aggregate: none
