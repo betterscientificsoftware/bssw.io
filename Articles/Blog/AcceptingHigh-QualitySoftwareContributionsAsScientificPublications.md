@@ -2,7 +2,7 @@
 
 #### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt)
 
-#### Publication date: October XX, 2019
+#### Publication date: October 10, 2019
 
 As the traditional scientific peer review concept is hitting its capacity limits 
 and high-quality software contributions establish as powertrain behind for 
