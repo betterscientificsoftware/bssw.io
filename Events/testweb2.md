@@ -33,15 +33,16 @@ Project. The HPC Best Practices webinars address issues faced by
 developers of computational science and engineering (CSE) software on
 high-performance computers (HPC) and occur approximately monthly.
 
-Resource Informaton | Details
+Resource Information | Details
 :--- | :---			   
 Webinar Title | Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects
 Date and Time | 2019-09-11 01:00 pm EDT
 Presenter | Rene Gassmoeller (UC Davis)
-Registration and Information | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>	   
 
-**Webinars are free and open to the public, but advance registration is required through the Event website.**
+**Webinars are free and open to the public, but advance registration is required through the Event website. Archives will be posted at the same link soon after the event.**
 
+### Abstract
 <p>In recent years scientific software projects have increasingly
 incorporated state-of-the-art technical best practices like continuous
 integration into their development cycle. However, many projects still
@@ -62,8 +63,6 @@ so that we can learn from each other and improve scientific software
 development together.</p>
 
 
-Archives will be available at this link a couple of weeks after the event.
-
 
 ### Presenter Bio
 <p>Rene Gassmoeller (<a href="mailto:rgassmoeller@ucdavis.edu">rgassmoeller@ucdavis.edu</a>) is Project Scientist at
@@ -76,7 +75,7 @@ cooperation with the German Research Centre for Geosciences.</p>
 
     
 
-### Contributed by Rene Gassmoeller
+#### Contributed by [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub profile")
 
 <!---
 Publish: preview
@@ -86,9 +85,3 @@ Level: 2
 Prerequisites: default
 Aggregate: none
 --->
-
-
-
-
-
-
