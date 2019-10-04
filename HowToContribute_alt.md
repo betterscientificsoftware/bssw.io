@@ -1,6 +1,12 @@
+<!-- start of deck -->
+
 ### How to Contribute Content to Better Scientific Software
 
-Deck sentence goes here for how-to-contribute page, explaining the big picture.
+Do you want to help the community attain its long-term goal of advancing scientific discoveries? If yes, learn about _how to contribute_ content to the BSSw site.
+
+<!-- end of deck -->
+
+<!-- start of body -->
 
 The first step when it comes to contributing to BSSw is checking whether your content a good fit.  Please see [What To Contribute](../WhatToContribute.md) for information on scope.  If you are still unsure, [contact the BSSw team]((web link here).
 
