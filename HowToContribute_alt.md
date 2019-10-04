@@ -1,6 +1,6 @@
 <!-- start of deck -->
 
-### How to Contribute Content to Better Scientific Software
+### How to Contribute to Better Scientific Software
 
 Do you want to help the community attain its long-term g.oal of advancing scientific discoveries? If yes, learn about _how to contribute_ content to Better Scientific Software.
 
