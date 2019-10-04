@@ -1,14 +1,18 @@
-# Questions About Contributing
+### Questions About Contributing?
 
-This file will contain a form which allows readers to ask us questions about contributing.
+We look forward to your contributions to the BSSw site. Should you have questions, please contact us.
 
-The drop down boxes should be
-1. I need more information
-2. I have facing problems contributing
+<!-- start of the body -->
+
+If you have additonal questions on what content to contribute, or questions about the contribution process, please contact us using the form below. 
+
+
+
+### Note to Parallactic developes
+This page will contain a form which allows readers to ask us questions about contributing.
+
+The drop down box "Select Reason for Contacting BSSw" should be
+1. I need more information on contributing
+2. I have facing problemscontributing
 3. I have a suggestion
 4. Others
-
-We want and _need_ contributions from the community. If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an original article or point users to existing resources you find useful.
-
-We aim to help CSE researchers work more effectively and to increase collaboration, leverage, recognition, and impact — all with the long-term goal of advancing scientific discoveries.  Please see [README.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/README.md)
-for details on using the Github repository back-end to provide content for the site.  Or contact us using the form below.
