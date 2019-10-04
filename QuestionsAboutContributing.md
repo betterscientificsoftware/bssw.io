@@ -11,7 +11,7 @@ If you have additonal questions on what content to contribute, or questions abou
 
 
 
-### Note to Parallactic developes
+### Note to Parallactic developers.
 This page will contain a form which allows readers to ask us questions about contributing.
 
 The drop down box "Select Reason for Contacting BSSw" should be
