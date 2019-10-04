@@ -7,6 +7,7 @@ The BSSw website focusses on general topics related to [developer productivity](
 Developer productivity and software sustainability efforts for computational science and engineering (CSE) benefit from communicating the experiences, reasoned insights, and curated content from a broad spectrum of community members.
 
 #### Content Types
+<!-- ### Content Types (look at blog articles for reference)-->
 
 We solicit the following types of content from our readers and our CSE community.
 
