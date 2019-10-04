@@ -79,8 +79,8 @@ cooperation with the German Research Centre for Geosciences.</p>
 
 <!---
 Publish: preview
-Categories: skills
-Topics: online learning
+Categories: skills, skills
+Topics: online learning, productivity
 Level: 2
 Prerequisites: default
 Aggregate: none
