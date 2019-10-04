@@ -1,4 +1,4 @@
-# That time CSE had me at Hello World
+# That Time CSE Had Me at Hello World
 
 **Hero Image:**
 
@@ -14,7 +14,7 @@ and programming models, discretization techniques, interdependent libraries, and
 An application solving the [heat equation](https://en.wikipedia.org/wiki/Heat_equation)
 represents the perfect "Hello World!" program for the CSE world.
 
-## What is the Heat Equation?
+### What is the heat equation?
 The Heat Equation, a special case of the Diffusion Equation, was developed by Joseph
 Fourier in 1822. It describes how the distribution of heat varies over space and time
 in a material. While there are many adaptations for different scenarios, beginner CSE
@@ -34,7 +34,7 @@ To make the equation even more approachable, we make some simplifying assumption
 * Apart from initial/boundary conditions, there are no other heat sources
 * Only Cartesian coordinates in 1 dimension are used
 
-## Why this form of the Heat Equation?
+### Why this form of the heat equation?
 The one dimensional heat equation might not be sufficient to
 model solar heating of the Earth. However, even in this relatively simple form,
 interesting and meaningful science questions may be investigated involving
@@ -52,7 +52,7 @@ allows beginners to focus more on the implementation details; the
 programming language, parallel execution paradigm, discretization, and
 mathematical support libraries.
 
-## A Hello CSE World Repository
+### A repository for 'Hello CSE World' 
 We are announcing the beginnings of an effort to populate and maintain a
 repository of working implementations of the heat equation demonstrating various
 aspects of CSE software. The resulting repository will be useful in training
@@ -72,7 +72,7 @@ different programming languages as it is to demonstrate different approaches
 to computation and execution paradigms as well as provide instructive insights
 by comparing of time, space, and scaling performance of various approaches.
 
-As a pre-cursor to that effort, we have begun collecting, documenting, and
+As a precursor to that effort, we have begun collecting, documenting, and
 articulating similarities and differences of various
 [code snipits](https://github.com/betterscientificsoftware/hello-heat-equation)
 in a *temporary* repository.
@@ -85,7 +85,7 @@ the scientific software community. Collecting a number of working examples
 together with unique implementation characteristics will help to create 
 useful introductory CSE training material.
 
-## Author Bios
+## Author bios
 
 Heather M. Switzer is working as a computing summer intern at Lawrence Livermore National Laboratory. She graduated with her B.S. in Mathematics and Computer Science from Longwood University in 2018 and is currently a 2nd-year M.S./Ph.D. student in Computer Science with a specialization in Computational Science at the College of William & Mary.
 
@@ -96,10 +96,10 @@ Mark C. Miller is a computer scientist at Lawrence Livermore National Laboratory
 data infrastructure for LLNL simulation codes.
 
 <!---
-Publish: no
+Publish: preview
 RSS update:
-Categories: Development
-Topics: Software Engineering, Programming Languages and Tools
+Categories: Planning, Development
+Topics: Software Engineering, Development Tools
 Tags:
 Level:
 Prerequisites: default
