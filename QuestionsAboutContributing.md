@@ -16,7 +16,7 @@ This page will contain a form which allows readers to ask us questions about con
 
 The drop down box "Select Reason for Contacting BSSw" should be
 1. I need more information on contributing
-2. I have facing problemscontributing
+2. I am facing problems contributing
 3. I have a suggestion
 4. Others
 <!-- end of the body -->
