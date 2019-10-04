@@ -1,6 +1,9 @@
-### Questions About Contributing to BSSw?
+<!-- start of the deck -->
+### Questions About Contributing to Better Scientific Software?
 
-We look forward to your contributions to the BSSw site. Should you have questions, please contact us.
+We look forward to your contributions to the Better Scientific Software site. Should you have questions, please contact us.
+<!-- start of the deck -->
+
 
 <!-- start of the body -->
 
@@ -16,3 +19,4 @@ The drop down box "Select Reason for Contacting BSSw" should be
 2. I have facing problemscontributing
 3. I have a suggestion
 4. Others
+<!-- end of the body -->
