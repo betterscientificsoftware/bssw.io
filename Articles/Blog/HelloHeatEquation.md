@@ -1,4 +1,4 @@
-# That Time CSE Had Me at Hello World
+# Hello CSE World
 
 **Hero Image:**
 
@@ -74,10 +74,13 @@ different programming languages as it is to demonstrate different approaches
 to computation and execution paradigms as well as provide instructive insights
 by comparing of time, space, and scaling performance of various approaches.
 
-As a precursor to that effort, we have begun collecting, documenting, and
-articulating similarities and differences of various
-[code snipits](https://github.com/betterscientificsoftware/hello-heat-equation)
-in a *temporary* repository.
+As a precursor to that effort, we have begun collecting, documenting, and comparing
+similarities and differences of
+various code snipits from existing implementations in a
+[*temporary repository*](https://github.com/betterscientificsoftware/hello-heat-equation).
+After evaluating them, we will then evolve a subset of these code snipits to full, working
+implementations we intend to maintain for the training and testing example purposes
+described above.
 
 ## Conclusion
 The Heat Equation is well known and has many practical applications even in
