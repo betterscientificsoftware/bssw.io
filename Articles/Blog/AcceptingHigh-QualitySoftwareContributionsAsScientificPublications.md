@@ -82,7 +82,7 @@ tenure on software quality,
 we argue for a change in <i>what</i> a scientific publication is. 
 Traditionally, a scientific publication has been characterized as a self-contained 
 monograph describing the researchers' contribution and presenting results. 
-The community benefits of this classical publication format is limited, especially 
+The community benefits of this classical publication format are limited, especially 
 in comparison with other, more effective technology dissemination systems such as [Git](https://git-scm.com/), 
 which are employed by virtually all software community efforts, feature 
 powerful 
@@ -139,11 +139,11 @@ evaluate (based on the patch and the included efficiency analysis) the
 appropriateness of a software feature for a specific problem.
 
 * Presenting patches at a conference not only makes the whole community 
-aware of a new feature but also enables domain scientists ton directly approach the 
+aware of a new feature but also enables domain scientists to directly approach the 
 developers, establish contact, and discuss technical aspects.
 
 * The submission rate will be far lower, and acceptance rate far higher, as each 
-submission will most likely pass at least some pre-review process by library 
+submission will most likely pass at least some pre-review process by software 
 developers, and the authors of the papers will be forced to produce a higher-quality contribution.
 <br>
 
