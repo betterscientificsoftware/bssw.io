@@ -1,6 +1,6 @@
 ---
 name: Others
-about: Template for Submitting something that is NOT a Blog or a Curated Content Article for Consideration
+about: Template for Submitting something that is NOT a Blog or a Curated Content Article. 
 title: Possible Other Article for BSSw
 labels: none
 assignees: bernhold, curfman
