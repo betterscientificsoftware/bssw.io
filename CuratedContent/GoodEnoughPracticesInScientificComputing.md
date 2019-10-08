@@ -52,6 +52,7 @@ See:
 * [Software Carpentry](http://software-carpentry.org)
 * [Data Carpentry](http://data-carpentry.org)
 
+#### Publication date: April 29, 2019
 
 <!---
 Publish: yes
