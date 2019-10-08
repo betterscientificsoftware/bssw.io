@@ -102,7 +102,6 @@ data infrastructure for LLNL simulation codes.
 
 <!---
 Publish: preview
-RSS update:
 Categories: Planning, Development
 Topics: Software Engineering, Development Tools
 Tags:
