@@ -11,7 +11,7 @@ The BSSw site focuses on collaborative content development on general topics rel
 
 Developer productivity and software sustainability efforts for computational science and engineering (CSE) benefit from communicating the experiences, insights, and curated content from a broad spectrum of community members.
 
-### Content Types
+### Types of Content
 <!-- ### Content Types (look at blog articles for reference)-->
 We solicit the following types of content from our readers and the community.
 
@@ -24,36 +24,36 @@ We solicit the following types of content from our readers and the community.
   - folder: [Articles](Articles/README.md)
  -->
 
-- **Original articles:** Original articles are similar to blogs or short articles with original content. For example: An original article in the form of a blog is usually of around 250 - 500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
+- **Original article:** Short article with original content.  We welcome both experience articles (to inform the CSE community about how to improve some aspect of software productivity and sustainability) and blog articles. Brevity is appreciated; for example a blog is usually around 250 - 500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
  <!--  - folder: [Articles/Blog](Articles/Blog/README.md) -->
 
-- **Curated articles:** A brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content.
+- **Curated content:** Brief article that highlights other web-based content (such as tools, websites, books, organizations, etc.).  Your article should describe why the CSE community might find value in the linked content.
 <!-- - folder: [CuratedContent](CuratedContent/README.md) -->
 
-- **Events:** An event content is a brief description of an event (such as a workshop, conference, or tutorial) relevant to better scientific software.
+- **Event:** Brief description of an event (such as a workshop, conference, or tutorial) relevant to better scientific software.
 
 - If you have questions about contributing content that does not fit the above pre-defined types, please contact us using the [Questions about contributions](./QuestionsAboutContributing.md) page.
 
-### Scope of the content
-The exact scope of relevant content will evolve as we learn about community interests.  However, the following guidelines should be useful:
+### Scope of the Content
+The exact scope of relevant content will evolve as we learn more about community interests.  However, the following guidelines should be useful:
 
-#### In-scope Content
+#### In-scope content
 - General issues in productivity and sustainability that overlap with common challenges faced in the CSE software community.
 - General tools for productivity and sustainability that can be widely used by CSE developers.
 - Characterization of challenges and solutions that may be particularly valuable to the CSE community.
 
-#### Highlight Connections to CSE
+#### Highlight connections to CSE
 - How your topic intersects with themes that are of particular interest to CSE, for example MPI, Fortran, C++, architectures, modeling and simulation.
 - Why your topic could be of particular interest to CSE.
 
-#### Ease of Adoption and Use
+#### Ease of adoption and use
 - Address how easy or hard it is to benefit from your topic.
 - Address who would be particularly interested in the topic.
 
-#### Out-of-scope Content
+#### Out-of-scope content
 - Narrow scope, focused on a particular CSE subcommunity.
 - Tools, processes and practices that have little in common with CSE.
-- Content that is deemed incomplete or biased, as determined by the BSSW leaders.
+- Content that is deemed incomplete or biased, as determined by the BSSw leaders.
 
 ### Does your idea seem to fit?
 
