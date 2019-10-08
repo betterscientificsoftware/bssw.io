@@ -82,7 +82,7 @@ tenure on software quality,
 we argue for a change in <i>what</i> a scientific publication is. 
 Traditionally, a scientific publication has been characterized as a self-contained 
 monograph describing the researchers' contribution and presenting results. 
-The community benefits of this classical publication formats are limited, especially 
+The community benefits of this classical publication format is limited, especially 
 in comparison with other, more effective technology dissemination systems such as [Git](https://git-scm.com/), 
 which are employed by virtually all software community efforts, feature 
 powerful 
