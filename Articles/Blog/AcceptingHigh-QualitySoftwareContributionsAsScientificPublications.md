@@ -6,7 +6,7 @@
 
 As the traditional scientific peer review concept is hitting its capacity limits 
 and high-quality software contributions are established as the powertrain behind 
-the success of computational sciences, it is time to change academic publishing.
+the success of computational science, it is time to change academic publishing.
 
 As in any other research field, academically surviving in the high-performance 
 computing (HPC) community generally requires publishing papers---in 
@@ -17,12 +17,9 @@ As a result, the number of scientific papers published each year in this
 read. 
 
 Furthermore, many of the proposed strategies, algorithms, and 
-hardware-optimized implementations never make it beyond the prototype stage, as 
-they are abandoned once they served the single purpose of yielding (another) 
-publication. 
-%GAIL - the "as" clause may seem a bit harsh. While some software products indeed falls into this category, others don't make it beyond prototype because they  prove not to work. I'd leave out the "as" clause.
+hardware-optimized implementations never make it beyond the prototype stage. 
 In particular, they often fail to contribute to the 
-community's software ecosystem: the publications typically lack the level of 
+community's software ecosystems: the publications typically lack the level of 
 detail that allows reproducing the technology; and, with prototype 
 realizations (at least until recently) often remaining private, the readers are unable to track the code.
 In response to this situation, different publication formats now encourage (or 
@@ -57,7 +54,7 @@ of documentation and code readability that would be preferred for software
 sustainability. 
 <br>
 
-To summarize, the community of high-performance computing
+To summarize, the HPC community 
 
 * responds to academic pressure by publishing an increasing number of 
 scientific papers (often containing novel algorithms and parallelization 
@@ -84,7 +81,8 @@ is not realistic to quickly change the academic system to base the promotion to
 tenure on software quality, 
 we argue for a change in <i>what</i> a scientific publication is. 
 Traditionally, a scientific publication has been characterized as a self-contained 
-monograph describing the researchers' contribution and presenting results. especially 
+monograph describing the researchers' contribution and presenting results. 
+The community benefits of this classical publication formats are limited, especially 
 in comparison with other, more effective technology dissemination systems such as [Git](https://git-scm.com/), 
 which are employed by virtually all software community efforts, feature 
 powerful 
@@ -111,7 +109,7 @@ post-conference proceedings; see Figure 1.
 Obviously, such a process requires not only defining minimum standards on what level of 
 innovation and novelty qualifies software development as a conference 
 contribution but also deriving guidelines on how such a conference submission 
-based on a software contribution has to be designed, the level of algorithm- 
+based on a software contribution has to be designed, the level of algorithm 
 and functionality description, and the code quality. 
 We argue, however,  that complementing the independent review assessing the 
 level of innovation in the software contribution with the technical reviews of 
