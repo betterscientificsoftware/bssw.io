@@ -23,7 +23,7 @@ in a material. While there are many adaptations for different scenarios, beginne
 programmers often start with the one-dimensional, homogeneous heat equation as an
 introductory problem.
 
-_&part;u / &part;t = &alpha;&nabla; &sup2;u_
+![equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%3D%20%5Calpha%20%5Cnabla%5E2u)
 
 Where:
 * _u_ = Temperature
