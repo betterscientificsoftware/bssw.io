@@ -25,6 +25,6 @@ Once you are ready to contribute, please use one of the following approaches to 
 After your article is submitted, it will be reviewed by the BSSw.io editorial team. If we decide we want you to move forward with this submission, you will be given a tentative publication date and deadline for final submission completion. You will be asked to create a Git [pull request](https://help.github.com/en/articles/creating-a-pull-request). The Git pull request is used to facilitate review and revision of the final article before it is published. *Alternatively, if you are unfamiliar with Git, the BSSw team will work with you to get your article through email or other methods.*
 
 
-<!--
+<!---
 Publish: No
---!>
+---!>
