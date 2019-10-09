@@ -1,6 +1,6 @@
 ### What is Sustainability?
 <!--deck start--->
-Sustainable software means that an existing product remains viable in the future such that it makes sense to continuing using, adapting and expanding its capabilities instead of replacing it with another new or existing product. The purpose of focusing on sustainability is to reduce maintenance costs, improve portability and extensibility and otherwise enable future users and developers to keep the product viable for development and use.
+Sustainable software means that an existing product remains viable in the future such that it makes sense to continuing using, adapting and expanding its capabilities instead of replacing it with another new or existing product. 
 <!--deck end--->
 
 <!--body start--->
