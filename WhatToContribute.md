@@ -60,6 +60,6 @@ If you have an idea that might work, continue to the [How To Contribute](./HowTo
 
 <!-- end of body -->
 
-<!---
+<!--
 Publish: yes    
----!>
+--!>
