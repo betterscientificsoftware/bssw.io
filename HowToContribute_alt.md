@@ -8,7 +8,7 @@ Do you want to help the community work toward a long-term goal of advancing scie
 
 <!-- start of body -->
 
-The first step when it comes to contributing to BSSw is checking whether your content a good fit.  Please see [What To Contribute](./WhatToContribute.md) for information on scope.  If you are still unsure, please [contact us(./QuestionsAboutContributing.md).
+The first step when it comes to contributing to BSSw is checking whether your content a good fit.  Please see [What To Contribute](./WhatToContribute.md) for information on scope.  If you are still unsure, please [contact us](./QuestionsAboutContributing.md).
 
 Once you are ready to contribute, please use one of the following approaches to submit your article. 
 
