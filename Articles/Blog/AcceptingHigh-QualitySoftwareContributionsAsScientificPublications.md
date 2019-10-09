@@ -27,7 +27,7 @@ even require) the release of source code and supporting data. These
 reproducibility efforts (for example, [ACM badging](https://www.acm.org/publications/policies/artifact-review-badging))
 provide reviewers access to 
 the raw 
-material aim at increasing replicability, traceability, and general 
+material and aim at increasing replicability, traceability, and general 
 software quality.
 The side benefit is that the community can leverage the novel technology by 
 accessing the sources and re-engineering the algorithms in already existing 
@@ -84,7 +84,7 @@ Traditionally, a scientific publication has been characterized as a self-contain
 monograph describing the researchers' contribution and presenting results. 
 The community benefits of this classical publication format are limited, especially 
 in comparison with other, more effective technology dissemination systems such as [Git](https://git-scm.com/), 
-which are employed by virtually all software community efforts, feature 
+which are employed by virtually all software community efforts and feature 
 powerful 
 services that are waiting to be explored by an academic peer review system: 
 full 
