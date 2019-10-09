@@ -34,7 +34,7 @@ We solicit the following types of content from our readers and the community.
 
 - If you have questions about contributing content that does not fit the above pre-defined types, please contact us using the [Questions about contributions](./QuestionsAboutContributing.md) page.
 
-### Scope of the Content
+### Scope of Content
 The exact scope of relevant content will evolve as we learn more about community interests.  However, the following guidelines should be useful:
 
 #### In-scope content
