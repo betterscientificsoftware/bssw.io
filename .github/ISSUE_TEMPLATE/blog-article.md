@@ -1,6 +1,6 @@
 ---
 name: Blog Article
-about: Template for Submitting a Blog Article for Consideration
+about: Template for submitting a blog article for consideration
 title: Possible Blog Article
 labels: blog
 assignees: bernhold, curfman
