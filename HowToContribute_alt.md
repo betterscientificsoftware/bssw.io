@@ -17,7 +17,7 @@ Once you are ready to contribute, please use one of the following approaches to 
 
 ### Advanced approach via web-based GitHub
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
-2. Click on the `Issues` tab on the very top
+2. Click on the `Issues` tab (which is the 2nd tab on the left, just below 'betterscientificsoftware')
 3. Click on  the `New issue` button
 4. Click on the `Get started` (for the article type you want to submit) and follow the instructions to provide a brief description of your idea for a contribution (as a Github issue).
 
