@@ -25,6 +25,6 @@ Once you are ready to contribute, please use one of the following approaches to 
 After your issue is submitted, it will be reviewed by the BSSw.io editorial team. We will communicate with you to provide feedback and determine next steps, including a timeline.  To proceed with publishing content on the BSSw site, you will be asked to create a Git [pull request](https://help.github.com/en/articles/creating-a-pull-request), which facilitates review and revision of the article before it is published. *Alternatively, if you are unfamiliar with Git, the BSSw team will work with you to get your article through email or other methods.*
 
 
-<!---
+<!--
 Publish: Yes  
----!>
+--!>
