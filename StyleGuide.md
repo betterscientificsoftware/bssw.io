@@ -128,6 +128,6 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
 - Aggregate: stand-alone and subresource
    - The "stand-alone and subresource" specification indicates that the item will be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
 
-<!---
+<!--
    Publish: no
----!>
+-->
