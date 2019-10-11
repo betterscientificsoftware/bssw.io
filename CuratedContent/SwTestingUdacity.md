@@ -1,6 +1,8 @@
 # Understanding Software Testing and How to Make Software Fail
 
+
 Do you understand software testing? How about learning how to make software fail with a goal of building a better, bug-free, and a high-quality product?
+
 
 Resource information | Details 
 :--- | :--- 
