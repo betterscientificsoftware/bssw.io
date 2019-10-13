@@ -1,6 +1,6 @@
 # Webinar: Spack: A package manager for HPC
 
-- Date: October 23, 2019
+- Date: October 30, 2019
 - Location: Online
 - Event Website: https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems/spack
 - Organizers: The Blue Waters Webinar Series
