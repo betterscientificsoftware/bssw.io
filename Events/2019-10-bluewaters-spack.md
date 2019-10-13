@@ -11,7 +11,7 @@ Resource Information | Details
 :--- | :---			   
 Webinar Title | Spack: A package manager for HPC
 Date and Time | 2019-10-30, 12:00 pm EDT
-Presenter | Sameer Shende (University of Oregon)
+Presenter | Todd Gamblin (Lawrence Livermore National Laboratory)
 Registration | 	<https://bluewaters.ncsa.illinois.edu/webinars/registration/mailchimp>
 Information | <https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems/spack>
 
