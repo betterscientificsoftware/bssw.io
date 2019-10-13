@@ -26,7 +26,7 @@ Sameer Shende serves as the Director of the Performance Research Laboratory at t
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
 <!---
-Publish: yes
+Publish: preview
 RSS update: 2019-09-18
 Categories: development
 Topics: release and deployment
