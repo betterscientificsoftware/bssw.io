@@ -30,8 +30,8 @@ Todd has been at LLNL since 2008. He received the Early Career Research Award fr
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
 <!---
-Publish: preview
-RSS update: 2019-09-18
+Publish: yes
+RSS update: 2019-10-13
 Categories: development, development
 Topics: release and deployment, configuration and build
 Level: 2
