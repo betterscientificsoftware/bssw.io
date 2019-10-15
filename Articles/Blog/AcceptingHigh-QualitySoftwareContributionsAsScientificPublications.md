@@ -2,7 +2,7 @@
 
 #### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt)
 
-#### Publication date: October 10, 2019
+#### Publication date: October 15, 2019
 
 As the traditional scientific peer review concept is hitting its capacity limits 
 and high-quality software contributions are established as the powertrain behind 
@@ -185,7 +185,8 @@ References | &nbsp;
 <a name="ref2"></a>2 | [Anzt et al., Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility, Proceedings in Applied Mathematics and Mechanics - 90th GAMM Annual Meeting, 2019 ](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf)
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-10-15
 Categories: Collaboration
 Topics: Software publishing and citation
 Tags: bssw-blog-article
