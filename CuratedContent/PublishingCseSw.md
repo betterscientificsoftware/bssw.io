@@ -5,7 +5,7 @@ Publishing software is gaining traction in the CSE community. This article discu
 Resource information | Details 
 :--- | :--- 
 Resource name | Assorted venues to publish CSE software
-Websites | [ACM Transactions on Mathematical Software](http://toms.acm.org), [ACM Transactions on Modeling and Computer Simulation](http://tomacs.acm.org/about.cfm), [Archive of Numerical Software](http://journals.ub.uni-heidelberg.de/index.php/ans/), [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs),  [The Journal of Open Source Software](http://joss.theoj.org), [Journal of Statistical Software](https://www.jstatsoft.org/index), [SoftwareX](https://www.journals.elsevier.com/softwarex/), [Zenodo](https://zenodo.org), [FigShare](https://figshare.com)
+Websites | [ACM Transactions on Mathematical Software](http://toms.acm.org), [ACM Transactions on Modeling and Computer Simulation](http://tomacs.acm.org/about.cfm), [Archive of Numerical Software](http://journals.ub.uni-heidelberg.de/index.php/ans/), [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs), [SoftwareX](https://www.journals.elsevier.com/softwarex/), [The Journal of Open Source Software](http://joss.theoj.org), [The Journal of Statistical Software](https://www.jstatsoft.org/index), [Zenodo](https://zenodo.org), [FigShare](https://figshare.com)
 Focus |  Software publishing and citation
 
 CSE software is used to generate many significant results
@@ -51,6 +51,12 @@ range of disciplines can be found [here](https://www.software.ac.uk/which-journa
    ANS also accepts articles that introduce a new library, which may
    then form the basis of future application articles.
  - [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs) (CiSE): A joint publication of the IEEE Computer Society and the American Institure of Physics which is positioned at the intersection of science and computation and tends to publish papers that don't fit comfortably in either the "pure" science or "pure" computer science spaces.  It includes peer reviewed papers as well as a number of departments which publish shorted non-peer-reviewed articles.  The journal is open to topical special issues as well.
+ - [SoftwareX](https://www.journals.elsevier.com/softwarex/):
+   An Elsevier journal that aims to ensure software
+   is cited and gets credit in the literature.
+   This journal accepts submissions regarding software that is used
+   in any of a wide range of disciplines, from mathematics to the
+   sciences and humanities.
  - [The Journal of Open Source Software](http://joss.theoj.org) (JOSS): This journal provides
    authors with a DOI for their software package without requiring a
    full-length manuscript.
@@ -58,15 +64,10 @@ range of disciplines can be found [here](https://www.software.ac.uk/which-journa
    their package follows certain best practices of open-source software,
    including proper licensing and documentation,
    and helps meet scientific research challenges.
- - [Journal of Statistical Software](https://www.jstatsoft.org/index) (JSS):
+ - [The Journal of Statistical Software](https://www.jstatsoft.org/index) (JSS):
    Like TOMS, but with a focus on software which implements statistical
    methods rather than other mathematical modeling topics.  
- - [SoftwareX](https://www.journals.elsevier.com/softwarex/):
-   An Elsevier journal that aims to ensure software
-   is cited and gets credit in the literature.
-   This journal accepts submissions regarding software that is used
-   in any of a wide range of disciplines, from mathematics to the
-   sciences and humanities.
+ 
  
 Moving away from journals that require a manuscript and/or peer review, there are also
 sites which can provide a DOI for your software with little to no review:
