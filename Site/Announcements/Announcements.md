@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [Events at SC19 related to producing better scientific software](../../Events/SC19-sw-events.md)
+- [Events at SC19 related to producing better scientific software ... Please join us there!](../../Events/SC19-sw-events.md)
 - Display dates: 10/16/2019 - 11/25/2019
 
 <!--
