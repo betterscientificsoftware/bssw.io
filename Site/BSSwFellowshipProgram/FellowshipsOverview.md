@@ -24,7 +24,13 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly benefit the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows and promote better scientific software in their community.
 
+### 2020 BSSw Fellowships
+
+Applications are now closed for the 2020 BSSw Fellowship Program. Check back in summer 2020 for info about the 2021 application process.
+
+<!--
 ### [2020 BSSw Fellowship Application Form](https://forms.gle/WPDMsLLzbg7LQwcU9) - Submissions Open!
+-->
 
 
 ### More Information
