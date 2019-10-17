@@ -80,14 +80,14 @@ each of the numbered steps in the description below.
 1. Pull Requests in *Item Review* are handled as follows.
    * Unapproved PRs are reviewed on the spot and approved or not. If no approval is
      forthcoming, revisions required by author are explained in review comments in the
-     PR (if they have not already py preceding review(s)).
+     PR (if they have not already by preceding review(s)).
    * Approved PRs
      * **Editorial Assistance** review is requested assigning an **EA**.
      * **EA** may request or explicitly revise the content with commits to the PR.
      * **Author** should indicate approval (or not) of any changes made by **EA** via
        comments in the PR.
-   * Approved PRs with **EA** and **Author** approval are merged, and are moved to 
-     *Ready To Publish*. 
+     * Approved PRs with **EA** and **Author** approval are merged, metadata is added
+       in preparation for publication, and its moved to *Ready To Publish*. 
 1. Pull Requests in *Ready To Publish*
    * A PR is moved from *Ready to Publish* to *Done* once (1) Formatting is checked on 
      preview site (2) Metadata is complete, (3) Metadata "publish" is set to "yes"
