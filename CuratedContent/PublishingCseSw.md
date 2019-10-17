@@ -1,35 +1,33 @@
 # Where and How to Publish CSE Software?
 
-Publishing software is gaining traction in the CSE community. This article discusses possible venues and methods to publish CSE software.
+Publishing software is gaining traction in the CSE community. This
+article discusses possible venues and methods to publish CSE software.
 
 Resource information | Details 
 :--- | :--- 
 Resource name | Assorted venues to publish CSE software
-Websites | [ACM Transactions on Mathematical Software](http://toms.acm.org), [ACM Transactions on Modeling and Computer Simulation](http://tomacs.acm.org/about.cfm), [Archive of Numerical Software](http://journals.ub.uni-heidelberg.de/index.php/ans/), [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs), [SoftwareX](https://www.journals.elsevier.com/softwarex/), [The Journal of Open Source Software](http://joss.theoj.org), [The Journal of Statistical Software](https://www.jstatsoft.org/index), [Zenodo](https://zenodo.org), [FigShare](https://figshare.com)
+Websites | [ACM Transactions on Mathematical Software](http://toms.acm.org), [ACM Transactions on Modeling and Computer Simulation](http://tomacs.acm.org/about.cfm), [Archive of Numerical Software](http://journals.ub.uni-heidelberg.de/index.php/ans/), [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs), [ReScience C](http://rescience.github.io), [SoftwareX](https://www.journals.elsevier.com/softwarex/), [The Journal of Open Source Software](http://joss.theoj.org), [The Journal of Statistical Software](https://www.jstatsoft.org/index), [The Self-Journals of Science](http://www.sjscience.org), [Zenodo](https://zenodo.org), [FigShare](https://figshare.com)
 Focus |  Software publishing and citation
 
-CSE software is used to generate many significant results
-in the scientific literature.
-The articles that present these results should have a way
-to acknowledge the work that went
-into developing the software, ideally via the same citation
-mechanism used to acknowledge previous articles.
-At the same time, making software visible to searches
-of scientific literature will help potential users discover
-software they may benefit from using.
-As a community, we are still experimenting with various
-methods of citing software while trying to keep up with the
-rapidly accelerating scale, pace, and visibility
-of scientific software development.
+CSE software is used to generate many significant results in the
+scientific literature.  The articles that present these results
+should have a way to acknowledge the work that went into developing
+the software, ideally via the same citation mechanism used to
+acknowledge previous articles.  At the same time, making software
+visible to searches of scientific literature will help potential
+users discover software they may benefit from using.  As a community,
+we are still experimenting with various methods of citing software
+while trying to keep up with the rapidly accelerating scale, pace,
+and visibility of scientific software development.
 
 ## Journals that Publish CSE Software
 
-What follows is a short list of journals that specialize,
-to varying degrees, in presenting a scientific software package as a
-piece of scientific literature that can be cited by later works.
-A longer and possibly more up-to-date list from the Software
-Sustainability Institute that covers a wider
-range of disciplines can be found [here](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
+What follows is a short list of journals that specialize, to varying
+degrees, in presenting a scientific software package as a piece of
+scientific literature that can be cited by later works.  A longer
+and possibly more up-to-date list from the Software Sustainability
+Institute that covers a wider range of disciplines can be found
+[here](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
 
 <!-- In alphabetical order by JOURNAL NAME (not initials) -->
  
@@ -50,7 +48,21 @@ range of disciplines can be found [here](https://www.software.ac.uk/which-journa
    Authors need to submit a manuscript describing their software.
    ANS also accepts articles that introduce a new library, which may
    then form the basis of future application articles.
- - [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs) (CiSE): A joint publication of the IEEE Computer Society and the American Institure of Physics which is positioned at the intersection of science and computation and tends to publish papers that don't fit comfortably in either the "pure" science or "pure" computer science spaces.  It includes peer reviewed papers as well as a number of departments which publish shorted non-peer-reviewed articles.  The journal is open to topical special issues as well.
+ - [Computing in Science and
+   Engineering](https://www.computer.org/csdl/magazine/cs) (CiSE):
+   A joint publication of the IEEE Computer Society and the American
+   Institure of Physics which is positioned at the intersection of
+   science and computation and tends to publish papers that don't
+   fit comfortably in either the "pure" science or "pure" computer
+   science spaces.  It includes peer reviewed papers as well as a
+   number of departments which publish shorted non-peer-reviewed
+   articles.  The journal is open to topical special issues as well.
+ - [ReScience C](http://rescience.github.io): ReScience C is an
+   open-access peer-reviewed journal that encourages the explicit
+   replication of already published research, promoting new and
+   open-source implementations in order to ensure that the original
+   research is reproducible. The journal focusses mostly on
+   computational research.
  - [SoftwareX](https://www.journals.elsevier.com/softwarex/):
    An Elsevier journal that aims to ensure software
    is cited and gets credit in the literature.
@@ -67,6 +79,14 @@ range of disciplines can be found [here](https://www.software.ac.uk/which-journa
  - [The Journal of Statistical Software](https://www.jstatsoft.org/index) (JSS):
    Like TOMS, but with a focus on software which implements statistical
    methods rather than other mathematical modeling topics.  
+ - [The Self-Journals of Science](http://www.sjscience.org)
+   (SJS): This is a open curation platform, that allows scholars
+   to freely curate published scientific articles (from any source)
+   into SJS's self-journal tool. The tool provides a way for scholars
+   to share their analysis of scientific output in a structured and
+   comprehensive way, and thus enabling them to express their
+   personal values and thoughts which cannot be usually expressed
+   through traditonal publication channels.
  
  
 Moving away from journals that require a manuscript and/or peer review, there are also
