@@ -92,7 +92,7 @@ each of the numbered steps in the description below.
       and move to *Done*? If yes, can this automatic behaviour be changed to move PR to *Ready 
       to Publish*? (2) Is initial metadata added in this phase by EB member? I would think so 
       since we will need to set metadata for publish=preview to preview article. All the 
-      preview-based suggestions/changes should have been made by author or EB member in this phase)
+      preview-based suggestions/changes should have been made by author or EB member in this phase.
 1. Pull Requests in *Ready To Publish*
    * Final Metadata is added in preparation for publication.
    * PR is moved to *Done*.
