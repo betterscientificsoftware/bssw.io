@@ -88,7 +88,9 @@ each of the numbered steps in the description below.
      * **Author** should indicate approval (or not) of any changes made by **EA** via
        comments in the PR.
    * Approved PRs with **EA** and **Author** approval are merged, and are moved to 
-     *Ready To Publish*.
+     *Ready To Publish*. [Question: If PR is merged, does it automatically close
+      and move to *Done*? If yes, do we need to manually move the closed PR to *Ready 
+      to Publish*?
 1. Pull Requests in *Ready To Publish*
    * Final Metadata is added in preparation for publication.
    * PR is moved to *Done*.
