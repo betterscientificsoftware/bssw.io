@@ -88,14 +88,9 @@ each of the numbered steps in the description below.
        comments in the PR.
    * Approved PRs with **EA** and **Author** approval are merged, and are moved to 
      *Ready To Publish*. 
-   * **Question from Rinku**: (1) If PR is merged, does it automatically close
-      and move to *Done*? If yes, can this automatic behaviour be changed to move PR to *Ready 
-      to Publish*? (2) Is initial metadata added in this phase by EB member? I would think so 
-      since we will need to set metadata for publish=preview to preview article. All the 
-      preview-based suggestions/changes should have been made by author or EB member in this phase.
 1. Pull Requests in *Ready To Publish*
-   * Final Metadata is added in preparation for publication.
-   * PR is moved to *Done*.
+   * A PR is moved from *Ready to Publish* to *Done* once (1) Formatting is checked on 
+     preview site (2) Metadata is complete, (3) Metadata "publish" is set to "yes"
 1. Milestones (deadlines) are reviewed to ensure any items intended for a given
    date are either completed, have reliable commitments they will be completed
    by deadline or are re-assigned a new milestone deadline.
