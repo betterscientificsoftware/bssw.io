@@ -56,8 +56,9 @@ each of the numbered steps in the description below.
    * Any issues with sufficient interest are moved to *In Progress*. An *In Progress* issue
      must have an **Author** and an **EB Member** who is different from the **Author**.
      The **EB Member** will be the assignee of the issue. The **Author** will be indicated
-     by a reference at the top of the first comment in the issue (*not* an @ reference, 
-     use "Author: Foo1, Foo2"). Finally, a deadline is set by assigning a milestone.
+     by a reference at the top of the first comment in the issue (*not* an **@** reference, 
+     use  `Author:Foo1`, `Author:Foo2` to allow for searches). Finally, a deadline is set by
+     assigning a milestone.
    * An issue with sufficient interest but no ready author or EB member is moved to *Ready For 
      Development*.
 1. Issues in *Ready For Development* are handled as follows
