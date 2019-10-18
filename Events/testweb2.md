@@ -78,7 +78,7 @@ cooperation with the German Research Centre for Geosciences.</p>
 #### Contributed by [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
