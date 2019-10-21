@@ -22,8 +22,7 @@ Once you are ready to contribute, please use one of the following approaches to 
 4. Click on the `Get started` (for the article type you want to submit) and follow the instructions to provide a brief description of your idea for a contribution (as a Github issue).
 
 ### What happens next?
-After your issue is submitted, it will be reviewed by the BSSw.io editorial team. We will communicate with you to provide feedback and determine next steps, including a timeline.  To proceed with publishing content on the BSSw site, you will be asked to create a Git [pull request](https://help.github.com/en/articles/creating-a-pull-request), which facilitates review and revision of the article before it is published. *Alternatively, if you are unfamiliar with Git, the BSSw team will work with you to get your article through email or other methods.*
-
+After you have submitted your material by either the simplified or advanced approaches described above, it will be reviewed by the BSSw.io editorial team. We may communicate with you to request clarifications or revisions or to review minor editorial revisions we make. Depending on the modality of your submission, these communications may occur through regular email or through standard GitHub tools and processes.
 
 <!--
 Publish: Yes  
