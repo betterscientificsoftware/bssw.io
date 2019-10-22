@@ -37,7 +37,8 @@ figure.
 
 ![BSSw Pull Request Preview Branch Workflow](../images/PullRequestPrerviewWorkflow.png)
 
-This is a simplification of the "throw-away integration test branch" [???]
+This is a simplification of the [throw-away integration test
+branch](https://docs.google.com/document/d/1uVQYI2cmNx09fDkHDA136yqDTqayhxqfvjFiuUue7wo#heading=h.2r0g9kvx5b2a)
 where the `preview` branch takes the place of the 'next' branch.
 
 In this setup, the `production bssw.io` site is generated from the `master`
