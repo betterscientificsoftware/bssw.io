@@ -35,7 +35,7 @@ are done un-reviewed on `master`.
 An overview of the workflow using a `preview` branch is shown in the below
 figure.
 
-???Preview branch git workflow diagram???
+![BSSw Pull Request Preview Branch Workflow](../images/PullRequestPrerviewWorkflow.png)
 
 This is a simplification of the "throw-away integration test branch" [???]
 where the `preview` branch takes the place of the 'next' branch.
