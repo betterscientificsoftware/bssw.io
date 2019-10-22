@@ -16,7 +16,7 @@ PLEASE NOTE that at this stage, you are expected to only submit a short abstract
 1. If you are not familiar with GitHub, you can submit your content using the [Google form](https://goo.gl/forms/IJyJKbI5OK9Lzcna2).
 
 ### Submisson via web-based GitHub
-If you are familiar with GitHub, please do use the GitHub approach to submit your content. This is our preferred approach.
+If you are familiar with GitHub, please do use the below approach to submit your content. This is our preferred approach.
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
 2. Click on the `Issues` tab (which is the 2nd tab on the left, just below 'betterscientificsoftware')
 3. Click on  the `New issue` button
