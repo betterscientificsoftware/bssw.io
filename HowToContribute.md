@@ -13,8 +13,7 @@ The first step when it comes to contributing to BSSw is checking whether your co
 At this stage, you are requested to only submit a short abstract of your article. Once reviewed, if accepted, you will be contacted to submit the complete version. Once you are ready to contribute, please use one of the following approaches to submit your article.  
 
 ### Submission via Google form submission
-If you are not familiar with GitHub, you can use the Google form for submission
-1. This requires you to enter information in this [Google form](https://goo.gl/forms/IJyJKbI5OK9Lzcna2).
+1. If you are not familiar with GitHub, you can submit your content using the [Google form](https://goo.gl/forms/IJyJKbI5OK9Lzcna2).
 
 ### Submisson via web-based GitHub
 If you are familiar with GitHub, please do use the GitHub approach to submit your content. This is our preferred approach.
