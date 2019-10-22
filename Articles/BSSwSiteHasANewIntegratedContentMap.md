@@ -16,7 +16,7 @@ Goals of the content map are to present resources according to six primary categ
 
 We encourage feedback on this new functionality—and the site overall.  We would greatly appreciate reports of any difficulties you may encounter.  Please [contact the BSSw team](https://bssw.io/contact) with your comments and suggestions.  
 
-As always, we welcome [contributions to the BSSw site](https://bssw.io/contributes/new). If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an original article or point users to existing resources you find useful.
+As always, we welcome [contributions to the BSSw site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software). If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an original article or point users to existing resources you find useful.
 
 Many thanks.
 
