@@ -40,7 +40,7 @@ You can contribute too.  Of course, you can undertake outreach activities of you
 
 But if you don’t have the time for that, you can still help.  Do you have to topic to suggest for a future HPC Best Practices webinar?  Do you want to give a webinar?  Send us an email at <IDEASProductivity@gmail.com>.  
 
-Or become a contributor to **BSSw.io**. We're trying to make contributing as easy as possible.  If there is a resource you've found useful that's not already on BSSw, please [contribute it](https://bssw.io/contributes/new) to the site.  
+Or become a contributor to **BSSw.io**. We're trying to make contributing as easy as possible.  If there is a resource you've found useful that's not already on BSSw, please [contribute it](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software) to the site.  
 
 We also welcome additional participants in our outreach activities. You can check the IDEAS Productivity Project's [Events]( https://ideas-productivity.org/events/) page for tutorials, webinars, and other events (as well as past ones) or [subscribe to our mailing list](http://eepurl.com/cQCyJ5) (~2-3 messages per month).  And as a pre-announcement, we will be offering an expanded full-day version of our [Better Scientific Software Tutorial](https://bssw.io/events/better-scientific-software-sc17-tutorial) at SC18 in Dallas, TX.
 
