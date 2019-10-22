@@ -10,7 +10,7 @@ Do you want to help the community work toward a long-term goal of advancing scie
 
 The first step when it comes to contributing to BSSw is checking whether your content a good fit.  Please see [What To Contribute](./WhatToContribute.md) for information on scope.  If you are still unsure, please [contact us](./QuestionsAboutContributing.md).
 
-At this stage, you are requested to only submit a short abstract of your article. Once reviewed, if accepted, you will be contacted to submit the complete version. Once you are ready to contribute, please use one of the following approaches to submit your article.  
+PLEASE NOTE that at this stage, you are expected to only submit a short abstract of your article. Once reviewed and if accepted, you will be contacted to submit the complete version. Once you are ready to contribute, please use one of the following approaches to submit your article.  
 
 ### Submission via Google form submission
 1. If you are not familiar with GitHub, you can submit your content using the [Google form](https://goo.gl/forms/IJyJKbI5OK9Lzcna2).
