@@ -1,7 +1,6 @@
 ---
 name: Curated Content
 about: A brief article that highlights another resource and outlines why the HPC/CSE community may value it.  
-title: Possible Curated Content
 labels: curated content ideas
 ---
 
