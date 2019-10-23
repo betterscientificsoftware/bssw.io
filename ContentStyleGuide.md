@@ -159,7 +159,7 @@ Many times, a curated article may have a collection of various types of resource
 1. Contains one or more paragraph about the resource.
 2. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
 3. Its good for body text to go into details of why the resource is interesting and to what audience. 
-4. This text should not be a copy-paste from a website. Rather, please write this in your onwards to avoid legal issues
+4. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
 
 #### Logo
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
