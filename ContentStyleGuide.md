@@ -23,7 +23,7 @@ Following are the guidelines below for naming resources/contents and their files
 ## Naming your content in Github repo
 This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. Most points have been taken from the original [Styleguide.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/StyleGuide.md) file, present in the main betterscientificsoftware.github.io repo.
 
-For naming a content i.e. creating a filename, please follow the following rules rules: Filename should be same as resource/content name, adding the suffix ".md" to indicate a Markdown file
+For naming a content i.e. creating a filename, please follow the following rules: Filename should be same as resource/content name, adding the suffix ".md" to indicate a Markdown file
 
 - For curated content: Follow name of content (e.g., title of book, article, event, site)
 - No spaces
@@ -46,7 +46,7 @@ All resources have the following sections, in common:
 A Content title should be simple and straighforward. Please read *Styling Rules* for individual types of content (below) to see if there are any specific guidelines for each content type.
 
 ### Content Deck
-A Content deck is a one or two sentence resource description of limited length and whichappears in header area of articles on the frontend bssw.io site. Please read *Styling Rules* for individual types of content (below) to see if there are any specific guidelines for each content type.
+A Content deck is a one or two sentence resource description of limited length and which appears in header area of articles on the frontend bssw.io site. Please read *Styling Rules* for individual types of content (below) to see if there are any specific guidelines for each content type.
 
 ### Content Description:
 This is the main body, explaining the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *Styling Rules* for individual types of content described later in the article.
