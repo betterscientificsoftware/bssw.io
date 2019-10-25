@@ -22,5 +22,6 @@ Rene is an Assistant Project Scientist in the Earth and Planetary Sciences Depar
 
 ### Selected resources
 
+<a href="https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects " class="link-row">HPC Best Practices Webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects</a>
 <a href="https://github.com/gassmoeller/BSSC " class="link-row">Better Scientific Software Communities</a>
 
