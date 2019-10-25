@@ -21,7 +21,7 @@ In recent years scientific software projects have increasingly incorporated stat
 
 
 <!---
-Publish: yes
+Publish: no
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: 
