@@ -4,13 +4,15 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
 
-#### Contributed by [Neil Chue Hong](https://github.com/npch "Neil Chue Hong GitHub Profile") and [Benjamin Cowan](https://www.txcorp.com “Tech-X website”)
+#### Contributed by [Neil Chue Hong](https://github.com/npch "Neil Chue Hong GitHub Profile") 
 
 #### Publication date: October 31, 2019
 
 With All Hallows Eve upon us once more, as the souls of the dead come to haunt us, it’s time to recount terrifying tales and scary stories… about software. You might think that research software is safe from such gruesome goings-on but you would be wrong, for there are many undead projects out to devour us.
 
 Here’s how to recognise some of these spooky software, along with other pestilent projects, and dispatch them back whence they came.
+
+**To do: Add Benjamin Cowan Github ID so that he appears as a contributor above (and on the BSSw contributors page) **
 
 #### Vampires: 
 Suck the lifeblood out of other projects around them, draining them of resources. Vampire software projects are typically successful (vampires are very charismatic), they’re just not great to have too close by. They are created when a group has developed a successful piece of research software, but the resources needed to feed it have grown out of hand, leading to other projects being drained of their lifeblood (developers) to keep the vampire alive. You need to decide whether to drive a stake through a vampire’s heart to save your village (team), or just restrict its activities with judicious use of garlic and feature roadmaps.
@@ -53,6 +55,7 @@ The original idea behind this blog post was first presented by Neil Chue Hong as
 
 Neil Chue Hong is Director of the Software Sustainability Institute ([SSI](https://www.software.ac.uk)) and Senior Research Fellow at the [EPCC](https://www.epcc.ed.ac.uk), University of Edinburgh.
 Benjamin Cowan is a Senior Research Scientist at [Tech-X Corporation](https://www.txcorp.com).
+
 
 <!---
 Publish: preview
