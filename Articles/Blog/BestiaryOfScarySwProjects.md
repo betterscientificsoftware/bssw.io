@@ -4,7 +4,9 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
 
-#### Contributed by [Neil Chue Hong](https://github.com/npch "Neil Chue Hong GitHub Profile") and [Benjamin Cowan](https://github.com/benc303 "Ben Cowan GitHub Profile")
+#### Contributed by [Neil Chue Hong](https://github.com/npch "Neil Chue Hong GitHub Profile") 
+
+<!-- and [Benjamin Cowan](https://github.com/benc303 "Ben Cowan GitHub Profile") ... waiting for a picture on GitHub -->
 
 #### Publication date: October 31, 2019
 
