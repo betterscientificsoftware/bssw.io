@@ -1,9 +1,7 @@
 # A Style Guide for BSSw content
 
 <!-- this is manual table of contents. We need a better way to write one. This is a good tool: https://ecotrust-canada.github.io/markdown-toc/) -->
-## Table of Contents
 - [A Style Guide for BSSw content](#a-style-guide-for-bssw-content)
-  * [Table of Contents](#table-of-contents)
   * [Background](#background)
   * [Where to place your content in Github repo?](#where-to-place-your-content-in-github-repo-)
   * [Naming your content in Github repo](#naming-your-content-in-github-repo)
@@ -32,6 +30,16 @@
       - [Logo](#logo)
       - [References](#references)
     + [Original Article](#original-article)
+    + [Blog Articles](#blog-articles)
+      - [Publication and Announcements](#publication-and-announcements)
+      - [Length](#length)
+      - [Source Format](#source-format)
+        * [Detailed Formatting Tips](#detailed-formatting-tips)
+      - [Employer Approval](#employer-approval)
+      - [Content](#content)
+        * [General](#general)
+        * [Links, and References](#links--and-references)
+        * [Images](#images)
     + [Events](#events)
   * [Understanding Metadata](#understanding-metadata)
       - [Publish](#publish)
@@ -41,7 +49,6 @@
       - [Level](#level)
       - [Prerequisites](#prerequisites)
       - [Aggregate](#aggregate)
-
 
 ## Background
 
@@ -216,6 +223,50 @@ What are rules for these?
 
 ### Original Article
 There is a style guide for blogs in the main bssw directory called "StyleGuideBlog.md". This needs to be reviewed, applicable parts need to be put in this document and refined further
+
+------------------
+### Blog Articles
+
+All text under blog articles is taken from the old blog guide. The text needs to be reviewed and corrected.
+
+#### Publication and Announcements
+Blog articles appear here: https://bssw.io/blog_posts and also are announced on the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) (monthly).
+
+#### Length
+General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
+
+#### Source Format
+We use [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for blog article markup.  However we'll work with you at accept other formats.
+
+A skeleton Markdown template for a blog article, which you can copy and customize is available at https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md
+
+You can provide a pull request for the article in the appropriate directory of the repository: https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Articles/Blog
+
+If you prefer to use another format, you can email the draft to the editor you've been dealing with.
+
+##### Detailed Formatting Tips
+ - The formatting to include a hero image is a bit finicky.
+   - The `**Hero Image:**` tag must be followed by a blank line
+   - The image itself must be in a Markdown list item (that is, it starts with `-`)
+ - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter
+ - Having a deck and having a hero image in a blog post are mutually exclusive
+   - A way to approximate having both is to have the hero image and then put the deck as your first (short) paragraph after the image and italicize it.
+ - `#### Publication date:` is case sensitive (`d` in particular)
+
+#### Employer Approval
+If your employer requires an internal review and approval process prior to publication, please let us know.
+
+#### Content
+##### General
+
+*Need to say something here*
+
+##### Links, and References
+We encourage you to point to a modest numder of additional resources that enhance your article.  Too many links tend to distract readers.  In most cases, we would like to have the items you refer to in BSSw.  These would usually be what we call "curated content", which means short items that provide a pointer to an extenral resource with a short description.  You're welcome to prepate those as separate contributions, and we're happy to help.
+
+##### Images
+*Need to say something about what kind of images we want to encourage/discourage and point to writeup of how to deal with images in the other repo.*
+
 
 ### Events
 Is there an existing style guide for events? I did not find any.
