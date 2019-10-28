@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/images/Blog_1019_Hero_1136x432.png ' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1019_Hero_1136x432.png ' />
 
 #### Contributed by [Neil Chue Hong](https://github.com/npch "Neil Chue Hong GitHub Profile") 
 
