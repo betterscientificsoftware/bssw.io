@@ -1,7 +1,8 @@
 # A Style Guide for BSSw content
 
-
+## Table of Contents
 - [A Style Guide for BSSw content](#a-style-guide-for-bssw-content)
+  * [Table of Contents](#table-of-contents)
   * [Background](#background)
   * [Where to place your content in Github repo?](#where-to-place-your-content-in-github-repo-)
   * [Naming your content in Github repo](#naming-your-content-in-github-repo)
@@ -32,14 +33,14 @@
     + [Original Article](#original-article)
     + [Events](#events)
   * [Understanding Metadata](#understanding-metadata)
-      - [Publish: Publish on the BSSw front-end site?](#publish--publish-on-the-bssw-front-end-site-)
-      - [Categories: Primary display via BSSw website interface](#categories--primary-display-via-bssw-website-interface)
-      - [Topics: Visible filters via BSSw website interface](#topics--visible-filters-via-bssw-website-interface)
-      - [Tags: Optional additional keywords for searches](#tags--optional-additional-keywords-for-searches)
-      - [Level: Specify level of detail and depth of content](#level--specify-level-of-detail-and-depth-of-content)
-      - [Prerequisites: Specify files for any assumed knowledge on the BSSw site (usually Level 0 and Level1 BSSw docs)](#prerequisites--specify-files-for-any-assumed-knowledge-on-the-bssw-site--usually-level-0-and-level1-bssw-docs-)
-      - [Aggregate: Optional info for aggregating content to define a more complex resource](#aggregate--optional-info-for-aggregating-content-to-define-a-more-complex-resource)
-      
+      - [Publish](#publish)
+      - [Categories](#categories)
+      - [Topics](#topics)
+      - [Tags](#tags)
+      - [Level](#level)
+      - [Prerequisites](#prerequisites)
+      - [Aggregate](#aggregate)
+
 
 ## Background
 
@@ -230,13 +231,15 @@ For all content types, we have the following meta-data that needs to be put, at 
 
 Each aspect of metadata is described below.
 
-#### Publish: Publish on the BSSw front-end site?
+#### Publish
+This is used to Publish on the BSSw front-end site.
 - Publish: Yes
 - Publish: No
 
 Only files designated as 'Publish: Yes' will be published on the front-end BSSw site.  Work that has not been finalized or is not intended for the front-end site should be designated 'Publish: No'. *ISNT THERE A PREVIEW OPTION, AS WELL?*
 
-#### Categories: Primary display via BSSw website interface
+#### Categories
+Categories are primaily display via BSSw website interface.
 [BSSw curators may add/revise topics as needed over time.]
 - Planning
 - Development
@@ -245,7 +248,8 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
 - Collaboration
 - Skills
 
-#### Topics: Visible filters via BSSw website interface
+#### Topics
+Topics are visible filters via BSSw website interface.
 - All categories and also finer grain topics within categories
   [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
 - **Planning**
@@ -281,25 +285,29 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Personal productivity and sustainability
     - Online learning
 
-#### Tags: Optional additional keywords for searches
+#### Tags
+Tags are optional additional keywords for searches
 *This needs to be described better. Its not clear to me how we are using this*
 - We currently do not use them for on front-end website. 
 
-#### Level: Specify level of detail and depth of content
+#### Level
+We specify level of detail and depth of content.
 *This needs to be described better. Its not clear to me how we are using this*
 - **Level 0**:  BSSw WhatIs document
 - **Level 1**:  BSSw HowTo document (or equivalent level of detail)
 - **Level 2**:  More detailed content, beginner or intermediate levels
 - **Level 3**:  Advanced content
 
-#### Prerequisites: Specify files for any assumed knowledge on the BSSw site (usually Level 0 and Level1 BSSw docs)
+#### Prerequisites
+Used to specify files for any assumed knowledge on the BSSw site (usually Level 0 and Level1 BSSw docs)/
 *This needs to be described better. Its not clear to me how we are using this*
 - Most prerequisites are specified automatically according to Topics. In this case, use:
    - Prerequisites: default
 - Specify additional prerequisites only for information not already covered by Topics.
    - Prerequisites: filename1.md, filename2.md, etc.
 
-#### Aggregate: Optional info for aggregating content to define a more complex resource
+#### Aggregate
+This is optional info for aggregating content to define a more complex resource.
 *This needs to be described better. Its not clear to me how we are using this*
  - Aggregate: none
    - Note an aggregate resource
