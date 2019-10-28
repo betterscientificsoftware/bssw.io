@@ -1,5 +1,6 @@
 # A Style Guide for BSSw content
 
+<!-- this is manual table of contents. We need a better way to write one. This is a good tool: https://ecotrust-canada.github.io/markdown-toc/) -->
 ## Table of Contents
 - [A Style Guide for BSSw content](#a-style-guide-for-bssw-content)
   * [Table of Contents](#table-of-contents)
