@@ -21,17 +21,17 @@ that scientists and engineers must often double as part-time software
 developers, with activities ranging from writing small-scale scripts
 for their research to highly complex code that will be used on top
 supercomputers of the world. But, while software development skills
-are becoming as integral to science and engineering as much laboratory
+are becoming as integral to science and engineering as much as laboratory
 skills, the community hasn't developed a culture of training for
 the relevant software skills.
 
 The paper surveys close to 150 researchers, encompassing people
 from a rich educational background (with 82% respondents having a
-PhD, which is one of the highest globally recognized degree for
+PhD, which is one of the highest globally recognized degrees for
 students) from the domain of mathematics and statistics, engineering,
 and computer science. Also relevant is the fact, is that the survey
 tries to analyze how respondents spent their time fractions - whether
-its developing research software, production software or focussing
+developing research software, production software or focussing
 on both types. The survey tried to cover a broad spectrum of software
 engineering practices such as version control, documentation,
 verification and validation, testing, design requirements, issue
