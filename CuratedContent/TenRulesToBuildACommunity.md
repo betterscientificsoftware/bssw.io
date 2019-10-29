@@ -20,3 +20,5 @@ veteran team members leave such issues alone (e.g. don't go fixing them :smile:)
 A key aspect to *sustainability* is to build a community; not just *users* of the software but also
 advocates, mentors, developers, maintainers and even project leaders. The article is about a
 15 minute read with many concrete suggestions and practices to start building your community.
+
+#### Contributed by [Christoph Junghans](https://github.com/orgs/betterscientificsoftware/people/junghans) and [Mark C. Miller](https://github.com/orgs/betterscientificsoftware/people/markcmiller86)
