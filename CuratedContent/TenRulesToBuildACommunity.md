@@ -4,6 +4,12 @@ In [*Ten simple rules for helping newcomers become contributors to open projects
 the authors go into significant detail and present a number of practical steps to help
 newcomers start with and remain engaged with a software project.
 
+Resource information | Details
+:--- | :--- 
+Paper title  | [Ten simple rules for helping newcomers become contributors to open projects](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1007296)
+Authors | Sholler D, Steinmacher I, Ford D, Averick M, Hoye M, Wilson G
+Publication | Year 2019, PLOS Computational Biology, DOI: [10.1371/journal.pcbi.1007296](https://doi.org/10.1371/journal.pcbi.1007296)
+
 A key point in particular
 was for the project to seek to develop various forms of
 [*legitimate peripheral participation*](https://en.wikipedia.org/wiki/Legitimate_peripheral_participation) for
