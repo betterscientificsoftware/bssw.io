@@ -13,8 +13,8 @@ Publication | Year 2019, PLOS Computational Biology, DOI: [10.1371/journal.pcbi.
 An interesting example from the article encourages projects to seek to develop various forms of
 [*legitimate peripheral participation*](https://en.wikipedia.org/wiki/Legitimate_peripheral_participation) for
 newcomers. That is, simpler, lower risk tasks that nonetheless contribute to and further the
-goals of the overall project. Another interesting tip was to tag issues with a
-recogniziable label to indicate such issues are good for newcomers *as well as* to ensure
+goals of the overall project. Another interesting tip is to tag issues with a
+recogniziable label to indicate they are good for newcomers and also to ensure
 veteran team members leave such issues alone (e.g. don't go fixing them :smile:).
 
 A key aspect to *sustainability* is to build a community; not just *users* of the software but also
