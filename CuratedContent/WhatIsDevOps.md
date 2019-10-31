@@ -4,13 +4,13 @@ DevOps has become a catch-all term in agile organizations, but defiing what it *
 
 Resource information | Details 
 :--- | :--- 
-Resource name  | What is Devlops
+Resource name  | What is DevOps
 Website  | https://theagileadmin.com/what-is-devops
 Focus | DevOps concepts
 
-DevOps means a lot of different things to different people because the discussion around it covers a lot of ground.  Mueller does a nice job of discussing many of the complexities and trade-offs in all this ground including a bit of history lesson, but two items stood out the most to me.
+DevOps means a lot of different things to different people because the discussion around it covers a lot of ground.  Mueller does a nice job of discussing many of the complexities and trade-offs in all this ground, including a bit of a history lesson. Two items stood out the most to me.
 
-- The discussion focuses on web apps - a common issue for HPC practioners. Don't let that stop you from understanding and applying these concepts.
+- The discussion focuses on web apps - not a common issue for HPC practitioners. Don't let that stop you from understanding and applying these concepts.
 
 - Mueller includes an entire section titled `What is DevOps Not?` in which he walks us through a lot of the pitfalls and complaints that keep organizations from gaining the benefits of DevOps.
 
