@@ -47,7 +47,9 @@ For many, the biggest software sustainability challenge is not how to sustain so
 
 ### Acknowledgments
 
-The original idea behind this blog post was first presented by Neil Chue Hong as a white paper at the [2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/) before being revised and extended for this blog post, which is cross-posted on the [SSI](https://www.software.ac.uk), [BSSw](https://bssw.io), and [URSSI](http://urssi.us) sites. [Daniel S Katz](https://danielskatz.org) provided feedback on the original version. Benjamin Cowan haunted the document with the plague rat and parasite examples, along with a revised ghost description, for this version. Neil is always looking for new specimens - email to contribute.
+The original idea behind this blog post was first presented by Neil Chue Hong as a white paper at the [2019 Collegeville Workshop on Sustainable Scientific Software (CW3S19)](https://collegeville.github.io/CW3S19/) before being revised and extended for this blog post, which is cross-posted on the [SSI](https://www.software.ac.uk), [BSSw](https://bssw.io), and [URSSI](http://urssi.us) sites. [Daniel S Katz](https://danielskatz.org) provided feedback on the original version. Benjamin Cowan haunted the document with the plague rat and parasite examples, along with a revised ghost description, for this version. Neil is always looking for new specimens - email to contribute.  
+
+Photo by Daniel Jensen on [Unsplash](https://unsplash.com/photos/NMk1Vggt2hg).
 
 ### Author bios
 
