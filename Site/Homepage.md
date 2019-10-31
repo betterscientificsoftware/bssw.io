@@ -8,7 +8,7 @@ Slide1 Left: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-sof
 Slide1 Right: images/raw/master/Blog_1019_Hero_1136x432.png
 Slide2 Left: items/balter-s-rules-for-github-communication
 Slide2 Right: items/what-is-devops
-Slide3 Left: events/webinar-building-community-policies-through-xsdk-software-policies
+Slide3 Left: events/webinar-building-community-through-xsdk-software-policies
 Slide3 Right: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
 Slide4 Left: blog_posts/research-software-science-a-scientific-approach-to-understanding-and-improving-how-we-develop-and-use-software-for-research
 Slide4 Right: blog_posts/data-driven-software-sustainability
