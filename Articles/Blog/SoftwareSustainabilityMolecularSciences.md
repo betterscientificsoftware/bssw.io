@@ -236,9 +236,9 @@ American Chemical Society and the winner of 2010 Dirac Medal of the World
 Association of Theoretical and Computational Chemists.
 
 <!---
-Publish: No
-Categories: reliability
-Topics: testing
+Publish: preview
+Categories: Skills
+Topics: Projects and Organizations, Design, Software Interoperability, Conferences and Workshops
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
