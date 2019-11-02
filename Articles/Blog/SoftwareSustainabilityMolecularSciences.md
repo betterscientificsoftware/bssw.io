@@ -235,6 +235,7 @@ molecular response properties in liquid environments. He is a Fellow of the
 American Chemical Society and the winner of 2010 Dirac Medal of the World
 Association of Theoretical and Computational Chemists.
 
+
 <!---
 Publish: preview
 Categories: Skills
