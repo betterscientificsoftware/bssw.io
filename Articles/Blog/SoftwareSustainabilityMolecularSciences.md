@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1119_MolecularSCI_1136x432.png' />
  
 The hero image must be this dimension.  Put it in the images repo:  https://github.com/betterscientificsoftware/images
 
