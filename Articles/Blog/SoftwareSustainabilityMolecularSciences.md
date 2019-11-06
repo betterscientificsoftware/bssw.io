@@ -8,8 +8,8 @@
 
 #### Publication date: November 14, 2019
 
-The molecular sciences -— including chemistry, materials, biophysics and
-biochemistry —- have a long history of developing software to answer core
+The molecular sciences -- including chemistry, materials, biophysics and
+biochemistry -- have a long history of developing software to answer core
 scientific questions. The field also has a long history of challenges to
 software sustainability. This blog article discusses some of the software
 sustainability challenges and the opportunities and possible solutions that the
