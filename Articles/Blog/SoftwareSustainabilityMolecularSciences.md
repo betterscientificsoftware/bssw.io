@@ -3,12 +3,10 @@
 **Hero Image:**
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1119_MolecularSCI_1136x432.png' />
- 
-The hero image must be this dimension.  Put it in the images repo:  https://github.com/betterscientificsoftware/images
 
 #### Contributed by [Theresa L. Windus](https://github.com/twindus "Theresa L. Windus GitHub Profile") and [T. Daniel Crawford](https://github.com/lothian "T. Daniel Crawford GitHub Profile")
 
-#### Publication date: July 10, 2019
+#### Publication date: November 14, 2019
 
 The molecular sciences -— including chemistry, materials, biophysics and
 biochemistry —- have a long history of developing software to answer core
@@ -211,7 +209,7 @@ continued formation of positions related to scientific software development.
 This blog post is based on a white paper at the [2019 Collegeville Workshop on
 Sustainable Scientific Software
 (CW3S19)](https://collegeville.github.io/CW3S19/) and is cross-posted on the
-[BSSw](https://bssw.io) site.
+[BSSw](https://bssw.io) and [URSSI](http://urssi.us) sites.
 
 ### Author bios
 
@@ -238,8 +236,8 @@ Association of Theoretical and Computational Chemists.
 
 <!---
 Publish: preview
-Categories: Skills
-Topics: Projects and Organizations, Design, Software Interoperability, Conferences and Workshops
+Categories: Skills, Planning
+Topics: Projects and Organizations, Conferences and Workshops, Design, Software Interoperability
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
