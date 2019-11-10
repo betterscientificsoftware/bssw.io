@@ -24,7 +24,7 @@ advocates, mentors, developers, maintainers and even project leaders. The articl
 #### Contributed by [Christoph Junghans](https://github.com/junghans "Christoph Junghans GitHub Profile") and [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: collaboration
 Topics: Strategies for More Effective Teams
 Level: 2
