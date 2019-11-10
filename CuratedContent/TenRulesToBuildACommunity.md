@@ -21,4 +21,13 @@ A key aspect to *sustainability* is to build a community; not just *users* of th
 advocates, mentors, developers, maintainers and even project leaders. The article is about a
 15 minute read with many concrete suggestions and practices to start building your community.
 
-#### Contributed by [Christoph Junghans](https://github.com/orgs/betterscientificsoftware/people/junghans) and [Mark C. Miller](https://github.com/orgs/betterscientificsoftware/people/markcmiller86)
+#### Contributed by [Christoph Junghans](https://github.com/junghans "Christoph Junghans GitHub Profile") and [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
+
+<!---
+Publish: preview
+Categories: collaboration
+Topics: Strategies for More Effective Teams
+Level: 2
+Prerequisites: defaults
+Aggregate: none
+--->
