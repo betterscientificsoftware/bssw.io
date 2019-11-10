@@ -12,10 +12,10 @@ The molecular sciences -- including chemistry, materials, biophysics and
 biochemistry -- have a long history of developing software to answer core
 scientific questions. The field also has a long history of challenges to
 software sustainability. This blog article discusses some of the software
-sustainability challenges and the opportunities and possible solutions that the
-molecular sciences software development community is working toward.
+sustainability challenges and the opportunities/possible solutions that the
+Molecular Sciences Software Institute (MolSSI) is working toward with the molecular sciences software development community.
 
-The [Molecular Sciences Software Institute (MolSSI)](https://molssi.org/)
+The [MolSSI](https://molssi.org/)
 is an NSF-funded project that is a nexus for science, education, and
 cooperation for the global computational molecular sciences community. Funded in
 2016,  the MolSSI seeks to provide software expertise and
@@ -58,10 +58,8 @@ resources being needed across the community to sustain the software.
 Much of the early software in the field was developed in an academic setting
 where little or no software engineering practices were used. To be fair, the
 wealth of software engineering practices in vogue today were not taught (or even
-developed) at the time of these early programs. In addition, molecular scientists generally
-had no formal training in the computer sciences, including
-use of languages and data structures. Even today, graduate degrees in the
-molecular sciences generally require a minimum number of computer science courses, and adding
+developed) at the time of these early programs. In addition, there was generally no formal training of molecular scientists in the computer sciences including use of languages and data structures. Even today, graduate degrees in the
+molecular sciences generally require a minimum number of courses, and adding
 additional courses is often discouraged in lieu of more time spent on research.
 Undergraduate curricula in the molecular sciences already include a significant
 amount of coursework, and adding additional requirements can be difficult,
@@ -81,8 +79,8 @@ commitment of the developer community. If the software is open source, this
 includes the cost of the developers for the initial development and incentives
 and appropriate licensing models that facilitate external developer communities.
 Of importance here are low barriers to entry -- ease of development,
-documentation, communication among the software developers, and so on. 
-Developing this community can take time and effort -- and
+documentation, communication among the software developers, etc. 
+Developing this community can take time and effort, and
 therefore expense. In addition, the software development must align with 
 user needs. Consistent and frequent communication with potential and existing
 users is necessary in order to ensure that the demand will be high. Factors that
@@ -136,11 +134,11 @@ As one of the most significant parts of our agenda, the MolSSI has engaged in a
 large education and outreach effort. The MolSSI offers summer schools,
 educational workshops, and tutorials at the undergraduate, graduate, and
 postgraduate levels that focus on best practices in software engineering and
-application of those techniques to important topics in the molecular sciences. Several
+applying those techniques to important topics in the molecular sciences. Several
 of our workshops also address programming issues related to changing hardware
 and high-performance computing. To date, these activities have reached over 300
 students, and best software practices are becoming the de facto standard for the
-field. Materials also are made available online in tutorial form for
+field. Materials also are made available online in a tutorial form for
 those who cannot make the formal meetings or who have specific needs. In
 addition, the MolSSI has developed an online resource page for best practices
 and has partnered with the [Better Scientific Software](https://bssw.io/) effort to
@@ -162,7 +160,7 @@ the communities. Many of these recommendations -- such as creating API standards
 and key infrastructure to help codes work together to enable world-class science
 solutions -- have huge potential to increase software sustainability in the
 community. We note that most of these workshops are led by members of
-the community and not by the MolSSI itself: we are a key partner in the
+the community and not by the MolSSI itself; we are a key partner in the
 workshops, but the organizers determine the primary topics of discussion.
 
 #### Software and data API standards
@@ -185,23 +183,16 @@ the most successful products for their needs.
 
 Of course, this primarily MolSSI-developed infrastructure software faces its own
 sustainability challenges. However, the MolSSI strives to practice what it
-preaches, working closely with its users (mostly developers of
-simulation codes, but also actual end users): using thoughtful design to enable
-modularity, separation of concerns, reusability, and ease of use; using standard
-APIs that enable a broad swath of developers to engage; developing documentation
-(both user and developer); using distributed version-control systems, such as
-GitHub, automatic testing, and messaging tools to engage new developers and
-track issues; and building the user community through seminars, workshops, and
-personal communication. The MolSSI will also continue to engage with commercial
+preaches: designing and developing with its users (mostly developers of simulation codes, but also actual end users); using thoughtful design to enable modularity, separation of concerns, reusability, and ease of use; using standard APIs that enable a broad swath of developers to engage; developing documentation (both user and developer); using distributed version-control systems, such as GitHub, automatic testing, and messaging tools to engage new developers and track issues; and building the user community through seminars, workshops, and personal communication. The MolSSI will also continue to engage with commercial
 interests to provide training (as appropriate) and services associated with the
 software that is being developed.
 
-Additionally, the MolSSI is working to encourage new metrics within the field to
-reward those who take the software development path -- other than 
+Finally, the MolSSI is working to encourage new metrics within the field to
+reward those who take the software development path -- other than a large salary at
  an industrial position not related to molecular sciences. These efforts
 include encouraging developers to use DOIs for their software and datasets,
 raising the level of a software release to the same level as a publication, and 
-using data within tools such as GitHub to show productivity. The MolSSI also is encouraging the
+using data within tools such as GitHub to show productivity, as well as encouraging the
 continued formation of positions related to scientific software development.
 
 ### Acknowledgments
@@ -215,21 +206,21 @@ Sustainable Scientific Software
 
 Distinguished Professor [Theresa Windus](mailto:twindus@iasate.edu) is the
 Liberal Arts and Sciences Dean's Professor at Iowa State University and a
-laboratory associate with Ames Laboratory. She received her bachelor’s degree in
+Laboratory Associate with Ames Laboratory. She received her bachelor’s degree in
 chemistry, mathematics, and computer science from Minot State University and her
-Ph.D. from Iowa State University. She is currently the director of the NWChemEx
-DOE Exascale Computing Project and deputy director of the MolSSI. Her research
+Ph.D. from Iowa State University. She is currently the Director of the NWChemEx
+DOE Exascale Computing Project and Deputy Director of the MolSSI. Her research
 focuses on the development of high-performance computational chemistry methods
-and their use in practical applications. She is a fellow of the American
+and their use in practical applications. She is a Fellow of the American
 Association for the Advancement of Science and has garnered multiple research
 and teaching awards.
 
 Dr. [T. Daniel Crawford](mailto:crawdad@vt.edu) is University Distinguished
-Professor of Chemistry at Virginia Tech and the director of the Molecular
+Professor of Chemistry at Virginia Tech and the Director of the Molecular
 Sciences Software Institute in Blacksburg, Virginia. He received his bachelor's
 degree in chemistry in 1992 from Duke University and his Ph.D. in 1996 from the
 University of Georgia. His research focuses on quantum chemical models of
-molecular response properties in liquid environments. He is a fellow of the
+molecular response properties in liquid environments. He is a Fellow of the
 American Chemical Society and the winner of 2010 Dirac Medal of the World
 Association of Theoretical and Computational Chemists.
 
