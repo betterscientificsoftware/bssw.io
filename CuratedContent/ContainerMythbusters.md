@@ -13,7 +13,7 @@ security vulnerabilities and container runtimes for High Performance Computing
 Resource information | Details 
 :--- | :--- 
 Tutorial title  | Container Mythbusters 
-Presenter | Michael Jennings, 2019
+Presenter | [Michael Jennings](https://github.com/mej), 2019
 Web links | [Video](https://www.youtube.com/watch?v=FFyXdgWXD3A&feature=youtu.be)
 Focus | Container Technologies and Vulnerabilities
 
@@ -47,7 +47,7 @@ container solution.
 - [Podman](https://podman.io/)
 - [Shifter](https://www.nersc.gov/research-and-development/user-defined-images/)
 <!---
-Publish: 
+Publish: yes
 Categories: Development, Reliability, Performance
 Topics: Release and Deployment, Performance Portability, Reproducibility 
 Level: 
