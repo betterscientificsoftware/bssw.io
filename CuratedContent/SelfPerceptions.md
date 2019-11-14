@@ -1,5 +1,5 @@
 
-# A Look into Self-Perceptions about Software Engineering in the Scientic Community
+# A Look into Self-Perceptions about Software Engineering in the Scientific Community
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta Github Profile")
 
@@ -20,19 +20,18 @@ for the scientific software community even today. The article recognizes
 that scientists and engineers must often double as part-time software
 developers, with activities ranging from writing small-scale scripts
 for their research to highly complex code that will be used on top
-supercomputers of the world. But, while software development skills
-are becoming as integral to science and engineering as much as laboratory
-skills, the community hasn't developed a culture of training for
+supercomputers of the world. While software development skills
+are becoming as integral to science and engineering as laboratory
+skills are, the community hasn't developed a culture of training for
 the relevant software skills.
 
 The paper surveys close to 150 researchers, encompassing people
 from a rich educational background (with 82% respondents having a
-PhD, which is one of the highest globally recognized degrees for
-students) from the domain of mathematics and statistics, engineering,
-and computer science. Also relevant is the fact, is that the survey
-tries to analyze how respondents spent their time fractions - whether
-developing research software, production software or focussing
-on both types. The survey tried to cover a broad spectrum of software
+PhD) from the domains of mathematics and statistics, engineering, and 
+computer science. Also, the survey
+analyzes how respondents spent their time fractions - whether
+developing research software, production software or focusing
+on both types. The survey covers a broad spectrum of software
 engineering practices such as version control, documentation,
 verification and validation, testing, design requirements, issue
 and bug tracking, code reviews, acceptance testing, agile method,
