@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/hello_world_sun_heat.png'/>
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_110619.png'/>
 
 #### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
 

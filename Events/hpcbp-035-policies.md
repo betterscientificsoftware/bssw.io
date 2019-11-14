@@ -20,7 +20,7 @@
 
 
 
-# Webinar: Building Community Policies through xSDK Software Policies
+# Webinar: Building Community through xSDK Software Policies
 
 - Date: 2019-12-11
 - Location: Online
@@ -35,7 +35,7 @@ high-performance computers (HPC) and occur approximately monthly.
 
 Resource Information | Details
 :--- | :---			   
-Webinar Title | Building Community Policies through xSDK Software Policies
+Webinar Title | Building Community through xSDK Software Policies
 Date and Time | 2019-12-11 01:00 pm EST
 Presenters | Ulrike Meier Yang (Lawrence Livermore National Laboratory),  and Piotr Luszczek (University of Tennessee)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar035>	   
