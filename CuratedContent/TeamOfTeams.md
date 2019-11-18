@@ -5,6 +5,7 @@ Numerous CSE projects ([The DOE Exascale Computing Project](https://www.exascale
 Key concepts include the goals of:
 - *Shared consciousness*: Establishing a common conceptual model and big picture understanding of the comprehensive project.
 - *Empowered execution*: Fostering authority of sub-teams and individuals to act without explicit senior leadership consultation.
+
 These resources can be useful for anyone engaged in large projects where requirements are multi-scale and emergent or, in other words, complex.
 
 **Subresources:**

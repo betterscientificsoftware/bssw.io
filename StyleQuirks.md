@@ -27,7 +27,11 @@ But in another case, the two dash version didn't work either.  I never found an 
 It seems that some example for the metadata that we need in articles used a three-dash-comment, and it has been propagated virtually everywhere on the site.  Fortunately, it seems to work fine for the metadata, even though it is interpreted differently elsehwere.
 
 ## There are some issues with images
-* Images that go with a particular makdown document are in separate repo. So, involve two PRs and keeping paths between them up to date.
-* In-line (e.g. not banner) images seem to require specific width or the get the lightbox treatment
-* Don't seem to support images which are themselves links to other things (like maybe the same image at higher res)
-* Left, right, center positioning of image not supported (though non-essential also)
+* Images that go with a particular makdown document are in a separate repo. That means they involve two PRs and keeping paths between them up to date.
+* In-line (e.g. not banner) images seem to require specific width or they wind up getting the lightbox treatment
+* We don't seem to support images which are themselves links to other things (like maybe the same image at higher res)
+* Left, right, center positioning of images is not supported (though non-essential also)
+
+<!---
+Publish: No
+---!>

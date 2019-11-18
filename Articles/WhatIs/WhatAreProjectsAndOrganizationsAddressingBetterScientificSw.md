@@ -1,6 +1,6 @@
 ### What Are Projects and Organizations Addressing Better Scientific Software?
 <!--deck start--->
-The topic of *Better Scientific Software* focusses on how to improve software development and software sustainability, along with improving developer productivity - Are there projects and organizations addressing better scientific software?
+The topic of *Better Scientific Software* focuses on how to improve software development and software sustainability, along with improving developer productivity - Are there projects and organizations addressing better scientific software?
 <!--deck end--->
 
 <!--body start--->

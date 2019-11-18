@@ -1,6 +1,15 @@
-# Choose an Open Source License
+# An Introduction to Choosing an Open Source Code License
 
-The [Choose a License](https://choosealicense.com/) site walks you though some questions to help guide you in choosing an open source license. The site was produced by GitHub.
+Several flavors of open source licensing are prevalent today.  Do you know how to choose the correct open source license for your project?
+
+Resource information | Details
+:--- | :--- 
+Resource name | Choose a License
+Website | https://choosealicense.com/
+Focus | Software Licensing
+
+Choosing the correct license plays an important role in the acceptance, success and future sustainability of a code. Criteria for choosing the right license depends on the needs and goals of your project, team and organization. 
+This *[Choose a License](https://choosealicense.com/)* website walks you though some questions to help guide you in choosing an open source license. Some of the questions asked cover topics on whether you want to work with the community to develop your code, whether you want your license to be simple or permissive, whether you care about sharing improvements etc. -- answers to these questions will help the user/developer understand what license fits their short and long-term needs.
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 

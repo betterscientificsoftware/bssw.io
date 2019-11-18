@@ -1,15 +1,19 @@
 
-# Good Enough Practices in Scientific Computing
+# Determining Good Enough Practices in Scientific Computing
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 
-#### Publication date: April 29, 2019
+#### Publication date: August 6, 2019
 
-## G. Wilson et al., 2017. DOI: [10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
+The *Good Enough Practices in Scientific Computing* article, published in the *PLOS Computational Biology journal* in *June 2017*, explores a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill.
 
-*Good Enough Practices in Scientific Computing* presents a minimum set of
-practices for starting reproducible workflows needed for scientific computing
-research. 
+Resource information | Details
+:--- | :--- 
+Paper title  | Good Enough Practices in Scientific Computing
+Authors | Greg Wilson, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt and Tracy Teal
+Publication | Year 2017, PLOS Computational Biology Journal, DOI: [110.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
+
+The *Good Enough Practices in Scientific Computing*, published in the *PLOS Computational Biology journal* in *June 2017*, presents a minimum set of practices for starting reproducible workflows needed for scientific computing research. 
 
 The authors target researchers who are new to scientific computing,
 short term projects, and small collaborative teams.  However, anyone who wishes
@@ -32,7 +36,7 @@ the following key topics:
 * Keeping track of changes 
 * Manuscripts  
 
-The practices include using manual methods or version control systems for
+The practices include using manual methods or revision control systems for
 preserving analysis procedures and manuscript development.  Including manual
 procedures can help the beginner start good practices before learning git or
 another versioning system. Data management suggestions include preserving raw
@@ -45,16 +49,16 @@ these practices from their personal experiences, and from the experiences of
 thousands of participants in Software Carpentry and Data Carpentry workshops.
 
 See:
-* [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 * [Software Carpentry](http://software-carpentry.org)
 * [Data Carpentry](http://data-carpentry.org)
 
+#### Publication date: April 29, 2019
 
 <!---
 Publish: yes
 RSS update: 2019-04-29
-Categories: Development
-Topics: Software engineering 
+Categories: Planning, Development
+Topics: Software engineering, revision control
 Level: 2
 Prerequisites: defaults
 Aggregate: none

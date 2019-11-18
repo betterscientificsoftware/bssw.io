@@ -3,19 +3,33 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Prior version:
-Scientific software has emerged as an essential discipline in its own right.   Because computational models, computer architectures, and scientific software projects have become extremely complex, the Computational Science & Engineering (CSE) community now has a unique opportunity—and an implicit mandate—to address pressing challenges in scientific software productivity, quality, and sustainability. 
+Slide1 Left: blog_posts/software-sustainability-in-the-molecular-sciences
+Slide1 Right: images/raw/master/Blog_1119_MolecularSCI_1136x432.png
+Slide2 Left: items/balter-s-rules-for-github-communication
+Slide2 Right: items/what-is-devops
+Slide3 Left: events/webinar-building-community-through-xsdk-software-policies
+Slide3 Right: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
+Slide4 Left: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them
+Slide4 Right: images/raw/master/Blog_1019_Hero_1136x432.png
 --->
+
 
 <!---
-Slide1 Left: blog_posts/bssw-fellowship-activity-promoting-software-citation
-Slide1 Right: blog_posts/software-as-craft
-Slide2 Left: blog_posts/better-science-through-software-testing
-Slide2 Right: images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png
-Slide3 Left: blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation
-Slide3 Right: images/raw/master/Blog_0918_Alcator_C-Mod_Fisheye_1176_432.png
---->
+LCM: Saving for use again later
 
+SlideA Left: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
+SlideA Right: items/a-look-at-the-economic-forces-in-open-source-software
+SlideB Left: blog_posts/research-software-science-a-scientific-approach-to-understanding-and-improving-how-we-develop-and-use-software-for-research
+SlideB Right: blog_posts/data-driven-software-sustainability
+SlideC Left: events/webinar-building-community-policies-through-xsdk-software-policies
+SlideC Right: items/balter-s-rules-for-github-communication
+
+SlideX Left: events/webinar-tools-and-techniques-for-floating-point-analysis
+SlideX Right: events/testing-research-software-survey
+
+SlideY Left: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them
+SlideY Right:  images/raw/master/Blog_1019_Hero_1136x432.png
+--->
 
 <!---
 [Site Overview](SiteOverview.md)
@@ -26,11 +40,4 @@ Slide3 Right: images/raw/master/Blog_0918_Alcator_C-Mod_Fisheye_1176_432.png
 
 [Intro to HPC](IntroToHpc.md)
 
-Content on the Better Scientific Software Site is organized in six broad categories:
-- Better Planning
-- Better Reliability
-- Better Performance
-- Better Collaboration
-- Better Individual Productivity
-- Crosscutting Resources
 --->

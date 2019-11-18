@@ -1,5 +1,10 @@
 # What is Debugging?
 
+<!--deck start--->
+Debugging in a well-known, important concept while developing software - discussed below are some topics that arise when one talks about debugging in scientific environments.
+<!--deck end--->
+
+<!--body start--->
 Defects in software (e.g. _bugs_) can take many forms. Defects are generally described as causing
 unexpected or unintended behavior including outright crashes, incorrect or invalid
 results, missing or disabled functionality and unexpected [_time and/or space performance_](http://www.leda-tutorial.org/en/official/ch02s02s03.html).
@@ -32,6 +37,7 @@ developers to add the _reproducer_ recipe to the software's routine testing so a
 won't creep back into the software in later versions. This practice is typically called _regression_ testing.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+<!--body end--->
 
 <!---
 Publish: yes

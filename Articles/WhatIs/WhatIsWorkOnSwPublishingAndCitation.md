@@ -1,6 +1,8 @@
 ### What Is Work on Software Publishing and Citation?
 <!--deck start--->
+
 While theory and experimentation within the CSE community are well recognized and appreciated through publications and conferences, software supporting this theory and experimentation has traditionally not been given the same recognition - this is now changing due to several efforts in the direction of software publishing and citation.
+
 <!--deck end--->
 
 <!--body start--->
@@ -12,6 +14,7 @@ This topic provides pointers to venues that support publishing of software artif
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold) and [Dan Ibanez](https://github.com/ibaned)
 <!--body end--->
+
 <!---
 Publish: yes
 Pinned: yes

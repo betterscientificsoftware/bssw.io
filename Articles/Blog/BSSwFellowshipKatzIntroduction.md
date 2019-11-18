@@ -21,7 +21,7 @@ I've written [a blog about this that includes my fellowship application](https:/
 Publish: Yes
 Featured: 2  
 Categories: collaboration
-Topics: discussion forums, Q&A sites, projects and organizations
+Topics: discussion and question sites, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

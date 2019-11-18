@@ -1,4 +1,11 @@
 ### What is Reproducibility?
+<!--deck start--->
+
+Reproducibility plays a very important role in CSE, especially in this era where research is perhaps shared chiefly via scientific publications - it ensures transparency in the experimentation being done and instills confidence and integrity in the underlying scientific study.
+
+<!--end start--->
+
+<!--body start--->
 
 Reproducibility is the ability to repeat an experiment and obtain results that substantially match results from executing the same experiment.  Within the context of computational science, three scenarios are common:
 
@@ -18,6 +25,7 @@ A research team produced and published a set of computational results.  Starting
 For scenarios I and II, reproducibility requirements demand a detailed accounting and retention of algorithms, software and input data used to produce the initial computational results.  Therefore, reproducibility increases incentives for computational science teams to invest in high-quality software and data management practices.
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
+<!--deck end--->
 
 <!---
 Publish: yes

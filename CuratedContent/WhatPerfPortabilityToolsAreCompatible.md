@@ -1,10 +1,12 @@
-## What Performance Portability Tools are Compatible?
+## Understanding Compatibility of Performance Portability Tools
+
+<!--- deck start --->
+Tools such as OpenMP and CUDA are helping scientific applications achieve performance portability. However, do we understand the underlying compatibility challenges encountered by these tools?
+<!--- deck end --->
+
 
 As applications begin to enable performance portability through the use of
-tools such a OpenMP and CUDA, they may encounter issues related to compability
-of tools used by different libraries they depend on.
-This document describes known incompatibilities between performance
-portability tools, as well as cases of successful interoperation between such tools.
+tools such a OpenMP and CUDA, they may encounter issues related to compability of tools used by different libraries they depend on. This document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
 
 ### Threading Tools
 #### Thread Pool Incompatibilities

@@ -1,4 +1,4 @@
-# BSSw site launch at SC17 ... Contribute to Better Scientific Software!
+# BSSw Site Launch at SC17 ... Contribute to Better Scientific Software!
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
 
@@ -21,7 +21,7 @@ Also, we're launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw
 <!---
 Publish: Yes
 Categories: collaboration
-Topics: discussion forums, Q&A sites, projects and organizations
+Topics: discussion and question sites, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

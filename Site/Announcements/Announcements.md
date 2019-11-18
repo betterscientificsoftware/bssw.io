@@ -1,11 +1,40 @@
 # BSSw Announcements
 
-
 Announcement:
-- [New blog article ... Talking about Software Development at SIAM CSE19](../../Articles/Blog/2019-05-siam-cse19.md)
-- Display dates: 05/29/2019 - 06/17/2019
+- [Events at SC19 related to producing better scientific software ... Please join us there!](../../Events/SC19-sw-events.md)
+- Display dates: 10/16/2019 - 11/25/2019
 
-<!---
+<!--
+- [Applications Open for 2020 BSSw Fellowship Program ... Submission deadline October 15, 2019](../../Articles/Blog/BSSwFellowshipApplicationsOpen2019.md)
+- Display dates: 09/24/2019 - 10/15/2019
+
+- [Applications Open for 2020 BSSw Fellowship Program ... Q&A Webinar on Sept 20, 2019](../../Articles/Blog/BSSwFellowshipApplicationsOpen2019.md)
+- Display dates: 09/04/2019 - 09/21/2019
+
+- [New blog article ... FLASH5 Refactoring and PSIP](../../Articles/Blog/FlashPsipProcess.md)
+- Display dates: 08/27/2019 - 09/16/2019
+
+- [New blog article ... Building Community through Software Policies](../../Articles/Blog//BuildingCommunitySoftwarePolicies.md)
+- Display dates: 08/12/2019 - 08/26/2019
+
+- [New blog article ... When NOT to Write Automated Tests?](../../Articles/Blog/WhenNotToWriteAutomatedTests.md)
+- Display dates: 07/29/2019 - 08/14/2019
+
+- [The BSSw site has a new integrated content map ... we encourage your feedback.](../../Articles/BSSwSiteHasANewIntegratedContentMap.md)
+- Display dates: 07/19/2019 - 07/30/2019
+
+- [New blog article ... Celebrating Apollo's 50th Anniversary: Users' Stories from Space](../../Articles/Blog/ApolloGuidanceComputerPart3-wikized.md)
+- Display dates: 07/15/2019 - 07/18/2019
+
+- [New blog article ... Leading a Scientific Software Project: It's All Personal](../../Articles/Blog/LeadingAScientificSoftwareProject.md)
+- Display dates: 06/27/2019 - 07/17/2019
+
+- [New blog article ... Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub](../../Articles/Blog/ApolloGuidanceComputerPart2-wikized.md)
+- Display dates: 06/17/2019 - 07/01/2019
+
+- [New blog article ... Talking about Software Development at SIAM CSE19](../../Articles/Blog/2019-05-siam-cse19.md)
+- Display dates: 05/29/2019 - 06/16/2019
+
 - [New blog article ... Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap](../../Articles/Blog/ApolloGuidanceComputerPart1-wikized.md)
 - Display dates: 05/15/2019 - 05/28/2019
 
@@ -101,25 +130,10 @@ Announcement:
 
 - [Pending BSSw Site Launch at SC17 2017](../../Articles/Blog/PendingBSSwSiteLaunchNov2017.md)
 - Display dates: 09/27/2017 - 11/12/2017
---->
 
-<!---
-Announcement:
-- [Blog post: Improve user confidence in your software updates](../../Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
-- Display dates: 04/12/2017 - 04/16/2017
-- Display dates: 04/29/2017 - 10/04/2017
---->
+-->
 
-<!---
-Announcement:
-- [Scientific Software Days Conference, April 27-28, 2017](../../Events/Conference.ScientificSoftwareDays17.md)
-- Display dates: 04/19/2017 - 10/28/2017
---->
-
-<!--- Notes:
+<!-- Notes:
 - Listing more than one announcement breaks the vehicle. If you choose to promote your announcement over an existing one, please comment out the previous to make it clear what you've replaced
-- No announcement scheduled for 4/17/2017 - 4-18/2017 (as an example of days when no announcements are to be posted)
-- Support multiple display date ranges for each announcement
 - Question: Max length of announcement text?
-- Separate announcement files by year
---->
+-->

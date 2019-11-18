@@ -1,5 +1,7 @@
 # Better Development
 
+**Homepage:** Aspects of scientific software development that should be systematically addressed in order to improve software productivity, quality, and sustainability.
+
 **Overview:** 
 Improving scientific software development—a process of writing, maintaining, and extending code—in order to increase software productivity, quality, and sustainability, as key aspects of advancing overall scientific productivity.
 
@@ -32,12 +34,12 @@ The process of capturing, reporting, tracking, and managing information about is
 Languages providing syntax and semantics, combined with a large set of libraries, that facilitate writing scientific algorithms and thus are widely used for scientific programming.
 <!---Topic order: 6--->
 
-- **Programming Tools**
+- **Development Tools**
 Tools that support various aspects of scientific software development, such as editors, integrated development environments, performance measurement and analysis tools, debuggers, memory checkers, and refactoring tools.
 <!---Topic order: 7--->
 
 - **Refactoring**
-The process of improving internal attributes of a software product (e.g. readability, maintainability) without modifying any of its existing external functionality.
+The process of improving internal attributes of a software product (e.g., readability, maintainability, data structures for efficient performance) without modifying any of its existing external functionality.
 <!---Topic order: 8--->
 
 <!---

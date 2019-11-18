@@ -1,9 +1,15 @@
-# Sphinx
+# An Introduction to Sphinx
 
-Much like [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html),
-[Sphinx](http://www.sphinx-doc.org/en/stable/) is a free and open source tool
-that processes markup describing classes, functions, and variables in your
-software's header files and generates a user-friendly hyperlinked set of web
+Documentation is an important part of any software. Learn about the Sphinx source tool to aid you in this process!
+
+Resource information | Details 
+:--- | :--- 
+Resource name | Sphinx
+Website  | [http://www.sphinx-doc.org](http://www.sphinx-doc.org) 
+Focus | Documentation tools
+
+[Sphinx](http://www.sphinx-doc.org) is a free and open source tool
+that processes markup (it uses reStructuredText) describing classes, functions, and variables in your software's header files and generates a user-friendly hyperlinked set of web
 pages.  These web pages allow the user to navigate all the classes, functions,
 and variables and see 1) class hierachy relationships; 2) input and output
 parameters for methods and functions; and 3) other variables and associated

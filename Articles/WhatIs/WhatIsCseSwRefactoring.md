@@ -1,5 +1,9 @@
 # What is CSE Software Refactoring?
+<!--deck start--->
+Software  refactoring is the process of restructuring existing software code but without changing its external functionality. Refactoring is gaining recognition as a way of improving developer productivity!
+<!--deck end--->
 
+<!--body start--->
 [Software refactoring](https://en.wikipedia.org/wiki/Code_refactoring) is the process of restructuring source code
 to achieve improvements in various [*non-functional*](https://en.wikipedia.org/wiki/Non-functional_requirement) or
 *quality* attributes of the software such as maintainability, readability, complexity and extensibility to name a few.
@@ -14,11 +18,12 @@ their development processes to avoid duplication of closely related functionalit
 source code.
 
 It should be noted that in all but the most trivial of situations, the common practice of *cut-n-paste-n-adjust*
-programming, although possibly the most expedient, inevitably **creates** a re-factoring burden rather than solves one.
+programming, although possibly the most expedient, inevitably creates a re-factoring burden rather than solves one.
 Later on, another developer having to maintain such code will have to do the software engineering work to collapse all
 the cut-n-paste instances into a single implementation that can be re-used where necessary.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+<!--body end--->
 
 <!---
 Publish: yes

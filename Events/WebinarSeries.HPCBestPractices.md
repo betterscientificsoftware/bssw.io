@@ -12,17 +12,22 @@ Webinars are scheduled on roughly a monthly basis and are available live and the
 
 **Webinars are free and open to the public, but advance registration is required (individually, for each session).**
 
-## Next webinar: Modern C++ for High-Performance Computing
+## Next webinar: Tools and Techniques for Floating-Point Analysis
 
-### Date and Time: Wednesday, June 12, 2019, 1:00-2:00 pm ET
-### Presenter: Andrew Lumsdaine, PNNL and University of Washington
-### Description:
-Since its creation by Bjarne Stroustrup in the early 1980s, C++ has steadily evolved to become a multi-paradigm programming language that fully supports the needs of modern programmers. Because C++ had its roots in the C programming language, conventional wisdom (and longstanding practice) had been to use C++ in a dichotomous fashion: abstractions for productivity with escape to C for performance. However, C++ today is best viewed holistically — as it is today — rather than as extension of C or even of earlier versions of C++. In this webinar I will give a tour of features from modern C++ relevant to HPC, along with guidelines for their use — and demonstrate that C++ can offer productivity and elegance while sacrificing nothing in performance.
+### Date and Time: Wednesday, October 16, 2019, 1:00-2:00 pm ET 
+### Presenter: Ignacio Laguna, Lawrence Livermore National Laboratory
+### Description: 
+Scientific software is central to the practice of research computing. While software is widely used in many science and engineering disciplines to simulate real-world phenomena, developing accurate and reliable scientific software is notoriously difficult. One of the most serious difficulties comes from dealing with floating-point arithmetic to perform numerical computations. Round-off errors occur and accumulate at all levels of computation, while compiler optimizations and low-precision arithmetic can significantly affect the final computational results. With accelerators such as GPUs dominating high-performance computing systems, computational scientists are faced with even bigger challenges, given that ensuring numerical reproducibility in these systems poses a very difficult problem. This webinar provides highlights from a half-day tutorial discussing tools that are available today to analyze floating-point scientific software. We focus on tools that allow programmers to get insight about how different aspects of floating-point arithmetic affect their code and how to fix potential bugs.
 
 ### More info and registration link:
-https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030
+https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034
+
 
 ## Past Webinars
+- [*Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033), Rene Gassmoeller (UC Davis), 2019-09-11
+- [*Software Management Plans in Research Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar032), Shoaib Sufi (Software Sustainabilty Institute, UK), 2019-08-14
+- [*When 100 Flops/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software and Application in Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark C. Miller (LLNL), 2019-07-17
+- [*Modern C++ for High-Performance Computing*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar030), Andrew Lumsdaine (PNNL and University of Washington), 2019-06-12
 - [*So, You Want to Be Agile? Strategies for Introducing Agility into Your Scientific Software Project*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar029), Mike Heroux (SNL), 2019-05-08
 - [*Testing Fortran Software with pFUnit*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar028), Thomas Clune (NASA/Goddard), 2019-04-10
 - [*I/O with HDF5: Overview, Tuning, and New Features*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027), Quincey Koziol (NERSC), 2019-03-13
@@ -64,7 +69,7 @@ Below, are some of the webinars which have been referenced elsewhere on the Bett
 --->
 
 <!---
-Publish: yes
+Publish: no
 RSS update: 2018-08-31
 Categories: skills
 Topics: online learning

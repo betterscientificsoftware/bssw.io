@@ -1,15 +1,20 @@
-# Doxygen
+# An Introduction to Doxygen
 
-[Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) is a free and open
-source tool that processes markup describing classes, functions, and variables
-in your software's header files and generates a user-friendly hyperlinked set
-of web pages.  These web pages allow the user to navigate all the classes,
-functions, and variables and see 1) class hierachy relationships; 2) input and
-output parameters for methods and functions; and 3) other variables and
-associated data.
+Documentation is an important part of any software. Learn about the *Doxygen* source tool to aid you in this process!
 
-Doxygen supports many programming languages, and can also generate a
-LaTeX-generated PDF file.
+Resource information | Details 
+:--- | :--- 
+Resource name | Doxygen
+Website  | [http://www.doxygen.nl/](http://www.doxygen.nl/) 
+Focus | Documentation tools
+
+[Doxygen](http://www.doxygen.nl/) is a free and open
+source feature-rich automatic documentation generator. 
+
+Users very frequently choose to write documentation in the source code itself. *Doxygen* can automatically extract this documentation from the source code and export it to diverse formats such as browser-based online documentation in html or offline documentation such as Latex manuals, compressed HTML, PostScript, PDF files with hyperlinks, RTF format as well as Unix man pages. *Doxygen* supports many programming languages.
+
+*Doxygen* allows documentation to be placed in the header as well as the source files. *Doxygen* processes markup describing classes, functions, and variables in your software's header/source files and generates a user-friendly hyperlinked set of web pages.  These web pages allow the user to navigate all the classes, functions, and variables and see 1) class hierachy relationships; 2) input and output parameters for methods and functions; and 3) other variables and associated data.
+
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 

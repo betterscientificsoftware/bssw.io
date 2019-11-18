@@ -1,4 +1,4 @@
-# New FAQ list for BSSw Fellowship Program ... Applications due by Jan 5, 2018
+# New FAQ List for BSSw Fellowship Program ... Applications Due by Jan 5, 2018
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
 
@@ -73,7 +73,7 @@ If you have additional questions, please contact us via email to [info@bssw.io](
 <!---
 Publish: yes
 Categories: collaboration
-Topics: discussion forums, Q&A sites, projects and organizations
+Topics: discussion and question sites, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

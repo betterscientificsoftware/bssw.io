@@ -1,21 +1,21 @@
 ---
 name: Curated Content
-about: A brief article to highlight other web-based content and describe why the HPC/CSE community may value it.  
-title: Possible Curated Content
+about: A brief article that highlights another resource and outlines why the HPC/CSE community may value it.  
 labels: curated content ideas
-assignees: pagrubel
-
 ---
 
-To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions and are ready to add a submission, edit the title, to reflect the subject of the content. Click on the the **Write** tab and delete the entire text above the dashed line. Then, above the dashed line, add your submission.
+To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete them entirely from the body of this issue before entering your submission.
 
-A Curated Content submission is a brief article that highlights other web-based articles or content.  Your article should describe why the CSE community might find value in the linked content and, where appropriate, the scope of applicability of the article. See the [BSSw Style Guide](../../StyleGuide.md) for guidance on naming conventions, descriptive text, and metadata.  
+To understand various content types that are eligible for submission, visit the [What to contribute](http://bssw.io/pages/what-to-contribute-content-for-better-scientific-software) page on the [BSSw website](http://bssw.io)
 
-Please submit your article here, in this GitHub issue using [GitHub Markdown](https://guides.github.com/features/mastering-markdown) for an specific styling you may want. Please be sure your submission adheres to our guidelines in our [code of conduct](../../CODE_OF_CONDUCT.md).
+A curated content submission is a short submission of a couple of paragraphs highlighting an existing resource.
+Please provide the following information
+* Reference (e.g. link, bibliographic data) to the resource to be highlighted
+* Some of the key points the highlighted article makes 
+* Why you think the highlighted article is relevant to HPC/CSE
 
-After your article is submitted, it will be reviewed by the BSSw.io editorial staff. At least two BSSw.io staff are required to give a favorable review (indicated by both checkboxes below being checked) of the material before it will be considered further. If we decide we want you to move forward with this submission, you will be asked to create a [pull request](https://help.github.com/en/articles/creating-a-pull-request). The pull request is used to facilitate review and revision of the final article before it is published.
+**At this stage, you can choose to provide the resource reference and brief text, if you dont have all the above content available.** After your description is submitted, it will be reviewed by the BSSw.io editorial staff and we can contact you for additonal final text.
 
-Please, do not delete below the line!
-------------------------------
-- [ ] First favorable review
-- [ ] Second favorable review
+Please submit your curated content link here, in this GitHub issue (Using [GitHub Markdown](https://guides.github.com/features/mastering-markdown) format for your custom styling, while entering this article text, is preferred but not necessary). Please be sure your submission adheres to our guidelines in our [code of conduct](../../CODE_OF_CONDUCT.md). Contact us at [bssw.io contact page](https://bssw.io/contributes/new) if you have questions.
+
+

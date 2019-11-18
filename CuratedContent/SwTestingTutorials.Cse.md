@@ -8,7 +8,7 @@ Blurb about ATPESC tutorials and link.
 Blurb about Webinar tutorials and links.
 
 <!---
-Publish: yes
+Publish: no
 Categories: reliability
 Topics: testing
 Tags: [inport from subresources]

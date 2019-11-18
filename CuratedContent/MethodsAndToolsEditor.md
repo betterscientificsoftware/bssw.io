@@ -8,7 +8,7 @@ A [blog](http://blog.martinig.ch/) by the editor of an on-line magazine, Methods
 
 <!---
 Publish: yes
-Categories: Development
+Categories: Planning
 Topics: Software engineering
 Tags: blog
 Level: 2

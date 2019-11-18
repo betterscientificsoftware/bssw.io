@@ -1,4 +1,9 @@
 # What is CSE Software Design?
+<!--deck start--->
+CSE Software design for scientific software is an intricate process composed of multiple steps - including determination of what capabilities are needed to meet the targeted scientific goals to understanding how to balance tradeoffs between modularity, functionality and performance in the resulting software product.
+<!--deck end--->
+
+<!--body start--->
 
 Scientific software incorporates a broad range of expertise ranging
 from domain knowledge and applied mathematics to computer science
@@ -42,6 +47,7 @@ extensibility in also a very important aspect of scientific software design.
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
 #### Publication date: May 17, 2017
+<!--body end--->
 
 <!---
 Publish: yes

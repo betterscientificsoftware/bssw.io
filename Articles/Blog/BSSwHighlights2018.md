@@ -45,7 +45,7 @@ who are sharing their perspectives on challenges, strategies, and best practices
 
 ### BSSw Succeeds by Your Contributions
 
-Join the BSSw community in raising awareness of the importance of good software practices to scientific productivity!  The BSSw site provides a venue to share information and experiences on scientific software issues.   If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/contributes/new).  We welcome original articles, blog posts, curated links (brief articles that highlight other web-based content), and [event announcements](https://bssw.io/events).
+Join the BSSw community in raising awareness of the importance of good software practices to scientific productivity!  The BSSw site provides a venue to share information and experiences on scientific software issues.   If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).  We welcome original articles, blog posts, curated links (brief articles that highlight other web-based content), and [event announcements](https://bssw.io/events).
 
 ### Author Info
 David Bernholdt, Mike Heroux, and Lois Curfman McInnes serve as the founding editorial team for the Better Scientific Software site.  They are passionate about partnering with the computational science community to increase developer productivity and software sustainability.

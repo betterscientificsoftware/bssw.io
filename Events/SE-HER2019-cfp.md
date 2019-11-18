@@ -13,7 +13,7 @@ Despite the increasing demand for utilizing HPC for such applications, software 
 We encourage submission of full papers (up to 8 pages) on issues including but not limited to:
 - Case studies of both successes and/or failures in applying SE tools and practices to HPC or HPDA software, with sufficient analysis that leads workshop attendees to learn something more general than just the specific case study;
 - Measures of software development productivity appropriate to HPC or HPDA applications;
-- Lessons learned from HPC or HPDA applications throughout the product life cycle, from research and development to design, analysis, construction, testing, deployment, continuous integration, and maintenance of software;
+- Lessons learned from HPC or HPDA applications throughout the product lifecycle, from research and development to design, analysis, construction, testing, deployment, continuous integration, and maintenance of software;
 - SE techniques and tools appropriate for the current range of HPC/HPDA platforms and frameworks;
 - SE metrics and tool support for HPC and HPDA applications;
 - Empirical studies that help researchers better understand the environment, tools, languages, and processes used in software development on HPC platforms and how they might be improved; and
