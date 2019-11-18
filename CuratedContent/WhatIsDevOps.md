@@ -1,6 +1,6 @@
 # What is DevOps?
 
-DevOps has become a catch-all term in agile organizations, but defiing what it *is* turns out not to be simple.  This blog post by Ernest Mueller attempts to sort through the various ideas surrounding DevOps and bring some clarity to what is, at heart, a large and nuanced concept.
+DevOps has become a catch-all term in agile organizations, but defining what it *is* turns out not to be simple.  This blog post by Ernest Mueller attempts to sort through the various ideas surrounding DevOps and bring some clarity to what is, at heart, a large and nuanced concept.
 
 Resource information | Details 
 :--- | :--- 
