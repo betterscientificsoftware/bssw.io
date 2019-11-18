@@ -56,8 +56,7 @@ referenced.
 
 ## Reference sub-part processing
 
-<!---
-Real reference list used testing including
+## Real reference list used testing including
    - non-numeric handles
    - non-sorted handles
    - duplicate handles
@@ -65,7 +64,11 @@ Real reference list used testing including
    - empty description string
    - description string with no biblio data
    - description string with biblio data that duplicates description string
---->
+
 [abc]: https://en.wikipedia.org/wiki/Mariner_1 "Info about Mariner 1 {}"
 [21]: https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html
+
+<!---
+Publish: No
+--->
 
