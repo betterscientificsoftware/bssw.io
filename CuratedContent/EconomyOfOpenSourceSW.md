@@ -5,7 +5,7 @@ Is That Sustainable?* looks at the economics driving the Open Source movement an
 
 Resource Information | Details
 :--- | :--- 
-Resource Name | "The Internet Was Built on the Free Labor of Open Source Developers. Is That Sustainable?"
+Resource Name | The Internet Was Built on the Free Labor of Open Source Developers. Is That Sustainable?
 Website | https://www.vice.com/en_us/article/43zak3/the-internet-was-built-on-the-free-labor-of-open-source-developers-is-that-sustainable
 Focus | Funding open source software development.
 
