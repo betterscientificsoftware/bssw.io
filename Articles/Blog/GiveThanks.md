@@ -55,7 +55,8 @@ Angela Herring is a staff scientist at Los Alamos National Laboratory.   She spe
 
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-11-25
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: bssw-blog-article
