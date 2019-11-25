@@ -3,14 +3,14 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 Left: blog_posts/software-sustainability-in-the-molecular-sciences
-Slide1 Right: images/raw/master/Blog_1119_MolecularSCI_1136x432.png
-Slide2 Left: items/balter-s-rules-for-github-communication
-Slide2 Right: items/what-is-devops
-Slide3 Left: events/webinar-building-community-through-xsdk-software-policies
-Slide3 Right: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
-Slide4 Left: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them
-Slide4 Right: images/raw/master/Blog_1019_Hero_1136x432.png
+Slide1 Left: blog_posts/give-thanks
+Slide1 Right: images/raw/master/Blog_1119_seasonal.png
+Slide2 Left: blog_posts/software-sustainability-in-the-molecular-sciences
+Slide2 Right: images/raw/master/Blog_1119_MolecularSCI_1136x432.png
+Slide3 Left: items/balter-s-rules-for-github-communication
+Slide3 Right: items/what-is-devops
+Slide4 Left: events/webinar-building-community-through-xsdk-software-policies
+Slide4 Right: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
 --->
 
 
