@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [Webinar: Building Community through xSDK Software Policies ... Join us on December 11](../../Events/hpcbp-035-policies.md)
+- Display dates: 11/25/2019 - 12/12/2019
+
+<!--
 - [Events at SC19 related to producing better scientific software ... Please join us there!](../../Events/SC19-sw-events.md)
 - Display dates: 10/16/2019 - 11/25/2019
 
-<!--
 - [Applications Open for 2020 BSSw Fellowship Program ... Submission deadline October 15, 2019](../../Articles/Blog/BSSwFellowshipApplicationsOpen2019.md)
 - Display dates: 09/24/2019 - 10/15/2019
 
