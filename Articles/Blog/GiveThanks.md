@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1119_WorkThankful.jpg' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1119_seasonal.png' />
 
 #### Contributed by [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub Profile")
 
