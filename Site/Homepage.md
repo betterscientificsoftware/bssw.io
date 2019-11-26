@@ -5,14 +5,13 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 Left: blog_posts/give-thanks
 Slide1 Right: images/raw/master/Blog_1119_seasonal.png
-Slide2 Left: blog_posts/software-sustainability-in-the-molecular-sciences
-Slide2 Right: images/raw/master/Blog_1119_MolecularSCI_1136x432.png
-Slide3 Left: items/balter-s-rules-for-github-communication
-Slide3 Right: items/what-is-devops
-Slide4 Left: events/webinar-building-community-through-xsdk-software-policies
-Slide4 Right: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
+Slide2 Left: items/introducing-container-mythbusters
+Slide2 Right: items/a-look-into-self-perceptions-about-software-engineering-in-the-scientific-community
+Slide3 Left: blog_posts/software-sustainability-in-the-molecular-sciences
+Slide3 Right: images/raw/master/Blog_1119_MolecularSCI_1136x432.png
+Slide4 Left: items/balter-s-rules-for-github-communication
+Slide4 Right: items/what-is-devops
 --->
-
 
 <!---
 LCM: Saving for use again later
