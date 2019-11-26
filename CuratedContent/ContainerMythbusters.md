@@ -19,7 +19,7 @@ Web links | [Video](https://www.youtube.com/watch?v=FFyXdgWXD3A&feature=youtu.be
 Containers may seem like a solution for portability when deploying applications
 on HPC platforms. However, deploying containers
 for scientific software on HPC leads to many questions, such as: Will building
-our application in a container make it run in particular HPC platforms?  What are the
+our application in a container enable it to run on particular HPC platforms?  What are the
 vulnerability risks? Will this approach provide performance portability? Are containers
 a solution to reproducibility?  Along with these questions and more, come
 discussions that can lead to assumptions or "myths" about containers.  Michael
