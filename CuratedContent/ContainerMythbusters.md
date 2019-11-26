@@ -41,10 +41,12 @@ This is a very informative talk about container technologies and uses for HPC.
 However, it does not provide any information on how to use any particular
 container solution.
 
-### Websites
+### Links to additional information
 - [Charliecloud](https://hpc.github.io/charliecloud/)
+- [Docker](https://www.docker.com/)
 - [Podman](https://podman.io/)
 - [Shifter](https://www.nersc.gov/research-and-development/user-defined-images/)
+
 
 <!---
 Publish: yes
