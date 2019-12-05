@@ -101,7 +101,8 @@ Mark C. Miller is a computer scientist at Lawrence Livermore National Laboratory
 data infrastructure for LLNL simulation codes.
 
 <!---
-Publish: preview
+Publish: yes
+RSS update: 2019-12-05
 Categories: Planning, Development
 Topics: Software Engineering, Development Tools
 Tags: bssw-blog-article
