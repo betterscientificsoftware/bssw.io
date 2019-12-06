@@ -1,4 +1,4 @@
-# Ten rules for building communities
+# Ten Rules for Building Communities
 
 In [*Ten simple rules for helping newcomers become contributors to open projects*](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1007296),
 the authors go into significant detail and present a number of practical steps to help
@@ -23,8 +23,11 @@ advocates, mentors, developers, maintainers and even project leaders. The articl
 
 #### Contributed by [Christoph Junghans](https://github.com/junghans "Christoph Junghans GitHub Profile") and [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
 
+#### Publication date: December 6, 2019
+
 <!---
 Publish: yes
+RSS update: 2019-12-06
 Categories: collaboration
 Topics: Strategies for More Effective Teams
 Level: 2
