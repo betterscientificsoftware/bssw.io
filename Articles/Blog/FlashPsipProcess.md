@@ -101,8 +101,8 @@ References | &nbsp;
 <!---
 Publish: yes
 RSS update: 2019-08-27
-Categories: development, reliability
-Topics: refactoring, testing
+Categories: planning, development, reliability
+Topics: software process improvement, refactoring, testing
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
