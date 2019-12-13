@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Introducing the 2020 BSSw Fellows](../../Articles/Blog/BSSwFellowshipAnnouncement2020.md)
+- [New blog article ... Introducing the 2020 BSSw Fellows -- and their work toward better scientific software](../../Articles/Blog/BSSwFellowshipAnnouncement2020.md)
 - Display dates: 12/13/2019 - 01/03/2020
 
 https://preview.bssw.io/blog_posts/introducing-the-2020-bssw-fellows
