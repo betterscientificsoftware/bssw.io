@@ -10,7 +10,9 @@
 
 **LinkedIn:** https://www.linkedin.com/in/cindy-rubio-gonz%C3%A1lez-32769a2b/
 
+<!-- 
 **Github:** 
+--!>
 
 **Short Bio:** Improving the reliability and performance of numerical software
 
