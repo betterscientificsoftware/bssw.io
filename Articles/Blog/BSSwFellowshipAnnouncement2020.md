@@ -4,7 +4,7 @@
 
 #### Publication date: December 13, 2019
 
-We are pleased to announce the 2020 class of Better Scientific Software (BSSw) Fellows: four Fellows and four Honorable Mentions.
+We are pleased to announce the 2020 class of Better Scientific Software (BSSw) Fellows: three Fellows and three Honorable Mentions.
 
 The 2020 class of BSSw Fellows will be recognized during the [2020 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), February 3-7, 2020, in Houston, TX.  
 
@@ -20,14 +20,14 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 ### Nasir Eisty, University of Alabama
 Computer Science Graduate Student
 
-_BSSw Focus_: Automatic Testing in Scientific Software
+_BSSw Focus_: Automatic testing in scientific software
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
 ### Damian Rouson, Sustainable Horizons Institute
 Research Engineer
 
-_BSSw focus_: Expand the demographics of scientific software development to include underrepresented groups
+_BSSw focus_: Agile software development integrated with expanding outreach for scientific software development to underrepresented groups
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
