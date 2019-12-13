@@ -12,9 +12,11 @@
 
 **Github:** 
 
-**Short Bio:** Improving the Reliability and Performance of Numerical Software
+**Short Bio:** Improving the reliability and performance of numerical software
 
 **Long Bio:** 
-### Improving the correctness of numerical software and the effective use of mixed floating-point precision for better performance.
+### Improve the correctness of numerical software and the effective use of mixed floating-point precision for better performance.
+
+Cindy is organizing events and developing educational materials on the correctness of numerical software and the effective use of mixed floating-point precision to improve performance.  Scope includes the use and evaluation of program-analysis techniques to optimize numerical software and to find numerical bugs in numerical code.  
 
 Cindy is an Assistant Professor of Computer Science at the University of California, Davis. Her research spans the areas of Programming Languages and Software Engineering, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of a DOE Early Career Award 2019 and an NSF CAREER Award 2018.
