@@ -16,21 +16,21 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 ## 2020 BSSw Fellows
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020_NasirEisty.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_NasirEisty.png' class='logo' />
 ### Nasir Eisty, University of Alabama
 Computer Science Graduate Student
 
 _BSSw Focus_: Automatic Testing in Scientific Software
 
 <p>&nbsp;</p>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020_DamianRouson.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
 ### Damian Rouson, Sustainable Horizons Institute
 Research Engineer
 
 _BSSw focus_: Expand the demographics of scientific software development to include underrepresented groups
 
 <p>&nbsp;</p>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020_CindyRubioGonz.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
 ### Cindy Rubio-Gonzalez, University of California, Davis
 Assistant Professor, Computer Science
 
@@ -40,17 +40,17 @@ _BSSw focus_: Improving correctness of numerical software and the effective use 
 ## 2020 BSSw Honorable Mentions
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020_DavidBoehme.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DavidBoehme.png' class='logo' />
 ### David Boehme, Lawrence Livermore National Laboratory
 Research Staff, Center for Applied Scientific Computing 
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020_SumanaHarihareswara.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_SumanaHarihareswara.png' class='logo' />
 ### Sumana Harihareswara, Changeset Consulting
 Founder and Principal, Open source software management and collaboration
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020_David Rogers.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_David Rogers.png' class='logo' />
 ### David Rogers, University of Southern Florida
 Assistant Professor of Chemistry
 <p>&nbsp;</p>
