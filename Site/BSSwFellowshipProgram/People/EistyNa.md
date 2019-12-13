@@ -12,7 +12,7 @@
 
 **Github:** 
 
-**Short Bio:** Automatic testing in scientific software
+**Short Bio:** Automating testing in scientific software
 
 **Long Bio:** 
 ### Advance practices for effective software testing, an essential activity to build error-free and trustworthy software.
