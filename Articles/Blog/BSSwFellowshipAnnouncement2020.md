@@ -27,7 +27,7 @@ _BSSw Focus_: Automatic testing in scientific software
 ### Damian Rouson, Sustainable Horizons Institute
 Research Engineer
 
-_BSSw focus_: Agile software development integrated with expanding outreach for scientific software development to underrepresented groups
+_BSSw focus_: Agile scientific software development integrated with expanding outreach to underrepresented groups
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
