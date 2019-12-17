@@ -35,7 +35,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 #### Contributed by Aidan Thompson, [Stan Moore](https://github.com/stanmoore1 "Stan Moore GitHub profile"),  and [Rahulkumar Gayatri](https://github.com/rgayatri23 "Rahulkumar Gayatri GitHub profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
