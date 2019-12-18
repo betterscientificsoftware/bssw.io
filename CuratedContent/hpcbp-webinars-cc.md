@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2019-10-25*
+*Listed in reverse chronological order. Last updated: 2019-12-18*
 
 
 
@@ -38,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Building Community through xSDK Software Policies*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar035), Ulrike Meier Yang (Lawrence Livermore National Laboratory),  and Piotr Luszczek (University of Tennessee), 2019-12-11
 
 
 
@@ -315,7 +323,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 ### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
 
 <!---
-Publish: yes
+Publish: preview
 Categories: skills
 Topics: online learning
 Level: 2
