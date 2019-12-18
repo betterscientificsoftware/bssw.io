@@ -5,7 +5,6 @@ Constant distractions are a part of our daily life now and inarguably disrupt ou
 <!-- deck end -->
 
 
-###### Book
 Resource information | Details 
 :--- | :--- 
 Book title |[Deep Work: Rules for Focused Success in a Distracted World](https://www.calnewport.com/books/deep-work/)
@@ -13,7 +12,6 @@ Authors | [Cal Newport](https://www.calnewport.com/)
 Publication | 2016, ISBN-10: 1455586692, ISBN-13: 978-1455586691
 Focus | Improving productivity
 
-###### Podcast
 Resource information | Details 
 :--- | :--- 
 Podcast title  | You 2.0: Deep Work 
