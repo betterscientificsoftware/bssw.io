@@ -20,7 +20,7 @@ Podcast title  | You 2.0: Deep Work
 Presenters | [Cal Newport](https://www.calnewport.com/)
 Web links | [You 2.0: Deep Work Podcast](https://www.npr.org/2019/08/26/754336716/you-2-0-deep-work) 
 
-*Deep work* is any work that required focussed attention and concentration. Majority of tasks in the scientific field will fall into this category. 
+*Deep work* is any work that required focused attention and concentration. Majority of tasks in the scientific field will fall into this category. 
 
 In your daily life, do you constantly get interrupted and find it difficult to focus at such work? Is your calendar so full of meetings that you have little time to actually work on projects?  If so, the book *Deep Work: Rules for Focused Success in a Distracted World* from Cal Newport, a Computer Science Professor at Georgetown University and author of six books on the intersection of digital technicnology and culture, will be an interesting read. 
 
