@@ -323,7 +323,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 ### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
