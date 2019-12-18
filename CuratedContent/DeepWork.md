@@ -29,9 +29,8 @@ The author has also addressed this topic in a podcast.
 #### Contributed by [Greg Watson](https://github.com/jarrah42)
 
 
-
 <!---
-Publish: no
+Publish: yes
 Categories: Skills 
 Topics: Personal productivity and sustainability
 Level: 2
