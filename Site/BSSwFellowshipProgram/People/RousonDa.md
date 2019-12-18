@@ -2,7 +2,7 @@
 
 **Name:** Damian Rouson
 
-**Affiliation:** Sustainable Horizons Institute
+**Affiliation:** Sustainable Horizons Institute, Sourcery Institute
 
 **Image:** /images/blob/master/People_DamianRouson.jpg
 
