@@ -3,14 +3,14 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 Left: blog_posts/hello-cse-world
-Slide1 Right: images/raw/master/Blog_110619.png
-Slide2 Left: blog_posts/give-thanks
-Slide2 Right: images/raw/master/Blog_1119_seasonal.png
-Slide3 Left: items/introducing-container-mythbusters
-Slide3 Right: items/a-look-into-self-perceptions-about-software-engineering-in-the-scientific-community
-Slide4 Left: blog_posts/software-sustainability-in-the-molecular-sciences
-Slide4 Right: images/raw/master/Blog_1119_MolecularSCI_1136x432.png
+Slide1 Left: items/a-look-into-rules-for-focused-success-in-a-distracted-world
+Slide1 Right: items/ten-rules-for-building-communities
+Slide2 Left: blog_posts/hello-cse-world
+Slide2 Right: images/raw/master/Blog_110619.png
+Slide3 Left: blog_posts/give-thanks
+Slide3 Right: images/raw/master/Blog_1119_seasonal.png
+Slide4 Left: items/introducing-container-mythbusters
+Slide4 Right: items/a-look-into-self-perceptions-about-software-engineering-in-the-scientific-community
 --->
 
 <!---
