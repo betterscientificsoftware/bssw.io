@@ -8,7 +8,7 @@ We are pleased to announce the 2020 class of Better Scientific Software (BSSw) F
 
 The 2020 class of BSSw Fellows will be recognized during the [2020 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), February 3-7, 2020, in Houston, TX.  
 
-We sincerelly thank _all_ fellowship applicants. The broad range of creative and interesting proposals made the selection process difficult.
+We sincerely thank _all_ fellowship applicants. The broad range of creative and interesting proposals made the selection process difficult.
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2020 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
 
