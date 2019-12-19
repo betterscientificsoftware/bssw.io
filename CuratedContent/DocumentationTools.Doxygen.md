@@ -25,5 +25,5 @@ Topics: documentation
 Tags: tool
 Level: 2
 Prerequisites: defaults
-Aggregate: subresource
+Aggregate: none
 --->
