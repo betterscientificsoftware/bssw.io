@@ -11,8 +11,6 @@ Slide3 Left: blog_posts/hello-cse-world
 Slide3 Right: images/raw/master/Blog_110619.png
 Slide4 Left: blog_posts/give-thanks
 Slide4 Right: images/raw/master/Blog_1119_seasonal.png
-Slide4 Left: items/introducing-container-mythbusters
-Slide4 Right: items/a-look-into-self-perceptions-about-software-engineering-in-the-scientific-community
 --->
 
 <!---
