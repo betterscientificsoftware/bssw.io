@@ -123,8 +123,6 @@ The [Ford Foundation](https://www.fordfoundation.org) has [grants](https://www.f
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin)
 
-Publication date: September 5, 2019
-
 <!---
 Publish: yes
 Categories: Collaboration
