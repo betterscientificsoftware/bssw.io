@@ -1,6 +1,6 @@
 # A Collection of Resources for Sustaining Open Source Software
 <!-- deck start -->
-Are you a researcher or developer interested in sustaining open source software? This article gives resources that focus on discussing challenges facing open source software maintainers, to organizations that provide community funding for open source projects.
+Are you a researcher or developer interested in sustaining open source software?  This content discusses challenges, strategies, and organizations that provide support.
 <!-- deck end -->
 
 Sustaining a scientific software project is a difficult task.  One
@@ -122,6 +122,8 @@ Focus | Funding science
 The [Ford Foundation](https://www.fordfoundation.org) has [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to fighting inequality. One thrust area is [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/), which funded the Roads & Bridges report on open source.
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin)
+
+Publication date: September 5, 2019
 
 <!---
 Publish: yes
