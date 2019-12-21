@@ -12,7 +12,7 @@
 
 **Github:** 
 
-**Short Bio:** Bridging agile scientific software development to underrepresented groups
+**Short Bio:** Introducing agile scientific software development to underrepresented groups
 
 **Long Bio:** 
 ### Teach approaches for agile scientific software development, with emphasis on outreach to underrepresented groups.
