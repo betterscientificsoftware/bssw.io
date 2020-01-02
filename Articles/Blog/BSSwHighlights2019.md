@@ -7,7 +7,7 @@
 
 #### Publication date: January 1, 2020
 
-As we stand at the cusp of a new decade, I want to thank the BSSw community whose efforts in this decade has led to great strides in the ongoing work towards building better scientific software. This year, the BSSw site was revamped to improve user experience through improved site navigation; along with additions to our ever-expanding collection of resources. We thank our international community of contributors who shared their philosophies and experiences; as well as our readers from all over the world. In this blog, we list some of the interesting articles and blogs that resonated with readers. We hope to have a productive and fruitful 2020! Happy new year to our entire community!
+As we stand at the cusp of a new decade, I want to thank the BSSw community whose efforts in this decade has led to great strides in the ongoing work towards building better scientific software. In 2019, the BSSw site was revamped to improve user experience through improved site navigation; along with additions to our ever-expanding collection of resources. We thank our international community of contributors who shared their philosophies and experiences; as well as our readers from all over the world. In this blog, we list some of the interesting articles and blogs that resonated with readers. We hope to have a productive and fruitful 2020! Happy new year to our entire community!
 
 ### Better Planning:
 - [The Art of Writing Scientific Software in an Academic Environment](https://bssw.io/blog_posts/the-art-of-writing-scientific-software-in-an-academic-environment), Hartwig Anzt
