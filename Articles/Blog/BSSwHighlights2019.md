@@ -1,7 +1,7 @@
 # Better Scientific Software: 2019 Highlights
 
 **Hero Image:**
-<img src="https://github.com/betterscientificsoftware/images/blob/master/Blog_0120_Mantage.png">[2019 Highlights]
+<img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_Mantage.png">[2019 Highlights]
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
@@ -11,7 +11,6 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 
 ### Better Planning:
 - [The Art of Writing Scientific Software in an Academic Environment](https://bssw.io/blog_posts/the-art-of-writing-scientific-software-in-an-academic-environment), Hartwig Anzt
-- [Look at the Economic Forces in Open Source Software](https://bssw.io/items/a-look-at-the-economic-forces-in-open-source-software), Paul Wolfenbarger
 - [Software As Craft](https://bssw.io/blog_posts/software-as-craft), Paul Wolfenbarger
 - [Software Sustainability in the Molecular Sciences](https://bssw.io/blog_posts/software-sustainability-in-the-molecular-sciences), Theresa L. Windus and T. Daniel Crawford 
 - [An Introduction to User Stories and How to Write Them](https://bssw.io/items/an-introduction-to-user-stories-and-how-to-write-them), Osni Marques
