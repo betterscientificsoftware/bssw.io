@@ -1,7 +1,7 @@
 # Better Scientific Software: 2019 Highlights
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/blob/master/Blog_010219_Mantage.png">[2019 Highlights]
+- <img src="https://github.com/betterscientificsoftware/images/blob/master/Blog_0120_Mantage.png">[2019 Highlights]
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
