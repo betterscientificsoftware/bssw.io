@@ -5,9 +5,9 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
-#### Publication date: January 1, 2020
+#### Publication date: January 3, 2020
 
-As we stand at the cusp of a new decade, I want to thank the BSSw community whose efforts in this decade has led to great strides in the ongoing work towards building better scientific software. In 2019, the BSSw site was revamped to improve user experience through improved site navigation; along with additions to our ever-expanding collection of resources. We thank our international community of contributors who shared their philosophies and experiences; as well as our readers from all over the world. In this blog, we list some of the interesting articles and blogs that resonated with readers. We hope to have a productive and fruitful 2020! Happy new year to our entire community!
+As we stand at the cusp of a new decade, I want to thank the BSSw community, whose efforts have led to great strides in the work toward building better scientific software. In 2019, the BSSw site was revamped to improve user experience through improved site navigation, along with additions to our ever-expanding collection of resources. We thank our international community of contributors who shared their philosophies and experiences, as well as our readers from all over the world. In this blog, we list some of the interesting articles and blogs that especially resonated with readers. We hope to have a productive and fruitful 2020! Happy new year to our entire community!
 
 ### Better Planning:
 - [The Art of Writing Scientific Software in an Academic Environment](https://bssw.io/blog_posts/the-art-of-writing-scientific-software-in-an-academic-environment), Hartwig Anzt
@@ -58,16 +58,16 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community whos
 - [Talking about Software Development at SIAM CSE19](https://bssw.io/blog_posts/talking-about-software-development-at-siam-cse19), David Bernholdt
 
 
-### Building a Better Scientific Community by Your Contributions
+### Building a Better Scientific Software Community by Your Contributions
 
-We welcome your interest in joining the the BSSw community in raising awareness of the importance of good software practices to scientific productivity!  The BSSw site provides a venue to share information and experiences on scientific software issues.   If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).  We welcome original articles, blog posts, curated links (brief articles that highlight other web-based content), and [event announcements](https://bssw.io/events).
+We welcome your interest in joining the the BSSw community in raising awareness of the importance of good software practices to scientific productivity.  The BSSw site provides a venue to share information and experiences on scientific software issues.   If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).  We welcome original articles, blog posts, curated links (brief articles that highlight other web-based content), and [event announcements](https://bssw.io/events).
 
-### Author Info
-Rinku Gupta is the Editor-in-Chief for the Better Scientific Software site.  She are passionate about partnering with the computational science community to increase developer productivity and software sustainability.
+### Author info
+Rinku Gupta is the Editor-in-Chief for the Better Scientific Software site.  She is passionate about partnering with the computational science community to increase developer productivity and software sustainability.
 
 <!---
-Publish: no
-RSS Update: 2020-01-04
+Publish: preview
+RSS Update: 2020-01-03
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-article
