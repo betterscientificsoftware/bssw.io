@@ -26,7 +26,7 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 - [A Checklist for Better Open Source Libraries](https://bssw.io/items/a-checklist-for-better-open-source-libraries), Mike Heroux
 - [Working Effectively with Legacy Code](https://bssw.io/items/working-effectively-with-legacy-code/), Roscoe Bartlett
 - [Python for HPC](https://bssw.io/items/python-for-hpc), Steve Hudson
-- [Code Complete: A Practical Handbook of Software Construction](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction), Osni MArques
+- [Code Complete: A Practical Handbook of Software Construction](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction), Osni Marques
 
 
 ### Better Reliability:
@@ -47,15 +47,16 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 - [Leading a Scientific Software Project: It's All Personal](https://bssw.io/blog_posts/leading-a-scientific-software-project-it-s-all-personal), Wolfgang Bangerth
 - [Building Community through Software Policies](https://bssw.io/blog_posts/building-community-through-software-policies), Piotr Luszczek and Ulrike Meier Yang 
 - [Research Software Science: A Scientific Approach to Understanding and Improving How We Develop and Use Software for Research](https://bssw.io/blog_posts/research-software-science-a-scientific-approach-to-understanding-and-improving-how-we-develop-and-use-software-for-research), Mike Heroux
-- [Data-driven Software Sustainability](https://bssw.io/blog_posts/data-driven-software-sustainability), Daniel Katz
+- [Data-driven Software Sustainability](https://bssw.io/blog_posts/data-driven-software-sustainability), Daniel S. Katz
 - [Making Open Source Research Software Visible: A Path to Better Sustainability?](https://bssw.io/blog_posts/making-open-source-research-software-visible-a-path-to-better-sustainability), Neil Chue Hong
 - [Give Thanks!](https://bssw.io/blog_posts/give-thanks), Angela Herring
 - [Accepting High-Quality Software Contributions as Scientific Publications](https://bssw.io/blog_posts/accepting-high-quality-software-contributions-as-scientific-publications), Hartwig Anzt
+- [Exploring Community Organizations and their Role in Emerging Software Ecosystems](https://bssw.io/items/exploring-community-organizations-and-their-role-in-emerging-software-ecosystems), Lois Curfman McInnes
 
 ### Better Skills:
 - [An Introduction to Online Learning](https://bssw.io/items/an-introduction-to-online-learning), Elaine Raybourn
 - [What Is Online Learning?](https://bssw.io/items/what-is-online-learning), David Bernholdt
-- [Talking about Software Development at SIAM CSE19](https://bssw.io/blog_posts/talking-about-software-development-at-siam-cse19), David Bernholdt
+- [Talking about Software Development at SIAM CSE19](https://bssw.io/blog_posts/talking-about-software-development-at-siam-cse19), David Bernholdt, Anshu Dubey, Mike Heroux, Katherine Jones, Daniel S. Katz, Lois Curfman McInnes, and James Willenbring
 
 
 ### Building a Better Scientific Software Community by Your Contributions
