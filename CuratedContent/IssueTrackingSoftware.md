@@ -5,7 +5,7 @@ Understanding the basics of issue tracking (including how issue tracking tools h
 Resource information | Details 
 :--- | :--- 
 Resource name | Issue tracking software
-Websites | [JIRA](https://www.atlassian.com/software/jira), [TRACKER](https://www.capterra.com/p/115913/Tracker/), [Bugzilla](https://www.bugzilla.org/), [Bitbucket](https://bitbucket.org), [GitHub](http://github.com), [GitLab](http://www.gitlab.com)
+Websites | [JIRA](https://www.atlassian.com/software/jira), [Tracker](https://www.capterra.com/p/115913/Tracker/), [Bugzilla](https://www.bugzilla.org/), [Bitbucket](https://bitbucket.org), [GitHub](http://github.com), [GitLab](http://www.gitlab.com)
 Focus | Issue tracking and collaboration
  
 Issue tracking software is used to make it easier for software developers to manage, record, track, resolve and be able to 
