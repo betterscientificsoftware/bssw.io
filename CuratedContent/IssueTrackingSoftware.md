@@ -1,6 +1,6 @@
 # A Look into Popular Issue Tracking Software
 
-Understanding the basics of issue tracking (including how issue tracking tools help in the software development lifecycle and what myriad capabilities are offered by popular issue tracking systems) is important for software development teams with increased sustainability and productivity in mind.
+Understanding the basics of issue tracking (including how issue tracking tools help in the software development lifecycle and what myriad capabilities are offered by popular issue tracking systems) is important for software development teams.
 
 Resource information | Details 
 :--- | :--- 
