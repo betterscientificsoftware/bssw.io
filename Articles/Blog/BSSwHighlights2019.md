@@ -17,6 +17,7 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 - [An Introduction to User Stories and How to Write Them](https://bssw.io/items/an-introduction-to-user-stories-and-how-to-write-them), Osni Marques
 - [A Look at the Economic Forces in Open Source Software](https://bssw.io/items/a-look-at-the-economic-forces-in-open-source-software), Paul Wolfenbarger
 - [Determining Good Enough Practices in Scientific Computing](https://bssw.io/items/determining-good-enough-practices-in-scientific-computing), Patricia Grubel
+- [A Look into Self-Perceptions about Software Engineering in the Scientific Community](https://bssw.io/items/a-look-into-self-perceptions-about-software-engineering-in-the-scientific-community), Rinku Gupta
 
 ### Better Development:
 - [Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit), Mark Miller and Holly Auten
