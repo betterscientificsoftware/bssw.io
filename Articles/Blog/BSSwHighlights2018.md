@@ -37,7 +37,7 @@ who are sharing their perspectives on challenges, strategies, and best practices
 - [Think Locally, Act Globally: Outreach for Better Scientific Software](https://bssw.io/blog_posts/think-locally-act-globally-outreach-for-better-scientific-software), David Bernholdt
 - [Research Software Engineer: A New Career Track?](https://bssw.io/blog_posts/research-software-engineer-a-new-career-track), Chris Richardson
 - [URSSI: Conceptualizing a US Research Software Sustainability Institute](https://bssw.io/blog_posts/urssi-conceptualizing-a-us-research-software-sustainability-institute), Daniel S. Katz, Jeff Carver, Sandra Gesing, Karthik Ram, and Nic Weber
-- [Community Organizations: Changing the Culture in Which Research Software is Developed and Sustained](https://bssw.io/items/community-organizations-changing-the-culture-in-which-research-software-is-developed-and-sustained), Lois Curfman McInnes
+- [Exploring Community Organizations and their Role in Emerging Software Ecosystems](https://bssw.io/items/exploring-community-organizations-and-their-role-in-emerging-software-ecosystems), Lois Curfman McInnes
 
 ### Better Skills:
 - [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-development), Mark Miller
