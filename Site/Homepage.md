@@ -3,14 +3,14 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 Left: events/webinar-refactoring-exaalt-md-for-emerging-architectures
-Slide1 Right: events/argonne-training-program-on-extreme-scale-computing-atpesc-2020
-Slide2 Left: items/a-look-into-rules-for-focused-success-in-a-distracted-world
-Slide2 Right: items/ten-rules-for-building-communities
-Slide3 Left: blog_posts/hello-cse-world
-Slide3 Right: images/raw/master/Blog_110619.png
-Slide4 Left: blog_posts/give-thanks
-Slide4 Right: images/raw/master/Blog_1119_seasonal.png
+Slide1 Left: blog_posts/better-scientific-software-2019-highlights
+Slide1 Right: images/raw/master/Blog_0120_Mantage.png
+Slide2 Left: events/webinar-refactoring-exaalt-md-for-emerging-architectures
+Slide2 Right: events/argonne-training-program-on-extreme-scale-computing-atpesc-2020
+Slide3 Left: blog_posts/introducing-the-2020-bssw-fellows
+Slide3 Right: items/ten-rules-for-building-communities
+Slide4 Left: blog_posts/hello-cse-world
+Slide4 Right: images/raw/master/Blog_110619.png
 --->
 
 <!---
