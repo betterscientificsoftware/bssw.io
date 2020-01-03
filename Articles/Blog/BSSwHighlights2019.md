@@ -63,7 +63,7 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 We welcome your interest in joining the the BSSw community in raising awareness of the importance of good software practices to scientific productivity.  The BSSw site provides a venue to share information and experiences on scientific software issues.   If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).  We welcome original articles, blog posts, curated links (brief articles that highlight other web-based content), and [event announcements](https://bssw.io/events).
 
 ### Author Bio
-Rinku Gupta is the Editor-in-Chief for the Better Scientific Software site.  She is passionate about partnering with the computational science community to increase developer productivity and software sustainability.
+Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She has been a part of the high performance scientific community for two decades and is a researcher in the field of high performance fault tolerance, resiliency, middleware libraries and programming models. She is very passionate about her work in the area of developer productivity and software sustainability and her current focus lies in partnering with the computational science community on these topics to design better scientific software.
 
 <!---
 Publish: preview
