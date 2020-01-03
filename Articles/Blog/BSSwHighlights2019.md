@@ -25,6 +25,7 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 - [A Checklist for Better Open Source Libraries](https://bssw.io/items/a-checklist-for-better-open-source-libraries), Mike Heroux
 - [Working Effectively with Legacy Code](https://bssw.io/items/working-effectively-with-legacy-code/), Roscoe Bartlett
 - [Python for HPC](https://bssw.io/items/python-for-hpc), Steve Hudson
+- [A Look into Popular Issue Tracking Software](https://bssw.io/items/a-look-into-popular-issue-tracking-software), Jean Shuler
 
 
 ### Better Reliability:
@@ -41,6 +42,7 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 - [Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github),  Mark Miller
 - [Celebrating Apollo's 50th Anniversary: Users' Stories from Space](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space),  Mark Miller
 - [Introducing Container Mythbusters](https://bssw.io/items/introducing-container-mythbusters), Patricia Grubel
+
 
 ### Better Collaboration:
 - [Leading a Scientific Software Project: It's All Personal](https://bssw.io/blog_posts/leading-a-scientific-software-project-it-s-all-personal), Wolfgang Bangerth
