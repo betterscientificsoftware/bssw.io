@@ -51,12 +51,14 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 - [Making Open Source Research Software Visible: A Path to Better Sustainability?](https://bssw.io/blog_posts/making-open-source-research-software-visible-a-path-to-better-sustainability), Neil Chue Hong
 - [Give Thanks!](https://bssw.io/blog_posts/give-thanks), Angela Herring
 - [Accepting High-Quality Software Contributions as Scientific Publications](https://bssw.io/blog_posts/accepting-high-quality-software-contributions-as-scientific-publications), Hartwig Anzt
-- [Exploring Community Organizations and their Role in Emerging Software Ecosystems](https://bssw.io/items/exploring-community-organizations-and-their-role-in-emerging-software-ecosystems), Lois Curfman McInnes
+- [Accelerating Scientific Discovery with Reusable Software: Special issue of IEEE CiSE](https://bssw.io/blog_posts/accelerating-scientific-discovery-with-reusable-software-special-issue-of-ieee-cise), Scott Lathrop
+
 
 ### Better Skills:
 - [An Introduction to Online Learning](https://bssw.io/items/an-introduction-to-online-learning), Elaine Raybourn
 - [Producing a Webinar Series](https://bssw.io/items/producing-a-webinar-series), Osni Marques
 - [Talking about Software Development at SIAM CSE19](https://bssw.io/blog_posts/talking-about-software-development-at-siam-cse19), David Bernholdt, Anshu Dubey, Mike Heroux, Katherine Jones, Daniel S. Katz, Lois Curfman McInnes, and James Willenbring
+- [A Look into Rules for Focused Success in a Distracted World](https://bssw.io/items/a-look-into-rules-for-focused-success-in-a-distracted-world), Greg Watson
 
 
 ### Building a Better Scientific Software Community through Your Contributions
