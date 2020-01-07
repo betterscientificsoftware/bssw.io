@@ -31,10 +31,10 @@ And having followed this road from 2007 until now (having written and maintained
 In deciding whether to write automated tests for a piece of software, one should consider the following questions/criteria:
 
 * Will the damage done by manifested defects be minor?
-* Will the majority of manifested defects will be obvious?
-* Will fixing the majority of the manifested defects will be easy?
+* Will the majority of manifested defects be obvious?
+* Will fixing the majority of the manifested defects be easy?
 * Will manually testing the software after a change be easy?
-* Will writing automated tests be hard, or will the tests will be hard to maintain?
+* Will writing automated tests be hard, or will the tests be hard to maintain?
 
 If the answer to all five of these questions is "yes", then it is often better not to write automated tests for a piece of software.
 The time spent writing, maintaining, and running the automated tests likely will not have enough benefit to outweigh the cost.
