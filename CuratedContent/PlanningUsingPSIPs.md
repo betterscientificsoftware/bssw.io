@@ -6,7 +6,7 @@ Do you wish to learn how to upgrade your team's software practices? Do you want 
 Resource information | Details 
 :--- | :--- 
 Resource name | Productivity and Sustainability Improvement Planning (PSIP)
-Website | [PSIP Github](https://github.com/bssw-psip)
+Website | [PSIP Repository](https://github.com/bssw-psip), [PSIP Practice Guides](https://github.com/bssw-psip/practice-guides/blob/master/README.md)
 Focus | Planning, Collaboration
 
 Scientific software teams are typically focused on the creation of a new set of features that will enable the next set of computational experiments.  Teams seldom have the time to stop development and focus solely on improving productivity or sustainability.  However, teams can incorporate improvements *on the way* to developing new science capabilities.
