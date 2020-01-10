@@ -11,7 +11,7 @@ Launched in November 2017, the Better Scientific Software (BSSw) site features a
 who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability.  As the new year begins, we thank the entire BSSw community for ongoing work toward better scientific software, and we highlight a few BSSw resources contributed in 2018.   We hope that you may discover connections in BSSw resources to your circumstances and priorities.  We invite you to peruse the site for lots more content.
 
 ### Better Planning:
-- [Planning for Better Software: PSIP-Tools](https://bssw.io/items/planning-for-better-software-psip-tools), Mike Heroux
+- [Planning for Better Software: PSIP-Tools](https://bssw.io/items/digging-deeper-into-psip-software-process-improvement-methodology), Mike Heroux
 - [Adopting Continuous Integration for Long-Timescale Materials](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation), Richard Zamora
 
 ### Better Development:
