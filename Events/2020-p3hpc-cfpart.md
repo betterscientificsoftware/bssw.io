@@ -1,6 +1,6 @@
 # Call for Participation: 2020 Performance, Portability, and Productivity in HPC Forum
 
-- Date: April 7-9, 2020
+- Date: April 7, 2020
 - Location: Kansas City, MO
 - Event Website: https://p3hpcforum2020.alcf.anl.gov/
 
