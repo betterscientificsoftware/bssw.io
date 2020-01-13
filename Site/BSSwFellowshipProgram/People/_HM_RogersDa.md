@@ -4,8 +4,8 @@
 
 **Image:** /images/blob/master/People_Rogers.jpg
 
-**Affiliation:** University of Southern Florida
+**Affiliation:** National Center for Computational Sciences, Oak Ridge National Lab
 
-**Short Bio:** Assistant Professor of Chemistry
+**Short Bio:** Computational Scientist
 
 **Honorable Mention:** Yes
