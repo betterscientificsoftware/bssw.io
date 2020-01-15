@@ -3,7 +3,6 @@
 
 Do you wish to learn how to upgrade your team's software practices? Do you want to improve software sustainability and productivity in an easy and efficient manner in your project? This article gives pointers to the PSIP Software Improvement Process for scientific software.
 
-
 Resource information | Details 
 :--- | :--- 
 Resource name | Productivity and Sustainability Improvement Planning (PSIP)
@@ -19,6 +18,14 @@ An ideal place to start learning about PSIP in the *PSIP* repo would be to start
 The PSIP process has been successfully used to help scientific software teams acheive incremental, sustainable process improvement, while still achieving their science goals. The *PSIP* repo is an excellent starting point in your endeavour to learn about the PSIP software process improvement methodology.
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
+
+
+For more resources on PSIP, please refer to the following articles on the BSSw.io site:
+- [A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/a-lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
+- [What makes PSIP suitable for Exascale Computing Project?](https://bssw.io/items/what-makes-psip-suitable-for-exascale-computing-project)
+- [FLASH5 Refactoring and PSIP](https://bssw.io/blog_posts/flash5-refactoring-and-psip)
+- [Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)
+
 
 
 <!---
