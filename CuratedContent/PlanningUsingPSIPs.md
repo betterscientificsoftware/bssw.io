@@ -18,7 +18,7 @@ An ideal place to start learning about PSIP in the *PSIP* repo would be to start
 
 The PSIP process has been successfully used to help scientific software teams acheive incremental, sustainable process improvement, while still achieving their science goals. The *PSIP* repo is an excellent starting point in your endeavour to learn about the PSIP software process improvement methodology.
 
-#### Contributed by [Mike Heroux](http://github.com/maherou)
+#### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
 
 <!---
