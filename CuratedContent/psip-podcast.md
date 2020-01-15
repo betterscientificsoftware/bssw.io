@@ -9,8 +9,6 @@ Podcast title  | Productivity Sustainability Improvement Planning (PSIP) for ECP
 Presenters | [Elaine Raybourn](https://github.com/elaineraybourn)
 Web links | [Podcast link at Exascaleproject.org ](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/)
 
-
-
 This [interview podcast](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/ "PSIP for ECP") of [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Profile") from the [ECP IDEAS](https://ideas-productivity.org) team gives an excellent insight on how the Productivity Sustainability Improvement Planning (PSIP) software improvement process is beneficial for Exascale Computing Project (ECP) software and application teams.
 
 Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, iterative workflow that allows software development teams to identify development bottlenecks and track progress to overcome them. 
@@ -24,7 +22,7 @@ Discover the impetus behind PSIPs, how to incorporate PSIPs into your research p
 <!---
 Publish: yes
 Categories: collaboration
-Topics: strategies for more effective teams
+Topics: software improvement process, strategies for more effective teams
 Tags: podcast-episode
 Level: 2
 Prerequisites: defaults
