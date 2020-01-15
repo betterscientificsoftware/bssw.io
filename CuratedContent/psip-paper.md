@@ -1,4 +1,4 @@
-# A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)
+# Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)
 
 Are you new to PSIPs? Are you interested in learning more about this software improvement process targetted for scientific computing community? The paper titled *A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)* is a good overview of this topic.
 
