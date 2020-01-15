@@ -1,7 +1,7 @@
 # What makes PSIP suitable for Exascale Computing Project?
 
 <!-- deck start -->
-The Exascale Computing Project (ECP) focuses on the development of a highly capable exascale ecosystem. With hundreds of people and many code projects of varying sizes involved in ECP, what is the path for continued improvements to software sustainability and quality both within and across ensembles of interdependent codes and teams.
+The Exascale Computing Project (ECP) focuses on the development of a highly capable exascale ecosystem. With hundreds of people and many code projects of varying sizes involved in ECP, what is the path for continued improvements to software sustainability and quality both within and across ensembles of interdependent codes and teams?
 <!-- deck end-->
 
 Resource information | Details 
