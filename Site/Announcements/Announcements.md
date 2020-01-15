@@ -1,8 +1,8 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Better Scientific Software: 2019 Highlights](../../Articles/Blog/BSSwHighlights2019.md)
-- Display dates: 01/03/2020 - 01/17/2020
+- [Better Scientific Software: 2019 Highlights](../../Articles/Blog/BSSwHighlights2019.md)
+- Display dates: 01/03/2020 - 01/28/2020
 
 <!--
 - [Webinar: Building Community through xSDK Software Policies ... Join us on December 11](../../Events/hpcbp-035-policies.md)
