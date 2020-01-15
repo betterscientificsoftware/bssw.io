@@ -27,6 +27,4 @@ Tags: website
 Level: 2
 Prerequisites: defaults
 Aggregate: none
-
-% LCM: temporarily drop 'requirements' topic in order to get poster screen shot
 --->
