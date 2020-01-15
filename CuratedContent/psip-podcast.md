@@ -1,4 +1,4 @@
-# What makes PSIP suitable for Exascale Computing Project?
+# What makes PSIP suitable for the Exascale Computing Project?
 
 <!-- deck start -->
 The Exascale Computing Project (ECP) focuses on the development of a highly capable exascale ecosystem. With hundreds of people and many code projects of varying sizes involved in ECP, what is the path for continued improvements to software sustainability and quality both within and across ensembles of interdependent codes and teams?
@@ -22,7 +22,7 @@ Discover the motivations behind PSIPs, how to incorporate PSIPs into your resear
 
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
-- [A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/a-lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
+- [Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
 - [FLASH5 Refactoring and PSIP](https://bssw.io/blog_posts/flash5-refactoring-and-psip)
 - [Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)
 
