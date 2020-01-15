@@ -16,6 +16,12 @@ This paper is good read for anyone embarking on the PSIP journey with an aim of 
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
+For more resources on PSIP, please refer to the following articles on the BSSw.io site:
+- [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
+- [What makes PSIP suitable for Exascale Computing Project?](https://bssw.io/items/what-makes-psip-suitable-for-exascale-computing-project)
+- [FLASH5 Refactoring and PSIP](https://bssw.io/blog_posts/flash5-refactoring-and-psip)
+- [Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)
+
 
 <!---
 Publish: yes
