@@ -25,7 +25,7 @@ Discover the motivations behind PSIPs, how to incorporate PSIPs into your resear
 Publish: yes
 Pinned: yes
 Categories: Planning, Collaboration
-Topics: Software improvement process, strategies for more effective teams
+Topics: Software process improvement, strategies for more effective teams
 Tags: podcast-episode
 Level: 2
 Prerequisites: defaults
