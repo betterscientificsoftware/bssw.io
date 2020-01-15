@@ -1,6 +1,6 @@
 # What makes PSIP suitable for Exascale Computing Project?
 
-The Exascale Computing Project focusses on the development of a highly capable exascale ecosystem. With hundreds of people resources and codes of different magnitudes involved in this huge project, what is the path for software sustainabiltiy and lasting software quality?.
+The Exascale Computing Project focusses on the development of a highly capable exascale ecosystem. With hundreds of people resources and codes of different magnitudes involved in this huge project, what is the path for software sustainabiltiy and lasting software quality?
 
 
 Resource information | Details 
