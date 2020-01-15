@@ -20,9 +20,11 @@ Discover the motivations behind PSIPs, how to incorporate PSIPs into your resear
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 
+
 <!---
 Publish: yes
-Categories: collaboration
+Pinned: yes
+Categories: Planning, Collaboration
 Topics: Software improvement process, strategies for more effective teams
 Tags: podcast-episode
 Level: 2
