@@ -80,6 +80,13 @@ To date, the code in the git repository is a small subset of the production vers
 * Jared O'Neal, Anshu Dubey, & Klaus Weide. [Experience report: refactoring the mesh interface in FLASH, a multiphysics software](https://doi.org/10.1109/eScience.2018.00141). 2018 IEEE 14th International Conference on e-Science (e-Science). IEEE.
 -->
 
+For more resources on PSIP, please refer to the following articles on the BSSw.io site:
+- [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
+- [A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/a-lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
+- [What makes PSIP suitable for Exascale Computing Project?](https://bssw.io/items/what-makes-psip-suitable-for-exascale-computing-project)
+- [Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)
+
+
 ### Author bios
 Anshu Dubey is a computer scientist in Argonne National Laboratory’s Mathematics and Computer Science Division. She is the primary software architect for the FLASH code. She is interested in all aspects of scientific software development and has largely been responsible for the establishing FLASH's software process.
 
