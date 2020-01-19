@@ -3,10 +3,11 @@
 Announcement:
 - [Webinar: Introduction to Kokkos](../../Events/hpcbp-037-kokkos.md)
 - Display dates: 01/19/2020 - 02/19/2020
+
+<!--
 - [New blog article ... US Research Software Engineer (US-RSE) Association](../../Articles/Blog/2020-01-usrse.md)
 - Display dates: 01/17/2020 - 01/31/2020
 
-<!--
 - [Better Scientific Software: 2019 Highlights](../../Articles/Blog/BSSwHighlights2019.md)
 - Display dates: 01/03/2020 - 01/28/2020
 
