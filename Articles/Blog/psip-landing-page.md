@@ -23,12 +23,12 @@ Scientists, researchers and scientific software teams who work in scientific com
 With this focus in mind, the *Productivity and Sustainability Improvement Planning (PSIP)* software process impovement (SPI) method was envisoned for scientific software teams.
 
 
-### How can YOU get started with PSIP?
+### How can I get started with PSIP?
 
 The ECP-IDEAS PSIP team has a [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) which is an ideal place to start learning about PSIP. If you are new to PSIP, the user guides in the repository will help you get started with the process.
 
 
-<!-- ### How can YOU contact an IDEAS PSIP team member?
+<!-- ### How can I contact an IDEAS PSIP team member?
 The PSIP team is happy to answer questions or to help you on your quest of improved software sustainability and quality. Please email the PSIP team at [psip@lists.mcs.anl.gov](psip@lists.mcs.anl.gov)
 -->
 
