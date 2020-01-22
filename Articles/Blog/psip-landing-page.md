@@ -10,11 +10,11 @@
 
 ### What is PSIP?
 
-Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, iterative workflow that allows software development teams to identify development bottlenecks and track progress to overcome them. 
+Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, iterative workflow that allows software development teams to identify development bottlenecks and track progress to overcome them. PSIP is a software improvement process.
 
 By practicing PSIP, teams are able to realize process improvements without a disruption to any current development processes. 
 
-### Who and why should one be interested in PSIP?
+### Who (and why) should be interested in PSIP?
 
 If you want to improve your team's development process, software sustainability and productivity but in a lightweight, iterative and uncumbersome manner, then PSIP is for YOU!
 
@@ -54,6 +54,7 @@ The PSIP team is happy to answer questions or to help you on your quest of impro
 ### Are there other articles to read on PSIP?
 The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) is an excellent place to start the PSIP journey. In addition, the following resources may be beneficial in providing more information on PSIPs on this site.
 
+- [The BSSw.io PSIP Webpage](https://bssw.io/psip)
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
 - [A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/a-lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
 - [What makes PSIP suitable for Exascale Computing Project?](https://bssw.io/items/what-makes-psip-suitable-for-exascale-computing-project)
