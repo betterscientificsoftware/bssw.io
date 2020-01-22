@@ -2,7 +2,7 @@
  
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_Dataviz.png' />[Do we have a hero image?]
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_logo_tmp.png' />[Do we have a hero image?]
  
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 #### Publication date: Jan 24, 2020
