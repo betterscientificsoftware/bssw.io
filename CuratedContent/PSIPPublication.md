@@ -1,6 +1,6 @@
 # Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)
 
-Are you new to PSIPs? Are you interested in learning more about this software improvement process targetted for the scientific computing community? The paper titled *A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)* is a good overview of this topic.
+Are you new to PSIP? Are you interested in learning more about this software improvement process targetted for the scientific computing community? The paper titled *A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)* is a good overview of this topic.
 
 Resource information | Details
 :--- | :--- 
@@ -17,6 +17,7 @@ This paper is good read for anyone embarking on the PSIP journey with an aim of 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
+- [The BSSw.io PSIP page](https://bssw.io/psip)
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
 - [What makes PSIP suitable for the Exascale Computing Project?](https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project)
 - [FLASH5 Refactoring and PSIP](https://bssw.io/blog_posts/flash5-refactoring-and-psip)
