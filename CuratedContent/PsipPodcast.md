@@ -10,7 +10,7 @@ Podcast title  | Productivity and Sustainability Improvement Planning (PSIP) for
 Presenters | [Elaine Raybourn](https://github.com/elaineraybourn)
 Web links | [Podcast link at Exascaleproject.org ](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/)
 
-This [interview podcast](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/ "PSIP for ECP") of [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Profile") from the [IDEAS-ECP](https://ideas-productivity.org) team gives an excellent overview of the Productivity and Sustainability Improvement Planning (PSIP) process and explains how it is beneficial for the Exascale Computing Project ([ECP](https://exascaleproject.org)) software and application teams.
+This [interview podcast](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/ "PSIP for ECP") of [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Profile") from the [IDEAS-ECP](https://ideas-productivity.org) team gives an excellent overview of the [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip) process and explains how it is beneficial for the Exascale Computing Project ([ECP](https://exascaleproject.org)) software and application teams.
 
 Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, iterative workflow that allows software development teams to identify development bottlenecks and track progress to overcome them. 
 
@@ -21,6 +21,7 @@ Discover the motivations behind PSIPs, how to incorporate PSIPs into your resear
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
+- [The BSSw.io PSIP page](https://bssw.io/psip)
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
 - [Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
 - [FLASH5 Refactoring and PSIP](https://bssw.io/blog_posts/flash5-refactoring-and-psip)
