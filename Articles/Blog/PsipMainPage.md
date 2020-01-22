@@ -68,7 +68,7 @@ The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/R
 
 
 <!---
-Publish: no
+Publish: preview
 RSS update: 2020-02-02
 Categories: planning, development, reliability
 Topics: software process improvement, refactoring, testing
