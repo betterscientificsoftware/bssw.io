@@ -48,7 +48,7 @@ The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/R
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPTestingCard.png' class='page lightbox'/>[Snapshots of Progress Tracking Cards (Needs to be edited to include more PTC cards in this image]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PTCCards.png' class='page lightbox'/>[Snapshots of Progress Tracking Cards (Needs to be edited to include more PTC cards in this image]
 
 <br>
 
