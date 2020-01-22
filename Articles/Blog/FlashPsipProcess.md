@@ -44,11 +44,11 @@ simply does not.  The fine details of this refactoring effort have already been
 described elsewhere by O'Neal, Dubey, and Weide (2018).<sup>[1]</sup>
 
 ### PSIP and FLASH
-While working on this effort, we were introduced to the [Productivity and Sustainability Improvement Planning](https://bssw.io/items/planning-for-better-software-psip-tools) (PSIP) process, which is developed and promoted by the [IDEAS-ECP](https://ideas-productivity.org/) project.   PSIP is itself a work in progress that is becoming a useful methodology for improving productivity and software sustainability.  We now recognize that the fundamental philosophy of our process aligns well with that of PSIP – take stock of where the project is and make changes in small, well-planned, and manageable steps.  Because of this similarity, we are able to map retroactively our process for improving two development processes onto PSIP and discuss how we may have used PSIP to improve our productivity and the quality of our work.
+While working on this effort, we were introduced to the [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip) process, which is developed and promoted by the [IDEAS-ECP](https://ideas-productivity.org/) project.   PSIP is itself a work in progress that is becoming a useful methodology for improving productivity and software sustainability.  We now recognize that the fundamental philosophy of our process aligns well with that of PSIP – take stock of where the project is and make changes in small, well-planned, and manageable steps.  Because of this similarity, we are able to map retroactively our process for improving two development processes onto PSIP and discuss how we may have used PSIP to improve our productivity and the quality of our work.
 
 ### Refactoring and testing
 
-The first improvement addressed the need to grow our test suite and to improve techniques for documenting how the test suite evolves in response to changes in the software.  This work has been retroactively represented by a PSIP [progress tracking card](https://bssw.io/items/planning-for-better-software-psip-tools) (PTC) for verification coverage and test-suite management, shown in Figure 1.  This work was linked to the effort to refactor the mesh management component of FLASH to work with AMReX, so that we could address perceived barriers to correctly and productively achieving this goal.  The need for this process improvement is best understood through explaining our plan of attack for the refactoring.
+The first improvement addressed the need to grow our test suite and to improve techniques for documenting how the test suite evolves in response to changes in the software.  This work has been retroactively represented by a PSIP [progress tracking card](https://bssw.io/psip) (PTC) for verification coverage and test-suite management, shown in Figure 1.  This work was linked to the effort to refactor the mesh management component of FLASH to work with AMReX, so that we could address perceived barriers to correctly and productively achieving this goal.  The need for this process improvement is best understood through explaining our plan of attack for the refactoring.
 
 <br>
 
@@ -81,6 +81,7 @@ To date, the code in the git repository is a small subset of the production vers
 -->
 
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
+- [The BSSw.io PSIP page](https://bssw.io/psip)
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
 - [Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
 - [What makes PSIP suitable for the Exascale Computing Project?](https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project)
