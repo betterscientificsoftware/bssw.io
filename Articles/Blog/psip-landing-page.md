@@ -2,9 +2,9 @@
  
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_logo_tmp.png' />[Do we have a hero image?]
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_logo_tmp.png' />[Update this image]
  
-#### Contributed by [Rinku Gupta](https://github.com/rinkug)
+#### Contributed by PSIP Team
 #### Publication date: Jan 24, 2020
 
 
@@ -18,17 +18,9 @@ By practicing PSIP, teams are able to realize process improvements without a dis
 
 If you and your team want to improve your development process, software sustainability, and productivity in a lightweight, iterative and uncumbersome manner, then PSIP is for you.
 
-Scientists, researchers and scientific software teams who work in scientific computing want to improve their (team's) development process, software sustainability and productivity, however, they may often face several realistic constraints, as observed below: 
+Scientists, researchers and scientific software teams who work in scientific computing want to improve their (team's) development process, software sustainability and productivity. However, they often face several realistic constraints related to limited funding (just enough to generate results but not improve processes), limited man-power and lack of formal software engineering training. Scientific software teams also have an inherent skepticism about formal, heavyweight approaches that might significantly delay their current scientific activities or require large investments before seeing benefits. Keeping in mind these observations, for any productivity or sustainability improvements to be successful, they *must be incremental, iterative and integrated into the primary feature development process*. 
 
-1.  Scientific software teams are *typically* focused on obtaining scientific results from the software they write. While sometimes funding is directed towards writing pure software, in most cases, funding is *usually* for generating results, not software. 
-
-2. Funding/Executing research plan/Getting results is a competitive process and teams cannot usually expend much time or effort outside of writing the software features that support generating new results. 
-
-3. Scientific software teams typically have modest formal software engineering training. They may be aware of formal terminology such as software lifecycle, requirements elicitation, and technical debt, but often have incomplete or incorrect understanding on how to implement these.
-
-4. Many scientific teams have an inherent skepticism about formal, heavyweight approaches that might significantly delay their current scientific activities or require large investments before seeing benefits.
-
-Keeping in mind the above observations, for any productivity or sustainability improvements to be successful, they *must be incremental, iterative and integrated into the primary feature development process*. With this focus in mind, the *Productivity and Sustainability Improvement Planning (PSIP)* software process impovement (SPI) method was envisoned for scientific software teams.
+With this focus in mind, the *Productivity and Sustainability Improvement Planning (PSIP)* software process impovement (SPI) method was envisoned for scientific software teams.
 
 
 ### How can YOU get started with PSIP?
@@ -37,25 +29,19 @@ The ECP-IDEAS PSIP team has a [PSIP repository](https://github.com/bssw-psip/pra
 
 
 <!-- ### How can YOU contact an IDEAS PSIP team member?
-
-
-The PSIP team is happy to answer questions or to help you on your quest of improved software sustainability and quality. Please email the PSIP team at [psip@lists.mcs.anl.gov](psip@lists.mcs.anl.gov).
-
+The PSIP team is happy to answer questions or to help you on your quest of improved software sustainability and quality. Please email the PSIP team at [psip@lists.mcs.anl.gov](psip@lists.mcs.anl.gov)
 -->
 
 ### What does improving processes through PSIP entail?
 
 PSIP is very lightweight. 
 
-
 The key to PSIP is understanding where you are starting from, setting goals, and tracking your progress. The PSIP framework is shown below, which consists of seven iterative steps.
 
-<br>
-
+<br
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_Framework.png' class='page lightbox'/>[The PSIP framework]
 
 <br>
-
 
 At the core of PSIP is a simple progress tracking card (PTC). Progress tracking cards are concise visual aids that record your intended goals, deliverables, and milestones. You create a PTC so that you can progressively compare your team's progress toward an intended goal. 
 
@@ -68,7 +54,6 @@ The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/R
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PTCCards.png' class='page lightbox'/>[Snapshots of Progress Tracking Cards]
 
 <br>
-
 
 
 ### Are there other articles to read about PSIP?
