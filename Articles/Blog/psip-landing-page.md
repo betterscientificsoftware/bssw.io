@@ -46,6 +46,12 @@ Note that PSIP PTCs are not meant to be external assessments or evaluation tools
 
 The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) has a collection of PTC cards for you to explore. Several of these existing PTC cards have been used by teams successfully. You can choose to select a PTC card for the objective/goal that you want to focus on. You can also choose a PTC card, customize it to meet your timeline and priorities. 
 
+<br>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPTestingCard.png' class='page lightbox'/>[Snapshots of Progress Tracking Cards]
+
+<br>
+
 ### How can I contact an IDEAS PSIP team member?
 
 The PSIP team is happy to answer questions or to help you on your quest of improved software sustainability and quality. Please email us at [psip@lists.mcs.anl.gov](psip@lists.mcs.anl.gov).
