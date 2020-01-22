@@ -36,10 +36,11 @@ Keeping in mind the above observations, for any productivity or sustainability i
 The ECP-IDEAS PSIP team has a [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) which would is an ideal place to start learning about PSIPs. If you are new to PSIPs, the user guides in the repository will help you get started with the process.
 
 
-### How can YOU contact an IDEAS PSIP team member?
+<!-- ### How can YOU contact an IDEAS PSIP team member?
 
 The PSIP team is happy to answer questions or to help you on your quest of improved software sustainability and quality. Please email the PSIP team at [psip@lists.mcs.anl.gov](psip@lists.mcs.anl.gov).
 
+-->
 
 ### What does improving processes through PSIPs entail?
 
