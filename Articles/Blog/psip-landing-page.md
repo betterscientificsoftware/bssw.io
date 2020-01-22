@@ -59,10 +59,10 @@ The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/R
 ### Are there other articles to read about PSIP?
 The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) is an excellent place to start the PSIP journey. In addition, the following resources may be beneficial in providing more information on PSIP on this site.
 
-- [The BSSw.io PSIP Webpage](https://bssw.io/psip)
+- [The BSSw.io PSIP Webpage](https://bssw.io/psip) 
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
-- [A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/a-lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
-- [What makes PSIP suitable for Exascale Computing Project?](https://bssw.io/items/what-makes-psip-suitable-for-exascale-computing-project)
+- [A Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/items/lightweight-software-process-improvement-using-productivity-and-sustainability-improvement-planning-psip)
+- [What makes PSIP suitable for Exascale Computing Project? - A Podcast](https://bssw.io/items/what-makes-psip-suitable-for-exascale-computing-project)
 - [FLASH5 Refactoring and PSIP](https://bssw.io/blog_posts/flash5-refactoring-and-psip)
 - [Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)
 
