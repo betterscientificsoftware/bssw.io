@@ -38,7 +38,7 @@ PSIP is very lightweight.
 
 The key to PSIP is understanding where you are starting from, setting goals, and tracking your progress. The PSIP framework is shown below, which consists of seven iterative steps.
 
-<br
+<br>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_Framework.png' class='page lightbox'/>[The PSIP framework]
 
 <br>
