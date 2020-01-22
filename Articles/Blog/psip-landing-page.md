@@ -2,7 +2,7 @@
  
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_Dataviz.png' />[Do we have a hero image?]
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_logo_tmp.png' />[Do we have a hero image?]
  
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 #### Publication date: Jan 24, 2020
@@ -31,19 +31,31 @@ Scientists, researchers and scientific software teams who work in scientific com
 Keeping in mind the above observations, for any productivity or sustainability improvements to be successful, they *must be incremental, iterative and integrated into the primary feature development process*. With this focus in mind, the *Productivity and Sustainability Improvement Planning (PSIP)* software process impovement (SPI) method was envisoned for scientific software teams.
 
 
-### How should I get started with PSIP?
+### How can YOU get started with PSIP?
 
 The ECP-IDEAS PSIP team has a [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) which is an ideal place to start learning about PSIP. If you are new to PSIP, the user guides in the repository will help you get started with the process.
 
 
-### How can I contact an IDEAS PSIP team member?
+<!-- ### How can YOU contact an IDEAS PSIP team member?
 
-The PSIP team is happy to answer questions or to help you on your quest of improved software sustainability and quality. Please email us at [psip@lists.mcs.anl.gov](psip@lists.mcs.anl.gov). 
 
+The PSIP team is happy to answer questions or to help you on your quest of improved software sustainability and quality. Please email the PSIP team at [psip@lists.mcs.anl.gov](psip@lists.mcs.anl.gov).
+
+-->
 
 ### What does improving processes through PSIP entail?
 
 PSIP is very lightweight. 
+
+
+The key to PSIP is understanding where you are starting from, setting goals, and tracking your progress. The PSIP framework is shown below, which consists of seven iterative steps.
+
+<br>
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_Framework.png' class='page lightbox'/>[The PSIP framework]
+
+<br>
+
 
 At the core of PSIP is a simple progress tracking card (PTC). Progress tracking cards are concise visual aids that record your intended goals, deliverables, and milestones. You create a PTC so that you can progressively compare your team's progress toward an intended goal. 
 
