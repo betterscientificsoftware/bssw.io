@@ -4,7 +4,7 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_logo_tmp.png' />[Update this image]
  
-#### Contributed by PSIP Team
+#### Contributed by [PSIP team]()
 #### Publication date: Jan 24, 2020
 
 
@@ -54,7 +54,6 @@ The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/R
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PTCCards.png' class='page lightbox'/>[Snapshots of Progress Tracking Cards]
 
 <br>
-
 
 ### Are there other articles to read about PSIP?
 The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) is an excellent place to start the PSIP journey. In addition, the following resources may be beneficial in providing more information on PSIP on this site.
