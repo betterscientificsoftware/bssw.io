@@ -2,7 +2,7 @@
  
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_logo_tmp.png' />[Update this image]
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_logo.png' />[Update this image]
  
 #### Contributed by [PSIP team]()
 #### Publication date: Jan 24, 2020
