@@ -69,8 +69,9 @@ The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/R
 
 <!---
 Publish: preview
+Pinned: yes
 RSS update: 2020-02-02
-Categories: planning, development
+Categories: planning, development, collaboration
 Topics: software process improvement
 Tags: bssw-blog-article
 Level: 2
