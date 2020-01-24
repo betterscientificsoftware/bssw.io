@@ -14,6 +14,13 @@ Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, it
 
 By practicing PSIP, teams are able to realize process improvements without a disruption to any current development processes. 
 
+### Where can I get more information on PSIP?
+   
+PSIP Github Repository | [Main Repo weblink](https://github.com/bssw-psip)
+:--- | :--- 
+PSIP Guides | [Userguide weblink](https://github.com/bssw-psip/practice-guides/blob/master/README.md)
+
+
 ### Who should be interested in PSIP (and why)?
 
 If you and your team want to improve your development process, software sustainability, and productivity in a lightweight, iterative and uncumbersome manner, then PSIP is for you.
@@ -38,10 +45,7 @@ PSIP is very lightweight.
 
 The key to PSIP is understanding where you are starting from, setting goals, and tracking your progress. The PSIP framework is shown below, which consists of seven iterative steps.
 
-<br>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_Framework.png' class='page lightbox'/>[The PSIP framework]
-
-<br>
 
 At the core of PSIP is a simple progress tracking card (PTC). Progress tracking cards are concise visual aids that record your intended goals, deliverables, and milestones. You create a PTC so that you can progressively compare your team's progress toward an intended goal. 
 
@@ -49,11 +53,8 @@ Note that PSIP PTCs are not meant to be external assessments or evaluation tools
 
 The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) has a collection of PTC cards for you to explore. Several of these existing PTC cards have been used by teams successfully. You can choose to select a PTC card for the objective/goal that you want to focus on. You can also choose a PTC card, and customize it to meet your timeline and priorities. 
 
-<br>
-
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PTCCards.png' class='page lightbox'/>[Snapshots of Progress Tracking Cards]
 
-<br>
 
 ### Are there other articles to read about PSIP?
 The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/README.md) is an excellent place to start the PSIP journey. In addition, the following resources may be beneficial in providing more information on PSIP on this site.
