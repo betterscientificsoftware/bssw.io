@@ -16,9 +16,8 @@ By practicing PSIP, teams are able to realize process improvements without a dis
 
 ### Where can I get more information on PSIP?
    
-PSIP Github Repository | [Main Repo weblink](https://github.com/bssw-psip)
-:--- | :--- 
-PSIP Guides | [Userguide weblink](https://github.com/bssw-psip/practice-guides/blob/master/README.md)
+* PSIP Github Repository : [Main Repo weblink](https://github.com/bssw-psip)
+* PSIP Guides : [Userguide weblink](https://github.com/bssw-psip/practice-guides/blob/master/README.md)
 
 
 ### Who should be interested in PSIP (and why)?
