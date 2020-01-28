@@ -44,7 +44,7 @@ PSIP is very lightweight.
 
 The key to PSIP is understanding where you are starting from, setting goals, and tracking your progress. The PSIP framework is shown below, which consists of seven iterative steps.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP_Framework.png' class='page lightbox'/>[The PSIP framework]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0128_PSIP_Framework.png' class='page lightbox'/>[The PSIP framework]
 
 At the core of PSIP is a simple progress tracking card (PTC). Progress tracking cards are concise visual aids that record your intended goals, deliverables, and milestones. You create a PTC so that you can progressively compare your team's progress toward an intended goal. 
 
