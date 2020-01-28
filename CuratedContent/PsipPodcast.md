@@ -30,7 +30,7 @@ For more resources on PSIP, please refer to the following articles on the BSSw.i
 
 <!---
 Publish: yes
-Pinned: yes
+Pinned: no
 Categories: Planning, Collaboration
 Topics: Software process improvement, strategies for more effective teams
 Tags: podcast-episode
