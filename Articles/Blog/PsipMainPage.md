@@ -4,7 +4,7 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_PSIP4.png' />
  
-#### Contributed by [PSIP team]()
+#### Contributed by [The PSIP team]()
 #### Publication date: January 28, 2020
 
 
@@ -73,7 +73,7 @@ RSS update: 2020-01-28
 Categories: planning, development, collaboration
 Topics: software process improvement
 Tags: bssw-blog-article
-Level:1
+Level:2
 Prerequisites: default
 Aggregate: none
 --->
