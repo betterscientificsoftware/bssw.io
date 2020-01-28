@@ -67,7 +67,7 @@ The [PSIP repository](https://github.com/bssw-psip/practice-guides/blob/master/R
 
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: yes
 RSS update: 2020-01-28
 Categories: planning, development, collaboration
