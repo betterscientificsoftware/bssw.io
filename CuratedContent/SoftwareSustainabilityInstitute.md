@@ -13,7 +13,7 @@ The *[Software Sustainability Institute (SSI)](https://www.software.ac.uk/)* is 
 
 As per the *SSI* manifesto, the Software Sustainability Institute represents the needs of software users and developers in the research community. They work towards the recognition of the role of software in research, better software education for the research community, recognition of the role of people who develop research software and better engineering of software to provide confidence in the results that software generates.
 
-<img src='https://github.com/betterscientificsoftware/images/blob/master/Logo-class-ssi.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-ssi.png' class='logo' />
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
