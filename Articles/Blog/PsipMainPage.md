@@ -18,6 +18,7 @@ By practicing PSIP, teams are able to realize process improvements without a dis
    
 * PSIP Github Repository : [Main Repo weblink](https://github.com/bssw-psip)
 * PSIP Guides : [Userguide weblink](https://github.com/bssw-psip/practice-guides/blob/master/README.md)
+* Contact the PSIP team : [Contact PSIP](https://docs.google.com/forms/d/e/1FAIpQLSdcQxb158piJeBqELZmJFkJTOFx71WBNBChtec5f21kyvPiCg/viewform)
 
 
 ### Who should be interested in PSIP (and why)?
