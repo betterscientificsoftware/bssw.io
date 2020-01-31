@@ -1,10 +1,14 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
+- Display dates: 01/31/2020 - 02/19/2020
+
+
+<!--
 - [Webinar: Introduction to Kokkos](../../Events/hpcbp-037-kokkos.md)
 - Display dates: 01/19/2020 - 02/19/2020
 
-<!--
 - [New blog article ... US Research Software Engineer (US-RSE) Association](../../Articles/Blog/2020-01-usrse.md)
 - Display dates: 01/17/2020 - 01/31/2020
 
