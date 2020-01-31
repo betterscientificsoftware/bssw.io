@@ -6,7 +6,7 @@ Software—the foundation of discovery in computational science & engineering—
 Slide1 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
 Slide1 Right: images/raw/master/Blog_0120_PSIP_logo.png
 Slide2 Left: items/what-makes-psip-suitable-for-the-exascale-computing-project
-Slide2 Right: images/raw/master/Blog_011720_usrse.png
+Slide2 Right: images/raw/master/Blog_0120_PSIP_logo.png
 Slide3 Left: blog_posts/us-research-software-engineer-us-rse-association
 Slide3 Right: images/raw/master/Blog_011720_usrse.png
 Slide4 Left: blog_posts/better-scientific-software-2019-highlights
