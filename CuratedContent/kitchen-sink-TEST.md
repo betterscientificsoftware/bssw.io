@@ -18,7 +18,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 <a href="#_" class="link-row">Row link two</a>
 <a href="#_" class="link-row">Row link three</a>
 
-These link rows use a markdown horizontal rule.
+Could link rows use a markdown horizontal rule.
 
 [Link One](DocumentationTools.Doxygen.md)
 ___
