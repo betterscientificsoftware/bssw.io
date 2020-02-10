@@ -25,7 +25,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 The *quick brown fox* jumps over the **lazy dog**. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The *quick brown fox* jumps over the **lazy dog**. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
-The second sentence uses the '<mark>' tag. The quick brown fox jumps over the lazy dog. The <mark>quick brown fox</mark> jumps over the lazy dog. 
+The second sentence uses the `<mark>` tag. The quick brown fox jumps over the lazy dog. The <mark> quick brown fox </mark> jumps over the lazy dog. 
 
 
 ## Test subhead and lists
