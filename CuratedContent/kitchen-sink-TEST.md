@@ -15,8 +15,11 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. <a href="#_" class="link-inline">The quick brown</a> fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. <a href="#_" class="link-inline">The quick brown</a> fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
 <a href="#_" class="link-row">Row link one</a>
+<br>
 <a href="#_" class="link-row">Row link two</a>
+<br>
 <a href="#_" class="link-row">Row link three</a>
+<br>
 
 Could link rows use a markdown horizontal rule.
 
