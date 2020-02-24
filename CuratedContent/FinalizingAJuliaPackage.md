@@ -13,3 +13,15 @@ The [Julia](https://julialang.org/) programming language is a flexible dynamic l
 There are a number of important details in *finalizing* a Julia package in preparation for making it available for others to use. Some of the important steps needed are to ensure that the package is re-tested, coverage is re-computed and documentation is re-generated with each update to the package. This article is a good resource on this topic. The author, @ChrisRackauckas, goes into the details of key steps in the process including tips and tricks for `travis.yml` and `appvoyer.yml` files to run version compatability tests, update coverage and documentation.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller's GitHub Profile")
+
+
+<!---
+Publish: yes
+Categories: development
+Topics: documentation
+Tags: service, tool
+Level: 2
+Prerequisites: defaults
+Aggregate: none
+--->
+
