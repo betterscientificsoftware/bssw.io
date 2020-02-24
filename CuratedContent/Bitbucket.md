@@ -22,7 +22,7 @@ Focus | Git code management, Code collaboration
 Publish: yes
 Categories: development
 Topics: revision control
-Tags: service, tool
+Tags: tool
 Level: 2
 Prerequisites: defaults
 Aggregate: none
