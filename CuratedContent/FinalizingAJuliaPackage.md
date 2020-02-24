@@ -1,5 +1,7 @@
 # Finalizing Your Julia Package
 
+Do you work with the Julia language? If yes, this article on how to finalize Julia package will be of interest to you!
+
 The [Julia](https://julialang.org/) programming language is a flexible dynamic language, appropriate for scientific and numerical computing, with performance comparable to traditional statically-typed languages.
 
 There are a number of important details in *finalizing* a Julia package in preparation for making it available for others to use. Some of the important steps needed are to ensure that the package is re-tested, coverage is re-computed and documentation is re-generated with each update to the package. This article is a good resource on this topic.
