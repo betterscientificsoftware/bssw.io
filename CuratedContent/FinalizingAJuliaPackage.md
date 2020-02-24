@@ -1,8 +1,8 @@
 # Finalizing Your Julia Package
 
-There are a number of important details in *finalizing* a [Julia](https://julialang.org/) package in
-preparation for making it avialable for others to use and, in particular, ensuring it is re-tested,
-coverage is re-computed and documentation is re-generated with each update to your package.
+The [Julia](https://julialang.org/) programming language is a flexible dynamic language, appropriate for scientific and numerical computing, with performance comparable to traditional statically-typed languages.
+
+There are a number of important details in *finalizing* a Julia package in preparation for making it available for others to use. Some of the important steps needed are to ensure that the package is re-tested, coverage is re-computed and documentation is re-generated with each update to the package. This article is a good resource on this topic.
 
 Resource information | Details
 :--- | :--- 
