@@ -52,10 +52,11 @@ See slides from a breakout session led by Elaine and David at the 2018 ECP Annua
 
 <a id="ref-mcchrystal2015"></a>[McChrystal, S., Collins, T., Silverman, D., Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC.](http://a.co/38vFE6K)
 
+
 <!---
 Publish: Yes
 Categories: collaboration
-Topics: discussion and question sites, projects and organizations
+Topics: strategies for more effective teams, discussion and question sites, projects and organizations
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default

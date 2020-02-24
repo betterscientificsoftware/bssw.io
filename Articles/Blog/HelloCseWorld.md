@@ -2,11 +2,11 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/hello_world_sun_heat.png'/>
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_110619.png'/>
 
 #### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
 
-#### Publication date: November XX, 2019
+#### Publication date: December 5, 2019
 
 ["Hello World!"](https://www.thesoftwareguild.com/blog/the-history-of-hello-world/)
 is the canonical *first* program beginners write to learn new programming methodologies.
@@ -21,36 +21,36 @@ The heat equation, a special case of the diffusion equation, was developed by Jo
 Fourier in 1822. It describes how the distribution of heat varies over space and time
 in a material. While there are many adaptations for different scenarios, beginner CSE
 programmers often start with the one-dimensional, homogeneous heat equation as an
-introductory problem.
+introductory problem,
 
 _&part;u / &part;t = &alpha;&nabla; &sup2;u_
 
-Where:
+where:
 * _u_ = Temperature
 * _t_ = time
 * _&alpha;_  = thermal diffusivity of the material
-* _&nabla;_ = The Laplace operator
+* _&nabla;_ = The Laplace operator.
 
 To make the equation even more approachable, we make some simplifying assumptions:
-* _&alpha;_ is constant (the material is homogeneous)
-* Apart from initial/boundary conditions, there are no other heat sources
-* Only Cartesian coordinates in 1 dimension are used
+* _&alpha;_ is constant (the material is homogeneous).
+* Apart from initial/boundary conditions, there are no other heat sources.
+* Only Cartesian coordinates in 1 dimension are used.
 
 ### Why this form of the heat equation?
 The one-dimensional heat equation might not be sufficient to
 model solar heating of the Earth. However, even in this relatively simple form,
 interesting and meaningful science questions may be investigated involving
 both transient and steady-state behavior. Examples are determining whether water
-pipes embedded in log cabin (solid wood) walls would freeze during a cold
+pipes embedded in the walls of a log cabin (solid wood) would freeze during a cold
 storm, or computing the required thickness of insulation around fuel pipeline to avoid
 combustion from a fast burning brush fire. These and many other questions
-involving heat flow can be investigated with this relatively simply form of
+involving heat flow can be investigated with this relatively simple form of
 the heat equation.
 
-Solutions to the one-dimensional heat equation are also very easy for
-beginners to visualize, which can help with understand how different
+Solutions to the one-dimensional heat equation are easy for
+beginners to visualize, which can help with understanding how different
 approaches work. The simplicity of the physics and mathematics also
-allows beginners to focus more on the implementation details such as the
+allows beginners to focus more on the implementation details, such as the
 programming language, parallel execution paradigm, discretization, and
 mathematical support libraries.
 
@@ -59,7 +59,7 @@ We are announcing the beginning of an effort to populate and maintain a
 repository of working implementations of the heat equation demonstrating various
 aspects of CSE software. The resulting repository will be useful in training
 about fundamental aspects of the design and development of CSE software as
-well as provide examples of continuous integration (CI) testing, including
+well as providing examples of continuous integration (CI) testing, including
 demonstrating the use of CI resources for the DOE Exascale Computing Project ([ECP](https://www.exascaleproject.org)).
 
 Each implementation we gather will have to conform
@@ -92,20 +92,21 @@ useful introductory CSE training material.
 
 ### Author bios
 
-Heather M. Switzer worked as a computing summer intern at Lawrence Livermore National Laboratory during summer 2019. She graduated with a B.S. in Mathematics and Computer Science from Longwood University in 2018 and is currently a 2nd-year M.S./Ph.D. student in Computer Science with a specialization in Computational Science at the College of William & Mary.
+Heather M. Switzer worked as a computing summer intern at Lawrence Livermore National Laboratory during summer 2019. She graduated with a B.S. in mathematics and computer science from Longwood University in 2018 and is currently a 2nd-year M.S./Ph.D. student in computer science with a specialization in computational science at the College of William & Mary.
 
-Elsa Gonsiorowski is an HPC I/O Specialist at Lawrence Livermore National Laboratory. She graduated with a Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
+Elsa Gonsiorowski is an HPC I/O specialist at Lawrence Livermore National Laboratory. She graduated with a Ph.D. in computer science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
 
 Mark C. Miller is a computer scientist at Lawrence Livermore National Laboratory supporting
 [VisIt](https:/visit.llnl.gov), [Silo](https://silo.llnl.gov), and other visualization and
 data infrastructure for LLNL simulation codes.
 
 <!---
-Publish: no
+Publish: yes
+RSS update: 2019-12-05
 Categories: Planning, Development
 Topics: Software Engineering, Development Tools
-Tags:
-Level:
+Tags: bssw-blog-article
+Level: 2
 Prerequisites: default
-Aggregate:
+Aggregate: none
 --->

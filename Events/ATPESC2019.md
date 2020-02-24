@@ -28,7 +28,7 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 <!---
 Publish: yes
 Categories: skills, performance 
-Topics: training, High-performance computing (HPC), Performance at Leadership Computing Facilities
+Topics: online learning, High-performance computing (HPC), Performance at Leadership Computing Facilities
 Tags: fellowship
 Level: 2
 Prerequisites: none

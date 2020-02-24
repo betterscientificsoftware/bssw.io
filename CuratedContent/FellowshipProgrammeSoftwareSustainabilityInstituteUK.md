@@ -18,7 +18,7 @@ Each Fellow is allocated funds to spend over a certain duration of months. The f
 
 Fellows are drawn from a wide range of areas, experience, and career stages.
 
-<img src='https://github.com/betterscientificsoftware/images/blob/master/Logo-class-ssi-with-name-small2.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-ssi-with-name-small2.png' class='logo' />
 
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)

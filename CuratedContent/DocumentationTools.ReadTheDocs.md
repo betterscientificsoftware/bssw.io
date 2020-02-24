@@ -23,5 +23,5 @@ Topics: documentation
 Tags: service, tool
 Level: 2
 Prerequisites: defaults
-Aggregate: subresource
+Aggregate: none
 --->

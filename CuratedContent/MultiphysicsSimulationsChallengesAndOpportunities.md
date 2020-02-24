@@ -3,7 +3,7 @@
 The “Multiphysics simulations: Challenges and opportunities” paper was published in the International Journal of High Performance Computing Applications in 2013 and it explores different software frameworks for multiphysics applications, discusses commonalities among them, and extrapolates best practices for future computer systems.
 
 
-**Article information** | **Details** 
+Article information | Details 
 :--- | :---
 Title  | Multiphysics simulations: Challenges and opportunities
 Authors | David E Keyes, Lois C McInnes, Carol Woodward, William Gropp, Eric Myra, Michael Pernice, John Bell, Jed Brown, Alain Clo, Jeffrey Connors, Emil Constantinescu, Don Estep, Kate Evans, Charbel Farhat, Ammar Hakim, Glenn Hammond, Glen Hansen, Judith Hill, Tobin Isaac, Xiangmin Jiao, Kirk Jordan, Dinesh Kaushik, Efthimios Kaxiras, Alice Koniges, Kihwan Lee, Aaron Lott, Qiming Lu, John Magerlein, Reed Maxwell, Michael McCourt, Miriam Mehl, Roger Pawlowski, Amanda P Randles, Daniel Reynolds, Beatrice Rivière, Ulrich Rüde, Tim Scheibe, John Shadid, Brendan Sheehan, Mark Shephard, Andrew Siegel, Barry Smith, Xianzhu Tang, Cian Wilson, Barbara Wohlmuth

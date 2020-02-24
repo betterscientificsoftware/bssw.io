@@ -1,7 +1,7 @@
 
 # A Checklist for Better Open Source Libraries
 
-Software developers should consider a variety of factors when creating open source libraries. This web article discusses such factors for an open source python library.
+Software developers should consider a variety of factors when creating open source libraries. This web article discusses such factors for an open source Python library.
 
 Resource information | Details
 :--- | :--- 
@@ -14,6 +14,8 @@ The article *[How to open source your Python library](https://opensource.com/art
 While targeted specifically at Python libraries, recommendations are relevant to other languages.  Tools mentioned are either applicable to other languages, or similar tools exist.  We think anyone interested in providing open source software could find valuable advice.
 
 #### Contributed by [Michael Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
+
+#### Publication date: July 20, 2019
 
 <!---
 Publish: yes

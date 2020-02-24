@@ -2,18 +2,16 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
-
 <!---
-Slide1 Left: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them
-Slide1 Right: images/raw/master/Blog_1019_Hero_1136x432.png
-Slide2 Left: items/balter-s-rules-for-github-communication
-Slide2 Right: items/what-is-devops
-Slide3 Left: events/webinar-building-community-through-xsdk-software-policies
-Slide3 Right: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
-Slide4 Left: blog_posts/research-software-science-a-scientific-approach-to-understanding-and-improving-how-we-develop-and-use-software-for-research
-Slide4 Right: blog_posts/data-driven-software-sustainability
+Slide1 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
+Slide1 Right: images/raw/master/Blog_0120_PSIP_logo.png
+Slide2 Left: items/what-makes-psip-suitable-for-the-exascale-computing-project
+Slide2 Right: images/raw/master/Blog_0120_PSIP_logo.png
+Slide3 Left: blog_posts/us-research-software-engineer-us-rse-association
+Slide3 Right: images/raw/master/Blog_011720_usrse.png
+Slide4 Left: blog_posts/better-scientific-software-2019-highlights
+Slide4 Right: images/raw/master/Blog_0120_Mantage.png
 --->
-
 
 <!---
 LCM: Saving for use again later
