@@ -1,0 +1,50 @@
+# Spreading Ideas about Better Scientific Software
+
+A recently released report describes how the IDEAS-ECP Productivity project, a part of the U.S. Exascale Computing Project, approaches its work of fostering and advancing software productivity and sustainability for extreme-scale computational science.
+
+**Hero Image:**
+
+ - <img src='https://exascaleproject.org/wp-content/uploads/2020/01/computing-abstraction.jpg'/>
+
+#### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
+
+#### Publication date: February 28, 2020
+
+Scientific computing on HPC systems is not easy.  Add the challenges of the increasing diversity and rapid pace of change in computer architectures that the community is currently facing, and it gets a good deal harder.  And then when we, as a community, have managed to deal with that and get some good computational science done, the expectations just seem to ratchet up.  The simulations need to include more physics (coupling), with higher fidelity, on larger systems.  And because of the increased cost and complexity, we need to implement it on the latest *bleeding*-edge hardware to reach the next level of scientific goals. This is the situation faced by many in the community, but it is particularly true within the U.S. Exascale Computing Project (ECP).
+
+The [IDEAS Productivity project](https://ideas-productivity.org/), of which I am a member, began in 2014 sponsored by a partnership between the Offices of Advanced Scientific Computing Research and Biological and Environmental Research within the U.S. Department of Energy Office of Science.  The project expanded in 2017 with support from the ECP to help software developers address the challenges inherent in the exascale effort.  The IDEAS-ECP team recently released a [report](https://exascaleproject.org/wp-content/uploads/2020/01/IDEAS-ECP.Report.v1.0.pdf) that describes our approach to helping ECP (and other) code teams improve their software productivity and sustainability and catalogs many of their contributions to date.  While I encourage you to read the report, I'll summarize our approach briefly here.
+
+### Curating methodologies to improve software practices of individuals and teams
+
+Understanding best practices in software development is fundamental to being able to help improve them.  We develop, customize, curate, and disseminate these best practices.  While the software development industry has many best practices to offer, scientific software development is often different in important ways, so their input needs to be considered, and often tailored to our community's needs. To aid this process, we work to gather and distill the collective understanding of scientific software development teams. 
+
+### Incrementally and iteratively upgrading software practices
+
+One of the differences in scientific software development is that, by and large, the project is funded to generate scientific results -- for the sponsors, the software is, often, just a byproduct.  A result of this is that scientific software teams spend most of their coding effort developing new capabilities to enable new science.  So efforts to improve software development processes in this community need to be incremental, easily integrated alongside the team's primary feature development efforts, and need to show benefits fairly quickly.  Recognizing this, we have developed a simple, lightweight process for [Productivity and Sustainability Improvement Planning](https://bssw.io/psip) (PSIP) which can help teams set goals for software process improvements, implement them, and evaluate and track their success.  The PSIP process has become a primary tool for our direct engagements with code teams.  And the approach is equally applicable outside of the ECP context.
+
+### Establishing software communities
+
+To support the needs of exascale applications, the Exascale Computing Project ecosystem also includes a wide range of tools, libraries, programming models, and performance portablity frameworks which are being developed and enhanced for exascale. Based on experience in the original "IDEAS-Classic" project, we've helped the ECP Software Technology teams design a collection of Software Development Kits (SDKs).  Organized "horizontally" (i.e., slices of qualitatively similar functionality), SDKs create software communities that can develop and implement common policies to ensure that the software components within the SDK provide the interoperability, testing, and wide deployment necessary to support the needs of the ECP applications, as described in a recent [blog post](https://bssw.io/blog_posts/building-community-through-software-policies).
+
+### Engaging in community outreach
+
+In the IDEAS project, we've always recognized that we can't change the world on our own.  And that's why, from its inception, IDEAS has made community outreach a prominent feature of our approach.  Our goal is to create a "virtuous cycle" in which widespread awareness of the importance of software quality and related issues within the HPC computational science and engineering community, including the Exascale Computing Project, in turn promotes sharing, discussion, and refinement of practices and resources for producing better scientific software for the benefit of the ECP as well as the broader community.  Our contributions to the community take many forms.  We work with people from other like-minded organizations to create opportunities for technical discussions focused on the experience of software development, including minisymposia, thematic poster groups, and birds-of-a-feather sessions. We've been delivering tutorials on Better Scientific Software at major conferences and other venues for some years now.  Since 2016, we've organized the [Best Practices for HPC Software Developers](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series) webinar series.  Recognizing that there's a lot of information on software practices "out there" already, but it can be hard to know what's useful for scientific software, we launched this web site.  And we've also established the Better Scientific Software Fellowship to help grow the community of leaders in scientific software productivity and sustainability.
+
+### We are not alone
+
+The IDEAS-ECP project participates in, and helps to grow, a larger community of practice around the idea of high-quality research software that includes numerous other groups, many of which have been described in a recent [paper](https://dx.doi.org/10.1109/MCSE.2018.2883051), and also featured in this blog, such as the [US-RSE Association](https://bssw.io/blog_posts/us-research-software-engineer-us-rse-association), [MolSSI](https://bssw.io/blog_posts/software-sustainability-in-the-molecular-sciences), and [URSSI](https://bssw.io/blog_posts/urssi-conceptualizing-a-us-research-software-sustainability-institute).  We feel that this is important for a number of reasons.  First and foremost, as with our own efforts to organize technical events around software development, the more people and organizations who are talking about scientific software development, the better it is for awareness within the larger community.  Secondly, the members of this community have different audiences, different stakeholders, and come at things from a variety of approaches.  Together, we are building a rich, diverse, and vibrant community.
+
+### Author bios
+
+David E. Bernholdt is the Outreach Lead for the IDEAS-ECP project. He is a Distinguished R&D Staff Member and Group Leader at Oak Ridge National Laboratory (ORNL). He has leadership roles in multiple projects in the DOE Exascale Computing Project (ECP) and the Scientific Discovery through Advanced Computing (SciDAC) program. He also leads the Programming Environment and Tools area of the Oak Ridge Leadership Computing Facility (OLCF). His research interests center on making it easier and more productive to create and use computational science and engineering software on the largest high-performance computer systems.
+
+<!---
+Publish: preview
+RSS update: 2020-02-28
+Categories: Planning, Collaboration
+Topics: Software Engineering, Projects and Organizations
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
