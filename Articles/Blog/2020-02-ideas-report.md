@@ -1,6 +1,5 @@
 # Spreading Ideas about Better Scientific Software
 
-
 **Hero Image:**
 
  - <img src='https://github.com/betterscientificsoftware/images/blob/master/Blog_0225_Computational.jpg'/>
