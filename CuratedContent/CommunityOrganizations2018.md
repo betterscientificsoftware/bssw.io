@@ -1,6 +1,6 @@
 # Exploring Community Organizations and their Role in Emerging Software Ecosystems
 
- The article explores how community organizations have evolved and their role in addressing technical and social challenges in software productivity, quality, reproducibility, and sustainability. 
+ The article explores how community organizations have evolved and their role in addressing technical and social challenges in software productivity, quality, and sustainability. 
 
 
 Resource information | Details
@@ -13,6 +13,8 @@ Software is the key crosscutting technology that enables advances in mathematics
 
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
+
+#### Publication date: July 20, 2019
 
 <!---
 Publish: yes
