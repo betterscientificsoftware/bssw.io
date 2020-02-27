@@ -5,7 +5,7 @@ Deck here
 Resource information | Details 
 :--- | :--- 
 Organization type  | National RSE organizations
-Website  | [UK Research Software Engineers Association](http://rse.ac.uk),[Society for Research Software in Germany](http://de-rse.org), [The Netherlands Research Software Engineer Community](http://nl-rse.org), [Nordic Research Software Engineers Community](http://nordic-rse.org), [The US Research Software Engineer Association](http://us-rse.org)
+Websites  | - [UK Research Software Engineers Association](http://rse.ac.uk)<br>- [Society for Research Software in Germany](http://de-rse.org)<br>- [The Netherlands Research Software Engineer Community](http://nl-rse.org)<br>- [Nordic Research Software Engineers Community](http://nordic-rse.org)<br>- [The US Research Software Engineer Association](http://us-rse.org)
 Focus | Careers and Goals
 
 
