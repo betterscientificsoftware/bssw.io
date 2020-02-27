@@ -68,14 +68,15 @@ each of the numbered steps in the description below.
      * Close the associated Issue, add comment that continued discussion will occur in the 
        PR `#<pr-id>`, and remove from the "Curated Content" board. (Unless a PR was created
        from the start instead of an Issue, see below.)
-     * PRs that are ready to be reviewed are  moved to *Item Review* and 1 reviewer
-       is assigned.
+     * PRs that are ready to be reviewed are  moved to *Item Review*
+       * Curated content PRs require and 1 reviewer.
+       * Blog articles require 2 reviewers.
 1. Pull Requests in *Item Review* are handled as follows.
    * Unapproved PRs are reviewed on the spot and approved or not. If no approval is
      forthcoming, revisions required by author are explained in review comments in the
      PR (if they have not already py preceding review(s))
    * Approved PRs
-     * **Editorial Assistance** review is requested assigning an **EA**.
+     * **Editorial Assistance** review is requested assigning an **EA** (1 for curated content, 2 for blog).
      * **EA** may request or explicitly revise the content with commits to the PR.
      * **Author** should indicate approval (or not) of any changes made by **EA** via
        comments in the PR.
