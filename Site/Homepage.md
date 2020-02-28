@@ -13,8 +13,6 @@ Slide4 Left: blog_posts/us-research-software-engineer-us-rse-association
 Slide4 Right: images/raw/master/Blog_011720_usrse.png
 --->
 
-https://bssw.io/items/finalizing-your-julia-package
-
 <!---
 LCM: Saving for use again later
 
