@@ -1,6 +1,6 @@
 # Finalizing Your Julia Package
 
-Do you work with the Julia language? If yes, this article on how to finalize Julia package will be of interest to you!
+Do you work with the Julia language? If so, this article on how to finalize Julia package will be of interest.
 
 Resource information | Details
 :--- | :--- 
@@ -10,15 +10,16 @@ Focus | Julia Packaging
 
 The [Julia](https://julialang.org/) programming language is a flexible dynamic language, appropriate for scientific and numerical computing, with performance comparable to traditional statically-typed languages.
 
-There are a number of important details in *finalizing* a Julia package in preparation for making it available for others to use. Some of the important steps needed are to ensure that the package is re-tested, coverage is re-computed and documentation is re-generated with each update to the package. This article is a good resource on this topic. The author, @ChrisRackauckas, goes into the details of key steps in the process including tips and tricks for `travis.yml` and `appvoyer.yml` files to run version compatability tests, update coverage and documentation.
+There are a number of important details in *finalizing* a Julia package in preparation for making it available for others to use. Some of the important steps needed are to ensure that the package is re-tested, coverage is re-computed, and documentation is re-generated with each update to the package. This article is a good resource on this topic. The author, @ChrisRackauckas, goes into the details of key steps in the process, including tips and tricks for `travis.yml` and `appvoyer.yml` files to run version compatability tests, update coverage and documentation.
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller's GitHub Profile")
 
 
 <!---
 Publish: yes
+RSS update: 2020-02-28
 Categories: development
-Topics: documentation
+Topics: documentation, programming languages
 Tags: service, tool
 Level: 2
 Prerequisites: defaults
