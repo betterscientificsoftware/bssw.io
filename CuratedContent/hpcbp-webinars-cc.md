@@ -336,7 +336,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 - [*What All Codes Should Do:  Overview of Best Practices in HPC Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001), Anshu Dubey (<a href="http://www.anl.gov/">Argonne National Laboratory</a>), 2016-05-04
 
 
-### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
+#### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
 
 <!---
 Publish: yes
