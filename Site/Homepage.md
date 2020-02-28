@@ -7,13 +7,13 @@ Slide1 Left: blog_posts/spreading-ideas-about-better-scientific-software
 Slide1 Right: images/raw/master/Blog_0225_Computational.jpg
 Slide2 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
 Slide2 Right: images/raw/master/Blog_0120_PSIP_logo.png
-Slide3 Left: blog_posts/us-research-software-engineer-us-rse-association
-Slide3 Right: images/raw/master/Blog_011720_usrse.png
-Slide4 Left: blog_posts/better-scientific-software-2019-highlights
-Slide4 Right: images/raw/master/Blog_0120_Mantage.png
+Slide3 Left: items/finalizing-your-julia-package
+Slide3 Right: items/best-practices-for-hpc-software-developers-webinar-series
+Slide4 Left: blog_posts/us-research-software-engineer-us-rse-association
+Slide4 Right: images/raw/master/Blog_011720_usrse.png
 --->
 
-
+https://bssw.io/items/finalizing-your-julia-package
 
 <!---
 LCM: Saving for use again later
