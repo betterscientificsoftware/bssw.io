@@ -1,11 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [New blog article ... Spreading Ideas about Better Scientific Software](../../Articles/Blog/2020-02-ideas-report.md)
+- Display dates: 02/28/2020 - 03/19/2020
+
+<!--
 - [New blog article ... Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
 - Display dates: 01/31/2020 - 02/19/2020
 
-
-<!--
 - [Webinar: Introduction to Kokkos](../../Events/hpcbp-037-kokkos.md)
 - Display dates: 01/19/2020 - 02/19/2020
 
