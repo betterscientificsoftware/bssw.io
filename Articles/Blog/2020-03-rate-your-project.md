@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src=''/>
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_RateYourProjectPoster_20200310.png'/>
 
 #### Contributed by [Gregory Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile")
 
@@ -56,14 +56,16 @@ in order to get people to rate their projects (although a few people were not pr
 Most people were eager to see how their project rated, and seemed to be encouraged when they
 discovered that it did well. A number of participants intially thought they would rate very low,
 but were suprised to find that they weren't doing so badly after all. People were also interested
-hearing about the more advanced practices and how they could benefit their project.
+hearing about the more advanced practices and how they could be used by their project. 
 
 ### Conclusion
 
 The level of participation was encouraging, and seemed to indicate that this approach was a good
-way of providing an initial baseline on a project's strengths and weaknesses. We hope to use the 
-results of this experiment to develop a more automated approach to assisting projects 
-improve their software practices using PSIP and progress tracking cards.
+way of providing an initial baseline on a project's strengths and weaknesses. Another benefit 
+what that the act of simply going through the scoring process helped to start a dialog about practices 
+and about how those practices fit in the larger context of modern, tech-industry established software 
+processes. We hope to use the  results of this experiment to develop a more automated approach to 
+assisting projects improve their software practices using PSIP and progress tracking cards.
 
 ### Author bio
 
