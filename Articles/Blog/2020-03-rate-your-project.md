@@ -1,8 +1,6 @@
 # Rate Your Project: A New Approach to Assessing Project Software Practices 
 
-**Hero Image:**
-
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_RateYourProjectPoster_20200310.png'/>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_RateYourProjectPoster_20200310.png'/>
 
 #### Contributed by [Gregory Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile")
 
