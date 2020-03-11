@@ -54,7 +54,13 @@ in order to get people to rate their projects (although a few people were not pr
 Most people were eager to see how their project rated, and seemed to be encouraged when they
 discovered that it did well. A number of participants intially thought they would rate very low,
 but were suprised to find that they weren't doing so badly after all. People were also interested
-hearing about the more advanced practices and how they could be used by their project. 
+hearing about the more advanced practices and how they could be used by their project.
+
+Without any a priori empirical evidence, the score value does not provide a useful indication of project
+maturity. However it was interesting to note that most projects scored between 250 and 450. What 
+was more useful was to see the areas that projects were strong in, and where systematic weaknesses
+were present. In particular, the "Better Development" categories scored significantly higher
+than the other categories. Areas of weakness (in greatest to least order) were: Onboarding, Software Design, Reproducibility, Deployment, Requirements Analysis, and Due Diligence.
 
 ### Conclusion
 
