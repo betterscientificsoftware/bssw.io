@@ -1,3 +1,12 @@
+# Fight the spread
+
+**Hero Image:**
+
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19WorkstationCleanlinessA.png'/>[JH COVID-19 Tracker]
+
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: March 16, 2020
+
 ## The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so during
 this Coronavirus<sup>[2]</sup> outbreak. Current guidance from the CDC<sup>[1]</sup>
