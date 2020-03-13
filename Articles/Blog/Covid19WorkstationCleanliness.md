@@ -18,11 +18,11 @@ How often should we be cleaning?
 
 ## What surfaces to clean? 
 
-Basically, you want to routinely clean, with a disinfecting solution of some
+You should to routinely clean, with a disinfecting solution of some
 kind (see below), any surface/object in your work area you touch, even if infrequently.
 This includes your computer keyboard, mouse and monitor, as well as the desk area
-immediately around these. But, it is also easy to forget about all the other things
-in our office areas we touch.
+immediately around these. It is easy to forget about all the other things
+in our office areas we touch apart from our computer.
 
 This cleaning guidance also includes your office chair armrests, telephone dial
 pad, handset and headset, your mobile phone(s), your whiteboard and dry erase markers,
@@ -83,7 +83,15 @@ for cleaning Apple products to endorse a 70% alcohol solution.
 
 ## Other things to keep in mind
 
-For those of us who are either sensitive to household cleaning chemicals or simple want
+Its worth mentioning that our fellow members of the HPC/CSE community are playing a critical
+role in helping to track and fight the spread of COVID-19.
+
+  * John's Hopkins interactive world map tracking COVID-19.<sup>[40],[42]</sup>
+  * How China is using AI to fight Coronavirus.<sup>[41]</sup>
+  * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[43]</sup>
+  * Using mobile phone data to track an outbreak.<sup>[44]</sup>
+
+For those of us who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, there aren't many studies or data indicating
 effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree oil or witch-hazel.
 During the current outbreak, it may not be the best time to experiment.
@@ -119,3 +127,9 @@ yourself but also those around you. The most vulnerable among us will appreciate
 [29]: https://youtu.be/poOSzPTapw0?t=40 "See GlowGerm Spread in an Elementary Classroom {}"
 [30]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local News Piece on Spread of Germs {}"
 [31]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your Cough {}"
+
+[40]: https://coronavirus.jhu.edu/map.html "Interactive, World-Map COVID-19 Tracker {}"
+[41]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking {}"
+[42]: https://youtu.be/Pnk8DuAly9Y?t=854 "Dr. Laren Gardner describes JH COVID-19 Tracker {}"
+[43]: https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f "Forbes AI article on COVID-19 {}"
+[44]: https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php "Using mobile data to track an outbreak {}"
