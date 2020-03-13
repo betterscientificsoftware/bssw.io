@@ -21,12 +21,15 @@ How often should we be cleaning?
 Basically, you want to routinely clean, with a disinfecting solution of some
 kind (see below), any surface/object in your work area you touch, even if infrequently.
 This includes your computer keyboard, mouse and monitor, as well as the desk area
-immediately around these. It also includes your office chair armrests, telephone dial
+immediately around these. But, it is also easy to forget about all the other things
+in our office areas we touch.
+
+This cleaning guidance also includes your office chair armrests, telephone dial
 pad, handset and headset, your mobile phone(s), your whiteboard and dry erase markers,
 the light switch, door knob, coffee cup handle, eye glasses and even your badge.
-If you tend to carry around a laptop that you set down in
-various places to work, wipe down any place before you set your laptop upon it and
-wipe your laptop again after picking it up.
+If you tend to carry around a laptop that you set down in various places to work,
+wipe down any place before you set your laptop upon it and wipe your laptop again
+after picking it up.
 
 Ideally, you would use a different wipe each time you clean a surface. That probably
 isn't practical. On the other hand, don't use a single wipe to clean everything in
@@ -64,7 +67,8 @@ So, you want to take care that you won't damage your electronics but will noneth
 still do an effective job of *cleaning* the surfaces.
 
 Take care to check with your local organization's health or custodial staff regarding
-cleaning solutions and supplies. They may have specific rules you need to follow.
+cleaning solutions and supplies. They may have specific products to use and rules you
+need to follow.
 
 While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup> to
 use on sensitive electronics, a number of sources indicate a solution of 70% isopropyl
@@ -84,17 +88,17 @@ to be more environmentally friendly, there aren't many studies or data indicatin
 effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree oil or witch-hazel.
 During the current outbreak, it may not be the best time to experiment.
 
-The overwhelming guidance on person-to-person transmission of COVID-19 is that it 
+The guidance on person-to-person transmission of COVID-19 is definitive. COVID-19 
 enters through the *mucus membranes* including the mouth, nose, and eyes.<sup>[7]</sup>
 The average person touches their face 23 times each hour.<sup>[26]</sup> This means anything
 on the surfaces you touch you will almost certainly bring to your face or to other surfaces<sup>[29],[30]</sup>
 you touch.
 
-So, keep your hands clean by frequent washing with soap and water for 20 seconds (over use of alcohol
-based sanitizer will likely dry your skin to the point of cracking *creating* a new vector
-for infection rather than preventing one). Try not to touch your face. When you cough or
-sneeze, cover it.<sup>[31]</sup> Remember, you are likely not only protecting yourself but
-also those around you. The most vulnerable among us will appreciate your efforts.
+So, keep your hands clean by frequent washing with soap and water for 20 seconds. Note that
+over use of alcohol based sanitizer will likely dry your skin to the point of cracking
+*creating* a new vector for infection rather than preventing one. Try not to touch your face.
+When you cough or sneeze, cover it.<sup>[31]</sup> Remember, you are not only protecting
+yourself but also those around you. The most vulnerable among us will appreciate your efforts.
 
 [1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC Guidance on CV-19 Transmission {}"
 [2]: https://www.who.int/health-topics/coronavirus "WHO Summary Remarks of CV-19 {}"
