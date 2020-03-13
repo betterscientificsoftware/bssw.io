@@ -11,7 +11,7 @@ While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses can
 remain virulent in the air for several hours or on different *surface* types
 for days. A pre-publication study specifically of the COVID-19 strain<sup>[4]</sup>
-concludes it remains virulent on metal or plastic for about 12 hours.
+in particular concludes it remains virulent on metal or plastic for about 12 hours.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
@@ -19,7 +19,7 @@ How often should we be cleaning?
 ## What surfaces to clean? 
 
 Basically, you want to routinely clean, with a disinfecting solution of some
-kind (see below), any surface/object in your office you touch, even if infrequently.
+kind (see below), any surface/object in your work area you touch, even if infrequently.
 This includes your computer keyboard, mouse and monitor, as well as the desk area
 immediately around these. It also includes your office chair armrests, telephone dial
 pad, handset and headset, your mobile phone(s), your whiteboard and dry erase markers,
@@ -30,17 +30,18 @@ wipe your laptop again after picking it up.
 
 Ideally, you would use a different wipe each time you clean a surface. That probably
 isn't practical. On the other hand, don't use a single wipe to clean everything in
-your office area either.
-
-If you can, its best to use gloves when cleaning. But, since most of us don't have
-easy access to a box of disposable gloves, just remember to wash your hands after
-you've finished cleaning your office surfaces.
+your office area either. If you can, its best to use gloves when cleaning. But, since
+most of us don't have easy access to a box of disposable gloves, just remember to wash
+your hands after you've finished cleaning your office surfaces.
 
 A really important piece of electronics
 to clean is your mobile phone. Why? Many people set their phones down on various surfaces,
-carry it into the bathroom and, of course hold it to their ear and face. Its that
+carry it into the bathroom and, of course frequently touch and hold it as well as bring
+it to their ear and face. Its that
 last part that is problematic. So, keep your phone, and the case/holder, clean.
 And, maybe don't set it down just anywhere.
+
+## When and how often to clean?
 
 It is best to clean your office area just before you sit down for the day to work. 
 That single time per day is probably sufficient for most offices. However, if you
@@ -53,7 +54,7 @@ as well as the equipment associated with these areas? While it probably doesn't
 make sense to continually spend your own time cleaning these areas, you may want
 to carry some portable wipes with you to wipe the areas *you* will be using just
 prior to your use of them. Alternatively, carry some tissue you can place in your
-hand to push a switch or grab door handle.
+hand to push a switch or grab a door handle.
 
 ## What cleaner to use
 
@@ -67,9 +68,9 @@ Do not use cleaners with scrubbing additives which are granular to the feel.
 While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup> to
 use on sensitive electronics, a number of sources indicate a solution of 70% isopropyl
 alcohol and purified water (which you can mix yourself in a pinch) dabbed onto a microfiber cloth
-will do<sup>[21]</sup>. In any case, if you are concerned about possible damage, of course try whatever
-cleaner you are using in a small, unused area first and wait a few minutes for it to dry to see if
-it causes a discoloration. If there is a noticeable residue after using a cleaner,
+will do.<sup>[21]</sup> In any case, if you are concerned about possible damage, of course test
+the cleaner in a small, unused area first and wait a few minutes for it to dry to see if
+it causes a discoloration. If there is a noticeable residue left after using a cleaner,
 use a new, dry microfiber cloth to buff out the residue.
 
 Just a few days ago, on March 9th, 2020, Apple changed its guidelines<sup>[22]</sup>
@@ -83,15 +84,15 @@ effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, te
 During the current outbreak, it may not be the best time to experiment.
 
 The overwhelming guidance on person-to-person transmission of COVID-19 is that it 
-enters through the *mucus membranes* including the mouth, nose, and eyes<sup>[7]</sup>.
-The average person touches their face 23 times each hour<sup>[26]</sup>. This means anything
+enters through the *mucus membranes* including the mouth, nose, and eyes.<sup>[7]</sup>
+The average person touches their face 23 times each hour.<sup>[26]</sup> This means anything
 on the surfaces you touch you will almost certainly bring to your face or to other surfaces<sup>[29],[30]</sup>
 you touch.
 
 So, keep your hands clean by frequent washing with soap and water for 20 seconds (over use of alcohol
 based sanitizer will likely dry your skin to the point of cracking *creating* a new vector
 for infection rather than preventing one). Try not to touch your face. When you cough or
-sneeze, cover it<sup>[31]</sup>. Remember, you are likely not only protecting yourself but
+sneeze, cover it.<sup>[31]</sup> Remember, you are likely not only protecting yourself but
 also those around you. The most vulnerable among us will appreciate your efforts.
 
 [1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC Guidance on CV-19 Transmission {}"
