@@ -95,7 +95,7 @@ for cleaning Apple products to endorse a 70% alcohol solution.
 Its worth mentioning that our fellow members of the HPC/CSE community are playing a critical
 role in helping to track and fight the spread of COVID-19.
 
-  * John's Hopkins interactive world map tracking COVID-19.<sup>[40],[42]</sup>
+  * John's Hopkins COVID-19 Dashboard.<sup>[40],[42]</sup>
   * How China is using AI to fight Coronavirus.<sup>[41]</sup>
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[43]</sup>
   * Using mobile phone data to track an outbreak.<sup>[44]</sup>
@@ -137,8 +137,8 @@ yourself but also those around you. The most vulnerable among us will appreciate
 [30]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local News Piece on Spread of Germs {}"
 [31]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your Cough {}"
 
-[40]: https://coronavirus.jhu.edu/map.html "Interactive, World-Map COVID-19 Tracker {}"
+[40]: https://coronavirus.jhu.edu/map.html "JH COVID-19 Dashboard {}"
 [41]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking {}"
-[42]: https://youtu.be/Pnk8DuAly9Y?t=854 "Dr. Laren Gardner describes JH COVID-19 Tracker {}"
+[42]: https://youtu.be/Pnk8DuAly9Y?t=978 "Dr. Laren Gardner describes JH COVID-19 Dashboard {}"
 [43]: https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f "Forbes AI article on COVID-19 {}"
 [44]: https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php "Using mobile data to track an outbreak {}"
