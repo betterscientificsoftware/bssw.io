@@ -62,7 +62,7 @@ wrong cleaners can cause surface discolorations or negatively effect display sur
 So, you want to take care that you won't damage your electronics but will nonetheless
 still do an effective job of *cleaning* the surfaces.
 
-Do not use cleaners with scrubbing additives (granular to the feel).
+Do not use cleaners with scrubbing additives which are granular to the feel.
 
 While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup> to
 use on sensitive electronics, a number of sources indicate a solution of 70% isopropyl
@@ -86,12 +86,13 @@ The overwhelming guidance on person-to-person transmission of COVID-19 is that i
 enters through the *mucus membranes* including the mouth, nose, and eyes<sup>[7]</sup>.
 The average person touches their face 23 times each hour<sup>[26]</sup>. This means anything
 on the surfaces you touch you will almost certainly bring to your face or to other surfaces<sup>[29],[30]</sup>
-whom you touch. So, keep your
-hands clean by frequent washing with soap and water for 20 seconds (over use of alcohol
+you touch.
+
+So, keep your hands clean by frequent washing with soap and water for 20 seconds (over use of alcohol
 based sanitizer will likely dry your skin to the point of cracking *creating* a new vector
 for infection rather than preventing one). Try not to touch your face. When you cough or
 sneeze, cover it<sup>[31]</sup>. Remember, you are likely not only protecting yourself but
-also those around you. The most vulnerable among us will appreciate your efforts.<sup>[27],[28]</sup>
+also those around you. The most vulnerable among us will appreciate your efforts.
 
 [1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC Guidance on CV-19 Transmission {}"
 [2]: https://www.who.int/health-topics/coronavirus "WHO Summary Remarks of CV-19 {}"
