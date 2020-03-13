@@ -56,14 +56,15 @@ to carry some portable wipes with you to wipe the areas *you* will be using just
 prior to your use of them. Alternatively, carry some tissue you can place in your
 hand to push a switch or grab a door handle.
 
-## What cleaner to use
+## What cleaner to use?
 
 Some electronics are sensitive to common household cleaning solutions. Using the
 wrong cleaners can cause surface discolorations or negatively effect display surfaces.
 So, you want to take care that you won't damage your electronics but will nonetheless
 still do an effective job of *cleaning* the surfaces.
 
-Do not use cleaners with scrubbing additives which are granular to the feel.
+Take care to check with your local organization's health or custodial staff regarding
+cleaning solutions and supplies. They may have specific rules you need to follow.
 
 While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup> to
 use on sensitive electronics, a number of sources indicate a solution of 70% isopropyl
