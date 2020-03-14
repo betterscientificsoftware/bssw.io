@@ -15,8 +15,8 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 ## The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
 help stem the spread of COVID-19.<sup>[2]</sup> There are some simple things
-you can do to help stop the spread and if we all are diligent those things can
-have a big impact on how the next several months play out for everyone.<sup>[45]</sup>
+you can do and if we all are diligent those things can have a big impact on how
+the next several months play out for everyone.<sup>[45]</sup>
 
 Current guidance from the CDC<sup>[1]</sup> is...
 
@@ -26,9 +26,9 @@ possibly their eyes, but this is not thought to be the *main* way the virus spre
 
 While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
-remain active in the air for several hours or on different *surfaces* for days.
-A pre-publication study specifically of the COVID-19 strain<sup>[4]</sup>
-in particular concludes it remains virulent on metal or plastic for about 12 hours.
+remain active in the air for hours or on different *surfaces* for days.
+A pre-publication study specifically of COVID-19<sup>[4]</sup>
+in particular concludes it remains active on metal or plastic for about 12 hours.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
@@ -43,16 +43,10 @@ in our office areas we touch apart from our computer.
 
 This cleaning guidance also includes your office chair armrests, telephone dial
 pad, handset and headset, your mobile phone(s), your whiteboard and dry erase markers,
-light switches, door knobs, coffee cup handled, eye glasses and even your badge.
+light switches, door knobs, coffee cup handle, eye glasses and even your badge.
 If you tend to carry around a laptop that you set down in various places to work,
 wipe down any place before you set your laptop upon it and wipe your laptop (bottom
 and top) again after picking it up.
-
-Ideally, you would use a different wipe each time you clean a surface. That probably
-isn't practical. On the other hand, don't use a single wipe to clean everything in
-your office area either. If you can, its best to use gloves when cleaning. But, since
-most of us don't have easy access to a box of disposable gloves, just remember to wash
-your hands after you've finished cleaning your office surfaces.
 
 A really important piece of electronics
 to clean is your mobile phone. Why? Many people set their phones down on various surfaces,
@@ -60,6 +54,12 @@ carry it into the bathroom and, of course frequently touch and hold it as well a
 it to their ear and face. Its that
 last part that is problematic. So, keep your phone, and the case/holder, clean.
 And, maybe don't set it down just anywhere.
+
+Ideally, you would use a different wipe each time you clean a surface. That probably
+isn't practical. On the other hand, don't use a single wipe to clean everything in
+your office area either. If you can, its best to use gloves when cleaning. But, since
+most of us don't have easy access to a box of disposable gloves, just remember to wash
+your hands after you've finished cleaning your office surfaces.
 
 ## When and how often to clean?
 
@@ -76,7 +76,7 @@ to carry some portable wipes with you to wipe the areas *you* will be using just
 prior to your use of them. Alternatively, carry some tissue you can place in your
 hand to push a switch or grab a door handle.
 
-## What cleaner to use?
+## What cleaners to use?
 
 Some electronics are sensitive to common household cleaning solutions. Using the
 wrong cleaners can cause surface discolorations or negatively effect display surfaces.
@@ -87,12 +87,12 @@ Take care to check with your local organization's health or custodial staff rega
 cleaning solutions and supplies. They may have specific products to use and rules you
 need to follow.
 
-While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup> to
-use on sensitive electronics, a number of sources indicate a solution of 70% isopropyl
-alcohol and purified water (which you can mix yourself in a pinch) dabbed onto a microfiber cloth
-will do.<sup>[21]</sup> In any case, if you are concerned about possible damage, of course test
-the cleaner in a small, unused area first and wait a few minutes for it to dry to see if
-it causes a discoloration. If there is a noticeable residue left after using a cleaner,
+While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup>
+that both kill the virus but are safe for sensitive electronics, a number of sources indicate a
+solution of 70% isopropyl alcohol and purified water (which you can mix yourself in a pinch) dabbed
+onto a microfiber cloth will do.<sup>[21]</sup> In any case, if you are concerned about possible
+damage, of course test the cleaner in a small, unused area first and wait a few minutes for it to
+dry to see if it causes a discoloration. If there is a noticeable residue left after using a cleaner,
 use a new, dry microfiber cloth to buff out the residue.
 
 Just a few days ago, on March 9th, 2020, Apple changed its guidelines<sup>[22]</sup>
@@ -100,11 +100,11 @@ for cleaning Apple products to endorse a 70% alcohol solution.
 
 ## The science behind the scenes
 
-The whole point of simple actions like these and other social distancing<sup>[47]</sup> measures is
-to help *flatten the curve.*<sup>[46]</sup> Health care systems can care for a slow and
+The whole point of simple actions like these and other social distancing<sup>[47]</sup> measures
+is to help *flatten the curve.*<sup>[46]</sup> Health care systems can care for a slow and
 steady stream of patients. What they cannot handle is an exponential-growth driven tsunami
 of cases all at once. Under those conditions, a lot more people who would otherwise get
-excellent care in helping to fight the diseas will die.
+excellent care in helping to fight the disease are at much greater risk of dieing.
 
 Its worth mentioning that members of our own HPC/CSE community are playing a critical
 role in helping to track and fight the spread of COVID-19.
