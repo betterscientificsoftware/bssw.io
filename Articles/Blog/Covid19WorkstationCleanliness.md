@@ -8,9 +8,12 @@
 #### Publication date: March 16, 2020
 
 ## The importance of keeping work surfaces clean
-Keeping our work areas clean is always a good practice but even more so during
-this Coronavirus<sup>[2]</sup> outbreak. Current guidance from the CDC<sup>[1]</sup>
-is...
+Keeping our work areas clean is always a good practice but even more so now to
+help stem the spread of COVID-19.<sup>[2]</sup> There are some simple things
+you can do to help stop the spread and if we all are diligent those things can
+have a big impact on how the next several months play out for everyone.<sup>[45]</sup>
+
+Current guidance from the CDC<sup>[1]</sup> is...
 
 > It may be possible that a person can get COVID-19 by touching a surface or
 object that has the virus on it and then touching their own mouth, nose, or
@@ -18,7 +21,7 @@ possibly their eyes, but this is not thought to be the main way the virus spread
 
 While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses can
-remain virulent in the air for several hours or on different *surface* types
+remain active in the air for several hours or on different *surface* types
 for days. A pre-publication study specifically of the COVID-19 strain<sup>[4]</sup>
 in particular concludes it remains virulent on metal or plastic for about 12 hours.
 
@@ -142,3 +145,4 @@ yourself but also those around you. The most vulnerable among us will appreciate
 [42]: https://youtu.be/Pnk8DuAly9Y?t=978 "Dr. Laren Gardner describes JH COVID-19 Dashboard {}"
 [43]: https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f "Forbes AI article on COVID-19 {}"
 [44]: https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php "Using mobile data to track an outbreak {}"
+[45]: https://youtu.be/qf3Ih0kNvlU "SciShow Overview of COVID-19 CFR {}"
