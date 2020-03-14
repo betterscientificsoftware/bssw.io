@@ -17,12 +17,12 @@ Current guidance from the CDC<sup>[1]</sup> is...
 
 > It may be possible that a person can get COVID-19 by touching a surface or
 object that has the virus on it and then touching their own mouth, nose, or
-possibly their eyes, but this is not thought to be the main way the virus spreads.
+possibly their eyes, but this is not thought to be the *main* way the virus spreads.
 
 While surface contact may not be the *main way the virus spreads*, multiple
-sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses can
-remain active in the air for several hours or on different *surface* types
-for days. A pre-publication study specifically of the COVID-19 strain<sup>[4]</sup>
+sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
+remain active in the air for several hours or on different *surfaces* for days.
+A pre-publication study specifically of the COVID-19 strain<sup>[4]</sup>
 in particular concludes it remains virulent on metal or plastic for about 12 hours.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
@@ -30,18 +30,18 @@ How often should we be cleaning?
 
 ## What surfaces to clean? 
 
-You should to routinely clean, with a disinfecting solution of some
+You should routinely clean, with a disinfecting solution of some
 kind (see below), any surface/object in your work area you touch, even if infrequently.
-This includes your computer keyboard, mouse and monitor, as well as the desk area
-immediately around these. It is easy to forget about all the other things
+Obviously, this includes your computer keyboard, mouse and monitor, as well as the desk area
+immediately around these. However, it is easy to forget about all the other things
 in our office areas we touch apart from our computer.
 
 This cleaning guidance also includes your office chair armrests, telephone dial
 pad, handset and headset, your mobile phone(s), your whiteboard and dry erase markers,
-the light switch, door knob, coffee cup handle, eye glasses and even your badge.
+light switches, door knobs, coffee cup handled, eye glasses and even your badge.
 If you tend to carry around a laptop that you set down in various places to work,
-wipe down any place before you set your laptop upon it and wipe your laptop again
-after picking it up.
+wipe down any place before you set your laptop upon it and wipe your laptop (bottom
+and top) again after picking it up.
 
 Ideally, you would use a different wipe each time you clean a surface. That probably
 isn't practical. On the other hand, don't use a single wipe to clean everything in
@@ -65,8 +65,8 @@ your office mates) might want to consider making a pass over all the items in
 your office area a few times a day.
 
 What about common access areas such as bathrooms, meeting rooms, elevators, etc.,
-as well as the equipment associated with these areas? While it probably doesn't
-make sense to continually spend your own time cleaning these areas, you may want
+as well as the equipment associated with these areas? While it doesn't
+make sense to spend your own time continually cleaning these areas, you may want
 to carry some portable wipes with you to wipe the areas *you* will be using just
 prior to your use of them. Alternatively, carry some tissue you can place in your
 hand to push a switch or grab a door handle.
@@ -93,15 +93,23 @@ use a new, dry microfiber cloth to buff out the residue.
 Just a few days ago, on March 9th, 2020, Apple changed its guidelines<sup>[22]</sup>
 for cleaning Apple products to endorse a 70% alcohol solution.
 
-## Other things to keep in mind
+## The science behind the scenes
 
-Its worth mentioning that fellow members of our HPC/CSE community are playing a critical
+The whole point of simple actions like these and other social distancing<sup>[47]</sup> measures is
+to help *flatten the curve.*<sup>[46]</sup> Health care systems can care for a slow and
+steady stream of patients. What they cannot handle is an exponential-growth driven tsunami
+of cases all at once. Under those conditions, a lot more people who would otherwise get
+excellent care in helping to fight the diseas will die.
+
+Its worth mentioning that members of our own HPC/CSE community are playing a critical
 role in helping to track and fight the spread of COVID-19.
 
   * John's Hopkins COVID-19 Dashboard.<sup>[40],[42]</sup>
   * How China is using AI to fight Coronavirus.<sup>[41]</sup>
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[43]</sup>
   * Using mobile phone data to track an outbreak.<sup>[44]</sup>
+
+## Other things to keep in mind
 
 For those of us who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, there aren't many studies or data indicating
@@ -114,11 +122,13 @@ The average person touches their face 23 times each hour.<sup>[26]</sup> This me
 on the surfaces you touch you will almost certainly bring to your face or to other
 surfaces<sup>[29],[30]</sup> you touch.
 
-So, keep your hands clean by frequent washing with soap and water for 20 seconds. Note that
-over use of alcohol based sanitizer will likely dry your skin to the point of cracking
+So, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
+washing with soap and water for 20 seconds. Note that
+overuse of alcohol based sanitizer will likely dry your skin to the point of cracking
 *creating* a new vector for infection rather than preventing one. Try not to touch your face.
 When you cough or sneeze, cover it.<sup>[31]</sup> Remember, you are not only protecting
-yourself but also those around you. The most vulnerable among us will appreciate your efforts.
+yourself but also those around you. The most vulnerable among us will appreciate your efforts
+in slowing the spread of COVID-19.
 
 [1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC Guidance on CV-19 Transmission {}"
 [2]: https://www.who.int/health-topics/coronavirus "WHO Summary Remarks of CV-19 {}"
@@ -127,6 +137,7 @@ yourself but also those around you. The most vulnerable among us will appreciate
 [5]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface Study of various Coronaviruses {}"
 [6]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC Guidance on Cleaning Surfaces {}"
 [7]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC Description of Transmission Scenario {}"
+[8]: https://en.wikipedia.org/wiki/Coronavirus
 
 [20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best Disinfecting Wipes {}"
 [21]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics {}"
@@ -146,3 +157,5 @@ yourself but also those around you. The most vulnerable among us will appreciate
 [43]: https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f "Forbes AI article on COVID-19 {}"
 [44]: https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php "Using mobile data to track an outbreak {}"
 [45]: https://youtu.be/qf3Ih0kNvlU "SciShow Overview of COVID-19 CFR {}"
+[46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
+[47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
