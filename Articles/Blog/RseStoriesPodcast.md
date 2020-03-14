@@ -8,26 +8,19 @@
 
 #### Publication date: March xx, 2020
 
-RSE Stories is a Podcast to tell the real stories of what it means to be a research software engineer.
-
-In academic research we look to different flavors of publication to derive our truth. For example,
-if we want to understand what exactly a "Research Software Engineer" is, we identify individuals
-that are "experts" in the field, and we look for their wisdom. Those individuals, by way of interest
-or knowledge of this expertise, know that if they write papers, they will be read.
-This leads to an entire definition of a field or concept coming from the life experiences of
-just a few people, and it's a dangerous situation in that is goes under awareness.
-
 ### We look to experts for knowledge, but do they know the whole picture?
 
-I woke up one morning in September of 2019 with this thought on my mind. I had seen several
+I woke up one morning in September of 2019 with something on my mind. I had seen several
 papers, talks, and other "academically approved" presentation formats that were defining what
-a research software engineer is. What was the problem? It didn't reflect my experience.
+a research software engineer (RSE) is. What was the problem? It didn't reflect my experience.
 It didn't reflect the experiences of many of my peers, and presented a very narrow
-understanding of a role that was immensely rich and changing. 
-You might be in high performance computing! Or an open source developer! Or you might
-lead a team of engineers, or spend a lot of time on documentation or user support.
-The definitions presented largely stated that an RSE operated on some dimension between
-software engineer and researcher, and it felt too flat.
+understanding of a role that was immensely rich and changing. Could it be that the community
+would need a source different from publication to derive our truth? What exactly is a
+research software engineer anyway? Did I know? I had seen RSEs in high performance computing,
+open source development, and of course at national and academic labs. These folks
+worked on everything from documentation to user support. What I saw in the real world
+didn't reflect what the experts were advocating - research software engineers did not
+always exist on some dimension between software engineer and researcher.
 
 ### If there is missing information, where can we find it?
 
@@ -83,9 +76,22 @@ It's easy to get distracted by the trending technologies of the moment, and tryi
 you think you are expected to be. I know that these hard working engineers, dreamers, and advocates are out 
 there, and this is what I find so inspiring and compells me to continue the podcast.
 
+### What I've learned from RSE Stories
+
+Along with hugely expanding my understanding of what an RSE is, I've learned a lot of
+technical and social tidbits by way of working on the RSE Stories podcast. I'd like
+to share them quickly here:
+
+ - Being social can produce anxiety, but I've learned that if I regularly expose myself to recording, it actually gets easier and I enjoy it. Introverts of the world, listen up! Adding a routine that puts you slightly out of your comfort zone can have unexpected positive benefits for this reason.
+ - It's good to know a few things about the person in advance so that you are ready to ask questions. Some people can very fluidly speak about their work, while others will only provide short answers, making your ability to ask good questions hugely important.
+ - Every endeavour takes time. You have to make time for the things that you care about. This podcast falls into that bin for me, and hopefully in time others might be interested to help and record episodes.
+ - Software wise, you don't need much more than [Audacity](https://www.audacityteam.org/) and a [episode feed](https://github.com/USRSE/rse-stories/blob/master/pages/episodes.rss) to give your podcast life.  
+ - Technology wise, it's best for both to record in a quiet, and small room, with minimally a headset with mic.
+
 If you are interested in being featured on RSE Stories, you can read more information about
 the podcast and express interest [here](https://us-rse.org/rse-stories/about/). What are you waiting for,
 let's share your story!
+
 
 ### Author bio
 
