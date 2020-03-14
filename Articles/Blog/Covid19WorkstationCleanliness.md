@@ -1,4 +1,4 @@
-# Fight the spread
+# Simple things you can do to help stop the spread
 
 **Hero Image:**
 
@@ -92,7 +92,7 @@ for cleaning Apple products to endorse a 70% alcohol solution.
 
 ## Other things to keep in mind
 
-Its worth mentioning that our fellow members of the HPC/CSE community are playing a critical
+Its worth mentioning that fellow members of our HPC/CSE community are playing a critical
 role in helping to track and fight the spread of COVID-19.
 
   * John's Hopkins COVID-19 Dashboard.<sup>[40],[42]</sup>
@@ -102,14 +102,14 @@ role in helping to track and fight the spread of COVID-19.
 
 For those of us who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, there aren't many studies or data indicating
-effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree oil or witch-hazel.
-During the current outbreak, it may not be the best time to experiment.
+effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree
+oil or witch-hazel. During the current outbreak, it may not be the best time to experiment.
 
 The guidance on person-to-person transmission of COVID-19 is definitive. COVID-19 
 enters through the *mucus membranes* including the mouth, nose, and eyes.<sup>[7]</sup>
 The average person touches their face 23 times each hour.<sup>[26]</sup> This means anything
-on the surfaces you touch you will almost certainly bring to your face or to other surfaces<sup>[29],[30]</sup>
-you touch.
+on the surfaces you touch you will almost certainly bring to your face or to other
+surfaces<sup>[29],[30]</sup> you touch.
 
 So, keep your hands clean by frequent washing with soap and water for 20 seconds. Note that
 over use of alcohol based sanitizer will likely dry your skin to the point of cracking
