@@ -1,4 +1,4 @@
-# Simpl Work area cleaning practices to help flatten the curve
+# Help flatten the curve: Keep your work area clean
 
 **Hero Image:**
 
