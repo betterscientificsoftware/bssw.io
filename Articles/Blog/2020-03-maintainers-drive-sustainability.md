@@ -97,8 +97,8 @@ Steve Smith is a computer scientist supporting the Center for Applied Scientific
 <!---
 Publish: preview
 RSS update: 
-Categories: Planning, Reliability
-Topics: Software Engineering, Debugging
+Categories: Planning, Planning, Collaboration
+Topics: Software Engineering, Software Process Improvement, Strategies for More Effective Teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
