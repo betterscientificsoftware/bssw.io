@@ -1,5 +1,12 @@
-Making myself better: What craftspeople can teach us about software
-===================================================================
+# Making myself better: What craftspeople can teach us about software
+
+**Hero Image:**
+
+ - <img src='https://exascaleproject.org/wp-content/uploads/2020/01/computing-abstraction.jpg'/>
+
+#### Contributed by [Wolfgang Bangerth](https://github.com/bangerth "Wolfgang Bangerth GitHub Profile")
+
+#### Publication date: TBD
 
 We have this romanticized notion of craftspeople and artisans as
 skillful creators striving for perfection, every time. That may of
@@ -46,7 +53,7 @@ called [defensive
 programming](https://en.wikipedia.org/wiki/Defensive_programming),
 which is a form of [defensive design](https://en.wikipedia.org/wiki/Defensive_design).
 
-# It's a mindset question
+### It's a mindset question
 
 I'll give you a few examples of defensive programming below, and it's
 definitely a good habit to use defensive techniques.
@@ -71,7 +78,7 @@ have to have grave consequences if one anticipates that it does and guards
 against it.
 
 
-# An example
+### An example
 
 Let me show you a simple piece of code, not untypical of the kind we all write
 when dealing with geometry in three-dimensional spaces:
@@ -155,7 +162,7 @@ because *introspection has allowed me to understand what kinds of mistakes
 I often make*, and how I can learn to live with it.
 
 
-# Defensive programming
+### Defensive programming
 
 Assertions are one component of "defensive programming". We use them
 extensively in all of the codes I work on. For example, the [deal.II
@@ -228,7 +235,7 @@ my view is that that may be going too far, but I appreciate the spirit
 of anticipating that one may also make mistakes writing assertions.
 
 
-# Summary
+### Summary
 
 The point I wanted to make here is not that defensive programming is
 good (it unambiguously is), but what made people think about it in the
@@ -251,7 +258,7 @@ is about *forcing* ourselves to be introspective and learn how we, as
 software engineers, operate.
 
 
-# Author bio
+### Author bio
 
 Wolfgang Bangerth is a professor of mathematics and (by courtesy)
 geosciences at Colorado State University. In 1997, he founded and is
@@ -273,3 +280,14 @@ Before joining Colorado State University, he was on the faculty of
 Texas A&M University and a postdoc at the University of Texas at
 Austin. He received his PhD from the University of Heidelberg,
 Germany, in 2002.
+
+<!---
+Publish: preview
+RSS update: 
+Categories: Planning, Reliability
+Topics: Software Engineering, Debugging
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
