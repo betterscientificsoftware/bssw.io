@@ -1,8 +1,13 @@
-# Simple things you can do to help stop the spread
+# Simpl Work area cleaning practices to help flatten the curve
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19WorkstationCleanlinessA.png'/>[JH COVID-19 Tracker]
+- <img src='https://upload.wikimedia.org/wikipedia/commons/c/c5/Covid-19-curves-graphic-social-v3.gif'/>[Siouxsie Wiles and Toby Morris]
+
+<!--
+Image licensed under...
+https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
+-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 16, 2020
