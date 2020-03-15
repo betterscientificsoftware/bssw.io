@@ -1,5 +1,5 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
-# Cleaning your work surfaces: One way to help flatten the curve
+# Pre-Reference Version: Cleaning your work surfaces: One way to help flatten the curve
 
 **Hero Image:**
 
@@ -154,7 +154,7 @@ Among other things, he contributes to
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
 <!---
-Publish: preview
+Publish: no
 RSS update: 2020-03-10
 Categories: Skills
 Topics: Personal productivity and sustainability
@@ -169,30 +169,30 @@ Aggregate: none
 <br>
 
 <!---
-[1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC Guidance on CV-19 Transmission {}"
-[2]: https://www.who.int/health-topics/coronavirus "WHO Summary Remarks of CV-19 {}"
-[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/ "NIH CV-229E Surface Study {}"
-[4]: https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1 "Aerosol and Surface Study of CV-19 {}"
-[5]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface Study of various Coronaviruses {}"
-[6]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC Guidance on Cleaning Surfaces {}"
-[7]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC Description of Transmission Scenario {}"
-[8]: https://en.wikipedia.org/wiki/Coronavirus "Wikipedia summary of Coronavirus {}"
+[1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC guidance on CV-19 transmission {}"
+[2]: https://www.who.int/health-topics/coronavirus "WHO summary remarks of COVID-19 {}"
+[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/ "NIH CV-229E surface study {}"
+[4]: https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1 "Aerosol and surface study of SARS-CoV-2 {}"
+[5]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface study of various coronaviruses {}"
+[6]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC guidance on cleaning surfaces {}"
+[7]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC description of transmission scenario {}"
+[8]: https://en.wikipedia.org/wiki/Coronavirus "Wikipedia summary of coronavirus {}"
 [9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC describes names SARS-CoV-2 COVID-19 {}"
-[20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best Disinfecting Wipes {}"
+[20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best disinfecting wipes {}"
 [21]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics {}"
-[22]: https://support.apple.com/en-us/HT204172?mod=article_inline "Apple Guidance on 70% Alcohol {}"
-[23]: https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/ "Common Household Products to Kill CV-19 {}"
-[24]: https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf "EPA Technical Guidance & Cleaner Types/Ratings {}"
-[25]: https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2 "EPA Cleaner Designations {}"
-[26]: https://www.ncbi.nlm.nih.gov/pubmed/25637115 "Face Touching Study {}"
-[27]: https://ottawacitizen.com/health/busting-the-coronavirus "DIY Cleaners {}"
-[29]: https://youtu.be/poOSzPTapw0?t=40 "See GlowGerm Spread in an Elementary Classroom {}"
-[30]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local News Piece on Spread of Germs {}"
-[31]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your Cough {}"
+[22]: https://support.apple.com/en-us/HT204172?mod=article_inline "Apple guidance on 70% alcohol {}"
+[23]: https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/ "Common household products to kill SARS-CoV-2 {}"
+[24]: https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf "EPA technical guidance & cleaner types/ratings {}"
+[25]: https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2 "EPA cleaner designations {}"
+[26]: https://www.ncbi.nlm.nih.gov/pubmed/25637115 "Face touching study {}"
+[27]: https://ottawacitizen.com/health/busting-the-coronavirus "DIY, natural cleaners {}"
+[29]: https://youtu.be/poOSzPTapw0?t=40 "See GlowGerm spread in an elementary classroom {}"
+[30]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local news piece on spread of germs {}"
+[31]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your cough {}"
 [32]: https://youtu.be/36FfZhxXTBc?t=296 "CBC story including cleaners {}"
-[40]: https://coronavirus.jhu.edu/map.html "JH COVID-19 Dashboard {}"
+[40]: https://coronavirus.jhu.edu/map.html "JH COVID-19 dashboard {}"
 [41]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking {}"
-[42]: https://youtu.be/Pnk8DuAly9Y?t=978 "Dr. Laren Gardner describes JH COVID-19 Dashboard {}"
+[42]: https://youtu.be/Pnk8DuAly9Y?t=978 "Dr. Laren Gardner describes JH COVID-19 dashboard {}"
 [43]: https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f "Forbes AI article on COVID-19 {}"
 [44]: https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php "Using mobile data to track an outbreak {}"
 [45]: https://youtu.be/qf3Ih0kNvlU "SciShow Overview of COVID-19 CFR {}"
@@ -202,30 +202,30 @@ Aggregate: none
 --->
 <br>
 
-[1]: #ref1 "CDC Guidance on CV-19 Transmission"
-[2]: #ref2 "WHO Summary Remarks of CV-19"
-[3]: #ref3 "NIH CV-229E Surface Study"
-[4]: #ref4 "Aerosol and Surface Study of CV-19"
-[5]: #ref5 "Surface Study of various Coronaviruses"
-[6]: #ref6 "CDC Guidance on Cleaning Surfaces"
-[7]: #ref7 "CDC Description of Transmission Scenario"
-[8]: #ref8 "Wikipedia summary of Coronavirus"
+[1]: #ref1 "CDC guidance on CV-19 transmission"
+[2]: #ref2 "WHO summary remarks of COVID-19"
+[3]: #ref3 "NIH CV-229E surface study"
+[4]: #ref4 "Aerosol and surface study of SARS-CoV-2"
+[5]: #ref5 "Surface study of various coronaviruses"
+[6]: #ref6 "CDC guidance on cleaning surfaces"
+[7]: #ref7 "CDC description of transmission scenario"
+[8]: #ref8 "Wikipedia summary of coronavirus"
 [9]: #ref9 "CDC describes names SARS-CoV-2 COVID-19"
-[10]: #ref10 "Best Disinfecting Wipes"
+[10]: #ref10 "Best disinfecting wipes"
 [11]: #ref11 "Best practices for cleaning electronics"
-[12]: #ref12 "Apple Guidance on 70% Alcohol"
-[13]: #ref13 "Common Household Products to Kill CV-19"
-[14]: #ref14 "EPA Technical Guidance & Cleaner Types/Ratings"
-[15]: #ref15 "EPA Cleaner Designations"
-[16]: #ref16 "Face Touching Study"
-[17]: #ref17 "DIY Cleaners"
-[18]: #ref18 "See GlowGerm Spread in an Elementary Classroom"
-[19]: #ref19 "Local News Piece on Spread of Germs"
-[20]: #ref20 "Covering your Cough"
+[12]: #ref12 "Apple guidance on 70% alcohol"
+[13]: #ref13 "Common household products to kill SARS-CoV-2"
+[14]: #ref14 "EPA technical guidance & cleaner types/ratings"
+[15]: #ref15 "EPA cleaner designations"
+[16]: #ref16 "Face touching study"
+[17]: #ref17 "DIY, natural cleaners"
+[18]: #ref18 "See GlowGerm spread in an elementary classroom"
+[19]: #ref19 "Local news piece on spread of germs"
+[20]: #ref20 "Covering your cough"
 [21]: #ref21 "CBC story including cleaners"
-[22]: #ref22 "JH COVID-19 Dashboard"
+[22]: #ref22 "JH COVID-19 dashboard"
 [23]: #ref23 "AI in China for contact tracking"
-[24]: #ref24 "Dr. Laren Gardner describes JH COVID-19 Dashboard"
+[24]: #ref24 "Dr. Laren Gardner describes JH COVID-19 dashboard"
 [25]: #ref25 "Forbes AI article on COVID-19"
 [26]: #ref26 "Using mobile data to track an outbreak"
 [27]: #ref27 "SciShow Overview of COVID-19 CFR"
@@ -236,30 +236,30 @@ Aggregate: none
 
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | [CDC Guidance on CV-19 Transmission ](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html)
-<a name="ref2"></a>2 | [WHO Summary Remarks of CV-19 ](https://www.who.int/health-topics/coronavirus)
-<a name="ref3"></a>3 | [NIH CV-229E Surface Study ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/)
-<a name="ref4"></a>4 | [Aerosol and Surface Study of CV-19 ](https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1)
-<a name="ref5"></a>5 | [Surface Study of various Coronaviruses ](https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext)
-<a name="ref6"></a>6 | [CDC Guidance on Cleaning Surfaces ](https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect)
-<a name="ref7"></a>7 | [CDC Description of Transmission Scenario ](https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html)
-<a name="ref8"></a>8 | [Wikipedia summary of Coronavirus ](https://en.wikipedia.org/wiki/Coronavirus)
+<a name="ref1"></a>1 | [CDC guidance on CV-19 transmission ](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html)
+<a name="ref2"></a>2 | [WHO summary remarks of COVID-19 ](https://www.who.int/health-topics/coronavirus)
+<a name="ref3"></a>3 | [NIH CV-229E surface study ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/)
+<a name="ref4"></a>4 | [Aerosol and surface study of SARS-CoV-2 ](https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1)
+<a name="ref5"></a>5 | [Surface study of various coronaviruses ](https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext)
+<a name="ref6"></a>6 | [CDC guidance on cleaning surfaces ](https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect)
+<a name="ref7"></a>7 | [CDC description of transmission scenario ](https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html)
+<a name="ref8"></a>8 | [Wikipedia summary of coronavirus ](https://en.wikipedia.org/wiki/Coronavirus)
 <a name="ref9"></a>9 | [CDC describes names SARS-CoV-2 COVID-19 ](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it)
-<a name="ref10"></a>10 | [Best Disinfecting Wipes ](https://learningregistry.org/reviews/best-disinfectant-wipes)
+<a name="ref10"></a>10 | [Best disinfecting wipes ](https://learningregistry.org/reviews/best-disinfectant-wipes)
 <a name="ref11"></a>11 | [Best practices for cleaning electronics ](https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics)
-<a name="ref12"></a>12 | [Apple Guidance on 70% Alcohol ](https://support.apple.com/en-us/HT204172?mod=article_inline)
-<a name="ref13"></a>13 | [Common Household Products to Kill CV-19 ](https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/)
-<a name="ref14"></a>14 | [EPA Technical Guidance & Cleaner Types/Ratings ](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)
-<a name="ref15"></a>15 | [EPA Cleaner Designations ](https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2)
-<a name="ref16"></a>16 | [Face Touching Study ](https://www.ncbi.nlm.nih.gov/pubmed/25637115)
-<a name="ref17"></a>17 | [DIY Cleaners ](https://ottawacitizen.com/health/busting-the-coronavirus)
-<a name="ref18"></a>18 | [See GlowGerm Spread in an Elementary Classroom ](https://youtu.be/poOSzPTapw0?t=40)
-<a name="ref19"></a>19 | [Local News Piece on Spread of Germs ](https://www.youtube.com/watch?v=NmLOeuH3qdA)
-<a name="ref20"></a>20 | [Covering your Cough ](https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/)
+<a name="ref12"></a>12 | [Apple guidance on 70% alcohol ](https://support.apple.com/en-us/HT204172?mod=article_inline)
+<a name="ref13"></a>13 | [Common household products to kill SARS-CoV-2 ](https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/)
+<a name="ref14"></a>14 | [EPA technical guidance & cleaner types/ratings ](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)
+<a name="ref15"></a>15 | [EPA cleaner designations ](https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2)
+<a name="ref16"></a>16 | [Face touching study ](https://www.ncbi.nlm.nih.gov/pubmed/25637115)
+<a name="ref17"></a>17 | [DIY, natural cleaners ](https://ottawacitizen.com/health/busting-the-coronavirus)
+<a name="ref18"></a>18 | [See GlowGerm spread in an elementary classroom ](https://youtu.be/poOSzPTapw0?t=40)
+<a name="ref19"></a>19 | [Local news piece on spread of germs ](https://www.youtube.com/watch?v=NmLOeuH3qdA)
+<a name="ref20"></a>20 | [Covering your cough ](https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/)
 <a name="ref21"></a>21 | [CBC story including cleaners ](https://youtu.be/36FfZhxXTBc?t=296)
-<a name="ref22"></a>22 | [JH COVID-19 Dashboard ](https://coronavirus.jhu.edu/map.html)
+<a name="ref22"></a>22 | [JH COVID-19 dashboard ](https://coronavirus.jhu.edu/map.html)
 <a name="ref23"></a>23 | [AI in China for contact tracking ](https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html)
-<a name="ref24"></a>24 | [Dr. Laren Gardner describes JH COVID-19 Dashboard ](https://youtu.be/Pnk8DuAly9Y?t=978)
+<a name="ref24"></a>24 | [Dr. Laren Gardner describes JH COVID-19 dashboard ](https://youtu.be/Pnk8DuAly9Y?t=978)
 <a name="ref25"></a>25 | [Forbes AI article on COVID-19 ](https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f)
 <a name="ref26"></a>26 | [Using mobile data to track an outbreak ](https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php)
 <a name="ref27"></a>27 | [SciShow Overview of COVID-19 CFR ](https://youtu.be/qf3Ih0kNvlU)
