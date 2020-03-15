@@ -34,8 +34,6 @@ in particular concludes it remains active on metal or plastic for about 12 hours
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
 
-- <img src='https://upload.wikimedia.org/wikipedia/commons/c/c5/Covid-19-curves-graphic-social-v3.gif'/>[Siouxsie Wiles and Toby Morris]
-
 ### What surfaces to clean? 
 
 You should routinely clean, with a disinfecting solution of some
