@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='https://upload.wikimedia.org/wikipedia/commons/c/c5/Covid-19-curves-graphic-social-v3.gif'/>[Siouxsie Wiles and Toby Morris]
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif'/>
 
 <!--
 Image licensed under...
