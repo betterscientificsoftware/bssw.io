@@ -1,4 +1,4 @@
-# Cleaning your work surfaces: One way to help flatten the curve
+# Pre-Reference Version: Cleaning your work surfaces: One way to help flatten the curve
 
 **Hero Image:**
 
@@ -12,14 +12,14 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 16, 2020
 
-## The importance of keeping work surfaces clean
+### The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
 help stem the spread of SARS-CoV-2 (**note**: *SARS-CoV-2* is the name of the virus
 whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> There
-are some simple things you can do and if we all are diligent those things can have
+are some simple things you can do, and if we all are diligent those things can have
 a big impact on how the next several months play out for everyone.<sup>[45]</sup>
 
-Current guidance from the CDC<sup>[1]</sup> is...
+Current guidance from the CDC<sup>[1]</sup> is ...
 
 > It may be possible that a person can get COVID-19<sup>[9]</sup> by touching a surface or
 object that has the virus on it and then touching their own mouth, nose, or
@@ -34,7 +34,9 @@ in particular concludes it remains active on metal or plastic for about 12 hours
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
 
-## What surfaces to clean? 
+- <img src='https://upload.wikimedia.org/wikipedia/commons/c/c5/Covid-19-curves-graphic-social-v3.gif'/>[Siouxsie Wiles and Toby Morris]
+
+### What surfaces to clean? 
 
 You should routinely clean, with a disinfecting solution of some
 kind (see below), any surface/object in your work area you touch, even if infrequently.
@@ -52,7 +54,7 @@ and top) again after picking it up.
 A really important piece of electronics
 to clean is your mobile phone. Why? Many people set their phones down on various surfaces,
 carry it into the bathroom and, of course frequently touch and hold it as well as bring
-it to their ear and face. Its that
+it to their ear and face. It's that
 last part that is problematic. So, keep your phone, and the case/holder, clean.
 And, maybe don't set it down just anywhere.
 
@@ -62,7 +64,7 @@ your office area either. If you can, its best to use gloves when cleaning. But, 
 most of us don't have easy access to a box of disposable gloves, just remember to wash
 your hands after you've finished cleaning your office surfaces.
 
-## When and how often to clean?
+### When and how often to clean?
 
 It is best to clean your office area just before you sit down for the day to work. 
 That single time per day is probably sufficient for most offices. However, if you
@@ -77,7 +79,7 @@ to carry some portable wipes with you to wipe the areas *you* will be using just
 prior to your use of them. Alternatively, carry some tissue you can place in your
 hand to push a switch or grab a door handle.
 
-## What cleaners to use?
+### What cleaners to use?
 
 Some electronics are sensitive to common household cleaning solutions. Using the
 wrong cleaners can cause surface discolorations or negatively effect display surfaces.
@@ -101,7 +103,7 @@ use a new, dry microfiber cloth to buff out the residue.
 Just a few days ago, on March 9th, 2020, Apple changed its guidelines<sup>[22]</sup>
 for cleaning Apple products to endorse a 70% alcohol solution.
 
-## The science behind the scenes
+### The science behind the scenes
 
 The whole point of simple actions like these and other social distancing<sup>[47]</sup> measures
 is to help *flatten the curve.*<sup>[46]</sup> Health care systems can care for a slow and
@@ -117,7 +119,7 @@ role in helping to track and fight the spread of SARS-CoV-2.
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[43]</sup>
   * Using mobile phone data to track an outbreak.<sup>[44]</sup>
 
-## Other things to keep in mind
+### Other things to keep in mind
 
 For those of us who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, there aren't many studies or data indicating
@@ -169,3 +171,27 @@ in slowing the spread of COVID-19.
 [45]: https://youtu.be/qf3Ih0kNvlU "SciShow Overview of COVID-19 CFR {}"
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
+
+### Author bio
+
+Mark Miller is a computer scientist supporting the
+[WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+program at [LLNL](https://www.llnl.gov) since 1995.
+Among other things, he contributes to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
+[Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
+[HDF5](https://www.hdfgroup.org) and
+[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+
+<!---
+Publish: preview
+RSS update: 2020-03-10
+Categories: Skills
+Topics: Personal productivity and sustainability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
+
+
