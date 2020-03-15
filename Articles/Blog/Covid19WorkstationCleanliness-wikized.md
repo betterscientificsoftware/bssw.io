@@ -1,5 +1,5 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
-# Pre-Reference Version: Cleaning your work surfaces: One way to help flatten the curve
+# Cleaning your work surfaces: One way to help flatten the curve
 
 **Hero Image:**
 
@@ -139,7 +139,8 @@ When you cough or sneeze, cover it.<sup>[20]</sup> Remember, you are not only pr
 yourself but also those around you. The most vulnerable among us will appreciate your efforts
 in slowing the spread of COVID-19.
 
-
+### Acknowledgment
+Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 
 
 ### Author bio
