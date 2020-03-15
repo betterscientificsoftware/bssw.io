@@ -170,6 +170,9 @@ in slowing the spread of COVID-19.
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
 
+### Acknowledgment
+Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
+
 ### Author bio
 
 Mark Miller is a computer scientist supporting the
