@@ -14,20 +14,20 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 
 ## The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
-help stem the spread of COVID-19.<sup>[2]</sup> There are some simple things
+help stem the spread of SARS-CoV-2.<sup>[2],[9]</sup> There are some simple things
 you can do and if we all are diligent those things can have a big impact on how
 the next several months play out for everyone.<sup>[45]</sup>
 
 Current guidance from the CDC<sup>[1]</sup> is...
 
-> It may be possible that a person can get COVID-19 by touching a surface or
+> It may be possible that a person can get COVID-19<sup>[9]</sup> by touching a surface or
 object that has the virus on it and then touching their own mouth, nose, or
 possibly their eyes, but this is not thought to be the *main* way the virus spreads.
 
 While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
 remain active in the air for hours or on different *surfaces* for days.
-A pre-publication study specifically of COVID-19<sup>[4]</sup>
+A pre-publication study specifically of SARS-CoV-2<sup>[4]</sup>
 in particular concludes it remains active on metal or plastic for about 12 hours.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
@@ -90,7 +90,9 @@ need to follow.
 While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup>
 that both kill the virus but are safe for sensitive electronics, a number of sources indicate a
 solution of 70% isopropyl alcohol and purified water (which you can mix yourself in a pinch) dabbed
-onto a microfiber cloth will do.<sup>[21]</sup> In any case, if you are concerned about possible
+onto a microfiber cloth will do.<sup>[21]</sup> Other options include diluted solutions of
+bleach or hydrogen-peroxide or vigorous wiping with even soap and water.<sup>[32]</sup> In any case,
+if you are concerned about possible
 damage, of course test the cleaner in a small, unused area first and wait a few minutes for it to
 dry to see if it causes a discoloration. If there is a noticeable residue left after using a cleaner,
 use a new, dry microfiber cloth to buff out the residue.
@@ -107,7 +109,7 @@ of cases all at once. Under those conditions, a lot more people who would otherw
 excellent care in helping to fight the disease are at much greater risk of dieing.
 
 Its worth mentioning that members of our own HPC/CSE community are playing a critical
-role in helping to track and fight the spread of COVID-19.
+role in helping to track and fight the spread of SARS-CoV-2. 
 
   * John's Hopkins COVID-19 Dashboard.<sup>[40],[42]</sup>
   * How China is using AI to fight Coronavirus.<sup>[41]</sup>
@@ -121,7 +123,7 @@ to be more environmentally friendly, there aren't many studies or data indicatin
 effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree
 oil or witch-hazel. During the current outbreak, it may not be the best time to experiment.
 
-The guidance on person-to-person transmission of COVID-19 is definitive. COVID-19 
+The guidance on person-to-person transmission of SARS-CoV-2 is definitive. It
 enters through the *mucus membranes* including the mouth, nose, and eyes.<sup>[7]</sup>
 The average person touches their face 23 times each hour.<sup>[26]</sup> This means anything
 on the surfaces you touch you will almost certainly bring to your face or to other
@@ -143,6 +145,7 @@ in slowing the spread of COVID-19.
 [6]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC Guidance on Cleaning Surfaces {}"
 [7]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC Description of Transmission Scenario {}"
 [8]: https://en.wikipedia.org/wiki/Coronavirus
+[9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "SARS-CoV-2 is the name of the virus. COVID-19 is the name of the disease it causes {}"
 
 [20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best Disinfecting Wipes {}"
 [21]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics {}"
@@ -155,6 +158,7 @@ in slowing the spread of COVID-19.
 [29]: https://youtu.be/poOSzPTapw0?t=40 "See GlowGerm Spread in an Elementary Classroom {}"
 [30]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local News Piece on Spread of Germs {}"
 [31]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your Cough {}"
+[32]: https://youtu.be/36FfZhxXTBc?t=296
 
 [40]: https://coronavirus.jhu.edu/map.html "JH COVID-19 Dashboard {}"
 [41]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking {}"
