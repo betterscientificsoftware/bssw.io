@@ -88,11 +88,11 @@ Take care to check with your local organization's health or custodial staff rega
 cleaning solutions and supplies. They may have specific products to use and rules you
 need to follow.
 
-While it is difficult to find definitive guidance on the types of cleaners<sup>[23],[24],[25]</sup>
-that both kill the virus but are safe for sensitive electronics, a number of sources indicate a
+While CDC guidance on the types of cleaners<sup>[6]</sup> that both kill the virus and are
+safe for sensitive electronics is minimal, a number of sources<sup>[23],[24],[25]</sup> indicate a
 solution of 70% isopropyl alcohol and purified water (which you can mix yourself in a pinch) dabbed
 onto a microfiber cloth will do.<sup>[21]</sup> Other options include diluted solutions of
-bleach or hydrogen-peroxide or vigorous wiping with even soap and water.<sup>[32]</sup> In any case,
+bleach or hydrogen-peroxide or vigorous wiping with even soap and water.<sup>[32],[20]</sup> In any case,
 if you are concerned about possible
 damage, of course test the cleaner in a small, unused area first and wait a few minutes for it to
 dry to see if it causes a discoloration. If there is a noticeable residue left after using a cleaner,
@@ -145,21 +145,21 @@ in slowing the spread of COVID-19.
 [5]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface Study of various Coronaviruses {}"
 [6]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC Guidance on Cleaning Surfaces {}"
 [7]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC Description of Transmission Scenario {}"
-[8]: https://en.wikipedia.org/wiki/Coronavirus
-[9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "SARS-CoV-2 is the name of the virus. COVID-19 is the name of the disease it causes {}"
+[8]: https://en.wikipedia.org/wiki/Coronavirus "Wikipedia summary of Coronavirus {}"
+[9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC describes names SARS-CoV-2 COVID-19 {}"
 
 [20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best Disinfecting Wipes {}"
 [21]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics {}"
 [22]: https://support.apple.com/en-us/HT204172?mod=article_inline "Apple Guidance on 70% Alcohol {}"
 [23]: https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/ "Common Household Products to Kill CV-19 {}"
 [24]: https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf "EPA Technical Guidance & Cleaner Types/Ratings {}"
-[25]: https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2 "EPA Cleaner Designations {}" 
+[25]: https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2 "EPA Cleaner Designations {}"
 [26]: https://www.ncbi.nlm.nih.gov/pubmed/25637115 "Face Touching Study {}"
 [27]: https://ottawacitizen.com/health/busting-the-coronavirus "DIY Cleaners {}"
 [29]: https://youtu.be/poOSzPTapw0?t=40 "See GlowGerm Spread in an Elementary Classroom {}"
 [30]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local News Piece on Spread of Germs {}"
 [31]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your Cough {}"
-[32]: https://youtu.be/36FfZhxXTBc?t=296
+[32]: https://youtu.be/36FfZhxXTBc?t=296 "CBC story including cleaners {}"
 
 [40]: https://coronavirus.jhu.edu/map.html "JH COVID-19 Dashboard {}"
 [41]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking {}"
