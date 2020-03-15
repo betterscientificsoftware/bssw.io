@@ -14,9 +14,10 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 
 ## The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
-help stem the spread of SARS-CoV-2.<sup>[2],[9]</sup> There are some simple things
-you can do and if we all are diligent those things can have a big impact on how
-the next several months play out for everyone.<sup>[45]</sup>
+help stem the spread of SARS-CoV-2 (**note**: *SARS-CoV-2* is the name of the virus
+whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> There
+are some simple things you can do and if we all are diligent those things can have
+a big impact on how the next several months play out for everyone.<sup>[45]</sup>
 
 Current guidance from the CDC<sup>[1]</sup> is...
 
