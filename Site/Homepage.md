@@ -3,14 +3,12 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 Left: blog_posts/pre-reference-version-cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
-Slide1 Right: https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
-Slide2 Left: blog_posts/spreading-ideas-about-better-scientific-software
-Slide2 Right: images/raw/master/Blog_0225_Computational.jpg
-Slide3 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
-Slide3 Right: images/raw/master/Blog_0120_PSIP_logo.png
-Slide4 Left: items/finalizing-your-julia-package
-Slide4 Right: items/best-practices-for-hpc-software-developers-webinar-series
+Slide1 Left: blog_posts/spreading-ideas-about-better-scientific-software
+Slide1 Right: images/raw/master/Blog_0225_Computational.jpg
+Slide2 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
+Slide2 Right: images/raw/master/Blog_0120_PSIP_logo.png
+Slide3 Left: items/finalizing-your-julia-package
+Slide3 Right: items/best-practices-for-hpc-software-developers-webinar-series
 --->
 
 <!---
