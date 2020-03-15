@@ -15,9 +15,9 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 
 ### The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
-help stem the spread of SARS-CoV-2 (**note**: *SARS-CoV-2* is the name of the virus
+help stem the spread of SARS-CoV-2 (**Note**: *SARS-CoV-2* is the name of the virus
 whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> There
-are some simple things you can do, and if we all are diligent those things can have
+are some simple things each of us can do, and if we all are diligent those things can have
 a big impact on how the next several months play out for everyone.<sup>[27]</sup>
 
 Current guidance from the CDC<sup>[1]</sup> is ...
@@ -30,7 +30,7 @@ While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
 remain active in the air for hours or on different *surfaces* for days.
 A pre-publication study specifically of SARS-CoV-2<sup>[4]</sup>
-in particular concludes it remains active on metal or plastic for about 12 hours.
+concludes it remains active on metal or plastic for about 12 hours.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
@@ -38,9 +38,9 @@ How often should we be cleaning?
 ### What surfaces to clean? 
 
 You should routinely clean, with a disinfecting solution of some
-kind (see below), any surface/object in your work area you touch, even if infrequently.
+kind (see below), any surface/object that you touch in your work, even if infrequently.
 Obviously, this includes your computer keyboard, mouse and monitor, as well as the desk area
-immediately around these. However, it is easy to forget about all the other things
+immediately around these. However, it is easy to forget about the other things
 in our office areas we touch apart from our computer.
 
 This cleaning guidance also includes your office chair armrests, telephone dial
@@ -52,9 +52,9 @@ and top) again after picking it up.
 
 A really important piece of electronics
 to clean is your mobile phone. Why? Many people set their phones down on various surfaces,
-carry it into the bathroom and, of course frequently touch and hold it as well as bring
-it to their ear and face. It's that
-last part that is problematic. So, keep your phone, and the case/holder, clean.
+carry them into the bathroom and, of course, frequently touch and hold it as well as bring
+it to their ear and face. That
+last part is especially problematic. So, keep your phone, and the case/holder, clean.
 And, maybe don't set it down just anywhere.
 
 Ideally, you would use a different wipe each time you clean a surface. That probably
@@ -108,7 +108,7 @@ The whole point of simple actions like these and other social distancing<sup>[29
 is to help *flatten the curve.*<sup>[28]</sup> Health care systems can care for a slow and
 steady stream of patients. What they cannot handle is an exponential-growth driven tsunami
 of cases all at once. Under those conditions, a lot more people who would otherwise get
-excellent care in helping to fight the disease are at much greater risk of dieing.
+excellent care in helping to fight a disease are at much greater risk of dieing.
 
 Its worth mentioning that members of our own HPC/CSE community are playing a critical
 role in helping to track and fight the spread of SARS-CoV-2. 
@@ -120,7 +120,7 @@ role in helping to track and fight the spread of SARS-CoV-2.
 
 ### Other things to keep in mind
 
-For those of us who are either sensitive to household cleaning chemicals or simply want
+For those who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, there aren't many studies or data indicating
 effectiveness of *natural*, common DIY solutions<sup>[17]</sup> like vinegar, tea tree
 oil or witch-hazel. During the current outbreak, it may not be the best time to experiment.
@@ -133,15 +133,17 @@ surfaces<sup>[18],[19]</sup> you touch.
 
 So, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
 washing with soap and water for 20 seconds. Note that
-overuse of alcohol based sanitizer will likely dry your skin to the point of cracking
+overuse of alcohol based sanitizer will likely dry your skin to the point of cracking,
 *creating* a new vector for infection rather than preventing one. Try not to touch your face.
 When you cough or sneeze, cover it.<sup>[20]</sup> Remember, you are not only protecting
 yourself but also those around you. The most vulnerable among us will appreciate your efforts
 in slowing the spread of COVID-19.
 
+
+
+
 ### Acknowledgment
 Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
-
 
 ### Author bio
 
