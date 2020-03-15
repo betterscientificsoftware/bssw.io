@@ -182,7 +182,7 @@ Among other things, he contributes to
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
 <!---
-Publish: preview
+Publish: no
 RSS update: 2020-03-10
 Categories: Skills
 Topics: Personal productivity and sustainability
