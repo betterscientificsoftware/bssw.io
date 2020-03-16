@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif'/>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID.png'/>
 
 <!--
 Image licensed under...
