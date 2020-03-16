@@ -66,7 +66,7 @@ your hands after you've finished cleaning your office surfaces.
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif' class='page lightbox' />[Flatten the curve. Image courtesy of Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Covid-19-curves-graphic-social-v3.gif' class='page lightbox' />[Flatten the curve. Image courtesy of Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif]
 
 <br> 
 
