@@ -31,7 +31,8 @@ While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
 remain active in the air for hours or on different *surfaces* for days.
 A pre-publication study specifically of SARS-CoV-2<sup>[4]</sup>
-concludes it remains active on metal or plastic for about 12 hours.
+concludes it remains viable on cardboard for up to 24 hours and on plastic or stainless steel
+for up to 72 hours.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
@@ -72,6 +73,11 @@ your hands after you've finished cleaning your office surfaces.
 
 ### When and how often to clean?
 
+The time to clean is *now* and every day. Given the potential for asymptomatic
+transmission of SARS-CoV-2<sup>[11]</sup>, we should keep our work areas
+clean regardless of whether anyone around us has been sick, tested positive or
+has been in recent contact with someone who tested positive.
+
 It is best to clean your office area just before you sit down for the day to work. 
 That single time per day is probably sufficient for most offices. However, if you
 work in a high traffic area or if you share your work area with others, you (as well as 
@@ -92,15 +98,15 @@ wrong cleaners can cause surface discolorations or negatively effect display sur
 So, you want to take care that you won't damage your electronics but will 
 still do an effective job of *cleaning* the surfaces.
 
-Check with your local organization's health or custodial staff regarding
+Be sure to check with your local organization's health or custodial staff regarding
 cleaning solutions and supplies. They may have specific products to use and rules you
 need to follow.
 
 While the CDC has provided only minimal guidance on the types of cleaners<sup>[6]</sup> that both kill the virus and are
 safe for sensitive electronics, a number of sources<sup>[23],[24],[25]</sup> indicate a
-solution of 70% isopropyl alcohol and purified water (you can mix the solution yourself in a pinch) dabbed
+solution with a *minimum* of 70% isopropyl alcohol<sup>[33]</sup> (e.g. *rubbing alcohol*)
 onto a microfiber cloth will do.<sup>[21]</sup> Other options include diluted solutions of
-bleach or hydrogen peroxide or vigorous wiping with even soap and water.<sup>[32],[20]</sup> In any case,
+bleach or hydrogen peroxide or even just vigorous wiping with soap and water.<sup>[32],[20]</sup> In any case,
 if you are concerned about possible
 damage, of course test the cleaner in a small, unused area first and wait a few minutes for it to
 dry to see if it causes a discoloration. If  a noticeable residue is left after using a cleaner,
@@ -128,9 +134,10 @@ role in helping  track and fight the spread of SARS-CoV-2.
 ### Other things to keep in mind
 
 For those who are either sensitive to household cleaning chemicals or simply want
-to be more environmentally friendly, there aren't many studies or data indicating
+to be more environmentally friendly, unfortunately there are not many studies or data indicating
 the effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree
-oil, or witch hazel. During the current outbreak it may not be the best time to experiment.
+oil, or witch hazel. Most of the expert guidance is that these products are not sufficiently
+effective. During the current outbreak it may not be the best time to experiment.
 
 The guidance on person-to-person transmission of SARS-CoV-2 is definitive. It
 enters through the *mucus membranes* including the mouth, nose, and eyes.<sup>[7]</sup>
@@ -138,23 +145,29 @@ On average, people touch their face 23 times each hour.<sup>[26]</sup> This mean
 on the surfaces you touch you will almost certainly bring to your face or to other
 surfaces<sup>[29],[30]</sup> you touch.
 
-So, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
+In addition to preventing the spread the virus, it is also important to take care to not
+contribute to the spread misinformation<sup>[48]</sup> also.
+
+Finally, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
 washing with soap and water for 20 seconds. Note that
 overuse of alcohol based sanitizer will likely dry your skin to the point of cracking,
 *creating* a new vector for infection rather than preventing one. Try not to touch your face.
 When you cough or sneeze, cover it.<sup>[31]</sup> Remember, you are protecting not only
-yourself but also those around you. The most vulnerable among us will appreciate your efforts
+yourself but also those around you. The most vulnerable among us<sup>[10]</sup> (the elderly
+and those who are diabetics or have heart or lung disease) will appreciate your efforts
 in slowing the spread of COVID-19.
 
 [1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC guidance on CV-19 transmission {}"
 [2]: https://www.who.int/health-topics/coronavirus "WHO summary remarks of COVID-19 {}"
 [3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/ "NIH CV-229E surface study {}"
-[4]: https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1 "Aerosol and surface study of SARS-CoV-2 {}"
+[4]: https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v2.full.pdf "Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1 {}"
 [5]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface study of various coronaviruses {}"
 [6]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC guidance on cleaning surfaces {}"
 [7]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC description of transmission scenario {}"
 [8]: https://en.wikipedia.org/wiki/Coronavirus "Wikipedia summary of coronavirus {}"
-[9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC describes names SARS-CoV-2 COVID-19 {}"
+[9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC explains names SARS-CoV-2 and COVID-19 {}"
+[10]: https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html "CDC describes higher risk persons {}"
+[11]: https://jamanetwork.com/journals/jama/fullarticle/2762028 "Asymptomatic transmission of COVID-19 {}"
 
 [20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best disinfecting wipes {}"
 [21]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics {}"
@@ -168,6 +181,7 @@ in slowing the spread of COVID-19.
 [30]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local news piece on spread of germs {}"
 [31]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your cough {}"
 [32]: https://youtu.be/36FfZhxXTBc?t=296 "CBC story including cleaners {}"
+[33]: https://en.wikipedia.org/wiki/Rubbing_alcohol "What is rubbing alcohol {}"
 
 [40]: https://coronavirus.jhu.edu/map.html "JH COVID-19 dashboard {}"
 [41]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking {}"
@@ -177,6 +191,7 @@ in slowing the spread of COVID-19.
 [45]: https://youtu.be/qf3Ih0kNvlU "SciShow Overview of COVID-19 CFR {}"
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
+[48]: https://youtu.be/_066dEkycr4?t=932 "John Oliver discusses misinformation {}"
 
 <!--
 ### Acknowledgment
