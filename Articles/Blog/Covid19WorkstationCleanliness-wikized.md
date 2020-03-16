@@ -1,9 +1,9 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
-# Pre-Reference Version: Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
+# Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif'/>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID.png'/>
 
 <!--
 Image licensed under...
@@ -13,7 +13,9 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 16, 2020
 
-**Disclaimer:** *This article distills information from various sources that are current as of 03/16/2020 but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.  This content is the personal expression of the author and not necessarily endorsed by the author's employer.*
+**Disclaimer:** *This article distills information from various sources that are current as of 03/16/2020 but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice. This content is the personal expression of the author and not necessarily endorsed by the author's employer.*
+
+**Note:** The BSSw.io site will host a series of articles related to effective strategies for working remotely, from the perspectives of both individuals and collaborating teams.  Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) for periodic updates about new material.  We also welcome contributions of content; if you have experience that can help others in the scientific software community, please consider [contributing to BSSw.io](https:bssw.io//contribute).
 
 ### The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
@@ -178,7 +180,7 @@ Among other things, he contributes to
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 
 <!---
-Publish: no
+Publish: preview
 RSS update: 2020-03-16
 Categories: Skills
 Topics: Personal productivity and sustainability
