@@ -29,12 +29,17 @@ Current guidance from the U.S. Centers for Disease Control and Prevention (CDC)<
 object that has the virus on it and then touching their own mouth, nose, or
 possibly their eyes, but this is not thought to be the *main* way the virus spreads.
 
+> Transmission of coronavirus occurs much more commonly through respiratory droplets than
+through fomites.<sup>[12]</sup> Current evidence suggests that novel coronavirus may remain
+viable for hours to days on surfaces made from a variety of materials. Cleaning ... surfaces
+followed by disinfection is a best practice measure for prevention of COVID-19<sup>[13]</sup>...
+
 While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
-remain active in the air for hours or on different *surfaces* for days.
+remain viable in the air for hours or on different *surfaces* for days.
 A pre-publication study specifically of SARS-CoV-2<sup>[4]</sup>
-concludes it remains viable on cardboard for up to 24 hours and on plastic or stainless steel
-for up to 72 hours.
+concludes it remains viable on cardboard for up to one day and on plastic or stainless steel
+for up to three days.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
@@ -148,7 +153,7 @@ on the surfaces you touch you will almost certainly bring to your face or to oth
 surfaces<sup>[29],[30]</sup> you touch.
 
 In addition to preventing the spread the virus, it is also important to take care to not
-contribute to the spread misinformation<sup>[48]</sup> also.
+contribute to the spread misinformation.<sup>[48]</sup>
 
 Finally, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
 washing with soap and water for 20 seconds. Note that
@@ -170,6 +175,8 @@ in slowing the spread of COVID-19.
 [9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC explains names SARS-CoV-2 and COVID-19 {}"
 [10]: https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html "CDC describes higher risk persons {}"
 [11]: https://jamanetwork.com/journals/jama/fullarticle/2762028 "Asymptomatic transmission of COVID-19 {}"
+[12]: https://en.wikipedia.org/wiki/Fomite "Explanation of the term Fomite {}"
+[13]: https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html "CDC guidance on fomite transmission {}"
 
 [20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best disinfecting wipes {}"
 [21]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics {}"
