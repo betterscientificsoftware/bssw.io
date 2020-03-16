@@ -20,7 +20,9 @@ whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> Ther
 are some simple things each of us can do, and if we all are diligent those things can have
 a big impact on how the next several months play out for everyone.<sup>[27]</sup>
 
-Current guidance from the CDC<sup>[1]</sup> is ...
+**Disclaimer:** This article distills current information from various sources but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.
+
+Current guidance from the U.S. Centers for Disease Control and Prevention (CDC)<sup>[1]</sup> is ...
 
 > It may be possible that a person can get COVID-19<sup>[9]</sup> by touching a surface or
 object that has the virus on it and then touching their own mouth, nose, or
