@@ -13,9 +13,7 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 16, 2020
 
-**Disclaimer:** *This article distills current information from various sources but is not a substitute for professional advice from health \
-authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.*
-
+**Disclaimer:** *This article distills information from various sources that are current as of 03/16/2020 but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.*
 
 ### The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
@@ -162,7 +160,7 @@ Among other things, he contributes to
 
 <!---
 Publish: preview
-RSS update: 2020-03-10
+RSS update: 2020-03-16
 Categories: Skills
 Topics: Personal productivity and sustainability
 Tags: bssw-blog-article
