@@ -115,7 +115,7 @@ The whole point of simple actions like these and other social distancing<sup>[47
 is to help *flatten the curve.*<sup>[46]</sup> Health care systems can care for a slow and
 steady stream of patients. What they cannot handle is an exponential-growth driven tsunami
 of cases all at once. Under those conditions, a lot more people who would otherwise get
-excellent care in helping to fight a disease are at much greater risk of dieing.
+excellent care in helping to fight a disease are at much greater risk of dying.
 
 Its worth mentioning that members of our own HPC/CSE community are playing a critical
 role in helping to track and fight the spread of SARS-CoV-2. 
