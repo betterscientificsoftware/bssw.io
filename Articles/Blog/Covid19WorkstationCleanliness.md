@@ -1,4 +1,4 @@
-# Pre-Reference Version: Cleaning your work surfaces: One way to help flatten the curve
+# Pre-Reference Version: Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
 
 **Hero Image:**
 
