@@ -13,14 +13,16 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 16, 2020
 
+**Disclaimer:** *This article distills current information from various sources but is not a substitute for professional advice from health \
+authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.*
+
+
 ### The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
-help stem the spread of SARS-CoV-2 (**Note**: *SARS-CoV-2* is the name of the virus
+help stem the spread of SARS-CoV-2 (Note: *SARS-CoV-2* is the name of the virus
 whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> There
 are some simple things each of us can do, and if we all are diligent those things can have
 a big impact on how the next several months play out for everyone.<sup>[27]</sup>
-
-**Disclaimer:** This article distills current information from various sources but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.
 
 Current guidance from the U.S. Centers for Disease Control and Prevention (CDC)<sup>[1]</sup> is ...
 
