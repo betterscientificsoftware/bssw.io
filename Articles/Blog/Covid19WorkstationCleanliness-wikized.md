@@ -147,7 +147,7 @@ on the surfaces you touch you will almost certainly bring to your face or to oth
 surfaces<sup>[20],[21]</sup> you touch.
 
 In addition to preventing the spread the virus, it is also important to take care to not
-contribute to the spread misinformation.<sup>[33]</sup>
+contribute to the spread misinformation<sup>[33]</sup> also.
 
 Finally, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
 washing with soap and water for 20 seconds. Note that
