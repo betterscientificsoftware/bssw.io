@@ -1,5 +1,5 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
-# Cleaning your work surfaces: One way to help flatten the curve
+# Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
 
 **Hero Image:**
 
@@ -64,6 +64,12 @@ isn't practical. On the other hand, don't use a single wipe to clean everything 
 your office area either. If you can, its best to use gloves when cleaning. But, since
 most of us don't have easy access to a box of disposable gloves, just remember to wash
 your hands after you've finished cleaning your office surfaces.
+
+<br> 
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif' class='page lightbox' />[Flatten the curve. Image source: The AGC (left) with its Display and Keyboard Interface (DSKY - right). Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif]
+
+<br> 
 
 ### When and how often to clean?
 
@@ -144,8 +150,10 @@ in slowing the spread of COVID-19.
 
 
 
+<!--
 ### Acknowledgment
 Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
+-->
 
 ### Author bio
 
@@ -160,7 +168,7 @@ Among other things, he contributes to
 
 <!---
 Publish: preview
-RSS update: 2020-03-16
+RSS update: 2020-03-10
 Categories: Skills
 Topics: Personal productivity and sustainability
 Tags: bssw-blog-article

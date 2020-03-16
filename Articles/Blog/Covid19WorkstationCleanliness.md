@@ -64,6 +64,12 @@ your office area either. If you can, its best to use gloves when cleaning. But, 
 most of us don't have easy access to a box of disposable gloves, just remember to wash
 your hands after you've finished cleaning your office surfaces.
 
+<br> 
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif' class='page lightbox' />[Flatten the curve. Image source: The AGC (left) with its Display and Keyboard Interface (DSKY - right). Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif]
+
+<br> 
+
 ### When and how often to clean?
 
 It is best to clean your office area just before you sit down for the day to work. 
@@ -172,8 +178,10 @@ in slowing the spread of COVID-19.
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
 
+<!--
 ### Acknowledgment
 Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
+-->
 
 ### Author bio
 
