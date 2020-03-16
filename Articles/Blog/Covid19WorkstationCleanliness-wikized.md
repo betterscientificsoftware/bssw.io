@@ -68,7 +68,7 @@ your hands after you've finished cleaning your office surfaces.
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif' class='page lightbox' />[Flatten the curve. Image courtesy of Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif]
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Covid-19-curves-graphic-social-v3.gif' class='page lightbox' />[Flatten the curve. Image courtesy of Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif]
 
 <br> 
 
@@ -99,7 +99,7 @@ wrong cleaners can cause surface discolorations or negatively effect display sur
 So, you want to take care that you won't damage your electronics but will 
 still do an effective job of *cleaning* the surfaces.
 
-Check with your local organization's health or custodial staff regarding
+Be sure to check with your local organization's health or custodial staff regarding
 cleaning solutions and supplies. They may have specific products to use and rules you
 need to follow.
 
