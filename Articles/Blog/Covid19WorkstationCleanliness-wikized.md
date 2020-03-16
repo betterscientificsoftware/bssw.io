@@ -20,7 +20,7 @@ Keeping our work areas clean is always a good practice but even more so now to
 help stem the spread of SARS-CoV-2 (Note: *SARS-CoV-2* is the name of the virus
 whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> There
 are some simple things each of us can do that, if we all are diligent, can have
-a big impact on how the next several months play out for everyone.<sup>[30]</sup>
+a big impact on how the next several months play out for everyone.<sup>[32]</sup>
 
 Current guidance from the U.S. Centers for Disease Control and Prevention (CDC)<sup>[1]</sup> states:
 
@@ -28,9 +28,14 @@ Current guidance from the U.S. Centers for Disease Control and Prevention (CDC)<
 object that has the virus on it and then touching their own mouth, nose, or
 possibly their eyes, but this is not thought to be the *main* way the virus spreads.
 
+> Transmission of coronavirus occurs much more commonly through respiratory droplets than
+through fomites.<sup>[12]</sup> Current evidence suggests that novel coronavirus may remain
+viable for hours to days on surfaces made from a variety of materials. Cleaning ... surfaces
+followed by disinfection is a best practice measure for prevention of COVID-19<sup>[13]</sup>...
+
 While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
-remain active in the air for hours or on different *surfaces* for days.
+remain viable in the air for hours or on different *surfaces* for days.
 A pre-publication study specifically of SARS-CoV-2<sup>[4]</sup>
 concludes it remains viable on cardboard for up to 24 hours and on plastic or stainless steel
 for up to 72 hours.
@@ -104,22 +109,22 @@ cleaning solutions and supplies. They may have specific products to use and rule
 need to follow.
 
 While the CDC has provided only minimal guidance on the types of cleaners<sup>[6]</sup> that both kill the virus and are
-safe for sensitive electronics, a number of sources<sup>[15],[16],[17]</sup> indicate a
-solution with a *minimum* of 70% isopropyl alcohol<sup>[24]</sup> (e.g. *rubbing alcohol*)
-onto a microfiber cloth will do.<sup>[13]</sup> Other options include diluted solutions of
-bleach or hydrogen peroxide or even just vigorous wiping with soap and water.<sup>[23],[12]</sup> In any case,
+safe for sensitive electronics, a number of sources<sup>[17],[18],[19]</sup> indicate a
+solution with a *minimum* of 70% isopropyl alcohol<sup>[26]</sup> (e.g. *rubbing alcohol*)
+onto a microfiber cloth will do.<sup>[15]</sup> Other options include diluted solutions of
+bleach or hydrogen peroxide or even just vigorous wiping with soap and water.<sup>[25],[14]</sup> In any case,
 if you are concerned about possible
 damage, of course test the cleaner in a small, unused area first and wait a few minutes for it to
 dry to see if it causes a discoloration. If  a noticeable residue is left after using a cleaner,
 use a new, dry microfiber cloth to buff out the residue.
 
-Just a few days ago, on March 9, 2020, Apple changed its guidelines<sup>[14]</sup>
+Just a few days ago, on March 9, 2020, Apple changed its guidelines<sup>[16]</sup>
 for cleaning Apple products to endorse a 70% alcohol solution.
 
 ### The science behind the scenes
 
-The whole point of simple actions like these and other social distancing<sup>[32]</sup> measures
-is to help *flatten the curve.*<sup>[31]</sup> Health care systems can care for a slow and
+The whole point of simple actions like these and other social distancing<sup>[34]</sup> measures
+is to help *flatten the curve.*<sup>[33]</sup> Health care systems can care for a slow and
 steady stream of patients. What they cannot handle is an exponential-growth-driven tsunami
 of cases all at once. Under those conditions, a lot more people who would otherwise get
 excellent care in helping fight a disease are at much greater risk of dying.
@@ -127,33 +132,33 @@ excellent care in helping fight a disease are at much greater risk of dying.
 We note that members of our own HPC/CSE community are playing a critical
 role in helping  track and fight the spread of SARS-CoV-2. 
 
-  * Johns Hopkins COVID-19 Dashboard.<sup>[25],[27]</sup>
-  * How China is using AI to fight Coronavirus.<sup>[26]</sup>
-  * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[28]</sup>
-  * Using mobile phone data to track an outbreak.<sup>[29]</sup>
+  * Johns Hopkins COVID-19 Dashboard.<sup>[27],[29]</sup>
+  * How China is using AI to fight Coronavirus.<sup>[28]</sup>
+  * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[30]</sup>
+  * Using mobile phone data to track an outbreak.<sup>[31]</sup>
 
 ### Other things to keep in mind
 
 For those who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, unfortunately there are not many studies or data indicating
-the effectiveness of *natural*, common DIY solutions<sup>[19]</sup> like vinegar, tea tree
+the effectiveness of *natural*, common DIY solutions<sup>[21]</sup> like vinegar, tea tree
 oil, or witch hazel. Most of the expert guidance is that these products are not sufficiently
 effective. During the current outbreak it may not be the best time to experiment.
 
 The guidance on person-to-person transmission of SARS-CoV-2 is definitive. It
 enters through the *mucus membranes* including the mouth, nose, and eyes.<sup>[7]</sup>
-On average, people touch their face 23 times each hour.<sup>[18]</sup> This means anything
+On average, people touch their face 23 times each hour.<sup>[20]</sup> This means anything
 on the surfaces you touch you will almost certainly bring to your face or to other
-surfaces<sup>[20],[21]</sup> you touch.
+surfaces<sup>[22],[23]</sup> you touch.
 
 In addition to preventing the spread the virus, it is also important to take care to not
-contribute to the spread misinformation<sup>[33]</sup> also.
+contribute to the spread misinformation<sup>[35]</sup> also.
 
 Finally, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
 washing with soap and water for 20 seconds. Note that
 overuse of alcohol based sanitizer will likely dry your skin to the point of cracking,
 *creating* a new vector for infection rather than preventing one. Try not to touch your face.
-When you cough or sneeze, cover it.<sup>[22]</sup> Remember, you are protecting not only
+When you cough or sneeze, cover it.<sup>[24]</sup> Remember, you are protecting not only
 yourself but also those around you. The most vulnerable among us<sup>[10]</sup> (the elderly
 and those who are diabetics or have heart or lung disease) will appreciate your efforts
 in slowing the spread of COVID-19.
@@ -204,6 +209,8 @@ Aggregate: none
 [9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC explains names SARS-CoV-2 and COVID-19 {}"
 [10]: https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html "CDC describes higher risk persons {}"
 [11]: https://jamanetwork.com/journals/jama/fullarticle/2762028 "Asymptomatic transmission of COVID-19 {}"
+[12]: https://en.wikipedia.org/wiki/Fomite "Explanation of the term Fomite {}"
+[13]: https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html "CDC guidance on fomite transmission {}"
 [20]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best disinfecting wipes {}"
 [21]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics {}"
 [22]: https://support.apple.com/en-us/HT204172?mod=article_inline "Apple guidance on 70% alcohol {}"
@@ -241,28 +248,30 @@ Aggregate: none
 [9]: #ref9 "CDC explains names SARS-CoV-2 and COVID-19"
 [10]: #ref10 "CDC describes higher risk persons"
 [11]: #ref11 "Asymptomatic transmission of COVID-19"
-[12]: #ref12 "Best disinfecting wipes"
-[13]: #ref13 "Best practices for cleaning electronics"
-[14]: #ref14 "Apple guidance on 70% alcohol"
-[15]: #ref15 "Common household products to kill SARS-CoV-2"
-[16]: #ref16 "EPA technical guidance & cleaner types/ratings"
-[17]: #ref17 "EPA cleaner designations"
-[18]: #ref18 "Face touching study"
-[19]: #ref19 "DIY, natural cleaners"
-[20]: #ref20 "See GlowGerm spread in an elementary classroom"
-[21]: #ref21 "Local news piece on spread of germs"
-[22]: #ref22 "Covering your cough"
-[23]: #ref23 "CBC story including cleaners"
-[24]: #ref24 "What is rubbing alcohol"
-[25]: #ref25 "JH COVID-19 dashboard"
-[26]: #ref26 "AI in China for contact tracking"
-[27]: #ref27 "Dr. Laren Gardner describes JH COVID-19 dashboard"
-[28]: #ref28 "Forbes AI article on COVID-19"
-[29]: #ref29 "Using mobile data to track an outbreak"
-[30]: #ref30 "SciShow Overview of COVID-19 CFR"
-[31]: #ref31 "Explanation of flattening the curve"
-[32]: #ref32 "The math of social distancing"
-[33]: #ref33 "John Oliver discusses misinformation"
+[12]: #ref12 "Explanation of the term Fomite"
+[13]: #ref13 "CDC guidance on fomite transmission"
+[14]: #ref14 "Best disinfecting wipes"
+[15]: #ref15 "Best practices for cleaning electronics"
+[16]: #ref16 "Apple guidance on 70% alcohol"
+[17]: #ref17 "Common household products to kill SARS-CoV-2"
+[18]: #ref18 "EPA technical guidance & cleaner types/ratings"
+[19]: #ref19 "EPA cleaner designations"
+[20]: #ref20 "Face touching study"
+[21]: #ref21 "DIY, natural cleaners"
+[22]: #ref22 "See GlowGerm spread in an elementary classroom"
+[23]: #ref23 "Local news piece on spread of germs"
+[24]: #ref24 "Covering your cough"
+[25]: #ref25 "CBC story including cleaners"
+[26]: #ref26 "What is rubbing alcohol"
+[27]: #ref27 "JH COVID-19 dashboard"
+[28]: #ref28 "AI in China for contact tracking"
+[29]: #ref29 "Dr. Laren Gardner describes JH COVID-19 dashboard"
+[30]: #ref30 "Forbes AI article on COVID-19"
+[31]: #ref31 "Using mobile data to track an outbreak"
+[32]: #ref32 "SciShow Overview of COVID-19 CFR"
+[33]: #ref33 "Explanation of flattening the curve"
+[34]: #ref34 "The math of social distancing"
+[35]: #ref35 "John Oliver discusses misinformation"
 
 <br>
 
@@ -279,26 +288,28 @@ References | &nbsp;
 <a name="ref9"></a>9 | [CDC explains names SARS-CoV-2 and COVID-19 ](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it)
 <a name="ref10"></a>10 | [CDC describes higher risk persons ](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html)
 <a name="ref11"></a>11 | [Asymptomatic transmission of COVID-19 ](https://jamanetwork.com/journals/jama/fullarticle/2762028)
-<a name="ref12"></a>12 | [Best disinfecting wipes ](https://learningregistry.org/reviews/best-disinfectant-wipes)
-<a name="ref13"></a>13 | [Best practices for cleaning electronics ](https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics)
-<a name="ref14"></a>14 | [Apple guidance on 70% alcohol ](https://support.apple.com/en-us/HT204172?mod=article_inline)
-<a name="ref15"></a>15 | [Common household products to kill SARS-CoV-2 ](https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/)
-<a name="ref16"></a>16 | [EPA technical guidance & cleaner types/ratings ](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)
-<a name="ref17"></a>17 | [EPA cleaner designations ](https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2)
-<a name="ref18"></a>18 | [Face touching study ](https://www.ncbi.nlm.nih.gov/pubmed/25637115)
-<a name="ref19"></a>19 | [DIY, natural cleaners ](https://ottawacitizen.com/health/busting-the-coronavirus)
-<a name="ref20"></a>20 | [See GlowGerm spread in an elementary classroom ](https://youtu.be/poOSzPTapw0?t=40)
-<a name="ref21"></a>21 | [Local news piece on spread of germs ](https://www.youtube.com/watch?v=NmLOeuH3qdA)
-<a name="ref22"></a>22 | [Covering your cough ](https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/)
-<a name="ref23"></a>23 | [CBC story including cleaners ](https://youtu.be/36FfZhxXTBc?t=296)
-<a name="ref24"></a>24 | [What is rubbing alcohol ](https://en.wikipedia.org/wiki/Rubbing_alcohol)
-<a name="ref25"></a>25 | [JH COVID-19 dashboard ](https://coronavirus.jhu.edu/map.html)
-<a name="ref26"></a>26 | [AI in China for contact tracking ](https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html)
-<a name="ref27"></a>27 | [Dr. Laren Gardner describes JH COVID-19 dashboard ](https://youtu.be/Pnk8DuAly9Y?t=978)
-<a name="ref28"></a>28 | [Forbes AI article on COVID-19 ](https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f)
-<a name="ref29"></a>29 | [Using mobile data to track an outbreak ](https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php)
-<a name="ref30"></a>30 | [SciShow Overview of COVID-19 CFR ](https://youtu.be/qf3Ih0kNvlU)
-<a name="ref31"></a>31 | [Explanation of flattening the curve ](https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning)
-<a name="ref32"></a>32 | [The math of social distancing ](https://www.wired.com/story/elegant-mathematics-social-distancing/)
-<a name="ref33"></a>33 | [John Oliver discusses misinformation ](https://youtu.be/_066dEkycr4?t=932)
+<a name="ref12"></a>12 | [Explanation of the term Fomite ](https://en.wikipedia.org/wiki/Fomite)
+<a name="ref13"></a>13 | [CDC guidance on fomite transmission ](https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html)
+<a name="ref14"></a>14 | [Best disinfecting wipes ](https://learningregistry.org/reviews/best-disinfectant-wipes)
+<a name="ref15"></a>15 | [Best practices for cleaning electronics ](https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics)
+<a name="ref16"></a>16 | [Apple guidance on 70% alcohol ](https://support.apple.com/en-us/HT204172?mod=article_inline)
+<a name="ref17"></a>17 | [Common household products to kill SARS-CoV-2 ](https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/)
+<a name="ref18"></a>18 | [EPA technical guidance & cleaner types/ratings ](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)
+<a name="ref19"></a>19 | [EPA cleaner designations ](https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2)
+<a name="ref20"></a>20 | [Face touching study ](https://www.ncbi.nlm.nih.gov/pubmed/25637115)
+<a name="ref21"></a>21 | [DIY, natural cleaners ](https://ottawacitizen.com/health/busting-the-coronavirus)
+<a name="ref22"></a>22 | [See GlowGerm spread in an elementary classroom ](https://youtu.be/poOSzPTapw0?t=40)
+<a name="ref23"></a>23 | [Local news piece on spread of germs ](https://www.youtube.com/watch?v=NmLOeuH3qdA)
+<a name="ref24"></a>24 | [Covering your cough ](https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/)
+<a name="ref25"></a>25 | [CBC story including cleaners ](https://youtu.be/36FfZhxXTBc?t=296)
+<a name="ref26"></a>26 | [What is rubbing alcohol ](https://en.wikipedia.org/wiki/Rubbing_alcohol)
+<a name="ref27"></a>27 | [JH COVID-19 dashboard ](https://coronavirus.jhu.edu/map.html)
+<a name="ref28"></a>28 | [AI in China for contact tracking ](https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html)
+<a name="ref29"></a>29 | [Dr. Laren Gardner describes JH COVID-19 dashboard ](https://youtu.be/Pnk8DuAly9Y?t=978)
+<a name="ref30"></a>30 | [Forbes AI article on COVID-19 ](https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f)
+<a name="ref31"></a>31 | [Using mobile data to track an outbreak ](https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php)
+<a name="ref32"></a>32 | [SciShow Overview of COVID-19 CFR ](https://youtu.be/qf3Ih0kNvlU)
+<a name="ref33"></a>33 | [Explanation of flattening the curve ](https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning)
+<a name="ref34"></a>34 | [The math of social distancing ](https://www.wired.com/story/elegant-mathematics-social-distancing/)
+<a name="ref35"></a>35 | [John Oliver discusses misinformation ](https://youtu.be/_066dEkycr4?t=932)
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
