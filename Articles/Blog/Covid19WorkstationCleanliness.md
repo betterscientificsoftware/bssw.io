@@ -18,10 +18,10 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 Keeping our work areas clean is always a good practice but even more so now to
 help stem the spread of SARS-CoV-2 (Note: *SARS-CoV-2* is the name of the virus
 whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> There
-are some simple things each of us can do, and if we all are diligent those things can have
+are some simple things each of us can do that, if we all are diligent, can have
 a big impact on how the next several months play out for everyone.<sup>[45]</sup>
 
-Current guidance from the U.S. Centers for Disease Control and Prevention (CDC)<sup>[1]</sup> is ...
+Current guidance from the U.S. Centers for Disease Control and Prevention (CDC)<sup>[1]</sup> states:
 
 > It may be possible that a person can get COVID-19<sup>[9]</sup> by touching a surface or
 object that has the virus on it and then touching their own mouth, nose, or
@@ -39,23 +39,23 @@ How often should we be cleaning?
 ### What surfaces to clean? 
 
 You should routinely clean, with a disinfecting solution of some
-kind (see below), any surface/object that you touch in your work, even if infrequently.
-Obviously, this includes your computer keyboard, mouse and monitor, as well as the desk area
+kind (see below), any surface and object that you touch in your work, even if infrequently.
+Obviously, this includes your computer keyboard, mouse, and monitor, as well as the desk area
 immediately around these. However, it is easy to forget about the other things
 in our office areas we touch apart from our computer.
 
 This cleaning guidance also includes your office chair armrests, telephone dial
 pad, handset and headset, your mobile phone(s), your whiteboard and dry erase markers,
-light switches, door knobs, coffee cup handle, eye glasses and even your badge.
+light switches, door knobs, coffee cup handle, eye glasses, and even your badge.
 If you tend to carry around a laptop that you set down in various places to work,
-wipe down any place before you set your laptop upon it and wipe your laptop (bottom
+wipe down any place before you set the laptop down, and wipe your laptop (bottom
 and top) again after picking it up.
 
-A really important piece of electronics
-to clean is your mobile phone. Why? Many people set their phones down on various surfaces,
-carry them into the bathroom and, of course, frequently touch and hold it as well as bring
+A critical piece of electronics
+to clean is your mobile phone. Why? Many people set their phone down on various surfaces,
+carry it into the bathroom, and, of course, frequently touch and hold it as well as bring
 it to their ear and face. That
-last part is especially problematic. So, keep your phone, and the case/holder, clean.
+last part is especially problematic. So, keep your phone and the case/holder clean.
 And, maybe don't set it down just anywhere.
 
 Ideally, you would use a different wipe each time you clean a surface. That probably
@@ -74,11 +74,11 @@ your hands after you've finished cleaning your office surfaces.
 
 It is best to clean your office area just before you sit down for the day to work. 
 That single time per day is probably sufficient for most offices. However, if you
-work in a high traffic area or share your work area with others, you (as well as 
+work in a high traffic area or if you share your work area with others, you (as well as 
 your office mates) might want to consider making a pass over all the items in
 your office area a few times a day.
 
-What about common access areas such as bathrooms, meeting rooms, elevators, etc.,
+What about common access areas such as bathrooms, meeting rooms, and elevators, 
 as well as the equipment associated with these areas? While it doesn't
 make sense to spend your own time continually cleaning these areas, you may want
 to carry some portable wipes with you to wipe the areas *you* will be using just
@@ -89,38 +89,38 @@ hand to push a switch or grab a door handle.
 
 Some electronics are sensitive to common household cleaning solutions. Using the
 wrong cleaners can cause surface discolorations or negatively effect display surfaces.
-So, you want to take care that you won't damage your electronics but will nonetheless
+So, you want to take care that you won't damage your electronics but will 
 still do an effective job of *cleaning* the surfaces.
 
-Take care to check with your local organization's health or custodial staff regarding
+Check with your local organization's health or custodial staff regarding
 cleaning solutions and supplies. They may have specific products to use and rules you
 need to follow.
 
-While CDC guidance on the types of cleaners<sup>[6]</sup> that both kill the virus and are
-safe for sensitive electronics is minimal, a number of sources<sup>[23],[24],[25]</sup> indicate a
-solution of 70% isopropyl alcohol and purified water (which you can mix yourself in a pinch) dabbed
+While the CDC has provided only minimal guidance on the types of cleaners<sup>[6]</sup> that both kill the virus and are
+safe for sensitive electronics, a number of sources<sup>[23],[24],[25]</sup> indicate a
+solution of 70% isopropyl alcohol and purified water (you can mix the solution yourself in a pinch) dabbed
 onto a microfiber cloth will do.<sup>[21]</sup> Other options include diluted solutions of
-bleach or hydrogen-peroxide or vigorous wiping with even soap and water.<sup>[32],[20]</sup> In any case,
+bleach or hydrogen peroxide or vigorous wiping with even soap and water.<sup>[32],[20]</sup> In any case,
 if you are concerned about possible
 damage, of course test the cleaner in a small, unused area first and wait a few minutes for it to
-dry to see if it causes a discoloration. If there is a noticeable residue left after using a cleaner,
+dry to see if it causes a discoloration. If  a noticeable residue is left after using a cleaner,
 use a new, dry microfiber cloth to buff out the residue.
 
-Just a few days ago, on March 9th, 2020, Apple changed its guidelines<sup>[22]</sup>
+Just a few days ago, on March 9, 2020, Apple changed its guidelines<sup>[22]</sup>
 for cleaning Apple products to endorse a 70% alcohol solution.
 
 ### The science behind the scenes
 
 The whole point of simple actions like these and other social distancing<sup>[47]</sup> measures
 is to help *flatten the curve.*<sup>[46]</sup> Health care systems can care for a slow and
-steady stream of patients. What they cannot handle is an exponential-growth driven tsunami
+steady stream of patients. What they cannot handle is an exponential-growth-driven tsunami
 of cases all at once. Under those conditions, a lot more people who would otherwise get
-excellent care in helping to fight a disease are at much greater risk of dying.
+excellent care in helping fight a disease are at much greater risk of dying.
 
-Its worth mentioning that members of our own HPC/CSE community are playing a critical
-role in helping to track and fight the spread of SARS-CoV-2. 
+We note that members of our own HPC/CSE community are playing a critical
+role in helping  track and fight the spread of SARS-CoV-2. 
 
-  * John's Hopkins COVID-19 Dashboard.<sup>[40],[42]</sup>
+  * Johns Hopkins COVID-19 Dashboard.<sup>[40],[42]</sup>
   * How China is using AI to fight Coronavirus.<sup>[41]</sup>
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[43]</sup>
   * Using mobile phone data to track an outbreak.<sup>[44]</sup>
@@ -129,12 +129,12 @@ role in helping to track and fight the spread of SARS-CoV-2.
 
 For those who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, there aren't many studies or data indicating
-effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree
-oil or witch-hazel. During the current outbreak, it may not be the best time to experiment.
+the effectiveness of *natural*, common DIY solutions<sup>[27]</sup> like vinegar, tea tree
+oil, or witch hazel. During the current outbreak it may not be the best time to experiment.
 
 The guidance on person-to-person transmission of SARS-CoV-2 is definitive. It
 enters through the *mucus membranes* including the mouth, nose, and eyes.<sup>[7]</sup>
-The average person touches their face 23 times each hour.<sup>[26]</sup> This means anything
+On average, people touch their face 23 times each hour.<sup>[26]</sup> This means anything
 on the surfaces you touch you will almost certainly bring to your face or to other
 surfaces<sup>[29],[30]</sup> you touch.
 
@@ -142,7 +142,7 @@ So, apart from cleaning your office area surfaces regularly, keep your hands cle
 washing with soap and water for 20 seconds. Note that
 overuse of alcohol based sanitizer will likely dry your skin to the point of cracking,
 *creating* a new vector for infection rather than preventing one. Try not to touch your face.
-When you cough or sneeze, cover it.<sup>[31]</sup> Remember, you are not only protecting
+When you cough or sneeze, cover it.<sup>[31]</sup> Remember, you are protecting not only
 yourself but also those around you. The most vulnerable among us will appreciate your efforts
 in slowing the spread of COVID-19.
 
