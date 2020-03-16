@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_Covid19_1176_465.gif'/>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID.png'/>
 
 <!--
 Image licensed under...
@@ -13,7 +13,7 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 16, 2020
 
-**Disclaimer:** *This article distills information from various sources that are current as of 03/16/2020 but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.  This content is the personal expression of the author and not necessarily endorsed by the author's employer.*
+**Disclaimer:** *This article distills information from various sources that are current as of 03/16/2020 but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice.*
 
 ### The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
@@ -37,8 +37,8 @@ While surface contact may not be the *main way the virus spreads*, multiple
 sources<sup>[3],[4],[5]</sup> suggest various *strains* of Coronaviruses<sup>[8]</sup> can
 remain viable in the air for hours or on different *surfaces* for days.
 A pre-publication study specifically of SARS-CoV-2<sup>[4]</sup>
-concludes it remains viable on cardboard for up to 24 hours and on plastic or stainless steel
-for up to 72 hours.
+concludes it remains viable on cardboard for up to one day and on plastic or stainless steel
+for up to three days.
 
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
@@ -152,7 +152,7 @@ on the surfaces you touch you will almost certainly bring to your face or to oth
 surfaces<sup>[22],[23]</sup> you touch.
 
 In addition to preventing the spread the virus, it is also important to take care to not
-contribute to the spread misinformation<sup>[35]</sup> also.
+contribute to the spread misinformation.<sup>[35]</sup>
 
 Finally, apart from cleaning your office area surfaces regularly, keep your hands clean by frequent
 washing with soap and water for 20 seconds. Note that
