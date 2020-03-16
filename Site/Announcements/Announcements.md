@@ -1,11 +1,13 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Cleaning your work surfaces: One way to help flatten the curve](../../Articles/Blog/Covid19WorkstationCleanliness-wikized.md)
+- [Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
 - Display dates: 03/15/2020 - 03/30/2020
 
 <!--
-- [New blog article ... Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
+- [New blog article ... Cleaning your work surfaces: One way to help flatten the curve](../../Articles/Blog/Covid19WorkstationCleanliness-wikized.md)
+- Display dates: 03/15/2020 - 03/30/2020
+
 - Display dates: 01/31/2020 - 02/19/2020
 
 - [Webinar: Introduction to Kokkos](../../Events/hpcbp-037-kokkos.md)
