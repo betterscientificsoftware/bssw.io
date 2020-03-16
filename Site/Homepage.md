@@ -11,6 +11,8 @@ Slide3 Left: blog_posts/productivity-and-sustainability-improvement-planning-psi
 Slide3 Right: images/raw/master/Blog_0120_PSIP_logo.png
 Slide4 Left: items/finalizing-your-julia-package
 Slide4 Right: items/best-practices-for-hpc-software-developers-webinar-series
+Slide5 Left: blog_posts/us-research-software-engineer-us-rse-association
+Slide5 Right: images/raw/master/Blog_011720_usrse.png
 --->
 
 <!---
