@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID.png'/>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19.png'/>
 
 <!--
 Image licensed under...
