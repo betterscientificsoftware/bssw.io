@@ -16,7 +16,7 @@ are useful. The article also explains why measures such these, which are often s
 are easily overlooked, help contribute to *flattening the curve*. The article includes over
 30 references, many authoritative, of relevance to current health concerns.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19.png' class='page lightbox' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19_greyB.png' class='page' />
 
 #### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
 
