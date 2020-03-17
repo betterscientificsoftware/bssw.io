@@ -1,4 +1,4 @@
-# Keeping work area surfaces clean
+# Keeping Work Area Surfaces Clean
 
 Keeping your work area surfaces clean is a best practice at any time but especially in times
 of heightend awareness of possible transmission of disease.
@@ -12,10 +12,20 @@ Focus | Personal productivity and sustainability
 This article explains why cleaning work area surfaces regularly is important. It reminds us
 of all the different surfaces we routinely touch in our work areas over the course of a day
 and provides useful information on how often to clean surfaces and the types of cleaners that
-are useful. It also explains why measures such these, which are often seen as so *small* they
+are useful. The article also explains why measures such these, which are often seen as so *small* that they
 are easily overlooked, help contribute to *flattening the curve*. The article includes over
 30 references, many authoritative, of relevance to current health concerns.
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19.png' class='page lightbox' />
 
 #### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
 
 #### Publication date: March 17, 2020
+
+<!---
+Publish: preview
+RSS update: 2020-03-17
+Categories: skills
+Topics: personal productivity and sustainability
+Tags: bssw-blog-article
+--->
