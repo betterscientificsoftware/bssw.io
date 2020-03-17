@@ -135,6 +135,7 @@ role in helping  track and fight the spread of SARS-CoV-2.
   * How China is using AI to fight Coronavirus.<sup>[41]</sup>
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[43]</sup>
   * Using mobile phone data to track an outbreak.<sup>[44]</sup>
+  * A simple Kahn Academy lesson on estimating actual cases of COVID-19.<sup>[49]</sup>
 
 ### Other things to keep in mind
 
@@ -199,6 +200,7 @@ in slowing the spread of COVID-19.
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
 [48]: https://youtu.be/_066dEkycr4?t=932 "John Oliver discusses misinformation {}"
+[49]: https://youtu.be/mCa0JXEwDEk "Simple Kahn Academy math lesson estimating actual cases {}"
 
 <!--
 ### Acknowledgment

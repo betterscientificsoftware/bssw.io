@@ -136,6 +136,7 @@ role in helping  track and fight the spread of SARS-CoV-2.
   * How China is using AI to fight Coronavirus.<sup>[28]</sup>
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[30]</sup>
   * Using mobile phone data to track an outbreak.<sup>[31]</sup>
+  * A simple Kahn Academy lesson on estimating actual cases of COVID-19.<sup>[36]</sup>
 
 ### Other things to keep in mind
 
@@ -233,6 +234,7 @@ Aggregate: none
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
 [48]: https://youtu.be/_066dEkycr4?t=932 "John Oliver discusses misinformation {}"
+[49]: https://youtu.be/mCa0JXEwDEk "Simple Kahn Academy math lesson estimating actual cases {}"
 
 --->
 <br>
@@ -272,6 +274,7 @@ Aggregate: none
 [33]: #ref33 "Explanation of flattening the curve"
 [34]: #ref34 "The math of social distancing"
 [35]: #ref35 "John Oliver discusses misinformation"
+[36]: #ref36 "Simple Kahn Academy math lesson estimating actual cases"
 
 <br>
 
@@ -312,4 +315,6 @@ References | &nbsp;
 <a name="ref33"></a>33 | [Explanation of flattening the curve ](https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning)
 <a name="ref34"></a>34 | [The math of social distancing ](https://www.wired.com/story/elegant-mathematics-social-distancing/)
 <a name="ref35"></a>35 | [John Oliver discusses misinformation ](https://youtu.be/_066dEkycr4?t=932)
+<a name="ref36"></a>36 | [Simple Kahn Academy math lesson estimating actual cases ](https://youtu.be/mCa0JXEwDEk)
+
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
