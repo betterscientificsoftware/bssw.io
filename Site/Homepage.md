@@ -4,7 +4,7 @@ Software—the foundation of discovery in computational science & engineering—
 
 <!---
 Slide1 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
-Slide1 Right: images/raw/master/Blog_Covid19_1176_465.gif
+Slide1 Right: images/raw/master/Blog_0320_COVID.png
 Slide2 Left: blog_posts/spreading-ideas-about-better-scientific-software
 Slide2 Right: images/raw/master/Blog_0225_Computational.jpg
 Slide3 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
