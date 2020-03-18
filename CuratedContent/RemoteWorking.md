@@ -2,7 +2,7 @@
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Profile")
 
-Many of us find ourselves suddenly engaging in unplanned remote work. These resources can help.
+Many of us find ourselves suddenly engaging in unplanned remote work. The resources outlined in this article can help.
 
 Many scientific software teams function as dispersed teams of teams [1] and are familiar with a variety of tools commonly used by software teams to stay connected, such as Slack, Gitter, GitHub, BlueJeans, Skype, Zoom, etc. If you travel extensively, have colleagues at geographically distributed institutions, or work offsite, you have experienced virtual, or remote work at one time or another. While for some, remote work has been an everyday occurrence, the global COVID-19 pandemic and need to practice social distancing [2] has thrust all of us into a new normal that involves extended remote work for each of us. Below are some curated quick reads about remote working from leadership, tools and infrastructure to security. 
 
