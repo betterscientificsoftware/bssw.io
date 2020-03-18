@@ -50,15 +50,8 @@ Focus | Security
 
 
 
-
-
-
-
-
-
-
-[1] See E. M. RAYBOURN, J. D. MOULTON, AND A. HUNGERFORD, Scaling productivity and innovation on the path to exascale with a "team of teams" approach, 2019. in: F. F.-H. Nah and K. Siau (Eds.): HCI in Business, Government and Organizations. Information Systems and Analytics. HCII 2019. Lecture Notes in Computer Science, vol 11589, https://doi.org/10.1007/978-3-030-22338-0_33. 
-[2] See https://www.cdc.gov/coronavirus/2019-ncov/php/risk-assessment.html. 
+[1] [Scaling productivity and innovation on the path to exascale with a "team of teams" approach](https://doi.org/10.1007/978-3-030-22338-0_33), E. M. Raybourn, J. D. Moulton, and A. Hungerford, 2019, HCII 2019, Lecture Notes in Computer Science, vol 11589
+[2] [Interim US Guidance for Risk Assessment and Public Health Management of Persons with Potential Coronavirus Disease 2019 (COVID-19) Exposures](https://www.cdc.gov/coronavirus/2019-ncov/php/risk-assessment.html)
 
 
 
