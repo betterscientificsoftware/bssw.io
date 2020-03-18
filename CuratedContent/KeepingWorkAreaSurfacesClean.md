@@ -22,11 +22,11 @@ are easily overlooked, help contribute to *flattening the curve*. The article in
 
 #### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
 
-#### Publication date: March 17, 2020
+#### Publication date: March 18, 2020
 
 <!---
-Publish: preview
-RSS update: 2020-03-17
+Publish: yes
+RSS update: 2020-03-18
 Categories: skills
 Topics: personal productivity and sustainability
 Tags: bssw-blog-article
