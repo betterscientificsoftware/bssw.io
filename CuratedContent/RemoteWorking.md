@@ -45,7 +45,7 @@ Focus | Tools and Infrastructure
 Resource information | Details
 :--- | :--- 
 Article title  | [COVID‑19 and the shift to remote work](https://www.welivesecurity.com/2020/03/16/covid19-forced-workplace-exodus/)
-Authors |Tony Anscombe](https://www.welivesecurity.com/author/tanscombe/)
+Authors | [Tony Anscombe](https://www.welivesecurity.com/author/tanscombe/)
 Focus | Security
 
 
