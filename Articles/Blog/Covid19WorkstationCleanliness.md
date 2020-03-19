@@ -207,11 +207,6 @@ in slowing the spread of COVID-19.
 [49]: https://www.washingtonpost.com/graphics/2020/world/corona-simulator/ "Simple 2D simulations demonstrate value of social distancing {}"
 [50]: https://youtu.be/mCa0JXEwDEk "Kahn Academy lesson on estimating actual cases {}"
 
-<!--
-### Acknowledgment
-Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
--->
-
 ### Author bio
 
 Mark Miller is a computer scientist supporting the
@@ -224,9 +219,8 @@ Among other things, he contributes to
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 The views and opinions expressed in this article are his own.
 
-#### Disclaimer
-
-**LLNL-WEB-807398**
+<!--
+Disclaimer: LLNL-WEB-807398
 
 This document was prepared as an account of work sponsored by an agency of
 the United States government. Neither the United States government nor
@@ -243,7 +237,9 @@ herein do not necessarily state or reflect those of the United States
 government or Lawrence Livermore National Security, LLC, and shall not be used
 for advertising or product endorsement purposes.
 
-<!---
+-->
+
+<!--
 Publish: no
 RSS update: 2020-03-17
 Categories: Skills
@@ -252,6 +248,6 @@ Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
---->
+-->
 
 
