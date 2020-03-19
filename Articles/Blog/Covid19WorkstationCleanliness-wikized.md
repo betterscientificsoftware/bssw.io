@@ -1,9 +1,9 @@
-<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
-# Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
+<!--- WARNING: Auto-generated with wikize-refs.py from Covid19WorkstationCleanliness.md --->
+# Pre-reference Version: Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID.png'/>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19.png'/>
 
 <!--
 Image licensed under...
@@ -138,6 +138,9 @@ role in helping  track and fight the spread of SARS-CoV-2.
   * How China is using AI to fight Coronavirus.<sup>[28]</sup>
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[30]</sup>
   * Using mobile phone data to track an outbreak.<sup>[31]</sup>
+  * A simple Kahn Academy lesson on estimating actual vs. confirmed cases.<sup>[37]</sup>
+  * Some simple, 2D simulations demonstrate value of social distancing.<sup>[36]</sup>
+
 
 ### Other things to keep in mind
 
@@ -183,18 +186,26 @@ Among other things, he contributes to
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+The views and opinions expressed in this article are his own.
 
-<!---
-Publish: preview
-RSS update: 2020-03-17
-Categories: Skills
-Topics: Personal productivity and sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
---->
+#### Disclaimer
 
+**LLNL-WEB-807398**
+
+This document was prepared as an account of work sponsored by an agency of
+the United States government. Neither the United States government nor
+Lawrence Livermore National Security, LLC, nor any of their employees makes
+any warranty, expressed or implied, or assumes any legal liability or
+responsibility for the accuracy, completeness, or usefulness of any information,
+apparatus, product, or process disclosed, or represents that its use would not
+infringe privately owned rights. Reference herein to any specific commercial
+product, process, or service by trade name, trademark, manufacturer, or
+otherwise does not necessarily constitute or imply its endorsement,
+recommendation, or favoring by the United States government or Lawrence
+Livermore National Security, LLC. The views and opinions of authors expressed
+herein do not necessarily state or reflect those of the United States
+government or Lawrence Livermore National Security, LLC, and shall not be used
+for advertising or product endorsement purposes.
 
 
 <br>
@@ -235,6 +246,8 @@ Aggregate: none
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
 [48]: https://youtu.be/_066dEkycr4?t=932 "John Oliver discusses misinformation {}"
+[49]: https://www.washingtonpost.com/graphics/2020/world/corona-simulator/ "Simple 2D simulations demonstrate value of social distancing {}"
+[50]: https://youtu.be/mCa0JXEwDEk "Kahn Academy lesson on estimating actual cases {}"
 
 --->
 <br>
@@ -274,6 +287,8 @@ Aggregate: none
 [33]: #ref33 "Explanation of flattening the curve"
 [34]: #ref34 "The math of social distancing"
 [35]: #ref35 "John Oliver discusses misinformation"
+[36]: #ref36 "Simple 2D simulations demonstrate value of social distancing"
+[37]: #ref37 "Kahn Academy lesson on estimating actual cases"
 
 <br>
 
@@ -314,4 +329,21 @@ References | &nbsp;
 <a name="ref33"></a>33 | [Explanation of flattening the curve ](https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning)
 <a name="ref34"></a>34 | [The math of social distancing ](https://www.wired.com/story/elegant-mathematics-social-distancing/)
 <a name="ref35"></a>35 | [John Oliver discusses misinformation ](https://youtu.be/_066dEkycr4?t=932)
-<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
+<a name="ref36"></a>36 | [Simple 2D simulations demonstrate value of social distancing ](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/)
+<a name="ref37"></a>37 | [Kahn Academy lesson on estimating actual cases ](https://youtu.be/mCa0JXEwDEk)
+
+<br>
+
+<!---
+Publish: no
+RSS update: 2020-03-17
+Categories: Skills
+Topics: Personal productivity and sustainability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
+
+
+

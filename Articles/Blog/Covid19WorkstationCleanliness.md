@@ -137,6 +137,9 @@ role in helping  track and fight the spread of SARS-CoV-2.
   * How China is using AI to fight Coronavirus.<sup>[41]</sup>
   * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[43]</sup>
   * Using mobile phone data to track an outbreak.<sup>[44]</sup>
+  * A simple Kahn Academy lesson on estimating actual vs. confirmed cases.<sup>[50]</sup>
+  * Some simple, 2D simulations demonstrate value of social distancing.<sup>[49]</sup>
+
 
 ### Other things to keep in mind
 
@@ -201,6 +204,8 @@ in slowing the spread of COVID-19.
 [46]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve {}"
 [47]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing {}"
 [48]: https://youtu.be/_066dEkycr4?t=932 "John Oliver discusses misinformation {}"
+[49]: https://www.washingtonpost.com/graphics/2020/world/corona-simulator/ "Simple 2D simulations demonstrate value of social distancing {}"
+[50]: https://youtu.be/mCa0JXEwDEk "Kahn Academy lesson on estimating actual cases {}"
 
 <!--
 ### Acknowledgment
@@ -217,6 +222,26 @@ Among other things, he contributes to
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+The views and opinions expressed in this article are his own.
+
+#### Disclaimer
+
+**LLNL-WEB-807398**
+
+This document was prepared as an account of work sponsored by an agency of
+the United States government. Neither the United States government nor
+Lawrence Livermore National Security, LLC, nor any of their employees makes
+any warranty, expressed or implied, or assumes any legal liability or
+responsibility for the accuracy, completeness, or usefulness of any information,
+apparatus, product, or process disclosed, or represents that its use would not
+infringe privately owned rights. Reference herein to any specific commercial
+product, process, or service by trade name, trademark, manufacturer, or
+otherwise does not necessarily constitute or imply its endorsement,
+recommendation, or favoring by the United States government or Lawrence
+Livermore National Security, LLC. The views and opinions of authors expressed
+herein do not necessarily state or reflect those of the United States
+government or Lawrence Livermore National Security, LLC, and shall not be used
+for advertising or product endorsement purposes.
 
 <!---
 Publish: no
