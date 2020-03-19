@@ -1,14 +1,19 @@
-<!--- WARNING: Auto-generated with wikize-refs.py from Covid19WorkstationCleanliness.md --->
+<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
 # Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
 
 **Hero Image:**
 
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19.png'/>
 
+<!--
+Image licensed under...
+https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
+-->
+
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 19, 2020
 
-**Disclaimer:** *This article distills information from various sources that are current as of 03/16/2020 but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice. This content is the personal expression of the author and not necessarily endorsed by the author's employer.*
+**Disclaimer:** *This article distills information from various sources that are current as of 03/19/2020 but is not a substitute for professional advice from health authorities or your local institution. The article is for informational purposes only and should not be seen as professional advice. This content is the personal expression of the author and not necessarily endorsed by the author's employer.*
 
 **Note:** The BSSw.io site will host a series of articles related to effective strategies for working remotely, from the perspectives of both individuals and collaborating teams.  Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) for periodic updates about new resources.  We also welcome contributions to BSSw.io; if you have experience or pointers to existing online material that can help others in the scientific software community, please consider [contributing to the site](https://bssw.io/contribute).
 
@@ -166,11 +171,6 @@ in slowing the spread of COVID-19.
 
 
 
-<!--
-### Acknowledgment
-Image by Siouxsie Wiles and Toby Morris, https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
--->
-
 ### Author bio
 
 Mark Miller is a computer scientist supporting the
@@ -183,9 +183,8 @@ Among other things, he contributes to
 [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
 The views and opinions expressed in this article are his own.
 
-#### Disclaimer
-
-**LLNL-WEB-807398**
+<!--
+Disclaimer: LLNL-WEB-807398
 
 This document was prepared as an account of work sponsored by an agency of
 the United States government. Neither the United States government nor
@@ -201,6 +200,20 @@ Livermore National Security, LLC. The views and opinions of authors expressed
 herein do not necessarily state or reflect those of the United States
 government or Lawrence Livermore National Security, LLC, and shall not be used
 for advertising or product endorsement purposes.
+
+-->
+
+<!--
+Publish: yea
+RSS update: 2020-03-19
+Categories: Skills
+Topics: Personal productivity and sustainability
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+-->
+
 
 
 <br>
@@ -327,18 +340,4 @@ References | &nbsp;
 <a name="ref36"></a>36 | [Simple 2D simulations demonstrate value of social distancing ](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/)
 <a name="ref37"></a>37 | [Kahn Academy lesson on estimating actual cases ](https://youtu.be/mCa0JXEwDEk)
 
-<br>
-
-<!---
-Publish: yes
-RSS update: 2020-03-19
-Categories: Skills
-Topics: Personal productivity and sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
---->
-
-
-
+<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from Covid19WorkstationCleanliness.md --->
