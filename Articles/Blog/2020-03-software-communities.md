@@ -8,8 +8,7 @@ In the last years we have seen a growing consensus that improving the state of
 scientific software requires focussing on the people behind the software. This
 is particularly true for the [software engineers and
 scientists](https://bssw.io/blog_posts/us-research-software-engineer-us-rse-association)
-developing the software, the [maintainers and leaders]
-(https://bssw.io/blog_posts/leading-a-scientific-software-project-it-s-all-personal)
+developing the software, the [maintainers and leaders](https://bssw.io/blog_posts/leading-a-scientific-software-project-it-s-all-personal)
 of projects, but also whole projects improving their [software develoment
 processes](https://bssw.io/blog_posts/productivity-and-sustainability-improvement-planning-psip).
 However these people are not just individuals; when they work together on a
@@ -92,12 +91,10 @@ changelog that records contributions from members. This changelog is different
 from the version control history in that it is more visible to provide credit,
 and more focussed on significant contributions to make it worthwhile to read.
 
-TODO: CHANGELOG EXAMPLE IMAGE GOES HERE
-Caption: A publicly available changelog disseminates important new features,
-and attributes credit to community contributors. This [example
-changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
+<img src='https://github.com/betterscientificsoftware/images/blob/master/gassmoeller-blog-changelog.png' class='page lightbox' />[A publicly available changelog disseminates important new features,
+and attributes credit to community contributors. This is a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
 the ASPECT project (Advanced Solver for Problems in Earth's Convection) is
-updated automatically, whenever new changes are merged into the code.
+updated automatically, whenever new changes are merged into the code.]
 
 Other strategies I encountered and encourage are: Official recognition as a
 developer/author on the project’s website or inside the repository, being a
@@ -152,11 +149,10 @@ There remain many open questions about social structures in scientific software
 projects that could be further explored, but for now I hope that this post has
 sparked some ideas to create more supportive and thriving scientific software.
 
-This blog post is a summary of the ideas presented in the [Best Practices for
+This blog post is a summary of the ideas presented a [webinar](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) in the [Best Practices for
 HPC Software
-Developers](http://ideas-productivity.org/events/hpc-best-practices-webinars/)
-webinar series. Watch the full presentation here:
-https://www.youtube.com/watch?v=XrjtdlOmmf8
+Developers](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series)
+series. A recording, slides, and Q&A document are [available](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033).
 
 #### Resources
 - https://opensource.guide/
