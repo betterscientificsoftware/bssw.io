@@ -3,8 +3,8 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
-Slide1 Right: images/raw/master/Blog_0320_COVID.png
+Slide1 Left: items/keeping-work-area-surfaces-clean
+Slide1 Right: images/raw/master/Blog_0320_COVID19.png
 Slide2 Left: blog_posts/spreading-ideas-about-better-scientific-software
 Slide2 Right: images/raw/master/Blog_0225_Computational.jpg
 Slide3 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
