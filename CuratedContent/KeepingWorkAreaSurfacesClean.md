@@ -25,7 +25,7 @@ are easily overlooked, help contribute to *flattening the curve*. The article in
 #### Publication date: March 18, 2020
 
 <!---
-Publish: yes
+Publish: no
 RSS update: 2020-03-18
 Categories: skills
 Topics: personal productivity and sustainability
