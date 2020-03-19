@@ -14,7 +14,7 @@ processes](https://bssw.io/blog_posts/productivity-and-sustainability-improvemen
 However these people are not just individuals; when they work together on a
 software project they form a community. We have learned a lot about
 user/developer communities from open-source software projects(see
-[opensource.guide](https://opensource.guide/building-community/)), yet we now
+[opensource.guide](https://opensource.guide/building-community/)), yet we know
 relatively little about the challenges that are specific to scientific
 software.
 
@@ -28,7 +28,7 @@ never attract a sufficient user base to establish themselves. Other projects
 only follow rudimentary policies, yet develop into large and thriving
 communities. What do these projects do differently, and is there a 'correct'
 way to develop a scientific software project? Based on my own experience, I
-started my Better Scientific Software fellowship under the hypothesis that
+started my [Better Scientific Software fellowship](https://bssw.io/fellowship) under the hypothesis that
 successful scientific software projects tend to grow because they organize
 their community effectively and successfully, in addition to providing
 scientific value and following good development practices.
@@ -37,20 +37,20 @@ scientific value and following good development practices.
 
 In order to investigate my hypothesis and to collect ideas and best-practice
 guides about community coordination practices in different scientific software
-projects I began “Better Scientific Software Communities” (BSSC). Its intent is
+projects, I began “Better Scientific Software Communities” (BSSC). Its intent is
 to provide developers of scientific software with information about what good
 community coordination can do and what pitfalls to avoid. Ideally the
 collection of practices from successful projects will spark better policies in
 new projects, and hopefully even inspire new practices in established projects.
 I collected the content for BSSC based on my personal experiences, combined
-with results of published studies and online blogs and in person interviews
+with results of published studies and online blogs, and in person interviews
 with maintainers of several successful scientific software projects in
 Geophysics, Astrophysics, and Applied Mathematics, but I quickly realized that
 this can not be a exhaustive compendium, only a collection of working examples.
 Some preliminary results are posted online at:
 https://gassmoeller.github.io/BSSC/ , and the remaining results of my work will
 be uploaded within this month.
-In this blog post I want to discuss some of the main findings and to provoke ideas and spark a conversation about what other practices might improve software communities.
+In this blog post I want to discuss some of the main findings, to provoke ideas and spark a conversation about what other practices might improve software communities.
 
 ### Community atmosphere
 
@@ -93,7 +93,7 @@ and more focussed on significant contributions to make it worthwhile to read.
 
 <img src='https://github.com/betterscientificsoftware/images/blob/master/gassmoeller-blog-changelog.png' class='page lightbox' />[A publicly available changelog disseminates important new features,
 and attributes credit to community contributors. This is a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
-the ASPECT project (Advanced Solver for Problems in Earth's Convection) is
+the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
 updated automatically, whenever new changes are merged into the code.]
 
 Other strategies I encountered and encourage are: Official recognition as a
@@ -111,7 +111,7 @@ One of the unsurprising results of my conversations was that many projects and
 maintainers eventually experience various types of conflicts within their
 community. These conflicts can usually be categorized in one of three types:
 conflicts about personality, about policy, and conflicts about technical
-strategy. Personality conflicts are not surprising, user communities are
+strategy. Personality conflicts are not surprising; user communities are
 heterogeneous, somewhat unpredictable, and made up of diverse and sometimes not
 very compatible personality types. There has been a lot of public discussions
 about personality conflicts in open-source projects(see e.g. this [Medium
@@ -125,18 +125,17 @@ stating them publicly helps to mitigate conflicts.  In terms of technical
 strategy, software projects always have to balance competing design goals such
 as flexibility vs. performance.  If decisions are communicated insufficiently,
 this can leave individuals feeling their requirements are not given enough
-consideration.  In summary preventing, discovering and resolving conflicts are
+consideration.  In summary, preventing, discovering and resolving conflicts are
 important goals of community coordination, and discovering conflicts early is
 an important test for the communication culture inside a project. Successful
-projects often pursue this by having more or less regular user meetings (online
+projects often pursue this by having, more or less, regular user meetings (online
 or in person) and strive to maintain an open and supportive discussion culture.
 Resolving conflicts that could not be mitigated is one of the important tasks
 for project leaders and requires a high level of flexibility and social skills.
 
 ### Using the tools that work
 
-In addition to being a good software developer, coordinating the community of a
-software is a job that requires leadership skills, e.g. empathy, intuition, and
+In addition to being a good software developer, coordinating the software community is a job that requires leadership skills, e.g. empathy, intuition, and
 creativity. Honing these skills while growing your project is an important
 task, but if you are lucky you already have members with these skills in your
 community and you only need to find and promote them to let them solve your
