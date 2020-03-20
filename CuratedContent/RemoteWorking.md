@@ -62,7 +62,7 @@ Sandia National Laboratories is a multimission laboratory managed and operated b
 #### Publication date: March 18, 2020
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-03-18
 Categories: skills
 Topics: personal productivity and sustainability
