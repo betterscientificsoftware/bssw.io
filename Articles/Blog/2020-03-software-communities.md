@@ -4,12 +4,12 @@
 
 #### Publication date: March 20, 2020
 
-In the past several years we have seen a growing consensus that improving the state of
+In the past several years, we have seen a growing consensus that improving the state of
 scientific software requires focusing on the people behind the software. This
 is particularly true for the [software engineers and
 scientists](https://bssw.io/blog_posts/us-research-software-engineer-us-rse-association)
 developing the software, the [maintainers and leaders](https://bssw.io/blog_posts/leading-a-scientific-software-project-it-s-all-personal)
-of projects, but also whole projects improving their [software development
+of projects, but also for whole projects improving their [software development
 processes](https://bssw.io/blog_posts/productivity-and-sustainability-improvement-planning-psip).
 However, these people are not just individuals; when they work together on a
 software project, they form a community. We have learned a lot about
@@ -20,12 +20,11 @@ software.
 
 ### Community engagement as a limit to project growth?
 
-I am a scientist who develops software, and I regularly meet with others  
-in my field (geophysics) to improve their software development
-processes. During my work I have frequently noticed that some software project members have
+I am a scientist who develops software, and I regularly meet with others in my field (geophysics) to improve their software development
+processes. During my work, I have frequently noticed that some software project members have
 valuable scientific ideas and follow best practices for software design, yet
 never attract a sufficient user base to establish themselves. 
-%GAIL - not sure wheat you mean by "establish themselves" - I guess "as a thriving community" but that seems repetitious
+(%GAIL asks- not sure wheat you mean by "establish themselves" - I guess "as a thriving community" but that seems repetitious)
 Other projects
 follow only rudimentary policies yet develop into large and thriving
 communities. What do these projects do differently, and is there a "correct"
