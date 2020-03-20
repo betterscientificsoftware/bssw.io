@@ -55,6 +55,9 @@ References:
 
 [2] [CDC Coronavirus (COVID-19)]( https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 
+<!--- 
+Sandia National Laboratories is a multimission laboratory managed and operated by National Technology and Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International, Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA-0003525. SAND2020-3512 O.
+--->
 
 #### Publication date: March 18, 2020
 
