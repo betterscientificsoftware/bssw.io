@@ -4,29 +4,31 @@
 
 #### Publication date: March 20, 2020
 
-In the last years we have seen a growing consensus that improving the state of
-scientific software requires focussing on the people behind the software. This
+In the past several years we have seen a growing consensus that improving the state of
+scientific software requires focusing on the people behind the software. This
 is particularly true for the [software engineers and
 scientists](https://bssw.io/blog_posts/us-research-software-engineer-us-rse-association)
 developing the software, the [maintainers and leaders](https://bssw.io/blog_posts/leading-a-scientific-software-project-it-s-all-personal)
-of projects, but also whole projects improving their [software develoment
+of projects, but also whole projects improving their [software development
 processes](https://bssw.io/blog_posts/productivity-and-sustainability-improvement-planning-psip).
-However these people are not just individuals; when they work together on a
-software project they form a community. We have learned a lot about
-user/developer communities from open-source software projects(see
+However, these people are not just individuals; when they work together on a
+software project, they form a community. We have learned a lot about
+user/developer communities from open-source software projects (see
 [opensource.guide](https://opensource.guide/building-community/)), yet we know
 relatively little about the challenges that are specific to scientific
 software.
 
 ### Community engagement as a limit to project growth?
 
-I am a scientist who develops software, and regularly meets with other software
-projects in my field (Geophysics) to improve their software development
-processes. During my work I frequently notice that some software projects have
+I am a scientist who develops software, and I regularly meet with others  
+in my field (geophysics) to improve their software development
+processes. During my work I have frequently noticed that some software project members have
 valuable scientific ideas and follow best practices for software design, yet
-never attract a sufficient user base to establish themselves. Other projects
-only follow rudimentary policies, yet develop into large and thriving
-communities. What do these projects do differently, and is there a 'correct'
+never attract a sufficient user base to establish themselves. 
+%GAIL - not sure wheat you mean by "establish themselves" - I guess "as a thriving community" but that seems repetitious
+Other projects
+follow only rudimentary policies yet develop into large and thriving
+communities. What do these projects do differently, and is there a "correct"
 way to develop a scientific software project? Based on my own experience, I
 started my [Better Scientific Software fellowship](https://bssw.io/fellowship) under the hypothesis that
 successful scientific software projects tend to grow because they organize
@@ -35,19 +37,19 @@ scientific value and following good development practices.
 
 ### Better Scientific Software Communities
 
-In order to investigate my hypothesis and to collect ideas and best-practice
+To investigate my hypothesis and to collect ideas and best-practice
 guides about community coordination practices in different scientific software
 projects, I began “Better Scientific Software Communities” (BSSC). Its intent is
 to provide developers of scientific software with information about what good
 community coordination can do and what pitfalls to avoid. Ideally the
 collection of practices from successful projects will spark better policies in
-new projects, and hopefully even inspire new practices in established projects.
+new projects and, I hope, even inspire new practices in established projects.
 I collected the content for BSSC based on my personal experiences, combined
-with results of published studies and online blogs, and in person interviews
+with results of published studies and online blogs and in-person interviews
 with maintainers of several successful scientific software projects in
-Geophysics, Astrophysics, and Applied Mathematics, but I quickly realized that
-this can not be a exhaustive compendium, only a collection of working examples.
-Some preliminary results are posted online at:
+geophysics, astrophysics, and applied mathematics. I quickly realized, however, that
+this cannot be a exhaustive compendium, only a collection of working examples.
+Some preliminary results are posted online at
 https://gassmoeller.github.io/BSSC/ , and the remaining results of my work will
 be uploaded within this month.
 In this blog post I want to discuss some of the main findings, to provoke ideas and spark a conversation about what other practices might improve software communities.
