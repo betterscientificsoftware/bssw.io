@@ -23,8 +23,8 @@ software.
 I am a scientist who develops software, and I regularly meet with others in my field (geophysics) to improve their software development
 processes. During my work, I have frequently noticed that some software project members have
 valuable scientific ideas and follow best practices for software design yet
+their software projects
 never attract a sufficient user base to establish themselves. 
-(%GAIL asks- not sure wheat you mean by "establish themselves" - I guess "as a thriving community" but that seems repetitious, and establish themselves as scientists is not what you mean, I am sure)
 Other projects
 follow only rudimentary policies yet develop into large and thriving
 communities. What do these projects do differently, and is there a "correct"
@@ -54,8 +54,6 @@ be uploaded within this month.
 In this blog post I want to discuss some of the main findings, to stimulate ideas and spark a conversation about what other practices might improve software communities.
 
 ### Community atmosphere
-
-<img src='https://github.com/github/opensource.guide/blob/master/assets/images/illos/building.svg' class='page lightbox' />[A successful community software project requires a thriving community. Image based on github.com/github/opensource.guide used under the CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/) license.]
 
 A consistent theme during my interviews was that maintainers attribute some
 part of the success of their project to the welcoming atmosphere for new and
@@ -174,8 +172,8 @@ fellows of the Department of Energy’s IDEAS-ECP project. Contact:
 rgassmoeller@ucdavis.edu.
 
 <!---
-Publish: yes
-RSS update: 2020-03-20
+Publish: preview
+RSS update: 2020-03-21
 Categories: Collaboration
 Topics: Software Engineering, Projects and Organizations
 Tags: bssw-blog-article
