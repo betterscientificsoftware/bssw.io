@@ -1,8 +1,10 @@
 # Scientific Software Projects and Their Communities
 
+Improving the state of scientific software requires focusing on the people behind the software.
+
 #### Contributed by [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub Profile")
 
-#### Publication date: March 20, 2020
+#### Publication date: March 23, 2020
 
 In the past several years, we have seen a growing consensus that improving the state of
 scientific software requires focusing on the people behind the software. This
@@ -90,7 +92,7 @@ changelog that records contributions from members. This changelog is different
 from the version control history in that it is more visible to provide credit
 and more focused on significant contributions to make it worthwhile to read.
 
-<img src='https://github.com/betterscientificsoftware/images/blob/master/gassmoeller-blog-changelog.png' class='page lightbox' />[A publicly available changelog disseminates important new features,
+<img src='https://github.com/betterscientificsoftware/images/blob/raw/gassmoeller-blog-changelog.png' class='page lightbox' />[A publicly available changelog disseminates important new features,
 and attributes credit to community contributors. This is a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
 the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
 updated automatically, whenever new changes are merged into the code.]
@@ -173,7 +175,7 @@ rgassmoeller@ucdavis.edu.
 
 <!---
 Publish: preview
-RSS update: 2020-03-21
+RSS update: 2020-03-23
 Categories: Collaboration
 Topics: Software Engineering, Projects and Organizations
 Tags: bssw-blog-article
