@@ -67,7 +67,7 @@ That is not sufficient, however. Indeed, a [Mozilla
 study](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177)
 found that response time is one of the most important factors in retaining
 contributors. Contributors who received feedback within 48 hours “have an
-exceptionally high rate of returning,” whereas “Ccntributors who wait longer than
+exceptionally high rate of returning,” whereas “Contributors who wait longer than
 7 days for code review on their first bug have virtually zero percent
 likelihood of returning.” This result was supported by anecdotal evidence in my
 interviews. Additionally, while a timely and friendly response is necessary,
@@ -121,7 +121,7 @@ post](https://medium.com/@d4nyll/the-open-source-community-have-no-place-for-dis
 so I will not  discuss it further here. Preventing policy conflicts starts
 with implementing appropriate policies, in particular regarding credit for
 contributions, selection of license agreements, and expectation of commitments
-(e.g., of maintainers). If these policies are internal and not stated explictly,
+(e.g., of maintainers). If these policies are internal and not stated explicitly,
 they may be a surprise to new members and create potential conflicts. Therefore,
 stating them publicly helps mitigate conflicts.  In terms of technical
 strategy, software projects always have to balance competing design goals such
@@ -169,8 +169,8 @@ interaction between mantle convection and plate tectonic processes, numerical
 methods for geodynamic modeling and computational fluid dynamics, and
 sustainable software development in the Earth sciences. He earned his Ph.D. in
 geophysics from Potsdam University in cooperation with the German Research
-Centre for Geosciences and is one of the 2019 Better Scientific Software
-fellows of the Department of Energy’s IDEAS-ECP project. Contact:
+Centre for Geosciences and is one of the 2019 [Better Scientific Software
+Fellows](https://bssw.io/fellowship). Contact:
 rgassmoeller@ucdavis.edu.
 
 <!---
