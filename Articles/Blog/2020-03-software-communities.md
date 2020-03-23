@@ -90,12 +90,14 @@ developed ways to attribute credit to contributors, although their approaches
 differ significantly. One of the most straightforward methods is to maintain a
 changelog that records contributions from members. This changelog is different
 from the version control history in that it is more visible to provide credit
-and more focused on significant contributions to make it worthwhile to read.
+and more focused on significant contributions to make it worthwhile to read.  
+The figure below shows
+a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
+the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
+updated automatically, whenever new changes are merged into the code.
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/gassmoeller-blog-changelog.png' class='page lightbox' />[A publicly available changelog disseminates important new features,
-and attributes credit to community contributors. This is a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_current.html) for
-the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
-updated automatically, whenever new changes are merged into the code.]
+and attributes credit to community contributors.]
 
 Another strategy I encountered and encourage is official recognition, whether as a
 developer/author on the project’s website or inside the repository, or as a
