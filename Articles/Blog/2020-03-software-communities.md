@@ -177,7 +177,7 @@ Fellows](https://bssw.io/fellowship). Contact:
 rgassmoeller@ucdavis.edu.
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-03-23
 Categories: Collaboration
 Topics: Software Engineering, Projects and Organizations
