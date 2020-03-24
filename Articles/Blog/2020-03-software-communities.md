@@ -6,7 +6,7 @@ Improving the state of scientific software requires focusing on the people behin
 
 #### Publication date: March 23, 2020
 
-(This article bas been cross-posted to the [URSSI blog](http://urssi.us/blog/).)
+(This article also appears on the [URSSI blog](http://urssi.us/blog/).)
 
 In the past several years, we have seen a growing consensus that improving the state of
 scientific software requires focusing on the people behind the software. This
