@@ -3,16 +3,20 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
-Slide1 Right: images/raw/master/Blog_0320_COVID19.png
-Slide2 Left: blog_posts/spreading-ideas-about-better-scientific-software
-Slide2 Right: images/raw/master/Blog_0225_Computational.jpg
-Slide3 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
-Slide3 Right: images/raw/master/Blog_0120_PSIP_logo.png
-Slide4 Left: items/finalizing-your-julia-package
-Slide4 Right: items/best-practices-for-hpc-software-developers-webinar-series
-Slide5 Left: blog_posts/us-research-software-engineer-us-rse-association
-Slide5 Right: images/raw/master/Blog_011720_usrse.png
+Slide1 Right: blog_posts/scientific-software-projects-and-their-communities
+Slide2 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
+Slide2 Right: images/raw/master/Blog_0320_COVID19.png
+Slide3 Left: blog_posts/spreading-ideas-about-better-scientific-software
+Slide3 Right: images/raw/master/Blog_0225_Computational.jpg
+Slide4 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
+Slide4 Right: images/raw/master/Blog_0120_PSIP_logo.png
+Slide5 Left: items/finalizing-your-julia-package
+Slide5 Right: items/best-practices-for-hpc-software-developers-webinar-series
+--->
+
+<!--- Previous Slide 5
+SlideN Left: blog_posts/us-research-software-engineer-us-rse-association
+SlideN Right: images/raw/master/Blog_011720_usrse.png
 --->
 
 <!---
