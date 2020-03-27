@@ -43,11 +43,8 @@ I believe that one of the key solutions to the issue is connecting academic orga
 I propose a number of recommendations to make this value and impact more visible, and put it at the heart of what universities do:
 
 1. As universities set up research software engineering (RSE) groups, broker an agreement with RSE group leaders to set aside a set percentage of their time to contribute to open source software that is important to the organisation. For this to work, the way they use that time must be prioritised by the projects they are working on, based on what they are best placed to contribute to, not by their university (who only get to choose which software projects they are contributing to).
-
 2. Universities should seek to associate their brand with open source software more. Universities contribute significant amounts of effort already to leading open source projects, and yet it is often unrecognised.
-
 3. Universities should promote working on open source projects as part of Undergraduate and Masters programmes, similar to doing internships, so it is seen as valuable career development for both students and faculty.
-
 4. University libraries should consider subscription style donations to some of the most significant open source research software projects that they rely on, as determined by annual surveys.
 
 The challenge with maintaining research software is that there is more software produced than we need to maintain, but there is more software that needs to be maintained than we are currently doing. By making software more visible, it becomes easier to make the argument that we can’t keep taking from open source software projects without giving back.
