@@ -14,7 +14,12 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx](https://www.webex.com) | [BlueJe
 Test Meetings | [Test](https://zoom.us/test) | [Test](https://www.webex.com/test-meeting.html) | [Test](https://bluejeans.com/111/) | [HowTo](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/)
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848)
 [Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b)
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=6 align="center">**Sub-Section**</td></tr>
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=6 align="center">**Compatability**</td></tr>
+Preferred Web Client | [Chrome (limited)](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-Web-Client)
+OS Compatability |
+Download Required |
+Requires Client Download |
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=6 align="center">**Sharing**</td></tr>
 App Sharing |
 Multi-Headed Displays |
 Screen Sharing |
@@ -27,15 +32,6 @@ Green Screen Back|
 not-compatible-with |
 raise hand |
 computer only vs. computer+phone
-
-### Compatability
-
-Feature | [Zoom](https://www.zoom.us) | [WebEx](https://www.webex.com) | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | other 2
---- | --- | --- | --- | --- | ---
-Preferred Web Client | [Chrome (limited)](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-Web-Client)
-OS Compatability |
-Download Required |
-Requires Client Download |
 
 
 ### Breakout Rooms
