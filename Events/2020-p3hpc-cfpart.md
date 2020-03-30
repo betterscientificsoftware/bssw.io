@@ -4,6 +4,8 @@
 - Location: Kansas City, MO
 - Event Website: https://p3hpcforum2020.alcf.anl.gov/
 
+**This event has been cancelled due to the COVID-19 pandemic.**
+
 Abstract submissions are open for the 2020 Performance, Portability, and Productivity in HPC Forum, to be held April 7-9, in Kansas City, MO.  The deadline is January 24, 2020.
 
 Authors are invited to submit novel research from all areas concerned with performance, portability and productivity. This forum is anticipated to attract a diverse and cross-disciplinary audience from laboratories, industries, and academic partners, bringing together: compiler, language and runtime experts; performance engineers; and domain scientists. Input from such a variety of experiences is critical to developing effective and productive solutions to performance portability, and tracking the highlights and lowlights of community experiences is key to identifying common themes and best practices.
@@ -41,7 +43,7 @@ It can be a work in progress with preliminary results and observations, in fact 
 Submissions are in the form of an abstract, 1 to 2 paragraphs. The submission form is limited to text only, i.e. no attachments, but feel free to include links to publications and/or illustrations that support your submission.
 
 <!---
-Publish: yes
+Publish: no
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: conference
