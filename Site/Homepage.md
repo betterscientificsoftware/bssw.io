@@ -12,7 +12,7 @@ Slide3 Right: images/raw/master/Blog_0225_Computational.jpg
 Slide4 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
 Slide4 Right: images/raw/master/Blog_0120_PSIP_logo.png
 Slide5 Left: items/finalizing-your-julia-package
-Slide5 Right: items/best-practices-for-hpc-software-developers-webinar-series
+Slide5 Right: events/webinar-best-practices-for-using-proxy-applications-as-benchmarks
 --->
 
 <!---
