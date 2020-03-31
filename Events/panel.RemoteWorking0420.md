@@ -44,9 +44,11 @@ Kathryn Mohror is a computer scientist and group leader in the Center for Applie
 Elaine Raybourn is a social scientist who has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom; Germany and France as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as a member of Sandia’s Statistics and Human Systems Group and the IDEAS-ECP productivity project.
 
 #### Contributed by 
+[Mike Bernhardt](https://github.com/mikeb650 "Mike Bernhardt GitHub Profile"),
 [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), 
 [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"),
-[Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile"), and
+[Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile"),
+[Kathryn Mohror](https://github.com/kathrynmohror. "Kathryn Mohror GitHub Profile"), and
 [Elaine M. Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile") 
 
 <!---
