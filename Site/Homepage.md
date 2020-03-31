@@ -4,15 +4,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 <!---
 Slide1 Left: blog_posts/scientific-software-projects-and-their-communities
-Slide 1 Right: items/resources-for-maximizing-remote-working
+Slide1 Right: items/resources-for-maximizing-remote-working
 Slide2 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
 Slide2 Right: images/raw/master/Blog_0320_COVID19.png
-Slide3 Left: blog_posts/spreading-ideas-about-better-scientific-software
-Slide3 Right: images/raw/master/Blog_0225_Computational.jpg
-Slide4 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
-Slide4 Right: images/raw/master/Blog_0120_PSIP_logo.png
-Slide5 Left: items/finalizing-your-julia-package
-Slide5 Right: events/webinar-best-practices-for-using-proxy-applications-as-benchmarks
+Slide3 Left: events/strategies-for-working-remotely-advice-from-colleagues-with-experience
+Slide3 Right: events/webinar-best-practices-for-using-proxy-applications-as-benchmarks
+Slide4 Left: blog_posts/spreading-ideas-about-better-scientific-software
+Slide4 Right: images/raw/master/Blog_0225_Computational.jpg
+Slide5 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
+Slide5 Right: images/raw/master/Blog_0120_PSIP_logo.png
+
 --->
 
 <!---
