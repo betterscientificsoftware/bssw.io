@@ -2,6 +2,7 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
+
 <!---
 Slide1 Left: blog_posts/scientific-software-projects-and-their-communities
 Slide1 Right: items/resources-for-maximizing-remote-working
@@ -13,11 +14,22 @@ Slide4 Left: blog_posts/productivity-and-sustainability-improvement-planning-psi
 Slide4 Right: images/raw/master/Blog_0120_PSIP_logo.png
 Slide5 Left: blog_posts/spreading-ideas-about-better-scientific-software
 Slide5 Right: images/raw/master/Blog_0225_Computational.jpg
-
 --->
 
 <!---
 LCM: Saving for use again later
+
+Slide1 Left: blog_posts/scientific-software-projects-and-their-communities
+Slide 1 Right: items/resources-for-maximizing-remote-working
+Slide2 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
+Slide2 Right: images/raw/master/Blog_0320_COVID19.png
+Slide3 Left: blog_posts/spreading-ideas-about-better-scientific-software
+Slide3 Right: images/raw/master/Blog_0225_Computational.jpg
+Slide4 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
+Slide4 Right: images/raw/master/Blog_0120_PSIP_logo.png
+Slide5 Left: items/finalizing-your-julia-package
+Slide5 Right: events/webinar-best-practices-for-using-proxy-applications-as-benchmarks
+--->
 
 SlideA Left: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
 SlideA Right: items/a-look-at-the-economic-forces-in-open-source-software
