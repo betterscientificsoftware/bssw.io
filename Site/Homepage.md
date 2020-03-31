@@ -31,20 +31,6 @@ Slide5 Left: items/finalizing-your-julia-package
 Slide5 Right: events/webinar-best-practices-for-using-proxy-applications-as-benchmarks
 --->
 
-SlideA Left: blog_posts/accepting-high-quality-software-contributions-as-scientific-publications
-SlideA Right: items/a-look-at-the-economic-forces-in-open-source-software
-SlideB Left: blog_posts/research-software-science-a-scientific-approach-to-understanding-and-improving-how-we-develop-and-use-software-for-research
-SlideB Right: blog_posts/data-driven-software-sustainability
-SlideC Left: events/webinar-building-community-policies-through-xsdk-software-policies
-SlideC Right: items/balter-s-rules-for-github-communication
-
-SlideX Left: events/webinar-tools-and-techniques-for-floating-point-analysis
-SlideX Right: events/testing-research-software-survey
-
-SlideY Left: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them
-SlideY Right:  images/raw/master/Blog_1019_Hero_1136x432.png
---->
-
 <!---
 [Site Overview](SiteOverview.md)
 
