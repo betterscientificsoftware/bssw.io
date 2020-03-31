@@ -2,7 +2,7 @@
 
 Announcement:
 - [Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
-- Display dates: 03/15/2020 - 03/30/2020
+- Display dates: 03/15/2020 - 04/15/2020
 
 <!--
 - [New blog article ... Cleaning your work surfaces: One way to help flatten the curve](../../Articles/Blog/Covid19WorkstationCleanliness-wikized.md)
