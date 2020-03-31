@@ -1,4 +1,4 @@
-# Panel: Strategies for Working Remotely: Advice from colleagues with experience
+# Strategies for Working Remotely: Advice from colleagues with experience
 
 - Date: April 3, 2020
 - Location: Online
