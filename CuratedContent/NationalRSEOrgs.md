@@ -20,7 +20,7 @@ Since the RSE acronym inception in 2014, several organizations and associations 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
 <!---
-Publish: preview
+Publish: yes
 Categories: collaboration
 Topics: Projects and organizations
 Tags: organization
