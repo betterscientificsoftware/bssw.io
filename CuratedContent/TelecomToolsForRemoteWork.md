@@ -9,22 +9,22 @@ Things to look out for
 
 # Features Most Useful for HPC/CSE Remote Work
 
-[Feature](#features-we-highlight) | [Zoom](https://www.zoom.us) | [WebEx](https://www.webex.com) | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[1](#gotomeeting)</sup> | [Skype Business](https://www.skype.com/en/)
+[Feature](#features-we-highlight) | [Zoom](https://www.zoom.us) | [WebEx](https://www.webex.com) | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[1](#gotomeeting-notes)</sup> | [Skype Business](https://www.skype.com/en/)
 --- | --- | --- | --- | --- | --- | ---
 [Test Meeting](#test-meeting) | [Test](https://zoom.us/test) | [Test](https://www.webex.com/test-meeting.html) | [Test](https://bluejeans.com/111/) | [HowTo](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Test](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [HowTo](https://www.businessinsider.com/how-to-test-skype-video)
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
 [Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Laptop/Deskside Web Client Compatability**](#laptopdeskside-web-client-compatability)</td></tr>
-[Recommended](#recommended-browser) | [Chrome](https://www.google.com/chrome/) | [Chrome](https://www.google.com/chrome/)/[Firefox](https://www.mozilla.org/en-US/firefox/) | [Edge](https://www.microsoft.com/en-us/edge) | [Edge](https://www.microsoft.com/en-us/edge)
-Safari
-Chrome | Full
-Firefox | 
-IE
-Edge
-[Chrome (limited)](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-Web-Client) | 
-OS Compatability |
-Download Required |
-Requires Client Download |
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Desktop Native App**](#desktop-native-app)</td></tr>
+Windows |[8]/[10h]/[10p] | [8]/[10h]/[10E] | [8]/[10h]
+Linux | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F] | [R]/[F]
+OSX | [&ge;10.7][osx] | [&ge;10.13][osx] | [&ge;10.11][osx]
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Desktop Webclient App**](#laptopdeskside-web-client-compatability) (recommended in bold)</td></tr>
+As presenter | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
+As attendee | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
+[Install stuff to<br>present/attend](#must-download-to-attend)
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Mobile App**](#laptopdeskside-web-client-compatability)</td></tr>
+Presenter | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
+Attendee | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=6 align="center">**Sharing**</td></tr>
 App Sharing |
 Multi-Headed Displays |
@@ -32,13 +32,13 @@ Screen Sharing |
 App Sharing |
 Shared Whiteboard |
 Shared annotations |
+Augmented Reality |
 Recording |
 Chat |
 Green Screen Back|
 not-compatible-with |
 raise hand |
 computer only vs. computer+phone
-
 
 ### Features We Highlight
 
@@ -52,7 +52,8 @@ The web client typically allows users to join a meeting through their browser.
 A web client is often advantageous because it *usually* allows users to avoid
 having to install software on their machine. Sometimes, however, the user may
 have to download a browser *extension* to support the web client. In addition,
-web clients typically do not support *all* features.
+web clients often **do not** support features needed by a meeting *host* or
+*presenter*. They are available primary to support meeting *attendees* only.
 
 ### Recommended Browser
 
@@ -92,10 +93,44 @@ This is similar to but not quite the same thing as [*Screen Sharing*](#screen-sh
 
 This is similar to but not quite the same thing as *Shared Annotations*. A shared whiteboard is a separate drawing area, like a whiteboard in an office, where all participants can doodle content and paste images they captured locally.
 
-### GoToMeeting
+## Other Options
+
+##### GoToMeeting Notes
 
 [GoToMeeting](https://www.gotomeeting.com) is part of a larger line of products
-including GoToTraining and GoToWebinar. We describe here only the features in
-the GoToMeeting product. Some of the features are available in these other
-products.
+including GoToTraining and GoToWebinar. We consider here only the features in
+the GoToMeeting product. Some features not availabe in GoToMeeting are available
+in these other products.
 
+<!--- Linux Distribution Notes --->
+[U]: https://ubuntu.com/ "Ubuntu"
+[D]: https://www.debian.org/ "Debian"
+[R]: https://www.redhat.com/en "RedHat"
+[O]: https://www.opensuse.org/ "openSUSE"
+[C]: https://www.centos.org/ "CentOS"
+[F]: https://getfedora.org/ "Fedora"
+[+z]: https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux "Other Linux Distributions"
+
+<!--- Windows Version Notes --->
+[8]: https://www.microsoft.com/en-us/software-download/windows8ISO "Windows 8"
+[10h]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Home"
+[10P]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro"
+[10ed]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Education"
+[10Pw]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Workstation"
+[10Pe]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Education"
+[10E]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Enterprise"
+
+<!--- OSX Version Notes --->
+[osx]: https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/ "OSX version names and numbers"
+
+<!--- iOS Version Notes --->
+[iOS]: https://www.apple.com/ios/ios-13/ "iOS Versions"
+
+<!--- Android Version Notes --->
+[And]: https://en.wikipedia.org/wiki/Android_version_history "Android version names and numbers"
+
+<!--- Browser Version Notes --->
+[Ch]: https://www.google.com/chrome/ "Chrome"
+[Sa]: https://www.apple.com/safari/) "Safari"
+[Ed]: https://www.microsoft.com/en-us/edge) "Edge"
+[Fi]: https://www.mozilla.org/en-US/firefox/) "Firefox"
