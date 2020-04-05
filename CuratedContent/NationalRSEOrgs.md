@@ -1,4 +1,4 @@
-# An Introduction to National RSE organizations
+# An Introduction to National RSE Organizations
 
 <!--deck start-->
 Research Software Engineer is emerging as a new career track. Several national-level organizations focusing on research software engineers are emerging in support of this movement.
@@ -11,9 +11,9 @@ Websites  |   US RSE - [The US Research Software Engineer Association](http://us
 Focus | Careers and Goals
 
 
-Good quality software plays an important role in the progress of research in all scientific domains. The "Research Software Engineer (RSE)" acronym was created to encourage and identify individuals dedicated and focused on developing software within the research community. These individuals range from researchers to full-time programmers to software engineers — all of whom spend significant time in their careers designing software and writing scientific code. RSE is also emerging as a new career track in academia, labs, and industry with a goal of distinguishing software engineers who work on non-research software vs. research software.
+High-quality software plays an important role in the progress of research in all scientific domains. The "Research Software Engineer (RSE)" designation was established to encourage and identify individuals dedicated to developing software within the research community. These individuals range from researchers to full-time programmers to software engineers — all of whom spend significant time in their careers designing software and writing scientific code. RSE is also emerging as a new career track in academia, labs, and industry, with a goal of distinguishing software engineers who work on non-research software vs. research software.
 
-Since the RSE acronym inception in 2014, several organizations and associations have emerged in Europe and in the USA, with focus on research software engineers. This article lists some of such well-known organizations, in the table above. The UK RSE Association is one of the older associations and contains a lot of valuable information. With the establishment of the US RSE Association, efforts on building a strong RSE community are ramping up in the USA as well.
+Since the inception of the RSE movement in 2014, several organizations and associations have emerged in Europe and in the USA, with a focus on research software engineers. The table above lists well-known organizations. The website of the UK RSE Association, one of the earliest established associations, contains much valuable information. With the establishment of the US RSE Association, efforts to build a strong RSE community are ramping up in the USA as well.
 
 
 
