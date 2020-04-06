@@ -62,9 +62,20 @@ was more useful was to see the areas that projects were strong in, and where sys
 were present. In particular, the "Better Development" categories scored significantly higher
 than the other categories. Areas of weakness (in greatest to least order) were: Onboarding, Software Design, Reproducibility, Deployment, Requirements Analysis, and Due Diligence.
 
+### Next Steps
+
+Rating a project allows a team to identify which areas are working well, and which areas may benefit
+from improvement. This allows scarce resources to be concentrated on areas that will result in the best
+return for investement. One approach to improving these practices, and the one recommended by the
+PSIP team, is to create a PTC for the practice area of interest. The PTC can then be used both as a guide and 
+to monitor progress towards improving the practice. The PSIP team has already 
+created template PTCs for most of the practice areas in the poster, and these can be customized to suit the 
+specific needs of a project. PSIP practice guides and the PTC catalog are available from the PSIP web
+site (http://bssw.io/psip).
+
 ### Conclusion
 
-The level of participation was encouraging, and seemed to indicate that this approach was a good
+The level of participation was encouraging and seemed to indicate that this approach was a good
 way of providing an initial baseline on a project's strengths and weaknesses. Another benefit 
 what that the act of simply going through the scoring process helped to start a dialog about practices 
 and about how those practices fit in the larger context of modern, tech-industry established software 
