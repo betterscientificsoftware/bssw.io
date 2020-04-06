@@ -9,42 +9,87 @@ Things to look out for
 
 # Features Most Useful for HPC/CSE Remote Work
 
+* *Partial* means some support for the feature exists.
+* *Maybe* means whether support for the feature exists or not depends on other factors.
+* Footnotes provide links to additional information.
+
 [Feature](#features-we-highlight) | [Zoom](https://www.zoom.us) | [WebEx](https://www.webex.com) | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[1](#gotomeeting-notes)</sup> | [Skype Business](https://www.skype.com/en/)
 --- | --- | --- | --- | --- | --- | ---
-[Test Meeting](#test-meeting) | [Test](https://zoom.us/test) | [Test](https://www.webex.com/test-meeting.html) | [Test](https://bluejeans.com/111/) | [HowTo](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Test](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [HowTo](https://www.businessinsider.com/how-to-test-skype-video)
+[Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
-[Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
+[Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
+[Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://support.webex.com/LocalizedUpgrades/2014/bestpractices/best_practices_for_secure_meetings.pdf)
+[Lock Meeting](#lock-meeting) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/) | [Maybe](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
+[Expel Attendee](#expel-attendee) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/)|[Partial](https://help.webex.com/en-us/WBX30745/How-Do-I-Expel-a-Meeting-Participant)<sup>[1](#webex-notes)</sup>
+[Expel Recovery](#expel-recovery) | [Yes](https://support.zoom.us/hc/en-us/articles/360021851371-Allowing-Removed-Participants-or-Panelists-to-Rejoin) | Yes |
+Encryption | XXX | [Partial](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
+[Privacy](#privacy) | [Poor](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)|
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Connecting**](#-native-app)</td></tr>
+Phone only
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#desktop-native-app)</td></tr>
+Screen Sharing |
+App Sharing |
+Shared Whiteboard |
+Shared Annotations |
+External Integrations |
+Chat |
+Multi-Headed Displays |
+Augmented Reality |
+Recording |
+Green Screen Back|
+not-compatible-with |
+raise hand |
+computer only vs. computer+phone
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Desktop Native App**](#desktop-native-app)</td></tr>
 Windows |[8]/[10h]/[10p] | [8]/[10h]/[10E] | [8]/[10h]
 Linux | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F] | [R]/[F]
 OSX | [&ge;10.7][osx] | [&ge;10.13][osx] | [&ge;10.11][osx]
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Desktop Webclient App**](#laptopdeskside-web-client-compatability) (recommended in bold)</td></tr>
-As presenter | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
-As attendee | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
+Presenters | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
+Attendees | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
 [Install stuff to<br>present/attend](#must-download-to-attend)
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Mobile App**](#laptopdeskside-web-client-compatability)</td></tr>
-Presenter | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
-Attendee | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=6 align="center">**Sharing**</td></tr>
-App Sharing |
-Multi-Headed Displays |
-Screen Sharing |
-App Sharing |
-Shared Whiteboard |
-Shared annotations |
-Augmented Reality |
-Recording |
-Chat |
-Green Screen Back|
-not-compatible-with |
-raise hand |
-computer only vs. computer+phone
+Presenters | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
+Attendees | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
 
 ### Features We Highlight
 
 Various teleconferencing tools have a wide variety of features. This article is
 not meant to cover all of them. Here, we focus only on features likely to be
 relevant to the HPC/CSE community in a work-at-home setting.
+
+## Security
+
+### Best Practices
+
+For each product, there is a collection of *best practices* for ensuring the
+highlest level of security for a meeting.
+
+### Lock Meeting
+
+When a meeting is *locked*, that means it cannot be joined by any other
+participants even with the correct credentials. Participants that leave
+a locked meeting cannot re-join either.
+
+### Expel Attendee
+
+*Expeling* or *removing* an attendee is typically a power that only meeting
+hosts have. It is important for hosts to know how to do this *quickly*. If for
+some reason the meeting is *bombed*, quick action from the host can correct
+the situation before it gets out of hand.
+
+### Expel Recovery
+
+In most products, an attendee is expelled, they cannot ever again rejoin that
+meeting instance. They have to use a wholly different *identity* or email
+address or. So, it is important for hosts to take care when taking the drastic
+action of expelling an attendee. Some products do enable a host to *recover*
+from this situation however allowing an inadvertently expelled attendee to
+rejoin with the same identity.
+
+### Encryption
+
 
 ### Laptop/Deskside Web Client Compatability
 
@@ -75,7 +120,9 @@ re-joined back into the single large meeting.
 
 ### Voting or Polling
 
-This is a feature that allows the host to ask participants a question and have then anonymously vote their responses.
+This is a feature that allows the host to ask participants a question and have
+them anonymously vote their responses. In the absence of this feature, a decent
+work-around is using on-demand [Google forms](https://www.google.com/forms/about/).
 
 ### Screen Sharing
 
@@ -97,10 +144,14 @@ This is similar to but not quite the same thing as *Shared Annotations*. A share
 
 ##### GoToMeeting Notes
 
-[GoToMeeting](https://www.gotomeeting.com) is part of a larger line of products
+* [GoToMeeting](https://www.gotomeeting.com) is part of a larger line of products
 including GoToTraining and GoToWebinar. We consider here only the features in
 the GoToMeeting product. Some features not availabe in GoToMeeting are available
 in these other products.
+
+##### WebEx Notes
+
+* It appears *expelled* attendees may rejoin as long as the meeting is not [*locked*](#lock-meeting).
 
 <!--- Linux Distribution Notes --->
 [U]: https://ubuntu.com/ "Ubuntu"
