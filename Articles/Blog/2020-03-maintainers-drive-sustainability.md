@@ -18,15 +18,11 @@ A maintainer orchestrates the software lifecycle for the project and provides co
 **What is ParFlow?**
 **Par**allel **Flow** (ParFlow) is an application for integrated hydrology modeling that simulates spatially distributed surface and subsurface flow, as well as land surface processes including evapotranspiration and snow (see Figure 1).  
 
-![image alt text](image_1.png)
-
-**Figure 1:** ParFlow has been instrumental in understanding how evapotranspiration depletes groundwater under warming and how large scale groundwater development has influence watershed behavior of the contiguous United States.
+[**Figure 1:** ParFlow has been instrumental in understanding how evapotranspiration depletes groundwater under warming and how large scale groundwater development has influence watershed behavior of the contiguous United States.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_1.png' class='page lightbox' />
 
 ParFlow simulates the hydrologic cycle from the bedrock to the top of the plant canopy, integrates three-dimensional groundwater flow with overland flow and plant processes using physically-based equations to rigorously simulate fluxes of water and energy in complex real-world systems (see Figure 2). 
 
-![image alt text](image_2.png) 
-
-**Figure 2:** ParFlow is used as the foundation for the Continental United States (CONUS) integrated hydrologic modeling capability.
+[**Figure 2:** ParFlow is used as the foundation for the Continental United States (CONUS) integrated hydrologic modeling capability.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_2.png' class='page lightbox' />
 
 ### RISK FACTORS FOR UNSUSTAINABLE CODE
 ParFlow has been in continuous use for scientific discovery since 1992, and several of the current ParFlow developers have been involved with the project since the first equation was written on a white board.  The ParFlow project has undergone long-term development and has been a fertile ground to gain a deep appreciation of the need for solid software engineering practices to improve scientific productivity. 
@@ -61,9 +57,7 @@ With the restart of ParFlow, under the direction of a maintainer, we addressed:
 
 The impact of a maintainer can be seen in the history of commits to the ParFlow repository in figure 1. During the period from spring of 2011 through fall of 2015 ParFlow lost support for a maintainer and the number of commits being made to the main code base dropped dramatically.   When mainter support was reintroduced the repository activity picked up significantly.   Development had not stopped but little effort was made to integrate changes into the main repository and the enhancements were not being made available for the broader community.
 
-![image alt text](image_0.png)
-
-**Figure 3:** History showing number of code commits to ParFlow repository during periods with and without a maintainer
+[**Figure 3:** History showing number of code commits to ParFlow repository during periods with and without a maintainer]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_0.png' class='page lightbox' />
 
 > As hydrologist without formal training in computer science, or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.  **Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona**
       
