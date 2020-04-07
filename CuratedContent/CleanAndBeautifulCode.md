@@ -13,6 +13,8 @@ If you want some practical tips about coding, and enjoy some (salty!) humor and 
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
+#### Publication date: July 20, 2019 
+
 <!---
 Publish: yes
 Categories: development, planning
