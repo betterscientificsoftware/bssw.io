@@ -18,7 +18,7 @@ A maintainer orchestrates the software lifecycle for the project and provides co
 **What is ParFlow?**
 **Par**allel **Flow** (ParFlow) is an application for integrated hydrology modeling that simulates spatially distributed surface and subsurface flow, as well as land surface processes including evapotranspiration and snow (see Figure 1).  
 
-[**Figure 1:** ParFlow has been instrumental in understanding how evapotranspiration depletes groundwater under warming and how large scale groundwater development has influence watershed behavior of the contiguous United States.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_1.png' class='page lightbox' />
+[**Figure 1:** ParFlow has been instrumental in understanding how evapotranspiration depletes groundwater under warming and how large scale groundwater development has influence watershed behavior of the contiguous United States. DOIs: 10.1126/sciadv.aav4574, 10.1038/s41467-020-14688-0 ]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_1.png' class='page lightbox' />
 
 ParFlow simulates the hydrologic cycle from the bedrock to the top of the plant canopy, integrates three-dimensional groundwater flow with overland flow and plant processes using physically-based equations to rigorously simulate fluxes of water and energy in complex real-world systems (see Figure 2). 
 
