@@ -21,6 +21,7 @@ The author has also addressed this topic in a podcast.
 
 #### Contributed by [Greg Watson](https://github.com/jarrah42)
 
+#### Publication date: December 19, 2019
 
 <!---
 Publish: yes
