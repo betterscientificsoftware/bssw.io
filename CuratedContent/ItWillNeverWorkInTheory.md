@@ -14,6 +14,8 @@ This slightly old, but interesting blog, titled *[It Will Never Work in Theory](
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: January 30, 2020
+
 <!---
 Publish: yes
 Categories: Planning
