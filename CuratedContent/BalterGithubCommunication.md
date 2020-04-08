@@ -36,6 +36,8 @@ A team that can come together on a set of communication strategies can experienc
 
 #### Contributed by [Eddie Rusu](http://github.com/rusu24edward)
 
+#### Publication date: October 03, 2019 
+
 <!---
 Publish: yes
 RSS update: 2019-10-03
