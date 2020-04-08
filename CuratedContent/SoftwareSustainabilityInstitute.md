@@ -17,6 +17,8 @@ As per the *SSI* manifesto, the Software Sustainability Institute represents the
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: January 30, 2020
+
 <!---
 Publish: yes
 Categories: Collaboration
