@@ -18,6 +18,8 @@ This *Stack Exchange site* covers computational science in general.  Most of the
 --->
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: July 20, 2019 
+
 <!---
 Publish: yes
 Categories: Collaboration
