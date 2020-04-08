@@ -19,6 +19,8 @@ The PSIP process has been successfully used to help scientific software teams ac
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
+#### Publication date: January 28, 2020
+
 
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
 - [The BSSw.io PSIP page](https://bssw.io/psip)
