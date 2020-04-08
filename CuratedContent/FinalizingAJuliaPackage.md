@@ -14,6 +14,7 @@ There are a number of important details in *finalizing* a Julia package in prepa
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller's GitHub Profile")
 
+#### Publication date: February 28, 2020
 
 <!---
 Publish: yes
