@@ -15,6 +15,8 @@ The elicitation and analysis steps are collectively known as the *sensemaking* p
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
 
+#### Publication date: July 21, 2019
+
 <!---
 Publish: yes
 Categories: Planning
