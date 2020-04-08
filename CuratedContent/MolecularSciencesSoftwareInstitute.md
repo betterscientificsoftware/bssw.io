@@ -9,6 +9,8 @@ The [Molecular Sciences Software Institute](http://molssi.org/) will serve as a 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: July 20, 2017
+
 <!---
 Publish: yes
 Categories: Collabortion
