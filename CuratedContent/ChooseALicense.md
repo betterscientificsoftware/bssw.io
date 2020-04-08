@@ -13,6 +13,8 @@ This *[Choose a License](https://choosealicense.com/)* website walks you though 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: July 20, 2019 
+
 <!---
 Publish: yes
 Categories: collaboration
