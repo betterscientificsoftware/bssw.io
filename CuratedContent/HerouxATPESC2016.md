@@ -12,6 +12,8 @@ This presentation, which was presented at [Argonne Training Program on Extreme-S
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
+#### Publication date: August 06, 2019
+
 <!---
 Publish: yes
 Categories: collaboration, reliability
