@@ -3,6 +3,8 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta Github Profile")
 
+#### Publication date: November 26, 2019
+
 Researchers and scientists are now spending increasing amounts of
 time developing software. But how many of them are actually using
 software engineering practices that can help them write better software?
