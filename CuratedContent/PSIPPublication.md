@@ -16,6 +16,8 @@ This paper is good read for anyone embarking on the PSIP journey with an aim of 
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
+#### Publication date: January 28, 2020
+
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
 - [The BSSw.io PSIP page](https://bssw.io/psip)
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
