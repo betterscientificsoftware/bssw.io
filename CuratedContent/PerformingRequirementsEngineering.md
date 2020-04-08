@@ -48,6 +48,8 @@ Do you like reading on this topic? There is **MORE COMING SOON!**
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
 
+#### Publication date: August 06, 2019
+
 
 <!---
 Publish: yes
