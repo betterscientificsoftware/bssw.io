@@ -68,11 +68,11 @@ All of these practices and tools have made the role of maintainer easier, more d
 <table>
   <tr>
     <td>Official website</td>
-    <td>https://parflow.org</td>
+    <td><https://parflow.org></td>
   </tr>
   <tr>
     <td>Download Site</td>
-    <td>https://github.com/parflow/parflow</td>
+    <td><https://github.com/parflow/parflow></td>
   </tr>
   <tr>
     <td>Systems</td>
