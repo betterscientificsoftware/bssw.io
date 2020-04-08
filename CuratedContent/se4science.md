@@ -14,6 +14,8 @@ Some of the resources included on the site include:
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: July 19, 2019
+
 <!---
 Publish: yes
 Publication date: 2018-11-06
