@@ -20,6 +20,8 @@ Through this podcast, discover the motivations behind PSIP, how to incorporate P
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 
+#### Publication date: January 31, 2020
+
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
 - [The BSSw.io PSIP page](https://bssw.io/psip)
 - [Planning for Better Software: PSIP Tools](https://bssw.io/items/planning-for-better-software-psip-tools)
