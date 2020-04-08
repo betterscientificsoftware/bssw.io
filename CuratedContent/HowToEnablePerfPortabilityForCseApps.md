@@ -12,6 +12,8 @@ Achieving good performance across a range of platforms is an important goal for 
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
+#### Publication date: August 06, 2019
+
 <!---
 Publish: yes
 Categories: performance
