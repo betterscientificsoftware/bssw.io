@@ -17,6 +17,8 @@ Multidisciplinary projects at the SSE, SSI, and S2I2 levels should be submitted 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: June 20, 2017
+
 <!---
 Publish: yes
 Categories: Collaboration
