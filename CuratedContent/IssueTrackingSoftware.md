@@ -68,6 +68,8 @@ With several options now available, software developers have oppurtunities to pi
 
 #### Contributed by [Jean Shuler](https://github.com/JeanShuler "Jean Shuler")
 
+#### Publication date: January 03, 2020
+
 <!---
 Publish: yes
 Categories: Development
