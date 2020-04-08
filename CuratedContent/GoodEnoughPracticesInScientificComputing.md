@@ -3,7 +3,7 @@
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 
-#### Publication date: August 6, 2019
+#### Publication date: August 06, 2019
 
 The *Good Enough Practices in Scientific Computing* article, published in the *PLOS Computational Biology journal* in *June 2017*, explores a set of good computing practices that every researcher can adopt, regardless of their current level of computational skill.
 
