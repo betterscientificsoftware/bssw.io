@@ -19,6 +19,8 @@ The author traces a series of actions that organizations can take, including dir
 
 #### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
 
+#### Publication date: January 03, 2020
+
 <!---
 Publish: yes
 RSS update: 2019-09-13
