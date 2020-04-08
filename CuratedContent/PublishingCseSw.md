@@ -109,6 +109,8 @@ sites which can provide a DOI for your software with little to no review:
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez")
 
+#### Publication date: October 16, 2019
+
 <!---
 Publish: yes
 Categories: Collaboration
