@@ -338,6 +338,8 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
 
+#### Publication date: February 28, 2020
+
 <!---
 Publish: yes
 Categories: skills
