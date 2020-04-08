@@ -6,6 +6,8 @@ A series of software engineering workshops focused on computational science (and
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: May 15, 2019
+
 <!---
 Publish: yes
 Categories: Collaboration
