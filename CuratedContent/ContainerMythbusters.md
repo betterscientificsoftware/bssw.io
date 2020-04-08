@@ -10,6 +10,8 @@ security vulnerabilities and container runtimes for high-performance computing
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
 
+#### Publication date: November 26, 2019
+
 Resource information | Details 
 :--- | :--- 
 Tutorial title  | Container Mythbusters 
