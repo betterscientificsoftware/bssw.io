@@ -12,6 +12,8 @@ Most CSE software needs to be installed from source on a wide variety of machine
 
 #### Contributed by [Jason Sarich](https://github.com/sarich)
 
+#### Publication date: August 06, 2019
+
 <!---
 Publish: yes
 Categories: development
