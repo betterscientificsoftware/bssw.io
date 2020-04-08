@@ -16,6 +16,8 @@ Of particular interest in the BSSw context is section 4 (Multiphysics Software),
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
 
+#### Publication date: February 10, 2020
+
 <!---
 Publish: yes
 Categories: planning, performance
