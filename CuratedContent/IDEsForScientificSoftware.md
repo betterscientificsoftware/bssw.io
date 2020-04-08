@@ -179,7 +179,7 @@ The following tables show which IDEs support important features for scientific c
 
 #### Contributed by [Greg Watson](https://github.com/jarrah42)
 
-#### Publication date: August 6, 2019
+#### Publication date: August 06, 2019
 
 <!---
 Publish: yes
