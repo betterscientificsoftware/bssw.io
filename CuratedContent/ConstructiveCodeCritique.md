@@ -15,6 +15,8 @@ Peer code review is beneficial in helping developers identify and remove faults 
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
+#### Publication date: July 20, 2019
+
 <!---
 Publish: yes
 Categories: Planning
