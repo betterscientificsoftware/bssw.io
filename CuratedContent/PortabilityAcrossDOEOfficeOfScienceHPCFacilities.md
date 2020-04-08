@@ -14,7 +14,7 @@ Achieving good performance across a range of platforms is an important goal for 
 
 #### Contributed by [Tim Williams](https://github.com/zippylab)
 
-#### Publication date: September 6, 2019
+#### Publication date: September 06, 2019
 
 <!---
 Publish: yes
