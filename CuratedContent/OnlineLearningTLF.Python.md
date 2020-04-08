@@ -16,6 +16,8 @@ Sign up to try your hand at training with others on "real code challenges."
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Github Profile") and [Steve Hudson](https://github.com/shuds13 "Steve Hudson Github Profile")
 
+#### Publication Date: July 29, 2019
+
 <!---
 Publish: yes
 Categories: skills, development
