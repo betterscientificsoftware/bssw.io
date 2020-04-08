@@ -31,7 +31,7 @@ ParFlow has been in continuous use for scientific discovery since 1992, and seve
 
 **New capabilities prioritized over good software development.** In addition to necessary ongoing maintenance, most research codes are never "done."    Even when there wasn't funding targeted for ParFlow development, new capabilities were being created by projects using ParFlow; but the development was done in an ad hoc manner.  Lack of software development processes led to the code base becoming splintered across organizations; no one bothered to run the existing regression tests,  bugs went unfixed, and users found conflicting hacks for building on current operating systems.   
 
-**Intermittent funding for development and maintenance of the software.** A key lesson that we have learned from observing the development and evolution of ParFlow has been the need to have one or more identified maintainers to keep the software in a running and usable state.   Looking back at the on/off cycle of funding cycle, we have observed several recurring patterns of failure when there are no maintainers.   
+**Intermittent funding for development and maintenance of the software.** A key lesson that we have learned from observing the development and evolution of ParFlow has been the need to have one or more identified maintainers to keep the software in a running and usable state.   Looking back at the on/off cycle of funding, we have observed several recurring patterns of failure when there are no maintainers.   
 
 ### Warning Signs Your Code Is Becoming Unsustainable
 
