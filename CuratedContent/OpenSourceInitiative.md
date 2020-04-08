@@ -14,6 +14,8 @@ The *[Open Source Initiative](https://opensource.org/) (OSI)* are the stewards o
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: January 30, 2020
+
 <!---
 Publish: yes
 Categories: collaboration
