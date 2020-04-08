@@ -23,6 +23,8 @@ Fellows are drawn from a wide range of areas, experience, and career stages.
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold)
 
+#### Publication date: January 30, 2020
+
 <!---
 Publish: yes
 Categories: Collaboration
