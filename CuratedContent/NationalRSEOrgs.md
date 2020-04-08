@@ -19,6 +19,8 @@ Since the inception of the RSE movement in 2014, several organizations and assoc
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
+#### Publication date: April 05, 2020
+
 <!---
 Publish: yes
 Categories: collaboration
