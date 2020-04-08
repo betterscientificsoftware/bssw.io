@@ -4,6 +4,8 @@ Git is one of the most widely used version control systems. This article explore
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
+#### Publication date: July 21, 2019
+
 
 Resource information | Details
 :--- | :--- 
