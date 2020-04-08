@@ -28,6 +28,8 @@ Sponsored by the U. S. Dept. of Energy
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: February 13, 2020
+
 <!---
 Publish: yes
 Categories: Collaboration
