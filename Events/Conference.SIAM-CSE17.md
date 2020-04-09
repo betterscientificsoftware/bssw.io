@@ -56,6 +56,8 @@ In this presentation we discuss elements that impact the effectiveness of CSE ef
 - Presentation URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62113
 - Slides for presentation: https://doi.org/10.6084/m9.figshare.4728697
 
+#### Publication date: February 27, 2017 - March 03, 2017
+
 <!---
 Publish: yes
 Categories: collaboration, skills, reliability
