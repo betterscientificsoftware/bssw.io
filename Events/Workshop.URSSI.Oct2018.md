@@ -13,6 +13,8 @@ Participation is welcome from anyone interested in issues and challenges facing 
 
 #### Contributed by [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
+#### Publication date: October 23, 2018 - October 24, 2018
+
 <!---
 Publish: Yes
 RSS update: 2018-08-31
