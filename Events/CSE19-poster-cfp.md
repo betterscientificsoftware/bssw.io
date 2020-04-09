@@ -27,6 +27,8 @@ Best regards, David (on behalf of Mike, Catherine, Dan, and Lois)
 
 Software is the key crosscutting technology that enables advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields.  While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community.  The presenters in this minisymposterium will address work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby helps software fulfill its critical role as a cornerstone of long-term CSE collaboration. Having a minisymposterium for these topics provides a natural gathering point during poster sessions for informal conversation.
 
+#### Publication date: August 23, 2018
+
 
 <!---
 Publish: yes
