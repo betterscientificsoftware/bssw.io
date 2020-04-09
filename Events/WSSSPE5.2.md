@@ -17,6 +17,8 @@ WSSSPE5.2 is held in conjuction with the [2017 IEEE International Conference on 
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
+#### Publication date: October 24, 2017
+
 <!---
 Publish: yes
 Categories: development, collaboration
