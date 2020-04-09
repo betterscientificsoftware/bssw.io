@@ -93,6 +93,8 @@ Sciences.</p>
 
 #### Contributed by Matthias Bussonnier, Suhas Somnath,  and Shreyas Cholia
 
+#### Publication date: February 28, 2018
+
 <!---
 Publish: yes
 Categories: skills
