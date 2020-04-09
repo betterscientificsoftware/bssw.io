@@ -9,6 +9,8 @@ This workshop brings together members of the software engineering and scientific
 
 **Description:** Software is developed and used in a wide variety of scientific domains including nuclear physics, computational chemistry, satellite data processing, fluid dynamics, climate modeling, bioinformatics, vehicle development, population modeling and social simulation, sensor networks, drug discovery, and digital humanities. The increase in the importance of this software motivates the need to identify and understand appropriate software engineering (SE) practices for its development. Because of the variety and complexity of the scientific domains addressed software, existing SE tools and techniques developed for the business/IT community are often not efficient or effective. Appropriate SE solutions must account for the salient characteristics of the research-oriented development environment. This situation creates a need for members of the SE community to interact with members of the scientific software community to address this need. This workshop facilitates that collaboration by bringing together members of the SE, and scientific software communities to share perspectives and present findings relevant to research, practice, and education. A significant portion of the workshop is devoted to focused interaction among the participants with the goal of generating a research agenda to improve tools, techniques, and experimental methods regarding SE for science.
 
+#### Publication date: May 22, 2017
+
 <!---
 Publish: yes
 Categories: development, collaboration
