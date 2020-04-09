@@ -19,7 +19,7 @@ https://universityofalabama.az1.qualtrics.com/jfe/form/SV_bBdeMr08ix8YbXL
 
 #### Contributed by [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile")
 
-#### Publication date:  October 17, 2018
+#### Publication date: October 01, 2018 - December 31, 2018
 
 <!---
 Publish: yes
