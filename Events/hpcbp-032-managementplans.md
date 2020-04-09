@@ -90,6 +90,8 @@ unconference inspired format.</p>
 
 #### Contributed by Shoaib Sufi
 
+#### Publication date: August 14, 2019
+
 <!---
 Publish: yes
 Categories: skills
