@@ -24,6 +24,8 @@ The goals of this workshop are to:
 
 #### Contributed by [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile")
 
+#### Publication date: May 28, 2019
+
 <!---
 Publish: yes
 RSS update: 2018-12-19
