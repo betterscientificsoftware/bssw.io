@@ -104,6 +104,8 @@ Science Applications Program (NESAP).
 
 #### Contributed by John Pennycook, Charlene Yang,  and Jack Deslippe
 
+#### Publication date: January 23, 2019
+
 <!---
 Publish: yes
 Categories: skills
