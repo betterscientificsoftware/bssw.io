@@ -81,6 +81,8 @@ Science Applications Program (NESAP).
 
 #### Contributed by Jack Deslippe
 
+#### Publication date: August 09, 2016
+
 <!---
 Publish: yes
 Categories: skills
