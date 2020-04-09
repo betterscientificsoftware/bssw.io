@@ -75,6 +75,8 @@ advocates of high-quality scientific software.</p>
 
 #### Contributed by Andrew Lumsdaine
 
+#### Publication date: June 12, 2019
+
 <!---
 Publish: yes
 Categories: skills
