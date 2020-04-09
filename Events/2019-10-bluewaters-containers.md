@@ -25,7 +25,7 @@ Scott McMillan is a Senior Solutions Architect at NVIDIA where he works on high 
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
-#### Publication date: October 16, 2019
+#### Publication date: November 14, 2017
 
 <!---
 Publish: yes
