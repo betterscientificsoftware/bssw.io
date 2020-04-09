@@ -40,6 +40,8 @@ Rene Gassmoeller is from UC Davis.
 ### More information and registration link:
 <https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>
 
+#### Publication date: September 11, 2019
+
 
 
 <!---
