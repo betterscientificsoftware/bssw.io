@@ -80,6 +80,8 @@ the University of Central Florida. Elaine is a member of IDEAS-ECP.</p>
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
 
+#### Publication date: May 09, 2018
+
 <!---
 Publish: yes
 Categories: skills
