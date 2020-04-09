@@ -33,6 +33,8 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 
 #### Contributed by [David Richards](https://github.com/richards12 "David Richards GitHub profile"),  and Joe Glenski
 
+#### Publication date: April 15, 2020
+
 <!---
 Publish: yes
 Categories: skills
