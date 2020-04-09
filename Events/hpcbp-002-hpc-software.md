@@ -63,6 +63,8 @@ community).</p>
 
 #### Contributed by [Barry Smith](https://github.com/BarrySmith "Barry Smith GitHub profile")
 
+#### Publication date: May 18, 2016
+
 <!---
 Publish: yes
 Categories: skills
