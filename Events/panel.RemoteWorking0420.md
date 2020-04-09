@@ -45,6 +45,8 @@ Elaine Raybourn is a social scientist who has worked remotely for a combined tot
 
 #### Contributed by [Mike Bernhardt](https://github.com/mikeb650 "Mike Bernhardt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile"), [Kathryn Mohror](https://github.com/kathrynmohror "Kathryn Mohror GitHub Profile"), and [Elaine M. Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile") 
 
+#### Publication date: April 03, 2020
+
 <!---
 Publish: yes
 RSS update: 2020-03-31
