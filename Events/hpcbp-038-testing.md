@@ -32,6 +32,8 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 
 #### Contributed by [Balint Joo](https://github.com/bjoo "Balint Joo GitHub profile")
 
+#### Publication date: March 18, 2020
+
 <!---
 Publish: yes
 Categories: skills
