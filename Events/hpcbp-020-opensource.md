@@ -70,6 +70,8 @@ things better than you found them.”</p>
 
 #### Contributed by Ian Lee
 
+#### Publication date: July 18, 2018
+
 <!---
 Publish: yes
 Categories: skills
