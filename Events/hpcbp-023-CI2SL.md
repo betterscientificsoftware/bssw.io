@@ -89,6 +89,8 @@ the computational sciences.</p>
 
 #### Contributed by Daniel Smith,  and Ben Pritchard
 
+#### Publication date: October 17, 2018
+
 <!---
 Publish: yes
 Categories: skills
