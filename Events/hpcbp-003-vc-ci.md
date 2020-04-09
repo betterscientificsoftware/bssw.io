@@ -63,6 +63,8 @@ changes will not break existing code.</p>
 
 #### Contributed by Jeff Johnson
 
+#### Publication date: June 02, 2016
+
 <!---
 Publish: yes
 Categories: skills
