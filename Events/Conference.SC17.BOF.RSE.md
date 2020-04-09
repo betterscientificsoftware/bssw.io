@@ -9,6 +9,9 @@ This is a Birds of a Feather (BOF) session at the SC17 conference.
 **Description:**  Many people in research organizations around the world combine expertise in programming with an intricate understanding of research. Although this combination of skills is extremely valuable, these people often lack a formal career path, particularly in the academic system. There is no easy way to recognise their contributions, reward them, or represent their views.
 
 In the UK (and increasingly in Europe), the term Research Software Engineer is used to describe this important role, while the US does not have a single term. This BoF aims to raise awareness of the role and bring the community together to address challenges.
+
+#### Publication date: October 16, 2019
+
 <!---
 Publish: yes
 Categories: development, Collaboration
