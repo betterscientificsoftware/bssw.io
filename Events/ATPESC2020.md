@@ -25,6 +25,8 @@ Renowned scientists and leading HPC experts will serve as lecturers and guide th
 * Software productivity and sustainability
 * Machine learning and deep learning for science
 
+#### Publication date: March 02, 2020
+
 <!---
 Publish: yes
 Categories: skills, performance 
