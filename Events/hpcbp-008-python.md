@@ -90,6 +90,8 @@ particle-antiparticle oscillations.</p>
 
 #### Contributed by Rollin Thomas, William Scullin,  and Matt Belhorn
 
+#### Publication date: June 07, 2017
+
 <!---
 Publish: yes
 Categories: skills
