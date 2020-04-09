@@ -68,6 +68,8 @@ conduct biological research that can easily be shared and reproduced.</p>
 
 #### Contributed by Shane Canon
 
+#### Publication date: February 13, 2019
+
 <!---
 Publish: yes
 Categories: skills
