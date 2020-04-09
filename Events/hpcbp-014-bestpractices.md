@@ -72,6 +72,8 @@ programming models.</p>
 
 #### Contributed by Charles R. Ferenbaugh
 
+#### Publication date: January 17, 2018
+
 <!---
 Publish: yes
 Categories: skills
