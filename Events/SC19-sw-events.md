@@ -33,6 +33,8 @@ Friday<br>10:30am-12:00pm | Panel | [The Road to Exascale and Beyond is Paved by
 <!--- Note that the Contributed by tag is ignored for events.  Use Organizers in the list structure immediately following the title ---> 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile") and [Sandra Gessing](https://github.com/sandragesing "Sandra Gessing GitHub Profile")
 
+#### Publication date: November 11, 2018 - November 16, 2018
+
 <!---
 Publish: yes
 RSS update: 2019-09-26
