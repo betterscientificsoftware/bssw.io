@@ -75,6 +75,8 @@ Python’s logging package).</p>
 
 #### Contributed by Thomas Clune
 
+#### Publication date: April 10, 2019
+
 <!---
 Publish: yes
 Categories: skills
