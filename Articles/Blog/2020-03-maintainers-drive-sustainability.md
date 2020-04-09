@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://exascaleproject.org/wp-content/uploads/2020/01/computing-abstraction.jpg'/>
+  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0420_Map.jpg' />[The debut of Better Scientific Software.]
 
 #### Contributed by [Steven Smith](https://github.com/smithsg84 "Steven Smith GitHub Profile")
 
