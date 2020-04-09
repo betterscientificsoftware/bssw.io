@@ -19,6 +19,8 @@ The HPC Best Practices (HPC-BP) webinars address issues faced by developers of c
 ### Description: 
 In recent years scientific software projects have increasingly incorporated state-of-the-art technical best practices like continuous integration into their development cycle. However, many projects still struggle to create and maintain an active and welcoming user/developer community, and there exists little documentation on what makes a scientific software community successful. In this webinar I will introduce my work — as a Better Scientific Software Fellow — to collect typical social challenges and potential solutions that arise during the evolution of a scientific software project. Aimed at current and prospective software maintainers and community leaders, I will discuss topics such as building and maintaining a welcoming community atmosphere, overcoming skepticism of sharing science and software, mediating between users working on conflicting topics or publications, and providing credit and growth opportunities for community members. Finally, I hope to initiate a conversation among project and community leaders about what makes communities successful so that we can learn from each other and improve scientific software development together.
 
+#### Publication date: September 11, 2019
+
 
 <!---
 Publish: no
