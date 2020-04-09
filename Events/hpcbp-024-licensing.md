@@ -68,6 +68,8 @@ environments for scientific computing, broadly interpreted.</p>
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
+#### Publication date: December 05, 2018
+
 <!---
 Publish: yes
 Categories: skills
