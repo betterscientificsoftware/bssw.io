@@ -15,6 +15,8 @@ MS18 - Bringing Scientific Applications Written in Fortran to the Exascale Era: 
 - Thursday — Poster — [CSM09 – Helping You Improve Software Sustainability and Development Productivity: An Overview of the IDEAS Project](https://pasc19.pasc-conference.org/program/schedule/presentation/?id=post134&sess=sess179)
 - Friday — Minisymposium — [MS55 – Towards Sustainable Scientific Software through Better Engineering, Development, Documentation, Publication and Curation](https://pasc19.pasc-conference.org/program/schedule/session/?sess=sess155)
 
+#### Publication date: June 12, 2019 - June 14, 2019
+
 <!---
 Publish: yes
 Categories: development, collaboration
