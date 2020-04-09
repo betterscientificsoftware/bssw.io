@@ -74,6 +74,8 @@ passion for technology through history.</p>
 
 #### Contributed by [Mark Miller](https://github.com/markcmiller86 "Mark Miller GitHub profile")
 
+#### Publication date: July 17, 2019
+
 <!---
 Publish: yes
 Categories: skills
