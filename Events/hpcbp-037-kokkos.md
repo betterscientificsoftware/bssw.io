@@ -32,6 +32,8 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 
 #### Contributed by [Christian Trott](https://github.com/crtrott "Christian Trott GitHub profile")
 
+#### Publication date: February 19, 2020
+
 <!---
 Publish: yes
 Categories: skills
