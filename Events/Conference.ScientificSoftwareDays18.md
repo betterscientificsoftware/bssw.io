@@ -11,6 +11,8 @@ This event focuses on sharing best practices, tools, and technologies among scie
 - Share best practices among scientific software communities.
 - Share the latest tools and technology relevant to scientific software.
 
+#### Publication date: April 26, 2018 - April 27, 2018
+
 <!---
 Publish: yes
 Categories: development
