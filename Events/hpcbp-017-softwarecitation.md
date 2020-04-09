@@ -77,6 +77,8 @@ funding to leaders and advocates of high-quality scientific software.</p>
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub profile")
 
+#### Publication date: April 18, 2018
+
 <!---
 Publish: yes
 Categories: skills
