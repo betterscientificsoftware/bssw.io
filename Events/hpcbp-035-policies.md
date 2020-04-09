@@ -83,6 +83,8 @@ to world-class software on exascale machines.</p>
 
 #### Contributed by [Ulrike Meier Yang](https://github.com/ulrikeyang "Ulrike Meier Yang GitHub profile"),  and [Piotr Luszczek](https://github.com/luszczek "Piotr Luszczek GitHub profile")
 
+#### Publication date: December 11, 2019
+
 <!---
 Publish: yes
 Categories: skills
