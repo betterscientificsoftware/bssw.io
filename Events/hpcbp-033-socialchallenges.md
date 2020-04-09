@@ -77,6 +77,8 @@ cooperation with the German Research Centre for Geosciences.</p>
 
 #### Contributed by [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub profile")
 
+#### Publication date: September 11, 2019
+
 <!---
 Publish: yes
 Categories: skills
