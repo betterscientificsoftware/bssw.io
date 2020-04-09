@@ -83,6 +83,8 @@ physics.</p>
 
 #### Contributed by Sam Williams,  and Tuomas Koskela
 
+#### Publication date: August 16, 2017
+
 <!---
 Publish: yes
 Categories: skills
