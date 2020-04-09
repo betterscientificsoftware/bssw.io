@@ -29,6 +29,8 @@ Todd has been at LLNL since 2008. He received the Early Career Research Award fr
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
+#### Publication date: October 30, 2019
+
 <!---
 Publish: yes
 RSS update: 2019-10-13
