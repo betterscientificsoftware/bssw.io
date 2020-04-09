@@ -31,6 +31,8 @@ Friday<br>8:30am-9:15am | Workshop Keynote W | Understanding Software Sustainabi
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
+#### Publication date: November 11, 2018 - November 16, 2018
+
 <!---
 Publish: yes
 RSS update: 2018-10-25
