@@ -68,6 +68,8 @@ Below, are some of the webinars which have been referenced elsewhere on the Bett
 - [Bringing Best Practices to a Long-Lived Production Code](../CuratedContent/Webinar.HPCBP014BestPractices.md)
 --->
 
+#### Publication date: February 28, 2020
+
 <!---
 Publish: no
 RSS update: 2018-08-31
