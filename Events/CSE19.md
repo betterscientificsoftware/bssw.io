@@ -13,6 +13,8 @@ The SIAM Conference on Computational Science and Engineering is a large and well
 - Minisymposterium: Software Productivity and Sustainability for CSE and Data Science [session [PP103](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=66366)]
 - Minisymposium: Software Productivity and Sustainability for CSE and Data Science [sessions [MS338](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=65942) and [MS371](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=65943)]
 
+#### Publication date: February 25, 2019 - March 01, 2019
+
 <!---
 Publish: yes
 RSS update: 2019-01-31
