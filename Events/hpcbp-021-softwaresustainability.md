@@ -72,6 +72,8 @@ of software as a research object.</p>
 
 #### Contributed by [Neil Chue Hong](https://github.com/npch "Neil Chue Hong GitHub profile")
 
+#### Publication date: August 21, 2018
+
 <!---
 Publish: yes
 Categories: skills
