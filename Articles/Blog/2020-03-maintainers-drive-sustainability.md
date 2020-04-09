@@ -6,16 +6,16 @@
 
 #### Contributed by [Steven Smith](https://github.com/smithsg84 "Steven Smith GitHub Profile")
 
-#### Publication date: TBD
+#### Publication date: April 10, 2020
 
 A scientific research code often begins with a domain scientist, interested in solving a science question, developing a code and single-handedly serving the roles of user, developer, reviewer, and maintainer - an approach that is manageable when there is only one user (or a few).  Over time, as the code gets shared, used, and trusted, it’s natural to see the community of contributing developers and users grow; and we assume one of the developers will work the dual role of maintainer to ensure that the code remains a trustworthy and user-friendly scientific tool.  This situaton does not always occur, however,  and assuming a developer will be available to fill that dual role could  be detrimental to our scientific results and to the long-term sustainability of the code.       
 
 Any scientific code without at least one maintainer is at risk of being labeled untrustworthy and losing its community of users.  This blog describes, through the code development history of ParFlow, common risk factors faced by scientific applications that can lead to an unsustainable code, warning signs that the code is becoming unsustainable, and the effort required by the maintainer to instill and enforce good software development practices to transform a code into a production code with a sustainable future. 
 
-**What Is a Maintainer?**
+### What Is a Maintainer?
 A maintainer orchestrates the software lifecycle for the project and provides continuity across the community of developers and the software itself.   The work maintainers perform includes reviewing and integrating ongoing development (or delegating to other trusted developers), ensuring that project standards for coding practices and documentation are met, ensuring that testing is being done and bugs are fixed in a timely manner, publishing trusted releases for users, and supporting issue trackers to track bug reports and feature requests from users.
 
-**What Is ParFlow?**
+### What Is ParFlow?
 **Par**allel **Flow** (ParFlow) is an application for integrated hydrology modeling that simulates spatially distributed surface and subsurface flow, as well as land surface processes including evapotranspiration and snow (see Figure 1).  
 
 [Figure 1: ParFlow has been instrumental in understanding how evapotranspiration depletes groundwater under warming and how large-scale groundwater development has influenced watershed behavior of the contiguous United States. DOIs: 10.1126/sciadv.aav4574, 10.1038/s41467-020-14688-0.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_1.png' class='page lightbox' />
@@ -59,12 +59,13 @@ The impact of a maintainer can be seen in the history of commits to the ParFlow 
 
 [Figure 3: History showing number of code commits to ParFlow repository during periods with and without a maintainer]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_0.png' class='page lightbox' />
 
-> As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.  **Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona**
+> As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.
+>
+> — *Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona*
       
 All of these practices and tools have made the role of maintainer easier, more distributed, more automated, and more sustainable with limited budgets.  Will ParFlow be around in another 25 years?  We have no idea, but then no-one is more surprised at ParFlow’s longevity than the original developers.   You never know where a project might take you when you start.
 
-**More about ParFlow:**
-
+### More about ParFlow
 <table>
   <tr>
     <td>Official website</td>
