@@ -148,6 +148,8 @@ Development Kit (xSDK).</p>
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile"),  and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile")
 
+#### Publication date: December 06, 2017
+
 <!---
 Publish: yes
 Categories: skills
