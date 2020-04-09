@@ -78,6 +78,8 @@ Group, and project leader of the Eclipse Science Top Level Project.</p>
 
 #### Contributed by [Greg Watson](https://github.com/jarrah42 "Greg Watson GitHub profile")
 
+#### Publication date: March 28, 2018
+
 <!---
 Publish: yes
 Categories: skills
