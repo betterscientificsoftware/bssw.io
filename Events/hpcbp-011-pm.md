@@ -138,6 +138,8 @@ productivity and sustainability.</p>
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile")
 
+#### Publication date: September 13, 2017
+
 <!---
 Publish: yes
 Categories: skills
