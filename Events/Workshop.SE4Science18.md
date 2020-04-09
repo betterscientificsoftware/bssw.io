@@ -17,6 +17,8 @@ The goals of this workshop are to:
 - Support the building of a common research agenda to address the complex software development issues typical of research software.
 - Provide a venue for sharing early work and work-in-progress to obtain feedback from the wider community.
 
+#### Publication date: June 02, 2018
+
 <!---
 Publish: yes
 Categories: development, collaboration
