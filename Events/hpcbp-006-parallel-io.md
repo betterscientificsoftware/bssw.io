@@ -71,6 +71,8 @@ senior member of IEEE.</p>
 
 #### Contributed by Feiyi Wang
 
+#### Publication date: July 28, 2016
+
 <!---
 Publish: yes
 Categories: skills
