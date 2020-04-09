@@ -78,6 +78,8 @@ software.</p>
 
 #### Contributed by Ignacio Laguna
 
+#### Publication date: October 16, 2019
+
 <!---
 Publish: yes
 Categories: skills
