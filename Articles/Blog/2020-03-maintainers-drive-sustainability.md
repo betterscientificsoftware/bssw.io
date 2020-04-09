@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0420_Map.jpg' />[The debut of Better Scientific Software.]
+  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0420_Map.jpg' />[A hydrologic model of the contiguous United States (CONUS) overlaid with stream gauge locations. DOI: 10.1016/j.cageo.2019.01.020.]
 
 #### Contributed by [Steven Smith](https://github.com/smithsg84 "Steven Smith GitHub Profile")
 
