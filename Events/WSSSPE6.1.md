@@ -14,6 +14,8 @@ WSSSPE6.1 aims to facilitate the creation of a regional community focused on sus
 
 WSSSPE6.1 is held in conjuction with the [2018 IEEE International Conference on eScience](https://www.escience2018.com).
 
+#### Publication date: October 29, 2018
+
 <!---
 Publish: yes
 Categories: development, collaboration
