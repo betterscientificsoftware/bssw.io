@@ -81,6 +81,8 @@ Modular Reactors (ExaSMR) Exascale Application Project (ECP).</p>
 
 #### Contributed by [Tom Evans](https://github.com/tmdelellis "Tom Evans GitHub profile")
 
+#### Publication date: November 01, 2017
+
 <!---
 Publish: yes
 Categories: skills
