@@ -60,6 +60,8 @@ the available resources of the development team.</p>
 
 #### Contributed by [Alicia Klinvex](https://github.com/amklinv "Alicia Klinvex GitHub profile")
 
+#### Publication date: May 15, 2016
+
 <!---
 Publish: yes
 Categories: skills
