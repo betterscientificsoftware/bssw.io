@@ -71,6 +71,8 @@ University of Maryland Baltimore County (1995).</p>
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett GitHub profile")
 
+#### Publication date: July 12, 2017
+
 <!---
 Publish: yes
 Categories: skills
