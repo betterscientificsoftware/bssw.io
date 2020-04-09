@@ -68,6 +68,8 @@ scales.</p>
 
 #### Contributed by Quincy Koziol
 
+#### Publication date: March 13, 2019
+
 <!---
 Publish: yes
 Categories: skills
