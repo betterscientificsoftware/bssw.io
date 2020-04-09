@@ -59,6 +59,8 @@ how that impacts their use.</p>
 
 #### Contributed by Katherine Riley
 
+#### Publication date: July 14, 2016
+
 <!---
 Publish: yes
 Categories: skills
