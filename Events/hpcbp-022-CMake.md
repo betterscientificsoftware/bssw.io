@@ -73,6 +73,8 @@ and ParaView projects.</p>
 
 #### Contributed by Bill Hoffman
 
+#### Publication date: September 19, 2018
+
 <!---
 Publish: yes
 Categories: skills
