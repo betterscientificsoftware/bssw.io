@@ -25,6 +25,8 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 * Data analysis, visualization, and methodologies and tools for Big Data applications
 * Approaches to building community codes for HPC systems
 
+#### Publication date: March 04, 2019
+
 <!---
 Publish: yes
 Categories: skills, performance 
