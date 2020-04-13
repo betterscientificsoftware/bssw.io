@@ -77,40 +77,7 @@ The impact of a maintainer can be seen in the history of commits to the ParFlow 
 *As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.*
 — Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona
       
-All of these practices and tools have made the role of maintainer easier, more distributed, more automated, and more sustainable with limited budgets.  Will ParFlow be around in another 25 years?  We have no idea, but then no-one is more surprised at ParFlow’s longevity than the original developers.   You never know where a project might take you when you start.
-
-### More about ParFlow
-<table>
-  <tr>
-    <td>Official website</td>
-    <td><https://parflow.org></td>
-  </tr>
-  <tr>
-    <td>Download Site</td>
-    <td><https://github.com/parflow/parflow></td>
-  </tr>
-  <tr>
-    <td>Systems</td>
-    <td>Laptops to supercomputers</td>
-  </tr>
-  <tr>
-    <td>License Model</td>
-    <td>Open Source:  GNU Lesser General Public License</td>
-  </tr>
-  <tr>
-    <td># of Users</td>
-    <td>small but growing international user community</td>
-  </tr>
-  <tr>
-    <td># of Publications</td>
-    <td>>100 reported to date:  ParFlow has been used on large scale studies covering the continental US and Continental Europe.</td>
-  </tr>
-  <tr>
-    <td>Timeline</td>
-    <td>Created in 1992, First publication in 1993<br>
-2015 - IDEAS-Classic provides stable funding for a maintainer</td>
-  </tr>
-</table>
+All of these practices and tools have made the role of maintainer easier, more distributed, more automated, and more sustainable with limited budgets. Will ParFlow be around in another 25 years?  We have no idea, but then no-one is more surprised at ParFlow’s longevity than the original developers. You never know where a project might take you when you start.
 
 <br>
 
