@@ -332,6 +332,10 @@ the GoToMeeting product. Some features not availabe in GoToMeeting are available
 in these other products.
 * (b) GoToMeeting offers a 14-day free trial.
 
+## Other products not considered here
+
+https://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software
+
 
 <!--- join option notes --->
 [A]: https://www.google.com "audio-only Phone call (cell/voip/landline)"
