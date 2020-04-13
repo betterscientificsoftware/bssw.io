@@ -38,7 +38,9 @@ The experiences of ParFlow’s development team match an [earlier BSSw blog on c
 
 In addition to necessary ongoing maintenance, most research codes are never "done."    Even when there wasn't funding targeted for ParFlow development, new capabilities were being created by projects using ParFlow; but the development was done in an ad hoc manner.  Lack of software development processes led to the code base becoming splintered across organizations; no one bothered to run the existing regression tests,  bugs went unfixed, and users found conflicting hacks for building on current operating systems.   
 
-**Intermittent funding for development and maintenance of the software.** A key lesson that we have learned from observing the development and evolution of ParFlow has been the need to have one or more identified maintainers to keep the software in a running and usable state.   Looking back at the on/off cycle of funding, we have observed several recurring patterns of failure when there are no maintainers.   
+#### Intermittent funding for development and maintenance of the software
+
+A key lesson that we have learned from observing the development and evolution of ParFlow has been the need to have one or more identified maintainers to keep the software in a running and usable state.   Looking back at the on/off cycle of funding, we have observed several recurring patterns of failure when there are no maintainers.   
 
 ### Warning Signs Your Code Is Becoming Unsustainable
 
@@ -74,7 +76,7 @@ The impact of a maintainer can be seen in the history of commits to the ParFlow 
 
 <br>
 
-*As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.*
+*As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.*<br>
 — Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona
       
 All of these practices and tools have made the role of maintainer easier, more distributed, more automated, and more sustainable with limited budgets. Will ParFlow be around in another 25 years?  We have no idea, but then no-one is more surprised at ParFlow’s longevity than the original developers. You never know where a project might take you when you start.
