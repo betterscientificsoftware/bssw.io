@@ -40,43 +40,44 @@ In the table below...
    * <sup>Y</sup>Indicates a feature can vary depending on your organization's configuration.
 * Abbreviations have balloon hints which are revealed by hovering the mouse over them.
 
-Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[1a](#webex-notes)</sup> | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[1a](#gotomeeting-notes)</sup> | [Skype Business](https://www.skype.com/en/)
+Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[a](#gotomeeting-notes)</sup> | [Skype Business](https://www.skype.com/en/)
 --- | --- | --- | --- | --- | --- | ---
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
-[Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) | xxx | xxx | [Partial](https://www.gotomeeting.com/try)<sup>[1b](#gotomeeting-notes)</sup>
+[Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) | xxx | xxx | [Partial](https://www.gotomeeting.com/try)<sup>[b](#gotomeeting-notes)</sup>
 [Plan Pricing](#plan-pricing)<br>$/mo/host | 0/15/20 | 0/15/20/30 | xxx | xxx | 12/16
-[Size Limit](#meeting-size-limits) | 100-1000<sup>[1a](#zoom-notes)</sup> | 50-200<sup>[1c](#webex-notes)</sup> | xxx | xxx | 150/250
-[Supported Devices](#supported-devices) | XXX | [A]/[W]/[M]/[C]/[VCS] | [A]/[W]/[M]/[C]/[VCS] |
-[No Install](#no-install-option)<br>Option
+[Size Limit](#meeting-size-limits) | 100-1000<sup>[a](#zoom-notes)</sup> | 50-200<sup>[b](#webex-notes),[c](#webex-notes)</sup> | xxx | xxx | 150/250
+[Join Device](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System) | [A]/[W]/[M]/[L]/[VCS] |
+[No Install](#no-install-option)<br>Option | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[c](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[e](#webex-notes)</sup>
 [HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support)
 [Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
-[Free Dial-in option](#free-dial-in-option) | XXX | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
+[Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#content-sharing)</td></tr>
 [Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting) |
-[App Sharing](#app-sharing) | XXX | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
+[App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
 [Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
-[Shared Annotations](#shared-annotations)  | XXX | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
-[Smart chat](#smart-chat)
+[Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
+[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[d](#zoom-notes)</sup>
 [Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
-[File Sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
+[File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [External Integrations](#external-integrations) |
-Recording |
+Recording (local/cloud)|
 Live Streaming |
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Software Compatibility**](#desktop-native-app) (hover for details)</td></tr>
+Remote control |
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#desktop-native-app) (hover for details, **recommended in bold**)</td></tr>
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E] | [8]/[10h]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F] | [R]/[F]
 macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx] | [&ge;10.11][osx]
-Presenter's Browser | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
-Attendee's Browser | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
-Presenter's Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
-Attendee's Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
+Presenter Browser | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
+Attendee Browser | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
+Presenter Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
+Attendee Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
-[Recent Issues](#recent-issue) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)
+[Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)
 [Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://help.webex.com/en-us/8zi8tq/Cisco-Webex-Best-Practices-for-Secure-Meetings-Hosts)
 [Lock Meeting](#lock-meeting) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/) | [Maybe](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
-[Expel Attendee](#expel-attendee) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/)|[Partial](https://help.webex.com/en-us/WBX30745/How-Do-I-Expel-a-Meeting-Participant)<sup>[1d](#webex-notes)</sup>
+[Expel Attendee](#expel-attendee) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/)|[Partial](https://help.webex.com/en-us/WBX30745/How-Do-I-Expel-a-Meeting-Participant)<sup>[d](#webex-notes)</sup>
 [Expel Recovery](#expel-recovery) | [Yes](https://support.zoom.us/hc/en-us/articles/360021851371-Allowing-Removed-Participants-or-Panelists-to-Rejoin) | Yes |
-Encryption | XXX | [Partial](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
+Encryption | [Partial](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) | [Partial](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
 [Privacy](#privacy) | [Poor](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)|
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Advanced Features**</td></tr>
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
@@ -86,6 +87,14 @@ Calendar integration
 Speaker tracking
 Gallery view
 Virtual backgrounds
+Multi-presenter
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
+Mute all<br>
+Audio/Video
+Force join muted
+Disable notification sounds
+Participant Count
+Host exit<br>doesn't end meeting
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Real experiences in actual use (subjective)**</td></tr>
 Max *effective* size
 Years of experience as user
@@ -157,7 +166,7 @@ of two.
 * [A] = Audio-only telephone device using landline, cell or VoIP.
 * [W] = Web-browser device often using a browser-extension.
 * [M] = Mobile device (phone or tablet) operating over the internet.
-* [C] = Computer device (laptop or desktop) operating over the internet.
+* [L] = Laptop or desktop computer device operating over the internet.
 * [VCS] = Video Conferencing System with dedicated hardware/network.
 
 ### No install option
@@ -166,8 +175,8 @@ It can be conveninent to provide your meeting participants with a way of attendi
 does not require them to download or install any new software. This is typically possible
 only if they connect through a web browser. Even then, some vendor's products may require
 a browser extension to be downloaded. In addition, this approach also typically means
-that such a participant have limited functionality. For example, they may not be able to
-share content from their browser.
+that such a participant has limited functionality. For example, they may not be able to
+host a meeting as a presenter and share content from their browser.
 
 ### High definition video
 
@@ -203,7 +212,16 @@ be particularly important for international participants. While this feature is 
 across many vendor's products, enabling it typically involves additional costs. However,
 enterprise plans as part of your home organization may provide the feature.
 
-## Content Sharing
+## Content sharing
+
+Virtual meeting tools provide a variety of features to allow meeting participants to
+share content. In the absence of any one of these features, there are often acceptable
+work-arounds using other, dedicated tools. For example,
+[Google docs](https://www.google.com/docs/about/) can be used for some kinds of content
+sharing even some limited whiteboarding,
+[Google forms](https://www.google.com/forms/about/) can be used for polling attendees,
+[Google hangounts](https://hangouts.google.com/) (now called *Google Meet*) can be
+used for chat, etc.
 
 ### Screen sharing
 
@@ -228,22 +246,34 @@ This is similar to but not quite the same thing as *Shared Annotations*. A share
 whiteboard is a separate drawing area, like a whiteboard in an office, where all
 participants can doodle content and paste images they captured locally.
 
+For some, a shared whiteboard is more than just a realization shared drawing area
+where content is created by a mouse a keyboard. It includes the *integrations* necessary
+to create content using a tablet & pen-based drawing gestures with touch sensitivity, etc.
+No vritual meeting vendors provide such an experience in their shared whiteboard
+features. In fact, there are few *dedicated* shared whiteboard solutions available
+that work on all platforms that support tablet & pan-based drawing gestures.
+
 ### Shared annotations
 
 This is similar to but not quite the same thing as [*Screen Sharing*](#screen-sharing).
 Shared annotations allows the presenter/host to draw annotations on top of whatever
 content is being displayed in the main window so that all other participants can see it.
+In addition, some products allow *attendees* to also draw shared annotations.
 
-### Smart chat
+### Able chat
 
 All vendor's typically provide some kind of a chat feature which allows participants
-to send text messages to each other. By *smart* chat here, we mean the chat handles
-more than just *raw* text. For example, a *smart* chat handles clickable URL links,
-private messages between participants (instead to all participants), drag-n-drop
-for text files, showing who else may be in the midst of typing a chat message, etc.
-In the absence of this feature a clumsy but sufficient work-around is to use a shared
-[Google doc](https://www.google.com/docs/about/). Of course, you need to find a way
-to distribute a link to your meeting participants most likely via email.
+to send text messages to each other. By *able* chat here, we mean the chat handles
+more than just *raw* text. For example, an *able* chat handles cut-n-paste across
+applications, clickable URL links, private messages between participants (instead
+only to all participants), drag-n-drop for some file types, showing who else may be
+in the midst of typing a chat message, the ability to save all chat messages to a
+text file, and whether the host can disable chat if necessary.
+In the absence of *able chat* a clumsy
+but sufficient work-around is to use a shared [Google doc](https://www.google.com/docs/about/)
+or [Google Hangout](https://hangouts.google.com/).
+Of course, there is still the issue of how best to distribute a link to meeting participants,
+probably via email.
 
 ### Voting or polling
 
@@ -253,12 +283,21 @@ but sufficient work-around is to use [Google forms](https://www.google.com/forms
 creating the form and then pasting a link to the form in your meeting's chat
 window allowing all participants to easily go there and vote their response.
 
+### File sharing
+
+File sharing allows participants to share whole files which attendees can then
+download to their own systems. There are varying levels of support for this
+among the products often restricted by file types (e.g. extensions). Some
+vendor's provide support for scripts and even augumented reality files.
+
 ## Security
+
+### Recent issues
 
 ### Best Practices
 
 For each product, there is a collection of *best practices* for ensuring the
-highlest level of security for a meeting.
+best possible level of security when using that product for a meeting.
 
 ### Lock Meeting
 
@@ -306,10 +345,14 @@ This is a feature that makes it possible for a single meeting to be broken into
 sub-meetings among smaller groups of participants and, after a period of time,
 re-joined back into the single large meeting.
 
+## Other products not considered here
+
+https://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-##### Zoom Notes
+##### Zoom notes
 
 * (a) Maximum number of attendees depends on plan. There is a *Large Meeting*
 add-on option (not for the *free* plan) for purchase, on a month-to-month basis,
@@ -317,6 +360,9 @@ to expand the maximum up to 1000. There is also a *Webinar* add-on option for
 purchase, on a month-to-month basis, to expand to up to 10,000 *view-only* participants.
 * (b) Zoom's free plan is limited to 40 minutes. The time limit for other plans
 is 24 hours.
+* (c) Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
+cannot use this option.
+* (d) Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -328,12 +374,15 @@ of products offered by WebEx. Some of the features described in this article tha
 not supported by *WebEx Meetings* may be supported in their other products.
 * (b) WebEx's free plan limits of 50 participants and 40 minutes has been temporarily
 upgraded to 100 participants and 24 hours.
-* (c) A number of factors may effect a WebEx meeting's maximum number of participants.
+* (c) Apart from the selected plan, a number of other factors may effect a WebEx meeting's
+maximum number of participants.
 WebEx meetings can have up to 1,000 *interactive* partcipants and up to 3,000 *view-only*
 participants. Meeting capacity varies a lot by product and by how a site administrator,
-if applicable, has configured things.
+if applicable, configures an *enterprise* plan.
 * (d) It appears *expelled* attendees may rejoin as long as the meeting has not been
 [*locked*](#lock-meeting).
+* (e) Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
+cannot use this option.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -346,16 +395,14 @@ the GoToMeeting product. Some features not availabe in GoToMeeting are available
 in these other products.
 * (b) GoToMeeting offers a 14-day free trial.
 
-## Other products not considered here
-
-https://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <!--- join option notes --->
 [A]: https://www.google.com "audio-only Phone call (cell/voip/landline)"
 [W]: https://www.google.com "Web-browser with extension"
 [M]: https://www.google.com "Mobile app (cell-phone/tablet)"
-[C]: https://www.google.com "laptop/desktop Computer app"
+[L]: https://www.google.com "Laptop/desktop computer app"
 [VCS]: https://en.wikipedia.org/wiki/List_of_video_telecommunication_services_and_product_brands "Video Conferencing System with dedicated hardware/networking"
 
 <!--- Linux Distribution Notes --->
