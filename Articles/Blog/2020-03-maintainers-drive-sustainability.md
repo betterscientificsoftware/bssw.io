@@ -6,7 +6,7 @@
 
 #### Contributed by [Steven Smith](https://github.com/smithsg84 "Steven Smith GitHub Profile")
 
-#### Publication date: April 10, 2020
+#### Publication date: April 13, 2020
 
 A scientific research code often begins with a domain scientist, interested in solving a science question, developing a code and single-handedly serving the roles of user, developer, reviewer, and maintainer — an approach that is manageable when there is only one user (or a few).  Over time, as the code gets shared, used, and trusted, it’s natural to see the community of contributing developers and users grow; and we assume one of the developers will work the dual role of maintainer to ensure that the code remains a trustworthy and user-friendly scientific tool.  This situaton does not always occur, however,  and assuming a developer will be available to fill that dual role could  be detrimental to our scientific results and to the long-term sustainability of the code.       
 
@@ -26,7 +26,7 @@ ParFlow simulates the hydrologic cycle from the bedrock to the top of the plant 
 
 [Figure 2: ParFlow is used as the foundation for the contiguous United States (CONUS) integrated hydrologic modeling capability.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_2.png' class='page lightbox' />
 
-#### Risk Factors for Unsustainable Code
+## Risk Factors for Unsustainable Code
 
 ParFlow has been in continuous use for scientific discovery since 1992, and several of the current ParFlow developers have been involved with the project since the first equation was written on a white board.  The ParFlow project has undergone long-term development and has been a fertile ground to gain a deep appreciation of the need for solid software engineering practices to improve scientific productivity. 
 
@@ -42,7 +42,7 @@ In addition to necessary ongoing maintenance, most research codes are never "don
 
 A key lesson that we have learned from observing the development and evolution of ParFlow has been the need to have one or more identified maintainers to keep the software in a running and usable state.   Looking back at the on/off cycle of funding, we have observed several recurring patterns of failure when there are no maintainers.   
 
-### Warning Signs Your Code Is Becoming Unsustainable
+## Warning Signs Your Code Is Becoming Unsustainable
 
 #### Regression tests begin to fail
 
@@ -56,19 +56,23 @@ Operating systems, dependencies, and compilers change over time even if a code b
 
 A research scientist develops a new capability but has no way to submit a patch or perhaps knowledge to get the capability back into the main-line code. Many capabilities in ParFlow are written in pursuit of generating a specific set of results, and frequently a "hacking" approach is sufficient for the initial result. Adding capabilities into the application for widespread use takes additional work, however, and a broader knowledge of the software architecture. A key role of the ParFlow maintainer has been to help shepherd in external contributions. Having a dozen slightly different versions is confusing and inhibits moving the science forward.  In the last maintainer role restart, over a dozen branches were quickly identified for integration; some of the branches had been in existence for 5+ years. There simply wasn’t anyone at the gate to let externally developed capabilities into the main code.
 
-### Maintainers Drive Better Scientific Software Practices
+## Maintainers Drive Better Scientific Software Practices
 
 As part of the IDEAS-Classic project (https://ideas-productivity.org/), funding for ParFlow development was re-established with the goal to support ParFlow in the context of a broader watersheds ecosystem, including adequate support for a code maintainer.  Projects like IDEAS are showing a growing awareness of the need for better software practices.   The set of tools and services to support development is better than ever.   
 
 With the restart of ParFlow, under the direction of a maintainer, we addressed several issues.
 
-- **Public Repository** We moved over to GitHub as the main locus of ParFlow development.  Moving to a standard git pull-request model for change submissions has made code reviews (via GitHub)  easy with distributed collaborators.   On scientific codes the algorithm/mathematical formulation needs to be checked as well as traditional code review criteria.    The skillsets of domain knowledge, math, and computer science frequently do not intersect in a single person so multiple reviewers are invaluable.     
+#### Public Repository
+We moved over to GitHub as the main locus of ParFlow development.  Moving to a standard git pull-request model for change submissions has made code reviews (via GitHub)  easy with distributed collaborators.   On scientific codes the algorithm/mathematical formulation needs to be checked as well as traditional code review criteria.    The skillsets of domain knowledge, math, and computer science frequently do not intersect in a single person so multiple reviewers are invaluable.     
 
-- **Continuous Integration** We are utilizing TravisCI for continuous integration, replacing a set of shell scripts run via cron jobs.   Having test results easily visible by the distributed team is key to keeping the tests running.   The CI tests must pass for a pull request to be approved.  
+#### Continuous Integration
+We are utilizing TravisCI for continuous integration, replacing a set of shell scripts run via cron jobs.   Having test results easily visible by the distributed team is key to keeping the tests running.   The CI tests must pass for a pull request to be approved.  
 
-- **Build System** We moved from a GNU Autoconf-based configuration system to CMake, making the configuration system easier for more contributors to enhance.   
+#### Build System
+We moved from a GNU Autoconf-based configuration system to CMake, making the configuration system easier for more contributors to enhance.   
 
-- **Containers** For easier deployment, a Docker image for ParFlow is now being provided so desktop users can entirely avoid the configure/build process.
+#### Containers
+For easier deployment, a Docker image for ParFlow is now being provided so desktop users can entirely avoid the configure/build process.
 
 The impact of a maintainer can be seen in the history of commits to the ParFlow repository in Figure 3. During the period from spring  2011 through fall  2015 ParFlow lost support for a maintainer, and the number of commits being made to the main code base dropped dramatically.   When maintainer support was reintroduced, the repository activity picked up significantly.   Development had not stopped, but little effort had been made to integrate changes into the main repository, and the enhancements were not being made available for the broader community.
 
@@ -76,9 +80,11 @@ The impact of a maintainer can be seen in the history of commits to the ParFlow 
 
 <br>
 
+---
 *As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.*<br>
 — Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona
-      
+---
+
 All of these practices and tools have made the role of maintainer easier, more distributed, more automated, and more sustainable with limited budgets. Will ParFlow be around in another 25 years?  We have no idea, but then no-one is more surprised at ParFlow’s longevity than the original developers. You never know where a project might take you when you start.
 
 <br>
