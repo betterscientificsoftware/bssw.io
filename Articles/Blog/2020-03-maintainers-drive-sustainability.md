@@ -26,7 +26,7 @@ ParFlow simulates the hydrologic cycle from the bedrock to the top of the plant 
 
 [Figure 2: ParFlow is used as the foundation for the contiguous United States (CONUS) integrated hydrologic modeling capability.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_2.png' class='page lightbox' />
 
-## Risk Factors for Unsustainable Code
+### Risk Factors for Unsustainable Code
 
 ParFlow has been in continuous use for scientific discovery since 1992, and several of the current ParFlow developers have been involved with the project since the first equation was written on a white board.  The ParFlow project has undergone long-term development and has been a fertile ground to gain a deep appreciation of the need for solid software engineering practices to improve scientific productivity. 
 
@@ -42,7 +42,7 @@ In addition to necessary ongoing maintenance, most research codes are never "don
 
 A key lesson that we have learned from observing the development and evolution of ParFlow has been the need to have one or more identified maintainers to keep the software in a running and usable state.   Looking back at the on/off cycle of funding, we have observed several recurring patterns of failure when there are no maintainers.   
 
-## Warning Signs Your Code Is Becoming Unsustainable
+### Warning Signs Your Code Is Becoming Unsustainable
 
 #### Regression tests begin to fail
 
@@ -56,7 +56,7 @@ Operating systems, dependencies, and compilers change over time even if a code b
 
 A research scientist develops a new capability but has no way to submit a patch or perhaps knowledge to get the capability back into the main-line code. Many capabilities in ParFlow are written in pursuit of generating a specific set of results, and frequently a "hacking" approach is sufficient for the initial result. Adding capabilities into the application for widespread use takes additional work, however, and a broader knowledge of the software architecture. A key role of the ParFlow maintainer has been to help shepherd in external contributions. Having a dozen slightly different versions is confusing and inhibits moving the science forward.  In the last maintainer role restart, over a dozen branches were quickly identified for integration; some of the branches had been in existence for 5+ years. There simply wasn’t anyone at the gate to let externally developed capabilities into the main code.
 
-## Maintainers Drive Better Scientific Software Practices
+### Maintainers Drive Better Scientific Software Practices
 
 As part of the IDEAS-Classic project (https://ideas-productivity.org/), funding for ParFlow development was re-established with the goal to support ParFlow in the context of a broader watersheds ecosystem, including adequate support for a code maintainer.  Projects like IDEAS are showing a growing awareness of the need for better software practices.   The set of tools and services to support development is better than ever.   
 
@@ -80,10 +80,8 @@ The impact of a maintainer can be seen in the history of commits to the ParFlow 
 
 <br>
 
----
 *As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.*<br>
 — Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona
----
 
 All of these practices and tools have made the role of maintainer easier, more distributed, more automated, and more sustainable with limited budgets. Will ParFlow be around in another 25 years?  We have no idea, but then no-one is more surprised at ParFlow’s longevity than the original developers. You never know where a project might take you when you start.
 
