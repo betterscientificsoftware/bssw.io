@@ -12,7 +12,7 @@ Podcast title  | Remote Working in an Agile World
 Presenters | Raji Bhamidipati via [BCS, The Chartered Institute for IT](https://www.bcs.org/)
 Web link | [Podcast link](https://www.infoq.com/presentations/practices-working-remote/?utm_source=email&utm_medium=culture-methods&utm_campaign=newsletter&utm_content=11262019)
 
-The [Remote Working in an Agile World podcast](https://www.infoq.com/presentations/practices-working-remote/?utm_source=email&utm_medium=culture-methods&utm_campaign=newsletter&utm_content=11262019 "Remote Working in an Agile World") is a 50 minute podcast video focussing on different aspects of how to effectively and efficiently work remotely. 
+The [Remote Working in an Agile World podcast](https://www.infoq.com/presentations/practices-working-remote/?utm_source=email&utm_medium=culture-methods&utm_campaign=newsletter&utm_content=11262019 "Remote Working in an Agile World") is a 50 minute podcast video focusing on different aspects of how to effectively and efficiently work remotely. 
 
 The podcast discusses a wide-range of topics related to remote working - some are discussed in more detail than others.
 
@@ -39,6 +39,7 @@ Overall, this podcast offers nuggets for newcomers as well as for folks who are 
 
 <!---
 Publish: yes
+RSS update: 2020-04-12
 Pinned: yes
 RSS update: 
 Categories: skills
