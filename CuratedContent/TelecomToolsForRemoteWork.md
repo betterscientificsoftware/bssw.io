@@ -30,8 +30,10 @@ which have some degree of variability in support across vendors.
 
 In the table below...
 
-* *Partial* means some support for the feature exists.
-* *Maybe* means the feature may exist depending on other factors outside of the typical user's control.
+* *Partial* means some support for the feature exists but not at the level of
+  support one might expect.
+* *Maybe* means the feature may exist depending on other factors outside of
+  the typical user's control.
 * Numbered footnotes are links to additional information.
 * Lettered footnotes
    * <sup>X</sup>Indicates a feature is available in another of the vendor's products.
@@ -58,7 +60,8 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
 [File Sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [External Integrations](#external-integrations) |
-Chat |
+Recording |
+Live Streaming |
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Software Compatibility**](#desktop-native-app) (hover for details)</td></tr>
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E] | [8]/[10h]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F] | [R]/[F]
@@ -77,10 +80,8 @@ Encryption | XXX | [Partial](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Loc
 [Privacy](#privacy) | [Poor](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)|
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Advanced Features**</td></tr>
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
-Live Streaming
 Co-Hosting
 Augmented Reality |
-Recording/playback
 Calendar integration
 Speaker tracking
 Gallery view
@@ -305,6 +306,9 @@ This is a feature that makes it possible for a single meeting to be broken into
 sub-meetings among smaller groups of participants and, after a period of time,
 re-joined back into the single large meeting.
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ##### Zoom Notes
 
 * (a) Maximum number of attendees depends on plan. There is a *Large Meeting*
@@ -313,6 +317,9 @@ to expand the maximum up to 1000. There is also a *Webinar* add-on option for
 purchase, on a month-to-month basis, to expand to up to 10,000 *view-only* participants.
 * (b) Zoom's free plan is limited to 40 minutes. The time limit for other plans
 is 24 hours.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### WebEx Notes
 
@@ -327,6 +334,9 @@ participants. Meeting capacity varies a lot by product and by how a site adminis
 if applicable, has configured things.
 * (d) It appears *expelled* attendees may rejoin as long as the meeting has not been
 [*locked*](#lock-meeting).
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### GoToMeeting Notes
 
