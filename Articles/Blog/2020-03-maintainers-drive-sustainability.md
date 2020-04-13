@@ -80,10 +80,14 @@ The impact of a maintainer can be seen in the history of commits to the ParFlow 
 
 <br>
 
+-----
+
 *As a hydrologist without formal training in computer science or dedicated resources for code maintenance, the role of the maintainer is a critical factor in my ability to both use and contribute to ParFlow.  The code maintainer has made it possible for me to follow best practices in my research and to integrate the changes I make into the main branch and share with the community.*<br>
 — Laura E. Condon, Assistant Professor, Hydrology and Atmospheric Sciences, University of Arizona
 
 All of these practices and tools have made the role of maintainer easier, more distributed, more automated, and more sustainable with limited budgets. Will ParFlow be around in another 25 years?  We have no idea, but then no-one is more surprised at ParFlow’s longevity than the original developers. You never know where a project might take you when you start.
+
+-----
 
 <br>
 
