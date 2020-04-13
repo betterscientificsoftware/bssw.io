@@ -77,16 +77,26 @@ Encryption | XXX | [Partial](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Loc
 [Privacy](#privacy) | [Poor](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)|
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Other**</td></tr>
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
-Phone only
 Live Streaming
 Co-Hosting
-Multi-Headed Displays |
 Augmented Reality |
 Recording |
-Green Screen Back|
-not-compatible-with |
-raise hand |
-computer only vs. computer+phone
+Recording/playback
+Calendar integration
+Scheduled meetings
+Group chat / Individual chat
+Breakout sessions
+Speaker tracking
+Gallery view
+Virtual backgrounds
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Real experiences in actual use (subjective) **</td></tr>
+Maximum number of participants successfully experienced
+Maximum number of participants successfully hosted
+Years of experience as user
+Reliability as experienced by real users
+Ease of Use
+Audio quality
+Video quality
 
 ## The Basics
 
@@ -187,10 +197,10 @@ audio and video each time prior to connecting to a new meeting.
 ### Free dial-in option
 
 For those who wish to connect audio via ordinary telphone (landline or cell), it can be
-convenient to provide your meeting participants with a toll-free option. While this
-feature is common across many vendor's products, enabling it typically involves additional
-costs. However, enterprise plans as part of your home organization may provide the
-feature.
+convenient to provide your meeting participants with a toll-free option. This feature may
+be particularly important for international participants. While this feature is common
+across many vendor's products, enabling it typically involves additional costs. However,
+enterprise plans as part of your home organization may provide the feature.
 
 ## Content Sharing
 
