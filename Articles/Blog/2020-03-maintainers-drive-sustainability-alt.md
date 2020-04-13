@@ -1,4 +1,4 @@
-# Maintainers Drive Software Sustainability
+# Maintainers Drive Software Sustainability (Alternative Style)
 
 **Hero Image:**
 
