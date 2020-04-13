@@ -32,10 +32,10 @@ Overall, this podcast offers nuggets for newcomers as well as for folks who are 
 
 #### Contributed by [Roscoe Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: April 13, 2020
+#### Publication date: April 12, 2020
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: yes
 RSS update: 
 Categories: skills
