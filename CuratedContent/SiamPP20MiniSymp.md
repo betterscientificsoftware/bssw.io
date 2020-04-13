@@ -21,7 +21,7 @@ A collection of talks, that were presented at the minisymposium, have been colla
 * [Dr. Anshu Dubey](https://www.anl.gov/profile/anshu-dubey) shared experiences with productivity and software sustainability on the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov/)
 * [Dr. Benjamin Pritchard](http://molssi.org/molssi-software-scientist-dr-benjamin-pritchard/) focused on challenges and best practices in the Computational Molecular Sciences domain
 * [Dr. Kenneth Jansen](https://www.colorado.edu/aerospace/kenneth-jansen) shared Software Sustainability Lessons from the Fluid Dynamics Community
-* [Dr. David Moulton] focused on Productivity and Sustainability in a Community-Driven Software Ecosystem for [Watershed Science](https://ideas-productivity.org/ideas-watersheds/)
+* Dr. David Moulton focused on Productivity and Sustainability in a Community-Driven Software Ecosystem for [Watershed Science](https://ideas-productivity.org/ideas-watersheds/)
 
 Overall, the talks at the minisymposium provide good insight on challenges encountered and progress made towards software sustainability in some of the well-known areas of scientific HPC field.
 
