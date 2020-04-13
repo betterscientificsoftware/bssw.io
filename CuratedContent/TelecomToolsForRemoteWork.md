@@ -59,7 +59,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [File Sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [External Integrations](#external-integrations) |
 Chat |
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Software Compatibility**](#desktop-native-app)</td></tr>
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Software Compatibility**](#desktop-native-app) (hover for details)</td></tr>
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E] | [8]/[10h]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F] | [R]/[F]
 macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx] | [&ge;10.11][osx]
@@ -80,16 +80,12 @@ Encryption | XXX | [Partial](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Loc
 Live Streaming
 Co-Hosting
 Augmented Reality |
-Recording |
 Recording/playback
 Calendar integration
-Scheduled meetings
-Group chat / Individual chat
-Breakout sessions
 Speaker tracking
 Gallery view
 Virtual backgrounds
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Real experiences in actual use (subjective) **</td></tr>
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Real experiences in actual use (subjective)**</td></tr>
 Maximum number of participants successfully experienced
 Maximum number of participants successfully hosted
 Years of experience as user
