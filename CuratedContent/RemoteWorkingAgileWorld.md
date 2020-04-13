@@ -1,3 +1,6 @@
+# Remote Working in an Agile World
+
+#### Contributed by [Roscoe Bartlett](https://github.com/bartlettroscoe)
 
 <!-- deck start -->
 Remote working is a common reality in today's world. This article points to a very useful podcast on the topic of working remotely.
@@ -30,7 +33,7 @@ Topics mentioned in the podcast include the following:
 
 Overall, this podcast offers nuggets for newcomers as well as for folks who are already experienced with remote working.
 
-#### Contributed by [Roscoe Bartlett](https://github.com/bartlettroscoe)
+
 
 #### Publication date: April 12, 2020
 
