@@ -121,7 +121,7 @@ Download Site | [https://github.com/parflow/parflow](https://github.com/parflow/
 Systems | Laptops to supercomputers
 License Model | Open Source:  GNU Lesser General Public License
 Number of Users | Small but growing international user community
-Number of Publications | 100 reported to date: ParFlow has been used on large scale studies covering the continental US and Continental Europe
+Number of Publications | >100 reported to date: ParFlow has been used on large scale studies covering the continental US and Continental Europe
 Timeline | Created in 1992, First publication in 1993 <br> 2015 - IDEAS-Classic provides stable funding for a maintainer
 
 ### Author Bio
