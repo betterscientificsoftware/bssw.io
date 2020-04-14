@@ -24,7 +24,7 @@ A maintainer orchestrates the software lifecycle for the project and provides co
 
 ParFlow simulates the hydrologic cycle from the bedrock to the top of the plant canopy. It integrates three-dimensional groundwater flow with overland flow and plant processes using physically based equations to rigorously simulate fluxes of water and energy in complex real-world systems (see Figure 2). 
 
-[Figure 2: ParFlow is used as the foundation for the contiguous United States (CONUS) integrated hydrologic modeling capability.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_2.png' class='page lightbox' />
+[Figure 2: ParFlow is used as the foundation for a contiguous United States (CONUS) integrated hydrologic modeling capability.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_2.png' class='page lightbox' />
 
 ### Risk Factors for Unsustainable Code
 
