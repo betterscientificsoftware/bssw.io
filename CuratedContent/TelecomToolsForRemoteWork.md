@@ -59,8 +59,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[d](#zoom-notes)</sup>
 [Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
 [File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
-[External Integrations](#external-integrations) |
-Recording (local/cloud)|
+Recording | xxx | Maybe<sup>[g](#webex-notes)</sup>
 Live Streaming |
 Remote control |
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#desktop-native-app) (hover for details, **recommended in bold**)</td></tr>
@@ -77,8 +76,8 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
 [Lock Meeting](#lock-meeting) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/) | [Maybe](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
 [Expel Attendee](#expel-attendee) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/)|[Partial](https://help.webex.com/en-us/WBX30745/How-Do-I-Expel-a-Meeting-Participant)<sup>[d](#webex-notes)</sup>
 [Expel Recovery](#expel-recovery) | [Yes](https://support.zoom.us/hc/en-us/articles/360021851371-Allowing-Removed-Participants-or-Panelists-to-Rejoin) | Yes |
-Encryption | [Partial](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) | [Partial](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
-[Privacy](#privacy) | [Poor](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)|
+[Privacy](#privacy) | [Partial](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | [Yes](https://trustportal.cisco.com/c/dam/r/ctp/docs/privacydatasheet/collaboration/cisco-webex-meetings-privacy-data-sheet.pdf)
+[E2E Encryption](#e2e-encryption) | [No](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) | Maybe<sup>[f](#webex-notes)</sup>
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Advanced Features**</td></tr>
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
 Co-Hosting
@@ -95,6 +94,7 @@ Force join muted
 Disable notification sounds
 Participant Count
 Host exit<br>doesn't end meeting
+Over capacity notification
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Real experiences in actual use (subjective)**</td></tr>
 Max *effective* size
 Years of experience as user
@@ -161,6 +161,11 @@ meeting participants taking up two slots. If a majority of participants wind up 
 this in a large meeting, it can reduce the effective size limit by almost a factor
 of two.
 
+What happens if a meeting exceeds its size limit? In most case, attempts to
+join a meeting that is at its size capacity will be prevented. A key question
+is if and how the host may be notified of this. At present, this behavior is
+unclear.
+
 ### Supported devices
 
 * [A] = Audio-only telephone device using landline, cell or VoIP.
@@ -186,13 +191,17 @@ Poor video quality can dramatically reduce participant's ability to interpret no
 cues. Among participants with long-standing, pre-existing, high-functioning relationships, the
 ability to interpret non-verbal cues is
 [not as essential](https://www.comptia.org/blog/the-art-of-non-verbal-communication-in-a-video-conferencing-world).
-However, high definition video can be essential in many other circumstances.
+However, high definition (HD) video can be essential in other circumstances
+particularly those where the people involved are meeting for the first time.
 
-Most vendor's products automatically adjust video quality based on moment-to-moment network
-responsiveness. In the current pandemic situation, whether the vendor's product supports
-high-definition video may be only part of the story. Another issue is whether each
-participant's local network as well as the wide-area network loads will be such as to prevent
-high definition video.
+In the current pandemic situation, with so many being forced to work from home,
+the increase in network load has caused some vendors to temporarily disable
+support high definition video.
+
+In addition, most vendor's products automatically adjust video quality based
+on moment-to-moment network responsiveness anyway. Each participant's local
+network and/or the wide-area network loads may be such that even if high
+definition video is supported, the networks will not support it.
 
 ### Test meeting
 
@@ -292,12 +301,30 @@ vendor's provide support for scripts and even augumented reality files.
 
 ## Security
 
+Depending on the kind of information to be *processed* in a virtual meeting,
+the level of security the product provides may or may not be an issue.
+
+When security vulnerabilities of a given virtual meeting product are a
+concern, one possible though inconvenient work-around is for
+*all meeting participants* to be on the same
+[*virtual private network (VPN)*](https://www.techradar.com/news/how-using-a-vpn-with-zoom-can-keep-you-and-your-data-more-secure). This adds significantly to the logistical
+aspects of running a virtual meeting but may be the best option in
+some circumstances.
+
 ### Recent issues
+
+Recent security concerns in various virtual meeting products have been all
+the rage in the mainstream media. Unfortunately, many sources lack the
+technical background to provide any sort of *evaluation* of the level of
+risk of any issues encountered with respect to the kinds of information
+to be *processed*. When we have found technically competent sources, we
+provide links to them here.
 
 ### Best Practices
 
-For each product, there is a collection of *best practices* for ensuring the
-best possible level of security when using that product for a meeting.
+For each product, when there is a collection of *best practices* for ensuring
+the best possible level of security when using that product for a meeting we
+indicate that here and provide a link to them.
 
 ### Lock Meeting
 
@@ -321,8 +348,34 @@ action of expelling an attendee. Some products do enable a host to *recover*
 from this situation however allowing an inadvertently expelled attendee to
 rejoin with the same identity.
 
-### Encryption
+### Privacy
 
+[Privacy is related to but also distinct from security](https://www.hiv.gov/blog/difference-between-security-and-privacy-and-why-it-matters-your-program). While security is about safegaurding data
+of any kind, privacy is specifically about safeguarding
+[*personally identifieable information (PII)*](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act)
+as well as a person's rights about how that information is managed by a third
+party.
+
+A potentially common privacy-related situation in virtual meeting settings is the
+use of a product's *recording* feature. Doing so without consent of all parties
+may create a significant
+[breach of privacy laws](https://blog.clickmeeting.com/accordance-record-recording-consent-laws).
+Making the recording available to a wider audience than attendees believe they
+originally consented to may also create a privacy issue.
+
+Another example is whether the system may
+notify the host if an attendee has *changed application focus* away from the
+virtual meeting application to something else. Such functionality might be
+wholly appropriate for an elementary school teacher in a virtual classroom setting
+needing to keep an eye on his students. However, if the same thing were to 
+happen among adult, professional colleagues without their consent, it may not be
+viewed too kindly.
+
+### E2E Encryption
+
+[End-to-end encryption (E2EE)](https://en.wikipedia.org/wiki/End-to-end_encryption)
+is a system of communication where only the communicating users have the ability to
+decrypt and read the messages.
 
 ### Laptop/Deskside Web Client Compatability
 
@@ -383,6 +436,8 @@ if applicable, configures an *enterprise* plan.
 [*locked*](#lock-meeting).
 * (e) Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
+* (f) E2E encryption appears to be available only in WebEx's *Enterprise* plan.
+* (g) Cloud recording is not available in WebEx's free plan
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
