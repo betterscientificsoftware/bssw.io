@@ -6,7 +6,7 @@
 
 #### Contributed by [Steven Smith](https://github.com/smithsg84 "Steven Smith GitHub Profile")
 
-#### Publication date: April 13, 2020
+#### Publication date: April 14, 2020
 
 A scientific research code often begins with a domain scientist, interested in solving a science question, developing a code and single-handedly serving the roles of user, developer, reviewer, and maintainer — an approach that is manageable when there is only one user (or a few).  Over time, as the code gets shared, used, and trusted, it’s natural to see the community of contributing developers and users grow; and we assume one of the developers will work the dual role of maintainer to ensure that the code remains a trustworthy and user-friendly scientific tool.  This situaton does not always occur, however,  and assuming a developer will be available to fill that dual role could  be detrimental to our scientific results and to the long-term sustainability of the code.       
 
@@ -101,8 +101,8 @@ Timeline | Created in 1992, First publication in 1993 <br> 2015 - IDEAS-Classic 
 Steve Smith is a computer scientist supporting the Center for Applied Scientific Computing at LLNL since 1991.   He has contributed to several open source projects, including [ParFlow](https://parflow.org/), [SAMRAI](https://computing.llnl.gov/projects/samrai), and [ns-3](https://www.nsnam.org/).
 
 <!---
-Publish: preview
-RSS update: 
+Publish: yes
+RSS update: 2020-04-15
 Categories: Planning, Planning, Collaboration
 Topics: Software Engineering, Software Process Improvement, Strategies for More Effective Teams
 Tags: bssw-blog-article
