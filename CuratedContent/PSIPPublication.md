@@ -6,7 +6,7 @@ Resource information | Details
 :--- | :--- 
 Paper title  | Lightweight Software Process Improvement using Productivity and Sustainability Improvement Planning (PSIP)
 Authors | Michael A. Heroux, Elsa Gonsiorowski, Rinku Gupta, Reed Milewicz, David Moulton, Gregory Watson,  Jim Willenbring, Richard Zamora and Elaine Raybourn
-Publication | Year 2019, U.S. DoE Office of Scientific and Technical Information, [Publication Link](https://www.osti.gov/biblio/1574620)
+Publication | Year 2019, SE-HER 2019  - International Workshop on Software Engineering for HPC-Enabled Research, [Publication Link](https://link.springer.com/chapter/10.1007/978-3-030-44728-1_6)
 
 Within the context of scientific software research and development, software process improvement (SPI) is undeveloped territory. While software has garnered increasing importance in the scientific computing field in recent decades, and while researchers perceive tremendous value in improving software practices, lack of time and resources along with the complexities of traditional SPI methods have hindered the adoption of better software practices.
 
