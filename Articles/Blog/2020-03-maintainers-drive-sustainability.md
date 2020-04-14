@@ -55,7 +55,6 @@ A research scientist develops a new capability but has no way to submit a patch 
 As part of the IDEAS-Classic project (https://ideas-productivity.org/), funding for ParFlow development was re-established with the goal to support ParFlow in the context of a broader watersheds ecosystem, including adequate support for a code maintainer.  Projects like IDEAS are showing a growing awareness of the need for better software practices.   The set of tools and services to support development is better than ever.   
 
 With the restart of ParFlow, under the direction of a maintainer, we addressed several issues.
-
 * **Public Repository.**
 We moved over to GitHub as the main locus of ParFlow development.  Moving to a standard git pull-request model for change submissions has made code reviews (via GitHub)  easy with distributed collaborators.   On scientific codes the algorithm/mathematical formulation needs to be checked as well as traditional code review criteria.    The skillsets of domain knowledge, math, and computer science frequently do not intersect in a single person so multiple reviewers are invaluable.     
 
