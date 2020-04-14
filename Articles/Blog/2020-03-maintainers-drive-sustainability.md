@@ -30,24 +30,24 @@ ParFlow simulates the hydrologic cycle from the bedrock to the top of the plant 
 
 ParFlow has been in continuous use for scientific discovery since 1992, and several of the current ParFlow developers have been involved with the project since the first equation was written on a white board.  The ParFlow project has undergone long-term development and has been a fertile ground to gain a deep appreciation of the need for solid software engineering practices to improve scientific productivity. 
 
-* **Limited software development practices.** 
+**Limited software development practices.** 
 The experiences of ParFlow’s development team match an [earlier BSSw blog on continuous technology refreshment](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) (CTR), which highlights a core issue: Applications that expect to continue to work over time cannot be static but must undergo "*periodic upgrade or replacement of infrastructure to deliver continued reliability, improved speed, capacity, and/or new features*" to respond to the developing needs of users and workflows.  The ParFlow team had not adopted formal software engineering practices including CTR because of the lack of funding targeted at software maintenance.
 
-* **New capabilities prioritized over good software development.**
+**New capabilities prioritized over good software development.**
 In addition to necessary ongoing maintenance, most research codes are never "done."    Even when there wasn't funding targeted for ParFlow development, new capabilities were being created by projects using ParFlow; but the development was done in an ad hoc manner.  Lack of software development processes led to the code base becoming splintered across organizations; no one bothered to run the existing regression tests,  bugs went unfixed, and users found conflicting hacks for building on current operating systems.   
 
-* **Intermittent funding for development and maintenance of the software.**
+**Intermittent funding for development and maintenance of the software.**
 A key lesson that we have learned from observing the development and evolution of ParFlow has been the need to have one or more identified maintainers to keep the software in a running and usable state.   Looking back at the on/off cycle of funding, we have observed several recurring patterns of failure when there are no maintainers.   
 
 ### Warning Signs Your Code Is Becoming Unsustainable
 
-* **Regression tests begin to fail.**
+**Regression tests begin to fail.**
 When the project lacks a maintainer, no one is standing guard watching the tests to halt additional changes when a test fails.  The same pattern was seen on multiple occasions when we lacked a maintainer: A code change was made that caused one or more of the tests to fail,  the failure was ignored, and another change was made that caused additional failures masked by the previous failures.   Fixing situations like this months and sometimes years after the changes are introduced is not a joyful experience.  It is not an exaggeration to say the cost in person-hours can quickly reach 100x what it would cost if the bugs had been fixed when first introduced.
 
-* **Configuration/build system begins to fail.**
+**Configuration/build system begins to fail.**
 Operating systems, dependencies, and compilers change over time even if a code base is not changing.   Users find configuration issues and post blogs on work-arounds; but without someone to submit a patch to or someone to respond to bug reports, the work-arounds are never fully fixed.  ParFlow Apple users were subjected to a set of different work-arounds for nearly every release of MacOS.
 
-* **Splintering and forking begins to happen.**
+**Splintering and forking begins to happen.**
 A research scientist develops a new capability but has no way to submit a patch or perhaps knowledge to get the capability back into the main-line code. Many capabilities in ParFlow are written in pursuit of generating a specific set of results, and frequently a "hacking" approach is sufficient for the initial result. Adding capabilities into the application for widespread use takes additional work, however, and a broader knowledge of the software architecture. A key role of the ParFlow maintainer has been to help shepherd in external contributions. Having a dozen slightly different versions is confusing and inhibits moving the science forward.  In the last maintainer role restart, over a dozen branches were quickly identified for integration; some of the branches had been in existence for 5+ years. There simply wasn’t anyone at the gate to let externally developed capabilities into the main code.
 
 ### Maintainers Drive Better Scientific Software Practices
@@ -55,16 +55,17 @@ A research scientist develops a new capability but has no way to submit a patch 
 As part of the IDEAS-Classic project (https://ideas-productivity.org/), funding for ParFlow development was re-established with the goal to support ParFlow in the context of a broader watersheds ecosystem, including adequate support for a code maintainer.  Projects like IDEAS are showing a growing awareness of the need for better software practices.   The set of tools and services to support development is better than ever.   
 
 With the restart of ParFlow, under the direction of a maintainer, we addressed several issues.
-* **Public Repository.**
+
+**Public Repository.**
 We moved over to GitHub as the main locus of ParFlow development.  Moving to a standard git pull-request model for change submissions has made code reviews (via GitHub)  easy with distributed collaborators.   On scientific codes the algorithm/mathematical formulation needs to be checked as well as traditional code review criteria.    The skillsets of domain knowledge, math, and computer science frequently do not intersect in a single person so multiple reviewers are invaluable.     
 
-* **Continuous Integration.**
+**Continuous Integration.**
 We are utilizing TravisCI for continuous integration, replacing a set of shell scripts run via cron jobs.   Having test results easily visible by the distributed team is key to keeping the tests running.   The CI tests must pass for a pull request to be approved.  
 
-* **Build System.**
+**Build System.**
 We moved from a GNU Autoconf-based configuration system to CMake, making the configuration system easier for more contributors to enhance.   
 
-* **Containers.**
+**Containers.**
 For easier deployment, a Docker image for ParFlow is now being provided so desktop users can entirely avoid the configure/build process.
 
 The impact of a maintainer can be seen in the history of commits to the ParFlow repository in Figure 3. During the period from spring  2011 through fall  2015 ParFlow lost support for a maintainer, and the number of commits being made to the main code base dropped dramatically.   When maintainer support was reintroduced, the repository activity picked up significantly.   Development had not stopped, but little effort had been made to integrate changes into the main repository, and the enhancements were not being made available for the broader community.
@@ -94,7 +95,7 @@ Systems | Laptops to supercomputers
 License Model | Open Source:  GNU Lesser General Public License
 Number of Users | Small but growing international user community
 Number of Publications | >100 reported to date: ParFlow has been used on large scale studies covering the continental US and Continental Europe
-Timeline | Created in 1992, First publication in 1993 <br> 2015 - IDEAS-Classic provides stable funding for a maintainer
+Timeline | Created in 1992, First publication in 1993 <br> 2015 - IDEAS-Classic provides stable funding for a maintainer <br> 2019 - IDEAS-Watersheds takes over support for maintainer
 
 ### Author Bio
 Steve Smith is a computer scientist supporting the Center for Applied Scientific Computing at LLNL since 1991.   He has contributed to several open source projects, including [ParFlow](https://parflow.org/), [SAMRAI](https://computing.llnl.gov/projects/samrai), and [ns-3](https://www.nsnam.org/).
