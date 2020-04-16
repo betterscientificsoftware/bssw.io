@@ -31,7 +31,7 @@ which have some degree of variability in support across vendors.
 In the table below...
 
 * *Partial* means some support for the feature exists but not at the level of
-  support one might expect.
+  support one would expect.
 * *Maybe* means the feature may exist depending on other factors outside of
   the typical user's control.
 * Numbered footnotes are links to additional information.
@@ -45,7 +45,8 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
 [Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) | xxx | xxx | [Partial](https://www.gotomeeting.com/try)<sup>[b](#gotomeeting-notes)</sup>
 [Plan Pricing](#plan-pricing)<br>$/mo/host | 0/15/20 | 0/15/20/30 | xxx | xxx | 12/16
-[Size Limit](#meeting-size-limits) | 100-1000<sup>[a](#zoom-notes)</sup> | 50-200<sup>[b](#webex-notes),[c](#webex-notes)</sup> | xxx | xxx | 150/250
+[Size Limit](#size-limits) | 100-1000<sup>[a](#zoom-notes)</sup> | 50-200<sup>[b](#webex-notes),[c](#webex-notes)</sup> | xxx | xxx | 150/250
+[Length Limit](#length-limits) | &le;24h<sup>[b](#zoom-notes)</sup> | &le;24h
 [Join Device](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System) | [A]/[W]/[M]/[L]/[VCS] |
 [No Install](#no-install-option)<br>Option | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[c](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[e](#webex-notes)</sup>
 [HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support)
@@ -59,9 +60,10 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[d](#zoom-notes)</sup>
 [Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
 [File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
-Recording | xxx | Maybe<sup>[g](#webex-notes)</sup>
-Live Streaming |
-Remote control |
+[Recording](#recording) | [Yes](https://support.zoom.us/hc/en-us/sections/200208179-Recording) | Maybe<sup>[g](#webex-notes)</sup>
+[Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-)
+[Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[h](#webex-notes)</sup>
+[Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#desktop-native-app) (hover for details, **recommended in bold**)</td></tr>
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E] | [8]/[10h]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F] | [R]/[F]
@@ -71,7 +73,7 @@ Attendee Browser | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
 Presenter Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
 Attendee Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
-[Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/)
+[Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | No
 [Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://help.webex.com/en-us/8zi8tq/Cisco-Webex-Best-Practices-for-Secure-Meetings-Hosts)
 [Lock Meeting](#lock-meeting) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/) | [Maybe](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
 [Expel Attendee](#expel-attendee) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/)|[Partial](https://help.webex.com/en-us/WBX30745/How-Do-I-Expel-a-Meeting-Participant)<sup>[d](#webex-notes)</sup>
@@ -80,33 +82,26 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] |
 [E2E Encryption](#e2e-encryption) | [No](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) | Maybe<sup>[f](#webex-notes)</sup>
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Advanced Features**</td></tr>
 [Breakout Rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
-Co-Hosting
-Augmented Reality |
-Calendar integration
-Speaker tracking
-Gallery view
-Virtual backgrounds
-Multi-presenter
+[Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[f](#zoom-notes)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[i](#webex-notes)</sup> |
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
-Mute all<br>
-Audio/Video
-Force join muted
-Disable notification sounds
-Participant Count
-Host exit<br>doesn't end meeting
-Over capacity notification
+[Mute all A/V](#mute-all) | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events)
+[Mute A/V entry](#mute-on-entry) | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No
+[Disable entry/exit](#disable-chimes)<br>chimes | Yes | Yes
+[Attendee count](#attendee-count) | Yes | No
+[Host exit wont](#host-exit-wont-end-meeting)<br>end meeting | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends)
+[Exceed size](#exceed-size-notification)<br>notification |
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Real experiences in actual use (subjective)**</td></tr>
-Max *effective* size
-Years of experience as user
-Reliability as experienced by real users
-Ease of Use
-Audio quality
-Video quality
+Max. size | xxx | 650
+Years of use | xxx | 5
+Reliability | xxx | :+1:
+Useability | xxx |  :+1:
+A/V quality | xxx |
+Technical project<br>meetings
 Hands-on trainings
 Pair programming
 Interviewing
-Virtual hack-a-thons
-Virtual hallway discussions
+Hack-a-thons
+Virtual cooler
 
 ## The Basics
 
@@ -134,7 +129,7 @@ some vendors are offering discounts on their plans for a year-long purchase. In 
 most vendors offer *enterprise* level accounts designed for large organizations with many
 users each of which may require their own *host account*. 
 
-### Meeting size limits
+### Size limits
 
 The *maximum meeting size* is the maximum number of *participants* in a meeting. A
 number of vendors draw a distinction between a *meeting*, which typically requires
@@ -297,7 +292,53 @@ window allowing all participants to easily go there and vote their response.
 File sharing allows participants to share whole files which attendees can then
 download to their own systems. There are varying levels of support for this
 among the products often restricted by file types (e.g. extensions). Some
-vendor's provide support for scripts and even augumented reality files.
+vendor's provide support for scripts and even augumented reality files. File
+sharing, especially executable scripts, may introduce additional security
+concerns.
+
+### Recording
+
+Recording of a virtual meeting session is often convenient for participants
+who were unable to attend to watch later or for a meeting scribe to go back
+and fill in gaps in their notes. However, recordings are generally not useful
+for *replacing* a scribe because of the summarization often involved in the
+curation of meeting notes.
+
+There are differing levels of support for what content gets recorded among the
+various products. Some products may not make a record of chat messages for
+example. It can sometimes be useful for the host to select the content to be
+recorded (e.g. audio-only). Some vendors provide support for producing textual
+*transcriptions* from recordings. Recordings can introduce
+[*privacy concerns*](#privacy) so it is a best practice to obtain *written*
+consent not only to create a recording but also to specify with whom the
+recording may later be shared with.
+
+### Transcription
+
+Recorded sessions can be transcribed into time-stamped, text to make easy
+searching of the recorded stream. Transcription typically requires about 2x
+the recording time to complete and is typically available only for sessions
+recorded to the *cloud* and pricier plans.
+
+### Closed captioning
+
+All vendors offer *some* support for closed captioning. Typically, the support
+provided is just the *display* of captions. The *generation* of captions is
+delegated to some other service. For example, a *live captioner* is a person who
+transcribes the conversation in real-time during a meeting much like a court
+stenographer. Those participants who wish can then enable display of closed
+captions.
+
+Some vendors appear to already provide or plan to provide *add-on* features
+with automatic captioning.
+
+### Live streaming
+
+Some products offer the ability to stream a *live* session to platfroms like
+YouTube or Facebook. Of course, this also means that the session will be
+effectively be *recorded* but only on that platform.
+
+### Remote control
 
 ## Security
 
@@ -375,7 +416,8 @@ viewed too kindly.
 
 [End-to-end encryption (E2EE)](https://en.wikipedia.org/wiki/End-to-end_encryption)
 is a system of communication where only the communicating users have the ability to
-decrypt and read the messages.
+decrypt and read the messages. If this feature is essential, readers should take
+caution to read as much as possible about how a given product supports E2EE.
 
 ### Laptop/Deskside Web Client Compatability
 
@@ -392,11 +434,17 @@ The *recommended* browser is either the browser that supports the *most*
 features or is the one recommended by the vendor.
 
 
+## Advanced features
+
 ### Breakout Rooms
 
 This is a feature that makes it possible for a single meeting to be broken into
 sub-meetings among smaller groups of participants and, after a period of time,
 re-joined back into the single large meeting.
+
+## Virtual background
+
+This allows
 
 ## Other products not considered here
 
@@ -416,6 +464,9 @@ is 24 hours.
 * (c) Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
 * (d) Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
+* (e) Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
+* (f) Zoom virtual backgrounds can be *videos*.
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -437,7 +488,10 @@ if applicable, configures an *enterprise* plan.
 * (e) Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
 * (f) E2E encryption appears to be available only in WebEx's *Enterprise* plan.
-* (g) Cloud recording is not available in WebEx's free plan
+* (g) Cloud recording is not available in WebEx's free plan.
+* (h) WebEx plans to offer *automatic*, AI-assisted closed capationing as part of an
+add-on product called *WebEx Assistant* later this year.
+* (i) WebEx virtual background currently works only on mobile platforms.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
