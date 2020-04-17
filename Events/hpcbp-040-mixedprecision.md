@@ -46,7 +46,7 @@ to world-class software on exascale machines.
 
     
 
-#### Contributed by [Hartwig Antz](https://github.com/hartwiganzt "Hartwig Antz GitHub profile"),  and [Piotr Luszczek](https://github.com/luszczek "Piotr Luszczek GitHub profile")
+#### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt "Hartwig Antz GitHub profile"),  and [Piotr Luszczek](https://github.com/luszczek "Piotr Luszczek GitHub profile")
 
 <!---
 Publish: yes
