@@ -15,7 +15,7 @@ Resource Information | Details
 :--- | :---			   
 Webinar Title | Accelerating Numerical Software Libraries with Multi-Precision Algorithms
 Date and Time | 2020-05-13 01:00 pm EDT
-Presenters | Hartwig Antz (Karlsruhe Institute of Technology),  and Piotr Luszczek (University of Tennessee)
+Presenters | Hartwig Anzt (Karlsruhe Institute of Technology),  and Piotr Luszczek (University of Tennessee)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar040>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
@@ -46,7 +46,7 @@ to world-class software on exascale machines.
 
     
 
-#### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt "Hartwig Antz GitHub profile"),  and [Piotr Luszczek](https://github.com/luszczek "Piotr Luszczek GitHub profile")
+#### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt "Hartwig Anzt GitHub profile"),  and [Piotr Luszczek](https://github.com/luszczek "Piotr Luszczek GitHub profile")
 
 <!---
 Publish: yes
