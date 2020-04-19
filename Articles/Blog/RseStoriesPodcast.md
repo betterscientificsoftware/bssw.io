@@ -6,7 +6,7 @@
  
 #### Contributed by [@vsoch](https://github.com/vsoch "@vsoch on GitHub")
 
-#### Publication date: March xx, 2020
+#### Publication date: April xx, 2020
 
 ### We look to experts for knowledge, but do they know the whole picture?
 
@@ -75,6 +75,15 @@ community, or to you personally. If you have a vision for how you want the world
 It's easy to get distracted by the trending technologies of the moment, and trying to fit into a mold for how
 you think you are expected to be. I know that these hard working engineers, dreamers, and advocates are out 
 there, and this is what I find so inspiring and compells me to continue the podcast.
+
+### How do I find the podcast?
+
+The episodes are released via a feed that plugs right into itunes, so you can
+find it on [Apple Podcasts](https://podcasts.apple.com/us/podcast/rse-stories/id1481504497)
+or discover it using your favorite podcast subscription service. The episodes are also
+available on the main [RSE Stories](https://us-rse.org/rse-stories/) website,
+and announced at time of publication on [@vsoch](https://twitter.com/vsoch/)'s Twitter,
+and often the US-RSE and UK-RSE slack channels.
 
 ### What I've learned from RSE Stories
 
