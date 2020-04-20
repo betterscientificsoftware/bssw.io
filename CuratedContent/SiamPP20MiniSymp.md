@@ -2,7 +2,7 @@
 <!-- deck start -->
 <!-- deck end -->
 
-Scientific computing facilities and projects continue to make strides toward software sustainability. A recent minisymposoium featured several interesting talks showcasing approaches to address technical as well as social challenges in this area.
+Scientific computing facilities and projects continue to make strides toward software sustainability. A recent minisymposium featured several interesting talks showcasing approaches to address technical as well as social challenges in this area.
 
 Resource information | Details 
 :--- | :--- 
