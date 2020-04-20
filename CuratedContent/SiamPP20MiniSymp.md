@@ -17,7 +17,7 @@ A collection of talks presented at the [minisymposium](https://meetings.siam.org
 * [Judith Hill](https://www.olcf.ornl.gov/directory/staff-member/judith-hill/) spoke on the topic of software sustainability from the perspective off work at [Oak Ridge Leadership Computing Facility](https://www.olcf.ornl.gov/).
 * [Sunita Chandrasekaran](https://www.eecis.udel.edu/~schandra/) shared thoughts on training and best practices required to develop portable yet performant code.
 * [Michal Habera](https://github.com/michalhabera) highlighted some of the top changes that have been carried out with respect to the sustainability of the [FEniCS Project](https://fenicsproject.org/).
-* [Mark Gates](http://www.icl.utk.edu/~mgates3/) discussed sustainability lessons that have emerged from the [SLATE Project](https://www.slateproject.org/).
+* [Mark Gates](http://www.icl.utk.edu/~mgates3/) discussed sustainability lessons that have emerged from the [SLATE Project](https://icl.utk.edu/slate/).
 * [Anshu Dubey](https://www.anl.gov/profile/anshu-dubey) shared experiences with productivity and software sustainability, including work at the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov/)
 * [Benjamin Pritchard](http://molssi.org/molssi-software-scientist-dr-benjamin-pritchard/) focused on challenges and best practices in computational molecular sciences, with emphasis on the Molecular Sciences Software Institute (MolSSI)
 * [Kenneth Jansen](https://www.colorado.edu/aerospace/kenneth-jansen) shared software sustainability lessons from the fluid dynamics community, emphasizing development of a Fluid Dynamics Software Infrastructure (FDSI)
