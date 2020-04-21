@@ -31,7 +31,7 @@ Overall, the talks at the minisymposium provide good insight on challenges encou
 #### Publication date: April 20, 2020
 
 <!---
-Publish: preview
+Publish: yes
 Categories: Development, collaboration
 Topics: software engineering, projects and organizations
 Tags: training, meta
