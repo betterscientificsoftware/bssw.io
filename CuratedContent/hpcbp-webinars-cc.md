@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2020-02-28*
+*Listed in reverse chronological order. Last updated: 2020-04-21*
 
 
 
@@ -38,6 +38,22 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Best Practices for Using Proxy Applications as Benchmarks*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar039), David Richards (<a href="http://www.llnl.gov/">Lawrence Livermore National Laboratory</a>),  and Joe Glenski (Hewlett-Packard Enterprise), 2020-04-15
+
+
+
+
+
+
+
+- [*Testing: Strategies When Learning Programming Models and Using High-Performance Libraries*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar038), Balint Joo (Jefferson Lab), 2020-03-18
 
 
 
@@ -337,8 +353,6 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-
-#### Publication date: February 28, 2020
 
 <!---
 Publish: yes
