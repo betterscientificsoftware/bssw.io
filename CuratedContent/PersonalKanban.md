@@ -1,6 +1,6 @@
 
 
-# Using a Personal KanBan for Productivity
+# Using a Personal Kanban for Productivity
 
 The article *Personal Kanban Part 1 -- Why Todo Lists Don't Work* explains the
 advantages of using a kanban board for personal productivity and the advantages 
