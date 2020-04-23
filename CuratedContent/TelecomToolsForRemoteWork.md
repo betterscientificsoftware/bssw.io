@@ -44,69 +44,69 @@ In the table below...
 * Abbreviations have balloon hints which are revealed by hovering the mouse over them.
 * [TBD] means to be done.
 
-Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[a](#gotomeeting-notes)</sup> | [Skype Business](https://www.skype.com/en/)
---- | --- | --- | --- | --- | --- | ---
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
-[Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) | [TBD] | [TBD] | [Partial](https://www.gotomeeting.com/try)<sup>[b](#gotomeeting-notes)</sup> | [TBD]
-[Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 | [TBD] | [TBD] | 12/16 | [TBD]
-[Size Limit](#size-limits) | 100-1000<sup>[a](#zoom-notes)</sup> | 50-200<sup>[b](#webex-notes),[c](#webex-notes)</sup> | [TBD] | [TBD] | 150/250 | [TBD]
-[Length Limit](#length-limits) | &le;24h<sup>[b](#zoom-notes)</sup> | &le;24h | [TBD] | [TBD] | [TBD] | [TBD]
-[Join Device](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System) | [A]/[W]/[M]/[L]/[VCS] | [TBD] | [TBD] | [TBD]
-[No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[c](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[e](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD]
-[HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support) | [TBD] | [TBD] | [TBD] | [TBD]
+Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> 
+--- | --- | ---
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
+[Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) 
+[Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 
+[Size Limit](#size-limits) | 100-1000<sup>[a](#zoom-notes)</sup> | 50-200<sup>[b](#webex-notes),[c](#webex-notes)</sup> 
+[Length Limit](#length-limits) | &le;24h<sup>[b](#zoom-notes)</sup> | &le;24h 
+[Join Device](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System)
+[No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[c](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[e](#webex-notes)</sup>
+[HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support)
 [Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
-[Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting) | [TBD] | [TBD] | [TBD] | [TBD]
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#content-sharing)</td></tr>
-[Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting) | [TBD] | [TBD] | [TBD] | [TBD]
-[App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings) | [TBD] | [TBD] | [TBD] | [TBD]
-[Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events) | [TBD] | [TBD] | [TBD] | [TBD]
-[Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite) | [TBD] | [TBD] | [TBD] | [TBD]
-[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[d](#zoom-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
+[Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#content-sharing)</td></tr>
+[Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting)
+[App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
+[Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
+[Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
+[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[d](#zoom-notes)</sup> | [TBD]
 [Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
-[File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events) | [TBD] | [TBD] | [TBD] | [TBD]
-[Recording](#recording) | [Yes](https://support.zoom.us/hc/en-us/sections/200208179-Recording) | Maybe<sup>[g](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD]
-[Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
-[Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[h](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD]
-[Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings) | [TBD] | [TBD] | [TBD] | [TBD]
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#desktop-native-app) (hover for details, **recommended in bold**)</td></tr>
-Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E] | [8]/[10h] | [TBD] | [TBD] | [TBD]
-Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F] | [R]/[F] | [TBD] | [TBD] | [TBD]
-macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx] | [&ge;10.11][osx] | [TBD] | [TBD] | [TBD]
-Presenter Browser | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa] | [TBD] | [TBD] | [TBD] | [TBD]
-Attendee Browser | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa] | [TBD] | [TBD] | [TBD] | [TBD]
-Presenter Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] | [TBD] | [TBD] | [TBD]
-Attendee Mobile | [And]/[iOS] | [And]/[iOS] | [And]/[iOS] | [TBD] | [TBD] | [TBD]
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
-[Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | No | [TBD] | [TBD] | [TBD] | [TBD]
-[Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://help.webex.com/en-us/8zi8tq/Cisco-Webex-Best-Practices-for-Secure-Meetings-Hosts) | [TBD] | [TBD] | [TBD] | [TBD]
-[Lock Meeting](#lock-meeting) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/) | [Maybe](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting) | [TBD] | [TBD] | [TBD] | [TBD]
-[Expel Attendee](#expel-attendee) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/)|[Partial](https://help.webex.com/en-us/WBX30745/How-Do-I-Expel-a-Meeting-Participant)<sup>[d](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD]
-[Expel Recovery](#expel-recovery) | [Yes](https://support.zoom.us/hc/en-us/articles/360021851371-Allowing-Removed-Participants-or-Panelists-to-Rejoin) | Yes | [TBD] | [TBD] | [TBD] | [TBD]
-[Privacy](#privacy) | [Partial](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | [Yes](https://trustportal.cisco.com/c/dam/r/ctp/docs/privacydatasheet/collaboration/cisco-webex-meetings-privacy-data-sheet.pdf) | [TBD] | [TBD] | [TBD] | [TBD]
-[E2E Encryption](#e2e-encryption) | [No](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) | Maybe<sup>[f](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD]
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Advanced Features**</td></tr>
+[File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
+[Recording](#recording) | [Yes](https://support.zoom.us/hc/en-us/sections/200208179-Recording) | Maybe<sup>[g](#webex-notes)</sup>
+[Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) | [TBD]
+[Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[h](#webex-notes)</sup>
+[Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#desktop-native-app) (hover for details, **recommended in bold**)</td></tr>
+Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
+Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
+macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
+Presenter Browser | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
+Attendee Browser | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
+Presenter Mobile | [And]/[iOS] | [And]/[iOS]
+Attendee Mobile | [And]/[iOS] | [And]/[iOS]
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
+[Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | No
+[Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://help.webex.com/en-us/8zi8tq/Cisco-Webex-Best-Practices-for-Secure-Meetings-Hosts)
+[Lock Meeting](#lock-meeting) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/) | [Maybe](https://help.webex.com/en-us/zcvgyc/Webex-Teams-Lock-or-Unlock-Your-Meeting)
+[Expel Attendee](#expel-attendee) | [Yes](https://blog.zoom.us/wordpress/2014/06/03/spotlight-security/)|[Partial](https://help.webex.com/en-us/WBX30745/How-Do-I-Expel-a-Meeting-Participant)<sup>[d](#webex-notes)</sup>
+[Expel Recovery](#expel-recovery) | [Yes](https://support.zoom.us/hc/en-us/articles/360021851371-Allowing-Removed-Participants-or-Panelists-to-Rejoin) | Yes
+[Privacy](#privacy) | [Partial](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | [Yes](https://trustportal.cisco.com/c/dam/r/ctp/docs/privacydatasheet/collaboration/cisco-webex-meetings-privacy-data-sheet.pdf)
+[E2E Encryption](#e2e-encryption) | [No](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) | Maybe<sup>[f](#webex-notes)</sup>
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Advanced Features**](#advanced-features)</td></tr>
 [Personal rooms](#personal-rooms)
 [Breakout rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) | [Yes](https://www.bluejeans.com/blog/introducing-bluejeans-breakout-sessions) | [Yes](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-rooms-updated/ba-p/323848) | No | No
-[Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[f](#zoom-notes)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[i](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD]
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
-[Mute all A/V](#mute-all) | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events) | [TBD] | [TBD] | [TBD] | [TBD]
-[Mute A/V entry](#mute-on-entry) | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No | [TBD] | [TBD] | [TBD] | [TBD]
-[Disable entry/exit<br>sounds](#disable-chimes) | Yes | Yes | [TBD] | [TBD] | [TBD] | [TBD]
-[Attendee count](#attendee-count) | Yes | No | [TBD] | [TBD] | [TBD] | [TBD]
-[Host exit wont<br>end meeting](#host-exit-wont-end-meeting) | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends) | [TBD] | [TBD] | [TBD] | [TBD]
-[Exceed size<br>notification](#exceed-size-notification) | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**[Experiences in actual use (subjective)](#experiences-in-actual-use)**</td></tr>
-Max. size | [TBD] | 650 | [TBD] | [TBD] | [TBD] | [TBD]
-Years of use | [TBD] | 5 | [TBD] | [TBD] | [TBD] | [TBD]
-Reliability | Good | Good | [TBD] | [TBD] | [TBD] | [TBD]
-Useability | Excellent |  Good | [TBD] | [TBD] | [TBD] | [TBD]
-A/V quality | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
-[Technical project<br>meetings](#technical-project-meetings) | Good | Excellent | [TBD] | [TBD] | [TBD] | [TBD]
-[Hands-on<br>trainings](#hands-on-trainings) | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
-[Pair<br>programming](#pair-programming) | Excellent | Excellent | [TBD] | [TBD] | [TBD] | [TBD]
-[Interviewing](#interviewing) | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
-[Hack-a-thons](#hack-a-thons) | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
-[Virtual water<br>cooler](#virtual-water-cooler) | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD]
+[Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[f](#zoom-notes)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[i](#webex-notes)</sup>
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
+[Mute all A/V](#mute-all) | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events)
+[Mute A/V entry](#mute-on-entry) | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No
+[Disable entry/exit<br>sounds](#disable-chimes) | Yes | Yes
+[Attendee count](#attendee-count) | Yes | No
+[Host exit wont<br>end meeting](#host-exit-wont-end-meeting) | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends)
+[Exceed size<br>notification](#exceed-size-notification) | [TBD] | [TBD]
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Experiences in actual use (subjective)**](#experiences-in-actual-use)</td></tr>
+Max. size | [TBD] | 650
+Years of use | [TBD] | 5
+Reliability | Good | Good
+Useability | Excellent |  Good
+A/V quality | [TBD] | [TBD]
+[Technical project<br>meetings](#technical-project-meetings) | Good | Excellent
+[Hands-on<br>trainings](#hands-on-trainings) | [TBD] | [TBD]
+[Pair<br>programming](#pair-programming) | Excellent | Excellent
+[Interviewing](#interviewing) | [TBD] | [TBD]
+[Hack-a-thons](#hack-a-thons) | [TBD] | [TBD]
+[Virtual water<br>cooler](#virtual-water-cooler) | [TBD] | [TBD]
 
 ## The Basics
 
@@ -342,8 +342,6 @@ with automatic captioning.
 Some products offer the ability to stream a *live* session to platfroms like
 YouTube or Facebook. Of course, this also means that the session will be
 effectively be *recorded* but only on that platform.
-
-### Remote control
 
 ## Security
 
@@ -615,19 +613,6 @@ cannot use this option.
 * (h) WebEx plans to offer *automatic*, AI-assisted closed capationing as part of an
 add-on product called *WebEx Assistant* later this year.
 * (i) WebEx virtual background currently works only on mobile platforms.
-
-<!--- Verticle whitespace to ensure clicking on footnotes produces
-      a view of a "single page" of notes --->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-##### GoToMeeting Notes
-
-* (a) [GoToMeeting](https://www.gotomeeting.com) is part of a larger line of products
-including GoToTraining and GoToWebinar. We consider here only the features in
-the GoToMeeting product. Some features not availabe in GoToMeeting are available
-in these other products.
-* (b) GoToMeeting offers a 14-day free trial.
 
 <!--- Verticle whitespace to ensure clicking on footnotes produces
       a view of a "single page" of notes --->
