@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_RseStoriesPodcast.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_042320_podcast.jpg' />
  
 #### Contributed by [@vsoch](https://github.com/vsoch "@vsoch on GitHub")
 
