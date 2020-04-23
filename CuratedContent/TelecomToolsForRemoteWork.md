@@ -44,17 +44,17 @@ In the table below...
 * Abbreviations have balloon hints which are revealed by hovering the mouse over them.
 * [TBD] means to be done.
 
-Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[a](#gotomeeting-notes)</sup> | [Skype Business](https://www.skype.com/en/)
+Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> | [BlueJeans](https://www.bluejeans.com) | [MS Teams](https://teams.microsoft.com/start) | [GoToMeeting](https://www.gotomeeting.com)<sup>[a](#gotomeeting-notes)</sup> | [Skype Business](https://www.skype.com/en/business)<sup>[a](#skype-for-business-notes)</sup>
 --- | --- | --- | --- | --- | --- | ---
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
 [Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) | [TBD] | [TBD] | [Partial](https://www.gotomeeting.com/try)<sup>[b](#gotomeeting-notes)</sup> | [TBD]
 [Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 | [TBD] | [TBD] | 12/16 | [TBD]
 [Size Limit](#size-limits) | 100-1000<sup>[a](#zoom-notes)</sup> | 50-200<sup>[b](#webex-notes),[c](#webex-notes)</sup> | [TBD] | [TBD] | 150/250 | [TBD]
 [Length Limit](#length-limits) | &le;24h<sup>[b](#zoom-notes)</sup> | &le;24h | [TBD] | [TBD] | [TBD] | [TBD]
-[Join Device](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System) | [A]/[W]/[M]/[L]/[VCS] | [TBD] | [TBD] | [TBD]
-[No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[c](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[e](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [TBD]
+[Join Device](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System) | [A]/[W]/[M]/[L]/[VCS] | [TBD] | [TBD] | [A]/[W]/[M]/[L]/[VCS]
+[No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[c](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[e](#webex-notes)</sup> | [TBD] | [TBD] | [TBD] | [Partial](https://support.office.com/en-us/article/join-a-skype-for-business-meeting-with-skype-meetings-app-skype-for-business-web-app-4828ad18-ed21-422a-a870-94d676d4b72a#Version=Skype-for-Business-Web-App)<sup>[b](#skype-for-business-notes)</sup>
 [HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support) | [TBD] | [TBD] | [TBD] | [TBD]
-[Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
+[Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [TBD]
 [Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting) | [TBD] | [TBD] | [TBD] | [TBD]
 &nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#content-sharing)</td></tr>
 [Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting) | [TBD] | [TBD] | [TBD] | [TBD]
@@ -628,6 +628,18 @@ including GoToTraining and GoToWebinar. We consider here only the features in
 the GoToMeeting product. Some features not availabe in GoToMeeting are available
 in these other products.
 * (b) GoToMeeting offers a 14-day free trial.
+
+##### Skype for Business Notes
+
+* (a) [Skype for Business](https://www.skype.com/en/business/) is the
+business version of the Skype system which as of April, 2020 is still the
+offically supported tool that is used by Sandia National Labs.  (But this will
+be replaced by MS Teams in 2021).
+
+* (b) Skype for Business can be used from the browser but one must [install a
+browser APP](https://support.office.com/en-us/article/join-a-skype-for-business-meeting-with-skype-meetings-app-skype-for-business-web-app-4828ad18-ed21-422a-a870-94d676d4b72a#Version=Skype-for-Business-Web-App).
+With this browser APP many features such as sharing the screen, controling the
+whiteboard, or many others are not supported.
 
 <!--- Verticle whitespace to ensure clicking on footnotes produces
       a view of a "single page" of notes --->
