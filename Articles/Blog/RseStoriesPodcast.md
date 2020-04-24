@@ -112,7 +112,8 @@ Vanessa Sochat is a research software engineer for the Stanford Research Computi
 
 
 <!---
-Publish: Preview
+Publish: yes
+RSS update: 2020-04-24
 Categories: Collaboration, Planning
 Topics: Projects and Organizations, Software Engineering
 Tags: bssw-blog-article
