@@ -6,7 +6,7 @@
  
 #### Contributed by [@vsoch](https://github.com/vsoch "@vsoch on GitHub")
 
-#### Publication date: April xx, 2020
+#### Publication date: April 24, 2020
 
 ### We look to experts for knowledge, but do they know the whole picture?
 
@@ -31,7 +31,11 @@ stories about their work, but people just didn't have the time to sit down and w
 I then spent a few weeks writing down all the different kinds of research software
 engineers that I knew about, and I created a video:
 
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/trAfA9VWLTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
 
 That still reflected my oen narrow life experience -- I could never imagine the stories
 that I'm just not familiar with. It wasn't good enough. 
@@ -106,9 +110,9 @@ Vanessa Sochat is a research software engineer for the Stanford Research Computi
 
 
 <!---
-Publish: No
-Categories: reliability
-Topics: rseng
+Publish: Preview
+Categories: Collaboration, Planning
+Topics: Projects and Organizations, Software Engineering
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
