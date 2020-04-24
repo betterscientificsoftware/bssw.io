@@ -4,16 +4,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 Left: blog_posts/maintainers-drive-software-sustainability
-Slide1 Right: images/raw/master/Blog_0420_Map.jpg
-Slide2 Left: blog_posts/scientific-software-projects-and-their-communities
-Slide2 Right: items/resources-for-maximizing-remote-working
-Slide3 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
-Slide3 Right: images/raw/master/Blog_0320_COVID19.png
-Slide4 Left: events/strategies-for-working-remotely-advice-from-colleagues-with-experience
-Slide4 Right: events/webinar-accelerating-numerical-software-libraries-with-multi-precision-algorithms  
-Slide5 Left: blog_posts/spreading-ideas-about-better-scientific-software
-Slide5 Right: images/raw/master/Blog_0225_Computational.jpg
+Slide1 Left: blog_posts/blog_posts/research-software-engineer-stories
+Slide1 Right: images/raw/master/Blog_042320_podcast.jpg
+Slide2 Left: blog_posts/maintainers-drive-software-sustainability
+Slide2 Right: images/raw/master/Blog_0420_Map.jpg
+Slide3 Left: blog_posts/scientific-software-projects-and-their-communities
+Slide3 Right: items/resources-for-maximizing-remote-working
+Slide4 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
+Slide4 Right: images/raw/master/Blog_0320_COVID19.png
+Slide5 Left: events/strategies-for-working-remotely-advice-from-colleagues-with-experience
+Slide5 Right: events/webinar-accelerating-numerical-software-libraries-with-multi-precision-algorithms  
 --->
 
 <!---
