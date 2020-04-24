@@ -4,7 +4,7 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_042320_podcast.jpg' />
  
-#### Contributed by [@vsoch](https://github.com/vsoch "@vsoch on GitHub")
+#### Contributed by [Vanessa Sochat](https://github.com/vsoch "@vsoch on GitHub")
 
 #### Publication date: April 24, 2020
 
@@ -17,14 +17,14 @@ Nor do they reflect the experiences of many of my peers. Instead, they present a
 understanding of a role that is immensely rich and changing. I have seen RSEs working at national and academic labs, involved in everything from documentation and user support to high-performance computing and
 open source development. 
 What I see in the real world
-doesn't reflect what the experts are advocating -- research software engineers do not
+doesn't reflect what the experts are advocating — research software engineers do not
 always exist on some dimension between software engineer and researcher.
 
 ### If there is missing information, where can we find it?
 
 This of course isn't a new problem.  I have been chewing on it for a few months now.
-How can we best define what an RSE is --  not from some select pool of experts, but 
-from RSEs themselves? I first ventured into tool building: I \ created the 
+How can we best define what an RSE is —  not from some select pool of experts, but 
+from RSEs themselves? I first ventured into tool building: I created the 
 [RSE Phenotype Generator](https://rseng.github.io/rse-phenotype/) and tried to
 encourage people to use it. They largely didn't. I also tried encouraging them to write
 stories about their work, but people just didn't have the time to sit down and write a small article.
@@ -37,16 +37,16 @@ engineers that I knew about, and I created a video:
 
 <br>
 
-That still reflected my oen narrow life experience -- I could never imagine the stories
+That still reflected my own narrow life experience — I could never imagine the stories
 that I'm just not familiar with. It wasn't good enough. 
 I needed a mechanism that allows the research software engineers to tell their own stories without 
 requiring much of their time. And I wanted a format in which the stories would be easy to digest, not overewhelming
-us with yet more reading material. Then the answer hit me -- and it was such a simple idea. 
+us with yet more reading material. Then the answer hit me — and it was such a simple idea. 
 Whether we go for a run
 or embark on a daily commute, the podcast is  music
-for our ears. And so I decided -- without much thought about
+for our ears. And so I decided — without much thought about
 the immense amount of work it takes to devise, manage, and maintain a podcast, 
-schedule people, edit audio, and edit it again -- that I would create such a podcast.
+schedule people, edit audio, and edit it again — that I would create such a podcast.
 
 ### How do we do something we've never done before?
 
@@ -58,7 +58,7 @@ and then how to register it. For recording technology, I went to the tools that 
 and wound up using a Zoom meeting to record the audio and  [Audacity](https://www.audacityteam.org/) to edit it.
 And that largely was it! I follow the guideline "Do one's best and stay away from striving
 for perfection, especially with audio recording and editing." The RSE Stories podcast,
-being dobne entirely  by one software engineer, is not going to be on the same
+being done entirely  by one software engineer, is not going to be on the same
 level as some of my favorite (professionally created) podcasts, but this is OK. 
 
 ### So what is a research software engineer?
@@ -73,7 +73,7 @@ It's about understanding the human element and putting time into undervalued res
 experiences fun and teaching people that it's okay to ask for help. It's about being okay that 98 out of the 100 things you
 try will not change how people think. Given the current state of the world, it's also about advocating for yourself,
 taking care of yourself, and knowing when to say no or step away from something that is no longer meaningful to your
-community or to you personally. If you have a vision for how you want the world to be, you have to be proactive -- and passionate. 
+community or to you personally. If you have a vision for how you want the world to be, you have to be proactive — and passionate. 
 It's easy to get distracted by the trending technologies of the moment and trying to fit into a mold for how
 you think you are expected to be. I know that these hard-working engineers, dreamers, and advocates are out 
 there, and this is what I find so inspiring and what compells me to continue the podcast.
