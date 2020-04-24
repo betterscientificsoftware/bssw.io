@@ -19,12 +19,12 @@ would need a source different from publication to derive our truth? What exactly
 research software engineer anyway? Did I know? I had seen RSEs in high performance computing,
 open source development, and of course at national and academic labs. These folks
 worked on everything from documentation to user support. What I saw in the real world
-didn't reflect what the experts were advocating - research software engineers did not
+didn't reflect what the experts were advocating — research software engineers did not
 always exist on some dimension between software engineer and researcher.
 
 ### If there is missing information, where can we find it?
 
-This of course wasn't a new problem - I had been chewing on it for a few months now.
+This of course wasn't a new problem — I had been chewing on it for a few months now.
 How could we best define what an RSE is, but not from some select pool of experts, but 
 from RSEs themselves? I had first ventured into tool building and created the 
 [RSE Phenotype Generator](https://rseng.github.io/rse-phenotype/) and tried to
@@ -39,11 +39,11 @@ engineers that I knew about, and created a video:
 
 <br>
 
-That still reflected my narrow life experience - I could never imagine the stories
+That still reflected my narrow life experience — I could never imagine the stories
 that I'm just not familiar with. It wasn't good enough. How could I tell all of these real stories?
-It hit me like a pillow falling from the ceiling - and it was such a simple idea! 
+It hit me like a pillow falling from the ceiling — and it was such a simple idea! 
 The research software engineers needed to tell their own stories, and in a format
-that wouldn't ask much of their time. In parallel the stories needed to be easy to digest -
+that wouldn't ask much of their time. In parallel the stories needed to be easy to digest —
 many of us are overwhelmed with reading material, but what about when we go for runs?
 Or embark on a daily commute? This is when the medium of a podcast is lovely music
 for our ears. I decided in a split second moment, and without much thought about
