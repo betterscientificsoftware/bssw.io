@@ -1,16 +1,7 @@
-### Notes for content development
-
-Things to look out for
-
-* Are we considering the right tools (top row)?
-* Are we considering the right features (left column)?
-* Are we curating the *best* links for the associated info?
-* We agreed that use-cases and etiqutte are likely best handled as a sep. article
-* For *real-experiences* section of table, lets take the max/union of
-  experiences over all *authors* of this content. For subjective *ratings*,
-  maybe we should vote.
-
 # Virtual Meeting Tools and Features for the HPC/CSE Community
+
+The information provided here will be periodically updated to include either
+more products or more features.
 
 There is a wide array of [Teleconferencing](https://en.wikipedia.org/wiki/Teleconference)
 products. Many vendors offer products for *virtual meetings*. However, vendors
@@ -33,6 +24,8 @@ which have some degree of variability in support across vendors.
 
 In the table below...
 
+* We've tried to provide as many links as possible to information relevant to 
+  a given feature.
 * *Partial* means some support for the feature exists but not at the level of
   support one would expect.
 * *Maybe* means the feature may exist depending on other factors outside of
@@ -68,7 +61,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) | [TBD]
 [Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[h](#webex-notes)</sup>
 [Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#desktop-native-app) (hover for details, **recommended in bold**)</td></tr>
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
 macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
@@ -99,7 +92,7 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 Max. size | [TBD] | 650
 Years of use | [TBD] | 5
 Reliability | Good | Good
-Useability | Excellent |  Good
+Usebility | Excellent |  Good
 A/V quality | [TBD] | [TBD]
 [Technical project<br>meetings](#technical-project-meetings) | Good | Excellent
 [Hands-on<br>trainings](#hands-on-trainings) | [TBD] | [TBD]
@@ -123,7 +116,7 @@ with the vendor before logging in and this in turn may require users to obtain a
 if only the free one.
 
 If you do need to *host* meetings *and* you do not already have a plan through your home
-orginization, the lowest-level paid plan in any of these products is probably sufficient
+organization, the lowest-level paid plan in any of these products is probably sufficient
 for most project's needs.
 
 ### Plan pricing
@@ -176,7 +169,7 @@ unclear.
 
 ### No install option
 
-It can be conveninent to provide your meeting participants with a way of attending that
+It can be convenient to provide your meeting participants with a way of attending that
 does not require them to download or install any new software. This is typically possible
 only if they connect through a web browser. Even then, some vendor's products may require
 a browser extension to be downloaded. In addition, this approach also typically means
@@ -206,7 +199,7 @@ definition video is supported, the networks will not support it.
 ### Test meeting
 
 For first time users, without actually participating in a meeting it can be difficult
-to know of sure if the audio and video of your particulary configuration will work with
+to know of sure if the audio and video of your particular configuration will work with
 the vendor's product. A test meeting is a useful way to test your particular setup to
 ensure it works, at a basic level, with the vendor's software and service. You may not
 be able to test all features but you should be able to test basic audio and video support.
@@ -215,7 +208,7 @@ audio and video each time prior to connecting to a new meeting.
 
 ### Free dial-in option
 
-For those who wish to connect audio via ordinary telphone (landline or cell), it can be
+For those who wish to connect audio via ordinary telephone (landline or cell), it can be
 convenient to provide your meeting participants with a toll-free option. This feature may
 be particularly important for international participants. While this feature is common
 across many vendor's products, enabling it typically involves additional costs. However,
@@ -258,7 +251,7 @@ participants can doodle content and paste images they captured locally.
 For some, a shared whiteboard is more than just a realization shared drawing area
 where content is created by a mouse a keyboard. It includes the *integrations* necessary
 to create content using a tablet & pen-based drawing gestures with touch sensitivity, etc.
-No vritual meeting vendors provide such an experience in their shared whiteboard
+No virtual meeting vendors provide such an experience in their shared whiteboard
 features. In fact, there are few *dedicated* shared whiteboard solutions available
 that work on all platforms that support tablet & pan-based drawing gestures.
 
@@ -297,7 +290,7 @@ window allowing all participants to easily go there and vote their response.
 File sharing allows participants to share whole files which attendees can then
 download to their own systems. There are varying levels of support for this
 among the products often restricted by file types (e.g. extensions). Some
-vendor's provide support for scripts and even augumented reality files. File
+vendor's provide support for scripts and even augmented reality files. File
 sharing, especially executable scripts, may introduce additional security
 concerns.
 
@@ -378,7 +371,7 @@ a locked meeting cannot re-join either.
 
 ### Expel Attendee
 
-*Expeling* or *removing* an attendee is typically a power that only meeting
+*Expelling* or *removing* an attendee is typically a power that only meeting
 hosts have. It is important for hosts to know how to do this *quickly*. If for
 some reason the meeting is *bombed*, quick action from the host can correct
 the situation before it gets out of hand.
@@ -394,9 +387,9 @@ rejoin with the same identity.
 
 ### Privacy
 
-[Privacy is related to but also distinct from security](https://www.hiv.gov/blog/difference-between-security-and-privacy-and-why-it-matters-your-program). While security is about safegaurding data
+[Privacy is related to but also distinct from security](https://www.hiv.gov/blog/difference-between-security-and-privacy-and-why-it-matters-your-program). While security is about safeguarding data
 of any kind, privacy is specifically about safeguarding
-[*personally identifieable information (PII)*](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act)
+[*personally identifiable information (PII)*](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act)
 as well as a person's rights about how that information is managed by a third
 party.
 
@@ -422,20 +415,19 @@ is a system of communication where only the communicating users have the ability
 decrypt and read the messages. If this feature is essential, readers should take
 caution to read as much as possible about how a given product supports E2EE.
 
-### Laptop/Deskside Web Client Compatability
+### Compatibility
 
 The web client typically allows users to join a meeting through their browser.
 A web client is often advantageous because it *usually* allows users to avoid
 having to install software on their machine. Sometimes, however, the user may
 have to download a browser *extension* to support the web client. In addition,
 web clients often **do not** support features needed by a meeting *host* or
-*presenter*. They are available primary to support meeting *attendees* only.
+*presenter*. They are available primarily to support meeting *attendees* only.
 
-### Recommended Browser
+### Recommended
 
-The *recommended* browser is either the browser that supports the *most*
+The *recommended* platform is either the OS or browser that supports the *most*
 features or is the one recommended by the vendor.
-
 
 ## Advanced features
 
@@ -478,8 +470,8 @@ you take of your office when it was once clean.
 
 ## Experiences in actual use
 
-In this section, we try to capture some high level, subjective assessements,
-of the products in useful terms as well as the products percieved suitability in
+In this section, we try to capture some high level, subjective assessments,
+of the products in useful terms as well as the products perceived suitability in
 various usage scenarios based on experiences from actual use.
 
 We use a 4-point Likert subjective quality scale here
@@ -549,7 +541,7 @@ time(s). The host's job is to start and end the virtual water cooler event at th
 upon time(s) and others can be free to decide to join or not as they wish. Another
 aspect to virtual water cooler chats is that the host may also need to perform some
 moderator/facilitator duties. This is because many of the visual cues about who wants
-to speak at any given moment are often missing and it becomes necessary to take a slighly
+to speak at any given moment are often missing and it becomes necessary to take a slightly
 more formal approach with someone (e.g. the host) helping to moderate and facilitate
 the discussion. There are many
 [other ideas](https://medium.com/@aarondinin/how-to-enable-water-cooler-innovation-for-remote-working-teams-2dfb3d50b1ab)
@@ -567,7 +559,7 @@ maintain it. We intend to make routine updates.
 * [Virtual Conferences: A Guide to Best Practices](https://www.acm.org/virtual-conferences)
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
-<!--- Verticle whitespace to ensure clicking on footnotes produces
+<!--- Vertical whitespace to ensure clicking on footnotes produces
       a view of a "single page" of notes --->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -587,7 +579,7 @@ cannot use this option.
 * (f) Zoom virtual backgrounds can be *videos*.
 
 
-<!--- Verticle whitespace to ensure clicking on footnotes produces
+<!--- Vertical whitespace to ensure clicking on footnotes produces
       a view of a "single page" of notes --->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -601,7 +593,7 @@ not supported by *WebEx Meetings* may be supported in their other products.
 upgraded to 100 participants and 24 hours.
 * (c) Apart from the selected plan, a number of other factors may effect a WebEx meeting's
 maximum number of participants.
-WebEx meetings can have up to 1,000 *interactive* partcipants and up to 3,000 *view-only*
+WebEx meetings can have up to 1,000 *interactive* participants and up to 3,000 *view-only*
 participants. Meeting capacity varies a lot by product and by how a site administrator,
 if applicable, configures an *enterprise* plan.
 * (d) It appears *expelled* attendees may rejoin as long as the meeting has not been
@@ -610,11 +602,11 @@ if applicable, configures an *enterprise* plan.
 cannot use this option.
 * (f) E2E encryption appears to be available only in WebEx's *Enterprise* plan.
 * (g) Cloud recording is not available in WebEx's free plan.
-* (h) WebEx plans to offer *automatic*, AI-assisted closed capationing as part of an
+* (h) WebEx plans to offer *automatic*, AI-assisted closed captioning as part of an
 add-on product called *WebEx Assistant* later this year.
 * (i) WebEx virtual background currently works only on mobile platforms.
 
-<!--- Verticle whitespace to ensure clicking on footnotes produces
+<!--- Vertical whitespace to ensure clicking on footnotes produces
       a view of a "single page" of notes --->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
