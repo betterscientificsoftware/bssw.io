@@ -37,7 +37,7 @@ each of the numbered steps in the description below.
    * Creating and assigning milestones to various issues.
    * Recording notes on progress in comments of various items in progress.
    * Merging to master any PRs that are known ready.
-1. New issues are reviewed and one of the following actions is taken:
+1. New issues are reviewed in *Idea Backlog* and one of the following actions is taken:
    * The issue is rejected for one of a variety of reasons. The reason is
      recorded in a comment and the issue is labeled as `no interest`, is closed,
      and removed from the "Curated Content" project board.
@@ -53,20 +53,26 @@ each of the numbered steps in the description below.
      count.
    * Any more than 30 days old that have *not* garnered sufficient interest are labeled
      as `no interest` and closed.
-   * Any issues with sufficient interest are either moved to *Ready for Assignment* or *Ready to Write*. 
-     An issue is moved to *Ready for Assignment* in case there is no author or no EB member available for that 
-     issue. Once an author and an EB member is identified, the issue can move from *Ready for Assignment* 
-     to *Ready to Write*. In contrast, a *Ready to Write* issue must have an **Author** and an **EB Member** 
-     who is different from the **Author**. The **EB Member** will be the assignee of the issue. The **Author** will be indicated
-     by a reference at the top of the first comment in the issue (*not* an @ reference). Finally, a
-     deadline is set by assigning a milestone. 
-1. Issues in *Ready to Write* are handled as follows
+   * Any issues with sufficient interest are either moved to *Ready For Assignment* or *Ready To Write*. 
+     An issue with sufficient interest but no ready author or EB member is moved to *Ready For Assignment*.
+     In contrast, a *Ready To Write*  must have an **Author** and an **EB Member** who 
+     is different from the **Author**.
+     The **EB Member** will be the assignee of the issue. The **Author** will be indicated
+     by a reference at the top of the first comment in the issue (*not* an **@** reference, 
+     use  `Author:Foo1`, `Author:Foo2` to allow for searches). Finally, a deadline is set by
+     assigning a milestone.
+1. Issues in *Ready For Assignment* are handled as follows
+   * An issue is moved to *Ready To Write* if a EB member is set as assignee and confirmed author 
+     recorded in main issue body in the first line. 
+1. Issues in *Ready To Write* are handled as follows
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
    * Issues that are woefully beyond deadline are labeled as `no-development` and closed.
    * **Author**s submit Pull Requests (PR) for completed work
-     * Add GitHub issue `#<issue-id>` to PR comment (to link PR and Issue).
-     * Manually add to *Ready to Writes* on *Content Development* project board.
+     * Add GitHub issue `#<issue-id>` to PR 
+     * Manually add to *Ready To Write* on *Content Development* project board.
+     * Copy details from the issue to the PR: (1) "Assignee" field to indicate EB member, 
+       (2) Author name is indicated on first line. 
      * Close the associated Issue, add comment that continued discussion will occur in the 
        PR `#<pr-id>`, and remove from the "Curated Content" board. (Unless a PR was created
        from the start instead of an Issue, see below.)
@@ -76,14 +82,17 @@ each of the numbered steps in the description below.
 1. Pull Requests in *Item Review* are handled as follows.
    * Unapproved PRs are reviewed on the spot and approved or not. If no approval is
      forthcoming, revisions required by author are explained in review comments in the
-     PR (if they have not already py preceding review(s))
+     PR (if they have not already by preceding review(s)).
    * Approved PRs
      * **Editorial Assistance** review is requested assigning an **EA** (1 for curated content, 2 for blog).
      * **EA** may request or explicitly revise the content with commits to the PR.
      * **Author** should indicate approval (or not) of any changes made by **EA** via
        comments in the PR.
-   * Approved PRs with **EA** and **Author** approval are merged and metadata is added
-     in preparation for publication.
+     * Approved PRs with **EA** and **Author** approval are merged, metadata is added
+       in preparation for publication, and its moved to *Ready To Publish*. 
+1. Pull Requests in *Ready To Publish*
+   * A PR is moved from *Ready To Publish* to *Done* once (1) Formatting is checked on 
+     preview site (2) Metadata is complete, (3) Metadata "publish" is set to "yes"
 1. Milestones (deadlines) are reviewed to ensure any items intended for a given
    date are either completed, have reliable commitments they will be completed
    by deadline or are re-assigned a new milestone deadline.
@@ -102,7 +111,7 @@ and subsequently issues in columns further to the left.
 ###### If a PR is Added Instead of an Issue for a Suggeted Contribution
 If a contributor creates and posts a PR for a suggeted contribution instead of using an Issue
 as described above, then the PR will be treated as an Issue in the above process starting
-in the *Idea Backlog.  If the PR gets to the *Ready to Write* stage, then there is no issue
+in the *Idea Backlog.  If the PR gets to the *Ready To Write* stage, then there is no issue
 to close so the same PR is just kept open and comments in that PR continue.
 
 ###### Light Weight Process for Authors
