@@ -54,8 +54,8 @@ each of the numbered steps in the description below.
    * Any more than 30 days old that have *not* garnered sufficient interest are labeled
      as `no interest` and closed.
    * Any issues with sufficient interest are either moved to *Ready for Assignment* or *Ready to Write*. 
-     An issue is moved to *Ready to Assignment* in case there is no author or no EB member available for that 
-     issue. Once an author as well as EB member is identified, the issue can move from *Ready for Assignment* 
+     An issue is moved to *Ready for Assignment* in case there is no author or no EB member available for that 
+     issue. Once an author and an EB member is identified, the issue can move from *Ready for Assignment* 
      to *Ready to Write*. In contrast, a *Ready to Write* issue must have an **Author** and an **EB Member** 
      who is different from the **Author**. The **EB Member** will be the assignee of the issue. The **Author** will be indicated
      by a reference at the top of the first comment in the issue (*not* an @ reference). Finally, a
