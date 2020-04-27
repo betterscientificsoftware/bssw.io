@@ -37,7 +37,7 @@ each of the numbered steps in the description below.
    * Creating and assigning milestones to various issues.
    * Recording notes on progress in comments of various items in progress.
    * Merging to master any PRs that are known ready.
-1. New issues are reviewed and one of the following actions is taken:
+1. New issues are reviewed in *Idea Backlog* and one of the following actions is taken:
    * The issue is rejected for one of a variety of reasons. The reason is
      recorded in a comment and the issue is labeled as `no interest`, is closed,
      and removed from the "Curated Content" project board.
@@ -56,8 +56,14 @@ each of the numbered steps in the description below.
    * Any issues with sufficient interest are moved to *In Progress*. An *In Progress* issue
      must have an **Author** and an **EB Member** who is different from the **Author**.
      The **EB Member** will be the assignee of the issue. The **Author** will be indicated
-     by a reference at the top of the first comment in the issue (*not* an @ reference). Finally, a
-     deadline is set by assigning a milestone.
+     by a reference at the top of the first comment in the issue (*not* an **@** reference, 
+     use  `Author:Foo1`, `Author:Foo2` to allow for searches). Finally, a deadline is set by
+     assigning a milestone.
+   * An issue with sufficient interest but no ready author or EB member is moved to *Ready For 
+     Development*.
+1. Issues in *Ready For Development* are handled as follows
+   * An issue is moved to *In Progress* if a EB member is set as assignee and confirmed author 
+     recorded in main issue body in the first line.
 1. Issues in *In Progress* are handled as follows
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
@@ -65,6 +71,8 @@ each of the numbered steps in the description below.
    * **Author**s submit Pull Requests (PR) for completed work
      * Add GitHub issue `#<issue-id>` to PR comment (to link PR and Issue).
      * Manually add to *In Progress* on *Content Development* project board.
+     * Copy details from the issue to the PR: (1) "Assignee" field to indicate EB member, 
+       (2) Author name is indicated on first line. 
      * Close the associated Issue, add comment that continued discussion will occur in the 
        PR `#<pr-id>`, and remove from the "Curated Content" board. (Unless a PR was created
        from the start instead of an Issue, see below.)
@@ -74,14 +82,17 @@ each of the numbered steps in the description below.
 1. Pull Requests in *Item Review* are handled as follows.
    * Unapproved PRs are reviewed on the spot and approved or not. If no approval is
      forthcoming, revisions required by author are explained in review comments in the
-     PR (if they have not already py preceding review(s))
+     PR (if they have not already by preceding review(s)).
    * Approved PRs
      * **Editorial Assistance** review is requested assigning an **EA** (1 for curated content, 2 for blog).
      * **EA** may request or explicitly revise the content with commits to the PR.
      * **Author** should indicate approval (or not) of any changes made by **EA** via
        comments in the PR.
-   * Approved PRs with **EA** and **Author** approval are merged and metadata is added
-     in preparation for publication.
+     * Approved PRs with **EA** and **Author** approval are merged, metadata is added
+       in preparation for publication, and its moved to *Ready To Publish*. 
+1. Pull Requests in *Ready To Publish*
+   * A PR is moved from *Ready to Publish* to *Done* once (1) Formatting is checked on 
+     preview site (2) Metadata is complete, (3) Metadata "publish" is set to "yes"
 1. Milestones (deadlines) are reviewed to ensure any items intended for a given
    date are either completed, have reliable commitments they will be completed
    by deadline or are re-assigned a new milestone deadline.
