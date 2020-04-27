@@ -53,18 +53,20 @@ each of the numbered steps in the description below.
      count.
    * Any more than 30 days old that have *not* garnered sufficient interest are labeled
      as `no interest` and closed.
-   * Any issues with sufficient interest are moved to *In Progress*. An *In Progress* issue
-     must have an **Author** and an **EB Member** who is different from the **Author**.
-     The **EB Member** will be the assignee of the issue. The **Author** will be indicated
+   * Any issues with sufficient interest are either moved to *Ready for Assignment* or *Ready to Write*. 
+     An issue is moved to *Ready to Assignment* in case there is no author or no EB member available for that 
+     issue. Once an author as well as EB member is identified, the issue can move from *Ready for Assignment* 
+     to *Ready to Write*. In contrast, a *Ready to Write* issue must have an **Author** and an **EB Member** 
+     who is different from the **Author**. The **EB Member** will be the assignee of the issue. The **Author** will be indicated
      by a reference at the top of the first comment in the issue (*not* an @ reference). Finally, a
-     deadline is set by assigning a milestone.
-1. Issues in *In Progress* are handled as follows
+     deadline is set by assigning a milestone. 
+1. Issues in *Ready to Write* are handled as follows
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
    * Issues that are woefully beyond deadline are labeled as `no-development` and closed.
    * **Author**s submit Pull Requests (PR) for completed work
      * Add GitHub issue `#<issue-id>` to PR comment (to link PR and Issue).
-     * Manually add to *In Progress* on *Content Development* project board.
+     * Manually add to *Ready to Writes* on *Content Development* project board.
      * Close the associated Issue, add comment that continued discussion will occur in the 
        PR `#<pr-id>`, and remove from the "Curated Content" board. (Unless a PR was created
        from the start instead of an Issue, see below.)
@@ -100,7 +102,7 @@ and subsequently issues in columns further to the left.
 ###### If a PR is Added Instead of an Issue for a Suggeted Contribution
 If a contributor creates and posts a PR for a suggeted contribution instead of using an Issue
 as described above, then the PR will be treated as an Issue in the above process starting
-in the *Idea Backlog.  If the PR gets to the *In Progress* stage, then there is no issue
+in the *Idea Backlog.  If the PR gets to the *Ready to Write* stage, then there is no issue
 to close so the same PR is just kept open and comments in that PR continue.
 
 ###### Light Weight Process for Authors
