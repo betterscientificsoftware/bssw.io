@@ -53,24 +53,24 @@ each of the numbered steps in the description below.
      count.
    * Any more than 30 days old that have *not* garnered sufficient interest are labeled
      as `no interest` and closed.
-   * Any issues with sufficient interest are moved to *In Progress*. An *In Progress* issue
-     must have an **Author** and an **EB Member** who is different from the **Author**.
+   * Any issues with sufficient interest are either moved to *Ready For Assignment* or *Ready To Write*. 
+     An issue with sufficient interest but no ready author or EB member is moved to *Ready For Assignment*.
+     In contrast, a *Ready To Write*  must have an **Author** and an **EB Member** who 
+     is different from the **Author**.
      The **EB Member** will be the assignee of the issue. The **Author** will be indicated
      by a reference at the top of the first comment in the issue (*not* an **@** reference, 
      use  `Author:Foo1`, `Author:Foo2` to allow for searches). Finally, a deadline is set by
      assigning a milestone.
-   * An issue with sufficient interest but no ready author or EB member is moved to *Ready For 
-     Development*.
-1. Issues in *Ready For Development* are handled as follows
-   * An issue is moved to *In Progress* if a EB member is set as assignee and confirmed author 
-     recorded in main issue body in the first line.
-1. Issues in *In Progress* are handled as follows
+1. Issues in *Ready For Assignment* are handled as follows
+   * An issue is moved to *Ready To Write* if a EB member is set as assignee and confirmed author 
+     recorded in main issue body in the first line. 
+1. Issues in *Ready To Write* are handled as follows
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
    * Issues that are woefully beyond deadline are labeled as `no-development` and closed.
    * **Author**s submit Pull Requests (PR) for completed work
-     * Add GitHub issue `#<issue-id>` to PR comment (to link PR and Issue).
-     * Manually add to *In Progress* on *Content Development* project board.
+     * Add GitHub issue `#<issue-id>` to PR 
+     * Manually add to *Ready To Write* on *Content Development* project board.
      * Copy details from the issue to the PR: (1) "Assignee" field to indicate EB member, 
        (2) Author name is indicated on first line. 
      * Close the associated Issue, add comment that continued discussion will occur in the 
@@ -91,7 +91,7 @@ each of the numbered steps in the description below.
      * Approved PRs with **EA** and **Author** approval are merged, metadata is added
        in preparation for publication, and its moved to *Ready To Publish*. 
 1. Pull Requests in *Ready To Publish*
-   * A PR is moved from *Ready to Publish* to *Done* once (1) Formatting is checked on 
+   * A PR is moved from *Ready To Publish* to *Done* once (1) Formatting is checked on 
      preview site (2) Metadata is complete, (3) Metadata "publish" is set to "yes"
 1. Milestones (deadlines) are reviewed to ensure any items intended for a given
    date are either completed, have reliable commitments they will be completed
@@ -111,7 +111,7 @@ and subsequently issues in columns further to the left.
 ###### If a PR is Added Instead of an Issue for a Suggeted Contribution
 If a contributor creates and posts a PR for a suggeted contribution instead of using an Issue
 as described above, then the PR will be treated as an Issue in the above process starting
-in the *Idea Backlog.  If the PR gets to the *In Progress* stage, then there is no issue
+in the *Idea Backlog.  If the PR gets to the *Ready To Write* stage, then there is no issue
 to close so the same PR is just kept open and comments in that PR continue.
 
 ###### Light Weight Process for Authors
