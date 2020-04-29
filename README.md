@@ -10,7 +10,8 @@ Table of Contents
    * [BSSw.io Content](#README.md)
      * [What to Contribute](WhatToContribute.md)
      * [How to Contribute](HowToContribute.md)	
-     * [Curated Content and Blog Style Guide](ContentStyleGuide.md)
+     * [Content Style Guide](Documentation/ContentStyleGuide.md)
+     * [Content Review Checklist(Documentation/ContentReviewchecklist.md)
    * [BSSw.io Editorial Processes](#README.md)
      * [Curated Content Workflow Process](Site/CuratedContentEditorialWorkflow.md)
 <!--te-->
