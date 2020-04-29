@@ -9,7 +9,7 @@
   * Styling Rules for Content Type
     + [Curated Content](StyleGuide/StylingCuratedContent.md)
     + [Original Article](StyleGuide/StylingOriginalArticle.md)
-    + [Events](StyleGuide/StylingEvent.md)
+    + [Events](StyleGuide/StylingEvents.md)
   * [Understanding Metadata](StyleGuide/Metadata.md)
 
 ## Background
