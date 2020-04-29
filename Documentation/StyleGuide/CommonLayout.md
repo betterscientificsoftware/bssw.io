@@ -1,5 +1,5 @@
 ## Common Layout of All Resources
-- [Table of Contents: Common Layout]
+- **Table of Contents: Common Layout**
 	* [Content Title](#content-title)
 	* [Content Deck](#content-deck)
 	* [Content Description:](#content-description-)
