@@ -3,9 +3,9 @@
 <!-- this is manual table of contents. We need a better way to write one. This is a good tool: https://ecotrust-canada.github.io/markdown-toc/) -->
 - [A Style Guide for BSSw content](#a-style-guide-for-bssw-content)
   * [Background](#background)
-  * [Content Placement in Github](Documentation/StyleGuide/ContentPlacement.md)
-  * [Content Naming in Github](Documentation/StyleGuide/ContentNaming.md)
-  * [Common Layout Description (All Resources)](Documentation/StyleGuide/CommonLayout.md) 
+  * [Content Placement in Github](StyleGuide/ContentPlacement.md)
+  * [Content Naming in Github](StyleGuide/ContentNaming.md)
+  * [Common Layout Description (All Resources)](StyleGuide/CommonLayout.md) 
   * [Styling Rules for Individual Content Type](#styling-rules-for-individual-content-type)
     + [Curated Content:](#curated-content-)
       - [Title](#title)
