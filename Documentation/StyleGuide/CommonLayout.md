@@ -1,5 +1,5 @@
 ## Common Layout of All Resources
-- [Common Layout of All Resources](Documentation/StyleGuide/CommonLayout.md)
+- [Table of Contents: Common Layout]
 	* [Content Title](#content-title)
 	* [Content Deck](#content-deck)
 	* [Content Description:](#content-description-)
