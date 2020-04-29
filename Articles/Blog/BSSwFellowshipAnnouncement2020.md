@@ -15,7 +15,10 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 ## 2020 BSSw Fellows
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_NasirEisty.png' class='logo' /><div class='short_bio'>
+<div class='img_div'>
+  <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_NasirEisty.png' class='logo' />
+  </div>  
+  <div class='short_bio'>
 ### Nasir Eisty, University of Alabama
 Computer Science Graduate Student
 
