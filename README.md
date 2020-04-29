@@ -7,11 +7,11 @@ Table of Contents
 
 <!--ts-->
    * [Who Are We](Site/WhoAreWe.md)
-   * [BSSw.io Content](#table-of-contents)
+   * [BSSw.io Content](#README.md)
      * [What to Contribute](WhatToContribute.md)
      * [How to Contribute](HowToContribute.md)	
      * [Curated Content and Blog Style Guide](ContentStyleGuide.md)
-   * [BSSw.io Editorial Processes]
+   * [BSSw.io Editorial Processes](#README.md)
      * [Curated Content Workflow Process](Site/CuratedContentEditorialWorkflow.md)
 <!--te-->
 
