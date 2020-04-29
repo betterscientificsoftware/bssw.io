@@ -13,7 +13,7 @@ Table of Contents
      * [BSSw.io Site Abbreviations](Documentation/Abbreviations.md)	
      * [Content Style Guide](Documentation/ContentStyleGuide.md)
      * [Content Style Quirks](Documentation/StyleQuirks.md)
-     * [Content Review Checklist(Documentation/ContentReviewchecklist.md)
+     * [Content Review Checklist](Documentation/ContentReviewchecklist.md)
    * [BSSw.io Editorial Processes](#README.md)
      * [Curated Content Workflow Process](Site/CuratedContentEditorialWorkflow.md)
 <!--te-->
