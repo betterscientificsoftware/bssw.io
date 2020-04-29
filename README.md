@@ -2,6 +2,10 @@
 
 **Better Scientific Software** is an organization dedicated to [improving developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [improving software sustainability](Site/Categories/Topics/WhatIsSustainability.md) for computational science and engineering (CSE).
 
+**This github respository is the SOURCE for the main website located at https://bssw.io/. Please navigate to the [main website](https://bssw.io/) for up-to-date content.**
+
+The following below content is presented for the BSSw.io Editorial board and source/backend support team members.
+
 Table of Contents
 =================
 
