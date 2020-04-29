@@ -6,7 +6,7 @@ Table of Contents
 =================
 
 <!--ts-->
-   * [Who Are We](Site/WhoAreWe.md)
+   * [Who are we?](Documentation/WhoAreWe.md)
    * [BSSw.io Content](#README.md)
      * [What to Contribute](WhatToContribute.md)
      * [How to Contribute](HowToContribute.md)	
