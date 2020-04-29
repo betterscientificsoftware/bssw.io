@@ -28,6 +28,7 @@ _BSSw Focus_: Automatic testing in scientific software
 </div>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
+
 ### Damian Rouson, Sustainable Horizons Institute
 Research Engineer
 
