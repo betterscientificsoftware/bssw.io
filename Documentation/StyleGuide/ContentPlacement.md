@@ -4,10 +4,7 @@
 * [Content Naming](ContentNaming.md)
 * [Common Layout Description (All Resources)](CommonLayout.md) 
 * [Styling Rules for Content Type](StylingContentOverview.md)
-    + [Original Article](StylingOriginalArticle.md)
-    + [Curated Content](StylingCuratedContent.md)
-    + [Events](StylingEvents.md)
- * [Understanding Metadata](Metadata.md)
+* [Understanding Metadata](Metadata.md)
 
 
 ## Where to place your content in Github repo?
