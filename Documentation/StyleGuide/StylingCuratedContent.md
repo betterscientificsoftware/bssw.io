@@ -36,7 +36,7 @@ The following sections describe the structure and various parts of a curated con
 
 #### Title declaration
 1. While there are no strict rules for titles; maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
-2. The title of the article also becomes a portion of the **article URL** (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
+2. The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
 3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other would would be sentence-case.
 
 
