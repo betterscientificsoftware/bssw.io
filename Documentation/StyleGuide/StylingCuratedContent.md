@@ -1,39 +1,71 @@
-## Styling Rules for Individual Content Type
-Resources/content are of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
+**[Table of Contents: Content Style Guide](../ContentStyleGuide.md)**
+* [Introduction](../ContentStyleGuide.md)
+* [Content Placement](ContentPlacement.md)
+* [Content Naming](ContentNaming.md)
+* [Common Layout Description (All Resources)](CommonLayout.md) 
+* [Styling Rules for Content Type](StylingContentOverview.md)
+    + [Original Article](StylingOriginalArticle.md)
+    + [Curated Content](StylingCuratedContent.md)
+      - [Title declaration](#title-declaration)
+      - [Deck definition](#deck-definition)
+      - [Table definitions for resource types](#table-definition)
+          + [Book](#book)
+          + [Course](#course)
+          + [Organization](#organization)
+          + [Podcast](#podcast)
+          + [Publication](#publication)
+          + [Tutorial](#tutorial)
+          + [Webinar](#webinar)
+          + [Website](#website)
+          + [Web article](#web-article)
+          + [Notes on tables](#notes-on-tables)
+      - [Main Body text](#body-text)
+      - [Logo declaration](#logo)
+      - [Citations for the article](#references)
+    + [Events](StylingEvents.md)
+* [Understanding Metadata](Metadata.md)
 
-### Curated Content:
-Curated content follow the below style guide. There are several examples available in the repo for you to use as a starting point.
 
-#### Title
-1. Conjuctions and Prepositions will be lowercase. Everything else would usually be uppercase
-2. Maintain consistency with titles. For ex: "An Introduction to..." for organizations or website, if it makes sense
-3. As of Jul 2019, the title of the article continues to be the url of the article. Be smart while selecting title and avoid changing it after publishing (in case the article gets bookmarked by readers)
+### Styling Rules for Curated Content:
 
-#### Deck
-0. No hyperlinks in the deck
-1. Contains one or two sentences about the article which piques user interest.
-2. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores..
-3.  Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
+A Curated content is a brief article that highlights other web-based content. The written article should describe why the CSE community might find value in the linked content.
 
-#### Table
-We have decided to introduce a table at the start of the curated content document to give consistency and a brief picture of what the curated content contains. Curated content can be of the following 7 types: book, organization, publication, tutorial, web article, webinar and website. The content of the table will be different for each curated content type and is described below. 
+Curated content can be of the following 7 types: (1) book, (2) organization, (3) publication, (4) tutorial, (5) web article, (6) webinar and (7) website. A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
+
+The following sections describe the structure and various parts of a curated content article.
+
+#### Title declaration
+1. While there are no strict rules for titles; maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
+2. The title of the article also becomes a portion of the **article URL** (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
+3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other would would be sentence-case.
+
+
+#### Deck definition
+1. No hyperlinks are allowed in the deck.
+2. No images are allowed in the deck.
+3. The deck contains one or atmost two sentences about the article which piques user interest.
+4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
+5. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
+ 
+#### Table definition
+The curated content table is placed at the *start* of the curated content document. The table maintains consistency across all the curated content article and provides the important links highlighted by the article. Curated content can be of the following 7 types: book, organization, publication, tutorial, web article, webinar and website. The content of the table will be different for each curated content type and is described below. 
 We havent yet discussed if such a table is needed outside of curated content resources.
 
 Tables should follow the below format:
 ###### Book
 Resource information | Details 
 :--- | :--- 
-Book title | Name of the book with hyperlink from a neutral non-vendor website (format: [book-name](url to book))
-Authors | Author names in the following format with hyperlink from a  neutral website, if available (format: [author name in format "firstname lastname" seperated by comma](url to author))
-Publication | Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13) (format: "year, ISBN numbers seperated by comma")
+Book title | Name of the book with hyperlink from a neutral non-vendor website. *Format: [name of the book](url for book)*
+Authors | Author names in the following format with hyperlink from a  neutral website, if available. *Format: [firstname lastname](url for author1), [firstname lastname](url for author2)*
+Publication | Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13). *Format: year, ISBN1, ISBN2, ISBN3*)
 
 ###### Course
 Resource information | Details 
 :--- | :--- 
-Course title  | Name of the course with hyperlink 
-Presenters | Presenter names  (format: author name in format "firstname lastname" seperated by comma) 
-Course hosting website | Name of hosting website such as coursera, youtube, udacity [name of hosting website](url)
-Web links | Links to slides, slide-synced audio, video, or link to website course (format : [Course link](url), [Slides](url), [Synced audio](url)), [Video](url), [website link](url) etc) 
+Course title  | Name of the course with hyperlink. *Format: [course name](url)*
+Presenters | Presenter names. *Format: [Firstname lastname](url for presenter), [Firstname lastname](url for presenter)*
+Course hosting website | Name of hosting website such as coursera, youtube, udacity. *Format: [name of hosting website](url for course website)*
+Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
 ###### Organization
 Resource information | Details 
