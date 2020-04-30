@@ -68,42 +68,42 @@ Web links | Links to slides, slide-synced audio, video, or link to website cours
 ###### Organization
 Resource information | Details 
 :--- | :--- 
-Organization name | Name of Organization without hyperlink, *Format: Name of the organization*.
-Website | Link to website, *Format: [URL to website] (url).*
-Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
+Organization name | Name of Organization without hyperlink, *Format: Name of the organization*
+Website | Link to website, *Format: [URL to website] (url)*
+Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2*
 
 ###### Podcast
 Resource information | Details 
 :--- | :--- 
-Podcast title  | Name of the tutorial without hyperlink, *Format: Name of the tutorial*.
-Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*.
-Web links | Links to podcast, *Format: [Name-of-podcast Podcast] (url)*.
+Podcast title  | Name of the tutorial without hyperlink, *Format: Name of the tutorial*
+Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*
+Web links | Links to podcast, *Format: [Name-of-podcast Podcast] (url)*
 
 ###### Publication
 Resource information | Details
 :--- | :--- 
 Paper title  | Title of paper without hyperlink, *Format: publication title*
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* 
-Publication | Year, Journal name, DOI with link. *Format: year, journal name, DOI:[url of the DOI] [doi-url)*.
+Publication | Year, Journal name, DOI with link. *Format: year, journal name, DOI:[url of the DOI] [doi-url)*
 
 ###### Tutorial
 Resource information | Details 
 :--- | :--- 
-Tutorial title  | Name of the tutorial without hyperlink, *Format: tutorial title*.
-Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*.
+Tutorial title  | Name of the tutorial without hyperlink, *Format: tutorial title*
+Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
 ###### Webinar
 Resource information | Details 
 :--- | :--- 
-Webinar title  | List title without hyperlink, *Format: webinar title*.
-Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*.
+Webinar title  | List title without hyperlink, *Format: webinar title*
+Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
 ###### Website
 Resource information | Details 
 :--- | :--- 
-Resource name | Name of website, *Format: website name*.
+Resource name | Name of website, *Format: website name*
 Website | Link to website, *Format : [website url] (url)
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
@@ -111,15 +111,15 @@ Many times, a curated article may mention many websites (for ex: links to coding
 
 Resource information | Details 
 :--- | :--- 
-Resource name | Text that describes the overall websites. *Format: Brief text description *.
-Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*.
+Resource name | Text that describes the overall websites. *Format: Brief text description *
+Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
 ###### Web article
 Resource information | Details
 :--- | :--- 
 Article title  | Title of the article with hyperlink, *Format:  [title of article] (url)
-Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*.
+Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
 ###### Notes on tables
