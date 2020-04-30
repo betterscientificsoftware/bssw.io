@@ -1,10 +1,20 @@
+**[Table of Contents: Content Style Guide](../ContentStyleGuide.md)**
+* [Introduction](../ContentStyleGuide.md)
+* [Content Placement](ContentPlacement.md)
+* [Content Naming](ContentNaming.md)
+* [Common Layout Description (All Resources)](CommonLayout.md)
+	+ [Content Title](#content-title)
+	+ [Content Deck](#content-deck)
+	+ [Content Description:](#content-description-)
+	+ [Contributor name](#contributor-name)
+	+ [Metadata](#metadata)
+* [Styling Rules for Content Type](StylingContentOverview.md)
+* [Understanding Metadata](Metadata.md)
+
+
 ## Common Layout of All Resources
 - **Table of Contents: Common Layout**
-	* [Content Title](#content-title)
-	* [Content Deck](#content-deck)
-	* [Content Description:](#content-description-)
-	* [Contributor name](#contributor-name)
-	* [Metadata](#metadata)
+	
 
 All resources have the following sections, in common:
 
