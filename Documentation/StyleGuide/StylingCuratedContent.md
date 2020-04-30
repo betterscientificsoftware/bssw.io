@@ -42,7 +42,7 @@ A written curated content article must follow the below style guidelines. There 
 #### Deck Title declaration
 1. While there are no strict rules for titles; maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
 2. The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other would would be sentence-case.
+3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
 
 #### Deck resource text
@@ -55,12 +55,12 @@ The deck for curated content contains the title of the article, deck resource te
 5. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
  
 #### Resource Table declaration
-Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource, as described below. 
+Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource type, as described below. 
 
 ###### Book
 Resource information | Details 
 :--- | :--- 
-Book title | Name of the book with hyperlink from a neutral non-vendor website. *Format: [name of the book](url for book)*
+Book title | Name of the book with hyperlink from a neutral non-vendor website, *Format: [name of the book](url for book)*
 Authors | Author names in the following format with hyperlink from a  neutral website, if available. *Format: [firstname lastname](url for author1), [firstname lastname](url for author2)*
 Publication | Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13). *Format: year, ISBN1, ISBN2, ISBN3*)
 
@@ -125,7 +125,7 @@ Focus | Custom focus area - this is a 3 word description of the focus area of th
 
 ###### *Mutliple resources of the same type*
 
-Many times, a curated article may mention many multiple resources of the same type. An example of this is the curated content article, titled *[An Introduction to Documentation tools](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/DocumentationTools.md)*, located in the curated content directory. In that case, use the following format for the table:
+Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, titled *[An Introduction to Documentation tools](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/DocumentationTools.md)*, located in the curated content directory. In that case, use the following format for the table (below example assumes multiple websites in a single curated content article):
 
 Resource information | Details 
 :--- | :--- 
@@ -135,7 +135,7 @@ Focus | Custom focus area - this is a 3 word description of the focus area of th
 
 ###### *Mutliple resources of the assorted type*
 
-Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the curateed content article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the curated content directory
+Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the curated content article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the curated content directory
 
 #### Main Body text
 1. Contains one or more paragraph about the resource.
