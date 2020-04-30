@@ -18,10 +18,10 @@
           + [Webinar](#webinar)
           + [Website](#website)
           + [Web article](#web-article)
-          + [Notes on tables](#notes-on-tables)
-      - [Main Body text](#body-text)
-      - [Logo declaration](#logo)
-      - [Citations for the article](#references)
+          + [Special tables](#notes-on-tables)
+      - [Main Body text](#main-body-text)
+      - [Logo declaration](#logo-declaration)
+      - [References for the article](#references)
     + [Events](StylingEvents.md)
 * [Understanding Metadata](Metadata.md)
 
@@ -107,14 +107,6 @@ Resource name | Name of website, *Format: website name*
 Website | Link to website, *Format : [website url] (url)
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
-Many times, a curated article may mention many websites (for ex: links to coding-tools). In that case, use the following format:
-
-Resource information | Details 
-:--- | :--- 
-Resource name | Text that describes the overall websites. *Format: Brief text description *
-Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*
-Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
-
 ###### Web article
 Resource information | Details
 :--- | :--- 
@@ -122,22 +114,35 @@ Article title  | Title of the article with hyperlink, *Format:  [title of articl
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
-###### Notes on tables
+###### Special tables
+
+###### *Mutliple resources of the same type*
+
+Many times, a curated article may mention many multiple resources of the same type. An example of this is the curated content article, titled *[An Introduction to Documentation tools](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/DocumentationTools.md)*, located in the curated content directory. In that case, use the following format for the table:
+
+Resource information | Details 
+:--- | :--- 
+Resource name | Text that describes the overall websites. *Format: Brief 2-3 word text description *
+Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*
+Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
+
+###### *Mutliple resources of the assorted type*
+
 Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the curateed content article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the curated content directory
 
-#### Body text
+#### Main Body text
 1. Contains one or more paragraph about the resource.
 2. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
 3. Its good for body text to go into details of why the resource is interesting and to what audience. 
 4. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
 
-#### Logo
+#### Logo declaration
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
 1. Please upload logo to https://github.com/betterscientificsoftware/images . *Do images have to be a certain format or size*
 2. Add following text with url to end of body text * < img src='url' class='logo' / > *
 3. Please ensure we have permission to use the logo 
 
-#### References
+#### References for the article
 Many times, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. Details: To be described.
 
 
