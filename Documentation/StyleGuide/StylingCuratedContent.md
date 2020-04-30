@@ -32,7 +32,9 @@
 A Curated content is a brief article that highlights other web-based content/resources. The written article should describe why the CSE community might find value in the linked content. A Curated content article can highlight the following 7 types of resources: (1) book, (2) organization, (3) publication, (4) tutorial, (5) web article, (6) webinar and (7) website.
 
 The following figure shows different parts of a curated content article.
-![Parts of a curated content article](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example-small.jpg)
+
+![Parts of a curated content article](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
+
 The main part of the curated content article consists of the (1) Deck and (2) Body of the article. The following sections describe the structure and various parts of a curated content article.
 
 A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
