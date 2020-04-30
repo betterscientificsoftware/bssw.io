@@ -1,13 +1,13 @@
 **[Table of Contents: Content Style Guide](../ContentStyleGuide.md)**
-* [Introduction](../ContentStyleGuide.md#background)
-* [Content Placement](StyleGuide/ContentPlacement.md)
-* [Content Naming](StyleGuide/ContentNaming.md)
-* [Common Layout Description (All Resources)](StyleGuide/CommonLayout.md) 
-* [Styling Rules for Content Type](StyleGuide/StylingContentOverview.md)
-    + [Original Article](StyleGuide/StylingOriginalArticle.md)
-    + [Curated Content](StyleGuide/StylingCuratedContent.md)
-    + [Events](StyleGuide/StylingEvents.md)
- * [Understanding Metadata](StyleGuide/Metadata.md)
+* [Introduction](../ContentStyleGuide.md)
+* [Content Placement](ContentPlacement.md)
+* [Content Naming](ContentNaming.md)
+* [Common Layout Description (All Resources)](CommonLayout.md) 
+* [Styling Rules for Content Type](StylingContentOverview.md)
+    + [Original Article](StylingOriginalArticle.md)
+    + [Curated Content](StylingCuratedContent.md)
+    + [Events](StylingEvents.md)
+ * [Understanding Metadata](Metadata.md)
 
 
 ## Where to place your content in Github repo?
