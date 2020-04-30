@@ -17,7 +17,7 @@
 
 ## Common Layout of All Resources
 
-All resources have the following sections, in common:
+All BSSw.io resources have the following three sections, in common: (1) Deck, (2) Main body, and (3) Metadata. Following is a description of these common elements.
 
 ### Deck
 The deck is the top shaded portion of the article. The elements of the deck are mostly the same across all the BSSw.io content types but with a few variations. The deck section will always contain the title of the article, author/contributor/organizer names, publication date, BSSw.io categories and topics that the article falls under. In the context of blogs, it will usually contain an image and for curated content, it contains a two-sentence descriptive text about the curated resource.
@@ -30,7 +30,7 @@ A Content title should be simple and straighforward. Please read *Styling Rules*
 #### Content Publication date
 The date when the content was published. In the source file, please use the following format: *#### Publication date: Month Day, Year*. 
 
-### Contributor Name
+#### Contributor Name
 This is name of the contributor/author/organizer, which contains the name of the contributor and a URL, usually to the guthub profile, of the contributor. In the source file, please use the following format: *#### Contributed by [Firstname Lastname](github profile "Firstname Lastname")
 
 #### BSSw Categories
