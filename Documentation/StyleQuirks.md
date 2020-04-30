@@ -1,4 +1,5 @@
 # Quirks in BSSw Processing and Styling
+## Need to be double checked and moved to style guide. Rinku to take a look.
 
 The working definition of quirks for this document are situations where the results obtained on the BSSw site differ from what a "reasonable person" would expect.  This includes differences between the way content is rendered by the GitHub web editing tools and the BSSw site, and differences from "simple" style defaults that authors may be accustomed to.
 
