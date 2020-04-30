@@ -2,7 +2,7 @@
 * [Introduction](../ContentStyleGuide.md)
 * [Content Placement](ContentPlacement.md)
 * [Content Naming](ContentNaming.md)
-* [Common Layout Description (All Resources)](CommonLayout.md)
+* [Common Layout Description (All Resources)](#common-layout-of-all-resources)
 	+ [Deck](#deck)
 		* [Content Title](#content-title)
 		* [Content Publication Date](#content-publication-date)
