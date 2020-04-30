@@ -5,7 +5,7 @@
 * [Common Layout Description (All Resources)](CommonLayout.md)
 	+ [Content Title](#content-title)
 	+ [Content Deck](#content-deck)
-	+ [Content Description:](#content-description)
+	+ [Content Description](#content-description)
 	+ [Contributor name](#contributor-name)
 	+ [Metadata](#metadata)
 * [Styling Rules for Content Type](StylingContentOverview.md)
