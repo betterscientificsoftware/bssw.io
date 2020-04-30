@@ -1,5 +1,5 @@
-**[Table of Contents: Content Style Guide](ContentStyleGuide.md)**
-* [Introduction](#background)
+**[Table of Contents: Content Style Guide](../ContentStyleGuide.md)**
+* [Introduction](../ContentStyleGuide.md#background)
 * [Content Placement](StyleGuide/ContentPlacement.md)
 * [Content Naming](StyleGuide/ContentNaming.md)
 * [Common Layout Description (All Resources)](StyleGuide/CommonLayout.md) 
