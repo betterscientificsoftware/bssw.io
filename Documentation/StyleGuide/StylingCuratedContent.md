@@ -138,13 +138,14 @@ Many times, a curated article may have a collection of various types of resource
 
 #### Logo declaration
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
-1. Please upload logo to https://github.com/betterscientificsoftware/images . *Do images have to be a certain format or size*
+1. Please upload logo to https://github.com/betterscientificsoftware/images.
 2. Add following text with url to end of body text * < img src='url' class='logo' / > *
 3. Please ensure we have permission to use the logo 
+**This section needs to be reviewed**
 
 #### References for the article
 Many times, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. Details: To be described.
-
+**This section needs to be reviewed**
 
 <!---
    Publish: no
