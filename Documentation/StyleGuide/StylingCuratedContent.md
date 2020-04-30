@@ -21,7 +21,7 @@
           + [Special tables](#special-tables)
       - [Main Body text](#main-body-text)
       - [Logo declaration](#logo-declaration)
-      - [References for the article](#references)
+      - [References for the article](#references-for-the-article)
     + [Events](StylingEvents.md)
 * [Understanding Metadata](Metadata.md)
 
