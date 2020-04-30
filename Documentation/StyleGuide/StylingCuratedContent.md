@@ -134,14 +134,12 @@ Many times, a curated article may have a collection of various types of resource
 #### Logo
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
 1. Please upload logo to https://github.com/betterscientificsoftware/images . *Do images have to be a certain format or size*
-2. Add following text with url to end of body text "<img src='url' class='logo' />"
-3. *Do we need copyright or permissions for logos? Doublecheck*
+2. Add following text with url to end of body text * < img src='url' class='logo' / > *
+3. Please ensure we have permission to use the logo 
 
 #### References
-What are rules for these?
+Many times, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. Details: To be described.
 
-### Original Article
-There is a style guide for blogs in the main bssw directory called "StyleGuideBlog.md". This needs to be reviewed, applicable parts need to be put in this document and refined further
 
 <!---
    Publish: no
