@@ -110,7 +110,7 @@ Focus | Custom focus area - this is a 3 word description of the focus area of th
 ###### Web article
 Resource information | Details
 :--- | :--- 
-Article title  | Title of the article with hyperlink, *Format:  [title of article] (url)
+Article title  | Title of the article with hyperlink, *Format:  [title of article] (url)*
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
@@ -122,7 +122,7 @@ Many times, a curated article may mention many multiple resources of the same ty
 
 Resource information | Details 
 :--- | :--- 
-Resource name | Text that describes the overall websites. *Format: Brief 2-3 word text description *
+Resource name | Text that describes the overall websites. *Format: Brief 2-3 word text description*
 Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
