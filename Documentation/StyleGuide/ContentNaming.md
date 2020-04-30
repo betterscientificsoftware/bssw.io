@@ -7,7 +7,7 @@
 * [Understanding Metadata](Metadata.md)
  
  ## Naming your content in Github repo
-This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. Most points have been taken from the original [Styleguide.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/StyleGuide.md) file, present in the main betterscientificsoftware.github.io repo.
+This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. 
 
 For naming a content i.e. creating a filename, please follow the following rules: Filename should be same as resource/content name, adding the suffix ".md" to indicate a Markdown file
 
