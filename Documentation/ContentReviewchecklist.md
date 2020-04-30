@@ -9,7 +9,7 @@ Following is a list of checks that need to be done before the article reaches th
 - [x] Topic is of interest to readers
 - [x] Relevance of the article
 - [x] Judging whether an article idea is appropriate for BSSw - This is done when the topic is in backlog column
-- [x] Judging the actual content of a contribution i.e PR is aceeptable or not - This needs to be done by the reviewers
+- [x] Judging the actual content of a contribution i.e PR is acceptable or not - This needs to be done by the reviewers
 - [x] Judging whether content is ready for publication - This "content" needs to be done by the reviewers but the auxillary things can be done following this current document.
 - [x] Document follows style guide
 
@@ -19,7 +19,7 @@ Following is a list of checks that need to be done before the article reaches th
 Once the document is ready for review, there are some checks that will be common across all the content types. The following is a list of such common review criteria
 - [x] Spell checks, grammar, punctuation and syntax
 - [x] Hyperlinks and their validity
-- [x] Gender nuetrality checking
+- [x] Gender neutrality checking
 - [x] Check "Tone" of the article and whether it fits BSSw policies (its assumed that the article was judged appropriate for BSSw and has hence reached this stage)
 - [x] Reference checking
 - [x] Title format (what is bold?, capitalized?)
