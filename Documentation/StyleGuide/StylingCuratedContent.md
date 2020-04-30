@@ -18,7 +18,7 @@
           + [Webinar](#webinar)
           + [Website](#website)
           + [Web article](#web-article)
-          + [Special tables](#notes-on-tables)
+          + [Special tables](#special-tables)
       - [Main Body text](#main-body-text)
       - [Logo declaration](#logo-declaration)
       - [References for the article](#references)
