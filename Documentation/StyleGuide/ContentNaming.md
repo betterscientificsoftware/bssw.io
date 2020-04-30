@@ -4,10 +4,7 @@
 * [Content Naming](ContentNaming.md)
 * [Common Layout Description (All Resources)](CommonLayout.md) 
 * [Styling Rules for Content Type](StylingContentOverview.md)
-    + [Original Article](StylingOriginalArticle.md)
-    + [Curated Content](StylingCuratedContent.md)
-    + [Events](StylingEvents.md)
- * [Understanding Metadata](Metadata.md)
+* [Understanding Metadata](Metadata.md)
  
  ## Naming your content in Github repo
 This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. Most points have been taken from the original [Styleguide.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/StyleGuide.md) file, present in the main betterscientificsoftware.github.io repo.
