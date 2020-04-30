@@ -17,7 +17,12 @@
 
 ## Common Layout of All Resources
 
-All BSSw.io resources have the following three sections, in common: (1) Deck, (2) Main body, and (3) Metadata. Following is a description of these common elements.
+All BSSw.io resources have the following three sections, in common: (1) Deck, (2) Main body, and (3) Metadata. 
+
+
+The following image shows the deck and main body of a resource. ![Common Parts of a BSSw.io resource](https://github.com/betterscientificsoftware/images/blob/master/documentation-common-elements-small.jpg)
+
+Following is a description of the common elements between resources.
 
 ### Deck
 The deck is the top shaded portion of the article. The elements of the deck are mostly the same across all the BSSw.io content types but with a few variations. The deck section will always contain the title of the article, author/contributor/organizer names, publication date, BSSw.io categories and topics that the article falls under. In the context of blogs, it will usually contain an image and for curated content, it contains a two-sentence descriptive text about the curated resource.
