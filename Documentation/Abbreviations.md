@@ -1,4 +1,5 @@
-### Abbreviations Used on the BSSw Site
+### Abbreviations Used on the BSSw Site 
+### (Needs to be checked if the site uses it. In the past, the main site used this to avoid doing bad things to acronyms! Need to check with Clara).
 
 
 - ACM: Association for Computing Machinery
