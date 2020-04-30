@@ -6,8 +6,8 @@
 * [Styling Rules for Content Type](StylingContentOverview.md)
     + [Original Article](StylingOriginalArticle.md)
     + [Curated Content](StylingCuratedContent.md)
-      - [Title declaration](#title-declaration)
-      - [Deck definition](#deck-definition)
+      - [Deck Title declaration](#deck-title-declaration)
+      - [Deck Text](#deck-resource-text)
       - [Resource-specific Table declaration](#resource-table-declaration)
           + [Book](#book)
           + [Course](#course)
@@ -26,24 +26,25 @@
 * [Understanding Metadata](Metadata.md)
 
 
-### Styling Rules for Curated Content:
+### Overview of Style for Curated Content:
 
-A Curated content is a brief article that highlights other web-based content/resources. The written article should describe why the CSE community might find value in the linked content.
-
-A Curated content article can highlight the following 7 types of resources: (1) book, (2) organization, (3) publication, (4) tutorial, (5) web article, (6) webinar and (7) website. A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
+A Curated content is a brief article that highlights other web-based content/resources. The written article should describe why the CSE community might find value in the linked content. A Curated content article can highlight the following 7 types of resources: (1) book, (2) organization, (3) publication, (4) tutorial, (5) web article, (6) webinar and (7) website.
 
 The following figure shows different parts of a curated content article.
 ![Parts of a curated content article](https://github.com/betterscientificsoftware/images/blob/master/documentation-curated-content-example.jpg)
+The main part of the curated content article consists of the (1) Deck and (2) Body of the article. The following sections describe the structure and various parts of a curated content article.
 
-The following sections describe the structure and various parts of a curated content article.
+A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
 
-#### Title declaration
+#### Deck Title declaration
 1. While there are no strict rules for titles; maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
 2. The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
 3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other would would be sentence-case.
 
 
-#### Deck definition
+#### Deck resource text
+The deck for curated content contains the title of the article, deck resource text, contributor names, publication date, BSSw.io categories and topics that the article falls under. Most of these items are decribed in the [common layout section](CommonLayout.md) of the guide. From the styling perspective, the deck resource text is the most important. The following guidlines are to be followed for the deck resource text section.
+
 1. No hyperlinks are allowed in the deck.
 2. No images are allowed in the deck.
 3. The deck contains one or atmost two sentences about the article which piques user interest.
@@ -51,7 +52,7 @@ The following sections describe the structure and various parts of a curated con
 5. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
  
 #### Resource Table declaration
-The resource declaration table is placed at the *start* of the curated content document. The table maintains consistency across all the curated content article and provides the important links highlighted by the article. Resources pointed by the curated content article can be of the following 7 types, as discussed above. The content of the table will be different for each resource and is described below. 
+Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource, as described below. 
 
 ###### Book
 Resource information | Details 
