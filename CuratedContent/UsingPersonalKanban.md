@@ -12,7 +12,7 @@ over the use of todo lists.
 Resource information | Details 
 :--- | :--- 
 Article title  |  
-Author | [Sven Wiegand]
+Author | Sven Wiegand
 Web link | [Article](https://hackernoon.com/personal-kanban-part-1-why-todo-lists-don-t-work-3b5c6dc78708)
 
 A kanban board is a means of illustrating task management and the stages tasks
