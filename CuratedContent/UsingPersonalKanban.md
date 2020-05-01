@@ -1,12 +1,19 @@
 
-
 # Using a Personal Kanban for Productivity
+
+#### Publication date: Month Day, YYYY. (TBD)
+
+#### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
 
 The article *Personal Kanban Part 1 -- Why Todo Lists Don't Work* explains the
 advantages of using a kanban board for personal productivity and the advantages 
 over the use of todo lists.
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
+Resource information | Details 
+:--- | :--- 
+Article title  |  
+Author | [Sven Wiegand]
+Web link | [Article](https://hackernoon.com/personal-kanban-part-1-why-todo-lists-don-t-work-3b5c6dc78708)
 
 A kanban board is a means of illustrating task management and the stages tasks
 go through to completion. Sven Wiegand explains reasons to use a personal
@@ -31,16 +38,6 @@ helpful. The follow-on article refers to several kanban resources and details
 the use of one of them, Trello. Below are references to Part 2 of the series
 and an article that describes using gitlab for kanban.
 
-
-#### Publication date: TBD
-
-Resource information | Details 
-:--- | :--- 
-Article title  |  
-Author | [Sven Wiegand]
-Web link | [Article](https://hackernoon.com/personal-kanban-part-1-why-todo-lists-don-t-work-3b5c6dc78708)
-
-
 ### Links to additional information
 - [Personal Kanban Part 2 Kanban with Trello, Sven Wiegand](https://hackernoon.com/personal-kanban-part-2-personal-kanban-with-trello-a6bd6cdb0588)
 - [Task Management and Personal Kanban How I Use Gitlab Issues, Gerard Braad](http://gbraad.nl/blog/task-management-and-personal-kanban-how-i-use-gitlab-issues.html)
@@ -49,10 +46,10 @@ Web link | [Article](https://hackernoon.com/personal-kanban-part-1-why-todo-list
 <!---
 Publish:
 RSS update:
-Categories: Productivity 
-Topics: Planning, Development
+Categories: Planning 
+Topics: Productivity, Development
 Level: 
 Prerequisites: defaults
 Aggregate: none
-Review:LA-UR-20-23041
---->
+Review: LA-UR-20-23041
+-->
