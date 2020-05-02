@@ -2,8 +2,6 @@ Table of Contents
 ===============================
 [Click to Return to HomePage Table of Contents](../README.md)
 
-[Click to Return to Content Style Guide Table of Contents](../ContentStyleGuide.md)
-
 ## Naming your content in Github repo
 This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. 
 
