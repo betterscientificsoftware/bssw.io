@@ -16,6 +16,7 @@ Home Page: Table of Contents
      - [Blog Workflow Process]()
      - [Event Workflow Process]()
    * [Writing BSSw.io Content](#README.md)
+     - [Github Organization for New Content](Documentation/OrganizeNewContent.md)
      - [Style Guide for writing BSSw Content](Documentation/ContentStyleGuide.md)
    * [Publishing BSSw.io Content](#README.md)
      - [Final Review Checklist for BSSw.io Content](Documentation/ContentReviewchecklist.md)
