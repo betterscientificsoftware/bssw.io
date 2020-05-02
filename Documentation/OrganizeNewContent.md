@@ -2,7 +2,7 @@ Table of Contents
 =================
 [Click to Return to HomePage Table of Contents](../README.md)
 
-## Organization of New Content in Github : Main Page
+## Organization of New Content in Github: Main Page
 There are three types of authored content on BSSw.io: (1) Original article,
 (2) Curated content and (3) Event-related content.
 
