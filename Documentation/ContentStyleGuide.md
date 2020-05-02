@@ -3,7 +3,7 @@ Table of Contents
 ===============================
 [Click to Return to HomePage Table of Contents](../README.md)
 
-# A Style Guide for BSSw content.
+# Style Guide for BSSw content
 
 This document is a work-in-progress style guide for all content that goes on the BSSw site. 
 
