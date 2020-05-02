@@ -2,7 +2,14 @@ Home Page: Table of Contents
 ============================
 
 <!--ts-->
-   * [Who are we?](Documentation/WhoAreWe.md)
+   * [About Us](Documentation/WhoAreWe.md)
+     - [Code of Conduct]()
+     - [Content Licensing]()
+     - [Funding Acknowledgement]()
+     - [Contact Us]()
+   * The BSSw.io Editorial Board
+     - [Editorial Board Charter]()
+     - [Editorial Board Current and Emeritus Members]()
    * BSSw.io Content Submission
      - [What Content is BSSw.io Seeking (BSSw.io document)?](WhatToContribute.md)
      - [How can Authors contribute Content (BSSw.io document)?](HowToContribute.md)  
