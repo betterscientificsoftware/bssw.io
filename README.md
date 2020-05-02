@@ -23,6 +23,7 @@ Home Page: Table of Contents
    * Temporary files - do we need these?
      - [Temporary: Content Style Quirks](Documentation/TmpFiles/StyleQuirks.md)
      - [Temporary: BSSw.io Site Abbreviations](Documentation/TmpFiles/Abbreviations.md)	
+     - [Needs to be finalized: BSSw Content Types](Site/ContentTypes.md)
 
 <!--te-->
 
