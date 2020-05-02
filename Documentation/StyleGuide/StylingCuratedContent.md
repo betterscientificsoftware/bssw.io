@@ -1,11 +1,8 @@
-**[Table of Contents: Content Style Guide](../ContentStyleGuide.md)**
-* [Introduction](../ContentStyleGuide.md)
-* [Content Placement](ContentPlacement.md)
-* [Content Naming](ContentNaming.md)
-* [Common Layout Description (All Resources)](CommonLayout.md) 
-* [Styling Rules for Content Type](StylingContentOverview.md)
-    + [Original Article](StylingOriginalArticle.md)
-    + [Curated Content](StylingCuratedContent.md)
+Table of Contents
+===============================
+[Click to Return to HomePage Menu](../../README.md)
+[Click to Return to Content Style Guide Menu](../ContentStyleGuide.md)
+* [Styling Rules for Curated Content](StylingCuratedContent.md)
       - [Overview](#Overview-of-style-for-Curated-Content)
       - [Deck Title declaration](#deck-title-declaration)
       - [Deck Text](#deck-resource-text)
@@ -23,8 +20,6 @@
       - [Main Body text](#main-body-text)
       - [Logo declaration](#logo-declaration)
       - [References for the article](#references-for-the-article)
-    + [Events](StylingEvents.md)
-* [Understanding Metadata](Metadata.md)
 
 
 ### Overview of Style for Curated Content

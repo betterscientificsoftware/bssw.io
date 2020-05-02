@@ -1,18 +1,8 @@
-**[Table of Contents: Content Style Guide](../ContentStyleGuide.md)**
-* [Introduction](../ContentStyleGuide.md)
-* [Content Placement](ContentPlacement.md)
-* [Content Naming](ContentNaming.md)
-* [Common Layout Description (All Resources)](#common-layout-of-all-resources)
-	+ [Deck](#deck)
-		* [Content Title](#content-title)
-		* [Content Publication Date](#content-publication-date)
-		* [Contributor name](#contributor-name)
-		* [BSSw categories](#bssw-categories)
-		* [BSSw topics](#bssw-topics)
-	+ [Main body](#main-body)
-	+ [Metadata](#metadata)
-* [Styling Rules for Content Type](StylingContentOverview.md)
-* [Understanding Metadata](Metadata.md)
+
+Table of Contents
+===============================
+[Click to Return to HomePage Menu](../../README.md)
+[Click to Return to Content Style Guide Menu](../ContentStyleGuide.md)
 
 
 ## Common Layout of All Resources

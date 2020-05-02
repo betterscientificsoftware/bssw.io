@@ -1,10 +1,7 @@
-**[Table of Contents: Content Style Guide](../ContentStyleGuide.md)**
-* [Introduction](../ContentStyleGuide.md)
-* [Content Placement](ContentPlacement.md)
-* [Content Naming](ContentNaming.md)
-* [Common Layout Description (All Resources)](CommonLayout.md) 
-* [Styling Rules for Content Type](StylingContentOverview.md)
-* [Understanding Metadata](Metadata.md)
+Table of Contents
+===============================
+[Click to Return to HomePage Menu](../../README.md)
+[Click to Return to Content Style Guide Menu](../ContentStyleGuide.md)
 
 ## Understanding Metadata
 For all content types, we have the following meta-data that needs to be put, at the bottom of the file.

@@ -1,7 +1,8 @@
 # A Style Guide for BSSw content.
 
-<!-- this is manual table of contents. We need a better way to write one. This is a good tool: https://ecotrust-canada.github.io/markdown-toc/) -->
-**[Table of Contents: Content Style Guide](ContentStyleGuide.md)**
+Style Guide: Table of Contents
+===============================
+[Click to Return to HomePage](../README.md)
 * [Introduction](#background)
 * [Content Placement](StyleGuide/ContentPlacement.md)
 * [Content Naming](StyleGuide/ContentNaming.md)

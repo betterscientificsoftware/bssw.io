@@ -14,8 +14,8 @@ website](https://bssw.io/) for up-to-date content.**
 The following below content is presented for the BSSw.io Editorial
 board and source/backend support team members.
 
-Table of Contents
-=================
+HOME PAGE: Table of Contents
+============================
 
 <!--ts-->
    * [Who are we?](Documentation/WhoAreWe.md)

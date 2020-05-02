@@ -1,3 +1,7 @@
+Table of Contents
+=================
+[Click to Return to Table of Contents](../README.md)
+
 # Editorial Workflow for BSSw.io Curated Content
 
 This description of workflow for content development of Curated Content ideas
