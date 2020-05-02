@@ -1,6 +1,6 @@
 Table of Contents
 ===============================
-[Click to Return to HomePage Table of Contents](../README.md) 
+[Click to Return to HomePage Table of Contents](../../README.md) 
 
 ## Where to place your content in Github repo?
 Please place your new file in one of the following folders on the site, according to the type of content you are creating:
