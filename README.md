@@ -11,18 +11,18 @@ Home Page: Table of Contents
      - [Blog Workflow Process]()
      - [Event Workflow Process]()
    * Writing BSSw.io Content
-     - [Github Organization for New Content](Documentation/OrganizeNewContent.md)
-     - [Style Guide for writing BSSw Content](Documentation/ContentStyleGuide.md)
+     - [Github Organization for New Content](Documentation/OrgNewContent/OrganizeNewContent.md)
+     - [Style Guide for writing BSSw Content](Documentation/ContentStyleGuide/ContentStyleGuide.md)
    * Publishing Content to BSSw.io
-     - [Final Review Checklist for BSSw.io Content](Documentation/ContentReviewchecklist.md)
+     - [Final Review Checklist for BSSw.io Content](Documentation/PublContent/ContentReviewchecklist.md)
    * Supplementary Documentation
      - [Previewing Pre-published Content for BSSw.io]()
      - [BSSw Monthly Digest]()
    * BSSw.io Website Management
      - [Highlighting Content on BSSw.io]()
    * Temporary files - do we need these?
-     - [Temporary: Content Style Quirks](Documentation/StyleQuirks.md)
-     - [Temporary: BSSw.io Site Abbreviations](Documentation/Abbreviations.md)	
+     - [Temporary: Content Style Quirks](Documentation/TmpFiles/StyleQuirks.md)
+     - [Temporary: BSSw.io Site Abbreviations](Documentation/TmpFiles/Abbreviations.md)	
 
 <!--te-->
 

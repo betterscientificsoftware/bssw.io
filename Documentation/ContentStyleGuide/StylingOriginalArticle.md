@@ -2,7 +2,7 @@ Table of Contents
 ===============================
 [Click to Return to HomePage Table of Contents](../../README.md)
 
-[Click to Return to Content Style Guide main page](../ContentStyleGuide.md)
+[Click to Return to Content Style Guide main page](ContentStyleGuide.md)
 
 ### Blog Articles
 

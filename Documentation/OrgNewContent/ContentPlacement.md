@@ -2,7 +2,7 @@ Table of Contents
 ===============================
 [Click to Return to HomePage Table of Contents](../../README.md) 
 
-[Click to Return to New Content Organization Main page](../OrganizeNewContent.md) 
+[Click to Return to New Content Organization Main page](OrganizeNewContent.md) 
 
 
 ## Where to place your content in Github repo?
