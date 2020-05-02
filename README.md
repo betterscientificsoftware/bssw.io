@@ -20,7 +20,7 @@ Home Page: Table of Contents
      - [BSSw Monthly Digest]()
    * BSSw.io Website Management
      - [Highlighting Content on BSSw.io]()
-   * Temporary files - do we need these?
+   * Temporary files - Complete/Delete/Archive?
      - [Temporary: Content Style Quirks](Documentation/TmpFiles/StyleQuirks.md)
      - [Temporary: BSSw.io Site Abbreviations](Documentation/TmpFiles/Abbreviations.md)	
      - [Needs to be finalized: BSSw Content Types](Site/ContentTypes.md)
