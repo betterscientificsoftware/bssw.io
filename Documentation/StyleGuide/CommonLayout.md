@@ -7,10 +7,16 @@ Table of Contents
 
 ## Common Layout of All Resources
 
-All BSSw.io resources have the following three sections, in common: (1) Deck, (2) Main body, and (3) Metadata. 
+All BSSw.io resources have the following three sections, in common: 
+* Deck
+* Main body
+* Metadata. 
 
 
-The following image shows the deck and main body of a resource. ![Common Parts of a BSSw.io resource](https://github.com/betterscientificsoftware/images/blob/master/documentation-common-elements-small.jpg)
+The following image shows the deck and main body of a resource.
+
+
+![Common Parts of a BSSw.io resource](https://github.com/betterscientificsoftware/images/blob/master/documentation-common-elements-small.jpg)
 
 Following is a description of the common elements.
 
