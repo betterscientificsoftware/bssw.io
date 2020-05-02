@@ -1,8 +1,3 @@
-### betterscientificsoftware.github.io
-
-The following below content is presented for the BSSw.io Editorial
-board and source/backend support team members.
-
 Home Page: Table of Contents
 ============================
 
@@ -26,6 +21,10 @@ Home Page: Table of Contents
 
 <!--te-->
 
+### Introduction to betterscientificsoftware.github.io
+
+The content, on these pages, is presented for the BSSw.io Editorial
+board and source/backend support team members.
 
 <!---
 Publish: no
