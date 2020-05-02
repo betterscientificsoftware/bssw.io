@@ -1,7 +1,9 @@
 Table of Contents
 ===============================
-[Click to Return to HomePage Table of Contents](../README.md) \\
-[Click to Return to Content Style Guide Table of Contents](../ContentStyleGuide.md) \\
+[Click to Return to HomePage Table of Contents](../README.md) 
+
+[Click to Return to Content Style Guide Table of Contents](../ContentStyleGuide.md) 
+
 * [Styling Rules for Curated Content](StylingCuratedContent.md)
       - [Overview](#Overview-of-style-for-Curated-Content)
       - [Deck Title declaration](#deck-title-declaration)

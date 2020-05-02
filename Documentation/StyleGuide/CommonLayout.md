@@ -1,7 +1,8 @@
 
 Table of Contents
 ===============================
-[Click to Return to HomePage Table of Contents](../README.md) \\
+[Click to Return to HomePage Table of Contents](../README.md)
+
 [Click to Return to Content Style Guide Table of Contents](../ContentStyleGuide.md)
 
 ## Common Layout of All Resources
