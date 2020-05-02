@@ -12,10 +12,10 @@ Article, (2) Curated content, and (3) Events. All three types of
 resources have some common styling elements; as well as unique
 styling elements as discussed below.
 
-* [Common Style Description for All resource type](ContentStyleGuide/CommonLayout.md)
-* [Styling Rules specific to Original Articles](ContentStyleGuide/StylingOriginalArticle.md)
-* [Styling Rules specific to Curated Content](ContentStyleGuide/StylingCuratedContent.md)
-* [Styling Rules specific to  Events](ContentStyleGuide/StylingEvents.md)
-* [Common Metadata Rules for All resource type](ContentStyleGuide/Metadata.md)
+* [Common Style Description for All resource type](CommonLayout.md)
+* [Styling Rules specific to Original Articles](StylingOriginalArticle.md)
+* [Styling Rules specific to Curated Content](StylingCuratedContent.md)
+* [Styling Rules specific to  Events](StylingEvents.md)
+* [Common Metadata Rules for All resource type](Metadata.md)
 * [Image handling in Articles for BSSw.io]()
 * [Vendor Markdown Documentation for Styling Pages on BSSw.io]()
