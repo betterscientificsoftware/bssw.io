@@ -4,8 +4,8 @@ Home Page: Table of Contents
 <!--ts-->
    * [Who are we?](Documentation/WhoAreWe.md)
    * BSSw.io Content Submission
-     - [What Content is BSSw.io Seeking?](WhatToContribute.md)
-     - [How can Authors contribute Content?](HowToContribute.md)  
+     - [What Content is BSSw.io Seeking (BSSw.io document)?](WhatToContribute.md)
+     - [How can Authors contribute Content (BSSw.io document)?](HowToContribute.md)  
    * BSSw.io Editorial Processes
      - [Curated Content Workflow Process](Site/CuratedContentEditorialWorkflow.md)
      - [Blog Workflow Process]()
