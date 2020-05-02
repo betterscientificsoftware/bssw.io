@@ -121,6 +121,8 @@ Article title  | Title of the article with hyperlink, *Format:  [title of articl
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
+Example of resourcee table declaration for a web article: [A Checklist for Better Open Source Libraries](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/ChecklistForBetterOpenSourceLibraries.md)
+
 ###### Special tables
 
 ###### *Mutliple resources of the same type*
