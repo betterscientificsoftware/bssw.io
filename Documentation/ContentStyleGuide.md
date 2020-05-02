@@ -2,7 +2,7 @@
 
 Style Guide: Table of Contents
 ===============================
-[Click to Return to HomePage](../README.md)
+[Click to Return to HomePage Table of Contents](../README.md)
 * [Introduction](#background)
 * [Content Placement](StyleGuide/ContentPlacement.md)
 * [Content Naming](StyleGuide/ContentNaming.md)
