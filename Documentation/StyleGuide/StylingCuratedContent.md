@@ -5,8 +5,8 @@ Table of Contents
 [Click to Return to Content Style Guide Table of Contents](../ContentStyleGuide.md) 
 
 <!--ts-->
-* [Styling Rules for Curated Content](StylingCuratedContent.md)
-    -[Overview](#Overview-of-style-for-Curated-Content)
+* [Table of Contents for Styling Rules for Curated Content](StylingCuratedContent.md)
+    - [Overview](#Overview-of-style-for-Curated-Content)
     - [Deck Title declaration](#deck-title-declaration)
     - [Deck Text](#deck-resource-text)
     - [Resource-specific Table declaration](#resource-table-declaration)
