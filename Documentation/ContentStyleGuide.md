@@ -10,7 +10,7 @@ Style Guide: Table of Contents
     + [Original Article](StyleGuide/StylingOriginalArticle.md)
     + [Curated Content](StyleGuide/StylingCuratedContent.md)
     + [Events](StyleGuide/StylingEvents.md)
- * [Understanding Metadata](StyleGuide/Metadata.md)
+* [Understanding Metadata](StyleGuide/Metadata.md)
 
 # A Style Guide for BSSw content.
 ## Introduction

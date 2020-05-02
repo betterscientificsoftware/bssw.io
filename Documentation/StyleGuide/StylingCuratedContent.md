@@ -4,25 +4,26 @@ Table of Contents
 
 [Click to Return to Content Style Guide Table of Contents](../ContentStyleGuide.md) 
 
+<!--ts-->
 * [Styling Rules for Curated Content](StylingCuratedContent.md)
-      - [Overview](#Overview-of-style-for-Curated-Content)
-      - [Deck Title declaration](#deck-title-declaration)
-      - [Deck Text](#deck-resource-text)
-      - [Resource-specific Table declaration](#resource-table-declaration)
-          + [Book](#book)
-          + [Course](#course)
-          + [Organization](#organization)
-          + [Podcast](#podcast)
-          + [Publication](#publication)
-          + [Tutorial](#tutorial)
-          + [Webinar](#webinar)
-          + [Website](#website)
-          + [Web article](#web-article)
-          + [Special tables](#special-tables)
-      - [Main Body text](#main-body-text)
-      - [Logo declaration](#logo-declaration)
-      - [References for the article](#references-for-the-article)
-
+    -[Overview](#Overview-of-style-for-Curated-Content)
+    - [Deck Title declaration](#deck-title-declaration)
+    - [Deck Text](#deck-resource-text)
+    - [Resource-specific Table declaration](#resource-table-declaration)
+        + [Book](#book)
+        + [Course](#course)
+        + [Organization](#organization)
+        + [Podcast](#podcast)
+        + [Publication](#publication)
+        + [Tutorial](#tutorial)
+        + [Webinar](#webinar)
+        + [Website](#website)
+        + [Web article](#web-article)
+        + [Special tables](#special-tables)
+     - [Main Body text](#main-body-text)
+     - [Logo declaration](#logo-declaration)
+     - [References for the article](#references-for-the-article)
+<!--te-->
 
 ### Overview of Style for Curated Content
 
