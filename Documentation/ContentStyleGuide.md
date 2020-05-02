@@ -1,4 +1,3 @@
-# A Style Guide for BSSw content.
 
 Style Guide: Table of Contents
 ===============================
@@ -13,6 +12,7 @@ Style Guide: Table of Contents
     + [Events](StyleGuide/StylingEvents.md)
  * [Understanding Metadata](StyleGuide/Metadata.md)
 
+# A Style Guide for BSSw content.
 ## Introduction
 
 This document is a work-in-progress style guide for all content that goes on the BSSw site. 
