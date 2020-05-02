@@ -15,11 +15,11 @@ Home Page: Table of Contents
      - [Style Guide for writing BSSw Content](Documentation/ContentStyleGuide/ContentStyleGuide.md)
    * Publishing Content to BSSw.io
      - [Final Review Checklist for BSSw.io Content](Documentation/PublContent/ContentReviewchecklist.md)
+   * BSSw.io Website Management
+     - [Highlighting Content on BSSw.io]()
    * Supplementary Documentation
      - [Previewing Pre-published Content for BSSw.io]()
      - [BSSw Monthly Digest]()
-   * BSSw.io Website Management
-     - [Highlighting Content on BSSw.io]()
    * Temporary files - Complete/Delete/Archive?
      - [Temporary: Content Style Quirks](Documentation/TmpFiles/StyleQuirks.md)
      - [Temporary: BSSw.io Site Abbreviations](Documentation/TmpFiles/Abbreviations.md)	
