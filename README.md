@@ -8,19 +8,19 @@ Home Page: Table of Contents
 
 <!--ts-->
    * [Who are we?](Documentation/WhoAreWe.md)
-   * [BSSw.io Content](#README.md)
+   * BSSw.io Content Submission
      - [What Content to Contribute?](WhatToContribute.md)
      - [How to Contribute Content](HowToContribute.md)  
-   * [BSSw.io Editorial Processes](#README.md)
+   * BSSw.io Editorial Processes
      - [Curated Content Workflow Process](Site/CuratedContentEditorialWorkflow.md)
      - [Blog Workflow Process]()
      - [Event Workflow Process]()
-   * [Writing BSSw.io Content](#README.md)
+   * Writing BSSw.io Content
      - [Github Organization for New Content](Documentation/OrganizeNewContent.md)
      - [Style Guide for writing BSSw Content](Documentation/ContentStyleGuide.md)
-   * [Publishing BSSw.io Content](#README.md)
+   * Publishing BSSw.io Content
      - [Final Review Checklist for BSSw.io Content](Documentation/ContentReviewchecklist.md)
-   * [Temporary files - do we need these?]()
+   * Temporary files - do we need these?
      - [Temporary: Content Style Quirks](Documentation/StyleQuirks.md)
      - [Temporary: BSSw.io Site Abbreviations](Documentation/Abbreviations.md)	
 
