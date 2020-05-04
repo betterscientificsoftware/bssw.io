@@ -11,9 +11,9 @@ over the use of todo lists.
 
 Resource information | Details 
 :--- | :--- 
-Article title  |  
-Author | Sven Wiegand
-Web link | [Personal Kanban Part 1 -- Why Todo Lists Don't Work](https://hackernoon.com/personal-kanban-part-1-why-todo-lists-don-t-work-3b5c6dc78708)
+Article title  | [Personal Kanban Part 1 -- Why Todo Lists Don't Work](https://hackernoon.com/personal-kanban-part-1-why-todo-lists-don-t-work-3b5c6dc78708)
+Author | [Sven Wiegand]
+Focus | personal kanban, planning, productivity
 
 A kanban board is a means of illustrating task management and the stages tasks
 go through to completion. Sven Wiegand explains reasons to use a personal
