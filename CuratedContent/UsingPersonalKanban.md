@@ -46,8 +46,8 @@ and an article that describes using gitlab for kanban.
 <!---
 Publish:
 RSS update:
-Categories: Planning 
-Topics: Productivity, Development
+Categories: Skills 
+Topics: Personal Productivity and Sustainability 
 Level: 
 Prerequisites: defaults
 Aggregate: none
