@@ -1,5 +1,5 @@
 
-# 10 Common Learning Myths That Might Be Holding You Back
+# Ten Common Learning Myths That Might Be Holding You Back
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
 
