@@ -65,6 +65,7 @@ Founder and Principal, Open source software management and collaboration
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_David Rogers.png' class='logo' />
+
 ### David Rogers, University of Southern Florida
 Assistant Professor of Chemistry
 <p>&nbsp;</p>
