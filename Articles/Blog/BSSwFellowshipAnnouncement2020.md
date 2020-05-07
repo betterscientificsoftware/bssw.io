@@ -42,6 +42,7 @@ _BSSw focus_: Agile scientific software development integrated with expanding ou
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
+
 ### Cindy Rubio-Gonzalez, University of California, Davis
 Assistant Professor, Computer Science
 
@@ -52,11 +53,13 @@ _BSSw focus_: Improving correctness of numerical software and the effective use 
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DavidBoehme.png' class='logo' />
+
 ### David Boehme, Lawrence Livermore National Laboratory
 Research Staff, Center for Applied Scientific Computing 
 <p>&nbsp;</p>
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_SumanaHarihareswara.png' class='logo' />
+
 ### Sumana Harihareswara, Changeset Consulting
 Founder and Principal, Open source software management and collaboration
 <p>&nbsp;</p>
