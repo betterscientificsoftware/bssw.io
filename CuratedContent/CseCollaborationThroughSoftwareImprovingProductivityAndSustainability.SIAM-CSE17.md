@@ -7,7 +7,7 @@ Resource information | Details
 :--- | :--- 
 Tutorial title | CSE Collaboration through Software: Improving Productivity and Sustainablilty
 Presenters | [David Bernholdt](http://github.com/bernhold), [Anshu Dubey](https://github.com/adubey64), [Mike Heroux](https://github.com/maherou), [Alicia Klinvex](https://github.com/amklinv), [Lois Curfman McInnes](https://github.com/curfman)
-Web links| [CSE Collaboration through Software: Improving Productivity and Sustainablilty](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61488), [Slides](https://doi.org/10.6084/m9.figshare.c.3704287), [Synced audio](https://www.pathlms.com/siam/courses/4150/sections/5826)
+Web links| [CSE Collaboration through Software: Improving Productivity and Sustainablilty](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61488), [Slides](https://www.pathlms.com/siam/courses/4150/sections/5826/documents/5078), [Synced audio](https://www.pathlms.com/siam/courses/4150/sections/5826)
 
 CSE software—crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering—is a foundation of sustained CSE collaboration and scientific progress. However, the need for increasingly broad functionality on ever more complex computer architectures creates daunting challenges for software development and sustainability.
 
