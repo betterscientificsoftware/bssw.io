@@ -71,7 +71,7 @@ In the case of cloud computing, such as Amazon Web Services, Google Compute Engi
 Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now also has RDMA InfiniBand instances available and a project called [Batch Shipyard](https://github.com/Azure/batch-shipyard) that allows you to run docker images across multiple nodes with MPI.
 
 <!---
-Publish: yes
+Publish: no
 Categories: development
 Topics: release and deployment
 Tags: bssw-article
