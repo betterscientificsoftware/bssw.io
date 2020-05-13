@@ -6,9 +6,11 @@ Elaine Raybourn interviews Todd Gamblin about the Spack project's experience wor
 
 #### Publication date: *tbd*
 
+[Spack](https://spack.io) is a package manager for supercomputers, Linux, and macOS. It makes installing scientific software easy. With Spack, you can build a package with multiple versions, configurations, platforms, and compilers, and all of these builds can coexist on the same machine.  Created in 2013 by Todd Gamblin, Spack now incorporates the contributions of over 550 contributors from around the world.
+
 **Elaine Raybourn:** What is the composition of the Spack team (remote and co-located)? How do you communicate as a team and what tools and communication strategies have been most helpful?
 
-**Todd Gamblin:** The team is pretty distributed.  We do have four main core developers who work at LLNL, but another of our core developers lives in Italy, and we have 3 developers at Kitware who work on the project from NY, NC, and NM.  We have regularly scheduled meetings and we plan work directly for these folks.  We were already holding those meetings via WebEx, so really not a lot has changed with home isolation.  
+**Todd Gamblin:** The team is pretty distributed.  We do have four main core developers who work at LLNL, but another of our core developers lives in Italy, and we have 3 developers at Kitware who work on the project from New York, North Carolina, and New Mexico.  We have regularly scheduled meetings and we plan work directly for these folks.  We were already holding those meetings via WebEx, so really not a lot has changed with home isolation.  
 
 Outside the core, we’ve always had a weekly conference call for Spack, as well as a mailing list. We use the concall to collaborate with other organizations like Fermilab, as well as to answer general questions.  Lately, the mailing list is pretty low volume, and the conference call is now biweekly and has more narrow attendance than it used to, but I think that is because other fora have gained traction.
 
@@ -53,8 +55,8 @@ Elaine Raybourn is a social scientist who has worked remotely for a combined tot
 <!---
 Publish: preview
 RSS update: 2020-03-23
-Categories: Collaboration
-Topics: Software Engineering, Projects and Organizations
+Categories: Planning, Collaboration
+Topics: Software Engineering, Projects and Organizations, Strategies for More Effective Teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
