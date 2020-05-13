@@ -15,7 +15,7 @@ This presentation, which was presented at [Argonne Training Program on Extreme-S
 #### Publication date: August 06, 2019
 
 <!---
-Publish: no
+Publish: yes
 Categories: collaboration, reliability
 Topics: strategies for more effective teams, testing
 Keywords: advice, strategy, team, reproducibility, productivity, sustainability
