@@ -19,10 +19,10 @@ Most of the communication now happens on GitHub and Slack.  If I look at a recen
 **Elaine:** What are your favorite 3 tips for leading scientific software development meetings in which all members are dispersed [working remotely]?
 
 **Todd:**
+
+<!-- formatting for ordered list: no space between items -->
 1. My main tip would be: for a lot of stuff, you don’t need meetings.  If we’re planning major technical features, we’ll discuss those on our weekly Webex, but we try to keep the updates low-overhead and we do most of the interaction on Pull Requests and in Slack.  We can do impromptu conference calls pretty easily through Slack (at least for 1x1) and WebEx.
-
 2. I think having lots of different ways of interacting with the project is important.  Some people do well with email, others like GitHub, and others like Slack.  Some of these work better across time zones, others have quicker response time — there’s no one best medium.  
-
 3. Keep people busy. If you give people too little to do, you’re going to need more communication.  We’re lucky that we had a bunch of clear-cut technical directions that we were already pursuing before home isolation began, and there’s always more work to be done with the number of GitHub issues and PRs we have.  So, so far, people have not run out of things to do.  This has helped make coordination easy.
 
 **Elaine:** The Spack team often supports your largely virtual community with hand-on face-to-face interaction. How will the Spack team be making adjustments to the way you assist your customers (ECP, ORNL, LLNL, Fermi, lab in Japan, etc.) in light of recent travel restrictions? [here I am wondering if you will be conducting more outreach via online training, webinars, video conferences, etc.]
