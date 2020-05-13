@@ -2,7 +2,7 @@
 
 The initialism *HPC* can refer to either high-performance *computers* (the systems themselves) or high-performance *computing* (the *use* of high-performance computers).  It is usually clear from the context which is meant.
 
-The idea of *high-performance computers*, or supercomputers, began to emerge in the 1960s as systems specially designed to address high-end computing needs. High-performance computers are significantly more powerful than their general-purpose counterparts and are used to tackle particularly challenging computational problems in science, engineering, analytics, and other areas that are too large for commodity computers or would take too long to solve.
+The idea of *high-performance computers*, or *supercomputers*, began to emerge in the 1960s as systems specially designed to address high-end computing needs. High-performance computers are significantly more powerful than their general-purpose counterparts and are used to tackle particularly challenging computational problems in science, engineering, analytics, and other areas that are too large for commodity computers or would take too long to solve.
 
 ### What Makes High-Performance Computers So Powerful?
 
