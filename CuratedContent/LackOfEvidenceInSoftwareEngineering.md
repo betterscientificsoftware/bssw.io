@@ -12,7 +12,7 @@ and reliable ways?
 Resource information | Details 
  :--- | :--- 
  Resource name | Methodological Irregularities in Programming-Language Research
- Website | [IEEE Computer](https://ieeexplore.ieee.org/document/7999115)
+ Website | [Methodological Irregularities in Programming-Language Research](https://ieeexplore.ieee.org/document/7999115)
 
 
 What makes one programming language better than another? What features in a programming language make
