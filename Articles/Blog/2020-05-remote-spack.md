@@ -6,9 +6,9 @@ Elaine Raybourn interviews Todd Gamblin about the Spack project's experience wor
 
 #### Publication date: May 18, 2020
 
-[Spack](https://spack.io) is a package manager for supercomputers, Linux, and macOS that makes installing scientific software easy. With Spack, users can build a package with multiple versions, configurations, platforms, and compilers, and all of these builds can coexist on the same machine.  Created in 2013 by Todd Gamblin, Spack now incorporates the contributions of over 550 contributors from around the world.
+[Spack](https://spack.io) is a package manager for supercomputers, Linux, and macOS that makes installing scientific software easy. With Spack, users can build a package with multiple versions, configurations, platforms, and compilers, and all of these builds can coexist on the same machine.  Created in 2013 by Todd Gamblin, Spack now incorporates the contributions of over 550 contributors from around the world. Spack was the recipient of a 2019 R&D 100 award, also winning a silver medal in the Market Disruptor category.
 
-**Elaine Raybourn:** What is the composition of the Spack team (remote and co-located)? How do you communicate as a team and what tools and communication strategies have been most helpful?
+**Elaine Raybourn:** Todd, now that most of us are working remotely, I'd like to ask you to say a few words about how your team is adapting. What is the composition of the Spack team (remote and co-located)? How do you communicate as a team, and what tools and/or communication strategies have been most helpful?
 
 **Todd Gamblin:** The team is pretty distributed.  Four main core developers work at Lawrence Livermore National Laboratory (LLNL), another core developer lives in Italy, and 3 developers at Kitware who work on the project from New York, North Carolina, and New Mexico.  We have regularly scheduled meetings and we plan work directly for these folks.  We were already holding those meetings via WebEx, so really not a lot has changed with home isolation.  
 
@@ -16,7 +16,7 @@ Outside the core, we’ve always had a weekly conference call for Spack, as well
 
 Most of the communication now happens on GitHub and Slack.  If I look at a recent week, there were ~125 messages (comments/new issues/new PRs) per day on GitHub.  Our Slack instance has 560 users now, and there are over 180 active users per week.  Of those, over 60 people actually interacted by posting something, so I think Slack is really the best place to interact with Spack now.  You can ask questions in the general channel and get quick responses, and teams at different organizations have been able to use Spack Slack to collaborate on their own sub-projects.
 
-**Elaine:** What are your favorite 3 tips for leading scientific software development meetings in which all members are dispersed [working remotely]?
+**Elaine:** It sounds like you're using a combination of synchronous and asynchonous strategies and tools. What are your favorite 3 tips for leading scientific software development meetings in which all members are dispersed [working remotely]?
 
 **Todd:**
 
@@ -25,7 +25,7 @@ Most of the communication now happens on GitHub and Slack.  If I look at a recen
 2. I think having lots of different ways of interacting with the project is important.  Some people do well with email, others like GitHub, and others like Slack.  Some of these work better across time zones, others have quicker response time — there’s no one best medium.  
 3. Keep people busy. If you give people too little to do, you’re going to need more communication.  We’re lucky that we had a bunch of clear-cut technical directions that we were already pursuing before home isolation began, and there’s always more work to be done with the number of GitHub issues and PRs we have.  So, so far, people have not run out of things to do.  This has helped make coordination easy.
 
-**Elaine:** The Spack team often supports your largely virtual community with hand-on face-to-face interaction. How will the Spack team be making adjustments to the way you assist your customers (ECP, ORNL, LLNL, Fermilab, in Japan, etc.) in light of recent travel restrictions? [Here I am wondering if you will be conducting more outreach via online training, webinars, video conferences, etc.]
+**Elaine:** Those are great tips for teams of all sizes. The Spack team also supports your largely virtual community with hands-on face-to-face interaction. How will the Spack team be making adjustments to the way you assist your customers (ECP, ORNL, LLNL, Fermilab, in Japan, etc.) in light of recent travel restrictions? Here I am wondering if you'll be conducting more outreach via online training, webinars, video conferences, etc.
 
 **Todd:** We’ve already managed to do our tutorial online — we did our usual 1-day tutorial split over two days for AMD and Cray as part of the CORAL-2 quarterly meeting.  We had to split the tutorial over two days due to time zone differences — there were people across the US and in Bangalore, and the only workable time slot was 8:30-12 PT.  That approach actually worked out well, giving people a break between days.  I think we will end up doing something similar for ISC if they end up holding part of the conference as a virtual event.
 
@@ -35,11 +35,11 @@ We had 50-60 people on the call, and Greg Becker and I managed to make the sessi
 
 Given that we’ve been able to make this work for a large group once, we might just start doing more frequent tutorial sessions in general.  I think we could reach a lot of people that way.
 
-**Elaine:** Spack is a huge global community of open source developers and users, and many find themselves in "unplanned" remote work--possibly unable to work they way they are used to. What impact do you forsee this having on the way your community is managed, if any?
+**Elaine:** You've successfully made a number of adjustments that impact your core team. Spack is a huge global community of open source developers and users, and many find themselves in "unplanned" remote work as well--possibly unable to work they way they are used to. What impact do you forsee this having on the way your community is managed, if any?
 
 **Todd:** Given that we’re already remote, I don’t see this having a major impact.  Nearly all the interaction in Spack is asynchronous and remote, so little changes day to day in forums like GitHub and Slack.
 
-**Elaine:** What are your lessons learned over the years about supporting large virtual communities that might apply to the smaller teams you work with that suddenly find themselves in unplanned remote work?
+**Elaine:** That's a good point about communication and coordination in large communities. What are your lessons learned over the years about supporting large virtual communities that might apply to the smaller teams you work with that suddenly find themselves in unplanned remote work?
 
 **Todd:** A lot of smaller teams at LLNL rely on being able to walk down the hall and ask developers for help, and I think that’s no longer workable.  Probably the most important thing we did early on (with respect to scaling the project) was to write lots of documentation.  I don’t think we’d be able to function without that.  There just isn’t enough bandwidth to tell everyone everything, and there has to be an authoritative place to read about features.
 
@@ -50,7 +50,7 @@ Similarly, I think the biggest bottleneck in Spack is core developer and package
 Todd Gamblin is a computer scientist in the Center for Applied Scientific Computing at Lawrence Livermore National Laboratory. His research focuses on scalable tools for measuring, analyzing, and visualizing parallel performance data. In addition to his research, Todd leads LLNL's DevRAMP (Reproducibility, Analysis, Monitoring, and Performance) team. He is the creator of Spack, a popular HPC package management tool, and he leads the Software Packaging Technologies area in the U.S. Exascale Computing Project.
 Todd has been at LLNL since 2008. He received the Early Career Research Award from the U.S. Department of Energy in 2014. He received Ph.D. and M.S. degrees in Computer Science from the University of North Carolina at Chapel Hill in 2009 and 2005, and his B.A. in Computer Science and Japanese from Williams College in 2002.
 
-Elaine Raybourn is a social scientist who has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom; Germany (FhG FIT) and France (INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as a member of Sandia’s Statistics and Human Systems Group (Applied Cognitive Science) and the IDEAS-ECP productivity project.
+Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning.  She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom Global Research and Development; Germany (Fraunhofer - FhG FIT) and France (French National Institute for Computer Science - INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia's Institutional PI for Interoperable Design of Extreme-scale Application Software (IDEAS-ECP). She also leads the IDEAS Productivity project panel series on [Strategies for Working Remotely](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/). 
 
 <!---
 Publish: preview
