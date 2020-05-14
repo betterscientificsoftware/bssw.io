@@ -2,12 +2,11 @@
 
 #### Contributed by [Greg Watson](https://github.com/jarrah42)
 
+#### Publication date: June 1, 2020
+
 Computer professionals spend significant effort creating new languages for
 many reasons. Can we evaluate the usefulness of new languages in reproducable
 and reliable ways?
-
-
-Topics: Better Development, Programming languages
 
 
 Resource information | Details 
@@ -25,7 +24,7 @@ and successfully argued for the inclusion of functional features in popular prog
 and Snap!"
 
 
-<!--- #### Publication date: August 1, 2017 -->
+<!--- #### Publication date: June 1, 2020 -->
 
 
  <!---
