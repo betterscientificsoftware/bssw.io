@@ -1,10 +1,14 @@
 # Working Remotely: The Spack Team
 
-Elaine Raybourn interviews Todd Gamblin about the Spack project's experience working remotely.
+**Hero Image:**
+ 
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0520_WorkRemoteSpack.png
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin "Todd Gamblin GitHub Profile") and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
 
 #### Publication date: May 18, 2020
+
+Elaine Raybourn interviews Todd Gamblin about the Spack project's experience working remotely.
 
 [Spack](https://spack.io) is a package manager for supercomputers, Linux, and macOS that makes installing scientific software easy. With Spack, users can build a package with multiple versions, configurations, platforms, and compilers, and all of these builds can coexist on the same machine.  Created in 2013 by Todd Gamblin, Spack now incorporates the contributions of over 550 contributors from around the world. Spack was the recipient of a 2019 R&D 100 award, also winning a silver medal in the Market Disruptor category.
 
