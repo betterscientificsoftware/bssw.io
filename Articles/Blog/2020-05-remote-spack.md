@@ -2,7 +2,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0520_WorkRemoteSpack.png
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0520_WorkRemoteSpack.png />
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin "Todd Gamblin GitHub Profile") and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
 
