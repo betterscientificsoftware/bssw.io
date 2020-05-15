@@ -4,10 +4,10 @@
 
 #### Publication date: June 1, 2020
 
-Computer professionals spend significant effort creating new languages for
-many reasons. Can we evaluate the usefulness of new languages in reproducable
-and reliable ways?
-
+Rigorous empirical methods, such as double-blind randomized control trials,
+have not been extensively used to evaluate the benefits of programming
+language features. Considering the impact that software has on our society,
+addressing this deficiency should be a priority.
 
 Resource information | Details 
  :--- | :--- 
