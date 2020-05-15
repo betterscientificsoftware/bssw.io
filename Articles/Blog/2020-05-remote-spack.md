@@ -10,7 +10,7 @@ Elaine Raybourn interviews Todd Gamblin about the Spack project's experience wor
 
 **Elaine Raybourn:** Todd, now that most of us are working remotely, I'd like to ask you to say a few words about how your team is adapting. What is the composition of the Spack team (remote and co-located)? How do you communicate as a team, and what tools and/or communication strategies have been most helpful?
 
-**Todd Gamblin:** The team is pretty distributed.  Four main core developers work at Lawrence Livermore National Laboratory (LLNL), another core developer lives in Italy, and 3 developers at Kitware who work on the project from New York, North Carolina, and New Mexico.  We have regularly scheduled meetings and we plan work directly for these folks.  We were already holding those meetings via WebEx, so really not a lot has changed with home isolation.  
+**Todd Gamblin:** The team is pretty distributed.  Four main core developers work at Lawrence Livermore National Laboratory (LLNL), another core developer lives in Italy, and 3 developers at Kitware work on the project from New York, North Carolina, and New Mexico.  We have regularly scheduled meetings and we plan work directly for these folks.  We were already holding those meetings via WebEx, so really not a lot has changed with home isolation.  
 
 Outside the core, we’ve always had a weekly conference call for Spack, as well as a mailing list. We use the concall to collaborate with other organizations like Fermilab, as well as to answer general questions.  Lately, the mailing list has been pretty low volume, and the conference call is now biweekly and has more narrow attendance than it used to, but I think that is because other fora have gained traction.
 
