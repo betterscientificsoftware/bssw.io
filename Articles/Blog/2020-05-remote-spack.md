@@ -6,7 +6,7 @@
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin "Todd Gamblin GitHub Profile") and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
 
-#### Publication date: May 18, 2020
+#### Publication date: May 16, 2020
 
 Elaine Raybourn interviews Todd Gamblin about the Spack project's experience working remotely.
 
@@ -56,12 +56,13 @@ Todd Gamblin is a Computer Scientist in the Advanced Technology Office in Liverm
 Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning.  She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom Global Research and Development; Germany (Fraunhofer - FhG FIT) and France (French National Institute for Computer Science - INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia's Institutional PI for Interoperable Design of Extreme-scale Application Software (IDEAS-ECP). She also leads the IDEAS Productivity project panel series on [Strategies for Working Remotely](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/). 
 
 <!---
-Publish: preview
-RSS update: 2020-05-18
+Publish: yes
+RSS update: 2020-05-16
 Categories: Planning, Collaboration
 Topics: Software Engineering, Projects and Organizations, Strategies for More Effective Teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
+SAND #: SAND2020-5152 O
 --->
