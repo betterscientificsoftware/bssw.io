@@ -1,5 +1,5 @@
 
-# Using a Personal Kanban for Productivity
+# Using Personal Kanban for Productivity
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
 #### Publication date: May 18, 2020
@@ -43,7 +43,7 @@ and an article that describes using gitlab for kanban.
 - [Task Management and Personal Kanban How I Use Gitlab Issues, Gerard Braad](http://gbraad.nl/blog/task-management-and-personal-kanban-how-i-use-gitlab-issues.html)
 
 <!---
-Publish: preview
+Publish: yes
 Categories: Skills 
 Topics: Personal Productivity and Sustainability 
 Level: 
