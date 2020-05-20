@@ -1,11 +1,7 @@
 # Virtual Meeting Tools and Features for the HPC/CSE Community
 
-<!--- deck start --->
-Are you familiar with virtual meeting tools and what features they offer? This article explores popular tools such as *Zoom* and *WebEx meetings*.
-<!--- deck end --->
-
-*The information provided here will be periodically updated to include either
-more products or more features. Please also note that features (mentioned below) for the products are valid currently; but vendors may change these features in the future. This article may be considered a starting point for you to start investigating these tools and their features.*
+The information provided here will be periodically updated to include either
+more products or more features.
 
 There is a wide array of [Teleconferencing](https://en.wikipedia.org/wiki/Teleconference)
 products. Many vendors offer products for *virtual meetings*. However, vendors
@@ -39,7 +35,7 @@ In the table below...
    * <sup>X</sup>Indicates a feature is available in another of the vendor's products.
    * <sup>Y</sup>Indicates a feature can vary depending on your organization's configuration.
 * Abbreviations have balloon hints which are revealed by hovering the mouse over them.
-* *TBD* means to be done.
+* [TBD] means to be done.
 
 Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> 
 --- | --- | ---
@@ -66,13 +62,13 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[h](#webex-notes)</sup>
 [Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
-Windows Desktop |[8](https://www.microsoft.com/en-us/software-download/windows8ISO)/[10h](https://www.microsoft.com/en-us/software-download/windows10ISO)/[10p](https://www.microsoft.com/en-us/software-download/windows10ISO) | [8](https://www.microsoft.com/en-us/software-download/windows8ISO)/[10h](https://www.microsoft.com/en-us/software-download/windows10ISO)/[10E](https://www.microsoft.com/en-us/software-download/windows10ISO)
-Linux Desktop | [U](https://ubuntu.com/)/[D](https://www.debian.org/)/[C](https://www.centos.org/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)/[+z](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux) | [U](https://ubuntu.com/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)
-macOS Desktop | [&ge;10.7][osx](https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/) | [&ge;10.13][osx](https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/)
-Presenter Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
-Attendee Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge)/[Fi](https://www.mozilla.org/en-US/firefox/)/[Sa](https://www.apple.com/safari/) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
-Presenter Mobile | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/) | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/)
-Attendee Mobile | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/) | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/)
+Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
+Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
+macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
+Presenter Browser | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
+Attendee Browser | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
+Presenter Mobile | [And]/[iOS] | [And]/[iOS]
+Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
 [Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | No
 [Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://help.webex.com/en-us/8zi8tq/Cisco-Webex-Best-Practices-for-Secure-Meetings-Hosts)
@@ -110,7 +106,7 @@ A/V quality | [TBD] | [TBD]
 ### Free plans
 
 Most vendors offer a *free* plan. However, these typically come with length and/or
-size limitations. In response to the Covid-19 pandemic situation, some vendors have
+size limitations. In response to the current pandemic situation, some vendors have
 either lowered prices of their paid plans or relaxed limitations of their free plans.
 
 Simply *attending* another host's meeting does not typically require a user to purchase a
@@ -126,7 +122,7 @@ for most project's needs.
 ### Plan pricing
 
 Most vendors charge monthly, *per host account* and then offer a few different plans
-based on meeting size and plan features. In response to the Covid-19 pandemic situation,
+based on meeting size and plan features. In response to the current pandemic situation,
 some vendors are offering discounts on their plans for a year-long purchase. In addition,
 most vendors offer *enterprise* level accounts designed for large organizations with many
 users each of which may require their own *host account*. 
@@ -165,11 +161,11 @@ unclear.
 
 ### Supported devices
 
-* **A** = Audio-only telephone device using landline, cell or VoIP.
-* **W** = Web-browser device often using a browser-extension.
-* **M** = Mobile device (phone or tablet) operating over the internet.
-* **L** = Laptop or desktop computer device operating over the internet.
-* **VCS** = Video Conferencing System with dedicated hardware/network.
+* [A] = Audio-only telephone device using landline, cell or VoIP.
+* [W] = Web-browser device often using a browser-extension.
+* [M] = Mobile device (phone or tablet) operating over the internet.
+* [L] = Laptop or desktop computer device operating over the internet.
+* [VCS] = Video Conferencing System with dedicated hardware/network.
 
 ### No install option
 
@@ -191,7 +187,7 @@ ability to interpret non-verbal cues is
 However, high definition (HD) video can be essential in other circumstances
 particularly those where the people involved are meeting for the first time.
 
-In the Covid-19 pandemic situation, with so many being forced to work from home,
+In the current pandemic situation, with so many being forced to work from home,
 the increase in network load has caused some vendors to temporarily disable
 support high definition video.
 
@@ -226,7 +222,7 @@ work-arounds using other, dedicated tools. For example,
 [Google docs](https://www.google.com/docs/about/) can be used for some kinds of content
 sharing even some limited whiteboarding,
 [Google forms](https://www.google.com/forms/about/) can be used for polling attendees,
-[Google hangouts](https://hangouts.google.com/) (now called *Google Meet*) can be
+[Google hangounts](https://hangouts.google.com/) (now called *Google Meet*) can be
 used for chat, etc.
 
 ### Screen sharing
@@ -277,7 +273,7 @@ in the midst of typing a chat message, the ability to save all chat messages to 
 text file, and whether the host can disable chat if necessary.
 In the absence of *able chat* a clumsy
 but sufficient work-around is to use a shared [Google doc](https://www.google.com/docs/about/)
-or [Google Hangout](https://hangouts.google.com/)(also called Google Meet).
+or [Google Hangout](https://hangouts.google.com/).
 Of course, there is still the issue of how best to distribute a link to meeting participants,
 probably via email.
 
@@ -557,12 +553,19 @@ The information here is evolving and we have only limited resources to create an
 maintain it. We intend to make routine updates.
 
 ## Other resources
+
 * [Wikipedia comparison](https://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software)
    * Many products compared but small feature set
 * [Virtual Conferences: A Guide to Best Practices](https://www.acm.org/virtual-conferences)
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
+<!--- Vertical whitespace to ensure clicking on footnotes produces
+      a view of a "single page" of notes --->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ##### Zoom notes
+
 * (a) Maximum number of attendees depends on plan. There is a *Large Meeting*
 add-on option (not for the *free* plan) for purchase, on a month-to-month basis,
 to expand the maximum up to 1000. There is also a *Webinar* add-on option for
@@ -575,7 +578,14 @@ cannot use this option.
 * (e) Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
 * (f) Zoom virtual backgrounds can be *videos*.
 
+
+<!--- Vertical whitespace to ensure clicking on footnotes produces
+      a view of a "single page" of notes --->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ##### WebEx Notes
+
 * (a) [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
 of products offered by WebEx. Some of the features described in this article that are
 not supported by *WebEx Meetings* may be supported in their other products.
@@ -596,6 +606,11 @@ cannot use this option.
 add-on product called *WebEx Assistant* later this year.
 * (i) WebEx virtual background currently works only on mobile platforms.
 
+<!--- Vertical whitespace to ensure clicking on footnotes produces
+      a view of a "single page" of notes --->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 [TBD]: ./TelecomToolsForRemoteWork.md#to-be-done "To be done"
 
 <!--- join option notes --->
@@ -604,3 +619,36 @@ add-on product called *WebEx Assistant* later this year.
 [M]: https://www.google.com "Mobile app (cell-phone/tablet)"
 [L]: https://www.google.com "Laptop/desktop computer app"
 [VCS]: https://en.wikipedia.org/wiki/List_of_video_telecommunication_services_and_product_brands "Video Conferencing System with dedicated hardware/networking"
+
+<!--- Linux Distribution Notes --->
+[U]: https://ubuntu.com/ "Ubuntu"
+[D]: https://www.debian.org/ "Debian"
+[R]: https://www.redhat.com/en "RedHat"
+[O]: https://www.opensuse.org/ "openSUSE"
+[C]: https://www.centos.org/ "CentOS"
+[F]: https://getfedora.org/ "Fedora"
+[+z]: https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux "Other Linux Distributions"
+
+<!--- Windows Version Notes --->
+[8]: https://www.microsoft.com/en-us/software-download/windows8ISO "Windows 8"
+[10h]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Home"
+[10P]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro"
+[10ed]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Education"
+[10Pw]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Workstation"
+[10Pe]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Education"
+[10E]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Enterprise"
+
+<!--- OSX Version Notes --->
+[osx]: https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/ "OSX version names and numbers"
+
+<!--- iOS Version Notes --->
+[iOS]: https://www.apple.com/ios/ios-13/ "iOS Versions"
+
+<!--- Android Version Notes --->
+[And]: https://en.wikipedia.org/wiki/Android_version_history "Android version names and numbers"
+
+<!--- Browser Version Notes --->
+[Ch]: https://www.google.com/chrome/ "Chrome"
+[Sa]: https://www.apple.com/safari/) "Safari"
+[Ed]: https://www.microsoft.com/en-us/edge) "Edge"
+[Fi]: https://www.mozilla.org/en-US/firefox/) "Firefox"
