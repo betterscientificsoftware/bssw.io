@@ -557,19 +557,12 @@ The information here is evolving and we have only limited resources to create an
 maintain it. We intend to make routine updates.
 
 ## Other resources
-
 * [Wikipedia comparison](https://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software)
    * Many products compared but small feature set
 * [Virtual Conferences: A Guide to Best Practices](https://www.acm.org/virtual-conferences)
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
-<!--- Vertical whitespace to ensure clicking on footnotes produces
-      a view of a "single page" of notes --->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 ##### Zoom notes
-
 * (a) Maximum number of attendees depends on plan. There is a *Large Meeting*
 add-on option (not for the *free* plan) for purchase, on a month-to-month basis,
 to expand the maximum up to 1000. There is also a *Webinar* add-on option for
@@ -582,14 +575,7 @@ cannot use this option.
 * (e) Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
 * (f) Zoom virtual backgrounds can be *videos*.
 
-
-<!--- Vertical whitespace to ensure clicking on footnotes produces
-      a view of a "single page" of notes --->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 ##### WebEx Notes
-
 * (a) [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
 of products offered by WebEx. Some of the features described in this article that are
 not supported by *WebEx Meetings* may be supported in their other products.
@@ -609,11 +595,6 @@ cannot use this option.
 * (h) WebEx plans to offer *automatic*, AI-assisted closed captioning as part of an
 add-on product called *WebEx Assistant* later this year.
 * (i) WebEx virtual background currently works only on mobile platforms.
-
-<!--- Vertical whitespace to ensure clicking on footnotes produces
-      a view of a "single page" of notes --->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 [TBD]: ./TelecomToolsForRemoteWork.md#to-be-done "To be done"
 
