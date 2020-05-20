@@ -67,7 +67,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
-Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
+Linux Desktop | [U](https://ubuntu.com/)/[D](https://www.debian.org/)/[C](https://www.centos.org/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)/[+](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux) | [U](https://ubuntu.com/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)
 macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
 Presenter Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
 Attendee Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge)/[Fi](https://www.mozilla.org/en-US/firefox/)/[Sa](https://www.apple.com/safari/) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
