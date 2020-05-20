@@ -72,7 +72,7 @@ macOS Desktop | [&ge;10.7][osx](https://www.macworld.co.uk/feature/mac/os-x-maco
 Presenter Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
 Attendee Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge)/[Fi](https://www.mozilla.org/en-US/firefox/)/[Sa](https://www.apple.com/safari/) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
 Presenter Mobile | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/) | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/)
-Attendee Mobile | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS] | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/)
+Attendee Mobile | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/) | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
 [Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | No
 [Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://help.webex.com/en-us/8zi8tq/Cisco-Webex-Best-Practices-for-Secure-Meetings-Hosts)
