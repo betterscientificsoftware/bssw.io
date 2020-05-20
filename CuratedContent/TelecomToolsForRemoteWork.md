@@ -66,8 +66,8 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[h](#webex-notes)</sup>
 [Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
-Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
-Linux Desktop | [U](https://ubuntu.com/)/[D](https://www.debian.org/)/[C](https://www.centos.org/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)/[+](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux) | [U](https://ubuntu.com/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)
+Windows Desktop |[8](https://www.microsoft.com/en-us/software-download/windows8ISO)/[10h](https://www.microsoft.com/en-us/software-download/windows10ISO)/[10p](https://www.microsoft.com/en-us/software-download/windows10ISO) | [8](https://www.microsoft.com/en-us/software-download/windows8ISO)/[10h](https://www.microsoft.com/en-us/software-download/windows10ISO)/[10E](https://www.microsoft.com/en-us/software-download/windows10ISO)
+Linux Desktop | [U](https://ubuntu.com/)/[D](https://www.debian.org/)/[C](https://www.centos.org/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)/[+z](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux) | [U](https://ubuntu.com/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)
 macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
 Presenter Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
 Attendee Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge)/[Fi](https://www.mozilla.org/en-US/firefox/)/[Sa](https://www.apple.com/safari/) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
@@ -624,24 +624,6 @@ add-on product called *WebEx Assistant* later this year.
 [L]: https://www.google.com "Laptop/desktop computer app"
 [VCS]: https://en.wikipedia.org/wiki/List_of_video_telecommunication_services_and_product_brands "Video Conferencing System with dedicated hardware/networking"
 
-<!--- Linux Distribution Notes --->
-[U]: https://ubuntu.com/ "Ubuntu"
-[D]: https://www.debian.org/ "Debian"
-[R]: https://www.redhat.com/en "RedHat"
-[O]: https://www.opensuse.org/ "openSUSE"
-[C]: https://www.centos.org/ "CentOS"
-[F]: https://getfedora.org/ "Fedora"
-[+z]: https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux "Other Linux Distributions"
-
-<!--- Windows Version Notes --->
-[8]: https://www.microsoft.com/en-us/software-download/windows8ISO "Windows 8"
-[10h]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Home"
-[10P]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro"
-[10ed]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Education"
-[10Pw]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Workstation"
-[10Pe]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Education"
-[10E]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Enterprise"
-
 <!--- OSX Version Notes --->
 [osx]: https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/ "OSX version names and numbers"
 
@@ -650,9 +632,3 @@ add-on product called *WebEx Assistant* later this year.
 
 <!--- Android Version Notes --->
 [And]: https://en.wikipedia.org/wiki/Android_version_history "Android version names and numbers"
-
-<!--- Browser Version Notes --->
-[Ch]: https://www.google.com/chrome/ "Chrome"
-[Sa]: https://www.apple.com/safari/) "Safari"
-[Ed]: https://www.microsoft.com/en-us/edge) "Edge"
-[Fi]: https://www.mozilla.org/en-US/firefox/) "Firefox"
