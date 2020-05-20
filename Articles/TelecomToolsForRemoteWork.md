@@ -641,9 +641,9 @@ add-on product called *WebEx Assistant* later this year.
 
 <!--- Browser Version Notes --->
 [Ch]: https://www.google.com/chrome/ "Chrome"
-[Sa]: https://www.apple.com/safari/) "Safari"
-[Ed]: https://www.microsoft.com/en-us/edge) "Edge"
-[Fi]: https://www.mozilla.org/en-US/firefox/) "Firefox"
+[Sa]: https://www.apple.com/safari/ "Safari"
+[Ed]: https://www.microsoft.com/en-us/edge "Edge"
+[Fi]: https://www.mozilla.org/en-US/firefox/ "Firefox"
 
 
 <!---
