@@ -567,11 +567,6 @@ maintain it. We intend to make routine updates.
 * [Virtual Conferences: A Guide to Best Practices](https://www.acm.org/virtual-conferences)
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
-<!--- Vertical whitespace to ensure clicking on footnotes produces
-      a view of a "single page" of notes --->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 ##### Zoom notes
 
 * (a) Maximum number of attendees depends on plan. There is a *Large Meeting*
@@ -585,12 +580,6 @@ cannot use this option.
 * (d) Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
 * (e) Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
 * (f) Zoom virtual backgrounds can be *videos*.
-
-
-<!--- Vertical whitespace to ensure clicking on footnotes produces
-      a view of a "single page" of notes --->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### WebEx Notes
 
@@ -613,11 +602,6 @@ cannot use this option.
 * (h) WebEx plans to offer *automatic*, AI-assisted closed captioning as part of an
 add-on product called *WebEx Assistant* later this year.
 * (i) WebEx virtual background currently works only on mobile platforms.
-
-<!--- Vertical whitespace to ensure clicking on footnotes produces
-      a view of a "single page" of notes --->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 [TBD]: ./TelecomToolsForRemoteWork.md#to-be-done "To be done"
 
