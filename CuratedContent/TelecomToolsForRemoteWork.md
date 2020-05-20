@@ -226,7 +226,7 @@ work-arounds using other, dedicated tools. For example,
 [Google docs](https://www.google.com/docs/about/) can be used for some kinds of content
 sharing even some limited whiteboarding,
 [Google forms](https://www.google.com/forms/about/) can be used for polling attendees,
-[Google hangounts](https://hangouts.google.com/) (now called *Google Meet*) can be
+[Google hangouts](https://hangouts.google.com/) (now called *Google Meet*) can be
 used for chat, etc.
 
 ### Screen sharing
@@ -277,7 +277,7 @@ in the midst of typing a chat message, the ability to save all chat messages to 
 text file, and whether the host can disable chat if necessary.
 In the absence of *able chat* a clumsy
 but sufficient work-around is to use a shared [Google doc](https://www.google.com/docs/about/)
-or [Google Hangout](https://hangouts.google.com/).
+or [Google Hangout](https://hangouts.google.com/)(also called Google Meet).
 Of course, there is still the issue of how best to distribute a link to meeting participants,
 probably via email.
 
