@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2020-04-21*
+*Listed in reverse chronological order. Last updated: 2020-05-20*
 
 
 
@@ -38,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Accelerating Numerical Software Libraries with Multi-Precision Algorithms*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar040), Hartwig Anzt (Karlsruhe Institute of Technology),  and Piotr Luszczek (University of Tennessee), 2020-05-13
 
 
 
