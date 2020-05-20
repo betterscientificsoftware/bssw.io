@@ -7,7 +7,7 @@ Software—the foundation of discovery in computational science & engineering—
 Slide1 Left: blog_posts/working-remotely-the-spack-team
 Slide1 Right: images/raw/master/Blog_0520_WorkRemoteSpack.png
 Slide2 Left: events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams
-Slide2 Right: events/webinar-accelerating-numerical-software-libraries-with-multi-precision-algorithms 
+Slide2 Right: events/webinar-sycl-introduction-and-best-practices 
 Slide3 Left: blog_posts/blog_posts/research-software-engineer-stories
 Slide3 Right: images/raw/master/Blog_042320_podcast.jpg
 Slide4 Left: blog_posts/maintainers-drive-software-sustainability
