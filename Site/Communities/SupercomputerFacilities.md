@@ -18,7 +18,7 @@ Performance portablity is often a significant concern for users of multiple faci
 
 ## Where do I go next?
 - **Explore** the resources below.
-- **Ivestigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Investigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
 
 <!--
 Featured resources for the Community of Supercomputer Facilities and their Users
