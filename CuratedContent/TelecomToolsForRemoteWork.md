@@ -165,11 +165,11 @@ unclear.
 
 ### Supported devices
 
-* [A] = Audio-only telephone device using landline, cell or VoIP.
-* [W] = Web-browser device often using a browser-extension.
-* [M] = Mobile device (phone or tablet) operating over the internet.
-* [L] = Laptop or desktop computer device operating over the internet.
-* [VCS] = Video Conferencing System with dedicated hardware/network.
+* **A** = Audio-only telephone device using landline, cell or VoIP.
+* **W** = Web-browser device often using a browser-extension.
+* **M** = Mobile device (phone or tablet) operating over the internet.
+* **L** = Laptop or desktop computer device operating over the internet.
+* **VCS** = Video Conferencing System with dedicated hardware/network.
 
 ### No install option
 
