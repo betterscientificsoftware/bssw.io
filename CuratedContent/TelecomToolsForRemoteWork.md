@@ -68,11 +68,11 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
 Windows Desktop |[8](https://www.microsoft.com/en-us/software-download/windows8ISO)/[10h](https://www.microsoft.com/en-us/software-download/windows10ISO)/[10p](https://www.microsoft.com/en-us/software-download/windows10ISO) | [8](https://www.microsoft.com/en-us/software-download/windows8ISO)/[10h](https://www.microsoft.com/en-us/software-download/windows10ISO)/[10E](https://www.microsoft.com/en-us/software-download/windows10ISO)
 Linux Desktop | [U](https://ubuntu.com/)/[D](https://www.debian.org/)/[C](https://www.centos.org/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)/[+z](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux) | [U](https://ubuntu.com/)/[R](https://www.redhat.com/en)/[O](https://www.opensuse.org/)/[F](https://getfedora.org/)
-macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
+macOS Desktop | [&ge;10.7][osx](https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/) | [&ge;10.13][osx](https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/)
 Presenter Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
 Attendee Browser | **[Ch](https://www.google.com/chrome/)**/[Ed](https://www.microsoft.com/en-us/edge)/[Fi](https://www.mozilla.org/en-US/firefox/)/[Sa](https://www.apple.com/safari/) | **[Ch](https://www.google.com/chrome/)**/**[Fi](https://www.mozilla.org/en-US/firefox/)**/[Sa](https://www.apple.com/safari/)
-Presenter Mobile | [And]/[iOS] | [And]/[iOS]
-Attendee Mobile | [And]/[iOS] | [And]/[iOS]
+Presenter Mobile | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/) | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/)
+Attendee Mobile | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS] | [And](https://en.wikipedia.org/wiki/Android_version_history)/[iOS](https://www.apple.com/ios/ios-13/)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Security**](#security)</td></tr>
 [Recent Issues](https://www.google.com/search?q=security+issues+with+video+conferencing+software&as_qdr=m) | [Yes](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | No
 [Best Practices](#best-practices) | [Yes](https://zoom.us/security) | [Yes](https://help.webex.com/en-us/8zi8tq/Cisco-Webex-Best-Practices-for-Secure-Meetings-Hosts)
@@ -604,12 +604,3 @@ add-on product called *WebEx Assistant* later this year.
 [M]: https://www.google.com "Mobile app (cell-phone/tablet)"
 [L]: https://www.google.com "Laptop/desktop computer app"
 [VCS]: https://en.wikipedia.org/wiki/List_of_video_telecommunication_services_and_product_brands "Video Conferencing System with dedicated hardware/networking"
-
-<!--- OSX Version Notes --->
-[osx]: https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/ "OSX version names and numbers"
-
-<!--- iOS Version Notes --->
-[iOS]: https://www.apple.com/ios/ios-13/ "iOS Versions"
-
-<!--- Android Version Notes --->
-[And]: https://en.wikipedia.org/wiki/Android_version_history "Android version names and numbers"
