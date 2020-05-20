@@ -1,7 +1,11 @@
 # Virtual Meeting Tools and Features for the HPC/CSE Community
 
-The information provided here will be periodically updated to include either
-more products or more features.
+<!--- deck start --->
+Are you familiar with virtual meeting tools and what features they offer? This article explores popular tools such as *Zoom* and *WebEx meetings*.
+<!--- deck end --->
+
+*The information provided here will be periodically updated to include either
+more products or more features. Please also note that features (mentioned below) for the products are valid currently; but vendors may change these features in the future. This article may be considered a starting point for you to start investigating these tools and their features.*
 
 There is a wide array of [Teleconferencing](https://en.wikipedia.org/wiki/Teleconference)
 products. Many vendors offer products for *virtual meetings*. However, vendors
@@ -35,7 +39,7 @@ In the table below...
    * <sup>X</sup>Indicates a feature is available in another of the vendor's products.
    * <sup>Y</sup>Indicates a feature can vary depending on your organization's configuration.
 * Abbreviations have balloon hints which are revealed by hovering the mouse over them.
-* [TBD] means to be done.
+* *TBD* means to be done.
 
 Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> 
 --- | --- | ---
@@ -106,7 +110,7 @@ A/V quality | [TBD] | [TBD]
 ### Free plans
 
 Most vendors offer a *free* plan. However, these typically come with length and/or
-size limitations. In response to the current pandemic situation, some vendors have
+size limitations. In response to the Covid-19 pandemic situation, some vendors have
 either lowered prices of their paid plans or relaxed limitations of their free plans.
 
 Simply *attending* another host's meeting does not typically require a user to purchase a
@@ -122,7 +126,7 @@ for most project's needs.
 ### Plan pricing
 
 Most vendors charge monthly, *per host account* and then offer a few different plans
-based on meeting size and plan features. In response to the current pandemic situation,
+based on meeting size and plan features. In response to the Covid-19 pandemic situation,
 some vendors are offering discounts on their plans for a year-long purchase. In addition,
 most vendors offer *enterprise* level accounts designed for large organizations with many
 users each of which may require their own *host account*. 
@@ -187,7 +191,7 @@ ability to interpret non-verbal cues is
 However, high definition (HD) video can be essential in other circumstances
 particularly those where the people involved are meeting for the first time.
 
-In the current pandemic situation, with so many being forced to work from home,
+In the Covid-19 pandemic situation, with so many being forced to work from home,
 the increase in network load has caused some vendors to temporarily disable
 support high definition video.
 
