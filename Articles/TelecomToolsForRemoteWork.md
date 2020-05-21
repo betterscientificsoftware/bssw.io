@@ -197,12 +197,12 @@ particularly those where the people involved are meeting for the first time.
 
 In the current pandemic situation, with so many being forced to work from home,
 the increase in network load has caused some vendors to temporarily disable
-support high definition video.
+support for high definition video.
 
 In addition, most vendor's products automatically adjust video quality based
-on moment-to-moment network responsiveness anyway. Each participant's local
+on moment-to-moment network responsiveness. Each participant's local
 network and/or the wide-area network loads may be such that even if high
-definition video is supported, the networks will not support it.
+definition video is supported, the network loads will not support it.
 
 ### Test meeting
 
@@ -307,13 +307,16 @@ concerns.
 Recording of a virtual meeting session is often convenient for participants
 who were unable to attend to watch later or for a meeting scribe to go back
 and fill in gaps in their notes. However, recordings are generally not useful
-for *replacing* a scribe because of the summarization often involved in the
-curation of meeting notes.
+for *replacing* meeting notes because of the summarization often involved in the
+curation of such notes.
 
 There are differing levels of support for what content gets recorded among the
 various products. Some products may not make a record of chat messages for
-example. It can sometimes be useful for the host to select the content to be
-recorded (e.g. audio-only). Some vendors provide support for producing textual
+example. Recorded chat may or may not be sync'd with A/V content.
+It can sometimes be useful for the host to select the content to be
+recorded (e.g. audio-only).
+
+Some vendors provide support for producing textual
 *transcriptions* from recordings. Recordings can introduce
 [*privacy concerns*](#privacy) so it is a best practice to obtain *written*
 consent not only to create a recording but also to specify with whom the
@@ -606,10 +609,10 @@ add-on product called *WebEx Assistant* later this year.
 [TBD]: ./TelecomToolsForRemoteWork.md#to-be-done "To be done"
 
 <!--- join option notes --->
-[A]: https://www.google.com "audio-only Phone call (cell/voip/landline)"
-[W]: https://www.google.com "Web-browser with extension"
-[M]: https://www.google.com "Mobile app (cell-phone/tablet)"
-[L]: https://www.google.com "Laptop/desktop computer app"
+[A]: #supported-devices "audio-only Phone call (cell/voip/landline)"
+[W]: #supported-devices "Web-browser with extension"
+[M]: #supported-devices "Mobile app (cell-phone/tablet)"
+[L]: #supported-devices "Laptop/desktop computer app"
 [VCS]: https://en.wikipedia.org/wiki/List_of_video_telecommunication_services_and_product_brands "Video Conferencing System with dedicated hardware/networking"
 
 <!--- Linux Distribution Notes --->
