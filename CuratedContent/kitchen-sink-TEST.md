@@ -126,7 +126,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox
 
-## # Real Cool Heading
+# Real Cool Heading
 
 **Subresources:**
 - [Doxygen](DocumentationTools.Doxygen.md)
