@@ -111,7 +111,7 @@ A/V quality | [TBD] | [TBD]
 
 ## The Basics
 
-### Free plans
+### <a name='free-plans'>Free plans</a>
 
 Most vendors offer a *free* plan. However, these typically come with length and/or
 size limitations. In response to the current pandemic situation, some vendors have
@@ -127,7 +127,7 @@ If you do need to *host* meetings *and* you do not already have a plan through y
 organization, the lowest-level paid plan in any of these products is probably sufficient
 for most project's needs.
 
-### Plan pricing
+### <a name='plan-pricing'>Plan pricing</a>
 
 Most vendors charge monthly, *per host account* and then offer a few different plans
 based on meeting size and plan features. In response to the current pandemic situation,
@@ -135,7 +135,7 @@ some vendors are offering discounts on their plans for a year-long purchase. In 
 most vendors offer *enterprise* level accounts designed for large organizations with many
 users each of which may require their own *host account*. 
 
-### Size limits
+### <a name='size-limits'>Size Limts</a>
 
 The *maximum meeting size* is the maximum number of *participants* in a meeting. A
 number of vendors draw a distinction between a *meeting*, which typically requires
