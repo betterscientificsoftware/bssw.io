@@ -2,17 +2,17 @@
 
 **Hero Image:**
 
- - <img src='https://exascaleproject.org/wp-content/uploads/2020/01/computing-abstraction.jpg'/>
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_032420_StoneMasonry.png' />
 
 #### Contributed by [Wolfgang Bangerth](https://github.com/bangerth "Wolfgang Bangerth GitHub Profile")
 
-#### Publication date: TBD
+#### Publication date: May 27, 2020
 
 We have this romanticized notion of craftspeople and artisans as
 skillful creators striving for perfection, every time. That may of
 course be misplaced, but at least historically, becoming a master
 stonemason, master carpenter, or master metal maker was a serious
-undertaking in my country of origin, Germany: It required three years
+undertaking in my country of origin, Germany: it required three years
 and one day as a
 [journeyman](https://en.wikipedia.org/wiki/Journeyman_years). During
 that time, apprentices would live a
@@ -22,32 +22,32 @@ possessions other than what they could carry.
 
 Maybe we don't need to apply quite such monk-like dedication to
 becoming good software engineers. But I think that the way I imagine
-these journeyyears to have been, still holds useful lessons. I suppose
+these journeyman years to have been, still holds useful lessons. I suppose
 that a lot of classes in "STNM 501: Intro to Stone Masonry" would have been
 of the form "If you put the chisel to this place of the rock, it will
 flake off in that way, and you end up with the shape you are looking
-for". That's like writing software: Translating an abstract algorithm
+for". That's like writing software: translating an abstract algorithm
 into code. The part that I imagine as so much more interesting comes
 in "STNM 502: Advanced Stone Masonry": "Think about what happens if you put
 the chisel in that place but you accidentally hit it at the wrong
 angle with your hammer because you're distracted by the beautiful sunset? 
 Then you flake off a much larger piece, and because you can't glue
 rock back together, the piece is ruined and you need to start from
-scratch." To put this differently: When we do things, we shouldn't
+scratch." To put this differently: when we do things, we shouldn't
 just know how to do things right, but we should *plan for the kinds of
 mistakes we tend to make* on a daily basis. It is this kind of
 planning that makes the "every time" possible in my first sentence
 above.
 
 I have kind of a long history with this notion of planning for failure
--- longer than I've been programming. Some 30 years ago, when I was a
+— longer than I've been programming. Some 30 years ago, when I was a
 teenager, my mom told me about a colleague who had slipped on icy
-stairs, and -- *because he had had his hands in his pockets* --
+stairs, and — *because he had had his hands in his pockets* —
 couldn't catch his fall and cracked a couple of ribs. I really
 can't say why this particular story stuck with me, but it's become a
-key piece of how I've approached programming: Keep your
+key piece of how I've approached programming: keep your
 hands out of your pockets if there is a risk that you might slip. Or,
-more concretely: Even if you are pretty sure that your code is
+more concretely: even if you are pretty sure that your code is
 correct, build a safety net anyway. In software design, this would be
 called [defensive
 programming](https://en.wikipedia.org/wiki/Defensive_programming),
@@ -55,13 +55,13 @@ which is a form of [defensive design](https://en.wikipedia.org/wiki/Defensive_de
 
 ### It's a mindset question
 
-I'll give you a few examples of defensive programming below, and it's
-definitely a good habit to use defensive techniques.
-But I think that the *real* lesson of the story is actually a different one: We all
+It's definitely a good habit to use defensive techniques, 
+and I'll give you a few examples of defensive programming below.
+But I think that the *real* lesson of the story is actually a different one: we all
 make mistakes. Some have consequences that are quite annoying (cracked
 ribs, broken software). But what I think sets good programmers apart
 is not that once they run into a bug, they fix it. It is that
-*then they go walk around the block*, 
+*then they go for a walk around the block*, 
 go back in time and wonder what was on their mind when they wrote the code
 with the bug. *How* did it come that I wrote the code with the bug?
 What could I have done differently to avoid this bug in the first
@@ -71,10 +71,10 @@ mistakes did I make that resulted in it taking this long?
 The idea of this mindset is not to be annoyed at having to spend a couple
 of hours fixing a bug, but to see it as an opportunity to learn how to
 become better at programming, debugging, or essentially anything
-else. To learn something about how *I* work and 
-how I can work around my own limitations. To see cracked ribs as an
+else. To learn something about how *you* work and 
+how you can work around your own limitations. To see cracked ribs as an
 opportunity to understand that slipping on ice happens, but that it doesn't
-have to have grave consequences if one anticipates that it does and guards
+have to have grave consequences if one anticipates it and guards
 against it.
 
 
@@ -105,10 +105,10 @@ Sooner or later, we will want to add points together:
      return x;
    }
 ```
-I suspect you all noticed: There's a bug in this function -- the
+I suspect you all noticed: there's a bug in this function — the
 loop should have only run while `c<3`, not `c<=3`. That's a nuisance.
 The bug is likely difficult to find because the three coordinates of the
-sum object were computed correctly, but we wrote past the end of the
+sum object were computed correctly, but I wrote past the end of the
 `coordinates` array. So the error would not have been visible immediately
 and would only have manifested when I find myself confused that some other
 variable does not seem to store the value it should have had. It will
@@ -130,8 +130,8 @@ Three months later I write code that has a similar problem:
      return sum;
    }
 ```
-My walk around the block is not as pleasant. I have to admit to myself
-that I thought I had a plan last time, but that it didn't work -- apparently,
+This time, my walk around the block is not as pleasant. I have to admit to myself
+that I thought I had a plan last time, but that it didn't work — apparently,
 my brain makes these kinds of mistakes. Resolving to be more careful
 doesn't seem to work: I need a different strategy
 *that acknowledges that I make these kinds of mistakes*, that I make
@@ -154,17 +154,17 @@ help me find those places where I make mistakes:
 The assertion will terminate the program if the condition `c<3` is not
 satisfied. For both of the wrong pieces of code above, I would have been
 alerted to the problem right away, and it would have been a matter of a
-minutes to fix them -- no need for difficult debugging.
+minutes to fix them — no need for difficult debugging.
 
 The point I'm trying to make is not that the assertion is a good way
-to help me debug code (which of course it is), but that I put it there
+to help me debug code (though of course it is), but that I put it there
 because *introspection has allowed me to understand what kinds of mistakes
 I often make*, and how I can learn to live with it.
 
 
 ### Defensive programming
 
-Assertions are one component of "defensive programming". We use them
+Assertions are one component of "defensive programming". I use them
 extensively in all of the codes I work on. For example, the [deal.II
 finite element library](https://www.dealii.org)'s core currently
 consists of a large amount of C++
@@ -203,13 +203,13 @@ CellAccessor::get_dof_values(const Vector      &values,
                          local_values_begin);
 }
 ```
-The actual implementation in the last few lines is unimportant to us
-here; the point simply is: The function has three input arguments
+The actual implementation in the last few lines is unimportant
+here; the point simply is: the function has three input arguments
 (plus the `this` pointer) that could all be wrong or in undefined
 states and we should check that they are valid individually and in
-combination -- because you bet that
-at some point someone wrote code calling this function and did so while the
-sun was setting beautifully, immediately followed by a night figuring why
+combination — because you bet that
+at some point someone will write code calling this function and do so while the
+sun was setting beautifully, and it will be immediately followed by a night figuring why
 the code doesn't work.
 
 
@@ -225,7 +225,7 @@ variables of a function are within valid ranges.
 Other approaches that fall into the same category are of course that
 every software needs to have good tests. Every experienced programmer
 knows that complex software that isn't tested isn't just in the
-category where it may not work, but in fact in the "does not work"
+category where it *may* not work, but in fact in the *does* not work
 category. For software that continues to be developed (nearly all
 software), that also implies that testing must be part of the
 development process, for example as part of a Continuous Integration
@@ -234,12 +234,11 @@ assertion in the code to ensure that they trigger when they are needed;
 my view is that that may be going too far, but I appreciate the spirit
 of anticipating that one may also make mistakes writing assertions.
 
-
 ### Summary
 
 The point I wanted to make here is not that defensive programming is
-good (it unambiguously is), but what made people think about it in the
-first place: All of these techniques ultimately came about because of
+good (though it unambiguously is), but what made people think about it in the
+first place: all of these techniques ultimately came about because of
 unpleasant walks around the block coming to terms with the fact that
 we make mistakes and apparently can't seem to stop ourselves from
 making mistakes.
@@ -274,7 +273,7 @@ convection in the Earth mantle and the dynamics of Earth's crust.
 Despite his apparent focus on safety nets, he tremendously enjoyed skydiving
 for a few years. He's into hiking and climbing the exposed ridges
 going up and between Colorado's highest peaks these days. (He does,
-however, carry a satellite communicator with him on these trips.)
+however, carry a satellite communicator on these trips.)
 
 Before joining Colorado State University, he was on the faculty of
 Texas A&M University and a postdoc at the University of Texas at
