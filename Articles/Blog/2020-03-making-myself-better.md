@@ -30,7 +30,7 @@ these journeyman years to have been, still holds useful lessons. I suppose
 that a lot of classes in "STNM 501: Intro to Stone Masonry" would have been
 of the form "If you put the chisel to this place of the rock, it will
 flake off in that way, and you end up with the shape you are looking
-for". That's like writing software: translating an abstract algorithm
+for." That's like writing software: translating an abstract algorithm
 into code. The part that I imagine as so much more interesting comes
 in "STNM 502: Advanced Stone Masonry": "Think about what happens if you put
 the chisel in that place but you accidentally hit it at the wrong
@@ -60,7 +60,7 @@ which is a form of [defensive design](https://en.wikipedia.org/wiki/Defensive_de
 ### It's a mindset question
 
 It's definitely a good habit to use defensive techniques, 
-and I'll give you a few examples of defensive programming below.
+and I'll provide a few examples of defensive programming below.
 But I think that the *real* lesson of the story is actually a different one: we all
 make mistakes. Some have consequences that are quite annoying (cracked
 ribs, broken software). But what I think sets good programmers apart
@@ -73,7 +73,7 @@ place? What could I have done to find the bug quicker, and what
 mistakes did I make that resulted in it taking this long?
 
 The idea of this mindset is not to be annoyed at having to spend a couple
-of hours fixing a bug, but to see it as an opportunity to learn how to
+of hours fixing a bug, but rather to see it as an opportunity to learn how to
 become better at programming, debugging, or essentially anything
 else. To learn something about how *you* work and 
 how you can work around your own limitations. To see cracked ribs as an
@@ -110,7 +110,7 @@ Sooner or later, we will want to add points together:
    }
 ```
 I suspect you all noticed: there's a bug in this function — the
-loop should have only run while `c<3`, not `c<=3`. That's a nuisance.
+loop should have run only while `c<3`, not `c<=3`. That's a nuisance.
 The bug is likely difficult to find because the three coordinates of the
 sum object were computed correctly, but I wrote past the end of the
 `coordinates` array. So the error would not have been visible immediately
