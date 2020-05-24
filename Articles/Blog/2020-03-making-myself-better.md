@@ -1,4 +1,4 @@
-# Making myself better: What craftspeople can teach us about software
+# Making Myself Better: What Craftspeople Can Teach Us about Software
 
 **Hero Image:**
 
@@ -8,8 +8,12 @@
 
 #### Publication date: May 27, 2020
 
-We have this romanticized notion of craftspeople and artisans as
-skillful creators striving for perfection, every time. That may of
+1-2 sentence summary goes here -- 'deck' text that what will appear in the BSSw.digest intro and at the start of the article to entice people to read.  
+
+### Planning to handle inevitable mistakes
+
+We tend to have a romanticized notion of craftspeople and artisans as
+skillful creators striving for perfection, every time. That perception may of
 course be misplaced, but at least historically, becoming a master
 stonemason, master carpenter, or master metal maker was a serious
 undertaking in my country of origin, Germany: it required three years
@@ -42,7 +46,7 @@ above.
 I have kind of a long history with this notion of planning for failure
 — longer than I've been programming. Some 30 years ago, when I was a
 teenager, my mom told me about a colleague who had slipped on icy
-stairs, and — *because he had had his hands in his pockets* —
+stairs, and — *because his hands had been in his pockets* —
 couldn't catch his fall and cracked a couple of ribs. I really
 can't say why this particular story stuck with me, but it's become a
 key piece of how I've approached programming: keep your
@@ -65,7 +69,7 @@ is not that once they run into a bug, they fix it. It is that
 go back in time and wonder what was on their mind when they wrote the code
 with the bug. *How* did it come that I wrote the code with the bug?
 What could I have done differently to avoid this bug in the first
-place? What could I have done to find the bug quicker and what
+place? What could I have done to find the bug quicker, and what
 mistakes did I make that resulted in it taking this long?
 
 The idea of this mindset is not to be annoyed at having to spend a couple
@@ -110,8 +114,8 @@ loop should have only run while `c<3`, not `c<=3`. That's a nuisance.
 The bug is likely difficult to find because the three coordinates of the
 sum object were computed correctly, but I wrote past the end of the
 `coordinates` array. So the error would not have been visible immediately
-and would only have manifested when I find myself confused that some other
-variable does not seem to store the value it should have had. It will
+and would have manifested only when I found myself confused that some other
+variable did not seem to store the value it should have had. It may
 take an afternoon to debug this problem.
 
 These things happen. I know I make mistakes, I fix them, I walk around the
@@ -206,14 +210,14 @@ CellAccessor::get_dof_values(const Vector      &values,
 The actual implementation in the last few lines is unimportant
 here; the point simply is: the function has three input arguments
 (plus the `this` pointer) that could all be wrong or in undefined
-states and we should check that they are valid individually and in
+states, and we should check that they are valid individually and in
 combination — because you bet that
 at some point someone will write code calling this function and do so while the
-sun was setting beautifully, and it will be immediately followed by a night figuring why
+sun is setting beautifully, and it will be immediately followed by a night figuring why
 the code doesn't work.
 
 
-There are many other strategies that make it easier for me to live
+Many other strategies make it easier for me to live
 with the bugs I often seem to introduce. For example, I mark as many
 variables as possible as `const` because it helps me avoid
 accidentally modifying things I assume have a fixed value. I use a
@@ -223,27 +227,27 @@ marked as `unsigned`. As in the code above, I assert that all input
 variables of a function are within valid ranges.
 
 Other approaches that fall into the same category are of course that
-every software needs to have good tests. Every experienced programmer
+all software needs to have good tests. Every experienced programmer
 knows that complex software that isn't tested isn't just in the
-category where it *may* not work, but in fact in the *does* not work
-category. For software that continues to be developed (nearly all
+category where it *may* not work, but in fact in the category where it *does* not work. 
+For software that continues to be developed (nearly all
 software), that also implies that testing must be part of the
 development process, for example as part of a Continuous Integration
 framework. Some would advocate that tests should also check every
 assertion in the code to ensure that they trigger when they are needed;
-my view is that that may be going too far, but I appreciate the spirit
+in my view, that may be going too far, but I appreciate the spirit
 of anticipating that one may also make mistakes writing assertions.
 
 ### Summary
 
-The point I wanted to make here is not that defensive programming is
+The point I want to make here is not that defensive programming is
 good (though it unambiguously is), but what made people think about it in the
 first place: all of these techniques ultimately came about because of
 unpleasant walks around the block coming to terms with the fact that
 we make mistakes and apparently can't seem to stop ourselves from
 making mistakes.
 
-This *process* of *reflecting about what we do and how* is an
+This *process* of *reflecting about what we do and how we do it* is an
 important component at getting better at what we do. We can do this by
 walking around the block after each debugging session. Others keep a
 journal in which they write their insights about how they work,
@@ -252,8 +256,8 @@ from their own work. I require students in some of my classes to do
 this, and indeed there is research that says that this kind of
 "[reflective
 writing](https://en.wikipedia.org/wiki/Reflective_writing)" leads to
-deeper learning of processes and practice. At the end of the day, it
-is about *forcing* ourselves to be introspective and learn how we, as
+deeper learning of processes and practice. At the end of the day, what's important
+is *forcing* ourselves to be introspective and learn how we, as
 software engineers, operate.
 
 
@@ -284,7 +288,7 @@ Germany, in 2002.
 Publish: preview
 RSS update: 
 Categories: Planning, Reliability
-Topics: Software Engineering, Debugging
+Topics: Software Engineering, Debugging, Testing
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
