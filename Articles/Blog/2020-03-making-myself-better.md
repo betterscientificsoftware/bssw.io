@@ -6,7 +6,7 @@
 
 #### Contributed by [Wolfgang Bangerth](https://github.com/bangerth "Wolfgang Bangerth GitHub Profile")
 
-#### Publication date: May 27, 2020
+#### Publication date: May 25, 2020
 
 Anticipating what could go wrong is an essential part of becoming a master craftsperson. 
 An important part of that is reflecting on and learning from the mistakes made along the way.
@@ -286,8 +286,8 @@ Austin. He received his PhD from the University of Heidelberg,
 Germany, in 2002.
 
 <!---
-Publish: preview
-RSS update: 
+Publish: yes
+RSS update: 2020-05-25
 Categories: Planning, Reliability
 Topics: Software Engineering, Debugging, Testing
 Tags: bssw-blog-article
