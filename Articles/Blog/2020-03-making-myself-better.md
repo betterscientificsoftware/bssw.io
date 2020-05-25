@@ -8,9 +8,10 @@
 
 #### Publication date: May 27, 2020
 
-1-2 sentence summary goes here -- 'deck' text that what will appear in the BSSw.digest intro and at the start of the article to entice people to read.  
+Anticipating what could go wrong is an essential part of becoming a master craftsperson. 
+An important part of that is reflecting on and learning from the mistakes made along the way.
 
-### Planning to handle inevitable mistakes
+### From journeyman to master: learning to anticipate mistakes
 
 We tend to have a romanticized notion of craftspeople and artisans as
 skillful creators striving for perfection, every time. That perception may of
