@@ -11,7 +11,7 @@
 Anticipating what could go wrong is an essential part of becoming a master craftsperson. 
 An important part of that is reflecting on and learning from the mistakes made along the way.
 
-### From journeyman to master: learning to anticipate mistakes
+### From journeyman to master craftsperson
 
 We tend to have a romanticized notion of craftspeople and artisans as
 skillful creators striving for perfection, every time. That perception may of
