@@ -30,7 +30,7 @@ only on virtual meeting products and those features likely to be relevant to
 the HPC/CSE community in a work-at-home (small to medium scale) setting *and*
 which have some degree of variability in support across vendors.
 
-In the table below...
+In the table below:
 
 * We've tried to provide as many links as possible to information relevant to 
   a given feature.
@@ -39,9 +39,6 @@ In the table below...
 * *Maybe* means the feature may exist depending on other factors outside of
   the typical user's control.
 * Numbered footnotes are links to additional information.
-* Lettered footnotes
-   * <sup>X</sup>Indicates a feature is available in another of the vendor's products.
-   * <sup>Y</sup>Indicates a feature can vary depending on your organization's configuration.
 * Abbreviations have balloon hints which are revealed by hovering the mouse over them.
 * [TBD] means to be done.
 
@@ -222,7 +219,7 @@ be particularly important for international participants. While this feature is 
 across many vendor's products, enabling it typically involves additional costs. However,
 enterprise plans as part of your home organization may provide the feature.
 
-### <a name='content-sharing'>Content sharing</a>
+## <a name='content-sharing'>Content sharing</a>
 
 Virtual meeting tools provide a variety of features to allow meeting participants to
 share content. In the absence of any one of these features, there are often acceptable
@@ -232,15 +229,15 @@ sharing even some limited whiteboarding,
 [Google forms](https://www.google.com/forms/about/) can be used for polling attendees,
 [Google hangounts](https://hangouts.google.com/) (now called *Google Meet*) can be
 used for chat, etc.
-
-### Screen sharing
+ 
+### <a name='screen-sharing'>Screen sharing</a>
 
 This is a feature that allows the host/presenter to share everything on his/her screen
 with all the participants. All teleconference tools support this feature even from 
 mobile devices. However, a number of tools also support variations of this feature for
 different needs. These are described below.
 
-### App sharing
+### <a name='app-sharing'>App sharing</a>
 
 App (or Application) sharing is like [*Screen Sharing*](#screen-sharing) except that
 the window(s) of only a single application (e.g. PowerPoint or Word) is shared. The
@@ -250,7 +247,7 @@ host/presenter tends to have a lot of windows open and they want to keep the
 participants from accidentally seeing the contents of those other windows. When you
 have a choice, using application-specific sharing is a **best privacy practice**.
 
-### Shared whiteboard
+### <a name='shared-whiteboard'>Shared whiteboard</a>
 
 This is similar to but not quite the same thing as *Shared Annotations*. A shared
 whiteboard is a separate drawing area, like a whiteboard in an office, where all
@@ -263,14 +260,15 @@ No virtual meeting vendors provide such an experience in their shared whiteboard
 features. In fact, there are few *dedicated* shared whiteboard solutions available
 that work on all platforms that support tablet & pan-based drawing gestures.
 
-### Shared annotations
+### <a name='shared-annotations'>Shared annotations</a>
 
 This is similar to but not quite the same thing as [*Screen Sharing*](#screen-sharing).
 Shared annotations allows the presenter/host to draw annotations on top of whatever
 content is being displayed in the main window so that all other participants can see it.
 In addition, some products allow *attendees* to also draw shared annotations.
 
-### Able chat
+
+### <a name='able-chat'>Able chat</a>
 
 All vendor's typically provide some kind of a chat feature which allows participants
 to send text messages to each other. By *able* chat here, we mean the chat handles
@@ -285,7 +283,7 @@ or [Google Hangout](https://hangouts.google.com/).
 Of course, there is still the issue of how best to distribute a link to meeting participants,
 probably via email.
 
-### Voting or polling
+### <a name='voting-or-polling'>Voting or polling</a>
 
 This is a feature that allows the host to ask participants a question and have
 them anonymously vote their responses. In the absence of this feature, a clumsy
@@ -293,7 +291,7 @@ but sufficient work-around is to use [Google forms](https://www.google.com/forms
 creating the form and then pasting a link to the form in your meeting's chat
 window allowing all participants to easily go there and vote their response.
 
-### File sharing
+### <a name='file-sharing'>File sharing</a>
 
 File sharing allows participants to share whole files which attendees can then
 download to their own systems. There are varying levels of support for this
@@ -302,7 +300,7 @@ vendor's provide support for scripts and even augmented reality files. File
 sharing, especially executable scripts, may introduce additional security
 concerns.
 
-### Recording
+### <a name='recording'>Recording</a>
 
 Recording of a virtual meeting session is often convenient for participants
 who were unable to attend to watch later or for a meeting scribe to go back
@@ -322,14 +320,14 @@ Some vendors provide support for producing textual
 consent not only to create a recording but also to specify with whom the
 recording may later be shared with.
 
-### Transcription
+### <a name='transcription'>Transcription</a>
 
 Recorded sessions can be transcribed into time-stamped, text to make easy
 searching of the recorded stream. Transcription typically requires about 2x
 the recording time to complete and is typically available only for sessions
 recorded to the *cloud* and pricier plans.
 
-### Closed captioning
+### <a name='closed-captioning'>Closed captioning</a>
 
 All vendors offer *some* support for closed captioning. Typically, the support
 provided is just the *display* of captions. The *generation* of captions is
@@ -341,13 +339,27 @@ captions.
 Some vendors appear to already provide or plan to provide *add-on* features
 with automatic captioning.
 
-### Live streaming
+### <a name='live-streaming'>Live streaming</a>
 
 Some products offer the ability to stream a *live* session to platfroms like
 YouTube or Facebook. Of course, this also means that the session will be
 effectively be *recorded* but only on that platform.
+ 
+### <a name='compatibility'>Compatibility</a>
 
-## Security
+The web client typically allows users to join a meeting through their browser.
+A web client is often advantageous because it *usually* allows users to avoid
+having to install software on their machine. Sometimes, however, the user may
+have to download a browser *extension* to support the web client. In addition,
+web clients often **do not** support features needed by a meeting *host* or
+*presenter*. They are available primarily to support meeting *attendees* only.
+
+### <a name='recommended'>Recommended</a>
+
+The *recommended* platform is either the OS or browser that supports the *most*
+features or is the one recommended by the vendor.
+
+## <a name='security'>Security</a>
 
 Depending on the kind of information to be *processed* in a virtual meeting,
 the level of security the product provides may or may not be an issue.
@@ -366,28 +378,28 @@ the rage in the mainstream media. Unfortunately, many sources lack the
 technical background to provide any sort of *evaluation* of the level of
 risk of any issues encountered with respect to the kinds of information
 to be *processed*. When we have found technically competent sources, we
-provide links to them here.
+provide links to them here. ******************* MARK CHECK LINK IN TABLE ***********
 
-### Best Practices
+### <a name='best-practices'>Best Practices</a>
 
 For each product, when there is a collection of *best practices* for ensuring
 the best possible level of security when using that product for a meeting we
 indicate that here and provide a link to them.
 
-### Lock Meeting
+### <a name='lock-meeting'>Lock Meeting</a>
 
 When a meeting is *locked*, that means it cannot be joined by any other
 participants even with the correct credentials. Participants that leave
 a locked meeting cannot re-join either.
 
-### Expel Attendee
+### <a name='expel-attendee'>Expel Attendee</a>
 
 *Expelling* or *removing* an attendee is typically a power that only meeting
 hosts have. It is important for hosts to know how to do this *quickly*. If for
 some reason the meeting is *bombed*, quick action from the host can correct
 the situation before it gets out of hand.
 
-### Expel Recovery
+### <a name='expel-recovery'>Expel Recovery</a>
 
 In most products, an attendee is expelled, they cannot ever again rejoin that
 meeting instance. They have to use a wholly different *identity* or email
@@ -396,7 +408,7 @@ action of expelling an attendee. Some products do enable a host to *recover*
 from this situation however allowing an inadvertently expelled attendee to
 rejoin with the same identity.
 
-### Privacy
+### <a name='privacy'>Privacy</a>
 
 [Privacy is related to but also distinct from security](https://www.hiv.gov/blog/difference-between-security-and-privacy-and-why-it-matters-your-program). While security is about safeguarding data
 of any kind, privacy is specifically about safeguarding
@@ -419,30 +431,16 @@ needing to keep an eye on his students. However, if the same thing were to
 happen among adult, professional colleagues without their consent, it may not be
 viewed too kindly.
 
-### E2E Encryption
+### <a name='e2e-encryption'>E2E Encryption</a>
 
 [End-to-end encryption (E2EE)](https://en.wikipedia.org/wiki/End-to-end_encryption)
 is a system of communication where only the communicating users have the ability to
 decrypt and read the messages. If this feature is essential, readers should take
 caution to read as much as possible about how a given product supports E2EE.
 
-### Compatibility
+## <a name='advanced-features'>Advanced features</a>
 
-The web client typically allows users to join a meeting through their browser.
-A web client is often advantageous because it *usually* allows users to avoid
-having to install software on their machine. Sometimes, however, the user may
-have to download a browser *extension* to support the web client. In addition,
-web clients often **do not** support features needed by a meeting *host* or
-*presenter*. They are available primarily to support meeting *attendees* only.
-
-### Recommended
-
-The *recommended* platform is either the OS or browser that supports the *most*
-features or is the one recommended by the vendor.
-
-## Advanced features
-
-### Personal rooms
+### <a name='personal-rooms'>Personal rooms</a>
 
 A *personal* room is the virtual equivalent of a meeting place that only the
 owner has the *keys* to open for an event. Only the owner can host meetings there
@@ -454,7 +452,7 @@ in other tasks and can be *interrupted* then by another person who *enters* thei
 room. Some products support *notifications* that inform an owner that someone
 is trying to enter their room when the owner is not already connected there.
 
-### Breakout Rooms
+### <a name='breakout-rooms'>Breakout Rooms</a>
 
 This is a feature that makes it possible for a single meeting to be broken into
 sub-meetings among smaller groups of participants and, after a period of time,
@@ -470,7 +468,7 @@ having to disconnect from one meeting and connect to another to move between
 the main meeting and the breakout rooms (which to be honest isn't too different
 from real-world breakout rooms).
 
-### Virtual background
+### <a name='virtual-background'>Virtual background</a>
 
 A virtual background is an image (some products also support short video loops)
 which displays is though you are seated just in front of it. Some products may
@@ -492,8 +490,8 @@ We use a 4-point Likert subjective quality scale here
 3. **Workable** - Product handles the use case but overlooking some shortcomings.
 4. **Poor** - Product really doesn't support this use-case without relying upon
 other tools.
-
-### Technical project meetings
+ 
+### <a name='technical-project-meetings'>Technical project meetings</a>
 
 A technical project meeting involves a lot of technical dialog and technical
 diagrams some of which are either created or revised and shared live. This
@@ -501,7 +499,8 @@ kind of technical exchange can involve shared screens, shared whiteboards and
 shared annotations. Anyone on the team may use a *screen grab* tool or even a
 cell phone to capture and save content that is created this way.
 
-### Hands-on trainings
+
+### <a name='hands-on-trainings'>Hands-on trainings</a>
 
 In hands-on training scenarios raise-hand, chat and even break-out room features
 can be important. Breakout rooms can be useful for training helpers to virtually
@@ -510,7 +509,7 @@ without interrupting the training leader. Break-out rooms are also useful in thi
 use case for the hands-on leader and helpers to *walk the virtual room* and
 check in on individual participants even looking at their screen and work.
 
-### Pair programming
+### <a name='pair-programming'>Pair programming</a>
 
 Most of the products described here are excellent for virtual
 [pair programming](https://en.wikipedia.org/wiki/Pair_programming). In fact, 
@@ -518,7 +517,7 @@ pair programming with these technologies is likely *easier* than in a traditiona
 scenario where the two participants might have to squint over a single laptop
 screen.
 
-### Interviewing
+### <a name='interviewing'>Interviewing</a>
 
 Interviewing involves people meeting for the first time. It really requires good
 high definition video, good audio and good, reliable network performance to be fully
@@ -528,7 +527,7 @@ is conducted than anything else. There are some
 [best practices](https://builtin.com/recruiting/video-interview) to follow when
 conducting interviews in this manner.
 
-### Hack-a-thons
+### <a name='hack-a-thons'>Hack-a-thons</a>
 
 [Hack-a-thons](https://www.mabl.com/blog/hosting-our-first-hackathon-during-covid-19-quarantine-2020)
 typically involve many individuals and teams coming together in the same
@@ -539,7 +538,7 @@ individual teams. If all the participants are part of some larger organization t
 which they all have access to an *enterprise* level product, then each team's virtual
 room can likely be created using one of the team member's [personal room](#personal-rooms).
 
-### Virtual water cooler
+### <a name='virtual-water-cooler'>Virtual water cooler</a>
 
 All of the products here are perfectly sufficient for *virtual water cooler* chats.
 In many cases, if the participants know each other well, video may not even be needed
