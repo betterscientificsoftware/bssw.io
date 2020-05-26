@@ -59,11 +59,11 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
 [Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
-[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[d](#zoom-notes)</sup> | [TBD]
+[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[d](#zoom-notes)</sup> | [TBD]((#tbd)
 [Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
 [File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [Recording](#recording) | [Yes](https://support.zoom.us/hc/en-us/sections/200208179-Recording) | Maybe<sup>[g](#webex-notes)</sup>
-[Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) | [TBD]
+[Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) | [TBD](#tbd)
 [Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[h](#webex-notes)</sup>
 [Live Streaming](#live-streaming) | Maybe<sup>[e](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
@@ -92,19 +92,19 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 [Disable entry/exit<br>sounds](#disable-chimes) | Yes | Yes
 [Attendee count](#attendee-count) | Yes | No
 [Host exit wont<br>end meeting](#host-exit-wont-end-meeting) | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends)
-[Exceed size<br>notification](#exceed-size-notification) | [TBD] | [TBD]
+[Exceed size<br>notification](#exceed-size-notification) | [TBD](#tbd) | [TBD](#tbd)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Experiences in actual use (subjective)**](#experiences-in-actual-use)</td></tr>
-Max. size | [TBD] | 650
-Years of use | [TBD] | 5
+Max. size | [TBD](#tbd) | 650
+Years of use | [TBD](#tbd) | 5
 Reliability | Good | Good
 Usebility | Excellent |  Good
-A/V quality | [TBD] | [TBD]
+A/V quality | [TBD](#tbd) | [TBD](#tbd)
 [Technical project<br>meetings](#technical-project-meetings) | Good | Excellent
-[Hands-on<br>trainings](#hands-on-trainings) | [TBD] | [TBD]
+[Hands-on<br>trainings](#hands-on-trainings) | [TBD](#tbd) | [TBD](#tbd)
 [Pair<br>programming](#pair-programming) | Excellent | Excellent
-[Interviewing](#interviewing) | [TBD] | [TBD]
-[Hack-a-thons](#hack-a-thons) | [TBD] | [TBD]
-[Virtual water<br>cooler](#virtual-water-cooler) | [TBD] | [TBD]
+[Interviewing](#interviewing) | [TBD](#tbd) | [TBD](#tbd)
+[Hack-a-thons](#hack-a-thons) | [TBD](#tbd) | [TBD](#tbd)
+[Virtual water<br>cooler](#virtual-water-cooler) | [TBD](#tbd) | [TBD](#tbd)
 
 
 ## <a name='the-basics'>The Basics</a>
