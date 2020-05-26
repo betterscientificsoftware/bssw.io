@@ -46,7 +46,7 @@ Workshop attendees are encouraged to submit content to build the program of Coll
 #### Publication date: May 26, 2020
 
 <!---
-Publish: yes
+Publish: preview
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: conference
