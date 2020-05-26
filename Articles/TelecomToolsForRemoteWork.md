@@ -167,7 +167,7 @@ join a meeting that is at its size capacity will be prevented. A key question
 is if and how the host may be notified of this. At present, this behavior is
 unclear.
 
-### Supported devices
+### <a name='supported-devices'>Supported devices</a>
 
 * [A] = Audio-only telephone device using landline, cell or VoIP.
 * [W] = Web-browser device often using a browser-extension.
@@ -175,7 +175,7 @@ unclear.
 * [L] = Laptop or desktop computer device operating over the internet.
 * [VCS] = Video Conferencing System with dedicated hardware/network.
 
-### No install option
+### <a name='no-install-option'>No install option</a>
 
 It can be convenient to provide your meeting participants with a way of attending that
 does not require them to download or install any new software. This is typically possible
@@ -184,7 +184,7 @@ a browser extension to be downloaded. In addition, this approach also typically 
 that such a participant has limited functionality. For example, they may not be able to
 host a meeting as a presenter and share content from their browser.
 
-### High definition video
+### <a name='high-definition-video'>High definition video</a>
 
 So much of human interaction involves
 [non-verbal cues](https://www.lifesize.com/en/video-conferencing-blog/speaking-without-words).
@@ -204,7 +204,7 @@ on moment-to-moment network responsiveness. Each participant's local
 network and/or the wide-area network loads may be such that even if high
 definition video is supported, the network loads will not support it.
 
-### Test meeting
+### <a name='test-meeting'>Test meeting</a>
 
 For first time users, without actually participating in a meeting it can be difficult
 to know of sure if the audio and video of your particular configuration will work with
@@ -214,7 +214,7 @@ be able to test all features but you should be able to test basic audio and vide
 Most vendors provide a *test meeting* for this purpose. Zoom provides a means to test
 audio and video each time prior to connecting to a new meeting.
 
-### Free dial-in option
+### <a name='free-dial-in-option'>Free dial-in option</a>
 
 For those who wish to connect audio via ordinary telephone (landline or cell), it can be
 convenient to provide your meeting participants with a toll-free option. This feature may
@@ -222,7 +222,7 @@ be particularly important for international participants. While this feature is 
 across many vendor's products, enabling it typically involves additional costs. However,
 enterprise plans as part of your home organization may provide the feature.
 
-## Content sharing
+### <a name='content-sharing'>Content sharing</a>
 
 Virtual meeting tools provide a variety of features to allow meeting participants to
 share content. In the absence of any one of these features, there are often acceptable
