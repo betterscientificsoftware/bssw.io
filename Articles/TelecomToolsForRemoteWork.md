@@ -40,7 +40,7 @@ In the table below:
   the typical user's control.
 * Numbered footnotes are links to additional information.
 * Abbreviations have balloon hints which are revealed by hovering the mouse over them.
-* [TBD] means to be done.
+* [TBD](#tbd) means to be done.
 
 Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[a](#webex-notes)</sup> 
 --- | --- | ---
@@ -49,7 +49,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 
 [Size Limit](#size-limits) | 100-1000<sup>[a](#zoom-notes)</sup> | 50-200<sup>[b](#webex-notes),[c](#webex-notes)</sup> 
 [Length Limit](#length-limits) | &le;24h<sup>[b](#zoom-notes)</sup> | &le;24h 
-[Join Device](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System)
+[Supported Devices](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System)
 [No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[c](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[e](#webex-notes)</sup>
 [HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support)
 [Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
@@ -106,7 +106,8 @@ A/V quality | [TBD] | [TBD]
 [Hack-a-thons](#hack-a-thons) | [TBD] | [TBD]
 [Virtual water<br>cooler](#virtual-water-cooler) | [TBD] | [TBD]
 
-## The Basics
+
+## <a name='the-basics'>The Basics</a>
 
 ### <a name='free-plans'>Free plans</a>
 
@@ -450,7 +451,7 @@ the owner has given the link to. This feature is useful for spontaneous meetings
 and open meetings where the owner is connected and waiting but probably engaged
 in other tasks and can be *interrupted* then by another person who *enters* their
 room. Some products support *notifications* that inform an owner that someone
-is trying to enter their room when the owner is not already connected there.
+is trying to enter their room when the owner is not already connected there. ********* MARK: PLEASE CHECK EMPTY CELLS IN TABLE ***************
 
 ### <a name='breakout-rooms'>Breakout Rooms</a>
 
@@ -477,7 +478,10 @@ behind you. Newer products can make this feature work without requiring anything
 special behind you. In particular, you can hide a messy office by using a photo
 you take of your office when it was once clean.
 
-## Experiences in actual use
+*********** MARK: PLEASE CHECK THE TABLE "Convenient Host Features". THE LEFT COLUMN IN THAT TABLE HAS LINKS BUT NO CORRESPONDING TEXT. SHALL I REMOVE THE LINKS (FOR Mute all A/V, Mute A/V entry,....Exceed size
+notification*******************
+
+## <a name='experiences-in-actual-use'>Experiences in actual use</a>
 
 In this section, we try to capture some high level, subjective assessments,
 of the products in useful terms as well as the products perceived suitability in
@@ -557,7 +561,7 @@ the discussion. There are many
 [other ideas](https://medium.com/@aarondinin/how-to-enable-water-cooler-innovation-for-remote-working-teams-2dfb3d50b1ab)
 in the use of video teleconferencing technology similar to this.
 
-### To be done
+### <a name='tbd'>To be done</a>
 
 The information here is evolving and we have only limited resources to create and
 maintain it. We intend to make routine updates.
