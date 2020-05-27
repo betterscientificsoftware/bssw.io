@@ -20,8 +20,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 <div class='img_div'>
   <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_NasirEisty.png' class='logo' />
 </div>  
-  
-<br>
 
 <div class='short_bio'>
   <h3>Nasir Eisty, University of Alabama</h3>
@@ -33,8 +31,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 <div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
 </div>
-  
-<p>&nbsp;</p>
   
 <div class='short_bio'>
   <h3>Damian Rouson, Sustainable Horizons Institute</h3>
