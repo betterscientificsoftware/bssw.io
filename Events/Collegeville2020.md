@@ -11,7 +11,7 @@ The first workshop in 2019 focused on software sustainability.  The 2020 worksho
 
 ## Contribute to Collegeville 2020
 
-Workshop attendees are encouraged to submit content to build the program of Collegeville 2020: https://collegeville.github.io/CW20/Contribute.  Questions can be sent to Mike Heroux <maherou@sandia.gov>.
+Any member of the computational science and engineering community who has an interest in improving developer productivity for scientific software is encouraged to submit content to build the program of Collegeville 2020: https://collegeville.github.io/CW20/Contribute.  Questions can be sent to Mike Heroux <maherou@sandia.gov>.
 
 We welcome the following contributions:
 
