@@ -5,7 +5,7 @@
 
 ## The College Workshop Series on Scientific Software
 
-The Collegeville Workshop Series on Scientific Software is intented to bring together three communities of scientific software developers: academia, industry and laboratories.  While there are certainly existing exchanges between these communities, we are dedicated to improving awareness of common needs, unique contributions, and career paths that span these communities.
+The Collegeville Workshop Series on Scientific Software brings together three communities of scientific software developers: academia, industry and laboratories.  We are dedicated to improving awareness of common needs, unique contributions, and career paths that span these communities.
 
 The first workshop in 2019 focused on software sustainability.  The 2020 workshop will focus on developer productivity.
 
@@ -17,9 +17,9 @@ We welcome the following contributions:
 
 | Contribution| Submission Date | Description                                |
 |-------------|-----------------|--------------------------------------------|
-| White paper | June 26. | A brief document articulating impediments, challenges, opportunities and potential solutions to developer productivity for scientific software. |
+| White paper | June 26 | A brief document articulating impediments, challenges, opportunities or potential solutions to developer productivity for scientific software. |
 | Teatime theme | July 10 |A topic for open discussion during teatime.  You would facilitate discussion of a small group. |
-| Poster      |July 10.  |A PDF or interactive webpage that will be the focus of small group discussion during teatime. |
+| Poster      |July 10  |A PDF or interactive webpage that will be the focus of small group discussion during teatime. |
 | Recorded presentation | July 6 - 10 | Selected from the submitted white papers, we will solicit speakers to record a brief presentation on their white paper content.  Recorded presentations will be available to attendees before the workshop. |
 Panelist |  July 21 - 23 | Selected from the submitted white papers, we will solicit participants as panelists for a live discussion with Q&A. |
 
