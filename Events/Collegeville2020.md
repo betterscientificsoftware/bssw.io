@@ -44,8 +44,8 @@ Workshop attendees are encouraged to submit content to build the program of Coll
 - In order to provide a bit of structure to the discussion, we invite you to submit a teatime theme related to developer productivity.
 - If your theme is selected, we will invite you to facilitate a discussion on your theme during the concurrent breakout sessions.
 - How to submit your teatime theme and abstract:
-  - Option 1: Submit a pull request. Instructions and current teamtime themes are on **[this page.](https://collegeville.github.io/CW20/WorkshopResources/TeatimeThemes/TeatimeThemeList.html)**
-  - Option 2: Submit your teatime theme and abstract in PDF form as an email attachment to Mike Heroux **<maherou@sandia.gov>**.
+  - Option 1: Submit a pull request. Instructions and current teamtime themes are on &nbsp; **[this page.](https://collegeville.github.io/CW20/WorkshopResources/TeatimeThemes/TeatimeThemeList.html)**
+  - Option 2: Submit your teatime theme and abstract in PDF form as an email attachment to Mike Heroux &nbsp; **<maherou@sandia.gov>**.
 
 
 #### Publication date: May 26, 2020
