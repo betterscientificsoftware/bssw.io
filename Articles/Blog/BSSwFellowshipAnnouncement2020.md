@@ -27,7 +27,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p><i>BSSw Focus</i>: Automatic testing in scientific software</p>
 </div>  
 
-<p>&nbsp;</p>
+<br>
 
 <div class='fellow'>
 <div class='img_div'>
