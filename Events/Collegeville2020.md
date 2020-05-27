@@ -23,20 +23,20 @@ Workshop attendees are encouraged to submit content to build the program of Coll
 - Please limit length to 2 - 4 pages standard text (references are not included in page count).
 - Your text can address impediments, challenges, opportunities, research directions or potential solutions, or combinations of these aspects.
 - Workshop presentations and panelists will in part be drawn from white paper submissions.
-- To have your white paper considered for presentation, please submit it no later than **June 26, 2020**.
+- To have your white paper considered for presentation, please submit it no later than &nbsp; **June 26, 2020**.
 - How to submit your white paper:
-  - Option 1: Submit a pull request. Instructions and current white papers are on @nbsp
+  - Option 1: Submit a pull request. Instructions and current white papers are on &nbsp;
   **[this page](https://collegeville.github.io/CW20/WorkshopResources/WhitePapers/WhitePaperList.html)**.
-  - Option 2: Submit your white paper in PDF form as an email attachment to Mike Heroux @nbsp **<maherou@sandia.gov>**.
+  - Option 2: Submit your white paper in PDF form as an email attachment to Mike Heroux &nbsp; **<maherou@sandia.gov>**.
 
 ### Poster guidelines and submission
 
 - Poster sessions will be conducted during teatimes.  We will run discussions concurrently and keep the discussion groups small enough for interactive dialogue.
 - Posters can be PDF files of one or a few slides or an interactive webpage.  The intent is to have content that conveys your ideas in a small group dialogue.
 - How to submit your poster:
-  - Option 1: Submit a pull request. Instructions and current posters are on @nbsp
+  - Option 1: Submit a pull request. Instructions and current posters are on &nbsp;
    **[this page.](https://collegeville.github.io/CW20/WorkshopResources/Posters/PosterList.html)**
-  - Option 2: Submit your poster in PDF form as an email attachment or send the interactive webpage URL to Mike Heroux @nbsp **<maherou@sandia.gov>**.
+  - Option 2: Submit your poster in PDF form as an email attachment or send the interactive webpage URL to Mike Heroux &nbsp; **<maherou@sandia.gov>**.
 
 ### Teatime theme guidelines and submission
 
