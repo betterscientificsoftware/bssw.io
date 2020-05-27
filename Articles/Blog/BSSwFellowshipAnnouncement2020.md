@@ -27,7 +27,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p><i>BSSw Focus</i>: Automatic testing in scientific software</p>
 </div>  
 
-<br>
+<p>&nbsp;</p>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -41,33 +41,55 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div> 
 
 <p>&nbsp;</p>
+
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
+</div>
 
-### Cindy Rubio-Gonzalez, University of California, Davis
-Assistant Professor, Computer Science
-
-_BSSw focus_: Improving correctness of numerical software and the effective use of mixed floating-point precision for better performance
-
+<div class='short_bio'>
+  <h3>Cindy Rubio-Gonzalez, University of California, Davis</h3>
+  <p>Assistant Professor, Computer Science</p>
+  <p><i>BSSw focus</i>: Improving correctness of numerical software and the effective use of mixed floating-point precision for better performance</p>
+</div> 
 
 ## 2020 BSSw Honorable Mentions
 <p>&nbsp;</p>
 
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DavidBoehme.png' class='logo' />
+</div>
 
-### David Boehme, Lawrence Livermore National Laboratory
-Research Staff, Center for Applied Scientific Computing 
+<div class='short_bio'>
+  <h3>David Boehme, Lawrence Livermore National Laboratory</h3>
+  <p>Research Staff, Center for Applied Scientific Computing</p> 
+</div>
+  
 <p>&nbsp;</p>
 
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_SumanaHarihareswara.png' class='logo' />
+</div>
 
-### Sumana Harihareswara, Changeset Consulting
-Founder and Principal, Open source software management and collaboration
+<div class='short_bio'>
+  <h3>Sumana Harihareswara, Changeset Consulting</h3>
+  <p>Founder and Principal, Open source software management and collaboration</p>
+</div>
+  
 <p>&nbsp;</p>
 
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_David Rogers.png' class='logo' />
+</div>
 
-### David Rogers, University of Southern Florida
-Assistant Professor of Chemistry
+<div class='short_bio'>
+  <h3>David Rogers, University of Southern Florida</h3>
+  <p>Assistant Professor of Chemistry</p>
+</div>
+
 <p>&nbsp;</p>
 
 ### About the BSSw Fellowship
