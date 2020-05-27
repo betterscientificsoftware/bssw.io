@@ -66,7 +66,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p>Research Staff, Center for Applied Scientific Computing</p> 
 </div>
   
-<p>&nbsp;</p>
+<br>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -78,7 +78,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p>Founder and Principal, Open source software management and collaboration</p>
 </div>
   
-<p>&nbsp;</p>
+<br>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -90,7 +90,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p>Assistant Professor of Chemistry</p>
 </div>
 
-<p>&nbsp;</p>
+<br>
 
 ### About the BSSw Fellowship
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2020.  More information:
