@@ -27,6 +27,8 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p><i>BSSw Focus</i>: Automatic testing in scientific software</p>
 </div>  
 
+<p>&nbsp;</p>
+
 <div class='fellow'>
 <div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
