@@ -33,12 +33,22 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>  
 
 
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
+</div>
+  
+<br>
+  
+<div class='short_bio'>
+  <h3>Damian Rouson, Sustainable Horizons Institute</h3>
+  <p>Research Engineer</p>
+  <p><i>BSSw focus</i>: Agile scientific software development integrated with expanding outreach to underrepresented groups</p>
+</div>
 
-### Damian Rouson, Sustainable Horizons Institute
-Research Engineer
+<br>
 
-_BSSw focus_: Agile scientific software development integrated with expanding outreach to underrepresented groups
+</div> 
 
 <p>&nbsp;</p>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
