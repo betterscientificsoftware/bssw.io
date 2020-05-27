@@ -11,12 +11,12 @@ The first workshop in 2019 focused on software sustainability.  The 2020 worksho
 
 ## Contribute to Collegeville 2020
 
-Workshop attendees are encouraged to submit content to build the program of Collegeville 2020: https://collegeville.github.io/CW20/Contribute.  Questions can sent to Mike Heroux <maherou@sandia.gov> 
+Workshop attendees are encouraged to submit content to build the program of Collegeville 2020: https://collegeville.github.io/CW20/Contribute.  Questions can be sent to Mike Heroux <maherou@sandia.gov>.
 
 We welcome the following contributions:
 
-| Contribution| Due Date | Description                                |
-|-------------|----------|--------------------------------------------|
+| Contribution| Submission Date | Description                                |
+|-------------|-----------------|--------------------------------------------|
 | White paper | June 26. | A brief document articulating impediments, challenges, opportunities and potential solutions to developer productivity for scientific software. |
 | Teatime theme | July 10 |A topic for open discussion during teatime.  You would facilitate discussion of a small group. |
 | Poster      |July 10.  |A PDF or interactive webpage that will be the focus of small group discussion during teatime. |
