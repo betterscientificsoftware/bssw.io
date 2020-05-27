@@ -14,6 +14,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 
 ## 2020 BSSw Fellows
+<p>&nbsp;</p>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -26,28 +27,19 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <h3>Nasir Eisty, University of Alabama</h3>
   <p>Computer Science Graduate Student</p>
   <p><i>BSSw Focus</i>: Automatic testing in scientific software</p>
-</div>
-
-<br>
-
 </div>  
-
 
 <div class='fellow'>
 <div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
 </div>
   
-<br>
+<p>&nbsp;</p>
   
 <div class='short_bio'>
   <h3>Damian Rouson, Sustainable Horizons Institute</h3>
   <p>Research Engineer</p>
   <p><i>BSSw focus</i>: Agile scientific software development integrated with expanding outreach to underrepresented groups</p>
-</div>
-
-<br>
-
 </div> 
 
 <p>&nbsp;</p>
