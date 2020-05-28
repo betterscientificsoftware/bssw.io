@@ -78,7 +78,7 @@ The quick brown fox jumps over the lazy dog. | The quick brown fox jumps over th
 
 Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[aw](#webex-notes-aw)</sup> 
 --- | --- | ---
-The Basics [(see details below)](#the-basics) | &nbsp; | &nbsp;
+The Basics, [jump to details below)](#the-basics) | &nbsp; | &nbsp;
 [Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) 
 [Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 
 [Size Limit](#size-limits) | 100-1000<sup>[az](#zoom-notes-az)</sup> | 50-200<sup>[bw](#webex-notes-bw),[cw](#webex-notes-cw)</sup> 
