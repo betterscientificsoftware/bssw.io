@@ -583,7 +583,7 @@ cannot use this option.
 * <a name='zoom-notes-ez'>[ez]</a>: Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
 * <a name='zoom-notes-fz'>[fz]</a>: Zoom virtual backgrounds can be *videos*.
 
-### WebEx Notes
+### WebEx notes
 
 * <a name='webex-notes-aw'>[aw]</a>: [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
 of products offered by WebEx. Some features described in this article that are
