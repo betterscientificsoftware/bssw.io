@@ -81,7 +81,7 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 [Privacy](#privacy) | [Partial](https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/) | [Yes](https://trustportal.cisco.com/c/dam/r/ctp/docs/privacydatasheet/collaboration/cisco-webex-meetings-privacy-data-sheet.pdf)
 [E2E Encryption](#e2e-encryption) | [No](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) | Maybe<sup>[fw](#webex-notes-fw)</sup>
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Advanced Features**](#advanced-features)</td></tr>
-[Personal rooms](#personal-rooms) | |
+[Personal rooms](#personal-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/203276937-Using-Personal-Meeting-ID-PMI-) | [Yes]( https://help.webex.com/en-us/nul0wut/Cisco-Webex-Personal-Rooms-in-Cisco-Webex-Meetings)
 [Breakout rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) 
 [Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[fz](#zoom-notes-fz)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[iw](#webex-notes-iw)</sup>
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
@@ -447,7 +447,7 @@ to whom the owner has given the link. This feature is useful for spontaneous mee
 and open meetings, where the owner is connected and waiting but probably engaged
 in other tasks and can be *interrupted* by another person who *enters* their
 room. Some products support *notifications* that inform an owner that someone
-is trying to enter a room when the owner is not already connected there. ********* MARK: PLEASE CHECK EMPTY CELLS IN TABLE ***************
+is trying to enter a room when the owner is not already connected there.
 
 ### <a name='breakout-rooms'>Breakout Rooms</a>
 
