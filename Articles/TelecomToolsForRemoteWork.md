@@ -12,7 +12,7 @@ Are you familiar with virtual meeting tools and what features they offer? This a
 There is a wide array of [Teleconferencing](https://en.wikipedia.org/wiki/Teleconference)
 products. Many vendors offer products for *virtual meetings*. However, vendors
 also tend to distinguish virtual *meetings* from other modalities of video
-telecommunications such as *teams*, *trainings*, *webinars*, and *webcasts*.
+telecommunications such as *teams*, *training*, *webinars*, and *webcasts*.
 Typically, vendors offer a line of *different* products for each purpose.
 Features of interest may not all exist in a single product. In addition, there
 is also a wide variety of features among virtual meeting products.
@@ -95,7 +95,7 @@ Exceed size<br>notification | [TBD](#tbd) | [TBD](#tbd)
 Max. size | [TBD](#tbd) | 650
 Years of use | [TBD](#tbd) | 5
 Reliability | Good | Good
-Usebility | Excellent |  Good
+Usability | Excellent |  Good
 A/V quality | [TBD](#tbd) | [TBD](#tbd)
 [Technical project<br>meetings](#technical-project-meetings) | Good | Excellent
 [Hands-on<br>trainings](#hands-on-trainings) | [TBD](#tbd) | [TBD](#tbd)
@@ -646,7 +646,7 @@ add-on product called *WebEx Assistant* later this year.
 
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-05-28
 Pinned: yes
 RSS update: 
