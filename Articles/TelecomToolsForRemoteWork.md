@@ -228,7 +228,7 @@ work-arounds using other, dedicated tools. For example,
 [Google docs](https://www.google.com/docs/about/) can be used for some kinds of content
 sharing even some limited whiteboarding,
 [Google forms](https://www.google.com/forms/about/) can be used for polling attendees,
-[Google hangounts](https://hangouts.google.com/) (now called *Google Meet*) can be
+[Google hangouts](https://hangouts.google.com/) (now called *Google Meet*) can be
 used for chat, etc.
  
 ### <a name='screen-sharing'>Screen sharing</a>
@@ -635,7 +635,7 @@ add-on product called *WebEx Assistant* later this year.
 [10Pw]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Workstation"
 [10Pe]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Education"
 [10E]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Enterprise"
-
+h
 <!--- OSX Version Notes --->
 [osx]: https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/ "OSX version names and numbers"
 
