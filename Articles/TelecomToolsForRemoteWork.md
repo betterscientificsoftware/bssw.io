@@ -4,12 +4,10 @@
 Are you familiar with virtual meeting tools and what features they offer? This article explores popular tools such as *Zoom* and *WebEx meetings*.
 <!--- deck end --->
 
-*The information provided here will be periodically updated to
-include either more products or more features. Please also note
-that features (mentioned below) for the products are valid currently;
-but vendors may change these features in the future. This article
-may be considered a starting point for you to start investigating
-these tools and their features.*
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: May 28, 2019
+
+* This article distills information from various sources that are current as of 05/28/2020; information will be periodically updated. Note that features (mentioned below) for the products are valid currently, but vendors may change these features in the future. This article may be considered a starting point for you to start investigating these tools and their features.*
 
 There is a wide array of [Teleconferencing](https://en.wikipedia.org/wiki/Teleconference)
 products. Many vendors offer products for *virtual meetings*. However, vendors
@@ -28,7 +26,7 @@ All of this complicates navigating and comparing the available products and
 their features. This article is not meant to cover everything. Here, we focus
 only on virtual meeting products and those features likely to be relevant to
 the HPC/CSE community in a work-at-home (small to medium scale) setting *and*
-which have some degree of variability in support across vendors.
+that have some degree of variability in support across vendors.
 
 In the table below:
 
@@ -39,7 +37,7 @@ In the table below:
 * *Maybe* means the feature may exist depending on other factors outside of
   the typical user's control.
 * Numbered footnotes are links to additional information.
-* Abbreviations have balloon hints which are revealed by hovering the mouse over them.
+* Abbreviations have balloon hints that are revealed by hovering the mouse over them.
 * [TBD](#tbd) means to be done.
 
 Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[aw](#webex-notes-aw)</sup> 
@@ -131,16 +129,16 @@ Most vendors charge monthly, *per host account* and then offer a few different p
 based on meeting size and plan features. In response to the COVID-19 pandemic situation,
 some vendors are offering discounts on their plans for a year-long purchase. In addition,
 most vendors offer *enterprise* level accounts designed for large organizations with many
-users each of which may require their own *host account*. 
+users, each of which may require their own *host account*. 
 
 ### <a name='size-limits'>Size Limts</a>
 
 The *maximum meeting size* is the maximum number of *participants* in a meeting. A
 number of vendors draw a distinction between a *meeting*, which typically requires
-participants to *interact* (e.g. speak, exchange chat messages, share content, etc.)
+participants to *interact* (e.g., speak, exchange chat messages, share content, etc.)
 and other modalities of video telecommunications such as a *webinar* where the
 majority of people are mere *attendees* who just need to hear and view content.
-Some products offer two different limits; one on interactive *participants* and
+Some products offer two different limits: one on interactive *participants* and
 another on listen/view-only *attendees*.
 
 For *enterprise* products, the maximum meeting size may also depend on how your
@@ -152,63 +150,63 @@ telephone audio (landline/cell) is often more reliable than
 [VoIP-audio](https://en.wikipedia.org/wiki/Voice_over_IP). If their internet connection
 fails during the meeting, they can still at least listen and speak.
 This raises a couple of potential issues. First, there is no practical advantage in doing
-this if the "telephone" the user calls in with is using a
+this if the "telephone" the user employs is using a
 [VoIP service](https://www.voip-info.org/voip-providers-usa/).
-Next, when they do this and do not also *bind* the phone call connection together
-*with* their computer connection, they wind up appearing to the system as two different
-meeting participants taking up two slots. If a majority of participants wind up doing
-this in a large meeting, it can reduce the effective size limit by almost a factor
+Next, participants use this approach and do not also *bind* the phone call connection together
+*with* their computer connection, they appear to the system as two different
+meeting participants, taking up two slots. If a majority of participants wind up using this approach
+in a large meeting, the effective size limit can be reduced by almost a factor
 of two.
 
-What happens if a meeting exceeds its size limit? In most case, attempts to
+What happens if a meeting exceeds its size limit? In most cases, attempts to
 join a meeting that is at its size capacity will be prevented. A key question
 is if and how the host may be notified of this. At present, this behavior is
 unclear.
 
 ### <a name='supported-devices'>Supported devices</a>
 
-* [A] = Audio-only telephone device using landline, cell or VoIP.
-* [W] = Web-browser device often using a browser-extension.
-* [M] = Mobile device (phone or tablet) operating over the internet.
-* [L] = Laptop or desktop computer device operating over the internet.
-* [VCS] = Video Conferencing System with dedicated hardware/network.
+* [A] = Audio-only telephone device using landline, cell or VoIP
+* [W] = Web-browser device often using a browser-extension
+* [M] = Mobile device (phone or tablet) operating over the internet
+* [L] = Laptop or desktop computer device operating over the internet
+* [VCS] = Video Conferencing System with dedicated hardware/network
 
-### <a name='no-install-option'>No install option</a>
+### <a name='no-install-option'>No-install option</a>
 
 It can be convenient to provide your meeting participants with a way of attending that
 does not require them to download or install any new software. This is typically possible
 only if they connect through a web browser. Even then, some vendor's products may require
 a browser extension to be downloaded. In addition, this approach also typically means
-that such a participant has limited functionality. For example, they may not be able to
+that such participants have limited functionality. For example, they may not be able to
 host a meeting as a presenter and share content from their browser.
 
-### <a name='high-definition-video'>High definition video</a>
+### <a name='high-definition-video'>High-definition video</a>
 
 So much of human interaction involves
 [non-verbal cues](https://www.lifesize.com/en/video-conferencing-blog/speaking-without-words).
-Poor video quality can dramatically reduce participant's ability to interpret non-verbal
+Poor video quality can dramatically reduce participants' ability to interpret non-verbal
 cues. Among participants with long-standing, pre-existing, high-functioning relationships, the
 ability to interpret non-verbal cues is
 [not as essential](https://www.comptia.org/blog/the-art-of-non-verbal-communication-in-a-video-conferencing-world).
-However, high definition (HD) video can be essential in other circumstances
+However, high-definition (HD) video can be essential in other circumstances,
 particularly those where the people involved are meeting for the first time.
 
-In the COVID-19 pandemic situation, with so many being forced to work from home,
+In the COVID-19 pandemic situation, with so many peoeple being forced to work from home,
 the increase in network load has caused some vendors to temporarily disable
-support for high definition video.
+support for high-definition video.
 
-In addition, most vendor's products automatically adjust video quality based
+In addition, most vendors' products automatically adjust video quality based
 on moment-to-moment network responsiveness. Each participant's local
-network and/or the wide-area network loads may be such that even if high
-definition video is supported, the network loads will not support it.
+network and/or the wide-area network loads may be such that even if 
+high-definition video is supported, the network loads will not support it.
 
 ### <a name='test-meeting'>Test meeting</a>
 
-For first time users, without actually participating in a meeting it can be difficult
-to know of sure if the audio and video of your particular configuration will work with
+For first-time users, without actually participating in a meeting it can be difficult
+to know of sure whether the audio and video of your particular configuration will work with
 the vendor's product. A test meeting is a useful way to test your particular setup to
 ensure it works, at a basic level, with the vendor's software and service. You may not
-be able to test all features but you should be able to test basic audio and video support.
+be able to test all features, but you should be able to test basic audio and video support.
 Most vendors provide a *test meeting* for this purpose. Zoom provides a means to test
 audio and video each time prior to connecting to a new meeting.
 
@@ -217,40 +215,40 @@ audio and video each time prior to connecting to a new meeting.
 For those who wish to connect audio via ordinary telephone (landline or cell), it can be
 convenient to provide your meeting participants with a toll-free option. This feature may
 be particularly important for international participants. While this feature is common
-across many vendor's products, enabling it typically involves additional costs. However,
+across many vendors' products, enabling it typically involves additional cost. However,
 enterprise plans as part of your home organization may provide the feature.
 
 ## <a name='content-sharing'>Content sharing</a>
 
 Virtual meeting tools provide a variety of features to allow meeting participants to
 share content. In the absence of any one of these features, there are often acceptable
-work-arounds using other, dedicated tools. For example,
+work-arounds using other dedicated tools. For example,
 [Google docs](https://www.google.com/docs/about/) can be used for some kinds of content
-sharing even some limited whiteboarding,
-[Google forms](https://www.google.com/forms/about/) can be used for polling attendees,
+sharing, including some limited whiteboarding;
+[Google forms](https://www.google.com/forms/about/) can be used for polling attendees; and
 [Google hangouts](https://hangouts.google.com/) (now called *Google Meet*) can be
-used for chat, etc.
+used for chat.
  
 ### <a name='screen-sharing'>Screen sharing</a>
 
-This is a feature that allows the host/presenter to share everything on his/her screen
+Screen sharing is a feature that allows the host/presenter to share everything on his/her screen
 with all the participants. All teleconference tools support this feature even from 
 mobile devices. However, a number of tools also support variations of this feature for
-different needs. These are described below.
+different needs, as described below.
 
 ### <a name='app-sharing'>App sharing</a>
 
 App (or Application) sharing is like [*Screen Sharing*](#screen-sharing) except that
-the window(s) of only a single application (e.g. PowerPoint or Word) is shared. The
-host/presenter is not forced to share their whole screen but can select only the
-window(s) from a specific application to share. This can be useful in cases where the
-host/presenter tends to have a lot of windows open and they want to keep the
-participants from accidentally seeing the contents of those other windows. When you
+the windows of only a single application (e.g., PowerPoint or Word) are shared. The
+host/presenter is not forced to share an entire screen but can select only the
+window(s) from a specific application to share. This approach can be useful in cases where the
+host/presenter tends to have a lot of windows open, and they want to keep the
+participants from accidentally seeing the content of those other windows. When you
 have a choice, using application-specific sharing is a **best privacy practice**.
 
 ### <a name='shared-whiteboard'>Shared whiteboard</a>
 
-This is similar to but not quite the same thing as *Shared Annotations*. A shared
+A shared whiteboard is similar to but not quite the same thing as *Shared Annotations*. A shared
 whiteboard is a separate drawing area, like a whiteboard in an office, where all
 participants can doodle content and paste images they captured locally.
 
@@ -635,7 +633,7 @@ add-on product called *WebEx Assistant* later this year.
 [10Pw]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Workstation"
 [10Pe]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Pro Education"
 [10E]: https://www.microsoft.com/en-us/software-download/windows10ISO "Windows 10 Enterprise"
-h
+
 <!--- OSX Version Notes --->
 [osx]: https://www.macworld.co.uk/feature/mac/os-x-macos-versions-3662757/ "OSX version names and numbers"
 
@@ -654,7 +652,7 @@ h
 
 <!---
 Publish: preview
-RSS update: 2020-05-20
+RSS update: 2020-05-28
 Pinned: yes
 RSS update: 
 Categories: skills
