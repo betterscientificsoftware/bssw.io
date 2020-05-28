@@ -28,7 +28,7 @@ Once the document is ready for review, there are some checks that will be common
 - [x] Reference checking
 - [x] Title format (what is bold?, capitalized?)
 - [x] Deck format
-- [x] Logos/images formatting
+- [x] Logos/images formatting (where possible, utilize images that express diversity)
 - [x] Image copyright permissions
 - [x] Check if professional proof-reading required. If yes, initiate and follow-through the entire proecedure
 - [x] Check if it conforms to .md requirements of bssw.io frontend website and not just github
