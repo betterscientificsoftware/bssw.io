@@ -581,33 +581,33 @@ to expand the maximum up to 1000. There is also a *Webinar* add-on option for
 purchase, on a month-to-month basis, to expand to up to 10,000 *view-only* participants.
 * <a name='zoom-notes-bz'>(bz)</a> Zoom's free plan is limited to 40 minutes. The time limit for other plans
 is 24 hours.
-* <a name='zoom-notes-bz'>(cz)</a> Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
+* <a name='zoom-notes-cz'>(cz)</a> Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
-* <a name='zoom-notes-bz'>(dz)</a> Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
-* <a name='zoom-notes-bz'>(ez)</a> Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
-* <a name='zoom-notes-bz'>(fz)</a> Zoom virtual backgrounds can be *videos*.
+* <a name='zoom-notes-dz'>(dz)</a> Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
+* <a name='zoom-notes-ez'>(ez)</a> Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
+* <a name='zoom-notes-fz'>(fz)</a> Zoom virtual backgrounds can be *videos*.
 
 ##### WebEx Notes
 
-* <a name='zoom-notes-bz'>(aw)</a> [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
+* <a name='webex-notes-aw'>(aw)</a> [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
 of products offered by WebEx. Some of the features described in this article that are
 not supported by *WebEx Meetings* may be supported in their other products.
-* <a name='zoom-notes-bz'>(bw)</a> WebEx's free plan limits of 50 participants and 40 minutes has been temporarily
+* <a name='webex-notes-bw'>(bw)</a> WebEx's free plan limits of 50 participants and 40 minutes has been temporarily
 upgraded to 100 participants and 24 hours.
-* <a name='zoom-notes-bz'>(cw)</a> Apart from the selected plan, a number of other factors may effect a WebEx meeting's
+* <a name='webex-notes-cw'>(cw)</a> Apart from the selected plan, a number of other factors may effect a WebEx meeting's
 maximum number of participants.
 WebEx meetings can have up to 1,000 *interactive* participants and up to 3,000 *view-only*
 participants. Meeting capacity varies a lot by product and by how a site administrator,
 if applicable, configures an *enterprise* plan.
-* <a name='zoom-notes-bz'>(dw)</a> It appears *expelled* attendees may rejoin as long as the meeting has not been
+* <a name='webex-notes-dw'>(dw)</a> It appears *expelled* attendees may rejoin as long as the meeting has not been
 [*locked*](#lock-meeting).
-* <a name='zoom-notes-bz'>(ew)</a> WebEx's no-install option requires a web client and has limited functionality. Hosts/presenters
+* <a name='webex-notes-ew'>(ew)</a> WebEx's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
-* <a name='zoom-notes-bz'>(fw)</a> 2E encryption appears to be available only in WebEx's *Enterprise* plan.
-* <a name='zoom-notes-bz'>(gw)</a> Cloud recording is not available in WebEx's free plan.
-* <a name='zoom-notes-bz'>(hw)</a> WebEx plans to offer *automatic*, AI-assisted closed captioning as part of an
+* <a name='webex-notes-fw'>(fw)</a> 2E encryption appears to be available only in WebEx's *Enterprise* plan.
+* <a name='webex-notes-gw'>(gw)</a> Cloud recording is not available in WebEx's free plan.
+* <a name='webex-notes-hw'>(hw)</a> WebEx plans to offer *automatic*, AI-assisted closed captioning as part of an
 add-on product called *WebEx Assistant* later this year.
-* <a name='zoom-notes-bz'>(iw)</a> WebEx virtual background currently works only on mobile platforms.
+* <a name='webex-notes-iw'>(iw)</a> WebEx virtual background currently works only on mobile platforms.
 
 [TBD]: ./TelecomToolsForRemoteWork.md#to-be-done "To be done"
 
