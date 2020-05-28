@@ -47,8 +47,8 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
 [Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) 
 [Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 
-[Size Limit](#size-limits) | 100-1000<sup>[az](#zoom-notes)</sup> | 50-200<sup>[bw](#webex-notes),[cw](#webex-notes)</sup> 
-[Length Limit](#length-limits) | &le;24h<sup>[bz](#zoom-notes)</sup> | &le;24h 
+[Size Limit](#size-limits) | 100-1000<sup>[az](#zoom-notes-az)</sup> | 50-200<sup>[bw](#webex-notes),[cw](#webex-notes)</sup> 
+[Length Limit](#length-limits) | &le;24h<sup>[bz](#zoom-notes-bz)</sup> | &le;24h 
 [Supported Devices](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System)
 [No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[cz](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[ew](#webex-notes)</sup>
 [HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support)
@@ -574,6 +574,14 @@ maintain it. We intend to make routine updates.
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
 ##### Zoom notes
+
+* <a name='zoom-notes-az'>(az)</a> Maximum number of attendees depends on plan. There is a *Large Meeting*
+add-on option (not for the *free* plan) for purchase, on a month-to-month basis,
+to expand the maximum up to 1000. There is also a *Webinar* add-on option for
+purchase, on a month-to-month basis, to expand to up to 10,000 *view-only* participants.
+* <a name='zoom-notes-bz'>(bz)</a> Zoom's free plan is limited to 40 minutes. The time limit for other plans
+is 24 hours.
+
 
 * (az) Maximum number of attendees depends on plan. There is a *Large Meeting*
 add-on option (not for the *free* plan) for purchase, on a month-to-month basis,
