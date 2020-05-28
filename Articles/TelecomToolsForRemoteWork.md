@@ -479,48 +479,48 @@ notification*******************
 
 ## <a name='experiences-in-actual-use'>Experiences in actual use</a>
 
-In this section, we try to capture some high level, subjective assessments,
-of the products in useful terms as well as the products perceived suitability in
-various usage scenarios based on experiences from actual use.
+In this section, we capture some high-level, subjective assessments
+of the products as well as their perceived suitability in
+various usage scenarios, based on experiences from actual use.
 
-We use a 4-point Likert subjective quality scale here
+We use a 4-point Likert subjective quality scale:
 
 1. **Excellent** - Product truly enables/facilitates the use case.
 2. **Good** - Product supports the use case well.
 3. **Workable** - Product handles the use case but overlooking some shortcomings.
-4. **Poor** - Product really doesn't support this use-case without relying upon
+4. **Poor** - Product really doesn't support this use case without relying upon
 other tools.
  
 ### <a name='technical-project-meetings'>Technical project meetings</a>
 
 A technical project meeting involves a lot of technical dialog and technical
-diagrams some of which are either created or revised and shared live. This
-kind of technical exchange can involve shared screens, shared whiteboards and
+diagrams, some of which are either created or revised and shared live. This
+kind of technical exchange can involve shared screens, shared whiteboards, and
 shared annotations. Anyone on the team may use a *screen grab* tool or even a
 cell phone to capture and save content that is created this way.
 
 
 ### <a name='hands-on-trainings'>Hands-on trainings</a>
 
-In hands-on training scenarios raise-hand, chat and even break-out room features
-can be important. Breakout rooms can be useful for training helpers to virtually
-sit with a participant that is running into problems and needs some direct help
-without interrupting the training leader. Break-out rooms are also useful in this
+In hands-on training scenarios, raise-hand, chat, and even break-out room features
+can be important. Breakout rooms can be useful for people (e.g., helpers for the training session) to sit virtually
+with participants who encounter problems and needs some direct help
+without interrupting the training leader. Breakout rooms also are helpful in this
 use case for the hands-on leader and helpers to *walk the virtual room* and
-check in on individual participants even looking at their screen and work.
+check on individual participants, even looking at their screen and work.
 
 ### <a name='pair-programming'>Pair programming</a>
 
 Most of the products described here are excellent for virtual
 [pair programming](https://en.wikipedia.org/wiki/Pair_programming). In fact, 
 pair programming with these technologies is likely *easier* than in a traditional
-scenario where the two participants might have to squint over a single laptop
+scenario, where the two participants might have to squint over a single laptop
 screen.
 
 ### <a name='interviewing'>Interviewing</a>
 
-Interviewing involves people meeting for the first time. It really requires good
-high definition video, good audio and good, reliable network performance to be fully
+Interviewing involves people meeting for the first time. Interviewing requires good
+high-definition video, good audio, and reliable network performance to be fully
 effective. Chances are, whether these products are really suitable in this use
 case probably depends more on prevailing network performance at the time the interview
 is conducted than anything else. There are some
@@ -531,12 +531,12 @@ conducting interviews in this manner.
 
 [Hack-a-thons](https://www.mabl.com/blog/hosting-our-first-hackathon-during-covid-19-quarantine-2020)
 typically involve many individuals and teams coming together in the same
-venue and event to collaborate and develop software. There is a need for a virtual
+venue to collaborate and develop software. There is a need for a virtual
 event that is comprised of *all* participants as well as smaller virtual meeting rooms
 for individual teams. Depending on size, a breakout room feature may work for the
-individual teams. If all the participants are part of some larger organization through
+individual teams. If all participants are part of some larger organization through
 which they all have access to an *enterprise* level product, then each team's virtual
-room can likely be created using one of the team member's [personal room](#personal-rooms).
+room can likely be created using one of the team member's [personal rooms](#personal-rooms).
 
 ### <a name='virtual-water-cooler'>Virtual water cooler</a>
 
@@ -545,17 +545,17 @@ In many cases, if the participants know each other well, video may not even be n
 nor any sharing of content. Audio-only virtual water cooler chats work great and
 give participants a chance to socialize in a way similar to how they might if they
 were all together at the same work site. In the real world, water cooler chats are
-*spontaneous* whereas in the virtual world, some amount of scheduling may be involved.
+*spontaneous*, whereas in the virtual world, some amount of scheduling may be involved.
 One approach is to identify one person to serve as a *host* during some agreed upon
 time(s). The host's job is to start and end the virtual water cooler event at the agreed
-upon time(s) and others can be free to decide to join or not as they wish. Another
+upon time(s), and others can be free to decide to join or not as they wish. Another
 aspect to virtual water cooler chats is that the host may also need to perform some
-moderator/facilitator duties. This is because many of the visual cues about who wants
-to speak at any given moment are often missing and it becomes necessary to take a slightly
-more formal approach with someone (e.g. the host) helping to moderate and facilitate
+moderator/facilitator duties. This need arisees because many of the visual cues about who wants
+to speak at any given moment are often missing, and it becomes necessary to take a slightly
+more formal approach, with someone (e.g., the host) helping to moderate and facilitate
 the discussion. There are many
 [other ideas](https://medium.com/@aarondinin/how-to-enable-water-cooler-innovation-for-remote-working-teams-2dfb3d50b1ab)
-in the use of video teleconferencing technology similar to this.
+on the use of video teleconferencing technology for virtual water cooler conversations.
 
 ### <a name='tbd'>To be done</a>
 
@@ -569,12 +569,12 @@ maintain it. We intend to make routine updates.
 * [Virtual Conferences: A Guide to Best Practices](https://www.acm.org/virtual-conferences)
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
-##### Zoom notes
+### Zoom notes
 
 * <a name='zoom-notes-az'>[az]</a>: Maximum number of attendees depends on plan. There is a *Large Meeting*
-add-on option (not for the *free* plan) for purchase, on a month-to-month basis,
-to expand the maximum up to 1000. There is also a *Webinar* add-on option for
-purchase, on a month-to-month basis, to expand to up to 10,000 *view-only* participants.
+add-on option (not for the *free* plan) available for purchase, on a month-to-month basis,
+to expand the maximum to 1000. There is also a *Webinar* add-on option for
+purchase, on a month-to-month basis, to expand up to 10,000 *view-only* participants.
 * <a name='zoom-notes-bz'>[bz]</a>: Zoom's free plan is limited to 40 minutes. The time limit for other plans
 is 24 hours.
 * <a name='zoom-notes-cz'>[cz]</a>: Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
@@ -583,11 +583,11 @@ cannot use this option.
 * <a name='zoom-notes-ez'>[ez]</a>: Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
 * <a name='zoom-notes-fz'>[fz]</a>: Zoom virtual backgrounds can be *videos*.
 
-##### WebEx Notes
+### WebEx Notes
 
 * <a name='webex-notes-aw'>[aw]</a>: [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
-of products offered by WebEx. Some of the features described in this article that are
-not supported by *WebEx Meetings* may be supported in their other products.
+of products offered by WebEx. Some features described in this article that are
+not supported by *WebEx Meetings* may be supported in other WebEx products.
 * <a name='webex-notes-bw'>[bw]</a>: WebEx's free plan limits of 50 participants and 40 minutes has been temporarily
 upgraded to 100 participants and 24 hours.
 * <a name='webex-notes-cw'>[cw]</a>: Apart from the selected plan, a number of other factors may effect a WebEx meeting's
@@ -597,7 +597,7 @@ participants. Meeting capacity varies a lot by product and by how a site adminis
 if applicable, configures an *enterprise* plan.
 * <a name='webex-notes-dw'>[dw]</a>: It appears *expelled* attendees may rejoin as long as the meeting has not been
 [*locked*](#lock-meeting).
-* <a name='webex-notes-ew'>[ew]</a>: WebEx's no-install option requires a web client and has limited functionality. Hosts/presenters
+* <a name='webex-notes-ew'>[ew]</a>: WebEx's no-install option requires a web client and has limited functionality. Hosts and presenters
 cannot use this option.
 * <a name='webex-notes-fw'>[fw]</a>: 2E encryption appears to be available only in WebEx's *Enterprise* plan.
 * <a name='webex-notes-gw'>[gw]</a>: Cloud recording is not available in WebEx's free plan.
