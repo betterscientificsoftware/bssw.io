@@ -501,7 +501,7 @@ cell phone to capture and save content that is created this way.
 
 In hands-on training scenarios, raise-hand, chat, and even break-out room features
 can be important. Breakout rooms can be useful for people (e.g., helpers for the training session) to sit virtually
-with participants who encounter problems and needs some direct help
+with participants who encounter problems and need some direct help
 without interrupting the training leader. Breakout rooms also are helpful in this
 use case for the hands-on leader and helpers to *walk the virtual room* and
 check on individual participants, even looking at their screen and work.
@@ -529,7 +529,7 @@ conducting interviews in this manner.
 [Hack-a-thons](https://www.mabl.com/blog/hosting-our-first-hackathon-during-covid-19-quarantine-2020)
 typically involve many individuals and teams coming together in the same
 venue to collaborate and develop software. There is a need for a virtual
-event that is comprised of *all* participants as well as smaller virtual meeting rooms
+event that consists of *all* participants as well as smaller virtual meeting rooms
 for individual teams. Depending on size, a breakout room feature may work for the
 individual teams. If all participants are part of some larger organization through
 which they all have access to an *enterprise* level product, then each team's virtual
@@ -547,7 +547,7 @@ One approach is to identify one person to serve as a *host* during some agreed u
 time(s). The host's job is to start and end the virtual water cooler event at the agreed
 upon time(s), and others can be free to decide to join or not as they wish. Another
 aspect to virtual water cooler chats is that the host may also need to perform some
-moderator/facilitator duties. This need arisees because many of the visual cues about who wants
+moderator/facilitator duties. This need arises because many of the visual cues about who wants
 to speak at any given moment are often missing, and it becomes necessary to take a slightly
 more formal approach, with someone (e.g., the host) helping to moderate and facilitate
 the discussion. There are many
@@ -568,7 +568,7 @@ maintain it. We intend to make routine updates.
 
 ### Zoom notes
 
-* <a name='zoom-notes-az'>[az]</a>: Maximum number of attendees depends on plan. There is a *Large Meeting*
+* <a name='zoom-notes-az'>[az]</a>: Maximum number of attendees depends on the plan. There is a *Large Meeting*
 add-on option (not for the *free* plan) available for purchase, on a month-to-month basis,
 to expand the maximum to 1000. There is also a *Webinar* add-on option for
 purchase, on a month-to-month basis, to expand up to 10,000 *view-only* participants.
@@ -577,7 +577,7 @@ is 24 hours.
 * <a name='zoom-notes-cz'>[cz]</a>: Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
 * <a name='zoom-notes-dz'>[dz]</a>: Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
-* <a name='zoom-notes-ez'>[ez]</a>: Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
+* <a name='zoom-notes-ez'>[ez]</a>: Live streaming to YouTube/Facebook is supported only in Zoom's Webinar product.
 * <a name='zoom-notes-fz'>[fz]</a>: Zoom virtual backgrounds can be *videos*.
 
 ### WebEx notes
@@ -587,7 +587,7 @@ of products offered by WebEx. Some features described in this article that are
 not supported by *WebEx Meetings* may be supported in other WebEx products.
 * <a name='webex-notes-bw'>[bw]</a>: WebEx's free plan limits of 50 participants and 40 minutes has been temporarily
 upgraded to 100 participants and 24 hours.
-* <a name='webex-notes-cw'>[cw]</a>: Apart from the selected plan, a number of other factors may effect a WebEx meeting's
+* <a name='webex-notes-cw'>[cw]</a>: Apart from the selected plan, a number of other factors may affect a WebEx meeting's
 maximum number of participants.
 WebEx meetings can have up to 1,000 *interactive* participants and up to 3,000 *view-only*
 participants. Meeting capacity varies a lot by product and by how a site administrator,
