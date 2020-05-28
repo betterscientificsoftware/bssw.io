@@ -85,12 +85,12 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 [Breakout rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) 
 [Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[fz](#zoom-notes-fz)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[iw](#webex-notes-iw)</sup>
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
-[Mute all A/V](#mute-all) | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events)
-[Mute A/V entry](#mute-on-entry) | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No
-[Disable entry/exit<br>sounds](#disable-chimes) | Yes | Yes
-[Attendee count](#attendee-count) | Yes | No
-[Host exit wont<br>end meeting](#host-exit-wont-end-meeting) | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends)
-[Exceed size<br>notification](#exceed-size-notification) | [TBD](#tbd) | [TBD](#tbd)
+Mute all A/V | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events)
+Mute A/V entry | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No
+Disable entry/exit<br>sounds | Yes | Yes
+Attendee count | Yes | No
+Host exit wont<br>end meeting | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends)
+Exceed size<br>notification | [TBD](#tbd) | [TBD](#tbd)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Experiences in actual use (subjective)**](#experiences-in-actual-use)</td></tr>
 Max. size | [TBD](#tbd) | 650
 Years of use | [TBD](#tbd) | 5
@@ -375,7 +375,7 @@ the rage in the mainstream media. Unfortunately, many sources lack the
 technical background to provide any sort of *evaluation* of the level of
 risk of issues encountered with respect to the kinds of information
 to be *processed*. When we have found technically competent sources, we
-provide links to them in the table. ******************* MARK CHECK LINK IN TABLE ***********
+provide links to them in the table.
 
 ### <a name='best-practices'>Best Practices</a>
 
@@ -473,9 +473,6 @@ require a real-world constant color (typically green) called a *green-screen*
 behind you. Newer products can make this feature work without requiring anything
 special behind you. In particular, you can hide a messy office by using a photo
 you take of your office when it was once clean.
-
-*********** MARK: PLEASE CHECK THE TABLE "Convenient Host Features". THE LEFT COLUMN IN THAT TABLE HAS LINKS BUT NO CORRESPONDING TEXT. SHALL I REMOVE THE LINKS (FOR Mute all A/V, Mute A/V entry,....Exceed size
-notification*******************
 
 ## <a name='experiences-in-actual-use'>Experiences in actual use</a>
 
