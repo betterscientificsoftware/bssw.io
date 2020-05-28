@@ -27,7 +27,6 @@ ___
 [Link Three](DocumentationTools.Sphinx.md)
 ___
 
-[Go to Real Cool Heading section](#real-cool-heading)
 
 
 
@@ -78,6 +77,38 @@ Second | Test | Table
 The quick brown fox jumps over the lazy dog. | The quick brown fox jumps over the lazy dog. | The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
 
+Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[aw](#webex-notes-aw)</sup> 
+--- | --- | ---
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
+[Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) 
+[Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 
+[Size Limit](#size-limits) | 100-1000<sup>[az](#zoom-notes-az)</sup> | 50-200<sup>[bw](#webex-notes-bw),[cw](#webex-notes-cw)</sup> 
+[Length Limit](#length-limits) | &le;24h<sup>[bz](#zoom-notes-bz)</sup> | &le;24h 
+[Supported Devices](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System)
+[No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[cz](#zoom-notes-cz)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[ew](#webex-notes-ew)</sup>
+[HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support)
+[Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
+[Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#content-sharing)</td></tr>
+[Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting)
+[App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
+[Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
+[Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
+[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[dz](#zoom-notes-dz)</sup> | [TBD](#tbd)
+[Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
+[File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
+[Recording](#recording) | [Yes](https://support.zoom.us/hc/en-us/sections/200208179-Recording) | Maybe<sup>[gw](#webex-notes-gw)</sup>
+[Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) | [TBD](#tbd)
+[Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[hw](#webex-notes-hw)</sup>
+[Live Streaming](#live-streaming) | Maybe<sup>[ez](#zoom-notes-ez)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
+Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
+Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
+macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
+Presenter Browser | **[Ch]**/[Ed] | **[Ch]**/**[Fi]**/[Sa]
+Attendee Browser | **[Ch]**/[Ed]/[Fi]/[Sa] | **[Ch]**/**[Fi]**/[Sa]
+Presenter Mobile | [And]/[iOS] | [And]/[iOS]
+Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 
 
 ## Test code block
@@ -126,7 +157,6 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox
 
-# Real Cool Heading
 
 **Subresources:**
 - [Doxygen](DocumentationTools.Doxygen.md)
@@ -134,6 +164,9 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 - [Sphinx](DocumentationTools.Sphinx.md)
 
 #### Contributed by [Clara Raubertas](https://github.com/clararaubertas)
+
+
+
 
 
 <!---
