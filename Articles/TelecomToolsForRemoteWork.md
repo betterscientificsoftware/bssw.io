@@ -131,7 +131,7 @@ some vendors are offering discounts on their plans for a year-long purchase. In 
 most vendors offer *enterprise* level accounts designed for large organizations with many
 users, each of which may require their own *host account*. 
 
-### <a name='size-limits'>Size Limts</a>
+### <a name='size-limits'>Size Limits</a>
 
 The *maximum meeting size* is the maximum number of *participants* in a meeting. A
 number of vendors draw a distinction between a *meeting*, which typically requires
@@ -191,7 +191,7 @@ ability to interpret non-verbal cues is
 However, high-definition (HD) video can be essential in other circumstances,
 particularly those where the people involved are meeting for the first time.
 
-In the COVID-19 pandemic situation, with so many peoeple being forced to work from home,
+In the COVID-19 pandemic situation, with so many people being forced to work from home,
 the increase in network load has caused some vendors to temporarily disable
 support for high-definition video.
 
@@ -203,7 +203,7 @@ high-definition video is supported, the network loads will not support it.
 ### <a name='test-meeting'>Test meeting</a>
 
 For first-time users, without actually participating in a meeting it can be difficult
-to know of sure whether the audio and video of your particular configuration will work with
+to know for sure whether the audio and video of your particular configuration will work with
 the vendor's product. A test meeting is a useful way to test your particular setup to
 ensure it works, at a basic level, with the vendor's software and service. You may not
 be able to test all features, but you should be able to test basic audio and video support.
@@ -309,7 +309,7 @@ curation of such notes.
 
 The various products provide differing levels of support for what content gets recorded. 
 Some products may not make a record of chat messages, for
-example. Recorded chat may or may not be sync'd with A/V content.
+example. Recorded chat may or may not be synced with A/V content.
 It can sometimes be useful for the host to select the content to be
 recorded (e.g., audio-only).
 
@@ -339,7 +339,7 @@ with automatic captioning.
 
 ### <a name='live-streaming'>Live streaming</a>
 
-Some products offer the ability to stream a *live* session to platfroms like
+Some products offer the ability to stream a *live* session to platforms like
 YouTube or Facebook. Of course, this also means that the session will be
 effectively be *recorded* but only on that platform.
  
@@ -350,7 +350,7 @@ A web client is often advantageous because it *usually* allows users to avoid
 having to install software on their machine. Sometimes, however, the user may
 have to download a browser *extension* to support the web client. In addition,
 web clients often **do not** support features needed by a meeting *host* or
-*presenter* but are intendded primarily to support only meeting *attendees*.
+*presenter* but are intended primarily to support only meeting *attendees*.
 
 ### <a name='recommended'>Recommended</a>
 
