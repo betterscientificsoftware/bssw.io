@@ -1,13 +1,13 @@
 # Virtual Meeting Tools and Features for the HPC/CSE Community
 
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: May 28, 2020
+
 <!--- deck start --->
 Are you familiar with virtual meeting tools and what features they offer? This article explores popular tools such as *Zoom* and *WebEx meetings*.
 <!--- deck end --->
 
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: May 28, 2019
-
-* This article distills information from various sources that are current as of 05/28/2020; information will be periodically updated. Note that features (mentioned below) for the products are valid currently, but vendors may change these features in the future. This article may be considered a starting point for you to start investigating these tools and their features.*
+*This article distills information from various sources that are current as of 05/28/2020; information will be periodically updated. Note that features (mentioned below) for the products are valid currently, but vendors may change these features in the future. This article may be considered a starting point for investigating these tools and their features.*
 
 There is a wide array of [Teleconferencing](https://en.wikipedia.org/wiki/Teleconference)
 products. Many vendors offer products for *virtual meetings*. However, vendors
