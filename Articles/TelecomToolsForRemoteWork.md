@@ -50,7 +50,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Size Limit](#size-limits) | 100-1000<sup>[az](#zoom-notes-az)</sup> | 50-200<sup>[bw](#webex-notes),[cw](#webex-notes)</sup> 
 [Length Limit](#length-limits) | &le;24h<sup>[bz](#zoom-notes-bz)</sup> | &le;24h 
 [Supported Devices](#supported-devices) | [A]/[W]/[M]/[L] | [A]/[W]/[M]/[L]/[VCS](https://help.webex.com/en-us/7yxpa9/Join-a-Webex-Meeting-from-a-Video-System)
-[No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[cz](#zoom-notes)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[ew](#webex-notes)</sup>
+[No Install<br>option](#no-install-option) | [Partial](https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client)<sup>[cz](#zoom-notes-cz)</sup> | [Partial](https://help.webex.com/en-us/ozygebb/Join-a-Cisco-Webex-Meeting#Join-a-Meeting-from-the-Webex-Meetings-Desktop-App-or-Mobile-App)<sup>[ew](#webex-notes)</sup>
 [HD Video](#high-definition-video) | No | [Maybe](https://help.webex.com/en-us/fw8u4j/Webex-Video-Support)
 [Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
 [Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
@@ -59,13 +59,13 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
 [Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
-[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[dz](#zoom-notes)</sup> | [TBD](#tbd)
+[Able chat](#able-chat) | [Yes](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat)<sup>[dz](#zoom-notes-dz)</sup> | [TBD](#tbd)
 [Polling/Voting](#voting-or-polling) | [Yes](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings) | [Yes](https://help.webex.com/en-us/n0pdj9x/Start-a-Poll-in-Cisco-Webex-Meetings) | [Partial](https://support.bluejeans.com/s/article/Event-Polling) | [Yes](https://support.office.com/en-us/article/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) | No | [Yes](https://support.microsoft.com/en-us/office/take-a-poll-in-a-skype-for-business-meeting-6eb1fb85-18a6-422c-ae48-55519841f296?ui=en-us&rs=en-us&ad=us)
 [File sharing](#file-sharing) | [Maybe](https://support.zoom.us/hc/en-us/articles/209605493-In-Meeting-File-Transfer#h_35f5965f-bae8-49b2-a1a9-8956fb8022ff) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [Recording](#recording) | [Yes](https://support.zoom.us/hc/en-us/sections/200208179-Recording) | Maybe<sup>[gw](#webex-notes)</sup>
 [Transcription](#transcription) | [Yes](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) | [TBD](#tbd)
 [Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[hw](#webex-notes)</sup>
-[Live Streaming](#live-streaming) | Maybe<sup>[ez](#zoom-notes)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
+[Live Streaming](#live-streaming) | Maybe<sup>[ez](#zoom-notes-ez)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Compatibility**](#compatibility) (hover for details, [**recommended in bold**](#recommended))</td></tr>
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
@@ -85,7 +85,7 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Advanced Features**](#advanced-features)</td></tr>
 [Personal rooms](#personal-rooms) | |
 [Breakout rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) 
-[Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[fz](#zoom-notes)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[iw](#webex-notes)</sup>
+[Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[fz](#zoom-notes-fz)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[iw](#webex-notes)</sup>
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
 [Mute all A/V](#mute-all) | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events)
 [Mute A/V entry](#mute-on-entry) | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No
@@ -581,41 +581,33 @@ to expand the maximum up to 1000. There is also a *Webinar* add-on option for
 purchase, on a month-to-month basis, to expand to up to 10,000 *view-only* participants.
 * <a name='zoom-notes-bz'>(bz)</a> Zoom's free plan is limited to 40 minutes. The time limit for other plans
 is 24 hours.
-
-
-* (az) Maximum number of attendees depends on plan. There is a *Large Meeting*
-add-on option (not for the *free* plan) for purchase, on a month-to-month basis,
-to expand the maximum up to 1000. There is also a *Webinar* add-on option for
-purchase, on a month-to-month basis, to expand to up to 10,000 *view-only* participants.
-* (bz) Zoom's free plan is limited to 40 minutes. The time limit for other plans
-is 24 hours.
-* (cz) Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
+* <a name='zoom-notes-bz'>(cz)</a> Zoom's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
-* (dz) Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
-* (ez) Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
-* (fz) Zoom virtual backgrounds can be *videos*.
+* <a name='zoom-notes-bz'>(dz)</a> Be aware of recently revealed [security issues about Zoom's chat](https://lifehacker.com/dont-click-on-links-in-public-zoom-chats-right-now-1842618749).
+* <a name='zoom-notes-bz'>(ez)</a> Live streaming to YouTube/Facebook is support only in Zoom's Webinar product.
+* <a name='zoom-notes-bz'>(fz)</a> Zoom virtual backgrounds can be *videos*.
 
 ##### WebEx Notes
 
-* (aw) [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
+* <a name='zoom-notes-bz'>(aw)</a> [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
 of products offered by WebEx. Some of the features described in this article that are
 not supported by *WebEx Meetings* may be supported in their other products.
-* (bw) WebEx's free plan limits of 50 participants and 40 minutes has been temporarily
+* <a name='zoom-notes-bz'>(bw)</a> WebEx's free plan limits of 50 participants and 40 minutes has been temporarily
 upgraded to 100 participants and 24 hours.
-* (cw) Apart from the selected plan, a number of other factors may effect a WebEx meeting's
+* <a name='zoom-notes-bz'>(cw)</a> Apart from the selected plan, a number of other factors may effect a WebEx meeting's
 maximum number of participants.
 WebEx meetings can have up to 1,000 *interactive* participants and up to 3,000 *view-only*
 participants. Meeting capacity varies a lot by product and by how a site administrator,
 if applicable, configures an *enterprise* plan.
-* (dw) It appears *expelled* attendees may rejoin as long as the meeting has not been
+* <a name='zoom-notes-bz'>(dw)</a> It appears *expelled* attendees may rejoin as long as the meeting has not been
 [*locked*](#lock-meeting).
-* (ew) WebEx's no-install option requires a web client and has limited functionality. Hosts/presenters
+* <a name='zoom-notes-bz'>(ew)</a> WebEx's no-install option requires a web client and has limited functionality. Hosts/presenters
 cannot use this option.
-* (fw) E2E encryption appears to be available only in WebEx's *Enterprise* plan.
-* (gw) Cloud recording is not available in WebEx's free plan.
-* (hw) WebEx plans to offer *automatic*, AI-assisted closed captioning as part of an
+* <a name='zoom-notes-bz'>(fw)</a> 2E encryption appears to be available only in WebEx's *Enterprise* plan.
+* <a name='zoom-notes-bz'>(gw)</a> Cloud recording is not available in WebEx's free plan.
+* <a name='zoom-notes-bz'>(hw)</a> WebEx plans to offer *automatic*, AI-assisted closed captioning as part of an
 add-on product called *WebEx Assistant* later this year.
-* (iw) WebEx virtual background currently works only on mobile platforms.
+* <a name='zoom-notes-bz'>(iw)</a> WebEx virtual background currently works only on mobile platforms.
 
 [TBD]: ./TelecomToolsForRemoteWork.md#to-be-done "To be done"
 
