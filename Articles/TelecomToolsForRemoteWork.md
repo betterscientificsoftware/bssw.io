@@ -248,35 +248,35 @@ have a choice, using application-specific sharing is a **best privacy practice**
 
 ### <a name='shared-whiteboard'>Shared whiteboard</a>
 
-A shared whiteboard is similar to but not quite the same thing as *Shared Annotations*. A shared
+A shared whiteboard is similar to but not quite the same functionality as *Shared Annotations*. A shared
 whiteboard is a separate drawing area, like a whiteboard in an office, where all
-participants can doodle content and paste images they captured locally.
+participants can doodle content and paste images that they capture locally.
 
 For some, a shared whiteboard is more than just a realization shared drawing area
-where content is created by a mouse a keyboard. It includes the *integrations* necessary
-to create content using a tablet & pen-based drawing gestures with touch sensitivity, etc.
-No virtual meeting vendors provide such an experience in their shared whiteboard
+where content is created by a mouse or keyboard. The whiteboard includes the *integrations* necessary
+to create content using a tablet and pen-based drawing gestures with touch sensitivity, etc.
+Currently, no virtual meeting vendors provide such an experience in their shared whiteboard
 features. In fact, there are few *dedicated* shared whiteboard solutions available
 that work on all platforms that support tablet & pan-based drawing gestures.
 
 ### <a name='shared-annotations'>Shared annotations</a>
 
-This is similar to but not quite the same thing as [*Screen Sharing*](#screen-sharing).
-Shared annotations allows the presenter/host to draw annotations on top of whatever
+Shared annotations are similar to but not quite the same as [*Screen Sharing*](#screen-sharing).
+Shared annotations allow the presenter/host to draw annotations on top of whatever
 content is being displayed in the main window so that all other participants can see it.
-In addition, some products allow *attendees* to also draw shared annotations.
+In addition, some products allow *attendees* also to draw shared annotations.
 
 
 ### <a name='able-chat'>Able chat</a>
 
-All vendor's typically provide some kind of a chat feature which allows participants
-to send text messages to each other. By *able* chat here, we mean the chat handles
-more than just *raw* text. For example, an *able* chat handles cut-n-paste across
+All vendors typically provide some kind of a chat feature that allows participants
+to send text messages to each other. We use the term *able* chat to mean that the chat handles
+more than just *raw* text. For example, an *able* chat handles functionality such as cut-and-paste across
 applications, clickable URL links, private messages between participants (instead
-only to all participants), drag-n-drop for some file types, showing who else may be
+only to all participants), drag-and-drop for some file types, showing who else may be
 in the midst of typing a chat message, the ability to save all chat messages to a
-text file, and whether the host can disable chat if necessary.
-In the absence of *able chat* a clumsy
+text file, and allowing the host to disable chat if necessary.
+In the absence of *able chat*, a clumsy
 but sufficient work-around is to use a shared [Google doc](https://www.google.com/docs/about/)
 or [Google Hangout](https://hangouts.google.com/).
 Of course, there is still the issue of how best to distribute a link to meeting participants,
@@ -284,44 +284,44 @@ probably via email.
 
 ### <a name='voting-or-polling'>Voting or polling</a>
 
-This is a feature that allows the host to ask participants a question and have
+Polling is a feature that allows the host to ask participants a question and have
 them anonymously vote their responses. In the absence of this feature, a clumsy
 but sufficient work-around is to use [Google forms](https://www.google.com/forms/about/) by 
 creating the form and then pasting a link to the form in your meeting's chat
-window allowing all participants to easily go there and vote their response.
+window, allowing all participants to easily go there to vote their response.
 
 ### <a name='file-sharing'>File sharing</a>
 
-File sharing allows participants to share whole files which attendees can then
-download to their own systems. There are varying levels of support for this
-among the products often restricted by file types (e.g. extensions). Some
-vendor's provide support for scripts and even augmented reality files. File
+File sharing allows participants to share whole files, which attendees can then
+download to their own systems. This feature has varying levels of support 
+among products, often restricted by file types (e.g., extensions). Some
+vendors provide support for scripts and even augmented reality files. File
 sharing, especially executable scripts, may introduce additional security
 concerns.
 
 ### <a name='recording'>Recording</a>
 
 Recording of a virtual meeting session is often convenient for participants
-who were unable to attend to watch later or for a meeting scribe to go back
-and fill in gaps in their notes. However, recordings are generally not useful
+who were unable to attend to watch later or for a scribe to go back
+and fill in gaps in meeting notes. However, recordings are generally not useful
 for *replacing* meeting notes because of the summarization often involved in the
 curation of such notes.
 
-There are differing levels of support for what content gets recorded among the
-various products. Some products may not make a record of chat messages for
+The various products provide differing levels of support for what content gets recorded. 
+Some products may not make a record of chat messages, for
 example. Recorded chat may or may not be sync'd with A/V content.
 It can sometimes be useful for the host to select the content to be
-recorded (e.g. audio-only).
+recorded (e.g., audio-only).
 
 Some vendors provide support for producing textual
 *transcriptions* from recordings. Recordings can introduce
-[*privacy concerns*](#privacy) so it is a best practice to obtain *written*
+[*privacy concerns*](#privacy), so it is a best practice to obtain *written*
 consent not only to create a recording but also to specify with whom the
-recording may later be shared with.
+recording may later be shared.
 
 ### <a name='transcription'>Transcription</a>
 
-Recorded sessions can be transcribed into time-stamped, text to make easy
+Recorded sessions can be transcribed into time-stamped text to enable easy
 searching of the recorded stream. Transcription typically requires about 2x
 the recording time to complete and is typically available only for sessions
 recorded to the *cloud* and pricier plans.
@@ -331,11 +331,10 @@ recorded to the *cloud* and pricier plans.
 All vendors offer *some* support for closed captioning. Typically, the support
 provided is just the *display* of captions. The *generation* of captions is
 delegated to some other service. For example, a *live captioner* is a person who
-transcribes the conversation in real-time during a meeting much like a court
+transcribes the conversation in real time during a meeting, much like a court
 stenographer. Those participants who wish can then enable display of closed
 captions.
-
-Some vendors appear to already provide or plan to provide *add-on* features
+Some vendors appear already to provide or plan to provide *add-on* features
 with automatic captioning.
 
 ### <a name='live-streaming'>Live streaming</a>
@@ -351,22 +350,21 @@ A web client is often advantageous because it *usually* allows users to avoid
 having to install software on their machine. Sometimes, however, the user may
 have to download a browser *extension* to support the web client. In addition,
 web clients often **do not** support features needed by a meeting *host* or
-*presenter*. They are available primarily to support meeting *attendees* only.
+*presenter* but are intendded primarily to support only meeting *attendees*.
 
 ### <a name='recommended'>Recommended</a>
 
 The *recommended* platform is either the OS or browser that supports the *most*
-features or is the one recommended by the vendor.
+features or is the platform recommended by the vendor.
 
 ## <a name='security'>Security</a>
 
 Depending on the kind of information to be *processed* in a virtual meeting,
 the level of security the product provides may or may not be an issue.
-
 When security vulnerabilities of a given virtual meeting product are a
 concern, one possible though inconvenient work-around is for
 *all meeting participants* to be on the same
-[*virtual private network (VPN)*](https://www.techradar.com/news/how-using-a-vpn-with-zoom-can-keep-you-and-your-data-more-secure). This adds significantly to the logistical
+[*virtual private network (VPN)*](https://www.techradar.com/news/how-using-a-vpn-with-zoom-can-keep-you-and-your-data-more-secure). This approach adds significantly to the logistical
 aspects of running a virtual meeting but may be the best option in
 some circumstances.
 
@@ -375,21 +373,21 @@ some circumstances.
 Recent security concerns in various virtual meeting products have been all
 the rage in the mainstream media. Unfortunately, many sources lack the
 technical background to provide any sort of *evaluation* of the level of
-risk of any issues encountered with respect to the kinds of information
+risk of issues encountered with respect to the kinds of information
 to be *processed*. When we have found technically competent sources, we
-provide links to them here. ******************* MARK CHECK LINK IN TABLE ***********
+provide links to them in the table. ******************* MARK CHECK LINK IN TABLE ***********
 
 ### <a name='best-practices'>Best Practices</a>
 
 For each product, when there is a collection of *best practices* for ensuring
-the best possible level of security when using that product for a meeting we
-indicate that here and provide a link to them.
+the best possible level of security when using that product for a meeting, we
+indicate that in the table and provide a link.
 
 ### <a name='lock-meeting'>Lock Meeting</a>
 
-When a meeting is *locked*, that means it cannot be joined by any other
-participants even with the correct credentials. Participants that leave
-a locked meeting cannot re-join either.
+When a meeting is *locked*, it cannot be joined by any other
+participants even with the correct credentials. Participants who leave
+a locked meeting cannot re-join.
 
 ### <a name='expel-attendee'>Expel Attendee</a>
 
@@ -400,11 +398,11 @@ the situation before it gets out of hand.
 
 ### <a name='expel-recovery'>Expel Recovery</a>
 
-In most products, an attendee is expelled, they cannot ever again rejoin that
-meeting instance. They have to use a wholly different *identity* or email
-address or. So, it is important for hosts to take care when taking the drastic
+In most products, an attendee who is expelled cannot rejoin that
+meeting instance; the attendee would have to use a wholly different *identity* or email
+address.  Thus, it is important for hosts to take care when taking the drastic
 action of expelling an attendee. Some products do enable a host to *recover*
-from this situation however allowing an inadvertently expelled attendee to
+from this situation, however, allowing an inadvertently expelled attendee to
 rejoin with the same identity.
 
 ### <a name='privacy'>Privacy</a>
@@ -443,19 +441,19 @@ caution to read as much as possible about how a given product supports E2EE.
 
 A *personal* room is the virtual equivalent of a meeting place that only the
 owner has the *keys* to open for an event. Only the owner can host meetings there
-and s/he can do so at any time and without scheduling it. It is typically a static
+and s/he can do so at any time and without advanced scheduling. A personal room is typically a static
 URL where anyone with the link can go at any time to meet with the owner and others
-the owner has given the link to. This feature is useful for spontaneous meetings
-and open meetings where the owner is connected and waiting but probably engaged
-in other tasks and can be *interrupted* then by another person who *enters* their
+to whom the owner has given the link. This feature is useful for spontaneous meetings
+and open meetings, where the owner is connected and waiting but probably engaged
+in other tasks and can be *interrupted* by another person who *enters* their
 room. Some products support *notifications* that inform an owner that someone
-is trying to enter their room when the owner is not already connected there. ********* MARK: PLEASE CHECK EMPTY CELLS IN TABLE ***************
+is trying to enter a room when the owner is not already connected there. ********* MARK: PLEASE CHECK EMPTY CELLS IN TABLE ***************
 
 ### <a name='breakout-rooms'>Breakout Rooms</a>
 
-This is a feature that makes it possible for a single meeting to be broken into
+Breakout rooms are a feature that makes it possible for a single meeting to break into
 sub-meetings among smaller groups of participants and, after a period of time,
-re-joined back into the single large meeting.
+re-join back into the single large meeting.
 
 In the absence of direct support for breakout rooms, there are other ways of
 using either [personal rooms](#personal-rooms) or multiple, parallel scheduled
@@ -470,8 +468,8 @@ from real-world breakout rooms).
 ### <a name='virtual-background'>Virtual background</a>
 
 A virtual background is an image (some products also support short video loops)
-which displays is though you are seated just in front of it. Some products may
-require a real-world constant color (typically a green) called a *green-screen*
+that displays as though you are seated just in front of it. Some products may
+require a real-world constant color (typically green) called a *green-screen*
 behind you. Newer products can make this feature work without requiring anything
 special behind you. In particular, you can hide a messy office by using a photo
 you take of your office when it was once clean.
