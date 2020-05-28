@@ -103,7 +103,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[hw](#webex-notes-hw)</sup>
 [Live Streaming](#live-streaming) | Maybe<sup>[ez](#zoom-notes-ez)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp; | &nbsp; | &nbsp;
-**Compatibility** [jump to compatibility details](#compatibility), [jump to recommended](#recommended)
+**Compatibility** [jump to details below](#compatibility), [jump to recommended below](#recommended)
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
 macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
