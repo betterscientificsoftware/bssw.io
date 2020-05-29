@@ -23,7 +23,8 @@ We welcome the following contributions:
 | Recorded presentation | July 6 - 10 | Selected from the submitted white papers, we will solicit speakers to record a brief presentation on their white paper content.  Recorded presentations will be available to attendees before the workshop. |
 Panelist |  July 21 - 23 | Selected from the submitted white papers, we will solicit participants as panelists for a live discussion with Q&A. |
 
-#### Publication date: May 26, 2020
+#### Publication date: May 29, 2020
+#### [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 <!---
 Publish: yes
