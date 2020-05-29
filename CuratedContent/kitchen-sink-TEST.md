@@ -79,7 +79,7 @@ The quick brown fox jumps over the lazy dog. | The quick brown fox jumps over th
 Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[aw](#webex-notes-aw)</sup> 
 --- | --- | ---
 &nbsp; | &nbsp; | &nbsp;
-**The Basics**, [jump to details below](#the-basics) | &nbsp; | &nbsp;
+**The Basics**, [details below](#the-basics) | &nbsp; | &nbsp;
 [Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) 
 [Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 
 [Size Limit](#size-limits) | 100-1000<sup>[az](#zoom-notes-az)</sup> | 50-200<sup>[bw](#webex-notes-bw),[cw](#webex-notes-cw)</sup> 
@@ -90,7 +90,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Test Meeting](#test-meeting) | [Yes](https://zoom.us/test) | [Yes](https://www.webex.com/test-meeting.html) | [Yes](https://bluejeans.com/111/) | [Partial](https://ucstatus.com/2019/06/26/how-to-place-a-test-call-in-microsoft-teams/) | [Yes](https://support.goto.com/meeting/help/join-a-test-session-g2m050001) | [Partial](https://www.businessinsider.com/how-to-test-skype-video)
 [Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
 &nbsp; | &nbsp; | &nbsp;
-**Content Sharing**, [jump to details below](#content-sharing) | &nbsp; | &nbsp;
+**Content Sharing**, [details below](#content-sharing) | &nbsp; | &nbsp;
 [Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting)
 [App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
 [Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
@@ -103,7 +103,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Closed captioning](#closed-captioning) | [Partial](https://support.zoom.us/hc/en-us/articles/207279736-Getting-started-with-closed-captioning) | [Maybe](https://www.webex.com/ai-assistant.html)<sup>[hw](#webex-notes-hw)</sup>
 [Live Streaming](#live-streaming) | Maybe<sup>[ez](#zoom-notes-ez)</sup> | [Yes](https://help.webex.com/en-us/n97pcak/Live-Stream-Your-Webex-Meetings)
 &nbsp; | &nbsp; | &nbsp;
-**Compatibility** [jump to details below](#compatibility), [jump to recommended below](#recommended) | &nbsp; | &nbsp;
+**Compatibility** [details below](#compatibility), [recommended below](#recommended) | &nbsp; | &nbsp;
 Windows Desktop |[8]/[10h]/[10p] | [8]/[10h]/[10E]
 Linux Desktop | [U]/[D]/[C]/[R]/[O]/[F]/[+][+z] | [U]/[R]/[O]/[F]
 macOS Desktop | [&ge;10.7][osx] | [&ge;10.13][osx]
