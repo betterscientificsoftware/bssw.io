@@ -9,7 +9,8 @@
 #### Publication date: May 25, 2020
 
 Anticipating what could go wrong is an essential part of becoming a master craftsperson. 
-An important part of that is reflecting on and learning from the mistakes made along the way.
+An important part of that process is reflecting on and learning from mistakes made along the way.
+This blog article draws analogies to perspectives in defensive programming.
 
 ### From journeyman to master craftsperson
 
