@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [Call for Contributions: 2020 Collegeville Workshop on Scientific Software: Developer Productivity](../../Events/Collegeville2020.md)
+- Display dates: 05/29/2020 - 06/30/2020
+
+<!--
 - [Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
 - Display dates: 03/15/2020 - 05/30/2020
 
-<!--
 - [New blog article ... Cleaning your work surfaces: One way to help flatten the curve](../../Articles/Blog/Covid19WorkstationCleanliness-wikized.md)
 - Display dates: 03/15/2020 - 03/30/2020
 
