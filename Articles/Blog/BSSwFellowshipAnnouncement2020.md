@@ -26,6 +26,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p>Computer Science Graduate Student</p>
   <p><i>BSSw Focus</i>: Automatic testing in scientific software</p>
 </div>  
+</div>
 
 <p>&nbsp;</p>
 
@@ -39,6 +40,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p>Research Engineer</p>
   <p><i>BSSw focus</i>: Agile scientific software development integrated with expanding outreach to underrepresented groups</p>
 </div> 
+</div>
 
 <p>&nbsp;</p>
 
@@ -52,6 +54,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p>Assistant Professor, Computer Science</p>
   <p><i>BSSw focus</i>: Improving correctness of numerical software and the effective use of mixed floating-point precision for better performance</p>
 </div> 
+</div>
 
 ## 2020 BSSw Honorable Mentions
 <p>&nbsp;</p>
@@ -65,12 +68,14 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <h3>David Boehme, Lawrence Livermore National Laboratory</h3>
   <p>Research Staff, Center for Applied Scientific Computing</p> 
 </div>
+</div>
   
 <br>
 
 <div class='fellow'>
 <div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_SumanaHarihareswara.png' class='logo' />
+</div>
 </div>
 
 <div class='short_bio'>
@@ -88,6 +93,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 <div class='short_bio'>
   <h3>David Rogers, University of Southern Florida</h3>
   <p>Assistant Professor of Chemistry</p>
+</div>
 </div>
 
 <br>
