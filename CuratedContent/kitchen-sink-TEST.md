@@ -76,7 +76,7 @@ Second | Test | Table
 --- | --- | ---
 The quick brown fox jumps over the lazy dog. | The quick brown fox jumps over the lazy dog. | The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
-Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[aw](#webex-notes-aw)</sup> 
+Feature | Zoom | WebEx Meetings<sup>[aw](#webex-notes-aw)</sup> 
 --- | --- | ---
 &nbsp; | &nbsp; | &nbsp;
 **The Basics** ([details below](#the-basics)) | &nbsp; | &nbsp;
