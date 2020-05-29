@@ -3,13 +3,13 @@
 - Location: Virtual
 - Event Website: https://collegeville.github.io/CW20/
 
-## The College Workshop Series on Scientific Software
+### The College Workshop Series on Scientific Software
 
 The Collegeville Workshop Series on Scientific Software brings together three communities of scientific software developers: academia, industry and laboratories.  We are dedicated to improving awareness of common needs, unique contributions, and career paths that span these communities.
 
 The first workshop in 2019 focused on software sustainability.  The 2020 workshop will focus on developer productivity.
 
-## Contribute to Collegeville 2020
+### Contribute to Collegeville 2020
 
 Any member of the computational science and engineering community who has an interest in improving developer productivity for scientific software is encouraged to submit content to build the program of Collegeville 2020: https://collegeville.github.io/CW20/Contribute.  Questions can be sent to Mike Heroux <maherou@sandia.gov>.
 
