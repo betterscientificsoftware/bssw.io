@@ -6,7 +6,7 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
 Slide1 R: images/raw/master/Blog_032420_StoneMasonry.png
-Slide2 L: events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams
+Slide2 L: items/virtual-meeting-tools-and-features-for-the-hpc-cse-community
 Slide2 R: events/webinar-sycl-introduction-and-best-practices 
 Slide3 L: blog_posts/working-remotely-the-spack-team
 Slide3 R: images/raw/master/Blog_0520_WorkRemoteSpack.png
