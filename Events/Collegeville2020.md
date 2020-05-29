@@ -24,7 +24,7 @@ We welcome the following contributions:
 Panelist |  July 21 - 23 | Selected from the submitted white papers, we will solicit participants as panelists for a live discussion with Q&A. |
 
 #### Publication date: May 29, 2020
-#### [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
+#### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 <!---
 Publish: yes
