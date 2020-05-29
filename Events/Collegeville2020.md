@@ -26,7 +26,7 @@ Panelist |  July 21 - 23 | Selected from the submitted white papers, we will sol
 #### Publication date: May 26, 2020
 
 <!---
-Publish: yees
+Publish: yes
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: conference
