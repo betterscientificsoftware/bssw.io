@@ -14,7 +14,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 
 ## 2020 BSSw Fellows
-<p>&nbsp;</p>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -28,8 +27,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>  
 </div>
 
-<p>&nbsp;</p>
-
 <div class='fellow'>
 <div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
@@ -42,7 +39,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div> 
 </div>
 
-<p>&nbsp;</p>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -57,7 +53,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>
 
 ## 2020 BSSw Honorable Mentions
-<p>&nbsp;</p>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -70,20 +65,18 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>
 </div>
   
-<br>
 
 <div class='fellow'>
 <div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_SumanaHarihareswara.png' class='logo' />
-</div>
 </div>
 
 <div class='short_bio'>
   <h3>Sumana Harihareswara, Changeset Consulting</h3>
   <p>Founder and Principal, Open source software management and collaboration</p>
 </div>
-  
-<br>
+</div>
+
 
 <div class='fellow'>
 <div class='img_div'>
@@ -95,8 +88,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <p>Assistant Professor of Chemistry</p>
 </div>
 </div>
-
-<br>
 
 ### About the BSSw Fellowship
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2020.  More information:
