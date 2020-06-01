@@ -14,10 +14,12 @@ Focus | Software publishing and citation
 
 The *FORCE11 [Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group)* builds on the previous [Software Citation Working Group](https://www.force11.org/group/software-citation-working-group), which developed and publicized an initial set of [software citation principles](https://doi.org/10.7717/peerj-cs.86). The activities of the Software Citation Implementation Working Group are: work with relevant stakeholders (publishers, librarians, archivists, funders, repository developers, other community forums with related working groups, etc.) to:
 
-1. endorse the principles
-2. develop sets of guidelines for implementing the principles
-3. help implement the principles
-4. test specific implementations of the principles.  During this process, the principles may also be updated based on feedback from the activities.
+1. Endorse the principles.
+2. Develop sets of guidelines for implementing the principles.
+3. Help implement the principles.
+4. Test specific implementations of the principles.  
+
+During this process, the principles may also be updated based on feedback from the activities.
 
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-force11-website-logo.png' class='logo' />
