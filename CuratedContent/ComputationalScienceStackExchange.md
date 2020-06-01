@@ -10,7 +10,7 @@ Focus | Discussion forum for computational science problems
 
 *[Computational Science Stack Exchange](https://scicomp.stackexchange.com/)* is a question and answer site for scientists using computers to solve scientific problems.
 
-This *Stack Exchange site* covers computational science in general.  Most of the questions tend to be more about algorithms and methods, and also about how to use particular software packages.  However there have been some questions in the software engineering, productivity, sustainability, and related areas.  And good questions in these areas are likely to attract more such questions - and the diverse audience in this forum will likely lead to interesting answers!
+This *Stack Exchange* site covers computational science in general.  Most of the questions tend to be more about algorithms and methods, and also about how to use particular software packages.  However there have been some questions in the software engineering, productivity, sustainability, and related areas.  Good questions in these areas are likely to attract more such questions - and the diverse audience in this forum will likely lead to interesting answers!
 
 <!---
      Native image is too large.  Need to reduce size for reasonable display.
