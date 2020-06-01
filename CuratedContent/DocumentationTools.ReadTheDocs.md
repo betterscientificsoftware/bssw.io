@@ -12,7 +12,7 @@ Focus | Documentation tools
 [Sphinx](DocumentationTools.Sphinx.md).  *Read The Docs* typically requires
 documentation to be written in either reStructuredText or Markdown, and can be
 configured to produce branch- or commit-specific documentation in a revision
-control system (see [What Is Version Control?](WhatIsVersionControl.md)). **NOTE: This URL is no longer valid**
+control system (see [What Is Version Control?](WhatIsVersionControl.md)). <br> **NOTE: This URL is no longer valid**
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 
