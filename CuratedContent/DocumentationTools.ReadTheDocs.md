@@ -9,7 +9,7 @@ Website  | [https://readthedocs.org/](https://readthedocs.org/)
 Focus | Documentation tools
 
 *Read The Docs* is a free service for hosting documentation generated from tools such as
-[Sphinx](DocumentationTools.Sphinx.md).  *Read The Docs typically requires
+[Sphinx](DocumentationTools.Sphinx.md).  *Read The Docs* typically requires
 documentation to be written in either reStructuredText or Markdown, and can be
 configured to produce branch- or commit-specific documentation in a revision
 control system (see [What Is Version Control?](WhatIsVersionControl.md)). 
