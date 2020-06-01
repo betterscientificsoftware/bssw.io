@@ -4,7 +4,7 @@ Writing clean code can be a challenge, especially for beginners! Do you know wha
 
 Resource information | Details
 :--- | :--- 
-Article title  | [How to Make Your Code Clean and Beautiful](https://medium.com/swlh/excellent-code-clean-and-beautiful-code-b541ca4b5a39)
+Article title  | [How to Make Your Code Clean and Beautiful](https://medium.com/swlh/excellent-code-clean-and-beautiful-code-b541ca4b5a39) <br> **NOTE: This Article has been removed from the website** 
 Authors | [Ravi Shankar Rajan](https://medium.com/@rsrajan1)
 Focus | Software coding
 
