@@ -6,7 +6,7 @@ of heightend awareness of possible transmission of disease.
 Resource information | Details 
 :--- | :--- 
 Resource name  | Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
-Webpage | https://markcmiller86.github.io/flatten-the-curve/KeepingWorkAreaSurfacesClean.html
+Webpage | https://markcmiller86.github.io/flatten-the-curve/KeepingWorkAreaSurfacesClean.html <br> **NOTE: This link is no longer valid**
 Focus | Personal productivity and sustainability
 
 This article explains why cleaning work area surfaces regularly is important. It reminds us
