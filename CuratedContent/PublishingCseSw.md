@@ -9,7 +9,7 @@ Resource name | Assorted venues to publish CSE software
 Websites | [ACM Transactions on Mathematical Software](http://toms.acm.org), [ACM Transactions on Modeling and Computer Simulation](http://tomacs.acm.org/about.cfm), [Archive of Numerical Software](http://journals.ub.uni-heidelberg.de/index.php/ans/), [Computing in Science and Engineering](https://www.computer.org/csdl/magazine/cs), [ReScience C](http://rescience.github.io), [SoftwareX](https://www.journals.elsevier.com/softwarex/), [The Journal of Open Source Software](http://joss.theoj.org), [The Journal of Statistical Software](https://www.jstatsoft.org/index), [The Self-Journals of Science](http://www.sjscience.org), [Zenodo](https://zenodo.org), [FigShare](https://figshare.com)
 Focus |  Software publishing and citation
 
-CSE software is used to generate many significant results in the
+CSE software is used to generate many significant results in
 scientific literature.  The articles that present these results
 should have a way to acknowledge the work that went into developing
 the software, ideally via the same citation mechanism used to
