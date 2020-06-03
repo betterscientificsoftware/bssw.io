@@ -4,7 +4,7 @@
 
 Many of us find ourselves suddenly engaging in unplanned remote work. The resources outlined in this article can help.
 
-Many scientific software teams function as dispersed teams of teams [1] and are familiar with a variety of tools commonly used by software teams to stay connected, such as Slack, Gitter, GitHub, BlueJeans, Skype, Zoom, etc. If you travel extensively, have colleagues at geographically distributed institutions, or work offsite, you have experienced virtual, or remote work at one time or another. While for some, remote work has been an everyday occurrence, the global COVID-19 pandemic and need to practice social distancing [2] has thrust all of us into a new normal that involves extended remote work for each of us. Below are some curated quick reads about remote working from leadership, tools and infrastructure to security. 
+Many scientific software teams function as dispersed "teams of teams" [1] and are familiar with a variety of tools commonly used by software teams to stay connected, such as Slack, Gitter, GitHub, BlueJeans, Skype, Zoom, etc. If you travel extensively, have colleagues at geographically distributed institutions, or work offsite, you have experienced virtual, or remote work at one time or another. While for some, remote work has been an everyday occurrence, the global COVID-19 pandemic and need to practice social distancing [2] has thrust all of us into a new normal that involves extended remote work for each of us. Below are some curated quick reads about remote working from leadership, tools and infrastructure to security. 
 
 To set the context, we start with a discussion by software developer, Martin Fowler, published in 2015 on the various combinations of distributed teams of which we have all been members, followed by Thoughtworks’ 2020 playbook for remote working while dealing with the uncertainty of COVID-19.
 
@@ -20,7 +20,7 @@ Article title  | [The Remote Work Playbook](https://www.thoughtworks.com/remote-
 Authors | [Thoughtworks](https://www.thoughtworks.com/)
 Focus | Transitioning to remote work
 
-Next are listed a few timely articles that address the VUCA (volatile, uncertain, complex, and ambiguous) environment that we find ourselves in today. Articles from the Harvard Business Review, Fast Company, and others specifically address ways to make remote work for you and your team productive and successful during these uncertain times.
+Next are listed a few timely articles that address the VUCA (volatile, uncertain, complex, and ambiguous) environment that we find ourselves in today. Articles from the Harvard Business Review, Fast Company, and others specifically address ways for you and your team to make remote work productive and successful during these uncertain times.
 
 Resource information | Details
 :--- | :--- 
