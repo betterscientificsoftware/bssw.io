@@ -1,7 +1,7 @@
 <!-- # Digging Deeper into PSIP Software Process Improvement Methodology-->
 # Planning for Better Software: PSIP Tools
 
-Do you wish to learn how to upgrade your team's software practices? Do you want to improve software sustainability and productivity in an easy and efficient manner in your project? This article gives pointers to the PSIP Software Improvement Process for scientific software.
+Do you wish to learn how to upgrade your team's software practices? Do you want to improve software sustainability and productivity in an easy and efficient manner in your project? This article gives pointers on the PSIP Software Improvement Process for scientific software.
 
 Resource information | Details 
 :--- | :--- 
