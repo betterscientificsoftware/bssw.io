@@ -8,8 +8,8 @@ In this [on-demand learning blog post](https://bssw.io/blog_posts/on-demand-lear
 The webinar explains key points of self-directed online learning, including how to develop a transmedia learning framework (TLF) leveraging massively open online courses (MOOC), podcasts, social media, videos, practice environments, and more. The webinar is based on material presented in a tutorial at the [2nd Annual ECP Annual Meeting](https://www.ecpannualmeeting.com).  The tutorial featured a walk-through of relevant learning applications organized in a transmedia learning framework (TLF). Take-away practical strategies, resources, and tools that can be applied toward learning more productively were provided.
 
 **Subresources:**
-- [TLF Example: Git](CuratedContent/OnlineLearningTLF.Git.md)
-- [TLF Example: Python2](CuratedContent/OnlineLearningTLF.Python.md)
+- [TLF Example: Git](CuratedContent/OnlineLearningTLF.Git.md) (**NOTE: This link is no longer valid**)
+- [TLF Example: Python2](CuratedContent/OnlineLearningTLF.Python.md) (**NOTE: This link is no longer valid**)
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn")
 
