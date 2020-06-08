@@ -2,7 +2,7 @@
 
 #### Who We Are
 
-**Better Scientific Software** is an organization dedicated to [improving developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [improving software sustainability](Site/Categories/Topics/WhatIsSustainability.md) for computational science and engineering (CSE).
+**Better Scientific Software** is an organization dedicated to [improving developer productivity](Articles/WhatIs/WhatIsProductivity.md) and [improving software sustainability](Articles/WhatIs/WhatIsSustainability.md) for computational science and engineering (CSE).
 
 This repository provides source material for the Better Scientific Software [BSSw.io](https://bssw.io) web portal. Better Scientific Software (BSSw) community members can contribute content using standard GitHub tools and processes. Contributions can be made via:
 * **Web browser editing**:  For many people (even BSSw project members), this is probably the preferred way.  GitHub provides a nice web editor for Markdown.
