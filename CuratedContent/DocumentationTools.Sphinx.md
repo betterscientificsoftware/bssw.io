@@ -1,6 +1,6 @@
 # An Introduction to Sphinx
 
-Documentation is an important part of any software. Learn about the Sphinx source tool to aid you in this process!
+Documentation is an important part of any software. Learn about the *Sphinx* source tool to aid you in this process!
 
 Resource information | Details 
 :--- | :--- 
