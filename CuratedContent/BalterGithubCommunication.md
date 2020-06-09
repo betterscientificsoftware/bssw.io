@@ -1,16 +1,16 @@
 # Balter's Rules for GitHub Communication
 
-Ben Balter’s article “15 rules for communicating at GitHub”
+Ben Balter’s article *15 rules for communicating at GitHub*
 presents fifteen communication rules that GitHub employees follow to improve their overall workflow---rules that establish a
 communication strategy from which modern software development can greatly benefit.
 
 Resource information | Details 
 :--- | :--- 
-Resource name  | 15 rules for communicating at GitHub
-Website  | https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/
+Article Title  | [15 rules for communicating at GitHub](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
+Website  | [Ben Balter](https://ben.balter.com/about/)
 Focus | Communication in GitHub issues and PRs
 
-From Ben Balter’s article [“15 rules for communicating at GitHub”](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/), here are three that stand out:
+From [Ben Balter’s](https://ben.balter.com/about/) article *[“15 rules for communicating at GitHub”](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)*, here are three that stand out:
 
 #### Be flexible with tickets. 
 Many of us think of tickets as fully completed thoughts that require time
