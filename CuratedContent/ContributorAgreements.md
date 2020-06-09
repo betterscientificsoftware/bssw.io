@@ -1,6 +1,6 @@
 # An Introduction to Contributor Agreements
 
-Have you heard of Contributor Agreements? Learn more about these agreements to proactively avoid future legal issues and code disputes.
+Have you heard of *Contributor Agreements*? Learn more about these agreements to proactively avoid future legal issues and code disputes.
 
 Resource information | Details 
 :--- | :--- 
