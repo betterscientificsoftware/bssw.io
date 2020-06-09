@@ -1,7 +1,7 @@
 # A Look at the Economic Forces in Open Source Software
 
 The article *The Internet Was Built on the Free Labor of Open Source Developers.
-Is That Sustainable?* looks at the economics driving the Open Source movement and how that is putting at risk those utilizing that software without investing in it.
+Is That Sustainable?* looks at the economics driving the Open Source movement and how it puts those utilizing that software without investing in it at risk.
 
 Resource Information | Details
 :--- | :--- 
