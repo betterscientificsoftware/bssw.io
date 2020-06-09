@@ -3,9 +3,9 @@
 # Introducing Container Mythbusters
 
 In the video *Container Mythbusters*, Michael Jennings presents some common
-myths about containers and explains the facts that include container
+myths about containers and explains the facts, including container
 technologies, the difference between containers and Virtual Machines (VM's),
-security vulnerabilities and container runtimes for high-performance computing
+security vulnerabilities, and container runtimes for high-performance computing
 (HPC).
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
