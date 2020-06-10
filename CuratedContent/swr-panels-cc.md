@@ -35,7 +35,7 @@ required for each panel.
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Panels
-*Listed in reverse chronological order. Last updated: 2020-05-17*
+*Listed in reverse chronological order. Last updated: 2020-06-10*
 
 
 
@@ -43,6 +43,11 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 
+
+
+
+
+- [*Making the Transition to Virtual Software Teams*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel003), Jay Jay Billings (Oak Ridge National Laboratory), Mark Gates (University of Tennessee, Knoxville), Mahantesh Halappanavar (Pacific Northwest National Laboratory), Angela Herring (Los Alamos National Laboratory),  and Axel Huebl (Berkeley Lab), 2020-05-21
 
 
 
@@ -64,7 +69,7 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 #### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
