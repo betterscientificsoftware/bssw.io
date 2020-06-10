@@ -6,7 +6,6 @@
 
 This tutorial provides information on best practices in software engineering explicitly tailored for CSE. It discusses practices that are relevant for projects of all sizes, with emphasis on small teams.
 
-###### Organization
 Resource information | Details 
 :--- | :--- 
 Tutorial title | CSE Collaboration through Software: Improving Productivity and Sustainablilty
