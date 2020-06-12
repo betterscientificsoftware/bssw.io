@@ -14,7 +14,7 @@ Advances in next-generation computational science and engineering (CSE) require 
 The IDEAS project is partnering with the community to create an extreme-scale scientific software development ecosystem composed of high-quality, reusable CSE software components and libraries; a collection of best practices, processes, and tools; and substantial outreach mechanisms for promoting and disseminating productivity improvements.  A goal is to improve CSE productivity by enabling better, faster *and* cheaper CSE application capabilities for extreme-scale computing.
 
 
-### Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability Report
+### *Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability Report*
 
 - [Report download](https://exascaleproject.org/better-scientific-productivity-through-better-scientific-software-the-ideas-report)
 
