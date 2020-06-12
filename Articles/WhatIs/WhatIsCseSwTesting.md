@@ -6,12 +6,12 @@ Testing is the process of assuring that a software product is meeting it require
 <!--body start--->
 Testing is an important part of software development. Testing addresses these basic questions:
 
-##### Is the software written correctly, with no faults? (Verification testing)
-##### Is the software solving the right problem? (Validation testing)
+- Is the software written correctly, with no faults? (Verification testing)
+- Is the software solving the right problem? (Validation testing)
 
 Tests typically come in the form of additional software that executes the software product, exercising it with known inputs that should produce expected output. Further testing concepts include:
 
-#### Categories of testing
+### Categories of testing
 
 Different testing practices serve different aims. To help differentiate them, we often group testing
 practices into a handful of categories. However, these are not carved in stone. The lines between
@@ -19,13 +19,13 @@ categories are often blurred and can easily change as practices and aims evolve.
 to keep the focus on the aims rather than the category/label we assign them. With this in mind, we
 breifly describe a few of the more commonly used categories of software testing.
 
-#### Regression testing:
+#### Regression testing
 A form of testing where the primary aim is to ensure software changes do not break previously developed and known to be working functionality (e.g. cause the software to _regress_ in its functionality).
 
-#### Unit testing:
+#### Unit testing
 A form of testing where the primary aim is to enable fine-grain portions of the software (usually individual functions or subroutines) to be tested in isolation apart from the larger software product in which they are used.
 
-#### Functional testing:
+#### Functional testing
 A form of testing where the primary aim is to operate the software as a proxy for how a user would use the product.
 
 #### Continuous Integration (CI) testing
