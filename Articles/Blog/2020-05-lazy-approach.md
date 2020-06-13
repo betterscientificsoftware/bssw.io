@@ -2,13 +2,13 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_032420_StoneMasonry.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0620_YAGNI.jpg' />
 
 #### Contributed by [Carl S. Adorf](https://github.com/csadorf "Carl S. Adorf GitHub Profile") and [Vyas Ramasubramani](https://github.com/vyasr "Vyas Ramasubramani GitHub Profile")
 
 #### Publication date: TBD
 
-Making thoughtful choices about when to be lazy can pay off in the long-run.
+Lots of fancy features may look attractive, but we rarely use all of them.
 
 ### Scientist-software developers tend to extremes
 
@@ -135,6 +135,8 @@ Reusable Scientific Software -- And When Not To,* Computing in Science
 and Engineering 21, 66-79 (2019). DOI:
 [10.1109/MCSE.2018.2882355](https://doi.org/10.1109/MCSE.2018.2882355)
 
+### Image Attribution
+Image by Dave Taylor from Boulder, CO is licensed under CC BY 2.0.
 
 ### Author bio
 
