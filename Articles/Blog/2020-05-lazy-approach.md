@@ -137,7 +137,7 @@ and Engineering 21, 66-79 (2019). DOI:
 ### Image Attribution
 Image by Dave Taylor from Boulder, CO, is licensed under CC BY 2.0.
 
-### Author bio
+### Author bios
 
 Dr. Carl Simon Adorf is a postdoctoral researcher in the group of
 Prof. Nicola Marzari at École polytechnique fédérale de Lausanne
