@@ -143,7 +143,7 @@ Dr. Carl Simon Adorf is a postdoctoral researcher in the group of
 Prof. Nicola Marzari at École polytechnique fédérale de Lausanne
 (EPFL). He obtained his Ph.D. at the University of Michigan under
 the supervision of Sharon C. Glotzer in 2019. Dr. Adorf is an expert in
-employing machine learning algorithms for identifying
+employing machine learning algorithms for identifying and
 analyzing crystallization pathways of colloidal crystals and has
 made a huge impact on the scientific computing community by inventing
 and leading the development of the signac framework (signac.io). He is
