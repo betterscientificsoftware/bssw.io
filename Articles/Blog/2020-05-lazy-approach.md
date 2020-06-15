@@ -65,10 +65,10 @@ once a third use for it is found. This ensures that the majority of
 development time is spent on solving the problem that motivated the
 development.
 
-The. lazy refactoring approach depends on adhering to certain minimal code standards to
+The lazy refactoring approach depends on adhering to certain minimal code standards to
 ensure that prototypes can be generalized with reasonable effort once
 their reuse potential has been identified. Specifically, prototype
-code should do the followig:
+code should do the following:
 * Be under version control to track the logical development, for example,
   with git.
 * Provide minimal documentation: a README file is a must. As a
