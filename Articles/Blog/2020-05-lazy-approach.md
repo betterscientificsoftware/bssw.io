@@ -10,7 +10,7 @@
 
 Lots of fancy features may look attractive, but we rarely use all of them.
 
-### Scientist software developers tend to extremes
+### Scientific software developers tend to extremes
 
 A common obstacle in the development of scientific software is that it
 is typically carried out by researchers doubling as software
