@@ -1,9 +1,5 @@
 # Tutorial: CSE Collaboration through Software: Improving Productivity and Sustainability
 
-#### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
-
-#### Publication date: Mar 20, 2017
-
 This tutorial provides information on best practices in software engineering explicitly tailored for CSE. It discusses practices that are relevant for projects of all sizes, with emphasis on small teams.
 
 Resource information | Details 
@@ -21,6 +17,10 @@ This tutorial provides information on best practices in software engineering exp
 - _Better (Small) Scientific Software Teams_
 - _Improving Reproducibility through Better Software Practices_
 - _Testing of HPC Scientific Software_
+
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
+
+#### Publication date: Mar 20, 2017
 
 <!---
 Publish: yes
