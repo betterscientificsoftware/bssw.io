@@ -7,9 +7,9 @@ Resource information | Details
 :--- | :--- 
 Article Title | [10 Common Learning Myths That Might Be Holding You Back](https://www.opencolleges.edu.au/informed/features/10-common-learning-myths-might-holding-back/)
 Authors | [Marianne Stenger](https://www.opencolleges.edu.au/informed/author/marianne/)
-Focus | **--**
+Focus | General learning
 
-**MAIN BODY TEXT NEEDED**
+This article, *[Ten Common Learning Myths that Might be Holding You Back](https://www.opencolleges.edu.au/informed/features/10-common-learning-myths-might-holding-back/)*, delves into ten common myths regarding how we learn, and explains why these myths are outdated and incorrect. Although this article approaches the how and why of learning from a general lens, understanding these debunked theories can help us when we are learning new information or teaching others, and can be applied specifically to aspects of scientific software development and computing. 
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
 
