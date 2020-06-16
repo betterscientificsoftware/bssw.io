@@ -6,7 +6,7 @@
 
 #### Contributed by [Carl S. Adorf](https://github.com/csadorf "Carl S. Adorf GitHub Profile") and [Vyas Ramasubramani](https://github.com/vyasr "Vyas Ramasubramani GitHub Profile")
 
-#### Publication date: June 17, 2020
+#### Publication date: June 16, 2020
 
 ### Scientific software developers tend to extremes
 
@@ -160,8 +160,8 @@ also a core developer for [HOOMD-blue](http://glotzerlab.engin.umich.edu/hoomd-b
 package that is highly optimized for GPUs.
 
 <!---
-Publish: preview
-RSS update: 2020-06-17
+Publish: yes
+RSS update: 2020-06-16
 Categories: Planning, Development
 Topics: Software Engineering, Requirements, Refactoring
 Tags: bssw-blog-article
