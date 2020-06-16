@@ -1,4 +1,4 @@
-Software Development Practices in Academia: A Case Study Comparison
+# Software Development Practices in Academia: A Case Study Comparison
 
 The article *Software development practices in academia: a case study comparison*, published in the Computing Research Repository (CoRR) of arXiv1 in 2015, presents a case study of software development practices in four open-source scientific codes.
 
