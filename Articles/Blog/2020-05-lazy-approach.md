@@ -8,8 +8,6 @@
 
 #### Publication date: TBD
 
-Lots of fancy features may look attractive, but we rarely use all of them.
-
 ### Scientist software developers tend to extremes
 
 A common obstacle in the development of scientific software is that it
@@ -65,7 +63,7 @@ once a third use for it is found. This ensures that the majority of
 development time is spent on solving the problem that motivated the
 development.
 
-The. lazy refactoring approach depends on adhering to certain minimal code standards to
+The lazy refactoring approach depends on adhering to certain minimal code standards to
 ensure that prototypes can be generalized with reasonable effort once
 their reuse potential has been identified. Specifically, prototype
 code should do the followig:
@@ -75,7 +73,7 @@ code should do the followig:
   benchmark, the documentation should be sufficient such that one can digest the logical flow of the code without significant
   effort.
 * Adhere to some common sense  standard applicable for the 
-  programming language used (e.g., PEPs for Python or the C++ Core
+  programming language used (e.g., PEP8 for Python or the C++ Core
   Guidelines).
 * Be validated (ideally against known results) in the context of the
   scientific application.
@@ -128,7 +126,7 @@ improving overall code quality.
 
 This article is based on a paper in the IEEE Computing in Science and
 Engineering special issue on *Accelerating Scientific Discovery with
-Reusable Software:* * Carl S. Adorf, Vyas Ramasubramani, Joshua
+Reusable Software:* Carl S. Adorf, Vyas Ramasubramani, Joshua
 A. Anderson, and Sharon C. Glotzer, *How to Professionally Develop
 Reusable Scientific Software -- And When Not To,* Computing in Science
 and Engineering 21, 66-79 (2019). DOI:
