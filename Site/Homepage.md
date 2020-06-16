@@ -4,16 +4,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
-Slide1 R: images/raw/master/Blog_032420_StoneMasonry.png
-Slide2 L: items/virtual-meeting-tools-and-features-for-the-hpc-cse-community
-Slide2 R: events/webinar-sycl-introduction-and-best-practices 
-Slide3 L: blog_posts/working-remotely-the-spack-team
-Slide3 R: images/raw/master/Blog_0520_WorkRemoteSpack.png
-Slide4 L: blog_posts/blog_posts/research-software-engineer-stories
-Slide4 R: images/raw/master/Blog_042320_podcast.jpg
-Slide5 L: blog_posts/maintainers-drive-software-sustainability
-Slide5 R: images/raw/master/Blog_0420_Map.jpg
+Slide1 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
+Slide1 R: images/raw/master/Blog_0620_YAGNI.jpg
+Slide2 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
+Slide2 R: images/raw/master/Blog_032420_StoneMasonry.png
+Slide3 L: items/virtual-meeting-tools-and-features-for-the-hpc-cse-community
+Slide3 R: events/webinar-sycl-introduction-and-best-practices 
+Slide4 L: blog_posts/working-remotely-the-spack-team
+Slide4 R: images/raw/master/Blog_0520_WorkRemoteSpack.png
+Slide5 L: blog_posts/blog_posts/research-software-engineer-stories
+Slide5 R: images/raw/master/Blog_042320_podcast.jpg
 --->
 
 <!---
