@@ -6,7 +6,7 @@
 
 #### Contributed by [Carl S. Adorf](https://github.com/csadorf "Carl S. Adorf GitHub Profile") and [Vyas Ramasubramani](https://github.com/vyasr "Vyas Ramasubramani GitHub Profile")
 
-#### Publication date: TBD
+#### Publication date: June 17, 2020
 
 ### Scientific software developers tend to extremes
 
@@ -144,24 +144,24 @@ the supervision of Sharon C. Glotzer in 2019. Dr. Adorf is an expert in
 employing machine learning algorithms for identifying and
 analyzing crystallization pathways of colloidal crystals and has
 made a huge impact on the scientific computing community by inventing
-and leading the development of the signac framework (signac.io). He is
+and leading the development of the signac framework ([signac.io](http://signac.io/)). He is
 currently a developer for the AiiDA computing infrastructure
-(aiida.net) and the Materials Cloud open science platform
-(materialscloud.org) as part of his involvement with the Horizon 2020
+([aiida.net](http://aiida.net/)) and the Materials Cloud open science platform
+([materialscloud.org](http://materialscloud.org/)) as part of his involvement with the Horizon 2020
 MARKETPLACE project.
 
 Vyas Ramasubramani is a Ph.D. candidate in the group of Sharon Glotzer
 at the University of Michigan, Ann Arbor, where he studies particle
 self-assembly, especially of
-proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the signac
-data management framework and the freud simulation analysis toolkit,
-and he created the rowan package for quaternion mathematics. He is
-also a core developer for HOOMD-blue, a popular particle simulation
+proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the [signac[(http://signac.io/)
+data management framework and the [freud](http://freud.readthedocs.io/) simulation analysis toolkit,
+and he created the [rowan](https://rowan.readthedocs.io/) package for quaternion mathematics. He is
+also a core developer for [HOOMD-blue](http://glotzerlab.engin.umich.edu/hoomd-blue/), a popular particle simulation
 package that is highly optimized for GPUs.
 
 <!---
 Publish: preview
-RSS update: 
+RSS update: 2020-06-17
 Categories: Planning, Development
 Topics: Software Engineering, Requirements, Refactoring
 Tags: bssw-blog-article
