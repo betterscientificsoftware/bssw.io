@@ -77,8 +77,8 @@ code should do the following:
   Guidelines).
 * Be validated (ideally against known results) in the context of the
   scientific application.
-* Include a license (ideally permissive) such that not only the
-  original author is able to reuse the code at a later stage.
+* Include a license (ideally permissive) such that people other than the
+  original author are able to reuse the code at a later stage.
 
 Lazy refactoring has several advantages. First, it ties all
 development to specific, tangible research goals, removing the burden
