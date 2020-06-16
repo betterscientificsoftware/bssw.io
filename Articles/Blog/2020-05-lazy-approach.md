@@ -153,7 +153,7 @@ MARKETPLACE project.
 Vyas Ramasubramani is a Ph.D. candidate in the group of Sharon Glotzer
 at the University of Michigan, Ann Arbor, where he studies particle
 self-assembly, especially of
-proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the [signac[(http://signac.io/)
+proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the [signac](http://signac.io/)
 data management framework and the [freud](http://freud.readthedocs.io/) simulation analysis toolkit,
 and he created the [rowan](https://rowan.readthedocs.io/) package for quaternion mathematics. He is
 also a core developer for [HOOMD-blue](http://glotzerlab.engin.umich.edu/hoomd-blue/), a popular particle simulation
