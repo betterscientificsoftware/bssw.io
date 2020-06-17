@@ -54,6 +54,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#content-sharing)</td></tr>
 [Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting)
+[Shared Audio](#audio-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362643-Sharing-Computer-Sound-During-Screen-Sharing) | No
 [App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
 [Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
@@ -84,6 +85,7 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 [Personal rooms](#personal-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/203276937-Using-Personal-Meeting-ID-PMI-) | [Yes]( https://help.webex.com/en-us/nul0wut/Cisco-Webex-Personal-Rooms-in-Cisco-Webex-Meetings)
 [Breakout rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) 
 [Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[fz](#zoom-notes-fz)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[iw](#webex-notes-iw)</sup>
+[Bandwidth Management](#bandwidth-management) | No | [Maybe](https://www.cisco.com/c/en/us/products/collateral/conferencing/webex-meetings/white_paper_c11-691351.html)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
 Mute all A/V | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events)
 Mute A/V entry | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No
@@ -236,6 +238,15 @@ with all the participants. All teleconference tools support this feature even fr
 mobile devices. However, a number of tools also support variations of this feature for
 different needs, as described below.
 
+### <a name='audio-sharing'>Share Audio</a>
+
+Shared audio is a feature that allows any audio content, such as videos with sound, music or
+podcasts, to be properly handled such that attendees here *direct* audio as opposed to
+indirect audio (e.g. out through the presenter's speakers and back in through the presenter's
+microphone). It means audio originating from content on the presenter's computer needs to be
+mixed with audio of the presenter's voice, etc. Not all teleconferencing tools support this.
+
+
 ### <a name='app-sharing'>App sharing</a>
 
 App (or Application) sharing is like [*Screen Sharing*](#screen-sharing) except that
@@ -280,7 +291,8 @@ In the absence of *able chat*, a clumsy
 but sufficient work-around is to use a shared [Google doc](https://www.google.com/docs/about/)
 or [Google Hangout](https://hangouts.google.com/).
 Of course, there is still the issue of how best to distribute a link to meeting participants,
-probably via email.
+probably via email. Note that Zoom's chat is not *persisted* to newly arriving attendees. A
+newly arriving attendee in Zoom will not see any chats that occurred prior to their arrival.
 
 ### <a name='voting-or-polling'>Voting or polling</a>
 
@@ -473,6 +485,15 @@ require a real-world constant color (typically green) called a *green-screen*
 behind you. Newer products can make this feature work without requiring anything
 special behind you. In particular, you can hide a messy office by using a photo
 you take of your office when it was once clean.
+
+### <a name='bandwidth-management'>Bandwidth management</a>
+
+Bandwidth management are those features of the virtual meeting product that enable
+any attendee to do some amount of management of the bandwidth to/from their device.
+An example is WebEx's ability for an attendee to disable all incoming video. Other
+options may involve aspects of tools apart from the virtual meeting software itself.
+For example, the camera you use may have ability to control video quality explicitly
+allowing you to *always* share only low quality video to conserve bandwidth.
 
 ## <a name='experiences-in-actual-use'>Experiences in actual use</a>
 
