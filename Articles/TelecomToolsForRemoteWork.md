@@ -54,7 +54,7 @@ Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<
 [Free Dial-in option](#free-dial-in-option) | [Maybe](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone) | [Maybe](https://help.webex.com/en-us/WBX25713/How-Do-I-Find-the-Global-Dial-In-Number-for-My-Meeting)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Content Sharing**](#content-sharing)</td></tr>
 [Screen Sharing](#screen-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) | [Yes](https://help.webex.com/en-us/i62jfl/Share-Your-Screen-or-Application-in-a-Cisco-Webex-Teams-Meeting)
-[Shared Audio](#audio-sharing) | [Yes](https://it.umn.edu/services-technologies/how-tos/zoom-share-computer-sound-during-screen) | No
+[Shared Audio](#audio-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/201362643-Sharing-Computer-Sound-During-Screen-Sharing) | No
 [App Sharing](#app-sharing) | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/utfx63/Share-an-Application-in-Cisco-Webex-Meetings)
 [Shared Whiteboard](#shared-whiteboard) | [Yes](https://support.zoom.us/hc/en-us/articles/205677665-Sharing-a-whiteboard) | [Yes](https://help.webex.com/en-us/5ddww5/Share-Content-in-Cisco-Webex-Meetings-and-Cisco-Webex-Events)
 [Shared Annotations](#shared-annotations)  | [Yes](https://support.zoom.us/hc/en-us/articles/115005706806-Using-annotation-tools-on-a-shared-screen-or-whiteboard) | [Yes](https://help.webex.com/en-us/hc3tig/Options-Available-on-the-Annotate-Toolbar-in-the-Cisco-Webex-Meetings-Suite)
