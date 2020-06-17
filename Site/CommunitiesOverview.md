@@ -12,4 +12,4 @@ The Better Scientific Software umbrella encompasses a rich variety of communitie
 - [Scientific Libraries Community](Communities/ScientificLibraries.md)
 - [Software Engineering Community](Communities/SoftwareEngineering.md)
 
-We want your input and perspectives.  Please [contact us](https:/bssw.io/contact) if you would like to start a community-specific landing page.
+We want your input and perspectives.  Please [contact us](https://bssw.io/contact) if you would like to start a community-specific landing page.
