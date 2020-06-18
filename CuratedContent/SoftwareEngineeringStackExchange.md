@@ -4,7 +4,7 @@
 
 Resource information | Details 
 :--- | :--- 
-Resource name | Softwar Engineering Stack Exchange
+Resource name | Software Engineering Stack Exchange
 Website | https://softwareengineering.stackexchange.com/
 Focus | Software development and engineering
 
