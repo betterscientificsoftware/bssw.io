@@ -14,6 +14,8 @@ The [Getting Git Right](https://www.atlassian.com/git) website provides a good c
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: July 24, 2019
+
 <!---
 Publish: yes
 Categories: development

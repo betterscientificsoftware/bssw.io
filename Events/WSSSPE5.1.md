@@ -17,6 +17,8 @@ WSSSPE5.1 immediately precedes and cis o-located with the [2nd RSE Conference](h
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
+#### Publication date: September 06, 2017
+
 <!---
 Publish: yes
 Categories: planning, collaboration

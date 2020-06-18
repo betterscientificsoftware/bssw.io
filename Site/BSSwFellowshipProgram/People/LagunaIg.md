@@ -20,4 +20,10 @@ Ignacio is developing tutorials on tools to debug and improve the reliability of
 
 Ignacio is a Computer Scientist at the Center for Applied Scientific Computing (CASC) at Lawrence Livermore National Laboratory (LLNL).  His main area of research is high-performance computing (HPC) and main sub-area of research in HPC is programing models and systems.
 
+### Selected resources
 
+<a href="http://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034" class="link-row">HPC Best Practices Webinar: Tools and Techniques for Floating-Point Analysis</a>
+<a href="http://fpanalysistools.org/" class="link-row">Tutorial on Floating-Point Analysis Tools</a>
+<a href="http://fpanalysistools.org/pearc19/" class="link-row">Tutorial on Floating-Point Analysis Tools Presented at PEARC19</a>
+<a href="http://fpanalysistools.org/sc19/" class="link-row">Tutorial on Floating-Point Analysis Tools Presented at SC19</a>
+<a href="http://fpanalysistools.org/LANL/" class="link-row">Tutorial on Floating-Point Analysis Tools Presented at Los Alamos National Laboratory</a>

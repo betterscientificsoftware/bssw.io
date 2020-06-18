@@ -18,7 +18,7 @@ The process of developing HPC software requires consideration of issues in softw
 For the full webinar series, see the following links: [Series: Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars)
 
 <!---
-Publish: Yes
+Publish: no
 Categories: development
 Topics: configuration and builds, release and deployment
 Tags: 

@@ -18,11 +18,13 @@ Focus | Git code management, Code collaboration
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: February 24, 2020
+
 <!---
 Publish: yes
 Categories: development
 Topics: revision control
-Tags: service, tool
+Tags: tool
 Level: 2
 Prerequisites: defaults
 Aggregate: none

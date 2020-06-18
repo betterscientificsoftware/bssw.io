@@ -19,6 +19,8 @@ Licensing is an important topic that needs attention right from the inception ti
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: July 20, 2019 
+
 <!---
 Publish: yes
 Categories: collaboration

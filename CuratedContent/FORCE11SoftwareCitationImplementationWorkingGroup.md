@@ -24,6 +24,8 @@ The *FORCE11 [Software Citation Implementation Working Group](https://www.force1
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: August 11, 2019
+
 <!---
 Publish: yes
 Categories: Collaboration

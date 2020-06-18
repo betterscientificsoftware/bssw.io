@@ -6,6 +6,8 @@ A [blog](http://blog.martinig.ch/) by the editor of an on-line magazine, Methods
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: July 19, 2019
+
 <!---
 Publish: yes
 Categories: Planning

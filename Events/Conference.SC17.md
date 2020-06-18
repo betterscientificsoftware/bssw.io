@@ -11,6 +11,8 @@ SC17 includes a variety of events related to scientific software productivity an
 
 Links to events at SC17 related to better scientific software will be posted as these are determined.
 
+#### Publication date: November 12, 2017 - November 17, 2017
+
 <!---
 Publish: yes
 Categories: planning, collaboration

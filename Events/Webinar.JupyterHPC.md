@@ -12,6 +12,8 @@ Advance [registration](https://bluewaters.ncsa.illinois.edu/webinars/registratio
 
 #### Contributed by [Maxim Belkin](https://github.com/maxim-belkin "Maxim Belkin GitHub Profile")
 
+#### Publication date: April 24, 2019
+
 <!---
 Publish: yes
 RSS update: 2019-03-29

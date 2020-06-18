@@ -9,7 +9,7 @@ Helping code teams improve their software development, productivity, and sustain
 ### An ambitious goal
 The [ECP](https://exascaleproject.org) needs to deliver a software environment and applications ready to run on exascale computers, which are scheduled to be deployed starting in 2021. Achieving this goal entails a major, large-scale software development effort.  Recognizing the challenges development teams will face, the ECP is supporting the [IDEAS Productivity project](https://ideas-productivity.org) to help scientific researchers improve their development practices.
 
-Our objective is to work with as many of the code teams as want our help (some already have excellent software development practices or are comfortable improving on their own).  We have developed a process for [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/resources/planning-for-better-software-psip-tools) that divides the process into smaller steps that are easier to implement and help realize improvements sooner through a series of iterations. The real work has to be done by the project team, but we help all along the way.  Sometimes that involves helping them analyze their situation and understanding the origins of their software development challenges.  Sometimes it is helping them learn about best practices.  And sometimes it is helping them implement such practices.
+Our objective is to work with as many of the code teams as want our help (some already have excellent software development practices or are comfortable improving on their own).  We have developed a process for [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip) that divides the process into smaller steps that are easier to implement and help realize improvements sooner through a series of iterations. The real work has to be done by the project team, but we help all along the way.  Sometimes that involves helping them analyze their situation and understanding the origins of their software development challenges.  Sometimes it is helping them learn about best practices.  And sometimes it is helping them implement such practices.
 
 <br>
 <br>
@@ -40,7 +40,7 @@ You can contribute too.  Of course, you can undertake outreach activities of you
 
 But if you don’t have the time for that, you can still help.  Do you have to topic to suggest for a future HPC Best Practices webinar?  Do you want to give a webinar?  Send us an email at <IDEASProductivity@gmail.com>.  
 
-Or become a contributor to **BSSw.io**. We're trying to make contributing as easy as possible.  If there is a resource you've found useful that's not already on BSSw, please [contribute it](https://bssw.io/contributes/new) to the site.  
+Or become a contributor to **BSSw.io**. We're trying to make contributing as easy as possible.  If there is a resource you've found useful that's not already on BSSw, please [contribute it](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software) to the site.  
 
 We also welcome additional participants in our outreach activities. You can check the IDEAS Productivity Project's [Events]( https://ideas-productivity.org/events/) page for tutorials, webinars, and other events (as well as past ones) or [subscribe to our mailing list](http://eepurl.com/cQCyJ5) (~2-3 messages per month).  And as a pre-announcement, we will be offering an expanded full-day version of our [Better Scientific Software Tutorial](https://bssw.io/events/better-scientific-software-sc17-tutorial) at SC18 in Dallas, TX.
 

@@ -25,6 +25,8 @@ See the
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall) and [Axel Huebl](https://github.com/ax3l)
 
+#### Publication date: December 19, 2019
+
 <!---
 Publish: yes
 Categories: development
@@ -32,5 +34,5 @@ Topics: documentation
 Tags: tool
 Level: 2
 Prerequisites: defaults
-Aggregate: subresource
+Aggregate: none
 --->

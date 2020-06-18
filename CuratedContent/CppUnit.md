@@ -12,6 +12,8 @@ Focus | Software Testing
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: September 05, 2019
+
 <!---
 Publish: yes
 Categories: reliability, development

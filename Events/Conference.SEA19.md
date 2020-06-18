@@ -16,6 +16,8 @@ Improving Scientific Software is the theme of this year's annual conference, org
 ### Call for Participation
 **Submission deadline: January 13, 2019**
 
+#### Publication date: April 08, 2019 - April 12, 2019
+
 <!---
 Publish: yes
 RSS update: 2018-12-20

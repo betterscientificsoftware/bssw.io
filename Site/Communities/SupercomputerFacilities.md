@@ -18,7 +18,7 @@ Performance portablity is often a significant concern for users of multiple faci
 
 ## Where do I go next?
 - **Explore** the resources below.
-- **Ivestigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Investigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
 
 <!--
 Featured resources for the Community of Supercomputer Facilities and their Users
@@ -28,8 +28,6 @@ Edit this list to change resources that appear on the front-end site.
 * [Portability Across DOE Office of Science HPC Facilities](../../CuratedContent/PortabilityAcrossDOEOfficeOfScienceHPCFacilities.md)
 
 * [Porting Codes to New Architectures](../../Articles/Blog/2018-11-messer-porting.md)
-
-* [What Is Performance Portability for CSE Applications?](../../CuratedContent/WhatIsPerfPortabilityForCseApps.md)
 
 * [How to Improve Testing for CSE Software](../../CuratedContent/HowToImproveTestingForCseSw.md)
 

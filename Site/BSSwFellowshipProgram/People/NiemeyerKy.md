@@ -20,4 +20,7 @@ Kyle is developing, condensing and focusing his 10-week course for Oregon State 
 
 Kyle E. Niemeyer is an Assistant Professor at the Oregon State University in the School of Mechanical, Industrial, and Manufacturing Engineering. He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. 
 
+### Selected resources
 
+<a href="https://kyleniemeyer.github.io/research-software-dev-modules/" class="link-row">Research Software Development Modules</a>
+<a href="https://github.com/si2-urssi/winterschool/blob/master/README.md" class="link-row">URSSI Winter School</a>

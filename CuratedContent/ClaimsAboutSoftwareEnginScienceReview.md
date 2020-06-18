@@ -15,6 +15,8 @@ The paper provides a compilation of 66 studies related to scientific software de
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
+#### Publication date: July 20, 2019 
+
 <!--- #### Publication date: June 19, 2017 --->
 
 <!---

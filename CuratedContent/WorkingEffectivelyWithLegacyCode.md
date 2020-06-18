@@ -1,6 +1,6 @@
 # Working Effectively with Legacy Code
 
-Legacy code can be challenging to work with many times. The book *Working Effectively with Legacy Code*, written by *Michael Feathers*, talks about legacy code and how to work effectively with it.
+Legacy code can be challenging to use and extend. The book *Working Effectively with Legacy Code*, written by *Michael Feathers*, talks about legacy code and how to work effectively with it.
 
 Resource information | Details 
 :--- | :--- 

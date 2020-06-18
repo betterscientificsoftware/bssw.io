@@ -16,7 +16,7 @@ Please feel free to share this survey with other research software developers an
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
-#### Publication date:  June 26, 2018
+#### Publication date: September 26, 2018 - October 31, 2018
 
 <!---
 Publish: yes

@@ -15,6 +15,8 @@ Advance registration is required through the event website.
 
 #### Contributed by [Mary Ann Leung](https://github.com/shinstitute "Mary Ann Leung GitHub Profile") and [Jeremy Melvin](https://github.com/jamelvin "Jeremy Melvin GitHub Profile") 
 
+#### Publication date: August 24, 2018
+
 <!---
 Publish: yes
 RSS update: 2018-08-20

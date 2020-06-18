@@ -6,6 +6,8 @@ My presentation from the [Argonne Training Program on Extreme-Scale Computing (A
 
 #### Contributed by [Alicia Klinvex](https://github.com/amklinv)
 
+#### Publication date: May 27, 2017
+
 <!---
 Publish: yes
 Categories: development

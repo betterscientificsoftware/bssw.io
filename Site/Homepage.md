@@ -2,23 +2,33 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
-<!---
-Prior version:
-Scientific software has emerged as an essential discipline in its own right.   Because computational models, computer architectures, and scientific software projects have become extremely complex, the Computational Science & Engineering (CSE) community now has a unique opportunity—and an implicit mandate—to address pressing challenges in scientific software productivity, quality, and sustainability. 
---->
 
 <!---
-Slide1 Left: blog_posts/flash5-refactoring-and-psip
-Slide1 Right: images/raw/master/Blog_0819_Dataviz.png
-Slide2 Left: blog_posts/building-community-through-software-policies
-Slide2 Right: images/raw/master/Blog_0819_xSDK_blueV3_sm.png
-Slide3 Left: items/bssw-site-has-a-new-integrated-content-map
-Slide3 Right: events/testing-research-software-survey
+Slide1 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
+Slide1 R: images/raw/master/Blog_0620_YAGNI.jpg
+Slide2 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
+Slide2 R: images/raw/master/Blog_032420_StoneMasonry.png
+Slide3 L: items/virtual-meeting-tools-and-features-for-the-hpc-cse-community
+Slide3 R: events/panel-virtual-onboarding-and-mentoring
+Slide4 L: blog_posts/working-remotely-the-spack-team
+Slide4 R: images/raw/master/Blog_0520_WorkRemoteSpack.png
+Slide5 L: blog_posts/blog_posts/research-software-engineer-stories
+Slide5 R: images/raw/master/Blog_042320_podcast.jpg
 --->
 
 <!---
 LCM: Saving for use again later
-SlideX Right: events/best-practices-for-hpc-software-developers-webinar-series
+
+Slide1 Left: blog_posts/scientific-software-projects-and-their-communities
+Slide 1 Right: items/resources-for-maximizing-remote-working
+Slide2 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
+Slide2 Right: images/raw/master/Blog_0320_COVID19.png
+Slide3 Left: blog_posts/spreading-ideas-about-better-scientific-software
+Slide3 Right: images/raw/master/Blog_0225_Computational.jpg
+Slide4 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
+Slide4 Right: images/raw/master/Blog_0120_PSIP_logo.png
+Slide5 Left: items/finalizing-your-julia-package
+Slide5 Right: events/webinar-best-practices-for-using-proxy-applications-as-benchmarks
 --->
 
 <!---

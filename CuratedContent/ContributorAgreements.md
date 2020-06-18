@@ -18,6 +18,8 @@ Contributor agreements are a way of managing a variety of legal issues associate
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: July 20, 2019 
+
 <!---
 Publish: yes
 Categories: collaboration

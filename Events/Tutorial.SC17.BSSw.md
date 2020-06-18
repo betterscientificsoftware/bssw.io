@@ -10,6 +10,8 @@ This is a tutorial session at the SC17 conference.
 
 This tutorial will provide information and hands-on experience with software practices, processes, and tools explicitly tailored for CSE. Goals are improving the productivity of those who develop CSE software and increasing the sustainability of software artifacts. We discuss practices that are relevant for projects of all sizes, with emphasis on small teams, and on aggregate teams composed of small teams. Topics include software licensing, effective models, tools, and processes for small teams (including agile workflow management), reproducibility, and scientific software testing (including automated testing and continuous integration).
 
+#### Publication date: November 13, 2017
+
 <!---
 Publish: yes
 Categories: development, Collaboration

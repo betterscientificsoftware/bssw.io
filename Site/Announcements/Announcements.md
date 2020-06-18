@@ -1,10 +1,39 @@
 # BSSw Announcements
 
 Announcement:
-- [Applications open for the 2020 BSSw Fellowship Program ... Q&A webinar on Sept 20, 2019](../../Articles/Blog/BSSwFellowshipApplicationsOpen2019.md)
-- Display dates: 09/03/2019 - 09/16/2019
+- [Call for Contributions: 2020 Collegeville Workshop on Scientific Software: Developer Productivity](../../Events/Collegeville2020.md)
+- Display dates: 05/29/2020 - 06/30/2020
 
-<!---
+<!--
+- [Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
+- Display dates: 03/15/2020 - 05/30/2020
+
+- [New blog article ... Cleaning your work surfaces: One way to help flatten the curve](../../Articles/Blog/Covid19WorkstationCleanliness-wikized.md)
+- Display dates: 03/15/2020 - 03/30/2020
+
+- Display dates: 01/31/2020 - 02/19/2020
+
+- [Webinar: Introduction to Kokkos](../../Events/hpcbp-037-kokkos.md)
+- Display dates: 01/19/2020 - 02/19/2020
+
+- [New blog article ... US Research Software Engineer (US-RSE) Association](../../Articles/Blog/2020-01-usrse.md)
+- Display dates: 01/17/2020 - 01/31/2020
+
+- [Better Scientific Software: 2019 Highlights](../../Articles/Blog/BSSwHighlights2019.md)
+- Display dates: 01/03/2020 - 01/28/2020
+
+- [Webinar: Building Community through xSDK Software Policies ... Join us on December 11](../../Events/hpcbp-035-policies.md)
+- Display dates: 11/25/2019 - 12/12/2019
+
+- [Events at SC19 related to producing better scientific software ... Please join us there!](../../Events/SC19-sw-events.md)
+- Display dates: 10/16/2019 - 11/25/2019
+
+- [Applications Open for 2020 BSSw Fellowship Program ... Submission deadline October 15, 2019](../../Articles/Blog/BSSwFellowshipApplicationsOpen2019.md)
+- Display dates: 09/24/2019 - 10/15/2019
+
+- [Applications Open for 2020 BSSw Fellowship Program ... Q&A Webinar on Sept 20, 2019](../../Articles/Blog/BSSwFellowshipApplicationsOpen2019.md)
+- Display dates: 09/04/2019 - 09/21/2019
+
 - [New blog article ... FLASH5 Refactoring and PSIP](../../Articles/Blog/FlashPsipProcess.md)
 - Display dates: 08/27/2019 - 09/16/2019
 
@@ -124,25 +153,10 @@ Announcement:
 
 - [Pending BSSw Site Launch at SC17 2017](../../Articles/Blog/PendingBSSwSiteLaunchNov2017.md)
 - Display dates: 09/27/2017 - 11/12/2017
---->
 
-<!---
-Announcement:
-- [Blog post: Improve user confidence in your software updates](../../Articles/Blog/ImproveUserConfidenceInSwUpdates.md)
-- Display dates: 04/12/2017 - 04/16/2017
-- Display dates: 04/29/2017 - 10/04/2017
---->
+-->
 
-<!---
-Announcement:
-- [Scientific Software Days Conference, April 27-28, 2017](../../Events/Conference.ScientificSoftwareDays17.md)
-- Display dates: 04/19/2017 - 10/28/2017
---->
-
-<!--- Notes:
+<!-- Notes:
 - Listing more than one announcement breaks the vehicle. If you choose to promote your announcement over an existing one, please comment out the previous to make it clear what you've replaced
-- No announcement scheduled for 4/17/2017 - 4-18/2017 (as an example of days when no announcements are to be posted)
-- Support multiple display date ranges for each announcement
 - Question: Max length of announcement text?
-- Separate announcement files by year
---->
+-->

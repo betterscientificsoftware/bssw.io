@@ -16,6 +16,8 @@ This tutorial was presented at [SIAM CSE17: CSE Collaboration through Software: 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
+#### Publication date: July 24, 2019
+
 <!---
 Publish: yes
 Categories: collaboration

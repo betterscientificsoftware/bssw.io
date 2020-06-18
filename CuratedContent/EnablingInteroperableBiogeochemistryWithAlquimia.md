@@ -14,6 +14,8 @@ The complexity and importance of biogeochemistry make it an excellent target for
 
 #### Contributed by [David Moulton](https://github.com/jd-moulton "David Moulton")
 
+#### Publication date: July 23, 2019
+
 <!---
 Publish: yes
 Categories: Planning

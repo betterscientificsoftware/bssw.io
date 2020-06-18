@@ -12,6 +12,8 @@ The BoF attendees will help develop an international “community of practice”
 
 We will identify strategies for ongoing efforts to inform, engage, and benefit the community and thereby advance the HPC software ecosystem.
 
+#### Publication date: November 14, 2017
+
 <!---
 Publish: yes
 Categories: development, Collaboration

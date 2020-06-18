@@ -19,6 +19,8 @@ This tutorial is held in conjuction with the [2018 IEEE International Conference
 
 #### Contributed by [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile")
 
+#### Publication date: October 29, 2018
+
 <!---
 Publish: yes
 RSS update: 2018-07-27

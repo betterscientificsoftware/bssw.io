@@ -44,6 +44,8 @@ Listed below are some of the popular online learning sites. You can get started 
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
 
+#### Publication date: August 01, 2019
+
 <!---
 Publish: yes
 Categories: skills

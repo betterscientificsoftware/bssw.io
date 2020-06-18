@@ -16,6 +16,8 @@ control system (see [What Is Version Control?](WhatIsVersionControl.md)).
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 
+#### Publication date: December 19, 2019
+
 <!---
 Publish: yes
 Categories: development
@@ -23,5 +25,5 @@ Topics: documentation
 Tags: service, tool
 Level: 2
 Prerequisites: defaults
-Aggregate: subresource
+Aggregate: none
 --->

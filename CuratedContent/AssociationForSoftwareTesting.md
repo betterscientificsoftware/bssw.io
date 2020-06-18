@@ -19,6 +19,8 @@ The *[Association for Software Testing (AST)](https://www.associationforsoftware
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
+#### Publication date: September 05, 2019
+
 <!---
 Publish: yes
 Categories: collaboration

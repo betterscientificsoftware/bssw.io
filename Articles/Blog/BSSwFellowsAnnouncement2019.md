@@ -75,7 +75,7 @@ The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to
 Stay tuned for more from the 2019 BSSw Fellows. 
 
 ### Contribute to the BSSw Site
-Also, we want and need contributions from the international community for the BSSw site.  If you have expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/contributes/new).
+Also, we want and need contributions from the international community for the BSSw site.  If you have expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).
 
 <!---
 Publish: yes

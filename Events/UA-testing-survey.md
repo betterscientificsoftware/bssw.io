@@ -22,7 +22,7 @@ Here is the link of the survey - <https://universityofalabama.az1.qualtrics.com/
 
 #### Contributed by [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile")
 
-#### Publication date:  August 27, 2019
+#### Publication date:  August 27, 2019 - September 30, 2019
 
 <!---
 Publish: yes

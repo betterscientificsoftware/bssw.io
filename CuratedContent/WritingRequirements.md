@@ -41,6 +41,8 @@ Thus, its important for requirements to be clearly defined, be un-ambiguous and 
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
 
+#### Publication date:  July 21, 2019
+
 <!---
 Publish: yes
 Categories: Planning

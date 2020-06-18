@@ -13,6 +13,8 @@ This [HowTo doc](https://ideas-productivity.org/wordpress/wp-content/uploads/201
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
+#### Publication date: August 06, 2019
+
 <!---
 Publish: yes
 Categories: development

@@ -11,6 +11,8 @@ Web links | [Podcast link at InfoQ](https://www.infoq.com/podcasts/matt-sakaguch
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
 
+#### Publication date: August 06, 2019
+
 <!---
 Publish: yes
 Categories: collaboration

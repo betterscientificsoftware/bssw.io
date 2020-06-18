@@ -12,6 +12,8 @@ Advance [registration](https://bluewaters.ncsa.illinois.edu/webinars/registratio
 
 #### Contributed by [Scott Lathrop](https://github.com/scottlathrop "Scott Lathrop GitHub Profile") and [Maxim Belkin](https://github.com/maxim-belkin "Maxim Belkin GitHub Profile")
 
+#### Publication date: March 27, 2019
+
 <!---
 Publish: yes
 RSS update: 2019-02-28

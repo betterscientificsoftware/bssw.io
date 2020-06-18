@@ -61,6 +61,8 @@ because of the different implementations of thread pools.
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
+#### Publication date: July 20, 2019
+
 <!---
 Publish: yes
 Categories: performance

@@ -20,6 +20,8 @@ Below you will find some resources for a Transmedia Learning Framework for Git a
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn") 
 
+#### Publication date: July 19, 2019
+
 <!---
 Publish: yes
 Categories: skills, development

@@ -1,11 +1,62 @@
 # A Style Guide for BSSw content
-This is a work-in-progress style guide for all content that goes on the BSSw site. 
 
-Please note that the word "Content" and "Resource" may be used interchangeably in this document.
+<!-- this is manual table of contents. We need a better way to write one. This is a good tool: https://ecotrust-canada.github.io/markdown-toc/) -->
+- [A Style Guide for BSSw content](#a-style-guide-for-bssw-content)
+  * [Background](#background)
+  * [Where to place your content in Github repo?](#where-to-place-your-content-in-github-repo-)
+  * [Naming your content in Github repo](#naming-your-content-in-github-repo)
+  * [Common Layout of All Resources](#common-layout-of-all-resources)
+    + [Content Title](#content-title)
+    + [Content Deck](#content-deck)
+    + [Content Description:](#content-description-)
+    + [Contributor name](#contributor-name)
+    + [Metadata](#metadata)
+  * [Styling Rules for Individual Content Type](#styling-rules-for-individual-content-type)
+    + [Curated Content:](#curated-content-)
+      - [Title](#title)
+      - [Deck](#deck)
+      - [Table](#table)
+          + [Book](#book)
+          + [Course](#course)
+          + [Organization](#organization)
+          + [Podcast](#podcast)
+          + [Publication](#publication)
+          + [Tutorial](#tutorial)
+          + [Webinar](#webinar)
+          + [Website](#website)
+          + [Web article](#web-article)
+          + [Notes on tables](#notes-on-tables)
+      - [Body text](#body-text)
+      - [Logo](#logo)
+      - [References](#references)
+    + [Original Article](#original-article)
+    + [Blog Articles](#blog-articles)
+      - [Publication and Announcements](#publication-and-announcements)
+      - [Length](#length)
+      - [Source Format](#source-format)
+        * [Detailed Formatting Tips](#detailed-formatting-tips)
+      - [Employer Approval](#employer-approval)
+      - [Content](#content)
+        * [General](#general)
+        * [Links, and References](#links--and-references)
+        * [Images](#images)
+    + [Events](#events)
+  * [Understanding Metadata](#understanding-metadata)
+      - [Publish](#publish)
+      - [Categories](#categories)
+      - [Topics](#topics)
+      - [Tags](#tags)
+      - [Level](#level)
+      - [Prerequisites](#prerequisites)
+      - [Aggregate](#aggregate)
 
 ## Background
 
+This is a work-in-progress style guide for all content that goes on the BSSw site. 
+
 The [betterscientificsoftware.github.io](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) repository is for collaborative content development on general topics related to [developer productivity](Site/Categories/Topics/WhatIsProductivity.md) and [software sustainability](Site/Categories/Topics/WhatIsSustainability.md). Please also see information on [How to Contribute](HowToContribute.md).
+
+Please note that the word "Content" and "Resource" may be used interchangeably in this document.
 
 To start with, see details on [What to Contribute](WhatToContribute.md).  Please note that resources/content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article.
 
@@ -23,7 +74,7 @@ Following are the guidelines below for naming resources/contents and their files
 ## Naming your content in Github repo
 This section talks about how to name the ".md" file that is put in Github for ANY type of content/resource. Most points have been taken from the original [Styleguide.md](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/StyleGuide.md) file, present in the main betterscientificsoftware.github.io repo.
 
-For naming a content i.e. creating a filename, please follow the following rules rules: Filename should be same as resource/content name, adding the suffix ".md" to indicate a Markdown file
+For naming a content i.e. creating a filename, please follow the following rules: Filename should be same as resource/content name, adding the suffix ".md" to indicate a Markdown file
 
 - For curated content: Follow name of content (e.g., title of book, article, event, site)
 - No spaces
@@ -46,7 +97,7 @@ All resources have the following sections, in common:
 A Content title should be simple and straighforward. Please read *Styling Rules* for individual types of content (below) to see if there are any specific guidelines for each content type.
 
 ### Content Deck
-A Content deck is a one or two sentence resource description of limited length and whichappears in header area of articles on the frontend bssw.io site. Please read *Styling Rules* for individual types of content (below) to see if there are any specific guidelines for each content type.
+A Content deck is a one or two sentence resource description of limited length and which appears in header area of articles on the frontend bssw.io site. Please read *Styling Rules* for individual types of content (below) to see if there are any specific guidelines for each content type.
 
 ### Content Description:
 This is the main body, explaining the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *Styling Rules* for individual types of content described later in the article.
@@ -159,7 +210,7 @@ Many times, a curated article may have a collection of various types of resource
 1. Contains one or more paragraph about the resource.
 2. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
 3. Its good for body text to go into details of why the resource is interesting and to what audience. 
-4. This text should not be a copy-paste from a website. Rather, please write this in your onwards to avoid legal issues
+4. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
 
 #### Logo
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
@@ -172,6 +223,50 @@ What are rules for these?
 
 ### Original Article
 There is a style guide for blogs in the main bssw directory called "StyleGuideBlog.md". This needs to be reviewed, applicable parts need to be put in this document and refined further
+
+------------------
+### Blog Articles
+
+All text under blog articles is taken from the old blog guide. The text needs to be reviewed and corrected.
+
+#### Publication and Announcements
+Blog articles appear here: https://bssw.io/blog_posts and also are announced on the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) (monthly).
+
+#### Length
+General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
+
+#### Source Format
+We use [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for blog article markup.  However we'll work with you at accept other formats.
+
+A skeleton Markdown template for a blog article, which you can copy and customize is available at https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md
+
+You can provide a pull request for the article in the appropriate directory of the repository: https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Articles/Blog
+
+If you prefer to use another format, you can email the draft to the editor you've been dealing with.
+
+##### Detailed Formatting Tips
+ - The formatting to include a hero image is a bit finicky.
+   - The `**Hero Image:**` tag must be followed by a blank line
+   - The image itself must be in a Markdown list item (that is, it starts with `-`)
+ - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter
+ - Having a deck and having a hero image in a blog post are mutually exclusive
+   - A way to approximate having both is to have the hero image and then put the deck as your first (short) paragraph after the image and italicize it.
+ - `#### Publication date:` is case sensitive (`d` in particular)
+
+#### Employer Approval
+If your employer requires an internal review and approval process prior to publication, please let us know.
+
+#### Content
+##### General
+
+*Need to say something here*
+
+##### Links, and References
+We encourage you to point to a modest numder of additional resources that enhance your article.  Too many links tend to distract readers.  In most cases, we would like to have the items you refer to in BSSw.  These would usually be what we call "curated content", which means short items that provide a pointer to an extenral resource with a short description.  You're welcome to prepate those as separate contributions, and we're happy to help.
+
+##### Images
+*Need to say something about what kind of images we want to encourage/discourage and point to writeup of how to deal with images in the other repo.*
+
 
 ### Events
 Is there an existing style guide for events? I did not find any.
@@ -188,13 +283,15 @@ For all content types, we have the following meta-data that needs to be put, at 
 
 Each aspect of metadata is described below.
 
-#### Publish: Publish on the BSSw front-end site?
+#### Publish
+This is used to Publish on the BSSw front-end site.
 - Publish: Yes
 - Publish: No
 
 Only files designated as 'Publish: Yes' will be published on the front-end BSSw site.  Work that has not been finalized or is not intended for the front-end site should be designated 'Publish: No'. *ISNT THERE A PREVIEW OPTION, AS WELL?*
 
-#### Categories: Primary display via BSSw website interface
+#### Categories
+Categories are primaily display via BSSw website interface.
 [BSSw curators may add/revise topics as needed over time.]
 - Planning
 - Development
@@ -203,7 +300,8 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
 - Collaboration
 - Skills
 
-#### Topics: Visible filters via BSSw website interface
+#### Topics
+Topics are visible filters via BSSw website interface.
 - All categories and also finer grain topics within categories
   [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
 - **Planning**
@@ -239,25 +337,29 @@ Only files designated as 'Publish: Yes' will be published on the front-end BSSw 
     - Personal productivity and sustainability
     - Online learning
 
-#### Tags: Optional additional keywords for searches
+#### Tags
+Tags are optional additional keywords for searches
 *This needs to be described better. Its not clear to me how we are using this*
 - We currently do not use them for on front-end website. 
 
-#### Level: Specify level of detail and depth of content
+#### Level
+We specify level of detail and depth of content.
 *This needs to be described better. Its not clear to me how we are using this*
 - **Level 0**:  BSSw WhatIs document
 - **Level 1**:  BSSw HowTo document (or equivalent level of detail)
 - **Level 2**:  More detailed content, beginner or intermediate levels
 - **Level 3**:  Advanced content
 
-#### Prerequisites: Specify files for any assumed knowledge on the BSSw site (usually Level 0 and Level1 BSSw docs)
+#### Prerequisites
+Used to specify files for any assumed knowledge on the BSSw site (usually Level 0 and Level1 BSSw docs)/
 *This needs to be described better. Its not clear to me how we are using this*
 - Most prerequisites are specified automatically according to Topics. In this case, use:
    - Prerequisites: default
 - Specify additional prerequisites only for information not already covered by Topics.
    - Prerequisites: filename1.md, filename2.md, etc.
 
-#### Aggregate: Optional info for aggregating content to define a more complex resource
+#### Aggregate
+This is optional info for aggregating content to define a more complex resource.
 *This needs to be described better. Its not clear to me how we are using this*
  - Aggregate: none
    - Note an aggregate resource

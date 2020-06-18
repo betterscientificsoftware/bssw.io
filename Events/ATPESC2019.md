@@ -25,10 +25,12 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 * Data analysis, visualization, and methodologies and tools for Big Data applications
 * Approaches to building community codes for HPC systems
 
+#### Publication date: March 04, 2019
+
 <!---
 Publish: yes
 Categories: skills, performance 
-Topics: training, High-performance computing (HPC), Performance at Leadership Computing Facilities
+Topics: online learning, High-performance computing (HPC), Performance at Leadership Computing Facilities
 Tags: fellowship
 Level: 2
 Prerequisites: none

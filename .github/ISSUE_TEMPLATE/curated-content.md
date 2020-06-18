@@ -1,11 +1,12 @@
 ---
 name: Curated Content
 about: A brief article that highlights another resource and outlines why the HPC/CSE community may value it.  
-title: Possible Curated Content
 labels: curated content ideas
 ---
 
 To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete them entirely from the body of this issue before entering your submission.
+
+To understand various content types that are eligible for submission, visit the [What to contribute](http://bssw.io/pages/what-to-contribute-content-for-better-scientific-software) page on the [BSSw website](http://bssw.io)
 
 A curated content submission is a short submission of a couple of paragraphs highlighting an existing resource.
 Please provide the following information

@@ -18,6 +18,8 @@ Users very frequently choose to write documentation in the source code itself. *
 
 #### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 
+#### Publication date: December 19, 2019
+
 <!---
 Publish: yes
 Categories: development
@@ -25,5 +27,5 @@ Topics: documentation
 Tags: tool
 Level: 2
 Prerequisites: defaults
-Aggregate: subresource
+Aggregate: none
 --->

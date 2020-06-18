@@ -191,6 +191,11 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
             outlines.append("<a name=\"ref%d\"></a>%d | [%s %s](%s)\n"%(k, k, v[0], v[2], v[1]))
 
     #
+    # make sure to leave a blank line between table above and warning_msg comment
+    #
+    outlines.append("\n")
+
+    #
     # write warning comment about this being auto-generated
     #
     outlines.append(warning_msg(mdfile))
