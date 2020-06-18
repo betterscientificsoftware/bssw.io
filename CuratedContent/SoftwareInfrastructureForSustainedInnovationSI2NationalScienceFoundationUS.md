@@ -1,6 +1,14 @@
 # Software Infrastructure for Sustained Innovation (SI2) — National Science Foundation (US)
 
-[Software Infrastructure for Sustained Innovation (SI2)](http://nsf.gov/si2) is a cross-foundation program, which is expected to generate and nurture the interdisciplinary processes required to support the entire software lifecycle, and will successfully integrate software development and support with innovation and research. SI2 envisions vibrant partnerships among academia, government laboratories and industry, including international entities, for the development and stewardship of a sustainable software infrastructure that can enhance productivity and accelerate innovation in science and engineering. SI2 projects should be conceived of and executed as part of the broad cyberinfrastructure context.
+*[Software Infrastructure for Sustained Innovation (SI2)](http://nsf.gov/si2)* is a cross-foundation program, which is expected to generate and nurture the interdisciplinary processes required to support the entire software lifecycle, and will successfully integrate software development and support with innovation and research. 
+
+Resource information | Details 
+:--- | :--- 
+Resource name | Software Infrastruction for Sustained Innovation 
+Website | http://nsf.gov/si2
+Focus | Software development and engineering
+
+SI2 envisions vibrant partnerships among academia, government laboratories and industry, including international entities, for the development and stewardship of a sustainable software infrastructure that can enhance productivity and accelerate innovation in science and engineering. SI2 projects should be conceived of and executed as part of the broad cyberinfrastructure context.
 
 The SI2 program includes four classes of awards:
 1. Scientific Software Elements (SSE): SSE awards are Software Elements. They target small groups that will create and deploy robust software elements for which there is a demonstrated need that will advance one or more significant areas of science and engineering.
