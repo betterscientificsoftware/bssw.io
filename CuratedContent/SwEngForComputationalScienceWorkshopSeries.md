@@ -1,8 +1,14 @@
 # Software Engineering for Computational Science Workshop Series
 
-[http://se4science.org/workshops/](http://se4science.org/workshops/)
+Are you looking for more resources regarding computational science? This site provides a series of software engineering workshops focused on computational science (and HPC).
 
-A series of software engineering workshops focused on computational science (and HPC).
+Resource information | Details 
+:--- | :--- 
+Resource name | Software Engineering for Computational Science Workshop Series
+Website | [http://se4science.org/workshops/](http://se4science.org/workshops/)
+Focus | Computational science
+
+This main page provides links to software engineering workshops from 2007 to 2020. Each page provides archived data for individual workshops. 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
 
