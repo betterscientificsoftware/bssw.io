@@ -1,15 +1,17 @@
-#### Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
-
-**Venue:** [SIAM CSE17](https://www.siam.org/meetings/cse17/), March 1, 2017
-
-**Organizers:**  David Bernholdt (ORNL), Mike Heroux (SNL), Dan Katz (University of Illinois), Anders Logg (Chalmers University of Technology), Lois Curfman McInnes (ANL)
-
-**Abstract:** Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community.
+# Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
 
 The minisymposium speakers and poster presenters discuss work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby is helping software to fulfill its critical role as a cornerstone of long-term CSE collaboration.
 
-- Minisymposium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947
-- Slides for 8 presentations: https://doi.org/10.6084/m9.figshare.c.3705946
+Resource information | Details
+:--- | :--- 
+Resource Name  | SIAM CSE17
+Websites | [Software Productivity and Sustainability for CSE and Data Science - Part I of II](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947), [Minisymposterium: Software Productivity and Sustainability for CSE and Data Science](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022)
+Focus | Software productivity, quality, and sustainability
+
+The Minisymposium and Minisymposterium listed above as a part of *[SIAM CSE17](https://www.siam.org/meetings/cse17/)*, took place on *March 1, 2017*. Both focus on the importance of software in CSE collaboration. Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community.
+
+### *[Software Productivity and Sustainability for CSE and Data Science - Part I of II](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947)*
+- [Slides for 8 presentations](https://doi.org/10.6084/m9.figshare.c.3705946)
   - _CSE Software Ecosystems: Critical Instruments for Scientific Discovery_ (introduction to session)
   - _Data Skills and Software Training to Enable Data-Driven Discovery_
   - _The Research Software Engineer: An Emerging New Role in Academia in the UK_
@@ -18,9 +20,8 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
   - _Role of the Molecular Science Software Institute Toward Sustainable Software_
   - _What We Have Learned About Using Software Engineering Practices in Scientific Software_
 
-- Minisymposterium URL: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022
-- Posters (29 total): https://doi.org/10.6084/m9.figshare.c.3703771
-
+### *[Minisymposterium: Software Productivity and Sustainability for CSE and Data Science](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022)*
+- [Posters (29 total)](https://doi.org/10.6084/m9.figshare.c.3703771)
   - _Accelerating Application Software Development Through Software Productivity and Sustainability Plans_
   - _The Application of Tribits to the Development and Integration Processes of Larger Componentized Multi-Organization Scientific and Engineering Software Projects_
   - _CSE Complete: R&D for Productivity Improvement_
@@ -51,6 +52,10 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
   - _World SpatioTemporal Analytics & Mapping Project (WSTAMP): Cloud Implementation of Open Source Algorithms and Data Stores for Sustainable, Scalable Analysis of Space-Time Data_
   - _xSDK: Working toward a Community CSE Software Ecosystem_
 
+
+**Contributed by:**
+
+**Publication date:**
 
 <!---
 Publish: yes
