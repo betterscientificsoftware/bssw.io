@@ -32,6 +32,26 @@ It seems that some example for the metadata that we need in articles used a thre
 * We don't seem to support images which are themselves links to other things (like maybe the same image at higher res)
 * Left, right, center positioning of images is not supported (though non-essential also)
 
+## GFM automatic anchors do not work
+
+In GitHub Flavored Markdown (GFM) (actually all markdown implementations I think), there are automatically defined *anchors* for major section headings. In GFM, it is headings level 1 through 6. So, if you have the following markdown...
+
+```
+### My cool section heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta eu metus vitae 
+viverra. In odio sem, pharetra at volutpat ut, fermentum eleifend lacus. Mauris dictum
+laoreet augue ac blandit...
+```
+
+and you want to link to that section, you can do so using `[link text](#my-cool-section-heading)`.
+For example, [this link](#only-two-levels-of-nested-lists-are-supported) takes you to an earlier
+section of this document.
+
+However, this does not work on the forward facing site. This caused Rinku to have to go add those
+anchors *manually* everywhere in the [Telecom Tools](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/TelecomToolsForRemoteWork.md) document
+
+
 <!---
 Publish: No
 ---!>
