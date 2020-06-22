@@ -2,7 +2,7 @@
 
 #### Contributed by [Greg Watson](https://github.com/jarrah42)
 
- #### Publication date: June 22, 2020
+#### Publication date: June 22, 2020
  
 The paper titled *Methodological Irregularities in Programming-Language Research* discusses whether we need rigorous empirical methodologies to understand the impact of changes to underlying programming languages that power scientific software.
 
