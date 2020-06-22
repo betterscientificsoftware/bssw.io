@@ -1,21 +1,23 @@
 # Lack of Evidence In Software Engineering
 
-What makes one programming language better than another? What features in a programming language make
-it more productive for software development? These are fundamental questions when deciding what language
-to develop your application in, but according to an article in IEEE Computer, "... [a review] of the evidence standards 
-of research presented at the International Conference on Functional Programming from its founding in 1996 to 2014 found that 
-not one study followed methodological guidelines... Nevertheless, this research community has vehemently 
-and successfully argued for the inclusion of functional features in popular programming languages such as Java, C++, 
-and Snap!"
+The paper titled *Methodological Irregularities in Programming-Language Research* discusses whether we need rigorous empirical methodologies to understand impact of changes to underlying programming languages that power scientific software.
+
+Resource information | Details
+:--- | :--- 
+Paper title  | Methodological Irregularities in Programming-Language Research
+Authors | Andreas Stefik and Stefan Hanenberg
+Publication | Year 2017, IEEE Computer, Volumee 50, Issue 8, [DOI: 10.1109/MC.2017.3001257](https://ieeexplore.ieee.org/document/7999115)
+
+
+What makes one programming language better than another? What features in a programming language make it more productive for software development? These are fundamental questions when deciding what language to develop your application in. However,  the article *Methodological Irregularities in Programming-Language Research* in IEEE Computer states that a review of the 
+evidence standards of the research in programming language design (as presented at the International Conference on Functional Programming) found that methodological guidelines are usually not followed to provide empirically verified benefits of new features in programming languages. Nevertheless, the research community continues to successfully argue for the inclusion of functional features in popular programming languages such as Java, C++, and Snap."
+
+The scientific method is the cornerstone that underpins how science leads to the advancement of human knowledge. Yet rigorous empirical methods, such as double-blind randomized control trials, have not been extensively used to evaluate the benefits of programming language features. Considering the impact that software has on our society, addressing this deficiency should be a priority.
 
  #### Contributed by [Greg Watson](https://github.com/jarrah42)
 
  #### Publication date: August 1, 2017
 
- Resource information | Details 
- :--- | :--- 
- Resource name  | Methodological Irregularities in Programming-Language Research
- Website  | [IEEE Computer](https://ieeexplore.ieee.org/document/7999115)
 
  <!---
  Publish: no
