@@ -14,7 +14,7 @@ In addition, the US Exascale Computing Project has already announced that two ou
 <br>
 <br>
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='ginkgo_overview.png' class='page' /><p class='caption'>Figure 1. Ginkgo's software design separates the high-level algorithms from the hardware-specific kernel implementations.</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/ginkgo_overview.png' class='page' /><p class='caption'>Figure 1. Ginkgo's software design separates the high-level algorithms from the hardware-specific kernel implementations.</p>
 </p>
 <br>
 
@@ -27,14 +27,14 @@ In an effort to make porting CUDA code to the HIP ecosystem as painless as possi
 <br>
 <br>
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='cooperative_groups.png' class='page' /><p class='caption'>Figure 2. Performance of Ginkgo's cross-platform cooperative group implementation (Coop) in comparison with NVIDIA's legacy implementation on the NVIDIA V100 GPU.</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/cooperative_groups.png' class='page' /><p class='caption'>Figure 2. Performance of Ginkgo's cross-platform cooperative group implementation (Coop) in comparison with NVIDIA's legacy implementation on the NVIDIA V100 GPU.</p>
 </p>
 <br>
 
 <br>
 <br>
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='cuda_vs_hip.png' class='page' /><p class='caption'>Figure 3. Kernel syntax and kernel launch syntax for CUDA (left) and HIP (right).</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/cuda_vs_hip.png' class='page' /><p class='caption'>Figure 3. Kernel syntax and kernel launch syntax for CUDA (left) and HIP (right).</p>
 </p>
 <br>
 
@@ -58,7 +58,7 @@ launches including the templated kernels of the ''common'' code. Only if a kerne
 <br>
 <br>
 <!--- Image to illustrate the Software Development Cycle --->
-<img src='ginkgo_reorganization.png' class='page' /><p class='caption'>Figure 4. Reorganizing Ginkgo's codebase to avoid code duplication.</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/ginkgo_reorganization.png' class='page' /><p class='caption'>Figure 4. Reorganizing Ginkgo's codebase to avoid code duplication.</p>
 </p>
 <br>
 
@@ -68,7 +68,7 @@ As previously mentioned, the HIP ecosystem enables one to compile for both AMD G
 <br>
 <br>
 <!--- Image to illustrate HIP's performance portability --->
-<img src='hip_portability.png' class='page' /><p class='caption'>Figure 5. Performance of Ginkgo's HIP back end (compiled for NVIDIA architectures) vs. Ginkgo's native CUDA back end on NVIDIA's V100 GPU.</p>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/hip_portability.png' class='page' /><p class='caption'>Figure 5. Performance of Ginkgo's HIP back end (compiled for NVIDIA architectures) vs. Ginkgo's native CUDA back end on NVIDIA's V100 GPU.</p>
 </p>
 <br>
 
