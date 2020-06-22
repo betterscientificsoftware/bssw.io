@@ -1,7 +1,10 @@
 # Lack of Evidence In Software Engineering
 
-The paper titled *Methodological Irregularities in Programming-Language Research* discusses whether we need rigorous empirical methodologies to understand the impact of changes to underlying programming languages that power scientific software.
+#### Contributed by [Greg Watson](https://github.com/jarrah42)
 
+ #### Publication date: June 22, 2020
+ 
+The paper titled *Methodological Irregularities in Programming-Language Research* discusses whether we need rigorous empirical methodologies to understand the impact of changes to underlying programming languages that power scientific software.
 
 Resource information | Details
 :--- | :--- 
@@ -15,16 +18,13 @@ evidence standards of the research in programming language design (as presented 
 
 The scientific method is the cornerstone that underpins how science leads to the advancement of human knowledge. Yet rigorous empirical methods, such as double-blind randomized control trials, have not been extensively used to evaluate the benefits of programming language features. Considering the impact that software has on our society, addressing this deficiency should be a priority.
 
- #### Contributed by [Greg Watson](https://github.com/jarrah42)
-
- #### Publication date: June 22, 2020
-
-
- <!---
- Publish: yes
- Categories: Better Development 
- Topics: Programming languages
- Level: 2
- Prerequisites: none
- Aggregate: none
- --->
+ 
+ 
+<!---
+Publish: yes
+Categories: Development 
+Topics: Programming languages
+Level: 2
+Prerequisites: none
+Aggregate: none
+--->
