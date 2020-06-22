@@ -85,7 +85,7 @@ language</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_langu
 
 
 <!---
-Publish: yes
+Publish: preview
 RSS Update: 2019-08-27
 Categories: development
 Topics: testing, design
