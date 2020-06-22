@@ -16,12 +16,12 @@ The scientific method is the cornerstone that underpins how science leads to the
 
  #### Contributed by [Greg Watson](https://github.com/jarrah42)
 
- #### Publication date: August 1, 2017
+ #### Publication date: June 22, 2020
 
 
  <!---
- Publish: no
- Categories: Development 
+ Publish: yes
+ Categories: Better Development 
  Topics: Programming languages
  Level: 2
  Prerequisites: none
