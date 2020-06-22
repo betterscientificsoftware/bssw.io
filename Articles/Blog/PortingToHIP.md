@@ -73,7 +73,7 @@ As previously mentioned, the HIP ecosystem enables one to compile for both AMD G
 <br>
 
 ### Further Reading and References
-Tsai et al.: [<i>Preparing Ginkgo for AMD GPUs -- A Testimonial on Porting CUDA Code to HIP</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/PortingToHip.pdf)<br>
+Tsai et al.: [<i>Preparing Ginkgo for AMD GPUs -- A Testimonial on Porting CUDA Code to HIP</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/PortingToHip.pdf) (preprint, submitted to HeteroPar 2020)<br>
 AMD: [<i>HIP Porting Guide</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-porting-guide.html)<br>
 AMD: [<i>HIP kernel
 language</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_language.html#kernel-language)
