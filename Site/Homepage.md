@@ -8,7 +8,7 @@ Slide1 L: blog_posts/the-lazy-approach-to-developing-scientific-research-softwar
 Slide1 R: images/raw/master/Blog_0620_YAGNI.jpg
 Slide2 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
 Slide2 R: images/raw/master/Blog_032420_StoneMasonry.png
-Slide3 L: events/webinar-whats-new-in-spack
+Slide3 L: events/webinar-what-s-new-in-spack
 Slide3 R: events/panel-virtual-onboarding-and-mentoring
 Slide4 L: blog_posts/working-remotely-the-spack-team
 Slide4 R: images/raw/master/Blog_0520_WorkRemoteSpack.png
