@@ -51,10 +51,10 @@ As mentioned, the HIP ecosystem enables one to compile for both AMD GPUs and NVI
 [Figure 5. Performance of Ginkgo's HIP backend (compiled for NVIDIA architectures) vs. Ginkgo's native CUDA backend on NVIDIA's V100 GPU.]<img src='https://github.com/betterscientificsoftware/images/raw/master/hip_portability.png' class='page lightbox' />
 
 ### Further Reading and References
-<p class="link-row">Tsai et al.: [<i>Preparing Ginkgo for AMD GPUs -- A Testimonial on Porting CUDA Code to HIP</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/PortingToHip.pdf) (preprint, submitted to HeteroPar 2020)</p>
-<p class="link-row">AMD: [<i>HIP Porting Guide</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-porting-guide.html)</p>
-<p class="link-row">AMD: [<i>HIP kernel
-language</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_language.html#kernel-language)</p>
+- Tsai et al.: [<i>Preparing Ginkgo for AMD GPUs -- A Testimonial on Porting CUDA Code to HIP</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/PortingToHip.pdf) (preprint, submitted to HeteroPar 2020)
+- AMD: [<i>HIP Porting Guide</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-porting-guide.html)
+- AMD: [<i>HIP kernel
+language</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_language.html#kernel-language)
 
 ### Author's Bio
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Research Consultant position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA.  Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort for delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/).
