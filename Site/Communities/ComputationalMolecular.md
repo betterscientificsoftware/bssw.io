@@ -13,7 +13,7 @@ CMS has provided unprecedented levels of insight into a wide range of chemical, 
 The CMS community shares many of the software challenges faced by other fields of computational sciences. CMS has a long history of code development, resulting in difficult-to-maintain legacy software. This software, in turn, cannot easily participate in advances in both computing hardware and software design. In addition, CMS graduate students and post-doctoral researches often have little formal training in constructing these large programs.
 
 ## Where do I go next?
-- **Investigate** the BSSw's offerings. See the [BSSw Homepage](../Homepage.md)
+- **Investigate** the BSSw's offerings. See the [BSSw Homepage](https://bssw.io)
 - **Explore** the resources below.
 
 <!--
