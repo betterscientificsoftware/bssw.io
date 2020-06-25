@@ -56,7 +56,7 @@ The exact scope of relevant content will evolve as we learn more about community
 
 ### Does your idea seem to fit?
 
-If you have an idea that might work, continue to the [How To Contribute](./HowToContribute.md) page.
+If you have an idea that might work, continue to the [How To Contribute](https://bssw.io/pages/how-to-contribute-content-to-better-scientific-software) page.
 
 <!-- end of body -->
 
