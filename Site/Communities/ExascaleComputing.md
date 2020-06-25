@@ -20,7 +20,7 @@ LCM: Not displaying properly:
 The transition of applications to exploit massive on-node concurrency, the requirement to couple physics and scales, and the continued disruption in the underlying hardware, system software, and programming environments -- all these together create the most challenging environment for developing CSE applications in at least two decades.  Software is escalating in complexity as a result of increases in system scale and heterogeneity and the demand for fundamental algorithm and software refactoring. In turn this complexity raises daunting issues in deploying, coordinating, extending, maintaining, and effectively using libraries, frameworks, tools, and application-specific infrastructure.  Moreover, as scientific applications increase in sophistication, interdisciplinary collaboration using software developed by independent groups becomes essential.  This situation brings with it a unique opportunity—and an implicit mandate—to fundamentally change how scientific software is designed, developed, and sustained.  
 
 ## Where do I go next?
-- **Investigate** the BSSw's offerings. See the [BSSw Homepage](../Homepage.md)
+- **Investigate** the BSSw's offerings. See the [BSSw Homepage](https://bssw.io)
 - **Explore** the resources below.
 
 <!--
