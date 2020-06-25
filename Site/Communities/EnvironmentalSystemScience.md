@@ -10,7 +10,7 @@ These science questions raise many software challenges.  While legacy codes must
 
 ## Where do I go next?
 - **Explore** the resources below.
-- **Investigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Investigate**  BSSw's offerings [BSSw Homepage](https://bssw.io).
 
 <!--
 Featured resources for the Environmental System Science Community.
