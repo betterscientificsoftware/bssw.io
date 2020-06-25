@@ -2,7 +2,7 @@
 
 #### Contributed by [Hartwig Anzt](https://hartwiganzt.github.io/ "GitHub Profile")
 
-#### Publication date: September XX, 2020
+#### Publication date: June 25, 2020
 
 In response to the explosion-like diversification in hardware architectures, hardware portability and the ability to adopt new processor designs have become a central priority in realizing software sustainability. In this blog article, we discuss the experience of porting CUDA code to AMD's Heterogeneous-compute Interface for Portability (HIP).
 
@@ -61,8 +61,8 @@ language</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_langu
 
 
 <!---
-Publish: preview
-RSS Update: 2019-08-27
+Publish: yes
+RSS Update: 2020-06-25
 Categories: development
 Topics: testing, design
 Tags: bssw-blog-article
