@@ -1,4 +1,4 @@
-# Porting the Ginko Package to AMD's HIP Ecosystem
+# Porting the Ginkgo Package to AMD's HIP Ecosystem
 
 #### Contributed by [Hartwig Anzt](https://hartwiganzt.github.io/ "GitHub Profile")
 
@@ -51,7 +51,7 @@ As mentioned, the HIP ecosystem enables one to compile for both AMD GPUs and NVI
 [Figure 5. Performance of Ginkgo's HIP backend (compiled for NVIDIA architectures) vs. Ginkgo's native CUDA backend on NVIDIA's V100 GPU.]<img src='https://github.com/betterscientificsoftware/images/raw/master/hip_portability.png' class='page lightbox' />
 
 ### Further Reading and References
-- Tsai et al.: [<i>Preparing Ginkgo for AMD GPUs -- A Testimonial on Porting CUDA Code to HIP</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/PortingToHip.pdf) (preprint, submitted to HeteroPar 2020)
+- Tsai et al.: [<i>Preparing Ginkgo for AMD GPUs -- A Testimonial on Porting CUDA Code to HIP</i>](https://arxiv.org/abs/2006.14290) (arXiv preprint, submitted to HeteroPar 2020)
 - AMD: [<i>HIP Porting Guide</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-porting-guide.html)
 - AMD: [<i>HIP kernel
 language</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_language.html#kernel-language)
@@ -62,7 +62,7 @@ language</i>](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_langu
 
 <!---
 Publish: yes
-RSS Update: 2020-06-25
+RSS Update: 2020-06-26
 Categories: development
 Topics: testing, design
 Tags: bssw-blog-article
