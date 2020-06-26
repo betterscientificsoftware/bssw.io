@@ -2,7 +2,7 @@
 
 Announcement:
 - [Call for Contributions: 2020 Collegeville Workshop on Scientific Software: Developer Productivity](../../Events/Collegeville2020.md)
-- Display dates: 05/29/2020 - 06/30/2020
+- Display dates: 05/29/2020 - 07/15/2020
 
 <!--
 - [Productivity and Sustainability Improvement Planning (PSIP)](../../Articles/Blog/PsipMainPage.md)
