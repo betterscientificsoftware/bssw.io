@@ -4,7 +4,7 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/porting-the-ginko-package-to-amd-s-hip-ecosystem
+Slide1 L: blog_posts/porting-the-ginkgo-package-to-amd-s-hip-ecosystem
 Slide1 R: events/panel-virtual-onboarding-and-mentoring
 Slide2 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
 Slide2 R: images/raw/master/Blog_0620_YAGNI.jpg
