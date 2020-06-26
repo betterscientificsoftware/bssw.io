@@ -17,7 +17,7 @@ We welcome the following contributions:
 
 | Contribution| Submission Date | Description                                |
 |-------------|-----------------|--------------------------------------------|
-| White paper | June 26 | A brief document articulating impediments, challenges, opportunities or potential solutions to developer productivity for scientific software. |
+| White paper | June 29 | A brief document articulating impediments, challenges, opportunities or potential solutions to developer productivity for scientific software. |
 | Teatime theme | July 10 |A topic for open discussion during teatime.  You would facilitate discussion of a small group. |
 | Poster      |July 10  |A PDF or interactive webpage that will be the focus of small group discussion during teatime. |
 | Recorded presentation | July 6 - 10 | Selected from the submitted white papers, we will solicit speakers to record a brief presentation on their white paper content.  Recorded presentations will be available to attendees before the workshop. |
