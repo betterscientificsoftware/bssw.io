@@ -52,7 +52,7 @@ As mentioned, the HIP ecosystem enables one to compile for both AMD GPUs and NVI
 
 ### Further Reading and References
 - Tsai et al.: *[Preparing Ginkgo for AMD GPUs — A Testimonial on Porting CUDA Code to HIP](https://arxiv.org/abs/2006.14290) (arXiv preprint, submitted to HeteroPar 2020)*
-- AMD: [HIP Porting Guide](https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-porting-guide.html)
+- AMD: *[HIP Porting Guide](https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-porting-guide.html)*
 - AMD: *[HIP kernel language](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_language.html#kernel-language)*
 
 ### Author's Bio
