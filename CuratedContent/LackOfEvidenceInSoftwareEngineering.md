@@ -22,7 +22,7 @@ The scientific method is the cornerstone that underpins how science leads to the
  
 <!---
 Publish: yes
-RSS-update: 2020-06-26
+RSS update: 2020-06-26
 Categories: Development 
 Topics: Programming languages
 Level: 2
