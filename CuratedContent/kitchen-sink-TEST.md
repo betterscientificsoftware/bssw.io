@@ -180,4 +180,5 @@ Tags: [import from subresources]
 Level: 2
 Prerequisites: [import from subresources]
 Aggregate: base
+Slug: special-kitchen-sink-url
 --->
