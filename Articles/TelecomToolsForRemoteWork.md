@@ -465,6 +465,15 @@ having to disconnect from one meeting and connect to another to move between
 the main meeting and the breakout rooms (which to be honest isn't too different
 from real-world breakout rooms).
 
+It turns out that the current implementation of breakout rooms in Zoom is
+fairly limited in that the host *must* decide which attendees go into which
+rooms. For large numbers of attendees there is an automated *random* assignment
+but there is no way for attendees to leave one breakout room and join another
+or to have different breakout rooms representing wholly different activity and
+allow attendees to decide for themselves which room (e.g. activity) they want
+to go to. The rooms have a specific time limit and when the time is up, they
+are all ended and everyone is re-joined to the main meeting.
+
 ### <a name='virtual-background'>Virtual background</a>
 
 A virtual background is an image (some products also support short video loops)
