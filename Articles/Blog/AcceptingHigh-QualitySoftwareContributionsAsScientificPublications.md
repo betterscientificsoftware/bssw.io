@@ -25,12 +25,8 @@ realizations (at least until recently) often remaining private, the readers are 
 In response to this situation, different publication formats now encourage (or 
 even require) the release of source code and supporting data. These 
 reproducibility efforts (for example, [ACM badging](https://www.acm.org/publications/policies/artifact-review-badging))
-provide reviewers access to 
-the raw 
-material and aim at increasing replicability, traceability, and general 
-software quality.
-The side benefit is that the community can leverage the novel technology by 
-accessing the sources and re-engineering the algorithms in already existing 
+provide reviewers access to the raw material and aim at increasing replicability, traceability, and general software quality.
+The side benefit is that the community can leverage the novel technology by accessing the sources and re-engineering the algorithms in already existing 
 software libraries or simulation codes.
 
 ### Community software ecosystems
@@ -176,13 +172,22 @@ M. Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing e
 
 <br>
 
+<!--- MS - These references were in place, but no anchor links were present. Not sure why they are included
 [1]: #ref1 "Are we doing the right thing? - A Critical Analysis of the Academic HPC Community"
 [2]: #ref2 "Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility"
+<!---
 
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [Anzt and Flegar, Are we doing the right thing? - A Critical Analysis of the Academic HPC Community, 20th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC 2019) ](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf)
-<a name="ref2"></a>2 | [Anzt et al., Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility, Proceedings in Applied Mathematics and Mechanics - 90th GAMM Annual Meeting, 2019 ](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf)
+**** References
+
+<div class="reference-wrapper">
+<div class="references">
+<p><a href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf">Anzt and Flegar, Are we doing the right thing? - A Critical Analysis of the Academic HPC Community, 20th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC 2019)</a>
+</div>
+  
+<div class="references">
+<p><a href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf"> Anzt et al., Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility, Proceedings in Applied Mathematics and Mechanics - 90th GAMM Annual Meeting, 2019</a>
+</div>
+</div>
 
 <!---
 Publish: yes
