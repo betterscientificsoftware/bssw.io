@@ -1,4 +1,4 @@
-# Research Software Engineers in HPC (RSE-HPC-2020) - Creating Community, Building Careers, Addressing Challenges
+# Research Software Engineers in HPC Workshop(RSE-HPC-2020)  - Creating Community, Building Careers, Addressing Challenges
 
 - Submisison Due Date:  August 14, 2020
 - Workshop Date: November 16, 2020
