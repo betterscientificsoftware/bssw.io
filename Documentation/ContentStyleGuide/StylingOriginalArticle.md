@@ -45,17 +45,15 @@ Original articles may have deck text or deck images. Deck text is usually a coup
 
 
 ## MAIN BODY
-
-### Structure of the main body
 The structure of the main body has two parts: (1) Content of the Article; and (2) Author bios. 
 
-#### Content of the Article
+### CONTENT OF THE ARTICLE
 The content of the article is free-flowing.
 
-##### Length
+#### Length
 General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
 
-##### Source Format
+#### Source Format
 BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup.  However the team works with authors to accept other formats.
 
 A skeleton Markdown template for a blog article, which one can copy and customize is available at https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md
@@ -64,7 +62,7 @@ One can provide a pull request for the article in the appropriate directory of t
 
 If author prefers to use another format, you can email the draft to the editor you've been dealing with.
 
-##### Detailed Formatting Tips (DAVID CHECK)
+#### Detailed Formatting Tips (DAVID CHECK)
  - The formatting to include a hero image is a bit finicky.
    - The `**Hero Image:**` tag must be followed by a blank line
    - The image itself must be in a Markdown list item (that is, it starts with `-`)
@@ -73,17 +71,17 @@ If author prefers to use another format, you can email the draft to the editor y
    - A way to approximate having both is to have the hero image and then put the deck as your first (short) paragraph after the image and italicize it.
  - `#### Publication date:` is case sensitive (`d` in particular)
 
-##### Employer Approval
+#### Employer Approval
 If your employer requires an internal review and approval process prior to publication, please let us know.
 
 
-##### Links, and References
+#### Links, and References
 BSSw.io team encourages authors to point to a modest numder of additional resources that enhance your article.  Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepate those as separate contributions, and BSSw.io team is happy to help.
 
-##### Images
+#### Images
 Contact
 
-#### Author Bios
+### AUTHOR BIOS
 This section has details of the authors.
 
 ## METADATA SECTION
