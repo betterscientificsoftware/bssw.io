@@ -95,13 +95,13 @@ You can add additional information here. If you create sections, please remember
 
 ##### CONFERENCES AND WORKSHOPS
 Usually the following information is added, but depending on the nature of the event, more information can be added
-`### Description` : Description of the workshop
-`### Program Topics`:  topics covered in the workshop
+* `### Description` : Description of the workshop
+* `### Program Topics`:  Topics covered in the workshop
 
 ##### WEBINARS, PANELS AND TUTORIALS
 Usually the following information is added and is usually sufficient
-`### Abstract` : A section with the abstract of the talk to be presented
-`### Author Bios`:  A section with the author bios
+* `### Abstract` : A section with the abstract of the talk to be presented
+* `### Author Bios`:  A section with the author bios
 
 
 ## UPDATING PAST EVENTS
