@@ -74,7 +74,7 @@ BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/maste
 *  All reference links across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
 
 #### Images
- All images across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
+* All images across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
 
 ### AUTHOR BIOS
 This section has details of the author in a short paragraph. The content is free flowing.
