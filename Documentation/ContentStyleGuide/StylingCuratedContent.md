@@ -43,11 +43,8 @@ Deck text is usually a couple of lines about the event. There is no specific gui
 
 The deck for curated content contains the title of the article, deck resource text, contributor names, publication date, BSSw.io categories and topics that the article falls under. Most of these items are decribed in the [common layout section](CommonLayout.md) of the guide. From the styling perspective, the deck resource text is the most important. The following guidlines are to be followed for the deck resource text section.
 
-1. No hyperlinks are allowed in the deck.
-2. No images are allowed in the deck.
-3. The deck contains one or atmost two sentences about the article which piques user interest.
-4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
-5. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
+1. No images are allowed in the deck.
+2. If it is a publication, the deck text can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
 
 
 ### Deck Attributes
