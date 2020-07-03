@@ -36,6 +36,8 @@ From the perspective of deck attributes, the deck will *always* contain the titl
 
 ##### Deck Title
 A Deck title should be simple and straighforward. Please read *styling rules* for individual types of content in this guide to see if there are any specific guidelines for each content type.
+* The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
+* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
 ##### Contributor Name
 This is name of the contributor/author/organizer. This contains the full name of the contributor and a URL, usually to the github profile, of the contributor. In the source file, please use the following format: `#### Contributed by [Firstname Lastname](github profile url "Firstname Lastname")`
