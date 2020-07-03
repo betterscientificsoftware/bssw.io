@@ -28,7 +28,7 @@ Registration | [FREE Advance Registration](https://www.eventbrite.co.uk/e/worksh
 Getting scientific applications ready for exascale is a huge undertaking. Very few of today’s codes can take full advantage of current Tier-1 systems, such as the 750,000 core ARCHER-2, let alone the millions of cores on heterogeneous systems that are anticipated with exascale. This workshop will explore the challenges facing the scientific computing community, and cover exascale readiness techniques such as performance portability, algorithmic fault tolerance, asynchronous programming, and improving scalability. The workshop will include contributions from experts from international exascale initiatives such as ECP in the USA and EuroHPC. It will also include input from leading vendors such as Cray/HPE, NVIDIA, AMD, Intel and Codeplay. Key questions will be: (i) how different simulation tools can be software-engineered for interoperability at scale; (ii) how future software engineering and new languages abstractions most effectively support the separation of concerns in development; and, (iii) how multi-physics simulations can optimally exploit heterogeneous hardware platforms.
 
 ### Speakers
-The following speakers are scheduled for this workshop. For an updated list, please visit the [workshop website](https://excalibur-sle.github.io/workshop1.html).
+The following speakers are scheduled for this workshop. For an updated list, please visit the workshop website.
    - Jeff Hammond, Intel
    - Ulrich Rüde, FAU Erlangen-Nürnberg
    - Hal Finkel, Argonne National Lab
