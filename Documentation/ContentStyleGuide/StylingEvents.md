@@ -42,7 +42,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 1. **Date**: Date or range of dates when the EVENT is taking place.
 2. **Location**: Use the word "Virtual" or name of physical location
 3. **Event Website**: URL to the main event website
-4. **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops)
+4. **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
 
 *Example:*
 - `Date: November 16, 2020`
