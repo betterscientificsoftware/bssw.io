@@ -53,8 +53,6 @@ The deck for curated content contains the title of the article, deck resource te
 
 1. **Deck Title**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
     * Maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
-    * The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-    * Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
 2. **Contributor name**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
     * Please indicate the *name of the person* who is *writing* this content for inclusion on the BSSw site. In case of unresolved ambiguity, please use "BSSw.io team" as an author with no github url. 
