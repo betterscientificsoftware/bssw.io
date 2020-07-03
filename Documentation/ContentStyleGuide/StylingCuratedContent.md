@@ -31,7 +31,7 @@ The following figure shows different parts of a curated content article.
 
 ![Parts of a curated content article](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
 
-The main part of the curated article consists of the (1) Deck, (2) Body of the article and (3) Metadata. The following sections describe the structure and various parts of a curated content article.
+The main part of the curated article consists of the (1) Deck, (2) Main body of the article and (3) Metadata section. The following sections describe the structure and various parts of a curated content article.
 
 A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
 
@@ -67,7 +67,7 @@ The deck for curated content contains the title of the article, deck resource te
 5. **BSSw Topics**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
  
 
-## BODY TEXT
+## MAIN BODY
 ### General Guidelines
 1. Usually curated content do not need headings, but should you need one then the first level headings should start with `###` heading format.
 2. Please write the body text in "third person".
@@ -76,11 +76,10 @@ The deck for curated content contains the title of the article, deck resource te
 5. Its good for body text to go into details of why the resource is interesting and to what audience. 
 6. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
 
-### Structure of the body text 
-
+### Structure of the main body 
 The usual sections of the body text for  curated content has two parts: (1) Resource table and (2) Description.
 
-#### Resource Table declaration
+#### Resource Table
 Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource type, as described below. 
 
 ###### Book
@@ -183,7 +182,7 @@ If this process if not clear, please contact the Editor-in-chief for more inform
 ##### References for the article
 Very rarely, but possibly, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. 
 
-## METADATA
+## METADATA SECTION
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
 ### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR CURATED CONTENT TYPE
