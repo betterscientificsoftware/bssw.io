@@ -79,7 +79,7 @@ The deck for curated content contains the title of the article, deck resource te
 ### Structure of the main body 
 The usual sections of the body text for  curated content has two parts: (1) Resource table and (2) Description.
 
-#### Resource Table
+#### RESOURCE TABLE
 Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource type, as described below. 
 
 ###### Book
@@ -148,9 +148,9 @@ Focus | Custom focus area - this is a 3 word description of the focus area of th
 
 Example of resourcee table declaration for a web article: [A Checklist for Better Open Source Libraries](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/ChecklistForBetterOpenSourceLibraries.md)
 
-###### Special tables
+###### **SPECIAL TABLES**
 
-###### *Mutliple resources of the same type*
+###### Multiple resources of the same type
 
 Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, titled *[An Introduction to Documentation tools](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/DocumentationTools.md)*, located in the curated content directory. In that case, use the following format for the table (below example assumes multiple websites in a single curated content article):
 
@@ -160,17 +160,17 @@ Resource name | Text that describes the overall websites. *Format: Brief 2-3 wor
 Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
-###### *Multiple resources of the assorted type*
+###### Multiple resources of the assorted type
 
 Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the curated content article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the curated content directory
 
-#### Description
+#### DESCRIPTION
 
 The description is usually two-three paragraphs of text. 
 
 In the description on the article, usually towards the end, depending on the nature of the curated content, a logo and/or references to the article may be inserted. 
 
-##### Logo declaration
+###### Logo declaration
 Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into. Logos, in curated articles, may be present towards the end of the main body description. This is especially relevant for organizations, websites etc. To reference the logos in the article, we upload them to a specific bssw.io images directory and then reference the logo from the curated content article.
     1. Please upload logo to https://github.com/betterscientificsoftware/images.
     2. Add following text with url to end of body text in the article `< img src='url to image file in the images directory' class='logo' / >`
@@ -179,7 +179,7 @@ Images for content are stored in a different repository (and not the main repo).
 
 If this process if not clear, please contact the Editor-in-chief for more information on this. 
 
-##### References for the article
+###### References for the article
 Very rarely, but possibly, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. 
 
 ## METADATA SECTION
