@@ -56,8 +56,8 @@ The deck for curated content contains the title of the article, deck resource te
 3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
  
 
-### BODY TEXT
-#### Resource Table declaration
+## BODY TEXT
+### Resource Table declaration
 Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource type, as described below. 
 
 ###### Book
@@ -142,22 +142,26 @@ Focus | Custom focus area - this is a 3 word description of the focus area of th
 
 Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the curated content article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the curated content directory
 
-#### Main Body text
+### Main Body text
 1. Contains one or more paragraph about the resource.
 2. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
 3. Its good for body text to go into details of why the resource is interesting and to what audience. 
 4. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
 
-#### Logo declaration
+### Logo declaration
 Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
 1. Please upload logo to https://github.com/betterscientificsoftware/images.
 2. Add following text with url to end of body text * < img src='url' class='logo' / > *
 3. Please ensure we have permission to use the logo 
 **This section needs to be reviewed**
 
-#### References for the article
+### References for the article
 Many times, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. Details: To be described.
 **This section needs to be reviewed**
+
+
+### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR *EVENTS* CONTENT TYPE
+TBD
 
 <!---
    Publish: no
