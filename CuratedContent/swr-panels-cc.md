@@ -35,11 +35,19 @@ required for each panel.
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Panels
-*Listed in reverse chronological order. Last updated: 2020-06-10*
+*Listed in reverse chronological order. Last updated: 2020-07-03*
 
 
 
 
+
+
+
+
+
+
+
+- [*Virtual Onboarding and Mentoring*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel004), Helen Cademartori (Lawrence Berkeley National Laboratory), Marcey Kelley (Lawrence Livermore National Laboratory), Jay Lofstead (Sandia National Laboratories), Bethany (Beth) Mccormick (Lawrence Livermore National Laboratory),  and Raj Sankaran (Argonne National Laboratory), 2020-06-30
 
 
 
