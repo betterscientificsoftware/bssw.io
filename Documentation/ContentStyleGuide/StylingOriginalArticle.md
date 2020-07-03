@@ -40,16 +40,16 @@ The content of the article is free-flowing.
 * General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
 
 ##### SOURCE FORMAT
-BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup.  However the team works with authors to accept other formats.
+* BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup.  However the team works with authors to accept other formats.
 	
 ##### FORMATTING TIPS (DAVID CHECK)
- - The formatting to include a hero image is a bit finicky.
+ * The formatting to include a hero image is a bit finicky.
    - The `**Hero Image:**` tag must be followed by a blank line
    - The image itself must be in a Markdown list item (that is, it starts with `-`)
- - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter
- - Having a deck and having a hero image in a blog post are mutually exclusive
+ * Positioning of the hero image relative to the contributor and publication date metadata doesn't matter
+ * Having a deck and having a hero image in a blog post are mutually exclusive
    - A way to approximate having both is to have the hero image and then put the deck as your first (short) paragraph after the image and italicize it.
- - `#### Publication date:` is case sensitive (`d` in particular)
+ * `#### Publication date:` is case sensitive (`d` in particular)
 
 ##### EMPLOYER APPROVAL
 * If your employer requires an internal review and approval process prior to publication, please let us know.
