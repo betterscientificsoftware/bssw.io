@@ -165,16 +165,10 @@ Many times, a curated article may have a collection of various types of resource
 The description is usually two-three paragraphs of text. In the description on the article, usually towards the end, depending on the nature of the curated content, a logo and/or references to the article may be inserted. 
 
 ###### Logo declaration
-Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into. Logos, in curated articles, may be present towards the end of the main body description. This is especially relevant for organizations, websites etc. To reference the logos in the article, we upload them to a specific bssw.io images directory and then reference the logo from the curated content article.
-1. Please upload logo to https://github.com/betterscientificsoftware/images.
-2. Add following text with url to end of body text in the article `< img src='url to image file in the images directory' class='logo' / >`
-3. Please ensure we have permission to use the logo 
-4. Please ensure logo is clear and high resolution
-
-If this process if not clear, please contact the Editor-in-chief for more information on this. 
+Sometimes, curated content article may have logos. Logos are treated as images. All images across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
 
 ###### Links and References
-Very rarely, but possibly, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. 
+All references across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
 
 ## METADATA SECTION
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
