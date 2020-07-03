@@ -22,9 +22,14 @@ Following is a description of the common elements.
 The deck is the top shaded portion of the article. The elements of the deck are mostly the same across all the BSSw.io content types but with a few variations. The deck has two parts: (1) deck text/image and (2) deck attributes.
 
 #### Deck Text/Image
-Most content types will have  the deck text, which is usually couple of lines highlighting the article. Some content types may have an image instead of the deck text. 
+Most content types will have  the deck text, which is usually couple of lines highlighting the article. For curated content and events, deck text contains a two-sentence descriptive text about the resource. Some content types may have an image instead of the deck text. In the context of blogs, deck section will usually contain an image.
 
-In the context of blogs, deck section will usually contain an image and for curated content and events, it contains a two-sentence descriptive text about the resource.
+**General guidelines:**
+1. It is good to add the comments  `<!-- deck start -->` and  `<!-- deck end -->` around the deck text in the raw file: 
+*Example*: `<!-- deck start --> This is deck text <!-- deck end -->`
+2. Resource names, in verbatim, should be italicized in the deck
+3. Use of hyperlinks in the deck is discouraged.
+4. Keep the deck short and interesting. The intention is to encourage the reader to read the rest of the text.
 
 #### Deck Attributes
 From the perspective of deck attributes, the deck will always contain the title of the article, author/contributor/organizer names, publication date, BSSw.io categories and topics that the article falls under. There may be more deck attributes that are specific to a particular content-type -  please read Styling Rules for individual types of content in this guide to see if there are any specific guidelines for each content type.
