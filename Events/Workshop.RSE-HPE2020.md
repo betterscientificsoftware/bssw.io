@@ -3,7 +3,7 @@
 - Submisison Due Date:  August 14, 2020
 - Workshop Date: November 16, 2020
 - Location: Online
-- Event Website: https://us-rse.org/rse-hpc-2020/call/
+- Event Website: https://us-rse.org/rse-hpc-2020
 
 
 This workshop, to be held in conjunction with SC20, will bring together RSEs and allies involved in HPC, from all over the world, to grow the RSE community by establishing and strengthening professional networks of current RSEs and RSE leaders. We’ll discuss the current activities and plans of national RSE organizations, discuss the needs of RSEs and RSE groups, and write a report on ways RSE organizations can help address these.
