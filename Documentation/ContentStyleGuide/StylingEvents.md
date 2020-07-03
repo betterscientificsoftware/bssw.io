@@ -33,8 +33,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 2. **Contributor name**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
 * Please indicate the *name of the person* who has submitted this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use "BSSw.io team". 
-	* *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
-	* *Example2*: `#### Contributed by BSSw.io team`
+	* *Example*: `#### Contributed by BSSw.io team`
 
 3. **Publication date**, **BSSw Categories**, **BSSw Topics**: There is no specific guidance for these for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
