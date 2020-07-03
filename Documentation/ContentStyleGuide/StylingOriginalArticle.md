@@ -7,15 +7,9 @@ Table of Contents
 
 # Styling for Original Articles
 
-An original article can highlight the following 2 types of resources: (1) blogs, (2) short article.
+An original article can highlight the following 2 types of resources: **(1) Blogs, (2) Short article.**
 
-The following figure shows different parts of a original article.
-
-![Parts of an originak article: UPDATE PLEASE](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
-
-The main part of the original article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. The following sections describe the structure and various parts of such an article.
-
-A original article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) to use as a starting point.
+The main part of the original article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. The following sections describe the structure and various parts of such an article. An original article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) to use as a starting point.
 
 
 ## DECK
