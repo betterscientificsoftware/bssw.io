@@ -76,7 +76,7 @@ Event Date and Time | yyyy-mm-dd hh:mm timezone Or yyyy-mm-dd - yyyy-mm-dd
 Website | URL
 Submission deadlines | yyyy-mm-dd, any short text. Add "Please see event website for deadline updates."
 Registration and other Information| URL
-Links to the Recordings and Archives  | [Please do not use words like TBD here; add this row (probably only if you that there are archives available]
+Links to the Recordings and Archives  | [Please do not use words like TBD here; please add this row only if you know that there are archives available]
 
 ##### WEBINARS, PANELS AND TUTORIALS
 Event Information | Details
@@ -86,7 +86,7 @@ Event Date and Time | yyyy-mm-dd hh:mm timezone Or yyyy-mm-dd - yyyy-mm-dd
 Website | URL
 Presenter details | Firstname1 Lastname1 and Firstname2 Lastname2 and ..
 Registration and other Information|  URLs, FREE (if the event does not charge any fees, then it should be highlighted)
-Links to the Recordings and Archives  | [Please do not use words like TBD here; add this row (probably only if you that there are archives available]
+Links to the Recordings and Archives  | [Please do not use words like TBD here; please add this row only if you know that there are archives available]
 		
 Please add more rows to the table (if you absolutely must). Please do not add empty rows where information is not available.
 
