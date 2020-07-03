@@ -24,20 +24,18 @@ As we know, all BSSw.io resources have decks and the deck has two parts: (1) dec
 ### Deck text/image
 Original articles may have deck text or deck images. Deck text is usually a couple of lines about the event. Deck images creation is out-sourced by the BSSw.io team (for now). They are however added to articles, only after approval has been obtained from the authors.
  * Blogs *usually* have deck images and no deck text. 
- * Short articles *usually* have deck text. For guidance on the deck text, please see [common layout section](CommonLayout.md) of the guide.
+ * Short articles *usually* have deck text. 
+ * For guidance on the deck text, please see [common layout section](CommonLayout.md) of the guide.
 
 ### Deck Attributes
 
-**Mandatory deck attributes** that are part of deck for all BSSw.io content. Guidance, specific for "Events" for these common mandatory deck attributes is given below.
+**Mandatory deck attributes** that are part of deck for all BSSw.io content. Guidance, specific for "original events" for these common mandatory deck attributes is given below. There are no **original content specific** deck attributes.
 
 1. **Deck title**: This is the title of the event. In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
-	* Please keep the title timeline-neutral. That means: do not include words like "Call for submissions" etc in the title. The reason being that this BSSw.io event may get updated with archives, videos at a later point. As of July 2020, the titles form a part of the URL and we do not want the URL to change over time.
-	* Title can include full event name as well as abbreviation in brackets:  *Example*: `The Research Software Engineers in HPC Workshop (RSE-HPC-2020)`
+	* The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
+	* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
-2. **Contributor name**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
-* Please indicate the *name of the person* who has submitted this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use "BSSw.io team". 
-	* *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
-	* *Example2*: `#### Contributed by BSSw.io team`
+2. **Contributor name**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
 3. **Deck Publication date**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
@@ -45,17 +43,6 @@ Original articles may have deck text or deck images. Deck text is usually a coup
 
 5. **BSSw Topics**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-**Event Specific deck attributes** are seen right below the deck text. There are four deck attributes specific to events and are listed below. These event deck attributes customize different parts of the deck for the event content type.
-
-1. **Date**: Date or range of dates when the EVENT is taking place.
-2. **Location**: Use the word "Virtual" or name of physical location
-3. **Event Website**: URL to the main event website
-4. **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops)
-
-*Example:*
-- `Date: November 16, 2020`
-- `Location: Online`
-- `Event Website: https://us-rse.org/rse-hpc-2020`
 
 ## MAIN BODY
 ### General Guidelines
