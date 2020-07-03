@@ -17,9 +17,9 @@ With the cancellation of several international Research Software Engineering (RS
 Event Information | Details
 :--- | :---			   
 Event Name | International Series of Online Research Software Events (SORSE)
-Event Date and Time | July 12, 2020 - Dec 31, 2020
+Event Date and Time | July 12, 2020 - Dec 31, 2020. Please see event website for updates.
 Website | https://sorse.github.io/programme/call-for-contributions/
-Submission deadline | Rolling deadline; First deadline: July 12, 2020
+Submission deadline | Rolling deadline; First deadline: July 12, 2020. Please see event website for updates.
 
 This is an open call to all RSEs and anyone involved with research software, worldwide, to propose talks, workshops and other types of online events.
    
