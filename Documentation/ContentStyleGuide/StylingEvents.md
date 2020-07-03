@@ -4,13 +4,22 @@ Table of Contents
 
 [Click to Return to Content Style Guide main page](ContentStyleGuide.md)
 
-### Events
+### Overview of Style for Events
+
+A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels etc.
+
+The following figure shows different parts of a events article.
+
+![Parts of an event article: UPDATE PLEASE](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
+
+The main part of the event article consists of the (1) Deck and (2) Body of the article. The following sections describe the structure and various parts of an event article. A written event content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
+
 
 ## DECK
-All BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Please see the following guidance for "Events" and their decks.
+As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "Events" and their decks.
 
 ### Deck text
-Deck text is usually a couple of lines about the event. See COMMON RULES section of this guide.
+Deck text is usually a couple of lines about the event. There is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
 
 ### Deck Attributes
 
@@ -24,9 +33,9 @@ Deck text is usually a couple of lines about the event. See COMMON RULES section
 *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
 *Example2*: `#### Contributed by BSSw.io team`
 
-3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide.
+3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. There is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
 
-4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide.
+4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. SThere is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
 
 **Event content type specific deck attributes** are shown right below the deck text. These event content-type deck attributes customize different parts of the deck for the event content type.
 
