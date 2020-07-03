@@ -82,11 +82,10 @@ BSSw.io team encourages authors to point to a modest numder of additional resour
 Contact
 
 ### AUTHOR BIOS
-This section has details of the authors.
+This section has details of the author in a short paragraph. The content is free flowing.
 
 ## METADATA SECTION
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
 
 ## LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR ORIGINAL CONTENT TYPE
 TBD
