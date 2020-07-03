@@ -8,10 +8,6 @@ Table of Contents
 
 A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels/no-submission based events  etc.
 
-The following figure shows different parts of a events article.
-
-![Parts of an event article: UPDATE PLEASE](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
-
 The main part of the event article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. The following sections describe the structure and various parts of an event article.
 
 A written event content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
