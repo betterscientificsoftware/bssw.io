@@ -104,7 +104,7 @@ Usually the following information is added and is usually sufficient
 `### Author Bios`:  A section with the author bios
 
 
-## PAST EVENTS
+## UPDATING PAST EVENTS
 Past events may be updated with information pointing to where the presentation, recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.
 
 ## LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR *EVENTS* CONTENT TYPE
