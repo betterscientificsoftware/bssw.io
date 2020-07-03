@@ -10,11 +10,7 @@ Table of Contents
 All BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Please see the following guidance for "Events" and their decks.
 
 ### Deck text
-1. It is good to add the comments  `<!-- deck start -->` and  `<!-- deck end -->` around the deck text in the raw file: 
-*Example*: `<!-- deck start --> This is deck text <!-- deck end -->`
-2. Event names, in verbatim, should be italicized in the deck
-3. Use of hyperlinks in the deck is discouraged.
-4. Keep the deck short and interesting. The intention is to encourage the reader to read the rest of the text.
+Deck text is usually a couple of lines about the event. See COMMON RULES section of this guide.
 
 ### Deck Attributes
 
@@ -28,13 +24,13 @@ All BSSw.io resources have decks and the deck has two parts: (1) deck text and (
 *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
 *Example2*: `#### Contributed by BSSw.io team`
 
-3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. For the sake of repetition, this field indicate the categories and their sub-topical areas that this event might belong to.  Please refer to the metadata tags section to set the topics. We set the "Topics" information in the meta-data portion of the event markdown raw file.
+3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide. For the sake of repetition, this field indicate the categories and their sub-topical areas that this event might belong to.  Please refer to the metadata tags section to set the topics. We set the "Topics" information in the meta-data portion of the event markdown raw file.
 
-4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. For the sake of repetition, this is the date when this event information was published on the BSSw.io website. *Example*: `#### Publication date: MONTH-DD, YYYY`.
+4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide. For the sake of repetition, this is the date when this event information was published on the BSSw.io website. *Example*: `#### Publication date: MONTH-DD, YYYY`.
 
-**Event Specific deck attributes** are shown right below the deck text. In the case of events, the event deck attributes consist of the following: event date, location, event website and possibly the names of the organizers of the event. Please note that these deck attributes are specific to events (in contrast to other types of BSSw.io content)
+**Event Specific deck attributes** are shown right below the deck text. See COMMON RULES section of this guide. In the case of events, the event deck attributes consist of the following: event date, location, event website and possibly the names of the organizers of the event. Please note that these deck attributes are specific to events (in contrast to other types of BSSw.io content)
 
-1. **Date**: Date or range of dates when the event is taking place.
+1. **Date**: Date or range of dates when the EVENT is taking place.
 2. **Location**: Use the word "Virtual" or name of physical location
 3. **Event Website**: URL to the main event website
 4. **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops)
