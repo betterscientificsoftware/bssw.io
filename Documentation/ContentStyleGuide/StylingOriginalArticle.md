@@ -69,11 +69,15 @@ BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/maste
 * If your employer requires an internal review and approval process prior to publication, please let us know.
 
 
-#### Links, and References
+#### Links and References
 * BSSw.io team encourages authors to point to a modest numder of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
 
 #### Images
-Contact
+Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into.  To reference the images in the article, we upload them to a specific bssw.io images directory and then reference the image from the article.
+1. Please upload logo to https://github.com/betterscientificsoftware/images.
+2. Add following text with url to end of body text in the article `< img src='url to image file in the images directory' class='logo' / >`
+3. Please ensure we have permission to use the logo 
+4. Please ensure logo is clear and high resolution
 
 ### AUTHOR BIOS
 This section has details of the author in a short paragraph. The content is free flowing.
