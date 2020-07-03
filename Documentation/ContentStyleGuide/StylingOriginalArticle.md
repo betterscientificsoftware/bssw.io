@@ -51,7 +51,7 @@ The structure of the main body has two parts: (1) Content of the Article; and (2
 The content of the article is free-flowing.
 
 #### Length
-General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
+* General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
 
 #### Source Format
 BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup.  However the team works with authors to accept other formats.
@@ -72,11 +72,11 @@ BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/maste
  - `#### Publication date:` is case sensitive (`d` in particular)
 
 #### Employer Approval
-If your employer requires an internal review and approval process prior to publication, please let us know.
+* If your employer requires an internal review and approval process prior to publication, please let us know.
 
 
 #### Links, and References
-BSSw.io team encourages authors to point to a modest numder of additional resources that enhance your article.  Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepate those as separate contributions, and BSSw.io team is happy to help.
+* BSSw.io team encourages authors to point to a modest numder of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
 
 #### Images
 Contact
