@@ -36,18 +36,19 @@ The main part of the curated content article consists of the (1) Deck and (2) Bo
 A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
 
 ## DECK
-As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "curated content" and their decks.
+As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for *curated* content type and their decks.
 
 ### Deck text
-Deck text is usually a couple of lines about the event. There is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
-
-The deck for curated content contains the title of the article, deck resource text, contributor names, publication date, BSSw.io categories and topics that the article falls under. Most of these items are decribed in the [common layout section](CommonLayout.md) of the guide. From the styling perspective, the deck resource text is the most important. The following guidlines are to be followed for the deck resource text section.
+Deck text is usually a couple of lines about the event. Most of these items are decribed in the [common layout section](CommonLayout.md) of the guide. The following guidlines are to be followed for the writing the deck text for *curated* content type.
 
 1. No images are allowed in the deck.
 2. If it is a publication, the deck text can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
 
 
 ### Deck Attributes
+
+The deck for curated content contains the title of the article, deck resource text, contributor names, publication date, BSSw.io categories and topics that the article falls under.
+
 **Mandatory deck attributes** that are part of deck for all BSSw.io content are listed below. Guidance, specific for "curated content" for these common mandatory deck attributes is given below.
 
 #### Title
