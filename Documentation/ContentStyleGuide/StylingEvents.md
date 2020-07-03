@@ -107,6 +107,9 @@ Usually the following information is added and is usually sufficient
 ## PAST EVENTS
 Past events may be updated with information pointing to where the presentation, recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.
 
+## LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR *EVENTS* CONTENT TYPE
+TBD
+
 ## QUESTIONS
 1. When we add archive information, do we want to state "UPDATED: With presentations, pdf etc etc.", right on the top of the page below the deck? Or is that not needed?
 
