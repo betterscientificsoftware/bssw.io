@@ -19,7 +19,7 @@ The main part of the event article consists of the (1) Deck and (2) Body of the 
 As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "Events" and their decks.
 
 ### Deck text
-Deck text is usually a couple of lines about the event. There is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
+Deck text is usually a couple of lines about the event. No images are allowed in the deck. There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
 ### Deck Attributes
 
@@ -33,9 +33,9 @@ Deck text is usually a couple of lines about the event. There is no specific gui
 *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
 *Example2*: `#### Contributed by BSSw.io team`
 
-3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. There is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
+3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. SThere is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
+4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. SThere is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
 **Event content type specific deck attributes** are shown right below the deck text. These event content-type deck attributes customize different parts of the deck for the event content type.
 
