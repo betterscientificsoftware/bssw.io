@@ -60,11 +60,7 @@ The deck for curated content contains the title of the article, deck resource te
     * Please indicate the *name of the person* who is *writing* this content for inclusion on the BSSw site. In case of unresolved ambiguity, please use "BSSw.io team" as an author with no github url. 
     * *Example*: `#### Contributed by BSSw.io team`
 
-3. **Deck Publication date**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
-4. **BSSw Categories**:  There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
-5. **BSSw Topics**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+3. **Deck Publication date**, **BSSw Categories**, **BSSw Topics**: There is no specific guidance for these for the event content type. See [common layout section](CommonLayout.md) of the guide.
  
 
 ## MAIN BODY
@@ -166,9 +162,7 @@ Many times, a curated article may have a collection of various types of resource
 
 #### DESCRIPTION
 
-The description is usually two-three paragraphs of text. 
-
-In the description on the article, usually towards the end, depending on the nature of the curated content, a logo and/or references to the article may be inserted. 
+The description is usually two-three paragraphs of text. In the description on the article, usually towards the end, depending on the nature of the curated content, a logo and/or references to the article may be inserted. 
 
 ###### Logo declaration
 Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into. Logos, in curated articles, may be present towards the end of the main body description. This is especially relevant for organizations, websites etc. To reference the logos in the article, we upload them to a specific bssw.io images directory and then reference the logo from the curated content article.
