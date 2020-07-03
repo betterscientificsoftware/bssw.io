@@ -24,11 +24,11 @@ Deck text is usually a couple of lines about the event. See COMMON RULES section
 *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
 *Example2*: `#### Contributed by BSSw.io team`
 
-3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide. For the sake of repetition, this field indicate the categories and their sub-topical areas that this event might belong to.  Please refer to the metadata tags section to set the topics. We set the "Topics" information in the meta-data portion of the event markdown raw file.
+3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide.
 
-4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide. For the sake of repetition, this is the date when this event information was published on the BSSw.io website. *Example*: `#### Publication date: MONTH-DD, YYYY`.
+4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. See COMMON RULES section of this guide.
 
-**Event Specific deck attributes** are shown right below the deck text. See COMMON RULES section of this guide. In the case of events, the event deck attributes consist of the following: event date, location, event website and possibly the names of the organizers of the event. Please note that these deck attributes are specific to events (in contrast to other types of BSSw.io content)
+**Event content type specific deck attributes** are shown right below the deck text. These event content-type deck attributes customize different parts of the deck for the event content type.
 
 1. **Date**: Date or range of dates when the EVENT is taking place.
 2. **Location**: Use the word "Virtual" or name of physical location
