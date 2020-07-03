@@ -52,13 +52,13 @@ The deck for curated content contains the title of the article, deck resource te
 **Mandatory deck attributes** that are part of deck for all BSSw.io content are listed below. Guidance, specific for "curated content" for these common mandatory deck attributes is given below.
 
 1. **Deck Title**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
-* Maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
-* The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
+    * Maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
+    * The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
+    * Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
 2. **Contributor name**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
-* Please indicate the *name of the person* who is *writing* this content for inclusion on the BSSw site. In case of unresolved ambiguity, please use "BSSw.io team" as an author with no github url. 
-* *Example*: `#### Contributed by BSSw.io team`
+    * Please indicate the *name of the person* who is *writing* this content for inclusion on the BSSw site. In case of unresolved ambiguity, please use "BSSw.io team" as an author with no github url. 
+    * *Example*: `#### Contributed by BSSw.io team`
 
 3. **Deck Publication date**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
@@ -172,10 +172,10 @@ In the description on the article, usually towards the end, depending on the nat
 
 ##### Logo declaration
 Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into. Logos, in curated articles, may be present towards the end of the main body description. This is especially relevant for organizations, websites etc. To reference the logos in the article, we upload them to a specific bssw.io images directory and then reference the logo from the curated content article.
-1. Please upload logo to https://github.com/betterscientificsoftware/images.
-2. Add following text with url to end of body text in the article * < img src='url to image file in the images directory' class='logo' / > *
-3. Please ensure we have permission to use the logo 
-4. Please ensure logo is clear and high resolution
+    1. Please upload logo to https://github.com/betterscientificsoftware/images.
+    2. Add following text with url to end of body text in the article `< img src='url to image file in the images directory' class='logo' / >`
+    3. Please ensure we have permission to use the logo 
+    4. Please ensure logo is clear and high resolution
 
 If this process if not clear, please contact the Editor-in-chief for more information on this. 
 
