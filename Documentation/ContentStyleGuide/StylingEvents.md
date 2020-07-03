@@ -4,7 +4,7 @@ Table of Contents
 
 [Click to Return to Content Style Guide main page](ContentStyleGuide.md)
 
-### Overview of Style for Events
+## Overview of Style for Events
 
 A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels etc.
 
