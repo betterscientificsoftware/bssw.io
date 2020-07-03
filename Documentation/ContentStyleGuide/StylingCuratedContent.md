@@ -173,7 +173,7 @@ Images for content are stored in a different repository (and not the main repo).
 
 If this process if not clear, please contact the Editor-in-chief for more information on this. 
 
-###### References for the article
+###### Links and References
 Very rarely, but possibly, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. 
 
 ## METADATA SECTION
