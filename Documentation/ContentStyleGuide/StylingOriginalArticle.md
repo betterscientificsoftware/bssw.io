@@ -56,11 +56,11 @@ General guidance is 250-500 words, though this is flexible (some articles have b
 #### Source Format
 BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup.  However the team works with authors to accept other formats.
 
-A skeleton Markdown template for a blog article, which one can copy and customize is available at https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md
+* A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md)
 
-One can provide a pull request for the article in the appropriate directory of the repository: https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Articles/Blog
-
-If author prefers to use another format, you can email the draft to the editor you've been dealing with.
+* One can provide a pull request for the article in the [appropriate directory of the repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Articles/Blog)
+	
+* If author prefers to use another format, you can email the draft to the editor you've been dealing with.
 
 #### Detailed Formatting Tips (DAVID CHECK)
  - The formatting to include a hero image is a bit finicky.
