@@ -35,13 +35,7 @@ Original articles may have deck text or deck images. Deck text is usually a coup
 	* The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
 	* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
-2. **Contributor name**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
-3. **Deck Publication date**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
-4. **BSSw Categories**:  There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
-5. **BSSw Topics**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+2. **Contributor name**,  **Deck Publication date**, **BSSw Categories**, **BSSw Topics**: There is no specific guidance for these for this content type. See [common layout section](CommonLayout.md) of the guide.
 
 
 ## MAIN BODY
