@@ -23,14 +23,7 @@ Original articles may have deck text or deck images. Deck text is usually a coup
 
 ### Deck Attributes
 
-**Mandatory deck attributes** that are part of deck for all BSSw.io content. Guidance, specific for "original articles" for these common mandatory deck attributes is given below. There are no **original content specific** deck attributes.
-
-1. **Deck title**: This is the title of the event. In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
-	* The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-	* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
-
-2. **Contributor name**,  **Deck Publication date**, **BSSw Categories**, **BSSw Topics**: There is no specific guidance for these for this content type. See [common layout section](CommonLayout.md) of the guide.
-
+**Mandatory deck attributes (such as Deck title, Contributor name, Deck Publication date, BSSw Categories, BSSw Topics)** are part of deck for all BSSw.io content. Please see [common layout section](CommonLayout.md) of the guide for the mandatory deck attributes. There are no **original content specific** deck attributes.
 
 ## MAIN BODY
 The structure of the main body has two parts: (1) Content of the Article; and (2) Author bios. 
