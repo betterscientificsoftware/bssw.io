@@ -27,3 +27,13 @@ Papers and discussion topics should be submitted [here](https://easychair.org/co
 
 
 #### Publication date: June 29, 2020
+
+<!---
+Publish: yes
+Categories: skills, collaboration
+Topics: personal productivity and sustainability, projects and organizations
+Tags: conference
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
