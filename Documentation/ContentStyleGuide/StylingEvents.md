@@ -27,13 +27,14 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 **Mandatory deck attributes** that are part of deck for all BSSw.io content. Guidance, specific for "Events" for these common mandatory deck attributes is given below.
 
-1. **Deck title**: This is the title of the event
+1. **Deck title**: This is the title of the event. In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
 * Please keep the title timeline-neutral. That means: do not include words like "Call for submissions" etc in the title. The reason being that this BSSw.io event may get updated with archives, videos at a later point. As of July 2020, the titles form a part of the URL and we do not want the URL to change over time.
 * Title can include full event name as well as abbreviation in brackets:  *Example*: `The Research Software Engineers in HPC Workshop (RSE-HPC-2020)`
 
-2. **Contributor name**: Please indicate the *name of the person* who has submitted this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use "BSSw.io team".
-*Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
-*Example2*: `#### Contributed by BSSw.io team`
+2. **Contributor name**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
+* Please indicate the *name of the person* who has submitted this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use "BSSw.io team". 
+* *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
+* *Example2*: `#### Contributed by BSSw.io team`
 
 3. **Deck Publication date**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
