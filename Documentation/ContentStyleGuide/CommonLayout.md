@@ -34,7 +34,7 @@ Most content types will have  the deck text, which is usually couple of lines hi
 #### Deck Attributes
 From the perspective of deck attributes, the deck will *always* contain the (1) title of the article, (2) author/contributor/organizer names, (3) publication date, (4) BSSw.io categories and (5) BSSw.io topics that the article falls under. These deck attributes that are independent of content type are called *mandatory deck attributes*. Sometimes, the *styling rules section* for different content types may have some additional guidelines for these *mandatory deck attributes* as well.
 
-*Special deck attributes* are specific to content-type and are called *special deck attributes*. For such *special deck attributes*, please read the *styling rules section* (present in this guide) for that particular content type. 
+*Special deck attributes* are specific to content-type and can be found in the *styling rules section* (present in this guide) for each content type. 
 
 ##### Deck Title
 A Deck title should be simple and straighforward. Please read *styling rules* for individual types of content in this guide to see if there are any specific guidelines for each content type.
