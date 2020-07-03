@@ -6,20 +6,22 @@ Table of Contents
 
 ## Overview of Style for Events
 
-A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels etc.
+A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels/no-submission based events  etc.
 
 The following figure shows different parts of a events article.
 
 ![Parts of an event article: UPDATE PLEASE](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
 
-The main part of the event article consists of the (1) Deck and (2) Body of the article. The following sections describe the structure and various parts of an event article. A written event content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
+The main part of the event article consists of the (1) Deck and (2) Body of the article. The following sections describe the structure and various parts of an event article.
+
+A written event content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
 
 
 ## DECK
 As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "Events" and their decks.
 
 ### Deck text
-Deck text is usually a couple of lines about the event. No images are allowed in the deck. There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+Deck text is usually a couple of lines about the event. No images are allowed in the event deck. For all other guidance on the deck text, please see [common layout section](CommonLayout.md) of the guide.
 
 ### Deck Attributes
 
