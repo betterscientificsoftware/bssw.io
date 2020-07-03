@@ -28,7 +28,7 @@ Original articles may have deck text or deck images. Deck text is usually a coup
 ## MAIN BODY
 
 ### General guidelines
-* BSSw.io team encourages authors to point to a modest numder of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
+* BSSw.io team encourages authors to point to a modest number of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
 
 ### Structure of the article
 The structure of the main body has two parts: (1) Content of the Article; and (2) Author bios. 
