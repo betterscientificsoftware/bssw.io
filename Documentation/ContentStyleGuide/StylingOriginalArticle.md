@@ -23,7 +23,7 @@ Original articles may have deck text or deck images. Deck text is usually a coup
 
 ### Deck Attributes
 
-**Mandatory deck attributes (such as Deck title, Contributor name, Deck Publication date, BSSw Categories, BSSw Topics)** are part of deck for all BSSw.io content. Please see [common layout section](CommonLayout.md) of the guide for the mandatory deck attributes. There are no **original content specific** deck attributes.
+**Mandatory deck attributes (such as Deck title, Contributor name, Deck Publication date, BSSw Categories, BSSw Topics)** are part of deck for all BSSw.io content. Please see [common layout section](CommonLayout.md) of the guide for the mandatory deck attributes. There are no special deck attributes for this content type.
 
 ## MAIN BODY
 The structure of the main body has two parts: (1) Content of the Article; and (2) Author bios. 
