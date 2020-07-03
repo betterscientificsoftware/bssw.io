@@ -28,6 +28,9 @@ Original articles may have deck text or deck images. Deck text is usually a coup
 ## MAIN BODY
 The structure of the main body has two parts: (1) Content of the Article; and (2) Author bios. 
 
+### General guidelines
+* BSSw.io team encourages authors to point to a modest numder of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
+
 ### Content of the article
 The content of the article is free-flowing.
 
@@ -36,13 +39,7 @@ The content of the article is free-flowing.
 
 #### SOURCE FORMAT
 BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup.  However the team works with authors to accept other formats.
-
-* A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md)
-
-* One can provide a pull request for the article in the [appropriate directory of the repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Articles/Blog)
 	
-* If author prefers to use another format, you can email the draft to the editor you've been dealing with.
-
 #### FORMATTING TIPS (DAVID CHECK)
  - The formatting to include a hero image is a bit finicky.
    - The `**Hero Image:**` tag must be followed by a blank line
@@ -55,9 +52,7 @@ BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/maste
 #### EMPLOYER APPROVAL
 * If your employer requires an internal review and approval process prior to publication, please let us know.
 
-
 #### REFERENCES
-* BSSw.io team encourages authors to point to a modest numder of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
 *  All reference links across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
 
 #### IMAGES
@@ -70,7 +65,8 @@ This section has details of the author in a short paragraph. The content is free
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
 ## LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR ORIGINAL CONTENT TYPE
-TBD
+
+* A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md)
 
 
 
