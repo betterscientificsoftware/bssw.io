@@ -27,9 +27,9 @@ Most content types will have  the deck text, which is usually couple of lines hi
 **General guidelines:**
 1. It is good to add the comments  `<!-- deck start -->` and  `<!-- deck end -->` around the deck text in the raw file: 
 *Example*: `<!-- deck start --> This is deck text <!-- deck end -->`
-2. Resource names, in verbatim, should be italicized in the deck
-3. Use of hyperlinks in the deck is discouraged.
-4. Keep the deck short and interesting. The intention is to encourage the reader to read the rest of the text.
+2. No hyperlinks are allowed in the deck.
+3. If text is used, then the deck contains one or atmost two sentences about the article which piques user interest.
+4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
 
 #### Deck Attributes
 From the perspective of deck attributes, the deck will always contain the title of the article, author/contributor/organizer names, publication date, BSSw.io categories and topics that the article falls under. There may be more deck attributes that are specific to a particular content-type -  please read Styling Rules for individual types of content in this guide to see if there are any specific guidelines for each content type.
