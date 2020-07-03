@@ -5,7 +5,7 @@
 The Workshop on Software Engineering, by Excalibur SLE project, will explore the challenges facing the scientific computing community, and cover exascale readiness techniques.
 <!-- deck end -->
 
-- Date: July 14-15, 2020, 13:00 BST - 17:00 BST each day
+- Date: July 14, 2020 - July 15, 2020, 13:00 BST - 17:00 BST each day
 - Location: Online
 - Event Website: https://excalibur-sle.github.io/workshop1.html
 
