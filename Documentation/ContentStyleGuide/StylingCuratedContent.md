@@ -149,15 +149,15 @@ Many times, a curated article may have a collection of various types of resource
 4. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
 
 ### Logo declaration
-Sometimes, logos may be present at the end. This is especially relevant for organizations, websites etc.
+Images for content are stored in a different repository (and not the main repo). There are several reasons for it which this guide will not delve into. Logos, in curated articles, may be present at the end on the article. This is especially relevant for organizations, websites etc. To reference the logos in the article, we upload it to a specific directory and then reference it.
 1. Please upload logo to https://github.com/betterscientificsoftware/images.
-2. Add following text with url to end of body text * < img src='url' class='logo' / > *
+2. Add following text with url to end of body text * < img src='url to image file in the images directory' class='logo' / > *
 3. Please ensure we have permission to use the logo 
-**This section needs to be reviewed**
+
+If this process if not clear, please contact the Editor-in-chief for more information on this. 
 
 ### References for the article
-Many times, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. Details: To be described.
-**This section needs to be reviewed**
+Very rarely, but possibly, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. 
 
 
 ### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR *CURATED* CONTENT TYPE
