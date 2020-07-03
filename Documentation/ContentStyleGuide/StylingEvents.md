@@ -66,10 +66,10 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 ### Structure of the main body
 The usual sections of the body text for  *upcoming events* has three parts: (1) Short introduction, (2) Event table and (3) Additional information.
 
-#### 1.  Short introduction 
+#### 1.  SHORT INTRODUCTION 
 This is text without any heading introducing the event
 
-#### 2. Event table with details
+#### 2. EVENT TABLE
 This table exists to highlight important information about the event such as event date, deadlines, website, registration, archives. Given below is guidance for two types of tables: (1) conference/workshops/similar events, (2) webinars/tutorials/similar events. Most of the BSSw.io event content can be covered by these two tables. Major difference between in the tables: for deadline-based events, we add submission deadline information in the table and for events such as webinars, we add presenter details.
  
 ##### CONFERENCES AND WORKSHOPS
@@ -94,7 +94,7 @@ Links to the Recordings and Archives  | Please do not use words like TBD here; p
 		
 Please add more rows to the table (if you absolutely must). Please do not add empty rows where information is not available.
 
-#### 3. Additional information
+#### 3. ADDITIONAL INFORMATION
 You can add additional information here. If you create sections, please remember to start your first level headings with `###`. Below is guidance for two types of events: (1) conference/workshops/similar events, (2) webinars/tutorials/similar events.
 
 ##### CONFERENCES AND WORKSHOPS
