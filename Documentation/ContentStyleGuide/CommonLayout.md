@@ -37,11 +37,11 @@ From the perspective of deck attributes, the deck will *always* contain the titl
 ##### Deck Title
 A Deck title should be simple and straighforward. Please read *styling rules* for individual types of content in this guide to see if there are any specific guidelines for each content type.
 
-##### Deck Publication date
-The date when the content was published on BSSw.io. In the source file, please use the following format:`#### Publication date: Month DD, YYYY`. 
-
 ##### Contributor Name
 This is name of the contributor/author/organizer. This contains the full name of the contributor and a URL, usually to the github profile, of the contributor. In the source file, please use the following format: `#### Contributed by [Firstname Lastname](github profile url "Firstname Lastname")`
+
+##### Deck Publication date
+The date when the content was published on BSSw.io. In the source file, please use the following format:`#### Publication date: Month DD, YYYY`. 
 
 ##### BSSw Categories
 The indicates which BSSw.io categories the article belongs to. As of April 2020, BSSw.io has six categories: (1) better planning, (2) better development, (3) better performance, (4) better reliability, (5) better collaboration, and (6) better skills. The most up-to-date categories can be obtained from the BSSw.io website (click Resources link at https://bssw.io/). In the source file, the categories for the article can be indicated in the *metadata section* of the article. 
