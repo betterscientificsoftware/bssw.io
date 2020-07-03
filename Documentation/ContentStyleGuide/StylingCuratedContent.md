@@ -35,13 +35,12 @@ The main part of the curated content article consists of the (1) Deck and (2) Bo
 
 A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
 
-#### Deck Title declaration
-1. While there are no strict rules for titles; maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
-2. The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
+## DECK
+As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "curated content" and their decks.
 
+### Deck text
+Deck text is usually a couple of lines about the event. There is no specific guidance for this for the event content type. See COMMON RULES section of this guide.
 
-#### Deck resource text
 The deck for curated content contains the title of the article, deck resource text, contributor names, publication date, BSSw.io categories and topics that the article falls under. Most of these items are decribed in the [common layout section](CommonLayout.md) of the guide. From the styling perspective, the deck resource text is the most important. The following guidlines are to be followed for the deck resource text section.
 
 1. No hyperlinks are allowed in the deck.
@@ -49,7 +48,18 @@ The deck for curated content contains the title of the article, deck resource te
 3. The deck contains one or atmost two sentences about the article which piques user interest.
 4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
 5. If it is a publication, it can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
+
+
+### Deck Attributes
+**Mandatory deck attributes** that are part of deck for all BSSw.io content are listed below. Guidance, specific for "curated content" for these common mandatory deck attributes is given below.
+
+#### Title
+1. While there are no strict rules for titles; maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
+2. The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
+3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
  
+
+### BODY TEXT
 #### Resource Table declaration
 Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource type, as described below. 
 
