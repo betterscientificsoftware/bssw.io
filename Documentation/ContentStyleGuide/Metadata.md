@@ -70,9 +70,7 @@ Topics are visible filters via BSSw website interface.
     - Online learning
 
 #### Tags
-Tags are optional additional keywords for searches
-*This needs to be described better. Its not clear to me how we are using this*
-- We currently do not use them for on front-end website. 
+Tags are optional additional keywords for searches. We currently do not use them for on front-end website. 
 
 #### Level
 We specify level of detail and depth of content.
