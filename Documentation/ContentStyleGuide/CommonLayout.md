@@ -53,5 +53,17 @@ The indicates which BSSw.io topic areas the article belongs to. Each of the six 
 The main body is the portion of the article below the deck.  The elements of the main body differ based on content type. 
 The main body should explain the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content described later in this guide.
 
+### Handling images
+Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into.  To reference the images in the article, we upload them to a specific bssw.io images directory and then reference them from the article.
+1. Please upload logo to https://github.com/betterscientificsoftware/images.
+2. Add following text with url to end of body text in the article `< img src='url to image file in the images directory' class='logo' / >`
+3. Please ensure we have permission to use the logo 
+4. Please ensure logo is clear and high resolution
+
+If this process if not clear, please contact the Editor-in-chief for more information on this. 
+
+### Links and References
+Very rarely, but possibly, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. 
+
 ## METADATA SECTION
 We include metadata as *formatted comments* at the end of the file.  Metadata helps define rules about publishing an article, tagging them, selecting categories etc. Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site. Please read the the section on Metadata to get detailed insight on the different tags and their importance.
