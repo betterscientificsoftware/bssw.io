@@ -23,7 +23,7 @@ Table of Contents for Styling Rules for Curated Content
 * [Logo declaration](#logo-declaration)
 * [References for the article](#references-for-the-article)
 
-## Overview of Style for Curated Content
+## Styling for Curated Content
 
 A Curated content is a brief article that highlights other web-based content/resources. The written article should describe why the CSE community might find value in the linked content. A Curated content article can highlight the following 7 types of resources: (1) book, (2) organization, (3) publication, (4) tutorial, (5) web article, (6) webinar and (7) website.
 
@@ -31,7 +31,7 @@ The following figure shows different parts of a curated content article.
 
 ![Parts of a curated content article](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
 
-The main part of the curated content article consists of the (1) Deck and (2) Body of the article. The following sections describe the structure and various parts of a curated content article.
+The main part of the curated article consists of the (1) Deck, (2) Body of the article and (3) Metadata. The following sections describe the structure and various parts of a curated content article.
 
 A written curated content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent) to use as a starting point.
 
@@ -51,10 +51,20 @@ The deck for curated content contains the title of the article, deck resource te
 
 **Mandatory deck attributes** that are part of deck for all BSSw.io content are listed below. Guidance, specific for "curated content" for these common mandatory deck attributes is given below.
 
-#### Title
-1. While there are no strict rules for titles; maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
-2. The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-3. Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
+1. **Deck Title**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
+* Maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
+* The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
+* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
+
+2. **Contributor name**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
+* Please indicate the *name of the person* who is *writing* this content for inclusion on the BSSw site. In case of unresolved ambiguity, please use "BSSw.io team" as an author with no github url. 
+* *Example*: `#### Contributed by BSSw.io team`
+
+3. **Deck Publication date**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+
+4. **BSSw Categories**:  There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+
+5. **BSSw Topics**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
  
 
 ## BODY TEXT
