@@ -46,11 +46,10 @@ The structure of the main body has two parts: (1) Content of the Article; and (2
 
 #### Content of the article
 The content of the article is free-flowing. However it may have certain sections such as:
-* Description
-* Images
+* Description (text, images)
 * Acknowledgement
-* References
 * Image Attribution
+* References
 * Logos
 
 All reference links and images across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
