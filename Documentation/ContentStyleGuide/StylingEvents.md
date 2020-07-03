@@ -33,7 +33,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 3. **Publication date**, **BSSw Categories**, **BSSw Topics**: There is no specific guidance for these for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-**Event Specific deck attributes** are seen right below the deck text. There are four deck attributes specific to events and are listed below. These event deck attributes customize different parts of the deck for the event content type.
+**Special deck attributes** are seen right below the deck text. There are four deck attributes specific to events and are listed below. These event deck attributes customize different parts of the deck for the event content type.
 
 1. **Date**: Date or range of dates when the EVENT is taking place.
 2. **Location**: Use the word "Virtual" or name of physical location
