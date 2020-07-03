@@ -49,7 +49,7 @@ Deck text is usually a couple of lines about the event. Most of these items are 
 
 The deck for curated content contains the title of the article, deck resource text, contributor names, publication date, BSSw.io categories and topics that the article falls under. 
 
-**Mandatory deck attributes** that are part of deck for all BSSw.io content are listed below. Guidance, specific for "curated content" for these common mandatory deck attributes is given below. There are no *curated content specific deck attributes*.
+**Mandatory deck attributes** that are part of deck for all BSSw.io content are listed below. Guidance, specific for "curated content" for these common mandatory deck attributes is given below. There are no *special deck attributes* for this content type.
 
 1. **Deck Title**: In addition to guidelines from the [common layout section](CommonLayout.md) of the guide, please also note the following:
     * Maintaining consistency with titles across articles is good. For ex: "An Introduction to..." for organizations or website, if it makes sense.
