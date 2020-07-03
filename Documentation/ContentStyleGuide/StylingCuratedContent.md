@@ -23,7 +23,7 @@ Table of Contents for Styling Rules for Curated Content
 * [Logo declaration](#logo-declaration)
 * [References for the article](#references-for-the-article)
 
-### Overview of Style for Curated Content
+## Overview of Style for Curated Content
 
 A Curated content is a brief article that highlights other web-based content/resources. The written article should describe why the CSE community might find value in the linked content. A Curated content article can highlight the following 7 types of resources: (1) book, (2) organization, (3) publication, (4) tutorial, (5) web article, (6) webinar and (7) website.
 
@@ -160,7 +160,7 @@ Many times, we may have references/citations at the end of the article. There is
 **This section needs to be reviewed**
 
 
-### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR *EVENTS* CONTENT TYPE
+### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR *CURATED* CONTENT TYPE
 TBD
 
 <!---
