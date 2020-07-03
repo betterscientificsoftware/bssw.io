@@ -68,7 +68,19 @@ The deck for curated content contains the title of the article, deck resource te
  
 
 ## BODY TEXT
-### Resource Table declaration
+### General Guidelines
+1. Usually curated content do not need headings, but should you need one then the first level headings should start with `###` heading format.
+2. Please write the body text in "third person".
+3. If you do not plan to update the text in the future, refrain from adding text such as "TBD", "Coming soon". In such cases, please rephrase text to point to links where such information may be updated by the third-parties.
+4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
+5. Its good for body text to go into details of why the resource is interesting and to what audience. 
+6. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
+
+### Structure of the body text 
+
+The usual sections of the body text for  curated content has two parts: (1) Resource table and (2) Description.
+
+#### Resource Table declaration
 Following the deck, is the main body of the article. The resource table is placed at the *start* of the main body of the article. The table ensures consistency across all the curated content articles. It highlights the important links in the article. Resources pointed by the curated content article can be of 7 types. The content of the table will be different for each resource type, as described below. 
 
 ###### Book
@@ -149,18 +161,18 @@ Resource name | Text that describes the overall websites. *Format: Brief 2-3 wor
 Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
-###### *Mutliple resources of the assorted type*
+###### *Multiple resources of the assorted type*
 
 Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the curated content article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the curated content directory
 
-### Main Body text
-1. Contains one or more paragraph about the resource.
-2. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized
-3. Its good for body text to go into details of why the resource is interesting and to what audience. 
-4. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
+#### Description
 
-### Logo declaration
-Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into. Logos, in curated articles, may be present at the end on the article. This is especially relevant for organizations, websites etc. To reference the logos in the article, we upload them to a specific bssw.io images directory and then reference the logo from the curated content article.
+The description is usually two-three paragraphs of text. 
+
+In the description on the article, usually towards the end, depending on the nature of the curated content, a logo and/or references to the article may be inserted. 
+
+##### Logo declaration
+Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into. Logos, in curated articles, may be present towards the end of the main body description. This is especially relevant for organizations, websites etc. To reference the logos in the article, we upload them to a specific bssw.io images directory and then reference the logo from the curated content article.
 1. Please upload logo to https://github.com/betterscientificsoftware/images.
 2. Add following text with url to end of body text in the article * < img src='url to image file in the images directory' class='logo' / > *
 3. Please ensure we have permission to use the logo 
@@ -168,11 +180,13 @@ Images for content are stored in a different repository (and not the main repo).
 
 If this process if not clear, please contact the Editor-in-chief for more information on this. 
 
-### References for the article
+##### References for the article
 Very rarely, but possibly, we may have references/citations at the end of the article. There is a certain process for this. Please contact the Editor-in-chief for more information on this. 
 
+## METADATA
+There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR *CURATED* CONTENT TYPE
+### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR CURATED CONTENT TYPE
 TBD
 
 <!---
