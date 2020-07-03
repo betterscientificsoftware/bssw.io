@@ -66,28 +66,29 @@ The usual sections of the body text for  *upcoming events* has three parts: (1) 
 This is text without any heading introducing the event
 
 #### 2. Event table with details
-This table exists to highlight important information about the event such as event date, deadlines, website, registration, archives. There is guidance for two types of tables: (1) conference/workshops/similar events, (2) webinars/tutorials/similar events.
-
+This table exists to highlight important information about the event such as event date, deadlines, website, registration, archives. Given below is guidance for two types of tables: (1) conference/workshops/similar events, (2) webinars/tutorials/similar events. Most of the BSSw.io event content can be covered by these two tables. Major difference between in the tables: for deadline-based events, we add submission deadline information in the table and for events such as webinars, we add presenter details.
+ 
 ##### CONFERENCES AND WORKSHOPS
 Event Information | Details
 :--- | :---			   
 Event Name |` [Name of the event](URL), in conjunction with [Name](URL)`
 Event Date and Time | yyyy-mm-dd hh:mm timezone Or yyyy-mm-dd - yyyy-mm-dd
-Submission deadlines | yyyy-mm-dd, any short text. Add "Please see event website for deadline updates."
 Website | URL
-Registration and other Information|  URLs
+Submission deadlines | yyyy-mm-dd, any short text. Add "Please see event website for deadline updates."
+Registration and other Information| URL
+Links to the Recordings and Archives  | [Please do not use words like TBD here; add this row (probably only if you that there are archives available]
 
 ##### WEBINARS, PANELS AND TUTORIALS
 Event Information | Details
 :--- | :---			   
 Event Name | `[Name of the event](URL), in conjunction with [Name](URL)`
-Presenter details | Firstname1 Lastname1 and Firstname2 Lastname2 and ..
 Event Date and Time | yyyy-mm-dd hh:mm timezone Or yyyy-mm-dd - yyyy-mm-dd
 Website | URL
+Presenter details | Firstname1 Lastname1 and Firstname2 Lastname2 and ..
 Registration and other Information|  URLs, FREE (if the event does not charge any fees, then it should be highlighted)
-Links to the Recordings and Archives  | [Please do not use words like TBD here]
+Links to the Recordings and Archives  | [Please do not use words like TBD here; add this row (probably only if you that there are archives available]
 		
-Please add more rows to the table (if you absolutely must).
+Please add more rows to the table (if you absolutely must). Please do not add empty rows where information is not available.
 
 #### 3. Additional information
 You can add additional information here. If you create sections, please remember to start your first level headings with `###`. Below is guidance for two types of events: (1) conference/workshops/similar events, (2) webinars/tutorials/similar events.
