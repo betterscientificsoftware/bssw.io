@@ -4,7 +4,7 @@ Table of Contents
 
 [Click to Return to Content Style Guide main page](ContentStyleGuide.md)
 
-## Overview of Style for Events
+# Styling for Events
 
 A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels/no-submission based events  etc.
 
@@ -12,7 +12,7 @@ The following figure shows different parts of a events article.
 
 ![Parts of an event article: UPDATE PLEASE](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
 
-The main part of the event article consists of the (1) Deck and (2) Body of the article. The following sections describe the structure and various parts of an event article.
+The main part of the event article consists of the (1) Deck, (2) Body of the article and (3) Metadata. The following sections describe the structure and various parts of an event article.
 
 A written event content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
 
@@ -25,9 +25,9 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 ### Deck Attributes
 
-**Mandatory deck attributes** that are part of deck for all BSSw.io content are listed below. Guidance, specific for "Events" for these common mandatory deck attributes is given below.
+**Mandatory deck attributes** that are part of deck for all BSSw.io content. Guidance, specific for "Events" for these common mandatory deck attributes is given below.
 
-1. **Title**: This is the title of the event
+1. **Deck title**: This is the title of the event
 * Please keep the title timeline-neutral. That means: do not include words like "Call for submissions" etc in the title. The reason being that this BSSw.io event may get updated with archives, videos at a later point. As of July 2020, the titles form a part of the URL and we do not want the URL to change over time.
 * Title can include full event name as well as abbreviation in brackets:  *Example*: `The Research Software Engineers in HPC Workshop (RSE-HPC-2020)`
 
@@ -35,11 +35,13 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 *Example1*: `#### Contributed by [Firstname Lastname](https://github.com/author-github-id "Firstname Lastname GitHub Profile")`
 *Example2*: `#### Contributed by BSSw.io team`
 
-3. **Topics**: Rules are the same across all BSSw.io content type for this deck attribute. There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+3. **Deck Publication date**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-4. **Publication date**: Rules are the same across all BSSw.io content type for this deck attribute. SThere is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+4. **BSSw Categories**:  There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-**Event content type specific deck attributes** are shown right below the deck text. These event content-type deck attributes customize different parts of the deck for the event content type.
+5. **BSSw Topics**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+
+**Event Specific deck attributes** are seen right below the deck text. These event deck attributes customize different parts of the deck for the event content type.
 
 1. **Date**: Date or range of dates when the EVENT is taking place.
 2. **Location**: Use the word "Virtual" or name of physical location
