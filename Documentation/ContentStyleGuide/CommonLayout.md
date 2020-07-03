@@ -32,7 +32,7 @@ Most content types will have  the deck text, which is usually couple of lines hi
 4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
 
 #### Deck Attributes
-From the perspective of deck attributes, the deck will always contain the title of the article, author/contributor/organizer names, publication date, BSSw.io categories and topics that the article falls under. There may be more deck attributes that are specific to a particular content-type -  please read Styling Rules for individual types of content in this guide to see if there are any specific guidelines for each content type.
+From the perspective of deck attributes, the deck will *always* contain the title of the article, author/contributor/organizer names, publication date, BSSw.io categories and topics that the article falls under. These deck attributes that are independent of content type are called *mandatory deck attributes*. And then there are deck attributes that are specific to a particular content-type. For such *content-type specific deck attributes*, please read the *styling rules section* (present in this guide) for that particular content type. Sometimes, the *styling rules section* for different content types may have some additional guidelines for the *mandatory deck attributes* as well.
 
 ##### Content Title
 A Content title should be simple and straighforward. Please read *Styling Rules* for individual types of content in this guide to see if there are any specific guidelines for each content type.
