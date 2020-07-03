@@ -12,7 +12,7 @@ The following figure shows different parts of a events article.
 
 ![Parts of an event article: UPDATE PLEASE](https://github.com/betterscientificsoftware/images/blob/master/documentation-cc-example.jpg)
 
-The main part of the event article consists of the (1) Deck, (2) Body of the article and (3) Metadata. The following sections describe the structure and various parts of an event article.
+The main part of the event article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. The following sections describe the structure and various parts of an event article.
 
 A written event content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
 
@@ -42,7 +42,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 5. **BSSw Topics**: There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-**Event Specific deck attributes** are seen right below the deck text. These event deck attributes customize different parts of the deck for the event content type.
+**Event Specific deck attributes** are seen right below the deck text. There are four deck attributes specific to events and are listed below. These event deck attributes customize different parts of the deck for the event content type.
 
 1. **Date**: Date or range of dates when the EVENT is taking place.
 2. **Location**: Use the word "Virtual" or name of physical location
@@ -55,7 +55,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 - `Event Website: https://us-rse.org/rse-hpc-2020`
 
 
-## BODY TEXT
+## MAIN BODY
 ### General Guidelines
 1. In the body of the event, first level headings should start with `### ` heading format.
 2. Please write the body text in "third person" even if you are copy-pasting it from somewhere. The BSSw.io team is not an organizer of most of these events, hence usage of third-person grammar is essential
@@ -64,7 +64,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 5. As far as you can,  please point people to the main event website (and not to specific pages and links). Specific pages can change over time and cause broken links.
 6. Avoid copying ALL details from the event website. Event websites have a lot of specific details which we don't have to provide on the BSSw.io website.
 
-### Structure of the body text 
+### Structure of the main body
 The usual sections of the body text for  *upcoming events* has three parts: (1) Short introduction, (2) Event table and (3) Additional information.
 
 #### 1.  Short introduction 
@@ -108,6 +108,8 @@ Usually the following information is added and is usually sufficient
 * `### Abstract` : A section with the abstract of the talk to be presented
 * `### Author Bios`:  A section with the author bios
 
+## METADATA SECTION
+There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
 ## UPDATING PAST EVENTS
 Past events may be updated with information pointing to where the presentation, recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.
