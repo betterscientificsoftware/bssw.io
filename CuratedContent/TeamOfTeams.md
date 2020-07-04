@@ -1,5 +1,11 @@
 # Team of Teams: Strategies for large organizations
 
+<!-- deck text start -->
+
+<!-- deck text end --> 
+
+#### Contributed by [Mike Heroux](https://github.com/maherou)
+#### Publication date: July 21, 2019
 
 Resource information | Details
 :--- | :--- 
@@ -16,14 +22,12 @@ Key concepts include the goals of:
 These resources can be useful for anyone engaged in large projects where requirements are multi-scale and emergent or, in other words, complex.
 
 **Subresources:**
-- [Team of Teams Disccussion Materials](CuratedContent/ToTDiscussionMaterials.md) (**NOTE: This link is no longer valid**)
+- [Team of Teams Disccussion Materials](ToTDiscussionMaterials.md)
 
-#### Contributed by [Mike Heroux](https://github.com/maherou)
 
-#### Publication date: July 21, 2019
 
 <!---
-Publish: yes
+Publish: no
 Categories: collaboration
 Topics: strategies for more effective teams
 Level: 2
