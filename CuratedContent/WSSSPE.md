@@ -1,6 +1,11 @@
 # An Introduction to the WSSSPE Organization
 
+<!-- deck text start -->
 The current decade has bought bright focus on sustainable software in the field of science. *WSSSPE* is once such important international community-driven organization that promotes sustainable research software.
+<!-- deck text end -->
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: July 20, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -17,10 +22,6 @@ The progress in scientific research is dependent on the quality and accessibilit
 <!--- Too large
 ![alt text](http://wssspe.researchcomputing.org.uk/wp-content/uploads/2016/11/Working_WSSSPE_square_low.png "WSSSPE theme logo")
 --->
-
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
-
-#### Publication date: July 20, 2019
 
 <!---
 Publish: yes
