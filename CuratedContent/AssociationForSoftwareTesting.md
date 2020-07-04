@@ -1,6 +1,13 @@
 # An Introduction to the Association for Software Testing (AST)
 
+<!--- deck text start --->
 Various organizations focus on different aspects of software and the software lifecycle. The *Association for Software Testing organization (AST)* is one such well-known organization.
+<!--- deck text end --->
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+
+#### Publication date: September 05, 2019
+
 
 Resource information | Details 
 :--- | :--- 
@@ -17,9 +24,6 @@ The *[Association for Software Testing (AST)](https://www.associationforsoftware
 ![alt text](https://www.associationforsoftwaretesting.org/wp-content/uploads/new_ast_logo_white_204x102.jpg "AST Logo")
 -->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
-
-#### Publication date: September 05, 2019
 
 <!---
 Publish: yes
