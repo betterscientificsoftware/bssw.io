@@ -25,8 +25,8 @@ The deck is the top shaded portion of the article. The elements of the deck are 
 Most content types will have  the deck text, which is usually couple of lines highlighting the article. For curated content and events, deck text contains a two-sentence descriptive text about the resource. Some content types may have an image instead of the deck text. In the context of blogs, deck section will usually contain an image.
 
 **General guidelines:**
-1. It is good to add the comments  `<!-- deck start -->` and  `<!-- deck end -->` around the deck text in the raw file: 
-*Example*: `<!-- deck start --> This is deck text <!-- deck end -->`
+1. It is good to add the comments  `<!-- deck text start -->` and  `<!-- deck text end -->` around the deck text in the raw file: 
+*Example*: `<!-- deck text start --> This is deck text <!-- deck text end -->`
 2. No hyperlinks are allowed in the deck.
 3. If text is used, then the deck contains one or atmost two sentences about the article which piques user interest.
 4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
