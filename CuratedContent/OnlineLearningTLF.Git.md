@@ -3,8 +3,8 @@
 It is important to undestand Git and GitHub on a base level prior to use. Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
 <!-- deck text end --> 
 
-#### Contributed by: [Elaine Raybourn](https://github.com/elaineraybourn)**
-#### Publication date: July 19, 2019**
+#### Contributed by: [Elaine Raybourn](https://github.com/elaineraybourn)
+#### Publication date: July 19, 2019
 
 
 Resource information | Details 
