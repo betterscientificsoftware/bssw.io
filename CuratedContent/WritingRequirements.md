@@ -4,6 +4,11 @@
 Gathering and writing requirements is an essential process in  software development. Do you know how to write good requirements for  scientific software?
 <!---deck end --->
 
+
+#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
+
+#### Publication date:  July 21, 2019
+
 Gathering requirements and charting them down is a typical process in any kind of software development. In this short article, we walk-through some examples of different kinds of requirements and understand how to write them. 
 
 ### Technological Requirements on Data Types 
@@ -37,11 +42,6 @@ Having to establish the scope on nonfunctional requirements is a key benefit of 
 > **Criterion**: A new customer shall be able to install the software in under thirty minutes, not including build times.
 
 Thus, its important for requirements to be clearly defined, be un-ambiguous and as specific as possible, so as to ensure that correct expectations about the software are conveyed to all stakeholders and that the resulting product is well-defined, complete and functions as expected.
-
-
-#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
-
-#### Publication date:  July 21, 2019
 
 <!---
 Publish: yes
