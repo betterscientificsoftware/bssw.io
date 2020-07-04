@@ -1,10 +1,10 @@
-# How to Write Clean and Beautiful Code?
+# How to Write Clean and Beautiful Code? (UNPUBLISHED)
 
 Writing clean code can be a challenge, especially for beginners! Do you know what constitutes beauty in a code and how do you incorporate it in your daily software coding life?
 
 Resource information | Details
 :--- | :--- 
-Article title  | [How to Make Your Code Clean and Beautiful](https://medium.com/swlh/excellent-code-clean-and-beautiful-code-b541ca4b5a39) <br> **NOTE: This Article has been removed from the website** 
+Article title  | [How to Make Your Code Clean and Beautiful](https://medium.com/swlh/excellent-code-clean-and-beautiful-code-b541ca4b5a39) 
 Authors | [Ravi Shankar Rajan](https://medium.com/@rsrajan1)
 Focus | Software coding
 
@@ -16,7 +16,7 @@ If you want some practical tips about coding, and enjoy some (salty!) humor and 
 #### Publication date: July 20, 2019 
 
 <!---
-Publish: yes
+Publish: no
 Categories: development, planning
 Topics: software engineering, design
 Tags:
