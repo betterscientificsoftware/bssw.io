@@ -1,8 +1,11 @@
 
 # A Collection of Software Testing Tutorials
-
+<!-- deck text start --> 
 Software testing is essential for ensuring robust, reliable software.  This page points to a variety of tutorials on software testing and provides information for testing in various circumstances.
+<!-- deck text end --> 
 
+#### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
+#### Publication date: September 03, 2019
 
 Resource information | Details 
 :--- | :--- 
