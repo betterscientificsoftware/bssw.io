@@ -1,5 +1,10 @@
 # Using Jenkins for Continuous Integration
+<!-- deck text start --> 
 Are you familiar with continuous integration using automation servers such as *Jenkins*? Learn more about this in the following article. 
+<!-- deck text end --> 
+
+#### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
+#### Publication date: May 10, 2019
 
 Resource information | Details 
 :--- | :--- 
