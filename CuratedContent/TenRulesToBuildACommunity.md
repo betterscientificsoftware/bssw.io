@@ -1,8 +1,13 @@
 # Ten Rules for Building Communities
 
+<!-- deck text start --> 
 In [*Ten simple rules for helping newcomers become contributors to open projects*](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1007296),
 the authors provide practical steps to help
 newcomers start with and remain engaged with a software project.
+<!-- deck text end --> 
+
+#### Contributed by [Christoph Junghans](https://github.com/junghans "Christoph Junghans GitHub Profile") and [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
+#### Publication date: December 6, 2019
 
 Resource information | Details
 :--- | :--- 
@@ -21,9 +26,7 @@ goals of the overall project. Another interesting tip is to tag issues with a
 recognizable label to indicate they are good for newcomers and also to ensure
 veteran team members leave such issues alone (e.g., don't go fixing them :smile:).
 
-#### Contributed by [Christoph Junghans](https://github.com/junghans "Christoph Junghans GitHub Profile") and [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
 
-#### Publication date: December 6, 2019
 
 <!---
 Publish: yes
