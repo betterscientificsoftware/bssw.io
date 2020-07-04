@@ -1,6 +1,11 @@
 # Moving towards HPC Complete through Reproducibility, Sustainability and Productivity
-
+<!-- deck text start --> 
 Do you understand concepts related to reproducibility, sustainability and productivity? The presentation resource, highlighted in this article, explores these concepts in a systematic way.
+<!-- deck text end --> 
+
+#### Contributed by [Mike Heroux](https://github.com/maherou)
+
+#### Publication date: August 06, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -10,9 +15,7 @@ Web links | [Video](https://www.youtube.com/watch?v=B_wOVepa_WU&list=PLGj2a3KTwh
 
 This presentation, which was presented at [Argonne Training Program on Extreme-Scale Computing (ATPESC) 2016](https://extremecomputingtraining.anl.gov/archive/atpesc-2016/ "ATPESC 2016 Homepage"), gives an overview of strategies we are using in the IDEAS Productivity Project. This presentation talks about concepts related to reproducibility, sustainability, productivity and practical strategies to implement them and improve the quality of software that one works on.
 
-#### Contributed by [Mike Heroux](https://github.com/maherou)
 
-#### Publication date: August 06, 2019
 
 <!---
 Publish: yes
