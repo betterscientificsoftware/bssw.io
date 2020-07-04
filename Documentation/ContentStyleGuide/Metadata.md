@@ -7,6 +7,7 @@ Table of Contents
 ## Understanding Metadata
 For all content types, we have the following meta-data that needs to be put, at the bottom of the file.
 - **Publish**: Publish on the BSSw front-end site?
+- **RSS update**: Date for RSS update in format yyyy-mm-dd
 - **Categories**: Specify 1 or more categories (primary display via BSSw website)
 - **Topics**: Specify 1 or more topics (visible filters via BSSw website)
 - **Tags**: Specify additional tags as keywords for searches (optional -- not currently used on front-end website)
@@ -21,6 +22,9 @@ This is used to Publish on the BSSw front-end site.
 - Publish: No
 
 Only files designated as 'Publish: Yes' will be published on the front-end BSSw site.  Work that has not been finalized or is not intended for the front-end site should be designated 'Publish: No'. *ISNT THERE A PREVIEW OPTION, AS WELL?*
+
+#### RSS update
+This is used to set thee date for RSS update in format yyyy-mm-dd
 
 #### Categories
 Categories are primaily display via BSSw website interface.
