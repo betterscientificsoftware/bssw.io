@@ -1,6 +1,7 @@
 # Code Complete: A Practical Handbook of Software Construction
-
+<!--deck start-->
 Originally published in 1993, and revised to second edition in 2004, *Code Complete: A Practical Handbook of Software Construction* by *Steve McConnell* has been a popular book for software developers for more than two decades.
+<!--deck end-->
 
 Resource information | Details 
 :--- | :--- 
