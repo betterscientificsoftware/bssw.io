@@ -1,6 +1,11 @@
 # What is DevOps?
-
+<!--deck text start-->
 DevOps has become a catch-all term in agile organizations, but defining what it *is* turns out not to be simple.  This blog post by Ernest Mueller attempts to sort through the various ideas surrounding DevOps and bring some clarity to what is, at heart, a large and nuanced concept.
+<!--deck text end-->
+
+#### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
+
+#### Publication date: October 31, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -17,9 +22,7 @@ DevOps means a lot of different things to different people because the discussio
 The post has been maintained with new content and reference links which may be more valuable than the actual prose.
 If you are wondering about DevOps, having trouble supporting an existing code base, or just curious, this is worth a read. 
 
-#### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
 
-#### Publication date: October 31, 2019
 
 
 <!---
