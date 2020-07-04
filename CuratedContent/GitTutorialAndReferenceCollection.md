@@ -1,7 +1,10 @@
 # A Tutorial and Reference Collection for Git
-<!-- deck start --> 
+<!-- deck text start --> 
 Revision control systems like Git are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project. Here is an excellent collection of tutorials and other resources  to learn about *Git*.
-<!-- deck end --> 
+<!-- deck text end --> 
+
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+#### Publication date: July 24, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -13,9 +16,6 @@ Git is a powerful open-source revision control system that is increasing used by
 
 But while Git is powerful and flexible, it is not easy for most people to learn and use.  In order to learn to use Git effectively, one must form a conceptual model based on the Git repository data-structure as a directed acyclic graph of connected commits and a set of algorithms for manipulating that data-structure.  That view of learning and understanding Git is reflected in this *[Git Tutorial and Reference Collection](https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection/)*.  This collection also contains a brief set of critical beginner Git usage tips that every Git user should know before getting started.
 
-#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-
-#### Publication date: July 24, 2019
 
 <!---
 Publish: yes
