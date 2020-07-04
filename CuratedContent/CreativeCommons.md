@@ -1,7 +1,10 @@
 # An Introduction to Creative Commons
-<!--deck start-->
+<!--deck text start-->
 Have you heard of *Creative Commons* licensing? Learn more about this family of licenses and see how it may help your software project.
-<!--deck end-->
+<!--deck text end-->
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Publication date: July 20, 2019 
 
 Resource information | Details 
 :--- | :--- 
@@ -19,9 +22,6 @@ Licensing is an important topic that needs attention right from the inception ti
 ![alt text](https://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png "Creative Commons Logo")
 --->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-
-#### Publication date: July 20, 2019 
 
 <!---
 Publish: yes
