@@ -1,8 +1,8 @@
 ## Understanding Compatibility of Performance Portability Tools
 
-<!--- deck start --->
+<!--- deck text start --->
 Tools such as OpenMP and CUDA are helping scientific applications achieve performance portability. However, do we understand the underlying compatibility challenges encountered by these tools?
-<!--- deck end --->
+<!--- deck text end --->
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
