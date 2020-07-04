@@ -1,7 +1,10 @@
 # An Introduction to GitHub
-<!-- deck start --> 
+<!-- deck text start --> 
 Are you familiar with revision control repository services? *GitHub* is a well-known Git-focused revision control repository service.
-<!-- deck end --> 
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Publication date: January 30, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -15,9 +18,6 @@ Focus | Revision Control
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-github.jpg' class='logo' />
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-
-#### Publication date: January 30, 2020
 
 <!---
 Publish: yes
