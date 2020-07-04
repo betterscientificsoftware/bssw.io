@@ -1,7 +1,10 @@
 # An Introduction to Computational Science Stack Exchange
-<!--deck start-->
+<!--deck text start-->
 Do you work in computational science and need an online forum for asking questions and discusssing scientific computational problems? 
-<!--deck end-->
+<!--deck text end-->
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: July 20, 2019 
 
 Resource information | Details
 :--- | :--- 
@@ -17,9 +20,7 @@ This *Stack Exchange* site covers computational science in general.  Most of the
      Native image is too large.  Need to reduce size for reasonable display.
 ![alt text](https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-logo.png "Stack Exchange Logo")
 --->
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-#### Publication date: July 20, 2019 
 
 <!---
 Publish: yes
