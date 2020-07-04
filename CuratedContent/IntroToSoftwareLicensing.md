@@ -1,6 +1,12 @@
 # An Introduction to Software Licensing
 
+<!-- deck text start --> 
 Several flavors of open source licensing are prevalent today. Do you know how to choose the correct open source license for your project?
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+
+#### Publication date: July 24, 2019
 
 Tutorial information | Details 
 :--- | :--- 
@@ -14,9 +20,6 @@ This tutorial on *An Introduction to Software Licensing* provides a brief introd
 
 This tutorial was presented at [SIAM CSE17: CSE Collaboration through Software: Improving Productivity and Sustainability](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=61488).
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-
-#### Publication date: July 24, 2019
 
 <!---
 Publish: yes
