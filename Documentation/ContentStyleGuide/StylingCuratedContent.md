@@ -42,7 +42,7 @@ As we know, all BSSw.io resources have decks and the deck has two parts: (1) dec
 Deck text is usually a couple of lines about the event. Most of these items are decribed in the [common layout section](CommonLayout.md) of the guide. The following guidlines are to be followed for the writing the deck text for *curated* content type.
 
 1. No images are allowed in the deck.
-2. If it is a publication, the deck text can start with "The *title of article* article, published in the *journal name* in *alphabetic month, year*, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in *Jan 2014*, explores etc.
+2. If it is a publication, the deck text can start with "The *title of article* article, published in the *journal name* in alphabetic month, year, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in Jan 2014, explores etc.
 
 
 ### Deck Attributes
