@@ -172,9 +172,6 @@ All references across all content types are handled in the same way; hence pleas
 ## METADATA SECTION
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-## UNPUBLISHING CONTENT
-There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
 
 ### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR CURATED CONTENT TYPE
 TBD
