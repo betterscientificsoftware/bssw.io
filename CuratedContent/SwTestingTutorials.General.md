@@ -1,7 +1,12 @@
 
 ## A Collection of Testing Tutorials for General-Purpose Software
 
+<!-- deck text start --> 
 Software testing is an important part of the software development lifecycle. We list resources that may be useful for learning about testing in the context of general-purpose software.
+<!-- deck text end --> 
+
+#### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
+#### Publication date: Spetember 05, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -15,7 +20,7 @@ The course *[Software Testing: How to Make Software Fail](SwTestingUdacity.md)*,
 
 This *[Software testing tutorial](SwTestingTutorialTutorialsPoint.md)* from *[TutorialsPoint](https://www.tutorialspoint.com/index.htm)* will give you a basic understanding on software testing, its types, methods, levels, and other related terminologies.
 
-#### Publication date: Spetember 05, 2019
+
 
 <!---
 Publish: yes
