@@ -9,7 +9,7 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
 
 Resource information | Details
 :--- | :--- 
-Resource Name  | SIAM CSE17
+Resource Name  | 2017 SIAM Conference on Computational Science and Engineering (SIAM CSE17)
 Websites | [Minisymposium: Software Productivity and Sustainability for CSE and Data Science - Part I](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947),[Part II](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60948), [Minisymposterium: Software Productivity and Sustainability for CSE and Data Science](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022)
 Focus | Software productivity, quality, and sustainability
 
