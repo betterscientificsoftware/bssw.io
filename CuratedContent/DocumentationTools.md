@@ -1,6 +1,8 @@
 # An Introduction to Documentation Tools
 
+<!--deck start-->
 Documentation is critical for explaining how users interact with software. Documentation tools are convenient tools that help developers develop better documentation.
+<!--deck end-->
 
 Resource information | Details 
 :--- | :--- 
