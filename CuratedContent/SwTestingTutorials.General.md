@@ -6,7 +6,7 @@ Software testing is an important part of the software development lifecycle. We 
 <!-- deck text end --> 
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
-#### Publication date: Spetember 05, 2019
+#### Publication date: September 05, 2019
 
 Resource information | Details 
 :--- | :--- 
