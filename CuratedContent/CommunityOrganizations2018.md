@@ -6,7 +6,7 @@ The paper *Community Organizations: Changing the Culture in Which Research Softw
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
 #### Publication date: July 20, 2019
-=
+
 Resource information | Details
 :--- | :--- 
 Paper title  | Community Organizations: Changing the Culture in Which Research Software Is Developed and Sustained
