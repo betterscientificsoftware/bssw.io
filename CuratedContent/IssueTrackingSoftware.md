@@ -1,6 +1,12 @@
 # A Look into Popular Issue Tracking Software
 
+<!-- deck text start --> 
 Understanding the basics of issue tracking (including how issue tracking tools help in the software development lifecycle and what myriad capabilities are offered by popular issue tracking systems) is important for software development teams.
+<!-- deck text end --> 
+
+#### Contributed by [Jean Shuler](https://github.com/JeanShuler "Jean Shuler")
+
+#### Publication date: January 03, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -66,9 +72,6 @@ The following is a short list of issue tracking software used or recommended by 
 With several options now available, software developers have oppurtunities to pick and choose an issue tracking tool that fits the needs of their team and overall project.
 
 
-#### Contributed by [Jean Shuler](https://github.com/JeanShuler "Jean Shuler")
-
-#### Publication date: January 03, 2020
 
 <!---
 Publish: yes
