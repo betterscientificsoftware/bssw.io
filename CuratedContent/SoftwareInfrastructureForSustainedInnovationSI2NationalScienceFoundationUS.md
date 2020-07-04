@@ -1,6 +1,10 @@
 # Software Infrastructure for Sustained Innovation (SI2) — National Science Foundation (US)
+<!-- deck text start --> 
+*[Software Infrastructure for Sustained Innovation (SI2)](http://nsf.gov/si2)* is a cross-foundation program, which is expected to generate and nurture the interdisciplinary processes required to support the entire software lifecycle, and will successfully integrate software development and support with innovation and research.
+<!-- deck text end --> 
 
-*[Software Infrastructure for Sustained Innovation (SI2)](http://nsf.gov/si2)* is a cross-foundation program, which is expected to generate and nurture the interdisciplinary processes required to support the entire software lifecycle, and will successfully integrate software development and support with innovation and research. 
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: June 20, 2017
 
 Resource information | Details 
 :--- | :--- 
@@ -23,9 +27,7 @@ Multidisciplinary projects at the SSE, SSI, and S2I2 levels should be submitted 
 
 ![alt text](https://www.nsf.gov/images/logos/nsf1.jpg "NSF Logo")
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-#### Publication date: June 20, 2017
 
 <!---
 Publish: yes
