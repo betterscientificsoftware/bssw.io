@@ -1,6 +1,7 @@
 # How to Write Clean and Beautiful Code? (UNPUBLISHED)
-
+<!--deck start-->
 Writing clean code can be a challenge, especially for beginners! Do you know what constitutes beauty in a code and how do you incorporate it in your daily software coding life?
+<!--deck end-->
 
 Resource information | Details
 :--- | :--- 
