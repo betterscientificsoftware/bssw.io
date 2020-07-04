@@ -172,7 +172,7 @@ All references across all content types are handled in the same way; hence pleas
 ## METADATA SECTION
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-## UNPUBLISHING EVENTS
+## UNPUBLISHING CONTENT
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
 
