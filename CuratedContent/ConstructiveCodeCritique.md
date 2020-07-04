@@ -1,7 +1,8 @@
 
 # What Constitutes Constructive Code Critique?
-
+<!--deck start-->
 Code Review is a very important step in creating bug-free, high-quality, maintainable and sustainable code. Let's learn about some important aspects of software code review in this article.
+<!--deck end-->
 
 Resource information | Details
 :--- | :--- 
