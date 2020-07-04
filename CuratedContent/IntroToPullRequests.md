@@ -1,10 +1,10 @@
 # An Introduction to Git Pull Requests
+<!-- deck text start --> 
+Revision control systems like Git are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project. Here is an excellent article if you wish to understand Git Pull Requests.
+<!-- deck text end --> 
 
 #### Contributed by [Mike Heroux](https://github.com/maherou)
-
 #### Publication date: March 29, 2019
-
-Revision control systems like Git are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project. Here is an excellent article if you wish to understand Git Pull Requests.
 
 Resource information | Details
 :--- | :--- 
