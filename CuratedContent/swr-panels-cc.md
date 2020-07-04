@@ -41,7 +41,7 @@ required for each panel.
 
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
-## Past Panels
+### Past Panels
 *Listed in reverse chronological order. Last updated: 2020-07-03*
 
 
