@@ -4,6 +4,9 @@
 Several software development methodologies employ user stories as a method to convey product requirements. Do you know what user stories are and how to employ them in scientific software development?
 <!--- deck end --->
 
+#### Contributed by [Osni Marques](https://github.com/oamarques)
+
+#### Publication date: July 27, 2019
 
 User stories, at their core, provide a flexible method for communicating about product requirements. 
 
@@ -30,9 +33,7 @@ The [IDEAS project](https://bssw.io/items/ideas-software-productivity-project) h
 
 Additional information about user stories in the context of the IDEAS project was presented in a [poster](https://doi.org/10.6084/m9.figshare.7761914) the SIAM CSE19 Conference, Spokane, WA, 2019.
 
-#### Contributed by [Osni Marques](https://github.com/oamarques)
 
-#### Publication date: July 27, 2019
 
 <!---
 Publish: yes
