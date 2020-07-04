@@ -1,7 +1,11 @@
 # Keeping Work Area Surfaces Clean
-
+<!-- deck text start --> 
 Keeping your work area surfaces clean is a best practice at any time but especially in times
 of heightend awareness of possible transmission of disease.
+<!-- deck text end --> 
+
+#### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
+#### Publication date: March 18, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -20,9 +24,6 @@ are easily overlooked, help contribute to *flattening the curve*. The article in
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19_greyB.png' class='page' />
 
-#### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
-
-#### Publication date: March 18, 2020
 
 <!---
 Publish: no
