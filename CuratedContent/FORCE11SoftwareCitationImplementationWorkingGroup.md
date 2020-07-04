@@ -1,7 +1,10 @@
 # Introducing the FORCE11 Software Citation Implementation Working Group
-<!-- deck start --> 
+<!-- deck text start --> 
 FORCE11 is a community that brings together a wide range of people around common goals. This article introduces the *FORCE11 Software Citation Implementation Working Group*.
-<!-- deck end --> 
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: August 11, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -21,12 +24,7 @@ The *FORCE11 [Software Citation Implementation Working Group](https://www.force1
 
 During this process, the principles may also be updated based on feedback from the activities.
 
-
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-force11-website-logo.png' class='logo' />
-
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
-
-#### Publication date: August 11, 2019
 
 <!---
 Publish: yes
