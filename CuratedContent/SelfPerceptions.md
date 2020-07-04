@@ -1,9 +1,12 @@
-
 # A Look into Self-Perceptions about Software Engineering in the Scientific Community
-
+<!-- deck text start --> 
 Researchers and scientists are now spending increasing amounts of
 time developing software. But how many of them are actually using
 software engineering practices that can help them write better software?
+<!-- deck text end --> 
+
+#### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta Github Profile")
+#### Publication date: November 26, 2019
 
 Resource information | Details
 :--- | :--- 
@@ -37,13 +40,6 @@ and refactoring, all of which should be of prime importance in
 any software development environment. All these factors make this
 survey paper an interesting and fun read for folks working in scientific
 software development community.
-
-#### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta Github Profile")
-
-#### Publication date: November 26, 2019
-
-<!--- #### Publication date: Oct 16, 2018 --->
-
 
 <!--
 Publish: yes
