@@ -1,5 +1,7 @@
 # An Introduction to Creative Commons
+<!--deck start-->
 Have you heard of *Creative Commons* licensing? Learn more about this family of licenses and see how it may help your software project.
+<!--deck end-->
 
 Resource information | Details 
 :--- | :--- 
