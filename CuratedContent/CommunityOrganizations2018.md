@@ -1,7 +1,8 @@
 # Exploring Community Organizations and their Role in Emerging Software Ecosystems
 
- The paper *Community Organizations: Changing the Culture in Which Research Software Is Developed and Sustained* published in the *Special Issue of IEEE Computing in Science and Engineering (CiSE) on Accelerating Scientific Discovery with Reusable Software* in 2019 explores how community organizations have evolved and their role in addressing technical and social challenges in software productivity, quality, and sustainability. 
-
+<!--deck start-->
+The paper *Community Organizations: Changing the Culture in Which Research Software Is Developed and Sustained* published in the *Special Issue of IEEE Computing in Science and Engineering (CiSE) on Accelerating Scientific Discovery with Reusable Software* in 2019 explores how community organizations have evolved and their role in addressing technical and social challenges in software productivity, quality, and sustainability. 
+<!--deck end-->
 
 Resource information | Details
 :--- | :--- 
