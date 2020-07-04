@@ -1,6 +1,11 @@
 # An Introduction to the Software Sustainability Institute
 
+<!-- deck text start --> 
 This short article introduces the *Software Sustainability Institute*, a UK-based national facility, with focus on building better software.
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: January 30, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -14,9 +19,7 @@ As per the *SSI* manifesto, the *Software Sustainability Institute* represents t
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-ssi.png' class='logo' />
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-#### Publication date: January 30, 2020
 
 <!---
 Publish: yes
