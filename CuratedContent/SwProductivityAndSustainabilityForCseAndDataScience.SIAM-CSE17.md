@@ -10,12 +10,12 @@ The minisymposium speakers and poster presenters discuss work that addresses gro
 Resource information | Details
 :--- | :--- 
 Resource Name  | SIAM CSE17
-Websites | [Software Productivity and Sustainability for CSE and Data Science - Part I of II](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947), [Minisymposterium: Software Productivity and Sustainability for CSE and Data Science](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022)
+Websites | [Minisymposium: Software Productivity and Sustainability for CSE and Data Science - Part I](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947),[Part II](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60948), [Minisymposterium: Software Productivity and Sustainability for CSE and Data Science](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=62022)
 Focus | Software productivity, quality, and sustainability
 
 The Minisymposium and Minisymposterium listed above as a part of *[SIAM CSE17](https://www.siam.org/meetings/cse17/)*, took place on *March 1, 2017*. Both focus on the importance of software in CSE collaboration. Software is the key crosscutting technology that connects advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community or been rewarded by that community.
 
-### *[Software Productivity and Sustainability for CSE and Data Science - Part I of II](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947)*
+### *[Minisymposium: Software Productivity and Sustainability for CSE and Data Science](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=60947)*
 - [Slides for 8 presentations](https://doi.org/10.6084/m9.figshare.c.3705946)
   - _CSE Software Ecosystems: Critical Instruments for Scientific Discovery_ (introduction to session)
   - _Data Skills and Software Training to Enable Data-Driven Discovery_
