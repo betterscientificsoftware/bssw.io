@@ -1,11 +1,10 @@
-# Keeping Work Area Surfaces Clean
+# Keeping Work Area Surfaces Clean (UNPUBLISHED)
 <!-- deck text start --> 
 Keeping your work area surfaces clean is a best practice at any time but especially in times
 of heightend awareness of possible transmission of disease.
 <!-- deck text end --> 
 
 #### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
-#### Publication date: March 18, 2020
 
 Resource information | Details 
 :--- | :--- 
