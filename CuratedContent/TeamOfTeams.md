@@ -1,4 +1,4 @@
-# Team of Teams: Strategies for large organizations
+# Team of Teams: Strategies for large organizations UNPUBLISHED
 
 <!-- deck text start -->
 
