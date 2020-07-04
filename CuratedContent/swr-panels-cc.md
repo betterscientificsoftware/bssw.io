@@ -1,12 +1,25 @@
-
-
-
-
 # Strategies for Working Remotely Panel Series
 
+<!--deck text start-->
+This *Strategies for Working Remotely Panel Series*, conducted by the IDEAS
+Productivity project, focusses on different aspects of working remotely.
+<!--deck text end-->
+
+
+#### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
+#### Publication date: April 4, 2020
+
+
+Resource information | Details
+:--- | :---
+Resource name | Strategies for Working Remotely Panel Series
+Website | https://ideas-productivity.org/events/strategies-for-working-remotely-panels/
+Focus | Software productivity and sustainability
+
+
 In response to the COVID-19 pandemic and need for many in our
-community to transition to unplanned remote work, the IDEAS
-Productivity project has launched the panel series Strategies for
+community to transition to unplanned remote work, the *[IDEAS
+Productivity project](https://ideas-productivity.org/ideas-ecp/)* has launched the panel series Strategies for
 Working Remotely, which explores important topics in this area. The
 series brings together staff members of DOE laboratories and invited
 guests to speak about experiences in working remotely and
@@ -15,13 +28,7 @@ virtual teams, and teams of teams. Topics include challenges, lessons
 learned, unforeseen benefits, and opportunities to look for from this
 experience.
 
-Resource information | Details
-:--- | :---
-Resource name | Strategies for Working Remotely Panel Series
-Website | https://ideas-productivity.org/events/strategies-for-working-remotely-panels/
-Focus | Software productivity and sustainability
-
-The event web site provides details about the panel series, including
+The [event web site](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/) provides details about the panel series, including
 announcements of upcoming panels, a mailing list to receive
 announcements, and archival information for the entire series.
 
@@ -74,7 +81,6 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 - [*Advice from Colleagues with Experience*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel001), Mike Bernhardt (Oak Ridge National Laboratory), Lois Curfman McInnes (Argonne National Laboratory), Mark Miller (Lawrence Livermore National Laboratory), Kathryn Mohror (Lawrence Livermore National Laboratory),  and Elaine Raybourn (Sandia National Laboratories), 2020-04-03
 
 
-#### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
 
 <!---
 Publish: yes
