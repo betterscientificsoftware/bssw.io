@@ -1,11 +1,10 @@
 # Tutorial: CSE Collaboration through Software: Improving Productivity and Sustainability
 
-<!--deck start-->
+<!--deck text start-->
 This tutorial provides information on best practices in software engineering explicitly tailored for CSE. It discusses practices that are relevant for projects of all sizes, with emphasis on small teams.
-<!--deck end-->
+<!--deck text end-->
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
-
 #### Publication date: Mar 20, 2017
 
 Resource information | Details 
@@ -18,11 +17,11 @@ CSE software—crosscutting technology that connects advances in mathematics, co
 
 This tutorial provides information on best practices in software engineering explicitly tailored for CSE. Goals are improving the productivity of those who develop CSE software and increasing the sustainability of software artifacts. We discuss practices that are relevant for projects of all sizes, with emphasis on small teams (for example, a faculty member and collaborating students).  Topics are:
 
-- _Why Effective Software Practices Are Essential for CSE Projects_
-- _An Introduction to Software Licensing_
-- _Better (Small) Scientific Software Teams_
-- _Improving Reproducibility through Better Software Practices_
-- _Testing of HPC Scientific Software_
+- *Why Effective Software Practices Are Essential for CSE Projects*
+- *An Introduction to Software Licensing*
+- *Better (Small) Scientific Software Teams*
+- *Improving Reproducibility through Better Software Practices*
+- *Testing of HPC Scientific Software*
 
 
 
