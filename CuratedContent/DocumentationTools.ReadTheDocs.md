@@ -1,6 +1,8 @@
 # An Introduction to Read The Docs
 
+<!-- deck start --> 
 Documentation is an important part of any software. Learn about the *Read the Docs* service to aid you in this process!
+<!-- deck end -->
 
 Resource information | Details 
 :--- | :--- 
