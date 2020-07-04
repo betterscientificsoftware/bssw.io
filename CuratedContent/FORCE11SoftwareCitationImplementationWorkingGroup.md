@@ -20,9 +20,7 @@ The *FORCE11 [Software Citation Implementation Working Group](https://www.force1
 1. Endorse the principles.
 2. Develop sets of guidelines for implementing the principles.
 3. Help implement the principles.
-4. Test specific implementations of the principles.  
-
-During this process, the principles may also be updated based on feedback from the activities.
+4. Test specific implementations of the principles. During this process, the principles may also be updated based on feedback from the activities.
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-force11-website-logo.png' class='logo' />
 
