@@ -1,7 +1,7 @@
 # Strategies for Working Remotely Panel Series
 
 <!--deck text start-->
-This *Strategies for Working Remotely Panel Series*, conducted by the IDEAS
+The *Strategies for Working Remotely Panel Series*, conducted by the IDEAS
 Productivity project, focusses on different aspects of working remotely.
 <!--deck text end-->
 
