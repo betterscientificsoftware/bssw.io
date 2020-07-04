@@ -1,8 +1,11 @@
 # An Introduction to Read The Docs
 
-<!-- deck start --> 
+<!-- deck text start --> 
 Documentation is an important part of any software. Learn about the *Read the Docs* service to aid you in this process!
-<!-- deck end -->
+<!-- deck text end -->
+
+#### Contributed by [Damon McDougall](https://github.com/dmcdougall)
+#### Publication date: December 19, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -16,9 +19,7 @@ documentation to be written in either reStructuredText or Markdown, and can be
 configured to produce branch- or commit-specific documentation in a revision
 control system.
 
-#### Contributed by [Damon McDougall](https://github.com/dmcdougall)
 
-#### Publication date: December 19, 2019
 
 <!---
 Publish: yes
