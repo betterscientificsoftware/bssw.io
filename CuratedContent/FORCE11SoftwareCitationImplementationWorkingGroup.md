@@ -1,7 +1,7 @@
 # Introducing the FORCE11 Software Citation Implementation Working Group
-
+<!-- deck start --> 
 FORCE11 is a community that brings together a wide range of people around common goals. This article introduces the *FORCE11 Software Citation Implementation Working Group*.
-
+<!-- deck end --> 
 
 Resource information | Details 
 :--- | :--- 
