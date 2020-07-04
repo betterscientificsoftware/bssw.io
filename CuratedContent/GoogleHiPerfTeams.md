@@ -1,5 +1,8 @@
 # What makes a High Performing Team at Google
+
+<!-- deck start --> 
 What makes for a high performing team? This article showcases a podcast in the context of high performing teams at Google.
+<!-- deck end --> 
 
 Resource information | Details 
 :--- | :--- 
