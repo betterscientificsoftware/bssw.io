@@ -1,6 +1,7 @@
 # Finalizing Your Julia Package
-
+<!-- deck start --> 
 Do you work with the Julia language? If so, this article on how to finalize Julia package will be of interest.
+<!-- deck end -->
 
 Resource information | Details
 :--- | :--- 
