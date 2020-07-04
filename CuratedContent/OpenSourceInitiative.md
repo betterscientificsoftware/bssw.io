@@ -1,6 +1,12 @@
 # An Introduction to the Open Source Initiative Organization
 
+<!-- deck text start --> 
 This article introduces the Open Source Initiative Organization - whose mission is to promote and protect open source software and communities.
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+
+#### Publication date: January 30, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -12,9 +18,7 @@ The *[Open Source Initiative](https://opensource.org/) (OSI)* are the stewards o
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-osi.png' class='logo' />
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
 
-#### Publication date: January 30, 2020
 
 <!---
 Publish: yes
