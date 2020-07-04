@@ -1,8 +1,13 @@
 # Producing a Webinar Series
-
+<!-- deck text start --> 
 Do you want to know what it takes to put in place a series of webinars? 
 In this article we introduce the *machinery* behind the 
 HPC Best Practices Webinar Series.
+<!-- deck text end --> 
+
+### Contributed by [Osni Marques](http://github.com/oamarques)
+
+#### Publication date: July 5, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -22,12 +27,9 @@ DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as we
 (and has been) refined and adapted as needed, as well as applied to other scenarios. For example, over time we 
 found it necessary to start interacting with speakers earlier, and adjust timelines accordingly.
 
-As of April 2020, the process described in the repository has been successful in delivering 32 webinars since June 2017, with an average of 73 participants per webinar.
+As of July 2020, the process described in the repository has been successful in delivering 35+ webinars since June 2017, with an average of 73 participants per webinar.
 
-#### Contributed by [Osni Marques](http://github.com/oamarques)
-
-#### Publication date: September 26, 2019
-
+#
 <!---
 Publish: yes
 RSS update: 2019-09-26
