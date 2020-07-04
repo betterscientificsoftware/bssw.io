@@ -1,6 +1,8 @@
 # Want to Start Getting Git Right?
 
+<!-- deck start --> 
 Revision control systems like Git are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project. Do you need a starting point to start learning about *Git*?
+<!-- deck end --> 
 
 Resource information | Details 
 :--- | :--- 
