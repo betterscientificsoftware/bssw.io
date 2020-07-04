@@ -1,8 +1,12 @@
 
 # Establishing Guidelines for Testing and Documenting Code
 
+<!-- deck text start --> 
 Testing and Documentation are  both vital components of scientific codes. How do you ensure that your code is high-quality and has a long life span?
+<!-- deck text end --> 
 
+#### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
+#### Publication date: July 21, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -13,7 +17,7 @@ Web links |  [Slides](https://www.olcf.ornl.gov/wp-content/uploads/2016/04/testi
 
 Software verification and validation are needed for high-quality and reliable scientific codes. For software with moderate to long lifecycles, a strong automated testing regime is indispensable for continued reliability. Similarly, comprehensive and comprehensible documentation is vital for code maintenance and extensibility. This presentation provides guidelines on testing and documentation that can help to ensure high-quality and long-lived HPC software. It presents methodologies, with examples, for developing tests and adopting regular automated testing. It also provides guidelines for minimum, adequate, and good documentation practices depending on the available resources of the development team.
 
-#### Publication date: July 21, 2019
+
 
 <!---
 Publish: yes
