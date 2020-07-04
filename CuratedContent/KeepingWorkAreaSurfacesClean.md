@@ -1,12 +1,15 @@
-# Keeping Work Area Surfaces Clean
-
+# Keeping Work Area Surfaces Clean (UNPUBLISHED)
+<!-- deck text start --> 
 Keeping your work area surfaces clean is a best practice at any time but especially in times
 of heightend awareness of possible transmission of disease.
+<!-- deck text end --> 
+
+#### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
 
 Resource information | Details 
 :--- | :--- 
 Resource name  | Cleaning Your Work Surfaces: One Way to Help Flatten the Curve
-Webpage | https://markcmiller86.github.io/flatten-the-curve/KeepingWorkAreaSurfacesClean.html
+Webpage | https://markcmiller86.github.io/flatten-the-curve/KeepingWorkAreaSurfacesClean.html <br> **NOTE: This link is no longer valid**
 Focus | Personal productivity and sustainability
 
 This article explains why cleaning work area surfaces regularly is important. It reminds us
@@ -20,9 +23,6 @@ are easily overlooked, help contribute to *flattening the curve*. The article in
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0320_COVID19_greyB.png' class='page' />
 
-#### Contributed by [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller's GitHub Profile")
-
-#### Publication date: March 18, 2020
 
 <!---
 Publish: no

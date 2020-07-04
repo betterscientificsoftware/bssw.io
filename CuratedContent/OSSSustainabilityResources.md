@@ -1,7 +1,10 @@
 # A Collection of Resources for Sustaining Open Source Software
-<!-- deck start -->
+<!-- deck text start -->
 Are you a researcher or developer interested in sustaining open source software?  This content discusses challenges, strategies, and organizations that provide support.
-<!-- deck end -->
+<!-- deck text end -->
+
+#### Contributed by [Todd Gamblin](https://github.com/tgamblin)
+#### Publication date: December 20, 2019
 
 Sustaining a scientific software project is a difficult task.  One
 strategy for sustaining scientific software is to build a community of
@@ -37,11 +40,11 @@ The *[Open Source Guides](https://opensource.guide/)* is a website by GitHub. It
 
 Resource information | Details 
 :--- | :--- 
-Book title | Producing Open Source Software
+Book title | [Producing Open Source Software](https://producingoss.com/)
 Authors | Karl Fogel
 Publication | 2005, ISBN-10: 0596007590, ISBN-13: 978-0596007591
 
-The *Producing Open Source Software* book was authored by Karl Fogel in 2005. It discusses various aspects of managing a community of open source developers.
+The *[Producing Open Source Software](https://producingoss.com/)* book was authored by Karl Fogel in 2005. It discusses various aspects of managing a community of open source developers.
 
 ### Podcasts
 
@@ -111,7 +114,7 @@ Organization name | Sloan Foundation
 Website | [Sloan Foundation](https://sloan.org/)
 Focus | Funding science
 
-The [Sloan Foundation](https://sloan.org/) and the [Moore Foundation](https://www.moore.org/) offer grants in science and technology, among other areas. They have funded large data science initiatives that support open source, such as the [Moore-Sloan Data Science Environments (MSDE)](http://msdse.org/) and the [Jupyter Project](https://blog.jupyter.org/new-funding-for-jupyter-12009a836867).
+The *[Sloan Foundation](https://sloan.org/)* and the *[Moore Foundation](https://www.moore.org/)* offer grants in science and technology, among other areas. They have funded large data science initiatives that support open source, such as the [Moore-Sloan Data Science Environments (MSDE)](http://msdse.org/) and the [Jupyter Project](https://blog.jupyter.org/new-funding-for-jupyter-12009a836867).
 
 Resource information | Details 
 :--- | :--- 
@@ -119,11 +122,9 @@ Organization name | Ford Foundation
 Website | [Ford Foundation](https://www.fordfoundation.org)
 Focus | Funding science
 
-The [Ford Foundation](https://www.fordfoundation.org) has [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to fighting inequality. One thrust area is [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/), which funded the Roads & Bridges report on open source.
+The *[Ford Foundation](https://www.fordfoundation.org)* has [grants](https://www.fordfoundation.org/work/our-grants/) dedicated to fighting inequality. One thrust area is [technology for the public interest](https://www.fordfoundation.org/work/challenging-inequality/), which funded the Roads & Bridges report on open source.
 
-#### Contributed by [Todd Gamblin](https://github.com/tgamblin)
 
-#### Publication date: December 20, 2019
 
 <!---
 Publish: yes

@@ -1,6 +1,10 @@
 # An Introduction to Contributor Agreements
+<!--deck text start-->
+Have you heard of *Contributor Agreements*? Learn more about these agreements to proactively avoid future legal issues and code disputes.
+<!--deck text end-->
 
-Have you heard of Contributor Agreements? Learn more about these agreements to proactively avoid future legal issues and code disputes.
+#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Publication date: July 20, 2019 
 
 Resource information | Details 
 :--- | :--- 
@@ -16,9 +20,6 @@ Contributor agreements are a way of managing a variety of legal issues associate
 ![alt text](http://contributoragreements.org/wp-content/themes/bones/images/ca_logo.svg "Contributor Agreements Logo")
 --->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-
-#### Publication date: July 20, 2019 
 
 <!---
 Publish: yes

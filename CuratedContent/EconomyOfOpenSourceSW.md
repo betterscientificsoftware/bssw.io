@@ -1,7 +1,12 @@
 # A Look at the Economic Forces in Open Source Software
 
+<!--deck text start-->
 The article *The Internet Was Built on the Free Labor of Open Source Developers.
-Is That Sustainable?* looks at the economics driving the Open Source movement and how that is putting at risk those utilizing that software without investing in it.
+Is That Sustainable?* looks at the economics driving the Open Source movement and how it puts those utilizing that software without investing in it at risk.
+<!--deck text end-->
+
+#### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
+#### Publication date: January 03, 2020
 
 Resource Information | Details
 :--- | :--- 
@@ -17,9 +22,6 @@ Along the way he looks at the cost estimates for dealing with the bug ([~ $500 M
 Much of the compensation for developers in open source work is non-monetary, forcing influence to be less direct.
 The author traces a series of actions that organizations can take, including directly tasking employees to work on projects, establishing grants, and paying for support contracts to help assure the codes they rely on are robust and reliable without having the costs or direct control typical of traditional development.
 
-#### Contributed by [Paul Wolfenbarger](https://github.com/prwolfe "Paul Wolfenbarger's GitHub Profile")
-
-#### Publication date: January 03, 2020
 
 <!---
 Publish: yes

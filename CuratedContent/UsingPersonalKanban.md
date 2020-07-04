@@ -1,13 +1,14 @@
 
 # Using Personal Kanban for Productivity
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
-#### Publication date: May 18, 2020
-
-
+<!-- deck text start --> 
 The article *Personal Kanban Part 1 -- Why Todo Lists Don't Work* explains the
 advantages of using a kanban board for personal productivity and the advantages 
 over the use of todo lists.
+<!-- deck text end --> 
+
+#### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
+#### Publication date: May 18, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -41,6 +42,7 @@ and an article that describes using gitlab for kanban.
 ### Links to additional information
 - [Personal Kanban Part 2 Kanban with Trello, Sven Wiegand](https://hackernoon.com/personal-kanban-part-2-personal-kanban-with-trello-a6bd6cdb0588)
 - [Task Management and Personal Kanban How I Use Gitlab Issues, Gerard Braad](http://gbraad.nl/blog/task-management-and-personal-kanban-how-i-use-gitlab-issues.html)
+
 
 <!---
 Publish: yes
