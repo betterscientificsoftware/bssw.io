@@ -1,6 +1,11 @@
 # Software Engineering for Science (SE4Science)
 
+<!-- deck text start -->
 A site maintained by University of Alabama Computer Science Professor Jeffrey C. Carver and his PhD student Nasir Eisty to collect and promote work to bridge between the software engineering and research software (including computation science and engineering) communities.
+<!-- deck text start -->
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: July 19, 2019
 
 Resource information | Details
 :--- | :--- 
@@ -16,9 +21,7 @@ Some of the resources included on the site include:
 - A list of publications on software engineering for science from Carver's research group and collaborators; and
 - A nascent "paper hub", collecting other papers about software engineering for science.
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-#### Publication date: July 19, 2019
 
 <!---
 Publish: yes
