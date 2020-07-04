@@ -1,8 +1,11 @@
 # A Minisymposium on Improving Productivity and Sustainability for Parallel Computing Software
-<!-- deck start -->
-<!-- deck end -->
-
+<!-- deck text start -->
 Scientific computing facilities and projects continue to make strides toward software sustainability. A recent minisymposium featured several interesting talks showcasing approaches to address technical as well as social challenges in this area.
+<!-- deck text end -->
+
+#### Contributed by [Rinku Gupta](https://github.com/rinkug)
+
+#### Publication date: April 20, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -25,10 +28,6 @@ A collection of talks presented at the [minisymposium](https://meetings.siam.org
 
 Overall, the talks at the minisymposium provide good insight on challenges encountered and progress made toward software sustainability in various aspects of high-performance scientific computing.
 
-
-#### Contributed by [Rinku Gupta](https://github.com/rinkug)
-
-#### Publication date: April 20, 2020
 
 <!---
 Publish: yes
