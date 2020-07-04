@@ -1,7 +1,11 @@
 # Where and How to Publish CSE Software?
-
+<!-- deck text start --> 
 Publishing software is gaining traction in the CSE community. This
 article discusses possible venues and methods to publish CSE software.
+<!-- deck text end --> 
+
+#### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez")
+#### Publication date: October 16, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -107,9 +111,6 @@ sites which can provide a DOI for your software with little to no review:
    It is also often used to upload slides and posters in a way that makes them
    citeable.
 
-#### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez")
-
-#### Publication date: October 16, 2019
 
 <!---
 Publish: yes
