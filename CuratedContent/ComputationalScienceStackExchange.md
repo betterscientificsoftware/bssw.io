@@ -1,6 +1,7 @@
 # An Introduction to Computational Science Stack Exchange
-
+<!--deck start-->
 Do you work in computational science and need an online forum for asking questions and discusssing scientific computational problems? 
+<!--deck end-->
 
 Resource information | Details
 :--- | :--- 
