@@ -1,7 +1,10 @@
 # An Introduction to Sphinx
-<!-- deck start --> 
+<!-- deck text start --> 
 Documentation is an important part of any software. Learn about the *Sphinx* source tool to aid you in this process!
-<!-- deck end --> 
+<!-- deck text end --> 
+
+#### Contributed by [Damon McDougall](https://github.com/dmcdougall) and [Axel Huebl](https://github.com/ax3l)
+#### Publication date: December 19, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -26,9 +29,7 @@ See the
 
 <img src="https://www.sphinx-doc.org/en/master/_static/sphinxheader.png" class="logo">
 
-#### Contributed by [Damon McDougall](https://github.com/dmcdougall) and [Axel Huebl](https://github.com/ax3l)
 
-#### Publication date: December 19, 2019
 
 <!---
 Publish: yes
