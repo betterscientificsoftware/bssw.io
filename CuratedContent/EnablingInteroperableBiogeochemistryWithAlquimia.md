@@ -1,6 +1,8 @@
 # How to Enable Interoperable Biogeochemistry with Alquimia
 
+<!--deck start-->
 Codes in diverse but inter-related fields have specialized capabilities that need to be shared with each other through efficient componentization. Libraries such as *Alquimia* help achieve this!
+<!--deck end-->
 
 Resource information | Details 
 :--- | :---  
