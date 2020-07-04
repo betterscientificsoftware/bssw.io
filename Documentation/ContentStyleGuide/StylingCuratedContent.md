@@ -21,7 +21,8 @@ Table of Contents for Styling Rules for Curated Content
     + [Special tables](#special-tables)
 * [Main Body text](#main-body-text)
 * [Logo declaration](#logo-declaration)
-* [References for the article](#references-for-the-article)
+* [](#references-for-the-article)
+* [Unpublishing Articles](#unpublishing-articles)
 
 ## Styling for Curated Content
 
@@ -170,6 +171,10 @@ All references across all content types are handled in the same way; hence pleas
 
 ## METADATA SECTION
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+
+## UNPUBLISHING EVENTS
+There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
+
 
 ### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR CURATED CONTENT TYPE
 TBD
