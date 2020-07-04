@@ -1,8 +1,11 @@
 # How to Enable Interoperable Biogeochemistry with Alquimia
 
-<!--deck start-->
+<!--deck text start-->
 Codes in diverse but inter-related fields have specialized capabilities that need to be shared with each other through efficient componentization. Libraries such as *Alquimia* help achieve this!
-<!--deck end-->
+<!--deck text end-->
+
+#### Contributed by [David Moulton](https://github.com/jd-moulton "David Moulton")
+#### Publication date: July 23, 2019
 
 Resource information | Details 
 :--- | :---  
@@ -14,9 +17,6 @@ Environmental applications involve a wide range of processes, from hydrology and
 
 The complexity and importance of biogeochemistry make it an excellent target for componentization via *[Alquimia](https://github.com/LBL-EESA/alquimia-dev)*, a uniform API and wrapper library for these capabilities. Initial development of *Alquimia* focused on making the capabilities of PFLOTRAN and CrunchFlow available to applications such as Amanzi.  *Alquimia* makes it easier for a developer to use a specialized feature from another code’s biogeochemistry component, and makes the development of new features more efficient.
 
-#### Contributed by [David Moulton](https://github.com/jd-moulton "David Moulton")
-
-#### Publication date: July 23, 2019
 
 <!---
 Publish: yes
