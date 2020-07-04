@@ -1,6 +1,7 @@
 # An Introduction to Sphinx
-
+<!-- deck start --> 
 Documentation is an important part of any software. Learn about the *Sphinx* source tool to aid you in this process!
+<!-- deck end --> 
 
 Resource information | Details 
 :--- | :--- 
