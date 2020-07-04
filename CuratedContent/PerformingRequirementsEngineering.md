@@ -1,7 +1,10 @@
 # Performing the Requirements Engineering Process
-
+<!-- deck text start --> 
 This short article talks about how the requirements process can be carried out in the context of a scientific software development project.
+<!-- deck text end --> 
 
+#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
+#### Publication date: August 06, 2019
 
 How should the requirements process be carried out in the context of a scientific software development project? A review of the literature suggests three trends of interest:
 
@@ -42,13 +45,6 @@ The first objective is to identify the stakeholders. A stakeholder can be anyone
 - The general public, who will ultimately be paying for the software and for whose benefit the work is justified.
 
 
-Do you like reading on this topic? There is **MORE COMING SOON!**
-
-
-
-#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
-
-#### Publication date: August 06, 2019
 
 
 <!---
