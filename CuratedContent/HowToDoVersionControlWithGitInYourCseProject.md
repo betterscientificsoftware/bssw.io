@@ -1,8 +1,8 @@
 ### How to do Version Control with Git in your CSE Project
 
-<!-- deck start -->
+<!-- deck text start -->
 Git is a well-known version control software, very commonly used in CSE projects. This *How To* document is a good resource on learning how to use Git.
-<!-- deck end -->
+<!-- deck text end -->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 #### Publication date: August 06, 2019
