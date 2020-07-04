@@ -1,11 +1,19 @@
 # Transmedia Learning Framework for Git and GitHub
+<!-- deck text start --> 
 It is important to undestand Git and GitHub on a base level prior to use. Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
+<!-- deck text end --> 
+
+#### Contributed by: [Elaine Raybourn](https://github.com/elaineraybourn)**
+#### Publication date: July 19, 2019**
+
 
 Resource information | Details 
 :--- | :--- 
 Resource Name | Transmedia Learning Framework for Git and GitHub
 Websites | [Udacity MOOC How to use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775), [Git tutorial 2: Advanced Techniques with Rachel](https://www.youtube.com/watch?v=hF9X62rLSjE), [IDEAS Productivity Intermediate Git Webinar](https://www.youtube.com/watch?v=xBNlcq2B2E8), [IDEAS Productivity Git Tutorial and Reference Collection](https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection/)
 Focus | Git, GitHub, Computation Science
+
+Following are some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
 
 - *[Udacity MOOC How to use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)*
 -This free Udacity massively open online course (MOOC) focuses on revision control for code using Git and GitHub.
@@ -19,9 +27,6 @@ Focus | Git, GitHub, Computation Science
 - *[IDEAS Productivity Git Tutorial and Reference Collection](https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection/)*
 -This page provides links to some useful tutorial and reference information about the git revision control system.
 
-**Contributed by: [Elaine Raybourn](https://github.com/elaineraybourn)**
-
-**Publication date: July 19, 2019**
 
 <!--- browser security problems
 - [GitGame](https://www.git-game.com/)
