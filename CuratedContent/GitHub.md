@@ -1,6 +1,7 @@
 # An Introduction to GitHub
-
+<!-- deck start --> 
 Are you familiar with revision control repository services? *GitHub* is a well-known Git-focused revision control repository service.
+<!-- deck end --> 
 
 Resource information | Details 
 :--- | :--- 
