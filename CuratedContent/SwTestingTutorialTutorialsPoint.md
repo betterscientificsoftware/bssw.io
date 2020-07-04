@@ -1,6 +1,13 @@
 # An Introduction to a Software Testing Tutorial from TutorialsPoint
 
+<!-- deck text start --> 
 Software testing is an imporant part of the software development lifecycle. Do you understand the software testing processes and frameworks involved?
+<!-- deck text end --> 
+
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+
+#### Publication date: August 1, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -16,9 +23,6 @@ Before proceeding with this tutorial, you should have a basic understanding of t
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class_tutorialpoint_logo.png' class='logo' />
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
-
-#### Publication date: August 1, 2019
 
 <!---
 Publish: yes
