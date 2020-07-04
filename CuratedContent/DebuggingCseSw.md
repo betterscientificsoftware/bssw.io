@@ -1,4 +1,4 @@
-# Debugging CSE Software
+# Debugging CSE Software UNPUBLISHED
 
   Debugging tools help with identifying buggy code or code paths in software.
 
