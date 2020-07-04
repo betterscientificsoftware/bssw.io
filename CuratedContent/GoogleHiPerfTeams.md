@@ -4,6 +4,9 @@
 What makes for a high performing team? This article showcases a podcast in the context of high performing teams at Google.
 <!-- deck text end --> 
 
+#### Contributed by [Mike Heroux](https://github.com/maherou)
+#### Publication date: August 06, 2019
+
 Resource information | Details 
 :--- | :--- 
 Podcast title  | High Performing Teams at Google 
