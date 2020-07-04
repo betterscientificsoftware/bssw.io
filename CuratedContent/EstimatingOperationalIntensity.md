@@ -1,6 +1,8 @@
 # Estimating Operational Intensity
 
-This paper from Lawrence Berkeley National Laboratory introduces the Roofline model as a way to judge the suitability of your kernel to any given architecture.
+<!--deck start-->
+This paper from Lawrence Berkeley National Laboratory introduces the *Roofline model* as a way to judge the suitability of your kernel to any given architecture.
+<!--deck end-->
 
 Resource information | Details 
 :--- | :---  
