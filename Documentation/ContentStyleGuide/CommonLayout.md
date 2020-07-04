@@ -71,3 +71,10 @@ Very rarely, but possibly, we may have references/citations at the end of the ar
 
 ## METADATA SECTION
 We include metadata as *formatted comments* at the end of the file.  Metadata helps define rules about publishing an article, tagging them, selecting categories etc. Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site. Please read the the section on Metadata to get detailed insight on the different tags and their importance.
+
+## UNPUBLISHING CONTENT
+Please follow the below rules
+1. There needs to be  documentation about why content is being unpublished. On top of the content file, please add
+ `Date1: mm-dd-yyyy: Reason for unpublishing`
+ `Date2: mm-dd-yyyy: Reason for unpublishing`
+2. Add the word UNPUB to file file name. For examplw: `GitversionUNPUB.md`
