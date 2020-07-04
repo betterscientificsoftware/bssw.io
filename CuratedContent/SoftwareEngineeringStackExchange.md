@@ -1,6 +1,10 @@
 # Software Engineering Stack Exchange
-
+<!-- deck text start --> 
 *[Software Engineering Stack Exchange](https://softwareengineering.stackexchange.com/)* is a question and answer site for professionals, academics, and students working within the software development lifecycle.
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: May 30, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -14,9 +18,7 @@ The focus of this particular Stack Exchange site is on software engineering; com
      Native image is too large.  Need to reduce size for reasonable display.
 ![alt text](https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-logo.png "Stack Exchange Logo")
 --->
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-#### Publication date: May 30, 2019
 
 <!---
 Publish: yes
