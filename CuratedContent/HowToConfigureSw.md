@@ -1,10 +1,9 @@
 ### How to Configure Software
-<!-- deck start --> 
+<!-- deck text start --> 
 Scientific software project leaders and developers need to ensure that their software can be installed on a wide variety of machines. This *How To* document is a good resource on learning how to configure CSE software for easy installation across platforms.
-<!-- deck end --> 
+<!-- deck text end --> 
 
 #### Contributed by [Jason Sarich](https://github.com/sarich)
-
 #### Publication date: August 06, 2019
 
 Resource information | Details
