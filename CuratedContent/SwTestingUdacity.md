@@ -1,8 +1,11 @@
 # Understanding Software Testing and How to Make Software Fail
 
-
+<!-- deck text start --> 
 Do you understand software testing? How about learning how to make software fail with a goal of building a better, bug-free, and a high-quality product?
+<!-- deck text end --> 
 
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: August 1, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -16,9 +19,7 @@ When writing software, destruction can be just as valuable as creation. The cour
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-udacity.png' class='logo' />
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
 
-#### Publication date: August 1, 2019
 
 <!---
 Publish: yes
