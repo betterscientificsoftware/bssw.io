@@ -1,6 +1,11 @@
 # Minisymposium and Minisymposterium: Software Productivity and Sustainability for CSE and Data Science
-
+<!-- deck text start --> 
 The minisymposium speakers and poster presenters discuss work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby is helping software to fulfill its critical role as a cornerstone of long-term CSE collaboration.
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Publication date: May 15, 2017
+
 
 Resource information | Details
 :--- | :--- 
@@ -52,10 +57,6 @@ The Minisymposium and Minisymposterium listed above as a part of *[SIAM CSE17](h
   - _World SpatioTemporal Analytics & Mapping Project (WSTAMP): Cloud Implementation of Open Source Algorithms and Data Stores for Sustainable, Scalable Analysis of Space-Time Data_
   - _xSDK: Working toward a Community CSE Software Ecosystem_
 
-
-**Contributed by:**
-
-**Publication date:**
 
 <!---
 Publish: yes
