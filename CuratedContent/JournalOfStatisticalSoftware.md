@@ -1,4 +1,4 @@
-# Journal of Statistical Software
+# Journal of Statistical Software UNPUBLISHED
 
 [Journal of Statistical Software (JSS)](https://www.jstatsoft.org/index) is an established journal with a focus on software which implements statistical methods rather than other mathematical modeling topics.
 
