@@ -8,7 +8,7 @@ Do you want to help the community work toward a long-term goal of advancing scie
 
 <!-- start of body -->
 
-The first step when it comes to contributing to BSSw is checking whether your content a good fit.  Please see [What To Contribute](./WhatToContribute.md) for information on scope.  If you are still unsure, please [contact us](./QuestionsAboutContributing.md).
+The first step when it comes to contributing to BSSw is checking whether your content a good fit.  Please see [What To Contribute](./WhatToContribute.md) for information on scope.  If you are still unsure, please [contact us](https://bssw.io/pages/questions-about-contributing-to-better-scientific-software).
 
 PLEASE NOTE that at this stage, you are expected to only submit a short abstract of your article. Once reviewed and if accepted, you will be contacted to submit the complete version. Once you are ready to contribute, please use one of the below approaches to submit your abstract.  
 
@@ -25,7 +25,7 @@ If you are familiar with GitHub, please do use the below approach to submit your
 ### What happens next?
 After you have submitted your material by either of the two approaches described above, it will be reviewed by the BSSw.io editorial team. We will communicate with you to request the full article, clarifications, revisions or to review minor editorial revisions we make. Depending on the modality of your submission, these communications may occur through regular email or through standard GitHub tools and processes.
 
-Your issue and suggested contribution will be handled by the [BSSw Contibution Editorial Process](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Site/CuratedContentEditorialWorkflow.md).
+Your issue and suggested contribution will be handled by the [BSSw Contribution Editorial Process](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Site/CuratedContentEditorialWorkflow.md).
 
 <!--
 Publish: Yes  

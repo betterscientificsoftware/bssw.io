@@ -9,7 +9,7 @@ Use of CSE software in making important decisions based on large-scale simulatio
 
 ## Where do I go next?
 - **Explore** the resources below.
-- **Investigate** all of BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Investigate** all of BSSw's offerings [BSSw Homepage](https://bssw.io).
 
 <!--
 Featured resources for the Software Engineering community.

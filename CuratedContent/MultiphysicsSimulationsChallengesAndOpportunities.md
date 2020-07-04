@@ -1,7 +1,8 @@
 # Multiphysics Simulations: Challenges and Opportunities
 
 <!-- deck text start --> 
-The *Multiphysics simulations: Challenges and opportunities* paper was published in the *International Journal of High Performance Computing Applications* in 2013 and it explores different software frameworks for multiphysics applications, discusses commonalities among them, and extrapolates best practices for future computer systems.
+The *Multiphysics simulations: Challenges and opportunities* paper was published in the *International Journal of High Performance Computing Applications* in 2013 and
+it explores different software frameworks for multiphysics applications, discusses commonalities among them, and extrapolates best practices for future computer systems.
 <!-- deck text end --> 
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman)
@@ -17,7 +18,7 @@ Publication | Year 2013, The International Journal of High Performance Computing
 
 *Multiphysics simulations: Challenges and opportunities*, published in *2013*, in the *IJHPCA journal*, discusses multiphysics applications from algorithmic and architectural perspectives, where ‘‘algorithmic’’ includes both mathematical analysis and computational complexity, and ‘‘architectural’’ includes both software and hardware environments. A variety of software frameworks for multiphysics applications have been constructed and refined within disciplinary communities and executed on leading-edge computer systems. This paper examines several of these, exposes some commonalities among them, and attempts to extrapolate best practices to future systems. 
 
-Of particular interest in the BSSw context is section 4 (Multiphysics Software), which considers software issues from the perspective of scientific application teams, who face daunting challenges both in building application-specific infrastructure and in incorporating libraries, frameworks, and tools.  The section also discusses challenges in designing multiphysics software for HPC environments, possible approaches to help manage complexity and change, and practical difficulties in collaborative research software.
+Of particular interest in the BSSw context is section 4 (<mark>Multiphysics Software</mark>), which considers software issues from the perspective of scientific application teams, who face daunting challenges both in building application-specific infrastructure and in incorporating libraries, frameworks, and tools.  The section also discusses challenges in designing multiphysics software for HPC environments, possible approaches to help manage complexity and change, and practical difficulties in collaborative research software.
 
 
 <!---

@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2020-05-20*
+*Listed in reverse chronological order. Last updated: 2020-07-02*
 
 
 
@@ -38,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*SYCL – Introduction and Best Practices*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar041), Thomas Applencourt (Argonne National Laboratory), 2020-06-17
 
 
 
@@ -237,15 +245,15 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Scientific Software Development with Eclipse*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Greg Watson (Oak Ridge National Laboratory), 2018-03-28
-
-
-
-
-
-
-
 - [*Jupyter and HPC: Current State and Future Roadmap*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Matthias Bussonnier (UC Berkeley), Suhas Somnath (Oak Ridge National Laboratory),  and Shreyas Cholia (National Energy Research Scientific Computing Center), 2018-02-28
+
+
+
+
+
+
+
+- [*Scientific Software Development with Eclipse*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Greg Watson (Oak Ridge National Laboratory), 2018-03-28
 
 
 

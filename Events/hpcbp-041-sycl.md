@@ -1,6 +1,6 @@
 # Webinar: SYCL – Introduction and Best Practices
 
-- Date: 2020-06-10
+- Date: 2020-06-17
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar041
 - Organizers: The IDEAS Productivity Project
@@ -14,7 +14,7 @@ high-performance computers (HPC) and occur approximately monthly.
 Resource Information | Details
 :--- | :---			   
 Webinar Title | SYCL – Introduction and Best Practices
-Date and Time | 2020-06-10 01:00 pm EDT
+Date and Time | 2020-06-17 01:00 pm EDT
 Presenter | Thomas Applencourt (Argonne National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar041>	   
 
