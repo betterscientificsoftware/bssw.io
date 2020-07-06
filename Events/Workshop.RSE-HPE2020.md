@@ -4,7 +4,7 @@
 This Research Software Engineers in HPC Workshop (RSE-HPC-2020), to be held in conjunction with SC20, will bring together RSEs and allies involved in HPC from all over the world.
 <!-- deck end -->
 
-- Date: November 16, 2020
+- Date: August 14, 2020
 - Location: Online
 - Event Website: https://us-rse.org/rse-hpc-2020
 
