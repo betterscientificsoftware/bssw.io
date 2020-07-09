@@ -175,7 +175,7 @@ M. Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing e
 <!--- MS - These references were in place, but no anchor links were present. Not sure why they are included
 [1]: #ref1 "Are we doing the right thing? - A Critical Analysis of the Academic HPC Community"
 [2]: #ref2 "Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility"
-<!---
+---> 
 
 **** References
 
