@@ -17,12 +17,12 @@
           * Acceptance
           * No-change
           * Performance
-      * Test Analysis Tools
+      * [Test Analysis Tools](#analysis)
           * Memory Usage Error Detection
           * Code Coverage
-  * Discussion
+  * [Discussion](#discussion)
   
-<h2 id="purpose">Purpose of this Document</h3>
+<h2 id="purpose">Purpose of this Document</h2>
   
 This document provides common classification and definitions for tests for CSE software. These
 definitions and classifications are largely consistent with accepted definitions in the broader software
@@ -108,7 +108,7 @@ behavior does change for the better (for any definition of “better”), one wi
 tests (i.e. characterization tests) at the unit level are considered sufficient to drive software refactoring efforts. It
 is the higher levels of tests (i.e. integration and system-level) where no-change tests are considered most problematic.
 
- * **[Performance Tests](https://en.wikipedia.org/wiki/Software_performance_testing)**
+ * **[Performance Tests:](https://en.wikipedia.org/wiki/Software_performance_testing)**
    <br>Performance tests focus on the runtime and resource utilization of the software in question. Examples
 of performance tests include CPU time, CPU cycles, scalability to larger problem sizes, or more MPI
 processors, etc. This category of test is largely orthogonal from the previously discussed types. That is,
@@ -118,3 +118,49 @@ here are specifically designed to measure the performance of a particular piece 
 Therefore, one has to specifically design these tests as opposed to just running some analysis tool for
 memory usage error detection or code coverage . Performance tests can be written at the unit ,
 integration , or system level.
+
+<h3 id="analysis"><b><i>Test Analysis Tools</h3></b></i>
+In addition to specific types of tests that are created, different types of analysis can be performed on a
+given set of existing executable tests. Some examples of this are memory usage error detection and
+code coverage.<br>
+
+  * **[Memory Usage Error Detection:](https://en.wikipedia.org/wiki/Memory_debugger)**
+    <br>Memory usage error detection is run on software written in unsafe languages like C, C++, and Fortran
+that checks for uninitialized variables, array out of bounds, memory leaks, and other memory usage
+errors using tools like valgrind, purify, etc. These tools run on any given existing test suite for the
+software of interest and report any issues found.
+
+  * **[Code Coverage:](https://en.wikipedia.org/wiki/Code_coverage)**
+    <br>Code Coverage investigates which lines of code are executed, what logical branches are run, etc. A
+coverage test tool is run on a given test suite for the software of interest and then the results are
+displayed for analysis.
+
+<h2 id="discussion">Discussion</h2>
+
+The granularity of a test and the type (or focus) of a test are typically independent of each other. For
+example, a verification test can be applied at the unit level or the system level. Also, while acceptance
+and validation tests are typically applied at the system level, they can also be applied at lower levels
+(e.g. unit or integration level) depending on the nature of experimental data, for instance.
+
+A [regression test suite](https://en.wikipedia.org/wiki/Regression_testing) is a set of tests which helps to check that a code is not losing capabilities and behaviors that it had in previous versions of the code (i.e. the code is not “regressing”). Any of the
+above types of tests (i.e. verification, acceptance, no-change, performance) and granularity of tests (i.e.
+unit, integration, system-level) as well as different types of test analysis/tools can be included in a
+regression test suite. In addition, a regression test suite can be defined in incremental pieces for
+pre-push tests, post-push tests, nightly tests, and weekly tests (e.g. see [nested layers of testing](https://tribits.org/doc/TribitsDevelopersGuide.html#nested-layers-of-tribits-project-testing)) A
+common problem in CSE codes is that almost all of the tests in the regression test suite are no-change system-level
+tests. Such test suites are not considered by many to provide a sufficient foundation to
+efficiently and safely drive future development and refactoring efforts in many CSE codes.
+
+Technically speaking, a non-regression test suite is a set of new tests that are developed to test new
+functionality. Such tests would include verification tests and acceptance tests (such as with [test-driven
+development](https://en.wikipedia.org/wiki/Test-driven_development) and [acceptance-test driven development](https://en.wikipedia.org/wiki/Acceptance_test%E2%80%93driven_development)). If these tests are well defined and well
+automated, then they are good candidates to be added to the regression test suite to protect future
+development of the software.
+
+Note that memory usage error detection and code coverage do not define new categories of tests in
+that one does not write specific memory usage error tests or code coverage tests. Instead, they are
+important diagnostic tools (especially memory usage error detection) that are run on a code using an
+already defined test suite.
+
+<h6 align="center">This document was prepared by Roscoe A. Bartlett and Barry Smith with key contributions from James M.
+Willenbring, Michael A. Heroux and Ulrike Yang. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.</h6>
