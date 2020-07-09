@@ -177,14 +177,11 @@ M. Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing e
 [2]: #ref2 "Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility"
 ---> 
 
-#### References
+### References
 
 <div class="reference-wrapper">
 <div class="references">
 <a href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf">Anzt and Flegar, Are we doing the right thing? - A Critical Analysis of the Academic HPC Community, 20th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC 2019)</a>
-</div>
-  
-<div class="references">
 <a href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf">Anzt et al., Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility, Proceedings in Applied Mathematics and Mechanics - 90th GAMM Annual Meeting, 2019</a>
 </div>
 </div>
