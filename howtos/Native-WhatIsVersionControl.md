@@ -65,7 +65,7 @@ workflows.
 
 Several tools exist to convert and interoperate between different open-source VCS (e.g., [git-svn](https://git-scm.com/docs/git-svn), [hg-git](https://www.mercurial-scm.org/wiki/HgGit)). However, these tools vary greatly in maturity, performance, scalability, and usability.
 
-##Use Cases for Version Control
+## Use Cases for Version Control
 Version control is useful in numerous situations. Because most VCS tools are oriented to text file
 lines, users can manage and collaborate on nearly any set of text files in a VCS. The following
 are examples.
