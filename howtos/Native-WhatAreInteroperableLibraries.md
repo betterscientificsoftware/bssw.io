@@ -70,3 +70,18 @@ to application developers because they can access capabilities of additional lib
 the familiar interfaces of the first library.
 
 ## The Extreme-Scale Scientific Software Development Kit (xSDK)
+
+<p align="left">
+<img align="right" src="https://i.ibb.co/C9h43tR/Screen-Shot-2020-07-10-at-10-34-30-AM.png">
+A key aspect of work in the <a href="https://ideas-productivity.org/">IDEAS project</a> is development of the
+ <a href="http://xsdk.info/">Extreme-scale Scientific Software Development Kit (xSDK)</a> —a collection
+of related and complementary software elements that provide the
+building blocks, tools, models, processes, and related artifacts for rapid
+and efficient development of high-quality applications.<br>
+<h4><i>xSDK community policies:</i></h4> 
+<br>The xSDK addresses interoperability among the high-performance
+numerical libraries hypre , PETSc , SuperLU , and Trilinos . The xSDK ensures level 1
+interoperability for each xSDK library via a full-featured build script and testing environment and
+a collection of community policies. The following draft xSDK community policies address
+challenges in interoperability level 1.
+</p>
