@@ -81,8 +81,46 @@ and efficient development of high-quality applications.</p>
 
 #### *xSDK community policies:* 
 The xSDK addresses interoperability among the high-performance
-numerical libraries hypre , PETSc , SuperLU , and Trilinos . The xSDK ensures level 1
+numerical libraries [hypre](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods), [PETSc](https://www.mcs.anl.gov/petsc/), [SuperLU](crd.lbl.gov/%7Exiaoye/SuperLU/), and [Trilinos](https://trilinos.github.io/). The xSDK ensures level 1
 interoperability for each xSDK library via a full-featured build script and testing environment and
 a collection of community policies. The following draft xSDK community policies address
 challenges in interoperability level 1.
 
+ * **[xSDK package community policies:](https://figshare.com/articles/xSDK_Community_Package_Policies/4495136)** 
+**A set of required policies** (including topics of
+configuring, installing, testing, use of MPI, portability, contact and version information,
+open source licensing, namespacing, and repository access) that a software package
+must satisfy in order to be considered **xSDK compatible**. This designation informs
+potential users that the package can be easily used with other xSDK libraries and
+components. Also presented are *recommended policies* (including topics of public
+repository access, error handling, freeing system resources, and library dependencies),
+which are encouraged but not required. Similarly, a package can become an xSDK
+member package if (1) it is an xSDK-compatible package, ***and*** (2) it uses or can be
+used by another package in the xSDK, and the connecting interface is regularly tested
+for regressions.
+
+ * **[xSDK community installation policies: GNU Autoconf and CMake options:](https://figshare.com/articles/xSDK_Community_Installation_Policies_GNU_Autoconf_and_CMake_Options/4495133)** 
+**A standard subset of configure and CMake options for xSDK and other HPC
+packages** in order to make the configuration and installation as efficient as possible on
+standard Linux distributions and Mac OS, as well as on target machines at DOE
+computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)).
+
+The xSDK collection of software packages commits to adhere to these community policies in
+order to ensure compatibility with other packages that meet the same standards. The aim is to
+simplify the combined use of multiple independently developed software packages and to
+provide a foundation for addressing broader issues in interoperability and performance
+portability.
+
+#### *Deeper Levels*
+Deeper levels of xSDK interoperability involve exchanging, controlling, and interpreting data, as well as calling routines between libraries (interoperability levels 2 and 3 described above).
+Initial xSDK capabilities of hypre, PETSc, SuperLU, and Trilinos support interoperability among
+scalable linear solvers, so that applications can readily experiment with algorithms across
+multiple packages, in combination. Forthcoming companion documents will explain approaches
+used for interfaces and adapters between packages as well as work on interoperability layers
+for other functionalities. A longer-term goal is collaboration among members of the HPC
+community to improve software interoperability as needed by extreme-scale computational
+science.
+
+<h6 align="center">This document was prepared by Lois Curfman McInnes, Michael Heroux, Xiaoye Li, Barry Smith, and Ulrike
+Yang, with contributions from all xSDK developers. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
+Computing Research and Biological and Environmental Research programs.</h6>
