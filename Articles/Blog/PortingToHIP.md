@@ -1,6 +1,6 @@
 # Porting the Ginkgo Package to AMD's HIP Ecosystem
 
-#### Contributed by [Hartwig Anzt](https://hartwiganzt.github.io/ "GitHub Profile")
+#### Contributed by [Hartwig Anzt](https://github.com/hartwiganzt)
 
 #### Publication date: June 25, 2020
 
