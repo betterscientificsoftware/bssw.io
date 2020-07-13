@@ -1,9 +1,3 @@
-Table of Contents
-===============================
-[Click to Return to HomePage Table of Contents](../../README.md)
-
-[Click to Return to Content Style Guide main page](ContentStyleGuide.md)
-
 # Styling for Events
 
 A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels/no-submission based events  etc.
@@ -109,9 +103,3 @@ TBD
 
 ## QUESTIONS
 1. When we add archive information, do we want to state "UPDATED: With presentations, pdf etc etc.", right on the top of the page below the deck? Or is that not needed?
-
-
-
-<!---
-   Publish: no
----!>

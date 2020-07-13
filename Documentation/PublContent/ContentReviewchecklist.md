@@ -1,7 +1,3 @@
-Table of Contents
-=================
-[Click to Return to HomePage Table of Contents](../../README.md)
-
 # Checklist for review of content types
 This is a work-in-progress review checkist for all content that goes on the BSSw site. This document is to be used when we are ready with the content and need a final review of the document before publishing it.
 
@@ -82,10 +78,3 @@ Original articles can be of the following types: blogs, original experiences, ho
 - [x] Does it follow the format of the how-to and what-is article? (we havent yet figured out this format)
 - [x] TBD
 
----------------------------------------
-
-<!---
-Publish: No
----!>
-
-  

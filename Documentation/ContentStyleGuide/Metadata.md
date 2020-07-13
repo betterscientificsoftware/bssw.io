@@ -1,9 +1,3 @@
-Table of Contents
-===============================
-[Click to Return to HomePage Table of Contents](../../README.md)
-
-[Click to Return to Content Style Guide main page](ContentStyleGuide.md)
-
 ## Understanding Metadata
 For all content types, we have the following meta-data that needs to be put, at the bottom of the file.
 - **Publish**: Publish on the BSSw front-end site?
@@ -106,8 +100,3 @@ This is optional info for aggregating content to define a more complex resource.
 
 - Aggregate: stand-alone and subresource
    - The "stand-alone and subresource" specification indicates that the item will be both (1) listed as a separate resource on the front-end site and (2) used as a subresource, as specified by an aggregate "base" resource.
-
-
-<!---
-   Publish: no
----!>

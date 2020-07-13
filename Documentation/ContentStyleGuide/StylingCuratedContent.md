@@ -1,9 +1,3 @@
-Table of Contents
-===============================
-[Click to Return to HomePage Table of Contents](../../README.md) 
-
-[Click to Return to Content Style Guide main page](ContentStyleGuide.md)
-
 Table of Contents for Styling Rules for Curated Content
 * [Overview](#Overview-of-style-for-curated-content)
 * [Deck Title declaration](#deck-title-declaration)
@@ -175,7 +169,3 @@ There is no specific guidance for this for the event content type. See [common l
 
 ### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR CURATED CONTENT TYPE
 TBD
-
-<!---
-   Publish: no
----!>

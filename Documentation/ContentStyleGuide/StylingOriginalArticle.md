@@ -1,10 +1,3 @@
-Table of Contents
-===============================
-[Click to Return to HomePage Table of Contents](../../README.md)
-
-[Click to Return to Content Style Guide main page](ContentStyleGuide.md)
-
-
 # Styling for Original Articles
 
 An original article can highlight the following 2 types of resources: **(1) Blogs, (2) Short article.**
@@ -63,9 +56,3 @@ There is no specific guidance for this for the event content type. See [common l
 ## LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR ORIGINAL CONTENT TYPE
 
 * A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md)
-
-
-
-<!---
-   Publish: no
----!>
