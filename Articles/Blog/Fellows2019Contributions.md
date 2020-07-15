@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_FellowB.jpg'/>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>
 
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
