@@ -1,4 +1,4 @@
-# 2019 BSSw Fellows Tackle Scientific Productivity Challenges
+# 2019 BSSw Fellows Guide Developers Through Each Stage of the Scientific Software Lifecycle
 
 
 **Hero Image:**
@@ -12,9 +12,9 @@
 
 BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
-During their tenure, 2018 BSSw Fellows have used their skills — in code review, reproducibility, software citation, and modern C++ — to create tutorials, webinars, and tools that help tackle challenges in scientific software development and sustainability.  Here's more about what they have been up to.
+During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through each stage of a scientific sofware lifecycle.  Here's more about what they have been up to.
 
-### Fellows guide uus through the social challenges of scientific software projects 
+### Fellows guide us through the social challenges of scientific software projects 
 _Social skills matter for the development of user and developer communities._ 
 
 BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about managing the community around a scientific software project. Targeted at current and prospective software maintainers and community leaders, the tutorials will teach this knowledge in small modules that are accessible to scientists. Thus, if you are currently leading or maintaining a scientific software project, or thinking about starting one, Rene's guides will help you navigate your scientific software project from inception to long-term sustaintability. Learn more at [HPC Best Practices Webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) and [Scientific Software Projects and their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities).
@@ -35,10 +35,10 @@ _Perspectives on the BSSw Fellowship Program:_ When I started interacting with s
 _Advice for new (prospective) BSSw Fellows:_
  
 
-### Fellows enable reproducible computational research
-_If you can’t repeat your experiments and others can’t reproduce your results, it is difficult to claim with confidence that your experiments have advanced science._  
+### Fellows improve the reliability of scientific software through analyzing and debugging floating-point software.
+_There is still a lot to be done to make scientific applications more reliable in terms of correctness and numerical consistency._  
 
-BSSw Fellow Ignacio Laguna created Popper, a tool to automate computational experimentation, organize artifacts, and validate results to enable high standards of reproducibility in computational research. He created an online lesson on Popper and delivered several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate. Learn more about Popper through his webinar recording and slides: [Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), June 2018.
+BSSw Fellow Ignacio Laguna developed tutorials on tools to debug and improve the reliability of scientific applications, with emphasis on floating-point software defects that are difficult to debug. Scientific software relies heavily on floating-point arithmetic, which replaces real numbers by finite precision numbers. Approximations occur at all levels, and programmers must deal with exceptional cases and sometimes hard to debug scenarios. With larger and more complex systems, e.g., using accelerators that do not implement the IEEE 754 floating-point standard fully, the need for such tools is becoming increasingly important to ensure the reliability of future scientific software. The tutorial presents tools that can be used today (as opposed to tools that are in the research phase) to help programmers detect and fix abnormal floating-point behavior in GPUs, isolate compiler optimizations that can perturb the program output and/or trade performance for accuracy, understand the sensitivity of floating-point operations in the code, and possibly other issues. Learn more at [HPC Best Practices Webinar: Tools and Techniques for Floating-Point Analysis](http://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034) and [Tutorial on Floating-Point Analysis Tools](http://fpanalysistools.org/). 
 <p>&nbsp;</p>
 
 <div class='fellow'>
@@ -51,10 +51,15 @@ BSSw Fellow Ignacio Laguna created Popper, a tool to automate computational expe
 </div>  
 </div>
 
-### Fellows give software developers long-overdue credit
-_Paper citations are tracked to measure impact; similarly, software citations should be tracked to measure impact and recognize the significant time spent developing software and data._ 
+_Perspectives on the BSSw Fellowship Program:_ My goal is to develop tools that impact real users working on production applications. I want to help programmers make their code more reliable and more efficient, not only in current HPC systems, but also on future systems.  I wanted to become a BSSw fellow to the make the community more aware of the importance of software reliability, correctness, and numerical reproducibility in scientific software.  As a result of my project, I have been able to connect to a larger community of developers and potential users for my tools. The tutorials I co-organized were presented in several venues and some of the tools gained more interest from the community. There is still a lot to be done to make scientific applications more reliable in terms of correctness and numerical consistency. However, the BSSw fellowship enabled the dissemination of new ideas and tools to improve the current situation.
 
-BSSw Fellow Tanu Malik developed principles for software citation to make scientific software more sustainable by providing credit to its developers, similar to research via paper citations. He led working groups to produce the principles, and he is currently working with publishers on implementation in institutionalized citation practices. Learn more about software citation through his webinar recording and slides: [Software Citation Today and Tomorrow](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), April 2018.
+_Advice for new (prospective) BSSw Fellows:_ Plan as much as possible. My project was a tutorial. I learned good tutorials consume a significant amount of time in preparation and testing.
+
+
+### Fellows reduce technical debt in scientific software development using reproducible containers
+_Technical debt is not necessarily bad, but unless paid off promptly it compounds, leading to increased costs, hidden debt, and irreproducible results, ultimately leading to abandoned ideas, and reduced rates of innovation._ 
+
+BSSw Fellow Tanu Malik developed activities to promote and disseminate the concept of technical debt amongst relevant communities. Experiments in systems research are challenging to reproduce; researchers have to choose between pursuing a fast-paced research agenda and developing well-organized, sufficiently-documented, and easily-reproducible systems. Like incurring fiscal debt, there are often tactical reasons to take on technical debt—such as deferring documentation, organization, refactoring, and unit tests when pursuing a new idea or meeting a conference deadline. Such debt is not necessarily bad, but unless paid off promptly it compounds, leading to increased costs, hidden debt, and irreproducible results, ultimately leading to abandoned ideas, and reduced rates of innovation. Her work focuses on dissemination of methods, tools, and environments in which experimentation and publication of results may accrue technical debt, but in which automated tools can be employed at any stage to pay off the debt, without passing it on to other involved parties. 
 <p>&nbsp;</p>
 
 <div class='fellow'>
@@ -67,11 +72,14 @@ BSSw Fellow Tanu Malik developed principles for software citation to make scient
 </div>  
 </div>
 
+_Perspectives on the BSSw Fellowship Program:_ The BSSw Fellowship is a prestigious fellowship sponsored by the Department of Energy, which primarily focuses on high-impact ideas for scientific software productivity. It aims to bring together researchers in this emerging area and is very attractive. The Fellowship has provided me with opportunities to connect with people working in containers in high-performance computing (HPC), and researchers who regularly face and solve performance-related bugs. I have learned about several new tools that are rapidly becoming part of a scientist’s data life cycle and existing gaps. I would like to positively impact the community by improving the scientific life cycle through methods from our project. 
 
-### Fellows guide efficient use of modern C++ 
-_Just because a programming language allows various approaches doesn’t mean that you should use them; programming is an art that should consider quality, sustainability, and performance._  
+_Advice for new (prospective) BSSw Fellows:_ The BSSw Fellowship provides a tremendous opportunity to connect with a diverse and very technical community. It is very important to understand the problems faced and position your work within the context of the existing work.  Engage, connect, and find productivity pain-points. 
 
-BSSw Fellow Kyle Niemeyer has developed best practices for high-performance and high-quality software using modern C++ (up through C++17).  His course materials include performance-orientated topics and migration from Fortran or previous versions of C++.  Learn more about high-performance modern C++ through an upcoming webinar (June 2019) in the series [HPC Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars).
+### Fellows immerse you in software development best practices
+_Develop more trustworthy, reusable, and sustainable scientific software._  
+
+BSSw Fellow Kyle Niemeyer condensed and focused his 10-week course for Oregon State University graduate students on Software Development for Engineering Research into reusable bootcamp modules. The workshop modules include hands-on lessons on version control, peer code review, open-source licensing and copyright, software and data citation, documentation, testing, parallel computing, and reproducible workflows. Kyle plans to deliver the workshop in the combustion and reacting-flows modeling community, and make the modules openly available to the broader community. By educating researchers on both the importance of best practices, and then showing them in a hands-on fashion how to employ such tools, his efforts will help multiple research communities develop more trustworthy, reusable, and sustainable scientific software.  Learn more at [Research Software Development Modules](https://kyleniemeyer.github.io/research-software-dev-modules/) and [URSSI Winter School](https://github.com/si2-urssi/winterschool/blob/master/README.md).
 <p>&nbsp;</p>
 
 <div class='fellow'>
@@ -84,13 +92,17 @@ BSSw Fellow Kyle Niemeyer has developed best practices for high-performance and 
 </div>  
 </div>
 
+_Perspectives on the BSSw Fellowship Program:_ My goal was (is) to develop modules for helping train researchers in best practices for software development, picking up after introductory lessons created by groups such as the Carpentries. I wanted to become a BSSw Fellow to help support the development of resources for teaching practical software development skills to researchers, particularly graduate students. This work will necessarily continue and evolve past my fellowship period, but the fellowship has helped me develop these resources and better-connect with folks in the scientific software community.
+
+_Advice for new (prospective) BSSw Fellows:_ Engage early and often with the BSSw/ECP team, and by extension researchers at the national laboratories. (Also, keep track of time. A year flies by quickly!)
+
 
 ### Learn more about the BSSw Fellowship program
-BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship) and work under way by the [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows). We will begin accepting applications for 2020 BSSw Fellowships during September 2019. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
+BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship) and work under way by the [2020 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2020-bssw-fellows). We will begin accepting applications for 2021 BSSw Fellowships during September 2020. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
 
 ### Author bio
-Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading the Trinity Center of Excellence, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for [Trinity](https://www.lanl.gov/projects/trinity/index.php) and future architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading LANL's Center of Excellence activities, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for advanced HPC architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpcforum2020.alcf.anl.gov/) since 2015.
 
 
 <!---
