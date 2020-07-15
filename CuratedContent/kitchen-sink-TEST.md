@@ -166,7 +166,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 - [ReadTheDocs](DocumentationTools.ReadTheDocs.md)
 - [Sphinx](DocumentationTools.Sphinx.md)
 
-#### Contributed by [Clara Raubertas](https://github.com/clararaubertas)
+#### Contributed by [Parallactic](https://github.com/Parallactic)
 
 
 # the-basics
