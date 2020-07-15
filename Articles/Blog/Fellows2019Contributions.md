@@ -8,16 +8,16 @@
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
 
-#### Publication date: July 15, 2020
+#### Publication date: July 17, 2020
 
 BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
 During their tenure, 2018 BSSw Fellows have used their skills — in code review, reproducibility, software citation, and modern C++ — to create tutorials, webinars, and tools that help tackle challenges in scientific software development and sustainability.  Here's more about what they have been up to.
 
-### Fellows improve code quality
-_Even the most seasoned code developer can spend countless hours tracking down a bug that could have been caught with peer code review._ 
+### Fellows guide uus through the social challenges of scientific software projects 
+_Social skills matter for the development of user and developer communities._ 
 
-BSSw Fellow Rene Gassmoeller modernizes scientific software quality assurance by teaching contemporary peer code review in scientific software development. His tutorial includes a general introduction to code review, a more specific discussion of the unique nature of scientific code review, and an overview of available tool support. Tutorial attendees participate in hands-on exercises to practice code review. The tutorial concludes with a group discussion about best practices for performing scientific code review. Learn more about peer code review through his tutorial website (including slides): [Contemporary Peer Code Review Practices](https://se4science.org/tutorials/ECP19/), from the 2019 Annual Meeting of the DOE Exascale Computing Project. 
+BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about managing the community around a scientific software project. Targeted at current and prospective software maintainers and community leaders, the tutorials will teach this knowledge in small modules that are accessible to scientists. Thus, if you are currently leading or maintaining a scientific software project, or thinking about starting one, Rene's guides will help you navigate your scientific software project from inception to long-term sustaintability. Learn more at [HPC Best Practices Webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) and [Scientific Software Projects and their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities).
 <p>&nbsp;</p>
 
 <div class='fellow'>
@@ -30,6 +30,10 @@ BSSw Fellow Rene Gassmoeller modernizes scientific software quality assurance by
 </div>  
 </div>
 
+_Perspectives on the BSSw Fellowship Program:_ When I started interacting with scientific software outside of my personal code I realized that scientists that develop software face similar challenges across disciplines, and that a lot of these challenges have not been adequately solved so far. But I also noticed how much I could learn from the strategies that other maintainers have already developed. BSSw has given me the opportunity to extend these interactions and to make connections into fields I do not usually interact with. I hope my fellowship project has raised the awareness of how social skills matter for the development of user and developer communities around scientific software and has some positive impact by helping maintainers navigate the social challenges of scientific software.
+
+_Advice for new (prospective) BSSw Fellows:_
+ 
 
 ### Fellows enable reproducible computational research
 _If you can’t repeat your experiments and others can’t reproduce your results, it is difficult to claim with confidence that your experiments have advanced science._  
