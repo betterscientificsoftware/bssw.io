@@ -32,7 +32,7 @@ BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about mana
 
 _Perspectives on the BSSw Fellowship Program:_ When I started interacting with scientific software outside of my personal code I realized that scientists that develop software face similar challenges across disciplines, and that a lot of these challenges have not been adequately solved so far. But I also noticed how much I could learn from the strategies that other maintainers have already developed. BSSw has given me the opportunity to extend these interactions and to make connections into fields I do not usually interact with. I hope my fellowship project has raised the awareness of how social skills matter for the development of user and developer communities around scientific software and has some positive impact by helping maintainers navigate the social challenges of scientific software.
 
-_Advice for new (prospective) BSSw Fellows:_
+_Advice for new (prospective) BSSw Fellows:_ Plan on how to fit your fellowship project into your regular work! BSSw offers completely new perspectives and opportunities for collaborations, and you can gain valuable insights by connecting your discipline and background with the diverse community of BSSw.
  
 
 ### Fellows improve the reliability of scientific software through analyzing and debugging floating-point software.
