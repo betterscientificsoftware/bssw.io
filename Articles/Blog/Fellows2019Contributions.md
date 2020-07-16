@@ -9,7 +9,7 @@
 
 #### Publication date: July 17, 2020
 
-BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Pictured abovee are members of the BSSw Fellows community who attended the 2020 Annual Meeting of the DOE Exascale Computing Project. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, and Ivo Jimenez.
+BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Pictured above are members of the BSSw Fellows community who attended the 2020 Annual Meeting of the DOE Exascale Computing Project. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, and Ivo Jimenez.
 
 During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of thee scientific sofware lifecycle.  Here's more about what they have been up to.
 
@@ -50,7 +50,7 @@ BSSw Fellow Ignacio Laguna developed tutorials on tools to debug and improve the
 </div>  
 </div>
 
-_Perspectives on the BSSw Fellowship Program:_ My goal is to develop tools that impact real users working on production applications. I want to help programmers make their code more reliable and more efficient, not only in current HPC systems, but also on future systems.  I wanted to become a BSSw fellow to the make the community more aware of the importance of software reliability, correctness, and numerical reproducibility in scientific software.  As a result of my project, I have been able to connect to a larger community of developers and potential users for my tools. The tutorials I co-organized were presented in several venues and some of the tools gained more interest from the community. There is still a lot to be done to make scientific applications more reliable in terms of correctness and numerical consistency. However, the BSSw fellowship enabled the dissemination of new ideas and tools to improve the current situation.
+_Perspectives on the BSSw Fellowship Program:_ My goal is to develop tools that impact real users working on production applications. I want to help programmers make their code more reliable and more efficient, not only in current HPC systems, but also on future systems.  I wanted to become a BSSw Fellow to the make the community more aware of the importance of software reliability, correctness, and numerical reproducibility in scientific software.  As a result of my project, I have been able to connect to a larger community of developers and potential users for my tools. The tutorials I co-organized were presented in several venues and some of the tools gained more interest from the community. There is still a lot to be done to make scientific applications more reliable in terms of correctness and numerical consistency. However, the BSSw fellowship enabled the dissemination of new ideas and tools to improve the current situation.
 
 _Advice for new (prospective) BSSw Fellows:_ Plan as much as possible. My project was a tutorial. I learned good tutorials consume a significant amount of time in preparation and testing.
 
@@ -97,7 +97,7 @@ _Advice for new (prospective) BSSw Fellows:_ Engage early and often with the BSS
 
 
 ### Learn more about the BSSw Fellowship program
-BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship) and work under way by the [2020 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2020-bssw-fellows). We will begin accepting applications for 2021 BSSw Fellowships during August 2020. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
+BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship) and work under way by the [2020 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2020-bssw-fellows). We will begin accepting applications for 2021 BSSw Fellowships during mid-August 2020. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
 
 ### Author bio
