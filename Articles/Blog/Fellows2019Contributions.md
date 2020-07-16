@@ -2,14 +2,14 @@
 
 
 **Hero Image:**
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>[Members of the BSSw Fellows community attended the 2020 Annual Meeting of the DOE Exascale Computing Project. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, Ivo Jimenez.]
 
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
 
 #### Publication date: July 17, 2020
 
-BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
+BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Pictured abovee are members of the BSSw Fellows community who attended the 2020 Annual Meeting of the DOE Exascale Computing Project. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, and Ivo Jimenez.
 
 During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of thee scientific sofware lifecycle.  Here's more about what they have been up to.
 
