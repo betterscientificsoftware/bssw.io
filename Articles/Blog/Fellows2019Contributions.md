@@ -1,9 +1,8 @@
-# 2019 BSSw Fellows Guide Developers Through Each Stage of the Scientific Software Lifecycle
+# 2019 BSSw Fellows Guide Developers through Each Stage of the Scientific Software Lifecycle
 
 
 **Hero Image:**
-
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>[Members of the BSSw Fellows community attended the 2020 Annual Meeting of the DOE Exascale Computing Project in January 2020. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, Ivo Jimenez.]
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>[Members of the BSSw Fellows community attended the 2020 Annual Meeting of the DOE Exascale Computing Project. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, Ivo Jimenez.]
 
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
@@ -12,7 +11,7 @@
 
 BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
-During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages scientific sofware lifecycles.  Here's more about what they have been up to.
+During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of thee scientific sofware lifecycle.  Here's more about what they have been up to.
 
 ### Fellows guide us through the social challenges of scientific software projects.
 _Social skills matter for the development of user and developer communities._ 
