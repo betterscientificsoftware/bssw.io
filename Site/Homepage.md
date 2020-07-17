@@ -4,16 +4,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/porting-the-ginkgo-package-to-amd-s-hip-ecosystem
-Slide1 R: events/panel-virtual-onboarding-and-mentoring
-Slide2 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
-Slide2 R: images/raw/master/Blog_0620_YAGNI.jpg
-Slide3 L: events/call-for-contributions-2020-collegeville-workshop-on-scientific-software-developer-productivity
-Slide3 R: events/webinar-what-s-new-in-spack
-Slide4 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
-Slide4 R: images/raw/master/Blog_032420_StoneMasonry.png
-Slide5 L: blog_posts/working-remotely-the-spack-team
-Slide5 R: images/raw/master/Blog_0520_WorkRemoteSpack.png
+Slide1 L: blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle
+Slide1 R: images/raw/master/Blog_0720_Fellows.png
+Slide2 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
+Slide2 R: events/the-international-series-of-online-research-software-events-sorse
+Slide3 L: events/2020-collegeville-workshop-on-scientific-software-developer-productivity
+Slide3 L: blog_posts/porting-the-ginkgo-package-to-amd-s-hip-ecosystem
+Slide4 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
+Slide4 R: images/raw/master/Blog_0620_YAGNI.jpg
+Slide5 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
+Slide5 R: images/raw/master/Blog_032420_StoneMasonry.png
 --->
 
 <!---
