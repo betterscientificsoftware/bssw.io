@@ -1,4 +1,4 @@
-# Call for Contributions: 2020 Collegeville Workshop on Scientific Software: Developer Productivity
+# 2020 Collegeville Workshop on Scientific Software: Developer Productivity
 - Date: July 21, 2020 - July 23, 2020
 - Location: Virtual
 - Event Website: https://collegeville.github.io/CW20/
