@@ -37,8 +37,11 @@ Applications open Wednesday, August 19, 2020 for the 2021 BSSw Fellowship Progra
 ### More Information
 
 - [2020 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2020-bssw-fellows) ... Read about the 2020 BSSw Fellows.
-<!-- - [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows) ... Read about the 2019 BSSw Fellows.
-- [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives) ... Read about work of the 2018 BSSw Fellows and their perspectives on the program.-->
 - [2019 BSSw Fellows: Projects and Perspectives](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle) ... Read about work of the 2019 BSSw Fellows and their perspectives on the program.
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq) ... Check back for updates; we will post additional Q&A here as these arise.
 - If you have additional questions, please contact us at <info@bssw.io>.
+
+<!-- Removing the older links, but we could keep a longer running record
+- [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows) ... Read about the 2019 BSSw Fellows.
+- [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives) ... Read about work of the 2018 BSSw Fellows and their perspectives on the program.
+-->
