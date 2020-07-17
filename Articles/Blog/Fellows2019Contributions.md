@@ -5,7 +5,7 @@
 
 - [2019 BSSw Fellows, 2020 BSSw Fellows and 2020 BSSw Honorable Mentions at the Exascale Computing Project Annual Meeting]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>
 
-#### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub Profile")[Ignacio Laguna](https://github.com/ilagunap "Ignacio Laguna GitHub Profile"), [Tanu Malik](https://github.com/TanuMalik "Tanu Malik GitHub Profile"), [Kyle Niemeyer](https://github.com/kyleniemeyer "Kyle Niemeyer GitHub Profile")
+#### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub Profile"), [Ignacio Laguna](https://github.com/ilagunap "Ignacio Laguna GitHub Profile"), [Tanu Malik](https://github.com/TanuMalik "Tanu Malik GitHub Profile"), [Kyle Niemeyer](https://github.com/kyleniemeyer "Kyle Niemeyer GitHub Profile")
 
 #### Publication date: July 17, 2020
 
