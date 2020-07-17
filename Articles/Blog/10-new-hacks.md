@@ -1,4 +1,4 @@
-# 2019 BSSw Fellows Guide Developers through Each Stage of the Scientific Software Lifecycle
+# 10 New Hacks To Get Hacking With
 
 
 **Hero Image:**
