@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>
+- [2019 BSSw Fellows, 2020 BSSw Fellows and 2020 BSSw Honorable Mentions at the Exascale Computing Project Annual Meeting]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
 
