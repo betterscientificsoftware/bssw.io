@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [Coming Soon: 2020 Collegeville Workshop on Scientific Software: Developer Productivity](../../Events/Collegeville2020.md)
+- [Coming Soon: 2020 Collegeville Workshop on Scientific Software: Developer Productivity](../../Events/Collegeville2020.event.md)
 - Display dates: 07/15/2020 - 07/24/2020
 
 <!--
