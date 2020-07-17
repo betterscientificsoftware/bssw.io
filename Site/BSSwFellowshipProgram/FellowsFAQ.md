@@ -40,6 +40,9 @@ Applications are reviewed by a panel of diverse members of the CSE community usi
 * The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
 * The proposer will be a long-term advocate for better scientific software beyond the fellowship period of performance.
 
+### Can I submit multiple applications with different proposals?
+
+No, only one application submission per person.  
 
 ## Funding Questions
 
