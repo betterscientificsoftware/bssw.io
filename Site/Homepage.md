@@ -12,8 +12,8 @@ Slide3 L: events/2020-collegeville-workshop-on-scientific-software-developer-pro
 Slide3 L: blog_posts/porting-the-ginkgo-package-to-amd-s-hip-ecosystem
 Slide4 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
 Slide4 R: images/raw/master/Blog_0620_YAGNI.jpg
-Slide5 L: blog_posts/making-myself-better-what-craftspeople-can-teach-us-about-software
-Slide5 R: images/raw/master/Blog_032420_StoneMasonry.png
+Slide5 L: events/webinar-colormapping-strategies-for-large-multivariate-data-in-scientific-applications
+Slide5 R: events/panel-how-to-make-teams-tick
 --->
 
 <!---
