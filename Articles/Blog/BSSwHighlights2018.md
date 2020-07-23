@@ -11,14 +11,14 @@ Launched in November 2017, the Better Scientific Software (BSSw) site features a
 who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability.  As the new year begins, we thank the entire BSSw community for ongoing work toward better scientific software, and we highlight a few BSSw resources contributed in 2018.   We hope that you may discover connections in BSSw resources to your circumstances and priorities.  We invite you to peruse the site for lots more content.
 
 ### Better Planning:
-- [Planning for Better Software: PSIP-Tools](https://bssw.io/items/planning-for-better-software-psip-tools), Mike Heroux
+- [Planning for Better Software: PSIP-Tools](https://bssw.io/items/planning-for-better-software-psip-tools), Mike Heroux and Rinku Gupta
 - [Adopting Continuous Integration for Long-Timescale Materials](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation), Richard Zamora
 
 ### Better Development:
 - [SuperLU: How Advances in Software Practices Are Increasing Sustainability and Collaboration](https://bssw.io/blog_posts/superlu-how-advances-in-software-practices-are-increasing-sustainability-and-collaboration), Xiaoye Li
 - [Can You Teach an Old Code New Tricks?](https://bssw.io/blog_posts/can-you-teach-an-old-code-new-tricks), Charles Ferenbaugh
-- [Best Practices for Scientific Computing](https://bssw.io/items/best-practices-for-scientific-computing), Patricia Grubel
-- [Integrated Development Environments (IDEs) for Scientific Software Development](https://bssw.io/items/integrated-development-environments-ides-for-scientific-software-development), Greg Watson
+- [Exploring Best Practices for Scientific Computing](https://bssw.io/items/exploring-best-practices-for-scientific-computing), Patricia Grubel
+- [An Introduction to Integrated Development Environments (IDEs) for Scientific Software Development](https://bssw.io/items/an-introduction-to-integrated-development-environments-ides-for-scientific-software-development), Greg Watson
 
 ### Better Reliability:
 - [Better Science through Software Testing](https://bssw.io/blog_posts/better-science-through-software-testing), Tom Evans
