@@ -32,6 +32,8 @@ While most, if not all of us are open to learning new skills, we also should be 
 
 In response to the challenges identified above related to the COVID-19 pandemic and the influx of previously co-located teams to working remotely, the Exascale Computing Project’s interoperable design of extreme- scale application software (IDEAS-ECP) team launched the panel series *Strategies for Working Remotely*. To date, there have been four panels who have addressed advice from those who are experienced, parenting while working remotely, transitioning to virtual teams, and onboarding and mentoring.<sup> [7]</sup> These panels are designed to promote informal, cross-organizational dialog and community building. In a time of pandemic that has exacerbated the challenges expressed in previous sections, we increasingly need to reach across perceived boundaries to learn from each other, so that we can move beyond stand-alone silos to more connected multidisciplinary and multi-organizational configurations. No longer bound by physical walls, we can consider how working remotely allows us to lead the way toward functioning more as global “teams of teams.”
 
+[Figure 1: Team of teams diagram]<img src='https://github.com/betterscientificsoftware/images/raw/master/TeamOfTeamsDiagram.jpg' class='page' />
+
 “Team of Teams” is a concept about interoperating people that has been applied to high-performance computing scientific software teams <sup>[1]</sup>. A “team of teams” as a network of coordinated teams who are interdependent and share trust, transparent communication, and an awareness of a common purpose <sup>[8]</sup>. Ideally, “teams of teams” (see Figure 1) are characterized by flat organizations facilitating several opportunities to share information across and within teams, allowing for more rapid decision making and more institutional flexibility. They interoperate through collaboration around an aligning narrative <sup>[8]</sup>.
 
 ### Conclusion
@@ -61,6 +63,9 @@ References | &nbsp;
 <a name="ref6"></a>6 | [Five ways to build a more productive remote team ](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/)
 <a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#about)
 <a name="ref8"></a>8 | S. McCrystal, T. Collins, D. Silverman, C. Fussell. Team of Teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC (2015)
+
+### Acknowledgment
+The content of this blog post was first presented by Elaine Raybourn as a white paper at the [2020 Collegeville Workshop on Scientific Software](https://collegeville.github.io/CW20).
 
 ### Author bio
 
