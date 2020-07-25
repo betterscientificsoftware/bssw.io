@@ -55,14 +55,14 @@ In our daily roles as scientists, engineers, developers, and informal leaders of
 
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | E.M. Raybourn, J.D. Moulton, A. Hungeford. (2019). Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach. Lecture Notes in Computer Science (LNCS), vol. 11589. 
-<a name="ref2"></a>2 | [E.M. Raybourn. (2020). Resources for maximizing remote working ](https://bssw.io/items/resources-for-maximizing-remote-working)
+<a name="ref1"></a>1 | E.M. Raybourn, J.D. Moulton, A. Hungeford, 2019, Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach. Lecture Notes in Computer Science (LNCS), vol. 11589. 
+<a name="ref2"></a>2 | [E.M. Raybourn, 2020, Resources for maximizing remote working ](https://bssw.io/items/resources-for-maximizing-remote-working)
 <a name="ref3"></a>3 | [CDC Coronavirus (COVID-19) ](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html)
 <a name="ref4"></a>4 | [Panel Series, Strategies for Working Remotely ](https://exascaleproject.org/strategies-for-working-remotely)
 <a name="ref5"></a>5 | [How to combat Zoom fatigue ](https://hbr.org/2020/04/how-to-combat-zoom-fatigue)
 <a name="ref6"></a>6 | [Five ways to build a more productive remote team ](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/)
 <a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#about)
-<a name="ref8"></a>8 | S. McCrystal, T. Collins, D. Silverman, C. Fussell. Team of Teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC (2015)
+<a name="ref8"></a>8 | S. McCrystal, T. Collins, D. Silverman, C. Fussell. Team of Teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC, 2015.
 
 ### Acknowledgment
 The content of this blog post was first presented by Elaine Raybourn as a white paper at the [2020 Collegeville Workshop on Scientific Software](https://collegeville.github.io/CW20).
