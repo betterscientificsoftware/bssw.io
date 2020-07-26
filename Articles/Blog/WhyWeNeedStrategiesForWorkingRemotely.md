@@ -8,9 +8,9 @@
 
 #### Publication date: July 28, 2020
 
-In response to the need for many to transition to unplanned remote work, the [IDEAS-ECP Productivity project](https://ideas-productivity.org/ideas-ecp) launched a new panel series on *Strategies for Working Remotely*, led by Elaine Raybourn. The series brings together staff members of Department of Energy (DOE) laboratories and invited guests to speak about experiences in working remotely and transitioning from co-located and partially distributed teams to fully virtual teams, and teams of teams. Topics include challenges, lessons learned, unforeseen benefits, and opportunities to look for from this experience. For information on the panel series, see the [panel website](https://www.exascaleproject.org/strategies-for-working-remotely).
+In response to the need for many to transition to unplanned remote work, the [IDEAS-ECP Productivity project](https://ideas-productivity.org/ideas-ecp) launched a new panel series on ***[Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely)***, led by Elaine Raybourn. The series brings together staff members of Department of Energy (DOE) laboratories and invited guests to speak about experiences in working remotely and transitioning from co-located and partially distributed teams to fully virtual teams, and teams of teams. Topics include challenges, lessons learned, unforeseen benefits, and opportunities to look for from this experience. 
 
-In this article, Elaine discusses the challenges we face and *why* we need strategies for working remotely.
+In this article, Elaine discusses *why* we need strategies for working remotely and introduces the panel series.  
 
 ### Introduction 
 
@@ -90,6 +90,6 @@ References | &nbsp;
 <a name="ref4"></a>4 | [Panel Series, Strategies for Working Remotely ](https://exascaleproject.org/strategies-for-working-remotely)
 <a name="ref5"></a>5 | [How to combat Zoom fatigue ](https://hbr.org/2020/04/how-to-combat-zoom-fatigue)
 <a name="ref6"></a>6 | [Five ways to build a more productive remote team ](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/)
-<a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ]((https://www.exascaleproject.org/strategies-for-working-remotely)
+<a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ](https://www.exascaleproject.org/strategies-for-working-remotely)
 <a name="ref8"></a>8 | S. McCrystal, T. Collins, D. Silverman, C. Fussell. Team of Teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC, 2015.
 
