@@ -40,7 +40,25 @@ In response to the challenges identified above related to the COVID-19 pandemic 
 
 In our daily roles as scientists, engineers, developers, and informal leaders of many sorts, we are all in positions to develop teams of teams. A panel series such as Strategies for Working Remotely <sup>[4]</sup> offers opportunities to scale and accelerate cross-institutional cooperation and collaboration in the community toward a culture of Teams of Teams. Each of us serves an important role in ensuring that we learn as a community from the COVID- 19 pandemic. Anticipating the pandemic’s lasting impact, we have an opportunity to shape and influence the future of scientific work by collectively developing strategies for working remotely.
 
-<br>
+### Acknowledgment
+The content of this blog post was first presented by Elaine Raybourn as a white paper at the [2020 Collegeville Workshop on Scientific Software](https://collegeville.github.io/CW20).
+
+### Author bio
+
+Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning.  She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom Global Research and Development; Germany (Fraunhofer - FhG FIT) and France (French National Institute for Computer Science - INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia's Institutional PI for Interoperable Design of Extreme-scale Application Software (IDEAS-ECP). She also leads the IDEAS Productivity project panel series on [Strategies for Working Remotely]((https://www.exascaleproject.org/strategies-for-working-remotely). 
+
+<!---
+Publish: preview
+RSS update: 2020-07-28
+Categories: Collaboration
+Topics: Strategies for More Effective Teams
+Tags: bssw-blog-article
+Level: 2
+Prerequisites: default
+Aggregate: none
+SAND #: SAND2020-XXXX
+--->
+
 <!---
 [1]: "Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach {}"
 [2]: https://bssw.io/items/resources-for-maximizing-remote-working "Resources for maximizing remote working {}"
@@ -50,7 +68,6 @@ In our daily roles as scientists, engineers, developers, and informal leaders of
 [6]: https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/ "Five ways to build a more productive remote team {}"
 [7]: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#about "Strategies for Working Remotely Panel Series Archive {}"
 [8]: "Team of Teams: New rules of engagement for a complex world {}"
-
 --->
 <br>
 
@@ -75,24 +92,4 @@ References | &nbsp;
 <a name="ref6"></a>6 | [Five ways to build a more productive remote team ](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/)
 <a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ]((https://www.exascaleproject.org/strategies-for-working-remotely)
 <a name="ref8"></a>8 | S. McCrystal, T. Collins, D. Silverman, C. Fussell. Team of Teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC, 2015.
-
-### Acknowledgment
-The content of this blog post was first presented by Elaine Raybourn as a white paper at the [2020 Collegeville Workshop on Scientific Software](https://collegeville.github.io/CW20).
-
-### Author bio
-
-Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning.  She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom Global Research and Development; Germany (Fraunhofer - FhG FIT) and France (French National Institute for Computer Science - INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia's Institutional PI for Interoperable Design of Extreme-scale Application Software (IDEAS-ECP). She also leads the IDEAS Productivity project panel series on [Strategies for Working Remotely]((https://www.exascaleproject.org/strategies-for-working-remotely). 
-
-<!---
-Publish: preview
-RSS update: 2020-07-28
-Categories: Collaboration
-Topics: Strategies for More Effective Teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
-SAND #: SAND2020-XXXX
---->
-
 
