@@ -22,7 +22,7 @@ The transition from the office to home for many of us working remotely was unpla
 
 ### Degraded Communication Channels
 
-The face-to-face communication channel is what communication scholars call stimulus rich—that is, we use all of our senses (auditory, visual, haptic, olfactory, and taste) to engage in verbal and nonverbal communication and are mostly unaware of it. Technology-mediated communication today, on the other hand (except for holographic and cross reality systems [XR] which offer greater possibility for immersion), is still rather stimulus poor. Since a greater number of us are working remotely, the overuse electronic communication for extended periods of time often degraded by poor connectivity literally overwhelms the human brain as it attempts to process and share information via screens instead of through unmediated verbal and nonverbal channels. For example, “Zoom fatigue” characterized by our constant gaze into the video camera is exhausting <sup>[5]<\sup>. Managing expectations when working in environments characterised by degraded communication channels (mostly electronic) is the unfortunate reality of working remotely. The good news is that in the best cases productivity does not suffer <sup>[6]<\sup>, rather, it flourishes.
+The face-to-face communication channel is what communication scholars call stimulus rich—that is, we use all of our senses (auditory, visual, haptic, olfactory, and taste) to engage in verbal and nonverbal communication and are mostly unaware of it. Technology-mediated communication today, on the other hand (except for holographic and cross reality systems [XR] which offer greater possibility for immersion), is still rather stimulus poor. Since a greater number of us are working remotely, the overuse electronic communication for extended periods of time often degraded by poor connectivity literally overwhelms the human brain as it attempts to process and share information via screens instead of through unmediated verbal and nonverbal channels. For example, “Zoom fatigue” characterized by our constant gaze into the video camera is exhausting <sup>[5]</sup>. Managing expectations when working in environments characterised by degraded communication channels (mostly electronic) is the unfortunate reality of working remotely. The good news is that in the best cases productivity does not suffer, <sup>[6]</sup> rather, it flourishes.
 
 ### Unlearning Old Habits
 
@@ -30,7 +30,7 @@ While most, if not all of us are open to learning new skills, we also should be 
 
 ### Building Community
 
-In response to the challenges identified above related to the COVID-19 pandemic and the influx of previously co-located teams to working remotely, the Exascale Computing Project’s interoperable design of extreme- scale application software (IDEAS-ECP) team launched the panel series *Strategies for Working Remotely*. To date, there have been four panels who have addressed advice from those who are experienced, parenting while working remotely, transitioning to virtual teams, and onboarding and mentoring.<sup> [7]</sup> These panels are designed to promote informal, cross-organizational dialog and community building. In a time of pandemic that has exacerbated the challenges expressed in previous sections, we increasingly need to reach across perceived boundaries to learn from each other, so that we can move beyond stand-alone silos to more connected multidisciplinary and multi-organizational configurations. No longer bound by physical walls, we can consider how working remotely allows us to lead the way toward functioning more as global “teams of teams.”
+In response to the challenges identified above related to the COVID-19 pandemic and the influx of previously co-located teams to working remotely, the Exascale Computing Project’s interoperable design of extreme- scale application software (IDEAS-ECP) team launched the panel series *Strategies for Working Remotely*. To date, there have been four panels who have addressed advice from those who are experienced, parenting while working remotely, transitioning to virtual teams, and onboarding and mentoring.<sup>[7]</sup> These panels are designed to promote informal, cross-organizational dialog and community building. In a time of pandemic that has exacerbated the challenges expressed in previous sections, we increasingly need to reach across perceived boundaries to learn from each other, so that we can move beyond stand-alone silos to more connected multidisciplinary and multi-organizational configurations. No longer bound by physical walls, we can consider how working remotely allows us to lead the way toward functioning more as global “teams of teams.”
 
 [Figure 1: Team of teams diagram]<img src='https://github.com/betterscientificsoftware/images/raw/master/TeamOfTeamsDiagram.png' class='page' />
 
@@ -40,17 +40,29 @@ In response to the challenges identified above related to the COVID-19 pandemic 
 
 In our daily roles as scientists, engineers, developers, and informal leaders of many sorts, we are all in positions to develop teams of teams. A panel series such as Strategies for Working Remotely <sup>[4]</sup> offers opportunities to scale and accelerate cross-institutional cooperation and collaboration in the community toward a culture of Teams of Teams. Each of us serves an important role in ensuring that we learn as a community from the COVID- 19 pandemic. Anticipating the pandemic’s lasting impact, we have an opportunity to shape and influence the future of scientific work by collectively developing strategies for working remotely.
 
-<!---
 <br>
+<!---
+[1]: "Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach {}"
+[2]: https://bssw.io/items/resources-for-maximizing-remote-working "Resources for maximizing remote working {}"
+[3]: https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html "CDC Coronavirus (COVID-19) {}"
+[4]: https://exascaleproject.org/strategies-for-working-remotely "Panel Series, Strategies for Working Remotely {}"
+[5]: https://hbr.org/2020/04/how-to-combat-zoom-fatigue "How to combat Zoom fatigue {}"
+[6]: https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/ "Five ways to build a more productive remote team {}"
+[7]: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#about "Strategies for Working Remotely Panel Series Archive {}"
+[8]: "Team of Teams: New rules of engagement for a complex world {}"
+
+--->
+<br>
+
 [1]: #ref1 "Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach"
-[2]: #ref2 "Resources for maximizing remote workin"
+[2]: #ref2 "Resources for maximizing remote working"
 [3]: #ref3 "CDC Coronavirus (COVID-19)"
 [4]: #ref4 "Panel Series, Strategies for Working Remotely"
 [5]: #ref5 "How to combat Zoom fatigue"
 [6]: #ref6 "Five ways to build a more productive remote team"
 [7]: #ref7 "Strategies for Working Remotely Panel Series Archive"
 [8]: #ref8 "Team of Teams: New rules of engagement for a complex world"
---->
+
 <br>
 
 References | &nbsp;
@@ -61,7 +73,7 @@ References | &nbsp;
 <a name="ref4"></a>4 | [Panel Series, Strategies for Working Remotely ](https://exascaleproject.org/strategies-for-working-remotely)
 <a name="ref5"></a>5 | [How to combat Zoom fatigue ](https://hbr.org/2020/04/how-to-combat-zoom-fatigue)
 <a name="ref6"></a>6 | [Five ways to build a more productive remote team ](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/)
-<a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#about)
+<a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ]((https://www.exascaleproject.org/strategies-for-working-remotely)
 <a name="ref8"></a>8 | S. McCrystal, T. Collins, D. Silverman, C. Fussell. Team of Teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC, 2015.
 
 ### Acknowledgment
@@ -69,7 +81,7 @@ The content of this blog post was first presented by Elaine Raybourn as a white 
 
 ### Author bio
 
-Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning.  She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom Global Research and Development; Germany (Fraunhofer - FhG FIT) and France (French National Institute for Computer Science - INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia's Institutional PI for Interoperable Design of Extreme-scale Application Software (IDEAS-ECP). She also leads the IDEAS Productivity project panel series on [Strategies for Working Remotely](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/). 
+Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning.  She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom Global Research and Development; Germany (Fraunhofer - FhG FIT) and France (French National Institute for Computer Science - INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia's Institutional PI for Interoperable Design of Extreme-scale Application Software (IDEAS-ECP). She also leads the IDEAS Productivity project panel series on [Strategies for Working Remotely]((https://www.exascaleproject.org/strategies-for-working-remotely). 
 
 <!---
 Publish: preview
