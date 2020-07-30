@@ -1,7 +1,7 @@
 # The Collegeville Workshop Series on Scientific Software
 
 <!-- deck text start -->
-A series of annual workshops dedicated to fostering growth across and within academic, industry and laboratory environment in the pursuit of better scientific software.
+A series of annual workshops dedicated to fostering growth across and within academic, industry and laboratory environments, in the pursuit of better scientific software.
 <!-- deck text start -->
 
 #### Contributed by [Mike Heroux](http://github.com/maherou)
@@ -20,7 +20,7 @@ The first workshop was the [*2019 Collegeville Workshop on Sustainable Scientifi
 The [*2020 Collegeville Workshop on Scientific Software*](https://collegeville.github.io/CW20/) focused on developer productivity.  The live portion of Collegeville 2020 was held July 21 - 23, 2020 as a virtual meeting.  Contributions are available online, including 33 video recordings on the [*Collegeville 2020 YouTube playlist*](https://www.youtube.com/playlist?list=PLSsqt6vUDjJ2lf4vs8xsX0YpBt-S-0c8t) and [35 white papers](https://collegeville.github.io/CW20/WorkshopResources/WhitePapers/WhitePaperList.html).
 
 <!---
-Publish: yes
+Publish: no
 Publication date: 2020-07-30
 RSS update: 2020-07-30
 Categories: planning, reliability, collaboration
