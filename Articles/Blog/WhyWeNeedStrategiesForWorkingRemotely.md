@@ -1,95 +1,58 @@
-# Why We Need Strategies for Working Remotely
+# Working Remotely: The Exascale Computing Project (ECP) Panel Series
 
 **Hero Image:**
  
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_RemoteWorkingPanel.png' />
 
-#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile") 
+#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile"), 
+[Greg Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile"),
+[Ben Sims](https://github.com/bhsims "Ben Sims GitHub Profile"),
+[David Rogers](https://github.com/frobnitzem "David Rogers GitHub Profile"),
+[Reed Milewicz](https://github.com/rmmilewi "Reed Milewicz GitHub Profile"),
+and [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"),
 
-#### Publication date: July 28, 2020
+#### Publication date: July 30, 2020
 
-In response to the need for many to transition to unplanned remote work, the [IDEAS-ECP Productivity project](https://ideas-productivity.org/ideas-ecp) launched a new panel series on ***[Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely)***, led by Elaine Raybourn. The series brings together staff members of Department of Energy (DOE) laboratories and invited guests to speak about experiences in working remotely and transitioning from co-located and partially distributed teams to fully virtual teams, and teams of teams. Topics include challenges, lessons learned, unforeseen benefits, and opportunities to look for from this experience. 
+The [PSIP](https://bssw.io/psip/) team interviews social scientist, Elaine Raybourn, about her experience leading the new panel series [Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely/). The panel series, a partnership between ECP and the IDEAS Productivity project, was conceived to encourage community dialog during the pandemic. Panels brings together staff members of Department of Energy (DOE) laboratories and invited guests to share ideas, lessons learned, and experiences with working remotely and transitioning from co-located and partially distributed teams to fully virtual teams and teams of teams.
 
-In this article, Elaine discusses *why* we need strategies for working remotely and introduces the panel series.  
+**Reed Milewicz:** Elaine, while there has been a dramatic increase in remote work due to COVID-19, remote work arrangements have already been on the rise in the recent years. Do you think this trend will continue, and, if so, how might it reshape our workplaces? 
 
-### Introduction 
+**Elaine Raybourn:** That’s a great question to start off with! Yes, I do believe this trend will continue especially since now we, as a community of computational scientists, have a more collective experience with working remotely. As you noted, remote work arrangements are nothing new. What is new, however, is that we have all been working remotely together. This alone has reshaped our workplace to allow for increased awareness and, in many cases, illuminate what it’s like to experience work differently. We can now more easily see where our infrastructure and policies can be improved. Our habits and assumptions about productivity, togetherness, isolation, inclusivity, and communication are challenged each day. I’ve only listed a few here for brevity; there are certainly more. I predict that this shift to remote work en masse during a pandemic and social change will create a sea change in how we perceive work productivity in the future and will give us an opportunity to be more inclusive and compassionate. This shift will open doors for technological innovation to support how we work and communicate as teams of scientists, especially in those situations where we lack the most while absent from each other.
 
-Many scientific software teams have functioned as dispersed teams<sup>[1]</sup> and are familiar with a variety of tools commonly used by software teams to stay connected, such as email, messaging, Slack, Gitter, GitHub, Skype, MS Teams, Zoom, etc. Additionally, if you have traveled extensively, have colleagues at geographically distributed institutions, or had worked offsite, then you experienced virtual, or remote work at one time or another.<sup>[2]</sup>  While for some, working remotely has been an everyday occurrence, the global COVID-19 pandemic<sup>[3]</sup> thrust many of us into a new normal that involves extended remote work and/or reduced exposure to others while in co-located spaces and practicing social distancing. Several factors operating simultaneously have contributed to perceptions that working remotely now (during COVID-19) seems qualitatively different from working remotely before the pandemic. They include: unplanned and imposed transitions to working from home, degraded communication channels with which to express oneself and/or accomplish shared goals, and the need to learn new skills as well as unlearn old habits that over time may have shaped our views of what it means to be productive. Since it is likely that a combination of working from home and social distancing while at worksites is here to stay for a while in some form or another, we need strategies for working remotely.
+**David Rogers:** I have a follow-up question. Computational scientists already work from anywhere. So what’s different now?
 
-### Unplanned and imposed transition
+**Elaine:** First, let me say that many of us are fortunate to have the opportunity to work remotely, and I want to recognize the daily sacrifices made by colleagues who put themselves at risk during the pandemic to enable us to continue our work as scientists. It’s thanks to our colleagues who keep our laboratories functioning that we can work remotely. Now on to your question. I too have heard it said that computational scientists already work from anywhere, but let’s unpack that statement. I would argue that most of us can work from anywhere but only as long as certain conditions exist. Those conditions are different for each of us. As an example, the conditions for me personally might be access to computing, reliable communication infrastructure, space (mental and physical), etc. The opportunity we have now with respect to working remotely is to determine for ourselves, and with our teams, what those conditions are. The [Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely/) panel series attempts to address this by providing an outlet during the pandemic for our community to express ourselves and learn under which conditions we remain productive, and how we each approach challenges similarly and/or differently. The panel series has also sparked engagement with colleagues across and within the community who we might not have known before our panel participation.
 
-The transition from the office to home for many of us working remotely was unplanned and imposed. We did not ask for it, we did not plan for it, and we certainly could not control it. Yes, we face challenges including parenting while working remotely, transitioning our teams and operations to a fully virtual set-up, and virtually onboarding new team members.<sup>[4]</sup>  However, while the imposition of these unplanned changes may pose great stress for many of us, we should also nevertheless consider that there are many essential staff members who are required to report to work in co-located spaces while practicing physical distancing and in some cases putting themselves in harm’s way for a greater good. The challenges faced by essential workers who our colleagues and the need to move much of the workforce to working remotely impact future policies and ways our organizations will respond in the near- and long-term. As our organizations shift back to what they consider “normal” — which was most likely a hybrid of co-located and satellite team members who are remotely working, there will hopefully be increased awareness of the struggles faced by all. Unplanned and imposed remote work created a sea change that has changed the way we work now and will likely change the way we work in the future.
+**Elsa Gonsiorowski and Reed:** Are there specific strategies you’ve learned from leading the panels that address work-life boundaries while working at home? For example, compared to before COVID-19, what have the panels revealed about interaction with coworkers?
 
-### Degraded communication channels
+**Elaine:** Yes, the panelists have been awesome and the feedback we have received has been very positive in terms of improving attendees' outlook on the situation. It’s my goal to create a cohort of experts who we learn from as working remotely evolves. For example, we’ve had panels on resiliency strategies, parenting while working remotely, transitioning to virtual teams, and virtual onboarding/mentoring. Our next panel will take a deeper dive into scientific software teams and how they have responded to disruption.
+ 
+To that point, the panels have revealed how much of an insidious disruption COVID-19 has been — even for those of us who have worked remotely for years! As I mentioned previously, working successfully from anywhere means being reliant on an existing set of conditions. When we would work from anywhere before the pandemic, it was our choice; we knew we could go into the office, walk into a colleague’s office for an impromptu white board discussion, or easily have a hallway conversation. We could meet up face-to-face with our geographically dispersed colleagues by traveling. We had a healthy combination of face-to-face and technology-mediated communication each day, both synchronous and asynchronous. We decided how much we wanted, and when. We had agency, or locus of control, as we behavioral scientists say. That’s different now. Now we are all on the same communication channels—with each other and with our kids and families, most of the time, whether it’s for work or play. It can be exhausting if we don’t pace ourselves or take breaks. The panels have addressed each of these topics – and given the numbers of attendees we have joining the panels each time, I predict we’ll continue to work through these issues for some time.
 
-The face-to-face communication channel is what communication scholars call stimulus rich—that is, we use all of our senses (auditory, visual, haptic, olfactory, and taste) to engage in verbal and nonverbal communication and are mostly unaware of it. Technology-mediated communication today, on the other hand (except for holographic and cross reality systems [XR] which offer greater possibility for immersion), is still rather stimulus poor. Since a greater number of us are working remotely, the overuse of electronic communication for extended periods of time often degraded by poor connectivity literally overwhelms the human brain as it attempts to process and share information via screens instead of through unmediated verbal and nonverbal channels. For example, “Zoom fatigue” characterized by our constant gaze into the video camera is exhausting.<sup>[5]</sup>  Managing expectations when working in environments characterised by degraded communication channels (mostly electronic) is the unfortunate reality of working remotely. The good news is that in the best cases productivity does not suffer,<sup>[6]</sup> rather, it flourishes.
+**Ben Sims and Greg Watson:** As a social scientist, how does your background inform thinking about the series? What have you learned that has surprised you?
+ 
+**Elaine:** If you were to talk with me and not know I’m a social scientist, you might be inclined to say I overthink the series—its goals, purpose, design, execution, relevancy, etc. However, because I am a social scientist, I approach the series as I would any other scientific endeavor—I use scientific methods to search for and derive insights, patterns, and novelty. I ask both why and why not? Being a social scientist, I’m fascinated by behavioral phenomena at micro – macro levels. The [Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely/) panel series provides an opportunity for us to gain greater understanding about how we can thrive as individuals, teams, and aggregate teams (that is, teams of teams) in evolving socio-technical environments.
 
-### Unlearning old habits
+For example, one thing I learned at the onset of the pandemic that surprised me was the degree to which many in our community felt a major disruption to suddenly not be able to have spontaneous hallway conversations. I mention this example specifically because it is a good follow-on to my answer about what we’ve learned from the panels about interactions with colleagues. At first I was surprised by the angst associated with not being able to have a hallway conversation; because I have been working remotely for years, I had developed several strategies to address this for myself such as instant messaging, and not being bashful about calling someone, etc. That doesn’t work for everyone though, nor would I expect it to. The initial shift from co-located to virtual work doesn’t feel natural, and we miss face-to-face interactions that we once took for granted. What I’ve learned is that many, if not all, of us want to have spontaneous, synchronous group conversations – we really miss humanity, and that’s still harder to replicate online in a way that is satisfying to all.
 
-While most, if not all of us are open to learning new skills, we also should be open to unlearning old habits that no longer work for us in a new situation. With regard to working remotely and developer productivity, unlearning a habit in this case refers to a rethinking a familiar way of working that may no longer meet the collective expectations of productivity while we are working through a pandemic. Even though some, if not most of us, may believe we are rather skilled at working remotely, we should be open to ways that newcomers to the remote working experience will impact perceptions of productivity and the stability or comfort of our habits we once enjoyed. Very likely, we will find that our openness to new ways of working is rewarded with increased opportunities for innovation, productivity, and overall satisfaction.
+**All:** Are there ways to increase engagement further? What are some untapped issues? Where do you go from here?
+ 
+**Elaine:** Most of the panels to date have focused on building individual resiliency skills, which is what our community needed most after we were all sent home due to COVID-19. Now that we’ve been at it for about 5 months, we’ll evolve the panel series to continue to be responsive to the situation. I listen for indications of changes on the horizon, so lately I’ve been thinking about moving the focus of the panels from individual resiliency to team resiliency strategies—that is, bringing a co-located team into balance as a fully virtual team, and exploring how teams whose interactions are largely driven by their code bases develop best practices for engaging within networks of teams, or teams of teams. In terms of the panel format itself—who knows? In the future you can expect that the series will push the boundaries of the way we typically envision “panels.” My personal tendency is toward greater interactivity and full-on immersion, so you can be sure I won’t rest until we’ve explored this in some way or another. Stay tuned.
 
-### Building community
-
-In response to the challenges identified above related to the COVID-19 pandemic and the influx of previously co-located teams to working remotely, the Exascale Computing Project’s interoperable design of extreme- scale application software (IDEAS-ECP) team launched the panel series *Strategies for Working Remotely*. To date, there have been four panels who have addressed advice from those who are experienced, parenting while working remotely, transitioning to virtual teams, and onboarding and mentoring.<sup>[7]</sup> These panels are designed to promote informal, cross-organizational dialog and community building. In a time of pandemic that has exacerbated the challenges expressed in previous sections, we increasingly need to reach across perceived boundaries to learn from each other, so that we can move beyond stand-alone silos to more connected multidisciplinary and multi-organizational configurations. No longer bound by physical walls, we can consider how working remotely allows us to lead the way toward functioning more as global “teams of teams.”
-
-[Figure 1: Team of teams diagram]<img src='https://github.com/betterscientificsoftware/images/raw/master/TeamOfTeamsDiagram.png' class='page' />
-
-“Team of Teams” is a concept about interoperating people that has been applied to high-performance computing scientific software team.<sup>[1]</sup>  A “team of teams” is a network of coordinated teams who are interdependent and share trust, transparent communication, and an awareness of a common purpose.<sup>[8]</sup> Ideally, “teams of teams” (see Figure 1) are characterized by flat organizations facilitating several opportunities to share information across and within teams, allowing for more rapid decision making and more institutional flexibility. They interoperate through collaboration around an aligning narrative.<sup>[8]</sup>
-
-### Conclusion
-
-In our daily roles as scientists, engineers, developers, and informal leaders of many sorts, we are all in positions to develop teams of teams. A panel series such as *Strategies for Working Remotely*<sup>[4]</sup> offers opportunities to scale and accelerate cross-institutional cooperation and collaboration in the community toward a culture of Teams of Teams. Each of us serves an important role in ensuring that we learn as a community from the COVID-19 pandemic. Anticipating the pandemic’s lasting impact, we have an opportunity to shape and influence the future of scientific work by collectively developing strategies for working remotely.
-
-### Acknowledgment
-The content of this blog post was first presented by Elaine Raybourn as a white paper at the [2020 Collegeville Workshop on Scientific Software](https://collegeville.github.io/CW20).
+**Thanks** to [PSIP](https://bssw.io/psip/) team members Greg Watson (ORNL), Ben Sims (LANL), David Rogers (ORNL), Reed Milewicz (SNL), and Elsa Gonsiorowski (LLNL) for their interview questions and review.
 
 ### Author bio
 
-Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning.  She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom Global Research and Development; Germany (Fraunhofer - FhG FIT) and France (French National Institute for Computer Science - INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia's Institutional PI for Interoperable Design of Extreme-scale Application Software (IDEAS-ECP). She also leads the IDEAS Productivity project panel series on [*Strategies for Working Remotely*](https://www.exascaleproject.org/strategies-for-working-remotely). 
+Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning. She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom; Germany (Fraunhofer FIT) and France (INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia’s Institutional PI for the IDEAS-ECP productivity project. She leads [PSIP](https://bssw.io/psip/) and the panel series [Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely/).
 
 <!---
 Publish: preview
-RSS update: 2020-07-28
+RSS update: 2020-07-30
 Categories: Collaboration
 Topics: Strategies for More Effective Teams
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
 Aggregate: none
-SAND #: SAND2020-XXXX
+SAND #: SAND2020-7868 O
 --->
-
-<!---
-[1]: "Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach {}"
-[2]: https://bssw.io/items/resources-for-maximizing-remote-working "Resources for maximizing remote working {}"
-[3]: https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html "CDC Coronavirus (COVID-19) {}"
-[4]: https://exascaleproject.org/strategies-for-working-remotely "Panel Series, Strategies for Working Remotely {}"
-[5]: https://hbr.org/2020/04/how-to-combat-zoom-fatigue "How to combat Zoom fatigue {}"
-[6]: https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/ "Five ways to build a more productive remote team {}"
-[7]: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#about "Strategies for Working Remotely Panel Series Archive {}"
-[8]: "Team of Teams: New rules of engagement for a complex world {}"
---->
-<br>
-
-[1]: #ref1 "Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach"
-[2]: #ref2 "Resources for maximizing remote working"
-[3]: #ref3 "CDC Coronavirus (COVID-19)"
-[4]: #ref4 "Panel Series, Strategies for Working Remotely"
-[5]: #ref5 "How to combat Zoom fatigue"
-[6]: #ref6 "Five ways to build a more productive remote team"
-[7]: #ref7 "Strategies for Working Remotely Panel Series Archive"
-[8]: #ref8 "Team of Teams: New rules of engagement for a complex world"
-
-<br>
-
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | E.M. Raybourn, J.D. Moulton, A. Hungeford, 2019, Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach. Lecture Notes in Computer Science (LNCS), vol. 11589. 
-<a name="ref2"></a>2 | [E.M. Raybourn, 2020, Resources for maximizing remote working ](https://bssw.io/items/resources-for-maximizing-remote-working)
-<a name="ref3"></a>3 | [CDC Coronavirus (COVID-19) ](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html)
-<a name="ref4"></a>4 | [Panel Series, Strategies for Working Remotely ](https://exascaleproject.org/strategies-for-working-remotely)
-<a name="ref5"></a>5 | [How to combat Zoom fatigue ](https://hbr.org/2020/04/how-to-combat-zoom-fatigue)
-<a name="ref6"></a>6 | [Five ways to build a more productive remote team ](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/)
-<a name="ref7"></a>7 | [Strategies for Working Remotely Panel Series Archive ](https://www.exascaleproject.org/strategies-for-working-remotely)
-<a name="ref8"></a>8 | S. McCrystal, T. Collins, D. Silverman, C. Fussell. Team of Teams: New rules of engagement for a complex world. New York, NY: Penguin Random House LLC, 2015.
-
