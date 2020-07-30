@@ -4,14 +4,14 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle
-Slide1 R: images/raw/master/Blog_0720_Fellows.png
-Slide2 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
-Slide2 R: events/the-international-series-of-online-research-software-events-sorse
-Slide3 L: events/2020-collegeville-workshop-on-scientific-software-developer-productivity
-Slide3 L: blog_posts/porting-the-ginkgo-package-to-amd-s-hip-ecosystem
+Slide1 L: blog_posts/working-remotely-the-exascale-computing-project-ecp-panel-series
+Slide1 R: images/raw/master/Blog_0720_RemoteWorkingPanel.png
+Slide2 L: blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle
+Slide2 R: images/raw/master/Blog_0720_Fellows.png
+Slide3 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
+Slide3 R: events/the-international-series-of-online-research-software-events-sorse
 Slide4 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
-Slide4 R: images/raw/master/Blog_0620_YAGNI.jpg
+Slide4 R: items/the-collegeville-workshop-series-on-scientific-software
 Slide5 L: events/webinar-colormapping-strategies-for-large-multivariate-data-in-scientific-applications
 Slide5 R: events/panel-how-to-make-teams-tick
 --->
