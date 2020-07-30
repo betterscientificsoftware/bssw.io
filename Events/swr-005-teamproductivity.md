@@ -73,7 +73,7 @@ IDEAS-ECP productivity project.</p>
 
     
 
-#### Contributed by  [Angela Herring](https://github.com/aangelaherring "Angela Herring GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
+#### Contributed by  [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
 
 <!---
 Publish: yes
