@@ -20,7 +20,7 @@ The first workshop was the [*2019 Collegeville Workshop on Sustainable Scientifi
 The [*2020 Collegeville Workshop on Scientific Software*](https://collegeville.github.io/CW20/) focused on developer productivity.  The live portion of Collegeville 2020 was held as a virtual meeting during July 21 - 23, 2020.  Contributions are available online, including 33 video recordings on the [*Collegeville 2020 YouTube playlist*](https://www.youtube.com/playlist?list=PLSsqt6vUDjJ2lf4vs8xsX0YpBt-S-0c8t) and [35 white papers](https://collegeville.github.io/CW20/WorkshopResources/WhitePapers/WhitePaperList.html).
 
 <!---
-Publish: preview
+Publish: yes
 Publication date: 2020-07-30
 RSS update: 2020-07-30
 Categories: planning, reliability, collaboration
