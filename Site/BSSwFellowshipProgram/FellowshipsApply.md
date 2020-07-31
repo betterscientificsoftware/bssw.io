@@ -10,10 +10,7 @@ BSSw is currently accepting applications for the 2020 BSSw Fellowship Program. B
 ### Timeline for 2021 BSSw Fellowship Program
 
 - **Wednesday, August 19, 20120**: Fellowship application process opens.
-- **Wednesday, Sept 9, 4:00-5:00 PM EDT**: Fellowship webinar, Q&A. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where the slides are posted, as well as the questions that have been raised (with answers, of course!)
-<!--
-- **Friday, Sept 20, 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. If you miss the webinar, please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post the slides, as well as the questions that have been raised (with answers, of course!)
-\-->
+- **Wednesday, Sept 9, 4:00-5:00 PM EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Wednesday, Sept 30, 2020**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **Jan 4, 2021 – March 31, 2022**: Period of performance for 2021 BSSw Fellows.
 - **Feb 2021**: Fellows announced at DOE ECP Annual Meeting (date and location TBD).
