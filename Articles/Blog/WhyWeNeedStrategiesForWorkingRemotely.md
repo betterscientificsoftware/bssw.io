@@ -41,7 +41,7 @@ For example, one thing I learned at the onset of the pandemic that surprised me 
 Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning. She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom; Germany (Fraunhofer FIT) and France (INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia’s Institutional PI for the IDEAS-ECP productivity project. She leads [PSIP](https://bssw.io/psip/) and the panel series [Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely/).
 
 <!---
-Publish: publish
+Publish: yes
 RSS update: 2020-07-30
 Categories: Collaboration
 Topics: Strategies for More Effective Teams
