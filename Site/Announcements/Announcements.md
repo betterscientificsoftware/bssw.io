@@ -1,8 +1,8 @@
 # BSSw Announcements
 
 Announcement:
-- [In progress: 2020 Collegeville Workshop on Scientific Software: Developer Productivity](../../Events/Collegeville2020.event.md)
-- Display dates: 07/22/2020 - 07/23/2020
+- [Applications will open on August 19 for the 2021 BSSw Fellowship Program ... See info about BSSw Fellows' contributions](../../Articles/Fellows2019Contributions.md)
+- Display dates: 08/02/2020 - 8/19/2020
 
 <!--
 - [Call for Contributions: 2020 Collegeville Workshop on Scientific Software: Developer Productivity](../../Events/Collegeville2020.md)
