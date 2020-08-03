@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [Applications will open on August 19 for the 2021 BSSw Fellowship Program ... See info about BSSw Fellows' contributions](../../Articles/Fellows2019Contributions.md)
+- [Applications will open on August 19 for the 2021 BSSw Fellowship Program ... See info about BSSw Fellows' contributions](../../Articles/Blog/Fellows2019Contributions.md)
 - Display dates: 08/02/2020 - 8/19/2020
 
 <!--
