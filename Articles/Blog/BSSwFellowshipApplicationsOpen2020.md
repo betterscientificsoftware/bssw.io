@@ -1,4 +1,8 @@
-# Applications Open for 2021 BSSw Fellowship Program 
+# Applications Open for the 2021 BSSw Fellowship Program 
+
+**Hero Image:**
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_BSSwFApplication.png'/>
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile") 
 
@@ -12,12 +16,14 @@ The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
+Join us for a Q&A Webinar to hear more about the BSSw Fellowship Program and get your questions answered.
 - Wednesday, September 9, 2020, 4:00-5:00 pm EDT 
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
 ### More information, including on-line application and FAQ
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
+- [APPLY NOW!](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)
 - Application deadline: Wednesday, September 30, 2020; this is a firm deadline that will not be extended.
 
 ### Current and past BSSw Fellows are:
