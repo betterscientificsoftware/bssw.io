@@ -1,6 +1,12 @@
 # Surveying Test-Driven Development in Scientific Software
 
+<!-- deck text start --> 
 The *Test-Driven Development in Scientific Software: A Survey* paper, published in the *J.C. Software Qual  journal* in *2015*, examines experiences with test-driven development in the scientific computing area.   
+<!-- deck text end --> 
+
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
+
+#### Publication date: July 21, 2019
 
 Resource information | Details
 :--- | :--- 
@@ -13,9 +19,6 @@ Test-driven development (TDD) is often touted as a best practice for software de
 
 Based on a community survey, the paper analyzes the benefits reported by users of TDD, the problems reported in adopting TDD, and challenges and solutions of refactoring (an important part of the TDD process).  Although the authors' assessment is that, once again, the impacts of TDD are mixed, the more detailed discussion of the findings should make this paper a useful reading for anyone considering implementing TDD in their development processes.  Not only might it help decide whether or not to proceed with TDD, but it might also help those who proceed adapt the process to obtain better results.
 
-#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
-
-#### Publication date: July 21, 2019
 
 <!---
 Publish: yes

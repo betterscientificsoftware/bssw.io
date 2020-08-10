@@ -1,6 +1,13 @@
 # An Introduction to Bitbucket
 
+<!--- deck text start --->
 Are you familiar with revision control repository services? Bitbucket is a well-known Git-focused revision control repository service.
+<!--- deck text end --->
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+
+#### Publication date: February 24, 2020
+
 
 Resource information | Details 
 :--- | :--- 
@@ -15,10 +22,6 @@ Focus | Git code management, Code collaboration
 <!--- Too large
 ![alt text](https://www.atlassian.com/dam/jcr:e2a6f06f-b3d5-4002-aed3-73539c56a2eb/bitbucket_rgb_slate.png "Bitbucket logl")
 --->
-
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-
-#### Publication date: February 24, 2020
 
 <!---
 Publish: yes

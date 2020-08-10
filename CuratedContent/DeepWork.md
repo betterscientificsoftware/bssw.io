@@ -1,9 +1,12 @@
 # A Look into Rules for Focused Success in a Distracted World
 
-<!-- deck start -->
+<!-- deck text start -->
 Constant distractions are a part of our daily life now and inarguably disrupt our ability to perform demanding work. Are there any rules to guide our focus back on track in this frenzied world?
-<!-- deck end -->
+<!-- deck text end -->
 
+#### Contributed by [Greg Watson](https://github.com/jarrah42)
+
+#### Publication date: December 19, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -19,9 +22,7 @@ In your daily life, do you constantly get interrupted and find it difficult to f
 
 The author has also addressed this topic in a podcast.
 
-#### Contributed by [Greg Watson](https://github.com/jarrah42)
 
-#### Publication date: December 19, 2019
 
 <!---
 Publish: yes

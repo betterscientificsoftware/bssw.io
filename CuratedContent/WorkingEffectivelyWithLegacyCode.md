@@ -1,6 +1,11 @@
 # Working Effectively with Legacy Code
-
+<!--deck text start-->
 Legacy code can be challenging to use and extend. The book *Working Effectively with Legacy Code*, written by *Michael Feathers*, talks about legacy code and how to work effectively with it.
+<!--deck text end-->
+
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+#### Publication date: June 5, 2019
+
 
 Resource information | Details 
 :--- | :--- 
@@ -108,11 +113,6 @@ References | &nbsp;
 <a name="ref4"></a>4 | [Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003](https://www.pearson.com/us/higher-education/program/Beck-Test-Driven-Development-By-Example/PGM206172.html)
 
 <br>
-
-
-#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-
-#### Publication date: June 5, 2019
 
 
 <!---

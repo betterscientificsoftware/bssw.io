@@ -1,5 +1,11 @@
 # It Will Never Work in Theory
+<!-- deck text start --> 
 An easy-reading, interesting blog, is presented in this article. The blog would be interesting to anyone looking to bridge the gap between researchers and practitioners in software engineering.
+<!-- deck text end --> 
+
+#### Contributed by [David Bernholdt](http://github.com/bernhold)
+
+#### Publication date: January 30, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -12,9 +18,6 @@ This slightly old, but interesting blog, titled *[It Will Never Work in Theory](
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-theory.svg' class='logo' />
  
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
-
-#### Publication date: January 30, 2020
 
 <!---
 Publish: yes

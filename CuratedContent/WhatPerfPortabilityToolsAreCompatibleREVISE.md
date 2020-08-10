@@ -1,9 +1,12 @@
 ## Understanding Compatibility of Performance Portability Tools
 
-<!--- deck start --->
+<!--- deck text start --->
 Tools such as OpenMP and CUDA are helping scientific applications achieve performance portability. However, do we understand the underlying compatibility challenges encountered by these tools?
-<!--- deck end --->
+<!--- deck text end --->
 
+#### Contributed by [Dan Ibanez](https://github.com/ibaned)
+
+#### Publication date: July 20, 2019
 
 As applications begin to enable performance portability through the use of
 tools such a OpenMP and CUDA, they may encounter issues related to compability of tools used by different libraries they depend on. This document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
@@ -59,9 +62,7 @@ Conversely, if one package uses OCCA to tranform their code to use OpenMP,
 and another package uses Kokkos's Threads backend, then they will not be as interoperable
 because of the different implementations of thread pools.
 
-#### Contributed by [Dan Ibanez](https://github.com/ibaned)
 
-#### Publication date: July 20, 2019
 
 <!---
 Publish: yes

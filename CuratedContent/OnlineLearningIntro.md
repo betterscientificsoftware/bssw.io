@@ -1,6 +1,11 @@
 # An Introduction to Online Learning
-
+<!-- deck text start -->
 Online Learning is gaining a lot of popularity. This article briefly introduces some popular online learning resources.
+<!-- deck text end -->
+
+#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
+
+#### Publication date: August 01, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -42,9 +47,6 @@ Listed below are some of the popular online learning sites. You can get started 
 * [Udacity](https://www.udacity.com)
 * [edX](https://www.edx.org)
 
-#### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
-
-#### Publication date: August 01, 2019
 
 <!---
 Publish: yes

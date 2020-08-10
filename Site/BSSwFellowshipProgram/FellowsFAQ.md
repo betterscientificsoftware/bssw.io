@@ -2,14 +2,15 @@
 
 More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
 
-## Q & A Webinar, September 20, 2019
+## Q & A Webinar, September 9, 2020
 
-### [Slides (pdf)](https://doi.org/10.6084/m9.figshare.9883013)
+### Slides and recording will be posted after webinar
+Check out slides from last year:  [Slides (pdf)](https://doi.org/10.6084/m9.figshare.9883013)
 
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-**The application deadine is Tuesday, October 15, 2019, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
+**The application deadine is Wednesday, September 30, 2020, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
 
 ### Is a particular format required for the proposal?
 
@@ -39,16 +40,19 @@ Applications are reviewed by a panel of diverse members of the CSE community usi
 * The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
 * The proposer will be a long-term advocate for better scientific software beyond the fellowship period of performance.
 
+### Can I submit multiple applications with different proposals?
+
+No, only one application submission per person.  
 
 ## Funding Questions
 
-### What is the amount of funding for 2020 BSSw Fellows?
+### What is the amount of funding for 2021 BSSw Fellows?
 
-Each 2020 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
+Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 
 ### How are the funds awarded?  When do I submit budget information?  
 
-The Fellowship award will be in the form of a subcontract from Oak Ridge National Laboratory to the recipient’s institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  
+The Fellowship award will be in the form of a subcontract to the recipient’s institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  
 
 ### Are there any restrictions on how the fellowship funds can be used?
 
@@ -121,7 +125,7 @@ Beyond completing the proposed scope of work, BSSw Fellows are life-long members
 
 ### Do you expect fellows to attend events or meetings?
 
-We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held during the week of February 3-7, 2020 in Houston, TX.
+We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2021.  More information on dates and location TBD.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 

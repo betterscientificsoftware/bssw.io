@@ -13,7 +13,7 @@ The site aims to raise awareness of the importance of good software practices to
 
 Once live, we will encourage contributions from the wider CSE community.
 
-For more on what's here and who contributes and why, see the [Site Overview Page](../../Site/SiteOverview.md).
+For more on what's here and who contributes and why, see the [Site Overview Page](https://bssw.io/pages/site-overview).
 
 <!---
 Publish: Yes

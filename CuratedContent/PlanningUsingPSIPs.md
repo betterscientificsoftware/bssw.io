@@ -1,7 +1,11 @@
 <!-- # Digging Deeper into PSIP Software Process Improvement Methodology-->
 # Planning for Better Software: PSIP Tools
+<!-- deck text start --> 
+Do you wish to learn how to upgrade your team's software practices? Do you want to improve software sustainability and productivity in an easy and efficient manner in your project? This article gives pointers on the PSIP Software Improvement Process for scientific software.
+<!-- deck text end --> 
 
-Do you wish to learn how to upgrade your team's software practices? Do you want to improve software sustainability and productivity in an easy and efficient manner in your project? This article gives pointers to the PSIP Software Improvement Process for scientific software.
+#### Contributed by [Rinku Gupta](http://github.com/rinkug)
+#### Publication date: January 28, 2020
 
 Resource information | Details 
 :--- | :--- 
@@ -16,10 +20,6 @@ The [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.i
 An ideal place to start learning about PSIP in the *PSIP* repo would be to start at the online *[PSIP user manual/practice guides](https://github.com/bssw-psip/practice-guides/blob/master/README.md)*. The *PSIP* repo contains everything starting from PSIP introduction, practice guides to PSIP examples. A critical part of a PSIP progress is a Progress Tracking Card (PTC), which contains the goal of the planning activity and a step-by-step list of activities or outcomes to achieve the goal. An invaluable collection of PTC cards can be found in the *PSIP* repo, for your perusal. In addition, you will also find detailed guidelines on how to systematically and easily create custom PTCs for your projects, even if you are practicing PSIP for the first time on your own.
 
 The PSIP process has been successfully used to help scientific software teams acheive incremental, sustainable process improvement, while still achieving their science goals. The *PSIP* repo is an excellent starting point in your endeavour to learn about the PSIP software process improvement methodology.
-
-#### Contributed by [Rinku Gupta](http://github.com/rinkug)
-
-#### Publication date: January 28, 2020
 
 
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:

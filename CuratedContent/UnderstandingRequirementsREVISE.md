@@ -1,8 +1,12 @@
 # Understanding Requirements for Scientific Software
 
-<!--- deck start -->
+<!--- deck text start -->
 Understanding and gathering requirements is an essential process in software development. Learn about how to understand requirements for scientific software!
-<!---deck end --->
+<!---deck text end --->
+
+#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
+
+#### Publication date: October 26, 2017
 
 In the broadest terms, a requirement is a condition or capability that a software product ought to have. However, by this definition, virtually anything could be considered a requirement. Moreover, because requirements are often subject to change and not all can be known in advance, the name itself can seem misleading. Rather, as a starting point, requirements should be understood as *a device for communication between stakeholders*. Codifying requirements presents an opportunity for everyone involved to express their needs, wants, and expectations for the software. For the customer, that establishes a traceable, verifiable contract against which the software product can be compared, and for the developer, it informs the design specification and the implementation. 
 
@@ -29,9 +33,6 @@ Meanwhile, explicitly documenting non-functional requirements is important becau
 ### Citations
 - Ralph Rowland Young. The requirements engineering handbook. Artech House, 2004.
 
-#### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
-
-#### Publication date: October 26, 2017
 
 <!---
 Publish: Yes

@@ -74,9 +74,10 @@ Software Fellow helping code teams to improve the reliability of
 scientific software through analyzing and debugging floating-point
 software.</p>
 
-    
 
-#### Contributed by Ignacio Laguna
+
+#### Contributed by [Ignacio Laguna](https://github.com/ilagunap "Ignacio Laguna GitHub Profile")
+
 
 #### Publication date: October 16, 2019
 

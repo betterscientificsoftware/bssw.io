@@ -1,9 +1,12 @@
 
 # Exploring Best Practices for Scientific Computing
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
-
+<!--- deck text start --->
 The *Best Practices for Scientific Computing* article, published in the *PLOS Computational Biology journal* in *Jan 2014*, explores best practices for scientific computing based on the authors' collective experience in this field.
+<!--- deck text end --->
+
+#### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
+#### Publication date:  July 12, 2019
 
 
 Resource information | Details

@@ -9,7 +9,7 @@ As computational science addresses more advanced modeling, simulation, and analy
 
 ## Where do I go next?
 - **Explore** the resources below.
-- **Investigate**  BSSw's offerings [BSSw Homepage](../Homepage.md).
+- **Investigate**  BSSw's offerings [BSSw Homepage](https://bssw.io).
 
 <!--
 Featured resources for the Scientific libraries community.

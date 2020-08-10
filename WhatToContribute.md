@@ -26,12 +26,12 @@ We solicit the following types of content from our readers and the community.
 - **Original article:** Short article with original content.  We welcome both experience articles (to inform the CSE community about how to improve some aspect of software productivity and sustainability) and blog articles. Brevity is appreciated; for example a blog is usually around 500--1,500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
  <!--  - folder: [Articles/Blog](Articles/Blog/README.md) -->
 
-- **Curated content:** Brief article that highlights other web-based content (such as tools, websites, books, organizations, etc.).  Your article should describe why the CSE community might find value in the linked content.
+- **Curated content:** Brief article that highlights other web-based content (such as tools, websites, books, organizations, etc.). Your article should describe why the CSE community might find value in the linked content.
 <!-- - folder: [CuratedContent](CuratedContent/README.md) -->
 
 - **Event:** Brief description of an event (such as a workshop, conference, or tutorial) relevant to better scientific software.
 
-- If you have questions about contributing content that does not fit the above pre-defined types, please contact us using the [Questions about contributions](./QuestionsAboutContributing.md) page.
+- If you have questions about contributing content that does not fit the above pre-defined types, please contact us using the [Questions about contributions](https://bssw.io/pages/questions-about-contributing-to-better-scientific-software) page.
 
 ### Scope of Content
 The exact scope of relevant content will evolve as we learn more about community interests.  However, the following guidelines should be useful:
@@ -56,7 +56,7 @@ The exact scope of relevant content will evolve as we learn more about community
 
 ### Does your idea seem to fit?
 
-If you have an idea that might work, continue to the [How To Contribute](./HowToContribute.md) page.
+If you have an idea that might work, continue to the [How To Contribute](https://bssw.io/pages/how-to-contribute-content-to-better-scientific-software) page.
 
 <!-- end of body -->
 

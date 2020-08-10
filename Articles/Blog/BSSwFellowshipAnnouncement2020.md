@@ -24,42 +24,70 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
   <h3>Nasir Eisty, University of Alabama</h3>
   <p>Computer Science Graduate Student</p>
   <p><i>BSSw Focus</i>: Automatic testing in scientific software</p>
-</div>
 </div>  
+</div>
 
-
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
+</div>
+  
+<div class='short_bio'>
+  <h3>Damian Rouson, Sustainable Horizons Institute</h3>
+  <p>Research Engineer</p>
+  <p><i>BSSw focus</i>: Agile scientific software development integrated with expanding outreach to underrepresented groups</p>
+</div> 
+</div>
 
-### Damian Rouson, Sustainable Horizons Institute
-Research Engineer
 
-_BSSw focus_: Agile scientific software development integrated with expanding outreach to underrepresented groups
-
-<p>&nbsp;</p>
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
-### Cindy Rubio-Gonzalez, University of California, Davis
-Assistant Professor, Computer Science
+</div>
 
-_BSSw focus_: Improving correctness of numerical software and the effective use of mixed floating-point precision for better performance
-
+<div class='short_bio'>
+  <h3>Cindy Rubio-Gonzalez, University of California, Davis</h3>
+  <p>Assistant Professor, Computer Science</p>
+  <p><i>BSSw focus</i>: Improving correctness of numerical software and the effective use of mixed floating-point precision for better performance</p>
+</div> 
+</div>
 
 ## 2020 BSSw Honorable Mentions
-<p>&nbsp;</p>
 
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DavidBoehme.png' class='logo' />
-### David Boehme, Lawrence Livermore National Laboratory
-Research Staff, Center for Applied Scientific Computing 
-<p>&nbsp;</p>
+</div>
 
+<div class='short_bio'>
+  <h3>David Boehme, Lawrence Livermore National Laboratory</h3>
+  <p>Research Staff, Center for Applied Scientific Computing</p> 
+</div>
+</div>
+  
+
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_SumanaHarihareswara.png' class='logo' />
-### Sumana Harihareswara, Changeset Consulting
-Founder and Principal, Open source software management and collaboration
-<p>&nbsp;</p>
+</div>
 
+<div class='short_bio'>
+  <h3>Sumana Harihareswara, Changeset Consulting</h3>
+  <p>Founder and Principal, Open source software management and collaboration</p>
+</div>
+</div>
+
+
+<div class='fellow'>
+<div class='img_div'>
 <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_David Rogers.png' class='logo' />
-### David Rogers, University of Southern Florida
-Assistant Professor of Chemistry
-<p>&nbsp;</p>
+</div>
+
+<div class='short_bio'>
+  <h3>David Rogers, University of Southern Florida</h3>
+  <p>Assistant Professor of Chemistry</p>
+</div>
+</div>
 
 ### About the BSSw Fellowship
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2020.  More information:

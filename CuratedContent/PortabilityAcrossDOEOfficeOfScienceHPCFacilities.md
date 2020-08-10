@@ -1,6 +1,11 @@
 ### Portability across DOE Office of Science HPC Facilities
-
+<!-- deck text start --> 
 Does your software run on many DOE HPC facilities? This short article discusses an excellent resource that would be helpful for this effort.
+<!-- deck text end --> 
+
+#### Contributed by [Tim Williams](https://github.com/zippylab)
+
+#### Publication date: September 06, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -12,9 +17,7 @@ Achieving good performance across a range of platforms is an important goal for 
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-perfport.png' class='logo' />
 
-#### Contributed by [Tim Williams](https://github.com/zippylab)
 
-#### Publication date: September 06, 2019
 
 <!---
 Publish: yes

@@ -1,6 +1,6 @@
 # What is Continuous Integration Testing?
 <!--deck start--->
-Continuous integration testing refers to a software development methodology where code changes are committed and merged, automatically built and tested on a give infrastructure frequently and at reasonable granularity - in an effort to reduce integration risk, reduce merge conflicts and bugs and improve overall operational code quality.
+Continuous integration testing is a process where code changes are automatically merged with key branches of development, built and tested at a routine frequency and granularity in an effort to reduce integration risk and merge conflicts and improve overall code quality.
 <!--deck end--->
 
 <!--body start--->

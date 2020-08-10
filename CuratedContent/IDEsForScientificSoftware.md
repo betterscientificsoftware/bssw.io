@@ -1,6 +1,12 @@
 # An Introduction to Integrated Development Environments (IDEs) for Scientific Software Development
-
+<!-- deck text start --> 
 Integrated Development Environments (IDEs) are very commonly used in scientific software development. This article talks about some free and commericial IDEs, available for you to use.
+<!-- deck text end -->
+
+
+#### Contributed by [Greg Watson](https://github.com/jarrah42)
+
+#### Publication date: August 06, 2019
 
 Resource information | Details 
 :--- | :--- 
@@ -176,10 +182,6 @@ The following tables show which IDEs support important features for scientific c
 | Code::Blocks      |   Y   |    Y    |   Y<sup>1</sup> |
 
 1. Current version not supported
-
-#### Contributed by [Greg Watson](https://github.com/jarrah42)
-
-#### Publication date: August 06, 2019
 
 <!---
 Publish: yes

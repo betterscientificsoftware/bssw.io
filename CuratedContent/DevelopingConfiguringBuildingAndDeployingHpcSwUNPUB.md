@@ -1,8 +1,13 @@
-# Developing, Configuring, Building, and Deploying HPC Software
+# Developing, Configuring, Building, and Deploying HPC Software UNPUBLISHED
+** Is this not valid anymore? **
+
+<!-- deck text start --> 
+The process of developing HPC software requires an understanding of issues in software design. Do you know how to configure, build, and deploy HPC software?
+<!-- deck text end --> 
 
 #### Contributed by [Barry Smith](https://github.com/BarrySmith "Barry Smith GitHub Profile") 
+#### Publication date: May 14, 2018
 
- The process of developing HPC software requires an understanding of issues in software design. Do you know how to configure, build, and deploy HPC software?
 
 Resource information | Details 
 :--- | :--- 
