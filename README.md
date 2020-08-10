@@ -1,43 +1,16 @@
-Home Page: Table of Contents
-============================
+### betterscientificsoftware.github.io
 
-<!--ts-->
-   * [About Us](Documentation/WhoAreWe.md)
-     - [Code of Conduct]()
-     - [Content Licensing]()
-     - [Funding Acknowledgement]()
-     - [Contact Us]()
-   * The BSSw.io Editorial Board
-     - [Editorial Board Charter]()
-     - [Editorial Board Current and Emeritus Members]()
-   * BSSw.io Content Submission
-     - [What Content is BSSw.io Seeking (BSSw.io document)?](WhatToContribute.md)
-     - [How can Authors contribute Content (BSSw.io document)?](HowToContribute.md)  
-   * BSSw.io Content Editorial Processes
-     - [Curated Content Workflow Process](Site/CuratedContentEditorialWorkflow.md)
-     - [Blog Workflow Process]()
-     - [Event Workflow Process]()
-   * Writing BSSw.io Content
-     - [Github Organization for New Content](Documentation/OrgNewContent/OrganizeNewContent.md)
-     - [Style Guide for writing Content](Documentation/ContentStyleGuide/ContentStyleGuide.md)
-   * Publishing Content to BSSw.io
-     - [Final Review Checklist for BSSw.io Content](Documentation/PublContent/ContentReviewchecklist.md)
-   * BSSw.io Website Management
-     - [Highlighting Content on BSSw.io]()
-   * Supplementary Documentation
-     - [Previewing Pre-published Content]()
-     - [BSSw Monthly Digest]()
-   * Temporary files - Complete/Delete/Archive?
-     - [Temporary: Content Style Quirks](Documentation/TmpFiles/StyleQuirks.md)
-     - [Temporary: BSSw.io Site Abbreviations](Documentation/TmpFiles/Abbreviations.md)	
-     - [Needs to be finalized: BSSw Content Types](Site/ContentTypes.md)
+#### Who We Are
 
-<!--te-->
+**Better Scientific Software** is an organization dedicated to [improving developer productivity](Articles/WhatIs/WhatIsProductivity.md) and [improving software sustainability](Articles/WhatIs/WhatIsSustainability.md) for computational science and engineering (CSE).
 
-### Introduction to betterscientificsoftware.github.io
+This repository provides source material for the Better Scientific Software [BSSw.io](https://bssw.io) web portal. Better Scientific Software (BSSw) community members can contribute content using standard GitHub tools and processes. Contributions can be made via:
+* **Web browser editing**:  For many people (even BSSw project members), this is probably the preferred way.  GitHub provides a nice web editor for Markdown.
+* **Cloning**: If you have push access, you can clone and commit to this repository.  This approach could be best for remote editing and activities that span across multiple source files.
+* **Forking**: This option is like cloning, but works for anyone.  You can make edits to your own forked copy of the repo, either in a browser or from a local repository.  Contributions are submitted to BSSw by using a pull request.
+* **Submit article via Google Form**: For those unfamiliar with GitHub tools and processes, or who simply want to make a quick contribution, we offer a Google Form for submissions.
 
-The content, on these pages, is presented for the BSSw.io Editorial
-board and source/backend support team members.
+For details see our [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md) pages.
 
 <!---
 Publish: no
