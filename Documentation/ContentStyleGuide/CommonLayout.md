@@ -21,7 +21,7 @@ Most content types will have  the deck text, which is usually couple of lines hi
 1. It is good to add the comments  `<!-- deck text start -->` and  `<!-- deck text end -->` around the deck text in the raw file: 
 *Example*: `<!-- deck text start --> This is deck text <!-- deck text end -->`
 2. No hyperlinks are allowed in the deck.
-3. If text is used, then the deck contains one or atmost two sentences about the article which piques user interest.
+3. If text is used, then the deck contains one or at most two sentences about the article which piques user interest.
 4. Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
 
 #### Deck Attributes
@@ -48,10 +48,10 @@ The indicates which BSSw.io topic areas the article belongs to. Each of the six 
 
 ## MAIN BODY SECTION
 The main body is the portion of the article below the deck.  The elements of the main body differ based on content type. 
-The main body should explain the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content described later in this guide.
+The main body should explain the content from the perspective of the CSE community. There may be an image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content described later in this guide.
 
 ### Handling images
-Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision which this guide will not delve into.  To reference the images in the article, we upload them to a specific bssw.io images directory and then reference them from the article.
+Images for content are stored in a different repository (and not the main repo). There are several reasons for this decision, which this guide will not delve into.  To reference the images in the article, we upload them to a specific bssw.io images directory and then reference them from the article.
 1. Please upload logo to https://github.com/betterscientificsoftware/images.
 2. Add following text with url to end of body text in the article `< img src='url to image file in the images directory' class='logo' / >`
 3. Please ensure we have permission to use the logo 
