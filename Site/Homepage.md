@@ -12,8 +12,8 @@ Slide3 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
 Slide3 R: events/the-international-series-of-online-research-software-events-sorse
 Slide4 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
 Slide4 R: items/the-collegeville-workshop-series-on-scientific-software
-Slide5 L: events/webinar-colormapping-strategies-for-large-multivariate-data-in-scientific-applications
-Slide5 R: events/panel-how-to-make-teams-tick
+Slide5 L: events/panel-how-to-make-teams-tick
+Slide5 R: events/webinar-testing-and-code-review-practices-in-research-software-development
 --->
 
 <!---
