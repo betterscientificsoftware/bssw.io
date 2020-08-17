@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_BSSwFApplication.png'/>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_FellowsGrid_12.png'/>
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile") 
 
