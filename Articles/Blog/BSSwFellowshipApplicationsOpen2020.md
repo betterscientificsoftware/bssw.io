@@ -1,16 +1,14 @@
 # Applications Open for the 2021 BSSw Fellowship Program 
 
-**Hero Image:**
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_FellowsGrid_12.png'/>
-
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile") 
 
 #### Publication date: August 16, 2020
 
-Applications are now open for the 2021 BSSw Fellowship Program, which gives recognition and funding to leaders and advocates of high-quality scientific software. 
+Applications are now open for the 2021 BSSw Fellowship Program, which gives recognition and funding to leaders and advocates of high-quality scientific software.
 
 Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering (CSE) through BETTER Planning, Development, Performance, Reliability, Collaboration, and Skills.  
+
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_FellowsGrid_12.png'/>
 
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select at least three Fellows per year and honorable mentions as appropriate. Each 2020 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community. 
 
