@@ -36,7 +36,7 @@ Join us for a Q&A Webinar to hear more about the BSSw Fellowship Program and get
 Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
 
 <!---
-Publish: no
+Publish: preview
 RSS update: 2020-08-16
 Categories: collaboration
 Topics: projects and organizations
