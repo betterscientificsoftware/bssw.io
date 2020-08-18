@@ -129,7 +129,7 @@ Beyond completing the proposed scope of work, BSSw Fellows are life-long members
 
 ### Do you expect fellows to attend events or meetings?
 
-We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2021.  More information on dates and location TBD.
+We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2021.  
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
