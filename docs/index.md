@@ -5,3 +5,4 @@
 * [Workflows](Workflows/index.md)
 * [Publishing Checklists](PublContent/index.md)
 * [New Organization](OrgNewContent/index.md)
+* Adding to test CI
