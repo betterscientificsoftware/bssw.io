@@ -4,11 +4,16 @@
 Applications for the 2021 BSSw Fellowship Program open August 19, 2020. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site.
 
 <!--
-BSSw is currently accepting applications for the 2020 BSSw Fellowship Program. BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  Submissions are accepted through the [online application form](https://forms.gle/WPDMsLLzbg7LQwcU9).
+BSSw is currently accepting applications for the 2021 BSSw Fellowship Program. 
+-->
+
+<!--
+BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/EahTHs13QzXdtQqD7).
 -->
 
 ### Timeline for 2021 BSSw Fellowship Program
 
+<!-- - **Wednesday, August 19, 20120**: Fellowship application now being accepted. -->
 - **Wednesday, August 19, 20120**: Fellowship application process opens.
 - **Wednesday, Sept 9, 4:00-5:00 PM EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Wednesday, Sept 30, 2020**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
@@ -18,12 +23,10 @@ BSSw is currently accepting applications for the 2020 BSSw Fellowship Program. B
 The BSSw Fellowship program fosters and promotes practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select at least three Fellows per year and honorable mentions as appropriate. Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community. 
 
 ### Application Format
-
 #### Experience:
 
 - Describe your work relevant to scientific software (1000 - 1500 characters).
 - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
-
 #### Proposed work and impact:
 
 - What would you do as a BSSw Fellow? (1000 - 1500 characters).
@@ -36,21 +39,21 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
 
 Applications open Wednesday, August 19, 2020 for the 2021 BSSw Fellowship Program.  Please check back for information about the 2021 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
 
-### More information
-
-- [BSSw Fellowship Program](https://bssw.io/fellowship)
-
 <!-- 
+Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/EahTHs13QzXdtQqD7).
+-->
+
 ### Q&A Webinar about the BSSw Fellowship Program
 
 - Wednesday, September 9, 2020 4:00-5:00 PM EDT
-<!--- Friday, September 20, 2019, 1:00-2:00 pm EDT -->
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
 ### More information, including on-line application
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-- [Online Application](https://forms.gle/WPDMsLLzbg7LQwcU9) (Submissions Open!)
+
+<!-- 
+- [Online Application](https://forms.gle/EahTHs13QzXdtQqD7) (Submissions Open!)
 - Application deadline: Wednesday, September 30, 2020; this is a firm deadline that will not be extended.
 -->
 
