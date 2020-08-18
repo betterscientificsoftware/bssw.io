@@ -18,7 +18,7 @@ BSSw Fellows receive recognition and funding to be advocates of high-quality sci
 - **Wednesday, Sept 9, 4:00-5:00 PM EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Wednesday, Sept 30, 2020**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **Jan 4, 2021 – March 31, 2022**: Period of performance for 2021 BSSw Fellows.
-- **Feb 2021**: Fellows announced at DOE ECP Annual Meeting (date and location TBD).
+- **Apr 12-15 2021**: Fellows announced at [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/) in Houston, TX.
 
 The BSSw Fellowship program fosters and promotes practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select at least three Fellows per year and honorable mentions as appropriate. Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community. 
 
