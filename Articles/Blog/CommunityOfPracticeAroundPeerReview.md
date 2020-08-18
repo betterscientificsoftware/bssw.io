@@ -8,13 +8,11 @@
 
 #### Publication date: September 11, 2020
 
-### Introduction
+### Creating a system to review research software
 
 Software, particularly research software, impacts all parts of the modern scientific enterprise, especially the central, vital activity of data analysis and statistical inference.  One would be hard pressed to name areas of contemporary research that are not reliant on research software. These include hundreds of open-source libraries and software packages, many of which are developed by researchers themselves.  Research software is so essential that a large majority of researchers in the UK and US say that they will no longer be able to continue their work if research software tools stopped working (Jiménez et al. 2017).  Despite the growing importance of research software, much of it is cobbled together with little regard for high standards that are characteristic of other research activities. As a result, the research software ecosystem is fragile and the source of numerous problems that afflict modern computational science (Carver et al. 2018). 
 
 rOpenSci was founded in 2011 in part to address some of the challenges with making research software more sustainable. Our mission is to create technical infrastructure in the form of carefully vetted, staff- and community-contributed R software tools that lower barriers to working with scientific data sources on the web. Our tools support key parts of the data life cycle, from lowering barriers to access, to validation and permanent archiving.  Over  the past decade we have grown into a widely recognized effort that supports an ecosystem of hundreds of high quality software packages to support the scientiﬁc community. Our software is maintained not just by our expert developers but also through numerous contributions from our thriving community.
-
-**Creating a system to review research software**
 
 Perhaps rOpenSci’s biggest contribution to improving the state of research software is not just the development and maintenance of critical software tools in-house, but in mentoring domain scientists in good software development practices and fostering a peer review culture for research software. In 2015 we began accepting software contributions from domain researchers. Each submission is evaluated against a checklist of best practices and reviewed by two independent developers. The criteria and guidelines have grown over the years to become rOpenSci’s software review system.   In this blog post we briefly describe our efforts to improve the state of research software by creating a peer-review system that shares many similarities with the publishing system but also addresses challenges that are unique to software development in research.
 
@@ -62,11 +60,14 @@ To combat these issues, we created a peer-review system for software analogous t
 
 The results of scientific endeavors are primarily communicated as peer-reviewed publications. The citation impact of such products is captured using metrics such as the h-index and form the basis for hiring, promotion, and tenure. The changing nature of science means that researchers now produce many more valuable outputs than just papers, one of which is software. While software research products often have a greater overall impact than publications, both the reward and review systems have failed to keep up. Scientists have little incentive to release high quality software, and although more and more researchers are releasing their software in some form, the lack of formal review mechanisms is contributing to the fragility of the system.
 
-More recently several journals have emerged as venues for software papers. These include Journal of Open Source Software, Journal of Open Research Software (JORS) and Software X. By providing traditional citations, these venues allow researchers to obtain credit in more traditional forms.  For a more details on rOpenSci’s software review process, please read the the full paper (“A Community of Practice Around Peer Review for Long-Term Research Software Sustainability”) available at [https://ieeexplore.ieee.org/abstract/document/8554180](https://ieeexplore.ieee.org/abstract/document/8554180) \
+More recently several journals have emerged as venues for software papers. These include Journal of Open Source Software, Journal of Open Research Software (JORS) and Software X. By providing traditional citations, these venues allow researchers to obtain credit in more traditional forms.  For a more details on rOpenSci’s software review process, please read the the [full paper](https://doi.org/10.1109/MCSE.2018.2882753) on which this blog article is based.
+
 rOpenSci continues to address an unmet need by helping researchers develop high quality software that is easier to sustain in the long run. Since 2015 we have peer reviewed and published over 140 software packages and worked to elevate and standardize development practices in the research community. We have just begun an effort to develop new standards for statistical software.
 
 ### Acknowledgments
-This article is based on a paper in the IEEE Computing in Science and Engineering special issue on Accelerating Scientific Discovery with Reusable Software: Karthik Ram, Carl Boettiger, Scott Chamberlain, Noam Ross, Maëlle Salmon, and Stefanie Butland
+This article is based on a paper in the IEEE Computing in Science and Engineering special issue on Accelerating Scientific Discovery with Reusable Software: Karthik Ram, Carl Boettiger, Scott Chamberlain, Noam Ross, Maëlle Salmon, and Stefanie Butland ,*A Community of Practice Around Peer Review for Long-Term Research Software Sustainability*, Computing in Science and Engineering 21, 59-65 (2019). DOI: [10.1109/MCSE.2018.2882753](https://doi.org/10.1109/MCSE.2018.2882753)
+
+Complete citations for the references mentioned in this article can also be found in the full paper.
 
 ### Author Bios
 
@@ -85,8 +86,8 @@ Stefanie Butland is the Community Manager with rOpenSci. Contact her at stefanie
 <!---
 Publish: preview
 RSS update: 
-Categories: Collaboration
-Topics: Strategies for More Effective Teams
+Categories: Planning
+Topics: Software Process Improvement, Software Engineering
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
