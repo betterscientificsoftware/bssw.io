@@ -16,7 +16,13 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition a
 
 <br>
 
-We encourage diverse applicants at all career stages—ranging from students through early-career, mid-career, and senior professionals—from throughout the CSE and software communities. 
+We encourage diverse applicants at all career stages—ranging from students through early-career, mid-career, and senior professionals—from throughout the CSE and software communities. We are looking for applications from people with the following characteristics:
+
+* Passionate about scientific software.
+* Interested in contributing powerful ideas, tools, methodologies, and more that improve the quality of scientific software.
+* Able to use the fellowship to broadly benefit the scientific software community.
+
+Applicants must be affiliated with a U.S.-based institution that is able to receive funding from the U.S. Department of Energy. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. 
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
