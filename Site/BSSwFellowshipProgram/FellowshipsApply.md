@@ -5,7 +5,7 @@
 
 BSSw is currently accepting applications for the 2021 BSSw Fellowship Program. 
 
-BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/EahTHs13QzXdtQqD7).
+BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link).
 
 
 ### Timeline for 2021 BSSw Fellowship Program
@@ -37,7 +37,7 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
 Applications open Wednesday, August 19, 2020 for the 2021 BSSw Fellowship Program.  Please check back for information about the 2021 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
 -->
 
-Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/EahTHs13QzXdtQqD7).
+Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link).
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
@@ -47,7 +47,7 @@ Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submi
 ### More information, including on-line application
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-- [Online Application](https://forms.gle/EahTHs13QzXdtQqD7) (Submissions Open!)
+- [Online Application](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link) (Submissions Open!)
 - Application deadline: Wednesday, September 30, 2020; this is a firm deadline that will not be extended.
 
 
