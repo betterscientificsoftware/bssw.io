@@ -1,10 +1,10 @@
 # Styling for Events
 
-A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels/no-submission based events  etc.
+An *event content article* is a very brief article that highlights an event. An *event article* can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels/no-submission based events  etc.
 
-The main part of the event article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. The following sections describe the structure and various parts of an event article.
+The main part of the *event article* consists of the (1) Deck, (2) Main body of the article and (3) Metadata. The following sections describe the structure and various parts of an *event article*.
 
-A written event content article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
+A written *event content article* must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events) to use as a starting point.
 
 
 ## DECK
@@ -42,14 +42,14 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 ## MAIN BODY
 ### General Guidelines
 1. In the body of the event, first level headings should start with `### ` heading format.
-2. Please write the body text in "third person" even if you are copy-pasting it from somewhere. The BSSw.io team is not an organizer of most of these events, hence usage of third-person grammar is essential
-3. If you do not plan to update the event in the future, refrain from adding text such as "TBD", "Coming soon". In such cases, please rephrase text to point to links where such information may be updated by the third-parties
+2. Please write the body text in "third person" even if you are copy-pasting it from somewhere. The BSSw.io team is not an organizer of most of these events, hence usage of third-person grammar is essential.
+3. If you do not plan to update the event in the future, refrain from adding text such as "TBD", "Coming soon". In such cases, please rephrase text to point to links where such information may be updated by the third-parties.
 4. Please add "The *current* deadline is ...." and "Please see event website for deadline updates" to your text where relevant. The BSSw.io site cannot track and keep updating new deadlines to the event. Use this kind of discretion for the text when you write.
 5. As far as you can,  please point people to the main event website (and not to specific pages and links). Specific pages can change over time and cause broken links.
 6. Avoid copying ALL details from the event website. Event websites have a lot of specific details which we don't have to provide on the BSSw.io website.
 
 ### Structure of the main body
-The usual sections of the body text for  *upcoming events* has three parts: (1) Short introduction, (2) Event table and (3) Additional information.
+The usual sections of the body text for *upcoming events* has three parts: (1) Short introduction, (2) Event table and (3) Additional information.
 
 #### 1.  SHORT INTRODUCTION 
 This is text without any heading introducing the event
@@ -67,6 +67,8 @@ Submission deadlines | yyyy-mm-dd, any short text. Add "Please see event website
 Registration and other Information| URL
 Links to the Recordings and Archives  | Please do not use words like TBD here; please add this row only if you know that there are archives available.
 
+An example of a **Conference** Event is the [SIAM Conference on Parallel Processing for Scientific Computing](Conference.SIAM-PP18.md) from 2018.
+
 ##### WEBINARS, PANELS AND TUTORIALS
 Event Information | Details
 :--- | :---			   
@@ -77,6 +79,8 @@ Presenter details | Firstname1 Lastname1 and Firstname2 Lastname2 and ..
 Registration and other Information|  URLs, FREE (if the event does not charge any fees, then it should be highlighted)
 Links to the Recordings and Archives  | Please do not use words like TBD here; please add this row only if you know that there are archives available.
 		
+An example of a **Webinar** Event is the [Jupyter and HPC (Blue Waters Webinar)](Webinar.JupyterHPC.md) from 2019.
+
 Please add more rows to the table (if you absolutely must). Please do not add empty rows where information is not available.
 
 #### 3. ADDITIONAL INFORMATION
