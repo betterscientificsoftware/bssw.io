@@ -1,4 +1,4 @@
-# Style Guide for BSSw content: Main Page
+## Style Guide for BSSw content: Main Page
 
 This document is a work-in-progress style guide for all content that goes on the BSSw site. 
 
@@ -12,5 +12,5 @@ styling elements as discussed below.
 * [Styling Rules specific to Curated Content](StylingCuratedContent.md)
 * [Styling Rules specific to  Events](StylingEvents.md)
 * [Common Metadata Rules for All resource type](Metadata.md)
-* [Image handling in Articles for BSSw.io]()
-* [Vendor Markdown Documentation for Styling Pages on BSSw.io]()
+* Image handling in Articles for BSSw.io
+* Vendor Markdown Documentation for Styling Pages on BSSw.io
