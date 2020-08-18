@@ -2,7 +2,7 @@
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile") 
 
-#### Publication date: August 16, 2020
+#### Publication date: August 19, 2020
 
 Applications are now open for the 2021 BSSw Fellowship Program, which gives recognition and funding to leaders and advocates of high-quality scientific software.
 
