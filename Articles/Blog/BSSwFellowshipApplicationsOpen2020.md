@@ -6,7 +6,7 @@
 
 Applications are now open for the 2021 BSSw Fellowship Program, which gives recognition and funding to leaders and advocates of high-quality scientific software.
 
-Addressing the scientific software challenges facing the nation requires broad community collaboration to foster practices, processes, and tools to improve developer productivity and software sustainability—as key aspects of ensuring the integrity of computational results and increasing overall scientific productivity.  
+Addressing scientific software challenges magnified by the rapidly changing computing environment requires broad community collaboration to foster practices, processes, and tools to improve developer productivity and software sustainability—as key aspects of ensuring the integrity of computational results and increasing overall scientific productivity.  
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition and funding for leaders and advocates of high-quality scientific software who foster practices, processes, and tools to improve scientific software productivity and sustainability. BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select at least three Fellows per year and honorable mentions as appropriate. Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  [Applications are now being accepted for the 2021 BSSw Fellowship.]((https://bssw.io/pages/apply-for-the-bssw-fellowship-program)) 
 
