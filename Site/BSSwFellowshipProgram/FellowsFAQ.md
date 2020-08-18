@@ -44,6 +44,10 @@ Applications are reviewed by a panel of diverse members of the CSE community usi
 
 No, only one application submission per person.  
 
+### Can students (undergraduate/graduate) apply for the BSSw Fellowship?
+
+Students (undergraduate/graduate) are encouraged to apply for a BSSw Fellowship. However, students will need to coordinate with their institution and an advising faculty member to ensure they can receive funds through a subcontract at the institution for the period of performance of the fellowship.  The Fellowship award will be in the form of a subcontract to the recipient’s institution.  For students, typically a faculty member would need to be the PI and the student would receive the funding as an employee.  Please consult advising faculty at your institution.
+
 ## Funding Questions
 
 ### What is the amount of funding for 2021 BSSw Fellows?
