@@ -1,4 +1,4 @@
-### betterscientificsoftware.github.io
+### [BSSw.io Editorial Board Process Docs](https://betterscientificsoftware.github.io/bssw.io/)
 
 #### Who We Are
 
