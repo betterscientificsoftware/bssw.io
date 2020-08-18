@@ -8,7 +8,7 @@ Applications are now open for the 2021 BSSw Fellowship Program, which gives reco
 
 Addressing scientific software challenges magnified by rapidly changing computing environments requires broad community collaboration to improve developer productivity and software sustainability—as key aspects of ensuring the integrity of computational results and increasing overall scientific productivity.  
 
-The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition and funding for leaders and advocates of high-quality scientific software who foster practices, processes, and tools to improve scientific software productivity and sustainability. BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select at least three Fellows per year and honorable mentions as appropriate. Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  [Applications are now being accepted for the 2021 BSSw Fellowship.]((https://bssw.io/pages/apply-for-the-bssw-fellowship-program)) 
+The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition and funding for leaders and advocates of high-quality scientific software who foster practices, processes, and tools to improve scientific software productivity and sustainability. BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select at least three Fellows per year and honorable mentions as appropriate. Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  [Applications are now being accepted for the 2021 BSSw Fellowship](https://bssw.io/pages/apply-for-the-bssw-fellowship-program). 
 
 <br>
 
@@ -16,7 +16,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition a
 
 <br>
 
-We encourage diverse applicants at all career stages—ranging from students through early-career, mid-career, and senior professionals—from throughout the CSE and software communities. We are looking for applications from people with the following characteristics:
+We encourage diverse applicants at all career stages—ranging from students through early-career, mid-career, and senior professionals—from throughout the computational science and enginnering (CSE) and software communities. We are looking for applications from people with the following characteristics:
 
 * Passionate about scientific software.
 * Interested in contributing powerful ideas, tools, methodologies, and more that improve the quality of scientific software.
@@ -32,11 +32,11 @@ Join us for a Q&A Webinar to hear more about the BSSw Fellowship Program and get
 
 ### More information, including on-line application and FAQ
 
-Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering (CSE) through BETTER Planning, Development, Performance, Reliability, Collaboration, and Skills. 
+Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering through BETTER Planning, Development, Performance, Reliability, Collaboration, and Skills. 
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
 - [APPLY NOW!](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)
-- Application deadline: Wednesday, September 30, 2020; this is a firm deadline that will not be extended.
+- <mark>Application deadline: Wednesday, September 30, 2020</mark>; this is a firm deadline that will not be extended.
 
 ### Current and past BSSw Fellows are:
 
