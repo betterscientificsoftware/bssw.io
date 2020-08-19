@@ -4,7 +4,7 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle
+Slide1 L: blog_posts/applications-open-for-the-2021-bssw-fellowship-program
 Slide1 R: images/raw/master/Blog_0720_Fellows.png
 Slide2 L: blog_posts/working-remotely-the-exascale-computing-project-ecp-panel-series
 Slide2 R: images/raw/master/Blog_0720_RemoteWorkingPanel.png
