@@ -30,14 +30,14 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
 - What impact do you foresee from your efforts? (1000 - 1500 characters).
 - Which BSSw focus areas and subtopics apply to your proposed work? Specify all that apply. See https://bssw.io for a list of focus areas and subtopics (e.g., Focus Area: Planning; Subtopic: Requirements). 
 
-**Questions must be answered directly in the fields of the Application Form.  Answers provided elsewhere (e.g. github repo) and linked in the Application Form will not be reviewed.**  
+**Questions must be answered directly in the fields of the online application form.  Answers provided elsewhere (e.g., github repo) and linked in the application form will not be reviewed.**  
        
 ### Applications for the BSSw Fellowship Program
 <!-- 
 Applications open Wednesday, August 19, 2020 for the 2021 BSSw Fellowship Program.  Please check back for information about the 2021 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
 -->
 
-Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link).
+Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [**online application form**](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link).
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
@@ -47,7 +47,7 @@ Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submi
 ### More information, including on-line application
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-- [Online Application](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link) (Submissions Open!)
-- Application deadline: Wednesday, September 30, 2020; this is a firm deadline that will not be extended.
+- [Online Application](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link) (Submissions open!)
+- <mark>Application deadline: Wednesday, September 30, 2020</mark>; this is a firm deadline that will not be extended.
 
 
