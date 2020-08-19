@@ -48,7 +48,7 @@ Better Scientific Software is an organization dedicated to improving developer p
 Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpcforum2020.alcf.anl.gov/).
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-08-19
 Categories: collaboration
 Topics: projects and organizations
