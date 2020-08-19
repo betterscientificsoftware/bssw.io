@@ -1,8 +1,7 @@
 # Ten Rules for Building Communities
 
 <!-- deck text start --> 
-In [*Ten simple rules for helping newcomers become contributors to open projects*](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1007296),
-the authors provide practical steps to help
+In *Ten simple rules for helping newcomers become contributors to open projects*, the authors provide practical steps to help
 newcomers start with and remain engaged with a software project.
 <!-- deck text end --> 
 

@@ -1,7 +1,7 @@
 # Ten Important Learning Studies from 2017
 
 <!-- deck text start --> 
-In the Open Colleges blog post, *[10 Important Learning Studies From 2017](https://www.opencolleges.edu.au/informed/features/10-important-learning-studies-2017/#comments)*, Marianne Stenger identifies ten learning science findings from 2017 that can help us improve general learning strategies. 
+In the Open Colleges blog post, *10 Important Learning Studies From 2017*, Marianne Stenger identifies ten learning science findings from 2017 that can help us improve general learning strategies. 
 <!-- deck text end --> 
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
@@ -9,7 +9,7 @@ In the Open Colleges blog post, *[10 Important Learning Studies From 2017](https
 
 Resource information | Details 
 :--- | :--- 
-Article Title | [10 Important Learning Studies From 2017](https://www.opencolleges.edu.au/informed/features/10-important-learning-studies-2017/#comments)
+Article Title | [10 Important Learning Studies From 2017](https://www.opencolleges.edu.au/informed/features/10-important-learning-studies-2017)
 Author(s) | [Marianne Stenger](https://www.opencolleges.edu.au/informed/author/marianne/)
 Focus | General learning
 
