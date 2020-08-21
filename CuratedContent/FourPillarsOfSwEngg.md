@@ -13,46 +13,10 @@ Authors | Jeremy Cohen, Daniel S. Katz, Michelle Barker, Neil P Chue Hong, Rober
 Publication | Year 2020, IEEE Software, [DOI: 10.1109/MS.2020.2973362](https://ieeexplore.ieee.org/document/8994167)
 
 
-Research Software Engineering (RSE) has grown to be a 
- high quality research software development is important.
- For researchers building software, it relies on seeing
-software development as a realistic focus for a research career.
-
- In this article we introduce “4 pillars” of Research Software
-Engineering that we see as providing the necessary elements to offer
-comprehensive, ongoing support for the development of quality research
-software. 
-
- We show
-that these areas include extensive professional software development
-practitioner knowledge that is now more likely to be recognised as important and necessary in the development of robust research software,.
- These 4 pillars are similar to the
-elements of social change models that focus on individual, organisation,
-community, and policy levels.
-
-Four pillars are: software development, community, training and policy
-* Maintainability, sustainability and robustness are core aspects of
-building quality software that form part of our first pillar – Software
-Development.
-
-* The need for communication, learning from the experiences of others, and keeping up with the latest developments provides the basis for
-our second pillar – Community.
-
-* The importance of ensuring initial and ongoing skills development
-for people building research software underpins our third pillar – Training.
-
-* Developing both institutional and national policies that recognise the
-importance of research software provides the basis for the fourth pillar
-– Policy
-
-While all 4 pillars contribute to the cultural change required, changes
-to policy frameworks can provide significant top-down impact to support
-the other 3 pillars. Positioning policy within the framework is, therefore,
-challenging since the other pillars can be seen as relying on, and
-building on, policy. . We therefore include policy within our framework as
-a pillar supporting the overall RSE space, alongside the other pillars.
+The authors, in the paper titled *[The Four Pillars of Research Software Engineering](https://ieeexplore.ieee.org/document/8994167)*, introduce the “four pillars” of Research Software Engineering that they state are necessary for the development of quality research software.  The four pillars are (a) software development, (b) community, (c) training and  (d) policy. The authors state that within the *software development* pillar, the topics of maintainability, sustainability and robustness are core foundational elements that will be used for building quality software. The *community* pillar is important because research software engineers have an inherent need for communication with fellow community members for keeping themselves updated with latest findings in their domain as well as learning from the experiences of their peers. Akin of Continuing Professional Development (CPD) practices that are widely available in the industry, the *training* pillar states that initial training as well as ongoing skill development for people building research software plays an important role. Lastly, perhaps most important is the fourth pillar which focuses on the importance of  developing institutional and national *policies* that recognise the importance of research software. The paper also presents a few examples of existing activities under the different pillars that may encourage teams and organizations on how to get started and how they can support the  goal of developing sustainable and reliable research software. 
 
 
+Overall, the paper provides a good perspective on  a set of areas and activities that can be considered crucial for offering coordinated and comprehensive supportfor research software and the teams and individuals who build it.
  
  
 <!---
