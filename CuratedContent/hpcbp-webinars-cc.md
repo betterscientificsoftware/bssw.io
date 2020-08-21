@@ -26,7 +26,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2020-07-23*
+*Listed in reverse chronological order. Last updated: 2020-08-21*
 
 
 
@@ -34,6 +34,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Colormapping Strategies for Large Multivariate Data in Scientific Applications*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar043), Francesca Samsel (Texas Advanced Computing Center), 2020-08-12
 
 
 
