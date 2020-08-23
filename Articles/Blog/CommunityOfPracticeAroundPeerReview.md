@@ -64,7 +64,7 @@ More recently several journals have emerged as venues for software papers. These
 
 rOpenSci continues to address an unmet need by helping researchers develop high quality software that is easier to sustain in the long run. Since 2015 we have peer reviewed and published over 140 software packages and worked to elevate and standardize development practices in the research community. We have just begun an effort to develop new standards for statistical software.
 
-### Acknowledgments
+### Further Reading
 This article is based on a paper in the IEEE Computing in Science and Engineering special issue on Accelerating Scientific Discovery with Reusable Software: Karthik Ram, Carl Boettiger, Scott Chamberlain, Noam Ross, Maëlle Salmon, and Stefanie Butland ,*A Community of Practice Around Peer Review for Long-Term Research Software Sustainability*, Computing in Science and Engineering 21, 59-65 (2019). DOI: [10.1109/MCSE.2018.2882753](https://doi.org/10.1109/MCSE.2018.2882753)
 
 Complete citations for the references mentioned in this article can also be found in the full paper.
