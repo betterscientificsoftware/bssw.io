@@ -78,6 +78,8 @@ Book title | Name of the book with hyperlink from a neutral non-vendor website, 
 Authors | Author names in the following format with hyperlink from a  neutral website, if available. *Format: [firstname lastname](url for author1), [firstname lastname](url for author2)*
 Publication | Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13). *Format: year, ISBN1, ISBN2, ISBN3*)
 
+Example: [Code Complete: A Practical Handbook of Software Construction](CodeComplete2ndEdition.md)
+
 ###### Course
 Resource information | Details 
 :--- | :--- 
@@ -86,12 +88,16 @@ Presenters | Presenter names, *Format: [Firstname lastname](url for presenter), 
 Course hosting website | Name of hosting website such as coursera, youtube, udacity. *Format: [name of hosting website](url for course website)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
+Example: [Understanding Software Testing and How to Make Software Fail](SwTestingUdacity.md)
+
 ###### Organization
 Resource information | Details 
 :--- | :--- 
 Organization name | Name of Organization without hyperlink, *Format: Name of the organization*
 Website | Link to website, *Format: [URL to website] (url)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2*
+
+Example: [Introducing the FORCE11 Software Citation Implementation Working Group](FORCE11SoftwareCitationImplementationWorkingGroup.md)
 
 ###### Podcast
 Resource information | Details 
@@ -100,12 +106,16 @@ Podcast title  | Name of the tutorial without hyperlink, *Format: Name of the tu
 Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*
 Web links | Links to podcast, *Format: [Name-of-podcast Podcast] (url)*
 
+Example: [What makes a High Performing Team at Google](GoogleHiPerfTeams.md)
+
 ###### Publication
 Resource information | Details
 :--- | :--- 
 Paper title  | Title of paper without hyperlink, *Format: publication title*
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* 
 Publication | Year, Journal name, DOI with link. *Format: year, journal name, DOI:[url of the DOI] [doi-url)*
+
+Example: [Determining Good Enough Practices in Scientific Computing](GoodEnoughPracticesInScientificComputing.md)
 
 ###### Tutorial
 Resource information | Details 
@@ -114,12 +124,16 @@ Tutorial title  | Name of the tutorial without hyperlink, *Format: tutorial titl
 Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
+Example: [Introducing Container Mythbusters](ContainerMythbusters.md)
+
 ###### Webinar
 Resource information | Details 
 :--- | :--- 
 Webinar title  | List title without hyperlink, *Format: webinar title*
 Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
+
+Example: 
 
 ###### Website
 Resource information | Details 
@@ -128,6 +142,8 @@ Resource name | Name of website, *Format: website name*
 Website | Link to website, *Format : [website url] (url)
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
+Example: [An Introduction to Bitbucket](Bitbucket.md)
+
 ###### Web article
 Resource information | Details
 :--- | :--- 
@@ -135,7 +151,7 @@ Article title  | Title of the article with hyperlink, *Format:  [title of articl
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
-Example of resource table declaration for a web article: [A Checklist for Better Open Source Libraries](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/ChecklistForBetterOpenSourceLibraries.md)
+Example: [A Checklist for Better Open Source Libraries](ChecklistForBetterOpenSourceLibraries.md).
 
 ###### **SPECIAL TABLES**
 
@@ -151,7 +167,7 @@ Focus | Custom focus area - this is a 3 word description of the focus area of th
 
 ###### Multiple resources of the assorted type
 
-Many times, a *curated content* article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the *curated content* article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the *curated content* directory
+Many times, a *curated content* article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the *curated content* article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the *curated content* directory.
 
 #### DESCRIPTION
 
@@ -166,6 +182,3 @@ All references across all content types are handled in the same way; hence pleas
 ## METADATA SECTION
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
 
-
-### LINKS TO EXAMPLES IN BSSW.IO GITHUB FOR CURATED CONTENT TYPE
-TBD
