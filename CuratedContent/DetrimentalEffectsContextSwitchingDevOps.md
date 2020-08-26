@@ -42,7 +42,8 @@ Lean Software Development*. The book also contains information on the impact of
 task switching and the resulting degraded productivity.
 
 ### Additional References
-Mary Poppendieck and Tom Poppendieck, *Implementing Lean Software Development*, 2007
+Mary Poppendieck and Tom Poppendieck, *Implementing Lean Software Development*,
+Addison Wesley, 2007
 
 
 
