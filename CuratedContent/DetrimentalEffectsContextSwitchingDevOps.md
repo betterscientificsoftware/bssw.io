@@ -13,7 +13,7 @@ Resource information | Details
 :--- | :---
 Article title  | [Addressing the Detrimental Effects of Context Switching with DevOps](https://insights.sei.cmu.edu/devops/2015/03/addressing-the-detrimental-effects-of-context-switching-with-devops.html)
 Author | Todd Waits
-Focus | Improving devops practices to mitigate the effects of developer context switching.
+Focus | Improving team productivity
 
 In *Addressing the Detrimental Effects of Context Switching with Deveops*, Todd
 Waits makes the case that when a software developer switches from one project to
@@ -49,9 +49,10 @@ Mary Poppendieck and Tom Poppendieck, *Implementing Lean Software Development*, 
 <!---
 Publish: 
 RSS update: 2020-06-26
-Categories: Skills 
+Categories: Skills
 Topics: Strategies for More Effective Teams, Software Engineering, Personal Productivity
 Level: 
 Prerequisites: defaults
 Aggregate: none
+Review: LA-UR-20-XXXXX
 --->
