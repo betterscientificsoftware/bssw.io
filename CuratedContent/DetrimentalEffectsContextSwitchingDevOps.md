@@ -15,7 +15,7 @@ Article title  | [Addressing the Detrimental Effects of Context Switching with D
 Author | Todd Waits
 Focus | Improving team productivity
 
-In *Addressing the Detrimental Effects of Context Switching with Deveops*, Todd
+In *[Addressing the Detrimental Effects of Context Switching with DevOps](https://insights.sei.cmu.edu/devops/2015/03/addressing-the-detrimental-effects-of-context-switching-with-devops.html)*, Todd
 Waits makes the case that when a software developer switches from one project to
 another an overhead of approximately 20 percent is incurred to perform the task.
 The overhead is due to the amount of information a developer keeps in their
@@ -37,7 +37,7 @@ the article are:
  - Monitoring issue trackers for assignments
  - Limiting the number of projects for an individual
 
-Another resource for practical team devop practices is the book *Implementing
+As a side note, another resource for practical team devop practices is the book *Implementing
 Lean Software Development*. The book also contains information on the impact of
 task switching and the resulting degraded productivity.
 
