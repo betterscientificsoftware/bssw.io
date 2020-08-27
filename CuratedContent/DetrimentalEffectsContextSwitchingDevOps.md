@@ -3,7 +3,7 @@
 
 <!-- deck text start -->
 The article *Addressing the Detrimental Effects of Context Switching with
-DevOps* explores the adverse effects on productivity when software development team members are required to switch between projects, and outlines some devop practices to mitigate those effects.
+DevOps* explores the adverse effects on productivity when software development team members are required to switch between projects, and outlines some DevOps practices mitigating those effects.
 <!-- deck text end -->
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
@@ -27,7 +27,7 @@ project, but that is not usually the case, nor is it very practical. The
 article has some helpful ideas about improving the process when context
 switching does occur.
 
-Some devop practices to mitigate the overhead of context switching outlined in
+Some DevOps practices to mitigate the overhead of context switching outlined in
 the article are:
 
  - Using Continuous Integration (CI)
@@ -37,7 +37,7 @@ the article are:
  - Monitoring issue trackers for assignments
  - Limiting the number of projects for an individual
 
-As a side note, another resource for practical team devop practices is the book *Implementing
+As a side note, another resource for practical team DevOps practices is the book *Implementing
 Lean Software Development*. The book also contains information on the impact of
 task switching and the resulting degraded productivity.
 
