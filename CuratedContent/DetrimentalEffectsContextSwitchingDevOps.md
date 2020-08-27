@@ -7,7 +7,7 @@ DevOps* explores the adverse effects on productivity when software development t
 <!-- deck text end -->
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
-#### Publication date: August 31, 2020
+#### Publication date: August 27, 2020
 
 Resource information | Details
 :--- | :---
@@ -48,12 +48,8 @@ Addison Wesley, 2007
 
 
 <!---
-Publish: 
-RSS update: 2020-06-26
+Publish: yes
+RSS update: 2020-08-27
 Categories: Skills
 Topics: Strategies for More Effective Teams, Software Engineering, Personal Productivity
-Level: 
-Prerequisites: defaults
-Aggregate: none
-Review: LA-UR-20-XXXXX
 --->
