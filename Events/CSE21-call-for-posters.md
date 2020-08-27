@@ -9,7 +9,7 @@ We are organizing a minisymposterium (topical poster group) on "Software Product
 
 Resource Information | Details
 :--- | :---			   
-Conference Date | 2021-03-01 -- 2021-03-05
+Conference Dates | 2021-03-01 -- 2021-03-05
 Conference Website | https://www.siam.org/conferences/cm/conference/cse21
 Poster Proposal Deadline | 2020-09-14
 Poster Proposal Submissions | https://docs.google.com/forms/d/e/1FAIpQLSckh2wuHtcz41WZYjKe6aUx1mEWT4QdHL_aMwSYBERSrLsmlw/viewform?usp=sf_link
@@ -27,7 +27,7 @@ You will need to provide the following information with your submissions:
 
 __Please be sure that the title and abstract of your poster emphasize issues in software productivity and sustainability.__
 
-We are collecting poster proposals at this Google form. Please submit by **Monday 14 September 2020** so that we can follow up and you can finalize your submission.
+We are collecting poster proposals at this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSckh2wuHtcz41WZYjKe6aUx1mEWT4QdHL_aMwSYBERSrLsmlw/viewform?usp=sf_link)**. Please submit by **Monday 14 September 2020** so that we can follow up and you can finalize your submission.
 
 Please note that new SIAM guidelines allow an individual to present just __***one*** talk or poster__.  If you already have a talk planned for CSE21, please encourage your co-authors or collaborators to participate in the poster group.
 
@@ -47,9 +47,9 @@ Best regards, David Bernholdt, Sandra Gesing, and Rinku Gupta
 #### #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile"), [Sandra Gessing](https://github.com/sandragesing "Sandra Gessing GitHub profile"), and [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub profile")
 
 <!---
-Publish: preview
-Categories: skills
-Topics: online learning
+Publish: yes
+Categories: Collaboration
+Topics: conferences and workshops
 Level: 2
 Prerequisites: default
 Aggregate: none
