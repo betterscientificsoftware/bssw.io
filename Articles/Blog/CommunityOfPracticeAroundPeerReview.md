@@ -36,7 +36,7 @@ To combat these issues, we created a peer review system for software analogous t
 
 ### Advantages of rOpenSci’s software review process
 
-The rOpenSci reviee process has several advantages:
+The rOpenSci review process has several advantages:
 
 * Provides opportunities for collaboration and is a rewarding experience for both authors and reviewers.
 
