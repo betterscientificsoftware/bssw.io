@@ -1,4 +1,4 @@
-# A Community of Practice Around Peer Review for Long-Term Research Software Sustainability
+# A Community of Practice around Peer Review for Long-Term Research Software Sustainability
 
 **Hero Image:**
 
@@ -30,7 +30,7 @@ Perhaps rOpenSci’s biggest contribution to improving the state of research sof
 
 **Maintainability**:  Design considerations that make it easy for future developers to understand the software, extend functionality, and fix bugs are critical for preventing software from becoming stale before it reaches a natural end of cycle. 
 
-### Software Review as a Service
+### Software review as a service
 
 To combat these issues, we created a peer review system for software analogous to that for scientific publications (Ross et al. 2017). Since 2015, the rOpenSci project has been piloting a system of peer code review for software submissions. This approach brings together best practices for publication peer review along with new practices that are unique to reviewing software. The system deliberately combines elements of traditional academic peer review with practices from open-source software review. Commonalities with traditional publishing workflow include a full editorial board with handling editors, two reviewers per submission and revisions before acceptance. The process differs in a few key ways. We also use heuristic tools to automatically check submitted software against a list of more than 200 best practices.  The review process is fully open, and anyone is welcome to weigh in with constructive feedback. Unlike traditional peer review where  only one to two exchanges occur between authors and reviewers over months, all exchanges in our review happen in real time, and dozens of interactions are not uncommon. The forced transparency ensures that interactions are non-adversarial (see Salmon 2018  for a sentiment analysis of review threads). We think it's important to emphasize that research software is almost never reviewed and our process not only serves as a quality filter but also works to elevate and standardize development practices within the research community.
 
@@ -66,12 +66,12 @@ More recently several journals have emerged as venues for software papers. These
 
 rOpenSci continues to address an unmet need by helping researchers develop high-quality software that is easier to sustain in the long run. Since 2015 we have peer reviewed and published over 140 software packages and worked to elevate and standardize development practices in the research community. We have just begun an effort to develop new standards for statistical software.
 
-### Further Reading
+### Further reading
 This article is based on a paper in the IEEE Computing in Science and Engineering special issue on Accelerating Scientific Discovery with Reusable Software: Karthik Ram, Carl Boettiger, Scott Chamberlain, Noam Ross, Maëlle Salmon, and Stefanie Butland, *A Community of Practice Around Peer Review for Long-Term Research Software Sustainability*, Computing in Science and Engineering 21, 59--65 (2019). DOI: [10.1109/MCSE.2018.2882753](https://doi.org/10.1109/MCSE.2018.2882753)
 
 Complete citations for the references mentioned in this article can also be found in the full paper.
 
-### Author Bios
+### Author bios
 
 Karthik Ram is a senior staff scientist with the Berkeley Institute for Data Science, a research faculty member with the Berkeley Museum of Paleontology, University of California, Berkeley, and the co-founder of the rOpenSci project. Contact him at karthik.ram@berkeley.edu. 
 
@@ -86,7 +86,7 @@ Maëlle Salmon is a volunteer editor and a part-time software engineer with rOpe
 Stefanie Butland is the community manager with rOpenSci. Contact her at stefanie@ropensci.org
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 
 Categories: Planning
 Topics: Software Process Improvement, Software Engineering
