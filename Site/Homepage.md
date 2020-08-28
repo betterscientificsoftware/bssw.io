@@ -14,6 +14,8 @@ Slide4 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
 Slide4 R: events/the-international-series-of-online-research-software-events-sorse
 Slide5 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
 Slide5 R: events/call-for-posters-minisymposterium-on-software-productivity-and-sustainability-for-computational-science-and-engineering
+Slide6 L: items/the-four-pillars-of-research-software-engineering
+Slide6 R: items/a-look-at-detrimental-effects-of-context-switching-with-devops
 --->
 
 <!---
