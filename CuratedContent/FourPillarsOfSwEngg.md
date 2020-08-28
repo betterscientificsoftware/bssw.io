@@ -6,7 +6,7 @@ The paper titled *The Four Pillars of Research Software Engineering*, published 
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 
-#### Publication date: Aug 21, 2020
+#### Publication date: Aug 28, 2020
 
 <!--body text start-->
 Resource information | Details
@@ -23,6 +23,7 @@ Overall, the paper provides a good perspective on a set of areas and activities 
  
 <!---
 Publish: yes
+RSS update: 2020-08-28
 Categories: collaboration, skills
 Topics: projects and organizations
 --->
