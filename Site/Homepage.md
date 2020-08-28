@@ -4,16 +4,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/applications-open-for-the-2021-bssw-fellowship-program
-Slide1 R: images/raw/master/Blog_0720_Fellows.png
-Slide2 L: blog_posts/working-remotely-the-exascale-computing-project-ecp-panel-series
-Slide2 R: images/raw/master/Blog_0720_RemoteWorkingPanel.png
-Slide3 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
-Slide3 R: events/the-international-series-of-online-research-software-events-sorse
-Slide4 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
-Slide4 R: items/the-collegeville-workshop-series-on-scientific-software
-Slide5 L: events/panel-how-to-make-teams-tick
-Slide5 R: events/webinar-testing-and-code-review-practices-in-research-software-development
+Slide1 L: blog_posts/a-community-of-practice-around-peer-review-for-long-term-research-software-sustainability
+Slide1 R: images/raw/master/Blog_0820_Peer_review.png
+Slide2 L: blog_posts/applications-open-for-the-2021-bssw-fellowship-program
+Slide2 R: images/raw/master/Blog_0720_Fellows.png
+Slide3 L: blog_posts/working-remotely-the-exascale-computing-project-ecp-panel-series
+Slide3 R: images/raw/master/Blog_0720_RemoteWorkingPanel.png
+Slide4 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
+Slide4 R: events/the-international-series-of-online-research-software-events-sorse
+Slide5 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
+Slide5 R: events/call-for-posters-minisymposterium-on-software-productivity-and-sustainability-for-computational-science-and-engineering
 --->
 
 <!---
