@@ -6,7 +6,7 @@
 
 #### Contributed by [Karthik Ram](https://github.com/karthik "Karthik Ram GitHub Profile"), [Carl Boettiger](https://github.com/cboettig "Carl Boettiger GitHub Profile"), [Scott Chamberlain](https://github.com/sckott "Scott Chamberlain GitHub Profile"), [Noam Ross](https://github.com/noamross "Noam Ross GitHub Profile"), [Maëlle Salmon](https://github.com/maelle "Maëlle Salmon GitHub Profile"), and [Stefanie Butland](https://github.com/stefaniebutland "Stefanie Butland GitHub Profile")
 
-#### Publication date: September 11, 2020
+#### Publication date: August 28, 2020
 
 ### Creating a system to review research software
 
