@@ -43,14 +43,6 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 
-- [*Test Event*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel006), , 2020-08-27
-
-
-
-
-
-
-
 - [*How to Make Teams Tick*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel005), Todd Coffey (Sandia National Laboratories), Justin Lamb (Sandia National Laboratories), Navamita Ray (Los Alamos National Laboratory), Ryan Shaw (Sandia National Laboratories), Tyler Shelton (Sandia National Laboratories), Daniel Shevitz (Los Alamos National Laboratory), Salome Thorson (Sandia National Laboratories),  and Jan Velechovsky (Los Alamos National Laboratory), 2020-08-27
 
 
