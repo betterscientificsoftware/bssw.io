@@ -1,25 +1,8 @@
 # Strategies for Working Remotely Panel Series
 
-<!--deck text start-->
-The *Strategies for Working Remotely Panel Series*, conducted by the IDEAS
-Productivity project, focusses on different aspects of working remotely.
-<!--deck text end-->
-
-
-#### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
-#### Publication date: April 4, 2020
-
-
-Resource information | Details
-:--- | :---
-Resource name | Strategies for Working Remotely Panel Series
-Website | https://ideas-productivity.org/events/strategies-for-working-remotely-panels/
-Focus | Software productivity and sustainability
-
-
 In response to the COVID-19 pandemic and need for many in our
-community to transition to unplanned remote work, the *[IDEAS
-Productivity project](https://ideas-productivity.org/ideas-ecp/)* has launched the panel series Strategies for
+community to transition to unplanned remote work, the IDEAS
+Productivity project has launched the panel series Strategies for
 Working Remotely, which explores important topics in this area. The
 series brings together staff members of DOE laboratories and invited
 guests to speak about experiences in working remotely and
@@ -28,7 +11,13 @@ virtual teams, and teams of teams. Topics include challenges, lessons
 learned, unforeseen benefits, and opportunities to look for from this
 experience.
 
-The [event web site](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/) provides details about the panel series, including
+Resource information | Details
+:--- | :---
+Resource name | Strategies for Working Remotely Panel Series
+Website | https://www.exascaleproject.org/strategies-for-working-remotely/<br>or https://ideas-productivity.org/events/strategies-for-working-remotely-panels/
+Focus | Software productivity and sustainability
+
+The event web site provides details about the panel series, including
 announcements of upcoming panels, a mailing list to receive
 announcements, and archival information for the entire series.
 
@@ -41,12 +30,28 @@ required for each panel.
 
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
-### Past Panels
-*Listed in reverse chronological order. Last updated: 2020-07-03*
+## Past Panels
+*Listed in reverse chronological order. Last updated: 2020-09-01*
 
 
 
 
+
+
+
+
+
+
+
+- [*Test Event*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel006), , 2020-08-27
+
+
+
+
+
+
+
+- [*How to Make Teams Tick*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel005), Todd Coffey (Sandia National Laboratories), Justin Lamb (Sandia National Laboratories), Navamita Ray (Los Alamos National Laboratory), Ryan Shaw (Sandia National Laboratories), Tyler Shelton (Sandia National Laboratories), Daniel Shevitz (Los Alamos National Laboratory), Salome Thorson (Sandia National Laboratories),  and Jan Velechovsky (Los Alamos National Laboratory), 2020-08-27
 
 
 
@@ -81,6 +86,8 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 - [*Advice from Colleagues with Experience*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel001), Mike Bernhardt (Oak Ridge National Laboratory), Lois Curfman McInnes (Argonne National Laboratory), Mark Miller (Lawrence Livermore National Laboratory), Kathryn Mohror (Lawrence Livermore National Laboratory),  and Elaine Raybourn (Sandia National Laboratories), 2020-04-03
 
 
+#### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
+#### Publication date: 2020-09-01
 
 <!---
 Publish: yes
