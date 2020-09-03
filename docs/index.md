@@ -1,4 +1,4 @@
-## BSSw Editorial Board Process Documents
+## BSSw Editorial Board Website
 
 * [About](About/index.md)
 * [Style Gudes](ContentStyleGuide/index.md)
