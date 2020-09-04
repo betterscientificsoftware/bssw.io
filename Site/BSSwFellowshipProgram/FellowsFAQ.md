@@ -4,7 +4,7 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar, September 9, 2020
 
-### Slides and recording will be posted after webinar
+### Slides will be poster before the webinar; recording will be posted after the webinar
 Check out slides from last year:  [Slides (pdf)](https://doi.org/10.6084/m9.figshare.9883013)
 
 ## Application Questions
