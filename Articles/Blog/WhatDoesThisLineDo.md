@@ -8,7 +8,10 @@
 
 #### Publication date: September 11, 2020
 
-### Initial Heading
+Providing good, current developer-focused documentation pays off for the future-you
+and your fellow developers.  And it doesn't have to be that hard to do!
+
+### Documentation is the first thing to go
 
 Documentation that is incomplete or ill-conceived is probably the source of more
 frustration than any other challenge in scientific software development.
@@ -26,7 +29,7 @@ quite a bit different than those required to write high-performance code, just
 think how different cascading style sheet (CSS) web formatting is from a linear solver.
 
 In this article, I’d like to share some first hand observations from the
-Tasmanian project and the recent transition from LaTeX PDF-based to
+[Tasmanian](https://tasmanian.ornl.gov) project and the recent transition from LaTeX PDF-based to
 Doxygen web-based documentation. While I cannot hope to change culture and the
 way our community values the documentation efforts, I can hopefully make the
 point that good documentation pays for itself and naturally leads to better
@@ -42,6 +45,8 @@ update when gaps became apparent, which led to repeated chain-mails with users
 clarifying the exact same issue and wasting everyone’s time. A code under
 development is constantly morphing and the associated documentation must go
 hand-in-hand with any and all changes.
+
+### Making it a little easier
 
 Doxygen was chosen for the documentation standard due to the comprehensive set
 of features, which eventually allowed integrating its web deployment within our
@@ -83,6 +88,8 @@ documentation issues, the latest release 7.1 was the first to not require a
 documentation crunch. The documentation debt was converted to an assets and we
 began to reap the dividends.
 
+### Reaping the benefits
+
 Documentation provides an introspection of the code that has benefits far beyond
 the obvious ease of understanding and maintenance. The introspection reveals
 mislabeled or misplaced methods, locates overlapping and redundant functionality
@@ -99,7 +106,7 @@ much easier.
 
 
 ### Author bio
-Dr. Miroslav Stoyanov got his Ph.D. from Virginia Tech in 2009. After a post-doc at Florida State University, Dr. Stoyanov joined ORNL in 2012. His areas of research involve surrogate modeling, uncertainty quantification, high-dimensional approximation, and supercomputing. Dr. Stoyanov is also the lead developer of the ORNL Toolkit for Adaptive Stochastic Modeling and Non-Intrusive Approximation (Tasmanian) and one of the main contributors to the library for Highly Efficient Fast Fourier Transform for Exascale (heFFTe).
+Dr. Miroslav Stoyanov got his Ph.D. from Virginia Tech in 2009. After a post-doc at Florida State University, Dr. Stoyanov joined ORNL in 2012. His areas of research involve surrogate modeling, uncertainty quantification, high-dimensional approximation, and supercomputing. Dr. Stoyanov is also the lead developer of the ORNL Toolkit for Adaptive Stochastic Modeling and Non-Intrusive Approximation ([Tasmanian](https://tasmanian.ornl.gov)) and one of the main contributors to the library for Highly Efficient Fast Fourier Transform for Exascale (heFFTe).
 
 <!---
 Publish: preview
