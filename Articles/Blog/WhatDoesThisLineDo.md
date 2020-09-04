@@ -4,7 +4,7 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_Peer_review.png' />
 
-#### Contributed by [Miroslav Stoyanov](https://github.com/ "Miroslav Stoyanov GitHub Profile")
+#### Contributed by [Miroslav Stoyanov](https://github.com/mkstoyanov "Miroslav Stoyanov GitHub Profile")
 
 #### Publication date: September 11, 2020
 
@@ -34,7 +34,7 @@ software. Tasmanian has always had a well documented external API, but not
 internal documentation which is especially problematic when chasing moving
 targets such as GPU support for multiple vendors. Porting code to GPUs is hard,
 doubly so when it is undocumented and comes from an external contributor no
-longer working on the project. And even if the code was written by the primary maintainer (me), there was
+longer working on the project. And even if the code was written by the lead maintainer (me), there was
 always the vicious cycle of present-me struggling to reverse engineer the
 thoughts of past-me and consecutively creating more problems for future-me. As
 for the existing documentation, the rigid nature of the PDF made it hard to
@@ -98,8 +98,8 @@ resources and having a well-made professional-looking web-page has made life
 much easier.
 
 
-### Author bios
-
+### Author bio
+Dr. Miroslav Stoyanov got his Ph.D. from Virginia Tech in 2009. After a post-doc at Florida State University, Dr. Stoyanov joined ORNL in 2012. His areas of research involve surrogate modeling, uncertainty quantification, high-dimensional approximation, and supercomputing. Dr. Stoyanov is also the lead developer of the ORNL Toolkit for Adaptive Stochastic Modeling and Non-Intrusive Approximation (Tasmanian) and one of the main contributors to the library for Highly Efficient Fast Fourier Transform for Exascale (heFFTe).
 
 <!---
 Publish: preview
