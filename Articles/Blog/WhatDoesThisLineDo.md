@@ -85,10 +85,10 @@ filling the gaps, which made the process much smoother. The final thrust was the
 conversion of the PDF documentation of the external API into Doxygen, half of which was copy-paste.
 Every release of Tasmanian prior to 7.0 was delayed by weeks due to
 documentation issues, the latest release 7.1 was the first to not require a
-documentation crunch. The documentation debt was converted to an assets and we
+documentation crunch. The documentation debt was converted to an asset and we
 began to reap the dividends.
 
-### Reaping the benefits
+### Reaping the dividends
 
 Documentation provides an introspection of the code that has benefits far beyond
 the obvious ease of understanding and maintenance. The introspection reveals
