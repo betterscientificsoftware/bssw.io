@@ -10,7 +10,7 @@
 
 **LinkedIn:** https://www.linkedin.com/in/jeff-carver/
 
-**Github:** Not on Github
+**Github:** https://github.com/JeffCarver
 
 **Short Bio:** Improving code quality through modern peer code review  
 
