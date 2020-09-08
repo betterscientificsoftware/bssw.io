@@ -36,6 +36,8 @@ The Multinomial Testing approach is ideal for ParSplice given its constraints, i
 ### Further reading
 This article is based on a paper in the proceedings of the International Conference on Computational Science. N.U. Eisty, D. Perez, J.C. Carver, J.D. Moulton, H.A. Nam (2020) *Testing Research Software: A Case Study.* In: Krzhizhanovskaya V. et al. (eds) Computational Science – ICCS 2020. ICCS 2020. Lecture Notes in Computer Science, vol 12143. Springer, Cham. DOI: [10.1007/978-3-030-50436-6_33](https://doi.org/10.1007/978-3-030-50436-6_33)
 
+ParSplice is part of the EXAALT project, which was the subject of an earlier BSSw.io blog article: **[Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)**
+
 ### Author bio
 Nasir Eisty is an assistant professor in the Computer Science and Software Engineering Department of California Polytechnic State University, San Luis, Obispo, CA. He received his Ph.D. degree in Computer Science from the University of Alabama in Spring 2020. His research interests lie in the area of Empirical Software Engineering, Software Quality, and Research Software Engineering. He received a BSSw (Better Scientific Software) 2020 fellow award from the Department of Energy (DOE).
 
