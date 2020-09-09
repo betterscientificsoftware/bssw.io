@@ -4,8 +4,10 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar, September 9, 2020
 
-### Slides will be poster before the webinar; recording will be posted after the webinar
-Check out slides from last year:  [Slides (pdf)](https://doi.org/10.6084/m9.figshare.9883013)
+### Slides:
+Slides for Sept 9, 2020:  [Slides (pdf)](https://doi.org/10.6084/m9.figshare.12934841)
+
+Recording will be posted after the webinar.
 
 ## Application Questions
 
@@ -60,11 +62,11 @@ The Fellowship award will be in the form of a subcontract to the recipient’s i
 
 ### Are there any restrictions on how the fellowship funds can be used?
 
-Most institutions have well-established rules for what constitute “allowable” expenses on research grants or contracts.  Generally, these must be followed.  (There are a few cases where ORNL and Dept. of Energy rules trump local rules.) The categories of expenses on the budget form include: personnel, travel, equipment (over $5k), supplies (under $5k), and contracting.
+Most institutions have well-established rules for what constitute “allowable” expenses on research grants or contracts.  Generally, these must be followed.  (There are a few cases where ORNL and Dept. of Energy rules trump local rules.) 
 * The Fellowship is limited to individual applicants, not a team.  The inclusion of other personnel or contracts to others are generally discouraged.  Modest amounts budgeted for support services, such as technical editing or graphical design, may make sense in some cases.
 * Travel must be well justified in relation to the proposed work.
 * _Special rules apply to international travel_, including multiple approval processes that require significant lead time.  Approval of international travel by our sponsors is not guaranteed.
-*	The purchase of computer equipment or other durable equipment is strongly discouraged.
+*	The purchase of computer equipment or other durable equipment is not allowed.
 *	If you’re organizing a workshop or similar event, participant costs (e.g., travel, lodging, per diem) and venue costs (e.g., meeting room rental, AV services) would be allowable.  Food costs would be allowable with limitations.
 
 
