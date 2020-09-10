@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_Peer_review.png' />
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0920_QuadF2.png' />
 
 #### Contributed by [Miroslav Stoyanov](https://github.com/mkstoyanov "Miroslav Stoyanov GitHub Profile")
 
