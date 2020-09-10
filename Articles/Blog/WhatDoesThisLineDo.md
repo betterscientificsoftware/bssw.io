@@ -8,7 +8,7 @@
 
 #### Publication date: September 11, 2020
 
-Providing good, current developer-focused documentation pays off for the future -- you
+Providing good, current developer-focused documentation pays off for the future -- for you
 and your fellow developers.  And it does not have to be that hard to do!
 
 ### Documentation is the first thing to go
@@ -66,9 +66,9 @@ and hard on the eyes, while the path to good formatting goes through the use of
 CSS files. The CSS language is fairly remote from anything in the HPC community,
 and no one in the Tasmanian team had the necessary expertise; but this is where
 the IDEAS-ECP project helped us make a connection with Alex Moore from the ORNL
-Research Software Engineering group. After Alex was done with the style and I
-showed the web page to users,  reactions ranged from “that’s nice and
-professional” to “wow, looks good.” When establishing the documentation
+Research Software Engineering group. After Alex was done with the style sheet and I
+showed the web page to users, reactions ranged from "that’s nice and
+professional" to "wow, looks good." When establishing the documentation
 infrastructure, don’t hesitate to ask for help from someone who knows what they're doing.
 
 Naturally, the most tedious part of the process was writing the actual
@@ -84,7 +84,7 @@ internal API. Gradually, we moved from totally undocumented code to simply
 filling the gaps, which made the process much smoother. The final thrust was the
 conversion of the PDF documentation of the external API into Doxygen, half of which was copy-paste.
 Every release of Tasmanian prior to 7.0 had been delayed by weeks because of
-documentation issues; the latest release 7.1 was the first to not require a
+documentation issues; the latest release 7.1 was the first not to require a
 documentation crunch. The documentation debt was converted to an asset, and we
 began to reap the dividends.
 
