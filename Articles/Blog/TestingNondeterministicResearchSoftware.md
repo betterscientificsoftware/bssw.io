@@ -42,7 +42,7 @@ ParSplice is part of the EXAALT project, which was the subject of an earlier BSS
 Nasir Eisty is an assistant professor in the Computer Science and Software Engineering Department of California Polytechnic State University, San Luis, Obispo, CA. He received his Ph.D. degree in Computer Science from the University of Alabama in Spring 2020. His research interests lie in the area of Empirical Software Engineering, Software Quality, and Research Software Engineering. He received a BSSw (Better Scientific Software) 2020 fellow award from the Department of Energy (DOE).
 
 <!---
-Publish: preview
+Publish: no
 RSS update: 
 Categories: Reliability
 Topics: Testing
