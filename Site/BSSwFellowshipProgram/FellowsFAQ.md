@@ -4,9 +4,7 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar, September 9, 2020
 
-### Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.12934841)
-
-### Recording: [(slides/audio)](https://exascaleproject.zoomgov.com/rec/share/vslSEbX89EhOGNbU4hzed6clLIrsT6a81XAf_aAIyR2ayDofvFEbyBZfalioBzxA?startTime=1599681780000)
+### Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.12934841) / Recording: [(slides/audio)](https://exascaleproject.zoomgov.com/rec/share/vslSEbX89EhOGNbU4hzed6clLIrsT6a81XAf_aAIyR2ayDofvFEbyBZfalioBzxA?startTime=1599681780000)
 
 ## Application Questions
 
