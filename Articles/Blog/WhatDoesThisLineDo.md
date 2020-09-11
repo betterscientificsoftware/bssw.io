@@ -109,8 +109,8 @@ much easier.
 Dr. Miroslav Stoyanov got his Ph.D. from Virginia Tech in 2009. After a postdoctoral position at Florida State University, he joined ORNL in 2012. His areas of research involve surrogate modeling, uncertainty quantification, high-dimensional approximation, and supercomputing. Dr. Stoyanov is also the lead developer of the ORNL Toolkit for Adaptive Stochastic Modeling and Non-Intrusive Approximation ([Tasmanian](https://tasmanian.ornl.gov)) and one of the main contributors to the library for Highly Efficient Fast Fourier Transform for Exascale (heFFTe).
 
 <!---
-Publish: preview
-RSS update: 
+Publish: yes
+RSS update: 2020-09-11
 Categories: Development
 Topics: Documentation
 Tags: bssw-blog-article
