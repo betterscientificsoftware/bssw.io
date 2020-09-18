@@ -30,7 +30,7 @@ Therefore, if you are an undergraduate or graduate student in a computational sc
 #### #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
 <!---
-Publish: preview
+Publish: publish
 Categories: Collaboration
 Topics: conferences and workshops
 Level: 2
