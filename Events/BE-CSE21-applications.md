@@ -19,7 +19,7 @@ The Society of Industrial and Applied Mathematics (SIAM) 2021 Computational Scie
 #### #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: Collaboration
 Topics: conferences and workshops
 Level: 2
