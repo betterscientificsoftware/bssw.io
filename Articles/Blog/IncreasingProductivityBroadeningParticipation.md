@@ -2,7 +2,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_RemoteWorkingPanel.png' />
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0920_BroadPartic.png' />
 
 #### Contributed by [Mary Ann Leung](https://github.com/shinstitute "Mary Ann Leung GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson GitHub Profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
 
