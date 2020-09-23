@@ -14,7 +14,7 @@ Author | [Dhawal Shah](https://www.freecodecamp.org/news/author/dhawalhs/)
 Focus | Online Learning
 
 
-This *[700 Free Online Programming and Computer Science Course](https://www.freecodecamp.org/news/free-online-programming-cs-courses/)* article lists around 700 free courses in the field of computer science, online programming, data science, machine learning and artificial intelligence. The list is divided into three categories, based on difficulty level, of beginner, intermediate and advanced. The article also includes ratings for several of the courses mentioned. Courses listed are offered by USA as well as other international universities and organizations.
+This *[700 Free Online Programming and Computer Science Course](https://www.freecodecamp.org/news/free-online-programming-cs-courses/)* article lists around 700 free courses in the field of computer science, online programming, data science, machine learning and artificial intelligence. The list is divided into three categories, based on difficulty levels: beginner, intermediate and advanced. The article also includes ratings for several of the courses mentioned. Courses listed are offered by USA as well as other international universities and organizations.
 
 An excellent list, to peruse and start with, should one feel inclined to start learning a new topic in a structured yet self-paced and budget-proof manner.
 
