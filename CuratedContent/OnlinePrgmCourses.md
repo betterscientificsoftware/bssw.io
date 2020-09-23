@@ -18,11 +18,8 @@ This *[700 Free Online Programming and Computer Science Course](https://www.free
 
 An excellent list to peruse and start with, should one feel inclined to start learning a new topic in a structured yet self-paced and budget-proof manner.
 
-
-
-
 <!---
 Publish: yes
-Categories: Skills 
-Topics: Online Learning
+Categories: skills
+Topics: online learning
 --->
