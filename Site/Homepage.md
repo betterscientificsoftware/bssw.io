@@ -4,18 +4,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/a-community-of-practice-around-peer-review-for-long-term-research-software-sustainability
-Slide1 R: images/raw/master/Blog_0820_Peer_review.png
+Slide1 L: blog_posts/what-does-this-line-do-the-challenge-of-writing-a-well-documented-code
+Slide1 R: images/raw/master/Blog_0920_QuadF3.png
 Slide2 L: blog_posts/applications-open-for-the-2021-bssw-fellowship-program
 Slide2 R: images/raw/master/Blog_0720_Fellows.png
-Slide3 L: blog_posts/working-remotely-the-exascale-computing-project-ecp-panel-series
-Slide3 R: images/raw/master/Blog_0720_RemoteWorkingPanel.png
-Slide4 L: events/research-software-engineers-in-hpc-workshop-rse-hpc-2020
-Slide4 R: events/the-international-series-of-online-research-software-events-sorse
-Slide5 L: blog_posts/the-lazy-approach-to-developing-scientific-research-software
+Slide3 L: blog_posts/a-community-of-practice-around-peer-review-for-long-term-research-software-sustainability
+Slide3 R: images/raw/master/Blog_0820_Peer_review.png
+Slide4 L: blog_posts/working-remotely-the-exascale-computing-project-ecp-panel-series
+Slide4 R: events/webinar-scalable-precision-tuning-of-numerical-software
+Slide5 L: events/the-international-series-of-online-research-software-events-sorse
 Slide5 R: events/call-for-posters-minisymposterium-on-software-productivity-and-sustainability-for-computational-science-and-engineering
-Slide6 L: items/the-four-pillars-of-research-software-engineering
-Slide6 R: items/a-look-at-detrimental-effects-of-context-switching-with-devops
 --->
 
 <!---
