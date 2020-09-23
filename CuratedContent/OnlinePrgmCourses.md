@@ -22,7 +22,7 @@ An excellent list to peruse and start with, should one feel inclined to start le
 
 
 <!---
-Publish: no
+Publish: yes
 Categories: Skills 
 Topics: Online Learning
 --->
