@@ -16,7 +16,7 @@ This article, *[Ten Common Learning Myths that Might be Holding You Back](https:
 
 
 <!---
-Pinned: yes
+Pinned: no
 Publish: yes
 Categories: Skills
 Topics: Personal productivity and sustainability, Online learning
