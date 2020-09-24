@@ -48,12 +48,12 @@ Package Coupling OO Principles:
 
 These eleven principles distill a great deal of expert know-how down to short acronyms like OCP (Open-Closed Principle).
 Chapters 13-17, 21, and 23-29 describe many design patterns are also very useful.
-Some of the design patterns discussed in these chapters are the same as given in the well known book [*Design Patterns*](design_patterns_1995).
+Some of the design patterns discussed in these chapters are the same as given in the well known book *Design Patterns*<sup>[1]</sup>.
 Even with those design patterns are the same as those defined in the book "Design Patterns", Martin gives them more context and helps to really flesh them out.
 
-Concerning the book's title "Agile Software Development", while the introductory chapters discuss the Agile methodology [*Extreme Programming (XP)*](???), the remaining chapters of the book have little to do with XP specifically and are only mildly related to Agile methods in general.
+Concerning the book's title "Agile Software Development", while the introductory chapters discuss the Agile methodology *Extreme Programming (XP)*<sup>[2]</sup>, the remaining chapters of the book have little to do with XP specifically and are only mildly related to Agile methods in general.
 (Much of this material would apply just as well to Waterfall projects.)
-In fact, the discussion in chapter 20 on versioning and releases of packages (while it contains great material) runs contrary to some modern notions of continuous integration (see [*Continuous Integration*](continuous_integration_2007)) and continuous delivery.
+In fact, the discussion in chapter 20 on versioning and releases of packages (while it contains great material) runs contrary to some modern notions of continuous integration (see *Continuous Integration*<sup>[3]</sup>) and continuous delivery.
 Therefore, unless the reader is specifically interested in Agile methods, one may want to just skim through chapters 1-6 in order to get to the real meat of the book.
 Also, this book has many detailed examples.  For some readers, going through these examples in detail may be helpful, others may just want to skim them if they already get the ideas the example is trying to convey.
 Skimming the examples can really help to improve the flow of material as one reads the book, at least the first read-through.
@@ -62,20 +62,18 @@ Skimming the examples can really help to improve the flow of material as one rea
 
 <br>
 
-[1]: #ref1 "Fowler, Martin. Refactoring, Addison Wesley, 1999"
-[2]: #ref2 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004"
-[3]: #ref3 "Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003"
-[4]: #ref4 "Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003"
+[1]: #ref1 "???. Design Patterns, ???"
+[2]: #ref2 "???. Extreme Programming (XP), ???"
+[3]: #ref3 "???. Continuous Integration, ???"
 
 <br>
 
 
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | [Fowler, Martin. Refactoring, Addison Wesley, 1999](https://martinfowler.com/books/refactoring.html)
-<a name="ref2"></a>2 | [Feathers, Michael C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)
-<a name="ref3"></a>3 | [Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003](https://www.pearson.com/us/higher-education/program/Martin-Agile-Software-Development-Principles-Patterns-and-Practices/PGM272869.html)
-<a name="ref4"></a>4 | [Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003](https://www.pearson.com/us/higher-education/program/Beck-Test-Driven-Development-By-Example/PGM206172.html)
+<a name="ref1"></a>1 | [???. Design Patterns, ???](???)
+<a name="ref2"></a>2 | [???. Extreme Programming (XP), ???](???)
+<a name="ref3"></a>3 | [???. Continuous Integration, ???](???)
 
 <br>
 
