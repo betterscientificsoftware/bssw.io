@@ -62,18 +62,18 @@ Skimming the examples can really help to improve the flow of material as one rea
 
 <br>
 
-[1]: #ref1 "???. Design Patterns, ???"
-[2]: #ref2 "???. Extreme Programming (XP), ???"
-[3]: #ref3 "???. Continuous Integration, ???"
+[1]: #ref1 "E. Gamma, R. Helm, R. Johnson and J. Vlissides. Design Patterns, Addison Wesley, 1995"
+[2]: #ref2 "K. Beck. Extreme Programming Explained (2nd edition), Addison Wesley, 2005"
+[3]: #ref3 "P. Duvall and et. al. Continuous Integration, Addison Wesley, 2007"
 
 <br>
 
 
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | [???. Design Patterns, ???](???)
-<a name="ref2"></a>2 | [???. Extreme Programming (XP), ???](???)
-<a name="ref3"></a>3 | [???. Continuous Integration, ???](???)
+<a name="ref1"></a>1 | [E. Gamma, R. Helm, R. Johnson and J. Vlissides. Design Patterns, Addison Wesley, 1995 (ISBN-13: 978-0201633610)](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+<a name="ref2"></a>2 | [K. Beck. Extreme Programming Explained (2nd edition), Addison Wesley, 2005 (ISBN-13: 978-0321278654)](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+<a name="ref3"></a>3 | [P. Duvall and et. al. Continuous Integration, Addison Wesley, 2007 (ISBN-13: 978-0321336385)](https://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380)
 
 <br>
 
