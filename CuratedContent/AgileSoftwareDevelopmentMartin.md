@@ -1,6 +1,7 @@
 # Agile Software Development
 <!--deck text start-->
-Much of modern software engineering best practices and know-how can be summarized in a few key principles.  This book *Agile Software Development Principles, Patterns, and Practices*, written by *Robert Martin*, defines eleven of these principles and gives them short helpful names and shows how they are applied in many different established design patterns in modern software literature. 
+Much of modern software engineering best practices and know-how can be summarized in a few key principles.
+This book, *Agile Software Development Principles, Patterns, and Practices*, written by *Robert Martin*, defines eleven of these principles and gives them short helpful names and shows how they are applied in many different established design patterns in modern software literature. 
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
