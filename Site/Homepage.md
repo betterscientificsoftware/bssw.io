@@ -2,18 +2,17 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
-
 <!---
-Slide1 L: blog_posts/what-does-this-line-do-the-challenge-of-writing-a-well-documented-code
-Slide1 R: images/raw/master/Blog_0920_QuadF3.png
-Slide2 L: blog_posts/applications-open-for-the-2021-bssw-fellowship-program
-Slide2 R: images/raw/master/Blog_0720_Fellows.png
-Slide3 L: blog_posts/a-community-of-practice-around-peer-review-for-long-term-research-software-sustainability
-Slide3 R: images/raw/master/Blog_0820_Peer_review.png
-Slide4 L: blog_posts/working-remotely-the-exascale-computing-project-ecp-panel-series
-Slide4 R: events/webinar-scalable-precision-tuning-of-numerical-software
-Slide5 L: events/the-international-series-of-online-research-software-events-sorse
-Slide5 R: events/call-for-posters-minisymposterium-on-software-productivity-and-sustainability-for-computational-science-and-engineering
+Slide1 L: blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities
+Slide1 R: images/raw/master/Blog_0920_BroadPartic.png
+Slide2 L: blog_posts/what-does-this-line-do-the-challenge-of-writing-a-well-documented-code
+Slide2 R: images/raw/master/Blog_0920_QuadF3.png
+Slide3 L: items/digging-deeper-into-agile-software-development
+Slide3 R: items/a-list-of-free-online-programming-and-computer-science-courses
+Slide4 L: events/webinar-scalable-precision-tuning-of-numerical-software
+Slide4 R: events/events/panel-sustainable-hybrid-approaches
+Slide5 L: blog_posts/applications-open-for-the-2021-bssw-fellowship-program
+Slide5 R: images/raw/master/Blog_0720_Fellows.png
 --->
 
 <!---
