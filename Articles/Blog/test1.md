@@ -1,4 +1,4 @@
-# Test for Increasing Productivity by Broadening Participation in Scientific Software Communities
+# Increasing Productivity by Broadening Participation in Scientific Software Communities
 
 **Hero Image:**
  
