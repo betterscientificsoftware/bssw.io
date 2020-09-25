@@ -241,7 +241,7 @@ Damian Rouson is Founder and President of the [Sourcery Institute](http://www.so
 Lois Curfman McInnes is a senior computational scientist in the Mathematics and Computer Science Division of Argonne National Laboratory.  Her work focuses on high-performance computational science, with emphasis on scalable numerical libraries and community collaboration toward productive and sustainable software ecosystems.  She serves as Deputy Director of Software Technology for the U.S. Exascale Computing Project.
 
 <!---
-Publish: yes
+Publish: no
 RSS update: 2020-09-25
 Categories: Collaboration
 Topics: Strategies for More Effective Teams, Funding Sources and Programs
