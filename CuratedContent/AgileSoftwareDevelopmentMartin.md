@@ -59,7 +59,8 @@ Therefore, unless the reader is specifically interested in Agile methods, one ma
 Also, this book has many detailed examples.  For some readers, going through these examples in detail may be helpful, others may just want to skim them if they already get the ideas the example is trying to convey.
 Skimming the examples can really help to improve the flow of material as one reads the book, at least the first read-through.
 
-<img src='https://github.com/betterscientificsoftware/images/blob/master/AgileSoftwareDevelopmentMartin.jpg' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/AgileSoftwareDevelopmentMartin.jpg' class='logo' />
+
 
 <br>
 
