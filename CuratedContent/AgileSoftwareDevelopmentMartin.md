@@ -81,8 +81,8 @@ References | &nbsp;
 
 
 <!---
-Publish: preview
-RSS update: 
+Publish: yes
+RSS update: 2020-09-25
 Categories: Planning
 Topics: design
 Tags: book
