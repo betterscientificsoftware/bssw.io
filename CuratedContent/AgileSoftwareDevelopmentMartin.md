@@ -1,7 +1,7 @@
 # Digging Deeper into Agile Software Development
 <!--deck text start-->
 Much of modern software engineering best practices and know-how can be summarized in a few key principles.
-This book, *Agile Software Development Principles, Patterns, and Practices*, written by *Robert Martin*, defines eleven of these principles and gives them short helpful names and shows how they are applied in many different established design patterns in modern software literature. 
+This book, *Agile Software Development Principles, Patterns, and Practices*, written by *Robert Martin*, defines eleven of these principles, gives them short helpful names, and shows how they are applied in many different established design patterns in modern software literature. 
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
@@ -50,9 +50,9 @@ Package Coupling OO Principles:
 These eleven principles distill a great deal of expert know-how down to short acronyms like OCP (Open-Closed Principle).
 Chapters 13-17, 21, and 23-29 describe many design patterns are also very useful.
 Some of the design patterns discussed in these chapters are the same as given in the well known book *Design Patterns*<sup>[1]</sup>.
-Even with those design patterns are the same as those defined in the book "Design Patterns", Martin gives them more context and helps to really flesh them out.
+Even with those being the same as those defined in the book "Design Patterns", Martin gives them more context and helps to really flesh them out.
 
-Concerning the book's title "Agile Software Development", while the introductory chapters discuss the Agile methodology *Extreme Programming (XP)*<sup>[2]</sup>, the remaining chapters of the book have little to do with XP specifically and are only mildly related to Agile methods in general.
+Concerning the book's title *"Agile Software Development"*, while the introductory chapters discuss the Agile methodology *Extreme Programming (XP)*<sup>[2]</sup>, the remaining chapters of the book have little to do with XP specifically and are only mildly related to Agile methods in general.
 (Much of this material would apply just as well to Waterfall projects.)
 In fact, the discussion in chapter 20 on versioning and releases of packages (while it contains great material) runs contrary to some modern notions of continuous integration (see *Continuous Integration*<sup>[3]</sup>) and continuous delivery.
 Therefore, unless the reader is specifically interested in Agile methods, one may want to just skim through chapters 1-6 in order to get to the real meat of the book.
