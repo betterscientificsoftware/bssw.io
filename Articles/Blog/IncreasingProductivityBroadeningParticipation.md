@@ -1,4 +1,4 @@
-# Increasing Productivity by Broadening Participation in Scientific Software Communities
+# OUTDATED: Increasing Productivity by Broadening Participation in Scientific Software Communities
 
 **Hero Image:**
  
