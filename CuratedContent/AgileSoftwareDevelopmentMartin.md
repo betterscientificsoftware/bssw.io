@@ -5,7 +5,7 @@ This book, *Agile Software Development Principles, Patterns, and Practices*, wri
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-#### Publication date: September ???, 2020
+#### Publication date: September 25, 2020
 
 
 Resource information | Details 
@@ -82,8 +82,8 @@ References | &nbsp;
 
 <!---
 Publish: preview
-RSS update: 2019-06-05
-Categories: Development, Reliability
+RSS update: 
+Categories: Planning
 Topics: design
 Tags: book
 Level: 2
