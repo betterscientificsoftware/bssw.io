@@ -16,6 +16,8 @@ and engineering (CSE), we observe that our communities could benefit by
 increasing emphasis on sustainable strategies to advance diversity and
 inclusion.
 
+The photo above shows Alexandra Ballow, a student at Youngstown State University who was a participant in the Broader Engagement Program at SIAM CSE19, presenting her work to Paul Hovland of Argonne National Lab.  Alexandra previously participated in the Sustainable Research Pathways program.
+
 **Lois Curfman McInnes:** Mary Ann and Damian, many thanks for providing your perspectives
 as leaders who are working to broaden participation of under-represented
 groups in high-performance scientific computing. I am hoping to learn more
