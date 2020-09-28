@@ -20,6 +20,6 @@ Damian will develop and teach agile scientific software development tutorials in
 
 Damian is a research engineer and member of the Advisory Board of [Sustainable Horizons Institute](http://shinstitute.org). He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the [Sourcery Institute](http://www.sourceryinstitute.org).
 
-\### Selected resources
+### Selected resources
 
 <a href="https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities" class="link-row">Increasing Productivity by Broadening Participation in Scientific Software Communities</a>
