@@ -2,7 +2,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0920_BroadPartic.png' />[The photo above shows Alexandra Ballow, a student at Youngstown State University who was a participant in the Broader Engagement Program at SIAM CSE19, presenting her work to Paul Hovland of Argonne National Lab.  Alexandra previously participated in the Sustainable Research Pathways program.]
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0920_BroadPartic.png' />[Alexandra Ballow, a student at Youngstown State University who was a participant in the Broader Engagement Program at SIAM CSE19, presenting her work to Paul Hovland of Argonne National Lab.  Alexandra previously participated in the Sustainable Research Pathways program.]
 
 #### Contributed by [Mary Ann Leung](https://github.com/shinstitute "Mary Ann Leung GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson GitHub Profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
 
