@@ -51,7 +51,9 @@ Applications are closed for the 2021 BSSw Fellowship Program.  Please check back
 ### More information, including on-line application
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-<!-- - [Online Application](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link) (Submissions open!)
+
+<!-- 
+- [Online Application](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link) (Submissions open!)
 - <mark>Application deadline: Wednesday, September 30, 2020</mark>; this is a firm deadline that will not be extended.
 -->
 
