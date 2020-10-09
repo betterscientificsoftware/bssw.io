@@ -2,11 +2,11 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_Testing.png' />[How do we test non-deterministic research software that might not return the same result on different runs with the same input?]
+ - [How do we test non-deterministic research software that might not return the same result on different runs with the same input?]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_Testing.png' />
 
 #### Contributed by [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile")
 
-#### Publication date: September 25, 2020
+#### Publication date: October 12, 2020
 
 Testing scientific software is challenging, evident in the large number of [guides, tutorials and best practices](https://bssw.io/items?topic=testing) on how to create tests to avoid software defects and verify correctness.  BUT, how do you test when you can't even define *the* right answer?!  
 
@@ -23,10 +23,10 @@ A growing challenge in testing research software, especially software targeted t
 Non-determinism can be actual, which occurs when there is no theoretical way of predetermining the system's exact behavior, such as behavior that is determined by quantum physics (e.g., using nuclear decay to generate truly random numbers), or apparent non-determinism due to overwhelming complexity or to inadequate controllability, visibility, and oracle(s).
 
 In terms of testability, both actual and apparent non-determinism have the same impact from a practical point of view. With non-deterministic systems and software, you can run the exact same test case multiple times and get different results. Running a single test case only once is insufficient to determine whether the test case truly passes or fails. Testers must take into account four types of non-deterministic behavior based on the source of that behavior: 
-* a) physical non-determinism which occurs due to the nature of physical reality, 
-* b) emergent non-determinism which occurs due to integration of subsystems into systems, 
-* c) concurrent non-determinism which occurs due to system-internal and -external concurrency, and 
-* d) exceptional non-determinism which occurs due to fault and failure behavior.
+1. physical non-determinism which occurs due to the nature of physical reality, 
+2. emergent non-determinism which occurs due to integration of subsystems into systems, 
+3. concurrent non-determinism which occurs due to system-internal and -external concurrency, and 
+4. exceptional non-determinism which occurs due to fault and failure behavior.
 
 ### ParSplice: accelerated molecular dynamics
 
