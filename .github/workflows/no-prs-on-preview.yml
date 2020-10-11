@@ -1,0 +1,23 @@
+name: Reject pull requests on preview branch
+
+# The preview branch is specially constructed by our workflows and should never be the direct target of a
+# pull request. So if someone tries, we add a polite comment and close the PR.
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+    branches: 
+      - preview
+
+jobs:
+  reject-pr:
+    runs-on: ubuntu-latest
+    steps:
+# This is a variant of superbrothers/close-pull-request, which only does pull_request events,
+# not pull_request_target events.  Ideally, the capabilities will some day be merged, since
+# the *only* distinction is a test on the type of event!
+    - uses: SiliconLabs/close-pull-request-target@v2.2
+      with:
+        comment: "The preview branch does not accept pull requests.  To contribute to BSSw.io make your PR against the master branch.  Thanks"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
