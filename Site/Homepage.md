@@ -11,7 +11,7 @@ Slide3 L: blog_posts/what-does-this-line-do-the-challenge-of-writing-a-well-docu
 Slide3 R: images/raw/master/Blog_0920_QuadF3.png
 Slide4 L: items/digging-deeper-into-agile-software-development
 Slide4 R: items/a-list-of-free-online-programming-and-computer-science-courses
-Slide5 L: events/webinar-scalable-precision-tuning-of-numerical-software
+Slide5 L: events/webinar-reducing-technical-debt-with-reproducible-containers
 Slide5 R: events/events/panel-sustainable-hybrid-approaches
 --->
 
