@@ -23,8 +23,11 @@ Format:
         - Attempts to open a PR against the preview branch are immediately closed and an explanatory comment is added to the PR.
 
 # Gaps
-* PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
-* Recreate preview branch.  Trigger manually
+* PR is closed without merge:
+    - We should back out the whole PR from preview?
+    - Or kill and recreate preview?
+    - Create a new dummy branch and PR to remove changes/files?
+* Recreate preview branch.  Trigger manually (can also be done manually fairly quickly from time to time).
     - Delete preview
     - Create preview from master
     - Foreach open PR
@@ -42,6 +45,7 @@ Format:
     - Pick out new things for the monthly digest.
  * Article title collisions cause problems in the backend.  It would be nice to be able to detect them and warn.
     - Any articles with the same title, regardless of path and (I think) regardless of their publication state cause problems.
+    - NOTE: If the title name of the Markdown file conflicts with something on 'master', GitHub will show that in the PR.
 
 # Potentially useful actions
 * ljharb/require-allow-edits
