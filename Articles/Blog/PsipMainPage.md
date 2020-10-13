@@ -19,6 +19,7 @@ The Productivity and Sustainability Improvement Planning (PSIP) process recogniz
 - Take a [Team Practices Survey](https://bssw-psip.github.io/ptc-catalog/survey.html) to identify practices which could be improved.
 - Read the [PSIP user manual and practice guides](https://bssw-psip.github.io/practice-guides/). These guides include a PSIP introduction, practice guides, and PSIP examples.
 - Browse the [PTC Catalog](https://bssw-psip.github.io/ptc-catalog/catalog). Progress Tracking Cards (PTCs) contain the goal of the planning activity and a numbered list of outcomes.
+- Visit [RateYourProject](https://rateyourproject.org) to self assess the current practices of your project.
 - Chat with PSIP team on  [Gitter](https://gitter.im/bssw-psip/community)
 - Request help from the PSIP team through a [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQxb158piJeBqELZmJFkJTOFx71WBNBChtec5f21kyvPiCg/viewform)
 
