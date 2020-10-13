@@ -2,7 +2,7 @@
 
 #### Contributed by [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile")
 
-#### Publication date: October 12, 2020
+#### Publication date: October 13, 2020
 
 Testing scientific software is challenging, evident in the large number of [guides, tutorials and best practices](https://bssw.io/items?topic=testing) on how to create tests to avoid software defects and verify correctness.  BUT, how do you test when you can't even define *the* right answer?!  
 
@@ -55,8 +55,8 @@ This article is based on a paper in the proceedings of the International Confere
 Nasir Eisty is an assistant professor in the Computer Science and Software Engineering Department of California Polytechnic State University, San Luis, Obispo, CA. He received his Ph.D. degree in Computer Science from the University of Alabama in Spring 2020. His research interests lie in the area of Empirical Software Engineering, Software Quality, and Research Software Engineering. He received a [2020 BSSw (Better Scientific Software) Fellowship](https://bssw.io/pages/meet-our-fellows) award from the Department of Energy (DOE).
 
 <!---
-Publish: preview
-RSS update: 
+Publish: yes
+RSS update: 2020-10-13
 Categories: Reliability
 Topics: Testing
 Tags: bssw-blog-article
