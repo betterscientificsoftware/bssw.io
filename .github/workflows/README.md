@@ -21,7 +21,7 @@ Format:
     - trigger: pull request [opened, reopened] on preview branch
     - job: reject-pr
         - Attempts to open a PR against the preview branch are immediately closed and an explanatory comment is added to the PR.
-
+* 
 # Gaps
 * PR is closed without merge:
     - We should back out the whole PR from preview?
@@ -38,8 +38,9 @@ Format:
     - check spelling
     - markdown lint (are we too different for this to be useful?)
     - BSSw required elements
-    - verify BSSw metadata
+    - verify BSSw metadata (long ago, Will Mclendon wrote a script for this)
     - BSSw style
+    - Can we use the same script(s) the backend uses to ingest articles to test for exceptions?
  * Generate list of articles published via CHANGELOG-like mechanisms
     - Log of what is published when for reporting purposes
     - Pick out new things for the monthly digest.
@@ -58,7 +59,11 @@ Format:
     - Delete a branch, i.e. to recreate preview
 * peterjgrainger/action-create-branch
     - Create a branch, i.e. to recreate preview
+* yellowmegaman/prtrigger
+    - Make an empty commit to a PR to trigger synchronization actions
+    - Doesn't seem to work for PRs from forks
 * Mark Miller has introduced some useful MD-related processing into some of his other projects
     - There was some stuff document in the About file in earlier versions of the EB-docs.  Seems to have been removed now.
     - <https://travis-ci.com/github/visit-dav/visit-website/builds/181169664> provides an example of what the logs look like when a spelling check fails
     - <https://github.com/visit-dav/visit-website/blob/gh-pages/.travis.yml> invokes a linter, a spell checker, and a lnk checker
+* Long ago, Will Mclendon of SNL wrote a script to validate an article's metadata.  It would probably be useful to dust that off and update it.
