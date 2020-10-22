@@ -1,7 +1,7 @@
-# Scientific Software Bloggers Worth Following
+# Bloggers in the Scientific Software Domain
 
 <!--- deck text start --->
-A number of bloggers write frequently and thoughtfully about issues related to "better scientific software".  You may want to follow some of them.
+A number of bloggers write frequently and thoughtfully about issues related to "better scientific software".  This article lists a few of them.
 <!--- deck text end --->
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
@@ -50,7 +50,7 @@ Focus | Software Engineering, Code Review
 Michaela Greiler is a consultant who provides training/coaching on software development practices, especially code review.  In addition to her blog, she has a newsletter, a podcast, a YouTube channel, and is writing a book on code review.  She posts regularly.
 
 ## Who do you follow?
-*Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers you follow regularly on topics related to better scientific software.*
+*Contribute to this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers you follow regularly on topics related to better scientific software.*
 
 <!---
 Publish: preview
