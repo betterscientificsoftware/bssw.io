@@ -76,7 +76,7 @@ Emilio Carcamo, Universidad Industrial de Santander
   * Carlos Maltzahn, UC Santa Cruz
   
 For more details see the event website at [https://us-rse.org/rse-hpc-2020/](https://us-rse.org/rse-hpc-2020/). If you’re
-participating in SC20, we hope you can join us!
+participating in **SC20**, we hope you can join us!
 
 <!---
 Publish: no
