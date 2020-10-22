@@ -1,17 +1,17 @@
 # Call for Posters: Minisymposterium on Software Productivity and Sustainability for Computational Science and Engineering
 
-- Date: 2020-09-14
+- Date: 2020-10-29
 - Location: Fort Worth, Texas with online options
 - Event Website: https://www.siam.org/conferences/cm/conference/cse21
 - Organizers: The IDEAS Productivity Project
 			   
-We are organizing a minisymposterium (topical poster group) on "Software Productivity and Sustainability for CSE" for the SIAM CSE21 conference, which is scheduled to take place 1-5 March 2021 in Fort Worth, Texas.  Remote participation options will be available. We welcome poster contributions for this general topic (see the draft abstract at the end of this message). 
+We are organizing a minisymposterium (topical poster group) on "Software Productivity and Sustainability for CSE" for the SIAM CSE21 conference, which is scheduled to take place 1-5 March 2021 and will be fully online. We welcome poster contributions for this general topic (see the draft abstract at the end of this message). 
 
 Resource Information | Details
 :--- | :---			   
 Conference Dates | 2021-03-01 -- 2021-03-05
 Conference Website | https://www.siam.org/conferences/cm/conference/cse21
-Poster Proposal Deadline | 2020-09-14
+Poster Proposal Deadline | 2020-10-29
 Poster Proposal Submissions | https://docs.google.com/forms/d/e/1FAIpQLSckh2wuHtcz41WZYjKe6aUx1mEWT4QdHL_aMwSYBERSrLsmlw/viewform?usp=sf_link
 
 This poster group will complement a number of minisymposia which are also being organized on topics within this space.  All posters in the thematic poster group will be co-located in the poster viewing area, which will promote informal exchange of ideas on software productivity and sustainability issues. At prior conferences, we have had groups of around 30 posters each ([CSE19](https://doi.org/10.6084/m9.figshare.c.4410767), [CSE17](https://doi.org/10.6084/m9.figshare.c.3703771)).   SIAM CSE21 is committed to provide a rich environment for online poster displays; details will be provided in the coming months.
@@ -27,7 +27,7 @@ You will need to provide the following information with your submissions:
 
 __Please be sure that the title and abstract of your poster emphasize issues in software productivity and sustainability.__
 
-We are collecting poster proposals at this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSckh2wuHtcz41WZYjKe6aUx1mEWT4QdHL_aMwSYBERSrLsmlw/viewform?usp=sf_link)**. Please submit by **Monday 14 September 2020** so that we can follow up and you can finalize your submission.
+We are collecting poster proposals at this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSckh2wuHtcz41WZYjKe6aUx1mEWT4QdHL_aMwSYBERSrLsmlw/viewform?usp=sf_link)**. Please submit by **Wednesday 28 September 2020** so that we can follow up and you can finalize your submission.
 
 Please note that new SIAM guidelines allow an individual to present just __***one*** talk or poster__.  If you already have a talk planned for CSE21, please encourage your co-authors or collaborators to participate in the poster group.
 

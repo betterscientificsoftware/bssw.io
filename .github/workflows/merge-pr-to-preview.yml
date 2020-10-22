@@ -1,0 +1,18 @@
+name: Sync pull request to preview
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+    branches:
+      - master
+jobs:
+  sync-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Merge pr -> preview
+        uses: devmasx/merge-branch@v1.3.0
+        with:
+          type: now
+          head_to_merge: ${{ github.event.pull_request.head.sha }}
+          target_branch: preview
+          github_token: ${{ secrets.GITHUB_TOKEN }}
