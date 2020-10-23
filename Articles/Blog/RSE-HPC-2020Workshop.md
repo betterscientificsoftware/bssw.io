@@ -10,7 +10,7 @@
 
 We are excited to announce the [Research Software Engineers in HPC Workshop
 (RSE-HPC-2020)](https://us-rse.org/rse-hpc-2020/) to be held as part of [SC20](https://sc20.supercomputing.org/) (held virtually) this fall! This will be a half-day
-workshop on Thursday, November 12, 2020. It will feature keynote addresses from
+workshop 10:00am-2:00pm EST, Thursday, November 12, 2020. It will feature keynote addresses from
 Simon Hettrick and Frank Löffler, leaders in the RSE movements in the UK and Germany,
 followed by talks and panel discussions on the needs of RSEs and RSE groups.
 
@@ -75,11 +75,20 @@ Emilio Carcamo, Universidad Industrial de Santander
   * Rinku Gupta, Argonne National Laboratory
   * Carlos Maltzahn, UC Santa Cruz
   
-For more details see the event website at [https://us-rse.org/rse-hpc-2020/](https://us-rse.org/rse-hpc-2020/). If you’re
-participating in **SC20**, we hope you can join us!
+For more details see the event website at [https://us-rse.org/rse-hpc-2020/](https://us-rse.org/rse-hpc-2020/) or the SC20 [program page](https://sc20.supercomputing.org/session/?sess=sess217). If you’re
+participating in **SC20**, we hope you can join us! (Workshop registration required.)
+
+### Author bios
+Charles Ferenbaugh is a staff member in the Applied Computer Science group at Los Alamos National Laboratory. He received a PhD in Mathematics from Princeton University in 1992. Since 2001, he has been a software developer on HPC code projects in LANL's Advanced Simulation and Computing program. He is currently involved in two large multiphysics code projects: the Eulerian Applications Project and the Ristra/Next Generation Code Project. He has also been a part of LANL research efforts in advanced architectures and programming models. He is a member of the steering committee for the US Research Software Engineer Association.
+
+Sandra Gesing is an Associate Research Professor in the Department of Computer Science and Engineering and a Computational Scientist at the Center for Research Computing at the University of Notre Dame. Her research interests include science gateways, computational workflows as well as distributed and parallel computing, focusing on research aspects around sustainability, usability and reproducibility. Prior to the position at Notre Dame, she was a research associate at the University of Edinburgh, UK and at the University of Tübingen, Germany. Additionally, she has perennial experience as a project manager and system developer in industry. 
+
+Professor Simon Hettrick is Deputy Director of the Software Sustainability Institute, and a Director of the Southampton Research Software Group. He works with stakeholders from across the research community to develop policies that support research software, the people who develop that software and the researchers who rely on it. Simon is a passionate advocate for Research Software Engineers. He orchestrated a campaign to gain recognition for this community, which has grown from a handful of people in 2013 to a substantial international community numbering in the tens of thousands.
+
+Daniel S. Katz is Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications (NCSA), Research Associate Professor in Computer Science, Electrical and Computer Engineering, and the School of Information Sciences (iSchool) at the University of Illinois Urbana-Champaign. He is also a Better Scientific Software (BSSw) Fellow and Guest Faculty at Argonne National Laboratory. His interests include applications, algorithms, fault tolerance, and programming in parallel and distributed computing, as well as citation and credit mechanisms and practices associated with software and data, organization and community practices for collaboration, and career paths for computing researchers.
 
 <!---
-Publish: no
+Publish: preview
 RSS update: 2020-10-26
 Categories: Planning, Collaboration
 Topics: Software Engineering, Projects and Organizations
