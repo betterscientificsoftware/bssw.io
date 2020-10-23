@@ -14,6 +14,8 @@ workshop 10:00am-2:00pm EST, Thursday, November 12, 2020. It will feature keynot
 Simon Hettrick and Frank Löffler, leaders in the RSE movements in the UK and Germany,
 followed by talks and panel discussions on the needs of RSEs and RSE groups.
 
+*This article has been crossposted on the [US-RSE blog](http://us-rse.org/blog/).*
+
 High Performance Computing (HPC), Computational Science and Engineering (CSE), and data
 science rely on high-quality software, and the developers of this software are critical to the
 impact of HPC, CSE, data science, and the larger scientific community. It is increasingly
