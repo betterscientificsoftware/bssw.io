@@ -58,7 +58,7 @@ Web links | [Request for Commits Podcast](https://changelog.com/rfc)
 
 Resource information | Details 
 :--- | :--- 
-Podcast title  | Name of the tutorial without hyperlink 
+Podcast title  | RCE Podcast
 Presenters | Brock Palen and Jeff Sqyres
 Web links | [RCE Podcast](http://www.rce-cast.com/)
 
