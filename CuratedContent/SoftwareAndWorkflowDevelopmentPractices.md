@@ -48,7 +48,7 @@ Software engineering practices:
 
 
 <!---
-Publish: preview 
+Publish: yes 
 Categories: Planning, Reliability
 Topics: Reproducibility, Software Engineering, Testing, Python
 --->
