@@ -1,17 +1,13 @@
 # SC20 Software-Related Events
 
-- **Dates:** 
-  * *Tutorials:* November 9, 2020 - November 10, 2020
-  * *Workshops:* November 11, 2020 - November 13, 2020
-  * *Program:* November 16, 2020 - November 19, 2020
-- **Location:** Online
-- **Event Website:** https://sc20.supercomputing.org/
-- **Organizers:** The "Software Community"
+- Date: November 9, 2020-November 19, 2020
+- Location: Online
+- Event Website: https://sc20.supercomputing.org/
+- Organizers: The "Software Community"
 
 The Supercomputing conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
 
-
-**Description:** The SC20 program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration.
+**Description:** The SC20 program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration. **Of particular interest: the *free* Exhibits (XO) registration category will allow access to the BOFs, as well as other significant conference activitities, such as the keynote, invited talks and posters.**
 
 **If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
@@ -24,8 +20,7 @@ Wed., Nov. 18<br>11:30am-12:45pm ET | BOF | [Spack Community BOF](https://sc20.s
 Thursday, Nov. 19<br>2:30pm-3:45pm ET | BOF | [Software Engineering and Reuse in Modeling, Simulation, and Data Analytics for Science and Engineering](https://sc20.supercomputing.org/presentation/?id=bof166&sess=sess307)
 
 
-<!--- Note that the Contributed by tag is ignored for events.  Use Organizers in the list structure immediately following the title ---> 
-#### Contributed by: ???
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Kasia Selim](https://github.com/karbarz "Kasia Selim profile"), and [David E. Bernholdt](https://github.com/bernholdt "David E. Bernholdt GitHub profile")
 
 #### Publication date: October 26, 2020
 <!---
