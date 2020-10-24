@@ -4,17 +4,17 @@
 
  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_011720_usrse.png'/>
  
- #### Contributed by [Charles Ferenbaugh](https://github.com/cferenba "Charles Ferenbaugh GitHub Profile"), [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile"), [Simon Hettrick](https://github.com/SimonHettrick "Simon Hettrick GitHub Profile"), and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
+#### Contributed by [Charles Ferenbaugh](https://github.com/cferenba "Charles Ferenbaugh GitHub Profile"), [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile"), [Simon Hettrick](https://github.com/SimonHettrick "Simon Hettrick GitHub Profile"), and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
 #### Publication date: October 26, 2020
+
+*This article has been crossposted on the [US-RSE blog](http://us-rse.org/blog/).*
 
 We are excited to announce the [Research Software Engineers in HPC Workshop
 (RSE-HPC-2020)](https://us-rse.org/rse-hpc-2020/) to be held as part of [SC20](https://sc20.supercomputing.org/) (held virtually) this fall! This will be a half-day
 workshop 10:00am-2:00pm EST, Thursday, November 12, 2020. It will feature keynote addresses from
 Simon Hettrick and Frank Löffler, leaders in the RSE movements in the UK and Germany,
 followed by talks and panel discussions on the needs of RSEs and RSE groups.
-
-*This article has been crossposted on the [US-RSE blog](http://us-rse.org/blog/).*
 
 High Performance Computing (HPC), Computational Science and Engineering (CSE), and data
 science rely on high-quality software, and the developers of this software are critical to the
@@ -77,7 +77,7 @@ Emilio Carcamo, Universidad Industrial de Santander
   * Rinku Gupta, Argonne National Laboratory
   * Carlos Maltzahn, UC Santa Cruz
   
-For more details see the event website at [https://us-rse.org/rse-hpc-2020/](https://us-rse.org/rse-hpc-2020/) or the SC20 [program page](https://sc20.supercomputing.org/session/?sess=sess217). If you’re
+For more details see the [event website](https://us-rse.org/rse-hpc-2020/) or the SC20 [program page](https://sc20.supercomputing.org/session/?sess=sess217). If you’re
 participating in **SC20**, we hope you can join us! (Workshop registration required.)
 
 ### Author bios
