@@ -30,7 +30,7 @@ Wed., Nov. 18<br>11:30am-12:45pm ET | BOF | [Spack Community BOF](https://sc20.s
 Thursday, Nov. 19<br>2:30pm-3:45pm ET | BOF | [Software Engineering and Reuse in Modeling, Simulation, and Data Analytics for Science and Engineering](https://sc20.supercomputing.org/presentation/?id=bof166&sess=sess307)
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-10-26
 Categories: collaboration
 Topics: projects and organizations, conferences and workshops
