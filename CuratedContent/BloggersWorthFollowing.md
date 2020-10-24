@@ -5,7 +5,7 @@ A number of bloggers write frequently and thoughtfully about issues related to "
 <!--- deck text end --->
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-#### Publication date: October 16, 2020 
+#### Publication date: October 23, 2020 
 
 ## Daniel S. Katz's Blog
 Resource information | Details
@@ -52,8 +52,10 @@ Michaela Greiler is a consultant who provides training/coaching on software deve
 ## Who do you follow?
 *Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers you follow regularly on topics related to better scientific software.*
 
+**Disclaimer:** The views expressed in the blogs above are those of the authors.  They do not necessarily reflect the views of editors or sponsors of the BSSw.io site.
+
 <!---
-Publish: preview
+Publish: yes
 Topics: online learning, software publishing and citation, strategies for more effective teams, software process improvement, reproducibility, software engineering
 Tags: website
 Level: 2
