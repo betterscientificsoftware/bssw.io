@@ -1,11 +1,15 @@
 # SC20 Software-Related Events
 
-- Date: November 9, 2020-November 19, 2020
+The Supercomputing conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
+
+- Date: November 9, 2020 - November 19, 2020
 - Location: Online
-- Event Website: https://sc20.supercomputing.org/
+- Website: https://sc20.supercomputing.org/
 - Organizers: The "Software Community"
 
-The Supercomputing conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Kasia Selim](https://github.com/karbarz "Kasia Selim profile"), and [David E. Bernholdt](https://github.com/bernholdt "David E. Bernholdt GitHub profile")
+
+#### Publication date: October 26, 2020
 
 **Description:** The SC20 program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration. **Of particular interest: the *free* Exhibits (XO) registration category will allow access to the BOFs, as well as other significant conference activitities, such as the keynote, invited talks and posters.**
 
@@ -25,10 +29,6 @@ Tuesday, Nov. 17<br>3:30pm-4:30pm ET | State of the Practice | [Responding to Pa
 Wed., Nov. 18<br>11:30am-12:45pm ET | BOF | [Spack Community BOF](https://sc20.supercomputing.org/presentation/?id=bof107&sess=sess310)
 Thursday, Nov. 19<br>2:30pm-3:45pm ET | BOF | [Software Engineering and Reuse in Modeling, Simulation, and Data Analytics for Science and Engineering](https://sc20.supercomputing.org/presentation/?id=bof166&sess=sess307)
 
-
-#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Kasia Selim](https://github.com/karbarz "Kasia Selim profile"), and [David E. Bernholdt](https://github.com/bernholdt "David E. Bernholdt GitHub profile")
-
-#### Publication date: October 26, 2020
 <!---
 Publish: preview
 RSS update: 2020-10-26
