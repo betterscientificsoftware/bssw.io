@@ -89,7 +89,7 @@ Professor Simon Hettrick is Deputy Director of the Software Sustainability Insti
 Daniel S. Katz is Assistant Director for Scientific Software and Applications at the National Center for Supercomputing Applications (NCSA), Research Associate Professor in Computer Science, Electrical and Computer Engineering, and the School of Information Sciences (iSchool) at the University of Illinois Urbana-Champaign. He is also a Better Scientific Software (BSSw) Fellow and Guest Faculty at Argonne National Laboratory. His interests include applications, algorithms, fault tolerance, and programming in parallel and distributed computing, as well as citation and credit mechanisms and practices associated with software and data, organization and community practices for collaboration, and career paths for computing researchers.
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-10-26
 Categories: Planning, Collaboration
 Topics: Software Engineering, Projects and Organizations, Conferences and Workshops
