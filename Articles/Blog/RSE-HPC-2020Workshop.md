@@ -55,28 +55,27 @@ strengthening professional networks of current RSEs and RSE leaders.
 The planned agenda includes the following talks and discussions:
 
 * Keynotes
-  * *The Birth of RSE* - Simon Hettrick, Software Sustainability Institute
-  * *de-RSE: Forking an RSE Success Story* - Frank Löffler, Friedrich Schiller
-University
+  * The Birth of RSE - Simon Hettrick, Software Sustainability Institute
+  * de-RSE: Forking an RSE Success Story - Frank Löffler, Friedrich Schiller University
 
 * Lightning talks
-  * *How Research Software Engineers Can Support Scientific Software* - Miranda
-Mundt, Sandia National Laboratory
-  * *SC3UIS Research Software Engineering Ecosystem for Scientific Computing* -
-Emilio Carcamo, Universidad Industrial de Santander
+  * How Research Software Engineers Can Support Scientific Software - Miranda Mundt, Sandia National Laboratory
+  * SC3UIS Research Software Engineering Ecosystem for Scientific Computing - Emilio Carcamo, Universidad Industrial de Santander
+  * RSEs as Maintainers: Keeping Code Alive - Bernadette Boscoe, UCLA
 
 * Panel discussion: Building RSE Teams and Groups
   * Reed Milewicz, Sandia National Laboratory
   * Jeremy Cohen, Imperial College London
   * Robert Sinkovits, San Diego Supercomputer Center
   * Mahmood Shad, Harvard University
+  * Ben van Werkhoven, Netherlands eScience Center
 
 * Panel discussion: Supporting RSE Careers
   * Joanna Leng, University of Leeds
   * Ian Cosden, Princeton University
   * Rinku Gupta, Argonne National Laboratory
   * Carlos Maltzahn, UC Santa Cruz
-  
+
 For more details see the [event website](https://us-rse.org/rse-hpc-2020/) or the SC20 [program page](https://sc20.supercomputing.org/session/?sess=sess217). If you’re
 participating in **SC20**, we hope you can join us! (Workshop registration required.)
 
