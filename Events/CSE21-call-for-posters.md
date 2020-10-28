@@ -1,7 +1,7 @@
 # Call for Posters: Minisymposterium on Software Productivity and Sustainability for Computational Science and Engineering
 
 - Date: 2020-10-29
-- Location: Fort Worth, Texas with online options
+- Location: Online
 - Event Website: https://www.siam.org/conferences/cm/conference/cse21
 - Organizers: The IDEAS Productivity Project
 			   
