@@ -5,7 +5,7 @@ In this article we introduce the *machinery* behind the
 HPC Best Practices Webinar Series.
 <!-- deck text end --> 
 
-### Contributed by [Osni Marques](http://github.com/oamarques)
+#### Contributed by [Osni Marques](http://github.com/oamarques)
 
 #### Publication date: July 5, 2020
 
