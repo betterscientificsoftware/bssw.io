@@ -3,17 +3,20 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: blog_posts/the-rse-hpc-2020-workshop-creating-community-building-careers-addressing-challenges
-Slide1 R: images/raw/master/rse-hpe-hero.png
-Slide2 L: events/events/panel-sustainable-hybrid-approaches
-Slide2 R: events/sc20-software-related-events
-Slide3 L: items/digging-deeper-into-agile-software-development
-Slide3 R: items/a-list-of-free-online-programming-and-computer-science-courses
-Slide4 L: events/webinar-reducing-technical-debt-with-reproducible-containers
-Slide4 R: events/software-sustainability-institute-fellowship-programme-2021
-Slide5 L: blog_posts/testing-non-deterministic-research-software
-Slide5 R: images/raw/master/Blog_0820_Testing.png
+Slide1 L: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them
+Slide1 R: images/raw/master/Blog_1019_Hero_1136x432.png
+Slide2 L: blog_posts/the-rse-hpc-2020-workshop-creating-community-building-careers-addressing-challenges
+Slide2 R: images/raw/master/rse-hpe-hero.png
+Slide3 L: events/events/panel-sustainable-hybrid-approaches
+Slide3 R: events/sc20-software-related-events
+Slide4 L: items/software-and-workflow-development
+Slide4 R: items/scientific-software-bloggers-worth-following
+Slide5 L: events/webinar-reducing-technical-debt-with-reproducible-containers
+Slide5 R: events/software-sustainability-institute-fellowship-programme-2021
+Slide6 L: blog_posts/testing-non-deterministic-research-software
+Slide6 R: images/raw/master/Blog_0820_Testing.png
 --->
+
 
 <!---
 LCM: Saving for use again later
