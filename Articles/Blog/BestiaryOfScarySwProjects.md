@@ -6,7 +6,9 @@
 
 #### Contributed by [Neil Chue Hong](https://github.com/npch "Neil Chue Hong GitHub Profile") and [Benjamin Cowan](https://github.com/benc303 "Ben Cowan GitHub Profile") 
 
-#### Publication date: October 31, 2019
+#### Publication date: October 29, 2020
+
+*Editorial note: Originally published in October 2019, we are re-publishing this thematic article in celebration of the holiday.*
 
 With All Hallows Eve upon us once more, as the souls of the dead come to haunt us, it’s time to recount terrifying tales and scary stories… about software. You might think that research software is safe from such gruesome goings-on but you would be wrong, for there are many undead projects out to devour us.  
 
