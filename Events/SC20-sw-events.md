@@ -7,7 +7,7 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 - Website: https://sc20.supercomputing.org/
 - Organizers: The "Software Community"
 
-#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Kasia Selim](https://github.com/karbarz "Kasia Selim profile"), and [David E. Bernholdt](https://github.com/bernholdt "David E. Bernholdt GitHub profile")
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Kasia Selim](https://github.com/karbarz "Kasia Selim profile"), and [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
 #### Publication date: October 26, 2020
 
