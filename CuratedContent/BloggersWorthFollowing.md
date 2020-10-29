@@ -49,7 +49,7 @@ Focus | Software Engineering, Code Review
 
 Michaela Greiler is a consultant who provides training/coaching on software development practices, especially code review.  In addition to her blog, she has a newsletter, a podcast, a YouTube channel, and is writing a book on code review.  She posts regularly.
 
-## Who do you follow?
+## Whom do you follow?
 *Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers you follow regularly on topics related to better scientific software.*
 
 **Disclaimer:** The views expressed in the blogs above are those of the authors.  They do not necessarily reflect the views of editors or sponsors of the BSSw.io site.
