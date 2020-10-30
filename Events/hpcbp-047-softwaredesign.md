@@ -14,7 +14,7 @@ high-performance computers (HPC) and occur approximately monthly.
 Resource Information | Details
 :--- | :---			   
 Webinar Title | Software Design for Longevity with Performance Portability
-Date and Time | 2020-12-09 06:00 pm WTZ
+Date and Time | 2020-12-09 1:00 pm ET
 Presenter | Anshu Dubey (Argonne National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar047>	   
 
