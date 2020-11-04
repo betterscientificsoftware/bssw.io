@@ -1,4 +1,4 @@
-The github version of the docs directory is located at https://rinkug.github.io/rinku-eb-docs/
+The github version of the docs directory is located at https://betterscientificsoftware.github.io/bssw.io/
 
 **Original theme**
 This jekyll style is inspired from
