@@ -9,85 +9,54 @@ and verified. Should we name this content pre-publishing guidelines
 and also included metadata information? Think about how this can
 be organzied better especially after the styling section has been completed." %}
 
-# Checklist for review of content types
-This is a work-in-progress review checkist for all content that goes on the BSSw site. This document is to be used when we are ready with the content and need a final review of the document before publishing it.
+# What is this document?
+This is a work-in-progress review checklist for all content that goes on the BSSw site. Content is of three major types on BSSw: (1) Events, (2) Curated Content and (3) Original Articles (including short articles and blogs). We discuss the review checklist for these three types of content.
 
-Content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article. We discuss the review checklist for these three types of content.
+# Who should use it?
+To be used by the EB member in charge of the content under consideration.
+When should one use it?
+This document is to be used when we are ready with the content and need a final review of the document before publishing it. Following is a list of checks that need to be done in the “item review” phase, before the article reaches the "ready to publish" stage. The BSSw.io Content Board Review can be found at.  https://github.com/betterscientificsoftware/bssw.io/projects/3 . Please note that the content board has various phases, as mentioned below. 
+* Ideas backlog
+* Topic review → CHECKS needed
+* Ready to write
+* Item progress
+* Item review -- CHECKS needed
+* Ready to publish
+* Done
 
-## Expected Completed Common Checks 
-Following is a list of checks that need to be done before the article reaches the final review stage. These checks are common to all content. Its expected that these checks are completed before we reach the "ready for publish" stage:
+# What are the Expected Checks to be done?
+ These checks are common to all types of content. 
 
-- [x] Topic is of interest to readers
-- [x] Relevance of the article
-- [x] Judging whether an article idea is appropriate for BSSw - This is done when the topic is in backlog column
-- [x] Judging the actual content of a contribution i.e PR is acceptable or not - This needs to be done by the reviewers
-- [x] Judging whether content is ready for publication - This "content" needs to be done by the reviewers but the auxillary things can be done following this current document.
-- [x] Document follows style guide
+## Topic review Checks
+* Evaluate whether the content of a contribution (i.e., PR) is appropriate for publication on BSSw.io or whether revisions are needed. 
+* Is the proposed content in scope for BSSw?
+* Would the proposed content "fit" with with existing content? (e.g.,  should it be a revision to or merger with am existing article rather than a separate article?)
 
---------------------------------------------------
+## Item Review Checks
+The following steps assume that the BSSw editorial team has already determined that the topic is appropriate scope for BSSw.io
+### General guidance
+* Confirm that the article is written as per the predetermined scope outlined during the “topic review” phase, or determine suggested revisions/clarifications
+* Gender neutrality - BSSw.io article prefer to be gender neutral 
+* Article tone - BSSw.io articles prefer to be polite and not offend any sensibilities of our intended audience 
+* Review for sensitive information 
+* PI approval  - if an original article talks about anything that can be construed as sensitive information and may need PI approval
+* Additional professional proofreading needed?
 
-## A Checklist for Common Review Criteria
-Once the document is ready for review, there are some checks that will be common across all the content types. The following is a list of such common review criteria
-- [x] Spell checks, grammar, punctuation and syntax
-- [x] Hyperlinks and their validity
-- [x] Gender neutrality checking
-- [x] Check "Tone" of the article and whether it fits BSSw policies (its assumed that the article was judged appropriate for BSSw and has hence reached this stage)
-- [x] Reference checking
-- [x] Title format (what is bold?, capitalized?)
-- [x] Deck format
-- [x] Logos/images formatting (where possible, utilize images that express diversity)
-- [x] Image copyright permissions
-- [x] Check if professional proof-reading required. If yes, initiate and follow-through the entire proecedure
-- [x] Check if it conforms to .md requirements of bssw.io frontend website and not just github
-- [x] Category list (what category will the resource fall under?)
-- [x] Check is tags are set properly for displaying (these are usually at the bottom of the article)
-- [x] Check the document against the preview site
-- [x] We need to have something of the format "By checking this box, author acknowledges and agrees to licensing terms of content they develop here".
+### Style/ formatting
+* Adheres to the style guide for the specific content
+* Logo/image formatting - Please check for this unless style guide is specific instructions
+* Grammar, punctuation, spelling, syntax
+* Validity
+* Check for any prior versions of the same content. If the prior version is very outdated, consider replacing it with this newer content. Please judge on a case-by-case basis.
+* Past events of the same conferences/workshops/etc. are not deleted and just kept as archives.
 
-## A Checklist for Specific Content Criteria
-Based on the type of content, additonal review criteria may come into picture.
-
-### Event
-- [x] Does it conform to event format?  (we havent yet figured out this format)
-- [x] TBD
-
-### Curated Content
-Curated content can be of the following 7 types: book, organization, publication, tutorial, web article, webinar and website
-- [x] Curated content table formatted correctly as per style guide?
-
-##### Book
-- [x] TBD
-
-##### Organization 
-- [x] TBD
-
-##### Publication
-- [x] TBD
-
-##### Tutorial
-- [x] Check if older versions of the tutorial existed on BSSw and are they candidates for removal? Check traffic statistics before removing older tutorials
-
-##### Web article
-- [x] TBD
-
-##### Webinar
-- [x] TBD
-
-##### Website 
-- [x] TBD
-
-### Original Article: 
-
-Original articles can be of the following types: blogs, original experiences, how-to/what-is
-
-##### Blogs and Original experiences
-- [x] Review for senstitive information (this should already have been done by reviewers as well)
-- [x] PI approval (if article talks about anything that can be contrued as sensitive information)
-- [x] TBD
-
-##### How-to and What-is
-- [x] Does it follow the format of the how-to and what-is article? (we havent yet figured out this format)
-- [x] TBD
+### References checked
+* Valid hyperlinks
+* Image copyright permissions 
+* Licensing terms checked  - BSSw.io eventually needs a box that should say "By checking this box, author acknowledges and agrees to licensing terms of content they develop here" 
+* Metadata 
+* Finalize the category(ies) and topic(s) 
+* Sanity check on preview site for overall display
 
 
 
