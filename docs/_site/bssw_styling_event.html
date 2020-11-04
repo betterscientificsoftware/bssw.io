@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Event Styling Specific Guidelines | BSSw.io Editorial Space</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="docs" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> BSSw.io Editorial Space</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://rinkug.github.io/rinku-eb-docs/" target="_blank" rel="noopener">BSSw.io-GitHub</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">BSSw.io Help<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://bssw.io" target="_blank" rel="noopener">BSSw.io Portal</a></li>
+                        
+                        
+                        
+                        <li><a href="https://bssw.io/items/authors/" target="_blank" rel="noopener">BSSw.io Site Contributors</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:info@bssw.io?subject=BSSw.io Editorial team feedback&body=I have some feedback about the Event Styling Specific Guidelines page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Event Styling Specific Guidelines">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle"> </li>
+  
+  
+  
+      
+  
+  <li>
+      <a title="About us" href="#">About us</a>
+      <ul>
+          
+          
+          
+          <li><a title="Introduction" href="index.html">Introduction</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Editorial Board Charter" href="bssw_charter.html">Editorial Board Charter</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Code of Conduct" href="bssw_codeofconduct.html">Code of Conduct</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Editorial Board Current and Emeritus Members" href="bssw_members.html">Editorial Board Current and Emeritus Members</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Editorial Team Responsibilities" href="bssw_teamresponsibilites.html">Editorial Team Responsibilities</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Content Editorial Processes" href="#">Content Editorial Processes</a>
+      <ul>
+          
+          
+          
+          <li><a title="Curated Content Workflow Process" href="bssw_curatedworkflow.html">Curated Content Workflow Process</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Blog Workflow Process" href="bssw_blogworkflow.html">Blog Workflow Process</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Event Workflow Process" href="bssw_eventworkflow.html">Event Workflow Process</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Content Authoring Guidelines" href="#">Content Authoring Guidelines</a>
+      <ul>
+          
+          
+          
+          <li><a title="Content Overview" href="bssw_content_overview.html">Content Overview</a></li>
+          
+          
+          
+          <li class="subfolders">
+              <a title="Content Organization Guidelines     " href="#">Content Organization Guidelines     </a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="Content Placement" href="bssw_content_placement.html">Content Placement</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="File Naming" href="bssw_file_naming.html">File Naming</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+              <a title="Content Styling Guidelines" href="#">Content Styling Guidelines</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="Common Styling Elements for All Resources" href="bssw_styling_common.html">Common Styling Elements for All Resources</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Curated Content Specific Styling" href="bssw_styling_curated.html">Curated Content Specific Styling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Original Article Specific Styling" href="bssw_styling_originalarticles.html">Original Article Specific Styling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="active"><a title="Event Specific Styling" href="bssw_styling_event.html">Event Specific Styling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Metadata Rules" href="bssw_content_metadata.html">Metadata Rules</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Image Handling" href="bssw_content_images.html">Image Handling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Vendor Markdown Documentation" href="bssw_content_vendorspecific.html">Vendor Markdown Documentation</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Content Publishing Guidelines" href="bssw_content_publishing.html">Content Publishing Guidelines</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Content Highlighting Guidelines" href="bssw_content_highlighting.html">Content Highlighting Guidelines</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Event Styling Specific Guidelines</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+    <a target="_blank" rel="noopener" href="https://github.com/rinkug/rinku-eb-docs/tree/master/docs/pages/bssw/bssw_styling_event.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
+   <h2 id="introduction">Introduction</h2>
+
+<p>A event content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: (1) workshops/conferences/deadline/submisison-based events, (2) tutorials/panels/no-submission based events  etc.</p>
+
+<p>The main part of the event article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. The following sections describe the structure and various parts of an event article.</p>
+
+<p>A written event content article must follow the below style guidelines. There are several examples available in the <a href="https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/events">betterscientificsoftware.github.io repository</a> to use as a starting point.</p>
+
+<h2 id="deck-section">Deck Section</h2>
+<p>As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for “Events” and their decks.</p>
+
+<h3 id="deck-text">Deck text</h3>
+<p>Deck text is usually a couple of lines about the event. No images are allowed in the event deck. For all other guidance on the deck text, please see <a href="CommonLayout.md">common layout section</a> of the guide.</p>
+
+<h3 id="deck-attributes">Deck Attributes</h3>
+
+<p><strong>Mandatory deck attributes</strong> that are part of deck for all BSSw.io content. Guidance, specific for “Events” for these common mandatory deck attributes is given below.</p>
+
+<ol>
+  <li><strong>Deck title</strong>: This is the title of the event. In addition to guidelines from the <a href="CommonLayout.md">common layout section</a> of the guide, please also note the following:
+    <ul>
+      <li>Please keep the title timeline-neutral. That means: do not include words like “Call for submissions” etc in the title. The reason being that this BSSw.io event may get updated with archives, videos at a later point. As of July 2020, the titles form a part of the URL and we do not want the URL to change over time.</li>
+      <li>Title can include full event name as well as abbreviation in brackets:  <em>Example</em>: <code class="language-plaintext highlighter-rouge">The Research Software Engineers in HPC Workshop (RSE-HPC-2020)</code></li>
+    </ul>
+  </li>
+  <li><strong>Contributor name</strong>: In addition to guidelines from the <a href="CommonLayout.md">common layout section</a> of the guide, please also note the following:
+    <ul>
+      <li>Please indicate the <em>name of the person</em> who has submitted this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use “BSSw.io team”.</li>
+    </ul>
+    <ul>
+      <li><em>Example</em>: <code class="language-plaintext highlighter-rouge">#### Contributed by BSSw.io team</code></li>
+    </ul>
+  </li>
+  <li><strong>Publication date</strong>, <strong>BSSw Categories</strong>, <strong>BSSw Topics</strong>: There is no specific guidance for these for the event content type. See <a href="CommonLayout.md">common layout section</a> of the guide.</li>
+</ol>
+
+<p><strong>Special deck attributes</strong> are seen right below the deck text. There are four deck attributes specific to events and are listed below. These event deck attributes customize different parts of the deck for the event content type.</p>
+
+<ol>
+  <li><strong>Date</strong>: Date or range of dates when the EVENT is taking place.</li>
+  <li><strong>Location</strong>: Use the word “Virtual” or name of physical location</li>
+  <li><strong>Event Website</strong>: URL to the main event website</li>
+  <li><strong>Organizers</strong>:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))</li>
+</ol>
+
+<p><em>Example:</em></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Date: November 16, 2020</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Location: Online</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Event Website: https://us-rse.org/rse-hpc-2020</code></li>
+</ul>
+
+<h2 id="main-body-section">Main Body Section</h2>
+<h3 id="general-guidelines">General Guidelines</h3>
+<ol>
+  <li>In the body of the event, first level headings should start with <code class="language-plaintext highlighter-rouge">### </code> heading format.</li>
+  <li>Please write the body text in “third person” even if you are copy-pasting it from somewhere. The BSSw.io team is not an organizer of most of these events, hence usage of third-person grammar is essential</li>
+  <li>If you do not plan to update the event in the future, refrain from adding text such as “TBD”, “Coming soon”. In such cases, please rephrase text to point to links where such information may be updated by the third-parties</li>
+  <li>Please add “The <em>current</em> deadline is ….” and “Please see event website for deadline updates” to your text where relevant. The BSSw.io site cannot track and keep updating new deadlines to the event. Use this kind of discretion for the text when you write.</li>
+  <li>As far as you can,  please point people to the main event website (and not to specific pages and links). Specific pages can change over time and cause broken links.</li>
+  <li>Avoid copying ALL details from the event website. Event websites have a lot of specific details which we don’t have to provide on the BSSw.io website.</li>
+</ol>
+
+<h3 id="structure-of-the-main-body">Structure of the main body</h3>
+<p>The usual sections of the body text for  <em>upcoming events</em> has three parts: (1) Short introduction, (2) Event table and (3) Additional information.</p>
+
+<h4 id="1--main-body-introduction">1.  Main body introduction</h4>
+<p>This is text without any heading introducing the event</p>
+
+<h4 id="2-event-table-declaration">2. Event table declaration</h4>
+<p>This table exists to highlight important information about the event such as event date, deadlines, website, registration, archives. Given below is guidance for two types of tables: (1) conference/workshops/similar events, (2) webinars/tutorials/similar events. Most of the BSSw.io event content can be covered by these two tables. Major difference between in the tables: for deadline-based events, we add submission deadline information in the table and for events such as webinars, we add presenter details.</p>
+
+<h5 id="conferencesworkshops">Conferences/Workshops</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Event Information</th>
+      <th style="text-align: left">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Event Name</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge"> [Name of the event](URL), in conjunction with [Name](URL)</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Event Date and Time</td>
+      <td style="text-align: left">yyyy-mm-dd hh:mm timezone Or yyyy-mm-dd - yyyy-mm-dd</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Website</td>
+      <td style="text-align: left">URL</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Submission deadlines</td>
+      <td style="text-align: left">yyyy-mm-dd, any short text. Add “Please see event website for deadline updates.”</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Registration and other Information</td>
+      <td style="text-align: left">URL</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Links to the Recordings and Archives</td>
+      <td style="text-align: left">Please do not use words like TBD here; please add this row only if you know that there are archives available.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="webinarspanelstutorials">Webinars/Panels/Tutorials</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Event Information</th>
+      <th style="text-align: left">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Event Name</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">[Name of the event](URL), in conjunction with [Name](URL)</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Event Date and Time</td>
+      <td style="text-align: left">yyyy-mm-dd hh:mm timezone Or yyyy-mm-dd - yyyy-mm-dd</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Website</td>
+      <td style="text-align: left">URL</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Presenter details</td>
+      <td style="text-align: left">Firstname1 Lastname1 and Firstname2 Lastname2 and ..</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Registration and other Information</td>
+      <td style="text-align: left">URLs, FREE (if the event does not charge any fees, then it should be highlighted)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Links to the Recordings and Archives</td>
+      <td style="text-align: left">Please do not use words like TBD here; please add this row only if you know that there are archives available.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Please add more rows to the table (if you absolutely must). Please do not add empty rows where information is not available.</p>
+
+<h4 id="3-additional-information">3. Additional Information</h4>
+<p>You can add additional information here. If you create sections, please remember to start your first level headings with <code class="language-plaintext highlighter-rouge">###</code>. Below is guidance for two types of events: (1) conference/workshops/similar events, (2) webinars/tutorials/similar events.</p>
+
+<h5 id="conferencesworkshops-1">Conferences/Workshops</h5>
+<p>Usually the following information is added, but depending on the nature of the event, more information can be added</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">### Description</code> : Description of the workshop</li>
+  <li><code class="language-plaintext highlighter-rouge">### Program Topics</code>:  Topics covered in the workshop</li>
+</ul>
+
+<h5 id="webinarspanelstutorials-1">Webinars/Panels/Tutorials</h5>
+<p>Usually the following information is added and is usually sufficient</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">### Abstract</code> : A section with the abstract of the talk to be presented</li>
+  <li><code class="language-plaintext highlighter-rouge">### Author Bios</code>: A section with the author bios</li>
+</ul>
+
+<h2 id="metadata-section">Metadata Section</h2>
+<p>There is no specific guidance for this for the event content type. See <a href="CommonLayout.md">common layout section</a> of the guide.</p>
+
+<h2 id="updating-past-events">Updating Past events</h2>
+<p>Past events may be updated with information pointing to where the presentation, recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.</p>
+
+<h2 id="existing-examples">Existing examples</h2>
+<p>TBD</p>
+
+<h2 id="questions">QUESTIONS</h2>
+<ol>
+  <li>When we add archive information, do we want to state “UPDATED: With presentations, pdf etc etc.”, right on the top of the page below the deck? Or is that not needed?</li>
+</ol>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2020 The Better Scientific Software (BSSw.io) website. All rights reserved. <br />
+ Site last generated: Nov 4, 2020 <br />
+<p><img src="images/company_logo.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>

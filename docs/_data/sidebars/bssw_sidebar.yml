@@ -1,0 +1,122 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: About us
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Editorial Board Charter
+      url: /bssw_charter.html
+      output: web, pdf
+
+    - title: Code of Conduct
+      url: /bssw_codeofconduct.html
+      output: web, pdf
+
+    - title: Editorial Board Current and Emeritus Members
+      url: /bssw_members.html
+      output: web, pdf
+
+    - title: Editorial Team Responsibilities
+      url: /bssw_teamresponsibilites.html
+      output: web, pdf
+
+  - title: Content Editorial Processes
+    output: web, pdf
+    folderitems:
+
+    - title: Curated Content Workflow Process
+      url: /bssw_curatedworkflow.html
+      output: web, pdf
+
+    - title: Blog Workflow Process
+      url: /bssw_blogworkflow.html
+      output: web, pdf
+
+    - title: Event Workflow Process
+      url: /bssw_eventworkflow.html
+      output: web, pdf
+
+  - title: Content Authoring Guidelines
+    output: web, pdf
+    folderitems:
+
+    - title: Content Overview
+      url: /bssw_content_overview.html
+      output: web
+
+      subfolders:
+      - title: Content Organization Guidelines     
+        output: web
+        subfolderitems:
+
+        - title: Content Placement
+          url: /bssw_content_placement.html
+          output: web
+
+        - title: File Naming
+          url: /bssw_file_naming.html
+          output: web, pdf
+
+      - title: Content Styling Guidelines
+        output: web
+        subfolderitems:
+
+        - title: Common Styling Elements for All Resources
+          url: /bssw_styling_common.html
+          output: web
+
+        - title: Curated Content Specific Styling
+          url: /bssw_styling_curated.html
+          output: web
+
+        - title: Original Article Specific Styling 
+          url: /bssw_styling_originalarticles.html
+          output: web
+
+        - title: Event Specific Styling
+          url: /bssw_styling_event.html
+          output: web
+
+        - title: Metadata Rules
+          url: /bssw_content_metadata.html
+          output: web
+
+        - title: Image Handling
+          url: /bssw_content_images.html
+          output: web
+
+        - title: Vendor Markdown Documentation
+          url: /bssw_content_vendorspecific.html
+          output: web
+
+    - title: Content Publishing Guidelines
+      url: /bssw_content_publishing.html
+      output: web, pdf
+
+    - title: Content Highlighting Guidelines
+      url: /bssw_content_highlighting.html
+      output: web, pdf

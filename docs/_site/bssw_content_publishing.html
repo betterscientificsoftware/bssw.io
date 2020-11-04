@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Content Publishing Guidelines | BSSw.io Editorial Space</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="docs" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> BSSw.io Editorial Space</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://rinkug.github.io/rinku-eb-docs/" target="_blank" rel="noopener">BSSw.io-GitHub</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">BSSw.io Help<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://bssw.io" target="_blank" rel="noopener">BSSw.io Portal</a></li>
+                        
+                        
+                        
+                        <li><a href="https://bssw.io/items/authors/" target="_blank" rel="noopener">BSSw.io Site Contributors</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:info@bssw.io?subject=BSSw.io Editorial team feedback&body=I have some feedback about the Content Publishing Guidelines page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Content Publishing Guidelines">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle"> </li>
+  
+  
+  
+      
+  
+  <li>
+      <a title="About us" href="#">About us</a>
+      <ul>
+          
+          
+          
+          <li><a title="Introduction" href="index.html">Introduction</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Editorial Board Charter" href="bssw_charter.html">Editorial Board Charter</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Code of Conduct" href="bssw_codeofconduct.html">Code of Conduct</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Editorial Board Current and Emeritus Members" href="bssw_members.html">Editorial Board Current and Emeritus Members</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Editorial Team Responsibilities" href="bssw_teamresponsibilites.html">Editorial Team Responsibilities</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Content Editorial Processes" href="#">Content Editorial Processes</a>
+      <ul>
+          
+          
+          
+          <li><a title="Curated Content Workflow Process" href="bssw_curatedworkflow.html">Curated Content Workflow Process</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Blog Workflow Process" href="bssw_blogworkflow.html">Blog Workflow Process</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Event Workflow Process" href="bssw_eventworkflow.html">Event Workflow Process</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Content Authoring Guidelines" href="#">Content Authoring Guidelines</a>
+      <ul>
+          
+          
+          
+          <li><a title="Content Overview" href="bssw_content_overview.html">Content Overview</a></li>
+          
+          
+          
+          <li class="subfolders">
+              <a title="Content Organization Guidelines     " href="#">Content Organization Guidelines     </a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="Content Placement" href="bssw_content_placement.html">Content Placement</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="File Naming" href="bssw_file_naming.html">File Naming</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          <li class="subfolders">
+              <a title="Content Styling Guidelines" href="#">Content Styling Guidelines</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a title="Common Styling Elements for All Resources" href="bssw_styling_common.html">Common Styling Elements for All Resources</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Curated Content Specific Styling" href="bssw_styling_curated.html">Curated Content Specific Styling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Original Article Specific Styling" href="bssw_styling_originalarticles.html">Original Article Specific Styling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Event Specific Styling" href="bssw_styling_event.html">Event Specific Styling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Metadata Rules" href="bssw_content_metadata.html">Metadata Rules</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Image Handling" href="bssw_content_images.html">Image Handling</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a title="Vendor Markdown Documentation" href="bssw_content_vendorspecific.html">Vendor Markdown Documentation</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="Content Publishing Guidelines" href="bssw_content_publishing.html">Content Publishing Guidelines</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Content Highlighting Guidelines" href="bssw_content_highlighting.html">Content Highlighting Guidelines</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Content Publishing Guidelines</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+    <a target="_blank" rel="noopener" href="https://github.com/rinkug/rinku-eb-docs/tree/master/docs/pages/bssw/bssw_content_publishing.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
+   <div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> This section needs to bee completed
+and verified. Should we name this content pre-publishing guidelines
+and also included metadata information? Think about how this can
+be organzied better especially after the styling section has been completed.</div>
+
+<h1 id="checklist-for-review-of-content-types">Checklist for review of content types</h1>
+<p>This is a work-in-progress review checkist for all content that goes on the BSSw site. This document is to be used when we are ready with the content and need a final review of the document before publishing it.</p>
+
+<p>Content is of three major types on BSSw: (1) Events, (2) Curated content and (3) Original Article. We discuss the review checklist for these three types of content.</p>
+
+<h2 id="expected-completed-common-checks">Expected Completed Common Checks</h2>
+<p>Following is a list of checks that need to be done before the article reaches the final review stage. These checks are common to all content. Its expected that these checks are completed before we reach the “ready for publish” stage:</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Topic is of interest to readers</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Relevance of the article</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Judging whether an article idea is appropriate for BSSw - This is done when the topic is in backlog column</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Judging the actual content of a contribution i.e PR is acceptable or not - This needs to be done by the reviewers</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Judging whether content is ready for publication - This “content” needs to be done by the reviewers but the auxillary things can be done following this current document.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Document follows style guide</li>
+</ul>
+
+<hr />
+
+<h2 id="a-checklist-for-common-review-criteria">A Checklist for Common Review Criteria</h2>
+<p>Once the document is ready for review, there are some checks that will be common across all the content types. The following is a list of such common review criteria</p>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Spell checks, grammar, punctuation and syntax</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Hyperlinks and their validity</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Gender neutrality checking</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Check “Tone” of the article and whether it fits BSSw policies (its assumed that the article was judged appropriate for BSSw and has hence reached this stage)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Reference checking</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Title format (what is bold?, capitalized?)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Deck format</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Logos/images formatting (where possible, utilize images that express diversity)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Image copyright permissions</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Check if professional proof-reading required. If yes, initiate and follow-through the entire proecedure</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Check if it conforms to .md requirements of bssw.io frontend website and not just github</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Category list (what category will the resource fall under?)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Check is tags are set properly for displaying (these are usually at the bottom of the article)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Check the document against the preview site</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />We need to have something of the format “By checking this box, author acknowledges and agrees to licensing terms of content they develop here”.</li>
+</ul>
+
+<h2 id="a-checklist-for-specific-content-criteria">A Checklist for Specific Content Criteria</h2>
+<p>Based on the type of content, additonal review criteria may come into picture.</p>
+
+<h3 id="event">Event</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Does it conform to event format?  (we havent yet figured out this format)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h3 id="curated-content">Curated Content</h3>
+<p>Curated content can be of the following 7 types: book, organization, publication, tutorial, web article, webinar and website</p>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Curated content table formatted correctly as per style guide?</li>
+</ul>
+
+<h5 id="book">Book</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h5 id="organization">Organization</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h5 id="publication">Publication</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h5 id="tutorial">Tutorial</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Check if older versions of the tutorial existed on BSSw and are they candidates for removal? Check traffic statistics before removing older tutorials</li>
+</ul>
+
+<h5 id="web-article">Web article</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h5 id="webinar">Webinar</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h5 id="website">Website</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h3 id="original-article">Original Article:</h3>
+
+<p>Original articles can be of the following types: blogs, original experiences, how-to/what-is</p>
+
+<h5 id="blogs-and-original-experiences">Blogs and Original experiences</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Review for senstitive information (this should already have been done by reviewers as well)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />PI approval (if article talks about anything that can be contrued as sensitive information)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+<h5 id="how-to-and-what-is">How-to and What-is</h5>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Does it follow the format of the how-to and what-is article? (we havent yet figured out this format)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />TBD</li>
+</ul>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2020 The Better Scientific Software (BSSw.io) website. All rights reserved. <br />
+ Site last generated: Nov 4, 2020 <br />
+<p><img src="images/company_logo.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
