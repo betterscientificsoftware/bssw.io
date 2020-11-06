@@ -26,7 +26,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2020-10-30*
+*Listed in reverse chronological order. Last updated: 2020-11-06*
 
 
 
@@ -34,6 +34,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Reducing Technical Debt with Reproducible Containers*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar046), Tanu Malik (DePaul University), 2020-11-04
 
 
 
@@ -393,11 +401,11 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*What All Codes Should Do:  Overview of Best Practices in HPC Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001), Anshu Dubey (<a href="http://www.anl.gov/">Argonne National Laboratory</a>), 2016-05-04
+- [*What All Codes Should Do:  Overview of Best Practices in HPC Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001), Anshu Dubey (Argonne National Laboratory), 2016-05-04
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2020-10-30
+#### Publication date: 2020-11-06
 
 <!---
 Publish: yes
