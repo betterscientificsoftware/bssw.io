@@ -1,4 +1,4 @@
-repository: rinkug/rinku-eb-docs/tree/master/docs/
+repository: betterscientificsoftware/bssw.io/tree/master/docs
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,11 +12,8 @@ site_title: BSSw.io Editorial Space
 company_name: The Better Scientific Software (BSSw.io) website 
 # this appears in the footer
 
-github_editme_path: rinkug/rinku-eb-docs/tree/master/docs/
+github_editme_path: betterscientificsoftware/bssw.io/tree/master/docs
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-# gitlab_editme_path: rinkug/rinku-eb-docs/tree/master/docs/
-# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 google_analytics:
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
@@ -103,7 +100,7 @@ sidebars:
 - bssw_sidebar
 
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "This is a space for BSSw.io editorial board documents"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
