@@ -31,13 +31,55 @@ required for each panel.
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Panels
-*Listed in reverse chronological order. Last updated: 2020-09-01*
+*Listed in reverse chronological order. Last updated: 2020-11-05*
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+- [*Sustainable Hybrid Approaches*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel006), Katie Antypas (Lawrence Berkeley National Laboratory), David E. Bernholdt (Oak Ridge National Laboratory), Mark Miller (Lawrence Livermore National Laboratory), Hai Ah Nam (Los Alamos National Laboratory),  and Valerie Taylor (Argonne National Laboratory), 2020-10-29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
@@ -51,9 +93,43 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
 - [*Virtual Onboarding and Mentoring*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel004), Helen Cademartori (Lawrence Berkeley National Laboratory), Marcey Kelley (Lawrence Livermore National Laboratory), Jay Lofstead (Sandia National Laboratories), Bethany (Beth) Mccormick (Lawrence Livermore National Laboratory),  and Raj Sankaran (Argonne National Laboratory), 2020-06-30
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
@@ -67,9 +143,43 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
 - [*Challenges Faced by Parents Who are Working Remotely, and Overcoming Them*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel002), Katherine Evans (Oak Ridge National Laboratory), Thomas Evans (Oak Ridge National Laboratory), Madeline Heroux (Step-by-Step Montessori School), Lindsey Hughes (Sandia National Laboratories),  and Stefan Wild (Argonne National Laboratory), 2020-04-24
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
@@ -79,7 +189,7 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 #### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
-#### Publication date: 2020-09-01
+#### Publication date: 2020-11-05
 
 <!---
 Publish: yes
