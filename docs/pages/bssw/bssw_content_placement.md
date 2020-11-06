@@ -17,6 +17,6 @@ Please place your new file in one of the following folders on the site, accordin
 
 Please note that images, including logos and deck images are stored
 in a different independent repository, located [here](https://github.com/betterscientificsoftware/images). We hope to eventually
-move these to the main bssw.ip repository
+move these to the main bssw.io repository
 
 {% include links.html %}
