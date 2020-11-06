@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: BSSw.io-GitHub
-      external_url: https://rinkug.github.io/rinku-eb-docs/
+      external_url: https://github.com/betterscientificsoftware/bssw.io
 
 #Topnav dropdowns
 topnav_dropdowns:
