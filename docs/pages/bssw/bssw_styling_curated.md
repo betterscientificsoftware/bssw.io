@@ -81,9 +81,7 @@ Course hosting website | Name of hosting website such as coursera, youtube, udac
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
 An example includes the following, listed with both GitHub.com and BSSw.io links:
-   * *Understanding Software Testing and How to Make Software Fail*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/SwTestingUdacity.md)
-      * [BSSw.io](https://bssw.io/items/understanding-software-testing-and-how-to-make-software-fail)
+   * *Understanding Software Testing and How to Make Software Fail*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/SwTestingUdacity.md) | [BSSw.io](https://bssw.io/items/understanding-software-testing-and-how-to-make-software-fail)
 _______________________________________________________________________________________
 
 #### Organization
@@ -95,12 +93,8 @@ Website | Link to website, *Format: [URL to website] (url)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * *IDEAS Software Productivity Project*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/IDEASSoftwareProductivityProject.md)
-      * [BSSw.io](https://bssw.io/items/ideas-software-productivity-project)
-   * *Introducing the FORCE11 Software Citation Implementation Working Group*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/FORCE11SoftwareCitationImplementationWorkingGroup.md)
-      * [BSSw.io](https://bssw.io/items/introducing-the-force11-software-citation-implementation-working-group)
+   * *IDEAS Software Productivity Project*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/IDEASSoftwareProductivityProject.md) | [BSSw.io](https://bssw.io/items/ideas-software-productivity-project)
+   * *Introducing the FORCE11 Software Citation Implementation Working Group*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/FORCE11SoftwareCitationImplementationWorkingGroup.md) | [BSSw.io](https://bssw.io/items/introducing-the-force11-software-citation-implementation-working-group)
  ________________________________________________________________________________________________
 
 #### Podcast
@@ -112,12 +106,8 @@ Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firs
 Web links | Links to podcast, *Format: [Name-of-podcast Podcast] (url)*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * *Remote Working in an Agile World*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorkingAgileWorld.md)
-      * [BSSw.io](https://bssw.io/items/remote-working-in-an-agile-world)
-   * *What Makes PSIP Suitable for the Exascale Computing Project?*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PsipPodcast.md)
-      * [BSSw.io](https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project)
+   * *Remote Working in an Agile World*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorkingAgileWorld.md) | [BSSw.io](https://bssw.io/items/remote-working-in-an-agile-world)
+   * *What Makes PSIP Suitable for the Exascale Computing Project?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PsipPodcast.md) | [BSSw.io](https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project)
  ________________________________________________________________________________________________
 
 #### Publication
@@ -129,12 +119,8 @@ Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstna
 Publication | Year, Journal name, DOI with link. *Format: year, journal name, DOI:[url of the DOI] [doi-url)*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * *A Literature Review on the Use of Software Engineering Practices in Science*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ClaimsAboutSoftwareEnginScienceReview.md)
-      * [BSSw.io](https://bssw.io/items/a-literature-review-on-the-use-of-software-engineering-practices-in-science)
-   * *Surveying Test-Driven Development in Scientific Software*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/TestDrivenDevptInScientificSwASurvey.md)
-      * [BSSw.io](https://bssw.io/items/surveying-test-driven-development-in-scientific-software)
+   * *A Literature Review on the Use of Software Engineering Practices in Science*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ClaimsAboutSoftwareEnginScienceReview.md) | [BSSw.io](https://bssw.io/items/a-literature-review-on-the-use-of-software-engineering-practices-in-science)
+   * *Surveying Test-Driven Development in Scientific Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/TestDrivenDevptInScientificSwASurvey.md) | [BSSw.io](https://bssw.io/items/surveying-test-driven-development-in-scientific-software)
  ________________________________________________________________________________________________
 
 #### Tutorial
@@ -146,12 +132,8 @@ Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firs
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * *A Tutorial on Distributed Version Control and Continuous Integration Testing Using GitHub*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DistributedVersionControlAndContinuousIntegrationTesting.md)
-      * [BSSw.io](https://bssw.io/items/a-tutorial-on-distributed-version-control-and-continuous-integration-testing-using-github)
-   * *Introducing Container Mythbusters*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ContainerMythbusters.md)
-      * [BSSw.io](https://bssw.io/items/introducing-container-mythbusters)
+   * *A Tutorial on Distributed Version Control and Continuous Integration Testing Using GitHub*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DistributedVersionControlAndContinuousIntegrationTesting.md) | [BSSw.io](https://bssw.io/items/a-tutorial-on-distributed-version-control-and-continuous-integration-testing-using-github)
+   * *Introducing Container Mythbusters*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ContainerMythbusters.md) |  [BSSw.io](https://bssw.io/items/introducing-container-mythbusters)
  ________________________________________________________________________________________________
 
 #### Webinar
@@ -175,12 +157,8 @@ Website | Link to website, *Format : [website url] (url)
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
  Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * *An Introduction to Creative Commons*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CreativeCommons.md)
-      * [BSSw.io](https://bssw.io/items/an-introduction-to-creative-commons)
-   * *An Introduction to GitHub*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/GitHub.md)
-      * [BSSw.io](https://bssw.io/items/an-introduction-to-github)
+   * *An Introduction to Creative Commons*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CreativeCommons.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-creative-commons)
+   * *An Introduction to GitHub*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/GitHub.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-github)
  ________________________________________________________________________________________________
 
 #### Web article
@@ -192,13 +170,9 @@ Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstna
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * *What Constitutes Constructive Code Critique?*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ConstructiveCodeCritique.md)
-      * [BSSw.io](https://bssw.io/items/what-constitutes-constructive-code-critique)
-   * *Using Personal Kanban for Productivity*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/UsingPersonalKanban.md)
-      * [BSSw.io](https://bssw.io/items/using-personal-kanban-for-productivity)
- ________________________________________________________________________________________________
+   * *What Constitutes Constructive Code Critique?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ConstructiveCodeCritique.md) | [BSSw.io](https://bssw.io/items/what-constitutes-constructive-code-critique)
+   * *Using Personal Kanban for Productivity*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/UsingPersonalKanban.md) | [BSSw.io](https://bssw.io/items/using-personal-kanban-for-productivity)
+
 
 ### Special Tables
 
