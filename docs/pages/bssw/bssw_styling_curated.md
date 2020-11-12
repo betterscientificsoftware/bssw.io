@@ -145,7 +145,7 @@ Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firs
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
  Examples include the following, listed with both GitHub.com and BSSw.io links:
- ** COULD NOT FIND ANY EXAMPLES IN CURATED CONTENT**
+ **COULD NOT FIND ANY EXAMPLES IN CURATED CONTENT**
  ________________________________________________________________________________________________
 
 #### Website
@@ -187,12 +187,8 @@ Websites | Link to websites separated by commas, *Format : [website name1] (url1
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
 Examples include the following, listed with both GitHub and BSSw.io links:
-   * *An Introduction to National RSE Organizations*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/NationalRSEOrgs.md)
-      * [BSSw.io](https://bssw.io/items/an-introduction-to-national-rse-organizations)
-   * *Where and How to Publish CSE Software?*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PublishingCseSw.md)
-      * [BSSw.io](https://bssw.io/items/where-and-how-to-publish-cse-software)
+   * *An Introduction to National RSE Organizations*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/NationalRSEOrgs.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-national-rse-organizations)
+   * *Where and How to Publish CSE Software?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PublishingCseSw.md) | [BSSw.io](https://bssw.io/items/where-and-how-to-publish-cse-software)
  ________________________________________________________________________________________________
 
 #### Multiple resources of the assorted type
@@ -200,12 +196,8 @@ Examples include the following, listed with both GitHub and BSSw.io links:
 Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. 
 
 Examples includes the following, listed with both GitHub and BSSw.io links:
-   * *A Collection of Resources for Sustaining Open Source Software*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/OSSSustainabilityResources.md)
-      * [BSSw.io](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software)
-   * *Resources for Maximizing Remote Working*
-      * [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorking.md)
-      * [BSSw.io](https://bssw.io/items/resources-for-maximizing-remote-working)
+   * *A Collection of Resources for Sustaining Open Source Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/OSSSustainabilityResources.md) | [BSSw.io](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software)
+   * *Resources for Maximizing Remote Working*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorking.md) | [BSSw.io](https://bssw.io/items/resources-for-maximizing-remote-working)
  ________________________________________________________________________________________________
 
 ### Main Body Description
