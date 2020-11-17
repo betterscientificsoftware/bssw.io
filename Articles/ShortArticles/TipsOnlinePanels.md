@@ -44,7 +44,7 @@ References | &nbsp;
 [3]	| [ACM Virtual Conferences: A Guide to Best Practices, J. Matthews et al.](https://people.clarkson.edu/~jmatthew/acm/VirtualConferences_GuideToBestPractices_CURRENT.pdf) <!--, Last retrieved  November 16, 2020. -->
 [4] | [IEEE Virtual Conference Resource Guide and FAQs.](https://www.computer.org/conferences/organize-a-conference/organizer-resources/hosting-a-virtual-event/cs-virtual-event-resource-guide)<!--, Last retrieved on November 16, 2020 -->
 [5]	| [The HPC Best Practices Webinar Series, O. Marques et al](https://doi.org/10.22369/issn.2153-4136/10/1/19)
-[6]	| [How to Produce a Webinar Series*, O. Marques.](https://github.com/betterscientificsoftware/Webinar-Process)<!-- Last retrieved October 28, 2020.-->
+[6]	| [How to Produce a Webinar Series, O. Marques.](https://github.com/betterscientificsoftware/Webinar-Process)<!-- Last retrieved October 28, 2020.-->
 
 
 
