@@ -4,7 +4,7 @@
 #### Publication date: Nov 17, 2020
 
 <!--- deck start --->
-Are you familiar with how to organize online panels? This article presents useful tips for producing online panel discussions.
+Do you want to know what it takes to put in place a series of online panels? This article presents useful tips for producing online panel discussions.
 <!--- deck end --->
 
 
