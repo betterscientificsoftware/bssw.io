@@ -49,7 +49,7 @@ Sandia National Laboratories is a multimission laboratory managed and operated b
 --->
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-11-17
 Categories: collaboration
 Topics: online learning
