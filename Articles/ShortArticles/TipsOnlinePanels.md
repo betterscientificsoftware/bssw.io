@@ -1,4 +1,4 @@
-# Tips for Producing Online Panel Discussions:
+# Tips for Producing Online Panel Discussions
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn)
 #### Publication date: Nov 17, 2020
