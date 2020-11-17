@@ -34,7 +34,8 @@ Finally, remember that online communication is persistent—and as such, panel d
 In conclusion producing a panel discussion is about responding to the audience – their concerns, topics of interest, and energy. The technology platform chosen should account for and make accessibility possible. As the communication is persistent, having high standards and allowing all involved to take pride in their contributions will go far in creating enduring, memorable content. 
 
 
-## Acknowledgements
+**Acknowledgements**
+
 Sandia National Laboratories is a multimission laboratory managed and operated by National Technology and Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International, Inc., for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-NA-0003525.
 
 References | &nbsp;
