@@ -8,6 +8,3 @@ See the [BSSw Style Guide](../../StyleGuide.md) for guidance on naming conventio
 <!---
 Publish: no
 ---!>
-<!---
-None
----!>
