@@ -31,7 +31,7 @@ Ensure content is accessible to all. Provide captioning, and sign language inter
 **Tip #5**: Recordings of online conversations are persistent, make yours memorable.
 Finally, remember that online communication is persistent—and as such, panel discussions can serve as a relevant snapshot in time, or timeless contribution. Each has merit. The most important element is whether your panel discussion is memorable. Will you and your panelists be proud of your contribution over time? Did you do your best to serve your community?
 
-In conclusion producing a panel discussion is about responding to the audience – their concerns, topics of interest, and energy. The technology platform chosen should account for and make accessibility possible. As the communication is persistent, having high standards and allowing all involved to take pride in their contributions will go far in creating enduring, memorable content. 
+In conclusion, producing a panel discussion is about responding to the audience – their concerns, topics of interest, and energy. The technology platform chosen should account for and make accessibility possible. As the communication is persistent, having high standards and allowing all involved to take pride in their contributions will go far in creating enduring, memorable content. 
 
 
 References | &nbsp;
