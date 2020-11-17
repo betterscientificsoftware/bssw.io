@@ -40,12 +40,12 @@ Sandia National Laboratories is a multimission laboratory managed and operated b
 
 References | &nbsp;
 :--- | :---
-[1] | [Strategies for Working Remotely Panel Series, IDEAS-ECP.](https://www.exascaleproject.org/strategies-for-working-remotely/)<!-- , Last retrieved August 19, 2020. -->
+[1] | [Strategies for Working Remotely Panel Series, IDEAS-ECP.](https://www.exascaleproject.org/strategies-for-working-remotely/)
 [2]	| [Scaling productivity & innovation on the path to exascale with a “Team of Teams” approach, E.M. Raybourn et al.](https://link.springer.com/chapter/10.1007/978-3-030-22338-0_39)
-[3]	| [ACM Virtual Conferences: A Guide to Best Practices, J. Matthews et al.](https://people.clarkson.edu/~jmatthew/acm/VirtualConferences_GuideToBestPractices_CURRENT.pdf) <!--, Last retrieved  November 16, 2020. -->
-[4] | [IEEE Virtual Conference Resource Guide and FAQs.](https://www.computer.org/conferences/organize-a-conference/organizer-resources/hosting-a-virtual-event/cs-virtual-event-resource-guide)<!--, Last retrieved on November 16, 2020 -->
+[3]	| [ACM Virtual Conferences: A Guide to Best Practices, J. Matthews et al.](https://people.clarkson.edu/~jmatthew/acm/VirtualConferences_GuideToBestPractices_CURRENT.pdf)
+[4] | [IEEE Virtual Conference Resource Guide and FAQs.](https://www.computer.org/conferences/organize-a-conference/organizer-resources/hosting-a-virtual-event/cs-virtual-event-resource-guide)
 [5]	| [The HPC Best Practices Webinar Series, O. Marques et al.](https://doi.org/10.22369/issn.2153-4136/10/1/19)
-[6]	| [How to Produce a Webinar Series, O. Marques.](https://github.com/betterscientificsoftware/Webinar-Process)<!-- Last retrieved October 28, 2020.-->
+[6]	| [How to Produce a Webinar Series, O. Marques.](https://github.com/betterscientificsoftware/Webinar-Process)
 
 
 
