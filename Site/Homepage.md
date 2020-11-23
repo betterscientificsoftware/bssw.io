@@ -11,12 +11,11 @@ Slide3 L: blog_posts/the-rse-hpc-2020-workshop-creating-community-building-caree
 Slide3 R: images/raw/master/rse-hpe-hero.png
 Slide4 L: blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them
 Slide4 R: images/raw/master/Blog_1019_Hero_1136x432.png
-Slide5 L: events/sc20-software-related-events
+Slide5 L: events/panel-year-in-review-what-have-we-learned-so-far
 Slide5 R: items/software-and-workflow-development
 Slide6 L: items/scientific-software-bloggers-worth-following
 Slide6 R: events/software-sustainability-institute-fellowship-programme-2021
 --->
-
 
 <!---
 LCM: Saving for use again later
