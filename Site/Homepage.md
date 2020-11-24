@@ -6,7 +6,7 @@ GiveThanks.md
 
 <!---
 Slide1 L: blog_posts/give-thanks
-Slide1 R: images/raw/master/items/Blog_1119_seasonal.png
+Slide1 R: images/raw/master/Blog_1119_seasonal.png
 Slide2 L: items/tips-for-producing-online-panel-discussions
 Slide2 R: images/raw/master/Resource_1120_RemotePanel.png
 Slide3 L: blog_posts/recent-successes-with-psip-on-hdf5
