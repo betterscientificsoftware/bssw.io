@@ -4,7 +4,7 @@ Are you a researcher or developer interested in sustaining open source software?
 <!-- deck text end -->
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin)
-#### Publication date: December 20, 2019
+#### Publication date: November 24, 2020
 
 Sustaining a scientific software project is a difficult task.  One
 strategy for sustaining scientific software is to build a community of
@@ -98,7 +98,7 @@ Organization name | National Science Foundation (NSF)
 Website | [NSF](https://www.nsf.gov)
 Focus | Funding science
 
-The *[NSF](https://www.nsf.gov)* offers funding for [Software Infrastructure for Sustained Innovation (SI2)](https://www.nsf.gov/pubs/2016/nsf16532/nsf16532.htm) and has frequent calls for proposals.
+The *[NSF](https://www.nsf.gov)* offers funding for [Software Infrastructure for Sustained Innovation (SI2)](https://www.nsf.gov/pubs/2020/nsf20592/nsf20592.htm) and has frequent calls for proposals.
 
 Resource information | Details 
 :--- | :--- 
