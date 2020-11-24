@@ -13,7 +13,6 @@ Slide4 L: events/panel-year-in-review-what-have-we-learned-so-far
 Slide4 R: items/software-and-workflow-development
 Slide5 L: items/scientific-software-bloggers-worth-following
 Slide5 R: events/software-sustainability-institute-fellowship-programme-2021
-
 --->
 
 <!---
