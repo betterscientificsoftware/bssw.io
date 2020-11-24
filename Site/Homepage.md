@@ -10,9 +10,10 @@ Slide2 R: images/raw/master/Resource_1120_RemotePanel.png
 Slide3 L: blog_posts/recent-successes-with-psip-on-hdf5
 Slide3 R: images/raw/master/Blog_1120_PSIP_HDF5_BlackHole.png
 Slide4 L: events/panel-year-in-review-what-have-we-learned-so-far
-Slide4 R: items/software-and-workflow-development
-Slide5 L: items/scientific-software-bloggers-worth-following
-Slide5 R: events/software-sustainability-institute-fellowship-programme-2021
+Slide4 R: items/a-collection-of-resources-for-sustaining-open-source-software
+Slide5 L: items/software-and-workflow-development
+Slide5 R: items/scientific-software-bloggers-worth-following
+
 --->
 
 <!---
