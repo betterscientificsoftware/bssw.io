@@ -6,7 +6,9 @@
 
 #### Contributed by [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub Profile")
 
-#### Publication date: November 25, 2019
+#### Publication date: November 23, 2020
+
+*Editorial note: Originally published in November 2019, we are re-publishing this thematic article in celebration of the holiday.*
 
 This is the time of year we come together to celebrate everything we are thankful for in our lives.  It's easy to incorporate the spirit of thankfulness at work, too.
     
