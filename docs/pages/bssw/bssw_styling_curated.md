@@ -144,8 +144,8 @@ Webinar title  | List title without hyperlink, *Format: webinar title*
 Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
- Examples include the following, listed with both GitHub.com and BSSw.io links:
- **COULD NOT FIND ANY EXAMPLES IN CURATED CONTENT**
+ Examples include the following: 
+ * *Developing, Configuring, Building, and Deploying HPC Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSwUNPUB.md)
  ________________________________________________________________________________________________
 
 #### Website
@@ -178,7 +178,7 @@ Examples include the following, listed with both GitHub.com and BSSw.io links:
 
 #### Multiple resources of the same type
 
-Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, titled *[An Introduction to Documentation tools](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/DocumentationTools.md)*, located in the curated content directory. In that case, use the following format for the table (below example assumes multiple websites in a single curated content article):
+Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, on *[Documentation tools](https://bssw.io/items/an-introduction-to-documentation-tools)*. In that case, use the following format for the table (below example assumes multiple websites in a single curated content article):
 
 Resource information | Details 
 :--- | :--- 
