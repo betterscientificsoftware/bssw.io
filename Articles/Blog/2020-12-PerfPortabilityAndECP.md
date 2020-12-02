@@ -6,7 +6,7 @@
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
-#### Publication date: December 7, 2020
+#### Publication date: December 4, 2020
 
 A focus on performance portability engendered by heterogeneity in high-performance computing (HPC) platforms has brought the issue of software design to the forefront of computational science with HPC. This article discusses challenges in performance portability and how careful attention to software design is essential to achieving portable performance, especially with an eye toward emerging exascale platforms.
 
@@ -112,4 +112,7 @@ Publish: preview
 Categories: performance, planning
 Topics: design, Performance at leadership computing facilities, Performance portability
 Tags: site
+Level: 2
+Prerequisites: default
+Aggregate: none
 -->
