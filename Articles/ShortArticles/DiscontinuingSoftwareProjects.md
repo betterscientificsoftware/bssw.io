@@ -31,7 +31,7 @@ However, there are a few things project leaders and sponsoring organizations can
 discontinue a software project in such a way that key assets remain aviailable
 for the community.
 
-* Ensure on-line access points have a continued maint. plan
+* Ensure on-line access points have a continued maintinence plan
   * as well as the systems where the below resources are hosted
   * mailing lists
   * issue trackers
