@@ -66,6 +66,11 @@ Book title | Name of the book with hyperlink from a neutral non-vendor website, 
 Authors | Author names in the following format with hyperlink from a  neutral website, if available. *Format: [firstname lastname](url for author1), [firstname lastname](url for author2)*
 Publication | Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13). *Format: year, ISBN1, ISBN2, ISBN3*)
 
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+   * *Complete Code: A Practical Handbook of Software Construction, 2nd Edition*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CodeComplete2ndEdition.md) | [BSSw.io](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
+   * *Working Effectively with Legacy Code*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/WorkingEffectivelyWithLegacyCode.md) | [Bssw.io](https://bssw.io/items/working-effectively-with-legacy-code)    
+ ________________________________________________________________________________________________
+
 #### Course
 
 Resource information | Details 
@@ -75,6 +80,10 @@ Presenters | Presenter names, *Format: [Firstname lastname](url for presenter), 
 Course hosting website | Name of hosting website such as coursera, youtube, udacity. *Format: [name of hosting website](url for course website)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
+An example includes the following, listed with both GitHub.com and BSSw.io links:
+   * *Understanding Software Testing and How to Make Software Fail*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/SwTestingUdacity.md) | [BSSw.io](https://bssw.io/items/understanding-software-testing-and-how-to-make-software-fail)
+_______________________________________________________________________________________
+
 #### Organization
 
 Resource information | Details 
@@ -82,6 +91,11 @@ Resource information | Details
 Organization name | Name of Organization without hyperlink, *Format: Name of the organization*
 Website | Link to website, *Format: [URL to website] (url)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2*
+
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+   * *IDEAS Software Productivity Project*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/IDEASSoftwareProductivityProject.md) | [BSSw.io](https://bssw.io/items/ideas-software-productivity-project)
+   * *Introducing the FORCE11 Software Citation Implementation Working Group*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/FORCE11SoftwareCitationImplementationWorkingGroup.md) | [BSSw.io](https://bssw.io/items/introducing-the-force11-software-citation-implementation-working-group)
+ ________________________________________________________________________________________________
 
 #### Podcast
 
@@ -91,6 +105,11 @@ Podcast title  | Name of the tutorial without hyperlink, *Format: Name of the tu
 Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*
 Web links | Links to podcast, *Format: [Name-of-podcast Podcast] (url)*
 
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+   * *Remote Working in an Agile World*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorkingAgileWorld.md) | [BSSw.io](https://bssw.io/items/remote-working-in-an-agile-world)
+   * *What Makes PSIP Suitable for the Exascale Computing Project?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PsipPodcast.md) | [BSSw.io](https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project)
+ ________________________________________________________________________________________________
+
 #### Publication
 
 Resource information | Details
@@ -98,6 +117,11 @@ Resource information | Details
 Paper title  | Title of paper without hyperlink, *Format: publication title*
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* 
 Publication | Year, Journal name, DOI with link. *Format: year, journal name, DOI:[url of the DOI] [doi-url)*
+
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+   * *A Literature Review on the Use of Software Engineering Practices in Science*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ClaimsAboutSoftwareEnginScienceReview.md) | [BSSw.io](https://bssw.io/items/a-literature-review-on-the-use-of-software-engineering-practices-in-science)
+   * *Surveying Test-Driven Development in Scientific Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/TestDrivenDevptInScientificSwASurvey.md) | [BSSw.io](https://bssw.io/items/surveying-test-driven-development-in-scientific-software)
+ ________________________________________________________________________________________________
 
 #### Tutorial
 
@@ -107,6 +131,11 @@ Tutorial title  | Name of the tutorial without hyperlink, *Format: tutorial titl
 Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)* OR  tutorial-hosting website website name, *Format: [website-name] ( website-url)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
 
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+   * *A Tutorial on Distributed Version Control and Continuous Integration Testing Using GitHub*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DistributedVersionControlAndContinuousIntegrationTesting.md) | [BSSw.io](https://bssw.io/items/a-tutorial-on-distributed-version-control-and-continuous-integration-testing-using-github)
+   * *Introducing Container Mythbusters*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ContainerMythbusters.md) |  [BSSw.io](https://bssw.io/items/introducing-container-mythbusters)
+ ________________________________________________________________________________________________
+
 #### Webinar
 
 Resource information | Details 
@@ -114,6 +143,10 @@ Resource information | Details
 Webinar title  | List title without hyperlink, *Format: webinar title*
 Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Web links | Links to slides, slide-synced audio, video, or link to website course etc. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)*
+
+ Examples include the following: 
+ * *Developing, Configuring, Building, and Deploying HPC Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSwUNPUB.md)
+ ________________________________________________________________________________________________
 
 #### Website
 
@@ -123,6 +156,11 @@ Resource name | Name of website, *Format: website name*
 Website | Link to website, *Format : [website url] (url)
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
+ Examples include the following, listed with both GitHub.com and BSSw.io links:
+   * *An Introduction to Creative Commons*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CreativeCommons.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-creative-commons)
+   * *An Introduction to GitHub*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/GitHub.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-github)
+ ________________________________________________________________________________________________
+
 #### Web article
 
 Resource information | Details
@@ -131,13 +169,16 @@ Article title  | Title of the article with hyperlink, *Format:  [title of articl
 Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
-Example of resourcee table declaration for a web article: [A Checklist for Better Open Source Libraries](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/ChecklistForBetterOpenSourceLibraries.md)
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+   * *What Constitutes Constructive Code Critique?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ConstructiveCodeCritique.md) | [BSSw.io](https://bssw.io/items/what-constitutes-constructive-code-critique)
+   * *Using Personal Kanban for Productivity*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/UsingPersonalKanban.md) | [BSSw.io](https://bssw.io/items/using-personal-kanban-for-productivity)
+
 
 ### Special Tables
 
 #### Multiple resources of the same type
 
-Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, titled *[An Introduction to Documentation tools](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/DocumentationTools.md)*, located in the curated content directory. In that case, use the following format for the table (below example assumes multiple websites in a single curated content article):
+Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, on *[Documentation tools](https://bssw.io/items/an-introduction-to-documentation-tools)*. In such cases, please use the following table format.
 
 Resource information | Details 
 :--- | :--- 
@@ -145,9 +186,19 @@ Resource name | Text that describes the overall websites. *Format: Brief 2-3 wor
 Websites | Link to websites separated by commas, *Format : [website name1] (url1), [website name2] (url2)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
+Examples include the following, listed with both GitHub and BSSw.io links:
+   * *An Introduction to National RSE Organizations*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/NationalRSEOrgs.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-national-rse-organizations)
+   * *Where and How to Publish CSE Software?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PublishingCseSw.md) | [BSSw.io](https://bssw.io/items/where-and-how-to-publish-cse-software)
+ ________________________________________________________________________________________________
+
 #### Multiple resources of the assorted type
 
-Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. An example of this is the curated content article, titled *[A Collection of Resources for Sustaining Open Source Software](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/OSSSustainabilityResources.md)*, located in the curated content directory
+Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. 
+
+Examples includes the following, listed with both GitHub and BSSw.io links:
+   * *A Collection of Resources for Sustaining Open Source Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/OSSSustainabilityResources.md) | [BSSw.io](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software)
+   * *Resources for Maximizing Remote Working*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorking.md) | [BSSw.io](https://bssw.io/items/resources-for-maximizing-remote-working)
+ ________________________________________________________________________________________________
 
 ### Main Body Description
 
@@ -161,11 +212,6 @@ All references across all content types are handled in the same way; hence pleas
 
 ## Metadata Section
 There is no specific guidance for this for the event content type. See [common layout section](CommonLayout.md) of the guide.
-
-
-## Existing Examples
-TBD
-
 
 
 {% include links.html %}
