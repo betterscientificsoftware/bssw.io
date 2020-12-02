@@ -6,14 +6,14 @@
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
-#### Publication date: TBD
+#### Publication date: December 7, 2020
 
 A focus on performance portability engendered by heterogeneity in high-performance computing (HPC) platforms has brought the issue of software design to the forefront of computational science with HPC. This article discusses challenges in performance portability and how careful attention to software design is essential to achieving portable performance, especially with an eye toward emerging exascale platforms.
 
 
 ### Introduction
 *Performance portability* is a topic that elicits a mixed response in most
-settings. Domains scientists want performance portability in their codes and would really
+settings. Domain scientists want performance portability in their codes and would really
 like if it could become magically possible without taxing 
 their development resources. Computational scientists would also ideally like to be able
 to squeeze the last bit of performance from whichever platform they
@@ -44,11 +44,9 @@ and Oak Ridge National Laboratories), setting the stage for the
 discussion. Next followed four panels organized around common
 themes of algorithms and data locality challenges. Panelists were a
 mix of applications developers and hardware and software experts along
-with leadership of the ECP. A presentation about the panel is available at: 
-10.6084/m9.figshare.13283714  **LINK NOT WORKING **
-<!--
-Please check link - not valid.
--->
+with leadership of the ECP. A presentation about the panel is available [1].
+
+
 
 One trend that emerged from the panel series is that a form of
 "conservation of trouble" is at play. If the application interface
@@ -75,8 +73,8 @@ design has become critical for scientific software of modest to high
 complexity running on even modestly high-performance
 platforms. Business as usual with solving only the next challenge
 right in front of one's nose has become an untenable approach that is
-also wasteful of resources.  An [analysis of the impact of design
-investment in the multiphysics code FLASH](https://doi.org/10.1177/1094342017747692) clearly shows immense
+also wasteful of resources.  An analysis of the impact of design
+investment in the multiphysics code FLASH [2] clearly shows immense
 benefits for code robustness, reliability and sustainability. An added
 benefit was expansion of the code to several science communities that
 were saved from having to invest their own resources in developing
@@ -87,9 +85,17 @@ design. While we still do not have conclusive answers to what a good design
 is, we know that it ultimately comes down to first knowing and
 understanding a code’s data access and movement patterns, and then using the
 abstraction tool-chain to express those localities appropriately. The
-webinar "Software Design for Longevity with
-Performance Portability" elaborates on some design principles that
+webinar 'Software Design for Longevity with
+Performance Portability" [3] elaborates on some design principles that
 are definitely necessary, though not sufficient.
+
+
+References | &nbsp;
+:--- | :---
+[1] | [Findings from the ECP Performance Portability Panel Series, A. Dubey et al,  Nov 2020](https://doi.org/10.6084/m9.figshare.13283714)
+[2]	| [The dividends of investing in computational software design: A case study, A. Dubey, P. Tzefereacos, D. Lamb, IJHPCA, 2019](https://doi.org/10.1177/1094342017747692) 
+[3] | [Software Design for Longevity with Performance Portability, A. Dubey, Dec 9, 2020](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar047)
+
 
 ### Author bio
 Anshu Dubey is a computer scientist in the Mathematics and computer
@@ -102,11 +108,8 @@ interested in all aspects of HPC scientific software, with special
 emphasis on design, productivity, and sustainability issues.
 
 <!--
-Publish: no
-Categories: performance
-Topics: High-performance computing (HPC), Performance at leadership computing facilities, Performance portability
+Publish: preview
+Categories: performance, planning
+Topics: design, Performance at leadership computing facilities, Performance portability
 Tags: site
-Level: 2
-Prerequisites: default
-Aggregate: none
 -->
