@@ -178,7 +178,7 @@ Examples include the following, listed with both GitHub.com and BSSw.io links:
 
 #### Multiple resources of the same type
 
-Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, on *[Documentation tools](https://bssw.io/items/an-introduction-to-documentation-tools)*. In that case, use the following format for the table (below example assumes multiple websites in a single curated content article):
+Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, on *[Documentation tools](https://bssw.io/items/an-introduction-to-documentation-tools)*. In such cases, please use the following table format.
 
 Resource information | Details 
 :--- | :--- 
