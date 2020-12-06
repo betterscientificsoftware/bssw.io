@@ -33,7 +33,7 @@ an active testbed for all things connected to performance
 portability. ECP is unique in providing adequate resources to various
 science teams to make good choices if they knew what they were. The
 trouble is that when ECP began several years ago,  little was known about
-what constituted good choices, so the majority of teams have been
+what constituted good choices for achieving performance portability, so the majority of teams have been
 experimenting. Now with more than three years into the project, some
 trends have become visible, and a great deal of wisdom has been
 collected. In the summer of 2020 the IDEAS-ECP project organized a series
