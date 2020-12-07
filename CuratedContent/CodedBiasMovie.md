@@ -1,4 +1,4 @@
-# Be sure to catch a viewing of *Coded Bias*
+# *Coded Bias:* A Film that Highlights Issues with Bias in AI Software
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
 #### Publication date: Dec 15, 2020
