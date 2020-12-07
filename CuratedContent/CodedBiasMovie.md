@@ -7,7 +7,7 @@ Resource information | Details
 :--- | :--- 
 Resource name | *Coded Bias*, the movie
 Website | https://www.codedbias.com
-Focus | Social justice issues resulting from bias in software
+Focus | Social implications and impacts of bias in software
 
 Just as the FDA regulates and oversees the safety, effectiveness and quality of
 *vaccines*, there needs to be an FDA for *algorithms*. This is one of the take-aways
