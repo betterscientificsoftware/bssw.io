@@ -31,12 +31,13 @@ in the police use of its facial recognition software and
 [Congress proposed a ban](https://www.markey.senate.gov/news/press-releases/senators-markey-and-merkley-and-reps-jayapal-pressley-to-introduce-legislation-to-ban-government-use-of-facial-recognition-other-biometric-technology)
 on facial recognition software.
 
-The film showcases Buolamwini's work and describes several others, gives several examples of bias
-in AI and how that bias negatively impacts the lives of real people. It also describes cases
-where big-data algorithms have demonstrated an ability to abruptly influence the real world behavior
-of millions of individuals. Buolamwini warns that algorithmic justice poses a great threat to
-civil rights. The film is informative and thought-provoking and well worth the time to view. It
-is an especially useful resource for anyone in HPC/CSE looking to add to their Inclusion toolbox.
+The film showcases Buolamwini's work and interviews several other experts, all women. It gives
+several examples of bias in AI and how that bias negatively impacts the lives of real people. It
+also describes cases where big-data algorithms have demonstrated an ability to abruptly influence
+the real world behavior of millions of individuals. Buolamwini warns that algorithmic justice poses
+a great threat to civil rights. The film is informative and thought-provoking and well worth the
+time to view. It is an especially useful resource for anyone in HPC/CSE looking to add to their
+Inclusion toolbox.
 
 It can be viewed at a number of [virtual cinemas](https://www.codedbias.com/virtualcinema). There
 is a [free screening](https://www.meetup.com/AI-LA-Meetup/events/274929071/) available until
