@@ -102,7 +102,7 @@ interested in all aspects of HPC scientific software, with special
 emphasis on design, productivity, and sustainability issues.
 
 <!--
-Publish: preview
+Publish: yes
 Categories: performance, planning
 Topics: design, Performance at leadership computing facilities, Performance portability
 Tags: site
