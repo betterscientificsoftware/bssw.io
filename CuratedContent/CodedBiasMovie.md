@@ -5,7 +5,7 @@
 
 Resource information | Details
 :--- | :--- 
-Resource name | *Coded Bias*, the movie
+Resource name | Coded Bias, the movie
 Website | https://www.codedbias.com
 Focus | Social implications and impacts of bias in software
 
