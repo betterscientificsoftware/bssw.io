@@ -21,7 +21,7 @@ applicable to any software used in decision support, including for example,
 scientific computing software.
 
 Some of the key take-aways are
-  * We should beware of the tendancy to believe automated algorithms are objective.
+  * We should beware of the tendancy to believe, sometimes falsely, automated algorithms are objective.
   * Just as the FDA regulates and oversees the safety, effectiveness and quality of
     *vaccines*, there needs to be an FDA for *algorithms*.
   * Algorithmic justice poses a significant threat to civil rights.
