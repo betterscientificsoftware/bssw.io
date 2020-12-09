@@ -43,3 +43,12 @@ Buolamwini warns that algorithmic justice poses a great threat to civil rights.
 It can be viewed at a number of [virtual cinemas](https://www.codedbias.com/virtualcinema). There
 is a [free screening](https://www.meetup.com/AI-LA-Meetup/events/274929071/) available until
 December 14th 2020.
+
+<!---
+Publish: preview
+Pinned: no
+RSS update:
+Categories: skills
+Topics: personal productivity and sustainability
+--->
+
