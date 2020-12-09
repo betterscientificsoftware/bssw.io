@@ -1,10 +1,15 @@
 # Rate Your Project: A New Approach to Assessing Project Software Practices 
 
+<!-- deck text start-->
+
+Are you wondering how to embark and start improving your project's software processes and practices? This articles shares somes experiences which may help you get started.
+<!-- deck text end  -->
+
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_RateYourProjectPoster_20200310.png'/>
 
 #### Contributed by [Gregory Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile")
 
-#### Publication date: December 15, 2020
+#### Publication date: December 05, 2020
 
 ### The key is getting started
 
@@ -15,7 +20,7 @@ Improvement Planning (PSIP) has been to conducting interviews to assess existing
 and then facilitate the development of a strategy for improvement using Progress Tracking Cards (PTCs). 
 This approach has been successful, but is very resource and time intensive, something that is always in short supply for the teams (and ourselves). 
 
-### A simpler approach
+### A simple approach
 
 The [Exascale Computing Project Annual General Meeting](https://ecpannualmeeting.com), held in 2020, was a great opportunity to trial an alternative approach to self assessment, one that would hopefully be a lot less resource intensive. We also decided to make the process as fun and interesting as possible in
 order to encourage teams to participate. To this end, we created an interactive poster based on three 
@@ -61,14 +66,10 @@ assisting projects improve their software practices using PSIP and progress trac
 Gregory Watson is a Senior Research Scientist in the Research Software Engineering Group at Oak Ridge National Laboratory. His research interests include software engineering practices, development environments, programming tools, and modeling and simulation tools for high performance and scientific computing. He is a senior member of the IEEE and chair of the IEEE Computer Society Schenctady Section in New York.
 
 <!---
-Publish: no
-RSS update: 2020-03-15
+Publish: preview
+Pinned: no
+RSS update: 2020-12-5
 Categories: Planning, Collaboration
 Topics: Software Engineering, Projects and Organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->
-
 
