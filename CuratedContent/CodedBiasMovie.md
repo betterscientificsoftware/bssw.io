@@ -1,4 +1,5 @@
-# *Coded Bias:* A Film Highlighting Issues of Bias in AI Software
+# Coded Bias: A Film Highlighting Issues of Bias in AI Software
+
 <!-- deck text start -->
 The more scientific software is used in decision support, the more
 serious the effects of unintended bias become up to and including
