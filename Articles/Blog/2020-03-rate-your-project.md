@@ -26,7 +26,7 @@ supply for the teams (and ourselves).
 
 ### A simpler approach
 
-The recent Exascale Computing Project Annual General Meeting (https://ecpannualmeeting.com) was a great
+The Exascale Computing Project Annual General Meeting (https://ecpannualmeeting.com), held in 2020, was a great
 opportunity to trial an alternative approach to self assessment, one that would hopefully be a lot less
 resource intensive. We also decided to make the process as fun and interesting as possible in
 order to encourage teams to participate. To this end, we created an interactive poster based on three 
