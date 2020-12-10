@@ -1,4 +1,5 @@
 # Rate Your Project: A New Approach to Assessing Project Software Practices (UNPUBLISHED)
+<!-- This blog/short-article is incomplete and may have further additions in the future, as per the author. It is kept as a placeholder since it has a lot of content that we want to retain incase we publish an enhanced version in the future -->
 
 <!-- deck text start-->
 
