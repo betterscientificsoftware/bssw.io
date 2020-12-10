@@ -46,9 +46,9 @@ is a [free screening](https://www.meetup.com/AI-LA-Meetup/events/274929071/) ava
 December 14th 2020.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
-RSS update:
+RSS update: 2020-09-12
 Categories: skills
 Topics: personal productivity and sustainability
 --->
