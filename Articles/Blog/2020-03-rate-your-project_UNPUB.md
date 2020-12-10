@@ -1,4 +1,4 @@
-# Rate Your Project: A New Approach to Assessing Project Software Practices 
+# Rate Your Project: A New Approach to Assessing Project Software Practices (UNPUBLISHED)
 
 <!-- deck text start-->
 
@@ -66,9 +66,9 @@ assisting projects improve their software practices using PSIP and progress trac
 Gregory Watson is a Senior Research Scientist in the Research Software Engineering Group at Oak Ridge National Laboratory. His research interests include software engineering practices, development environments, programming tools, and modeling and simulation tools for high performance and scientific computing. He is a senior member of the IEEE and chair of the IEEE Computer Society Schenctady Section in New York.
 
 <!---
-Publish: preview
+Publish: no
 Pinned: no
-RSS update: 2020-12-5
+RSS update: 
 Categories: Planning, Collaboration
 Topics: Software Engineering, Projects and Organizations
 --->
