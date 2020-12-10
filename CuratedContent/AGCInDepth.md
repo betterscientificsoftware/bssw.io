@@ -27,4 +27,4 @@ saved the Apollo 14 mission.
 This article is probably the best and most detailed description of the AGC
 hardware available on line short of buying the book,
 [The Apollo Guidance Computer Architecture and Operation](https://www.springer.com/gp/book/9781441908766) also authored
-by Frank O'Brien.
+by Frank O'Brien or pouring over the original, [1960s era documentation](https://www.ibiblio.org/apollo/).
