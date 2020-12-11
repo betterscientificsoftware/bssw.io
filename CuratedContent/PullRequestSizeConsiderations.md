@@ -44,8 +44,8 @@ possible and even when it is, it can impose impractical burdens on the submitter
 Consider the changes needed to migrate a large code base from Autotools to CMake for
 example. When this was undertaken in VisIt in 2009,
 [250K lines of code across 2,800+ files](https://github.com/visit-dav/visit/commit/4c9f66cdbbd0d311e24023da441024cf85de936b).
-were changed. To split this across multiple PRs and branches (**note:** binary
-content in VisIt's Subversion repo at the time would have made this near impossible),
+were changed. To split this across multiple PRs and branches (**note:**
+[binary content in VisIt's Subversion repo at the time](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) would have made this near impossible),
 the team could have agreed to permit both build systems to temporarily co-exist
 in the main line of development during a period of tansition. While rest of the team
 continued to operate on Autotools (perhaps even changing Autotools build logic),
