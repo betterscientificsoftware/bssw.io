@@ -5,7 +5,7 @@ An in-depth article on Apollo Guidance Computer (AGC) hardware for those readers
 <!-- deck text end --> 
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
-#### Publication date: Dec 12, 2020
+#### Publication date: Dec 15, 2020
 
 Resource information | Details
 :--- | :--- 
