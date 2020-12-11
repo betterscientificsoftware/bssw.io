@@ -27,7 +27,7 @@ of PR size on software quality and productivity are...
 [B](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf))
 have research showing an inverse correlation between PR size and defect rate.
 * The larger the PR, the more it encourages already overburden reviewers to give it only
-a cursory (rubber-stamp) review instead of a thorough one which sort of defeats the whole
+a cursory (rubber-stamp) review instead of a thorough one defeating the whole
 purpose of peer review.
 * The larger the PR, the harder it is for a reviewer to schedule the time to review it. 
 * The good houskeeping approach to work ("While I am here fixing problem A, let me go ahead
@@ -35,46 +35,43 @@ and also fix problem B) leads to mixing independent work in the same PR and to l
 
 It is a best practice to keep PRs small. The smaller the better. When many changes
 are necessary as might be the case for a major feature enhancement or a large
-refactoring effort, it is a best practice to spread the changes over many PRs,
+refactoring effort, it is a best practice to spread the changes over multiple PRs,
 each one representing an independently useful, value-added contribution to the code
 base and which builds towards the ultimate enhancement or refactor goal. But,
-planning and implementing the software changes in this way is not always easily
+planning and implementing large software changes in this way is not always easily
 possible and even when it is, it can impose impractical burdens on the submitter.
 
-For example consider migrating a large code base from Autotools to CMake.
-When this work was undertaken on VisIt in 2009, 2,800+ files were changed as part
-of a single merge commit in Subversion. But, this work could have been structured
-across multiple PRs and branches (not
-the way Subversion worked for us) by making the both CMake and Autotools live
-together within the code base for a period of time. Building with CMake would
-have been optional and initially, not very functional whereas continuing to 
-build with Autotools would be still supported.
+Consider the changes needed to migrate a large code base from Autotools to CMake for
+example. When this was undertaken in VisIt in 2009,
+[250K lines of code across 2,800+ files](https://github.com/visit-dav/visit/commit/4c9f66cdbbd0d311e24023da441024cf85de936b).
+were changed. To split this across multiple PRs and branches (**note:** binary
+content in VisIt's Subversion repo at the time would have made this near impossible),
+the team could have agreed to permit both build systems to temporarily co-exist
+in the main line of development during a period of tansition. While rest of the team
+continued to operate on Autotools (perhaps even changing Autotools build logic),
+the developer(s) handling the migration to CMake could have structured the changes
+to take the main line code base through several intermediate states...
 
-* Autotools + CMake (optional) doing only checks and no building
-* Autotools + CMake (optional) building a small portion of the code base with either
-* Autotools + CMake (optional) building a larger portion of the code base with either 
-* Autotools + CMake (optional) building the whole code base with either
+* CMake doing some checks and no building
+* CMake doing more checks and optionally building a small portion of the code base
+* CMake doing more checks and optionally building a larger portion of the code base
+* CMake doing all checks and optionally building the whole code base
 * Autotools removed and CMake no longer optional
 
-The code base might remain in an intermediate state (Autotools + CMake optional for
+No releases would be permitted until the last state was complete. The code base might
+remain in an intermediate state (Autotools + CMake optional for
 some parts) for some mutually agreed upon period of time without harm. All developers,
 except the submitter, continue to operate doing business with Autotools. If one of those
-developers makes changes to a part of the Autotools build system that has already been
-ported to CMake, that will have to be revisited.
+developers changes parts of the Autotools build logic that has already been ported to
+CMake, that work will have to be revisited.
 
 There is probably a small amount of software engineering required to enable the code
 base to operate in this intermediate state for a period of time and the effort to
 develop and maintain that is worth the impact it has on enabling smaller chunks of
-work.
+work to be reviewed and integrated into the main line of development.
 
 Suppose some converted a routine from Fortran to C and there are
 several instances of off-by-one indexing errors, each a one-line fix. Does
 it make sense to split each into its own PR? If the overhead involved in
 creating branches, running any local checks, etc. is high, the inclination
 is to 
-
-Depending on experience including potentially negative past experiences with
-*branching* logistics in other VCSs, its an all too common practice for 
-developers to combine many small, isolated, self-contained changes to be
-glommed together into a single PR.
-
