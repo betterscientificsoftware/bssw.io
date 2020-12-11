@@ -8,8 +8,6 @@
 
 **URL:** https://millionconcepts.com/ 
 
-**LinkedIn:** 
-
 **Github:** https://github.com/millionconcepts 
 
 **Short Bio:** Project management best practices for research software
