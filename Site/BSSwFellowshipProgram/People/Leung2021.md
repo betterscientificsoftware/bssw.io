@@ -6,7 +6,7 @@
 
 **Image:** /images/blob/master/People_Leung.jpg
 
-**URL:** http://SHInstitute.org 
+**URL:** http://shinstitute.org/category/our-team2/
 
 **LinkedIn:** https://www.linkedin.com/in/maleung/ 
 
