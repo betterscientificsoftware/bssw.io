@@ -6,7 +6,7 @@
 
 **Image:** /images/blob/master/People_Million.jpg
 
-**URL:** https://millionconcepts.com/ 
+**URL:** https://millionconcepts.com/about.html
 
 **Github:** https://github.com/millionconcepts 
 
