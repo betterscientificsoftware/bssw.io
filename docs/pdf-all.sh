@@ -1,1 +1,0 @@
-. pdf-bssw.sh;
