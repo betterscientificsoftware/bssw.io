@@ -13,9 +13,7 @@ the impact of PR size on productivity.
 
 Resource information | Details
 :--- | :--- 
-Film name | Coded Bias
-Presenter(s) | [Joy Buolamwini](https://en.wikipedia.org/wiki/Joy_Buolamwini), [Cathy O’Neil](https://en.wikipedia.org/wiki/Cathy_O%27Neil), [Safiya Umoja Noble](https://safiyaunoble.com), and others
-Website | https://www.codedbias.com
+foo | bar
 
 A Pull Request (PR) is a batch of code changes on one branch of development
 submitted for review prior to merging into another branch. Some of the impacts
