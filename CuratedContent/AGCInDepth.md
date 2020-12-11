@@ -19,3 +19,10 @@ For the 50th Anniversary of Apollo 11, in 2019, the [BSSw.io](https://bssw.io) s
 
 In [part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap), [part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github) and [part 3](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space), of the aforementioned blog series, we described the hardware and software for AGC and also focused on applications by recounting the users' stories in applying the AGC to achieve Apollo mission objectives. Those who found the 3 part blog series interesting may want to read [this recent article](https://arstechnica.com/science/2020/01/a-deep-dive-into-the-apollo-guidance-computer-and-the-hack-that-saved-apollo-14/) by Apollo historian [Frank O'Brien](https://www.hq.nasa.gov/alsj/franko.html) providing an in-depth description of the AGC architecture and the *hack* that saved the Apollo 14 mission. 
 This article is probably one of the best and most detailed description of the AGC hardware available on line short of buying the book, [The Apollo Guidance Computer Architecture and Operation](https://www.springer.com/gp/book/9781441908766) also authored by Frank O'Brien or pouring over the original, [1960s era documentation](https://www.ibiblio.org/apollo/).
+
+<!---
+Publish: preview
+Categories: performance, planning
+Topics: design, performance portability
+--->
+
