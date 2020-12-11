@@ -437,7 +437,7 @@ $('#toc').on('click', 'a', function() {
 <p>A Curated content is a brief article that highlights other web-based
 content/resources. The written article should describe why the CSE
 community might find value in the linked content. A curated content
-article can highlight several resources, including the following: book, organization, publication, tutorial, web article, webinar and website.</p>
+article can highlight several types of resources, including the following: book, organization, publication, tutorial, web article, webinar and website.</p>
 
 <p>The following figure shows different parts of a curated content article.</p>
 
@@ -458,62 +458,49 @@ to use as a starting point.</p>
 parts: (1) deck text and (2) deck attributes.</p>
 
 <h3 id="deck-text">Deck text</h3>
-<p>Deck text is usually a couple of lines about the event. Most of
-these items are decribed in the <a href="CommonLayout.md">common layout section</a>
-of the guide. No images are allowed in the deck.</p>
-
+<p>Deck text is usually a couple of lines about the content. Follow the guidance in the <a href="CommonLayout.md">common layout section</a>. No images are allowed in the deck section of curated content.</p>
 <ul>
   <li>
     <table>
       <tbody>
         <tr>
-          <td><em>Complete Code: A Practical Handbook of Software Construction, 2nd Edition</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CodeComplete2ndEdition.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction">BSSw.io</a></td>
+          <td><strong>Example:</strong> If it is a publication, the deck text can start with “The <em>title of article</em> article, published in the <em>journal name</em> in alphabetic month, year, explores….”. For ex: The <em>Best Practices for Scientific Computing</em> article, published in the <em>PLOS Biology journal</em> in Jan 2014, explores etc.</td>
         </tr>
       </tbody>
     </table>
   </li>
-  <li><strong>Example:</strong> If it is a publication, the deck text can start with
-“The <em>title of article</em> article, published in the <em>journal name</em>
-in alphabetic month, year, explores….”. For ex: The <em>Best Practices
-for Scientific Computing</em> article, published in the <em>PLOS Biology
-journal</em> in Jan 2014, explores etc. |</li>
 </ul>
 
 <h3 id="deck-attributes">Deck Attributes</h3>
 
-<p>The deck for curated content contains the title of the article, deck resource text, contributor names, publication date, BSSw.io categories and topics that the article falls under.</p>
-
-<p><strong>Mandatory deck attributes</strong> that are part of deck for all BSSw.io content are listed below. Guidance, specific for “curated content” for these common mandatory deck attributes is given below. There are no <em>special deck attributes</em> for this content type.</p>
+<p>The deck for curated content contains the title of the article,
+deck text, contributor names, publication date, BSSw.io
+categories and topics that the article falls under. These are all
+mandatory deck attributes and apply to all content on BSSw.io. We dont have any special deck attributes for curated content.</p>
 
 <ol>
-  <li><strong>Deck Title</strong>: In addition to guidelines from the <a href="CommonLayout.md">common layout section</a> of the guide, please also note the following:
-    <ul>
-      <li>Maintaining consistency with titles across articles is good. For ex: “An Introduction to…” for organizations or website, if it makes sense.</li>
-    </ul>
+  <li>
+    <p><strong>Deck Title</strong>: Refer to <a href="CommonLayout.md">common layout section</a>
+of the guide. Please note  that maintaining consistency with titles
+across articles is good. For ex: Start title with “An Introduction to…” for
+organizations or website, if it makes sense.</p>
   </li>
-  <li><strong>Contributor name</strong>: In addition to guidelines from the <a href="CommonLayout.md">common layout section</a> of the guide, please also note the following:
-    <ul>
-      <li>Please indicate the <em>name of the person</em> who is <em>writing</em> this content for inclusion on the BSSw site. In case of unresolved ambiguity, please use “BSSw.io team” as an author with no github url.</li>
-      <li><em>Example</em>: <code class="language-plaintext highlighter-rouge">#### Contributed by BSSw.io team</code></li>
-    </ul>
+  <li>
+    <p><strong>Contributor name</strong>: Refer to <a href="CommonLayout.md">common layout section</a>
+of the guide. Please note that contributor name is the <em>name of the
+person</em> who is <em>writing</em> (and not just submitting the idea of) this
+content for inclusion on the BSSw site. In case of unresolved
+ambiguity, please use “BSSw.io team” as an author with no github
+url (Example*: <code class="language-plaintext highlighter-rouge">#### Contributed by BSSw.io team</code>).</p>
   </li>
-  <li><strong>Deck Publication date</strong>, <strong>BSSw Categories</strong>, <strong>BSSw Topics</strong>: There is no specific guidance for these for the event content type. See <a href="CommonLayout.md">common layout section</a> of the guide.</li>
+  <li>
+    <p><strong>Deck Publication date</strong>, <strong>BSSw Categories</strong>, <strong>BSSw Topics</strong>: Refer to <a href="CommonLayout.md">common layout section</a> of the guide.</p>
+  </li>
 </ol>
 
 <h2 id="main-body">Main Body</h2>
 
-<p>The usual sections of the body text for  curated content has the following parts: (1) Resource table and (2) Description. There may also be (3) Logo and (4) References section.</p>
-
-<h3 id="general-guidelines">General Guidelines</h3>
-<ol>
-  <li>Usually curated content do not need headings, but should you need one then the first level headings should start with <code class="language-plaintext highlighter-rouge">###</code> heading format.</li>
-  <li>Please write the body text in “third person”.</li>
-  <li>If you do not plan to update the text in the future, refrain from adding text such as “TBD”, “Coming soon”. In such cases, please rephrase text to point to links where such information may be updated by the third-parties.</li>
-  <li>Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized</li>
-  <li>Its good for body text to go into details of why the resource is interesting and to what audience.</li>
-  <li>This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues</li>
-</ol>
+<p>The usual sections of the body text for  curated content has the following parts: (1) resource table and (2) description. There may also be (3) logo and (4) references section.</p>
 
 <h3 id="resource-table">Resource Table</h3>
 
@@ -525,7 +512,7 @@ by the curated content article can be of several types. The content of
 the table will be different for each resource type, as described
 below.</p>
 
-<h4 id="book">Book</h4>
+<h4 id="bookpublication">Book/Publication</h4>
 
 <table>
   <thead>
@@ -536,8 +523,8 @@ below.</p>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Book title</td>
-      <td style="text-align: left">Name of the book with hyperlink from a neutral non-vendor website, <em>Format: <a href="url for book">name of the book</a></em></td>
+      <td style="text-align: left">Book/Paper title</td>
+      <td style="text-align: left">If book, then name of the book with hyperlink from a neutral non-vendor website, <em>Format: [name of the book] 	(url for book)</em> <br /> OR <br /> If paper, then title of paper without hyperlink, <em>Format: publication title</em></td>
     </tr>
     <tr>
       <td style="text-align: left">Authors</td>
@@ -545,7 +532,7 @@ below.</p>
     </tr>
     <tr>
       <td style="text-align: left">Publication</td>
-      <td style="text-align: left">Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13). <em>Format: year, ISBN1, ISBN2, ISBN3</em>)</td>
+      <td style="text-align: left">If book, then: Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13). <em>Format: year, ISBN1, ISBN2, ISBN3</em> <br /> OR <br /> If paper, then : Year, Journal name, DOI with link. <em>Format: year, journal name, DOI:[url of the DOI] [doi-url)</em></td>
     </tr>
   </tbody>
 </table>
@@ -556,7 +543,7 @@ below.</p>
     <table>
       <tbody>
         <tr>
-          <td><em>Complete Code: A Practical Handbook of Software Construction, 2nd Edition</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CodeComplete2ndEdition.md">GitHub</a></td>
+          <td>Book: <em>Complete Code: A Practical Handbook of Software Construction, 2nd Edition</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CodeComplete2ndEdition.md">GitHub</a></td>
           <td><a href="https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction">BSSw.io</a></td>
         </tr>
       </tbody>
@@ -566,15 +553,15 @@ below.</p>
     <table>
       <tbody>
         <tr>
-          <td><em>Working Effectively with Legacy Code</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/WorkingEffectivelyWithLegacyCode.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/working-effectively-with-legacy-code">Bssw.io</a></td>
+          <td>Publication: <em>A Literature Review on the Use of Software Engineering Practices in Science</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ClaimsAboutSoftwareEnginScienceReview.md">GitHub</a></td>
+          <td><a href="https://bssw.io/items/a-literature-review-on-the-use-of-software-engineering-practices-in-science">BSSw.io</a></td>
         </tr>
       </tbody>
     </table>
   </li>
 </ul>
 
-<h4 id="course">Course</h4>
+<h4 id="tutorialwebinarpodcastcourses">Tutorial/Webinar/Podcast/Courses</h4>
 
 <table>
   <thead>
@@ -585,31 +572,56 @@ below.</p>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Course title</td>
-      <td style="text-align: left">Name of the course with hyperlink, <em>Format: [course name] (url)</em></td>
+      <td style="text-align: left">Tutorial/Webinar/Podcast/Course Title</td>
+      <td style="text-align: left">Title of the content without hyperlink, <em>Format: title</em></td>
     </tr>
     <tr>
       <td style="text-align: left">Presenters</td>
-      <td style="text-align: left">Presenter names, <em>Format: <a href="url for presenter">Firstname lastname</a>, <a href="url for presenter">Firstname lastname</a></em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Course hosting website</td>
-      <td style="text-align: left">Name of hosting website such as coursera, youtube, udacity. <em>Format: <a href="url for course website">name of hosting website</a></em></td>
+      <td style="text-align: left">Author names, <em>Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)</em> OR <br /> content-hosting website name, <em>Format: [website-name] ( website-url)</em></td>
     </tr>
     <tr>
       <td style="text-align: left">Web links</td>
-      <td style="text-align: left">Links to slides, slide-synced audio, video, or link to website course etc. <em>Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)</em></td>
+      <td style="text-align: left">Links to slides, slide-synced audio, video, or link to tutorial/webinar. <em>Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)</em> OR  <br /> If single link: <em>Format: [Name-of-podcast Podcast] (url)</em></td>
     </tr>
   </tbody>
 </table>
 
-<p>An example includes the following, listed with both GitHub.com and BSSw.io links:</p>
+<p>Examples include the following, listed with both GitHub.com and BSSw.io links:</p>
 <ul>
   <li>
     <table>
       <tbody>
         <tr>
-          <td><em>Understanding Software Testing and How to Make Software Fail</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/SwTestingUdacity.md">GitHub</a></td>
+          <td>Tutorial: <em>Introducing Container Mythbusters</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ContainerMythbusters.md">GitHub</a></td>
+          <td><a href="https://bssw.io/items/introducing-container-mythbusters">BSSw.io</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Webinar: <em>Developing, Configuring, Building, and Deploying HPC Software</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSwUNPUB.md">GitHub</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Podcast: <em>What Makes PSIP Suitable for the Exascale Computing Project?</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PsipPodcast.md">GitHub</a></td>
+          <td><a href="https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project">BSSw.io</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Courses: <em>Understanding Software Testing and How to Make Software Fail</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/SwTestingUdacity.md">GitHub</a></td>
           <td><a href="https://bssw.io/items/understanding-software-testing-and-how-to-make-software-fail">BSSw.io</a></td>
         </tr>
       </tbody>
@@ -617,7 +629,7 @@ below.</p>
   </li>
 </ul>
 
-<h4 id="organization">Organization</h4>
+<h4 id="websiteorganization">Website/Organization</h4>
 
 <table>
   <thead>
@@ -628,246 +640,12 @@ below.</p>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Organization name</td>
-      <td style="text-align: left">Name of Organization without hyperlink, <em>Format: Name of the organization</em></td>
+      <td style="text-align: left">Resource name OR Organization name</td>
+      <td style="text-align: left">Name of website/organization without hyperlink, <em>Format: website name</em></td>
     </tr>
     <tr>
       <td style="text-align: left">Website</td>
-      <td style="text-align: left">Link to website, <em>Format: [URL to website] (url)</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Focus</td>
-      <td style="text-align: left">Custom focus area - this is a 3 word description of the focus area of the article, <em>Format: focus area1, focus area2</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Examples include the following, listed with both GitHub.com and BSSw.io links:</p>
-<ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>IDEAS Software Productivity Project</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/IDEASSoftwareProductivityProject.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/ideas-software-productivity-project">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>Introducing the FORCE11 Software Citation Implementation Working Group</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/FORCE11SoftwareCitationImplementationWorkingGroup.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/introducing-the-force11-software-citation-implementation-working-group">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
-
-<h4 id="podcast">Podcast</h4>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Resource information</th>
-      <th style="text-align: left">Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Podcast title</td>
-      <td style="text-align: left">Name of the tutorial without hyperlink, <em>Format: Name of the tutorial</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Presenters</td>
-      <td style="text-align: left">Author names, <em>Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)</em> OR  tutorial-hosting website website name, <em>Format: [website-name] ( website-url)</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Web links</td>
-      <td style="text-align: left">Links to podcast, <em>Format: [Name-of-podcast Podcast] (url)</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Examples include the following, listed with both GitHub.com and BSSw.io links:</p>
-<ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>Remote Working in an Agile World</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorkingAgileWorld.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/remote-working-in-an-agile-world">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>What Makes PSIP Suitable for the Exascale Computing Project?</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PsipPodcast.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
-
-<h4 id="publication">Publication</h4>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Resource information</th>
-      <th style="text-align: left">Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Paper title</td>
-      <td style="text-align: left">Title of paper without hyperlink, <em>Format: publication title</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Authors</td>
-      <td style="text-align: left">Author names, <em>Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Publication</td>
-      <td style="text-align: left">Year, Journal name, DOI with link. <em>Format: year, journal name, DOI:[url of the DOI] [doi-url)</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Examples include the following, listed with both GitHub.com and BSSw.io links:</p>
-<ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>A Literature Review on the Use of Software Engineering Practices in Science</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ClaimsAboutSoftwareEnginScienceReview.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/a-literature-review-on-the-use-of-software-engineering-practices-in-science">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>Surveying Test-Driven Development in Scientific Software</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/TestDrivenDevptInScientificSwASurvey.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/surveying-test-driven-development-in-scientific-software">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
-
-<h4 id="tutorial">Tutorial</h4>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Resource information</th>
-      <th style="text-align: left">Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Tutorial title</td>
-      <td style="text-align: left">Name of the tutorial without hyperlink, <em>Format: tutorial title</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Presenters</td>
-      <td style="text-align: left">Author names, <em>Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)</em> OR  tutorial-hosting website website name, <em>Format: [website-name] ( website-url)</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Web links</td>
-      <td style="text-align: left">Links to slides, slide-synced audio, video, or link to website course etc. <em>Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Examples include the following, listed with both GitHub.com and BSSw.io links:</p>
-<ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>A Tutorial on Distributed Version Control and Continuous Integration Testing Using GitHub</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DistributedVersionControlAndContinuousIntegrationTesting.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/a-tutorial-on-distributed-version-control-and-continuous-integration-testing-using-github">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>Introducing Container Mythbusters</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ContainerMythbusters.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/introducing-container-mythbusters">BSSw.io</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
-
-<h4 id="webinar">Webinar</h4>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Resource information</th>
-      <th style="text-align: left">Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Webinar title</td>
-      <td style="text-align: left">List title without hyperlink, <em>Format: webinar title</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Presenters</td>
-      <td style="text-align: left">Author names, <em>Format: [Firstname lastname] (url for author), [Firstname lastname] (url for author)</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Web links</td>
-      <td style="text-align: left">Links to slides, slide-synced audio, video, or link to website course etc. <em>Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Examples include the following:</p>
-<ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><em>Developing, Configuring, Building, and Deploying HPC Software</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSwUNPUB.md">GitHub</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
-
-<h4 id="website">Website</h4>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Resource information</th>
-      <th style="text-align: left">Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Resource name</td>
-      <td style="text-align: left">Name of website, <em>Format: website name</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Website</td>
-      <td style="text-align: left">Link to website, *Format : [website url] (url)</td>
+      <td style="text-align: left">Link to website, <em>Format : [website url] (url)</em></td>
     </tr>
     <tr>
       <td style="text-align: left">Focus</td>
@@ -882,7 +660,7 @@ below.</p>
     <table>
       <tbody>
         <tr>
-          <td><em>An Introduction to Creative Commons</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CreativeCommons.md">GitHub</a></td>
+          <td>Website: <em>An Introduction to Creative Commons</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CreativeCommons.md">GitHub</a></td>
           <td><a href="https://bssw.io/items/an-introduction-to-creative-commons">BSSw.io</a></td>
         </tr>
       </tbody>
@@ -892,8 +670,8 @@ below.</p>
     <table>
       <tbody>
         <tr>
-          <td><em>An Introduction to GitHub</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/GitHub.md">GitHub</a></td>
-          <td><a href="https://bssw.io/items/an-introduction-to-github">BSSw.io</a></td>
+          <td>Organization: <em>IDEAS Software Productivity Project</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/IDEASSoftwareProductivityProject.md">GitHub</a></td>
+          <td><a href="https://bssw.io/items/ideas-software-productivity-project">BSSw.io</a></td>
         </tr>
       </tbody>
     </table>
@@ -949,11 +727,11 @@ below.</p>
   </li>
 </ul>
 
-<h3 id="special-tables">Special Tables</h3>
+<h4 id="special-tables-dealing-with-multiple-resources">Special Tables: Dealing with multiple resources</h4>
 
-<h4 id="multiple-resources-of-the-same-type">Multiple resources of the same type</h4>
+<h5 id="multiple-resources-of-the-same-type">Multiple resources of the same type</h5>
 
-<p>Many times, a curated article may mention multiple resources of the same type. An example of this is the curated content article, on <em><a href="https://bssw.io/items/an-introduction-to-documentation-tools">Documentation tools</a></em>. In such cases, please use the following table format.</p>
+<p>Many times, a curated article may mention multiple resources of the same type. In such cases, please use the following table format.</p>
 
 <table>
   <thead>
@@ -984,6 +762,16 @@ below.</p>
     <table>
       <tbody>
         <tr>
+          <td><em>An Introduction to Documentation Tools</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DocumentationTools.md">Github</a></td>
+          <td><a href="https://bssw.io/items/an-introduction-to-documentation-tools">BSSw.io</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
           <td><em>An Introduction to National RSE Organizations</em>: <a href="https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/NationalRSEOrgs.md">GitHub</a></td>
           <td><a href="https://bssw.io/items/an-introduction-to-national-rse-organizations">BSSw.io</a></td>
         </tr>
@@ -1002,7 +790,7 @@ below.</p>
   </li>
 </ul>
 
-<h4 id="multiple-resources-of-the-assorted-type">Multiple resources of the assorted type</h4>
+<h5 id="multiple-resources-of-the-assorted-type">Multiple resources of the assorted type</h5>
 
 <p>Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article.</p>
 
@@ -1032,16 +820,29 @@ below.</p>
 
 <h3 id="main-body-description">Main Body Description</h3>
 
-<p>The description is usually two-three paragraphs of text. In the description on the article, usually towards the end, depending on the nature of the curated content, a logo and/or references to the article may be inserted.</p>
+<p>The description is usually two-three paragraphs of text. In the
+description on the article, usually towards the end, depending on
+the nature of the curated content, a logo and/or references to the
+article may be inserted.</p>
+
+<p>Following are general guidelines when writing the main body description.</p>
+<ol>
+  <li>Usually curated content do not need headings, but should you need one then the first level headings should start with <code class="language-plaintext highlighter-rouge">###</code> heading format.</li>
+  <li>Please write the body text in “third person”.</li>
+  <li>If you do not plan to update the text in the future, refrain from adding text such as “TBD”, “Coming soon”. In such cases, please rephrase text to point to links where such information may be updated by the third-parties.</li>
+  <li>Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized</li>
+  <li>Its good for body text to go into details of why the resource is interesting and to what audience.</li>
+  <li>This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues</li>
+</ol>
 
 <h3 id="logo-declaration">Logo declaration</h3>
-<p>Sometimes, curated content article may have logos. Logos are treated as images. All images across all content types are handled in the same way; hence please see <a href="CommonLayout.md">common layout section</a> of the guide.</p>
+<p>Logos are treated as images. All images across all content types are handled in the same way; hence please see <a href="CommonLayout.md">common layout section</a> of the guide.</p>
 
 <h3 id="links-and-references">Links and References</h3>
-<p>All references across all content types are handled in the same way; hence please see <a href="CommonLayout.md">common layout section</a> of the guide.</p>
+<p>See <a href="CommonLayout.md">common layout section</a> of the guide.</p>
 
 <h2 id="metadata-section">Metadata Section</h2>
-<p>There is no specific guidance for this for the event content type. See <a href="CommonLayout.md">common layout section</a> of the guide.</p>
+<p>See <a href="CommonLayout.md">common layout section</a> of the guide.</p>
 
 
 
