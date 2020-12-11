@@ -4,7 +4,7 @@
 
 **Affiliation:** Sustainable Horizons Institute
 
-**Image:** /images/blob/master/People_MaryAnn.jpg
+**Image:** /images/blob/master/People_Leung.jpg
 
 **URL:** http://SHInstitute.org 
 
