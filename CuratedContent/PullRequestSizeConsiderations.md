@@ -23,7 +23,7 @@ of PR size on software quality and productivity are...
 
 * The *bigger* the PR, the more work the *submitter* of the PR imposes upon the *reviewer(s)*.
 * [Google](https://sback.it/publications/icse2018seip.pdf) and Microsoft
-([A](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf,
+([A](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf),
 [B](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf))
 have research showing an inverse correlation between PR size and defect rate.
 * The larger the PR, the more it encourages already overburden reviewers to give it only
