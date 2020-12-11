@@ -2,7 +2,7 @@
 
 **Name:** Addi Thakur Malviya
 
-**Image:** /images/blob/master/People_Addi.jpg
+**Image:** /images/blob/master/People_Malviya.jpg
 
 **Affiliation:** Oak Ridge National Laboratory
 
