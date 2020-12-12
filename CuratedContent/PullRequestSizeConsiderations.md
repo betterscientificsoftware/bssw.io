@@ -61,6 +61,12 @@ have structured the changes over multiple intermediate phases...
 * CMake doing all checks and optionally building the whole code base
 * Autotools removed and CMake no longer optional
 
+**notes to self**
+* May be acceptable to team to allow portions of the code base to be temporarily broken
+during intermediate phases too...much like portions of a building or roads may be closed
+during re-modeling and construction.
+* Does it make sense to use the term "pre-factoring" here?
+
 During this transition period, there would be agreement not to make any public releases
 or change Autotools build logic in any significant way (small changes could be accomodated).
 There is also probably a small amount of software engineering required to enable
@@ -71,9 +77,8 @@ engineering/planning that is likely not too common across the HPC/CSE community.
 
 For another illustrative example, it is also worth considering what is the *smallest*
 size for a PR? Suppose some code was converted from Fortran to C and several off-by-one
-indexing bugs escaped everyone's attention in the initial commit. Each represents a one-line
-fix. Does it make sense to split each into its own PR? It could. On the other hand,
-the overhead involved in creating branches and PRs, waiting for CI to run in each PR,
-applying the changes to both a release candidate and a main line not to mention email
-notifications and perhaps adding seperate bug-fix entries to a release notes file may be
-more than its worth to separate each into its own PR.
+indexing bugs crept in. Each represents a one-line fix. Does it make sense to split each
+into its own PR? It could. On the other hand, the overhead involved of creating branches
+and PRs, running and waiting for CI, applying the changes to both a release and development
+branch and perhaps adding seperate entries to a release notes file not to mention all the
+additional notification traffic may be more than its worth.
