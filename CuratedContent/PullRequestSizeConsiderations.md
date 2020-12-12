@@ -17,13 +17,10 @@ submitted for review prior to merging into another branch. The
 is typically measured in terms of number of changes (files and/or lines of code). Some
 of the ways in which PR size impacts software quality and productivity are...
 
-* A good houskeeping attitude
-(*while I am here fixing problem A, why don't I go ahead and also fix problem B*) leads to
-mixing independent changes in the same PR and to larger PRs.
 * The *bigger* the PR, the more work the *submitter* of the PR imposes upon the *reviewer(s)*.
-* The larger the PR, the more difficult it will be for reviewers to schedule the time
+* The bigger the PR, the more difficult it will be for reviewers to schedule the time
 needed to review it.
-* The larger the PR, the more likely already overburden reviewers will
+* The bigger the PR, the more likely already overburden reviewers will
   * Put off even starting the review.
   * Give only a cursory (rubber-stamp) review defeating the whole purpose of review.
 * There is an inverse correlation between PR size and defect
@@ -35,6 +32,9 @@ rate.<sup>[1](https://sback.it/publications/icse2018seip.pdf),
 (the cousin to
 [Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure))
 is a useful skill in breaking large changes into smaller, manageable steps.
+* A good housekeeping attitude
+(*while I am here fixing problem A, why don't I go ahead and also fix problem B*) leads to
+mixing independent changes in the same PR and to larger PRs.
 
 It is a [best practice](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
 to keep PRs small. The smaller the better. When many changes
@@ -66,6 +66,10 @@ have structured the changes over multiple intermediate phases...
 during intermediate phases too...much like portions of a building or roads may be closed
 during re-modeling and construction.
 * Does it make sense to use the term "pre-factoring" here?
+* Good refs.
+  * https://www.thedroidsonroids.com/blog/splitting-pull-request
+* What if your pushing one PR in a series and the reviewers don't know this? They
+may likely wonder why you've pushed the PR without having an idea where your headed.
 
 During this transition period, there would be agreement not to make any public releases
 or change Autotools build logic in any significant way (small changes could be accomodated).
