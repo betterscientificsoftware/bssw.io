@@ -49,7 +49,7 @@ Consider the changes to migrate a large code base from Autotools to CMake for ex
 When this was undertaken in VisIt in 2009,
 [250K lines of code across 2,800+ files](https://github.com/visit-dav/visit/commit/4c9f66cdbbd0d311e24023da441024cf85de936b).
 were changed. To split this across multiple PRs and branches (**note:**
-[binary content in VisIt's Subversion repo at the time](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) would have made this near impractical),
+[binary content in VisIt's Subversion repo at the time](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) would have made this impractical),
 the team could have agreed to permit both build systems to temporarily co-exist
 in the main line of development during a period of tansition. While the rest of the team
 continued to operate on Autotools, developer(s) handling the migration to CMake could
@@ -62,7 +62,7 @@ have structured the changes over multiple intermediate phases...
 * Autotools removed and CMake no longer optional
 
 During this transition period, there would be agreement not to make any public releases
-or change Autotools build logic in any significant way (small changes may have to be accomodated).
+or change Autotools build logic in any significant way (small changes could be accomodated).
 There is also probably a small amount of software engineering required to enable
 the code base to temporarily operate in this intermediate state. The effort to develop
 and maintain that temporary code is likely worth the impact it has on enabling the work
