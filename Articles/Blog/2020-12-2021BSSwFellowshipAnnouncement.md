@@ -68,8 +68,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1220_HM_madsen.jpg
-' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1220_HM_madsen.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
