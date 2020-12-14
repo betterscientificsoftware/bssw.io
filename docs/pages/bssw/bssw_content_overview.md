@@ -4,14 +4,7 @@ sidebar: bssw_sidebar
 permalink: bssw_content_overview.html
 ---
 
-{% include note.html content="The content of the page is similar
-to what is present on <a
-href='https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software'>
- What to Contribute web page </a> on BSSw.io. Please refer to the
-BSSw.io page to understan the types and scope of content for BSSw.io"
-%}
-
-There are three types of authored content on BSSw.io. See a very short description below: 
+There are three types of authored content on BSSw.io. See a very short description below and refer to the ["BSSw.io - What to Contribute"](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software) page for detailed information.
 
 ## Original article
 
