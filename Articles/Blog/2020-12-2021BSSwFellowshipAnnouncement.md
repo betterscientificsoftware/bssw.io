@@ -60,7 +60,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>
 
 <div class='short_bio'>
-  <h3>D Keith Beattie, Lawrence Berkeley National Laboratory</h3>
+  <h3>Keith Beattie, Lawrence Berkeley National Laboratory</h3>
   <p>Computer Systems Engineer, Computational Research Division</p> 
 </div>
 </div>
@@ -72,7 +72,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>
 
 <div class='short_bio'>
-  <h3> Jonathan Madsen, Lawrence Berkeley National Laboratory</h3>
+  <h3>Jonathan Madsen, Lawrence Berkeley National Laboratory</h3>
   <p>Application Performance Specialist, NERSC</p>
 </div>
 </div>
@@ -84,7 +84,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>
 
 <div class='short_bio'>
-  <h3> Addi Thakur Malviya, Oak Ridge National Laboratory</h3>
+  <h3>Addi Thakur Malviya, Oak Ridge National Laboratory</h3>
   <p>Group Leader, Software Engineering Group</p>
 </div>
 </div>
