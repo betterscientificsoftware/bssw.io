@@ -14,9 +14,4 @@ Please place your new file in one of the following folders on the site, accordin
 - [Articles/Blog](https://github.com/betterscientificsoftware/bssw.io/tree/master/Articles/Blog): For Blogs
 - [Articles/ShortArticles](https://github.com/betterscientificsoftware/bssw.io/tree/master/Articles/ShortArticles): For any other original contents; other than blogs and WhatIs documents.
 
-
-Please note that images, including logos and deck images are stored
-in a different independent repository, located [here](https://github.com/betterscientificsoftware/images). We hope to eventually
-move these to the main bssw.io repository
-
 {% include links.html %}
