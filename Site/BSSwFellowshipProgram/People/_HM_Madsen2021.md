@@ -6,6 +6,6 @@
 
 **Affiliation:** Lawrence Berkeley National Laboratory
 
-**Short Bio:** Application Performance Specialist, NERSC
+**Short Bio:** NERSC, Application Performance Specialist
 
 **Honorable Mention:** Yes
