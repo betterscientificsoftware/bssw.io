@@ -14,11 +14,23 @@ The main part of the original article consists of the (1) Deck, (2) Main body of
 As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "original articles" and their decks.
 
 ### Deck text/image
-Original articles may have deck text or deck images. Deck text is usually a couple of lines about the event. Deck images creation is out-sourced by the BSSw.io team (for now). They are however added to articles, only after approval has been obtained from the authors.
+Original articles may have deck text and/or deck images. Deck text is usually a couple of lines about the event. Deck images creation is out-sourced by the BSSw.io team (for now). They are however added to articles, only after approval has been obtained from the authors.
  * Blogs *usually* have deck images and no deck text. 
  * Short articles *usually* have deck text. 
  * For guidance on the deck text, please see [common layout section](bssw_styling_common.html) of the guide.
-
+ * Having deck text and a deck image in an original article are mutually exclusive
+      * A way to approximate having both is to have the deck image and then put the deck as your first (short) paragraph after the image and italicize it.
+ * Please note that many times in the BSSw.io literature the deck image is also called as hero image.
+ * Images for content are stored in a different repository (and not the main repo). To reference the images in the article, we upload them [bssw.io images directory](https://github.com/betterscientificsoftware/images) and then reference them from the article.
+ * There are some formatting tips described below for the deck images.
+   - The formatting to include a deck/hero image is a bit finicky.
+      * The `**Hero Image:**` tag must be followed by a blank line
+      * The image itself must be in a Markdown list item (that is, it starts with `-`)
+        ````
+           - <img src="https://github.com/betterscientificsoftware/images/raw/master/IMAGE-NAME.png" />[IMAGE TEXT]
+         ````
+   - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter.
+   
 ### Deck Attributes
 
 Mandatory deck attributes (such as Deck title, Contributor name, BSSw Categories, BSSw Topics) are part of deck for all BSSw.io content. Please see [common layout section](bssw_styling_common.html) of the guide for the mandatory deck attributes.
@@ -35,13 +47,7 @@ In addition to above, there exists a original content-specific deck attribute ca
 * General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
 * BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup
 * BSSw.io team encourages authors to point to a modest number of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an extenral resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
-* There are some formatting tips described below
-   -  The formatting to include a hero image is a bit finicky.
-      * The `**Hero Image:**` tag must be followed by a blank line
-      * The image itself must be in a Markdown list item (that is, it starts with `-`)
-   -  Positioning of the hero image relative to the contributor and publication date metadata doesn't matter
-   -  Having a deck and having a hero image in a blog post are mutually exclusive
-      * A way to approximate having both is to have the hero image and then put the deck as your first (short) paragraph after the image and italicize it.
+
 
 ### Structure of main body
 The structure of the main body has two parts: (1) Content of the Article; and (2) Author bios. 
