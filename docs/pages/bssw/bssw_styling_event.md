@@ -10,39 +10,40 @@ An "Event" content is a very brief article that highlights an event. An event ar
 (1) Submission-based Events (Conferences/Workshops/Others), 
 (2) Non-submission based Events (Webinars/Panels/Tutorials/Others).
 
-The main part of the event article consists of the (1) *Deck*, (2) *Main body* and (3) *Metadata*. A event article must follow the below style guidelines. There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/bssw.io/tree/master/Events) to use as a starting point.
+The main part of the event article consists of the (1) *Deck*, (2) *Main body* and (3) *Metadata*. A event article must follow the below style guidelines. 
 
 
 ## Deck Section
 All BSSw.io resources have a deck at the start of the article. The deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "events" and their decks.
 
 ### Deck text
-Deck text is usually a couple of lines about the event. No images are allowed in the event deck. For all other guidance on the deck text, please refer to the [common styling section](https://betterscientificsoftware.github.io/bssw.io/bssw_styling_common.html) of the guide.
+Deck text is usually a couple of lines about the event. No images are allowed in the event deck. For all other guidance on the deck text, please refer to the [common styling section](bssw_styling_common.html) of the guide.
 
 ### Deck Attributes
 
 **Mandatory deck attributes** are part of deck for all BSSw.io content. Following is some guidance, specific to the mandatory deck attributes of event articles.
-1. **Deck title**: This is the title of the event. In addition to guidelines from the [common styling section](https://betterscientificsoftware.github.io/bssw.io/bssw_styling_common.html) of the guide, please also note the following:
+* **Deck title**: This is the title of the event. In addition to guidelines from the [common styling section](bssw_styling_common.html) of the guide, please also note the following:
 	* Please keep the title timeline-neutral. That means: do not include words like "Call for submissions" etc in the title. The reason being is that this BSSw.io event may get updated with archives, videos at a later point. As of Dec 2020, the titles form a part of the URL and we do not want the URL to change over time.
-	* Title can include full event name as well as abbreviation in brackets:  *Example*: `The Research Software Engineers in HPC Workshop (RSE-HPC-2020)`
+	* Title can include full event name as well as abbreviation in brackets:  
+	   * *Example*: `The Research Software Engineers in HPC Workshop (RSE-HPC-2020)`
 
-2. **Contributor name**: In addition to guidelines from the [common styling section](https://betterscientificsoftware.github.io/bssw.io/bssw_styling_common.html) of the guide, please also note the following:
+* **Contributor name**: In addition to guidelines from the [common styling section](bssw_styling_common.html) of the guide, please also note the following:
 * Please indicate the *name of the person* who has **submitted** this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use "BSSw.io team". 
 	* *Example*: `#### Contributed by BSSw.io team`
 
-3. **Publication date**, **BSSw Categories**, **BSSw Topics**: See [common styling section](https://betterscientificsoftware.github.io/bssw.io/bssw_styling_common.html) of the guide.
+* **BSSw Categories**, **BSSw Topics**: See [common styling section](bssw_styling_common.html) of the guide.
 
-**Special deck attributes** are seen right below the deck text. There are four deck attributes specific to events and are listed below. These event deck attributes customize different parts of the deck for the event content type.
+**Event-specific deck attributes** are seen right below the deck text. These event deck attributes customize different parts of the deck for the event content type.
 
-1. **Date**: Date or range of dates when the EVENT is taking place
-2. **Location**: Use the word "Virtual" or name of physical location
-3. **Event Website**: URL to the main event website
-4. **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
+* **Date**: One can choose to enter the date or range of dates of the submisison deadline or event date.
+* **Location**: Use the word "Virtual" or name of physical location
+* **Event Website**: URL to the main event website
+* **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
 
-*Example:*
-- `Date: November 16, 2020`
-- `Location: Online`
-- `Event Website: https://us-rse.org/rse-hpc-2020`
+Example:
+   * `Date: November 16, 2020`
+   * `Location: Online`
+   * `Event Website: https://us-rse.org/rse-hpc-2020`
 
 ## Main Body Section
 ### General Guidelines
@@ -75,9 +76,10 @@ Submission deadlines | yyyy-mm-dd, any short text. Add "Please see event website
 Registration and other Information| URL
 Links to the Recordings and Archives  | Please do not use words like TBD here; please add this row only if you know that there are archives available.
 
-**Examples include the following, listed with both GitHub.com and BSSw.io links:**
-* *Research Software Engineers in HPC Workshop (RSE-HPC-2020)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.RSE-HPE2020.md) | [BSSw.io](https://bssw.io/events/research-software-engineers-in-hpc-workshop-rse-hpc-2020)
-* *Call for Applications: Sustainable Research Pathways Workshop*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/SRP2020-applications.md) | [BSSw.io](https://bssw.io/events/call-for-applications-sustainable-research-pathways-workshop)
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+
+   * *Research Software Engineers in HPC Workshop (RSE-HPC-2020)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.RSE-HPE2020.md) | [BSSw.io](https://bssw.io/events/research-software-engineers-in-hpc-workshop-rse-hpc-2020)
+   * *Call for Applications: Sustainable Research Pathways Workshop*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/SRP2020-applications.md) | [BSSw.io](https://bssw.io/events/call-for-applications-sustainable-research-pathways-workshop)
 
 ##### Non-submission based Events (Webinars/Panels/Tutorials/Others)
 
@@ -92,9 +94,10 @@ Links to the Recordings and Archives  | Please do not use words like TBD here; p
 		
 Please add more rows to the table (if you absolutely must). Please do not add empty rows where information is not available.
 
-**Examples include the following, listed with both GitHub.com and BSSw.io links:**
-* *Webinar: Testing and Code Review Practices in Research Software Development*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/hpcbp-044-testingpractices.md) | [BSSw.io](https://bssw.io/events/webinar-testing-and-code-review-practices-in-research-software-development)
-* *Strategies for Working Remotely: Making the transition to virtual software teams*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/panel.RemoteWorking0520.md) | [BSSw.io](https://bssw.io/events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams)
+Examples include the following, listed with both GitHub.com and BSSw.io links:
+    
+   * *Webinar: Testing and Code Review Practices in Research Software Development*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/hpcbp-044-testingpractices.md) | [BSSw.io](https://bssw.io/events/webinar-testing-and-code-review-practices-in-research-software-development)
+   * *Strategies for Working Remotely: Making the transition to virtual software teams*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/panel.RemoteWorking0520.md) | [BSSw.io](https://bssw.io/events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams)
 
 #### 3. Additional Information
 You can add additional information in this section. If you create sections, please remember to start your first level headings with `###`.
@@ -110,7 +113,7 @@ Usually the following information is added and is usually sufficient
 * `### Author Bios`: A section with the author bios
 
 ## Metadata Section
-See [metadata section](https://betterscientificsoftware.github.io/bssw.io/bssw_content_metadata.html) of the guide.
+See [common metadata section](bssw_content_metadata.html) of the guide.
 
 ## Updating Past events
 Past events may be updated with information pointing to where the presentation, recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.

@@ -5,30 +5,53 @@ permalink: bssw_content_metadata.html
 ---
 
 ## Introduction
-For all content types, we have the following meta-data that needs to be put, at the bottom of the file.
-- **Publish**: Publish on the BSSw front-end site?
-- **RSS update**: Date for RSS update in format yyyy-mm-dd
-- **Categories**: Specify 1 or more categories (primary display via BSSw website)
-- **Topics**: Specify 1 or more topics (visible filters via BSSw website)
-- **Tags**: Specify additional tags as keywords for searches (optional -- not currently used on front-end website)
-- **Level**: Specify level of content
-- **Aggregate**: Optional info for aggregating content to define a more complex resource
 
-Each aspect of metadata is described below.
+We include metadata as *formatted comments* at the end of the file.  Metadata helps define rules about publishing an article, selecting categories etc. Metadata information is internally parsed by the BSSw.io website and used for operational and functional purposes. This metadata is not visible on the website.  If metadata is missing, the file will not be published/visible on the website. Missing metadata will not cause the website to break. But be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site. 
+
+## Metadata format and examples
+
+Listed here is the format of a typical metadata.
+
+```
+<!---
+Publish: yes
+Pinned: no
+Categories: planning, reliability
+Topics: software engineering, testing
+RSS update: 2020-07-30
+--->
+```
+
+Please note above:
+* The use of `<!--- --->` surrounding the metadata.
+* Each metadata parameter is on a separate line.
+* Please follow the rules of use colon and commas as specified above. Letter case does not matter.
+
+The easiest approach to writing metadata is to copy/paste the formatted example and modify it, as needed. Alternatively, copy the metadata from any of the content files ([curated content](https://github.com/betterscientificsoftware/bssw.io/tree/master/CuratedContent), [events](https://github.com/betterscientificsoftware/bssw.io/tree/master/Events) and [articles](https://github.com/betterscientificsoftware/bssw.io/tree/master/Articles)) in the BSSw.io repository, modify and use them in your content file.
+
+## Metadata description
+
+Following is the set of metadata parameters used on the BSSw.io, currently.
 
 ### Publish
-This is used to Publish on the BSSw front-end site.
-- Publish: Yes
-- Publish: No
+This is used to decide if the content needs to be published, previewed or not on the BSSw front-end site.
+- publish: preview
+- publish: yes
+- publish: no
 
-Only files designated as 'Publish: Yes' will be published on the front-end BSSw site.  Work that has not been finalized or is not intended for the front-end site should be designated 'Publish: No'. *ISNT THERE A PREVIEW OPTION, AS WELL?*
+BSSw.io has a stand-alone website for previewing content before publishing. Using 'publish: preview' ensures that content is visible on the preview website and not on the main site.
+Only files designated as 'publish: yes' will be published on the front-end BSSw site. 
+Work that has not been finalized or is not intended for the front-end site should be designated 'publish: no'. 
 
-### RSS update
-This is used to set thee date for RSS update in format yyyy-mm-dd
+### Pinned
+This is used to decide if a content needs to show up as "recommended", when a particular category or topic is selected. Recommended articles will show up on the top of the list of articles. Only 1-2 articles are supposed to be listed as "recommended" at a given time in each topic area. Selecting a category will show up all the recommended articles of all the topic areas that comprise that category.
+- pinned: yes
+- pinned: no
 
 ### Categories
-Categories are primaily display via BSSw website interface.
-[BSSw curators may add/revise topics as needed over time.]
+Categories are displayed on BSSw.io and provide easier navigation and content searching by the readers. Each article can belong to one or more categories. **The BSSw editorial team may add/revise categories as needed over time.**
+
+The current categories are as follows:
 - Planning
 - Development
 - Performance
@@ -37,22 +60,26 @@ Categories are primaily display via BSSw website interface.
 - Skills
 
 ### Topics
-Topics are visible filters via BSSw website interface.
-- All categories and also finer grain topics within categories
-  [Topics: 4-7 per category: family of topics that make sense together. BSSw curators may add/revise topics as needed over time.]
+
+Each category has several finer grain topics under it. Topics are visible filters via BSSw website interface. A family of topics that make sense together are grouped together in a category. There are around 4-7 topics per category. **The BSSw editorial team may add/revise topics as needed over time.**
+
+The current topics are as follows:
+
 - **Planning**
+    - Software process improvement
+    - Software engineering
     - Requirements
     - Design
     - Software interoperability
 - **Development**
     - Documentation
-    - Version control
     - Configuration and builds
-    - Deployment
+    - Revision control
+    - Release and deployment
     - Issue tracking
+    - Programming languages
+    - Development tools
     - Refactoring
-    - Software engineering
-    - Programming languages and tools
 - **Performance**
     - High-performance computing (HPC)
     - Performance at leadership computing facilities (LCFs)
@@ -63,38 +90,47 @@ Topics are visible filters via BSSw website interface.
     - Reproducibility
     - Debugging
 - **Collaboration**
-    - Licensing
+    - Projects and organizations
     - Strategies for more effective teams
     - Funding sources and programs
-    - Projects and organizations
     - Software publishing and citation
+    - Licensing
     - Discussion and question sites
+    - Conferences and workshops
 - **Skills**
-    - Personal productivity and sustainability
     - Online learning
+    - Personal productivity and sustainability
+    
+### RSS update
+This is used to set thee date for RSS update in format yyyy-mm-dd
 
-### Tags
-Tags are optional additional keywords for searches. We currently do not use them for on front-end website. 
+## Deprecated metadata
 
-### Level
-We specify level of detail and depth of content.
-*This needs to be described better. Its not clear to me how we are using this*
+Listed below are metadata that were created for various feature-related experiments, but **are not in use** currently.
+
+**Tags**
+
+Tags are optional additional keywords for searches. 
+
+**Level**
+
+The *level* metadata was used to specify level of detail and depth of content.
 - **Level 0**:  BSSw WhatIs document
 - **Level 1**:  BSSw HowTo document (or equivalent level of detail)
 - **Level 2**:  More detailed content, beginner or intermediate levels
 - **Level 3**:  Advanced content
 
-### Prerequisites
-Used to specify files for any assumed knowledge on the BSSw site (usually Level 0 and Level1 BSSw docs)/
-*This needs to be described better. Its not clear to me how we are using this*
+**Prerequisites**
+
+This option was used to specify files for any assumed knowledge on the BSSw site.
 - Most prerequisites are specified automatically according to Topics. In this case, use:
    - Prerequisites: default
 - Specify additional prerequisites only for information not already covered by Topics.
    - Prerequisites: filename1.md, filename2.md, etc.
 
-### Aggregate
-This is optional info for aggregating content to define a more complex resource.
-*This needs to be described better. Its not clear to me how we are using this*
+**Aggregate**
+
+This was optional info used for aggregating content to define a more complex resource.
  - Aggregate: none
    - Note an aggregate resource
 

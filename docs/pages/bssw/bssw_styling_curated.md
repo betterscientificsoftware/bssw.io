@@ -23,45 +23,47 @@ content article. There are several examples available in the
 repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent)
 to use as a starting point.
 
-## Deck Section
+## Deck section
 All BSSw.io resources have decks and the deck has two
 parts: (1) deck text and (2) deck attributes. 
 
 ### Deck text
-Deck text is usually a couple of lines about the content. Follow the guidance in the [common layout section](CommonLayout.md). No images are allowed in the deck section of curated content.
+Deck text is usually a couple of lines about the content. Follow the guidance in the [common styling section](bssw_styling_common.html). No images are allowed in the deck section of curated content.
    * **Example:** If it is a publication, the deck text can start with "The *title of article* article, published in the *journal name* in alphabetic month, year, explores....". For ex: The *Best Practices for Scientific Computing* article, published in the *PLOS Biology journal* in Jan 2014, explores etc. | 
 
-
-### Deck Attributes
-
+### Deck attributes
 
 The deck for curated content contains the title of the article,
-deck text, contributor names, publication date, BSSw.io
+deck text, contributor names, BSSw.io
 categories and topics that the article falls under. These are all
-mandatory deck attributes and apply to all content on BSSw.io. We dont have any special deck attributes for curated content.
+mandatory deck attributes and apply to all content on BSSw.io. 
 
-1. **Deck Title**: Refer to [common layout section](CommonLayout.md)
+* **Deck title**: Refer to [common styling section](bssw_styling_common.html)
 of the guide. Please note  that maintaining consistency with titles
 across articles is good. For ex: Start title with "An Introduction to..." for
 organizations or website, if it makes sense.
 
-2. **Contributor name**: Refer to [common layout section](CommonLayout.md)
+* **Contributor name**: Refer to [common styling section](bssw_styling_common.html)
 of the guide. Please note that contributor name is the *name of the
 person* who is *writing* (and not just submitting the idea of) this
 content for inclusion on the BSSw site. In case of unresolved
 ambiguity, please use "BSSw.io team" as an author with no github
 url (Example*: `#### Contributed by BSSw.io team`).
 
-3. **Deck Publication date**, **BSSw Categories**, **BSSw Topics**: Refer to [common layout section](CommonLayout.md) of the guide.
- 
+* **BSSw Categories**, **BSSw Topics**: Refer to [common styling section](bssw_styling_common.html) of the guide.
 
-## Main Body
+In addition to above, there exists a curated content-specific deck attribute called **Deck publication date**.
+* **Deck Publication date**
+The date when the content was published on BSSw.io. In the source file, please use the following format:
+````
+#### Publication date: Month DD, YYYY
+````
+
+## Main body
 
 The usual sections of the body text for  curated content has the following parts: (1) resource table and (2) description. There may also be (3) logo and (4) references section.
 
-
-
-### Resource Table
+### Resource table
 
 Following the deck, is the main body of the article. The resource
 table is placed at the *start* of the main body of the article. The
@@ -69,7 +71,17 @@ table ensures consistency across all the curated content articles.
 It highlights the important links in the article. Resources pointed
 by the curated content article can be of several types. The content of
 the table will be different for each resource type, as described
-below.
+below
+
+#### Markdown Code
+Here is the raw markdown for the resource table
+````
+Resource information | Details
+:--- | :--- 
+Foobar | Foobar
+Foobar | Foobar
+Foobar | Foobar
+````
 
 #### Book/Publication
 
@@ -123,7 +135,7 @@ Examples include the following, listed with both GitHub.com and BSSw.io links:
    * *Using Personal Kanban for Productivity*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/UsingPersonalKanban.md) | [BSSw.io](https://bssw.io/items/using-personal-kanban-for-productivity)
 
 
-#### Special Tables: Dealing with multiple resources
+#### Tables with multiple resources
 
 ##### Multiple resources of the same type
 
@@ -148,7 +160,7 @@ Examples includes the following, listed with both GitHub and BSSw.io links:
    * *A Collection of Resources for Sustaining Open Source Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/OSSSustainabilityResources.md) | [BSSw.io](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software)
    * *Resources for Maximizing Remote Working*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorking.md) | [BSSw.io](https://bssw.io/items/resources-for-maximizing-remote-working)
 
-### Main Body Description
+### Main body description
 
 The description is usually two-three paragraphs of text. In the
 description on the article, usually towards the end, depending on
@@ -164,13 +176,13 @@ Following are general guidelines when writing the main body description.
 6. This text should not be a copy-paste from a website. Rather, please write this in your own words to avoid legal issues
 
 ### Logo declaration
-Logos are treated as images. All images across all content types are handled in the same way; hence please see [common layout section](CommonLayout.md) of the guide.
+Logos are treated as images. All images across all content types are handled in the same way; hence please see [common styling section](bssw_styling_common.html) of the guide.
 
 ### Links and References
-See [common layout section](CommonLayout.md) of the guide.
+This section will be added in the future, as the need arises.
 
-## Metadata Section
-See [common layout section](CommonLayout.md) of the guide.
+## Metadata section
+See the [common metadata section](bssw_content_metadata.html) of the guide.
 
 
 {% include links.html %}
