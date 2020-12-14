@@ -27,7 +27,7 @@ Original articles may have deck text and/or deck images. Deck text is usually a 
       * The `**Hero Image:**` tag must be followed by a blank line
       * The image itself must be in a Markdown list item (that is, it starts with `-`)
         ````
-           - <img src="https://github.com/betterscientificsoftware/images/raw/master/IMAGE-NAME.png" />[IMAGE TEXT]
+           - < img src="https://github.com/betterscientificsoftware/images/raw/master/IMAGE-NAME.png" />[IMAGE TEXT]
          ````
    - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter.
    
