@@ -27,7 +27,7 @@ The Sustainable Research Pathways 2020 Workshop is excited to announce that, due
 
 Therefore, if you are an undergraduate or graduate student in a computational science & engineering program at an accredited US academic institution you have two ways to apply: as part of a faculty application, or individually.
 
-#### Contributed by [Mary Ann Leung](https://github.com/shinstitute "Mary Ann Leung GitHub profile")
+#### Contributed by [Mary Ann Leung](https://github.com/maleung "Mary Ann Leung GitHub profile")
 
 <!---
 Publish: yes
