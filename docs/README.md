@@ -6,7 +6,6 @@ This jekyll style is inspired from
 * https://idratherbewriting.com/documentation-theme-jekyll/
 
 **Pending items:**
-* The only way to get the github “edit me” links working on the gh-pages was with putting settings such as the one mentioned in _config.yml for the repository parameter.
 * Team responsibilities document
 * Event workflow
 * Original content workflow
