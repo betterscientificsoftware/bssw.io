@@ -104,7 +104,3 @@ entries:
     - title: Content Publishing
       url: /bssw_content_publishing.html
       output: web
-
-    - title: Content Highlighting
-      url: /bssw_content_highlighting.html
-      output: web
