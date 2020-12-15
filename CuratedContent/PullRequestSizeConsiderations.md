@@ -1,4 +1,4 @@
-# Pull Request (PR) Size Considerations
+# Pull Requests: Size Does Matter
 
 <!-- deck text start -->
 Developers new to peer review via the Pull Request workflow supported by
@@ -14,19 +14,25 @@ supporting articles about the impact of PR size on productivity.
 A Pull Request (PR) is a batch of *related* code changes on one branch of development
 submitted for review prior to merging into another branch. The
 [*size* of a PR](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
-is typically measured in terms of number of changes (files and/or lines of code). Some
-of the ways in which PR size impacts software quality and productivity are described
-below. The bigger a PR is...
-* ...the more work reviewing the PR involves.
-* ...the harder it is to divy up review work.
-* ...the more difficult it will be for reviewers to schedule the time needed to review it.
-* ...the more likely already overburden reviewers will put off even starting the review.
-* ...the more likely a first reviewer will give only a cursory review.
-* ...the more likely a second reviewer will merely rubber-stamp a review already approved by a first reviewer.
-* There is an inverse correlation between PR size and defect
+is typically measured in terms of number of files and/or lines of code (the sum of
+counts of delete lines, modified lines and added lines).
+[Some research](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+suggests that more than 400 lines of code changed is considered *too large* for a single
+review. Other research suggests an inverse correlation between PR size and defect
 rate.<sup>[1](https://sback.it/publications/icse2018seip.pdf),
 [2](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf),
 [3](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf)</sup>
+
+Some of the ways in which PR size can impact software quality and productivity are
+described below. The bigger a PR is...
+* ...the more work reviewing the PR involves.
+* ...the harder it is to divy up review work.
+* ...the more difficult it is for reviewers to fit the review into their schedules.
+* ...the more likely reviewers will put off even starting the review.
+* ...the more likely a first reviewer will give only a cursory review.
+* ...the more likely a second reviewer will merely rubber-stamp a review already approved by another reviewer.
+
+
 * Experience with
 [Functional (or Feature) Breakdown Structure (FBS)](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
 (the cousin to
@@ -39,7 +45,12 @@ mixing independent changes in the same PR and to larger PRs.
 It is a [best practice](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
 to keep PRs small. The smaller the better. When many changes
 are necessary as part of a major feature enhancement or a large refactoring effort,
-it is a best practice to spread the changes over multiple PRs, each one representing
+it is a best practice to spread the changes over multiple PRs,
+
+**note to self**: some literature uses the concept of a "reviewable unit" to try to be more workflow
+agnostic. A reviewable unit could be a PR, a commit, a patch or diff.
+
+ each one representing
 an independently useful, value-added contribution to the code base and which builds
 towards the ultimate enhancement or refactor goal. But, planning and implementing
 large software changes in this way is not always easily possible and even when it is,
