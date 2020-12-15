@@ -5,7 +5,9 @@
 - Event Website: https://www.software.ac.uk/cw21
 - Organizers: Software Sustainability Institute
 			   
-Are you interested in running a 30 minute session to demonstrate a particular software product, approach or standard? Would you like to deliver specific training or an interactive tutorial? Conduct information gathering or explore a topic? Collaborations Workshop 2021's mini-workshop and demo sessions offer unique opportunities for CW21 participants and sponsors to give an in-depth look at a particular tool or approach relating to research software.
+<!-- begin deck text -->
+Interested in running a 30 minute session to demonstrate a particular software product, approach or standard? Or delivering specific training or an interactive tutorial? Even conducting information gathering or exploring a topic? Collaborations Workshop 2021's mini-workshop and demo sessions offer unique opportunities for CW21 participants and sponsors to give an in-depth look at a particular tool or approach relating to research software.
+<!-- end deck text -->
 
 Resource Information | Details
 :--- | :---			   
@@ -23,7 +25,7 @@ CW21 participants will gain insight into the topics of FAIR Research Software, D
 
 Mini-workshop and demo sessions offer unique opportunities for CW21 participants and sponsors to give an in-depth look at a particular tool or approach relating to research software. We are looking for sessions connected to one or more of the CW21 themes - FAIR Research Software, Diversity and Inclusion, and Software Sustainability - in particular, but are happy to consider any proposals involving research software. Proposals can also be related to pitches for the CW21 Hack Day.
 
-CW21 is also calling for submissions for participant-led social activities to take place during our social programme! Do you have an idea for a networking or social activity? Want to lead a board games night? Yoga or meditation session? Birds of a feather session? Or another idea?
+CW21 is also calling for submissions for participant-led social activities to take place during our social programme! Ideas can include a netoworking or social activity, a board game night, a yoga or mediation session, a Bird of a Feather session, or any other suggestions.
 
 The deadline for submissions is 23:59 GMT on Sunday, 31 January 2021. Applicants will be notified of the outcomes by 12 February 2021.
 
