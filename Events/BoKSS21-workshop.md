@@ -5,14 +5,16 @@
 - Event Website: https://bokss.github.io/bokss2021/
 - Organizers: International Conference on Software Engineering (ICSE 2021)
 			   
+<!-- deck text start -->
 BoKSS 2021 seeks contributions addressing practices for software sustainability; metrics and measures for software sustainability; applied, or experimented with, software engineering methodologies at all levels (from requirements elicitation to architecture design, coding, testing); patterns and anti-patterns and/or; architectural tactics, architectural styles and design patterns.
- 
+<!-- deck text end -->
 
-Resource Information | Details
+Event Information | Details
 :--- | :---			   
-Workshop Dates | 2021-05-23 -- 2021-05-29
-Workshop Website | https://bokss.github.io/bokss2021/
-Application Deadline | 2021-01-12
+Event Name |
+Event Date | 2021-05-23 -- 2021-05-29
+Website | https://bokss.github.io/bokss2021/
+Submission Deadline | 2021-01-12 - Please see event website for deadline updates.
 
 ### Theme and Goals
 
