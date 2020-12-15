@@ -6,14 +6,6 @@ permalink: bssw_curatedworkflow.html
 
 # Editorial Workflow for BSSw.io Curated Content
 
-This description of workflow for content development of Curated Content ideas
-is based entirely on [earlier workflow document](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/80d90aef9b9df524a3397425a5a09e1d6f880b70/Site/CuratedContentEditorialWorkflow.md)
-which has since been deleted.
-
-A key difference in this alternative workflow is that it explicitly requires
-**EB Members** to engage in specific activities on a routine basis, in particular
-a weekly progress meeting.
-
 Below, we describe the *states* a Curated Content issue can
 move through from inception to disposition. In each state, there are only a few
 *directions* (e.g. new states) an issue may move. Those are the bullets under
