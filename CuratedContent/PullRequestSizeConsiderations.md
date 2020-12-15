@@ -3,9 +3,9 @@
 <!-- deck text start -->
 Developers new to peer review via the Pull Request workflow supported by
 hosting providers like GitHub, GitLab, etc., may not appreciate the
-impact of the *size* of the PR on productivity. This article outlines some
-issues and provides some links to several supporting articles about
-the impact of PR size on productivity.
+impact of the *size* of the PR on overall productivity of the team.
+This article outlines some issues and provides some links to several
+supporting articles about the impact of PR size on productivity.
 <!-- deck text end --> 
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
@@ -15,14 +15,14 @@ A Pull Request (PR) is a batch of *related* code changes on one branch of develo
 submitted for review prior to merging into another branch. The
 [*size* of a PR](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
 is typically measured in terms of number of changes (files and/or lines of code). Some
-of the ways in which PR size impacts software quality and productivity are...
-
-* The *bigger* the PR, the more work the *submitter* of the PR imposes upon the *reviewer(s)*.
-* The bigger the PR, the more difficult it will be for reviewers to schedule the time
-needed to review it.
-* The bigger the PR, the more likely already overburden reviewers will
-  * Put off even starting the review.
-  * Give only a cursory (rubber-stamp) review defeating the whole purpose of review.
+of the ways in which PR size impacts software quality and productivity are described
+below. The bigger a PR is...
+* ...the more work reviewing the PR involves.
+* ...the harder it is to divy up review work.
+* ...the more difficult it will be for reviewers to schedule the time needed to review it.
+* ...the more likely already overburden reviewers will put off even starting the review.
+* ...the more likely a first reviewer will give only a cursory review.
+* ...the more likely a second reviewer will merely rubber-stamp a review already approved by a first reviewer.
 * There is an inverse correlation between PR size and defect
 rate.<sup>[1](https://sback.it/publications/icse2018seip.pdf),
 [2](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf),
@@ -70,6 +70,9 @@ during re-modeling and construction.
   * https://www.thedroidsonroids.com/blog/splitting-pull-request
 * What if your pushing one PR in a series and the reviewers don't know this? They
 may likely wonder why you've pushed the PR without having an idea where your headed.
+* analogy with home remodeling
+* code you are aiming to merge into is changing...more time = more changes to have to integrate
+* idea about an "integration" branch
 
 During this transition period, there would be agreement not to make any public releases
 or change Autotools build logic in any significant way (small changes could be accomodated).
@@ -86,3 +89,13 @@ into its own PR? It could. On the other hand, the overhead involved of creating 
 and PRs, running and waiting for CI, applying the changes to both a release and development
 branch and perhaps adding seperate entries to a release notes file not to mention all the
 additional notification traffic may be more than its worth.
+
+Methods for handling
+
+* [Stacked Pull Requests](https://www.michaelagreiler.com/stacked-pull-requests/)
+* [More on stacked PRs](https://divyanshu013.dev/blog/code-review-stacked-prs/)
+* [Stacked Diffs](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
+* [Useful Git Commands for Splitting a PR that has become unmanabeable](https://derwolfe.net/2016/01/23/splitting-up-pull-requests/)
+* [Temporary SE (scaffolding) strategies](https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/)
+* [GitHub API tools](https://github.com/marketplace/stacked-pull-requests)
+* [Google's Billion Lines of Code](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext)
