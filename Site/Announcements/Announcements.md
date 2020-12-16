@@ -1,11 +1,14 @@
 # BSSw Announcements
 
 Announcement:
-- [Events at SC20 related to producing better scientific software ... Please join us there!](../../Events/SC20-sw-events.md)
-- Display dates: 10/29/2020 - 11/20/2020
+- [New blog article ... Introducing the 2021 BSSw Fellows](../../Articles/Blog/2020-12-2021BSSwFellowshipAnnouncement.md)
+- Display dates: 12/16/2020 - 01/03/2019
 
 
 <!--
+- [Events at SC20 related to producing better scientific software ... Please join us there!](../../Events/SC20-sw-events.md)
+- Display dates: 10/29/2020 - 11/20/2020
+
 - [Applications for the 2021 BSSw Fellowship Program due by September 30](../../Articles/Blog/BSSwFellowshipApplicationsOpen2020.md)
 - Display dates: 09/11/2020 - 9/30/2020
 
