@@ -2,7 +2,7 @@
 
 Announcement:
 - [New blog article ... Introducing the 2021 BSSw Fellows](../../Articles/Blog/2020-12-2021BSSwFellowshipAnnouncement.md)
-- Display dates: 12/16/2020 - 01/03/2019
+- Display dates: 12/16/2020 - 01/03/2021
 
 
 <!--
