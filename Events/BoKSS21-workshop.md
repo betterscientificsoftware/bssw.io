@@ -35,7 +35,7 @@ Workshop papers will use a single blind submission process. All submitted papers
 #### Contributed by BSSw.io team
 
 <!---
-Publish:  preview
+Publish: yes
 Categories: Collaboration
 Topics: conferences and workshops
 RSS-update: 2020-18-12
