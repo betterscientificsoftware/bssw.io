@@ -38,7 +38,5 @@ Workshop papers will use a single blind submission process. All submitted papers
 Publish:  preview
 Categories: Collaboration
 Topics: conferences and workshops
-Level: 2
-Prerequisites: default
-Aggregate: none
+RSS-update: 2020-18-12
 --->
