@@ -1,11 +1,19 @@
 **Year:** 2021
+
 **Name:** Marisol García-Reyes
+
 **Affiliation:** Farallon Institute
+
 **Image:** /images/blob/master/People_GarciaReyes.jpg 
+
 **URL:** http://www.faralloninstitute.org/marisol 
+
 **LinkedIn:** http://www.linkedin.com/in/marisol-garcia-reyes 
+
 **Github:** http://www.github.com/marisolgr 
+
 **Short Bio:** Increasing accessibility of data & cloud technologies
+
 **Long Bio:** 
 ### Increasing accessibility of data (e.g. satellite data) & cloud technologies to a broad scientific community through easy-to-follow Python tutorials
 Marisol is developing an online tutorial with comprehensive examples, that teaches how to easily access data increasingly available in the cloud (e.g. earth sciences satellite data), and analyze and visualize the data using cloud computing resources. The tutorial provides foundations in Python programming and reproducible research using Jupyter Notebooks, Git, software citations, and cloud computing.  Even with recent advances in technology and accessibility, the gap between students and scientists who can use these data keeps growing, as it requires expertise in computer sciences or to overcome a steep learning curve. This tutorial aims to lower the barrier to entry and broaden the community of scientists and students that have access to and can use satellite data and cloud computing resources.  The tutorial is designed for those whose expertise is not satellite imagery or those that lack the necessary programming proficiency to use these data.
