@@ -31,7 +31,7 @@ For deadlines, important dates and updates, please visit the [Collaborations Wor
 #### Contributed by 
 
 <!---
-Publish: preview
+Publish: yes
 Categories: Collaboration
 Topics: conferences and workshops
 RSS-update: 2020-16-12
