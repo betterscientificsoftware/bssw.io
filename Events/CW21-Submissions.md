@@ -1,4 +1,4 @@
-# Call for Submissions: Collaborations Workshop 2021 (CW21)
+# The Collaborations Workshop 2021 (CW21)
 
 - Date: 2021-03-30 -- 2021-04-01
 - Location: Online
@@ -12,9 +12,9 @@ The Collaborations Workshop 2021 (CW21) offers unique opportunities for CW21 par
 Event Information | Details
 :--- | :---		
 Event Name | Collaborations Workshop 2021 (CW21)
-Event Date and Time | 2021-03-30 to 2021-04-01
+Event Date and Time | March 30, 2021 to April 1, 2021
 Website | https://www.software.ac.uk/cw21
-Submission deadlines | 2020-01-31. Please see event website for deadline update.
+Submission deadlines | Jan 31, 2021. Please see event website for deadline update.
 
 ### Collaborations Workshop 2021
 
@@ -26,7 +26,7 @@ Mini-workshop and demo sessions offer unique opportunities for CW21 participants
 
 CW21 is also calling for submissions for participant-led social activities to take place during their social programme! Ideas can include a netoworking or social activity, a board game night, a yoga or mediation session, a Bird of a Feather session, or any other suggestions.
 
-The deadline for submissions is 23:59 GMT on Sunday, 31 January 2021. For other deadlines, important dates and updates, please visit the [Collaborations Workshop 2021 (CW21) website](https://www.software.ac.uk/news/call-submissions-collaborations-workshop-2021).
+For deadlines, important dates and updates, please visit the [Collaborations Workshop 2021 (CW21) website](https://www.software.ac.uk/news/call-submissions-collaborations-workshop-2021).
 
 #### Contributed by 
 
