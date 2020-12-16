@@ -1,6 +1,6 @@
 # The First International Workshop on the Body of Knowledge for Software Sustainability (BoKSS’21)
 
-- Date: 2021-05-23 -- 2021-05-29
+- Date: May 23, 2021 - May 29, 2021
 - Location: Online
 - Event Website: https://bokss.github.io/bokss2021/
 - Organizers: International Conference on Software Engineering (ICSE 2021)
