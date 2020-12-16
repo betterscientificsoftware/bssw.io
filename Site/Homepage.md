@@ -14,7 +14,7 @@ Slide3 R: images/raw/master/Resource_1120_RemotePanel.png
 Slide4 L: blog_posts/recent-successes-with-psip-on-hdf5
 Slide4 R: images/raw/master/Blog_1120_PSIP_HDF5_BlackHole.png
 Slide5 L: events/panel-year-in-review-what-have-we-learned-so-far
-Slide5 R: items/a-collection-of-resources-for-sustaining-open-source-software
+Slide5 R: events/webinar-extreme-scientific-software-stack-e4s
 Slide6 R: items/software-and-workflow-development
 Slide6 L: items/scientific-software-bloggers-worth-following
 --->

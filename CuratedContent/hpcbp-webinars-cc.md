@@ -26,7 +26,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2020-11-06*
+*Listed in reverse chronological order. Last updated: 2020-12-16*
 
 
 
@@ -34,6 +34,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Software Design for Longevity with Performance Portability*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar047), Anshu Dubey (Argonne National Laboratory), 2020-12-09
 
 
 
@@ -405,7 +413,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2020-11-06
+#### Publication date: 2020-12-16
 
 <!---
 Publish: yes
