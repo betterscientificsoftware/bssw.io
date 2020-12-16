@@ -1,12 +1,22 @@
 
-# 2021 International Workshop on Software Engineering for Computational Science
+# 2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)
 
-- Date: TBD during June 16-18, 2021 (as part of [ICCS 2021](https://www.iccs-meeting.org/iccs2021/))
-- Location: Krakow, Poland
-- Event Website:
-http://se4science.org/workshops/se4science21/
+- Date: June 16, 2021 to June 18, 2021
+- Location: Krakow, Poland & Virtual
+- Event Website: http://se4science.org/workshops/se4science21/
+- Organizers:  The International Conference on Computational Science (ICCS)
 
+<!-- begin deck text -->
 The International Workshop on Software Engineering for Computational Science provides a venue for the software engineers, research software engineers, and computational scientists to discuss issues of common interest.
+<!-- end deck text -->
+
+Event Information | Details
+:--- | :---			   
+Event Name | [2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)](https://se4science.org/workshops/se4science21/index.htm), in conjunction with the [International Conference on Computational Science (ICCS)](https://www.iccs-meeting.org/iccs2021/)
+Event Date | June 16, 2021 to June 18, 2021
+Website | https://bokss.github.io/bokss2021/
+Submission Deadline | January 15, 2021. Please see event website for deadline updates.
+Registration and Other Information | https://www.iccs-meeting.org/iccs2021/
 
 **Description:**
 
@@ -18,9 +28,6 @@ The goals of this workshop are to:
 - Identify key areas of study where participants agree there is a lack of existing data or studies.
 - Support the building of a common research agenda to address the complex software development issues typical of research software.
 - Provide a venue for sharing early work and work-in-progress to obtain feedback from the wider community.
-
-### Call for Papers
-**Submission deadline: TBD - Late January 2021**: See https://se4science.org/workshops/se4science21/cfp.htm
 
 #### Contributed by [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile")
 
