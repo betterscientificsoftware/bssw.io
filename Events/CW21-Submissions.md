@@ -11,7 +11,7 @@ The Collaborations Workshop 2021 (CW21) offers unique opportunities for CW21 par
 
 Event Information | Details
 :--- | :---		
-Event Name | Collaborations Workshop 2021 (CW21)
+Event Name | [Collaborations Workshop 2021 (CW21)](https://www.software.ac.uk/cw21)
 Event Date and Time | March 30, 2021 to April 1, 2021
 Website | https://www.software.ac.uk/cw21
 Submission deadlines | Jan 31, 2021. Please see event website for deadline update.
