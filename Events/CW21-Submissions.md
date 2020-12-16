@@ -1,6 +1,6 @@
 # The Collaborations Workshop 2021 (CW21)
 
-- Date: March 30, 2021 - April1, 2021
+- Date: March 30, 2021 - April 1, 2021
 - Location: Online
 - Event Website: https://www.software.ac.uk/cw21
 - Organizers: Software Sustainability Institute
