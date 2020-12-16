@@ -1,11 +1,19 @@
 **Year:** 2021
+
 **Name:** Mary Ann Leung
+
 **Affiliation:** Sustainable Horizons Institute
+
 **Image:** /images/blob/master/People_Leung.jpg
+
 **URL:** http://shinstitute.org/category/our-team2/
+
 **LinkedIn:** https://www.linkedin.com/in/maleung/ 
+
 **Github:** https://github.com/maleung
+
 **Short Bio:** Increasing developer productivity and innovation through diversity 
+
 **Long Bio:** 
 ### Increasing developer productivity and innovation through diversity and the normalization of inclusion
 According to a DOE Advanced Scientific Advisory Committee Workforce Subcommittee Letter in 2014, DOE labs are facing workforce challenges and need to develop more effective techniques to attract and sustain a full spectrum of talent. The letter also calls for new approaches to recruiting and retaining computing sciences staff, especially those from underrepresented backgrounds such as women and minorities.  To address the challenge to develop, retain, and diversify the workforce, Mary Ann is developing guidelines, including best practices and exemplar programs and activities, that the scientific software development community can adopt, adapt, and put into practice.  This will be accomplished by (1) facilitating community discussion to scope the needs and collect best practices and (2) disseminating the guidelines in both written and presentation formats. These activities will increase awareness and knowledge of key issues and approaches to diversity and inclusion.
