@@ -40,9 +40,11 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
 
 Example:
-   * `Date: November 16, 2020`
+   * `Date: November 16, 2020` OR `Date: July 21, 2020 - July 23, 2020`
    * `Location: Online`
    * `Event Website: https://us-rse.org/rse-hpc-2020`
+   * `Organizers: Foo`
+
 
 ## Main Body Section
 ### General Guidelines
