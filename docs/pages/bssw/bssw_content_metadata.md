@@ -18,7 +18,7 @@ Publish: yes
 Pinned: no
 Categories: planning, reliability
 Topics: software engineering, testing
-RSS update: 2020-07-30
+RSS update: 2020-12-17
 --->
 ```
 
@@ -35,9 +35,13 @@ Following is the set of metadata parameters used on the BSSw.io, currently.
 
 ### Publish
 This is used to decide if the content needs to be published, previewed or not on the BSSw front-end site.
-- publish: preview
-- publish: yes
-- publish: no
+````
+publish: preview
+
+publish: yes
+
+publish: no
+````
 
 BSSw.io has a stand-alone website for previewing content before publishing. Using 'publish: preview' ensures that content is visible on the preview website and not on the main site.
 Only files designated as 'publish: yes' will be published on the front-end BSSw site. 
@@ -45,11 +49,18 @@ Work that has not been finalized or is not intended for the front-end site shoul
 
 ### Pinned
 This is used to decide if a content needs to show up as "recommended", when a particular category or topic is selected. Recommended articles will show up on the top of the list of articles. Only 1-2 articles are supposed to be listed as "recommended" at a given time in each topic area. Selecting a category will show up all the recommended articles of all the topic areas that comprise that category.
-- pinned: yes
-- pinned: no
+````
+pinned: yes
+
+pinned: no
+````
 
 ### Categories
 Categories are displayed on BSSw.io and provide easier navigation and content searching by the readers. Each article can belong to one or more categories. **The BSSw editorial team may add/revise categories as needed over time.**
+
+````
+Categories: planning, reliability
+````
 
 The current categories are as follows:
 - Planning
@@ -62,6 +73,10 @@ The current categories are as follows:
 ### Topics
 
 Each category has several finer grain topics under it. Topics are visible filters via BSSw website interface. A family of topics that make sense together are grouped together in a category. There are around 4-7 topics per category. **The BSSw editorial team may add/revise topics as needed over time.**
+
+````
+Topics: software engineering, testing
+````
 
 The current topics are as follows:
 
@@ -102,7 +117,10 @@ The current topics are as follows:
     - Personal productivity and sustainability
     
 ### RSS update
-This is used to set thee date for RSS update in format yyyy-mm-dd
+This is used to set thee date for RSS update in format yyyy-mm-dd.
+````
+RSS update: 2020-12-17
+````
 
 ## Deprecated metadata
 
