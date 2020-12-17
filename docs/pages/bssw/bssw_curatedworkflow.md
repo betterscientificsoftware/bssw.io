@@ -106,7 +106,7 @@ and subsequently issues in columns further to the left.
 
 ## Notes
 
-### If a Suggested Contribution is submitted as a Pull Request (PR) Instead of an Issue
+### A Suggested Contribution is submitted as a PR Instead of an Issue
 
 If a contributor creates and posts a PR for a suggested contribution instead of using an Issue
 as described above, then the PR will be treated as an Issue in the above process starting
