@@ -38,8 +38,8 @@ For deadlines, important dates and updates, please visit the [SE4Science'21](htt
 #### Publication date: December 16, 2020
 
 <!---
-Publish: preview
+Publish: yes
 RSS update: 2020-12-16
 Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Topics: conferences and workshops
 --->
