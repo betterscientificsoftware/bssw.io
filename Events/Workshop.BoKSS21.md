@@ -6,7 +6,7 @@
 - Organizers: International Conference on Software Engineering (ICSE 2021)
 			   
 <!-- deck text start -->
-The BoKSS 2021  workshop will focus on the creation a knowledge base of actionable results that will transform sustainable software engineering practices from a novel research area into a robust, repeatable, teachable practice area within software engineering.
+The BoKSS 2021  workshop will focus on the creation of a knowledge base of actionable results that will transform sustainable software engineering practices from a novel research area into a robust, repeatable, teachable practice area within software engineering.
 <!-- deck text end -->
 
 Event Information | Details
@@ -14,7 +14,7 @@ Event Information | Details
 Event Name | [1st International Workshop on the Body of Knowledge for Software Sustainability (BoKSS’21)](https://bokss.github.io/bokss2021/)
 Event Date | May 23, 2021 to May 29, 2021
 Website | https://bokss.github.io/bokss2021/
-Submission Deadline | 2021-01-12. Please see event website for deadline updates.
+Submission Deadline | January 12, 2021. Please see event website for deadline updates.
 
 ### Theme and Goals
 
@@ -29,7 +29,7 @@ In addition to the knowledge base mentioned above, the envisaged workshop outcom
 ### Submission Guidelines
 Prospective participants are invited to submit two types of contributions:  (1) Full papers (max 8 pages), (2) Extended abstracts (max 2 pages). Both types of contributions have to follow a well-defined structure, which can be found on the workshop website.
   
-Workshop papers will use a single blind submission process. All submitted papers will be reviewed on the basis of technical quality, relevance, significance, and clarity by the program committee.Accepted papers will become part of the workshop proceedings.
+Workshop papers will use a single blind submission process. All submitted papers will be reviewed on the basis of technical quality, relevance, significance, and clarity by the program committee. Accepted papers will become part of the workshop proceedings.
 
 
 #### Contributed by BSSw.io team
