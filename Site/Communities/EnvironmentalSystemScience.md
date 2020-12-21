@@ -2,7 +2,7 @@
 
 Flexible mechanistic modeling and simulation are critical for addressing important environmental questions.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' class='logo' />  
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_110619.png' class='logo' />  
 
 The Environmental System Science Community considers questions such as the prediction of water availability and quality from watersheds under prolonged drought and warming temperatures. Integrated multidisciplinary projects in the DOE Office of Biological and Environmental Research (BER) are developing mechanistic process-rich models of nutrient and carbon cycling and are collecting field and laboratory data to help inform and constrain these models.  
 
@@ -13,7 +13,7 @@ These science questions raise many software challenges.  While legacy codes must
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' class='logo' /> 
+  <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_110619.png' class='logo' /> 
 </div>  
 
 <div class='short_bio'>
