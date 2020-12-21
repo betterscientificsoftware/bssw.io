@@ -15,7 +15,7 @@ Event Information | Details
 Event Name | [2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)](https://se4science.org/workshops/se4science21/index.htm), in conjunction with the [International Conference on Computational Science (ICCS)](https://www.iccs-meeting.org/iccs2021/)
 Event Date | June 16, 2021 to June 18, 2021
 Website | https://se4science.org/workshops/se4science21
-Submission Deadline | Late January 2021. Please see event website for exact deadline and future updates.
+Submission Deadline | Jan 15, 2021. Please see event website for exact deadline, extensions and future updates.
 
 **Description:**
 
@@ -39,7 +39,7 @@ For deadlines, important dates and updates, please visit the [SE4Science'21](htt
 
 <!---
 Publish: yes
-RSS update: 2020-12-16
+RSS update: 2020-12-22
 Categories: development, collaboration
 Topics: conferences and workshops
 --->
