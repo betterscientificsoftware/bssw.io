@@ -31,11 +31,36 @@ required for each panel.
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Panels
-*Listed in reverse chronological order. Last updated: 2020-11-05*
+*Listed in reverse chronological order. Last updated: 2020-12-21*
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+- [*Year in Review: What Have We Learned So Far?*](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel007), Lori Diachin (Exascale Computing Project and Lawrence Livermore National Laboratory), Thomas Evans (Oak Ridge National Laboratory),  and Elaine Raybourn (Sandia National Laboratories), 2020-12-17
 
 
 
@@ -189,7 +214,7 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 #### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
-#### Publication date: 2020-11-05
+#### Publication date: 2020-12-21
 
 <!---
 Publish: yes
