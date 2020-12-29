@@ -67,7 +67,7 @@ Applications are closed for the 2021 BSSw Fellowship Program.  Please check back
 </div>  
 
 <div class='img_div'>
-  <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_NSF_4-Color_Sm.png class='logo' /> 
+  <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_NSF_4Color_Sm.png' class='logo' /> 
 </div>  
 </div>
 
