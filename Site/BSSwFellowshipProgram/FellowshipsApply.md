@@ -63,6 +63,8 @@ Applications are closed for the 2021 BSSw Fellowship Program.  Please check back
 
 <br>
 
+### Proper qualifying language, and context, to explain the logos' presence on materials.
+
 <div class='fellow'>
 <div class='img_div'>
   <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_DOE_Unofficial_Sm.png' class='logo' /> 
@@ -73,4 +75,3 @@ Applications are closed for the 2021 BSSw Fellowship Program.  Please check back
 </div>  
 </div>
 
-#### Proper qualifying language, and context, to explain the logos' presence on materials.
