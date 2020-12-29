@@ -24,6 +24,10 @@ Edit this list to change resources that appear on the front-end site.
 
 * [How to Configure Software](../../CuratedContent/HowToConfigureSw.md)
 
+<br>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_DOE_Unofficial_Sm.png' class='logo' /> 
+
+
 <!---
 Publish: yes
 
