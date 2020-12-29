@@ -63,7 +63,7 @@ Applications are closed for the 2021 BSSw Fellowship Program.  Please check back
 
 <br>
 
-### Proper qualifying language, and context, to explain the logos' presence on materials.
+### The 2021 BSSw Fellowship is sponsored by the U.S. National Science Foundation and Department of Energy.
 
 <div class='fellow'>
 <div class='img_div'>
