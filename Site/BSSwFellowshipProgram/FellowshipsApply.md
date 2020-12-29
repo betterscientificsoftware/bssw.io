@@ -61,6 +61,8 @@ Applications are closed for the 2021 BSSw Fellowship Program.  Please check back
 - <mark>Application deadline: Wednesday, September 30, 2020</mark>; this is a firm deadline that will not be extended.
 -->
 
+<br>
+
 <div class='fellow'>
 <div class='img_div'>
   <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_DOE_Unofficial_Sm.png' class='logo' /> 
