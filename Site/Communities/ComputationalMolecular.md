@@ -2,6 +2,10 @@
 
 Computational molecular science (CMS) encompasses the fields of quantum chemistry, materials science, and biomolecular simulation, including both atomistic and coarse-grained models — ranging from classical molecular dynamics to quantum mechanics and the hierarchy of models in between.
 
+<br>
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_DOE_Unofficial_Sm.png' class='logo' /> 
+<br>
+
 CMS has provided unprecedented levels of insight into a wide range of chemical, biological, and soft matter and solid-state phenomena. Today tens of thousands of chemists, biologists, physicists, and geologists worldwide make use of the software the CMS community has produced. While these scientists strive globally to address vital questions in their fields, CMS software development faces daunting software obstacles of its own, as well as new opportunities. 
 
 - [NSF Software Infrastructure for Sustained Innovation](https://www.nsf.gov/pubs/2016/nsf16532/nsf16532.htm "NSF SI2 Homepage")
