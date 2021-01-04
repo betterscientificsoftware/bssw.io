@@ -7,7 +7,7 @@
 
 #### Publication date: January 6, 2021
 
-And 2020 wraps! What a year it has been!  I would like to take this opportunity to thank the BSSw international community for rallying together and helping our readers deal with the ambiguity  that arose with sudden challenges of remote working, effective virtual collaborations, and work-family life balance. We are thankful for the thoughtful articles/contributions that were made to the BSSw.io site that helped navigate some of these challenges. In this blog article, we list some of the articles that most interested our readers. As we move into 2021, the BSSw editorial team wishes the entire community a healthy and safer new year and a hope that the worst of the pandemic is behind us. Happy new year!!
+And 2020 wraps! What a year it has been!  I would like to take this opportunity to thank the BSSw international community for rallying together and helping our readers deal with the ambiguity  that arose with sudden challenges of remote working, effective virtual collaborations, and work-family life balance. We are thankful for the thoughtful articles/contributions that were made to the BSSw.io site that helped navigate some of these challenges. In this blog, we list some of the articles that most interested our readers. As we move into 2021, the BSSw editorial team wishes the entire community a healthy and safer new year and a hope that the worst of the pandemic is behind us. Happy new year!!
 
 
 ### Better Planning:
@@ -31,7 +31,6 @@ And 2020 wraps! What a year it has been!  I would like to take this opportunity 
 - [Software and Workflow Development](https://bssw.io/items/software-and-workflow-development), P. Grubel
 - [The Collegeville Workshop Series on Scientific Software](https://bssw.io/items/the-collegeville-workshop-series-on-scientific-software), M. Heroux
 - [Porting the Ginkgo Package to AMD's HIP Ecosystem](https://bssw.io/blog_posts/porting-the-ginkgo-package-to-amd-s-hip-ecosystem), H. Anzt
-- [Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation), R. Zamora
 
 ### Better Performance:
 - [Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project), A. Dubey
