@@ -9,6 +9,17 @@
 
 And 2020 wraps! What a year it has been!  I would like to take this opportunity to thank the BSSw international community for rallying together and helping our readers deal with the ambiguity  that arose with sudden challenges of remote working, effective virtual collaborations, and work-family life balance. We are thankful for the thoughtful articles/contributions that were made to the BSSw.io site that helped navigate some of these challenges. In this blog, we list some of the articles that most interested our readers. As we move into 2021, the BSSw editorial team wishes the entire community a healthy and safer new year and a hope that the worst of the pandemic is behind us. Happy new year!!
 
+### Better Skills:
+- [Virtual Meeting Tools and Features for the HPC/CSE Community](https://bssw.io/items/virtual-meeting-tools-and-features-for-the-hpc-cse-community), M. Miller
+- [Remote Working in an Agile World](https://bssw.io/items/remote-working-in-an-agile-world), R. Bartlett
+- [Cleaning Your Work Surfaces: One Way to Help Flatten the Curve](https://bssw.io/blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve), M. Miller
+- [Resources for Maximizing Remote Working](https://bssw.io/items/resources-for-maximizing-remote-working), E. Raybourn
+- [Coded Bias: A Film Highlighting Issues of Bias in AI Software](https://bssw.io/items/coded-bias-a-film-highlighting-issues-of-bias-in-ai-software), M. Miller
+- [Tips for Producing Online Panel Discussions](https://bssw.io/items/tips-for-producing-online-panel-discussions), E. Raybourn
+- [A List of Free Online Programming and Computer Science Courses](https://bssw.io/items/a-list-of-free-online-programming-and-computer-science-courses), R. Gupta
+- [Using Personal Kanban for Productivity](https://bssw.io/items/using-personal-kanban-for-productivity), P. Grubel
+- [Best Practices for HPC Software Developers Webinar Series](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques
+
 
 ### Better Planning:
 - [Recent Successes with PSIP on HDF5](https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5),  M. Miller, E. Pourmal, and E. Gonsiorowski 
@@ -40,7 +51,6 @@ And 2020 wraps! What a year it has been!  I would like to take this opportunity 
 ### Better Collaboration:
 - [A Collection of Resources for Sustaining Open Source Software](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software), T. Gamblin
 - [The RSE-HPC-2020 Workshop: Creating Community, Building Careers, Addressing Challenges](https://bssw.io/blog_posts/the-rse-hpc-2020-workshop-creating-community-building-careers-addressing-challenges), C. Ferenbaugh, S. Gesing, S. Hettrick and D. Katz
-- [An Introduction to National RSE Organizations](https://bssw.io/items/an-introduction-to-national-rse-organizations), R. Gupta
 - [Scientific Software Bloggers Worth Following](https://bssw.io/items/scientific-software-bloggers-worth-following), D. Bernholdt
 - [Increasing Productivity by Broadening Participation in Scientific Software Communities](https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities), M. A. Leung, D. Rouson and L.C McInnes
 - [The Four Pillars of Research Software Engineering](https://bssw.io/items/the-four-pillars-of-research-software-engineering), R. Gupta
@@ -48,18 +58,7 @@ And 2020 wraps! What a year it has been!  I would like to take this opportunity 
 - [2019 BSSw Fellows Guide Developers through Each Stage of the Scientific Software Lifecycle](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle), H. A. Nam, R. Gassmoeller, I. Laguna, T. Malik and K. Niemeyer
 - [A Minisymposium on Improving Productivity and Sustainability for Parallel Computing Software](https://bssw.io/items/a-minisymposium-on-improving-productivity-and-sustainability-for-parallel-computing-software), R. Gupta
 - [Scientific Software Projects and Their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities), Rene Gassmoeller
-
-
-### Better Skills:
-- [Virtual Meeting Tools and Features for the HPC/CSE Community](https://bssw.io/items/virtual-meeting-tools-and-features-for-the-hpc-cse-community), M. Miller
-- [Remote Working in an Agile World](https://bssw.io/items/remote-working-in-an-agile-world), R. Bartlett
-- [Cleaning Your Work Surfaces: One Way to Help Flatten the Curve](https://bssw.io/blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve), M. Miller
-- [Resources for Maximizing Remote Working](https://bssw.io/items/resources-for-maximizing-remote-working), E. Raybourn
-- [Coded Bias: A Film Highlighting Issues of Bias in AI Software](https://bssw.io/items/coded-bias-a-film-highlighting-issues-of-bias-in-ai-software), M. Miller
-- [Tips for Producing Online Panel Discussions](https://bssw.io/items/tips-for-producing-online-panel-discussions), E. Raybourn
-- [A List of Free Online Programming and Computer Science Courses](https://bssw.io/items/a-list-of-free-online-programming-and-computer-science-courses), R. Gupta
-- [Using Personal Kanban for Productivity](https://bssw.io/items/using-personal-kanban-for-productivity), P. Grubel
-- [Best Practices for HPC Software Developers Webinar Series](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques
+- [An Introduction to National RSE Organizations](https://bssw.io/items/an-introduction-to-national-rse-organizations), R. Gupta
 
 
 
