@@ -54,7 +54,7 @@ And 2020 wraps! What a year it has been!  I would like to take this opportunity 
 - [The Four Pillars of Research Software Engineering](https://bssw.io/items/the-four-pillars-of-research-software-engineering), R. Gupta
 - [2019 BSSw Fellows Guide Developers through Each Stage of the Scientific Software Lifecycle](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle), H. A. Nam, R. Gassmoeller, I. Laguna, T. Malik and K. Niemeyer
 - [A Minisymposium on Improving Productivity and Sustainability for Parallel Computing Software](https://bssw.io/items/a-minisymposium-on-improving-productivity-and-sustainability-for-parallel-computing-software), R. Gupta
-- [Scientific Software Projects and Their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities), Rene Gassmoeller
+- [Scientific Software Projects and Their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities), R. Gassmoeller
 - [An Introduction to National RSE Organizations](https://bssw.io/items/an-introduction-to-national-rse-organizations), R. Gupta
 - [Research Software Engineer Stories](https://bssw.io/blog_posts/research-software-engineer-stories),  V. Sochat
 
