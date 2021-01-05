@@ -58,7 +58,7 @@ And 2020 wraps! What a year it has been!  I would like to take this opportunity 
 - [Research Software Engineer Stories](https://bssw.io/blog_posts/research-software-engineer-stories),  V. Sochat
 
 
-### Building a better scientific software community through Your contributions
+### Building a better scientific software community through your contributions
 
 We welcome your interest in joining the the BSSw community in raising awareness of the importance of good software practices to scientific productivity.  The BSSw site provides a venue to share information and experiences on scientific software issues.   If you have experience or expertise that can help other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).  We welcome original articles, blog posts, curated links (brief articles that highlight other web-based content), and [event announcements](https://bssw.io/events).
 
