@@ -39,7 +39,7 @@ And 2020 wraps! What a year it has been!  I would like to take this opportunity 
 - [Software and Workflow Development](https://bssw.io/items/software-and-workflow-development), P. Grubel
 - [Porting the Ginkgo Package to AMD's HIP Ecosystem](https://bssw.io/blog_posts/porting-the-ginkgo-package-to-amd-s-hip-ecosystem), H. Anzt
 
-### Better Performance:
+### Better performance:
 - [Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project), A. Dubey
 - [The Apollo Guidance Computer in Depth](https://bssw.io/items/the-apollo-guidance-computer-in-depth), M. Miller
 
