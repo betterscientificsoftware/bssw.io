@@ -6,14 +6,6 @@ permalink: bssw_curatedworkflow.html
 
 # Editorial Workflow for BSSw.io Curated Content
 
-This description of workflow for content development of Curated Content ideas
-is based entirely on [earlier workflow document](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/80d90aef9b9df524a3397425a5a09e1d6f880b70/Site/CuratedContentEditorialWorkflow.md)
-which has since been deleted.
-
-A key difference in this alternative workflow is that it explicitly requires
-**EB Members** to engage in specific activities on a routine basis, in particular
-a weekly progress meeting.
-
 Below, we describe the *states* a Curated Content issue can
 move through from inception to disposition. In each state, there are only a few
 *directions* (e.g. new states) an issue may move. Those are the bullets under
@@ -31,7 +23,7 @@ each of the numbered steps in the description below.
 ## Curated Content States
 
 1. **Anyone** with a GitHub account may submit ideas for curated content articles
-   using curated content issue template by anyone with a GitHub account.
+   using the curated content issue template.
 1. **EB Members** meet every week for a half-hour meeting to consider new
    issue submissions, update on progress of current content development tasks, assign
    members new work. During such meetings, the **EB Member** leading the meeting for that
@@ -49,43 +41,43 @@ each of the numbered steps in the description below.
      and removed from the "Curated Content" project board.
    * The issue is considered a candidate for further development and moved to
      *Topic Review*.
-1. Issues in *Topic Review* are handled as follows
+1. Issues in *Topic Review* are handled as follows:
    * Interest in an item in *Topic Review* is expressed via GitHub
      [*reaction* emojis](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)
-     thumbs up (:+1:) to indicate interest or thumbs down (:-1:) to indicate undesireability.
+     thumbs up (:+1:) to indicate interest or thumbs down (:-1:) to indicate undesirability.
      Such reactions shall be added to the *original* comment either as **EB Members** happen
      to encounter the issues or during the weekly meetings.
    * Sufficient interest is considered to be a thumbs up count of two more than the thumbs down
      count.
-   * Any more than 30 days old that have *not* garnered sufficient interest are labeled
+   * Any issues more than 30 days old that have *not* garnered sufficient interest are labeled
      as `no interest` and closed.
-   * Any issues with sufficient interest are either moved to *Ready For Assignment* or *Ready To Write*. 
-     An issue with sufficient interest but no ready author or EB member is moved to *Ready For Assignment*.
-     In contrast, a *Ready To Write*  must have an **Author** and an **EB Member** who 
+   * Any issues with sufficient interest are either moved to *Ready to Write* or *In Progress*. 
+     An issue with sufficient interest but no author or EB member is moved to *Ready to Write*.
+     In contrast, an *In Progress* issue must have an **Author** and an **EB Member** who 
      is different from the **Author**.
      The **EB Member** will be the assignee of the issue. The **Author** will be indicated
      by a reference at the top of the first comment in the issue (*not* an **@** reference, 
      use  `Author:Foo1`, `Author:Foo2` to allow for searches). Finally, a deadline is set by
      assigning a milestone.
-1. Issues in *Ready For Assignment* are handled as follows
-   * An issue is moved to *Ready To Write* if a EB member is set as assignee and confirmed author 
-     recorded in main issue body in the first line. 
-1. Issues in *Ready To Write* are handled as follows
+1. Issues in *Ready to Write* are handled as follows:
+   * An issue is moved to *In Progress* if an **EB member** is set as assignee and a confirmed author is
+     recorded in the first line of the main issue body. 
+1. Issues in *In Progress* are handled as follows:
    * Issues in jeopardy of making deadline are reviewed and discussed. Authors are
      nudged and/or deadlines are adjusted.
    * Issues that are woefully beyond deadline are labeled as `no-development` and closed.
    * **Author**s submit Pull Requests (PR) for completed work
      * Add GitHub issue `#<issue-id>` to PR 
-     * Manually add to *Ready To Write* on *Content Development* project board.
+     * Manually add to *In Progress* on the *Content Development* project board.
      * Copy details from the issue to the PR: (1) "Assignee" field to indicate EB member, 
        (2) Author name is indicated on first line. 
      * Close the associated Issue, add comment that continued discussion will occur in the 
-       PR `#<pr-id>`, and remove from the "Curated Content" board. (Unless a PR was created
-       from the start instead of an Issue, see below.)
+       PR `#<pr-id>`, and remove the issue from the "Content Development" board. (Unless a PR was created
+       from the start instead of an Issue, see note below.)
      * PRs that are ready to be reviewed are  moved to *Item Review*
-       * Curated content PRs require and 1 reviewer.
-       * Blog articles require 2 reviewers.
-1. Pull Requests in *Item Review* are handled as follows.
+       * Curated content PRs require one reviewer.
+       * Blog articles require two reviewers.
+1. Pull Requests in *Item Review* are handled as follows:
    * Unapproved PRs are reviewed on the spot and approved or not. If no approval is
      forthcoming, revisions required by author are explained in review comments in the
      PR (if they have not already by preceding review(s)).
@@ -100,8 +92,8 @@ each of the numbered steps in the description below.
    * A PR is moved from *Ready To Publish* to *Done* once (1) Formatting is checked on 
      preview site (2) Metadata is complete, (3) Metadata "publish" is set to "yes"
 1. Milestones (deadlines) are reviewed to ensure any items intended for a given
-   date are either completed, have reliable commitments they will be completed
-   by deadline or are re-assigned a new milestone deadline.
+   date are completed, have reliable commitments to be completed
+   by deadline, or are re-assigned a new milestone deadline.
 
 ## Editorial Workflow
 
@@ -114,8 +106,9 @@ and subsequently issues in columns further to the left.
 
 ## Notes
 
-### If a PR is Added Instead of an Issue for a Suggeted Contribution
-If a contributor creates and posts a PR for a suggeted contribution instead of using an Issue
+### A Suggested Contribution is submitted as a PR Instead of an Issue
+
+If a contributor creates and posts a PR for a suggested contribution instead of using an Issue
 as described above, then the PR will be treated as an Issue in the above process starting
 in the *Idea Backlog.  If the PR gets to the *Ready To Write* stage, then there is no issue
 to close so the same PR is just kept open and comments in that PR continue.
@@ -131,8 +124,8 @@ for is
 * Substantially lacking in relevance to HPC/CSE software development.
 
 ### Quantization of Progress
-The key challenge in this process is the *iteration rate*. That is, how fast issues can
-move through the steps. At a meeting interval of every other week. Any issues not handled
+The key challenge in this process is the *iteration rate*, how fast issues can
+move through the steps with a meeting interval of every other week. Any issues not handled
 entirely during one meeting need to wait for the next. So, for example, suppose a
 completed PR for a CC article is in the system but hasn't been approved by its assigned
 approver. If the answer is to wait for the approver, then the item sits for two weeks

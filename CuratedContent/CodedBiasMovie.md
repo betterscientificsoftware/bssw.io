@@ -2,7 +2,7 @@
 
 <!-- deck text start -->
 The more scientific software is used in decision support, the more
-serious the effects of unintended bias become up to and including
+serious the effects of unintended bias become, up to and including
 an outright threat to civil rights.
 <!-- deck text end --> 
 
@@ -16,11 +16,11 @@ Presenter(s) | [Joy Buolamwini](https://en.wikipedia.org/wiki/Joy_Buolamwini), [
 Website | https://www.codedbias.com
 
 The 90 minute film, [*Coded Bias*](https://www.codedbias.com), discusses the
-social justice implications and impacts of of bias in software. The film is a good resource for anyone in HPC/CSE looking to add to their Inclusion toolbox. An Inclusion toolbox contains strategies, practical tools, policies and procedures to help one design and implement an inclusive program in their domain.
+social justice implications and impacts of bias in software. The film is a good resource for anyone in HPC/CSE looking to add to their Inclusion toolbox. An Inclusion toolbox contains strategies, practical tools, policies and procedures to help one design and implement an inclusive program in their domain.
 
 While the film focuses primarily on big-data and AI software, the issues it raises are equally
 applicable to any software used in decision support, including for example,
-scientific computing software. Some of the key take-aways are
+scientific computing software. Some of the key take-aways are:
   * We should beware of the tendancy to believe, sometimes falsely, automated algorithms are objective.
   * Just as the FDA regulates and oversees the safety, effectiveness and quality of
     *vaccines*, there needs to be an FDA for *algorithms*.
@@ -31,7 +31,7 @@ The film focuses on
 [the work](https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212) of
 [Joy Buolamwini](https://en.wikipedia.org/wiki/Joy_Buolamwini), founder of the
 [Algorithmic Justice League](https://www.ajl.org) in analyzing bias in facial
-recognition software where she demonstrates various product's ability to even detect
+recognition software where she demonstrates various products' ability to even detect
 a face correlates strongly with facial skin tone. The darker the subject's
 skin, the less likely the software is to make a detection.
 

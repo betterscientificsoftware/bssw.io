@@ -10,7 +10,7 @@ An in-depth article on Apollo Guidance Computer (AGC) hardware for those readers
 Resource information | Details
 :--- | :--- 
 Article Title | [A deep dive into the Apollo Guidance Computer, and the hack that saved Apollo 14](https://arstechnica.com/science/2020/01/a-deep-dive-into-the-apollo-guidance-computer-and-the-hack-that-saved-apollo-14/)
-Author | [Franke O'Brien](https://www.hq.nasa.gov/alsj/franko.html)
+Author | [Frank O'Brien](https://www.hq.nasa.gov/alsj/franko.html)
 Focus | Computing history
 
 In the years since the development of the [Apollo Guidance Computer (AGC)](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer), the technical jargon may have changed, but the HPC community continues to recognize many common themes such as flops/watt power constraints, checkpoint and restart strategies, and the need for performance portability.

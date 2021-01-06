@@ -12,7 +12,6 @@ An "Event" content is a very brief article that highlights an event. An event ar
 
 The main part of the event article consists of the (1) *Deck*, (2) *Main body* and (3) *Metadata*. A event article must follow the below style guidelines. 
 
-
 ## Deck Section
 All BSSw.io resources have a deck at the start of the article. The deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "events" and their decks.
 
@@ -41,9 +40,11 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
 
 Example:
-   * `Date: November 16, 2020`
+   * `Date: November 16, 2020` OR `Date: July 21, 2020 - July 23, 2020`
    * `Location: Online`
    * `Event Website: https://us-rse.org/rse-hpc-2020`
+   * `Organizers: Foo`
+
 
 ## Main Body Section
 ### General Guidelines
@@ -69,10 +70,10 @@ This table exists to highlight important information about the event such as eve
 
 Event Information | Details
 :--- | :---			   
-Event Name |` [Name of the event](URL), in conjunction with [Name](URL)`
-Event Date and Time | yyyy-mm-dd hh:mm timezone Or yyyy-mm-dd - yyyy-mm-dd
+Event Name |`[Name of the event](URL), in conjunction with [Name](URL)`
+Event Date and Time | MONTH dd, yyyy hh:mm timezone Or MONTH dd, yyy - MONTH dd, yyyy
 Website | URL
-Submission deadlines | yyyy-mm-dd, any short text. Add "Please see event website for deadline updates."
+Submission deadlines | MONTH dd, yyyy, any short text. Add "Please see event website for deadline updates."
 Registration and other Information| URL
 Links to the Recordings and Archives  | Please do not use words like TBD here; please add this row only if you know that there are archives available.
 

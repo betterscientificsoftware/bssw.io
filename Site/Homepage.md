@@ -7,16 +7,14 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: blog_posts/performance-portability-and-the-exascale-computing-project
 Slide1 R: images/raw/master/Blog_1220_PerfPorta.png
-Slide2 L: blog_posts/give-thanks
-Slide2 R: images/raw/master/Blog_1119_seasonal.png
-Slide3 L: items/tips-for-producing-online-panel-discussions
-Slide3 R: images/raw/master/Resource_1120_RemotePanel.png
-Slide4 L: blog_posts/recent-successes-with-psip-on-hdf5
-Slide4 R: images/raw/master/Blog_1120_PSIP_HDF5_BlackHole.png
-Slide5 L: events/panel-year-in-review-what-have-we-learned-so-far
-Slide5 R: items/a-collection-of-resources-for-sustaining-open-source-software
-Slide6 R: items/software-and-workflow-development
-Slide6 L: items/scientific-software-bloggers-worth-following
+Slide2 L: items/the-apollo-guidance-computer-in-depth
+Slide2 R: items/coded-bias-a-film-highlighting-issues-of-bias-in-ai-software 
+Slide3 L: events/panel-year-in-review-what-have-we-learned-so-far
+Slide3 R: events/webinar-extreme-scale-scientific-software-stack-e4s
+Slide4 L: blog_posts/give-thanks
+Slide4 R: images/raw/master/Blog_1119_seasonal.png
+Slide5 L: items/tips-for-producing-online-panel-discussions
+Slide5 R: images/raw/master/Resource_1120_RemotePanel.png
 --->
 
 <!---
