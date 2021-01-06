@@ -1,17 +1,18 @@
 # Argonne Training Program on Extreme-Scale Computing (ATPESC 2021)
 
-- Dates: August 1 - 13, 2021
+- Dates: August 1, 2021 - August 13, 2021
 - Location: Chicago Area, Illinois, USA
 - Event Website: https://extremecomputingtraining.anl.gov/
+- Organizers: ATPESC Team
 
 <!-- begin deck text -->
-Doctoral students, postdocs, and computational scientists are encouraged to apply to this intensive two-week course.  The call for applications is open through March 1, 2021.
+The Argonne Training Program on Extreme-Scale Computing (ATPESC) is an intenstive, two-week training opportunity for approximately 70 participants. This workshop focuses on programming methodologies that are effective across a variety of supercomputers and that are expected to be applicable to exascale systems.
 <!-- end deck text -->
 
 Event Information | Details
 :--- | :---			   
 Event Name | [Argonne Training Program on Extreme-Scale Computing (ATPESC 2021)](https://extremecomputingtraining.anl.gov/)
-Event Date | August 1 - 13, 2021
+Event Date | August 1, 2021 - August 13, 2021
 Website | https://extremecomputingtraining.anl.gov/
 Submission Deadline | March 1, 2021. Please see event website for exact deadline, extensions and future updates.
 Registration and Other Information | https://extremecomputingtraining.anl.gov/application/
@@ -39,7 +40,7 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 * Machine Learning and Data Science.
 
 
-#### Publication date: 
+#### Publication date: January 7, 2021
 #### Contributed by: [Kasia Salim](https://github.com/karbarz)
 
 <!---
@@ -48,6 +49,7 @@ Categories: skills, performance
 Topics: online learning, High-performance computing (HPC), Performance at Leadership Computing Facilities
 Tags: 
 Level: 2
+RSS update: 2021-01-07
 Prerequisites: none
 Aggregate: none
 --->
