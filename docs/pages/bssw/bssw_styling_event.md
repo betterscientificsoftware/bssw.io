@@ -27,8 +27,8 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 	   * *Example*: `The Research Software Engineers in HPC Workshop (RSE-HPC-2020)`
 
 * **Contributor name**: In addition to guidelines from the [common styling section](bssw_styling_common.html) of the guide, please also note the following:
-* Please indicate the *name of the person* who has **submitted** this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use "BSSw.io team". 
-	* *Example*: `#### Contributed by BSSw.io team`
+	* Please indicate the *name of the person* who has **submitted** this event for inclusion on the BSSw site. This should not be the person who is adding the event to the BSSw.io site but rather the person who submitted the event. If you have no contributor name, then use "BSSw.io team". 
+		* *Example*: `#### Contributed by BSSw.io team`
 
 * **BSSw Categories**, **BSSw Topics**: See [common styling section](bssw_styling_common.html) of the guide.
 
@@ -80,7 +80,7 @@ Links to the Recordings and Archives  | Please do not use words like TBD here; p
 Examples include the following, listed with both GitHub.com and BSSw.io links:
 
    * *Research Software Engineers in HPC Workshop (RSE-HPC-2020)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.RSE-HPE2020.md) | [BSSw.io](https://bssw.io/events/research-software-engineers-in-hpc-workshop-rse-hpc-2020)
-   * *Call for Applications: Sustainable Research Pathways Workshop*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/SRP2020-applications.md) | [BSSw.io](https://bssw.io/events/call-for-applications-sustainable-research-pathways-workshop)
+   * *2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.SE4Science21.md) | [BSSw.io](https://bssw.io/events/2021-international-workshop-on-software-engineering-for-computational-science-se4science-21)
 
 ##### Non-submission based Events (Webinars/Panels/Tutorials/Others)
 
@@ -117,7 +117,7 @@ Usually the following information is added and is usually sufficient
 See [common metadata section](bssw_content_metadata.html) of the guide.
 
 ## Updating Past events
-Past events may be updated with information pointing to where the presentation, recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.
+Past events may be updated with information pointing to where the presentation or recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.
 
 <!--
 ## QUESTIONS
