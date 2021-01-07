@@ -5,7 +5,7 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
-#### Publication date: January 6, 2021
+#### Publication date: January 7, 2021
 
 And 2020 wraps! What a year it has been!  I would like to take this opportunity to thank the BSSw international community for rallying together and helping our readers deal with the ambiguity  that arose with sudden challenges of remote working, effective virtual collaborations, and work-family life balance. We are thankful for the thoughtful articles/contributions that were made to the BSSw.io site this year. BSSw.io continues to feature a rapidly-expanding collection of resources from an international community of contributors who are sharing their perspectives on challenges, strategies, and best practices for improving developer productivity and software sustainability. In this blog, we list some of the articles that have most interested our readers this year. As we move into 2021, the BSSw editorial team wishes the entire community a healthy and safe new year. Happy new year!!
 
@@ -67,7 +67,7 @@ Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She h
 
 <!---
 Publish: yes
-RSS Update: 2021-01-06
+RSS Update: 2021-01-07
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-article
