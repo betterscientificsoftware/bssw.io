@@ -65,8 +65,8 @@ remodeling or construction.
 Experience with
 [Functional (or Feature) Breakdown Structure (FBS)](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
 (the cousin to
-[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure)),
-which might also be thought of as code *pre-factoring*,
+[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) and
+which might also be thought of as code *pre-factoring* as opposed to *refactoring*),
 is a useful skill in breaking large changes into smaller, manageable steps In addition,
 learning to use an
 [integration branch](https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch) 
@@ -93,12 +93,15 @@ in some cases where it might make some sense to split work across multiple PRs, 
 in so doing may outweigh the benefits. But, this should be something that is discussed with
 the team ahead of the changes.
 
-
-**note to self**: some literature uses the concept of a "reviewable unit of work" to try to be more tool
-agnostic. A reviewable unit could be a PR, a commit, a patch or diff. Refer to the article that
-talks about how PRs make handling a reviewable unit difficult.
-
-Methods for handling
+While this article was focused on pull requests, some literature instead uses the concept of a 
+[*reviewable unit of work*](https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/)
+to separate the concept of code review from the implementation. A reviewable unit could be a PR,
+a commit, a patch/diff. In fact, long before GitHub introduced pull requests in 2008 (which was
+in turn based on Git's *request pull* functionality), seasoned software professionals enaged in
+the conceptually equivalent processes using a
+[patchwork of tools](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
+(or something like [CodeStriker](http://codestriker.sourceforge.net))
+which sometimes even included emailing around patchfiles.
 
 * [splitting](https://www.thedroidsonroids.com/blog/splitting-pull-request)
 * [Stacked Pull Requests](https://www.michaelagreiler.com/stacked-pull-requests/)
@@ -109,7 +112,7 @@ Methods for handling
 * [GitHub API tools](https://github.com/marketplace/stacked-pull-requests)
 * [Google's Billion Lines of Code](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext)
 * [churn](https://textexpander.com/blog/what-is-code-churn-and-how-to-reduce-it/)
-
+* [reviewable unit](https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/)
 
 [1]: https://sback.it/publications/icse2018seip.pdf
 [2]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf
