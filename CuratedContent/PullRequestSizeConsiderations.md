@@ -100,7 +100,7 @@ While this article was focused on pull requests, some literature instead uses th
 [*reviewable unit of work*](https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/)
 to separate the concept of code review from the implementation. A reviewable unit could be a PR,
 a commit, a patch/diff. In fact, long before GitHub introduced pull requests in 2008 (which was
-in turn based on Git's [`request pull`](https://git-scm.com/docs/git-request-pull) operation),
+in turn based on Git's [`request-pull`](https://git-scm.com/docs/git-request-pull) operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
 [patchwork of tools](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
 (or something like [CodeStriker](http://codestriker.sourceforge.net) designed specifically for
