@@ -79,7 +79,7 @@ always practical. Even when it is, it is important to keep in mind that there is
 *balance* of productivity concerns to manage here.
 
 So far, we've focused on the productivity of the PR review process and what submitters
-can/should do to minimize the effort of review. However, there are productivity costs
+can/should do to minimize review effort. However, there are productivity costs
 for submitters too. First, this approach really discourages a good housekeeping attitude
 (*while I am here fixing problem A, why don't I go ahead and also fix problem B*) because
 it leads to mixing unrelated changes and to larger PRs. Next, there is just a lot of
