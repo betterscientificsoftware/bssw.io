@@ -119,7 +119,7 @@ simultaneously, controlled through the use of conditional flags.
 [5]: https://derwolfe.net/2016/01/23/splitting-up-pull-requests/
 [6]: https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/
 
-[7]: https://www.michaelagreiler.com/stacked-pull-requests/)
+[7]: https://www.michaelagreiler.com/stacked-pull-requests/
 [8]: https://divyanshu013.dev/blog/code-review-stacked-prs/
 [9]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/
-[10]: https://github.com/marketplace/stacked-pull-requests)
+[10]: https://github.com/marketplace/stacked-pull-requests
