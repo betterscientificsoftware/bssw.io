@@ -88,26 +88,28 @@ and PRs, running and waiting for CI on those PRs, ensuring the PRs are reviewed 
 logical order, handling change requests and waiting for reviewers to approve each PR and
 potentially applying changes to multiple branches.
 
-In addition, there can be some amount
+In addition, for large changes there can be some amount
 of *transition-specific* software engineering required (designing and coding work devoted
 solely to holding things together *during* a major transition) which is later removed. The
 point is, overall project productivity requires *balancing* all these concerns meaning that
 in some cases where it might make some sense to split work across multiple PRs, the costs
 in so doing may outweigh the benefits. But, this should be something that is discussed with
-the team ahead of the changes.
+the team ahead of submitting the changes.
 
 While this article was focused on pull requests, some literature instead uses the concept of a 
 [*reviewable unit of work*](https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/)
-to separate the concept of code review from the implementation. A reviewable unit could be a PR,
-a commit, a patch/diff. In fact, long before GitHub introduced pull requests in 2008 (which was
+to separate the concept of code review from its implementation in any particular workflow.
+A reviewable unit could be a PR,
+a commit, or a patch/diff. In fact, long before GitHub introduced pull requests in 2008 (which was
 in turn based on Git's [`request-pull`](https://git-scm.com/docs/git-request-pull) operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
-[patchwork of tools](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
-(or something like [CodeStriker](http://codestriker.sourceforge.net) designed specifically for
-code review) which sometimes even included emailing around patchfiles. Finally, while this
+[patchwork of approaches and tools](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
+(or using something like [CodeStriker](http://codestriker.sourceforge.net) designed specifically for
+code review) which often even included emailing around patchfiles. Finally, while this
 article relies heavily on the concept of branches in the revision control system, it is worth
 pointing out that many commercial companies, including Google, don't use branches and instead
-[keep everything merged to a single, monolithic line of development (e.g. *trunk* or *mainline*)](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext).
+keep everything merged on a single,
+[monolithic line of development (e.g. *trunk* or *mainline*)](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext).
 In portions of the code base in transition, both new and old code paths commonly exist
 simultaneously, controlled through the use of conditional flags.
 
