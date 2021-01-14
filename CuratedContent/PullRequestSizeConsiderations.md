@@ -1,4 +1,4 @@
-# Pull Requests: Size Does Matter
+# PR Size Matters
 
 <!-- deck text start -->
 Developers new to peer review via the Pull Request workflow supported by
@@ -11,98 +11,96 @@ supporting articles about the impact of PR size on productivity.
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
 #### Publication date: Dec 12, 2020
 
-A Pull Request (PR) is a batch of *related* code changes on one branch of development
-submitted for review prior to merging into another branch. The
+By now, most HPC/CSE'ers are likely familiar with a *pull requests*. It is
+GitHub/Bitbucket parlance (GitLab uses *merge request*) for a batch of related
+code changes on one branch of development submitted for *review* prior to
+merging into another branch. For example, a PR might include all the changes
+necessary to fix a bug or add a new feature. A key word in the preceding and
+a key aspect of PRs is *review*. In fact, another way to think about the
+PR acronym is that it stands for *peer review*.
+
+When you are developing code, how often do you consider the impact on reviewers
+in your design and development processes? How often do you wind up *adjusting* the
+way you are changing a code base primarily to accomodate the review process? Do
+you often wind up breaking a group of related changes across *multiple* PRs and
+subsequently planning and executing associated development far differently than
+you might have if you had treated them all in a single PR? If your answer to any
+of these question is *not often* or *not ever*, you may be creating PRs that are
+by industry standards and practices too large.
+
+The
 [*size* of a PR](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
 is typically measured in terms of number of files and/or lines of code (the sum of
-counts of delete lines, modified lines and added lines).
+counts of deleted lines, modified lines and added lines).
 [Some research](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
-suggests that more than 400 lines of code changed is considered *too large* for a single
-review. Other research suggests an inverse correlation between PR size and defect
-rate.<sup>[1](https://sback.it/publications/icse2018seip.pdf),
-[2](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf),
-[3](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf)</sup>
-
-Some of the ways in which PR size can impact software quality and productivity are
-described below. The bigger a PR is...
+suggests that more than 400 lines changed is considered *too large* for a single
+*review*. Other research ([[1]], [[2]], [[3]]), suggests an inverse correlation between PR size
+and defect rate. Reviewers suffer one or more of the follwing consequences the larger a
+PR is...
 * ...the more work reviewing the PR involves.
-* ...the harder it is to divy up review work.
-* ...the more difficult it is for reviewers to fit the review into their schedules.
+* ...the more difficult it is to divy up review work among multiple reviewers.
+* ...the more difficult it is for reviewers to schedule time for review.
 * ...the more likely reviewers will put off even starting the review.
 * ...the more likely a first reviewer will give only a cursory review.
-* ...the more likely a second reviewer will merely rubber-stamp a review already approved by another reviewer.
-
-
-* Experience with
-[Functional (or Feature) Breakdown Structure (FBS)](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
-(the cousin to
-[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure))
-is a useful skill in breaking large changes into smaller, manageable steps.
-* A good housekeeping attitude
-(*while I am here fixing problem A, why don't I go ahead and also fix problem B*) leads to
-mixing independent changes in the same PR and to larger PRs.
+* ...the more likely second (and later) reviewers will either merely rubber-stamp an
+already approved PR or not bother to start a review if changes have already been requested.
 
 It is a [best practice](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
 to keep PRs small. The smaller the better. When many changes
 are necessary as part of a major feature enhancement or a large refactoring effort,
-it is a best practice to spread the changes over multiple PRs,
-
-**note to self**: some literature uses the concept of a "reviewable unit" to try to be more workflow
-agnostic. A reviewable unit could be a PR, a commit, a patch or diff.
-
- each one representing
+it is a best practice to spread the changes over multiple PRs, each one representing
 an independently useful, value-added contribution to the code base and which builds
-towards the ultimate enhancement or refactor goal. But, planning and implementing
-large software changes in this way is not always easily possible and even when it is,
-it can impose impractical burdens on the submitter.
+towards the ultimate enhancement or refactor goal.
 
 Consider the changes to migrate a large code base from Autotools to CMake for example.
 When this was undertaken in VisIt in 2009,
 [250K lines of code across 2,800+ files](https://github.com/visit-dav/visit/commit/4c9f66cdbbd0d311e24023da441024cf85de936b).
-were changed. To split this across multiple PRs and branches (**note:**
+were changed. To split this massive change across multiple PRs and branches (**note:**
 [binary content in VisIt's Subversion repo at the time](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) would have made this impractical),
-the team could have agreed to permit both build systems to temporarily co-exist
-in the main line of development during a period of tansition. While the rest of the team
-continued to operate on Autotools, developer(s) handling the migration to CMake could
-have structured the changes over multiple intermediate phases...
+the team could have agreed to a period of transition where both build systems
+were allowed to temporarily coexist or where portions of the code base are temporarily
+disabled or broken much like portions of a building or roadway system are closed during
+remodeling or construction.
 
-* CMake doing some checks and no building
-* CMake doing more checks and optionally building a small portion of the code base
-* CMake doing more checks and optionally building a larger portion of the code base
-* CMake doing all checks and optionally building the whole code base
-* Autotools removed and CMake no longer optional
+Experience with
+[Functional (or Feature) Breakdown Structure (FBS)](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
+(the cousin to
+[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure)),
+which might also be thought of as code *pre-factoring*,
+is a useful skill in breaking large changes into smaller, manageable steps In addition,
+learning to use an
+[integration branch](https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch) 
+workflow may be useful.
+But, planning and implementing large software changes in small increments is not
+always practical. Even when it is, it is important to keep in mind that there is a
+*balance* of productivity concerns to manage here.
 
-**notes to self**
-* May be acceptable to team to allow portions of the code base to be temporarily broken
-during intermediate phases too...much like portions of a building or roads may be closed
-during re-modeling and construction.
-* Does it make sense to use the term "pre-factoring" here?
-* Good refs.
-  * https://www.thedroidsonroids.com/blog/splitting-pull-request
-* What if your pushing one PR in a series and the reviewers don't know this? They
-may likely wonder why you've pushed the PR without having an idea where your headed.
-* analogy with home remodeling
-* code you are aiming to merge into is changing...more time = more changes to have to integrate
-* idea about an "integration" branch
+So far, we've focused on the productivity of the PR review process and what submitters
+can/should do to minimize the effort of review. However, there are productivity costs
+for submitters too. First, this approach really discourages a good whousekeeping attitude
+(*while I am here fixing problem A, why don't I go ahead and also fix problem B*) because
+it leads to mixing unrelated changes and to larger PRs. Next, there is just a lot of
+overhead associated with multiple PRs including creating branches
+and PRs, running and waiting for CI on those PRs, ensuring the PRs are probably handled in
+logical order, handling change requests and waiting for reviewers to approve each PR, potentially
+applying changes to multiple branches.
 
-During this transition period, there would be agreement not to make any public releases
-or change Autotools build logic in any significant way (small changes could be accomodated).
-There is also probably a small amount of software engineering required to enable
-the code base to temporarily operate in this intermediate state. The effort to develop
-and maintain that temporary code is likely worth the impact it has on enabling the work
-to be managed in smaller pieces. However, this is a *thinking cap* towards software
-engineering/planning that is likely not too common across the HPC/CSE community.
+In addition, there can be some amount
+of *transition-specific* software engineering required (designing and coding work devoted
+solely to holding things together) *during* a major transition which is later removed. The
+point is, overall project productivity requires *balancing* all these concerns meaning that
+in some cases where it might make some sense to split work across multiple PRs, the costs
+in so doing may outweigh the benefits. But, this should be something that is discussed with
+the team ahead of the changes.
 
-For another illustrative example, it is also worth considering what is the *smallest*
-size for a PR? Suppose some code was converted from Fortran to C and several off-by-one
-indexing bugs crept in. Each represents a one-line fix. Does it make sense to split each
-into its own PR? It could. On the other hand, the overhead involved of creating branches
-and PRs, running and waiting for CI, applying the changes to both a release and development
-branch and perhaps adding seperate entries to a release notes file not to mention all the
-additional notification traffic may be more than its worth.
+
+**note to self**: some literature uses the concept of a "reviewable unit of work" to try to be more tool
+agnostic. A reviewable unit could be a PR, a commit, a patch or diff. Refer to the article that
+talks about how PRs make handling a reviewable unit difficult.
 
 Methods for handling
 
+* [splitting](https://www.thedroidsonroids.com/blog/splitting-pull-request)
 * [Stacked Pull Requests](https://www.michaelagreiler.com/stacked-pull-requests/)
 * [More on stacked PRs](https://divyanshu013.dev/blog/code-review-stacked-prs/)
 * [Stacked Diffs](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
@@ -110,3 +108,10 @@ Methods for handling
 * [Temporary SE (scaffolding) strategies](https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/)
 * [GitHub API tools](https://github.com/marketplace/stacked-pull-requests)
 * [Google's Billion Lines of Code](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext)
+* [churn](https://textexpander.com/blog/what-is-code-churn-and-how-to-reduce-it/)
+
+
+[1]: https://sback.it/publications/icse2018seip.pdf
+[2]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf
+[3]: https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf
+
