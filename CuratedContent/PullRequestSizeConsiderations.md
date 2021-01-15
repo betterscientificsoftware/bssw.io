@@ -99,7 +99,8 @@ solely to holding things together *during* a major transition) which is later re
 This effort is needed *only* to support the software through multiple stages of a major
 transition which would have otherwise been unnecessary. So, it represents extra work.
 
-The point is, productivity for the project *overall* requires *balancing* all these concerns.
+The point is, productivity for the project *overall* requires
+[*balancing* all these concerns](https://smallbusinessprogramming.com/optimal-pull-request-size/).
 In some cases strict adherence to the principle of not mixing unrelated changes in a 
 single PR may outweight the benefits of splitting such work across multiple PRs.
 In other words, for very small bits of work (e.g. fixing a typo in a document), there may be
