@@ -15,7 +15,6 @@ Slide4 L: events/webinar-good-practices-for-research-software-documentation
 Slide5 R: events/webinar-extreme-scale-scientific-software-stack-e4s
 Slide5 L: blog_posts/give-thanks
 Slide5 R: images/raw/master/Blog_1119_seasonal.png
-
 --->
 
 <!---
