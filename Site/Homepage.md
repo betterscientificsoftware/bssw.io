@@ -5,16 +5,17 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/performance-portability-and-the-exascale-computing-project
-Slide1 R: images/raw/master/Blog_1220_PerfPorta.png
-Slide2 L: items/the-apollo-guidance-computer-in-depth
-Slide2 R: items/coded-bias-a-film-highlighting-issues-of-bias-in-ai-software 
-Slide3 L: events/webinar-good-practices-for-research-software-documentation
-Slide3 R: events/webinar-extreme-scale-scientific-software-stack-e4s
-Slide4 L: blog_posts/give-thanks
-Slide4 R: images/raw/master/Blog_1119_seasonal.png
-Slide5 L: items/tips-for-producing-online-panel-discussions
-Slide5 R: images/raw/master/Resource_1120_RemotePanel.png
+Slide1 L: blog_posts/better-scientific-software-2020-highlights
+Slide1 R: images/raw/master/Blog_0121_Montage.png
+Slide2 L: blog_posts/performance-portability-and-the-exascale-computing-project
+Slide2 R: images/raw/master/Blog_1220_PerfPorta.png
+Slide3 L: items/the-apollo-guidance-computer-in-depth
+Slide3 R: items/coded-bias-a-film-highlighting-issues-of-bias-in-ai-software 
+Slide4 L: events/webinar-good-practices-for-research-software-documentation
+Slide5 R: events/webinar-extreme-scale-scientific-software-stack-e4s
+Slide5 L: blog_posts/give-thanks
+Slide5 R: images/raw/master/Blog_1119_seasonal.png
+
 --->
 
 <!---
@@ -22,8 +23,8 @@ Caution: Blank line after first comment mark (or before last comment mark) cause
 
 LCM: Saving for use again later
 
-Slide1 L: blog_posts/performance-portability-and-the-exascale-computing-project
-Slide1 R: images/raw/master/Blog_1220_PerfPorta.png
+Slide5 L: items/tips-for-producing-online-panel-discussions
+Slide5 R: images/raw/master/Resource_1120_RemotePanel.png
 
 --->
 
