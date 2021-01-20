@@ -55,14 +55,14 @@ or maybe a large refactoring effort, a second commandment is to split the change
 each one representing an independently useful, value-added contribution to the code
 base and which builds towards the ultimate enhancement or refactor goal.
 
-Consider the changes to migrate a large code base from Autotools to CMake for example.
-When this was undertaken in VisIt in 2009,
-[250K lines of code across 2,800+ files](https://github.com/visit-dav/visit/commit/4c9f66cdbbd0d311e24023da441024cf85de936b)
-were changed all committed in a single merge operation to the trunk.
+Consider the changes to migrate a large code base from VTK-6 to VTK-8.
+When this was undertaken in VisIt in 2018,
+[450K lines of code across 2,000+ files](https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22)
+were changed all committed in a single merge operation to the main development branch.
 To split this massive change across multiple PRs and branches (**note:**
 [binary content in VisIt's Subversion repo at the time](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) would have made this impractical),
-the team could have agreed to a period of transition where both build systems
-were allowed to temporarily coexist or where portions of the code base are temporarily
+the team could have agreed to a period of transition where both VTK version
+were allowed to temporarily coexist or where portions of the code base were temporarily
 disabled or broken much like portions of a building or roadway system are closed during
 remodeling or construction.
 
