@@ -9,7 +9,7 @@ supporting articles about the impact of PR size on productivity.
 <!-- deck text end --> 
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
-#### Publication date: Dec 12, 2020
+#### Publication date: Jan 25, 2021
 
 By now, most HPC/CSE'ers are likely familiar with *pull requests*. That is
 GitHub/Bitbucket parlance (GitLab uses *merge request*) for a batch of related
@@ -61,7 +61,7 @@ When this was undertaken in VisIt in 2018,
 were changed all committed in a single merge operation to the main development branch.
 To split this massive change across multiple PRs and branches (**note:**
 [binary content in VisIt's Subversion repo at the time](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) would have made this impractical),
-the team could have agreed to a period of transition where both VTK version
+the team could have agreed to a period of transition where both VTK versions
 were allowed to temporarily coexist or where portions of the code base were temporarily
 disabled or broken much like portions of a building or roadway system are closed during
 remodeling or construction.
@@ -99,7 +99,8 @@ solely to holding things together *during* a major transition) which is later re
 This effort is needed *only* to support the software through multiple stages of a major
 transition which would have otherwise been unnecessary. So, it represents extra work.
 
-The point is, productivity for the project *overall* requires *balancing* all these concerns.
+The point is, productivity for the project *overall* requires
+[*balancing* all these concerns](https://smallbusinessprogramming.com/optimal-pull-request-size/).
 In some cases strict adherence to the principle of not mixing unrelated changes in a 
 single PR may outweight the benefits of splitting such work across multiple PRs.
 In other words, for very small bits of work (e.g. fixing a typo in a document), there may be
