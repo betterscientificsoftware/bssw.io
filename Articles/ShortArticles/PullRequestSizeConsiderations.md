@@ -29,12 +29,12 @@ of these question is *not often* or *not ever*, you may be creating PRs that are
 by industry standards and practices too large.
 
 The
-[*size* of a PR](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
+*size* of a PR<sup>[11]</sup>
 is typically measured in terms of number of files and/or lines of code (the sum of
 counts of deleted lines, modified lines and added lines).
-[Some research](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+Some research<sup>[12]</sup>
 suggests that more than 400 lines changed is considered *too large* for a single
-*review*. Other research ([[1]], [[2]], [[3]]), suggests an inverse correlation between PR size
+*review*. Other research,<sup>[1],[2],[3]</sup> suggests an inverse correlation between PR size
 and defect rate. Reviewers suffer one or more of the following consequences the larger a
 PR is...
 * ...the more work reviewing the PR involves.
@@ -45,37 +45,33 @@ PR is...
 * ...the more likely second (and later) reviewers will either merely rubber-stamp an
 already approved PR or not bother to start a review if changes have already been requested.
 
-It is a [best practice](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+It is a best practice<sup>[12]</sup>
 to keep PRs small. The smaller the better. This is particularly true in high 
-[churn](https://www.pluralsight.com/blog/tutorials/code-churn) code bases.
+churn<sup>[13]</sup> code bases.
 A first commandment in this enterprise is to never mix unrelated changes in the
 same PR. When many related changes are necessary as part of a major feature enhancement
-or maybe a large refactoring effort, a second commandment is to split the changes
-([[4]], [[5]], [[6]]) over multiple PRs,
-each one representing an independently useful, value-added contribution to the code
+or maybe a large refactoring effort, a second commandment is to split the changes<sup>[4],[5],[6]</sup>
+over multiple PRs, each one representing an independently useful, value-added contribution to the code
 base and which builds towards the ultimate enhancement or refactor goal.
 
 Consider the changes to migrate a large code base from VTK-6 to VTK-8.
 When this was undertaken in VisIt in 2018,
-[450K lines of code across 2,000+ files](https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22)
+450K lines of code across 2,000+ files<sup>[14]</sup>
 were changed all committed in a single merge operation to the main development branch.
 To split this massive change across multiple PRs and branches (**note:**
-[binary content in VisIt's Subversion repo at the time](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) would have made this impractical),
+binary content in VisIt's Subversion repo at the time<sup>[15]</sup> would have made this impractical),
 the team could have agreed to a period of transition where both VTK versions
 were allowed to temporarily coexist or where portions of the code base were temporarily
 disabled or broken much like portions of a building or roadway system are closed during
 remodeling or construction.
 
 Experience with
-[Functional (or Feature) Breakdown Structure (FBS)](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
-(the cousin to
-[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) and
+Functional (or Feature) Breakdown Structure (FBS)<sup>[16]</sup> (the cousin to
+Work Breakdown Structure<sup>[17]</sup> and
 which might also be thought of as code *pre-factoring* as opposed to *refactoring*) and
-*stacked pull requests* ([[7]], [[8]], [[9]], [[10]]),
+*stacked pull requests*<sup>[7],[8],[9],[10]</sup>
 are useful skills in breaking large changes into smaller, manageable steps. In addition,
-learning to use an
-[integration branch](https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch) 
-workflow may be useful.
+learning to use an integration branch<sup>[18]</sup> workflow may be useful.
 But, planning and implementing large software changes in small increments is not
 always practical. Even when it is, it is important to keep in mind that there is a
 *balance* of productivity concerns to manage here.
@@ -100,7 +96,7 @@ This effort is needed *only* to support the software through multiple stages of 
 transition which would have otherwise been unnecessary. So, it represents extra work.
 
 The point is, productivity for the project *overall* requires
-[*balancing* all these concerns](https://smallbusinessprogramming.com/optimal-pull-request-size/).
+*balancing* all these concerns.<sup>[19]</sup>
 In some cases strict adherence to the principle of not mixing unrelated changes in a 
 single PR may outweight the benefits of splitting such work across multiple PRs.
 In other words, for very small bits of work (e.g. fixing a typo in a document), there may be
@@ -113,36 +109,54 @@ time up front to decide how to split large changes into manageable PRs that can 
 integrated into a large code base is as important as the design and coding work that goes
 into the bug fixes and feature enhancements the changes are proposed for to begin with.
 
-Some literature instead uses the concept of a 
-[*reviewable unit of work*](https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/)
+Some literature instead uses the concept of a *reviewable unit of work*<sup>[20]</sup>
 to separate the concept of code review from how it is practiced in any particular tool.
 A reviewable unit could be a
-[PR, a commit, or a single file's patch/diff](https://gregoryszorc.com/blog/2020/01/07/problems-with-pull-requests-and-how-to-fix-them/).
+PR, a commit, or a single file's patch/diff.<sup>[21]</sup>
 In fact, long before GitHub introduced pull requests in 2008 (which was
-in turn based on Git's [`request-pull`](https://git-scm.com/docs/git-request-pull) operation),
+in turn based on Git's `request-pull`<sup>[22]</sup> operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
-[patchwork of approaches and tools](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
-(or using something like [CodeStriker](http://codestriker.sourceforge.net) designed specifically for
+patchwork of approaches and tools<sup>[23]</sup>
+(or using something like CodeStriker<sup>[24]</sup>) designed specifically for
 code review) which often even included emailing around patchfiles.
 
 Finally, while this
 article relies heavily on the concept of branches in the revision control system, it is worth
 pointing out that many commercial companies, including Google, don't use branches and instead
 keep everything merged on a single,
-[monolithic line of development (e.g. *trunk* or *mainline*)](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext).
+monolithic line of development<sup>[25]</sup> (e.g. *trunk* or *mainline*).
 In portions of the code base in transition, both new and old code paths commonly exist
 simultaneously, controlled through the use of conditional flags, a practice that is highly
 conducive to incorporating large changes in small, incremental pieces.
 
-[1]: https://sback.it/publications/icse2018seip.pdf
-[2]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf
-[3]: https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf
+[1]: https://sback.it/publications/icse2018seip.pdf  "Modern Code Review: A Case Study at Google"
+[2]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf "Characteristics of Useful Code Reviews:
+An Empirical Study at Microsoft"
+[3]: https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
 
-[4]: https://www.thedroidsonroids.com/blog/splitting-pull-request
-[5]: https://derwolfe.net/2016/01/23/splitting-up-pull-requests/
-[6]: https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/
+[4]: https://www.thedroidsonroids.com/blog/splitting-pull-request "How to Split Pull Requests – Good Practices, Methods and Git Strategies"
+[5]: https://derwolfe.net/2016/01/23/splitting-up-pull-requests/ "Splitting Up Pull Requests"
+[6]: https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/ "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
 
-[7]: https://www.michaelagreiler.com/stacked-pull-requests/
-[8]: https://divyanshu013.dev/blog/code-review-stacked-prs/
-[9]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/
-[10]: https://github.com/marketplace/stacked-pull-requests
+[7]: https://www.michaelagreiler.com/stacked-pull-requests/ "Stacked pull requests: make code reviews faster, easier, and more effective"
+[8]: https://divyanshu013.dev/blog/code-review-stacked-prs/ "Stacked Pull Requests"
+[9]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ "Stacked Pull Requests"
+[10]: https://github.com/marketplace/stacked-pull-requests "Stacked Pull Requests"
+
+
+[11]: https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests "5 metrics Engineering Managers can extract from Pull Requests"
+[12]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ "Best Practices for Code Review"
+[13]: https://www.pluralsight.com/blog/tutorials/code-churn "What is Code Churn"
+
+[14]: https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22 "VisIt VTK Upgrade Commit"
+[15]: https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit "What is Continuous Technology Refresh (CTR)"
+[16]: https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf "The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost"
+[17]: https://en.wikipedia.org/wiki/Work_breakdown_structure "Work Breakdown Structure"
+[18]: https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch "Git Integration Branch Workflow"
+[19]: https://smallbusinessprogramming.com/optimal-pull-request-size/ "Optimal pull request size"
+[20]: https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/ "Take the Pain out of Code Reviews"
+[21]: https://gregoryszorc.com/blog/2020/01/07/problems-with-pull-requests-and-how-to-fix-them/ "Problems with Pull Requests and how to Fix them"
+[22]: https://git-scm.com/docs/git-request-pull "Documentation for Git Request Pull Command"
+[23]: https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews "Comparing Four Kinds of Reviews"
+[24]: http://codestriker.sourceforge.net "CodeStriker Project Home Page"
+[25]: https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext "Google's Billion Lines of Code Repository"
