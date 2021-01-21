@@ -98,7 +98,7 @@ transition which would have otherwise been unnecessary. So, it represents extra 
 The point is, productivity for the project *overall* requires
 *balancing* all these concerns.<sup>[19]</sup>
 In some cases strict adherence to the principle of not mixing unrelated changes in a 
-single PR may outweight the benefits of splitting such work across multiple PRs.
+single PR may outweigh the benefits of splitting such work across multiple PRs.
 In other words, for very small bits of work (e.g. fixing a typo in a document), there may be
 a minimum size PR below which the overheads of just managing the PR process become
 the key productivity concern. Still, this should be something that is
@@ -109,7 +109,7 @@ time up front to decide how to split large changes into manageable PRs that can 
 integrated into a large code base is as important as the design and coding work that goes
 into the bug fixes and feature enhancements the changes are proposed for to begin with.
 
-Some literature instead uses the concept of a *reviewable unit of work*<sup>[20]</sup>
+Some literature uses the notion of a *reviewable unit of work*<sup>[20]</sup>
 to separate the concept of code review from how it is practiced in any particular tool.
 A reviewable unit could be a
 PR, a commit, or a single file's patch/diff.<sup>[21]</sup>
@@ -120,14 +120,13 @@ patchwork of approaches and tools<sup>[23]</sup>
 (or using something like CodeStriker<sup>[24]</sup>) designed specifically for
 code review) which often even included emailing around patchfiles.
 
-Finally, while this
-article relies heavily on the concept of branches in the revision control system, it is worth
-pointing out that many commercial companies, including Google, don't use branches and instead
-keep everything merged on a single,
-monolithic line of development<sup>[25]</sup> (e.g. *trunk* or *mainline*).
-In portions of the code base in transition, both new and old code paths commonly exist
-simultaneously, controlled through the use of conditional flags, a practice that is highly
-conducive to incorporating large changes in small, incremental pieces.
+Finally, it is worth pointing out that many commercial companies, including Google,
+don't use formal branching mechanisms commonly available in revision control systems like Git
+to manage code review. Of course, they still engage in code review but do so by other means and
+instead of using branches keep everything merged on a single, monolithic line of development<sup>[25]</sup>
+(e.g. *trunk* or *mainline*). In portions of the code base in transition, both new and old
+code paths commonly exist simultaneously, controlled through the use of conditional flags,
+a practice that is highly conducive to incorporating large changes in small, incremental pieces.
 
 [1]: https://sback.it/publications/icse2018seip.pdf  "Modern Code Review: A Case Study at Google"
 [2]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf "Characteristics of Useful Code Reviews:
