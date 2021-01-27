@@ -12,13 +12,13 @@ Resource name | Open Source Guides
 Website | [https://opensource.guide/](https://opensource.guide)
 Focus | Open source projects, Contributions, Licensing, Metrics
 
-The *Open Source Guides (https://opensource.guide)* website, created by GitHub, provides a good collection of starting resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project.
+The *[Open Source Guides](https://opensource.guide)* website, created by GitHub, provides a good collection of starting resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project.
 
 The collection of resources ranges from how to contribute to existing open source projects, how to launch your own open source project, how to get a user-base for new projects, how to determine metrics, and how to get paid for contributions to the open source community. It also navigates topics related to licensing and legal implications, code of conduct, best practices, leadership roles and governance of such projects. While the range of topics covered is diverse, each topic is an easy read and gives you a good overview of the technicalities and rationale that go behind creation and management of open source projects.
 
 While the site is created/curated by GitHub, it is not exclusive to GitHub products and community members are welcome to contribute to it.
 <!---
-Publish: preview
+Publish: yes
 Categories: collaboration, planning, development
 Topics: Projects and organizations, Personal productivity and sustainability, Online learning
 RSS update: 2021-01-27
