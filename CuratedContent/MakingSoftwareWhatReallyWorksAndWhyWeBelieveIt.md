@@ -16,9 +16,9 @@ Editors | Andy Oram and Greg Wilson
 Publication | 2010, ISBN: 9780596808327
 
 Each of us will wonder if we are using the right software engineering (SE) practices at many points
-in each project. In the book *Making Software: What Really Works, and Why We Believe It]*, Greg Wilson has accumulated studies on many of the trends and 
+in each project. In the book *Making Software: What Really Works, and Why We Believe It*, Greg Wilson has accumulated studies on many of the trends and 
 methods in use today and attempted to gain insight into the usefulness of each.
-To that end he has enlisted a number of researchers in Computer Science to
+To that end, he has enlisted a number of researchers in Computer Science to
 collect data about which techniques work, which ones hurt, and which are
 inconclusive. The book has two sections, the first on how data was gathered
 and evaluated, and a second on individual SE practices. Each chapter takes a
@@ -38,8 +38,8 @@ It may be interesting, for some readers, to read this book from cover to cover. 
 and then read articles on individual SE practices as the need arises. This book may also surprise you and might serve as a useful guide on practices that you may not have considered in the past.
 
 <!---
-Publish: preview
-Categories: Performance,  Planning,Collaboration
+Publish: yes
+Categories: Performance, Planning, Collaboration
 Topics: Software engineering, Development tools, Strategies for more effective teams, Personal productivity and sustainability
 RSS update: 2021-01-24
 --->
