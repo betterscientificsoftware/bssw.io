@@ -26,7 +26,7 @@ way you are changing a code base primarily to accommodate the review process? Do
 you often wind up breaking a group of related changes across *multiple* PRs and
 subsequently planning and executing associated development far differently than
 you might have if you had treated them all in a single PR? If your answer to any
-of these question is *not often* or *not ever*, you may be creating PRs that are,
+of these questions is *not often* or *not ever*, you may be creating PRs that are,
 by industry standards and practices, too large.
 
 The
