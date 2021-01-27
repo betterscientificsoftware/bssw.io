@@ -1,5 +1,3 @@
-
-
 <!-- deck text start -->
 Many claims are made about how certain tools, technologies, and practices improve software
 development. The below book gathers and presents real-world data to uncover the truth and unmask
@@ -38,11 +36,8 @@ It may be interesting, for some readers, to read this book from cover to cover. 
 and then read articles on individual SE practices as the need arises. This book may also surprise you and might serve as a useful guide on practices that you may not have considered in the past.
 
 <!---
-Publish: No
-Categories: Performance,Planning,Collaboration
+Publish: preview
+Categories: Performance,  Planning,Collaboration
 Topics: Software engineering, Development tools, Strategies for more effective teams, Personal productivity and sustainability
-Tags: bssw-internal
-Level: 2
-Prerequisites: none
-Aggregate: none
+RSS update: 2021-01-24
 --->
