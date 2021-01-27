@@ -1,3 +1,5 @@
+# Making Software: What Really Works, and Why We Believe It
+
 <!-- deck text start -->
 Many claims are made about how certain tools, technologies, and practices improve software
 development. The below book gathers and presents real-world data to uncover the truth and unmask
@@ -9,7 +11,7 @@ myths held among the software development community.
 
 Resource information | Details 
 :--- | :--- 
-Book title  | [Making Software: What Really Works, and Why We Believe It](https://books.google.com/books?id=DxuGi5h2-HEC&printsec=frontcover#v=onepage&q&f=false)
+Book title  | [Making Software: What Really Works, and Why We Believe It](https://www.oreilly.com/library/view/making-software/9780596808310/)
 Editors | Andy Oram and Greg Wilson
 Publication | 2010, ISBN: 9780596808327
 
