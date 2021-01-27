@@ -122,11 +122,11 @@ patchwork of approaches and tools<sup>[22]</sup>
 code review) which often even included emailing around patchfiles.
 
 Finally, it is worth pointing out that many commercial companies, including Google,
-don't use formal branching mechanisms commonly available in revision control systems like Git
-to manage code review. Of course, they still engage in code review but do so by other means and
-instead of using branches, keep everything merged on a single, monolithic line of development<sup>[24]</sup>
+don't use formal branching mechanisms
+to manage code review. Of course, they still engage in code review but do so by other means.
+Instead of using branches, Google keep's everything merged on a single, monolithic line of development<sup>[24]</sup>
 (e.g. *trunk* or *mainline*). In portions of the code base in transition, both new and old
-code paths commonly exist simultaneously, controlled through the use of conditional flags,
+code paths commonly exist simultaneously, controlled by conditional flags,
 a practice that is highly conducive to incorporating large changes in small, incremental pieces.
 
 
