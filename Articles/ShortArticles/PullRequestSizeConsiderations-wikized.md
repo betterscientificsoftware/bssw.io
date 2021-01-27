@@ -118,7 +118,7 @@ In fact, long before GitHub introduced pull requests in 2008 (which was
 in turn based on Git's `request-pull`<sup>[21]</sup> operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
 patchwork of approaches and tools<sup>[22]</sup>
-(or using something like CodeStriker<sup>[23]</sup>, designed specifically for
+(or using something like CodeStriker,<sup>[23]</sup> designed specifically for
 code review) which often even included emailing around patchfiles.
 
 Finally, it is worth pointing out that many commercial companies, including Google,
