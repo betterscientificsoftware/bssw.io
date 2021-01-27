@@ -26,8 +26,8 @@ way you are changing a code base primarily to accommodate the review process? Do
 you often wind up breaking a group of related changes across *multiple* PRs and
 subsequently planning and executing associated development far differently than
 you might have if you had treated them all in a single PR? If your answer to any
-of these question is *not often* or *not ever*, you may be creating PRs that are
-by industry standards and practices too large.
+of these question is *not often* or *not ever*, you may be creating PRs that are,
+by industry standards and practices, too large.
 
 The
 *size* of a PR<sup>[10]</sup>
@@ -36,7 +36,7 @@ counts of deleted lines, modified lines and added lines).
 Some research<sup>[11]</sup>
 suggests that more than 400 lines changed is considered *too large* for a single
 *review*. Other research,<sup>[1],[2],[3]</sup> suggests an inverse correlation between PR size
-and defect rate. Reviewers suffer one or more of the following consequences the larger a
+and defect rate. Reviewers suffer one or more of the following consequences: the larger a
 PR is...
 * ...the more work reviewing the PR involves.
 * ...the more difficult it is to divy up review work among multiple reviewers.
@@ -63,7 +63,7 @@ To split this massive change across multiple PRs and branches (**note:**
 binary content in VisIt's Subversion repo at the time<sup>[14]</sup> would have made this impractical),
 the team could have agreed to a period of transition where both VTK versions
 were allowed to temporarily coexist or where portions of the code base were temporarily
-disabled or broken much like portions of a building or roadway system are closed during
+disabled or broken, much like portions of a building or roadway system are closed during
 remodeling or construction.
 
 Experience with
@@ -86,7 +86,7 @@ First, strict adherence to avoiding mixing unrelated changes in a single PR
 may simply discourage some good housekeeping
 (*while I am here fixing problem A, why don't I go ahead and also fix problem B*).
 There is just a lot of overhead associated with splitting
-changes over multiple PRs including creating branches and PRs, running and waiting
+changes over multiple PRs, including creating branches and PRs, running and waiting
 for CI in each PR, ensuring each PR is reviewed and merged in logical order and
 possibly having to apply each PR's changes to multiple branches (e.g. release candidate and main).
 
@@ -118,13 +118,13 @@ In fact, long before GitHub introduced pull requests in 2008 (which was
 in turn based on Git's `request-pull`<sup>[21]</sup> operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
 patchwork of approaches and tools<sup>[22]</sup>
-(or using something like CodeStriker<sup>[23]</sup>) designed specifically for
+(or using something like CodeStriker<sup>[23]</sup>, designed specifically for
 code review) which often even included emailing around patchfiles.
 
 Finally, it is worth pointing out that many commercial companies, including Google,
 don't use formal branching mechanisms commonly available in revision control systems like Git
 to manage code review. Of course, they still engage in code review but do so by other means and
-instead of using branches keep everything merged on a single, monolithic line of development<sup>[24]</sup>
+instead of using branches, keep everything merged on a single, monolithic line of development<sup>[24]</sup>
 (e.g. *trunk* or *mainline*). In portions of the code base in transition, both new and old
 code paths commonly exist simultaneously, controlled through the use of conditional flags,
 a practice that is highly conducive to incorporating large changes in small, incremental pieces.
