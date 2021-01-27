@@ -1,6 +1,6 @@
 # An Introduction to Open Source Guides
 <!--deck text start-->
-The *Open Source Guides* website provides a great collection of resources on how to run and contribute to open source projects.
+The *Open Source Guides* website provides a good starting collection of resources on how to run and contribute to open source projects.
 <!--deck text end-->
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
