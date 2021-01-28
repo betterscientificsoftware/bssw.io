@@ -20,8 +20,8 @@ In addition, if some work is incomplete but in progress, a common practice is to
 
 However, when working on multiple branches of development *simultaneously*, there is often more involved than just
 stashing half-completed work away or switching the currently active branch. Some code may need to be re-configured
-and/or re-compiled; maybe a lot of it. This is particularly true of CMake-based projects which are sensitive to
-timestamp changes of any build tree dependencies. Resulting delays can create a productivity issue.
+and/or re-compiled; maybe a lot of it. This is particularly true of compiled-language projects which are sensitive
+to timestamp changes of any build tree dependencies. Resulting delays can create a productivity issue.
 
 A common approach is to [`git clone`](https://git-scm.com/docs/git-clone) the same repository multiple times and
 then set each clone to a different branch. It is even possible to keep local clones synchronized (without going
