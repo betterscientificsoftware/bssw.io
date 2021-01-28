@@ -38,5 +38,5 @@ worktrees over clones multiply as the number of concurrent branches to be manage
 it is necessary to manage different repository settings (e.g. hooks, file ignores) across concurrent branches,
 multiple clones may be the only solution.
 
-Finally, although [`git worktree`](https://git-scm.com/docs/git-worktree) has been an available feature in Git
-since 2015, it is still considered an *experimental* feature.
+Finally, although [`git worktree`](https://git-scm.com/docs/git-worktree) has been available in Git
+since 2015, it is still considered an *experimental* feature and doesn't work with Git submodules.
