@@ -28,11 +28,12 @@ then set each clone to a different branch. It is even possible to keep local clo
 through their common `origin`) using [`git remote add <name> <local-path>`](https://git-scm.com/docs/git-remote)
 and [`git fetch <name>`](https://git-scm.com/docs/git-fetch) (where `<local-path>` is the local directory path to
 another local repo clone). However, this involves multiple copies of the git repository which may have negative
-implications for disk space or workflow (but has some advantages like allowing for different file ignores,
-different remote names, different hooks, etc.).
+implications for disk space or workflow.
 
 Alternatively, you may find [`git worktree`](https://git-scm.com/docs/git-worktree) a better approach than multiple
 clones and a useful productivity boost. Git worktrees allow you to work as if you have multiple clones without
 having to make explicit cloned copies saving disk space and perhaps easing any workflow issues. A single `.git`
 database, including local hooks and other settings for example, manages all the worktrees. The advantages of Git
-worktrees over clones multiply as the number of concurrent branches to be managed grows.
+worktrees over clones multiply as the number of concurrent branches to be managed grows. On the other hand, if 
+it is necessary to manage different repository settings (e.g. hooks, file ignores) across concurrent branches,
+multiple clones may be the only solution.
