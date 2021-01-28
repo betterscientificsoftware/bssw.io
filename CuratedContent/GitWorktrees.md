@@ -20,18 +20,19 @@ In addition, if some work is incomplete but in progress, a common practice is to
 
 However, when working on multiple branches of development *simultaneously*, there is often more involved than just
 stashing half-completed work away or switching the currently active branch. Some code may need to be re-configured
-and/or re-compiled; maybe a lot of it. This is particularly true of CMake-based projects which are sensitive to
-timestamp changes of any build tree dependencies. Resulting delays can create a productivity issue.
+and/or re-compiled; maybe a lot of it. This is particularly true of compiled-language projects which are sensitive
+to timestamp changes of any build tree dependencies. Resulting delays can create a productivity issue.
 
 A common approach is to [`git clone`](https://git-scm.com/docs/git-clone) the same repository multiple times and
-then set each clone to a different branch. It is even possible to keep local clones syncronized (without going
-through their common `origin`) using [`git remote add`](https://git-scm.com/docs/git-remote). However, this involves
-multiple copies of the git repository which may have negative implications for disk space or workflow.
+then set each clone to a different branch. It is even possible to keep local clones synchronized (without going
+through their common `origin`) using [`git remote add <name> <local-path>`](https://git-scm.com/docs/git-remote)
+and [`git fetch <name>`](https://git-scm.com/docs/git-fetch) (where `<local-path>` is the local directory path to
+another local repo clone). However, this involves multiple copies of the git repository which may have negative
+implications for disk space or workflow (but has some advantages like allowing for different file ignores,
+different remote names, different hooks, etc.).
 
-Alternatively, you may find [`git worktree`](https://git-scm.com/docs/git-worktree) a better approch than multiple
+Alternatively, you may find [`git worktree`](https://git-scm.com/docs/git-worktree) a better approach than multiple
 clones and a useful productivity boost. Git worktrees allow you to work as if you have multiple clones without
 having to make explicit cloned copies saving disk space and perhaps easing any workflow issues. A single `.git`
 database, including local hooks and other settings for example, manages all the worktrees. The advantages of Git
 worktrees over clones multiply as the number of concurrent branches to be managed grows.
-
-
