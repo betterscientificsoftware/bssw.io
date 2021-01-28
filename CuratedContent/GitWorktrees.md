@@ -18,7 +18,7 @@ In Git, the [`git checkout`](https://git-scm.com/docs/git-checkout) command is u
 In addition, if some work is incomplete but in progress, a common practice is to use
 [`git stash`](https://git-scm.com/docs/git-stash) to temporarily stash changes away before switching branches.
 
-However, when working on multiple branches of development simultaneously, there is often more involved than just
+However, when working on multiple branches of development *simultaneously*, there is often more involved than just
 stashing half-completed work away or switching the currently active branch. Some code may need to be re-configured
 and/or re-compiled; maybe a lot of it. This is particularly true of CMake-based projects which are sensitive to
 timestamp changes of any build tree dependencies. Resulting delays can create a productivity issue.
