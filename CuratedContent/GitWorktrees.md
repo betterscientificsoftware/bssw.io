@@ -37,3 +37,6 @@ database, including local hooks and other settings for example, manages all the 
 worktrees over clones multiply as the number of concurrent branches to be managed grows. On the other hand, if 
 it is necessary to manage different repository settings (e.g. hooks, file ignores) across concurrent branches,
 multiple clones may be the only solution.
+
+Finally, although [`git worktree`](https://git-scm.com/docs/git-worktree) has been an available feature in Git
+since 2015, it is still considered an *experimental* feature.
