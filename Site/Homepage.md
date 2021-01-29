@@ -5,7 +5,7 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/argonne-training-program-on-extreme-scale-computing-atpesc-2021
+Slide1 L: blog_posts/advanced-training-on-extreme-scale-computing-through-atpesc
 Slide1 R: images/raw/master/Blog_0121_ATPESC.jpg
 Slide2 L: blog_posts/better-scientific-software-2020-highlights
 Slide2 R: images/raw/master/Blog_0121_Montage.png
