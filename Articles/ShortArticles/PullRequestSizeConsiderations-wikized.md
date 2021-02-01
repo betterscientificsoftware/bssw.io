@@ -216,4 +216,12 @@ References | &nbsp;
 <a name="ref23"></a>23 | [CodeStriker Project Home Page ](http://codestriker.sourceforge.net)
 <a name="ref24"></a>24 | [Google's Billion Lines of Code Repository ](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext)
 
+<!---
+ Publish: yes
+ Pinned: no
+ Categories: skills, development
+ Topics: revision control, development tools
+ RSS update: 2021-01-29
+ --->
+
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from PullRequestSizeConsiderations.md --->
