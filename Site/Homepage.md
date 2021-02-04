@@ -15,6 +15,7 @@ Slide4 L: events/software-sustainability-institute-fellowship-programme-2021
 Slide4 R: events/webinar-good-practices-for-research-software-documentation
 Slide5 R: items/the-collaborations-workshop-2021-cw21
 Slide5 L: items/coded-bias-a-film-highlighting-issues-of-bias-in-ai-software
+Slide6 R: events/webinar-an-overview-of-the-raja-portability-suite
 --->
 
 <!---
