@@ -13,24 +13,22 @@ Using Agile principles in the development of scientific software is widely accep
 <!-- deck text end -->
 
 ###  Agile Principles in Science vs Enterprise Software
-Over the last few years it has almost become an orthodoxy among 
-better informed scientific software developers that they should follow 
-[Agile](https://agilemanifesto.org/) principles in their software processes. Several very good
-reasons have led to this scenario. One is that the models that
-dominated enterprise software before the advent of Agile methods had far too many process overheads to be even remotely feasible in science environments. Another, more
-important, reason is that the growing popularity of Agile principles in
-enterprise software roughly coincided with the world of scientific
-software becoming aware of the adverse impact on productivity of not following any
-software process.  However, the ways in which the
-adoption of Agile principles has played out in these two different areas of software
+Over the last few years, it has almost become an orthodoxy among 
+better informed scientific software developers to follow 
+[Agile](https://agilemanifesto.org/) principles in their software processes. Several
+reasons have given way to this scenario. Initially, the models that
+dominated enterprise software before the advent of Agile methods had far too many process overheads to be even remotely feasible in science environments. More importantly, two very important ideologies coincided with one another: the growing popularity of Agile principles in
+enterprise software and the scientific software community's growing awareness of the adverse impact on productivity in the absence of defined
+software processes.  However, the ways in which the
+adoption of Agile principles has affected these two different areas of software
 development could not be more different.
 
 In enterprise software, Agile methods served to reduce the upfront
 overheads and made their processes more nimble. In most science
-domains software development process has traditionally 
-resembled dysfunctional Agile in the sense that the development was
+domains, the software development process has traditionally 
+resembled dysfunctional Agile, in the sense that the development was
 driven by results needed for the next science paper. So emphasis was on quick
-development and availability to the ``client'', which was often the
+development and availability to the "client", which was often the
 developers themselves. The flip side was that the amount of technical debt
 accrued through such completely unplanned development led to the
 untimely demise of many scientific software projects. So, ironically
@@ -52,7 +50,7 @@ software.  Many multiphysics application software projects rely on a
 robust framework to enable flexibility and extensibility
 of the software.  As with anything that needs to be robust and has to
 last a long time, a great deal of thought needs to go into
-requirements gathering and design, where Agile methods can be counter
+requirements gathering and design; in this instance, Agile methods can be counter
 productive.  The exploration of the design space itself can follow
 Agile principles, but the overall design of the framework requires a more holistic
 approach.
