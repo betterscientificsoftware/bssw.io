@@ -2,17 +2,17 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/blob/master/Blog_0221_Agile.png'>
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0221_Agile.png'>
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64 "Anshu Dubey GitHub Profile")
 
-#### Publication date: February 5, 2021
+#### Publication date: February 11, 2021
  
 <!-- deck text start --> 
 Using Agile principles in the development of scientific software is widely accepted as a best practice.  But in some situations, a deeper initial dive into requirements and design can be beneficial.
 <!-- deck text end -->
 
-###  Agile Principles in Science vs Enterprise Software
+###  Agile principles in science vs enterprise software
 Over the last few years, it has almost become an orthodoxy among 
 better informed scientific software developers to follow 
 [Agile](https://agilemanifesto.org/) principles in their software processes. Several
@@ -37,7 +37,7 @@ was doing the exact opposite of what it was doing to
 enterprise software. That is, Agile methodology was slowing down the next "delivery"
 of scientific software to incorporate some process where none had existed before.
 
-### Is Agile Always the Right Answer?
+### Is agile always the right answer?
 Over the course of two major version revisions in a large and long-lived scientific software project, I have come to the conclusion that while the incorporation of more formal processes as part of Agile has generally been helpful, the evangelization of
 Agile in the community may have gone too far for some classes of
 scientific software, in particular multiphysics multidomain
@@ -73,10 +73,10 @@ to several science domains (it was built for astrophysics, and it is
 now used by at least six other domains), saving huge infrastructure
 development efforts in those domains.  
 
-### Software Processes should fit the Needs
+### Software processes should fit the needs
 To conclude, as with everything else in the world, process should fit needs. Where modifications impact a lot of code making the cost of modifications high, but the rate of change is very low, more thorough planning is called for. On the other hand, where changes are frequent, relatively inexpensive and local (numerical algorithms), Agile is the perfect choice.
 
-### Author Bio
+### Author bio
 Anshu Dubey is a computational scientist in the Mathematics and computer
 Science Division at Argonne National Laboratory and a Senior Scientist
 in the Department of Computer Science at the University of
@@ -89,7 +89,7 @@ emphasis on design, productivity, and sustainability issues.
 
 <!---
 Publish: preview
-RSS update: 2021-02-05
+RSS update: 2021-02-11
 Categories: planning, development
 Topics: software engineering, development tools, agile
 Tags: bssw-blog-article
