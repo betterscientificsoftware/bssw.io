@@ -76,6 +76,9 @@ development efforts in those domains.
 ### Software processes should fit the needs
 As with everything else in the world, process should fit needs. Where modifications impact a lot of code, making the cost of modifications high, but where the rate of change is very low, more thorough planning is called for. On the other hand, where changes are frequent, relatively inexpensive, and local (numerical algorithms), Agile is the perfect choice.
 
+### Acknowledgement
+This blog post was first presented as a whitepaper at the [2020 Collegeville Workshop](https://collegeville.github.io/CW20/) (CW20).
+
 ### Author bio
 Anshu Dubey is a computational scientist in the Mathematics and computer
 Science Division at Argonne National Laboratory and a Senior Scientist
