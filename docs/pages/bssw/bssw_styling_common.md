@@ -6,6 +6,8 @@ toc: true
 ---
 ## Introduction
 
+All GitHub file names for BSSw.io articles should follow the naming conventions laid out [here](https://betterscientificsoftware.github.io/bssw.io/bssw_file_naming.html).
+
 All BSSw.io resources have the following three sections, in common: 
 - Deck
 - Main body
