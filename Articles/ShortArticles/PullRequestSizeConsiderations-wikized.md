@@ -121,14 +121,19 @@ patchwork of approaches and tools<sup>[22]</sup>
 (or using something like CodeStriker,<sup>[23]</sup> designed specifically for
 code review) which often even included emailing around patchfiles.
 
-Finally, it is worth pointing out that many commercial companies, including Google,
-don't use formal branching mechanisms
-to manage code review. Of course, they still engage in code review but do so by other means.
-Instead of using branches, Google keep's everything merged on a single, monolithic line of development<sup>[24]</sup>
-(e.g. *trunk* or *mainline*). In portions of the code base in transition, both new and old
-code paths commonly exist simultaneously, controlled by conditional flags,
-a practice that is highly conducive to incorporating large changes in small, incremental pieces.
-
+Finally, it is worth pointing out that many commercial companies, including
+Google, don't use formal branching mechanisms to manage code review.  Instead,
+they practice incremental mainline trunk-based development with mostly small
+change-sets that are reviewed and merged into the mainline <sup>[24]</sup>.
+With Google, most new features and changes in behavior are managed this way by
+incrementally adding new code in many small updates to the mainline over time
+and conditional flags are used to switch between the current code/behavior and
+the new code/behavior.  (This also facilitates A/B experiments to evaluate new
+code and approaches being developed.)  The exception are large automated
+refactorings (i.e. changes that do not add new behavior or change existing
+behavior) that can touch hundreds to thousands of files at one time and create
+large change-sets.  These are not typically performed by adding new code and
+using conditional flags.
 
 
 <br>
