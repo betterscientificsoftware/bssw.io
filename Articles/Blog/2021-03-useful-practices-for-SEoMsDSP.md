@@ -84,11 +84,11 @@ As a result, people generally have very limited slots in their calendar that the
 open on a regular basis. However, one weekly hour-long meeting is generally possible, and serves
 multiple purposes that:
 
-a. Lets people “context-switch” back to what they promised a mere week ago to have done
-b. Provides an open forum for cross-cutting issues or questions that don’t get easily addressed in
-   subgroup meetings (because, of course these also exist)
-c. Provides some opportunity to disseminate practices and educate new team members
-d. Builds camaraderie through regular (virtual) contact
+* Lets people “context-switch” back to what they promised a mere week ago to have done
+* Provides an open forum for cross-cutting issues or questions that don’t get easily addressed in
+  subgroup meetings (because, of course these also exist)
+* Provides some opportunity to disseminate practices and educate new team members
+* Builds camaraderie through regular (virtual) contact
 
 For all these purposes, it is important that this meeting is open to the entire
 developer team &mdash; however daunting that must seem at first. You can think of this meeting as a
