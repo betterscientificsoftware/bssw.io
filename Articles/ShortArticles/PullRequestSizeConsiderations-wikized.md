@@ -121,14 +121,19 @@ patchwork of approaches and tools<sup>[22]</sup>
 (or using something like CodeStriker,<sup>[23]</sup> designed specifically for
 code review) which often even included emailing around patchfiles.
 
-Finally, it is worth pointing out that many commercial companies, including Google,
-don't use formal branching mechanisms
-to manage code review. Of course, they still engage in code review but do so by other means.
-Instead of using branches, Google keep's everything merged on a single, monolithic line of development<sup>[24]</sup>
-(e.g. *trunk* or *mainline*). In portions of the code base in transition, both new and old
-code paths commonly exist simultaneously, controlled by conditional flags,
-a practice that is highly conducive to incorporating large changes in small, incremental pieces.
-
+Finally, it is worth pointing out that many commercial companies, including
+Google, don't use formal branching mechanisms to manage code review.  Instead,
+they practice incremental mainline trunk-based development with mostly small
+change-sets that are reviewed and merged into the mainline <sup>[24]</sup>.
+With Google, most new features and changes in behavior are managed this way by
+incrementally adding new code in many small updates to the mainline over time
+and conditional flags are used to switch between the current code/behavior and
+the new code/behavior.  (This also facilitates A/B experiments to evaluate new
+code and approaches being developed.)  The exception are large automated
+refactorings (i.e. changes that do not add new behavior or change existing
+behavior) that can touch hundreds to thousands of files at one time and create
+large change-sets.  These are not typically performed by adding new code and
+using conditional flags.
 
 
 <br>
@@ -141,7 +146,7 @@ a practice that is highly conducive to incorporating large changes in small, inc
 [5]: https://derwolfe.net/2016/01/23/splitting-up-pull-requests/ "Splitting Up Pull Requests {}"
 [6]: https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/ "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones {}"
 [7]: https://www.michaelagreiler.com/stacked-pull-requests/ "Stacked pull requests: make code reviews faster, easier, and more effective {}"
-[9]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ "Stacked Pull Requests {}"
+[9]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ "Stacked Diffs Versus Pull Requests {}"
 [10]: https://github.com/marketplace/stacked-pull-requests "Stacked Pull Requests {}"
 [11]: https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests "5 metrics Engineering Managers can extract from Pull Requests {}"
 [12]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ "Best Practices for Code Review {}"
@@ -169,7 +174,7 @@ a practice that is highly conducive to incorporating large changes in small, inc
 [5]: #ref5 "Splitting Up Pull Requests"
 [6]: #ref6 "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
 [7]: #ref7 "Stacked pull requests: make code reviews faster, easier, and more effective"
-[8]: #ref8 "Stacked Pull Requests"
+[8]: #ref8 "Stacked Diffs Versus Pull Requests"
 [9]: #ref9 "Stacked Pull Requests"
 [10]: #ref10 "5 metrics Engineering Managers can extract from Pull Requests"
 [11]: #ref11 "Best Practices for Code Review"
@@ -198,7 +203,7 @@ References | &nbsp;
 <a name="ref5"></a>5 | [Splitting Up Pull Requests ](https://derwolfe.net/2016/01/23/splitting-up-pull-requests/)
 <a name="ref6"></a>6 | [5 Ways to Carve Large Pull Requests Into Bite-Sized Ones ](https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/)
 <a name="ref7"></a>7 | [Stacked pull requests: make code reviews faster, easier, and more effective ](https://www.michaelagreiler.com/stacked-pull-requests/)
-<a name="ref8"></a>8 | [Stacked Pull Requests ](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
+<a name="ref8"></a>8 | [Stacked Diffs Versus Pull Requests ](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
 <a name="ref9"></a>9 | [Stacked Pull Requests ](https://github.com/marketplace/stacked-pull-requests)
 <a name="ref10"></a>10 | [5 metrics Engineering Managers can extract from Pull Requests ](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
 <a name="ref11"></a>11 | [Best Practices for Code Review ](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
