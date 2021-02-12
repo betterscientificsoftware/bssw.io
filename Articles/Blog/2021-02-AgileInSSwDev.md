@@ -6,7 +6,7 @@
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64 "Anshu Dubey GitHub Profile")
 
-#### Publication date: February 11, 2021
+#### Publication date: February 12, 2021
  
 <!-- deck text start --> 
 Using Agile principles in the development of scientific software is widely accepted as a best practice.  But in some situations, a deeper initial dive into requirements and design can be beneficial.
@@ -23,7 +23,7 @@ software processes.  However, the ways in which the
 adoption of Agile principles have affected these two  areas of software
 development could not be more different.
 
-In enterprise software, Agile methods has served to reduce the upfront
+In enterprise software, Agile methods have served to reduce the upfront
 overheads and made  processes more nimble. In most science
 domains, the software development process has traditionally 
 resembled dysfunctional Agile, in the sense that the development was
@@ -55,7 +55,7 @@ The exploration of the design space itself can follow
 Agile principles, but the overall design of the framework requires a more holistic
 approach.
 
-FlASH  had been quickly stitched together
+FLASH  had been quickly stitched together
 initially using three pre-existing codes following the "quicker than
 Agile" approach common in science. Use of Agile would have been 
 appropriate for the first functional version; but once a tool was
@@ -67,20 +67,20 @@ associated with, the design phase took longer than 6 months of discussions, whit
 boarding, prototyping, refining, and even discarding ideas. Both
 times the architectural revision took more than two years from the start before the first
 simple application instance could be configured. As a result of this
-upfront investment in requirements gathering and throoughly understanding the design
+upfront investment in requirements gathering and thoroughly understanding the design
 space,  the code has been able to pivot
 to several science domains (it was built for astrophysics, and it is
 now used by at least six other domains), saving huge infrastructure
 development efforts in those domains.  
 
 ### Software processes should fit the needs
-As with everything else in the world, process should fit needs. Where modifications impact a lot of code, making the cost of modifications high, but where the rate of change is very low, more thorough planning is called for. On the other hand, where changes are frequent, relatively inexpensive, and local (numerical algorithms), Agile is the perfect choice.
+As with everything else in the world, process should fit needs. Where modifications impact a lot of code, making the cost of modifications high, but where the rate of change is very low, more thorough planning is called for. On the other hand, where changes are frequent, relatively inexpensive, and local (e.g., some numerical algorithms), Agile is the perfect choice.
 
 ### Acknowledgement
 This blog post was first presented as a whitepaper at the [2020 Collegeville Workshop](https://collegeville.github.io/CW20/) (CW20).
 
 ### Author bio
-Anshu Dubey is a computational scientist in the Mathematics and computer
+Anshu Dubey is a computational scientist in the Mathematics and Computer
 Science Division at Argonne National Laboratory and a Senior Scientist
 in the Department of Computer Science at the University of
 Chicago. She is the chief software architect for FLASH, 
@@ -91,10 +91,10 @@ emphasis on design, productivity, and sustainability issues.
 
 
 <!---
-Publish: preview
-RSS update: 2021-02-11
+Publish: yes
+RSS update: 2021-02-12
 Categories: planning, development
-Topics: software engineering, development tools, agile
+Topics: software engineering, refactoring
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
