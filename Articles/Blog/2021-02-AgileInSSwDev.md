@@ -50,8 +50,7 @@ software.  Many multiphysics application software projects rely on a
 robust framework to enable flexibility and extensibility
 of the software.  As with anything that needs to be robust and has to
 last a long time, a great deal of thought needs to go into
-requirements gathering and design. In this instance, Agile methods can be counterproductive.  
-The exploration of the design space itself can follow
+requirements gathering and design. In this instance, Agile methods can be counterproductive. The exploration of the design space itself can follow
 Agile principles, but the overall design of the framework requires a more holistic
 approach.
 
