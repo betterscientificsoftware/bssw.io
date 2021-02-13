@@ -120,19 +120,14 @@ patchwork of approaches and tools<sup>[23]</sup>
 (or using something like CodeStriker<sup>[24]</sup>) designed specifically for
 code review) which often even included emailing around patchfiles.
 
-Finally, it is worth pointing out that many commercial companies, including
-Google, don't use formal branching mechanisms to manage code review.  Instead,
-they practice incremental mainline trunk-based development with mostly small
-change-sets that are reviewed and merged into the mainline <sup>[25]</sup>.
-With Google, most new features and changes in behavior are managed this way by
-incrementally adding new code in many small updates to the mainline over time
-and conditional flags are used to switch between the current code/behavior and
-the new code/behavior.  (This also facilitates A/B experiments to evaluate new
-code and approaches being developed.)  The exception are large automated
-refactorings (i.e. changes that do not add new behavior or change existing
-behavior) that can touch hundreds to thousands of files at one time and create
-large change-sets.  These are not typically performed by adding new code and
-using conditional flags.
+Finally, some commercial companies such as Google claim not to use the branching mechanisms
+in version control systems to manage code review. Instead, most new features and changes
+in behavior are managed on a single, monolithic line of development<sup>[24],[25]</sup>
+(e.g. trunk or mainline) using *workspaces* (akin to a Subversion working-copy or a Git clone).
+Both new and old code paths often coexist in the one and only main line of development
+simultaneously, controlled by *toggle* flags, a practice that facilitates accepting large
+changes in small, incremental steps. In all likelihood there are exceptions to this practice
+for large and/or automated refactorings.
 
 [1]: https://sback.it/publications/icse2018seip.pdf  "Modern Code Review: A Case Study at Google {}"
 [2]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft {}"
@@ -158,4 +153,5 @@ using conditional flags.
 [22]: https://git-scm.com/docs/git-request-pull "Documentation for Git Request Pull Command {}"
 [23]: https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews "Comparing Four Kinds of Reviews {}"
 [24]: http://codestriker.sourceforge.net "CodeStriker Project Home Page {}"
-[25]: https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext "Google's Billion Lines of Code Repository {}"
+[25]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository {}"
+[26]: https://news.ycombinator.com/item?id=13561096 " Hacker News commentary on Google's Billion Lines of Code Repository {}"
