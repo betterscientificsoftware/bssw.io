@@ -121,20 +121,14 @@ patchwork of approaches and tools<sup>[22]</sup>
 (or using something like CodeStriker,<sup>[23]</sup> designed specifically for
 code review) which often even included emailing around patchfiles.
 
-Finally, it is worth pointing out that many commercial companies, including
-Google, don't use formal branching mechanisms to manage code review.  Instead,
-they practice incremental mainline trunk-based development with mostly small
-change-sets that are reviewed and merged into the mainline <sup>[24]</sup>.
-With Google, most new features and changes in behavior are managed this way by
-incrementally adding new code in many small updates to the mainline over time
-and conditional flags are used to switch between the current code/behavior and
-the new code/behavior.  (This also facilitates A/B experiments to evaluate new
-code and approaches being developed.)  The exception are large automated
-refactorings (i.e. changes that do not add new behavior or change existing
-behavior) that can touch hundreds to thousands of files at one time and create
-large change-sets.  These are not typically performed by adding new code and
-using conditional flags.
-
+Finally, some commercial companies such as Google claim not to use the branching mechanisms
+in version control systems to manage code review. Instead, most new features and changes
+in behavior are managed on a single, monolithic line of development<sup>[24],[25]</sup>
+(e.g. trunk or mainline) using *workspaces* (akin to a Subversion working-copy or a Git clone).
+Both new and old code paths often coexist in the one and only main line of development
+simultaneously, controlled by *toggle* flags, a practice that facilitates accepting large
+changes in small, incremental steps. In all likelihood there are exceptions to this practice
+for large and/or automated refactorings.
 
 <br>
 
@@ -162,7 +156,8 @@ using conditional flags.
 [22]: https://git-scm.com/docs/git-request-pull "Documentation for Git Request Pull Command {}"
 [23]: https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews "Comparing Four Kinds of Reviews {}"
 [24]: http://codestriker.sourceforge.net "CodeStriker Project Home Page {}"
-[25]: https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext "Google's Billion Lines of Code Repository {}"
+[25]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository {}"
+[26]: https://news.ycombinator.com/item?id=13561096 " Hacker News commentary on Google's Billion Lines of Code Repository {}"
 
 --->
 <br>
@@ -191,6 +186,7 @@ using conditional flags.
 [22]: #ref22 "Comparing Four Kinds of Reviews"
 [23]: #ref23 "CodeStriker Project Home Page"
 [24]: #ref24 "Google's Billion Lines of Code Repository"
+[25]: #ref25 "Hacker News commentary on Google's Billion Lines of Code Repository"
 
 <br>
 
@@ -219,7 +215,8 @@ References | &nbsp;
 <a name="ref21"></a>21 | [Documentation for Git Request Pull Command ](https://git-scm.com/docs/git-request-pull)
 <a name="ref22"></a>22 | [Comparing Four Kinds of Reviews ](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
 <a name="ref23"></a>23 | [CodeStriker Project Home Page ](http://codestriker.sourceforge.net)
-<a name="ref24"></a>24 | [Google's Billion Lines of Code Repository ](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext)
+<a name="ref24"></a>24 | [Google's Billion Lines of Code Repository ](https://dl.acm.org/doi/pdf/10.1145/2854146)
+<a name="ref25"></a>25 | [Hacker News commentary on Google's Billion Lines of Code Repository ](https://news.ycombinator.com/item?id=13561096)
 
 <!---
  Publish: yes
