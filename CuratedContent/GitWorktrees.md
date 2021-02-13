@@ -4,7 +4,7 @@ Switching quickly and easily between multiple branches of development in Git is 
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: Jan 26, 2021
+#### Publication date: Feb 12, 2021
 
 Resource information | Details
 :--- | :--- 
