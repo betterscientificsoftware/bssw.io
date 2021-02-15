@@ -10,13 +10,15 @@
 
 #### Publication date: March 10, 2021
 
-Here's how we've approached producing reliable scientific software in the modern research context
+<!-- deck text start --> 
+Find out how scientists at Lawrence Berkeley National Laboratory have approached producing reliable scientific software in the modern research context
 with contributors from multiple labs, universities & disciplines, spread across timezones, etc.
+<!-- deck text end --> 
 
 ### Introduction & Background
 
 Modern science depends heavily on computing and computer software.  The correctness, efficiency, and
-more generally the qualityof the software is instrumental to scientific advancement.  Software
+more generally, the quality of the software is instrumental to scientific advancement.  Software
 engineering &mdash; *"the application of a systematic, disciplined, quantifiable approach to the
 development, operation, and maintenance of software"* [IEEE Standard Glossary of Software
 Engineering Terminology, IEEE std 610.12-1990, 1990] &mdash; is the major tool available to create
@@ -28,7 +30,7 @@ efforts of medium-sized, distributed, multi-disciplinary scientific project team
 *medium-sized*, we mean from about 10 to 50 people; by *distributed*, we mean that the team is
 comprised of people from multiple institutions that are geographically separated and do not have a
 common management structure &mdash; typically a few universities and one or more national
-laboratories; and by multi-disciplinary, we mean the team is usually composed of people who come
+laboratories; and by *multi-disciplinary*, we mean the team is usually composed of people who come
 from scientific or engineering backgrounds other than Computer Science or Software Engineering, with
 limited experience writing software for use outside their own or team’s projects. We have often tried
 to apply software engineering and project management approaches from industry in this milieu, but
@@ -41,8 +43,8 @@ Engineering (PSE) capabilities. Funded by the DOE Office of Fossil Energy, and l
 Energy Technology Laboratory (NETL), the project's mission is to improve the efficiency and
 reliability of the existing fleet of coal-fired power plants while accelerating the development of a
 broad range of advanced fossil energy systems. The IDAES team spans three national laboratories
-(NETL, SNL, and LBNL) and three Universities (Carnegie-Mellon University, West Virginia University,
-and Notre Dame University). Most of the team is in two locations &mdash; CMU and NETL &mdash; in
+&mdash; NETL, Sandia National Laboratories (SNL), and Lawrence Berkeley National Laboratory (LBNL) &mdash; and three Universities &mdash; Carnegie-Mellon University (CMU), West Virginia University (WVU),
+and Notre Dame University. Most of the team is in two locations &mdash; CMU and NETL &mdash; in
 Pittsburgh, PA. However, there are half a dozen participants at each of LBNL (Berkeley, CA) and
 Sandia (Albuquerque, NM), as well as professors and several graduate students at WVU and Notre Dame.
 From a software engineering perspective, the goal is to build a software package that is capable of
@@ -59,14 +61,14 @@ models and iterating with the customer.
 While the IDAES project runs functionally as a unit, there are sub-hierarchies of control in each
 national laboratory and university that set local priorities within the framework of the project
 deliverables. And although most of the effort is being spent on new software to perform chemical
-process engineering, there is also significant effort in addingrelated capabilities to an existing
+process engineering, there is also significant effort in adding related capabilities to an existing
 software package, [Pyomo](https://www.pyomo.org/), that pre-dates IDAES and continues to be
 developed at Sandia National Laboratories. This size and variation in scope makes project
 coordination a challenge, but also is not unusual in our projects.
 
 Although the specific approaches to increasing overall team productivity through software
 engineering vary across projects, three elements of what we are doing for IDAES are, we
-believe, generally applicable to projects with this kind of mix of institutions, disciplinesand
+believe, generally applicable to projects with this kind of mix of institutions, disciplines and
 scale: weekly whole-team developer meetings, incrementally better automation, and
 “soapboxing” (including software engineering in official goals & deliverables).
 
@@ -94,16 +96,16 @@ For all these purposes, it is important that this meeting is open to the entire
 developer team &mdash; however daunting that must seem at first. You can think of this meeting as a
 little bit like going to a weekly religious service or tight-knit social group (church, temple, book
 group, bicycling club, etc.) where the enthusiasm for the event may vary week to week, but the
-overall experience is as much about the customand connectionsas the content.
+overall experience is as much about the customs and connections as the content.
 
 Specifically what occurs during these meetings will probably depend on your development practices
 and tools. But in general, we have found that there should be two main activities: an open agenda of
-issues that people can edit before the meeting; and a standard task that focuses attention on the
+issues that people can edit before the meeting, and a standard task that focuses attention on the
 active development across the project. For many projects, a modified Kanban “project board” approach
-provides an excellent focus because it provides an easily summarized list of things done,
+provides an excellent focus because it provides an easily summarized list of things completed,
 in-progress, and abandoned. Whoever is leading the meeting &mdash; and of course there should be
 just one person who leads it, since anything else with 20+ people on the line would be chaos &mdash;
-can in the absence of any other topics simply walk through all issues, categorize them against
+can, in the absence of any other topics, simply walk through all issues, categorize them against
 release or other timelines, etc. Almost always, this simple practice will bring up interactions
 between the different pieces of ongoing work that would have otherwise been discovered much later,
 if at all.
@@ -116,12 +118,7 @@ tests must be written by people who understand the mathematics and science of th
 (or, in the case of infrastructure code, the computer science principles of the code). However, we
 must face the reality that this is a significant request of someone’s time, and is competing with
 the next publication or result, which they may be encouraged to prioritize. Our position is that the
-right approach to take to this problem is incremental: help people put in a few tests, but don’t
-require that they pass; then add a requirement that the tests pass before the code is merged, but
-don’t worry about code coverage or style; then start informally checking code coverage, and style,
-but don’t enforce anything; then start enforcing low levels of code coverage and very basic style
-rules; and finally &mdash; well, honestly we’ve never gotten farther than that. But by doing this
-all in baby steps, and talking about it weekly in the developer meetings, you are building up a
+right approach to take to this problem is incremental: 1) help people put in a few tests, but don’t require that they pass; 2) add a requirement that the tests pass before the code is merged, but don’t worry about code coverage or style; 3) start informally checking code coverage, and style, but don’t enforce anything; 4) start enforcing low levels of code coverage and very basic style rules; 5) finally &mdash; well, honestly we’ve never gotten farther than that. But by doing this all in baby steps, and talking about it weekly in the developer meetings, you are building up a
 culture of testing that will lead to eventually having a robust software environment that is broadly
 supported by the team.
 
@@ -171,7 +168,7 @@ backgrounds.  He has worked in industry as a software engineer and release manag
 years at LBNL.  He also tortures local music venue attendees playing bass in rock bands.
 
 <!---
-Publish: No
+Publish: Preview
 Categories: reliability
 Topics: testing
 Tags: bssw-blog-article
