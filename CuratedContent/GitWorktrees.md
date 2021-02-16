@@ -42,7 +42,7 @@ Finally, although [`git worktree`](https://git-scm.com/docs/git-worktree) has be
 since 2015, it is still considered an *experimental* feature and doesn't work with Git submodules.
 
 <!---
-Publish: yes
+Publish: preview
 Pinned: no
 Categories: skills, development
 Topics: revision control, development tools
