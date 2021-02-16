@@ -219,7 +219,7 @@ References | &nbsp;
 <a name="ref25"></a>25 | [Hacker News commentary on Google's Billion Lines of Code Repository ](https://news.ycombinator.com/item?id=13561096)
 
 <!---
- Publish: yes
+ Publish: preview
  Pinned: no
  Categories: skills, development
  Topics: revision control, development tools
