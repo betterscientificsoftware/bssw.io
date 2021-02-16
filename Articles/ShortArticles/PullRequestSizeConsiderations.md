@@ -155,3 +155,11 @@ for large and/or automated refactorings.
 [24]: http://codestriker.sourceforge.net "CodeStriker Project Home Page {}"
 [25]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository {}"
 [26]: https://news.ycombinator.com/item?id=13561096 " Hacker News commentary on Google's Billion Lines of Code Repository {}"
+
+<!---
+ Publish: no
+ Pinned: no
+ Categories: skills, development
+ Topics: revision control, development tools
+ RSS update: 2021-01-29
+ --->
