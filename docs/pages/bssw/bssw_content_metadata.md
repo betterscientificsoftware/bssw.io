@@ -16,7 +16,6 @@ Listed here is the format of a typical metadata.
 <!---
 Publish: yes
 Pinned: no
-Categories: planning, reliability
 Topics: software engineering, testing
 RSS update: 2020-12-17
 --->
@@ -55,24 +54,9 @@ pinned: yes
 pinned: no
 ````
 
-### Categories
-Categories are displayed on BSSw.io and provide easier navigation and content searching by the readers. Each article can belong to one or more categories. **The BSSw editorial team may add/revise categories as needed over time.**
-
-````
-Categories: planning, reliability
-````
-
-The current categories are as follows:
-- Planning
-- Development
-- Performance
-- Reliability
-- Collaboration
-- Skills
-
 ### Topics
 
-Each category has several finer grain topics under it. Topics are visible filters via BSSw website interface. A family of topics that make sense together are grouped together in a category. There are around 4-7 topics per category. **The BSSw editorial team may add/revise topics as needed over time.**
+Topics are visible filters displayed on the BSSw website interface that provide readers with easier navigation and content searching abilities. A family of topics that make sense together are grouped together in a category. There are around 4-7 topics per category. **The BSSw editorial team may add/revise topics as needed over time.**
 
 ````
 Topics: software engineering, testing
@@ -128,7 +112,21 @@ Listed below are metadata that were created for various feature-related experime
 
 **Tags**
 
-Tags are optional additional keywords for searches. 
+Tags were optional additional keywords for searches. 
+
+
+**Categories**
+
+Categories were displayed on BSSw.io to provide easier navigation. Each article could belong to one or more categories. Categories have been replaced by the "topic" tag in metadata. 
+
+The categories were defined as follows:
+- Planning
+- Development
+- Performance
+- Reliability
+- Collaboration
+- Skills
+
 
 **Level**
 
