@@ -1,17 +1,17 @@
-# PR Size Matters (Source)
+# Pull Request Size Matters (Source)
 
 <!-- deck text start -->
 Developers new to peer review via the Pull Request workflow supported by
 hosting providers like GitHub, GitLab, etc., may not appreciate the
-impact of the *size* of the PR on overall productivity of the team.
+impact of the *size* of the Pull Request on overall productivity of the team.
 This article outlines some issues and provides some links to several
-supporting articles about the impact of PR size on productivity.
+supporting articles about the impact of Pull Request size on productivity.
 <!-- deck text end --> 
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
-#### Publication date: Jan 25, 2021
+#### Publication date: Feb 16, 2021
 
-By now, most HPC/CSE'ers are likely familiar with *pull requests*. That is
+By now, most HPC/CSE'ers are likely familiar with *pull requests (PR)*. That is
 GitHub/Bitbucket parlance (GitLab uses *merge request*) for a batch of related
 code changes on one branch of development submitted for *review* prior to
 merging into another branch. For example, a PR might include all the changes
@@ -157,9 +157,9 @@ for large and/or automated refactorings.
 [26]: https://news.ycombinator.com/item?id=13561096 " Hacker News commentary on Google's Billion Lines of Code Repository {}"
 
 <!---
- Publish: no
+ Publish: preview
  Pinned: no
  Categories: skills, development
  Topics: revision control, development tools
- RSS update: 2021-01-29
+ RSS update: 2021-02-16
  --->
