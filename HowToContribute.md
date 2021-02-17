@@ -25,7 +25,7 @@ If you are familiar with GitHub, please do use the below approach to submit your
 ### What happens next?
 After you have submitted your material by either of the two approaches described above, it will be reviewed by the BSSw.io editorial team. We will communicate with you to request the full article, clarifications, revisions or to review minor editorial revisions we make. Depending on the modality of your submission, these communications may occur through regular email or through standard GitHub tools and processes.
 
-Your issue and suggested contribution will be handled by the [BSSw Contribution Editorial Process](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Site/CuratedContentEditorialWorkflow.md).
+Your issue and suggested contribution will be handled by the BSSw editorial team using the *BSSw contribution editorial process*.
 
 <!--
 Publish: Yes  
