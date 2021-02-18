@@ -40,6 +40,5 @@ For deadlines, important dates and updates, please visit the [SE4Science'21](htt
 <!---
 Publish: yes
 RSS update: 2020-12-22
-Categories: development, collaboration
 Topics: conferences and workshops
 --->
