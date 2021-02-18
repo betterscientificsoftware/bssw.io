@@ -23,7 +23,6 @@ The paper provides a compilation of 66 studies related to scientific software de
 
 <!---
 Publish: yes
-Categories: planning, reliability, development
 Topics: software engineering, testing, revision control
 Tags: paper
 Level: 2
