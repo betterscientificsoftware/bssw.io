@@ -7,14 +7,14 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: blog_posts/when-not-to-use-agile-in-scientific-software-development
 Slide1 R: images/raw/master/Blog_0221_Agile.png
-Slide2 L: items/working-within-multiple-git-branches-simultaneously
-Slide2 R: items/making-software-what-really-works-and-why-we-believe-it
+Slide2 L: items/pull-request-size-matters
+Slide2 R: items/working-within-multiple-git-branches-simultaneously
 Slide3 L: blog_posts/advanced-training-on-extreme-scale-computing-through-atpesc
 Slide3 R: images/raw/master/Blog_0121_ATPESC.jpg
 Slide4 L: blog_posts/better-scientific-software-2020-highlights
 Slide4 R: images/raw/master/Blog_0121_Montage.png
-Slide5 L: items/the-collaborations-workshop-2021-cw21
-Slide5 R: items/coded-bias-a-film-highlighting-issues-of-bias-in-ai-software
+Slide5 L: items/making-software-what-really-works-and-why-we-believe-it
+Slide5 R: items/the-collaborations-workshop-2021-cw21
 Slide6 L: events/webinar-an-overview-of-the-raja-portability-suite
 Slide6 R: events/siam-cse21-software-related-events
 --->
