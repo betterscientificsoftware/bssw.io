@@ -52,7 +52,6 @@ container solution.
 <!---
 Publish: yes
 RSS update: 2019-11-26
-Categories: Development, Reliability, Performance
 Topics: Release and Deployment, Performance Portability, Reproducibility 
 Level: 2
 Prerequisites: defaults
