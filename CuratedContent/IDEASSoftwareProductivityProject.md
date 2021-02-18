@@ -28,7 +28,6 @@ Sponsored by the U. S. Dept. of Energy
 
 <!---
 Publish: yes
-Categories: Collaboration
 Topics: Projects and organizations
 Tags: project, organization
 Level: 2
