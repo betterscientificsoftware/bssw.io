@@ -93,7 +93,7 @@ The Software Sustainability Institute (SSI) is a primary nexus of activity aroun
 
 <!---
 Publish: yes
-RSS feed: 2021-02-19
+RSS update: 2021-02-19
 Topics: online learning, software publishing and citation, strategies for more effective teams, software process improvement, reproducibility, software engineering
 Tags: website
 Level: 2
