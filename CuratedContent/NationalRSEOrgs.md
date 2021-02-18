@@ -21,7 +21,6 @@ Since the inception of the RSE movement in 2014, several organizations and assoc
 
 <!---
 Publish: yes
-Categories: collaboration
 Topics: Projects and organizations
 Tags: organization
 Level: 2
