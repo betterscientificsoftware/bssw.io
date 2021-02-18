@@ -114,7 +114,6 @@ sites which can provide a DOI for your software with little to no review:
 
 <!---
 Publish: yes
-Categories: Collaboration
 Topics: software publishing and citation
 Tags: journal, service
 Level: 2
