@@ -26,7 +26,6 @@ While going through the book, the reader will find justifications for following 
 
 <!---
 Publish: yes
-Categories: development, planning
 Topics: refactoring, design
 Tags: book
 Level: 2
