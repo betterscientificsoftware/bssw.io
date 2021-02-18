@@ -1,18 +1,18 @@
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from PullRequestSizeConsiderations.md --->
-# PR Size Matters
+# Pull Request Size Matters
 
 <!-- deck text start -->
 Developers new to peer review via the Pull Request workflow supported by
 hosting providers like GitHub, GitLab, etc., may not appreciate the
-impact of the *size* of the PR on overall productivity of the team.
+impact of the *size* of the Pull Request on overall productivity of the team.
 This article outlines some issues and provides some links to several
-supporting articles about the impact of PR size on productivity.
+supporting articles about the impact of Pull Request size on productivity.
 <!-- deck text end --> 
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
-#### Publication date: Jan 25, 2021
+#### Publication date: Feb 18, 2021
 
-By now, most HPC/CSE'ers are likely familiar with *pull requests*. That is
+By now, most HPC/CSE'ers are likely familiar with *pull requests (PR)*. That is
 GitHub/Bitbucket parlance (GitLab uses *merge request*) for a batch of related
 code changes on one branch of development submitted for *review* prior to
 merging into another branch. For example, a PR might include all the changes
@@ -26,8 +26,8 @@ way you are changing a code base primarily to accommodate the review process? Do
 you often wind up breaking a group of related changes across *multiple* PRs and
 subsequently planning and executing associated development far differently than
 you might have if you had treated them all in a single PR? If your answer to any
-of these questions is *not often* or *not ever*, you may be creating PRs that are,
-by industry standards and practices, too large.
+of these question is *not often* or *not ever*, you may be creating PRs that are
+by industry standards and practices too large.
 
 The
 *size* of a PR<sup>[10]</sup>
@@ -36,7 +36,7 @@ counts of deleted lines, modified lines and added lines).
 Some research<sup>[11]</sup>
 suggests that more than 400 lines changed is considered *too large* for a single
 *review*. Other research,<sup>[1],[2],[3]</sup> suggests an inverse correlation between PR size
-and defect rate. Reviewers suffer one or more of the following consequences: the larger a
+and defect rate. Reviewers suffer one or more of the following consequences the larger a
 PR is...
 * ...the more work reviewing the PR involves.
 * ...the more difficult it is to divy up review work among multiple reviewers.
@@ -63,7 +63,7 @@ To split this massive change across multiple PRs and branches (**note:**
 binary content in VisIt's Subversion repo at the time<sup>[14]</sup> would have made this impractical),
 the team could have agreed to a period of transition where both VTK versions
 were allowed to temporarily coexist or where portions of the code base were temporarily
-disabled or broken, much like portions of a building or roadway system are closed during
+disabled or broken much like portions of a building or roadway system are closed during
 remodeling or construction.
 
 Experience with
@@ -86,7 +86,7 @@ First, strict adherence to avoiding mixing unrelated changes in a single PR
 may simply discourage some good housekeeping
 (*while I am here fixing problem A, why don't I go ahead and also fix problem B*).
 There is just a lot of overhead associated with splitting
-changes over multiple PRs, including creating branches and PRs, running and waiting
+changes over multiple PRs including creating branches and PRs, running and waiting
 for CI in each PR, ensuring each PR is reviewed and merged in logical order and
 possibly having to apply each PR's changes to multiple branches (e.g. release candidate and main).
 
@@ -118,17 +118,26 @@ In fact, long before GitHub introduced pull requests in 2008 (which was
 in turn based on Git's `request-pull`<sup>[21]</sup> operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
 patchwork of approaches and tools<sup>[22]</sup>
-(or using something like CodeStriker,<sup>[23]</sup> designed specifically for
+(or using something like CodeStriker<sup>[23]</sup>) designed specifically for
 code review) which often even included emailing around patchfiles.
 
 Finally, some commercial companies such as Google claim not to use the branching mechanisms
 in version control systems to manage code review. Instead, most new features and changes
-in behavior are managed on a single, monolithic line of development<sup>[24],[25]</sup>
+in behavior are managed on a single, monolithic line of development<sup>[23],[24]</sup>
 (e.g. trunk or mainline) using *workspaces* (akin to a Subversion working-copy or a Git clone).
 Both new and old code paths often coexist in the one and only main line of development
 simultaneously, controlled by *toggle* flags, a practice that facilitates accepting large
 changes in small, incremental steps. In all likelihood there are exceptions to this practice
 for large and/or automated refactorings.
+
+
+
+<!---
+ Publish: no
+ Pinned: no
+ Topics: revision control, development tools
+ RSS update: 2021-02-18
+ --->
 
 <br>
 
@@ -186,7 +195,7 @@ for large and/or automated refactorings.
 [22]: #ref22 "Comparing Four Kinds of Reviews"
 [23]: #ref23 "CodeStriker Project Home Page"
 [24]: #ref24 "Google's Billion Lines of Code Repository"
-[25]: #ref25 "Hacker News commentary on Google's Billion Lines of Code Repository"
+[25]: #ref25 " Hacker News commentary on Google's Billion Lines of Code Repository"
 
 <br>
 
@@ -216,14 +225,13 @@ References | &nbsp;
 <a name="ref22"></a>22 | [Comparing Four Kinds of Reviews ](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
 <a name="ref23"></a>23 | [CodeStriker Project Home Page ](http://codestriker.sourceforge.net)
 <a name="ref24"></a>24 | [Google's Billion Lines of Code Repository ](https://dl.acm.org/doi/pdf/10.1145/2854146)
-<a name="ref25"></a>25 | [Hacker News commentary on Google's Billion Lines of Code Repository ](https://news.ycombinator.com/item?id=13561096)
+<a name="ref25"></a>25 | [ Hacker News commentary on Google's Billion Lines of Code Repository ](https://news.ycombinator.com/item?id=13561096)
 
 <!---
  Publish: preview
  Pinned: no
- Categories: skills, development
  Topics: revision control, development tools
- RSS update: 2021-01-29
+ RSS update: 2021-02-18
  --->
 
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from PullRequestSizeConsiderations.md --->
