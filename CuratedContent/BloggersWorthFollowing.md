@@ -1,11 +1,11 @@
-# Scientific Software Bloggers Worth Following
+# Scientific Software Bloggers and Podcasts Worth Following
 
 <!--- deck text start --->
-A number of bloggers write frequently and thoughtfully about issues related to "better scientific software".  You may want to follow some of them.
+A number of bloggers and podcasts frequently and thoughtfully about issues related to "better scientific software".  You may want to follow some of them.
 <!--- deck text end --->
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-#### Publication date: October 23, 2020 
+#### Publication date: February 19, 2021 
 
 ## Daniel S. Katz's Blog
 Resource information | Details
@@ -45,17 +45,55 @@ Resource information | Details
 :--- | :--- 
 Blog Name | Doctor McKayla
 Website | https://www.michaelagreiler.com/all-posts/
+Podcast Name | Software Engineering Unlocked
+Website | https://www.software-engineering-unlocked.com/
 Focus | Software Engineering, Code Review
 
-Michaela Greiler is a consultant who provides training/coaching on software development practices, especially code review.  In addition to her blog, she has a newsletter, a podcast, a YouTube channel, and is writing a book on code review.  She posts regularly.
+Michaela Greiler is a consultant who provides training/coaching on software development practices, especially code review.  In addition to her blog, she has a newsletter, a podcast, a YouTube channel, and is writing a book on code review.  She posts regularly to both the blog and the podcast.
+
+## RSE Stories
+Resource information | Details
+:--- | :--- 
+Podcast Name | RSE Stories
+Website | http://us-rse.org/rse-stories/
+Focus | Experiences of research software engineers
+
+This podcast, launched by Vanessa Sochat, interviews people working as research software engineers.  It explores the wide range of experiences and activities in the RSE community.
+
+## Code for Thought
+Resource information | Details
+:--- | :--- 
+Podcast Name | Code for Thought
+Website | https://codeforthought.buzzsprout.com/
+Focus | "software engineering, research, and anything in between"
+
+Another podcast originating in the research software engineering community.
+
+## Top 10 Podcasts on Software and Open Research
+Resource information | Details
+:--- | :--- 
+Website | https://www.software.ac.uk/blog/2020-11-27-top-10-podcasts-software-and-open-research
+Focus | A selection of ten podcasts on software and open research topics
+
+This is a meta-recommendation, rather than trying to capture all ten (plus two honorable mentions) here.  The post was published in November 2020 by Patricia Herterich and Sarah Gibson in honor of the UK [Software Sustainability Institute](https://www.software.ac.uk/)'s tenth anniversary.
+
+## Software Sustainability Institute
+Resource information | Details
+:--- | :--- 
+Blog Name | Software and research: the Institute's Blog
+Website | https://www.software.ac.uk/blog
+Focus | Activities of the Software Sustainability Institute
+
+The Software Sustainability Institute (SSI) is a primary nexus of activity around better scientific software in the UK.  The blog is wide-ranging, but often includes the products of "speed blogging" activities at various conferences and workshops, reports from SSI Fellows, and many other topics.
 
 ## Whom do you follow?
-*Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers you follow regularly on topics related to better scientific software.*
+*Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers and podcasts you follow regularly on topics related to better scientific software.*
 
-**Disclaimer:** The views expressed in the blogs above are those of the authors.  They do not necessarily reflect the views of editors or sponsors of the BSSw.io site.
+**Disclaimer:** The views expressed in the blogs and podcasts above are those of the authors.  They do not necessarily reflect the views of editors or sponsors of the BSSw.io site.
 
 <!---
 Publish: yes
+RSS feed: 2021-02-19
 Topics: online learning, software publishing and citation, strategies for more effective teams, software process improvement, reproducibility, software engineering
 Tags: website
 Level: 2
