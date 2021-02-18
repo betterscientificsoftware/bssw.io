@@ -24,7 +24,6 @@ For the full webinar series, see the following links: [Series: Best Practices fo
 
 <!---
 Publish: no
-Categories: development
 Topics: configuration and builds, release and deployment
 Tags: 
 Level: 2
