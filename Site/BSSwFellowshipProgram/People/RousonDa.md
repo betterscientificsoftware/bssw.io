@@ -10,7 +10,7 @@
 
 **LinkedIn:** https://www.linkedin.com/in/damian-rouson-018265/
 
-**Github:** 
+**Github:** https://github.com/rouson
 
 **Short Bio:** Introducing agile scientific software development to underrepresented groups
 
