@@ -88,10 +88,8 @@ def process_input_file(filename):
                 other_lines += [mdfl]
             elif in_ld_comment and re.match("^END LINK DEFINITIONS ---?>$", mdfl):
                 in_ld_comment = False
-                other_lines += [mdfl]
             elif re.match("^<!---? BEGIN LINK DEFINITIONS$", mdfl):
                 in_ld_comment = True
-                other_lines += [mdfl]
             # capture any previously generated link definition lines
             elif re.match("^\[[0-9]*\]: #ref[0-9]* \"", mdfl):
                 prev_gen_linkdef_lines += [mdfl]
@@ -180,7 +178,7 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
     # Write original set of refs embedded in comments
     #
     if original_refs:
-        outlines.append("\n<br>\n\n<!--- BEGIN LINK DEFINITIONS\n")
+        outlines.append("\n<!--- BEGIN LINK DEFINITIONS\n")
         for l in original_refs:
             lparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*) {(.*)}\"$", l)
             ref_hdl = lparts.groups()[0]
@@ -188,7 +186,7 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
             ref_tit = lparts.groups()[2]
             ref_bib = lparts.groups()[3]
             outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
-        outlines.append("\nEND LINK DEFINITIONS --->\n<br>\n\n")
+        outlines.append("END LINK DEFINITIONS --->\n\n")
 
     #
     # Write link definitions with links to anchors in reference table
@@ -201,8 +199,7 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
     # Finally, write the references and off-page links as a table
     # where each row defines an anchor for one of the link definitions, above
     #
-    outlines.append("\n<br>\n\n")
-    outlines.append("References | &nbsp;\n")
+    outlines.append("\nReferences | &nbsp;\n")
     outlines.append(":--- | :---\n")
     for k,v in sorted(remapped_ref_map.items()):
         if (not v[0] or v[0].isspace()) and (not v[2] or v[2].isspace()):
