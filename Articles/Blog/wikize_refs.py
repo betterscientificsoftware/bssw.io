@@ -5,9 +5,6 @@
 from optparse import OptionParser
 import re, os, stat
 
-def warning_msg(mdfile):
-    return "<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from %s --->\n"%mdfile
-
 def usage():
     return \
 """
@@ -61,7 +58,7 @@ def parse_args():
     opts, mdfiles = parser.parse_args()
 
     if not mdfiles:
-        print "Must include the name of a markdown file to process."
+        print("Must include the name of a markdown file to process.")
         exit(1)
 
     return opts, mdfiles[0]
@@ -74,25 +71,49 @@ def process_input_file(filename):
     fn_handles = set()
     other_lines = []
     original_refs = []
+    prev_gen_linkdef_lines = []
+    prev_gen_reftab_lines = []
     ref_map = {}
     in_comment = False
+    in_ld_comment = False
     with open(filename, 'r') as mdf:
         for mdfl in mdf.readlines():
             # grep for ^[xxx]: URL "Short Description {Formal Bibliographic data}"$
             mdfparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*) {(.*)}\"$", mdfl)
-            if in_comment and re.match("--->", mdfl):
+            if in_comment and re.match("^\s*---?>\s*$", mdfl):
                 in_comment = False
-            elif re.match("<!---", mdfl):
+                other_lines += [mdfl]
+            elif re.match("^\s*<!---?\s*$", mdfl):
                 in_comment = True
-            if not in_comment and mdfparts != None and len(mdfparts.groups()) == 4:
+                other_lines += [mdfl]
+            elif in_ld_comment and re.match("^END LINK DEFINITIONS ---?>$", mdfl):
+                in_ld_comment = False
+                other_lines += [mdfl]
+            elif re.match("^<!---? BEGIN LINK DEFINITIONS$", mdfl):
+                in_ld_comment = True
+                other_lines += [mdfl]
+            # capture any previously generated link definition lines
+            elif re.match("^\[[0-9]*\]: #ref[0-9]* \"", mdfl):
+                prev_gen_linkdef_lines += [mdfl]
+            # capture any previously generated reference table lines
+            elif re.match("^<a name=\"ref[0-9]*\"></a>[0-9]* | \[", mdfl):
+                prev_gen_reftab_lines += [mdfl]
+            elif re.match("^References | &nbsp;$", mdfl):
+                prev_gen_reftab_lines += [mdfl]
+            elif re.match("^:--- | :---$", mdfl):
+                prev_gen_reftab_lines += [mdfl]
+            elif not in_comment and mdfparts != None and len(mdfparts.groups()) == 4:
                 ref_hdl = mdfparts.groups()[0]
                 ref_url = mdfparts.groups()[1]
-                ref_desc = mdfparts.groups()[2]
+                ref_tit = mdfparts.groups()[2]
                 ref_bib = mdfparts.groups()[3]
                 if ref_hdl in ref_map:
-                    print "Error: repeated reference definition handle", ref_hdl
-                    exit(1)
-                ref_map[ref_hdl] = [ref_desc, ref_url, ref_bib]
+                    print("Error: repeated reference handle", ref_hdl, "at or near this line...")
+                    print(mdfl)
+                    if not warn:
+                        print("Correct above issues and re-try...")
+                        exit(1)
+                ref_map[ref_hdl] = [ref_tit, ref_url, ref_bib]
                 ref_map[ref_hdl].append(len(ref_map))
                 original_refs += [mdfl]
             elif not in_comment: # handle up to 3 footnotes in a single <sup></sup>
@@ -117,27 +138,22 @@ def sanity_checks(fn_handles, ref_map, warn):
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
     if missing_refs:
-        print "Some footnotes never appear in the references..."
-        print "   ", [x for x in missing_refs]
+        print("Some footnotes never appear in the references...")
+        print([x for x in missing_refs])
         if not warn:
-            print "Correct above issues and re-try..."
+            print("Correct above issues and re-try...")
             exit(1)
 
     missing_fns = ref_handles - fn_handles
     if missing_fns:
-        print "Some references never appear in a footnote..."
-        print "   ", [x for x in missing_fns]
+        print("Some references never appear in a footnote...")
+        print([x for x in missing_fns])
         if not warn:
-            print "Correct above issues and re-try..."
+            print("Correct above issues and re-try...")
             exit(1)
 
 def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
     outlines = []
-
-    #
-    # write warning comment about this being auto-generated
-    #
-    outlines.append(warning_msg(mdfile))
 
     #
     # Write all non-reference definition lines (e.g. article content) first
@@ -163,10 +179,16 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
     #
     # Write original set of refs embedded in comments
     #
-    outlines.append("\n<br>\n\n<!---\n")
-    for l in original_refs:
-        outlines.append(l)
-    outlines.append("\n--->\n<br>\n\n")
+    if original_refs:
+        outlines.append("\n<br>\n\n<!--- BEGIN LINK DEFINITIONS\n")
+        for l in original_refs:
+            lparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*) {(.*)}\"$", l)
+            ref_hdl = lparts.groups()[0]
+            ref_url = lparts.groups()[1]
+            ref_tit = lparts.groups()[2]
+            ref_bib = lparts.groups()[3]
+            outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
+        outlines.append("\nEND LINK DEFINITIONS --->\n<br>\n\n")
 
     #
     # Write link definitions with links to anchors in reference table
@@ -189,16 +211,6 @@ def generate_output_file_lines(mdfile, other_lines, original_refs, ref_map):
             outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[1]))
         else:
             outlines.append("<a name=\"ref%d\"></a>%d | [%s %s](%s)\n"%(k, k, v[0], v[2], v[1]))
-
-    #
-    # make sure to leave a blank line between table above and warning_msg comment
-    #
-    outlines.append("\n")
-
-    #
-    # write warning comment about this being auto-generated
-    #
-    outlines.append(warning_msg(mdfile))
 
     return outlines
 
