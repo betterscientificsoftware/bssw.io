@@ -102,7 +102,23 @@ def is_ld_block_end_line(mdfl):
     return re.match("^%s$"%ld_block_end_line(), mdfl) is not None
 
 def is_ld_block_defn_line(mdfl):
-    return re.search("^\[([a-zA-Z0-9_-]*)\]: (https?://.*) \"(.*)( {.*})?\"$", mdfl)
+    """
+    Parse GFM link definition lines of the form...
+        [1]: https://www.google.com
+        [1]: https://www.google.com "Title Info"
+        [1]: https://www.google.com "Title Info {}"
+        [1]: https://www.google.com "Title Info {biblio info}"
+    """
+    retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*(https?://\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
+    if not retval:
+        return None
+
+    ref_hdl = retval[0][0]
+    ref_url = retval[0][1].strip()
+    ref_tit = retval[0][2].strip().strip('"')
+    ref_bib = retval[0][3].strip().strip('"{}')
+
+    return [ref_hdl, ref_url, ref_tit, ref_bib]
 
 def gather_main_content_lines(file_lines):
     mc_lines = []
@@ -152,26 +168,21 @@ def build_ref_map(ld_lines, warn):
     ref_map = {}
     for ldl in ld_lines:
         mdfparts = is_ld_block_defn_line(ldl)
-        if mdfparts is not None:
-            if len(mdfparts.groups()) != 4:
+        if mdfparts:
+            if len(mdfparts) != 4:
                 print("Error: unknown problem at or near this line...")
                 print(ldl)
                 if not warn:
                     print("Correct above issues and re-try...")
                     exit(1)
-            ref_hdl = mdfparts.groups()[0]
-            ref_url = mdfparts.groups()[1]
-            ref_tit = mdfparts.groups()[2]
-            ref_bib = ""
-            if (mdfparts.groups()[3]):
-                ref_bib = mdfparts.groups()[3][2:-1]
+            ref_hdl, ref_url, ref_tit, ref_bib = mdfparts
             if ref_hdl in ref_map:
                 print("Error: repeated reference handle", ref_hdl, "at or near this line...")
                 print(ldl)
                 if not warn:
                     print("Correct above issues and re-try...")
                     exit(1)
-            ref_map[ref_hdl] = [ref_tit, ref_url, ref_bib]
+            ref_map[ref_hdl] = [ref_url, ref_tit, ref_bib]
             ref_map[ref_hdl].append(len(ref_map))
     return ref_map
 
@@ -231,15 +242,15 @@ def build_link_defn_lines(ld_lines, ref_map):
     outlines.append(ld_block_begin_line())
     outlines.append("\n\n")
     for l in ld_lines:
-        lparts = re.search("^\[([a-zA-Z0-9_-]*)\]: (.*) \"(.*)( {.*})?\"$", l)
-        ref_hdl = lparts.groups()[0]
-        ref_url = lparts.groups()[1]
-        ref_tit = lparts.groups()[2]
-        if lparts.groups()[3]:
-            ref_bib = lparts.groups()[3][2:-1]
+        ref_hdl, ref_url, ref_tit, ref_bib = is_ld_block_defn_line(l)
+        if ref_tit and ref_bib:
             outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
-        else:
+        elif ref_tit:
             outlines.append("[%d]: %s \"%s\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit))
+        elif ref_bib:
+            outlines.append("[%d]: %s \"{%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_bib))
+        else:
+            outlines.append("[%d]: %s\n"%(ref_map[ref_hdl][3], ref_url))
     outlines.append("\n")
     outlines.append(ld_block_end_line())
 
@@ -249,7 +260,7 @@ def build_intermediate_link_defn_lines(remapped_ref_map):
     outlines = []
 
     for k,v in sorted(remapped_ref_map.items()):
-        outlines.append("[%d]: #ref%d \"%s\"\n"%(k, k, v[0]))
+        outlines.append("[%d]: #ref%d%s\n"%(k, k, " \"%s\""%v[1] if v[1] else ""))
 
     return outlines
 
@@ -259,13 +270,14 @@ def build_reference_table_lines(remapped_ref_map):
     outlines.append("\nReferences | &nbsp;\n")
     outlines.append(":--- | :---\n")
     for k,v in sorted(remapped_ref_map.items()):
-        if (not v[0] or v[0].isspace()) and (not v[2] or v[2].isspace()):
-            outlines.append("<a name=\"ref%d\"></a>%d | %s\n"%(k, k, v[1]))
-        elif v[0] in v[2]:
-            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[1]))
-        else:
-            outlines.append("<a name=\"ref%d\"></a>%d | [%s %s](%s)\n"%(k, k, v[0], v[2], v[1]))
-
+        if v[1] and v[2]: # both title and bibinfo exist
+            outlines.append("<a name=\"ref%d\"></a>%d | [%s<br>%s](%s)\n"%(k, k, v[1], v[2], v[0]))
+        elif v[1]: # only title exists
+            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[1], v[0]))
+        elif v[2]: # only bibinfo exists
+            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[0]))
+        else: # only url exists
+            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[0], v[0]))
     return outlines
 
 def write_output_file(outlines, in_filename, out_filename, in_place):
@@ -310,20 +322,20 @@ def main():
     # the lines for the output file.
     #
 
-    # First, output the main content lines with renumbered footnotes
+    # First, build the main content lines with renumbered footnotes
     outlines = build_main_content(main_content, ref_map)
 
-    # Output the (original but renumbered) link definitions
+    # Build the (original but renumbered) link definitions
     outlines += build_link_defn_lines(ld_lines, ref_map)
 
-    # Output a disclaimer line if we'll have generated content
+    # Build a disclaimer line if we'll have generated content
     if ld_lines:
         outlines.append("\n\n<!-- ALL CONTENT BELOW THIS LINE IS AUTO-GENERATED -->\n\n")
     
-    # Output intermediate link definitions lines
+    # Build intermediate link definitions lines
     outlines += build_intermediate_link_defn_lines(remapped_ref_map)
 
-    # Output reference table lines
+    # Build reference table lines
     outlines += build_reference_table_lines(remapped_ref_map)
 
     # Ok, now actually write the updated file
