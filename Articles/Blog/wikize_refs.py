@@ -3,6 +3,7 @@
 # run ./wikize_refs.py --help for documentation
 
 from optparse import OptionParser
+from shutil import copyfile
 import re, os
 
 def usage():
@@ -18,13 +19,14 @@ blocks...
 
   1. The main content with possible footnote refs (<sup>[J],...</sup>)
   2. The author's link definitions ([J]: https://... "Title {}")
-  3. Intermediate link definitions ([J]: #refJ "Title {}")
-  4. Ref. table (<a name="refJ"></a>J | [Title](https://... "{...}"))
+  3. Auto-gen'd Intermediate link definitions ([J]: #refJ "Title {}")
+  4. Auto-gen'd Ref. table (<a name="refJ"></a>J | [Title](https://... "{...}"))
 
 Blocks 2, 3 and 4 are optional. Blocks 3 and 4 are generated from
-block 2 if it exists.
+block 2 if it exists. Repeated applications of this tool should
+result in no changes to the file.
 
-If the main content contains no footnotes, the file should be left
+If the main content contains no footnotes, the file will be left
 unchanged. If a footnote references a non-existent author's link
 definition, an error message is issued and processing is stopped.
 If a link definition is not referenced by any footnote, a warning
@@ -55,7 +57,12 @@ To process a file...
 
     ./wikize_refs.py foo.md
 
-...moves foo.md to foo.src.md and the new file is foo.md
+...moves original foo.md to foo.md~ and outputs a new foo.md. Use
+-i option to disable this behavior.
+
+    ./wikize_refs.py --help
+
+...prints command-line arguments and options.
 """
 
 def parse_args():
@@ -72,9 +79,11 @@ def parse_args():
     parser.add_option("-i", "--in-place",
                       default=False,
                       action="store_true",
-                      help="Do the operation in place, overwriting the input file.")
+                      help="Do the operation in place, overwriting the input file.\
+                          Disables creation of backup file appended with ~")
 
     parser.add_option("-o", "--outfile",
+                      default="",
                       help="Specify output file name.")
 
     opts, mdfiles = parser.parse_args()
@@ -86,19 +95,24 @@ def parse_args():
     return opts, mdfiles[0]
 
 def ld_block_begin_line():
+    """Constant XML comment text for beginning of link def block"""
     return "<!-- BEGIN ORIGINAL LINK DEFS"
 
 def ld_block_end_line():
+    """Constant XML comment text for end of link def block"""
     return "END ORIGINAL LINK DEFS -->"
 
 def gather_file_lines(filename):
+    """Read all file lines into a list in memory"""
     with open(filename, 'r') as mdf:
         return mdf.readlines()
 
 def is_ld_block_begin_line(mdfl):
+    """Check if line is link def block begin comment"""
     return re.match("^%s$"%ld_block_begin_line(), mdfl) is not None
 
 def is_ld_block_end_line(mdfl):
+    """Check if line is link def block end comment"""
     return re.match("^%s$"%ld_block_end_line(), mdfl) is not None
 
 def is_ld_block_defn_line(mdfl):
@@ -121,6 +135,7 @@ def is_ld_block_defn_line(mdfl):
     return [ref_hdl, ref_url, ref_tit, ref_bib]
 
 def gather_main_content_lines(file_lines):
+    """Returns all lines occuring before link def block"""
     mc_lines = []
     for mdfl in file_lines:
         if is_ld_block_defn_line(mdfl):
@@ -131,6 +146,7 @@ def gather_main_content_lines(file_lines):
     return mc_lines
 
 def gather_link_defn_lines(file_lines):
+    """Returns all link def lines occuring after main content"""
     ld_lines = []
     for mdfl in file_lines:
          if is_ld_block_end_line(mdfl):
@@ -140,6 +156,7 @@ def gather_link_defn_lines(file_lines):
     return ld_lines
     
 def gather_fn_handles(mc_lines, warn):
+    """Gets all footnote handles occuring in main content excluding any in XML comments."""
     fn_handles = set()
     in_comment = False
     for mcl in mc_lines:
@@ -165,6 +182,7 @@ def gather_fn_handles(mc_lines, warn):
     return fn_handles
 
 def build_ref_map(ld_lines, warn):
+    """builds a map keyed by footnote handle with value [url, title, biblio]"""
     ref_map = {}
     for ldl in ld_lines:
         mdfparts = is_ld_block_defn_line(ldl)
@@ -186,12 +204,12 @@ def build_ref_map(ld_lines, warn):
             ref_map[ref_hdl].append(len(ref_map))
     return ref_map
 
-#
-# Sanity checks for footnote references and the reference list
-#    - ensure every footnote references an existing item in the ref list
-#    - ensure every ref list item is referenced by at least one footnote
-#
 def sanity_checks(fn_handles, ref_map, warn):
+    """
+    Sanity checks for footnote references and the reference list...
+        - ensure every footnote references an existing item in the ref list
+        - ensure every ref list item is referenced by at least one footnote
+    """
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
     if missing_refs:
@@ -210,14 +228,15 @@ def sanity_checks(fn_handles, ref_map, warn):
             exit(1)
 
 def build_main_content(mc_lines, ref_map):
+    """
+    Builds main content lines but renumbering the footnotes. Filters any
+    footnotes in the main content with their new re-numbered instances.
+    """
     outlines = []
 
-    #
-    # Filter any footnotes in the main content with their new re-numbered
-    # instances. Since we're re-filtering the same line multiple times, we
-    # replace <sup></sup> with <pus></pus> to avoid collisions and then
-    # undue that filter in the last step.
-    #
+    # Since we're re-filtering the same line multiple times, we replace
+    # <sup></sup> with <pus></pus> to avoid collisions and then undue that
+    # filter in the last step.
     for mcl in mc_lines:
         fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
         for fn in fns1:
@@ -235,6 +254,7 @@ def build_main_content(mc_lines, ref_map):
     return outlines
 
 def build_link_defn_lines(ld_lines, ref_map):
+    """Rebuild the (original) link def lines but renumbered and reformatted slightly"""
     outlines = []
     if not ld_lines:
         return outlines
@@ -257,6 +277,7 @@ def build_link_defn_lines(ld_lines, ref_map):
     return outlines
 
 def build_intermediate_link_defn_lines(remapped_ref_map):
+    """Build (auto-gen'd) intermediate link definitions"""
     outlines = []
 
     for k,v in sorted(remapped_ref_map.items()):
@@ -265,6 +286,7 @@ def build_intermediate_link_defn_lines(remapped_ref_map):
     return outlines
 
 def build_reference_table_lines(remapped_ref_map):
+    """Build the refrence table"""
     outlines = []
 
     outlines.append("\nReferences | &nbsp;\n")
@@ -281,10 +303,9 @@ def build_reference_table_lines(remapped_ref_map):
     return outlines
 
 def write_output_file(outlines, in_filename, out_filename, in_place):
-    if in_place:
-        outfname = in_filename
-    else:
-        outfname =  outfname = "%s-wikized.md"%os.path.splitext(in_filename)[0]
+    if not in_place:
+        copyfile(in_filename, "%s~"%in_filename)
+    outfname = out_filename if out_filename else in_filename
     with open(outfname, 'w') as outf:
         outf.writelines(["%s" % line for line in outlines])
 
@@ -330,7 +351,7 @@ def main():
 
     # Build a disclaimer line if we'll have generated content
     if ld_lines:
-        outlines.append("\n\n<!-- ALL CONTENT BELOW THIS LINE IS AUTO-GENERATED -->\n\n")
+        outlines.append("\n\n<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->\n\n")
     
     # Build intermediate link definitions lines
     outlines += build_intermediate_link_defn_lines(remapped_ref_map)
