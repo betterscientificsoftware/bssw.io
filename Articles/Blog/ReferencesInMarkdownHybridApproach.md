@@ -111,34 +111,80 @@ A python script `wikize_refs.py` is provided to post-process a markdown file.
 This script renumbers the footnotes 1...N and re-formats them slightly so that
 the article's footnote links behave more Wikipedia-like.
 
-In the new file, the original reference style link definitions are copied over
-but re-numbered and commented out by bracketing them in XML comments `<!---` and
-`--->`. The script also adds auto-generated content based on the original
-list references. The renumbered and re-formatted links are bi-level. Footnotes in
-the main content link to entries in a table of references. Entries in the table of
-references link off-page to their intended destinations. The resulting file is
-still GitHub flavored Markdown, with a minimal amount of embedded HTML.
+In the following figures, we demonstrate repeated use of `wikize_refs.py`. In the
+first invocation (figure 1), the originally authored file (left) is processed
+producing a new file (right) where the author's original footnote and reference
+numbering is modified, slightly and new content to support the wikipedia style
+referencing is added to the bottom of the file.
+
+![](https://raw.githubusercontent.com/betterscientificsoftware/images/mcm86-19feb21-inplace-wikize-refs/wikize-refs-docs1.png)
+
+In subsequent work, the author makes further edits the file (stuff in red in the
+figure below), adding some content and a new footnote and reference.
+
+![](https://raw.githubusercontent.com/betterscientificsoftware/images/mcm86-19feb21-inplace-wikize-refs/wikize-refs-docs2.png)
+
+Nonetheless, even after the author has edited the file further, the `wikize_refs.py`
+tool can be re-applied to the resulting file. This is demonstrated in the the figure
+below (stuff in purple is what winds up being changed in this invocation).
+
+![](https://raw.githubusercontent.com/betterscientificsoftware/images/mcm86-19feb21-inplace-wikize-refs/wikize-refs-docs3.png)
+
+In this way, authors need only concern themselves with the main content and their
+list of references. The added content to support Wikipedia style referenceing at
+the bottom of the file is always re-generated from the author's content
+
+The `wikize_refs.py` script treats the document structure in four successive
+blocks...
+
+1. The main content block, including any bssw.io metadata, *above* link
+   definitions.
+1. The author's link definitions block (which upon output will be *hidden* from
+   markdown processing by XML comment bracketing).
+1. An *intermediate* link definitions block (lines beginning with `^[J]: #refJ`)
+   for internal links to the table of references.
+1. The table of references (lines beginning with `^<a name="refJ"></a>J | [`) for
+   actual links to referenced content.
+
+Blocks 2, 3 and 4 are optional. Blocks 3 and 4, which support the Wikipedia style
+references, are generated from block 2 if it exists. Repeated application of
+`wikize_refs.py` will result in no changes to the file. Intermeidate link definition
+lines of the form `^[J]: #refJ` are ignored. These are re-generated anew upon each
+invocation. Likewise, reference table lines of the form `^<a name="refJ"></a>J | [`
+are also ignored. These too will be re-generated anew upon each invocation.
+
+Link definitions as *authored*, if they exist, all appear together in a block at the
+*bottom* of the file, *after* the main content and even after any bssw.io metadata
+blocks. Thus, in line-by-line processing, the *first* such link definition line is
+used to demarcate the end of the main content block and the beginning of the author's
+link definition block.
+
+The author's link definitions are renumbered 1...N and all footnote references in the
+main content are updated accordingly. These link definitions are output but bracketed by
+multi-line XML comments to hide them from any markdown processing.
+
+The renumbered and re-formatted links are bi-level. Footnotes in the content link to
+entries in a table of references at the bottom of the document. Items in the table of
+references link off-page to their intended destinations. The resulting file is still
+GitHub flavored Markdown with a minimal amount of embedded HTML.
 
 For example, running script on this markdown file...
 
     ./wikize_refs.py ReferencesInMarkdownHybridApproach.md
 
-copies the original file to `ReferencesInMarkdownHybridApproach.md~` and
-then overwrites the original file with footnotes
-produces the new markdown file [`ReferencesInMarkdownHybridApproach-wikized.md`](./ReferencesInMarkdownHybridApproach-wikized.md)
+makes a backup of the original file to `ReferencesInMarkdownHybridApproach.md~` and
+then overwrites the original file. Use the `-i` option to override this backup
+operation.
 
-To view and compare the actual markdown of both of these files on
-GitHub, use the `Raw` button next to `Raw | Blame | History` in the
-upper right corner of the file(s) or follow the links below.
+Comparing the [raw original](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md)
+version of this file to the
+[raw post-processed](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md)
+version can also be helpful in undestanding what the script is doing.
 
-
-
-
-
-Advantages of the approach taken here include...
+## Advantages of this Approach
 
 - Separately listed/rendered table of references at end of article
-- Bi-level linking
+- Bi-level, Wikipedia style linking
   - Footnotes in the main content links on-page to reference table items
   - Reference table items link off-page to their indended destinations
 - When hovering, tool-tip text appears with the link's title
@@ -150,10 +196,6 @@ Advantages of the approach taken here include...
   [*reference style links*](https://github.github.com/gfm/#reference-link)
   - This single source is used to auto-generate the additional reference
     related lists in the file.
-
-
-- [Raw Original](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md)
-- [Raw Post-Processed](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md)
 
 [mcm]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
 [1]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
