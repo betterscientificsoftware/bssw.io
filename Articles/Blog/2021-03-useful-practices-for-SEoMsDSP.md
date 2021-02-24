@@ -2,13 +2,13 @@
 
 **Hero Image:**
 
-<!-- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0321_useful-practices.png' /> -->
-<img src='https://github.com/ksbeattie/images/raw/ksb_dkg_blog/Blog_0321_useful-practices.png' /><br/>
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0321_useful-practices.png'>
+ - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0321_useful-practices.png' /> -->
 <sub><sup>Photo © 2010-2019 The Regents of the University of California, Lawrence Berkeley National Laboratory.</sup></sub>
 
 #### Contributed by [Keith Beattie](https://github.com/ksbeattie "Keith Beattie's GitHub Profile") and [Dan Gunter](https://github.com/dangunter "Dan Gunter's GitHub Profile")
 
-#### Publication date: March 10, 2021
+#### Publication date: February 25, 2021
 
 <!-- deck text start --> 
 Find out how scientists at Lawrence Berkeley National Laboratory have approached producing reliable scientific software in the modern research context
@@ -37,7 +37,7 @@ to apply software engineering and project management approaches from industry in
 always end up frustrated with some of the assumptions about centralized authority, dedicated
 software engineering effort and incentive.
 
-### Challenges facing a medium-szied project  
+### Challenges facing a medium-sized project  
 A good example of such a project team is the Institute for the Design of Advanced Energy Systems
 ([IDAES](https://idaes.org)), which was formed in 2016 to develop new advanced process systems
 engineering (PSE) capabilities. Funded by the DOE Office of Fossil Energy and led by the National
@@ -126,7 +126,7 @@ demonstrated effectiveness from those with the most software development experie
 ### Soapboxing
 The third element that we think is useful is what we call “soapboxing,” not in the negative sense of grandstanding but in the positive sense of putting key elements of software engineering and
 development practices where they can gain favorable attention from project management and funders. Probably the least important
-place for this is grant proposals, since these are read at most once every few years,whereas the message needs to be repeated frequently. One of the best places to try to insert some
+place for this is grant proposals, since these are read at most once every few years, whereas the message needs to be repeated frequently. One of the best places to try to insert some
 discussion of software practices (and, by extension, developer productivity) is in project meetings.
 If your PIs and other project leads need any convincing that software engineering is an important topic, an
 excellent way to do so is to show them the team engaging in a spirited discussion in a public or
@@ -163,6 +163,6 @@ years.  He also tours local music venue attendees playing bass in rock bands.
 <!---
 Publish: preview
 Pinned: no
-Topics: software engineering, Projects and organizations, Strategies for more effective teams, 
+Topics: software engineering, Strategies for more effective teams, testing
 RSS update: 2021-02-25
 --->
