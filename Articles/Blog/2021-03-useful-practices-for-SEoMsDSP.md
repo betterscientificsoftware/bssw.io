@@ -45,25 +45,15 @@ Energy Technology Laboratory (NETL), the project's mission is to improve the eff
 reliability of the existing fleet of coal-fired power plants while accelerating the development of a
 broad range of advanced fossil energy systems. The IDAES team spans three national laboratories
 (NETL, Sandia National Laboratories, and Lawrence Berkeley National Laboratory)  and three universities (Carnegie Mellon University, West Virginia University,
-and Notre Dame University). Most of the team is in California and New Mexico, but half a dozen participants, as well as professors and several graduate students, aree in four other states.
-%GAIL - I tried to cut down the naming, but it may still be better to cut this setence altogether, since you have named all the different places in the preceding sentence
-From a software engineering perspective, the goal is to build a software package that is capable of
+and Notre Dame University). Most of the team is spread in the two Pennsylvania locations, but half a dozen participants are present in California and New Mexico each, in addition to the professors and several graduate students present in the various universities. From a software engineering perspective, the goal is to build a software package that is capable of
 simulating important aspects of power plants and power grids. Many of the ideas for why and how to
-build the IDAES software came from experience on an earlier project that used commercial tools to perform the process simulations. 
-%GAIL - was this a problem -- using commercial tools? or why have they decided not to do so on the IDAES project?
-Although the target
-users of this capability are power plant operators and power grid designers, the main user base is
-currently the developers and graduate students.
-%GAIL - the next sentence seems to me a bit awkward. Can you say something"... grduate students, with the internal team building the models and iterating with the external customers on specific appliction issues."??
-Application of the tools to external
-customer problems is currently performed at the level of the internal team  building the
+build the IDAES software came from experience on an earlier project (the Carbon Capture Simulation Initiative - CCSI), that used commercial tools to perform the process simulations. Although the target
+users of this capability are power plant operators and power grid designers, the main user base is currently the developers and graduate students. Application of the tools to external customer problems is currently performed at the level of the internal team  building the
 models and iterating with the customer.
 
 ### A three-pronged approach
 
-While the IDAES project runs functionally as a unit,  each
-national laboratory and university  sets local priorities within the framework of the project
-deliverables. And although most of the effort is being spent on new software to perform chemical
+While the IDAES project runs functionally as a unit, there are sub-hierarchies of control in each national laboratory and university that set local priorities within the framework of the project deliverables. And although most of the effort is being spent on new software to perform chemical
 process engineering,  significant effort is devoted to  adding related capabilities to an existing
 software package, [Pyomo](https://www.pyomo.org/), that predates IDAES and continues to be
 developed at Sandia National Laboratories. This size and variation in scope make project
@@ -103,7 +93,7 @@ group, bicycling club, etc.) where the enthusiasm for the event may vary week to
 overall experience is as much about the customs and connections as the content.
 
 Specifically what occurs during these meetings will probably depend on your development practices
-and tools. But in general we have found that  two main activities aree critical: an open agenda of
+and tools. But in general we have found that  two main activities are critical: an open agenda of
 issues that people can edit before the meeting and a standard task that focuses attention on the
 active development across the project. For many projects, a modified Kanban “project board” approach
 provides an excellent focus because it presents an easily summarized list of things completed,
@@ -123,7 +113,7 @@ tests must be written by people who understand the mathematics and science of th
 (or, in the case of infrastructure code, the computer science principles of the code). However, we
 must face the reality that this is a significant request of someone’s time and is competing with
 the next publication or result, which the individual may be encouraged to prioritize. Our position is that the
-right approach to take to this problem is incremental: (1) help people put in a few tests, but don’t require that they pass; (2) add a requirement that the tests pass before the code is merged, but don’t worry about code coverage or style; (3) start informally checking code coverage and style, but don’t enforce anything; (4) start enforcing low levels of code coverage and  basic style rules; and (5) finally &mdash; well, honestly we’ve never gotten farther than that. But by doing these  in baby steps, and talking about themt weekly in the developer meetings, you are building up a
+right approach to take to this problem is incremental: (1) help people put in a few tests, but don’t require that they pass; (2) add a requirement that the tests pass before the code is merged, but don’t worry about code coverage or style; (3) start informally checking code coverage and style, but don’t enforce anything; (4) start enforcing low levels of code coverage and  basic style rules; and (5) finally &mdash; well, honestly we’ve never gotten farther than that. But by doing these  in baby steps, and talking about them weekly in the developer meetings, you are building up a
 culture of testing that will lead to eventually having a robust software environment that is broadly
 supported by the team.
 
@@ -134,7 +124,7 @@ on the best procedures, practices and tools to adopt. Ideally this approach is d
 demonstrated effectiveness from those with the most software development experience.
 
 ### Soapboxing
-The third element that we think is useful is what we call “soapboxing,” not n the negaative sense of grandstanding but in the positive sense of putting key elements of software engineering and
+The third element that we think is useful is what we call “soapboxing,” not in the negative sense of grandstanding but in the positive sense of putting key elements of software engineering and
 development practices where they can gain favorable attention from project management and funders. Probably the least important
 place for this is grant proposals, since these are read at most once every few years,whereas the message needs to be repeated frequently. One of the best places to try to insert some
 discussion of software practices (and, by extension, developer productivity) is in project meetings.
@@ -143,7 +133,7 @@ excellent way to do so is to show them the team engaging in a spirited discussio
 semi-public forum. Progress reports and general-audience publications about the project are also
 opportunities to describe software engineering practices. 
 
-### Tge goal:  developer productivity
+### The goal:  developer productivity
 
 We have spoken largely of social challenges, but of course scientific software also presents numerous technical challenges to developer productivity. We
 believe that conquering these technical challenges goes hand in hand with reducing the friction of
@@ -168,7 +158,7 @@ understanding and addressing the unique challenges in leading multi-institutiona
 dispersed scientific software development teams while still producing effective and usable software,
 particularly teams composed of members from scientific but not necessarily software engineering
 backgrounds.  He has worked in industry as a software engineer and release manager and has been at LBNL for  the past 20
-years.  He also tortures local music venue attendees playing bass in rock bands.
+years.  He also tours local music venue attendees playing bass in rock bands.
 
 <!---
 Publish: Preview
