@@ -161,11 +161,8 @@ backgrounds.  He has worked in industry as a software engineer and release manag
 years.  He also tours local music venue attendees playing bass in rock bands.
 
 <!---
-Publish: Preview
-Categories: reliability
-Topics: testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Publish: preview
+Pinned: no
+Topics: software engineering, Projects and organizations, Strategies for more effective teams, 
+RSS update: 2021-02-25
 --->
