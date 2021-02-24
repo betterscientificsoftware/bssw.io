@@ -157,7 +157,7 @@ understanding and addressing the unique challenges in leading multi-institutiona
 dispersed scientific software development teams while still producing effective and usable software,
 particularly teams composed of members from scientific but not necessarily software engineering
 backgrounds.  He has worked in industry as a software engineer and release manager and has been at LBNL for  the past 20
-years.  He also tours local music venue attendees playing bass in rock bands.
+years.  He also tortures local music venue attendees playing bass in rock bands.
 
 <!---
 Publish: preview
