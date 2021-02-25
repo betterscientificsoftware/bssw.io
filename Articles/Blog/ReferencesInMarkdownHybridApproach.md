@@ -16,12 +16,11 @@ together with a Python post-processing script
 to make it easier to manage such references in a
 [Wikipedia-like way](https://en.wikipedia.org/wiki/Note_(typography)#References).
 
-Here, we focus on the use of [GFM][GFM] and, in particular,
-[*reference style links*](https://github.github.com/gfm/#reference-link).
 A key issue is that [GFM][GFM] does not support easy creation of *user-defined*
-anchors (other than by embedding raw html). It does support *implict* anchors to level
-1 (`#`) through level 6 (`######`) headings but this is too limited for our purposes
-here.
+anchors (other than by embedding raw html). The trick here is to use
+[*reference style links*](https://github.github.com/gfm/#reference-link) and then
+post-process the markdown file to auto-generate some additional markdown
+and some embedded html.
 
 ## List References as [GFM][GFM] Reference Style Links
 
@@ -33,15 +32,15 @@ To do this, the author should list each reference used in the article using
 [*reference style links*](https://github.github.com/gfm/#reference-link) by convention
 at the end of the markdown file, of the form
 
-    [<ID>]: <URL> "<TIT> {<BIB>}"
+    [ID]: URL "TIT {BIB}"
 
-- All characters outside the `<` and `>` delimiters are *required*
 - Must begin at column 0 in the markdown file
-- `<ID>`: (**REQUIRED**) Alphanumeric identifier for the reference
-- `<URL>`: (**REQUIRED**) The URL for the reference
-- `<TIT>`: (*optional*) A title for the reference (appears as tool-tip during hover)
-- `<BIB>`: (*optional*) Full bibliographic information for the reference
-  - Here, we are using the `{<BIB>}` field, embeded between `{` and `}` in the
+- `ID`: (**REQUIRED**) Alphanumeric identifier for the reference
+  - **Note**: The post-processing script renumbers them 1...N
+- `URL`: (**REQUIRED**) The URL for the reference
+- `TIT`: (*optional*) A title for the reference (appears as tool-tip during hover)
+- `BIB`: (*optional*) Full bibliographic information for the reference
+  - Here, we are using the `{BIB}` field, embeded between `{` and `}` in the
     [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text
     as a notational *extension*.
 
@@ -58,10 +57,11 @@ adds various auto-generated content to the *bottom* of the file to support
 the better referencing style. More on that later.
 
 ## Footnotes in GitHub Flavored Markdown
+
 Authors can cite items in the list of references in their main article
-flow using footnotes of the form `<sup>[<ID>]</sup>` where `<ID>` is the
-identifier for a link and following proper style for footnote usage
-following these rules
+flow using footnotes of the form `<sup >[ID]< /sup>` where `ID` is the
+identifier for a link and following proper grammatical style for footnote
+usage following these rules
 
 Reference numbers should appear:
 - After the fact, quotation, or idea being cited
