@@ -1,6 +1,6 @@
 # Working within Multiple Git Branches Simultaneously
 <!--deck text start-->
-Switching quickly and easily between multiple branches of development in Git is often much more involved than `git checkout`
+Switching quickly and easily between multiple branches of development in Git is often much more involved than `git checkout`.
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
@@ -32,7 +32,7 @@ implications for disk space or workflow.
 
 Alternatively, you may find [`git worktree`](https://git-scm.com/docs/git-worktree) a better approach than multiple
 clones and a useful productivity boost. Git worktrees allow you to work as if you have multiple clones without
-having to make explicit cloned copies saving disk space and perhaps easing any workflow issues. A single `.git`
+having to make explicit cloned copies, saving disk space and perhaps easing any workflow issues. A single `.git`
 database, including local hooks and other settings for example, manages all the worktrees. The advantages of Git
 worktrees over clones multiply as the number of concurrent branches to be managed grows. On the other hand, if 
 it is necessary to manage different repository settings (e.g. hooks, file ignores) across concurrent branches,
