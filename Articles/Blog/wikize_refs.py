@@ -50,7 +50,7 @@ ReferencesInMarkdownHybridApproach.md
 By default, infile.md is moved to infile.src.md and the new file is
 given the name infile.md and is made read-only. However, you can set
 the name of the output file instead and disable the read-only setting.
-By default, failed sanity checks cause an abort. However, this can
+By default, failed error checks cause an abort. However, this can
 be disabled by setting them to warn.
 
 To process a file...
@@ -65,6 +65,10 @@ To process a file...
 ...prints command-line arguments and options.
 """
 
+def set_outfile_name(option, opt, value, parser):
+
+ihttps://www.google.com/search?client=safari&sxsrf=ALeKk00kO5GLGy7b5dp2cN1ejWjhbeXY6A%3A1614276830216&ei=3ug3YIXUDMvf-gSlgbegBw&q=grubel+site%3Abssw.io&oq=grubel+site%3Abssw.io&gs_lcp=Cgdnd3Mtd2l6EANQ8j1Y4ERgokZoAHAAeACAAZUBiAG9BZIBAzMuNJgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiFu6Lo0YXvAhXLr54KHaXADXQQ4dUDCAw&uact=5
+
 def parse_args():
     """
     Parses arguments to wikize_refs.py.
@@ -74,7 +78,7 @@ def parse_args():
     parser.add_option("-w", "--warn",
                       default=False,
                       action="store_true",
-                      help="Warn instead of error during sanity checks.")
+                      help="Warn instead of error during error checks.")
 
     parser.add_option("-i", "--in-place",
                       default=False,
@@ -84,6 +88,7 @@ def parse_args():
 
     parser.add_option("-o", "--outfile",
                       default="",
+                      action="callback", callback=set_outfile_name,
                       help="Specify output file name.")
 
     opts, mdfiles = parser.parse_args()
@@ -93,22 +98,6 @@ def parse_args():
         exit(1)
 
     return opts, mdfiles[0]
-
-def unref_ld_block_begin_line():
-    """Constant XML comment text for beginning of unreferenced link def block"""
-    return "<!-- BEGIN ORIGINAL UNUSED LINK DEFS --->"
-
-def unref_ld_block_end_line():
-    """Constant XML comment text for end of unreferenced link def block"""
-    return "<!--- END ORIGINAL UNUSED LINK DEFS -->"
-
-def is_unref_ld_block_begin_line(mdfl):
-    """Check if line is unreferenced link def block begin comment"""
-    return re.match("^%s$"%unref_ld_block_begin_line(), mdfl) is not None
-
-def is_unref_ld_block_end_line(mdfl):
-    """Check if line is unreferenced link def block end comment"""
-    return re.match("^%s$"%unref_ld_block_end_line(), mdfl) is not None
 
 def ld_block_begin_line():
     """Constant XML comment text for beginning of link def block"""
@@ -395,7 +384,7 @@ def main():
     # Build a map of the references including their re-numbering
     ref_map = build_ref_map(ld_lines, vopts['warn'])
 
-    # Do some sanity checks
+    # Do some error checking
     missing_fns = error_checks(fn_handles, ref_map, vopts['warn'])
 
     # Remove from ld_lines any not actually referenced
