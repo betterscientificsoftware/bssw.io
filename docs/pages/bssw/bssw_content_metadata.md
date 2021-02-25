@@ -64,13 +64,13 @@ Topics: software engineering, testing
 
 The current topics are as follows:
 
-- **Planning**
+- **Planning** category has the following topics:
     - Software process improvement
     - Software engineering
     - Requirements
     - Design
     - Software interoperability
-- **Development**
+- **Development** category has the following topics:
     - Documentation
     - Configuration and builds
     - Revision control
@@ -79,16 +79,16 @@ The current topics are as follows:
     - Programming languages
     - Development tools
     - Refactoring
-- **Performance**
+- **Performance** category has the following topics:
     - High-performance computing (HPC)
     - Performance at leadership computing facilities (LCFs)
     - Performance portability
-- **Reliability**
+- **Reliability** category has the following topics:
     - Testing
     - Continuous integration testing
     - Reproducibility
     - Debugging
-- **Collaboration**
+- **Collaboration** category has the following topics:
     - Projects and organizations
     - Strategies for more effective teams
     - Funding sources and programs
@@ -96,7 +96,7 @@ The current topics are as follows:
     - Licensing
     - Discussion and question sites
     - Conferences and workshops
-- **Skills**
+- **Skills** category has the following topics:
     - Online learning
     - Personal productivity and sustainability
     
