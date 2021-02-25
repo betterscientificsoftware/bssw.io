@@ -304,16 +304,6 @@ def build_link_defn_lines(ld_lines, ref_map, unref_ld_lines):
     outlines = []
 
     # handle any unused refs first, outside of any comments bracketing blocks
-#    for x in missing_fns:
-#        ref_hdl, ref_url, ref_tit, ref_bib = x, ref_map[x][0], ref_map[x][1], ref_map[x][2]
-#        if ref_tit and ref_bib:
-#            outlines.append("[%s]: %s \"%s {%s}\"\n"%(ref_hdl, ref_url, ref_tit, ref_bib))
-#        elif ref_tit:
-#            outlines.append("[%s]: %s \"%s\"\n"%(ref_hdl, ref_url, ref_tit))
-#        elif ref_bib:
-#            outlines.append("[%s]: %s \"{%s}\"\n"%(ref_hdl, ref_url, ref_bib))
-#        else:
-#            outlines.append("[%s]: %s\n"%(ref_hdl, ref_url))
     if unref_ld_lines:
         for ld in unref_ld_lines:
             outlines += [ld]
@@ -322,6 +312,8 @@ def build_link_defn_lines(ld_lines, ref_map, unref_ld_lines):
     if not ld_lines:
         return outlines
 
+    # Now, handle author's original link def lines but renumbered and
+    # embedded in XML comment blocks
     outlines.append(ld_block_begin_line())
     outlines.append("\n\n")
     for l in ld_lines:
