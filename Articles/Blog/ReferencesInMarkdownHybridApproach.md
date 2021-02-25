@@ -68,7 +68,7 @@ Reference numbers should appear:
 - Outside periods and commas
 - Inside colons and semi-colons
 - If citing more than one reference (max of 3) in the same footnote,
-  separate the numbers with commas and no spaces between like so (`<sup>[1],[2],[3]</sup>`).
+  separate the numbers with commas and no spaces between like so (`<sup >[1],[2],[3]< /sup>`).
 
 Examples:
 
@@ -196,6 +196,7 @@ version can also be helpful in undestanding what the script is doing.
   [*reference style links*](https://github.github.com/gfm/#reference-link)
   - This single source is used to auto-generate the additional reference
     related lists in the file.
+- The script can be repeatedly re-applied to a file and operate in place
 
 [mcm]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
 [1]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"

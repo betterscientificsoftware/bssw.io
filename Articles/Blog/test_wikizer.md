@@ -40,13 +40,25 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 
 Vestibulum eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus purus. Curabitur venenatis eget elit eu posuere. Nunc euismod consequat lectus, nec aliquet nisl efficitur eu. Fusce a feugiat felis. Sed maximus metus eget tempus pharetra. Maecenas pharetra fermentum massa id bibendum. Integer ac metus iaculis, euismod purus et, convallis justo.
 
-## Sanity checks
+## Things to test
 
-### Footnote to non-existent ref
+### Footnote to non-existent ref is fatal error
 
-### Ref not used in any footnote
+### Ref not used in any footnote is fatal error or warn
 
-### More than 3 footnotes in same `<sup></sup>` pair
+### More than 3 footnotes in same `<sup></sup>` is fatal error or warn
+
+### Ref with no title or bibliographic data
+
+### Ref with title but no bibliographic
+
+### Ref with no title but bibliographic (is this nonsensical)
+
+### Ref with http:// vs https://
+
+### Refs in XML comment block should be ignored (except the one wikize_refs recognizes)
+
+### Can we detect main content *after* link def block and flag it
 
 ## Ref link validation
 
