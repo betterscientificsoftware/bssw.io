@@ -6,6 +6,8 @@ permalink: bssw_styling_event.html
 
 ## Introduction
 
+All GitHub file names for BSSw.io articles should follow the naming conventions laid out [here](https://betterscientificsoftware.github.io/bssw.io/bssw_file_naming.html).
+
 An "Event" content is a very brief article that highlights an event. An event article can highlight the following 2 types of resources: 
 (1) Submission-based Events (Conferences/Workshops/Others), 
 (2) Non-submission based Events (Webinars/Panels/Tutorials/Others).
