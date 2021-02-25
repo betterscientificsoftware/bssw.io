@@ -1,4 +1,4 @@
-# How to Write Clean and Beautiful Code? (UNPUBLISHED)
+# How to Write Clean and Beautiful Code? (UNPUBLISHED) TRIAL
 **This article no longer has a valid link**
 
 <!--deck text start-->
@@ -18,7 +18,7 @@ If you want some practical tips about coding, and enjoy some (salty!) humor and 
 
 
 <!---
-Publish: no
+Publish: preview
 Categories: development, planning
 Topics: software engineering, design
 Tags:
