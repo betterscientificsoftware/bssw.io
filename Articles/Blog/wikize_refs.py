@@ -50,7 +50,7 @@ ReferencesInMarkdownHybridApproach.md
 By default, infile.md is moved to infile.src.md and the new file is
 given the name infile.md and is made read-only. However, you can set
 the name of the output file instead and disable the read-only setting.
-By default, failed sanity checks cause an abort. However, this can
+By default, failed error checks cause an abort. However, this can
 be disabled by setting them to warn.
 
 To process a file...
@@ -74,41 +74,35 @@ def parse_args():
     parser.add_option("-w", "--warn",
                       default=False,
                       action="store_true",
-                      help="Warn instead of error during sanity checks.")
+                      help="Warn instead of error during (most) error checks.")
 
     parser.add_option("-i", "--in-place",
                       default=False,
                       action="store_true",
-                      help="Do the operation in place, overwriting the input file.\
-                          Disables creation of backup file appended with ~")
+                      help="Disable creation of backup file appended with ~")
 
     parser.add_option("-o", "--outfile",
-                      default="",
-                      help="Specify output file name.")
+                      default=None,
+                      help="Specify an output file name. If none specified, will \
+                            use <infile>-wikized.md")
 
     opts, mdfiles = parser.parse_args()
+
+    vopts = vars(opts)
+
+    #
+    # Handle an isoloated -o / --outfile (which means to use default name of
+    # output file)
+    #
+    if vopts['outfile'] and os.path.isfile(vopts['outfile']):
+        mdfiles += [vopts['outfile']]
+        vopts['outfile'] = "%s-wikized.md"%os.path.splitext(vopts['outfile'])[0]
 
     if not mdfiles:
         print("Must include the name of a markdown file to process.")
         exit(1)
 
-    return opts, mdfiles[0]
-
-def unref_ld_block_begin_line():
-    """Constant XML comment text for beginning of unreferenced link def block"""
-    return "<!-- BEGIN ORIGINAL UNUSED LINK DEFS --->"
-
-def unref_ld_block_end_line():
-    """Constant XML comment text for end of unreferenced link def block"""
-    return "<!--- END ORIGINAL UNUSED LINK DEFS -->"
-
-def is_unref_ld_block_begin_line(mdfl):
-    """Check if line is unreferenced link def block begin comment"""
-    return re.match("^%s$"%unref_ld_block_begin_line(), mdfl) is not None
-
-def is_unref_ld_block_end_line(mdfl):
-    """Check if line is unreferenced link def block end comment"""
-    return re.match("^%s$"%unref_ld_block_end_line(), mdfl) is not None
+    return vopts, mdfiles[0]
 
 def ld_block_begin_line():
     """Constant XML comment text for beginning of link def block"""
@@ -289,10 +283,14 @@ def build_main_content(mc_lines, ref_map):
             mcl = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%ref_map[fn][3], mcl)
         fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
         for fn in fns2:
-            mcl = re.sub("<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]), "<pus>[%d],[%d]</pus>"%(ref_map[fn[0]][3],ref_map[fn[1]][3]), mcl)
+            mcl = re.sub("<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]),
+                         "<pus>[%d],[%d]</pus>"%\
+                         (ref_map[fn[0]][3], ref_map[fn[1]][3]), mcl)
         fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
         for fn in fns3:
-            mcl = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]), "<pus>[%d],[%d],[%d]</pus>"%(ref_map[fn[0]][3],ref_map[fn[1]][3],ref_map[fn[2]][3]), mcl)
+            mcl = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]),
+                         "<pus>[%d],[%d],[%d]</pus>"%\
+                         (ref_map[fn[0]][3],ref_map[fn[1]][3],ref_map[fn[2]][3]), mcl)
         mcl = re.sub("<pus>","<sup>", mcl)
         mcl = re.sub("</pus>","</sup>", mcl)
         outlines.append(mcl)
@@ -364,9 +362,9 @@ def build_reference_table_lines(remapped_ref_map):
     return outlines
 
 def write_output_file(outlines, in_filename, out_filename, in_place):
-    if not in_place and out_filename != "" and out_filename != in_filename:
+    if not in_place:
         copyfile(in_filename, "%s~"%in_filename)
-    outfname = out_filename if out_filename else  "%s-wikized.md"%os.path.splitext(in_filename)[0]
+    outfname = out_filename if out_filename else in_filename
     with open(outfname, 'w') as outf:
         outf.writelines(["%s" % line for line in outlines])
 
@@ -377,7 +375,6 @@ def main():
 
     # Process command line options
     opts, mdfile = parse_args()
-    vopts = vars(opts)
 
     # Get all txt lines from file into a list
     file_lines = gather_file_lines(mdfile)
@@ -387,22 +384,22 @@ def main():
     main_content = gather_main_content_lines(file_lines)
 
     # Examine main content lines for footnotes
-    fn_handles = gather_fn_handles(main_content, vopts['warn'])
+    fn_handles = gather_fn_handles(main_content, opts['warn'])
 
     # Get any link definition lines
     ld_lines = gather_link_defn_lines(file_lines[len(main_content):])
     
     # Build a map of the references including their re-numbering
-    ref_map = build_ref_map(ld_lines, vopts['warn'])
+    ref_map = build_ref_map(ld_lines, opts['warn'])
 
-    # Do some sanity checks
-    missing_fns = error_checks(fn_handles, ref_map, vopts['warn'])
+    # Do some error checking
+    missing_fns = error_checks(fn_handles, ref_map, opts['warn'])
 
     # Remove from ld_lines any not actually referenced
     ld_lines, unref_ld_lines = remove_unref_ld_lines(ld_lines, missing_fns)
 
     # Rebuild the refmap again with remaining ld_lines
-    ref_map = build_ref_map(ld_lines, vopts['warn'])
+    ref_map = build_ref_map(ld_lines, opts['warn'])
 
     #
     # Ok, we're done processing the input file. Now, start building
@@ -427,7 +424,7 @@ def main():
     outlines += build_reference_table_lines(remapped_ref_map)
 
     # Ok, now actually write the updated file
-    write_output_file(outlines, mdfile, vopts['outfile'], vopts['in_place'])
+    write_output_file(outlines, mdfile, opts['outfile'], opts['in_place'])
 
 #
 # So this python script can be used both as a shell command
