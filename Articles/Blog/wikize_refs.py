@@ -71,7 +71,7 @@ def parse_args():
     """
     parser = OptionParser(usage())
 
-    parser.add_option("--warn",
+    parser.add_option("-w", "--warn",
                       default=False,
                       action="store_true",
                       help="Warn instead of error during sanity checks.")
@@ -204,9 +204,9 @@ def build_ref_map(ld_lines, warn):
             ref_map[ref_hdl].append(len(ref_map))
     return ref_map
 
-def sanity_checks(fn_handles, ref_map, warn):
+def error_checks(fn_handles, ref_map, warn):
     """
-    Sanity checks for footnote references and the reference list...
+    Error checks for footnote references and the reference list...
         - ensure every footnote references an existing item in the ref list
         - ensure every ref list item is referenced by at least one footnote
     """
@@ -226,6 +226,8 @@ def sanity_checks(fn_handles, ref_map, warn):
         if not warn:
             print("Correct above issues and re-try...")
             exit(1)
+
+    return missing_fns
 
 def build_main_content(mc_lines, ref_map):
     """
@@ -253,7 +255,7 @@ def build_main_content(mc_lines, ref_map):
 
     return outlines
 
-def build_link_defn_lines(ld_lines, ref_map):
+def build_link_defn_lines(ld_lines, ref_map, missing_fns):
     """Rebuild the (original) link def lines but renumbered and reformatted slightly"""
     outlines = []
     if not ld_lines:
@@ -263,6 +265,8 @@ def build_link_defn_lines(ld_lines, ref_map):
     outlines.append("\n\n")
     for l in ld_lines:
         ref_hdl, ref_url, ref_tit, ref_bib = is_ld_block_defn_line(l)
+        if ref_hdl in missing_fns:
+            continue
         if ref_tit and ref_bib:
             outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
         elif ref_tit:
@@ -271,6 +275,18 @@ def build_link_defn_lines(ld_lines, ref_map):
             outlines.append("[%d]: %s \"{%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_bib))
         else:
             outlines.append("[%d]: %s\n"%(ref_map[ref_hdl][3], ref_url))
+    # handle any unused refs
+    for x in missing_fns:
+        ref_hdl, ref_url, ref_tit, ref_bib = x, ref_map[x][0], ref_map[x][1], ref_map[x][2]
+        if ref_tit and ref_bib:
+            outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
+        elif ref_tit:
+            outlines.append("[%d]: %s \"%s\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit))
+        elif ref_bib:
+            outlines.append("[%d]: %s \"{%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_bib))
+        else:
+            outlines.append("[%d]: %s\n"%(ref_map[ref_hdl][3], ref_url))
+        del ref_map[ref_hdl] # finally, remove this unnused ref from our map
     outlines.append("\n")
     outlines.append(ld_block_end_line())
 
@@ -303,9 +319,9 @@ def build_reference_table_lines(remapped_ref_map):
     return outlines
 
 def write_output_file(outlines, in_filename, out_filename, in_place):
-    if not in_place:
+    if not in_place and out_filename != "" and out_filename != in_filename:
         copyfile(in_filename, "%s~"%in_filename)
-    outfname = out_filename if out_filename else in_filename
+    outfname = out_filename if out_filename else  "%s-wikized.md"%os.path.splitext(in_filename)[0]
     with open(outfname, 'w') as outf:
         outf.writelines(["%s" % line for line in outlines])
 
@@ -333,10 +349,9 @@ def main():
     
     # Build a map of the references including their re-numbering
     ref_map = build_ref_map(ld_lines, vopts['warn'])
-    remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
 
     # Do some sanity checks
-    sanity_checks(fn_handles, ref_map, vopts['warn'])
+    missing_fns = error_checks(fn_handles, ref_map, vopts['warn'])
 
     #
     # Ok, we're done processing the input file. Now, start building
@@ -347,13 +362,14 @@ def main():
     outlines = build_main_content(main_content, ref_map)
 
     # Build the (original but renumbered) link definitions
-    outlines += build_link_defn_lines(ld_lines, ref_map)
+    outlines += build_link_defn_lines(ld_lines, ref_map, missing_fns)
 
     # Build a disclaimer line if we'll have generated content
     if ld_lines:
         outlines.append("\n\n<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->\n\n")
     
     # Build intermediate link definitions lines
+    remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
     outlines += build_intermediate_link_defn_lines(remapped_ref_map)
 
     # Build reference table lines
