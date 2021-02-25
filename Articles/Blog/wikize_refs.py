@@ -94,6 +94,22 @@ def parse_args():
 
     return opts, mdfiles[0]
 
+def unref_ld_block_begin_line():
+    """Constant XML comment text for beginning of unreferenced link def block"""
+    return "<!-- BEGIN ORIGINAL UNUSED LINK DEFS --->"
+
+def unref_ld_block_end_line():
+    """Constant XML comment text for end of unreferenced link def block"""
+    return "<!--- END ORIGINAL UNUSED LINK DEFS -->"
+
+def is_unref_ld_block_begin_line(mdfl):
+    """Check if line is unreferenced link def block begin comment"""
+    return re.match("^%s$"%unref_ld_block_begin_line(), mdfl) is not None
+
+def is_unref_ld_block_end_line(mdfl):
+    """Check if line is unreferenced link def block end comment"""
+    return re.match("^%s$"%unref_ld_block_end_line(), mdfl) is not None
+
 def ld_block_begin_line():
     """Constant XML comment text for beginning of link def block"""
     return "<!-- BEGIN ORIGINAL LINK DEFS"
@@ -101,11 +117,6 @@ def ld_block_begin_line():
 def ld_block_end_line():
     """Constant XML comment text for end of link def block"""
     return "END ORIGINAL LINK DEFS -->"
-
-def gather_file_lines(filename):
-    """Read all file lines into a list in memory"""
-    with open(filename, 'r') as mdf:
-        return mdf.readlines()
 
 def is_ld_block_begin_line(mdfl):
     """Check if line is link def block begin comment"""
@@ -122,6 +133,8 @@ def is_ld_block_defn_line(mdfl):
         [1]: https://www.google.com "Title Info"
         [1]: https://www.google.com "Title Info {}"
         [1]: https://www.google.com "Title Info {biblio info}"
+
+        Returns footnote id, url, title, biblio-info
     """
     retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*(https?://\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
     if not retval:
@@ -133,6 +146,11 @@ def is_ld_block_defn_line(mdfl):
     ref_bib = retval[0][3].strip().strip('"{}')
 
     return [ref_hdl, ref_url, ref_tit, ref_bib]
+
+def gather_file_lines(filename):
+    """Read all file lines into a list in memory"""
+    with open(filename, 'r') as mdf:
+        return mdf.readlines()
 
 def gather_main_content_lines(file_lines):
     """Returns all lines occuring before link def block"""
@@ -149,9 +167,11 @@ def gather_link_defn_lines(file_lines):
     """Returns all link def lines occuring after main content"""
     ld_lines = []
     for mdfl in file_lines:
-         if is_ld_block_end_line(mdfl):
+        if is_ld_block_begin_line(mdfl):
+            continue # ignore the block begin line
+        if is_ld_block_end_line(mdfl):
             break
-         if is_ld_block_defn_line(mdfl):
+        if is_ld_block_defn_line(mdfl):
             ld_lines += [mdfl]
     return ld_lines
     
@@ -229,6 +249,30 @@ def error_checks(fn_handles, ref_map, warn):
 
     return missing_fns
 
+def remove_unref_ld_lines(ld_lines, missing_fns):
+    """
+    Scans link def lines for any for which there is not footnote
+    referencing them. Returns two lists; one for all referenced
+    link def lines and the other for un-referenced link def lines.
+    """
+    new_ld_lines = []
+    unref_ld_lines = []
+
+    if not ld_lines:
+        return new_ld_lines, unref_ld_lines
+
+    if not missing_fns:
+        return ld_lines, unref_ld_lines
+
+    for ld in ld_lines:
+        fn_hdl = is_ld_block_defn_line(ld)
+        if fn_hdl[0] in missing_fns:
+            unref_ld_lines += [ld]
+        else:
+            new_ld_lines += [ld]
+
+    return new_ld_lines, unref_ld_lines
+
 def build_main_content(mc_lines, ref_map):
     """
     Builds main content lines but renumbering the footnotes. Filters any
@@ -255,9 +299,26 @@ def build_main_content(mc_lines, ref_map):
 
     return outlines
 
-def build_link_defn_lines(ld_lines, ref_map, missing_fns):
+def build_link_defn_lines(ld_lines, ref_map, unref_ld_lines):
     """Rebuild the (original) link def lines but renumbered and reformatted slightly"""
     outlines = []
+
+    # handle any unused refs first, outside of any comments bracketing blocks
+#    for x in missing_fns:
+#        ref_hdl, ref_url, ref_tit, ref_bib = x, ref_map[x][0], ref_map[x][1], ref_map[x][2]
+#        if ref_tit and ref_bib:
+#            outlines.append("[%s]: %s \"%s {%s}\"\n"%(ref_hdl, ref_url, ref_tit, ref_bib))
+#        elif ref_tit:
+#            outlines.append("[%s]: %s \"%s\"\n"%(ref_hdl, ref_url, ref_tit))
+#        elif ref_bib:
+#            outlines.append("[%s]: %s \"{%s}\"\n"%(ref_hdl, ref_url, ref_bib))
+#        else:
+#            outlines.append("[%s]: %s\n"%(ref_hdl, ref_url))
+    if unref_ld_lines:
+        for ld in unref_ld_lines:
+            outlines += [ld]
+        outlines.append("\n")
+
     if not ld_lines:
         return outlines
 
@@ -265,8 +326,6 @@ def build_link_defn_lines(ld_lines, ref_map, missing_fns):
     outlines.append("\n\n")
     for l in ld_lines:
         ref_hdl, ref_url, ref_tit, ref_bib = is_ld_block_defn_line(l)
-        if ref_hdl in missing_fns:
-            continue
         if ref_tit and ref_bib:
             outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
         elif ref_tit:
@@ -275,20 +334,9 @@ def build_link_defn_lines(ld_lines, ref_map, missing_fns):
             outlines.append("[%d]: %s \"{%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_bib))
         else:
             outlines.append("[%d]: %s\n"%(ref_map[ref_hdl][3], ref_url))
-    # handle any unused refs
-    for x in missing_fns:
-        ref_hdl, ref_url, ref_tit, ref_bib = x, ref_map[x][0], ref_map[x][1], ref_map[x][2]
-        if ref_tit and ref_bib:
-            outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
-        elif ref_tit:
-            outlines.append("[%d]: %s \"%s\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit))
-        elif ref_bib:
-            outlines.append("[%d]: %s \"{%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_bib))
-        else:
-            outlines.append("[%d]: %s\n"%(ref_map[ref_hdl][3], ref_url))
-        del ref_map[ref_hdl] # finally, remove this unnused ref from our map
     outlines.append("\n")
     outlines.append(ld_block_end_line())
+    outlines.append("\n")
 
     return outlines
 
@@ -296,8 +344,10 @@ def build_intermediate_link_defn_lines(remapped_ref_map):
     """Build (auto-gen'd) intermediate link definitions"""
     outlines = []
 
-    for k,v in sorted(remapped_ref_map.items()):
-        outlines.append("[%d]: #ref%d%s\n"%(k, k, " \"%s\""%v[1] if v[1] else ""))
+    if remapped_ref_map:
+        outlines.append("\n<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->\n")
+        for k,v in sorted(remapped_ref_map.items()):
+            outlines.append("[%d]: #ref%d%s\n"%(k, k, " \"%s\""%v[1] if v[1] else ""))
 
     return outlines
 
@@ -305,17 +355,20 @@ def build_reference_table_lines(remapped_ref_map):
     """Build the refrence table"""
     outlines = []
 
-    outlines.append("\nReferences | &nbsp;\n")
-    outlines.append(":--- | :---\n")
-    for k,v in sorted(remapped_ref_map.items()):
-        if v[1] and v[2]: # both title and bibinfo exist
-            outlines.append("<a name=\"ref%d\"></a>%d | [%s<br>%s](%s)\n"%(k, k, v[1], v[2], v[0]))
-        elif v[1]: # only title exists
-            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[1], v[0]))
-        elif v[2]: # only bibinfo exists
-            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[0]))
-        else: # only url exists
-            outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[0], v[0]))
+    if remapped_ref_map:
+        outlines.append("\n<!--- TABLE OF REFS RENDERED AS MARKDOWN --->\n")
+        outlines.append("References | &nbsp;\n")
+        outlines.append(":--- | :---\n")
+        for k,v in sorted(remapped_ref_map.items()):
+            if v[1] and v[2]: # both title and bibinfo exist
+                outlines.append("<a name=\"ref%d\"></a>%d | [%s<br>%s](%s)\n"%(k, k, v[1], v[2], v[0]))
+            elif v[1]: # only title exists
+                outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[1], v[0]))
+            elif v[2]: # only bibinfo exists
+                outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[0]))
+            else: # only url exists
+                outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[0], v[0]))
+
     return outlines
 
 def write_output_file(outlines, in_filename, out_filename, in_place):
@@ -353,6 +406,12 @@ def main():
     # Do some sanity checks
     missing_fns = error_checks(fn_handles, ref_map, vopts['warn'])
 
+    # Remove from ld_lines any not actually referenced
+    ld_lines, unref_ld_lines = remove_unref_ld_lines(ld_lines, missing_fns)
+
+    # Rebuild the refmap again with remaining ld_lines
+    ref_map = build_ref_map(ld_lines, vopts['warn'])
+
     #
     # Ok, we're done processing the input file. Now, start building
     # the lines for the output file.
@@ -362,11 +421,11 @@ def main():
     outlines = build_main_content(main_content, ref_map)
 
     # Build the (original but renumbered) link definitions
-    outlines += build_link_defn_lines(ld_lines, ref_map, missing_fns)
+    outlines += build_link_defn_lines(ld_lines, ref_map, unref_ld_lines)
 
     # Build a disclaimer line if we'll have generated content
     if ld_lines:
-        outlines.append("\n\n<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->\n\n")
+        outlines.append("\n<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->\n")
     
     # Build intermediate link definitions lines
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
