@@ -18,7 +18,7 @@ If you want some practical tips about coding, and enjoy some (salty!) humor and 
 
 
 <!---
-Publish: preview
+Publish: no
 Categories: development, planning
 Topics: software engineering, design
 Tags:
