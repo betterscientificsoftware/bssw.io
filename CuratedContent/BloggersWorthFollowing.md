@@ -1,7 +1,7 @@
 # Scientific Software Bloggers and Podcasts Worth Following
 
 <!--- deck text start --->
-A number of bloggers and podcasts frequently and thoughtfully about issues related to "better scientific software".  You may want to follow some of them.
+There are a number of bloggers and podcasters who frequently and thoughtfully discuss issues related to "better scientific software".  You may want to follow some of them.
 <!--- deck text end --->
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
@@ -93,10 +93,7 @@ The Software Sustainability Institute (SSI) is a primary nexus of activity aroun
 
 <!---
 Publish: yes
-RSS update: 2021-02-19
+Pinned: no
+RSS update: 2021-02-26
 Topics: online learning, software publishing and citation, strategies for more effective teams, software process improvement, reproducibility, software engineering
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
