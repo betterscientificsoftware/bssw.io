@@ -36,7 +36,7 @@ to apply software engineering and project management approaches from industry in
 always end up frustrated with some of the assumptions about centralized authority, dedicated
 software engineering effort and incentive.
 
-### Challenges facing a medium-sized project  
+### Challenges facing a medium-sized project
 A good example of such a project team is the Institute for the Design of Advanced Energy Systems
 ([IDAES](https://idaes.org)), which was formed in 2016 to develop new advanced process systems
 engineering (PSE) capabilities. Funded by the DOE Office of Fossil Energy and led by the National
@@ -45,10 +45,8 @@ reliability of the existing fleet of coal-fired power plants while accelerating 
 broad range of advanced fossil energy systems. The IDAES team spans three national laboratories
 (NETL, Sandia National Laboratories, and Lawrence Berkeley National Laboratory)  and three universities (Carnegie Mellon University, West Virginia University,
 and Notre Dame University). Most of the team is spread in the two Pennsylvania locations, but half a dozen participants are present in California and New Mexico each, in addition to the professors and several graduate students present in the various universities. From a software engineering perspective, the goal is to build a software package that is capable of
-simulating important aspects of power plants and power grids. Many of the ideas for why and how to
-build the IDAES software came from experience on an earlier project (the Carbon Capture Simulation Initiative - CCSI), that used commercial tools to perform the process simulations. Although the target
-users of this capability are power plant operators and power grid designers, the main user base is currently the developers and graduate students. Application of the tools to external customer problems is currently performed at the level of the internal team  building the
-models and iterating with the customer.
+simulating important aspects of power plants and power grids. The eventual target
+users are power plant operators and power grid designers, with a current user base primarly of reseachers, graduate students and the developers themselves.
 
 ### A three-pronged approach
 
