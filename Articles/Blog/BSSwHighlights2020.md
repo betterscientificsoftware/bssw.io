@@ -67,12 +67,8 @@ Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She h
 
 <!---
 Publish: yes
+Pinned: no
 RSS Update: 2021-01-07
-Categories: collaboration
 Topics: projects and organizations
-Tags: bssw-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->
 
