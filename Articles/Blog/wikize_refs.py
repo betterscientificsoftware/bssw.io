@@ -47,18 +47,12 @@ For more information, see https://github.com/betterscientificsoftware/\
 betterscientificsoftware.github.io/blob/master/Articles/Blog/\
 ReferencesInMarkdownHybridApproach.md
 
-By default, infile.md is moved to infile.src.md and the new file is
-given the name infile.md and is made read-only. However, you can set
-the name of the output file instead and disable the read-only setting.
-By default, failed error checks cause an abort. However, this can
-be disabled by setting them to warn.
-
 To process a file...
 
     ./wikize_refs.py foo.md
 
-...moves original foo.md to foo.md~ and outputs a new foo.md. Use
--i option to disable this behavior.
+...moves original foo.md to foo.md~ as a backup and outputs a new
+foo.md. Use -i option to disable this backup behavior.
 
     ./wikize_refs.py --help
 
