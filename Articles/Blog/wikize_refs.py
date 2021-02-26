@@ -14,7 +14,7 @@ def usage():
 Re-formats a series of reference style links in a GitHub Markdown file
 so that the article's footnote links behave more Wikipedia-like.
 
-Treats a markdown file as being composed of four succesive logical
+Treats a markdown file as being composed of four successive logical
 blocks...
 
   1. The main content with possible footnote refs (<sup>[J],...</sup>)
@@ -34,11 +34,11 @@ message is produced but processing continues.
 
 The author's link definitions are renumbered 1...N and all footnote
 references are updated accordingly. These link definitions are output
-but bracketed by XML comment blocks to hide these link definitions
+but bracketed within XML comment blocks to hide these link definitions
 from any markdown processing.
 
 The renumbered and re-formatted links are bi-level. Footnotes in the
-content link to entries in a table of references at the bottom of the
+content link to entries in a list of references at the bottom of the
 document. Items in the table of references link off-page to their
 intended destinations. The resulting file is still GitHub flavored
 Markdown with a minimal amount of embedded HTML.
@@ -117,12 +117,12 @@ def is_ld_block_end_line(mdfl):
 def is_ld_block_defn_line(mdfl):
     """
     Parse GFM link definition lines of the form...
-        [1]: https://www.google.com
-        [1]: https://www.google.com "Title Info"
-        [1]: https://www.google.com "Title Info {}"
-        [1]: https://www.google.com "Title Info {biblio info}"
+        [10]: https://www.google.com
+        [11]: https://www.google.com "Title Info"
+        [1a]: https://www.google.com "Title Info {}"
+        [2b]: https://www.google.com "Title Info {biblio info}"
 
-        Returns footnote id, url, title, biblio-info
+        Returns footnote id, url, title, biblio-info as a list
     """
     retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*(https?://\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
     if not retval:
@@ -141,7 +141,7 @@ def gather_file_lines(filename):
         return mdf.readlines()
 
 def gather_main_content_lines(file_lines):
-    """Returns all lines occuring before link def block"""
+    """Returns all lines occuring before first link def line."""
     mc_lines = []
     for mdfl in file_lines:
         if is_ld_block_defn_line(mdfl):
@@ -152,7 +152,9 @@ def gather_main_content_lines(file_lines):
     return mc_lines
 
 def gather_link_defn_lines(file_lines):
-    """Returns all link def lines occuring after main content"""
+    """Returns all link def lines occuring after main content.
+       Should be called with set of lines starting with first
+       non-main-content line."""
     ld_lines = []
     for mdfl in file_lines:
         if is_ld_block_begin_line(mdfl):
@@ -164,7 +166,8 @@ def gather_link_defn_lines(file_lines):
     return ld_lines
     
 def gather_fn_handles(mc_lines, warn):
-    """Gets all footnote handles occuring in main content excluding any in XML comments."""
+    """Gets all footnote references (handles) occuring in main content
+       excluding any occuring in XML comments."""
     fn_handles = set()
     in_comment = False
     for mcl in mc_lines:
@@ -190,7 +193,8 @@ def gather_fn_handles(mc_lines, warn):
     return fn_handles
 
 def build_ref_map(ld_lines, warn):
-    """builds a map keyed by footnote handle with value [url, title, biblio]"""
+    """builds a map keyed by footnote handle with value
+       [url, title, biblio, re-numbered-id]"""
     ref_map = {}
     for ldl in ld_lines:
         mdfparts = is_ld_block_defn_line(ldl)
@@ -214,7 +218,7 @@ def build_ref_map(ld_lines, warn):
 
 def error_checks(fn_handles, ref_map, warn):
     """
-    Error checks for footnote references and the reference list...
+    Error checks footnote references and the link def reference list...
         - ensure every footnote references an existing item in the ref list
         - ensure every ref list item is referenced by at least one footnote
     """
@@ -336,7 +340,7 @@ def build_intermediate_link_defn_lines(remapped_ref_map):
     return outlines
 
 def build_reference_table_lines(remapped_ref_map):
-    """Build the refrence table"""
+    """Build (auto-gen'd) rendered table of references"""
     outlines = []
 
     if remapped_ref_map:
