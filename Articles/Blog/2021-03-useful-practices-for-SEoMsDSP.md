@@ -158,7 +158,7 @@ backgrounds.  He has worked in industry as a software engineer and release manag
 years.  He also tortures local music venue attendees playing bass in rock bands.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: software engineering, Strategies for more effective teams, testing
 RSS update: 2021-02-25
