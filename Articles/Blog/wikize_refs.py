@@ -361,12 +361,22 @@ def build_reference_table_lines(remapped_ref_map):
 
     return outlines
 
-def write_output_file(outlines, in_filename, out_filename, in_place):
+def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place):
+    """Write the output file. But, only if it would be different than the input."""
+
+    # don't write if output would be identical to input
+    if str().join(out_lines) == str().join(file_lines):
+        print("\"%s\" is up to date. No changes will be made."%mdfile)
+        return
+
+    # don't make the backup if we're doing in-place
     if not in_place:
         copyfile(in_filename, "%s~"%in_filename)
+
+    # ok, write the file
     outfname = out_filename if out_filename else in_filename
     with open(outfname, 'w') as outf:
-        outf.writelines(["%s" % line for line in outlines])
+        outf.writelines(["%s" % line for line in out_lines])
 
 #
 # For basic design/operation, see usage notes (above)
@@ -404,24 +414,24 @@ def main(opts, mdfile):
     #
 
     # First, build the main content lines with renumbered footnotes
-    outlines = build_main_content(main_content, ref_map)
+    out_lines = build_main_content(main_content, ref_map)
 
     # Build the (original but renumbered) link definitions
-    outlines += build_link_defn_lines(ld_lines, ref_map, unref_ld_lines)
+    out_lines += build_link_defn_lines(ld_lines, ref_map, unref_ld_lines)
 
     # Build a disclaimer line if we'll have generated content
     if ld_lines:
-        outlines.append("\n<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->\n")
+        out_lines.append("\n<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->\n")
     
     # Build intermediate link definitions lines
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
-    outlines += build_intermediate_link_defn_lines(remapped_ref_map)
+    out_lines += build_intermediate_link_defn_lines(remapped_ref_map)
 
     # Build reference table lines
-    outlines += build_reference_table_lines(remapped_ref_map)
+    out_lines += build_reference_table_lines(remapped_ref_map)
 
     # Ok, now actually write the updated file
-    write_output_file(outlines, mdfile, opts['outfile'], opts['in_place'])
+    write_output_file(file_lines, out_lines, mdfile, opts['outfile'], opts['in_place'])
 
 #
 # So this python script can be used both as a shell command
