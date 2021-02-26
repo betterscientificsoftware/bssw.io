@@ -371,10 +371,7 @@ def write_output_file(outlines, in_filename, out_filename, in_place):
 #
 # For basic design/operation, see usage notes (above)
 #
-def main():
-
-    # Process command line options
-    opts, mdfile = parse_args()
+def main(opts, mdfile):
 
     # Get all txt lines from file into a list
     file_lines = gather_file_lines(mdfile)
@@ -431,4 +428,8 @@ def main():
 # and as an imported python module.
 #
 if __name__ == '__main__':
-    main()
+
+    # Process command line options
+    opts, mdfile = parse_args()
+
+    main(opts, mdfile)
