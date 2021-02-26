@@ -59,7 +59,7 @@ the better referencing style. More on that later.
 ## Footnotes in GitHub Flavored Markdown
 
 Authors can cite items in the list of references in their main article
-flow using footnotes of the form `<sup >[ID]< /sup>` where `ID` is the
+flow using footnotes of the form `<sup`&#8203;`>[ID]<`&#8203;`/sup>` where `ID` is the
 identifier for a link and following proper grammatical style for footnote
 usage following these rules
 
@@ -68,7 +68,7 @@ Reference numbers should appear:
 - Outside periods and commas
 - Inside colons and semi-colons
 - If citing more than one reference (max of 3) in the same footnote,
-  separate the numbers with commas and no spaces between like so (`<sup >[1],[2],[3]< /sup>`).
+  separate the numbers with commas and no spaces between like so (`<sup`&#8203;`>[1],[2],[3]<`&#8203;`/sup>`).
 
 Examples:
 
