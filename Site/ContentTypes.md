@@ -78,7 +78,7 @@ for reviewers to review or for readers to later read. It effects the level of
 of the content. This includes review of the content for relevance, tone of
 evaluative statements, the shear length/size of the article, etc.
 
-Low complexity content such as **Events** requires only a basic sanity check
+Low complexity content such as **Events** requires only a basic check
 for review whereas other content such as an original **Article** may require a
 degree of vetting similar to that used for a conference proceedings.
 
