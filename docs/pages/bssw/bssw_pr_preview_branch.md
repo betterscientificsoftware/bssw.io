@@ -1,4 +1,10 @@
-# BSSW.io Pull Request Workflow using a Preview Branch
+---
+title: Preview Branch Workflow
+sidebar: bssw_sidebar
+permalink: bssw_pr_preview_branch.html
+---
+
+## BSSW.io Pull Request Workflow using a Preview Branch
 
 This workflow allows the usage of a single bssw.io GitHub branch and Pull
 Request (PR) to be created and edited by multiple actors where all reviews,
@@ -16,7 +22,7 @@ merge to `master` first.
 
 <a name="actors"/>
 
-## Actors in the workflow
+### Actors in the workflow
 
 * **Author:** Creates a branch with the first draft of the proposed content on
   a branch (i.e. branch `content-A` in their fork of the `bssw.io` repo) and
@@ -35,7 +41,7 @@ merge to `master` first.
 
 <a name="overview"/>
 
-## Overview of the workflow
+### Overview of the workflow
 
 An overview of the workflow using a `preview` branch is shown in the below
 figure.
@@ -80,7 +86,7 @@ Some simple rules for the workflow:
 
 <a name="current_impl"/>
 
-## Current Implementation
+### Current Implementation
 
 The merge of the `content-X` branch to `master` is performed by GitHub by
 merging the associated PR.  Pushing new commits to the `content-X` branch are
@@ -121,7 +127,7 @@ Actions](https://github.com/betterscientificsoftware/bssw.io/tree/master/.github
 
 <a name="unpublish"/>
 
-## Removing content from `preview` branch, preview site, or main bssw.io site
+### Removing content from `preview` branch, preview site, or main bssw.io site
 
 To remove changes from the `content-X` branch for a PR that has not been
 merged to `master` and stop the display of that content on the
@@ -154,3 +160,6 @@ NOTE: One can also push new commits that remove the `*.md` file or change to
 that the decision to unpublish is a little more visible.  (But the fact that
 new commits unpublish the `*.md` document keeps a record of this and the
 justification for doing so can be made in the commit message.)
+
+
+{% include links.html %}
