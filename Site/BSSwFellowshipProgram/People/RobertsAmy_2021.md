@@ -2,7 +2,7 @@
 
 **Name:** Amy Roberts
 
-**Image:** /images/People_NSFcohort_Roberts_Fell.jpg
+**Image:** /images/blob/preview/People_NSFcohort_Roberts_Fell.jpg
 
 **Affiliation:** University of Colorado Denver
 
