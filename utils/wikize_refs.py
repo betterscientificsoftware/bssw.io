@@ -2,15 +2,12 @@
 
 # run ./wikize_refs.py --help for documentation
 
-from optparse import OptionParser
 from shutil import copyfile
 import re, os
 
 def usage():
     return \
 """
-%prog <infile.md>
-
 Re-formats a series of reference style links in a GitHub Markdown file
 so that the article's footnote links behave more Wikipedia-like.
 
@@ -63,40 +60,55 @@ def parse_args():
     """
     Parses arguments to wikize_refs.py.
     """
-    parser = OptionParser(usage())
+    from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
-    parser.add_option("-w", "--warn",
+    parser = ArgumentParser(description=usage(),
+        formatter_class=RawDescriptionHelpFormatter)
+
+    parser.add_argument("-w", "--warn",
                       default=False,
                       action="store_true",
                       help="Warn instead of error during (most) error checks.")
 
-    parser.add_option("-i", "--in-place",
+    parser.add_argument("-i", "--in-place",
                       default=False,
                       action="store_true",
                       help="Disable creation of backup file appended with ~")
 
-    parser.add_option("-o", "--outfile",
+    parser.add_argument("-o", "--outfile",
                       default=None,
                       help="Specify an output file name. If none specified, will \
                             use <infile>-wikized.md")
 
-    opts, mdfiles = parser.parse_args()
+    parser.add_argument("mdfile")
+
+    opts = parser.parse_args()
+
+    #opts, mdfiles = parser.parse_args()
 
     vopts = vars(opts)
+
+    if not vopts['mdfile']:
+        print("Must include the name of a markdown file to process!")
+        exit(1)
+    else:
+      mdfile = vopts['mdfile']
 
     #
     # Handle an isoloated -o / --outfile (which means to use default name of
     # output file)
     #
-    if vopts['outfile'] and os.path.isfile(vopts['outfile']):
-        mdfiles += [vopts['outfile']]
-        vopts['outfile'] = "%s-wikized.md"%os.path.splitext(vopts['outfile'])[0]
 
-    if not mdfiles:
-        print("Must include the name of a markdown file to process.")
-        exit(1)
+    #if vopts['outfile'] and os.path.isfile(vopts['outfile']):
+    #    mdfiles += [vopts['outfile']]
+    #    vopts['outfile'] = "%s-wikized.md"%os.path.splitext(vopts['outfile'])[0]
 
-    return vopts, mdfiles[0]
+    # RAB: Above: I don't understand what the above is doing from the old
+    # optparse implementation so I commented it out.  I don't understand what
+    # use case this is testing since all of the obvious test cases I added all
+    # pass!
+
+    return vopts, mdfile
 
 def ld_block_begin_line():
     """Constant XML comment text for beginning of link def block"""
