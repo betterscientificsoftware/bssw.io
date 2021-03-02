@@ -7,7 +7,7 @@
 #    -D TEST_NAME=<testName> \
 #    -D INPUT_FILE=<inputFile> \
 #    -D WIKIZE_REFS_ARGS=<wikizeRefsArgs> \
-#    -D COMPARE_SAVED_INPUT_FILE=[TRUE|FALSE] \
+#    [-D COMPARE_SAVED_INPUT_FILE=[TRUE|FALSE\] \
 #    [-D OUTPUT_FILE=<outputFile>] \
 #    [-D EXPECTED_OUTPUT_FILE=<expectedOutputFile>] \
 #    -P run_wikize_ref_diff_test.cmake
@@ -25,10 +25,11 @@
 #
 #   diff <expectedOutputFile> <outputFile>
 #
-# If COMPARE_SAVED_INPUT_FILE=TRUE is passed in, then the file
-# name(<inputFile>)~ will be compared to <inputFile> make make sure the
-# orginal file is saved.  If COMPARE_SAVED_INPUT_FILE=FALSE, then that file
-# can not exist after running wikize_refs.py.
+# If COMPARE_SAVED_INPUT_FILE=TRUE is passed in, then the saved original file
+# name(<inputFile>)~ will be compared to the original <inputFile> to make sure
+# the orginal file is saved.  If COMPARE_SAVED_INPUT_FILE=FALSE, then the file
+# name(<inputFile>)~ cannot exist after running wikize_refs.py or an error
+# will be recorded.
 #
 # If the wikize_refs.py command runs to completion without error and the diff
 # of the output file against the expected output file returns no change, then
@@ -39,12 +40,42 @@
 #include(CMakePrintHelpers)
 #cmake_print_variables(TEST_NAME INPUT_FILE OUTPUT_FILE WIKIZE_REFS_ARGS EXPECTED_OUTPUT_FILE)
 
+#
+# Helper functions
+#
+
+function(diff_files fileName1 fileName2)
+  message("Diffing '${fileName1}' and '${fileName1}'")
+  execute_process(
+    COMMAND diff "${fileName1}" "${fileName2}"
+    WORKING_DIRECTORY "${TEST_NAME}"
+    RESULT_VARIABLE diffRtnCode
+    )
+  if (NOT diffRtnCode EQUAL 0)
+    message(FATAL_ERROR "diff returned '${diffRtnCode}'")
+  endif()
+endfunction()
+
+# NOTE: Above, we could make this work on all platforms by switching to use:
+#
+#  cmake -E compare_files <fileName1> <fileName2>
+#
+# but that command does not return the actually diff, only if the files match
+# or don't match.  So if the diff fails, you get no useful output at all.
+# That is not good for an automated test.
+
+
+#
+# Main
+#
+
 get_filename_component(inputFileName "${INPUT_FILE}" NAME)
 
 # A) Set up test directory to hold the input and output files
 
 if (EXISTS ${TEST_NAME})
   message("Removing dir ${TEST_NAME}")
+  file(REMOVE_RECURSE "${TEST_NAME}")
 endif()
 
 message("Creating dir ${TEST_NAME}")
@@ -67,7 +98,6 @@ execute_process(
   WORKING_DIRECTORY "${TEST_NAME}"
   RESULT_VARIABLE wikizRefsRtnCode
   )
-
 if (NOT wikizRefsRtnCode EQUAL 0)
   message(FATAL_ERROR "wikize_refs.py returned '${wikizRefsRtnCode}'")
 endif()
@@ -75,15 +105,7 @@ endif()
 # D) Compare the output file to expected output
 
 if (NOT EXPECTED_OUTPUT_FILE STREQUAL "")
-  message("Diffing expected output '${EXPECTED_OUTPUT_FILE}' to output '${OUTPUT_FILE}'")
-  execute_process(
-    COMMAND diff "${EXPECTED_OUTPUT_FILE}" "${OUTPUT_FILE}" 
-    WORKING_DIRECTORY "${TEST_NAME}"
-    RESULT_VARIABLE diffRtnCode
-    )
-  if (NOT diffRtnCode EQUAL 0)
-    message(FATAL_ERROR "diff returned '${diffRtnCode}'")
-  endif()
+  diff_files("${EXPECTED_OUTPUT_FILE}" "${OUTPUT_FILE}")
 else()
   message("Skipping diff of output file since none given!")
 endif()
@@ -93,18 +115,19 @@ endif()
 set(savedInputFileName "${inputFileName}~")
 
 if (COMPARE_SAVED_INPUT_FILE)
-  message("Diffing saved input file '${savedInputFileName}' to input '${INPUT_FILE}'")
-  execute_process(
-    COMMAND diff "${savedInputFileName}" "${INPUT_FILE}"
-    WORKING_DIRECTORY "${TEST_NAME}"
-    RESULT_VARIABLE diffRtnCode
-    )
-  if (NOT diffRtnCode EQUAL 0)
-    message(FATAL_ERROR "diff returned '${diffRtnCode}'")
-  endif()
+  diff_files( "${INPUT_FILE}" "${savedInputFileName}")
 else()
   message("Ensure that saved input file '${savedInputFileName}' does not exist!")
   if (EXISTS "${savedInputFileName}")
     message(FATAL_ERROR "The saved input file '${savedInputFileName}' exists when it should not!")
   endif()
 endif()
+
+# F) Report all passed!
+
+# If we get here, then we did not detect any errors!
+message("RUN_WIKIZE_REF_DIFF_TEST: ALL PASSED!")
+
+# NOTE: By printing 'ALL PASSED' and grepping for that, we ensure that this
+# script runs to completion with no fatal errors.  That is a stronger check
+# that just checking the return code.

@@ -24,6 +24,9 @@ function(wikize_refs_diff_test TEST_NAME)
      -D "COMPARE_SAVED_INPUT_FILE=${PARSE_COMPARE_SAVED_INPUT_FILE}"
      -P ${CMAKE_CURRENT_LIST_DIR}/run_wikize_ref_diff_test.cmake
      )
+  set_tests_properties(${TEST_NAME} PROPERTIES
+    PASS_REGULAR_EXPRESSION "RUN_WIKIZE_REF_DIFF_TEST: ALL PASSED"
+    )
 
 endfunction()
 
