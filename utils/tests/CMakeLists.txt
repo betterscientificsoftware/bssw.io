@@ -47,10 +47,9 @@ set_tests_properties(wikize_refs_help PROPERTIES
 
 wikize_refs_diff_test(wikize_refs_no_args_pass
   INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
-  OUTPUT_FILE ReferencesInMarkdownHybridApproach.md
-  ARGS "-w"  # Have to ignore some warnings!
+  OUTPUT_FILE ReferencesInMarkdownHybridApproach-wikized.md
+  ARGS -w   # Have to ignore some warnings!
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
-  COMPARE_SAVED_INPUT_FILE
   )
 
 wikize_refs_diff_test(wikize_refs_no_args_fail
@@ -65,6 +64,14 @@ wikize_refs_diff_test(wikize_refs_in_place
   OUTPUT_FILE ReferencesInMarkdownHybridApproach.md
   ARGS -w -i
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
+  COMPARE_SAVED_INPUT_FILE
+  )
+
+wikize_refs_diff_test(wikize_refs_in_place_no_save_orig
+  INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
+  OUTPUT_FILE ReferencesInMarkdownHybridApproach.md
+  ARGS -w -s -i
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
   # There will be no input file saved here!
   )
 
@@ -73,13 +80,5 @@ wikize_refs_diff_test(wikize_refs_explicit_out
   OUTPUT_FILE ReferencesInMarkdownHybridApproach-generated.md
   ARGS -w -o ReferencesInMarkdownHybridApproach-generated.md
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
-  COMPARE_SAVED_INPUT_FILE
+  # There will be no input file saved here!
   )
-
-wikize_refs_diff_test(wikize_refs_in_place_explicit_out
-  INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
-  OUTPUT_FILE ReferencesInMarkdownHybridApproach-generated.md
-  ARGS -w -i -o ReferencesInMarkdownHybridApproach-generated.md
-  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
-  )
-
