@@ -12,7 +12,7 @@ not convenient.
 
 Here, we describe conventions in the use of [GitHub Flavored Markdown (GFM)][GFM]
 together with a Python post-processing script
-[`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/wikize_refs.py)
+[`wikize_refs.py`](../../utils/wikize_refs.py)
 to make it easier to manage such references in a
 [Wikipedia-like way](https://en.wikipedia.org/wiki/Note_(typography)#References).
 
@@ -40,7 +40,7 @@ at the end of the markdown file, of the form
 - `URL`: (**REQUIRED**) The URL for the reference
 - `TIT`: (*optional*) A title for the reference (appears as tool-tip during hover)
 - `BIB`: (*optional*) Full bibliographic information for the reference
-  - Here, we are using the `{BIB}` field, embeded between `{` and `}` in the
+  - Here, we are using the `{BIB}` field, embedded between `{` and `}` in the
     [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text
     as a notational *extension*.
 
@@ -50,7 +50,7 @@ Examples:
     [1]: "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
     [ale3d-paper]: https://wci.llnl.gov/simulation/computer-codes/ale3d
 
-In (most) markdown processors link defintions such as this will, by convention,
+In (most) markdown processors link definitions such as this will, by convention,
 not appear in the rendered HTML for the document. Thus, in order to make them 
 appear, we post-process the file with a Python script, `wikize_refs.py` which
 adds various auto-generated content to the *bottom* of the file to support
@@ -61,7 +61,7 @@ the better referencing style. More on that later.
 Authors can cite items in the list of references in their main article
 flow using footnotes of the form `<sup`&#8203;`>[ID]<`&#8203;`/sup>` where `ID` is the
 identifier for a link and following proper grammatical style for footnote
-usage following these rules
+usage following these rules.
 
 Reference numbers should appear:
 - After the fact, quotation, or idea being cited
@@ -114,7 +114,7 @@ the article's footnote links behave more Wikipedia-like.
 In the following figures, we demonstrate repeated use of `wikize_refs.py`. In the
 first invocation (figure 1), the originally authored file (left) is processed
 producing a new file (right) where the author's original footnote and reference
-numbering is modified, slightly and new content to support the wikipedia style
+numbering is modified, slightly and new content to support the Wikipedia-style
 referencing is added to the bottom of the file.
 
 ![](https://raw.githubusercontent.com/betterscientificsoftware/images/mcm86-19feb21-inplace-wikize-refs/wikize-refs-docs1.png)
@@ -125,13 +125,13 @@ figure below), adding some content and a new footnote and reference.
 ![](https://raw.githubusercontent.com/betterscientificsoftware/images/mcm86-19feb21-inplace-wikize-refs/wikize-refs-docs2.png)
 
 Nonetheless, even after the author has edited the file further, the `wikize_refs.py`
-tool can be re-applied to the resulting file. This is demonstrated in the the figure
+tool can be re-applied to the resulting file. This is demonstrated in the figure
 below (stuff in purple is what winds up being changed in this invocation).
 
 ![](https://raw.githubusercontent.com/betterscientificsoftware/images/mcm86-19feb21-inplace-wikize-refs/wikize-refs-docs3.png)
 
 In this way, authors need only concern themselves with the main content and their
-list of references. The added content to support Wikipedia style referenceing at
+list of references. The added content to support Wikipedia-style referencing at
 the bottom of the file is always re-generated from the author's content
 
 The `wikize_refs.py` script treats the document structure in four successive
@@ -148,7 +148,7 @@ blocks...
 
 Blocks 2, 3 and 4 are optional. Blocks 3 and 4, which support the Wikipedia style
 references, are generated from block 2 if it exists. Repeated application of
-`wikize_refs.py` will result in no changes to the file. Intermeidate link definition
+`wikize_refs.py` will result in no changes to the file. Intermediate link definition
 lines of the form `^[J]: #refJ` are ignored. These are re-generated anew upon each
 invocation. Likewise, reference table lines of the form `^<a name="refJ"></a>J | [`
 are also ignored. These too will be re-generated anew upon each invocation.
@@ -173,23 +173,23 @@ For example, running script on this markdown file...
     ./wikize_refs.py ReferencesInMarkdownHybridApproach.md
 
 makes a backup of the original file to `ReferencesInMarkdownHybridApproach.md~` and
-then overwrites the original file. Use the `-i` option to override this backup
+then overwrites the original file. Use the `-i` option to skip this backup
 operation.
 
 Comparing the [raw original](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md)
 version of this file to the
 [raw post-processed](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md)
-version can also be helpful in undestanding what the script is doing.
+version can also be helpful in understanding what the script is doing (and diffing the raw files locally is also very informative).
 
 ## Advantages of this Approach
 
 - Separately listed/rendered table of references at end of article
 - Bi-level, Wikipedia style linking
   - Footnotes in the main content links on-page to reference table items
-  - Reference table items link off-page to their indended destinations
+  - Reference table items link off-page to their intended destinations
 - When hovering, tool-tip text appears with the link's title
 - Mobile friendliness
-- Maximally GitHib Markdown friendly
+- Maximally GitHub Markdown friendly
 - Minimal use of in-line HTML
 - Minimal post-processing for final publication-ready document
 - A single source for the references defined as a list of
