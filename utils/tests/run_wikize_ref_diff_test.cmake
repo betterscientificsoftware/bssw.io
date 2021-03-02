@@ -67,14 +67,17 @@ endif()
 
 # D) Compare the output file to expected output
 
-message("Diffing expected output '${EXPECTED_OUTPUT_FILE}' to output '${OUTPUT_FILE}'")
 
-execute_process(
-  COMMAND diff "${EXPECTED_OUTPUT_FILE}" "${OUTPUT_FILE}" 
-  WORKING_DIRECTORY "${TEST_NAME}"
-  RESULT_VARIABLE diffRtnCode
-  )
-
-if (NOT diffRtnCode EQUAL 0)
-  message(FATAL_ERROR "diff returned '${diffRtnCode}'")
+if (NOT EXPECTED_OUTPUT_FILE STREQUAL "")
+  message("Diffing expected output '${EXPECTED_OUTPUT_FILE}' to output '${OUTPUT_FILE}'")
+  execute_process(
+    COMMAND diff "${EXPECTED_OUTPUT_FILE}" "${OUTPUT_FILE}" 
+    WORKING_DIRECTORY "${TEST_NAME}"
+    RESULT_VARIABLE diffRtnCode
+    )
+  if (NOT diffRtnCode EQUAL 0)
+    message(FATAL_ERROR "diff returned '${diffRtnCode}'")
+  endif()
+else()
+  message("Skipping diff of output file since none given!")
 endif()

@@ -8,9 +8,9 @@ function(wikize_refs_diff_test TEST_NAME)
 
   cmake_parse_arguments(PARSE
     "" # options
-    "INPUT_FILE;OUTPUT_FILE;ARGS;EXPECTED_OUTPUT_FILE" # one_value_arguments
+    "INPUT_FILE;OUTPUT_FILE;EXPECTED_OUTPUT_FILE" # one_value_arguments
     # multi_value_keywords
-    ""
+    "ARGS"
     # args
     ${ARGN}
     )
@@ -35,9 +35,42 @@ endfunction()
 
 get_filename_component(bsswioBaseDir "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
 
-wikize_refs_diff_test(wikize_refs_no_args
+wikize_refs_diff_test(wikize_refs_help
+  INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
+  ARGS --help
+  )
+set_tests_properties(wikize_refs_help PROPERTIES
+  PASS_REGULAR_EXPRESSION "Re-formats a series of reference style links in a GitHub Markdown file"
+  )
+
+wikize_refs_diff_test(wikize_refs_no_args_pass
   INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
   OUTPUT_FILE ReferencesInMarkdownHybridApproach.md
   ARGS "-w"  # Have to ignore some warnings!
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
   )
+
+wikize_refs_diff_test(wikize_refs_no_args_fail
+  INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
+  OUTPUT_FILE ReferencesInMarkdownHybridApproach.md
+  ARGS # Allow error about missing refs
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
+  )
+set_tests_properties(wikize_refs_no_args_fail PROPERTIES
+  PASS_REGULAR_EXPRESSION "Correct above issues and re-try"
+  )
+
+wikize_refs_diff_test(wikize_refs_in_place
+  INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
+  OUTPUT_FILE ReferencesInMarkdownHybridApproach.md
+  ARGS -w -i
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
+  )
+
+wikize_refs_diff_test(wikize_refs_explicit_out
+  INPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach.md
+  OUTPUT_FILE ReferencesInMarkdownHybridApproach-generated.md
+  ARGS -w -o ReferencesInMarkdownHybridApproach-generated.md
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
+  )
+
