@@ -37,12 +37,11 @@
 # print the error to STDOUT.
 #
 
-#include(CMakePrintHelpers)
-#cmake_print_variables(TEST_NAME INPUT_FILE OUTPUT_FILE WIKIZE_REFS_ARGS EXPECTED_OUTPUT_FILE)
 
 #
 # Helper functions
 #
+
 
 function(diff_files fileName1 fileName2)
   message("Diffing '${fileName1}' and '${fileName1}'")

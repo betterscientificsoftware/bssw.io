@@ -1,5 +1,3 @@
-include(CMakePrintHelpers)
-
 #
 # Helper functions
 #
@@ -12,8 +10,6 @@ function(wikize_refs_diff_test TEST_NAME)
     "ARGS" # multi_value_keywords
     ${ARGN} # args
     )
-
-  #cmake_print_variables(TEST_NAME PARSE_INPUT_FILE PARSE_OUTPUT_FILE PARSE_ARGS PARESE_EXPECTED_OUTPUT_FILE)
 
    add_test(NAME ${TEST_NAME} COMMAND ${CMAKE_COMMAND}
      -D "TEST_NAME=${TEST_NAME}"
