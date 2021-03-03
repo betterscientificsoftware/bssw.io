@@ -48,8 +48,14 @@ To process a file...
 
     ./wikize_refs.py foo.md
 
-...moves original foo.md to foo.md~ as a backup and outputs a new
-foo.md. Use -i option to disable this backup behavior.
+...creates/updates the output file foo-wikized.md.
+
+To modify the input file in-place...
+
+    ./wikize_refs.py -i foo.md
+
+...which also backs up the original file as foo.md~.  Use option -s to skip
+the backup on the input file in this case.
 
     ./wikize_refs.py --help
 
@@ -73,6 +79,11 @@ def parse_args():
     parser.add_argument("-i", "--in-place",
                       default=False,
                       action="store_true",
+                      help="Modify input file in-place.")
+
+    parser.add_argument("-s", "--skip-backup",
+                      default=False,
+                      action="store_true",
                       help="Disable creation of backup file appended with ~")
 
     parser.add_argument("-o", "--outfile",
@@ -84,30 +95,23 @@ def parse_args():
 
     opts = parser.parse_args()
 
-    #opts, mdfiles = parser.parse_args()
-
     vopts = vars(opts)
 
     if not vopts['mdfile']:
         print("Must include the name of a markdown file to process!")
         exit(1)
     else:
-      mdfile = vopts['mdfile']
+        mdfile = vopts['mdfile']
 
-    #
-    # Handle an isoloated -o / --outfile (which means to use default name of
-    # output file)
-    #
-
-    #if vopts['outfile'] and os.path.isfile(vopts['outfile']):
-    #    mdfiles += [vopts['outfile']]
-    #    vopts['outfile'] = "%s-wikized.md"%os.path.splitext(vopts['outfile'])[0]
-
-    # RAB: Above: I don't understand what the above is doing from the old
-    # optparse implementation so I commented it out.  I don't understand what
-    # use case this is testing since all of the obvious test cases I added all
-    # pass!
-
+    if vopts['in_place'] and vopts['outfile']:
+        print("Can't set both -i and -o options!")
+        exit(1)
+      
+    if vopts['in_place']:
+        vopts['outfile'] = mdfile
+    elif not vopts['outfile']:
+        vopts['outfile'] = "%s-wikized.md"%os.path.splitext(mdfile)[0]
+        
     return vopts, mdfile
 
 def ld_block_begin_line():
@@ -371,7 +375,7 @@ def build_reference_table_lines(remapped_ref_map):
 
     return outlines
 
-def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place):
+def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place, skip_backup):
     """Write the output file. But, only if it would be different than the input."""
 
     # don't write if output would be identical to input
@@ -379,8 +383,8 @@ def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place
         print("\"%s\" is up to date. No changes will be made."%mdfile)
         return
 
-    # don't make the backup if we're doing in-place
-    if not in_place:
+    # don't make the backup if asked not to
+    if in_place and not skip_backup:
         copyfile(in_filename, "%s~"%in_filename)
 
     # ok, write the file
@@ -441,7 +445,8 @@ def main(opts, mdfile):
     out_lines += build_reference_table_lines(remapped_ref_map)
 
     # Ok, now actually write the updated file
-    write_output_file(file_lines, out_lines, mdfile, opts['outfile'], opts['in_place'])
+    write_output_file(file_lines, out_lines, mdfile, opts['outfile'], opts['in_place'],
+        opts['skip_backup'])
 
 #
 # So this python script can be used both as a shell command

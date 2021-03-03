@@ -82,3 +82,8 @@ wikize_refs_diff_test(wikize_refs_explicit_out
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md
   # There will be no input file saved here!
   )
+
+
+# ToDo: Add arg PASS_REGULAR_EXPRESSION into function wikize_refs_diff_test() ...
+
+# ToDo: Add test for -i and -o both being set which is an error
