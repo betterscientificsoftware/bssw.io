@@ -2,7 +2,7 @@
 
 **Name:** Amy Roberts
 
-**Image:** https://github.com/betterscientificsoftware/images/raw/master/People_NSFcohort_Roberts_Fell.jpg
+**Image:** https://github.com/betterscientificsoftware/images/blob/master/People_NSFcohort_Roberts_Fell.jpg
 
 **Affiliation:** University of Colorado Denver
 
