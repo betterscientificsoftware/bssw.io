@@ -83,7 +83,7 @@ file(MAKE_DIRECTORY "${TEST_NAME}")
 
 # B) Copy input file to test directory
 
-message("Copy input file '${INPUT_FILE}'") 
+message("Copy input file '${INPUT_FILE}'")
 file(COPY "${INPUT_FILE}" DESTINATION "${TEST_NAME}")
 
 # C) Run the wikize_refs command
