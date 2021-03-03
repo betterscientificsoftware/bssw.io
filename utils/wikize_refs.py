@@ -106,12 +106,12 @@ def parse_args():
     if vopts['in_place'] and vopts['outfile']:
         print("Can't set both -i and -o options!")
         exit(1)
-      
+
     if vopts['in_place']:
         vopts['outfile'] = mdfile
     elif not vopts['outfile']:
         vopts['outfile'] = "%s-wikized.md"%os.path.splitext(mdfile)[0]
-        
+
     return vopts, mdfile
 
 def ld_block_begin_line():
