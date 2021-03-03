@@ -1,4 +1,10 @@
-# BSSW.io Pull Request Workflow using a Preview Branch
+---
+title: Preview Branch Workflow
+sidebar: bssw_sidebar
+permalink: bssw_pr_preview_branch.html
+---
+
+## BSSW.io Pull Request Workflow using a Preview Branch
 
 This workflow allows the usage of a single bssw.io GitHub branch and Pull
 Request (PR) to be created and edited by multiple actors where all reviews,
@@ -16,7 +22,7 @@ merge to `master` first.
 
 <a name="actors"/>
 
-## Actors in the workflow
+### Actors in the workflow
 
 * **Author:** Creates a branch with the first draft of the proposed content on
   a branch (i.e. branch `content-A` in their fork of the `bssw.io` repo) and
@@ -35,7 +41,7 @@ merge to `master` first.
 
 <a name="overview"/>
 
-## Overview of the workflow
+### Overview of the workflow
 
 An overview of the workflow using a `preview` branch is shown in the below
 figure.
@@ -80,13 +86,13 @@ Some simple rules for the workflow:
 
 <a name="current_impl"/>
 
-## Current Implementation
+### Current Implementation
 
 The merge of the `content-X` branch to `master` is performed by GitHub by
 merging the associated PR.  Pushing new commits to the `content-X` branch are
 performed as usual.  Because the PR has been created, every GitHub user with
 push access to the `bssw.io` GitHub repo can push commits to the author's
-'<author-id>/content-x' branch.  Therefore, the only operations that are not
+`<author-id>/content-x` branch.  Therefore, the only operations that are not
 already handled by GitHub are the merges to the `preview` branch from each PR
 branch and `master`.
 
@@ -121,7 +127,7 @@ Actions](https://github.com/betterscientificsoftware/bssw.io/tree/master/.github
 
 <a name="unpublish"/>
 
-## Removing content from `preview` branch, preview site, or main bssw.io site
+### Removing content from `preview` branch, preview site, or main bssw.io site
 
 To remove changes from the `content-X` branch for a PR that has not been
 merged to `master` and stop the display of that content on the
@@ -131,12 +137,11 @@ https://preview.bssw.io site, one can do one of the following:
   files and push to the `preview` branch.
 
 * Set `Publish: no` in the meta-data for the `*.md` file in a commit directly
-  on the `preview` branch and that will exclude it from the
-  https://preview.bssw.io site (but the `*.md` file will remain in the
-  `preview` branch).
+  on the `preview` branch (but the `*.md` file will remain on the `preview`
+  branch).
 
 NOTE: In the future, removing content from PRs that were closed without
-merging to the branch `master` could be handled automatically (e.g. by
+merging to the `master` branch could be handled automatically (e.g. by
 rebuilding the `preview` branch from scratch each time new commits are pushed
 to a PR branch).
 
@@ -153,5 +158,8 @@ main https://bssw.io site, one can do one of the following:
 NOTE: One can also push new commits that remove the `*.md` file or change to
 `Publish: no` directly to `master` but the advantage of using PRs to do so is
 that the decision to unpublish is a little more visible.  (But the fact that
-new commits unpublish the `*.md` document keep a record of this and the
+new commits unpublish the `*.md` document keeps a record of this and the
 justification for doing so can be made in the commit message.)
+
+
+{% include links.html %}

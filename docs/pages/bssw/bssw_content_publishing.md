@@ -44,8 +44,8 @@ The following steps assume that the BSSw editorial team has already determined t
 * Past events of the same conferences/workshops/etc. are not deleted and just kept as archives.
 
 ### Pre-publishing Checks
-* Finalize the topic(s) and other parameters in metadata.
-* Sanity check on preview site for overall display ("publish: preview" in metadata).
+* Finalize the category(ies), topic(s) and other parameters in metadata.
+* Check on preview site to confirm overall display ("publish: preview" in metadata).
 * Change "publish: yes" in metadata before merging into master.
 
 {% include links.html %}
