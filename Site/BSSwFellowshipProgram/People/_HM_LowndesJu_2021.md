@@ -2,7 +2,7 @@
 
 **Name:** Julia Stewart Lowndes
 
-**Image:** /images/blob/master/People_NSFcohort_Lowndes_HM.jpg 
+**Image:** https://github.com/betterscientificsoftware/images/raw/master/People_NSFcohort_Lowndes_HM.jpg 
 
 **Affiliation:** National Center for Ecological Analysis and Synthesis (NCEAS), UC Santa Barbara 
 
