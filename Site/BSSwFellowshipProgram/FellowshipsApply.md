@@ -63,7 +63,7 @@ Applications are closed for the 2021 BSSw Fellowship Program.  Please check back
 
 <br>
 
-**The 2021 BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
+**The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
 
 <div class='fellow'>
 <div class='img_div'>
