@@ -146,7 +146,7 @@ The goal of the BSSw organization is to foster a broad, international community 
 
 <br>
 
-**The 2021 BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
+**The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
 
 <div class='fellow'>
 <div class='img_div'>
