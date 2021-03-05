@@ -2,6 +2,8 @@
 
 #### Publication date: December 12, 2017
 
+Look how cool my emojis are: 😀😎😎
+
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
 - [What is good documentation?](https://www.github.com/BSSWimageteam/bsswimagery/IDEAS-DocumentationHowToWriteGoodDocumentation-V0.1.pdf)
