@@ -2,7 +2,7 @@
 
 #### Publication date: December 12, 2017
 
-Look how cool my emojis are: 😀😎😎
+(removed test emojis so that this page will build. once we have emoji support we should put them back in.)
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
