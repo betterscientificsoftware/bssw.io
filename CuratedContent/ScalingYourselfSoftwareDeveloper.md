@@ -6,12 +6,12 @@ Do you find yourself developing software for your main projects outside of regul
 <!-- deck text end -->
 
 #### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
-#### Publication date: February 25, 2020
+#### Publication date: March 13, 2021 
 
 Resource information | Details
 :--- | :---
 Website  | [Scaling Yourself as a Software Developer](http://blog.martinig.ch/videos/scaling-yourself-as-a-software-developer/)
-Author |Scott Hanselman 
+Author |Scott Hanselman
 Focus | Productivity for software developers
 
 
