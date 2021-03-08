@@ -1,7 +1,7 @@
 # Scaling Yourself as a Software Developer 
 
 <!-- deck text start -->
-Do you find yourself developing software for your main projects outside of regular work time just to look or be productive? Do interruptions from email, social media, or requests from others cause your day to slip away? This lively and very helpful video gives numerous ideas to help software developers (or anyone) to "scale" personal productivity.
+Do interruptions from email, social media, or requests from others cause your day to slip away? This lively and very helpful video gives numerous ideas to help software developers (or anyone) to "scale" personal productivity.
 
 <!-- deck text end -->
 
