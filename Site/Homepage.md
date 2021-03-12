@@ -10,12 +10,10 @@ Slide2 L: items/pull-request-size-matters
 Slide2 R: items/working-within-multiple-git-branches-simultaneously
 Slide3 L: blog_posts/when-not-to-use-agile-in-scientific-software-development
 Slide3 R: images/raw/master/Blog_0221_Agile.png
-Slide4 L: events/siam-cse21-software-related-events
+Slide4 L: events/panel-how-does-remote-work-impact-creativity-and-innovation
 Slide4 R: events/2021-exascale-computing-project-community-bof-days
-Slide5 R: events/the-collaborations-workshop-2021-cw21
-Slide5 L: events/webinar-an-overview-of-the-raja-portability-suite
-Slide6 L: blog_posts/advanced-training-on-extreme-scale-computing-through-atpesc
-Slide6 R: images/raw/master/Blog_0121_ATPESC.jpg
+Slide5 L: events/the-collaborations-workshop-2021-cw21
+Slide5 R: events/webinar-a-workflow-for-increasing-the-quality-of-scientific-software
 --->
 
 <!---
