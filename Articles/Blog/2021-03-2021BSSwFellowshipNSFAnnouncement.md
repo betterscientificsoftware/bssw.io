@@ -18,7 +18,7 @@ In addition to the [previously announced Fellows and Honorable Mentions](https:/
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0321_Fell_roberts.jpg' class='logo' />
+  <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0121_Fell_Roberts.jpg' class='logo' />
 </div>  
 
 <div class='short_bio'>
@@ -39,7 +39,7 @@ Amy is an assistant professor of physics at the University of Colorado Denver wh
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0321_HM_lowndes.jpg' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0121_HM_Lowndes.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
