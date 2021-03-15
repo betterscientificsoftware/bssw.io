@@ -12,7 +12,7 @@
 
 **Github:** https://github.com/pibion
 
-**Short Bio:** Enabling collaboration through user-focused version control
+**Short Bio:** Enabling collaboration through version control user stories
 
 **Long Bio:** 
 ### Enabling collaborative work on scientific software through accessible, user-focused version control tutorials
