@@ -6,7 +6,7 @@
 
 #### Contributed by [Nasir Eisty](linkhere)
 
-#### Publication date: March #, 2021
+#### Publication date: April #, 2021
 
 A software metric is a critical tool for building reliable software and assessing measurable software quality, especially in complex domains. Software metrics are important for many reasons, including measuring software performance, planning work items, measuring productivity, and more. Within the software development process, software metrics are related to the four functions of management: Planning, Organization, Control, or Improvement. The ultimate goal of software metrics is to provide continuous insight into products and processes. A useful metric typically performs a calculation to assess the effectiveness of the underlying software or process. 
 
@@ -38,3 +38,10 @@ This article is based on a paper in the proceedings of the 14th IEEE Internation
 
 ### Author bio
 Nasir Eisty is an assistant professor in the Computer Science and Software Engineering Department of California Polytechnic State University, San Luis, Obispo, CA. He received his Ph.D. degree in Computer Science from the University of Alabama in Spring 2020. His research interests lie in the area of Empirical Software Engineering, Software Quality, and Research Software Engineering. He received a 2020 BSSw (Better Scientific Software) Fellowship award from the Department of Energy (DOE).
+
+<!---
+Publish: preview
+Pinned: no
+Topics: software engineering, 
+RSS update: 2020-12-17
+--->
