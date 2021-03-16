@@ -1,11 +1,14 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Introducing the 2021 BSSw Fellows](../../Articles/Blog/2020-12-2021BSSwFellowshipAnnouncement.md)
-- Display dates: 12/16/2020 - 01/03/2021
+- [NSF joins DOE in sponsorship of the BSSw Fellowship Program](../../Articles/Blog/2021-03-2021BSSwFellowshipNSFAnnouncement.md)
+- Display dates: 03/16/2021 - 04/16/2021
 
 
 <!--
+- [New blog article ... Introducing the 2021 BSSw Fellows](../../Articles/Blog/2020-12-2021BSSwFellowshipAnnouncement.md)
+- Display dates: 12/16/2020 - 04/16/2021
+
 - [Events at SC20 related to producing better scientific software ... Please join us there!](../../Events/SC20-sw-events.md)
 - Display dates: 10/29/2020 - 11/20/2020
 
