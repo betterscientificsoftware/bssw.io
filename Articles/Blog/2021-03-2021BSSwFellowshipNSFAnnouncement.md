@@ -2,11 +2,11 @@
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
 
-#### Publication date: March 15, 2021
+#### Publication date: March 16, 2021
 
 The BSSw Fellowship program is pleased to announce support from the National Science Foundation (NSF).  The additional funding will increase the 2021 class of Better Scientific Software (BSSw) Fellows from three to four Fellows and Honorable Mentions.
 
-The National Science Foundation (NSF) and DOE are leaders in advanced computing, pushing the growth of computational and data-enabled science and engineering as an essential driver of scientific and technological progress. Moreover, NSF and DOE researchers have developed a wide range of high-impact scientific software for advanced modeling, simulation, discovery, and analysis. 
+The National Science Foundation (NSF) and Department of Energy (DOE) are leaders in advanced computing, pushing the growth of computational and data-enabled science and engineering as an essential driver of scientific and technological progress. Moreover, NSF and DOE researchers have developed a wide range of high-impact scientific software for advanced modeling, simulation, discovery, and analysis. 
 
 The NSF partnership in sponsoring the BSSw Fellowship Program will enable a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering.  The BSSw Fellowship Program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity. 
 
@@ -68,7 +68,7 @@ Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-
 
 <!---
 Publish: yes
-RSS update: 2020-12-16
+RSS update: 2021-03-16
 Categories: collaboration
 Topics: projects and organizations
 Tags: bssw-article
