@@ -8,7 +8,7 @@ The BSSw Fellowship program is pleased to announce support from the National Sci
 
 The National Science Foundation (NSF) and Department of Energy (DOE) are leaders in advanced computing, pushing the growth of computational and data-enabled science and engineering as an essential driver of scientific and technological progress. Moreover, NSF and DOE researchers have developed a wide range of high-impact scientific software for advanced modeling, simulation, discovery, and analysis. 
 
-The NSF partnership in sponsoring the BSSw Fellowship Program will enable a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering.  The BSSw Fellowship Program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity. 
+The NSF partnership with DOE in sponsoring the BSSw Fellowship Program will enable a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering.  The BSSw Fellowship Program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity. 
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2021 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
 
@@ -60,7 +60,7 @@ The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to
 
 Stay tuned for more from the 2021 BSSw Fellows. 
 
-### Contribute to the BSSw Site
+### Contribute to the BSSw site
 Also, we want and need contributions from the international community for the BSSw site.  If you have expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).
 
 ### Author bio
