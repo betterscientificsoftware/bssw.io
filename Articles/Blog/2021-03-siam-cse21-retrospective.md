@@ -13,6 +13,8 @@ The 2021 SIAM Conference on Computational Science and Engineering (CSE21) took p
 
 The SIAM Computational Science and Engineering conference series has always been a good place to talk about *software*.  It starts with SIAM's "crowd-sourcing" approach to organizing many of its conferences -- the community is asked not to write and submit papers, but to organize multi-speaker sessions around topics of interest.  The organizers of the CSE conference series recognize the centrality of *software* to the practice of computational science and engineering, and they've always welcomed such topics.  While many workshops and conferences focus on new science, new algorithms, etc., at CSE it is also possible to hold discussions about the experience of software development and sustainability.  And this year, with the help of more than 60 presenters, the conversation around software was one of the most extensive we've seen.  There were seven software-focused "minisymposia", each including either five or ten speakers, as well as a topical group of posters, or "minisymposterium" put together by sixteen organizers.  For those who registered for CSE21, the minisymposia were recorded, and will be available through the vFairs conference platform until June.  **But for those who didn't register, we've collected the presentations and posters from these software-focused sessions to share with the community, and we'll link to them below.** (As of publication, the collections are mostly complete, and we will add the remaining presentations as quickly as we can.)
 
+Consider joining us in organizing software-focused sessions for future SIAM and other conferences.  Parallel Processing 2022 (PP22), the next conference in CSE's sister series, which alternates years with CSE, will be announced soon.  CSE23 has already been announced for late February 2023.  Look for the call for Minisymposium proposals to appear about 7-8 months in advance.
+
 ### Software Productivity and Sustainability for CSE
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321423](https://doi.org/10.6084/m9.figshare.c.5321423) | SIAM program pages: [MS30](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70085)
@@ -27,7 +29,7 @@ Stuart Yates, Swiss National Supercomputing Center<br>
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321426](https://doi.org/10.6084/m9.figshare.c.5321426) | SIAM program pages: [MS68](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70202)
 
-This session included and introduction to the [Better Scientific Software Fellowship program](https://bssw.io/pages/bssw-fellowship-program) and talks from several recent fellows describing their work.  The program helps expand the community of researchers contributing to the discussion about how to improve developer productivity and software sustainability of scientific codes.  The speakers in this session presented work on teaching scientific software development practices to those without experience in software development; assessing the state of the art in testing practices for scientific software and how to improve them; understanding and tuning floating point precision; and a modular course design for teaching graduate students best practices for development of research software.
+This minisymposium included an introduction to the [Better Scientific Software Fellowship program](https://bssw.io/pages/bssw-fellowship-program) and talks from several recent fellows describing their work.  The program helps expand the community of researchers contributing to the discussion about how to improve developer productivity and software sustainability of scientific codes.  The speakers in this session presented work on teaching scientific software development practices to those without experience in software development; assessing the state of the art in testing practices for scientific software and how to improve them; understanding and tuning floating point precision; and a modular course design for teaching graduate students best practices for development of research software.
 
 <!-- Hai Ah's original
 The Better Scientific Software (BSSw) Fellowship program fosters and promotes practices, processes and tools to improve developer productivity and software sustainability of scientific codes.  BSSw Fellows are chosen annually to develop a funded activity, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community that promotes BETTER scientific software. This minisymposium sets the stage by Hai Ah Nam, BSSw Fellowship Coordinator, presenting the BSSw Fellowship Program Overview, followed by four (4) BSSw Fellowship alumni sharing their work addressing a diverse range of scientific software topics:
@@ -47,7 +49,6 @@ Kyle E. Niemeyer, Oregon State University<br>
 Collected presentations DOI: [10.6084/m9.figshare.c.5321435](https://doi.org/10.6084/m9.figshare.c.5321435) | SIAM program pages: [MS94](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70102), [MS125](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70103)
 
 Sustainability of software is a major challenge for our community.  This session explored some of the highly varied strategies and approaches to building communities capable of sustaining given software packages.  Speakers addressed leadership strategies to encourage, enable, and empower contributors, recognizing and leveraging the fact that many R&D projects can be thought of as a "team of teams", and the value of particular practices, such as DevOps, the Agile retrospective, and community policies. Other speakers brought experiences with sustainable software from areas including computational molecular sciences, geophysics, subsurface flow, numerical libraries, and tools for code coupling and building and installing software.
-
 
 *Organizers*<br>
 David E. Bernholdt, Oak Ridge National Laboratory<br>
@@ -84,6 +85,12 @@ Kanika Sood, California State University, Fullerton<br>
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5325824](https://doi.org/10.6084/m9.figshare.c.5325824) | SIAM program pages: [MS251](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70274), [MS278](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70275)
 
+This minisymposium focused on the growing technical, practical, and social challenges in the productivity, quality and sustainability of research software. Speakers discussed case studies and principles of software sustainability, and the entrepreneurial nature of even *research* software; aspects pertaining to the people behind research software, including affinity groups, training, and diversity in software teams; and tools to assess and improve software sustainability.
+
+<!-- Rinku's original 
+The  “Enhancing Sustainability and Productivity for Research Software” two-part mini-symposium was presented at the  CSE21 conference. The focus of this mini-symposium was to delve into topics related to growing technical, practical, and social challenges in software productivity, quality, and sustainability for research software from the perspective of teams that build this software. The mini-symposium consisted of diverse speakers with varied backgrounds. Topics ranged from understanding principles of research software sustainability and presenting case studies consisting of well-known research software. Also presented were views on how to measure and improve research software quality and build training tools focusing on software development for researchers. The role of research software engineers  (RSE) in research software development; as well as views on how to enhance diversity in software engineering teams were also shared. Overall, the mini-symposium was a great learning resource for teams and individuals working with research software.
+-->
+
 *Organizers*<br>
 Rinku Gupta, Argonne National Laboratory<br>
 Sandra Gesing, University of Notre Dame<br>
@@ -107,7 +114,7 @@ Todd Gamblin, Lawrence Livermore National Laboratory<br>
 
 Collected presentations DOI: [](https://doi.org/10.6084/m9.figshare.c.5321432) | SIAM program pages: [PP7](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70380)
 
-This topical poster group provided an opportunity for researchers to present a broad range of topics in the broad area of software productivity and sustainability.  Contributions described a number of organizations and projects focused directly on these topics, while others presented tools and approaches to facilitate productivity and sustainability.  One poster examined the lessons on software sustainability learned from the decades-long history of a widely-used software tool in one scientific domain.
+This topical poster group provided an opportunity for researchers to present a range of topics in the broad area of software productivity and sustainability.  Contributions described a number of organizations and projects focused directly on these topics, while others presented tools and approaches to facilitate productivity and sustainability.  One poster examined the lessons on software sustainability learned from the decades-long history of a widely-used software tool in one scientific domain.
  
 *Organizers*<br>
 David E. Bernholdt, Oak Ridge National Laboratory<br>
