@@ -32,14 +32,14 @@ video such as using a personal kanban and occasionally syncing to paper.
 The video also suggests tools you can use to organize activities that might
 interrupt your productive software development time, but you would like to do
 later, such as using a service like *Instapaper* to organize sites to read
-later.  The video is entertaining and may even prompt me to get a pomodoro;
+later.  The video is entertaining and may even prompt you to get a pomodoro;
 watch the video to find out why.
 
 
 <!---
-Publish: preview 
+Publish: yes 
 Categories: Skills 
 Topics: Personal Productivity and Sustainability 
-RSS update: 2021-02-24
+RSS update: 2021-03-13
 --->
 
