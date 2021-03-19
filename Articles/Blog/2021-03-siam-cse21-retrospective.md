@@ -112,7 +112,7 @@ Todd Gamblin, Lawrence Livermore National Laboratory<br>
 
 ### Minisymposterium: Software Productivity and Sustainability for CSE
 
-Collected presentations DOI: [](https://doi.org/10.6084/m9.figshare.c.5321432) | SIAM program pages: [PP7](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70380)
+Collected presentations DOI: [10.6084/m9.figshare.c.5321432](https://doi.org/10.6084/m9.figshare.c.5321432) | SIAM program pages: [PP7](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70380)
 
 This topical poster group provided an opportunity for researchers to present a range of topics in the broad area of software productivity and sustainability.  Contributions described a number of organizations and projects focused directly on these topics, while others presented tools and approaches to facilitate productivity and sustainability.  One poster examined the lessons on software sustainability learned from the decades-long history of a widely-used software tool in one scientific domain.
  
