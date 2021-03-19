@@ -18,7 +18,7 @@ The main part of the event article consists of the (1) *Deck*, (2) *Main body* a
 All BSSw.io resources have a deck at the start of the article. The deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "events" and their decks.
 
 ### Deck text
-Deck text is usually a couple of lines about the event. No images are allowed in the event deck. For all other guidance on the deck text, please refer to the [common styling section](bssw_styling_common.html) of the guide.
+Deck text is usually a couple of lines about the event. No images are allowed in the event deck. Please keep the deck text timeline-neutral. That means: do not include words like “call for submissions”, "invited to submit" etc in the deck text. For all other guidance on the deck text, please refer to the [common styling section](bssw_styling_common.html) of the guide.
 
 ### Deck Attributes
 
