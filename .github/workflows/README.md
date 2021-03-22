@@ -21,7 +21,27 @@ Format:
     - trigger: pull request [opened, reopened] on preview branch
     - job: reject-pr
         - Attempts to open a PR against the preview branch are immediately closed and an explanatory comment is added to the PR.
-* 
+
+# Markdown Checks
+* Whole files can skip markdown checks with a comment of the form...
+  ```
+  <!-- BSSW_GITHUB_CI_IGNORE_MD_CHECKS -->
+  ```
+* Uses Node.JS tools (npm install)
+* [lint check](https://www.npmjs.com/package/markdownlint)
+  * Lint rules can be configured by a `.markdownlint.json` file at top of repo
+* [link check](https://www.npmjs.com/package/markdown-link-check)
+* [spell check](https://www.npmjs.com/package/markdown-spellcheck)
+  * global dictionary words can be placed in `.spelling` file at top of repo
+  * Per-file dictionary words can be specified by a comment block in the file of
+    the form...
+    ```
+    <!-- BSSW_GITHUB_CI_SPELLING_WORDS
+    word1
+    word2
+    -->
+    ```
+
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
 * Recreate preview branch.  Trigger manually
@@ -31,9 +51,6 @@ Format:
         - Merge PR to preview
 * Have not investigated possibilities for conflicts and how they should be handled.
 * Quality checks on content
-    - verify links
-    - check spelling
-    - markdown lint (are we too different for this to be useful?)
     - BSSw required elements
     - verify BSSw metadata (long ago, Will Mclendon wrote a script for this)
     - BSSw style
@@ -58,8 +75,4 @@ Format:
 * yellowmegaman/prtrigger
     - Make an empty commit to a PR to trigger synchronization actions
     - Doesn't seem to work for PRs from forks
-* Mark Miller has introduced some useful MD-related processing into some of his other projects
-    - There was some stuff document in the About file in earlier versions of the EB-docs.  Seems to have been removed now.
-    - <https://travis-ci.com/github/visit-dav/visit-website/builds/181169664> provides an example of what the logs look like when a spelling check fails
-    - <https://github.com/visit-dav/visit-website/blob/gh-pages/.travis.yml> invokes a linter, a spell checker, and a lnk checker
 * Long ago, Will Mclendon of SNL wrote a script to validate an article's metadata.  It would probably be useful to dust that off and update it.

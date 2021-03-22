@@ -1,0 +1,77 @@
+name: Markdown Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths: '**.md'
+
+jobs:
+  mdchecks:
+    name: Markdown Checks
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout the Repo 
+      uses: actions/checkout@v2
+
+    - name: Set up NodeJS
+      uses: actions/setup-node@v1
+
+    - name: Get MD files in this PR
+      uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        # Paths to files will be available in `filter_files` output variable.
+        list-files: shell
+        filters: |
+          markdown:
+            - added|modified: '*.md'
+
+      # This step filters the files further, removing from consideration any
+      # file that includes the string `BSSW_GITHUB_CI_IGNORE_MD_CHECKS` anywhere.
+      # The resulting list of files is available in `keep_files`.
+    - name: Skip Ignore Files
+      id: keep
+      run: |
+        mdfiles=""
+        for f in ${{ steps.filter.outputs.markdown_files }}; do 
+          if [ -n "$(grep BSSW_GITHUB_CI_IGNORE_MD_CHECKS $f)" ]; then
+            continue
+          fi
+          mdfiles="$mdfiles $f"
+        done
+        echo ::set-output name=keep_files::${mdfiles}
+
+    - name: Install MD Tools
+      if: ${{ steps.keep.outputs.keep_files != '' }}
+      run: |
+        npm install -g markdownlint-cli
+        npm install -g markdown-spellcheck
+        npm install -g markdown-link-check
+
+      # See https://www.npmjs.com/package/markdownlint
+      # Global lint rules can be set in .markdownlint.json at top of repo.
+    - name: Lint check
+      if: ${{ steps.keep.outputs.keep_files != '' }}
+      run: markdownlint ${{ steps.keep.outputs.keep_files }}
+
+      # See https://www.npmjs.com/package/markdown-link-check
+    - name: Link check
+      if: ${{ steps.keep.outputs.keep_files != '' }}
+      run: markdown-link-check ${{ steps.keep.outputs.keep_files }}
+
+      # See https://www.npmjs.com/package/markdown-spellcheck
+      # Any MD file can have file-specific words specified in an XML comment
+      # block beginning with <!-- BSSW_GITHUB_CI_SPELLING_WORDS. Words are
+      # taken, one per line, from such a comment block and stop with the
+      # terminating XML comment tag -->. A global list of spelling words is
+      # also taken from `.spelling` file a top of repo.
+    - name: Spell check
+      if: ${{ steps.keep.outputs.keep_files != '' }}
+      run: |
+        cp .spelling .spelling.orig
+        for f in ${{ steps.keep.outputs.keep_files }}; do 
+          sed -n '/^<\!-- BSSW_GITHUB_CI_SPELLING_WORDS/,/^-->/p' $f | grep -v -e '--' > .spelling
+          cat .spelling.orig >> .spelling
+          mdspell -a -n -r -x --en-us $f || exit 1
+        done
