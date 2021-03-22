@@ -27,6 +27,7 @@ Format:
   ```
   <!-- BSSW_GITHUB_CI_IGNORE_MD_CHECKS -->
   ```
+  beginning at column 0 anywhere in the file
 * Uses Node.JS tools (npm install)
 * [lint check](https://www.npmjs.com/package/markdownlint)
   * Lint rules can be configured by a `.markdownlint.json` file at top of repo
@@ -42,11 +43,11 @@ Format:
     -->
     ```
 * **NOTE:** Although the XML comment keywords that control MD checks do appear
-  in *this* file, since they are not anchored to the first column here, they
-  should have no effect. However, more to the to the point, since this `.md`
+  in *this* file, since they do not occure at the first column here, they
+  should have no effect. However, and more to the to the point, since this `.md`
   file appears in a path which includes a component name beginning with a dot,
-  it will not appear in the list of files to check unless `dot: true` is added
-  to the `mdchecks.yaml` file for the paths filter.
+  `.github/workflow/README.md`, it will not appear in the list of files to check
+  unless `dot: true` is added to the `mdchecks.yaml` file for the paths filter.
 
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
