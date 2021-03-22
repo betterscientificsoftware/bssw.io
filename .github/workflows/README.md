@@ -41,6 +41,9 @@ Format:
     word2
     -->
     ```
+* **NOTE:** Although the XML comment keywords that control MD checks do appear
+  in *this* file, since they are not anchored to the first column here, they
+  will have no effect.
 
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
