@@ -27,15 +27,17 @@ jobs:
           markdown:
             - added|modified: '*.md'
 
-      # This step filters the files further, removing from consideration any
-      # file that includes the string `BSSW_GITHUB_CI_IGNORE_MD_CHECKS` anywhere.
-      # The resulting list of files is available in `keep_files`.
+      # This step filters the list of files further, removing from consideration
+      # any file that includes the XML comment
+      # `<!-- BSSW_GITHUB_CI_IGNORE_MD_CHECKS -->` beginning on a first column
+      # anywhere in the file. The resulting list of files is available in
+      # `keep_files`.
     - name: Skip Ignore Files
       id: keep
       run: |
         mdfiles=""
         for f in ${{ steps.filter.outputs.markdown_files }}; do 
-          if [ -n "$(grep BSSW_GITHUB_CI_IGNORE_MD_CHECKS $f)" ]; then
+          if [ -n "$(grep '^<!-- BSSW_GITHUB_CI_IGNORE_MD_CHECKS -->' $f)" ]; then
             continue
           fi
           mdfiles="$mdfiles $f"
