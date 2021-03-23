@@ -168,12 +168,12 @@ entries in a table of references at the bottom of the document. Items in the tab
 references link off-page to their intended destinations. The resulting file is still
 GitHub flavored Markdown with a minimal amount of embedded HTML.
 
-For example, running script on this markdown file...
+For example, running this script on this markdown file...
 
-    ./wikize_refs.py ReferencesInMarkdownHybridApproach.md
+    ./wikize_refs.py -i ReferencesInMarkdownHybridApproach.md
 
 makes a backup of the original file to `ReferencesInMarkdownHybridApproach.md~` and
-then overwrites the original file. Use the `-i` option to skip this backup
+then overwrites the original file. Use the `-s` option to skip this backup
 operation.
 
 Comparing the [raw original](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md)
