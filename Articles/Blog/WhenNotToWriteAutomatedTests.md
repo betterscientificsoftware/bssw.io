@@ -121,6 +121,6 @@ Aggregate: none
 
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | [Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 ](https://bssw.io/items/working-effectively-with-legacy-code/)
+<a name="ref1"></a>1 | [Feathers, Michael C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 ](https://bssw.io/items/working-effectively-with-legacy-code/)
 <a name="ref2"></a>2 | [Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software ](https://doi.org/10.1109/eScience.2012.6404448)
 <!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from WhenNotToWriteAutomatedTests-src.md --->
