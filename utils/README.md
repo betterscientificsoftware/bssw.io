@@ -2,10 +2,24 @@
 
 ## wikize_refs.py
 
-The tool `wikize_refs.py` help to manage Github Favored Markdown
-references/citations in `*.md` files that are used on the bssw.io site.
+The tool `wikize_refs.py` helps to manage [Github Favored Markdown
+references/citations](https://betterscientificsoftware.github.io/bssw.io/bssw_styling_originalarticles.html#citationsreferences)
+in `*.md` files that are used on the bssw.io site.  This is typically run in
+place as:
 
-Run `./wikize_refs.py --help` for details.
+```
+$ ./wikize_refs.py -i <base>.md
+```
+
+but can also be run to produce an output document `<base>-gen.md` and not disturbing the input file `<base>.md` while debugging the citations/references using:
+
+```
+$ ./wikize_refs.py -o <base>-gen.md  <base>.md
+```
+
+Run `./wikize_refs.py --help` or see
+[here](https:../Articles/Blog/ReferencesInMarkdownHybridApproach.md) for more
+details.
 
 ## Testing the bssw.io utilties
 
