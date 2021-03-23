@@ -1,4 +1,3 @@
-<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from WhenNotToWriteAutomatedTests-src.md --->
 # When NOT to Write Automated Tests?
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
@@ -107,20 +106,21 @@ Aggregate: none
 
 <br>
 
-<!---
-[1]: https://bssw.io/items/working-effectively-with-legacy-code/ "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 {}"
-[2]: https://doi.org/10.1109/eScience.2012.6404448 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software {}"
+<!-- BEGIN ORIGINAL LINK DEFS
 
---->
-<br>
+[1]: https://bssw.io/items/working-effectively-with-legacy-code/ "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052"
+[2]: https://doi.org/10.1109/eScience.2012.6404448 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software"
 
+END ORIGINAL LINK DEFS -->
+
+<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
+
+<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
 [1]: #ref1 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052"
 [2]: #ref2 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software"
 
-<br>
-
+<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | [Feathers, Michael C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052 ](https://bssw.io/items/working-effectively-with-legacy-code/)
-<a name="ref2"></a>2 | [Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software ](https://doi.org/10.1109/eScience.2012.6404448)
-<!--- WARNING: DO NOT EDIT! Auto-generated with wikize_refs.py from WhenNotToWriteAutomatedTests-src.md --->
+<a name="ref1"></a>1 | [Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052](https://bssw.io/items/working-effectively-with-legacy-code/)
+<a name="ref2"></a>2 | [Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software](https://doi.org/10.1109/eScience.2012.6404448)
