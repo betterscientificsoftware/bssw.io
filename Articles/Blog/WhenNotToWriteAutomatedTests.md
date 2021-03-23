@@ -119,9 +119,11 @@ END ORIGINAL LINK DEFS -->
 <!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
 [1]: #ref1 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052"
 [2]: #ref2 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software"
+[3]: #ref3 "Roscoe A. Bartlett Software Engineering Reading List"
 
 <!--- TABLE OF REFS RENDERED AS MARKDOWN --->
 References | &nbsp;
 :--- | :---
 <a name="ref1"></a>1 | [Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052](https://bssw.io/items/working-effectively-with-legacy-code/)
 <a name="ref2"></a>2 | [Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software](https://doi.org/10.1109/eScience.2012.6404448)
+<a name="ref3"></a>3 | [Roscoe A. Bartlett Software Engineering Reading List](https://bartlettroscoe.github.io/reading-list/)
