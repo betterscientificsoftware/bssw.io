@@ -48,7 +48,7 @@ In addition to above, there exists a original content-specific deck attribute ca
 * The content of the article is free-flowing.
 * General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
 * BSSw.io uses [GitHub-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup
-* BSSw.io team encourages authors to point to a modest number of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an external resource with a short description.  Authors are welcome to prepare those as separate contributions, and BSSw.io team is happy to help.
+* BSSw.io team encourages authors to point to a modest number of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an external resource with a short description.  Authors are welcome to prepare those as separate contributions, and the BSSw.io team is happy to help.
 
 
 ### Structure of main body
