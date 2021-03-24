@@ -13,7 +13,7 @@ The 2021 SIAM Conference on Computational Science and Engineering (CSE21) took p
 
 The SIAM Computational Science and Engineering conference series has always been a good place to talk about *software*.  SIAM's crowd-sourcing approach to organizing many of its conferences encourages the community to submit to the conference multi-speaker sessions around topics of interest.  The organizers of the CSE conference series recognize the centrality of *software* to the practice of computational science and engineering, and they've always welcomed such topics.  While many workshops and conferences focus on new science and new algorithms, at CSE it is also possible to hold discussions about the experience of software development and sustainability.  And this year, with the help of sixteen organizeres and more than 60 presenters, the conversation around software was one of the most extensive we've seen.  There were seven software-focused minisymposia, each including either five or ten speakers, as well as a topical group of posters, or "minisymposterium."  For those who registered for CSE21, the minisymposia were recorded, and will be available through the vFairs conference platform until June 2021.  **In addition, we've collected the presentations and posters from these software-focused sessions to share with the broader community, as hyperlinked below.** 
 
-Consider joining us in organizing software-focused sessions for future SIAM and other conferences.  The 2022 SIAM Conference on Parallel Processing for Scientific Computiing (PP22), the next conference in CSE's sister series, which alternates years with CSE, will soon be announced.  CSE23 has already been announced for February 2023.  Look for the call for participation in SIAM conferences to appear about 9 months in advance of each event. 
+Consider joining us in organizing software-focused sessions for future SIAM and other conferences.  The 2022 SIAM Conference on Parallel Processing for Scientific Computiing (PP22)---the next conference in CSE's sister series, which alternates years with CSE---will soon be announced.  CSE23 has already been announced for February 2023.  Look for the call for participation in SIAM conferences to appear about 9-10 months in advance of each event. 
 
 ### Software Productivity and Sustainability for CSE
 
@@ -126,5 +126,5 @@ Shoaib Sufi, University of Manchester<br>
 Publish: preview
 Pinned: no
 Topics: conferences and workshops
-RSS update: 2021-03-17
+RSS update: 2021-03-29
 --->
