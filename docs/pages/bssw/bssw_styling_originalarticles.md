@@ -86,9 +86,8 @@ The decision to *allow* or *require* references is one that should be agreed upo
 
 * A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md)
 
+* A simple example of the usage of [formal citations/references](#citationsreferences) can be seen in in the file [WhenNotToWriteAutomatedTests.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/WhenNotToWriteAutomatedTests.md).
+
 * There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) to use as a starting point.
-
-
-
 
 {% include links.html %}
