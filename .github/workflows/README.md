@@ -9,12 +9,13 @@ Format:
         - description
 
 # Workflows in use
+
 * merge-master-to-preview.yml (Sync master to preview)
     - trigger: push to master branch
     - job: sync-preview
         - Merges from master into preview branch.
 * merge-pr-to-preview.yml (Sync pull request to preview)
-    - trigger: pull request [opened, synchronized] on master branch
+    - trigger: pull request [opened, synchronized, labeled] (only if has 'preview' label)
     - job: sync-pull-request
         - Merges PR into preview branch
 * no-prs-on-preview.yml (Reject pull requests on preview branch)

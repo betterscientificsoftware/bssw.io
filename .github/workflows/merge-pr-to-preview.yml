@@ -1,14 +1,17 @@
 name: Sync pull request to preview
 on:
   pull_request_target:
-    types: [opened, synchronize]
+    types: [opened, synchronize, labeled]
     branches:
       - master
 jobs:
   sync-pull-request:
+    if: contains(github.event.pull_request.labels.*.name, 'preview')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+        with:
+          ref: 'preview'  # Not default 'master' branch
       - name: Merge pr -> preview
         uses: devmasx/merge-branch@v1.3.0
         with:
@@ -16,3 +19,9 @@ jobs:
           head_to_merge: ${{ github.event.pull_request.head.sha }}
           target_branch: preview
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+# NOTE: Above, we use the 'if' statement for looking for the 'preview' label
+# and then only run the job if that label is found in the PR.  I tried using
+# the setting {label_name: 'preview'} for the `devmasx/merge-branch` action
+# above but it seemed to ignore it and try to merge the PR branch to 'preview'
+# anyway.
