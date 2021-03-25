@@ -32,9 +32,10 @@ def getMdFilePathFromCmndLine():
   return mdFilePath
 
 
-g_external_images_repo_str = \
-  "https://github.com/betterscientificsoftware/images/raw/master/"
-
+g_external_images_repo_str_list = [
+  "https://github.com/betterscientificsoftware/images/raw/master/",
+  "https://github.com/betterscientificsoftware/images/blob/master/",
+  ]
 
 def getRelImagesRefStr(dirDepth):
   relImagesRefStr = "images/"
@@ -55,7 +56,9 @@ def replaceImagesRef(mdFilePath):
   # Do replacements for the images ref
   fileContentsOutList = []
   for line in fileContentsInList:
-    newLine = line.replace(g_external_images_repo_str, localImagesRef)
+    newLine = line
+    for g_external_images_repo_str in g_external_images_repo_str_list:
+      newLine = newLine.replace(g_external_images_repo_str, localImagesRef)
     if newLine != line:
       print("Replacing line: "+line)
       print("With line     : "+newLine)
