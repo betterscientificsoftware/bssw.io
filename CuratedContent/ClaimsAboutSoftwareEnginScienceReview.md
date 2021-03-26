@@ -24,8 +24,6 @@ The paper provides a compilation of 66 studies related to scientific software de
 <!---
 Publish: yes
 Topics: software engineering, testing, revision control
-Tags: paper
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2019-07-20
 --->
