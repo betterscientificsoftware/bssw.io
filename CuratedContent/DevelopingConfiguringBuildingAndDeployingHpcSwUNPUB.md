@@ -25,8 +25,6 @@ For the full webinar series, see the following links: [Series: Best Practices fo
 <!---
 Publish: no
 Topics: configuration and builds, release and deployment
-Tags: 
-Level: 2
-Prerequisites: default
-Aggregate: stand-alone and subresource
+Pinned: no
+RSS update: 2018-05-14
 --->
