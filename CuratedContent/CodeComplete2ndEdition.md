@@ -27,8 +27,6 @@ While going through the book, the reader will find justifications for following 
 <!---
 Publish: yes
 Topics: refactoring, design
-Tags: book
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2019-07-28
 --->
