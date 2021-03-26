@@ -20,8 +20,6 @@ Good documentation plays an important role during the software development lifec
 <!---
 Publish: yes
 Topics: documentation
-Tags: tools
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
+RSS update: 2019-08-30
 --->
