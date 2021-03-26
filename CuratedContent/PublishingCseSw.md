@@ -115,8 +115,6 @@ sites which can provide a DOI for your software with little to no review:
 <!---
 Publish: yes
 Topics: software publishing and citation
-Tags: journal, service
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2019-10-16
 --->
