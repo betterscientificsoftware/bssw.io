@@ -39,8 +39,6 @@ The workshop organizers also welcome proposals for discussion topics. Proposals 
 <!---
 Publish: yes
 Topics: personal productivity and sustainability, projects and organizations
-Tags: conference
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
+RSS update: 2020-06-30
 --->
