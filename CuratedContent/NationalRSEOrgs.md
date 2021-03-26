@@ -22,8 +22,6 @@ Since the inception of the RSE movement in 2014, several organizations and assoc
 <!---
 Publish: yes
 Topics: Projects and organizations
-Tags: organization
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2019-04-05
 --->
