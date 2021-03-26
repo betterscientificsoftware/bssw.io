@@ -48,7 +48,5 @@ and an article that describes using gitlab for kanban.
 Publish: yes
 RSS update: 2020-06-26
 Topics: Personal Productivity and Sustainability 
-Level: 
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
 --->
