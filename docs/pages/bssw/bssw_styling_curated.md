@@ -6,6 +6,8 @@ permalink: bssw_styling_curated.html
 
 ## Introduction
 
+All GitHub file names for BSSw.io articles should follow the naming conventions laid out [here](https://betterscientificsoftware.github.io/bssw.io/bssw_file_naming.html).
+
 A Curated content is a brief article that highlights other web-based
 content/resources. The written article should describe why the CSE
 community might find value in the linked content. A curated content

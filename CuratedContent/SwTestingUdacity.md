@@ -23,10 +23,7 @@ When writing software, destruction can be just as valuable as creation. The cour
 
 <!---
 Publish: yes
-Categories: Reliability, skills
 Topics: testing
-Tags: training, video
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2019-08-01
 --->

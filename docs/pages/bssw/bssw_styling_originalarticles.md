@@ -6,6 +6,8 @@ permalink: bssw_styling_originalarticles.html
 
 ## Introduction
 
+All GitHub file names for BSSw.io articles should follow the naming conventions laid out [here](https://betterscientificsoftware.github.io/bssw.io/bssw_file_naming.html).
+
 An original article can highlight the following 2 types of resources: **(1) Blogs, (2) Short article.**
 
 The main part of the original article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. 

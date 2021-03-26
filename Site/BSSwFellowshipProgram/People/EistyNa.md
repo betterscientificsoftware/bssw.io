@@ -10,7 +10,7 @@
 
 **LinkedIn:** https://www.linkedin.com/in/nasir-uddin-eisty-492830a9/
 
-**Github:** 
+**Github:** https://github.com/neisty
 
 **Short Bio:** Automating testing in scientific software
 

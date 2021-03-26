@@ -36,8 +36,8 @@ Applications are now closed for the 2021 BSSw Fellowship Program. Check back in 
 
 ### More Information
 
-- [2020 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2020-bssw-fellows) ... Read about the 2020 BSSw Fellows.
-- [2019 BSSw Fellows: Projects and Perspectives](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle) ... Read about work of the 2019 BSSw Fellows and their perspectives on the program.
+- Read about the [2021 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2021-bssw-fellows) and the [2020 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2020-bssw-fellows)
+- Read about work of the [2019 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle)  
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq) ... Check back for updates; we will post additional Q&A here as these arise.
 - If you have additional questions, please contact us at <info@bssw.io>.
 
@@ -45,3 +45,20 @@ Applications are now closed for the 2021 BSSw Fellowship Program. Check back in 
 - [2019 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2019-bssw-fellows) ... Read about the 2019 BSSw Fellows.
 - [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives) ... Read about work of the 2018 BSSw Fellows and their perspectives on the program.
 -->
+
+
+<br>
+
+**The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_DOE_Unofficial_Sm.png' class='logo' /> 
+</div>  
+
+<div class='img_div'>
+  <img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_NSF_4ColorB_Sm.png' class='logo' /> 
+</div>  
+</div>
+
+

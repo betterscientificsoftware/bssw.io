@@ -48,7 +48,7 @@ And 2020 wraps! What a year it has been!  I would like to take this opportunity 
 - [The Collegeville Workshop Series on Scientific Software](https://bssw.io/items/the-collegeville-workshop-series-on-scientific-software), M. Heroux
 - [A Collection of Resources for Sustaining Open Source Software](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software), T. Gamblin
 - [The RSE-HPC-2020 Workshop: Creating Community, Building Careers, Addressing Challenges](https://bssw.io/blog_posts/the-rse-hpc-2020-workshop-creating-community-building-careers-addressing-challenges), C. Ferenbaugh, S. Gesing, S. Hettrick and D. Katz
-- [Scientific Software Bloggers Worth Following](https://bssw.io/items/scientific-software-bloggers-worth-following), D. Bernholdt
+- [Scientific Software Bloggers and Podcasts Worth Following](https://bssw.io/items/scientific-software-bloggers-and-podcasts-worth-following), D. Bernholdt
 - [Increasing Productivity by Broadening Participation in Scientific Software Communities](https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities), M. A. Leung, D. Rouson and L.C McInnes
 - [The Four Pillars of Research Software Engineering](https://bssw.io/items/the-four-pillars-of-research-software-engineering), R. Gupta
 - [2019 BSSw Fellows Guide Developers through Each Stage of the Scientific Software Lifecycle](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle), H. A. Nam, R. Gassmoeller, I. Laguna, T. Malik and K. Niemeyer
@@ -67,12 +67,8 @@ Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She h
 
 <!---
 Publish: yes
+Pinned: no
 RSS Update: 2021-01-07
-Categories: collaboration
 Topics: projects and organizations
-Tags: bssw-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->
 

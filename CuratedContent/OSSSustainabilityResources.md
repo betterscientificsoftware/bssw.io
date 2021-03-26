@@ -128,10 +128,7 @@ The *[Ford Foundation](https://www.fordfoundation.org)* has [grants](https://www
 
 <!---
 Publish: yes
-Categories: Collaboration
 Topics: Licensing, Strategies for more effective teams, Funding sources and programs
-Tags: document, website, book, organization, funding-program, funding-agency
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2020-11-24
 --->
