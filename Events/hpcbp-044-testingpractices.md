@@ -34,9 +34,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 
 <!---
 Publish: yes
-Categories: skills
 Topics: online learning
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
+RSS update: 2020-08-09
 --->
