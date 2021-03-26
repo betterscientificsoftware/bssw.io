@@ -57,8 +57,5 @@ Elaine Raybourn is a social scientist who has worked remotely for a combined tot
 Publish: yes
 RSS update: 2020-05-13
 Topics: personal productivity and sustainability, strategies for more effective teams
-Tags: panel
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
