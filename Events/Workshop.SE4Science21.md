@@ -41,4 +41,5 @@ For deadlines, important dates and updates, please visit the [SE4Science'21](htt
 Publish: yes
 RSS update: 2020-12-22
 Topics: conferences and workshops
+Pinned: no
 --->
