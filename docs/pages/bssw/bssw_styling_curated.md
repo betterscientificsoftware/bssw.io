@@ -36,8 +36,7 @@ Deck text is usually a couple of lines about the content. Follow the guidance in
 ### Deck attributes
 
 The deck for curated content contains the title of the article,
-deck text, contributor names, BSSw.io
-categories and topics that the article falls under. These are all
+deck text, contributor names, and BSSw.io topics that the article falls under. These are all
 mandatory deck attributes and apply to all content on BSSw.io. 
 
 * **Deck title**: Refer to [common styling section](bssw_styling_common.html)
@@ -52,7 +51,7 @@ content for inclusion on the BSSw site. In case of unresolved
 ambiguity, please use "BSSw.io team" as an author with no github
 url (Example*: `#### Contributed by BSSw.io team`).
 
-* **BSSw Categories**, **BSSw Topics**: Refer to [common styling section](bssw_styling_common.html) of the guide.
+* **BSSw Topics**: Refer to [common styling section](bssw_styling_common.html) of the guide.
 
 In addition to above, there exists a curated content-specific deck attribute called **Deck publication date**.
 * **Deck Publication date**
