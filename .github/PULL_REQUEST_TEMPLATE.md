@@ -40,9 +40,11 @@ Addresses issue #`<issue-id>`
 * [ ] Rebuild [preview] site and re-confirm content looks correct.
 * [ ] Ensure at least one reviewer signs off on the final changes.
 * [ ] Change meta-data to `Publish: yes` and commit if fully ready to publish.
-* [ ] Merge this PR (but keep PR in "Item Review" in [content development]).
-* [ ] Verify new contribution shows up on [bssw.io] as expected.
-* [ ] Move this PR from "Item Review" to "Done".
+* [ ] Move the PR to "Ready to Publish" in [content development].
+* [ ] Assign to one of the site maintainers to carry out final publication steps.
+* [ ] Verify that all needed files are present in the PR (article, images, updates to Site/Homepage.md carousel and/or Site/Announcements/Announcements.md as appropriate).
+* [ ] Merge PR. Should automatically move to "Done" in [content development].
+* [ ] Verify new new contribution shows up on [bssw.io] as expected.
 REMOVE THIS COMMENT MARKER IF USING ABOVE CHECKLIST -->
 
 
@@ -68,9 +70,11 @@ REMOVE THIS COMMENT MARKER IF USING ABOVE CHECKLIST -->
 * [ ] Rebuild [preview] site and re-confirm content looks correct.
 * [ ] Ensure at least one reviewer signs off on the final changes.
 * [ ] Change meta-data to `Publish: yes` and commit if fully ready to publish.
-* [ ] Merge this PR (but keep PR in "Item Review" in [content development]).
-* [ ] Verify new contribution shows up on [bssw.io] as expected.
-* [ ] Move this PR from "Item Review" to "Done".
+* [ ] Move the PR to "Ready to Publish" in [content development].
+* [ ] Assign to one of the site maintainers to carry out final publication steps.
+* [ ] Verify that all needed files are present in the PR (article, images, updates to Site/Homepage.md carousel and/or Site/Announcements/Announcements.md as appropriate).
+* [ ] Merge PR. Should automatically move to "Done" in [content development].
+* [ ] Verify new new contribution shows up on [bssw.io] as expected.
 REMOVE THIS COMMENT MARKER IF USING ABOVE CHECKLIST -->
 
 
