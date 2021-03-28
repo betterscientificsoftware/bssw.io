@@ -55,7 +55,8 @@ is that anything automated with GitHub Actions will likely work only on GitHub a
 nowhere else. In fact, it is often difficult even to test
 [GitHub Action workflows locally](https://github.com/nektos/act). Depending on the kind
 of activity to be automated, it may be best for a project to minimize dependence on
-GitHub Actions and implement the majority of work as a single job shell or python script.
+GitHub Actions and implement the majority of work as a single job workflow that invokes
+a shell or python script.
 
 <!---
 Publish: review 
