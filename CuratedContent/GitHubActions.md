@@ -30,30 +30,29 @@ and its repository(s).
 
 The naming is a bit confusing because *Actions* is used both in the name of the service,
 *GitHub Actions*, and in the name of a key building block used in that service, *Actions*,
-which are typically found in the [actions marketplace](https://github.com/marketplace?type=actions).
+typically taken from the [marketplace](https://github.com/marketplace?type=actions).
+However, the overarching abstraction is a
+[*workflow*](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#understanding-the-workflow-file)
+defined by Yaml files in the `.github/workflows` of a GitHub repository. A workflow is
+[*triggered*](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
+by various events in a repository and *uses* [*actions*](https://github.com/marketplace?type=actions)
+in preparation for executing one or more *jobs*, with whatever synchrony is needed.
 
-The top-level concept is called a *workflow*. Yaml files in `.github/workflows` define
-[*workflows*](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#understanding-the-workflow-file);
-a set of *jobs* to be performed with whatever synchrony is desired. In turn, jobs
-often use [*actions* from the marketplace](https://github.com/marketplace?type=actions)
-to perform work in response to various [*trigger*](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
-events in the repository. GitHub directly provides the compute resources needed to 
-run the workflows.
-
-Typically, the Yaml *scripts* you develop to define workflows involve a combination
-of [GitHub-defined yaml structure and keywords](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions),
+Typically, the Yaml *scripts* defining workflows involve a combination of
+[GitHub-defined yaml structure and keywords](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions),
 [*actions* from the marketplace](https://github.com/marketplace?type=actions),
-which may require minor customizations, and minimal amounts of python or shell code.
+which may need minor customizations, and minimal amounts of python or shell code.
+In this respect, GitHub Actions are similar to [GitLab's CI/CD](https://docs.gitlab.com/ee/ci/).
 
 Although GitHub's [REST API](https://docs.github.com/en/rest/reference) has long
 provided the functionality needed for projects to script up almost any workflow they
-may wish, *Actions* represent an easy to use and more convenient abstraction.
-However, one price to pay for this convenience is that any tasks automated with GitHub
-Actions will likely work only on GitHub and nowhere else. In fact, it is often difficult
-to even test [GitHub Action workflows locally](https://github.com/nektos/act).
-Depending on the kind of activity to be automated, it may be best for a project to 
-minimize its use dependence on GitHub actions and codify the majority of work as a
-shell or python script the action calls.
+may wish, [*Actions*](https://docs.github.com/en/actions/reference) represent an easier
+to use and more convenient abstraction. However, one price to pay for this convenience
+is that anything automated with GitHub Actions will likely work only on GitHub and
+nowhere else. In fact, it is often difficult even to test
+[GitHub Action workflows locally](https://github.com/nektos/act). Depending on the kind
+of activity to be automated, it may be best for a project to minimize dependence on
+GitHub Actions and implement the majority of work as a single job shell or python script.
 
 <!---
 Publish: review 
