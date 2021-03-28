@@ -33,16 +33,17 @@ The naming is a bit confusing because *Actions* is used both in the name of the 
 typically taken from the [marketplace](https://github.com/marketplace?type=actions).
 However, the overarching abstraction is a
 [*workflow*](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#understanding-the-workflow-file)
-defined by Yaml files in the `.github/workflows` of a GitHub repository. A workflow is
+defined by Yaml files in the `.github/workflows` of a GitHub repository.
+In this respect, GitHub Actions are similar to [GitLab's CI/CD](https://docs.gitlab.com/ee/ci/).
+
+A workflow is
 [*triggered*](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
 by various events in a repository and *uses* [*actions*](https://github.com/marketplace?type=actions)
 in preparation for executing one or more *jobs*, with whatever synchrony is needed.
-
 Typically, the Yaml *scripts* defining workflows involve a combination of
 [GitHub-defined yaml structure and keywords](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions),
 [*actions* from the marketplace](https://github.com/marketplace?type=actions),
 which may need minor customizations, and minimal amounts of python or shell code.
-In this respect, GitHub Actions are similar to [GitLab's CI/CD](https://docs.gitlab.com/ee/ci/).
 
 Although GitHub's [REST API](https://docs.github.com/en/rest/reference) has long
 provided the functionality needed for projects to script up almost any workflow they
