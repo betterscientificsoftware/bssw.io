@@ -26,8 +26,8 @@ GitHub introduced [*Actions*](https://github.com/features/actions) in 2018.
 > You can discover, create, and share actions to perform any job you'd like,
 > including CI/CD, and combine actions in a completely customized workflow.
 
-They are often described in the context of [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
-workflows. However, that is not all they are good for. GitHub Actions are
+The service is often described in the context of [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
+workflows. However, that is not all the service is good for. GitHub Actions is
 designed to support automation of all kinds of tasks associated with a software project
 and its repository(s).  
 
@@ -44,17 +44,18 @@ A workflow is
 by various events in a repository and *uses* [*actions*](https://github.com/marketplace?type=actions)
 in preparation for executing one or more *jobs*, with whatever synchrony is needed.
 Typically, the Yaml *scripts* defining workflows involve a combination of
-[GitHub-defined yaml structure and keywords](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions),
-[*actions* from the marketplace](https://github.com/marketplace?type=actions)
-and minimal amounts of python or shell code.
-In advanced cases, marketplace actions may be customized or wholly new actions may
+GitHub-defined [yaml](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
+keywords and syntax,
+[*actions*](https://github.com/marketplace?type=actions) from the marketplace
+and minimal amounts of python or shell code. In advanced cases, marketplace actions may be
+customized or wholly new actions may
 be implemented using either [JavaScript or Docker Containers](https://docs.github.com/en/actions/reference).
 
 Although GitHub's [REST API](https://docs.github.com/en/rest/reference) has long
 provided the functionality needed for projects to script up almost any workflow they
 may wish, [*Actions*](https://docs.github.com/en/actions/reference) were introduced
 with the goal of providing an easier to use and more convenient interface. Whether
-that goal was achieved is debatable.  Certainly, one price to pay for this convenience
+that goal was achieved may be debatable.  Certainly, one price to pay for this convenience
 is that anything automated with GitHub Actions will likely work only on GitHub and
 nowhere else. In fact, it is often difficult even to test
 [GitHub Action workflows locally](https://github.com/nektos/act). Depending on the kind
@@ -63,7 +64,7 @@ Actions by using a single-job workflow that invokes a shell or python script whe
 the majority of actual automation work is implemented.
 
 <!---
-Publish: review 
+Publish: preview 
 RSS update: 2021-03-31
 Categories: Development, Productivity
 Topics: testing
