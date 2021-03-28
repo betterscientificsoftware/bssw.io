@@ -49,14 +49,15 @@ be implemented using either [JavaScript or Docker Containers](https://docs.githu
 
 Although GitHub's [REST API](https://docs.github.com/en/rest/reference) has long
 provided the functionality needed for projects to script up almost any workflow they
-may wish, [*Actions*](https://docs.github.com/en/actions/reference) represent an easier
-to use and more convenient abstraction. However, one price to pay for this convenience
+may wish, [*Actions*](https://docs.github.com/en/actions/reference) were introduced
+with the goal of providing an easier to use and more convenient interface. Whether
+that goal was achieved is debatable.  Certainly, one price to pay for this convenience
 is that anything automated with GitHub Actions will likely work only on GitHub and
 nowhere else. In fact, it is often difficult even to test
 [GitHub Action workflows locally](https://github.com/nektos/act). Depending on the kind
 of activity to be automated, it may be best for a project to minimize dependence on
-GitHub Actions and implement the majority of work as a single job workflow that invokes
-a shell or python script.
+Actions by using a single-job workflow that invokes a shell or python script where
+the majority of actual automation work is implemented.
 
 <!---
 Publish: review 
