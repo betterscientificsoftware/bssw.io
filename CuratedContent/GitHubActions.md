@@ -14,6 +14,9 @@ Resource information | Details
 Web Page | [Getting Started with GitHub Actions](https://itnext.io/getting-started-with-github-actions-fe94167dbc6d)
 Authors | Daniel Weibel
 Publication | June, 2020, 16 min. read
+
+Resource information | Details 
+:--- | :--- 
 Web Page | [Getting the Gist of Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 Authors | [Brendon Smith](https://gist.github.com/br3ndonland)
 Publication | August, 2020
