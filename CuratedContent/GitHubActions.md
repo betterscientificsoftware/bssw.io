@@ -45,7 +45,7 @@ Typically, the Yaml *scripts* defining workflows involve a combination of
 [*actions* from the marketplace](https://github.com/marketplace?type=actions)
 and minimal amounts of python or shell code.
 In advanced cases, marketplace actions may be customized or wholly new actions may
-be implemented using either JavaScript or Docker Containers.
+be implemented using either [JavaScript or Docker Containers](https://docs.github.com/en/actions/reference).
 
 Although GitHub's [REST API](https://docs.github.com/en/rest/reference) has long
 provided the functionality needed for projects to script up almost any workflow they
