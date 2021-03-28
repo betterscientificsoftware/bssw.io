@@ -1,4 +1,4 @@
-# GitHub Actions for Repo Event Automation
+# GitHub Actions for Automation
 
 <!--deck text start-->
 From reminding reviewers of languishing PRs to packaging up release assets,
@@ -30,7 +30,7 @@ and its repository(s).
 
 The naming is a bit confusing because *Actions* is used both in the name of the service,
 *GitHub Actions*, and in the name of a key building block used in that service, *Actions*,
-typically taken from the [marketplace](https://github.com/marketplace?type=actions).
+typically found in the [marketplace](https://github.com/marketplace?type=actions).
 However, the overarching abstraction is a
 [*workflow*](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#understanding-the-workflow-file)
 defined by Yaml files in the `.github/workflows` of a GitHub repository.
@@ -42,8 +42,10 @@ by various events in a repository and *uses* [*actions*](https://github.com/mark
 in preparation for executing one or more *jobs*, with whatever synchrony is needed.
 Typically, the Yaml *scripts* defining workflows involve a combination of
 [GitHub-defined yaml structure and keywords](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions),
-[*actions* from the marketplace](https://github.com/marketplace?type=actions),
-which may need minor customizations, and minimal amounts of python or shell code.
+[*actions* from the marketplace](https://github.com/marketplace?type=actions)
+and minimal amounts of python or shell code.
+In advanced cases, marketplace actions may be customized or wholly new actions may
+be implemented using either JavaScript or Docker Containers.
 
 Although GitHub's [REST API](https://docs.github.com/en/rest/reference) has long
 provided the functionality needed for projects to script up almost any workflow they
