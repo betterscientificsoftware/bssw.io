@@ -3,7 +3,7 @@
 <!--deck text start-->
 From reminding reviewers of languishing PRs to packaging up release assets,
 you can use GitHub Actions to automate all sorts of activities, not just CI,
-in response to various events in your GitHub repos.
+in response to various events in your GitHub repositories.
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
@@ -13,33 +13,30 @@ Resource information | Details
 :--- | :--- 
 Web Page | [Getting Started with GitHub Actions](https://itnext.io/getting-started-with-github-actions-fe94167dbc6d)
 Authors | Daniel Weibel
-Publication | June, 2020, 16 min. read
+Focus | Version control, Automated actions
 
 Resource information | Details 
 :--- | :--- 
 Web Page | [Getting the Gist of Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 Authors | [Brendon Smith](https://gist.github.com/br3ndonland)
-Publication | August, 2020
+Focus | Version control, Automated actions
 
 GitHub introduced [*Actions*](https://github.com/features/actions) in 2018.
 
 > You can discover, create, and share actions to perform any job you'd like,
 > including CI/CD, and combine actions in a completely customized workflow.
 
-The service is often described in the context of [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
-workflows. However, that is not all the service is good for. GitHub Actions is
-designed to support automation of all kinds of tasks associated with a software project
-and its repository(s).  
+The above web resources, *Getting Started with GitHub Actions* and *Getting the Gist of Actions*, provide a good starting point and overview of *GitHub Actions* service.
 
-The naming is a bit confusing because *Actions* is used both in the name of the service,
-*GitHub Actions*, and in the name of a key building block used in that service, *Actions*,
+The GitHub Actions service is often described in the context of [Continuous Integration/Continuous Delivery-Deployment (CI/CD)](https://en.wikipedia.org/wiki/CI/CD)
+workflows. However, GitHub Actions, can go beyond this, and is designed to support automation of all kinds of tasks associated with a software project
+and its repository(s). The naming is a bit confusing because *Actions* is used both in the (1) name of the service,
+*GitHub Actions*, and (2) name of a key building block used in that service, *Actions*,
 typically found in the [marketplace](https://github.com/marketplace?type=actions).
-However, the overarching abstraction is a
-[*workflow*](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#understanding-the-workflow-file)
-defined by Yaml files in the `.github/workflows` of a GitHub repository.
-In this respect, GitHub Actions are similar to [GitLab's CI/CD](https://docs.gitlab.com/ee/ci/).
 
-A workflow is
+To delve a bit more into GitHub Actions - 
+
+The overarching abstraction, with GitHub Actions, is a [*workflow*](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#understanding-the-workflow-file) defined by Yaml files in the `.github/workflows` of a GitHub repository. In this respect, GitHub Actions are similar to [GitLab's CI/CD](https://docs.gitlab.com/ee/ci/). A workflow is
 [*triggered*](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
 by various events in a repository and *uses* [*actions*](https://github.com/marketplace?type=actions)
 in preparation for executing one or more *jobs*, with whatever synchrony is needed.
