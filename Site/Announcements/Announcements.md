@@ -1,11 +1,14 @@
 # BSSw Announcements
 
 Announcement:
-- [NSF joins DOE in sponsorship of the BSSw Fellowship Program](../../Articles/Blog/2021-03-2021BSSwFellowshipNSFAnnouncement.md)
-- Display dates: 03/16/2021 - 04/16/2021
+- [Join us for the ECP Community BOF days (Mar 30 - Apr 1)](../../Events/2021-03-ECP21-BOF.md)
+- Display dates: 03/29/2021 - 04/01/2021
 
 
 <!--
+- [NSF joins DOE in sponsorship of the BSSw Fellowship Program](../../Articles/Blog/2021-03-2021BSSwFellowshipNSFAnnouncement.md)
+- Display dates: 03/16/2021 - 04/16/2021
+-
 - [New blog article ... Introducing the 2021 BSSw Fellows](../../Articles/Blog/2020-12-2021BSSwFellowshipAnnouncement.md)
 - Display dates: 12/16/2020 - 04/16/2021
 
