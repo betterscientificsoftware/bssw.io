@@ -5,14 +5,16 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: blog_posts/a-look-at-software-focused-topics-at-siam-cse21
 Slide1 R: images/raw/master/Blog_0321_Siam.png
+Slide2 L: blog_posts/nsf-sponsored-2021-bssw-fellows
 Slide2 R: events/2021-exascale-computing-project-community-bof-days
-Slide2 R: events/the-collaborations-workshop-2021-cw21
-Slide3 L: blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects
-Slide3 R: images/raw/master/Blog_0221_MediumDistrib.jpg
-Slide4 L: items/pull-request-size-matters
-Slide4 R: items/working-within-multiple-git-branches-simultaneously
-Slide5 L: blog_posts/when-not-to-use-agile-in-scientific-software-development
-Slide5 R: images/raw/master/Blog_0221_Agile.png
+Slide3 L: items/github-actions-for-automation
+Slide3 R: items/scaling-yourself-as-a-software-developer
+Slide4 L: blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects
+Slide4 R: images/raw/master/Blog_0221_MediumDistrib.jpg
+Slide5 L: items/pull-request-size-matters
+Slide5 R: events/events/webinar-a-workflow-for-increasing-the-quality-of-scientific-software
+Slide6 L: events/international-workshop-on-practical-reproducible-evaluation-of-systems-p-recs-21
+Slide6 R: events/the-collaborations-workshop-2021-cw21
 --->
 
 <!---
