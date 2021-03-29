@@ -25,10 +25,7 @@ Licensing is an important topic that needs attention right from the inception ti
 
 <!---
 Publish: yes
-Categories: collaboration
 Topics: licensing
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2019-07-20
 --->

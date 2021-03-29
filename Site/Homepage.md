@@ -20,8 +20,8 @@ Slide6 R: events/the-collaborations-workshop-2021-cw21
 <!---
 Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
 LCM: Saving for use again later
-Slide4 L: blog_posts/better-scientific-software-2020-highlights
-Slide4 R: images/raw/master/Blog_0121_Montage.png
+Slide4 L: blog_posts/when-not-to-use-agile-in-scientific-software-development
+Slide4 R: images/raw/master/Blog_0221_Agile.png
 --->
 
 <!---
