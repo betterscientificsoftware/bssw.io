@@ -34,8 +34,8 @@ Addresses issue #`<issue-id>`
 * [ ] Add one or more Reviewers.
 * [ ] Add [meta-data] to the `*.md` file(s) (set `Publish: preview`).
 * ~~[ ] Ensure `wikize_refs.py -i <base>.md` is run and commit (if using [wikize_refs.py])~~.
-* [ ] Rebuild [preview] site and confirm new content is there, renders correctly and is returned in searches.
 * [ ] Add label `preview` (so PR branch will be merged to 'preview' branch and watch for possible merge failures).
+* [ ] Rebuild [preview] site and confirm new content is there, renders correctly and is returned in searches.
 * [ ] Make any final changes to the PR based on feedback.
 * ~~[ ] Ensure `wikize_refs.py -i <base>.md` is run and commit (if using [wikize_refs.py]).~~
 * [ ] Rebuild [preview] site and re-confirm content looks correct.
