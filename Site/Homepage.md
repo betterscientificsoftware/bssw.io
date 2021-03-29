@@ -6,14 +6,14 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects
 Slide1 R: images/raw/master/Blog_0221_MediumDistrib.jpg
-Slide2 L: items/pull-request-size-matters
-Slide2 R: items/working-within-multiple-git-branches-simultaneously
+Slide2 L: items/github-actions-for-automation
+Slide2 R: items/scaling-yourself-as-a-software-developer
 Slide3 L: blog_posts/when-not-to-use-agile-in-scientific-software-development
 Slide3 R: images/raw/master/Blog_0221_Agile.png
-Slide4 L: events/panel-how-does-remote-work-impact-creativity-and-innovation
+Slide4 L: events/events/webinar-a-workflow-for-increasing-the-quality-of-scientific-software
 Slide4 R: events/2021-exascale-computing-project-community-bof-days
-Slide5 L: events/the-collaborations-workshop-2021-cw21
-Slide5 R: events/webinar-a-workflow-for-increasing-the-quality-of-scientific-software
+Slide5 L: events/international-workshop-on-practical-reproducible-evaluation-of-systems-p-recs-21
+Slide5 R: events/the-collaborations-workshop-2021-cw21
 --->
 
 <!---
