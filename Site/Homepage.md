@@ -2,18 +2,19 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
-
 <!---
-Slide1 L: blog_posts/nsf-sponsored-2021-bssw-fellows
-Slide1 R: events/2021-exascale-computing-project-community-bof-days
-Slide2 L: items/github-actions-for-automation
-Slide2 R: items/scaling-yourself-as-a-software-developer
-Slide3 L: blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects
-Slide3 R: images/raw/master/Blog_0221_MediumDistrib.jpg
-Slide4 L: items/pull-request-size-matters
-Slide4 R: events/events/webinar-a-workflow-for-increasing-the-quality-of-scientific-software
-Slide5 L: events/international-workshop-on-practical-reproducible-evaluation-of-systems-p-recs-21
-Slide5 R: events/the-collaborations-workshop-2021-cw21
+Slide1 L: blog_posts/a-look-at-software-focused-topics-at-siam-cse21
+Slide1 R: images/raw/master/Blog_0321_Siam.png
+Slide2 L: blog_posts/nsf-sponsored-2021-bssw-fellows
+Slide2 R: events/2021-exascale-computing-project-community-bof-days
+Slide3 L: items/github-actions-for-automation
+Slide3 R: items/scaling-yourself-as-a-software-developer
+Slide4 L: blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects
+Slide4 R: images/raw/master/Blog_0221_MediumDistrib.jpg
+Slide5 L: items/pull-request-size-matters
+Slide5 R: events/events/webinar-a-workflow-for-increasing-the-quality-of-scientific-software
+Slide6 L: events/international-workshop-on-practical-reproducible-evaluation-of-systems-p-recs-21
+Slide6 R: events/the-collaborations-workshop-2021-cw21
 --->
 
 <!---
