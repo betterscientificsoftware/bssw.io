@@ -13,13 +13,13 @@ Resource information | Details
 :--- | :--- 
 Web Page | [Getting Started with GitHub Actions](https://itnext.io/getting-started-with-github-actions-fe94167dbc6d)
 Authors | Daniel Weibel
-Focus | Version control, Automated actions
+Focus | Version control, Testing
 
 Resource information | Details 
 :--- | :--- 
 Web Page | [Getting the Gist of Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 Authors | [Brendon Smith](https://gist.github.com/br3ndonland)
-Focus | Version control, Automated actions
+Focus | Version control, Testing
 
 GitHub introduced [*Actions*](https://github.com/features/actions) in 2018.
 
@@ -63,7 +63,6 @@ the majority of actual automation work is implemented.
 <!---
 Publish: preview 
 RSS update: 2021-03-31
-Categories: Development, Productivity
-Topics: testing
+Topics: testing, revision control
 --->
 
