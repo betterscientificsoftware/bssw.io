@@ -63,8 +63,9 @@ Actions by using a single-job workflow that invokes a shell or python script whe
 the majority of actual automation work is implemented.
 
 <!---
-Publish: preview 
-RSS update: 2021-03-31
+Publish: yes 
+Pinned: no
+RSS update: 2021-03-29
 Topics: testing, revision control
 --->
 
