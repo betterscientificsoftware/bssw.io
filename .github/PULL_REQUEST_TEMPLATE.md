@@ -47,7 +47,7 @@ Addresses issue #`<issue-id>`
 * [ ] Merge PR. Should automatically move to "Done" in [Content Development].
 * [ ] Verify new new contribution shows up on [bssw.io] as expected.
 
-NOTE: Optional checklist items can be striked out with adding `~~` to beginning and end of the checklist item as `* ~~[ ] <checklist-item>~~`.
+NOTE: Optional checklist items can be striked out with adding `~~` to beginning and end of the checklist item as `* ~~[ ] <checklist-item>~~`.  And checklist items that are striked out by default can be re-enabled by removing their strikeout markers `~~` (e.g. for the `wikize_refs.py` items).
 
 <!-- NOTE: Remove above checklist if using the below checklist for internal files. -->
 
