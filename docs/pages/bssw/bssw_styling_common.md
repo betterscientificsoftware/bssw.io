@@ -37,7 +37,7 @@ This is deck text
 - Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
 
 ### Deck Attributes
-The deck section, of every content type, will *always* contain the following *mandatory deck attributes*. These mandatory deck attributes may have some specific guidelines for the different content types, and these guidelines can be found in the styling guides for that particular content type. In general, the mandatory deck attributes are: (1) title of the article, (2) author/contributor/organizer names, (3) BSSw.io categories and (4) BSSw.io topics that the article falls under. 
+The deck section, of every content type, will *always* contain the following *mandatory deck attributes*. These mandatory deck attributes may have some specific guidelines for the different content types, and these guidelines can be found in the styling guides for that particular content type. In general, the mandatory deck attributes are: (1) title of the article, (2) author/contributor/organizer names, and (3) BSSw.io topics that the article falls under. 
 
 However, the different content types may have additional *content-specific deck attributes* as well. Please refer to the styling guides for each content type for these content-specific deck attributes.
 
@@ -52,8 +52,8 @@ This is name of the contributor/author/organizer. This contains the full name of
 #### Contributed by [Firstname Lastname](github profile url "Firstname Lastname")
 ````
 
-#### BSSw Categories and BSSw Topics
-These indicate which BSSw.io categories and topic areas the article belongs to. The most up-to-date topic areas can be obtained from the BSSw.io website (click Resources link at https://bssw.io/  to see the categories; and the topics are listed under each of the categories). In the source file, the categories/topics for the article can be indicated in the *[metadata section](bssw_content_metadata.html#categories)* of the article. 
+#### BSSw Topics
+These indicate which BSSw.io topic areas the article belongs to. The most up-to-date topic areas can be obtained from the BSSw.io website (click Resources link at https://bssw.io/ to find the list of topics). In the source file, the topics for the article can be indicated in the *[metadata section](bssw_content_metadata.html#categories)* of the article. 
 
 ## Main Body Section
 The main body is the portion of the article below the deck. BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for writing content. The elements of the main body differ based on content type. The main body should explain the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content.
@@ -71,7 +71,7 @@ Images for content are stored in a different repository (and not the main repo).
 Very rarely, but possibly, we may have references/citations at the end of the article. There is an in-progress process for this. Please contact the Editor-in-chief for more information on this. 
 
 ## Metadata Section
-We include metadata as *formatted comments* at the end of the file.  Metadata helps define rules about publishing an article, tagging them, selecting categories etc. Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site. Please read the [common metadata section](bssw_content_metadata.html) to get detailed insight on the different metadata parameters and their importance.
+We include metadata as *formatted comments* at the end of the file.  Metadata helps define rules about publishing an article, tagging them, selecting topics, etc. Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site. Please read the [common metadata section](bssw_content_metadata.html) to get detailed insight on the different metadata parameters and their importance.
 
 ## Unpublishing Content
 Please follow the below rules

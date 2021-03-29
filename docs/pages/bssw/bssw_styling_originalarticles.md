@@ -20,7 +20,7 @@ Original articles may have deck text and/or deck images. Deck text is usually a 
  * Blogs *usually* have deck images and no deck text. 
  * Short articles *usually* have deck text. 
  * For guidance on the deck text, please see [common layout section](bssw_styling_common.html) of the guide.
- * Having deck text and a deck image in an original article are mutually exclusive
+ * Having deck text and a deck image in an original article are mutually exclusive.
       * A way to approximate having both is to have the deck image and then put the deck as your first (short) paragraph after the image and italicize it.
  * Please note that many times in the BSSw.io literature the deck image is also called as hero image.
  * Images for content are stored in a different repository (and not the main repo). To reference the images in the article, we upload them [bssw.io images directory](https://github.com/betterscientificsoftware/images) and then reference them from the article.
@@ -35,7 +35,7 @@ Original articles may have deck text and/or deck images. Deck text is usually a 
    
 ### Deck Attributes
 
-Mandatory deck attributes (such as Deck title, Contributor name, BSSw Categories, BSSw Topics) are part of deck for all BSSw.io content. Please see [common layout section](bssw_styling_common.html) of the guide for the mandatory deck attributes.
+Mandatory deck attributes (such as Deck title, Contributor name, BSSw Topics) are part of deck for all BSSw.io content. Please see [common layout section](bssw_styling_common.html) of the guide for the mandatory deck attributes.
 
 In addition to above, there exists a original content-specific deck attribute called Deck publication date. **Deck Publication date** is the date when the content was published on BSSw.io. In the source file, please use the following format:
 ````

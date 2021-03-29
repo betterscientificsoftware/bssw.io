@@ -45,9 +45,9 @@ The following steps assume that the BSSw editorial team has already determined t
 * If using [formal citations/references](bssw_styling_originalarticles.html#citationsreferences), use [`wikize_refs.py -i <base>.md`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy) to deal with these (see [here](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md) for details).
 
 ### Pre-publishing Checks
-* Finalize the category(ies), topic(s) and other parameters in metadata.
+* Finalize the topic(s) and other parameters in metadata.
 * Ensure [`wikize_refs.py -i <base>.md`](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md) is run and commit before previewing (if `wikize_refs.py` is being used).
-* Update and check on preview site to confirm overall display ("publish: preview" in metadata).
+* Update and sanity check on preview site to confirm overall display ("publish: preview" in metadata).
 * Change "publish: yes" in metadata before merging the PR to 'master'.
 * Ensure [`wikize_refs.py -i <base>.md`](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md) is run and commit before merging the PR to 'master' (if `wikize_refs.py` is being used).
 
