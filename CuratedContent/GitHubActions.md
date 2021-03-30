@@ -7,7 +7,7 @@ in response to various events in your GitHub repositories.
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: March 31, 2021
+#### Publication date: March 29, 2021
 
 Resource information | Details 
 :--- | :--- 
@@ -17,11 +17,11 @@ Focus | Version control, Testing
 
 Resource information | Details 
 :--- | :--- 
-Web Page | [Getting the Gist of Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
+Web Page | [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 Authors | [Brendon Smith](https://gist.github.com/br3ndonland)
 Focus | Version control, Testing
 
-The above web resources, *Getting Started with GitHub Actions* and *Getting the Gist of Actions*, provide a good starting point and overview of *GitHub Actions* service. These articles describe the basic concepts of GitHub Actions, such as workflows, jobs, and steps, and also present several simple example workflows. 
+The above web resources, *Getting Started with GitHub Actions* and *Getting the Gist of GitHub Actions*, provide a good starting point and overview of *GitHub Actions* service. These articles describe the basic concepts of GitHub Actions, such as workflows, jobs, and steps, and also present several simple example workflows. 
 
 
 Some background on GitHub Actions service: 
