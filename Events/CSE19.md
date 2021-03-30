@@ -18,7 +18,6 @@ The SIAM Conference on Computational Science and Engineering is a large and well
 <!---
 Publish: yes
 RSS update: 2019-01-31
-Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: conference
 Level: 2
