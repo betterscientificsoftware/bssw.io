@@ -8,7 +8,7 @@ Provide a general summary of your changes in the title above.
 
 Fill in the below **Description** section with minimal text describing the changes/new contributions in this PR and replace `<...>` as appropriate.
 
-Remove the beginning `<!--` and ending `-->` comment markers for the correct **checklist** to be used for this PR and delete the other checklist.  (The checklist items for bssw.io site contributions are shown by default.  The checklist for internal files not displayed in the bssw.io site is given below that.)
+Remove the beginning `<!--` and ending `-->` comment markers for the correct **checklist** to be used for this PR and delete the other checklist.  (The checklist items for files displayed on the bssw.io site are shown by default.  The checklist items for internal files not displayed in the bssw.io site is given below with commented out checklist items by default.)
 
 Any checklist items that don't apply can be striked out by adding `~~` to the beginning and end of the checklist item as `* ~~[] <checklist-item>~~`.  Also, remove the strikeout markers `~~` for the [wikize_refs.py] checklist items if using formal citations for bssw.io contributions.
 
@@ -46,8 +46,6 @@ Addresses issue #`<issue-id>`
 * [ ] Verify that all needed files are present in the PR (article, images, updates to Site/Homepage.md carousel and/or Site/Announcements/Announcements.md as appropriate).
 * [ ] Merge PR. Should automatically move to "Done" in [Content Development].
 * [ ] Verify new new contribution shows up on [bssw.io] as expected.
-
-NOTE: Optional checklist items can be striked out with adding `~~` to beginning and end of the checklist item as `* ~~[ ] <checklist-item>~~`.
 
 <!-- NOTE: Remove above checklist if using the below checklist for internal files. -->
 
