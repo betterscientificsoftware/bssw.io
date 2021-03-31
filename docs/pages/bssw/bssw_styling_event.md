@@ -118,6 +118,10 @@ Usually the following information is added and is usually sufficient
 ## Metadata Section
 See [common metadata section](bssw_content_metadata.html) of the guide.
 
+## Citations/References
+
+Event articles should **not** use more formal citations/references documented in the [common citations/references section](bssw_styling_common.html#citationsreferences).
+
 ## Updating Past events
 Past events may be updated with information pointing to where the presentation or recording archives have been stored. In such updates, you can add rows to the table above or modify the information as needed.
 
