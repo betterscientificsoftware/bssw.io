@@ -12,7 +12,7 @@ The mini-book *Kanban and Scrum: making the best of both* compares and contrasts
 
 Resource information | Details 
 :--- | :--- 
-Book title  | [Kanban and Scrum: making the best of both](https://www.infoq.com/mini-books/kanban-scrum-mini-book/)
+Book title  | [Kanban and Scrum: making the best of both](https://www.infoq.com/minibooks/kanban-scrum-minibook/)
 Authors | Henrik Kniberg, and Mattias Skarin
 Publication | 2010, ISBN: 978-0-557-13832-6
 
