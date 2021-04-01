@@ -6,7 +6,9 @@ We’re creating a clearinghouse to gather, discuss, and disseminate experiences
 
 We expect all contributors to the Better Scientific Software site to follow a Contributor Code of Conduct, as described in the [BSSw Policies](https://bssw.io/pages/policies).
 
-## BSSw Senior Editors
+## BSSw Editorial Team
+
+### Senior Editors
 
 Rinku Gupta<br/>
 Title: Editor-in-chief<br/>
@@ -25,7 +27,7 @@ Lois Curfman McInnes<br/>
 Argonne National Laboratory<br/>
 https://github.com/curfman
 
-## BSSw Associate Editors
+### Associate Editors
 
 Roscoe Bartlett<br/>
 Sandia National Laboratories<br/>
@@ -50,6 +52,19 @@ https://github.com/jarrah42
 Paul Wolfenbarger<br/>
 Sandia National Laboratories<br/>
 https://github.com/prwolfe
+
+### Editorial Assistant
+
+Kasia Salim<br/>
+Argonne National Laboratory<br/>
+https://github.com/karbarz
+
+## Partners
+
+**[Sandbox Studio, Chicago](https://sandboxstudio.net/)** established the BSSw visual brand, website interface design, and website strategy. Sandbox continues to maintain, support, and improve the website experience and site operation. Sandbox Studio is an interactive design, UX, branding, and web development firm.
+
+**[Parallactic Consulting](https://parallactic.com/)** established the custom content management system and GitHub integration developed with Ruby on Rails. Parallactic continues to support, maintain, and improve the site functionality. Parallactic is a small web development & data architecture company.
+
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
