@@ -46,13 +46,9 @@ A printed version of the mini-book that can be mailed to you is also available f
 
 <!---
 Publish: preview
+Pinned: no
 RSS update: ???
-Categories: Planning, Development, Collaboration
 Topics: Software process improvement, Software engineering, Requirements, Issue tracking, Strategies for more effective teams
-Tags: book
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
 
 
