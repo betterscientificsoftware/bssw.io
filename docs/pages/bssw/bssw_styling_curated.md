@@ -185,5 +185,8 @@ This section will be added in the future, as the need arises.
 ## Metadata section
 See the [common metadata section](bssw_content_metadata.html) of the guide.
 
+## Citations/References
+
+Curated content articles should **almost never** need to use more formal citations/references documented in the [common citations/references section](bssw_styling_common.html#citationsreferences).
 
 {% include links.html %}

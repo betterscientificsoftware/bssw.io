@@ -68,19 +68,13 @@ All reference links and images across all content types are handled in the same 
 This section has details of the author in a short paragraph. The content is free flowing.
 
 ## Metadata section
+
 There is no specific guidance for this for the event content type. See [common metadata section](bssw_content_metadata.html) of the guide.
 
 ## Citations/References
 
-Certain content types on [bssw.io](https://bssw.io) do not require formal reference styling (e.g. formal *citations*) either because the format is highly constrained (e.g. Events, Curated Content) or because the document is short and uses only a small number of inlined hyperlinks. There are, however, circumstances where formal reference styling (e.g. formal *citations*) is warranted. These include...
-
-* Larger documents with *many* references that can benefit from formal reference styling to improve [readability and reading comprehension](https://www.psychologytoday.com/us/blog/your-childs-brain-and-behavior/201701/the-effects-digital-technology-reading?amp).
-
-* Documents that reference multiple off-line materials (e.g. books) for which there is no, suitable on-line (e.g. hyperlink-able) proxy.
-
-* Content that in the judgement of EB members and/or authors requires references to more fully support perhaps sensitive and/or controversial positions (e.g. the Covid19 article).
-
-The decision to *allow* or *require* references is one that should be agreed upon by the author and EB members prior to developing the content. When references are to be used, we require authors to use the less intrusive [reference links](https://www.markdownguide.org/basic-syntax#reference-style-links) ([full spec](https://github.github.com/gfm/#reference-link)) and to follow the guidelines described [here](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md) where the [`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy) tool can be helpful.
+Original articles will occasionally benefit from using more formal citations/references listed at the bottom of an article instead of in-text hyperlinks.
+In these cases, they should use the approach documented in the [common citations/references section](bssw_styling_common.html#citationsreferences).
 
 ## Existing Examples
 

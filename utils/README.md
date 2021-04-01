@@ -3,7 +3,7 @@
 ## wikize_refs.py
 
 The tool `wikize_refs.py` helps to manage [Github Favored Markdown
-references/citations](https://betterscientificsoftware.github.io/bssw.io/bssw_styling_originalarticles.html#citationsreferences)
+references/citations](https://betterscientificsoftware.github.io/bssw.io/bssw_styling_common.html#citationsreferences)
 in `*.md` files that are used on the bssw.io site.  This is typically run in
 place as:
 

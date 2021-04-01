@@ -67,20 +67,32 @@ Images for content are stored in a different repository (and not the main repo).
 - Please ensure we have permission to use the logo/image 
 - Please ensure logo is clear and high resolution
 
-## Links and References
-Very rarely, but possibly, we may have references/citations at the end of the article. There is an in-progress process for this. Please contact the Editor-in-chief for more information on this. 
-
 ## Metadata Section
+
 We include metadata as *formatted comments* at the end of the file.  Metadata helps define rules about publishing an article, tagging them, selecting topics, etc. Be sure to include metadata with each entry, as this will be used to organize content, provide filters, and support searches on the BSSw front-end site. Please read the [common metadata section](bssw_content_metadata.html) to get detailed insight on the different metadata parameters and their importance.
 
+## Citations/References
+
+Certain content types on [bssw.io](https://bssw.io) do not require formal reference styling (e.g. formal *citations*) either because the format is highly constrained (e.g. Events, Curated Content) or because the document is short and uses only a small number of inlined hyperlinks. There are, however, circumstances where formal reference styling (e.g. formal *citations*) is warranted. These include...
+
+* Larger documents with *many* references that can benefit from formal reference styling to improve [readability and reading comprehension](https://www.psychologytoday.com/us/blog/your-childs-brain-and-behavior/201701/the-effects-digital-technology-reading?amp).
+
+* Documents that reference multiple off-line materials (e.g. books) for which there is no, suitable on-line (e.g. hyperlink-able) proxy.
+
+* Content that in the judgment of EB members and/or authors requires references to more fully support perhaps sensitive and/or controversial positions (e.g. the Covid19 article).
+
+The decision to *allow* or *require* references is one that should be agreed upon by the author and EB members prior to developing the content. When references are to be used, we require authors to use the less intrusive [reference links](https://www.markdownguide.org/basic-syntax#reference-style-links) ([full spec](https://github.github.com/gfm/#reference-link)) and to follow the guidelines described [here](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md) where the [`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy) tool can be helpful.
+
 ## Unpublishing Content
+
 Please follow the below rules
+
 1. There needs to be  documentation about why content is being unpublished. On top of the content file, please add
 
- ````
- Date1: mm-dd-yyyy: Reason for unpublishing
- Date2: mm-dd-yyyy: Reason for unpublishing
- ````
+   ````
+   Date1: mm-dd-yyyy: Reason for unpublishing
+   Date2: mm-dd-yyyy: Reason for unpublishing
+   ````
  
 2. Add the word UNPUB to file file name. For example: `GitversionUNPUB.md`
 
