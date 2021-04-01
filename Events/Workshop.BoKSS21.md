@@ -1,6 +1,6 @@
 # The First International Workshop on the Body of Knowledge for Software Sustainability (BoKSS’21)
 
-- Date: May 23, 2021 - May 29, 2021
+- Date: June 1 - 2, 2021
 - Location: Online
 - Event Website: https://bokss.github.io/bokss2021/
 - Organizers: International Conference on Software Engineering (ICSE 2021)
@@ -12,7 +12,7 @@ The BoKSS 2021  workshop will focus on the creation of a knowledge base of actio
 Event Information | Details
 :--- | :---			   
 Event Name | [1st International Workshop on the Body of Knowledge for Software Sustainability (BoKSS’21)](https://bokss.github.io/bokss2021/)
-Event Date | May 23, 2021 to May 29, 2021
+Event Date | June 1 - 2, 2021
 Website | https://bokss.github.io/bokss2021/
 Submission Deadline | January 12, 2021. Please see event website for deadline updates.
 
@@ -36,7 +36,7 @@ Workshop papers will use a single blind submission process. All submitted papers
 
 <!---
 Publish: yes
-Categories: Collaboration
+Pinned: no
 Topics: conferences and workshops
 RSS update: 2020-12-17
 --->
