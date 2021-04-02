@@ -37,7 +37,7 @@ I can't recommend this mini-book more strongly if one is interested in improving
 The ideas and insights of this mini-book were used as the foundation for the software development management processes in the CSE Consortium For Advanced Simulation Of Light Water Reactors (CASL)<sup>[4]</sup> project and especially in the Nuclear Reactor Physics Integration Focus area  starting in 2010.
 By using the iterative retrospective process and with experiments, a very successful iteration-based Kanban process was constructed and variations of that process endure in some of the groups that participated in the CASL project after the main 10-year project ended.
 
-At the time of this writing, this mini-book is available for free download from [infoq.com](https://www.infoq.com/mini-books/kanban-scrum-mini-book/) but you must register with infoq.com to get it.
+At the time of this writing, this mini-book is available for free download from [infoq.com](https://www.infoq.com/minibooks/kanban-scrum-minibook/) but you must register with infoq.com to get it.
 A printed version of the mini-book that can be mailed to you is also available for a very small fee.
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/KanbanAndScrumMakingTheBestOfBoth.png' class='logo' />
