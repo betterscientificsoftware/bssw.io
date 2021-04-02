@@ -15,6 +15,8 @@ Book title  | [Kanban and Scrum: making the best of both](https://www.infoq.com/
 Authors | Henrik Kniberg, and Mattias Skarin
 Publication | 2010, ISBN: 978-0-557-13832-6
 
+[Example Kanban Board Cartoon from the book "Kanban and Scrum"]<img src='https://github.com/betterscientificsoftware/images/raw/master/KanbanAndScrumMakingTheBestOfBoth.png'/>
+
 Many books have been written on lean and agile software project management methods<sup>[1],[2],[3]</sup>.
 Currently, two of the most popular process frameworks for lean/agile software projects are Scrum<sup>[1]</sup> and Kanban.
 The mini-book *Kanban and Scrum: making the best of both* does an excellent job of providing a succinct overview of Scrum and Kanban and compares and contrasts how they address different aspects of managing a software development project.
@@ -39,8 +41,6 @@ By using the iterative retrospective process and with experiments, a very succes
 
 At the time of this writing, this mini-book is available for free download from [infoq.com](https://www.infoq.com/minibooks/kanban-scrum-minibook/) but you must register with infoq.com to get it.
 A printed version of the mini-book that can be mailed to you is also available for a very small fee.
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/KanbanAndScrumMakingTheBestOfBoth.png'/>
 
 <!---
 Publish: yes
