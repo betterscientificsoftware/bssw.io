@@ -1,4 +1,4 @@
-# Kanban and Scrum: making the best of both
+# Kanban and Scrum: Making the best of both
 
 <!--deck text start-->
 Scrum and Kanban are two of the best known lean/agile software project management frameworks.
@@ -7,7 +7,7 @@ The mini-book *Kanban and Scrum: making the best of both* compares and contrasts
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: April ???, 2021
+#### Publication date: April 2, 2021
 
 Resource information | Details 
 :--- | :--- 
@@ -43,9 +43,9 @@ A printed version of the mini-book that can be mailed to you is also available f
 <img src='https://github.com/betterscientificsoftware/images/raw/master/KanbanAndScrumMakingTheBestOfBoth.png' class='logo' />
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
-RSS update: ???
+RSS update: 2020-04-02
 Topics: Software process improvement, Software engineering, Requirements, Issue tracking, Strategies for more effective teams
 --->
 
