@@ -40,7 +40,7 @@ By using the iterative retrospective process and with experiments, a very succes
 At the time of this writing, this mini-book is available for free download from [infoq.com](https://www.infoq.com/minibooks/kanban-scrum-minibook/) but you must register with infoq.com to get it.
 A printed version of the mini-book that can be mailed to you is also available for a very small fee.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/KanbanAndScrumMakingTheBestOfBoth.png' class='logo' />
+<img src='https://github.com/betterscientificsoftware/images/raw/master/KanbanAndScrumMakingTheBestOfBoth.png'/>
 
 <!---
 Publish: yes
