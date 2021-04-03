@@ -50,7 +50,7 @@ figure.
 
 This is a simplification of the [throw-away integration test
 branch](https://docs.google.com/document/d/1uVQYI2cmNx09fDkHDA136yqDTqayhxqfvjFiuUue7wo#heading=h.2r0g9kvx5b2a)
-where the `preview` branch takes the place of the 'next' branch.
+where the `preview` branch takes the place of the `next` branch.
 
 In this setup, the production https://bssw.io site is generated from the
 `master` branch while the https://preview.bssw.io site is generated from the
@@ -110,6 +110,8 @@ The commands to merge an updated `content-X` branch to `preview` are:
 [ (preview)]$ git push       # to origin/preview
 ```
 
+These commands are performed automatically by the Github Actions [`merge-pr-to-preview.yml`](https://github.com/betterscientificsoftware/bssw.io/blob/master/.github/workflows/merge-pr-to-preview.yml) workflow when the `preview` label is set on the PR for the branch `content-x` and whenever new commits are pushed to the PR branch when that label is set.  (If the `preview` label is not set, then the PR branch is not automatically merged to the `preview` branch.)
+
 The commands to update the `preview` branch after a `content-X` branch and PR
 has been "graduated" (i.e. merged to `master`), or any updates to the `master`
 branch are made, are:
@@ -121,9 +123,7 @@ branch are made, are:
 [ (preview)]$ git push       # to origin/preview
 ```
 
-The merges of `context-X` branches to `preview` and merges of `master` to
-`preview` are done automatically using [registered GitHub
-Actions](https://github.com/betterscientificsoftware/bssw.io/tree/master/.github/workflows).
+These commands are performed automatically by the GitHub Actions [merge-master-to-preview.yml](https://github.com/betterscientificsoftware/bssw.io/blob/master/.github/workflows/merge-master-to-preview.yml) workflow whenever new commits are pushed to the `master` branch (either by merging a PR to `master` or direct pushes to `master`).
 
 <a name="unpublish"/>
 
@@ -143,7 +143,7 @@ https://preview.bssw.io site, one can do one of the following:
 NOTE: In the future, removing content from PRs that were closed without
 merging to the `master` branch could be handled automatically (e.g. by
 rebuilding the `preview` branch from scratch each time new commits are pushed
-to a PR branch).
+to a PR branch for open PRs or to `master`).
 
 To unpublish a contribution already published to `master` and displayed on the
 main https://bssw.io site, one can do one of the following:
