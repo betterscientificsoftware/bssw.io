@@ -134,7 +134,7 @@ Florida as a member of Sandia’s Statistics and Human Systems Group
 #### Contributed by [Katherine Evans](https://github.com/kevans32 "Katherine Evans GitHub profile"), [Thomas Evans](https://github.com/tmdelellis "Thomas Evans GitHub profile"), Madeline Heroux, Lindsey Hughes,  and Stefan Wild Ashley Barker,  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
