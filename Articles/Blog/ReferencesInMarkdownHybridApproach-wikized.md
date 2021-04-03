@@ -12,7 +12,7 @@ not convenient.
 
 Here, we describe conventions in the use of [GitHub Flavored Markdown (GFM)][GFM]
 together with a Python post-processing script
-[`wikize_refs.py`](../../utils/wikize_refs.py)
+[`wikize_refs.py`](../../utils/README.md#wikize_refspy)
 to make it easier to manage such references in a
 [Wikipedia-like way](https://en.wikipedia.org/wiki/Note_(typography)#References).
 
