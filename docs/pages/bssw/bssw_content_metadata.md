@@ -101,7 +101,14 @@ The current topics are as follows:
     - Personal productivity and sustainability
     
 ### RSS update
-This is used to set thee date for RSS update in format yyyy-mm-dd.
+This is used to set the date for RSS update in format yyyy-mm-dd.
+
+The BSSw.io site automatically generates an RSS feed. Currently, it is capped at the 10 most recent items (we can change this with help of our frontend partners, should we need to). The rule is to use the newer of the Publication Date (within the article) or the RSS Date (in the article metadata).
+
+Please note that if you edit an article and don't change the Publication Date or the RSS Date, the RSS feed will not change. This what you'd typically want to do for minor updates, corrections, etc.
+
+If you want the article to reappear in the RSS feed, as if it were newly published, set the RSS Date metadata tag to the current date (or an appropriate near-future date).
+
 ````
 RSS update: 2020-12-17
 ````
