@@ -13,12 +13,3 @@ the bssw.io/images directory to work nicely with the typical authoring/developme
 
 [URL prefix: ../../images (should *not* work on GH)]<img src='../../images/Blog_1119_WorkThankful.jpg' />
 
-<!---
-Publish: preview
-Categories: Planning, Reliability
-Topics: testing
-Tags: [import from subresources]
-Level: 2
-Prerequisites: [import from subresources]
-Aggregate: base
---->

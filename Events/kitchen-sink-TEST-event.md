@@ -1,7 +1,9 @@
 # Kitchen-sink resource test in Events
 
-#### Publication date: December 12, 2017
-
+- Date: 2021-03-10
+- Location: Online
+- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar050
+- Organizers: The IDEAS Productivity Project
 
 ## Test images with relative paths
 These images are referenced using relative URLs.  As of 2021-03, we are transitioning to prefer this approach over using fully qualified URLs.  All img URLs should reference
