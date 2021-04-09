@@ -44,7 +44,7 @@ Addresses issue #`<issue-id>`
 * [ ] ***[EB Mem]*** Move the PR to "Ready to Publish" in [Content Development].
 * [ ] ***[EB Mem]*** Assign to one of the site maintainers to carry out final publication steps.
 * [ ] ***[EB Mem]*** Verify that all needed files are present in the PR (article, images, updates to Site/Homepage.md carousel and/or Site/Announcements/Announcements.md as appropriate).
-* [ ] ***[EB Mem]*** Merge PR. Should automatically move to "Done" in [Content Development].
+* [ ] ***[EB Mem]*** Merge PR. (Should automatically move to "Done" in [Content Development].)
 * [ ] ***[EB Mem]*** Verify new new contribution shows up on [bssw.io] as expected.
 
 NOTE:
