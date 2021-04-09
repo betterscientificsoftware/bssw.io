@@ -26,14 +26,14 @@ Addresses issue #`<issue-id>`
 
 * [ ] ***[Author]*** `@mention` the BSSw.io editorial board member `@<eb-member-id>` in **Description** above assigned to shepherd your PR.
 * [ ] ***[Author]*** Add the `<issue-id>` in the **Description** above for the associated GitHub Issue.
+* [ ] ***[Author]*** Inspect the content in the `*.md` file(s) as rendered in GitHub for this PR.
+* ~~[ ] ***[Author]*** Ensure `wikize_refs.py -i <base>.md` is run and commit (if using [wikize_refs.py])~~.
 * [ ] ***[EB Mem]*** Assign this PR to the EB member `<eb-member-id>`.
 * [ ] ***[EB Mem]*** Assign this PR to the author of the PR `<pr-author-id>`.
+* [ ] ***[EB Mem]*** Add one or more Reviewers.
 * [ ] ***[EB Mem]*** Add label `content: <content-type>` for the type of contribution.
 * [ ] ***[EB Mem]*** Add to Project `Content Development` (see [Content Development]).
-* [ ] ***[Author]*** Inspect the content in the `*.md` file(s) as rendered in GitHub for this PR.
-* [ ] ***[Author]*** Add one or more Reviewers.
 * [ ] ***[EB Mem]*** Add [meta-data] to the `*.md` file(s) (set `Publish: preview`).
-* ~~[ ] ***[Author]*** Ensure `wikize_refs.py -i <base>.md` is run and commit (if using [wikize_refs.py])~~.
 * [ ] ***[EB Mem]*** Add label `preview` (so PR branch will be merged to 'preview' branch and watch for possible merge failures).
 * [ ] ***[EB Mem]*** Rebuild [preview] site and confirm new content is there, renders correctly and is returned in searches.
 * [ ] ***[Author]*** Make any final changes to the PR based on feedback.
