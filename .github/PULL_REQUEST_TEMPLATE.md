@@ -26,8 +26,8 @@ Addresses issue #`<issue-id>`
 
 * [ ] ***[Author]*** `@mention` the BSSw.io editorial board member `@<eb-member-id>` in **Description** above assigned to shepherd your PR.
 * [ ] ***[Author]*** Add the `<issue-id>` in the **Description** above for the associated GitHub Issue.
-* [ ] ***[Author]*** Inspect the content in the `*.md` file(s) as rendered in GitHub for this PR.
 * ~~[ ] ***[Author]*** Ensure `wikize_refs.py -i <base>.md` is run and commit (if using [wikize_refs.py])~~.
+* [ ] ***[Author]*** Inspect the content in the `*.md` file(s) as rendered in GitHub for this PR.
 * [ ] ***[EB Mem]*** Assign this PR to the EB member `<eb-member-id>`.
 * [ ] ***[EB Mem]*** Assign this PR to the author of the PR `<pr-author-id>`.
 * [ ] ***[EB Mem]*** Add one or more Reviewers.
