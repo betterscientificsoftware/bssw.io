@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/2021-04-SWMetricsInResearch-hero.png'>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0421_Metrics.jpg'>
 
 #### Contributed by [Nasir Eisty](https://github.com/neisty)
 
