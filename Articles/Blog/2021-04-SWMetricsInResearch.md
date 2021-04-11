@@ -6,7 +6,7 @@
 
 #### Contributed by [Nasir Eisty](https://github.com/neisty)
 
-#### Publication date: April #, 2021
+#### Publication date: April 10, 2021
 
 ### The importance of software metrics
 
@@ -46,8 +46,8 @@ This article is based on a paper in the proceedings of the 14th IEEE Internation
 Nasir Eisty is an assistant professor in the Computer Science and Software Engineering Department of California Polytechnic State University, San Luis Obispo, CA. He received his Ph.D. degree in computer science from the University of Alabama in spring 2020. His research interests lie in the areas of empirical software engineering, software quality, and research software engineering. He received a 2020 Better Scientific Software Fellowship award from the U.S. Department of Energy.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: software engineering, software process improvement
-RSS update: 2020-12-17
+RSS update: 2021-04-10
 --->
