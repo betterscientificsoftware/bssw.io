@@ -4,7 +4,7 @@ Software—the foundation of discovery in computational science & engineering—
 
 <!---
 Slide1 L: blog_posts/use-of-software-metrics-in-research-software
-Slide1 R: images/raw/master/Blog_4321_Metrics.jpg
+Slide1 R: images/raw/master/Blog_0421_Metrics.jpg
 Slide2 L: blog_posts/a-look-at-software-focused-topics-at-siam-cse21
 Slide2 R: images/raw/master/Blog_0321_Siam.png
 Slide3 L: blog_posts/nsf-sponsored-2021-bssw-fellows
