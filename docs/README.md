@@ -1,6 +1,6 @@
 The github version of the docs directory is located at https://betterscientificsoftware.github.io/bssw.io/
 
-**Original theme**
+<!-- **Original theme**
 This jekyll style is inspired from
 * https://github.com/tomjoht/documentation-theme-jekyll
 * https://idratherbewriting.com/documentation-theme-jekyll/
@@ -10,3 +10,4 @@ This jekyll style is inspired from
 * Event workflow
 * Original content workflow
 * Update CC workflow
+-->
