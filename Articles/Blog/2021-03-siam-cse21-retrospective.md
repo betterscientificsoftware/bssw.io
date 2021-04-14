@@ -120,6 +120,15 @@ Sandra Gesing, University of Notre Dame<br/>
 Rinku Gupta, Argonne National Laboratory<br/>
 Shoaib Sufi, University of Manchester<br/>
 
+### Complementary articles (based on material in these sessions) on the SIAM site
+
+- [Encouraging Effective Retrospective Strategies for Team Projects](https://sinews.siam.org/Details-Page/encouraging-effective-retrospective-strategies-for-team-projects), Lina Sorg, 
+- [Creating Findable, Accessible, Interoperable, and Reusable Cyberinfrastructure](https://sinews.siam.org/Details-Page/creating-findable-accessible-interoperable-and-reusable-cyberinfrastructure), Jillian Kunze
+- [Understanding Engineering Curricula to Improve Diversity Within the Field](https://sinews.siam.org/Details-Page/understanding-engineering-curricula-to-improve-diversity-within-the-field), Lina Sorg
+- [Inspiring the Next Generation of Software Practitioners through the Better Scientific Software Fellowship Program](https://sinews.siam.org/Details-Page/inspiring-the-next-generation-of-software-practitioners-through-the-better-scientific-software-fellowship-program-1), Lina Sorg
+
+
+
 <!---
 Publish: yes
 Pinned: no
