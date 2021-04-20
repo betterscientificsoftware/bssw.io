@@ -24,7 +24,11 @@ Herring noted that her suggestions are meant for teams that are already in good 
 
 As the session concluded, Herring reminded participants to interact with their team members, work to build an engaging environment, and maintain regular check-ins. She advised scrum masters to never skip retrospectives because of busy schedules. “As a leader, you should take time to listen,” Herring said. Doing so provides team members with a safe space for honesty, growth, and success.
 
-<sub>This article originally appeared in SIAM News Online. <br>Details about this work are available in the presentation [“Listen, don’t just hear your team with an effective retrospective”](https://doi.org/10.6084/m9.figshare.14130473) by Angela Herring, part of a minisymposium on Building Sustainable Software Communities and Sustainable Software at the SIAM CSE21 Conference.  More details about this session and others related to scientific software are available in the blog article, [A Look at Software-Focused Topics at SIAM CSE21](https://bssw.io/blog_posts/a-look-at-software-focused-topics-at-siam-cse21).</sub>
+### Acknowledgments
+This article originally appeared in SIAM News Online. <br>Details about this work are available in the presentation [“Listen, don’t just hear your team with an effective retrospective”](https://doi.org/10.6084/m9.figshare.14130473) by Angela Herring, part of a minisymposium on Building Sustainable Software Communities and Sustainable Software at the SIAM CSE21 Conference.  More details about this session and others related to scientific software are available in the blog article, [A Look at Software-Focused Topics at SIAM CSE21](https://bssw.io/blog_posts/a-look-at-software-focused-topics-at-siam-cse21).
+
+### Author Bio
+Lina Sorge is the managing editor of [SIAM News](https://www.siam.org/publications/siam-news).
 
 <!---
 Publish: yes
