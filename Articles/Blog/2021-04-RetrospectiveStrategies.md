@@ -1,9 +1,5 @@
 # Encouraging Effective Retrospective Strategies for Team Projects
 
-**Hero Image:**
-
-- <img src='***'> (image to be insterted)
-
 #### Contributed by [Lina Sorg](https://github.com/linasorg)
 
 #### Publication date: April 23, 2021
@@ -12,7 +8,9 @@ As the U.S. approaches the one-year mark of remote work, many people are experie
 
 An agile retrospective refers to a reflective process that allows team members to assess their work after the latest sprint. During this time, participants can comment on the interactions, procedures, and tools of the sprint; voice concerns or issues; and suggest process changes for future projects. “A retrospective is really useful after you’ve completed some unit of work, or even just on a regular schedule,” Herring said. She refers to this time as a “safety valve” for team frustrations, as it provides members with a safe space to both unwind and celebrate. In this context, the scrum master should facilitate discussion and engage people so that they want to partake and do not feel like they are wasting their time. Herring also suggested establishing a set amount of time and sticking to it. “It’s a balance of being able to vent and solve problems,” she said. “Offering that space is both tricky and extremely rewarding.”
 
-Herring then detailed a sample breakdown for retrospective sessions (see Figure 1). She encouraged scrum masters to begin with a brief introductory period before transitioning to achievements, frustrations, and solutions. Icebreakers can either involve simple, casual conversations with employees or more structured activities. “If you have a team that you’re trying to build relationships on, it’s good to have a formal icebreaker,” Herring said. Suggestions for icebreakers include “two truths and a lie” or conversations about one’s strangest hobby. Herring has found that making her team laugh relaxes participants and gets them thinking about the meeting. **(image file here)**
+Herring then detailed a sample breakdown for retrospective sessions (see Figure 1). She encouraged scrum masters to begin with a brief introductory period before transitioning to achievements, frustrations, and solutions. Icebreakers can either involve simple, casual conversations with employees or more structured activities. “If you have a team that you’re trying to build relationships on, it’s good to have a formal icebreaker,” Herring said. Suggestions for icebreakers include “two truths and a lie” or conversations about one’s strangest hobby. Herring has found that making her team laugh relaxes participants and gets them thinking about the meeting.
+
+<img src='../../images/filename.jpg' class='page lightbox' />
 
 After introductions, conversation should move to successes in the last sprint. These can be both professional—i.e., “I fixed a bug in the programming!”—or personal — i.e., “My child survived another week of virtual school!” If team members are hesitant to speak, the scrum master can urge everyone to name other people’s achievements. “Once the ball starts rolling, people begin adding to the sluice,” Herring said. “It really builds a good energy in the room.”
 
