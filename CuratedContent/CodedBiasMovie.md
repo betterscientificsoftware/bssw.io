@@ -9,6 +9,10 @@ an outright threat to civil rights.
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
 #### Publication date: Dec 9, 2020
 
+### Update
+
+* Apr 21, 2021: This film is now available on [Netflix](https://www.netflix.com/title/81328723)
+
 Resource information | Details
 :--- | :--- 
 Film name | Coded Bias
