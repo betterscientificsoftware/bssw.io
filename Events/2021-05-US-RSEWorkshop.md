@@ -23,7 +23,7 @@ The theme of the workshop is â€œA Path forward for Research Software Engineers.â
 Instructions for both proposals to present at the workshop and applications to be a reviewer can be found on the website. 
 
 <!---
-Publish: yes
+Publish: preview
 Pinned: no
 Topics: software engineering, conferences and workshops
 RSS update: 2021-04-16
