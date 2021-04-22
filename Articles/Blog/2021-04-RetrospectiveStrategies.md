@@ -14,7 +14,7 @@ An agile retrospective refers to a reflective process that allows team members t
 
 Herring then detailed a sample breakdown for retrospective sessions (see Figure 1). She encouraged scrum masters to begin with a brief introductory period before transitioning to achievements, frustrations, and solutions. Icebreakers can either involve simple, casual conversations with employees or more structured activities. “If you have a team that you’re trying to build relationships on, it’s good to have a formal icebreaker,” Herring said. Suggestions for icebreakers include “two truths and a lie” or conversations about one’s strangest hobby. Herring has found that making her team laugh relaxes participants and gets them thinking about the meeting.
 
-[A simple retrospective can be very effective.]<img src='../../images/Blog_0421_Body_Retro.png' class='page' />
+<img src='../../images/Blog_0421_Body_Retro.png' class='page' />[A simple retrospective can be very effective.]
 
 After introductions, conversation should move to successes in the last sprint. These can be both professional—i.e., “I fixed a bug in the programming!”—or personal — i.e., “My child survived another week of virtual school!” If team members are hesitant to speak, the scrum master can urge everyone to name other people’s achievements. “Once the ball starts rolling, people begin adding to the sluice,” Herring said. “It really builds a good energy in the room.”
 
