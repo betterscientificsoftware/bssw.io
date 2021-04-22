@@ -25,6 +25,8 @@ The definition of "Legacy Code" given in this book is simple but often shocking 
 
 > Legacy Code == Code Without Tests
 
+Some change
+
 Feathers states:
 
 > Code without tests is bad code. It does not matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.
