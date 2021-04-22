@@ -33,7 +33,7 @@ This article originally appeared in SIAM News Online. <br>Details about this wor
 Lina Sorge is the managing editor of [SIAM News](https://www.siam.org/publications/siam-news).
 
 <!---
-Publish: yes
+Publish: preview
 Pinned: no
 Topics: strategies for more effective teams, conferences and workshops
 RSS update: 2021-04-19
