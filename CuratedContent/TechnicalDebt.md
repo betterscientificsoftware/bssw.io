@@ -1,6 +1,6 @@
 # When Good Enough Bankrupts Best
 <!--deck text start-->
-Managing coding work to do tomorrow due to a shortcut deliver something today.
+Managing coding work necessary tomorrow due to a shortcut taken to deliver something today.
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
