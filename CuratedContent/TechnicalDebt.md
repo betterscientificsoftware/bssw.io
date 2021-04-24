@@ -24,7 +24,7 @@ On the other hand, the best way also usually preserves [non-functional requireme
 The fastest way usually neglects entirely one or more NFRs and increases software entropy.
 This can make changing or extending the software later more costlier than it otherwise would have been which represents a kind of *interest* on technical debt.
 
-The article, [Technical Debt: The Ultimate Guide](https://www.bmc.com/blogs/technical-debt-explained-the-complete-guide-to-understanding-and-dealing-with-technical-debt), provides an overview of these concepts and describes best practices to address them.
+The article, [Technical Debt: The Ultimate Guide](https://www.bmc.com/blogs/technical-debt-explained-the-complete-guide-to-understanding-and-dealing-with-technical-debt), provides an overview of these concepts and offers some best practices to address them.
 
 <!---
 Publish: preview
