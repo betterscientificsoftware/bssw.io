@@ -1,4 +1,4 @@
-# How to Prevent Interest on Technical Debt from Sinking a Software Project
+# Keep Interest on Technical Debt from Sinking your Software Project
 <!--deck text start-->
 A technical debt is like a [promissory note](https://en.wikipedia.org/wiki/Promissory_note) for development effort tomorrow that should have been done today but wasn't for expediency.
 <!--deck text end-->
@@ -25,7 +25,8 @@ The fastest way usually neglects or underminds entirely one or more NFRs and inc
 The idea of *promising* to do tomorrow what you know you should have done today is like creating a *debt* to be paid off.
 Externally, the software may continue to meet user's expectations.
 Internally, however, it gets messier.
-That mess makes future development work costlier and is analgous to *interest* being paid on the original debt.
+That mess makes future development work costlier which is like *interest* on the original debt.
+If the mess gets bad enough, the interest on technical debt will overwhelm the project.
 
 The article, [Technical Debt: The Ultimate Guide](https://www.bmc.com/blogs/technical-debt-explained-the-complete-guide-to-understanding-and-dealing-with-technical-debt), provides an overview of these concepts and offers some best practices to manage them and prevent interest on technical debt from sinking your project.
 
