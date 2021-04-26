@@ -23,3 +23,5 @@ Damian is a research engineer and member of the Advisory Board of [Sustainable H
 ### Selected resources
 
 <a href="https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities" class="link-row">Increasing Productivity by Broadening Participation in Scientific Software Communities</a>
+<a href="https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008" class="link-row">Remote Work Panel Series:  How Does Remote Work Impact Creativity and Innovation?</a>
+<a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row">Introducing Agile Software Development to Underrepresented Groups, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>
