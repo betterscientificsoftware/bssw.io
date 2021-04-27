@@ -34,12 +34,6 @@ For more resources on PSIP, please refer to the following articles on the BSSw.i
 <!---
 Publish: yes
 Pinned: no
-Categories: Planning, Collaboration
-Topics: Software process improvement, Strategies for more effective teams 
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
-
-% LCM: temporarily drop 'requirements' topic in order to get poster screen shot
+Topics: Software process improvement, Strategies for more effective teams, Requirements
+RSS update: 2020-01-28
 --->
