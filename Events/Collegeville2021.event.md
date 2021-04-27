@@ -22,7 +22,7 @@ We welcome the following contributions:
 | Contribution| Submission Date | Description                                |
 |-------------|-----------------|--------------------------------------------|
 | White paper | June 18 | A brief document articulating impediments, challenges, opportunities or potential solutions to teams for scientific software. |
-| Recorded presentation | June 21 - 25 | Selected from the submitted white papers, we will solicit speakers to record a brief presentation on their white paper content.  Recorded presentations will be available to attendees before the workshop. |
+| Recorded presentation | June 21 - July 9 | Selected from the submitted white papers, we will solicit speakers to record a brief presentation on their white paper content.  Recorded presentations will be available to attendees before the workshop. |
 | Teatime theme | July 1 |A topic related to software teams for open discussion during teatime. If your teatime theme is accepted, you would facilitate a small group discussion on the theme during the July 20 – 22 workshop. |
 | Poster      |July 1  |A PDF or interactive webpage that will be the focus of small group discussion during teatime. If your poster is accepted, you would facilitate a small group discussion during the July 20 – 22 workshop.   |
 Panelist |  July 20 - 22 | Selected from the submitted white papers, we will solicit participants as panelists for a live discussion with Q&A.  |
@@ -34,7 +34,7 @@ Panelist |  July 20 - 22 | Selected from the submitted white papers, we will sol
 <!---
 Publish: yes
 Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Topics: software engineering, conferences and workshop
 Tags: conference
 Level: 2
 Prerequisites: default
