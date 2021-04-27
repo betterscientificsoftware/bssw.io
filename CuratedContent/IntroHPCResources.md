@@ -30,6 +30,6 @@ BSSw.io readers, who have some scientific computing background, but are relative
 <!---
 Publish: preview
 Pinned: no
-Topics: Documentation, Revision control, Configuration and builds, Software engineering
+Topics: High-performance computing (HPC), Programming languages
 RSS update: 2021-04-19
 --->
