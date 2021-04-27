@@ -26,7 +26,7 @@ Instructions for both proposals to present at the workshop and applications to b
 #### Publication date: April 16, 2021
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: software engineering, conferences and workshops
 RSS update: 2021-04-16
