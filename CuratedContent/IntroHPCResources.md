@@ -8,7 +8,7 @@ The *Survey of Methodologies, Approaches, and Challenges in Parallel Programming
 <!--- deck text end --->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
-#### Publication date: Apr 19, 2021
+#### Publication date: Apr 27, 2021
 
 
 Resource information | Details
@@ -29,8 +29,8 @@ BSSw.io readers, who have some scientific computing background, but are relative
 <!--- deck body end --->
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: High-performance computing (HPC), Programming languages
-RSS update: 2021-04-19
+RSS update: 2021-04-27
 --->
