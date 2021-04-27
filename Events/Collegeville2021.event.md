@@ -25,7 +25,8 @@ The following contributions are welcome:
 | Recorded presentation | June 21 - July 9 | Selected from the submitted white papers, we will solicit speakers to record a brief presentation on their white paper content.  Recorded presentations will be available to attendees before the workshop. |
 | Teatime theme | July 1 |A topic related to software teams for open discussion during teatime. If your teatime theme is accepted, you would facilitate a small group discussion on the theme during the July 20 – 22 workshop. |
 | Poster      |July 1  |A PDF or interactive webpage that will be the focus of small group discussion during teatime. If your poster is accepted, you would facilitate a small group discussion during the July 20 – 22 workshop.   |
-Panelist |  July 20 - 22 | Selected from the submitted white papers, we will solicit participants as panelists for a live discussion with Q&A.  |
+| Watch party | July 12 - 19 | During the week prior to the workshop, participants can host a watch party for one or more of the workshop video recordings. |
+| Panelist  |  July 20 - 22 | Selected from the submitted white papers, we will solicit participants as panelists for a live discussion with Q&A.  |
 
 
 #### Publication date: April 27, 2021
