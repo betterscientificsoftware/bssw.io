@@ -24,7 +24,6 @@ The article, [Technical Debt: The Ultimate Guide](https://www.bmc.com/blogs/tech
 <!---
 Publish: preview
 Pinned: no
-Categories: Planning, Development
-Topics: technical debt
+Topics: Software engineering, Software process improvement, Projects and organizations
 RSS update: 2021-04-28
 --->
