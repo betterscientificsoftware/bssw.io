@@ -10,7 +10,7 @@ Slide2 R: images/raw/master/Blog_0421_Metrics.jpg
 Slide3 L: blog_posts/a-look-at-software-focused-topics-at-siam-cse21
 Slide3 R: images/raw/master/Blog_0321_Siam.png
 Slide4 L: items/kanban-and-scrum-making-the-best-of-both
-Slide4 R: items/github-actions-for-automation
+Slide4 R: events/2021-collegeville-workshop-on-scientific-software-software-teams
 Slide5 L: events/2021-us-rse-virtual-workshop
 Slide5 R: events/webinar-automated-fortran-c-bindings-for-large-scale-scientific-applications
 --->
