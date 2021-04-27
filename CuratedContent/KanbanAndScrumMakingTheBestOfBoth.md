@@ -30,7 +30,7 @@ This material is a fast read and provides the basic terminology for discussion o
 Part II of this mini-book is a 50-page case study in the application of these building blocks and experience from a real project.
 Unlike extended examples in some books, the case study presented in Part II really enhances the material covered in Part I.
 
-This mini-book is packed with helpful diagrams and cartoons that convey the concepts being discussed in a very power way.
+This mini-book is packed with helpful diagrams and cartoons that convey the concepts being discussed in a very effective way.
 Just the diagrams and cartoons alone make this mini-book worth the time to browse and is a great way to refresh these concepts in one's mind.
 
 Considering there are much longer books on lean and agile methods, this mini-book, in my view, provides the best usage of one's time in to get a grip on these concepts with the least amount of investment.
