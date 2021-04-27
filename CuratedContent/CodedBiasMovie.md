@@ -53,7 +53,6 @@ December 14th 2020.
 Publish: yes
 Pinned: no
 RSS update: 2020-09-12
-Categories: skills
 Topics: personal productivity and sustainability
 --->
 
