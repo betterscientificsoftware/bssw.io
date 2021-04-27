@@ -22,7 +22,7 @@ The idea of *promising* to do tomorrow what you know you should have done today 
 The article, [Technical Debt: The Ultimate Guide](https://www.bmc.com/blogs/technical-debt-explained-the-complete-guide-to-understanding-and-dealing-with-technical-debt), provides an overview of these concepts and offers some best practices to manage them and prevent interest on technical debt from sinking your project.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Software engineering, Software process improvement, Projects and organizations
 RSS update: 2021-04-28
