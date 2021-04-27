@@ -2,7 +2,7 @@
 
 #### Contributed by [Lina Sorg](https://github.com/linasorg)
 
-#### Publication date: April 26, 2021
+#### Publication date: April 27, 2021
 
 <!-- deck text start --> 
 Originally published in SIAM News Online, this article by Lina Sorg explores retrospective reflections for team projects, and how to employ them effectively.
@@ -33,8 +33,8 @@ This article originally appeared in [SIAM News Online](https://sinews.siam.org/D
 Lina Sorg is the managing editor of [SIAM News](https://www.siam.org/publications/siam-news).
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: strategies for more effective teams, conferences and workshops
-RSS update: 2021-04-26
+RSS update: 2021-04-27
 --->
