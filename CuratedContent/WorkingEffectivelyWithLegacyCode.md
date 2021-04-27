@@ -4,11 +4,12 @@ Legacy code can be challenging to use and extend. The book *Working Effectively 
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+
 #### Publication date: June 5, 2019
 
 
-Resource information | Details 
-:--- | :--- 
+Resource information | Details
+:--- | :---
 Book title  | [Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052)
 Authors | Michael Feathers
 Publication | 2005, ISBN-13: 978-0131177055
@@ -43,11 +44,11 @@ He argues that no matter what change is made to the code, we must always maintai
 The main contribution of this book is the *Legacy Code Change Algorithm*:
 
 1. **Identify the targeted legacy code:**
-    - **Identify change points** for the target change or new code addition.
-    - **Find test points** where the behavior of the code can be sensed.
+   * **Identify change points** for the target change or new code addition.
+   * **Find test points** where the behavior of the code can be sensed.
 2. **Get targeted legacy code into test harness and cover with tests:**
-    - **Break dependencies** (very carefully and often without sufficient tests) and get the targeted legacy code into a test harness.
-    - **Cover targeted legacy code** with (characterization) unit tests.
+   * **Break dependencies** (very carefully and often without sufficient tests) and get the targeted legacy code into a test harness.
+   * **Cover targeted legacy code** with (characterization) unit tests.
 3. **Add new functionality with new tests** (usually following the Test Driven Development (TDD) process).
 4. **Refactor** tested code to remove duplication, clean up, etc.
 
@@ -79,12 +80,12 @@ NOTE: When the official specification differs from the actual observed behavior 
 Finally, another major contribution of this book is in detailing the strategies that can be used in the various steps of the Legacy Code Change Algorithm, which include:
 
 * **Faking Collaborators:**  Needed to get targeted code into a unit test harness and drive unit tests.:
-  - **Fake Objects**: Impersonate a collaborator to allow sensing and control.
-  - **Mock Objects**: Extend Fake Objects that asserts expected behavior.
+  * **Fake Objects**: Impersonate a collaborator to allow sensing and control.
+  * **Mock Objects**: Extend Fake Objects that asserts expected behavior.
 * **Seams**: Ways of inserting test-related code:
-  - **Preprocessing Seams**: Preprocessor macros to replace functions, replace header files, etc.
-  - **Link Seams**: Replace implementation functions (program or system) to define behavior or sense changes.
-  - **Object Seams**: Define interfaces and replace production objects with mock or fake objects in a test harness. (NOTE: Prefer object seams to link or preprocessing seams!)
+  * **Preprocessing Seams**: Preprocessor macros to replace functions, replace header files, etc.
+  * **Link Seams**: Replace implementation functions (program or system) to define behavior or sense changes.
+  * **Object Seams**: Define interfaces and replace production objects with mock or fake objects in a test harness. (NOTE: Prefer object seams to link or preprocessing seams!)
 
 The Legacy Code Change Algorithm is applied in many small iterations over and over again as pieces of the legacy software are changed.
 Over time, these small incremental refactorings can result in significant improvements to the quality and sustainability of the software and can even perform major (beneficial) architectural changes.
