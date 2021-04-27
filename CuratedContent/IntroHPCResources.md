@@ -8,7 +8,7 @@ The  *Survey of Methodologies, Approaches, and Challenges in Parallel Programmin
 <!--- deck text end --->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
-#### Publication date:  Apr 10, 2021
+#### Publication date:  Apr 19, 2021
 
 
 Resource information | Details
