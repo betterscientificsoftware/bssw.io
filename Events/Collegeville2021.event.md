@@ -15,7 +15,7 @@ Recordings and other artifacts from last year's workshop are available at the [C
 
 ### Contribute to Collegeville 2021
 
-Any member of the computational science and engineering community who has an interest in improving developer productivity for scientific software is encouraged to submit content to build the program of Collegeville 2021 (see details on [this web page](https://collegeville.github.io/CW21/Contribute)).  Questions can be emailed to [Mike Heroux](<mheroux@csbsju.edu>).
+Any member of the computational science and engineering community who has an interest in improving developer productivity for scientific software is encouraged to submit content to build the program of Collegeville 2021 (see details on [this web page](https://collegeville.github.io/CW21/Contribute)).  Questions can be emailed to Mike Heroux at mheroux@csbsju.edu.
 
 The following contributions are welcome:
 
