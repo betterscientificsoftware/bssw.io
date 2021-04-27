@@ -11,7 +11,7 @@ Resource information | Details
 Article title  | [Technical Debt: The Ultimate Guide](https://www.bmc.com/blogs/technical-debt-explained-the-complete-guide-to-understanding-and-dealing-with-technical-debt)
 Authors | Stephen Watts, Joe Hertvik
 Length | ~2,700 words, 10 min. read
-Focus | Productivity
+Focus | Project Productivity and Sustainability
 
 Effective management of [*technical debt*](https://en.wikipedia.org/wiki/Technical_debt) is a significant challenge in any software product. The concept of *debt* in a software product is the idea that certain *necessary* development effort is deferred but promised later in order to deliver something sooner.
 
