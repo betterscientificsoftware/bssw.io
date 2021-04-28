@@ -1,4 +1,4 @@
-# Keep Interest on Technical Debt from Sinking your Software Project
+# Keep Interest on Technical Debt from Sinking Your Software Project
 <!--deck text start-->
 A technical debt is like a promissory note for a future development effort that should have been done today, but wasn't for the sake of expediency.
 <!--deck text end-->
