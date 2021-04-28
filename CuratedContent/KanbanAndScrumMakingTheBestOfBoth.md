@@ -1,4 +1,4 @@
-# Kanban and Scrum: Making the best of both
+# Kanban and Scrum: Making the Best of Both
 
 <!--deck text start-->
 Scrum and Kanban are two of the best known lean/agile software project management frameworks.
