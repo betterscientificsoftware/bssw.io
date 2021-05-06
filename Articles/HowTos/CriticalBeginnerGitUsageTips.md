@@ -1,9 +1,9 @@
 # Critical Beginner Git Usage Tips
 
 <!-- deck text start -->
-A few critical beginner Git usage guidelines/tips are listed.
-If one follows these guidelines, one will usually stay out of serious trouble and one can almost always recover an earlier state (at least in the local Git repo).
-(However, once commits are pushed to a branch shared with lots of other people in a remote repo, then it is much harder to correct mistakes.)
+Getting started with Git can be hard and you can create big problems for yourself and others on your projects if you don't know some of the basics.
+This short article provides some critical usage guidelines/tips for Git beginners.
+If you follows these guidelines, you will usually stay out of serious trouble and can almost always recover an earlier state.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](https://bartlettroscoe.github.io/ "Roscoe A. Bartlett")
@@ -55,8 +55,7 @@ Resolves: #123
 Also see: #456, #789
 ```
 
-**C) Create small local "checkpoint" commits then cleanup with 'git rebase -i'
-before pushing.**
+**C) Create small local "checkpoint" commits then cleanup with 'git rebase -i' Before pushing.**
 To provide for easy local "undos" and better organization of changes into final change-sets, commit often locally using "checkpoint" commits (convention is to use commit summary lines starting with "WIP:").
 But before pushing these commits to a remote shared branch, use [`git rebase -i @{u}`](https://www.atlassian.com/git/tutorials/rewriting-history#git-rebase-i) to clean up and reorganize the commits into good "logical" commits (see "SEPARATE CHANGES" above).
 
@@ -85,11 +84,10 @@ Only a corrupted disk that corrupts the local Git DB history (which is extremely
 These get stuck in the Git history **forever** and can only be removed by "[filtering](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)" the Git repo (which is a very disruptive process for everyone involved).
 
 **I) Never do `git push -f` to a remote branch shared with other people unless
-everyone involved really knows what they are doing.** Very few Git users know
-how to adjust to a forced reset remote branch or even what that means.
+everyone involved really knows what they are doing.**
+Very few Git users know how to adjust to a forced reset remote branch or even what that means.
 
-There are many other helpful guidelines that one can come up with for using Git but
-the ones above are arguably the most helpful for Git beginners (and some people that have been using Git for many years but never really learned these basics).
+There are many other helpful guidelines that one can come up with for using Git but the ones above are arguably the most helpful for Git beginners (and some people that have been using Git for many years but never really learned these basics).
 
 <!---
  Publish: preview
