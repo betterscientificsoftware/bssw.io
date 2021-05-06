@@ -13,8 +13,8 @@ If you follows these guidelines, you will usually stay out of serious trouble, b
 * [Set up minimal global settings right away on every new computer.](#minimal_setup)
 * [Create proper logical commits and commit messages.](#logical_commits)
 * [Create small local "checkpoint" commits then cleanup with 'git rebase -i'.](#checkpoint_commits_rebase_i)
-* [Create local commits for local changes before running any commands that might modify/overwrite uncommitted changes.](#commit_before_modifying_ops)
-* [Back up local branches every few hours of work by pushing them to some remote Git repo on a remote machine.](#backup_local_branches)
+* [Create local commits before running any commands that might modify/overwrite uncommitted changes.](#commit_before_modifying_ops)
+* [Back up local branches every few hours of work pushing to remote Git repo on remote machine.](#backup_local_branches)
 * [You can always recover an earlier state of any of your local branches.](#recover_earlier_state)
 * [Never delete a local Git repo (unless you are completely done with it).](#never_delete_local_repo)
 * [Don’t commit large generated (binary) files in a Git repo.](#dont_commit_big_generated_files)
@@ -80,7 +80,7 @@ But before pushing these commits to a remote shared branch, use [`git rebase -i 
 
 <a name="commit_before_modifying_ops"/>
 
-### Create local commits for local changes before running any commands that might modify/overwrite uncommitted changes [[commit_before_modifying_ops](#commit_before_modifying_ops)]
+### Create local commits before running any commands that might modify/overwrite uncommitted changes [[commit_before_modifying_ops](#commit_before_modifying_ops)]
 
 The commands `git pull`, `git merge`, `git rebase`, or other Git operations can alter (or
 delete) your local uncommitted changes, either in the working directory or the staging
@@ -89,7 +89,7 @@ So always create (sometimes temporary) commits for these before running any of t
 
 <a name="backup_local_branches"/>
 
-### Back up local branches every few hours of work by pushing them to some remote Git repo on a remote machine [[backup_local_branches](#backup_local_branches)]
+### Back up local branches every few hours of work pushing to remote Git repo on remote machine [[backup_local_branches](#backup_local_branches)]
 
 This is to safeguard your work in case your local machine or disk goes out or your local `.git/` directory becomes corrupted somehow.
 (Local Git branches are better than Git stashes because you can back them up to other repos in a version controlled way.
