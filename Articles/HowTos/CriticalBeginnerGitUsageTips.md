@@ -3,7 +3,7 @@
 <!-- deck text start -->
 Getting started with Git can be hard and you can create big problems for yourself and others on your projects if you don't know some of the basics.
 This short article provides some critical usage guidelines/tips for Git beginners.
-If you follows these guidelines, you will usually stay out of serious trouble and can almost always recover an earlier state.
+If you follows these guidelines, you will usually stay out of serious trouble, be more productive, and avoid annoying your fellow developers and users (especially the ones that know Git pretty well).
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](https://bartlettroscoe.github.io/ "Roscoe A. Bartlett")
