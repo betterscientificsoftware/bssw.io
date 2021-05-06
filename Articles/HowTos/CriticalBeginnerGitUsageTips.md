@@ -80,3 +80,10 @@ how to adjust to a reset remote branch or even what that means.
 
 There are many other helpful guidelines that one can come up with for using Git as well but
 the above ones are arguably the most helpful for Git beginners (and some Git users that have been using git for many years but never really learned these basic tips).
+
+<!---
+ Publish: preview
+ Pinned: no
+ Topics: revision control, development tools
+ RSS update: 2021-05-??
+ --->
