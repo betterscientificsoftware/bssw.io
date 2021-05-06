@@ -2,17 +2,17 @@
 
 <!-- deck text start -->
 A few critical beginner Git usage guidelines/tips are listed.
-If one follows these guidelines, one will usually stay out of serious trouble and one can almost always recover (at least in the local Git repo).
+If one follows these guidelines, one will usually stay out of serious trouble and one can almost always recover an earlier state (at least in the local Git repo).
 (However, once commits are pushed to a branch shared with lots of other people in a remote repo, then it is much harder to correct mistakes.)
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](https://bartlettroscoe.github.io/ "Roscoe A. Bartlett")
 #### Publication date: May ??, 2021
 
-**A) Set up minimal global settings right away on every new computer!**
-Always set up a consistent global Git user.name and user.email on every machine where you use Git right away!
+**A) Set up minimal global settings right away on every new computer.**
+Always set up a consistent global Git `user.name` and `user.email` on every machine where you use Git right away.
 (Otherwise you will show up as many different developers according to Git, and it is a pain to resolve these in all of the Git repos you commit to after the fact).
-Also, disable push of all branches by default (prior to Git 2.0) or a simple `git push` will push all branches!
+Also, disable push of all branches by default (prior to Git 2.0) or a simple `git push` will push all branches.
 In addition, it is nice to see Git output with color (default is no color).
 And, to avoid having to resolve the same merge conflicts multiple times, turn on the `git rerere` feature.
 To set these on a new machine, run:
@@ -24,6 +24,16 @@ $ git config --global color.ui true        # Use color in git output to terminal
 $ git config --global push.default simple  # Or 'tracking' with older versions of git.
 $ git config --global rerere.enabled 1     # Auto-resolve same conflicts on rebase.
 ```
+
+Also consider setting up your bash shell prompt and `git` command-completion by downloading the bash scripts [git-prompt.sh](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh) and [git-completion.bash](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash) and add activating them by adding them to your `~/.bash_profile` file with the lines:
+
+``` 
+source ~/git-prompt.sh
+source ~/git-completion.bash
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+```
+
+These bash scripts make using Git on the command-line much easier and more productive.
 
 **B) Create proper commits and commit messages.**
 Creating good commits with good commit messages is important for many reasons.
@@ -62,24 +72,24 @@ remote Git repo on a remote machine** in case your local machine or disk goes ou
 You can’t do that with Git stashes.)
 
 **F) You can always recover an earlier state of any of your local branches** by
-looking at [`git reflog`](https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery) and then use a combination [`git checkout`](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) and/or [`git reset –hard`](http://marklodato.github.io/visual-git-guide/index-en.html#reset), etc.
+looking at [`git reflog`](https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery) and then using a combination [`git checkout`](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) and/or [`git reset –hard`](http://marklodato.github.io/visual-git-guide/index-en.html#reset), etc.
 (See [How to undo (almost) anything in Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#redo-after-undo-local).)
 
 **G) Never delete a local Git repo (unless you are completely done with it).**
 Your local Git repos have a [wealth of information that can’t be pushed to other Git repos](https://www.cs.cmu.edu/~davide/howto/git_lose.html) (e.g. `git rerere` info, `git reflog` info, etc.).
-Because of 'F', you should never have to delete a local Git repo and re-clone to get out of some "bad" state.
+Because of **'F'**, you should never have to delete a local Git repo and re-clone to get out of some "bad" state.
 Only a corrupted disk that corrupts the local Git DB history (which is extremely rare) should cause you to have to re-clone the local Git repo.
-(If you feel like you need to delete your local Git repo to get out of some bad state of a non-corrupted repo, then you did not learn the basics of Git well enough so keep learning!)
+(If you feel like you need to delete your local Git repo to get out of some bad state of a non-corrupted repo, then you have not yet learned the basics of Git well enough so keep learning!)
 
 **H) Don’t commit large generated (binary) files in a Git repo** .
 These get stuck in the Git history **forever** and can only be removed by "[filtering](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)" the Git repo (which is a very disruptive process for everyone involved).
 
 **I) Never do `git push -f` to a remote branch shared with other people unless
 everyone involved really knows what they are doing.** Very few Git users know
-how to adjust to a reset remote branch or even what that means.
+how to adjust to a forced reset remote branch or even what that means.
 
-There are many other helpful guidelines that one can come up with for using Git as well but
-the above ones are arguably the most helpful for Git beginners (and some Git users that have been using git for many years but never really learned these basic tips).
+There are many other helpful guidelines that one can come up with for using Git but
+the ones above are arguably the most helpful for Git beginners (and some people that have been using Git for many years but never really learned these basics).
 
 <!---
  Publish: preview
