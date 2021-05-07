@@ -11,10 +11,10 @@ Follows these guidelines for setting up Git and you'll stay out of serious troub
 * [Set up minimal global settings right away on every new computer.](#minimum-global-settings)
 * [Create proper logical commits and commit messages.](#proper-commits-and-messages)
 * [Create small local "checkpoint" commits then cleanup with 'git rebase -i'.](#commit-early-and-often)
-* [Create local commits before running any commands that might modify/overwrite uncommitted changes.](#beware-of-pull-merge-and-rebase)
+* [Create local commits before running any commands that might modify/overwrite uncommitted changes.](#commit-before-pulling-merging-or-rebasing)
 * [Back up local branches every few hours of work pushing to remote Git repo on remote machine.](#backup-frequently-by-pushing-to-remotes)
 * [You can always recover an earlier state of any of your local branches.](#have-an-escape-plan)
-* [Never delete a local Git repo (unless you are completely done with it).](#never-delete-and-reclone)
+* [Never delete a local Git repo (unless you are completely done with it).](#never-delete-and-re-clone)
 * [Don’t commit large generated (binary) files in a Git repo.](#handle-binary-files-with-care)
 * [Never do `git push -f` to a remote branch shared with other people.](#never-force-push)
 
