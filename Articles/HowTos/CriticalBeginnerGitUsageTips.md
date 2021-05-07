@@ -92,7 +92,7 @@ To recover an earlier state , run [`git reflog`](https://git-scm.com/book/en/v2/
 ### Never delete and re-clone
 
 Your local Git repos have a [wealth of information that can’t be pushed to other Git repos](https://www.cs.cmu.edu/~davide/howto/git_lose.html) (e.g. `git rerere` info, `git reflog` info, etc.).
-Because of [[recover_earlier_state](#recover_earlier_state)], you should never have to delete a local Git repo and re-clone to get out of some "bad" state.
+If you [have an escape plan (see above)](#have-an-escape-plan), you should never have to delete a local Git repo and re-clone to get out of some "bad" state.
 Only a corrupted disk that corrupts the local Git DB history (which is extremely rare) should cause you to have to re-clone the local Git repo.
 (If you feel like you need to delete your local Git repo to get out of some bad state of a non-corrupted repo, then you have not yet learned the basics of Git well enough so keep learning!)
 
