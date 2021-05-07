@@ -14,9 +14,9 @@ Follow these simple guidelines for setting up and using Git and you'll stay out 
 * [Create local commits before running any commands that might modify/overwrite uncommitted changes.](#commit-before-pulling-merging-or-rebasing)
 * [Back up local branches every few hours of work pushing to remote Git repo on remote machine.](#backup-frequently-by-pushing-to-remotes)
 * [You can always recover an earlier state of any of your local branches.](#have-an-escape-plan)
-* [Never delete a local Git repo (unless you are completely done with it).](#never-delete-and-re-clone)
+* [Never delete a local Git repo (unless you are completely done with it).](#try-never-to-delete-and-re-clone)
 * [Don’t commit large generated (binary) files in a Git repo.](#handle-binary-files-with-care)
-* [Never do `git push -f` to a remote branch shared with other people.](#never-force-push)
+* [Never do `git push -f` to a remote branch shared with other people.](#try-never-to-force-push)
 
 ### Minimum global settings
 
@@ -89,7 +89,7 @@ You can’t do that with Git stashes.)
 To recover an earlier state , run [`git reflog`](https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery) and then use a combination [`git checkout`](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) and/or [`git reset –hard`](http://marklodato.github.io/visual-git-guide/index-en.html#reset), etc.
 (See [How to undo (almost) anything in Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#redo-after-undo-local).)
 
-### Never delete and re-clone
+### Try never to delete and re-clone
 
 Your local Git repos have a [wealth of information that can’t be pushed to other Git repos](https://www.cs.cmu.edu/~davide/howto/git_lose.html) (e.g. `git rerere` info, `git reflog` info, etc.).
 If you [have an escape plan (see above)](#have-an-escape-plan), you should never have to delete a local Git repo and re-clone to get out of some "bad" state.
@@ -104,7 +104,7 @@ Big generated (binary) files committed to a git repo get stuck in the Git histor
 That said, sometimes handling binary files in a Git repo cannot be avoided in which case consider using Git's [large file support](https://git-lfs.github.com/).
 Git-LFS will add complexity to your workflows but also save you from clogging history.
 
-### Never force push
+### Try never to force push
 
 Never force push to a shared branch unless everyone involved really knows what they are doing.  Very few Git users know how to adjust to a forced reset remote branch or even what that means.
 (However, if everyone involved knows how to adjust with a forced pushed reset branch to a (temp) shared branch, then force pushes are fine.)
