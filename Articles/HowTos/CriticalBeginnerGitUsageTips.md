@@ -1,7 +1,7 @@
 # Critical Beginner Git Usage Tips
 
 <!-- deck text start -->
-Follows these guidelines for setting up and using Git and you'll stay out of serious trouble and be more productive.
+Follow these simple guidelines for setting up and using Git and you'll stay out of serious trouble and be more productive.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](https://bartlettroscoe.github.io/ "Roscoe A. Bartlett")
