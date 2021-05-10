@@ -2,7 +2,7 @@
 **Hero Image:**
 <img src=”?”>
 
-#### Contributed by: Michele Rosso and Andrew Myers
+#### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
 #### Publication Date: May 10, 2021
 
 As GPU-accelerated systems become increasingly common in the HPC world, the challenge for
