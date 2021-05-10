@@ -25,16 +25,11 @@ The SI2 program includes four classes of awards:
 
 Multidisciplinary projects at the SSE, SSI, and S2I2 levels should be submitted to the appropriate SI2 solicitation.
 
-![alt text](https://www.nsf.gov/images/logos/nsf1.jpg "NSF Logo")
-
-
+<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo_NSF_4ColorB_Sm.png' class='logo' />
 
 <!---
 Publish: yes
-Categories: Collaboration
 Topics: Funding sources and programs
-Tags: funding-program
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2017-06-20
 --->
