@@ -117,7 +117,7 @@ Do not commit large generated (binary) files in a Git repo without careful consi
 Most revision control systems, and Git is no exception, are optimized to handle text/ascii files.
 They don't do well with binary files, especially *large* binary files.
 Big generated (binary) files committed to a git repo get stuck in the Git history **forever** and can only be removed by "[filtering](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)" the Git repo (which is a very disruptive process for everyone involved).
-That said, sometimes handling binary files in a Git repo cannot be avoided in which case consider using Git's [large file support](https://git-lfs.github.com/).
+That said, sometimes handling binary files in a Git repo cannot be avoided in which case consider using Git [Large File Storage](https://git-lfs.github.com/) (Git-LSF) support.
 Git-LFS will add complexity to your workflows but also save you from clogging history.
 
 
