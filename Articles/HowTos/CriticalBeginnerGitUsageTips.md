@@ -8,22 +8,21 @@ Follow these simple guidelines for setting up and using Git and you'll stay out 
 #### Publication date: May ??, 2021
 
 **Guidelines:**
-* [Set up minimal global settings right away on every new computer.](#minimum-global-settings)
-* [Create proper logical commits and commit messages.](#proper-commits-and-messages)
-* [Create small local "checkpoint" commits then cleanup with 'git rebase -i'.](#commit-early-and-often)
-* [Create local commits before running any commands that might accidentally modify/overwrite uncommitted changes.](#be-careful-with-local-uncommitted-changes)
-* [Back up local branches every few hours of work pushing to remote Git repo on remote machine.](#backup-frequently-to-remotes)
-* [You can always recover an earlier state of any of your local branches.](#have-an-escape-plan)
-* [Never delete a local Git repo unless you are completely done with it.](#do-not-delete-and-re-clone)
-* [Do not commit large generated (binary) files in a Git repo without careful consideration.](#handle-binary-files-with-care)
-* [Avoid `git push -f` to a remote branch shared with other people.](#avoid-force-push)
+* [Set up minimal global settings right away on every new computer.](#minimal_setup)
+* [Create proper logical commits and commit messages.](#logical_commits)
+* [Create small local "checkpoint" commits then cleanup with 'git rebase -i'.](#small_commits_rebase_i)
+* [Create local commits before running any commands that might accidentally modify/overwrite uncommitted changes.](#uncommitted_changes)
+* [Backup local branches every few hours of work to remote Git repo on remote machine.](#backup_frequently)
+* [You can always recover an earlier state of any of your local branches.](#recover_previous_state)
+* [Never delete a local Git repo unless you are completely done with it.](#dont_delete_and_reclone)
+* [Do not commit large generated (binary) files in a Git repo without careful consideration.](#beware_binary_files)
+* [Avoid `git push -f` to a remote branch shared with other people.](#avoid_force_push)
 
 
-<a name="minimum-global-settings"/>
+<a name="minimal_setup"></a>
 
-### Minimum global settings
+### Set up minimal global settings right away on every new computer <sup>[[minimal_setup](#minimal_setup)]</sup>
 
-Set up minimal global settings right away on every new computer.
 Always set up a consistent global Git `user.name` and `user.email` on every machine where you use Git.
 (Otherwise you will show up as many different developers according to Git, and it is a pain to resolve these in all of the Git repos you commit to after the fact).
 Also, disable push of all branches by default (prior to Git 2.0) or a simple `git push` will push all branches.
@@ -50,11 +49,10 @@ PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 These bash scripts make using Git on the command-line much easier and more productive.
 
 
-<a name="proper-commits-and-messages"/>
+<a name="logical_commits"></a>
 
-### Proper commits and messages
+### Create proper logical commits and commit messages <sup>[[logical_commits](#logical_commits)]</sup>
 
-Create proper logical commits and commit messages.
 Creating good commits with good commit messages is important for many reasons.
 Commits should contain a single logical change (see "SEPARATE CHANGES" in [gitworkows(7)](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html) and "One Commit per Logical Change Solution" in the [Udacity Git course](https://www.udacity.com/course/version-control-with-git--ud123)).
 Commit messages should have a short summary line (under 50 chars is the target) and an optional longer body separated by a blank line (see guidelines in [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)).
@@ -75,61 +73,55 @@ Also see: #456, #789
 ```
 
 
-<a name="commit-early-and-often"/>
+<a name="small_commits_rebase_i"></a>
 
-### Commit early and often 
+### Create small local "checkpoint" commits then cleanup with `git rebase -i` <sup>[[small_commits_rebase_i](#small_commits_rebase_i)]</sup>
 
-Create small local "checkpoint" commits then cleanup with `git rebase -i`.
 To provide for easy local "undos" and better organization of changes into final change-sets, commit often locally using "checkpoint" commits (convention is to use commit summary lines starting with "WIP:").
 But before pushing these commits to a remote shared branch, use [`git rebase -i @{u}`](https://www.atlassian.com/git/tutorials/rewriting-history#git-rebase-i) to clean up and reorganize the commits into good "logical" commits (see "SEPARATE CHANGES" above).
 
 
-<a name="be-careful-with-local-uncommitted-changes"/>
+<a name="uncommitted_changes"></a>
 
-### Be careful with local uncommitted changes
+### Create local commits before running any commands that might accidentally modify/overwrite uncommitted changes <sup>[[uncommitted_changes](#uncommitted_changes)]</sup>
 
-Create local commits before running any commands that might accidentally modify/overwrite uncommitted changes.
 The commands `git pull`, `git merge`, `git rebase`, or other Git operations can alter (or
 delete) your local uncommitted changes, either in the working directory or the staging
 area/index.
 So always create (sometimes temporary) commits for these before running any of these commands (unless you want to throw away uncommitted changes in your local repo, for example with `git checkout`, `git reset`, `git clean`, etc.).
 
 
-<a name="backup-frequently-to-remotes"/>
+<a name="backup_frequently"></a>
 
-### Backup frequently to remotes
+### Backup local branches every few hours of work to remote Git repo on remote machine <sup>[[backup_frequently](#backup_frequently)]</sup>
 
-Back up local branches every few hours of work by pushing to a remote Git repo on a remote machine.
 This is to safeguard your work in case your local machine or disk goes out or your local `.git/` directory becomes corrupted somehow.
 (Local Git branches are better than Git stashes because you can back them up to other repos in a version controlled way.
 You can’t do that with Git stashes.)
 
 
-<a name="have-an-escape-plan"/>
+<a name="recover_previous_state"></a>
 
-### Have an escape plan
+###  You can always recover an earlier state of any of your local branches if you have been careful to commit your work to local branches <sup>[[recover_previous_state](#recover_previous_state)]</sup>
 
-You can always recover an earlier state of any of your local branches if you have been careful to commit your work to local branches.
 To recover an earlier state, run [`git reflog`](https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery) and then use a combination of [`git checkout`](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) and/or [`git reset –hard`](http://marklodato.github.io/visual-git-guide/index-en.html#reset), etc.
 (See [How to undo (almost) anything in Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#redo-after-undo-local).)
 
 
-<a name="do-not-delete-and-re-clone"/>
+<a name="dont_delete_and_reclone"></a>
 
-### Do not delete and re-clone
+### Never delete a local Git repo unless you are completely done with it <sup>[[dont_delete_and_reclone](#dont_delete_and_reclone)]</sup>
 
-Never delete a local Git repo unless you are completely done with it.
 Your local Git repos have a [wealth of information that can’t be pushed to other Git repos](https://www.cs.cmu.edu/~davide/howto/git_lose.html) (e.g. `git rerere` info, `git reflog` info, etc.).
 If you [have an escape plan (see above)](#have-an-escape-plan), you should never have to delete a local Git repo and re-clone to get out of some "bad" state.
 Only a corrupted disk that corrupts the local Git DB history (which is extremely rare) should cause you to have to re-clone the local Git repo.
 (If you feel like you need to delete your local Git repo to get out of some bad state of a non-corrupted repo, then you have not yet learned the basics of Git well enough so keep learning!)
 
 
-<a name="handle-binary-files-with-care"/>
+<a name="beware_binary_files"></a>
 
-### Handle binary files with care
+### Do not commit large generated (binary) files in a Git repo without careful consideration <sup>[[beware_binary_files](#beware_binary_files)]</sup>
 
-Do not commit large generated (binary) files in a Git repo without careful consideration.
 Most revision control systems, and Git is no exception, are optimized to handle text/ascii files.
 They don't do well with binary files, especially *large* binary files.
 Big generated (binary) files committed to a git repo get stuck in the Git history **forever** and can only be removed by "[filtering](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)" the Git repo (which is a very disruptive process for everyone involved).
@@ -137,13 +129,12 @@ That said, sometimes handling binary files in a Git repo cannot be avoided in wh
 Git-LFS will add complexity to your workflows but also save you from clogging history.
 
 
-<a name="avoid-force-push"/>
+<a name="avoid_force_push"></a>
 
-### Avoid force push
+### Avoid `git push -f` to a remote branch shared with other people unless everyone involved really knows what they are doing <sup>[[avoid_force_push](#avoid_force_push)]</sup>
 
-Avoid `git push -f` to a remote branch shared with other people unless everyone involved really knows what they are doing.
 Very few Git users know how to adjust to a forced reset remote branch or even what that means.
-(However, if everyone involved knows how to adjust with a forced pushed reset branch to a (temp) shared branch, then force pushes are fine.)
+(However, if everyone involved knows how to adjust with a forced pushed reset branch to a (temp) shared branch or if the branch is not shared, then forced pushes are fine.)
 
 
 ### Conclusion
