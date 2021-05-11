@@ -7,7 +7,10 @@ Follow these simple guidelines for setting up and using Git and you'll stay out 
 #### Contributed by [Roscoe A. Bartlett](https://bartlettroscoe.github.io/ "Roscoe A. Bartlett")
 #### Publication date: May ??, 2021
 
-**Guidelines:**
+<a name="guidelines"></a>
+
+## Guidelines
+
 * [Set up minimal global settings right away on every new computer.](#minimal-setup)
 * [Create proper logical commits and commit messages.](#logical-commits)
 * [Create small local "checkpoint" commits then cleanup with 'git rebase -i'.](#small-commits-rebase-i)
