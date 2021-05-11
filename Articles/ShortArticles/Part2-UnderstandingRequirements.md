@@ -5,7 +5,6 @@ Understanding and gathering requirements is an essential process in software dev
 <!---deck text end --->
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
-
 #### Publication date: October 26, 2017
 
 In the broadest terms, a requirement is a condition or capability that a software product ought to have. However, by this definition, virtually anything could be considered a requirement. Moreover, because requirements are often subject to change and not all can be known in advance, the name itself can seem misleading. Rather, as a starting point, requirements should be understood as *a device for communication between stakeholders*. Codifying requirements presents an opportunity for everyone involved to express their needs, wants, and expectations for the software. For the customer, that establishes a traceable, verifiable contract against which the software product can be compared, and for the developer, it informs the design specification and the implementation. 
@@ -35,14 +34,8 @@ Meanwhile, explicitly documenting non-functional requirements is important becau
 
 
 <!---
-Publish: Yes
-Categories: Planning
+Publish: yes
 Topics: requirements
-Tags: requirements, whatis, terminology
-Level: 2
-Prerequisites: none
-Aggregate: subresource
-
-% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
-
+Pinned: no
+RSS update: 2017-10-26
 --->
