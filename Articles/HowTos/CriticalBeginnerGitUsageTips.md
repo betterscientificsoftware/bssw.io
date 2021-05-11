@@ -145,7 +145,7 @@ Very few Git users know how to adjust to a forced reset remote branch or even wh
 There are many other helpful guidelines that you can come up with for using Git but the ones above are arguably the most helpful for Git beginners (and some people that have been using Git for many years but never learned these basic guidelines).
 
 <!---
- Publish: preview
+ Publish: yes
  Pinned: no
  Topics: revision control, development tools
  RSS update: 2021-05-??
