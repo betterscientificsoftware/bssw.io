@@ -16,7 +16,7 @@ Web Links | [Video](https://www.youtube.com/watch?v=FmMlBbbc_GE)
 This presentation from the [Argonne Training Program on Extreme-Scale Computing (ATPESC)](https://extremecomputingtraining.anl.gov/archive/atpesc-2016/ "ATPESC 2016 Homepage") gives an overview of strategies for writing effective documentation and includes a brief Doxygen tutorial.
 
 <!---
-Publish: yes
+Publish: preview
 Pinned: no
 Topics: documentation
 RSS update: 2021-05-14 
