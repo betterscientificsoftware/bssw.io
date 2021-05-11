@@ -44,6 +44,12 @@ The first objective is to identify the stakeholders. A stakeholder can be anyone
 - Future space exploration teams, who will directly benefit from the data provided. 
 - The general public, who will ultimately be paying for the software and for whose benefit the work is justified.
 
+## Mini-series list
+- [Overview of Requirements and Requirements Engineering](Part1-RequirementsAndRequirementsEngineering.md)
+- [Understanding requirements](Part2-UnderstandingRequirements.md)
+- [Writing requirements](Part3-WritingRequirements.md)
+- [Understanding and Performing the requirements engineering process](Part4-UnderstandingPerformingRequirementsEngineering.md)
+
 <!---
 Publish: no
 Topics: requirements

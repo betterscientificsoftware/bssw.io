@@ -42,6 +42,12 @@ Having to establish the scope on nonfunctional requirements is a key benefit of 
 
 Thus, its important for requirements to be clearly defined, be un-ambiguous and as specific as possible, so as to ensure that correct expectations about the software are conveyed to all stakeholders and that the resulting product is well-defined, complete and functions as expected.
 
+## Mini-series list
+- [Overview of Requirements and Requirements Engineering](Part1-RequirementsAndRequirementsEngineering.md)
+- [Understanding requirements](Part2-UnderstandingRequirements.md)
+- [Writing requirements](Part3-WritingRequirements.md)
+- [Understanding and Performing the requirements engineering process](Part4-UnderstandingPerformingRequirementsEngineering.md)
+
 <!---
 Publish: yes
 Topics: requirements

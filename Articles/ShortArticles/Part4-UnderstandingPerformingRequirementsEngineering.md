@@ -27,6 +27,12 @@ Because of these factors, one should ensure that the requirements process is bei
 of not as a singular event but as an ongoing activity that spans
 the lifecycle of the scientific product.
 
+## Mini-series list
+- [Overview of Requirements and Requirements Engineering](Part1-RequirementsAndRequirementsEngineering.md)
+- [Understanding requirements](Part2-UnderstandingRequirements.md)
+- [Writing requirements](Part3-WritingRequirements.md)
+- [Understanding and Performing the requirements engineering process](Part4-UnderstandingPerformingRequirementsEngineering.md)
+
 
 <!---
 Publish: yes

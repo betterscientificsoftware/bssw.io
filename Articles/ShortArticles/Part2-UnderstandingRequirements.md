@@ -29,6 +29,12 @@ For functional requirements, the words "specific" and "fundamental" should carry
 
 Meanwhile, explicitly documenting non-functional requirements is important because maximizing quality in every sense is impossible. This is both because a perfect product is too expensive and time-consuming to build, and more importantly because there can be many competing or mutually exclusive measures of quality. Portability conflicts with reliability, maintainability supports reliability but rarely efficiency, and adding functionality strains usability.
 
+## Mini-series list
+- [Overview of Requirements and Requirements Engineering](Part1-RequirementsAndRequirementsEngineering.md)
+- [Understanding requirements](Part2-UnderstandingRequirements.md)
+- [Writing requirements](Part3-WritingRequirements.md)
+- [Understanding and Performing the requirements engineering process](Part4-UnderstandingPerformingRequirementsEngineering.md)
+
 ### Citations
 - Ralph Rowland Young. The requirements engineering handbook. Artech House, 2004.
 
