@@ -36,10 +36,7 @@ In this series, we explore the practical application of requirements engineering
 
 <!---
 Publish: yes
-Categories: Planning
 Topics: Requirements
-Tags: 
-Level: 2
-Prerequisites: Default
-Aggregate: base
+Pinned: no
+RSS update: 2017-10-26
 --->
