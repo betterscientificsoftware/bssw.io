@@ -20,7 +20,7 @@ This [webinar](https://www.youtube.com/watch?v=Ssh8VDj6Nro) explains key points 
 Additionally, this related [on-demand learning blog post](https://bssw.io/blog_posts/on-demand-learning-for-better-scientific-software-how-to-use-resources-technology-to-optimize-your-productivity) provides answers to questions from the webinar's participants about challenges associated with learning in the wild (i.e., as it naturally occurs in a social context).
 
 <!---
-Publish: yes
+Publish: preview
 Pinned: no
 Topics: Personal productivity and sustainability
 RSS update: 2021-05-14
