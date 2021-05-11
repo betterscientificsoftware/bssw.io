@@ -45,12 +45,7 @@ Thus, its important for requirements to be clearly defined, be un-ambiguous and 
 
 <!---
 Publish: yes
-Categories: Planning
 Topics: requirements
-Tags: requirements, howto
-Level: 2
-Prerequisites: defaults
-Aggregate: subresource
-
-% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements
+Pinned: no
+RSS update: 2019-07-21
 --->
