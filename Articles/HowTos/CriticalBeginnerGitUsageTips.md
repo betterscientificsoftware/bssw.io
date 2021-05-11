@@ -1,4 +1,4 @@
-3# Critical Beginner Git Usage Tips
+# Critical Beginner Git Usage Tips
 
 <!-- deck text start -->
 Follow these simple guidelines for setting up and using Git and you'll stay out of serious trouble and be more productive.
@@ -9,7 +9,7 @@ Follow these simple guidelines for setting up and using Git and you'll stay out 
 
 <a name="guidelines"></a>
 
-## Guidelines
+### Guidelines
 
 * [Set up minimal global settings right away on every new computer.](#minimal-setup)
 * [Create proper logical commits and commit messages.](#logical-commits)
