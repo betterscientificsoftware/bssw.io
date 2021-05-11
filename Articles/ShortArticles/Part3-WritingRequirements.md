@@ -6,7 +6,6 @@ Gathering and writing requirements is an essential process in  software developm
 
 
 #### Contributed by [Reed Milewicz](https://github.com/rmmilewi)
-
 #### Publication date:  July 21, 2019
 
 Gathering requirements and charting them down is a typical process in any kind of software development. In this short article, we walk-through some examples of different kinds of requirements and understand how to write them. 
