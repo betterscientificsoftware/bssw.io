@@ -24,9 +24,9 @@ intended for a limited audience and for large-scale, mission-critical
 codes. -->
 
 ## Mini-series list
-- [Understanding requirements](UnderstandingRequirements.md)
-- [Writing requirements](WritingRequirements.md)
-- [Understanding and Performing the requirements engineering process](UnderstandingPerformingRequirementsEngineering.md)
+- [Understanding requirements](Part2-UnderstandingRequirements.md)
+- [Writing requirements](Part3-WritingRequirements.md)
+- [Understanding and Performing the requirements engineering process](Part4-UnderstandingPerformingRequirementsEngineering.md)
 
 ### Citations
 - John S Reel. Critical success factors in software projects. *IEEE Software*, 16(3):18–23, 1999.
