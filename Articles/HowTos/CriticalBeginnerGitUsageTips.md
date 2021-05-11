@@ -105,9 +105,9 @@ You can’t do that with Git stashes.)
 
 <a name="recover-previous-state"></a>
 
-###  You can always recover an earlier state of any of your local branches if you have been careful to commit your work to local branches <sup>[[recover-previous-state](#recover-previous-state)]</sup>
+### You can always recover an earlier state of any of your local branches <sup>[[recover-previous-state](#recover-previous-state)]</sup>
 
-To recover an earlier state, run [`git reflog`](https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery) and then use a combination of [`git checkout`](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) and/or [`git reset –hard`](http://marklodato.github.io/visual-git-guide/index-en.html#reset), etc.
+Assuming you have been committing your changes locally, to recover an earlier state, run [`git reflog`](https://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery) and then use a combination of [`git checkout`](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) and/or [`git reset –hard`](http://marklodato.github.io/visual-git-guide/index-en.html#reset), etc.
 (See [How to undo (almost) anything in Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/#redo-after-undo-local).)
 
 
