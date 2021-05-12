@@ -95,14 +95,14 @@ Here, we list some of the major differences in how Markdown is handled that we c
 The name of the page on the [bssw.io] site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself. For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the bssw.io site and the file name `ATPESC.md` is ignored.
 This can cause conflicts when two or more different `*.md` files have different names in the bssw.io GitHub repository but have the same title because these would map into the same translated page name on the bssw.io site and causes undefined behavior.
 (Please note that simply having the name of the `*.md` file match the title using some convention does not guarantee the avoidance of a conflict.
-That is, files in different subdirectories with the same name and same title will not cause any problems with Git, GitHub, or GitHub Pages, but can result in a conflict with the bssw.io translator.
+That is, files in different subdirectories with the same name and same title will not cause any problems with Git, GitHub, or GitHub Pages, but can result in a conflict with the bssw.io site generator.
 But note that the one exception is that blog files, which are stored in the `Articles/Blog/` directory, are displayed under the URL `https://bssw.io/blog_posts/`, while all other content files are displayed under the URL `https://bssw.io/items/`.)
 
 ### Section links are not supported
 
-Where most standard Markdown renderers will create a internal link for (sub)section headers, the bssw.io translator will not.
+Where most standard Markdown renderers will create a internal link for (sub)section headers, the bssw.io site generator will not.
 For example, the section name `## Nonstandard handling of Markdown` would typically trigger the creation of the HTML anchor `nonstandard-handling-of-markdown` which allows referring to that section using references like `[nonstandard handling](#nonstandard-handling-of-markdown)` (on the same page).
-But the bssw.io translator will not create these section anchors.
+But the bssw.io site generator will not create these section anchors.
 To get around this problem, one can manually add an anchor like `<a name="nonstandard-handling-of-markdown"></a>` directly above the section `## Nonstandard handling of Markdown` in the `*.md` file and then links to `#nonstandard-handling-of-markdown` will work.
 (NOTE: This also works with the GitHub Markdown renderer as well and does not create a conflict.)
 
