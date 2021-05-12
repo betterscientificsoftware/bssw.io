@@ -72,7 +72,7 @@ IBM AC922<br>(Summit<sup>[28],[29],[42]</sup>) | 1e<sup>12</sup> | 14e<sup>16</s
 
 The AGC utilized two types of *core* memory<sup>[17]</sup>: erasable memory
 (2K words) using coincident current cores and fixed (read-only) memory (36K words)
-using rope cores,<sup>[18]</sup> technology specifically designed for and unique to the
+using rope cores,<sup>[18],[47]</sup> technology specifically designed for and unique to the
 AGC. Both were nonvolatile, providing extra protection against data loss during
 faults. The advantages of rope core were superlative robustness and
 significantly higher density because a single core was used to store
@@ -146,7 +146,7 @@ the software would present even greater challenges, ultimately becoming the
 rate-determining factor in delivering flight-ready units.
 
 Because autonomous guidance was so critical for Apollo, NASA funded the development of
-this revolutionary new computer to support it.<sup>[53]</sup> Half a century
+this revolutionary new computer to support it.<sup>[52],[53]</sup> Half a century
 later, because self-driving is so critical in the auto industry, Tesla has
 developed their own custom, proprietary AI chip to support it.<sup>[50]</sup>
 
