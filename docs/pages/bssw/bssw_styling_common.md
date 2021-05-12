@@ -85,18 +85,18 @@ The decision to *allow* or *require* references is one that should be agreed upo
 
 ## Nonstandard handling of Markdown
 
-The [bssw.io](https://bssw.io/) site uses as custom tool to translate the Markdown in each `*.md` file into HTML.
+The [bssw.io] site uses as custom tool to translate the Markdown in each `*.md` file into HTML.
 This tool deals with Markdown differently in several ways compared to other common Markdown renderers (such as GitHub and GitHub Pages).
-It is important to know about these differences up front to avoid problems once the `*.md` files are previewed on preview.bssw.io and finally published to [bssw.io](https://bssw.io/).
-Here, we list some of the the major differences in how Markdown is handled.
+It is important to know about these differences up front to avoid problems once the `*.md` files are previewed on preview.bssw.io and finally published to [bssw.io].
+Here, we list some of the major differences in how Markdown is handled that we currently know about.
 
-### Name of page created from first section name
+### Page name on bssw.io is generated from first section name
 
-The name of the page on the [bssw.io](https://bssw.io/) site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself. For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the site and the file name is ignored. This is similar to how standard Markdown renderers create anchors for regular sections within a document (see below).
-This can cause conflicts when two or more different `*.md` files have different names or different paths but have the same title, are present in the bssw.io github repository because these would map into the same translated page name and causes undefined behavior.
+The name of the page on the [bssw.io] site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself. For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the bssw.io site and the file name `ATPESC.md` is ignored.
+This can cause conflicts when two or more different `*.md` files have different names in the bssw.io GitHub repository but have the same title because these would map into the same translated page name on the bssw.io site and causes undefined behavior.
 (Please note that simply having the name of the `*.md` file match the title using some convention does not guarantee the avoidance of a conflict.
 That is, files in different subdirectories with the same name and same title will not cause any problems with Git, GitHub, or GitHub Pages, but can result in a conflict with the bssw.io translator.
-[Please note that the one exception is that blog files (which are stored in the `Articles/Blog/` directory in GitHub) are displayed under a specific url `https://bssw.io/blog_posts` on the bssw.io site, while all other content files  are displayed under the `https://bssw.io/items/` url )
+But note that the one exception is that blog files, which are stored in the `Articles/Blog/` directory, are displayed under the URL `https://bssw.io/blog_posts/`, while all other content files are displayed under the URL `https://bssw.io/items/`.)
 
 ### Section links are not supported
 
@@ -115,7 +115,7 @@ Since this is typically not what you want, consider replacing underscores "`_`" 
 `this_has_underscores`
 ```
 
-NOTE: We will add more examples of nonstandard handling of Markdown in the future.
+NOTE: We will add more examples of nonstandard handling of Markdown in the future as we discover them.
 
 
 ## Unpublishing Content
