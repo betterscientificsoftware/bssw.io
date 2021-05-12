@@ -16,7 +16,7 @@ Web Links | [Video](https://www.youtube.com/watch?v=FmMlBbbc_GE)
 This short video presentation from the [2016 Argonne Training Program on Extreme-Scale Computing (ATPESC)](https://extremecomputingtraining.anl.gov/archive/atpesc-2016/ "ATPESC 2016 Homepage") gives an overview of why documentation is important in scientific computing projects, different kinds of documentation and strategies for writing effective documentation. It also includes a brief Doxygen tutorial, which will be of interest to readers who are keen on learning about how to use automated documentation tools for their projects.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: documentation
 RSS update: 2017-05-27 
