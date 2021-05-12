@@ -26,7 +26,7 @@ The following TLF resources are also available on BSSw.io
 * [Transmedia Learning Framework for Python](OnlineLearningTLF.Python.md)
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Personal productivity and sustainability
 RSS update: 2018-02-03
