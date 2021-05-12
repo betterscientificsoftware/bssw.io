@@ -39,10 +39,9 @@ at the end of the markdown file, of the form
   - **Note**: The post-processing script renumbers them 1...N
 - `URL`: (**REQUIRED**) The URL for the reference
 - `TIT`: (*optional*) A title for the reference (appears as tool-tip during hover)
-- `BIB`: (*optional*) Full bibliographic information for the reference
-  - Here, we are using the `{BIB}` field, embedded between `{` and `}` in the
-    [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text
-    as a notational *extension*.
+- `{BIB}`: (*optional*) Full bibliographic information for the reference
+  - Here, we are using the `{BIB}` field, embedded in the [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text as a notational *extension*.
+- **Note**: Be sure whatever editor you are using is not inadvertently sneaking in [*smart quotes* or *curly quotes*](https://practicaltypography.com/straight-and-curly-quotes.html) and that you are using only *straight* quotes.
 
 Examples:
 
