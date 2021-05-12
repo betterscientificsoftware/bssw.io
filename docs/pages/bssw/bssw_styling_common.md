@@ -115,6 +115,13 @@ Since this is typically not what you want, consider replacing underscores "`_`" 
 `this_has_underscores`
 ```
 
+### Tables with more than 4 columns are too wide
+
+It would seem the the custom bssw.io Markdown site generator has problems with tables with more than 4 columnns.
+If the table has 5 or more columns, then those columns extend past the right margin of the text on the page.
+For example, the table in [one of the AGC articles](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap) has 5 columns and has column spacing that is too large and extends beyond the right margin.
+It seems that the column widths in this table could be compresssed to easily fit in the margins and still be very readable.
+
 NOTE: We will add more examples of nonstandard handling of Markdown in the future as we discover them.
 
 
