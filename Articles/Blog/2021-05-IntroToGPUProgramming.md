@@ -3,7 +3,7 @@
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0421_Metrics.jpg'>
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
-#### Publication Date: May 10, 2021
+#### Publication Date: May 13, 2021
 
 As GPU-accelerated systems become increasingly common in the HPC world, the challenge for
 domain scientists is to update their computational codes to take full advantage of these new
@@ -179,8 +179,8 @@ References | &nbsp;
 <a name="ref8"></a>8 | [“Roofline Performance Model<br>”](https://docs.nersc.gov/development/performance-debugging-tools/roofline/)
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
-RSS Update: 2021-05-12
+RSS Update: 2021-05-13
 Topics: High-performance computing (HPC)
 --->
