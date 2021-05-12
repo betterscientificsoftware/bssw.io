@@ -85,14 +85,14 @@ The decision to *allow* or *require* references is one that should be agreed upo
 
 ## Nonstandard handling of Markdown
 
-The [bssw.io] site uses as custom tool to translate the Markdown in each `*.md` file into HTML.
+The [bssw.io](https://bssw.io/) site uses as custom tool to translate the Markdown in each `*.md` file into HTML.
 This tool deals with Markdown differently in several ways compared to other common Markdown renderers (such as GitHub and GitHub Pages).
-It is important to know about these differences up front to avoid problems once the `*.md` files are previewed on [preview.bssw.io] and finally published to [bssw.io].
+It is important to know about these differences up front to avoid problems once the `*.md` files are previewed on preview.bssw.io and finally published to [bssw.io](https://bssw.io/).
 Here, the major differences in how Markdown is handled that we know about.
 
 ### Name of page created from first section name
 
-The name of the page on the [bssw.io] site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself.
+The name of the page on the [bssw.io](https://bssw.io/) site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself.
 For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the site and the file name is ignored.
 This is similar to how standard Markdown renderers create anchors for regular sections within a document (see below).
 This can cause conflicts when two or more different `*.md` files have different names or different paths but have the same title.
@@ -118,7 +118,7 @@ Since this is typically not what you want, consider replacing underscores "`_`" 
 `this_has_underscores`
 ```
 
-ToDo: Add more examples of nonstandard handling of Markdown
+NOTE: We will add more examples of nonstandard handling of Markdown in the future.
 
 
 ## Unpublishing Content
