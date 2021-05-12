@@ -49,7 +49,7 @@ Publication | 2016, ISBN:9781558608665
 The *Why Programs Fail: A Guide to Systematic Debugging* by Andreas Zeller focusses on systematic debugging and covers a wide range of tools and techniques ranging from hands-on observation to fully automated diagnoses, and includes instructions for building automated debuggers.
 
 <!---
-Publish: preview
+Publish: yes
 Topics: testing, debugging
 Pinned: no
 RSS update: 2021-05-15
