@@ -1,4 +1,4 @@
-# Transmedia Learning Frameworks
+# Transmedia Learning Frameworks: On-demand Learning for Better Scientific Software
 
 <!-- deck text start -->
 Applying on-demand learning strategies for self-paced "learning in the wild" such as the use of a transmedia learning framework (TLF) can augment professional learning from massively open online courses (MOOC) such as Udacity, and videos available from YouTube and other sources. 
