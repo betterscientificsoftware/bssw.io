@@ -1,6 +1,6 @@
 # A Gentle Introduction to GPU Programming
 **Hero Image:**
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0421_Metrics.jpg'>
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0521_GPU.png'>
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
 #### Publication Date: May 10, 2021
