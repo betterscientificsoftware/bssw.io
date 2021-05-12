@@ -1,10 +1,12 @@
 # Debugging: Books to help you get started
 <!--deck text start-->
-Debugging software can be a challenging task for novice as well as experienced users. This article lists as few good debugging-focussed articles and books to help you get started.
+Are you new to debugging software? This article lists as few good debugging-focussed books/articles to help you get started.
 <!--deck text end-->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 #### Publication date:  May 13, 2021
+
+Debugging software can be a challenging task for novice as well as experienced users. This article lists as few good debugging-focussed articles and books to help you get started.
 
 
 Resource information | Details 
