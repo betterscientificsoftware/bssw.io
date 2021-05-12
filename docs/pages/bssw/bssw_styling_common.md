@@ -88,18 +88,15 @@ The decision to *allow* or *require* references is one that should be agreed upo
 The [bssw.io](https://bssw.io/) site uses as custom tool to translate the Markdown in each `*.md` file into HTML.
 This tool deals with Markdown differently in several ways compared to other common Markdown renderers (such as GitHub and GitHub Pages).
 It is important to know about these differences up front to avoid problems once the `*.md` files are previewed on preview.bssw.io and finally published to [bssw.io](https://bssw.io/).
-Here, the major differences in how Markdown is handled that we know about.
+Here, we list some of the the major differences in how Markdown is handled.
 
 ### Name of page created from first section name
 
-The name of the page on the [bssw.io](https://bssw.io/) site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself.
-For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the site and the file name is ignored.
-This is similar to how standard Markdown renderers create anchors for regular sections within a document (see below).
-This can cause conflicts when two or more different `*.md` files have different names or different paths but have the same title.
-These would map into the same translated page name and causes undefined behavior.
-(NOTE: Simply having the name of the `*.md` file match the title using some convention does not guarantee the avoidance of a conflict.
+The name of the page on the [bssw.io](https://bssw.io/) site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself. For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the site and the file name is ignored. This is similar to how standard Markdown renderers create anchors for regular sections within a document (see below).
+This can cause conflicts when two or more different `*.md` files have different names or different paths but have the same title, are present in the bssw.io github repository because these would map into the same translated page name and causes undefined behavior.
+(Please note that simply having the name of the `*.md` file match the title using some convention does not guarantee the avoidance of a conflict.
 That is, files in different subdirectories with the same name and same title will not cause any problems with Git, GitHub, or GitHub Pages, but can result in a conflict with the bssw.io translator.
-The one exception is that files under `Articles/Blog/` are put under `blog_posts/` on bssw.io while files in other directories are put under `items/`. )
+[Please note that the one exception is that blog files (which are stored in the `Articles/Blog/` directory in GitHub) are displayed under a specific url `https://bssw.io/blog_posts` on the bssw.io site, while all other content files  are displayed under the `https://bssw.io/items/` url )
 
 ### Section links are not supported
 
