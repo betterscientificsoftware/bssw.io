@@ -3,7 +3,7 @@
 - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0421_Metrics.jpg'>
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
-#### Publication Date: May 13, 2021
+#### Publication Date: May 10, 2021
 
 As GPU-accelerated systems become increasingly common in the HPC world, the challenge for
 domain scientists is to update their computational codes to take full advantage of these new
@@ -141,46 +141,18 @@ exceptional speed ups are possible.
 [DPC++ Reference documentation](https://docs.oneapi.com/versions/latest/dpcpp/index.html)<br>
 [Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project)<br>
 
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://www.britannica.com/technology/Moores-law "“Moore’s Law {”}"
-[2]: https://www.rambus.com/blogs/understanding-dennard-scaling-2/ "“Dennard Scaling {”}"
-[3]: https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338 "“The Chips are Down for Moore’s Law {”}"
-[4]: https://www.omnisci.com/technical-glossary/hardware-acceleration "“Hardware Acceleration Definition {”}"
-[5]: https://www.top500.org/ "“Top 500: The List {”}"
-[6]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ "“Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer {”}"
-[7]: https://docs.nersc.gov/systems/cori/ "“Cori {”}"
-[8]: https://docs.nersc.gov/development/performance-debugging-tools/roofline/ "“Roofline Performance Model {”}"
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "“Moore’s Law"
-[2]: #ref2 "“Dennard Scaling"
-[3]: #ref3 "“The Chips are Down for Moore’s Law"
-[4]: #ref4 "“Hardware Acceleration Definition"
-[5]: #ref5 "“Top 500: The List"
-[6]: #ref6 "“Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer"
-[7]: #ref7 "“Cori"
-[8]: #ref8 "“Roofline Performance Model"
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [“Moore’s Law<br>”](https://www.britannica.com/technology/Moores-law)
-<a name="ref2"></a>2 | [“Dennard Scaling<br>”](https://www.rambus.com/blogs/understanding-dennard-scaling-2/)
-<a name="ref3"></a>3 | [“The Chips are Down for Moore’s Law<br>”](https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338)
-<a name="ref4"></a>4 | [“Hardware Acceleration Definition<br>”](https://www.omnisci.com/technical-glossary/hardware-acceleration)
-<a name="ref5"></a>5 | [“Top 500: The List<br>”](https://www.top500.org/)
-<a name="ref6"></a>6 | [“Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer<br>”](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
-<a name="ref7"></a>7 | [“Cori<br>”](https://docs.nersc.gov/systems/cori/)
-<a name="ref8"></a>8 | [“Roofline Performance Model<br>”](https://docs.nersc.gov/development/performance-debugging-tools/roofline/)
+[1]: https://www.britannica.com/technology/Moores-law “Moore’s Law {}”
+[2]: https://www.rambus.com/blogs/understanding-dennard-scaling-2/ “Dennard Scaling {}”
+[3]: https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338 “The Chips are Down for Moore’s Law {}”
+[4]: https://www.omnisci.com/technical-glossary/hardware-acceleration “Hardware Acceleration Definition {}”
+[5]: https://www.top500.org/ “Top 500: The List {}”
+[6]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ “Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer {}”
+[7]: https://docs.nersc.gov/systems/cori/ “Cori {}”
+[8]: https://docs.nersc.gov/development/performance-debugging-tools/roofline/ “Roofline Performance Model {}”
 
 <!---
-Publish: yes
+Publish: preview
 Pinned: no
-RSS Update: 2021-05-13
 Topics: High-performance computing (HPC)
+RSS update: 2021-05-10
 --->
