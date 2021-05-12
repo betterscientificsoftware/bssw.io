@@ -1,19 +1,23 @@
 # Documenting Your Code
 
-My presentation from the [Argonne Training Program on Extreme-Scale Computing (ATPESC)](https://extremecomputingtraining.anl.gov/archive/atpesc-2016/ "ATPESC 2016 Homepage") gives an overview of strategies for writing effective documentation and includes a brief Doxygen tutorial.
-
-[![Alicia Klinvex ATPESC 2016 Talk](https://i.ytimg.com/vi/FmMlBbbc_GE/hqdefault.jpg)](https://www.youtube.com/watch?v=FmMlBbbc_GE)
+<!-- deck text start -->
+This video presentation from the 2016 Argonne Training Program on Extreme-Scale Computing explains why documentation is important in software development, and how to effectively create and maintain code documentation. 
+<!-- deck text end --> 
 
 #### Contributed by [Alicia Klinvex](https://github.com/amklinv)
-
 #### Publication date: May 27, 2017
+
+Resource information | Details
+:--- | :--- 
+Tutorial Title | Documenting Your Code
+Presenter | [Alicia Klinvex](https://github.com/amklinv)
+Web Links | [Video](https://www.youtube.com/watch?v=FmMlBbbc_GE)
+
+This short video presentation from the [2016 Argonne Training Program on Extreme-Scale Computing (ATPESC)](https://extremecomputingtraining.anl.gov/archive/atpesc-2016/ "ATPESC 2016 Homepage") gives an overview of why documentation is important in scientific computing projects, different kinds of documentation and strategies for writing effective documentation. It also includes a brief Doxygen tutorial, which will be of interest to readers who are keen on learning about how to use automated documentation tools for their projects.
 
 <!---
 Publish: yes
-Categories: development
+Pinned: no
 Topics: documentation
-Tags: training, video
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+RSS update: 2017-05-27 
 --->
