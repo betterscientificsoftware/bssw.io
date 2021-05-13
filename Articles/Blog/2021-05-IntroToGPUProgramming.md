@@ -16,7 +16,7 @@ GPU programming, and is intended for the reader unfamiliar with the subject matt
 Until the mid-2000s, the computing capability of microprocessors enjoyed an impressive growth
 that was explained by the observation that the number of transistors on a processor chip
 doubled roughly every 18 months (Moore’s law<sup>[1]</sup>) while the power consumption remained
-constant (Dennard scaling<sup>[2]</sup>). This meant that it was possible to produce faster processors, i.e.
+constant (Dennard scaling<sup>[2]</sup>). This meant that it was possible to produce faster processors, i.e.,
 processors with higher clock speeds, by increasing the transistor count without observing a
 corresponding rise in the energy required to operate them. Around 2003-2004, CPUs
 performance started to flatten<sup>[3]</sup>. As chips became denser with tinier transistors running at higher
