@@ -163,7 +163,7 @@ RSS update: 2021-05-14
 [5]: https://www.top500.org/ "Top 500: The List"
 [6]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ "Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer"
 [7]: https://docs.nersc.gov/systems/cori/ "Cori"
-[8]: https://docs.nersc.gov/development/performance-debugging-tools/roofline/ "Roofline Performance Model"
+[8]: https://docs.nersc.gov/tools/performance/roofline/ "Roofline Performance Model"
 
 END ORIGINAL LINK DEFS -->
 
@@ -189,4 +189,4 @@ References | &nbsp;
 <a name="ref5"></a>5 | [Top 500: The List](https://www.top500.org/)
 <a name="ref6"></a>6 | [Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
 <a name="ref7"></a>7 | [Cori](https://docs.nersc.gov/systems/cori/)
-<a name="ref8"></a>8 | [Roofline Performance Model](https://docs.nersc.gov/development/performance-debugging-tools/roofline/)
+<a name="ref8"></a>8 | [Roofline Performance Model](https://docs.nersc.gov/tools/performance/roofline/)
