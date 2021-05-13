@@ -43,7 +43,7 @@ going to be deployed in the near future based on accelerators from Intel, AMD, a
 
 <br>
 
-<img src='../../images/Blog_0521_CPU_GPU_.png' class='page' />
+<img src='../../images/Blog_0521_CPU_GPU.png' class='page' />
 
 <br>
 
