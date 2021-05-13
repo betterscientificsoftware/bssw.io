@@ -141,18 +141,18 @@ exceptional speed ups are possible.
 [DPC++ Reference documentation](https://docs.oneapi.com/versions/latest/dpcpp/index.html)<br>
 [Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project)<br>
 
-[1]: https://www.britannica.com/technology/Moores-law “Moore’s Law {}”
-[2]: https://www.rambus.com/blogs/understanding-dennard-scaling-2/ “Dennard Scaling {}”
-[3]: https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338 “The Chips are Down for Moore’s Law {}”
-[4]: https://www.omnisci.com/technical-glossary/hardware-acceleration “Hardware Acceleration Definition {}”
-[5]: https://www.top500.org/ “Top 500: The List {}”
-[6]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ “Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer {}”
-[7]: https://docs.nersc.gov/systems/cori/ “Cori {}”
-[8]: https://docs.nersc.gov/development/performance-debugging-tools/roofline/ “Roofline Performance Model {}”
-
 <!---
 Publish: preview
 Pinned: no
 Topics: High-performance computing (HPC)
 RSS update: 2021-05-10
 --->
+
+[1]: https://www.britannica.com/technology/Moores-law "Moore’s Law"
+[2]: https://www.rambus.com/blogs/understanding-dennard-scaling-2/ "Dennard Scaling"
+[3]: https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338 "The Chips are Down for Moore’s Law"
+[4]: https://www.omnisci.com/technical-glossary/hardware-acceleration "Hardware Acceleration Definition"
+[5]: https://www.top500.org/ "Top 500: The List"
+[6]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ "Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer"
+[7]: https://docs.nersc.gov/systems/cori/ "Cori"
+[8]: https://docs.nersc.gov/development/performance-debugging-tools/roofline/ "Roofline Performance Model"
