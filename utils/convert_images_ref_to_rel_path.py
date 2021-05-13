@@ -60,8 +60,8 @@ def replaceImagesRef(mdFilePath):
     for g_external_images_repo_str in g_external_images_repo_str_list:
       newLine = newLine.replace(g_external_images_repo_str, localImagesRef)
     if newLine != line:
-      print("Replacing line: "+line)
-      print("With line     : "+newLine)
+      print("    Replacing line: "+line)
+      print("    With line     : "+newLine)
     fileContentsOutList.append(newLine)
   # Write the output file (if it changed)
   if fileContentsOutList != fileContentsInList:
