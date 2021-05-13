@@ -1,6 +1,7 @@
 # A Gentle Introduction to GPU Programming
 **Hero Image:**
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0521_GPU.png'>
+
+- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0521_GPU.png' />
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
 #### Publication Date: May 10, 2021
@@ -40,9 +41,11 @@ highly-parallel and repetitive computing tasks often found in scientific applica
 of the ten fastest supercomputers in the world are GPU-accelerated systems<sup>[5]</sup>, and more are
 going to be deployed in the near future based on accelerators from Intel, AMD, and Nvidia.
 
+<br>
+
 <img src='../../images/Blog_0521_GPU_CPU.png' class='page' />
 
-</br>
+<br>
 
 ### Host vs device
 On GPU-enabled systems, a heterogeneous programming model leveraging both CPU and
