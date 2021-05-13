@@ -9,8 +9,8 @@
 
 As GPU-accelerated systems become increasingly common in the HPC world, the challenge for
 domain scientists is to update their computational codes to take full advantage of these new
-architectures. This blog post provides a high-level introduction to the main considerations for
-GPU programming, and is intended for the reader unfamiliar with the subject matter.
+architectures. This article provides a high-level introduction to the main considerations for
+GPU programming and is intended for readers unfamiliar with the subject matter.
 
 ### The “end” of Moore’s law
 Until the mid-2000s, the computing capability of microprocessors enjoyed an impressive growth
@@ -18,27 +18,27 @@ that was explained by the observation that the number of transistors on a proces
 doubled roughly every 18 months (Moore’s law<sup>[1]</sup>) while the power consumption remained
 constant (Dennard scaling<sup>[2]</sup>). This meant that it was possible to produce faster processors, i.e.,
 processors with higher clock speeds, by increasing the transistor count without observing a
-corresponding rise in the energy required to operate them. Around 2003-2004, CPUs
+corresponding rise in the energy required to operate them. Around 2003-2004, CPU
 performance started to flatten<sup>[3]</sup>. As chips became denser with tinier transistors running at higher
-clock speeds, heat dissipation turned into an issue and energy usage began to grow
+clock speeds, heat dissipation turned into an issue, and energy usage began to grow
 dramatically. Seeing that these obstacles made it difficult to achieve ever higher clock speeds,
-the focus shifted towards designing multicore chips capable of processing tasks in parallel.
+the focus shifted toward designing multicore chips capable of processing tasks in parallel.
 Thus, the performance gain, as measured by the number of instructions per clock cycle, was
 achieved by raising the processor core count to enable parallelism instead of enhancing the
 computing power of the individual core.
 
 ### Why GPUs?
 In recent years, the need to deliver exascale computing capability and the emergence of
-data-intensive applications such as AI in the form of machine learning prompted the adoption of
+data-intensive applications such as artificial intelligence (AI) in the form of machine learning prompted the adoption of
 hardware accelerators<sup>[4]</sup> to further increase computing performance beyond what multicore
 technology can deliver. An accelerator is any piece of specialized hardware capable of
 performing certain functions more efficiently than general-purpose processors, and it is used to
 complement the CPU with the goal of increasing throughput. Of particular interest for scientific
-computing are the Graphic Processor Unit (GPU) accelerators. While CPUs excel at performing
+computing are Graphic Processor Unit (GPU) accelerators. While CPUs excel at performing
 a wide variety of tasks efficiently, they are capable of executing only a few threads in parallel. In
 contrast, GPUs are specialized in data processing tasks and designed with thousands of
 processing cores to enable massive parallelism. Thus, they are particularly suited for
-highly-parallel and repetitive computing tasks often found in scientific applications. Currently, six
+highly parallel and repetitive computing tasks often found in scientific applications. Currently, six
 of the ten fastest supercomputers in the world are GPU-accelerated systems<sup>[5]</sup>, and more are
 going to be deployed in the near future based on accelerators from Intel, AMD, and Nvidia.
 
@@ -58,7 +58,7 @@ performed on a large number of data elements at the same time. It follows that c
 host commonly executes general-purpose tasks, including memory management for both the
 host and the device, and offloads computationally intensive operations to the device by
 launching specialized functions known as kernels. GPU kernel launches incur a considerable
-overhead compared to CPU function calls and therefore, their use is appropriate when
+overhead compared to CPU function calls; therefore, their use is appropriate when
 performing heavy computations. For this reason, it is often best for performance to combine two
 or more small computational kernels into a single GPU kernel (kernel fusion) when possible.
 
@@ -66,7 +66,7 @@ or more small computational kernels into a single GPU kernel (kernel fusion) whe
 Because host and device have their own separate memory, transfers of data between the two
 are often necessary. However, such transfers are relatively slow compared to the speed at
 which GPUs can perform calculations. To this end, it is beneficial to structure the algorithm in
-such a way that minimizes transferring data between the host and the device as much as
+such a way that it minimizes transferring data between the host and the device as much as
 possible. When data exchange is unavoidable, few large transfers should be preferred over
 many small ones in order to limit the cumulative effect of the overhead associated with each
 transfer, even at the cost of packing/unpacking non-contiguous chunks of data into send/receive
@@ -93,14 +93,14 @@ Thus, reducing the total memory footprint of an application becomes a very impor
 optimization target.
 
 Similar considerations apply to supercomputing clusters such as the Summit<sup>[6]</sup> machine at Oak
-Ridge - at the time of this writing, number 2 on the top 500 list of the world’s fastest
-supercomputers. While Summit has over 10 Petabytes of total system memory, it only has a bit
+Ridge National Laboratory - at the time of this writing, second on the top 500 list of the world’s fastest
+supercomputers. While Summit has over 10 Petabytes of total system memory, it has only a bit
 over 400 Terabytes of device memory - considerably less than the total system memory
 available on previous-generation supercomputers like NERSC’s Cori<sup>[7]</sup>. Thus, if you are running
 in a mode where your entire problem fits on the device at all times - desirable given the
 aforementioned expense of host-device transfers - it is difficult to run as large a problem on
-Summit as you could on Cori. This further highlights the importance of reducing the overall
-memory footprint of your application.
+Summit as you could on Cori. This circumstance further highlights the importance of reducing the overall
+memory footprint of an application.
 
 ### Memory allocation on the device
 Leveraging device memory to store temporary data structures is advantageous to reduce
@@ -112,7 +112,7 @@ once, oftentimes at the beginning/end of program execution. Arenas are typically
 specialized classes that handle the allocation/deallocation process and dispatch chunks of it to
 other objects for use as storage as requested by the program. When these objects are
 destroyed, the arena marks the associated chunk of memory as free without any deallocation
-involved. The advantage is that device memory is reused and calls to system allocation functions
+involved. The advantage is that device memory is reused, and calls to system allocation functions
 are minimized. In this way, dynamic data structures can be used without incurring prohibitive
 memory allocation costs.
 
@@ -122,10 +122,10 @@ by the number of floating point operations per second the accelerator hardware c
 memory bound, meaning limited by the rate at which can be streamed to the multiprocessors
 either from main memory or from various levels of the cache hierarchy. The roofline model<sup>[8]</sup> is a
 method for visually reasoning about the way these factors limit the performance of
-computational kernels. By virtue of the GPUs impressive floating-point performance, it is
-common for GPU kernels in scientific codes to be memory-bound. Consequently, it is often
-faster to recompute intermediate results than save them for other kernels to use. This may help
-reduce the number of allocations on device memory and the total memory footprint on the
+computational kernels. By virtue of the GPUs' impressive floating-point performance, it is
+common for GPU kernels in scientific codes to be memory bound. Consequently, it is often
+faster to recompute intermediate results than save them for other kernels to use. This approach may help
+reduce the number of allocations on device memory and the total memory footprint of the
 application.
 
 Note that the roofline model does not factor in latency, a measure of how long a processor takes
