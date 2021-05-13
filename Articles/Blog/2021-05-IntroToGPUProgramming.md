@@ -40,7 +40,9 @@ highly-parallel and repetitive computing tasks often found in scientific applica
 of the ten fastest supercomputers in the world are GPU-accelerated systems<sup>[5]</sup>, and more are
 going to be deployed in the near future based on accelerators from Intel, AMD, and Nvidia.
 
--CPU vs GPU: Image here-
+<img src='../../images/Blog_0521_GPU_CPU.png' class='page' />
+
+</br>
 
 ### Host vs device
 On GPU-enabled systems, a heterogeneous programming model leveraging both CPU and
