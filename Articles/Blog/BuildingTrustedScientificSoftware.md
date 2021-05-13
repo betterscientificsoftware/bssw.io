@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0618_Building_Trusted_SSw_1176_432.png' />
+ - <img src='../../images/Blog_0618_Building_Trusted_SSw_1176_432.png' />
 
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
@@ -19,7 +19,7 @@ In recent years, I have come to appreciate that many other paired phrases acknow
 <br>
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0618_Building_Trusted_SSw_Table_1250_767_3.png' class='page' />
+<img src='../../images/Blog_0618_Building_Trusted_SSw_Table_1250_767_3.png' class='page' />
 
 <br>
 <br>

@@ -98,7 +98,7 @@ post-conference proceedings; see Figure 1.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview092019.jpg' class='page lightbox'/>[Figure 1. A community-based review concept for scientific publications based on high-qality software contributions.]
+<img src='../../images/NewPeerReview092019.jpg' class='page lightbox'/>[Figure 1. A community-based review concept for scientific publications based on high-qality software contributions.]
 
 <br>
 

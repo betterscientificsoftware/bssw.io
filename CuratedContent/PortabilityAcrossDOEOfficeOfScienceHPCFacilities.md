@@ -15,7 +15,7 @@ Focus | Portability
 
 Achieving good performance across a range of platforms is an important goal for high-performance CSE software. This *[DOE performance portability website](http://performanceportability.org)* is intended to be a living/growing documentation hub and guide for applications teams targeting systems at multiple DOE Office of Science HPC facilities. The site discusses differences between the systems, the software environments, and the job-submission processes. The site also discusses how to define and measure performance portability and provides recommendations based on case studies for the most promising performance-portable programming approaches. 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-perfport.png' class='logo' />
+<img src='../images/Logo-class-perfport.png' class='logo' />
 
 
 

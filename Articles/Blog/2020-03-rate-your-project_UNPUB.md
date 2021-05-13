@@ -6,7 +6,7 @@
 Are you wondering how to embark and start improving your project's software processes and practices? This articles shares somes experiences which may help you get started.
 <!-- deck text end  -->
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_RateYourProjectPoster_20200310.png'/>
+<img src='../../images/Blog_RateYourProjectPoster_20200310.png'/>
 
 #### Contributed by [Gregory Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile")
 

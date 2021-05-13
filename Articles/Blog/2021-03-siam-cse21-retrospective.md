@@ -1,7 +1,7 @@
 # A Look at Software-Focused Topics at SIAM CSE21
 
 **Hero Image:**
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0321_Siam.png'>
+- <img src='../../images/Blog_0321_Siam.png'>
 
 #### Contributed by BSSw Community
 

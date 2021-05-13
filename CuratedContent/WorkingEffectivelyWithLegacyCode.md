@@ -93,7 +93,7 @@ In fact, at some point, the software may have improved to the point where there 
 This book is packed with practical examples that show nearly every trick there is for refactoring nasty code to break dependencies and getting code into a unit test harness.
 After reading this book, you should be convinced of the need for unit testing and TDD.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
+<img src='../images/WorkingEffectivelyWithLegacyCode.jpg' class='logo' />
 
 <br>
 

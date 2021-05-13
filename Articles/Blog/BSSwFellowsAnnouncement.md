@@ -15,21 +15,21 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 ## 2018 BSSw Fellows
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_carver.jpg' class='logo' />
+<img src='../../images/Fell_carver.jpg' class='logo' />
 ### Jeffrey Carver
 University of Alabama, Professor, Computer Science
 
 _BSSw Focus_: Contemporary peer code review in scientific software development
 
 <p>&nbsp;</p>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_jiminez.jpg' class='logo' />
+<img src='../../images/Fell_jiminez.jpg' class='logo' />
 ### Ivo Jimenez
 University of California Santa Cruz, Ph.D. candidate, Computer Science
 
 _BSSw focus_: generation of computational experimentation pipelines that are easy to re-execute and validate
 
 <p>&nbsp;</p>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_katz.jpg' class='logo' />
+<img src='../../images/Fell_katz.jpg' class='logo' />
 ### Daniel S. Katz</b>     
 University of Illinois at Urbana-Champaign, Research Associate Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences
 <br>
@@ -38,7 +38,7 @@ National Center for Supercomputing Applications, Assistant Director for Scientif
 _BSSw focus_: techniques for making scientific software more sustainable by providing credit to its developers via software citation
 
 <p>&nbsp;</p>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_lumsdaine.jpg' class='logo' />
+<img src='../../images/Fell_lumsdaine.jpg' class='logo' />
 ### Andrew Lumsdaine
 Pacific Northwest National Laboratory, Fellow, Advanced Computing, Mathematics, and Data Division
 <br>
@@ -51,22 +51,22 @@ _BSSw focus_: practices for high-performance and high-quality scientific softwar
 ## 2018 BSSw Honorable Mentions
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_davis.jpg' class='logo' />
+<img src='../../images/HM_davis.jpg' class='logo' />
 ### Neal Davis 
 University of Illinois at Urbana-Champaign, Teaching Assistant Professor, Computer Science
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_gonsiorowski.jpg' class='logo' />
+<img src='../../images/HM_gonsiorowski.jpg' class='logo' />
 ### Elsa Gonsiorowski
 Lawrence Livermore National Laboratory, HPC I/O Specialist, Livermore Computing
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_henrydefrahan.jpg' class='logo' />
+<img src='../../images/HM_henrydefrahan.jpg' class='logo' />
 ### Marc Henry de Frahan
 National Renewable Energy Laboratory, Postdoctoral Researcher
 <p>&nbsp;</p>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_li.jpg' class='logo' />
+<img src='../../images/HM_li.jpg' class='logo' />
 ### Ying Li
 Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facility
 <p>&nbsp;</p>

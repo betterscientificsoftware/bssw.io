@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
-- [2019 BSSw Fellows, 2020 BSSw Fellows and 2020 BSSw Honorable Mentions at the Exascale Computing Project Annual Meeting]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>
+- [2019 BSSw Fellows, 2020 BSSw Fellows and 2020 BSSw Honorable Mentions at the Exascale Computing Project Annual Meeting]<img src='../../images/Blog_0720_Fellows.png'/>
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub Profile"), [Ignacio Laguna](https://github.com/ilagunap "Ignacio Laguna GitHub Profile"), [Tanu Malik](https://github.com/TanuMalik "Tanu Malik GitHub Profile"), [Kyle Niemeyer](https://github.com/kyleniemeyer "Kyle Niemeyer GitHub Profile")
 
@@ -21,7 +21,7 @@ BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about mana
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_gassmoeller_rene.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_gassmoeller_rene.jpg' class='logo' />
 </div>  
 
 <div class='short_bio'>
@@ -42,7 +42,7 @@ BSSw Fellow Ignacio Laguna developed tutorials on tools to debug and improve the
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_laguna_ignacio.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_laguna_ignacio.jpg' class='logo' />
 </div>  
 
 <div class='short_bio'>
@@ -63,7 +63,7 @@ BSSw Fellow Tanu Malik developed activities to promote and disseminate the conce
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_malik_tanu.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_malik_tanu.jpg' class='logo' />
 </div> 
 
 <div class='short_bio'>
@@ -83,7 +83,7 @@ BSSw Fellow Kyle Niemeyer condensed and focused his 10-week course for Oregon St
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_niemeyer_kyle.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_niemeyer_kyle.jpg' class='logo' />
 </div> 
 
 <div class='short_bio'>
