@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/Blog_0521_GPU.png' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_0521_GPU.png' />
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
 #### Publication Date: May 14, 2021
@@ -44,7 +44,7 @@ going to be deployed in the near future based on accelerators from Intel, AMD, a
 
 <br>
 
-<img src='../../images/Blog_0521_CPU_GPU.png' class='page' />
+<img src='../../images/Blog_0521_CPU_GPU_.png' class='page' />
 
 <br>
 
