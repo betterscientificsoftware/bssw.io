@@ -1,10 +1,11 @@
 # A Gentle Introduction to GPU Programming
+
 **Hero Image:**
 
-- <img src='../../images/Blog_0521_GPU.png' />
+ - <img src='../../images/Blog_0521_GPU.png' />
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
-#### Publication Date: May 10, 2021
+#### Publication Date: May 14, 2021
 
 As GPU-accelerated systems become increasingly common in the HPC world, the challenge for
 domain scientists is to update their computational codes to take full advantage of these new
@@ -147,10 +148,10 @@ exceptional speed ups are possible.
 [Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project)<br>
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: High-performance computing (HPC)
-RSS update: 2021-05-10
+RSS update: 2021-05-14
 --->
 
 <!-- BEGIN ORIGINAL LINK DEFS
