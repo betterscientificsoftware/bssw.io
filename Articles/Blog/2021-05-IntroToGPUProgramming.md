@@ -1,7 +1,7 @@
 # A Gentle Introduction to GPU Programming
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0521_GPU.png' />
+- <img src='../../images/Blog_0521_GPU.png' />
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
 #### Publication Date: May 10, 2021
@@ -43,7 +43,7 @@ going to be deployed in the near future based on accelerators from Intel, AMD, a
 
 <br>
 
-<img src='../../images/Blog_0521_GPU_CPU.png' class='page' />
+<img src='../../images/Blog_0521_GPU_CPU_.png' class='page' />
 
 <br>
 
