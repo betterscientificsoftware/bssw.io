@@ -5,7 +5,7 @@
  - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_0521_GPU.png' />
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
-#### Publication Date: May 13, 2021
+#### Publication Date: May 14, 2021
 
 As GPU-accelerated systems become increasingly common in the HPC world, the challenge for
 domain scientists is to update their computational codes to take full advantage of these new
@@ -141,17 +141,23 @@ code modifications are usually necessary to evade the performance bottlenecks ou
 exceptional speed ups are possible.
 
 ### For further reading:
-[CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/)<br>
-[GPU offloading with OpenMP](https://developer.ibm.com/technologies/systems/articles/gpu-programming-with-openmp/)<br>
-[ROCm documentation](https://rocmdocs.amd.com/en/latest/index.html)<br>
-[DPC++ Reference documentation](https://docs.oneapi.com/versions/latest/dpcpp/index.html)<br>
-[Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project)<br>
+- [CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/)<br>
+- [GPU offloading with OpenMP](https://developer.ibm.com/technologies/systems/articles/gpu-programming-with-openmp/)<br>
+- [ROCm documentation](https://rocmdocs.amd.com/en/latest/index.html)<br>
+- [DPC++ Reference documentation](https://docs.oneapi.com/versions/latest/dpcpp/index.html)<br>
+- [Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project)<br>
+
+### Author bios
+
+Michele Rosso is a Project Scientist in the Center for Computational Sciences and Engineering at Lawrence Berkeley National Laboratory. His research focuses on the development and implementation of adaptive mesh multi-physics algorithms for many-cores and GPU architectures. He contributes to several computational fluid dynamics software projects, including the MFIX-Exa multi-phase flow simulation tool and the adaptive mesh Navier-Stokes solver code IAMR.
+
+Andrew Myers is a Computer Systems Engineer in the Center for Computational Sciences and Engineering at Lawrence Berkeley National Laboratory. His work focuses on scalable particle methods for emerging architectures in the context of adaptive mesh refinement. He is a core contributor to several GPU-ready open-source scientific software projects, including the AMReX adaptive mesh refinement framework and the electromagnetic Particle-in-Cell code WarpX.
 
 <!---
 Publish: yes
 Pinned: no
 Topics: High-performance computing (HPC)
-RSS update: 2021-05-13
+RSS update: 2021-05-14
 --->
 
 <!-- BEGIN ORIGINAL LINK DEFS
