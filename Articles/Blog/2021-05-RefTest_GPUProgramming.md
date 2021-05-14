@@ -1,4 +1,4 @@
-# A Gentle Introduction to GPU Programming
+# A Test for References (See very bottom of post)
 
 **Hero Image:**
 
