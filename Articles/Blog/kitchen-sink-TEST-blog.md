@@ -1,5 +1,8 @@
 # Kitchen-sink resource test in Blog
 
+**Hero Image:**
+- [Hero URL prefix: ../../images (should work on GH)]<img src='../../images/Blog_1119_WorkThankful.jpg'>
+
 #### Publication date: December 12, 2017
 
 
