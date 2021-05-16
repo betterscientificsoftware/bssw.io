@@ -153,28 +153,51 @@ Michele Rosso is a Project Scientist in the Center for Computational Sciences an
 
 Andrew Myers is a Computer Systems Engineer in the Center for Computational Sciences and Engineering at Lawrence Berkeley National Laboratory. His work focuses on scalable particle methods for emerging architectures in the context of adaptive mesh refinement. He is a core contributor to several GPU-ready open-source scientific software projects, including the AMReX adaptive mesh refinement framework and the electromagnetic Particle-in-Cell code WarpX.
 
-### References
-
-<div class="references-wrapper">
-<div class="references">
-<a name="ref1" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf">Moore’s Law</a>
-<a name="ref2" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf">Dennard Scaling</a>
-<a name="ref3" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf">The Chips are Down for Moore’s Law</a>
-<a name="ref4" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf">Hardware Acceleration Definition</a>
-</div>
-  
-<div class="references">
-<a name="ref5" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf">Top 500: The List</a>
-<a name="ref6" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf">Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer</a>
-<a name="ref7" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_AreWeDoingTheRightThing.pdf">Cori</a>
-<a name="ref8" href="https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf">HRoofline Performance Model</a>
-</div>
-</div>
-
-
 <!---
 Publish: yes
 Pinned: no
 Topics: High-performance computing (HPC)
 RSS update: 2021-05-14
 --->
+<!-- BEGIN ORIGINAL LINK DEFS
+
+[1]: https://www.britannica.com/technology/Moores-law "Moore’s Law"
+[2]: https://www.rambus.com/blogs/understanding-dennard-scaling-2/ "Dennard Scaling"
+[3]: https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338 "The Chips are Down for Moore’s Law"
+[4]: https://www.omnisci.com/technical-glossary/hardware-acceleration "Hardware Acceleration Definition"
+[5]: https://www.top500.org/ "Top 500: The List"
+[6]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ "Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer"
+[7]: https://docs.nersc.gov/systems/cori/ "Cori"
+[8]: https://docs.nersc.gov/tools/performance/roofline/ "Roofline Performance Model"
+
+END ORIGINAL LINK DEFS -->
+
+<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
+
+<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
+[1]: #ref1 "Moore’s Law"
+[2]: #ref2 "Dennard Scaling"
+[3]: #ref3 "The Chips are Down for Moore’s Law"
+[4]: #ref4 "Hardware Acceleration Definition"
+[5]: #ref5 "Top 500: The List"
+[6]: #ref6 "Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer"
+[7]: #ref7 "Cori"
+[8]: #ref8 "Roofline Performance Model"
+
+### References
+
+<div class="references-wrapper">
+<div class="references">
+<a name="ref1"></a>1 [Moore’s Law](https://www.britannica.com/technology/Moores-law)
+<a name="ref2"></a>2 [Dennard Scaling](https://www.rambus.com/blogs/understanding-dennard-scaling-2/)
+<a name="ref3"></a>3 [The Chips are Down for Moore’s Law](https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338)
+<a name="ref4"></a>4 [Hardware Acceleration Definition](https://www.omnisci.com/technical-glossary/hardware-acceleration)
+</div>
+
+<div class="references">
+<a name="ref5"></a>5 [Top 500: The List](https://www.top500.org/)
+<a name="ref6"></a>6 [Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
+<a name="ref7"></a>7 [Cori](https://docs.nersc.gov/systems/cori/)
+<a name="ref8"></a>8 [Roofline Performance Model](https://docs.nersc.gov/tools/performance/roofline/)
+ </div>
+ </div>
