@@ -188,16 +188,16 @@ END ORIGINAL LINK DEFS -->
 
 <div class="references-wrapper">
 <div class="references">
-<a name="ref1" href="https://www.britannica.com/technology/Moores-law">Moore’s Law</a>1 [Moore’s Law](https://www.britannica.com/technology/Moores-law)
-<a name="ref2" href="https://www.rambus.com/blogs/understanding-dennard-scaling-2/">Dennard Scaling</a>2 [Dennard Scaling](https://www.rambus.com/blogs/understanding-dennard-scaling-2/)
-<a name="ref3" href="https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338">The Chips are Down for Moore’s Law</a>3 [The Chips are Down for Moore’s Law](https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338)
-<a name="ref4" href="https://www.omnisci.com/technical-glossary/hardware-acceleration">Hardware Acceleration Definition</a>4 [Hardware Acceleration Definition](https://www.omnisci.com/technical-glossary/hardware-acceleration)
+<a name="ref1" href="https://www.britannica.com/technology/Moores-law">Moore’s Law</a>
+<a name="ref2" href="https://www.rambus.com/blogs/understanding-dennard-scaling-2/">Dennard Scaling</a>
+<a name="ref3" href="https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338">The Chips are Down for Moore’s Law</a>
+<a name="ref4" href="https://www.omnisci.com/technical-glossary/hardware-acceleration">Hardware Acceleration Definition</a>
 </div>
 
 <div class="references">
-<a name="ref5" href="https://www.top500.org/">Top 500: The List</a>5 [Top 500: The List](https://www.top500.org/)
-<a name="ref6" href="https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/">Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer</a>6 [Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
-<a name="ref7" href="https://docs.nersc.gov/systems/cori/">Cori</a>7 [Cori](https://docs.nersc.gov/systems/cori/)
-<a name="ref8" href="https://docs.nersc.gov/tools/performance/roofline/">Roofline Performance Model</a>8 [Roofline Performance Model](https://docs.nersc.gov/tools/performance/roofline/)
+<a name="ref5" href="https://www.top500.org/">Top 500: The List</a>
+<a name="ref6" href="https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/">Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer</a>
+<a name="ref7" href="https://docs.nersc.gov/systems/cori/">Cori</a>
+<a name="ref8" href="https://docs.nersc.gov/tools/performance/roofline/">Roofline Performance Model</a>(https://docs.nersc.gov/tools/performance/roofline/)
  </div>
  </div>
