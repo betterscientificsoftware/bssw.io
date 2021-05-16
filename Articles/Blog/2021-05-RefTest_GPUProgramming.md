@@ -198,6 +198,6 @@ END ORIGINAL LINK DEFS -->
 <a name="ref5" href="https://www.top500.org/">Top 500: The List</a>
 <a name="ref6" href="https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/">Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer</a>
 <a name="ref7" href="https://docs.nersc.gov/systems/cori/">Cori</a>
-<a name="ref8" href="https://docs.nersc.gov/tools/performance/roofline/">Roofline Performance Model</a>(https://docs.nersc.gov/tools/performance/roofline/)
+<a name="ref8" href="https://docs.nersc.gov/tools/performance/roofline/">Roofline Performance Model</a>
  </div>
  </div>
