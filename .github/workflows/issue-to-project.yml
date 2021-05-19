@@ -9,7 +9,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  assign_internal:
+  assign_to_board:
     runs-on: ubuntu-latest
     name: Assign to proper board based on labels
     steps:
