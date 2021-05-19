@@ -30,7 +30,7 @@ the threads from all other thread pools are idle, but this is still a precarious
 
 What is compatible is for different software packages to all be compiled with the same
 compiler and all use OpenMP directives.
-This allows them all to use the same thread pool implementation, and will share the hardware
+This allows them all to use the same thread pool implementation and share the hardware
 resources appropriately.
 In the case where one package executes at a time, the currently executing package will benefit
 from all software threads in the pool.
@@ -58,19 +58,16 @@ These tools make use of more fundamental tools like OpenMP and CUDA, and so thei
 compatibility can usually be derived from the compatibility of the lower-level tools they are using.
 For example, if one package uses OCCA to transform their code into CUDA, and another
 package uses Kokkos's CUDA backend, then those two packages should be reasonably interoperable.
-Conversely, if one package uses OCCA to tranform their code to use OpenMP,
+Conversely, if one package uses OCCA to transform their code to use OpenMP,
 and another package uses Kokkos's Threads backend, then they will not be as interoperable
 because of the different implementations of thread pools.
 
 
 
 <!---
-Publish: yes
-Categories: performance
+Publish: preview
+Pinned: no
 Topics: Performance portability
-Tags: document
-Level: 1
-Prerequisites: defaults
-Aggregate: none
+RSS update: 2021-05-12
 --->
 
