@@ -57,7 +57,7 @@ because of the different implementations of thread pools.
 
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Performance portability
 RSS update: 2021-05-12
