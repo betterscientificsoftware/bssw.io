@@ -9,27 +9,17 @@ Tools such as OpenMP and CUDA are helping scientific applications achieve perfor
 #### Publication date: July 20, 2019
 
 As applications begin to enable performance portability through the use of
-tools such a OpenMP and CUDA, they may encounter issues related to compability of tools used by different libraries they depend on. This document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
+tools such a OpenMP and Compute Unified Device Architecture (CUDA), they may encounter issues related to compability of tools used by different libraries they depend on. This short document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
 
 ### Threading Tools
 #### Thread Pool Incompatibilities
 
-OpenMP is a standard which describes an interface to a thread pool.
-Different compilers such as GNU and Intel have different implementations of thread pools.
-Other tools provide implementations of thread pools based on the `pthread` library, for example.
+OpenMP is a standard which describes an interface to a thread pool. Different compilers such as GNU and Intel have different implementations of thread pools. Other tools provide implementations of thread pools based on the `pthread` library, for example.
 
-Different implementations of thread pools are usually incompatible, because
-each implementation assumes it has ownership of all on-node hardware thread
-resources, and creates correspondingly many software threads.
-The software threads from different thread pool implementations then compete
-for the hardware thread resources.
-This contention may be somewhat manageable if, while one thread pool executes,
-the threads from all other thread pools are idle, but this is still a precarious situation.
+Different implementations of thread pools are usually incompatible, because each implementation assumes it has ownership of all on-node hardware thread resources, and creates correspondingly many software threads. The software threads from different thread pool implementations then compete for the hardware thread resources. This contention may be somewhat manageable if, while one thread pool executes, the threads from all other thread pools are idle, but this is still a precarious situation.
 
 #### Same-Compiler OpenMP is Compatible
-
-What is compatible is for different software packages to all be compiled with the same
-compiler and all use OpenMP directives.
+What is compatible is that all different software packages be compiled with the same compiler and all of them use OpenMP directives.
 This allows them all to use the same thread pool implementation, and will share the hardware
 resources appropriately.
 In the case where one package executes at a time, the currently executing package will benefit
@@ -41,15 +31,9 @@ is optimal for that package.
 
 ### GPU Tools
 
-Normal OpenMP threading is compatible with CUDA, and there are known examples of
-codes that use both at the same time.
-
-However, OpenMP added a target offload capability which can make use of GPUs, and some implementations
-of OpenMP target offload are incompatible with CUDA, because they each set up conflicting CUDA contexts.
-
-
-OpenACC, on the other hand, should be compatible with CUDA, in part because they are both
-developed by NVIDIA.
+The normal OpenMP threading library is compatible with CUDA, and there are known examples of
+codes that use both at the same time. However, OpenMP added a target offload capability which can make use of GPUs, and some implementations
+of OpenMP target offload are incompatible with CUDA, because they each set up conflicting CUDA contexts. OpenACC, on the other hand, should be compatible with CUDA, in part because they are both developed by NVIDIA.
 
 ### Higher-Level Tools
 
@@ -66,11 +50,8 @@ because of the different implementations of thread pools.
 
 <!---
 Publish: yes
-Categories: performance
 Topics: Performance portability
-Tags: document
-Level: 1
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2019-07-20
 --->
 
