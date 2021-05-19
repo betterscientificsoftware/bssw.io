@@ -1,5 +1,8 @@
 # Team
  
+ 
+The Better Scientific Software (BSSw) team includes both contributors of content as well as the site editors and partners.  
+
 [Contributors](https://bssw.io/items/authors) to the Better Scientific Software (BSSw) site (representing researchers, practitioners, and stakeholders from throughout the world) are providing information about a wide range of topics related to scientific software productivity and sustainability.  We invite anyone interested in high-quality scientific software to [contribute to the site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).   
 
 A group of editors is committed to seeing that the contributions are published and disseminated in the service of improved software for computational science and engineering (CSE) and related technical computing areas.
