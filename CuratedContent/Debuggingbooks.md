@@ -4,7 +4,7 @@ Are you new to debugging software? This article lists several good debugging-foc
 <!--deck text end-->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
-#### Publication date:  May 13, 2021
+#### Publication date:  May 19, 2021
 
 Debugging software can be a challenging task for novice and experienced users alike. This article lists a few good debugging-focused articles and books to help you get started.
 
@@ -54,5 +54,5 @@ Publication | 2016, ISBN:9781558608665
 Publish: yes
 Topics: testing, debugging
 Pinned: no
-RSS update: 2021-05-15
+RSS update: 2021-05-19
 --->
