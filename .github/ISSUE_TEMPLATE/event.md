@@ -2,8 +2,7 @@
 name: Event
 about: Template for Submitting an Event Notice 
 title: Event Notice
-labels: event
-assignees: bernhold
+labels: 'content: event'
 ---
 Enter details here by replacing *italicized text* with actual event information and without adding or removing lines.  You are encouraged to look at some [published events](https://bssw.io/events) in order to get a feel for how the requested information will appear on the site.
 
