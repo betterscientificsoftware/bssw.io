@@ -10,6 +10,9 @@ The site provides instructional materials, WhatIs and HowTo documents (concise c
 ### Who Contributes and Why?
 We welcome contributions from anyone who would like to share information on software issues for CSE.  Goals are to help CSE researchers work more effectively  within their own projects and to increase collaboration, leverage, recognition, and impact — all with the long-term goal of advancing scientific discoveries.  Please see details on [how to contribute to BSSw](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).
 
+### Code of Conduct
+We expect all contributors to follow a Contributor Code of Conduct, as described in the [BSSw Policies](https://bssw.io/pages/policies).
+
 <!---
 BSSw Site: Get Oriented: Site Overview
 --->
