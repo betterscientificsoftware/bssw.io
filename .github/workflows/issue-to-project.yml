@@ -13,28 +13,34 @@ jobs:
     runs-on: ubuntu-latest
     name: Assign to proper board based on labels
     steps:
-    - name: Assign site-internal ISSUES to the BSSw Internal project board
+    - name: Assign site-internal ISSUES to the INTERNAL board
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: |
         contains(github.event.issue.labels.*.name, 'scope: site-internal')
       with:
         project: 'https://github.com/betterscientificsoftware/bssw.io/projects/2'
         column_name: 'Backlog'
-    - name: Assign site-internal PRs to the BSSw Internal project board
+    - name: Assign site-internal PRs to the INTERNAL board
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: |
          contains(github.event.pull_request.labels.*.name, 'scope: site-internal')
       with:
         project: 'https://github.com/betterscientificsoftware/bssw.io/projects/2'
         column_name: 'In progress'        
-    - name: Assign content ISSUES to the Content Development project board
+    - name: Assign content ISSUES to the CONTENT board
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: |
-        contains(github.event.issue.labels.*.name, 'content: article')
+        contains(github.event.issue.labels.*.name, 'content: article') ||
+        contains(github.event.issue.labels.*.name, 'content: blog') ||
+        contains(github.event.issue.labels.*.name, 'content: curated') ||
+        contains(github.event.issue.labels.*.name, 'content: event') ||
+        contains(github.event.issue.labels.*.name, 'content: howto') ||
+        contains(github.event.issue.labels.*.name, 'content: updates') ||
+        contains(github.event.issue.labels.*.name, 'content: whatis')
       with:
         project: 'https://github.com/betterscientificsoftware/bssw.io/projects/3'
         column_name: 'Idea backlog'
-    - name: Assign content PRs to the Content Devleopment project board
+    - name: Assign content PRs to the CONTENT board
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: |
          contains(github.event.pull_request.labels.*.name, 'content: article')
