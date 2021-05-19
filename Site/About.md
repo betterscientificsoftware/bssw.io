@@ -1,10 +1,8 @@
-# About
+# Team
  
-The Better Scientific Software (BSSw) community is an international group of researchers, practitioners, and stakeholders who are dedicated to curating, creating, and disseminating information that leads to improved software for computational science and engineering (CSE) and related technical computing areas.
+[Contributors](https://bssw.io/items/authors) to the Better Scientific Software (BSSw) site (representing researchers, practitioners, and stakeholders from throughout the world) are providing information about a wide range of topics related to scientific software productivity and sustainability.  We invite anyone interested in high-quality scientific software to [contribute to the site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).   
 
-We’re creating a clearinghouse to gather, discuss, and disseminate experiences, techniques, tools, and other resources to improve developer productivity and software sustainability—a key element of overall scientific productivity.  Site users can find information on many scientific software topics and can propose to curate or create new content based on their own experiences.  See [BSSw contributors](https://bssw.io/items/authors) thus far ... And join us!  We invite anyone interested in CSE software to [contribute to the site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software). 
-
-We expect all contributors to the Better Scientific Software site to follow a Contributor Code of Conduct, as described in the [BSSw Policies](https://bssw.io/pages/policies).
+A group of editors is committed to seeing that the contributions are published and disseminated in the service of improved software for computational science and engineering (CSE) and related technical computing areas.
 
 ## BSSw Editorial Team
 
