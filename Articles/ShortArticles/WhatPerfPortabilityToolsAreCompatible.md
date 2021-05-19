@@ -5,7 +5,6 @@ Tools such as OpenMP and CUDA are helping scientific applications achieve perfor
 <!--- deck text end --->
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)
-
 #### Publication date: July 20, 2019
 
 As applications begin to enable performance portability through the use of
@@ -45,8 +44,6 @@ package uses Kokkos's CUDA backend, then those two packages should be reasonably
 Conversely, if one package uses OCCA to tranform their code to use OpenMP,
 and another package uses Kokkos's Threads backend, then they will not be as interoperable
 because of the different implementations of thread pools.
-
-
 
 <!---
 Publish: yes
