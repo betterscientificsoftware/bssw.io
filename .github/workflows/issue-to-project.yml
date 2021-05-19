@@ -27,3 +27,17 @@ jobs:
       with:
         project: 'https://github.com/betterscientificsoftware/bssw.io/projects/2'
         column_name: 'In progress'        
+    - name: Assign content ISSUES to the Content Development project board
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: |
+        contains(github.event.issue.labels.*.name, 'content: article')
+      with:
+        project: 'https://github.com/betterscientificsoftware/bssw.io/projects/3'
+        column_name: 'Idea backlog'
+    - name: Assign content PRs to the Content Devleopment project board
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: |
+         contains(github.event.pull_request.labels.*.name, 'content: article')
+      with:
+        project: 'https://github.com/betterscientificsoftware/bssw.io/projects/3'
+        column_name: 'Item review'        
