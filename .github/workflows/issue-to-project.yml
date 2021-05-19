@@ -1,0 +1,29 @@
+name: Auto Assign to Project(s)
+
+on:
+  issues:
+    types: [opened, labeled]
+  pull_request:
+    types: [opened, labeled]
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  assign_internal:
+    runs-on: ubuntu-latest
+    name: Assign to proper board based on labels
+    steps:
+    - name: Assign site-internal ISSUES to the BSSw Internal project board
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: |
+        contains(github.event.issue.labels.*.name, 'scope: site-internal')
+      with:
+        project: 'https://github.com/betterscientificsoftware/bssw.io/projects/2'
+        column_name: 'Backlog'
+    - name: Assign site-internal PRs to the BSSw Internal project board
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: |
+         contains(github.event.pull_request.labels.*.name, 'scope: site-internal')
+      with:
+        project: 'https://github.com/betterscientificsoftware/bssw.io/projects/2'
+        column_name: 'In progress'        
