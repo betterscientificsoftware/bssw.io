@@ -1,4 +1,4 @@
-# Team
+# About
  
  
 The Better Scientific Software (BSSw) team includes both contributors of content as well as the site editors and partners.  
