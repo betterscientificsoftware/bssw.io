@@ -9,7 +9,7 @@ Tools such as OpenMP and CUDA are helping scientific applications achieve perfor
 #### Publication date: July 20, 2019
 
 As applications begin to enable performance portability through the use of
-tools such a OpenMP and CUDA, they may encounter issues related to compability of tools used by different libraries they depend on. This document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
+tools such a OpenMP and Compute Unified Device Architecture (CUDA), they may encounter issues related to compability of tools used by different libraries they depend on. This short document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
 
 ### Threading Tools
 #### Thread Pool Incompatibilities
@@ -41,14 +41,7 @@ is optimal for that package.
 
 ### GPU Tools
 
-Normal OpenMP threading is compatible with CUDA, and there are known examples of
-codes that use both at the same time.
-
-However, OpenMP added a target offload capability which can make use of GPUs, and some implementations
-of OpenMP target offload are incompatible with CUDA, because they each set up conflicting CUDA contexts.
-
-
-OpenACC, on the other hand, should be compatible with CUDA, in part because they are both
+Normal OpenMP threading is compatible with CUDA, and there are known examples of codes that use both at the same time. However, OpenMP added a target offload capability which can make use of GPUs, and some implementations of OpenMP target offload are incompatible with CUDA, because they each set up conflicting CUDA contexts. OpenACC, on the other hand, should be compatible with CUDA, in part because they are both
 developed by NVIDIA.
 
 ### Higher-Level Tools
@@ -61,7 +54,6 @@ package uses Kokkos's CUDA backend, then those two packages should be reasonably
 Conversely, if one package uses OCCA to transform their code to use OpenMP,
 and another package uses Kokkos's Threads backend, then they will not be as interoperable
 because of the different implementations of thread pools.
-
 
 
 <!---
