@@ -16,7 +16,7 @@ Publication | 2019, ISBN 9780135957059
 Resource information | Details
 :--- | :--- 
 Resource name | Blog posts
-Websites | [Rubber Duck Debugging: The Psychology of How it Works](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/), [What is Rubber Duck Debugging?](https://www.kenzie.academy/blog/what-is-rubber-duck-debugging/)
+Websites | [Rubber Duck Debugging: The Psychology of How it Works](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/),<br>[What is Rubber Duck Debugging?](https://www.kenzie.academy/blog/what-is-rubber-duck-debugging/)
 Focus | How any why rubber duck debugging works
 
 Have you ever had that experience where you're having a problem with your code and you can't figure it out.  You ask a colleague to to help you.  And as soon as you start explaining to them what the code is supposed to do, you figure out what the problem is?  It wasn't your colleague, it was really just the mindset associated with having to explain the code to them that allowed you to see what you'd missed until now.  This is the principle behind *Rubber Duck Debugging* or somtimes, simply *Rubber Ducking*.
