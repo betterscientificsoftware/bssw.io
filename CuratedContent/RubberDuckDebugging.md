@@ -5,7 +5,7 @@ It has a funny name, but it can be a really effective technique to help understa
 <!-- deck text end --> 
 
 #### Contributed by [David E. Bernholdt](http://github.com/bernhold "David E. Bernholdt")
-#### Publication date: May 14, 2021
+#### Publication date: May 21, 2021
 
 Resource information | Details
 :--- | :--- 
@@ -28,7 +28,7 @@ The list of resources cited above on rubber duck debugging is far from exhaustiv
 <!---
 Publish: preview
 Pinned: no
-RSS update: 2021-05-14
+RSS update: 2021-05-21
 Topics: debugging, personal productivity and sustainability
 --->
 
