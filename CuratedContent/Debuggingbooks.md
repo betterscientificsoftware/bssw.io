@@ -1,12 +1,12 @@
 # Debugging: Books to Help You Get Started
 <!--deck text start-->
-Are you new to debugging software? This article lists several good debugging-focused books/articles to help you get started.
+Are you new to debugging? This article lists several good debugging-focused books/articles to help you get started in debugging your software. 
 <!--deck text end-->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 #### Publication date:  May 19, 2021
 
-Debugging software can be a challenging task for novice and experienced users alike. This article lists a few good debugging-focused articles and books to help you get started.
+Debugging software can be a challenging task for novice and experienced users alike. This article lists a few good resources on debugging to help you get started.
 
 
 Resource information | Details 
@@ -24,7 +24,7 @@ Book title | [Find the Bug: A Book of Incorrect Programs](https://www.oreilly.co
 Authors | Adam Barr
 Publication | 2004, ISBN: 0321223918
 
-*Find the Bug: A Book of Incorrect Programs*, by Adam Barr, is a practical book of 50 incorrect programs, each of which has one bug that the reader is expected to discover. The programs are in different languages such as C, Java, Python, Perl, and x86 assembly language and the author gives good explanations of solutions.
+*Find the Bug: A Book of Incorrect Programs*, by Adam Barr, is a practical book of 50 incorrect programs, each of which has one bug that the reader is expected to discover. The programs are in different languages such as C, Java, Python, Perl, and x86 assembly language, and the author gives good explanations of solutions.
 
 Resource information | Details 
 :--- | :--- 
@@ -32,7 +32,7 @@ Book title | [Debugging: The 9 Indispensable Rules for Finding Even the Most Elu
 Authors | David J. Agans
 Publication | 2006, ISBN: 0814474578
 
-*Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems* by David Agans, is an engaging book which provides simple and foolproof principles that can help you to help find any bug quickly. 
+*Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems*, by David Agans, is an engaging book providing simple and foolproof principles that can help you to help find bugs quickly. 
 
 Resource information | Details 
 :--- | :--- 
@@ -40,7 +40,7 @@ Book title | [Effective Debugging](https://www.oreilly.com/library/view/effectiv
 Authors | Diomidis Spinellis
 Publication | 2016, ISBN: 9780134394909
 
-The *Effective Debugging* book by Diomidis Spinellis focuses on systematically categorizing, explaining, and illustrating the most useful debugging methods, strategies, techniques, and tools.
+The book *Effective Debugging*, by Diomidis Spinellis, focuses on systematically categorizing, explaining, and illustrating useful debugging methods, strategies, techniques, and tools.
 
 Resource information | Details 
 :--- | :--- 
@@ -48,7 +48,7 @@ Book title | [Why Programs Fail: A Guide to Systematic Debugging](https://linkin
 Authors | Andreas Zeller
 Publication | 2016, ISBN:9781558608665
 
-*Why Programs Fail: A Guide to Systematic Debugging* by Andreas Zeller focuses on systematic debugging and covers a wide range of tools and techniques, ranging from hands-on observation to fully automated diagnoses. The book also includes instructions for building automated debuggers.
+*Why Programs Fail: A Guide to Systematic Debugging*, by Andreas Zeller, focuses on systematic debugging and covers a wide range of tools and techniques, ranging from hands-on observation to fully automated diagnoses. The book also includes instructions for building automated debuggers.
 
 <!---
 Publish: yes
