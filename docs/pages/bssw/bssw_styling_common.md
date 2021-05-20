@@ -83,6 +83,48 @@ Certain content types on [bssw.io](https://bssw.io) do not require formal refere
 
 The decision to *allow* or *require* references is one that should be agreed upon by the author and EB members prior to developing the content. When references are to be used, we require authors to use the less intrusive [reference links](https://www.markdownguide.org/basic-syntax#reference-style-links) ([full spec](https://github.github.com/gfm/#reference-link)) and to follow the guidelines described [here](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md) where the [`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy) tool can be helpful.
 
+## Nonstandard handling of Markdown
+
+The [bssw.io] site uses as custom tool to translate the Markdown in each `*.md` file into HTML.
+This tool deals with Markdown differently in several ways compared to other common Markdown renderers (such as GitHub and GitHub Pages).
+It is important to know about these differences up front to avoid problems once the `*.md` files are previewed on preview.bssw.io and finally published to [bssw.io].
+Here, we list some of the major differences in how Markdown is handled that we currently know about.
+
+### Page name on bssw.io is generated from first section name
+
+The name of the page on the [bssw.io] site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself. For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the bssw.io site and the file name `ATPESC.md` is ignored.
+This can cause conflicts when two or more different `*.md` files have different names in the bssw.io GitHub repository but have the same title because these would map into the same translated page name on the bssw.io site and causes undefined behavior.
+(Please note that simply having the name of the `*.md` file match the title using some convention does not guarantee the avoidance of a conflict.
+That is, files in different subdirectories with the same name and same title will not cause any problems with Git, GitHub, or GitHub Pages, but can result in a conflict with the bssw.io site generator.
+But note that the one exception is that blog files, which are stored in the `Articles/Blog/` directory, are displayed under the URL `https://bssw.io/blog_posts/`, while all other content files are displayed under the URL `https://bssw.io/items/`.)
+
+### Section links are not supported
+
+Where most standard Markdown renderers will create a internal link for (sub)section headers, the bssw.io site generator will not.
+For example, the section name `## Nonstandard handling of Markdown` would typically trigger the creation of the HTML anchor `nonstandard-handling-of-markdown` which allows referring to that section using references like `[nonstandard handling](#nonstandard-handling-of-markdown)` (on the same page).
+But the bssw.io site generator will not create these section anchors.
+To get around this problem, one can manually add an anchor like `<a name="nonstandard-handling-of-markdown"></a>` directly above the section `## Nonstandard handling of Markdown` in the `*.md` file and then links to `#nonstandard-handling-of-markdown` will work.
+(NOTE: This also works with the GitHub Markdown renderer as well and does not create a conflict.)
+
+### Words with two underscores become *emphasis* markers
+
+For example, a raw word with two or more underscores "`_`" like "this_has_underscores" will get translated to the HTML `this<em>has</em>underscores`.
+Since this is typically not what you want, consider replacing underscores "`_`" with dashes "`-`" or use unformatted text with:
+
+```
+`this_has_underscores`
+```
+
+### Tables with more than 4 columns are too wide
+
+It would seem that the custom bssw.io Markdown site generator has problems with tables with more than 4 columns.
+If a table has 5 or more columns, then those columns extend past the right margin of the text on the page.
+For example, the table in [one of the AGC articles](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap) has 5 columns and has column spacing that is too wide and extends beyond the right margin.
+It seems that the column widths in this table could be compressed to easily fit in the margins and still be very readable.
+
+NOTE: We will add more examples of nonstandard handling of Markdown in the future as we discover them.
+
+
 ## Unpublishing Content
 
 Please follow the below rules
@@ -96,5 +138,9 @@ Please follow the below rules
  
 2. Add the word UNPUB to file file name. For example: `GitversionUNPUB.md`
 
+<!-- Common hyperlinks/>
+
+[bssw.io]: https://bssw.io
+[preview.bssw.io]: https://preview.bssw.io
 
 {% include links.html %}

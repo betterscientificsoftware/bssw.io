@@ -1,4 +1,4 @@
-# Performing the Requirements Engineering Process
+# Performing the Requirements Engineering Process (INCOMPLETE ARTICLE UNPUBLISHED)
 <!-- deck text start --> 
 This short article talks about how the requirements process can be carried out in the context of a scientific software development project.
 <!-- deck text end --> 
@@ -44,17 +44,15 @@ The first objective is to identify the stakeholders. A stakeholder can be anyone
 - Future space exploration teams, who will directly benefit from the data provided. 
 - The general public, who will ultimately be paying for the software and for whose benefit the work is justified.
 
-
-
+## Mini-series list
+- [Overview of Requirements and Requirements Engineering](Part1-RequirementsAndRequirementsEngineering.md)
+- [Understanding requirements](Part2-UnderstandingRequirements.md)
+- [Writing requirements](Part3-WritingRequirements.md)
+- [Understanding and Performing the requirements engineering process](Part4-UnderstandingPerformingRequirementsEngineering.md)
 
 <!---
-Publish: yes
-Categories: Planning
+Publish: no
 Topics: requirements
-Tags: requirements
-Level: 2
-Prerequisites: default
-Aggregate: subresource
-
-% LCM: Temporarily change to level 2, reconsider later for aggregate WhatIs content for requirements (and howto tag)
+Pinned: no
+RSS update: 2019-08-06
 --->

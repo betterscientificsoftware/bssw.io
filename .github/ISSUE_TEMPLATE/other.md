@@ -2,9 +2,6 @@
 name: Others
 about: Template for submitting something that is NOT a blog or a curated content article.
 title: Possible Other Article for BSSw
-labels: none
-assignees: bernhold, curfman
-
 ---
 
 To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete them entirely from the body of this issue before entering your submission.

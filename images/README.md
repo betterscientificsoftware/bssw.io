@@ -1,6 +1,6 @@
 # images
 
-**NOTE: TRANSITION FROM THE SEPARATE GITHUB `images` REPO TO THIS `images/` DIRECTORY IS STILL IN PROGRESS.  UNTIL THAT TRANSITION IS COMPLETE, PLEASE CONTINUE TO FOLLOW THE INSTRUCTIONS IN THE SEPARATE `images` GITHUB REPO README.md file!**
+**NOTE: PLEASE FOLLOW THE INSTRUCTIONS GIVEN BELOW. All new images should be uploaded to the  `bssw.io/images` directory!**
 
 This directory is for image files that will be displayed on the bssw.io site.
 
