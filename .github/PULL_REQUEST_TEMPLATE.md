@@ -42,7 +42,7 @@ Addresses issue #`<issue-id>`
 * [ ] ***[EB Mem]*** Ensure at least one reviewer signs off on the final changes.
 * [ ] ***[EB Mem]*** Change meta-data to `Publish: yes` and commit if fully ready to publish.
 * [ ] ***[EB Mem]*** Move the PR to "Ready to Publish" in [Content Development].
-* [ ] ***[EB Mem]*** Assign to a bssw.io site maintainer (**BSSw Maint**) to carry out final publication steps.
+* [ ] ***[EB Mem]*** Leave comment @mentioning a bssw.io site maintainer (**BSSw Maint**) asking to carry out final publication steps.
 * [ ] ***[BSSw Maint]*** Verify that all needed files are present in the PR (article, images, updates to Site/Homepage.md carousel and/or Site/Announcements/Announcements.md as appropriate).
 * [ ] ***[BSSw Maint]*** Merge PR. (Should automatically move to "Done" in [Content Development].)
 * [ ] ***[BSSw Maint]*** Verify new new contribution shows up on [bssw.io] as expected.
@@ -50,7 +50,7 @@ Addresses issue #`<issue-id>`
 NOTE:
 * Checklist items prefixed with ***[Author]*** are expected to be performed by the author of the PR or can be performed by the author.
 * Checklist items prefixed with ***[EB Mem]*** must be performed by a [BSSw.io Editorial Board (EB) Member](https://betterscientificsoftware.github.io/bssw.io/bssw_members.html).
-* Checklist items prefixed with ***[BSSw Maint]*** must be performed by a bssw.io site maintainer (currently @rinkug)
+* Checklist items prefixed with ***[BSSw Maint]*** must be performed by a bssw.io site maintainer (currently 'rinkug')
 
 <!-- NOTE: Remove above checklist if using the below checklist for internal files. -->
 
