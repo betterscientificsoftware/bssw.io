@@ -36,7 +36,7 @@ As a performance-portable software library we are expected to support a variety 
 
 Notice that we test several experimental options and support several older compilers that are years old in order to address the trade-off mentioned above. Total testing coverage requires hours of testing across several computing systems. It would be an unreasonable burden and detriment to coder productivity to require testing the full combinatorial set of supported builds and configurations. To balance developer productivity while preserving software quality and stability, testing of the code base consists of two stages:
 
-#### Pull request acceptance testing
+**Pull request acceptance testing**
 
   - Pull request testing is automated through use of [Jenkins](https://www.jenkins.io/solutions/github/) and [GitHub Actions](https://docs.github.com/en/actions) and triggered automatically when a new pull request is submitted to the repository through GitHub.
 
@@ -44,11 +44,11 @@ Notice that we test several experimental options and support several older compi
 
   - Final acceptance of a pull request requires code review by a team member. Code reviews help improve software quality and disseminate knowledge of code updates to members of the team.
 
-#### Nightly testing
+**Nightly testing**
 
   - Nightly testing is automated by Jenkins. Nightly tests significantly expand on pull request testing to fill the missing gaps in coverage, including various configuration options (some costly), older compilers, and experimental builds. More than 200 nightly tests run on all the aforementioned platforms.
 
-#### Release testing
+**Release testing**
 
 Kokkos and KokkosKernels exist as standalone libraries available on GitHub, and are foundational packages within the Trilinos scientific software library (under the “data services” scope). A new release of the Kokkos Ecosystem requires passing testing within Trilinos, providing additional robustness:
 
