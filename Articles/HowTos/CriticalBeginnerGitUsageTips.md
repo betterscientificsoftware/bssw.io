@@ -4,8 +4,8 @@
 Follow these simple guidelines for setting up and using Git and you'll stay out of serious trouble and be more productive.
 <!-- deck text end --> 
 
-#### Contributed by [Roscoe A. Bartlett](https://bartlettroscoe.github.io/ "Roscoe A. Bartlett")
-#### Publication date: May ??, 2021
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+#### Publication date: May 10, 2021
 
 <a name="guidelines"></a>
 
@@ -148,5 +148,5 @@ There are many other helpful guidelines that you can come up with for using Git 
  Publish: yes
  Pinned: no
  Topics: revision control, development tools
- RSS update: 2021-05-??
+ RSS update: 2021-05-10
  --->
