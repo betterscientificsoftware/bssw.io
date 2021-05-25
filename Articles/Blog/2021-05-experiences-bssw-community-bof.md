@@ -51,6 +51,8 @@ Our submission process is managed using our GitHub repository. For users familia
 ### Author and interviewer bios
 Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She has been a part of the high-performance scientific community for two decades and is a researcher in the field of high-performance fault tolerance, resiliency, middleware libraries and programming models. She is passionate about her work in the area of developer productivity and software sustainability; her current focus lies in partnering with the computational science community on these topics to design better scientific software.
 
+Avanthi Madduri is a long time member of the User Experience team at the Argonne Leadership Computing Facility. She helps ensure that the world-class researchers who use the facility's high-performance computing resources achieve breakthroughs in science and engineering have a positive and productive experience at the facility. One of her areas of expertise is evaluation and adoption of new frameworks, tools and services for project and team management to accelerate the team's delivery velocity when working on large-scale, cross-cutting projects. She also works on evaluation and adoption of new services to increase ALCF users' overall productivity.
+
 <!---
 Publish: preview
 Pinned: no
