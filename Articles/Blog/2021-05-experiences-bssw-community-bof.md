@@ -48,13 +48,12 @@ Our submission process is managed using our GitHub repository. For users familia
 
 **Rinku**: Getting involved with the BSSw.io effort is as easy as reaching out of any member of the [editorial team](https://bssw.io/pages/team). We have tried to make the submission process straightforward and easy. We invite and encourage developers and researchers to share experiences and information with the rest of the community through BSSw.io, as the site grows to become a central outreach channel. We also have a mailing list, that is low-traffic and provides monthly updates about new content on the site - blog readers [can subscribe to it](https://bssw.io/pages/receive-our-email-digest). The [BSSw.io](https://bssw.io) site has comprehensive information on how to view current content and contributors, as well as how to [contribute content](https://bssw.io/contribute).  We look forward to working with your teams and the entire community closely.
 
- 
 ### Author and interviewer bios
 Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She has been a part of the high-performance scientific community for two decades and is a researcher in the field of high-performance fault tolerance, resiliency, middleware libraries and programming models. She is passionate about her work in the area of developer productivity and software sustainability; her current focus lies in partnering with the computational science community on these topics to design better scientific software.
 
 <!---
 Publish: preview
 Pinned: no
-Topics: Software Engineering, Projects and Organizations, Conferences and Workshops
+Topics: Software Engineering, Conferences and Workshops
 RSS update: 2021-05-27
 --->
