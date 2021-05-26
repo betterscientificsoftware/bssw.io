@@ -5,7 +5,7 @@
  - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog__0521_Icons.jpg' />
 
 #### Contributed by: [Rinku Gupta](https://github.com/rinkug) and [Avanthi Madduri](https://github.com/mantrala-ops) and [Deborah Stevens](https://github.com/haikudeb)
-#### Publication Date: May 27, 2021
+#### Publication Date: May 26, 2021
 
 In March 2020, the Exascale Computing Project (ECP) organized a series of ECP Community Birds-of-a-Feather (BOF) Days to provide an opportunity for the HPC and ECP communities to converge and discuss the latest development efforts. The BSSw.io editorial team led the community BOF on *"Cultivating Software Sustainability, Productivity and Quality through BSSw.io"*. This 90 minute community BOF was  a great success with over 50 attendees representing academia, national laboratories and supercomputing centers. 
 
@@ -45,7 +45,7 @@ Our submission process is managed using our GitHub repository. For users familia
 
 **Rinku**: Getting involved with the BSSw.io effort is as easy as reaching out of any member of the [editorial team](https://bssw.io/pages/team). We have tried to make the submission process straightforward and easy. We invite and encourage developers and researchers to share experiences and information with the rest of the community through BSSw.io, as the site grows to become a central outreach channel. We also have a mailing list that is low-traffic and provides monthly updates about new content on the site - blog readers [can subscribe to it](https://bssw.io/pages/receive-our-email-digest). The [BSSw.io](https://bssw.io) site has comprehensive information on how to view current content and contributors, as well as how to [contribute content](https://bssw.io/contribute).  We look forward to working with your teams and the entire community closely.
 
-### Author and Interviewer Bios
+### Author and interviewer bios
 Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She has been a part of the high-performance scientific community for two decades and is a researcher in the field of high-performance fault tolerance, resiliency, middleware libraries and programming models. She is passionate about her work in the area of developer productivity and software sustainability; her current focus lies in partnering with the computational science community on these topics to design better scientific software.
 
 Avanthi Madduri is a long time member of the User Experience team at the Argonne Leadership Computing Facility (ALCF). She helps ensure that the world-class researchers who use the facility's high-performance computing resources achieve breakthroughs in science and engineering have a positive and productive experience at the facility. One of her areas of expertise is evaluation and adoption of new frameworks, tools and services for project, and team management to accelerate the team's delivery velocity when working on large-scale, cross-cutting projects. She also works on evaluation and adoption of new services to increase ALCF users' overall productivity.
@@ -53,8 +53,8 @@ Avanthi Madduri is a long time member of the User Experience team at the Argonne
 Deborah Stevens is an Assistant Computer Scientist in the Argonne Leadership Computing Facility (ALCF). She has returned to Argonne National Laboratory during lockdown and works with the IDEAS project on documentation and best practices for optimal capture of coding development decisions.  ECP outreach is another area of participation for her within ALCF. 
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Software Engineering, Conferences and Workshops
-RSS update: 2021-05-27
+RSS update: 2021-05-26
 --->
