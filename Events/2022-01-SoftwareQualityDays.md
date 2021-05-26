@@ -22,7 +22,7 @@ High software and systems quality are success-critical factors in engineering pr
 Following this guiding topic, the conference welcomes contributions related to all topics about software and systems quality. Topics of particular interest – if not limited to – are meant to foster discussions on experiences and challenges of constructive and analytical quality assurance of AI-based systems as well as using AI-based approaches for quality assurance activities.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Conferences and workshops, Software engineering
 RSS update: 2021-05-21
