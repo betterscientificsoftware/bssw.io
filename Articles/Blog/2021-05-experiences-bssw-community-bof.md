@@ -11,7 +11,7 @@ In March 2020, the Exascale Computing Project (ECP) project organized a series o
 
 Avanthi Madduri and Deborah Stevens, from the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov/), interview Rinku Gupta. Rinku was the lead in organizating the BSSw.io community BOF and she also serves as Editor-in-Chief of the BSSw.io site.
 
-**Avanthi Madduri**: Rinku, Deborah and I hoping to learn more about the BSSw.io community BOF that was held recently. This would be useful for audience members who were not able to participate in real-time and it give them an idea of the discussion topics, results and any recent developments. Could you tell us what were the focus and goals of the BSSw.io community BOF?
+**Avanthi Madduri**: Rinku, Deborah and I are hoping to learn more about the BSSw.io community BOF that was held recently. This would be useful for audience members who were not able to participate in real-time and it give them an idea of the discussion topics, results and any recent developments. Could you tell us what were the focus and goals of the BSSw.io community BOF?
 
 **Rinku Gupta**: The Better Scientific Software website (https://bssw.io) has been gaining traction as a community-based resource for sharing information on software productivity and sustainability in CSE and related technical computing areas.  The  BSSw.io community BOF aimed to get the scientific community together to engage in discussions on how BSSw.io could help scientists and the community do better science. It was also an opportunity to increase awareness about some of the critical aspects of scientific productivity. Developer productivity and Software sustainability are two critical aspects of scientific productivity. 
 
@@ -29,7 +29,7 @@ BSSw.io is managed by the BSSw.io editorial team, composed of senior editors and
 
 Our submission process is managed using our GitHub repository. For users familiar with Git and GitHub, submissions can be made by creating GitHub issues and content is created and merged using Git Pull Requests. With users unfamiliar with Git, we are happy to work with whatever technology they are familiar with.
 
-**Deborah:** I undertand that several focussed topic discussions that took place at BSSw.io community BOF. Could you talk a bit about them?
+**Deborah:** I undertand there were several focussed topic discussions that took place at BSSw.io community BOF. Could you talk a bit about them?
 
 **Rinku**: During the BOF, we had several breakout sessions ranging from a hands-on session on writing your first BSSw.io content, community discussions on what topics would be suitable for the BSSw.io-like portal as well as a discussion on existing resources for software sustainability and productivity. Even though we had 90 minutes, the audience did manage to cover a broad range of topics. Some of the topics focussed on:
 
@@ -41,7 +41,7 @@ Our submission process is managed using our GitHub repository. For users familia
 
 * **The need to improve team productivity with virtual working**: We all discussed what strategies worked for us to improve team morale and productivity, during the remote working times of 2020-2021. Several methods such as having virtual team lunches, coffee time, water cooler discussions, techniques to productively organize meetings emerged from these discussions.
  
-**Avanthi:** How our readers and community members can get involved with BSSw.io?
+**Avanthi:** How can our readers and community members can get involved with BSSw.io?
 
 **Rinku**: Getting involved with the BSSw.io effort is as easy as reaching out of any member of the [editorial team](https://bssw.io/pages/team). We have tried to make the submission process straightforward and easy. We invite and encourage developers and researchers to share experiences and information with the rest of the community through BSSw.io, as the site grows to become a central outreach channel. We also have a mailing list, that is low-traffic and provides monthly updates about new content on the site - blog readers [can subscribe to it](https://bssw.io/pages/receive-our-email-digest). The [BSSw.io](https://bssw.io) site has comprehensive information on how to view current content and contributors, as well as how to [contribute content](https://bssw.io/contribute).  We look forward to working with your teams and the entire community closely.
 
