@@ -4,7 +4,7 @@
 
  - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_0521_GPU.png' />
 
-#### Contributed by: [Rinku Gupta](https://github.com/rinkug) and [Avanthi Madduri](NEED GH ID)
+#### Contributed by: [Rinku Gupta](https://github.com/rinkug) and [Avanthi Madduri](https://github.com/mantrala-ops)
 #### Publication Date: May 27, 2021
 
 In March 2020, the Exascale Computing Project (ECP) project organized a series of ECP Community Birds-of-a-Feather (BOF) Days to provide an opportunity for the HPC community to engage with ECP teams and the community to discuss the latest development efforts. The BSSw.io editorial team led the community BOF on *"Cultivating Software Sustainability, Productivity and Quality through BSSw.io"*. This 90 minute community BOF was  a great success with over 50 attendees representing academia, national laboratories and supercomputing centers. 
@@ -29,7 +29,7 @@ BSSw.io is managed by the BSSw.io editorial team, composed of senior editors and
 
 Our submission process is managed using our GitHub repository. For users familiar with Git and GitHub, submissions can be made by creating GitHub issues and content is created and merged using Git Pull Requests. With users unfamiliar with Git, we are happy to work with whatever technology they are familiar with.
 
-**Avanthi:** Could you also talk about some of the focussed topic discussions that took place at BSSw.io community BOF?
+**Avanthi:** I undertand that several focussed topic discussions that took place at BSSw.io community BOF. Could you talk a bit about them?
 
 **Rinku**: During the BOF, we had several breakout sessions ranging from a hands-on session on writing your first BSSw.io content, community discussions on what topics would be suitable for the BSSw.io-like portal as well as a discussion on existing resources for software sustainability and productivity. Even though we had 90 minutes, the audience did manage to cover a broad range of topics. Some of the topics focussed on:
 
@@ -41,7 +41,7 @@ Our submission process is managed using our GitHub repository. For users familia
 
 * **The need to improve team productivity with virtual working**: We all discussed what strategies worked for us to improve team morale and productivity, during the remote working times of 2020-2021. Several methods such as having virtual team lunches, coffee time, water cooler discussions, techniques to productively organize meetings emerged from these discussions.
  
-**Avanthi:** Could you tell us how our readers and community members can get involved with BSSw.io?
+**Avanthi:** How our readers and community members can get involved with BSSw.io?
 
 **Rinku**: Getting involved with the BSSw.io effort is as easy as reaching out of any member of the [editorial team](https://bssw.io/pages/team). We have tried to make the submission process straightforward and easy. We invite and encourage developers and researchers to share experiences and information with the rest of the community through BSSw.io, as the site grows to become a central outreach channel. We also have a mailing list, that is low-traffic and provides monthly updates about new content on the site - blog readers [can subscribe to it](https://bssw.io/pages/receive-our-email-digest). The [BSSw.io](https://bssw.io) site has comprehensive information on how to view current content and contributors, as well as how to [contribute content](https://bssw.io/contribute).  We look forward to working with your teams and the entire community closely.
 
