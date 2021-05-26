@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_0521_GPU.png' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog__0521_Icons.jpg' />
 
 #### Contributed by: [Rinku Gupta](https://github.com/rinkug) and [Avanthi Madduri](https://github.com/mantrala-ops) and [Deborah Stevens](https://github.com/haikudeb)
 #### Publication Date: May 27, 2021
