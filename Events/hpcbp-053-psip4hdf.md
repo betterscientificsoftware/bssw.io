@@ -1,4 +1,4 @@
-# Webinar: Using the PSIP Toolkit to Achieve your Goals – A Case study at The HDF Group
+# Webinar: Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group
 
 - Date: 2021-06-09
 - Location: Online
