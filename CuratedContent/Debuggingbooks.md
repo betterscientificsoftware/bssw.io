@@ -15,7 +15,7 @@ Article title | [The Ghosts in the Debugging](https://third-bit.com/2021/03/27/g
 Authors | Greg Wilson	
 Focus | Software testing, debugging
 
-The article *[The Ghosts in the Debugging](https://third-bit.com/2021/03/27/ghosts-in-debugging/)*, by [Greg Wilson](https://third-bit.com/), lists a collection of books for understanding how debuggers and debugging works that are useful for novice and experienced software engineers. Greg Wilson also lists several other books that are works-in-progress but may still be useful for readers. 
+The article *[The Ghosts in the Debugging](https://third-bit.com/2021/03/27/ghosts-in-debugging/)*, by [Greg Wilson](https://third-bit.com/), lists a collection of books for understanding how debuggers and debugging works that are useful for novice and experienced software engineers. Wilson also lists several other books that are works-in-progress but may still be useful for readers. 
 
 
 Resource information | Details 
