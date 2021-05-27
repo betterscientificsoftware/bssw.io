@@ -13,7 +13,7 @@ high-performance computers (HPC) and occur approximately monthly.
 
 Resource Information | Details
 :--- | :---			   
-Webinar Title | Using the PSIP Toolkit to Achieve your Goals – A Case study at The HDF Group
+Webinar Title | Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group
 Date and Time | 2021-06-09 01:00 pm EDT
 Presenters | Elena Pourmal (The HDF Group), Reed Milewicz (Sandia National Laboratories),  and Elsa Gonsiorowski (Lawrence Livermore National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar053>	   
@@ -21,7 +21,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 
 ### Abstract
-<p>Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, iterative workflow that allows software development teams to identify development bottlenecks and track progress toward goals to overcome them. In this talk, we present an overview of the PSIP methodology and toolkit, and describe how the HDF5 Group used PSIP to make improvements in three key areas of their software development process.</p>
+<p>Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, iterative workflow that allows software teams to identify development bottlenecks and track progress toward goals to overcome them. In this talk, we present an overview of the PSIP methodology and toolkit, and describe how the HDF5 Group used PSIP to make improvements in three key areas of their software development process.</p>
 
 
 
