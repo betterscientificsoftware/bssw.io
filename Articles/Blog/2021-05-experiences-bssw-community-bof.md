@@ -7,7 +7,7 @@
 #### Contributed by: [Rinku Gupta](https://github.com/rinkug), [Avanthi Madduri](https://github.com/mantrala-ops) and [Deborah Stevens](https://github.com/haikudeb)
 #### Publication Date: May 26, 2021
 
-In March 2020, the Exascale Computing Project (ECP) organized a series of Community Birds-of-a-Feather (BOF) Days to provide an opportunity for the HPC and ECP communities to converge and discuss the latest development efforts. The BSSw.io editorial team led a community BOF on *"Cultivating Software Sustainability, Productivity and Quality through BSSw.io"*. This session was a great success, with over 50 attendees representing academia, national laboratories and supercomputing centers. 
+In March 2021, the Exascale Computing Project (ECP) organized a series of Community Birds-of-a-Feather (BOF) Days to provide an opportunity for the HPC and ECP communities to converge and discuss the latest development efforts. The BSSw.io editorial team led a community BOF on *"Cultivating Software Sustainability, Productivity and Quality through BSSw.io"*. This session was a great success, with over 50 attendees representing academia, national laboratories and supercomputing centers. 
 
 Avanthi Madduri and Deborah Stevens, from the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov/), interview Rinku Gupta. Rinku was the lead organizer of the BSSw.io community BOF and also serves as Editor-in-Chief of the BSSw.io site.
 
