@@ -31,7 +31,7 @@ Our submission process is managed using our GitHub repository. For users familia
 
 **Deborah:** I understand there were several focused topic discussions that took place at the BSSw.io community BOF. Could you talk a bit about them?
 
-**Rinku**: The BOF included had several breakout groups, ranging from a hands-on session on writing your first piece of BSSw.io content, to community discussion on what topics would be impactful, as well as discussion on existing resources for software sustainability and productivity. Even though the BOF lasted only 90 minutes, the attendees managed to cover a broad range of topics. Some of the topics focused on:
+**Rinku**: The BOF included several breakout groups, ranging from a hands-on session on writing your first piece of BSSw.io content, to community discussion on what topics would be impactful, as well as discussion on existing resources for software sustainability and productivity. Even though the BOF lasted only 90 minutes, the attendees managed to cover a broad range of topics. Some of the topics focused on:
 
 * **The need for more awareness**.  Across the scientific community, more awareness and focus are needed on software sustainability and productivity.  BOF participant recommendations ranged from suggestions for funding agencies to devote explicit funding to these topics, to having community BOFs at regular intervals, to showing public appreciation for teams who are already incorporating strong practices in these areas. 
 
