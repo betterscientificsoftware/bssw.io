@@ -1,4 +1,4 @@
-# About
+# Team
  
  
 The Better Scientific Software (BSSw) team includes both contributors of content as well as the site editors and partners.  
@@ -69,6 +69,6 @@ https://github.com/karbarz
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
-BSS Site: About
+BSS Site: Team
 --->
 
