@@ -17,9 +17,7 @@ Performance portable software libraries aim to ease the burden on application de
 Projects in the Kokkos Ecosystem reside on [GitHub](www.github.com/kokkos) and employ a branching process that looks similar to the [Git Flow workflow]( https://nvie.com/posts/a-successful-git-branching-model/):
 
 - The master branch is default, production-ready code, and held frozen between releases. 
-
 - The develop branch tracks contributions by developers, such as bug fixes, new features, enhancements, etc. Completed features are submitted as pull requests to the develop branch for code review and acceptance testing. GitHub’s issue tracker is used for communication regarding requests, bug reports, and progress.
-
 - Release cycles last approximately three to four months, at which point a release candidate branch is created off of develop followed by extensive testing, including integration testing with frameworks such as [Trilinos](https://trilinos.github.io/), prior to merge of the branch into the main branch and a tagged release.
 
 This process, coupled with testing requirements described in more detail next, aims to balance developer productivity with code stability – the compilers, hardware and configurations most widely used are shielded by acceptance testing of pull requests to the develop branch and leaving it in a relatively stable state for users eager to incorporate the newest features and capabilities. This process is also somewhat unusual for Git based libraries where the default master branch is updated more frequently. Release branches could also be used in similar way. However, we choose this approach so the default branch is a stable master that has been through integration testing with selected applications.
@@ -29,31 +27,26 @@ This process, coupled with testing requirements described in more detail next, a
 As a performance-portable software library we are expected to support a variety of compilers and versions, hardware, and library configurations, for example with the Kokkos Ecosystem regular testing includes (at the time of writing):
 
 - Compilers: GCC (5.3.0 – 10); Clang (4.0-11); Intel (17-19); NVCC (9.2-11); ROCm/HIP (4.2); OneAPI (sycl-nightly tag); IBM/XL (16.1.1)
-
 - Hardware: x86_64 (various), KNL, ARMv8 ThunderX2, NVIDIA (K80, P100, V100, A100), AMD (Zen CPU, Vega MI25, MI50, MI60, MI100)
-
 - Backends: Serial, OpenMP, Pthreads, Cuda, HIP (Experimental), OpenMPTarget (Experimental), Sycl (Experimental), HPX
 
 Notice that we test several experimental options and support several older compilers that are years old in order to address the trade-off mentioned above. Total testing coverage requires hours of testing across several computing systems. It would be an unreasonable burden and detriment to coder productivity to require testing the full combinatorial set of supported builds and configurations. To balance developer productivity while preserving software quality and stability, testing of the code base consists of two stages:
 
-**Pull request acceptance testing**
+#### Pull request acceptance testing
 
   - Pull request testing is automated through use of [Jenkins](https://www.jenkins.io/solutions/github/) and [GitHub Actions](https://docs.github.com/en/actions) and triggered automatically when a new pull request is submitted to the repository through GitHub.
-
   - A fixed subset from the full combinatorial explosion of the test coverage space is selected to provide enough testing-breadth to give reasonable confidence that code changes can pass full testing coverage with high likelihood; clang-format is used to enforce consistency of style and readability across the code base.
-
   - Final acceptance of a pull request requires code review by a team member. Code reviews help improve software quality and disseminate knowledge of code updates to members of the team.
 
-**Nightly testing**
+#### Nightly testing
 
   - Nightly testing is automated by Jenkins. Nightly tests significantly expand on pull request testing to fill the missing gaps in coverage, including various configuration options (some costly), older compilers, and experimental builds. More than 200 nightly tests run on all the aforementioned platforms.
 
-**Release testing**
+#### Release testing
 
 Kokkos and KokkosKernels exist as standalone libraries available on GitHub, and are foundational packages within the Trilinos scientific software library (under the “data services” scope). A new release of the Kokkos Ecosystem requires passing testing within Trilinos, providing additional robustness:
 
 - We do not assume the testing suite is fully comprehensive – testing with Trilinos exposes corner cases that may have been missed in the testing suite.
-
 - Trilinos testing is assumed complex enough to provide coverage for customer applications.
 
 ### Support
@@ -78,5 +71,5 @@ Unclassified Unlimited Release (UUR) SAND2021-6146 S
 Publish: preview
 Pinned: no
 Topics: release and deployment, issue tracking, testing, continuous integration testing, 
-RSS update: 2021-04-10
+RSS update: 2021-06-11
 --->
