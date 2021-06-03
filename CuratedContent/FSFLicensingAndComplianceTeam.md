@@ -15,7 +15,7 @@ Focus | Licensing
 
 The [Free Software Foundation](http://www.fsf.org/) (FSF) is the organization behind the GNU "copyleft" licenses (e.g., GPL).  Their *[Licensing & Compliance Team](http://www.fsf.org/licensing/)* webpage provides a number of resources about the GNU licenses and their compatability with other software licenses.  This information can be helpful when chosing a license for your software or understanding the implications of a license.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-fsf-new.png' class='logo' />
+<img src='../images/Logo-class-fsf-new.png' class='logo' />
 
 
 

@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/rse-hpe-hero.png'/>
+ - <img src='../../images/rse-hpe-hero.png'/>
  
 #### Contributed by [Charles Ferenbaugh](https://github.com/cferenba "Charles Ferenbaugh GitHub Profile"), [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub Profile"), [Simon Hettrick](https://github.com/SimonHettrick "Simon Hettrick GitHub Profile"), and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 

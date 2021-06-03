@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_Apollo1.jpg'/>[Image Source: NASA (see below)]
+- <img src='../../images/Blog_0429_Apollo1.jpg'/>[Image Source: NASA (see below)]
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May 15, 2019
@@ -41,7 +41,7 @@ had been involved in development of the Polaris missile GNC system.<sup>[17]</su
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_computer_600_318.png' class='page lightbox' />[The AGC (left) with its Display and Keyboard Interface (DSKY - right). Image Source: NASA]
+<img src='../../images/Blog_0429_computer_600_318.png' class='page lightbox' />[The AGC (left) with its Display and Keyboard Interface (DSKY - right). Image Source: NASA]
 
 <br> 
 
@@ -92,7 +92,7 @@ derived from this early memory technology.
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company).]
+<img src='../../images/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company).]
 
 ### The Executive: An operating system with checkpoint/restart services
 The AGC used a priority-driven, collaborative, multitasking operating system
@@ -133,7 +133,7 @@ developers met this challenge.
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0429_CSM_and_LM_600_338.png' class='page lightbox' />[Early NASA artist's rendition of Apollo Spacecraft. Command and Service Module (left) Lunar Module Ascent and Descent Stages (right)]
+<img src='../../images/Blog_0429_CSM_and_LM_600_338.png' class='page lightbox' />[Early NASA artist's rendition of Apollo Spacecraft. Command and Service Module (left) Lunar Module Ascent and Descent Stages (right)]
 
 <br>
 
@@ -175,7 +175,7 @@ Among other things, he contributes to
 <br>
 
 <!---
-[0]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
+[0]: ../../images/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
 [1]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html "Overview of Apollo 11 Mission {}"
 [2]: https://en.wikipedia.org/wiki/Moon_landing "List of Moon missions since 1958 {}"
 [3]: https://en.wikipedia.org/wiki/Apollo_PGNCS "What is Primary Guidance, Navigation and Control {}"
@@ -256,7 +256,7 @@ Among other things, he contributes to
 
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | [Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. ](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
+<a name="ref1"></a>1 | [Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. ](../../images/397_apollo_flightdiagram.jpg)
 <a name="ref2"></a>2 | [Overview of Apollo 11 Mission ](https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html)
 <a name="ref3"></a>3 | [List of Moon missions since 1958 ](https://en.wikipedia.org/wiki/Moon_landing)
 <a name="ref4"></a>4 | [What is Primary Guidance, Navigation and Control ](https://en.wikipedia.org/wiki/Apollo_PGNCS)

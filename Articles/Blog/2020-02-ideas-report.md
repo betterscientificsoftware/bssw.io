@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0225_Computational.jpg' />
+ - <img src='../../images/Blog_0225_Computational.jpg' />
 
 #### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
 

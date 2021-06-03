@@ -41,7 +41,7 @@ researchers in the usage of software.
 <br>
 
 [First URSSI workshop attendees (Photo credit: Mike Hucka)]
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0718_URSSI_SSw_1250_728.png' />
+<img src='../../images/Blog_0718_URSSI_SSw_1250_728.png' />
 
 <br>
 

@@ -21,7 +21,7 @@ Overall, *Code Complete* addresses topics that perhaps many of us have thought a
 
 While going through the book, the reader will find justifications for following software development practices that will certainly pay off -- justifications made in an enjoyable way, since the author is rather neutral in exposing facts and ideas.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/book_bssw_code-complete.jpg' class='logo' />
+<img src='../images/book_bssw_code-complete.jpg' class='logo' />
 
 
 <!---

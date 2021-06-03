@@ -11,7 +11,7 @@ Better Scientific Software is an organization dedicated to improving developer p
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics2019.png' class='page' />
+<img src='../../images/BSSwResourceTopics2019.png' class='page' />
 
 <br>
 
