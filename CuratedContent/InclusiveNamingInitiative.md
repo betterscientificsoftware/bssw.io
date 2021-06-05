@@ -18,10 +18,9 @@ The names we use in our code and its associated artifacts (PR reviews, documenat
 
 The [importance of naming](https://carlalexander.ca/importance-naming-programming/) in software development is a frequent subject of bloggers and industry pontificaters.
 Many authors, however, overlook a key issue in the naming of things and that is using inclusive language.
-
 Inclusive names aim to invite *everyone* in.
-Harmful names appropriate underrepresented cultures, perpetuate stereotypes, and/or originate from oppressive or genocidal systems and will push many (potential collaborators, developers, users and/or sponsors) away.
 
+Harmful names appropriate underrepresented cultures, perpetuate stereotypes, and/or originate from oppressive or genocidal systems and will push many (potential collaborators, developers, users and/or sponsors) away.
 An especially [prolific](https://github.com/search?q=master+slave&type=code), [egregious](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) and [shameful](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) example of harmful naming is the use of [*master-slave*](https://en.wikipedia.org/wiki/Master/slave_(technology)) terminology.
 
 The Inclusive Naming Initiative is a burgeoning, collaborative effort of technology organizations to address inclusive language across the industry.
