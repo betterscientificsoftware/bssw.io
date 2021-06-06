@@ -42,4 +42,4 @@ Ways you can contribute...
 
 * Clean up harmful language in your own projects. 
 * Encourage others to do the same in their projects.
-* [Participate](https://inclusivenaming.org/participate/) and promote the work the [Inclusive Naming Initiative](https://inclusivenaming.org/).
+* [Participate](https://inclusivenaming.org/participate/) and promote the work of the [Inclusive Naming Initiative](https://inclusivenaming.org/).
