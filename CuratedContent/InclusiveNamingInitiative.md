@@ -18,10 +18,10 @@ The names we use in our code and its associated artifacts (PR reviews, documenat
 
 The [importance of naming](https://carlalexander.ca/importance-naming-programming/) in software development is a frequent subject of bloggers and industry scribes.
 Many who author on the topic of naming, however, overlook a key issue and that is the imperative of inclusive language.
-Inclusive naming recognizes the importance language that contributes to a safe and inviting space for *everyone*.
+Inclusive naming recognizes the role that language plays in contributing to a safe and inviting space for *everyone*.
 
-Harmful names appropriate underrepresented cultures, perpetuate stereotypes, and/or originate from oppressive or genocidal systems and will push many potential collaborators, developers, users and/or sponsors away.
-An especially [prolific](https://github.com/search?q=master+slave&type=code), [egregious](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) and [shameful](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) example of harmful naming tis the use of [*master-slave*](https://en.wikipedia.org/wiki/Master/slave_(technology)) terminology. Although this issue has received much attention recently, dialog within the industry to replace it with more inclusive language dates back to the mid-1990's (ref). 
+Harmful naming appropriates underrepresented cultures, perpetuates stereotypes, and/or originates from oppressive or genocidal systems and will push many potential collaborators, developers, users and/or sponsors away.
+An especially [prolific](https://github.com/search?q=master+slave&type=code), [egregious](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) and [shameful](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) example of harmful naming tis the use of [*master-slave*](https://en.wikipedia.org/wiki/Master/slave_(technology)) terminology. Although this issue has received much attention recently, public objection to its use dates back *at least* the mid-1990's (ref). 
 
 The [Inclusive Naming Initiative](https://inclusivenaming.org) is a burgeoning, collaborative effort of technology organizations to address inclusive language across the industry.
 The initiative began in the fall of 2020 and is slowly gaining membership and momentum.
