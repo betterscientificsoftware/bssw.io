@@ -13,6 +13,7 @@ Event Information | Details
 Event Name | [Research Software Engineers in HPC: Creating Community, Building Careers, Addressing Challenges (RSE-HPC-2021)](https://us-rse.org/rse-hpc-2021/)
 Event Date | November 15, 2021
 Website | https://us-rse.org/rse-hpc-2021/
+**Timeline** |
 Submission Deadline | Friday, August 6, 2021 - NO EXTENSIONS
 Notifications sent | Friday, September 3, 2021
 Program finalized | Friday, September 17, 2021
