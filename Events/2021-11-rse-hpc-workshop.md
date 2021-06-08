@@ -15,9 +15,9 @@ Event Date | November 15, 2021
 Website | https://us-rse.org/rse-hpc-2021/
 **Timeline** |
 Submission Deadline | Friday, August 6, 2021 - NO EXTENSIONS
-Notifications sent | Friday, September 3, 2021
-Program finalized | Friday, September 17, 2021
-Workshop date | Monday, November 15, 2021
+Notifications Sent | Friday, September 3, 2021
+Program Finalized | Friday, September 17, 2021
+Workshop Date | Monday, November 15, 2021
 
 Research software engineers (RSEs) are critical to the impact of HPC, data science, and the larger scientific community. They have existed for decades, though often not under that name. However, the past few years have seen the development of the RSE concept, common job titles, and career paths; the creation of professional networks to connect RSEs; and the emergence of RSE groups at universities, national laboratories, and industry.
 
