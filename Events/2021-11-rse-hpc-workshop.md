@@ -1,11 +1,11 @@
 # Research Software Engineers in HPC: Creating Community, Building Careers, Addressing Challenges (RSE-HPC-2021)
-- Date: November 15, 2021
+- Date: August 6, 2021
 - Location: St. Louis, MO and virtual
 - Event Website: https://us-rse.org/rse-hpc-2021/
-- Organizers: US-RSE Association
+- Organizers: US Research Software Engineer Association
 			   
 <!-- deck text start -->
-The RSE in HPC workshop will be held in conjunction with SC21, which is planned to take place as a hybrid (on-site and virtual) event.
+The RSE in HPC workshop will be held in conjunction with SC21, as a hybrid (on-site and virtual) event.
 <!-- deck text end -->
 
 Event Information | Details
