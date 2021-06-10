@@ -44,7 +44,7 @@ Notice that we test several experimental options and support several older compi
 
 #### 3. Release testing
 
-Kokkos and KokkosKernels exist as standalone libraries available on GitHub, and are foundational packages within the Trilinos scientific software library (under the “data services” scope). A new release of the Kokkos Ecosystem requires passing testing within Trilinos, providing additional robustness:
+Kokkos and Kokkos Kernels exist as standalone libraries available on GitHub, and are foundational packages within the Trilinos scientific software library (under the “data services” scope). A new release of the Kokkos Ecosystem requires passing testing within Trilinos, providing additional robustness:
 
 - We do not assume the Kokkos testing suite is fully comprehensive – testing with Trilinos exposes corner cases that may have been missed in the testing suite.
 - Trilinos testing is assumed to be complex enough to provide coverage for most customer applications.
