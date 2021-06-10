@@ -42,7 +42,8 @@ These papers will not be part of the SC proceedings, but we will ask the authors
 
 We particularly encourage submissions from first-time conference presenters, and from members of groups that have historically been underrepresented in the HPC community.
 
-Papers and discussion topics should be submitted via https://submissions.supercomputing.org/?page=Submit&id=SC21WorkshopRSEHPC2021Submission&site=sc21 The deadline for submissions is Friday, August 6, 2021, at 11:59 PM AoE (UTC-12).
+Papers and discussion topics should be submitted via https://submissions.supercomputing.org/?page=Submit&id=SC21WorkshopRSEHPC2021Submission&site=sc21.  
+The deadline for submissions is Friday, August 6, 2021, at 11:59 PM AoE (UTC-12).
 
 For more information, see the workshop website (https://us-rse.org/rse-hpc-2021/) or contact the organizers (sc-ws-rse-hpc@info.supercomputing.org)
 
