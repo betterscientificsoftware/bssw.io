@@ -48,8 +48,8 @@ The deadline for submissions is Friday, August 6, 2021, at 11:59 PM AoE (UTC-12)
 For more information, see the workshop website (https://us-rse.org/rse-hpc-2021/) or contact the organizers (sc-ws-rse-hpc@info.supercomputing.org)
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Conferences and workshops, Software engineering
-RSS update: 2021-06-11
+RSS update: 2021-06-10
 --->
