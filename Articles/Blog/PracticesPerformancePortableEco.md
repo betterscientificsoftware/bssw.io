@@ -1,4 +1,4 @@
-# Practices for Productive Software Development using a Stable Performance Portable Ecosystem
+# Practices for Productive Software Development in Kokkos
 
 **Hero Image:**
 
@@ -30,7 +30,7 @@ As a performance-portable software library we are expected to support a variety 
 - Hardware: x86_64 (various), KNL, ARMv8 ThunderX2, NVIDIA (K80, P100, V100, A100), AMD (Zen CPU, Vega MI25, MI50, MI60, MI100)
 - Backends: Serial, OpenMP, Pthreads, Cuda, HIP (Experimental), OpenMPTarget (Experimental), Sycl (Experimental), HPX
 
-Notice that we test several experimental options and support several older compilers that are years old in order to address the trade-off mentioned above. Total testing coverage requires hours of testing across several computing systems. It would be an unreasonable burden and detriment to coder productivity to require testing the full combinatorial set of supported builds and configurations. To balance developer productivity while preserving software quality and stability, testing of the code base consists of two stages:
+Notice that we test several experimental options and support several older compilers that are years old in order to address the trade-off mentioned above. Total testing coverage requires hours of testing across several computing systems. It would be an unreasonable burden and detriment to coder productivity to require testing the full combinatorial set of supported builds and configurations. To balance developer productivity while preserving software quality and stability, testing of the code base consists of three stages:
 
 #### Pull request acceptance testing
 
@@ -46,8 +46,8 @@ Notice that we test several experimental options and support several older compi
 
 Kokkos and KokkosKernels exist as standalone libraries available on GitHub, and are foundational packages within the Trilinos scientific software library (under the “data services” scope). A new release of the Kokkos Ecosystem requires passing testing within Trilinos, providing additional robustness:
 
-- We do not assume the testing suite is fully comprehensive – testing with Trilinos exposes corner cases that may have been missed in the testing suite.
-- Trilinos testing is assumed complex enough to provide coverage for customer applications.
+- We do not assume the Kokkos testing suite is fully comprehensive – testing with Trilinos exposes corner cases that may have been missed in the testing suite.
+- Trilinos testing is assumed to be complex enough to provide coverage for most customer applications.
 
 ### Support
 
