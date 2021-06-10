@@ -1,12 +1,12 @@
 # Practices for Productive Software Development in Kokkos
 
-**Hero Image:**
-
-- <img src='../../images/Blog_0421_Metrics.jpg'>
-
 #### Contributed by [Nathan Ellingwood](https://github.com/ndellingwood) and [Siva Rajamanickam](https://github.com/srajama1)
 
 #### Publication date: June 11, 2021
+
+<!-- deck -->
+The folks behind the Kokkos performance portable C++ library explain some of the development practices they've adopted to ensure that their product works well for their growing user base.
+<!-- end deck -->
 
 As we move closer to computing systems capable of exascale performance coming online, an ever-expanding set of technologies such as CPUs, GPUs, ARM based processors, all using their own memory technologies will be employed as part of our platforms. Accompanying this wave of technologies is a complex web of software, including programming models and compilers which expose the hardware to developers for use with their applications.
 
