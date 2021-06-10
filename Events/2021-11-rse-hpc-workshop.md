@@ -28,8 +28,11 @@ Most of the workshop time will be spent in interactive discussions, preceded by 
 ## Submissions
 
 We encourage prospective participants to submit position papers (limit of 2 pages, not counting references; no format prescribed) on topics related to RSE issues. We particularly encourage submissions on the keynote topic:
+
 * Do RSEs need to change for exascale?  
+
 Other possible topics include (but are not limited to):
+
 * Career paths: how do RSEs want to be hired, promoted and evaluated?
 * Building RSE organizations: how to find RSEs in your country/region and how to motivate them to join the network and engage?
 * Supporting RSE organizations: what can be done to help RSEs (and those supporting RSEs) at international, national, regional, and local levels?
