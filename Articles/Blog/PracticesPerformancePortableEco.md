@@ -44,14 +44,14 @@ Notice that we test several experimental options and support several older compi
 
 #### 3. Release testing
 
-Kokkos and Kokkos Kernels exist as standalone libraries available on GitHub, and are foundational packages within the Trilinos scientific software library (under the “data services” scope). A new release of the Kokkos Ecosystem requires passing testing within Trilinos, providing additional robustness:
+Kokkos and KokkosKernels exist as standalone libraries available on GitHub, and are foundational packages within the Trilinos scientific software library (under the “data services” scope). A new release of the Kokkos Ecosystem requires passing testing within Trilinos, providing additional robustness:
 
 - We do not assume the Kokkos testing suite is fully comprehensive – testing with Trilinos exposes corner cases that may have been missed in the testing suite.
 - Trilinos testing is assumed to be complex enough to provide coverage for most customer applications.
 
 ### Support
 
-While the above mentioned features help us sustain a reasonable balance between evolving architectures and stability requirements of applications, as with any software, the possibility of a bug is always there. We provide a robust support mechanism for applications at several levels. Kokkos developers reside at major DOE computing facilities who serve as the point of contact for their corresponding institutions. We use Slack and GitHub as the primary resource for direct user support. As of this writing, the [Kokkos Slack channel](kokkosteam.slack.com) has 585 members across multiple institutions. Community support in evaluating new features, alpha users who use the develop branch and provide feedback, and hardware vendors who test Kokkos with new compilers and runtimes, all contribute to the stability of the software ecosystem.
+While the above mentioned features help us sustain a reasonable balance between evolving architectures and stability requirements of applications, as with any software, the possibility of a bug is always there. We provide a robust support mechanism for applications at several levels. Kokkos developers reside at major DOE computing facilities who serve as the point of contact for their corresponding institutions. We use Slack and GitHub as the primary resource for direct user support. As of this writing, the [Kokkos Slack channel](kokkosteam.slack.com) has 585 members across multiple institutions. Community contributions in evaluating new features, alpha users who use the develop branch and provide feedback, and hardware vendors who test Kokkos with new compilers and runtimes, all contribute to the stability of the software ecosystem.
 
 ### Author bios
 
