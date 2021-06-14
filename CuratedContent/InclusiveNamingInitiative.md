@@ -44,7 +44,7 @@ Ways you can contribute...
 * [Participate](https://inclusivenaming.org/participate/) in and promote the work of the [Inclusive Naming Initiative](https://inclusivenaming.org/).
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Software process improvement, Documentation, Strategies for more effective teams
 RSS update: 2021-06-12
