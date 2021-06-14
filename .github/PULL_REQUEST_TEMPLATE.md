@@ -50,7 +50,7 @@ Addresses issue #`<issue-id>`
 NOTE:
 * Checklist items prefixed with ***[Author]*** are expected to be performed by the author of the PR or can be performed by the author.
 * Checklist items prefixed with ***[EB Mem]*** must be performed by a [BSSw.io Editorial Board (EB) Member](https://betterscientificsoftware.github.io/bssw.io/bssw_members.html).
-* Checklist items prefixed with ***[BSSw Maint]*** must be performed by someone in the `@betterscientificsoftware/bssw-maint` team.
+* Checklist items prefixed with ***[BSSw Maint]*** must be performed by someone in the `@betterscientificsoftware/bssw-maint` team (hint: type `@`, `b`, `s`, `s`, `w`, `-`, `m`  to auto-complete to `@betterscientificsoftware/bssw-maint`).
 
 <!-- NOTE: Remove above checklist if using the below checklist for internal files. -->
 
