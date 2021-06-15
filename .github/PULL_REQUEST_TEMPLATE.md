@@ -45,7 +45,7 @@ Addresses issue #`<issue-id>`
 * [ ] ***[EB Mem]*** Leave comment @mentioning a bssw.io site maintainer (**BSSw Maint**) asking to carry out final publication steps.
 * [ ] ***[BSSw Maint]*** Verify that all needed files are present in the PR (article, images, updates to Site/Homepage.md carousel and/or Site/Announcements/Announcements.md as appropriate).
 * [ ] ***[BSSw Maint]*** Merge PR. (Should automatically move to "Done" in [Content Development].)
-* [ ] ***[BSSw Maint]*** Verify new new contribution shows up on [bssw.io] as expected.
+* [ ] ***[BSSw Maint]*** Verify new contribution shows up on [bssw.io] as expected.
 
 NOTE:
 * Checklist items prefixed with ***[Author]*** are expected to be performed by the author of the PR or can be performed by the author.
