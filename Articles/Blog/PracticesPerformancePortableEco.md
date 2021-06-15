@@ -14,7 +14,7 @@ Performance portable software libraries aim to ease the burden on application de
 
 ### Branching model
 
-Projects in the Kokkos Ecosystem reside on [GitHub](www.github.com/kokkos) and employ a branching process that looks similar to the [Git Flow workflow]( https://nvie.com/posts/a-successful-git-branching-model/):
+Projects in the Kokkos Ecosystem reside on [GitHub](https://github.com/kokkos) and employ a branching process that looks similar to the [Git Flow workflow]( https://nvie.com/posts/a-successful-git-branching-model/):
 
 - The master branch is default, production-ready code, and held frozen between releases. 
 - The develop branch tracks contributions by developers, such as bug fixes, new features, enhancements, etc. Completed features are submitted as pull requests to the develop branch for code review and acceptance testing. GitHub’s issue tracker is used for communication regarding requests, bug reports, and progress.
@@ -51,7 +51,7 @@ Kokkos and Kokkos Kernels exist as standalone libraries available on GitHub, and
 
 ### Support
 
-While the above mentioned features help us sustain a reasonable balance between evolving architectures and stability requirements of applications, as with any software, the possibility of a bug is always there. We provide a robust support mechanism for applications at several levels. Kokkos developers reside at major DOE computing facilities who serve as the point of contact for their corresponding institutions. We use Slack and GitHub as the primary resource for direct user support. As of this writing, the [Kokkos Slack channel](kokkosteam.slack.com) has 585 members across multiple institutions. Community contributions in evaluating new features, alpha users who use the develop branch and provide feedback, and hardware vendors who test Kokkos with new compilers and runtimes, all contribute to the stability of the software ecosystem.
+While the above mentioned features help us sustain a reasonable balance between evolving architectures and stability requirements of applications, as with any software, the possibility of a bug is always there. We provide a robust support mechanism for applications at several levels. Kokkos developers reside at major DOE computing facilities who serve as the point of contact for their corresponding institutions. We use Slack and GitHub as the primary resource for direct user support. As of this writing, the [Kokkos Slack channel](https://kokkosteam.slack.com) has 585 members across multiple institutions. Community contributions in evaluating new features, alpha users who use the develop branch and provide feedback, and hardware vendors who test Kokkos with new compilers and runtimes, all contribute to the stability of the software ecosystem.
 
 ### Author bios
 
