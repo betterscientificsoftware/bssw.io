@@ -2,7 +2,7 @@
 
 #### Contributed by [Nathan Ellingwood](https://github.com/ndellingwood) and [Siva Rajamanickam](https://github.com/srajama1)
 
-#### Publication date: June 11, 2021
+#### Publication date: June 15, 2021
 
 <!-- deck -->
 The folks behind the Kokkos performance portable C++ library explain some of the development practices they've adopted to ensure that their product works well for their growing user base.
@@ -68,8 +68,8 @@ Unclassified Unlimited Release (UUR) SAND2021-6146 S
 -->
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: release and deployment, issue tracking, testing, continuous integration testing, 
-RSS update: 2021-06-11
+RSS update: 2021-06-15
 --->
