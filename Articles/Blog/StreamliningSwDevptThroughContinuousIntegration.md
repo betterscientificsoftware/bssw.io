@@ -5,7 +5,7 @@
 #### Publication date: April 26, 2019
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_SDwithCI.png" />[PFLOTRAN simulation of Iodine-129 migrating downgradient from a nuclear waste repository.  Image courtesy of Emily Stein, Sandia National Laboratories.]
+- <img src="../../images/Blog_0419_SDwithCI.png" />[PFLOTRAN simulation of Iodine-129 migrating downgradient from a nuclear waste repository.  Image courtesy of Emily Stein, Sandia National Laboratories.]
 
 
 Continuous integration facilitates sustainable software development when properly utilized.  Through continuous integration, source code and documentation can be automatically downloaded, compiled, tested, and deployed; and steps requiring human intervention are eliminated.  One potential challenge with continuous integration is the ongoing maintenance of supporting software and hardware infrastructure, which may be routine for IT specialists but bothersome for domain scientists. Within cloud computing, however, frameworks exist that greatly facilitate continuous integration, many of which are free to open source code development projects.

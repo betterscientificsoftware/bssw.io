@@ -6,7 +6,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0119_32311D13_crop.jpg' />
+- <img src='../../images/Blog_0119_32311D13_crop.jpg' />
 
 High-performance computing (HPC) education is essential to our community. From evolving programming techniques and numerical algorithms to transformations in system architectures and software, the HPC landscape is moving fast as we continue progressing toward the exascale era. But are we ready for it?
 

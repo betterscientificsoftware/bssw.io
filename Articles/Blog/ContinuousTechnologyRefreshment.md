@@ -1,7 +1,7 @@
 # Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_CTR_1176_432.png" />[Image source: NASA]
+- <img src="../../images/Blog_0419_CTR_1176_432.png" />[Image source: NASA]
 
 
 #### Publication date: April 12, 2019

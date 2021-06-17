@@ -21,7 +21,7 @@ This tutorial is designed for software testing professionals who would like to u
 
 Before proceeding with this tutorial, you should have a basic understanding of the software development lifecycle. In addition, you should have a basic understanding of software programming using any programming language.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class_tutorialpoint_logo.png' class='logo' />
+<img src='../images/Logo-class_tutorialpoint_logo.png' class='logo' />
 
 
 <!---

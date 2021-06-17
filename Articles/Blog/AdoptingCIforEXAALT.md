@@ -6,7 +6,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_Alcator_C-Mod_Fisheye_1176_432.png' />[
+- <img src='../../images/Blog_0918_Alcator_C-Mod_Fisheye_1176_432.png' />[
 
 To develop software that can push the limits of accelerated molecular dynamics, the EXAALT team is working with the IDEAS-ECP project to adopt continuous integration practices.
 
@@ -15,7 +15,7 @@ The [Exascale Atomistic capability for Accuracy, Length and Time (EXAALT)](https
 <br>
 
 <!--- Image to illustrate the complexity of EXAALT --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_EXAALTfwork_1250_729.png' class='page' />[Figure 1. Illustration of the EXAALT framework. The three main software components (LAMMPS, LATTE, and ParSplice) are represented as colored circles, while other libraries are represented as grey circles. Lines (graph edges) depict dependencies between the various software components.]
+<img src='../../images/Blog_0918_EXAALTfwork_1250_729.png' class='page' />[Figure 1. Illustration of the EXAALT framework. The three main software components (LAMMPS, LATTE, and ParSplice) are represented as colored circles, while other libraries are represented as grey circles. Lines (graph edges) depict dependencies between the various software components.]
 
 <br>
 
@@ -31,7 +31,7 @@ The fruitful EXAALT-IDEAS collaboration, which is still ongoing between research
 <br>
 
 <!--- Image to show build and test PSIP cards /> --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_PSIPprocesscards_1250_510.png' class='page lightbox' />[Figure 2. Summarized versions of PSIP process cards used for the EXAALT-IDEAS collaboration.  The specific scores in the figure correspond to the state of the project in mid-July 2018: Boost-enabled tests have been added to the CMake build system, and now the existing Gitlab CI pipeline needs to be modified to leverage the current CMake/CTest capabilities.  Note that some details about dependencies and timeline are excluded from the PSIP cards for clarity.]
+<img src='../../images/Blog_0918_PSIPprocesscards_1250_510.png' class='page lightbox' />[Figure 2. Summarized versions of PSIP process cards used for the EXAALT-IDEAS collaboration.  The specific scores in the figure correspond to the state of the project in mid-July 2018: Boost-enabled tests have been added to the CMake build system, and now the existing Gitlab CI pipeline needs to be modified to leverage the current CMake/CTest capabilities.  Note that some details about dependencies and timeline are excluded from the PSIP cards for clarity.]
 
 
 <br>

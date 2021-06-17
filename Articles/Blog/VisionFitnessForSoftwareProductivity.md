@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_EyestrainImage_Blue_1176_432_CE.png' />
+ - <img src='../../images/Blog_EyestrainImage_Blue_1176_432_CE.png' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: May 17, 2018

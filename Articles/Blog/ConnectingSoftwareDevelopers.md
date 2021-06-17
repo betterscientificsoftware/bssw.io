@@ -22,7 +22,7 @@ This type of event provides an excellent means of enhancing communication across
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_ORNLSoftwareExpo_Poster.jpg' class='page' />[Poster session at ORNL Software Expo.] 
+<img src='../../images/Blog_ORNLSoftwareExpo_Poster.jpg' class='page' />[Poster session at ORNL Software Expo.] 
 
 ### LLNL Developer Day
 
