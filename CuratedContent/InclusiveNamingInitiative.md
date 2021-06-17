@@ -4,7 +4,7 @@ As software developers, we exercise the power to name a lot. We name projects, p
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: May 27, 2021
+#### Publication date: June 14, 2021
 
 Resource information | Details
 :--- | :--- 
@@ -47,5 +47,5 @@ Ways you can contribute...
 Publish: yes
 Pinned: no
 Topics: Software process improvement, Documentation, Strategies for more effective teams
-RSS update: 2021-06-12
+RSS update: 2021-06-14
 --->
