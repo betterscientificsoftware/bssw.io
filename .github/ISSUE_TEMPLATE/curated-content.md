@@ -1,7 +1,7 @@
 ---
 name: Curated Content
 about: A brief article that highlights another resource and outlines why the HPC/CSE community may value it.  
-labels: curated content ideas
+labels: 'content: curated'
 ---
 
 To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete them entirely from the body of this issue before entering your submission.

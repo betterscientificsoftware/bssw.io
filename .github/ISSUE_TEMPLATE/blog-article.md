@@ -2,7 +2,7 @@
 name: Blog Article
 about: Template for submitting a blog article for consideration
 title: Possible Blog Article
-labels: blog
+labels: 'content: blog'
 assignees: bernhold, curfman
 
 ---
