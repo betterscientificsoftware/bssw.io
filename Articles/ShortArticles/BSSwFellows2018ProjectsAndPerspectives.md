@@ -13,7 +13,7 @@ September 2018: The information below provides a snapshot of current work by the
 <!--- --------------- --->
 ## 2018 BSSw Fellows
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_carver.jpg' class='logo' />
+<img src='../../images/Fell_carver.jpg' class='logo' />
 ### Jeffrey Carver
 University of Alabama, Professor, Computer Science
 
@@ -27,7 +27,7 @@ University of Alabama, Professor, Computer Science
 
 <!--- --------------- --->
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_jiminez.jpg' class='logo' />
+<img src='../../images/Fell_jiminez.jpg' class='logo' />
 ### Ivo Jimenez
 University of California Santa Cruz, Ph.D. candidate, Computer Science
 
@@ -39,7 +39,7 @@ University of California Santa Cruz, Ph.D. candidate, Computer Science
 *Perspectives on the BSSw Fellowship Program:* The goal of my work is improving the state of practice for computational experiments by teaching new generations more efficient approaches for carrying out scientific explorations.  Through the BSSw Fellowship Program, I have been able to reach a broad audience and to create connections with people who have significantly enriched my professional network, and with whom I would have not had the chance to interact otherwise.  
 
 <!--- --------------- --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_katz.jpg' class='logo' />
+<img src='../../images/Fell_katz.jpg' class='logo' />
 ### Daniel S. Katz</b>     
 University of Illinois at Urbana-Champaign, Research Associate Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences
 
@@ -54,7 +54,7 @@ National Center for Supercomputing Applications, Assistant Director for Scientif
 *Perspectives on the BSSw Fellowship Program:* I applied to be a BSSw Fellow because I saw this as an opportunity to extend some of the work I had started in software citation to have a larger impact, by encouraging new communities to include software citation as part of their professional culture. While this work is a slow activity, I feel that the fellowship has allowed me to help these communities move farther than they otherwise would have. I've enjoyed the experience of understanding the projects of the other fellows and getting better insight into ECP. Based on what I've learned, I suggest that prospective fellows think about how to expand something they are already doing and increase the impact of their work, rather than proposing something completely new.
 
 <!--- --------------- --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Fell_lumsdaine.jpg' class='logo' />
+<img src='../../images/Fell_lumsdaine.jpg' class='logo' />
 ### Andrew Lumsdaine
 University of Washington, Affiliate Professor, Computer Science
 
@@ -70,19 +70,19 @@ Northwest Institute for Advanced Computing, Chief Scientist
 <!--- --------------- --->
 ## 2018 BSSw Honorable Mentions
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_davis.jpg' class='logo' />
+<img src='../../images/HM_davis.jpg' class='logo' />
 ### Neal Davis 
 University of Illinois at Urbana-Champaign, Teaching Assistant Professor, Computer Science
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_gonsiorowski.jpg' class='logo' />
+<img src='../../images/HM_gonsiorowski.jpg' class='logo' />
 ### Elsa Gonsiorowski
 Lawrence Livermore National Laboratory, HPC I/O Specialist, Livermore Computing
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_henrydefrahan.jpg' class='logo' />
+<img src='../../images/HM_henrydefrahan.jpg' class='logo' />
 ### Marc Henry de Frahan
 National Renewable Energy Laboratory, Postdoctoral Researcher
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/HM_li.jpg' class='logo' />
+<img src='../../images/HM_li.jpg' class='logo' />
 ### Ying Li
 Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facility
 

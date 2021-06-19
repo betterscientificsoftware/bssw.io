@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_Apollo3.png' />
+ - <img src='../../images/Blog_0719_Apollo3.png' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: July 15, 2019
@@ -39,7 +39,7 @@ later from an experience on Apollo 8.
 
 <br>
 
-[Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_SquareImages_dsky_2.jpg' class='page' />
+[Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal]<img src='../../images/Blog_0719_agc_SquareImages_dsky_2.jpg' class='page' />
 
 <br>
 
@@ -139,7 +139,7 @@ computational load on the AGC lessened and the program alarms abated.
 
 <br>
 
-[Jack Garman's Cheat Sheet of AGC Program Alarms]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_garman_cheat_sheetB.png' class='page' />
+[Jack Garman's Cheat Sheet of AGC Program Alarms]<img src='../../images/Blog_0719_agc_garman_cheat_sheetB.png' class='page' />
 
 <br>
 
@@ -173,7 +173,7 @@ enhanced to incorporate tracking telemetry from multiple ground stations simulta
 
 <br>
 
-[Left: John Aarons at Mission Control. Right: Alan Bean of Apollo 12 at Surveyor III with LM Intrepid in the background]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_apollo_12_and_aaronsB.png' class='page' />
+[Left: John Aarons at Mission Control. Right: Alan Bean of Apollo 12 at Surveyor III with LM Intrepid in the background]<img src='../../images/Blog_0719_agc_apollo_12_and_aaronsB.png' class='page' />
 
 ### What-if thinking
 Early on, MIT engineers adopted a *what-if* approach to software development, trying to account

@@ -17,7 +17,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_NasirEisty.png' class='logo' />
+  <img src='../../images/People_2020Blue_NasirEisty.png' class='logo' />
 </div>  
 
 <div class='short_bio'>
@@ -29,7 +29,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DamianRouson.png' class='logo' />
+<img src='../../images/People_2020Blue_DamianRouson.png' class='logo' />
 </div>
   
 <div class='short_bio'>
@@ -42,7 +42,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_CindyRubioGonz.png' class='logo' />
+<img src='../../images/People_2020Blue_CindyRubioGonz.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -56,7 +56,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_DavidBoehme.png' class='logo' />
+<img src='../../images/People_2020Blue_DavidBoehme.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -68,7 +68,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_SumanaHarihareswara.png' class='logo' />
+<img src='../../images/People_2020Blue_SumanaHarihareswara.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -80,7 +80,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/People_2020Blue_David Rogers.png' class='logo' />
+<img src='../../images/People_2020Blue_David Rogers.png' class='logo' />
 </div>
 
 <div class='short_bio'>

@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_032420_StoneMasonry.png' />
+ - <img src='../../images/Blog_032420_StoneMasonry.png' />
 
 #### Contributed by [Wolfgang Bangerth](https://github.com/bangerth "Wolfgang Bangerth GitHub Profile")
 

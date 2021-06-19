@@ -1,7 +1,7 @@
 # Better Scientific Software: 2018 Highlights
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_010219_Mantage.png" />[2018 Highlights]
+- <img src="../../images/Blog_010219_Mantage.png" />[2018 Highlights]
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") 
 

@@ -14,7 +14,7 @@ Focus | Testing and continuous integration
 
 Automatic testing systems lower the burden of running software tests and adding new tests. *[Jenkins](https://jenkins.io/ "Jenkins Homepage")* is an open-source automation server that provides plugins to support building, deploying, and automating software projects. *Jenkins* can monitor the execution of repeated jobs, such as building/testing software projects continuously and monitoring execution of externally run jobs, even those that are run on a remote machine.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-jenkins.png' class='logo' />
+<img src='../images/Logo-class-jenkins.png' class='logo' />
 
 <!---
 Publish: yes

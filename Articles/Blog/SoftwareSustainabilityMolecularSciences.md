@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1119_MolecularSCI_1136x432.png' />
+ - <img src='../../images/Blog_1119_MolecularSCI_1136x432.png' />
 
 #### Contributed by [Theresa L. Windus](https://github.com/twindus "Theresa L. Windus GitHub Profile") and [T. Daniel Crawford](https://github.com/lothian "T. Daniel Crawford GitHub Profile")
 

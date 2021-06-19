@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0615_Apollo2.jpg' />[Image Source: NASA (see below)]
+ - <img src='../../images/Blog_0615_Apollo2.jpg' />[Image Source: NASA (see below)]
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: June 17, 2019
@@ -42,7 +42,7 @@ the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicle
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_C.jpg' class='page' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
+<img src='../../images/Blog_0619_agc_and_spacecraft3_C.jpg' class='page' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
 
 <br> 
 
@@ -107,7 +107,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
+<img src='../../images/Blog_0619_agc_sw_stack2_B.jpg' class='page' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
 
 <br> 
 
@@ -159,7 +159,7 @@ of communications between them and mission control.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, A critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic was used to control RCS jet firings in coasting flight.]
+<img src='../../images/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, A critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic was used to control RCS jet firings in coasting flight.]
 
 <br>
 
@@ -219,7 +219,7 @@ Five different levels of testing were developed.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />[Data from actual flight tests of the LM descent engine is compared with the data from the all-digital simulation.]
+<img src='../../images/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />[Data from actual flight tests of the LM descent engine is compared with the data from the all-digital simulation.]
 
 <br>
 
@@ -252,7 +252,7 @@ costs down, there was even a computer-automated documentation system developed.<
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC software development costs by category: left includes test hardware costs and right with hardware costs factored out.]
+<img src='../../images/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC software development costs by category: left includes test hardware costs and right with hardware costs factored out.]
 
 <br>
 
@@ -297,7 +297,7 @@ Among other things, he contributes to
 
 
 <!---
-[0]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
+[0]: ../../images/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. {}"
 [3]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field {}"
 [4]: https://en.wikipedia.org/wiki/Gravitation_of_the_Moon "Moon's Lumpy Gravity Field {}"
 [5]: https://www.americanscientist.org/article/moonshot-computing "Great Article on AGC Software {Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147}"
@@ -406,7 +406,7 @@ Among other things, he contributes to
 
 References | &nbsp;
 :--- | :---
-<a name="ref1"></a>1 | [Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. ](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
+<a name="ref1"></a>1 | [Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here. ](../../images/397_apollo_flightdiagram.jpg)
 <a name="ref2"></a>2 | [Earth's Lumpy Gravity Field ](https://en.wikipedia.org/wiki/Gravity_of_Earth)
 <a name="ref3"></a>3 | [Moon's Lumpy Gravity Field ](https://en.wikipedia.org/wiki/Gravitation_of_the_Moon)
 <a name="ref4"></a>4 | [Great Article on AGC Software Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147](https://www.americanscientist.org/article/moonshot-computing)

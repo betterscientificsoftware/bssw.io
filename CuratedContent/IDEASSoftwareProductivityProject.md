@@ -23,7 +23,7 @@ Target readers are all those who care about the quality and integrity of scienti
 
 Sponsored by the U. S. Dept. of Energy
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/IDEAS_logo_small.png' class='logo' />
+<img src='../images/IDEAS_logo_small.png' class='logo' />
 
 
 <!---
