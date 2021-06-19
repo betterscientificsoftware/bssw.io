@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0615_Apollo2.jpg' />[Image Source: NASA (see below)]
+ - <img src='../../images/Blog_0615_Apollo2.jpg' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: June 17, 2019
@@ -39,11 +39,7 @@ AGC software would control everything. Even so-called manually controlled inputs
 pass through AGC software before affecting the relevant hardware making
 the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicles ever created.
 
-<br> 
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_and_spacecraft3_C.jpg' class='page' />[The two Apollo spacecraft and associated GN&C hardware: The Command and Service Module (CSM) and Lunar Module (LM).]
-
-<br> 
+![](../../images/Blog_0619_agc_and_spacecraft3.png)
 
 A challenge in developing the software was that all the GN&C subsystems
 pictured above were under development *simultaneously*
@@ -106,9 +102,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_stack2_B.jpg' class='page' />[Each AGC flight program involved a combination of common utilities and mission-specific space guidance subroutines.]
-
-<br> 
+![](../../images/Blog_0619_agc_sw_stack2.png)
 
 These programs constituted what we might call today the *Apollo guidance software stack*.
 All were implemented in assembly language. By 1965, most of this code had been
@@ -156,11 +150,7 @@ the Moon's lump gravity field;<sup>[2],[3]</sup> and precision timing to coordin
 a planetary ballet of Earth, Moon, Sun and multiple spacecraft and the lines of sight
 of communications between them and mission control.
 
-<br>
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_major_modes_B.jpg' class='page' />[Left, A critical sequence of maneuvers occurred during lunar landing; right, Kalman filter switching logic was used to control RCS jet firings in coasting flight.]
-
-<br>
+![](../../images/Blog_0619_agc_major_modes.png)
 
 ### Performance portability and the digital autopilot (DAP)
 
@@ -216,12 +206,7 @@ Five different levels of testing were developed.
   flights. Early missions included several objectives designed specifically to
   test AGC software.
 
-<br>
-
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_alldig_sim_compare_B.jpg' class='page' />[Data from actual flight tests of the LM descent engine is compared with the data from the all-digital simulation.]
-
-<br>
-
+![](../../images/Blog_0619_agc_alldig_sim_compare.png)
 
 In the data pictured here, data from actual flight tests of the LM descent engine
 is compared with the all-digital simulation. The inner gimbal angle data agree reasonably
@@ -249,7 +234,7 @@ almost exclusively for testing, the adjusted, relative costs of the
 software development alone are shown below, right. To help keep documentation
 costs down, there was even a computer-automated documentation system developed.<sup>[43]</sup>
 
-<br>
+![](../../images/Blog_0619_agc_sw_costs_combined.png)
 
 <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC software development costs by category: left includes test hardware costs and right with hardware costs factored out.]
 
@@ -304,8 +289,6 @@ Level: 2
 Prerequisites: default
 Aggregate: none
 --->
-
-<!-- BEGIN ORIGINAL LINK DEFS
 
 [1]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
 [2]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field"

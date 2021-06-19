@@ -2,7 +2,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_RemoteWorkingPanel.png' />
+- <img src='../../images/Blog_0720_RemoteWorkingPanel.png' />
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile"), [Reed Milewicz](https://github.com/rmmilewi "Reed Milewicz GitHub Profile"), [David Rogers](https://github.com/frobnitzem "David Rogers GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), [Ben Sims](https://github.com/bhsims "Ben Sims GitHub Profile"), and [Greg Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile"), 
 

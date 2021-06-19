@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0620_YAGNI.jpg' />
+ - <img src='../../images/Blog_0620_YAGNI.jpg' />
 
 #### Contributed by [Carl S. Adorf](https://github.com/csadorf "Carl S. Adorf GitHub Profile") and [Vyas Ramasubramani](https://github.com/vyasr "Vyas Ramasubramani GitHub Profile")
 

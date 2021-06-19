@@ -7,7 +7,7 @@
 
 Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering (CSE).
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics2018.png' class='page' />
+<img src='../../images/BSSwResourceTopics2018.png' class='page' />
 
 <br>
 

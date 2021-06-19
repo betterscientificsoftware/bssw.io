@@ -22,7 +22,7 @@ The *FORCE11 [Software Citation Implementation Working Group](https://www.force1
 3. Help implement the principles.
 4. Test specific implementations of the principles. During this process, the principles may also be updated based on feedback from the activities.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-force11-website-logo.png' class='logo' />
+<img src='../images/Logo-class-force11-website-logo.png' class='logo' />
 
 <!---
 Publish: yes

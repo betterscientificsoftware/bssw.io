@@ -1,7 +1,7 @@
 # On Demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize Your Productivity
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_OnDemandLearning_Blue_1176_432.jpg" />[image caption]
+- <img src="../../images/Blog_OnDemandLearning_Blue_1176_432.jpg" />[image caption]
 
 #### Contributed by [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn")
 
@@ -34,7 +34,7 @@ If I were to answer the same question and design a TLF for a team, I would have 
 
 <br> 
 
-[Transmedia learning is the scalable system of messages representing a core experience that unfolds from the use of multiple media and emotionally engages learners by involving them personally in the story (Raybourn, 2014, Journal of Computational Science)]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_OnDemandLearning_hex_1250_767.png' />
+[Transmedia learning is the scalable system of messages representing a core experience that unfolds from the use of multiple media and emotionally engages learners by involving them personally in the story (Raybourn, 2014, Journal of Computational Science)]<img src='../../images/Blog_OnDemandLearning_hex_1250_767.png' />
 
 <br>
 

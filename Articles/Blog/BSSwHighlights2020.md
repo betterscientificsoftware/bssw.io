@@ -1,7 +1,7 @@
 # Better Scientific Software: 2020 Highlights
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0121_Montage.png" />[2020 Highlights]
+- <img src="../../images/Blog_0121_Montage.png" />[2020 Highlights]
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 

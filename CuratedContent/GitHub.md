@@ -16,7 +16,7 @@ Focus | Revision Control
 
 *GitHub* provides both cloud-hosted and self-hosted offerings.  The cloud-hosted service offers a free service tier as well as paid plans.  All self-hosted offerings are paid.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-github.jpg' class='logo' />
+<img src='../images/Logo-class-github.jpg' class='logo' />
 
 
 <!---

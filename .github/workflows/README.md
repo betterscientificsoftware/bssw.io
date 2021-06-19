@@ -22,7 +22,11 @@ Format:
     - trigger: pull request [opened, reopened] on preview branch
     - job: reject-pr
         - Attempts to open a PR against the preview branch are immediately closed and an explanatory comment is added to the PR.
-* 
+* issue-to-project.yml (Auto Assign to Project(s))
+    - trigger: issue [opened, labeled], pull-request [opened, labeled]
+    - job: assign_to_board
+        - Assigns issues and PRs to either Content Development board or BSSw Internal board based on labels ("content: *" or "scope: site-internal")
+
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
 * Recreate preview branch.  Trigger manually

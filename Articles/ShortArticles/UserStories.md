@@ -24,23 +24,20 @@ Additional information about the user story approach can be found at:
 ### Examples of user stories
 
 The [IDEAS project](https://bssw.io/items/ideas-software-productivity-project) has been pursuing the user story approach to streamline the project’s activities and also to understand how user stories can support scientific software development efforts. Based on our experiences, the stories are classified as follows:
-- *Training and documentation*: stories related to specific needs for documentation and training, such as the casual usage of services for revision control, description of design patterns for revision control, design of specific training courses (e.g., on new features in a programming language), etc.
-- *Software integration and testing*: stories related to component integration and testing, software robustness, multi-repository development, process to stress software functionalities under different compilation scenarios, etc.
-- *Software quality*: stories related to updates on HPC architectures, continuous integration to enable testing at DOE computing facilities, access to reliable tools (and examples) to support the improvement of application performance, etc.
-- *Practice and standards*: stories related to the creation of team policies, coding standards, guidelines on releasing, licensing, copyrighting, and managing software contributions, etc.
-- *Software requirements and development*: stories related to time-saving tips for developing better software, improvement of design processes, introduction of code reviews for producing higher quality software, etc.
-- *Operational*: stories related to interviews performed by the project, documenting and publicizing the project’s outreach activities, etc.
+
+- **Training and documentation**: stories related to specific needs for documentation and training, such as the casual usage of services for revision control, description of design patterns for revision control, design of specific training courses (e.g., on new features in a programming language), etc.
+- **Software integration and testing**: stories related to component integration and testing, software robustness, multi-repository development, process to stress software functionalities under different compilation scenarios, etc.
+- **Software quality**: stories related to updates on HPC architectures, continuous integration to enable testing at DOE computing facilities, access to reliable tools (and examples) to support the improvement of application performance, etc.
+- **Practice and standards**: stories related to the creation of team policies, coding standards, guidelines on releasing, licensing, copyrighting, and managing software contributions, etc.
+- **Software requirements and development**: stories related to time-saving tips for developing better software, improvement of design processes, introduction of code reviews for producing higher quality software, etc.
+- **Operational**: stories related to interviews performed by the project, documenting and publicizing the project’s outreach activities, etc.
 
 Additional information about user stories in the context of the IDEAS project was presented in a [poster](https://doi.org/10.6084/m9.figshare.7761914) the SIAM CSE19 Conference, Spokane, WA, 2019.
 
 
-
 <!---
 Publish: yes
-Categories: Planning
+Pinned: no
 Topics: Requirements
-Tags: requirements
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+RSS update: 2019-07-27
 --->

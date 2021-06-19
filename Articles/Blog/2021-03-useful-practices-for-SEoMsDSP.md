@@ -1,7 +1,7 @@
 # Useful Practices for Software Engineering on Medium-Sized Distributed Scientific Projects
 
 **Hero Image:**
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0221_MediumDistrib.jpg'>
+- <img src='../../images/Blog_0221_MediumDistrib.jpg'>
 
 <sub><sup>Photo © 2010-2019 The Regents of the University of California, Lawrence Berkeley National Laboratory.</sup></sub>
 

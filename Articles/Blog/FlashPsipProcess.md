@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_Dataviz.png' />[Simulation of a core-collapse supernova using the FLASH application.]
+ - <img src='../../images/Blog_0819_Dataviz.png' />[Simulation of a core-collapse supernova using the FLASH application.]
  
 #### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Jared O'Neal](https://github.com/jared321)
 
@@ -52,7 +52,7 @@ The first improvement addressed the need to grow our test suite and to improve t
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPTestingCard.png' class='page lightbox'/>[Figure 1. A PSIP progress tracking card that represents the incremental steps used to improve our verification process.]
+<img src='../../images/Blog_082719_PSIPTestingCard.png' class='page lightbox'/>[Figure 1. A PSIP progress tracking card that represents the incremental steps used to improve our verification process.]
 
 <br>
 
@@ -69,7 +69,7 @@ Because we decided to transition the management of our code to git, the second i
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPGitCard.png' class='page lightbox' />[Figure 2. A PSIP progress tracking card that represents the process of designing, implementing, and improving our git workflow.]
+<img src='../../images/Blog_082719_PSIPGitCard.png' class='page lightbox' />[Figure 2. A PSIP progress tracking card that represents the process of designing, implementing, and improving our git workflow.]
 
 <br>
 

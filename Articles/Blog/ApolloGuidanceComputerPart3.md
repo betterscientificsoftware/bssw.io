@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_Apollo3.png' />
+ - <img src='../../images/Blog_0719_Apollo3.png' />
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: July 15, 2019
@@ -37,11 +37,7 @@ display current velocity, the astronauts would perform the following keystrokes,
 meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
 
-<br>
-
-[Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_SquareImages_dsky_2.jpg' class='page' />
-
-<br>
+![Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal](../../images/Blog_0719_agc_dsky2.png)
 
 Data displayed to or entered by the astronauts via the DSKY was handled in English units and
 converted to/from the metric system for internal guidance computations. The astronauts sometimes
@@ -137,11 +133,7 @@ raised significant doubts about its value only months prior to the Apollo 11 mis
 approached the lunar surface for landing, changing major mode programs from `P64` to `P66`, the
 computational load on the AGC lessened and the program alarms abated. 
 
-<br>
-
-[Jack Garman's Cheat Sheet of AGC Program Alarms]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_garman_cheat_sheetB.png' class='page' />
-
-<br>
+![Jack Garman's Cheat Sheet of AGC Program Alarms](../../images/Blog_0719_agc_garman_cheat_sheet.png)
 
 Why wasn't the landing aborted? Turns out it was...in simulations with the Apollo 12 backup crew just
 weeks prior to Apollo 11's launch.<sup>[8]</sup> Flight controllers in those simulations were excoriated
@@ -171,9 +163,7 @@ The LVDC worked flawlessly, and Apollo 12 went on to perform a pin-point landing
 within a short lunar stroll of Surveyor III.<sup>[26]</sup> To achieve this landing accuracy, AGC software was
 enhanced to incorporate tracking telemetry from multiple ground stations simultaneously.
 
-<br>
-
-[Left: John Aarons at Mission Control. Right: Alan Bean of Apollo 12 at Surveyor III with LM Intrepid in the background]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0719_agc_apollo_12_and_aaronsB.png' class='page' />
+![Left: John Aarons at Mission Control. Right: Alan Bean of Apollo 12 at Surveyor III with LM Intrepid in the background](../../images/Blog_0719_agc_apollo_12_and_aarons.png)
 
 ### What-if thinking
 Early on, MIT engineers adopted a *what-if* approach to software development, trying to account

@@ -27,7 +27,7 @@ One can also include Doxygen generated XML content into *Sphinx*.
 See the
 [Breathe](https://github.com/michaeljones/breathe/) extension for details.
 
-<img src="https://www.sphinx-doc.org/en/master/_static/sphinxheader.png" class="logo">
+<img src="../images/sphinxheader.png" class="logo">
 
 
 

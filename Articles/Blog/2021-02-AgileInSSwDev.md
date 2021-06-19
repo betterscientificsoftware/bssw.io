@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0221_Agile.png'>
+ - <img src='../../images/Blog_0221_Agile.png'>
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64 "Anshu Dubey GitHub Profile")
 

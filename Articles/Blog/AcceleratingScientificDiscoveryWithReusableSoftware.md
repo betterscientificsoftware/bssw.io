@@ -1,5 +1,5 @@
 # Call for Papers ... Accelerating Scientific Discovery with Reusable Software
-<!--- <img src='https://github.com/betterscientificsoftware/images/raw/master/IEEE-CiSE-special-issue_lg.png' class='page' /> --->
+<!--- <img src='../../images/IEEE-CiSE-special-issue_lg.png' class='page' /> --->
 
 #### Contributed by [Scott Lathrop](https://github.com/scottlathrop " Scott Lathrop GitHub Profile")
 

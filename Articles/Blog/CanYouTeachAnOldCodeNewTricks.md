@@ -29,7 +29,7 @@ These choices become embedded in the project and reinforce each other, pushing t
 
 <br>
 
-[xRage code dependency graphs: before (left) and after (right) untangling code dependencies]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_diag_032718.jpg' class='page lightbox' />
+[xRage code dependency graphs: before (left) and after (right) untangling code dependencies]<img src='../../images/Blog_diag_032718.jpg' class='page lightbox' />
 
 <br>
 
