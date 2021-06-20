@@ -140,14 +140,14 @@ def is_ld_block_defn_line(mdfl):
 
         Returns footnote id, url, title, biblio-info as a list
     """
-    retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*(https?://\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
+    retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*((https?|ftp)://\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
     if not retval:
         return None
 
     ref_hdl = retval[0][0]
     ref_url = retval[0][1].strip()
-    ref_tit = retval[0][2].strip().strip('"')
-    ref_bib = retval[0][3].strip().strip('"{}')
+    ref_tit = retval[0][3].strip().strip('"')
+    ref_bib = retval[0][4].strip().strip('"{}')
 
     return [ref_hdl, ref_url, ref_tit, ref_bib]
 
