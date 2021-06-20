@@ -156,16 +156,62 @@ def gather_file_lines(filename):
     with open(filename, 'r') as mdf:
         return mdf.readlines()
 
+def gather_md_block_lines(file_lines, warn):
+    """Search all content to find lines that seem to be the metadata block"""
+    found_md_block = False
+    in_comment = False
+    candidate_md_lines = []
+    i = 0
+    for fl in file_lines:
+        if re.match("^\s*<!---?\s*$", fl):
+            candidate_md_lines = [fl]
+            in_comment = True
+        elif in_comment and re.match("^\s*---?>\s*$", fl):
+            candidate_md_lines += [fl]
+            in_comment = False
+            for cmdl in candidate_md_lines:
+                if re.match("^\s*[Pp]ublish:\s*([Yy]es|[Nn]o|[Pp]review)", cmdl):
+                    found_md_block = True
+                    break
+        elif in_comment:
+            candidate_md_lines += [fl]
+        i += 1
+        if found_md_block:
+            break
+    if found_md_block:
+        if i < len(file_lines):
+            for fl in file_lines[i:]:
+                if not re.match("^\s*$", fl):
+                    print("Metadata block MUST BE at end of file")
+                    if not warn:
+                        print("Correct above issues and re-try...")
+                        exit(1)
+        # Remove md block lines from file_lines
+        del file_lines[i-len(candidate_md_lines):i]
+        return candidate_md_lines
+    return []
+
 def gather_main_content_lines(file_lines):
-    """Returns all lines occuring before first link def line."""
+    """Returns all lines occuring before first link def line
+       and all lines after last link def line."""
+    have_seen_link_def_block = False
     mc_lines = []
+    ec_lines = [] # end-content (after link-def block)
     for mdfl in file_lines:
         if is_ld_block_defn_line(mdfl):
-            break
-        if is_ld_block_begin_line(mdfl):
-            break
-        mc_lines += [mdfl]
-    return mc_lines
+            have_seen_link_def_block = True
+            continue
+        elif is_ld_block_begin_line(mdfl):
+            have_seen_link_def_block = True
+            continue
+        elif is_ld_block_end_line(mdfl):
+            have_seen_link_def_block = True
+            continue
+        if have_seen_link_def_block:
+            ec_lines += [mdfl]
+        else:
+            mc_lines += [mdfl]
+    return mc_lines, ec_lines
 
 def gather_link_defn_lines(file_lines):
     """Returns all link def lines occuring after main content.
@@ -400,9 +446,13 @@ def main(opts, mdfile):
     # Get all txt lines from file into a list
     file_lines = gather_file_lines(mdfile)
 
+    # Gaher lines from metadata block if present and
+    # REMOVE them from file_lines. We'll add them back.
+    md_block = gather_md_block_lines(file_lines, opts['warn'])
+
     # Get the lines of "main content"
     # (everything before first link def line)
-    main_content = gather_main_content_lines(file_lines)
+    main_content, ec_lines = gather_main_content_lines(file_lines)
 
     # Examine main content lines for footnotes
     fn_handles = gather_fn_handles(main_content, opts['warn'])
@@ -443,6 +493,12 @@ def main(opts, mdfile):
 
     # Build reference table lines
     out_lines += build_reference_table_lines(remapped_ref_map)
+
+    # Add end-content
+    out_lines += ec_lines
+
+    # Put the metadata block at the end
+    out_lines += md_block
 
     # Ok, now actually write the updated file
     write_output_file(file_lines, out_lines, mdfile, opts['outfile'], opts['in_place'],
