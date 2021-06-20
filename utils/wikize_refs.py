@@ -130,6 +130,12 @@ def is_ld_block_end_line(mdfl):
     """Check if line is link def block end comment"""
     return re.match("^%s$"%ld_block_end_line(), mdfl) is not None
 
+def is_all_blank_lines(lines):
+    for l in lines:
+        if not re.match("^\s*$", l):
+            return False
+    return True
+
 def is_ld_block_defn_line(mdfl):
     """
     Parse GFM link definition lines of the form...
@@ -179,19 +185,17 @@ def gather_md_block_lines(file_lines, warn):
         if found_md_block:
             break
     if found_md_block:
-        if i < len(file_lines):
-            for fl in file_lines[i:]:
-                if not re.match("^\s*$", fl):
-                    print("Metadata block MUST BE at end of file")
-                    if not warn:
-                        print("Correct above issues and re-try...")
-                        exit(1)
+        if i < len(file_lines) and not is_all_blank_lines(file_lines[i:]):
+            print("Metadata block MUST BE at end of file")
+            if not warn:
+                print("Correct above issues and re-try...")
+                exit(1)
         # Remove md block lines from file_lines
         del file_lines[i-len(candidate_md_lines):i]
         return candidate_md_lines
     return []
 
-def gather_main_content_lines(file_lines):
+def gather_main_content_lines(file_lines, warn):
     """Returns all lines occuring before first link def line
        and all lines after last link def line."""
     have_seen_link_def_block = False
@@ -211,6 +215,12 @@ def gather_main_content_lines(file_lines):
             ec_lines += [mdfl]
         else:
             mc_lines += [mdfl]
+    if ec_lines and not is_all_blank_lines(ec_lines):
+        print("No content other than the meta data block\n"
+              "should be present AFTER the link definition block")
+        if not warn:
+            print("Correct above issues and re-try...")
+            exit(1)
     return mc_lines, ec_lines
 
 def gather_link_defn_lines(file_lines):
@@ -452,7 +462,7 @@ def main(opts, mdfile):
 
     # Get the lines of "main content"
     # (everything before first link def line)
-    main_content, ec_lines = gather_main_content_lines(file_lines)
+    main_content, ec_lines = gather_main_content_lines(file_lines, opts['warn'])
 
     # Examine main content lines for footnotes
     fn_handles = gather_fn_handles(main_content, opts['warn'])
