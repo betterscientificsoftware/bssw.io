@@ -134,6 +134,9 @@ def parse_args():
 def magic():
     return 'sfer-ezikiw'
 
+def autogen_disclaimer():
+    return '<!--- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (%s) --->'%magic()
+
 def message(msg, warn):
     if warn:
         print("%s -- IGNORING due to -w (--warn)"%msg)
@@ -248,6 +251,9 @@ def gather_and_classify_file_lines(filename):
 
             # Ignore general content lines that appear to be auto-generated
             if line_type == "content" and magic() in line:
+                continue
+
+            if line.startswith(autogen_disclaimer()):
                 continue
 
             lines[lineno] = {'line':line, 'type':line_type} 
@@ -511,8 +517,8 @@ def main(opts, mdfile):
     out_lines = build_main_content(file_lines, ref_map, opts['renumber'])
 
     # Build a disclaimer line if we'll have generated content
-    if ref_map and magic() not in out_lines[len(out_lines)-1]:
-        out_lines.append("<!--- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (%s) --->\n"%magic())
+    if ref_map:
+        out_lines.append("%s\n"%autogen_disclaimer())
     
     # Build intermediate link definitions lines
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
