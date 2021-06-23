@@ -92,11 +92,6 @@ def parse_args():
                       default=0, type=int,
                       help="Renumber references starting from specified value.")
 
-    parser.add_argument("-l", "--list-refs",
-                      default=False,
-                      action="store_true",
-                      help="Output references as list instead of table.")
-
     parser.add_argument("-s", "--skip-backup",
                       default=False,
                       action="store_true",
@@ -135,7 +130,7 @@ def magic():
     return 'sfer-ezikiw'
 
 def autogen_disclaimer():
-    return '<!--- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (%s) --->'%magic()
+    return '<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (%s) -->'%magic()
 
 def message(msg, warn):
     if warn:
@@ -253,6 +248,7 @@ def gather_and_classify_file_lines(filename):
             if line_type == "content" and magic() in line:
                 continue
 
+            # Ignore some special cases
             if line.startswith(autogen_disclaimer()):
                 continue
 
@@ -427,35 +423,12 @@ def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
 
     return outlines
 
-def build_reference_table_lines(remapped_ref_map, renumber):
-    """Build (auto-gen'd) rendered table of references"""
-    outlines = []
-
-    if remapped_ref_map:
-        outlines.append("References | &nbsp;\n")
-        outlines.append(":--- | :---\n")
-        for k,v in sorted(remapped_ref_map.items()):
-            if v[1] and v[2]: # both title and bibinfo exist
-                outlines.append("<a name=\"%s-%s\"></a>%s | [%s<br>%s](%s)\n"
-                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[1], v[2], v[0]))
-            elif v[1]: # only title exists
-                outlines.append("<a name=\"%s-%s\"></a>%s | [%s](%s)\n"
-                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[1], v[0]))
-            elif v[2]: # only bibinfo exists
-                outlines.append("<a name=\"%s-%s\"></a>%s | [%s](%s)\n"
-                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[2], v[0]))
-            else: # only url exists
-                outlines.append("<a name=\"%s-%s\"></a>%s | [%s](%s)\n"
-                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[0], v[0]))
-
-    return outlines
-
 def build_reference_list_lines(remapped_ref_map, renumber):
     """Build (auto-gen'd) rendered list of references"""
     outlines = []
 
     if remapped_ref_map:
-        outlines.append("### References <!--- (%s) --->\n"%magic())
+        outlines.append("### References <!-- (%s) -->\n"%magic())
         for k,v in sorted(remapped_ref_map.items()):
             if v[1] and v[2]: # both title and bibinfo exist
                 outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"
@@ -524,11 +497,8 @@ def main(opts, mdfile):
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
     out_lines += build_intermediate_link_defn_lines(remapped_ref_map, opts['renumber'])
 
-    # Build reference table lines
-    if opts['list_refs']:
-        out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'])
-    else:
-        out_lines += build_reference_table_lines(remapped_ref_map, opts['renumber'])
+    # Build reference list lines
+    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'])
 
     # Ok, now actually write the updated file
     flines = [file_lines[k]['line'] for k in sorted(file_lines)]
