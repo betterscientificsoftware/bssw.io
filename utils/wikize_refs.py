@@ -5,44 +5,41 @@
 from shutil import copyfile
 import re, os
 
+try:
+    # python2
+    from urlparse import urlparse
+    from urllib import urlopen
+except:
+    # python3
+    from urllib.parse import urlparse
+    from urllib.request import urlopen
+
 def usage():
     return \
 """
-Re-formats a series of reference style links in a GitHub Markdown file
-so that the article's footnote links behave more Wikipedia-like.
+Adjusts, slightly, a markdown file so that any footnotes using
+reference-style link and link-definitions to behave more
+Wikipedia-like.
 
-Treats a markdown file as being composed of four successive logical
-blocks...
+If the file contains no footnotes, the file will be left unchanged.
+Does some minimal error checking that there is an existing link
+definition for every footnote and that every link definition appears
+in at least one footnote. It will also check that links are valid.
+If errors are fatal, processing will stop upon encountering an error.
+Otherwise only warning messages are produced.
 
-  1. The main content with possible footnote refs (<sup>[J],...</sup>)
-  2. The author's link definitions ([J]: https://... "Title {}")
-  3. Auto-gen'd Intermediate link definitions ([J]: #refJ "Title {}")
-  4. Auto-gen'd Ref. table (<a name="refJ"></a>J | [Title](https://... "{...}"))
+The author's *original link definitions get adjusted slightly by
+appending '-wikize-refs' to each link's id. This has the effect of
+breaking their connection to the footnotes referencing them. This
+is later repaired when a new set of link definitions are appended
+to the end of the file.
 
-Blocks 2, 3 and 4 are optional. Blocks 3 and 4 are generated from
-block 2 if it exists. Repeated applications of this tool should
-result in no changes to the file.
-
-If the main content contains no footnotes, the file will be left
-unchanged. If a footnote references a non-existent author's link
-definition, an error message is issued and processing is stopped.
-If a link definition is not referenced by any footnote, a warning
-message is produced but processing continues.
-
-The author's link definitions are renumbered 1...N and all footnote
-references are updated accordingly. These link definitions are output
-but bracketed within XML comment blocks to hide these link definitions
-from any markdown processing.
-
-The renumbered and re-formatted links are bi-level. Footnotes in the
-content link to entries in a list of references at the bottom of the
-document. Items in the table of references link off-page to their
-intended destinations. The resulting file is still GitHub flavored
-Markdown with a minimal amount of embedded HTML.
-
-For more information, see https://github.com/betterscientificsoftware/\
-betterscientificsoftware.github.io/blob/master/Articles/Blog/\
-ReferencesInMarkdownHybridApproach.md
+The new links links are bi-level. Footnotes in the content link to
+entries in a visible list of references (rendered as either a table
+or a list) appended to the end of the document. Items in the list of
+references link off-page to their intended destinations. The resulting
+file is still GitHub flavored Markdown with a minimal amount of embedded
+HTML.
 
 To process a file...
 
@@ -54,8 +51,8 @@ To modify the input file in-place...
 
     ./wikize_refs.py -i foo.md
 
-...which also backs up the original file as foo.md~.  Use option -s to skip
-the backup on the input file in this case.
+...which also backs up the original file as foo.md~.  Use option
+-s to skip the backup on the input file in this case.
 
     ./wikize_refs.py --help
 
@@ -76,10 +73,29 @@ def parse_args():
                       action="store_true",
                       help="Warn instead of error during (most) error checks.")
 
+    parser.add_argument("-c", "--check-links",
+                      default=False,
+                      action="store_true",
+                      help="Check validity (parse and server response) of links.")
+
     parser.add_argument("-i", "--in-place",
                       default=False,
                       action="store_true",
                       help="Modify input file in-place.")
+
+    parser.add_argument("-g", "--gather-linkdefs",
+                      default=False,
+                      action="store_true",
+                      help="Gather all link definitions to the end of the file.")
+
+    parser.add_argument("-r", "--renumber",
+                      default=0, type=int,
+                      help="Renumber references starting from specified value.")
+
+    parser.add_argument("-l", "--list-refs",
+                      default=False,
+                      action="store_true",
+                      help="Output references as list instead of table.")
 
     parser.add_argument("-s", "--skip-backup",
                       default=False,
@@ -89,7 +105,8 @@ def parse_args():
     parser.add_argument("-o", "--outfile",
                       default=None,
                       help="Specify an output file name. If none specified, will \
-                            use <infile>-wikized.md")
+                            use <infile>-wikized.md or <infile>.md if -i option \
+                            is specified")
 
     parser.add_argument("mdfile")
 
@@ -114,178 +131,198 @@ def parse_args():
 
     return vopts, mdfile
 
-def ld_block_begin_line():
-    """Constant XML comment text for beginning of link def block"""
-    return "<!-- BEGIN ORIGINAL LINK DEFS"
+def magic():
+    return 'sfer-ezikiw'
 
-def ld_block_end_line():
-    """Constant XML comment text for end of link def block"""
-    return "END ORIGINAL LINK DEFS -->"
+def message(msg, warn):
+    if warn:
+        print("%s -- IGNORING due to -w (--warn)"%msg)
+    else:
+        print(msg)
+        print("Either correct above errors or run with -w (--warn)")
+        exit(1)
 
-def is_ld_block_begin_line(mdfl):
-    """Check if line is link def block begin comment"""
-    return re.match("^%s$"%ld_block_begin_line(), mdfl) is not None
+def valid_url(x):
+    """Test that a given string is a valid URL"""
+    try:
+        ckparse = urlparse(x)
+        return all([ckparse.scheme, ckparse.netloc, ckparse.path])
+    except:
+        return False
 
-def is_ld_block_end_line(mdfl):
-    """Check if line is link def block end comment"""
-    return re.match("^%s$"%ld_block_end_line(), mdfl) is not None
-
-def is_all_blank_lines(lines):
-    for l in lines:
-        if not re.match("^\s*$", l):
+def broken_link(x):
+    """Test if a link appears to be working or broken"""
+    if x.startswith('ftp://') or x.startswith('file:///') or \
+       x.startswith('#'):
+       return False
+    try:
+        resp = urlopen(x)
+        try:
+            status = resp.getcode()
+        except:
+            status = resp.status 
+        if status in [404,408,409,501,502,503]:
+            return True
+        else:
             return False
-    return True
+    except:
+        return True
 
-def is_ld_block_defn_line(mdfl):
+def is_link_def_line(mdfl, check_links = False, warn = False):
     """
     Parse GFM link definition lines of the form...
         [10]: https://www.google.com
         [11]: https://www.google.com "Title Info"
         [1a]: https://www.google.com "Title Info {}"
         [2b]: https://www.google.com "Title Info {biblio info}"
+        [foo]: ftp://some/file/online/foo.pdf
+        [bar]: file:///some/file/online/foo.pdf
+        [1234]: #some-internal-anchor
 
-        Returns footnote id, url, title, biblio-info as a list
+        Returns footnote handle, url, title, biblio-info as a list
     """
-    retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*((https?|ftp)://\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
+    retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*((https?://|ftp://|file:///|#)\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
     if not retval:
         return None
 
+    # Strip possible mangling applied in a previous run
     ref_hdl = retval[0][0]
+    if ref_hdl.endswith('-%s'%magic()):
+        ref_hdl = ref_hdl[:-len(magic())-1]
     ref_url = retval[0][1].strip()
     ref_tit = retval[0][3].strip().strip('"')
     ref_bib = retval[0][4].strip().strip('"{}')
 
+    # Ignore cases that appear to be an auto-generated intermediate link 
+    if ref_url.startswith('#%s'%magic()):
+        return None
+
+    if check_links:
+        if not valid_url(ref_url):
+            message("Invalid URL: \"%s\""%ref_url, warn)
+        if broken_link(ref_url):
+            message("Broken URL: \"%s\""%ref_url, warn)
+
     return [ref_hdl, ref_url, ref_tit, ref_bib]
 
-def gather_file_lines(filename):
-    """Read all file lines into a list in memory"""
+def gather_and_classify_file_lines(filename, check_links, warn):
+    """Read all file lines into a list in memory, classifying each line
+       as we go."""
+    lines = {}
     with open(filename, 'r') as mdf:
-        return mdf.readlines()
+        lineno = 1
+        in_xmlcomment = False
+        in_frontmatter = False
+        for line in mdf.readlines():
+            line_type = ""
+            if not in_frontmatter and re.match("^---$", line):
+                line_type = "frontmatter"
+                in_frontmatter = True
+            elif in_frontmatter and re.match("^---$", line):
+                line_type = "frontmatter"
+                in_frontmatter = False
+            elif not in_xmlcomment and re.match("^\s*<!---?.*---?>\s*$", line):
+                line_type = "comment"
+            elif not in_xmlcomment and re.match("^\S+<!---?.*---?>\s*$", line):
+                line_type = "mixed"
+            elif not in_xmlcomment and re.match("^\s*<!---?.*---?>\S+$", line):
+                line_type = "mixed"
+            elif not in_xmlcomment and re.match("^\S+<!---?.*---?>\S+$", line):
+                line_type = "mixed"
+            elif not in_xmlcomment and re.match("^\S+<!---?.*$", line):
+                line_type = "mixed"
+                in_xmlcomment = True
+            elif in_xmlcomment and re.match("^.*---?>\S+$", line):
+                line_type = "mixed"
+                in_xmlcomment = False
+            elif not in_xmlcomment and re.match("^\s*<!---?.*$", line):
+                line_type = "comment"
+                in_xmlcomment = True
+            elif in_xmlcomment and re.match("^.*---?>\s*$", line):
+                line_type = "comment"
+                in_xmlcomment = False
 
-def gather_md_block_lines(file_lines, warn):
-    """Search all content to find lines that seem to be the metadata block"""
-    found_md_block = False
-    in_comment = False
-    candidate_md_lines = []
-    i = 0
-    for fl in file_lines:
-        if re.match("^\s*<!---?\s*$", fl):
-            candidate_md_lines = [fl]
-            in_comment = True
-        elif in_comment and re.match("^\s*---?>\s*$", fl):
-            candidate_md_lines += [fl]
-            in_comment = False
-            for cmdl in candidate_md_lines:
-                if re.match("^\s*[Pp]ublish:\s*([Yy]es|[Nn]o|[Pp]review)", cmdl):
-                    found_md_block = True
-                    break
-        elif in_comment:
-            candidate_md_lines += [fl]
-        i += 1
-        if found_md_block:
-            break
-    if found_md_block:
-        if i < len(file_lines) and not is_all_blank_lines(file_lines[i:]):
-            print("Metadata block MUST BE at end of file")
-            if not warn:
-                print("Correct above issues and re-try...")
-                exit(1)
-        # Remove md block lines from file_lines
-        del file_lines[i-len(candidate_md_lines):i]
-        return candidate_md_lines
-    return []
+            if not line_type:
+                if in_frontmatter:
+                    line_type = "frontmater"
+                elif in_xmlcomment:
+                    line_type = "comment"
+                elif is_link_def_line(line):
+                    line_type = "linkdef"
+                else:
+                    line_type = "content"
 
-def gather_main_content_lines(file_lines, warn):
-    """Returns all lines occuring before first link def line
-       and all lines after last link def line."""
-    have_seen_link_def_block = False
-    mc_lines = []
-    ec_lines = [] # end-content (after link-def block)
-    for mdfl in file_lines:
-        if is_ld_block_defn_line(mdfl):
-            have_seen_link_def_block = True
-            continue
-        elif is_ld_block_begin_line(mdfl):
-            have_seen_link_def_block = True
-            continue
-        elif is_ld_block_end_line(mdfl):
-            have_seen_link_def_block = True
-            continue
-        if have_seen_link_def_block:
-            ec_lines += [mdfl]
-        else:
-            mc_lines += [mdfl]
-    if ec_lines and not is_all_blank_lines(ec_lines):
-        print("No content other than the meta data block\n"
-              "should be present AFTER the link definition block")
-        if not warn:
-            print("Correct above issues and re-try...")
-            exit(1)
-    return mc_lines, ec_lines
+            # Ignore general content lines that appear to be auto-generated
+            if line_type == "content" and magic() in line:
+                continue
 
-def gather_link_defn_lines(file_lines):
-    """Returns all link def lines occuring after main content.
-       Should be called with set of lines starting with first
-       non-main-content line."""
-    ld_lines = []
-    for mdfl in file_lines:
-        if is_ld_block_begin_line(mdfl):
-            continue # ignore the block begin line
-        if is_ld_block_end_line(mdfl):
-            break
-        if is_ld_block_defn_line(mdfl):
-            ld_lines += [mdfl]
-    return ld_lines
-    
-def gather_fn_handles(mc_lines, warn):
-    """Gets all footnote references (handles) occuring in main content
-       excluding any occuring in XML comments."""
+            lines[lineno] = {'line':line, 'type':line_type} 
+            if line_type == "linkdef":
+                lines[lineno]['linkdef'] = is_link_def_line(line, check_links, warn)
+            lineno += 1
+
+    return lines
+
+def gather_fn_handles(file_lines, warn):
+    """Gets all footnote references occuring in content file lines."""
     fn_handles = set()
-    in_comment = False
-    for mcl in mc_lines:
-        if re.match("^\s*<!---?\s*$", mcl):
-            in_comment = True
-        elif in_comment and re.match("^\s*---?>\s*$", mcl):
-            in_comment = False
-        elif not in_comment: # handle up to 3 footnotes in a single <sup></sup>
-             fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
-             fn_handles = fn_handles.union(set(fns1))
-             fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
-             for fn in fns2: fn_handles = fn_handles.union(set(fn))
-             fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
-             for fn in fns3: fn_handles = fn_handles.union(set(fn))
-             fns4p = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],(.*)</sup>", mcl)
-             if len(fns4p) >= 4:
-                 print("Error: Max number of grouped footnotes between <sup>...</sup> is 3")
-                 print("This occurred at or near this line...")
-                 print(mcl)
-                 if not warn:
-                    print("Correct above issues and re-try...")
-                    exit(1)
+    for k in sorted(file_lines):
+
+        if file_lines[k]['type'] != 'content':
+            continue
+
+        fl = file_lines[k]['line']
+
+        # detect cases of <sup>[x]</sup> 
+        fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", fl)
+        if fns1: fn_handles = fn_handles.union(set(fns1))
+
+        # detect cases of <sup>[x],[y]</sup> 
+        fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", fl)
+        if fns2:
+            if len(set(fns2[0])) != 2:
+                message("Duplicate footnote used between <sup>...</sup> at line %d."%k, warn)
+            fn_handles = fn_handles.union(set(fns2[0]))
+
+        # detect cases of <sup>[x],[y],[z]</sup> 
+        fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", fl)
+        if fns3:
+            if len(set(fns3[0])) != 3:
+                message("Duplicate footnote used between <sup>...</sup> at line %d."%k, warn)
+            fn_handles = fn_handles.union(set(fns3[0]))
+
+        # detect cases of <sup>[x],[y],[z],...</sup> 
+        fns4p = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],(.*)</sup>", fl)
+        if fns4p and len(fns4p[0]) >= 4:
+            if len(set(fns4p[0][:3])) != 3:
+                message("Duplicate footnote used between <sup>...</sup> at line %d."%k, warn)
+            fn_handles = fn_handles.union(set(fns4p[0][:3]))
+            message("Extra footnotes beyond 3 between <sup>...</sup> at line %d."%k, warn)
+
     return fn_handles
 
-def build_ref_map(ld_lines, warn):
+def build_ref_map(file_lines, warn):
     """builds a map keyed by footnote handle with value
        [url, title, biblio, re-numbered-id]"""
     ref_map = {}
-    for ldl in ld_lines:
-        mdfparts = is_ld_block_defn_line(ldl)
-        if mdfparts:
-            if len(mdfparts) != 4:
-                print("Error: unknown problem at or near this line...")
-                print(ldl)
-                if not warn:
-                    print("Correct above issues and re-try...")
-                    exit(1)
-            ref_hdl, ref_url, ref_tit, ref_bib = mdfparts
-            if ref_hdl in ref_map:
-                print("Error: repeated reference handle", ref_hdl, "at or near this line...")
-                print(ldl)
-                if not warn:
-                    print("Correct above issues and re-try...")
-                    exit(1)
-            ref_map[ref_hdl] = [ref_url, ref_tit, ref_bib]
-            ref_map[ref_hdl].append(len(ref_map))
+    for k in sorted(file_lines):
+
+        if file_lines[k]['type'] != 'linkdef':
+            continue
+
+        mdfparts = file_lines[k]['linkdef']
+        if len(mdfparts) != 4:
+            message("Improperly parsed link definition at line %d"%k, warn)
+            continue
+
+        ref_hdl, ref_url, ref_tit, ref_bib = mdfparts
+        if ref_hdl in ref_map:
+            message("Repeated reference handle %s at line %d"%(ref_hdl,k), warn)
+            continue
+
+        ref_map[ref_hdl] = [ref_url, ref_tit, ref_bib]
+        ref_map[ref_hdl].append(len(ref_map))
+
     return ref_map
 
 def error_checks(fn_handles, ref_map, warn):
@@ -313,131 +350,126 @@ def error_checks(fn_handles, ref_map, warn):
 
     return missing_fns
 
-def remove_unref_ld_lines(ld_lines, missing_fns):
+def build_main_content(file_lines, ref_map, renumber):
     """
-    Scans link def lines for any for which there is not footnote
-    referencing them. Returns two lists; one for all referenced
-    link def lines and the other for un-referenced link def lines.
-    """
-    new_ld_lines = []
-    unref_ld_lines = []
-
-    if not ld_lines:
-        return new_ld_lines, unref_ld_lines
-
-    if not missing_fns:
-        return ld_lines, unref_ld_lines
-
-    for ld in ld_lines:
-        fn_hdl = is_ld_block_defn_line(ld)
-        if fn_hdl[0] in missing_fns:
-            unref_ld_lines += [ld]
-        else:
-            new_ld_lines += [ld]
-
-    return new_ld_lines, unref_ld_lines
-
-def build_main_content(mc_lines, ref_map):
-    """
-    Builds main content lines but renumbering the footnotes. Filters any
-    footnotes in the main content with their new re-numbered instances.
+    Rebuilds the file lines possibly renumbering the footnotes
     """
     outlines = []
 
-    # Since we're re-filtering the same line multiple times, we replace
-    # <sup></sup> with <pus></pus> to avoid collisions and then undue that
-    # filter in the last step.
-    for mcl in mc_lines:
-        fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
-        for fn in fns1:
-            mcl = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%ref_map[fn][3], mcl)
-        fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
-        for fn in fns2:
-            mcl = re.sub("<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]),
-                         "<pus>[%d],[%d]</pus>"%\
-                         (ref_map[fn[0]][3], ref_map[fn[1]][3]), mcl)
-        fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", mcl)
-        for fn in fns3:
-            mcl = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]),
-                         "<pus>[%d],[%d],[%d]</pus>"%\
-                         (ref_map[fn[0]][3],ref_map[fn[1]][3],ref_map[fn[2]][3]), mcl)
-        mcl = re.sub("<pus>","<sup>", mcl)
-        mcl = re.sub("</pus>","</sup>", mcl)
-        outlines.append(mcl)
+    for k in sorted(file_lines):
+
+        lineinfo = file_lines[k]
+        ltype = lineinfo['type']
+        line = lineinfo['line']
+
+        if ltype == 'linkdef':
+
+            ref_hdl, ref_url, ref_tit, ref_bib = lineinfo['linkdef']
+            if magic() in line:
+                # Its already mangled from a previous run
+                outlines.append(line)
+            else:
+                # Mangle the linkdef to move it out of the way but nonetheless retain it
+                outlines.append(line.replace(ref_hdl, "%s-%s"%(ref_hdl, magic()), 1))
+
+        elif ltype == 'content':
+
+            if not renumber:
+                outlines += [line]
+                continue
+
+            # renumber any footnotes
+            # Since we're re-filtering the same line multiple times, we replace
+            # <sup></sup> with <pus></pus> to avoid collisions and then undue that
+            # filter in the last step.
+            fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", line)
+            for fn in fns1:
+                line = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%(ref_map[fn][3]+renumber), line)
+            fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
+            for fn in fns2:
+                line = re.sub("<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]),
+                             "<pus>[%d],[%d]</pus>"%\
+                             (ref_map[fn[0]][3]+renumber, ref_map[fn[1]][3]+renumber), line)
+            fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
+            for fn in fns3:
+                line = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]),
+                             "<pus>[%d],[%d],[%d]</pus>"%\
+                             (ref_map[fn[0]][3]+renumber,ref_map[fn[1]][3]+renumber,ref_map[fn[2]][3]+renumber), line)
+            line = re.sub("<pus>","<sup>", line)
+            line = re.sub("</pus>","</sup>", line)
+            outlines += [line]
+
+        else: # just output the same line as input
+            outlines += [line]
 
     return outlines
 
-def build_link_defn_lines(ld_lines, ref_map, unref_ld_lines):
-    """Rebuild the (original) link def lines but renumbered and reformatted slightly"""
-    outlines = []
-
-    # handle any unused refs first, outside of any comments bracketing blocks
-    if unref_ld_lines:
-        for ld in unref_ld_lines:
-            outlines += [ld]
-        outlines.append("\n")
-
-    if not ld_lines:
-        return outlines
-
-    # Now, handle author's original link def lines but renumbered and
-    # embedded in XML comment blocks
-    outlines.append(ld_block_begin_line())
-    outlines.append("\n\n")
-    for l in ld_lines:
-        ref_hdl, ref_url, ref_tit, ref_bib = is_ld_block_defn_line(l)
-        if ref_tit and ref_bib:
-            outlines.append("[%d]: %s \"%s {%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit, ref_bib))
-        elif ref_tit:
-            outlines.append("[%d]: %s \"%s\"\n"%(ref_map[ref_hdl][3], ref_url, ref_tit))
-        elif ref_bib:
-            outlines.append("[%d]: %s \"{%s}\"\n"%(ref_map[ref_hdl][3], ref_url, ref_bib))
-        else:
-            outlines.append("[%d]: %s\n"%(ref_map[ref_hdl][3], ref_url))
-    outlines.append("\n")
-    outlines.append(ld_block_end_line())
-    outlines.append("\n")
-
-    return outlines
-
-def build_intermediate_link_defn_lines(remapped_ref_map):
+def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
     """Build (auto-gen'd) intermediate link definitions"""
     outlines = []
 
     if remapped_ref_map:
-        outlines.append("\n<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->\n")
         for k,v in sorted(remapped_ref_map.items()):
-            outlines.append("[%d]: #ref%d%s\n"%(k, k, " \"%s\""%v[1] if v[1] else ""))
+            if renumber:
+                outlines.append("[%d]: #%s-%d %s\n"%(k+renumber, magic(), k+renumber, "\"%s\""%v[1] if v[1] else ""))
+            else:
+                outlines.append("[%s]: #%s-%s %s\n"%(v[3], magic(), v[3], "\"%s\""%v[1] if v[1] else ""))
 
     return outlines
 
-def build_reference_table_lines(remapped_ref_map):
+def build_reference_table_lines(remapped_ref_map, renumber):
     """Build (auto-gen'd) rendered table of references"""
     outlines = []
 
     if remapped_ref_map:
-        outlines.append("\n<!--- TABLE OF REFS RENDERED AS MARKDOWN --->\n")
         outlines.append("References | &nbsp;\n")
         outlines.append(":--- | :---\n")
         for k,v in sorted(remapped_ref_map.items()):
             if v[1] and v[2]: # both title and bibinfo exist
-                outlines.append("<a name=\"ref%d\"></a>%d | [%s<br>%s](%s)\n"%(k, k, v[1], v[2], v[0]))
+                outlines.append("<a name=\"%s-%s\"></a>%s | [%s<br>%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[1], v[2], v[0]))
             elif v[1]: # only title exists
-                outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[1], v[0]))
+                outlines.append("<a name=\"%s-%s\"></a>%s | [%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[1], v[0]))
             elif v[2]: # only bibinfo exists
-                outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[2], v[0]))
+                outlines.append("<a name=\"%s-%s\"></a>%s | [%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[2], v[0]))
             else: # only url exists
-                outlines.append("<a name=\"ref%d\"></a>%d | [%s](%s)\n"%(k, k, v[0], v[0]))
+                outlines.append("<a name=\"%s-%s\"></a>%s | [%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[0], v[0]))
+
+    return outlines
+
+def build_reference_list_lines(remapped_ref_map, renumber):
+    """Build (auto-gen'd) rendered list of references"""
+    outlines = []
+
+    if remapped_ref_map:
+        outlines.append("### References <!--- (%s) --->\n"%magic())
+        for k,v in sorted(remapped_ref_map.items()):
+            if v[1] and v[2]: # both title and bibinfo exist
+                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[1], v[2], v[0]))
+            elif v[1]: # only title exists
+                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[1], v[0]))
+            elif v[2]: # only bibinfo exists
+                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[2], v[0]))
+            else: # only url exists
+                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"
+                    %(magic(), k+renumber if renumber else v[3], k+renumber if renumber else v[3], v[0], v[0]))
 
     return outlines
 
 def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place, skip_backup):
     """Write the output file. But, only if it would be different than the input."""
 
-    # don't write if output would be identical to input
-    if str().join(out_lines) == str().join(file_lines):
-        print("\"%s\" is up to date. No changes will be made."%mdfile)
-        return
+    with open(in_filename, 'r') as inf:
+        in_lines = inf.readlines()
+        if str().join(out_lines) == str().join(in_lines):
+            print("\"%s\" is up to date. No changes will be made."%in_filename)
+            return
 
     # don't make the backup if asked not to
     if in_place and not skip_backup:
@@ -453,34 +485,18 @@ def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place
 #
 def main(opts, mdfile):
 
-    # Get all txt lines from file into a list
-    file_lines = gather_file_lines(mdfile)
+    # Get and classify all lines in file
+    file_lines = gather_and_classify_file_lines(mdfile,
+        opts['check_links'], opts['warn'])
 
-    # Gaher lines from metadata block if present and
-    # REMOVE them from file_lines. We'll add them back.
-    md_block = gather_md_block_lines(file_lines, opts['warn'])
+    # Examine file lines for footnotes
+    fn_handles = gather_fn_handles(file_lines, opts['warn'])
 
-    # Get the lines of "main content"
-    # (everything before first link def line)
-    main_content, ec_lines = gather_main_content_lines(file_lines, opts['warn'])
-
-    # Examine main content lines for footnotes
-    fn_handles = gather_fn_handles(main_content, opts['warn'])
-
-    # Get any link definition lines
-    ld_lines = gather_link_defn_lines(file_lines[len(main_content):])
-    
     # Build a map of the references including their re-numbering
-    ref_map = build_ref_map(ld_lines, opts['warn'])
+    ref_map = build_ref_map(file_lines, opts['warn'])
 
     # Do some error checking
     missing_fns = error_checks(fn_handles, ref_map, opts['warn'])
-
-    # Remove from ld_lines any not actually referenced
-    ld_lines, unref_ld_lines = remove_unref_ld_lines(ld_lines, missing_fns)
-
-    # Rebuild the refmap again with remaining ld_lines
-    ref_map = build_ref_map(ld_lines, opts['warn'])
 
     #
     # Ok, we're done processing the input file. Now, start building
@@ -488,30 +504,25 @@ def main(opts, mdfile):
     #
 
     # First, build the main content lines with renumbered footnotes
-    out_lines = build_main_content(main_content, ref_map)
-
-    # Build the (original but renumbered) link definitions
-    out_lines += build_link_defn_lines(ld_lines, ref_map, unref_ld_lines)
+    out_lines = build_main_content(file_lines, ref_map, opts['renumber'])
 
     # Build a disclaimer line if we'll have generated content
-    if ld_lines:
-        out_lines.append("\n<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->\n")
+    if ref_map and magic() not in out_lines[len(out_lines)-1]:
+        out_lines.append("<!--- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (%s) --->\n"%magic())
     
     # Build intermediate link definitions lines
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
-    out_lines += build_intermediate_link_defn_lines(remapped_ref_map)
+    out_lines += build_intermediate_link_defn_lines(remapped_ref_map, opts['renumber'])
 
     # Build reference table lines
-    out_lines += build_reference_table_lines(remapped_ref_map)
-
-    # Add end-content
-    out_lines += ec_lines
-
-    # Put the metadata block at the end
-    out_lines += md_block
+    if opts['list_refs']:
+        out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'])
+    else:
+        out_lines += build_reference_table_lines(remapped_ref_map, opts['renumber'])
 
     # Ok, now actually write the updated file
-    write_output_file(file_lines, out_lines, mdfile, opts['outfile'], opts['in_place'],
+    flines = [file_lines[k]['line'] for k in sorted(file_lines)]
+    write_output_file(flines, out_lines, mdfile, opts['outfile'], opts['in_place'],
         opts['skip_backup'])
 
 #
