@@ -63,6 +63,12 @@ To modify the input file in-place...
     ./wikize_refs.py --help
 
 ...prints command-line arguments and options.
+
+If no *destructive* options are used, the following sed command
+should be able to take the wikized file and produce the original...
+
+cat <filename> | sed -e 's/^\[\(.*\)-sfer-ezikiw\]:/[\1]:/' | grep -v sfer-ezikiw
+
 """
 
 def parse_args():
