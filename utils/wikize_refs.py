@@ -168,7 +168,7 @@ def broken_link(x):
     except:
         return True
 
-def is_link_def_line(mdfl, check_links = False, warn = False):
+def is_link_def_line(mdfl):
     """
     Parse GFM link definition lines of the form...
         [10]: https://www.google.com
@@ -185,7 +185,7 @@ def is_link_def_line(mdfl, check_links = False, warn = False):
     if not retval:
         return None
 
-    # Strip possible mangling applied in a previous run
+    # Strip possible mangling applied from a previous run
     ref_hdl = retval[0][0]
     if ref_hdl.endswith('-%s'%magic()):
         ref_hdl = ref_hdl[:-len(magic())-1]
@@ -193,19 +193,13 @@ def is_link_def_line(mdfl, check_links = False, warn = False):
     ref_tit = retval[0][3].strip().strip('"')
     ref_bib = retval[0][4].strip().strip('"{}')
 
-    # Ignore cases that appear to be an auto-generated intermediate link 
+    # Ignore cases that appear to be auto-generated intermediate links
     if ref_url.startswith('#%s'%magic()):
         return None
 
-    if check_links:
-        if not valid_url(ref_url):
-            message("Invalid URL: \"%s\""%ref_url, warn)
-        if broken_link(ref_url):
-            message("Broken URL: \"%s\""%ref_url, warn)
-
     return [ref_hdl, ref_url, ref_tit, ref_bib]
 
-def gather_and_classify_file_lines(filename, check_links, warn):
+def gather_and_classify_file_lines(filename):
     """Read all file lines into a list in memory, classifying each line
        as we go."""
     lines = {}
@@ -258,7 +252,7 @@ def gather_and_classify_file_lines(filename, check_links, warn):
 
             lines[lineno] = {'line':line, 'type':line_type} 
             if line_type == "linkdef":
-                lines[lineno]['linkdef'] = is_link_def_line(line, check_links, warn)
+                lines[lineno]['linkdef'] = is_link_def_line(line)
             lineno += 1
 
     return lines
@@ -325,11 +319,13 @@ def build_ref_map(file_lines, warn):
 
     return ref_map
 
-def error_checks(fn_handles, ref_map, warn):
+def error_checks(fn_handles, ref_map, check_links, warn):
     """
     Error checks footnote references and the link def reference list...
         - ensure every footnote references an existing item in the ref list
         - ensure every ref list item is referenced by at least one footnote
+        - ensure URLs pass parsing rules
+        - ensure URL targets exist
     """
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
@@ -347,6 +343,14 @@ def error_checks(fn_handles, ref_map, warn):
         if not warn:
             print("Correct above issues and re-try...")
             exit(1)
+
+    if check_links:
+        for k in ref_map:
+            url = ref_map[k][0]
+            if not valid_url(url):
+                message("Invalid URL: \"%s\""%url, warn)
+            if broken_link(url):
+                message("Broken URL: \"%s\""%url, warn)
 
     return missing_fns
 
@@ -486,8 +490,7 @@ def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place
 def main(opts, mdfile):
 
     # Get and classify all lines in file
-    file_lines = gather_and_classify_file_lines(mdfile,
-        opts['check_links'], opts['warn'])
+    file_lines = gather_and_classify_file_lines(mdfile)
 
     # Examine file lines for footnotes
     fn_handles = gather_fn_handles(file_lines, opts['warn'])
@@ -496,7 +499,8 @@ def main(opts, mdfile):
     ref_map = build_ref_map(file_lines, opts['warn'])
 
     # Do some error checking
-    missing_fns = error_checks(fn_handles, ref_map, opts['warn'])
+    missing_fns = error_checks(fn_handles, ref_map,
+        opts['check_links'], opts['warn'])
 
     #
     # Ok, we're done processing the input file. Now, start building
