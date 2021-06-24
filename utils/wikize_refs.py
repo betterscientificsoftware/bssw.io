@@ -154,7 +154,7 @@ def errors_are_fatal(x=None):
          errors_are_fatal.warn = x
     return errors_are_fatal.warn
 
-def message(msg):
+def message(msg, warn=None):
     """Issue error message and possibly exit if errors are fatal"""
     if errors_are_fatal():
         print(msg)
@@ -403,6 +403,20 @@ def error_checks(file_lines, fn_handles, ref_map, check_links):
 
         if has_smart_curly_quotes(fl):
            message("Replace smart/curly quotes at line %d with straight quotes"%k)
+
+    # Check references for titles
+    for k in ref_map:
+        tit = ref_map[k][1]
+        if not tit:
+            message("Reference labeled %s is missing title"%k)
+
+    # Only ever produce warnings for missing bibliographic info
+    if not errors_are_fatal():
+        for k in ref_map:
+            bib = ref_map[k][2]
+            if not bib:
+                message("Some references are missing bibliographic info.\nPlease consider adding it.")
+                break
 
     if check_links:
         for k in ref_map:
