@@ -30,7 +30,7 @@ of breaking their connection to the footnotes referencing them. This
 is later repaired when a new set of link definitions are appended
 to the end of the file.
 
-The new links links are bi-level. Footnotes in the content link to
+The new links are bi-level. Footnotes in the content link to
 entries in a visible list of references appended to the end of the
 document. Items in the list of references link off-page to their
 intended destinations. The resulting file is still GitHub flavored
