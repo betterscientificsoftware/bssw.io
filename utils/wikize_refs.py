@@ -201,6 +201,24 @@ def broken_link(x, timeout=20):
     except:
         return True
 
+def has_smart_curly_quotes(line):
+
+    left_double = '\xe2\x80\x9c'
+    right_double = '\xe2\x80\x9d'
+    left_single = '\xe2\x80\x98'
+    right_single = '\xe2\x80\x99'
+
+    if left_double in line:
+        return True
+    if right_double in line:
+        return True
+    if left_single in line:
+        return True
+    if right_single in line:
+        return True
+
+    return False
+
 def is_link_def_line(mdfl):
     """
     Parse GFM link definition lines of the form...
@@ -383,11 +401,8 @@ def error_checks(file_lines, fn_handles, ref_map, check_links):
 
         fl = file_lines[k]['line']
 
-        if '\xe2\x80\x9c' in fl or \ # left double quote
-           '\xe2\x80\x9d' in fl or \ # right double quote
-           '\xe2\x80\x98' in fl or \ # left single quote
-           '\xe2\x80\x99' in fl:     # right single quote
-           message("Smart quotes at line %d will likely cause problems"%k)
+        if has_smart_curly_quotes(fl):
+           message("Replace smart/curly quotes at line %d with straight quotes"%k)
 
     if check_links:
         for k in ref_map:
