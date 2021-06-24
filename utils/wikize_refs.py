@@ -66,7 +66,7 @@ To modify the input file in-place...
 
 ...prints command-line arguments and options.
 
-If no *destructive* options are used, the following sed command
+If no *destructive* options are used, the following sed pipe command
 should be able to take the wikized file and produce the original...
 
 cat <filename> | sed -e 's/^\[\(.*\)-sfer-ezikiw\]:/[\1]:/' | grep -v sfer-ezikiw
@@ -175,9 +175,8 @@ def valid_url(x):
 
 # It would be best to test the link without actually downlading
 # the webpage. In theory, that requires a HEAD request and for
-# typicaly webpages, requesting *just* the HEAD instead of the
-# whole webpage isn't necessarily a big win. It would be best
-# to set timeout to something reasonable, like 5 seconds.
+# typical webpages, requesting *just* the HEAD instead of the
+# whole webpage isn't necessarily a big win.
 def broken_link(x, timeout=20):
     """Test if a link appears to be working or broken"""
 
@@ -357,13 +356,14 @@ def build_ref_map(file_lines):
 
     return ref_map
 
-def error_checks(fn_handles, ref_map, check_links):
+def error_checks(file_lines, fn_handles, ref_map, check_links):
     """
     Error checks footnote references and the link def reference list...
-        - ensure every footnote references an existing item in the ref list
-        - ensure every ref list item is referenced by at least one footnote
-        - ensure URLs pass parsing rules
-        - ensure URL targets exist
+        - Ensure every footnote references an existing item in the ref list
+        - Ensure every ref list item is referenced by at least one footnote
+        - Ensure there are no smart quotes / curly quotes
+        - Ensure URLs pass parsing rules
+        - Ensure URL targets exist
     """
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
@@ -373,6 +373,21 @@ def error_checks(fn_handles, ref_map, check_links):
     missing_fns = ref_handles - fn_handles
     if missing_fns:
         message("Some references never appear in a footnote...\n%s"%str([x for x in missing_fns]))
+
+    # Check all lines for smart quotes
+    for k in sorted(file_lines):
+
+        if file_lines[k]['type'] != 'content' and \
+           file_lines[k]['type'] != 'linkdef':
+            continue
+
+        fl = file_lines[k]['line']
+
+        if '\xe2\x80\x9c' in fl or \ # left double quote
+           '\xe2\x80\x9d' in fl or \ # right double quote
+           '\xe2\x80\x98' in fl or \ # left single quote
+           '\xe2\x80\x99' in fl:     # right single quote
+           message("Smart quotes at line %d will likely cause problems"%k)
 
     if check_links:
         for k in ref_map:
@@ -533,7 +548,7 @@ def main(opts, mdfile):
     ref_map = build_ref_map(file_lines)
 
     # Do some error checking
-    missing_fns = error_checks(fn_handles, ref_map,
+    missing_fns = error_checks(file_lines, fn_handles, ref_map,
         opts['check_links'])
 
     #
