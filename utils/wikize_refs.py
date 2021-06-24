@@ -467,9 +467,14 @@ def build_reference_list_lines(remapped_ref_map, renumber):
     if remapped_ref_map:
         outlines.append("### References <!-- (%s) -->\n"%magic())
         try: # Attempt to sort treating footnote labels as integers.
-            sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
+            if renumber:
+                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[0]))
+            else:
+                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
+            print("Used integer sort")
         except: # If sorting as ints fails, sort "normally".
             sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
+            print("Used other sort")
         for k,v in sorted_map:
             v3 = k+renumber if renumber else v[3]
             if v[1] and v[2]: # both title and bibinfo exist
