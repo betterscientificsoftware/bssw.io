@@ -248,6 +248,7 @@ def is_link_def_line(mdfl):
     if ref_url.startswith('#%s'%magic()):
         return None
 
+
     return [ref_hdl, ref_url, ref_tit, ref_bib]
 
 def gather_and_classify_file_lines(filename):
@@ -260,7 +261,7 @@ def gather_and_classify_file_lines(filename):
         in_frontmatter = False
         for line in mdf.readlines():
             line_type = ""
-            if not in_frontmatter and re.match("^---$", line):
+            if not in_frontmatter and re.match("^---$", line) and lineno == 1:
                 line_type = "frontmatter"
                 in_frontmatter = True
             elif in_frontmatter and re.match("^---$", line):
