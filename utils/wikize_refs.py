@@ -8,11 +8,13 @@ import re, os
 try:
     # python2
     from urlparse import urlparse
-    from urllib import urlopen
+    from urllib2 import urlopen
+    from urllib2 import Request
 except:
     # python3
     from urllib.parse import urlparse
     from urllib.request import urlopen
+    from urllib.request import Request
 
 def usage():
     return \
@@ -86,9 +88,8 @@ def parse_args():
                       help="Warn instead of error during (most) error checks.")
 
     parser.add_argument("-c", "--check-links",
-                      default=False,
-                      action="store_true",
-                      help="Check validity (parse and server response) of links.")
+                      type=int, default=0,
+                      help="Specify a timeout>0 in seconds for checking for broken links.")
 
     parser.add_argument("-i", "--in-place",
                       default=False,
@@ -101,8 +102,8 @@ def parse_args():
                       help="Gather all link definitions to the end of the file (destructive).")
 
     parser.add_argument("-r", "--renumber",
-                      default=0, type=int,
-                      help="Renumber references starting from specified value (destructive).")
+                      type=int, default=0,
+                      help="Renumber references starting from specified value > 0 (destructive).")
 
     parser.add_argument("-s", "--skip-backup",
                       default=False,
@@ -162,6 +163,8 @@ def message(msg):
     else:
         print("%s -- IGNORING due to -w (--warn)"%msg)
 
+# urlparse appears to allow all sorts of chars in path. So, it
+# isn't clear how much utility this check really provides.
 def valid_url(x):
     """Test that a given string is a valid URL"""
     try:
@@ -170,13 +173,24 @@ def valid_url(x):
     except:
         return False
 
-def broken_link(x):
+# It would be best to test the link without actually downlading
+# the webpage. In theory, that requires a HEAD request and for
+# typicaly webpages, requesting *just* the HEAD instead of the
+# whole webpage isn't necessarily a big win. It would be best
+# to set timeout to something reasonable, like 5 seconds.
+def broken_link(x, timeout=20):
     """Test if a link appears to be working or broken"""
+
+    broken_link.agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
+
     if x.startswith('ftp://') or x.startswith('file:///') or \
        x.startswith('#'):
        return False
+
+    req = Request(x, None, {'User-Agent': broken_link.agent})
+
     try:
-        resp = urlopen(x)
+        resp = urlopen(req, None, timeout)
         try:
             status = resp.getcode()
         except:
@@ -365,7 +379,7 @@ def error_checks(fn_handles, ref_map, check_links):
             url = ref_map[k][0]
             if not valid_url(url):
                 message("Invalid URL: \"%s\""%url)
-            if broken_link(url):
+            elif broken_link(url, check_links):
                 message("Broken URL: \"%s\""%url)
 
     return missing_fns
@@ -471,10 +485,8 @@ def build_reference_list_lines(remapped_ref_map, renumber):
                 sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[0]))
             else:
                 sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
-            print("Used integer sort")
         except: # If sorting as ints fails, sort "normally".
             sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
-            print("Used other sort")
         for k,v in sorted_map:
             v3 = k+renumber if renumber else v[3]
             if v[1] and v[2]: # both title and bibinfo exist
