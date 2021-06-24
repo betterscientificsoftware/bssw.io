@@ -466,7 +466,11 @@ def build_reference_list_lines(remapped_ref_map, renumber):
 
     if remapped_ref_map:
         outlines.append("### References <!-- (%s) -->\n"%magic())
-        for k,v in sorted(remapped_ref_map.items()):
+        try: # Attempt to sort treating footnote labels as integers.
+            sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
+        except: # If sorting as ints fails, sort "normally".
+            sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
+        for k,v in sorted_map:
             v3 = k+renumber if renumber else v[3]
             if v[1] and v[2]: # both title and bibinfo exist
                 outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
@@ -475,7 +479,7 @@ def build_reference_list_lines(remapped_ref_map, renumber):
             elif v[2]: # only bibinfo exists
                 outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
             else: # only url exists
-                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
+               outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
 
     return outlines
 
