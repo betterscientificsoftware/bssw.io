@@ -38,3 +38,9 @@ This can also be done in one shot by running:
 ```
 ./run_tests.sh
 ```
+
+One can also run the tests locally and submit to CDash with:
+
+```
+./run_tests_submit_to_cdash.sh
+```
