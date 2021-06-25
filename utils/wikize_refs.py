@@ -396,8 +396,7 @@ def error_checks(file_lines, fn_handles, ref_map, check_links):
     # Check all lines for smart quotes
     for k in sorted(file_lines):
 
-        if file_lines[k]['type'] != 'content' and \
-           file_lines[k]['type'] != 'linkdef':
+        if file_lines[k]['type'] != 'linkdef':
             continue
 
         fl = file_lines[k]['line']

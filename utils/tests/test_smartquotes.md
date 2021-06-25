@@ -116,7 +116,7 @@ time up front to decide how to split large changes into manageable PRs that can 
 integrated into a large code base is as important as the design and coding work that goes
 into the bug fixes and feature enhancements the changes are proposed for to begin with.
 
-Some literature uses the notion of a *reviewable unit of work*<sup>[19]</sup>
+Some literature uses the notion of a “reviewable unit of work”<sup>[19]</sup>
 to separate the concept of code review from how it is practiced in any particular tool.
 A reviewable unit could be a
 PR, a commit, or a single file's patch/diff.<sup>[20]</sup>
