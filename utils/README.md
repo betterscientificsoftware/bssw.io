@@ -21,7 +21,7 @@ Run `./wikize_refs.py --help` or see
 [here](https:../Articles/Blog/ReferencesInMarkdownHybridApproach.md) for more
 details.
 
-## Testing the bssw.io utilties
+## Testing the bssw.io utilities
 
 The tests for these utilities is managed and run as a simple CMake/CTest
 project.  Setting up and running these tests is a simple as:
@@ -42,5 +42,22 @@ This can also be done in one shot by running:
 One can also run the tests locally and submit to CDash with:
 
 ```
-./run_tests_submit_to_cdash.sh
+./run_tests.sh --submit-to-cdash
+```
+
+(or just `-s` for short).
+
+By default, tests that check links and require network communication are
+disabled but they can be enabled by running:
+
+```
+./run_tests.sh --enable-link-check-tests
+```
+
+(or just `l` for short).
+
+For more details, see:
+
+```
+./run_tests.sh -h
 ```
