@@ -178,11 +178,17 @@ RSS update: 2021-05-14
 [7]: #sfer-ezikiw-7 "Cori"
 [8]: #sfer-ezikiw-8 "Roofline Performance Model"
 ### References <!-- (sfer-ezikiw) -->
+<div class="references-wrapper">
+<div class="references">
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Moore’s Law](https://www.britannica.com/technology/Moores-law)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Dennard Scaling](https://www.rambus.com/blogs/understanding-dennard-scaling-2/)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[The Chips are Down for Moore’s Law](https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[Hardware Acceleration Definition](https://www.omnisci.com/technical-glossary/hardware-acceleration)
+</div>
+<div class="references">
 * <a name="sfer-ezikiw-5"></a><sup>5</sup>[Top 500: The List](https://www.top500.org/)
 * <a name="sfer-ezikiw-6"></a><sup>6</sup>[Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
 * <a name="sfer-ezikiw-7"></a><sup>7</sup>[Cori](https://docs.nersc.gov/systems/cori/)
 * <a name="sfer-ezikiw-8"></a><sup>8</sup>[Roofline Performance Model](https://docs.nersc.gov/tools/performance/roofline/)
+</div>
+</div>
