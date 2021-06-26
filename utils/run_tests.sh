@@ -2,7 +2,10 @@
 #
 # Simple driver to run tests in one command
 
+usage_str="Usage: run_tests.sh [-l|--enable-link-check-tests] [-s|--submit-to-cdash]"
+
 enable_link_check_tests=0
+submit_to_cdash=0
 
 while (( "$#" )); do
   case "$1" in
@@ -10,8 +13,17 @@ while (( "$#" )); do
       enable_link_check_tests=1
       shift
       ;;
-    -*|--*=) # unsupported flags
+    -s|--submit-to-cdash)
+      submit_to_cdash=1
+      shift
+      ;;
+    -h|--help)
+      echo "${usage_str}"
+      exit 0
+      ;;
+    *) # unsupported flags
       echo "Error: Unsupported flag $1" >&2
+      echo "${usage_str}"
       exit 1
       ;;
   esac
@@ -35,4 +47,8 @@ fi
 
 cmake ${cmake_args} ..
 
-ctest
+if [[ "${submit_to_cdash}" == "1" ]] ; then
+  ctest -M Experimental -T Start -T Configure -T Build -T Test -T Submit
+else
+  ctest
+fi
