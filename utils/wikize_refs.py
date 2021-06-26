@@ -85,7 +85,7 @@ def parse_args():
     parser.add_argument("-w", "--warn",
                       default=False,
                       action="store_true",
-                      help="Warn instead of error during (most) error checks.")
+                      help="Warn instead of exit during (most) error checks.")
 
     parser.add_argument("-c", "--check-links",
                       type=int, default=0,
@@ -100,6 +100,14 @@ def parse_args():
                       default=False,
                       action="store_true",
                       help="Gather all link definitions to the end of the file (destructive).")
+
+    parser.add_argument("-l", "--linkdef-db",
+                      type=str, default=None,
+                      action="append",
+                      help="Specify name of file to use as a linkdef database from which \
+                            to resolve footnote references in the file being processed. Any \
+                            used linkdefs will be copied from that file to the file being \
+                            processed here. Multiple -l options are allowed.")
 
     parser.add_argument("-r", "--renumber",
                       type=int, default=0,
@@ -154,7 +162,7 @@ def errors_are_fatal(x=None):
          errors_are_fatal.warn = x
     return errors_are_fatal.warn
 
-def message(msg, warn=None):
+def message(msg):
     """Issue error message and possibly exit if errors are fatal"""
     if errors_are_fatal():
         print(msg)
@@ -375,7 +383,7 @@ def build_ref_map(file_lines):
 
     return ref_map
 
-def error_checks(file_lines, fn_handles, ref_map, check_links):
+def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
     """
     Error checks footnote references and the link def reference list...
         - Ensure every footnote references an existing item in the ref list
@@ -387,13 +395,14 @@ def error_checks(file_lines, fn_handles, ref_map, check_links):
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
     if missing_refs:
-        message("Some footnotes never appear in the references...\n%s"%str([x for x in missing_refs]))
+        message("Some footnotes never appear in the references%s...\n%s"%
+            ("\nmaybe they will resolve in a linkdef database" if has_lddbs else "", str(list(missing_refs))))
 
     missing_fns = ref_handles - fn_handles
     if missing_fns:
-        message("Some references never appear in a footnote...\n%s"%str([x for x in missing_fns]))
+        message("Some references never appear in a footnote...\n%s"%str(list(missing_fns)))
 
-    # Check all lines for smart quotes
+    # Check linkdef lines for smart quotes
     for k in sorted(file_lines):
 
         if file_lines[k]['type'] != 'linkdef':
@@ -402,7 +411,7 @@ def error_checks(file_lines, fn_handles, ref_map, check_links):
         fl = file_lines[k]['line']
 
         if has_smart_curly_quotes(fl):
-           message("Replace smart/curly quotes at line %d with straight quotes"%k)
+           message("Replace smart/curly quotes in link definition at line %d with straight quotes"%k)
 
     # Check references for titles
     for k in ref_map:
@@ -426,7 +435,30 @@ def error_checks(file_lines, fn_handles, ref_map, check_links):
             elif broken_link(url, check_links):
                 message("Broken URL: \"%s\""%url)
 
-    return missing_fns
+    return missing_refs
+
+def resolve_missing_refs(missing_refs, ref_map, lddbs):
+    """
+    Resolve references in the missing_refs list with linkdefs defined
+    in additionally supplied files with --linkdef-dbs.
+    """
+
+    for lddb in lddbs:
+        file_lines = gather_and_classify_file_lines(lddb)
+        lddb_ref_map = build_ref_map(file_lines)
+
+        found_refs = []
+        for x in missing_refs:
+            if x in lddb_ref_map:
+                ref_map[x] = [lddb_ref_map[x][0], lddb_ref_map[x][1], lddb_ref_map[x][2]]
+                ref_map[x].append(len(ref_map))
+                found_refs += [x]
+        missing_refs = missing_refs - set(found_refs)
+        if not missing_refs:
+            break 
+
+    if missing_refs:
+        message("Some footnotes never resolved by any linkdef databases...\n%s"%str(list(missing_refs)))
 
 def build_main_content(file_lines, ref_map, renumber, gather_linkdefs):
     """
@@ -577,8 +609,13 @@ def main(opts, mdfile):
     ref_map = build_ref_map(file_lines)
 
     # Do some error checking
-    missing_fns = error_checks(file_lines, fn_handles, ref_map,
-        opts['check_links'])
+    missing_refs = error_checks(file_lines, fn_handles, ref_map,
+        opts['check_links'], opts['linkdef_db'] is not None)
+
+    # If we have missing references and linkdef-dbs are specified,
+    # lets try to resolve them
+    if missing_refs and opts['linkdef_db']:
+        resolve_missing_refs(missing_refs, ref_map, opts['linkdef_db'])
 
     #
     # Ok, we're done processing the input file. Now, start building
