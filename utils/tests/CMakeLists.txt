@@ -5,27 +5,31 @@
 function(wikize_refs_diff_test TEST_NAME)
 
   cmake_parse_arguments(PARSE
-    "COMPARE_SAVED_INPUT_FILE" # options
+    "COMPARE_SAVED_INPUT_FILE;LINK_CHECK_TEST" # options
     "INPUT_FILE;OUTPUT_FILE;EXPECTED_OUTPUT_FILE;PASS_REGULAR_EXPRESSION" # one_value_arguments
     "ARGS" # multi_value_keywords
     ${ARGN} # args
     )
 
-   add_test(NAME ${TEST_NAME} COMMAND ${CMAKE_COMMAND}
-     -D "TEST_NAME=${TEST_NAME}"
-     -D "INPUT_FILE=${PARSE_INPUT_FILE}"
-     -D "WIKIZE_REFS_ARGS=${PARSE_ARGS}"
-     -D "OUTPUT_FILE=${PARSE_OUTPUT_FILE}"
-     -D "EXPECTED_OUTPUT_FILE=${PARSE_EXPECTED_OUTPUT_FILE}"
-     -D "COMPARE_SAVED_INPUT_FILE=${PARSE_COMPARE_SAVED_INPUT_FILE}"
-     -P ${CMAKE_CURRENT_LIST_DIR}/run_wikize_ref_diff_test.cmake )
+  add_test(NAME ${TEST_NAME} COMMAND ${CMAKE_COMMAND}
+    -D "TEST_NAME=${TEST_NAME}"
+    -D "INPUT_FILE=${PARSE_INPUT_FILE}"
+    -D "WIKIZE_REFS_ARGS=${PARSE_ARGS}"
+    -D "OUTPUT_FILE=${PARSE_OUTPUT_FILE}"
+    -D "EXPECTED_OUTPUT_FILE=${PARSE_EXPECTED_OUTPUT_FILE}"
+    -D "COMPARE_SAVED_INPUT_FILE=${PARSE_COMPARE_SAVED_INPUT_FILE}"
+    -P ${CMAKE_CURRENT_LIST_DIR}/run_wikize_ref_diff_test.cmake )
 
-   set(passRegex "RUN_WIKIZE_REF_DIFF_TEST: ALL PASSED")
-   if (PARSE_PASS_REGULAR_EXPRESSION)
-     set(passRegex "${PARSE_PASS_REGULAR_EXPRESSION}")
-   endif()
-   set_tests_properties(${TEST_NAME} PROPERTIES PASS_REGULAR_EXPRESSION "${passRegex}")
+  set(passRegex "RUN_WIKIZE_REF_DIFF_TEST: ALL PASSED")
+  if (PARSE_PASS_REGULAR_EXPRESSION)
+    set(passRegex "${PARSE_PASS_REGULAR_EXPRESSION}")
+  endif()
+  set_tests_properties(${TEST_NAME} PROPERTIES PASS_REGULAR_EXPRESSION "${passRegex}")
 
+  if (PARSE_LINK_CHECK_TEST AND (NOT ENABLE_LINK_CHECK_TESTS))
+    set_tests_properties(${TEST_NAME} PROPERTIES DISABLED ON)
+  endif()
+   
 endfunction()
 
 
@@ -34,6 +38,9 @@ endfunction()
 #
 
 get_filename_component(bsswioBaseDir "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
+
+set(ENABLE_LINK_CHECK_TESTS OFF CACHE BOOL
+  "Enable tests the check links and therefore do cummunication")
 
 # /dev/null won't work on Windows. Do we care?
 # Would be nice if empty string was allowed.
@@ -78,7 +85,8 @@ wikize_refs_diff_test(wikize_refs_goodlinks
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_goodlinks.md
   OUTPUT_FILE test_goodlinks-generated.md
   ARGS -c 20 -o test_goodlinks-generated.md
-  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_goodlinks-wikized.md )
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_goodlinks-wikized.md
+  LINK_CHECK_TEST )
 
 wikize_refs_diff_test(wikize_refs_badlinks1
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_badlinks.md
