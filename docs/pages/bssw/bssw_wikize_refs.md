@@ -156,7 +156,7 @@ Otherwise only warning messages are produced.
 
 Some of the options can be *destructive* in that the file is changed in ways not easy to reverse.
 
-Repeated application of this tool to the same file should result in no changes.
+Repeated application of this tool with the same arguments to the same file should result in no changes.
 
 To process a file...
 
@@ -172,8 +172,7 @@ To process a file...
 
 ...prints command-line arguments and options.
 
-If no *destructive* options are used, the following sed pipe command
-should be able to take the wikized file and produce the original...
+If no *destructive* options are used, the following sed pipe command should be able to take the wikized file and produce the original...
 
 ```
 cat foo.md | sed -e 's/^\[\(.*\)-sfer-ezikiw\]:/[\1]:/' | grep -v sfer-ezikiw
@@ -184,7 +183,7 @@ It ignores any lines that contain the string `sfer-ezikiw` (which is `wikize-ref
 It then scans all content lines for instances of footnotes (e.g. `<sup`&#8203;`>[LAB]<`&#8203;`/sup>`) and scans all link definition lines for their four components: `LAB`, `URL`, `TIT` and `BIB`.
 
 All of these lines are then re-output, with options to re-number the footnotes as well as gather together at the bottom any link definitions.
-There is no requirement that all the link definitions appear at the bottom of the file or that any other file parts (e.g. bssw.io metadata comments) appear in any specific order in the file.
+There is no requirement that all the link definitions appear at the bottom of the file or that any other file parts (e.g. bssw.io metadata comments) appear in any specific order or place in the file.
 
 ## Advantages of this Approach
 
