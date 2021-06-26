@@ -108,12 +108,12 @@ wikize_refs_diff_test(wikize_refs_too_many_footnotes
 
 wikize_refs_diff_test(wikize_refs_smartquotes
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_smartquotes.md
-  PASS_REGULAR_EXPRESSION "Replace smart/curly quotes at line 148 with straight quotes" )
+  PASS_REGULAR_EXPRESSION "Replace smart/curly quotes in link definition at line 148 with straight quotes" )
 
 wikize_refs_diff_test(wikize_refs_smartquotes_warn
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_smartquotes.md
   ARGS -w
-  PASS_REGULAR_EXPRESSION "Replace smart/curly quotes at line 155 with straight quotes" )
+  PASS_REGULAR_EXPRESSION "Replace smart/curly quotes in link definition at line 155 with straight quotes" )
 
 wikize_refs_diff_test(wikize_refs_in_place
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_inplace.md
@@ -132,3 +132,10 @@ wikize_refs_diff_test(wikize_refs_in_place_and_explicit_out_fail
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_wikizer.md
   ARGS -w -i -o test_wikizer-generated.md
   PASS_REGULAR_EXPRESSION "Can't set both -i and -o options" )
+
+wikize_refs_diff_test(wikize_refs_linkdef_databases
+  INPUT_FILE ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_source.md
+  OUTPUT_FILE test_linkdef_dbs_source-wikized.md
+  ARGS -w -l ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_database.md
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_source-wikized.md )
+
