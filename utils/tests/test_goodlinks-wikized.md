@@ -30,7 +30,7 @@ Quisque ac augue iaculis, mollis sem vel, vehicula ante. Mauris sollicitudin met
 Fusce sollicitudin feugiat odio, sit amet dictum mi euismod eu. Nam quam orci, elementum sed lacinia in, rutrum volutpat magna. In viverra porta vulputate. Duis interdum, lorem vel cursus accumsan, quam eros eleifend eros, quis posuere augue nisi sed lectus. Phasellus vel pretium enim. Nam ut risus lectus. Vestibulum blandit neque in est pulvinar, non fringilla elit venenatis. Fusce varius metus nec eros eleifend faucibus. Nam tempor commodo ante, non vulputate mauris eleifend at. Donec nisl lorem, lobortis vel dui at, sollicitudin pellentesque ipsum. Maecenas enim nisi, elementum at facilisis vel, lacinia id sapien. Vivamus tristique accumsan nulla a vestibulum. Aliquam porttitor quam mi, ut egestas eros maximus eu. Sed dictum diam ac convallis condimentum. Sed fringilla auctor risus a pretium.
 
 <!---
-[45]: https://en.wikipedia.org/wiki/Mariner_1 "Info about Mariner 1 {}"
+[45]: https://foo.bar.gorfo.com/index.html
 [45]: https://www.ibiblio.org/apollo/Documents/SGA_Memo12_620716.pdf "SGA Memo #12 {}"
 --->
 
@@ -40,12 +40,56 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 
 Vestibulum<sup>[abc]</sup> eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus purus. Curabitur<sup>[26],[PSIP]</sup> venenatis eget elit eu posuere. Nunc euismod consequat lectus, nec aliquet nisl efficitur eu. Fusce a feugiat felis. Sed maximus metus eget tempus pharetra. Maecenas pharetra fermentum massa id bibendum. Integer ac metus iaculis, euismod purus et, convallis justo.
 
+## Things to test
 
-[abc]: https://en.wikipedia.org/wiki/Mariner_1 "Info about Mariner 1 {}"
-[26]: https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf "The SAF Data Model"
-[PSIP]: https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5 "PSIP with HDF5"
+### Footnote to non-existent ref is fatal error
+
+### Ref not used in any footnote is fatal error or warn
+
+### More than 3 footnotes in same `<sup></sup>` is fatal error or warn
+
+### Ref with no title or bibliographic data
+
+### Ref with title but no bibliographic
+
+### Ref with no title but bibliographic (is this nonsensical)
+
+### Ref with http:// vs https://
+
+### Refs in XML comment block should be ignored (except the one wikize_refs recognizes)
+
+### Can we detect main content *after* link def block and flag it
+
+## Ref link validation
+
+Presently, wikizer script doesn't do any reference link validation. But, it could and maybe it should.
+If it does, it should probably only validate links that are in the reference list and actually
+referenced.
+
+## Reference sub-part processing
+
+## Real reference list used testing including
+   - non-numeric handles
+   - non-sorted handles
+   - duplicate handles
+   - no description string
+   - empty description string
+   - description string with no biblio data
+   - description string with biblio data that duplicates description string
+
+[abc-sfer-ezikiw]: https://en.wikipedia.org/wiki/Mariner_1 "Info about Mariner 1 {}"
+[26-sfer-ezikiw]: https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf "The SAF Data Model"
+[PSIP-sfer-ezikiw]: https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5 "PSIP with HDF5"
 
 <!---
 Publish: No
 --->
 
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[abc]: #sfer-ezikiw-abc "Info about Mariner 1"
+[26]: #sfer-ezikiw-26 "The SAF Data Model"
+[PSIP]: #sfer-ezikiw-PSIP "PSIP with HDF5"
+### References <!-- (sfer-ezikiw) -->
+* <a name="sfer-ezikiw-26"></a><sup>26</sup>[The SAF Data Model](https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf)
+* <a name="sfer-ezikiw-PSIP"></a><sup>PSIP</sup>[PSIP with HDF5](https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5)
+* <a name="sfer-ezikiw-abc"></a><sup>abc</sup>[Info about Mariner 1](https://en.wikipedia.org/wiki/Mariner_1)
