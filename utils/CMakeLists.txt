@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 project(BsswUtils NONE)
+if (PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
+  message(FATAL_ERROR "Error, in-source builds not allowed!")
+endif()
 include(CTest)
 enable_testing()
 message("Version of bssw.io repo being tested:")
