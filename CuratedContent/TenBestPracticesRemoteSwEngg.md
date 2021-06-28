@@ -32,8 +32,8 @@ The paper summarizes the following 10 suggested best practices that can improve 
 Following some of the practices will perhaps lead to increased happiness and therefore increased productivity, in your teams.
 
 <!---
-Publish: preview
+Publish: yes
 Topics: personal productivity and sustainability
-Pinned: no
+Pinned: yes
 RSS update: 2021-06-28
 --->
