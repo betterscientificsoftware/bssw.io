@@ -21,13 +21,13 @@ Workshop Date | Monday, November 15, 2021
 
 Research software engineers (RSEs) are critical to the impact of HPC, data science, and the larger scientific community. They have existed for decades, though often not under that name. However, the past few years have seen the development of the RSE concept, common job titles, and career paths; the creation of professional networks to connect RSEs; and the emergence of RSE groups at universities, national laboratories, and industry.
 
-This workshop will bring together RSEs and allies involved in HPC, from all over the world, to grow the RSE community by establishing and strengthening professional networks of current RSEs and RSE leaders. We’ll discuss the current activities and plans of national RSE organizations, discuss the needs of RSEs and RSE groups, and write a report on ways RSE organizations can help address these.
+This workshop will bring together RSEs and allies involved in HPC, from all over the world, to grow the RSE community by establishing and strengthening professional networks of current RSEs and RSE leaders. Participants will discuss the current activities and plans of national RSE organizations, discuss the needs of RSEs and RSE groups, and write a report on ways RSE organizations can help address these.
 
 Most of the workshop time will be spent in interactive discussions, preceded by a keynote address and several shorter talks to establish context.
 
 ## Submissions
 
-We encourage prospective participants to submit position papers (limit of 2 pages, not counting references; no format prescribed) on topics related to RSE issues. We particularly encourage submissions on the keynote topic:
+Prospective participants are encouraged to submit position papers (limit of 2 pages, not counting references; no format prescribed) on topics related to RSE issues. Highly encourgaed are the submissions on the keynote topic:
 
 * Do RSEs need to change for exascale?  
 
@@ -41,9 +41,9 @@ Other possible topics include (but are not limited to):
 * Building in RSE requirements as part of wider research infrastructure
 * Providing mentoring and training for RSEs
 
-These papers will not be part of the SC proceedings, but we will ask the authors of accepted submissions to self-publish their submissions (after revisions, if they so choose) to an archival repository (e.g., Zenodo, figshare, OSF). Our website will then provide links to those self-published documents. Some submitters will be invited to present their papers at the workshop as lightning talks or to participate as panelists where appropriate.
+These papers will not be part of the SC proceedings, but the authors of accepted submissions will be asked to self-publish their submissions (after revisions, if they so choose) to an archival repository (e.g., Zenodo, figshare, OSF). The RSE website will then provide links to those self-published documents. Some submitters will be invited to present their papers at the workshop as lightning talks or to participate as panelists where appropriate.
 
-We particularly encourage submissions from first-time conference presenters, and from members of groups that have historically been underrepresented in the HPC community.
+Submissions from first-time conference presenters, and from members of groups that have historically been underrepresented in the HPC community are particularly encouraged.
 
 Papers and discussion topics should be submitted via https://submissions.supercomputing.org/?page=Submit&id=SC21WorkshopRSEHPC2021Submission&site=sc21.  
 The deadline for submissions is Friday, August 6, 2021, at 11:59 PM AoE (UTC-12).
