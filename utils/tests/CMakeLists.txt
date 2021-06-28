@@ -40,7 +40,7 @@ endfunction()
 get_filename_component(bsswioBaseDir "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
 
 set(ENABLE_LINK_CHECK_TESTS OFF CACHE BOOL
-  "Enable tests the check links and therefore do cummunication")
+  "Enable tests that check links and therefore do cummunication")
 
 # /dev/null won't work on Windows. Do we care?
 # Would be nice if empty string was allowed.
@@ -91,12 +91,14 @@ wikize_refs_diff_test(wikize_refs_goodlinks
 wikize_refs_diff_test(wikize_refs_badlinks1
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_badlinks.md
   ARGS -c 20
-  PASS_REGULAR_EXPRESSION "Invalid URL:")
+  PASS_REGULAR_EXPRESSION "Invalid URL:"
+  LINK_CHECK_TEST )
 
 wikize_refs_diff_test(wikize_refs_badlinks2
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_badlinks.md
   ARGS -c 20 -w
-  PASS_REGULAR_EXPRESSION "Broken URL: \"https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller002.pdf\"")
+  PASS_REGULAR_EXPRESSION "Broken URL: \"https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller002.pdf\""
+  LINK_CHECK_TEST )
 
 wikize_refs_diff_test(wikize_refs_no_args_fail
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_unused_linkdefs.md
