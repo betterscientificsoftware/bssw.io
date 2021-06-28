@@ -13,7 +13,7 @@ Paper title  | The 10 Best Practices for Remote Software Engineering
 Authors | Vanessa Sochat
 Publication | Year 2021, Communications of the ACM, DOI: [10.1145/3459613](https://dl.acm.org/doi/fullHtml/10.1145/3459613), [ACM Link](https://cacm.acm.org/opinion/articles/252174-the-10-best-practices-for-remote-software-engineering/fulltext)
 
-With a significant portion of the world working remotely during the year 2020-2021, efficient remote working and improving productivity of remote workers has received a lot of attention. Improving remote communication skills, time management techniques, task management methods, setting efficient goals, are the different strategies that are explored with the goal of improving individual and team productivity. In the article, *The 10 Best Practices for Remote Software Engineering*, which was published in Communications of the ACM in May 2021, the author contends that productivity is perhaps a quality that is not easily measurable by tools and techniques but is rather based on human behaviour and emotions that are derived and manifested from underlying levels of happiness.
+With a significant portion of the world working remotely during the year 2020-2021, efficient remote working and improving productivity of remote workers has received a lot of attention. Strategies such as improving remote communication skills, time management techniques, task management methods, and setting efficient goals are explored with the objective of improving individual and team productivity. In the article, *The 10 Best Practices for Remote Software Engineering*, which was published in Communications of the ACM in May 2021, the author contends that productivity is perhaps a quality that is not easily measurable by tools and techniques, but is rather based on human behaviour and emotions that are derived and manifested from underlying levels of happiness.
 
 The article was a compelling read because many times we undermine, forget or ignore how the happiness factor influences our overall work life and individual and team productivity.
 
@@ -29,7 +29,7 @@ The paper summarizes the following 10 suggested best practices that can improve 
 * Learn to say yes, no, and not anymore; and
 * Choose correct communication channels
 
-Following some of the practices will perhaps lead to increased happiness and therefore increased productivity, in your teams.
+Following some of the practices will perhaps lead to increased happiness, and therefore increased productivity, in your teams.
 
 <!---
 Publish: yes
