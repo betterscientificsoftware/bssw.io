@@ -3,18 +3,20 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: blog_posts/experiences-from-the-2021-bssw-io-community-bof
-Slide1 R: images/raw/master/Blog__0521_Icons.jpg
-Slide2 L: blog_posts/blog_posts/a-gentle-introduction-to-gpu-programming
-Slide2 R: images/raw/master/Blog_0521_GPU.png
-Slide3 L: blog_posts/encouraging-effective-retrospective-strategies-for-team-projects
-Slide3 R: items/an-introductory-resource-for-high-performance-computing
-Slide4 L: items/debugging-books-to-help-you-get-started
-Slide4 R: items/keep-interest-on-technical-debt-from-sinking-your-software-project
-Slide5 L: events/webinar-using-the-psip-toolkit-to-achieve-your-goals-a-case-study-at-the-hdf-group
-Slide5 R: events/panel-i-finally-have-the-internship-i-always-wanted-now-what
-Slide6 L: events/2021-collegeville-workshop-on-scientific-software-software-teams
-Slide6 R: events/software-quality-days-conference-and-tools-fair-2022
+Slide1 L: blog_posts/e4s-extreme-scale-scientific-software-stack
+Slide1 R: items/inclusive-naming-initiative
+Slide2 L: blog_posts/experiences-from-the-2021-bssw-io-community-bof
+Slide2 R: images/raw/master/Blog__0521_Icons.jpg
+Slide3 L: blog_posts/blog_posts/a-gentle-introduction-to-gpu-programming
+Slide3 R: images/raw/master/Blog_0521_GPU.png
+Slide4 L: blog_posts/encouraging-effective-retrospective-strategies-for-team-projects
+Slide4 R: items/the-10-best-practices-for-remote-software-engineering
+Slide5 L: items/debugging-books-to-help-you-get-started
+Slide5 R: items/an-introductory-resource-for-high-performance-computing
+Slide6 L: events/ebinar-mining-development-data-to-understand-and-improve-software-engineering-processes-in-hpc-projects
+Slide6 R: items/keep-interest-on-technical-debt-from-sinking-your-software-project
+Slide7 L: events/2021-collegeville-workshop-on-scientific-software-software-teams
+Slide7 R: events/software-quality-days-conference-and-tools-fair-2022
 --->
 
 
