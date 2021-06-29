@@ -13,7 +13,7 @@ Slide4 L: blog_posts/encouraging-effective-retrospective-strategies-for-team-pro
 Slide4 R: items/the-10-best-practices-for-remote-software-engineering
 Slide5 L: items/debugging-books-to-help-you-get-started
 Slide5 R: items/an-introductory-resource-for-high-performance-computing
-Slide6 L: events/ebinar-mining-development-data-to-understand-and-improve-software-engineering-processes-in-hpc-projects
+Slide6 L: events/webinar-mining-development-data-to-understand-and-improve-software-engineering-processes-in-hpc-projects
 Slide6 R: items/keep-interest-on-technical-debt-from-sinking-your-software-project
 Slide7 L: events/2021-collegeville-workshop-on-scientific-software-software-teams
 Slide7 R: events/software-quality-days-conference-and-tools-fair-2022
