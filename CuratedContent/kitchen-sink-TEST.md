@@ -9,6 +9,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 
 
+😎 Smiling Face with Sunglasses Emoji - Emojipedia
 
 ## Test with links
 
