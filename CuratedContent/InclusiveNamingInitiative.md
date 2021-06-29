@@ -1,4 +1,4 @@
-# The Inclusive Naming Initiative
+# Inclusive Naming Initiative
 <!--deck text start-->
 As software developers, we exercise the power to name a lot. We name projects, products, servers, files, functions, variables and more. The names we use in our code and associated artifacts can invite people in or push them away.
 <!--deck text end-->
@@ -8,7 +8,7 @@ As software developers, we exercise the power to name a lot. We name projects, p
 
 Resource information | Details
 :--- | :--- 
-Article title  | [The Inclusive Naming Initiative](https://inclusivenaming.org)
+Article title  | [Inclusive Naming Initiative](https://inclusivenaming.org)
 Authors | Open Source Collaboration
 Focus | Project Productivity and Sustainability
 
