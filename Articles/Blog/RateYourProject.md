@@ -18,7 +18,7 @@ has proved general enough for other non-technical types of practices as well, su
  <img height="400" src='../../images/ryp_psip.png' />
 </p>
 
-The PSIP process comprises seven steps of an iterative process. The first two steps form the **assessment** phase, were teams identify their current practices and areas that would benefit from improvement, then set goals for how to improve those practices. The next two steps form the **tracking** phase, where teams  create [progress tracking cards (PTCs)](https://github.com/bssw-psip/ptc-catalog) to record and monitor progress towards their goals, and record the current state. The final three steps form the **integration** phase, where the PTCs are integrated with an existing task tracking system so that practice improvement becomes part of the team's daily activities.
+The PSIP process comprises seven steps of an iterative process. The first two steps form the **assessment** phase, were teams identify their current practices and areas that would benefit from improvement, then set goals for how to improve those practices. The next three steps form the **planning** phase, where teams  create [progress tracking cards (PTCs)](https://github.com/bssw-psip/ptc-catalog) to record and monitor progress towards their goals, record the current state, and create a plan for how to improve the practices. The final two steps form the **execution** phase, an iterative process where the plans are put into action, and progress is monitored by recording it in the PTCs as part of the team's normal task tracking activities.
 
 ### Getting started
 
