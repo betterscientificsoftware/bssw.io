@@ -7,18 +7,19 @@
 #### Publication date: July 10, 2021
 
 [RateYourProject.org](https://rateyourproject.org) is a tool designed to help teams begin the process of
-[Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip), a new technique for improving team practices.
+[Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip), a new technique for improving team practices. It was developed by the PSIP
+team, which is part of the [IDEAS-ECP project](https://ideas-productivity.org/ideas-ecp/).
 
 PSIP is a lightweight methodology for 
 improving practices used by scientific software teams. Originally envisioned for helping teams improve
 software engineering practices such as coding standards, testing, documenting, etc., the PSIP approach 
-has proved general enough for other non-technical types of practices as well, such as on-boarding, communications, etc. 
+has proved general enough for other non-technical types of practices as well, such as on-boarding, communications, etc. [1]
 
 <p align="center">
  <img height="400" src='../../images/ryp_psip.png' />
 </p>
 
-The PSIP process comprises seven steps of an iterative process. The first two steps form the **assessment** phase, were teams identify their current practices and areas that would benefit from improvement, then set goals for how to improve those practices. The next two steps form the **planning** phase, where teams  create [progress tracking cards (PTCs)](https://github.com/bssw-psip/ptc-catalog) to record and monitor progress towards their goals, record the current state, and create a plan for how to improve the practices. The final two steps form the **execution** phase, an iterative process where the plans are put into action, and progress is monitored by recording it in the PTCs as part of the team's normal task tracking activities.
+The core of the PSIP process comprises six steps of an iterative process. The first two steps form the **assessment** phase, were teams identify their current practices and areas that would benefit from improvement, then set goals for how to improve those practices. The next two steps form the **planning** phase, where teams  create [progress tracking cards (PTCs)](https://github.com/bssw-psip/ptc-catalog) to record and monitor progress towards their goals, record the current state, and create a plan for how to improve the practices. The final two steps form the **execution** phase, an iterative process where the plans are put into action, and progress is monitored by recording it in the PTCs as part of the team's normal task tracking activities.
 
 ### Getting started
 
@@ -36,7 +37,7 @@ practices.
 
 ### How it works
 
-[RateYourProject.org](https://rateyourproject.org) works by guiding the user through a series of common development practices and allows the user to choose a response that most closely matches their current practice level using a modified four point Likert scale of "None", "Basic", "Intermediate", and "Advanced". The scale is designed to make it easy for teams to match their practices with the pratice description. Practices are grouped under the categories _Better Development_, _Better Planning_, _Better Performance_, _Better Reliability_, and _Better Collaboration_. This enables an overall assessment to be presented as a spider chart like this one, which clearly shows that _Better Planning_ and _Better Performance_ are categories that could benefit most from improvement, although there is room for improvement in all categories.
+[RateYourProject.org](https://rateyourproject.org) is a self assessment tool that works by guiding the user through a series of common development practices and allows the user to choose a response that most closely matches their current practice level using a scale of "None", "Basic", "Intermediate", and "Advanced". The scale is designed to make it easy for teams to match their practices with the pratice description. Practices are grouped under the categories _Better Development_, _Better Planning_, _Better Performance_, _Better Reliability_, and _Better Collaboration_. This enables an overall assessment to be presented as a spider chart like this one, which clearly shows that _Better Planning_ and _Better Performance_ are categories that could benefit most from improvement, although there is room for improvement in all categories.
 
 <p align="center">
  <img src='../../images/ryp_assessment.png' />
@@ -54,7 +55,11 @@ PSIP is a process of continous improvement: practices needing improvement are id
 
 ### Future work
 
-The PSIP team is working on a variety of improvements and enhancements to the tool. These include helping teams create progress tracking cards once they have identified practice areas for improvment, and then adding these cards to the existing task tracking systems used by the teams. We're also looking at how the tool could be integrated directly with version control hosting services such as GitHub and GitLab, more detailed assessments, and alternate presentation styles. 
+The PSIP team is working on a variety of improvements and enhancements to the tool. These include helping teams create progress tracking cards once they have identified practice areas for improvment, and then adding these cards to the existing task tracking systems used by the teams. We're also looking at how the tool could be integrated directly with version control hosting services such as GitHub and GitLab, more detailed assessments, and alternate presentation styles. Additional information about the tool and other PSIP related information can be found on the [PSIP web page](https://bssw.io/psip) or using the [PSIP Practice Guides](https://github.com/bssw-psip/practice-guides).
+
+### References
+
+[1] Heroux M.A. et al. (2020) Lightweight Software Process Improvement Using Productivity and Sustainability Improvement Planning (PSIP). In: Juckeland G., Chandrasekaran S. (eds) Tools and Techniques for High Performance Computing. HUST 2019, SE-HER 2019, WIHPC 2019. Communications in Computer and Information Science, vol 1190. Springer, Cham. https://doi.org/10.1007/978-3-030-44728-1_6.
 
 ### Author bio
 
