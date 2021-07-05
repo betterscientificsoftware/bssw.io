@@ -7,12 +7,12 @@ Slide1 L: blog_posts/e4s-extreme-scale-scientific-software-stack
 Slide1 R: items/inclusive-naming-initiative
 Slide2 L: blog_posts/experiences-from-the-2021-bssw-io-community-bof
 Slide2 R: images/raw/master/Blog__0521_Icons.jpg
-Slide3 L: blog_posts/blog_posts/a-gentle-introduction-to-gpu-programming
-Slide3 R: images/raw/master/Blog_0521_GPU.png
-Slide4 L: blog_posts/encouraging-effective-retrospective-strategies-for-team-projects
-Slide4 R: items/the-10-best-practices-for-remote-software-engineering
+Slide3 L: blog_posts/practices-for-productive-software-development-in-kokkos
+Slide3 R: blog_posts/encouraging-effective-retrospective-strategies-for-team-projects
+Slide4 L: blog_posts/blog_posts/a-gentle-introduction-to-gpu-programming
+Slide4 R: images/raw/master/Blog_0521_GPU.png
 Slide5 L: items/debugging-books-to-help-you-get-started
-Slide5 R: items/an-introductory-resource-for-high-performance-computing
+Slide5 R: items/the-10-best-practices-for-remote-software-engineering
 Slide6 L: events/webinar-mining-development-data-to-understand-and-improve-software-engineering-processes-in-hpc-projects
 Slide6 R: items/keep-interest-on-technical-debt-from-sinking-your-software-project
 Slide7 L: events/2021-collegeville-workshop-on-scientific-software-software-teams
