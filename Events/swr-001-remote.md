@@ -119,10 +119,10 @@ for ECP and a Scientist in Residence at St. John’s University, MN.</p>
 
     
 
-#### Contributed by [Mike Bernhardt](https://github.com/mikeb650 "Mike Bernhardt GitHub profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Mark Miller](https://github.com/markcmiller86 "Mark Miller GitHub profile"), [Kathryn Mohror](https://github.com/kathrynmohror "Kathryn Mohror GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile") [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile")
+#### Contributed by [Mike Bernhardt](https://github.com/mikeb650 "Mike Bernhardt GitHub profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Mark Miller](https://github.com/markcmiller86 "Mark Miller GitHub profile"), [Kathryn Mohror](https://github.com/kathrynmohror "Kathryn Mohror GitHub profile"), [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile")
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
