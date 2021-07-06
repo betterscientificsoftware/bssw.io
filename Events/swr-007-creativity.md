@@ -1,4 +1,4 @@
-# Panel: How Does Remote Work Impact Creativity and Innovation?
+# Panel: REMOVE THIS 
 
 - Date: 2021-03-25
 - Location: Online
@@ -91,7 +91,7 @@ Control Account Manager (CAM) for training and productivity.</p>
 #### Contributed by Addi Thakur Malviya, Pat Quillen, [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson's GitHub Profile"), [Francesca Samsel](https://github.com/figs512 "Francesca Samsel's GitHub Profile"), Ashley Barker
 
 <!---
-Publish: yes
+Publish: no
 Categories: skills
 Topics: online learning
 Level: 2
