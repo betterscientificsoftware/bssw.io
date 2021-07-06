@@ -23,6 +23,7 @@ Series Information and Archives | <https://ideas-productivity.org/events/strateg
 
 ### Abstract
 <p>Many of us have been working remotely well over 13 months now due to the COVID-19 pandemic. We’ve hosted 7 panel discussions since April 2020 that allowed us to share resiliency strategies for working remotely as most of us transitioned from co-located to fully virtual work. That said, 13 months and 7 panel discussions later, how much do we know about how working remotely and a phased return to “the office” will impact our creativity? Do we do our best work when isolated? What is it about serendipitous face-to-face interactions that we find difficult to replicate online? In our eighth installment of the panel discussion series, we explore the topics of creativity and innovation with software development teams who are applying agile techniques, thinking differently about co-located collaboration, and questioning the unintended effects of working remotely. Panelists will make brief introductory comments followed by open discussion. Questions can be submitted by the audience in advance to remote@acm.org.</p>
+
 ### Panelist Bios
 <p>Addi Thakur Malviya is a Group Leader for Software Engineering at Oak Ridge National Laboratory and a Better Scientific Software (BSSw) fellow.</p>
 <p>Pat Quillen is a software engineer for Mathworks.</p>
@@ -68,6 +69,7 @@ IDEAS-ECP productivity project.</p>
 --->
 <p>Damian Rouson is a mechanical engineer with extensive experience in software design and development for multi-physics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. He co-authored Scientific Software Design: The Object-Oriented Way (Cambridge University Press, 2011) and in 2015, founded the California public-benefit nonprofit corporation Sourcery Institute. In 2020-’21 Department of Energy Better Scientific Software (BSSw) Fellowship. He holds a B.S. from Howard University and an M.S. and Ph.D. from Stanford University, all in Mechanical Engineering.  He is also a licensed Professional Engineer (P.E.) in the State of California.</p>
 <p>Francesca Samsel was trained as an artist and is now a Research Scientist at TACC (Texas Advanced Computing Center) University of Texas at Austin. She works with visualization teams and climate scientists drawing on her artistic training to develop strategies and tools that assist scientists in extracting more knowledge from their data. Francesca holds an M.F.A. from the University of Washington and a B.F.A. from California College of Art.</p>
+
 ### Moderator Bio
 <p>Ashley Barker is the Group Leader for the User Assistance and Outreach
 (UAO) team at the Oak Ridge Leadership Computing Facility (OLCF)
@@ -85,6 +87,7 @@ NOAA, allowing the agency to advance its climate modeling and improve
 our understanding of climate variability and change. Ashley is also
 currently involved in the Exascale Computing Project (ECP) as the
 Control Account Manager (CAM) for training and productivity.</p>
+
 #### Contributed by Addi Thakur Malviya, Pat Quillen, [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson's GitHub Profile"), [Francesca Samsel](https://github.com/figs512 "Francesca Samsel's GitHub Profile"), Ashley Barker
 
 <!---
