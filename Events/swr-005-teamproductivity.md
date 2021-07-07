@@ -84,7 +84,7 @@ IDEAS-ECP productivity project.</p>
 
     
 
-#### Contributed by [Todd Coffey](https://github.com/tstirlingc "Todd Coffey GitHub profile"), [Justin Lamb](https://github.com/jmlamb "Justin Lamb GitHub profile"), [Navamita Ray](https://github.com/nray "Navamita Ray GitHub profile"), Ryan Shaw, Tyler Shelton, Daniel Shevitz, Salome Thorson,  and Jan Velechovsky [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
+#### Contributed by [Todd Coffey](https://github.com/tstirlingc "Todd Coffey GitHub profile"), [Justin Lamb](https://github.com/jmlamb "Justin Lamb GitHub profile"), [Navamita Ray](https://github.com/nray "Navamita Ray GitHub profile"), Ryan Shaw, Tyler Shelton, Daniel Shevitz, Salome Thorson, Jan Velechovsky, [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub profile"), and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
 
 <!---
 Publish: yes
