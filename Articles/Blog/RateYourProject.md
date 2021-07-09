@@ -69,7 +69,7 @@ Gregory Watson is Group Leader of the Application Engineering Group at Oak Ridge
 
 
 <!---
-Publish: No
+Publish: Preview
 Categories: planning
 Topics: software engineering
 Tags: bssw-blog-article
