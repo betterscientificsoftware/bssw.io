@@ -53,7 +53,9 @@ Once the overall assessment has been established, teams are able to examine the 
 
 PSIP is a process of continous improvement: practices needing improvement are identified, a plan is made, and then the plan is executed and the process starts again. The [RateYourProject.org](https://rateyourproject.org) tool allows the current assessment to be saved, then reviewed later in order to check progress or to identify another area that could be improved. The site provides a link on the main assessment page that can be used to return to the current assessment. This provides a simple and safe mechanism for recording progress towards achieving improvement goals.
 
-### Future work
+### Feedback and Future work
+
+[RateYourProject.org](https://rateyourproject.org) has been used to self assess project practices by a number of groups, including [The HDF Group](https://www.hdfgroup.org), Sandia National Laboratory, and Oak Ridge National Laboratory, as well as in tutorials that the PSIP team has presented. Feedback from users has been positive, pointing to its ease of use and the clear benefits of having a focal point for multiple team members to quickly provide their perspective when collecting input on how to improve project practices.
 
 The PSIP team is working on a variety of improvements and enhancements to the tool. These include helping teams create progress tracking cards once they have identified practice areas for improvment, and then adding these cards to the existing task tracking systems used by the teams. We're also looking at how the tool could be integrated directly with version control hosting services such as GitHub and GitLab, more detailed assessments, and alternate presentation styles. Additional information about the tool and other PSIP related information can be found on the [PSIP web page](https://bssw.io/psip) or using the [PSIP Practice Guides](https://github.com/bssw-psip/practice-guides).
 
