@@ -31,10 +31,11 @@ required for each panel.
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Panels
-*Listed in reverse chronological order. Last updated: 2021-03-27*
+*Listed in reverse chronological order. Last updated: 2021-07-10*
 
 
 
+- *[I Finally Have the Internship I Always Wanted, Now What?](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel009)*, Dorian Arnold (Emory University), Rebecca Hartman-Baker (Lawrence Berkeley National Laboratory), Christine Harvey (The MITRE Corporation), and Jay Lofstead (Sandia National Laboratories), 2021-06-24
 - *[How Does Remote Work Impact Creativity and Innovation?](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008)*, Addi Thakur Malviya (Oak Ridge National Laboratory), Pat Quillen (Mathworks), Elaine Raybourn (Sandia National Laboratories), Damian Rouson (Sourcery Institute), and Francesca Samsel (TACC (Texas Advanced Computing Center) and University of Texas at Austin), 2021-03-25
 - *[Year in Review: What Have We Learned So Far?](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel007)*, Lori Diachin (Exascale Computing Project and Lawrence Livermore National Laboratory), Thomas Evans (Oak Ridge National Laboratory), and Elaine Raybourn (Sandia National Laboratories), 2020-12-17
 - *[Sustainable Hybrid Approaches](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel006)*, Katie Antypas (Lawrence Berkeley National Laboratory), David E. Bernholdt (Oak Ridge National Laboratory), Mark Miller (Lawrence Livermore National Laboratory), Hai Ah Nam (Los Alamos National Laboratory), and Valerie Taylor (Argonne National Laboratory), 2020-10-29
@@ -46,7 +47,7 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 #### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
-#### Publication date: 2021-03-27
+#### Publication date: 2021-07-10
 
 <!---
 Publish: yes
