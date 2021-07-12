@@ -1,10 +1,10 @@
 # Improving team practices with [RateYourProject.org](https://rateyourproject.org)
 
-<img src='../../images/ryp_hero.png' />
+- <img src='../../images/Blog_0225_Computational.jpg' />
  
 #### Contributed by [Gregory R. Watson](https://github.com/jarrah42)
 
-#### Publication date: July 10, 2021
+#### Publication date: July 14, 2021
 
 [RateYourProject.org](https://rateyourproject.org) is a tool designed to help teams begin the process of
 [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip), a new technique for improving team practices. It was developed by the PSIP
@@ -73,7 +73,4 @@ Publish: Preview
 Categories: planning
 Topics: software engineering
 Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->
