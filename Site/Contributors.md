@@ -10,7 +10,7 @@ Contributors here are automatically generated
 
 <!--
 Contributor Overrides:
-"nniicc","Weber","Nic Weber"
+"nniiicc","Weber","Nic Weber"
 "gonsie","Gonsiorowski"
 "npch","Chue"
 -->
