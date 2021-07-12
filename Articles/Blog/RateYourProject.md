@@ -19,7 +19,7 @@ has proved general enough for other non-technical types of practices as well, su
 
 <br>
 
-<img src='../../images/ryp_psip.png' class='page lightbox'>
+<img src='../../images/ryp_psip.png' class='page'>
 
 <br>
 
@@ -33,7 +33,7 @@ trying out the idea, and if the benefits of the activity are not immediately app
 
 <br>
 
-<img src='../../images/ryp_effort.png' class='page lightbox'>
+<img src='../../images/ryp_effort.png' class='page'>
 
 <br>
 
