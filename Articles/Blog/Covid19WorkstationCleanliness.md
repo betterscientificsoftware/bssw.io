@@ -217,126 +217,116 @@ Aggregate: none
 
 <br>
 
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC guidance on CV-19 transmission"
-[2]: https://www.who.int/health-topics/coronavirus "WHO summary remarks of COVID-19"
-[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/ "NIH CV-229E surface study"
-[4]: https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v2.full.pdf "Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1"
-[5]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface study of various coronaviruses"
-[6]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC guidance on cleaning surfaces"
-[7]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC description of transmission scenario"
-[8]: https://en.wikipedia.org/wiki/Coronavirus "Wikipedia summary of coronavirus"
-[9]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC explains names SARS-CoV-2 and COVID-19"
-[10]: https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html "CDC describes higher risk persons"
-[11]: https://jamanetwork.com/journals/jama/fullarticle/2762028 "Asymptomatic transmission of COVID-19"
-[12]: https://en.wikipedia.org/wiki/Fomite "Explanation of the term Fomite"
-[13]: https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html "CDC guidance on fomite transmission"
-[14]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best disinfecting wipes"
-[15]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics"
-[16]: https://support.apple.com/en-us/HT204172?mod=article_inline "Apple guidance on 70% alcohol"
-[17]: https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/ "Common household products to kill SARS-CoV-2"
-[18]: https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf "EPA technical guidance & cleaner types/ratings"
-[19]: https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2 "EPA cleaner designations"
-[20]: https://www.ncbi.nlm.nih.gov/pubmed/25637115 "Face touching study"
-[21]: https://ottawacitizen.com/health/busting-the-coronavirus "DIY, natural cleaners"
-[22]: https://youtu.be/poOSzPTapw0?t=40 "See GlowGerm spread in an elementary classroom"
-[23]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local news piece on spread of germs"
-[24]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your cough"
-[25]: https://youtu.be/36FfZhxXTBc?t=296 "CBC story including cleaners"
-[26]: https://en.wikipedia.org/wiki/Rubbing_alcohol "What is rubbing alcohol"
-[27]: https://coronavirus.jhu.edu/map.html "JH COVID-19 dashboard"
-[28]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking"
-[29]: https://youtu.be/Pnk8DuAly9Y?t=978 "Dr. Laren Gardner describes JH COVID-19 dashboard"
-[30]: https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f "Forbes AI article on COVID-19"
-[31]: https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php "Using mobile data to track an outbreak"
-[32]: https://youtu.be/qf3Ih0kNvlU "SciShow Overview of COVID-19 CFR"
-[33]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve"
-[34]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing"
-[35]: https://youtu.be/_066dEkycr4?t=932 "John Oliver discusses misinformation"
-[36]: https://www.washingtonpost.com/graphics/2020/world/corona-simulator/ "Simple 2D simulations demonstrate value of social distancing"
-[37]: https://youtu.be/mCa0JXEwDEk "Kahn Academy lesson on estimating actual cases"
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "CDC guidance on CV-19 transmission"
-[2]: #ref2 "WHO summary remarks of COVID-19"
-[3]: #ref3 "NIH CV-229E surface study"
-[4]: #ref4 "Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1"
-[5]: #ref5 "Surface study of various coronaviruses"
-[6]: #ref6 "CDC guidance on cleaning surfaces"
-[7]: #ref7 "CDC description of transmission scenario"
-[8]: #ref8 "Wikipedia summary of coronavirus"
-[9]: #ref9 "CDC explains names SARS-CoV-2 and COVID-19"
-[10]: #ref10 "CDC describes higher risk persons"
-[11]: #ref11 "Asymptomatic transmission of COVID-19"
-[12]: #ref12 "Explanation of the term Fomite"
-[13]: #ref13 "CDC guidance on fomite transmission"
-[14]: #ref14 "Best disinfecting wipes"
-[15]: #ref15 "Best practices for cleaning electronics"
-[16]: #ref16 "Apple guidance on 70% alcohol"
-[17]: #ref17 "Common household products to kill SARS-CoV-2"
-[18]: #ref18 "EPA technical guidance & cleaner types/ratings"
-[19]: #ref19 "EPA cleaner designations"
-[20]: #ref20 "Face touching study"
-[21]: #ref21 "DIY, natural cleaners"
-[22]: #ref22 "See GlowGerm spread in an elementary classroom"
-[23]: #ref23 "Local news piece on spread of germs"
-[24]: #ref24 "Covering your cough"
-[25]: #ref25 "CBC story including cleaners"
-[26]: #ref26 "What is rubbing alcohol"
-[27]: #ref27 "JH COVID-19 dashboard"
-[28]: #ref28 "AI in China for contact tracking"
-[29]: #ref29 "Dr. Laren Gardner describes JH COVID-19 dashboard"
-[30]: #ref30 "Forbes AI article on COVID-19"
-[31]: #ref31 "Using mobile data to track an outbreak"
-[32]: #ref32 "SciShow Overview of COVID-19 CFR"
-[33]: #ref33 "Explanation of flattening the curve"
-[34]: #ref34 "The math of social distancing"
-[35]: #ref35 "John Oliver discusses misinformation"
-[36]: #ref36 "Simple 2D simulations demonstrate value of social distancing"
-[37]: #ref37 "Kahn Academy lesson on estimating actual cases"
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [CDC guidance on CV-19 transmission](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html)
-<a name="ref2"></a>2 | [WHO summary remarks of COVID-19](https://www.who.int/health-topics/coronavirus)
-<a name="ref3"></a>3 | [NIH CV-229E surface study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/)
-<a name="ref4"></a>4 | [Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1](https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v2.full.pdf)
-<a name="ref5"></a>5 | [Surface study of various coronaviruses](https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext)
-<a name="ref6"></a>6 | [CDC guidance on cleaning surfaces](https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect)
-<a name="ref7"></a>7 | [CDC description of transmission scenario](https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html)
-<a name="ref8"></a>8 | [Wikipedia summary of coronavirus](https://en.wikipedia.org/wiki/Coronavirus)
-<a name="ref9"></a>9 | [CDC explains names SARS-CoV-2 and COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it)
-<a name="ref10"></a>10 | [CDC describes higher risk persons](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html)
-<a name="ref11"></a>11 | [Asymptomatic transmission of COVID-19](https://jamanetwork.com/journals/jama/fullarticle/2762028)
-<a name="ref12"></a>12 | [Explanation of the term Fomite](https://en.wikipedia.org/wiki/Fomite)
-<a name="ref13"></a>13 | [CDC guidance on fomite transmission](https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html)
-<a name="ref14"></a>14 | [Best disinfecting wipes](https://learningregistry.org/reviews/best-disinfectant-wipes)
-<a name="ref15"></a>15 | [Best practices for cleaning electronics](https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics)
-<a name="ref16"></a>16 | [Apple guidance on 70% alcohol](https://support.apple.com/en-us/HT204172?mod=article_inline)
-<a name="ref17"></a>17 | [Common household products to kill SARS-CoV-2](https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/)
-<a name="ref18"></a>18 | [EPA technical guidance & cleaner types/ratings](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)
-<a name="ref19"></a>19 | [EPA cleaner designations](https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2)
-<a name="ref20"></a>20 | [Face touching study](https://www.ncbi.nlm.nih.gov/pubmed/25637115)
-<a name="ref21"></a>21 | [DIY, natural cleaners](https://ottawacitizen.com/health/busting-the-coronavirus)
-<a name="ref22"></a>22 | [See GlowGerm spread in an elementary classroom](https://youtu.be/poOSzPTapw0?t=40)
-<a name="ref23"></a>23 | [Local news piece on spread of germs](https://www.youtube.com/watch?v=NmLOeuH3qdA)
-<a name="ref24"></a>24 | [Covering your cough](https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/)
-<a name="ref25"></a>25 | [CBC story including cleaners](https://youtu.be/36FfZhxXTBc?t=296)
-<a name="ref26"></a>26 | [What is rubbing alcohol](https://en.wikipedia.org/wiki/Rubbing_alcohol)
-<a name="ref27"></a>27 | [JH COVID-19 dashboard](https://coronavirus.jhu.edu/map.html)
-<a name="ref28"></a>28 | [AI in China for contact tracking](https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html)
-<a name="ref29"></a>29 | [Dr. Laren Gardner describes JH COVID-19 dashboard](https://youtu.be/Pnk8DuAly9Y?t=978)
-<a name="ref30"></a>30 | [Forbes AI article on COVID-19](https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f)
-<a name="ref31"></a>31 | [Using mobile data to track an outbreak](https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php)
-<a name="ref32"></a>32 | [SciShow Overview of COVID-19 CFR](https://youtu.be/qf3Ih0kNvlU)
-<a name="ref33"></a>33 | [Explanation of flattening the curve](https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning)
-<a name="ref34"></a>34 | [The math of social distancing](https://www.wired.com/story/elegant-mathematics-social-distancing/)
-<a name="ref35"></a>35 | [John Oliver discusses misinformation](https://youtu.be/_066dEkycr4?t=932)
-<a name="ref36"></a>36 | [Simple 2D simulations demonstrate value of social distancing](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/)
-<a name="ref37"></a>37 | [Kahn Academy lesson on estimating actual cases](https://youtu.be/mCa0JXEwDEk)
+[1-sfer-ezikiw]: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html "CDC guidance on CV-19 transmission"
+[2-sfer-ezikiw]: https://www.who.int/health-topics/coronavirus "WHO summary remarks of COVID-19"
+[3-sfer-ezikiw]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/ "NIH CV-229E surface study"
+[4-sfer-ezikiw]: https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v2.full.pdf "Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1"
+[5-sfer-ezikiw]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface study of various coronaviruses"
+[6-sfer-ezikiw]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC guidance on cleaning surfaces"
+[7-sfer-ezikiw]: https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html "CDC description of transmission scenario"
+[8-sfer-ezikiw]: https://en.wikipedia.org/wiki/Coronavirus "Wikipedia summary of coronavirus"
+[9-sfer-ezikiw]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC explains names SARS-CoV-2 and COVID-19"
+[10-sfer-ezikiw]: https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html "CDC describes higher risk persons"
+[11-sfer-ezikiw]: https://jamanetwork.com/journals/jama/fullarticle/2762028 "Asymptomatic transmission of COVID-19"
+[12-sfer-ezikiw]: https://en.wikipedia.org/wiki/Fomite "Explanation of the term Fomite"
+[13-sfer-ezikiw]: https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html "CDC guidance on fomite transmission"
+[14-sfer-ezikiw]: https://learningregistry.org/reviews/best-disinfectant-wipes "Best disinfecting wipes"
+[15-sfer-ezikiw]: https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics "Best practices for cleaning electronics"
+[16-sfer-ezikiw]: https://support.apple.com/en-us/HT204172?mod=article_inline "Apple guidance on 70% alcohol"
+[17-sfer-ezikiw]: https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/ "Common household products to kill SARS-CoV-2"
+[18-sfer-ezikiw]: https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf "EPA technical guidance & cleaner types/ratings"
+[19-sfer-ezikiw]: https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2 "EPA cleaner designations"
+[20-sfer-ezikiw]: https://www.ncbi.nlm.nih.gov/pubmed/25637115 "Face touching study"
+[21-sfer-ezikiw]: https://ottawacitizen.com/health/busting-the-coronavirus "DIY, natural cleaners"
+[22-sfer-ezikiw]: https://youtu.be/poOSzPTapw0?t=40 "See GlowGerm spread in an elementary classroom"
+[23-sfer-ezikiw]: https://www.youtube.com/watch?v=NmLOeuH3qdA "Local news piece on spread of germs"
+[24-sfer-ezikiw]: https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/ "Covering your cough"
+[25-sfer-ezikiw]: https://youtu.be/36FfZhxXTBc?t=296 "CBC story including cleaners"
+[26-sfer-ezikiw]: https://en.wikipedia.org/wiki/Rubbing_alcohol "What is rubbing alcohol"
+[27-sfer-ezikiw]: https://coronavirus.jhu.edu/map.html "JH COVID-19 dashboard"
+[28-sfer-ezikiw]: https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html "AI in China for contact tracking"
+[29-sfer-ezikiw]: https://youtu.be/Pnk8DuAly9Y?t=978 "Dr. Laren Gardner describes JH COVID-19 dashboard"
+[30-sfer-ezikiw]: https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f "Forbes AI article on COVID-19"
+[31-sfer-ezikiw]: https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php "Using mobile data to track an outbreak"
+[32-sfer-ezikiw]: https://youtu.be/qf3Ih0kNvlU "SciShow Overview of COVID-19 CFR"
+[33-sfer-ezikiw]: https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning "Explanation of flattening the curve"
+[34-sfer-ezikiw]: https://www.wired.com/story/elegant-mathematics-social-distancing/ "The math of social distancing"
+[35-sfer-ezikiw]: https://youtu.be/_066dEkycr4?t=932 "John Oliver discusses misinformation"
+[36-sfer-ezikiw]: https://www.washingtonpost.com/graphics/2020/world/corona-simulator/ "Simple 2D simulations demonstrate value of social distancing"
+[37-sfer-ezikiw]: https://youtu.be/mCa0JXEwDEk "Kahn Academy lesson on estimating actual cases"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "CDC guidance on CV-19 transmission"
+[2]: #sfer-ezikiw-2 "WHO summary remarks of COVID-19"
+[3]: #sfer-ezikiw-3 "NIH CV-229E surface study"
+[4]: #sfer-ezikiw-4 "Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1"
+[5]: #sfer-ezikiw-5 "Surface study of various coronaviruses"
+[6]: #sfer-ezikiw-6 "CDC guidance on cleaning surfaces"
+[7]: #sfer-ezikiw-7 "CDC description of transmission scenario"
+[8]: #sfer-ezikiw-8 "Wikipedia summary of coronavirus"
+[9]: #sfer-ezikiw-9 "CDC explains names SARS-CoV-2 and COVID-19"
+[10]: #sfer-ezikiw-10 "CDC describes higher risk persons"
+[11]: #sfer-ezikiw-11 "Asymptomatic transmission of COVID-19"
+[12]: #sfer-ezikiw-12 "Explanation of the term Fomite"
+[13]: #sfer-ezikiw-13 "CDC guidance on fomite transmission"
+[14]: #sfer-ezikiw-14 "Best disinfecting wipes"
+[15]: #sfer-ezikiw-15 "Best practices for cleaning electronics"
+[16]: #sfer-ezikiw-16 "Apple guidance on 70% alcohol"
+[17]: #sfer-ezikiw-17 "Common household products to kill SARS-CoV-2"
+[18]: #sfer-ezikiw-18 "EPA technical guidance & cleaner types/ratings"
+[19]: #sfer-ezikiw-19 "EPA cleaner designations"
+[20]: #sfer-ezikiw-20 "Face touching study"
+[21]: #sfer-ezikiw-21 "DIY, natural cleaners"
+[22]: #sfer-ezikiw-22 "See GlowGerm spread in an elementary classroom"
+[23]: #sfer-ezikiw-23 "Local news piece on spread of germs"
+[24]: #sfer-ezikiw-24 "Covering your cough"
+[25]: #sfer-ezikiw-25 "CBC story including cleaners"
+[26]: #sfer-ezikiw-26 "What is rubbing alcohol"
+[27]: #sfer-ezikiw-27 "JH COVID-19 dashboard"
+[28]: #sfer-ezikiw-28 "AI in China for contact tracking"
+[29]: #sfer-ezikiw-29 "Dr. Laren Gardner describes JH COVID-19 dashboard"
+[30]: #sfer-ezikiw-30 "Forbes AI article on COVID-19"
+[31]: #sfer-ezikiw-31 "Using mobile data to track an outbreak"
+[32]: #sfer-ezikiw-32 "SciShow Overview of COVID-19 CFR"
+[33]: #sfer-ezikiw-33 "Explanation of flattening the curve"
+[34]: #sfer-ezikiw-34 "The math of social distancing"
+[35]: #sfer-ezikiw-35 "John Oliver discusses misinformation"
+[36]: #sfer-ezikiw-36 "Simple 2D simulations demonstrate value of social distancing"
+[37]: #sfer-ezikiw-37 "Kahn Academy lesson on estimating actual cases"
+### References <!-- (sfer-ezikiw) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[CDC guidance on CV-19 transmission](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[WHO summary remarks of COVID-19](https://www.who.int/health-topics/coronavirus)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[NIH CV-229E surface study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1](https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v2.full.pdf)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Surface study of various coronaviruses](https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[CDC guidance on cleaning surfaces](https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[CDC description of transmission scenario](https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Wikipedia summary of coronavirus](https://en.wikipedia.org/wiki/Coronavirus)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[CDC explains names SARS-CoV-2 and COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it)
+* <a name="sfer-ezikiw-10"></a><sup>10</sup>[CDC describes higher risk persons](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html)
+* <a name="sfer-ezikiw-11"></a><sup>11</sup>[Asymptomatic transmission of COVID-19](https://jamanetwork.com/journals/jama/fullarticle/2762028)
+* <a name="sfer-ezikiw-12"></a><sup>12</sup>[Explanation of the term Fomite](https://en.wikipedia.org/wiki/Fomite)
+* <a name="sfer-ezikiw-13"></a><sup>13</sup>[CDC guidance on fomite transmission](https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html)
+* <a name="sfer-ezikiw-14"></a><sup>14</sup>[Best disinfecting wipes](https://learningregistry.org/reviews/best-disinfectant-wipes)
+* <a name="sfer-ezikiw-15"></a><sup>15</sup>[Best practices for cleaning electronics](https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics)
+* <a name="sfer-ezikiw-16"></a><sup>16</sup>[Apple guidance on 70% alcohol](https://support.apple.com/en-us/HT204172?mod=article_inline)
+* <a name="sfer-ezikiw-17"></a><sup>17</sup>[Common household products to kill SARS-CoV-2](https://www.consumerreports.org/cleaning/common-household-products-that-can-destroy-novel-coronavirus/)
+* <a name="sfer-ezikiw-18"></a><sup>18</sup>[EPA technical guidance & cleaner types/ratings](https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf)
+* <a name="sfer-ezikiw-19"></a><sup>19</sup>[EPA cleaner designations](https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2)
+* <a name="sfer-ezikiw-20"></a><sup>20</sup>[Face touching study](https://www.ncbi.nlm.nih.gov/pubmed/25637115)
+* <a name="sfer-ezikiw-21"></a><sup>21</sup>[DIY, natural cleaners](https://ottawacitizen.com/health/busting-the-coronavirus)
+* <a name="sfer-ezikiw-22"></a><sup>22</sup>[See GlowGerm spread in an elementary classroom](https://youtu.be/poOSzPTapw0?t=40)
+* <a name="sfer-ezikiw-23"></a><sup>23</sup>[Local news piece on spread of germs](https://www.youtube.com/watch?v=NmLOeuH3qdA)
+* <a name="sfer-ezikiw-24"></a><sup>24</sup>[Covering your cough](https://www.flickr.com/photos/fairfaxcounty/8467521325/in/photostream/lightbox/)
+* <a name="sfer-ezikiw-25"></a><sup>25</sup>[CBC story including cleaners](https://youtu.be/36FfZhxXTBc?t=296)
+* <a name="sfer-ezikiw-26"></a><sup>26</sup>[What is rubbing alcohol](https://en.wikipedia.org/wiki/Rubbing_alcohol)
+* <a name="sfer-ezikiw-27"></a><sup>27</sup>[JH COVID-19 dashboard](https://coronavirus.jhu.edu/map.html)
+* <a name="sfer-ezikiw-28"></a><sup>28</sup>[AI in China for contact tracking](https://www.aljazeera.com/news/2020/03/china-ai-big-data-combat-coronavirus-outbreak-200301063901951.html)
+* <a name="sfer-ezikiw-29"></a><sup>29</sup>[Dr. Laren Gardner describes JH COVID-19 dashboard](https://youtu.be/Pnk8DuAly9Y?t=978)
+* <a name="sfer-ezikiw-30"></a><sup>30</sup>[Forbes AI article on COVID-19](https://www.forbes.com/sites/bernardmarr/2020/03/13/coronavirus-how-artificial-intelligence-data-science-and-technology-is-used-to-fight-the-pandemic/#6202d6b85f5f)
+* <a name="sfer-ezikiw-31"></a><sup>31</sup>[Using mobile data to track an outbreak](https://www.eurekalert.org/pub_releases/2019-11/epfd-mdo111419.php)
+* <a name="sfer-ezikiw-32"></a><sup>32</sup>[SciShow Overview of COVID-19 CFR](https://youtu.be/qf3Ih0kNvlU)
+* <a name="sfer-ezikiw-33"></a><sup>33</sup>[Explanation of flattening the curve](https://www.health.com/condition/infectious-diseases/coronavirus/flatten-the-curve-meaning)
+* <a name="sfer-ezikiw-34"></a><sup>34</sup>[The math of social distancing](https://www.wired.com/story/elegant-mathematics-social-distancing/)
+* <a name="sfer-ezikiw-35"></a><sup>35</sup>[John Oliver discusses misinformation](https://youtu.be/_066dEkycr4?t=932)
+* <a name="sfer-ezikiw-36"></a><sup>36</sup>[Simple 2D simulations demonstrate value of social distancing](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/)
+* <a name="sfer-ezikiw-37"></a><sup>37</sup>[Kahn Academy lesson on estimating actual cases](https://youtu.be/mCa0JXEwDEk)
