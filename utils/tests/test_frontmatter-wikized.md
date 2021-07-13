@@ -1,3 +1,10 @@
+---
+layout: page
+header:
+  image_fullwidth: gallery-07a.png
+permalink: "/contributors/"
+foo: gorfo
+---
 # Pull Request Size Matters
 
 <!-- deck text start -->
