@@ -19,7 +19,7 @@ has proved general enough for other non-technical types of practices as well, su
 
 <br>
 
-<img src='../../images/Blog_0721_PSIP.png' class='page'>
+<img src='../../images/Blog_0721_PSIPb.png' class='page'>
 
 <br>
 
@@ -47,7 +47,7 @@ practices.
 
 <br>
 
-<img src='../../images/ryp_assessment.png' class='page'>
+<img src='../../images/Blog_0721_PSIPassessmentb.png' class='page'>
 
 <br>
 
@@ -55,7 +55,7 @@ Once the overall assessment has been established, teams are able to examine the 
 
 <br>
 
-<img src='../../images/Blog_0721_PSIPscores.png' class='page'>
+<img src='../../images/Blog_0721_PSIPscoresb.png' class='page'>
 
 <br>
 
