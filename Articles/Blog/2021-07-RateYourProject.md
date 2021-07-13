@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/Blog_0225_Computational.jpg' />
+ - <img src='../../images/Blog_0721_PSIPhero.png' />
  
 #### Contributed by [Gregory R. Watson](https://github.com/jarrah42)
 
@@ -19,7 +19,7 @@ has proved general enough for other non-technical types of practices as well, su
 
 <br>
 
-<img src='../../images/ryp_psip.png' class='page'>
+<img src='../../images/Blog_0721_PSIP.png' class='page'>
 
 <br>
 
@@ -33,7 +33,7 @@ trying out the idea, and if the benefits of the activity are not immediately app
 
 <br>
 
-<img src='../../images/ryp_effort.png' class='page'>
+<img src='../../images/Blog_0721_PSIPeffort.png' class='page'>
 
 <br>
 
@@ -55,7 +55,7 @@ Once the overall assessment has been established, teams are able to examine the 
 
 <br>
 
-<img src='../../images/ryp_scores.png' class='page'>
+<img src='../../images/Blog_0721_PSIPscores.png' class='page'>
 
 <br>
 
