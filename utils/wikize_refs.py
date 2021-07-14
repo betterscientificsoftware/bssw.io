@@ -37,11 +37,13 @@ intended destinations. The resulting file is still GitHub flavored
 Markdown with a minimal amount of embedded HTML.
 
 If the file contains no footnotes, it will be left unchanged.
-Some minimal error checks are that there is an existing link
-definition for every footnote and that every link definition appears
-in at least one footnote. It will also check that links are valid.
-If errors are fatal, processing will stop upon encountering an error.
-Otherwise only warning messages are produced.
+Some minimal error checks include: a) there is an existing link
+definition for every footnote and b) every link definition appears
+in at least one footnote. It will also check that links are valid,
+that the URLs are valid URL strings and that following the links
+yields an actual URL resource and not an error of some kind.
+If errors are fatal, processing will stop upon encountering a first
+error. Otherwise only warning messages are produced.
 
 Some of the options here are *destructive* in that the file is
 changed in ways not easy to reverse. Those are noted.
@@ -89,7 +91,9 @@ def parse_args():
 
     parser.add_argument("-c", "--check-links",
                       type=int, default=0,
-                      help="Specify a timeout>0 in seconds for checking for broken links.")
+                      help="Specify a timeout>0 in seconds for checking for broken links. \
+                      Note: using this option does require network access to confirm URLs \
+                      actually work.")
 
     parser.add_argument("-i", "--in-place",
                       default=False,
