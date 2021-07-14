@@ -19,7 +19,7 @@ has proved general enough for other non-technical types of practices as well, su
 
 <br>
 
-<img src='../../images/Blog_0721_PSIP_c.png' class='page'>
+<img src='../../images/Blog_0721_PSIP_d.png' class='page'>
 
 <br>
 
@@ -47,7 +47,7 @@ practices.
 
 <br>
 
-<img src='../../images/Blog_0721_PSIP_assessment.png' class='page'>
+<img src='../../images/Blog_0721_PSIP_assessment.png' class='page'>[Overall assessment is presented with a spider chart, which shows there is room for improvement in all categories and makes clear the categories that would benefit most from improvement.]
 
 <br>
 
@@ -55,7 +55,7 @@ Once the overall assessment has been established, teams are able to examine the 
 
 <br>
 
-<img src='../../images/Blog_0721_PSIP_scores.png' class='page'>
+<img src='../../images/Blog_0721_PSIP_scores.png' class='page'>[The tool guides users through a series of common development practices, allowing them to choose a response that most closely matches their current practice level.]
 
 <br>
 
