@@ -65,7 +65,7 @@ PSIP is a process of continous improvement: practices needing improvement are id
 
 ### Feedback and future work
 
-[RateYourProject.org](https://rateyourproject.org) has been used to self assess project practices by a number of groups, including [The HDF Group](https://www.hdfgroup.org), Sandia National Laboratory, and Oak Ridge National Laboratory, as well as in tutorials that the PSIP team has presented. Feedback from users has been positive, pointing to its ease of use and the clear benefits of having a focal point for multiple team members to quickly provide their perspective when collecting input on how to improve project practices.
+[RateYourProject.org](https://rateyourproject.org) has been used to self assess project practices by a number of groups, including [The HDF Group](https://www.hdfgroup.org), Sandia National Laboratories, and Oak Ridge National Laboratory, as well as in tutorials that the PSIP team has presented. Feedback from users has been positive, pointing to its ease of use and the clear benefits of having a focal point for multiple team members to quickly provide their perspective when collecting input on how to improve project practices.
 
 The PSIP team is working on a variety of improvements and enhancements to the tool. These include helping teams create progress tracking cards once they have identified practice areas for improvment, and then adding these cards to the existing task tracking systems used by the teams. We're also looking at how the tool could be integrated directly with version control hosting services such as GitHub and GitLab, more detailed assessments, and alternate presentation styles. Additional information about the tool and other PSIP related information can be found on the [PSIP web page](https://bssw.io/psip) or using the [PSIP Practice Guides](https://github.com/bssw-psip/practice-guides).
 
@@ -75,7 +75,7 @@ Heroux, M.A. et al. (2020) Lightweight Software Process Improvement Using Produc
 
 ### Author bio
 
-Gregory Watson is Group Leader of the Application Engineering Group at Oak Ridge National Laboratory. He completed his Ph.D. in Computer Science in 2000 from Monash University. Dr. Watson's research interests include software engineering practices, development environments, programming tools, and modeling and simulation tools for high performance and scientific computing. He is founder of the Eclipse Parallel Tools Platform, and project leader of the Eclipse Science Top Level Project.
+Gregory Watson is Group Leader of the Application Engineering Group at Oak Ridge National Laboratory. He completed his Ph.D. in Computer Science in 2000 from Monash University. Greg's research interests include software engineering practices, development environments, programming tools, and modeling and simulation tools for high performance and scientific computing. He is founder of the Eclipse Parallel Tools Platform, and project leader of the Eclipse Science Top Level Project.
 
 
 <!---
