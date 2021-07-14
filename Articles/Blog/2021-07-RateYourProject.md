@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/Blog_0721_PSIPhero.png' />
+ - <img src='../../images/Blog_0721_PSIPhero_b.png' />
  
 #### Contributed by [Gregory R. Watson](https://github.com/jarrah42)
 
@@ -19,7 +19,7 @@ has proved general enough for other non-technical types of practices as well, su
 
 <br>
 
-<img src='../../images/Blog_0721_PSIPb.png' class='page'>
+<img src='../../images/Blog_0721_PSIP_c.png' class='page'>
 
 <br>
 
@@ -47,7 +47,7 @@ practices.
 
 <br>
 
-<img src='../../images/Blog_0721_PSIPassessmentb.png' class='page'>
+<img src='../../images/Blog_0721_PSIP_assessment.png' class='page'>
 
 <br>
 
@@ -55,7 +55,7 @@ Once the overall assessment has been established, teams are able to examine the 
 
 <br>
 
-<img src='../../images/Blog_0721_PSIPscoresb.png' class='page'>
+<img src='../../images/Blog_0721_PSIP_scores.png' class='page'>
 
 <br>
 
