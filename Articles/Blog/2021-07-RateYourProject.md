@@ -6,7 +6,7 @@
  
 #### Contributed by [Gregory R. Watson](https://github.com/jarrah42)
 
-#### Publication date: July 14, 2021
+#### Publication date: July 15, 2021
 
 [RateYourProject.org](https://rateyourproject.org) is a tool designed to help teams begin the process of
 [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip), a new technique for improving team practices. It was developed by the PSIP
@@ -33,7 +33,7 @@ trying out the idea, and if the benefits of the activity are not immediately app
 
 <br>
 
-<img src='../../images/Blog_0721_PSIPeffort.png' class='page'>
+<img src='../../images/Blog_0721_PSIPeffort.png' class='page'>[Image courtesy of Scott Weigle, https://overexamined.life/how-overcome-procrastination/.]
 
 <br>
 
@@ -81,7 +81,8 @@ Gregory Watson is Group Leader of the Application Engineering Group at Oak Ridge
 
 
 <!---
-Publish: Preview
+Publish: yes
+RSS-update: 2021-07-15
 Categories: planning
 Topics: software engineering
 Tags: bssw-blog-article
