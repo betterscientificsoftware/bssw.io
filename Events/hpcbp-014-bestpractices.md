@@ -70,7 +70,7 @@ programming models.</p>
 
     
 
-#### Contributed by Charles R. Ferenbaugh
+#### Contributed by [Charles R. Ferenbaugh](https://github.com/cferenba)
 
 #### Publication date: January 17, 2018
 
