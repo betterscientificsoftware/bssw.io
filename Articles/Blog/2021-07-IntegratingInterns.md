@@ -48,3 +48,10 @@ Sandia National Laboratories is a multimission laboratory managed and operated b
 Dr. Jay Lofstead is a Principal Member of Technical Staff in the Scalable System Software department of the Center for Computing Research at Sandia National Laboratories in Albuquerque, NM. His work focuses on infrastructure to support all varieties of simulation, scientific, and engineering workflows with a strong emphasis on IO, middleware, storage, transactions, operating system features to support workflows, containers, software engineering and reproducibility. He is co-founder of the IO-500 storage list. He also works extensively to support various student mentoring and diversity programs at several venues each year including outreach to both high school and college students. Jay graduated with a BS, MS, and PhD in Computer Science from Georgia Institute of Technology and was a recipient of a 2013 R&D 100 award for his work on the ADIOS IO library.
 
 [1]  I.   Jimenez,   M.   Sevilla,   N.   Watkins,   C.   Maltzahn,   J.   Lofstead,K. Mohror, A. Arpaci-Dusseau, and R. Arpaci-Dusseau, “The pop-per  convention:  Making  reproducible  systems  evaluation  prac-tical,”  in2017 ieee international parallel and distributed processingsymposium workshops (ipdpsw).    IEEE, 2017, pp. 1561–1570.
+
+<!---
+Publish: preview
+Pinned: no
+Topics: Strategies for more effective teams
+RSS update: 2021-07-23
+--->
