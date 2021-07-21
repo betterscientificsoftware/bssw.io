@@ -2,6 +2,8 @@
 
 **Hero Image:**
 
+ - <img src='../../images/Blog_0721_PSIPhero_b.png' />[Kayla Tippins, Jarvis Christian College, presents the results of her research at the SIAM CSE19 Conference as part of the Broader Engagement Program led by Sustainable Horizons. More info:] [shinstitute.org (https://shinstitute.org/siam-cse19-be-program)][.] 
+
 #### Contributed by Jay Lofstead 
 
 #### Publication date: July 23, 2021
