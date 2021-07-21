@@ -93,7 +93,7 @@ currently involved in the Exascale Computing Project (ECP) as the
 Control Account Manager (CAM) for training and productivity.
 -->
 
-#### Contributed by Addi Thakur Malviya, Pat Quillen, [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson's GitHub Profile"), [Francesca Samsel](https://github.com/figs512 "Francesca Samsel's GitHub Profile"), Ashley Barker
+#### Contributed by Addi Thakur Malviya, Pat Quillen, [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson's GitHub Profile"), [Francesca Samsel](https://github.com/figs512 "Francesca Samsel's GitHub Profile"), [Ashley Barker](https://github.com/ashley08 "Ashley Barker GitHub Profile")
 
 <!---
 Publish: yes
