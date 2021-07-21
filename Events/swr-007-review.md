@@ -97,7 +97,7 @@ Control Account Manager (CAM) for training and productivity.</p>
 
     
 
-#### Contributed by Lori Diachin, [Thomas Evans](https://github.com/tmdelellis "Thomas Evans GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile"), and Ashley Barker
+#### Contributed by Lori Diachin, [Thomas Evans](https://github.com/tmdelellis "Thomas Evans GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile"), and [Ashley Barker](https://github.com/ashley08 "Ashley Barker Github Profile")
 
 <!---
 Publish: yes
