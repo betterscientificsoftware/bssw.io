@@ -13,4 +13,6 @@ Contributor overrides:
 "nniiicc", "Weber", "Nic Weber"
 "gonsie", "Gonsiorowski"
 "npch", "Chue"
+"-", "BSSw", "BSSw Community"
+"-", "BSSw", "BSSw Team"
 -->
