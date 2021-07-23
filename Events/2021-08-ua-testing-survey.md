@@ -30,7 +30,7 @@ This survey is different than the one we conducted in 2019. We would greatly app
 #### Publication date:  July 22, 2021 - August 31, 2021
 
 <!---
-Publish: preview
+Publish: yes
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
 Tags: survey
