@@ -14,5 +14,5 @@ Contributor overrides:
 "gonsie", "Gonsiorowski"
 "npch", "Chue"
 "-", "BSSw", "BSSw Community"
-"-", "BSSw", "BSSw Team"
+"-", "BSSw", "BSSw.io Team"
 -->
