@@ -1,4 +1,4 @@
-# Testing Research Software Survey
+# Survey on Testing Research Software
 
 - Date: July 22, 2021 - August 31, 2021
 - Location: Global
