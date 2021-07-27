@@ -17,7 +17,7 @@ The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and 
 
 BSSw Fellow Nasir Eisty developed a hands-on tutorial entitled “Automatic Testing in Scientific Software”. The tutorial contains background information on challenges, barriers, potential solutions, and unsolved problems faced while testing scientific software, along with hands-on exercises. This tutorial brings valuable practices to the scientific software community to help developers produce correct and reliable software.  Learn more at:
 
-* HPC Best Practices Webinar: Testing and Code Review Practices in Research Software Development <!-- Link not currently working -->
+* [HPC Best Practices Webinar: Testing and Code Review Practices in Research Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar044)
 * [Testing Non-Deterministic Research Software](https://bssw.io/blog_posts/testing-non-deterministic-research-software)
 * [Use of Software Metrics in Research Software](https://bssw.io/blog_posts/use-of-software-metrics-in-research-software)
 * [Automatic Testing for Scientific Software Development, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship](https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426)
@@ -37,8 +37,8 @@ __________________________________________________________________
 
 BSSw Fellow Damian Rouson developed and taught agile scientific software development tutorials in settings that reach underrepresented groups. The only prerequisites were familiarity with a Linux shell and a text editor. A related, novel aspect of the tutorials are the integration of a professional development activity using agile practices. Learn more at:
 
-* [Increasing Productivity by Broadening Participation in Scientific Software Communities](https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities(
-* Remote Work Panel Series: How Does Remote Work Impact Creativity and Innovation? <!-- Link not currently working -->
+* [Increasing Productivity by Broadening Participation in Scientific Software Communities](https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities)
+* [Remote Work Panel Series: How Does Remote Work Impact Creativity and Innovation?](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008)
 * [Introducing Agile Software Development to Underrepresented Groups, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship](https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426)
 
 <!-- Photo to go here -->
@@ -57,7 +57,7 @@ __________________________________________________________________
 
 BSSw Fellow Cindy Rubio-Gonzalez organized events and developed educational materials on the correctness of numerical software and improving performance through effective use of mixed floating-point precision. Her materials include the use and evaluation of program-analysis techniques to improve the reliability and performance of numerical software.  Learn more at:
 
-* HPC Best Practices Webinar: Scalable Precision Tuning of Numerical Software <!-- Link not currently working -->
+* [HPC Best Practices Webinar: Scalable Precision Tuning of Numerical Software](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar045) 
 * [Improving the Reliability and Performance of Numerical Software, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship](https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426)
 
 <!-- Photo to go here -->
