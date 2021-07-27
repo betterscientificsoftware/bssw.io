@@ -1,4 +1,4 @@
-#2020 BSSw Fellows: Projects and Perspectives
+# 2020 BSSw Fellows: Projects and Perspectives
 
 **Hero Image:**
 <img src="../../images/Blog_0721_Zoom_crop.png">
