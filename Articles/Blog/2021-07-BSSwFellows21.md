@@ -22,7 +22,11 @@ BSSw Fellow Nasir Eisty developed a hands-on tutorial entitled “Automatic Test
 * [Use of Software Metrics in Research Software](https://bssw.io/blog_posts/use-of-software-metrics-in-research-software)
 * [Automatic Testing for Scientific Software Development, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship](https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426)
 
-<!-- Photo to go here --> 
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/People_2020Blue_NasirEisty.png' class='logo' />
+</div> 
+  
 [Nasir](https://www.boisestate.edu/coen-cs/people/faculty/) is an Assistant Professor in the Computer Science Department at Boise State University. He was a BSSw Fellow while a graduate student in the Software Engineering research lab in the Department of Computer Science at the University of Alabama under the supervision of Dr. Jeffery Carver. His research focuses on the development of software engineering techniques and tools to improve the quality and maintainability of research software
 
 #### *Perspectives on the BSSw Fellowship Program:*
@@ -41,7 +45,11 @@ BSSw Fellow Damian Rouson developed and taught agile scientific software develop
 * [Remote Work Panel Series: How Does Remote Work Impact Creativity and Innovation?](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008)
 * [Introducing Agile Software Development to Underrepresented Groups, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship](https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426)
 
-<!-- Photo to go here -->
+<div class='fellow'>
+<div class='img_div'>
+<img src='../../images/People_2020Blue_DamianRouson.png' class='logo' />
+</div>    
+  
 [Damian](https://crd.lbl.gov/departments/computer-science/class/members/group-lead/damian-rouson/) is the group leader of the Computational Research Division’s (CRD) Computer Languages & Systems Software group at Berkeley Lab.  His fellowship work was conducted when he was a research engineer and member of the Advisory Board of [Sustainable Horizons Institute](https://shinstitute.org/). He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the [Sourcery Institute](http://www.sourceryinstitute.org/).
 
 
@@ -60,7 +68,11 @@ BSSw Fellow Cindy Rubio-Gonzalez organized events and developed educational mate
 * [HPC Best Practices Webinar: Scalable Precision Tuning of Numerical Software](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar045) 
 * [Improving the Reliability and Performance of Numerical Software, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship](https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426)
 
-<!-- Photo to go here -->
+<div class='fellow'>
+<div class='img_div'>
+<img src='../../images/People_2020Blue_CindyRubioGonz.png' class='logo' />
+</div>    
+  
 [Cindy](https://web.cs.ucdavis.edu/~rubio/) is an Associate Professor of Computer Science at the University of California, Davis. Her research spans the areas of Programming Languages, Software Engineering and High-Performance Computing, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of a DOE Early Career Award 2019 and an NSF CAREER Award 2018.
 
 #### *Perspectives on the BSSw Fellowship Program:*
