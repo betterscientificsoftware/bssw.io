@@ -11,6 +11,8 @@
 
 BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.
 
+Despite the challenges created by the COVID-19 pandemic that created obstacles toward traditional scientific interactions, our BSSw Fellows were able to rethink and be flexible on how to impact the community with their great energy and contributions.
+
 The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle. Here's more about what they have been up to.
 
 ### Advance practices for effective software testing, an essential activity to build error-free and trustworthy software.
@@ -81,6 +83,16 @@ One of my goals is to develop program-analysis and testing tools to improve the 
 #### *Advice for new (prospective) BSSw Fellows:*
 One of the strengths of the BSSw Fellowship Program is providing the opportunity to strengthen your professional network. Unfortunately, because of the pandemic, there were not as many opportunities to meet in person and make visits this past year. However, I strongly recommend future BSSw Fellows to make as many connections and connect in person, if possible!
 
+  __________________________________________________________________
+
+### Learn more about the BSSw Fellowship program
+  
+BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship). We will begin accepting applications for 2022 BSSw Fellowships during mid-August 2021. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
+  
+### Author bio
+  
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpc.org/) since 2015. 
+  
 <!---
 Publish: preview
 Pinned: no
