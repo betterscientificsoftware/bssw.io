@@ -6,7 +6,7 @@
 
 #### Contributed by Jay Lofstead 
 
-#### Publication date: July 23, 2021
+#### Publication date: August 4, 2021
 
 It is an oft spoken rule that students are the backbone of research efforts. Much of the work students do is tied to extensive development and testing, which is critical for projects to make effective progress. By using some proven techniques to find and motivate students, then incorporate them into the team, the impacts they bring can become supercharged.
 
@@ -56,5 +56,5 @@ Jay Lofstead is a Principal Member of Technical Staff in the Scalable System Sof
 Publish: preview
 Pinned: no
 Topics: Strategies for more effective teams
-RSS update: 2021-07-23
+RSS update: 2021-08-04
 --->
