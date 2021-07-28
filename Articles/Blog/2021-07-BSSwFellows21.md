@@ -32,7 +32,7 @@ BSSw Fellow Nasir Eisty developed a hands-on tutorial entitled “Automatic Test
 </div> 
  
 <div class='short_bio'>
-[Nasir](https://www.boisestate.edu/coen-cs/people/faculty/) is an Assistant Professor in the Computer Science Department at Boise State University. He was a BSSw Fellow while a graduate student in the Software Engineering research lab in the Department of Computer Science at the University of Alabama under the supervision of Dr. Jeffery Carver. His research focuses on the development of software engineering techniques and tools to improve the quality and maintainability of research software.
+<p><a href="https://www.boisestate.edu/coen-cs/people/faculty/">Nasir</a> is an Assistant Professor in the Computer Science Department at Boise State University. He was a BSSw Fellow while a graduate student in the Software Engineering research lab in the Department of Computer Science at the University of Alabama under the supervision of Dr. Jeffery Carver. His research focuses on the development of software engineering techniques and tools to improve the quality and maintainability of research software.</p>
 </div>  
 </div>
 
@@ -49,26 +49,30 @@ BSSw Fellow Damian Rouson developed and taught agile scientific software develop
 <a href="https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008" class="link-row"> Remote Work Panel Series: How Does Remote Work Impact Creativity and Innovation?</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row"> Introducing Agile Software Development to Underrepresented Groups, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>
 
+<br>
+
 <div class='fellow'>
 <div class='img_div'>
 <img src='../../images/People_2020Blue_DamianRouson.png' class='logo' />
 </div>    
   
 <div class='short_bio'>
-[Damian](https://crd.lbl.gov/departments/computer-science/class/members/group-lead/damian-rouson/) is the group leader of the Computational Research Division’s (CRD) Computer Languages & Systems Software group at Berkeley Lab.  His fellowship work was conducted when he was a research engineer and member of the Advisory Board of [Sustainable Horizons Institute](https://shinstitute.org/). He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the [Sourcery Institute](http://www.sourceryinstitute.org/).
+<a href="https://crd.lbl.gov/departments/computer-science/class/members/group-lead/damian-rouson/">Damian</a> is the group leader of the Computational Research Division’s (CRD) Computer Languages & Systems Software group at Berkeley Lab.  His fellowship work was conducted when he was a research engineer and member of the Advisory Board of [Sustainable Horizons Institute](https://shinstitute.org/). He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the <a href="http://www.sourceryinstitute.org/">Sourcery Institute</a>.
 </div>  
 </div>
 
-_Perspectives on the BSSw Fellowship Program:_ The BSSw Fellowship provided the opportunity for me to expand my thinking about teaching software engineering in a way that reaches a much broader audience.  My teaching activities in the decade prior to the fellowship focused almost exclusively on teaching software engineering in modern Fortran, a language that remains widely used in high-performance computing in fields that embraced computing early. Through the fellowship, I developed strategies for teaching agile software development without the software development: my collaborators Dr. Mary Ann Leung and Brad Richardson substituted Markdown/LaTeX document generation for software development.  This enabled us to attract participants across computational science and engineering disciplines without requiring a background in any specific programming language.  As one aim of the fellowship, we taught courses in settings with a large representation of people from otherwise underrepresented demographics in computational science and engineering.  Coming full circle, the fellowship also benefited my primary audience: Brad and I have now used the materials developed under the fellowship in a course taught for computational scientists and engineers who use modern Fortran.  As a fortunate follow-on to this work, [Mary Ann](https://bssw.io/fellows/mary-ann-leung) has now won a BSSw fellowship for the current year.
+_Perspectives on the BSSw Fellowship Program:_ The BSSw Fellowship provided the opportunity for me to expand my thinking about teaching software engineering in a way that reaches a much broader audience.  My teaching activities in the decade prior to the fellowship focused almost exclusively on teaching software engineering in modern Fortran, a language that remains widely used in high-performance computing in fields that embraced computing early. Through the fellowship, I developed strategies for teaching agile software development without the software development: my collaborators Dr. Mary Ann Leung and Brad Richardson substituted Markdown/LaTeX document generation for software development.  This enabled us to attract participants across computational science and engineering disciplines without requiring a background in any specific programming language.  As one aim of the fellowship, we taught courses in settings with a large representation of people from otherwise underrepresented demographics in computational science and engineering.  Coming full circle, the fellowship also benefited my primary audience: Brad and I have now used the materials developed under the fellowship in a course taught for computational scientists and engineers who use modern Fortran. As a fortunate follow-on to this work, [Mary Ann](https://bssw.io/fellows/mary-ann-leung) has now won a BSSw fellowship for the current year.
 
 _Advice for new (prospective) BSSw Fellows:_ I encourage you to see the fellowship as an exciting opportunity to move in a new direction.  Try something that stretches your wings and brings you into new territory that might be difficult to explore under other funding.  Also, look for ways to collaborate with people who are new to your network and engage audiences that might traditionally have less access to the cutting-edge work you’re proposing.
   
 ### Improve the correctness of numerical software and the effective use of mixed floating-point precision for better performance.
 
-BSSw Fellow Cindy Rubio-Gonzalez organized events and developed educational materials on the correctness of numerical software and improving performance through effective use of mixed floating-point precision. Her materials include the use and evaluation of program-analysis techniques to improve the reliability and performance of numerical software.  Learn more at:
+BSSw Fellow Cindy Rubio-Gonzalez organized events and developed educational materials on the correctness of numerical software and improving performance through effective use of mixed floating-point precision. Her materials include the use and evaluation of program-analysis techniques to improve the reliability and performance of numerical software. Learn more at:
 
 <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar045" class="link-row"> HPC Best Practices Webinar: Scalable Precision Tuning of Numerical Software</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row"> Improving the Reliability and Performance of Numerical Software, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>
+
+<br>
 
 <div class='fellow'>
 <div class='img_div'>
@@ -76,7 +80,7 @@ BSSw Fellow Cindy Rubio-Gonzalez organized events and developed educational mate
 </div> 
   
 <div class='short_bio'>
-[Cindy](https://web.cs.ucdavis.edu/~rubio/) is an Associate Professor of Computer Science at the University of California, Davis. Her research spans the areas of Programming Languages, Software Engineering and High-Performance Computing, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of a DOE Early Career Award 2019 and an NSF CAREER Award 2018.
+<a href"https://web.cs.ucdavis.edu/~rubio/">Cindy</a> is an Associate Professor of Computer Science at the University of California, Davis. Her research spans the areas of Programming Languages, Software Engineering and High-Performance Computing, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of a DOE Early Career Award 2019 and an NSF CAREER Award 2018.
 </div>  
 </div>
 
