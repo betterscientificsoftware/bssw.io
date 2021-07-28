@@ -57,7 +57,7 @@ BSSw Fellow Damian Rouson developed and taught agile scientific software develop
 </div>    
   
 <div class='short_bio'>
-<a href="https://crd.lbl.gov/departments/computer-science/class/members/group-lead/damian-rouson/">Damian</a> is the group leader of the Computational Research Division’s (CRD) Computer Languages & Systems Software group at Berkeley Lab.  His fellowship work was conducted when he was a research engineer and member of the Advisory Board of [Sustainable Horizons Institute](https://shinstitute.org/). He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the <a href="http://www.sourceryinstitute.org/">Sourcery Institute</a>.
+<p><a href="https://crd.lbl.gov/departments/computer-science/class/members/group-lead/damian-rouson/">Damian</a> is the group leader of the Computational Research Division’s (CRD) Computer Languages & Systems Software group at Berkeley Lab.  His fellowship work was conducted when he was a research engineer and member of the Advisory Board of <a href="https://shinstitute.org/">Sustainable Horizons Institute</a>. He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the <a href="http://www.sourceryinstitute.org/">Sourcery Institute</a>.<p>
 </div>  
 </div>
 
@@ -80,7 +80,7 @@ BSSw Fellow Cindy Rubio-Gonzalez organized events and developed educational mate
 </div> 
   
 <div class='short_bio'>
-<a href"https://web.cs.ucdavis.edu/~rubio/">Cindy</a> is an Associate Professor of Computer Science at the University of California, Davis. Her research spans the areas of Programming Languages, Software Engineering and High-Performance Computing, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of a DOE Early Career Award 2019 and an NSF CAREER Award 2018.
+<p><a href"https://web.cs.ucdavis.edu/~rubio/">Cindy</a> is an Associate Professor of Computer Science at the University of California, Davis. Her research spans the areas of Programming Languages, Software Engineering and High-Performance Computing, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of a DOE Early Career Award 2019 and an NSF CAREER Award 2018.</p>
 </div>  
 </div>
 
