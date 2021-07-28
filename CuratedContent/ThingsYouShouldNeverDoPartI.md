@@ -1,0 +1,45 @@
+# Things You Should Never Do, Part I
+
+<!--deck text start-->
+Starting from scratch is often a very enticing way to shed the warts of an old code base.
+But the realities of trying to do this in practice while still having to support the old code base and existing customers often ends in disaster.
+There is usually a better way, an often path less taken, especially in the computational science and engineering community.
+<!--deck text end-->
+
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+
+#### Publication date: July ???, 2021
+
+Resource information | Details
+:--- | :---
+Blog Article Title | [Things You Should Never Do, Part I ](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)
+Authors | Joel Spolsky
+Publication | April 6, 2000
+
+The article "Things You Should Never Do, Part I" was published on Joel Spolsky's blog "Joel on Software"<sup>[1]</sup> way back in April of 2000 (which might seem like an eternity ago in the software industry).
+In this article, Joel argues that the disastrous decision by Netscape to rewrite their browser from scratch from version 4.0 to 6.0 lead to a delay of 3 years between releases and arguably lead to the downfall of Netscape as the browser market share got gobbled up by competitors.
+(And a later analysis of the situation supported this as a major contributing factor to Netscape's downfall.<sup>[2]</sup>)
+Joel also recounts other disastrous examples from Borland and Microsoft of companies making the same mistakes with other products and a case where Microsoft abandoned a green-field project and was saved by their old code base that they were able revive and ship (MS Word in that case).
+
+There are many reasons that these "green-field" projects usually do not go well and include: a) the developers writing the new code do not really understand all of the requirements that went into the legacy software and how important the "corner cases" actually are, b) the same team writing the new code has to also maintain the old code which slows down both efforts, c) the development team is not really any more skilled that the initial team and the new code eventually turns out to be just as much (or more) of a mess than the legacy code it is replacing.
+
+The blog "Joel on Software" was a very popular blog at the time and the publication of this article had a significant impact on the software engineering community when it first came out.<sup>[2]</sup>
+What is interesting about this is that even with this and other articles of disastrous "green-field" projects, with all of the work that has been done on refactoring<sup>[3]</sup> and specifically on refactoring of legacy code<sup>[4]</sup>, many organizations and projects are still constantly making the costly mistake of starting from scratch over and over again.
+This includes many Computational Science & Engineering (CSE) projects.
+And the goal may not be to just maintain the existing software but to replace it but it is usually better to replace it **incrementally** on piece and subsystem at a time.<sup>[5]</sup>
+But, of course, there are cases where rewriting software from scratch may make more sense<sup>[2]</sup> so a team should consider those factors as well before deciding if to start from scratch or refactor the existing product. 
+
+So, before a team or an organization decides to "cut their losses" and start over from scratch with a green-field project, they may well take some time to consider the arguments that Joel made years ago in this article and are made by numerous other experts in the software engineering community over the years<sup>[2],[3],[4],[5]</sup> and consider if an incremental refactoring/rewriting of the existing code base might be a more successful strategy.
+
+<!---
+Publish: preview
+Pinned: no
+Topics: Software engineering, Requirements, Release and deployment, Refactoring
+RSS update: 2021-???-???
+--->
+
+[1]: https://www.joelonsoftware.com "Joel on Software (Blog)"
+[2]: https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22 "Lessons from 6 software rewrite stories" {Herb Caudill, February 19, 2019}
+[3]: https://en.wikipedia.org/wiki/Code_refactoring "Code refactoring" {Wikipedia}
+[4]: https://bssw.io/items/working-effectively-with-legacy-code "Working Effectively with Legacy Code"
+[5]: https://martinfowler.com/bliki/StranglerFigApplication.html "Strangler Fig Application" {Martin Fowler, June 29, 2004}
