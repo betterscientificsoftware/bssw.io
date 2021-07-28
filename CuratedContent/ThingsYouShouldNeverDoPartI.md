@@ -2,8 +2,8 @@
 
 <!--deck text start-->
 Starting from scratch is often a very enticing way to shed the warts of an old code base.
-But the realities of trying to do this in practice while still having to support the old code base and existing customers often ends in disaster.
-There is usually a better way, an often path less taken, especially in the computational science and engineering community.
+But the realities of trying to do this in practice while still having to support the old code base and existing customers often end in disaster.
+There is usually a better way, often a path less taken, especially in the computational science and engineering community.
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
@@ -17,20 +17,21 @@ Authors | Joel Spolsky
 Publication | April 6, 2000
 
 The article "Things You Should Never Do, Part I" was published on Joel Spolsky's blog "Joel on Software"<sup>[1]</sup> way back in April of 2000 (which might seem like an eternity ago in the software industry).
-In this article, Joel argues that the disastrous decision by Netscape to rewrite their browser from scratch from version 4.0 to 6.0 lead to a delay of 3 years between releases and arguably lead to the downfall of Netscape as the browser market share got gobbled up by competitors.
+In this article, Joel argues that the disastrous decision by Netscape to rewrite their browser from scratch from version 4.0 to 6.0 led to a delay of 3 years between releases and arguably led to the downfall of Netscape as the browser market share got gobbled up by competitors.
 (And a later analysis of the situation supported this as a major contributing factor to Netscape's downfall.<sup>[2]</sup>)
 Joel also recounts other disastrous examples from Borland and Microsoft of companies making the same mistakes with other products and a case where Microsoft abandoned a green-field project and was saved by their old code base that they were able revive and ship (MS Word in that case).
 
-There are many reasons that these "green-field" projects usually do not go well and include: a) the developers writing the new code do not really understand all of the requirements that went into the legacy software and how important the "corner cases" actually are, b) the same team writing the new code has to also maintain the old code which slows down both efforts, and c) the development team is not really any more skilled than the initial team and the new code eventually turns out to be just as much of a mess than the legacy code it is replacing.
+There are many reasons that these "green-field" projects usually do not go well which include: a) the developers writing the new code do not really understand all of the requirements that went into the legacy software and how important the "corner cases" actually are, b) the same team writing the new code has to also maintain the old code which slows down both efforts, and c) the development team is not really any more skilled than the initial team and the new code eventually turns out to be just as much of a mess as the legacy code it is replacing.
 
 The blog "Joel on Software" was a very popular blog at the time and the publication of this article had a significant impact on the software engineering community when it first came out.<sup>[2]</sup>
-What is interesting about this is that even with article that was published over 20 years ago and with other articles about disastrous "green-field" projects, and with all of the work that has been done on refactoring<sup>[3]</sup> and specifically on refactoring of legacy software<sup>[4]</sup>, many organizations and projects are still constantly making the costly mistake of starting from scratch over and over again.
+What is interesting about this is that even this article that was published over 20 years ago and with other articles about disastrous "green-field" projects, and with all of the work that has been done on refactoring<sup>[3]</sup> and specifically on refactoring of legacy software<sup>[4]</sup>, many organizations and projects are still constantly making the costly mistake of starting from scratch over and over again.
 This includes many Computational Science & Engineering (CSE) projects.
-Note that the goal may not be to just maintain the existing software and instead the goal is to replace it but it is usually better to replace it **incrementally** one piece and one subsystem at a time.<sup>[5]</sup>
+Note that the goal may not be to just maintain the existing software but instead to replace it.
+However, it is usually better to replace it **incrementally** one piece and one subsystem at a time.<sup>[5]</sup>
 This typically massively reduces risks and uncertainty and improves return on investment. 
-But, of course, there are cases where rewriting software from scratch may be a better choice<sup>[2]</sup> so a team should consider those factors as well before deciding if to start from scratch or refactor the existing product (but most CSE teams seem to choose a rewrite-from-scratch when an incremental refactor/rewrite would have been a better choice). 
+But, of course, there are cases where rewriting software from scratch may be a better choice.<sup>[2]</sup>, so a team should consider those factors as well before deciding to start from scratch or refactor the existing product (but most CSE teams seem to choose a rewrite-from-scratch when an incremental refactor/rewrite would have been a better choice). 
 
-So, before a CSE team or an organization decides to "cut their losses" and start over from scratch with a green-field project, they may well take some time to consider the arguments that Joel made years ago in this article and are made by numerous other experts in the software engineering community over the years<sup>[2],[3],[4],[5]</sup> and consider if an incremental refactoring/rewriting of the existing code base might be a more successful strategy.
+In conclusion, before a CSE team or an organization decides to "cut their losses" and start over from scratch with a green-field project, they may well take some time to consider the arguments that Joel made years ago in this article and which are made by numerous other experts in the software engineering community over the years<sup>[2],[3],[4],[5]</sup> and consider if an incremental refactoring/rewriting of the existing code base might be a more successful strategy.
 
 <!---
 Publish: preview
