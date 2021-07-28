@@ -3,7 +3,7 @@
 Read about the 2020 BSSw Fellows and their contributions to the BSSw community!
 
 <img src='../../images/Blog_0721_Zoom_crop.png'>
-<img src='../../images/Blog_0721_InitialSlide_zoom.png' class='page'>
+<img src='../../images/Blog_0721_InitialSlide.png'>
 
 *The 2020 BSSw Fellows at the 2021 ‘Virtual’ Exascale Computing Project Annual Meeting talking about their fellowship projects to make scientific software better.*
 
