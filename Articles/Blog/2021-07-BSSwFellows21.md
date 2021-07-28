@@ -13,7 +13,7 @@ BSSw Fellowships provide resources and community support to those who foster and
 
 Despite the challenges created by the COVID-19 pandemic that created obstacles toward traditional scientific interactions, our BSSw Fellows were able to rethink and be flexible on how to impact the community with their great energy and contributions.
 
-The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle. As shown above, they spoke about this work during the 2021 'Virtual' Annual Meeting of the Exascale Computing Project. Here's more about what they have been up to.
+The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle. As shown above, they spoke about this work during the 2021 'Virtual' Annual Meeting of the [Exascale Computing Project](https://www.exascaleproject.org/). Here's more about what they have been up to.
 
 ### Advance practices for effective software testing, an essential activity to build error-free and trustworthy software.
 
