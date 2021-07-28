@@ -3,7 +3,7 @@
 Read about the 2020 BSSw Fellows and their contributions to the BSSw community!
 
 <img src='../../images/Blog_0721_Zoom_crop.png'>
-[The 2020 BSSw Fellows at the 2021 ‘Virtual’ Exascale Computing Project Annual Meeting talking about their fellowship projects to make scientific software better.]<img src='../../images/Blog_0721_InitialSlide.png'>
+<img src='../../images/Blog_0721_InitialSlide.png'>
 
 #### Contributed by: [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson GitHub Profile"), [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile"), [Cindy Rubio-Gonzalez](https://github.com/crubiog "Cindy Rubio-Gonzalez GitHub Profile")
 
@@ -13,7 +13,7 @@ BSSw Fellowships provide resources and community support to those who foster and
 
 Despite the challenges created by the COVID-19 pandemic that created obstacles toward traditional scientific interactions, our BSSw Fellows were able to rethink and be flexible on how to impact the community with their great energy and contributions.
 
-The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle. Here's more about what they have been up to.
+The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle. As shown above, they spoke about this work during the 2021 'Virtual' Annual Meeting of the Exascale Computing Project. Here's more about what they have been up to.
 
 ### Advance practices for effective software testing, an essential activity to build error-free and trustworthy software.
 
