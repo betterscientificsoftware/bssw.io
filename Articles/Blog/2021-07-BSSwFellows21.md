@@ -3,8 +3,9 @@
 Read about the 2020 BSSw Fellows and their contributions to the BSSw community!
 
 <img src='../../images/Blog_0721_Zoom_crop.png' class='page'>
-[2020 BSSw Fellows at the 2021 ‘Virtual’ Exascale Computing Project Annual Meeting talking about their fellowship projects to make scientific software better.
-]<img src='../../images/Blog_0721_InitialSlide_zoom.png' class='page'>
+<img src='../../images/Blog_0721_InitialSlide_zoom.png' class='page'>
+
+*The 2020 BSSw Fellows at the 2021 ‘Virtual’ Exascale Computing Project Annual Meeting talking about their fellowship projects to make scientific software better.*
 
 #### Contributed by: [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson GitHub Profile"), [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile"), [Cindy Rubio-Gonzalez](https://github.com/crubiog "Cindy Rubio-Gonzalez GitHub Profile")
 
