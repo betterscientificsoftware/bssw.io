@@ -149,6 +149,12 @@ wikize_refs_diff_test(wikize_refs_linkdef_databases
   ARGS -w -l ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_database.md
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_source-wikized.md )
 
+wikize_refs_diff_test(wikize_refs_linkdef_databases_pure
+  INPUT_FILE ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_source_pure.md
+  OUTPUT_FILE test_linkdef_dbs_source_pure-wikized.md
+  ARGS -w -l ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_database_pure.md
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_linkdef_dbs_source-wikized.md )
+
 wikize_refs_diff_test(wikize_refs_two_column
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_two_column.md
   OUTPUT_FILE test_two_column-generated.md
