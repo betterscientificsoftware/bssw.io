@@ -58,7 +58,9 @@ Topics: Software process improvement, Software engineering, Requirements, Issue 
 [2]: #sfer-ezikiw-2 "Extreme Programming Explained: Embrace Change (2nd Edition)"
 [3]: #sfer-ezikiw-3 "Implementing Lean Software Development: From Concept to Cash"
 [4]: #sfer-ezikiw-4 "Consortium For Advanced Simulation Of Light Water Reactors (CASL)"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Agile Software Development with Scrum<br>Schwaber, Ken and Mike Beedle. Prentice Hall, 2002](https://dl.acm.org/doi/10.5555/559553)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Extreme Programming Explained: Embrace Change (2nd Edition)<br>Beck, Kent. Addison Wesley, 2004](https://dl.acm.org/doi/10.5555/1076267)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Implementing Lean Software Development: From Concept to Cash<br>Poppendieck, Mary and Tom. Addison Wesley, 2006](https://www.oreilly.com/library/view/implementing-lean-software/0321437381/)

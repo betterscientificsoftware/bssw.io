@@ -100,7 +100,7 @@ and systems engineer at the Paranal Observatory in the Atacama desert.
 
 <br>
 
-[1]: #ref1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
+[1-sfer-ezikiw]: #ref1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
 
 References | &nbsp;
 :--- | :---
@@ -117,3 +117,9 @@ Prerequisites: default
 Aggregate: none
 --->
 
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Experience report: Refactoring the mesh interface in FLASH, a multiphysics software](#ref1)

@@ -329,7 +329,9 @@ Aggregate: none
 [25]: #sfer-ezikiw-25 "Apollo Guidance Computer"
 [26]: #sfer-ezikiw-26 "Surveyor III"
 [27]: #sfer-ezikiw-27 "Russian Argon-11C Guidance Computer"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[AGC Blog Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[AGC Blog Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Presentation by Dave Scott about the AGC](https://youtu.be/hCywOf0Czgg?t=1841)
