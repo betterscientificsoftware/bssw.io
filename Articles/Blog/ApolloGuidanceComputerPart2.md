@@ -395,7 +395,9 @@ Aggregate: none
 [50]: #sfer-ezikiw-50 "MIT Algebraic Compiler (MAC) Language"
 [51]: #sfer-ezikiw-51 "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software"
 [52]: #sfer-ezikiw-52 "MIT and navigating a path to the moon"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Earth's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravity_of_Earth)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Moon's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravitation_of_the_Moon)

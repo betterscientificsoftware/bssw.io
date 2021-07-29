@@ -1,4 +1,9 @@
-# Wikipedia-Like Citations and References In GitHub Markdown
+---
+title: Wikipedia-Like Citations and References In GitHub Markdown
+sidebar: bssw_sidebar
+permalink: bssw_wikize_refs.html
+toc: false
+---
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 

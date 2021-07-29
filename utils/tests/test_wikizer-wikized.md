@@ -53,7 +53,9 @@ Publish: No
 [abc]: #sfer-ezikiw-abc "Info about Mariner 1"
 [26]: #sfer-ezikiw-26 "The SAF Data Model"
 [PSIP]: #sfer-ezikiw-PSIP "PSIP with HDF5"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-26"></a><sup>26</sup>[The SAF Data Model](https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf)
 * <a name="sfer-ezikiw-PSIP"></a><sup>PSIP</sup>[PSIP with HDF5](https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5)
 * <a name="sfer-ezikiw-abc"></a><sup>abc</sup>[Info about Mariner 1](https://en.wikipedia.org/wiki/Mariner_1)
