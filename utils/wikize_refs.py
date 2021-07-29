@@ -89,16 +89,27 @@ def parse_args():
                       action="store_true",
                       help="Warn instead of exit during (most) error checks.")
 
+    parser.add_argument("-i", "--in-place",
+                      default=False,
+                      action="store_true",
+                      help="Modify input file in-place (destructive).")
+
+    parser.add_argument("-o", "--outfile",
+                      default=None,
+                      help="Specify an output file name. If none specified, will \
+                            use <infile>-wikized.md or <infile>.md if -i option \
+                            is specified")
+
+    parser.add_argument("-s", "--skip-backup",
+                      default=False,
+                      action="store_true",
+                      help="Disable creation of backup file appended with ~")
+
     parser.add_argument("-c", "--check-links",
                       type=int, default=0,
                       help="Specify a timeout>0 in seconds for checking for broken links. \
                       Note: using this option does require network access to confirm URLs \
                       actually work.")
-
-    parser.add_argument("-i", "--in-place",
-                      default=False,
-                      action="store_true",
-                      help="Modify input file in-place (destructive).")
 
     parser.add_argument("-g", "--gather-linkdefs",
                       default=False,
@@ -113,20 +124,14 @@ def parse_args():
                             used linkdefs will be copied from that file to the file being \
                             processed here. Multiple -l options are allowed.")
 
+    parser.add_argument("-t", "--two-column",
+                      default=False,
+                      action="store_true",
+                      help="Output refs as two-column, pure-html instead of single column GFM.")
+
     parser.add_argument("-r", "--renumber",
                       type=int, default=0,
                       help="Renumber references starting from specified value > 0 (destructive).")
-
-    parser.add_argument("-s", "--skip-backup",
-                      default=False,
-                      action="store_true",
-                      help="Disable creation of backup file appended with ~")
-
-    parser.add_argument("-o", "--outfile",
-                      default=None,
-                      help="Specify an output file name. If none specified, will \
-                            use <infile>-wikized.md or <infile>.md if -i option \
-                            is specified")
 
     parser.add_argument("mdfile")
 
@@ -271,6 +276,7 @@ def gather_and_classify_file_lines(filename):
         lineno = 1
         in_xmlcomment = False
         in_frontmatter = False
+        in_wrblock = False # a wikize refs block
         for line in mdf.readlines():
             line_type = ""
             if not in_frontmatter and re.match("^---$", line) and lineno == 1:
@@ -279,6 +285,12 @@ def gather_and_classify_file_lines(filename):
             elif in_frontmatter and re.match("^---$", line):
                 line_type = "frontmatter"
                 in_frontmatter = False
+            elif not in_wrblock and re.match("^<!-- \(%s begin\) -->$"%magic(), line):
+                line_type = "wrblock"
+                in_wrblock = True
+            elif in_wrblock and re.match("^<!-- \(%s end\) -->$"%magic(), line):
+                line_type = "wrblock"
+                in_wrblock = False
             elif not in_xmlcomment and re.match("^\s*<!---?.*---?>\s*$", line):
                 line_type = "comment"
             elif not in_xmlcomment and re.match("^\S+<!---?.*---?>\s*$", line):
@@ -305,6 +317,8 @@ def gather_and_classify_file_lines(filename):
                     line_type = "frontmater"
                 elif in_xmlcomment:
                     line_type = "comment"
+                elif in_wrblock:
+                    line_type = "wrblock"
                 elif is_link_def_line(line):
                     line_type = "linkdef"
                 else:
@@ -312,6 +326,10 @@ def gather_and_classify_file_lines(filename):
 
             # Ignore general content lines that appear to be auto-generated
             if line_type == "content" and magic() in line:
+                continue
+
+            # Ignore wikize-ref blocks
+            if line_type == "wrblock":
                 continue
 
             # Ignore some special cases
@@ -554,12 +572,15 @@ def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
 
     return outlines
 
-def build_reference_list_lines(remapped_ref_map, renumber):
-    """Build (auto-gen'd) rendered list of references"""
+def build_reference_list_lines(remapped_ref_map, renumber, twocol):
+    """Build (auto-gen'd) rendered list of references as either a single
+       column, pure markdown list or two-column, html list (with divs)."""
     outlines = []
 
     if remapped_ref_map:
-        outlines.append("### References <!-- (%s) -->\n"%magic())
+        outlines.append("<!-- (%s begin) -->\n"%magic())
+        outlines.append("### References\n")
+        outlines.append("<!-- (%s end) -->\n"%magic())
         try: # Attempt to sort treating footnote labels as integers.
             if renumber:
                 sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[0]))
@@ -567,16 +588,40 @@ def build_reference_list_lines(remapped_ref_map, renumber):
                 sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
         except: # If sorting as ints fails, sort "normally".
             sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
+        i = 0
+        halfway = len(sorted_map) / 2
+        if twocol:
+            outlines.append('<div class="references-wrapper">\n')
+            outlines.append('<div class="references">\n')
         for k,v in sorted_map:
             v3 = k+renumber if renumber else v[3]
             if v[1] and v[2]: # both title and bibinfo exist
-                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
+                if twocol:
+                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s<br>%s</a>\n"%(v3, magic(), v3, v[0], v[1], v[2]))
+                else:
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
             elif v[1]: # only title exists
-                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
+                if twocol:
+                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[1]))
+                else:
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
             elif v[2]: # only bibinfo exists
-                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
+                if twocol:
+                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[2]))
+                else:
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
             else: # only url exists
-               outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
+                if twocol:
+                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[0]))
+                else:
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
+            if twocol and i == halfway:
+                outlines.append('</div>\n')
+                outlines.append('<div class="references">\n')
+            i += 1
+        if twocol:
+            outlines.append('</div>\n')
+            outlines.append('</div>\n')
 
     return outlines
 
@@ -639,7 +684,7 @@ def main(opts, mdfile):
     out_lines += build_intermediate_link_defn_lines(remapped_ref_map, opts['renumber'])
 
     # Build reference list lines
-    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'])
+    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'], opts['two_column'])
 
     # Ok, now actually write the updated file
     flines = [file_lines[k]['line'] for k in sorted(file_lines)]
@@ -654,6 +699,8 @@ if __name__ == '__main__':
 
     # Process command line options
     opts, mdfile = parse_args()
+
+    print(opts)
 
     # Initialize error mode
     errors_are_fatal(not opts['warn'])
