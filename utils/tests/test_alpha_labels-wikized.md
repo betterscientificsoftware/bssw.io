@@ -189,7 +189,9 @@ for large and/or automated refactorings.
 [e]: #sfer-ezikiw-e "CodeStriker Project Home Page"
 [f]: #sfer-ezikiw-f "Google's Billion Lines of Code Repository"
 [h]: #sfer-ezikiw-h "Hacker News commentary on Google's Billion Lines of Code Repository"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-15"></a><sup>15</sup>[The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
 * <a name="sfer-ezikiw-16"></a><sup>16</sup>[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure)
 * <a name="sfer-ezikiw-17"></a><sup>17</sup>[Git Integration Branch Workflow](https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch)
