@@ -17,7 +17,7 @@ BSSw Fellows receive recognition and funding to be advocates of high-quality sci
 - **August 16, 2021**: Fellowship application process opens.
 <!-- - **Wednesday, Sept 9, 4:00-5:00 PM EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 -->
-- **Thursday, Sept 30, 2020**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
+- **Thursday, Sept 30, 2021**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **December 2021**: Announcement of selection of 2022 BSSw Fellows.
 - **March 1, 2022 – August 31, 2023**: Period of performance for 2022 BSSw Fellows.
 - **May 2-5, 2022**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/).
