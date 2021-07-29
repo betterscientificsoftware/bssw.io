@@ -37,7 +37,7 @@ Applications will open on August 16, 2021 for the 2022 BSSw Fellowship Program. 
 
 ### More Information
 
-- Read about the [2021 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2021-bssw-fellows)
+- Read about the [2021 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2021-bssw-fellows) and new [NSF-sponsorship of 2021 BSSw Fellows](https://bssw.io/blog_posts/nsf-sponsored-2021-bssw-fellows)
 - Read about work of the [2020 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives)
 - Read about work of the [2019 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle)  
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq) ... Check back for updates; we will post additional Q&A here as these arise.
