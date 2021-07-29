@@ -113,7 +113,9 @@ Aggregate: none
 [1]: #sfer-ezikiw-1 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052"
 [2]: #sfer-ezikiw-2 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software"
 [3]: #sfer-ezikiw-3 "Roscoe A. Bartlett Software Engineering Reading List"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052](https://bssw.io/items/working-effectively-with-legacy-code/)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software](https://doi.org/10.1109/eScience.2012.6404448)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Roscoe A. Bartlett Software Engineering Reading List](https://bartlettroscoe.github.io/reading-list/)

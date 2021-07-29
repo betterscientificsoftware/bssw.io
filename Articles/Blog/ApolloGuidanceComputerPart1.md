@@ -263,7 +263,9 @@ Aggregate: none
 [34]: #sfer-ezikiw-34 "NASA archive on Computers in Spaceflight"
 [35]: #sfer-ezikiw-35 "The need for an on-board computer"
 [36]: #sfer-ezikiw-36 "Computer History Timeline"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Overview of Apollo 11 Mission](https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[List of Moon missions since 1958](https://en.wikipedia.org/wiki/Moon_landing)

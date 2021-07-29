@@ -292,7 +292,9 @@ Aggregate: none
 [35]: #sfer-ezikiw-35 "John Oliver discusses misinformation"
 [36]: #sfer-ezikiw-36 "Simple 2D simulations demonstrate value of social distancing"
 [37]: #sfer-ezikiw-37 "Kahn Academy lesson on estimating actual cases"
-### References <!-- (sfer-ezikiw) -->
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[CDC guidance on CV-19 transmission](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[WHO summary remarks of COVID-19](https://www.who.int/health-topics/coronavirus)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[NIH CV-229E surface study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/)
