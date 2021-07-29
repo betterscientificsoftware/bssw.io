@@ -700,8 +700,6 @@ if __name__ == '__main__':
     # Process command line options
     opts, mdfile = parse_args()
 
-    print(opts)
-
     # Initialize error mode
     errors_are_fatal(not opts['warn'])
 
