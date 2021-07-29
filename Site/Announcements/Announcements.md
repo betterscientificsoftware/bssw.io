@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [Applications for the 2022 BSSw Fellowship Program will open on August 16 ... See info about work of recent Fellows](../../Articles/Blog/2021-07-BSSwFellows21.md)
+- [Applications for the 2022 BSSw Fellowship Program will open on August 16 ... Read about the work of recent Fellows](../../Articles/Blog/2021-07-BSSwFellows21.md)
 - Display dates: 07/29/2021 - 8/17/2021
 
 <!--
