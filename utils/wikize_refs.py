@@ -45,8 +45,11 @@ yields an actual URL resource and not an error of some kind.
 If errors are fatal, processing will stop upon encountering a first
 error. Otherwise only warning messages are produced.
 
-Some of the options here are *destructive* in that the file is
-changed in ways not easy to reverse. Those are noted.
+Ordinarily, the input file is never changed. However, with the -i
+option, the changes are applied *in place* meaning the input file
+is indeed modified. In that cases, some of the options here are
+*irreversible* in that the file is changed in ways not easy to
+reverse. Those are noted.
 
 Repeated application of this tool to the same file should result
 in no changes.
@@ -68,7 +71,7 @@ To modify the input file in-place...
 
 ...prints command-line arguments and options.
 
-If no *destructive* options are used, the following sed pipe command
+If no *irreversible* options are used, the following sed pipe command
 should be able to take the wikized file and produce the original...
 
 cat <filename> | sed -e 's/^\[\(.*\)-sfer-ezikiw\]:/[\1]:/' | grep -v sfer-ezikiw
@@ -92,7 +95,7 @@ def parse_args():
     parser.add_argument("-i", "--in-place",
                       default=False,
                       action="store_true",
-                      help="Modify input file in-place (destructive).")
+                      help="Modify input file in-place (irreversible).")
 
     parser.add_argument("-o", "--outfile",
                       default=None,
@@ -114,7 +117,7 @@ def parse_args():
     parser.add_argument("-g", "--gather-linkdefs",
                       default=False,
                       action="store_true",
-                      help="Gather all link definitions to the end of the file (destructive).")
+                      help="Gather all link definitions to the end of the file (irreversible).")
 
     parser.add_argument("-l", "--linkdef-db",
                       type=str, default=None,
@@ -131,7 +134,7 @@ def parse_args():
 
     parser.add_argument("-r", "--renumber",
                       type=int, default=0,
-                      help="Renumber references starting from specified value > 0 (destructive).")
+                      help="Renumber references starting from specified value > 0 (irreversible).")
 
     parser.add_argument("mdfile")
 
