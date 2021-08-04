@@ -58,7 +58,7 @@ Sandia National Laboratories is a multimission laboratory managed and operated b
 -->
 
 <!--
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Strategies for more effective teams
 RSS update: 2021-08-04
