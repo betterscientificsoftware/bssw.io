@@ -5,16 +5,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: blog_posts/2020-bssw-fellows-projects-and-perspectives
-Slide1 R: images/raw/master/Blog_0720_Fellows.png
-Slide2 L: blog_posts/improving-team-practices-with-rateyourproject-org
-Slide2 R: images/raw/master/Blog_0721_PSIPhero_b.png
-Slide3 L: blog_posts/e4s-extreme-scale-scientific-software-stack
-Slide3 R: items/inclusive-naming-initiative
-Slide4 L: blog_posts/experiences-from-the-2021-bssw-io-community-bof
-Slide4 R: images/raw/master/Blog__0521_Icons.jpg
-Slide5 L: blog_posts/practices-for-productive-software-development-in-kokkos
-Slide5 R: blog_posts/encouraging-effective-retrospective-strategies-for-team-projects
+Slide1 L: blog_posts/effectively-integrating-interns-into-research-teams
+Slide1 R: images/raw/master/Blog_0821_Interns.png
+Slide2 L: blog_posts/2020-bssw-fellows-projects-and-perspectives
+Slide2 R: images/raw/master/Blog_0720_Fellows.png
+Slide3 L: blog_posts/improving-team-practices-with-rateyourproject-org
+Slide3 R: images/raw/master/Blog_0721_PSIPhero_b.png
+Slide4 L: blog_posts/e4s-extreme-scale-scientific-software-stack
+Slide4 R: items/inclusive-naming-initiative
+Slide5 L: blog_posts/experiences-from-the-2021-bssw-io-community-bof
+Slide5 R: images/raw/master/Blog__0521_Icons.jpg
 Slide6 L: items/debugging-books-to-help-you-get-started
 Slide6 R: items/the-10-best-practices-for-remote-software-engineering
 Slide7 L: events/webinar-software-engineering-challenges-and-best-practices-for-multi-institutional-scientific-software-development
