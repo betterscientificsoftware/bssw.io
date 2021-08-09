@@ -1,3 +1,7 @@
+
+
+
+
 # Best Practices for HPC Software Developers Webinar Series
 
 The HPC Best Practices (HPC-BP) webinars address issues faced by
@@ -26,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2021-06-12*
+*Listed in reverse chronological order. Last updated: 2021-08-09*
 
 
 
@@ -34,6 +38,22 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Software Engineering Challenges and Best Practices for Multi-Institutional Scientific Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar055), Keith Beattie (Lawrence Berkeley National Laboratory), 2021-08-04
+
+
+
+
+
+
+
+- [*Mining Development Data to Understand and Improve Software Engineering Processes in HPC Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar054), Boyana Norris (University of Oregon), 2021-07-07
 
 
 
@@ -337,15 +357,15 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Jupyter and HPC: Current State and Future Roadmap*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Matthias Bussonnier (UC Berkeley), Suhas Somnath (Oak Ridge National Laboratory),  and Shreyas Cholia (National Energy Research Scientific Computing Center), 2018-02-28
-
-
-
-
-
-
-
 - [*Scientific Software Development with Eclipse*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Greg Watson (Oak Ridge National Laboratory), 2018-03-28
+
+
+
+
+
+
+
+- [*Jupyter and HPC: Current State and Future Roadmap*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Matthias Bussonnier (UC Berkeley), Suhas Somnath (Oak Ridge National Laboratory),  and Shreyas Cholia (National Energy Research Scientific Computing Center), 2018-02-28
 
 
 
@@ -461,7 +481,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2021-06-12
+#### Publication date: 2021-08-09
 
 <!---
 Publish: yes
