@@ -39,6 +39,10 @@ Applications are reviewed by a panel of diverse members of the CSE community usi
 * The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
 * The proposer will be a long-term advocate for better scientific software beyond the fellowship period of performance.
 
+### Can I submit a letter of recommendation with my application?
+
+We do not accept letters of recommdation with the application.  Please use your own words to describe your relevant background and advocacy for better scientific software.
+
 ### Can I submit multiple applications with different proposals?
 
 No, only one application submission per person.  
@@ -49,13 +53,13 @@ Students (undergraduate/graduate) are encouraged to apply for a BSSw Fellowship.
 
 ## Funding Questions
 
-### What is the amount of funding for 2021 BSSw Fellows?
+### What is the amount of funding for 2022 BSSw Fellows?
 
-Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
+Each 2022 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 
 ### How are the funds awarded?  When do I submit budget information?  
 
-The Fellowship award will be in the form of a subcontract to the recipient’s institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  
+The Fellowship award will be in the form of a subcontract to the recipient’s institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  You should familiarize yourself with your organizations budget process.  
 
 ### Are there any restrictions on how the fellowship funds can be used?
 
@@ -65,7 +69,6 @@ Most institutions have well-established rules for what constitute “allowable�
 * _Special rules apply to international travel_, including multiple approval processes that require significant lead time.  Approval of international travel by our sponsors is not guaranteed.
 *	The purchase of computer equipment or other durable equipment is not allowed.
 *	If you’re organizing a workshop or similar event, participant costs (e.g., travel, lodging, per diem) and venue costs (e.g., meeting room rental, AV services) would be allowable.  Food costs would be allowable with limitations.
-
 
 ### Can funds be used for travel?
 
@@ -128,7 +131,7 @@ Beyond completing the proposed scope of work, BSSw Fellows are life-long members
 
 ### Do you expect fellows to attend events or meetings?
 
-We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2021.  
+We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2022.  
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
