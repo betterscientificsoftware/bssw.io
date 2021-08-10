@@ -28,7 +28,7 @@ There should be some real text here, just for the sake of appearances
 
 ### References <!-- sfer_ezikiw -->
 
-But due to a bug they were being rendered as visible text.
+Maybe the heading makes a difference? 
 
 <!---
 Publish: preview
