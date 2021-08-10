@@ -139,6 +139,15 @@ Below are markdwon styles in the blockquote
 
 > The quick brown fox jumps over the *lazy dog*. The **quick brown fox** jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
+## Test of HTML comment handling
+
+HTML comments look like this: `<!-- arbitrary text -->` (which we can see becasuse we marked it up as code)
+
+Comments in regular text <!-- like this --> should be interpreted as comments.  They should be visible in the resulting HTML source, but not in the rendered version.
+
+### Comments after headings <!-- should also be treated like comments -->
+
+But due to a bug they were being rendered as visible text.
 
 ## Test image
 
