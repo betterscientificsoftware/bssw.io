@@ -147,6 +147,8 @@ Comments in regular text <!-- like this --> should be interpreted as comments.  
 
 ### Comments after headings <!-- should also be treated like comments -->
 
+### References <!-- sfer_ezikiw -->
+
 But due to a bug they were being rendered as visible text.
 
 ## Test image
