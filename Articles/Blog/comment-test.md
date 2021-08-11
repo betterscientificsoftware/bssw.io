@@ -27,12 +27,10 @@ Comments in regular text <!-- like this --> should be interpreted as comments.  
 There should be some real text here, just for the sake of appearances
 
 ### References <!-- sfer_ezikiw -->
+Maybe the heading makes a difference? Or maybe it is spacing after the heading?
 
-Maybe the heading makes a difference? 
-
-### One last attempt <!--- sfer_ezikiw --->
-
-Does three dashes vs two make any difference?
+### One last attempt <!-- sfer_ezikiw -->
+<p>What if the MD heading is immediately followed by HTML?</p>
 
 <!---
 Publish: preview
