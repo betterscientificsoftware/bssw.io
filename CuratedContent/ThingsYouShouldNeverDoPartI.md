@@ -34,7 +34,7 @@ But, of course, there are cases where rewriting software from scratch may be a b
 In conclusion, before a CSE team or an organization decides to "cut their losses" and start over from scratch with a green-field project, they may well take some time to consider the arguments that Joel made years ago in this article and which are made by numerous other experts in the software engineering community over the years<sup>[2],[3],[4],[5]</sup> and consider if an incremental refactoring/rewriting of the existing code base might be a more successful strategy.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Software engineering, Requirements, Release and deployment, Refactoring
 RSS update: 2021-08-11
