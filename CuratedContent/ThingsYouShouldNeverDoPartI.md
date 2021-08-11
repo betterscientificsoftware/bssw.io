@@ -8,7 +8,7 @@ There is usually a better way, often a path less taken, especially in the comput
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: July ???, 2021
+#### Publication date: Aug 11 2021
 
 Resource information | Details
 :--- | :---
@@ -37,7 +37,7 @@ In conclusion, before a CSE team or an organization decides to "cut their losses
 Publish: preview
 Pinned: no
 Topics: Software engineering, Requirements, Release and deployment, Refactoring
-RSS update: 2021-???-???
+RSS update: 2021-08-11
 --->
 
 <!-- BEGIN ORIGINAL LINK DEFS
