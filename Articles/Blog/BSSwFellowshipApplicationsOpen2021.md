@@ -24,7 +24,7 @@ We encourage diverse applicants at all career stages—ranging from students thr
 * Interested in contributing powerful ideas, tools, methodologies, and more that improve the quality of scientific software.
 * Able to use the fellowship to broadly benefit the scientific software community.
 
-Applicants must be affiliated with a U.S.-based institution that is able to receive funding from the U.S. Department of Energy. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. 
+Applicants must be affiliated with a U.S.-based institution that is able to receive Federal funding.  Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. 
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
@@ -42,7 +42,7 @@ Better Scientific Software is an organization dedicated to improving developer p
 
 ### Current and past BSSw Fellows are:
 
-- [Providing Projects and Perspectives](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives)
+- [Providing information on projects and perspectives](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives)
 - [Guiding developers through each stage of the scientific software lifecycle](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle)
 - [Tackling scientific productivity challenges](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges)
 - And more!  [Check out how each of our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
