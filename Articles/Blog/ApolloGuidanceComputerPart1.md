@@ -190,123 +190,115 @@ Aggregate: none
 
 <br>
 
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
-[2]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html "Overview of Apollo 11 Mission"
-[3]: https://en.wikipedia.org/wiki/Moon_landing "List of Moon missions since 1958"
-[4]: https://en.wikipedia.org/wiki/Apollo_PGNCS "What is Primary Guidance, Navigation and Control"
-[5]: ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf "Whole book: 'Apollo Guidance Computer Architecture and Operation'"
-[6]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer "Overview of AGC Architecture"
-[7]: https://youtu.be/YIBhPsyYCiM "YouTube Video of Rope Core Manufacture"
-[8]: https://pdfs.semanticscholar.org/0d44/2a1b41da2ccbffeda8aa2e1a7c2417ac71e0.pdf "Computer-Controlled Steering of the Apollo Spacecraft {Martin FH, Battin RH. 1968. Computer-Controlled Steering of the Apollo Spacecraft. J Spacecraft. 5(4):400-7}"
-[9]: https://www.ibiblio.org/apollo/hrst/archive/1713.pdf "MIT Technical Report on Apollo Guidance and Navigation"
-[10]: https://en.wikipedia.org/wiki/IBM_System/360_Model_20 "IBM 360/20 Specs"
-[11]: http://www.bitsavers.org/pdf/ibm/360/fe/GC22-6820-12_System_360_Installation_Manual_Physical_Planning.pdf "IBM 360 Detailed Installation Manual"
-[12]: https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf "Reliability History of the AGC"
-[13]: https://youtu.be/P12r8DKHsak "Weaving Rope Core Memory"
-[14]: https://en.wikipedia.org/wiki/Magnetic-core_memory "Description of Core Memory"
-[15]: https://en.wikipedia.org/wiki/Core_rope_memory "Description of Rope Core Memory"
-[16]: https://youtu.be/xx7Lfh5SKUQ "Amazingly Detailed Presentation on Architecture and Operation of the AGC"
-[17]: https://www.computerhistory.org/revolution/real-time-computing/6/128/529 "Polaris Guidance System"
-[18]: https://en.wikipedia.org/wiki/Fairchild_Semiconductor "Historical Note about Fairchild Semiconductor"
-[19]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design"
-[20]: https://www.ornl.gov/news/ornl-launches-summit-supercomputer "ORNL Launch of Summit"
-[21]: https://www.top500.org/green500/list/2018/11/ "Top Green 500 List, November 2018"
-[22]: https://en.wikipedia.org/wiki/ILLIAC_IV "Description of Illiac IV"
-[23]: https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing "Jacquard Loom & Computing"
-[24]: https://hpc.llnl.gov/hardware/platforms/sierra "LLNL Description of Sierra"
-[25]: https://www.computerworld.com/article/2525898/app-development/nasa-s-apollo-technology-has-changed-history.html "Historical Impact of AGC on Computing Technology"
-[26]: https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips "Historical Impact of AGC on Chip Manufacture"
-[27]: https://www.ibm.com/us-en/marketplace/power-systems-ac922 "Description of IBM AC922 Systems"
-[28]: http://www.computersciencelab.com/ComputerHistory/History.htm "Illustrated History of Computers"
-[29]: https://youtu.be/P12r8DKHsak?t=35 "Rope Memory Description"
-[30]: https://www.telegraph.co.uk/technology/news/10719418/IBMs-5bn-gamble-revolutionary-computer-turns-50.html "IBM $5B Gamble with System 360"
-[31]: https://www.ibiblio.org/apollo/assembly_language_manual.html "AGC Assembly Language Manual"
-[32]: https://www.theverge.com/2019/4/22/18511594/tesla-new-self-driving-chip-is-here-and-this-is-your-best-look-yet "Tesla's new AI Chip"
-[33]: https://en.wikipedia.org/wiki/P-code_machine "Example of a P-code language"
-[34]: https://history.nasa.gov/computers/Part1.html "NASA archive on Computers in Spaceflight"
-[35]: https://history.nasa.gov/computers/Ch2-1.html "The need for an on-board computer"
-[36]: https://www.computerhistory.org/timeline/ "Computer History Timeline"
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
-[2]: #ref2 "Overview of Apollo 11 Mission"
-[3]: #ref3 "List of Moon missions since 1958"
-[4]: #ref4 "What is Primary Guidance, Navigation and Control"
-[5]: #ref5 "Whole book: 'Apollo Guidance Computer Architecture and Operation'"
-[6]: #ref6 "Overview of AGC Architecture"
-[7]: #ref7 "YouTube Video of Rope Core Manufacture"
-[8]: #ref8 "Computer-Controlled Steering of the Apollo Spacecraft"
-[9]: #ref9 "MIT Technical Report on Apollo Guidance and Navigation"
-[10]: #ref10 "IBM 360/20 Specs"
-[11]: #ref11 "IBM 360 Detailed Installation Manual"
-[12]: #ref12 "Reliability History of the AGC"
-[13]: #ref13 "Weaving Rope Core Memory"
-[14]: #ref14 "Description of Core Memory"
-[15]: #ref15 "Description of Rope Core Memory"
-[16]: #ref16 "Amazingly Detailed Presentation on Architecture and Operation of the AGC"
-[17]: #ref17 "Polaris Guidance System"
-[18]: #ref18 "Historical Note about Fairchild Semiconductor"
-[19]: #ref19 "AGC Restart System Design"
-[20]: #ref20 "ORNL Launch of Summit"
-[21]: #ref21 "Top Green 500 List, November 2018"
-[22]: #ref22 "Description of Illiac IV"
-[23]: #ref23 "Jacquard Loom & Computing"
-[24]: #ref24 "LLNL Description of Sierra"
-[25]: #ref25 "Historical Impact of AGC on Computing Technology"
-[26]: #ref26 "Historical Impact of AGC on Chip Manufacture"
-[27]: #ref27 "Description of IBM AC922 Systems"
-[28]: #ref28 "Illustrated History of Computers"
-[29]: #ref29 "Rope Memory Description"
-[30]: #ref30 "IBM $5B Gamble with System 360"
-[31]: #ref31 "AGC Assembly Language Manual"
-[32]: #ref32 "Tesla's new AI Chip"
-[33]: #ref33 "Example of a P-code language"
-[34]: #ref34 "NASA archive on Computers in Spaceflight"
-[35]: #ref35 "The need for an on-board computer"
-[36]: #ref36 "Computer History Timeline"
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
-<a name="ref2"></a>2 | [Overview of Apollo 11 Mission](https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html)
-<a name="ref3"></a>3 | [List of Moon missions since 1958](https://en.wikipedia.org/wiki/Moon_landing)
-<a name="ref4"></a>4 | [What is Primary Guidance, Navigation and Control](https://en.wikipedia.org/wiki/Apollo_PGNCS)
-<a name="ref5"></a>5 | [Whole book: 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
-<a name="ref6"></a>6 | [Overview of AGC Architecture](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
-<a name="ref7"></a>7 | [YouTube Video of Rope Core Manufacture](https://youtu.be/YIBhPsyYCiM)
-<a name="ref8"></a>8 | [Computer-Controlled Steering of the Apollo Spacecraft<br>Martin FH, Battin RH. 1968. Computer-Controlled Steering of the Apollo Spacecraft. J Spacecraft. 5(4):400-7](https://pdfs.semanticscholar.org/0d44/2a1b41da2ccbffeda8aa2e1a7c2417ac71e0.pdf)
-<a name="ref9"></a>9 | [MIT Technical Report on Apollo Guidance and Navigation](https://www.ibiblio.org/apollo/hrst/archive/1713.pdf)
-<a name="ref10"></a>10 | [IBM 360/20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
-<a name="ref11"></a>11 | [IBM 360 Detailed Installation Manual](http://www.bitsavers.org/pdf/ibm/360/fe/GC22-6820-12_System_360_Installation_Manual_Physical_Planning.pdf)
-<a name="ref12"></a>12 | [Reliability History of the AGC](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf)
-<a name="ref13"></a>13 | [Weaving Rope Core Memory](https://youtu.be/P12r8DKHsak)
-<a name="ref14"></a>14 | [Description of Core Memory](https://en.wikipedia.org/wiki/Magnetic-core_memory)
-<a name="ref15"></a>15 | [Description of Rope Core Memory](https://en.wikipedia.org/wiki/Core_rope_memory)
-<a name="ref16"></a>16 | [Amazingly Detailed Presentation on Architecture and Operation of the AGC](https://youtu.be/xx7Lfh5SKUQ)
-<a name="ref17"></a>17 | [Polaris Guidance System](https://www.computerhistory.org/revolution/real-time-computing/6/128/529)
-<a name="ref18"></a>18 | [Historical Note about Fairchild Semiconductor](https://en.wikipedia.org/wiki/Fairchild_Semiconductor)
-<a name="ref19"></a>19 | [AGC Restart System Design](https://www.ibiblio.org/apollo/hrst/archive/1033.pdf)
-<a name="ref20"></a>20 | [ORNL Launch of Summit](https://www.ornl.gov/news/ornl-launches-summit-supercomputer)
-<a name="ref21"></a>21 | [Top Green 500 List, November 2018](https://www.top500.org/green500/list/2018/11/)
-<a name="ref22"></a>22 | [Description of Illiac IV](https://en.wikipedia.org/wiki/ILLIAC_IV)
-<a name="ref23"></a>23 | [Jacquard Loom & Computing](https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing)
-<a name="ref24"></a>24 | [LLNL Description of Sierra](https://hpc.llnl.gov/hardware/platforms/sierra)
-<a name="ref25"></a>25 | [Historical Impact of AGC on Computing Technology](https://www.computerworld.com/article/2525898/app-development/nasa-s-apollo-technology-has-changed-history.html)
-<a name="ref26"></a>26 | [Historical Impact of AGC on Chip Manufacture](https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips)
-<a name="ref27"></a>27 | [Description of IBM AC922 Systems](https://www.ibm.com/us-en/marketplace/power-systems-ac922)
-<a name="ref28"></a>28 | [Illustrated History of Computers](http://www.computersciencelab.com/ComputerHistory/History.htm)
-<a name="ref29"></a>29 | [Rope Memory Description](https://youtu.be/P12r8DKHsak?t=35)
-<a name="ref30"></a>30 | [IBM $5B Gamble with System 360](https://www.telegraph.co.uk/technology/news/10719418/IBMs-5bn-gamble-revolutionary-computer-turns-50.html)
-<a name="ref31"></a>31 | [AGC Assembly Language Manual](https://www.ibiblio.org/apollo/assembly_language_manual.html)
-<a name="ref32"></a>32 | [Tesla's new AI Chip](https://www.theverge.com/2019/4/22/18511594/tesla-new-self-driving-chip-is-here-and-this-is-your-best-look-yet)
-<a name="ref33"></a>33 | [Example of a P-code language](https://en.wikipedia.org/wiki/P-code_machine)
-<a name="ref34"></a>34 | [NASA archive on Computers in Spaceflight](https://history.nasa.gov/computers/Part1.html)
-<a name="ref35"></a>35 | [The need for an on-board computer](https://history.nasa.gov/computers/Ch2-1.html)
-<a name="ref36"></a>36 | [Computer History Timeline](https://www.computerhistory.org/timeline/)
+[1-sfer-ezikiw]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
+[2-sfer-ezikiw]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html "Overview of Apollo 11 Mission"
+[3-sfer-ezikiw]: https://en.wikipedia.org/wiki/Moon_landing "List of Moon missions since 1958"
+[4-sfer-ezikiw]: https://en.wikipedia.org/wiki/Apollo_PGNCS "What is Primary Guidance, Navigation and Control"
+[5-sfer-ezikiw]: ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf "Whole book: 'Apollo Guidance Computer Architecture and Operation'"
+[6-sfer-ezikiw]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer "Overview of AGC Architecture"
+[7-sfer-ezikiw]: https://youtu.be/YIBhPsyYCiM "YouTube Video of Rope Core Manufacture"
+[8-sfer-ezikiw]: https://pdfs.semanticscholar.org/0d44/2a1b41da2ccbffeda8aa2e1a7c2417ac71e0.pdf "Computer-Controlled Steering of the Apollo Spacecraft {Martin FH, Battin RH. 1968. Computer-Controlled Steering of the Apollo Spacecraft. J Spacecraft. 5(4):400-7}"
+[9-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1713.pdf "MIT Technical Report on Apollo Guidance and Navigation"
+[10-sfer-ezikiw]: https://en.wikipedia.org/wiki/IBM_System/360_Model_20 "IBM 360/20 Specs"
+[11-sfer-ezikiw]: http://www.bitsavers.org/pdf/ibm/360/fe/GC22-6820-12_System_360_Installation_Manual_Physical_Planning.pdf "IBM 360 Detailed Installation Manual"
+[12-sfer-ezikiw]: https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf "Reliability History of the AGC"
+[13-sfer-ezikiw]: https://youtu.be/P12r8DKHsak "Weaving Rope Core Memory"
+[14-sfer-ezikiw]: https://en.wikipedia.org/wiki/Magnetic-core_memory "Description of Core Memory"
+[15-sfer-ezikiw]: https://en.wikipedia.org/wiki/Core_rope_memory "Description of Rope Core Memory"
+[16-sfer-ezikiw]: https://youtu.be/xx7Lfh5SKUQ "Amazingly Detailed Presentation on Architecture and Operation of the AGC"
+[17-sfer-ezikiw]: https://www.computerhistory.org/revolution/real-time-computing/6/128/529 "Polaris Guidance System"
+[18-sfer-ezikiw]: https://en.wikipedia.org/wiki/Fairchild_Semiconductor "Historical Note about Fairchild Semiconductor"
+[19-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design"
+[20-sfer-ezikiw]: https://www.ornl.gov/news/ornl-launches-summit-supercomputer "ORNL Launch of Summit"
+[21-sfer-ezikiw]: https://www.top500.org/green500/list/2018/11/ "Top Green 500 List, November 2018"
+[22-sfer-ezikiw]: https://en.wikipedia.org/wiki/ILLIAC_IV "Description of Illiac IV"
+[23-sfer-ezikiw]: https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing "Jacquard Loom & Computing"
+[24-sfer-ezikiw]: https://hpc.llnl.gov/hardware/platforms/sierra "LLNL Description of Sierra"
+[25-sfer-ezikiw]: https://www.computerworld.com/article/2525898/app-development/nasa-s-apollo-technology-has-changed-history.html "Historical Impact of AGC on Computing Technology"
+[26-sfer-ezikiw]: https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips "Historical Impact of AGC on Chip Manufacture"
+[27-sfer-ezikiw]: https://www.ibm.com/us-en/marketplace/power-systems-ac922 "Description of IBM AC922 Systems"
+[28-sfer-ezikiw]: http://www.computersciencelab.com/ComputerHistory/History.htm "Illustrated History of Computers"
+[29-sfer-ezikiw]: https://youtu.be/P12r8DKHsak?t=35 "Rope Memory Description"
+[30-sfer-ezikiw]: https://www.telegraph.co.uk/technology/news/10719418/IBMs-5bn-gamble-revolutionary-computer-turns-50.html "IBM $5B Gamble with System 360"
+[31-sfer-ezikiw]: https://www.ibiblio.org/apollo/assembly_language_manual.html "AGC Assembly Language Manual"
+[32-sfer-ezikiw]: https://www.theverge.com/2019/4/22/18511594/tesla-new-self-driving-chip-is-here-and-this-is-your-best-look-yet "Tesla's new AI Chip"
+[33-sfer-ezikiw]: https://en.wikipedia.org/wiki/P-code_machine "Example of a P-code language"
+[34-sfer-ezikiw]: https://history.nasa.gov/computers/Part1.html "NASA archive on Computers in Spaceflight"
+[35-sfer-ezikiw]: https://history.nasa.gov/computers/Ch2-1.html "The need for an on-board computer"
+[36-sfer-ezikiw]: https://www.computerhistory.org/timeline/ "Computer History Timeline"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
+[2]: #sfer-ezikiw-2 "Overview of Apollo 11 Mission"
+[3]: #sfer-ezikiw-3 "List of Moon missions since 1958"
+[4]: #sfer-ezikiw-4 "What is Primary Guidance, Navigation and Control"
+[5]: #sfer-ezikiw-5 "Whole book: 'Apollo Guidance Computer Architecture and Operation'"
+[6]: #sfer-ezikiw-6 "Overview of AGC Architecture"
+[7]: #sfer-ezikiw-7 "YouTube Video of Rope Core Manufacture"
+[8]: #sfer-ezikiw-8 "Computer-Controlled Steering of the Apollo Spacecraft"
+[9]: #sfer-ezikiw-9 "MIT Technical Report on Apollo Guidance and Navigation"
+[10]: #sfer-ezikiw-10 "IBM 360/20 Specs"
+[11]: #sfer-ezikiw-11 "IBM 360 Detailed Installation Manual"
+[12]: #sfer-ezikiw-12 "Reliability History of the AGC"
+[13]: #sfer-ezikiw-13 "Weaving Rope Core Memory"
+[14]: #sfer-ezikiw-14 "Description of Core Memory"
+[15]: #sfer-ezikiw-15 "Description of Rope Core Memory"
+[16]: #sfer-ezikiw-16 "Amazingly Detailed Presentation on Architecture and Operation of the AGC"
+[17]: #sfer-ezikiw-17 "Polaris Guidance System"
+[18]: #sfer-ezikiw-18 "Historical Note about Fairchild Semiconductor"
+[19]: #sfer-ezikiw-19 "AGC Restart System Design"
+[20]: #sfer-ezikiw-20 "ORNL Launch of Summit"
+[21]: #sfer-ezikiw-21 "Top Green 500 List, November 2018"
+[22]: #sfer-ezikiw-22 "Description of Illiac IV"
+[23]: #sfer-ezikiw-23 "Jacquard Loom & Computing"
+[24]: #sfer-ezikiw-24 "LLNL Description of Sierra"
+[25]: #sfer-ezikiw-25 "Historical Impact of AGC on Computing Technology"
+[26]: #sfer-ezikiw-26 "Historical Impact of AGC on Chip Manufacture"
+[27]: #sfer-ezikiw-27 "Description of IBM AC922 Systems"
+[28]: #sfer-ezikiw-28 "Illustrated History of Computers"
+[29]: #sfer-ezikiw-29 "Rope Memory Description"
+[30]: #sfer-ezikiw-30 "IBM $5B Gamble with System 360"
+[31]: #sfer-ezikiw-31 "AGC Assembly Language Manual"
+[32]: #sfer-ezikiw-32 "Tesla's new AI Chip"
+[33]: #sfer-ezikiw-33 "Example of a P-code language"
+[34]: #sfer-ezikiw-34 "NASA archive on Computers in Spaceflight"
+[35]: #sfer-ezikiw-35 "The need for an on-board computer"
+[36]: #sfer-ezikiw-36 "Computer History Timeline"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Overview of Apollo 11 Mission](https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[List of Moon missions since 1958](https://en.wikipedia.org/wiki/Moon_landing)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[What is Primary Guidance, Navigation and Control](https://en.wikipedia.org/wiki/Apollo_PGNCS)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Whole book: 'Apollo Guidance Computer Architecture and Operation'](ftp://ssh.esac.esa.int/pub/ekuulker/Apollo15/The-Apollo-Guidance-Computer-Architecture-and-Operation.pdf)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Overview of AGC Architecture](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[YouTube Video of Rope Core Manufacture](https://youtu.be/YIBhPsyYCiM)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Computer-Controlled Steering of the Apollo Spacecraft<br>Martin FH, Battin RH. 1968. Computer-Controlled Steering of the Apollo Spacecraft. J Spacecraft. 5(4):400-7](https://pdfs.semanticscholar.org/0d44/2a1b41da2ccbffeda8aa2e1a7c2417ac71e0.pdf)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[MIT Technical Report on Apollo Guidance and Navigation](https://www.ibiblio.org/apollo/hrst/archive/1713.pdf)
+* <a name="sfer-ezikiw-10"></a><sup>10</sup>[IBM 360/20 Specs](https://en.wikipedia.org/wiki/IBM_System/360_Model_20)
+* <a name="sfer-ezikiw-11"></a><sup>11</sup>[IBM 360 Detailed Installation Manual](http://www.bitsavers.org/pdf/ibm/360/fe/GC22-6820-12_System_360_Installation_Manual_Physical_Planning.pdf)
+* <a name="sfer-ezikiw-12"></a><sup>12</sup>[Reliability History of the AGC](https://www.ibiblio.org/apollo/klabs/history/history_docs/r713.pdf)
+* <a name="sfer-ezikiw-13"></a><sup>13</sup>[Weaving Rope Core Memory](https://youtu.be/P12r8DKHsak)
+* <a name="sfer-ezikiw-14"></a><sup>14</sup>[Description of Core Memory](https://en.wikipedia.org/wiki/Magnetic-core_memory)
+* <a name="sfer-ezikiw-15"></a><sup>15</sup>[Description of Rope Core Memory](https://en.wikipedia.org/wiki/Core_rope_memory)
+* <a name="sfer-ezikiw-16"></a><sup>16</sup>[Amazingly Detailed Presentation on Architecture and Operation of the AGC](https://youtu.be/xx7Lfh5SKUQ)
+* <a name="sfer-ezikiw-17"></a><sup>17</sup>[Polaris Guidance System](https://www.computerhistory.org/revolution/real-time-computing/6/128/529)
+* <a name="sfer-ezikiw-18"></a><sup>18</sup>[Historical Note about Fairchild Semiconductor](https://en.wikipedia.org/wiki/Fairchild_Semiconductor)
+* <a name="sfer-ezikiw-19"></a><sup>19</sup>[AGC Restart System Design](https://www.ibiblio.org/apollo/hrst/archive/1033.pdf)
+* <a name="sfer-ezikiw-20"></a><sup>20</sup>[ORNL Launch of Summit](https://www.ornl.gov/news/ornl-launches-summit-supercomputer)
+* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Top Green 500 List, November 2018](https://www.top500.org/green500/list/2018/11/)
+* <a name="sfer-ezikiw-22"></a><sup>22</sup>[Description of Illiac IV](https://en.wikipedia.org/wiki/ILLIAC_IV)
+* <a name="sfer-ezikiw-23"></a><sup>23</sup>[Jacquard Loom & Computing](https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing)
+* <a name="sfer-ezikiw-24"></a><sup>24</sup>[LLNL Description of Sierra](https://hpc.llnl.gov/hardware/platforms/sierra)
+* <a name="sfer-ezikiw-25"></a><sup>25</sup>[Historical Impact of AGC on Computing Technology](https://www.computerworld.com/article/2525898/app-development/nasa-s-apollo-technology-has-changed-history.html)
+* <a name="sfer-ezikiw-26"></a><sup>26</sup>[Historical Impact of AGC on Chip Manufacture](https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips)
+* <a name="sfer-ezikiw-27"></a><sup>27</sup>[Description of IBM AC922 Systems](https://www.ibm.com/us-en/marketplace/power-systems-ac922)
+* <a name="sfer-ezikiw-28"></a><sup>28</sup>[Illustrated History of Computers](http://www.computersciencelab.com/ComputerHistory/History.htm)
+* <a name="sfer-ezikiw-29"></a><sup>29</sup>[Rope Memory Description](https://youtu.be/P12r8DKHsak?t=35)
+* <a name="sfer-ezikiw-30"></a><sup>30</sup>[IBM $5B Gamble with System 360](https://www.telegraph.co.uk/technology/news/10719418/IBMs-5bn-gamble-revolutionary-computer-turns-50.html)
+* <a name="sfer-ezikiw-31"></a><sup>31</sup>[AGC Assembly Language Manual](https://www.ibiblio.org/apollo/assembly_language_manual.html)
+* <a name="sfer-ezikiw-32"></a><sup>32</sup>[Tesla's new AI Chip](https://www.theverge.com/2019/4/22/18511594/tesla-new-self-driving-chip-is-here-and-this-is-your-best-look-yet)
+* <a name="sfer-ezikiw-33"></a><sup>33</sup>[Example of a P-code language](https://en.wikipedia.org/wiki/P-code_machine)
+* <a name="sfer-ezikiw-34"></a><sup>34</sup>[NASA archive on Computers in Spaceflight](https://history.nasa.gov/computers/Part1.html)
+* <a name="sfer-ezikiw-35"></a><sup>35</sup>[The need for an on-board computer](https://history.nasa.gov/computers/Ch2-1.html)
+* <a name="sfer-ezikiw-36"></a><sup>36</sup>[Computer History Timeline](https://www.computerhistory.org/timeline/)

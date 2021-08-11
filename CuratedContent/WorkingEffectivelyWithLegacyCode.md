@@ -98,10 +98,10 @@ After reading this book, you should be convinced of the need for unit testing an
 
 <br>
 
-[1]: #ref1 "Fowler, Martin. Refactoring, Addison Wesley, 1999"
-[2]: #ref2 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004"
-[3]: #ref3 "Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003"
-[4]: #ref4 "Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003"
+[1-sfer-ezikiw]: #ref1 "Fowler, Martin. Refactoring, Addison Wesley, 1999"
+[2-sfer-ezikiw]: #ref2 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004"
+[3-sfer-ezikiw]: #ref3 "Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003"
+[4-sfer-ezikiw]: #ref4 "Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003"
 
 <br>
 
@@ -127,3 +127,15 @@ Prerequisites: defaults
 Aggregate: none
 --->
 
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Fowler, Martin. Refactoring, Addison Wesley, 1999"
+[2]: #sfer-ezikiw-2 "Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004"
+[3]: #sfer-ezikiw-3 "Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003"
+[4]: #sfer-ezikiw-4 "Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Fowler, Martin. Refactoring, Addison Wesley, 1999](#ref1)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004](#ref2)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Martin, Robert C. Agile Software Development (Principles, Patterns, and Practices). Prentice Hall, 2003](#ref3)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Beck, Kent. Test Driven Development: By Example. Addison Wesley, 2003](#ref4)

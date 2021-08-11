@@ -290,171 +290,163 @@ Prerequisites: default
 Aggregate: none
 --->
 
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
-[2]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field"
-[3]: https://en.wikipedia.org/wiki/Gravitation_of_the_Moon "Moon's Lumpy Gravity Field"
-[4]: https://www.americanscientist.org/article/moonshot-computing "Great Article on AGC Software {Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147}"
-[5]: http://www.klabs.org/history/apollo_11_alarms/eyles_2004/eyles_2004.htm "Tales from the Lunar Landing {Eyles D. (March 2018) 'SUNBURST and LUMINARY An Apollo Memoir, Fort Point Press, Boston, ISBN-13: 978-0986385902}"
-[6]: https://www.mathworks.com/company/newsletters/articles/fly-me-to-the-moon-then-and-now.html "DAP Design Then and Now with MathWorks {Gran RJ. (1999) Fly Me to the Moon - Then and Now, webpage @ mathworks.com}"
-[7]: https://www.ibiblio.org/apollo/index.html "Virtual AGC Project Home Page"
-[8]: https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design "Architectural Simulation for Exascale Hardware/Software Co-design {Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.}"
-[9]: https://www.design-reuse.com/articles/31951/the-power-of-developing-hardware-and-software-in-parallel.html "The Power of Developing Hardware and Software in Parallel {De Schutter T. (~2012) The Power of Developing Hardware and Software in Parallel, webpage @ design-reuse.com}"
-[10]: http://web.mit.edu/digitalapollo/Documents/Chapter6/hoagprogreport.pdf?#page=24 "Hoag Report including DAP Design and Performance {Hoag DG. (April 1969) Apollo Navigation, Guidance and Control Systems: A Progress Report, MIT-IL E-2411}"
-[11]: https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html "MathWorks Model of DAP"
-[12]: http://www.ibiblio.org/apollo/hrst/archive/1695.pdf "AGC Software Development Plan {Wilson RE., Copps E. et al (October 1967) Apollo Guidance Software Development and Verification Plan, 43 pages}"
-[13]: https://www.ibiblio.org/apollo/hrst/archive/1687.pdf?#page=40 "Example AGC Interpretive Program To Find Quadratic Roots {Muntz CA. (1965) User's Guide to the Block II AGC/LGC Interpreter, MIT-IL, R-489, 70 pages}"
-[14]: https://history.nasa.gov/computers/Ch2-6.html "Overview of Software Development Issues {Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages}"
-[15]: https://www.airspacemag.com/space/practicing-safe-software-180962744/ "Air & Space Article on Mariner 1 {Goodman B, (August 1994) Practicing Safe Software Smithsonian Air and Space Magazine, p. 60}"
-[16]: https://authors.library.caltech.edu/5456/1/hrst.mit.edu/hrs/apollo/public/conference1/hamilton-intro.htm "Transcript of Interview with Margaret Hamilton"
-[17]: https://www.ibiblio.org/apollo/hrst/archive/1728.pdf "AGC Software Development Productivity and Costs {Rankin DA. (1972) A Model of the Cost of Software Development for the Apollo Spacecraft Computer, Masters Thesis, MIT}"
-[18]: https://history.nasa.gov/SP-4029/Apollo_18-16_Apollo_Program_Budget_Appropriations.htm "Apollo Budget By Sub-Program and Year"
-[19]: https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf "List of Software Studies Underway in 1962 {Battin RH (July 1962) SGA Studies Presently Underway, Space Guidance Analysis Memo #11, MIT-IL, 9 pages}"
-[20]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "Part 1 in this series"
-[21]: https://www.computer.org/publications/tech-news/events/what-to-know-about-the-scientist-who-invented-the-term-software-engineering "Origin of the term 'Software Engineering' {Cameron L () What to Know about the Scientist who Invented the term 'Software Engineering', IEEE Computer Society webpage}"
-[22]: https://www.nasa.gov/feature/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom "Margaret Hamilton Medal of Freedom {Russo NP (November 2016) Margaret Hamilton, Apollo Software Engineer, Awarded Presidential Medal of Freedom, NASA History Division webpage}"
-[23]: https://www.google.com/search?client=safari&rls=en&ei=YeryXMO2H6m_0PEPvciWiA8&q=what+is+co-design+in+computing&oq=what+is&gs_l=psy-ab.1.0.35i39l2j0i67l5j0l2j0i131.1499.3009..4244...2.0..0.121.836.5j4......0....1..gws-wiz.......0i71j0i10j0i10i67.bQxpLbPTVwU "Google Search co-design in computing"
-[24]: https://www.ibiblio.org/apollo/AGC-versions.jpg "AGC Software Version History"
-[25]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/EXECUTIVE.agc "AGC source code for Executive"
-[26]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/WAITLIST.agc "AGC source code for Waitlist"
-[27]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/INTERPRETER.agc "AGC source code for Interpreter"
-[28]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/PINBALL_GAME__BUTTONS_AND_LIGHTS.agc "AGC source code for DSKY and cockpit displays"
-[29]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/DOWN-TELEMETRY_PROGRAM.agc "AGC source code for Downlink"
-[30]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/FRESH_START_AND_RESTART.agc "AGC source code for restart"
-[31]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTARTS_ROUTINE.agc "AGC source code for Interpretive routine restart"
-[32]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTART_TABLES.agc "AGC source code for restart phase tables"
-[33]: https://www.spaceartifactsarchive.com/2013/05/the-star-chart-of-apollo.html "Apollo space sextant {McGlynn L (May 2013) Star Charts of Apollo webpage}"
-[34]: https://www.ibiblio.org/apollo/Documents/SGA_Memo12_620716.pdf "Position of Moon analysis {Potter JE (July 1962) Storing Position of Moon, Space Guidance Analysis Memo #12, MIT-IL, 7 pages}"
-[35]: https://en.wikipedia.org/wiki/Mariner_1 "Overview of Mariner 1"
-[36]: https://ocw.mit.edu/courses/science-technology-and-society/sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007/readings/1_4_9_mit_role.pdf "MIT's Role in The Apollo Project: The Software Effort (Volume V) {Johnson MS Giller DR (1971) MIT's Role in the Project: Final Report on Contracts, Vol. 5 The Software Effort, NAS 9-153 & NAS 9-4065}"
-[37]: https://en.wikipedia.org/wiki/Lunar_orbit_rendezvous "Description of Lunar Orbit Rendezvous (LOR)"
-[38]: https://theagileadmin.com/what-is-devops/ "What is DevOps?"
-[39]: https://history.nasa.gov/computers/Ch2-5.html "Computers in Spaceflight {Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages}"
-[40]: https://en.wikipedia.org/wiki/List_of_Apollo_missions "List of Apollo Flights"
-[41]: https://github.com/virtualagc/virtualagc/blob/master/Colossus249/STAR_TABLES.agc "AGC source code for star tables"
-[42]: https://en.wikipedia.org/wiki/Kalman_filter "Description of Kalman filter"
-[43]: https://www.ibiblio.org/apollo/hrst/archive/1719.pdf "Automatic Documentation System {Dunbar JC, Larson RA, Augart PT (May 1966) An Automated Documentation Technique for Integrating Apollo Crew Procedures and Computer Logic, MIT-IL, E-1956}"
-[44]: http://web.mit.edu/slava/space/introduction.htm "Russian Argon-11S Guidance Computer"
-[45]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=25 "AGC CM Major Mode Programs"
-[46]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31 "AGC CM DAP Configuration"
-[47]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29 "AGC CM Star Names"
-[48]: https://en.wikipedia.org/wiki/Zond_7 "Russian Zond-7 Mission"
-[49]: https://en.wikipedia.org/wiki/Fly-by-wire#Digital_systems "Description of Fly By Wire"
-[50]: http://www.gravityassist.com/IAF-3.3%202010/Ref.%203-230.pdf "MIT Algebraic Compiler (MAC) Language {Laning, J.H., Jr. and Miller, J.S., (1970), MIT Instrumentation Laboratory report R-681, (MIT Charles Stark Draper Laboratory, Report R-681) Cambridge, Mass., November 1970}"
-[51]: https://www.ibiblio.org/apollo/hrst/archive/1678.pdf "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software {Glick FK, Femino SR (January, 1970) MIT-IL Report E-2475, 31 pages}"
-[52]: http://web.mit.edu/aeroastro/news/magazine/aeroastro6/mit-apollo.html "MIT and navigating a path to the moon {AeroAstro Magazine annual report of the MIT Aeronautics and Astronautics Department}"
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
-[2]: #ref2 "Earth's Lumpy Gravity Field"
-[3]: #ref3 "Moon's Lumpy Gravity Field"
-[4]: #ref4 "Great Article on AGC Software"
-[5]: #ref5 "Tales from the Lunar Landing"
-[6]: #ref6 "DAP Design Then and Now with MathWorks"
-[7]: #ref7 "Virtual AGC Project Home Page"
-[8]: #ref8 "Architectural Simulation for Exascale Hardware/Software Co-design"
-[9]: #ref9 "The Power of Developing Hardware and Software in Parallel"
-[10]: #ref10 "Hoag Report including DAP Design and Performance"
-[11]: #ref11 "MathWorks Model of DAP"
-[12]: #ref12 "AGC Software Development Plan"
-[13]: #ref13 "Example AGC Interpretive Program To Find Quadratic Roots"
-[14]: #ref14 "Overview of Software Development Issues"
-[15]: #ref15 "Air & Space Article on Mariner 1"
-[16]: #ref16 "Transcript of Interview with Margaret Hamilton"
-[17]: #ref17 "AGC Software Development Productivity and Costs"
-[18]: #ref18 "Apollo Budget By Sub-Program and Year"
-[19]: #ref19 "List of Software Studies Underway in 1962"
-[20]: #ref20 "Part 1 in this series"
-[21]: #ref21 "Origin of the term 'Software Engineering'"
-[22]: #ref22 "Margaret Hamilton Medal of Freedom"
-[23]: #ref23 "Google Search co-design in computing"
-[24]: #ref24 "AGC Software Version History"
-[25]: #ref25 "AGC source code for Executive"
-[26]: #ref26 "AGC source code for Waitlist"
-[27]: #ref27 "AGC source code for Interpreter"
-[28]: #ref28 "AGC source code for DSKY and cockpit displays"
-[29]: #ref29 "AGC source code for Downlink"
-[30]: #ref30 "AGC source code for restart"
-[31]: #ref31 "AGC source code for Interpretive routine restart"
-[32]: #ref32 "AGC source code for restart phase tables"
-[33]: #ref33 "Apollo space sextant"
-[34]: #ref34 "Position of Moon analysis"
-[35]: #ref35 "Overview of Mariner 1"
-[36]: #ref36 "MIT's Role in The Apollo Project: The Software Effort (Volume V)"
-[37]: #ref37 "Description of Lunar Orbit Rendezvous (LOR)"
-[38]: #ref38 "What is DevOps?"
-[39]: #ref39 "Computers in Spaceflight"
-[40]: #ref40 "List of Apollo Flights"
-[41]: #ref41 "AGC source code for star tables"
-[42]: #ref42 "Description of Kalman filter"
-[43]: #ref43 "Automatic Documentation System"
-[44]: #ref44 "Russian Argon-11S Guidance Computer"
-[45]: #ref45 "AGC CM Major Mode Programs"
-[46]: #ref46 "AGC CM DAP Configuration"
-[47]: #ref47 "AGC CM Star Names"
-[48]: #ref48 "Russian Zond-7 Mission"
-[49]: #ref49 "Description of Fly By Wire"
-[50]: #ref50 "MIT Algebraic Compiler (MAC) Language"
-[51]: #ref51 "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software"
-[52]: #ref52 "MIT and navigating a path to the moon"
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
-<a name="ref2"></a>2 | [Earth's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravity_of_Earth)
-<a name="ref3"></a>3 | [Moon's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravitation_of_the_Moon)
-<a name="ref4"></a>4 | [Great Article on AGC Software<br>Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147](https://www.americanscientist.org/article/moonshot-computing)
-<a name="ref5"></a>5 | [Tales from the Lunar Landing<br>Eyles D. (March 2018) 'SUNBURST and LUMINARY An Apollo Memoir, Fort Point Press, Boston, ISBN-13: 978-0986385902](http://www.klabs.org/history/apollo_11_alarms/eyles_2004/eyles_2004.htm)
-<a name="ref6"></a>6 | [DAP Design Then and Now with MathWorks<br>Gran RJ. (1999) Fly Me to the Moon - Then and Now, webpage @ mathworks.com](https://www.mathworks.com/company/newsletters/articles/fly-me-to-the-moon-then-and-now.html)
-<a name="ref7"></a>7 | [Virtual AGC Project Home Page](https://www.ibiblio.org/apollo/index.html)
-<a name="ref8"></a>8 | [Architectural Simulation for Exascale Hardware/Software Co-design<br>Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.](https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design)
-<a name="ref9"></a>9 | [The Power of Developing Hardware and Software in Parallel<br>De Schutter T. (~2012) The Power of Developing Hardware and Software in Parallel, webpage @ design-reuse.com](https://www.design-reuse.com/articles/31951/the-power-of-developing-hardware-and-software-in-parallel.html)
-<a name="ref10"></a>10 | [Hoag Report including DAP Design and Performance<br>Hoag DG. (April 1969) Apollo Navigation, Guidance and Control Systems: A Progress Report, MIT-IL E-2411](http://web.mit.edu/digitalapollo/Documents/Chapter6/hoagprogreport.pdf?#page=24)
-<a name="ref11"></a>11 | [MathWorks Model of DAP](https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html)
-<a name="ref12"></a>12 | [AGC Software Development Plan<br>Wilson RE., Copps E. et al (October 1967) Apollo Guidance Software Development and Verification Plan, 43 pages](http://www.ibiblio.org/apollo/hrst/archive/1695.pdf)
-<a name="ref13"></a>13 | [Example AGC Interpretive Program To Find Quadratic Roots<br>Muntz CA. (1965) User's Guide to the Block II AGC/LGC Interpreter, MIT-IL, R-489, 70 pages](https://www.ibiblio.org/apollo/hrst/archive/1687.pdf?#page=40)
-<a name="ref14"></a>14 | [Overview of Software Development Issues<br>Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages](https://history.nasa.gov/computers/Ch2-6.html)
-<a name="ref15"></a>15 | [Air & Space Article on Mariner 1<br>Goodman B, (August 1994) Practicing Safe Software Smithsonian Air and Space Magazine, p. 60](https://www.airspacemag.com/space/practicing-safe-software-180962744/)
-<a name="ref16"></a>16 | [Transcript of Interview with Margaret Hamilton](https://authors.library.caltech.edu/5456/1/hrst.mit.edu/hrs/apollo/public/conference1/hamilton-intro.htm)
-<a name="ref17"></a>17 | [AGC Software Development Productivity and Costs<br>Rankin DA. (1972) A Model of the Cost of Software Development for the Apollo Spacecraft Computer, Masters Thesis, MIT](https://www.ibiblio.org/apollo/hrst/archive/1728.pdf)
-<a name="ref18"></a>18 | [Apollo Budget By Sub-Program and Year](https://history.nasa.gov/SP-4029/Apollo_18-16_Apollo_Program_Budget_Appropriations.htm)
-<a name="ref19"></a>19 | [List of Software Studies Underway in 1962<br>Battin RH (July 1962) SGA Studies Presently Underway, Space Guidance Analysis Memo #11, MIT-IL, 9 pages](https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf)
-<a name="ref20"></a>20 | [Part 1 in this series](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap)
-<a name="ref21"></a>21 | [Origin of the term 'Software Engineering'<br>Cameron L () What to Know about the Scientist who Invented the term 'Software Engineering', IEEE Computer Society webpage](https://www.computer.org/publications/tech-news/events/what-to-know-about-the-scientist-who-invented-the-term-software-engineering)
-<a name="ref22"></a>22 | [Margaret Hamilton Medal of Freedom<br>Russo NP (November 2016) Margaret Hamilton, Apollo Software Engineer, Awarded Presidential Medal of Freedom, NASA History Division webpage](https://www.nasa.gov/feature/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom)
-<a name="ref23"></a>23 | [Google Search co-design in computing](https://www.google.com/search?client=safari&rls=en&ei=YeryXMO2H6m_0PEPvciWiA8&q=what+is+co-design+in+computing&oq=what+is&gs_l=psy-ab.1.0.35i39l2j0i67l5j0l2j0i131.1499.3009..4244...2.0..0.121.836.5j4......0....1..gws-wiz.......0i71j0i10j0i10i67.bQxpLbPTVwU)
-<a name="ref24"></a>24 | [AGC Software Version History](https://www.ibiblio.org/apollo/AGC-versions.jpg)
-<a name="ref25"></a>25 | [AGC source code for Executive](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/EXECUTIVE.agc)
-<a name="ref26"></a>26 | [AGC source code for Waitlist](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/WAITLIST.agc)
-<a name="ref27"></a>27 | [AGC source code for Interpreter](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/INTERPRETER.agc)
-<a name="ref28"></a>28 | [AGC source code for DSKY and cockpit displays](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/PINBALL_GAME__BUTTONS_AND_LIGHTS.agc)
-<a name="ref29"></a>29 | [AGC source code for Downlink](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/DOWN-TELEMETRY_PROGRAM.agc)
-<a name="ref30"></a>30 | [AGC source code for restart](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/FRESH_START_AND_RESTART.agc)
-<a name="ref31"></a>31 | [AGC source code for Interpretive routine restart](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTARTS_ROUTINE.agc)
-<a name="ref32"></a>32 | [AGC source code for restart phase tables](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTART_TABLES.agc)
-<a name="ref33"></a>33 | [Apollo space sextant<br>McGlynn L (May 2013) Star Charts of Apollo webpage](https://www.spaceartifactsarchive.com/2013/05/the-star-chart-of-apollo.html)
-<a name="ref34"></a>34 | [Position of Moon analysis<br>Potter JE (July 1962) Storing Position of Moon, Space Guidance Analysis Memo #12, MIT-IL, 7 pages](https://www.ibiblio.org/apollo/Documents/SGA_Memo12_620716.pdf)
-<a name="ref35"></a>35 | [Overview of Mariner 1](https://en.wikipedia.org/wiki/Mariner_1)
-<a name="ref36"></a>36 | [MIT's Role in The Apollo Project: The Software Effort (Volume V)<br>Johnson MS Giller DR (1971) MIT's Role in the Project: Final Report on Contracts, Vol. 5 The Software Effort, NAS 9-153 & NAS 9-4065](https://ocw.mit.edu/courses/science-technology-and-society/sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007/readings/1_4_9_mit_role.pdf)
-<a name="ref37"></a>37 | [Description of Lunar Orbit Rendezvous (LOR)](https://en.wikipedia.org/wiki/Lunar_orbit_rendezvous)
-<a name="ref38"></a>38 | [What is DevOps?](https://theagileadmin.com/what-is-devops/)
-<a name="ref39"></a>39 | [Computers in Spaceflight<br>Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages](https://history.nasa.gov/computers/Ch2-5.html)
-<a name="ref40"></a>40 | [List of Apollo Flights](https://en.wikipedia.org/wiki/List_of_Apollo_missions)
-<a name="ref41"></a>41 | [AGC source code for star tables](https://github.com/virtualagc/virtualagc/blob/master/Colossus249/STAR_TABLES.agc)
-<a name="ref42"></a>42 | [Description of Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter)
-<a name="ref43"></a>43 | [Automatic Documentation System<br>Dunbar JC, Larson RA, Augart PT (May 1966) An Automated Documentation Technique for Integrating Apollo Crew Procedures and Computer Logic, MIT-IL, E-1956](https://www.ibiblio.org/apollo/hrst/archive/1719.pdf)
-<a name="ref44"></a>44 | [Russian Argon-11S Guidance Computer](http://web.mit.edu/slava/space/introduction.htm)
-<a name="ref45"></a>45 | [AGC CM Major Mode Programs](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=25)
-<a name="ref46"></a>46 | [AGC CM DAP Configuration](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31)
-<a name="ref47"></a>47 | [AGC CM Star Names](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29)
-<a name="ref48"></a>48 | [Russian Zond-7 Mission](https://en.wikipedia.org/wiki/Zond_7)
-<a name="ref49"></a>49 | [Description of Fly By Wire](https://en.wikipedia.org/wiki/Fly-by-wire#Digital_systems)
-<a name="ref50"></a>50 | [MIT Algebraic Compiler (MAC) Language<br>Laning, J.H., Jr. and Miller, J.S., (1970), MIT Instrumentation Laboratory report R-681, (MIT Charles Stark Draper Laboratory, Report R-681) Cambridge, Mass., November 1970](http://www.gravityassist.com/IAF-3.3%202010/Ref.%203-230.pdf)
-<a name="ref51"></a>51 | [A Comprehensive Digital Simulation for the Verification of Apollo Flight Software<br>Glick FK, Femino SR (January, 1970) MIT-IL Report E-2475, 31 pages](https://www.ibiblio.org/apollo/hrst/archive/1678.pdf)
-<a name="ref52"></a>52 | [MIT and navigating a path to the moon<br>AeroAstro Magazine annual report of the MIT Aeronautics and Astronautics Department](http://web.mit.edu/aeroastro/news/magazine/aeroastro6/mit-apollo.html)
+[1-sfer-ezikiw]: https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
+[2-sfer-ezikiw]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field"
+[3-sfer-ezikiw]: https://en.wikipedia.org/wiki/Gravitation_of_the_Moon "Moon's Lumpy Gravity Field"
+[4-sfer-ezikiw]: https://www.americanscientist.org/article/moonshot-computing "Great Article on AGC Software {Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147}"
+[5-sfer-ezikiw]: http://www.klabs.org/history/apollo_11_alarms/eyles_2004/eyles_2004.htm "Tales from the Lunar Landing {Eyles D. (March 2018) 'SUNBURST and LUMINARY An Apollo Memoir, Fort Point Press, Boston, ISBN-13: 978-0986385902}"
+[6-sfer-ezikiw]: https://www.mathworks.com/company/newsletters/articles/fly-me-to-the-moon-then-and-now.html "DAP Design Then and Now with MathWorks {Gran RJ. (1999) Fly Me to the Moon - Then and Now, webpage @ mathworks.com}"
+[7-sfer-ezikiw]: https://www.ibiblio.org/apollo/index.html "Virtual AGC Project Home Page"
+[8-sfer-ezikiw]: https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design "Architectural Simulation for Exascale Hardware/Software Co-design {Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.}"
+[9-sfer-ezikiw]: https://www.design-reuse.com/articles/31951/the-power-of-developing-hardware-and-software-in-parallel.html "The Power of Developing Hardware and Software in Parallel {De Schutter T. (~2012) The Power of Developing Hardware and Software in Parallel, webpage @ design-reuse.com}"
+[10-sfer-ezikiw]: http://web.mit.edu/digitalapollo/Documents/Chapter6/hoagprogreport.pdf?#page=24 "Hoag Report including DAP Design and Performance {Hoag DG. (April 1969) Apollo Navigation, Guidance and Control Systems: A Progress Report, MIT-IL E-2411}"
+[11-sfer-ezikiw]: https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html "MathWorks Model of DAP"
+[12-sfer-ezikiw]: http://www.ibiblio.org/apollo/hrst/archive/1695.pdf "AGC Software Development Plan {Wilson RE., Copps E. et al (October 1967) Apollo Guidance Software Development and Verification Plan, 43 pages}"
+[13-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1687.pdf?#page=40 "Example AGC Interpretive Program To Find Quadratic Roots {Muntz CA. (1965) User's Guide to the Block II AGC/LGC Interpreter, MIT-IL, R-489, 70 pages}"
+[14-sfer-ezikiw]: https://history.nasa.gov/computers/Ch2-6.html "Overview of Software Development Issues {Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages}"
+[15-sfer-ezikiw]: https://www.airspacemag.com/space/practicing-safe-software-180962744/ "Air & Space Article on Mariner 1 {Goodman B, (August 1994) Practicing Safe Software Smithsonian Air and Space Magazine, p. 60}"
+[16-sfer-ezikiw]: https://authors.library.caltech.edu/5456/1/hrst.mit.edu/hrs/apollo/public/conference1/hamilton-intro.htm "Transcript of Interview with Margaret Hamilton"
+[17-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1728.pdf "AGC Software Development Productivity and Costs {Rankin DA. (1972) A Model of the Cost of Software Development for the Apollo Spacecraft Computer, Masters Thesis, MIT}"
+[18-sfer-ezikiw]: https://history.nasa.gov/SP-4029/Apollo_18-16_Apollo_Program_Budget_Appropriations.htm "Apollo Budget By Sub-Program and Year"
+[19-sfer-ezikiw]: https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf "List of Software Studies Underway in 1962 {Battin RH (July 1962) SGA Studies Presently Underway, Space Guidance Analysis Memo #11, MIT-IL, 9 pages}"
+[20-sfer-ezikiw]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "Part 1 in this series"
+[21-sfer-ezikiw]: https://www.computer.org/publications/tech-news/events/what-to-know-about-the-scientist-who-invented-the-term-software-engineering "Origin of the term 'Software Engineering' {Cameron L () What to Know about the Scientist who Invented the term 'Software Engineering', IEEE Computer Society webpage}"
+[22-sfer-ezikiw]: https://www.nasa.gov/feature/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom "Margaret Hamilton Medal of Freedom {Russo NP (November 2016) Margaret Hamilton, Apollo Software Engineer, Awarded Presidential Medal of Freedom, NASA History Division webpage}"
+[23-sfer-ezikiw]: https://www.google.com/search?client=safari&rls=en&ei=YeryXMO2H6m_0PEPvciWiA8&q=what+is+co-design+in+computing&oq=what+is&gs_l=psy-ab.1.0.35i39l2j0i67l5j0l2j0i131.1499.3009..4244...2.0..0.121.836.5j4......0....1..gws-wiz.......0i71j0i10j0i10i67.bQxpLbPTVwU "Google Search co-design in computing"
+[24-sfer-ezikiw]: https://www.ibiblio.org/apollo/AGC-versions.jpg "AGC Software Version History"
+[25-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/EXECUTIVE.agc "AGC source code for Executive"
+[26-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/WAITLIST.agc "AGC source code for Waitlist"
+[27-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/INTERPRETER.agc "AGC source code for Interpreter"
+[28-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/PINBALL_GAME__BUTTONS_AND_LIGHTS.agc "AGC source code for DSKY and cockpit displays"
+[29-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/DOWN-TELEMETRY_PROGRAM.agc "AGC source code for Downlink"
+[30-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/FRESH_START_AND_RESTART.agc "AGC source code for restart"
+[31-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTARTS_ROUTINE.agc "AGC source code for Interpretive routine restart"
+[32-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTART_TABLES.agc "AGC source code for restart phase tables"
+[33-sfer-ezikiw]: https://www.spaceartifactsarchive.com/2013/05/the-star-chart-of-apollo.html "Apollo space sextant {McGlynn L (May 2013) Star Charts of Apollo webpage}"
+[34-sfer-ezikiw]: https://www.ibiblio.org/apollo/Documents/SGA_Memo12_620716.pdf "Position of Moon analysis {Potter JE (July 1962) Storing Position of Moon, Space Guidance Analysis Memo #12, MIT-IL, 7 pages}"
+[35-sfer-ezikiw]: https://en.wikipedia.org/wiki/Mariner_1 "Overview of Mariner 1"
+[36-sfer-ezikiw]: https://ocw.mit.edu/courses/science-technology-and-society/sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007/readings/1_4_9_mit_role.pdf "MIT's Role in The Apollo Project: The Software Effort (Volume V) {Johnson MS Giller DR (1971) MIT's Role in the Project: Final Report on Contracts, Vol. 5 The Software Effort, NAS 9-153 & NAS 9-4065}"
+[37-sfer-ezikiw]: https://en.wikipedia.org/wiki/Lunar_orbit_rendezvous "Description of Lunar Orbit Rendezvous (LOR)"
+[38-sfer-ezikiw]: https://theagileadmin.com/what-is-devops/ "What is DevOps?"
+[39-sfer-ezikiw]: https://history.nasa.gov/computers/Ch2-5.html "Computers in Spaceflight {Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages}"
+[40-sfer-ezikiw]: https://en.wikipedia.org/wiki/List_of_Apollo_missions "List of Apollo Flights"
+[41-sfer-ezikiw]: https://github.com/virtualagc/virtualagc/blob/master/Colossus249/STAR_TABLES.agc "AGC source code for star tables"
+[42-sfer-ezikiw]: https://en.wikipedia.org/wiki/Kalman_filter "Description of Kalman filter"
+[43-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1719.pdf "Automatic Documentation System {Dunbar JC, Larson RA, Augart PT (May 1966) An Automated Documentation Technique for Integrating Apollo Crew Procedures and Computer Logic, MIT-IL, E-1956}"
+[44-sfer-ezikiw]: http://web.mit.edu/slava/space/introduction.htm "Russian Argon-11S Guidance Computer"
+[45-sfer-ezikiw]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=25 "AGC CM Major Mode Programs"
+[46-sfer-ezikiw]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31 "AGC CM DAP Configuration"
+[47-sfer-ezikiw]: https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29 "AGC CM Star Names"
+[48-sfer-ezikiw]: https://en.wikipedia.org/wiki/Zond_7 "Russian Zond-7 Mission"
+[49-sfer-ezikiw]: https://en.wikipedia.org/wiki/Fly-by-wire#Digital_systems "Description of Fly By Wire"
+[50-sfer-ezikiw]: http://www.gravityassist.com/IAF-3.3%202010/Ref.%203-230.pdf "MIT Algebraic Compiler (MAC) Language {Laning, J.H., Jr. and Miller, J.S., (1970), MIT Instrumentation Laboratory report R-681, (MIT Charles Stark Draper Laboratory, Report R-681) Cambridge, Mass., November 1970}"
+[51-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1678.pdf "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software {Glick FK, Femino SR (January, 1970) MIT-IL Report E-2475, 31 pages}"
+[52-sfer-ezikiw]: http://web.mit.edu/aeroastro/news/magazine/aeroastro6/mit-apollo.html "MIT and navigating a path to the moon {AeroAstro Magazine annual report of the MIT Aeronautics and Astronautics Department}"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
+[2]: #sfer-ezikiw-2 "Earth's Lumpy Gravity Field"
+[3]: #sfer-ezikiw-3 "Moon's Lumpy Gravity Field"
+[4]: #sfer-ezikiw-4 "Great Article on AGC Software"
+[5]: #sfer-ezikiw-5 "Tales from the Lunar Landing"
+[6]: #sfer-ezikiw-6 "DAP Design Then and Now with MathWorks"
+[7]: #sfer-ezikiw-7 "Virtual AGC Project Home Page"
+[8]: #sfer-ezikiw-8 "Architectural Simulation for Exascale Hardware/Software Co-design"
+[9]: #sfer-ezikiw-9 "The Power of Developing Hardware and Software in Parallel"
+[10]: #sfer-ezikiw-10 "Hoag Report including DAP Design and Performance"
+[11]: #sfer-ezikiw-11 "MathWorks Model of DAP"
+[12]: #sfer-ezikiw-12 "AGC Software Development Plan"
+[13]: #sfer-ezikiw-13 "Example AGC Interpretive Program To Find Quadratic Roots"
+[14]: #sfer-ezikiw-14 "Overview of Software Development Issues"
+[15]: #sfer-ezikiw-15 "Air & Space Article on Mariner 1"
+[16]: #sfer-ezikiw-16 "Transcript of Interview with Margaret Hamilton"
+[17]: #sfer-ezikiw-17 "AGC Software Development Productivity and Costs"
+[18]: #sfer-ezikiw-18 "Apollo Budget By Sub-Program and Year"
+[19]: #sfer-ezikiw-19 "List of Software Studies Underway in 1962"
+[20]: #sfer-ezikiw-20 "Part 1 in this series"
+[21]: #sfer-ezikiw-21 "Origin of the term 'Software Engineering'"
+[22]: #sfer-ezikiw-22 "Margaret Hamilton Medal of Freedom"
+[23]: #sfer-ezikiw-23 "Google Search co-design in computing"
+[24]: #sfer-ezikiw-24 "AGC Software Version History"
+[25]: #sfer-ezikiw-25 "AGC source code for Executive"
+[26]: #sfer-ezikiw-26 "AGC source code for Waitlist"
+[27]: #sfer-ezikiw-27 "AGC source code for Interpreter"
+[28]: #sfer-ezikiw-28 "AGC source code for DSKY and cockpit displays"
+[29]: #sfer-ezikiw-29 "AGC source code for Downlink"
+[30]: #sfer-ezikiw-30 "AGC source code for restart"
+[31]: #sfer-ezikiw-31 "AGC source code for Interpretive routine restart"
+[32]: #sfer-ezikiw-32 "AGC source code for restart phase tables"
+[33]: #sfer-ezikiw-33 "Apollo space sextant"
+[34]: #sfer-ezikiw-34 "Position of Moon analysis"
+[35]: #sfer-ezikiw-35 "Overview of Mariner 1"
+[36]: #sfer-ezikiw-36 "MIT's Role in The Apollo Project: The Software Effort (Volume V)"
+[37]: #sfer-ezikiw-37 "Description of Lunar Orbit Rendezvous (LOR)"
+[38]: #sfer-ezikiw-38 "What is DevOps?"
+[39]: #sfer-ezikiw-39 "Computers in Spaceflight"
+[40]: #sfer-ezikiw-40 "List of Apollo Flights"
+[41]: #sfer-ezikiw-41 "AGC source code for star tables"
+[42]: #sfer-ezikiw-42 "Description of Kalman filter"
+[43]: #sfer-ezikiw-43 "Automatic Documentation System"
+[44]: #sfer-ezikiw-44 "Russian Argon-11S Guidance Computer"
+[45]: #sfer-ezikiw-45 "AGC CM Major Mode Programs"
+[46]: #sfer-ezikiw-46 "AGC CM DAP Configuration"
+[47]: #sfer-ezikiw-47 "AGC CM Star Names"
+[48]: #sfer-ezikiw-48 "Russian Zond-7 Mission"
+[49]: #sfer-ezikiw-49 "Description of Fly By Wire"
+[50]: #sfer-ezikiw-50 "MIT Algebraic Compiler (MAC) Language"
+[51]: #sfer-ezikiw-51 "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software"
+[52]: #sfer-ezikiw-52 "MIT and navigating a path to the moon"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/images/raw/master/397_apollo_flightdiagram.jpg)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Earth's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravity_of_Earth)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Moon's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravitation_of_the_Moon)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Great Article on AGC Software<br>Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147](https://www.americanscientist.org/article/moonshot-computing)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Tales from the Lunar Landing<br>Eyles D. (March 2018) 'SUNBURST and LUMINARY An Apollo Memoir, Fort Point Press, Boston, ISBN-13: 978-0986385902](http://www.klabs.org/history/apollo_11_alarms/eyles_2004/eyles_2004.htm)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[DAP Design Then and Now with MathWorks<br>Gran RJ. (1999) Fly Me to the Moon - Then and Now, webpage @ mathworks.com](https://www.mathworks.com/company/newsletters/articles/fly-me-to-the-moon-then-and-now.html)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Virtual AGC Project Home Page](https://www.ibiblio.org/apollo/index.html)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Architectural Simulation for Exascale Hardware/Software Co-design<br>Janssen, Curtis & Quinlan, Dan & Shalf, John. (2019). Architectural Simulation for Exascale Hardware/Software Co-design.](https://www.researchgate.net/publication/228517819_Architectural_Simulation_for_Exascale_HardwareSoftware_Co-design)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[The Power of Developing Hardware and Software in Parallel<br>De Schutter T. (~2012) The Power of Developing Hardware and Software in Parallel, webpage @ design-reuse.com](https://www.design-reuse.com/articles/31951/the-power-of-developing-hardware-and-software-in-parallel.html)
+* <a name="sfer-ezikiw-10"></a><sup>10</sup>[Hoag Report including DAP Design and Performance<br>Hoag DG. (April 1969) Apollo Navigation, Guidance and Control Systems: A Progress Report, MIT-IL E-2411](http://web.mit.edu/digitalapollo/Documents/Chapter6/hoagprogreport.pdf?#page=24)
+* <a name="sfer-ezikiw-11"></a><sup>11</sup>[MathWorks Model of DAP](https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html)
+* <a name="sfer-ezikiw-12"></a><sup>12</sup>[AGC Software Development Plan<br>Wilson RE., Copps E. et al (October 1967) Apollo Guidance Software Development and Verification Plan, 43 pages](http://www.ibiblio.org/apollo/hrst/archive/1695.pdf)
+* <a name="sfer-ezikiw-13"></a><sup>13</sup>[Example AGC Interpretive Program To Find Quadratic Roots<br>Muntz CA. (1965) User's Guide to the Block II AGC/LGC Interpreter, MIT-IL, R-489, 70 pages](https://www.ibiblio.org/apollo/hrst/archive/1687.pdf?#page=40)
+* <a name="sfer-ezikiw-14"></a><sup>14</sup>[Overview of Software Development Issues<br>Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages](https://history.nasa.gov/computers/Ch2-6.html)
+* <a name="sfer-ezikiw-15"></a><sup>15</sup>[Air & Space Article on Mariner 1<br>Goodman B, (August 1994) Practicing Safe Software Smithsonian Air and Space Magazine, p. 60](https://www.airspacemag.com/space/practicing-safe-software-180962744/)
+* <a name="sfer-ezikiw-16"></a><sup>16</sup>[Transcript of Interview with Margaret Hamilton](https://authors.library.caltech.edu/5456/1/hrst.mit.edu/hrs/apollo/public/conference1/hamilton-intro.htm)
+* <a name="sfer-ezikiw-17"></a><sup>17</sup>[AGC Software Development Productivity and Costs<br>Rankin DA. (1972) A Model of the Cost of Software Development for the Apollo Spacecraft Computer, Masters Thesis, MIT](https://www.ibiblio.org/apollo/hrst/archive/1728.pdf)
+* <a name="sfer-ezikiw-18"></a><sup>18</sup>[Apollo Budget By Sub-Program and Year](https://history.nasa.gov/SP-4029/Apollo_18-16_Apollo_Program_Budget_Appropriations.htm)
+* <a name="sfer-ezikiw-19"></a><sup>19</sup>[List of Software Studies Underway in 1962<br>Battin RH (July 1962) SGA Studies Presently Underway, Space Guidance Analysis Memo #11, MIT-IL, 9 pages](https://www.ibiblio.org/apollo/Documents/SGA_Memo11_620716.pdf)
+* <a name="sfer-ezikiw-20"></a><sup>20</sup>[Part 1 in this series](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap)
+* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Origin of the term 'Software Engineering'<br>Cameron L () What to Know about the Scientist who Invented the term 'Software Engineering', IEEE Computer Society webpage](https://www.computer.org/publications/tech-news/events/what-to-know-about-the-scientist-who-invented-the-term-software-engineering)
+* <a name="sfer-ezikiw-22"></a><sup>22</sup>[Margaret Hamilton Medal of Freedom<br>Russo NP (November 2016) Margaret Hamilton, Apollo Software Engineer, Awarded Presidential Medal of Freedom, NASA History Division webpage](https://www.nasa.gov/feature/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom)
+* <a name="sfer-ezikiw-23"></a><sup>23</sup>[Google Search co-design in computing](https://www.google.com/search?client=safari&rls=en&ei=YeryXMO2H6m_0PEPvciWiA8&q=what+is+co-design+in+computing&oq=what+is&gs_l=psy-ab.1.0.35i39l2j0i67l5j0l2j0i131.1499.3009..4244...2.0..0.121.836.5j4......0....1..gws-wiz.......0i71j0i10j0i10i67.bQxpLbPTVwU)
+* <a name="sfer-ezikiw-24"></a><sup>24</sup>[AGC Software Version History](https://www.ibiblio.org/apollo/AGC-versions.jpg)
+* <a name="sfer-ezikiw-25"></a><sup>25</sup>[AGC source code for Executive](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/EXECUTIVE.agc)
+* <a name="sfer-ezikiw-26"></a><sup>26</sup>[AGC source code for Waitlist](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/WAITLIST.agc)
+* <a name="sfer-ezikiw-27"></a><sup>27</sup>[AGC source code for Interpreter](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/INTERPRETER.agc)
+* <a name="sfer-ezikiw-28"></a><sup>28</sup>[AGC source code for DSKY and cockpit displays](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/PINBALL_GAME__BUTTONS_AND_LIGHTS.agc)
+* <a name="sfer-ezikiw-29"></a><sup>29</sup>[AGC source code for Downlink](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/DOWN-TELEMETRY_PROGRAM.agc)
+* <a name="sfer-ezikiw-30"></a><sup>30</sup>[AGC source code for restart](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/FRESH_START_AND_RESTART.agc)
+* <a name="sfer-ezikiw-31"></a><sup>31</sup>[AGC source code for Interpretive routine restart](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTARTS_ROUTINE.agc)
+* <a name="sfer-ezikiw-32"></a><sup>32</sup>[AGC source code for restart phase tables](https://github.com/virtualagc/virtualagc/blob/master/Luminary069/RESTART_TABLES.agc)
+* <a name="sfer-ezikiw-33"></a><sup>33</sup>[Apollo space sextant<br>McGlynn L (May 2013) Star Charts of Apollo webpage](https://www.spaceartifactsarchive.com/2013/05/the-star-chart-of-apollo.html)
+* <a name="sfer-ezikiw-34"></a><sup>34</sup>[Position of Moon analysis<br>Potter JE (July 1962) Storing Position of Moon, Space Guidance Analysis Memo #12, MIT-IL, 7 pages](https://www.ibiblio.org/apollo/Documents/SGA_Memo12_620716.pdf)
+* <a name="sfer-ezikiw-35"></a><sup>35</sup>[Overview of Mariner 1](https://en.wikipedia.org/wiki/Mariner_1)
+* <a name="sfer-ezikiw-36"></a><sup>36</sup>[MIT's Role in The Apollo Project: The Software Effort (Volume V)<br>Johnson MS Giller DR (1971) MIT's Role in the Project: Final Report on Contracts, Vol. 5 The Software Effort, NAS 9-153 & NAS 9-4065](https://ocw.mit.edu/courses/science-technology-and-society/sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007/readings/1_4_9_mit_role.pdf)
+* <a name="sfer-ezikiw-37"></a><sup>37</sup>[Description of Lunar Orbit Rendezvous (LOR)](https://en.wikipedia.org/wiki/Lunar_orbit_rendezvous)
+* <a name="sfer-ezikiw-38"></a><sup>38</sup>[What is DevOps?](https://theagileadmin.com/what-is-devops/)
+* <a name="sfer-ezikiw-39"></a><sup>39</sup>[Computers in Spaceflight<br>Kent A, Williams JG (~1987) Computers in Spaceflight: The NASA Experience, web pages](https://history.nasa.gov/computers/Ch2-5.html)
+* <a name="sfer-ezikiw-40"></a><sup>40</sup>[List of Apollo Flights](https://en.wikipedia.org/wiki/List_of_Apollo_missions)
+* <a name="sfer-ezikiw-41"></a><sup>41</sup>[AGC source code for star tables](https://github.com/virtualagc/virtualagc/blob/master/Colossus249/STAR_TABLES.agc)
+* <a name="sfer-ezikiw-42"></a><sup>42</sup>[Description of Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter)
+* <a name="sfer-ezikiw-43"></a><sup>43</sup>[Automatic Documentation System<br>Dunbar JC, Larson RA, Augart PT (May 1966) An Automated Documentation Technique for Integrating Apollo Crew Procedures and Computer Logic, MIT-IL, E-1956](https://www.ibiblio.org/apollo/hrst/archive/1719.pdf)
+* <a name="sfer-ezikiw-44"></a><sup>44</sup>[Russian Argon-11S Guidance Computer](http://web.mit.edu/slava/space/introduction.htm)
+* <a name="sfer-ezikiw-45"></a><sup>45</sup>[AGC CM Major Mode Programs](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=25)
+* <a name="sfer-ezikiw-46"></a><sup>46</sup>[AGC CM DAP Configuration](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=31)
+* <a name="sfer-ezikiw-47"></a><sup>47</sup>[AGC CM Star Names](https://www.ibiblio.org/apollo/CMC_data_cards_15_Fabrizio_Bernardini.pdf?#page=29)
+* <a name="sfer-ezikiw-48"></a><sup>48</sup>[Russian Zond-7 Mission](https://en.wikipedia.org/wiki/Zond_7)
+* <a name="sfer-ezikiw-49"></a><sup>49</sup>[Description of Fly By Wire](https://en.wikipedia.org/wiki/Fly-by-wire#Digital_systems)
+* <a name="sfer-ezikiw-50"></a><sup>50</sup>[MIT Algebraic Compiler (MAC) Language<br>Laning, J.H., Jr. and Miller, J.S., (1970), MIT Instrumentation Laboratory report R-681, (MIT Charles Stark Draper Laboratory, Report R-681) Cambridge, Mass., November 1970](http://www.gravityassist.com/IAF-3.3%202010/Ref.%203-230.pdf)
+* <a name="sfer-ezikiw-51"></a><sup>51</sup>[A Comprehensive Digital Simulation for the Verification of Apollo Flight Software<br>Glick FK, Femino SR (January, 1970) MIT-IL Report E-2475, 31 pages](https://www.ibiblio.org/apollo/hrst/archive/1678.pdf)
+* <a name="sfer-ezikiw-52"></a><sup>52</sup>[MIT and navigating a path to the moon<br>AeroAstro Magazine annual report of the MIT Aeronautics and Astronautics Department](http://web.mit.edu/aeroastro/news/magazine/aeroastro6/mit-apollo.html)

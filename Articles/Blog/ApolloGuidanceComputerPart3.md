@@ -274,96 +274,88 @@ Aggregate: none
 
 <br>
 
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "AGC Blog Part 1"
-[2]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github "AGC Blog Part 2"
-[3]: https://youtu.be/hCywOf0Czgg?t=1841 "Presentation by Dave Scott about the AGC"
-[4]: https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720025984.pdf "Erasable Memory Programs"
-[5]: https://www.ibiblio.org/apollo/A17_VN_Checklist.png "Verbs and Nouns Cheat Sheet"
-[6]: https://youtu.be/22adjMrYl0E?t=20 "Demonstrating DSKY during Apollo 11"
-[7]: https://www.doneyles.com/LM/Tales.html "Done Eyles definitive description of Apollo 11 program alarms"
-[8]: https://www.airspacemag.com/daily-planet/troubleshooting-101-1201-actually-and-1202-too-111339271/ "Program alarms simulation"
-[9]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design"
-[10]: https://en.wikipedia.org/wiki/Cycle_stealing "Description of Cycle Stealing"
-[11]: https://www.ibiblio.org/apollo/yaAGS.html "Description of AGS"
-[12]: https://www.ibiblio.org/apollo/LVDC.html "Description of LVDC"
-[13]: https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips "AGC and the First Si Chips"
-[14]: https://youtu.be/wSSmNUl9Snw "Video describing Apollo 14 fix"
-[15]: https://youtu.be/cPxaGrcimMQ?t=612 "AGC Restoration"
-[16]: https://youtu.be/fjAeBJrsj5Q "CG Simulation of Apollo CSM and DSKY during re-entry"
-[17]: https://en.wikipedia.org/wiki/Rigid_body_dynamics#Rotation_in_three_dimensions "Rotation Dynamics of a Rigid Body"
-[18]: http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node61.html "Rigid Body Rotation"
-[19]: https://youtu.be/BPMjcN-sBJ4 "Demonstration of Free Body Rotation in Micro-Gravity"
-[20]: https://en.wikipedia.org/wiki/HAL_9000 "HAL 9000 Computer"
-[21]: https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation "Lauren Hamilton crashes the AGC"
-[22]: https://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html "Keystrokes to enable abort"
-[23]: https://www.hq.nasa.gov/alsj/a14/a14.landing.html "Apollo 14 Journal"
-[24]: https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample) "Big Bertha Apollo 14 Rock Sample"
-[25]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer "Apollo Guidance Computer"
-[26]: https://en.wikipedia.org/wiki/Surveyor_3 "Surveyor III"
-[27]: http://www.computer-museum.ru/english/argon11c.htm "Russian Argon-11C Guidance Computer"
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "AGC Blog Part 1"
-[2]: #ref2 "AGC Blog Part 2"
-[3]: #ref3 "Presentation by Dave Scott about the AGC"
-[4]: #ref4 "Erasable Memory Programs"
-[5]: #ref5 "Verbs and Nouns Cheat Sheet"
-[6]: #ref6 "Demonstrating DSKY during Apollo 11"
-[7]: #ref7 "Done Eyles definitive description of Apollo 11 program alarms"
-[8]: #ref8 "Program alarms simulation"
-[9]: #ref9 "AGC Restart System Design"
-[10]: #ref10 "Description of Cycle Stealing"
-[11]: #ref11 "Description of AGS"
-[12]: #ref12 "Description of LVDC"
-[13]: #ref13 "AGC and the First Si Chips"
-[14]: #ref14 "Video describing Apollo 14 fix"
-[15]: #ref15 "AGC Restoration"
-[16]: #ref16 "CG Simulation of Apollo CSM and DSKY during re-entry"
-[17]: #ref17 "Rotation Dynamics of a Rigid Body"
-[18]: #ref18 "Rigid Body Rotation"
-[19]: #ref19 "Demonstration of Free Body Rotation in Micro-Gravity"
-[20]: #ref20 "HAL 9000 Computer"
-[21]: #ref21 "Lauren Hamilton crashes the AGC"
-[22]: #ref22 "Keystrokes to enable abort"
-[23]: #ref23 "Apollo 14 Journal"
-[24]: #ref24 "Big Bertha Apollo 14 Rock Sample"
-[25]: #ref25 "Apollo Guidance Computer"
-[26]: #ref26 "Surveyor III"
-[27]: #ref27 "Russian Argon-11C Guidance Computer"
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [AGC Blog Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap)
-<a name="ref2"></a>2 | [AGC Blog Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github)
-<a name="ref3"></a>3 | [Presentation by Dave Scott about the AGC](https://youtu.be/hCywOf0Czgg?t=1841)
-<a name="ref4"></a>4 | [Erasable Memory Programs](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720025984.pdf)
-<a name="ref5"></a>5 | [Verbs and Nouns Cheat Sheet](https://www.ibiblio.org/apollo/A17_VN_Checklist.png)
-<a name="ref6"></a>6 | [Demonstrating DSKY during Apollo 11](https://youtu.be/22adjMrYl0E?t=20)
-<a name="ref7"></a>7 | [Done Eyles definitive description of Apollo 11 program alarms](https://www.doneyles.com/LM/Tales.html)
-<a name="ref8"></a>8 | [Program alarms simulation](https://www.airspacemag.com/daily-planet/troubleshooting-101-1201-actually-and-1202-too-111339271/)
-<a name="ref9"></a>9 | [AGC Restart System Design](https://www.ibiblio.org/apollo/hrst/archive/1033.pdf)
-<a name="ref10"></a>10 | [Description of Cycle Stealing](https://en.wikipedia.org/wiki/Cycle_stealing)
-<a name="ref11"></a>11 | [Description of AGS](https://www.ibiblio.org/apollo/yaAGS.html)
-<a name="ref12"></a>12 | [Description of LVDC](https://www.ibiblio.org/apollo/LVDC.html)
-<a name="ref13"></a>13 | [AGC and the First Si Chips](https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips)
-<a name="ref14"></a>14 | [Video describing Apollo 14 fix](https://youtu.be/wSSmNUl9Snw)
-<a name="ref15"></a>15 | [AGC Restoration](https://youtu.be/cPxaGrcimMQ?t=612)
-<a name="ref16"></a>16 | [CG Simulation of Apollo CSM and DSKY during re-entry](https://youtu.be/fjAeBJrsj5Q)
-<a name="ref17"></a>17 | [Rotation Dynamics of a Rigid Body](https://en.wikipedia.org/wiki/Rigid_body_dynamics#Rotation_in_three_dimensions)
-<a name="ref18"></a>18 | [Rigid Body Rotation](http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node61.html)
-<a name="ref19"></a>19 | [Demonstration of Free Body Rotation in Micro-Gravity](https://youtu.be/BPMjcN-sBJ4)
-<a name="ref20"></a>20 | [HAL 9000 Computer](https://en.wikipedia.org/wiki/HAL_9000)
-<a name="ref21"></a>21 | [Lauren Hamilton crashes the AGC](https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation)
-<a name="ref22"></a>22 | [Keystrokes to enable abort](https://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html)
-<a name="ref23"></a>23 | [Apollo 14 Journal](https://www.hq.nasa.gov/alsj/a14/a14.landing.html)
-<a name="ref24"></a>24 | [Big Bertha Apollo 14 Rock Sample](https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample))
-<a name="ref25"></a>25 | [Apollo Guidance Computer](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
-<a name="ref26"></a>26 | [Surveyor III](https://en.wikipedia.org/wiki/Surveyor_3)
-<a name="ref27"></a>27 | [Russian Argon-11C Guidance Computer](http://www.computer-museum.ru/english/argon11c.htm)
+[1-sfer-ezikiw]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap "AGC Blog Part 1"
+[2-sfer-ezikiw]: https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github "AGC Blog Part 2"
+[3-sfer-ezikiw]: https://youtu.be/hCywOf0Czgg?t=1841 "Presentation by Dave Scott about the AGC"
+[4-sfer-ezikiw]: https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720025984.pdf "Erasable Memory Programs"
+[5-sfer-ezikiw]: https://www.ibiblio.org/apollo/A17_VN_Checklist.png "Verbs and Nouns Cheat Sheet"
+[6-sfer-ezikiw]: https://youtu.be/22adjMrYl0E?t=20 "Demonstrating DSKY during Apollo 11"
+[7-sfer-ezikiw]: https://www.doneyles.com/LM/Tales.html "Done Eyles definitive description of Apollo 11 program alarms"
+[8-sfer-ezikiw]: https://www.airspacemag.com/daily-planet/troubleshooting-101-1201-actually-and-1202-too-111339271/ "Program alarms simulation"
+[9-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design"
+[10-sfer-ezikiw]: https://en.wikipedia.org/wiki/Cycle_stealing "Description of Cycle Stealing"
+[11-sfer-ezikiw]: https://www.ibiblio.org/apollo/yaAGS.html "Description of AGS"
+[12-sfer-ezikiw]: https://www.ibiblio.org/apollo/LVDC.html "Description of LVDC"
+[13-sfer-ezikiw]: https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips "AGC and the First Si Chips"
+[14-sfer-ezikiw]: https://youtu.be/wSSmNUl9Snw "Video describing Apollo 14 fix"
+[15-sfer-ezikiw]: https://youtu.be/cPxaGrcimMQ?t=612 "AGC Restoration"
+[16-sfer-ezikiw]: https://youtu.be/fjAeBJrsj5Q "CG Simulation of Apollo CSM and DSKY during re-entry"
+[17-sfer-ezikiw]: https://en.wikipedia.org/wiki/Rigid_body_dynamics#Rotation_in_three_dimensions "Rotation Dynamics of a Rigid Body"
+[18-sfer-ezikiw]: http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node61.html "Rigid Body Rotation"
+[19-sfer-ezikiw]: https://youtu.be/BPMjcN-sBJ4 "Demonstration of Free Body Rotation in Micro-Gravity"
+[20-sfer-ezikiw]: https://en.wikipedia.org/wiki/HAL_9000 "HAL 9000 Computer"
+[21-sfer-ezikiw]: https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation "Lauren Hamilton crashes the AGC"
+[22-sfer-ezikiw]: https://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html "Keystrokes to enable abort"
+[23-sfer-ezikiw]: https://www.hq.nasa.gov/alsj/a14/a14.landing.html "Apollo 14 Journal"
+[24-sfer-ezikiw]: https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample) "Big Bertha Apollo 14 Rock Sample"
+[25-sfer-ezikiw]: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer "Apollo Guidance Computer"
+[26-sfer-ezikiw]: https://en.wikipedia.org/wiki/Surveyor_3 "Surveyor III"
+[27-sfer-ezikiw]: http://www.computer-museum.ru/english/argon11c.htm "Russian Argon-11C Guidance Computer"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "AGC Blog Part 1"
+[2]: #sfer-ezikiw-2 "AGC Blog Part 2"
+[3]: #sfer-ezikiw-3 "Presentation by Dave Scott about the AGC"
+[4]: #sfer-ezikiw-4 "Erasable Memory Programs"
+[5]: #sfer-ezikiw-5 "Verbs and Nouns Cheat Sheet"
+[6]: #sfer-ezikiw-6 "Demonstrating DSKY during Apollo 11"
+[7]: #sfer-ezikiw-7 "Done Eyles definitive description of Apollo 11 program alarms"
+[8]: #sfer-ezikiw-8 "Program alarms simulation"
+[9]: #sfer-ezikiw-9 "AGC Restart System Design"
+[10]: #sfer-ezikiw-10 "Description of Cycle Stealing"
+[11]: #sfer-ezikiw-11 "Description of AGS"
+[12]: #sfer-ezikiw-12 "Description of LVDC"
+[13]: #sfer-ezikiw-13 "AGC and the First Si Chips"
+[14]: #sfer-ezikiw-14 "Video describing Apollo 14 fix"
+[15]: #sfer-ezikiw-15 "AGC Restoration"
+[16]: #sfer-ezikiw-16 "CG Simulation of Apollo CSM and DSKY during re-entry"
+[17]: #sfer-ezikiw-17 "Rotation Dynamics of a Rigid Body"
+[18]: #sfer-ezikiw-18 "Rigid Body Rotation"
+[19]: #sfer-ezikiw-19 "Demonstration of Free Body Rotation in Micro-Gravity"
+[20]: #sfer-ezikiw-20 "HAL 9000 Computer"
+[21]: #sfer-ezikiw-21 "Lauren Hamilton crashes the AGC"
+[22]: #sfer-ezikiw-22 "Keystrokes to enable abort"
+[23]: #sfer-ezikiw-23 "Apollo 14 Journal"
+[24]: #sfer-ezikiw-24 "Big Bertha Apollo 14 Rock Sample"
+[25]: #sfer-ezikiw-25 "Apollo Guidance Computer"
+[26]: #sfer-ezikiw-26 "Surveyor III"
+[27]: #sfer-ezikiw-27 "Russian Argon-11C Guidance Computer"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[AGC Blog Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[AGC Blog Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Presentation by Dave Scott about the AGC](https://youtu.be/hCywOf0Czgg?t=1841)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Erasable Memory Programs](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720025984.pdf)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Verbs and Nouns Cheat Sheet](https://www.ibiblio.org/apollo/A17_VN_Checklist.png)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Demonstrating DSKY during Apollo 11](https://youtu.be/22adjMrYl0E?t=20)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Done Eyles definitive description of Apollo 11 program alarms](https://www.doneyles.com/LM/Tales.html)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Program alarms simulation](https://www.airspacemag.com/daily-planet/troubleshooting-101-1201-actually-and-1202-too-111339271/)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[AGC Restart System Design](https://www.ibiblio.org/apollo/hrst/archive/1033.pdf)
+* <a name="sfer-ezikiw-10"></a><sup>10</sup>[Description of Cycle Stealing](https://en.wikipedia.org/wiki/Cycle_stealing)
+* <a name="sfer-ezikiw-11"></a><sup>11</sup>[Description of AGS](https://www.ibiblio.org/apollo/yaAGS.html)
+* <a name="sfer-ezikiw-12"></a><sup>12</sup>[Description of LVDC](https://www.ibiblio.org/apollo/LVDC.html)
+* <a name="sfer-ezikiw-13"></a><sup>13</sup>[AGC and the First Si Chips](https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips)
+* <a name="sfer-ezikiw-14"></a><sup>14</sup>[Video describing Apollo 14 fix](https://youtu.be/wSSmNUl9Snw)
+* <a name="sfer-ezikiw-15"></a><sup>15</sup>[AGC Restoration](https://youtu.be/cPxaGrcimMQ?t=612)
+* <a name="sfer-ezikiw-16"></a><sup>16</sup>[CG Simulation of Apollo CSM and DSKY during re-entry](https://youtu.be/fjAeBJrsj5Q)
+* <a name="sfer-ezikiw-17"></a><sup>17</sup>[Rotation Dynamics of a Rigid Body](https://en.wikipedia.org/wiki/Rigid_body_dynamics#Rotation_in_three_dimensions)
+* <a name="sfer-ezikiw-18"></a><sup>18</sup>[Rigid Body Rotation](http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node61.html)
+* <a name="sfer-ezikiw-19"></a><sup>19</sup>[Demonstration of Free Body Rotation in Micro-Gravity](https://youtu.be/BPMjcN-sBJ4)
+* <a name="sfer-ezikiw-20"></a><sup>20</sup>[HAL 9000 Computer](https://en.wikipedia.org/wiki/HAL_9000)
+* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Lauren Hamilton crashes the AGC](https://wehackthemoon.com/people/margaret-hamilton-her-daughters-simulation)
+* <a name="sfer-ezikiw-22"></a><sup>22</sup>[Keystrokes to enable abort](https://www.hq.nasa.gov/alsj/a14/a14AbortDiscrete.html)
+* <a name="sfer-ezikiw-23"></a><sup>23</sup>[Apollo 14 Journal](https://www.hq.nasa.gov/alsj/a14/a14.landing.html)
+* <a name="sfer-ezikiw-24"></a><sup>24</sup>[Big Bertha Apollo 14 Rock Sample](https://en.wikipedia.org/wiki/Big_Bertha_(lunar_sample))
+* <a name="sfer-ezikiw-25"></a><sup>25</sup>[Apollo Guidance Computer](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
+* <a name="sfer-ezikiw-26"></a><sup>26</sup>[Surveyor III](https://en.wikipedia.org/wiki/Surveyor_3)
+* <a name="sfer-ezikiw-27"></a><sup>27</sup>[Russian Argon-11C Guidance Computer](http://www.computer-museum.ru/english/argon11c.htm)

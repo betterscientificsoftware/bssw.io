@@ -1,3 +1,10 @@
+---
+layout: page
+header:
+  image_fullwidth: gallery-07a.png
+permalink: "/contributors/"
+foo: gorfo
+---
 # Pull Request Size Matters
 
 <!-- deck text start -->
@@ -109,7 +116,7 @@ time up front to decide how to split large changes into manageable PRs that can 
 integrated into a large code base is as important as the design and coding work that goes
 into the bug fixes and feature enhancements the changes are proposed for to begin with.
 
-Some literature uses the notion of a *reviewable unit of work*<sup>[19]</sup>
+Some literature uses the notion of a “reviewable unit of work”<sup>[19]</sup>
 to separate the concept of code review from how it is practiced in any particular tool.
 A reviewable unit could be a
 PR, a commit, or a single file's patch/diff.<sup>[20]</sup>
@@ -138,14 +145,14 @@ for large and/or automated refactorings.
 
 <br>
 
-[1-sfer-ezikiw]: https://sback.it/publications/icse2018seip.pdf "Modern Code Review: A Case Study at Google"
+[1-sfer-ezikiw]: https://sback.it/publications/icse2018seip.pdf “Modern Code Review: A Case Study at Google”
 [2-sfer-ezikiw]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
 [3-sfer-ezikiw]: https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
 [4-sfer-ezikiw]: https://www.thedroidsonroids.com/blog/splitting-pull-request "How to Split Pull Requests – Good Practices, Methods and Git Strategies"
 [5-sfer-ezikiw]: https://derwolfe.net/2016/01/23/splitting-up-pull-requests/ "Splitting Up Pull Requests"
 [6-sfer-ezikiw]: https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/ "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
 [7-sfer-ezikiw]: https://www.michaelagreiler.com/stacked-pull-requests/ "Stacked pull requests: make code reviews faster, easier, and more effective"
-[8-sfer-ezikiw]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ "Stacked Diffs Versus Pull Requests"
+[8-sfer-ezikiw]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ ‘Stacked Diffs Versus Pull Requests’
 [9-sfer-ezikiw]: https://github.com/marketplace/stacked-pull-requests "Stacked Pull Requests"
 [10-sfer-ezikiw]: https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests "5 metrics Engineering Managers can extract from Pull Requests"
 [11-sfer-ezikiw]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ "Best Practices for Code Review"
@@ -164,14 +171,14 @@ for large and/or automated refactorings.
 [24-sfer-ezikiw]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository"
 [25-sfer-ezikiw]: https://news.ycombinator.com/item?id=13561096 "Hacker News commentary on Google's Billion Lines of Code Repository"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
-[1]: #sfer-ezikiw-1 "Modern Code Review: A Case Study at Google"
+[1]: #sfer-ezikiw-1 "“Modern Code Review: A Case Study at Google”"
 [2]: #sfer-ezikiw-2 "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
 [3]: #sfer-ezikiw-3 "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
 [4]: #sfer-ezikiw-4 "How to Split Pull Requests – Good Practices, Methods and Git Strategies"
 [5]: #sfer-ezikiw-5 "Splitting Up Pull Requests"
 [6]: #sfer-ezikiw-6 "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
 [7]: #sfer-ezikiw-7 "Stacked pull requests: make code reviews faster, easier, and more effective"
-[8]: #sfer-ezikiw-8 "Stacked Diffs Versus Pull Requests"
+[8]: #sfer-ezikiw-8 "‘Stacked Diffs Versus Pull Requests’"
 [9]: #sfer-ezikiw-9 "Stacked Pull Requests"
 [10]: #sfer-ezikiw-10 "5 metrics Engineering Managers can extract from Pull Requests"
 [11]: #sfer-ezikiw-11 "Best Practices for Code Review"
@@ -189,17 +196,15 @@ for large and/or automated refactorings.
 [23]: #sfer-ezikiw-23 "CodeStriker Project Home Page"
 [24]: #sfer-ezikiw-24 "Google's Billion Lines of Code Repository"
 [25]: #sfer-ezikiw-25 "Hacker News commentary on Google's Billion Lines of Code Repository"
-<!-- (sfer-ezikiw begin) -->
-### References
-<!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Modern Code Review: A Case Study at Google](https://sback.it/publications/icse2018seip.pdf)
+### References <!-- (sfer-ezikiw) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[“Modern Code Review: A Case Study at Google”](https://sback.it/publications/icse2018seip.pdf)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Characteristics of Useful Code Reviews: An Empirical Study at Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[How to Split Pull Requests – Good Practices, Methods and Git Strategies](https://www.thedroidsonroids.com/blog/splitting-pull-request)
 * <a name="sfer-ezikiw-5"></a><sup>5</sup>[Splitting Up Pull Requests](https://derwolfe.net/2016/01/23/splitting-up-pull-requests/)
 * <a name="sfer-ezikiw-6"></a><sup>6</sup>[5 Ways to Carve Large Pull Requests Into Bite-Sized Ones](https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/)
 * <a name="sfer-ezikiw-7"></a><sup>7</sup>[Stacked pull requests: make code reviews faster, easier, and more effective](https://www.michaelagreiler.com/stacked-pull-requests/)
-* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Stacked Diffs Versus Pull Requests](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[‘Stacked Diffs Versus Pull Requests’](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
 * <a name="sfer-ezikiw-9"></a><sup>9</sup>[Stacked Pull Requests](https://github.com/marketplace/stacked-pull-requests)
 * <a name="sfer-ezikiw-10"></a><sup>10</sup>[5 metrics Engineering Managers can extract from Pull Requests](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
 * <a name="sfer-ezikiw-11"></a><sup>11</sup>[Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)

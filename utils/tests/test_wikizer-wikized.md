@@ -41,11 +41,21 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 Vestibulum<sup>[abc]</sup> eu lacinia risus. Sed id mollis dui, et hendrerit orci. Sed ac tempus purus. Curabitur<sup>[26],[PSIP]</sup> venenatis eget elit eu posuere. Nunc euismod consequat lectus, nec aliquet nisl efficitur eu. Fusce a feugiat felis. Sed maximus metus eget tempus pharetra. Maecenas pharetra fermentum massa id bibendum. Integer ac metus iaculis, euismod purus et, convallis justo.
 
 
-[abc]: https://en.wikipedia.org/wiki/Mariner_1 "Info about Mariner 1 {}"
-[26]: https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf "The SAF Data Model"
-[PSIP]: https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5 "PSIP with HDF5"
+[abc-sfer-ezikiw]: https://en.wikipedia.org/wiki/Mariner_1 "Info about Mariner 1 {}"
+[26-sfer-ezikiw]: https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf "The SAF Data Model"
+[PSIP-sfer-ezikiw]: https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5 "PSIP with HDF5"
 
 <!---
 Publish: No
 --->
 
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[abc]: #sfer-ezikiw-abc "Info about Mariner 1"
+[26]: #sfer-ezikiw-26 "The SAF Data Model"
+[PSIP]: #sfer-ezikiw-PSIP "PSIP with HDF5"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-26"></a><sup>26</sup>[The SAF Data Model](https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf)
+* <a name="sfer-ezikiw-PSIP"></a><sup>PSIP</sup>[PSIP with HDF5](https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5)
+* <a name="sfer-ezikiw-abc"></a><sup>abc</sup>[Info about Mariner 1](https://en.wikipedia.org/wiki/Mariner_1)

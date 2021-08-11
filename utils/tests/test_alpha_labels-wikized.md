@@ -29,12 +29,12 @@ of these question is *not often* or *not ever*, you may be creating PRs that are
 by industry standards and practices too large.
 
 The
-*size* of a PR<sup>[10]</sup>
+*size* of a PR<sup>[abd]</sup>
 is typically measured in terms of number of files and/or lines of code (the sum of
 counts of deleted lines, modified lines and added lines).
-Some research<sup>[11]</sup>
+Some research<sup>[aac]</sup>
 suggests that more than 400 lines changed is considered *too large* for a single
-*review*. Other research,<sup>[1],[2],[3]</sup> suggests an inverse correlation between PR size
+*review*. Other research,<sup>[aaa],[aab],[abc]</sup> suggests an inverse correlation between PR size
 and defect rate. Reviewers suffer one or more of the following consequences the larger a
 PR is...
 * ...the more work reviewing the PR involves.
@@ -45,21 +45,21 @@ PR is...
 * ...the more likely second (and later) reviewers will either merely rubber-stamp an
 already approved PR or not bother to start a review if changes have already been requested.
 
-It is a best practice<sup>[11]</sup>
+It is a best practice<sup>[aac]</sup>
 to keep PRs small. The smaller the better. This is particularly true in high 
-churn<sup>[12]</sup> code bases.
+churn<sup>[ross]</sup> code bases.
 A first commandment in this enterprise is to never mix unrelated changes in the
 same PR. When many related changes are necessary as part of a major feature enhancement
-or maybe a large refactoring effort, a second commandment is to split the changes<sup>[4],[5],[6]</sup>
+or maybe a large refactoring effort, a second commandment is to split the changes<sup>[b],[c],[cc]</sup>
 over multiple PRs, each one representing an independently useful, value-added contribution to the code
 base and which builds towards the ultimate enhancement or refactor goal.
 
 Consider the changes to migrate a large code base from VTK-6 to VTK-8.
 When this was undertaken in VisIt in 2018,
-450K lines of code across 2,000+ files<sup>[13]</sup>
+450K lines of code across 2,000+ files<sup>[dave]</sup>
 were changed all committed in a single merge operation to the main development branch.
 To split this massive change across multiple PRs and branches (**note:**
-binary content in VisIt's Subversion repo at the time<sup>[14]</sup> would have made this impractical),
+binary content in VisIt's Subversion repo at the time<sup>[aae]</sup> would have made this impractical),
 the team could have agreed to a period of transition where both VTK versions
 were allowed to temporarily coexist or where portions of the code base were temporarily
 disabled or broken much like portions of a building or roadway system are closed during
@@ -69,7 +69,7 @@ Experience with
 Functional (or Feature) Breakdown Structure (FBS)<sup>[15]</sup> (the cousin to
 Work Breakdown Structure<sup>[16]</sup> and
 which might also be thought of as code *pre-factoring* as opposed to *refactoring*) and
-*stacked pull requests*<sup>[7],[8],[9]</sup>
+*stacked pull requests*<sup>[gorfo],[foo],[bar]</sup>
 are useful skills in breaking large changes into smaller, manageable steps. In addition,
 learning to use an integration branch<sup>[17]</sup> workflow may be useful.
 But, planning and implementing large software changes in small increments is not
@@ -112,17 +112,17 @@ into the bug fixes and feature enhancements the changes are proposed for to begi
 Some literature uses the notion of a *reviewable unit of work*<sup>[19]</sup>
 to separate the concept of code review from how it is practiced in any particular tool.
 A reviewable unit could be a
-PR, a commit, or a single file's patch/diff.<sup>[20]</sup>
+PR, a commit, or a single file's patch/diff.<sup>[mark]</sup>
 In fact, long before GitHub introduced pull requests in 2008 (which was
-in turn based on Git's `request-pull`<sup>[21]</sup> operation),
+in turn based on Git's `request-pull`<sup>[sue]</sup> operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
-patchwork of approaches and tools<sup>[22]</sup>
-(or using something like CodeStriker<sup>[23]</sup>) designed specifically for
+patchwork of approaches and tools<sup>[rose]</sup>
+(or using something like CodeStriker<sup>[e]</sup>) designed specifically for
 code review) which often even included emailing around patchfiles.
 
 Finally, some commercial companies such as Google claim not to use the branching mechanisms
 in version control systems to manage code review. Instead, most new features and changes
-in behavior are managed on a single, monolithic line of development<sup>[23],[24],[25]</sup>
+in behavior are managed on a single, monolithic line of development<sup>[e],[f],[h]</sup>
 (e.g. trunk or mainline) using *workspaces* (akin to a Subversion working-copy or a Git clone).
 Both new and old code paths often coexist in the one and only main line of development
 simultaneously, controlled by *toggle* flags, a practice that facilitates accepting large
@@ -138,82 +138,82 @@ for large and/or automated refactorings.
 
 <br>
 
-[1-sfer-ezikiw]: https://sback.it/publications/icse2018seip.pdf "Modern Code Review: A Case Study at Google"
-[2-sfer-ezikiw]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
-[3-sfer-ezikiw]: https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
-[4-sfer-ezikiw]: https://www.thedroidsonroids.com/blog/splitting-pull-request "How to Split Pull Requests – Good Practices, Methods and Git Strategies"
-[5-sfer-ezikiw]: https://derwolfe.net/2016/01/23/splitting-up-pull-requests/ "Splitting Up Pull Requests"
-[6-sfer-ezikiw]: https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/ "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
-[7-sfer-ezikiw]: https://www.michaelagreiler.com/stacked-pull-requests/ "Stacked pull requests: make code reviews faster, easier, and more effective"
-[8-sfer-ezikiw]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ "Stacked Diffs Versus Pull Requests"
-[9-sfer-ezikiw]: https://github.com/marketplace/stacked-pull-requests "Stacked Pull Requests"
-[10-sfer-ezikiw]: https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests "5 metrics Engineering Managers can extract from Pull Requests"
-[11-sfer-ezikiw]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ "Best Practices for Code Review"
-[12-sfer-ezikiw]: https://www.pluralsight.com/blog/tutorials/code-churn "What is Code Churn"
-[13-sfer-ezikiw]: https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22 "VisIt VTK Upgrade Commit"
-[14-sfer-ezikiw]: https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit "What is Continuous Technology Refresh (CTR)"
+[aaa-sfer-ezikiw]: https://sback.it/publications/icse2018seip.pdf "Modern Code Review: A Case Study at Google"
+[aab-sfer-ezikiw]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
+[abc-sfer-ezikiw]: https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
+[b-sfer-ezikiw]: https://www.thedroidsonroids.com/blog/splitting-pull-request "How to Split Pull Requests – Good Practices, Methods and Git Strategies"
+[c-sfer-ezikiw]: https://derwolfe.net/2016/01/23/splitting-up-pull-requests/ "Splitting Up Pull Requests"
+[cc-sfer-ezikiw]: https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/ "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
+[gorfo-sfer-ezikiw]: https://www.michaelagreiler.com/stacked-pull-requests/ "Stacked pull requests: make code reviews faster, easier, and more effective"
+[foo-sfer-ezikiw]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ "Stacked Diffs Versus Pull Requests"
+[bar-sfer-ezikiw]: https://github.com/marketplace/stacked-pull-requests "Stacked Pull Requests"
+[abd-sfer-ezikiw]: https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests "5 metrics Engineering Managers can extract from Pull Requests"
+[aac-sfer-ezikiw]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ "Best Practices for Code Review"
+[ross-sfer-ezikiw]: https://www.pluralsight.com/blog/tutorials/code-churn "What is Code Churn"
+[dave-sfer-ezikiw]: https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22 "VisIt VTK Upgrade Commit"
+[aae-sfer-ezikiw]: https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit "What is Continuous Technology Refresh (CTR)"
 [15-sfer-ezikiw]: https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf "The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost"
 [16-sfer-ezikiw]: https://en.wikipedia.org/wiki/Work_breakdown_structure "Work Breakdown Structure"
 [17-sfer-ezikiw]: https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch "Git Integration Branch Workflow"
 [18-sfer-ezikiw]: https://smallbusinessprogramming.com/optimal-pull-request-size/ "Optimal pull request size"
 [19-sfer-ezikiw]: https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/ "Take the Pain out of Code Reviews"
-[20-sfer-ezikiw]: https://gregoryszorc.com/blog/2020/01/07/problems-with-pull-requests-and-how-to-fix-them/ "Problems with Pull Requests and how to Fix them"
-[21-sfer-ezikiw]: https://git-scm.com/docs/git-request-pull "Documentation for Git Request Pull Command"
-[22-sfer-ezikiw]: https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews "Comparing Four Kinds of Reviews"
-[23-sfer-ezikiw]: http://codestriker.sourceforge.net "CodeStriker Project Home Page"
-[24-sfer-ezikiw]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository"
-[25-sfer-ezikiw]: https://news.ycombinator.com/item?id=13561096 "Hacker News commentary on Google's Billion Lines of Code Repository"
+[mark-sfer-ezikiw]: https://gregoryszorc.com/blog/2020/01/07/problems-with-pull-requests-and-how-to-fix-them/ "Problems with Pull Requests and how to Fix them"
+[sue-sfer-ezikiw]: https://git-scm.com/docs/git-request-pull "Documentation for Git Request Pull Command"
+[rose-sfer-ezikiw]: https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews "Comparing Four Kinds of Reviews"
+[e-sfer-ezikiw]: http://codestriker.sourceforge.net "CodeStriker Project Home Page"
+[f-sfer-ezikiw]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository"
+[h-sfer-ezikiw]: https://news.ycombinator.com/item?id=13561096 "Hacker News commentary on Google's Billion Lines of Code Repository"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
-[1]: #sfer-ezikiw-1 "Modern Code Review: A Case Study at Google"
-[2]: #sfer-ezikiw-2 "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
-[3]: #sfer-ezikiw-3 "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
-[4]: #sfer-ezikiw-4 "How to Split Pull Requests – Good Practices, Methods and Git Strategies"
-[5]: #sfer-ezikiw-5 "Splitting Up Pull Requests"
-[6]: #sfer-ezikiw-6 "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
-[7]: #sfer-ezikiw-7 "Stacked pull requests: make code reviews faster, easier, and more effective"
-[8]: #sfer-ezikiw-8 "Stacked Diffs Versus Pull Requests"
-[9]: #sfer-ezikiw-9 "Stacked Pull Requests"
-[10]: #sfer-ezikiw-10 "5 metrics Engineering Managers can extract from Pull Requests"
-[11]: #sfer-ezikiw-11 "Best Practices for Code Review"
-[12]: #sfer-ezikiw-12 "What is Code Churn"
-[13]: #sfer-ezikiw-13 "VisIt VTK Upgrade Commit"
-[14]: #sfer-ezikiw-14 "What is Continuous Technology Refresh (CTR)"
+[aaa]: #sfer-ezikiw-aaa "Modern Code Review: A Case Study at Google"
+[aab]: #sfer-ezikiw-aab "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
+[abc]: #sfer-ezikiw-abc "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
+[b]: #sfer-ezikiw-b "How to Split Pull Requests – Good Practices, Methods and Git Strategies"
+[c]: #sfer-ezikiw-c "Splitting Up Pull Requests"
+[cc]: #sfer-ezikiw-cc "5 Ways to Carve Large Pull Requests Into Bite-Sized Ones"
+[gorfo]: #sfer-ezikiw-gorfo "Stacked pull requests: make code reviews faster, easier, and more effective"
+[foo]: #sfer-ezikiw-foo "Stacked Diffs Versus Pull Requests"
+[bar]: #sfer-ezikiw-bar "Stacked Pull Requests"
+[abd]: #sfer-ezikiw-abd "5 metrics Engineering Managers can extract from Pull Requests"
+[aac]: #sfer-ezikiw-aac "Best Practices for Code Review"
+[ross]: #sfer-ezikiw-ross "What is Code Churn"
+[dave]: #sfer-ezikiw-dave "VisIt VTK Upgrade Commit"
+[aae]: #sfer-ezikiw-aae "What is Continuous Technology Refresh (CTR)"
 [15]: #sfer-ezikiw-15 "The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost"
 [16]: #sfer-ezikiw-16 "Work Breakdown Structure"
 [17]: #sfer-ezikiw-17 "Git Integration Branch Workflow"
 [18]: #sfer-ezikiw-18 "Optimal pull request size"
 [19]: #sfer-ezikiw-19 "Take the Pain out of Code Reviews"
-[20]: #sfer-ezikiw-20 "Problems with Pull Requests and how to Fix them"
-[21]: #sfer-ezikiw-21 "Documentation for Git Request Pull Command"
-[22]: #sfer-ezikiw-22 "Comparing Four Kinds of Reviews"
-[23]: #sfer-ezikiw-23 "CodeStriker Project Home Page"
-[24]: #sfer-ezikiw-24 "Google's Billion Lines of Code Repository"
-[25]: #sfer-ezikiw-25 "Hacker News commentary on Google's Billion Lines of Code Repository"
+[mark]: #sfer-ezikiw-mark "Problems with Pull Requests and how to Fix them"
+[sue]: #sfer-ezikiw-sue "Documentation for Git Request Pull Command"
+[rose]: #sfer-ezikiw-rose "Comparing Four Kinds of Reviews"
+[e]: #sfer-ezikiw-e "CodeStriker Project Home Page"
+[f]: #sfer-ezikiw-f "Google's Billion Lines of Code Repository"
+[h]: #sfer-ezikiw-h "Hacker News commentary on Google's Billion Lines of Code Repository"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Modern Code Review: A Case Study at Google](https://sback.it/publications/icse2018seip.pdf)
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Characteristics of Useful Code Reviews: An Empirical Study at Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf)
-* <a name="sfer-ezikiw-4"></a><sup>4</sup>[How to Split Pull Requests – Good Practices, Methods and Git Strategies](https://www.thedroidsonroids.com/blog/splitting-pull-request)
-* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Splitting Up Pull Requests](https://derwolfe.net/2016/01/23/splitting-up-pull-requests/)
-* <a name="sfer-ezikiw-6"></a><sup>6</sup>[5 Ways to Carve Large Pull Requests Into Bite-Sized Ones](https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/)
-* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Stacked pull requests: make code reviews faster, easier, and more effective](https://www.michaelagreiler.com/stacked-pull-requests/)
-* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Stacked Diffs Versus Pull Requests](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
-* <a name="sfer-ezikiw-9"></a><sup>9</sup>[Stacked Pull Requests](https://github.com/marketplace/stacked-pull-requests)
-* <a name="sfer-ezikiw-10"></a><sup>10</sup>[5 metrics Engineering Managers can extract from Pull Requests](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
-* <a name="sfer-ezikiw-11"></a><sup>11</sup>[Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
-* <a name="sfer-ezikiw-12"></a><sup>12</sup>[What is Code Churn](https://www.pluralsight.com/blog/tutorials/code-churn)
-* <a name="sfer-ezikiw-13"></a><sup>13</sup>[VisIt VTK Upgrade Commit](https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22)
-* <a name="sfer-ezikiw-14"></a><sup>14</sup>[What is Continuous Technology Refresh (CTR)](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit)
 * <a name="sfer-ezikiw-15"></a><sup>15</sup>[The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
 * <a name="sfer-ezikiw-16"></a><sup>16</sup>[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure)
 * <a name="sfer-ezikiw-17"></a><sup>17</sup>[Git Integration Branch Workflow](https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch)
 * <a name="sfer-ezikiw-18"></a><sup>18</sup>[Optimal pull request size](https://smallbusinessprogramming.com/optimal-pull-request-size/)
 * <a name="sfer-ezikiw-19"></a><sup>19</sup>[Take the Pain out of Code Reviews](https://insights.dice.com/2013/01/28/how-to-take-pain-out-of-code-reviews/)
-* <a name="sfer-ezikiw-20"></a><sup>20</sup>[Problems with Pull Requests and how to Fix them](https://gregoryszorc.com/blog/2020/01/07/problems-with-pull-requests-and-how-to-fix-them/)
-* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Documentation for Git Request Pull Command](https://git-scm.com/docs/git-request-pull)
-* <a name="sfer-ezikiw-22"></a><sup>22</sup>[Comparing Four Kinds of Reviews](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
-* <a name="sfer-ezikiw-23"></a><sup>23</sup>[CodeStriker Project Home Page](http://codestriker.sourceforge.net)
-* <a name="sfer-ezikiw-24"></a><sup>24</sup>[Google's Billion Lines of Code Repository](https://dl.acm.org/doi/pdf/10.1145/2854146)
-* <a name="sfer-ezikiw-25"></a><sup>25</sup>[Hacker News commentary on Google's Billion Lines of Code Repository](https://news.ycombinator.com/item?id=13561096)
+* <a name="sfer-ezikiw-aaa"></a><sup>aaa</sup>[Modern Code Review: A Case Study at Google](https://sback.it/publications/icse2018seip.pdf)
+* <a name="sfer-ezikiw-aab"></a><sup>aab</sup>[Characteristics of Useful Code Reviews: An Empirical Study at Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf)
+* <a name="sfer-ezikiw-aac"></a><sup>aac</sup>[Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+* <a name="sfer-ezikiw-aae"></a><sup>aae</sup>[What is Continuous Technology Refresh (CTR)](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit)
+* <a name="sfer-ezikiw-abc"></a><sup>abc</sup>[Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf)
+* <a name="sfer-ezikiw-abd"></a><sup>abd</sup>[5 metrics Engineering Managers can extract from Pull Requests](https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests)
+* <a name="sfer-ezikiw-b"></a><sup>b</sup>[How to Split Pull Requests – Good Practices, Methods and Git Strategies](https://www.thedroidsonroids.com/blog/splitting-pull-request)
+* <a name="sfer-ezikiw-bar"></a><sup>bar</sup>[Stacked Pull Requests](https://github.com/marketplace/stacked-pull-requests)
+* <a name="sfer-ezikiw-c"></a><sup>c</sup>[Splitting Up Pull Requests](https://derwolfe.net/2016/01/23/splitting-up-pull-requests/)
+* <a name="sfer-ezikiw-cc"></a><sup>cc</sup>[5 Ways to Carve Large Pull Requests Into Bite-Sized Ones](https://glennstovall.com/5-ways-to-carve-large-pull-requests-into-bite-sized-ones/)
+* <a name="sfer-ezikiw-dave"></a><sup>dave</sup>[VisIt VTK Upgrade Commit](https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22)
+* <a name="sfer-ezikiw-e"></a><sup>e</sup>[CodeStriker Project Home Page](http://codestriker.sourceforge.net)
+* <a name="sfer-ezikiw-f"></a><sup>f</sup>[Google's Billion Lines of Code Repository](https://dl.acm.org/doi/pdf/10.1145/2854146)
+* <a name="sfer-ezikiw-foo"></a><sup>foo</sup>[Stacked Diffs Versus Pull Requests](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/)
+* <a name="sfer-ezikiw-gorfo"></a><sup>gorfo</sup>[Stacked pull requests: make code reviews faster, easier, and more effective](https://www.michaelagreiler.com/stacked-pull-requests/)
+* <a name="sfer-ezikiw-h"></a><sup>h</sup>[Hacker News commentary on Google's Billion Lines of Code Repository](https://news.ycombinator.com/item?id=13561096)
+* <a name="sfer-ezikiw-mark"></a><sup>mark</sup>[Problems with Pull Requests and how to Fix them](https://gregoryszorc.com/blog/2020/01/07/problems-with-pull-requests-and-how-to-fix-them/)
+* <a name="sfer-ezikiw-rose"></a><sup>rose</sup>[Comparing Four Kinds of Reviews](https://www.cmcrossroads.com/article/pros-and-cons-four-kinds-code-reviews)
+* <a name="sfer-ezikiw-ross"></a><sup>ross</sup>[What is Code Churn](https://www.pluralsight.com/blog/tutorials/code-churn)
+* <a name="sfer-ezikiw-sue"></a><sup>sue</sup>[Documentation for Git Request Pull Command](https://git-scm.com/docs/git-request-pull)

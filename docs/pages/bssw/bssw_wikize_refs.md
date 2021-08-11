@@ -1,4 +1,9 @@
-# Wikipedia-Like Citations and References In GitHub Markdown
+---
+title: Wikipedia-Like Citations and References In GitHub Markdown
+sidebar: bssw_sidebar
+permalink: bssw_wikize_refs.html
+toc: false
+---
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 
@@ -12,7 +17,7 @@ not convenient.
 
 Here, we describe conventions in the use of [GitHub Flavored Markdown (GFM)][GFM]
 together with a Python post-processing script
-[`wikize_refs.py`](../../utils/README.md#wikize_refspy)
+[`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy)
 to make it easier to manage such references in a
 [Wikipedia-like way](https://en.wikipedia.org/wiki/Note_(typography)#References).
 
@@ -32,17 +37,17 @@ To do this, the author should list each reference used in the article using
 [*reference style links*](https://github.github.com/gfm/#reference-link) by convention
 at the end of the markdown file, of the form
 
-    [ID]: URL "TIT {BIB}"
+    [LAB]: URL "TIT {BIB}"
 
 - Must begin at column 0 in the markdown file
-- `ID`: (**REQUIRED**) Alphanumeric identifier for the reference
+- `LAB`: (**REQUIRED**) Alphanumeric *label* for the reference
   - **Note**: The post-processing script renumbers them 1...N
 - `URL`: (**REQUIRED**) The URL for the reference
 - `TIT`: (*optional*) A title for the reference (appears as tool-tip during hover)
-- `BIB`: (*optional*) Full bibliographic information for the reference
-  - Here, we are using the `{BIB}` field, embedded between `{` and `}` in the
-    [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text
-    as a notational *extension*.
+- `{BIB}`: (*optional*) Full bibliographic information for the reference
+  - Here, we are using the `{BIB}` field, embedded in the [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text as a notational *extension*.
+- **Note**: Be sure whatever editor you are using is not inadvertently sneaking in [*smart quotes* or *curly quotes*](https://practicaltypography.com/straight-and-curly-quotes.html) and that you are using only *straight* quotes.
+  If you are drafting content in whatever editor you have available locally and then cutting from that local editor and pasting into a web browser editing directly on GitHub, be aware that it is possible smart quotes can get carried along.
 
 Examples:
 
@@ -59,7 +64,7 @@ the better referencing style. More on that later.
 ## Footnotes in GitHub Flavored Markdown
 
 Authors can cite items in the list of references in their main article
-flow using footnotes of the form `<sup`&#8203;`>[ID]<`&#8203;`/sup>` where `ID` is the
+flow using footnotes of the form `<sup`&#8203;`>[LAB]<`&#8203;`/sup>` where `LAB` is the
 identifier for a link and following proper grammatical style for footnote
 usage following these rules.
 
@@ -72,27 +77,27 @@ Reference numbers should appear:
 
 Examples:
 
-    This drug is used to treat hepatitis.<sup>[2]</sup>
+    This drug is used to treat hepatitis.<sup>[1]</sup>
 
-    Storing latex at high heat may cause degradation,<sup>[1],[2]</sup>
+    Storing latex at high heat may cause degradation,<sup>[mcm],[1]</sup>
     but it is difficult to keep materials cool in a desert environment.
 
     Some physicians choose to store prescription pads in locked
-    cabinets<sup>[3]</sup>; others keep them in their
-    coats at all times.<sup>[2]</sup>
+    cabinets<sup>[ale3d-paper]</sup>; others keep them in their
+    coats at all times.<sup>[1]</sup>
 
 Which would appear as...
 
 ---
 
-This drug is used to treat hepatitis.<sup>[2]</sup>
+This drug is used to treat hepatitis.<sup>[1]</sup>
 
-Storing latex at high heat may cause degradation,<sup>[1],[2]</sup>
+Storing latex at high heat may cause degradation,<sup>[mcm],[1]</sup>
 but it is difficult to keep materials cool in a desert environment.
 
 Some physicians choose to store prescription pads in locked
-cabinets<sup>[3]</sup>; others keep them in their
-coats at all times.<sup>[2]</sup>
+cabinets<sup>[ale3d-paper]</sup>; others keep them in their
+coats at all times.<sup>[1]</sup>
 
 ---
 
@@ -134,52 +139,56 @@ In this way, authors need only concern themselves with the main content and thei
 list of references. The added content to support Wikipedia-style referencing at
 the bottom of the file is always re-generated from the author's content
 
-The `wikize_refs.py` script treats the document structure in four successive
-blocks...
+### How `wikize_refs.py` works
 
-1. The main content block, including any bssw.io metadata, *above* link
-   definitions.
-1. The author's link definitions block (which upon output will be *hidden* from
-   markdown processing by XML comment bracketing).
-1. An *intermediate* link definitions block (lines beginning with `^[J]: #refJ`)
-   for internal links to the table of references.
-1. The table of references (lines beginning with `^<a name="refJ"></a>J | [`) for
-   actual links to referenced content.
+The script adjusts, slightly, a markdown file so that any footnotes using reference-style markdown links and link-definitions behave more Wikipedia-like.
+This can be accomplished by simply name-mangling the author's original link labels (to move them out of the way) and *adding* some lines to the file.
 
-Blocks 2, 3 and 4 are optional. Blocks 3 and 4, which support the Wikipedia style
-references, are generated from block 2 if it exists. Repeated application of
-`wikize_refs.py` will result in no changes to the file. Intermediate link definition
-lines of the form `^[J]: #refJ` are ignored. These are re-generated anew upon each
-invocation. Likewise, reference table lines of the form `^<a name="refJ"></a>J | [`
-are also ignored. These too will be re-generated anew upon each invocation.
+The author's *original* link labels get mangled.
+This has the effect of breaking their connection to the footnotes referencing them.
+This is later repaired when a new set of link definitions are appended to the end of the file.
 
-Link definitions as *authored*, if they exist, all appear together in a block at the
-*bottom* of the file, *after* the main content and even after any bssw.io metadata
-blocks. Thus, in line-by-line processing, the *first* such link definition line is
-used to demarcate the end of the main content block and the beginning of the author's
-link definition block.
+The new links are bi-level.
+Footnotes in the content link to entries in a visible list of references appended to the end of the document.
+Items in the list of references link off-page to their intended destinations.
+The resulting file is still GitHub flavored Markdown with a minimal amount of embedded HTML.
 
-The author's link definitions are renumbered 1...N and all footnote references in the
-main content are updated accordingly. These link definitions are output but bracketed by
-multi-line XML comments to hide them from any markdown processing.
+If the file contains no footnotes, it will be left unchanged.
+Some minimal error checks are that there is an existing link definition for every footnote and that every link definition appears in at least one footnote.
+It will also check that links are valid.
+If errors are fatal, processing will stop upon encountering an error.
+Otherwise only warning messages are produced.
 
-The renumbered and re-formatted links are bi-level. Footnotes in the content link to
-entries in a table of references at the bottom of the document. Items in the table of
-references link off-page to their intended destinations. The resulting file is still
-GitHub flavored Markdown with a minimal amount of embedded HTML.
+Some of the options can be *destructive* in that the file is changed in ways not easy to reverse.
 
-For example, running this script on this markdown file...
+Repeated application of this tool with the same arguments to the same file should result in no changes.
 
-    ./wikize_refs.py -i ReferencesInMarkdownHybridApproach.md
+To process a file...
 
-makes a backup of the original file to `ReferencesInMarkdownHybridApproach.md~` and
-then overwrites the original file. Use the `-s` option to skip this backup
-operation.
+```
+./wikize_refs.py foo.md
+```
 
-Comparing the [raw original](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach.md)
-version of this file to the
-[raw post-processed](https://raw.githubusercontent.com/betterscientificsoftware/betterscientificsoftware.github.io/master/Articles/Blog/ReferencesInMarkdownHybridApproach-wikized.md)
-version can also be helpful in understanding what the script is doing (and diffing the raw files locally is also very informative).
+...creates/updates the output file foo-wikized.md.
+
+```
+./wikize_refs.py --help
+```
+
+...prints command-line arguments and options.
+
+If no *destructive* options are used, the following sed pipe command should be able to take the wikized file and produce the original...
+
+```
+cat foo.md | sed -e 's/^\[\(.*\)-sfer-ezikiw\]:/[\1]:/' | grep -v sfer-ezikiw
+```
+
+The script reads a markdown file and classifies its lines as either *frontmatter* (in case we ever use Jekyll) *content*, *xml-comments*, or *link definitions*.
+It ignores any lines that contain the string `sfer-ezikiw` (which is `wikize-refs` spelled backwards) as such lines are auto-generated by the script.
+It then scans all content lines for instances of footnotes (e.g. `<sup`&#8203;`>[LAB]<`&#8203;`/sup>`) and scans all link definition lines for their four components: `LAB`, `URL`, `TIT` and `BIB`.
+
+All of these lines are then re-output, with options to re-number the footnotes as well as gather together at the bottom any link definitions.
+There is no requirement that all the link definitions appear at the bottom of the file or that any other file parts (e.g. bssw.io metadata comments) appear in any specific order or place in the file.
 
 ## Advantages of this Approach
 
@@ -198,26 +207,8 @@ version can also be helpful in understanding what the script is doing (and diffi
     related lists in the file.
 - The script can be repeatedly re-applied to a file and operate in place
 
+[mcm]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
+[1]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
+[ale3d-paper]: https://wci.llnl.gov/simulation/computer-codes/ale3d " {}"
+
 [GFM]: https://www.markdownguide.org/basic-syntax "Basic GitHub Flavored Markdown"
-
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
-[2]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
-[3]: https://wci.llnl.gov/simulation/computer-codes/ale3d
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "Smart Libraries"
-[2]: #ref2 "Hello World"
-[3]: #ref3
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [Smart Libraries<br>Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636](https://wci.llnl.gov/codes/smartlibs/index.html)
-<a name="ref2"></a>2 | [Hello World<br>Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241](https://)
-<a name="ref3"></a>3 | [https://wci.llnl.gov/simulation/computer-codes/ale3d](https://wci.llnl.gov/simulation/computer-codes/ale3d)

@@ -126,7 +126,7 @@ in behavior are managed on a single, monolithic line of development<sup>[23],[24
 (e.g. trunk or mainline) using *workspaces* (akin to a Subversion working-copy or a Git clone).
 Both new and old code paths often coexist in the one and only main line of development
 simultaneously, controlled by *toggle* flags, a practice that facilitates accepting large
-changes in small, incremental steps. In all likelihood there are exceptions to this practice
+changes in small, incremental steps<sup>[26]</sup>. In all likelihood there are exceptions to this practice
 for large and/or automated refactorings.
 
 <!---
@@ -163,6 +163,7 @@ for large and/or automated refactorings.
 [23-sfer-ezikiw]: http://codestriker.sourceforge.net "CodeStriker Project Home Page"
 [24-sfer-ezikiw]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository"
 [25-sfer-ezikiw]: https://news.ycombinator.com/item?id=13561096 "Hacker News commentary on Google's Billion Lines of Code Repository"
+[26]: https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf "The SAF Data Model"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "Modern Code Review: A Case Study at Google"
 [2]: #sfer-ezikiw-2 "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
@@ -189,9 +190,7 @@ for large and/or automated refactorings.
 [23]: #sfer-ezikiw-23 "CodeStriker Project Home Page"
 [24]: #sfer-ezikiw-24 "Google's Billion Lines of Code Repository"
 [25]: #sfer-ezikiw-25 "Hacker News commentary on Google's Billion Lines of Code Repository"
-<!-- (sfer-ezikiw begin) -->
-### References
-<!-- (sfer-ezikiw end) -->
+### References <!-- (sfer-ezikiw) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Modern Code Review: A Case Study at Google](https://sback.it/publications/icse2018seip.pdf)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Characteristics of Useful Code Reviews: An Empirical Study at Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/PID3556473.pdf)

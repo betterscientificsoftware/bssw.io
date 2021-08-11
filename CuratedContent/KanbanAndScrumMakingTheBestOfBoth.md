@@ -49,27 +49,19 @@ RSS update: 2020-04-02
 Topics: Software process improvement, Software engineering, Requirements, Issue tracking, Strategies for more effective teams
 --->
 
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://dl.acm.org/doi/10.5555/559553 "Agile Software Development with Scrum {Schwaber, Ken and Mike Beedle. Prentice Hall, 2002}"
-[2]: https://dl.acm.org/doi/10.5555/1076267 "Extreme Programming Explained: Embrace Change (2nd Edition) {Beck, Kent. Addison Wesley, 2004}"
-[3]: https://www.oreilly.com/library/view/implementing-lean-software/0321437381/ "Implementing Lean Software Development: From Concept to Cash {Poppendieck, Mary and Tom. Addison Wesley, 2006}"
-[4]: https://casl.gov/ "Consortium For Advanced Simulation Of Light Water Reactors (CASL)"
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "Agile Software Development with Scrum"
-[2]: #ref2 "Extreme Programming Explained: Embrace Change (2nd Edition)"
-[3]: #ref3 "Implementing Lean Software Development: From Concept to Cash"
-[4]: #ref4 "Consortium For Advanced Simulation Of Light Water Reactors (CASL)"
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [Agile Software Development with Scrum<br>Schwaber, Ken and Mike Beedle. Prentice Hall, 2002](https://dl.acm.org/doi/10.5555/559553)
-<a name="ref2"></a>2 | [Extreme Programming Explained: Embrace Change (2nd Edition)<br>Beck, Kent. Addison Wesley, 2004](https://dl.acm.org/doi/10.5555/1076267)
-<a name="ref3"></a>3 | [Implementing Lean Software Development: From Concept to Cash<br>Poppendieck, Mary and Tom. Addison Wesley, 2006](https://www.oreilly.com/library/view/implementing-lean-software/0321437381/)
-<a name="ref4"></a>4 | [Consortium For Advanced Simulation Of Light Water Reactors (CASL)](https://casl.gov/)
+[1-sfer-ezikiw]: https://dl.acm.org/doi/10.5555/559553 "Agile Software Development with Scrum {Schwaber, Ken and Mike Beedle. Prentice Hall, 2002}"
+[2-sfer-ezikiw]: https://dl.acm.org/doi/10.5555/1076267 "Extreme Programming Explained: Embrace Change (2nd Edition) {Beck, Kent. Addison Wesley, 2004}"
+[3-sfer-ezikiw]: https://www.oreilly.com/library/view/implementing-lean-software/0321437381/ "Implementing Lean Software Development: From Concept to Cash {Poppendieck, Mary and Tom. Addison Wesley, 2006}"
+[4-sfer-ezikiw]: https://casl.gov/ "Consortium For Advanced Simulation Of Light Water Reactors (CASL)"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Agile Software Development with Scrum"
+[2]: #sfer-ezikiw-2 "Extreme Programming Explained: Embrace Change (2nd Edition)"
+[3]: #sfer-ezikiw-3 "Implementing Lean Software Development: From Concept to Cash"
+[4]: #sfer-ezikiw-4 "Consortium For Advanced Simulation Of Light Water Reactors (CASL)"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Agile Software Development with Scrum<br>Schwaber, Ken and Mike Beedle. Prentice Hall, 2002](https://dl.acm.org/doi/10.5555/559553)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Extreme Programming Explained: Embrace Change (2nd Edition)<br>Beck, Kent. Addison Wesley, 2004](https://dl.acm.org/doi/10.5555/1076267)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Implementing Lean Software Development: From Concept to Cash<br>Poppendieck, Mary and Tom. Addison Wesley, 2006](https://www.oreilly.com/library/view/implementing-lean-software/0321437381/)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Consortium For Advanced Simulation Of Light Water Reactors (CASL)](https://casl.gov/)

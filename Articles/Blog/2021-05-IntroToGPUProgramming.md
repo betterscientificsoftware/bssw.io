@@ -160,39 +160,31 @@ Topics: High-performance computing (HPC)
 RSS update: 2021-05-14
 --->
 
-<!-- BEGIN ORIGINAL LINK DEFS
-
-[1]: https://www.britannica.com/technology/Moores-law "Moore’s Law"
-[2]: https://www.rambus.com/blogs/understanding-dennard-scaling-2/ "Dennard Scaling"
-[3]: https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338 "The Chips are Down for Moore’s Law"
-[4]: https://www.omnisci.com/technical-glossary/hardware-acceleration "Hardware Acceleration Definition"
-[5]: https://www.top500.org/ "Top 500: The List"
-[6]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ "Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer"
-[7]: https://docs.nersc.gov/systems/cori/ "Cori"
-[8]: https://docs.nersc.gov/tools/performance/roofline/ "Roofline Performance Model"
-
-END ORIGINAL LINK DEFS -->
-
-<!-- ALL CONTENT BELOW HERE IS AUTO-GENERATED FROM wikize_refs.py -->
-
-<!--- INTERMEDIATE LINK DEFS POINT TO ANCHORS IN TABLE --->
-[1]: #ref1 "Moore’s Law"
-[2]: #ref2 "Dennard Scaling"
-[3]: #ref3 "The Chips are Down for Moore’s Law"
-[4]: #ref4 "Hardware Acceleration Definition"
-[5]: #ref5 "Top 500: The List"
-[6]: #ref6 "Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer"
-[7]: #ref7 "Cori"
-[8]: #ref8 "Roofline Performance Model"
-
-<!--- TABLE OF REFS RENDERED AS MARKDOWN --->
-References | &nbsp;
-:--- | :---
-<a name="ref1"></a>1 | [Moore’s Law](https://www.britannica.com/technology/Moores-law)
-<a name="ref2"></a>2 | [Dennard Scaling](https://www.rambus.com/blogs/understanding-dennard-scaling-2/)
-<a name="ref3"></a>3 | [The Chips are Down for Moore’s Law](https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338)
-<a name="ref4"></a>4 | [Hardware Acceleration Definition](https://www.omnisci.com/technical-glossary/hardware-acceleration)
-<a name="ref5"></a>5 | [Top 500: The List](https://www.top500.org/)
-<a name="ref6"></a>6 | [Summit: Oak Ridge National Laboratory’s 200 Petaflop Supercomputer](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
-<a name="ref7"></a>7 | [Cori](https://docs.nersc.gov/systems/cori/)
-<a name="ref8"></a>8 | [Roofline Performance Model](https://docs.nersc.gov/tools/performance/roofline/)
+[1-sfer-ezikiw]: https://www.britannica.com/technology/Moores-law "Moore's Law"
+[2-sfer-ezikiw]: https://www.rambus.com/blogs/understanding-dennard-scaling-2/ "Dennard Scaling"
+[3-sfer-ezikiw]: https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338 "The Chips are Down for Moore's Law"
+[4-sfer-ezikiw]: https://www.omnisci.com/technical-glossary/hardware-acceleration "Hardware Acceleration Definition"
+[5-sfer-ezikiw]: https://www.top500.org/ "Top 500: The List"
+[6-sfer-ezikiw]: https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/ "Summit: Oak Ridge National Laboratory's 200 Petaflop Supercomputer"
+[7-sfer-ezikiw]: https://docs.nersc.gov/systems/cori/ "Cori"
+[8-sfer-ezikiw]: https://docs.nersc.gov/tools/performance/roofline/ "Roofline Performance Model"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Moore's Law"
+[2]: #sfer-ezikiw-2 "Dennard Scaling"
+[3]: #sfer-ezikiw-3 "The Chips are Down for Moore's Law"
+[4]: #sfer-ezikiw-4 "Hardware Acceleration Definition"
+[5]: #sfer-ezikiw-5 "Top 500: The List"
+[6]: #sfer-ezikiw-6 "Summit: Oak Ridge National Laboratory's 200 Petaflop Supercomputer"
+[7]: #sfer-ezikiw-7 "Cori"
+[8]: #sfer-ezikiw-8 "Roofline Performance Model"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Moore's Law](https://www.britannica.com/technology/Moores-law)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Dennard Scaling](https://www.rambus.com/blogs/understanding-dennard-scaling-2/)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[The Chips are Down for Moore's Law](https://www.nature.com/news/the-chips-are-down-for-moore-s-law-1.19338)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Hardware Acceleration Definition](https://www.omnisci.com/technical-glossary/hardware-acceleration)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Top 500: The List](https://www.top500.org/)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Summit: Oak Ridge National Laboratory's 200 Petaflop Supercomputer](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Cori](https://docs.nersc.gov/systems/cori/)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Roofline Performance Model](https://docs.nersc.gov/tools/performance/roofline/)

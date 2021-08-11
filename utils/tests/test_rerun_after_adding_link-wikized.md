@@ -126,7 +126,7 @@ in behavior are managed on a single, monolithic line of development<sup>[23],[24
 (e.g. trunk or mainline) using *workspaces* (akin to a Subversion working-copy or a Git clone).
 Both new and old code paths often coexist in the one and only main line of development
 simultaneously, controlled by *toggle* flags, a practice that facilitates accepting large
-changes in small, incremental steps. In all likelihood there are exceptions to this practice
+changes in small, incremental steps<sup>[26]</sup>. In all likelihood there are exceptions to this practice
 for large and/or automated refactorings.
 
 <!---
@@ -163,6 +163,7 @@ for large and/or automated refactorings.
 [23-sfer-ezikiw]: http://codestriker.sourceforge.net "CodeStriker Project Home Page"
 [24-sfer-ezikiw]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository"
 [25-sfer-ezikiw]: https://news.ycombinator.com/item?id=13561096 "Hacker News commentary on Google's Billion Lines of Code Repository"
+[26-sfer-ezikiw]: https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf "The SAF Data Model"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "Modern Code Review: A Case Study at Google"
 [2]: #sfer-ezikiw-2 "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
@@ -189,6 +190,7 @@ for large and/or automated refactorings.
 [23]: #sfer-ezikiw-23 "CodeStriker Project Home Page"
 [24]: #sfer-ezikiw-24 "Google's Billion Lines of Code Repository"
 [25]: #sfer-ezikiw-25 "Hacker News commentary on Google's Billion Lines of Code Repository"
+[26]: #sfer-ezikiw-26 "The SAF Data Model"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
@@ -217,3 +219,4 @@ for large and/or automated refactorings.
 * <a name="sfer-ezikiw-23"></a><sup>23</sup>[CodeStriker Project Home Page](http://codestriker.sourceforge.net)
 * <a name="sfer-ezikiw-24"></a><sup>24</sup>[Google's Billion Lines of Code Repository](https://dl.acm.org/doi/pdf/10.1145/2854146)
 * <a name="sfer-ezikiw-25"></a><sup>25</sup>[Hacker News commentary on Google's Billion Lines of Code Repository](https://news.ycombinator.com/item?id=13561096)
+* <a name="sfer-ezikiw-26"></a><sup>26</sup>[The SAF Data Model](https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf)

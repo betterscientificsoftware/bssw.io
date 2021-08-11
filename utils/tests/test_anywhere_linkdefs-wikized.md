@@ -65,6 +65,12 @@ were allowed to temporarily coexist or where portions of the code base were temp
 disabled or broken much like portions of a building or roadway system are closed during
 remodeling or construction.
 
+[11-sfer-ezikiw]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ "Best Practices for Code Review"
+[12-sfer-ezikiw]: https://www.pluralsight.com/blog/tutorials/code-churn "What is Code Churn"
+[13-sfer-ezikiw]: https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22 "VisIt VTK Upgrade Commit"
+[14-sfer-ezikiw]: https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit "What is Continuous Technology Refresh (CTR)"
+[15-sfer-ezikiw]: https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf "The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost"
+
 Experience with
 Functional (or Feature) Breakdown Structure (FBS)<sup>[15]</sup> (the cousin to
 Work Breakdown Structure<sup>[16]</sup> and
@@ -148,11 +154,6 @@ for large and/or automated refactorings.
 [8-sfer-ezikiw]: https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/ "Stacked Diffs Versus Pull Requests"
 [9-sfer-ezikiw]: https://github.com/marketplace/stacked-pull-requests "Stacked Pull Requests"
 [10-sfer-ezikiw]: https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests "5 metrics Engineering Managers can extract from Pull Requests"
-[11-sfer-ezikiw]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/ "Best Practices for Code Review"
-[12-sfer-ezikiw]: https://www.pluralsight.com/blog/tutorials/code-churn "What is Code Churn"
-[13-sfer-ezikiw]: https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22 "VisIt VTK Upgrade Commit"
-[14-sfer-ezikiw]: https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit "What is Continuous Technology Refresh (CTR)"
-[15-sfer-ezikiw]: https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf "The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost"
 [16-sfer-ezikiw]: https://en.wikipedia.org/wiki/Work_breakdown_structure "Work Breakdown Structure"
 [17-sfer-ezikiw]: https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch "Git Integration Branch Workflow"
 [18-sfer-ezikiw]: https://smallbusinessprogramming.com/optimal-pull-request-size/ "Optimal pull request size"
@@ -164,6 +165,11 @@ for large and/or automated refactorings.
 [24-sfer-ezikiw]: https://dl.acm.org/doi/pdf/10.1145/2854146 "Google's Billion Lines of Code Repository"
 [25-sfer-ezikiw]: https://news.ycombinator.com/item?id=13561096 "Hacker News commentary on Google's Billion Lines of Code Repository"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[11]: #sfer-ezikiw-11 "Best Practices for Code Review"
+[12]: #sfer-ezikiw-12 "What is Code Churn"
+[13]: #sfer-ezikiw-13 "VisIt VTK Upgrade Commit"
+[14]: #sfer-ezikiw-14 "What is Continuous Technology Refresh (CTR)"
+[15]: #sfer-ezikiw-15 "The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost"
 [1]: #sfer-ezikiw-1 "Modern Code Review: A Case Study at Google"
 [2]: #sfer-ezikiw-2 "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft"
 [3]: #sfer-ezikiw-3 "Code Reviews Do Not Find Bugs: How the Current Code Review Best Practice Slows Us Down"
@@ -174,11 +180,6 @@ for large and/or automated refactorings.
 [8]: #sfer-ezikiw-8 "Stacked Diffs Versus Pull Requests"
 [9]: #sfer-ezikiw-9 "Stacked Pull Requests"
 [10]: #sfer-ezikiw-10 "5 metrics Engineering Managers can extract from Pull Requests"
-[11]: #sfer-ezikiw-11 "Best Practices for Code Review"
-[12]: #sfer-ezikiw-12 "What is Code Churn"
-[13]: #sfer-ezikiw-13 "VisIt VTK Upgrade Commit"
-[14]: #sfer-ezikiw-14 "What is Continuous Technology Refresh (CTR)"
-[15]: #sfer-ezikiw-15 "The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost"
 [16]: #sfer-ezikiw-16 "Work Breakdown Structure"
 [17]: #sfer-ezikiw-17 "Git Integration Branch Workflow"
 [18]: #sfer-ezikiw-18 "Optimal pull request size"
