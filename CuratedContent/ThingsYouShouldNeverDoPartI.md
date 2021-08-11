@@ -8,7 +8,7 @@ There is usually a better way, often a path less taken, especially in the comput
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: Aug 11 2021
+#### Publication date: August 11 2021
 
 Resource information | Details
 :--- | :---
