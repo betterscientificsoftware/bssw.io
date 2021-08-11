@@ -13,13 +13,11 @@ BSSw Fellows receive recognition and funding to be advocates of high-quality sci
 <!-- Applications are now closed for the 2021 BSSw Fellowship Program. Check back in summer 2021 for info about the 2022 application process. -->
 
 - **August 16, 2021**: Fellowship application process opens.
+- **Monday, Sept 13, 1:00-2:00 pm EDT** Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Thursday, Sept 30, 2021**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **December 2021**: Announcement of selection of 2022 BSSw Fellows.
 - **March 1, 2022 – August 31, 2023**: Period of performance for 2022 BSSw Fellows.
 - **May 2-5, 2022**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/).
-
-<!-- - **Wednesday, Sept 9, 4:00-5:00 PM EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
--->
 
 The BSSw Fellowship program fosters and promotes practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. We select at least three Fellows per year and honorable mentions as appropriate. Each 2021 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software. Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community. 
 
