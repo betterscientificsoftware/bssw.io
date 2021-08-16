@@ -1,12 +1,11 @@
 # Apply for the BSSw Fellowship Program 
 
+BSSw is currently accepting applications for the 2022 BSSw Fellowship Program. 
 <!--While applications are now closed for the BSSw Fellowship Program, we encourage you learn about the application process.  -->
-Applications for the 2022 BSSw Fellowship Program will open August 16, 2021. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site. 
-
-<!--BSSw is currently accepting applications for the 2021 BSSw Fellowship Program. -->
+<!--Applications for the 2022 BSSw Fellowship Program will open August 16, 2021. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site. -->
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  
-<!--Submissions for the 2021 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link).-->
+Submissions for the 2022 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLScd_tLuA4eVEJYKqg-BzHeQlKK2HmpPp4_cqLFB3KWUcbEUfw/viewform?usp=sf_link).
 
 ### Timeline for 2022 BSSw Fellowship Program
 
@@ -37,18 +36,18 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
        
 ### Applications for the BSSw Fellowship Program
  
-Applications for the 2022 BSSw Fellowship Program will open on August 16, 2021; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
+<!--Applications for the 2022 BSSw Fellowship Program will open on August 16, 2021; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.-->
  
 <!-- Applications are closed for the 2021 BSSw Fellowship Program.  Please check back for information about the 2022 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
-<!--Applications are now being accepted for the 2021 BSSw Fellowship Program.  Submissions for the 2021 BSSw Fellowship Program are accepted through the [**online application form**](https://docs.google.com/forms/d/e/1FAIpQLSePz4n96qwobqzeOMsrpGAgpVx4NvKDEA42qFvD3qIs6a6nAw/viewform?usp=sf_link).-->
+Applications are now being accepted for the 2022 BSSw Fellowship Program.  Submissions for the 2022 BSSw Fellowship Program are accepted through the [**online application form**](https://docs.google.com/forms/d/e/1FAIpQLScd_tLuA4eVEJYKqg-BzHeQlKK2HmpPp4_cqLFB3KWUcbEUfw/viewform?usp=sf_link).
 
-<!--
+
 ### Q&A Webinar about the BSSw Fellowship Program
 
-- Wednesday, September 9, 4:00-5:00 pm ET
+- Monday, September 13, 1:00-2:00 pm EDT
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
--->
+
 
 ### More information
 
