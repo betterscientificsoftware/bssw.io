@@ -6,7 +6,7 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: applications-open-for-the-2022-bssw-fellowship-program
+Slide1 L: blog_posts/applications-open-for-the-2022-bssw-fellowship-program
 Slide1 R: images/raw/master/Blog_2108_FellowsAppOpen.png
 Slide2 L: blog_posts/effectively-integrating-interns-into-research-teams
 Slide2 R: images/raw/master/Blog_0821_Interns.png
