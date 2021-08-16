@@ -4,20 +4,21 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 
+
 <!---
-Slide1 L: blog_posts/effectively-integrating-interns-into-research-teams
-Slide1 R: images/raw/master/Blog_0821_Interns.png
-Slide2 L: blog_posts/2020-bssw-fellows-projects-and-perspectives
-Slide2 R: images/raw/master/Blog_0720_Fellows.png
-Slide3 L: blog_posts/improving-team-practices-with-rateyourproject-org
-Slide3 R: images/raw/master/Blog_0721_PSIPhero_b.png
-Slide4 L: blog_posts/e4s-extreme-scale-scientific-software-stack
-Slide4 R: items/inclusive-naming-initiative
-Slide5 L: blog_posts/experiences-from-the-2021-bssw-io-community-bof
-Slide5 R: images/raw/master/Blog__0521_Icons.jpg
+Slide1 L: applications-open-for-the-2022-bssw-fellowship-program
+Slide1 R: images/raw/master/Blog_2108_FellowsAppOpen.png
+Slide2 L: blog_posts/effectively-integrating-interns-into-research-teams
+Slide2 R: images/raw/master/Blog_0821_Interns.png
+Slide3 L: blog_posts/2020-bssw-fellows-projects-and-perspectives
+Slide3 R: images/raw/master/Blog_0720_Fellows.png
+Slide4 L: blog_posts/improving-team-practices-with-rateyourproject-org
+Slide4 R: images/raw/master/Blog_0721_PSIPhero_b.png
+Slide5 L: blog_posts/e4s-extreme-scale-scientific-software-stack
+Slide5 R: items/inclusive-naming-initiative
 Slide6 L: items/debugging-books-to-help-you-get-started
 Slide6 R: items/the-10-best-practices-for-remote-software-engineering
-Slide7 L: events/webinar-software-engineering-challenges-and-best-practices-for-multi-institutional-scientific-software-development
+Slide7 L: events/webinar-what-i-learned-from-20-years-of-leading-open-source-projects
 Slide7 R: events/survey-on-testing-research-software
 --->
 
