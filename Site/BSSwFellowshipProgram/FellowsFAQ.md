@@ -2,9 +2,11 @@
 
 More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
 
-## Q & A Webinar, September 9, 2020
+## Q & A Webinar, September 13, 2021
 
-### Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.12934841) / Recording: [(slides/audio)](https://exascaleproject.zoomgov.com/rec/share/vslSEbX89EhOGNbU4hzed6clLIrsT6a81XAf_aAIyR2ayDofvFEbyBZfalioBzxA?startTime=1599681780000)
+- Monday, September 13, 1:00-2:00 pm EDT
+- Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
+- Slides & Recording from last year:  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.12934841) / Recording: [(slides/audio)](https://exascaleproject.zoomgov.com/rec/share/vslSEbX89EhOGNbU4hzed6clLIrsT6a81XAf_aAIyR2ayDofvFEbyBZfalioBzxA?startTime=1599681780000)
 
 ## Application Questions
 
@@ -33,7 +35,7 @@ Honorable Mentions do not receive funding to complete their proposed project, bu
 
 Applications are reviewed by a panel of diverse members of the CSE community using the following guiding criteria:
 
-* The proposed work is relevant to scientific software and can benefit the [DOE, ECP](https://bssw.io/communities/exascale-computing-community), and broader [HPC](https://bssw.io/pages/intro-to-hpc) and [CSE](https://bssw.io/pages/intro-to-cse) communities
+* The proposed work is relevant to scientific software and can benefit the [DOE, ECP](https://bssw.io/communities/exascale-computing-community), and/or [NSF](https://www.nsf.gov/dir/index.jsp?org=OAC), and the broader [HPC](https://bssw.io/pages/intro-to-hpc) and [CSE](https://bssw.io/pages/intro-to-cse) communities
 * The proposed work is well-scoped and likely to be accomplished. 
 * The proposed work has broad impact that spans beyond a single community/event and is sustainable beyond the fellowship period of performance.
 * The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
