@@ -1,8 +1,8 @@
 # BSSw Announcements
 
 Announcement:
-- [Applications for the 2022 BSSw Fellowship Program will open on August 16 ... Read about the work of recent Fellows](../../Articles/Blog/2021-07-BSSwFellows21.md)
-- Display dates: 07/29/2021 - 8/17/2021
+- [Applications are open for the 2022 BSSw Fellowship Program ... Deadline September 30](../../Articles/Blog/BSSwFellowshipApplicationsOpen2021.md)
+- Display dates: 08/16/2021 - 09/30/2021
 
 <!--
 - [Join us for the ECP Community BOF days (Mar 30 - Apr 1)](../../Events/2021-03-ECP21-BOF.md)
