@@ -5,6 +5,7 @@ BSSw is currently accepting applications for the 2022 BSSw Fellowship Program.
 <!--Applications for the 2022 BSSw Fellowship Program will open August 16, 2021. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site. -->
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  
+
 Submissions for the 2022 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLScd_tLuA4eVEJYKqg-BzHeQlKK2HmpPp4_cqLFB3KWUcbEUfw/viewform?usp=sf_link).
 
 ### Timeline for 2022 BSSw Fellowship Program
