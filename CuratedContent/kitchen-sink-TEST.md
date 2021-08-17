@@ -186,4 +186,5 @@ Level: 2
 Prerequisites: [import from subresources]
 Aggregate: base
 Slug: special-kitchen-sink-url
+OpenGraph image: /Blog_1119_WorkThankful.jpg
 --->
