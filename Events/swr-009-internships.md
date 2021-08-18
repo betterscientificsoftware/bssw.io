@@ -122,7 +122,7 @@ Mathematics (ERCIM), and most recently from Orlando, Florida as a
 member of Sandia’s Statistics and Human Systems Group and the
 IDEAS-ECP productivity project.</p>
 --->
-#### Contributed by Dorian Arnold, [Rebecca Hartman-Baker](https://github.com/hartmanbaker "Rebecca Hartman-Baker's GitHub Profile"), Christine Harvey, [Jay Lofstead](https://github.com/gflofst "Jay Lofstead's GitHub Profile"), Ashley Barker, [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile")
+#### Contributed by Dorian Arnold, [Rebecca Hartman-Baker](https://github.com/hartmanbaker "Rebecca Hartman-Baker's GitHub Profile"), Christine Harvey, [Jay Lofstead](https://github.com/gflofst "Jay Lofstead's GitHub Profile"), [Ashley Barker](https://github.com/ashley08 "Ashley Barker GitHub Profile"), [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile")
 
 <!---
 Publish: yes
