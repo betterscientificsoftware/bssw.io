@@ -23,14 +23,12 @@ Original articles may have deck text and/or deck images. Deck text is usually a 
  * Having deck text and a deck image in an original article are mutually exclusive.
       * A way to approximate having both is to have the deck image and then put the deck as your first (short) paragraph after the image and italicize it.
  * Please note that many times in the BSSw.io literature the deck image is also called as hero image.
- * Images for content are stored in a different repository (and not the main repo). To reference the images in the article, we upload them [bssw.io images directory](https://github.com/betterscientificsoftware/images) and then reference them from the article.
+ * Images for content are stored under the `images/` directory in the main `bssw.io` repository. To reference the images in the article, we put in a relative path (see [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md)).
  * There are some formatting tips described below for the deck images.
    - The formatting to include a deck/hero image is a bit finicky.
       * The `**Hero Image:**` tag must be followed by a blank line
-      * The image itself must be in a Markdown list item (that is, it starts with `-`)
-        ````
-           - < img src="https://github.com/betterscientificsoftware/images/raw/master/IMAGE-NAME.png" />[IMAGE TEXT]
-         ````
+      * The image itself must be in a Markdown list item (that is, it starts with `-`) <br>
+        `- < img src="../../images/IMAGE-NAME.png" />[IMAGE TEXT]`
    - Positioning of the hero image relative to the contributor and publication date metadata doesn't matter.
    
 ### Deck Attributes

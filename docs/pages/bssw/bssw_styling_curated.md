@@ -15,7 +15,7 @@ article can highlight several types of resources, including the following: book,
 
 The following figure shows different parts of a curated content article.
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/documentation-cc-example.jpg'/>
+- <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/documentation-cc-example.jpg'/>
 
 The main part of the curated article consists of the (1) Deck, (2)
 Main body of the article and (3) Metadata section. The following
