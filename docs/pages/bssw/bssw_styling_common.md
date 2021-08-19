@@ -59,13 +59,18 @@ These indicate which BSSw.io topic areas the article belongs to. The most up-to-
 The main body is the portion of the article below the deck. BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for writing content. The elements of the main body differ based on content type. The main body should explain the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content.
 
 ## Handling images
-Images for content are stored in a different repository (and not the main repo). To reference the images in the article, we upload them [bssw.io images directory](https://github.com/betterscientificsoftware/images) and then reference them from the article.
-- Add the following url. Using the "logo" class helps constrain the size of the image.
+Images for content are stored in the main `bssw.io`repository in the `images/` subdirectory.
+To reference the images in the `*.md` article file, copy the image file is to the `images/` directory and then:
+
+- Add the relative path to the image file from the `*.md` file. Using the "logo" class helps constrain the size of the image.
 ````
-< img src='<img src='https://github.com/betterscientificsoftware/images/raw/master/YOUR-IMAGE-NAME.png' class='logo' />
+< img src='<img src='../../images/YOUR-IMAGE-NAME.png' class='logo' />
 ````
 - Please ensure we have permission to use the logo/image 
 - Please ensure logo is clear and high resolution
+- Please remember to commit the image file with the `*.md` file on your git branch
+
+See  [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md) for more details.
 
 ## Metadata Section
 

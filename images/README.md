@@ -1,7 +1,5 @@
 # images
 
-**NOTE: PLEASE FOLLOW THE INSTRUCTIONS GIVEN BELOW. All new images should be uploaded to the  `bssw.io/images` directory!**
-
 This directory is for image files that will be displayed on the bssw.io site.
 
 Note that you can place an image from any location on the web, but drawing images from this images directory and assigning the proper class for an image ensures it will display consistently with other images in the site.
@@ -117,5 +115,5 @@ These are a special case. Enter the code below substituting your filename at the
 These are addressed as a text link and follow the formatting below.
 
 ```
-[WhatIs doc](../../images//filename.pdf "What is Good Documentation?")
+[WhatIs doc](../../images/filename.pdf "What is Good Documentation?")
 ```
