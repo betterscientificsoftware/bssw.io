@@ -36,7 +36,7 @@ Please visit the [Fellowship Programme page](http://bit.ly/ssi-fellows2022) for 
 If you have questions about the Programme, please contact Rachael Ainsworth, Institute Community Manager at [fellows-management@software.ac.uk](mailto:fellows-management@software.ac.uk).
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Funding sources and programs
 --->
