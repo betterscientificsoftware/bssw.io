@@ -155,5 +155,5 @@ Tom Morrell is the Research Data Specialist at Caltech Library. He is responsibl
 <!--
 Publish: preview
 Pinned: no
-Topics: Software publication and citation
+Topics: Software publishing and citation
 --->
