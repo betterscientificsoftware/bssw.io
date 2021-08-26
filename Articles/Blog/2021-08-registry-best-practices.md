@@ -1,6 +1,6 @@
 # Best Practices for Software Registries and Repositories
 
-#### Contributed by Alejandra Gonzalez-Beltran, Alice Allen, Allen Lee, Daniel Garijo, Thomas Morrell 
+#### Contributed by [Alejandra Gonzalez-Beltran](https://github.com/agbeltran), [Alice Allen](https://github.com/asclnet), [Allen Lee](https://github.com/alee), [Daniel Garijo](https://github.com/dgarijo/), and [Thomas Morrell](https://github.com/tmorrell) 
 
 Community-developed guidelines for managers of software registries and
 repositories will help efforts to increase awareness and recognition of software
@@ -140,17 +140,17 @@ and the *[FORCE11
 blog](https://www.force11.org/blog/best-practices-software-registries-and-repositories)*.
 
 
-### Author bio
+### Author bios
 
-Alejandra Gonzalez-Beltran
+Alejandra Gonzalez-Beltran leads the [Data & Software Engineering Group](https://www.scd.stfc.ac.uk/Pages/Software-Engineering-Group.aspx) in the [Scientific Computing Department](https://www.scd.stfc.ac.uk/) of the UK [Science and Technology Facilities Council](https://stfc.ukri.org/) as well as a Junior Research Fellow & College Adviser at [Kellogg College](https://kellogg.ox.ac.uk/), [University of Oxford](https://www.ox.ac.uk/).  Her research interests are in models, methods, and software tools for data science and innovative scholarly communication.
 
-Alice Allen
+Alice Allen is the Editor of the [Astrophysics Source Code Library](https://ascl.net/) (ASCL), which works to improve the transparency and reproducibility of astronomy research by making the computational methods used in this research more discoverable. She is a member of the [FORCE11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), the [SciCodes Consortium](https://scicodes.net/), and the [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html) Evaluation and Advisory Committee.
 
-Allen Lee
+Allen Lee is a computer scientist and research software engineer working to (hopefully) improve our abilities to understand and sustainably evolve with the complex adaptive systems that we collectively navigate. I contribute to open science initiatives like the Network for Computational Modeling in the Social and Ecological Sciences (https://comses.net), help conduct research in [collective action and the commons](https://iasc-commons.org/) 🤲, and serve as a maintainer and instructor for [The Carpentries](https://carpentries.org/).
 
-Daniel Garijo
+Daniel Garijo is a Researcher at the [Ontology Engineering Group](http://www.oeg-upm.net/) of the [Universidad Politécnica de Madrid](http://www.upm.es/institucional). Daniel's research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of software and scientific workflows using provenance, metadata, intermediate results and [Linked Data](https://www.w3.org/DesignIssues/LinkedData.html). 
 
-Thomas Morrell
+Tom Morrell is the Research Data Specialist at Caltech Library. He is responsible for managing the [CaltechDATA](https://data.caltech.edu/) institutional data and software repository and helping researchers effectively store and share their data and software. Tom also contributes to the [FORCE11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), [SciCodes Consortium](https://scicodes.net/), and [InvenioRDM](https://inveniosoftware.org/products/rdm/) repository development.
   
 <!--
 Publish: preview
