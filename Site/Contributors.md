@@ -10,9 +10,11 @@ Input contributors on front-end
 
 <!--
 Contributor overrides:
+format: GH id, alphabetization key, name to show
 "nniiicc", "Weber", "Nic Weber"
 "gonsie", "Gonsiorowski"
 "npch", "Chue"
 "-", "BSSw", "BSSw Community"
 "-", "BSSw", "BSSw.io Team"
+"alee", "Lee", "Allen Lee"
 -->
