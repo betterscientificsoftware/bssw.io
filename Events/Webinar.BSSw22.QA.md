@@ -10,7 +10,7 @@
 Event Information | Details
 :--- | :---			   
 Event Name | [2022 BSSw Fellowship Q&A Webinar](https://bssw.io/blog_posts/applications-open-for-the-2022-bssw-fellowship-program)
-Event Date and Time | Monday, September 13, 2021, 1:00-2:00 PM EDT
+Event Date and Time | September 13, 2021, 1:00-2:00 PM EDT
 Website | https://bssw.io/blog_posts/applications-open-for-the-2022-bssw-fellowship-program
 
 Join a Q&A Webinar to hear more about the BSSw Fellowship Program and get your questions answered! Please subscribe to our [mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details regarding telecon information for the Q&A session.
