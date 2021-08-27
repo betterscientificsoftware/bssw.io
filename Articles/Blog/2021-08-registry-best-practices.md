@@ -153,7 +153,7 @@ Daniel Garijo is a Researcher at the [Ontology Engineering Group](http://www.oeg
 Tom Morrell is the Research Data Specialist at Caltech Library. He is responsible for managing the [CaltechDATA](https://data.caltech.edu/) institutional data and software repository and helping researchers effectively store and share their data and software. Tom also contributes to the [FORCE11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), [SciCodes Consortium](https://scicodes.net/), and [InvenioRDM](https://inveniosoftware.org/products/rdm/) repository development.
   
 <!--
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: Software publishing and citation
 --->
