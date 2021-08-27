@@ -1,6 +1,6 @@
 # Q&A Webinar - 2022 BSSw Fellowship Program
 
-- Date: Monday, September 13, 2021, 1:00-2:00 PM EDT 
+- Date: September 13, 2021 
 - Location: Online
 - Event Website: https://bssw.io/blog_posts/applications-open-for-the-2022-bssw-fellowship-program
 - Organizers: Better Scientifc Software Community
