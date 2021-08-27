@@ -22,7 +22,7 @@ Application deadline: Thursday, September 30, 2021; this is a firm deadline that
 If you have additional questions, please contact us at info@bssw.io.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: funding sources and programs, projects and organizations
 RSS update: 2021-08-27
