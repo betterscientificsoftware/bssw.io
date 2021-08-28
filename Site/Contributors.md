@@ -8,9 +8,14 @@ Below is an alphabetized list of contributors thus far.  We welcome your input t
 Input contributors on front-end
 --->
 
+<!-- instructions for the contributor mappings below
+  Column 1: GH id or "-"
+  Column 2: Key for alphabetization
+  Column 3: Name to display. (If col 1 is "-" a name matching this column is alphabetized per col 2)
+-->
+
 <!--
 Contributor overrides:
-format: GH id, alphabetization key, name to show
 "nniiicc", "Weber", "Nic Weber"
 "gonsie", "Gonsiorowski"
 "npch", "Chue"
