@@ -7,16 +7,16 @@ Slide1 L: ../Articles/Blog/BSSwFellowshipApplicationsOpen2021.md
 Slide1 R: Blog_2108_FellowsAppOpen.png
 Slide2 L: ../Articles/Blog/2021-08-IntegratingInterns.md
 Slide2 R: Blog_0821_Interns.png
-Slide3 L: ../Articles/Blog/2021-07-BSSwFellows21.md
-Slide3 R: Blog_0720_Fellows.png
-Slide4 L: ../Articles/Blog/2021-07-RateYourProject.md
-Slide4 R: Blog_0721_PSIPhero_b.png
+Slide3 L: ../CuratedContent/SwEcosystems.md.md
+Slide3 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
+Slide4 L: ../Articles/Blog/2021-07-BSSwFellows21.md
+Slide4 R: Blog_0720_Fellows.png
 Slide5 L: ../Articles/Blog/2021-06-ES4Blog.md
 Slide5 R: ../CuratedContent/InclusiveNamingInitiative.md
-Slide6 L: ../CuratedContent/Debuggingbooks.md
+Slide6 L: ../Events/Webinar.BSSw22.QA.md
 Slide6 R: ../CuratedContent/TenBestPracticesRemoteSwEngg.md
-Slide7 L: ../Events/hpcbp-056-20yearsopensource.md
-Slide7 R: ../Events/2021-08-ua-testing-survey.md
+Slide7 L: ../Events/swr-010-training.md 
+Slide7 R: ../Events/hpcbp-056-20yearsopensource.md
 --->
 
 <!---
