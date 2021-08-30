@@ -22,7 +22,7 @@ Community software ecosystem perspectives are essential in the exascale era, chi
 The paper is an interesting read and emphasizes that we can all play important roles in addressing several of the technical, cognitive and social challenges in scientific software by catalyzing change in our own projects, institutions and communities.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 RSS update: 2021-08-30
 Topics: Software engineering
