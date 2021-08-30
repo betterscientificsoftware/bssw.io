@@ -5,16 +5,16 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../Articles/Blog/BSSwFellowshipApplicationsOpen2021.md
 Slide1 R: Blog_2108_FellowsAppOpen.png
-Slide2 L: ../Articles/Blog/2021-08-IntegratingInterns.md
-Slide2 R: Blog_0821_Interns.png
-Slide3 L: ../CuratedContent/SwEcosystems.md
-Slide3 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
+Slide2 L: ../Articles/Blog/2021-08-registry-best-practices.md 
+Slide2 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
+Slide3 L: ../Articles/Blog/2021-08-IntegratingInterns.md
+Slide3 R: Blog_0821_Interns.png
 Slide4 L: ../Articles/Blog/2021-07-BSSwFellows21.md
 Slide4 R: Blog_0720_Fellows.png
-Slide5 L: ../Articles/Blog/2021-06-ES4Blog.md
+Slide5 L: ../CuratedContent/SwEcosystems.md
 Slide5 R: ../CuratedContent/InclusiveNamingInitiative.md
-Slide6 L: ../Events/Webinar.BSSw22.QA.md
-Slide6 R: ../CuratedContent/TenBestPracticesRemoteSwEngg.md
+Slide6 L: ../CuratedContent/TenBestPracticesRemoteSwEngg.md
+Slide6 R: ../Events/Webinar.BSSw22.QA.md
 Slide7 L: ../Events/swr-010-training.md 
 Slide7 R: ../Events/hpcbp-056-20yearsopensource.md
 --->
