@@ -7,7 +7,7 @@ Slide1 L: ../Articles/Blog/BSSwFellowshipApplicationsOpen2021.md
 Slide1 R: Blog_2108_FellowsAppOpen.png
 Slide2 L: ../Articles/Blog/2021-08-IntegratingInterns.md
 Slide2 R: Blog_0821_Interns.png
-Slide3 L: ../CuratedContent/SwEcosystems.md.md
+Slide3 L: ../CuratedContent/SwEcosystems.md
 Slide3 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
 Slide4 L: ../Articles/Blog/2021-07-BSSwFellows21.md
 Slide4 R: Blog_0720_Fellows.png
