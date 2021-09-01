@@ -58,3 +58,10 @@ Website | [Shablona](https://github.com/uwescience/shablona/blob/master/README.m
 Focus | Coding, Python
 
 **Shablona** caters to a very particular group, but it was found to be highly useful to researchers who are involved with small scientific Python projects.  It is a template developed by the University of Washington’s e-science Institute, touted to be very popular, and an excellent template for universal solutions to small Python projects.
+
+<!---
+Publish: preview
+Topics: Software process improvement, Development tools
+Pinned: no
+RSS update: 2021-09-03
+--->
