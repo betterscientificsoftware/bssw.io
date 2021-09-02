@@ -6,9 +6,9 @@ There are several environments that support collecting data, software, and publi
 #### Contributed by [Jean Shuler](https://github.com/JeanShuler)
 #### Publication date: September 3, 2021
 
-Data collection is an important step for all fields of research and more importantly for published scientific articles that are based on the research. Data collection is usually done before high quality research can begin so questions can be answered. A critical objective of data collection is to ensure the reliable information and data is collected so that data-driven informed decisions can be made from further analysis, study, and research. Both data collection and analysis allows researchers to stay on top of trends, provide answers to problems, and analyze new insights to great effect.
+Data collection is an important step for all fields of research and, more importantly, for published scientific articles that are based on the research. Data collection is usually done before high quality research can begin so questions can be answered. A critical objective of data collection is to ensure that reliable information and data is collected so that data-driven informed decisions can be made from further analysis, study, and research. Both data collection and analysis allows researchers to stay on top of trends, provide answers to problems, and analyze new insights to great effect.
 
-Research papers are often based on huge amounts of summarized data that can be easily read and understood. When writing and preparing to publish a research paper, it is important for data to be analyzed and presented in a visually appealing way.  The data collection software products described, in this article, are indicative of data collection methods for analyzing and publishing studies of outcomes of research and these quality data collection methods improve accuracy and validity for publications. Among environments that support collecting data, software, and publication content are OCCAM, CodeOcean, Popper, Nvivo, and Shablona. As the need becomes greater, we see that more such environments are being developed
+Research papers are often based on huge amounts of summarized data that can be easily read and understood. When writing and preparing to publish a research paper, it is important for data to be analyzed and presented in a visually appealing way.  The data collection software products described in this article are indicative of data collection methods for analyzing and publishing studies of outcomes of research, and these quality data collection methods improve accuracy and validity for publications. Among environments that support collecting data, software, and publication content are OCCAM, CodeOcean, Popper, Nvivo, and Shablona. As the need becomes greater, more such environments are being developed.
 
 Resource information | Details 
 :--- | :--- 
@@ -38,12 +38,12 @@ With Code Ocean, researchers are able to analyze, organize, and execute work and
 Resource information | Details 
 :--- | :--- 
 Resource Name | Popper
-Websites | [Popper](https://getpopper.io/)
+Websites | [Popper](https://getpopper.io/), [Popper GitHub Repo](https://github.com/getpopper/popper), [Popper 'Read the Docs' File](https://popper.readthedocs.io/en/latest/index.html)
 Focus | Container workflows
 
 **Popper** is a more unique and restrictive tool for defining and executing container-native testing workflows in Docker. With Popper, you define a workflow in a YAML file, and then execute it with a single command. Popper is a container-native task automation engine that runs on distinct container engines, orchestration frameworks and CI services. 
 
-The main website for information is at [https://getpopper.io/](https://getpopper.io/). There is also a GitHub repository at [https://github.com/getpopper/popper](https://github.com/getpopper/popper). To learn even more about this product, the ‘Popper Read the Docs’ file is at [https://popper.readthedocs.io/en/latest/index.html](https://popper.readthedocs.io/en/latest/index.html). The document instructs you on how to install the product, create, run, debug, and execute your workflow. The section on ‘Life of a Workflow’ describes what Popper does when it executes a workflow and shows sample workflows to get you started. The guide assumes familiarity with Linux containers and the container-native paradigm to software development.
+There is a main website for information, a GitHub repository, and a ‘Popper Read the Docs’ file, where users can find information about the tool. The 'Read the Doc' document specifically instructs you on how to install the product, create, run, debug, and execute your workflow. The section on ‘Life of a Workflow’ describes what Popper does when it executes a workflow and shows sample workflows to get you started. The guide assumes familiarity with Linux containers and the container-native paradigm to software development.
 
 Resource information | Details 
 :--- | :--- 
