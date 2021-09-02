@@ -1,12 +1,14 @@
 # Executable Environments for Software, Data, and Publication
 <!--deck text start-->
-There are several environments that support collecting data, software, and publication content in order to support generating a paper, reproducing its results, and exploring its parameter space. This article lists multiple resources, found below. 
+There are several environments that support collecting data, software, and publication content in order to support generating a publication, reproducing its results, and exploring its parameter space.
 <!--deck text end-->
 
 #### Contributed by [Jean Shuler](https://github.com/JeanShuler)
 #### Publication date: September 3, 2021
 
-Among environments that support collecting data, software, and publication content are OCCAM, CodeOcean, Popper, Nvivo, and Shablona.  Even more environments are being developed as the need becomes greater.
+Data collection is an important step for all fields of research and more importantly for published scientific articles that are based on the research. Data collection is usually done before high quality research can begin so questions can be answered. A critical objective of data collection is to ensure the reliable information and data is collected so that data-driven informed decisions can be made from further analysis, study, and research. Both data collection and analysis allows researchers to stay on top of trends, provide answers to problems, and analyze new insights to great effect.
+
+Research papers are often based on huge amounts of summarized data that can be easily read and understood. When writing and preparing to publish a research paper, it is important for data to be analyzed and presented in a visually appealing way.  The data collection software products described, in this article, are indicative of data collection methods for analyzing and publishing studies of outcomes of research and these quality data collection methods improve accuracy and validity for publications. Among environments that support collecting data, software, and publication content are OCCAM, CodeOcean, Popper, Nvivo, and Shablona. As the need becomes greater, we see that more such environments are being developed
 
 Resource information | Details 
 :--- | :--- 
