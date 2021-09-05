@@ -86,6 +86,15 @@ Focus | Activities of the Software Sustainability Institute
 
 The Software Sustainability Institute (SSI) is a primary nexus of activity around better scientific software in the UK.  The blog is wide-ranging, but often includes the products of "speed blogging" activities at various conferences and workshops, reports from SSI Fellows, and many other topics.
 
+## Joel on Software
+Resource information | Details
+:--- | :---
+Blog Name | Joel on Software
+Website | https://www.joelonsoftware.com/
+Focus | Software development, management, and the Internet
+
+Joel Spolsky has been involved in products such as FogBugz, Trello, Glitch, and Stack Overflow.  Though not a *scientific* software developer, he has a blog dating back to 2000 that includes many insightful articles about software development which are as useful for scientific software developers as others.  Though he is (semi-?) retired and not posting very often these days, many of his more than 1,000 past blog posts offer observations and insights which are as relevant today as when he originally wrote them.
+
 ## Whom do you follow?
 *Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers and podcasts you follow regularly on topics related to better scientific software.*
 
