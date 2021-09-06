@@ -168,6 +168,13 @@ the bssw.io/images directory to work nicely with the typical authoring/developme
 [URL prefix: ../images (should work on GH)]<img src='../images/Blog_1119_WorkThankful.jpg' />
 [URL prefix: ../../images (should *not* work on GH)]<img src='../../images/Blog_1119_WorkThankful.jpg' />
 
+## Test images subdirectories
+The following image calls test subdirectories in the images directory and filename collisions between images and its subdirectories.
+
+[images/cats subdirectory: should be a cat]<img src='../images/cats/cat1.jpg' />
+[images directory: should be the MolSSI logo]<img src='../images/cat1.jpg' />
+
+
 **Subresources:**
 - [Doxygen](DocumentationTools.Doxygen.md)
 - [ReadTheDocs](DocumentationTools.ReadTheDocs.md)
@@ -178,7 +185,7 @@ the bssw.io/images directory to work nicely with the typical authoring/developme
 
 
 <!---
-Publish: preview
+Publish: yes
 Categories: Planning, Reliability
 Topics: testing
 Tags: [import from subresources]
