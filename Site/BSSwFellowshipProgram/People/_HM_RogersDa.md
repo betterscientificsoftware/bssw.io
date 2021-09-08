@@ -2,7 +2,7 @@
 
 **Name:** David Rogers
 
-**Image:** /images/blob/master/People_Rogers.jpg
+**Image:** /images/People_Rogers.jpg
 
 **Affiliation:** National Center for Computational Sciences, Oak Ridge National Lab
 
