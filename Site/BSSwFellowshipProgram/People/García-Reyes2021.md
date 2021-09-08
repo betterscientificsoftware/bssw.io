@@ -4,7 +4,7 @@
 
 **Affiliation:** Farallon Institute
 
-**Image:** /images/blob/master/People_GarciaReyes.jpg 
+**Image:** /images/People_GarciaReyes.jpg 
 
 **URL:** http://www.faralloninstitute.org/marisol 
 
