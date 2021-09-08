@@ -2,7 +2,7 @@
 
 **Name:** Keith Beattie
 
-**Image:** /images/blob/master/People_Beattie.jpg 
+**Image:** /images/People_Beattie.jpg 
 
 **Affiliation:** Lawrence Berkeley National Laboratory
 
