@@ -2,7 +2,7 @@
 
 **Name:** Ying Li
 
-**Image:** /images/blob/master/People_LiYing.jpg
+**Image:** /images/People_LiYing.jpg
 
 **Affiliation:** Argonne National Laboratory
 
