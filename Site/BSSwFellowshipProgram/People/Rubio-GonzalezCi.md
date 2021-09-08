@@ -4,7 +4,7 @@
 
 **Affiliation:** University of California, Davis
 
-**Image:** /images/blob/master/People_CindyRubioGonzalez.jpg
+**Image:** /images/People_CindyRubioGonzalez.jpg
 
 **URL:** https://web.cs.ucdavis.edu/~rubio
 
