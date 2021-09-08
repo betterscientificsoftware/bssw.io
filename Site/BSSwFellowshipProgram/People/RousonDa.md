@@ -4,7 +4,7 @@
 
 **Affiliation:** Sustainable Horizons Institute, Sourcery Institute
 
-**Image:** /images/blob/master/People_DamianRouson.jpg
+**Image:** /images/People_DamianRouson.jpg
 
 **URL:** http://www.sourceryinstitute.org/damian-rouson.html
 
