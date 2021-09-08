@@ -4,7 +4,7 @@
 
 **Affiliation:** Million Concepts
 
-**Image:** /images/blob/master/People_Million.jpg
+**Image:** People_Million.jpg
 
 **URL:** https://millionconcepts.com/about.html
 
