@@ -4,7 +4,7 @@
 
 **Affiliation:** National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign
 
-**Image:** /images/blob/master/People_KatzDaniel.jpg
+**Image:** /images/People_KatzDaniel.jpg
 
 **URL:** https://danielskatz.org/
 
