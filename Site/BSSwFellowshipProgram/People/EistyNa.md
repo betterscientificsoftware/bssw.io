@@ -4,7 +4,7 @@
 
 **Affiliation:** University of Alabama
 
-**Image:** /images/blob/master/People_Nasir.jpg
+**Image:** /images/People_Nasir.jpg
 
 **URL:** http://neisty.students.cs.ua.edu
 
