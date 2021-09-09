@@ -1,4 +1,4 @@
-# Webinar: Best practices for Computational and Data-intensive (CDI) Research
+# Webinar: Best Practices for Computational and Data-Intensive (CDI) Research
 
 *	Date: 2021-09-16
 *	Location: Online 
@@ -11,7 +11,7 @@ This webinar presents the first set of results, also described at  https://sites
 
 | Resource Information  | Details
 | :------------ | :------------ 
-| Webinar Title  | Best practices for Computational and Data-intensive (CDI) Research 
+| Webinar Title  | Best Practices for Computational and Data-Intensive (CDI) Research 
 | Date and Time | 2021-09-16, 2:00-3:00 pm EDT
 | Presenter | Rudi Eigenmann (University of Delaware)
 | Panelists | Ian A. Cosden (Princeton University & US-RSE)<br>Julie Ma (Massachusetts Green High-Performance Computing Center (MGHPCC))<br>Sandra Gesing (University of Illinois Chicago)<br>Jeff F. Pummill (Arkansas High-Performance Computing Center)<br>Sergiu Sanielevici ( Pittsburgh Supercomputing Center)
