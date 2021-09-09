@@ -4,13 +4,13 @@ Software—the foundation of discovery in computational science & engineering—
 
 <!---
 Slide1 L: ../Articles/Blog/BSSwFellowshipApplicationsOpen2021.md
-Slide1 R: Blog_2108_FellowsAppOpen.png
+Slide1 R: ../images/Blog_2108_FellowsAppOpen.png
 Slide2 L: ../Articles/Blog/2021-08-registry-best-practices.md 
 Slide2 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
 Slide3 L: ../Articles/Blog/2021-08-IntegratingInterns.md
-Slide3 R: Blog_0821_Interns.png
+Slide3 R: ../images/Blog_0821_Interns.png
 Slide4 L: ../Articles/Blog/2021-07-BSSwFellows21.md
-Slide4 R: Blog_0720_Fellows.png
+Slide4 R: ../images/Blog_0720_Fellows.png
 Slide5 L: ../CuratedContent/SwEcosystems.md
 Slide5 R: ../CuratedContent/InclusiveNamingInitiative.md
 Slide6 L: ../CuratedContent/TenBestPracticesRemoteSwEngg.md
