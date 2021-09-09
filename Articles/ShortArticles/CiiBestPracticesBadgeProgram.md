@@ -56,6 +56,8 @@ ToDo: Describe:
 
 * Provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas.
 
+* White House Executive Order 14028 that requires government and DOE software improve software security may impact CSE software.
+
 * ???
 
 
@@ -67,7 +69,7 @@ ToDo: Describe:
 
 
 <!---
- Publish: preview
+ Publish: yes
  Pinned: no
  Topics: revision control, development tools
  RSS update: ???
