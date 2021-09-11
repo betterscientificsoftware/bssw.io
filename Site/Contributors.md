@@ -22,4 +22,5 @@ Contributor overrides:
 "-", "BSSw", "BSSw Community"
 "-", "BSSw", "BSSw.io Team"
 "alee", "Lee", "Allen Lee"
+"parinaz2015", "Barakhshan", "Parinaz Barakhshan"
 -->
