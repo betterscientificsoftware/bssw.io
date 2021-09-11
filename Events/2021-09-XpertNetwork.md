@@ -32,7 +32,7 @@ Rudolf (Rudi) Eigenmann came to the University of Delaware in 2017 from Purdue U
 #### Contributed by Rudi Eigenmann and [Parinaz Barakhshan](https://github.com/parinaz2015)
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
