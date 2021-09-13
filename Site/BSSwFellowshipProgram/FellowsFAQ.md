@@ -6,7 +6,7 @@ More questions and answers will be added to this page over time; check back for 
 
 - Monday, September 13, 1:00-2:00 pm EDT
 <!--- - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. --->
-- Slides & Recording (9/13/2021):  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.16611331.v1) / Recording: (slides/audio) - Coming Soon
+- Slides & Recording (9/13/2021):  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.16611331) / Recording: (slides/audio) - Coming Soon
 
 ## Application Questions
 
