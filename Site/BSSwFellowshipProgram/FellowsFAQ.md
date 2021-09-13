@@ -5,8 +5,8 @@ More questions and answers will be added to this page over time; check back for 
 ## Q & A Webinar, September 13, 2021
 
 - Monday, September 13, 1:00-2:00 pm EDT
-- Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
-- Slides & Recording from last year:  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.12934841) / Recording: [(slides/audio)](https://exascaleproject.zoomgov.com/rec/share/vslSEbX89EhOGNbU4hzed6clLIrsT6a81XAf_aAIyR2ayDofvFEbyBZfalioBzxA?startTime=1599681780000)
+<!--- - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. --->
+- Slides & Recording (9/13/2021):  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.16611331.v1) / Recording: (slides/audio) - Coming Soon
 
 ## Application Questions
 
