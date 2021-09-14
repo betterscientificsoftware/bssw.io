@@ -16,7 +16,7 @@ Do you have something to share with the scientific software community?  Do you h
 
 ### Who Should Apply
 
-Applicants must be affiliated with a U.S.-based institution that is able to receive funding from the U.S. Department of Energy.  Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations.  
+Applicants must be affiliated with a U.S.-based institution that is able to receive Federal funding.  Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations.  
 
 Beyond this categorical requirement, we are looking for applications from people with the following characteristics:
 - Passionate about scientific software.
@@ -61,4 +61,6 @@ Beyond this categorical requirement, we are looking for applications from people
 </div>  
 </div>
 
-
+<!--
+OpenGraph image: Blog_2108_FellowsAppOpen.png
+--> 

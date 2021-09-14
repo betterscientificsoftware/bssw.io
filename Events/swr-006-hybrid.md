@@ -102,7 +102,7 @@ IDEAS-ECP productivity project.</p>
 
     
 
-#### Contributed by  Ashley Barker, [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
+#### Contributed by [Ashley Barker](https://github.com/ashley08 "Ashley Barker Github profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile"), and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
 
 <!---
 Publish: yes

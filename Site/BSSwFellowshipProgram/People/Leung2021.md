@@ -4,7 +4,7 @@
 
 **Affiliation:** Sustainable Horizons Institute
 
-**Image:** /images/blob/master/People_Leung.jpg
+**Image:** /images/People_Leung.jpg
 
 **URL:** http://shinstitute.org/category/our-team2/
 

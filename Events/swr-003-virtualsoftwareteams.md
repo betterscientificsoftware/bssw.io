@@ -137,7 +137,7 @@ Florida as a member of Sandia’s Statistics and Human Systems Group
 
     
 
-#### Contributed by [Jay Jay Billings](https://github.com/jayjaybillings "Jay Jay Billings GitHub profile"), [Mark Gates](https://github.com/mgates3 "Mark Gates GitHub profile"), [Mahantesh Halappanavar](https://github.com/mhalappa "Mahantesh Halappanavar GitHub profile"), [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub profile"), [Axel Huebl](https://github.com/ax3l "Axel Huebl GitHub profile"), Ashley Barker, and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
+#### Contributed by [Jay Jay Billings](https://github.com/jayjaybillings "Jay Jay Billings GitHub profile"), [Mark Gates](https://github.com/mgates3 "Mark Gates GitHub profile"), [Mahantesh Halappanavar](https://github.com/mhalappa "Mahantesh Halappanavar GitHub profile"), [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub profile"), [Axel Huebl](https://github.com/ax3l "Axel Huebl GitHub profile"), [Ashley Barker](https://github.com/ashley08 "Ashley Barker Github Profile"), and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
 
 <!---
 Publish: yes

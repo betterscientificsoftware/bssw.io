@@ -13,8 +13,6 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition a
 <br>
 
 <img src='../../images/Blog_2108_FellowsAppOpen.png'/>
-<meta property="og:image" content="https://res.cloudinary.com/bssw/image/fetch/https://raw.githubusercontent.com/betterscientificsoftware/bssw.io/master/images/Blog_2108_FellowsAppOpen.png" />
-<!-- image will be replaced with new one -->
 
 <br>
 
@@ -67,4 +65,5 @@ Publish: yes
 Pinned: no
 Topics: Funding sources and programs, projects and organizations
 RSS update: 2021-08-16
+OpenGraph image: Blog_2108_FellowsAppOpen.png
 --->

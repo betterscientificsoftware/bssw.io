@@ -4,7 +4,7 @@
 
 **Affiliation:** Pacific Northwest National Laboratory, University of Washington, Northwest Institute for Advanced Computing
 
-**Image:** /images/blob/master/People_LumsdaineAndrew.jpg
+**Image:** /images/People_LumsdaineAndrew.jpg
 
 **URL:** https://homes.cs.washington.edu/~al75
 
