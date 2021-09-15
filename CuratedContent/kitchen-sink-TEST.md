@@ -139,6 +139,19 @@ Below are markdwon styles in the blockquote
 
 > The quick brown fox jumps over the *lazy dog*. The **quick brown fox** jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
+## Test of HTML comment handling
+
+HTML comments look like this: `<!-- arbitrary text -->` (which we can see becasuse we marked it up as code)
+
+Comments in regular text <!-- like this --> should be interpreted as comments.  They should be visible in the resulting HTML source, but not in the rendered version.
+
+### Comments after headings <!-- should also be treated like comments -->
+
+There should be some real text here, just for the sake of appearances
+
+### References <!-- sfer_ezikiw -->
+
+But due to a bug they were being rendered as visible text.
 
 ## Test image
 
@@ -193,5 +206,9 @@ Level: 2
 Prerequisites: [import from subresources]
 Aggregate: base
 Slug: special-kitchen-sink-url
+<<<<<<< HEAD
 OpenGraph image: /Blog_1119_WorkThankful.jpg
+=======
+OpenGraph image: /images/Blog_1119_WorkThankful.jpg
+>>>>>>> a206f295a11c6b273db5f69487a724d7d6fa26dd
 --->
