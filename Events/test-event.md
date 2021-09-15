@@ -1,4 +1,4 @@
-# Webinar: Making Containers Easier with HPC Container Maker
+# Test Event
 
 - Date: October 16-November 10
 - Submission date: October 1
