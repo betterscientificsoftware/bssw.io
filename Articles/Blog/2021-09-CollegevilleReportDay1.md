@@ -49,7 +49,7 @@ In the remainder of this article, we summarize the key challenges identified dur
 ### Final remarks from Day 1 discussions
 Day 1 discussions at the Collegeville 2021 Workshop represent the input of a diverse and experienced group of scientific software developers and leaders, and their colleagues from the social, information, and cognitive sciences. We hope that the challenges summarized in this blog resonate with you and help the scientific software community when prioritizing efforts to improve the quality and impact of software in the pursuit of scientific discovery. We look forward to addressing these challenges with creativity and community-developed insight.
 
-#### Acknowledgements
+### Acknowledgements
 The workshop organizers and authors of this article thank all participants for contributions to workshop discussions.
 
 <!---
