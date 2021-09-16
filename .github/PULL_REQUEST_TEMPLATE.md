@@ -17,7 +17,7 @@ Any checklist items that don't apply can be striked out by adding `~~` to the be
 
 EB Member: @`<eb-member-id>`
 
-Addresses issue #`<issue-id>`
+Resolves #`<issue-id>`
 
 `<Other minimal information about the PR.>`
 
