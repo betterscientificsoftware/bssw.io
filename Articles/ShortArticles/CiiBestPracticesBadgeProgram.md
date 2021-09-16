@@ -9,9 +9,11 @@ This set of best practices along with the detailed documentation and supporting 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
 #### Publication date: ???, 2021
 
-The Linux Foundation's<sup>[lf]</sup> Core Infrastructure Initiative (CII)<sup>[cii]</sup> was an effort to improve the security and quality of open source software.  (The CII has since been replaced by the new Open Source Security Foundation (OpenSSF)<sup>[openssf]</sup>).
-The CII Best Practices Badge Program<sup>[ciibpbp]</sup> (being continued under the OpenSSF) is an effort to collect, document, and present a comprehensive collection of best practices from the open-source software development community.
-The core of this badge program is a "Badge App" site<sup>[ciibpba]</sup> that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.    The practices are broken down in several different ways:
+The Linux Foundation's<sup>[lf]</sup> Core Infrastructure Initiative (CII)<sup>[cii]</sup> and its successor the Open Source Security Foundation (OpenSSF)<sup>[openssf]</sup> is an effort to improve the security and quality of open source software.
+The CII Best Practices Badge Program<sup>[ciibpbp]</sup> (being continued under the OpenSSF) is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community.
+The core of this badge program is a "Badge App" site<sup>[ciibpba]</sup> that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.
+
+The practices are broken down in several different ways including by:
 
 * Three different badge levels (N/A allowed on some MUST practices):
   * Passing: 43 MUST, 10 SHOULD, 14 SUGGESTED
