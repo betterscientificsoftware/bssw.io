@@ -9,9 +9,28 @@ This set of best practices along with the detailed documentation and supporting 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
 #### Publication date: ???, 2021
 
-The Linux Foundation's<sup>[lf]</sup> Core Infrastructure Initiative (CII)<sup>[cii]</sup> and its successor the Open Source Security Foundation (OpenSSF)<sup>[openssf]</sup> is an effort to improve the security and quality of open source software.
-The CII Best Practices Badge Program<sup>[ciibpbp]</sup> (being continued under the OpenSSF) is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community.
+The Linux Foundation's<sup>[lf]</sup> Open Source Security Foundation (OpenSSF)<sup>[openssf]</sup> (the successor to its Core Infrastructure Initiative (CII)<sup>[cii]</sup>) is an effort to improve the security and quality of open source software.
+The CII Best Practices Badge Program<sup>[ciibpbp]</sup> (started under the CII and being continued under the OpenSSF) is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community.
 The core of this badge program is a "Badge App" site<sup>[ciibpba]</sup> that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.
+
+The CII Best Practices and the supporting Badge App site provides a number of benefits including it
+
+* produces a badge that can be displayed on GitHub, GitLab and other project hosting sites that advertises that a project follows accepted community best practices.
+
+* provides a learning tool for best practices for developers and projects,
+
+* provides an incremental road map for incremental process and quality improvements for a software project,
+
+* provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas,
+
+* provides a standard catalog into the parts of the projects and how it handles different types of processes,
+
+* provides a website template and database implementation that can be forked and customized for more targeted communities,
+
+
+
+
+## Details of the CII Best Practices
 
 The practices are broken down in several different ways including by:
 
@@ -65,6 +84,7 @@ The badge website provides scores for each of the six categories separately in e
 
 ToDo: Show a screenshot of the different categories.
 
+ToDo: Show an screen shot of the badge that can appear on GitHub README.md file.
 
 
 
@@ -72,17 +92,21 @@ ToDo: Show a screenshot of the different categories.
 
 ToDo: Describe:
 
-* Scores in each level a provided separately for each level (show screen shot).
+* Provide subsections for each of the bullets above.
 
-* Show an screen shot of the badge that can appear on GitHub README.md file.
+* Scores in each level a provided separately for each level (show screen shot).
 
 * Provides a standard catalog into the parts of the projects and how it handles different types of processes.
 
-* Provides a learning tool for best practices.
+* Produced a badge that can be displayed on GitHub, GitLab and other project hosting sites that advertises that a project follows accepted community best practices.
 
-* Provides a website template and database implementation that can be forked and customized for more targeted communities.
+* Provides a learning tool for best practices for developers and projects.
+
+* Provides an incremental road map for incremental process and quality improvements for a software project.
 
 * Provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas.
+
+* Provides a website template and database implementation that can be forked and customized for more targeted communities.
 
 * White House Executive Order 14028 that requires government and DOE software improve software security may impact CSE software.
 
