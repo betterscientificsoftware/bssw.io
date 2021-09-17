@@ -17,20 +17,23 @@ The CII Best Practices and the supporting Badge App site provides a number of be
 
 * a set of practices that have specific actionable criteria which require supporting evidence,
 
-* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[eo14028]</sup>
+* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[eo14028]</sup>,
 
 * a badge that can be displayed on GitHub, GitLab and other project hosting sites,
 
 * a learning tool for best practices for developers and projects,
 
-* a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas,
+* a roadmap for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas,
 
-* a standard catalog into the parts of the projects and how it handles different types of processes,
+* a standard index into the parts of the projects and how it handles different types of processes,
 
 * a website template and database implementation that can be forked and customized for more targeted communities,
 
+These different aspects of the CII Best Practices and Badge App are described.
 
 ## Details of the CII Best Practices
+
+Before getting into the some of the surprising benefits of the CII Best Practices and Badge App site, it is worth going into some detail about the best practices themselves.
 
 The CII Best Practices are broken down in several different ways:
 
@@ -50,7 +53,7 @@ The CII Best Practices are broken down in several different ways:
   * Security
   * Analysis
 
-As noted above, some of the practices can be opted-out as not applicable "N/A".
+As noted above, some of the practices can be opted-out as not applicable "N/A" which is quite important in order for the CII Best Practices to be broadly applicable.
 
 The CII Best Practices are listed as a full set<sup>[ciibpa]</sup> and also for each badge level individually.  They are also listed with or without the detailed description/justification and links to more information.  Each best practice is composted of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and short HTML anchor name link name that serves as a link to the practice and as an unambiguous shorthand identifier for that best practice criteria.  Many items also require a short comment field be filled out and a URL to evidence.   For example, the first four best "Basic" practices in the passing level are stated as:
 
@@ -59,7 +62,7 @@ The CII Best Practices are listed as a full set<sup>[ciibpa]</sup> and also for 
 
 * The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[description_good]</sup>
 * The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[interact]</sup>
-* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[contribution]]</sup>
+* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[contribution]</sup>
 * The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[contribution_requirements]</sup>
 
 The detailed listing of criteria is given in the following table.
@@ -76,11 +79,11 @@ The detailed listing of criteria is given in the following table.
 
 Some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the Silver level lists the "bus factor" practice as SHOULD:
 
-* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor]</sup>
+* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor](https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor)</sup>
 
 but at the Gold level, it re-lists it as MUST:
 
-* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor]</sup>
+* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor](https://bestpractices.coreinfrastructure.org/en/criteria#2.bus_factor)</sup>
 
 (That is why the number of "Total active" practices in the Silver and Gold levels is higher than the number "New at this  level".)
 
@@ -89,6 +92,50 @@ The badge website provides scores for each of the six categories separately in e
 ToDo: Show a screenshot of the different categories.
 
 ToDo: Show an screen shot of the badge that can appear on GitHub README.md file.
+
+A project can display it's CII Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's README.md or README.rst rendered file can display the CII Best Practices badge at the top like:
+
+<a name="example_cii_best_practices_badge"/>
+
+<p style="text-align:center;">
+
+<img src='../../images/cii_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox'/>
+
+**Example CII Best Practice Badge as displayed on a GitHub README.rst file**
+</p>
+
+<a name="focus_on_security"/>
+
+##  CII Best Practices focus on software Security
+
+Blah blah blah ...
+
+<a name="learning_tool"/>
+
+## CII Best Practices as a learning tool
+
+Blah blah blah ...
+
+<a name="continuous_improvement"/>
+
+## CII Best Practices as roadmap for continuous improvement
+
+Blah blah blah ...
+
+<a name="standard_project_index"/>
+
+## CII Best Practices Badge App as a standard index into a project
+
+Blah blah blah ...
+
+<a name="forking_badge_app_website"/>
+
+## Forking and Customizing the CII Best Practices and Badge App Website
+
+Blah blah blah ...
+
+
+
 
 
 
@@ -100,13 +147,13 @@ ToDo: Describe:
 
 * Scores in each level a provided separately for each level (show screen shot).
 
-* Provides a standard catalog into the parts of the projects and how it handles different types of processes.
+* Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
 
 * Produced a badge that can be displayed on GitHub, GitLab and other project hosting sites that advertises that a project follows accepted community best practices.
 
 * Provides a learning tool for best practices for developers and projects.
 
-* Provides an incremental road map for incremental process and quality improvements for a software project.
+* Provides an incremental road map for continuous incremental process and quality improvements for a software project.
 
 * Provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas.
 
@@ -129,7 +176,6 @@ ToDo: Describe:
 [interact]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact
 [contribution]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution
 [contribution_requirements]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements
-[bus_factor]: https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor
 
 
 <!---
