@@ -57,10 +57,10 @@ The CII Best Practices are listed as a full set<sup>[ciibpa]</sup> and also for 
 **Basics**<br>
 **Basic project website content**</br>
 
-* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[[description_good]]</sup>
-* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[[interact]]</sup>
-* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[[contribution]]</sup>
-* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[[contribution_requirements]]</sup>
+* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[description_good]</sup>
+* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[interact]</sup>
+* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[contribution]]</sup>
+* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[contribution_requirements]</sup>
 
 The detailed listing of criteria is given in the following table.
 
@@ -76,11 +76,11 @@ The detailed listing of criteria is given in the following table.
 
 Some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the Silver level lists the "bus factor" practice as SHOULD:
 
-* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]]</sup>
+* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor]</sup>
 
 but at the Gold level, it re-lists it as MUST:
 
-* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]]</sup>
+* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor]</sup>
 
 (That is why the number of "Total active" practices in the Silver and Gold levels is higher than the number "New at this  level".)
 
