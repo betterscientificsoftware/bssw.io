@@ -97,12 +97,9 @@ A project can display it's CII Best Practices Badge (or percentage progress to a
 
 <a name="example_cii_best_practices_badge"/>
 
-<p style="text-align:center;">
-
 <img src='../../images/cii_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox'/>
 
 **Example CII Best Practice Badge as displayed on a GitHub README.rst file**
-</p>
 
 <a name="focus_on_security"/>
 
