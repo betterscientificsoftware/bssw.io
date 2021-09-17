@@ -17,9 +17,11 @@ The CII Best Practices and the supporting Badge App site provides a number of be
 
 * a set of practices that have specific actionable criteria which require supporting evidence,
 
-* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity",<sup>[eo14028]</sup>
+* a power badge app site that enhances the display of the best practice items, expanded descriptions of the best practices, and fields to enter URL and text descriptions of the status of each best practice in the project, 
 
 * a badge that can be displayed on the project hosting site to show that the project follows accepted best practices,
+
+* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity",<sup>[eo14028]</sup>
 
 * a learning tool for best practices for developers and projects,
 
@@ -34,7 +36,7 @@ These different aspects of the CII Best Practices Program and Badge App are desc
 
 <a name="details"/>
 
-## Details of the CII Best Practices and Badge App
+## CII Best Practices and Badge App Details
 
 Before getting into the some of the surprising benefits of the CII Best Practices and Badge App site, it is worth going into some detail about the best practices themselves.
 
@@ -72,17 +74,19 @@ The CII Best Practices are listed as a full set<sup>[ciibpa]</sup> and also for 
 
 ----
 
-The detailed listing of criteria is given in the following table.
+Statistics for the best practices in each level are given in the following table:
 
 <a name="cii_best_practices_stats_table"/>
-
-**Table: CII Best Practice Breakdown**
 
 | Level | Total active | MUST | SHOULD | SUGGESTED | Allow N/A | Met justification required | Require URL | Met justification or URL required | Includes details | New at this level |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
 | **Passing** | 67 | 43 | 10 | 14 | 27 | 1 | 8 | 9 | 52 | 67 |
 | **Silver** | 55 | 44 | 10 | 1 | 40 | 38 | 17 | 54 | 39 | 48 |
 | **Gold** | 23 | 21 | 2 | 0 | 9 | 13 | 9 | 22 | 16 | 14 |
+
+**Table: CII Best Practice Breakdown**
+
+<br>
 
 Some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the Silver level lists the "bus factor" practice as SHOULD:
 
@@ -94,7 +98,21 @@ but at the Gold level, it re-lists it as MUST:
 
 (That is why the number of "Total active" practices in the Silver and Gold levels is higher than the number "New at this  level".)
 
-When a project creates an entry into the CII Best Practices Badge App site, it provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.  For example, one project that has achieved 99% to a passing badge shows the following scores in each category:
+One of the more unique features of the CII Best Practices program is the CII Best Practices Badge App site at:
+
+* https://bestpractices.coreinfrastructure.org/en/projects
+
+This site allows project maintainers to create an entry for their project (which then creates a unique project ID) and go through the process of reading about each best practice item and marking each as "Met", "Unmet", "N/A", or "?".  (Again, only some items allow a "N/A" value.)  An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
+
+<a name="example_badge_app_item"/>
+
+<img src='../../images/cii_best_practices_badge_app_item.jpg' class='logo'/>
+
+**Example CII Best Practices Badge App Project Item**
+
+<br>
+
+After a project creates an entry into the CII Best Practices Badge App site, the Badge App site provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.  For example, one project that has achieved 99% to a passing badge shows the following scores in each category:
 
 <a name="example_passing_categories_scores"/>
 
@@ -102,15 +120,29 @@ When a project creates an entry into the CII Best Practices Badge App site, it p
 
 **Example CII Best Practices Passing-level cores by category**
 
-This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.   One can then expand the category (Security in this case) and see which criteria are not being met and why.
+<br>
 
-A project can display it's CII Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's README.md or README.rst rendered file can display the CII Best Practices badge at the top like:
+This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.   One can then expand the category (Security in this case) and see which criteria are not being met and why.  One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories (i.e. by clicking the "Hide met & N/A" then the "Expand panels" buttons):
+
+<a name="example_hide_unmet_expand_panels"/>
+
+<img src='../../images/cii_best_practices_hide_unmet_expand_panels.jpg' class='logo'/>
+
+**Example CII Best Practices App page showing control buttons**
+
+<br>
+
+And one can expand to show the details for each practice by either clicking "Show all details" at the top or "Show details" for an individual item to read more about each unmet best practice and the criteria needed to satisfy it.
+
+After a project's maintainers have created a Badge App entry for the project, the project can display it's CII Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's README.md or README.rst rendered file can display the CII Best Practices badge at the top like:
 
 <a name="example_badge"/>
 
 <img src='../../images/cii_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox'/>
 
 **Example CII Best Practice Badge as displayed on a GitHub README.rst file**
+
+<br>
 
 
 <a name="focus_on_security"/>
