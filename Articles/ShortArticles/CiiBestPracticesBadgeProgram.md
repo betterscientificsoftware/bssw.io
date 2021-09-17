@@ -17,9 +17,9 @@ The CII Best Practices and the supporting Badge App site provides a number of be
 
 * a set of practices that have specific actionable criteria which require supporting evidence,
 
-* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[eo14028]</sup>,
+* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity",<sup>[eo14028]</sup>
 
-* a badge that can be displayed on GitHub, GitLab and other project hosting sites,
+* a badge that can be displayed on the project hosting site to show that the project follows accepted best practices,
 
 * a learning tool for best practices for developers and projects,
 
@@ -29,9 +29,12 @@ The CII Best Practices and the supporting Badge App site provides a number of be
 
 * a website template and database implementation that can be forked and customized for more targeted communities,
 
-These different aspects of the CII Best Practices and Badge App are described.
+These different aspects of the CII Best Practices Program and Badge App are described below.
 
-## Details of the CII Best Practices
+
+<a name="details"/>
+
+## Details of the CII Best Practices and Badge App
 
 Before getting into the some of the surprising benefits of the CII Best Practices and Badge App site, it is worth going into some detail about the best practices themselves.
 
@@ -53,9 +56,11 @@ The CII Best Practices are broken down in several different ways:
   * Security
   * Analysis
 
-As noted above, some of the practices can be opted-out as not applicable "N/A" which is quite important in order for the CII Best Practices to be broadly applicable.
+As noted above, some of the practices can be opted-out as not applicable "N/A" which is quite important in order for the CII Best Practices to be broadly applicable.  For example, almost all of the security-related items can be marked as "N/A" if the project does not have any security-critical code.
 
 The CII Best Practices are listed as a full set<sup>[ciibpa]</sup> and also for each badge level individually.  They are also listed with or without the detailed description/justification and links to more information.  Each best practice is composted of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and short HTML anchor name link name that serves as a link to the practice and as an unambiguous shorthand identifier for that best practice criteria.  Many items also require a short comment field be filled out and a URL to evidence.   For example, the first four best "Basic" practices in the passing level are stated as:
+
+----
 
 **Basics**<br>
 **Basic project website content**</br>
@@ -64,6 +69,8 @@ The CII Best Practices are listed as a full set<sup>[ciibpa]</sup> and also for 
 * The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[interact]</sup>
 * The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[contribution]</sup>
 * The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[contribution_requirements]</sup>
+
+----
 
 The detailed listing of criteria is given in the following table.
 
@@ -87,19 +94,24 @@ but at the Gold level, it re-lists it as MUST:
 
 (That is why the number of "Total active" practices in the Silver and Gold levels is higher than the number "New at this  level".)
 
-The badge website provides scores for each of the six categories separately in each level and provides the percentage completion for the current badge being sought.
+When a project creates an entry into the CII Best Practices Badge App site, it provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.  For example, one project that has achieved 99% to a passing badge shows the following scores in each category:
 
-ToDo: Show a screenshot of the different categories.
+<a name="example_passing_categories_scores"/>
 
-ToDo: Show an screen shot of the badge that can appear on GitHub README.md file.
+<img src='../../images/cii_best_practices_categories_scores.jpg' class='logo'/>
+
+**Example CII Best Practices Passing-level cores by category**
+
+This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.   One can then expand the category (Security in this case) and see which criteria are not being met and why.
 
 A project can display it's CII Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's README.md or README.rst rendered file can display the CII Best Practices badge at the top like:
 
-<a name="example_cii_best_practices_badge"/>
+<a name="example_badge"/>
 
 <img src='../../images/cii_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox'/>
 
 **Example CII Best Practice Badge as displayed on a GitHub README.rst file**
+
 
 <a name="focus_on_security"/>
 
@@ -107,11 +119,13 @@ A project can display it's CII Best Practices Badge (or percentage progress to a
 
 Blah blah blah ...
 
+
 <a name="learning_tool"/>
 
 ## CII Best Practices as a learning tool
 
 Blah blah blah ...
+
 
 <a name="continuous_improvement"/>
 
@@ -119,11 +133,13 @@ Blah blah blah ...
 
 Blah blah blah ...
 
+
 <a name="standard_project_index"/>
 
 ## CII Best Practices Badge App as a standard index into a project
 
 Blah blah blah ...
+
 
 <a name="forking_badge_app_website"/>
 
@@ -135,18 +151,9 @@ Blah blah blah ...
 
 
 
-
-
-
 ToDo: Describe:
 
-* Provide subsections for each of the bullets above.
-
-* Scores in each level a provided separately for each level (show screen shot).
-
 * Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
-
-* Produced a badge that can be displayed on GitHub, GitLab and other project hosting sites that advertises that a project follows accepted community best practices.
 
 * Provides a learning tool for best practices for developers and projects.
 
