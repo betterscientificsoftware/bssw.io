@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2021-08-09*
+*Listed in reverse chronological order. Last updated: 2021-09-18*
 
 
 
@@ -38,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*What I Learned from 20 Years of Leading Open Source Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth (Colorado State University), 2021-09-15
 
 
 
@@ -173,7 +181,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Best Practices for Using Proxy Applications as Benchmarks*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar039), David Richards (<a href="http://www.llnl.gov/">Lawrence Livermore National Laboratory</a>),  and Joe Glenski (Hewlett-Packard Enterprise), 2020-04-15
+- [*Best Practices for Using Proxy Applications as Benchmarks*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar039), David Richards (Lawrence Livermore National Laboratory),  and Joe Glenski (Hewlett-Packard Enterprise), 2020-04-15
 
 
 
@@ -481,7 +489,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2021-08-09
+#### Publication date: 2021-09-18
 
 <!---
 Publish: yes
