@@ -2,8 +2,8 @@
 
 <!-- deck text start -->
 The Linux Foundation's CII Best Practices Badge Program represents an impressive collection of the open source communitie's knowledge base for creating, maintaining, and sustaining robust, high-quality -- and most importantly secure -- open-source software.
-At its core is a BadgeApp website which provides a database of projects that document what best practices they support and provide supporting evidence.
-This set of best practices along with the detailed documentation and supporting justification also serves as an incremental learning tool for software engineering practice and as a foundation for incremental software process and quality improvements efforts.
+At its core is a powerful and feature-full "Badge App" website which provides a database of projects that document what best practices they support and provide supporting evidence.
+This set of best practices along with the detailed documentation and supporting justification also serves as an incremental learning tool for software engineering best practices and as a foundation for incremental software process and quality improvements efforts.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
@@ -161,7 +161,7 @@ Blah blah blah ...
 
 <a name="continuous_improvement"/>
 
-## CII Best Practices as roadmap for continuous improvement
+## CII Best Practices as a roadmap for continuous improvement
 
 Blah blah blah ...
 
