@@ -14,8 +14,8 @@ Slide4 L: ../Articles/Blog/2021-08-IntegratingInterns.md
 Slide4 R: ../images/Blog_0821_Interns.png
 Slide5 L: ../Articles/Blog/2021-07-BSSwFellows21.md
 Slide5 R: ../images/Blog_0720_Fellows.png
-Slide6 R: ../CuratedContent/InclusiveNamingInitiative.md
-Slide6 L: ../CuratedContent/TenBestPracticesRemoteSwEngg.md
+Slide6 L: ../CuratedContent/InclusiveNamingInitiative.md
+Slide6 R: ../CuratedContent/TenBestPracticesRemoteSwEngg.md
 Slide7 L: ../Events/swr-010-training.md 
 Slide7 R: ../Events/hpcbp-057-sierra-and-elcapitan-coes.md
 --->
