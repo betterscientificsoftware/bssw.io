@@ -1,4 +1,4 @@
-# Webinar: Migrating to Heterogeneous Computing: Lessons Learned in the Sierra and El Captan Centers of Excellence
+# Webinar: Migrating to Heterogeneous Computing: Lessons Learned in the Sierra and El Capitan Centers of Excellence
 
 - Date: 2021-10-13
 - Location: Online
@@ -13,7 +13,7 @@ high-performance computers (HPC) and occur approximately monthly.
 
 Resource Information | Details
 :--- | :---			   
-Webinar Title | Migrating to Heterogeneous Computing: Lessons Learned in the Sierra and El Captan Centers of Excellence
+Webinar Title | Migrating to Heterogeneous Computing: Lessons Learned in the Sierra and El Capitan Centers of Excellence
 Date and Time | 2021-10-13 01:00 pm EDT
 Presenter | David Richards (Lawrence Livermore National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar057>	   
@@ -21,7 +21,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 
 ### Abstract
-<p>The introduction of heterogeneous computing via GPUs from the Sierra architecture represented a significant shift in direction for computational science at Lawrence Livermore National Laboratory (LLNL), and therefore required significant preparation. The Sierra Center of Excellence (COE) brought employees with specific expertise from IBM and NVIDIA together with LLNL in a concentrated effort to prepare applications, system software, and tools for the Sierra supercomputer. To prepare for El Captan, a new COE is currently operating in collaboration with HPE and AMD. This webinar will describe the operation of these COEs and document lessons learned, with the hope that others will be able to learn from both our success and intermediate setbacks. We describe what we have found to be best practices for managing the vendor collaborations, migrating algorithms and source code, working with the system software stack and tools, and optimizing application performance.</p>
+<p>The introduction of heterogeneous computing via GPUs from the Sierra architecture represented a significant shift in direction for computational science at Lawrence Livermore National Laboratory (LLNL), and therefore required significant preparation. The Sierra Center of Excellence (COE) brought employees with specific expertise from IBM and NVIDIA together with LLNL in a concentrated effort to prepare applications, system software, and tools for the Sierra supercomputer. To prepare for El Capitan, a new COE is currently operating in collaboration with HPE and AMD. This webinar will describe the operation of these COEs and document lessons learned, with the hope that others will be able to learn from both our success and intermediate setbacks. We describe what we have found to be best practices for managing the vendor collaborations, migrating algorithms and source code, working with the system software stack and tools, and optimizing application performance.</p>
 
 
 
