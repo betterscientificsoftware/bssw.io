@@ -33,14 +33,13 @@ Resolves #`<issue-id>`
 * [ ] ***[EB Mem]*** Add one or more Reviewers.
 * [ ] ***[EB Mem]*** Add label `content: <content-type>` for the type of contribution.
 * [ ] ***[EB Mem]*** Add to Project `Content Development` (see [Content Development]).
-* [ ] ***[EB Mem]*** Add [meta-data] to the `*.md` file(s) (set `Publish: preview`).
+* [ ] ***[EB Mem]*** Add [meta-data] to the `*.md` file(s) (set `Publish: yes`).
 * [ ] ***[EB Mem]*** Add label `preview` (so PR branch will be merged to 'preview' branch and watch for possible merge failures).
 * [ ] ***[EB Mem]*** Rebuild [preview] site and confirm new content is there, renders correctly and is returned in searches.
 * [ ] ***[Author]*** Make any final changes to the PR based on feedback.
 * ~~[ ] ***[Author]*** Ensure `wikize_refs.py -i <base>.md` is run and commit (if using [wikize_refs.py]).~~
 * [ ] ***[EB Mem]*** Rebuild [preview] site and re-confirm content looks correct.
 * [ ] ***[EB Mem]*** Ensure at least one reviewer signs off on the final changes.
-* [ ] ***[EB Mem]*** Change meta-data to `Publish: yes` and commit if fully ready to publish.
 * [ ] ***[EB Mem]*** Move the PR to "Ready to Publish" in [Content Development].
 * [ ] ***[EB Mem]*** Leave comment and @mention `@betterscientificsoftware/bssw-maint` (**BSSw Maint**) asking to carry out final publication steps.
 * [ ] ***[BSSw Maint]*** Verify that all needed files are present in the PR (article, images, updates to Site/Homepage.md carousel and/or Site/Announcements/Announcements.md as appropriate).
