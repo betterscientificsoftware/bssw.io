@@ -71,9 +71,8 @@ each of the numbered steps in the description below.
      * Manually add to *In Progress* on the *Content Development* project board.
      * Copy details from the issue to the PR: (1) "Assignee" field to indicate EB member, 
        (2) Author name is indicated on first line. 
-     * Close the associated Issue, add comment that continued discussion will occur in the 
-       PR `#<pr-id>`, and remove the issue from the "Content Development" board. (Unless a PR was created
-       from the start instead of an Issue, see note below.)
+     * Be sure to add the Issue number (including the `#`) to the `Resolves` field in the PR.
+       This will ensure that GitHub will automatically close the issue when the PR is merged.
      * PRs that are ready to be reviewed are  moved to *Item Review*
        * Curated content PRs require one reviewer.
        * Blog articles require two reviewers.
