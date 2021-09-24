@@ -118,11 +118,11 @@ After a project creates an entry into the CII Best Practices Badge App site, the
 
 <img src='../../images/cii_best_practices_categories_scores.jpg' class='logo'/>
 
-**Example CII Best Practices Passing-level cores by category**
+**Example CII Best Practices Passing-level scores by category**
 
 <br>
 
-This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.   One can then expand the category (Security in this case) and see which criteria are not being met and why.  One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories (i.e. by clicking the "Hide met & N/A" then the "Expand panels" buttons):
+This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.   One can then expand a deficient category (the "Security" castegory in this case) and see which criteria are not being met and why.  One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories (i.e. by clicking the "Hide met & N/A" then the "Expand panels" buttons):
 
 <a name="example_hide_unmet_expand_panels"/>
 
@@ -147,7 +147,7 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <a name="focus_on_security"/>
 
-##  CII Best Practices focus on software Security
+##  CII Best Practices focus on software security
 
 Blah blah blah ...
 
@@ -184,6 +184,10 @@ Blah blah blah ...
 
 
 ToDo: Describe:
+
+* Go over my presentation and make sure I am covering everything in that presentation.
+
+* Mention how many projects are registured the Badge App site in the different cateogires and how quickly it is growing.
 
 * Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
 
