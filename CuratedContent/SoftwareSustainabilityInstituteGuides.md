@@ -22,7 +22,7 @@ developers, managers and instructors or material developers. The
 categories and descriptions make it easy to navigate to guides
 that are valuable to each of your team members. 
 
-Managers, researchers and developers can peruse a variety of topics such as building community, recruiting champions and students, managing research projects, data management plans and approaches to sustainability. Developers can take a deeper dive on subjects like making software reusable, publicizing software, best practices, and the challenges of dependencies. While researchers will find topics on publishing and the importance of openness in research helpful. The site also hosts guides for training and training materials including specific help for organizing and teaching Carpentry workshops. 
+Managers, researchers and developers can peruse a variety of topics such as building community, recruiting champions and students, managing research projects, data management plans and approaches to sustainability. Developers can take a deeper dive on subjects like making software reusable, publicizing software, best practices, and the challenges of dependencies. Researchers will find topics on publishing and the importance of openness in research helpful. The site also hosts guides for training and training materials including specific help for organizing and teaching Carpentry workshops. 
 
 <!-- 
 Publish: preview
