@@ -12,7 +12,6 @@ advice for software development processes and techniques for each research softw
 Resource information | Details
 :--- | :--- 
 Website | [Software Sustainability Institute Guides](https://www.software.ac.uk/resources/guides)
-
 Focus | Software sustainability and skills
 
 The Software Sustainability Institute (SSI), based in the UK,
