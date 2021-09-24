@@ -13,6 +13,8 @@ Resource information | Details
 :--- | :--- 
 Website | [Software Sustainability Institute Guides](https://www.software.ac.uk/resources/guides)
 
+Focus | Software sustainability and skills
+
 The Software Sustainability Institute (SSI), based in the UK,
 promotes the importance of scientific research software. The SSI
 website presents over 80 guides to aid your team to protect
