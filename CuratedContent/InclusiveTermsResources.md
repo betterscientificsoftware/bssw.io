@@ -1,6 +1,7 @@
 # Inclusive Terminology Resources
 
 <!--deck text start-->
+
 <!--deck text end-->
 
 #### Contributed by
@@ -20,7 +21,7 @@ Resource information | Details
 :--- | :---
 Resource name | Conscious Language in your Open Source Projects
 Website | [https://github.com/conscious-lang/conscious-lang-docs](https://github.com/conscious-lang/conscious-lang-docs)
-Focus | 
+Focus | Software documentation
 
 This GitHub reposititory on Conscious Language contains helpful documents relating to the process of removing problematic language from software. It includes best practices and recommendations, as well as frequently asked questions to serve as a guide. 
 
@@ -28,7 +29,7 @@ Resource information | Details
 :--- | :---
 Resource name | Software Developer Diversity and Inclusion
 Website | [https://sddiproject.org/](https://sddiproject.org/)
-Focus |
+Focus | Collaboration
 
 Created by the Linux Foundation, this project is still in its early stages. It provides a great opportunity to get in at a ground level and support the Diversity, Equity, and Inlcusion in software development efforts first-hand.
 
@@ -52,14 +53,17 @@ Resource information | Details
 :--- | :---
 Resource name | Google developer documentation style guide
 Website | [https://developers.google.com/style/inclusive-documentation](https://developers.google.com/style/inclusive-documentation)
-Focus | 
+Focus | Inlcusivitiy, Software documentation
+
+Google's developer documentation style guide is a wonderful resource for guidance for all types of writing princples, including thier subsection regarding inclusive documentation. This portion of the guide encourages developers to handle inclusivity through various lenses, including considering gendered terms and ablist langugage.  
 
 Resource information | Details
 :--- | :---
 Resource name | Kubernetes Naming Working Group
 Website | [https://github.com/kubernetes/community/tree/master/wg-naming](https://github.com/kubernetes/community/tree/master/wg-naming)
-Focus | 
+Focus | Best practices
 
+The Kubernetes Project's naming working group on GitHub tackles the problem of inclusive language within the project itself. Although this GitHub repository focuses on a specific project, the recommendations provided can serve any type of inclusivity, and serve as a hub for future reference. 
 
 <!---
 Publish: yes
