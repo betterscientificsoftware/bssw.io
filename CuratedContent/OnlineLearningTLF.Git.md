@@ -1,6 +1,6 @@
 # Transmedia Learning Framework for Git and GitHub
 <!-- deck text start --> 
-It is important to undestand Git and GitHub on a base level prior to use. Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
+It is important to understand Git and GitHub on a base level prior to use. Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
 <!-- deck text end --> 
 
 #### Contributed by: [Elaine Raybourn](https://github.com/elaineraybourn)
