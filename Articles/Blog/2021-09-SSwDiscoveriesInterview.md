@@ -1,12 +1,12 @@
 
-# Contributions of Scientific Software to Scientific Discovery
+# The Contributions of Scientific Software to Scientific Discovery
 
 **Hero Image:**
 
  - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />
 
 #### Contributed by: [Rinku Gupta](https://github.com/rinkug) and Kate Keahey
-#### Publication Date: September 29, 2021
+#### Publication Date: September 28, 2021
 
 In July 2021, the SoftwareX journal published a [special issue on gravitational waves and the software](https://www.sciencedirect.com/journal/softwarex/special-issue/103XKC9DRLV) that contributed to their detection. The editor, Kate Keahey, joined with colleagues to write an [introductory editorial](https://www.sciencedirect.com/science/article/pii/S2352711021000601) to that special issue. Kate kindly took time from her busy schedule to discuss with Rinku Gupta (Editor-in-chief of the BSSw.io website) her concern that society – researchers, funding agencies, academia – continues to fail to credit software as a major contributor to scientific discovery. 
 
@@ -26,7 +26,7 @@ As an addendum to this: when I gave the talk back in 2018 many people came up to
 
 **Kate:** Yes, one interesting thing is understanding the dynamics and interplay between the very directed approach to development adopted in part of the project and the eventual need for innovation and integration of multiple independent efforts -- there are some lessons here for future scientific ventures of this kind. Another was understanding what it means to build software instruments supporting a discovery that takes three decades to accomplish; during this time many of the software tools, services, and even standards evolved or were replaced. Code management platforms went from CVS and SVN to Git; data formats underwent evolution from various proprietary formats to XML, JSON, or HDF; RPC requests were replaced by SOAP and REST, and so forth. This created many opportunities and efficiencies, but also meant that tools critical for scientific work had to be upgraded, rewritten or replaced, so that instrument designers constantly had to walk the balance between providing much needed new capabilities and just keeping pace with the evolving software ecosystem. My father has a pair of scissors that was manufactured roughly a hundred years ago and he still uses it daily. Software is not like that: it depends on a rapidly changing ecosystem and thus adapting it as the ecosystem evolves will always be a necessary -- and large -- component of any kind of development. 
 
-**Rinku:** Why is software sustainability so important and yet so difficult for long-term projects? What lessons can we learn from the LIGO project?
+**Rinku:** Why is software sustainability so important and yet so difficult for long-term projects? What lessons can we learn from the [LIGO](https://www.ligo.caltech.edu/) project?
 
 **Kate:** Sustainability of scientific software is sometimes simplistically understood as something that would make long-term maintenance and evolution of a particular software tool “somebody else’s problem.” Implementing a desired functionality is one thing -- but implementing it in such a way that it is extensible and maintainable, takes into account evolving hardware and software trends and can adapt to them, and integrates tools in a way that anticipates evolution and upgrades, is much harder, requiring significant experience, skillful decision making, and above all sound architecting. Doing it well sometimes means compromising on your “ideal scenario” or going out of your way in the interest of creating something that leverages other effort rather than contributes to a proliferation of tools that all do a very similar thing, slightly differently. 
 
@@ -45,5 +45,5 @@ Kate Keahey is one of the pioneers of infrastructure cloud computing. She create
 Publish: yes
 Pinned: no
 Topics: Software Engineering
-RSS update: 2021-09-29
+RSS update: 2021-09-28
 --->
