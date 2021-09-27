@@ -9,7 +9,7 @@ advice for software development processes and techniques for each research softw
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
 #### Publication date: September 24, 2021
 
-Resource information | Details
+Resource information | Details 
 :--- | :--- 
 Website | [Software Sustainability Institute Guides](https://www.software.ac.uk/resources/guides)
 Focus | Software sustainability and skills
@@ -29,7 +29,7 @@ Managers, researchers and developers can peruse a variety of topics such as buil
 
 
 <!-- 
-Publish: preview
+Publish: yes 
 RSS update: 2023-09-24
 Categories: Skills
 Topics: Personal Productivity and Sustainability 
