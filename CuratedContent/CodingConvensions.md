@@ -14,7 +14,7 @@ Resource information | Details
 Wikipedia article | [Coding Conventions](https://en.wikipedia.org/wiki/Coding_conventions)
 Book | [Code Complete: 2nd Edition](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
 Book | [Clean Code: A Handbook of Agile Software Craftsmanship, Robert Martin, 2009](https://dl.acm.org/doi/10.5555/1388398)
-CII Best Practices | [FLOSS Best Practices Criteria (All Levels)](https://bestpractices.coreinfrastructure.org/en/criteria)
+Website | [CII Best Practices Criteria (All Levels)](https://bestpractices.coreinfrastructure.org/en/criteria)
 
 While there are a wide variety of "best practices" that can be adopted when developing a software project, an important subset include *coding conventions* which impact the internal source code in ways that generally do **not** influence the behavior of the software.
 Coding conventions, also know as *coding standards* or *coding guidelines*, generally falls into the following categories:
