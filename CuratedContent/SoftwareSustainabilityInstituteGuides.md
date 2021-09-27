@@ -7,7 +7,7 @@ advice for software development processes and techniques for each research softw
 <!-- deck text end --> 
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
-#### Publication date: September 24, 2021
+#### Publication date: September 27, 2021
 
 Resource information | Details 
 :--- | :--- 
@@ -30,7 +30,7 @@ Managers, researchers and developers can peruse a variety of topics such as buil
 
 <!-- 
 Publish: yes 
-RSS update: 2023-09-24
-Categories: Skills
-Topics: Personal Productivity and Sustainability 
+RSS update: 2023-09-27
+Topics: Personal Productivity and Sustainability, Software engineering
+
 -->
