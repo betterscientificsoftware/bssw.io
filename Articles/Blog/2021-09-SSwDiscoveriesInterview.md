@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data around the time of GW170817, using data after glitch subtraction. (Source: Florent Robinet et al: "Omicron: A tool to characterize transient noise in gravitational-wave detectors," SoftwareX, July-Dec 2020)]
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data, see image credit below.]
  - 
 #### Contributed by: Kate Keahey(https://github.com/keahey) and [Rinku Gupta](https://github.com/rinkug) 
 #### Publication Date: September 28, 2021
@@ -12,7 +12,7 @@ In July 2021, the SoftwareX journal published a [special issue on gravitational 
 
 **Rinku Gupta:** Kate, let’s start with a brief discussion of the journal. You co-founded SoftwareX in 2015. What motivated that decision?  And how far do you think the journal has come in realizing your aims?
 
-**Kate Keahey:** My colleagues and I discussed the fact that many people don’t think of software as a scientific instrument and thus its role in enabling science is not well understood or appreciated. This has many undesirable consequences on research publishing, funding structures, and career development.  Software developers might be thanked in the acknowledgments of a paper that focuses on research results, but their libraries or tools are not always recognized as original scientific contributions, which is what they often are. Nor was the actual impact of the software being highlighted. That situation was, and still is, troublesome: it not only means that excellent software contributions often go unnoticed, but also that scientists and software engineers who put their energies into software design and development are not professionally recognized for those efforts and often find themselves in a career dead end. This means that talented and ambitious individuals drift away from scientific software and into other avenues of creating impact which then leaves research software development efforts underserved and poses a barrier to progress in science. 
+**Kate Keahey:** My colleagues and I discussed the fact that many people don’t think of software as a scientific instrument and thus its role in enabling science is not well understood or appreciated. This has many undesirable consequences on research publishing, funding structures, and career development.  Software developers might be thanked in the acknowledgments of a paper that focuses on research results, but their libraries or tools are not always recognized as original scientific contributions, which is what they often are. Nor was the actual impact of the software being highlighted. That situation was, and still is, troublesome: it not only means that excellent software contributions often go unnoticed, but also that scientists and software engineers who put their energies into software design and development often are not professionally recognized for those efforts and can find themselves in a career dead end. This means that talented and ambitious individuals drift away from scientific software and into other avenues of creating impact, which then leaves research software development efforts underserved and poses a barrier to progress in science. 
 
 Out of this came the idea of creating a journal that specifically recognizes software as a scientific instrument -- in other words, not just any software system but original software contributions that have an impact on scientific discovery. This approach takes a metaphor from scientific publishing -- via a peer reviewed journal -- and applies it to a new medium. The jury is still out on whether this is the best way to recognize and share scientific software instruments but it certainly has struck a chord with the community. One evidence of this is the fact that SoftwareX received a [PROSE award from the Association of American Publishers in 2016](https://proseawards.com/winners/2016-award-winners/) for innovation in journal publishing.
 
@@ -38,12 +38,15 @@ To give you an example: I lead a project called [Chameleon that provides infrast
 
 **Rinku:** Thank you for taking the time to answer our questions, Kate. We hope, as you do, that your efforts will pay off in having the role of scientific software in scientific discovery recognized and appreciated.
 
+### Image credit
+Omicron spectrogram of LIGO-Livingston detector’s data around the time of GW170817, using data after glitch subtraction. (Source: Florent Robinet et al: "Omicron: A tool to characterize transient noise in gravitational-wave detectors," SoftwareX, July-Dec 2020).
+
 ### Author bio
 Kate Keahey is one of the pioneers of infrastructure cloud computing. She created the [Nimbus project](https://www.nimbusproject.org/), recognized as one of the first open source Infrastructure-as-a-Service implementations, and continues to work on research and development projects aligning cloud computing concepts with the needs of scientific applications and infrastructure. To facilitate such research for the community at large, Kate created and leads the [Chameleon project](https://www.chameleoncloud.org/), providing a deeply reconfigurable, large-scale, and open experimental platform for Computer Science research. To foster the recognition of contributions to science made by software projects, Kate co-founded and serves as co-Editor-in-Chief of the [SoftwareX journal](https://www.journals.elsevier.com/softwarex), a new format designed to publish software contributions. Kate is a Senior Scientist at the Mathematics and Computer Science Division at Argonne National Laboratory and the Consortium for Advanced Science and Engineering at the University of Chicago.
 
 <!---
 Publish: yes
 Pinned: no
-Topics: Software Engineering
+Topics: Software Engineering, 
 RSS update: 2021-09-28
 --->
