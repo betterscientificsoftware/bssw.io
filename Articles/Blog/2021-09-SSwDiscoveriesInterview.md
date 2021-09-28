@@ -3,8 +3,8 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />
-
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data around the time of GW170817, using data after glitch subtraction. (Source: Florent Robinet et al: "Omicron: A tool to characterize transient noise in gravitational-wave detectors," SoftwareX, July-Dec 2020)]
+ - 
 #### Contributed by: Kate Keahey(https://github.com/keahey) and [Rinku Gupta](https://github.com/rinkug) 
 #### Publication Date: September 28, 2021
 
