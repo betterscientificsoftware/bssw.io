@@ -1,4 +1,4 @@
-# Webinar: Best Practices for Computational and Data-Intensive (CDI) Research (October)
+# Webinar: Best Practices for Computational and Data-Intensive (CDI) Research (October Event)
 
 *	Date: 2021-10-21
 *	Location: Online 
