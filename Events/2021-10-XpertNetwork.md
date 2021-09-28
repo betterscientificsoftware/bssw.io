@@ -5,7 +5,7 @@
 *	Event Website: https://sites.udel.edu/xpert-cdi/event/upcoming-events/
 * Organizers: The Xpert Network
 
-The Xpert Network, is holding a series of events introducing a range of projects and organizations, with a focus on best practices they have developed in supporting their users. This is the fifth event in this series. Please join to share your experiences and learn from others.	
+The Xpert Network is holding a series of events introducing a range of projects and organizations, with a focus on best practices they have developed in supporting their users. This is the fifth event in this series. Please join to share your experiences and learn from others.	
 
 | Resource Information  | Details
 | :------------ | :------------ 
