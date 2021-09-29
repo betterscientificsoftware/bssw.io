@@ -3,20 +3,20 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../Articles/Blog/2021-09-CollegevilleReportDay1.md
-Slide1 R: ../images/Blog_2109_Collegeville1.png
-Slide2 L: ../Articles/Blog/BSSwFellowshipApplicationsOpen2021.md
-Slide2 R: ../images/Blog_2108_FellowsAppOpen.png
-Slide3 L: ../Articles/Blog/2021-08-registry-best-practices.md 
-Slide3 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
-Slide4 L: ../Articles/Blog/2021-08-IntegratingInterns.md
-Slide4 R: ../images/Blog_0821_Interns.png
-Slide5 L: ../Articles/Blog/2021-07-BSSwFellows21.md
-Slide5 R: ../images/Blog_0720_Fellows.png
-Slide6 L: ../CuratedContent/InclusiveNamingInitiative.md
-Slide6 R: ../CuratedContent/TenBestPracticesRemoteSwEngg.md
-Slide7 L: ../Events/swr-010-training.md 
+Slide1 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
+Slide1 R: ../images/Blog_2109_SX_OmicronA.png
+Slide2 L: ../Articles/Blog/2021-09-CollegevilleReportDay1.md
+Slide2 R: ../images/Blog_2109_Collegeville1.png
+Slide3 L: ../CuratedContent/SoftwareSustainabilityInstituteGuides.md
+Slide3 R: ../CuratedContent/ExecutableEnvironments.md
+Slide4 L: ../Articles/Blog/2021-08-registry-best-practices.md 
+Slide4 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
+Slide5 L: ../Articles/Blog/2021-08-IntegratingInterns.md
+Slide5 R: ../images/Blog_0821_Interns.png
+Slide6 L: ../Events/2021-10-XpertNetwork.md
+Slide6 R: ../Events/2021-10-wosss21.md
 Slide7 R: ../Events/hpcbp-057-sierra-and-elcapitan-coes.md
+Slide7 L: ../Events/2021-10-ssi-fellowship.md
 --->
 
 <!---
