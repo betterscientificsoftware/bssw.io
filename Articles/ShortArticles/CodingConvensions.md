@@ -10,7 +10,7 @@ Coding conventions are critical for fostering shared ownership of the codebase, 
 
 While there are a wide variety of "best practices" that can be adopted when developing a software project, an important subset include *coding conventions* which impact the internal source code in ways that generally do **not** influence the behavior of the software. Selecting, documenting, and implementing coding conventions are an important part of professional, productive, and healthy software projects.
 
-Coding conventions, also know as *coding standards* or *coding guidelines*, generally falls into the following categories:
+Coding conventions<sup>[ccw]</sup>, also know as *coding standards* or *coding guidelines*, generally falls into the following categories:
 
 * **Formatting guidelines**: Guidelines for the layout and usage of whitespace in the source code and how source code is organized in and between source files and directories
 * **Naming guidelines**: Guidelines for how variables, functions, and other code entities are named
@@ -71,14 +71,14 @@ The general consensus in the software engineering community around coding conven
 As a postscript, note that the Wikipedia page *Coding conventions* does not even mention the Fortran programming language in the section "Coding conventions for languages" (which only covers about 17 languages at the time of this writing) but a simple web search for "fortran coding conventions" or "fortran coding standards" will yield a number of hits for different groups and organizations providing their opinions.
 However, many of the basic formatting, naming and other general coding guidelines described in *Code Complete: 2nd Edition* and *Clean Code* apply equally well to every Fortran standard from Fortran 77 through modern Fortran standards.
 
-[ccw]: https://en.wikipedia.org/wiki/Coding_conventions "Coding Conventions (Wikipedia)"
-[cc2nd04]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete (Second Edition) {McConnell, Steve. Microsoft Press, 2004}"
-[cc08]: https://dl.acm.org/doi/10.5555/1388398 "Clean Code: A Handbook of Agile Software Craftsmanship {Robert C. Martin. Prentice Hall PTR, 2008}"
-[ciibpc]: https://bestpractices.coreinfrastructure.org/en/criteria "CII Best Practices Criteria"
-[cf]: https://clang.llvm.org/docs/ClangFormat.html "clang-format"
-[ct]: https://clang.llvm.org/extra/clang-tidy/ "clang-tidy"
-[cs]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standard "[coding_standards]"
-[cse]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced "[coding_standards_enforced]"
+[ccw-sfer-ezikiw]: https://en.wikipedia.org/wiki/Coding_conventions "Coding Conventions (Wikipedia)"
+[cc2nd04-sfer-ezikiw]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete (Second Edition) {McConnell, Steve. Microsoft Press, 2004}"
+[cc08-sfer-ezikiw]: https://dl.acm.org/doi/10.5555/1388398 "Clean Code: A Handbook of Agile Software Craftsmanship {Robert C. Martin. Prentice Hall PTR, 2008}"
+[ciibpc-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria "CII Best Practices Criteria"
+[cf-sfer-ezikiw]: https://clang.llvm.org/docs/ClangFormat.html "clang-format"
+[ct-sfer-ezikiw]: https://clang.llvm.org/extra/clang-tidy/ "clang-tidy"
+[cs-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standard "[coding_standards]"
+[cse-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced "[coding_standards_enforced]"
 
 <!---
 Publish: yes
@@ -86,3 +86,23 @@ Pinned: no
 Topics: Software engineering, refactoring, design
 RSS update: 2021-10-???
 --->
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[ccw]: #sfer-ezikiw-ccw "Coding Conventions (Wikipedia)"
+[cc2nd04]: #sfer-ezikiw-cc2nd04 "Code Complete (Second Edition)"
+[cc08]: #sfer-ezikiw-cc08 "Clean Code: A Handbook of Agile Software Craftsmanship"
+[ciibpc]: #sfer-ezikiw-ciibpc "CII Best Practices Criteria"
+[cf]: #sfer-ezikiw-cf "clang-format"
+[ct]: #sfer-ezikiw-ct "clang-tidy"
+[cs]: #sfer-ezikiw-cs "[coding_standards]"
+[cse]: #sfer-ezikiw-cse "[coding_standards_enforced]"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-cc08"></a><sup>cc08</sup>[Clean Code: A Handbook of Agile Software Craftsmanship<br>Robert C. Martin. Prentice Hall PTR, 2008](https://dl.acm.org/doi/10.5555/1388398)
+* <a name="sfer-ezikiw-cc2nd04"></a><sup>cc2nd04</sup>[Code Complete (Second Edition)<br>McConnell, Steve. Microsoft Press, 2004](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
+* <a name="sfer-ezikiw-ccw"></a><sup>ccw</sup>[Coding Conventions (Wikipedia)](https://en.wikipedia.org/wiki/Coding_conventions)
+* <a name="sfer-ezikiw-cf"></a><sup>cf</sup>[clang-format](https://clang.llvm.org/docs/ClangFormat.html)
+* <a name="sfer-ezikiw-ciibpc"></a><sup>ciibpc</sup>[CII Best Practices Criteria](https://bestpractices.coreinfrastructure.org/en/criteria)
+* <a name="sfer-ezikiw-cs"></a><sup>cs</sup>[[coding_standards]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standard)
+* <a name="sfer-ezikiw-cse"></a><sup>cse</sup>[[coding_standards_enforced]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)
+* <a name="sfer-ezikiw-ct"></a><sup>ct</sup>[clang-tidy](https://clang.llvm.org/extra/clang-tidy/)
