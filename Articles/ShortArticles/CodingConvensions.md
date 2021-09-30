@@ -48,7 +48,7 @@ These two authors are some of the most respected in the software industry whose 
 These guidelines apply to every procedural programming language (or the parts of program that are programmed using procedural approaches) and therefore apply to object-oriented programs as well.
 Other options exist in the software development community but the views expressed by these two authors seem to be fairly widely accepted.
 
-The different categories of conventions have different consequences, are often handled differently, and are more or less amiable to automated tools.
+The different categories of conventions have different consequences, are often handled differently, and are more or less amenable to automated tools.
 For example, by definition, the formatting of source code and the naming of internal entities does not change the meaning of the program at all.
 In fact, changes in formatting and internal naming conventions may not change the linked optimized binaries at all for compiled languages like C++.
 Alternatively, formatting and naming conventions are very different when it comes to automated checks and enforcement.
