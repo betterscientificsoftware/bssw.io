@@ -23,4 +23,5 @@ While you may find arguments in some communities over the relative merits of one
 Publish: yes
 Pinned: no
 Topics: documentation, revision control, release and deployment
+RSS update: 2021-09-30
 --->
