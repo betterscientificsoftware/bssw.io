@@ -6,17 +6,11 @@ Coding conventions are critical for fostering shared ownership of the codebase, 
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: September 30, 2021
-
-Resource information | Details 
-:--- | :--- 
-Resource name |  Assorted resources on coding conventions
-Website  |  [Wikipedia article on Coding Conventions](https://en.wikipedia.org/wiki/Coding_conventions), [Code Complete: 2nd Edition](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction) book, [Clean Code: A Handbook of Agile Software Craftsmanship by Robert Martin](https://dl.acm.org/doi/10.5555/1388398) book, [CII Best Practices Criteria](https://bestpractices.coreinfrastructure.org/en/criteria) website.
-Focus | Coding conventions
+#### Publication date: October ???, 2021
 
 While there are a wide variety of "best practices" that can be adopted when developing a software project, an important subset include *coding conventions* which impact the internal source code in ways that generally do **not** influence the behavior of the software. Selecting, documenting, and implementing coding conventions are an important part of professional, productive, and healthy software projects.
 
-Coding conventions, also know as *coding standards* or *coding guidelines*, generally falls into the following categories:
+Coding conventions<sup>[ccw]</sup>, also know as *coding standards* or *coding guidelines*, generally falls into the following categories:
 
 * **Formatting guidelines**: Guidelines for the layout and usage of whitespace in the source code and how source code is organized in and between source files and directories
 * **Naming guidelines**: Guidelines for how variables, functions, and other code entities are named
@@ -31,7 +25,7 @@ After formatting and naming guidelines, there are many *other general guidelines
 Lastly, many other types of conventions/guidelines/standards fall that under "coding conventions" are more *paradigm- and/or language-specific guidelines* such as object-oriented design principles and language-specific guidelines for C++, Perl, Java, etc.
 
 While coding conventions for formatting, naming and other general guidelines may not impact the behavior of the software at all, they can have a dramatic influence on the readability and maintainability of the code, especially for expert programmers.
-In *Code Complete: 2nd Edition*, McConnell cites a study and notes:
+In *Code Complete: 2nd Edition*<sup>[cc2nd04]</sup>, McConnell cites a study and notes:
 
 > "The importance to comprehension and memory of structuring one’s environment in a familiar way
 has led some researchers to hypothesize that layout might harm an expert’s ability to read a program
@@ -47,7 +41,7 @@ Having a project, organization, or even an entire company adopt consistent codin
 * **improve the understandably and maintainability of the codebase** (by using a coding style that is very familiar and consistent), and
 * **provide targets for refactorings** (by helping to highlight code problems that violate the accepted conventions).
 
-There are some excellent, widely accepted, and largely language-agnostic, code formatting and naming guidelines given in Chapter 31 "Layout and Style" of the book *Code Complete: 2nd Edition* by Steve McConnell and in Chapters 1 through 5 of the book *Clean Code* by Robert Martin.
+There are some excellent, widely accepted, and largely language-agnostic, code formatting and naming guidelines given in Chapter 31 "Layout and Style" of the book *Code Complete: 2nd Edition* by Steve McConnell and in Chapters 1 through 5 of the book *Clean Code*<sup>[cc08]</sup> by Robert Martin.
 Other chapters in *Code Complete: 2nd Edition* and *Clean Code* also cover many of the other general coding guidelines that are applicable to almost every programming language.
 These two authors are some of the most respected in the software industry whose guidance has held up over time and they give very consistent advice in this area.
 (But not that one should look to more recent references for language-specific guidelines instead of those given in *Code Complete: 2nd Edition*.)
@@ -58,13 +52,13 @@ The different categories of conventions have different consequences, are often h
 For example, by definition, the formatting of source code and the naming of internal entities does not change the meaning of the program at all.
 In fact, changes in formatting and internal naming conventions may not change the linked optimized binaries at all for compiled languages like C++.
 Alternatively, formatting and naming conventions are very different when it comes to automated checks and enforcement.
-For instance, automated source-code formatting and indentation tools for popular languages like [clang-format](https://clang.llvm.org/docs/ClangFormat.html) can automatically reformat source files according to a chosen language-specific formatting convention and can be used in development and automated checking workflows.
+For instance, automated source-code formatting and indentation tools for popular languages like `clang-format`<sup>[cf]</sup> can automatically reformat source files according to a chosen language-specific formatting convention and can be used in development and automated checking workflows.
 (That is, clang-format can be run as part of a pull-request (PR) check to ensure that proposed code matches the project's published code formatting conventions and removes the need for the PR reviewer  to have to bother with that aspect of the review.)
-Also, many language-specific coding standards can be enforced using automated tools such as using [clang-tidy](https://clang.llvm.org/extra/clang-tidy/).
+Also, many language-specific coding standards can be enforced using automated tools such as using `clang-tidy`<sup>[ct]</sup>.
 However, it is much harder to write a tool to automatically check and enforce naming conventions or enforce other general guidelines like KISS for internal software constructs.
 (In fact, a major part of peer code review is to use expert judgment to evaluate code against naming and other general coding guidelines that would be very hard to write a robust automated tool to check.)
 
-Coding conventions are recognized to be of such importance to the open-source community that the Linux Foundation's CII Best Practices Program's Silver Badge Level **requires** a project to adopt coding standards <sup>[[coding_standards]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards)</sup> and to enforce them with automated tools when possible <sup>[[coding_standards_enforced]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)</sup>.
+Coding conventions are recognized to be of such importance to the open-source community that the Linux Foundation's CII Best Practices Program's Silver Badge Level<sup>[ciibpc]</sup> **requires** a project to adopt coding standards <sup>[cs]</sup> and to enforce them with automated tools when possible <sup>[cse]</sup>.
 
 The general consensus in the software engineering community around coding conventions seems to be:
 
@@ -77,9 +71,38 @@ The general consensus in the software engineering community around coding conven
 As a postscript, note that the Wikipedia page *Coding conventions* does not even mention the Fortran programming language in the section "Coding conventions for languages" (which only covers about 17 languages at the time of this writing) but a simple web search for "fortran coding conventions" or "fortran coding standards" will yield a number of hits for different groups and organizations providing their opinions.
 However, many of the basic formatting, naming and other general coding guidelines described in *Code Complete: 2nd Edition* and *Clean Code* apply equally well to every Fortran standard from Fortran 77 through modern Fortran standards.
 
+[ccw-sfer-ezikiw]: https://en.wikipedia.org/wiki/Coding_conventions "Coding Conventions (Wikipedia)"
+[cc2nd04-sfer-ezikiw]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete (Second Edition) {McConnell, Steve. Microsoft Press, 2004}"
+[cc08-sfer-ezikiw]: https://dl.acm.org/doi/10.5555/1388398 "Clean Code: A Handbook of Agile Software Craftsmanship {Robert C. Martin. Prentice Hall PTR, 2008}"
+[ciibpc-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria "CII Best Practices Criteria"
+[cf-sfer-ezikiw]: https://clang.llvm.org/docs/ClangFormat.html "clang-format"
+[ct-sfer-ezikiw]: https://clang.llvm.org/extra/clang-tidy/ "clang-tidy"
+[cs-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards "[coding_standards]"
+[cse-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced "[coding_standards_enforced]"
+
 <!---
 Publish: yes
 Pinned: no
 Topics: Software engineering, refactoring, design
-RSS update: 2021-09-???
+RSS update: 2021-10-???
 --->
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[ccw]: #sfer-ezikiw-ccw "Coding Conventions (Wikipedia)"
+[cc2nd04]: #sfer-ezikiw-cc2nd04 "Code Complete (Second Edition)"
+[cc08]: #sfer-ezikiw-cc08 "Clean Code: A Handbook of Agile Software Craftsmanship"
+[ciibpc]: #sfer-ezikiw-ciibpc "CII Best Practices Criteria"
+[cf]: #sfer-ezikiw-cf "clang-format"
+[ct]: #sfer-ezikiw-ct "clang-tidy"
+[cs]: #sfer-ezikiw-cs "[coding_standards]"
+[cse]: #sfer-ezikiw-cse "[coding_standards_enforced]"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-cc08"></a><sup>cc08</sup>[Clean Code: A Handbook of Agile Software Craftsmanship<br>Robert C. Martin. Prentice Hall PTR, 2008](https://dl.acm.org/doi/10.5555/1388398)
+* <a name="sfer-ezikiw-cc2nd04"></a><sup>cc2nd04</sup>[Code Complete (Second Edition)<br>McConnell, Steve. Microsoft Press, 2004](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
+* <a name="sfer-ezikiw-ccw"></a><sup>ccw</sup>[Coding Conventions (Wikipedia)](https://en.wikipedia.org/wiki/Coding_conventions)
+* <a name="sfer-ezikiw-cf"></a><sup>cf</sup>[clang-format](https://clang.llvm.org/docs/ClangFormat.html)
+* <a name="sfer-ezikiw-ciibpc"></a><sup>ciibpc</sup>[CII Best Practices Criteria](https://bestpractices.coreinfrastructure.org/en/criteria)
+* <a name="sfer-ezikiw-cs"></a><sup>cs</sup>[[coding_standards]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards)
+* <a name="sfer-ezikiw-cse"></a><sup>cse</sup>[[coding_standards_enforced]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)
+* <a name="sfer-ezikiw-ct"></a><sup>ct</sup>[clang-tidy](https://clang.llvm.org/extra/clang-tidy/)
