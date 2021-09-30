@@ -58,7 +58,7 @@ Also, many language-specific coding standards can be enforced using automated to
 However, it is much harder to write a tool to automatically check and enforce naming conventions or enforce other general guidelines like KISS for internal software constructs.
 (In fact, a major part of peer code review is to use expert judgment to evaluate code against naming and other general coding guidelines that would be very hard to write a robust automated tool to check.)
 
-Coding conventions are recognized to be of such importance to the open-source community that the Linux Foundation's CII Best Practices Program's Silver Badge Level<sup>[ciibpc]</sup> **requires** a project to adopt coding standards <sup>[cs]</sup> and to enforce them with automated tools when possible <sup>[cse]</sup>.
+Coding conventions are recognized to be of such importance to the open-source community that the Linux Foundation's CII Best Practices Program's Silver Badge Level<sup>[ciibp]</sup> **requires** a project to adopt coding standards <sup>[cs]</sup> and to enforce them with automated tools when possible <sup>[cse]</sup>.
 
 The general consensus in the software engineering community around coding conventions seems to be:
 
@@ -74,7 +74,7 @@ However, many of the basic formatting, naming and other general coding guideline
 [ccw-sfer-ezikiw]: https://en.wikipedia.org/wiki/Coding_conventions "Coding Conventions (Wikipedia)"
 [cc2nd04-sfer-ezikiw]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete (Second Edition) {McConnell, Steve. Microsoft Press, 2004}"
 [cc08-sfer-ezikiw]: https://dl.acm.org/doi/10.5555/1388398 "Clean Code: A Handbook of Agile Software Craftsmanship {Robert C. Martin. Prentice Hall PTR, 2008}"
-[ciibpc-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria "CII Best Practices Criteria"
+[ciibp-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria "CII Best Practices"
 [cf-sfer-ezikiw]: https://clang.llvm.org/docs/ClangFormat.html "clang-format:  Automatic source code formatter based on LLVM Clang"
 [ct-sfer-ezikiw]: https://clang.llvm.org/extra/clang-tidy/ "clang-tidy: Automatic linter diagnosing and fixing typical programming errors based on LLVM Clang"
 [cs-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards "[coding_standards] CII Best Practices"
@@ -91,7 +91,7 @@ RSS update: 2021-10-???
 [ccw]: #sfer-ezikiw-ccw "Coding Conventions (Wikipedia)"
 [cc2nd04]: #sfer-ezikiw-cc2nd04 "Code Complete (Second Edition)"
 [cc08]: #sfer-ezikiw-cc08 "Clean Code: A Handbook of Agile Software Craftsmanship"
-[ciibpc]: #sfer-ezikiw-ciibpc "CII Best Practices Criteria"
+[ciibp]: #sfer-ezikiw-ciibp "CII Best Practices"
 [cf]: #sfer-ezikiw-cf "clang-format:  Automatic source code formatter based on LLVM Clang"
 [ct]: #sfer-ezikiw-ct "clang-tidy: Automatic linter diagnosing and fixing typical programming errors based on LLVM Clang"
 [cs]: #sfer-ezikiw-cs "[coding_standards] CII Best Practices"
@@ -103,7 +103,7 @@ RSS update: 2021-10-???
 * <a name="sfer-ezikiw-cc2nd04"></a><sup>cc2nd04</sup>[Code Complete (Second Edition)<br>McConnell, Steve. Microsoft Press, 2004](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
 * <a name="sfer-ezikiw-ccw"></a><sup>ccw</sup>[Coding Conventions (Wikipedia)](https://en.wikipedia.org/wiki/Coding_conventions)
 * <a name="sfer-ezikiw-cf"></a><sup>cf</sup>[clang-format:  Automatic source code formatter based on LLVM Clang](https://clang.llvm.org/docs/ClangFormat.html)
-* <a name="sfer-ezikiw-ciibpc"></a><sup>ciibpc</sup>[CII Best Practices Criteria](https://bestpractices.coreinfrastructure.org/en/criteria)
+* <a name="sfer-ezikiw-ciibp"></a><sup>ciibp</sup>[CII Best Practices](https://bestpractices.coreinfrastructure.org/en/criteria)
 * <a name="sfer-ezikiw-cs"></a><sup>cs</sup>[[coding_standards] CII Best Practices](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards)
 * <a name="sfer-ezikiw-cse"></a><sup>cse</sup>[[coding_standards_enforced] CII Best Practices](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)
 * <a name="sfer-ezikiw-ct"></a><sup>ct</sup>[clang-tidy: Automatic linter diagnosing and fixing typical programming errors based on LLVM Clang](https://clang.llvm.org/extra/clang-tidy/)
