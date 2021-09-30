@@ -1,22 +1,21 @@
 # Coding Conventions
 
 <!--deck text start-->
-Coding conventions (also known as coding standards or coding guidelines) are critical for fostering shared ownership of the codebase, improving peer reviews, and enhancing several other aspects of internal software quality.
-Selecting, documenting, and implementing coding conventions are an important part of professional, productive, and healthy software projects.
+Coding conventions are critical for fostering shared ownership of the codebase, improving peer reviews, and enhancing several other aspects of internal software quality.
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: September ???, 2021
+#### Publication date: September 30, 2021
 
-Resource information | Details
-:--- | :---
-Wikipedia article | [Coding Conventions](https://en.wikipedia.org/wiki/Coding_conventions)
-Book | [Code Complete: 2nd Edition](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
-Book | [Clean Code: A Handbook of Agile Software Craftsmanship, Robert Martin, 2009](https://dl.acm.org/doi/10.5555/1388398)
-Website | [CII Best Practices Criteria (All Levels)](https://bestpractices.coreinfrastructure.org/en/criteria)
+Resource information | Details 
+:--- | :--- 
+Resource name |  Assorted resources on coding conventions
+Website  |  [Wikipedia article on Coding Conventions](https://en.wikipedia.org/wiki/Coding_conventions), [Code Complete: 2nd Edition](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction) book, [Clean Code: A Handbook of Agile Software Craftsmanship by Robert Martin](https://dl.acm.org/doi/10.5555/1388398) book, [CII Best Practices Criteria](https://bestpractices.coreinfrastructure.org/en/criteria) website.
+Focus | Coding conventions
 
-While there are a wide variety of "best practices" that can be adopted when developing a software project, an important subset include *coding conventions* which impact the internal source code in ways that generally do **not** influence the behavior of the software.
+While there are a wide variety of "best practices" that can be adopted when developing a software project, an important subset include *coding conventions* which impact the internal source code in ways that generally do **not** influence the behavior of the software. Selecting, documenting, and implementing coding conventions are an important part of professional, productive, and healthy software projects.
+
 Coding conventions, also know as *coding standards* or *coding guidelines*, generally falls into the following categories:
 
 * **Formatting guidelines**: Guidelines for the layout and usage of whitespace in the source code and how source code is organized in and between source files and directories
