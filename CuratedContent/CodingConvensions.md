@@ -64,7 +64,7 @@ Also, many language-specific coding standards can be enforced using automated to
 However, it is much harder to write a tool to automatically check and enforce naming conventions or enforce other general guidelines like KISS for internal software constructs.
 (In fact, a major part of peer code review is to use expert judgment to evaluate code against naming and other general coding guidelines that would be very hard to write a robust automated tool to check.)
 
-Coding conventions are recognized to be of such importance to the open-source community that the Linux Foundation's CII Best Practices Program's Silver Badge Level **requires** a project to adopt coding standards <sup>[[coding_standards]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards)</sup> and to enforce them with automated tools when possible. <sup>[[coding_standards_enforced]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)</sup>
+Coding conventions are recognized to be of such importance to the open-source community that the Linux Foundation's CII Best Practices Program's Silver Badge Level **requires** a project to adopt coding standards <sup>[[coding_standards]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards)</sup> and to enforce them with automated tools when possible <sup>[[coding_standards_enforced]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)</sup>.
 
 The general consensus in the software engineering community around coding conventions seems to be:
 
