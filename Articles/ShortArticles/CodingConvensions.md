@@ -77,8 +77,8 @@ However, many of the basic formatting, naming and other general coding guideline
 [ciibpc-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria "CII Best Practices Criteria"
 [cf-sfer-ezikiw]: https://clang.llvm.org/docs/ClangFormat.html "clang-format"
 [ct-sfer-ezikiw]: https://clang.llvm.org/extra/clang-tidy/ "clang-tidy"
-[cs-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards "[coding_standards]"
-[cse-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced "[coding_standards_enforced]"
+[cs-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards "[coding_standards] CII Best Practices"
+[cse-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced "[coding_standards_enforced] CII Best Practices"
 
 <!---
 Publish: yes
@@ -86,6 +86,7 @@ Pinned: no
 Topics: Software engineering, refactoring, design
 RSS update: 2021-10-???
 --->
+
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [ccw]: #sfer-ezikiw-ccw "Coding Conventions (Wikipedia)"
 [cc2nd04]: #sfer-ezikiw-cc2nd04 "Code Complete (Second Edition)"
@@ -93,8 +94,8 @@ RSS update: 2021-10-???
 [ciibpc]: #sfer-ezikiw-ciibpc "CII Best Practices Criteria"
 [cf]: #sfer-ezikiw-cf "clang-format"
 [ct]: #sfer-ezikiw-ct "clang-tidy"
-[cs]: #sfer-ezikiw-cs "[coding_standards]"
-[cse]: #sfer-ezikiw-cse "[coding_standards_enforced]"
+[cs]: #sfer-ezikiw-cs "[coding_standards] CII Best Practices"
+[cse]: #sfer-ezikiw-cse "[coding_standards_enforced] CII Best Practices"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
@@ -103,6 +104,6 @@ RSS update: 2021-10-???
 * <a name="sfer-ezikiw-ccw"></a><sup>ccw</sup>[Coding Conventions (Wikipedia)](https://en.wikipedia.org/wiki/Coding_conventions)
 * <a name="sfer-ezikiw-cf"></a><sup>cf</sup>[clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 * <a name="sfer-ezikiw-ciibpc"></a><sup>ciibpc</sup>[CII Best Practices Criteria](https://bestpractices.coreinfrastructure.org/en/criteria)
-* <a name="sfer-ezikiw-cs"></a><sup>cs</sup>[[coding_standards]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards)
-* <a name="sfer-ezikiw-cse"></a><sup>cse</sup>[[coding_standards_enforced]](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)
+* <a name="sfer-ezikiw-cs"></a><sup>cs</sup>[[coding_standards] CII Best Practices](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards)
+* <a name="sfer-ezikiw-cse"></a><sup>cse</sup>[[coding_standards_enforced] CII Best Practices](https://bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.coding_standards_enforced)
 * <a name="sfer-ezikiw-ct"></a><sup>ct</sup>[clang-tidy](https://clang.llvm.org/extra/clang-tidy/)
