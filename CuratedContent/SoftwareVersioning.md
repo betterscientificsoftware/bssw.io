@@ -5,7 +5,7 @@ Most software changes over time.  An explicit versioning scheme is a key way to 
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: September 24, 2021
+#### Publication date: September 30, 2021
 
 Resource information | Details
 :--- | :--- 
