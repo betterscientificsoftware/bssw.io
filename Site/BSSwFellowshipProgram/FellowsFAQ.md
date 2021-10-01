@@ -2,7 +2,7 @@
 
 More questions and answers will be added to this page over time; check back for updates. If you have additional questions, please contact us via email to [info@bssw.io](mailto:info@bssw.io).
 
-## Q & A Webinar
+## Q & A Webinar for 2022 Fellowship (CLOSED)
 
 - Monday, September 13, 1:00-2:00 pm EDT
 <!--- - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. --->
@@ -166,5 +166,5 @@ The goal of the BSSw organization is to foster a broad, international community 
 </div>  
 </div>
 <!--
-OpenGraph image: Blog_2108_FellowsAppOpen.png
+OpenGraph image: OG_2109_BSSwFellowships.png
 --> 

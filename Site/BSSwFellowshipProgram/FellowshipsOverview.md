@@ -26,11 +26,11 @@ Beyond this categorical requirement, we are looking for applications from people
 
 ### 2022 BSSw Fellowships
 
-[2022 BSSw Fellowship Application Form](https://docs.google.com/forms/d/e/1FAIpQLScd_tLuA4eVEJYKqg-BzHeQlKK2HmpPp4_cqLFB3KWUcbEUfw/viewform?usp=sf_link) - Submissions Open!
+<!-- [2022 BSSw Fellowship Application Form](https://docs.google.com/forms/d/e/1FAIpQLScd_tLuA4eVEJYKqg-BzHeQlKK2HmpPp4_cqLFB3KWUcbEUfw/viewform?usp=sf_link) - Submissions Open! -->
 
 <!-- Applications will open on August 16, 2021 for the 2022 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.-->
 
-<!-- Applications are now closed for the 2021 BSSw Fellowship Program. Check back in summer 2021 for info about the 2022 application process. -->
+Applications are now closed for the 2022 BSSw Fellowship Program. Check back in summer 2022 for info about the 2023 application process. 
 
 
 ### More Information
@@ -62,5 +62,5 @@ Beyond this categorical requirement, we are looking for applications from people
 </div>
 
 <!--
-OpenGraph image: Blog_2108_FellowsAppOpen.png
+OpenGraph image: OG_2109_BSSwFellowships.png
 --> 
