@@ -193,6 +193,8 @@ ToDo: Describe:
 
 * Provides a learning tool for best practices for developers and projects.
 
+* Provides up-to-date info on the latest tools and appraoches for addressing issues.
+
 * Provides an incremental road map for continuous incremental process and quality improvements for a software project.
 
 * Provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas.
