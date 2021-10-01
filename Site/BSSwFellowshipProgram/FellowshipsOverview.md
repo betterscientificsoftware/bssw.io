@@ -62,5 +62,5 @@ Applications are now closed for the 2022 BSSw Fellowship Program. Check back in 
 </div>
 
 <!--
-OpenGraph image: Blog_2108_FellowsAppOpen.png
+OpenGraph image: OG_2109_BSSwFellowships.png
 --> 
