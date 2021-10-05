@@ -35,9 +35,9 @@ That is because the language we use has the power to welcome others in as well a
 Software projects involve a lot of communication.
 As developers, we write code, comments, documentation, research papers, presentations, job postings, promotional materials, discussion posts, emails, chats, tweets and more.
 It is now well known that language used in [job postings](https://www.mya.com/blog/unconscious-bias-in-job-descriptions/) has the effect of biasing the respondent pool in undesireable ways.
-The more we adopt inclusive language, the more we reduce biases and create welcoming and safe spaces for all stakeholders to be their authentic selves, to be productive and to thrive.
+The more we adopt inclusive language, the more we reduce biases and create welcoming and safe spaces for all participants to be their authentic selves, to be productive and to thrive.
 
-Inclusive *naming* is closely related to inclusive language and involves the naming of things.
+Inclusive *naming* is closely related to inclusive language but focuses primarily on the naming of things.
 That is the *names* we choose for abstract objects of our software systems.
 A callenge with inclusive naming is that people tend to get pretty attached to names, often without any regard for accuracy, historical or otherwise.
 For example, was Pythagoras indeed the [first person](https://en.wikipedia.org/wiki/Pythagoras#In_mathematics) ever to write down that famous and fundamental right-triangle rule?
@@ -57,14 +57,14 @@ How might a black person feel reading that existing users will be [*grandfathere
 How might a neuro-diverse person feel about being tasked to add [*sanity checks*](https://gist.github.com/seanmhanson/fe370c2d8bd2b3228680e38899baf5cc) to a software package's test suite?
 
 Sometimes, there is no way to phrase something that will be acceptable to literally *every* individual.
-Nor, should we aim for that.
-Catering to any specific individual's tastes and sensibilities is not what inclusive language is all about.
+Nor, should we be aiming for that.
+Catering to any one individual's tastes and sensibilities is not what inclusive language is all about.
 The goal of inclusive language is to reduce the use of terms and phrases that wind up uniformally *excluding whole groups* of people.
 It is not about being politically correct or being the language police.
 Its about being willing to acknowledge that poorly chosen terms and phrases, however common in current vernacular, can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
 
-Ever since adopting the practice of being more inclusive in my own language, there isn't a week that goes by that I don't have the experience of questioning myself about why I am about to write or speak a given phrase.
-I often spend a few minutes searching the web to learn more about it before I choose to either move ahead as planned or select different words.
+Ever since adopting the practice of being more inclusive in my own language, there isn't a week that goes by that I don't have the experience of questioning why I am about to write or speak a given phrase.
+I often spend a few minutes searching the web to learn more about it (including terms and phrases I have used many times before I choose to either move ahead as planned or select different words.
 We hope the resources we have compiled here are useful to anyone who is similarly inclined.
 But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://en.wikipedia.org/wiki/Rule_of_thumb) out there to sift through as well.
