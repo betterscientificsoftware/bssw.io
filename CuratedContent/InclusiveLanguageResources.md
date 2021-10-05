@@ -64,8 +64,9 @@ It is not about being politically correct or being the language police.
 Its about being willing to acknowledge that poorly chosen terms and phrases, however common in current vernacular, can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
 
 Ever since adopting the practice of being more inclusive in my own language, there isn't a week that goes by that I don't have the experience of questioning why I am about to write or speak a given phrase.
-I often spend a few minutes searching the web to learn more about it (including terms and phrases I have used many times before I choose to either move ahead as planned or select different words.
-We hope the resources we have compiled here are useful to anyone who is similarly inclined.
+I often spend a few minutes searching the web to learn more about it.
+This includes terms and phrases I have used many times before.
+We hope the resources we have compiled here are useful to any of our readers are are similarly inclined.
 But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://en.wikipedia.org/wiki/Rule_of_thumb) out there to sift through as well.
 
