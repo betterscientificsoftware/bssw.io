@@ -9,7 +9,7 @@ If we knew such phrases had their roots in oppressive or genocidal history, or i
 
 Resource information | Details
 :--- | :--- 
-Article title  | [Inclusive Naming Initiative](https://inclusivenaming.org)
+Article title  | [Inclusive Naming Initiative](https://bssw.io/items/inclusive-naming-initiative)
 &nbsp; | [Conscious Language](https://github.com/conscious-lang/conscious-lang-docs)
 &nbsp; | [Plain Language](https://www.plainlanguage.gov/)
 &nbsp; | [Terminology, Power and Oppressive Language](https://tools.ietf.org/id/draft-knodel-terminology-00.html)
@@ -21,57 +21,50 @@ Focus | Inclusive Practices
 
 When taking the first steps on the Moon, Armstrong said "This is a small step for a *man* but a giant leap for *man*kind."
 Later that same Moonwalk, he said..."It is a great honor...to be here representing...*men* of peaceable nations, *men* with an interest and a curiosity, and *men* with a vision for the future."
+
 Regardless of how common-place any given turn of phrase is or may have been for its time, the example demonstrates how the language we use can wind up excluding others.
-To help skeptics of the importance of inclusive language walk in others shoes, imagine if the first mission to Mars is a crew of all Black, Muslim women and the first to set foot on Mars says "This is a small step for a woman but a giant leap for woman-kind...Allahu Akbar."
+To help skeptics empathize, imagine if the first mission to Mars is a crew of all Black, Muslim women and the first to set foot on Mars says "This is a small step for a woman but a giant leap for woman-kind...Allahu Akbar."
 
-Ok, as HPC/CSE software developers maybe we're not doing anything nearly as momentus as being the first Earthlings to walk on some other celestial body.
+Ok, as HPC/CSE software developers maybe we're not doing anything nearly as momentus as being the first Earthlings to walk on another planet.
 Do we really need to worry so much about inclusive language?
-Site job posting, productivity, list persons who might want to reach out too.
-
-
-
-https://www.cfr.org/blog/woman-moon-and-equality-earth
-
-
-
-
-
-https://www.businessinsider.com/apollo-11-women-made-moon-landing-possible-2019-7#frances-poppy-northcutt-was-the-first-woman-in-mission-control-at-nasa-she-helped-make-sure-the-apollo-astronauts-return-trajectory-calculations-were-sound-so-that-theyd-get-home-safely-10
-
-https://floridapress.blog/2020/10/30/the-women-behind-the-apollo-space-suit/
-
-While we recognize that there are sometimes no words that will be found acceptable to literally *every* individual, the goal of inclusive language is to reduce the use of language that winds up uniformally excluding whole groups of people.
+If we care about maximizing our project's ability to attract and retain potential collaborators, developers, users and sponsors, then yes we do.
+That is because the language we use has the power to welcome others in as well as push them away.
 
 Software projects involve a lot of communication.
 As developers, we write code, comments, documentation, research papers, presentations, job postings, promotional materials, discussion posts, emails, chats, tweets and more.
 Just look at how much communication can be associated with a single [bug report](https://github.com/visit-dav/visit/issues/4908).
 
-The language we use has the power to welcome people in and also push them away.
-For example, it is now well known that language used in [job postings](https://www.mya.com/blog/unconscious-bias-in-job-descriptions/) has the effect of biasing respondent pool in undesireable ways. 
-The more we adopt inclusive language, the more we reduce biases... create safe and welcoming space for others to participate.
+It is now well known that language used in [job postings](https://www.mya.com/blog/unconscious-bias-in-job-descriptions/) has the effect of biasing the respondent pool in undesireable ways.
+The more we adopt inclusive language, the more we reduce biases and create welcoming and safe spaces for all stakeholders to bring their authentic selves to work and to thrive and be productive.
 
-Not about being PC or language police.
-Its about identifying terms and phrases, ... often the alternatives are
+While we recognize that there are sometimes no words that will be found acceptable to literally *every* individual, the goal of inclusive language is to reduce the use of terms and phrases that wind up uniformally excluding whole groups of people.
+It is not about being politically correct or being the language police.
+Its about being willing to evaluate whether a given term or phrase is unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
 
 Many terms and phrases we often use are simply unconcsiously repeating the words of others.
 That can be dangerous if one does not know either the meaning, context or history of the term.
+Do any readers know why we call defects in software [*bugs*](https://en.wikipedia.org/wiki/Software_bug#History)?
 
-Do you know why we call defects in software [*bugs*](https://en.wikipedia.org/wiki/Software_bug#History)?
+A specific aspect of inclusive language in software involves the *naming* of things.
+That is the *names* we choose for abstract objects of our software systems.
+There may be no other human activity that involves the naming of new things as much as software development.
+We tend to get particularly attached to names, often without any regard for whether the name is accurate reflection of function.
 
-gendered terminology
-
-A specific aspect of language is naming.
-we get particularly attached to names
-
-
-More broadly, did you ever wonder whether Edmond Halley was indeed to first ever person to observe, record and ultimately predict the return of the comet that bares is name?
+More broadly, did you ever wonder whether Edmond Halley was indeed to first ever person to observe, record and ultimately predict the return of the comet that bares his name?
 What about Pythagoras' theorem?
 Was Pythagoras indeed the [first person](https://en.wikipedia.org/wiki/Pythagoras#In_mathematics) ever to write down that famous right-triangle rule, a2+b2=c2?
 
-There is probably no other human activity that involves the naming of new things as much as software development.
 There is power in naming and with great power, comes great responsibility.
 The names we use in our code and its associated artifacts (PR reviews, documentation, presentations, social media posts, etc.) are often shaped by our culture.
 
 New thinking cap. What does the practice look like. 
 
 Changing code vs. changing non-code artifacts.
+
+<!--
+https://www.cfr.org/blog/woman-moon-and-equality-earth
+
+https://www.businessinsider.com/apollo-11-women-made-moon-landing-possible-2019-7#frances-poppy-northcutt-was-the-first-woman-in-mission-control-at-nasa-she-helped-make-sure-the-apollo-astronauts-return-trajectory-calculations-were-sound-so-that-theyd-get-home-safely-10
+
+https://floridapress.blog/2020/10/30/the-women-behind-the-apollo-space-suit/
+-->
