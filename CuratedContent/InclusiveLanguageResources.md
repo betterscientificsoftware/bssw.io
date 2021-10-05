@@ -37,20 +37,23 @@ As developers, we write code, comments, documentation, research papers, presenta
 It is now well known that language used in [job postings](https://www.mya.com/blog/unconscious-bias-in-job-descriptions/) has the effect of biasing the respondent pool in undesireable ways.
 The more we adopt inclusive language, the more we reduce biases and create welcoming and safe spaces for all stakeholders to be their authentic selves, to be productive and to thrive.
 
-Sometimes, there are no words that will be acceptable to literally *every* individual.
-But, catering to specific individuals tastes or sensibilities is not what inclusive language is all about.
+There are no words that will be acceptable to literally *every* individual.
+But, catering to any specific individual's tastes and sensibilities is not what inclusive language is all about.
 The goal of inclusive language is to reduce the use of terms and phrases that wind up uniformally excluding whole groups of people.
 It is not about being politically correct or being the language police.
-Its about being willing to acknowledge that poorly chosen terms and phrase can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
+Its about being willing to acknowledge that poorly chosen terms and phrases can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
 
 Many terms and phrases we often use are simply unconcsiously repeating the words of others.
 That can be dangerous if one is not mindful of either the meaning, context or history of the term.
 Do any readers know why we call defects in software [*bugs*](https://en.wikipedia.org/wiki/Software_bug#History)?
 
-Inclusive *naming* is closely associated with inclusive language and involves the naming of things.
+Inclusive *naming* is closely related to inclusive language and involves the naming of things.
 That is the *names* we choose for abstract objects of our software systems.
-We tend to get particularly attached to names, often without any regard for accuracy in source or function.
-Did you ever wonder whether Edmond Halley was indeed to first person to observe, record and ultimately predict the return of the comet that bares his name?
+A callenge with inclusive naming is that people tend to get pretty attached to names, often without any regard for accuracy, historical or otherwise.
+Do you know why we call it "Halley's Comet"?
+Halley was not the first to observe or even record it.
+Chinese astronomers [observed and recorded](https://en.wikipedia.org/wiki/Historical_comet_observations_in_China#Halley's_Comet) it almost 2,000 years before Halley.
+Halley, however, is believed to be the first to estimate its orbit and based on that estimation connect recorded observations from 1531, 1607 and 1682 as being the same object and then correctly predict its return in 1758.
 What about Pythagoras' theorem?
 Was Pythagoras indeed the [first person](https://en.wikipedia.org/wiki/Pythagoras#In_mathematics) ever to write down that famous right-triangle rule, a2+b2=c2?
 
