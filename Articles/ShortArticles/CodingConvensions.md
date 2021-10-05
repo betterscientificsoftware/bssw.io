@@ -49,7 +49,7 @@ There are some excellent, widely accepted, and largely language-agnostic code fo
 Other chapters in *Code Complete: 2nd Edition* and *Clean Code* also cover many of the other general coding guidelines that are applicable to almost every programming language.
 
 These two authors are some of the most respected in the software industry, whose guidance has held up over time, and they give very consistent advice in this area.
-(But, not that one should look to more recent references for language-specific guidelines instead of those given in *Code Complete: 2nd Edition*.)
+(But, note that one should look to more recent references for language-specific guidelines instead of those given in *Code Complete: 2nd Edition*.)
 These guidelines apply to every procedural programming language (or, the parts of program that are programmed using procedural approaches) and therefore, apply to object-oriented programs as well.
 Other options exist in the software development community, but the views expressed by these two authors seem to be fairly widely accepted.
 
@@ -63,7 +63,7 @@ For instance, automated source-code formatting and indentation tools for popular
 Also, many language-specific coding standards can be enforced using automated tools such as using `clang-tidy`<sup>[ct]</sup>.
 
 However, it is much harder to write a tool to automatically check and enforce naming conventions or enforce other general guidelines like KISS for internal software constructs.
-(In fact, a major part of peer code review is to use expert judgment to evaluate code against naming and other general coding guidelines. This would be a difficult process to recreate, even with the production and use of a robust automated tool.)
+(In fact, a major part of peer code review is to use expert judgment to evaluate code against naming and other general coding guidelines for which robust automated tools don't exist.)
 
 Coding conventions are recognized to be of such importance to the open-source community that the Linux Foundation's CII Best Practices Program's Silver Badge Level<sup>[ciibp]</sup> **requires** a project to adopt coding standards <sup>[cs]</sup> and to enforce them with automated tools when possible <sup>[cse]</sup>.
 
