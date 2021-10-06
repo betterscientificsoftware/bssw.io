@@ -24,7 +24,7 @@ When fist stepping on the Moon, Armstrong said *"This is a small step for a **ma
 Later that same Moonwalk, [he said](https://www.presidency.ucsb.edu/documents/telephone-conversation-with-the-apollo-11-astronauts-the-moon), *"It is a great honor...to be here representing...**men** of peaceable nations, **men** with an interest and a curiosity, and **men** with a vision for the future."*
 That sure doesn't read now nor did it sound at the time very much like space exploration included women.
 
-Regardless of how common-place any given customary expression or turn of phrase is or may have been for its time, the example demonstrates how the language we use can wind up excluding whole groups of people.
+Regardless of how common-place any manner of speaking or turn of phrase is or may have been for its time, the example demonstrates how the language we use can manifest bias and wind up excluding whole groups of people.
 To help skeptics empathize, imagine if instead of a crew of all white, Christian men the first mission to Mars is crewed by all black, Muslim women and the first to walk on Mars says something like *"This is a small step for a woman but a giant leap for woman-kind...Allahu Akbar."*
 
 As HPC/CSE software developers maybe we're not doing anything nearly as momentus as being the first Earthlings to walk on another planet.
@@ -41,6 +41,7 @@ Inclusive *naming* is closely related to inclusive language but focuses primaril
 That is the *names* we choose for abstract objects of our software systems.
 A callenge with inclusive naming is that people tend to get pretty attached to names, often without any regard for accuracy, historical or otherwise.
 Was Edmund Halley the first to observe and record [the comet](https://www.space.com/19878-halleys-comet.html) that bares his name?<sup>1</sup>
+Certainly not.
 Chinese astronomers [observed and recorded](https://en.wikipedia.org/wiki/Historical_comet_observations_in_China#Halley's_Comet) it almost 2,000 years earlier.
 Was Pythagoras the [first person](https://en.wikipedia.org/wiki/Pythagoras#In_mathematics) ever to discover and write down the rule we know as the Pythagorean theorem?
 Plenty of [scholarly research](https://www.researchgate.net/publication/337941217_Mathematics_in_Ancient_Egypt_Part_II) says he was not.
@@ -59,10 +60,13 @@ The goal of inclusive language is to reduce the use of terms and phrases that wi
 It is not about being politically correct or being the language police.
 Its about being willing to acknowledge that certain terms and phrases (and, honestly, even names, icons and logos), however common in current culture, can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
 
+Given the current social justice climate in which we all operate, some readers will feel that inclusive language efforts are nowhere near enough to meet the moment.
+Others will feel like such efforts are way too much.
+While we can acknowledge both prespectives, it is worth considering that when we're accustomed to parroting the status quo, striving for more inclusive language can feel like oppression.
+
 Ever since adopting the practice myself, there isn't a week that goes by that I don't have the experience of questioning a term or phrase I am about to use.
 I often spend a few minutes searching the web to learn more about it.
 This includes terms and phrases I have used many times before without really thinking about it.
-
 We hope the resources we have compiled here are useful to any readers who may be similarly inclined.
 But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://en.wikipedia.org/wiki/Rule_of_thumb) out there to sift through as well.
