@@ -1,27 +1,27 @@
 # The CII Best Practices Badge Program
 
 <!-- deck text start -->
-The Linux Foundation's CII Best Practices Badge Program represents an impressive collection of the open source communitie's knowledge base for creating, maintaining, and sustaining robust, high-quality -- and most importantly secure -- open-source software.
-At its core is a powerful and feature-full "Badge App" website which provides a database of projects that document what best practices they support and provide supporting evidence.
+The Linux Foundation's CII Best Practices Badge Program represents an impressive collection of the open source community's knowledge-base for creating, maintaining, and sustaining robust, high-quality (and most importantly) secure open-source software.
+At its foundation is a powerful and feature-full "Badge App" website which provides a database of projects that document what best practices they support and provides supporting evidence for those best practices.
 This set of best practices along with the detailed documentation and supporting justification also serves as an incremental learning tool for software engineering best practices and as a foundation for incremental software process and quality improvements efforts.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
 #### Publication date: ???, 2021
 
-The Linux Foundation's<sup>[lf]</sup> Open Source Security Foundation (OpenSSF)<sup>[openssf]</sup> (the successor to its Core Infrastructure Initiative (CII)<sup>[cii]</sup>) is an effort to improve the security and quality of open source software.
-The CII Best Practices Badge Program<sup>[ciibpbp]</sup> (started under the CII and being continued under the OpenSSF) is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community.
-The core of this badge program is a "Badge App" site<sup>[ciibpba]</sup> that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.
+The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF)<sup>[[openssf]]</sup> (the successor to its Core Infrastructure Initiative (CII)<sup>[[cii]]</sup>) is an effort to improve the security and quality of open source software.
+The CII Best Practices Badge Program<sup>[[ciibpbp]]</sup> (started under the CII and being continued under the OpenSSF) is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community to a wide rage of open-source software projects.
+The foundation of this badge program is a "Badge App" site<sup>[[ciibpba]]</sup> that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.
 
 The CII Best Practices and the supporting Badge App site provides a number of benefits by providing:
 
 * a set of practices that have specific actionable criteria which require supporting evidence,
 
-* a power badge app site that enhances the display of the best practice items, expanded descriptions of the best practices, and fields to enter URL and text descriptions of the status of each best practice in the project, 
+* a power "Badge App" site that enhances the display of the best practice items, expanded descriptions of the best practices, and fields to enter URL and text descriptions of the status of each best practice in the project, 
 
 * a badge that can be displayed on the project hosting site to show that the project follows accepted best practices,
 
-* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity",<sup>[eo14028]</sup>
+* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[[eo14028]]</sup>  (which is of particular importance to laboratory and government agencies and contractors, including the national labs),
 
 * a learning tool for best practices for developers and projects,
 
@@ -38,18 +38,18 @@ These different aspects of the CII Best Practices Program and Badge App are desc
 
 ## CII Best Practices and Badge App Details
 
-Before getting into the some of the surprising benefits of the CII Best Practices and Badge App site, it is worth going into some detail about the best practices themselves.
+Before getting into the some of the surprising benefits of the CII Best Practices and Badge App site, it is worth going into some detail about the best practices themselves and the "Badge App" website.
 
 The CII Best Practices are broken down in several different ways:
 
-* Three different badge levels (N/A allowed on some MUST practices):
+* Required or optional practices:
+  * MUST: Required/not optional (unless 'N/A' is allowed)
+  * SHOULD: Required unless a strong argument against can be made
+  * SUGGESTED: Not required but suggested
+* Three different badge levels:
   * Passing: 43 MUST, 10 SHOULD, 14 SUGGESTED
   * Silver: +44 MUST, +10 SHOULD, +1 SUGGESTED
   * Gold: +21 MUST, +2 SHOULD
-* Required or optional practices:
-  * MUST
-  * SHOULD
-  * SUGGESTED
 * Six different categories in each badge level:
   * Basic
   * Change Control
@@ -58,19 +58,19 @@ The CII Best Practices are broken down in several different ways:
   * Security
   * Analysis
 
-As noted above, some of the practices can be opted-out as not applicable "N/A" which is quite important in order for the CII Best Practices to be broadly applicable.  For example, almost all of the security-related items can be marked as "N/A" if the project does not have any security-critical code.
+As noted above, some of the practices can be opted-out as not applicable "N/A" which is quite important in order for the CII Best Practices to be broadly applicable.  For example, almost all of the technical security-related items can be marked as "N/A" if the project does not have any security-critical code.
 
-The CII Best Practices are listed as a full set<sup>[ciibpa]</sup> and also for each badge level individually.  They are also listed with or without the detailed description/justification and links to more information.  Each best practice is composted of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and short HTML anchor name link name that serves as a link to the practice and as an unambiguous shorthand identifier for that best practice criteria.  Many items also require a short comment field be filled out and a URL to evidence.   For example, the first four best "Basic" practices in the passing level are stated as:
+The CII Best Practices are listed for each badge level individually and as a full set.<sup>[[ciibpa]]</sup>  They are also listed with or without the detailed description/justification and links to more information.  Each best practice is composted of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor name link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice criteria).  Many items also require a short comment field be filled out and provide a URL to evidence.   For example, the first four "Basic" best practices in the Passing level are stated as:
 
 ----
 
 **Basics**<br>
 **Basic project website content**</br>
 
-* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[description_good]</sup>
-* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[interact]</sup>
-* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[contribution]</sup>
-* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[contribution_requirements]</sup>
+* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[[description_good]]</sup>
+* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[[interact]]</sup>
+* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[[contribution]]</sup>
+* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[[contribution_requirements]]</sup>
 
 ----
 
@@ -88,21 +88,25 @@ Statistics for the best practices in each level are given in the following table
 
 <br>
 
-Some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the Silver level lists the "bus factor" practice as SHOULD:
+Note that some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the Silver level lists the "bus factor" practice as SHOULD:
 
-* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor](https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor)</sup>
+* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor)</sup>
 
 but at the Gold level, it re-lists it as MUST:
 
-* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor](https://bestpractices.coreinfrastructure.org/en/criteria#2.bus_factor)</sup>
+* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#2.bus_factor)</sup>
 
 (That is why the number of "Total active" practices in the Silver and Gold levels is higher than the number "New at this  level".)
 
-One of the more unique features of the CII Best Practices program is the CII Best Practices Badge App site at:
+One of the more unique features of the CII Best Practices program is the CII Best Practices "Badge App" site:
 
 * https://bestpractices.coreinfrastructure.org/en/projects
 
-This site allows project maintainers to create an entry for their project (which then creates a unique project ID) and go through the process of reading about each best practice item and marking each as "Met", "Unmet", "N/A", or "?".  (Again, only some items allow a "N/A" value.)  An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
+This site allows project maintainers to create an entry for their project (which then creates a unique project ID) and go through the process of reading about each best practice item and marking each as "Met", "Unmet", "N/A", or "?".
+(Again, only some items allow an "N/A" response.)
+An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
+
+<br>
 
 <a name="example_badge_app_item"/>
 
@@ -112,7 +116,10 @@ This site allows project maintainers to create an entry for their project (which
 
 <br>
 
-After a project creates an entry into the CII Best Practices Badge App site, the Badge App site provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.  For example, one project that has achieved 99% to a passing badge shows the following scores in each category:
+After a project creates an entry on the CII Best Practices Badge App site, the Badge App site provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.
+For example, one project that has achieved 99% to a passing badge shows the following scores in each category:
+
+<br>
 
 <a name="example_passing_categories_scores"/>
 
@@ -122,7 +129,11 @@ After a project creates an entry into the CII Best Practices Badge App site, the
 
 <br>
 
-This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.   One can then expand a deficient category (the "Security" castegory in this case) and see which criteria are not being met and why.  One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories (i.e. by clicking the "Hide met & N/A" then the "Expand panels" buttons):
+This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.
+One can then expand a deficient category (the "Security" category in this example) and see which criteria are not being met and why.
+One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories (i.e. by clicking the "Hide met & N/A" then the "Expand panels" buttons):
+
+<br>
 
 <a name="example_hide_unmet_expand_panels"/>
 
@@ -134,7 +145,9 @@ This view of the project on the Badge App makes it easy to see where the project
 
 And one can expand to show the details for each practice by either clicking "Show all details" at the top or "Show details" for an individual item to read more about each unmet best practice and the criteria needed to satisfy it.
 
-After a project's maintainers have created a Badge App entry for the project, the project can display it's CII Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's README.md or README.rst rendered file can display the CII Best Practices badge at the top like:
+After a project's maintainers have created a Badge App entry for the project, the project can display it's CII Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's rendered README file can display the CII Best Practices badge at the top like:
+
+<br>
 
 <a name="example_badge"/>
 
@@ -187,13 +200,13 @@ ToDo: Describe:
 
 * Go over my presentation and make sure I am covering everything in that presentation.
 
-* Mention how many projects are registured the Badge App site in the different cateogires and how quickly it is growing.
+* Mention how many projects are registered the Badge App site in the different categories and how quickly it is growing.
 
 * Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
 
 * Provides a learning tool for best practices for developers and projects.
 
-* Provides up-to-date info on the latest tools and appraoches for addressing issues.
+* Provides up-to-date info on the latest tools and approaches for addressing issues.
 
 * Provides an incremental road map for continuous incremental process and quality improvements for a software project.
 
