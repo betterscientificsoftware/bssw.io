@@ -11,7 +11,9 @@ This set of best practices along with the detailed documentation and supporting 
 
 The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF)<sup>[[openssf]]</sup> (the successor to its Core Infrastructure Initiative (CII)<sup>[[cii]]</sup>) is an effort to improve the security and quality of open source software.
 The CII Best Practices Badge Program<sup>[[ciibpbp]]</sup> (started under the CII and being continued under the OpenSSF) is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community to a wide rage of open-source software projects.
-The foundation of this badge program is a "Badge App" site<sup>[[ciibpba]]</sup> that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.
+The foundation of this badge program is a "Badge App"<sup>[[ciibpba]]</sup> site that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.
+
+As of 10/7/2021, the "Badge App" site has 4100 registered projects of which 637 have achieved a Passing-level badge.  In addition, the community registers approximately 700 new open-source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.  This shows this is a well accepted and well adopted program and badge program.
 
 The CII Best Practices and the supporting Badge App site provides a number of benefits by providing:
 
@@ -157,6 +159,12 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <br>
 
+Note that of the 4100 registered projects on the Badge App site (as of 10/7/2021), 637 projects have achieved a Passing-level badge, 21 have achieved a Silver-level badge, and just 10 have achieved a Gold-level badge.
+So while approximately 15% of the registered projects have achieved a Passing-level badge, only 0.5% have achieved a Silver-level badge and only 0.24% have achieved a Gold-level badge.
+This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieved a Passing badge where only 3% of Passing-level projects went on to achieve a Silver-level badge.
+But this data shows that about 33% of the projects that achieve a Silver-level badge go on to achieve a Gold-level badge.
+Therefore, it would appear that the barrier (or reluctance) of going from the Silver-level to the Gold-level is small compared to going from the Passing-level to the Silver-level.
+
 
 <a name="focus_on_security"/>
 
@@ -199,8 +207,6 @@ Blah blah blah ...
 ToDo: Describe:
 
 * Go over my presentation and make sure I am covering everything in that presentation.
-
-* Mention how many projects are registered the Badge App site in the different categories and how quickly it is growing.
 
 * Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
 
