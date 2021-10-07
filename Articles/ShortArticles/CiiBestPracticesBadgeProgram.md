@@ -170,7 +170,19 @@ Therefore, it would appear that the barrier (or reluctance) of going from the Si
 
 ##  CII Best Practices focus on software security
 
-Blah blah blah ...
+One of the unique features of the CII Best Practices is the significant focus on security best practices.
+For example, of the 67 best practices listed at the Passing level, 16 of them are in the area of security.
+And of the 55 Silver-level practices and 23 Gold-level practices, 18 and 5, respectively are in the area of security.
+The reason that is so interesting is that most of the focus on software engineering best practices only pays a cursory treatment to security.
+For example, of the over 900 pages in the book "Code Complete: 2nd Edition" [???], exactly one paragraph is devoted to the area of software security in section 3.5 "Architecture Prerequisite":
+
+> The architecture should describe the approach to design-level and code-level security.
+> If a thread model has not previously been built, it should be built at architecture time.
+> Coding guidelines should be developed with security implications in mind, including approaches to handling buffers, rules for handling untrusted data (data input from users, cookies, configuration data, and other external interfaces), encryption, level of detail contained in error messages, protected secrete data that's in memory, and other issues.
+
+And other standard texts on software engineering best practices never even mention the word "security".
+
+ToDo: Finish this section!
 
 
 <a name="learning_tool"/>
