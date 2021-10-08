@@ -18,6 +18,10 @@ Article title  | [Inclusive Naming Initiative](https://bssw.io/items/inclusive-n
 &nbsp; | [MicroSoft's Bias Free Communication](https://docs.microsoft.com/en-us/style-guide/bias-free-communication)
 &nbsp; | [Say This, Not That](https://thediversitymovement.com/say-this-not-that-a-guide-for-inclusive-language/)
 &nbsp; | [Effectively Naming Software Thingies](https://medium.com/@rabinovichsagi/effectively-naming-software-thingies-fcea9d78a699)
+&nbsp; | [8 Resources to Ensure You're Using Inclusive Language](https://blog.hubspot.com/marketing/tools-inclusive-language)
+&nbsp; | [Online Tools to Check Your Writing for Empathy and Inclusivity](https://www.fastcompany.com/3053713/these-7-online-tools-check-your-writing-for-empathy-and-inclusivity)
+&nbsp; | [MicroSoft Office Inclusive Language Features](https://thenextweb.com/news/microsoft-office-can-help-you-write-with-inclusive-language-heres-how)
+&nbsp; | [Inclusive Lint](https://github.com/inclusivelint/inclusivelint)
 Focus | Inclusive Practices
 
 When fist stepping on the Moon, Armstrong said *"This is a small step for a **man** but a giant leap for **man**kind."*
@@ -46,12 +50,18 @@ Chinese astronomers [observed and recorded](https://en.wikipedia.org/wiki/Histor
 Was Pythagoras the [first person](https://en.wikipedia.org/wiki/Pythagoras#In_mathematics) ever to discover and write down the rule we know as the Pythagorean theorem?
 Plenty of [scholarly research](https://www.researchgate.net/publication/337941217_Mathematics_in_Ancient_Egypt_Part_II) says he was not.
 
-Many terms and phrases we commonly use are simply unconcsiously following informal precedent set by others.
-That can be dangerous if one is not mindful of the meaning, history or impact of the term upon others.
+For many terms and phrases we commonly use, we are simply unconcsiously parroting others.
+That can be dangerous if one is not mindful of the meaning, history or impact of a term.
 Do any readers know why we call defects in software [*bugs*](https://en.wikipedia.org/wiki/Software_bug#History)?
 How might a women feel reading documentation that constantly refers to the user as [*he*, *his* or *him*](https://www.washingtonpost.com/world/2019/12/15/guide-how-gender-neutral-language-is-developing-around-world/)?
 How might a black person feel reading that existing users will be [*grandfathered in*](https://www.npr.org/sections/codeswitch/2013/10/21/239081586/the-racial-history-of-the-grandfather-clause) when the software license terms are changed?
 How might a neuro-diverse person feel about being tasked to add [*sanity checks*](https://gist.github.com/seanmhanson/fe370c2d8bd2b3228680e38899baf5cc) to a software package's test suite?
+
+By the way, do readers recognize any bias manifested in the preceding questions?
+Its subtle but worth mentioning.
+The way these questions are worded suggest that only women would care about documentation that is laden with male pronouns or that only black people would care about language derived out of oppresive practices or that only neuro-diverse people would care about language associated with a state of mind.
+The truth is, we all (*should*) care.
+And, to use language that suggests otherwise is, well, not inclusive.
 
 There is no way to phrase something that will be acceptable to literally *every* individual.
 And, there is no reason we should be aiming for that either.
@@ -70,6 +80,11 @@ This includes terms and phrases I have used many times before without really thi
 We hope the resources we have compiled here are useful to any readers who may be similarly inclined.
 But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://en.wikipedia.org/wiki/Rule_of_thumb) out there to sift through as well.
+
+If you've read this far, you may be asking yourself, how do I get started?
+And, in particular, what *tooling* is available to help me find and correct inclusive language issues (a colleague on the Inclusive Naming Initiative calls these *inclusivity bugs*) in my project?
+Some of the resources listed here provide some tooling.
+That said, DevOps level tooling for inclusive language is still in its infancy stages.
 
 <sup>1</sup>The comet is named for Halley because it is believed he was the first to have estimated its orbit and based on that connected recorded observations from 1531, 1607 and 1682 as being the same celestial object from which he correctly predicted its return in 1758.
 
