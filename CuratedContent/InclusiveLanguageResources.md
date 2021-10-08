@@ -82,7 +82,7 @@ But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://en.wikipedia.org/wiki/Rule_of_thumb) out there to sift through as well.
 
 If you've read this far, you may be asking yourself, how do I get started?
-And, in particular, what *tooling* is available to help me find and correct inclusive language issues (a colleague on the Inclusive Naming Initiative calls these *inclusivity bugs*) in my project?
+And, in particular, what *tooling* is available to help me find and correct inclusive language issues ([Joanna Lee](https://github.com/joannalee333) a colleague on the [Inclusive Naming Initiative](https://inclusivenaming.org/) calls these *inclusivity bugs*) in my project?
 Some of the resources listed here provide some tooling.
 That said, DevOps level tooling for inclusive language is still in its infancy stages.
 
