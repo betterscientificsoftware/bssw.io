@@ -82,8 +82,8 @@ But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://en.wikipedia.org/wiki/Rule_of_thumb) out there to sift through as well.
 
 If you've read this far, you may be asking yourself, how do I get started?
-And, in particular, what *tooling* is available to help me find and correct inclusive language issues ([Joanna Lee](https://github.com/joannalee333) a colleague on the [Inclusive Naming Initiative](https://inclusivenaming.org/) calls these *inclusivity bugs*) in my project?
-Some of the resources listed here provide some tooling.
+I would suggest reading some of the resources offered here, especially [Plain Language](https://www.plainlanguage.gov/), [Google inclusive style](https://developers.google.com/style/inclusive-documentation), and [MicroSoft's Bias Free Communication](https://docs.microsoft.com/en-us/style-guide/bias-free-communication).
+In particular, if you are looking for *tooling* to help find and correct inclusive language issues ([Joanna Lee](https://github.com/joannalee333), a colleague on the [Inclusive Naming Initiative](https://inclusivenaming.org/), calls these *inclusivity bugs*) in your project, some of the resources listed here provide some tooling.
 That said, DevOps level tooling for inclusive language is still in its infancy stages.
 
 <sup>1</sup>The comet is named for Halley because it is believed he was the first to have estimated its orbit and based on that connected recorded observations from 1531, 1607 and 1682 as being the same celestial object from which he correctly predicted its return in 1758.
