@@ -35,6 +35,8 @@ As HPC/CSE software developers maybe we're not doing anything nearly as momentus
 Do we really need to worry so much about inclusive language?
 If we care about our project's reach and maximizing our ability to attract and retain collaborators, developers, users or sponsors, then yes we do.
 That is because the language we use has the power to welcome others in as well as push them away.
+Anyone who has been involved in writing proposals for a sponsor that is looking to fund work in a particular area of research understands the importance of and, indeed, already has a great deal of experience adjusting the *language* used to describe their work to fit the sponsor's call.
+In other words, we all can be quite mindful of the language we use when funding is on the line.
 
 Software projects involve a lot of communication.
 As developers, we write code, comments, documentation, research papers, presentations, job postings, promotional materials, discussion posts, emails, chats, tweets and more.
@@ -70,11 +72,10 @@ Catering to any one individual's tastes and sensibilities is not what inclusive 
 The goal of inclusive language is to reduce the use of terms and phrases that wind up uniformally *excluding whole groups* of people.
 It is not about being politically correct or being the language police.
 Its about being willing to acknowledge that certain terms and phrases (and, honestly, even names, icons and logos), however common in current culture, can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
-Anyone who has been involved in writing proposals for a sponsor that is looking to fund work in a particular area of research understands the importance of and already has a great deal of experience adjusting the *language* used to describe their work to fit the sponsor's call.
 
 Given the current social justice climate in which we all operate, some readers will feel that inclusive language efforts are nowhere near enough to meet the moment.
 Others will feel like such efforts are way too much.
-While we can acknowledge both prespectives, it is worth considering that [when we're accustomed to parroting the status quo, ponder more inclusive language can feel like oppression](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662).
+While we can acknowledge both prespectives, it is worth considering that [when we're accustomed to parroting the status quo, pausing to ponder more inclusive language can feel like oppression](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662).
 
 Ever since adopting the practice myself, there isn't a week that goes by that I don't have the experience of questioning a term or phrase I am about to use.
 I often spend a few minutes searching the web to learn more about it.
