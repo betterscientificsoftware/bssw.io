@@ -63,16 +63,18 @@ The way these questions are worded suggest that only women would care about docu
 The truth is, we all (*should*) care.
 And, to use language that suggests otherwise is, well, not inclusive.
 
+
 There is no way to phrase something that will be acceptable to literally *every* individual.
 And, there is no reason we should be aiming for that either.
 Catering to any one individual's tastes and sensibilities is not what inclusive language is all about.
 The goal of inclusive language is to reduce the use of terms and phrases that wind up uniformally *excluding whole groups* of people.
 It is not about being politically correct or being the language police.
 Its about being willing to acknowledge that certain terms and phrases (and, honestly, even names, icons and logos), however common in current culture, can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
+Anyone who has been involved in writing proposals for a sponsor that is looking to fund work in a particular area of research understands the importance of and already has a great deal of experience adjusting the *language* used to describe their work to fit the sponsor's call.
 
 Given the current social justice climate in which we all operate, some readers will feel that inclusive language efforts are nowhere near enough to meet the moment.
 Others will feel like such efforts are way too much.
-While we can acknowledge both prespectives, it is worth considering that when we're accustomed to parroting the status quo, striving for more inclusive language can feel like oppression.
+While we can acknowledge both prespectives, it is worth considering that [when we're accustomed to parroting the status quo, ponder more inclusive language can feel like oppression](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662).
 
 Ever since adopting the practice myself, there isn't a week that goes by that I don't have the experience of questioning a term or phrase I am about to use.
 I often spend a few minutes searching the web to learn more about it.
@@ -82,9 +84,9 @@ But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://en.wikipedia.org/wiki/Rule_of_thumb) out there to sift through as well.
 
 If you've read this far, you may be asking yourself, how do I get started?
-I would suggest reading some of the resources offered here, especially [Plain Language](https://www.plainlanguage.gov/), [Google inclusive style](https://developers.google.com/style/inclusive-documentation), and [MicroSoft's Bias Free Communication](https://docs.microsoft.com/en-us/style-guide/bias-free-communication).
-In particular, if you are looking for *tooling* to help find and correct inclusive language issues ([Joanna Lee](https://github.com/joannalee333), a colleague on the [Inclusive Naming Initiative](https://inclusivenaming.org/), calls these *inclusivity bugs*) in your project, some of the resources listed here provide some tooling.
-That said, DevOps level tooling for inclusive language is still in its infancy stages.
+We suggest reading some of the resources listed here, especially [Plain Language](https://www.plainlanguage.gov/), [Google inclusive style](https://developers.google.com/style/inclusive-documentation), and [MicroSoft's Bias Free Communication](https://docs.microsoft.com/en-us/style-guide/bias-free-communication).
+In particular, if you are looking for *tooling* to help alert you to inclusive language issues ([Joanna Lee](https://github.com/joannalee333), a colleague on the [Inclusive Naming Initiative](https://inclusivenaming.org/), calls these *inclusivity bugs*) in your project, some of the resources listed here provide some on-line tooling.
+That said, DevOps-hardened tooling for inclusive language is still in its infancy stages.
 
 <sup>1</sup>The comet is named for Halley because it is believed he was the first to have estimated its orbit and based on that connected recorded observations from 1531, 1607 and 1682 as being the same celestial object from which he correctly predicted its return in 1758.
 
