@@ -5,7 +5,7 @@
 
  - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data, see image credit below.]
   
-#### Contributed by: Kate Keahey(https://github.com/keahey) and [Rinku Gupta](https://github.com/rinkug) 
+#### Contributed by: [Kate Keahey](https://github.com/keahey) and [Rinku Gupta](https://github.com/rinkug) 
 #### Publication Date: September 28, 2021
 
 In July 2021, the SoftwareX journal published a [special issue on gravitational waves and the software](https://www.sciencedirect.com/journal/softwarex/special-issue/103XKC9DRLV) that contributed to their detection. The editor, Kate Keahey, joined with colleagues to write an [introductory editorial](https://www.sciencedirect.com/science/article/pii/S2352711021000601) to that special issue. Kate kindly took time from her busy schedule to discuss with Rinku Gupta (Editor-in-chief of the BSSw.io website) her concern that society – researchers, funding agencies, academia – continues to fail to credit software as a major contributor to scientific discovery. 
