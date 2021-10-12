@@ -8,7 +8,7 @@
 
 #### Contributed by: [Keith Beattie](https://github.com/ksbeattie), [Gerasimos Chourdakis](https://github.com/MakisH), [Johanna Cohoon](https://github.com/jlcohoon), [Vadim Dyadechko](https://github.com/vdyadechko), [Nur Fadel](https://github.com/nuraiman), [Charles Ferenbaugh](https://github.com/cferenba), [Robert Jacob](https://github.com/rljacob), [Jay Lofstead](https://github.com/gflofst), [Reed Milewicz](https://github.com/rmmilewi), [David Moulton](https://github.com/jd-moulton), [Jacob Moxley](https://github.com/jmox0351), [Todd Munson](https://github.com/tmunson), [Sarah Osborn](https://github.com/osborn9), [Weslley Pereira](https://github.com/weslleyspereira), [Sameer Shende](https://github.com/sameershende), [Barry Smith](https://github.com/BarrySmith), [James Willenbring](https://github.com/jwillenbring), [Ulrike Meier Yang](https://github.com/ulrikeyang), [Sam Yates](https://github.com/halfflat), [Sarah Knepper](https://github.com/sknepper), [Lois Curfman McInnes](https://github.com/curfman), [Michael A. Heroux](https://github.com/maherou)
 
-#### Publication date: October ??, 2021
+#### Publication date: October 13, 2021
 
 ### Background: The Collegeville Workshop Series
 What do multi-million dollar HPC projects have in common with a PI and their soon-to-be graduating doctoral student? What are the most pressing concerns of teams on the bleeding edge of scientific discovery? The [Collegeville Workshop Series on Scientific Software](https://collegeville.github.io/CW21) brings together three communities of scientific software contributors: academia, industry, and laboratories.  While there are existing exchanges between these communities, this workshop series is dedicated to improving the awareness of common needs, unique contributions, and career paths. Workshop contributions include short white papers and video interviews. The three-day live event includes panels, small-group discussions, and teatime sessions for themed conversations. This blog is the second of three that summarize the output from the small-group discussions in 2021.
@@ -49,5 +49,5 @@ The workshop organizers and authors of this article thank all participants for c
 Publish: yes
 Pinned: no
 Topics: software process improvement, software engineering, projects and organizations, strategies for more effective teams, conferences and workshops
-RSS update: 2021-10-15
+RSS update: 2021-10-13
 --->
