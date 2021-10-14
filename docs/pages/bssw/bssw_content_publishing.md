@@ -48,7 +48,7 @@ The following steps assume that the BSSw editorial team has already determined t
 * Finalize the topic(s) and other parameters in metadata.
 * Ensure [`wikize_refs.py -i <base>.md`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy) is run and commit (if `wikize_refs.py` is being used).
 * Add the `preview` label to the PR (so PR branch will merge to 'preview' branch which is used to generate preview site).
-* Update and sanity check on preview site to confirm overall display ("publish: preview" in metadata).
-* Change "publish: yes" in metadata before merging the PR to 'master'.
+* Update and sanity check on preview site to confirm overall display.
+* Ensure that "publish: yes" in metadata before merging the PR to 'master'.
 
 {% include links.html %}
