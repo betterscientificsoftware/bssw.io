@@ -33,18 +33,18 @@ The easiest approach to writing metadata is to copy/paste the formatted example 
 Following is the set of metadata parameters used on the BSSw.io, currently.
 
 ### Publish
-This is used to decide if the content needs to be published, previewed or not on the BSSw front-end site.
+This is used to decide if the content needs to be published or not on the BSSw front-end site. 
 ````
-publish: preview
-
 publish: yes
 
 publish: no
 ````
-
-BSSw.io has a stand-alone website for previewing content before publishing. Using 'publish: preview' ensures that content is visible on the preview website and not on the main site.
-Only files designated as 'publish: yes' will be published on the front-end BSSw site. 
+Only files designated as 'publish: yes' (and merged in the master branch) will be published on the front-end BSSw site. 
 Work that has not been finalized or is not intended for the front-end site should be designated 'publish: no'. 
+
+Please note that BSSw.io has a stand-alone website for previewing content before publishing. To view data on preview site, please use the "preview" label in the pull request of that item and rebuild the preview site. For previewing purposes, the 'publish' metadata is ignored and only the preview label is considered.
+
+
 
 ### Pinned
 This is used to decide if a content needs to show up as "recommended", when a particular category or topic is selected. Recommended articles will show up on the top of the list of articles. Only 1-2 articles are supposed to be listed as "recommended" at a given time in each topic area. Selecting a category will show up all the recommended articles of all the topic areas that comprise that category.
