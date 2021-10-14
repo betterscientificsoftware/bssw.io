@@ -16,7 +16,7 @@ Input contributors on front-end
 
 <!--
 Contributor overrides:
-"vsoch", "Vanessasaurus", "Vanessa Sochat"
+"vsoch", "Sochat", "Vanessa Sochat"
 "nniiicc", "Weber", "Nic Weber"
 "gonsie", "Gonsiorowski"
 "npch", "Chue"
