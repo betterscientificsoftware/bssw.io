@@ -28,7 +28,7 @@
 
 # Panel: Sustainable Hybrid Approaches for HPC
 
-- Date: 2021-11-19
+- Date: 2021-11-18
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel011
 - Organizers: The IDEAS Productivity Project
@@ -41,10 +41,11 @@ This online panel session addresses challenges in working remotely, with emphasi
 Resource Information | Details
 :--- | :---			   
 Panel Title | Sustainable Hybrid Approaches for HPC
-Date and Time | Friday 2021-11-19  4:30pm-6:00pm WTZ 
+Date and Time | Thursday 2021-11-18  3:30pm-5:00pm CST *(corrected)* 
 Panelists | Sadaf R. Alam (Swiss National Supercomputing Centre (CSCS)), Christian Bischof (Technical University (TU) Darmstadt), Helen Cademartori (Lawrence Berkeley National Laboratory), Devin Hodge (Argonne National Laboratory), Kengo Nakajima (University of Tokyo), and Pat Quillen (Mathworks)
 Moderator | Elaine Raybourn (Sandia National Laboratories)
 Registration Link | 	<https://sc21.supercomputing.org/attend/register><br>*This panel discussion is part of the annual International Conference for High Performance Computing, Networking, Storage, and Analysis (SC21).  An appropriate conference registration is required to participate.*
+SC21 Program Page | <https://sc21.supercomputing.org/presentation/?id=pan125&sess=sess232>
 Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 ### Abstract
@@ -116,6 +117,7 @@ IDEAS-ECP productivity project.</p>
 
 <!---
 Publish: yes
+RSS update: 2021-10-15
 Categories: skills
 Topics: online learning
 Level: 2
