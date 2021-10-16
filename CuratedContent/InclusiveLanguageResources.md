@@ -1,4 +1,4 @@
-# How the Language We Use can Lead to Inclusivity Bugs
+# Inclusivity Bugs and the Language We Use
 <!--deck text start-->
 If we knew terms and phrases we commonly use such as, for example, *sanity check*,  *tipping point*, or *grandfathered* had the effect of normalizing or perpetuating historical systemic biases, would we still use them?
 <!--deck text end-->
@@ -23,12 +23,14 @@ Article title  | [Inclusive Naming Initiative](https://bssw.io/items/inclusive-n
 &nbsp; | [MicroSoft Office Inclusive Language Features](https://thenextweb.com/news/microsoft-office-can-help-you-write-with-inclusive-language-heres-how)
 &nbsp; | [Inclusive Lint](https://github.com/inclusivelint/inclusivelint)
 &nbsp; | [Gender Inclusive Language Manual](https://www.nato.int/nato_static_fl2014/assets/pictures/images_mfu/2021/5/pdf/210514-GIL-Manual_en.pdf)
+&nbsp; | [Inclusive Language And Design In Tech](https://www.forbes.com/sites/carolinamilanesi/2021/06/29/the-importance-of-inclusive-language-and-design-in-tech)
 Focus | Inclusive Practices
 
 When fist stepping on the Moon, Armstrong said *"This is a small step for a **man** but a giant leap for **man**kind."*
 Later that same Moonwalk, [he said](https://www.presidency.ucsb.edu/documents/telephone-conversation-with-the-apollo-11-astronauts-the-moon), *"It is a great honor...to be here representing...**men** of peaceable nations, **men** with an interest and a curiosity, and **men** with a vision for the future."*
+
 That sure doesn't read now nor did it sound at the time very much like space exploration included women.
-[Joanna Lee](https://github.com/joannalee333), a contributor to the [Inclusive Naming Initiative](https://inclusivenaming.org/), calls the use of language like this in software projects *inclusivity bugs*).
+[Joanna Lee](https://github.com/joannalee333), a contributor to the [Inclusive Naming Initiative](https://inclusivenaming.org/), calls the use of language that excludes whole groups of people like this *inclusivity bugs*.
 
 Regardless of how common-place any manner of speaking or turn of phrase is or may have been for its time, the example demonstrates how the language we use can manifest bias and wind up excluding whole groups of people.
 To help skeptics empathize, imagine if instead of a crew of all white, Christian men as the first Apollo mission was (maybe all Apollo missions), the first mission to Mars is crewed by all black, Muslim women and the first to walk on Mars says something like *"This is a small step for a woman but a giant leap for woman-kind...Allahu Akbar."*
@@ -77,11 +79,6 @@ The goal of inclusive language is to reduce the use of terms and phrases that wi
 It is not about being politically correct or being the language police.
 Its about being willing to acknowledge that certain terms and phrases (and, honestly, even names, icons and logos), however common in current culture, can be unnecessarily exclusive and being willing to consider and adopt alternatives that are less so.
 
-Given the current social justice climate in which we all operate, some readers will feel that inclusive language efforts are nowhere near enough to meet the moment and are really a [distraction](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) from bigger issues.
-Its hard to argue with that.
-Nonetheless, others will feel like such efforts are way too much.
-While we can acknowledge both prespectives, it is worth considering that [when we're accustomed to parroting the status quo, pausing to be more inclusive might feel like oppression](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662).
-
 If you've read this far, you may be asking yourself, how do I get started?
 We suggest reading some of the resources listed here, especially [Plain Language](https://www.plainlanguage.gov/), [Google inclusive style](https://developers.google.com/style/inclusive-documentation), and [MicroSoft's Bias Free Communication](https://docs.microsoft.com/en-us/style-guide/bias-free-communication).
 In particular, if you are looking for *tooling* to help alert you to inclusive language issues, some of the resources listed here provide tooling as a web service.
@@ -95,7 +92,7 @@ We hope the resources we have compiled here are useful to any readers who may be
 But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://www.nytimes.com/1998/01/25/magazine/on-language-misrule-of-thumb.html) out there to sift through as well.
 In addition, when you are seeking to learn more about any possible negative impacts of a given word or phrase, its best to seek opinions from experts *within* the groups most likely impacted.
-In other words, if a given phrase has potential negative impacts against blacks, then language experts within the black community will likely have the the most credible guidance.
+In other words, if a given phrase has potential negative impacts against blacks, then language experts within the black community will likely have the the most authoritative guidance.
 If a given phrase has potential negative impacts against the deaf, then language experts within the deaf community will likely have the most informed guidance.
 
 Finally, in seeking to fix inclusivity bugs, its important to take care that we don't introduce another kind of problem...excluding the use of perfectly acceptable language for no other reason than out of fear of looking bad or being labeled non-inclusive.
@@ -106,7 +103,13 @@ But, there is much less agreement, notably even within the black community, abou
 There are many uses of *master* that have no historical roots in oppresive or genocidal systems.
 These include such terms as *mastermind*, *postmaster*, *master key*, *master recording*, achieving *mastery* of a skill and even common tech terms like *webmaster* and *scrum master*.
 This issue garnered much attention when GitHub [announced](https://www.vice.com/en/article/k7qbyv/github-to-remove-masterslave-terminology-from-its-platform) it would change its *default* branch name (which most users simply adopt without question) from *master* to *main*.
-While this was a welcome change, its worth pointing out that the *default* language of a widely used resource such as git represents a massive proliferation potential and is a qualitatively different situation than the choices individual projects make.
+In that move it is worth pointing out that the *default* language of a widely used resource such as `git` is a significantly greater proliferation potential and represents a qualitatively different situation than the choices individual projects make.
+Furthermore, no project is prevented from using *master* as a `git` branch name if they choose.
+
+Given the current social justice climate in which we all operate, some readers will feel that inclusive language efforts are nowhere near enough to meet the moment and are really just a [distraction](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) from bigger issues.
+Its hard to argue with that.
+Nonetheless, others will feel like such efforts go way too far.
+While we can acknowledge both prespectives exist, it is worth remembering that [when we're accustomed to parroting the status quo, pausing to be more inclusive feels like oppression](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662).
 
 <sup>1</sup>The comet is named for Halley because it is believed he was the first to have estimated its orbit and based on that connected recorded observations from 1531, 1607 and 1682 as being the same celestial object from which he correctly predicted its return in 1758.
 
