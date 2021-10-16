@@ -95,7 +95,7 @@ We hope the resources we have compiled here are useful to any readers who may be
 But, beware.
 In seeking greater understanding of the history of terms and phrases you thought you knew, there is a lot of [misinformation](https://www.nytimes.com/1998/01/25/magazine/on-language-misrule-of-thumb.html) out there to sift through as well.
 In addition, when you are seeking to learn more about any possible negative impacts of a given word or phrase, its best to seek opinions from experts *within* the groups most likely impacted.
-In other words, if a given phrase has potential negative impacts against blacks, then language experts within the black community will likely have the the most informed guidance.
+In other words, if a given phrase has potential negative impacts against blacks, then language experts within the black community will likely have the the most credible guidance.
 If a given phrase has potential negative impacts against the deaf, then language experts within the deaf community will likely have the most informed guidance.
 
 Finally, in seeking to fix inclusivity bugs, its important to take care that we don't introduce another kind of problem...excluding the use of perfectly acceptable language for no other reason than out of fear of looking bad or being labeled non-inclusive.
