@@ -27,7 +27,7 @@ DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as we
 (and has been) refined and adapted as needed, as well as applied to other scenarios. For example, over time we 
 found it necessary to start interacting with speakers earlier, and adjust timelines accordingly.
 
-As of July 2020, the process described in the repository has been successful in delivering 35+ webinars since June 2017, with an average of 73 participants per webinar.
+As of October 2021, the process described in the repository has been successful in delivering 50 webinars since June 2017, with an average of 91 participants per webinar.
 
 #
 <!---
