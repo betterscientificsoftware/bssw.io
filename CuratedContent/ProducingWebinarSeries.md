@@ -7,7 +7,7 @@ HPC Best Practices Webinar Series.
 
 #### Contributed by [Osni Marques](http://github.com/oamarques)
 
-#### Publication date: July 5, 2020
+#### Publication date: October 25, 2021
 
 Resource information | Details 
 :--- | :--- 
@@ -29,10 +29,12 @@ found it necessary to start interacting with speakers earlier, and adjust timeli
 
 As of October 2021, the process described in the repository has been successful in delivering 50 webinars since June 2017, with an average of 91 participants per webinar.
 
+*This article was originally published on June 5, 2020.*
+
 #
 <!---
 Publish: yes
-RSS update: 2019-09-26
+RSS update: 2021-10-25
 Categories: collaboration
 Topics: online learning
 Tags:
