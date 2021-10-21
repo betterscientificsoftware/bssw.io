@@ -1,7 +1,3 @@
-
-
-
-
 # Best Practices for HPC Software Developers Webinar Series
 
 The HPC Best Practices (HPC-BP) webinars address issues faced by
@@ -30,7 +26,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2021-09-18*
+*Listed in reverse chronological order. Last updated: 2021-10-21*
 
 
 
@@ -38,6 +34,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Migrating to Heterogeneous Computing: Lessons Learned in the Sierra and El Capitan Centers of Excellence*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar057), David Richards (Lawrence Livermore National Laboratory), 2021-10-13
 
 
 
@@ -489,7 +493,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2021-09-18
+#### Publication date: 2021-10-21
 
 <!---
 Publish: yes
