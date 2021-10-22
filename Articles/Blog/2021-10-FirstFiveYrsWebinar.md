@@ -1,5 +1,10 @@
 # Best Practices for HPC Software Developers: The First Five Years of the Webinar Series
 
+**Hero Image:**
+
+ - <img src='../../images/Blog_2110_HPC-BP.png ' />
+
+
 #### Contributed by [Osni A. Marques](https://github.com/oamarques) and [David E. Bernholdt](https://github.com/bernhold)
 #### Publication date: October ??, 2021
 
