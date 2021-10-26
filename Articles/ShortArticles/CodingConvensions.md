@@ -6,7 +6,7 @@ Coding conventions are critical for fostering shared ownership of the codebase, 
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: October ???, 2021
+#### Publication date: October 31, 2021
 
 While there are a wide variety of "best practices" that can be adopted when developing a software project, an important subset includes *coding conventions*, which impact the internal source code in ways that generally do **not** influence the behavior of the software. Selecting, documenting, and implementing coding conventions are important parts of professional, productive, and healthy software projects.
 
