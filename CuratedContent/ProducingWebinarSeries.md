@@ -34,11 +34,7 @@ As of October 2021, the process described in the repository has been successful 
 #
 <!---
 Publish: yes
-RSS update: 2021-10-25
-Categories: collaboration
+Pinned: no
 Topics: online learning
-Tags:
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+RSS update: 2021-10-25
 --->
