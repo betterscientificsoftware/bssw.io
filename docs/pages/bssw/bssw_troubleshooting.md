@@ -18,7 +18,7 @@ Navigate to the contributors’ list via the GitHub repo bssw.io > Site > Contri
 **Step 2:** 
 Override the display name using the following format
 * Column 1: GH id or "-"
-* Column 2: Key for alphabetization (i.e. Last Name)
+* Column 2: Key for alphabetization (Many of our contributors have multiple words in their last name. Column2 indicates the word from the last name that needs to be alphabetized)
 * Column 3: Name to display. (If col 1 is "-" a name matching this column is alphabetized per col 2)
 
 For example: *"vsoch", "Sochat", "Vanessa Sochat"*
