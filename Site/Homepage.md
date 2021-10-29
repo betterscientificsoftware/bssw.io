@@ -17,7 +17,6 @@ Slide6 L: ../Events/2021-11-sc21-sw-events.md
 Slide6 R: ../Events/hpcbp-058-55plus-years-in-hpc.md
 Slide7 L: ../Events/swr-012-sustainablehybrid.md
 Slide7 R: ../Events/2022-01-SoftwareQualityDays.md
-
 --->
 
 <!---
