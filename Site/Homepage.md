@@ -3,6 +3,26 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
+Slide1 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
+Slide1 R: ../images/Blog_2110_HPC-BP.png
+Slide2 L: ../Articles/Blog/2021-10-CollegevilleReportDay2.md
+Slide2 R: ../images/Blog_2109_Collegeville1.png
+Slide3 L: ../ShortArticles/CodingConventions.md
+Slide3 R: ../CuratedContent/ProducingWebinarSeries.md
+Slide4 L: ../CuratedContent/ExecutableEnvironments.md
+Slide4 R: ../CuratedContent/SoftwareSustainabilityInstituteGuides.md
+Slide5 L: ../Articles/Blog/2021-08-IntegratingInterns.md
+Slide5 R: ../images/Blog_0821_Interns.png
+Slide6 L: ../Events/2021-11-sc21-sw-events.md
+Slide6 R: ../Events/hpcbp-058-55plus-years-in-hpc.md
+Slide7 L: ../Events/2021-10-ssi-fellowship.md
+Slide7 R: ../Events/swr-012-sustainablehybrid.md
+--->
+
+<!---
+Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
+LCM: Saving for use again later
+
 Slide1 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
 Slide1 R: ../images/Blog_2109_SX_OmicronA.png
 Slide2 L: ../Articles/Blog/2021-09-CollegevilleReportDay1.md
@@ -17,26 +37,6 @@ Slide6 L: ../Events/2021-10-XpertNetwork.md
 Slide6 R: ../Events/2021-10-wosss21.md
 Slide7 R: ../Events/hpcbp-057-sierra-and-elcapitan-coes.md
 Slide7 L: ../Events/2021-10-ssi-fellowship.md
---->
-
-<!---
-Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
-LCM: Saving for use again later
-
-Slide1 L: blog_posts/applications-open-for-the-2022-bssw-fellowship-program
-Slide1 R: images/raw/master/Blog_2108_FellowsAppOpen.png
-Slide2 L: blog_posts/effectively-integrating-interns-into-research-teams
-Slide2 R: images/raw/master/Blog_0821_Interns.png
-Slide3 L: blog_posts/2020-bssw-fellows-projects-and-perspectives
-Slide3 R: images/raw/master/Blog_0720_Fellows.png
-Slide4 L: blog_posts/improving-team-practices-with-rateyourproject-org
-Slide4 R: images/raw/master/Blog_0721_PSIPhero_b.png
-Slide5 L: blog_posts/e4s-extreme-scale-scientific-software-stack
-Slide5 R: items/inclusive-naming-initiative
-Slide6 L: items/debugging-books-to-help-you-get-started
-Slide6 R: items/the-10-best-practices-for-remote-software-engineering
-Slide7 L: events/webinar-what-i-learned-from-20-years-of-leading-open-source-projects
-Slide7 R: events/survey-on-testing-research-software
 
 --->
 
