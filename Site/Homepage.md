@@ -11,12 +11,13 @@ Slide3 L: ../ShortArticles/CodingConventions.md
 Slide3 R: ../CuratedContent/ProducingWebinarSeries.md
 Slide4 L: ../CuratedContent/ExecutableEnvironments.md
 Slide4 R: ../CuratedContent/SoftwareSustainabilityInstituteGuides.md
-Slide5 L: ../Articles/Blog/2021-08-IntegratingInterns.md
-Slide5 R: ../images/Blog_0821_Interns.png
+Slide5 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
+Slide5 R: ../images/Blog_2109_SX_OmicronA.png
 Slide6 L: ../Events/2021-11-sc21-sw-events.md
 Slide6 R: ../Events/hpcbp-058-55plus-years-in-hpc.md
-Slide7 L: ../Events/2021-10-ssi-fellowship.md
-Slide7 R: ../Events/swr-012-sustainablehybrid.md
+Slide7 L: ../Events/swr-012-sustainablehybrid.md
+Slide7 R: ../Events/2022-01-SoftwareQualityDays.md
+
 --->
 
 <!---
