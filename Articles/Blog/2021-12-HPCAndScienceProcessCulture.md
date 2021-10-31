@@ -1,10 +1,11 @@
 # HPC and Scientific Process Culture
 
-**Flash Center Simulations of Type Ia Detonation**
+**Hero Image:**
 
-<img src='../../images/gcd.png' />
+ - [Flash Center Simulations of Type Ia Detonation.]<img src='../../images/blog/2021-12-gcd.png' />
 
-#### Carlo Graziani
+#### Contributed by: [Carlo Graziani](https://github.com/CarloGraziani)
+#### Publication date: December 14, 2021
 
 ### Introduction: What's This About?
 
@@ -88,3 +89,8 @@ Carlo Graziani is a computational scientist at Argonne National Laboratory. He s
 [^3]: The coin of the realm.
 [^4]: Howard M. Kanare, *Writing the Laboratory Notebook* (American Chemical Society, Washington, D.C., ISBN-0-8412-0933-2), 1985. <https://files.eric.ed.gov/fulltext/ED344734.pdf>
 [^5]: If&mdash;ok, fine, when&mdash;the field of social psychology succeeds in dragging itself out of the [Reproducibility Crisis](https://www.wired.com/story/social-science-reproducibility/), I wouldn't be at all surprised if it turned out that a large part of the credit will be given to the invention, by a few scientists of vision, of their own peculiarly-adapted version of the lab notebook, and of the specialized management processes that produce it.
+
+<!---
+Publish: yes
+Topics: Projects and organizations, Software engineering
+--->
