@@ -92,5 +92,5 @@ Carlo Graziani is a computational scientist at Argonne National Laboratory. He s
 
 <!---
 Publish: yes
-Topics: Projects and organizations, Software engineering
+Topics: Strategies for more effective teams, Reproducibility
 --->
