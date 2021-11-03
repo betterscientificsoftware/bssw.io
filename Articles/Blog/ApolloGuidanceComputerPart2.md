@@ -39,7 +39,7 @@ AGC software would control everything. Even so-called manually controlled inputs
 pass through AGC software before affecting the relevant hardware making
 the Apollo spacecraft the first all-digital *fly-by-wire*<sup>[49]</sup> vehicles ever created.
 
-![](../../images/Blog_0619_agc_and_spacecraft3.png)
+![](../../images/Blog_0619_agc_and_spacecraft3_C.jpg)
 
 A challenge in developing the software was that all the GN&C subsystems
 pictured above were under development *simultaneously*
@@ -102,7 +102,7 @@ Combined Total | 22% of fixed memory | ~7775
 
 <br>
 
-![](../../images/Blog_0619_agc_sw_stack2.png)
+![](../../images/Blog_0619_agc_sw_stack2_B.jpg)
 
 These programs constituted what we might call today the *Apollo guidance software stack*.
 All were implemented in assembly language. By 1965, most of this code had been
@@ -150,7 +150,7 @@ the Moon's lump gravity field;<sup>[2],[3]</sup> and precision timing to coordin
 a planetary ballet of Earth, Moon, Sun and multiple spacecraft and the lines of sight
 of communications between them and mission control.
 
-![](../../images/Blog_0619_agc_major_modes.png)
+![](../../images/Blog_0619_agc_major_modes_B.jpg)
 
 ### Performance portability and the digital autopilot (DAP)
 
@@ -206,7 +206,7 @@ Five different levels of testing were developed.
   flights. Early missions included several objectives designed specifically to
   test AGC software.
 
-![](../../images/Blog_0619_agc_alldig_sim_compare.png)
+![](../../images/Blog_0619_agc_alldig_sim_compare_B.jpg)
 
 In the data pictured here, data from actual flight tests of the LM descent engine
 is compared with the all-digital simulation. The inner gimbal angle data agree reasonably
@@ -233,8 +233,6 @@ category shown below, left. Factoring out the *Computer* category used
 almost exclusively for testing, the adjusted, relative costs of the
 software development alone are shown below, right. To help keep documentation
 costs down, there was even a computer-automated documentation system developed.<sup>[43]</sup>
-
-![](../../images/Blog_0619_agc_sw_costs_combined.png)
 
 <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC software development costs by category: left includes test hardware costs and right with hardware costs factored out.]
 
