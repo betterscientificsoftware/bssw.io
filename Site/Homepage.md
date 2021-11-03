@@ -3,14 +3,14 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
-Slide1 R: ../images/Blog_2110_HPC-BP.png
-Slide2 L: ../Articles/Blog/2021-10-CollegevilleReportDay2.md
+Slide1 L: ../Articles/Blog/2021-11-CollegevilleReportDay3.md
 Slide2 R: ../images/Blog_2109_Collegeville1.png
+Slide3 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
+Slide4 R: ../images/Blog_2110_HPC-BP.png
 Slide3 L: ../ShortArticles/CodingConventions.md
 Slide3 R: ../CuratedContent/ProducingWebinarSeries.md
-Slide4 L: ../CuratedContent/ExecutableEnvironments.md
-Slide4 R: ../CuratedContent/SoftwareSustainabilityInstituteGuides.md
+Slide4 L: ../Articles/Blog/2021-10-CollegevilleReportDay2.md
+Slide4 R: ../images/Blog_2109_Collegeville1.png
 Slide5 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
 Slide5 R: ../images/Blog_2109_SX_OmicronA.png
 Slide6 L: ../Events/2021-11-sc21-sw-events.md
