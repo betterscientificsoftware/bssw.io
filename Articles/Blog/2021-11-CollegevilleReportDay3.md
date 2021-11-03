@@ -46,6 +46,13 @@ Day 3 discussions at the Collegeville 2021 Workshop represent the input of a div
 ### Acknowledgements
 The workshop organizers and authors of this article thank all participants for contributions to workshop discussions.
 
+---
+
+[Part 1](https://bssw.io/blog_posts/software-team-experiences-and-challenges-a-report-from-day-1-of-the-2021-collegeville-workshop-on-scientific-software) | [Part 2](https://bssw.io/blog_posts/software-team-experiences-and-challenges-a-report-from-day-2-of-the-2021-collegeville-workshop-on-scientific-software) | Part 3
+
+<br>
+
+
 <!---
 Publish: yes
 Pinned: no
