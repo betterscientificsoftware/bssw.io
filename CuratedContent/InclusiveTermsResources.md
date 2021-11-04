@@ -65,6 +65,91 @@ Focus | Best practices
 
 The Kubernetes Project's naming working group on GitHub tackles the problem of inclusive language within the project itself. Although this GitHub repository focuses on a specific project, the recommendations provided can serve any type of inclusivity, and serve as a hub for future reference. 
 
+Resource information | Details
+:--- | :---
+Resource name | Plain Language Action and Information Network (PLAIN)
+Website | https://www.plainlanguage.gov/
+Focus | Writing for public consumption
+
+The Plain Language Action and Information Network (PLAIN) aim is to make it easier for the public to read, understand, and use government communications.
+Many of the same principles apply to software project communications.
+
+Resource information | Details
+:--- | :---
+Resource name | Microsoft's Bias Free Communication
+Website | https://docs.microsoft.com/en-us/style-guide/bias-free-communication
+Focus | Inclusive Communication
+
+Microsoft technology reaches every part of the globe, so it's critical that all their communications are inclusive and diverse.
+Microsoft has several, short, focused blog posts on the topic you can find from this article.
+
+Resource information | Details
+:--- | :---
+Resource name | Say This, Not That: A Guide for Inclusive Language
+Website | https://thediversitymovement.com/say-this-not-that-a-guide-for-inclusive-language/
+Focus | Inclusive Communication
+
+An article on [The Diversity Movement](https://thediversitymovement.com) for some simple dos and don'ts in common language usage.
+
+Resource information | Details
+:--- | :---
+Resource name | Effectively naming software thingies
+Website | https://medium.com/@rabinovichsagi/effectively-naming-software-thingies-fcea9d78a699
+Focus | Best Practices
+
+An indepth article focused on the naming of various components in software projects.
+Includes issues such as having similar named objects which can be easily confused.
+Might be worth a look for more resources regarding naming to improve distinguishability for neurodiverse people (e.g. dyslexia).
+
+Resource information | Details
+:--- | :---
+Resource name | 8 Resources to Use to Ensure You're Using Inclusive Language
+Website | https://blog.hubspot.com/marketing/tools-inclusive-language
+Focus | Resource of resources
+
+A short article with pointers to a number of resources for inclusive language.
+
+Resource information | Details
+:--- | :---
+Resource name | These 7 Online Tools Check Your Writing For Empathy And Inclusivity
+Website | https://www.fastcompany.com/3053713/these-7-online-tools-check-your-writing-for-empathy-and-inclusivity
+Focus | Remote Tooling
+
+For many of these tools, the user can cut-n-paste text into a window and get suggestions for improving inclusive language similar to a grammar or spell checker.
+
+Resource information | Details
+:--- | :---
+Resource name | Microsoft Office can help you write with inclusive language — here’s how
+Website | https://thenextweb.com/news/microsoft-office-can-help-you-write-with-inclusive-language-heres-how
+Focus | Office 365 Features for inclusive writing
+
+Explains how to access and use some features of Office 365 that support inclusive language.
+
+Resource information | Details
+:--- | :---
+Resource name | Inclusive Lint
+Website | https://github.com/inclusivelint/inclusivelint
+Focus | Local Tooling
+
+This is a linter-like tool for checking text files for inclusive language.
+
+Resource information | Details
+:--- | :---
+Resource name | NATO Gender-Inclusive Language Manual
+Website | https://www.nato.int/nato_static_fl2014/assets/pictures/images_mfu/2021/5/pdf/210514-GIL-Manual_en.pdf
+Focus | Best Practices
+
+This is a long PDF file but the guidance snipits are short and sweet.
+There is a lot of motivation and images that support various of the principles and language recommendations.
+
+Resource information | Details
+:--- | :---
+Resource name | Inclusive Language And Design In Tech
+Website | https://www.forbes.com/sites/carolinamilanesi/2021/06/29/the-importance-of-inclusive-language-and-design-in-tech
+Focus | Best Practices
+
+Motivation for why inclusive language is needed in technology products including even the design of products, not just communication *about* technology products.
+
 <!---
 Publish: yes
 Pinned: no
