@@ -36,6 +36,11 @@ document. Items in the list of references link off-page to their
 intended destinations. The resulting file is still GitHub flavored
 Markdown with a minimal amount of embedded HTML.
 
+To create just simple, ordinary footnotes (e.g. not reference style
+links) using the same machinery, ensure the URL portion of the
+reference link is just the hashtag/pound character ('#') and then
+enclose the footnote text in double quotes.
+
 If the file contains no footnotes, it will be left unchanged.
 Some minimal error checks include: a) there is an existing link
 definition for every footnote and b) every link definition appears
@@ -604,10 +609,16 @@ def build_reference_list_lines(remapped_ref_map, renumber, twocol):
                 else:
                     outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
             elif v[1]: # only title exists
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[1]))
+                if v[0] == '#':
+                    if twocol:
+                        outlines.append("<sup>%s</sup><a name=\"%s-%s\"></a>%s\n"%(v3, magic(), v3, v[1]))
+                    else:
+                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>%s\n"%(magic(), v3, v3, v[1]))
                 else:
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
+                    if twocol:
+                        outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[1]))
+                    else:
+                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
             elif v[2]: # only bibinfo exists
                 if twocol:
                     outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[2]))
