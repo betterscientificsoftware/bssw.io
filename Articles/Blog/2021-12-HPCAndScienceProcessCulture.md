@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - [Flash Center Simulations of Type Ia Detonation.]<img src='../../images/blog/2021-12-gcd.png' />
+ - [Flash Center Simulations of Type Ia Detonation.]<img src='../../images/Blog_2111_HPC_LM.png' />
 
 #### Contributed by: [Carlo Graziani](https://github.com/CarloGraziani)
 #### Publication date: December 19, 2021
