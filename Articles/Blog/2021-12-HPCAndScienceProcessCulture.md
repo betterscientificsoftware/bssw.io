@@ -83,13 +83,15 @@ So I guess the question that I've raised in this essay is: "Is Scientific HPC A 
 
 Carlo Graziani is a computational scientist at Argonne National Laboratory. He started out as an astrophysicist and still dabbles in the stuff, as well as in FLASH simulations, but he mostly works on machine learning and uncertainty quantification (defined as "statistics funded by the US Department of Energy"), in applications that range from weather forecasting to plasma physics to COVID-19 modeling.
 
+### References
 
 <div class="references-wrapper">
 <div class="references">
-#sfer-ezikiw-1 <a>The beginnings of open-science HPC as a sustained activity&mdash;as distinct from classified science HPC conducted at US DOE national labs&mdash;can probably be dated to DOE's ASC Alliance program in the late 1990s.</a>
-#sfer-ezikiw-2 <a>*Continuing to accomplish them for 25 years*&mdash;the FLASH code is a workhorse of computational fluid dynamics with an enormous user community to this day&mdash;well, that takes us beyond the narrative in this essay, but phrases such as "tour de force" strike me as too weak to suit the case.</a>
-#sfer-ezikiw-4 <a>Howard M. Kanare, *Writing the Laboratory Notebook* (American Chemical Society, Washington, D.C., ISBN-0-8412-0933-2), 1985.</a><a href=https://files.eric.ed.gov/fulltext/ED344734.pdf></a>
-#sfer-ezikiw-5 <a>If&mdash;ok, fine, when&mdash;the field of social psychology succeeds in dragging itself out of the </a><a href=https://www.wired.com/story/social-science-reproducibility/>Reproducibility Crisis</a><a>, I wouldn't be at all surprised if it turned out that a large part of the credit will be given to the invention, by a few scientists of vision, of their own peculiarly-adapted version of the lab notebook, and of the specialized management processes that produce it.</a>
+<a>The beginnings of open-science HPC as a sustained activity&mdash;as distinct from classified science HPC conducted at US DOE national labs&mdash;can probably be dated to DOE's ASC Alliance program in the late 1990s.</a>
+<a>*Continuing to accomplish them for 25 years*&mdash;the FLASH code is a workhorse of computational fluid dynamics with an enormous user community to this day&mdash;well, that takes us beyond the narrative in this essay, but phrases such as "tour de force" strike me as too weak to suit the case.</a>
+<a>The coin of the realm.</a>
+<a>Howard M. Kanare, *Writing the Laboratory Notebook* (American Chemical Society, Washington, D.C., ISBN-0-8412-0933-2), 1985.</a><a href=https://files.eric.ed.gov/fulltext/ED344734.pdf></a>
+<a>If&mdash;ok, fine, when&mdash;the field of social psychology succeeds in dragging itself out of the </a><a href=https://www.wired.com/story/social-science-reproducibility/>Reproducibility Crisis</a><a>, I wouldn't be at all surprised if it turned out that a large part of the credit will be given to the invention, by a few scientists of vision, of their own peculiarly-adapted version of the lab notebook, and of the specialized management processes that produce it.</a>
 </div>
 </div>
 
