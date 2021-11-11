@@ -189,14 +189,56 @@ ToDo: Finish this section!
 
 ## CII Best Practices as a learning tool
 
-Blah blah blah ...
+As of this writing, there are current unique 129 best practices listed across the three levels in a wide number of categories.
+Many of these items have detailed explanatory descriptions and the descriptions link to more information.
+Just carefully reading through all of these practices and their descriptions and following a few of the links can take halve a day or more.
+And this material and the material being linked to provides what is considered the state-of-the-art in each area in the open source community.
+Therefore, the CII Best Practices can serve as an effective learning tool for the state of the art in software engineering best practices.
+
+Even if one has been in the software engineering and open source area for many years, one may not be aware of what is considered the current state-of-the-art and best practice.
+For example, for many years Contributor License Agreements (CLAs) were considered best practice and the recommended way for open source projects to manage IP and copyright issues related to contributions from different individuals and organizations.
+But apprehension on the part of various institutions to sign CLAs and other practical experience CLAs have lead to the usage of a Developer Certificate of Origin (DCO) to manage these issues instead <sup>[[dco]]</sup>.
+And therefore, currently DCO are considered the more recommended practice.
+Without a resource like the CII Best Practices, it would be very hard for many projects gain this type of knowledge in such a compact manner.
 
 
 <a name="continuous_improvement"/>
 
-## CII Best Practices as a roadmap for continuous improvement
+## CII Best Practices as a road-map for continuous improvement
 
-Blah blah blah ...
+As described above, the Badge App site provides the current status a percentage completion to the next badge for a given project.
+This percentage completion and the number of satisfied practices in each area provides a simple metric and a motivator for improvement for the project.
+For example, if a project is currently at 86% of completion for a Passing badge and has only 8 of the 13 Quality practices, then it is clear where to look at where to improve.
+
+Also, the Badge App site is set up to send out regular reminders about the status of one's project and provide encouragement to continue making progress.
+For example, below is an email what was sent out by the Badge App for the TriBITS project:
+
+----
+
+From: badgeapp@bestpractices.coreinfrastructure.org <badgeapp@bestpractices.coreinfrastructure.org> 
+Sent: Saturday, September 11, 2021 7:00 PM
+To: Bartlett, Roscoe A <rabartl@sandia.gov>
+Subject: [EXTERNAL] Your project does not yet have the "best practices" badge
+
+**Automated Best Practices Badge Reminder for TriBITS Core**
+
+This is an automated reminder that your project "TriBITS Core" does not currently have a "best practices" badge, and its badge entry has not been updated in a while. 
+
+Your best practices badge entry is at https://bestpractices.coreinfrastructure.org/en/projects/4839 and was last updated on 2021-06-24 15:08:41 UTC. It is currently at 99% (out of 100%). 
+
+We encourage you to keep making progress. Please visit your badge entry at https://bestpractices.coreinfrastructure.org/en/projects/4839 to complete the information and get your badge! 
+
+If you want to see only what you're missing, visit your badge entry, select the button near the top labelled "Expand all panels", and then select the button near the top labelled "Hide met or N/A criteria". If you have questions, or need help, please contact cii-badges-questions-owner@lists.coreinfrastructure.org or file an issue at https://github.com/coreinfrastructure/best-practices-badge/issues (click on "new issue"). 
+
+We don't send reminders if you continue to update your badge entry, and we only send reminders approximately every 30-60 days. However, if you want to disable these reminder messages, edit your badge entry at https://bestpractices.coreinfrastructure.org/en/projects/4839#project_disabled_reminders to turn on "disable inactivity reminder". Be sure to edit the project entry, don't just display it, if you want to change whether or not you'll receive an inactivity reminder. We hope you'll instead keep working at it and eventually earn the badge. 
+
+Thank you for your time. 
+
+--- David A. Wheeler, CII Best Practices Badge Technical Lead 
+
+----
+
+I personally found the reminder helpful and it eas 
 
 
 <a name="standard_project_index"/>
@@ -249,6 +291,7 @@ ToDo: Describe:
 [interact]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact
 [contribution]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution
 [contribution_requirements]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements
+[dco]: https://bestpractices.coreinfrastructure.org/en/criteria#1.dco
 
 
 <!---
