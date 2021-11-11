@@ -1,13 +1,21 @@
-# Inclusive Terminology Resources
+# Inclusive Langauge Resources
 
 <!--deck text start-->
-
+If we knew terms and phrases we commonly use such as, for example, *sanity check*, *grandfathered* or *low man on the totem pole* had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
 <!--deck text end-->
 
-#### Contributed by
+#### Contributed by: [Kasia Salim](https://github.com/karbarz) and [Mark Miller](https://github.com/markcmiller86)
 #### Publication date:
 
-Below is a growing list of resources associated with inclusive naming.
+There is probably no other human endeavor that involves the volume of communication paired with creation of new *terminology* than software development.
+If we care about our project's reach and maximizing our ability to attract and retain collaborators, developers, users or sponsors, then we need to be mindful of the names and language we use.
+That is because the language we use has the power to welcome others in as well as push them away.
+
+We are gathering here a growing list of inclusive language resources.
+Some of the resources here are concerned more with the *principles* of inclusive language wherease others are more concerned with the *practice* and, in particular, identifying some of the more egregious terms in current use (e.g. *master/slave*) and proposing suitable replacement terms.
+That said, DevOps hardened tooling on par with linters, spelling or grammar checkers, is still in its infancy.
+
+#### Resources
 
 Resource information | Details
 :--- | :--- 
