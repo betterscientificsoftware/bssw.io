@@ -1,7 +1,7 @@
 # Inclusive Langauge Resources
 
 <!--deck text start-->
-If we knew terms and phrases we commonly use such as, for example, *sanity check*, *grandfathered* or *low man on the totem pole* had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
+If we knew terms and phrases we commonly use such as, for example, *sanity check*, *grandfathered* or *Guru* had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
 <!--deck text end-->
 
 #### Contributed by: [Kasia Salim](https://github.com/karbarz) and [Mark Miller](https://github.com/markcmiller86)
