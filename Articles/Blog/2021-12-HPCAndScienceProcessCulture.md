@@ -101,7 +101,7 @@ Topics: Strategies for more effective teams, Reproducibility
 [4]: #sfer-ezikiw-4 "Howard M. Kanare, *Writing the Laboratory Notebook* (American Chemical Society, Washington, D.C., ISBN-0-8412-0933-2), 1985. <https://files.eric.ed.gov/fulltext/ED344734.pdf>"
 [5]: #sfer-ezikiw-5 "If&mdash;ok, fine, when&mdash;the field of social psychology succeeds in dragging itself out of the [Reproducibility Crisis](https://www.wired.com/story/social-science-reproducibility/), I wouldn't be at all surprised if it turned out that a large part of the credit will be given to the invention, by a few scientists of vision, of their own peculiarly-adapted version of the lab notebook, and of the specialized management processes that produce it."
 <!-- (sfer-ezikiw begin) -->
-### References
+### Notes
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>The beginnings of open-science HPC as a sustained activity&mdash;as distinct from classified science HPC conducted at US DOE national labs&mdash;can probably be dated to DOE's ASC Alliance program in the late 1990s.
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>*Continuing to accomplish them for 25 years*&mdash;the FLASH code is a workhorse of computational fluid dynamics with an enormous user community to this day&mdash;well, that takes us beyond the narrative in this essay, but phrases such as "tour de force" strike me as too weak to suit the case.
