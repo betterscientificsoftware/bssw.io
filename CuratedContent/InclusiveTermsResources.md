@@ -72,15 +72,6 @@ This portion of the guide encourages developers to handle inclusivity through va
 
 Resource information | Details
 :--- | :---
-Resource name | Kubernetes Naming Working Group
-Website | [https://github.com/kubernetes/community/tree/master/wg-naming](https://github.com/kubernetes/community/tree/master/wg-naming)
-Focus | Best practices
-
-The Kubernetes Project's naming working group on GitHub tackles the problem of inclusive language within the project itself.
-Although this GitHub repository focuses on a specific project, the recommendations provided can serve any type of inclusivity, and serve as a hub for future reference. 
-
-Resource information | Details
-:--- | :---
 Resource name | Plain Language Action and Information Network (PLAIN)
 Website | https://www.plainlanguage.gov/
 Focus | Writing for public consumption
