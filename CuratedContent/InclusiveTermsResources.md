@@ -11,9 +11,13 @@ There is probably no other human endeavor that involves the volume of communicat
 If we care about our project's reach and maximizing our ability to attract and retain collaborators, developers, users or sponsors, then we need to be mindful of the names and language we use.
 That is because the language we use has the power to welcome others in as well as push them away.
 
+In addtion, the inclusive language movement also recognizes and has many examples of and arguments for the fact that often terminology in current use either does a poor job of conveying purpose or meaning or is highly dependent on cultural context to interpret.
+
 We are gathering here a growing list of inclusive language resources.
 Some of the resources here are concerned more with the *principles* of inclusive language wherease others are more concerned with the *practice* and, in particular, identifying some of the more egregious terms in current use (e.g. *master/slave*) and proposing suitable replacement terms.
 That said, DevOps hardened tooling on par with linters, spelling or grammar checkers, is still in its infancy.
+
+The resources here run the gamut from 
 
 #### Resources
 
@@ -154,6 +158,15 @@ Website | https://www.forbes.com/sites/carolinamilanesi/2021/06/29/the-importanc
 Focus | Best Practices
 
 Motivation for why inclusive language is needed in technology products including even the design of products, not just communication *about* technology products.
+
+Resource information | Details
+:--- | :---
+Resource name | INCITS Inclusive Terminology Guidelines
+Website | https://standards.incits.org/apps/group_public/document.php?document_id=131788&wg_abbrev=resources
+Focus | Best Practices
+
+The InterNational Committee for Information Technology Standards (INCITS) recently published a set of principles for inclusive language as well as lists of commonly used terms and phrases that may present barriers to inclusion.
+For term or phrase, examples of use are given along with proposed replacement terms and rationale for replacement. 
 
 <!---
 Publish: yes
