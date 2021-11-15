@@ -1,4 +1,4 @@
-# HPC and The Lab Manager
+# HPC and the Lab Manager
 
 **Hero Image:**
 
@@ -7,13 +7,13 @@
 #### Contributed by: [Carlo Graziani](https://github.com/CarloGraziani)
 #### Publication date: December 19, 2021
 
-### Introduction: What's This About?
+### Introduction: What's this about?
 
-Although it seems to us in 20201 as though scientific high-performance computing (HPC) has been around for a while, it's actually a fairly young field. As a matter of fact, it's several young fields&mdash;computational astrophysics, computational chemistry, computational genomics, high-performance machine-learning/uncertainty quantification, and many more. These fields, on close examination, have not really stabilized or optimized their collaborative processes in a manner analogous to that of more mature, "classical" sciences. As a consequence, valuable science is often needlessly lost, or left uncollected. I believe that this situation is likely to change as these fields grow up, and assimilate or adapt management practices characteristic of mature collaborative sciences. In particular, a new key role is likely to be formalized in HPC collaborations, analogous to the lab manager of chemistry labs. In this essay I will refer to this role as the *operations manager*.
+Although it seems to us in 20201 as though scientific high-performance computing (HPC) has been around for a while, it's actually a fairly young field. As a matter of fact, it's several young fields&mdash;computational astrophysics, computational chemistry, computational genomics, high-performance machine-learning, uncertainty quantification, and many more. These fields, on close examination, have not really stabilized or optimized their collaborative processes in a manner analogous to that of more mature, "classical" sciences. As a consequence, valuable science is often needlessly lost, or left uncollected. I believe that this situation is likely to change as these fields grow up, and assimilate or adapt management practices characteristic of mature collaborative sciences. In particular, a new key role is likely to be formalized in HPC collaborations, analogous to the lab manager of chemistry labs. In this essay I will refer to this role as the *operations manager*.
 
 I describe below some observations of these matters, harvested from a 15-year personal journey through HPC, and matured through reflections, discussions, and (as some of my long-suffering friends are aware) occasional rants. As I wrote this, I became aware that in some sense I was emulating a model that I admire in Eric Raymond's, *[The Cathedral and The Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/)*. Raymond's essay brilliantly explained the open source community to itself through a mixture of personal narrative, technical explanation, and meditation. My own chosen scope is certainly narrower than Raymond's, and I have no hope of matching his style, but I do think that I've noticed some unexamined traits of scientific HPC that are overdue for some kind of analysis. A *Cathedral*-style essay is not a bad model for such a project.  The result is probably long enough to trigger the TL;DR reflex of some of this blog's readership, for which I apologize in advance. For the rest of you, I will try to keep things as breezy and readable as I can.  
 
-### Birth Pangs of Scientific HPC
+### Birth pangs of scientific HPC
 
 The late 1990s were the early days of open-science HPC,<sup>[1]</sup> when application scientists piled into the new field, eager to run their codes on the amazing new machines that were appearing on compute center floors. As a cohort, this was a very computationally-literate group of people. Many of them had trained themselves since graduate school not only in the arcana of nuclear astrophysics or gauge field theory, but also on SIMD programming, MPI, and cache management (and earlier on vectorization, RISC, and other transient fashions of go-fast computing). They brought with them codes that they had been developing since their graduate school days. Many of these codes would be regarded as cringe-worthy by professional computer scientists&mdash;some were flagrantly transliterated Fortran IV, many contained illegible, unmaintainable, uncommunicable algorithms, and there was an obvious self-taught character to much of it. But it worked, gave journal-grade scientific results, and ran fast. Who needed pretty?  
 
@@ -31,7 +31,7 @@ The very considerable credibility of Center's science studies depended criticall
 
 I joined the Center after working in high-energy astrophysics on a NASA space astrophysics mission. I was therefore somewhat accustomed to working in scientific collaborations. But, the nature and pace of the collaboration inside the FLASH center was very different from anything that I had experienced before. The team was composed of physicists, astrophysicists, applied math people, code people, about 20 in all, in separate groups. All team members had their specialties, but all had basic literacy in every part of the project: not only did our astrophysicists understand the nuances of memory management, but our coders knew why it was physically important to get the turbulent nuclear flame speed right, and the applied math folks could install memory in compute clusters without electrocuting themselves. Most important was a shared goal: getting and publishing valid science. Possibly the most important "secret" of the FLASH code's success was that the Flash Center "ate its own dog food"&mdash;we didn't just write a code for others to use, we made sure we could use it ourselves.
 
-### Simulation Campaigns
+### Simulation campaigns
 
 The Center was in the process of running heroic-sized (for the time) 3-dimensional simulations of burning white dwarfs, to validate a clever new model for how SNIa explode. The simulations were running on *Unclassified Purple* (*Up*), a big machine at Lawrence Livermore National Lab (LLNL). Each day, the entire team would get together in a large conference room to review results, discuss the health of running simulations, and whether parameter or code changes might be necessary at the next restart.
 
@@ -41,7 +41,7 @@ In the event, all went well. The campaign was a success, and led to the first of
 
 I was pretty proud of myself: I had re-invented the lab notebook!  
 
-### Lab Notebooks and Lab Managers (Or, How Not To Get Yourself Fired From Most Scientific Labs)
+### Lab notebooks and lab managers (or, how not to get yourself fired from most scientific labs)
 
 Lab notebooks are a pretty ancient and standard practice in science. Individual scientists have been using them forever to record their findings (Leonardo Da Vinci's are a famous example). Laboratory collaborations *insist* on proper lab notebooks, drilling fledgling scientists from their earliest days in graduate school on recording procedures as a key part of their professional preparation.  The standard is pretty exacting: in *Writing The Laboratory Notebook*, Howard Kanare states that the quality criterion for a recorded note in a lab notebook is "...to write with enough detail and clarity that another scientist could pick up the notebook at some time in the future, repeat the work based on the written descriptions, and make the same observations that were originally recorded. If this guideline is followed, even the original author will be able to understand the notes when looking back on them after considerable time has passed!"<sup>[4]</sup>  
 
@@ -49,7 +49,7 @@ A lab bench worker can literally be fired on the spot for mishandling lab notebo
 
 Even in non-lab-bench sciences, such as astronomy, an analogous management structure is now standard. On the space astrophysics mission that I used to be part of, there was a guy named Geoff. Geoff had several jobs (we all did, it was a bit of a shoestring operation) but one of them was as a sort of operations manager. He would set up disk space, filesystems, software, pipelines, documentation. He would also tell us how he expected us to write our code, where he expected us to place different kinds of output, where data would show up, various standards and technical expectations, and so on. Geoff was smart and funny, but, not to put too fine a point on it, he could also be a pain in the ass if you started crossing his lines. After a while, though, you started to realize that you didn't *want* to cross his lines, that it was *stupid* to try to do so, because everything in the collaboration was just easier if you did everything the way he told you to, and it was easy to make a mess if you didn't. So we stayed inside his lines, and those lines were an important reason for the success of the mission.  He was our equivalent of a lab manager, even though he wasn't called that.  Large ground-based astronomy operations have comparable roles. I've spoken to colleagues in the *Sloan Digital Sky Survey* and the *Dark Energy Survey*. Both of those had a "Data Czar", a "Thou Shalt" person, who made technical choices for everyone.  Obviously, it is a good idea to choose such a person very carefully.  
 
-### Wheel Re-Inventors
+### Wheel re-inventors
 
 My *Seaborg* campaign was pretty successful, and led to further scientific exploration of the Center's SNIa explosion model. At the same time I got my scripts included and distributed with the FLASH code as part of the code tools. But when I started talking them up, I made a discovery that should have been entirely unsurprising: my self-auditing system was hardly novel at all. In fact, almost every young-ish computational scientist that I talked to who had ridden herd on a sim campaign had come up with some kind of analogous system. Features differed, data organization was all *sui generis*, but by-and-large, everybody was solving the same problem. It was part II of Kanare's observation: you want to be able to figure out what you did a few weeks or months later, when you had no hope of retrieving it from wetware memory.  It drove lots of people to improvise computational science lab notebooks.  Mine must have been the dozenth (or more) re-invention of the same damn wheel by an exasperated simulation swineherd trying to keep tabs on his burgeoning flock. This was more than a little annoying to me.  Why was it that I had had to program my own notebook then? If this wheel keeps getting re-invented in all kinds of shapes, why didn't the best one get rolled out and deployed as a tool, so that we could stop wasting effort on amateur-hour tool design, and just get on with our work?  
 
@@ -65,7 +65,7 @@ And, so far as I'm aware, the "lab manager" view of HPC collaboration has not re
 
 Alternatively, one can imagine that things are about to get better.  
 
-### Maturity of Scientific HPC: Enter The Operations Manager
+### Maturity of scientific HPC: Enter the operations manager
 
 OK, so let me try and draw together a few conclusions that I think I can distill from the above narrative.  
 
