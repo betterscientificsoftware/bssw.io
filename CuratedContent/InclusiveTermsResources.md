@@ -168,6 +168,14 @@ Focus | Best Practices
 The InterNational Committee for Information Technology Standards (INCITS) recently published a set of principles for inclusive language as well as lists of commonly used terms and phrases that may present barriers to inclusion.
 For term or phrase, examples of use are given along with proposed replacement terms and rationale for replacement. 
 
+Resource information | Details
+:--- | :---
+Resource name | IETF Terminology, Power and Inclusive Language
+Website | https://tools.ietf.org/id/draft-knodel-terminology-02.html
+Focus | Best Practices
+
+The Internet Engineering Task Force (IETF) has published this resource to recommend language used in *Request For Comment (RFC)* communications.
+
 <!---
 Publish: yes
 Pinned: no
