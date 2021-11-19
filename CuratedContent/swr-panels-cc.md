@@ -34,10 +34,12 @@ required for each panel.
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Panels
-*Listed in reverse chronological order. Last updated: 2021-10-01*
+*Listed in reverse chronological order. Last updated: 2021-11-19*
 
 
 
+- *[Sustainable Hybrid Approaches for HPC](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel012)*, Sadaf R. Alam (Swiss National Supercomputing Centre (CSCS)), Christian Bischof (Technical University (TU) Darmstadt), Helen Cademartori (Lawrence Berkeley National Laboratory), Devin Hodge (Argonne National Laboratory), Kengo Nakajima (University of Tokyo), and Pat Quillen (Mathworks), 2021-11-18
+- *[Effective Teaming and Virtual Collaboration](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel011)*, Nancy Cooke (Arizona State University), Gary Olson (University of California, Irvine), Elaine Raybourn (Sandia National Laboratories), and Francesca Poli (Oppenheimer Science and Energy Leadership Program), 2021-10-13
 - *[Training Virtualization](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel010)*, Kelly Barnes (The Carpentries), Helen He (NERSC and Lawrence Berkeley National Laboratory), Julia Levites (Nvidia Corporation), and Thomas Papatheodore (OLCF and Oak Ridge National Laboratory), 2021-09-23
 - *[I Finally Have the Internship I Always Wanted, Now What?](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel009)*, Dorian Arnold (Emory University), Rebecca Hartman-Baker (Lawrence Berkeley National Laboratory), Christine Harvey (The MITRE Corporation), and Jay Lofstead (Sandia National Laboratories), 2021-06-24
 - *[How Does Remote Work Impact Creativity and Innovation?](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008)*, Addi Thakur Malviya (Oak Ridge National Laboratory), Pat Quillen (Mathworks), Elaine Raybourn (Sandia National Laboratories), Damian Rouson (Sourcery Institute), and Francesca Samsel (TACC (Texas Advanced Computing Center) and University of Texas at Austin), 2021-03-25
@@ -51,7 +53,7 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 #### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
-#### Publication date: 2021-10-01
+#### Publication date: 2021-11-19
 
 <!---
 Publish: yes
