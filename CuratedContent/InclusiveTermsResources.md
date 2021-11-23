@@ -5,7 +5,7 @@ If we knew terms and phrases we commonly use such as, for example, *sanity check
 <!--deck text end-->
 
 #### Contributed by: [Kasia Salim](https://github.com/karbarz) and [Mark Miller](https://github.com/markcmiller86)
-#### Publication date:
+#### Publication date: November 22, 2021
 
 There is probably no other human endeavor that involves the volume of communication paired with creation of new *terminology* than software development.
 If we care about our project's reach and maximizing our ability to attract and retain collaborators, developers, users or sponsors, then we need to be mindful of the names and language we use.
