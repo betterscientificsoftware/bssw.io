@@ -3,20 +3,21 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../Articles/Blog/2021-11-CollegevilleReportDay3.md
+Slide1 L: ../Articles/Blog/2021-11-HPCAndTheLabManager.md
+Slide1 R: ../images/Blog_2111_HPC_LM.png
+Slide2 L: ../Articles/Blog/2021-11-CollegevilleReportDay3.md
 Slide2 R: ../images/Blog_2109_Collegeville1.png
-Slide3 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
+Slide3 L: ../CuratedContent/InclusiveNamingInitiative.md
+Slide3 R: ../CuratedContent/swr-panels-cc.md
+Slide4 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
 Slide4 R: ../images/Blog_2110_HPC-BP.png
-Slide3 L: ../ShortArticles/CodingConventions.md
-Slide3 R: ../CuratedContent/ProducingWebinarSeries.md
-Slide4 L: ../Articles/Blog/2021-10-CollegevilleReportDay2.md
-Slide4 R: ../images/Blog_2109_Collegeville1.png
-Slide5 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
-Slide5 R: ../images/Blog_2109_SX_OmicronA.png
-Slide6 L: ../Events/2021-11-sc21-sw-events.md
-Slide6 R: ../Events/hpcbp-058-55plus-years-in-hpc.md
-Slide7 L: ../Events/swr-012-sustainablehybrid.md
+Slide5 L: ../ShortArticles/CodingConventions.md
+Slide5 R: ../CuratedContent/ProducingWebinarSeries.md
+Slide6 L: ../Articles/Blog/2021-10-CollegevilleReportDay2.md
+Slide6 R: ../images/Blog_2109_Collegeville1.png
+Slide7 L: ../Events/hpcbp-059-scisoftecosystems.md
 Slide7 R: ../Events/2022-01-SoftwareQualityDays.md
+
 --->
 
 <!---
