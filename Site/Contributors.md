@@ -18,8 +18,8 @@ Input contributors on front-end
 Contributor overrides:
 "vsoch", "Sochat", "Vanessa Sochat"
 "nniiicc", "Weber", "Nic Weber"
-"gonsie", "Gonsiorowski"
-"npch", "Chue"
+"gonsie", "Gonsiorowski", "Elsa Gonsiorowski"
+"npch", "Chue", "Neil Chue Hong"
 "-", "BSSw", "BSSw Community"
 "-", "BSSw", "BSSw.io Team"
 "alee", "Lee", "Allen Lee"
