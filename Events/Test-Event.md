@@ -2,10 +2,10 @@
 
 #### Contributed by BSSw.io Team
 
-- Date: March 30 2022 - April 5, 2022
-- Submission Date: January 10 2022
+- Date: 2022-03-30 - 4/5/2022
+- Submission Date: 10 Jan 2022
 - Cool Party Date: April 1, 2022
-- Further dates: June 1, 2022; July 4, 2022; August 8, 2022
+- Further dates: June 1st, 2022; 4th july 2022; 08/08/2022
 - Location: Online
 - Event Website: https://bssw.io
 - Organizers: BSSw
