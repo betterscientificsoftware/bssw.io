@@ -11,7 +11,7 @@ Research Software Engineer is emerging as a new career track. Several national-l
 Resource information | Details 
 :--- | :--- 
 Organization type  | National RSE organizations
-Websites  |   US RSE - [The US Research Software Engineer Association](http://us-rse.org)<br> UK RSE - [Society of Research Software Engineering](http://rse.ac.uk)<br>Germany RSE - [Society for Research Software in Germany](http://de-rse.org)<br> Netherlands RSE - [The Netherlands Research Software Engineer Community](http://nl-rse.org)<br> Nordic RSE - [Nordic Research Software Engineers Community](http://nordic-rse.org)<br>Australia and New Zealand RSE - [RSE Association of Australia and New Zealand](https://rse-aunz.github.io/)
+Websites  |   US RSE - [The US Research Software Engineer Association](http://us-rse.org)<br> UK RSE - [Society of Research Software Engineering](https://society-rse.org)<br>Germany RSE - [Society for Research Software in Germany](http://de-rse.org)<br> Netherlands RSE - [The Netherlands Research Software Engineer Community](http://nl-rse.org)<br> Nordic RSE - [Nordic Research Software Engineers Community](http://nordic-rse.org)<br>Australia and New Zealand RSE - [RSE Association of Australia and New Zealand](https://rse-aunz.github.io/)
 Focus | Careers and Goals
 
 

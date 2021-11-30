@@ -1,13 +1,13 @@
 # Inclusive Langauge Resources
 
 <!--deck text start-->
-If we knew that the terms and phrases we commonly use - such as *sanity check*, *grandfathered* or *Guru* - had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
+If we knew that the terms and phrases we commonly use - such as *sanity check* or *grandfathered* - had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
 <!--deck text end-->
 
 #### Contributed by: [Mark Miller](https://github.com/markcmiller86)
 #### Publication date: November 22, 2021
 
-There is probably no other human endeavor that involves the volume of communication paired with creation of new *terminology* than software development. If one care's about their project's reach and wants to maximize their ability to attract and retain collaborators, developers, users or sponsors, then they need to be mindful of the names and language they use. The language that one uses has the power to welcome others in; as well as push them away.
+There is probably no other human endeavor that involves the volume of communication paired with creation of new *terminology* than software development. If one cares about their project's reach and wants to maximize their ability to attract and retain collaborators, developers, users or sponsors, then they need to be mindful of the names and language they use. The language that one uses has the power to welcome others in, as well as push them away.
 
 The *inclusive language movement* recognizes and has many examples and arguments supporting the fact that often terminology (in current use) either does a poor job of conveying purpose/meaning or is highly dependent on cultural context to interpret.
 
@@ -65,7 +65,7 @@ Resource name | Google developer documentation style guide
 Website | [https://developers.google.com/style/inclusive-documentation](https://developers.google.com/style/inclusive-documentation)
 Focus | Inlcusivitiy, Software documentation
 
-The *Google's developer documentation style guide* is a wonderful resource for guidance for all types of writing princples, including thier subsection regarding inclusive documentation. This portion of the guide encourages developers to handle inclusivity through various lenses, including considering gendered terms and ablist langugage.  
+The *Google's developer documentation style guide* is a wonderful resource for guidance for all types of writing princples, including their subsection regarding inclusive documentation. This portion of the guide encourages developers to handle inclusivity through various lenses, including considering gendered terms and ablist langugage.  
 
 Resource information | Details
 :--- | :---
