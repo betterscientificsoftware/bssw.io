@@ -1,7 +1,7 @@
 # Inclusive Langauge Resources
 
 <!--deck text start-->
-If we knew that the terms and phrases we commonly use - such as *sanity check*, *grandfathered* or *Guru* - had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
+If we knew that the terms and phrases we commonly use - such as *sanity check* or *grandfathered* - had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
 <!--deck text end-->
 
 #### Contributed by: [Mark Miller](https://github.com/markcmiller86)
