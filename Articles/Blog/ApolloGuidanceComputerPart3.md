@@ -37,7 +37,7 @@ display current velocity, the astronauts would perform the following keystrokes,
 meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
 
-![Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal](../../images/Blog_0719_agc_dsky2.png)
+![Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal](../../images/Blog_0719_agc_SquareImages_dsky_2.jpg)
 
 Data displayed to or entered by the astronauts via the DSKY was handled in English units and
 converted to/from the metric system for internal guidance computations. The astronauts sometimes
