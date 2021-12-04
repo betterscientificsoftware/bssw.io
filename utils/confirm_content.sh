@@ -6,6 +6,8 @@ title="${@:1}"
 slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | sed -e 's@](https\{0,1\}://.*)@@g' | tr '.&' '--' | tr -d ':?();,{}+=_[]"”“@%$#<>|*!' | tr "'" "-" | tr ' /’.' '----' | sed -e 's/-–-/-/g' | sed -e 's/-—-/-/g' | sed -e 's/–/-/g' | tr -s '-' | sed -e 's/^-//' -e 's/-$//')
 
 # attempt to find it in items, then communities, then webinars
+# use --spider to access but not actually download
+# output slug used in Not found message for debugging
 wget --no-check-certificate -q --spider https://bssw.io/items/$slug -o /dev/null || \
 wget --no-check-certificate -q --spider https://bssw.io/communities/$slug -o /dev/null || \
 wget --no-check-certificate -q --spider https://bssw.io/webinars/$slug -o /dev/null || echo "$title" Not found [$slug]
