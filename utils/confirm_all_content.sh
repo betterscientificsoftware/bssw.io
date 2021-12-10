@@ -9,6 +9,7 @@ fi
 # to specify path to confirm_content.sh script
 dir=$(dirname $0)
 
+# Use linux find command to iterate over all .md files with Publish: Yes.
 # The sed and tr commands preceding xargs is to ensure we don't attempt
 # to pass poorly formmatted strings through xargs. The sed removes extra
 # spaces at end of line and the tr removes single quote chars.
