@@ -19,7 +19,7 @@ The purpose of this survey is to provide insight into the RSE community, and det
 
 The survey is available in English, French, German, and Spanish and is estimated to take approximately 20 minutes. It will close on January 14, 2022.
 
-For more information about the survey, see: <ttps://www.software.ac.uk/news/complete-international-rse-survey-and-help-us-understand-rse-community>
+For more information about the survey, see: <https://www.software.ac.uk/news/complete-international-rse-survey-and-help-us-understand-rse-community>
 
 ### Contributed by: [Kasia Salim](https://github.com/karbarz)
 ### Publication date: December 17, 2021
