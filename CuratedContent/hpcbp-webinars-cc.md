@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2021-11-18*
+*Listed in reverse chronological order. Last updated: 2021-12-17*
 
 
 
@@ -38,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Scientific software ecosystems and communities: Why we need them and how each of us can help them thrive*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar059), Lois Curfman McInnes (Argonne National Laboratory), 2021-12-08
 
 
 
@@ -505,7 +513,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2021-11-18
+#### Publication date: 2021-12-17
 
 <!---
 Publish: yes
