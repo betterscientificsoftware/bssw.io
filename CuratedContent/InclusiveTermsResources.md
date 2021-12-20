@@ -1,4 +1,4 @@
-# Inclusive Langauge Resources
+# Inclusive Language Resources
 
 <!--deck text start-->
 If we knew that the terms and phrases we commonly use - such as *sanity check* or *grandfathered* - had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
