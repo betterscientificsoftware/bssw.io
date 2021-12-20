@@ -37,7 +37,7 @@ Focus | Software citation, scholarly communication, guidelines
 
 This more recent paper from the working group provides broadly applicable guidance on software citation for the communities and institutions publishing academic journals and conference proceedings. Specific essentials and examples are provided to guide readers through the important parts of properly citing software.
 
-*This article was originally published on August 11, 2019*
+*This article was originally published on August 11, 2019.*
 
 <img src='../images/Logo-class-force11-website-logo.png' class='logo' />
 
