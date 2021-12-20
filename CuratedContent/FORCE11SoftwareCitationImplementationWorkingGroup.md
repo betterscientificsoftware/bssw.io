@@ -4,7 +4,7 @@ FORCE11 is a community that brings together a wide range of people around common
 <!-- deck text end --> 
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)
-#### Publication date: August 11, 2019
+#### Publication date: December 20, 2021
 
 [FORCE11](https://www.force11.org/) is a community of scholars, librarians, archivists, publishers and research funders that has arisen organically to help facilitate the change toward improved knowledge creation and sharing. Individually and collectively, the members of FORCE11 aim to bring about a change in modern scholarly communications through the effective use of information technology.
 
@@ -37,14 +37,13 @@ Focus | Software citation, scholarly communication, guidelines
 
 This more recent paper from the working group provides broadly applicable guidance on software citation for the communities and institutions publishing academic journals and conference proceedings. Specific essentials and examples are provided to guide readers through the important parts of properly citing software.
 
+*This article was originally published on August 11, 2019*
+
 <img src='../images/Logo-class-force11-website-logo.png' class='logo' />
 
 <!---
 Publish: yes
-Categories: Collaboration
+Pinned: no
 Topics: Software publishing and citation
-Tags: organization
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+RSS Update: 2021-12-07
 --->
