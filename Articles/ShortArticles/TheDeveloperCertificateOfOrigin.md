@@ -24,7 +24,7 @@ The DCO is a lightweight approach where developers "sign" every Git commit with 
 ```
 This is the commit message
 
-Signed-off-by: First M. Last \<first.last@someurl.org\>
+Signed-off-by: First M. Last {first.last@someurl.org}
 ```
 
 which implies that the developer is asserting the terms of the DCO<sup>[7]</sup> which, as of Version 1.1, states:
