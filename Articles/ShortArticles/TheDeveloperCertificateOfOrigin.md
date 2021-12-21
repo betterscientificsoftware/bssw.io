@@ -9,9 +9,10 @@ The Developer Certificate of Origin with signoffs embedded into Git commits mess
 
 #### Publication date: ???, 2021
 
-When a person writes a piece of software, by default, they own that software unless some other legal entity -- such as their employer -- owns their work by default.
-Even if that person provides that source code with the implied intent to make it part of some existing software project or otherwise give it away (i.e. place it in the public domain), that by itself is not enough to allow the receiving project to modify and distribute the contribution along with the rest of the project.
-Instead, individuals (or owning organizations) have to explicitly state that they are providing the software (or a modification to an existing piece of software) to a project in accordance with some specific software license associated with the project<sup>[0]</sup>.
+When a person writes a piece of software, they own the copyrights in that software by default, unless it is a "work for hire", in which case their employer owns it, or those rights are conveyed to some other legal entity by a written agreement.
+Even if that person provides that source code with the implied intent to make it part of some existing software project or otherwise give it away (i.e. place it in the public domain), legal experts may differ as to whether that by itself is enough to allow the receiving project to modify and distribute the contribution along with the rest of the project.
+For some experts, contributions are implicitly offered under the same licensing terms as the code base to which the contribution is being made.
+Others prefer to have the owner of the copyright in new contributions explicitly state that they are providing the software (or a modification to an existing piece of software) to a project in accordance with some specific software license<sup>[0]</sup> associated with the project.
 It is the process by which a person provides an (updated) contribution to an existing project that has an existing software license that is the focus of this article.
 
 Until fairly recently, Contributor License Agreements (CLAs)<sup>[1],[2]</sup> have been the industry standard way to accept such contributions.
@@ -60,7 +61,7 @@ In addition, the Linux Foundation's CII Best Practices Badge Program<sup>[9]</su
 
 * The project SHOULD have a legal mechanism where all developers of non-trivial amounts of project software assert that they are legally authorized to make these contributions.
 The most common and easily-implemented approach for doing this is by using a Developer Certificate of Origin (DCO)<sup>[7]</sup>, where users add "signed-off-by" in their commits and the project links to the DCO website.
-However, this MAY be implemented as a Contributor License Agreement (CLA), or other legal mechanism. {Met URL} <sup>[10]</sup>
+However, this MAY be implemented as a Contributor License Agreement (CLA), or other legal mechanism.<sup>[10]</sup>
 
 A few issues must be considered when adopting the DCO for accepting contributions.
 First, since anyone can use any committer name and email address they want with a Git commit (e.g. using `git commit --amend --author "any-author"` and therefore impersonate someone else), greater assurance that the person signing off on the DCO is actually the author of the commit can be added by requiring commits to be GPG signed using the `-S` option with `git commit -s -S`<sup>[11]</sup>.
@@ -74,6 +75,11 @@ Tools are available to assert that all commits in a GitHub Pull Request (PR) con
 In summary, using a Developer Certificate of Origin (DCO) is a lightweight legal approach to provide cover in accepting contributions but it comes at the cost of requiring every nontrivial commit from a Pull Request for a proposed contribution to be signed-off by an outside contributor (and the process to go back and fix unsigned commits can be quite cumbersome for some people with poor Git knowledge and skills, or depending on how those commits and branches were constructed).
 Therefore, for some developer communities, the upstream technical overhead and mechanics of applying the DCO may be more of an impediment to accepting outside contributions than the barriers to getting outside contributors or organizations to sign CLAs.
 
+### Disclaimer
+
+This is not legal advice.
+Consult your own lawyer before any action that may have legal consequences.
+The article is based on U.S. copyright law; other countries may differ.
 
 [sl-sfer-ezikiw]: https://bssw.io/items/an-introduction-to-software-licensing "An Introduction to Software Licensing"
 
