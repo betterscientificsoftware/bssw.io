@@ -63,7 +63,7 @@ The most common and easily-implemented approach for doing this is by using a Dev
 However, this MAY be implemented as a Contributor License Agreement (CLA), or other legal mechanism. {Met URL} <sup>[10]</sup>
 
 A few issues must be considered when adopting the DCO for accepting contributions.
-First, since anyone can use any committer name and email address they want with a Git commit (e.g. using `git commit --amend --author "<any-author>"` and therefore impersonate someone else), greater assurance that the person signing off on the DCO is actually the author of the commit can be added by requiring commits to be GPG signed using the `-S` option with `git commit -s -S`<sup>[11]</sup>.
+First, since anyone can use any committer name and email address they want with a Git commit (e.g. using `git commit --amend --author "any-author"` and therefore impersonate someone else), greater assurance that the person signing off on the DCO is actually the author of the commit can be added by requiring commits to be GPG signed using the `-S` option with `git commit -s -S`<sup>[11]</sup>.
 (However, requiring GPG signing of all commits adds a lot of extra overhead and complexity which may be too much for many developers and therefore more limited usages of GPG signing are possible to provide some elevated assurances <sup>[12]</sup>.
 It is unclear if any major project requires GPG signing of all commits to assert the DCO.)
 
