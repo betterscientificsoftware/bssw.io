@@ -10,8 +10,8 @@ The Developer Certificate of Origin with signoffs embedded into Git commits mess
 #### Publication date: ???, 2021
 
 When a person writes a piece of software, by default, they own that software unless some other legal entity -- such as their employer -- owns their work by default.
-And even if that person provides that source code with the implied intent to make it part of some existing software project or otherwise give it away (i.e. place it in the public domain), that by itself is not enough to allow the receiving project to modify and distribute the contribution along with the rest of the project.
-Instead, individuals (or owning organizations) have to explicitly state that they are providing the software (or a modification to an existing piece of software) to a project in accordance to some specific software license associated with the project<sup>[0]</sup>.
+Even if that person provides that source code with the implied intent to make it part of some existing software project or otherwise give it away (i.e. place it in the public domain), that by itself is not enough to allow the receiving project to modify and distribute the contribution along with the rest of the project.
+Instead, individuals (or owning organizations) have to explicitly state that they are providing the software (or a modification to an existing piece of software) to a project in accordance with some specific software license associated with the project<sup>[0]</sup>.
 It is the process by which a person provides an (updated) contribution to an existing project that has an existing software license that is the focus of this article.
 
 Until fairly recently, Contributor License Agreements (CLAs)<sup>[1],[2]</sup> have been the industry standard way to accept such contributions.
@@ -24,7 +24,7 @@ The DCO is a lightweight approach where developers "sign" every Git commit with 
 ```
 This is the commit message
 
-Signed-off-by: First M. Last \<first.last@someurl.org\>
+Signed-off-by: First M. Last {first.last@someurl.org}
 ```
 
 which implies that the developer is asserting the terms of the DCO<sup>[7]</sup> which, as of Version 1.1, states:
@@ -67,12 +67,12 @@ First, since anyone can use any committer name and email address they want with 
 (However, requiring GPG signing of all commits adds a lot of extra overhead and complexity which may be too much for many developers and therefore more limited usages of GPG signing are possible to provide some elevated assurances <sup>[12]</sup>.
 It is unclear if any major project requires GPG signing of all commits to assert the DCO.)
 
-Second, for DCO to be effective, every commit that contains a nontrivial contribution needs to contain the `Signed-off-by` line.
-For example, tools are available to assert that all commits in a GitHub Pull Request (PR) contain the `Signed-off-by` line<sup>[13]</sup>.
+Second, for the DCO to be effective, every commit that contains a nontrivial contribution needs to contain the `Signed-off-by` line.
+Tools are available to assert that all commits in a GitHub Pull Request (PR) contain the `Signed-off-by` line<sup>[13]</sup>.
 (Note that tools to automate the signing of CLAs for GitHub PRs also exist if one wants to automate CLA signoffs as well<sup>[14]</sup>.)
 
-In summary, using a Developer Certificate of Origin (DCO) is a lightweight legal approach to provide cover in accepting contributions but it comes at the cost of requiring every nontrivial commit from a Pull Request for a proposed contribution to be signed-off by an outside contributor (and the process to go back and fix unsigned commits can be quite cumbersome for some people with poor Git knowledge and skills or depending on how those commits and branches were constructed).
-Therefore, for some developer communities, the upstream technical overhead and mechanics of applying the DCO may more of an impediment to accepting outside contributions than the barriers to getting outside contributors or organizations to sign CLAs.
+In summary, using a Developer Certificate of Origin (DCO) is a lightweight legal approach to provide cover in accepting contributions but it comes at the cost of requiring every nontrivial commit from a Pull Request for a proposed contribution to be signed-off by an outside contributor (and the process to go back and fix unsigned commits can be quite cumbersome for some people with poor Git knowledge and skills, or depending on how those commits and branches were constructed).
+Therefore, for some developer communities, the upstream technical overhead and mechanics of applying the DCO may be more of an impediment to accepting outside contributions than the barriers to getting outside contributors or organizations to sign CLAs.
 
 
 [sl-sfer-ezikiw]: https://bssw.io/items/an-introduction-to-software-licensing "An Introduction to Software Licensing"
