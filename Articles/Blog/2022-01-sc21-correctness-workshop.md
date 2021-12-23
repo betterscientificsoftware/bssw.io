@@ -99,3 +99,9 @@ papers or suggesting speakers or panel topics.
 Ignacio Laguna
 
 Cindy Rubio-Gonzalez
+
+<!---
+Publish: yes
+Pinned: no
+Topics: conferences and workshops, reproducibility, debugging
+--->
