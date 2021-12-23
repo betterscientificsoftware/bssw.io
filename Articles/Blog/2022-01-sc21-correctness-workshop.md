@@ -51,6 +51,12 @@ and OpenMP programs, floating-point error detection, data race checking,
 debugging tools, mixed-precision correctness, correctness in algorithms and
 applications, and correctness in emerging programming models.
 
+<br>
+
+<img src='../../images/wordcloud_correctness_article.png' class='page'>[A word cloud from the titles of the papers published in the first five years of the Correctness workshop]
+
+<br>
+
 The workshop has had the honor of hosting six keynote speakers who have shared
 their work and thoughts on the importance and challenges of software
 correctness: Stephen Siegel (University of Delaware), Ganesh Gopalakrishnan
