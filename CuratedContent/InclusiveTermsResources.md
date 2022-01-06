@@ -165,6 +165,14 @@ Focus | Best Practices
 
 The *Internet Engineering Task Force (IETF)* has published this resource to recommend language used in *Request For Comment (RFC)* communications.
 
+Resource information | Details
+:--- | :---
+Resource name | Panel Discussion: Words Matter: Inclusive Language in Software, Open Source, & the Enterprise
+Video | https://www.youtube.com/watch?v=pO6m7xI7ia8
+Focus | Best Practices
+
+This panel discussion video includes experiences and guidance from commercial and government sector.
+
 <!---
 Publish: yes
 Pinned: no
