@@ -174,7 +174,7 @@ Also, we want and need contributions from the international community for the BS
 ### Author bio
 Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s current research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpc.org/) since 2015. 
 <!---
-Publish: yes
+Publish: no
 RSS update: 2022-01-14
 Categories: collaboration
 Topics: projects and organizations
