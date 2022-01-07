@@ -4,7 +4,7 @@
 
 **Affiliation:** National Center for Ecological Analysis and Synthesis (NCEAS), UC Santa Barbara
 
-**Image:** /images/People_JuliaStewartLowndes.jpg
+**Image:** /images/People_NSFcohort_Lowndes_HM.jpg 
 
 **URL:** https://www.nceas.ucsb.edu/about-us/our-people
 
