@@ -4,7 +4,7 @@
 
 **Affiliation:** USC Information Sciences Institute
 
-**Image:** /images/People_KaranVahi.jpg
+**Image:** /images/People_VahiKaran.jpg
 
 **URL:** https://www.isi.edu/people/vahi/about
 
