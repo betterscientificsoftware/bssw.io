@@ -4,7 +4,7 @@
 
 **Affiliation:** Argonne National Laboratory
 
-**Image:** /images/People_RobLatham.jpg
+**Image:** /images/People_LathamRobert.jpg
 
 **URL:** https://www.mcs.anl.gov/~robl/
 
