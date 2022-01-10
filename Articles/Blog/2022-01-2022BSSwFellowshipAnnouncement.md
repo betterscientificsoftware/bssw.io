@@ -42,7 +42,7 @@ The BSSw Fellowship Program is supported by the National Science Foundation (NSF
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_0121_HM_Lowndes.png' class='logo' />
+<img src='../../images/Blog_0121_HM_Lowndes.jpg' class='logo' />
 </div>
  
 <div class='short_bio'>
@@ -128,7 +128,7 @@ The BSSw Fellowship Program is supported by the National Science Foundation (NSF
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_ Jones.jpg' class='logo' />
+<img src='../../images/Blog_2201_HM_Jones.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
