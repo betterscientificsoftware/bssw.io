@@ -12,7 +12,7 @@ We sincerely thank _all_ fellowship applicants. The broad range of creative and 
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2022 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
 
-The BSSw Fellowship Program is supported by the National Science Foundation (NSF) and Department of Energy (DOE) to enable a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering. The program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity.
+The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) and National Science Foundation (NSF) to enable a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering. The program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity.
 
 ## 2022 BSSw Fellows
 
@@ -24,7 +24,7 @@ The BSSw Fellowship Program is supported by the National Science Foundation (NSF
 <div class='short_bio'>
   <h3> Ritu Arora, University of Texas at San Antonio</h3>
   <p>Assistant Vice President, Research Computing</p>
-  <p><i>BSSw Focus</i>: Optimizing I/O for Better Performance</p>
+  <p><i>BSSw Focus</i>: Optimizing I/O for better performance</p>
 </div>  
 </div>
 
