@@ -8,7 +8,7 @@
 
 **URL:** https://www.nceas.ucsb.edu/about-us/our-people
 
-**LinkedIn:** https://www.linkedin.com/julia-stewart-lowndes
+**LinkedIn:** https://www.linkedin.com/in/julia-stewart-lowndes/
 
 **Github:** https://github.com/jules32
 
