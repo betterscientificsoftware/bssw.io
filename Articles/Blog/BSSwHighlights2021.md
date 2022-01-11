@@ -7,7 +7,7 @@
 
 #### Publication date: January 10, 2022
 
-Better Scientific Software (BSSw) enters its 5th year since its inception in November 2017. The last few years have been an exciting journey. We have had opportunities to work with several new authors and collaborators, who have resonated with our readers. We would like to thank our readers and collaborators from all over the world who are enthusiastic in sharing their experiences and contributions and being a part of the BSSw community. While the world continues to work in hybrid mode, we hope and are looking forward to a healthy and productive 2022! In this blog post, we list some of the interesting content from over the last year that was popular with our readers. Happy new year to the BSSw community!
+2022 marks the beginning of the 5th year of Better Scientific Software (BSSw) since its inception in November 2017. The last few years have been an exciting journey. We have had opportunities to work with several new authors and collaborators who have resonated with our readers. We would like to thank our readers and collaborators from all over the world, who have been enthusiastic in sharing their experiences and contributions, and for being a part of the BSSw community. While the world continues to work in hybrid mode, we hope and are looking forward to a healthy and productive 2022! In this blog post, we list some of the interesting content from over the last year that was popular with our readers. Happy new year to the BSSw community!
 
 ### Better Skills:
 - [An Introduction to Open Source Guides](https://bssw.io/items/an-introduction-to-open-source-guides), R. Gupta
@@ -58,7 +58,7 @@ Better Scientific Software (BSSw) enters its 5th year since its inception in Nov
 - [Software Team Experiences and Challenges: A Report from Day 1 of the 2021 Collegeville Workshop on Scientific Software](https://bssw.io/blog_posts/software-team-experiences-and-challenges-a-report-from-day-1-of-the-2021-collegeville-workshop-on-scientific-software), C. Balos et al.
 - [Best Practices for HPC Software Developers: The First Five Years of the Webinar Series](https://bssw.io/blog_posts/best-practices-for-hpc-software-developers-the-first-five-years-of-the-webinar-series), O. Marques and D. Bernholdt
 - [Software Team Experiences and Challenges: A Report from Day 2 of the 2021 Collegeville Workshop on Scientific Software](https://bssw.io/blog_posts/software-team-experiences-and-challenges-a-report-from-day-2-of-the-2021-collegeville-workshop-on-scientific-software), K. Beattie et al.
-- [An Introduction to National RSE Organizations](https://bssw.io/items/inclusive-langauge-resources), R. Gupta
+- [An Introduction to National RSE Organizations](https://bssw.io/items/an-introduction-to-national-rse-organizations), R. Gupta
 - [Cultural Approaches to Improved Software Teams: A Report from Day 3 of the 2021 Collegeville Workshop on Scientific Software](https://bssw.io/blog_posts/cultural-approaches-to-improved-software-teams-a-report-from-day-3-of-the-2021-collegeville-workshop-on-scientific-software), M. Heroux et al.
 
 ### Building a better scientific software community through your contributions
