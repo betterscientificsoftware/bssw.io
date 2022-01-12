@@ -6,13 +6,13 @@
 
 **Image:** /images/People_NSFcohort_Lowndes_HM.jpg 
 
-**URL:** https://www.nceas.ucsb.edu/about-us/our-people
+**URL:** https://jules32.github.io/
 
 **LinkedIn:** https://www.linkedin.com/in/julia-stewart-lowndes/
 
 **Github:** https://github.com/jules32
 
-**Short Bio:** Open data science for research teams
+**Short Bio:** **Openscapes:** Open data science for research teams
 
 **Long Bio:**
 ### Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
