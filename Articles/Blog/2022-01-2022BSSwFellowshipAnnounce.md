@@ -48,7 +48,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 <div class='short_bio'>
   <h3>Julia Stewart Lowndes, National Center for Ecological Analysis and Synthesis (NCEAS), UC Santa Barbara</h3>
   <p>Openscapes Co-Director</p>
-  <p><i>BSSw focus</i>: Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own</p>
+  <p><i>BSSw focus</i>: Helping researchers engage with existing open source tooling and communities rather than reinventing on their own</p>
 </div>
 </div>
 
