@@ -22,7 +22,6 @@ Slide7 R: ../Events/2022-01-SoftwareQualityDays.md
 <!---
 Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
 LCM: Saving for use again later
-
 Slide1 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
 Slide1 R: ../images/Blog_2109_SX_OmicronA.png
 Slide2 L: ../Articles/Blog/2021-09-CollegevilleReportDay1.md
@@ -37,7 +36,6 @@ Slide6 L: ../Events/2021-10-XpertNetwork.md
 Slide6 R: ../Events/2021-10-wosss21.md
 Slide7 R: ../Events/hpcbp-057-sierra-and-elcapitan-coes.md
 Slide7 L: ../Events/2021-10-ssi-fellowship.md
-
 --->
 
 <!---
