@@ -10,7 +10,7 @@ Slide2 R: ../images/Blog_2112_SC21.png
 Slide3 L: ../Articles/Blog/2021-11-HPCAndTheLabManager.md
 Slide3 R: ../images/Blog_2111_HPC_LM.png
 Slide4 L: ../Articles/Blog/2021-11-CollegevilleReportDay3.md
-Slide5 R: ../images/Blog_2109_Collegeville1.png
+Slide4 R: ../images/Blog_2109_Collegeville1.png
 Slide5 L: ../CuratedContent/InclusiveTermsResources.md
 Slide5 R: ../CuratedContent/swr-panels-cc.md
 Slide6 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
