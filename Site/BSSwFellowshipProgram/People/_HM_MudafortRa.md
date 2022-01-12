@@ -6,6 +6,6 @@
 
 **Affiliation:** National Renewable Energy Laboratory
 
-**Short Bio:** Research Software Engineer
+**Short Bio:** Research Software Engineer, National Wind Technology Center
 
 **Honorable Mention:** Yes
