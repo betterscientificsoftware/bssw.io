@@ -144,7 +144,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Rafael Mudafort, National Renewable Energy Laboratory</h3>
-  <p>Research Software Engineer</p>
+  <p>Research Software Engineer, National Wind Technology Center</p>
 </div>
 </div>
 
