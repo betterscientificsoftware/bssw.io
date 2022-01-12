@@ -18,7 +18,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/Blog_2201_Fell_Arora.jpg' class='logo' />
+  <img src='../../images/Blog_2201_Fell_AroraRi.jpg' class='logo' />
 </div>  
 
 <div class='short_bio'>
