@@ -5,10 +5,10 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../Articles/Blog/BSSwHighlights2021.md
 Slide1 R: ../images/Blog_2112_YIR_Montage.png
-Slide2 L: ../Articles/Blog/2021-12-sc21-swe-cse-bof.md
-Slide2 R: ../images/Blog_2112_SC21.png
-Slide3 L: ../Articles/Blog/2021-11-HPCAndTheLabManager.md
-Slide3 R: ../images/Blog_2111_HPC_LM.png
+Slide2 L: ../Articles/Blog/2022-01-2022BSSwFellowshipAnnounce.md
+Slide2 L: ../Articles/Blog/2021-11-HPCAndTheLabManager.md
+Slide3 L: ../Articles/Blog/2021-12-sc21-swe-cse-bof.md
+Slide3 R: ../images/Blog_2112_SC21.png
 Slide4 L: ../Articles/Blog/2021-11-CollegevilleReportDay3.md
 Slide4 R: ../images/Blog_2109_Collegeville1.png
 Slide5 L: ../CuratedContent/InclusiveTermsResources.md
