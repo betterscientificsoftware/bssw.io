@@ -7,7 +7,7 @@
 
 #### Publication date: January 10, 2022
 
-2022 marks the beginning of the 5th year of Better Scientific Software (BSSw) since its inception in November 2017. The last few years have been an exciting journey. We have had opportunities to work with several new authors and collaborators who have resonated with our readers. We would like to thank our readers and collaborators from all over the world, who have been enthusiastic in sharing their experiences and contributions, and for being a part of the BSSw community. While the world continues to work in hybrid mode, we hope and are looking forward to a healthy and productive 2022! In this blog post, we list some of the interesting content from over the last year that was popular with our readers. Happy new year to the BSSw community!
+2022 marks the beginning of the 5th year of Better Scientific Software (BSSw) since its inception in November 2017. The last few years have been an exciting journey. We have had opportunities to work with several new authors and collaborators who have resonated with our readers. We would like to thank our readers and collaborators from all over the world, who have been enthusiastic in sharing their experiences and contributions, for being a part of the BSSw community. While the world continues to work in hybrid mode, we are looking forward to a healthy and productive 2022! In this blog post, we list some of the interesting content from over the last year that was popular with our readers. Happy new year to the BSSw community!
 
 ### Better Skills:
 - [An Introduction to Open Source Guides](https://bssw.io/items/an-introduction-to-open-source-guides), R. Gupta
