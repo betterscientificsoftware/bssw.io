@@ -15,10 +15,11 @@ Focus | Scientific Software Reproducibility
 
 *[Challenge to scientists: does your ten-year-old code still
 run?](https://doi.org/10.1038/d41586-020-02462-7)*, presents interesting
-findings from the challenge conceived in 2019 and taken in 2020 by 38 participants.
+findings from the challenge conceived in 2019 and taken the following year
+by 38 participants.
 The challenge dared scientists to reproduce results from computational
-papers they published ten years ago or earlier. The purpose was to find
-techniques to produce code and results that can be reproduced ten years later.
+papers they published ten years previously or earlier. The purpose was to find
+techniques to produce code and results that can be reproduced a decade later.
 
 You may not experience the problems that were encountered by the participants
 such as retrieving software from a floppy disc or other obsolete mediums, or
@@ -26,10 +27,10 @@ having your hand written notes destroyed in a fire, but you would be wise to
 consider what is needed to be able to reproduce your results in ten years.
 There are many current technologies and practices that aid in reproducibility,
 but there are also new challenges such as "rapidly evolving API's and reliance
-on third-party libraries", and fragmented code due to use of computational
-notebooks.  One common thread for increased reproducibility of results was to
-up documentation, other useful ideas can be found in the included
-reproducibility checklist.
+on third-party libraries" and fragmented code due to use of computational
+notebooks.  One common thread suggested from participants to increase
+reproducibility was to up documentation, other useful ideas can be
+found in the included reproducibility checklist.
 
 <!-- 
 Publish: yes 
