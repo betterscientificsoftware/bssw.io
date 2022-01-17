@@ -14,7 +14,7 @@ Author | Jeffrey M. Perkel
 Focus | Scientific Software Reproducibility 
 
 *[Challenge to scientists: does your ten-year-old code still
-run?](https://doi.org/10.1038/d41586-020-02462-7)*, presents interesting
+run?](https://doi.org/10.1038/d41586-020-02462-7)* presents interesting
 findings from the challenge conceived in 2019 and taken the following year
 by 38 participants.
 The challenge dared scientists to reproduce results from computational
