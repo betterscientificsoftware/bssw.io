@@ -44,7 +44,7 @@ In addition, the author covers IEEE floating-point standards including the IEEE 
 * conversions with integers and decimal (i.e. human-readable text-based) formats.
 
 Great attention is given to the issue of catastrophic cancellation (the subtraction of two nearby numbers where the operands are also subject to rounding errors) and related floating-point issues.
-Several examples are given of how different numerical expressions can be reformulated to eliminate a catastrophic cancellation and/or avoid overflow/overflow and thereby increase the robustness and accuracy of the floating-point calculation to a wide range of input data.
+Several examples are given of how different numerical expressions can be reformulated to eliminate a catastrophic cancellation and/or avoid underflow/overflow and thereby increase the robustness and accuracy of the floating-point calculation to a wide range of input data.
 (Reformulating an expression to reduce floating-point errors and exceptions can often increase the complexity of the code and increase the operation count and computational cost so there are often trade-offs of numerical accuracy, robustness, code maintainability, and runtime speed that must be made when implementing a numerical algorithm using floating-point computations.)
 
 System and compiler issues are also discussed where violations of basic floating-point foundations can make it very difficult to implement a robust numerical algorithm.
@@ -58,7 +58,7 @@ This is especially true on some of the more bleeding-edge high-performance compu
 As a result, numerical algorithm developers often have to rely on a smaller subset of the IEEE standard in order to develop a maximally portable robust implementation.
 
 Finally, the paper contains quite a few proofs of floating-point arithmetic and these proofs serve several purposes.
-First, the proofs establish the foundation of floating-point operations which demonstrate that floating-point is not black magic but is a well established mathematical approximation/discritization of real number arithmetic.
+First, the proofs establish the foundation of floating-point operations which demonstrate that floating-point is not black magic but is a well established mathematical approximation/discretization of real number arithmetic.
 Second, the proofs show that one can rigorously analyze the expressions in a floating-point algorithm and use that to spot areas of concern.
 Finally, these proofs show how important it is to have a standard like IEEE 754 in designing and implementing numerical algorithms by being able to rely on a few key numerical properties.
 
@@ -75,5 +75,5 @@ Topics: Programming languages, High-performance computing (HPC), Reproducibility
 --->
 
 <!---
-LocalWords:  associativity demormalized
+LocalWords:  associativity denormalized discretization
 --->
