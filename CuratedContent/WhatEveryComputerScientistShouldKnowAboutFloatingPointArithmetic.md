@@ -71,7 +71,7 @@ When these early systems violate basic IEEE standards, it is useful for these nu
 Publish: yes 
 Pinned: no
 RSS update: ???
-Topics: ???
+Topics: Programming languages, High-performance computing (HPC), Reproducibility, Refactoring
 --->
 
 <!---
