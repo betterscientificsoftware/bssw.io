@@ -38,7 +38,7 @@ In addition, the author covers IEEE floating-point standards including the IEEE 
 
 * bit-wise floating-point number data-structures (i.e. significant digits, exponents, sign),
 * rounding and accuracy requirements for basic floating-point operations,
-* overflow, underflow and special quantities (i.e. (signed) zero, demormalized numbers, NaNs, (signed) infinity &infin;),
+* overflow, underflow and special quantities (i.e. (signed) zero, denormalized numbers, NaNs, (signed) infinity &infin;),
 * floating-point exceptions, flags, and trap handlers,
 * rounding modes, and
 * conversions with integers and decimal (i.e. human-readable text-based) formats.
