@@ -52,7 +52,7 @@ Sandia National Laboratories<br/>
 
 ## BSSw Editorial Assistant
 Kasia Salim (founding EB team member)<br/>
-Argonne National Laboratory
+Argonne National Laboratory<br/>
 [https://github.com/karbarz](https://github.com/karbarz)
 
 ## Emeritus Members
