@@ -1,5 +1,5 @@
 ---
-title:  Editorial Board: Composition, Responsibilites and Expectations
+title: Editorial Board: Composition, Responsibilites and Expectations
 sidebar: bssw_sidebar
 permalink: bssw_teamresponsibilites.html
 ---
