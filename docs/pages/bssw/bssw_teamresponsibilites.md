@@ -3,8 +3,7 @@ title: Editorial Board Composition, Responsibilites and Expectations
 sidebar: bssw_sidebar
 permalink: bssw_teamresponsibilites.html
 ---
-# Editorial Board Composition, Responsibilites and Expectations
-
+# 
 ## Editorial Board composition
 The BSSw.io editorial board (EB) is composed of senior editors and associate editors. 
 * As the BSSw.io site continues to grow, the size of the EB will continue to grow until deemed sufficient. The EB reserves the right to limit its team size, based on needs and requirements, in the future. 
