@@ -11,17 +11,19 @@ This set of best practices along with the detailed documentation and supporting 
 
 The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF)<sup>[[openssf]]</sup> is an effort to improve the quality and security of open source software.
 The OpenSSF Best Practices Badge Program<sup>[[ossfbpbp]]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community to a wide rage of open-source software projects.
-The foundation of this badge program is a "Badge App"<sup>[[ossfbpba]]</sup> site that allows projects to create an entry for their project and then to specify if their project meets each best practice, descriptions for how they met the criteria, URLs to evidence, and justification for how the criteria was met or not met.
+The foundation of this badge program is a "Badge App" site<sup>[[ossfbpba]]</sup> that allows projects to create an entry for their project and then to specify which practice is meet, descriptions for how they met the criteria for each practice, URLs to evidence, and justification for how the criteria was met or not met.
 
-As of 10/7/2021, the "Badge App" site has 4100 registered projects of which 637 have achieved a Passing-level badge.  In addition, the community registers approximately 700 new open-source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.  This shows this is a well accepted and well adopted program and badge program.
+As of ???10/7/2021???, the "Badge App" site has ???4100??? registered projects of which ??637?? have achieved a Passing-level badge.
+In addition, the community registers approximately 700 new open-source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.
+This shows this is a well accepted and well adopted program and badge program.
 
-The OpenSSF Best Practices and the supporting Badge App site provides a number of benefits by providing:
+The OpenSSF Best Practices and the supporting Badge App site enables a number of benefits by providing:
 
 * a set of practices that have specific actionable criteria which require supporting evidence,
 
-* a power "Badge App" site that enhances the display of the best practice items, expanded descriptions of the best practices, and fields to enter URL and text descriptions of the status of each best practice in the project, 
+* a powerful "Badge App" site that enhances the display of the each practice, expanded descriptions of the practices, and fields to enter URL and text descriptions of the status of each practice in the project, 
 
-* a badge that can be displayed on the project hosting site to show that the project follows accepted best practices,
+* a badge that can be displayed on a project's own hosting site to show that a project follows accepted best practices,
 
 * a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[[eo14028]]</sup>  (which is of particular importance to laboratory and government agencies and contractors, including the national labs),
 
@@ -42,7 +44,7 @@ These different aspects of the OpenSSF Best Practices Program and Badge App are 
 
 Before getting into the some of the surprising benefits of the OpenSSF Best Practices and Badge App site, it is worth going into some detail about the best practices themselves and the "Badge App" website.
 
-The OpenSSF Best Practices are broken down in several different ways:
+The OpenSSF Best Practices are broken down and organized in several different ways:
 
 * Required or optional practices:
   * MUST: Required/not optional (unless 'N/A' is allowed)
@@ -60,9 +62,15 @@ The OpenSSF Best Practices are broken down in several different ways:
   * Security
   * Analysis
 
-As noted above, some of the practices can be opted-out as not applicable "N/A" which is quite important in order for the OpenSSF Best Practices to be broadly applicable.  For example, almost all of the technical security-related items can be marked as "N/A" if the project does not have any security-critical code.
+As noted above, some of the practices can be opted-out as not applicable (i.e. "N/A") which is quite important in order for the OpenSSF Best Practices to be broadly applicable.
+For example, almost all of the technical security-related items can be marked as "N/A" if the project does not have any security-related or security-critical code.
 
-The OpenSSF Best Practices are listed for each badge level individually and as a full set.<sup>[[ossfbpa]]</sup>  They are also listed with or without the detailed description/justification and links to more information.  Each best practice is composted of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor name link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice criteria).  Many items also require a short comment field be filled out and provide a URL to evidence.   For example, the first four "Basic" best practices in the Passing level are stated as:
+The OpenSSF Best Practices are listed for each badge level individually and as a full set<sup>[[ossfbpa]]</sup>.
+They are also listed with and without the detailed description/justification and links to more information.
+Each best practice is composted of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor name link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice item).
+Many items also require a short comment field be filled out and provide a URL to evidence.
+
+To demonstrate how these look, the first four "Basic" best practices in the Passing level are stated as:
 
 ----
 
@@ -90,23 +98,25 @@ Statistics for the best practices in each level are given in the following table
 
 <br>
 
-Note that some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the Silver level lists the "bus factor" practice as SHOULD:
+Note that some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the ***Silver*** level lists the "bus factor" practice as SHOULD:
 
 * The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor)</sup>
 
-but at the Gold level, it re-lists it as MUST:
+but at the ***Gold*** level, it re-lists it as MUST:
 
 * The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#2.bus_factor)</sup>
 
-(That is why the number of "Total active" practices in the Silver and Gold levels is higher than the number "New at this  level".)
+(That is why the number of "Total active" practices in the Silver and Gold levels are higher than the number "New at this  level".)
 
 One of the more unique features of the OpenSSF Best Practices program is the OpenSSF Best Practices "Badge App" site:
 
 * https://bestpractices.coreinfrastructure.org/en/projects
 
 This site allows project maintainers to create an entry for their project (which then creates a unique project ID) and go through the process of reading about each best practice item and marking each as "Met", "Unmet", "N/A", or "?".
-(Again, only some items allow an "N/A" response.)
+(Again, only a subset of practices allow an "N/A" response.)
 An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
+
+**??? Edited up to here on 1/19/2022 ???**
 
 <br>
 
@@ -260,6 +270,8 @@ Blah blah blah ...
 
 ToDo: Describe:
 
+* Replace all of the screenshots showing "CII" with the updated "OpenSSF" pages.
+
 * Go over my presentation and make sure I am covering everything in that presentation.
 
 * Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
@@ -275,6 +287,8 @@ ToDo: Describe:
 * Provides a website template and database implementation that can be forked and customized for more targeted communities.
 
 * White House Executive Order 14028 that requires government and DOE software improve software security may impact CSE software.
+
+* Update the statistics of the number of projects on the Badge App site and in each category (search for ???).
 
 * ???
 
