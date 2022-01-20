@@ -16,7 +16,7 @@ The BSSw.io editorial board (EB) is composed of senior editors and associate edi
 ## EB Board member responsibilities/expectations
 All BSSw.io EB members are expected to participate in some or all of the below activities related to content, operations, outreach and sustainability. In the three categories of participation, below, we value having some EB members who participate in both content development and operations so that we understand the impact of operations on content development.
 
-### Content:
+### Content
 * Actively participate in EB board content meetings.
 * Be an active member of the review process for BSSw.io content suggestions.
 * Follow the processes established by the team for content management and communication.
