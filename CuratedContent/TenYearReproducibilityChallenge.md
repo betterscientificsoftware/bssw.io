@@ -21,7 +21,7 @@ The challenge dared scientists to reproduce results from computational
 papers they published ten years previously or earlier. The purpose was to find
 techniques to produce code and results that can be reproduced a decade later.
 
-You may not experience the problems that were encountered by the participants
+While you may not experience the problems that were encountered by the participants
 such as retrieving software from a floppy disc or other obsolete technology, or
 having your hand written notes destroyed in a fire, but you would be wise to
 consider what is needed to be able to reproduce your results in ten years.
@@ -32,9 +32,11 @@ notebooks.  One common thread suggested from participants to increase
 reproducibility was to up documentation, other useful ideas can be
 found in the included reproducibility checklist.
 
-<!-- 
-Publish: yes 
-Categories: Planning, Development, Reliability
-Topics: Reproducibility, Software Engineering, Revision Control, Documentation
 
--->
+<!---
+Publish: yes
+Pinned: no
+Topics: Reproducibility, Software Engineering, Revision Control, Documentation
+RSS update: 2022-01-20
+--->
+
