@@ -7,7 +7,7 @@ The Developer Certificate of Origin with signoffs embedded into Git commits mess
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: ???, 2021
+#### Publication date: January 26, 2022
 
 When a person writes a piece of software, they own the copyrights in that software by default, unless it is a "work for hire", in which case their employer owns it, or those rights are conveyed to some other legal entity by a written agreement.
 Even if that person provides that source code with the implied intent to make it part of some existing software project or otherwise give it away (i.e. place it in the public domain), legal experts may differ as to whether that by itself is enough to allow the receiving project to modify and distribute the contribution along with the rest of the project.
@@ -115,8 +115,9 @@ The article is based on U.S. copyright law; other countries may differ.
 Publish: yes
 Pinned: no
 Topics: Projects and organizations, Strategies for more effective teams, Licensing, Revision control
-RSS update: ???
+RSS update: 2022-01-26
 --->
+
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [0]: #sfer-ezikiw-0 "An Introduction to Software Licensing"
 [1]: #sfer-ezikiw-ee1 "Contributor Agreements"
