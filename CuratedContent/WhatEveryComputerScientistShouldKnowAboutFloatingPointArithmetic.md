@@ -6,7 +6,7 @@ As such, understanding the foundations of floating point data-types and operatio
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-#### Publication date: ???
+#### Publication date: January 24, 2022
 
 Resource information | Details 
 :--- | :--- 
@@ -47,8 +47,7 @@ Great attention is given to the issue of catastrophic cancellation (the subtract
 Several examples are given of how different numerical expressions can be reformulated to eliminate a catastrophic cancellation and/or avoid underflow/overflow and thereby increase the robustness and accuracy of the floating-point calculation to a wide range of input data.
 (Reformulating an expression to reduce floating-point errors and exceptions can often increase the complexity of the code and increase the operation count and computational cost so there are often trade-offs of numerical accuracy, robustness, code maintainability, and runtime speed that must be made when implementing a numerical algorithm using floating-point computations.)
 
-System and compiler issues are also discussed where violations of basic floating-point foundations can make it very difficult to implement a robust numerical algorithm.
-For example, the author unequivocally states:
+System and compiler issues are also discussed where violations of basic floating-point foundations can make it very difficult to implement a robust numerical algorithm. For example, the author unequivocally states:
 
 > A language definition that does not require parentheses to be honored is useless for floating-point calculations.
 
@@ -58,19 +57,18 @@ This is especially true on some of the more bleeding-edge high-performance compu
 As a result, numerical algorithm developers often have to rely on a smaller subset of the IEEE standard in order to develop a maximally portable robust implementation.
 
 Finally, the paper contains quite a few proofs of floating-point arithmetic and these proofs serve several purposes.
-First, the proofs establish the foundation of floating-point operations which demonstrate that floating-point is not black magic but is a well established mathematical approximation/discretization of real number arithmetic.
+First, the proofs establish the foundation of floating-point operations which demonstrate that floating-point is not black magic but is a well-established mathematical approximation/discretization of real number arithmetic.
 Second, the proofs show that one can rigorously analyze the expressions in a floating-point algorithm and use that to spot areas of concern.
 Finally, these proofs show how important it is to have a standard like IEEE 754 in designing and implementing numerical algorithms by being able to rely on a few key numerical properties.
 
-In summary, the paper "What Every Computer Scientist Should Know About Floating-Point Arithmetic" represents a must-read for any serious numerical algorithm developer.
-In addition to learning the basics of floating-point, it is important that numerical algorithm developers have a strong knowledge of the IEEE 754 standard and be aware of what properties are supported or not supported on the set of compilers and systems that their algorithm implementations must run.
+In summary, the paper "What Every Computer Scientist Should Know About Floating-Point Arithmetic" represents a must-read for any serious numerical algorithm developer. In addition to learning the basics of floating-point, it is important that numerical algorithm developers have a strong knowledge of the IEEE 754 standard and be aware of what properties are supported or not supported on the set of compilers and systems that their algorithm implementations must run.
 And it is especially important to numerical developers exposed to bleeding-edge HPC systems.
 When these early systems violate basic IEEE standards, it is useful for these numerical algorithm developers to provide feedback to the vendors to see if floating-point standards compliance can be restored.
 
 <!---
 Publish: yes 
 Pinned: no
-RSS update: ???
+RSS update: 2022-01-24
 Topics: Programming languages, High-performance computing (HPC), Reproducibility, Refactoring
 --->
 
