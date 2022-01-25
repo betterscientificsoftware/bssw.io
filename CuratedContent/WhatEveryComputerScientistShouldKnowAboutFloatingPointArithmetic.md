@@ -24,7 +24,7 @@ NOTE: The original [journal article](https://doi.org/10.1145/103162.103163) has 
 Doing sufficiently accurate computations of infinite precision real numbers using finite precision computer approximations requires a solid understanding of floating-point formats, computational issues, and standards.
 When implementing numerical algorithms involving real-world data solving ill-conditioned mathematical problems, a single sloppy floating-point expression can break an implemented algorithm and make it impossible to compute a solution to the needed precision (or any solution at all).
 
-The paper "What Every Computer Scientist Should Know About Floating-Point Arithmetic" provides a critical foundation for understanding modern floating-point data-types and computations approximating algorithms involving real numbers.
+The paper *"What Every Computer Scientist Should Know About Floating-Point Arithmetic"* provides a critical foundation for understanding modern floating-point data-types and computations approximating algorithms involving real numbers.
 The issues involved must be well understood by computer hardware developers, system software developers, and numerical software developers alike in order for it to be possible to implement robust numerical algorithms in a portable way.
 
 This paper covers the basics of floating-point including:
@@ -56,13 +56,13 @@ In addition, full implementation of the IEEE 754 standard on a system is rare an
 This is especially true on some of the more bleeding-edge high-performance computing (HPC) accelerators and systems.
 As a result, numerical algorithm developers often have to rely on a smaller subset of the IEEE standard in order to develop a maximally portable robust implementation.
 
-Finally, the paper contains quite a few proofs of floating-point arithmetic and these proofs serve several purposes.
+Finally, the paper contains quite a few proofs of floating-point arithmetic, and these proofs serve several purposes.
 First, the proofs establish the foundation of floating-point operations which demonstrate that floating-point is not black magic but is a well-established mathematical approximation/discretization of real number arithmetic.
 Second, the proofs show that one can rigorously analyze the expressions in a floating-point algorithm and use that to spot areas of concern.
 Finally, these proofs show how important it is to have a standard like IEEE 754 in designing and implementing numerical algorithms by being able to rely on a few key numerical properties.
 
-In summary, the paper "What Every Computer Scientist Should Know About Floating-Point Arithmetic" represents a must-read for any serious numerical algorithm developer. In addition to learning the basics of floating-point, it is important that numerical algorithm developers have a strong knowledge of the IEEE 754 standard and be aware of what properties are supported or not supported on the set of compilers and systems that their algorithm implementations must run.
-And it is especially important to numerical developers exposed to bleeding-edge HPC systems.
+In summary, the paper *"What Every Computer Scientist Should Know About Floating-Point Arithmetic"* represents a must-read for any serious numerical algorithm developer. In addition to learning the basics of floating-point, it is important that numerical algorithm developers have a strong knowledge of the IEEE 754 standard and be aware of what properties are supported or not supported on the set of compilers and systems that their algorithm implementations must run.
+It is especially important to numerical developers exposed to bleeding-edge HPC systems.
 When these early systems violate basic IEEE standards, it is useful for these numerical algorithm developers to provide feedback to the vendors to see if floating-point standards compliance can be restored.
 
 <!---
