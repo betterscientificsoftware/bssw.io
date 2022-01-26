@@ -1,23 +1,23 @@
 # The Developer Certificate of Origin
 
 <!--deck text start-->
-Every project that accepts contributions from outside developers should have a legal mechanism in place that allows those contributions to become part of the main code base that allows for further development and distribution and avoids future legal problems.
-The Developer Certificate of Origin with signoffs embedded into Git commits messages is becoming the preferred way to handle this issue and is being adopted by important open source projects.
+Every project that accepts contributions from outside developers should have a legal mechanism in place that allows those contributions to become part of the main code base for further development and/or distribution, and avoids any possible future legal issues that could arise. 
+The Developer Certificate of Origin with signoffs embedded into Git commits messages is becoming the preferred way to approach these circumstances, and is being adopted by important open source projects.
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
 #### Publication date: January 26, 2022
 
-When a person writes a piece of software, they own the copyrights in that software by default, unless it is a "work for hire", in which case their employer owns it, or those rights are conveyed to some other legal entity by a written agreement.
+When a person writes a piece of software, they own the copyrights in that software by default, unless it is a "work for hire". In that case, their employer owns it, or those rights are conveyed to some other legal entity by a written agreement.
 Even if that person provides that source code with the implied intent to make it part of some existing software project or otherwise give it away (i.e. place it in the public domain), legal experts may differ as to whether that by itself is enough to allow the receiving project to modify and distribute the contribution along with the rest of the project.
 For some experts, contributions are implicitly offered under the same licensing terms as the code base to which the contribution is being made.
 Others prefer to have the owner of the copyright in new contributions explicitly state that they are providing the software (or a modification to an existing piece of software) to a project in accordance with some specific software license<sup>[0]</sup> associated with the project.
-It is the process by which a person provides an (updated) contribution to an existing project that has an existing software license that is the focus of this article.
+It is the process by which a person provides an (updated) contribution to an existing project that has an existing software license that serves as the focus of this article.
 
 Until fairly recently, Contributor License Agreements (CLAs)<sup>[1],[2]</sup> have been the industry standard way to accept such contributions.
 CLAs can be signed by individual contributors or by organizations (to cover all of its members).
-While CLAs have a number of advantages for a project from a legal standpoint (such as facilitating later re-licensing), they are unpopular with some developers and developer communities and are seen by many as an impediment to accepting contributions<sup>[3],[5]</sup>.
+While CLAs have a number of advantages for a project from a legal standpoint (such as facilitating later re-licensing), they are unpopular with some developers and developer communities, and are seen by many as an impediment to accepting contributions<sup>[3],[5]</sup>.
 
 To address the problems with CLAs and other similar appraoches, the Linux Foundation introduced the Developer Certificate of Origin (DCO) in 2004<sup>[6]</sup>.
 The DCO is a lightweight approach where developers "sign" every Git commit with a `Signed-off-by` line in the commit message:
@@ -28,7 +28,7 @@ This is the commit message
 Signed-off-by: First M. Last <first.last@someurl.org>
 ```
 
-which implies that the developer is asserting the terms of the DCO<sup>[7]</sup> which, as of Version 1.1, states:
+This "sign-off" implies that the developer is asserting the terms of the DCO<sup>[7]</sup> which, as of Version 1.1, states:
 
 > By making a contribution to this project, I certify that:
 > 
@@ -56,7 +56,7 @@ which implies that the developer is asserting the terms of the DCO<sup>[7]</sup>
 
 This `Signed-of-by` line can be added to the Git commit log automatically using the standard `-s` option with `git commit -s` (using information already registered with Git locally).
 
-Some major projects are using the DCO with Git commit sign-offs for handling contributions including the Linux Kernel<sup>[8]</sup> and more recently the source code for GitLab itself <sup>[3],[4]</sup>.
+Some major projects are using the DCO with Git commit sign-offs for handling contributions, including the Linux Kernel<sup>[8]</sup> and more recently, the source code for GitLab itself <sup>[3],[4]</sup>.
 In addition, the Linux Foundation's CII Best Practices Badge Program<sup>[9]</sup> contains the Silver-level item:
 
 * The project SHOULD have a legal mechanism where all developers of non-trivial amounts of project software assert that they are legally authorized to make these contributions.
@@ -65,14 +65,14 @@ However, this MAY be implemented as a Contributor License Agreement (CLA), or ot
 
 A few issues must be considered when adopting the DCO for accepting contributions.
 First, since anyone can use any committer name and email address they want with a Git commit (e.g. using `git commit --amend --author "<any-author>"` and therefore impersonate someone else), greater assurance that the person signing off on the DCO is actually the author of the commit can be added by requiring commits to be GPG signed using the `-S` option with `git commit -s -S`<sup>[11]</sup>.
-(However, requiring GPG signing of all commits adds a lot of extra overhead and complexity which may be too much for many developers and therefore more limited usages of GPG signing are possible to provide some elevated assurances <sup>[12]</sup>.
+(However, requiring GPG signing of all commits adds a lot of extra overhead and complexity, which may be too much for many developers and therefore, more limited usages of GPG signing are possible to provide some elevated assurances <sup>[12]</sup>.
 It is unclear if any major project requires GPG signing of all commits to assert the DCO.)
 
 Second, for the DCO to be effective, every commit that contains a nontrivial contribution needs to contain the `Signed-off-by` line.
 Tools are available to assert that all commits in a GitHub Pull Request (PR) contain the `Signed-off-by` line<sup>[13]</sup>.
 (Note that tools to automate the signing of CLAs for GitHub PRs also exist if one wants to automate CLA signoffs as well<sup>[14]</sup>.)
 
-In summary, using a Developer Certificate of Origin (DCO) is a lightweight legal approach to provide cover in accepting contributions but it comes at the cost of requiring every nontrivial commit from a Pull Request for a proposed contribution to be signed-off by an outside contributor (and the process to go back and fix unsigned commits can be quite cumbersome for some people with poor Git knowledge and skills, or depending on how those commits and branches were constructed).
+In summary, using a Developer Certificate of Origin (DCO) is a lightweight legal approach to provide cover in accepting contributions. However, it does come at the cost of requiring every nontrivial commit from a Pull Request for a proposed contribution to be signed-off by an outside contributor (and the process to go back and fix unsigned commits can be quite cumbersome for some people with poor Git knowledge and skills, or depending on how those commits and branches were constructed).
 Therefore, for some developer communities, the upstream technical overhead and mechanics of applying the DCO may be more of an impediment to accepting outside contributions than the barriers to getting outside contributors or organizations to sign CLAs.
 
 ### Disclaimer
