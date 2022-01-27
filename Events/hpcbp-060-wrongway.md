@@ -1,6 +1,6 @@
 # Webinar: Wrong Way: Lessons Learned and Possibilities for Using the "Wrong" Programming Approach on Leadership Computing Facility Systems
 
-- Date: 2022-01-12
+- Date: 2022-02-16
 - Location: Online
 - Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar060
 - Organizers: The IDEAS Productivity Project
@@ -14,7 +14,7 @@ high-performance computers (HPC) and occur approximately monthly.
 Resource Information | Details
 :--- | :---			   
 Webinar Title | Wrong Way: Lessons Learned and Possibilities for Using the "Wrong" Programming Approach on Leadership Computing Facility Systems
-Date and Time | 2022-01-12 01:00 pm EST
+Date and Time | 2022-02-16 01:00 pm EST (rescheduled from January due to illness)
 Presenter | Philip Roth (Oak Ridge National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar060>	   
 
@@ -33,7 +33,8 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 #### Contributed by [Philip Roth](https://github.com/rothpc "Philip Roth GitHub profile")
 
 <!---
-Publish: no
+Publish: yes
+RSS Update: 2022-01-27
 Categories: skills
 Topics: online learning
 --->
