@@ -56,7 +56,7 @@ This "sign-off" implies that the developer is asserting the terms of the DCO<sup
 
 This `Signed-of-by` line can be added to the Git commit log automatically using the standard `-s` option with `git commit -s` (using information already registered with Git locally).
 
-Some major projects are using the DCO with Git commit sign-offs for handling contributions, including the Linux Kernel<sup>[8]</sup> and more recently, the source code for GitLab itself <sup>[3],[4]</sup>.
+Some major projects are using the DCO with Git commit sign-offs for handling contributions, including the Linux Kernel<sup>[8]</sup> and, more recently, the source code for GitLab itself <sup>[3],[4]</sup>.
 In addition, the Linux Foundation's CII Best Practices Badge Program<sup>[9]</sup> contains the Silver-level item:
 
 * The project SHOULD have a legal mechanism where all developers of non-trivial amounts of project software assert that they are legally authorized to make these contributions.
@@ -65,7 +65,7 @@ However, this MAY be implemented as a Contributor License Agreement (CLA), or ot
 
 A few issues must be considered when adopting the DCO for accepting contributions.
 First, since anyone can use any committer name and email address they want with a Git commit (e.g. using `git commit --amend --author "<any-author>"` and therefore impersonate someone else), greater assurance that the person signing off on the DCO is actually the author of the commit can be added by requiring commits to be GPG signed using the `-S` option with `git commit -s -S`<sup>[11]</sup>.
-(However, requiring GPG signing of all commits adds a lot of extra overhead and complexity, which may be too much for many developers and therefore, more limited usages of GPG signing are possible to provide some elevated assurances <sup>[12]</sup>.
+(However, requiring GPG signing of all commits adds a lot of extra overhead and complexity, which may be too much for many developers and, therefore, more limited usages of GPG signing are possible to provide some elevated assurances <sup>[12]</sup>.
 It is unclear if any major project requires GPG signing of all commits to assert the DCO.)
 
 Second, for the DCO to be effective, every commit that contains a nontrivial contribution needs to contain the `Signed-off-by` line.
