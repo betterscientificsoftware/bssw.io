@@ -33,7 +33,8 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 #### Contributed by [Philip Roth](https://github.com/rothpc "Philip Roth GitHub profile")
 
 <!---
-Publish: no
+Publish: yes
+RSS Update: 2022-01-27
 Categories: skills
 Topics: online learning
 --->
