@@ -6,6 +6,25 @@ Software—the foundation of discovery in computational science & engineering—
 Slide1 L: ../Articles/Blog/BSSwHighlights2021.md
 Slide1 R: ../images/Blog_2112_YIR_Montage.png
 Slide2 L: ../Articles/Blog/2022-01-2022BSSwFellowshipAnnounce.md
+Slide2 R: ../CuratedContent/TenYearReproducibilityChallenge.md
+Slide3 L: ../CuratedContent/WhatEveryComputerScientistShouldKnowAboutFloatingPointArithmetic.md
+Slide3 R: ../CuratedContent/InclusiveTermsResources.md
+Slide4 L: ../Articles/Blog/2021-12-sc21-swe-cse-bof.md
+Slide4 R: ../images/Blog_2112_SC21.png
+Slide5 L: ../CuratedContent/FORCE11SoftwareCitationImplementationWorkingGroup.md
+Slide5 R: ../Articles/Blog/2021-11-HPCAndTheLabManager.md
+Slide6 L: ../Events/hpcbp-060-wrongway.md
+Slide6 R: ../Events/2022-03-siam-pp22.md
+--->
+
+<!---
+Note: We have had upto 7 L and R panels in the carousel, even if the current carousel may be shorter.
+
+Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
+LCM: Saving for use again later
+Slide1 L: ../Articles/Blog/BSSwHighlights2021.md
+Slide1 R: ../images/Blog_2112_YIR_Montage.png
+Slide2 L: ../Articles/Blog/2022-01-2022BSSwFellowshipAnnounce.md
 Slide2 L: ../Articles/Blog/2021-11-HPCAndTheLabManager.md
 Slide3 L: ../Articles/Blog/2021-12-sc21-swe-cse-bof.md
 Slide3 R: ../images/Blog_2112_SC21.png
@@ -17,25 +36,6 @@ Slide6 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
 Slide6 R: ../images/Blog_2110_HPC-BP.png
 Slide7 L: ../ShortArticles/CodingConventions.md
 Slide7 R: ../Events/2022-01-SoftwareQualityDays.md
---->
-
-<!---
-Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
-LCM: Saving for use again later
-Slide1 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
-Slide1 R: ../images/Blog_2109_SX_OmicronA.png
-Slide2 L: ../Articles/Blog/2021-09-CollegevilleReportDay1.md
-Slide2 R: ../images/Blog_2109_Collegeville1.png
-Slide3 L: ../CuratedContent/SoftwareSustainabilityInstituteGuides.md
-Slide3 R: ../CuratedContent/ExecutableEnvironments.md
-Slide4 L: ../Articles/Blog/2021-08-registry-best-practices.md 
-Slide4 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
-Slide5 L: ../Articles/Blog/2021-08-IntegratingInterns.md
-Slide5 R: ../images/Blog_0821_Interns.png
-Slide6 L: ../Events/2021-10-XpertNetwork.md
-Slide6 R: ../Events/2021-10-wosss21.md
-Slide7 R: ../Events/hpcbp-057-sierra-and-elcapitan-coes.md
-Slide7 L: ../Events/2021-10-ssi-fellowship.md
 --->
 
 <!---
