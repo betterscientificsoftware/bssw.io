@@ -2,7 +2,7 @@
 
 <!--deck text start-->
 Floating point computations are the foundation for computational science and engineering software.
-As such, understanding the foundations of floating point data-types and operations are critical in the development of robust portable numerical software.
+As such, understanding the foundations of floating point data-types and operations is critical in the development of robust portable numerical software.
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
@@ -27,25 +27,25 @@ When implementing numerical algorithms involving real-world data solving ill-con
 The paper *"What Every Computer Scientist Should Know About Floating-Point Arithmetic"* provides a critical foundation for understanding modern floating-point data-types and computations approximating algorithms involving real numbers.
 The issues involved must be well understood by computer hardware developers, system software developers, and numerical software developers alike in order for it to be possible to implement robust numerical algorithms in a portable way.
 
-This paper covers the basics of floating-point including:
+This paper covers the basics of floating-point, including:
 
 * floating-point formats,
-* rounding error (e.g. guard digits) and measures of error (e.g. machine epsilon &epsilon;, absolute error),
+* rounding error (e.g., guard digits) and measures of error (e.g., machine epsilon &epsilon;, absolute error),
 * loss of basic associativity and loss of other basic properties of real arithmetic, and
 * catastrophic cancellation.
 
-In addition, the author covers IEEE floating-point standards including the IEEE 754 binary standard which addresses:
+In addition, the author covers IEEE floating-point standards, including the IEEE 754 binary standard which addresses:
 
-* bit-wise floating-point number data-structures (i.e. significant digits, exponents, sign),
+* bit-wise floating-point number data-structures (i.e., significant digits, exponents, sign),
 * rounding and accuracy requirements for basic floating-point operations,
-* overflow, underflow and special quantities (i.e. (signed) zero, denormalized numbers, NaNs, (signed) infinity &infin;),
+* overflow, underflow and special quantities (i.e., (signed) zero, denormalized numbers, NaNs, (signed) infinity &infin;),
 * floating-point exceptions, flags, and trap handlers,
 * rounding modes, and
-* conversions with integers and decimal (i.e. human-readable text-based) formats.
+* conversions with integers and decimal (i.e., human-readable text-based) formats.
 
 Great attention is given to the issue of catastrophic cancellation (the subtraction of two nearby numbers where the operands are also subject to rounding errors) and related floating-point issues.
 Several examples are given of how different numerical expressions can be reformulated to eliminate a catastrophic cancellation and/or avoid underflow/overflow and thereby increase the robustness and accuracy of the floating-point calculation to a wide range of input data.
-(Reformulating an expression to reduce floating-point errors and exceptions can often increase the complexity of the code and increase the operation count and computational cost so there are often trade-offs of numerical accuracy, robustness, code maintainability, and runtime speed that must be made when implementing a numerical algorithm using floating-point computations.)
+(Reformulating an expression to reduce floating-point errors and exceptions can often increase the complexity of the code and increase the operation count and computational cost, so there are often trade-offs of numerical accuracy, robustness, code maintainability, and runtime speed that must be made when implementing a numerical algorithm using floating-point computations.)
 
 System and compiler issues are also discussed where violations of basic floating-point foundations can make it very difficult to implement a robust numerical algorithm. For example, the author unequivocally states:
 
@@ -57,7 +57,7 @@ This is especially true on some of the more bleeding-edge high-performance compu
 As a result, numerical algorithm developers often have to rely on a smaller subset of the IEEE standard in order to develop a maximally portable robust implementation.
 
 Finally, the paper contains quite a few proofs of floating-point arithmetic, and these proofs serve several purposes.
-First, the proofs establish the foundation of floating-point operations which demonstrate that floating-point is not black magic but is a well-established mathematical approximation/discretization of real number arithmetic.
+First, the proofs establish the foundation of floating-point operations, which demonstrate that floating-point is not black magic but is a well-established mathematical approximation/discretization of real number arithmetic.
 Second, the proofs show that one can rigorously analyze the expressions in a floating-point algorithm and use that to spot areas of concern.
 Finally, these proofs show how important it is to have a standard like IEEE 754 in designing and implementing numerical algorithms by being able to rely on a few key numerical properties.
 
