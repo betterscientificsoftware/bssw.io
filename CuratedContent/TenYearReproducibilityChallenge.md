@@ -27,7 +27,7 @@ having your hand-written notes destroyed in a fire, it would still be wise to
 consider what would be necessary to allow you to reproduce your results in ten years.
 While there are many current technologies and practices that aid in reproducibility,
 there are also many new challenges, such as "rapidly evolving API's and reliance
-on third-party libraries", and fragmented code due to use of computational
+on third-party libraries" and fragmented code due to use of computational
 notebooks.  One common thread suggested from participants to encourage
 reproducibility is to increase documentation. Additional useful ideas can be
 found in the included reproducibility checklist.
