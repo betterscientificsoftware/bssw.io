@@ -1,10 +1,6 @@
 # Why testing coupling libraries is a nightmare
 
-**Hero Image:**
-
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2112_SC21.png' />
-
-#### Contributed by: [Frédéric Simonis](https://github.com/) and [Benjamin Uekermann](https://github.com/)
+#### Contributed by: [Frédéric Simonis](https://github.com/fsimonis), [Gerasimos Chourdakis](https://github.com/MakisH), and [Benjamin Uekermann](https://github.com/uekerman)
 #### Publication date: February 7, 2022
 
 Testing is easy, right? Your code is probably already automatically tested in some extent, even if you always wanted to increase the coverage, granularity, or set up a more modern infrastructure.
@@ -284,14 +280,18 @@ But, the question still remains: What are efficient ways to test the complete ec
 
 These are all open questions that we would like to defer to a second part of this article.
 Thankfully, the increasing stability of the core library frees up development time that can be used to tackle these issues and write about the journey of solving them.
-If you are interested in more details, please check out section 5 of the new [preCICE reference paper](TODO).
+If you are interested in more details, please check out section 5 of the new [preCICE reference paper](https://arxiv.org/abs/2109.14470).
 You may also be interested in the [preCICE Workshop 2022 (Feb 21-25)](https://precice.org/precice-workshop-2022.html) for a hands-on experience with preCICE. 
 
 ### Author bios
 
-Frédéric Simonis
+Frédéric Simonis is a researcher at the Technical University of Munich and core developer of preCICE. Following his interests, he has progressed from computer graphics and main-memory database systems to HPC, where he joined the preCICE project. His primary research goal is the extension of preCICE to adaptive meshes to support adaptive solvers as well as run-time re-meshing. He currently takes the leading role in maintenance, code modernization and release management of the preCICE library.
 
-Benjamin Uekermann
+Gerasimos Chourdakis is a doctoral candidate at the Technical University of Munich, working on transforming the preCICE project from an "as-is" 
+coupling library into a "batteries included" multi-physics ecosystem. 
+With this perspective, he takes the leading role in organizing the development and operations of the "flesh" of the preCICE ecosystem, including adapters for various solvers, tutorial cases, documentation, website, and testing, shaping these components for the preCICE community to grow upon. He is also researching methods for geometric multi-scale coupling and enjoys teaching topics related to research software engineering.
+
+Benjamin Uekermann is a junior professor in the CoE SimTech at the University of Stuttgart. He originally studied applied mathematics, followed by a PhD in computer science at the Technical University of Munich. As a postdoc, he was the scientific program manager of the German Priority Program for Exascale Computing Software (SPPEXA). He moreover hold a Marie-Sklodowska-Curie postdoc fellowship at Eindhoven University of Technology. His research focusses on the development of numerical methods and algorithms for multi-physics, multi-scale simulations. Since 2012, he has been one of the main developers of preCICE and is currently leading its development team.
 
 <!---
 Publish: yes
