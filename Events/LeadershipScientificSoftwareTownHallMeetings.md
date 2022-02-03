@@ -15,6 +15,7 @@ Website | https://leadershipscientificsoftware.github.io/LSSwTownHalls.html
 Schedule | 3-4:30pm ET on the third Thursday of every month
 Who may attend | Anyone who will respectfully engage in the discussion is welcome.
 Registration | [Zoom Registration Page] (https://exascaleproject.zoomgov.com/meeting/register/vJIsdO6oqzItGmIj7DFqqd3apnZ3EGwH0xM). Single registration for first year of meetings.
+Archives of past meetings | Available on the web site.
 
 As part of the Exascale Computing Project’s ongoing efforts, the ECP Software Technology leadership team is hosting a series of town hall events to engage the broader scientific software community, both to describe our software efforts in ECP and to establish dialogue with the broader scientific software community toward improving the sustainability of our software in the future.
 
