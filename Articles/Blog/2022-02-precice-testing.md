@@ -3,52 +3,52 @@
 #### Contributed by: [Frédéric Simonis](https://github.com/fsimonis), [Gerasimos Chourdakis](https://github.com/MakisH), and [Benjamin Uekermann](https://github.com/uekerman)
 #### Publication date: February 7, 2022
 
-Testing is easy, right? Your code is probably already automatically tested in some extent, even if you always wanted to increase the coverage, granularity, or set up a more modern infrastructure.
+Testing is easy, right? Your code is probably already automatically tested to some extent, even if you always wanted to increase the coverage, granularity, or set up a more modern infrastructure.
 
-Well... Testing starts to become challenging when one needs multiple software components to test even basic features of the code, and even more challenging when these components are MPI-parallel, written in different languages, and part of a larger simulation software ecosystem with a library at its core and several middle layers at its flesh.
+Well... Testing starts to become challenging when one needs multiple software components to test even basic features of the code, and even more challenging when these components are MPI-parallel, written in different languages, and part of a larger simulation software ecosystem with a library at its core and several layers in between.
 
-In this article, we are explaining the challenge of testing the preCICE coupling library and presenting technical solutions for testing parallel C++ libraries with similar requirements.
+In this article, we explore the some of the challenges we've faced in testing the preCICE coupling library and technical solutions we've used, which we believe would also be useful for testing other parallel C++ libraries with similar requirements.
 
 #### Maintaining research software
 
 The [preCICE](https://precice.org/) project aims to provide an ecosystem of tools to assemble partitioned multi-physics simulations.
-Core of this ecosystem is the open-source coupling library itself.
-It aims to couple existing programs (solvers) capable of simulating a sub-part of the complete physics involved in a simulation.
+The core of this ecosystem is the open-source coupling library itself.
+It aims to couple existing programs (solvers) capable of simulating parts of the complete physics involved in a simulation.
 It is designed to be a highly flexible and scalable tool, which allows to rapidly prototype complex multi-physics scenarios.
 A [vibrant community](https://precice.org/community.html) is already using preCICE on laptops, local clusters, and supercomputers.
 
 As usual, flexibility comes at a cost and in this case the cost is internal complexity.
-A complex system is not necessarily a problem, but it is prone to turning into one as soon as the fundamental know-how and the confidence in its correctness fade away.
+A complex system is not _necessarily_ a problem, but it is prone to become one as soon as the fundamental know-how and the confidence in its correctness fade away.
 This threat is especially apparent in rapidly changing environments such as academia.
 
-We, the preCICE development team, faced exactly this situation 4 years ago and decided to tackle the issue before the project would have started to decay.
-Finishing doctoral candidates lead to knowledge gaps and the lack of accessible testing directly impacted the confidence in the correctness of the existing code.
+We, the preCICE development team, faced exactly this situation 4 years ago and decided to tackle the issue before the project started to decay.
+The departure of recent doctoral students led to knowledge gaps and the lack of accessible testing directly impacted the confidence in the correctness of the existing code.
 
-Additionally, growing user-bases result in growing responsibility as bugs effect an increasing amount of users.
-Software releases required in-person gatherings and extensive manual testing of a range of test cases.
-Bug fixes were only possible whenever the know-how was contained in a single room.
-The result were stressful releases, leading to release anxiety and an overly conservative stance towards change.
+Additionally, a growing user-base resulted in growing responsibility for support as bugs effected an increasing number of users.
+Software releases required in-person gatherings and extensive manual testing.
+Bug fixes were only possible when the right know-how was present in a single room.
+The result was stressful releases, leading to release anxiety and an overly conservative stance towards change.
 To change this situation, the team needed to raise and keep the confidence in the correctness of the code.
 
 The solution sounded simple: migrate to a sustainable testing framework, make tests simple to run, setup a continuous integration system to prevent regressions, and establish development workflows prominently displaying the test status.
-What started five years ago is an ongoing journey and nothing we have ever imagined.
+What started five years ago is an ongoing journey and nothing we had ever imagined.
 In this article, we want to tell you where we are today, how we got there, and what we learned on the way.
 
 ### The challenge
 
-Testing the preCICE library has always been a challenge, which is mainly due to the mixture of some intrinsic complexities, stemming from the nature of coupled simulations.
+Testing the preCICE library has always been a challenge, which is mainly due to a combination of intrinsic complexities stemming from the nature of coupled simulations.
 Individually, these special features do not sound very daunting nor unusual.
-Handling all of them at the same time is the real challenge.
+Handling all of them at the same time, however, is the real challenge.
 
 These complexities are:
-Firstly, preCICE follows the library approach, meaning every solver links against the preCICE library and manages its own instance of preCICE. These need to coordinate themselves as needed.
+Firstly, preCICE follows the library approach, meaning every solver links against the preCICE library and manages its own instance of preCICE. These need to coordinate themselves appropriately.
 Secondly, preCICE adheres to the parallelism of the solver.
 While a solver using thread-level parallelization may still be seen as a single logical unit, things get complicated for process-based parallelizations such as MPI.
 Multiple processes mean multiple instances, which requires additional coordination and hence internal communication.
-Thirdly, preCICE is used for partitioned simulations, meaning there are at least two separate codes involved in a simulation.
+Thirdly, preCICE is used for partitioned simulations, meaning there are at least two separate solver codes involved in a simulation.
 While these codes communicate via preCICE, they may still run in separate MPI communicators.
 Finally, the preCICE project has been around for some years.
-Its code-base predates the C++11 STL, and partially followed outdated paradigms.
+Its code-base predates the C++11 Standard Template Library (STL), and portions followed outdated paradigms.
 Efficiently modernizing such code required a good test suite and confidence in the correctness of the code, which needed to be established first.
 
 ### Choosing a sustainable test system
@@ -59,11 +59,11 @@ The tarch testing framework had fulfilled its duty and needed to be replaced wit
 
 What features did we need though?
 We need to write traditional unit tests for geometric functions, data mapping schemes and the like, none of which are a problem for any framework out there.
-We also need to test functionality that relies on communicators, such as distributed quasi-Newton acceleration methods or distributed data-mapping schemes using the PETSc library.
-Therefore, we needed an MPI-aware testing framework, something that allows to split and resize a communicator and outputs meaningful information even though it runs in parallel.
+We also need to test functionality that relies on MPI communicators, such as distributed quasi-Newton acceleration methods or distributed data-mapping schemes using the PETSc library.
+Therefore, we needed an MPI-aware testing framework, something that allows to split and resize a communicator and outputs meaningful information as it runs in parallel.
 
-And this is where we encountered our first hurdle.
-We could not find a single MPI-aware testing framework out there.
+This is where we encountered our first hurdle.
+We could not find a single MPI-aware C++ testing framework out there.
 Thus, we had to customize an existing one.
 The only constraint was the support for a custom initialization method, which is mandatory as the framework needs to initialize MPI.
 As we already had Boost as a dependency, we chose [Boost.Test](https://www.boost.org/doc/libs/release/libs/test/) for this task.
@@ -71,34 +71,34 @@ As we already had Boost as a dependency, we chose [Boost.Test](https://www.boost
 The initial testing strategy was as follows:
 Unit tests which do not utilize a communicator ignore MPI altogether.
 Higher-level (i.e., integration) tests may split and resize `MPI_COMM_WORLD` as needed and are responsible to cleanup afterwards.
-As many other, simple solutions work, but sooner or later, they get challenged by unforeseen consequences. 
+As is often the case, simple solutions like this work, but sooner or later, they are challenged by unforeseen consequences. 
 
 ### Managing global resources
 
 preCICE internally used a singleton style to manage global resources such as MPI or the logging system.
 If a single test changes this global state and omits its cleanup, then this global state leaks into successive tests. 
-Furthermore, failing parallel tests can lead to leftover entries in receive and send buffers, which leads to a shift in the data transmission.
-Thus all tests relying on global state implicitly depend on each other in reverse-chronological order.
+Furthermore, failing parallel tests can lead to leftover entries in receive and send buffers, which leads communication problems for subsequent tests.
+Thus all tests relying on global state implicitly depend on each one executed previously.
 Thoroughly testing preCICE requires many fine-grained tests, leading to countless implicit dependencies.
 
 After years of implementing tests for the majority of internal components, this cobweb of dependencies turned into a problem.
 Inconsistent and complex setup and clean-up methods led to a copy-paste mentality, which was the perfect breeding ground for mistakes.
 Some tests would succeed in isolation and fail as part of a test suite.
 Some parallel tests would hang or fail due to receiving incorrect data from stale entries in receive buffers.
-Debugging tests turned into a chore and often required experts of multiple components to find potential overarching issues.
+Debugging tests turned into a chore and often required experts in multiple components to find potential overarching issues.
 While extensive testing improved the overall confidence in the correctness of code, it became a burden whenever things went wrong without obvious reasons.
 
 ### Unifying unit tests
 
 We realized that we needed a uniform system that would allow us to define the _scenario_ of a test.
 As an example scenario, let us consider a test using an MPI communicator with two ranks.
-Then, this uniform system would be responsible for checking if there are two ranks available, synchronizing all ranks to prevent interference between succeeding tests, restricting the communicator to two ranks and exiting the test on all unused ranks.
+In this case, this uniform system would be responsible for checking if there are two ranks available, synchronizing all ranks to prevent interference between succeeding tests, restricting the communicator to two ranks and exiting the test on all unused ranks.
 During the test, the system should provide access to local information, such as the current rank, comm size, and the communicator itself.
 After the test completes, the system would have to revert all applied changes.
 
 Translating the above into C++ can be done in small incremental steps, starting with the _context_.
 The context is bound to the entire lifetime of a test, which can be represented using a context object.
-Constructors and destructors then handle synchronization, initialization, and cleanup (following [RAII](https://en.cppreference.com/w/cpp/language/raii)):
+Constructors and destructors then handle synchronization, initialization, and cleanup (following the concept of resource acquisition is initialization [RAII](https://en.cppreference.com/w/cpp/language/raii)):
 ```cpp
 struct TestContext {
     TestContext(SCENARIO); // Synchronization and initalization
@@ -121,7 +121,7 @@ BOOST_TEST(Feature) {
 ```
 
 Next up is the description of a `SCENARIO`.
-Its simplest form would to run on one or multiple ranks.
+Its simplest form would be the number of ranks required for the test.
 [User-defined literals in C++](https://en.cppreference.com/w/cpp/language/user_literal) allow us to create expressive constructs for this.
 ```cpp
 struct Ranks { unsigned long long count; };
@@ -138,7 +138,7 @@ BOOST_TEST(ParallelFeature) {
   BOOST_TEST(something);
 }
 ```
-A macro prevents needless repetition, potentially inconsistent names of the `context` object and improves readability:
+A macro prevents needless repetition, potentially inconsistent names of the `context` object, and improves readability:
 ```cpp
 #define PRECICE_TEST(...)           \
   TestContext context(__VA_ARGS__); \
@@ -156,7 +156,7 @@ An example would be distributed data-mapping schemes implemented using PETSc.
 To handle this, we define named requirements and let the test system handle the initialization order.
 We use an `enum struct Require` to define requirements by name and then handle them by implementing a [variadic](https://en.cppreference.com/w/cpp/language/variadic_arguments) constructor for `TestContext`.
 The `enum struct` requires the user to explicitly name of the enumeration, which improves readability.
-This allows us to write expressive test scenarios by defining the requirement directly after the required amount of ranks.
+This allows us to write expressive test scenarios by defining the requirement directly after the required number of ranks.
 ```cpp
 enum struct Require { PETSc };
 
@@ -172,9 +172,9 @@ Furthermore, this system executes cleanup reliably at the end of the test.
 
 ### Unifying integration tests
 
-Integration tests check features from the user-perspective, relying primarily on the API of preCICE.
-The main difference towards the unit tests is the partitioned nature of these tests.
-In practice, participants are started in isolation, connect to each other, and then communicate.
+Integration tests check features from the user perspective, relying primarily on the API of preCICE.
+The main difference from unit tests is the partitioned nature of integration tests.
+In practice, participants in the integration are started in isolation, connect to each other, and then communicate.
 Hence, these participants require isolated communicators and their identity needs to be available as local information within tests.
 For example: a parallel participant called `Fluid` running on two ranks coupled to a serial participant called `Solid`.
 
@@ -208,8 +208,8 @@ Participant& Participant::operator()(Ranks r) {
 }
 ```
 
-These participants each require their own MPI communicator, which requires to split the communicator during initialization of the test.
-We implement this by computing the total amount of requested ranks followed by a resize and finally a split.
+These participants each require their own MPI communicator, which requires splitting the communicator during initialization of the test.
+We implement this by computing the total number of ranks required, followed by a resize and finally a split.
 This test system knows both the available MPI ranks as well as the complete requested setup allowing for early checks at run-time of common copy-paste mistakes such as duplicated names or requesting too many ranks.
 To simplify the implementation of integration tests, we turned common queries into methods of `TextContext`.
 This is especially useful for simplifying the control-flow of distributed tests and integrating names and ranks directly into the code:
@@ -247,17 +247,17 @@ BOOST_TEST(FSIWithParallelFluid) {
 
 ### Impact
 
-This entire test system has a wide-ranging impact on the core library, which can be grouped into two key areas.
+This testing system has had a wide-ranging impact on the core library, which can be grouped into two key areas.
 
 The first area is usability.
 Tests are now far easier to write and most importantly easier to read.
 Reduced complexity and improved consistency are not the only reasons though.
 The codified scenarios are now easy to understand, which makes testing more approachable and generally less daunting for both seasoned developers as well as less involved contributors.
 Beyond the scenario specification, the control flow becomes more natural as it directly incorporates names of participants and their ranks.
-All of the above is crucial for bringing new developers quickly up to speed.
+All of this is crucial for bringing new developers quickly up to speed.
 
-The second area is debugability, which has improved dramatically.
-Synchronization points at the beginning of the tests keep all ranks in a constrained state, this mainly reduces interleaved output for better readability.
+The second area is debuggability, which has improved dramatically.
+Synchronization points at the beginning of the tests keep all ranks in a constrained state, which reduces interleaved output for better readability.
 The consistent setup now guarantees a well-defined global state, which does not leak between tests anymore.
 The remaining issue is leftover entries in receive and send buffers, which are now only possible if a test silently fails.
 
@@ -268,18 +268,21 @@ The additional software layers and dependencies make this a far more complex mat
 
 While preCICE is a library written in C++, many solvers are not.
 These solvers need a translation layer from their language to the preCICE C++ API.
-Such _language bindings_ are required for both languages like C, Fortran, Python, Julia, as well as complete systems like Matlab.
+Such _language bindings_ are required for languages like C, Fortran, Python, Julia, as well as systems like Matlab.
 Going a step further, solver _adapters_ separate the coupling physics that the user wants to define, from the calls to preCICE.
 What are efficient ways of testing such translation layers and adapters for correctness and compatibility, without relying on the pillars they bridge?
 
-On the next layer, complete coupled simulations that rely on multiple components from the preCICE ecosystem require testing, both for correctness and performance regressions.
+In the next layer, complete coupled simulations that rely on multiple components from the preCICE ecosystem require testing, both for correctness and performance regressions.
 We test common combinations using validation cases, which often require various solvers, potentially written in various languages.
-Testing this entire ecosystem of layers and dependencies between various software packages is what we call _system tests_.
+Testing this entire ecosystem of layers and dependencies between various software packages are what we call _system tests_.
 After many development hours and multiple prototypes, this testing system has slowly begun to converge to a mature state.
 But, the question still remains: What are efficient ways to test the complete ecosystem in a reasonable time-frame?
 
-These are all open questions that we would like to defer to a second part of this article.
+These are all open questions that we would like to defer to a future article.
 Thankfully, the increasing stability of the core library frees up development time that can be used to tackle these issues and write about the journey of solving them.
+
+### Additional information
+
 If you are interested in more details, please check out section 5 of the new [preCICE reference paper](https://arxiv.org/abs/2109.14470).
 You may also be interested in the [preCICE Workshop 2022 (Feb 21-25)](https://precice.org/precice-workshop-2022.html) for a hands-on experience with preCICE. 
 
