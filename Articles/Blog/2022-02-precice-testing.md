@@ -9,7 +9,7 @@ Well... Testing starts to become challenging when one needs multiple software co
 
 In this article, we explore the some of the challenges we've faced in testing the preCICE coupling library and technical solutions we've used, which we believe would also be useful for testing other parallel C++ libraries with similar requirements.
 
-#### Maintaining research software
+### Maintaining research software
 
 The [preCICE](https://precice.org/) project aims to provide an ecosystem of tools to assemble partitioned multi-physics simulations.
 The core of this ecosystem is the open-source coupling library itself.
