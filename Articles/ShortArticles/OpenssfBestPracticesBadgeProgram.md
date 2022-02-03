@@ -116,8 +116,6 @@ This site allows project maintainers to create an entry for their project (which
 (Again, only a subset of practices allow an "N/A" response.)
 An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
 
-**??? Edited up to here on 1/19/2022 ???**
-
 <br>
 
 <a name="example_badge_app_item"/>
@@ -129,7 +127,7 @@ An example of an project's best practice item marked as "Met" with justification
 <br>
 
 After a project creates an entry on the OpenSSF Best Practices Badge App site, the Badge App site provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.
-For example, one project that has achieved 99% to a passing badge shows the following scores in each category:
+For example, one project that has achieved 99% to a Passing badge shows the following scores in each category:
 
 <br>
 
@@ -143,7 +141,7 @@ For example, one project that has achieved 99% to a passing badge shows the foll
 
 This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.
 One can then expand a deficient category (the "Security" category in this example) and see which criteria are not being met and why.
-One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories (i.e. by clicking the "Hide met & N/A" then the "Expand panels" buttons):
+One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories, for example, by clicking the "Hide met & N/A" then the "Expand panels" buttons as shown below:
 
 <br>
 
@@ -169,10 +167,10 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <br>
 
-Note that of the 4100 registered projects on the Badge App site (as of 10/7/2021), 637 projects have achieved a Passing-level badge, 21 have achieved a Silver-level badge, and just 10 have achieved a Gold-level badge.
-So while approximately 15% of the registered projects have achieved a Passing-level badge, only 0.5% have achieved a Silver-level badge and only 0.24% have achieved a Gold-level badge.
-This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieved a Passing badge where only 3% of Passing-level projects went on to achieve a Silver-level badge.
-But this data shows that about 33% of the projects that achieve a Silver-level badge go on to achieve a Gold-level badge.
+Note that of the ???4100??? registered projects on the Badge App site (as of ???10/7/2021???), ???637??? projects have achieved a Passing-level badge, ???21??? have achieved a Silver-level badge, and just ???10??? have achieved a Gold-level badge.
+So while approximately ???15%??? of the registered projects have achieved a Passing-level badge, only ???0.5%??? have achieved a Silver-level badge and only ???0.24%??? have achieved a Gold-level badge.
+This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieved a Passing badge where only ???3%??? of Passing-level projects went on to achieve a Silver-level badge.
+But this data shows that about ???33%??? of the projects that achieve a Silver-level badge go on to achieve a Gold-level badge.
 Therefore, it would appear that the barrier (or reluctance) of going from the Silver-level to the Gold-level is small compared to going from the Passing-level to the Silver-level.
 
 
@@ -182,15 +180,15 @@ Therefore, it would appear that the barrier (or reluctance) of going from the Si
 
 One of the unique features of the OpenSSF Best Practices is the significant focus on security best practices.
 For example, of the 67 best practices listed at the Passing level, 16 of them are in the area of security.
-And of the 55 Silver-level practices and 23 Gold-level practices, 18 and 5, respectively are in the area of security.
-The reason that is so interesting is that most of the focus on software engineering best practices only pays a cursory treatment to security.
+And of the 55 Silver-level practices and 23 Gold-level practices, 18 and 5, respectively, are in the area of security.
+The reason that is so interesting is that much of the software development communities focus on software engineering best practices only pays a cursory treatment to security.
 For example, of the over 900 pages in the book "Code Complete: 2nd Edition" [???], exactly one paragraph is devoted to the area of software security in section 3.5 "Architecture Prerequisite":
 
 > The architecture should describe the approach to design-level and code-level security.
 > If a thread model has not previously been built, it should be built at architecture time.
 > Coding guidelines should be developed with security implications in mind, including approaches to handling buffers, rules for handling untrusted data (data input from users, cookies, configuration data, and other external interfaces), encryption, level of detail contained in error messages, protected secrete data that's in memory, and other issues.
 
-And other standard texts on software engineering best practices never even mention the word "security".
+In addition, other standard texts on software engineering best practices never even mention the word "security".
 
 ToDo: Finish this section!
 
@@ -199,11 +197,11 @@ ToDo: Finish this section!
 
 ## OpenSSF Best Practices as a learning tool
 
-As of this writing, there are current unique 129 best practices listed across the three levels in a wide number of categories.
-Many of these items have detailed explanatory descriptions and the descriptions link to more information.
+As of this writing, there are currently 129 unique best practices listed across the three levels in a wide number of categories.
+Many of these items have detailed explanatory descriptions with links to more information.
 Just carefully reading through all of these practices and their descriptions and following a few of the links can take halve a day or more.
-And this material and the material being linked to provides what is considered the state-of-the-art in each area in the open source community.
-Therefore, the OpenSSF Best Practices can serve as an effective learning tool for the state of the art in software engineering best practices.
+And this material and the material being linked to provides what can be considered the state-of-the-art in each area in the open source community.
+Therefore, the OpenSSF Best Practices can serve as an effective learning tool for the state of the art in open-source software engineering best practices.
 
 Even if one has been in the software engineering and open source area for many years, one may not be aware of what is considered the current state-of-the-art and best practice.
 For example, for many years Contributor License Agreements (CLAs) were considered best practice and the recommended way for open source projects to manage IP and copyright issues related to contributions from different individuals and organizations.
@@ -216,18 +214,18 @@ Without a resource like the OpenSSF Best Practices, it would be very hard for ma
 
 ## OpenSSF Best Practices as a road-map for continuous improvement
 
-As described above, the Badge App site provides the current status a percentage completion to the next badge for a given project.
+As described above, the Badge App site provides the current status as a percentage completion to the next badge level for a given project.
 This percentage completion and the number of satisfied practices in each area provides a simple metric and a motivator for improvement for the project.
-For example, if a project is currently at 86% of completion for a Passing badge and has only 8 of the 13 Quality practices, then it is clear where to look at where to improve.
+For example, if a project is currently at 86% of completion for a Passing badge and has only 8 of the 13 Quality practices, then it is clear where to look at improving.
 
 Also, the Badge App site is set up to send out regular reminders about the status of one's project and provide encouragement to continue making progress.
 For example, below is an email what was sent out by the Badge App for the TriBITS project:
 
 ----
 
-From: badgeapp@bestpractices.coreinfrastructure.org <badgeapp@bestpractices.coreinfrastructure.org> 
-Sent: Saturday, September 11, 2021 7:00 PM
-To: Bartlett, Roscoe A <rabartl@sandia.gov>
+From: badgeapp@bestpractices.coreinfrastructure.org <br>
+Sent: Saturday, September 11, 2021 7:00 PM<br>
+To: `<...>`<br>
 Subject: [EXTERNAL] Your project does not yet have the "best practices" badge
 
 **Automated Best Practices Badge Reminder for TriBITS Core**
@@ -248,7 +246,7 @@ Thank you for your time.
 
 ----
 
-I personally found the reminder helpful and it eas 
+I personally found the reminder helpful and it make it easy to check up on where my project was lacking.
 
 
 <a name="standard_project_index"/>
@@ -272,7 +270,7 @@ ToDo: Describe:
 
 * Replace all of the screenshots showing "CII" with the updated "OpenSSF" pages.
 
-* Go over my presentation and make sure I am covering everything in that presentation.
+* Go over my CII Best Practices presentation and make sure I am covering everything in that presentation.
 
 * Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
 
