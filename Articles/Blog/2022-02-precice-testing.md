@@ -3,53 +3,53 @@
 #### Contributed by: [Frédéric Simonis](https://github.com/fsimonis), [Gerasimos Chourdakis](https://github.com/MakisH), and [Benjamin Uekermann](https://github.com/uekerman)
 #### Publication date: February 7, 2022
 
-Testing is easy, right? Your code is probably already automatically tested to some extent, even if you always wanted to increase the coverage, granularity, or set up a more modern infrastructure.
+Testing is easy, right? Your code is probably already automatically tested to some extent, even if you always wanted to increase the coverage, granularity, or set up a more modern infrastructure. 
 
-Well... Testing starts to become challenging when one needs multiple software components to test even basic features of the code, and even more challenging when these components are MPI-parallel, written in different languages, and part of a larger simulation software ecosystem with a library at its core and several layers in between.
+Well ... Testing starts to become challenging when one needs multiple software components to test even basic features of the code, and even more challenging when these components are MPI-parallel, written in different languages, and part of a larger simulation software ecosystem with a library at its core and several layers in between.
 
-In this article, we explore the some of the challenges we've faced in testing the preCICE coupling library and technical solutions we've used, which we believe would also be useful for testing other parallel C++ libraries with similar requirements.
+This article explores the some of the challenges we've faced in testing the preCICE coupling library and technical solutions we've used, which we believe would also be useful for testing other parallel C++ libraries with similar requirements.
 
 ### Maintaining research software
 
-The [preCICE](https://precice.org/) project aims to provide an ecosystem of tools to assemble partitioned multi-physics simulations.
-The core of this ecosystem is the open-source coupling library itself.
-It aims to couple existing programs (solvers) capable of simulating parts of the complete physics involved in a simulation.
-It is designed to be a highly flexible and scalable tool, which allows to rapidly prototype complex multi-physics scenarios.
+The [preCICE](https://precice.org/) project aims to provide an ecosystem of tools to assemble partitioned multiphysics simulations.
+The core of this ecosystem is the open-source coupling library itself, which
+aims to couple existing programs (solvers) capable of simulating parts of the complete physics involved in a simulation.
+The coupling library is designed to be a highly flexible and scalable tool, which allows rapid prototyping of complex multiphysics scenarios.
 A [vibrant community](https://precice.org/community.html) is already using preCICE on laptops, local clusters, and supercomputers.
 
-As usual, flexibility comes at a cost and in this case the cost is internal complexity.
+As usual, flexibility comes at a cost, and in this case the cost is internal complexity.
 A complex system is not _necessarily_ a problem, but it is prone to become one as soon as the fundamental know-how and the confidence in its correctness fade away.
 This threat is especially apparent in rapidly changing environments such as academia.
 
 We, the preCICE development team, faced exactly this situation 4 years ago and decided to tackle the issue before the project started to decay.
-The departure of recent doctoral students led to knowledge gaps and the lack of accessible testing directly impacted the confidence in the correctness of the existing code.
+The departure of recent doctoral students led to knowledge gaps, and the lack of accessible testing directly impacted confidence in the correctness of the existing code.
 
-Additionally, a growing user-base resulted in growing responsibility for support as bugs effected an increasing number of users.
+Additionally, a growing user-base resulted in growing responsibility for support, as bugs effected an increasing number of users.
 Software releases required in-person gatherings and extensive manual testing.
-Bug fixes were only possible when the right know-how was present in a single room.
+Bug fixes were possible only when the right know-how was present in a single room.
 The result was stressful releases, leading to release anxiety and an overly conservative stance towards change.
-To change this situation, the team needed to raise and keep the confidence in the correctness of the code.
+To change this situation, the team needed to raise and keep confidence in the correctness of the code.
 
 The solution sounded simple: migrate to a sustainable testing framework, make tests simple to run, setup a continuous integration system to prevent regressions, and establish development workflows prominently displaying the test status.
 What started five years ago is an ongoing journey and nothing we had ever imagined.
-In this article, we want to tell you where we are today, how we got there, and what we learned on the way.
+In this article, we want to tell you where we are today, how we got there, and what we have learned on the way.
 
 ### The challenge
 
-Testing the preCICE library has always been a challenge, which is mainly due to a combination of intrinsic complexities stemming from the nature of coupled simulations.
-Individually, these special features do not sound very daunting nor unusual.
+Testing the preCICE library has always been a challenge, mainly due to a combination of intrinsic complexities stemming from the nature of coupled simulations.
+Individually, these special features do not sound daunting or unusual.
 Handling all of them at the same time, however, is the real challenge.
 
 These complexities are:
-Firstly, preCICE follows the library approach, meaning every solver links against the preCICE library and manages its own instance of preCICE. These need to coordinate themselves appropriately.
-Secondly, preCICE adheres to the parallelism of the solver.
+First, preCICE follows a library-based approach, meaning that every solver links against the preCICE library and manages its own instance of preCICE; these instances require appropriate coordination.
+Second, preCICE adheres to the parallelism of the solver.
 While a solver using thread-level parallelization may still be seen as a single logical unit, things get complicated for process-based parallelizations such as MPI.
-Multiple processes mean multiple instances, which requires additional coordination and hence internal communication.
-Thirdly, preCICE is used for partitioned simulations, meaning there are at least two separate solver codes involved in a simulation.
+Multiple processes mean multiple instances, requiring additional coordination and hence internal communication.
+Third, preCICE is used for partitioned simulations, meaning that at least two separate solver codes are involved in a simulation.
 While these codes communicate via preCICE, they may still run in separate MPI communicators.
-Finally, the preCICE project has been around for some years.
-Its code-base predates the C++11 Standard Template Library (STL), and portions followed outdated paradigms.
-Efficiently modernizing such code required a good test suite and confidence in the correctness of the code, which needed to be established first.
+Finally, the preCICE project has been around for some years;
+its code-base predates the C++11 Standard Template Library (STL), and portions followed outdated paradigms.
+Efficiently modernizing such code requires a good test suite and confidence in the correctness of the code, which needed to be established first.
 
 ### Choosing a sustainable test system
 
@@ -58,13 +58,13 @@ A copy of tarch was directly included in the source of preCICE. When the only de
 The tarch testing framework had fulfilled its duty and needed to be replaced with an actively maintained testing framework.
 
 What features did we need though?
-We need to write traditional unit tests for geometric functions, data mapping schemes and the like, none of which are a problem for any framework out there.
-We also need to test functionality that relies on MPI communicators, such as distributed quasi-Newton acceleration methods or distributed data-mapping schemes using the PETSc library.
-Therefore, we needed an MPI-aware testing framework, something that allows to split and resize a communicator and outputs meaningful information as it runs in parallel.
+We needed to write traditional unit tests for geometric functions, data mapping schemes and the like, none of which are a problem for existing testing frameworks.
+We also needed to test functionality that relies on MPI communicators, such as distributed quasi-Newton acceleration methods or distributed data-mapping schemes using the PETSc library.
+Therefore, we needed an MPI-aware testing framework, something that allows splitting and resizing a communicator, as well as output of meaningful information as it runs in parallel.
 
 This is where we encountered our first hurdle.
-We could not find a single MPI-aware C++ testing framework out there.
-Thus, we had to customize an existing one.
+We could not find a single MPI-aware C++ testing framework in the community;
+thus, we had to customize an existing one.
 The only constraint was the support for a custom initialization method, which is mandatory as the framework needs to initialize MPI.
 As we already had Boost as a dependency, we chose [Boost.Test](https://www.boost.org/doc/libs/release/libs/test/) for this task.
 
