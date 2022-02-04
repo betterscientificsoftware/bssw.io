@@ -40,11 +40,6 @@ The whole country once again turned its attention to talking about racially-orie
 This included the world of technology and software.
 Gabriel read an article about master/slave terminology in technology and approached project leadership for Sierra about addressing it.
 
-For Ben on the Ale3d project, the catalyzing event was a dependency announcing its plans to replace "master/slave" with "primary/secondary".
-For NNSA labs, the terms "primary" and "secondary" typically refer to the major components of a thermonuclear weapon.
-Their presence is often accompanied by requirements for handling classified information.
-Although the terms "primary" and "secondary" are not themselves classified, using them as prolificly as "master/slave" have been used would present significant challenges in ensuring clean and clear separation between classified and UNclassified information.
-
 Ben felt it was important to get out ahead of these plans and facilitate broader dialog on more workable alternative terms.
 In the Ale3d project, "master/slave" terminology was restricted almost entirely to their implementation of slide surfaces where two different parts in a real-world object maintain surface-contact but move relative to each other.
 After negotiations with numerous stakeholders, everyone agreed a suitable replacement was simply "Side A" and "Side B".
