@@ -1,9 +1,11 @@
-# Why testing coupling libraries is a nightmare
+# Overcoming Complexity in Testing Multiphysics Coupling Software  
 
 #### Contributed by: [Frédéric Simonis](https://github.com/fsimonis), [Gerasimos Chourdakis](https://github.com/MakisH), and [Benjamin Uekermann](https://github.com/uekerman)
 #### Publication date: February 7, 2022
 
-Placeholder. Deck text goes here. 
+<!-- start of deck text -->
+Testing complex software can easily get out of hand, especially when your product is a multiphysics coupling library.  Fortunately, we've found some strategies that have helped tame the nightmare. 
+<!-- end of deck text -->
 
 Testing is easy, right? Your code is probably already automatically tested to some extent, even if you always wanted to increase the coverage, granularity, or set up a more modern infrastructure. 
 
