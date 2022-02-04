@@ -5,7 +5,7 @@
 - Organizers: ECP Software Technology
 
 <!-- deck text start -->
-Building community and understanding around the development and sustainable delivery of leadership scientific software
+The Leadership Scientific Software Town Hall meeting series focus on building community and understanding around the development and sustainable delivery of leadership scientific software.
 <!-- deck text end -->
 
 Event Information | Details
