@@ -1,7 +1,7 @@
 
 # Leadership Scientific Software (LSSw) Portal
 
-Building community and understanding around the development and sustainable delivery of leadership scientific software
+The Leadership Scientific Software (LSSw) portal focusses on building community and understanding around the development and sustainable delivery of leadership scientific software.
 
 Resource information | Details
 :--- | :---
