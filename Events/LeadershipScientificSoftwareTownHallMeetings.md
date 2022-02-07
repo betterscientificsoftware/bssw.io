@@ -29,6 +29,6 @@ The hope is that the discussions during the town hall events will grow the leade
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 <!---
-Publish: yes
+Publish: no
 Topics: Projects and Organizations, High-Performance Computing (HPC)
 --->
