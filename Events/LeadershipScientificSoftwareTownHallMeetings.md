@@ -25,7 +25,7 @@ As a community, we plan to build up the ECP ST efforts and E4S as part of an eff
 
 The hope is that the discussions during the town hall events will grow the leadership scientific software community and lead to a better understanding of sustainability, and the challenges and opportunities for improving it.
 
-#### Publication date: February 17, 2022
+#### Publication date: February 7, 2022
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 <!---

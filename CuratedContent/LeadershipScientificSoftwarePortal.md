@@ -18,7 +18,7 @@ The LSSw portal is dedicated to supporting communication and community building 
 Community resources include a mailing list and Slack channel in addition to the web site.  There are also Town Hall meetings which are organized on a monthly basis and archived on the portal site.
 
 #### Contributed by [Mike Heroux](http://github.com/maherou)
-#### Publication date: 2022-02-17
+#### Publication date: 2022-02-07
 
 <!---
 Publish: yes
