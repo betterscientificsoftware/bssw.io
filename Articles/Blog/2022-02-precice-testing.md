@@ -104,7 +104,7 @@ The context is bound to the entire lifetime of a test, which can be represented 
 Constructors and destructors then handle synchronization, initialization, and cleanup (following the concept of resource acquisition is initialization [RAII](https://en.cppreference.com/w/cpp/language/raii)):
 ```cpp
 struct TestContext {
-    TestContext(SCENARIO); // Synchronization and initalization
+    TestContext(SCENARIO); // Synchronization and initialization
     ~TestContext();        // Cleanup
     bool valid() const;    // Is this rank used by the test?
     int rank, size;        // Local information
