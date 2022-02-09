@@ -27,7 +27,7 @@ Most of the workshop time will be spent in interactive discussions, preceded by 
 
 ## Submissions
 
-Prospective participants are encouraged to submit position papers (limit of 2 pages, not counting references; no format prescribed) on topics related to RSE issues. Highly encourgaed are the submissions on the keynote topic:
+Prospective participants are encouraged to submit position papers (limit of 2 pages, not counting references; no format prescribed) on topics related to RSE issues. Highly encouraged are the submissions on the keynote topic:
 
 * Do RSEs need to change for exascale?  
 
