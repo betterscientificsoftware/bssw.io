@@ -126,7 +126,7 @@ Some packages are skipped due to build failures.
 
 <br>
 
-<img src='../../images/Blog_2202_PackageList.png'>[Figure 2. Spack Compiler Definitions.]
+<img src='../../images/Blog_2202_PackageList.png'>[Figure 3. E4S Package List.]
 
 <br>
 
@@ -171,7 +171,7 @@ Shown below is the spack configuration for modules along with output of the spac
 
 <br> 
  
-<img src='../../images/Blog_2202_SpackModuleGeneration.png'>[Figure 6. Spack Module Configuration.]
+<img src='../../images/Blog_2202_SpackModuleConfiguration.png'>[Figure 6. Spack Module Configuration.]
 
 <br> 
 
@@ -182,7 +182,7 @@ dependencies and this output would be more bigger.
 
 <br> 
 
-<img src='../../images/Blog_2202_ModuleStack.png'>[Figure 7. Module Stack.]
+<img src='../../images/Blog_2202_ModuleStack.png'>[Figure 7. E4S/21.02 modulefiles.]
 
 <br> 
 
@@ -193,7 +193,7 @@ deployment and update MODULEPATH with spack generated modules.
 
 <br> 
 
-<img src='../../images/Blog_2202_e4smodules.png'>[Figure 8. E4S Modules.]
+<img src='../../images/Blog_2202_e4smodules.png'>[Figure 8. E4S modules.]
 
 <br> 
 
@@ -209,7 +209,7 @@ https://github.com/spack/spack-configs/blob/main/NERSC/cori/e4s-21.02/.gitlab-ci
 
 <br> 
 
-<img src='../../images/Blog_2202_DeploymentScript.png'>[Figure 8. Deployment Script.]
+<img src='../../images/Blog_2202_DeploymentScript.png'>[Figure 9. Deployment Script.]
 
 <br> 
 
@@ -223,7 +223,7 @@ E4S documentation at NERSC, we have a subpage with documentation for each E4S st
 
 <br> 
 
-<img src='../../images/Blog_2202_E4SDocs.png'>[Figure 9. E4S Documentation at NERSC.]
+<img src='../../images/Blog_2202_E4SDocs.png'>[Figure 10. E4S Documentation at NERSC.]
 
 <br> 
 
@@ -234,7 +234,7 @@ we update the E4S Facility Dashboard as shown below.
 
 <br> 
 
-<img src='../../images/Blog_2202_E4SFacilityDashboard.png'>[Figure 10. E4S Facility Dashboard.]
+<img src='../../images/Blog_2202_E4SFacilityDashboard.png'>[Figure 11. E4S Facility Dashboard.]
 
 <br>
 
