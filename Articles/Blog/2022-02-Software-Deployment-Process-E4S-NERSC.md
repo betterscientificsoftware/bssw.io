@@ -124,6 +124,12 @@ for instance we don’t want **openmpi** installed in the E4S stack. Packages li
 **parallel-netcdf** and python extensions that start with ``py-*`` are generally skipped. 
 Some packages are skipped due to build failures.
 
+<br>
+
+<img src='../../images/Blog_2202_PackageList.png'>[Figure 2. Spack Compiler Definitions.]
+
+<br>
+
 **Package Preference**
 
 Most scientific software requires MPI, BLAS, and SCALAPACK as common dependencies 
