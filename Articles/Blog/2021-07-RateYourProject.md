@@ -43,7 +43,7 @@ practices.
 
 ### How it works
 
-[RateYourProject.org](https://rateyourproject.org) is a self assessment tool that works by guiding the user through a series of common development practices and allows the user to choose a response that most closely matches their current practice level using a scale of "None", "Basic", "Intermediate", and "Advanced". The scale is designed to make it easy for teams to match their practices with the pratice description. Practices are grouped under the categories _Better Development_, _Better Planning_, _Better Performance_, _Better Reliability_, and _Better Collaboration_. This enables an overall assessment to be presented as a spider chart like this one, which clearly shows that _Better Planning_ and _Better Performance_ are categories that could benefit most from improvement, although there is room for improvement in all categories.
+[RateYourProject.org](https://rateyourproject.org) is a self assessment tool that works by guiding the user through a series of common development practices and allows the user to choose a response that most closely matches their current practice level using a scale of "None", "Basic", "Intermediate", and "Advanced". The scale is designed to make it easy for teams to match their practices with the practice description. Practices are grouped under the categories _Better Development_, _Better Planning_, _Better Performance_, _Better Reliability_, and _Better Collaboration_. This enables an overall assessment to be presented as a spider chart like this one, which clearly shows that _Better Planning_ and _Better Performance_ are categories that could benefit most from improvement, although there is room for improvement in all categories.
 
 <br>
 
@@ -51,7 +51,7 @@ practices.
 
 <br>
 
-Once the overall assessment has been established, teams are able to examine the individual categories to determine what practices they could focus on for improvement. In this example, selecting the _Better Planning_ category will then provide a more detailed assessement of the practice areas. In this case, the project could clearly benefit from creating onboarding and offboarding processes to manage staff turnover, and could also benefit from looking at how to improve contribution management, requirements analysis, and software design practices.
+Once the overall assessment has been established, teams are able to examine the individual categories to determine what practices they could focus on for improvement. In this example, selecting the _Better Planning_ category will then provide a more detailed assessment of the practice areas. In this case, the project could clearly benefit from creating onboarding and offboarding processes to manage staff turnover, and could also benefit from looking at how to improve contribution management, requirements analysis, and software design practices.
 
 <br>
 
@@ -61,7 +61,7 @@ Once the overall assessment has been established, teams are able to examine the 
 
 ### Continuous improvement
 
-PSIP is a process of continous improvement: practices needing improvement are identified, a plan is made, and then the plan is executed and the process starts again. The [RateYourProject.org](https://rateyourproject.org) tool allows the current assessment to be saved, then reviewed later in order to check progress or to identify another area that could be improved. The site provides a link on the main assessment page that can be used to return to the current assessment. This provides a simple and safe mechanism for recording progress towards achieving improvement goals.
+PSIP is a process of continuous improvement: practices needing improvement are identified, a plan is made, and then the plan is executed and the process starts again. The [RateYourProject.org](https://rateyourproject.org) tool allows the current assessment to be saved, then reviewed later in order to check progress or to identify another area that could be improved. The site provides a link on the main assessment page that can be used to return to the current assessment. This provides a simple and safe mechanism for recording progress towards achieving improvement goals.
 
 ### Feedback and future work
 
