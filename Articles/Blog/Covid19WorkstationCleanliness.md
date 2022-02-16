@@ -135,7 +135,7 @@ role in helping  track and fight the spread of SARS-CoV-2.
 
   * Johns Hopkins COVID-19 Dashboard.<sup>[27],[29]</sup>
   * How China is using AI to fight Coronavirus.<sup>[28]</sup>
-  * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[30]</sup>
+  * Forbes article on ways AI is being employed to fight COVID-19.<sup>[30]</sup>
   * Using mobile phone data to track an outbreak.<sup>[31]</sup>
   * A simple Kahn Academy lesson on estimating actual vs. confirmed cases.<sup>[37]</sup>
   * Some simple, 2D simulations demonstrate value of social distancing.<sup>[36]</sup>

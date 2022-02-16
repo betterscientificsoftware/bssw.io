@@ -1,17 +1,17 @@
 # Inclusive Language Resources
 
 <!--deck text start-->
-If we knew that the terms and phrases we commonly use - such as *sanity check* or *grandfathered* - had the effect of normalizing and perpetuating historical systemic bias, would we still use them?
+If we knew that the terms and phrases we commonly use - such as *sanity check* or *grandfathered* - had the effect of normalizing and perpetuating historical systemic biases, would we still use them?
 <!--deck text end-->
 
 #### Contributed by: [Mark Miller](https://github.com/markcmiller86)
 #### Publication date: November 22, 2021
 
-There is probably no other human endeavor that involves the volume of communication paired with creation of new *terminology* than software development. If one cares about their project's reach and wants to maximize their ability to attract and retain collaborators, developers, users or sponsors, then they need to be mindful of the names and language they use. The language that one uses has the power to welcome others in, as well as push them away.
+There is probably no other human endeavor that involves the volume of communication paired with creation of new *terminology* than software development. If one cares about their project's reach and wants to maximize their ability to attract and retain collaborators, developers, users, or sponsors, then they need to be mindful of the names and language they use. The language that one uses has the power to welcome others in, as well as push them away.
 
 The *inclusive language movement* recognizes and has many examples and arguments supporting the fact that often terminology (in current use) either does a poor job of conveying purpose/meaning or is highly dependent on cultural context to interpret.
 
-This article presents a growing list of inclusive language resources. Some of the resources here are concerned more with the *principles* of inclusive language wherease others are more concerned with the *practice* and, in particular, identifying some of the more egregious terms in current use (e.g. *master/slave*) and proposing suitable replacement terms.
+This article presents a growing list of inclusive language resources. Some of the resources here are concerned more with the *principles* of inclusive language whereas others are more concerned with the *practice* and, in particular, identifying some of the more egregious terms in current use (e.g. *master/slave*) and proposing suitable replacement terms.
 
 <!-- That said, DevOps hardened tooling on par with linters, spelling or grammar checkers, is still in its infancy.
 
@@ -21,7 +21,7 @@ The resources here run the gamut from -->
 
 Resource information | Details
 :--- | :--- 
-Resource name | [Inlcusive Naming Initiatve](https://inclusivenaming.org/)
+Resource name | [Inclusive Naming Initiative](https://inclusivenaming.org/)
 Authors | Open Source Collaboration
 Focus | Project Productivity and Sustainability
 
@@ -33,7 +33,7 @@ Resource name | Conscious Language in your Open Source Projects
 Website | [https://github.com/conscious-lang/conscious-lang-docs](https://github.com/conscious-lang/conscious-lang-docs)
 Focus | Software documentation
 
-This GitHub reposititory on *Conscious Language in your Open Source Projects* contains helpful documents relating to the process of removing problematic language from software. It includes best practices and recommendations, as well as frequently asked questions to serve as a guide. 
+This GitHub repository on *Conscious Language in your Open Source Projects* contains helpful documents relating to the process of removing problematic language from software. It includes best practices and recommendations, as well as frequently asked questions to serve as a guide. 
 
 Resource information | Details
 :--- | :---
@@ -41,7 +41,7 @@ Resource name | Software Developer Diversity and Inclusion
 Website | [https://sddiproject.org/](https://sddiproject.org/)
 Focus | Collaboration
 
-Created by the Linux Foundation, the *Software Developer Diversity and Inclusion* project is still in its early stages. It provides a great opportunity to get in at a ground level and support the Diversity, Equity, and Inlcusion in software development efforts first-hand.
+Created by the Linux Foundation, the *Software Developer Diversity and Inclusion* project is still in its early stages. It provides a great opportunity to get in at a ground level and support the Diversity, Equity, and Inclusion in software development efforts first-hand.
 
 Resource information | Details
 :--- | :---
@@ -49,7 +49,7 @@ Resource name | The Open Source Way
 Website | [https://www.theopensourceway.org/](https://www.theopensourceway.org/)
 Focus | Collaboration
 
-*The Open Source Way* is a guidebook that encourages open source community managment and best practices. Although not directly related to inclusive naming, the broadness of authors/contributors and general guidance can serve as a great resource when moving into naming initiatives. 
+*The Open Source Way* is a guidebook that encourages open source community management and best practices. Although not directly related to inclusive naming, the broadness of authors/contributors and general guidance can serve as a great resource when moving into naming initiatives. 
 
 Resource information | Details
 :--- | :---
@@ -63,9 +63,9 @@ Resource information | Details
 :--- | :---
 Resource name | Google developer documentation style guide
 Website | [https://developers.google.com/style/inclusive-documentation](https://developers.google.com/style/inclusive-documentation)
-Focus | Inlcusivitiy, Software documentation
+Focus | Inclusivity, Software documentation
 
-The *Google's developer documentation style guide* is a wonderful resource for guidance for all types of writing princples, including their subsection regarding inclusive documentation. This portion of the guide encourages developers to handle inclusivity through various lenses, including considering gendered terms and ablist langugage.  
+The *Google's developer documentation style guide* is a wonderful resource for guidance for all types of writing principles, including their subsection regarding inclusive documentation. This portion of the guide encourages developers to handle inclusivity through various lenses, including considering gendered terms and ableist language.  
 
 Resource information | Details
 :--- | :---
@@ -98,7 +98,7 @@ Resource name | Effectively naming software thingies
 Website | https://medium.com/@rabinovichsagi/effectively-naming-software-thingies-fcea9d78a699
 Focus | Best Practices
 
-*Effectively naming software thingies* is an indepth article focused on the naming of various components in software projects.
+*Effectively naming software thingies* is an in-depth article focused on the naming of various components in software projects.
 It includes issues such as having similar named objects which can be easily confused. It might be worth a look for more resources regarding naming to improve distinguishability for neurodiverse people (e.g. dyslexia).
 
 Resource information | Details
@@ -107,7 +107,7 @@ Resource name | 8 Resources to Use to Ensure You're Using Inclusive Language
 Website | https://blog.hubspot.com/marketing/tools-inclusive-language
 Focus | Resource of resources
 
-The short article, titled *8 Resources to Use to Ensure You're Using Inclusive Languag* contains pointers to a number of resources for inclusive language.
+The short article, titled *8 Resources to Use to Ensure You're Using Inclusive Language* contains pointers to a number of resources for inclusive language.
 
 Resource information | Details
 :--- | :---
@@ -139,7 +139,7 @@ Resource name | NATO Gender-Inclusive Language Manual
 Website | https://www.nato.int/nato_static_fl2014/assets/pictures/images_mfu/2021/5/pdf/210514-GIL-Manual_en.pdf
 Focus | Best Practices
 
-The article *NATO Gender-Inclusive Language Manual* is in the format of a long PDF file but the guidance snipits are short and sweet. There is a lot of motivation and images that support various of the principles and language recommendations.
+The article *NATO Gender-Inclusive Language Manual* is in the format of a long PDF file but the guidance snippets are short and sweet. There is a lot of motivation and images that support various of the principles and language recommendations.
 
 Resource information | Details
 :--- | :---
