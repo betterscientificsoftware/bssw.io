@@ -1,4 +1,4 @@
-# Celebrating the 5th Anniversary of the Correctness Workshop: Looking Back and Looking Forward
+# Celebrating the Fifth Anniversary of the Correctness Workshop: Looking Back and Looking Forward
 
 **Hero Image:**
 
@@ -9,7 +9,7 @@
 
 
 In 2021, the International Workshop on Software Correctness for HPC Applications
-(Correctness) celebrated its 5th anniversary at the Supercomputing (SC)
+(Correctness) celebrated its fifth anniversary at the Supercomputing (SC)
 conference. To mark this occasion, the co-organizers, Ignacio Laguna (LLNL) and
 Cindy Rubio-González (UC Davis), are proud to share this article, reflecting on
 its inception and providing their perspective looking forward.
@@ -24,10 +24,10 @@ non-HPC and non-scientific applications. However, it has been found that
 applying existing approaches to test, verify, and debug HPC software is much
 more complicated than for non-HPC software.
 
-Some of the reasons that make correctness in HPC difficult are: a growing use of
-combined programming models in scientific software, an increasing use of
+Some of the reasons that make correctness in HPC difficult are: growing use of
+mixed programming models in scientific software, increasing use of
 accelerators in HPC systems, the use of different levels of floating-point
-precision, and different compiler optimizations that can change the semantics
+precision, and compiler optimizations that can change the semantics
 and correctness of programs (sometimes producing different results between CPU
 and GPU executions). In general, porting code across multiple platforms and
 reproducing numerical results (or statistics of such results) is one of the
@@ -46,7 +46,7 @@ and scientific computing community.
 The workshop is attended annually by dozens of participants from several
 countries. Thirty four papers have been presented and published as part of the
 Correctness workshop over the past five years. The papers have touched on
-several topics of interest in scientific software, including correctness in MPI
+numerous topics of interest in scientific software, including correctness in MPI
 and OpenMP programs, floating-point error detection, data race checking,
 debugging tools, mixed-precision correctness, correctness in algorithms and
 applications, and correctness in emerging programming models.
@@ -68,8 +68,8 @@ University), Allison Baker (NCAR), and David Bailey (LBNL and UC Davis).
 Before the Correctness workshop, the community did not have a specific venue to
 discuss important topics about the correctness of scientific software. Some
 discussions occurred during the presentation of technical papers at the SC
-conference; however, usually, such discussions emerged in the context of other
-paper presentations, which were not necessarily related to correctness. The
+conference; however, such discussions most often emerged in the context of 
+papers which were not related to correctness. The
 workshop has served as a venue to bring together the community and enable such
 discussions in a dedicated forum.
 
@@ -87,7 +87,7 @@ students with internship and job opportunities.
 ### Looking Forward
 
 With programming models and HPC systems becoming more complex and heterogeneous,
-correctness will continue to be a challenge in scientific software--the workshop
+correctness will continue to be a challenge in scientific software—the workshop
 will continue to provide a venue for discussing methods, tools, and techniques
 to address such a challenge.
 
@@ -99,6 +99,11 @@ pose increasingly more significant correctness challenges, which will require a
 larger community to be solved. The co-organizers also would like to encourage
 the scientific software community to contribute to the workshop by submitting
 papers or suggesting speakers or panel topics.
+
+### Additional Resources
+
+* Workshop web sites: [2017](https://correctness-workshop.github.io/2017/), [2018](https://correctness-workshop.github.io/2018/), [2019](https://correctness-workshop.github.io/2019/), [2020](https://correctness-workshop.github.io/2020/), [2021](https://correctness-workshop.github.io/2021/)
+* Workshop proceedings: [2017](https://doi.org/10.1145/3145344), [2018](https://doi.org/10.1109/Correctness46496.2018), [2019](https://doi.org/10.1109/Correctness49594.2019), [2020](https://doi.org/10.1109/Correctness51934.2020), [2021](https://doi.org/10.1109/Correctness54621.2021)
 
 ### Author bios
 
