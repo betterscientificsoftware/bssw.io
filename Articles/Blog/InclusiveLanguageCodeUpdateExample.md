@@ -106,7 +106,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
 
 For Gabriel on Sierra, a decisive moment came after reading an online article about `master/slave` and approaching Sierra project leadership about addressing it in their code base.
 
-1. *Where was the `master/slave` idiom used in the code?*
+1. *Where was the `master/slave` terminology used in the code?*
 
    > Multi-point constraints, periodic boundary conditions, shell-solid joint.
 
