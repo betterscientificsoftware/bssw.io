@@ -132,7 +132,7 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
 6. *How was the change ultimately announced and rolled out to stakeholders?*
 
    > Through sprint reviews every 3 weeks.
-   > We involved analysts and developers in the conversation.
+   > We involved analysts and developers in ongoing conversations.
  
 7. *What role did the social climate in the country in the middle of 2020 play?*
 
@@ -146,46 +146,35 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
 
 8. *How was the work on this funded?*
 
-   > There was no additional funding.
    > It originally started as grass-roots effort in the Solid Mechanics development team and was eventually embraced by stakeholders and other development teams when we shared what we were doing.
 
 9. *Did you have a good understanding of what was involved going in?*
 
-   > No.
-   > It definitely involved more than we intially thought it would.
-   > But, once the work was started, we were committed to getting it done.
+   > There was more to it than we initially thought.
 
 ### Some final thoughts
 
-It likely does not escape the reader's attention that in these examples anyways, the people spearheading the work are people of color.
+Given the current social justice climate in which we all operate, some readers may feel that inclusive language efforts are nowhere near enough to meet the moment and are really just a distraction from bigger issues.
+It's hard to argue with that.
+Nonetheless, others may feel like such efforts go way too far.
+While we can acknowledge both perspectives exist, it is worth considering that when we’re accustomed the status quo, working to be more inclusive may feel like oppression.
 
-our colleagues of color.
-
-It also wont escape the reader's attention
+It probably will not have escaped some reader's attention that in the examples described here anyways, the people spearheading the work were people of color.
+Hopefully, the HPC/CSE community will recognize the importance of unburdening our colleagues of color from having to always be the ones doing the heavy lifting in efforts aimed at improving our inclusive culture.
 
 While there was [much discussion](https://www.google.com/search?q=%22master%22+%22slave%22+terminology+in+software&sxsrf=AOaemvIy5OkrC1xJEV_CJrUNIG3Tvmtlrg:1643308409486&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwjdlYPwyNL1AhVuD0QIHXqoBOsQpwV6BAgBEBk&biw=1616&bih=948&dpr=1) of the *master/slave* issue in the media throughout 2020, it has been a [known](https://tools.ietf.org/id/draft-knodel-terminology-00.html) and [long-standing](https://www.jstor.org/stable/40061475) issue long before 2020 with the earliest online mentions going back [nearly 20 years](http://www.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html) and other public discourse almost certainly much earlier.
 
-That said, if the HPC/CSE community follows suit with the broader US public, continued interest in improving language in 
-
-That said, beginning in 2021 less than a year on from the summer of 2020,
-
-many report seeing what can only be seen as a [*backlash* against efforts to make language more inclusive.
-
-Whether the tech cumm
-
-nudgek
-
+That said, beginning in 2021 less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) against these and related DE&I efforts.
+Hopefully, the HPC/CSE community will resist this habit and continue to practice and make progress in inclusion.
 
 https://www.vice.com/en/article/v7dd3d/we-need-to-stop-saying-blacklist-and-whitelist
 
-
 https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/
 
-
 https://www.sandiegouniontribune.com/news/politics/story/2021-08-14/san-diego-poised-to-adopt-inclusive-language-policy-to-make-transgendered-feel-more-welcome
-
 
 https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875
 
 https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/
+
 
