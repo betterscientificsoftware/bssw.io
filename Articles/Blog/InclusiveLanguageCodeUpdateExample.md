@@ -1,7 +1,7 @@
-# Experiences replacing master/slave terminology in Ale3d and Sierra
+# Experiences replacing `master/slave` terminology in Ale3d and Sierra
 
 One way software projects address inclusion is to identify and improve language used in their projects representing barriers to inclusion.
-An unfortunately [prolific](https://github.com/search?q=master+slave&type=code) and unmistakably [problematic](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) example in HPC/CSE projects is the use of *master/slave* terminology.
+An unfortunately [prolific](https://github.com/search?q=master+slave&type=code) and unmistakably [problematic](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) example in HPC/CSE projects is the use of `master/slave` terminology.
 
 The terminology may have [taken root](https://www.cise.ufl.edu/~sahni/papers/masterslave2.pdf) in technology in the 1940s.
 Examination of [Google's NGram viewer](https://books.google.com/ngrams/graph?content=master-slave&year_start=1800&year_end=2019&case_insensitive=on&corpus=26&smoothing=3&direct_url=t4%3B%2Cmaster%20-%20slave%3B%2Cc0%3B%2Cs0%3B%3Bmaster%20-%20slave%3B%2Cc0%3B%3BMaster%20-%20Slave%3B%2Cc0%3B%3BMaster%20-%20slave%3B%2Cc0%3B%3BMASTER%20-%20SLAVE%3B%2Cc0) shows a sharp rise in its use beginning with [Raymond Geortz](https://en.wikipedia.org/wiki/Raymond_Goertz) description of a [remote manipulator](https://en.wikipedia.org/wiki/Remote_manipulator) which is a sort of robotic version of a [glove box](https://en.wikipedia.org/wiki/Glovebox).
@@ -14,16 +14,17 @@ On the other hand, the metaphor often fails miserably in conveying even the basi
 
 For example, in modern slide surface algorithms where two objects come into *contact* and interact along a shared boundary (e.g. a tire rolling along a road), the object designated as a `master` does not actually have the effect of dictating the behavior of any other object designated as a `slave`.
 Instead, modern slide surface algorithms often take into account all objects as *peers* to each other and compute an updated state where all object's contributions are treated *equally* and with *reciprocity*.
-In other words, the basic relationship between the objects is hardly one that is any way similiar to the relationship between a master and a slave.
+In other words, the basic relationship between the objects is hardly one that is any way similar to the relationship between a `master` and a `slave`.
 
-In HPC/CSE software use of the terminlogy can manifest in the names of data types, variables, functions, files, images, GUI widgets, databases, command-line arguments, URLs, server names, documentation, and publications as well as people's mental models and abstractions for talking about objects, algorithms and associated software or hardware architecture.
+In HPC/CSE software use of the terminology can manifest in the names of data types, variables, functions, files, images, GUI widgets, databases, command-line arguments, URLs, server names, documentation, and publications as well as people's mental models and abstractions for talking about objects, algorithms and associated software or hardware architecture.
 
-Towards the end of the 2020 calender year, two flagship DOE simulation projects, [Ale3d](https://wci.llnl.gov/simulation/computer-codes/ale3d) at [Lawrence Livermore National Lab](https://www.llnl.gov) and [Sierra](https://www.sandia.gov/asc/advanced-simulation-and-computing/integrated-codes/) at [Sandia National Lab](https://www.sandia.gov), completed updates to replace the use of master/slave terminology throughout their projects.
+Towards the end of the 2020 calendar year, two flagship DOE simulation projects, [Ale3d](https://wci.llnl.gov/simulation/computer-codes/ale3d) at [Lawrence Livermore National Lab](https://www.llnl.gov) and [Sierra](https://www.sandia.gov/asc/advanced-simulation-and-computing/integrated-codes/) at [Sandia National Lab](https://www.sandia.gov), completed updates to replace the use of `master/slave` terminology throughout their projects.
 The work was spearheaded by [Ben Liu](https://scholar.google.com/citations?user=pA2ybRwAAAAJ&hl=en) of the Ale3d team and [Gabriel Jose de Frias](https://www.osti.gov/search/author:%22de%20Frias,%20Gabriel%20Jose%22) of the Sierra team.
-If the work had involved only a global, textual replacement of the words *master* and *slave*, there would not have been much reason for writing about their experiences here.
+
+If the work had involved only a global, textual replacement of the words `master` and `slave`, there would not have been much reason for writing about their experiences here.
 The work involved changes to source code, dependency interfaces, documentation, test input parameter files and test data files as well as how developers and users alike talk about features of the code where this terminology was previously used.
 
-Managers within both projects had a long-standing interest in replacing master/slave terminology in their respective projects.
+Managers within both projects had a long-standing interest in replacing `master/slave` terminology in their respective projects.
 However, mustering the motivation, resources and the critical mass to take on the work involved remained elusive.
 Then, the summer of 2020 happened.
 The whole country was engaged in dialog about racially-oriented inequities of our society.
@@ -32,32 +33,32 @@ This included the world of technology and software.
 Apart from the practical aspects of changes to code, documentation, test data, etc., there was also effort required in getting all stakeholders to agree to the changes and support the work involved in completing it. 
 
 When the teams began the work, the total effort and resources required to complete were not well known.
-The total effort only revealed itself as dominos began to fall.
+The total effort only revealed itself as dominoes began to fall.
 In addition, no new resources were allocated to complete the work.
 The teams had to forego other activities in order to prioritize and complete this work.
 
 ### Ben Liu and Ale3d
 
 <!-- the following remarks were reviewed for any classification issues by Paul Amala -->
-For Ben on Ale3d, a decisive moment came when a dependency project announced its plans to replace *master* and *slave* with *primary* and *secondary*.
-Within the [NNSA labs](https://www.energy.gov/nnsa/national-nuclear-security-administration), the terms *primary* and *secondary* are commonly associated with the major components of a [thermonuclear weapon](https://cgsr.llnl.gov/content/assets/docs/CGSR_NW101_Policy_Wonks_11-04-21_WEB_v5.pdf?#page=19).
+For Ben on Ale3d, a decisive moment came when a dependency project announced its plans to replace `master` and `slave` with `primary` and `secondary`.
+Within the [NNSA labs](https://www.energy.gov/nnsa/national-nuclear-security-administration), the terms `primary` and `secondary` are commonly associated with the major components of a [thermonuclear weapon](https://cgsr.llnl.gov/content/assets/docs/CGSR_NW101_Policy_Wonks_11-04-21_WEB_v5.pdf?#page=19).
 Their presence is often accompanied by classified information handling requirements.
-Although the terms *primary* and *secondary* are not themselves classified, using them as prolifically as *master* and *slave* have been used would present significant challenges in ensuring clean and clear separation between classified and unclassified information.
+Although the terms `primary` and `secondary` are not themselves classified, using them as prolifically as `master` and `slave` have been used would present significant challenges in ensuring clean and clear separation between classified and unclassified information.
 
-However, to be thorough Ben felt it was important to replace not only *master* and *slave* but also any instances of terminology that *derived* from them.
-For example, in the source code `nslvs` (or even `ns`) might be used as a variable representing the number of slave surfaces or in a data file `M_tire` and `S_Road` might be used to indicate the tire object played the role of a master slide surface and the road object the role of a slave slide surface.
+However, to be thorough Ben felt it was important to replace not only `master` and `slave` but also any instances of terminology that *derived* from them.
+For example, in the source code `nslvs` (or even `ns`) might be used as a variable representing the number of slave surfaces or in a data file `M_tire` and `S_Road` might be used to indicate the tire object played the role of a `master` slide surface and the road object the role of a `slave` slide surface.
 Although automated tooling handled the *common* cases, to reliably replace *derivative* terminology required careful study and manual editing.
 
-1. *Where was the master/slave idiom used in the code?*
+1. *Where was the `master/slave` terminology used in the code?*
 
    > It was restricted almost entirely to our implementation of slide surfaces.
    > After discussions with numerous stakeholders, everyone agreed a suitable replacement was simply *Side A* and *Side B*.
    > That is somewhat specific to slide surfaces but nonetheless worked for all our cases.
  
 2. *Did your efforts exploit automated tooling or workflows to complete the changes?
-   Was it all sort of manual or maybe grep and sed scripts?*
+   Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
-   > We use sed scripts to update the code and the manual.
+   > We used `sed` scripts to help update the code and the manual.
    > We didn’t use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
    > An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
    > A number of other developers on the team were very thorough in looking through this
@@ -73,7 +74,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
 5. *Were changes to data files, input decks, power-point slides and/or documentation also needed?*
 
    > Manual documentation changes were mostly limited to one or two chapters.
-   > Changes to powerpoint files are still in progress.
+   > Changes to PowerPoint files are still in progress.
  
 6. *How was the change ultimately announced and rolled out to stakeholders?*
 
@@ -103,14 +104,14 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
  
 ### Gabriel Jose de Frias and Sierra
 
-For Gabriel on Sierra, a decisive moment came after reading an online article about master/slave and approaching Sierra project leadership about addressing it in their code base.
+For Gabriel on Sierra, a decisive moment came after reading an online article about `master/slave` and approaching Sierra project leadership about addressing it in their code base.
 
-1. *Where was the master/slave idiom used in the code?*
+1. *Where was the `master/slave` idiom used in the code?*
 
    > Multi-point constraints, periodic boundary conditions, shell-solid joint.
 
 2. *Did your efforts exploit automated tooling or workflows to complete the changes?
-   Was it all sort of manual or maybe grep and sed scripts?*
+   Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
    > We used refactoring options in the Eclipse IDE to modify the code.
    > Python scripts to modify input files from tests, which were also made available for users to apply to their files.
@@ -154,27 +155,17 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
 
 ### Some final thoughts
 
-Given the current social justice climate in which we all operate, some readers may feel that inclusive language efforts are nowhere near enough to meet the moment and are really just a distraction from bigger issues.
+Given the current social justice climate in which we all operate, some readers may feel that inclusive language efforts are nowhere near enough to meet the moment and are really just a [distraction](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) from bigger issues.
 It's hard to argue with that.
 Nonetheless, others may feel like such efforts go way too far.
-While we can acknowledge both perspectives exist, it is worth considering that when we’re accustomed the status quo, working to be more inclusive may feel like oppression.
+While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) the status quo, the effort we're called to invest to be more inclusive may feel like oppression.
 
-It probably will not have escaped some reader's attention that in the examples described here anyways, the people spearheading the work were people of color.
-Hopefully, the HPC/CSE community will recognize the importance of unburdening our colleagues of color from having to always be the ones doing the heavy lifting in efforts aimed at improving our inclusive culture.
+Some readers may wonder if the people spearheading the work on Ale3d and Sierra were people of color.
+Yes, they were.
+Hopefully, the community will recognize the importance of unburdening our colleagues of color from having to always be the ones doing the heavy lifting in efforts aimed at making HPC/CSE more inclusive.
+On the other hand, we must also take care that when we engage in such work, we do so with a committment of ensuring the voices of our colleagues of color are informing priorities and process.
 
-While there was [much discussion](https://www.google.com/search?q=%22master%22+%22slave%22+terminology+in+software&sxsrf=AOaemvIy5OkrC1xJEV_CJrUNIG3Tvmtlrg:1643308409486&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwjdlYPwyNL1AhVuD0QIHXqoBOsQpwV6BAgBEBk&biw=1616&bih=948&dpr=1) of the *master/slave* issue in the media throughout 2020, it has been a [known](https://tools.ietf.org/id/draft-knodel-terminology-00.html) and [long-standing](https://www.jstor.org/stable/40061475) issue long before 2020 with the earliest online mentions going back [nearly 20 years](http://www.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html) and other public discourse almost certainly much earlier.
+While there was [much discussion](https://www.google.com/search?q=%22master%22+%22slave%22+terminology+in+software&sxsrf=AOaemvIy5OkrC1xJEV_CJrUNIG3Tvmtlrg:1643308409486&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwjdlYPwyNL1AhVuD0QIHXqoBOsQpwV6BAgBEBk&biw=1616&bih=948&dpr=1) of the `master/slave` issue in the media throughout 2020, it has been a [known](https://tools.ietf.org/id/draft-knodel-terminology-00.html) and [long-standing](https://www.jstor.org/stable/40061475) issue long before 2020 with the earliest online mentions going back [nearly 20 years](http://www.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html) and other public discourse almost certainly much earlier.
 
-That said, beginning in 2021 less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) against these and related DE&I efforts.
-Hopefully, the HPC/CSE community will resist this habit and continue to practice and make progress in inclusion.
-
-https://www.vice.com/en/article/v7dd3d/we-need-to-stop-saying-blacklist-and-whitelist
-
-https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/
-
-https://www.sandiegouniontribune.com/news/politics/story/2021-08-14/san-diego-poised-to-adopt-inclusive-language-policy-to-make-transgendered-feel-more-welcome
-
-https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875
-
-https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/
-
-
+That said, beginning in 2021 less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/) against these and other [DE&I efforts](https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/).
+Hopefully, the community will resist this [habit](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) and continue to practice and make progress in making HPC/CSE more inclusive.
