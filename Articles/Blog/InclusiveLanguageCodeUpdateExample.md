@@ -9,23 +9,24 @@ Examination of [Google's NGram viewer](https://books.google.com/ngrams/graph?con
 Regardless of origin, the terminology has become *pervasive* throughout scientific computing as well.
 It appears in many HPC/CSE contexts such as [slide surfaces](https://abaqus-docs.mit.edu/2017/English/SIMACAEITNRefMap/simaitn-c-contactpairform.htm), [shell-solid element interfacing](https://www.dynasupport.com/tutorial/contact-modeling-in-ls-dyna/contact-types), [parallel runtime execution models](http://charm.cs.uiuc.edu/research/masterSlave), [periodic boundary conditions](https://www.researchgate.net/figure/Master-slave-set-up-for-periodic-boundary-conditions-on-VE-with-a-non-periodic-mesh-see_fig3_320079614), [file systems](https://activemq.apache.org/shared-file-system-master-slave) and [hard drive technology](https://computer.howstuffworks.com/ide.htm), [grid computing](https://sites.cs.ucsb.edu/~rich/publications/shao-hcw.pdf), and [graph traversal](https://dl.acm.org/doi/abs/10.1145/3350546.3352536) to name just a few.
 
-On the one hand, the terminology is often used, however imprudently, as a metaphor suggesting some basic aspects of an algorithm.
+On the one hand, the terminology is often used, however imprudently, as a metaphor to hint at some basic aspects of an algorithm.
 On the other hand, the metaphor often fails miserably in conveying even the basics *accurately*.
 
 For example, in modern slide surface algorithms where two objects come into *contact* and interact along a shared boundary (e.g. a tire rolling along a road), the object designated as a `master` does not actually have the effect of dictating the behavior of any other object designated as a `slave`.
-Instead, modern slide surface algorithms often take into account all objects as *peers* to each other and compute an updated state where all object's contributions are treated *equally* and with *reciprocity*.
+Instead, in modern slide surface algorithms all objects act as *peers* and an updated state is computed where all object's contributions are treated *equally* and with *reciprocity*.
 In other words, the basic relationship between the objects is hardly one that is any way similar to the relationship between a `master` and a `slave`.
 
-In HPC/CSE software use of the terminology can manifest in the names of data types, variables, functions, files, images, GUI widgets, databases, command-line arguments, URLs, server names, documentation, and publications as well as people's mental models and abstractions for talking about objects, algorithms and associated software or hardware architecture.
+In HPC/CSE software, use of the terminology can manifest in the names of data types, variables, functions, files, images, GUI widgets, databases, command-line arguments, URLs, server names, documentation, and publications as well as people's mental models and abstractions for talking about objects, algorithms and associated software or hardware architecture.
 
 Towards the end of the 2020 calendar year, two flagship DOE simulation projects, [Ale3d](https://wci.llnl.gov/simulation/computer-codes/ale3d) at [Lawrence Livermore National Lab](https://www.llnl.gov) and [Sierra](https://www.sandia.gov/asc/advanced-simulation-and-computing/integrated-codes/) at [Sandia National Lab](https://www.sandia.gov), completed updates to replace the use of `master/slave` terminology throughout their projects.
 The work was spearheaded by [Ben Liu](https://scholar.google.com/citations?user=pA2ybRwAAAAJ&hl=en) of the Ale3d team and [Gabriel Jose de Frias](https://www.osti.gov/search/author:%22de%20Frias,%20Gabriel%20Jose%22) of the Sierra team.
 
-If the work had involved only a global, textual replacement of the words `master` and `slave`, there would not have been much reason for writing about their experiences here.
+If the work had involved only a global, textual replacement of the words `master` and `slave`, there would not have been much reason for writing about it here.
 The work involved changes to source code, dependency interfaces, documentation, test input parameter files and test data files as well as how developers and users alike talk about features of the code where this terminology was previously used.
 
-Managers within both projects had a long-standing interest in replacing `master/slave` terminology in their respective projects.
-However, mustering the motivation, resources and the critical mass to take on the work involved remained elusive.
+Managers within both projects had a long-standing interest in replacing `master/slave` terminology.
+However, they recognized, wisely, that such activities are far more likely to succeed when they happen organically rather than by management mandate.
+Finding a champion as well as mustering the consensus and resources to take on the work remained elusive.
 Then, the summer of 2020 happened.
 The whole country was engaged in dialog about racially-oriented inequities of our society.
 This included the world of technology and software.
@@ -59,7 +60,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
    > We used `sed` scripts to help update the code and the manual.
-   > We didn’t use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
+   > We didn't’t use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
    > An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
    > A number of other developers on the team were very thorough in looking through this
  
@@ -153,19 +154,19 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
 
    > There was more to it than we initially thought.
 
-### Some final thoughts
+### Closing thoughts
+
+While there was [much discussion](https://www.google.com/search?q=%22master%22+%22slave%22+terminology+in+software&sxsrf=AOaemvIy5OkrC1xJEV_CJrUNIG3Tvmtlrg:1643308409486&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwjdlYPwyNL1AhVuD0QIHXqoBOsQpwV6BAgBEBk&biw=1616&bih=948&dpr=1) of the `master/slave` issue in the media throughout 2020, it has been a [known](https://tools.ietf.org/id/draft-knodel-terminology-00.html) and [long-standing](https://www.jstor.org/stable/40061475) issue long before 2020 with the earliest online mentions going back [nearly 20 years](http://www.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html) and other public discourse almost certainly much earlier.
+
+Beginning in 2021 less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/) against these and other [DE&I efforts](https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/).
+Hopefully, the community will resist this [habit](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) and continue to practice and make progress in making HPC/CSE more inclusive.
+
+Some readers may wonder if the people spearheading the work described here were people of color.
+Yes, they were.
+Hopefully, the community will recognize the importance of unburdening our colleagues of color from having to always be the ones doing the heavy lifting in efforts aimed at making HPC/CSE more inclusive.
+On the other hand, we must also take care that when we engage in such work, we do so with a commitment of ensuring the voices of our colleagues of color are informing priorities and process.
 
 Given the current social justice climate in which we all operate, some readers may feel that inclusive language efforts are nowhere near enough to meet the moment and are really just a [distraction](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) from bigger issues.
 It's hard to argue with that.
 Nonetheless, others may feel like such efforts go way too far.
 While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) the status quo, the effort we're called to invest to be more inclusive may feel like oppression.
-
-Some readers may wonder if the people spearheading the work on Ale3d and Sierra were people of color.
-Yes, they were.
-Hopefully, the community will recognize the importance of unburdening our colleagues of color from having to always be the ones doing the heavy lifting in efforts aimed at making HPC/CSE more inclusive.
-On the other hand, we must also take care that when we engage in such work, we do so with a committment of ensuring the voices of our colleagues of color are informing priorities and process.
-
-While there was [much discussion](https://www.google.com/search?q=%22master%22+%22slave%22+terminology+in+software&sxsrf=AOaemvIy5OkrC1xJEV_CJrUNIG3Tvmtlrg:1643308409486&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwjdlYPwyNL1AhVuD0QIHXqoBOsQpwV6BAgBEBk&biw=1616&bih=948&dpr=1) of the `master/slave` issue in the media throughout 2020, it has been a [known](https://tools.ietf.org/id/draft-knodel-terminology-00.html) and [long-standing](https://www.jstor.org/stable/40061475) issue long before 2020 with the earliest online mentions going back [nearly 20 years](http://www.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html) and other public discourse almost certainly much earlier.
-
-That said, beginning in 2021 less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/) against these and other [DE&I efforts](https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/).
-Hopefully, the community will resist this [habit](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) and continue to practice and make progress in making HPC/CSE more inclusive.
