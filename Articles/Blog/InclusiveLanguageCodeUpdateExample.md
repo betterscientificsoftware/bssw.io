@@ -60,7 +60,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
    > We used `sed` scripts to help update the code and the manual.
-   > We didn't’t use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
+   > We didn't use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
    > An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
    > A number of other developers on the team were very thorough in looking through this
  
@@ -169,4 +169,4 @@ On the other hand, we must also take care that when we engage in such work, we d
 Given the current social justice climate in which we all operate, some readers may feel that inclusive language efforts are nowhere near enough to meet the moment and are really just a [distraction](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) from bigger issues.
 It's hard to argue with that.
 Nonetheless, others may feel like such efforts go way too far.
-While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) the status quo, the effort we're called to invest to be more inclusive may feel like oppression.
+While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) to the status quo, being called to invest effort to be more inclusive may feel like oppression.
