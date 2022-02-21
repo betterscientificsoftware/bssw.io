@@ -161,7 +161,7 @@ While there was [much discussion](https://www.google.com/search?q=%22master%22+%
 Beginning in 2021 less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/) against these and other [DE&I efforts](https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/).
 Hopefully, the community will resist this [habit](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) and continue to practice and make progress in making HPC/CSE more inclusive.
 
-Some readers may wonder if the people spearheading the work described here were people of color.
+Some readers may wonder if the people spearheading the work described here were [people of color](https://www.healthline.com/health/bipoc-meaning).
 Yes, they were.
 Hopefully, the community will recognize the importance of unburdening our colleagues of color from having to always be the ones doing the heavy lifting in efforts aimed at making HPC/CSE more inclusive.
 On the other hand, we must also take care that when we engage in such work, we do so with a commitment of ensuring the voices of our colleagues of color are informing priorities and process.
