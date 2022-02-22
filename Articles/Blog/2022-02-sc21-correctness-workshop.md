@@ -4,9 +4,8 @@
 
  - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2112_SC21.png' />
 
-#### Contributed by: [Ignacio Laguna](https://github.com/ilagunap) and [Cindy Rubio-Gonzalez](https://github.com/crubiog)
-#### Publication date: January 26, 2022
-
+#### Contributed by: [Ignacio Laguna](https://github.com/ilagunap) and [Cindy Rubio-González](https://github.com/crubiog)
+#### Publication date: February 22, 2022
 
 In 2021, the International Workshop on Software Correctness for HPC Applications
 (Correctness) celebrated its fifth anniversary at the Supercomputing (SC)
@@ -20,9 +19,7 @@ The Correctness workshop started as an attempt to bring together researchers and
 developers to discuss ideas on the problem of correctness in HPC and scientific
 software. Over the last decades, the computer science community has seen
 significant advances in the areas of debugging, testing, and verification for
-non-HPC and non-scientific applications. However, it has been found that
-applying existing approaches to test, verify, and debug HPC software is much
-more complicated than for non-HPC software.
+non-HPC and non-scientific applications. However, it has been found that applying existing approaches to debug, test, and verify HPC software is much more complicated than for non-HPC software.
 
 Some of the reasons that make correctness in HPC difficult are: growing use of
 mixed programming models in scientific software, increasing use of
@@ -109,7 +106,7 @@ papers or suggesting speakers or panel topics.
 
 Ignacio Laguna is a Computer Scientist at the Center for Applied Scientific Computing (CASC) at the Lawrence Livermore National Laboratory (LLNL), California. His main area of research is programing models and systems for high-performance computing. He is particularly interested in software correctness, program analysis, compilers, fault tolerance, and debugging. He received his PhD degree in Computer Engineering from Purdue University in 2012 and is the co-founder of the International Workshop on Software Correctness for HPC Applications (Correctness), which has been held at SC for several years.
 
-Cindy Rubio-Gonzalez is an Associate Professor of Computer Science at UC Davis.  She received her Ph.D. from UW-Madison in 2012, and was a Postdoctoral Researcher at UC Berkeley before joining UC Davis. Her research spans the areas of Programming Languages and Software Engineering, with a focus on program analysis and software testing for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of several awards including a DOE Early Career award and an NSF CAREER award, and is a co-founder of the Correctness workshop.
+Cindy Rubio-González is an Associate Professor of Computer Science at UC Davis.  She received her Ph.D. from UW-Madison in 2012, and was a Postdoctoral Researcher at UC Berkeley before joining UC Davis. Her research spans the areas of Programming Languages and Software Engineering, with a focus on program analysis and software testing for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific applications. Cindy is a recipient of several awards including a DOE Early Career award and an NSF CAREER award, and is a co-founder of the Correctness workshop.
 
 <!---
 Publish: yes
