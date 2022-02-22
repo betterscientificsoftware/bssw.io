@@ -111,7 +111,7 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
 
 1. *Where was the `master/slave` terminology used in the code?*
 
-   > Multi-point constraints, periodic boundary conditions, shell-solid joint.
+   > Contact surfaces (e.g. slide surfaces) is the main capability where the terminology was used in Sierra but it was also used in multi-point constraints, periodic boundary conditions and shell-solid joint code.
 
 2. *Did your efforts exploit automated tooling or workflows to complete the changes?
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
@@ -154,7 +154,8 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
 
 9. *Did you have a good understanding of what was involved going in?*
 
-   > There was more to it than we initially thought.
+   > Agreeing on the replacement terminology certainly took longer than I expected.
+   > That ended up being a good thing since it prompted us to open up the conversation with several teams at Sandia and even other DOE labs.
 
 ### Closing thoughts
 
