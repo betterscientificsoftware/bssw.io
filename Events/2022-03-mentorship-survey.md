@@ -1,6 +1,6 @@
 # Survey of Mentorship Among People Who Develop Software
 
-- Date: February 23rd, 2022
+- Date: March 31, 2022
 - Location: Online
 - Website: [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSdJ8pXrfzQaJQ2uXQX3cv3lLAlCm0h5n2YhWl-2Wq2BN66nWQ/viewform)
 - Organizers: Reed Milewicz (Sandia National Laboratories) and Alexander Serebrenik (Eindhoven University of Technology)
