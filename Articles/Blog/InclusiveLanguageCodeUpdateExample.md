@@ -88,10 +88,13 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
 7. *What role did the social climate in the country in the middle of 2020 play?*
  
    > I think that it brought more awareness (to a broader segment of the population) to how systems and language can reinforce and propagate injustice and oppression.
-   > In particular, both how seemingly little things can add up (microaggressions, etc).
-   > For myself, this really made me more aware of the need to change this;
+   > In particular, how seemingly little things can add up (microaggressions, etc).
+   > For myself, this really made me more aware of the need to change this.
    > I think this was also true for other developers and users.
-   > I’m not sure that this change has “moved the needle” necessarily, but I hope that it can lead to more substantive change (not code changes, but things like hiring, pipeline and things like that).
+   > I think the broader social climate helped provide momentum to push through the tedium and address resistance to change.
+   > In particular, knowing that Sandia and Idaho National Lab were also working on this helped give me the confidence I needed to continue in what I was doing.
+   > Our work on replacing `master/slave` doesn't necessarily "moved the needle" much.
+   > But, my hope is that it can lead to more substantive change (things like hiring, pipeline, etc.).
 
 8. *How was the work on this funded?*
 
