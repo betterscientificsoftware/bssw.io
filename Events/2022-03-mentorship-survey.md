@@ -3,7 +3,7 @@
 - Date: March 31, 2022
 - Location: Online
 - Website: [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSdJ8pXrfzQaJQ2uXQX3cv3lLAlCm0h5n2YhWl-2Wq2BN66nWQ/viewform)
-- Organizers: Reed Milewicz (Sandia National Laboratories) and Alexander Serebrenik (Eindhoven University of Technology)
+- Organizers: Reed Milewicz and Alexander Serebrenik
 
 <!-- deck text start -->
 If you develop software in your work and want to contribute to our study of the role that mentorship plays in the personal and professional development of people like yourself, we encourage you to take a few minutes to fill out our survey.
