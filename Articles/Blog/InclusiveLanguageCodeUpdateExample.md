@@ -41,7 +41,7 @@ The teams had to forego other activities in order to prioritize and complete thi
 ### Ben Liu and ALE3D
 
 <!-- the following remarks were reviewed for any classification issues by Paul Amala -->
-For Ben on ALE3D, a decisive moment came when Benjamin Spencer, a developer on the MOOSE project at Idaho National Lab, announced plans to replace `master/slave` with `primary/secondary`.
+For Ben on ALE3D, a decisive moment came when [Benjamin Spencer](https://github.com/bwspenc), a developer on the [MOOSE](https://mooseframework.inl.gov) project at [Idaho National Lab](https://inl.gov), announced plans to replace `master/slave` with [`primary/secondary`](https://github.com/idaholab/moose/issues/15457).
 This action was intended too encourage collaborators to consider replacing the terminology and to broaden consensus on common replacement terms.
 
 Within the [NNSA labs](https://www.energy.gov/nnsa/national-nuclear-security-administration), the terms `primary` and `secondary` are commonly associated with the major components of a [thermonuclear weapon](https://cgsr.llnl.gov/content/assets/docs/CGSR_NW101_Policy_Wonks_11-04-21_WEB_v5.pdf?#page=19).
