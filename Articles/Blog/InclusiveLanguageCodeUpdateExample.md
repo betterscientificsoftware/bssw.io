@@ -1,5 +1,12 @@
 # Experiences replacing `master/slave` terminology in ALE3D and Sierra
 
+<!-- deck text start -->
+What is involved in replacing pervasive language representing barriers to being more inclusive?
+<!-- deck text end -->
+
+#### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
+#### Publication date: Feb 24, 2022
+
 One way software projects address inclusion is to identify and improve language used in their projects representing barriers to inclusion.
 An unfortunately [prolific](https://github.com/search?q=master+slave&type=code) and unmistakably [problematic](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) example in HPC/CSE projects is the use of `master/slave` terminology.
 
