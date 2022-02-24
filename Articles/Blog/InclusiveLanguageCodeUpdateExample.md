@@ -9,7 +9,7 @@ Examination of [Google's NGram viewer](https://books.google.com/ngrams/graph?con
 Regardless of origin, the terminology has become *pervasive* throughout scientific computing as well.
 It appears in many HPC/CSE contexts such as [slide surfaces](https://abaqus-docs.mit.edu/2017/English/SIMACAEITNRefMap/simaitn-c-contactpairform.htm), [shell-solid element interfacing](https://www.dynasupport.com/tutorial/contact-modeling-in-ls-dyna/contact-types), [parallel runtime execution models](http://charm.cs.uiuc.edu/research/masterSlave), [periodic boundary conditions](https://www.researchgate.net/figure/Master-slave-set-up-for-periodic-boundary-conditions-on-VE-with-a-non-periodic-mesh-see_fig3_320079614), [file systems](https://activemq.apache.org/shared-file-system-master-slave) and [hard drive technology](https://computer.howstuffworks.com/ide.htm), [grid computing](https://sites.cs.ucsb.edu/~rich/publications/shao-hcw.pdf), and [graph traversal](https://dl.acm.org/doi/abs/10.1145/3350546.3352536) to name just a few.
 
-On the one hand, the terminology is often used, however imprudently, as a metaphor to hint at some basic aspects of an algorithm.
+On the one hand, `master/slave` terminology is often used, however imprudently, as a metaphor to hint at some basic aspects of an algorithm.
 On the other hand, the metaphor often fails miserably in conveying even the basics *accurately*.
 
 For example, in modern slide surface algorithms where two objects come into *contact* and interact along a shared boundary (e.g. a tire rolling along a road), the object designated as a `master` typically does not actually have the effect of dictating the behavior of any other object designated as a `slave`.
@@ -31,7 +31,7 @@ Then, the summer of 2020 happened.
 The whole country was engaged in dialogue about racially-oriented inequities of our society.
 This included the world of technology and software.
 
-Apart from the practical aspects of changes to code, documentation, test data, etc., there was also effort required in getting all stakeholders to agree to the changes and support the work involved in completing it. 
+Apart from the practical aspects of changes to code, documentation, test data, etc., there was also effort required in getting all stakeholders to agree to the changes and support the work involved in completing them. 
 
 When the teams began the work, the total effort and resources required to complete were not well known.
 The total effort only revealed itself as dominoes began to fall.
@@ -167,10 +167,10 @@ While there was [much discussion](https://www.google.com/search?q=%22master%22+%
 Beginning in 2021, less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/) against these and other [DE&I efforts](https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/).
 Hopefully, the community will resist this [habit](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) and continue to practice and make progress in making HPC/CSE more inclusive.
 
-Some readers may wonder if the people spearheading the work described here were [people of color](https://www.healthline.com/health/bipoc-meaning).
+Some readers may wonder if the people spearheading the efforts described here were [BIPOC](https://www.healthline.com/health/bipoc-meaning).
 Yes, they were.
-Hopefully, the community will recognize the importance of unburdening our colleagues of color from having to always be the ones doing the heavy lifting in efforts aimed at making HPC/CSE more inclusive.
-On the other hand, we must also take care that when we engage in such work, we do so with a commitment of ensuring the voices of our colleagues of color are informing priorities and process.
+Hopefully, the community will recognize the importance of unburdening our BIPOC colleagues from having to always be the ones doing the heavy lifting in efforts aimed at making HPC/CSE more inclusive.
+On the other hand, we must also take care that when we engage in such work, we do so with a commitment of ensuring the voices of our BIPOC colleagues are informing priorities and process.
 
 Given the current social justice climate in which we all operate, some readers may feel that inclusive language efforts are nowhere near enough to meet the moment and are really just a [distraction](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) from bigger issues.
 It's hard to argue with that.
