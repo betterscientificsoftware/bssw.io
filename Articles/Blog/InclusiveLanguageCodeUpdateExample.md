@@ -147,7 +147,7 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
    > Am I educating myself enough about these issues?
    > Am I putting myself in other people’s shoes?
    > Am I considering my own biases in my opinions and thoughts?
-   > I came across the _Washington Post_ opinion piece trying to answer some of these questions...trying to get a different perspective from my own, and those around me.
+   > I came across the [_Washington Post_](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) opinion piece trying to answer some of these questions...trying to get a different perspective from my own, and those around me.
    > I would like to think these efforts allow other people to ask similar questions.
    > That they motivate thoughtful discussions about topics that are considered taboo to discuss with your co-workers, or even your friends and family.
 
