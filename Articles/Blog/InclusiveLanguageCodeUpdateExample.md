@@ -176,3 +176,10 @@ Given the current social justice climate in which we all operate, some readers m
 It's hard to argue with that.
 Nonetheless, others may feel like such efforts go way too far.
 While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) to the status quo, being called to invest effort to be more inclusive may feel like oppression.
+
+<!---
+Publish: yes
+Pinned: no
+Topics: Software process improvement, Documentation, Strategies for more effective teams
+RSS update: 2022-02-24
+--->
