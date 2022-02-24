@@ -1,8 +1,10 @@
 # Experiences replacing `master/slave` terminology in ALE3D and Sierra
 
 <!-- deck text start -->
-What is involved in replacing pervasive language representing barriers to being more inclusive?
+How do you think code snipits such as those depicted here, which are from a short (<10 min search) of GitHub, might impact potential users, collaborators or sponsors?
 <!-- deck text end -->
+
+- <img src='../../images/github_ms_snipits.png'/>
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
 #### Publication date: Feb 24, 2022
