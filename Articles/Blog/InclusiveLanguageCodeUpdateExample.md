@@ -64,7 +64,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
    > We used `sed` scripts to help update the code and the manual.
    > We didn't use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
    > An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
-   > A number of other developers on the team were very thorough in looking through this
+   > A number of other developers on the team were very thorough in looking through this.
  
 3. *About how many files and lines of code wound up having to change?*
 
