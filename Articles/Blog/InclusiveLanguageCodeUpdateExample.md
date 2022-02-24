@@ -48,7 +48,7 @@ Within the [NNSA labs](https://www.energy.gov/nnsa/national-nuclear-security-adm
 Their presence is often accompanied by classified information handling requirements.
 Although the terms `primary` and `secondary` are not themselves classified, using them as prolifically as `master` and `slave` have been used would present significant challenges in ensuring clean and clear separation between classified and unclassified information.
 
-In addition, to be thorough Ben felt it was important to replace not only `master` and `slave` but also any instances of terminology that *derived* from them.
+In addition, to be thorough, Ben felt it was important to replace not only `master` and `slave`, but also any instances of terminology that *derived* from them.
 For example, in the source code `nslvs` (or even `ns`) might be used as a variable representing the number of slave surfaces or in a data file `M_tire` and `S_Road` might be used to indicate the tire object played the role of a `master` slide surface and the road object the role of a `slave` slide surface.
 Although automated tooling handled the *common* cases, to reliably replace *derivative* terminology required careful study and manual editing.
 
