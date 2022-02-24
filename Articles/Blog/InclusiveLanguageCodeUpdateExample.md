@@ -26,7 +26,7 @@ The work involved changes to source code, dependency interfaces, documentation, 
 
 Managers within both projects had a long-standing interest in replacing `master/slave` terminology.
 However, they recognized, wisely, that such activities are far more likely to succeed when they happen organically rather than by management mandate.
-Finding a champion as well as mustering the consensus and resources to take on the work remained elusive.
+Finding a champion, as well as mustering the consensus and resources to take on the work, remained elusive.
 Then, the summer of 2020 happened.
 The whole country was engaged in dialogue about racially-oriented inequities of our society.
 This included the world of technology and software.
