@@ -114,7 +114,7 @@ For Gabriel on Sierra, a decisive moment came after reading an online article ab
 
 1. *Where was the `master/slave` terminology used in the code?*
 
-   > Contact surfaces (e.g. slide surfaces) is the main capability where the terminology was used in Sierra but it was also used in multi-point constraints, periodic boundary conditions and shell-solid joint code.
+   > Contact surfaces (e.g. slide surfaces) were the main capability where the terminology was used in Sierra, but it was also used in multi-point constraints, periodic boundary conditions, and shell-solid joint code.
 
 2. *Did your efforts exploit automated tooling or workflows to complete the changes?
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
