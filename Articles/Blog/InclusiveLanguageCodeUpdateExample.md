@@ -93,7 +93,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
    > I think this was also true for other developers and users.
    > I think the broader social climate helped provide momentum to push through the tedium and address resistance to change.
    > In particular, knowing that Sandia and Idaho National Lab were also working on this helped give me the confidence I needed to continue in what I was doing.
-   > Our work on replacing `master/slave` doesn't necessarily "moved the needle" much.
+   > Our work on replacing `master/slave` doesn't necessarily "move the needle" much.
    > But, my hope is that it can lead to more substantive change (things like hiring, pipeline, etc.).
 
 8. *How was the work on this funded?*
