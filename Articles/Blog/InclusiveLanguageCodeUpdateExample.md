@@ -1,7 +1,7 @@
 # Experiences replacing `master/slave` terminology in ALE3D and Sierra
 
 <!-- deck text start -->
-How do you think code snipits such as those depicted here, from a short (<10 min search) of GitHub, might impact potential users, developers, collaborators or sponsors?
+How do you think code snipits such as those depicted here, from a short search (<10 min) of GitHub, might impact potential users, developers, collaborators or sponsors?
 <!-- deck text end -->
 
 - <img src='../../images/github_ms_snipits.png'/>
