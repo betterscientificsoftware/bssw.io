@@ -1,4 +1,4 @@
-# Survey of Mentorship Among People Who Develop Software
+# Survey of Mentorship among People Who Develop Software
 
 - Date: March 31, 2022
 - Location: Online
