@@ -63,7 +63,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
 * *Where was the `master/slave` terminology used in the code?*
 
    > It was restricted almost entirely to our implementation of slide surfaces.
-   > After discussions with numerous stakeholders, everyone agreed a suitable replacement was simply *Side A* and *Side B*.
+   > After discussions with numerous stakeholders, everyone agreed a suitable replacement was simply `Side A` and `Side B`.
    > That is somewhat specific to slide surfaces but nonetheless worked for all our cases.
  
 * *Did your efforts exploit automated tooling or workflows to complete the changes?
