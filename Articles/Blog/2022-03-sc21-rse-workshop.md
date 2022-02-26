@@ -93,7 +93,7 @@ specifically for RSEs and even taken together, these resources do not
 provide a comprehensive set of materials to develop RSE skills.
 
 The discussion moved to aspects of RSE training that are missing, which
-included some technical skills, but also focussed on managerial and soft
+included some technical skills, but also focused on managerial and soft
 skills (mirroring the results of the skills question in the international
 RSE survey). People management, project management, writing proposals,
 dealing with clients, implicit bias and communication skills were all
@@ -112,11 +112,11 @@ sufficient number of RSEs are being trained.
 To understand training requirements over the duration of a career requires
 first an understanding of the potential career structure. This will require
 a pooling of RSE role descriptions (as is happening via the UK and
-international RSE associations) and the development of shared KPIs which can
+international RSE associations) and the development of shared key performance indicators (KPIs) which can
 be used to measure progress throughout an RSE career. To support this work,
 it was noted that there must be further progress on stabilizing RSEs within
 the academia, and that this work would be advanced if parallel efforts to
-recognise software as a vital research output are successful.
+recognize software as a vital research output are successful.
 
 ### Panel discussion: What role(s) do RSEs play in the HPC community? What kind of support do they need?
 
@@ -148,8 +148,9 @@ HPC. The support of self-developed domestic software such as molecular
 simulations and optimizations of software has started to be especially
 supported via HPC centers. Research software is developed in China via
 universities, research institutes, companies and HPC centers. Building out
-RSE teams is not very common in China yet though and to his best knowledge a
-dedicated RSE team exists only at his university by now. He is one of the
+RSE teams is not very common in China yet though and to the best of his, 
+his university 
+currently has the only dedicated RSE team in China. He is one of the
 advocates for the role and profession in China and aims at starting with a
 local community. The path to build teams would differ between universities,
 HPC centers and research institutes because of differences in existing
@@ -194,7 +195,7 @@ Sandra Gesing is a senior scientist, Scientific Outreach and DEI Lead at the Uni
 
 Professor Simon Hettrick is Deputy Director of the Software Sustainability Institute and a Director of the Southampton Research Software Group. Simon's research focuses on the use of software in the research community with the aim of understanding practices and demographics. Simon is a passionate advocate for Research Software Engineers. He orchestrated a campaign to gain recognition for this community, which has grown from a handful of people in 2013 to a substantial international community. He was the founding chair of the UK's Association of Research Software Engineers and was a founding Trustee of the Society of Research Software Engineering.
 
-Daniel S. Katz is Chief Scientst at the National Center for Supercomputing Applications (NCSA) and Research Associate Professor in Computer Science, Electrical and Computer Engineering, and the School of Information Sciences (iSchool) at the University of Illinois Urbana-Champaign. Dan's interest is in the development and use of advanced cyberinfrastructure to solve challenging problems at multiple scales. His technical research interests are in applications, algorithms, fault tolerance, and programming in parallel and distributed computing, including HPC, Grid, Cloud, etc. He is also interested in policy issues, including citation and credit mechanisms and practices associated with software and data, organization and community practices for collaboration, and career paths for computing researchers.
+Daniel S. Katz is Chief Scientist at the National Center for Supercomputing Applications (NCSA) and Research Associate Professor in Computer Science, Electrical and Computer Engineering, and the School of Information Sciences (iSchool) at the University of Illinois Urbana-Champaign. Dan's interest is in the development and use of advanced cyberinfrastructure to solve challenging problems at multiple scales. His technical research interests are in applications, algorithms, fault tolerance, and programming in parallel and distributed computing, including HPC, Grid, Cloud, etc. He is also interested in policy issues, including citation and credit mechanisms and practices associated with software and data, organization and community practices for collaboration, and career paths for computing researchers.
 
 <!---
 Publish: yes
