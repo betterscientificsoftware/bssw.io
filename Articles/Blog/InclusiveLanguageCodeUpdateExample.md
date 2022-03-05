@@ -185,6 +185,11 @@ It's hard to argue with that.
 Nonetheless, others may feel like such efforts go way too far.
 While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) to the status quo, being called to invest effort to be more inclusive may feel like oppression.
 
+*LLNL-AR-832434.
+Prepared by LLNL under Contract DE-AC52-07NA27344.
+This manuscript has been authored by Lawrence Livermore National Security, LLC under Contract No. DE-AC52-07NA2 7344 with the US. Department of Energy.
+The United States Government retains, and the publisher, by accepting the article for publication, acknowledges that the United States Government retains a non-exclusive, paid-up, irrevocable, world-wide license to publish or reproduce the published form of this manuscript, or allow others to do so, for United States Government purposes.*
+
 <!---
 Publish: yes
 Pinned: no
