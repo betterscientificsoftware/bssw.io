@@ -41,8 +41,8 @@ This included the world of technology and software.
 
 Apart from the practical aspects of changes to code, documentation, test data, etc., there was also effort required in getting all stakeholders to agree to the changes and support the work involved in completing them. 
 
-When the teams began the work, the total effort and resources required to complete were not well known.
-The total effort only revealed itself as dominoes began to fall.
+When the teams began the work, the total effort and resources required to complete it were not well known.
+The total effort involved revealed itself only as dominoes began to fall.
 In addition, no new resources were allocated to complete the work.
 The teams had to forego other activities in order to prioritize and complete this work.
 
