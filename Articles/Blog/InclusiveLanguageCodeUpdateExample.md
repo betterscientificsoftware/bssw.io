@@ -118,7 +118,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
  
 ### Gabriel Jose de Frias and Sierra
 
-For Gabriel on Sierra, a decisive moment came after reading an online article about `master/slave` and approaching Sierra project leadership about addressing it in their code base.
+For Gabriel on Sierra, a decisive moment came after reading an [online article](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) about `master/slave` and approaching Sierra project leadership about addressing it in their code base.
 
 * *Where was the `master/slave` terminology used in the code?*
 
