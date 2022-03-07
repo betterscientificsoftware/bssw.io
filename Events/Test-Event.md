@@ -7,7 +7,7 @@
 - Cool Party Date: April 1, 2022
 - Further dates: June 1st, 2022; 4th july 2022; 08/08/2022
 - Location: Online
-- Event Website: https://bssw.io
+- Event Website: [BSS]https://bssw.io
 - Organizers: BSSw
 
 This test event will be a fun time! It has a submission date and a cool party date, in addition to the general dates. If this works, we should see all those dates displayed.
