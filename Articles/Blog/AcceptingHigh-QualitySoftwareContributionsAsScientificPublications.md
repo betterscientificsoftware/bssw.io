@@ -86,7 +86,7 @@ services that are waiting to be explored by an academic peer review system:
 full 
 reproducibility; full traceability of contributions; the archiving of community 
 discussions and code reviewer comments; rollback functionality; and full  
-accessability worldwide. 
+accessibility worldwide. 
 While it may (for now) be unrealistic to change the 
 academic system to consider well-documented software contributions on 
 their own as a scientific publication, we can trick the 
