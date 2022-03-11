@@ -122,7 +122,7 @@ recognize software as a vital research output are successful.
 
 Five panelists from diverse backgrounds - academia, national lab, industry -
 and HPC experience discussed the unique challenges and roles RSEs have in
-HPC being themselves RSEs or supporting building career paths for RSEs.
+HPC, being themselves RSEs, or supporting building career paths for RSEs.
 Efficient parallelization is hard in HPC and while RSEs aim at following
 good or best practices in software engineering, there is a lack of available
 literature and practices in HPC yet. Tools supporting software engineering
