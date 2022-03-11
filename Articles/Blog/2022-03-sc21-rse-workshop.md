@@ -154,7 +154,7 @@ currently has the only dedicated RSE team in China. He is one of the
 advocates for the role and profession in China and aims at starting with a
 local community. The path to build teams would differ between universities,
 HPC centers and research institutes because of differences in existing
-possibilities like hiring staff for software development and funding
+possibilities, like hiring staff for software development and funding
 resources. He encourages his team to closely interact with researchers and
 to publish papers collaboratively to keep the option for a career path in
 the current academic landscape.
@@ -170,7 +170,7 @@ that have helped build their communities. Communication channels such as
 mailing lists, Slack, and community calls are very effective ways for RSEs
 to start connecting. Raising RSE awareness in other software or research
 conferences can also build connections and provide a nucleus for new RSE
-communities. Sustainability of newly-forming groups Is a key concern:
+communities. Sustainability of newly-forming groups is a key concern:
 several countries have grown their communities to where they would be
 sustainable beyond the loss of any single person, although perhaps not yet
 beyond the loss of a small core group. And several examples were given
@@ -179,7 +179,7 @@ among practitioners and students.
 
 ### Summary
 
-Overall, the workshop discussions were very active and many good questions
+Overall, the workshop discussions were very active. Many good questions
 were asked, and many of the participants afterward expressed their
 excitement about the workshop. Our thanks to all who helped
 [organize](https://us-rse.org/rse-hpc-2021/committee/) the workshop and all
