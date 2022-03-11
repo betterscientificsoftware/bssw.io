@@ -170,7 +170,7 @@ that have helped build their communities. Communication channels such as
 mailing lists, Slack, and community calls are very effective ways for RSEs
 to start connecting. Raising RSE awareness in other software or research
 conferences can also build connections and provide a nucleus for new RSE
-communities. Sustainability of newly-forming groups Is a key concern:
+communities. Sustainability of newly-forming groups is a key concern:
 several countries have grown their communities to where they would be
 sustainable beyond the loss of any single person, although perhaps not yet
 beyond the loss of a small core group. And several examples were given
