@@ -2,14 +2,14 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2112_SC21.png' />
+- <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2112_SC21.png' />
 
 #### Contributed by: [Charles Ferenbaugh](https://github.com/cferenba), [Sandra Gesing](https://github.com/sandragesing), [Simon Hettrick](https://github.com/SimonHettrick), and [Daniel S. Katz](https://github.com/danielskatz)
 #### Publication date: March 14, 2022
 
 The [RSE-HPC-2021 workshop](https://us-rse.org/rse-hpc-2021/) was held in
 November as part of the [SC21](https://sc21.supercomputing.org/) conference.
-Following up on the successful SC20 workshop, this year’s full-day workshop
+Following up on the successful SC20 workshop, this year's full-day workshop
 included 20 speakers (with slides posted on the [workshop
 website](https://us-rse.org/rse-hpc-2021/agenda/)) and over 50 participants,
 in a hybrid format of onsite plus virtual content. The workshop's structure
@@ -20,7 +20,7 @@ sessions, summarized below.
 
 Lois Curfman McInnes of Argonne National Lab opened the workshop with a
 short talk and extended discussion on the subject "Does exascale computing
-change research software?” She described how software has become the
+change research software?" She described how software has become the
 foundation of sustained collaboration in many HPC domains, including
 computational science and engineering, data science, machine learning, and
 computational infrastructure. Many efforts in recent years have helped to
@@ -30,25 +30,25 @@ the complexity and scope of traditional software challenges: adding support
 for heterogeneous architectures and next-generation science, and
 coordinating a wide range of software and teams, with all the resulting
 technical and sociological challenges. In response, ECP has developed an
-open, hierarchical software ecosystem, building a “team of teams” based on
+open, hierarchical software ecosystem, building a "team of teams" based on
 community collaboration and shared policies, while advancing scientific
 productivity through better scientific software. She concluded her talk with
 a shout-out to her ECP RSE colleagues at Argonne and elsewhere, describing
-them as “the linchpin of all things exascale - and beyond”!
+them as "the linchpin of all things exascale - and beyond"!
 
 ### Short talks
 
-Marion Weinzierl gave the first short talk on “Training HPC RSEs: What we
-learned from our performance.” This was based on training workshops that
+Marion Weinzierl gave the first short talk on "Training HPC RSEs: What we
+learned from our performance." This was based on training workshops that
 they gave, with seven sessions over seven months. These lessons were
-tutorial style in the mornings, and hackathon style in the afternoons. They
+tutorial-style in the mornings and hackathon-style in the afternoons. They
 were taken by 79 people in 13 teams, with 20-50 participants per session.
 Lessons from this work included that 1) HPC research software developers
 need a sound foundation in in-depth computer science and hardware-ware
 programming to be able to understand performance analysis and turn insights
 into performance optimization; 2) performance analysis has to be a team
-effort, and you (really) need to know the code base; 3) performance analysis
-has to be a first-class activity for high performance code development; and
+effort and you (really) need to know the code base; 3) performance analysis
+has to be a first-class activity for high-performance code development; and
 4) training for HPC-RSEs has to take into account the range of people who
 develop HPC software, who have different backgrounds and skills, interests,
 and priorities, and that it
@@ -56,13 +56,13 @@ needs to spell out the basic concepts that are used and needs to bridge the
 gap between hardware and software knowledge. They also have written a
 detailed report: <https://doi.org/10.5281/zenodo.5155502>.
 
-The next short talk was on “Building an AI-ready RSE Workforce,” by Ying
-Zhang. This talk discussed AI’s increasing impact on research software, and
+The next short talk was on "Building an AI-ready RSE Workforce," by Ying
+Zhang. This talk discussed AI's increasing impact on research software, and
 what the University of Florida is doing to give RSEs (and others) AI skills,
 including an AI curriculum with a certificate in AI, as well as AI training.
 
-The final short talk, “An Exploration of the Mentorship Needs of Research
-Software Engineers,” was presented by Reed Milewicz. The talk discussed
+The final short talk, "An Exploration of the Mentorship Needs of Research
+Software Engineers" was presented by Reed Milewicz. The talk discussed
 mentorship as a strategy to enable the career growth and retention of RSEs;
 key needs that RSEs may have in providing and receiving mentorship; and
 directions for future work. The talk defined mentorship as a relationship in
@@ -72,13 +72,13 @@ about the benefits for both the mentee and mentor. Milewicz found that RSEs
 need interdisciplinary mentorship networks, long-term mentoring
 relationships, and training in soft skills. The talk called for us to start
 mentorships now, to build explicit institutional support for them, and to
-conduct research to create better mentorship policy.
+conduct research to create better mentorship policies.
 
 ### Breakout sessions
 
 An hour-long breakout session was organized to draw on the rich variety of
-experience that the attendees brought to the workshop. A number of questions
-had arisen around training of RSEs during the organization of the workshop,
+experience that the attendees brought to the workshop. Several questions
+had arisen around the training of RSEs during the organization of the workshop,
 so we used this as the theme for the breakout. Four groups of
 four-to-six people were asked to discuss their views on good examples of RSE
 training, HPC training for RSEs, what training needs are unfulfilled and how
@@ -96,20 +96,20 @@ The discussion moved to aspects of RSE training that are missing, which
 included some technical skills, but also focused on managerial and soft
 skills (mirroring the results of the skills question in the international
 RSE survey). People management, project management, writing proposals,
-dealing with clients, implicit bias and communication skills were all
+dealing with clients, implicit bias, and communication skills were all
 highlighted as important skills that lacked training. The need for mentoring
 and coaching was also identified, as was the new mentoring scheme that has
 been launched by the Society of RSE. Unsurprisingly for this conference, HPC
 skills were discussed as important, but it was noted that not all RSEs
 conduct HPC.
 
-Training will deal with the short-term need in skills, but if the RSE
+Training will deal with the short-term needs in skills, but if the RSE
 community is to grow to meet the demand for software engineering in the
 research community, investment will also have to be made in
 education, i.e. undergraduate and Masters courses, to ensure that a
 sufficient number of RSEs are being trained.
 
-To understand training requirements over the duration of a career requires
+Understanding training requirements throughout a career requires
 first an understanding of the potential career structure. This will require
 a pooling of RSE role descriptions (as is happening via the UK and
 international RSE associations) and the development of shared key performance indicators (KPIs) which can
@@ -127,16 +127,16 @@ Efficient parallelization is hard in HPC and while RSEs aim at following
 good or best practices in software engineering, there is a lack of available
 literature and practices in HPC yet. Tools supporting software engineering
 often do not work well in an exascale environment and the whole programming
-paradigm changes. The panelists agreed that the role of HPC RSEs are still
+paradigm changes. The panelists agreed that the role of HPC RSEs is still
 missing good career paths in academia and that their expertise is often not
-acknowledged. The panelists have different experience with support in HPC
+acknowledged. The panelists have different experiences with support in HPC
 centers - some experienced good support with training and incentives and
 some have seen that it got better over the last few years but was also a
-battle for recognition in the past. They agreed on that the national and
+battle for recognition in the past. They agreed that the national and
 international movements and events for RSEs also improves the situation for
 HPC RSEs and there is the need for more events and more training. To be an
 effective RSE is often dependent on each institution and it is still
-necessary to follow the traditional academic “benchmarks” with contributing
+necessary to follow the traditional academic "benchmarks" with contributing
 to publications etc. to get recognized for contributions.
 
 ### Conversation: RSEs and HPC in China
@@ -147,7 +147,7 @@ software has been added to the focus besides hardware and applications in
 HPC. The support of self-developed domestic software such as molecular
 simulations and optimizations of software has started to be especially
 supported via HPC centers. Research software is developed in China via
-universities, research institutes, companies and HPC centers. Building out
+universities, research institutes, companies, and HPC centers. Building out
 RSE teams is not very common in China yet though and to the best of his, 
 his university 
 currently has the only dedicated RSE team in China. He is one of the
@@ -183,15 +183,15 @@ Overall, the workshop discussions were very active and many good questions
 were asked, and many of the participants afterward expressed their
 excitement about the workshop. Our thanks to all who helped
 [organize](https://us-rse.org/rse-hpc-2021/committee/) the workshop and all
-those who participated in it. And, we’ll be starting to plan soon for
+those who participated in it. And, we'll be starting to plan soon for
 another RSE-HPC workshop at [SC22](https://sc22.supercomputing.org/) this
 fall; we hope that many of you will be able to join us!
 
 ### Author bios
 
-Charles Ferenbaugh is the Computer Science Lead for the Eulerian Applications Project at Los Alamos National Laboratory.  He received a PhD in Mathematics from Princeton University in 1992.  He spent several years working at Raytheon developing high-performance signal processing software, before coming on staff at LANL in 2001.  At LANL he has been a software developer contributing to large multiphysics code projects running on supercomputer clusters.  He has also been a part of LANL research efforts in advanced architectures and programming models.  He was a founding steering committee member of the US Research Software Engineer Association.
+Charles Ferenbaugh is the Computer Science Lead for the Eulerian Applications Project at Los Alamos National Laboratory. He received a Ph.D. in Mathematics from Princeton University in 1992. He spent several years working at Raytheon developing high-performance signal processing software, before coming on staff at LANL in 2001. At LANL he has been a software developer contributing to large multiphysics code projects running on supercomputer clusters. He has also been a part of LANL research efforts in advanced architectures and programming models. He was a founding steering committee member of the US Research Software Engineer Association.
 
-Sandra Gesing is a senior scientist, Scientific Outreach and DEI Lead at the University of Illinois Discovery Partners Institute in Chicago. Her research focuses on science gateways, computational workflows as well as distributed computing which inherently leads to highly interdisciplinary projects. She is especially interested in sustainability of research software, usability of computational methods and reproducibility of research results. She advocates for improving career paths for research software engineers and facilitators and for incentivizing their work via means beyond the traditional academic rewarding system. She is a founding steering committee member of the US Research Software Engineer Association (US-RSE).
+Sandra Gesing is a senior scientist, Scientific Outreach and DEI Lead at the University of Illinois Discovery Partners Institute in Chicago. Her research focuses on science gateways, computational workflows as well as distributed computing which inherently leads to highly interdisciplinary projects. She is especially interested in the sustainability of research software, the usability of computational methods, and the reproducibility of research results. She advocates for improving career paths for research software engineers and facilitators and for incentivizing their work via means beyond the traditional academic rewarding system. She is a founding steering committee member of the US Research Software Engineer Association (US-RSE).
 
 Professor Simon Hettrick is Deputy Director of the Software Sustainability Institute and a Director of the Southampton Research Software Group. Simon's research focuses on the use of software in the research community with the aim of understanding practices and demographics. Simon is a passionate advocate for Research Software Engineers. He orchestrated a campaign to gain recognition for this community, which has grown from a handful of people in 2013 to a substantial international community. He was the founding chair of the UK's Association of Research Software Engineers and was a founding Trustee of the Society of Research Software Engineering.
 
