@@ -39,8 +39,9 @@ them as "the linchpin of all things exascale - and beyond"!
 ### Short talks
 
 Marion Weinzierl gave the first short talk on "Training HPC RSEs: What We
-Learned From Our Performance." This was based on training workshops that
-they gave, with seven sessions over seven months. These lessons were
+Learned From Our Performance." This was based on training workshops
+developed by a team at Durham University and given in 
+seven sessions over seven months. These lessons were
 tutorial-style in the mornings and hackathon-style in the afternoons. They
 were taken by 79 people in 13 teams, with 20-50 participants per session.
 Lessons from this work included that 1) HPC research software developers
