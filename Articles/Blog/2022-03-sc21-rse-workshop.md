@@ -1,4 +1,4 @@
-# A report on the SC21 Research Software Engineers in HPC (RSE-HPC-2021) Workshop
+# A Report on the SC21 Research Software Engineers in HPC (RSE-HPC-2021) Workshop
 
 **Hero Image:**
 
