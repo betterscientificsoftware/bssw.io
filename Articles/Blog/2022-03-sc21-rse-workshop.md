@@ -38,7 +38,7 @@ them as "the linchpin of all things exascale - and beyond"!
 
 ### Short talks
 
-Marion Weinzierl gave the first short talk on "Training HPC RSEs: What we
+Marion Weinzierl gave the first short talk on "Training HPC RSEs: What We
 learned from our performance." This was based on training workshops that
 they gave, with seven sessions over seven months. These lessons were
 tutorial-style in the mornings and hackathon-style in the afternoons. They
