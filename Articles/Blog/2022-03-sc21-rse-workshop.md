@@ -130,7 +130,7 @@ often do not work well in an exascale environment and the whole programming
 paradigm changes. The panelists agreed that the role of HPC RSEs is still
 missing good career paths in academia and that their expertise is often not
 acknowledged. The panelists have different experiences with support in HPC
-centers - some experienced good support with training and incentives and
+centers - some experienced good support with training and incentives, while others
 some have seen that it got better over the last few years but was also a
 battle for recognition in the past. They agreed that the national and
 international movements and events for RSEs also improves the situation for
