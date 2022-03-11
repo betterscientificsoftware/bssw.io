@@ -154,7 +154,7 @@ currently has the only dedicated RSE team in China. He is one of the
 advocates for the role and profession in China and aims at starting with a
 local community. The path to build teams would differ between universities,
 HPC centers and research institutes because of differences in existing
-possibilities like hiring staff for software development and funding
+possibilities, like hiring staff for software development and funding
 resources. He encourages his team to closely interact with researchers and
 to publish papers collaboratively to keep the option for a career path in
 the current academic landscape.
