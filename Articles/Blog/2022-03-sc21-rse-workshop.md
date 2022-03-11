@@ -179,7 +179,7 @@ among practitioners and students.
 
 ### Summary
 
-Overall, the workshop discussions were very active and many good questions
+Overall, the workshop discussions were very active. Many good questions
 were asked, and many of the participants afterward expressed their
 excitement about the workshop. Our thanks to all who helped
 [organize](https://us-rse.org/rse-hpc-2021/committee/) the workshop and all
