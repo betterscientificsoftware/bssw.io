@@ -148,7 +148,7 @@ HPC. The support of self-developed domestic software such as molecular
 simulations and optimizations of software has started to be especially
 supported via HPC centers. Research software is developed in China via
 universities, research institutes, companies, and HPC centers. Building out
-RSE teams is not very common in China yet though and to the best of his, 
+RSE teams is not very common in China yet though and to the best of his knowledge, 
 his university 
 currently has the only dedicated RSE team in China. He is one of the
 advocates for the role and profession in China and aims at starting with a
