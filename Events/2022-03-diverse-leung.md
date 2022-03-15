@@ -1,4 +1,4 @@
-# DiveRSE Speaker Series: Normalizing inclusion by embracing difference
+# DiveRSE Speaker Series: Normalizing Inclusion by Embracing Difference
 
 - Event Date: 2022-03-22
 - Location: Online
