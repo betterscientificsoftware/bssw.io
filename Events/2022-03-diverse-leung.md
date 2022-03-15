@@ -1,6 +1,6 @@
 # DiveRSE Speaker Series: Normalizing inclusion by embracing difference
 
-- Date: 2022-03-22
+- Event Date: 2022-03-22
 - Location: Online
 - Event Website: https://diverse-rse.github.io/events/2022-03-22
 - Organizers: DiveRSE & Society of Research Software Engineering
@@ -33,13 +33,9 @@ Registration, Information, and Archives | 	<https://diverse-rse.github.io/events
 
 
 
-#### Contributed by members of BSSw community
+#### Contributed by [Miranda Mundt](https://github.com/mrmundt)
 
 <!---
 Publish: yes
-Categories: Community, collaboration
-Topics: diversity, equity, inclusion, RSE
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: strategies for more effective teams, online learning, conferences and workshops
 --->
