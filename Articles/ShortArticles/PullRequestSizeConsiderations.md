@@ -38,7 +38,7 @@ suggests that more than 400 lines changed is considered *too large* for a single
 and defect rate. Reviewers suffer one or more of the following consequences the larger a
 PR is...
 * ...the more work reviewing the PR involves.
-* ...the more difficult it is to divy up review work among multiple reviewers.
+* ...the more difficult it is to divvy up review work among multiple reviewers.
 * ...the more difficult it is for reviewers to schedule time for review.
 * ...the more likely reviewers will put off even starting the review.
 * ...the more likely a first reviewer will give only a cursory review.
