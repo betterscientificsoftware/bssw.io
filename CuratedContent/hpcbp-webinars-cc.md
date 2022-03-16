@@ -1,3 +1,7 @@
+
+
+
+
 # Best Practices for HPC Software Developers Webinar Series
 
 The HPC Best Practices (HPC-BP) webinars address issues faced by
@@ -26,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2022-02-21*
+*Listed in reverse chronological order. Last updated: 2022-03-16*
 
 
 
@@ -34,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Software Design Patterns in Research Software with Examples from OpenFOAM*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar061), Tomislav Maric (Technische Universität Darmstadt), 2022-03-09
 
 
 
@@ -517,7 +529,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2022-02-21
+#### Publication date: 2022-03-16
 
 <!---
 Publish: yes
@@ -527,3 +539,4 @@ Level: 2
 Prerequisites: default
 Aggregate: none
 --->
+
