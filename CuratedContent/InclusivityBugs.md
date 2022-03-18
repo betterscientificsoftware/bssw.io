@@ -88,6 +88,6 @@ Discusses inclusivity bugs steming from the use of commonly used language idioms
 <!---
 Publish: yes
 Pinned: no
-Topics: Software process improvement, Documentation, Strategies for more effective teams
+Topics: Inclusivity, Software process improvement, Documentation, Strategies for more effective teams
 RSS update: 2021-11-22
 --->
