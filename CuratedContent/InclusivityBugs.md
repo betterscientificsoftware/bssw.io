@@ -23,14 +23,6 @@ More work is needed to cover the gamut of inclusivity bugs that can arise in sof
 
 Resource information | Details
 :--- | :---
-Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e)<br> [DOI:10.1109/MCSE.2021.3125473](10.1109/MCSE.2021.3125473)
-Author(s) | Mark C. Miller
-Focus | Inclusive Communication
-
-Discusses inclusivity bugs steming from the use of commonly used language idioms.
-
-Resource information | Details
-:--- | :---
 Article title | [Fixing Inclusivity Bugs for Information Processing Styles and Learning Styles](https://arxiv.org/abs/1905.02813)
 Author(s) | Zoe Steine-Hanson, Claudia Hilderbrand, Lara Letaw, Jillian Emard, Christopher Perdriau, Christopher Mendez, Margaret Burnett, Anita Sarma
 Focus | Best Practices
@@ -84,6 +76,14 @@ Author(s) | Emma Irwin
 Focus | Productivity Metrics
 
 A quick look at some inclusivity metrics for open source projects.
+
+Resource information | Details
+:--- | :---
+Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e)<br> [DOI:10.1109/MCSE.2021.3125473](10.1109/MCSE.2021.3125473)
+Author(s) | Mark C. Miller
+Focus | Inclusive Communication
+
+Discusses inclusivity bugs steming from the use of commonly used language idioms.
 
 <!---
 Publish: yes
