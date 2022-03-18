@@ -46,6 +46,6 @@ Ways you can contribute...
 <!---
 Publish: yes
 Pinned: no
-Topics: Software process improvement, Documentation, Strategies for more effective teams
+Topics: inclusivity, Software process improvement, Documentation, Strategies for more effective teams
 RSS update: 2021-06-14
 --->

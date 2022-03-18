@@ -37,5 +37,5 @@ Registration, Information, and Archives | 	<https://diverse-rse.github.io/events
 
 <!---
 Publish: yes
-Topics: strategies for more effective teams, online learning, conferences and workshops
+Topics: inclusivity, strategies for more effective teams, online learning, conferences and workshops
 --->
