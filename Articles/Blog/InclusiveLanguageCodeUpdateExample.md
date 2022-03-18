@@ -190,6 +190,6 @@ While we can acknowledge both perspectives exist, it is worth considering that w
 <!---
 Publish: yes
 Pinned: no
-Topics: Software process improvement, Documentation, Strategies for more effective teams
+Topics: Inclusivity, Software process improvement, Documentation, Strategies for more effective teams
 RSS update: 2022-02-24
 --->
