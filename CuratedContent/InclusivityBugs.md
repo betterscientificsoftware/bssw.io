@@ -1,21 +1,21 @@
 # Inclusivity Bugs
 
 <!--deck text start-->
-Does you sofware play favorites? We don't like it when our parents or managers do. We shouldn't develop software in a way that does.
+Does your sofware project play favorites? We don't like it when our parents or managers do. We shouldn't develop software in a way that does.
 <!--deck text end-->
 
 #### Contributed by: [Mark Miller](https://github.com/markcmiller86)
 #### Publication date: March 17, 2022
 
 
-An *inclusivity bug* is a type of issue in software projects that creates unnecessary obstacles for whole groups of stakeholders to equitably participate.
+An *inclusivity bug* is a type of issue in software projects that creates unnecessary obstacles for whole classes of stakeholders to equitably participate.
 
-Inclusivity bugs can crop up in code as well as artifacts related to development of code such as accompanying documentation, on-boarding and meeting processes, testing resource access, communication modalities, etc.
+Inclusivity bugs can crop up in code as well as artifacts related to development of code such as accompanying documentation, on-boarding and meeting processes, resource access, communication modalities, etc.
 
 If you've ever been the one and only *remote teleconference* participant in a *hybrid* team meeting where everyone else is gathered around a table in some meeting room, you will no doubt easily identify with how an inclusivity bug can impact participation.
 If the audio is working poorly, or members around the table are too far from the mic, or if the current slide number being viewed isn't mentioned verbally or if the network is slow or for a whole host of other reasons you are unable either to hear everything or be heard, you have experienced an inclusivity bug in your team's meeting processes.
 
-If you identify as a women but but are asked to write documentation in which users are exclusively referred to with male pronouns, or if you identify as African American but are asked to sponsor numerous software projects that make extensive use masters and slaves or if you are a person with color vision deficiency and are constantly presented with information in inappropriate color schemes, you have experienced inclusivity bugs.
+If you identify as a women but are asked to write documentation in which users are exclusively referred to with male pronouns, or if you identify as African American but are asked to sponsor numerous software projects that make extensive use of masters and slaves or if you are a person with color vision deficiency and are constantly presented with information in inappropriate color schemes, you have experienced inclusivity bugs.
 
 We have compiled here a list of resources about inclusivity bugs.
 Most have to do with gender bias.
@@ -23,7 +23,7 @@ More work is needed to cover the gamut of inclusivity bugs that can arise in sof
 
 Resource information | Details
 :--- | :---
-Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e)<br> [DOI](10.1109/MCSE.2021.3125473)
+Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e)<br> [DOI:10.1109/MCSE.2021.3125473](10.1109/MCSE.2021.3125473)
 Author(s) | Mark C. Miller
 Focus | Inclusive Communication
 
@@ -55,7 +55,7 @@ Discusses some of the bug *fixes* applied to address inclusivity bugs related to
 
 Resource information | Details
 :--- | :---
-Article title | [AID: An Automated Detector for Gender-Inclusivity Bugs in OSS Project Pages](https://ieeexplore.ieee.org/document/9402060)<br>[DOI](10.1109/ICSE43902.2021.00128)
+Article title | [AID: An Automated Detector for Gender-Inclusivity Bugs in OSS Project Pages](https://ieeexplore.ieee.org/document/9402060)<br>[DOI:10.1109/ICSE43902.2021.00128](10.1109/ICSE43902.2021.00128)
 Author(s) | Amreeta Chatterjee; Mariam Guizani; Catherine Stevens; Jillian Emard; Mary Evelyn May; Margaret Burnett; Iftekhar Ahmed
 Focus | Inclusive Communication
 
