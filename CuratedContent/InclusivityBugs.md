@@ -33,7 +33,7 @@ Resource information | Details
 :--- | :---
 Article title | [Fixing Inclusivity Bugs for Information Processing Styles and Learning Styles](https://arxiv.org/abs/1905.02813)
 Author(s) | Zoe Steine-Hanson, Claudia Hilderbrand, Lara Letaw, Jillian Emard, Christopher Perdriau, Christopher Mendez, Margaret Burnett, Anita Sarma
-Focus | Inclusive Communication
+Focus | Best Practices
 
 Discusses inclusivity bugs arising out of gender bias.
 
@@ -41,7 +41,7 @@ Resource information | Details
 :--- | :---
 Article title | [Squashing inclusivity bugs in open source software](https://opensource.com/article/18/8/inclusivity-bugs-open-source-software)
 Author(s) | Anita Sarma
-Focus | Inclusive Communication
+Focus | Best Practices
 
 Methodology for identifying gender bias in software tools to help eliminate it.
 
@@ -49,7 +49,7 @@ Resource information | Details
 :--- | :---
 Article title | [How to Debug Inclusivity Bugs? An Empirical Investigation of Finding-to-Fixing with Information Architecture](https://ir.library.oregonstate.edu/concern/defaults/8049gc556)
 Author(s) | Guizani, Mariam; Steinmacher, Igor; Emard, Jillian; Fallatah, Abrar; Burnett, Margaret; Sarma, Anita
-Focus | Inclusive Communication
+Focus | Experience Report
 
 Discusses some of the bug *fixes* applied to address inclusivity bugs related to gender bias.
 
@@ -57,7 +57,7 @@ Resource information | Details
 :--- | :---
 Article title | [AID: An Automated Detector for Gender-Inclusivity Bugs in OSS Project Pages](https://ieeexplore.ieee.org/document/9402060)<br>[DOI:10.1109/ICSE43902.2021.00128](10.1109/ICSE43902.2021.00128)
 Author(s) | Amreeta Chatterjee; Mariam Guizani; Catherine Stevens; Jillian Emard; Mary Evelyn May; Margaret Burnett; Iftekhar Ahmed
-Focus | Inclusive Communication
+Focus | Tooling
 
 Discusses a automated tool for finding inclusivity bugs related to gender bias.
 
@@ -65,7 +65,7 @@ Resource information | Details
 :--- | :---
 Article title | [Engineering Gender-Inclusivity into Software: Ten Teams’ Tales from the Trenches](https://par.nsf.gov/servlets/purl/10226803)
 Author(s) | Claudia Hilderbrand, Christopher Perdriau, Lara Letaw, Jillian Emard, Zoe Steine-Hanson, Margaret Burnett, Anita Sarma
-Focus | Inclusive Communication
+Focus | Inclusive Design
 
 Various teams experiences designing for inclusivity.
 
@@ -81,7 +81,7 @@ Resource information | Details
 :--- | :---
 Article title | [How to Apply Metrics for Inclusion to your Open Source Project](https://medium.com/@sunnydeveloper/how-to-apply-metrics-for-inclusion-to-your-open-source-project-71b4e31a7b0c)
 Author(s) | Emma Irwin
-Focus | Inclusive Communication
+Focus | Productivity Metrics
 
 A quick look at some inclusivity metrics for open source projects.
 
