@@ -4,6 +4,10 @@
 Does you sofware play favorites? We don't like it when our parents or managers do. We shouldn't develop software in a way that does.
 <!--deck text end-->
 
+#### Contributed by: [Mark Miller](https://github.com/markcmiller86)
+#### Publication date: March 17, 2022
+
+
 An *inclusivity bug* is a type of issue in software projects that creates unnecessary obstacles for whole groups of stakeholders to equitably participate.
 
 Inclusivity bugs can crop up in code as well as artifacts related to development of code such as accompanying documentation, on-boarding and meeting processes, testing resource access, communication modalities, etc.
@@ -16,9 +20,6 @@ If you identify as a women but but are asked to write documentation in which use
 We have compiled here a list of resources about inclusivity bugs.
 Most have to do with gender bias.
 More work is needed to cover the gamut of inclusivity bugs that can arise in software projects.
-
-#### Contributed by: [Mark Miller](https://github.com/markcmiller86)
-#### Publication date: March 17, 2022
 
 Resource information | Details
 :--- | :---
