@@ -18,7 +18,7 @@ If the audio is working poorly, or members around the table are too far from the
 If you identify as a women but are asked to write documentation in which users are exclusively referred to with male pronouns, or if you identify as African American but are asked to sponsor numerous software projects that make extensive use of masters and slaves or if you are a person with color vision deficiency and are constantly presented with information in inappropriate color schemes, you have experienced inclusivity bugs.
 
 We have compiled here a list of resources about inclusivity bugs.
-Most have to do with gender bias.
+Most are oriented towards gender.
 More work is needed to cover the gamut of inclusivity bugs that can arise in software projects.
 
 Resource information | Details
@@ -27,7 +27,7 @@ Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.
 Author(s) | Mark C. Miller
 Focus | Inclusive Communication
 
-Addresses inclusivity bugs steming from the use of commonly used language idioms.
+Discusses inclusivity bugs steming from the use of commonly used language idioms.
 
 Resource information | Details
 :--- | :---
