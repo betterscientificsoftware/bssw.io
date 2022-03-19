@@ -2,7 +2,7 @@
 
 - Date: 2022-04-13
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar062
+- Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar062
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
