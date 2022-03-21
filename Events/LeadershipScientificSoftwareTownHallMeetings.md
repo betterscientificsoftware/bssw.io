@@ -1,5 +1,5 @@
 # Leadership Scientific Software Town Hall Meetings (Series)
-- Date: Feb 17, 2022; Mar 17, 2022; Apr 21, 2022; May 19, 2022; Jun 16, 2022; Jul 21, 2022; Aug 18, 2022
+- Event Date: Feb 17, 2022; Mar 17, 2022; Apr 21, 2022; May 19, 2022; Jun 16, 2022; Jul 21, 2022; Aug 18, 2022
 - Location: Virtual
 - Event Website: https://leadershipscientificsoftware.github.io/LSSwTownHalls.html
 - Organizers: ECP Software Technology
@@ -29,6 +29,6 @@ The hope is that the discussions during the town hall events will grow the leade
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
 
 <!---
-Publish: no
+Publish: yes
 Topics: Projects and Organizations, High-Performance Computing (HPC)
 --->
