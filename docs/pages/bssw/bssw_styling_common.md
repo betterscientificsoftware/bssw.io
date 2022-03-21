@@ -64,7 +64,7 @@ To reference the images in the `*.md` article file, copy the image file is to th
 
 - Add the relative path to the image file from the `*.md` file. Using the "logo" class helps constrain the size of the image.
 ````
-< img src='<img src='../../images/YOUR-IMAGE-NAME.png' class='logo' />
+<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>
 ````
 - Please ensure we have permission to use the logo/image 
 - Please ensure logo is clear and high resolution
