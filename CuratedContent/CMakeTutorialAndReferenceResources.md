@@ -3,7 +3,7 @@
 <!--deck text start-->
 The CMake meta-build system is a large and powerful set of tools to create cross-platform builds from source for C, C++, Fortran and many other compiled programming languages.
 CMake continues to rapidly evolve and best practices in its use are changing almost as rapidly.
-Here we provide links and descriptions for the best tutorial and reference materials that exist for CMake to help stay on the forefront of effective CMake usage.
+Here we provide links and descriptions for the best tutorial and reference materials that exist for CMake to help stay current in effective CMake usage.
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
