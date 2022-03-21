@@ -79,7 +79,7 @@ But if one cannot find the answer any other way (short of asking the CMake maint
 Publish: yes 
 Pinned: no
 RSS update: ???
-Topics: ???
+Topics: configuration and builds, release and deployment, development tools, testing, online learning
 --->
 
 <!---
