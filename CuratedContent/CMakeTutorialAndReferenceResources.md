@@ -48,7 +48,7 @@ It also provides really critical low-level details and tips that are absent in e
 This book is self published by the author in a downloadable PDF format with new editions coming out after each new CMake release (i.e. three new editions each year).
 The current edition of the book costs $30 which includes 9 updates for new editions of the book as they come out.
 (Therefore, $30 would cover every new edition over a 3 year period which includes 9 new CMake releases or 6 years if only downloading every other updated edition across 18 CMake releases.)
-The author is not currently a Kitware employee but is a significant contributor to CMake and collaborates closely with Kitware staff.
+The author is a significant contributor to CMake and collaborates closely with Kitware staff.
 The author starts evaluating and updating the book at the beginning of each new CMake release cycle (i.e. right after the first release candidate `vX.Y.0-rc1` is tagged).
 Through this process, the author often provides feedback to Kitware and help addressing issues with new CMake features and changes to existing CMake functionality which feeds back into bug fixes and better CMake reference and release notes documentation.
 
