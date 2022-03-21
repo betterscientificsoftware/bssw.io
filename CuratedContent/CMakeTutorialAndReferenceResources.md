@@ -1,7 +1,7 @@
 # CMake Tutorial and Reference Resources
 
 <!--deck text start-->
-The CMake meta-build system is a large and powerful set of tools to create cross-platform builds from source for C, C++, Fortran and many other compiled programming languages.
+The CMake system is a large and powerful set of tools to create cross-platform builds from source for C, C++, Fortran and many other compiled programming languages.
 CMake continues to rapidly evolve and best practices in its use are changing almost as rapidly.
 Here we provide links and descriptions for the best tutorial and reference materials that exist for CMake to help stay current in effective CMake usage.
 <!--deck text end-->
@@ -29,12 +29,16 @@ Authors | Kitware Staff
 Publication | Year 2022, Self published, currently not versioned
 Web links | https://crascit.com/professional-cmake/
 
+----
+
 The CMake meta-build tool and ecosystem (which includes the tools CTest and CPack with each CMake installation) continues to evolve and improve fairly rapidly from release to release.
 Kitware (the organization responsible for CMake development) makes three major releases each year (or about every four months).
 Best practices for using CMake evolve as new versions are released.
 For example, at the time of this writing, CMake support for [Generator Expressions](https://cmake.org/cmake/help/latest/manual/cmake-generator-expressions.7.html#manual:cmake-generator-expressions(7)) is rapidly evolving and can have a dramatic impact on the best way to write `CMakeList.txt` files.)
 Therefore, unlike other programming tools, trying to use web searches to find solutions for CMake can be ineffective; because even advice from just a year ago on Stack Overflow or Stack Exchange can be outdated.
 The bssw.io editorial team has created this article informed by 13+ years of [advanced CMake usage](https://tribits.org/doc/TribitsDevelopersGuide.html) and hundreds of hours of searching for and reading CMake documentation, especially in the years 2021-2022.
+
+----
 
 <img src='../images/ProfessionalCMake.jpg' class='page'/>
 
@@ -49,8 +53,6 @@ This book is self published by the author in a downloadable PDF format with new 
 The current edition of the book costs $30 which includes 9 updates for new editions of the book as they come out.
 (Therefore, $30 would cover every new edition over a 3 year period which includes 9 new CMake releases or 6 years if only downloading every other updated edition across 18 CMake releases.)
 The author is a significant contributor to CMake and collaborates closely with Kitware staff.
-The author starts evaluating and updating the book at the beginning of each new CMake release cycle (i.e. right after the first release candidate `vX.Y.0-rc1` is tagged).
-Through this process, the author often provides feedback to Kitware and help addressing issues with new CMake features and changes to existing CMake functionality which feeds back into bug fixes and better CMake reference and release notes documentation.
 
 Another important source of CMake documentation is Kitware's official online ***CMake Reference Documentation***.
 This documentation is produced and versioned for every CMake release and contains a wealth of information including:
@@ -71,9 +73,8 @@ This is an updated, free online version of Kitware's classic "Mastering CMake" p
 It also contains tutorial coverage of key CMake concepts and other basic tutorial content (but usually at a less complete and detailed level compared to "Professional CMake").
 Note that the "guides" provided in the online CMake Reference Documentation are also precisely duplicated in the online "Mastering CMake" book.
 
-Finally, if one searches the above mentioned documentation sources "Professional CMake", the online CMake Reference Documentation, and "Mastering CMake" and does not find the answer, then one can turn to web searches.
-Just note that, as warned above, the answers found may be outdated (even from a few years ago).
-But if one cannot find the answer any other way (short of asking the CMake maintainers themselves) these web searches can be helpful to learn how to address issues with CMake.
+Finally, if one searches the above mentioned documentation sources and does not find the answer, then one can turn to web searches.
+Just note that, as warned above, the answers found may be outdated (even from a few years ago) so one should make sure to double check to determine if this is still the best advice for the current state of CMake.
 
 <!---
 Publish: yes 
