@@ -64,7 +64,7 @@ This documentation is produced and versioned for every CMake release and contain
 * Command-line documentation for the `cmake`, `ctest`, and `cpack` executables
 
 As a developer contributing to a project using CMake (i.e. editing the project's `CMakeLists.txt` files), when consulting the official reference documentation, it is advisable to view documentation for only the minimum version of CMake supported by the project (i.e. for the version `X.Y` listed in the project's top-level `CMakeLists.txt` file calling `cmake_minimum_required(VERSION X.Y)`).
-For example, if minimum version was 3.17, then one would select that version in the drop-down box (taking you to https://cmake.org/cmake/help/v3.17/).  This helps to avoid accidentally using CMake features not present in the minimum CMake version supported by the project.
+For example, if minimum version is 3.17, then one would select that version in the drop-down box (taking you to https://cmake.org/cmake/help/v3.17/).  This helps to avoid accidentally using CMake features available only in newer versions.
 
 If one does not want to spend the $30 for the book "Professional CMake", then one may consider Kitware's ***Mastering CMake*** book.
 This is an updated, free online version of Kitware's classic "Mastering CMake" paperback book that used to be sold, (last updated for [CMake 3.1 published in 2015](https://www.amazon.com/Mastering-CMake-Ken-Martin/dp/1930934319)).
