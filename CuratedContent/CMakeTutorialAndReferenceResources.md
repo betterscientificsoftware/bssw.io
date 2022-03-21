@@ -69,7 +69,7 @@ For example, if minimum version is 3.17, then one would select that version in t
 If one does not want to spend the $30 for the book "Professional CMake", then one may consider Kitware's ***Mastering CMake*** book.
 This is an updated, free online version of Kitware's classic "Mastering CMake" paperback book that used to be sold, (last updated for [CMake 3.1 published in 2015](https://www.amazon.com/Mastering-CMake-Ken-Martin/dp/1930934319)).
 It also contains tutorial coverage of key CMake concepts and other basic tutorial content (but usually at a less complete and detailed level compared to "Professional CMake").
-Note that the "guides" provided in the online CMake Reference Documentation are also exactly duplicated in the online "Mastering CMake" book.
+Note that the "guides" provided in the online CMake Reference Documentation are also precisely duplicated in the online "Mastering CMake" book.
 
 Finally, if one searches the above mentioned documentation sources "Professional CMake", the online CMake Reference Documentation, and "Mastering CMake" and does not find the answer, then one can turn to web searches.
 Just note that, as warned above, the answers found may be outdated (even from a few years ago).
