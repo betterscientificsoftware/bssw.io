@@ -185,6 +185,15 @@ It's hard to argue with that.
 Nonetheless, others may feel like such efforts go way too far.
 While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) to the status quo, being called to invest effort to be more inclusive may feel like oppression.
 
+Mark C. Miller is a computer scientist supporting the
+[WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+program at [LLNL](https://www.llnl.gov) since 1995.
+Among other things, he contributes to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
+[Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
+[HDF5](https://www.hdfgroup.org) and
+[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+
 *Prepared by LLNL under Contract DE-AC52-07NA27344 as document LLNL-AR-832434.*
 
 <!---
