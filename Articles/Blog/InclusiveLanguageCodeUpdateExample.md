@@ -5,7 +5,7 @@
 - <img src='../../images/github_ms_snipits.png'/>
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
-#### Publication date: Feb 24, 2022
+#### Publication date: Mar 28, 2022
 
 How do you think code such as depicted in the snippets here, from a short search (<10 min) of GitHub, might impact potential users, developers, collaborators or sponsors?
 One way software projects can address inclusion is to identify and improve language used in their projects representing barriers to inclusion.
@@ -191,5 +191,4 @@ While we can acknowledge both perspectives exist, it is worth considering that w
 Publish: yes
 Pinned: no
 Topics: Inclusivity, Software process improvement, Documentation, Strategies for more effective teams
-RSS update: 2022-02-24
 --->
