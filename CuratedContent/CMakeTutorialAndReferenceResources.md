@@ -44,7 +44,7 @@ This book covers every basic CMake feature in great detail.
 It explains modern CMake idioms and best practices.
 Also, it covers older CMake commands and idioms to avoid and explains why.
 This book addresses the "why" and big picture questions about CMake in a way that no other material has matched.
-It also provides really critical low-level details and tips that are absent in even the official CMake reference documentation.
+It also provides really critical low-level details and tips that are absent in even the [official CMake reference documentation](https://cmake.org/cmake/help/latest/index.html).
 This book is self published by the author in a downloadable PDF format with new editions coming out after each new CMake release (i.e. three new editions each year).
 The current edition of the book costs $30 which includes 9 updates for new editions of the book as they come out.
 (Therefore, $30 would cover every new edition over a 3 year period which includes 9 new CMake releases or 6 years if only downloading every other updated edition across 18 CMake releases.)
