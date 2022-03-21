@@ -30,7 +30,7 @@ Publication | Year 2022, Self published, currently not versioned
 Web links | https://crascit.com/professional-cmake/
 
 The CMake meta-build tool and ecosystem (which includes the tools CTest and CPack with each CMake installation) continues to evolve and improve fairly rapidly from release to release.
-Kitware (the company that owns the primary CMake repository and provides the official releases of CMake) puts out three major releases of CMake each year (or about every four months).
+Kitware (the organization responsible for CMake development) makes three major releases each year (or about every four months).
 The best practices for using CMake evolve as new versions of CMake are released.
 (For example, at the time of this writing, CMake support for a feature called Generator Expressions is still rapidly evolving and can have a dramatic impact on the best way to write CMakeList.txt files.)
 Therefore, unlike other programming tools, trying to use web searches to find solutions for CMake can be ineffective; because even advice from just a year ago on Stack Overflow or Stack Exchange can be outdated.
