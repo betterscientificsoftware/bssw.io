@@ -42,7 +42,7 @@ Arguably, the best resource for finding up-to-date guidance on how to use CMake 
 The book contains excellent tutorial material for CMake and yet goes into deep concepts in the CMake language where needed (such as the gotchas and workarounds for dealing with lists and function/macro arguments with data containing quotes `"`, spaces ` ` and semi-colons `;` a frequently misunderstood aspect of CMake).
 This book covers every basic CMake feature in great detail.
 It explains modern CMake idioms and best practices.
-Also, it covers older CMake commands and idioms to avoid and why.
+Also, it covers older CMake commands and idioms to avoid and explains why.
 This book seems to answer the "why" and big picture questions for CMake in a way that no other material has matched.
 It also provides really critical low-level details and tips that are absent in even the official CMake reference documentation.
 This book is self published by the author in a downloadable PDF format with new editions coming out after each new CMake release (i.e. three new editions each year).
