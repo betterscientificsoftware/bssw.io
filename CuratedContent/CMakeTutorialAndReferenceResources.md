@@ -35,7 +35,6 @@ CMake (which includes the executable tools `cmake`, `ctest` and `cpack` with eac
 Kitware (the organization responsible for CMake development) makes three major releases each year (or about every four months).
 Best practices for using CMake evolve as new versions are released.
 For example, at the time of this writing, CMake support for [Generator Expressions](https://cmake.org/cmake/help/latest/manual/cmake-generator-expressions.7.html#manual:cmake-generator-expressions(7)) is rapidly evolving and can have a dramatic impact on the best way to write `CMakeList.txt` files.)
-Therefore, unlike other programming tools, trying to use web searches to find solutions for CMake can be ineffective; because even advice from just a year ago on Stack Overflow or Stack Exchange can be outdated.
 The bssw.io editorial team has created this article informed by 13+ years of [advanced CMake usage](https://tribits.org/doc/TribitsDevelopersGuide.html) and hundreds of hours of searching for and reading CMake documentation, especially in the years 2021-2022.
 
 ----
@@ -74,7 +73,7 @@ It also contains tutorial coverage of key CMake concepts and other basic tutoria
 Note that the "guides" provided in the online CMake Reference Documentation are also precisely duplicated in the online "Mastering CMake" book.
 
 Finally, if one searches the above mentioned documentation sources and does not find the answer, then one can turn to web searches.
-Just note that, as warned above, the answers found may be outdated (even from a few years ago) so one should make sure to double check to determine if this is still the best advice for the current state of CMake.
+(Just be careful to determine if the guidance found is still the best advice for the current state of CMake.)
 
 <!---
 Publish: yes 
