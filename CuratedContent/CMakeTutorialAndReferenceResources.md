@@ -42,7 +42,7 @@ The bssw.io editorial team has created this article informed by 13+ years of CMa
 <!-- <img src='../images/ProfessionalCMake.jpg' class='page'/> -->
 
 Arguably, the best resource for finding up-to-date guidance on how to use CMake is the most recent edition of the book ***Professional CMake*** (the 11th edition covering CMake versions up to 3.22 as of this writing).
-The book contains excellent tutorial material for CMake and yet goes into deep concepts in the CMake language where needed (such as the gotchas and workarounds for dealing with lists and function/macro arguments with data containing quotes `"`, spaces ` ` and semi-colons `;` a frequently misunderstood aspect of CMake).
+The book contains excellent tutorial material for CMake and yet goes into deep concepts in the CMake language where needed (such as the gotchas and workarounds for dealing with lists and function/macro arguments with data containing quotes `"`, spaces ` ` and semi-colons `;`, a frequently misunderstood aspect of CMake).
 This book covers every basic CMake feature in great detail.
 It explains modern CMake idioms and best practices.
 Also, it covers older CMake commands and idioms to avoid and explains why.
