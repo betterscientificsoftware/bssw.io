@@ -20,7 +20,7 @@ Resource information | Details
 :--- | :--- 
 Web Page | [CMake Reference Documentation](https://cmake.org/cmake/help/latest/)
 Authors | Kitware Staff
-Web links | https://cmake.org/cmake/help/latest/ (and drop-down section of all CMake versions)
+Web links | https://cmake.org/cmake/help/latest/ (and all CMake versions)
 
 Resource information | Details 
 :--- | :--- 
