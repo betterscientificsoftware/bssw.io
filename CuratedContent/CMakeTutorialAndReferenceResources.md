@@ -1,7 +1,7 @@
 # CMake Tutorial and Reference Resources
 
 <!--deck text start-->
-The CMake system is a large and powerful set of tools to create cross-platform builds from source for C, C++, Fortran and many other compiled programming languages.
+CMake is a large and powerful set of tools to create cross-platform builds from source for C, C++, Fortran and many other compiled programming languages.
 CMake continues to rapidly evolve and best practices in its use are changing almost as rapidly.
 Here we provide links and descriptions for the best tutorial and reference materials that exist for CMake to help stay current in effective CMake usage.
 <!--deck text end-->
@@ -31,7 +31,7 @@ Web links | https://crascit.com/professional-cmake/
 
 ----
 
-The CMake meta-build tool and ecosystem (which includes the tools CTest and CPack with each CMake installation) continues to evolve and improve fairly rapidly from release to release.
+CMake (which includes the executable tools `cmake`, `ctest` and `cpack` with each CMake installation) continues to evolve and improve fairly rapidly from release to release.
 Kitware (the organization responsible for CMake development) makes three major releases each year (or about every four months).
 Best practices for using CMake evolve as new versions are released.
 For example, at the time of this writing, CMake support for [Generator Expressions](https://cmake.org/cmake/help/latest/manual/cmake-generator-expressions.7.html#manual:cmake-generator-expressions(7)) is rapidly evolving and can have a dramatic impact on the best way to write `CMakeList.txt` files.)
