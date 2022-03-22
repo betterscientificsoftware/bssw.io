@@ -198,7 +198,7 @@ The following image calls test subdirectories in the images directory and filena
 
 
 <!---
-Publish: preview
+Publish: yes
 Categories: Planning, Reliability
 Topics: testing, "Having a topic, that contains a comma", more topics
 Tags: [import from subresources]
