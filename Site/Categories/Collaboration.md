@@ -6,6 +6,8 @@
 
 **Topics:**
 
+- **Having a topic, that contains a comma:**
+For testing purposes, only.
 
 - **Licensing:**
 The legal side of controlling software distribution and use.  
