@@ -7,6 +7,9 @@ Improving ways to facilitate work across teams and to promote partnerships and c
 
 **Child Topics:**
 
+- **A topic, that contains a comma**
+This is a test topic to see if our topics can contain commas. Topics with commas must be quoted when listed on resources.
+
 - **Projects and Organizations**
 Projects and organizations having a particular emphasis on scientific software development, productivity, and sustainability.
 <!---Topic order: 1--->
