@@ -6,15 +6,15 @@
 
 **Topics:**
 
-- **Having a topic, that contains a comma:**
-For testing purposes, only.
-
 - **Licensing:**
 The legal side of controlling software distribution and use.  
 
 <!---
    - [What Is Software Intellectual Property?](Topics/WhatIsSoftwareIntellectualProperty.md)
 --->
+
+- **Having a topic, that contains a comma:**
+For testing purposes, only.
 
 - **Strategies for more effective teams:**
 Ways to foster teamwork, leveraging people's diverse skills in pursuit of a common goal. 
