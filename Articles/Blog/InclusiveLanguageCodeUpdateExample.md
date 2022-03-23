@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/github_ms_snipits.png'/>
+- <img src=''/>
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
 #### Publication date: Mar 28, 2022
