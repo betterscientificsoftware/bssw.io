@@ -1,4 +1,4 @@
-# Community of Supercomputer Facilities and their Users
+# Supercomputer Facilities and their Users
 
 Many computational scientists access HPC resources through centralized supercomputing facilities, which serve many users.
 
