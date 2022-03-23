@@ -1,13 +1,13 @@
 # Better Collaboration
 
-**Description:**  Ways to facilitate and distribute work across teams, promote partnerships via software, and contribute to stronger communities.
+**Description:**  This is the preview version. Ways to facilitate and distribute work across teams, promote partnerships via software, and contribute to stronger communities.
 
-**Overview:** Software is the key crosscutting technology that sustains long-term CSE collaboration, encapsulating advances in applied mathematics, computer science, and domain-specific science and engineering for use by others.  We provide information for CSE projects of all sizes, ranging from small teams (for example, a professor and collaborating students) to broad partnerships that span different scientific, institutional, and geographic areas.  
+**Overview:** This is the preview version. Software is the key crosscutting technology that sustains long-term CSE collaboration, encapsulating advances in applied mathematics, computer science, and domain-specific science and engineering for use by others.  We provide information for CSE projects of all sizes, ranging from small teams (for example, a professor and collaborating students) to broad partnerships that span different scientific, institutional, and geographic areas.  
 
 **Topics:**
 
 - **Licensing:**
-The legal side of controlling software distribution and use.  
+PREVIEWING t   he legal side of controlling software distribution and use.  
 
 <!---
    - [What Is Software Intellectual Property?](Topics/WhatIsSoftwareIntellectualProperty.md)
