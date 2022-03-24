@@ -1,13 +1,8 @@
 # Experiences replacing `master/slave` terminology in ALE3D and Sierra
 
-**Hero Image:**
-
-- <img src=''/>
-
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
 #### Publication date: Mar 28, 2022
 
-How do you think such code, as pulled from a short (<10 min) GitHub search and depicted in the snippets above, might impact potential users, developers, collaborators or sponsors?
 One way software projects can address inclusion is to identify and improve language used in their projects representing barriers to inclusion.
 An unfortunately [prolific](https://github.com/search?q=master+slave&type=code) and unmistakably [problematic](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) example in HPC/CSE projects is the use of `master/slave` terminology.
 
