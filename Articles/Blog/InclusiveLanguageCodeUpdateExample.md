@@ -1,10 +1,13 @@
-# Experiences replacing `master/slave` terminology in ALE3D and Sierra
+# Experiences Replacing `Master/Slave` Terminology in ALE3D and Sierra
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
 #### Publication date: Mar 28, 2022
 
+<!-- deck text starts (since there's no hero) -->
 One way software projects can address inclusion is to identify and improve language used in their projects representing barriers to inclusion.
-An unfortunately [prolific](https://github.com/search?q=master+slave&type=code) and unmistakably [problematic](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) example in HPC/CSE projects is the use of `master/slave` terminology.
+<!-- deck text ends -->
+
+The use of `master/slave` terminology is an unmistakably [problematic](https://www.wired.com/story/tech-confronts-use-labels-master-slave/) and unfortunately [prolific](https://github.com/search?q=master+slave&type=code) example of language as a barrier to inclusion in high-performance computing (HPC) and computational science and engineering (CSE) projects.
 
 The terminology may have [taken root](https://www.cise.ufl.edu/~sahni/papers/masterslave2.pdf) in technology in the 1940s.
 Examination of [Google's NGram viewer](https://books.google.com/ngrams/graph?content=master-slave&year_start=1800&year_end=2019&case_insensitive=on&corpus=26&smoothing=3&direct_url=t4%3B%2Cmaster%20-%20slave%3B%2Cc0%3B%2Cs0%3B%3Bmaster%20-%20slave%3B%2Cc0%3B%3BMaster%20-%20Slave%3B%2Cc0%3B%3BMaster%20-%20slave%3B%2Cc0%3B%3BMASTER%20-%20SLAVE%3B%2Cc0) shows a sharp rise in its use beginning with [Raymond Geortz's](https://en.wikipedia.org/wiki/Raymond_Goertz) description of a [remote manipulator](https://en.wikipedia.org/wiki/Remote_manipulator), which is a sort of robotic version of a [glove box](https://en.wikipedia.org/wiki/Glovebox).
@@ -15,13 +18,13 @@ It appears in many HPC/CSE contexts such as [slide surfaces](https://abaqus-docs
 On the one hand, `master/slave` terminology is often used, however imprudently, as a metaphor to hint at some basic aspects of an algorithm.
 On the other hand, the metaphor often fails miserably in conveying even the basics *accurately*.
 
-For example, in modern slide surface algorithms where two objects come into *contact* and interact along a shared boundary (e.g. a tire rolling along a road), the object designated as a `master` typically does not actually have the effect of dictating the behavior of any other object designated as a `slave`.
-Instead, in modern slide surface algorithms all objects act as *peers* and an updated state is computed where all object's contributions are typically treated *equally*. 
+For example, in modern slide surface algorithms where two objects come into *contact* and interact along a shared boundary (e.g., a tire rolling along a road), the object designated as a `master` typically does not actually have the effect of dictating the behavior of any other object designated as a `slave`.
+Instead, in modern slide surface algorithms all objects act as *peers* and an updated state is computed where all objects' contributions are typically treated *equally*. 
 In other words, the basic relationship between the objects is hardly one that is any way similar to the relationship between a `master` and a `slave`.
 
 In HPC/CSE software, use of the terminology can manifest in the names of data types, variables, functions, files, images, GUI widgets, databases, command-line arguments, URLs, server names, documentation, and publications as well as people's mental models and abstractions for talking about objects, algorithms and associated software or hardware architecture.
 
-Towards the end of the 2020 calendar year, two flagship DOE simulation projects, [ALE3D](https://wci.llnl.gov/simulation/computer-codes/ale3d) at [Lawrence Livermore National Lab](https://www.llnl.gov) and [Sierra](https://www.sandia.gov/asc/advanced-simulation-and-computing/integrated-codes/) at [Sandia National Lab](https://www.sandia.gov), completed updates to replace the use of `master/slave` terminology throughout their projects.
+Toward the end of the 2020 calendar year, two flagship DOE simulation projects, [ALE3D](https://wci.llnl.gov/simulation/computer-codes/ale3d) at [Lawrence Livermore National Lab](https://www.llnl.gov) and [Sierra](https://www.sandia.gov/asc/advanced-simulation-and-computing/integrated-codes/) at [Sandia National Lab](https://www.sandia.gov), completed updates to replace the use of `master/slave` terminology throughout their projects.
 The work was spearheaded by [Ben Liu](https://scholar.google.com/citations?user=pA2ybRwAAAAJ&hl=en) of the ALE3D team and [Gabriel Jose de Frias](https://www.osti.gov/search/author:%22de%20Frias,%20Gabriel%20Jose%22) of the Sierra team.
 
 If the work had involved only a global, textual replacement of the words `master` and `slave`, there would not have been much reason for writing about it here.
@@ -65,7 +68,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
    > We used `sed` scripts to help update the code and the manual.
-   > We didn't use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
+   > We didn't use any compiler tools other than attempting a compile, failing, and fixing the code (for the times when the scripts were incorrect).
    > An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
    > A number of other developers on the team were very thorough in looking through this.
  
@@ -75,7 +78,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
  
 * *Are you aware of any bugs that were introduced due to this effort?*
 
-   > We are not aware of any bugs that we introduced due to this.
+   > We are not aware of any bugs that we introduced due to this change.
  
 * *Were changes to data files, input decks, power-point slides and/or documentation also needed?*
 
@@ -117,13 +120,13 @@ For Gabriel on Sierra, a decisive moment came after reading an [online article](
 
 * *Where was the `master/slave` terminology used in the code?*
 
-   > Contact surfaces (e.g. slide surfaces) were the main capability where the terminology was used in Sierra, but it was also used in multi-point constraints, periodic boundary conditions, and shell-solid joint code.
+   > Contact surfaces (e.g., slide surfaces) were the main capability where the terminology was used in Sierra, but it was also used in multi-point constraints, periodic boundary conditions, and shell-solid joint code.
 
 * *Did your efforts exploit automated tooling or workflows to complete the changes?
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
    > We used refactoring options in the Eclipse IDE to modify the code.
-   > Python scripts to modify input files from tests, which were also made available for users to apply to their files.
+   > Python scripts to modify input files from tests were also made available for users to apply to their files.
  
 * *About how many files and lines of code wound up having to change?*
 
@@ -167,7 +170,7 @@ For Gabriel on Sierra, a decisive moment came after reading an [online article](
 
 While there was [much discussion](https://www.google.com/search?q=%22master%22+%22slave%22+terminology+in+software&sxsrf=AOaemvIy5OkrC1xJEV_CJrUNIG3Tvmtlrg:1643308409486&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwjdlYPwyNL1AhVuD0QIHXqoBOsQpwV6BAgBEBk&biw=1616&bih=948&dpr=1) of the `master/slave` issue in the media throughout 2020, it has been a [known](https://tools.ietf.org/id/draft-knodel-terminology-00.html) and [long-standing](https://www.jstor.org/stable/40061475) problem, touched on far before 2020, with the earliest online mentions going back [nearly 20 years](http://www.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html), and other public discourse almost certainly much earlier.
 
-Beginning in 2021, less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/) against these and other [DE&I efforts](https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/).
+Beginning in 2021, less than a year after the summer of 2020, the broader US public has seen what can only be described as a [*backlash*](https://fivethirtyeight.com/features/white-backlash-is-a-type-of-racial-reckoning-too/) against these and other [diversity, equity, and inclusion (DE&I) efforts](https://sloanreview.mit.edu/article/fighting-backlash-to-racial-equity-efforts/).
 Hopefully, the community will resist this [habit](https://www.tandfonline.com/doi/full/10.1080/10705422.2021.1998875) and continue to practice and make progress in making HPC/CSE more inclusive.
 
 Some readers may wonder if the people spearheading the efforts described here were [BIPOC](https://www.healthline.com/health/bipoc-meaning).
@@ -179,6 +182,10 @@ Given the current social justice climate in which we all operate, some readers m
 It's hard to argue with that.
 Nonetheless, others may feel like such efforts go way too far.
 While we can acknowledge both perspectives exist, it is worth considering that when we’re [accustomed](https://www.huffpost.com/entry/when-youre-accustomed-to-privilege_b_9460662) to the status quo, being called to invest effort to be more inclusive may feel like oppression.
+
+### Acknowledgments
+
+We thank Ben Liu and Gabriel Jose de Frias for their willingness to be interviewed for this article.
 
 ### Author bio
 
