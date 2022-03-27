@@ -1,7 +1,7 @@
 # Experiences Replacing `Master/Slave` Terminology in ALE3D and Sierra
 
 #### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
-#### Publication date: Mar 28, 2022
+#### Publication date: Mar 27, 2022
 
 <!-- deck text starts (since there's no hero) -->
 One way software projects can address inclusion is to identify and improve language used in their projects representing barriers to inclusion.
