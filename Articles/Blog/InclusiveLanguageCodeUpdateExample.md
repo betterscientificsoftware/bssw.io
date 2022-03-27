@@ -18,13 +18,13 @@ It appears in many HPC/CSE contexts such as [slide surfaces](https://abaqus-docs
 On the one hand, `master/slave` terminology is often used, however imprudently, as a metaphor to hint at some basic aspects of an algorithm.
 On the other hand, the metaphor often fails miserably in conveying even the basics *accurately*.
 
-For example, in modern slide surface algorithms where two objects come into *contact* and interact along a shared boundary (e.g. a tire rolling along a road), the object designated as a `master` typically does not actually have the effect of dictating the behavior of any other object designated as a `slave`.
-Instead, in modern slide surface algorithms all objects act as *peers* and an updated state is computed where all object's contributions are typically treated *equally*. 
+For example, in modern slide surface algorithms where two objects come into *contact* and interact along a shared boundary (e.g., a tire rolling along a road), the object designated as a `master` typically does not actually have the effect of dictating the behavior of any other object designated as a `slave`.
+Instead, in modern slide surface algorithms all objects act as *peers* and an updated state is computed where all objects' contributions are typically treated *equally*. 
 In other words, the basic relationship between the objects is hardly one that is any way similar to the relationship between a `master` and a `slave`.
 
 In HPC/CSE software, use of the terminology can manifest in the names of data types, variables, functions, files, images, GUI widgets, databases, command-line arguments, URLs, server names, documentation, and publications as well as people's mental models and abstractions for talking about objects, algorithms and associated software or hardware architecture.
 
-Towards the end of the 2020 calendar year, two flagship DOE simulation projects, [ALE3D](https://wci.llnl.gov/simulation/computer-codes/ale3d) at [Lawrence Livermore National Lab](https://www.llnl.gov) and [Sierra](https://www.sandia.gov/asc/advanced-simulation-and-computing/integrated-codes/) at [Sandia National Lab](https://www.sandia.gov), completed updates to replace the use of `master/slave` terminology throughout their projects.
+Toward the end of the 2020 calendar year, two flagship DOE simulation projects, [ALE3D](https://wci.llnl.gov/simulation/computer-codes/ale3d) at [Lawrence Livermore National Lab](https://www.llnl.gov) and [Sierra](https://www.sandia.gov/asc/advanced-simulation-and-computing/integrated-codes/) at [Sandia National Lab](https://www.sandia.gov), completed updates to replace the use of `master/slave` terminology throughout their projects.
 The work was spearheaded by [Ben Liu](https://scholar.google.com/citations?user=pA2ybRwAAAAJ&hl=en) of the ALE3D team and [Gabriel Jose de Frias](https://www.osti.gov/search/author:%22de%20Frias,%20Gabriel%20Jose%22) of the Sierra team.
 
 If the work had involved only a global, textual replacement of the words `master` and `slave`, there would not have been much reason for writing about it here.
@@ -68,7 +68,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
    > We used `sed` scripts to help update the code and the manual.
-   > We didn't use any compiler tools other than attempting a compile, failing, and fixing it (for the times when the scripts were incorrect).
+   > We didn't use any compiler tools other than attempting a compile, failing, and fixing the code (for the times when the scripts were incorrect).
    > An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
    > A number of other developers on the team were very thorough in looking through this.
  
@@ -78,7 +78,7 @@ Although automated tooling handled the *common* cases, to reliably replace *deri
  
 * *Are you aware of any bugs that were introduced due to this effort?*
 
-   > We are not aware of any bugs that we introduced due to this.
+   > We are not aware of any bugs that we introduced due to this change.
  
 * *Were changes to data files, input decks, power-point slides and/or documentation also needed?*
 
@@ -120,13 +120,13 @@ For Gabriel on Sierra, a decisive moment came after reading an [online article](
 
 * *Where was the `master/slave` terminology used in the code?*
 
-   > Contact surfaces (e.g. slide surfaces) were the main capability where the terminology was used in Sierra, but it was also used in multi-point constraints, periodic boundary conditions, and shell-solid joint code.
+   > Contact surfaces (e.g., slide surfaces) were the main capability where the terminology was used in Sierra, but it was also used in multi-point constraints, periodic boundary conditions, and shell-solid joint code.
 
 * *Did your efforts exploit automated tooling or workflows to complete the changes?
    Was it all sort of manual or maybe `grep` and `sed` scripts?*
 
    > We used refactoring options in the Eclipse IDE to modify the code.
-   > Python scripts to modify input files from tests, which were also made available for users to apply to their files.
+   > Python scripts to modify input files from tests were also made available for users to apply to their files.
  
 * *About how many files and lines of code wound up having to change?*
 
