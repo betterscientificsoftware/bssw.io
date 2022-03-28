@@ -7,7 +7,7 @@ Here we provide links and descriptions for the best tutorial and reference mater
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-#### Publication date: ???
+#### Publication date:  Mar 28, 2022
 
 Resource information | Details 
 :--- | :--- 
@@ -78,7 +78,7 @@ Finally, if one searches the above mentioned documentation sources and does not 
 <!---
 Publish: yes 
 Pinned: no
-RSS update: ???
+RSS update: 2022-03-28
 Topics: configuration and builds, release and deployment, development tools, testing, online learning
 --->
 
