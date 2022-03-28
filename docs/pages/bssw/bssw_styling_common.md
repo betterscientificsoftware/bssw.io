@@ -130,6 +130,15 @@ It seems that the column widths in this table could be compressed to easily fit 
 NOTE: We will add more examples of nonstandard handling of Markdown in the future as we discover them.
 
 
+
+## Updating/re-publishing published articles
+
+Articles that are already published and are current public may sometimes need to be updated. Minor updates such as grammar/spellings/errors/formatting can be done anytime. If you wish to make siginificant updates to the articles (for ex: new updates links, new content etc.) OR if you simply wish to bring the article into focus again with a new publish date, then please mention the following verbiage at the *end of the article*.
+
+```
+This article was originally published on Month day, year
+```
+
 ## Unpublishing Content
 
 Please follow the below rules
