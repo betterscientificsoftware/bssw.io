@@ -194,8 +194,19 @@ The following image calls test subdirectories in the images directory and filena
 - [Sphinx](DocumentationTools.Sphinx.md)
 
 
-# the-basics
+**Indenting**
 
+|  | _"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."_ | |
+|
+
+This is a normal line of text.
+|    This is an indented line of text.
+|        This is another indented line of text.
+
+This is a normal line of text.
+~This is an indented line of text.
+~ This is another indented line of text.
+~ ~ This is another indented line of text.
 
 <!---
 Publish: yes
