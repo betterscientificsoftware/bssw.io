@@ -1,7 +1,7 @@
 # Inclusivity Bugs
 
 <!--deck text start-->
-Does your sofware project play favorites? We don't like it when our parents or managers do. We shouldn't develop software in a way that does.
+Does your software project play favorites? We don't like it when our parents or managers do, so why would we develop software in a way that does?
 <!--deck text end-->
 
 #### Contributed by: [Mark Miller](https://github.com/markcmiller86)
