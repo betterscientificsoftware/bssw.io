@@ -79,7 +79,8 @@ A quick look at some inclusivity metrics for open source projects.
 
 Resource information | Details
 :--- | :---
-Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e)<br> [DOI:10.1109/MCSE.2021.3125473](10.1109/MCSE.2021.3125473)
+Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e)<br> [DOI:10.1109/MCSE.2021.3125473](https://ieeexplore.ieee.org/document/9658239)
+
 Author(s) | Mark C. Miller
 Focus | Inclusive Communication
 
