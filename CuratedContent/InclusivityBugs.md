@@ -59,7 +59,7 @@ Article title | [Engineering Gender-Inclusivity into Software: Ten Teams’ Tale
 Author(s) | Claudia Hilderbrand, Christopher Perdriau, Lara Letaw, Jillian Emard, Zoe Steine-Hanson, Margaret Burnett, Anita Sarma
 Focus | Inclusive Design
 
-Various teams experiences designing for inclusivity.
+Various teams' experiences designing for inclusivity.
 
 Resource information | Details
 :--- | :---
