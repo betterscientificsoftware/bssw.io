@@ -15,7 +15,7 @@ Inclusivity bugs can crop up in code as well as artifacts related to the develop
 If you've ever been the one and only *remote teleconference* participant in a *hybrid* team meeting where everyone else is gathered around a table in some meeting room, you will no doubt easily identify with how an inclusivity bug can impact participation.
 If the audio is working poorly, or members around the table are too far from the mic, or if the current slide number being viewed isn't mentioned verbally, or if the network is slow, or for a whole host of other reasons you are unable either to hear everything or be heard, you have experienced an inclusivity bug in your team's meeting processes.
 
-If you identify as a women but are asked to write documentation in which users are exclusively referred to with male pronouns, or if you identify as African American but are asked to sponsor numerous software projects that make extensive use of masters and slaves or if you are a person with color vision deficiency and are constantly presented with information in inappropriate color schemes, you have experienced inclusivity bugs.
+If you identify as a women but are asked to write documentation in which users are exclusively referred to with male pronouns, or if you identify as African American but are asked to sponsor numerous software projects that make extensive use of 'masters' and 'slaves', or if you are a person with color vision deficiency and are constantly presented with information in inappropriate color schemes, you have experienced inclusivity bugs.
 
 We have compiled here a list of resources about inclusivity bugs.
 Most are oriented towards gender.
