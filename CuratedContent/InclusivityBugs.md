@@ -47,7 +47,7 @@ Discusses some of the bug *fixes* applied to address inclusivity bugs related to
 
 Resource information | Details
 :--- | :---
-Article title | [AID: An Automated Detector for Gender-Inclusivity Bugs in OSS Project Pages](https://ieeexplore.ieee.org/document/9402060)<br>[DOI:10.1109/ICSE43902.2021.00128](10.1109/ICSE43902.2021.00128)
+Article title | [AID: An Automated Detector for Gender-Inclusivity Bugs in OSS Project Pages](https://ieeexplore.ieee.org/document/9402060)<br>[DOI:10.1109/ICSE43902.2021.00128](https://ieeexplore.ieee.org/document/9402060)
 Author(s) | Amreeta Chatterjee; Mariam Guizani; Catherine Stevens; Jillian Emard; Mary Evelyn May; Margaret Burnett; Iftekhar Ahmed
 Focus | Tooling
 
