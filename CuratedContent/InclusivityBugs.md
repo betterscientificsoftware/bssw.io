@@ -10,7 +10,7 @@ Does your software project play favorites? We don't like it when our parents or 
 
 An *inclusivity bug* is a type of issue in software projects that creates unnecessary obstacles for whole classes of stakeholders to equitably participate.
 
-Inclusivity bugs can crop up in code as well as artifacts related to development of code such as accompanying documentation, on-boarding and meeting processes, resource access, communication modalities, etc.
+Inclusivity bugs can crop up in code as well as artifacts related to the development of code, such as accompanying documentation, on-boarding and meeting processes, resource access, communication modalities, etc.
 
 If you've ever been the one and only *remote teleconference* participant in a *hybrid* team meeting where everyone else is gathered around a table in some meeting room, you will no doubt easily identify with how an inclusivity bug can impact participation.
 If the audio is working poorly, or members around the table are too far from the mic, or if the current slide number being viewed isn't mentioned verbally or if the network is slow or for a whole host of other reasons you are unable either to hear everything or be heard, you have experienced an inclusivity bug in your team's meeting processes.
