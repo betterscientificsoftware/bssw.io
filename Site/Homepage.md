@@ -5,18 +5,18 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: ../Articles/Blog/2022-02-sc21-correctness-workshop.md
+Slide1 L: ../Articles/Blog/2022-03-sc21-rse-workshop.md
 Slide1 R: ../images/Blog_2112_SC21.png
-Slide2 L: ../Articles/Blog/2022-02-precice-testing.md
-Slide2 R: ../ShortArticles/TheDeveloperCertificateOfOrigin.md
-Slide3 L: ../Articles/Blog/BSSwHighlights2021.md
-Slide3 R: ../images/Blog_2112_YIR_Montage.png
-Slide4 L: ../Articles/Blog/2022-01-2022BSSwFellowshipAnnounce.md
-Slide4 R: ../CuratedContent/TenYearReproducibilityChallenge.md
+Slide2 L: ../Articles/Blog/InclusiveLanguageCodeUpdateExample.md
+Slide2 R: ../Articles/Blog/2022-02-sc21-correctness-workshop.md
+Slide3 L: ../CuratedContent/CMakeTutorialAndReferenceResources.md
+Slide3 R: ../CuratedContent/ChanZuckInitiative.md
+Slide4 L: ../Articles/Blog/2022-02-precice-testing.md
+Slide4 R: ../Articles/Blog/2022-01-2022BSSwFellowshipAnnounce.md
 Slide5 L: ../CuratedContent/WhatEveryComputerScientistShouldKnowAboutFloatingPointArithmetic.md
-Slide5 R: ../Events/swr-013-sustainablehybrid-rebroadcast.md
-Slide6 L: ../Events/hpcbp-061-design-patterns.md
-Slide6 R: ../Events/2022-03-mentorship-survey.md
+Slide5 R: ../Events/XpertNetworkSeries.md 
+Slide6 L: ../Events/hpcbp-062-performance-portability-evaluation.md 
+Slide7 R: ../Events/LeadershipScientificSoftwareTownHallMeetings.md 
 --->
 
 <!---
