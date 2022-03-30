@@ -5,7 +5,7 @@ Does your software project play favorites? We don't like it when our parents or 
 <!--deck text end-->
 
 #### Contributed by: [Mark Miller](https://github.com/markcmiller86)
-#### Publication date: March 17, 2022
+#### Publication date: March 31, 2022
 
 
 An *inclusivity bug* is a type of issue in software projects that creates unnecessary obstacles for whole classes of stakeholders to equitably participate.
@@ -27,7 +27,7 @@ Article title | [Fixing Inclusivity Bugs for Information Processing Styles and L
 Author(s) | Zoe Steine-Hanson, Claudia Hilderbrand, Lara Letaw, Jillian Emard, Christopher Perdriau, Christopher Mendez, Margaret Burnett, Anita Sarma
 Focus | Best Practices
 
-Discusses inclusivity bugs arising out of gender bias.
+The above resource discusses inclusivity bugs arising out of gender bias.
 
 Resource information | Details
 :--- | :---
@@ -35,7 +35,7 @@ Article title | [Squashing inclusivity bugs in open source software](https://ope
 Author(s) | Anita Sarma
 Focus | Best Practices
 
-Methodology for identifying gender bias in software tools to help eliminate it.
+The above resource discusses methodologies for identifying gender bias in software tools to help eliminate it.
 
 Resource information | Details
 :--- | :---
@@ -43,15 +43,15 @@ Article title | [How to Debug Inclusivity Bugs? An Empirical Investigation of Fi
 Author(s) | Guizani, Mariam; Steinmacher, Igor; Emard, Jillian; Fallatah, Abrar; Burnett, Margaret; Sarma, Anita
 Focus | Experience Report
 
-Discusses some of the bug *fixes* applied to address inclusivity bugs related to gender bias.
+The above resource discusses some of the bug *fixes* applied to address inclusivity bugs related to gender bias.
 
 Resource information | Details
 :--- | :---
-Article title | [AID: An Automated Detector for Gender-Inclusivity Bugs in OSS Project Pages](https://ieeexplore.ieee.org/document/9402060)<br>[DOI:10.1109/ICSE43902.2021.00128](https://ieeexplore.ieee.org/document/9402060)
+Article title | [AID: An Automated Detector for Gender-Inclusivity Bugs in OSS Project Pages](https://ieeexplore.ieee.org/document/9402060);<br>[DOI:10.1109/ICSE43902.2021.00128](https://ieeexplore.ieee.org/document/9402060)
 Author(s) | Amreeta Chatterjee; Mariam Guizani; Catherine Stevens; Jillian Emard; Mary Evelyn May; Margaret Burnett; Iftekhar Ahmed
 Focus | Tooling
 
-Discusses a automated tool for finding inclusivity bugs related to gender bias.
+The above resource discusses an automated tool for finding inclusivity bugs related to gender bias.
 
 Resource information | Details
 :--- | :---
@@ -59,7 +59,7 @@ Article title | [Engineering Gender-Inclusivity into Software: Ten Teams’ Tale
 Author(s) | Claudia Hilderbrand, Christopher Perdriau, Lara Letaw, Jillian Emard, Zoe Steine-Hanson, Margaret Burnett, Anita Sarma
 Focus | Inclusive Design
 
-Various teams' experiences designing for inclusivity.
+The above resource discusses experiences of various teams designing for inclusivity.
 
 Resource information | Details
 :--- | :---
@@ -67,7 +67,7 @@ Podcast title | [How Men and Women Approach Open Source Differently](https://the
 Speaker(s) | Anita Sarma
 Focus | Inclusive Communication
 
-Discusses how gender differences lead to differences in approach to open source software contributions.
+The above resource discusses how gender differences lead to differences in approach to open source software contributions.
 
 Resource information | Details
 :--- | :---
@@ -75,20 +75,19 @@ Article title | [How to Apply Metrics for Inclusion to your Open Source Project]
 Author(s) | Emma Irwin
 Focus | Productivity Metrics
 
-A quick look at some inclusivity metrics for open source projects.
+The above resource is quick look at some inclusivity metrics for open source projects.
 
 Resource information | Details
 :--- | :---
-Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e)<br> [DOI:10.1109/MCSE.2021.3125473](https://ieeexplore.ieee.org/document/9658239)
-
+Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.org/csdl/magazine/cs/2021/06/09658239/1zw1kDaA63e); <br> [DOI:10.1109/MCSE.2021.3125473](https://ieeexplore.ieee.org/document/9658239)
 Author(s) | Mark C. Miller
 Focus | Inclusive Communication
 
-Discusses inclusivity bugs steming from the use of commonly used language idioms.
+The above resource discusses inclusivity bugs steming from the use of commonly used language idioms.
 
 <!---
 Publish: yes
 Pinned: no
 Topics: Inclusivity, Software process improvement, Documentation, Strategies for more effective teams
-RSS update: 2021-11-22
+RSS update: 2022-03-31
 --->
