@@ -16,7 +16,7 @@ Slide4 R: ../Articles/Blog/2022-01-2022BSSwFellowshipAnnounce.md
 Slide5 L: ../CuratedContent/WhatEveryComputerScientistShouldKnowAboutFloatingPointArithmetic.md
 Slide5 R: ../Events/XpertNetworkSeries.md 
 Slide6 L: ../Events/hpcbp-062-performance-portability-evaluation.md 
-Slide7 R: ../Events/LeadershipScientificSoftwareTownHallMeetings.md 
+Slide6 R: ../Events/LeadershipScientificSoftwareTownHallMeetings.md 
 --->
 
 <!---
