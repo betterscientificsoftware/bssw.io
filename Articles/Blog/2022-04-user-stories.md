@@ -97,7 +97,7 @@ with scientific software. These are two examples:
 
 <br>
 
-[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). PTCs and user stories supports the latter.]<img src='../../images/ptc-user-stories-improvement.png' class='page lightbox'/>
+[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Trackiong Cards and user stories supports the latter.]<img src='../../images/ptc-user-stories-improvement.png' class='page lightbox'/>
 
 ### A Seamless Incorporation of User Stories
 
