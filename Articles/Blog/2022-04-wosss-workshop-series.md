@@ -51,6 +51,13 @@ The name of the workshop may sound a little odd, but it has a serious purpose. D
 - WoSSS [Slack request](https://bit.ly/wosss-slack)
 - WoSSS [Twitter account](https://twitter.com/WoSSS_team)
 
+### Additional Resources
+
+2015 Research Software Sustainability <a href="https://www.knowledge-exchange.info/event/software-sustainability" class="link-row">workshop report</a>
+- WoSSS workshop series <a href="https://wosss.org" class="link-row">website</a>], including reports
+- WoSSS <a href="https://bit.ly/wosss-slack" class="link-row">Slack request</a>
+- WoSSS <a href="https://twitter.com/WoSSS_team" class="link-row">Twitter account</a>
+
 ### Author Bios
 
 Shoaib Sufi is Community Lead at the UK Software Sustainability Institute ([SSI](https://www.software.ac.uk/)). He has oversight of the [Fellowship programme](https://www.software.ac.uk/programmes-and-events/fellowship-programme) and the [Collaborations Workshop](https://www.software.ac.uk/programmes-and-events/collaborations-workshops)  (CW) series. He leads the SSI’s engagement with the WoSSS initiative, investigates community software needs, and leads the SSI’s communities of practice engagement pilot.
