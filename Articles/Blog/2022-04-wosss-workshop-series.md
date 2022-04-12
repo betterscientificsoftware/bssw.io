@@ -1,13 +1,11 @@
-# The Workshop on Sustainable Software Sustainability: Funny Name, Serious Purpose
+# The Workshop on Sustainable Software Sustainability
 
-**Hero Image:**
-
-- <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2112_SC21.png' />
+<!-- begin deck -->
+The name of the workshop may sound a little odd, but it has a serious purpose. David Bernholdt interviews the organizers of the 2021 Workshop on Sustainable Software Sustainability to learn more.
+<!-- end deck -->
 
 #### Contributed by: Shoaib Sufi, Carlos Martinez-Ortiz, [Peter Doorn](https://github.com/pkdoorn), and [David E. Bernholdt](https://github.com/bernhold)
 #### Publication date: April 12, 2022
-
-*David Bernholdt interviews the organizers of the 2021 Workshop on Sustainable Software Sustainability about the workshop series.*
 
 **Question:** What is the Workshop on Sustainable Software Sustainability?
 
@@ -34,7 +32,6 @@
 **Q:** Where are you going with the series?
 
 **Carlos:** We want to raise awareness of the importance of software sustainability. We want WoSSS to be a premier event for assessing the state of software sustainability internationally and a forum where people can discuss the problems they encounter in making their software sustainable, can work together in finding solutions, and can share those solutions with others. As long as software sustainability is not a common practice, there is scope for WoSSS to exist. We hope that the 2023 event will take place in person to help facilitate the extra community building that is possible, but we will think of ways to include remote voices. Of course, we acknowledge the emergence of other important groups concerned about software sustainability as well, such as the [Research Software Alliance](https://www.researchsoft.org/) (ReSA), the community of research software engineers, or software working groups of the international [Research Data Alliance](https://www.rd-alliance.org/) (RDA), and we are reaching out to such communities where we can.
-%GAIL -  is  research software engineers an official group name?  I  see it as lower case and not a proper name. The ame question goes for Open Software -- O see it as general and used lower case.
 
 **Q:** What products or outcomes come out of each workshop?
 
@@ -43,7 +40,7 @@
 **Peter:** WoSSS21 included a lot of coverage of Findable, Accessible, Interoperable, and Reusable (FAIR) software, open research, human infrastructure (e.g., formalized research woftware egineering communities in different countries), and the fact that  generally more awareness and funding opportunities exist in the scope of sustainable practice. Regarding FAIR software, the FAIR concept was originally developed for research data, but already at WoSSS17 it was also discussed in the context of software.
 
 **Q:** How can others engage, beyond just attending the workshops?
-%GAIL  - is  the shift to "you" ok here? I find it a bit awkward and would prefer "(a person can join...)" and "Those joining ... Twittre will be..." 
+
 **Shoaib:** We have a slack channel (you can join by filling in [this form](https://bit.ly/wosss-slack)): it is most active during the workshops and often appears dormant until the next workshop, but  many responsive people are on the channel. We also have a [Twitter account](https://twitter.com/WoSSS_team) and a YouTube channel (which has a [playlist of the talks and sessions at WoSSS21](https://www.youtube.com/watch?v=i1s73o2MP8U&list=PLXAvKzjdTsrxFqbjWtxHjfJc0RN6jMwZg)). By joining the Slack channel or following us on Twitter you will be among the first to hear about the publication of the WoSSS21 report and the next WoSSS workshop in 2023.
 
 **Carlos:** In the organizing committee, we’ve discussed how to make these channels more active between workshops; a plan for dachieving this goal is currently a work in progress. We are open to suggestions. Anyone who would like to discusse deeper engagemnt (e.g., participation in the WoSSS23 steering group) is encouragd to contact WoSSS core team members [Shoaib Sufi and Carlos Martinez-Ortiz](mailto:shoaib.sufi@software.ac.uk,c.martinez@esciencecenter.nl)  of the UK Software Sustainability Institute and Netherlands eScience Center, respectively.
@@ -56,15 +53,12 @@
 
 ### Author Bios
 
-**Shoaib Sufi** is Community Lead at the UK Software Sustainability Institute ([SSI](https://www.software.ac.uk/)). He has oversight of the [Fellowship programme](https://www.software.ac.uk/programmes-and-events/fellowship-programme) and the [Collaborations Workshop](https://www.software.ac.uk/programmes-and-events/collaborations-workshops)  (CW) series. He leads the SSI’s engagement with the WoSSS initiative, investigates community software needs, and leads the SSI’s communities of practice engagement pilot.
-%GAIL -  is  the word  engagement part of a name? usually  I have seen just  communities of practice  (with pilot ok following)
+Shoaib Sufi is Community Lead at the UK Software Sustainability Institute ([SSI](https://www.software.ac.uk/)). He has oversight of the [Fellowship programme](https://www.software.ac.uk/programmes-and-events/fellowship-programme) and the [Collaborations Workshop](https://www.software.ac.uk/programmes-and-events/collaborations-workshops)  (CW) series. He leads the SSI’s engagement with the WoSSS initiative, investigates community software needs, and leads the SSI’s communities of practice engagement pilot.
 Previously, he worked as a software engineer, both in academia and in industry, with a focus on information systems. Shoaib holds a BSc in computer science and PGCert in higher education from the University of Manchester and is an accredited project manager holding a PMP certification from the PMI. 
 
-**Carlos Martinez-Ortiz** is a community manager at the Netherlands eScience Center, where his main focus is on promoting software sustainability and open science. He worked as a research software engineer in diverse projects in digital humanities and life sciences, developing expertise in natural language processing, linked open data, and software sustainability. Carlos obtained his Ph.D. in computer science at the University of Exeter.
+Carlos Martinez-Ortiz is a community manager at the Netherlands eScience Center, where his main focus is on promoting software sustainability and open science. He worked as a research software engineer in diverse projects in digital humanities and life sciences, developing expertise in natural language processing, linked open data, and software sustainability. Carlos obtained his Ph.D. in computer science at the University of Exeter.
 
-**Peter Doorn** is a fellow at Data Archiving and Networked Geography at Utrecht University.
-%GAIL - I am assuming Data Archiving... is a department at Utrecht, but I cannont find it in the university listings. I ask because  otherwise  I would put it in lower case and say "fellow in data...".
-He taught Computing for Historians at Leiden University from 1985 to 1997. He was DANS director from 2005 to 2020, and before he was director of the Netherlands Historical Data Archive (1990-1997) and head of department at the Netherlands Institute for Scientific Information Services (NIWI, 1997-2005). He was a board member of several organizations in the area of humanities computing, data infrastructure, and digital archiving and editor of the Research Data Journal for the Humanities and Social Sciences.
+Peter Doorn is a Fellow at Data Archiving and Networked Services (DANS), the Dutch national institute for long-term access to research data. He received his Ph.D. in Human Geography at Utrecht University. He taught Computing for Historians at Leiden University from 1985 to 1997. He was DANS director from 2005 to 2020, and before he was director of the Netherlands Historical Data Archive (1990-1997) and head of department at the Netherlands Institute for Scientific Information Services (NIWI, 1997-2005). He was a board member of several organizations in the area of humanities computing, data infrastructure, and digital archiving, and editor of the Research Data Journal for the Humanities and Social Sciences.
 
 <!---
 Publish: yes
