@@ -223,9 +223,9 @@ with consensus-building and consequently with commitment to action.
 
 ### Author bios
 
-Osni Marques
+Osni A. Marques is a staff scientist at the Applied Mathematics & Computational Research Division at Lawrence Berkeley National Laboratory. He has worked with software libraries that provide solutions to common and important computational problems in engineering and scientific applications. He has studied and implemented algorithms for the solution of numerical linear algebra problems in applications related to the motion of proteins, acoustics problems, structural analyses, inverse problems in geophysics, and electronic properties of materials. Osni is currently involved in the IDEAS Productivity project and training activities of the DOE Exascale Computing Project.
 
-Reed Milewicz
+Reed M. Milewicz Ph.D., is a computer scientist and software engineering researcher in the Department of Software Engineering and Research at Sandia National Laboratories. His research focuses on developing better practices, processes, and tools to improve software development in the scientific domain, ranging from technologies such as compilers and formal verification tools to direct engagement with software teams through evidence-based software process improvement. He leads software science research efforts within his department and is a member of the Interoperable Design of Extreme-Scale Application Software (IDEAS) project, where he is part of the Productivity and Sustainability Improvement Planning (PSIP) team.
 
 <!---
 Publish: yes
