@@ -50,7 +50,7 @@ applications, and correctness in emerging programming models.
 
 <br>
 
-<img src='../../images/wordcloud_correctness_article.png' class='page'>[A word cloud from the titles of the papers published in the first five years of the Correctness workshop]
+[A word cloud from the titles of the papers published in the first five years of the Correctness workshop]<img src='../../images/wordcloud_correctness_article.png' class='page'>
 
 <br>
 
