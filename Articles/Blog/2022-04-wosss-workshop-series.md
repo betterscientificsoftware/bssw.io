@@ -4,7 +4,7 @@
 The name of the workshop may sound a little odd, but it has a serious purpose. We interview the organizers of the 2021 Workshop on Sustainable Software Sustainability to learn more.
 <!-- end deck -->
 
-#### Contributed by: [Peter Doorn](https://github.com/pkdoorn), Carlos Martinez-Ortiz, and Shoaib Sufi
+#### Contributed by: Carlos Martinez-Ortiz, Shoaib Sufi, and [Peter Doorn](https://github.com/pkdoorn)
 #### Publication date: April 12, 2022
 
 **Question:** What is the Workshop on Sustainable Software Sustainability?
