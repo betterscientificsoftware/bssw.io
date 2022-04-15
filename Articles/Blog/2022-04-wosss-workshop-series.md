@@ -1,10 +1,10 @@
 # The Workshop on Sustainable Software Sustainability
 
 <!-- begin deck -->
-The name of the workshop may sound a little odd, but it has a serious purpose. David Bernholdt interviews the organizers of the 2021 Workshop on Sustainable Software Sustainability to learn more.
+The name of the workshop may sound a little odd, but it has a serious purpose. We interview the organizers of the 2021 Workshop on Sustainable Software Sustainability to learn more.
 <!-- end deck -->
 
-#### Contributed by: Shoaib Sufi, Carlos Martinez-Ortiz, [Peter Doorn](https://github.com/pkdoorn), and [David E. Bernholdt](https://github.com/bernhold)
+#### Contributed by: Shoaib Sufi, Carlos Martinez-Ortiz, and [Peter Doorn](https://github.com/pkdoorn)
 #### Publication date: April 12, 2022
 
 **Question:** What is the Workshop on Sustainable Software Sustainability?
@@ -21,7 +21,7 @@ The name of the workshop may sound a little odd, but it has a serious purpose. D
 
 **Shoaib:** In the wider context, the Grid and eScience initiatives of the 2000s led to deeper conversations in the decade starting in 2010 around reproducibility and human infrastructure to support software efforts in research. And as digital methods became more ubiquitous, the idea of sustainable software in research started to form. It was an umbrella term given to a range of activities and thoughts people were having about software in a research and heritage context. WoSSS was inaugurated at a time when the idea of software as a first-class research object was being formed. 
 
-**Peter Doorn:** The perspective of DANS was slightly different. Our mission is to keep research data available for reuse, now and in the future. The traditional data archiving strategy was to preserve research data as much as possible independent from their software surroundings. Of course, that approach has its limits, and researchers were asking more and more to keep their software alive for future reuse as well, in order to keep the data reusable. We soon found out that software sustainability is a different specialty, requiring additional expertise. From the outset we   favored a European (or international) infrastructure for software sustainability, since valuable initiatives such as ISS and [Software Heritage](https://www.softwareheritage.org/) had already been formed. We promoted a European Software Sustainability Initiative (EUSSI), an informal gathering of experts exchanging ideas on a regular basis, which is trying to get projects working toward an international infrastructure off the ground. We did not want to dilute our focus on dat,a but we do want to contribute to solutions to keep software usable; and in order to do that, we needed to acquire knowledge about the subject. For DANS, the workshops were a tool to work toward these aims.
+**Peter Doorn:** The perspective of DANS was slightly different. Our mission is to keep research data available for reuse, now and in the future. The traditional data archiving strategy was to preserve research data as much as possible independent from their software surroundings. Of course, that approach has its limits, and researchers were asking more and more to keep their software alive for future reuse as well, in order to keep the data reusable. We soon found out that software sustainability is a different specialty, requiring additional expertise. From the outset we   favored a European (or international) infrastructure for software sustainability, since valuable initiatives such as SSI and [Software Heritage](https://www.softwareheritage.org/) had already been formed. We promoted a European Software Sustainability Initiative (EUSSI), an informal gathering of experts exchanging ideas on a regular basis, which is trying to get projects working toward an international infrastructure off the ground. We did not want to dilute our focus on dat,a but we do want to contribute to solutions to keep software usable; and in order to do that, we needed to acquire knowledge about the subject. For DANS, the workshops were a tool to work toward these aims.
 
 **Q:** Who are you trying to reach with this workshop series?
 
