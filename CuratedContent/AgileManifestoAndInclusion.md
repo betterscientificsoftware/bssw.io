@@ -13,10 +13,10 @@ Author | [Marian Nodine](https://www.linkedin.com/in/mistynodine?trk=pulse-artic
 Length | ~4,000 words, 15 min. read
 Focus | Inclusivity
 
-Its no secret that the Agile Manifesto was crafted by a group of people who were almost exclusively older, white, western, males.
+Its no secret that the [Agile Manifesto](https://agilemanifesto.org) was crafted by a group of people who were almost exclusively older, white, western, males.
 What assumptions and biases might have crept in as a result?
 
-In the article we link to here, Marian Nodine identifies several assumptions she believes were baked into the [Agile Manifesto](https://agilemanifesto.org) and are worth reviewing through the lens of inclusion.
+In the article we link to here, Marian Nodine identifies several assumptions she believes were baked into the Agile Manifesto and are worth reviewing through the lens of inclusion.
 A common thread Nordine weaves through her review of the Agile Manifesto is related to assumptions about communication.
 
 Is it possible for a team with mostly remote workers, for example, to address the principle of "The most efficient and effective method of conveying information to and within a development team is face-to-face conversation"?
