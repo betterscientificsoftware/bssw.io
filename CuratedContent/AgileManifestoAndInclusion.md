@@ -22,7 +22,7 @@ A common thread Nordine weaves through her review of the Agile Manifesto is rela
 Is it possible for a team with mostly remote workers, for example, to address the principle of "The most efficient and effective method of conveying information to and within a development team is face-to-face conversation"?
 Must we read *"face-to-face"* in this principle, as it was written in 2001, *literally* and as excluding many of the tele-work options we have available today?
 
-The article identifies 6 *assumptions* that were baked into the Agile Manifesto and outlines how those assumptions may impact inclusivity in software projects.
+The article identifies 6 *assumptions* the author believes were baked into the Agile Manifesto and outlines how those assumptions may impact inclusivity in software projects.
 
 <!---
 Publish: yes
