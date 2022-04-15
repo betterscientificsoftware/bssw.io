@@ -14,7 +14,7 @@ Length | ~4,000 words, 15 min. read
 Focus | Inclusivity
 
 Its no secret that the Agile Manifesto was crafted by a group of people who were almost exclusively older, white, western, males.
-What assumptions and biases might have crept as a result?
+What assumptions and biases might have crept in as a result?
 
 In the article we link to here, Marian Nodine identifies several assumptions she believes were baked into the [Agile Manifesto](https://agilemanifesto.org) and are worth reviewing through the lens of inclusion.
 A common thread Nordine weaves through her review of the Agile Manifesto is related to assumptions about communication.
