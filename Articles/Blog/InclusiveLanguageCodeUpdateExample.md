@@ -58,113 +58,113 @@ In addition, to be thorough, Ben felt it was important to replace not only `mast
 For example, in the source code `nslvs` (or even `ns`) might be used as a variable representing the number of slave surfaces or in a data file `M_tire` and `S_Road` might be used to indicate the tire object played the role of a `master` slide surface and the road object the role of a `slave` slide surface.
 Although automated tooling handled the *common* cases, to reliably replace *derivative* terminology required careful study and manual editing.
 
-* *Where was the `master/slave` terminology used in the code?*
+*Question:* Where was the `master/slave` terminology used in the code?
 
-   > It was restricted almost entirely to our implementation of slide surfaces.
-   > After discussions with numerous stakeholders, everyone agreed a suitable replacement was simply `Side A` and `Side B`.
-   > That is somewhat specific to slide surfaces but nonetheless worked for all our cases.
+*Ben:* It was restricted almost entirely to our implementation of slide surfaces.
+After discussions with numerous stakeholders, everyone agreed a suitable replacement was simply `Side A` and `Side B`.
+That is somewhat specific to slide surfaces but nonetheless worked for all our cases.
  
-* *Did your efforts exploit automated tooling or workflows to complete the changes?
-   Was it all sort of manual or maybe `grep` and `sed` scripts?*
+*Q:* Did your efforts exploit automated tooling or workflows to complete the changes?
+   Was it all sort of manual or maybe `grep` and `sed` scripts?
 
-   > We used `sed` scripts to help update the code and the manual.
-   > We didn't use any compiler tools other than attempting a compile, failing, and fixing the code (for the times when the scripts were incorrect).
-   > An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
-   > A number of other developers on the team were very thorough in looking through this.
+*Ben:* We used `sed` scripts to help update the code and the manual.
+We didn't use any compiler tools other than attempting a compile, failing, and fixing the code (for the times when the scripts were incorrect).
+An extensive pull request was used to identify additional (mostly comment and variable naming) changes.
+A number of other developers on the team were very thorough in looking through this.
  
-* *About how many files and lines of code wound up having to change?*
+*Q:* About how many files and lines of code wound up having to change?
 
-   > 200+ files, 1200+ lines of code – this is just for data members, more for local variables.
+*Ben:* 200+ files, 1200+ lines of code – this is just for data members, more for local variables.
  
-* *Are you aware of any bugs that were introduced due to this effort?*
+*Q:* Are you aware of any bugs that were introduced due to this effort?
 
-   > We are not aware of any bugs that we introduced due to this change.
+*Ben:* We are not aware of any bugs that we introduced due to this change.
  
-* *Were changes to data files, input decks, power-point slides and/or documentation also needed?*
+*Q:* Were changes to data files, input decks, power-point slides and/or documentation also needed?
 
-   > Manual documentation changes were mostly limited to one or two chapters.
-   > Changes to PowerPoint files are still in progress.
+*Ben:* Manual documentation changes were mostly limited to one or two chapters.
+Changes to PowerPoint files are still in progress.
  
-* *How was the change ultimately announced and rolled out to stakeholders?*
+*Q:* How was the change ultimately announced and rolled out to stakeholders?
 
-   > We sent out a message to major users ahead of the update.
-   > With the new release, there was an announcement of major new features/changes that went out with the release.
-   > We have been announcing this change as *upcoming* during our training sessions covering slide surfaces.
+*Ben:* We sent out a message to major users ahead of the update.
+With the new release, there was an announcement of major new features/changes that went out with the release.
+We have been announcing this change as *upcoming* during our training sessions covering slide surfaces.
  
-* *What role did the social climate in the country in the middle of 2020 play?*
+*Q:* What role did the social climate in the country in the middle of 2020 play?
  
-   > I think that it brought more awareness (to a broader segment of the population) to how systems and language can reinforce and propagate injustice and oppression.
-   > In particular, how seemingly little things can add up (microaggressions, etc).
-   > For myself, this really made me more aware of the need to change this.
-   > I think this was also true for other developers and users.
-   > I think the broader social climate helped provide momentum to push through the tedium and address resistance to change.
-   > In particular, knowing that Sandia and Idaho National Lab were also working on this helped give me the confidence I needed to continue in what I was doing.
-   > Our work on replacing `master/slave` doesn't necessarily "move the needle" much.
-   > But, my hope is that it can lead to more substantive change (things like hiring, pipeline, etc.).
+*Ben:* I think that it brought more awareness (to a broader segment of the population) to how systems and language can reinforce and propagate injustice and oppression.
+In particular, how seemingly little things can add up (microaggressions, etc).
+For myself, this really made me more aware of the need to change this.
+I think this was also true for other developers and users.
+I think the broader social climate helped provide momentum to push through the tedium and address resistance to change.
+In particular, knowing that Sandia and Idaho National Lab were also working on this helped give me the confidence I needed to continue in what I was doing.
+Our work on replacing `master/slave` doesn't necessarily "move the needle" much.
+But, my hope is that it can lead to more substantive change (things like hiring, pipeline, etc.).
 
-* *How was the work on this funded?*
+*Q:* How was the work on this funded?
 
-   > There was no new funding provided to complete this work.
-   > We needed to adjust other priorities to fit it in.
-   > Nonetheless, management was fully supportive of it.
+*Ben:* There was no new funding provided to complete this work.
+We needed to adjust other priorities to fit it in.
+Nonetheless, management was fully supportive of it.
 
-* *Did you have a good understanding of what was involved going in?*
+*Q:* Did you have a good understanding of what was involved going in?
 
-   > Not really.
-   > The actual coding time needed to change the code and documentation wasn't the main concern.
-   > The challenge was in having the dialog essential to bring all stakeholders on board.
+*Ben:* Not really.
+The actual coding time needed to change the code and documentation wasn't the main concern.
+The challenge was in having the dialog essential to bring all stakeholders on board.
  
 ### Gabriel Jose de Frias and Sierra
 
 For Gabriel on Sierra, a decisive moment came after reading an [online article](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) about `master/slave` and approaching Sierra project leadership about addressing it in their code base.
 
-* *Where was the `master/slave` terminology used in the code?*
+*Q:* Where was the `master/slave` terminology used in the code?
 
-   > Contact surfaces (e.g., slide surfaces) were the main capability where the terminology was used in Sierra, but it was also used in multi-point constraints, periodic boundary conditions, and shell-solid joint code.
+*Gabriel:* Contact surfaces (e.g., slide surfaces) were the main capability where the terminology was used in Sierra, but it was also used in multi-point constraints, periodic boundary conditions, and shell-solid joint code.
 
-* *Did your efforts exploit automated tooling or workflows to complete the changes?
-   Was it all sort of manual or maybe `grep` and `sed` scripts?*
+*Q:* Did your efforts exploit automated tooling or workflows to complete the changes?
+   Was it all sort of manual or maybe `grep` and `sed` scripts?
 
-   > We used refactoring options in the Eclipse IDE to modify the code.
-   > Python scripts to modify input files from tests were also made available for users to apply to their files.
+*Gabriel:* We used refactoring options in the Eclipse IDE to modify the code.
+Python scripts to modify input files from tests were also made available for users to apply to their files.
  
-* *About how many files and lines of code wound up having to change?*
+*Q:* About how many files and lines of code wound up having to change?
 
-   > This is a bit hard to answer.
-   > Hundreds of files mostly in tests, and some in code, scripts, user manuals and training.
-   > The number of lines could be above 1000, but this is a very rough estimate.
+*Gabriel:* This is a bit hard to answer.
+Hundreds of files mostly in tests, and some in code, scripts, user manuals and training.
+The number of lines could be above 1000, but this is a very rough estimate.
  
-* *Did any bugs creep in that resulted in debugging effort to resolve?*
+*Q:* Did any bugs creep in that resulted in debugging effort to resolve?
 
-   > No bugs that we know of.
+*Gabriel:* No bugs that we know of.
  
-* *Were changes to data files, input decks, power-point slides and/or documentation also needed?*
+*Q:* Were changes to data files, input decks, power-point slides and/or documentation also needed?
 
-   > Yes, we made a handful of changes to user manuals and trainings.
+*Gabriel:* Yes, we made a handful of changes to user manuals and trainings.
  
-* *How was the change ultimately announced and rolled out to stakeholders?*
+*Q:* How was the change ultimately announced and rolled out to stakeholders?
 
-   > Through sprint reviews every 3 weeks.
-   > We involved analysts and developers in ongoing conversations.
+*Gabriel:* Through sprint reviews every 3 weeks.
+We involved analysts and developers in ongoing conversations.
  
-* *What role did the social climate in the country in the middle of 2020 play?*
+*Q:* What role did the social climate in the country in the middle of 2020 play?
 
-   > The protests made me think more about what I’m doing in my day-to-day to become a better member of society.
-   > Am I educating myself enough about these issues?
-   > Am I putting myself in other people’s shoes?
-   > Am I considering my own biases in my opinions and thoughts?
-   > I came across the [_Washington Post_](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) opinion piece trying to answer some of these questions...trying to get a different perspective from my own, and those around me.
-   > I would like to think these efforts allow other people to ask similar questions.
-   > That they motivate thoughtful discussions about topics that are considered taboo to discuss with your co-workers, or even your friends and family.
+*Gabriel:* The protests made me think more about what I’m doing in my day-to-day to become a better member of society.
+Am I educating myself enough about these issues?
+Am I putting myself in other people’s shoes?
+Am I considering my own biases in my opinions and thoughts?
+I came across the [_Washington Post_](https://www.washingtonpost.com/opinions/2020/06/12/tech-industry-has-an-ugly-master-slave-problem/) opinion piece trying to answer some of these questions...trying to get a different perspective from my own, and those around me.
+I would like to think these efforts allow other people to ask similar questions.
+That they motivate thoughtful discussions about topics that are considered taboo to discuss with your co-workers, or even your friends and family.
 
-* *How was the work on this funded?*
+*Q:* How was the work on this funded?
 
-   > It originally started as grass-roots effort in the Solid Mechanics development team and was eventually embraced by stakeholders and other development teams when we shared what we were doing.
+*Gabriel:* It originally started as grass-roots effort in the Solid Mechanics development team and was eventually embraced by stakeholders and other development teams when we shared what we were doing.
 
-* *Did you have a good understanding of what was involved going in?*
+*Q:* Did you have a good understanding of what was involved going in?
 
-   > Agreeing on the replacement terminology certainly took longer than I expected.
-   > That ended up being a good thing since it prompted us to open up the conversation with several teams at Sandia and even other DOE labs.
+*Gabriel:* Agreeing on the replacement terminology certainly took longer than I expected.
+That ended up being a good thing since it prompted us to open up the conversation with several teams at Sandia and even other DOE labs.
 
 ### Closing thoughts
 
