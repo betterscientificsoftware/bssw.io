@@ -89,31 +89,31 @@ If you can't find what you are looking for in the above references, do a web sea
 
 
 
-[wthigsh]: http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1 "Why the Check is Git so Hard?  The Places Model"
+[wthigsh-sfer-ezikiw]: http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1 "Why the Heck is Git so Hard?  The Places Model"
 
-[gvmwg]: http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/ "Git vs. Mercurial: why Git?"
+[gvmwg-sfer-ezikiw]: http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/ "Git vs. Mercurial: why Git?"
 
-[pg2]: https://git-scm.com/book/en/v2 "Pro Git: 2nd Edition {Chacon, Scott, Straub Ben. 2014}"
+[pg2-sfer-ezikiw]: https://git-scm.com/book/en/v2 "Pro Git: 2nd Edition {Chacon, Scott, Straub Ben. 2014}"
 
-[cbgut]: https://bssw.io/items/critical-beginner-git-usage-tips "Critical Beginner Git Usage Tips {Bartlett RA}"
+[cbgut-sfer-ezikiw]: https://bssw.io/items/critical-beginner-git-usage-tips "Critical Beginner Git Usage Tips {Bartlett RA}"
 
-[vgr]: http://marklodato.github.io/visual-git-guide/index-en.html "Visual Git Reference"
+[vgr-sfer-ezikiw]: http://marklodato.github.io/visual-git-guide/index-en.html "Visual Git Reference"
 
-[vgcd3]: http://onlywei.github.io/explain-git-with-d3/ "Visualizing Git Concepts with D3"
+[vgcd3-sfer-ezikiw]: http://onlywei.github.io/explain-git-with-d3/ "Visualizing Git Concepts with D3"
 
-[lgb]: https://learngitbranching.js.org/ "Learn Git Branching"
+[lgb-sfer-ezikiw]: https://learngitbranching.js.org/ "Learn Git Branching"
 
-[tgom]: http://shafiulazam.com/gitbook/1_the_git_object_model.html "The Git Object Model"
+[tgom-sfer-ezikiw]: http://shafiulazam.com/gitbook/1_the_git_object_model.html "The Git Object Model"
 
-[vcwg]: https://www.udacity.com/course/version-control-with-git--ud123 "Version Control with Git, Udacity.com"
+[vcwg-sfer-ezikiw]: https://www.udacity.com/course/version-control-with-git--ud123 "Version Control with Git, Udacity.com"
 
-[gcst]: https://www.git-tower.com/blog/git-cheat-sheet/ "Git Cheat Sheet {Tower})"
+[gcst-sfer-ezikiw]: https://www.git-tower.com/blog/git-cheat-sheet/ "Git Cheat Sheet {Tower}"
 
-[gcsi]: http://ndpsoftware.com/git-cheatsheet.html#loc=index; "Git Cheatsheet {NDP Software}"
+[gcsi-sfer-ezikiw]: http://ndpsoftware.com/git-cheatsheet.html#loc=index; "Git Cheatsheet {NDP Software}"
 
-[fagit]: http://firstaidgit.io/# "First Aid Git"
+[fagit-sfer-ezikiw]: http://firstaidgit.io/# "First Aid Git"
 
-[htuag]: https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/ "Show to undo (almost) anything with Git"
+[htuag-sfer-ezikiw]: https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/ "Show to undo (almost) anything with Git"
 
 
 <!---
@@ -126,3 +126,33 @@ Topics: revision control, release and deployment, development tools
 <!---
 LocalWords:  
 --->
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[wthigsh]: #sfer-ezikiw-wthigsh "Why the Heck is Git so Hard?  The Places Model"
+[gvmwg]: #sfer-ezikiw-gvmwg "Git vs. Mercurial: why Git?"
+[pg2]: #sfer-ezikiw-pg2 "Pro Git: 2nd Edition"
+[cbgut]: #sfer-ezikiw-cbgut "Critical Beginner Git Usage Tips"
+[vgr]: #sfer-ezikiw-vgr "Visual Git Reference"
+[vgcd3]: #sfer-ezikiw-vgcd3 "Visualizing Git Concepts with D3"
+[lgb]: #sfer-ezikiw-lgb "Learn Git Branching"
+[tgom]: #sfer-ezikiw-tgom "The Git Object Model"
+[vcwg]: #sfer-ezikiw-vcwg "Version Control with Git, Udacity.com"
+[gcst]: #sfer-ezikiw-gcst "Git Cheat Sheet"
+[gcsi]: #sfer-ezikiw-gcsi "Git Cheatsheet"
+[fagit]: #sfer-ezikiw-fagit "First Aid Git"
+[htuag]: #sfer-ezikiw-htuag "Show to undo (almost) anything with Git"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-cbgut"></a><sup>cbgut</sup>[Critical Beginner Git Usage Tips<br>Bartlett RA](https://bssw.io/items/critical-beginner-git-usage-tips)
+* <a name="sfer-ezikiw-fagit"></a><sup>fagit</sup>[First Aid Git](http://firstaidgit.io/#)
+* <a name="sfer-ezikiw-gcsi"></a><sup>gcsi</sup>[Git Cheatsheet<br>NDP Software](http://ndpsoftware.com/git-cheatsheet.html#loc=index;)
+* <a name="sfer-ezikiw-gcst"></a><sup>gcst</sup>[Git Cheat Sheet<br>Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
+* <a name="sfer-ezikiw-gvmwg"></a><sup>gvmwg</sup>[Git vs. Mercurial: why Git?](http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/)
+* <a name="sfer-ezikiw-htuag"></a><sup>htuag</sup>[Show to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
+* <a name="sfer-ezikiw-lgb"></a><sup>lgb</sup>[Learn Git Branching](https://learngitbranching.js.org/)
+* <a name="sfer-ezikiw-pg2"></a><sup>pg2</sup>[Pro Git: 2nd Edition<br>Chacon, Scott, Straub Ben. 2014](https://git-scm.com/book/en/v2)
+* <a name="sfer-ezikiw-tgom"></a><sup>tgom</sup>[The Git Object Model](http://shafiulazam.com/gitbook/1_the_git_object_model.html)
+* <a name="sfer-ezikiw-vcwg"></a><sup>vcwg</sup>[Version Control with Git, Udacity.com](https://www.udacity.com/course/version-control-with-git--ud123)
+* <a name="sfer-ezikiw-vgcd3"></a><sup>vgcd3</sup>[Visualizing Git Concepts with D3](http://onlywei.github.io/explain-git-with-d3/)
+* <a name="sfer-ezikiw-vgr"></a><sup>vgr</sup>[Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
+* <a name="sfer-ezikiw-wthigsh"></a><sup>wthigsh</sup>[Why the Heck is Git so Hard?  The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1)
