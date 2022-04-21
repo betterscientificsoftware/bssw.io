@@ -21,99 +21,77 @@ But Git is still currently the dominant VC system.
 
 ## Links to Git tutorial and reference material
 
-For a full featured introduction and reference for Git, a good source is the free online book:
+For a full-featured introduction and reference for Git, a good source is the free online book:
 
-* ​**Pro Git: 2nd Edition** <sup>[pg2]</sup> by Scott Chacon and Ben Straub
+* ​[**Pro Git: 2nd Edition**](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 
 But Pro Git is a big book and that is a lot of information for most people to remember.
 And some people have a hard time finding the specific information they need in a book like that.
 Therefore, provided below are some other shorter more targeted references that some people might find very helpful to understand Git and will want to consult in day-to-day usage of Git.
 
-(NOTE: Since the publication of Pro Git 2nd edition in 2014, many other Git books have come along and many of them are likely to cover newer Git features, but the core of Git is unchanged since before 2008.)
+(NOTE: Since the publication of Pro Git 2nd edition in 2014, many other Git books have come along and many of them are likely to cover newer Git features.
+But the core of Git is unchanged since before 2008 and this book is still near the top of recommended books to read about Git.)
 
-Assuming you are a complete Git beginner and can’t wait to start contributing to a Git repo, you would be wise to first take note of:
+Assuming you are a complete Git beginner and can’t wait to start contributing to a Git repository, you would be wise to first take note of:
 
-* **Critical Beginner Git Usage Tips** <sup>[cbgut]</sup>
+* [**Critical Beginner Git Usage Tips**](https://bssw.io/items/critical-beginner-git-usage-tips)
 
 After that, for a nice (relatively short) visual reference for common Git operations, see:
 
-* **​Visual Git Reference** <sup>[vgr]</sup>
+* [**​Visual Git Reference**](http://marklodato.github.io/visual-git-guide/index-en.html)
 
 A nice interactive visual tutorial (and simple Git simulator) and reference for common Git operations is:
 
-* **​Visualizing Git Concepts with D3** <sup>[vgcd3]</sup>
+* [**​Visualizing Git Concepts with D3**](http://onlywei.github.io/explain-git-with-d3/)
 
 Another similar site is:
 
-* **Learn Git Branching** <sup>[lgb]</sup>
+* [**Learn Git Branching**](https://learngitbranching.js.org/)
 
-(The "Lean Git Branching" site is more interactive with more guided lessons than the "Visualizing Git Concepts with D3" site.
-It also supports more Git commands like "git cherry-pick" and it allows for larger Git branching simulations.
+(The *Lean Git Branching* site is more interactive with more guided lessons than the *Visualizing Git Concepts with D3* site.
+It also supports more Git commands like `git cherry-pick` and it allows for larger Git simulations.
 Try out the [sandbox mode](https://learngitbranching.js.org/?NODEMO) to do quick unguided Git workflow simulations.
 However, this is still just a simulator for Git so it does not support all Git commands and options.)
 
 To really be able to use Git well, you have to know a little bit about how it works and how it stores changes to a repository.
 To help understand this, a nice short overview of the Git object model is given in:
 
-* **​The Git Object Model** <sup>[tgom]</sup>
+* [**​The Git Object Model**](http://shafiulazam.com/gitbook/1_the_git_object_model.html)
 
 The data model for Git is not very complicated as data-structures go;
 it is that of a directed acyclic graph (DAG) where each node in the graph is a commit which represents a specific version (or snapshot) of the repository (repo).
 The edges in the graph between adjacent nodes/commits represent patches or differences between the different versions of the repo’s files and provide the "history" of the changes of the repository.
 Once you see how Git stores the different versions (snapshots) of a repo, you can use that information to understand the impact of various decisions and operations.
-The *Visual Git Reference* <sup>[vgr]</sup> and nearly every other Git reference refers to this DAG of Git commits in some way.
+The *Visual Git Reference* and nearly every other Git reference refers to this DAG of Git commits in some way.
 A more technical description of the Git object model is given in the ​Git Pro [Object Model](http://git-scm.com/book/en/v2/Git-Internals-Git-Objects) chapter.
 (Git also uses a more compact storage format called ​[Packfiles](http://git-scm.com/book/en/v2/Git-Internals-Packfiles) that can store deltas to changes in files for older history.)
 
 For those that have the time to work through a longer online tutorial, consider taking the following excellent course which teaches both the basics of version control and Git as well as how to look at Git from a data-structure perspective:
 
-* **Version Control with Git** <sup>[vcwg]</sup>
+* [**Version Control with Git**](https://www.udacity.com/course/version-control-with-git--ud123) from Udacity.com
 
-The above online course from Udacity.com is broken down into well-named sections so you can browse the course to find topics where you would like to see someone explain it in simple language, diagrams, and examples.
+The above online course is broken down into well-named sections so you can browse the course to find topics where you would like to see someone explain it in simple language, diagrams, and examples.
 
 Here are some short Git cheat sheets that some may find useful:
 
-* **​Git Cheatsheet** (from Tower) <sup>[gcst]</sup>
-* **Git Cheatsheet** (interactive page from NDP Software) <sup>[gcsi]</sup>
+* [**​Git Cheatsheet**](https://www.git-tower.com/blog/git-cheat-sheet/) (from Tower)
+* [**Git Cheatsheet**](http://ndpsoftware.com/git-cheatsheet.html#loc=index;) (interactive page from NDP Software)
 
-(The latter Git Cheatsheet from NDP Software<sup>[gcsi]</sup> graphically shows how git commands move data between the various Git "places" and is a good complement to the *Visual Git Reference* <sup>[vgr]</sup>.
+(The latter Git Cheatsheet from NDP Software<sup>[gcsi]</sup> graphically shows how git commands move data between the various Git "places" and is a good complement to the *Visual Git Reference*.)
 
 Here are some useful pages with various information about Git:
 
-* **First Aid Git** <sup>[fagit]</sup> (includes search of FAQs)
-* **How to undo (almost) anything in Git** <sup>[htuag]</sup>
+* [**First Aid Git**](http://firstaidgit.io/#) (includes search of FAQs)
+* [**How to undo (almost) anything in Git**](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 
-If you can't find what you are looking for in the above references, do a web search for what you want to know and you will likely find a great explanation for how to do it on StackOverflow or some other site.
-
-
+If you can't find what you are looking for in the above references, do a web search.
 
 
+<!-- References --/>
 
-[wthigsh-sfer-ezikiw]: http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1 "Why the Heck is Git so Hard?  The Places Model"
+[wthigsh]: http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1 "Why the Heck is Git so Hard?  The Places Model"
 
-[gvmwg-sfer-ezikiw]: http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/ "Git vs. Mercurial: why Git?"
-
-[pg2-sfer-ezikiw]: https://git-scm.com/book/en/v2 "Pro Git: 2nd Edition {Chacon, Scott, Straub Ben. 2014}"
-
-[cbgut-sfer-ezikiw]: https://bssw.io/items/critical-beginner-git-usage-tips "Critical Beginner Git Usage Tips {Bartlett RA}"
-
-[vgr-sfer-ezikiw]: http://marklodato.github.io/visual-git-guide/index-en.html "Visual Git Reference"
-
-[vgcd3-sfer-ezikiw]: http://onlywei.github.io/explain-git-with-d3/ "Visualizing Git Concepts with D3"
-
-[lgb-sfer-ezikiw]: https://learngitbranching.js.org/ "Learn Git Branching"
-
-[tgom-sfer-ezikiw]: http://shafiulazam.com/gitbook/1_the_git_object_model.html "The Git Object Model"
-
-[vcwg-sfer-ezikiw]: https://www.udacity.com/course/version-control-with-git--ud123 "Version Control with Git, Udacity.com"
-
-[gcst-sfer-ezikiw]: https://www.git-tower.com/blog/git-cheat-sheet/ "Git Cheat Sheet {Tower}"
-
-[gcsi-sfer-ezikiw]: http://ndpsoftware.com/git-cheatsheet.html#loc=index; "Git Cheatsheet {NDP Software}"
-
-[fagit-sfer-ezikiw]: http://firstaidgit.io/# "First Aid Git"
-
-[htuag-sfer-ezikiw]: https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/ "Show to undo (almost) anything with Git"
+[gvmwg]: http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/ "Git vs. Mercurial: why Git?"
 
 
 <!---
@@ -126,33 +104,3 @@ Topics: revision control, release and deployment, development tools
 <!---
 LocalWords:  
 --->
-<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
-[wthigsh]: #sfer-ezikiw-wthigsh "Why the Heck is Git so Hard?  The Places Model"
-[gvmwg]: #sfer-ezikiw-gvmwg "Git vs. Mercurial: why Git?"
-[pg2]: #sfer-ezikiw-pg2 "Pro Git: 2nd Edition"
-[cbgut]: #sfer-ezikiw-cbgut "Critical Beginner Git Usage Tips"
-[vgr]: #sfer-ezikiw-vgr "Visual Git Reference"
-[vgcd3]: #sfer-ezikiw-vgcd3 "Visualizing Git Concepts with D3"
-[lgb]: #sfer-ezikiw-lgb "Learn Git Branching"
-[tgom]: #sfer-ezikiw-tgom "The Git Object Model"
-[vcwg]: #sfer-ezikiw-vcwg "Version Control with Git, Udacity.com"
-[gcst]: #sfer-ezikiw-gcst "Git Cheat Sheet"
-[gcsi]: #sfer-ezikiw-gcsi "Git Cheatsheet"
-[fagit]: #sfer-ezikiw-fagit "First Aid Git"
-[htuag]: #sfer-ezikiw-htuag "Show to undo (almost) anything with Git"
-<!-- (sfer-ezikiw begin) -->
-### References
-<!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-cbgut"></a><sup>cbgut</sup>[Critical Beginner Git Usage Tips<br>Bartlett RA](https://bssw.io/items/critical-beginner-git-usage-tips)
-* <a name="sfer-ezikiw-fagit"></a><sup>fagit</sup>[First Aid Git](http://firstaidgit.io/#)
-* <a name="sfer-ezikiw-gcsi"></a><sup>gcsi</sup>[Git Cheatsheet<br>NDP Software](http://ndpsoftware.com/git-cheatsheet.html#loc=index;)
-* <a name="sfer-ezikiw-gcst"></a><sup>gcst</sup>[Git Cheat Sheet<br>Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
-* <a name="sfer-ezikiw-gvmwg"></a><sup>gvmwg</sup>[Git vs. Mercurial: why Git?](http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/)
-* <a name="sfer-ezikiw-htuag"></a><sup>htuag</sup>[Show to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
-* <a name="sfer-ezikiw-lgb"></a><sup>lgb</sup>[Learn Git Branching](https://learngitbranching.js.org/)
-* <a name="sfer-ezikiw-pg2"></a><sup>pg2</sup>[Pro Git: 2nd Edition<br>Chacon, Scott, Straub Ben. 2014](https://git-scm.com/book/en/v2)
-* <a name="sfer-ezikiw-tgom"></a><sup>tgom</sup>[The Git Object Model](http://shafiulazam.com/gitbook/1_the_git_object_model.html)
-* <a name="sfer-ezikiw-vcwg"></a><sup>vcwg</sup>[Version Control with Git, Udacity.com](https://www.udacity.com/course/version-control-with-git--ud123)
-* <a name="sfer-ezikiw-vgcd3"></a><sup>vgcd3</sup>[Visualizing Git Concepts with D3](http://onlywei.github.io/explain-git-with-d3/)
-* <a name="sfer-ezikiw-vgr"></a><sup>vgr</sup>[Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
-* <a name="sfer-ezikiw-wthigsh"></a><sup>wthigsh</sup>[Why the Heck is Git so Hard?  The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1)
