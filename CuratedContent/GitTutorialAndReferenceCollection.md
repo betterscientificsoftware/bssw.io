@@ -77,7 +77,7 @@ Here are some short Git cheat sheets that some may find useful:
 * [**​Git Cheatsheet**](https://www.git-tower.com/blog/git-cheat-sheet/) (from Tower)
 * [**Git Cheatsheet**](http://ndpsoftware.com/git-cheatsheet.html#loc=index;) (interactive page from NDP Software)
 
-(The latter Git Cheatsheet from NDP Software<sup>[gcsi]</sup> graphically shows how git commands move data between the various Git "places" and is a good complement to the *Visual Git Reference*.)
+(The latter Git Cheatsheet from NDP Software graphically shows how git commands move data between the various Git "places" and is a good complement to the *Visual Git Reference*.)
 
 Here are some useful pages with various information about Git:
 
@@ -87,11 +87,9 @@ Here are some useful pages with various information about Git:
 If you can't find what you are looking for in the above references, do a web search.
 
 
-<!-- References --/>
+[wthigsh-sfer-ezikiw]: http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1 "Why the Heck is Git so Hard?  The Places Model"
 
-[wthigsh]: http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1 "Why the Heck is Git so Hard?  The Places Model"
-
-[gvmwg]: http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/ "Git vs. Mercurial: why Git?"
+[gvmwg-sfer-ezikiw]: http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/ "Git vs. Mercurial: why Git?"
 
 
 <!---
@@ -104,3 +102,11 @@ Topics: revision control, release and deployment, development tools
 <!---
 LocalWords:  
 --->
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[wthigsh]: #sfer-ezikiw-wthigsh "Why the Heck is Git so Hard?  The Places Model"
+[gvmwg]: #sfer-ezikiw-gvmwg "Git vs. Mercurial: why Git?"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-gvmwg"></a><sup>gvmwg</sup>[Git vs. Mercurial: why Git?](http://blogs.atlassian.com/2012/03/git-vs-mercurial-why-git/)
+* <a name="sfer-ezikiw-wthigsh"></a><sup>wthigsh</sup>[Why the Heck is Git so Hard?  The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1)
