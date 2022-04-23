@@ -1,4 +1,4 @@
-# DiveRSE Speaker Series: Normalizing Inclusion by Embracing Difference
+# DiveRSE Speaker Series: EDI in the R Community
 
 - Event Date: 2022-05-04
 - Location: Online
