@@ -12,9 +12,9 @@ Revision control systems like Git are important for today's software ecosystems 
 
 Revision control systems like *Git* are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project.
 
-In this article, we provide a valuable collection of tutorials and reference information about the Git version control system. This overview takes the view that the best way to learn to use Git effectively is to learn it as a data-structure and a set of algorithms to manipulate that data-structure<sup>[wthigsh]</sup>.
+In this article, we provide a valuable collection of tutorials and reference information about the Git version control system. This overview takes the view that the best way to learn to use Git effectively is to learn it as a data structure and a set of algorithms to manipulate that data structure<sup>[wthigsh]</sup>.
 
-Git is currently the dominant version control system and used world-wide. Nevertheless, the Git command-line interface is considered by many to be overly complex and confusing<sup>[gvmwg]</sup>. For example, the same Git command like [checkout](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) can do wildly different things depending on the other arguments that are passed into the command, or the state of the Git repository.  The following resources have shown recurring utility in helping to understand and effectly use this sophisticated but quirky tool.
+Git is currently the dominant version control system and is used worldwide. Nevertheless, the Git command-line interface is considered by many to be overly complex and confusing<sup>[gvmwg]</sup>. For example, the same Git command like [checkout](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) can do wildly different things depending on the other arguments that are passed into the command, or the state of the Git repository.  The following resources have shown recurring utility in helping to understand and effectively use this sophisticated but quirky tool.
 
 ## Links to Git tutorial and reference material
 
@@ -52,15 +52,15 @@ To help understand this, a nice short overview of the Git object model is given 
 
 * [**The Git Object Model**](http://shafiulazam.com/gitbook/1_the_git_object_model.html)
 
-The data model for Git is not very complicated as data-structures go;
-it is that of a directed acyclic graph (DAG) where each node in the graph is a commit which represents a specific version (or snapshot) of the repository (repo).
+The data model for Git is not very complicated as data structures go;
+it is that of a directed acyclic graph (DAG) where each node in the graph is a commit that represents a specific version (or snapshot) of the repository (repo).
 The edges in the graph between adjacent nodes/commits represent patches or differences between the different versions of the repo’s files and provide the "history" of the changes of the repository.
 Once you see how Git stores the different versions (snapshots) of a repo, you can use that information to understand the impact of various decisions and operations.
 The *Visual Git Reference* and nearly every other Git reference refers to this DAG of Git commits in some way.
 A more technical description of the Git object model is given in the Git Pro [Object Model](http://git-scm.com/book/en/v2/Git-Internals-Git-Objects) chapter.
 (Git also uses a more compact storage format called [Packfiles](http://git-scm.com/book/en/v2/Git-Internals-Packfiles) that can store deltas to changes in files for older history.)
 
-For those that have the time to work through a longer online tutorial, consider taking the following excellent course which teaches both the basics of version control and Git as well as how to look at Git from a data-structure perspective:
+For those that have the time to work through a longer online tutorial, consider taking the following excellent course which teaches both the basics of version control and Git as well as how to look at Git from a data structure perspective:
 
 * [**Version Control with Git**](https://www.udacity.com/course/version-control-with-git--ud123) from Udacity.com
 
