@@ -23,7 +23,7 @@ For a full-featured introduction and reference for Git, a good source is the fre
 
 * ​[**Pro Git: 2nd Edition**](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 
-Pro Git is a comprehensive and detailed book with a lot of valuable information. For folks who find comprehensive books intimidating but are still looking to find specific Git information - we also provide below some other shorter and more targeted references that may be helpful to understand Git and will want to consult in day-to-day usage of Git.
+Pro Git is a comprehensive and detailed book with a lot of valuable information. For folks who find comprehensive books intimidating but are still looking to find specific Git information - we also provide below some other shorter and more targeted references that may be helpful to understand Git and one may want to consult them day-to-day usage of Git.
 
 (NOTE: Since the publication of Pro Git 2nd edition in 2014, many other Git books have come along and many of them are likely to cover newer Git features. But the core of Git is unchanged since before 2008 and this book is still near the top of recommended books to read about Git.)
 
