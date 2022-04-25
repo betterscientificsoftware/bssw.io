@@ -14,8 +14,7 @@ Revision control systems like *Git* are important for today's software ecosystem
 
 In this article, we provide a valuable collection of tutorials and reference information about the Git version control system. This overview takes the view that the best way to learn to use Git effectively is to learn it as a data-structure and a set of algorithms to manipulate that data-structure<sup>[wthigsh]</sup>.
 
-This is important because the Git command-line interface is widely considered to be overly complex and confusing<sup>[gvmwg]</sup>.
-For example, the same Git command like [checkout](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) can do wildly different things depending on the other arguments that are passed into the command, or the state of the Git repository. Nevertheless, Git is still currently the dominant version control system and used world-wide.
+Git is currently the dominant version control system and used world-wide. Nevertheless, the Git command-line interface is considered by many to be overly complex and confusing<sup>[gvmwg]</sup>. For example, the same Git command like [checkout](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) can do wildly different things depending on the other arguments that are passed into the command, or the state of the Git repository.  The following resources have shown recurring utility in helping to understand and effectly use this sophisticated but quirky tool.
 
 ## Links to Git tutorial and reference material
 
@@ -79,8 +78,7 @@ Here are some useful pages with various information about Git:
 * [**First Aid Git**](http://firstaidgit.io/#) (includes search of FAQs)
 * [**How to undo (almost) anything in Git**](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 
-If you can't find what you are looking for in the above references, do a web search.
-
+In addition to the above, a web search will yield many additional resources.
 
 [wthigsh-sfer-ezikiw]: http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html?m=1 "Why the Heck is Git so Hard?  The Places Model"
 
