@@ -83,7 +83,7 @@ Article title | [Inclusivity Bugs and The Language We Use](https://www.computer.
 Author(s) | Mark C. Miller
 Focus | Inclusive Communication
 
-The above resource discusses inclusivity bugs steming from the use of commonly used language idioms.
+The above resource discusses inclusivity bugs stemming from the use of commonly used language idioms.
 
 <!---
 Publish: yes
