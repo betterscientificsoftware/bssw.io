@@ -42,7 +42,7 @@ Another similar site is:
 
 * [**Learn Git Branching**](https://learngitbranching.js.org/)
 
-The *Lean Git Branching* site is more interactive with more guided lessons than the *Visualizing Git Concepts with D3* site.
+The *Learn Git Branching* site is more interactive with more guided lessons than the *Visualizing Git Concepts with D3* site.
 It also supports more Git commands like `git cherry-pick` and it allows for larger Git simulations.
 One could try out the [sandbox mode](https://learngitbranching.js.org/?NODEMO) to do quick unguided Git workflow simulations.
 However, this is still just a simulator for Git so it does not support all Git commands and options.
