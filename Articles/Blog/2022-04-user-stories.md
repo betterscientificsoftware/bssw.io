@@ -97,7 +97,7 @@ with scientific software. The following are two examples.
 
 <br>
 
-[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Trackiong Cards and user stories supports the latter.]<img src='../../images/ptc-user-stories-improvement.png' class='page lightbox'/>
+<img src='../../images/ptc-user-stories-improvement.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
 
 ### A Seamless Incorporation of User Stories
 
@@ -187,7 +187,7 @@ potential differences in priorities among different team members.
 
 **User Stories as Experiments**: We recommend that teams agree to a
 "definition of done" for stories, a common set of criteria needed to
-close out a story (*e.g.,* the story has a deliverable that was met; the
+close out a story (e.g., the story has a deliverable that was met; the
 work was reviewed by other team members). Closing out a story, however can be
 tricky for scientific software teams as their software can be constantly
 evolving; user stories might not pan out or could turn out to be more
@@ -200,8 +200,8 @@ of whether the user story is "successful" or not. As an example, a user
 story may be the following: "As an application developer, *I want* to show it is
 possible to port our application code to the new platform *so that* we
 can take advantage of the next-generation hardware." The code, however,
- (1) may not be able to be ported, (2) can be ported with extensive
-additional effort, or (3) is relatively easy to port. Gathering the
+ (a) may not be able to be ported, (b) can be ported with extensive
+additional effort, or (c) is relatively easy to port. Gathering the
 data needed to make that determination is a value-add on its own,
 regardless of the outcome, and could be used to derive future user
 stories.
