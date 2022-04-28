@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../..//images/2022-04-user-stories-hero.png' />
+- <img src='../..//images/Blog_2204_Cards_Notes.png' />
 
 #### Contributed by: [Osni Marques](https://github.com/oamargues) and [Reed Milewicz](https://github.com/rmmilewi)
 #### Publication date: April 26, 2022
@@ -96,7 +96,7 @@ with scientific software. The following are two examples.
 
 <br>
 
-<img src='../../images/ptc-user-stories-improvement.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
+<img src='../../images/Blog_2204_Chart.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
 
 ### A Seamless Incorporation of User Stories
 
