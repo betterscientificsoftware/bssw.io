@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../..//images/Blog_2204_Cards_Notes.png' />
+- <img src='../..//images/Blog_2204_CardsNotes.png' />
 
 #### Contributed by: [Osni Marques](https://github.com/oamargues) and [Reed Milewicz](https://github.com/rmmilewi)
 #### Publication date: April 26, 2022
