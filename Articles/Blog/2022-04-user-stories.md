@@ -46,7 +46,8 @@ solve a problem or achieve an objective; and requirements engineering is
 the process of formally identifying, documenting, and validating those
 software requirements. As Smith et al. have noted, there has long been a
 prevailing belief that requirements engineering is impractical and
-infeasible for scientific software development ([doi:10.1109/SE4Science.2019.00011](https://doi.org/10.1109/SE4Science.2019.00011)).
+infeasible for scientific software development 
+([doi:10.1109/SE4Science.2019.00011](https://doi.org/10.1109/SE4Science.2019.00011)).
 After all, scientific software is often highly exploratory, and
 scientific software developers have long been their own users.
 Nevertheless, given the increasingly multidisciplinary,
@@ -96,7 +97,7 @@ with scientific software. The following are two examples.
 
 <br>
 
-<img src='../../images/Blog_2204_ChartB.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
+<img src='../../images/Blog_2204_ChartB.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (gray), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
 
 ### A Seamless Incorporation of User Stories
 
