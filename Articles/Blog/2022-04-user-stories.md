@@ -96,7 +96,7 @@ with scientific software. The following are two examples.
 
 <br>
 
-<img src='../../images/Blog_2204_Chart.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
+<img src='../../images/Blog_2204_ChartB.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (red), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
 
 ### A Seamless Incorporation of User Stories
 
