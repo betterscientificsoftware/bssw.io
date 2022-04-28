@@ -1,9 +1,8 @@
 # User Stories in Scientific Software Development
 
-<!-- deck start -->
-User stories provide a simple approach to gathering requirements for scientific software
-development and guiding software process improvement. 
-<!-- deck end -->
+**Hero Image:**
+
+- <img src='../..//images/2022-04-user-stories-hero.png' />
 
 #### Contributed by: [Osni Marques](https://github.com/oamargues) and [Reed Milewicz](https://github.com/rmmilewi)
 #### Publication date: April 26, 2022
@@ -109,8 +108,7 @@ or Agile. PSIP provides tools and resources to set, measure, and
 realize improvement goals and can be implemented through Progress
 Tracking Cards (PTCs) to achieve quality goals. To illustrate, the figure above
 portrays two software development
-approaches, one (old) based on incremental changes and one (new) that
-has requirements as a prior condition, including requirements for
+approaches, one (cost prohibitive) based on incremental changes and one (with more long-term efficiencies) that has requirements for
 programmer productivity and software sustainability. PTCs can be
 gracefully combined with user stories to suit the latter approach and
 then used by scientific software teams to help improve software
