@@ -9,16 +9,14 @@ Slide2 L: ../Articles/Blog/2022-04-wosss-workshop-series.md
 Slide2 R: ../CuratedContent/GitTutorialAndReferenceCollection.md
 Slide3 L: ../CuratedContent/InclusivityBugs.md
 Slide3 R: ../CuratedContent/CMakeTutorialAndReferenceResources.md
-Slide4 L: ../Articles/Blog/InclusiveLanguageCodeUpdateExample.md
-Slide4 R: ../images/github_ms_snipits.png
-Slide5 L: ../CuratedContent/ChanZuckInitiative.md
-Slide5 R: ../Events/2022-05-ECP22-BOF.md
-Slide6 L: ../Events/2022-05-diverse-turner.md
-Slide6 R: ../Events/2022-05-isc-sw-events.md
-Slide7 L: ../Events/2022-06-pasc-sw-events.md
-Slide7 R: ../Events/2022-hpc-workforcedevel-webinar-mentor.md
-Slide8 L: ../Events/hpcbp-063-temporalanalysis.md
-Slide8 R: ../Events/XpertNetworkSeries.md
+Slide4 L: ../CuratedContent/ChanZuckInitiative.md
+Slide4 R: ../Events/2022-05-ECP22-BOF.md
+Slide5 L: ../Events/2022-05-diverse-turner.md
+Slide5 R: ../Events/2022-05-isc-sw-events.md
+Slide6 L: ../Events/2022-06-pasc-sw-events.md
+Slide6 R: ../Events/2022-hpc-workforcedevel-webinar-mentor.md
+Slide7 L: ../Events/hpcbp-063-temporalanalysis.md
+Slide7 R: ../Events/XpertNetworkSeries.md
 --->
 
 <!---
