@@ -1,4 +1,4 @@
-# Webinar: How to be a great mentor
+# Webinar: How to Be a Great Mentor
 
 - Event Date: 2022-05-24
 - Location: Online
