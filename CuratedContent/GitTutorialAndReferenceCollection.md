@@ -8,7 +8,7 @@ Revision control systems like Git are important for today's software ecosystems 
 #### Publication date:  April 25, 2022
 
 
-## Introduction
+### Introduction
 
 Revision control systems like *Git* are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project.
 
@@ -16,7 +16,7 @@ In this article, we provide a valuable collection of tutorials and reference inf
 
 Git is currently the dominant version control system and is used worldwide. Nevertheless, the Git command-line interface is considered by many to be overly complex and confusing<sup>[gvmwg]</sup>. For example, the same Git command like [checkout](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) can do wildly different things depending on the other arguments that are passed into the command, or the state of the Git repository.  The following resources have shown recurring utility in helping to understand and effectively use this sophisticated but quirky tool.
 
-## Links to Git tutorial and reference material
+### Links to Git tutorial and reference material
 
 For a full-featured introduction and reference for Git, a good source is the free online book:
 
