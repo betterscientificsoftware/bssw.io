@@ -1,12 +1,11 @@
 # Webinar: How to be a great mentor
 
-- Date: 2022-05-24
+- Event Date: 2022-05-24
 - Location: Online
 - Event Website: https://www.exascaleproject.org/event/mentor/
 - Organizers: ECP HPC Workforce Development and Retention Action Group
 			   
 This event is a part of a webinar series on Workforce Development, produced by the ECP HPC Workforce Development and Retention Action Group. The webinars, in this series, focus on topics related to developing a diverse, equitable, and inclusive work culture.
-
 
 Resource Information | Details
 :--- | :---			   
