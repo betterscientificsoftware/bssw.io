@@ -22,10 +22,6 @@ The PASC Conference series is an international and interdisciplinary platform fo
 
 <!---
 Publish: yes
-Categories: collaboration
+Pinned: no
 Topics: projects and organizations, conferences and workshops
-Tags: conference
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
