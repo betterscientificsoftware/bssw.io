@@ -69,7 +69,7 @@ experimenting with user stories and our lessons learned, and we'll
 provide guidelines for teams looking to employ user stories in their own
 projects.
 
-### Our Experiences With User Stories
+### Our experiences with user stories
 
 A few years ago the [IDEAS-ECP project](https://ideas-productivity.org/ideas-ecp/) 
 began experimenting with user stories as a
@@ -99,7 +99,7 @@ with scientific software. The following are two examples.
 
 <img src='../../images/Blog_2204_ChartB.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (gray), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
 
-### A Seamless Incorporation of User Stories
+### A seamless incorporation of user stories
 
 After that experiment, we realized that user stories could
 become a component of [Productivity and Sustainability Improvement
@@ -149,7 +149,7 @@ projects. We give three examples.
     *so that* I am complying with the standards with minimal additional
     effort or ambiguity."
 
-### How You Can Get Started with User Stories
+### How you can get started with user stories
 
 For readers looking to adopt user stories within their own projects,
 we highly recommend starting with a storywriting workshop as we did in the
@@ -176,7 +176,7 @@ directly to scientific software development. Along those lines, we have
 a small set of guidelines of our own to help frame this story-writing
 exercise.
 
-**The *You* in User Story**: Scientific software developers are often
+**The *you* in user story**: Scientific software developers are often
 their own users, and user stories can be a powerful tool for
 introspection. We encourage teams to consider user stories as a tool to
 express what they themselves value and consider important, not just what
@@ -184,7 +184,7 @@ other external stakeholders consider valuable. Likewise, collaboratively
 writing user stories presents an opportunity to surface and then resolve
 potential differences in priorities among different team members.
 
-**User Stories as Experiments**: We recommend that teams agree to a
+**User stories as experiments**: We recommend that teams agree to a
 "definition of done" for stories, a common set of criteria needed to
 close out a story (e.g., the story has a deliverable that was met; the
 work was reviewed by other team members). Closing out a story, however can be
