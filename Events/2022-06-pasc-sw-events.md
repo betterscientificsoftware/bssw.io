@@ -15,12 +15,12 @@ The PASC Conference series is an international and interdisciplinary platform fo
 
 See <https://pasc22.pasc-conference.org/program/schedule/> for full details.
 
-Day<br>Time (CEST) | Session | Event Title
-:---     |    :------ |--------------------------------------------------------
-Mon June 27<br>13:30-15:30 | MS1A| Software and Data Sustainability in Computational Science and Engineering
-Tue June 28<br>11:00-13:00 | MS3B | Research Software Science: Applying the Scientific Method to Understand and Improve How We Develop, Maintain, and Use Software for Research, Part I
-Tue June 28<br>16:30-18:30 | MS4B | Research Software Science: Applying the Scientific Method to Understand and Improve How We Develop, Maintain, and Use Software for Research, Part II
-Tue June 28<br>16:30-18:30 | MS4F | Advancing Scientific Computing Across the Globe Through DEI: Successes and Challenges in Normalizing Inclusion
+Day<br>Time&nbsp;(CEST) | Session | Event Title
+---     |------ |--------------------------------------------------------
+Mon&nbsp;June&nbsp;27<br>13:30-15:30 | MS1A| Software and Data Sustainability in Computational Science and Engineering
+Tue&nbsp;June&nbsp;28<br>11:00-13:00 | MS3B | Research Software Science: Applying the Scientific Method to Understand and Improve How We Develop, Maintain, and Use Software for Research, Part I
+Tue&nbsp;June&nbsp;28<br>16:30-18:30 | MS4B | Research Software Science: Applying the Scientific Method to Understand and Improve How We Develop, Maintain, and Use Software for Research, Part II
+Tue&nbsp;June&nbsp;28<br>16:30-18:30 | MS4F | Advancing Scientific Computing Across the Globe Through DEI: Successes and Challenges in Normalizing Inclusion
 
 <!---
 Publish: yes
