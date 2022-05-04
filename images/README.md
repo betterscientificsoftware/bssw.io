@@ -73,10 +73,10 @@ At any point you can enter the following tag to call up an image (for example, f
 <img src='../../images/filename.jpg' class='page lightbox' />
 ```
 
-To add caption text, place the image text in front of the image tag.
+To add caption text, place the image text after the image tag.
 
 ```
-[Image text]<img src='../../images/filename.jpg' class='page lightbox' />
+<img src='../../images/filename.jpg' class='page lightbox' />[Image text]
 ```
 
 #### Notes
