@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/xxxxxxxxxxx.png' />
+ - <img src='../../images/Blog_2205_VeraRubin.png' />
  
 
 #### Contributed by Elisa Heymann Pignolo, Barton Miller, and [Sean Peisert](https://github.com/peisert)
