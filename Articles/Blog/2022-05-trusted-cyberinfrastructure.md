@@ -91,9 +91,10 @@ Chris Rapier
 
 [Dr. Sean Peisert](https://www.cs.ucdavis.edu/~peisert/) leads applied research and development in computer security at the Berkeley Lab and UC Davis. He is also chief cybersecurity strategist for CENIC; co-lead of Trusted CI, the NSF Cybersecurity Center of Excellence; editor-in-chief of IEEE Security & Privacy; a member of the Distinguished Expert Review Panel for the NSA Annual Best Scientific Cybersecurity Paper Competition; a member of the DARPA Information Science and Technology (ISAT) Study Group; an ACSA Senior Fellow; past chair of the IEEE Technical Committee on Security & Privacy' and is a steering committee member and past general chair of the IEEE Symposium on Security and Privacy ("Oakland").
 
+Topics: software process improvement, software engineering, documentation, revision control, release and deployment, issue tracking, programming languages, development tools, testing, debugging, projects and organizations, strategies for more effective teams, online learning
 <!---
 Publish: No
 Pinned: no
-Topics: software process improvement, software engineering, documentation, revision control, release and deployment, issue tracking, programming languages, development tools, testing, debugging, projects and organizations, strategies for more effective teams, online learning
+Topics: software process improvement
 --->
 
