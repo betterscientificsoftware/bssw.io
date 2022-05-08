@@ -79,11 +79,6 @@ Chris Rapier
 <a href="https://github.com/analysis-tools-dev/static-analysis" class="link-row">Static Analysis tools for different languages</a>
 <a href="https://github.com/analysis-tools-dev/dynamic-analysis" class="link-row">Dynamic Analysis tools for different languages</a>
 
-* [Trusted CI Software Assurance resources](https://www.trustedci.org/software-assurance)
-* [Trusted CI Software Assurance On-Line Training](https://research.cs.wisc.edu/mist/SoftwareSecurityCourse/)
-* [Static Analysis tools for different languages](https://github.com/analysis-tools-dev/static-analysis)
-* [Dynamic Analysis tools for different languages](https://github.com/analysis-tools-dev/dynamic-analysis)
-
 ### Author bios
 
 [Elisa Heymann Pignolo](https://www.cs.wisc.edu/staff/heymann-pignolo-elisa/) is a Senior Scientist on the NSF Cybersecurity Center of Excellence at the University of Wisconsin, and an Associate Professor at the Autonomous University of Barcelona. She was in charge of the Grid/Cloud security group at the UAB, and participated in two major Grid European Projects: EGI-InSPIRE and European Middleware Initiative (EMI). Heymann's research interests include security and resource management for Grid and Cloud environments. Her research is supported by the NSF, Spanish government, the European Commission, and NATO. 
