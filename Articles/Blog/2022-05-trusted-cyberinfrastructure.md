@@ -15,13 +15,13 @@ The mission of Trusted CI is to lead in the development of an NSF Cybersecurity 
 
 In 2021, Trusted CI embarked on a year-long focused activity to understand the state of assurance in scientific software. The goal of the challenge was to broadly improve the robustness of software used in scientific computing with respect to security. In the first part of 2021, we interviewed six large cyberinfrastructure project teams developing scientific software and compiled the findings from those interviews into a [report](https://hdl.handle.net/2022/26799). In the second part 2021, we developed a [guide](https://zenodo.org/record/5777646#.YbjuVL3MKUk) to help scientific software developers begin bridging the secure software gap.  The Trusted CI *[Guide to Securing Scientific Software](https://zenodo.org/record/5777646#.YbjuVL3MKUk)* is intended to be a living document that evolves as the field evolves and expands to cover more topics as time permits.
 
-## Findings
+### Findings
 
-### First, Some Positive Notes
+**First, Some Positive Notes**
 
 As you might imagine, our study noticed numerous areas in which scientific software developers faced challenges.  But let's start with the good news --- all the projects that we examined used code repositories that include version control, such as GitHub.  In addition, all the projects used bug/issue tracking software, such as Jira, RT, or, again, GitHub.  Further, most of the projects used modern languages such as Java or Python and generally avoided older languages that are harder to write _safe_ code in, like C and C++.  Most projects also used dependency tracking tools, such as the "Dependabot" tool built into GitHub.
 
-### Room for Improvement
+**Room for Improvement**
 
 Now for the bad news.  
 
@@ -35,7 +35,7 @@ Now for the bad news.
 
 *Code Management.*  Many projects were missing a formal review process for repository updates, such as style, functionality, and security checkoffs and were mired in "dependency hell" with unconstrained use of third party libraries and packages and little explicit risk assessment in the use of third-party code.
 
-## Best Practices
+### Best Practices
 
 Subsequently to interviewing scientific software developers, our team developed a set of best practices specifically targeted at the needs, resources, and experiences of scientific software developers.
 
@@ -52,11 +52,11 @@ testing branches from release versions can avoid bugs and confusion. Separating 
 Finally, ensuring robust and verifiable community communication methods for vulnerabilities is extremely important, which can range from issue tracking in GitHub to mailing lists, social media, and even Common Vulnerabilities and Exposures (CVEs), captured in the National 
 Vulnerability Database (NVD).
 
-## Looking Forward
+### Looking Forward
 
 Trusted CI has been supporting improving assurance of scientific software since its inception ten years ago.  Going forward, it plans to continue its efforts in this space by refining and expanding the guide it developed in 2021, continuing to work with the community to seek feedback and contributions on the guide, supporting broad adoption, and continuing its software security teaching and training materials, including online video content, hands-on exercises and text chapters, and in-person tutorials.  
 
-## Acknowledgements
+### Acknowledgements
 
 The work described in this post is a product of Trusted CI. Trusted CI is supported by the National Science Foundation under [Grant #1920430](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1920430). For more information about Trusted CI, please visit: [https://trustedci.org/](https://trustedci.org/). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
 
@@ -72,14 +72,19 @@ Chris Rapier
 * Rolling Deck to Repository (R2R) by Columbia University
 * Vera C. Rubin Observatory: Yusra AlSayyad, Frossie Economou, Wil O'Mullane
 
-## Additional Resources
+### Additional Resources
+
+<a href="https://www.trustedci.org/software-assurance" class="link-row">Trusted CI Software Assurance resources</a>
+<a href="https://research.cs.wisc.edu/mist/SoftwareSecurityCourse/" class="link-row">Trusted CI Software Assurance On-Line Training</a>
+<a href="https://github.com/analysis-tools-dev/static-analysis" class="link-row">Static Analysis tools for different languages</a>
+<a href="https://github.com/analysis-tools-dev/dynamic-analysis" class="link-row">Dynamic Analysis tools for different languages</a>
 
 * [Trusted CI Software Assurance resources](https://www.trustedci.org/software-assurance)
 * [Trusted CI Software Assurance On-Line Training](https://research.cs.wisc.edu/mist/SoftwareSecurityCourse/)
 * [Static Analysis tools for different languages](https://github.com/analysis-tools-dev/static-analysis)
 * [Dynamic Analysis tools for different languages](https://github.com/analysis-tools-dev/dynamic-analysis)
 
-## Author bios
+### Author bios
 
 [Elisa Heymann Pignolo](https://www.cs.wisc.edu/staff/heymann-pignolo-elisa/) is a Senior Scientist on the NSF Cybersecurity Center of Excellence at the University of Wisconsin, and an Associate Professor at the Autonomous University of Barcelona. She was in charge of the Grid/Cloud security group at the UAB, and participated in two major Grid European Projects: EGI-InSPIRE and European Middleware Initiative (EMI). Heymann's research interests include security and resource management for Grid and Cloud environments. Her research is supported by the NSF, Spanish government, the European Commission, and NATO. 
 
