@@ -15,13 +15,13 @@ The mission of Trusted CI is to lead in the development of an NSF Cybersecurity 
 
 In 2021, Trusted CI embarked on a year-long focused activity to understand the state of assurance in scientific software. The goal of the challenge was to broadly improve the robustness of software used in scientific computing with respect to security. In the first part of 2021, we interviewed six large cyberinfrastructure project teams developing scientific software and compiled the findings from those interviews into a [report](https://hdl.handle.net/2022/26799). In the second part 2021, we developed a [guide](https://zenodo.org/record/5777646#.YbjuVL3MKUk) to help scientific software developers begin bridging the secure software gap.  The Trusted CI *[Guide to Securing Scientific Software](https://zenodo.org/record/5777646#.YbjuVL3MKUk)* is intended to be a living document that evolves as the field evolves and expands to cover more topics as time permits.
 
-## Findings
+### Findings
 
-### First, Some Positive Notes
+#### First, Some Positive Notes
 
 As you might imagine, our study noticed numerous areas in which scientific software developers faced challenges.  But let's start with the good news --- all the projects that we examined used code repositories that include version control, such as GitHub.  In addition, all the projects used bug/issue tracking software, such as Jira, RT, or, again, GitHub.  Further, most of the projects used modern languages such as Java or Python and generally avoided older languages that are harder to write _safe_ code in, like C and C++.  Most projects also used dependency tracking tools, such as the "Dependabot" tool built into GitHub.
 
-### Room for Improvement
+#### Room for Improvement
 
 Now for the bad news.  
 
