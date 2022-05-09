@@ -7,7 +7,7 @@
 
 #### Contributed by Elisa Heymann Pignolo, Barton Miller, and [Sean Peisert](https://github.com/peisert)
 
-#### Publication date: May 4, 2022
+#### Publication date: May 13, 2022
 
 In 2021, [Trusted CI, the NSF Cybersecurity Center of Excellence](https://trustedci.org), interviewed six large cyberinfrastructure (CI) projects that develop scientific software to understand their practices surrounding software security and developed an initial version of a Trusted CI "[Guide to Securing Scientific Software](https://zenodo.org/record/5777646#.YbjuVL3MKUk)."
 
@@ -19,13 +19,13 @@ In 2021, Trusted CI embarked on a year-long focused activity to understand the s
 
 **First, Some Positive Notes**
 
-As you might imagine, our study noticed numerous areas in which scientific software developers faced challenges.  But let's start with the good news --- all the projects that we examined used code repositories that include version control, such as GitHub.  In addition, all the projects used bug/issue tracking software, such as Jira, RT, or, again, GitHub.  Further, most of the projects used modern languages such as Java or Python and generally avoided older languages that are harder to write _safe_ code in, like C and C++.  Most projects also used dependency tracking tools, such as the "Dependabot" tool built into GitHub.
+As you might imagine, our study noticed numerous areas in which scientific software developers faced challenges.  But let's start with the good news—all the projects that we examined used code repositories that include version control, such as GitHub.  In addition, all the projects used bug/issue tracking software, such as Jira, RT, or, again, GitHub.  Further, most of the projects used modern languages such as Java or Python and generally avoided older languages that are harder to write _safe_ code in, like C and C++.  Most projects also used dependency tracking tools, such as the "Dependabot" tool built into GitHub.
 
 **Room for Improvement**
 
 Now for the bad news.  
 
-*Management.*  Most of the projects we looked at lacked any kind of process and policy documentation --- that is, documentation for onboarding and offboarding, who is allowed to submit/approve commits, development standards, or design documents.  Indeed, most of the projects lacked documentation of any kind.  Where documentation did exist, it was often out of date and/or, in the case of standards and requirements documentation, was ignored by developers.   Yet such documentation is vital.  Consider the recent issue with a [developer altering open source software to sabotage computers in Russia](https://www.wired.com/story/developer-altered-open-source-software-to-wipe-files-in-russia/) --- the same such approach could be used against computers in any country.
+*Management.*  Most of the projects we looked at lacked any kind of process and policy documentation—that is, documentation for onboarding and offboarding, who is allowed to submit/approve commits, development standards, or design documents.  Indeed, most of the projects lacked documentation of any kind.  Where documentation did exist, it was often out of date and/or, in the case of standards and requirements documentation, was ignored by developers.   Yet such documentation is vital.  Consider the recent issue with a [developer altering open source software to sabotage computers in Russia](https://www.wired.com/story/developer-altered-open-source-software-to-wipe-files-in-russia/)—the same such approach could be used against computers in any country.
 
 *Organization and Mission.* Most of the projects that we spoke with lacked a point of contact for software security issues, someone who is responsible for managing and coordinating security matters.  This is a key gap, as it is a fundamental tenet (Must #7) of the [Trusted CI Framework](https://www.trustedci.org/framework).  Many of the projects that we spoke with were housed in a larger institution which provided supporting IT resources, however the projects tended to reject support from those institutions that could provide a variety of mechanisms to support software security, often feeling that the additional resources would provide no additional benefit.
 
@@ -39,12 +39,12 @@ Now for the bad news.
 
 Subsequently to interviewing scientific software developers, our team developed a set of best practices specifically targeted at the needs, resources, and experiences of scientific software developers.
 
-*Governance.* The best practices that we recommended included identifying and appointing a cybersecurity lead (Framework Must 7) who is responsible for securing software design and advises leadership and stakeholders of potential risk.  Moreover, leadership must be involved in cybersecurity decision making (Framework Must 5) and not be surprised about risks.  Organizations must also apply the principle of least privilege to limit access and rights according to the needs and responsibilities of individuals' positions.  Finally, we note that documentation --- including process and policy documentation, code and development standards, and also design documents --- is vital, and must be kept up to date.
+*Governance.* The best practices that we recommended included identifying and appointing a cybersecurity lead (Framework Must 7) who is responsible for securing software design and advises leadership and stakeholders of potential risk.  Moreover, leadership must be involved in cybersecurity decision making (Framework Must 5) and not be surprised about risks.  Organizations must also apply the principle of least privilege to limit access and rights according to the needs and responsibilities of individuals' positions.  Finally, we note that documentation—including process and policy documentation, code and development standards, and also design documents—is vital, and must be kept up to date.
 
 *Training.*  Software security training is vital for developing secure, robust code.  Such training can be internally created by large universities but outside trainers (including Trusted CI) and tutorials at conferences & workshops such as SC can be good alternatives.  Sometimes even university classes can be good resources.  We note that [free, online software security training from Trusted CI is available](https://research.cs.wisc.edu/mist/SoftwareSecurityCourse/).
 
 *Tools.*  Software analysis tools find flaws in a program and increase the security of software.
-A first step is to use dependency analysis tools to detect publicly disclosed vulnerabilities present in a project's dependencies.  A second step is to use static analysis tools starting from day one --- these can address huge swaths of vulnerabilities including buffer overruns, cross site scripting, improper input validation, hard coded credentials, etc..  More advanced developers might consider dynamic analysis tools to monitor a program's execution to detect errors such as memory leaks and races.
+A first step is to use dependency analysis tools to detect publicly disclosed vulnerabilities present in a project's dependencies.  A second step is to use static analysis tools starting from day one—these can address huge swaths of vulnerabilities including buffer overruns, cross site scripting, improper input validation, hard coded credentials, etc..  More advanced developers might consider dynamic analysis tools to monitor a program's execution to detect errors such as memory leaks and races.
 
 *Code Storage.* Centralized version control is an essential first step.  Beyond that, separating
 testing branches from release versions can avoid bugs and confusion. Separating feature releases from security releases can reduce "update hesitation" by assuring users that security updates won't break their setup.
