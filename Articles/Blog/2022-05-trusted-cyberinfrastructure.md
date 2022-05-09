@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - [Vera C. Rubin Observatory. Credit: Rubin Obs/NSF/AURA]<img src='../../images/Blog_2205_VeraRubin.png' />
+ - [Vera C. Rubin Observatory. Credit: Rubin Obs/NSF/AURA]<img src='../../images/Blog_2205_VRubin.png' />
  
 
 #### Contributed by Elisa Heymann Pignolo, Barton Miller, and [Sean Peisert](https://github.com/peisert)
