@@ -4,7 +4,7 @@
 
 - <img src='../..//images/Blog_2204_CardsNotes.png' />
 
-#### Contributed by: [Osni Marques](https://github.com/oamargues) and [Reed Milewicz](https://github.com/rmmilewi)
+#### Contributed by: [Osni Marques](https://github.com/oamarques) and [Reed Milewicz](https://github.com/rmmilewi)
 #### Publication date: April 29, 2022
 
 ### Introduction
