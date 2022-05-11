@@ -94,7 +94,7 @@ Carlo Graziani is a computational scientist at Argonne National Laboratory. He s
 
 <!---
 Publish: yes
-Topics: Strategies for more effective teams, Reproducibility
+Topics: Strategies for more effective teams, Reproducibility, Projects and Organizations
 --->
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "The beginnings of open-science HPC as a sustained activity&mdash;as distinct from classified science HPC conducted at US DOE national labs&mdash;can probably be dated to DOE's ASC Alliance program in the late 1990s."
