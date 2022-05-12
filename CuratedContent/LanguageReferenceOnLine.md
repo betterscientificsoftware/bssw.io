@@ -6,12 +6,15 @@
 
 ### C, C++, C Pre-Processor
 
+* [C Preprocessor](https://gcc.gnu.org/onlinedocs/cpp/)
 * [Microsoft C, C++ and Assembler documentation](https://docs.microsoft.com/en-us/cpp/?view=msvc-170)
 * [C++ Reference](https://en.cppreference.com/w/)
+* [C++ Library Reference](https://www.cplusplus.com/reference/)
 * [cplusplus.com](https://www.cplusplus.com)
-* [C Preprocessor](https://gcc.gnu.org/onlinedocs/cpp/)
+* [C Standard Library Reference](https://www.cplusplus.com/reference/clibrary/)
 * [Posix C Library](https://en.wikipedia.org/wiki/C_POSIX_library)
 * [GNU C Reference Manaul](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
+* [GNU C Library Reference Manual](https://www.gnu.org/software/libc/manual/pdf/libc.pdf)
 * [C Language Cheat Sheet](https://users.ece.utexas.edu/~adnan/c-refcard.pdf)
 
 ### Fortran
@@ -37,7 +40,7 @@
 ### CMake, Autoconf (if you must)
 
 * [CMake Reference Manual](https://cmake.org/cmake/help/latest/index.html)
-* [Autoconf](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.71/autoconf.html)
+* [Autoconf Manual](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.71/autoconf.html)
 
 ### Performance Portability
 
@@ -46,7 +49,7 @@
 
 ### Commonly used APIs
 
-* MPI API Specification [1.3](https://www.mpi-forum.org/docs/mpi-1.3/mpi-report-1.3-2008-05-30.pdf), [2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf), [3.1](https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf), [4.0]https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf()
+* MPI API Specification [1.3](https://www.mpi-forum.org/docs/mpi-1.3/mpi-report-1.3-2008-05-30.pdf), [2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf), [3.1](https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf), [4.0](https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf()
 * OpenMP: [3.1](https://www.openmp.org/wp-content/uploads/OpenMP3.1.pdf), [4.5](https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf), [5.2](https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-5-2.pdf)
 * [Cuda](https://docs.nvidia.com/cuda/cuda-runtime-api/index.html)
 * [Linux System Calls](https://man7.org/linux/man-pages/man2/syscalls.2.html)
