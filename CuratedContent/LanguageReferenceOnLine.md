@@ -1,0 +1,64 @@
+# Programming Language Reference Manuals On Line
+<!--deck text start-->
+<!--deck text end-->
+
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
+
+### C, C++, C Pre-Processor
+
+* [Microsoft C, C++ and Assembler documentation](https://docs.microsoft.com/en-us/cpp/?view=msvc-170)
+* [C++ Reference](https://en.cppreference.com/w/)
+* [cplusplus.com](https://www.cplusplus.com)
+* [C Preprocessor](https://gcc.gnu.org/onlinedocs/cpp/)
+* [Posix C Library](https://en.wikipedia.org/wiki/C_POSIX_library)
+* [GNU C Reference Manaul](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
+* [C Language Cheat Sheet](https://users.ece.utexas.edu/~adnan/c-refcard.pdf)
+
+### Fortran
+
+* [Fortran 1966-2018 Standards](https://fortranwiki.org/fortran/show/HomePage)
+* [Fortran 90](https://www.fortran90.org)
+* [Fortran 2003](http://www.astrosen.unam.mx/~aceves/Fisica_Computacional/ebooks/handbook_f03.pdf)
+* [Fortran 2008](https://j3-fortran.org/doc/year/10/10-007.pdf)
+* High Performance Fortran - HPFF: [1.1](http://hpff.rice.edu/versions/hpf1/hpf-v11/hpf-v11.pdf), [2.0](https://hpff.rice.edu/versions/hpf2/hpf-v20/hpf-report.html)
+
+### Python
+
+* [Python 2 Language Reference](https://docs.python.org/2/reference/)
+* [Python 3 Language Reference](https://docs.python.org/3/reference/)
+
+### Make, GNU Make 
+
+* [GMake Language Reference](https://www.gnu.org/software/make/manual/make.html)
+* [Make Cheat Sheet](https://devhints.io/makefile)
+* [GMake Cheat Sheet](https://gist.github.com/rueycheng/42e355d1480fd7a33ee81c866c7fdf78)
+* [O'Reilly Managing Projects with GNU Make](https://www.oreilly.com/library/view/managing-projects-with/0596006101/)
+
+### CMake, Autoconf (if you must)
+
+* [CMake Reference Manual](https://cmake.org/cmake/help/latest/index.html)
+* [Autoconf](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.71/autoconf.html)
+
+### Performance Portability
+
+* [Kokkos](https://github.com/kokkos/kokkos/wiki/API-Reference)
+* [Raja](https://raja.readthedocs.io/en/develop/sphinx/user_guide/index.html)
+
+### Commonly used APIs
+
+* MPI API Specification [1.3](https://www.mpi-forum.org/docs/mpi-1.3/mpi-report-1.3-2008-05-30.pdf), [2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf), [3.1](https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf), [4.0]https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf()
+* OpenMP: [3.1](https://www.openmp.org/wp-content/uploads/OpenMP3.1.pdf), [4.5](https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf), [5.2](https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-5-2.pdf)
+* [Cuda](https://docs.nvidia.com/cuda/cuda-runtime-api/index.html)
+* [Linux System Calls](https://man7.org/linux/man-pages/man2/syscalls.2.html)
+* [Posix System Calls](https://docs.oracle.com/cd/E19048-01/chorus4/806-3328/6jcg1bm05/index.html)
+
+### Login shells
+
+* [csh language reference](https://www.mkssoftware.com/docs/man1/csh.1.asp)
+* [sh language reference](https://pubs.opengroup.org/onlinepubs/009604499/utilities/xcu_chap02.html)
+* [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html)
+
+<!---
+Publish: no
+Pinned: no
+--->
