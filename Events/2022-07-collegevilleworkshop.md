@@ -4,8 +4,12 @@
 - Recorded Presentation Deadline: June 24, 2022 - July 15, 2022
 - Teatime Theme and Poster Deadline: July 15, 2022
 - Event Dates: July 26, 2022 - July 28, 2022
-- Location: St. John's University, Collegeville, MN and online
+- Location: St. John's University, Collegeville, Minnesota and online
 - Event Website: https://collegeville.github.io/CW22/
+
+<!-- deck starts -->
+The Collegeville Workshop Series on Scientific Software is intended to bring together three communities of scientific software developers: academia, industry, and laboratories. While there are certainly existing exchanges between these communities, we are dedicated to improving awareness of common needs, unique contributions and career paths that span these communities.
+<!-- deck ends -->
 
 ### Workshop Goals
 
