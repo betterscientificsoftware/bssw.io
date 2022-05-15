@@ -20,9 +20,12 @@
 ### Fortran
 
 * [Fortran 1966-2018 Standards](https://fortranwiki.org/fortran/show/HomePage)
+* [Fortran 77](https://docs.oracle.com/cd/E19957-01/805-4939/index.html)
 * [Fortran 90](https://www.fortran90.org)
-* [Fortran 2003](http://www.astrosen.unam.mx/~aceves/Fisica_Computacional/ebooks/handbook_f03.pdf)
+* [Fortran 95](https://wg5-fortran.org/N1151-N1200/N1191.pdf)
+* [Fortran 2003](https://link.springer.com/book/10.1007/978-1-84628-746-6
 * [Fortran 2008](https://j3-fortran.org/doc/year/10/10-007.pdf)
+* [Fortran 2018](https://j3-fortran.org/doc/year/18/18-007r1.pdf)
 
 ### Python
 
