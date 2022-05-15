@@ -53,6 +53,7 @@
 
 * MPI API Specification [1.3](https://www.mpi-forum.org/docs/mpi-1.3/mpi-report-1.3-2008-05-30.pdf), [2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf), [3.1](https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf), [4.0](https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf)
 * OpenMP: [3.1](https://www.openmp.org/wp-content/uploads/OpenMP3.1.pdf), [4.5](https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf), [5.2](https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-5-2.pdf)
+* [POSIX Threads (Pthreads)](https://hpc-tutorials.llnl.gov/posix/AppendixA/)
 * [Cuda](https://docs.nvidia.com/cuda/cuda-runtime-api/index.html)
 * [Linux System Calls](https://man7.org/linux/man-pages/man2/syscalls.2.html)
 * [Posix System Calls](https://docs.oracle.com/cd/E19048-01/chorus4/806-3328/6jcg1bm05/index.html)
