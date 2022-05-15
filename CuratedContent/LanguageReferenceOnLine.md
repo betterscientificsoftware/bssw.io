@@ -23,7 +23,6 @@
 * [Fortran 90](https://www.fortran90.org)
 * [Fortran 2003](http://www.astrosen.unam.mx/~aceves/Fisica_Computacional/ebooks/handbook_f03.pdf)
 * [Fortran 2008](https://j3-fortran.org/doc/year/10/10-007.pdf)
-* High Performance Fortran - HPFF: [1.1](http://hpff.rice.edu/versions/hpf1/hpf-v11/hpf-v11.pdf), [2.0](https://hpff.rice.edu/versions/hpf2/hpf-v20/hpf-report.html)
 
 ### Python
 
@@ -37,7 +36,7 @@
 * [GMake Cheat Sheet](https://gist.github.com/rueycheng/42e355d1480fd7a33ee81c866c7fdf78)
 * [O'Reilly Managing Projects with GNU Make](https://www.oreilly.com/library/view/managing-projects-with/0596006101/)
 
-### CMake, Autoconf (if you must)
+### CMake, Autoconf
 
 * [CMake Reference Manual](https://cmake.org/cmake/help/latest/index.html)
 * [Autoconf Manual](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.71/autoconf.html)
