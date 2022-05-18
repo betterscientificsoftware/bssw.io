@@ -6,36 +6,33 @@
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :--- | :---: | ---:
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language Specifications**</td></tr>
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Formal Language Specifications**</td></tr>
 C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec]
 C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec]
 Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec]
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language Reference Manuals**</td></tr>
-C | [MS][c-ms]/[IBM][c-ibm]
-C++ | [MS][c++-ms]/[IBM][c++-ibm]|
+OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec]
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language/Compiler Reference Manuals**</td></tr>
+C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]
+C++ | [MS][c++-ms]/[IBM][c++-ibm]/[Cray][c++-cray]/[Intel][c++-intel]|
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
+OpenCL | [NVIDIA][opencl-nvidia]/[AMD][opencl-amd]/[Intel][opencl-intel]|
 Python | [2][py2]/[3][py3]
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Compiler Reference Manuals**</td></tr>
-C | |
-C++ | |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Libraries**</td></tr>
-C Preprocessor | [GNU][cpp-gnu]/[MS][cpp-ms]
-C Standard Library | |
-C++ Standard Library | [0][c++-stdlib-0]
-C Compiler
-C++ Compiler
-Fortran Compiler
+C Preprocessor | [GNU][cpp-gnu]/[MS][cpp-ms] |
+C Standard Library | | |
+C++ Standard Library | [0][c++-stdlib-0] |
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Accelerator Reference Manuals**</td></tr>
+OpenCL | [Nvidia][]/[AMD][]/[Intel][]/[IBM][]/[ARM][]
 
 
-
-[//]: # (C language specification URLs)
+[//]: # (Formal C language specification URLs)
 
 [c89-spec]: http://port70.net/~nsz/c/c89/c89-draft.html
 [c99-spec]: https://open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf
 [c11-spec]: https://www.open-std.org/jtc1/sc22/WG14/www/docs/n1570.pdf
 [c18-spec]: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
 
-[//]: # (C++ language specification URLs)
+[//]: # (Formal C++ language specification URLs)
 
 [c++03-spec]: https://www.open-std.org/Jtc1/sc22/WG21/docs/papers/2001/n1316/
 [c++11-spec]: https://www.open-std.org/Jtc1/sc22/WG21/docs/papers/2011/n3242.pdf
@@ -43,7 +40,7 @@ Fortran Compiler
 [c++17-spec]: https://www.open-std.org/Jtc1/sc22/WG21/docs/papers/2017/n4659.pdf
 [c++20-spec]: https://www.open-std.org/Jtc1/sc22/WG21/docs/papers/2020/n4849.pdf
 
-[//]: # (Fortran language specification URLs)
+[//]: # (Formal Fortran language specification URLs)
 
 [f77-spec]: https://web.archive.org/web/20070205092427/http://www.fortran.com/fortran/F77_std/rjcnf0001.html
 [f90-spec]: https://wg5-fortran.org/N001-N1100/N692.pdf
@@ -52,26 +49,48 @@ Fortran Compiler
 [f08-spec]: https://j3-fortran.org/doc/year/10/10-007r1.pdf
 [f18-spec]: https://j3-fortran.org/doc/year/18/18-007r1.pdf
 
+[//]: # (OpenCL language specification URLs)
+
+[ocl1.2-spec]: https://www.khronos.org/registry/OpenCL/specs/opencl-1.2.pdf
+[ocl2.2-spec]: https://www.khronos.org/registry/OpenCL/specs/2.2/html/OpenCL_API.html
+[ocl3.0-spec]: https://www.khronos.org/registry/OpenCL/specs/3.0-unified/html/OpenCL_C.html
+
 
 [cpp-gnu]: https://gcc.gnu.org/onlinedocs/cpp/
 [cpp-ms]: https://docs.microsoft.com/en-us/cpp/preprocessor/c-cpp-preprocessor-reference?view=msvc-170
 
+[//]: # (C language reference URLs)
+
+[c-gnu]: https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.pdf
+[c-cray]: https://support.hpe.com/hpesc/public/docDisplay?docId=a00115116en_us&docLocale=en_US&page=The_Cray_Compiling_Environment.html
 [c-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
 [c-ms]: https://docs.microsoft.com/en-us/cpp/c-language/c-language-reference?view=msvc-170
 
+[//]: # (C++ language reference URLs)
+
+[c++-intel]: https://www.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top.html
+[c++-cray]: https://support.hpe.com/hpesc/public/docDisplay?docId=a00115116en_us&docLocale=en_US&page=The_Cray_Compiling_Environment.html
 [c++-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
 [c++-ms]: https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170
 
-
 [//]: # (Fortran language reference URLs)
 
-[f-pg]: https://www.pgroup.com/resources/docs/17.10/x86/fortran-ref-guide/index.htm
+[f-pg]: https://www.pgroup.com/resources/docs/17.10/x86/fortran-ref-guide/index.htm "Portland Group Compilers"
 [f-lf]: http://www.lahey.com/docs/LangRefEXP73_revG05.pdf "Lahey/Fujitsu Fortran 95"
 [f-intel]: https://www.intel.com/content/www/us/en/develop/documentation/fortran-compiler-oneapi-dev-guide-and-reference/top/language-reference.html "All Fortran standards 90-18"
 [f-cray]: https://support.hpe.com/hpesc/public/docDisplay?docId=a00115296en_us&page=About_the_Cray_Fortran_Reference_Manual.html
 [f-ibm]: https://www.ibm.com/support/pages/system/files/support/swg/swgdocs.nsf/0/7e46ea600b6646d0852579dc00331978/$FILE/langref.pdf
 [f-nag]: https://www.nag.com/nagware/np/r70_doc/compiler.pdf
 [f-gnu]: https://devdocs.io/gnu_fortran/
+
+[//]: # (GPU language reference URLs)
+
+[opencl-amd]: https://rocmdocs.amd.com/en/latest/Programming_Guides/Opencl-programming-guide.html#opencl-programming-guide
+[opencl-intel]: https://www.intel.com/content/www/us/en/develop/documentation/iocl_rt_ref/top.html
+[opencl-nvidia]: https://developer.download.nvidia.com/compute/DevZone/docs/html/OpenCL/doc/OpenCL_Programming_Guide.pdf
+
+
+[//]: # (Pythone language reference URLs)
 
 [py2]: https://docs.python.org/2/reference/
 [py3]: https://docs.python.org/3/reference/
