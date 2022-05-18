@@ -14,6 +14,10 @@ Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-s
 C | [MS][c-ms]/[IBM][c-ibm]
 C++ | [MS][c++-ms]/[IBM][c++-ibm]|
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
+Python | [2][py2]/[3][py3]
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Compiler Reference Manuals**</td></tr>
+C | |
+C++ | |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Libraries**</td></tr>
 C Preprocessor | [GNU][cpp-gnu]/[MS][cpp-ms]
 C Standard Library | |
@@ -51,9 +55,16 @@ Fortran Compiler
 
 [cpp-gnu]: https://gcc.gnu.org/onlinedocs/cpp/
 [cpp-ms]: https://docs.microsoft.com/en-us/cpp/preprocessor/c-cpp-preprocessor-reference?view=msvc-170
+
 [c-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
-[c++-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
 [c-ms]: https://docs.microsoft.com/en-us/cpp/c-language/c-language-reference?view=msvc-170
+
+[c++-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
+[c++-ms]: https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170
+
+
+[//]: # (Fortran language reference URLs)
+
 [f-pg]: https://www.pgroup.com/resources/docs/17.10/x86/fortran-ref-guide/index.htm
 [f-lf]: http://www.lahey.com/docs/LangRefEXP73_revG05.pdf "Lahey/Fujitsu Fortran 95"
 [f-intel]: https://www.intel.com/content/www/us/en/develop/documentation/fortran-compiler-oneapi-dev-guide-and-reference/top/language-reference.html "All Fortran standards 90-18"
@@ -61,10 +72,11 @@ Fortran Compiler
 [f-ibm]: https://www.ibm.com/support/pages/system/files/support/swg/swgdocs.nsf/0/7e46ea600b6646d0852579dc00331978/$FILE/langref.pdf
 [f-nag]: https://www.nag.com/nagware/np/r70_doc/compiler.pdf
 [f-gnu]: https://devdocs.io/gnu_fortran/
-[c++-ms]: https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170
+
+[py2]: https://docs.python.org/2/reference/
+[py3]: https://docs.python.org/3/reference/
+
 [c++-stdlib-0]: https://www.cplusplus.com/reference/
-
-
 
 
 ### C, C++, C Pre-Processor
@@ -90,11 +102,6 @@ Fortran Compiler
 * [Fortran 2003](https://link.springer.com/book/10.1007/978-1-84628-746-6)
 * [Fortran 2008](https://j3-fortran.org/doc/year/10/10-007.pdf)
 * [Fortran 2018](https://j3-fortran.org/doc/year/18/18-007r1.pdf)
-
-### Python
-
-* [Python 2 Language Reference](https://docs.python.org/2/reference/)
-* [Python 3 Language Reference](https://docs.python.org/3/reference/)
 
 ### Make, GNU Make 
 
