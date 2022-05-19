@@ -301,7 +301,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>), 2019-07-17
+- [*When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark C. Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>), 2019-07-17
 
 
 

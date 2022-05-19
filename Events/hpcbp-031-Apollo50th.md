@@ -37,7 +37,7 @@ Resource Information | Details
 :--- | :---			   
 Webinar Title | When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions
 Date and Time | 2019-07-17 01:00 pm EDT
-Presenter | Mark Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>)
+Presenter | Mark C. Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
@@ -60,7 +60,7 @@ Apollo missions.</p>
 
 
 ### Presenter Bio
-<p>Mark Miller is a computer scientist supporting the
+<p>Mark C. Miller is a computer scientist supporting the
 <a href="https://wci.llnl.gov/about-us/weapon-simulation-and-computing">WSC</a>
 program at <a href="https://www.llnl.gov">LLNL</a> since 1995. Among other
 things, he contributes to
@@ -72,7 +72,7 @@ passion for technology through history.</p>
 
     
 
-#### Contributed by [Mark Miller](https://github.com/markcmiller86 "Mark Miller GitHub profile")
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub profile")
 
 #### Publication date: July 17, 2019
 

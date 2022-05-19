@@ -4,7 +4,7 @@
 Does your software project play favorites? We don't like it when our parents or managers do, so why would we develop software in a way that does?
 <!--deck text end-->
 
-#### Contributed by: [Mark Miller](https://github.com/markcmiller86)
+#### Contributed by: [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: March 31, 2022
 
 
