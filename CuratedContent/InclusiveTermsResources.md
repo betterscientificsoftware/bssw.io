@@ -4,7 +4,7 @@
 If we knew that the terms and phrases we commonly use - such as *sanity check* or *grandfathered* - had the effect of normalizing and perpetuating historical systemic biases, would we still use them?
 <!--deck text end-->
 
-#### Contributed by: [Mark Miller](https://github.com/markcmiller86)
+#### Contributed by: [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: November 22, 2021
 
 There is probably no other human endeavor that involves the volume of communication paired with creation of new *terminology* than software development. If one cares about their project's reach and wants to maximize their ability to attract and retain collaborators, developers, users, or sponsors, then they need to be mindful of the names and language they use. The language that one uses has the power to welcome others in, as well as push them away.

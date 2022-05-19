@@ -172,7 +172,7 @@ in slowing the spread of COVID-19.
 
 ### Author bio
 
-Mark Miller is a computer scientist supporting the
+Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
 Among other things, he contributes to

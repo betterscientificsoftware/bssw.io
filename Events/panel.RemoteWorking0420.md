@@ -25,7 +25,7 @@ Advance [registration](https://www.exascaleproject.org/event/remote) is required
 #### Panelists:
 - Mike Bernhardt, Oak Ridge National Laboratory
 - Lois Curfman McInnes, Argonne National Laboratory
-- Mark Miller, Lawrence Livermore National Laboratory
+- Mark C. Miller, Lawrence Livermore National Laboratory
 - Kathryn Mohror, Lawrence Livermore National Laboratory
 - Elaine Raybourn, Sandia National Laboratories
 
@@ -37,7 +37,7 @@ Mike Heroux has worked remotely for nearly 23 years from rural central Minnesota
 
 Lois Curfman McInnes is a senior computational scientist in the Mathematics and Computer Science Division of Argonne National Laboratory.  After working primarily onsite at Argonne during 1993-2000, she has been working remotely for 20 years, currently in Rockville, Maryland and previously in Austin, Texas.  Lois is presently the deputy director of software technology for ECP.
 
-Mark Miller, a software developer at Lawrence Livermore National Laboratory supporting HPC visualization tools, has worked remotely, part-time, for 10+ years from Davis, CA.  His home office setting involves only his wife (no children or pets), a separate room for an office, an LLNL provided laptop and peripherals and Comcast/Xfinity’s lowest tier internet service plus Verizon hot-spot with 8Gb/mo data limit.  Mark is a member of the IDEAS-ECP productivity project.
+Mark C. Miller, a software developer at Lawrence Livermore National Laboratory supporting HPC visualization tools, has worked remotely, part-time, for 10+ years from Davis, CA.  His home office setting involves only his wife (no children or pets), a separate room for an office, an LLNL provided laptop and peripherals and Comcast/Xfinity’s lowest tier internet service plus Verizon hot-spot with 8Gb/mo data limit.  Mark is a member of the IDEAS-ECP productivity project.
 
 Kathryn Mohror is a computer scientist and group leader in the Center for Applied Scientific Computing Division of Lawrence Livermore National Laboratory. She has been working remotely from Portland, Oregon for 10 years in her current position and about 10 years before that while in school.  Kathryn is presently co-PI of the ECP project ExaIO.
 
