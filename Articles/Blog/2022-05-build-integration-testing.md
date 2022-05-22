@@ -19,7 +19,7 @@ These facts motivate us to hold a panel discussion in SIAM PP22 conference, invi
 
 <br>
 
-<img src='../../images/2022-05-blog-xsdk-dependencies.png' class='page lightbox'/>[Dependency graph for the member packages of the Extreme-Scale Software Development Kit (xSDK), derived from their Spack packages.]
+<img src='../../images/2022-05-blog-xsdk-dependencies.png' class='page lightbox'/>[Dependency graph for the member packages of the Extreme-Scale Software Development Kit (xSDK), derived from their Spack recipes.]
 
 **Question:** Please briefly introduce the projects you discussed at the panel session.
 
