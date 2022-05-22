@@ -79,9 +79,10 @@ teams with build failures during deployment so they can be fixed in future versi
 Here, we describe the steps and lessons learned to deploy the E4S software stack at 
 NERSC to help you navigate your E4S deployment.  The lessons learned can also 
 guide future developers of packaged community software on development-to-deployment 
-requirements. Here is the link to the full technical report. An HPC facility 
-software deployment process is typically aligned with planned system upgrades, 
-since both may require a rebuild of the full software stack. 
+requirements. Here is the [link](https://www.osti.gov/biblio/1868332-software-deployment-process-nersc-deploying-extreme-scale-scientific-software-stack-e4s-using-spack-national-energy-research-scientific-computing-center-nersc)
+to the full technical report. An HPC facility software deployment process is 
+typically aligned with planned system upgrades, since both may require a rebuild 
+of the full software stack. 
 
 
 ## Software Deployment Recipe at NERSC
