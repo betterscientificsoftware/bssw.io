@@ -17,6 +17,10 @@ In modern software engineering, approximately 20-40% of the time is spent on the
  
 These facts motivate us to hold a panel discussion in SIAM PP22 conference, inviting speakers who have made major contributions to build, integration, and test issues in scientific computing to share their experiences and opinions. In this article, panel moderator Keita Teranishi holds a conversation with some of the panelists.
 
+<br>
+
+<img src='../../images/2022-05-blog-xsdk-dependencies.png' class='page lightbox'/>[Dependency graph for the member packages of the Extreme-Scale Software Development Kit (xSDK), derived from their Spack packages.]
+
 **Question:** Please briefly introduce the projects you discussed at the panel session.
 
 **Ross Bartlett:** I have worked on several HPC and CSE projects over the years.  I was a major contributor to the Trilinos collection of numerical support libraries and was the former Trilinos focus lead for Software Integration.  I was the software engineering and infrastructure lead for the Consortium for Advanced Simulation of Light Water Reactors (CASL).  I was the Tools and Development Environment lead for the Sandia National Laboratories Advanced Technology Development and Mitigation (ATDM) project.  And I have been a member of the DOE and Exascale Computing Project (ECP) Interoperable Design for Exascale Application Software (IDEAS) productivity and sustainability project since 2014.  More recently I have been leading build-system and integration modernization for Trilinos and Tribal Build, Integration, and Test (TriBITS) framework for the ECP Software Development Kit (SDK) effort.
