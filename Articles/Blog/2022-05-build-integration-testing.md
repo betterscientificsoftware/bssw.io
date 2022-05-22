@@ -3,7 +3,7 @@
 **Hero Image:**
 
  - <img src='../../images/Blog_0321_Siam.png' />
- 
+
 <!-- begin deck -->
 <!-- end deck -->
 
@@ -35,7 +35,7 @@ These facts motivate us to hold a panel discussion in SIAM PP22 conference, invi
 
 **Franck:** I agree with Anshu’s definition. I would just underline that the dynamic testing of an executable in an HPC context is also impacted by the launch configuration (number of processes, MPI version, number of threads, etc.). Getting full confidence in your program using dynamic testing is a long-term and likely unreachable task.
 
-**Dan:** If a user can use our software on their choice of systems, and get expected results, this indicates that either (a)) we have tested on that system, and nothing has changed about the system since then, or (b) we have created and sufficiently well documented our software, and tested it across a similar enough system. This is success. If a user has to contact us to make our software work, something has failed.
+**Dan:** If a user can use our software on their choice of systems, and get expected results, this indicates that either (a) we have tested on that system, and nothing has changed about the system since then, or (b) we have created and sufficiently well documented our software, and tested it across a similar enough system. This is success. If a user has to contact us to make our software work, something has failed.
 
 **Q:** What is the biggest challenge in software building, testing, and integration today?
 
