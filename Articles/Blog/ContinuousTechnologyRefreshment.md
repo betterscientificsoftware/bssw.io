@@ -106,7 +106,7 @@ Although technology refresh efforts can be costly, the benefits are improved dev
 
 ### Author bios
 
-Mark Miller is a computer scientist supporting the [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+Mark C. Miller is a computer scientist supporting the [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
 He is a contributor to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit)

@@ -64,7 +64,7 @@ To reference the images in the `*.md` article file, copy the image file is to th
 
 - Add the relative path to the image file from the `*.md` file. Using the "logo" class helps constrain the size of the image.
 ````
-< img src='<img src='../../images/YOUR-IMAGE-NAME.png' class='logo' />
+<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>
 ````
 - Please ensure we have permission to use the logo/image 
 - Please ensure logo is clear and high resolution
@@ -129,6 +129,15 @@ It seems that the column widths in this table could be compressed to easily fit 
 
 NOTE: We will add more examples of nonstandard handling of Markdown in the future as we discover them.
 
+
+
+## Updating/re-publishing published articles
+
+Articles that are already published and are current public may sometimes need to be updated. Minor updates such as grammar/spellings/errors/formatting can be done anytime. If you wish to make siginificant updates to the articles (for ex: new updates links, new content etc.) OR if you simply wish to bring the article into focus again with a new publish date, then please mention the following verbiage at the *end of the article*.
+
+```
+This article was originally published on Month day, year
+```
 
 ## Unpublishing Content
 

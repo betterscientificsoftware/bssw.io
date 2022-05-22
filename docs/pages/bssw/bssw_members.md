@@ -34,7 +34,7 @@ Patricia Grubel (founding EB team member)<br/>
 Los Alamos National Laboratory<br/>
 [https://github.com/pagrubel](https://github.com/pagrubel)
 
-Mark Miller (founding EB team member)<br/>
+Mark C. Miller (founding EB team member)<br/>
 Lawrence Livermore National Laboratory<br/>
 [https://github.com/markcmiller86](https://github.com/markcmiller86)
 

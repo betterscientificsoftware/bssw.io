@@ -6,7 +6,7 @@ More questions and answers will be added to this page over time; check back for 
 
 <!--- - Monday, September 13, 1:00-2:00 pm EDT
  - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. --->
-- Slides & Recording for 2022 Fellowship (CLOSED):  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.16611331) / Recording: [(slides/audio)](https://us06web.zoom.us/rec/share/M1aWZ4zVjIzBauFCyIGBtzHkTyMqWdU5Rf_3GU5X4x6pOEuPO-82C6ZInB9faR8.PG0jnqnGyrWCHmfE)
+Slides & Recording for 2022 Fellowship (CLOSED):  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.16611331) / Recording: [(slides/audio)](https://us06web.zoom.us/rec/share/M1aWZ4zVjIzBauFCyIGBtzHkTyMqWdU5Rf_3GU5X4x6pOEuPO-82C6ZInB9faR8.PG0jnqnGyrWCHmfE)
 
 ## Application Questions
 
