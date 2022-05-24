@@ -32,6 +32,6 @@ Authors are invited to submit manuscripts in English structured as technical or 
 <!---
 Publish: yes
 Pinned: no
-Topics: high-performance computing (HPC), conferences and workshops
+Topics: high-performance computing, conferences and workshops
 RSS update: 2022-05-24
 --->
