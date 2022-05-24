@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/Blog_0321_Siam.png' />
+ - <img src='../../images/Blog_2205_SIAMPP22_B.png' />
 
 <!-- begin deck -->
 <!-- end deck -->
