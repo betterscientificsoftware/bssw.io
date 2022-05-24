@@ -1,4 +1,4 @@
-# Programming Language Resources On Line
+# Programming Resources On Line
 <!--deck text start-->
 <!--deck text end-->
 
@@ -6,12 +6,11 @@
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :--- | :---: | ---:
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Formal Language Specifications**</td></tr>
-C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec]
-C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec]
-Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec]
-OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec]
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language/Compiler Reference Manuals**</td></tr>
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Formal Language Specifications and Standards**</td></tr>
+C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec] | Note 1
+C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec] | Note 1
+Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec] | Note 1
+OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec] | Language *extensions* for special devices<tr><td colspan=3 align="center">**Language/Compiler Reference Manuals**</td></tr>
 C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]
 C++ | [MS][c++-ms]/[IBM][c++-ibm]/[Cray][c++-cray]/[Intel][c++-intel]|
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
@@ -24,6 +23,8 @@ C++ Standard Library | [0][c++-stdlib-0] |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Accelerator Reference Manuals**</td></tr>
 OpenCL | [Nvidia][]/[AMD][]/[Intel][]/[IBM][]/[ARM][]
 
+<sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
+<sup>2</sup>Another note.
 
 [//]: # (Formal C language specification URLs)
 
