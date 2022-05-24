@@ -1,6 +1,7 @@
 # Correctness 2022: Sixth International Workshop on Software Correctness for HPC Applications
 
 #### Contributed by [Kasia Salim](https://github.com/karbarz)
+#### Publication date: May 24, 2022
 
 - Event Dates: November, 2022
 - Location: Dallas, TX
