@@ -7,7 +7,7 @@
 <!-- begin deck -->
 <!-- end deck -->
 
-#### Contributed by [Keita Teranishi](https://github.com/keitat), [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [Franck Ledoux](https://githib.com/hexmsh), [Daniel S. Katz](https://github.com/danielskatz), and [Anshu Dubey](https://github.com/adubey64)
+#### Contributed by [Keita Teranishi](https://github.com/keitat), [A. Bartlett](https://github.com/bartlettroscoe), [Franck Ledoux](https://githib.com/hexmsh), [Daniel S. Katz](https://github.com/danielskatz), and [Anshu Dubey](https://github.com/adubey64)
 
 #### Publication date: May 27, 2022
 
@@ -89,7 +89,7 @@ These facts motivated us to hold a panel discussion in SIAM PP22 conference, inv
 
 Keita Teranishi is a principal member of technical staff at Sandia National Laboratories, in California. He has broad experience in high-performance computing including tensor and linear algebra software, automatic performance tuning, fault tolerance, and programming systems.  Currently, he leads the research project on verification/correctness for performance -ortable programming frameworks.  He is a co-PI of the xSDK in the Exascale Computing Project.
 
-Roscoe A. Bartlett is a principal member of technical staff in the Software Engineering Research Department at Sandia National Laboratories, in New Mexico.  He has deep experience in parallel numerical algorithms development and in software engineering management methodologies and technical practices as applied to computer science and engineering (CSE) and HPC software projects.  His current focus is on the development of software tools and practices for high-quality, interoperable software CSE packages.
+Roscoe A. Bartlett is a principal member of technical staff in the Software Engineering Research Department at Sandia National Laboratories, in New Mexico.  He has deep experience in parallel numerical algorithms development and in software engineering management methodologies and technical practices as applied to computational science and engineering (CSE) and HPC software projects.  His current focus is on the development of software tools and practices for high-quality, interoperable software CSE packages.
 
 Frank Ledoux is group leader for the Meshing and Visualization activities at the French National Lab CEA DAM and Fellow Researcher for his expertise in HPC numerical simulation, more specifically in CAD, mesh generation, and adaptation. He is also an associate professor in computer science at the University of Paris-Saclay, where he teaches software engineering in the master's degree program. 
 
