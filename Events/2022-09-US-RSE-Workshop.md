@@ -32,5 +32,4 @@ Please see the workshop website for more details.
 Publish: yes
 Pinned: no
 Topics: conferences and workshops, software engineering
-RSS Update: 2022-05-24
 --->
