@@ -18,7 +18,7 @@ The practice of scientific software development is changing:
     collaboration, and teams becoming more distributed and
     multi-institutional. As a result, there's a greater need for
     **communication and consensus** in scientific software
-    development ([doi:10.2172/1843575](https://doi.org/10.2172/1843575), pp. 176-177).
+    development.<sup>[1]</sup>
 
 -   The forefront of scientific software is increasingly open source,
     open science, and community driven. Most scientific software
@@ -39,15 +39,14 @@ The practice of scientific software development is changing:
 At the convergence of all these trends, scientific software development
 teams are having to plan and organize their work more explicitly and
 intentionally. In other words, they are having to do requirements
-engineering. In software engineering parlance, a [software
-requirement](https://bssw.io/items/overview-of-requirements-and-requirements-engineering)
+engineering. In software engineering parlance, a software
+requirement<sup>[2]</sup>
 is a condition or capability of the software needed by a stakeholder to
 solve a problem or achieve an objective; and requirements engineering is
 the process of formally identifying, documenting, and validating those
 software requirements. As Smith et al. have noted, there has long been a
 prevailing belief that requirements engineering is impractical and
-infeasible for scientific software development 
-([doi:10.1109/SE4Science.2019.00011](https://doi.org/10.1109/SE4Science.2019.00011)).
+infeasible for scientific software development.<sup>[3]</sup>
 After all, scientific software is often highly exploratory, and
 scientific software developers have long been their own users.
 Nevertheless, given the increasingly multidisciplinary,
@@ -62,7 +61,7 @@ representing requirements in Agile software development; they encode
 requirements in natural language, often from the perspective of an end
 user. The most common template for user stories is "*As a* \<role\>, *I
 want* \<requirement\> *so that* \<reason\>"; this is also known as the
-Connextra template ([isbn:978-0321205681](https://isbndb.com/book/9780321205681)). Outside of user requirements, user
+Connextra template.<sup>[4]</sup> Outside of user requirements, user
 stories are also employed in software process improvement, that is, for
 articulating developers' needs. We'll share here our experiences in
 experimenting with user stories and our lessons learned, and we'll
@@ -169,7 +168,7 @@ IDEAS-ECP project.
     place where everyone has access to them, so that they can be
     collaboratively refined later.
 
-Many resources are available online (e.g., [this one from Atlassian](https://www.atlassian.com/agile/project-management/user-stories)) with
+Many resources are available online<sup>[5]</sup> with
 guidelines on how to write effective user stories, and we encourage
 teams to peruse those. We do note, however, that none to our knowledge speak
 directly to scientific software development. Along those lines, we have
@@ -225,8 +224,28 @@ Osni A. Marques is a staff scientist in the Applied Mathematics & Computational 
 
 Reed M. Milewicz is a computer scientist and software engineering researcher in the Department of Software Engineering and Research at Sandia National Laboratories. His research focuses on developing better practices, processes, and tools to improve software development in the scientific domain, ranging from technologies such as compilers and formal verification tools to direct engagement with software teams through evidence-based software process improvement. He leads software science research efforts within his department and is a member of the Interoperable Design of Extreme-Scale Application Software (IDEAS) project, where he is part of the Productivity and Sustainability Improvement Planning  team.
 
+[1-sfer-ezikiw]: https://www.osti.gov/biblio/1843575/ "Position Papers for the ASCR Workshop on the Science of Scientific-Software Development and Use {doi:10.2172/1843575 pp. 176-177}"
+[2-sfer-ezikiw]: https://bssw.io/items/overview-of-requirements-and-requirements-engineering "Overview of Requirements and Requirements Engineering"
+[3-sfer-ezikiw]: https://doi.org/10.1109/SE4Science.2019.00011 "Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software {doi:10.1109/SE4Science.2019.00011}"
+[4-sfer-ezikiw]: https://isbndb.com/book/9780321205681 "User Stories Applied: For Agile Software Development {isbn:978-0321205681}"
+[5-sfer-ezikiw]: https://www.atlassian.com/agile/project-management/user-stories "User stories with examples and a template"
+
 <!---
 Publish: yes
 Pinned: no
 Topics: software process improvement, requirements
 --->
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Position Papers for the ASCR Workshop on the Science of Scientific-Software Development and Use"
+[2]: #sfer-ezikiw-2 "Overview of Requirements and Requirements Engineering"
+[3]: #sfer-ezikiw-3 "Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software"
+[4]: #sfer-ezikiw-4 "User Stories Applied: For Agile Software Development"
+[5]: #sfer-ezikiw-5 "User stories with examples and a template"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>Position Papers for the ASCR Workshop on the Science of Scientific-Software Development and Use, <a href="https://www.osti.gov/biblio/1843575/">doi:10.2172/1843575</a> pp. 176-177
+* <a name="sfer-ezikiw-2"></a><sup>2</sup><a href="https://bssw.io/items/overview-of-requirements-and-requirements-engineering">Overview of Requirements and Requirements Engineering</a>
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software, <a href="https://doi.org/10.1109/SE4Science.2019.00011">doi:10.1109/SE4Science.2019.00011</a>
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>User Stories Applied: For Agile Software Development, <a href="https://isbndb.com/book/9780321205681">isbn:978-0321205681</a>
+* <a name="sfer-ezikiw-5"></a><sup>5</sup><a href="https://www.atlassian.com/agile/project-management/user-stories">User stories with examples and a template</a>
