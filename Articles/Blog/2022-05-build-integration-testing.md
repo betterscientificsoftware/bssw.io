@@ -78,6 +78,8 @@ These facts motivated us to hold a panel discussion in SIAM PP22 conference, inv
 
 ### Panel Presentations
 
+* **Roscoe:** [10.6084/m9.figshare.19241715](https://doi.org/10.6084/m9.figshare.19241715)
+
 * **Dan:** [https://doi.org/10.5281/zenodo.6210785](https://doi.org/10.5281/zenodo.6210785)
 
 * **Anshu:** [10.6084/m9.figshare.19516561](https://doi.org/10.6084/m9.figshare.19516561)
