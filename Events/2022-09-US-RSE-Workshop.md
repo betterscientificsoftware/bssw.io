@@ -6,7 +6,7 @@ The US-RSE Virtual Workshop 2022 will provide a venue for the community to get t
 #### Publication date: May 24, 2022
 
 - Submission Deadline: July 17, 2022
-- Event Dates: September 14 & 16, 2022
+- Event Dates: September 14, 2022; September 16, 2022
 - Location: Online
 - Event Website: https://us-rse.org/virtual-workshop-2022/
 - Organizers: The United States Research Software Engineer Association (US-RSE)
