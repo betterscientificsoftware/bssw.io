@@ -3,10 +3,11 @@
 #### Contributed by [Kasia Salim](https://github.com/karbarz)
 #### Publication date: May 24, 2022
 
-- Event Dates: November, 2022
+- Submission Deadline: August 5, 2022
+- Event Date: November, 2022
 - Location: Dallas, TX
 - Event Website: https://correctness-workshop.github.io/2022/
-- Organizers: The "Software Community"
+- Organizers: Ignacio Laguna and Cindy Rubio-González
 
 <!-- deck text start -->
 The goal of the Correctness Workshop is to bring together researchers and developers to present and discuss novel ideas to address the problem of correctness in HPC. The workshop will feature contributed papers and invited talks in this area.
@@ -15,8 +16,8 @@ The goal of the Correctness Workshop is to bring together researchers and develo
 
 Event Information | Details
 :--- | :---			   
-Event Name | [Correctness Workshop 22](https://correctness-workshop.github.io/2022/)
-Event Date & Time | November, 2022
+Event Name | [Correctness Workshop 2022](https://correctness-workshop.github.io/2022/)
+Event Date & Time | November, 2022 (exact date to be announced)
 Website | 	<https://correctness-workshop.github.io/2022/> 
 Submission Deadline | August 5, 2022. Please see event website for deadline updates.
 
