@@ -1,6 +1,6 @@
 # The 2022 US-RSE Virtual Workshop
 
-US-RSE Virtual Workshop 2022 will provide a venue for the community to get together and talk about topics important for Research Software Engineers.
+The US-RSE Virtual Workshop 2022 will provide a venue for the community to get together and talk about topics important for Research Software Engineers.
 
 #### Contributed by [Kasia Salim](https://github.com/karbarz)
 
