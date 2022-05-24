@@ -244,8 +244,8 @@ Topics: software process improvement, requirements
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Position Papers for the ASCR Workshop on the Science of Scientific-Software Development and Use<br>doi:10.2172/1843575 pp. 176-177](https://www.osti.gov/biblio/1843575/)
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Overview of Requirements and Requirements Engineering](https://bssw.io/items/overview-of-requirements-and-requirements-engineering)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software<br>doi:10.1109/SE4Science.2019.00011](https://doi.org/10.1109/SE4Science.2019.00011)
-* <a name="sfer-ezikiw-4"></a><sup>4</sup>[User Stories Applied: For Agile Software Development<br>isbn:978-0321205681](https://isbndb.com/book/9780321205681)
-* <a name="sfer-ezikiw-5"></a><sup>5</sup>[User stories with examples and a template](https://www.atlassian.com/agile/project-management/user-stories)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>Position Papers for the ASCR Workshop on the Science of Scientific-Software Development and Use, <a href="https://www.osti.gov/biblio/1843575/">doi:10.2172/1843575</a> pp. 176-177
+* <a name="sfer-ezikiw-2"></a><sup>2</sup><a href="https://bssw.io/items/overview-of-requirements-and-requirements-engineering">Overview of Requirements and Requirements Engineering</a>
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software, <a href="https://doi.org/10.1109/SE4Science.2019.00011">doi:10.1109/SE4Science.2019.00011</a>
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>User Stories Applied: For Agile Software Development, <a href="https://isbndb.com/book/9780321205681">isbn:978-0321205681</a>
+* <a name="sfer-ezikiw-5"></a><sup>5</sup><a href="https://www.atlassian.com/agile/project-management/user-stories">User stories with examples and a template</a>
