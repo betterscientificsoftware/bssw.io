@@ -3,6 +3,7 @@
 The US-RSE Virtual Workshop 2022 will provide a venue for the community to get together and talk about topics important for Research Software Engineers.
 
 #### Contributed by [Kasia Salim](https://github.com/karbarz)
+#### Publication date: May 24, 2022
 
 - Event Dates: September 14 & 16, 2022
 - Location: Online
