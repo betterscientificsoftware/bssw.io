@@ -21,7 +21,7 @@ Event Date & Time | November, 2022 (exact date to be announced)
 Website | 	<https://correctness-workshop.github.io/2022/> 
 Submission Deadline | August 5, 2022. Please see event website for deadline updates.
 
-Ensuring correctness in high-performance computing (HPC) applications is one of the fundamental challenges that the HPC community faces today. The Sixth International Workshop on Software Correctness for HPC Applications will be held in conjuction with the International Conference for High Performance Computing, Networking, Storage and Analysis (SC22).
+Ensuring correctness in high-performance computing (HPC) applications is one of the fundamental challenges that the HPC community faces today. The Sixth International Workshop on Software Correctness for HPC Applications will be held in conjunction with the International Conference for High Performance Computing, Networking, Storage and Analysis (SC22).
 
 This year's workshop will include, but is not limited to, the following topics: 
 * Correctness in Scientific Applications and Algorithms
