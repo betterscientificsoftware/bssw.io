@@ -20,7 +20,7 @@ Event Date & Time | September 14 & 16, 2022, 1:00pm - 4:00pm ET
 Website | 	<https://us-rse.org/virtual-workshop-2022/>  
 Submission Deadline | July 17, 2022, 11:59 PM HST. Please see event website for deadline updates.
 
-The US-RSE invites participants to a series of vitual talks, community events, and group sessions, all centering around this year's theme: *"Make it happen! Towards a diverse and sustainable future!"*
+The US-RSE invites participants to a series of virtual talks, community events, and group sessions, all centering around this year's theme: *"Make it happen! Towards a diverse and sustainable future!"*
 
  Topics include but are not limited to: presentations of tools with focus on collaboration, re-usability and reproducibility, presentations about RSE teams, career paths, training, management, and community.  The following types of proposals can be submitted:
 
