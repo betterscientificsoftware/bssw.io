@@ -78,13 +78,13 @@ These facts motivated us to hold a panel discussion at the SIAM PP22 conference,
 **Anshu:** I agree with what Dan said about early adoption and evolution through use. Without an active user community, more redundant features may get added while needed features may be overlooked. Also, at the moment our community relies on manual inspection for code quality. More targeted tooling to help in processes such as code review will probably enhance the adoption of those practices because they will become less labor-intensive.
 
 
-### Panel Presentations
+### Panel presentations
 
-* **Roscoe:** [10.6084/m9.figshare.19241715](https://doi.org/10.6084/m9.figshare.19241715)
+* **Roscoe:** [doi:10.6084/m9.figshare.19241715](https://doi.org/10.6084/m9.figshare.19241715)
 
-* **Dan:** [10.5281/zenodo.6210785](https://doi.org/10.5281/zenodo.6210785)
+* **Dan:** [doi:10.5281/zenodo.6210785](https://doi.org/10.5281/zenodo.6210785)
 
-* **Anshu:** [10.6084/m9.figshare.19516561](https://doi.org/10.6084/m9.figshare.19516561)
+* **Anshu:** [doi:10.6084/m9.figshare.19516561](https://doi.org/10.6084/m9.figshare.19516561)
 
 
 ### Author bios
