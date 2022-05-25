@@ -2,7 +2,7 @@
 
 The ISC High-Performance conference series is one of the premier venues for high-performance computing and computational science and engineering.  Here's a list of events that relate to producing better scientific software.  Please join us there!
 
-- Date: May 29 - June 2, 2022
+- Event dates: May 29 - June 2, 2022
 - Location: Hamburg, Germany and Online
 - Website: https://www.isc-hpc.com/
 - Organizers: The "Software Community"
