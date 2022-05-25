@@ -19,6 +19,8 @@ These facts motivated us to hold a panel discussion at the SIAM PP22 conference,
 
 <img src='../../images/2022-05-blog-xsdk-dependencies.png' class='page lightbox'/>[Dependency graph for the member packages of the Extreme-Scale Software Development Kit (xSDK), derived from their Spack recipes.]
 
+<br>
+
 **Moderator:** Please briefly introduce the projects you discussed at the panel session.
 
 **Roscoe Bartlett:** I have worked on several HPC and CSE projects over the years.  I was a major contributor to the Trilinos collection of numerical support libraries and was the former Trilinos focus lead for Software Integration.  I was the software engineering and infrastructure lead for the Consortium for Advanced Simulation of Light Water Reactors (CASL).  I was the Tools and Development Environment lead for the Sandia National Laboratories Advanced Technology Development and Mitigation (ATDM) project.  And I have been a member of the DOE ECP Interoperable Design for Exascale Application Software (IDEAS) productivity and sustainability project since 2014.  More recently I have been leading build-system and integration modernization for Trilinos and the Tribal Build, Integration, and Test (TriBITS) framework for the ECP Software Development Kit (SDK) effort.
