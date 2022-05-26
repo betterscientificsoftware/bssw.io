@@ -5,7 +5,7 @@ This article describes simple guidelines for setting up and using Git.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett")
-#### Publication date: May 18, 2021
+#### Publication date: May 14, 2022
 
 Git is a popular version control system, used to develop and maintain software in several scientific projects. This article describes simple guidelines for setting up and using Git. Using these guidelines, you can stay out of serious trouble and be more productive.
 
@@ -145,6 +145,10 @@ Very few Git users know how to adjust to a forced reset remote branch or even wh
 ### Conclusion
 
 There are many other helpful guidelines that you can come up with for using Git but the ones above are arguably the most helpful for Git beginners (and some people that have been using Git for many years but never learned these basic guidelines).
+
+
+*This article was originally published on May 18, 2021.*
+
 
 <!---
  Publish: yes
