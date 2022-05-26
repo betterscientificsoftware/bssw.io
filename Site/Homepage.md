@@ -3,7 +3,27 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../Articles/Blog/2022-04-user-stories.md
+Slide1 L: ../Articles/Blog/2022-05-build-integration-testing.md
+Slide1 R: ../images/Blog_2205_SIAMPP22_B.png
+Slide2 L: ../Articles/Blog/2022-05-trusted-cyberinfrastructure.md 
+Slide2 R: ../images/Blog_2205_VRubin.png
+Slide3 L: ../Articles/HowTos/CriticalBeginnerGitUsageTips.md
+Slide3 R: ../CuratedContent/OpenSourceGuides.md
+Slide4 L: ../CuratedContent/InclusivityBugs.md
+Slide4 R: ../CuratedContent/GitTutorialAndReferenceCollection.md
+Slide5 L: ../Events/hpcbp-064-embracingchange.md
+Slide5 R: ../Events/2022-06-pasc-sw-events.md
+Slide6 L: ../Events/2022-10-rses-in-escience.md
+Slide6 R: ../Events/2022-07-collegevilleworkshop.md
+Slide7 L: ../Events/2022-11-Correctness-HPC.md
+Slide7 R: ../Events/2022-09-US-RSE-Workshop.md
+--->
+
+<!---
+Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
+
+Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
+LCM: Saving for use again later
 Slide1 R: ../images/Blog_2204_CardsNotes.png
 Slide2 L: ../Articles/Blog/2022-04-wosss-workshop-series.md
 Slide2 R: ../images/Blog_2204_WoSSSlogo.png 
@@ -17,27 +37,6 @@ Slide6 L: ../Events/2022-05-isc-sw-events.md
 Slide6 R: ../Events/2022-06-pasc-sw-events.md
 Slide7 L: ../Events/2022-hpc-workforcedevel-webinar-mentor.md
 Slide7 R: ../Events/hpcbp-063-temporalanalysis.md
---->
-
-<!---
-Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
-
-Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
-LCM: Saving for use again later
-Slide1 L: ../Articles/Blog/BSSwHighlights2021.md
-Slide1 R: ../images/Blog_2112_YIR_Montage.png
-Slide2 L: ../Articles/Blog/2022-01-2022BSSwFellowshipAnnounce.md
-Slide2 L: ../Articles/Blog/2021-11-HPCAndTheLabManager.md
-Slide3 L: ../Articles/Blog/2021-12-sc21-swe-cse-bof.md
-Slide3 R: ../images/Blog_2112_SC21.png
-Slide4 L: ../Articles/Blog/2021-11-CollegevilleReportDay3.md
-Slide4 R: ../images/Blog_2109_Collegeville1.png
-Slide5 L: ../CuratedContent/InclusiveTermsResources.md
-Slide5 R: ../CuratedContent/swr-panels-cc.md
-Slide6 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
-Slide6 R: ../images/Blog_2110_HPC-BP.png
-Slide7 L: ../ShortArticles/CodingConventions.md
-Slide7 R: ../Events/2022-01-SoftwareQualityDays.md
 --->
 
 <!---
