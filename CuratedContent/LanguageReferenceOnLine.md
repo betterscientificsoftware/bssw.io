@@ -1,8 +1,29 @@
-# Programming Resources On Line
+# Fundamental On Line Programming Resources
 <!--deck text start-->
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
+
+We host here a number of online programming resources of fundamental importance in HPC/CSE.
+We begin with the most fundamental of topics...programming language formal specifications and standards most commonly used in HPC/CSE.
+These are formal documents primarily for implementors of compilers that define how programs in the language are supposed to behave.
+
+Language specifications evolve with time and so are version numbered, typically by the year of the revision.
+Not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
+Instead, they rely solely on a [*reference implementation*](https://en.wikipedia.org/wiki/Reference_implementation).
+Python's reference implementation is [CPython](https://en.wikipedia.org/wiki/CPython).
+
+From formal specifications, we move on to *implementations* which take the form of language and/or compiler *reference* manuals together with *standard library* reference manuals.
+These documents are created by each *vendor* that supports a given compiler.
+It can take many years for vendors to update their implementations to conform to new language standards.
+It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various ways especially as it is transitioning to a new standard.
+
+For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html).
+The use of language features unique to a specific standard and/or compiler can introduce portability issues.
+To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use.
+For example, the VisIt project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code only in 2018, a full 7 years after the language standard had been released.
+
+After languages and compilers, we cover a handful of other technologies commonly used in HPC/CSE software development.
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :--- | :---: | ---:
