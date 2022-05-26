@@ -4,7 +4,7 @@ The *Open Source Guides* website provides a good collection of resources on how 
 <!--deck text end-->
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
-#### Publication date: Jan 27, 2021 
+#### Publication date: May 26, 2022 
 
 Resource information | Details 
 :--- | :--- 
@@ -17,6 +17,10 @@ The *[Open Source Guides](https://opensource.guide)* website, created by GitHub,
 The collection of resources ranges from how to contribute to existing open source projects, how to launch your own open source project, how to establish a user-base for new projects, how to determine metrics, and how to get paid for contributions to the open source community. The site also navigates topics related to licensing and legal implications, code of conduct, best practices, leadership roles and governance of such projects. While the range of topics covered is diverse, each topic is an easy read and provides a good overview of the technicalities and rationale that go behind creation and management of open source projects.
 
 While the site is created/curated by GitHub, it is not exclusive to GitHub products, and community members are welcome to contribute to it.
+
+
+*This article was originally published on Jan 27, 2021.*
+
 <!---
 Publish: yes
 Categories: collaboration, planning, development
