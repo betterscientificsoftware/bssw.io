@@ -4,11 +4,11 @@
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
 
-We host here a number of online programming resources of fundamental importance in HPC/CSE.
-We begin with the most fundamental of topics...programming language formal specifications and standards most commonly used in HPC/CSE.
-These are formal documents primarily for implementors of compilers that define how programs in the language are supposed to behave.
+We host here in tabluar layout a number of online programming resources of fundamental importance in HPC/CSE.
+We begin with the most fundamental of topics...formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
+These are formal documents primarily for implementors of compilers that define, in excrutiating precision, how programs in the language are supposed to behave.
 
-Language specifications evolve with time and so are version numbered, typically by the year of the revision.
+Language specifications evolve with time and so are versioned, typically by the year a new specification is *initiated*.
 Not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
 Instead, they rely solely on a [*reference implementation*](https://en.wikipedia.org/wiki/Reference_implementation).
 Python's reference implementation is [CPython](https://en.wikipedia.org/wiki/CPython).
@@ -21,30 +21,43 @@ It is not uncommon for a language/compiler reference manual or standard library 
 For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html).
 The use of language features unique to a specific standard and/or compiler can introduce portability issues.
 To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use.
-For example, the VisIt project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code only in 2018, a full 7 years after the language standard had been released.
+For example, the [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code only in 2018, a full 7 years after the language standard had been released.
 
-After languages and compilers, we cover a handful of other technologies commonly used in HPC/CSE software development.
+After languages and compilers, we cover *language extensions*, Application Programming Interfaces (APIs) as well as a handful of other programming technologies commonly encountered when contributing to HPC/CSE code.
+Sometimes whether a technology is considered a *language extension* or an *API* isn't always very clear cut.
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :--- | :---: | ---:
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Formal Language Specifications and Standards**</td></tr>
-C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec] | Note 1
-C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec] | Note 1
-Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec] | Note 1
-OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec] | Language *extensions* for special devices<tr><td colspan=3 align="center">**Language/Compiler Reference Manuals**</td></tr>
+C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec] | ([1][1])
+C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec] | ([1][1])
+C Preprocessor | no known specification |
+Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec] | ([1][1])
+OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec] | ([2][2])
+Python | no known specification | ([3][3])
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language/Compiler Reference Manuals**</td></tr>
 C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]
 C++ | [MS][c++-ms]/[IBM][c++-ibm]/[Cray][c++-cray]/[Intel][c++-intel]|
+C Preprocessor | [GNU][cpp-gnu]/[MS][cpp-ms] |
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
 OpenCL | [NVIDIA][opencl-nvidia]/[AMD][opencl-amd]/[Intel][opencl-intel]|
 Python | [2][py2]/[3][py3]
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Libraries**</td></tr>
-C Preprocessor | [GNU][cpp-gnu]/[MS][cpp-ms] |
 C Standard Library | | |
 C++ Standard Library | [0][c++-stdlib-0] |
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Accelerator Reference Manuals**</td></tr>
-OpenCL | [Nvidia][]/[AMD][]/[Intel][]/[IBM][]/[ARM][]
 
-<sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
+[//]: # (Table footnotes. Text is duplicated to have it appear both as rendered HTML and balloon help)
+[1]: #a1 "Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*."
+[2]: #a2 "Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.)."
+[3]: #a3 "The most formal resource for Python is the *reference* implementation, CPython"
+
+<a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
+<a name="a2"></a><sup>2</sup>Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.).<br>
+<a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)
+
+### Notes
+
+n1: # <sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
 <sup>2</sup>Another note.
 
 [//]: # (Formal C language specification URLs)
@@ -120,11 +133,19 @@ OpenCL | [Nvidia][]/[AMD][]/[Intel][]/[IBM][]/[ARM][]
 [c++-stdlib-0]: https://www.cplusplus.com/reference/
 
 
+# Other Stuff
+
+Stuff below here is just saved here temporarily as this is under development.
+It will all be gathered into the table, above.
+
+
 ### C, C++, C Pre-Processor
 
 * C [Preprocessor]()|[Standard Library]()|
 
 * [C Preprocessor](https://gcc.gnu.org/onlinedocs/cpp/)
+* [C Preprocessor Standard Definitions](https://sourceforge.net/p/predef/wiki/Home/)
+* [C Preprocessor update](https://www.open-std.org/Jtc1/sc22/wg21/docs/papers/2014/n3882.pdf)
 * [Microsoft C, C++ and Assembler documentation](https://docs.microsoft.com/en-us/cpp/?view=msvc-170)
 * [C++ Reference](https://en.cppreference.com/w/)
 * [C++ Library Reference](https://www.cplusplus.com/reference/)
