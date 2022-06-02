@@ -15,6 +15,9 @@ Python's reference implementation is [CPython](https://en.wikipedia.org/wiki/CPy
 
 From formal specifications, we move on to *implementations* which take the form of language and/or compiler *reference* manuals together with *standard library* reference manuals.
 These documents are created by each *vendor* that supports a given compiler.
+Hardware vendors are obligated to provide compilers that support their hardware.
+So most, but not all, compiler vendors are also hardware vendors.
+Notably, GNU, Portland Group and Clang compiler vendors are not associated with any particular hardware.
 It can take many years for vendors to update their implementations to conform to new language standards.
 It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various ways especially as it is transitioning to a new standard.
 
@@ -46,7 +49,8 @@ Python | [2][py2]/[3][py3]
 C Standard Library | | |
 C++ Standard Library | [0][c++-stdlib-0] |
 
-[//]: # (Table footnotes. Text is duplicated to have it appear both as rendered HTML and balloon help)
+[//]: # (Table footnotes. Text is dup'd for rendered HTML and balloon help)
+
 [1]: #a1 "Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*."
 [2]: #a2 "Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.)."
 [3]: #a3 "The most formal resource for Python is the *reference* implementation, CPython"
@@ -54,11 +58,6 @@ C++ Standard Library | [0][c++-stdlib-0] |
 <a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
 <a name="a2"></a><sup>2</sup>Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.).<br>
 <a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)
-
-### Notes
-
-n1: # <sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
-<sup>2</sup>Another note.
 
 [//]: # (Formal C language specification URLs)
 
@@ -138,6 +137,22 @@ n1: # <sup>1</sup>Version numbers are the last 2 digits of the year the standard
 Stuff below here is just saved here temporarily as this is under development.
 It will all be gathered into the table, above.
 
+### Vendors
+
+#### Hardware/Software
+
+* IBM
+* Cray/HPE
+* AMD
+* NVidia
+* Intel
+
+#### Software only
+
+* Micorsoft
+* GNU
+* Portland Group
+* LLVM
 
 ### C, C++, C Pre-Processor
 
@@ -196,6 +211,8 @@ It will all be gathered into the table, above.
 * [csh language reference](https://www.mkssoftware.com/docs/man1/csh.1.asp)
 * [sh language reference](https://pubs.opengroup.org/onlinepubs/009604499/utilities/xcu_chap02.html)
 * [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html)
+
+Boost, ROSE
 
 <!---
 Publish: no
