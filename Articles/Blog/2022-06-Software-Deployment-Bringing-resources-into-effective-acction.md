@@ -184,7 +184,7 @@ Research Associate Professor and the Director of the
 [Performance Research Laboratory](https://nic.uoregon.edu/prl/home.php) at the 
 [University of Oregon](https://www.uoregon.edu/), 
 and as the President and Director of [ParaTools](https://www.paratools.com/),
-Inc., ParaTools, SAS, and ParaTools, Ltd. He leads the SDK project for the 
+Inc., ParaTools, and SAS. He leads the SDK project for the 
 Exascale Computing Project (ECP), in the Programming Models and Runtime (PMR). 
 He received his B.Tech. in Electrical Engineering from IIT Bombay, and his M.S.
 and Ph.D. in Computer and Information Science from the University of Oregon.
