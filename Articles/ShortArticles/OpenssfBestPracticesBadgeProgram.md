@@ -7,15 +7,15 @@ This set of best practices along with the detailed documentation and supporting 
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
-#### Publication date: ???, 2021
+#### Publication date: ???, 2022
 
 The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF)<sup>[[openssf]]</sup> is an effort to improve the quality and security of open source software.
 The OpenSSF Best Practices Badge Program<sup>[[ossfbpbp]]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community to a wide rage of open-source software projects.
-The foundation of this badge program is a "Badge App" site<sup>[[ossfbpba]]</sup> that allows projects to create an entry for their project and then to specify which practice is meet, descriptions for how they met the criteria for each practice, URLs to evidence, and justification for how the criteria was met or not met.
+The foundation of this badge program is a "Badge App" site<sup>[[ossfbpba]]</sup> that allows projects to create an entry for their project and then to specify which practice is met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how the criteria was met or not.
 
-As of ???10/7/2021???, the "Badge App" site has ???4100??? registered projects of which ??637?? have achieved a Passing-level badge.
+As of ???10/7/2022???, the "Badge App" site has ???4100??? registered projects of which ??637?? have achieved a Passing-level badge.
 In addition, the community registers approximately 700 new open-source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.
-This shows this is a well accepted and well adopted program and badge program.
+These data suggest this program is a well-accepted, well-adopted badge program.
 
 The OpenSSF Best Practices and the supporting Badge App site enables a number of benefits by providing:
 
@@ -67,7 +67,7 @@ For example, almost all of the technical security-related items can be marked as
 
 The OpenSSF Best Practices are listed for each badge level individually and as a full set<sup>[[ossfbpa]]</sup>.
 They are also listed with and without the detailed description/justification and links to more information.
-Each best practice is composted of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor name link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice item).
+Each best practice is composed of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor/link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice item).
 Many items also require a short comment field be filled out and provide a URL to evidence.
 
 To demonstrate how these look, the first four "Basic" best practices in the Passing level are stated as:
@@ -126,7 +126,7 @@ An example of an project's best practice item marked as "Met" with justification
 
 <br>
 
-After a project creates an entry on the OpenSSF Best Practices Badge App site, the Badge App site provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.
+After a project creates an entry on the OpenSSF Best Practices Badge App site, the site provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.
 For example, one project that has achieved 99% to a Passing badge shows the following scores in each category:
 
 <br>
@@ -139,9 +139,9 @@ For example, one project that has achieved 99% to a Passing badge shows the foll
 
 <br>
 
-This view of the project on the Badge App makes it easy to see where the project may be weak and might be able to improve.
+This view of the project on the Badge App site makes it easy to see where the project may be weak and might be able to improve.
 One can then expand a deficient category (the "Security" category in this example) and see which criteria are not being met and why.
-One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories, for example, by clicking the "Hide met & N/A" then the "Expand panels" buttons as shown below:
+One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories, for example, by clicking the "Hide met & N/A" then the "Expand panels" buttons in edit mode as shown below:
 
 <br>
 
@@ -153,7 +153,7 @@ One can also click buttons at the top of the project's Badge App page to show on
 
 <br>
 
-And one can expand to show the details for each practice by either clicking "Show all details" at the top or "Show details" for an individual item to read more about each unmet best practice and the criteria needed to satisfy it.
+Also, one can expand to show the details for each practice by either clicking "Show all details" at the top or "Show details" for an individual item to read more about each unmet best practice and the criteria needed to satisfy it.
 
 After a project's maintainers have created a Badge App entry for the project, the project can display it's OpenSSF Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's rendered README file can display the OpenSSF Best Practices badge at the top like:
 
@@ -167,7 +167,7 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <br>
 
-Note that of the ???4100??? registered projects on the Badge App site (as of ???10/7/2021???), ???637??? projects have achieved a Passing-level badge, ???21??? have achieved a Silver-level badge, and just ???10??? have achieved a Gold-level badge.
+Note that of the ???4100??? registered projects on the Badge App site (as of ???10/7/2022???), ???637??? projects have achieved a Passing-level badge, ???21??? have achieved a Silver-level badge, and just ???10??? have achieved a Gold-level badge.
 So while approximately ???15%??? of the registered projects have achieved a Passing-level badge, only ???0.5%??? have achieved a Silver-level badge and only ???0.24%??? have achieved a Gold-level badge.
 This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieved a Passing badge where only ???3%??? of Passing-level projects went on to achieve a Silver-level badge.
 But this data shows that about ???33%??? of the projects that achieve a Silver-level badge go on to achieve a Gold-level badge.
@@ -199,15 +199,15 @@ ToDo: Finish this section!
 
 As of this writing, there are currently 129 unique best practices listed across the three levels in a wide number of categories.
 Many of these items have detailed explanatory descriptions with links to more information.
-Just carefully reading through all of these practices and their descriptions and following a few of the links can take halve a day or more.
-And this material and the material being linked to provides what can be considered the state-of-the-art in each area in the open source community.
-Therefore, the OpenSSF Best Practices can serve as an effective learning tool for the state of the art in open-source software engineering best practices.
+Just carefully reading through all of these practices and their descriptions and following a few of the links can take half a day or more.
+This material, and the material being linked to, provides what can be considered the state-of-the-art in each area in the open source community.
+Therefore, the OpenSSF Best Practices can serve as an effective learning tool for the state-of-the-art in open-source software engineering best practices.
 
 Even if one has been in the software engineering and open source area for many years, one may not be aware of what is considered the current state-of-the-art and best practice.
 For example, for many years Contributor License Agreements (CLAs) were considered best practice and the recommended way for open source projects to manage IP and copyright issues related to contributions from different individuals and organizations.
-But apprehension on the part of various institutions to sign CLAs and other practical experience CLAs have lead to the usage of a Developer Certificate of Origin (DCO) to manage these issues instead <sup>[[dco]]</sup>.
-And therefore, currently DCO are considered the more recommended practice.
-Without a resource like the OpenSSF Best Practices, it would be very hard for many projects gain this type of knowledge in such a compact manner.
+But apprehension on the part of various institutions to sign CLAs and other practical experience, CLAs have lead to the usage of a Developer Certificate of Origin (DCO) to manage these issues instead <sup>[[dco]]</sup>.
+And therefore, currently, using a DCO is considered the more recommended practice.
+Without a resource like the OpenSSF Best Practices, it is very difficult for many projects gain this type of knowledge in such a compact manner.
 
 
 <a name="continuous_improvement"/>
