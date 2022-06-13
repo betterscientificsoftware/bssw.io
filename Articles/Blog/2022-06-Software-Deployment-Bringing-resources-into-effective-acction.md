@@ -2,7 +2,7 @@
 
 #### Contributed by [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui), [Sameer Shende](https://github.com/sameershende)
 
-#### Publication date: June XX, 2022
+#### Publication date: June 15, 2022
 
 ### Introduction
 
@@ -189,7 +189,7 @@ He received his B.Tech. in Electrical Engineering from IIT Bombay, and his M.S.
 and Ph.D. in Computer and Information Science from the University of Oregon.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 Topics: release and deployment, configuration and builds
 --->
