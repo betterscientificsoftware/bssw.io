@@ -49,8 +49,7 @@ needs to be managed by users or groups?*
 
 ### Software deployment in an HPC environment
 
-In an HPC environment, this complexity requires a community to tackle the issues.  
-The [Extreme-scale Scientific Software Stack (E4S)](https://e4s.readthedocs.io/en/latest/introduction.html)
+In an HPC environment, this complexity requires a community to tackle the issues.  The [Extreme-scale Scientific Software Stack (E4S)](https://e4s.readthedocs.io/en/latest/introduction.html)
 is a community effort supported by the [Exascale Computing Project (ECP)](http://exascaleproject.org)
 to provide open source software packages for developing, deploying and running 
 scientific applications on HPC platforms. Even with 
@@ -59,8 +58,7 @@ deployment can be fraught with pitfalls and decisions to make for site-specific
 customizations. 
 
 E4S is a collection of 100+ top-level scientific software packages needed
-for scientific computing in HPC environments.  
-E4S member packages must demonstrate compatibility with the E4S
+for scientific computing in HPC environments. E4S member packages must demonstrate compatibility with the E4S
 [community policies](https://e4s-project.github.io/policies.html), 
 including a production quality Spack-based build and installation procedure. 
 The Department of Energy Office of Science (DOE SC)
@@ -88,7 +86,7 @@ explains this work in detail.
 
 ### E4S software deployment recipe at NERSC
 
-The high-level steps used to deploy E4S at NERSC are as follows:
+As illustrated by Figure 1, the high-level steps used to deploy E4S at NERSC are as follows:
 - Acquire a Spack configuration from the E4S project (https://github.com/E4S-Project/e4s)
 - Configure your Spack configuration with compilers, package preferences, and list of
 packages to install
@@ -100,7 +98,7 @@ packages to install
 E4S documentation page https://e4s.readthedocs.io/en/latest/facility_e4s.html 
 - Add announcement in NERSC weekly email
 
-<img src='../../images/Blog_2205_SoftwareDeploymentProcess.png'>[Figure 1: NERSC Software Deployment Process from inception to deployment]
+<img src='../../images/Blog_2205_SoftwareDeploymentProcess.png'>[Figure 1: NERSC Software Deployment Process from inception to deployment.]
 
 ### Deployment tools
 
@@ -126,22 +124,22 @@ provide tools for deploying HPC clusters, including provision tools,
 a resource manager, development tools and scientific libraries; you can deploy
 OpenHPC at your site as a means to provide a software stack at your HPC site.
 
-HPC support team should take into account user requirements and any monitoring
-data such as module tracking or software library tracking such as [XALT](https://xalt.readthedocs.io/en/latest/) 
-to see usage trends to determine which packages to install in their Software Stack. 
+A team for HPC support should take into account user requirements and any monitoring
+data such as module tracking or software library tracking, for example [XALT](https://xalt.readthedocs.io/en/latest/), 
+to see usage trends to determine which packages to install in their software stack. 
 
 ### Software deployment as an integral part of HPC centers
 
 Software stack deployment requires intimate knowledge of the HPC system as well as 
 in-depth knowledge of the target software packages to ensure that each package is built 
-optimally for the system. Nowadays, a wide variety of workloads are running 
+optimally for the system. A wide variety of workloads typically run 
 on HPC systems (including AI, data analysis, modeling and simulation, remote sensor 
 data), and an HPC center needs to support all types of workloads applicable for their
 site. 
 
 This complexity requires a software deployment team as an integral part of each 
 HPC center.  We need to train existing staff and/or increase the workforce 
-to support a comprehensive software stack, like E4S, at computing facilities. HPC 
+to support a comprehensive software stack, such as E4S, at computing facilities. HPC 
 centers can also benefit from one another's experiences by sharing information about the software deployment process. 
 This information may especially benefit those centers that do not already have a well-established deployment process.
 
@@ -161,13 +159,12 @@ tickets, user outreach, training, documentation. Shahzeb is part of the
 [Exascale Computing Project (ECP)](https://www.exascaleproject.org/) in 
 [Software Deployment](https://www.exascaleproject.org/research-group/software-deployment-at-the-facilities/) (SD) group 
 where he is responsible for building Spack [Extreme-Scale Scientific Software Stack](https://e4s-project.github.io/) (E4S) at the DOE facilities. 
-
-Shahzeb Siddiqui started out his career in High Performance Computing (HPC) in 2012 
+Shahzeb Siddiqui started out his HPC career in 2012 
 at [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/en) (KAUST) 
-while pursuing his Masters. His focus in HPC includes Parallel Programming, 
-Performance Tuning, Containers (Singularity, Docker), Linux system administration,
-Scientific Software Installation and testing, Scheduler Optimization, and 
-Job Metrics. Shahzeb has held multiple roles in his HPC career in the following 
+while pursuing his Masters. His HPC focus includes parallel programming, 
+performance tuning, containers (Singularity, Docker), Linux system administration,
+scientific software installation and testing, scheduler optimization, and 
+job metrics. Shahzeb has held multiple roles in the following 
 companies: Dassault-Systemes, Pfizer, Penn State, and IBM. Prior to 2012, he was 
 a software engineer holding multiple roles at Global Science & Technology, 
 Northrop Grumman, and Penn State.
@@ -184,8 +181,8 @@ Research Associate Professor and the Director of the
 [University of Oregon](https://www.uoregon.edu/), 
 and as the President and Director of [ParaTools](https://www.paratools.com/),
 Inc., ParaTools, and SAS. He leads the SDK project for the 
-Exascale Computing Project (ECP), in the Programming Models and Runtime (PMR). 
-He received his B.Tech. in Electrical Engineering from IIT Bombay, and his M.S.
+Exascale Computing Project in the area of Programming Models and Runtime. 
+He received his B. Tech. in Electrical Engineering from IIT Bombay, and his M.S.
 and Ph.D. in Computer and Information Science from the University of Oregon.
 
 <!---
