@@ -1,4 +1,4 @@
-# Software deployment: Bringing resources into effective action
+# Software Deployment: Bringing Resources into Effective Action
 
 #### Contributed by [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui), [Sameer Shende](https://github.com/sameershende)
 
