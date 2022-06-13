@@ -1,4 +1,8 @@
-# Software Deployment: Bringing Resources into Effective Action
+# Software Deployment: Bringing E4S Resources into Effective Action
+
+**Hero Image:**
+
+- <img src='../../images/Blog_2206_AE4s_A.png' />
 
 #### Contributed by [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui), [Sameer Shende](https://github.com/sameershende)
 
