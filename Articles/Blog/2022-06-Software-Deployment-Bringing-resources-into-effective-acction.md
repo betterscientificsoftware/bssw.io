@@ -4,7 +4,7 @@
 
 - <img src='../../images/Blog_2206_AE4s_A.png' />
 
-#### Contributed by [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui), [Sameer Shende](https://github.com/sameershende)
+#### Contributed by [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui) and [Sameer Shende](https://github.com/sameershende)
 
 #### Publication date: June 15, 2022
 
