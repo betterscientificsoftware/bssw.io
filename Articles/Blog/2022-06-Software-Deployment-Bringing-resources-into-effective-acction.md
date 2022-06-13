@@ -1,20 +1,20 @@
-# Software Deployment: Bringing resources into effective action
+# Software deployment: Bringing resources into effective action
 
 #### Contributed by [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui), [Sameer Shende](https://github.com/sameershende)
 
 #### Publication date: June XX, 2022
 
-## Introduction
+### Introduction
 
 Software development involves the step-by-step process of inventing, specifying,
-coding, recording, testing and fixing bugs.  But, just because you’ve built it 
+coding, recording, testing and fixing bugs.  But, just because you’ve built software 
 doesn’t mean it’s ready for prime time. Software deployment is a set of crucial 
 activities that takes software and makes it available for use on the target 
 system. 
 
 Many of us deploy software for ourselves - build, test, set up paths, etc. But,
 as our software grows in capability, so also can the deployment process grow in 
-complexity. The High-Performance Computing (HPC) software landscape contains a 
+complexity. The software landscape for high-performance computing (HPC) contains a 
 wide range of workloads that require third-party software and commercial 
 products to be installed on HPC systems.  This complexity requires expertise 
 from HPC centers to invest time in deploying a software stack to meet the needs 
@@ -30,125 +30,126 @@ including:
 
 - **Users** need to think about how to create a portable and reproducible 
 environment, perhaps using containers versus software provided on the system vs 
-building their own stack such as spack, conda, pip, easybuild.
+building their own stack using tools such as Spack, Conda, pip, and EasyBuild.
 - **Developers** of software need to think about how to make it easier for users 
-to use their software, software dependencies, and correct usage.
+to employ their software correctly and handle software dependencies.
 - **HPC facilities** need to think about how to support a large community of 
 users, opting to install some software packages and using modules for easier
 deployment.
 
-When deploying a software stack, you may want to consider the following
+When deploying a software stack, you may want to consider the following:
 - *What type of workloads do your users run?*
 - *How many versions of particular software should you support?*
 - *To what extent do you want to support the Python, R, Ruby, Perl, and Anaconda 
-software ecosystem or should this be responsibility of user?*
+software ecosystem or should this be responsibility of the user?*
 - *Should the facility install any software requested by the user or have a 
 formal process for software request that goes through a review process?* 
-- *Determine what software needs to be installed by HPC centers vs which software 
+- *What software needs to be installed by HPC centers vs which software 
 needs to be managed by users or groups?* 
 
-## Software Deployment in an HPC Environment
+### Software deployment in an HPC environment
 
-In an HPC environment, this complexity requires a community to tackle the issue.  
+In an HPC environment, this complexity requires a community to tackle the issues.  
 The [Extreme-scale Scientific Software Stack (E4S)](https://e4s.readthedocs.io/en/latest/introduction.html)
 is a community effort supported by the [Exascale Computing Project (ECP)](http://exascaleproject.org)
 to provide open source software packages for developing, deploying and running 
-scientific applications on high-performance computing (HPC) platforms. Even with 
+scientific applications on HPC platforms. Even with 
 software seemingly packaged and delivered with a bow like E4S, the actual 
 deployment can be fraught with pitfalls and decisions to make for site-specific 
 customizations. 
 
 E4S is a collection of 100+ top-level scientific software packages needed
-for scientific computing in high-performance computing (HPC) environments.  
+for scientific computing in HPC environments.  
 E4S member packages must demonstrate compatibility with the E4S
 [community policies](https://e4s-project.github.io/policies.html), 
-including a production quality spack-based build and installation procedure. 
+including a production quality Spack-based build and installation procedure. 
 The Department of Energy Office of Science (DOE SC)
 [Advanced Scientific Computing Research](https://www.energy.gov/science/ascr/advanced-scientific-computing-research)
 Facilities (NERSC, OLCF and ALCF) are expected to build and deploy E4S on 
-thepre-exascale system, which helps to ensure a consistent programming environment 
+pre-exascale systems, thereby helping to ensure a consistent programming environment 
 for users across facilities. 
-
-In 2021, [National Energy Research Scientific Computing Center (NERSC)](https://nersc.gov/)
-released their first deployment of E4S/20.10 on Cori using the [spack](https://spack.io/) 
-package manager. We wanted to leverage E4S to enable ECP and NERSC users to accelerate 
-their scientific research with updated versions of software products needed for 
-simulations and to provide feedback to ECP 
-[Software Technology](https://www.exascaleproject.org/research/#software) 
-teams with build failures during deployment so they can be fixed in future versions. 
-Here, we describe the steps and lessons learned to deploy the E4S software stack at 
-NERSC to help you navigate your E4S deployment.  The lessons learned can also 
-guide future developers of packaged community software on development-to-deployment 
-requirements. Here is the [link](https://www.osti.gov/biblio/1868332-software-deployment-process-nersc-deploying-extreme-scale-scientific-software-stack-e4s-using-spack-national-energy-research-scientific-computing-center-nersc)
-to the full technical report. An HPC facility software deployment process is 
+An HPC facility software deployment process is 
 typically aligned with planned system upgrades, since both may require a rebuild 
 of the full software stack. 
 
+In 2021, the [National Energy Research Scientific Computing Center (NERSC)](https://nersc.gov/)
+released their first deployment of E4S/20.10 on Cori using the [Spack](https://spack.io/) 
+package manager.  NERSC wanted to leverage E4S to enable ECP and NERSC users to accelerate 
+their scientific research with updated versions of software products needed for 
+simulations and to provide feedback to ECP 
+[Software Technology](https://www.exascaleproject.org/research/#software) 
+teams regarding build failures during deployment so they could be fixed in future versions. 
+Here, we describe the steps and lessons learned to deploy the E4S software stack at 
+NERSC to help others navigate E4S deployment for other computing environments.  The lessons learned can also 
+guide future developers of packaged community software on development-to-deployment 
+requirements. A full [technical report](https://www.osti.gov/biblio/1868332-software-deployment-process-nersc-deploying-extreme-scale-scientific-software-stack-e4s-using-spack-national-energy-research-scientific-computing-center-nersc)
+explains this work in detail. 
 
-## Software Deployment Recipe at NERSC
 
-Here the high-level steps to deploy E4S at NERSC
-1.Acquire spack configuration from E4S Project (https://github.com/E4S-Project/e4s)
-2. Configure your spack configuration with compilers, package preference and list of
+### E4S software deployment recipe at NERSC
+
+The high-level steps used to deploy E4S at NERSC are as follows:
+- Acquire a Spack configuration from the E4S project (https://github.com/E4S-Project/e4s)
+- Configure your Spack configuration with compilers, package preferences, and list of
 packages to install
-3. Build the entire spack stack via spack install using Gitlab 
-4. Generate modulefiles for spack stack
-5. Create user facing **e4s** modulefile
-6. Write user documentation for e4s stack in  NERSC user documentation 
-7. Share spack configuration in https://github.com/spack/spack-configs and update
+- Build the entire Spack stack via "spack install" using Gitlab 
+- Generate modulefiles for the Spack stack
+- Create a user-facing **e4s** modulefile
+- Write user documentation for the E4S stack in NERSC user documentation 
+- Share Spack configuration in https://github.com/spack/spack-configs and update the
 E4S documentation page https://e4s.readthedocs.io/en/latest/facility_e4s.html 
-8. Add announcement in NERSC weekly email
+- Add announcement in NERSC weekly email
 
 <img src='../../images/Blog_2205_SoftwareDeploymentProcess.png'>[Figure 1: NERSC Software Deployment Process from inception to deployment]
 
-## Deployment Tools
+### Deployment tools
 
-We can also leverage containers to provide a software stack to end-users for 
-instance E4S comes with several pre-built containers that can be ready to use 
-instantly. If one supports containers the [Singularity Registry HPC](https://singularity-hpc.readthedocs.io/en/latest/) 
+We can also leverage containers to provide a software stack to end users.  For 
+instance, E4S comes with several pre-built containers that can be ready to use 
+instantly. If one supports containers, the [Singularity Registry HPC](https://singularity-hpc.readthedocs.io/en/latest/) 
 can be handy in converting containers into modules so one can access containers 
 using the module command. 
 
 We can leverage other packaging tools like [pip](https://pip.pypa.io/en/stable/)
-and [conda](https://docs.conda.io/en/latest/) to support Python community, 
-[gem](https://rubygems.org/) for Ruby, [cpan](https://www.cpan.org/) for Perl, 
-[cran](https://cran.r-project.org/) for R community. 
+and [Conda](https://docs.conda.io/en/latest/) to support the Python community, 
+[gem](https://rubygems.org/) for Ruby, [cpan](https://www.cpan.org/) for Perl, and 
+[cran](https://cran.r-project.org/) for the R community. 
 
 The [NVIDIA GPU Cloud (NGC)](https://www.nvidia.com/en-us/gpu-cloud/) can be used 
 to provide pre-built containers optimized for NVIDIA GPUs. 
 
 [Spack](https://spack.io/) and [Easybuild](https://easybuild.io/) provide HPC 
-teams to build software stack from source. 
+teams support to build a software stack from source. 
 
 The [OpenHPC](https://openhpc.community/) project is a community effort to 
-provide tools for deploying HPC clusters including provision tools, 
-resource manager, development tools and scientific libraries, you can deploy
-OpenHPC at your site as a means to provide a Software Stack at your HPC site.
+provide tools for deploying HPC clusters, including provision tools, 
+a resource manager, development tools and scientific libraries; you can deploy
+OpenHPC at your site as a means to provide a software stack at your HPC site.
 
 HPC support team should take into account user requirements and any monitoring
 data such as module tracking or software library tracking such as [XALT](https://xalt.readthedocs.io/en/latest/) 
 to see usage trends to determine which packages to install in their Software Stack. 
 
-Software stack deployment requires intimate knowledge of the HPC system with 
-in-depth knowledge of the software package to ensure each package is built 
-optimally for the system. Nowadays, there is a wide variety of workloads running 
-on HPC systems including AI, Data Analysis, Simulation & Modeling, remote sensor 
-data and HPC center needs to support all types of workload applicable for their
+### Software deployment as an integral part of HPC centers
+
+Software stack deployment requires intimate knowledge of the HPC system as well as 
+in-depth knowledge of the target software packages to ensure that each package is built 
+optimally for the system. Nowadays, a wide variety of workloads are running 
+on HPC systems (including AI, data analysis, modeling and simulation, remote sensor 
+data), and an HPC center needs to support all types of workloads applicable for their
 site. 
 
-This complexity requires a Software Deployment team as an integral part of 
-HPC centers.  We need to train our existing staff and/or increase the workforce 
-to support a comprehensive software stack, like E4S, at the facilities. HPC 
-centers can also benefit from each other by learning the Software Deployment 
-process, especially for centers that don’t have a well-established process. 
+This complexity requires a software deployment team as an integral part of each 
+HPC center.  We need to train existing staff and/or increase the workforce 
+to support a comprehensive software stack, like E4S, at computing facilities. HPC 
+centers can also benefit from one another's experiences by sharing information about the software deployment process. 
+This information may especially benefit those centers that do not already have a well-established deployment process.
 
-We welcome the community to share their deployment strategy and/or best 
-practices for Software Stack Deployments. Let’s share game plans.
+We welcome the community to share their deployment strategies and best 
+practices for software stack deployment. Let’s share game plans and learn from one another. 
 
 
-### Author bio
-
-#### Shahzeb Siddiqui
+### Author bios
 
 [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui) is a HPC 
 Consultant/Software Integration Specialist at 
@@ -171,9 +172,7 @@ companies: Dassault-Systemes, Pfizer, Penn State, and IBM. Prior to 2012, he was
 a software engineer holding multiple roles at Global Science & Technology, 
 Northrop Grumman, and Penn State.
 
-#### Sameer Shende
-
-Dr. Sameer Shende has helped develop the 
+Sameer Shende has helped develop the 
 [TAU Performance System](http://www.cs.uoregon.edu/research/tau/home.php), the 
 [Program Database Toolkit (PDT)](https://www.cs.uoregon.edu/research/pdt/home.php), 
 the [Extreme-scale Scientific Software Stack (E4S)](https://e4s.io) 
@@ -189,6 +188,8 @@ Exascale Computing Project (ECP), in the Programming Models and Runtime (PMR).
 He received his B.Tech. in Electrical Engineering from IIT Bombay, and his M.S.
 and Ph.D. in Computer and Information Science from the University of Oregon.
 
-
-  
-
+<!---
+Publish: preview
+Pinned: no
+Topics: release and deployment, configuration and builds
+--->
