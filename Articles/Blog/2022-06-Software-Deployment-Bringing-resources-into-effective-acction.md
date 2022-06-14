@@ -90,7 +90,7 @@ explains this work in detail.
 
 ### E4S software deployment recipe at NERSC
 
-As illustrated by Figure 1, the high-level steps used to deploy E4S at NERSC are as follows:
+As illustrated below, the high-level steps used to deploy E4S at NERSC are as follows:
 - Acquire a Spack configuration from the E4S project (https://github.com/E4S-Project/e4s)
 - Configure your Spack configuration with compilers, package preferences, and list of
 packages to install
@@ -102,7 +102,10 @@ packages to install
 E4S documentation page https://e4s.readthedocs.io/en/latest/facility_e4s.html 
 - Add announcement in NERSC weekly email
 
-<img src='../../images/Blog_2205_SoftwareDeploymentProcess.png'>[Figure 1: NERSC Software Deployment Process from inception to deployment.]
+<br>
+
+<img src='../../images/Blog_2205_SoftwareDeploymentProcess.png' class='page lightbox'/>[NERSC software deployment process from inception to deployment.]
+
 
 ### Deployment tools
 
@@ -186,7 +189,7 @@ Research Associate Professor and the Director of the
 and as the President and Director of [ParaTools](https://www.paratools.com/),
 Inc., ParaTools, and SAS. He leads the SDK project for the 
 Exascale Computing Project in the area of Programming Models and Runtime. 
-He received his B. Tech. in Electrical Engineering from IIT Bombay, and his M.S.
+He received a B. Tech. in Electrical Engineering from IIT Bombay, and M.S.
 and Ph.D. in Computer and Information Science from the University of Oregon.
 
 <!---
