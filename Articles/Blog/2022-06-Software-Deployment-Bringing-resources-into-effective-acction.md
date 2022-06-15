@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/Blog_2206_AE4s_A.png' />
+- [E4S logo superimposed on the tile floor of a computer center, representing a machine room that is ready to receive a new computer system with E4S ready to be deployed.  Both the room and the software are ready for the new machine.]<img src='../../images/Blog_2206_AE4s_A.png' />
 
 #### Contributed by [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui) and [Sameer Shende](https://github.com/sameershende)
 
