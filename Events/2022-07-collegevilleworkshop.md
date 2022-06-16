@@ -1,19 +1,19 @@
 # 2022 Collegeville Workshop on Scientific Software: Software Design
 
-- Whitepaper Deadline: June 24, 2022
-- Recorded Presentation Deadline: June 24, 2022 - July 15, 2022
-- Teatime Theme and Poster Deadline: July 15, 2022
-- Event Dates: July 26, 2022 - July 28, 2022
+- Event Dates: Canceled
 - Location: St. John's University, Collegeville, Minnesota and online
 - Event Website: https://collegeville.github.io/CW22/
 
 <!-- deck starts -->
-The Collegeville Workshop Series on Scientific Software is intended to bring together three communities of scientific software developers: academia, industry, and laboratories. While there are certainly existing exchanges between these communities, we are dedicated to improving awareness of common needs, unique contributions and career paths that span these communities.
+Collegeville Workshop Series on Scientific Software is intended to bring together three communities of scientific software developers: academia, industry, and laboratories. While there are certainly existing exchanges between these communities, we are dedicated to improving awareness of common needs, unique contributions and career paths that span these communities.
 <!-- deck ends -->
+
+
+**UPDATE (Jun 16, 2022): The 2022 Collegeville Workshop has been canceled for the 2022 year**
 
 ### Workshop Goals
 
-The goal of this workshop is to bring together community leaders and practitioners in scientific software from academia, industry and labs for the purpose of identifying the challenges and priority research direction for improving the design of scientific software. We want to explore, characterize and articulate scientific software practices from industry, research labs and academia and identify common requirements and essential differences in these communities.
+*UPDATE* The goal of this workshop is to bring together community leaders and practitioners in scientific software from academia, industry and labs for the purpose of identifying the challenges and priority research direction for improving the design of scientific software. We want to explore, characterize and articulate scientific software practices from industry, research labs and academia and identify common requirements and essential differences in these communities.
 
 We believe this workshop to be distinct in its efforts to bring academic, industry and lab community members to explore both the common and unique challenges of these communities.
 
@@ -43,6 +43,9 @@ The following contributions are welcome. For details, see <https://collegeville.
 ### Workshop Schedule
 
 The workshop will begin with an informal gathering on the evening of July 25.  The workshop itself will take place July 26-28.  Participants are encourage to plan their departures for July 29.
+
+**UPDATE (Jun 16, 2022): The 2022 Collegeville Workshop has been canceled for the 2022 year**
+
 
 #### Publication date: May 13, 2022
 #### Contributed by [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile")
