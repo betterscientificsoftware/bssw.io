@@ -6,7 +6,7 @@
 
 We host here in tabluar layout a number of online programming resources of fundamental importance in HPC/CSE.
 We begin with the most fundamental of topics...formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
-These are formal documents primarily for implementors of compilers that define, in excrutiating precision, how programs in the language are supposed to behave.
+These are formal documents primarily for implementors of compilers that define, in excrutiating precision, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
 
 Language specifications evolve with time and so are versioned, typically by the year a new specification is *initiated*.
 Not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
@@ -15,16 +15,23 @@ Python's reference implementation is [CPython](https://en.wikipedia.org/wiki/CPy
 
 From formal specifications, we move on to *implementations* which take the form of language and/or compiler *reference* manuals together with *standard library* reference manuals.
 These documents are created by each *vendor* that supports a given compiler.
-Hardware vendors are obligated to provide compilers that support their hardware.
-So most, but not all, compiler vendors are also hardware vendors.
-Notably, GNU, Portland Group and Clang compiler vendors are not associated with any particular hardware.
-It can take many years for vendors to update their implementations to conform to new language standards.
-It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various ways especially as it is transitioning to a new standard.
+
+Hardware vendors are obliged to provide a compiler that supports their hardware.
+No applications can use their hardware without one.
+Often, hardware vendors develop and support their own *native* (and proprietary) compilers.
+This ensures applications are maximally performant on their hardware.
+Alternatively (or sometimes in addition), existing compilers are enhanced to target performance features of the vendor's hardware.
+
+Notably, GNU, Intel, Portland Group and Clang compilers are not tied to any particular hardware.
+These compilers are often made available on various vendor's hardware and can sometimes even produce higher performing code than the hardware vendor's *native* compiler.
+
+It can take many years for compiler vendors to update their implementations to conform to new language standards.
+It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various minor ways especially during a period in which it is transitioning to new language standard.
 
 For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html).
 The use of language features unique to a specific standard and/or compiler can introduce portability issues.
 To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use.
-For example, the [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code only in 2018, a full 7 years after the language standard had been released.
+For example, the [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code base only in 2018, a full 7 years after the language standard had been released.
 
 After languages and compilers, we cover *language extensions*, Application Programming Interfaces (APIs) as well as a handful of other programming technologies commonly encountered when contributing to HPC/CSE code.
 Sometimes whether a technology is considered a *language extension* or an *API* isn't always very clear cut.
