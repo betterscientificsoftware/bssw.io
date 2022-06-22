@@ -13,27 +13,27 @@ The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF
 The OpenSSF Best Practices Badge Program<sup>[[ossfbpbp]]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community to a wide rage of open-source software projects.
 The foundation of this badge program is a "Badge App" site<sup>[[ossfbpba]]</sup> that allows projects to create an entry for their project and then to specify which practice is met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how the criteria was met or not.
 
-As of ???10/7/2022???, the "Badge App" site has ???4100??? registered projects of which ??637?? have achieved a Passing-level badge.
-In addition, the community registers approximately 700 new open-source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.
+As of 6/22/2022, the "Badge App" site has 4819 registered projects of which 789 have achieved a Passing-level badge.
+In addition, the community registers approximately 700 new open-source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.<sup>[[ossfbpbas]]</sup>
 These data suggest this program is a well-accepted, well-adopted badge program.
 
 The OpenSSF Best Practices and the supporting Badge App site enables a number of benefits by providing:
 
-* a set of practices that have specific actionable criteria which require supporting evidence,
+* a set of [best practices](#details) that have specific actionable criteria which require supporting evidence,
 
 * a powerful "Badge App" site that enhances the display of the each practice, expanded descriptions of the practices, and fields to enter URL and text descriptions of the status of each practice in the project, 
 
 * a badge that can be displayed on a project's own hosting site to show that a project follows accepted best practices,
 
-* a particularly strong focus on software security which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[[eo14028]]</sup>  (which is of particular importance to laboratory and government agencies and contractors, including the national labs),
+* a particularly strong focus on [software security](#focus_on_security) which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[[eo14028]]</sup> (which is of particular importance to U.S. laboratory and government agencies and contractors, including the U.S. national laboratories),
 
-* a learning tool for best practices for developers and projects,
+* a [learning tool](#learning_tool) for best practices for developers and projects,
 
-* a roadmap for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas,
+* a [roadmap for continual improvement](#continuous_improvement) for a project as it incrementally adopts more practices and improves its scores in different areas,
 
-* a standard index into the parts of the projects and how it handles different types of processes,
+* a [standard index](#standard_project_index) into the parts of the projects and how it handles different types of processes,
 
-* a website template and database implementation that can be forked and customized for more targeted communities,
+* a [website template](#forking_badge_app_website) and database implementation that can be forked and customized for more targeted communities,
 
 These different aspects of the OpenSSF Best Practices Program and Badge App are described below.
 
@@ -167,10 +167,10 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <br>
 
-Note that of the ???4100??? registered projects on the Badge App site (as of ???10/7/2022???), ???637??? projects have achieved a Passing-level badge, ???21??? have achieved a Silver-level badge, and just ???10??? have achieved a Gold-level badge.
-So while approximately ???15%??? of the registered projects have achieved a Passing-level badge, only ???0.5%??? have achieved a Silver-level badge and only ???0.24%??? have achieved a Gold-level badge.
-This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieved a Passing badge where only ???3%??? of Passing-level projects went on to achieve a Silver-level badge.
-But this data shows that about ???33%??? of the projects that achieve a Silver-level badge go on to achieve a Gold-level badge.
+Note that of the 4819 registered projects on the Badge App site (as of 6/22/2022), 789 projects have achieved a Passing-level badge, 32 have achieved a Silver-level badge, and just 10 have achieved a Gold-level badge.
+So while approximately 16% of the registered projects have achieved a Passing-level badge, only 4% of the Passing-level projects have gone on to achieve a Silver-level badge.  But, interestingly, over 30% of the Silver-level projects have gone on the achieve a Gold-level badge.
+This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieved a Passing badge (i.e. only 4%).
+But this data shows that a large percentage projects that achieve a Silver-level badge go on to achieve a Gold-level badge (over 30%).
 Therefore, it would appear that the barrier (or reluctance) of going from the Silver-level to the Gold-level is small compared to going from the Passing-level to the Silver-level.
 
 
@@ -182,7 +182,7 @@ One of the unique features of the OpenSSF Best Practices is the significant focu
 For example, of the 67 best practices listed at the Passing level, 16 of them are in the area of security.
 And of the 55 Silver-level practices and 23 Gold-level practices, 18 and 5, respectively, are in the area of security.
 The reason that is so interesting is that much of the software development communities focus on software engineering best practices only pays a cursory treatment to security.
-For example, of the over 900 pages in the book "Code Complete: 2nd Edition" [???], exactly one paragraph is devoted to the area of software security in section 3.5 "Architecture Prerequisite":
+For example, of the over 900 pages in the book "Code Complete: 2nd Edition"<sup>[cc2nd]</sup>, exactly one paragraph is devoted to the area of software security in section 3.5 "Architecture Prerequisite":
 
 > The architecture should describe the approach to design-level and code-level security.
 > If a thread model has not previously been built, it should be built at architecture time.
@@ -190,7 +190,7 @@ For example, of the over 900 pages in the book "Code Complete: 2nd Edition" [???
 
 In addition, other standard texts on software engineering best practices never even mention the word "security".
 
-ToDo: Finish this section!
+This increased focus on software security is consistent with White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[[eo14028]]</sup> which requires government and DOE software to improve software security.
 
 
 <a name="learning_tool"/>
@@ -253,57 +253,88 @@ I personally found the reminder helpful and it make it easy to check up on where
 
 ## OpenSSF Best Practices Badge App as a standard index into a project
 
-Blah blah blah ...
+One surprising benefit of the OpenSSF Best Practices Badge App site is that provides a standard index into each project for how it addresses different types of processes and where to find specific types of information.
+For example, if one wants to know how issues are reported for a listed project, one can go to the entries [report_process] and [report_tracker] and find URLs to the description of how issues are reported and the issue tracking site itself.
+Likewise, one can quickly find documentation for the architecture for the project<sup>[[documentation_architecture]]</sup> or the quick-start guide<sup>[[documentation_quick_start]]</sup>.
+One can quickly find out how to securely report possible vulnerabilities<sup>[[vulnerability_report_process]]</sup>.
 
 
 <a name="forking_badge_app_website"/>
 
 ## Forking and Customizing the OpenSSF Best Practices and Badge App Website
 
-Blah blah blah ...
+While the OpenSSF Best Practices are very comprehensive and are apparently well-supported by the broader open source software development community, many projects are not fully open source and therefore some of the practices do not apply.
+For example, the MUST item [[floss_license]] requires the software be released as Free-Libre /Open Source Software (FLOSS).
+That is very important for open source software but is not appropriate for many types of proprietary software.
+But most of the other OpenSSF Best Practices are applicable to all types of software.
+So how can other software development communities and organizations take advantage of the applicable OpenSSF Best Practices while excluding those that don't apply; and adding more customized criteria for their community or organization?
+
+One large potential untapped contribution of the Badge App site is that it can serve as a foundation for creating a more targeted set of best practices for a particular software development community or organization.
+In theory, one could fork, modify, and deploy a customized version of the OpenSSF Best Practices Badge Site targeted to an internal organization's projects.
+This is allowed because the [Badge App site source on GitHub](https://github.com/coreinfrastructure/best-practices-badge) uses the very permissive [MIT License](https://github.com/coreinfrastructure/best-practices-badge/blob/main/LICENSE) which allows for commercial usage.
+
+Information on how to fork, customize, and deploy a modified set of best practices is described in the [Badge App Implementation page](https://github.com/coreinfrastructure/best-practices-badge/blob/main/doc/implementation.md) which is pointed to by the Badge App's [[documentation_architecture]] entry.
+In particular the section [changing criteria](https://github.com/coreinfrastructure/best-practices-badge/blob/main/doc/implementation.md#changing-criteria) describes how to modify the existing items, including adding and removing items.
+
+For example, a U.S. DOE program could create a customized best practices site based on the OpenSSF Best Practices Badge App site specialized for specific internal programs of great importance to U.S. national security.
 
 
+<a name="summary"/>
 
+## Summary
 
+In summary, the OpenSSF Best Practices provides an impressive, actionable collection of the open source communities best practices with a strong focus on software security.
+The supplied OpenSSF Best Practices Badge App site codifies these best practices and provides blanks for projects to fill in how they implement each item (or not) and where to find out more information.
+When a given badge level is earned (Passing, Silver or Gold), or progress is made towards a badge, the badge can be displayed on the project's hosting site (e.g. GitHub, GitLab, BitBucket, some regular webiste).
+The Badge App site also contains features to make it easy to see where a project's practices may be lacking and suggest areas of improvement (and the Badge App site can send out regular reminders to keep making progress).
+
+Finally, the OpenSSF Best Practices Badge App site has the potential to provide a ready implementation foundation for a customized best practices site for more specialized non-open source (e.g. commercial) software development communities and organizations.
+
+<!---
 
 ToDo: Describe:
 
-* Replace all of the screenshots showing "CII" with the updated "OpenSSF" pages.
+* Replace all of the screenshots showing "CII" with the updated "OpenSSF" pages. [Done]
 
 * Go over my CII Best Practices presentation and make sure I am covering everything in that presentation.
 
-* Provides a standard catalog and index into the parts of the projects and how it handles different types of processes.
+* Provides a standard catalog and index into the parts of the projects and how it handles different types of processes. [Done]
 
-* Provides a learning tool for best practices for developers and projects.
-
-* Provides up-to-date info on the latest tools and approaches for addressing issues.
+* Provides a learning tool for best practices for developers and projects. [Done]
 
 * Provides an incremental road map for continuous incremental process and quality improvements for a software project.
 
-* Provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas.
+* Provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas. [Done]
 
-* Provides a website template and database implementation that can be forked and customized for more targeted communities.
+* Provides a website template and database implementation that can be forked and customized for more targeted communities. [Done]
 
-* White House Executive Order 14028 that requires government and DOE software improve software security may impact CSE software.
+* White House Executive Order 14028 that requires government and DOE software improve software security may impact CSE software. [Done]
 
-* Update the statistics of the number of projects on the Badge App site and in each category (search for ???).
+* Update the statistics of the number of projects on the Badge App site and in each category [Done]
 
-* ???
+--->
+
 
 
 [lf]: https://www.linuxfoundation.org/
 [openssf]: https://openssf.org/
 [ossfbpbp]: https://www.coreinfrastructure.org/programs/best-practices-program/ "OpenSSF Best Practices Badge Program"
 [ossfbpba]: https://bestpractices.coreinfrastructure.org/en/projects "OpenSSF Best Practices Badge App"
+[ossfbpbas]: https://bestpractices.coreinfrastructure.org/en/project_stats  "OpenSSF Best Practices Badge App Project Statistics" 
 [ossfbpa]: https://bestpractices.coreinfrastructure.org/en/criteria "FLOSS Best Practices Criteria (All Levels)"
 [eo14028]: https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/
-
+[cc2nd]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete 2nd Edition"
 [description_good]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good
 [interact]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact
 [contribution]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution
 [contribution_requirements]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements
 [dco]: https://bestpractices.coreinfrastructure.org/en/criteria#1.dco
-
+[report_process]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_process
+[report_tracker]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_tracker
+[documentation_architecture]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_architecture
+[documentation_quick_start]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_quick_start
+[vulnerability_report_process]: https://bestpractices.coreinfrastructure.org/en/criteria#0.vulnerability_report_process
+[floss_license]: https://bestpractices.coreinfrastructure.org/en/criteria#0.floss_license
 
 <!---
  Publish: yes
