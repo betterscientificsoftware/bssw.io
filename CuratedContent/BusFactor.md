@@ -20,8 +20,8 @@ Have you ever worked on a on a project where you worry what would happen if the 
 
 
 <!---
-Publish: preview
+Publish: yes
 Topics: Projects and organizations
 Pinned: no
-RSS update: 
+RSS update:
 --->
