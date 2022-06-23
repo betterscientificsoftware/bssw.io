@@ -7,7 +7,7 @@ This set of best practices along with the detailed documentation and supporting 
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
-#### Publication date: ???, 2022
+#### Publication date: June 25, 2022
 
 The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF)<sup>[[openssf]]</sup> is an effort to improve the quality and security of open source software.
 The OpenSSF Best Practices Badge Program<sup>[[ossfbpbp]]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community to a wide rage of open-source software projects.
@@ -340,5 +340,5 @@ ToDo: Describe:
  Publish: yes
  Pinned: no
  Topics: revision control, development tools
- RSS update: ???
+ RSS update: 2022-06-24
 --->
