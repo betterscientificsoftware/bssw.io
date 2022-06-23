@@ -120,9 +120,7 @@ An example of an project's best practice item marked as "Met" with justification
 
 <a name="example_badge_app_item"/>
 
-<img src='../../images/ossf_best_practices_badge_app_item.jpg' class='logo'/>
-
-**Example OpenSSF Best Practices Badge App Project Item**
+<img src='../../images/ossf_best_practices_badge_app_item.jpg' class='page lightbox'/>[Example OpenSSF Best Practices Badge App Project Item]
 
 <br>
 
@@ -133,9 +131,7 @@ For example, one project that has achieved 99% to a Passing badge shows the foll
 
 <a name="example_passing_categories_scores"/>
 
-<img src='../../images/ossf_best_practices_categories_scores.jpg' class='logo'/>
-
-**Example OpenSSF Best Practices Passing-level scores by category**
+<img src='../../images/ossf_best_practices_categories_scores.jpg' class='page lightbox'/>[Example OpenSSF Best Practices Passing-level scores by category]
 
 <br>
 
@@ -147,9 +143,7 @@ One can also click buttons at the top of the project's Badge App page to show on
 
 <a name="example_hide_unmet_expand_panels"/>
 
-<img src='../../images/ossf_best_practices_hide_unmet_expand_panels.jpg' class='logo'/>
-
-**Example OpenSSF Best Practices App page showing control buttons**
+<img src='../../images/ossf_best_practices_hide_unmet_expand_panels.jpg' class='page lightbox'/>[Example OpenSSF Best Practices App page showing control buttons]
 
 <br>
 
@@ -161,9 +155,7 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <a name="example_badge"/>
 
-<img src='../../images/ossf_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox'/>
-
-**Example OpenSSF Best Practice Badge as displayed on a GitHub README.rst file**
+<img src='../../images/ossf_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox'/>[Example OpenSSF Best Practice Badge as displayed on a GitHub README.rst file]
 
 <br>
 
