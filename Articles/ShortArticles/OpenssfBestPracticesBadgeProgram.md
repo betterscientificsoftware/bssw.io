@@ -84,15 +84,15 @@ To demonstrate how these look, the first four "Basic" best practices in the Pass
 
 ----
 
-Statistics for the best practices in each level are given in the following table:
+Key statistics for the best practices in each level<sup>[ossfbpcs]</sup> are given in the following table:
 
 <a name="ossf_best_practices_stats_table"/>
 
-| Level | Total active | MUST | SHOULD | SUGGESTED | Allow N/A | Met justification required | Require URL | Met justification or URL required | Includes details | New at this level |
-| :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| **Passing** | 67 | 43 | 10 | 14 | 27 | 1 | 8 | 9 | 52 | 67 |
-| **Silver** | 55 | 44 | 10 | 1 | 40 | 38 | 17 | 54 | 39 | 48 |
-| **Gold** | 23 | 21 | 2 | 0 | 9 | 13 | 9 | 22 | 16 | 14 |
+| Level | Total active | MUST | SHOULD | SUGGESTED | Allow N/A | Met justification required | Require URL |
+| :-- | --: | --: | --: | --: | --: | --: | --: |
+| **Passing** | 67 | 43 | 10 | 14 | 27 | 1 | 8 |
+| **Silver** | 55 | 44 | 10 | 1 | 40 | 38 | 17 |
+| **Gold** | 23 | 21 | 2 | 0 | 9 | 13 | 9 |
 
 **Table: OpenSSF Best Practice Breakdown**
 
@@ -324,6 +324,7 @@ ToDo: Describe:
 [ossfbpba]: https://bestpractices.coreinfrastructure.org/en/projects "OpenSSF Best Practices Badge App"
 [ossfbpbas]: https://bestpractices.coreinfrastructure.org/en/project_stats  "OpenSSF Best Practices Badge App Project Statistics" 
 [ossfbpa]: https://bestpractices.coreinfrastructure.org/en/criteria "FLOSS Best Practices Criteria (All Levels)"
+[ossfbpcs]: https://bestpractices.coreinfrastructure.org/en/criteria_stats "OpenSSF Best Practices Criteria Statistics"
 [eo14028]: https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/ "White House Cyber Security Executive Order 14028"
 [cc2nd]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete 2nd Edition"
 [description_good]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good "description_good"
