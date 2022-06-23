@@ -1,4 +1,4 @@
-# The OpenSSF Best Practices Badge Program
+# OpenSSF Best Practices Badge Program
 
 <!-- deck text start -->
 The Linux Foundation's OpenSSF Best Practices Badge Program represents an impressive collection of the open source community's knowledge base for creating, maintaining, and sustaining robust, high quality (and most importantly) secure open source software.
