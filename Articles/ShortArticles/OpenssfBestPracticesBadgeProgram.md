@@ -1,27 +1,27 @@
 # The OpenSSF Best Practices Badge Program
 
 <!-- deck text start -->
-The Linux Foundation's OpenSSF Best Practices Badge Program represents an impressive collection of the open source community's knowledge-base for creating, maintaining, and sustaining robust, high-quality (and most importantly) secure open-source software.
-At its foundation is a powerful and feature-full "Badge App" website which provides a database of projects that document what best practices they support and provides supporting evidence for those best practices.
-This set of best practices along with the detailed documentation and supporting justification also serves as an incremental learning tool for software engineering best practices and as a foundation for incremental software process and quality improvements efforts.
+The Linux Foundation's OpenSSF Best Practices Badge Program represents an impressive collection of the open source community's knowledge base for creating, maintaining, and sustaining robust, high quality (and most importantly) secure open source software.
+At its foundation is a featureful "Badge App" website which provides a database of projects that document what best practices they support and supporting evidence.
+This set of best practices along with the detailed documentation and supporting justifications for each item also serves as an incremental learning tool and as a foundation for incremental software process and quality improvements efforts.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
 #### Publication date: June 25, 2022
-
+ 
 The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF)<sup>[[openssf]]</sup> is an effort to improve the quality and security of open source software.
-The OpenSSF Best Practices Badge Program<sup>[[ossfbpbp]]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open-source software development community to a wide rage of open-source software projects.
-The foundation of this badge program is a "Badge App" site<sup>[[ossfbpba]]</sup> that allows projects to create an entry for their project and then to specify which practice is met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how the criteria was met or not.
+The OpenSSF Best Practices Badge Program<sup>[[ossfbpbp],[ossfbpbgh]]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open source software development community to a wide rage of open source software projects.
+The foundation of this badge program is a "Badge App" site<sup>[[ossfbpba]]</sup> that allows projects to create an entry for their project and then to specify which practices are met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how each criteria is met (or why it is not met).
 
 As of 6/22/2022, the "Badge App" site has 4819 registered projects of which 789 have achieved a Passing-level badge.
-In addition, the community registers approximately 700 new open-source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.<sup>[[ossfbpbas]]</sup>
-These data suggest this program is a well-accepted, well-adopted badge program.
+In addition, the community registers approximately 700 new open source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.<sup>[[ossfbpbas]]</sup>
+These data suggest this program is a well accepted, well adopted badge program.
 
 The OpenSSF Best Practices and the supporting Badge App site enables a number of benefits by providing:
 
 * a set of [best practices](#details) that have specific actionable criteria which require supporting evidence,
 
-* a powerful "Badge App" site that enhances the display of the each practice, expanded descriptions of the practices, and fields to enter URL and text descriptions of the status of each practice in the project, 
+* a featureful "Badge App" site that enhances the display of each practice, expanded descriptions of the practices, and fields to enter URL and text descriptions of the status of each practice in the project, 
 
 * a badge that can be displayed on a project's own hosting site to show that a project follows accepted best practices,
 
@@ -62,7 +62,7 @@ The OpenSSF Best Practices are broken down and organized in several different wa
   * Security
   * Analysis
 
-As noted above, some of the practices can be opted-out as not applicable (i.e. "N/A") which is quite important in order for the OpenSSF Best Practices to be broadly applicable.
+As noted above, some of the practices can be opted out as not applicable (i.e. "N/A") which is quite important in order for the OpenSSF Best Practices to be broadly applicable.
 For example, almost all of the technical security-related items can be marked as "N/A" if the project does not have any security-related or security-critical code.
 
 The OpenSSF Best Practices are listed for each badge level individually and as a full set<sup>[[ossfbpa]]</sup>.
@@ -102,7 +102,7 @@ Note that some practices that are listed as SUGGESTED or SHOULD at a lower level
 
 * The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor)</sup>
 
-but at the ***Gold*** level, it re-lists it as MUST:
+but at the ***Gold*** level, it relists it as MUST:
 
 * The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#2.bus_factor)</sup>
 
@@ -167,10 +167,13 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <br>
 
+
+### Badge App project statistics
+
 Note that of the 4819 registered projects on the Badge App site (as of 6/22/2022), 789 projects have achieved a Passing-level badge, 32 have achieved a Silver-level badge, and just 10 have achieved a Gold-level badge.
-So while approximately 16% of the registered projects have achieved a Passing-level badge, only 4% of the Passing-level projects have gone on to achieve a Silver-level badge.  But, interestingly, over 30% of the Silver-level projects have gone on the achieve a Gold-level badge.
-This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieved a Passing badge (i.e. only 4%).
-But this data shows that a large percentage projects that achieve a Silver-level badge go on to achieve a Gold-level badge (over 30%).
+So while approximately 16% of the registered projects have achieved a Passing-level badge, only 4% of the Passing-level projects have gone on to achieve a Silver-level badge.  But, interestingly, over 30% of the Silver-level projects have gone on achieve a Gold-level badge.
+This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieving a Passing badge (i.e. only 4%).
+But this data shows that a large percentage of projects that achieve a Silver-level badge go on to achieve a Gold-level badge (over 30%).
 Therefore, it would appear that the barrier (or reluctance) of going from the Silver-level to the Gold-level is small compared to going from the Passing-level to the Silver-level.
 
 
@@ -184,7 +187,7 @@ And of the 55 Silver-level practices and 23 Gold-level practices, 18 and 5, resp
 The reason that is so interesting is that much of the software development communities focus on software engineering best practices only pays a cursory treatment to security.
 For example, of the over 900 pages in the book "Code Complete: 2nd Edition"<sup>[cc2nd]</sup>, exactly one paragraph is devoted to the area of software security in section 3.5 "Architecture Prerequisite":
 
-> The architecture should describe the approach to design-level and code-level security.
+> The architecture should describe the approach to design level and code level security.
 > If a thread model has not previously been built, it should be built at architecture time.
 > Coding guidelines should be developed with security implications in mind, including approaches to handling buffers, rules for handling untrusted data (data input from users, cookies, configuration data, and other external interfaces), encryption, level of detail contained in error messages, protected secrete data that's in memory, and other issues.
 
@@ -200,26 +203,26 @@ This increased focus on software security is consistent with White House Executi
 As of this writing, there are currently 129 unique best practices listed across the three levels in a wide number of categories.
 Many of these items have detailed explanatory descriptions with links to more information.
 Just carefully reading through all of these practices and their descriptions and following a few of the links can take half a day or more.
-This material, and the material being linked to, provides what can be considered the state-of-the-art in each area in the open source community.
-Therefore, the OpenSSF Best Practices can serve as an effective learning tool for the state-of-the-art in open-source software engineering best practices.
+This material, and the material being linked to, provides what can be considered the state of the art in each area in the open source community.
+Therefore, the OpenSSF Best Practices can serve as an effective learning tool for updated modern open-source software engineering best practices.
 
-Even if one has been in the software engineering and open source area for many years, one may not be aware of what is considered the current state-of-the-art and best practice.
+Even if one has been in the software engineering and open source area for many years, one may not be aware of what is considered the current state of the art and best practice.
 For example, for many years Contributor License Agreements (CLAs) were considered best practice and the recommended way for open source projects to manage IP and copyright issues related to contributions from different individuals and organizations.
-But apprehension on the part of various institutions to sign CLAs and other practical experience, CLAs have lead to the usage of a Developer Certificate of Origin (DCO) to manage these issues instead <sup>[[dco]]</sup>.
+But apprehension on the part of various institutions to sign CLAs and other practical experience with CLAs have led to the usage of a Developer Certificate of Origin (DCO) to manage these issues instead.<sup>[[dco]]</sup>
 And therefore, currently, using a DCO is considered the more recommended practice.
-Without a resource like the OpenSSF Best Practices, it is very difficult for many projects gain this type of knowledge in such a compact manner.
+Without a resource like the OpenSSF Best Practices, it is very difficult for many projects to gain this type of knowledge in such a compact manner.
 
 
 <a name="continuous_improvement"/>
 
-## OpenSSF Best Practices as a road-map for continuous improvement
+## OpenSSF Best Practices as a roadmap for continuous improvement
 
 As described above, the Badge App site provides the current status as a percentage completion to the next badge level for a given project.
 This percentage completion and the number of satisfied practices in each area provides a simple metric and a motivator for improvement for the project.
 For example, if a project is currently at 86% of completion for a Passing badge and has only 8 of the 13 Quality practices, then it is clear where to look at improving.
 
 Also, the Badge App site is set up to send out regular reminders about the status of one's project and provide encouragement to continue making progress.
-For example, below is an email what was sent out by the Badge App for the TriBITS project:
+For example, below is an email which was sent out by the Badge App for the "TriBITS Core" project:
 
 ----
 
@@ -246,7 +249,7 @@ Thank you for your time.
 
 ----
 
-I personally found the reminder helpful and it make it easy to check up on where my project was lacking.
+I personally found the reminder helpful and it made it easy to check up on where my project was lacking.
 
 
 <a name="standard_project_index"/>
@@ -255,7 +258,7 @@ I personally found the reminder helpful and it make it easy to check up on where
 
 One surprising benefit of the OpenSSF Best Practices Badge App site is that provides a standard index into each project for how it addresses different types of processes and where to find specific types of information.
 For example, if one wants to know how issues are reported for a listed project, one can go to the entries [report_process] and [report_tracker] and find URLs to the description of how issues are reported and the issue tracking site itself.
-Likewise, one can quickly find documentation for the architecture for the project<sup>[[documentation_architecture]]</sup> or the quick-start guide<sup>[[documentation_quick_start]]</sup>.
+Likewise, one can quickly find documentation for the architecture for the project<sup>[[documentation_architecture]]</sup> or the quick start guide<sup>[[documentation_quick_start]]</sup>.
 One can quickly find out how to securely report possible vulnerabilities<sup>[[vulnerability_report_process]]</sup>.
 
 
@@ -263,11 +266,11 @@ One can quickly find out how to securely report possible vulnerabilities<sup>[[v
 
 ## Forking and Customizing the OpenSSF Best Practices and Badge App Website
 
-While the OpenSSF Best Practices are very comprehensive and are apparently well-supported by the broader open source software development community, many projects are not fully open source and therefore some of the practices do not apply.
+While the OpenSSF Best Practices are very comprehensive and are apparently well supported by the broader open source software development community, many projects are not fully open source and therefore some of the practices do not apply.
 For example, the MUST item [[floss_license]] requires the software be released as Free-Libre /Open Source Software (FLOSS).
 That is very important for open source software but is not appropriate for many types of proprietary software.
 But most of the other OpenSSF Best Practices are applicable to all types of software.
-So how can other software development communities and organizations take advantage of the applicable OpenSSF Best Practices while excluding those that don't apply; and adding more customized criteria for their community or organization?
+So how can other software development communities and organizations take advantage of the applicable OpenSSF Best Practices while excluding those that don't apply; and also add customized criteria for their community or organization?
 
 One large potential untapped contribution of the Badge App site is that it can serve as a foundation for creating a more targeted set of best practices for a particular software development community or organization.
 In theory, one could fork, modify, and deploy a customized version of the OpenSSF Best Practices Badge Site targeted to an internal organization's projects.
@@ -285,7 +288,7 @@ For example, a U.S. DOE program could create a customized best practices site ba
 
 In summary, the OpenSSF Best Practices provides an impressive, actionable collection of the open source communities best practices with a strong focus on software security.
 The supplied OpenSSF Best Practices Badge App site codifies these best practices and provides blanks for projects to fill in how they implement each item (or not) and where to find out more information.
-When a given badge level is earned (Passing, Silver or Gold), or progress is made towards a badge, the badge can be displayed on the project's hosting site (e.g. GitHub, GitLab, BitBucket, some regular webiste).
+When a given badge level is earned (Passing, Silver or Gold), or progress is made towards a badge, the badge can be displayed on the project's hosting site (e.g. GitHub, GitLab, BitBucket, or other project hosting website).
 The Badge App site also contains features to make it easy to see where a project's practices may be lacking and suggest areas of improvement (and the Badge App site can send out regular reminders to keep making progress).
 
 Finally, the OpenSSF Best Practices Badge App site has the potential to provide a ready implementation foundation for a customized best practices site for more specialized non-open source (e.g. commercial) software development communities and organizations.
@@ -318,7 +321,8 @@ ToDo: Describe:
 
 [lf]: https://www.linuxfoundation.org/
 [openssf]: https://openssf.org/
-[ossfbpbp]: https://www.coreinfrastructure.org/programs/best-practices-program/ "OpenSSF Best Practices Badge Program"
+[ossfbpbp]: https://bestpractices.coreinfrastructure.org/en "OpenSSF Best Practices Badge Program"
+[ossfbpbgh]: https://github.com/coreinfrastructure/best-practices-badge#openssf-best-practices-badge-formerly-cii-best-practices-badge "OpenSSF Best Practices Badge Short Overview"
 [ossfbpba]: https://bestpractices.coreinfrastructure.org/en/projects "OpenSSF Best Practices Badge App"
 [ossfbpbas]: https://bestpractices.coreinfrastructure.org/en/project_stats  "OpenSSF Best Practices Badge App Project Statistics" 
 [ossfbpa]: https://bestpractices.coreinfrastructure.org/en/criteria "FLOSS Best Practices Criteria (All Levels)"
