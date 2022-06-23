@@ -9,12 +9,12 @@ This set of best practices along with the detailed documentation and supporting 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
 #### Publication date: June 25, 2022
  
-The Linux Foundation's<sup>[[lf]]</sup> Open Source Security Foundation (OpenSSF)<sup>[[openssf]]</sup> is an effort to improve the quality and security of open source software.
-The OpenSSF Best Practices Badge Program<sup>[[ossfbpbp],[ossfbpbgh]]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open source software development community to a wide rage of open source software projects.
-The foundation of this badge program is a "Badge App" site<sup>[[ossfbpba]]</sup> that allows projects to create an entry for their project and then to specify which practices are met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how each criteria is met (or why it is not met).
+The Linux Foundation's<sup>[lf]</sup> Open Source Security Foundation (OpenSSF)<sup>[openssf]</sup> is an effort to improve the quality and security of open source software.
+The OpenSSF Best Practices Badge Program<sup>[ossfbpbp],[ossfbpbgh]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open source software development community to a wide rage of open source software projects.
+The foundation of this badge program is a "Badge App" site<sup>[ossfbpba]</sup> that allows projects to create an entry for their project and then to specify which practices are met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how each criteria is met (or why it is not met).
 
 As of 6/22/2022, the "Badge App" site has 4819 registered projects of which 789 have achieved a Passing-level badge.
-In addition, the community registers approximately 700 new open source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.<sup>[[ossfbpbas]]</sup>
+In addition, the community registers approximately 700 new open source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.<sup>[ossfbpbas]</sup>
 These data suggest this program is a well accepted, well adopted badge program.
 
 The OpenSSF Best Practices and the supporting Badge App site enables a number of benefits by providing:
@@ -25,7 +25,7 @@ The OpenSSF Best Practices and the supporting Badge App site enables a number of
 
 * a badge that can be displayed on a project's own hosting site to show that a project follows accepted best practices,
 
-* a particularly strong focus on [software security](#focus_on_security) which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[[eo14028]]</sup> (which is of particular importance to U.S. laboratory and government agencies and contractors, including the U.S. national laboratories),
+* a particularly strong focus on [software security](#focus_on_security) which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[eo14028]</sup> (which is of particular importance to U.S. laboratory and government agencies and contractors, including the U.S. national laboratories),
 
 * a [learning tool](#learning_tool) for best practices for developers and projects,
 
@@ -65,7 +65,7 @@ The OpenSSF Best Practices are broken down and organized in several different wa
 As noted above, some of the practices can be opted out as not applicable (i.e. "N/A") which is quite important in order for the OpenSSF Best Practices to be broadly applicable.
 For example, almost all of the technical security-related items can be marked as "N/A" if the project does not have any security-related or security-critical code.
 
-The OpenSSF Best Practices are listed for each badge level individually and as a full set<sup>[[ossfbpa]]</sup>.
+The OpenSSF Best Practices are listed for each badge level individually and as a full set.<sup>[ossfbpa]</sup>
 They are also listed with and without the detailed description/justification and links to more information.
 Each best practice is composed of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor/link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice item).
 Many items also require a short comment field be filled out and provide a URL to evidence.
@@ -77,10 +77,10 @@ To demonstrate how these look, the first four "Basic" best practices in the Pass
 **Basics**<br>
 **Basic project website content**</br>
 
-* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[[description_good]]</sup>
-* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[[interact]]</sup>
-* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[[contribution]]</sup>
-* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[[contribution_requirements]]</sup>
+* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[description_good]</sup>
+* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[interact]</sup>
+* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[contribution]</sup>
+* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[contribution_requirements]</sup>
 
 ----
 
@@ -100,11 +100,11 @@ Statistics for the best practices in each level are given in the following table
 
 Note that some practices that are listed as SUGGESTED or SHOULD at a lower level are re-listed as MUST at a higher level.  For example, the ***Silver*** level lists the "bus factor" practice as SHOULD:
 
-* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor)</sup>
+* The project **SHOULD** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor](https://bestpractices.coreinfrastructure.org/en/criteria#1.bus_factor)</sup>
 
 but at the ***Gold*** level, it relists it as MUST:
 
-* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[[bus_factor]](https://bestpractices.coreinfrastructure.org/en/criteria#2.bus_factor)</sup>
+* The project **MUST** have a "bus factor" of 2 or more. {Met URL} <sup>[bus_factor](https://bestpractices.coreinfrastructure.org/en/criteria#2.bus_factor)</sup>
 
 (That is why the number of "Total active" practices in the Silver and Gold levels are higher than the number "New at this  level".)
 
@@ -193,7 +193,7 @@ For example, of the over 900 pages in the book "Code Complete: 2nd Edition"<sup>
 
 In addition, other standard texts on software engineering best practices never even mention the word "security".
 
-This increased focus on software security is consistent with White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[[eo14028]]</sup> which requires government and DOE software to improve software security.
+This increased focus on software security is consistent with White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[eo14028]</sup> which requires government and DOE software to improve software security.
 
 
 <a name="learning_tool"/>
@@ -208,7 +208,7 @@ Therefore, the OpenSSF Best Practices can serve as an effective learning tool fo
 
 Even if one has been in the software engineering and open source area for many years, one may not be aware of what is considered the current state of the art and best practice.
 For example, for many years Contributor License Agreements (CLAs) were considered best practice and the recommended way for open source projects to manage IP and copyright issues related to contributions from different individuals and organizations.
-But apprehension on the part of various institutions to sign CLAs and other practical experience with CLAs have led to the usage of a Developer Certificate of Origin (DCO) to manage these issues instead.<sup>[[dco]]</sup>
+But apprehension on the part of various institutions to sign CLAs and other practical experience with CLAs have led to the usage of a Developer Certificate of Origin (DCO) to manage these issues instead.<sup>[dco]</sup>
 And therefore, currently, using a DCO is considered the more recommended practice.
 Without a resource like the OpenSSF Best Practices, it is very difficult for many projects to gain this type of knowledge in such a compact manner.
 
@@ -257,9 +257,9 @@ I personally found the reminder helpful and it made it easy to check up on where
 ## OpenSSF Best Practices Badge App as a standard index into a project
 
 One surprising benefit of the OpenSSF Best Practices Badge App site is that provides a standard index into each project for how it addresses different types of processes and where to find specific types of information.
-For example, if one wants to know how issues are reported for a listed project, one can go to the entries [report_process] and [report_tracker] and find URLs to the description of how issues are reported and the issue tracking site itself.
-Likewise, one can quickly find documentation for the architecture for the project<sup>[[documentation_architecture]]</sup> or the quick start guide<sup>[[documentation_quick_start]]</sup>.
-One can quickly find out how to securely report possible vulnerabilities<sup>[[vulnerability_report_process]]</sup>.
+For example, if one wants to know how issues are reported for a listed project, one can go to the entries ***report_process**<sup>[report_process]</sup> and **report_tracker**<sup>[report_tracker]</sup> and find URLs to the description of how issues are reported and the issue tracking site itself.
+Likewise, one can quickly find documentation for the architecture for the project<sup>[documentation_architecture]</sup> or the quick start guide<sup>[documentation_quick_start]</sup>.
+One can quickly find out how to securely report possible vulnerabilities<sup>[vulnerability_report_process]</sup>.
 
 
 <a name="forking_badge_app_website"/>
@@ -267,7 +267,7 @@ One can quickly find out how to securely report possible vulnerabilities<sup>[[v
 ## Forking and Customizing the OpenSSF Best Practices and Badge App Website
 
 While the OpenSSF Best Practices are very comprehensive and are apparently well supported by the broader open source software development community, many projects are not fully open source and therefore some of the practices do not apply.
-For example, the MUST item [[floss_license]] requires the software be released as Free-Libre /Open Source Software (FLOSS).
+For example, the MUST item ***floss_license***<sup>[floss_license]</sup> requires the software be released as Free-Libre /Open Source Software (FLOSS).
 That is very important for open source software but is not appropriate for many types of proprietary software.
 But most of the other OpenSSF Best Practices are applicable to all types of software.
 So how can other software development communities and organizations take advantage of the applicable OpenSSF Best Practices while excluding those that don't apply; and also add customized criteria for their community or organization?
@@ -276,7 +276,7 @@ One large potential untapped contribution of the Badge App site is that it can s
 In theory, one could fork, modify, and deploy a customized version of the OpenSSF Best Practices Badge Site targeted to an internal organization's projects.
 This is allowed because the [Badge App site source on GitHub](https://github.com/coreinfrastructure/best-practices-badge) uses the very permissive [MIT License](https://github.com/coreinfrastructure/best-practices-badge/blob/main/LICENSE) which allows for commercial usage.
 
-Information on how to fork, customize, and deploy a modified set of best practices is described in the [Badge App Implementation page](https://github.com/coreinfrastructure/best-practices-badge/blob/main/doc/implementation.md) which is pointed to by the Badge App's [[documentation_architecture]] entry.
+Information on how to fork, customize, and deploy a modified set of best practices is described in the [Badge App Implementation page](https://github.com/coreinfrastructure/best-practices-badge/blob/main/doc/implementation.md) which is pointed to by the Badge App's [documentation_architecture] entry.
 In particular the section [changing criteria](https://github.com/coreinfrastructure/best-practices-badge/blob/main/doc/implementation.md#changing-criteria) describes how to modify the existing items, including adding and removing items.
 
 For example, a U.S. DOE program could create a customized best practices site based on the OpenSSF Best Practices Badge App site specialized for specific internal programs of great importance to U.S. national security.
@@ -317,28 +317,26 @@ ToDo: Describe:
 
 --->
 
-
-
-[lf]: https://www.linuxfoundation.org/
-[openssf]: https://openssf.org/
+[lf]: https://www.linuxfoundation.org/ "Linux Foundation"
+[openssf]: https://openssf.org/ "Open Source Security Foundation"
 [ossfbpbp]: https://bestpractices.coreinfrastructure.org/en "OpenSSF Best Practices Badge Program"
 [ossfbpbgh]: https://github.com/coreinfrastructure/best-practices-badge#openssf-best-practices-badge-formerly-cii-best-practices-badge "OpenSSF Best Practices Badge Short Overview"
 [ossfbpba]: https://bestpractices.coreinfrastructure.org/en/projects "OpenSSF Best Practices Badge App"
 [ossfbpbas]: https://bestpractices.coreinfrastructure.org/en/project_stats  "OpenSSF Best Practices Badge App Project Statistics" 
 [ossfbpa]: https://bestpractices.coreinfrastructure.org/en/criteria "FLOSS Best Practices Criteria (All Levels)"
-[eo14028]: https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/
+[eo14028]: https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/ "White House Cyber Security Executive Order 14028"
 [cc2nd]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete 2nd Edition"
-[description_good]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good
-[interact]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact
-[contribution]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution
-[contribution_requirements]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements
-[dco]: https://bestpractices.coreinfrastructure.org/en/criteria#1.dco
-[report_process]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_process
-[report_tracker]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_tracker
-[documentation_architecture]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_architecture
-[documentation_quick_start]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_quick_start
-[vulnerability_report_process]: https://bestpractices.coreinfrastructure.org/en/criteria#0.vulnerability_report_process
-[floss_license]: https://bestpractices.coreinfrastructure.org/en/criteria#0.floss_license
+[description_good]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good "[description_good]"
+[interact]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact "[interact]" 
+[contribution]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution "[contribution]"
+[contribution_requirements]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements "[contribution_requirements]"
+[dco]: https://bestpractices.coreinfrastructure.org/en/criteria#1.dco "[dco]"
+[report_process]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_process "[report_process]"
+[report_tracker]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_tracker "[report_tracker]"
+[documentation_architecture]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_architecture "[documentation_architecture]"
+[documentation_quick_start]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_quick_start "[documentation_quick_start]"
+[vulnerability_report_process]: https://bestpractices.coreinfrastructure.org/en/criteria#0.vulnerability_report_process "[vulnerability_report_process]"
+[floss_license]: https://bestpractices.coreinfrastructure.org/en/criteria#0.floss_license "[floss_license]"
 
 <!---
  Publish: yes
