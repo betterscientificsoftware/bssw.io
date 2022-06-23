@@ -44,6 +44,7 @@ These different aspects of the OpenSSF Best Practices Program and Badge App are 
 
 Before getting into the some of the surprising benefits of the OpenSSF Best Practices and Badge App site, it is worth going into some detail about the best practices themselves and the "Badge App" website.
 
+
 ### Best practice criteria classifications
 
 The OpenSSF Best Practices are broken down and organized in several different ways:
@@ -72,6 +73,7 @@ They are also listed with and without the detailed description/justification and
 Each best practice is composed of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor/link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice item).
 Many items also require a short comment field be filled out and provide a URL to evidence.
 
+
 ### Example of best practice criteria
 
 To demonstrate how these best practice criteria look on the website, the first four "Basic" best practice criteria in the Passing level are stated as:
@@ -87,6 +89,7 @@ To demonstrate how these best practice criteria look on the website, the first f
 * The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[contribution_requirements]</sup>
 
 ----
+
 
 ### Criteria statistics
 
@@ -114,6 +117,7 @@ but at the ***Gold*** level, it relists it as MUST:
 
 (That is why the number of "Total active" practices in the Silver and Gold levels are higher than the number "New at this  level".)
 
+
 <a name="badge_app"/>
 
 ### Badge App site
@@ -126,22 +130,22 @@ This site allows project maintainers to create an entry for their project (which
 (Again, only a subset of practices allow an "N/A" response.)
 An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
 
-<br>
-
 <a name="example_badge_app_item"/>
 
-<img src='../../images/ossf_best_practices_badge_app_item.jpg' class='page lightbox'/>[Example OpenSSF Best Practices Badge App Project Item]
+<br>
+
+<img src='../../images/ossf_best_practices_badge_app_item.jpg' class='page lightbox' />[Example OpenSSF Best Practices Badge App Project Item]
 
 <br>
 
 After a project creates an entry on the OpenSSF Best Practices Badge App site, the site provides scores for each of the six categories separately in each badge level (Passing, Silver and Gold) and provides the percentage completion for the current badge being sought.
 For example, one project that has achieved 99% to a Passing badge shows the following scores in each category:
 
-<br>
-
 <a name="example_passing_categories_scores"/>
 
-<img src='../../images/ossf_best_practices_categories_scores.jpg' class='page lightbox'/>[Example OpenSSF Best Practices Passing-level scores by category]
+<br>
+
+<img src='../../images/ossf_best_practices_categories_scores.jpg' class='page lightbox' />[Example OpenSSF Best Practices Passing-level scores by category]
 
 <br>
 
@@ -149,15 +153,16 @@ This view of the project on the Badge App site makes it easy to see where the pr
 One can then expand a deficient category (the "Security" category in this example) and see which criteria are not being met and why.
 One can also click buttons at the top of the project's Badge App page to show only the unmet criteria in all the categories, for example, by clicking the "Hide met & N/A" then the "Expand panels" buttons in edit mode as shown below:
 
-<br>
-
 <a name="example_hide_unmet_expand_panels"/>
 
-<img src='../../images/ossf_best_practices_hide_unmet_expand_panels.jpg' class='page lightbox'/>[Example OpenSSF Best Practices App page showing control buttons]
+<br>
+
+<img src='../../images/ossf_best_practices_hide_unmet_expand_panels.jpg' class='page lightbox' />[Example OpenSSF Best Practices App page showing control buttons]
 
 <br>
 
 Also, one can expand to show the details for each practice by either clicking "Show all details" at the top or "Show details" for an individual item to read more about each unmet best practice and the criteria needed to satisfy it.
+
 
 <a name="badge_display"/>
 
@@ -170,7 +175,7 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 <br>
 
-<img src='../../images/ossf_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox'/>[Example OpenSSF Best Practice Badge as displayed on a GitHub README.rst file]
+<img src='../../images/ossf_best_practices_badge_example_passing_99_percent.jpg' class='page lightbox' />[Example OpenSSF Best Practice Badge as displayed on a GitHub README.rst file]
 
 <br>
 
@@ -352,3 +357,4 @@ ToDo: Describe:
  Topics: revision control, development tools
  RSS update: 2022-06-24
 --->
+
