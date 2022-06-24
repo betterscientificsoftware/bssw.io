@@ -329,27 +329,27 @@ ToDo: Describe:
 
 --->
 
-[lf]: https://www.linuxfoundation.org/ "Linux Foundation"
-[openssf]: https://openssf.org/ "Open Source Security Foundation"
-[ossfbpbp]: https://bestpractices.coreinfrastructure.org/en "OpenSSF Best Practices Badge Program"
-[ossfbpbgh]: https://github.com/coreinfrastructure/best-practices-badge#openssf-best-practices-badge-formerly-cii-best-practices-badge "OpenSSF Best Practices Badge Short Overview"
-[ossfbpba]: https://bestpractices.coreinfrastructure.org/en/projects "OpenSSF Best Practices Badge App"
-[ossfbpbas]: https://bestpractices.coreinfrastructure.org/en/project_stats  "OpenSSF Best Practices Badge App Project Statistics"
-[ossfbpa]: https://bestpractices.coreinfrastructure.org/en/criteria "FLOSS Best Practices Criteria (All Levels)"
-[ossfbpcs]: https://bestpractices.coreinfrastructure.org/en/criteria_stats "OpenSSF Best Practices Criteria Statistics"
-[eo14028]: https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/ "White House Cyber Security Executive Order 14028"
-[cc2nd]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete 2nd Edition"
-[description_good]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good "description_good"
-[interact]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact "interact"
-[contribution]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution "contribution"
-[contribution_requirements]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements "contribution_requirements"
-[dco]: https://bestpractices.coreinfrastructure.org/en/criteria#1.dco "dco"
-[report_process]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_process "report_process"
-[report_tracker]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_tracker "report_tracker"
-[documentation_architecture]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_architecture "documentation_architecture"
-[documentation_quick_start]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_quick_start "documentation_quick_start"
-[vulnerability_report_process]: https://bestpractices.coreinfrastructure.org/en/criteria#0.vulnerability_report_process "vulnerability_report_process"
-[floss_license]: https://bestpractices.coreinfrastructure.org/en/criteria#0.floss_license "floss_license"
+[lf-sfer-ezikiw]: https://www.linuxfoundation.org/ "Linux Foundation"
+[openssf-sfer-ezikiw]: https://openssf.org/ "Open Source Security Foundation"
+[ossfbpbp-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en "OpenSSF Best Practices Badge Program"
+[ossfbpbgh-sfer-ezikiw]: https://github.com/coreinfrastructure/best-practices-badge#openssf-best-practices-badge-formerly-cii-best-practices-badge "OpenSSF Best Practices Badge Short Overview"
+[ossfbpba-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/projects "OpenSSF Best Practices Badge App"
+[ossfbpbas-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/project_stats  "OpenSSF Best Practices Badge App Project Statistics"
+[ossfbpa-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria "FLOSS Best Practices Criteria (All Levels)"
+[ossfbpcs-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria_stats "OpenSSF Best Practices Criteria Statistics"
+[eo14028-sfer-ezikiw]: https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/ "White House Cyber Security Executive Order 14028"
+[cc2nd-sfer-ezikiw]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete 2nd Edition"
+[description_good-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good "description_good"
+[interact-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact "interact"
+[contribution-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution "contribution"
+[contribution_requirements-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements "contribution_requirements"
+[dco-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria#1.dco "dco"
+[report_process-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_process "report_process"
+[report_tracker-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_tracker "report_tracker"
+[documentation_architecture-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_architecture "documentation_architecture"
+[documentation_quick_start-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_quick_start "documentation_quick_start"
+[vulnerability_report_process-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria#0.vulnerability_report_process "vulnerability_report_process"
+[floss_license-sfer-ezikiw]: https://bestpractices.coreinfrastructure.org/en/criteria#0.floss_license "floss_license"
 
 <!---
  Publish: yes
@@ -358,3 +358,49 @@ ToDo: Describe:
  RSS update: 2022-06-24
 --->
 
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[lf]: #sfer-ezikiw-lf "Linux Foundation"
+[openssf]: #sfer-ezikiw-openssf "Open Source Security Foundation"
+[ossfbpbp]: #sfer-ezikiw-ossfbpbp "OpenSSF Best Practices Badge Program"
+[ossfbpbgh]: #sfer-ezikiw-ossfbpbgh "OpenSSF Best Practices Badge Short Overview"
+[ossfbpba]: #sfer-ezikiw-ossfbpba "OpenSSF Best Practices Badge App"
+[ossfbpbas]: #sfer-ezikiw-ossfbpbas "OpenSSF Best Practices Badge App Project Statistics"
+[ossfbpa]: #sfer-ezikiw-ossfbpa "FLOSS Best Practices Criteria (All Levels)"
+[ossfbpcs]: #sfer-ezikiw-ossfbpcs "OpenSSF Best Practices Criteria Statistics"
+[eo14028]: #sfer-ezikiw-eo14028 "White House Cyber Security Executive Order 14028"
+[cc2nd]: #sfer-ezikiw-cc2nd "Code Complete 2nd Edition"
+[description_good]: #sfer-ezikiw-description_good "description_good"
+[interact]: #sfer-ezikiw-interact "interact"
+[contribution]: #sfer-ezikiw-contribution "contribution"
+[contribution_requirements]: #sfer-ezikiw-contribution_requirements "contribution_requirements"
+[dco]: #sfer-ezikiw-dco "dco"
+[report_process]: #sfer-ezikiw-report_process "report_process"
+[report_tracker]: #sfer-ezikiw-report_tracker "report_tracker"
+[documentation_architecture]: #sfer-ezikiw-documentation_architecture "documentation_architecture"
+[documentation_quick_start]: #sfer-ezikiw-documentation_quick_start "documentation_quick_start"
+[vulnerability_report_process]: #sfer-ezikiw-vulnerability_report_process "vulnerability_report_process"
+[floss_license]: #sfer-ezikiw-floss_license "floss_license"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-cc2nd"></a><sup>cc2nd</sup>[Code Complete 2nd Edition](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
+* <a name="sfer-ezikiw-contribution"></a><sup>contribution</sup>[contribution](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution)
+* <a name="sfer-ezikiw-contribution_requirements"></a><sup>contribution_requirements</sup>[contribution_requirements](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.contribution_requirements)
+* <a name="sfer-ezikiw-dco"></a><sup>dco</sup>[dco](https://bestpractices.coreinfrastructure.org/en/criteria#1.dco)
+* <a name="sfer-ezikiw-description_good"></a><sup>description_good</sup>[description_good](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good)
+* <a name="sfer-ezikiw-documentation_architecture"></a><sup>documentation_architecture</sup>[documentation_architecture](https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_architecture)
+* <a name="sfer-ezikiw-documentation_quick_start"></a><sup>documentation_quick_start</sup>[documentation_quick_start](https://bestpractices.coreinfrastructure.org/en/criteria#1.documentation_quick_start)
+* <a name="sfer-ezikiw-eo14028"></a><sup>eo14028</sup>[White House Cyber Security Executive Order 14028](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
+* <a name="sfer-ezikiw-floss_license"></a><sup>floss_license</sup>[floss_license](https://bestpractices.coreinfrastructure.org/en/criteria#0.floss_license)
+* <a name="sfer-ezikiw-interact"></a><sup>interact</sup>[interact](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact)
+* <a name="sfer-ezikiw-lf"></a><sup>lf</sup>[Linux Foundation](https://www.linuxfoundation.org/)
+* <a name="sfer-ezikiw-openssf"></a><sup>openssf</sup>[Open Source Security Foundation](https://openssf.org/)
+* <a name="sfer-ezikiw-ossfbpa"></a><sup>ossfbpa</sup>[FLOSS Best Practices Criteria (All Levels)](https://bestpractices.coreinfrastructure.org/en/criteria)
+* <a name="sfer-ezikiw-ossfbpba"></a><sup>ossfbpba</sup>[OpenSSF Best Practices Badge App](https://bestpractices.coreinfrastructure.org/en/projects)
+* <a name="sfer-ezikiw-ossfbpbas"></a><sup>ossfbpbas</sup>[OpenSSF Best Practices Badge App Project Statistics](https://bestpractices.coreinfrastructure.org/en/project_stats)
+* <a name="sfer-ezikiw-ossfbpbgh"></a><sup>ossfbpbgh</sup>[OpenSSF Best Practices Badge Short Overview](https://github.com/coreinfrastructure/best-practices-badge#openssf-best-practices-badge-formerly-cii-best-practices-badge)
+* <a name="sfer-ezikiw-ossfbpbp"></a><sup>ossfbpbp</sup>[OpenSSF Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en)
+* <a name="sfer-ezikiw-ossfbpcs"></a><sup>ossfbpcs</sup>[OpenSSF Best Practices Criteria Statistics](https://bestpractices.coreinfrastructure.org/en/criteria_stats)
+* <a name="sfer-ezikiw-report_process"></a><sup>report_process</sup>[report_process](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_process)
+* <a name="sfer-ezikiw-report_tracker"></a><sup>report_tracker</sup>[report_tracker](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.report_tracker)
+* <a name="sfer-ezikiw-vulnerability_report_process"></a><sup>vulnerability_report_process</sup>[vulnerability_report_process](https://bestpractices.coreinfrastructure.org/en/criteria#0.vulnerability_report_process)
