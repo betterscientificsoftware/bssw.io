@@ -35,7 +35,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 <!---
 Publish: yes
 Categories: skills
-Topics: "strategies for more effective teams", "software engineering", "software process improvement", “online learning”
+Topics: strategies for more effective teams, software engineering, software process improvement, online learning
 Level: 2
 Prerequisites: default
 Aggregate: none
