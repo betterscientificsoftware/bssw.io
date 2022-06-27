@@ -10,7 +10,7 @@
 
 Resource information | Detail
 :--- | :---
-Websites  |   OpenSSF Best Practices - [bus factor](https:///bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.bus_factor)<br> 5 Whys - [Why your 'best’ developer is your biggest problem](https://www.5whys.com/articles/the-bus-factor-why-your-best-developer-is-your-biggest-probl.html)<br>5 Whys - [Two techniques to avoid the bus factor](https://www.5whys.com/articles/two-techniques-to-avoid-the-bus-factor-in-your-teams-push-an.html)<br> DeveloperExperience.io - [Bus Factor](https://developerexperience.io/practices/bus-factor)
+Websites  |   OpenSSF Best Practices - [bus factor](https:///bestpractices.coreinfrastructure.org/en/criteria?details=true&rationale=true#1.bus_factor)<br> 5 Whys - ["Why your 'best’ developer is your biggest problem"](https://www.5whys.com/articles/the-bus-factor-why-your-best-developer-is-your-biggest-probl.html)<br>5 Whys - ["Two techniques to avoid the bus factor"](https://www.5whys.com/articles/two-techniques-to-avoid-the-bus-factor-in-your-teams-push-an.html)<br> DeveloperExperience.io - ["Bus Factor"](https://developerexperience.io/practices/bus-factor)
 Focus | Project Sustainability
 
 
@@ -30,9 +30,9 @@ It is an important part of continuous planning for project sustainability throug
 [5 Whys](https://www.5whys.com), a blog for software team leaders has several short articles that can help to increase your project's bus factor including the following two: 
 
    - ["Why your 'best’ developer is your biggest problem"](https://www.5whys.com/articles/the-bus-factor-why-your-best-developer-is-your-biggest-probl.html) has great suggestions for thinking through who the key team members are (including the project manager) and actions to increase the bus factor for your project.  
-   - [Two techniques to avoid the bus factor](https://www.5whys.com/articles/two-techniques-to-avoid-the-bus-factor-in-your-teams-push-an.html) explains using push and pull techniques for sharing information among project members.
+   - ["Two techniques to avoid the bus factor"](https://www.5whys.com/articles/two-techniques-to-avoid-the-bus-factor-in-your-teams-push-an.html) explains using push and pull techniques for sharing information among project members.
 
-The DeveloperExperience.io [Bus Factor](https://developerexperience.io/practices/bus-factor) article outlines good practices for increasing bus factor for software development teams as well as some common pitfalls.
+The DeveloperExperience.io ["Bus Factor"](https://developerexperience.io/practices/bus-factor) article outlines good practices for increasing bus factor for software development teams as well as some common pitfalls.
 
 These are just a few of the many articles about bus factor that are available. They are presented here to help increase the bus factor of your scientific software project and mitigate the effects of sudden loss of key team members.
 
