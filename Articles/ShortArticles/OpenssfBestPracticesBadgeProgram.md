@@ -128,7 +128,7 @@ One of the more unique features of the OpenSSF Best Practices program is the Ope
 
 This site allows project maintainers to create an entry for their project (which then creates a unique project ID) and go through the process of reading about each best practice item and marking each as "Met", "Unmet", "N/A", or "?".
 (Again, only a subset of practices allow an "N/A" response.)
-An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
+An example of a project's best practice item marked as "Met" with justification and a URL to evidence is given below:
 
 <a name="example_badge_app_item"/>
 
