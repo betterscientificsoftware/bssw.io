@@ -14,10 +14,10 @@ The OpenSSF Best Practices Badge Program<sup>[ossfbpbp],[ossfbpbgh]</sup> is an 
 The foundation of this badge program is a "Badge App" site<sup>[ossfbpba]</sup> that allows projects to create an entry for their project and then to specify which practices are met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how each criteria is met (or why it is not met).
 
 As of 6/22/2022, the "Badge App" site has 4819 registered projects of which 789 have achieved a Passing-level badge.
-In addition, the community registers approximately 700 new open source projects on the site each year and approximately 158 projects achieve a Passing-level badge each year for the last several years.<sup>[ossfbpbas]</sup>
+In addition, the community registers approximately 700 new open source projects on the site each year and approximately 158 projects have achieved a Passing-level badge each year for the last several years.<sup>[ossfbpbas]</sup>
 These data suggest this program is a well accepted, well adopted badge program.
 
-The OpenSSF Best Practices and the supporting Badge App site enables a number of benefits by providing:
+The OpenSSF Best Practices and the supporting Badge App site enable a number of benefits by providing:
 
 * a set of [best practices](#details) that have specific actionable criteria which require supporting evidence,
 
@@ -25,7 +25,7 @@ The OpenSSF Best Practices and the supporting Badge App site enables a number of
 
 * a [badge](#badge_display) that can be displayed on a project's own hosting site to show that a project follows accepted best practices,
 
-* a particularly strong focus on [software security](#focus_on_security) which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[eo14028]</sup> (which is of particular importance to U.S. laboratory and government agencies and contractors, including the U.S. national laboratories),
+* a particularly strong focus on [software security](#focus_on_security) which addresses the White House Executive Order 14028 "Improving the Nation's Cybersecurity"<sup>[eo14028]</sup> (of particular importance to U.S. laboratory and government agencies and contractors, including the U.S. national laboratories),
 
 * a [learning tool](#learning_tool) for best practices for developers and projects,
 
@@ -70,7 +70,7 @@ For example, almost all of the technical security-related items can be marked as
 
 The OpenSSF Best Practices are listed for each badge level individually and as a full set.<sup>[ossfbpa]</sup>
 They are also listed with and without the detailed description/justification and links to more information.
-Each best practice is composed of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor/link name (which serves as a link to the practice and as an unambiguous shorthand identifier for that best practice item).
+Each best practice is composed of a short statement of the practice (with the word MUST, SHOULD, or SUGGESTED) and a short HTML anchor/link name (that serves as a link to the practice and as an unambiguous shorthand identifier for that best practice item).
 Many items also require a short comment field be filled out and provide a URL to evidence.
 
 
@@ -128,7 +128,7 @@ One of the more unique features of the OpenSSF Best Practices program is the Ope
 
 This site allows project maintainers to create an entry for their project (which then creates a unique project ID) and go through the process of reading about each best practice item and marking each as "Met", "Unmet", "N/A", or "?".
 (Again, only a subset of practices allow an "N/A" response.)
-An example of an project's best practice item marked as "Met" with justification and a URL to evidence is given below:
+An example of a project's best practice item marked as "Met" with justification and a URL to evidence is given below:
 
 <a name="example_badge_app_item"/>
 
