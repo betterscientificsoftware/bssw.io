@@ -83,10 +83,10 @@ To demonstrate how these best practice criteria look on the website, the first f
 **Basics**<br>
 **Basic project website content**</br>
 
-* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>[10]</sup>
-* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>[11]</sup>
-* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>[12]</sup>
-* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>[13]</sup>
+* The project website MUST succinctly describe what the software does (what problem does it solve?). <sup>\[description_good\]([10])</sup>
+* The project website MUST provide information on how to: obtain, provide feedback (as bug reports or enhancements), and contribute to the software. <sup>\[interact\]([11])</sup>
+* The information on how to contribute MUST explain the contribution process (e.g., are pull requests used?) {Met URL} <sup>\[contribution\]([12])</sup>
+* The information on how to contribute SHOULD include the requirements for acceptable contributions (e.g., a reference to any required coding standard). {Met URL} <sup>\[contribution_requirements\]([13])</sup>
 
 ----
 
