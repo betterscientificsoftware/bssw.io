@@ -46,7 +46,7 @@ Things are by not by any means bad. We’re getting there. During the year I wor
 
 ### Author bios
 
-Marisol García-Reyes
+[Marisol García-Reyes](https://github.com/marisolgr) is a principal scientist at the [Farallon Institute](http://www.faralloninstitute.org/), a nonprofit scientific organization. [Her research](http://www.faralloninstitute.org/marisol) focuses on the relationships between ocean conditions and marine ecosystems, and how they are impacted by climate. Marisol is committed to increasing equity and diversity in science and education by improving access to computational technology and increasing and broadening participation.
 
 <!---
 Publish: yes
