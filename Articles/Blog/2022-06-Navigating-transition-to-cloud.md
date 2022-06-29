@@ -1,7 +1,7 @@
 # Navigating the Transition of (Climate) Science to the Cloud
 
-As data for science is increasing available via cloud computing resources, challenges arise in keeping up with  
-fast-growing and fast-changing innovations in the world of large data and cloud computing. 
+As data for science is increasing available via cloud computing resources, challenges arise in keeping up with
+fast-growing and fast-changing innovations in the world of large data and cloud computing.
 This article discusses lessons learned in developing a tutorial about how to extract, visualize, and analyze time series of Earth data from satellite and satellite-based datasets in the cloud.
 
 #### Contributed by [Marisol García-Reyes](https://github.com/marisolgr)
