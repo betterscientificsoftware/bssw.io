@@ -1,8 +1,8 @@
 # Navigating the Transition of (Climate) Science to the Cloud
 
-**Hero Image:**
-
-- <img src='../../images/Blog_2206_AE4s_A.png' />
+As data for science is increasing available via cloud computing resources, challenges arise in keeping up with  
+fast-growing and fast-changing innovations in the world of large data and cloud computing. 
+This article discusses lessons learned in developing a tutorial about how to extract, visualize, and analyze time series of Earth data from satellite and satellite-based datasets in the cloud.
 
 #### Contributed by [Marisol García-Reyes](https://github.com/marisolgr)
 
@@ -20,7 +20,7 @@ Using satellite and satellite-based (reanalysis) datasets for climate and climat
 
 Luckily, many advances in computing increasingly facilitate the acquisition and analysis of such data, from cloud storage and computing, to programming languages and libraries that have largely increased the efficiency of code while reducing the need of specialized hardware on-site. However, for scientists of other fields who are or can potentially be interested in using long-term time series of satellite data in their research, knowing where to start and what to learn can be daunting and confusing, and the learning curve can be steep and discouragingly time consuming. Providing access to these large Earth dataset and computing advances cannot be achieved only by sharing code in Github or data in the cloud; there is also an urgent need for tools and guides that facilitate their use.
 
-With the support of the Better Scientific Software (BSSw) Fellowship, and building on NASA-supported work, I developed a tutorial that aims to provide an overview of how to extract, visualize, and analyze time series of Earth data from satellite and satellite-based datasets in the cloud. The idea behind the tutorial is to get new users’ toes wet, so that they can learn about the capabilities of new data technologies through hands-on examples, hopefully inspiring them to learn more and apply these tools to their research.
+With the support of the [Better Scientific Software (BSSw) Fellowship](https://bssw.io/fellowship), and building on NASA-supported work, I developed a tutorial that aims to provide an overview of how to extract, visualize, and analyze time series of Earth data from satellite and satellite-based datasets in the cloud. The idea behind the tutorial is to get new users’ toes wet, so that they can learn about the capabilities of new data technologies through hands-on examples, hopefully inspiring them to learn more and apply these tools to their research.
 
 The tutorial can be found in Github (<https://github.com/marisolgr/python_sat_tutorials>) and can be run entirely in the cloud with the help of mybinder.org. That way, new users can bypass the technicalities of installing Python, Jupyter Notebooks, and all the necessary libraries, and in particular, keeping those libraries up-to-date and compatible. The tutorial is divided in two sections. The first contains the basic Python concepts and commands that are needed to understand and run. The second part contains examples of data acquisition and analysis and is divided into three sections: ocean, atmospheric, and land data, with a combination of data from the cloud and online, satellite, and satellite-based. The tutorial is designed for self-study, but I gave a few online classes as a demonstration and to gauge the user experience with the tutorial material and approach.
 
