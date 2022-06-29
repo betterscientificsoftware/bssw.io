@@ -40,12 +40,12 @@ These different aspects of the OpenSSF Best Practices Program and Badge App are 
 
 <a name="details"/>
 
-## OpenSSF Best Practices and Badge App Details
+### OpenSSF Best Practices and Badge App Details
 
 Before getting into the some of the surprising benefits of the OpenSSF Best Practices and Badge App site, it is worth going into some detail about the best practices themselves and the "Badge App" website.
 
 
-### Best practice criteria classifications
+**Best practice criteria classifications**
 
 The OpenSSF Best Practices are broken down and organized in several different ways:
 
@@ -74,7 +74,7 @@ Each best practice is composed of a short statement of the practice (with the wo
 Many items also require a short comment field be filled out and provide a URL to evidence.
 
 
-### Example of best practice criteria
+**Example of best practice criteria**
 
 To demonstrate how these best practice criteria look on the website, the first four "Basic" best practice criteria in the Passing level are stated as:
 
@@ -91,7 +91,7 @@ To demonstrate how these best practice criteria look on the website, the first f
 ----
 
 
-### Criteria statistics
+**Criteria statistics**
 
 Key statistics for the best practices in each level<sup>[7]</sup> are given in the following table:
 
@@ -120,7 +120,7 @@ but at the ***Gold*** level, it relists it as MUST:
 
 <a name="badge_app"/>
 
-### Badge App site
+**Badge App site**
 
 One of the more unique features of the OpenSSF Best Practices program is the OpenSSF Best Practices "Badge App" site:
 
@@ -172,8 +172,7 @@ Also, one can expand to show the details for each practice by either clicking "S
 
 <a name="badge_display"/>
 
-### Project badge display
-
+**Project badge display**
 
 After a project's maintainers have created a Badge App entry for the project, the project can display it's OpenSSF Best Practices Badge (or percentage progress to a badge) using a link to the project's entry on the Badge App site.  For example, a GitHub project's rendered README file can display the OpenSSF Best Practices badge at the top like:
 
@@ -188,7 +187,7 @@ After a project's maintainers have created a Badge App entry for the project, th
 <br>
 
 
-### Badge App project statistics
+**Badge App project statistics**
 
 Note that of the 4819 registered projects on the Badge App site (as of 6/22/2022), 789 projects have achieved a Passing-level badge, 32 have achieved a Silver-level badge, and just 10 have achieved a Gold-level badge.
 So while approximately 16% of the registered projects have achieved a Passing-level badge, only 4% of the Passing-level projects have gone on to achieve a Silver-level badge.  But, interestingly, over 30% of the Silver-level projects have gone on achieve a Gold-level badge.
@@ -199,7 +198,7 @@ Therefore, it would appear that the barrier (or reluctance) of going from the Si
 
 <a name="focus_on_security"/>
 
-##  OpenSSF Best Practices focus on software security
+**OpenSSF Best Practices focus on software security**
 
 One of the unique features of the OpenSSF Best Practices is the significant focus on security best practices.
 For example, of the 67 best practices listed at the Passing level, 16 of them are in the area of security.
@@ -218,7 +217,7 @@ This increased focus on software security is consistent with White House Executi
 
 <a name="learning_tool"/>
 
-## OpenSSF Best Practices as a learning tool
+**OpenSSF Best Practices as a learning tool**
 
 As of this writing, there are currently 129 unique best practices listed across the three levels in a wide number of categories.
 Many of these items have detailed explanatory descriptions with links to more information.
@@ -235,7 +234,7 @@ Without a resource like the OpenSSF Best Practices, it is very difficult for man
 
 <a name="continuous_improvement"/>
 
-## OpenSSF Best Practices as a roadmap for continuous improvement
+### OpenSSF Best Practices as a roadmap for continuous improvement
 
 As described above, the Badge App site provides the current status as a percentage completion to the next badge level for a given project.
 This percentage completion and the number of satisfied practices in each area provides a simple metric and a motivator for improvement for the project.
@@ -274,7 +273,7 @@ I personally found the reminder helpful and it made it easy to check up on where
 
 <a name="standard_project_index"/>
 
-## OpenSSF Best Practices Badge App as a standard index into a project
+### OpenSSF Best Practices Badge App as a standard index into a project
 
 One surprising benefit of the OpenSSF Best Practices Badge App site is that provides a standard index into each project for how it addresses different types of processes and where to find specific types of information.
 For example, if one wants to know how issues are reported for a listed project, one can go to the entries ***report_process*** <sup>[15]</sup> and ***report_tracker*** <sup>[16]</sup> and find URLs to the description of how issues are reported and the issue tracking site itself.
@@ -284,7 +283,7 @@ One can quickly find out how to securely report possible vulnerabilities<sup>[19
 
 <a name="forking_badge_app_website"/>
 
-## Forking and Customizing the OpenSSF Best Practices and Badge App Website
+### Forking and Customizing the OpenSSF Best Practices and Badge App Website
 
 While the OpenSSF Best Practices are very comprehensive and are apparently well supported by the broader open source software development community, many projects are not fully open source and therefore some of the practices do not apply.
 For example, the MUST item \[floss_license\]<sup>[20]</sup> requires the software be released as Free-Libre /Open Source Software (FLOSS).
@@ -304,7 +303,7 @@ For example, a U.S. DOE program could create a customized best practices site ba
 
 <a name="summary"/>
 
-## Summary
+### Summary
 
 In summary, the OpenSSF Best Practices provides an impressive, actionable collection of the open source communities best practices with a strong focus on software security.
 The supplied OpenSSF Best Practices Badge App site codifies these best practices and provides blanks for projects to fill in how they implement each item (or not) and where to find out more information.
