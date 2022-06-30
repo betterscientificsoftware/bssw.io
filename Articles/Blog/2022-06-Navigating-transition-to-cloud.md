@@ -1,6 +1,6 @@
 # Navigating the Transition of (Climate) Science to the Cloud
 
-As data for science is increasing available via cloud computing resources, challenges arise in keeping up with
+As data for science is increasingly available via cloud computing resources, challenges arise in keeping up with
 fast-growing and fast-changing innovations in the world of large data and cloud computing.
 This article discusses lessons learned in developing a tutorial about how to extract, visualize, and analyze time series of Earth data from satellite and satellite-based datasets in the cloud.
 
@@ -22,7 +22,7 @@ Luckily, many advances in computing increasingly facilitate the acquisition and 
 
 With the support of the [Better Scientific Software (BSSw) Fellowship](https://bssw.io/fellowship), and building on NASA-supported work, I developed a tutorial that aims to provide an overview of how to extract, visualize, and analyze time series of Earth data from satellite and satellite-based datasets in the cloud. The idea behind the tutorial is to get new users’ toes wet, so that they can learn about the capabilities of new data technologies through hands-on examples, hopefully inspiring them to learn more and apply these tools to their research.
 
-The tutorial can be found in Github (<https://github.com/marisolgr/python_sat_tutorials>) and can be run entirely in the cloud with the help of mybinder.org. That way, new users can bypass the technicalities of installing Python, Jupyter Notebooks, and all the necessary libraries, and in particular, keeping those libraries up-to-date and compatible. The tutorial is divided in two sections. The first contains the basic Python concepts and commands that are needed to understand and run. The second part contains examples of data acquisition and analysis and is divided into three sections: ocean, atmospheric, and land data, with a combination of data from the cloud and online, satellite, and satellite-based. The tutorial is designed for self-study, but I gave a few online classes as a demonstration and to gauge the user experience with the tutorial material and approach.
+The tutorial can be found in Github (<https://github.com/marisolgr/python_sat_tutorials>) and can be run entirely in the cloud with the help of [mybinder.org](https://mybinder.org). That way, new users can bypass the technicalities of installing Python, Jupyter Notebooks, and all the necessary libraries, and in particular, keeping those libraries up-to-date and compatible. The tutorial is divided in two sections. The first contains the basic Python concepts and commands that are needed to understand and run. The second part contains examples of data acquisition and analysis and is divided into three sections: ocean, atmospheric, and land data, with a combination of data from the cloud and online, satellite, and satellite-based. The tutorial is designed for self-study, but I gave a few online classes as a demonstration and to gauge the user experience with the tutorial material and approach.
 
 I hope you take a look at the tutorial and judge for yourself. Here, I want to share my own learning experience while making and teaching it.
 
