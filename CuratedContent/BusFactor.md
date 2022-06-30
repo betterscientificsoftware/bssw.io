@@ -1,12 +1,12 @@
 # On Mitigating Bus Factor (or Unforeseen Detrimental Loss of Team Members)
 
 <!--deck text start-->
-Have you ever worked on a on a project that made you worry, "what would happen if the key developer or other key team member suddenly left or, even worse, got on a bus together and rode off into the sunset permanently?" This article gives some resources to help recognize and improve your project's bus factor.
+Have you ever worked on a on a project that made you worry, "what would happen if the key developer or other key team members suddenly left or, even worse, got on a bus together and rode off into the sunset permanently?" This article gives some resources to help recognize and improve your project's bus factor.
 <!--deck text end-->
 
 #### Contributed by [Patricia Grubel](http://github.com/pagrubel)
 
-#### Publication date: June XX, 2022
+#### Publication date: June 20, 2022
 
 Resource information | Detail
 :--- | :---
@@ -38,11 +38,9 @@ These are just a few of the many articles about bus factor that are available. T
 
 
 
-
-
 <!---
 Publish: yes
 Topics: Projects and organizations
 Pinned: no
-RSS update:
+RSS update: 2022-06-20
 --->
