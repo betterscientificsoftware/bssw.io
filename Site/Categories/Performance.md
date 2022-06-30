@@ -30,7 +30,7 @@ Software exhibiting similar performance across multiple platforms, with the time
 --->
 
 - **Cloud Computing:**
-A computing paradigm that makes extensive use of virtualization and containerization to execute workloads in an elastic, on-demand manner (compare with the queue-based mechanisms typically used in high-performance computing environments).  Cloud computing platforms are widely availble as commercial offerings as well as in any institutional settings. Scientific uses of cloud computing are common, especially for low- to moderate-scale computing needs.
+A computing paradigm that makes extensive use of virtualization and containerization to execute workloads in an elastic, on-demand manner (compare with the queue-based mechanisms typically used in high-performance computing environments).  Cloud computing platforms are widely available as commercial offerings as well as in any institutional settings. Scientific uses of cloud computing are common, especially for low- to moderate-scale computing needs.
 
 <!---
     - [Exploring Containers for Research Software](../Articles/ShortArticles/ContainersForResearchSw.md)
