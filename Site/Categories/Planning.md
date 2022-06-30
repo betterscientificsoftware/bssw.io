@@ -27,6 +27,13 @@ The ability of two or more software elements to be used together in an applicati
      - [What Are Interoperable Software Libraries?](../CuratedContent/WhatAreInteoperableSwLibraries.md)
 --->
 
+- **Software Sustainability:**
+The ability of software to continue or evolve.  Considerations are often different when viewed from different perspectives (user, developer, manager, funder), but generally relates to resources to maintain or evolve the code, adapatbility of the codebase to new uses and new computational platforms.
+
+<!---
+    - [What is Software Sustainability?](../Articles/WhatIs/WhatIsSustainability.md)
+--->
+
 <!---
 Category order: 1
 --->
