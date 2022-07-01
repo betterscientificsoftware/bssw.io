@@ -30,6 +30,10 @@ Major considerations in designing software to meet its scientific objectives and
 The ability of two or more software elements to be used together in an application, without special effort on the part of the user.  Levels of interoperability range from side-by-side usage through various types of interactions between packages.
 <!---Topic order: 5--->
 
+- **Software Sustainability**
+The ability of software to continue or evolve.  Considerations are often different when viewed from different perspectives (user, developer, manager, funder), but generally relates to resources to maintain or evolve the code, adaptability of the codebase to new uses and new computational platforms.
+<!---Topic order: 6--->
+
 <!---
 Category order: 1
 --->
