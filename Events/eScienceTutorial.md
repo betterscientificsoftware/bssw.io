@@ -25,7 +25,7 @@ This tutorial is held in conjuction with the [2018 IEEE International Conference
 Publish: yes
 RSS update: 2018-07-27
 Categories: development
-Topics: software engineering
+Topics: software engineering, peer code review
 Tags: tutorial
 Level: 2
 Prerequisites: default
