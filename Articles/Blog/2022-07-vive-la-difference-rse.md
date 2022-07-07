@@ -2,7 +2,9 @@
 
 **Hero Image:**
 
-#### Contributed by Kim Hartley and Michelle Barker, DOI: 10.5281/zenodo.6807755 
+#### Contributed by Kim Hartley and Michelle Barker 
+
+#### DOI: 10.5281/zenodo.6807755 
 
 #### Publication date: July 12, 2022
 
