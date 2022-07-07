@@ -13,17 +13,19 @@ Not all languages commonly used in HPC/CSE, notably Python, are defined by a *fo
 Instead, they rely solely on a [*reference implementation*](https://en.wikipedia.org/wiki/Reference_implementation).
 Python's reference implementation is [CPython](https://en.wikipedia.org/wiki/CPython).
 
-From formal specifications, we move on to *implementations* which take the form of language and/or compiler *reference* manuals together with *standard library* reference manuals.
+From formal specifications, we move on to language *implementations*.
+The *implementation* of a programming language is embodied in a [compiler](https://en.wikipedia.org/wiki/List_of_compilers) or, for interpretive languages like Python (or Basic), an *interpreter*.
+The relevant documentation takes the form of compiler reference manuals.
 These documents are created by each *vendor* that supports a given compiler.
 
 Hardware vendors are obliged to provide a compiler that supports their hardware.
 No applications can use their hardware without one.
 Often, hardware vendors develop and support their own *native* (and proprietary) compilers.
 This ensures applications are maximally performant on their hardware.
-Alternatively (or sometimes in addition), existing compilers are enhanced to target performance features of the vendor's hardware.
+Alternatively (or sometimes in additionally), existing compilers are enhanced to target performance features of the vendor's hardware.
 
-Notably, GNU, Intel, Portland Group and Clang compilers are not tied to any particular hardware.
-These compilers are often made available on various vendor's hardware and can sometimes even produce higher performing code than the hardware vendor's *native* compiler.
+Notably, GNU, Intel, Portland Group and Clang compilers are not tied to any particular hardware vendor.
+These compilers are often made available on various vendor's hardware and in some cases can even produce higher performing code than the hardware vendor's *native* compiler.
 
 It can take many years for compiler vendors to update their implementations to conform to new language standards.
 It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various minor ways especially during a period in which it is transitioning to new language standard.
@@ -41,14 +43,14 @@ Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Formal Language Specifications and Standards**</td></tr>
 C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec] | ([1][1])
 C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec] | ([1][1])
-C Preprocessor | no known specification |
+C Preprocessor | Part of C specification | ([4][4])
 Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec] | ([1][1])
 OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec] | ([2][2])
 Python | no known specification | ([3][3])
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language/Compiler Reference Manuals**</td></tr>
-C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language Implementations/Compiler Reference Manuals**</td></tr>
+C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]/[LLVM][c-clang]/[AMD][c-amd]/[Intel][c++-intel]
 C++ | [MS][c++-ms]/[IBM][c++-ibm]/[Cray][c++-cray]/[Intel][c++-intel]|
-C Preprocessor | [GNU][cpp-gnu]/[MS][cpp-ms] |
+C Preprocessor | Usually part of C implementation<br>[GNU][cpp-gnu]/[MS][cpp-ms] |
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
 OpenCL | [NVIDIA][opencl-nvidia]/[AMD][opencl-amd]/[Intel][opencl-intel]|
 Python | [2][py2]/[3][py3]
@@ -61,10 +63,12 @@ C++ Standard Library | [0][c++-stdlib-0] |
 [1]: #a1 "Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*."
 [2]: #a2 "Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.)."
 [3]: #a3 "The most formal resource for Python is the *reference* implementation, CPython"
+[4]: #a4 "CPP is sometimes used to process other kinds of text files including those of other languages. CPP `#pragma`s are a common way for compiler vendors to extend the language."
 
 <a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
 <a name="a2"></a><sup>2</sup>Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.).<br>
-<a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)
+<a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)<br>
+<a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma`s](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) are a common way for compiler vendors to extend the language.
 
 [//]: # (Formal C language specification URLs)
 
@@ -106,6 +110,8 @@ C++ Standard Library | [0][c++-stdlib-0] |
 [c-cray]: https://support.hpe.com/hpesc/public/docDisplay?docId=a00115116en_us&docLocale=en_US&page=The_Cray_Compiling_Environment.html
 [c-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
 [c-ms]: https://docs.microsoft.com/en-us/cpp/c-language/c-language-reference?view=msvc-170
+[c-clang]: https://clang.llvm.org
+[c-amd]: https://developer.amd.com/amd-aocc/
 
 [//]: # (C++ language reference URLs)
 
@@ -138,54 +144,6 @@ C++ Standard Library | [0][c++-stdlib-0] |
 
 [c++-stdlib-0]: https://www.cplusplus.com/reference/
 
-
-# Other Stuff
-
-Stuff below here is just saved here temporarily as this is under development.
-It will all be gathered into the table, above.
-
-### Vendors
-
-#### Hardware/Software
-
-* IBM
-* Cray/HPE
-* AMD
-* NVidia
-* Intel
-
-#### Software only
-
-* Micorsoft
-* GNU
-* Portland Group
-* LLVM
-
-### C, C++, C Pre-Processor
-
-* C [Preprocessor]()|[Standard Library]()|
-
-* [C Preprocessor](https://gcc.gnu.org/onlinedocs/cpp/)
-* [C Preprocessor Standard Definitions](https://sourceforge.net/p/predef/wiki/Home/)
-* [C Preprocessor update](https://www.open-std.org/Jtc1/sc22/wg21/docs/papers/2014/n3882.pdf)
-* [Microsoft C, C++ and Assembler documentation](https://docs.microsoft.com/en-us/cpp/?view=msvc-170)
-* [C++ Reference](https://en.cppreference.com/w/)
-* [C++ Library Reference](https://www.cplusplus.com/reference/)
-* [cplusplus.com](https://www.cplusplus.com)
-* [C Standard Library Reference](https://www.cplusplus.com/reference/clibrary/)
-* [Posix C Library](https://en.wikipedia.org/wiki/C_POSIX_library)
-* [GNU C Reference Manaul](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
-* [GNU C Library Reference Manual](https://www.gnu.org/software/libc/manual/pdf/libc.pdf)
-* [C Language Cheat Sheet](https://users.ece.utexas.edu/~adnan/c-refcard.pdf)
-
-### Fortran
-
-* [Fortran 77](https://docs.oracle.com/cd/E19957-01/805-4939/index.html)
-* [Fortran 90](https://www.fortran90.org)
-* [Fortran 95](https://wg5-fortran.org/N1151-N1200/N1191.pdf)
-* [Fortran 2003](https://link.springer.com/book/10.1007/978-1-84628-746-6)
-* [Fortran 2008](https://j3-fortran.org/doc/year/10/10-007.pdf)
-* [Fortran 2018](https://j3-fortran.org/doc/year/18/18-007r1.pdf)
 
 ### Make, GNU Make 
 
