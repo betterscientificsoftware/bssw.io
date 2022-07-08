@@ -17,7 +17,7 @@ Peer code review is beneficial in helping developers identify and remove faults 
 
 <!---
 Publish: yes
-Topics: Software engineering
+Topics: Software engineering, peer code review
 Pinned: no
 RSS update: 2019-07-20
 --->

@@ -89,7 +89,7 @@ Stefanie Butland is the community manager with rOpenSci. Contact her at stefanie
 Publish: yes
 RSS update: 
 Categories: Planning
-Topics: Software Process Improvement, Software Engineering
+Topics: Software Process Improvement, Software Engineering, peer code review
 Tags: bssw-blog-article
 Level: 2
 Prerequisites: default
