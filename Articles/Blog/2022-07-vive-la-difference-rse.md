@@ -1,4 +1,4 @@
-# Vive la différence - research software engineers: A hybrid DEI-focused workshop 
+# Vive la Différence - Research Software Engineers: A Hybrid DEI-Focused Workshop 
 
 **Hero Image:**
 
