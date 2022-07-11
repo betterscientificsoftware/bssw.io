@@ -1,6 +1,6 @@
 # Vive la Différence - Research Software Engineers: A Hybrid DEI-Focused Workshop 
 
-**Hero Image:**
+The Research Software Alliance brings research software communities together to collaborate on the advancement of the research software ecosystem.  This article introduces outcomes of a recent workshop that explored issues in diversity, equity, and inclusion in the research software engineering community.
 
 #### Contributed by Kim Hartley and Michelle Barker 
 
@@ -8,7 +8,7 @@
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='https://github.com/betterscientificsoftware/bssw.io/images/Blog_2207_ReSA_v2.jpg' class='logo' />
+  <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2207_ReSA_v2.png class='logo' />
 </div> 
   <h3> [DOI: https://doi.org/10.5281/zenodo.6807755](https://doi.org/https://doi.org/10.5281/zenodo.68077555)</h3>
   <p>*Cross-posted by the [Research Software Alliance (ReSA)](https://www.researchsoft.org/blog/) and [Better Scientific Software (BSSw)](https://bssw.io/blog_posts).*</p>
