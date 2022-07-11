@@ -47,5 +47,5 @@ If you’re interested in exploring this topic and sharing information with othe
 <!---
 Publish: yes
 Pinned: no
-Topics: software engineering, projects and organizations
+Topics: projects and organizations, inclusivity
 --->
