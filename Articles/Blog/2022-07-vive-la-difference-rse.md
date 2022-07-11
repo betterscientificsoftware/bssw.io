@@ -10,8 +10,10 @@ The Research Software Alliance brings research software communities together to 
 <div class='img_div'>
   <img src='../../images/Blog_2207_ReSA_v2.png' class='logo' />
 </div> 
+<div class='short_bio'>
   <h3> [DOI:10.5281/zenodo.6807755](https://doi.org/https://doi.org/10.5281/zenodo.68077555)</h3>
   <p>*Cross-posted by the [Research Software Alliance (ReSA)](https://www.researchsoft.org/blog/) and BSSw.io.*</p>
+</div>
 </div>
 
 How can we reframe research software engineering (RSE) to place diversity, equity, and inclusion (DEI) as a central organising principle in the community? This compelling question was the impetus for the *[Vive la différence - research software engineers workshop](https://www.researchsoft.org/events/2022-04/)*, a hybrid event that took place both in person at the [Lorentz Center](https://www.lorentzcenter.nl/about-us.html) in Leiden, the Netherlands, from 19-22 April 2022; and online from March to April 2022. The workshop brought together 40 participants from across the globe, including representatives from international RSE communities and others interested in DEI. 
@@ -34,7 +36,7 @@ ReSA is grateful to the Alfred P. Sloan Foundation, the Chan Zuckerberg Initiati
 
 ### Next steps
 
-A [full report](https://doi.org/10.5281/zenodo.6816192) written and edited collectively by workshop participants – has been published. Speakers’ videos are available via ReSA’s Lorentz Center workshop YouTube [playlist](https://www.youtube.com/playlist?list=PL9LY1bVcxGJd8QhKQYgWd7jtArqrxw7oO). [Slides](https://drive.google.com/drive/u/0/folders/1zDauVIR5OSfU7Gt2pSNtb7AhZFdrpifN) are also publicly available.
+A [full report](https://doi.org/10.5281/zenodo.6816192) written and edited collectively by workshop participants has been published. Speakers’ videos are available via ReSA’s Lorentz Center workshop YouTube [playlist](https://www.youtube.com/playlist?list=PL9LY1bVcxGJd8QhKQYgWd7jtArqrxw7oO). [Slides](https://drive.google.com/drive/u/0/folders/1zDauVIR5OSfU7Gt2pSNtb7AhZFdrpifN) are also publicly available.
 
 If you’re interested in exploring this topic and sharing information with others in the global research software community, please join ReSA’s monthly [Community Forum](https://www.researchsoft.org/events/2022-06/). The first call will take place on **19 July 11-12 UTC** ([convert to your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Research+Software+Community+Forum&iso=20220719T11&p1=1440&ah=1)). Dr. Michelle Barker, ReSA Director, will give a short talk on the outcomes of the Vive la différence - research software engineers workshop. To receive calendar invites and agendas for ReSA’s monthly Community Forum meetings, please sign up [here](https://landing.mailerlite.com/webforms/landing/o1n4v3).
 
