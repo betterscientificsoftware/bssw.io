@@ -2,17 +2,21 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
+Blog_2207_ReSA_v2.png
+
 <!---
-Slide1 L: ../Articles/Blog/2022-06-Navigating-transition-to-cloud.md
-Slide1 R: ../Events/hpcbp-065-precice-ecosystem.md
-Slide2 L: ../Articles/Blog/2022-06-Software-Deployment-Bringing-resources-into-effective-acction.md
-Slide2 R: ../images/Blog_2206_AE4s_A.png
-Slide3 L: ../Events/2022-09-US-RSE-Workshop.md
-Slide3 R: ../Events/2022-10-rses-in-escience.md
-Slide4 L: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
-Slide4 R: ../CuratedContent/BusFactor.md
-Slide5 L: ../Articles/HowTos/CriticalBeginnerGitUsageTips.md
-Slide5 R: ../CuratedContent/GitTutorialAndReferenceCollection.md
+Slide1 L: ../Articles/Blog/2022-07-vive-la-difference-rse.md
+Slide1 R: ../Events/Blog_2207_ReSA_v1.png
+Slide2 L: ../Articles/Blog/2022-06-Navigating-transition-to-cloud.md
+Slide2 R: ../Events/hpcbp-065-precice-ecosystem.md
+Slide3 L: ../Articles/Blog/2022-06-Software-Deployment-Bringing-resources-into-effective-acction.md
+Slide3 R: ../images/Blog_2206_AE4s_A.png
+Slide4 L: ../Events/2022-09-US-RSE-Workshop.md
+Slide4 R: ../Events/2022-10-rses-in-escience.md
+Slide5 L: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
+Slide5 R: ../CuratedContent/BusFactor.md
+Slide6 L: ../Articles/HowTos/CriticalBeginnerGitUsageTips.md
+Slide6 R: ../CuratedContent/GitTutorialAndReferenceCollection.md
 --->
 
 <!---
