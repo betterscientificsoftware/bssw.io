@@ -5,10 +5,9 @@ The RSE in HPC workshop will be a half-day workshop held as part of the SC22 con
 <!-- deck text end -->
 
 #### Contributed by [Charles Ferenbaugh](https://github.com/cferenba)
-#### Publication date: July 11, 2022
 
 - Submission Deadline: August 5, 2022 
-- Event Dates: November 13, 2022
+- Event Date: November 13, 2022
 - Location: Dallas, TX and virtual
 - Event Website: https://us-rse.org/rse-hpc-2022/
 - Organizers: The United States Research Software Engineer Association (US-RSE)
