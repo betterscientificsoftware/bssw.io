@@ -44,7 +44,7 @@ If you’re interested in exploring this topic and sharing information with othe
 [Zoom Link](https://us02web.zoom.us/j/2187873236?pwd=cXpmZXQzalhMcGlUN0J1bWUzdVM3QT09#success), (passcode: 446688). 
 <br>[Download a calendar invite](https://drive.google.com/file/d/1b0Bd2OdKH5xRYf4HjclUot7lqKV4veU1/view). 
   
-#### Author bios
+### Author bios
   
 Dr. Michelle Barker is the Director of the Research Software Alliance. She has extensive expertise in open science, research software, digital workforce capability and digital research infrastructure. As a sociologist, Michelle is passionate about building collaborative partnerships to achieve system change. She is a former Director of the [Australian Research Data Commons](https://ardc.edu.au), has co-chaired the Research Data Alliance Organisational Advisory Board, chaired the OECD Expert Group on [digital skills for the research sector](https://www.oecd-ilibrary.org/science-and-technology/building-digital-workforce-capacity-and-skills-for-data-intensive-science_e08aa3bb-en); she also co-edited the European Open Science Cloud (EOSC) report, [Digital Skills for FAIR and Open Science](https://www.eoscsecretariat.eu/news-opinion/digital-skills-fair-open-science-report-eosc-skills-training-working-group).
 
