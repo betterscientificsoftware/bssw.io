@@ -2,7 +2,7 @@
 
 The Research Software Alliance brings research software communities together to collaborate on the advancement of the research software ecosystem.  This article introduces outcomes of a recent workshop that explored issues in diversity, equity, and inclusion in the research software engineering community.
 
-#### Contributed by Kim Hartley and Michelle Barker 
+#### Contributed by [Kim Hartley](https://github.com/kim-hartley "Kim Hartley GitHub Profile") and [Michelle Barker](https://github.com/mdbarker "Michelle Barker GitHub Profile")  
 
 #### Publication date: July 12, 2022
 
@@ -43,6 +43,12 @@ If you’re interested in exploring this topic and sharing information with othe
 #### To join the July meeting: 
 [Zoom Link](https://us02web.zoom.us/j/2187873236?pwd=cXpmZXQzalhMcGlUN0J1bWUzdVM3QT09#success), (passcode: 446688). 
 <br>[Download a calendar invite](https://drive.google.com/file/d/1b0Bd2OdKH5xRYf4HjclUot7lqKV4veU1/view). 
+  
+#### Author bios
+  
+Dr. Michelle Barker is the Director of the Research Software Alliance. She has extensive expertise in open science, research software, digital workforce capability and digital research infrastructure. As a sociologist, Michelle is passionate about building collaborative partnerships to achieve system change. She is a former Director of the [Australian Research Data Commons](https://ardc.edu.au), has co-chaired the Research Data Alliance Organisational Advisory Board, chaired the OECD Expert Group on [digital skills for the research sector](https://www.oecd-ilibrary.org/science-and-technology/building-digital-workforce-capacity-and-skills-for-data-intensive-science_e08aa3bb-en); she also co-edited the European Open Science Cloud (EOSC) report, [Digital Skills for FAIR and Open Science](https://www.eoscsecretariat.eu/news-opinion/digital-skills-fair-open-science-report-eosc-skills-training-working-group).
+
+Kim Hartley is a community manager at the Research Software Alliance and part of the international relations team at the [Digital Research Alliance of Canada](https://alliancecan.ca/en). Kim supports the [Research Software Funders Forum](https://www.researchsoft.org/funders-forum/), a formal mechanism for international funding organisations to collaborate. A social anthropologist by training, Kim brings a passion for understanding the ways in which people live in different social and cultural settings globally to her work managing communities. She has extensive experience in academic research administration, including managing research ethics boards, advising diverse stakeholders, and building partnerships.
 
 <!---
 Publish: yes
