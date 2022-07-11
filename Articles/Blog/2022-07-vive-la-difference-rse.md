@@ -8,10 +8,10 @@ The Research Software Alliance brings research software communities together to 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2207_ReSA_v2.png class='logo' />
+  <img src='https://raw.githubusercontent.com/betterscientificsoftware/bssw.io/master/images/Blog_2207_ReSA_v2.png class='logo' />
 </div> 
-  <h3> [DOI: https://doi.org/10.5281/zenodo.6807755](https://doi.org/https://doi.org/10.5281/zenodo.68077555)</h3>
-  <p>*Cross-posted by the [Research Software Alliance (ReSA)](https://www.researchsoft.org/blog/) and [Better Scientific Software (BSSw)](https://bssw.io/blog_posts).*</p>
+  <h3> [DOI:10.5281/zenodo.6807755](https://doi.org/https://doi.org/10.5281/zenodo.68077555)</h3>
+  <p>*Cross-posted by the [Research Software Alliance (ReSA)](https://www.researchsoft.org/blog/) and BSSw.io.*</p>
 </div>
 
 How can we reframe research software engineering (RSE) to place diversity, equity, and inclusion (DEI) as a central organising principle in the community? This compelling question was the impetus for the *[Vive la différence - research software engineers workshop](https://www.researchsoft.org/events/2022-04/)*, a hybrid event that took place both in person at the [Lorentz Center](https://www.lorentzcenter.nl/about-us.html) in Leiden, the Netherlands, from 19-22 April 2022; and online from March to April 2022. The workshop brought together 40 participants from across the globe, including representatives from international RSE communities and others interested in DEI. 
