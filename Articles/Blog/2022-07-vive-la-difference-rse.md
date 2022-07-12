@@ -11,7 +11,7 @@ The Research Software Alliance brings research software communities together to 
   <img src='../../images/Blog_2207_ReSA_v2.png' class='logo' />
 </div> 
 
-  <h3> [DOI:10.5281/zenodo.6807755](https://doi.org/https://doi.org/10.5281/zenodo.68077555)</h3>
+  <h3> [DOI:10.5281/zenodo.6807755](https://doi.org/https://doi.org/10.5281/zenodo.6807755)</h3>
   <p>*Cross-posted by the [Research Software Alliance (ReSA)](https://www.researchsoft.org/blog/) and BSSw.io.*</p>
 
 </div>
