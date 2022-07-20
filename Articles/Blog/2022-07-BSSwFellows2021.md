@@ -125,9 +125,11 @@ Version control is an essential tool for collaborative work on software, but dom
 </div>
 
 _Perspectives on the BSSw Fellowship Program:_ 
+I’ve been delighted to find out that if there’s something in scientific computing that I’m working on, there are other people who are also thinking about it and often working on it.  Being a BSSw fellow has helped find other scientists whose efforts I can now connect with and learn about existing projects and resources that I can use instead of invent.  If you’re working on topics that benefit from connecting to existing community efforts, BSSw can be a fantastic resource. 
 
 _Advice for new (prospective) BSSw Fellows:_ 
-
+ I would encourage BSSw fellows to always default to reaching out to the BSSw staff and network - everyone will be glad to hear from you and help out!
+ 
 - - -
 
 ### Learn more about the BSSw Fellowship Program
