@@ -2,7 +2,7 @@
 
 Read about the 2021 BSSw Fellows and their contributions to the BSSw community!
 
-<img src='../../images/Blog_2108_FellowsAppOpen.png'>
+<img src='../../images/Blog_2207_BSSwFellows.png'>
 
 #### Contributed by: [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Marisol Garcia-Reyes](https://github.com/marisolgr "Marisol Garcia-Reyes GitHub Profile"), [Mary Ann Leung](https://github.com/maleung "Mary Ann Leung GitHub Profile"), [Chase Million](https://github.com/millionconcepts "Chase Million GitHub Profile"), [Amy Roberts](https://github.com/pibion "Amy Roberts GitHub Profile")
 
