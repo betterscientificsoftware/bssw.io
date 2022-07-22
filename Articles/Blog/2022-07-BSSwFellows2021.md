@@ -14,13 +14,13 @@ The 2021 BSSw Fellows have used their skills to create tutorials, webinars, and 
 
 Here's more about what they have been up to and their perspectives on the BSSw Fellowship Program.
 
-### Increasing accessibility of data (e.g. satellite data) & cloud technologies to a broad scientific community through easy-to-follow Python tutorials
+### Increasing accessibility of data (e.g., satellite data) and cloud technologies to a broad scientific community through easy-to-follow Python tutorials
 
 BSSw Fellow Marisol Garcia-Reyes developed an online tutorial that teaches how to easily access data increasingly available in the cloud (e.g., earth sciences satellite data) and analyze and visualize the data using cloud computing resources. With comprehensive examples, the tutorial provides foundations in Python programming and reproducible research using Jupyter Notebooks, Git, software citations, and cloud computing. The tutorial aims to lower the barrier to entry and broaden the community of scientists and students who have access to and can use satellite data and cloud computing resources. The tutorial is designed for those whose expertise is not satellite imagery or those that lack the necessary programming proficiency to use these data.  Learn more at:
 
 <a href="https://github.com/marisolgr/python_sat_tutorials" class="link-row"> Tutorial: Timeseries of Satellite Data using Python</a>
 <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063" class="link-row">HPC Best Practices Webinar: Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field</a>
-<a href="https://bssw.io/blog_posts/navigating-the-transition-of-climate-science-to-the-cloud" class="link-row">Navigating the transition of (climate) science to the cloud</a>
+<a href="https://bssw.io/blog_posts/navigating-the-transition-of-climate-science-to-the-cloud" class="link-row">Navigating the Transition of (Climate) Science to the Cloud</a>
 
 <br> 
 
@@ -36,7 +36,7 @@ BSSw Fellow Marisol Garcia-Reyes developed an online tutorial that teaches how t
 </div>
 
 
-_Perspectives on the BSSw Fellowship Program:_ I wanted to become a BSSw Fellow for the opportunity to work on a project I feel passionate about, to be able to develop a learning tool to bring cloud computer and satellite data to new and non-expert users. But beyond the funding to do so, the fellowship also provided support and ideas, accountability, and sometimes necessary encouragement to help me reach my goal. Thanks to that, the tutorial developed is having a positive impact on my professional life, as it helped me to acquire and greatly improve my skills. Now, I hope that the tutorial helps others to navigate new waters and find new ways to do science.
+_Perspectives on the BSSw Fellowship Program:_ I wanted to become a BSSw Fellow for the opportunity to work on a project I feel passionate about, to be able to develop a learning tool to bring cloud computer and satellite data to new and non-expert users. But beyond the funding to do so, the fellowship also provided support and ideas, accountability, and sometimes necessary encouragement to help me reach my goal. Thanks to that, the tutorial developed is having a positive impact on my professional life, as it has helped me to acquire and greatly improve my skills. Now, I hope that the tutorial helps others to navigate new waters and find new ways to do science.
 
 _Advice for new (prospective) BSSw Fellows:_ For new fellows, my advice is keep in touch and take advantage of the advice and support. Everybody wants you to succeed!
 
@@ -44,14 +44,14 @@ _Advice for new (prospective) BSSw Fellows:_ For new fellows, my advice is keep 
 
 ### Increasing developer productivity and innovation through diversity and the normalization of inclusion
 
-According to a DOE Advanced Scientific Advisory Committee Workforce Subcommittee Letter in 2014, DOE labs are facing workforce challenges and need to develop more effective techniques to attract and sustain a full spectrum of talent. The letter also calls for new approaches to recruiting and retaining computing sciences staff, especially those from underrepresented backgrounds such as women and minorities. To address the challenge to develop, retain, and diversify the workforce, BSSw Fellow Mary Ann Leung developed and curated lessons learned and exemplar programs and activities, which the scientific software development community can adopt, adapt, and put into practice. She facilitated community discussion to scope the needs and collect best practices and, and she disseminated the lessons learned in both written and presentation formats. These activities are increasing awareness and knowledge of key issues and approaches to diversity and inclusion. Learn more at:
+According to a DOE Advanced Scientific Advisory Committee Workforce Subcommittee Letter in 2014, DOE labs are facing workforce challenges and need to develop more effective techniques to attract and sustain a full spectrum of talent. The letter also calls for new approaches to recruiting and retaining computing sciences staff, especially those from underrepresented backgrounds such as women and minorities. To address the challenge to develop, retain, and diversify the workforce, BSSw Fellow Mary Ann Leung developed and curated lessons learned and exemplar programs and activities, which the scientific software development community can adopt, adapt, and put into practice. She facilitated community discussion to scope the needs and collect best practices, and she disseminated the lessons learned in both written and presentation formats. These activities are increasing awareness and knowledge of key issues and approaches to diversity and inclusion. Learn more at:
 
 <a href="https://doi.org/10.6084/m9.figshare.17192492" class="link-row">DOE RFI response on Software Stewardship: “A multipronged approach to building a diverse workforce and cultivating an inclusive professional environment for DOE high-performance computing” </a>
 <a href="https://bit.ly/ECP-Broader-Engagement-Initiative-2022-03" class="link-row">ASCAC presentation on “ECP Broader Engagement Initiative” </a>
 <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar064" class="link-row">HPC-Best Practices Webinar: Normalizing Inclusion by Embracing Difference</a>
 <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=71877" class="link-row">Panel Discussion on Diversity and Inclusion for Careers in CSE: Challenges and Best Practices</a>
 <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73827" class="link-row">Current and Future Trends Impacting Inclusivity in High-Performance Scientific Computing</a>
-<a href="https://www.lorentzcenter.nl/vive-la-difference-research-software-engineers.html" class="link-row"> Increasing developer productivity and innovation through diversity and the normalization of inclusion</a>
+<a href="https://www.lorentzcenter.nl/vive-la-difference-research-software-engineers.html" class="link-row"> Increasing Developer Productivity and Innovation through Diversity and the Normalization of Inclusion</a>
 
 <br>
 
@@ -81,7 +81,7 @@ Both software development and scientific research are notorious for taking more 
 
 <a href="https://www.youtube.com/watch?v=Ks0zOa4Z5bM" class="link-row">Open Planetary Lunch Talk: Strategies for Research Software Estimation (video)</a>
 <a href="https://github.com/MillionConcepts/software_project_management" class="link-row"> Software Project Management Best Practices Document: “A practical guide to research software project estimation”</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar066" class="link-row">HPC-Best Practices Webinar: Effective strategies for writing proposal work plans for research software</a>
+<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar066" class="link-row">HPC-Best Practices Webinar: Effective Strategies for Writing Proposal Work Plans for Research Software</a>
 <br>
 
 <div class='fellow'>
@@ -134,7 +134,7 @@ _Advice for new (prospective) BSSw Fellows:_
 
 ### Learn more about the BSSw Fellowship Program
   
-BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship). We will begin accepting applications for 2023 BSSw Fellowships during mid-August 2022. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
+BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship), including ongoing work of the 2022 BSSw Fellows. We will begin accepting applications for 2023 BSSw Fellowships during mid-August 2022. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
   
 ### Author bio
   
