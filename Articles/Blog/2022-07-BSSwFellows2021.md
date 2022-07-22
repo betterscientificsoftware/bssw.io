@@ -30,7 +30,7 @@ BSSw Fellow Marisol Garcia-Reyes developed an online tutorial that teaches how t
 </div> 
  
 <div class='short_bio'>
-<p><a href="http://www.faralloninstitute.org/marisol">Marisol</a> is a Principal Scientist at the Farallon Institute, a nonprofit scientific organization dedicated to the understanding and preservation of healthy marine ecosystems. Marisol is committed to increasing equity and diversity in science and education by improving access to computational technology and increasing broadening participation. She is interested in providing and improving code that scientists in other fields (and other users) with limited coding skills, experience, or even time, can use to access and analyze satellite data, like climate and ocean data, to improve their research or knowledge.
+<p><a href="https://www.faralloninstitute.org/marisol">Marisol</a> is a Principal Scientist at the Farallon Institute, a nonprofit scientific organization dedicated to the understanding and preservation of healthy marine ecosystems. Marisol is committed to increasing equity and diversity in science and education by improving access to computational technology and increasing broadening participation. She is interested in providing and improving code that scientists in other fields (and other users) with limited coding skills, experience, or even time, can use to access and analyze satellite data, like climate and ocean data, to improve their research or knowledge.
 </p>
 </div>  
 </div>
