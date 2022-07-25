@@ -6,7 +6,7 @@ The Better Scientific Software (BSSw) Fellowship Program gives recognition and f
 
 The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  We also anticipate accumulating a growing community of BSSw Fellowship alums who can serve as leaders, mentors, and consultants to increase the visibility of those involved in scientific software production and sustainability in the pursuit of scientific discovery.
 
-**BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software.  We select at least three Fellows per year and honorable mentions as appropriate.  Each 2022 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.**  Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
+**BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software.  We select at least three Fellows per year and honorable mentions as appropriate.  Each 2023 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.**  Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
 BSSw Fellows receive funds through their respective institution for one year.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
 
@@ -24,13 +24,13 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly benefit the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows and promote better scientific software in their community.
 
-### 2022 BSSw Fellowships
+### 2023 BSSw Fellowships
 
 <!-- [2022 BSSw Fellowship Application Form](https://docs.google.com/forms/d/e/1FAIpQLScd_tLuA4eVEJYKqg-BzHeQlKK2HmpPp4_cqLFB3KWUcbEUfw/viewform?usp=sf_link) - Submissions Open! -->
 
-<!-- Applications will open on August 16, 2021 for the 2022 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.-->
+Applications will open on August 15, 2022 for the 2023 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
 
-Applications are now closed for the 2022 BSSw Fellowship Program. Check back in summer 2022 for info about the 2023 application process. 
+<!-- Applications are now closed for the 2022 BSSw Fellowship Program. Check back in summer 2022 for info about the 2023 application process. -->
 
 
 ### More Information

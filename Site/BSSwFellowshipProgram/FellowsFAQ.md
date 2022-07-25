@@ -4,14 +4,14 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar 
 
-<!--- - Monday, September 13, 1:00-2:00 pm EDT
+ - Thursday, September 8, 1:00-2:00 pm EDT
  - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. --->
 Slides & Recording for 2022 Fellowship (CLOSED):  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.16611331) / Recording: [(slides/audio)](https://us06web.zoom.us/rec/share/M1aWZ4zVjIzBauFCyIGBtzHkTyMqWdU5Rf_3GU5X4x6pOEuPO-82C6ZInB9faR8.PG0jnqnGyrWCHmfE)
 
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-**The application deadine for the 2022 BSSw Fellowship Program is Thursday, September 30, 2021, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
+**The application deadine for the 2023 BSSw Fellowship Program is Friday, September 30, 2022, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
 
 ### Is a particular format required for the proposal?
 
@@ -55,9 +55,9 @@ Students (undergraduate/graduate) are encouraged to apply for a BSSw Fellowship.
 
 ## Funding Questions
 
-### What is the amount of funding for 2022 BSSw Fellows?
+### What is the amount of funding for 2023 BSSw Fellows?
 
-Each 2022 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
+Each 2023 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 
 ### How are the funds awarded?  When do I submit budget information?  
 
