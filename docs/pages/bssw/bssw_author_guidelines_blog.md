@@ -23,7 +23,7 @@ permalink: bssw_author_guidelines_blog.html
   - Mention your current position, employer, a bit about your background
   - Include info about your interests related to software productivity and sustainability
   - Anything else you want to mention
-* We use GitHub profile information (particularly photo and affiliations) to construct our Site Contributors page: <https://bssw.io/items/authors/>.  Please let us know your GitHub username. We encourage you to include a photo and up-to-date institutional affiliation in your GitHub profile.
+* We use GitHub profile information (particularly photo and affiliations) to construct our Site Contributors page: <https://bssw.io/items/authors/>.  **Please let us know your GitHub username.** We encourage you to include a photo and up-to-date institutional affiliation in your GitHub profile.
 * At the top of your article, we can include a **hero image**, which is also used as a background to highlight it as the newest article in the list of blog postings.  This image is *optional*, but if you have ideas for an appropriate image please let us know. Many blog articles are published without hero images. Guidelines for the hero image:
   - wide rectangular shape; we can crop an image to the required size (1125 x 432 pixels)
   - the design brief for our site focuses on three types of imagery for hero:
