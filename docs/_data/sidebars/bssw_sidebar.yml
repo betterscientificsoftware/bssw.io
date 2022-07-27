@@ -109,3 +109,7 @@ entries:
     - title: Content Publishing
       url: /bssw_content_publishing.html
       output: web
+
+    - title: Guidelines for Blog Articles
+      url: /bssw_author_guidelines_blog.html
+      output: web
