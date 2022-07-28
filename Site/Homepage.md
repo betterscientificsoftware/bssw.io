@@ -3,16 +3,18 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../Articles/Blog/2022-07-vive-la-difference-rse.md
-Slide1 R: ../Articles/Blog/2022-06-Navigating-transition-to-cloud.md
-Slide2 L: ../Articles/Blog/2022-06-Software-Deployment-Bringing-resources-into-effective-acction.md
-Slide2 R: ../images/Blog_2206_AE4s_A.png
-Slide3 L: ../Events/2022-09-US-RSE-Workshop.md
-Slide3 R: ../Events/2022-10-rses-in-escience.md
-Slide4 L: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
-Slide4 R: ../CuratedContent/BusFactor.md
-Slide5 L: ../Articles/HowTos/CriticalBeginnerGitUsageTips.md
-Slide5 R: ../CuratedContent/GitTutorialAndReferenceCollection.md
+Slide1 L: ../Articles/Blog/2022-07-BSSwFellows2021.md
+Slide1 R: ../images/OG_2109_BSSwFellowships.png
+Slide2 L: ../Articles/Blog/2022-07-vive-la-difference-rse.md
+Slide2 R: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
+Slide3 L: ../Articles/ShortArticles/TheDeveloperCertificateOfOrigin.md 
+Slide3 R: ../Articles/Blog/2022-06-Navigating-transition-to-cloud.md
+Slide4 L: ../CuratedContent/Debuggingbooks.md
+Slide4 R: ../CuratedContent/DeepWork.md
+Slide5 L: ../CuratedContent/BusFactor.md
+Slide5 R: ../Events/2022-11-Correctness-HPC.md
+Slide6 L: ../Events/2022-11-rse-hps-workshop.md
+Slide6 R: ../Events/hpcbp-066-strategies4proposalwriting.md
 --->
 
 <!---
