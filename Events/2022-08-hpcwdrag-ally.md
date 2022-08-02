@@ -5,7 +5,7 @@
 - Event Website: https://www.exascaleproject.org/event/focus-on-ally-skills/
 - Organizers: ECP HPC Workforce Development and Retention Action Group
 			   
-This event is a part of a webinar series on Workforce Development, produced by the ECP HPC Workforce Development and Retention Action Group. The webinars in this series, focus on topics related to developing a diverse, equitable, and inclusive work culture.
+This event is a part of a webinar series on Workforce Development, produced by the ECP HPC Workforce Development and Retention Action Group. The webinars in this series focus on topics related to developing a diverse, equitable, and inclusive work culture.
 
 Resource Information | Details
 :--- | :---			   
