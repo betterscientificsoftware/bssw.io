@@ -1,4 +1,4 @@
-# Team Experiences Implementing Continuous Integration
+# Bright Spots: Team Experiences Implementing Continuous Integration
 
 **Hero Image:**
 
