@@ -72,7 +72,7 @@ Overall, CI adds value by providing more stable working code bases, test feedbac
 
 The idea and form of the Bright Spot series was shaped by the IDEAS-ECP team the BSSW.io Editorial Board.  We owe the insights into developer experiences presented here to interviews with members of the ExaSMR, VisIt, and ZFP teams including [Paul Romano](https://github.com/paulromano), [Cyrus Harrison](https://github.com/cyrush), and [Peter Lindstrom](https://github.com/lindstro).  Comments, suggestions, collaboration and reviews from [Mark C. Miller](https://github.com/markcmiller86) were especially appreciated during the writing of this article.
 
-### Author Bio
+### Author bio
 
 [David M. Rogers](https://www.olcf.ornl.gov/directory/staff-member/david-rogers/) is a Computational Scientist in the National Center for Computational Sciences Division at Oak Ridge National Laboratory, where he works collaboratively to develop and apply new methods and theories for multiscale modeling using HPC.
 
