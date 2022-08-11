@@ -8,7 +8,7 @@
 
 #### Publication date: August 12, 2022
 
-*This is the first in an occasional series of Bright Spots blog articles, highlighting success stories of teams in the DOE Exascale Computing Project ([ECP](https://exascaleproject.org)) who are implementing and benefitting from software development best practices as they build applications and software technologys for next-generation scientific discovery.  If you'd like to contribute to a future Bright Spot article, please contact the [BSSw Editorial Board](mailto:bssw-editorial@lists.mcs.anl.gov?subject=Bright Spots).*<br>
+*This is the first in an occasional series of Bright Spots blog articles, highlighting success stories of teams in the DOE Exascale Computing Project ([ECP](https://exascaleproject.org)) who are implementing and benefitting from software development best practices as they build applications and software technologies for next-generation scientific discovery.  If you'd like to contribute to a future Bright Spot article, please contact the [BSSw Editorial Board](mailto:bssw-editorial@lists.mcs.anl.gov?subject=Bright Spots).*<br>
 
 [Continuous Integration](https://bssw.io/items/what-is-continuous-integration-testing) (CI) is an enabling technology that allows code development teams to insert testing directly into their development workflow.  Although CI has many advantages, including more stable working code bases, faster test feedback with less distraction, and greater support for community contributions, there are also some pitfalls, like initial adoption and support burden, disruptive changes to team processes, and a potentially disorienting array of competing and overlapping new technologies.
 
