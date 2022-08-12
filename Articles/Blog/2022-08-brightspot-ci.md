@@ -70,7 +70,7 @@ Overall, CI adds value by providing more stable working code bases, test feedbac
 
 ### Acknowledgments
 
-The idea and form of the Bright Spot series was shaped by the IDEAS-ECP team the BSSW.io Editorial Board.  We owe the insights into developer experiences presented here to interviews with members of the ExaSMR, VisIt, and ZFP teams including [Paul Romano](https://github.com/paulromano), [Cyrus Harrison](https://github.com/cyrush), and [Peter Lindstrom](https://github.com/lindstro).  Comments, suggestions, collaboration and reviews from [Mark C. Miller](https://github.com/markcmiller86) were especially appreciated during the writing of this article.
+The idea and form of the Bright Spot series was shaped by the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team the [BSSw.io Editorial Board](https://bssw.io/pages/team).  We owe the insights into developer experiences presented here to interviews with members of the ExaSMR, VisIt, and ZFP teams including [Paul Romano](https://github.com/paulromano), [Cyrus Harrison](https://github.com/cyrush), and [Peter Lindstrom](https://github.com/lindstro).  Comments, suggestions, collaboration and reviews from [Mark C. Miller](https://github.com/markcmiller86) were especially appreciated during the writing of this article.
 
 ### Author bio
 
