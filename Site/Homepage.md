@@ -19,7 +19,6 @@ Slide6 L: ../Events/swr-014-team-of-teams1.md
 Slide6 R: ../Events/2022-08-hpcwdrag-ally.md
 Slide7 L: ../Events/hpcbp-067-softwarepackaging.md
 Slide7 R: ../Events/2022-09-US-RSE-Workshop.md
-
 --->
 
 <!---
