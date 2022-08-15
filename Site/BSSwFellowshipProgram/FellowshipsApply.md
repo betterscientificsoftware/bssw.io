@@ -76,5 +76,5 @@ Applications are now being accepted for the 2023 BSSw Fellowship Program.  Submi
 </div>  
 </div>
 <!--
-OpenGraph image: OG_2109_BSSwFellowships.png
+OpenGraph image: Blog_2208_FellowsAppOpen.png
 -->    
