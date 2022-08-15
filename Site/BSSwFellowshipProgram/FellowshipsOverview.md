@@ -65,5 +65,5 @@ Beyond this categorical requirement, we are looking for applications from people
 </div>
 
 <!--
-OpenGraph image: OG_2109_BSSwFellowships.png
+OpenGraph image: Blog_2208_FellowsAppOpen.png
 --> 
