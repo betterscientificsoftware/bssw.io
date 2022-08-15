@@ -2,19 +2,24 @@
 
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
+
+
 <!---
-Slide1 L: ../Articles/Blog/2022-07-BSSwFellows2021.md
-Slide1 R: ../images/OG_2109_BSSwFellowships.png
-Slide2 L: ../Articles/Blog/2022-07-vive-la-difference-rse.md
-Slide2 R: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
-Slide3 L: ../Articles/ShortArticles/TheDeveloperCertificateOfOrigin.md 
-Slide3 R: ../Articles/Blog/2022-06-Navigating-transition-to-cloud.md
-Slide4 L: ../CuratedContent/Debuggingbooks.md
-Slide4 R: ../CuratedContent/DeepWork.md
-Slide5 L: ../CuratedContent/BusFactor.md
-Slide5 R: ../Events/2022-11-Correctness-HPC.md
-Slide6 L: ../Events/2022-11-rse-hps-workshop.md
-Slide6 R: ../Events/hpcbp-066-strategies4proposalwriting.md
+Slide1 L: ../Articles/Blog/2022-08-BSSwFellowsOpen2022.md
+Slide1 R: ../images/Blog_2208_FellowsAppOpen.png
+Slide2 L: ../Articles/Blog/2022-08-brightspot-ci.md
+Slide2 R: ../images/Blog_Brightspot.png
+Slide3 L: ../Articles/Blog/2022-07-BSSwFellows2021.md
+Slide3 R: ../images/OG_2109_BSSwFellowships.png
+Slide4 L: ../Articles/Blog/2022-07-vive-la-difference-rse.md
+Slide4 R: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
+Slide5 L: ../Articles/ShortArticles/TheDeveloperCertificateOfOrigin.md 
+Slide5 R: ../Articles/Blog/2022-06-Navigating-transition-to-cloud.md
+Slide6 L: ../Events/swr-014-team-of-teams1.md
+Slide6 R: ../Events/2022-08-hpcwdrag-ally.md
+Slide7 L: ../Events/hpcbp-067-softwarepackaging.md
+Slide7 R: ../Events/2022-09-US-RSE-Workshop.md
+
 --->
 
 <!---
