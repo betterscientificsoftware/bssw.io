@@ -32,14 +32,23 @@ Are you writing software for research? If so, please consider submitting it for 
 
 If your discipline or institution has a software repository or registry that is not [currently represented in SciCodes](https://scicodes.net/participants/), please consider sharing the [best practices for software registries and repositories](https://scicodes.net/best-practices-for-software-registries-and-repositories/) with it, and let us know about the resource by emailing <info@scicodes.net> so we can consider it for membership.
 
+[1-sfer-ezikiw]: https://doi.org/10.1016/j.ascom.2013.09.002 "{Shamir L., Holincheck A., Wallin J., 2013, A&C, 2, 67. doi:10.1016/j.ascom.2013.09.002}"
 
 ### Author bios
 
-### References
+Hervé Ménager
 
-[1] https://doi.org/10.1016/j.ascom.2013.09.002 "{Shamir L., Holincheck A., Wallin J., 2013, A&C, 2, 67. doi:10.1016/j.ascom.2013.09.002}"
+Tom Morrell
+
+Alice Allen
 
 <!---
 Publish: yes
 Topics: software publishing and citation
 --->
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Shamir L., Holincheck A., Wallin J., 2013, A&C, 2, 67. doi:10.1016/j.ascom.2013.09.002](https://doi.org/10.1016/j.ascom.2013.09.002)
