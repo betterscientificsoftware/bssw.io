@@ -1,14 +1,14 @@
 # The SciCodes Consortium: Coordinating Research Software Registries and Repositories
 
 <!-- deck start -->
-The SciCodes consortium formed recently to help discipline- and institutionally-based software registries and repositories so share work methods and develop standards.  They welcome involvement from both developers of research software and managers of repositories and registries.
-<!-- deck end --> 
+The SciCodes consortium was formed to help discipline- and institutionally-based software registries and repositories share work methods and develop standards.  They welcome involvement from both developers of research software and managers of repositories and registries.
+<!-- deck end -->
 
 #### Contributed by: [Hervé Ménager](https://github.com/hmenager), Tom Morrell, and [Alice Allen](https://github.com/asclnet)
 
 #### Publication date: August 26, 2022
 
-*Originally posted at the [Software Sustainability Institute](https://www.software.ac.uk/blog/2022-04-21-scicodes-consortium-coordinating-research-software-registries-and-repositories)*
+*Originally posted on the [Software Sustainability Institute](https://www.software.ac.uk/blog/2022-04-21-scicodes-consortium-coordinating-research-software-registries-and-repositories) blog.*
 
 Scientific disciplines that rely on computational methods often have a resource, a code registry or repository, that serves as a library for the discipline and collects the software itself and/or metadata about the software. [SciCodes](https://scicodes.net/), formed in 2021, is a consortium of academic discipline and institutional software registries and repositories. Among its goals are sharing work methods and creating a virtual registry standard to enable searching across multiple software registries.
 
