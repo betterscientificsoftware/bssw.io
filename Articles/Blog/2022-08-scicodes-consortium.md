@@ -4,7 +4,7 @@
 The SciCodes consortium was formed to help discipline- and institutionally-based software registries and repositories share work methods and develop standards.  They welcome involvement from both developers of research software and managers of repositories and registries.
 <!-- deck end -->
 
-#### Contributed by: [Hervé Ménager](https://github.com/hmenager), Tom Morrell, and [Alice Allen](https://github.com/asclnet)
+#### Contributed by: [Hervé Ménager](https://github.com/hmenager), [Tom Morrell](https://github.com/tmorrell), and [Alice Allen](https://github.com/asclnet)
 
 #### Publication date: August 26, 2022
 
@@ -38,9 +38,9 @@ If your discipline or institution has a software repository or registry that is 
 
 Hervé Ménager
 
-Tom Morrell
+Tom Morrell is the Research Data Specialist at Caltech Library. He is responsible for managing the [CaltechDATA](https://data.caltech.edu/) institutional data and software repository and helping researchers effectively store and share their data and software. Tom also contributes to the [FORCE11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), [SciCodes Consortium](https://scicodes.net/), and [InvenioRDM](https://inveniosoftware.org/products/rdm/) repository development.
 
-Alice Allen
+Alice Allen is the Editor of the [Astrophysics Source Code Library](https://ascl.net/) (ASCL), which works to improve the transparency and reproducibility of astronomy research by making the computational methods used in this research more discoverable. She is a member of the [FORCE11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), the [SciCodes Consortium](https://scicodes.net/), and the [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html) Evaluation and Advisory Committee.
 
 <!---
 Publish: yes
