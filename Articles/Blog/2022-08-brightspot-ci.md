@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/Blog_Brightspot_1140_432.png' />
+- <img src='../../images/Blog_Brightspot_1140_432B.png' />
 
 #### Contributed by: [David M. Rogers](https://github.com/frobnitzem)
 
