@@ -36,7 +36,8 @@ If your discipline or institution has a software repository or registry that is 
 
 ### Author bios
 
-Hervé Ménager
+Hervé Ménager is a Research Engineer at the Institut Pasteur, where he initially joined the Software and Databases group. He is currently co-head of the [Bioinformatics and Biostatistics Hub](https://research.pasteur.fr/en/team/bioinformatics-and-biostatistics-hub/) of the Institut Pasteur.
+He is also involved in multiple software and infrastructure projects and organizations, such as [ELIXIR Europe](https://elixir-europe.org), the [EDAM ontology](http://edamontology.org), the [SciCodes Consortium](https://scicodes.net), the [Galaxy framework](https://usegalaxy.org), and the [Common Workflow Language](https://commonwl.org) standard.
 
 Tom Morrell is the Research Data Specialist at Caltech Library. He is responsible for managing the [CaltechDATA](https://data.caltech.edu/) institutional data and software repository and helping researchers effectively store and share their data and software. Tom also contributes to the [FORCE11 Software Citation Implementation Working Group](https://www.force11.org/group/software-citation-implementation-working-group), [SciCodes Consortium](https://scicodes.net/), and [InvenioRDM](https://inveniosoftware.org/products/rdm/) repository development.
 
