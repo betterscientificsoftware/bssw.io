@@ -523,17 +523,17 @@ def build_main_content(file_lines, ref_map, renumber, gather_linkdefs):
             # filter in the last step.
             fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns1:
-                line = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%(ref_map[fn][3]+renumber), line)
+                line = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%(ref_map[fn][3]+renumber-1), line)
             fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns2:
                 line = re.sub("<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]),
                              "<pus>[%d],[%d]</pus>"%\
-                             (ref_map[fn[0]][3]+renumber, ref_map[fn[1]][3]+renumber), line)
+                             (ref_map[fn[0]][3]+renumber-1, ref_map[fn[1]][3]+renumber-1), line)
             fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns3:
                 line = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]),
                              "<pus>[%d],[%d],[%d]</pus>"%\
-                             (ref_map[fn[0]][3]+renumber,ref_map[fn[1]][3]+renumber,ref_map[fn[2]][3]+renumber), line)
+                             (ref_map[fn[0]][3]+renumber-1,ref_map[fn[1]][3]+renumber-1,ref_map[fn[2]][3]+renumber-1), line)
             line = re.sub("<pus>","<sup>", line)
             line = re.sub("</pus>","</sup>", line)
             outlines += [line]
@@ -569,7 +569,7 @@ def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
     if remapped_ref_map:
         for k,v in sorted(remapped_ref_map.items()):
             if renumber:
-                outlines.append("[%d]: #%s-%d %s\n"%(k+renumber, magic(), k+renumber, "\"%s\""%v[1] if v[1] else ""))
+                outlines.append("[%d]: #%s-%d %s\n"%(k+renumber-1, magic(), k+renumber-1, "\"%s\""%v[1] if v[1] else ""))
             else:
                 outlines.append("[%s]: #%s-%s %s\n"%(v[3], magic(), v[3], "\"%s\""%v[1] if v[1] else ""))
 
@@ -597,7 +597,7 @@ def build_reference_list_lines(remapped_ref_map, renumber, twocol):
             outlines.append('<div class="references-wrapper">\n')
             outlines.append('<div class="references">\n')
         for k,v in sorted_map:
-            v3 = k+renumber if renumber else v[3]
+            v3 = k+renumber-1 if renumber else v[3]
             if v[1] and v[2]: # both title and bibinfo exist
                 if twocol:
                     outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s<br>%s</a>\n"%(v3, magic(), v3, v[0], v[1], v[2]))

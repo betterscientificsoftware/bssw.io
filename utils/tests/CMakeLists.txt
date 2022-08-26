@@ -160,3 +160,9 @@ wikize_refs_diff_test(wikize_refs_two_column
   OUTPUT_FILE test_two_column-generated.md
   ARGS -t -o test_two_column-generated.md
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_two_column-wikized.md )
+
+wikize_refs_diff_test(wikize_refs_renumber
+  INPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber.md
+  OUTPUT_FILE test_renumber-wikized.md
+  ARGS -r 5
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber-wikized.md )
