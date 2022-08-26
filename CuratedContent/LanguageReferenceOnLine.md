@@ -1,4 +1,4 @@
-# Fundamental On Line Programming Resources
+# Fundamental On Line Programming Resources for Scientific Computing
 <!--deck text start-->
 <!--deck text end-->
 
@@ -49,14 +49,17 @@ OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec] | ([2][2])
 Python | no known specification | ([3][3])
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language Implementations/Compiler Reference Manuals**</td></tr>
 C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]/[LLVM][c-clang]/[AMD][c-amd]/[Intel][c++-intel]
-C++ | [MS][c++-ms]/[IBM][c++-ibm]/[Cray][c++-cray]/[Intel][c++-intel]|
+C++ | [AMD][c++-amd]/[MS][c++-ms]/[IBM][c++-ibm]/[LLVM][c++-clang]/[Cray][c++-cray]/[Intel][c++-intel]|
 C Preprocessor | Usually part of C implementation<br>[GNU][cpp-gnu]/[MS][cpp-ms] |
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
 OpenCL | [NVIDIA][opencl-nvidia]/[AMD][opencl-amd]/[Intel][opencl-intel]|
 Python | [2][py2]/[3][py3]
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Libraries**</td></tr>
-C Standard Library | | |
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Library Reference**</td></tr>
+C Standard Library | [C][c-stdlib]| |
 C++ Standard Library | [0][c++-stdlib-0] |
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Library Implementations**</td></tr>
+C Standard Library | https://en.wikipedia.org/wiki/C_standard_library#Implementations | |
+C++ Standard Library | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Implementations |
 
 [//]: # (Table footnotes. Text is dup'd for rendered HTML and balloon help)
 
@@ -119,6 +122,8 @@ C++ Standard Library | [0][c++-stdlib-0] |
 [c++-cray]: https://support.hpe.com/hpesc/public/docDisplay?docId=a00115116en_us&docLocale=en_US&page=The_Cray_Compiling_Environment.html
 [c++-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
 [c++-ms]: https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170
+[c++-amd]: https://developer.amd.com/amd-aocc/
+[c++-clang]: https://clang.llvm.org/cxx_status.html
 
 [//]: # (Fortran language reference URLs)
 
@@ -143,9 +148,14 @@ C++ Standard Library | [0][c++-stdlib-0] |
 [py3]: https://docs.python.org/3/reference/
 
 [c++-stdlib-0]: https://www.cplusplus.com/reference/
+https://docs.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
 
+https://www.gnu.org/software/libc/manual/pdf/libc.pdf
 
-POSIX
+https://gcc.gnu.org/onlinedocs/libstdc++
+
+https://www.ibm.com/docs/en/SSGH3R_13.1.3/com.ibm.compilers.aix.doc/standlib.pdf/
+
 
 ### Make, GNU Make 
 
@@ -179,7 +189,7 @@ POSIX
 * [sh language reference](https://pubs.opengroup.org/onlinepubs/009604499/utilities/xcu_chap02.html)
 * [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html)
 
-Boost, ROSE
+Boost, POSIX
 
 <!---
 Publish: no
