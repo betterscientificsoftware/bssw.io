@@ -13,10 +13,10 @@ Submissions for the 2023 BSSw Fellowship Program are accepted through the [onlin
 <!--Applications are now closed for the 2022 BSSw Fellowship Program. Check back in summer 2022 for info about the 2023 application process. -->
 
 - **Monday, August 15, 2022**: Fellowship application process opens.
-- **Thursday, Sept 8, 1:00-2:00 pm EDT** Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
+- **Thursday, Sept 8, 12:00-1:00 pm EDT** Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Friday, Sept 30, 2022**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **December 2022**: Announcement of selection of 2022 BSSw Fellows.
-- **Early 2023**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/).
+- **January 17 - 20, 2023**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/).
 - **March 1, 2023 – March 31, 2024**: Period of performance for 2023 BSSw Fellows.
 
 
