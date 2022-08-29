@@ -27,7 +27,7 @@ Applicants must be affiliated with a U.S.-based institution that is able to rece
 ### Q&A Webinar about the BSSw Fellowship Program
 
 Join us for a Q&A Webinar to hear more about the BSSw Fellowship Program and get your questions answered.
-- Thursday, September 8, 2022, 1:00-2:00 PM EDT 
+- Thursday, September 8, 2022, 12:00-1:00 PM EDT 
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
 ### More information, including on-line application and FAQ
