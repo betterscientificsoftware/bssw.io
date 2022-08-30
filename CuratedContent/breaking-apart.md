@@ -14,7 +14,7 @@ Article title  | [Breaking apart the monolith](https://github.com/readme/guides/
 Author | Shawn Wang
 Focus | Software sustainability
 
-Breaking apart the monolith discusses how open source maintainers are expected to be comprehensive generalists, with the expectation that they will work on all aspects of the project -- including but not limited to – code, documentation, maintenance, community relationships, project management. Additionally, it is also assumed that these maintainers will work on each aspect for the entire life of the project. This article argues that this is not a sustainable approach, and that there is a necessity to find solutions to break apart this "maintainer monolith".
+*Breaking apart the monolith* discusses how open source maintainers are expected to be comprehensive generalists, with the expectation that they will work on all aspects of the project -- including but not limited to – code, documentation, maintenance, community relationships, project management. Additionally, it is also assumed that these maintainers will work on each aspect for the entire life of the project. This article argues that this is not a sustainable approach, and that there is a necessity to find solutions to break apart this "maintainer monolith".
 
 One of the main suggestions proposed is that the scientific community learn and get inspired from the working models in government and other social sectors of society that have tackled similar problems, but in a different context. The article argues that any solution (to break this maintainers monolith) that only addresses financial aspects and glosses over the human elements makes things worse by ratcheting up expectations for maintainers.
 
