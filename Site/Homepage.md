@@ -9,16 +9,14 @@ Slide1 L: ../Articles/Blog/2022-08-BSSwFellowsOpen2022.md
 Slide1 R: ../images/Blog_2208_FellowsAppOpen.png
 Slide2 L: ../Articles/Blog/2022-08-brightspot-ci.md
 Slide2 R: ../images/Blog_Brightspot.png
-Slide3 L: ../Articles/Blog/2022-07-BSSwFellows2021.md
-Slide3 R: ../images/OG_2109_BSSwFellowships.png
-Slide4 L: ../Articles/Blog/2022-07-vive-la-difference-rse.md
+Slide3 L: ../Articles/Blog/2022-08-scicodes-consortium.md
+Slide3 R: ../Articles/Blog/2022-07-BSSwFellows2021.md
+Slide4 L: ../CuratedContent/breaking-apart.md
 Slide4 R: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
-Slide5 L: ../Articles/ShortArticles/TheDeveloperCertificateOfOrigin.md 
-Slide5 R: ../Articles/Blog/2022-06-Navigating-transition-to-cloud.md
-Slide6 L: ../Events/swr-014-team-of-teams1.md
-Slide6 R: ../Events/2022-08-hpcwdrag-ally.md
-Slide7 L: ../Events/hpcbp-067-softwarepackaging.md
-Slide7 R: ../Events/2022-09-US-RSE-Workshop.md
+Slide5 L: ../Articles/ShortArticles/CodingConventions.md
+Slide5 R: ../Events/hpcbp-067-softwarepackaging.md
+Slide6 L: ../Events/2022-09-US-RSE-Workshop.md
+Slide6 R: ../Events/XpertNetworkSeries.md
 --->
 
 <!---
