@@ -12,7 +12,7 @@ Slide2 R: ../images/Blog_Brightspot.png
 Slide3 L: ../Articles/Blog/2022-08-scicodes-consortium.md
 Slide3 R: ../Articles/Blog/2022-07-BSSwFellows2021.md
 Slide4 L: ../CuratedContent/breaking-apart.md
-Slide4 R: ../Articles/ShortArticles/OpenssfBestPracticesBadgeProgram.md
+Slide4 R: ../CuratedContent/TechnicalDebt.md.md
 Slide5 L: ../Articles/ShortArticles/CodingConventions.md
 Slide5 R: ../Events/hpcbp-067-softwarepackaging.md
 Slide6 L: ../Events/2022-09-US-RSE-Workshop.md
