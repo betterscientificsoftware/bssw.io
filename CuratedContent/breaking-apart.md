@@ -1,5 +1,5 @@
 
-# Breaking apart the monolith
+# Breaking Apart the Monolith
 
 <!-- deck text start --> 
 The article *Breaking apart the monolith* explores ways of breaking apart the “maintainer monolith" - where we expect maintainers to deliver full-stack maintainership for the entire life of the project.
