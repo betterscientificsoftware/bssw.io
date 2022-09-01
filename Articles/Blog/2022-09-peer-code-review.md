@@ -1,4 +1,4 @@
-# Title: Recommendations for Peer Code Review in Research Software Development
+# Recommendations for Peer Code Review in Research Software Development
 
 **Hero Image:**
 
@@ -12,7 +12,9 @@ Peer code review is a systematic examination of source code by peers of the soft
 
 In addition to improving general software quality, the use of peer code review has other specific benefits in the research software domain. Unlike traditional commercial/IT software, research software developers are often exploring new scientific or engineering results, which may be unknown a priori. The lack of an oracle makes it difficult for developers to create adequate tests that can diagnose whether a result is a new insight from a simulation or is the consequence of a fault in the software. Even in cases where the expected output is known, the complexity of the software often makes it impossible to adequately test all important configurations of the software and input data. Conversely, when a person conducts a code review, he or she is able to analyze the underlying algorithm and identify problematic conditions. Therefore, while peer code review is essential for any type of software, it is even more important for research software.
 
-In this article, I talk about an empirical study I conducted with Jeffrey Carver of the University of Alabama on developers' perceptions of peer code review in research software development. It started a while ago when I was a summer intern at the National Center for Supercomputing Applications (NCSA) at the University of Illinois Urbana-Champaign. As a result, I had first-hand access to interview 22 research software developers. Some were in-house NCSA researchers, and some were participants of the annual Einstein toolkit meeting. Later, we conducted a community survey of research software developers to gain a general understanding and published the results in a journal paper. The resulting paper (see Further reading) presents a lot of exciting information, including the code review process, benefits/importance of doing code review, positive/negative experiences, challenges/barriers, and ways of improvement. Instead of repeating the information here, I discuss a summary and provide a general recommendation to practitioners.
+In this article, I talk about an empirical study I conducted with Jeffrey Carver of the University of Alabama on developers' perceptions of peer code review in research software development. It started a while ago when I was a summer intern at the National Center for Supercomputing Applications (NCSA) at the University of Illinois Urbana-Champaign. As a result, I had first-hand access to interview 22 research software developers. Some were in-house NCSA researchers, and some were participants of the annual Einstein toolkit meeting. Later, we conducted a community survey of research software developers to gain a general understanding and published the results in a journal paper. The resulting paper presents a lot of exciting information, including the code review process, benefits/importance of doing code review, positive/negative experiences, challenges/barriers, and ways of improvement. Here, I summarize the key findings of the paper and provide a general recommendation to practitioners.  Please refer to the full paper for the complete discussion (see Further reading).
+
+### Key findings
 
 We found that peer code review helps research software developers to produce high-quality software. Overall, research software developers typically follow an informal review process. Most respondents indicated they initiate code reviews with their peers through pull-request on GitHub, BitBucket, or GitLab. Code reviews help research software developers identify many problems in the code. Most of the respondents identified issues related to software quality and code mistakes.
 
@@ -20,7 +22,9 @@ Research software developers have overall positive experiences regarding code re
 
 To improve the code review process and make it more effective, research software development teams should make it a habit by formalizing the process and using appropriate tooling. There is a need for more people to participate in the code review process, so providing proper incentives and training could potentially increase participation. In addition, research software developers should invest more time in code review and improve the process by providing quick feedback. Improving the code review process can help eliminate many problems that are not addressed by testing.
 
-Here, briefly, are a set of recommendations that research software developers can incorporate into their projects to produce high-quality research software.  For the full context and discussion, please see the paper, cited below.
+### Recommendations
+
+Here, briefly, are a set of recommendations that research software developers can incorporate into their projects to produce high-quality research software.  Once again, for the full context and discussion, please see the paper.
 
 - Make the code review process formal with structured guidelines for each step of the process.
 - Try to ensure at least one science review and one technical review.
