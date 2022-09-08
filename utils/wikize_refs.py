@@ -435,10 +435,6 @@ def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
     """
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
-    print(missing_refs)
-    print(type(missing_refs))
-    missing_refs = set(sorted(missing_refs))
-    print(type(missing_refs))
     if missing_refs:
         message("Some footnotes never appear in the references%s...\n%s"%
             ("\nmaybe they will resolve in a linkdef database" if has_lddbs else "", str(list(missing_refs))))
