@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3.6
 
 # run ./wikize_refs.py --help for documentation
 
@@ -223,19 +223,35 @@ def broken_link(x, timeout=20):
 
 def has_smart_curly_quotes(line):
 
-    left_double = '\xe2\x80\x9c'
-    right_double = '\xe2\x80\x9d'
-    left_single = '\xe2\x80\x98'
-    right_single = '\xe2\x80\x99'
+    try: # python3 way
+        left_double = u"\u201c"
+        right_double = u"\u201d"
+        left_single = u"\u2018"
+        right_single = u"\u2019"
 
-    if left_double in line:
-        return True
-    if right_double in line:
-        return True
-    if left_single in line:
-        return True
-    if right_single in line:
-        return True
+        if left_double in line:
+            return True
+        if right_double in line:
+            return True
+        if left_single in line:
+            return True
+        if right_single in line:
+            return True
+
+    except: # python2 way
+        left_double = '\xe2\x80\x9c'
+        right_double = '\xe2\x80\x9d'
+        left_single = '\xe2\x80\x98'
+        right_single = '\xe2\x80\x99'
+
+        if left_double in line:
+            return True
+        if right_double in line:
+            return True
+        if left_single in line:
+            return True
+        if right_single in line:
+            return True
 
     return False
 
@@ -419,6 +435,10 @@ def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
     """
     ref_handles = set(ref_map.keys())
     missing_refs = fn_handles - ref_handles
+    print(missing_refs)
+    print(type(missing_refs))
+    missing_refs = set(sorted(missing_refs))
+    print(type(missing_refs))
     if missing_refs:
         message("Some footnotes never appear in the references%s...\n%s"%
             ("\nmaybe they will resolve in a linkdef database" if has_lddbs else "", str(list(missing_refs))))
