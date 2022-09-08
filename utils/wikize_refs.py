@@ -623,7 +623,7 @@ def build_reference_list_lines(remapped_ref_map, renumber, twocol):
         except: # If sorting as ints fails, sort "normally".
             sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
         i = 0
-        halfway = len(sorted_map) / 2
+        halfway = int(len(sorted_map) / 2)
         if twocol:
             outlines.append('<div class="references-wrapper">\n')
             outlines.append('<div class="references">\n')
