@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python
 
 # run ./wikize_refs.py --help for documentation
 
@@ -221,6 +221,21 @@ def broken_link(x, timeout=20):
     except:
         return True
 
+def diff_and_keep_sorted(l1, l2):
+    """Difference two lists. If result is all ints, sort numerically.
+       Otherwise sort lexicographically."""
+
+    l1s = set(l1)
+    l2s = set(l2)
+    d = l1s - l2s
+    try:
+        dint = sorted([int(x) for x in d])
+        dret = [str(x) for x in dint]
+        return dret
+    except:
+        pass
+    return sorted(list(d))
+
 def has_smart_curly_quotes(line):
 
     try: # python3 way
@@ -434,14 +449,14 @@ def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
         - Ensure URL targets exist
     """
     ref_handles = set(ref_map.keys())
-    missing_refs = fn_handles - ref_handles
+    missing_refs = diff_and_keep_sorted(fn_handles, ref_handles)
     if missing_refs:
         message("Some footnotes never appear in the references%s...\n%s"%
-            ("\nmaybe they will resolve in a linkdef database" if has_lddbs else "", str(list(missing_refs))))
+            ("\nmaybe they will resolve in a linkdef database" if has_lddbs else "", str(missing_refs)))
 
-    missing_fns = ref_handles - fn_handles
+    missing_fns = diff_and_keep_sorted(ref_handles, fn_handles)
     if missing_fns:
-        message("Some references never appear in a footnote...\n%s"%str(list(missing_fns)))
+        message("Some references never appear in a footnote...\n%s"%str((missing_fns)))
 
     # Check linkdef lines for smart quotes
     for k in sorted(file_lines):
@@ -494,7 +509,7 @@ def resolve_missing_refs(missing_refs, ref_map, lddbs):
                 ref_map[x] = [lddb_ref_map[x][0], lddb_ref_map[x][1], lddb_ref_map[x][2]]
                 ref_map[x].append(len(ref_map))
                 found_refs += [x]
-        missing_refs = missing_refs - set(found_refs)
+        missing_refs = diff_and_keep_sorted(missing_refs, found_refs)
         if not missing_refs:
             break 
 
