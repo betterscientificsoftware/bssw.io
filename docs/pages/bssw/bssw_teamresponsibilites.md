@@ -7,9 +7,7 @@ permalink: bssw_teamresponsibilites.html
 ## Editorial Board composition
 The BSSw.io editorial board (EB) is composed of senior editors and associate editors. 
 * As the BSSw.io site continues to grow, the size of the EB will continue to grow until deemed sufficient. The EB reserves the right to limit its team size, based on needs and requirements, in the future. 
-* All founding EB team members will be on the board, in perpetuity, as long as they wish to be actively involved. 
 * EB members are expected to participate in responsibilities (listed in the board member responsibilities section) and are expected to follow behavioral guidelines (listed in behavioral expectations section).
-* All future board members will be committed to a 2-year term. To provide continuity, board members will have staggered terms. No more than half the board will change in a year.
 * Future board members will be selected based on voting majority by the current EB.
 * Board members are expected to adhere to internal onboarding and off-boarding processes, to provide seamless transitions.
 
