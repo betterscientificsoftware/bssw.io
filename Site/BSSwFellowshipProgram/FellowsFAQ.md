@@ -5,8 +5,8 @@ More questions and answers will be added to this page over time; check back for 
 ## Q & A Webinar 
 
  - Thursday, September 8, 12:00-1:00 pm EDT
- - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. --->
-Slides & Recording for 2022 Fellowship (CLOSED):  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.16611331) / Recording: [(slides/audio)](https://us06web.zoom.us/rec/share/M1aWZ4zVjIzBauFCyIGBtzHkTyMqWdU5Rf_3GU5X4x6pOEuPO-82C6ZInB9faR8.PG0jnqnGyrWCHmfE)
+<!--- - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. --->
+Slides & Recording for 2023 Fellowship:  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.21070990) / Recording: [(slides/audio)](https://krellinst-org.zoom.us/rec/share/KlPlcT_G9hh16hDiG9cBshkOpYraDrf521ZvcSWz_C5sZwRQgiSPhEEfwVmFpNRf.a4moIYAA09e8phJC)
 
 ## Application Questions
 
