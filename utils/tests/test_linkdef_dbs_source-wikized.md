@@ -185,8 +185,8 @@ for large and/or automated refactorings.
 [23]: #sfer-ezikiw-23 "CodeStriker Project Home Page"
 [24]: #sfer-ezikiw-24 "Google's Billion Lines of Code Repository"
 [25]: #sfer-ezikiw-25 "Hacker News commentary on Google's Billion Lines of Code Repository"
-[19]: #sfer-ezikiw-19 "Take the Pain out of Code Reviews"
 [7]: #sfer-ezikiw-7 "Stacked pull requests: make code reviews faster, easier, and more effective"
+[19]: #sfer-ezikiw-19 "Take the Pain out of Code Reviews"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
