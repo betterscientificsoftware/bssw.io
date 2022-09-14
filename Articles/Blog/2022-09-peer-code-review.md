@@ -2,7 +2,7 @@
 
 #### Contributed by: [Nasir Eisty](https://github.com/neisty)
 
-#### Publication date: September 13, 2022
+#### Publication date: September 14, 2022
 
 <!-- start of deck text -->
 A recent paper on peer code review in research software provides some simple, practical recommendations to make the process better.
@@ -17,7 +17,7 @@ In this article I talk about an empirical study I conducted with Jeffrey Carver 
 conducted a community survey of research software developers to gain a general understanding of the review process. We published the results in a journal paper (see [Further reading](#further-reading)).
 
 The resulting paper presents a lot of exciting information, 
-including a description of the code review process, benefits and importance of doing code review, positive/negative experiences, challenges, and barriers, and ways of improvement. Here, I summarize the key findings of our study and provide  general recommendations to practitioners.
+including a description of the code review process, benefits and importance of doing code review, positive/negative experiences, challenges, barriers, and ways of improvement. Here, I summarize the key findings of our study and provide  general recommendations to practitioners.
 Please refer to the full paper for the complete discussion.
 
 <br>
