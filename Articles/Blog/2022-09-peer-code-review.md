@@ -1,12 +1,12 @@
 # Recommendations for Peer Code Review in Research Software Development
 
-**Hero Image:**
-
-- <img src='../../images/computing-abstraction.jpg' />
-
 #### Contributed by: [Nasir Eisty](https://github.com/neisty)
 
 #### Publication date: September 13, 2022
+
+<!-- start of deck text -->
+A recent paper on peer code review in research software provides some simple, practical recommendations to make the process better.
+<!-- end of deck text -->
 
 Peer code review is a systematic examination of source code by peers of the software’s developer to identify problems the developer can then address. It is a lightweight, asynchronous method for ensuring high-quality code. As [defined in the literature](http://amiangshu.com/papers/IDoESE.pdf), peer code review is the process of analyzing code written by a teammate (i.e., a peer) to judge whether it is of sufficient quality to be integrated into the main project codebase.
 Traditionally, commercial organizations and open-source projects have been adopting peer code review as a more efficient, lightweight version of the older, more formal inspection process. While peer code review is effective and prevalent in open-source and commercial software projects, it remains underutilized in research software.
@@ -19,6 +19,10 @@ conducted a community survey of research software developers to gain a general u
 The resulting paper presents a lot of exciting information, 
 including a description of the code review process, benefits and importance of doing code review, positive/negative experiences, challenges/ and barriers, and ways of improvement. Here, I summarize the key findings of our study and provide  general recommendations to practitioners.
 Please refer to the full paper for the complete discussion.
+
+<br>
+
+<img src='../../images/Blog_2209_peer_review.png' class='page lightbox'/>
 
 ### Key findings
 
