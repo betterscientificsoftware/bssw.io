@@ -8,7 +8,7 @@
 A recent paper on peer code review in research software provides some simple, practical recommendations to make the process better.
 <!-- end of deck text -->
 
-Peer code review is a systematic examination of source code by peers of the software’s developer to identify problems the developer can then address. It is a lightweight, asynchronous method for ensuring high-quality code. As [defined in the literature](http://amiangshu.com/papers/IDoESE.pdf), peer code review is the process of analyzing code written by a teammate (i.e., a peer) to judge whether it is of sufficient quality to be integrated into the main project codebase.
+Peer code review is a systematic examination of source code by peers of the software’s developer to identify problems the developer can then address. It is a lightweight, asynchronous method for ensuring high-quality code. As [defined in the literature](https://www.umbc.edu/eseiw2013/idoese/pdf/eseiw2013_IDoESE_188.pdf), peer code review is the process of analyzing code written by a teammate (i.e., a peer) to judge whether it is of sufficient quality to be integrated into the main project codebase.
 Traditionally, commercial organizations and open-source projects have been adopting peer code review as a more efficient, lightweight version of the older, more formal inspection process. While peer code review is effective and prevalent in open-source and commercial software projects, it remains underutilized in research software.
 
 In addition to improving general software quality, the use of peer code review has other specific benefits in the research software domain. Unlike traditional commercial/IT software, research software developers are often exploring new scientific or engineering results, which may be unknown a priori. The lack of an oracle makes it difficult for developers to create adequate tests that can diagnose whether a result is a new insight from a simulation or is the consequence of a fault in the software. Even in cases where the expected output is known, the complexity of the software often makes it impossible to adequately test all important configurations of the software and input data. Conversely, in a code review, one is able to analyze the underlying algorithm and identify problematic conditions. Therefore, while peer code review is essential for any type of software, it is even more important for research software.
@@ -17,7 +17,7 @@ In this article I talk about an empirical study I conducted with Jeffrey Carver 
 conducted a community survey of research software developers to gain a general understanding of the review process. We published the results in a journal paper (see [Further reading](#further-reading)).
 
 The resulting paper presents a lot of exciting information, 
-including a description of the code review process, benefits and importance of doing code review, positive/negative experiences, challenges/ and barriers, and ways of improvement. Here, I summarize the key findings of our study and provide  general recommendations to practitioners.
+including a description of the code review process, benefits and importance of doing code review, positive/negative experiences, challenges, and barriers, and ways of improvement. Here, I summarize the key findings of our study and provide  general recommendations to practitioners.
 Please refer to the full paper for the complete discussion.
 
 <br>
