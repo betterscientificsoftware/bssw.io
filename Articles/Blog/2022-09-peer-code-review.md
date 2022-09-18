@@ -22,7 +22,7 @@ Please refer to the full paper for the complete discussion.
 
 <br>
 
-<img src='../../images/Blog_2209_peer_review.png' class='page lightbox'/>
+<img src='../../images/Blog_2209_peer_review.png' class='page'/>
 
 ### Key findings
 
