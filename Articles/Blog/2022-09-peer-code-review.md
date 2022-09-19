@@ -22,7 +22,7 @@ Please refer to the full paper for the complete discussion.
 
 <br>
 
-<img src='../../images/Blog_2209_peer_review.png' class='page'/>
+[<a href="https://www.freepik.com/free-vector/business-people-working-laptop-development_4332351.htm">Image by katemangostar</a> on Freepik]<img src='../../images/Blog_2209_peer_review.png' class='page'/>
 
 ### Key findings
 
