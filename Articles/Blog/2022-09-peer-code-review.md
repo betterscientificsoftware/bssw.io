@@ -24,6 +24,8 @@ Please refer to the full paper for the complete discussion.
 
 <img src='../../images/Blog_2209_peer_review.png' class='page'/>[<a href="https://www.freepik.com/free-vector/business-people-working-laptop-development_4332351.htm">Image by katemangostar</a> on Freepik]
 
+<br>
+
 ### Key findings
 
 Overall, research software developers typically follow an informal review process. Most respondents indicated they initiate code reviews with their peers through pull-request on GitHub, BitBucket, or GitLab. Such code reviews help research software developers identify problems in the code and produce higher-quality software.
