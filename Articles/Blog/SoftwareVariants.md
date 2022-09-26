@@ -69,66 +69,95 @@ A typical example is Debian and HDF5: you cannot install a MPI-parallel HDF5 pac
 This is variation of the previous problem, which occurs at runtime as a result of an MPI binary variant.
 If the MPI-enabled variant of the software *expects* that an MPI context will always be provided (or can be established), this breaks serial software applications.
 
-One can make the same case for GPU context controls and any other runtime that needs to be initialized/finalized.
+One can make the same case for any other runtime that needs to be initialized/finalized, such as (un)conditional initialization of GPU devices, GPU streams, etc.
 
 #### On-node acceleration
 
-**%%%%% David: I'm having a hard time understanding this section.  Is there a way to explain this better? %%%%%**
+Going into more detail on the previous point, a cardinal pattern in HPC software is to define mutually exclusive binary pattern for the "acceleration backend" of software.
+Many single-source performance-portability implementations currently compile to exactly one on-node acceleration backend at a time.
 
-Speaking of GPU contexts, the next cardinal pattern in HPC software is a mutually exclusive binary pattern for the "acceleration backend" of software.
-This can be parallel threading or offloading.
+For example, one might compile a numerical package to run with a CUDA backend.
+Or compile it again with an OpenMP backend.
+Or with a HIP/ROCm backend, etc.
 
-Although it is not necessary to implement it that way, especially single-source implementations currently compile to exactly one on-node acceleration backend.
-This takes away the choice to deploy binary packages or pre-build containers that could run on various GPU vendor hardware or be run on CPU or GPU as a runtime option, depending on user-need.
+Delegating this decision to compile-time takes away the choice to deploy binary packages or pre-build unified containers that could run on various GPU vendor hardware or be run on CPU or GPU as a runtime option, depending on user-need.
+It also hinders dependent developments that want to utilize CPU and GPU at the same time, e.g., in simulations with dynamic load balancing.
+
+So called "fat binary" artifacts can address this problem in part, by compiling multiple backends into the same executable and delegating the code path to choose to runtime.
+Unfortunately, there are currently little established conventions and tooling for such an approach, especially across different vendors.
 
 ### Possible solutions and development policies
 
-The solution to these challenges start with everyone thinking of themselves as "upstream" developers and thinking about how downstream users might reuse their software.  This even includes application developers, since someone might come up with a clever way to integrate an application into a larger context, e.g., for optimization of ensemble use cases or AI/ML workflows.
+The solution to these challenges starts with everyone thinking of themselves as "upstream" developers and thinking about how downstream users might reuse their software.
+This even includes application developers: someone might come up with a clever way to integrate an application - like a library - into a larger context, e.g., for optimization of ensemble use cases or AI/ML workflows.
 
 We propose the following guidelines or development policies when introducing binary variants into a software.
 
-1. Strict extension-only: using binary variants only for adding *additional* functionality - a variant *enhances* a package with extra functionality.
+1. Strict extension-only: using compilation variants only for adding *additional* functionality - a variant *enhances* a package with extra functionality.
+    - rationale: the primary reason for this pattern is to disable dependencies for simplified development & deployment
 
-%%%%% David: Like the gpu acceleration section above, I think this section will be hard for many to follow/believe.  We have a lot of single-source tools out there these days, and "fat binary" support for multiple device types is not available in many cases.  I'm not sure how to revise this, but I think it needs work. %%%%%
-
-2. Avoid exclusive options:
+2. Avoid exclusive compilation options:
     - variants that enable functionality at the cost of disabling another, e.g., `#ifdef FOUND_MPI ... #else ...`,
     - *multi-options* should be treated as lists of functionality
       - e.g., compile multiple variants of CPU and GPU backends that can be selected at runtime,
       - this can still make use of single-source programming patterns and just needs an additional runtime dispatch at a high-level in the program workflow, where latency is usually not an issue,
       - similar solutions also exist already for runtime-dispatched vectorization control.
+    - rationale: avoids incompatibilities, supports feature-complete deployments and enhances clarity in documentation
 
 3. Avoid modifying the "base" behavior of the software if additional functionality is activated - existing functionality and dependencies, at compile and runtime, stays unchanged.
+    - rationale: supports feature-complete deployments and enhances clarity in documentation
 
 4. Add explicit configuration and runtime control to use such opt-in functionality/enhancements.
+    - rationale: avoids implicit assumptions that do not necessarily hold true when combined in a combined software ecosystem
 
 ### Package managers
 
 But hey, don't we have package managers to solve this problem for us by keeping track of the right variant?
 Well, in part.
 Of course, modern package managers like Spack allow developers to define various development environments with exactly chosen and combined variants of software.
-This is helpful for correct results, but results in a combinatoric explosion for development environments and deployments.
-But, unfortunately, most package managers do not support binary variants at all - adding them as afterthoughts via package naming extensions, again combinatoric installs and complex conflict resolutions.
+This is helpful for correct results.
+Yet, if one needs to use all features of a software, this results in a combinatorial explosion of artifacts for development environments and deployments.
+On top of that, most package managers do not support binary variants at all - and are adding them as afterthoughts via package naming extensions, again combinatorial installs and require complex conflict resolutions.
 
 Indeed, independent if a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch all options that are *potentially* useful for a system to "ON" (or selected) at the same time.
-Fewer modules to build, no switching for development, and smaller binary caches to build.
+Consequently, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
 
 ### Hands-on examples
 
 #### C/C++
 
-%%%%% David: Do you have compact examples of these ideas in code?  Or can you point to more detailed examples elsewhere? %%%%%
-
 The following design patterns can be used for C/C++ code.
 
 **Header:** Selected opt-in variants should add *extra* header files that expose additional classes, API calls and expose functionality like MPI-enabled signatures.
-This means at least one public "facade" header is needed per confiugration option, to avoid "polluting" base functionality with third party includes.
+This means at least one public "facade" header is needed per configuration option, to avoid "polluting" base functionality with third party includes.
+  - Examples:
+    - [pybind11/numpy.h](https://pybind11.readthedocs.io/en/stable/advanced/pycpp/numpy.html#arrays)
+    - an additional public API header with separate classes & functions for MPI-related functionality
 
 **Configuration:** An extra configuration header file that provides defines for enabled and disabled opt-in functionality should be used.
 Likewise, a mirrored runtime API should be available to query these options.
 This avoids propagating options solely through build systems, making downstream consumers agnostic of them, and avoids the need to clutter command lines with defines.
+  - Examples:
+    - [AMReX_Config.H](https://github.com/AMReX-Codes/amrex/blob/22.09/Tools/CMake/AMReX_Config.H.in)
+    - [openPMD/config.hpp](https://github.com/openPMD/openPMD-api/blob/0.14.5/include/openPMD/config.hpp.in)
+  - Note: avoid changing variables in these files, [e.g. Git hashes or build time](https://github.com/AMReX-Codes/amrex/pull/2653), to avoid interference with productivity tools such as [CCache](https://ccache.dev)
 
-**CMake:** For multiple variants, allow lists instead of either-or selections.
+**CMake:** For multiple variants, [allow lists](https://www.kitware.com/constraining-values-with-comboboxes-in-cmake-cmake-gui/) instead of either-or selections.
+  - Don't:
+    ```cmake
+    set(App_Backend "OpenMP" CACHE STRING
+        "On-node, accelerated computing backend")
+
+    set(App_Backend_Values "omp;cuda;hip;sycl;none" CACHE INTERNAL
+        "List of possible values for the Language cache variable")
+
+    set_property(CACHE App_Backend PROPERTY STRINGS ${App_Backend_Values})
+    ```
+  - Do:
+    ```cmake
+    set(App_Backend "OpenMP;CUDA" CACHE STRING
+        "On-node, accelerated computing backend")
+    ```
 
 #### Python and Fortran
 
@@ -143,9 +172,10 @@ The following design patterns can be used for Python and Fortran code.
 Over the last two years, we redesigned most binary options of the Exascale Computing Project application [WarpX](https://ecp-warpx.github.io) based on these experiences and insights.
 We changed binary options that control additional fields solvers that require FFTs and linear algebra to provide additional runtime options when enabled, and without changing application behavior if compiled and not used.
 
-%%%%% David: I think a little more explanation is needed here.  Is the issue that AMReX has explicit interfaces for 1D, 2D, and 3D cases whereas WarpX wants to be independent of dimensionality? %%%%%
+More complicated are changes in simulation geometry.
+Ideally, WarpX developers would like to offer users a single deployment that provides 1D, 2D, 3D and quasi-cylindrical (RZ) geometry at the same time.
+In AMReX, this is a compile-time option.
 
-More complicated are changes in simulation geometry, where currently a 1:1 dependency on AMReX geometry exists.
 We are addressing this by progressively compiling all geometries "as 3D" and adding additional 1D and 2D calls to parallel kernel primitives in AMReX' 3D interfaces.
 Until then, we increased usability by mirroring the compile time option as runtime user input, which allows us to throw clean error messages, and compiling multiple runtime libraries per geometry for our Python bindings - which moves the task of a one-time dispatch to the Python level after reading the inputs file.
 
