@@ -2,7 +2,7 @@
 
  **Hero Image:**
  
-  - [WarpX: longitudinal electric field in a laser-plasma accelerator, rendered with Ascent and VTK-m.]<img src='../../images/Blog_2209_warpx.png' />
+  - [WarpX: longitudinal electric field in a laser-plasma accelerator, rendered with Ascent and VTK-m.]<img src='../../images/Blog_2209_SoftwareVariants_WarpX.png' />
 
 #### Contributed by: [Axel Huebl](https://github.com/ax3l)
 
@@ -26,6 +26,8 @@ With the rise of GPU computing over the last decade, a similar option is often a
 Library and application developers in HPC might then add further more domain-specific compilation options, such as:
 - additional numerical solvers supported by external math libraries, e.g., BLAS/LAPACK/FFT
 - choices of geometry of a model
+
+[Some of the WarpX compile-time options exposed in the Spack package manager.]<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />
 
 ### The catch
 
@@ -99,10 +101,6 @@ We propose the following guidelines or development policies when introducing bin
 3. Avoid modifying the "base" behavior of the software if additional functionality is activated - existing functionality and dependencies, at compile and runtime, stays unchanged.
 
 4. Add explicit configuration and runtime control to use such opt-in functionality/enhancements.
-
-<br>
-
-<img src='../../images/Blog_SoftwareVariants.png' class='page lightbox'/>[%%%%% NEED CAPTION %%%%%]
 
 ### Package managers
 
