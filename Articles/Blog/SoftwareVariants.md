@@ -47,12 +47,17 @@ A few specific examples will help illustrate the challenges.
 
 #### Breaking public APIs
 
-Without due care, it is easy for scattered `#ifdef` switches to end up changing public APIs that downstream applications may depend upon: extra parameters in fuctions, different class signatures and constructors, varying members, etc.
-In the worst case, the change of the upstream option has to be mirrored 1:1 downstream with `#ifdef`s at call locations, e.g., because existing signatures are *changed*.
+Without due care, it is easy for scattered `#ifdef` switches to end up changing public APIs that downstream applications may depend upon: extra parameters in functions, different class signatures and constructors, varying members, etc.
+In the most common case in HPC, the change of the upstream option has to be mirrored 1:1 downstream with `#ifdef`s at call locations, because existing signatures are *changed*.
 
-Such API changes also always lead to incompatible application binary interfaces (ABIs).
-Likewise, it is easy to introduce breaking ABI changes that are more subtle, which will result in linkage failures for a new variant in the best case, and subtle breakage at runtime in the worst case.
-A typical example is the manipulation of the number of member variables of a public class based on a binary variant options.
+Such API changes also always lead to incompatible application binary interfaces (ABIs) when building library interfaces.
+In the best case, the linker will catch an incompatible binary variant of the same software version via missing symbol errors.
+
+In the worst case, a more subtle ABI break will only manifest at runtime.
+For example, the addition/removal/exchange of member variables of public classes via `#ifdef`s can, even if these members are private, create undefined behavior when copying or accessing the class.
+The homepage [ABI Laboratory](https://abi-laboratory.pro) summarizes more details on this topic.
+For examples that track potentially breaking ABI changes over time, see for instance [MPICH](https://abi-laboratory.pro/index.php?view=timeline&l=mpich), [OpenMPI](https://abi-laboratory.pro/index.php?view=timeline&l=openmpi) and [c-blosc](https://abi-laboratory.pro/index.php?view=timeline&l=c-blosc).
+
 
 #### The transitive MPI include
 
