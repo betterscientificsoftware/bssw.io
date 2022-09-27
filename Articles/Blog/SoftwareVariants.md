@@ -10,6 +10,9 @@
 
 ### Introduction
 
+Scientific software is often complex, providing many options to control features, supported hardware and performance.
+In this blog post, we will take a closer look on configuration options and their influence on developer and user productivity.
+
 Configuration options of a software package are selected in the installation phase of software: to be precise the configuration and compilation phase.
 As a result, they cannot be changed without reinstalling the software.
 
