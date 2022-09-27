@@ -11,7 +11,7 @@
 ### Introduction
 
 Scientific software is often complex, providing many options to control features, supported hardware and performance.
-In this blog post, we will take a closer look on configuration options and their influence on developer and user productivity.
+In this blog post, we will take a closer look at configuration options and their influence on developer and user productivity.
 
 Configuration options of a software package are selected in the installation phase of software: to be precise the configuration and compilation phase.
 As a result, they cannot be changed without reinstalling the software.
@@ -29,12 +29,11 @@ With the rise of GPU computing over the last decade, a similar option is often a
 Library and application developers in HPC might then add further more domain-specific compilation options, such as:
 - additional numerical solvers supported by external math libraries, e.g., BLAS/LAPACK/FFT
 - choices of geometry of a model
-
-[Some of the WarpX compile-time options exposed in the Spack package manager.]<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />
+- etc.
 
 ### The catch
 
-There are generally two was of implementing such configuration options at build-time: boolean switches and multi-variant options.
+There are generally two ways of implementing such configuration options at build-time: boolean switches and multi-variant options.
 Binary switches are simply turning a functionality on or off, e.g., MPI support.
 Multi-variant options might be more involved, e.g., accelerating code for a specific GPU programming environment (CUDA/HIP/SYCL/OpenMP or OpenACC offloading).
 
@@ -44,7 +43,7 @@ My experience is that problems for developers of "downstream" HPC software arise
 For instance, runtime options that change with the chosen binary option need to be carefully documented for users/downstream developers - and complicate user experience in already tricky installations.
 Workflows have to be established when switching functionality downstream: do you change configuration of the upstream dependency and re-build/re-install? Do you find and use the new variant of the dependency that is packaged separately?
 Testing also gets more complicated: if you cannot create a single environment that enables and tests all functionality, you might need to recompile significant portions of the software stack to enable different tests.
-Even with sufficient automation, the this increases continuous integration time and deployment resources.
+Even with sufficient automation, this increases continuous integration time and can strain deployment resources.
 
 A few specific examples will help illustrate the challenges.
 
@@ -64,24 +63,24 @@ For examples that track potentially breaking ABI changes over time, see for inst
 
 #### The transitive MPI include
 
-Adding transitive `#include`s to third party software in public APIs is one of the most common mistake in HPC binary variant design.
+Adding transitive `#include`s to third party software in public APIs is one of the most common mistakes in HPC binary variant design.
 The problem can be exemplified as follows:
 A developer writes a serial program using an HPC-capable third-party software package, e.g., to support desktop users or non-MPI based multi-node parallelism.
-The third-party software can be build with MPI enabled, and now introduces a compile-time dependency on MPI signatures even though the specific downstream translation unit never uses it.
+The third-party software can be built with MPI enabled, and now introduces a compile-time dependency on MPI signatures even though the specific downstream translation unit never uses it.
 
 The results include breaking builds, the need to communicate additional, potentially inaccurate (unused) dependencies, and breakage in most desktop package managers.
 A typical example is Debian and HDF5: you cannot install a MPI-parallel HDF5 package for development and the popular, serial HDFView package at the same time.
 
 #### The unconditional MPI initialize (or expectation thereof)
 
-This is variation of the previous problem, which occurs at runtime as a result of an MPI binary variant.
-If the MPI-enabled variant of the software *expects* that an MPI context will always be provided (or can be established), this breaks serial software applications.
+This is a variation of the previous problem, which occurs at runtime as a result of an MPI binary variant.
+If the MPI-enabled variant of the software *expects* that an MPI context will always be provided (or can be established), this breaks serial - and non-MPI parallelized - software applications.
 
 One can make the same case for any other runtime that needs to be initialized/finalized, such as (un)conditional initialization of GPU devices, GPU streams, etc.
 
 #### On-node acceleration
 
-Going into more detail on the previous point, a cardinal pattern in HPC software is to define mutually exclusive binary pattern for the "acceleration backend" of software.
+Going into more detail on the previous point, a cardinal pattern in HPC software is to define mutually exclusive binary patterns for the "acceleration backend" of software.
 Many single-source performance-portability implementations currently compile to exactly one on-node acceleration backend at a time.
 
 For example, one might compile a numerical package to run with a CUDA backend.
@@ -91,7 +90,7 @@ Or with a HIP/ROCm backend, etc.
 Delegating this decision to compile-time takes away the choice to deploy binary packages or pre-build unified containers that could run on various GPU vendor hardware or be run on CPU or GPU as a runtime option, depending on user-need.
 It also hinders dependent developments that want to utilize CPU and GPU at the same time, e.g., in simulations with dynamic load balancing.
 
-So called "fat binary" artifacts can address this problem in part, by compiling multiple backends into the same executable and delegating the code path to choose to runtime.
+So called "fat binary" artifacts can address this problem in part, by compiling multiple backends into the same executable and delegating the code path to choose at runtime.
 Unfortunately, there are currently little established conventions and tooling for such an approach, especially across different vendors.
 
 ### Possible solutions and development policies
@@ -102,7 +101,7 @@ This even includes application developers: someone might come up with a clever w
 We propose the following guidelines or development policies when introducing binary variants into a software.
 
 1. Strict extension-only: using compilation variants only for adding *additional* functionality - a variant *enhances* a package with extra functionality.
-    - rationale: the primary reason for this pattern is to disable dependencies for simplified development & deployment
+    - rationale: the primary reason for this pattern is to toggle dependencies on and off for simplified development & deployment
 
 2. Avoid exclusive compilation options:
     - variants that enable functionality at the cost of disabling another, e.g., `#ifdef FOUND_MPI ... #else ...`,
@@ -118,17 +117,21 @@ We propose the following guidelines or development policies when introducing bin
 4. Add explicit configuration and runtime control to use such opt-in functionality/enhancements.
     - rationale: avoids implicit assumptions that do not necessarily hold true when combined in a combined software ecosystem
 
-### Package managers
+### Package managers & deployment
 
 But hey, don't we have package managers to solve this problem for us by keeping track of the right variant?
 Well, in part.
-Of course, modern package managers like Spack allow developers to define various development environments with exactly chosen and combined variants of software.
+Of course, modern package managers like [Spack](https://spack.io) enable developers to define various development environments with exactly chosen and combined variants of software.
 This is helpful for correct results.
-Yet, if one needs to use all features of a software, this results in a combinatorial explosion of artifacts for development environments and deployments.
-On top of that, most package managers do not support binary variants at all - and are adding them as afterthoughts via package naming extensions, again combinatorial installs and require complex conflict resolutions.
+Yet, if one needs to use multiple (compile-time) features of a software, this results in a combinatorial explosion of artifacts for development environments and deployments.
 
-Indeed, independent if a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch all options that are *potentially* useful for a system to "ON" (or selected) at the same time.
+On top of that, many popular package managers in use by developers and users are not as powerful as Spack.
+Most do not support binary variants at all - and are adding them as afterthoughts via package naming extensions, again combinatorial installs and require complex conflict resolutions.
+
+Indeed, independent if a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch *ON* all options that are *potentially* useful for a system at the same time.
 Consequently, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
+
+[Some of the WarpX compile-time options exposed in the Spack package manager.]<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />
 
 ### Hands-on examples
 
@@ -150,7 +153,7 @@ This avoids propagating options solely through build systems, making downstream 
     - [openPMD/config.hpp](https://github.com/openPMD/openPMD-api/blob/0.14.5/include/openPMD/config.hpp.in)
   - Note: avoid changing variables in these files, [e.g. Git hashes or build time](https://github.com/AMReX-Codes/amrex/pull/2653), to avoid interference with productivity tools such as [CCache](https://ccache.dev)
 
-**CMake:** For multiple variants, [allow lists](https://www.kitware.com/constraining-values-with-comboboxes-in-cmake-cmake-gui/) instead of either-or selections.
+**CMake:** For multiple variants, allow lists instead of [either-or](https://www.kitware.com/constraining-values-with-comboboxes-in-cmake-cmake-gui/) selections.
   - Don't:
     ```cmake
     set(App_Backend "OpenMP" CACHE STRING
@@ -165,6 +168,10 @@ This avoids propagating options solely through build systems, making downstream 
     ```cmake
     set(App_Backend "OpenMP;CUDA" CACHE STRING
         "On-node, accelerated computing backend")
+
+    foreach(backend IN LISTS App_Backend)
+        # ...
+    endforeach()
     ```
 
 #### Python and Fortran
@@ -173,12 +180,12 @@ The following design patterns can be used for Python and Fortran code.
 
 **Modules:** Providing extra (sub-)modules that expose functionality that expects or creates a certain runtime context, e.g., MPI-parallelism.
 
-**Properties:** Adding a properties to the base module to allow querying which opt-in functions are available at runtime.
+**Properties:** Adding properties to the base module to allow querying which opt-in functions are available at runtime.
 
-### Modifications of WarpX
+#### Modifications of ECP WarpX
 
 Over the last two years, we redesigned most binary options of the Exascale Computing Project application [WarpX](https://ecp-warpx.github.io) based on these experiences and insights.
-We changed binary options that control additional fields solvers that require FFTs and linear algebra to provide additional runtime options when enabled, and without changing application behavior if compiled and not used.
+We changed binary options that control additional field-solvers that require FFTs and linear algebra to provide additional runtime options when enabled, and without changing application behavior if compiled and not used.
 
 More complicated are changes in simulation geometry.
 Ideally, WarpX developers would like to offer users a single deployment that provides 1D, 2D, 3D and quasi-cylindrical (RZ) geometry at the same time.
@@ -193,9 +200,9 @@ Configuration variants are a common pattern in software design and in HPC softwa
 They are often expressed via `#ifdef`s and seen as an efficient way to reuse and extend already written code.
 This leads to incompatible software variants for downstream developers and users.
 
-Although modern package managers assist with the control of variants and modern build systems allow to propagate options at configuration time, the problem of a combinatoric explosion continues to exist and complicates user-friendly deployments.
+Although modern package managers assist with the control of variants and modern build systems allow to propagate options at configuration time, the problem of a combinatorial explosion continues to exist and complicates user-friendly deployments.
 
-Designing binary variants as strict extensions without breaking API and runtime behavior once selected is a way to address this problem.
+Designing binary variants as strict *functionality extensions*, without breaking API and runtime behavior once selected, is a way to address this problem.
 As a result, deployment is simpler, development against multiple variants is faster, testing time can be reduced, and documentations can be simplified.
 
 ### Author Bio
