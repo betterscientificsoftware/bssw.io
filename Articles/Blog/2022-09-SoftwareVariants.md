@@ -37,7 +37,7 @@ Multivariant options might be more involved, for example, accelerating code for 
 The catch with such options lies in sharing software with other people who want to reuse it in their own libraries and applications, develop against it, and deploy their own product to other developers and users.
 Our experience is that problems for developers of "downstream" HPC software arise mainly from the implementation of these options.
 
-For instance, runtime options that change with the chosen binary option need to be carefully documented for users or downstream developers -- and they complicate the user experience in already tricky installations.
+For instance, runtime options that change with the chosen binary option need to be carefully documented for users or downstream developers — and they complicate the user experience in already tricky installations.
 Workflows have to be established when switching functionality downstream: Do you change configuration of the upstream dependency and rebuild or reinstall? Do you find and use the new variant of the dependency that is packaged separately?
 Testing also gets more complicated. If you cannot create a single environment that enables and tests all functionality, you might need to recompile significant portions of the software stack to enable different tests.
 Even with sufficient automation, this process increases continuous integration time and can strain deployment resources.
@@ -70,7 +70,7 @@ A typical example is Debian and HDF5: one cannot install an MPI-parallel HDF5 pa
 **The unconditional MPI initialize (or expectation thereof)**
 
 This is a variation of the previous problem, which occurs at runtime as a result of an MPI binary variant.
-If the MPI-enabled variant of the software *expects* that an MPI context will always be provided (or can be established), this breaks serial -- and non-MPI parallelized -- software applications.
+If the MPI-enabled variant of the software *expects* that an MPI context will always be provided (or can be established), this breaks serial — and non-MPI parallelized — software applications.
 
 One can make the same case for any other runtime that needs to be initialized or finalized, such as initialization of GPU devices or GPU streams.
 
@@ -90,24 +90,24 @@ Unfortunately, few established conventions and tooling currently exist for such 
 ### Possible solutions and development policies
 
 The solution to these challenges starts with everyone thinking of themselves as "upstream" developers and thinking about how downstream users might reuse their software.
-This even includes application developers: someone might come up with a clever way to integrate an application -- like a library -- into a larger context, for example, for optimizing ensemble use cases or AI/ML workflows.
+This even includes application developers: someone might come up with a clever way to integrate an application — like a library — into a larger context, for example, for optimizing ensemble use cases or AI/ML workflows.
 
 We propose the following guidelines or development policies when introducing binary variants into software.
 
 1. Observe  strict extension-only: using compilation variants only for adding *additional* functionality  that *enhances* a package 
-    -- Rationale: toggles dependencies on and off for simplified development and deployment
+    - *Rationale*: toggles dependencies on and off for simplified development and deployment
 
 2. Avoid exclusive compilation options: 
      - Avoid variants that enable functionality at the cost of disabling another, e.g., #ifdef FOUND_MPI ... #else ....
      - Treat *multioptions* as lists of functionality (e.g., compile multiple variants of CPU and GPU backends that can be selected at runtime). 
      This approach can still make use of single-source programming patterns and just needs an additional runtime dispatch at a high-level in the program workflow, where latency is usually not an issue. Similar solutions also exist  for runtime-dispatched vectorization control.
-    -- Rationale: avoids incompatibilities, supports feature-complete deployments, and enhances clarity in documentation
+    - *Rationale*: avoids incompatibilities, supports feature-complete deployments, and enhances clarity in documentation
 
 3. Avoid modifying the "base" behavior of the software if additional functionality is activated - existing functionality and dependencies, at compile and runtime, stays unchanged.
-    -- Rationale: supports feature-complete deployments and enhances clarity in documentation
+    - *Rationale*: supports feature-complete deployments and enhances clarity in documentation
 
 4. Add explicit configuration and runtime control to use such opt-in functionality and enhancements.
-    -- Rationale: avoids implicit assumptions that do not necessarily hold true when combined in a combined software ecosystem
+    - *Rationale*: avoids implicit assumptions that do not necessarily hold true when combined in a combined software ecosystem
 
 ### Package managers and deployment
 
@@ -118,7 +118,7 @@ This approach is helpful for correct results.
 Yet, if one needs to use multiple (compile-time) features of a software, this results in a combinatorial explosion of artifacts for development environments and deployments.
 
 On top of that, many popular package managers in use by developers and users are not as powerful as Spack.
-Most do not support binary variants at all -- and are adding them as afterthoughts via package naming extensions, again resulting in combinatorial installs and requiring complex conflict resolutions.
+Most do not support binary variants at all — and are adding them as afterthoughts via package naming extensions, again resulting in combinatorial installs and requiring complex conflict resolutions.
 
 Indeed, independent of whether a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch *ON* all options that are *potentially* useful for a system at the same time.
 With that capability, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
