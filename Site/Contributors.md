@@ -27,4 +27,5 @@ Contributor overrides:
 "alee", "Lee", "Allen Lee"
 "parinaz2015", "Barakhshan", "Parinaz Barakhshan"
 "mrmundt", "Mundt", "Miranda Mundt"
+"rusu24edward", "Rusu", "Eddie Rusu"
 -->
