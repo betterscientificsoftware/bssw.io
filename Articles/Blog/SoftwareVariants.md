@@ -1,8 +1,8 @@
 # Rethinking Software Variants
 
  **Hero Image:**
- 
-  - [WarpX: longitudinal electric field in a laser-plasma accelerator, rendered with Ascent and VTK-m.]<img src='../../images/Blog_2209_SoftwareVariants_WarpX.png' />
+
+  - <img src='../../images/Blog_2209_SoftwareVariants_WarpX.png' />[WarpX: longitudinal electric field in a laser-plasma accelerator, rendered with Ascent and VTK-m.]
 
 #### Contributed by: [Axel Huebl](https://github.com/ax3l)
 
@@ -27,27 +27,28 @@ In the simplest case, this is a flag that enables or disables MPI support in the
 With the rise of GPU computing over the last decade, a similar option is often added for GPU acceleration.
 
 Library and application developers in HPC might then add further more domain-specific compilation options, such as:
+
 - additional numerical solvers supported by external math libraries, e.g., BLAS/LAPACK/FFT
 - choices of geometry of a model
 - etc.
 
 ### The catch
 
-There are generally two ways of implementing such configuration options at build-time: boolean switches and multi-variant options.
+There are generally two ways of implementing such configuration options at build-time: binary switches and multi-variant options.
 Binary switches are simply turning a functionality on or off, e.g., MPI support.
 Multi-variant options might be more involved, e.g., accelerating code for a specific GPU programming environment (CUDA/HIP/SYCL/OpenMP or OpenACC offloading).
 
 The catch with such options lies in sharing software with other people who want to re-use it in their own libraries and applications, develop against it, and deploy their own product to other developers and users.
 My experience is that problems for developers of "downstream" HPC software arise mainly from the implementation of these options.
 
-For instance, runtime options that change with the chosen binary option need to be carefully documented for users/downstream developers - and complicate user experience in already tricky installations.
+For instance, runtime options that change with the chosen binary option need to be carefully documented for users/downstream developers - and they complicate the user experience in already tricky installations.
 Workflows have to be established when switching functionality downstream: do you change configuration of the upstream dependency and re-build/re-install? Do you find and use the new variant of the dependency that is packaged separately?
 Testing also gets more complicated: if you cannot create a single environment that enables and tests all functionality, you might need to recompile significant portions of the software stack to enable different tests.
 Even with sufficient automation, this increases continuous integration time and can strain deployment resources.
 
 A few specific examples will help illustrate the challenges.
 
-#### Breaking public APIs
+**Breaking public APIs**
 
 Without due care, it is easy for scattered `#ifdef` switches to end up changing public APIs that downstream applications may depend upon: extra parameters in functions, different class signatures and constructors, varying members, etc.
 In the most common case in HPC, the change of the upstream option has to be mirrored 1:1 downstream with `#ifdef`s at call locations, because existing signatures are *changed*.
@@ -56,12 +57,11 @@ Such API changes also always lead to incompatible application binary interfaces 
 In the best case, the linker will catch an incompatible binary variant of the same software version via missing symbol errors.
 
 In the worst case, a more subtle ABI break will only manifest at runtime.
-For example, the addition/removal/exchange of member variables of public classes via `#ifdef`s can, even if these members are private, create undefined behavior when copying or accessing the class.
-The homepage [ABI Laboratory](https://abi-laboratory.pro) summarizes more details on this topic.
-For examples that track potentially breaking ABI changes over time, see for instance [MPICH](https://abi-laboratory.pro/index.php?view=timeline&l=mpich), [OpenMPI](https://abi-laboratory.pro/index.php?view=timeline&l=openmpi) and [c-blosc](https://abi-laboratory.pro/index.php?view=timeline&l=c-blosc).
+For example, the addition/removal/exchange of member variables of public classes via `#ifdef`s can create undefined behavior when copying or accessing the class, even if these members are private.
+The website [ABI Laboratory](https://abi-laboratory.pro) summarizes more details on this topic.
+For examples that track potentially breaking ABI changes over time, see for instance [MPICH](https://abi-laboratory.pro/index.php?view=timeline&l=mpich), [Open MPI](https://abi-laboratory.pro/index.php?view=timeline&l=openmpi) and [c-blosc](https://abi-laboratory.pro/index.php?view=timeline&l=c-blosc).
 
-
-#### The transitive MPI include
+**The transitive MPI include**
 
 Adding transitive `#include`s to third party software in public APIs is one of the most common mistakes in HPC binary variant design.
 The problem can be exemplified as follows:
@@ -71,14 +71,14 @@ The third-party software can be built with MPI enabled, and now introduces a com
 The results include breaking builds, the need to communicate additional, potentially inaccurate (unused) dependencies, and breakage in most desktop package managers.
 A typical example is Debian and HDF5: you cannot install a MPI-parallel HDF5 package for development and the popular, serial HDFView package at the same time.
 
-#### The unconditional MPI initialize (or expectation thereof)
+**The unconditional MPI initialize (or expectation thereof)**
 
 This is a variation of the previous problem, which occurs at runtime as a result of an MPI binary variant.
 If the MPI-enabled variant of the software *expects* that an MPI context will always be provided (or can be established), this breaks serial - and non-MPI parallelized - software applications.
 
-One can make the same case for any other runtime that needs to be initialized/finalized, such as (un)conditional initialization of GPU devices, GPU streams, etc.
+One can make the same case for any other runtime that needs to be initialized/finalized, such as initialization of GPU devices, GPU streams, etc.
 
-#### On-node acceleration
+**On-node acceleration**
 
 Going into more detail on the previous point, a cardinal pattern in HPC software is to define mutually exclusive binary patterns for the "acceleration backend" of software.
 Many single-source performance-portability implementations currently compile to exactly one on-node acceleration backend at a time.
@@ -91,7 +91,7 @@ Delegating this decision to compile-time takes away the choice to deploy binary 
 It also hinders dependent developments that want to utilize CPU and GPU at the same time, e.g., in simulations with dynamic load balancing.
 
 So called "fat binary" artifacts can address this problem in part, by compiling multiple backends into the same executable and delegating the code path to choose at runtime.
-Unfortunately, there are currently little established conventions and tooling for such an approach, especially across different vendors.
+Unfortunately, there are currently little established conventions and tooling for such an approach, especially across different vendors, so this particular case can be hard to deal with.
 
 ### Possible solutions and development policies
 
@@ -131,11 +131,11 @@ Most do not support binary variants at all - and are adding them as afterthought
 Indeed, independent if a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch *ON* all options that are *potentially* useful for a system at the same time.
 Consequently, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
 
-[Some of the WarpX compile-time options exposed in the Spack package manager.]<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />
+<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' class='page' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
 
 ### Hands-on examples
 
-#### C/C++
+**C/C++**
 
 The following design patterns can be used for C/C++ code.
 
@@ -174,7 +174,7 @@ This avoids propagating options solely through build systems, making downstream 
     endforeach()
     ```
 
-#### Python and Fortran
+**Python and Fortran**
 
 The following design patterns can be used for Python and Fortran code.
 
@@ -182,7 +182,7 @@ The following design patterns can be used for Python and Fortran code.
 
 **Properties:** Adding properties to the base module to allow querying which opt-in functions are available at runtime.
 
-#### Modifications of ECP WarpX
+**Modifications of ECP WarpX**
 
 Over the last two years, we redesigned most binary options of the Exascale Computing Project application [WarpX](https://ecp-warpx.github.io) based on these experiences and insights.
 We changed binary options that control additional field-solvers that require FFTs and linear algebra to provide additional runtime options when enabled, and without changing application behavior if compiled and not used.
@@ -206,7 +206,7 @@ Designing binary variants as strict *functionality extensions*, without breaking
 As a result, deployment is simpler, development against multiple variants is faster, testing time can be reduced, and documentations can be simplified.
 
 ### Author Bio
- 
+
 [Axel Huebl](https://orcid.org/0000-0003-1943-7141) is a Computational Physicist working at the Accelerator Technology & Applied Physics Division at Berkeley Lab.
 He works on Exascale modeling of particle accelerators, especially plasma-based accelerator concepts, self-describing I/O via the [openPMD](https://www.openPMD.org) meta-data standard, data reduction and in situ algorithms, and developer productivity.
 
