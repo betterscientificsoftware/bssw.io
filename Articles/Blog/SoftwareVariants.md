@@ -90,7 +90,7 @@ Unfortunately, few established conventions and tooling currently exist for such 
 ### Possible solutions and development policies
 
 The solution to these challenges starts with everyone thinking of themselves as ``upstream" developers and thinking about how downstream users might reuse their software.
-This even includes application developers: someone might come up with a clever way to integrate an application -- like a library -- into a larger context, for exsample, for optimizating ensemble use cases or AI/ML workflows.
+This even includes application developers: someone might come up with a clever way to integrate an application -- like a library -- into a larger context, for example, for optimizing ensemble use cases or AI/ML workflows.
 
 We propose the following guidelines or development policies when introducing binary variants into software.
 
@@ -121,7 +121,7 @@ On top of that, many popular package managers in use by developers and users are
 Most do not support binary variants at all -- and are adding them as afterthoughts via package naming extensions, again resulting in combinatorial installs and requiring complex conflict resolutions.
 
 Indeed, independent of whether a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch *ON* all options that are *potentially* useful for a system at the same time.
-With thst capability, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
+With that capability, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
 
 <img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
 
