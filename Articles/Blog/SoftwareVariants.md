@@ -35,7 +35,7 @@ Binary switches are simply turning a functionality on or off, for example, MPI s
 Multivariant options might be more involved, for example, accelerating code for a specific GPU programming environment (CUDA, HIP, SYCL, OpenMP, or OpenACC offloading).
 
 The catch with such options lies in sharing software with other people who want to reuse it in their own libraries and applications, develop against it, and deploy their own product to other developers and users.
-Our experience is that problems for developers of ``downstream" HPC software arise mainly from the implementation of these options.
+Our experience is that problems for developers of "downstream" HPC software arise mainly from the implementation of these options.
 
 For instance, runtime options that change with the chosen binary option need to be carefully documented for users or downstream developers -- and they complicate the user experience in already tricky installations.
 Workflows have to be established when switching functionality downstream: Do you change configuration of the upstream dependency and rebuild or reinstall? Do you find and use the new variant of the dependency that is packaged separately?
@@ -76,7 +76,7 @@ One can make the same case for any other runtime that needs to be initialized or
 
 **On-node acceleration**
 
-Going into more detail on the previous point, a cardinal pattern in HPC software is to define mutually exclusive binary patterns for the ``acceleration backend" of software.
+Going into more detail on the previous point, a cardinal pattern in HPC software is to define mutually exclusive binary patterns for the "acceleration backend" of software.
 Many single-source performance-portability implementations currently compile to exactly one on-node acceleration backend at a time.
 
 For example, one might compile a numerical package to run with a CUDA backend or compile it again with an OpenMP backend or with a HIP/ROCm backend.
@@ -89,7 +89,7 @@ Unfortunately, few established conventions and tooling currently exist for such 
 
 ### Possible solutions and development policies
 
-The solution to these challenges starts with everyone thinking of themselves as ``upstream" developers and thinking about how downstream users might reuse their software.
+The solution to these challenges starts with everyone thinking of themselves as "upstream" developers and thinking about how downstream users might reuse their software.
 This even includes application developers: someone might come up with a clever way to integrate an application -- like a library -- into a larger context, for example, for optimizing ensemble use cases or AI/ML workflows.
 
 We propose the following guidelines or development policies when introducing binary variants into software.
@@ -132,7 +132,7 @@ With that capability, there are fewer modules to build, no environment switching
 The following design patterns can be used for C/C++ code.
 
 **Header:** Selected opt-in variants should add *extra* header files that expose additional classes and API calls and expose functionality such as MPI-enabled signatures.
-This means at least one public ``facade" header is needed per configuration option, to avoid ``polluting" base functionality with third-party includes.
+This means at least one public "facade" header is needed per configuration option, to avoid "polluting" base functionality with third-party includes.
   - Examples:
     - [pybind11/numpy.h](https://pybind11.readthedocs.io/en/stable/advanced/pycpp/numpy.html#arrays)
     - an additional public API header with separate classes and functions for MPI-related functionality
@@ -183,7 +183,7 @@ More complicated are changes in simulation geometry.
 Ideally, WarpX developers would like to offer users a single deployment that provides 1D, 2D, 3D and quasi-cylindrical (RZ) geometry at the same time.
 In AMReX, this is a compile-time option.
 
-We are addressing this by progressively compiling all geometries ``as 3D" and adding additional 1D and 2D calls to parallel kernel primitives in AMReX 3D interfaces.
+We are addressing this by progressively compiling all geometries "as 3D" and adding additional 1D and 2D calls to parallel kernel primitives in AMReX 3D interfaces.
 Until then, we have increased usability by mirroring the compile time option as runtime user input, which allows us to throw clean error messages, and by compiling multiple runtime libraries per geometry for our Python bindings, which moves the task of a one-time dispatch to the Python level after reading the inputs file.
 
 ### Summary
