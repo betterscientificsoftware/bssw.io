@@ -39,7 +39,7 @@ Binary switches are simply turning a functionality on or off, e.g., MPI support.
 Multi-variant options might be more involved, e.g., accelerating code for a specific GPU programming environment (CUDA/HIP/SYCL/OpenMP or OpenACC offloading).
 
 The catch with such options lies in sharing software with other people who want to re-use it in their own libraries and applications, develop against it, and deploy their own product to other developers and users.
-My experience is that problems for developers of "downstream" HPC software arise mainly from the implementation of these options.
+Our experience is that problems for developers of "downstream" HPC software arise mainly from the implementation of these options.
 
 For instance, runtime options that change with the chosen binary option need to be carefully documented for users/downstream developers - and they complicate the user experience in already tricky installations.
 Workflows have to be established when switching functionality downstream: do you change configuration of the upstream dependency and re-build/re-install? Do you find and use the new variant of the dependency that is packaged separately?
