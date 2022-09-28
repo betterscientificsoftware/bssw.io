@@ -131,7 +131,7 @@ Most do not support binary variants at all - and are adding them as afterthought
 Indeed, independent if a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch *ON* all options that are *potentially* useful for a system at the same time.
 Consequently, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
 
-<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' class='page' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
+<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
 
 ### Hands-on examples
 
