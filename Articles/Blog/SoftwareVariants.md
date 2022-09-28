@@ -128,7 +128,7 @@ Yet, if one needs to use multiple (compile-time) features of a software, this re
 On top of that, many popular package managers in use by developers and users are not as powerful as Spack.
 Most do not support binary variants at all - and are adding them as afterthoughts via package naming extensions, again combinatorial installs and require complex conflict resolutions.
 
-Indeed, independent if a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch *ON* all options that are *potentially* useful for a system at the same time.
+Indeed, independent of whether a package manager supports binary variants well, it is tremendously helpful if a package manager with great dependency resolution can just switch *ON* all options that are *potentially* useful for a system at the same time.
 Consequently, there are fewer modules to build, no environment switching is needed for development, and binary caches can be smaller.
 
 <img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
