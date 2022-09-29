@@ -16,7 +16,7 @@ In this blog post, we will take a closer look at configuration options and their
 Configuration options of a software package are selected in the installation phase of software: to be precise, the configuration and compilation phase.
 As a result, they cannot be changed without reinstalling the software.
 
-These days, nearly all high-performance computing (HPC) software uses configuration options; and most of the time, these are implemented via preprocessor logic, that is, using #ifdef's in C/C++/Fortran code.
+These days, nearly all high-performance computing (HPC) software uses configuration options; and most of the time, these are implemented via preprocessor logic, that is, using `#ifdef's` in C/C++/Fortran code.
 It is extremely common that these switches are implemented exclusively, creating incompatible variants and binaries.
 Here we argue that this approach can have severe productivity implications for users and developers alike, including documentation and installation burdens, issues with usability, testing overhead, and limited composability; and we show potential solutions for a better binary variant design for HPC.
 
@@ -46,20 +46,20 @@ A few specific examples will help illustrate the challenges.
 
 **Breaking public APIs**
 
-Without due care,  scattered #ifdef switches can easily end up changing public APIs that downstream applications may depend on: extra parameters in functions, different class signatures and constructors, varying members, and so on.
+Without due care, scattered `#ifdef` switches can easily end up changing public APIs that downstream applications may depend on: extra parameters in functions, different class signatures and constructors, varying members, and so on.
 In the most common case in HPC, the change of the upstream option has to be mirrored 1:1 downstream with `#ifdef`s at call locations, because existing signatures are *changed*.
 
 Such API changes also always lead to incompatible application binary interfaces (ABIs) when building library interfaces.
 In the best case, the linker will catch an incompatible binary variant of the same software version via missing symbol errors.
 
 In the worst case, a more subtle ABI break will only manifest at runtime.
-For example, the addition, removal, or change of member variables of public classes via #ifdef's can create undefined behavior when copying or accessing the class, even if these members are private.
+For example, the addition, removal, or change of member variables of public classes via `#ifdef`'s can create undefined behavior when copying or accessing the class, even if these members are private.
 The website [ABI Laboratory](https://abi-laboratory.pro) summarizes more details on this topic.
 For examples that track potentially breaking ABI changes over time, see, for instance, [MPICH](https://abi-laboratory.pro/index.php?view=timeline&l=mpich), [Open MPI](https://abi-laboratory.pro/index.php?view=timeline&l=openmpi) and [c-blosc](https://abi-laboratory.pro/index.php?view=timeline&l=c-blosc).
 
 **The transitive MPI include**
 
-Adding transitive #include's to third-party software in public APIs is one of the most common mistakes in HPC binary variant design.
+Adding transitive `#include`'s to third-party software in public APIs is one of the most common mistakes in HPC binary variant design.
 The problem can be exemplified as follows.
 A developer writes a serial program using an HPC-capable third-party software package, for example, to support desktop users or non-MPI based multinode parallelism.
 The third-party software can be built with MPI enabled and now introduces a compile-time dependency on MPI signatures even though the specific downstream translation unit never uses it.
@@ -98,7 +98,7 @@ We propose the following guidelines or development policies when introducing bin
     - *Rationale*: toggles dependencies on and off for simplified development and deployment
 
 2. Avoid exclusive compilation options: 
-     - Avoid variants that enable functionality at the cost of disabling another, e.g., #ifdef FOUND_MPI ... #else ....
+     - Avoid variants that enable functionality at the cost of disabling another, e.g., `#ifdef FOUND_MPI ... #else ...`.
      - Treat *multioptions* as lists of functionality (e.g., compile multiple variants of CPU and GPU backends that can be selected at runtime). 
      This approach can still make use of single-source programming patterns and just needs an additional runtime dispatch at a high-level in the program workflow, where latency is usually not an issue. Similar solutions also exist  for runtime-dispatched vectorization control.
     - *Rationale*: avoids incompatibilities, supports feature-complete deployments, and enhances clarity in documentation
@@ -189,7 +189,7 @@ Until then, we have increased usability by mirroring the compile time option as 
 ### Summary
 
 Configuration variants are a common pattern in software design and in HPC software in particular.
-They are often expressed via #ifdef's and seen as an efficient way to reuse and extend already written code.
+They are often expressed via `#ifdef`'s and seen as an efficient way to reuse and extend already written code.
 But this approach leads to incompatible software variants for downstream developers and users.
 
 Although modern package managers assist with the control of variants and modern build systems allow  propagation of options at configuration time, the problem of a combinatorial explosion continues to exist and complicates user-friendly deployments.
