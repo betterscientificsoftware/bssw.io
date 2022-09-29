@@ -25,6 +25,8 @@ Summer Internship | summer 2023
 ## Submissions
 
 SRP began in 2015 at Berkeley Lab and has fostered over 300 connections between lab scientists and faculty and students from a variety of U.S. colleges and universities.  In 2021, SRP expanded through the DOE [Exascale Computing Project](https://www.exascaleproject.org) to a multi-lab high-performance computing (HPC) program.  Based on last summer's success, SRP is now a multi-lab program spanning ECP and other computational and data science projects.  
+  
+Students from (and faculty working with) underrepresented groups (Black or African American, Hispanic/Latinx, American Indian, Alaska Native, Native Hawaiian, Pacific Islanders, women, persons with disabilities, first-generation scholars, and students from community and smaller colleges and universities) are strongly encouraged to apply.
 
 For more information and any updates to deadlines/dates, please see https://shinstitute.org/sustainable-research-pathways-2022/ .
 
