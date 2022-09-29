@@ -12,7 +12,7 @@ Slide3 L: ../Articles/Blog/2022-09-SoftwareVariants.md
 Slide3 R: ../images/Blog_2209_SoftwareVariants_WarpX.png
 Slide4 L: ../CuratedContent/FourPillarsOfSwEngg.md
 Slide4 R: ../CuratedContent/GoodEnoughPracticesInScientificComputing.md
-Slide5 L: ../Events/2022-10-rses-in-escience.md
+Slide5 L: ../Events/2022-sustainable-research-pathways.md 
 Slide5 R: ../Events/hpcbp-068-codereview.md
 Slide6 L: ../Events/2022-10-hpcwd-blc.md
 Slide6 R: ../Events/2022-11-sc22-sw-events.md
