@@ -1,7 +1,7 @@
 # Apply for the BSSw Fellowship Program 
 
-BSSw is currently accepting applications for the 2023 BSSw Fellowship Program. 
-<!--While applications are now closed for the BSSw Fellowship Program, we encourage you learn about the application process.  -->
+<!--BSSw is currently accepting applications for the 2023 BSSw Fellowship Program. -->
+While applications are now closed for the BSSw Fellowship Program, we encourage you learn about the application process.  
 <!--Applications for the 2023 BSSw Fellowship Program will open August 15, 2022. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site. -->
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  
@@ -10,7 +10,7 @@ Submissions for the 2023 BSSw Fellowship Program are accepted through the [onlin
 
 ### Timeline for 2023 BSSw Fellowship Program
 
-<!--Applications are now closed for the 2022 BSSw Fellowship Program. Check back in summer 2022 for info about the 2023 application process. -->
+Applications are now closed for the 2023 BSSw Fellowship Program. Check back in summer 2023 for info about the 2024 application process. 
 
 - **Monday, August 15, 2022**: Fellowship application process opens.
 - **Thursday, Sept 8, 12:00-1:00 pm EDT** Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
@@ -40,9 +40,9 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
  
 <!-- Applications for the 2023 BSSw Fellowship Program will open on August 15, 2022; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.-->
  
-<!--Applications are closed for the 2022 BSSw Fellowship Program.  Please check back for information about the 2023 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
+Applications are closed for the 2023 BSSw Fellowship Program.  Please check back for information about the 2024 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. 
 
-Applications are now being accepted for the 2023 BSSw Fellowship Program.  Submissions for the 2023 BSSw Fellowship Program are accepted through the [**online application form**](https://docs.google.com/forms/d/e/1FAIpQLSevs3TJd5dQZ0AWg0V1GSq4y8VzL-iyTD4E8j9aTt9GLRy_cQ/viewform?usp=sf_link).
+<!--Applications are now being accepted for the 2023 BSSw Fellowship Program.  Submissions for the 2023 BSSw Fellowship Program are accepted through the [**online application form**](https://docs.google.com/forms/d/e/1FAIpQLSevs3TJd5dQZ0AWg0V1GSq4y8VzL-iyTD4E8j9aTt9GLRy_cQ/viewform?usp=sf_link). -->
 
 
 ### Q&A Webinar about the BSSw Fellowship Program
@@ -50,17 +50,16 @@ Applications are now being accepted for the 2023 BSSw Fellowship Program.  Submi
 - Thursday, September 8, 1:00-2:00 pm EDT
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
-<!-- 
 ### More information
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
--->
 
+<!--
 ### More information, including on-line application
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
 - [Online Application](https://docs.google.com/forms/d/e/1FAIpQLSevs3TJd5dQZ0AWg0V1GSq4y8VzL-iyTD4E8j9aTt9GLRy_cQ/viewform?usp=sf_link) (Submissions open!)
 - <mark>Application deadline: Friday, September 30, 2022</mark>; this is a firm deadline that will not be extended.
-
+-->
 
 <br>
 
