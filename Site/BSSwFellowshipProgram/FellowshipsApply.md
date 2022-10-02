@@ -6,7 +6,7 @@ While applications are now closed for the BSSw Fellowship Program, we encourage 
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.  
 
-Submissions for the 2023 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSevs3TJd5dQZ0AWg0V1GSq4y8VzL-iyTD4E8j9aTt9GLRy_cQ/viewform?usp=sf_link).
+<!-- Submissions for the 2023 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSevs3TJd5dQZ0AWg0V1GSq4y8VzL-iyTD4E8j9aTt9GLRy_cQ/viewform?usp=sf_link). -->
 
 ### Timeline for 2023 BSSw Fellowship Program
 
