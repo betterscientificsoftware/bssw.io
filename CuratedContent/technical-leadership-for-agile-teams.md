@@ -6,7 +6,7 @@ This article makes the case for a new role in software development teams referre
 <!-- deck text end --> 
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold)
-#### Publication date: August 1, 2022
+#### Publication date: Oct 6, 2022
 
 Resource information | Details 
 :--- | :--- 
@@ -20,4 +20,5 @@ This article makes the case for a new role of "technical lead" in software devel
 Publish: yes
 Topics: strategies for more effective teams
 Pinned: no
+RSS update: 2022-10-06
 --->
