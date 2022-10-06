@@ -4,7 +4,7 @@ In what ways might the Agile Manifesto suffer from unconscious bias?
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: Apr 28, 2022
+#### Publication date: Oct 1, 2022
 
 Resource information | Details
 :--- | :--- 
@@ -28,5 +28,5 @@ The article identifies 6 *assumptions* the author believes were baked into the A
 Publish: yes
 Pinned: no
 Topics: Software engineering, Software process improvement, Inclusivity
-RSS update: 2022-04-28
+RSS update: 2022-10-01
 --->
