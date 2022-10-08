@@ -58,6 +58,13 @@ These indicate which BSSw.io topic areas the article belongs to. The most up-to-
 ## Main Body Section
 The main body is the portion of the article below the deck. BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for writing content. The elements of the main body differ based on content type. The main body should explain the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content.
 
+## Handling absolute and relative links/URLs
+Several times, BSSw.io content will contain links to resources which are hosted in the bssw.io site itself. Such links are treated as internal links and they should be relative and should point to the actual ".md" file. They should not point to the absolute URL of the linked article on the bssw.io site.
+
+- Example: If one refers to an article called foo.md, it should be refered to as something like  "../../blog/foo.md" (depending on the relative location in the github reposity) rather than absolute (which is the URL on the bssw.io site and may perhaps be something like https://bssw.io/items/some-words-indicating-title-of-linked-article.html)
+
+When bssw.io content contains links to resources which are hosted external to the bssw.io website, then those links have to be the absolute URL. 
+
 ## Handling images
 Images for content are stored in the main `bssw.io`repository in the `images/` subdirectory.
 To reference the images in the `*.md` article file, copy the image file is to the `images/` directory and then:
