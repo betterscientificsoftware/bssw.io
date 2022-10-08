@@ -90,7 +90,7 @@ sessions. You may have noticed previously on the [BSSw Events](https://bssw.io/e
 And many other conferences offer opportunities for companion tutorials and workshops. 
 
 - The long-standing [Software Engineering for Science (SE4Science)](https://bssw.io/resources/software-engineering-for-science-se4science) workshop series has been associated with the **International Conference on Software Engineering** for many years, and in the past also with **Supercomputing**.
-- The [International Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE) series](https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe), for example, has colocated variously with **Supercomputing**, **SciPy**, **Gateway Community Environments**, the **RSE Conference**, and **eScience**.
+- The International Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE) series, for example, has colocated variously with **Supercomputing**, **SciPy**, **Gateway Community Environments**, the **RSE Conference**, and **eScience**.
 
 Maybe in time, by working together, we can ensure that discussions about *software* are a prominent part of all of the technical conferences that we care about.
 

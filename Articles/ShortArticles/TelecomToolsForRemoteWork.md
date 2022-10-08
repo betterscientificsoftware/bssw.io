@@ -427,8 +427,7 @@ party.
 
 A potentially common privacy-related situation in virtual meeting settings is the
 use of a product's *recording* feature. Doing so without consent of all parties
-may create a significant
-[breach of privacy laws](https://blog.clickmeeting.com/accordance-record-recording-consent-laws).
+may create a significant breach of privacy laws.
 Making the recording available to a wider audience than attendees believe they
 originally consented to may also create a privacy issue.
 
