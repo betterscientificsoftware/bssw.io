@@ -23,7 +23,7 @@ it is important to follow a (rather large) number of steps to lead a webinar to 
 
 The [Webinar Process](https://github.com/betterscientificsoftware/Webinar-Process) (*How to Produce a Webinar Series*) 
 repository describes the process we follow for the HPC-BP Series. While the series works in concert with
-DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as well as ALCF, NERSC, and OLCF ([DOE computing facilities](https://bssw.io/communities/community-of-supercomputer-facilities-and-their-users)), the process can be 
+DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as well as ALCF, NERSC, and OLCF (DOE computing facilities), the process can be 
 (and has been) refined and adapted as needed, as well as applied to other scenarios. For example, over time we 
 found it necessary to start interacting with speakers earlier, and adjust timelines accordingly.
 
