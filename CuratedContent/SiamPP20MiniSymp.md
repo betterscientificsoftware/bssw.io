@@ -22,7 +22,7 @@ A collection of talks presented at the [minisymposium](https://meetings.siam.org
 * [Michal Habera](https://github.com/michalhabera) highlighted some of the top changes that have been carried out with respect to the sustainability of the [FEniCS project](https://fenicsproject.org/).
 * [Mark Gates](http://www.icl.utk.edu/~mgates3/) discussed sustainability lessons that have emerged from the [SLATE project](https://icl.utk.edu/slate/).
 * [Anshu Dubey](https://www.anl.gov/profile/anshu-dubey) shared experiences with productivity and software sustainability, including work at the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov/)
-* [Benjamin Pritchard](http://molssi.org/molssi-software-scientist-dr-benjamin-pritchard/) focused on challenges and best practices in computational molecular sciences, with emphasis on the Molecular Sciences Software Institute ([MolSSI](https://molssi.org))
+* Benjamin Pritchard focused on challenges and best practices in computational molecular sciences, with emphasis on the Molecular Sciences Software Institute ([MolSSI](https://molssi.org))
 * [Kenneth Jansen](https://www.colorado.edu/aerospace/kenneth-jansen) shared software sustainability lessons from the fluid dynamics community, emphasizing work toward a Fluid Dynamics Software Infrastructure ([FDSI](https://www.colorado.edu/events/cfdsi/learn-more))
 * David Moulton focused on productivity and sustainability in a community-driven software ecosystem for [watershed science](https://ideas-productivity.org/ideas-watersheds/)
 
