@@ -91,7 +91,7 @@ The article is based on U.S. copyright law; other countries may differ.
 
 [gitlab-dco-just-sfer-ezikiw]: https://docs.google.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q "GitLab: MEMO CLA vs DCO + License"
 
-[gitlab-dco-benefits-sfer-ezikiw]: https://sdtimes.com/certificate-of-origin/power-open-source-gitlabs-move-developer-certificate-origin-benefits-developer-community/: "The power of open source: Why GitLab’s move to a Developer Certificate of Origin benefits the developer community"
+[gitlab-dco-benefits-sfer-ezikiw]: https://sdtimes.com/certificate-of-origin/power-open-source-gitlabs-move-developer-certificate-origin-benefits-developer-community "The power of open source: Why GitLab’s move to a Developer Certificate of Origin benefits the developer community"
 
 [cla-vs-dco-sfer-ezikiw]: https://opensource.com/article/18/3/cla-vs-dco-whats-difference "CLA vs. DCO: What's the difference?"
 
