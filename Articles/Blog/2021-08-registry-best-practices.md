@@ -137,7 +137,7 @@ blog](http://urssi.us/blog/2021/08/04/best-practices-for-software-registries-and
 the *[UK Software Sustainability Institute
 blog](https://www.software.ac.uk/blog/2021-08-04-best-practices-software-registries-and-repositories)*,
 and the *[FORCE11
-blog](https://www.force11.org/blog/best-practices-software-registries-and-repositories)*.
+website](https://force11.org/post/best-practices-for-software-registries-and-repositories/)*.
 
 
 ### Author bios
