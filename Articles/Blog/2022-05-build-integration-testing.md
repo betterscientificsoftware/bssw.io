@@ -7,7 +7,7 @@
 <!-- begin deck -->
 <!-- end deck -->
 
-#### Contributed by [Keita Teranishi](https://github.com/keitat), [A. Bartlett](https://github.com/bartlettroscoe), [Franck Ledoux](https://githib.com/hexmsh), [Daniel S. Katz](https://github.com/danielskatz), and [Anshu Dubey](https://github.com/adubey64)
+#### Contributed by [Keita Teranishi](https://github.com/keitat), [A. Bartlett](https://github.com/bartlettroscoe), Franck Ledoux, [Daniel S. Katz](https://github.com/danielskatz), and [Anshu Dubey](https://github.com/adubey64)
 
 #### Publication date: May 27, 2022
 
