@@ -6,7 +6,7 @@
 
 We host here in tabluar layout a number of online programming resources of fundamental importance in HPC/CSE.
 We begin with the most fundamental of topics...formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
-These are formal documents primarily for implementors of compilers that define, in excrutiating precision, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
+These are formal documents primarily for implementors of compilers that define, in excrutiating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
 
 Language specifications evolve with time and so are versioned, typically by the year a new specification is *initiated*.
 Not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
@@ -17,6 +17,14 @@ From formal specifications, we move on to language *implementations*.
 The *implementation* of a programming language is embodied in a [compiler](https://en.wikipedia.org/wiki/List_of_compilers) or, for interpretive languages like Python (or Basic), an *interpreter*.
 The relevant documentation takes the form of compiler reference manuals.
 These documents are created by each *vendor* that supports a given compiler.
+
+A program consisting entirely of language statements typically does not make a useable application.
+Programs need to interact with the outside world...to accept user input, to read and write data to terminal windows and/or files and to interact with other *devices*.
+This functionality is typically provided in the form of an accompanying *standard library*...a set of function calls with *well defined interfaces* that do things like allocate and free memory, open and close files, read and write data, etc.
+
+A challenge with standard libraries is that they aren't always very *standard*.
+Different hardware vendors provide different and sometimes incompatible implementations.
+[POSIX](https://en.wikipedia.org/wiki/POSIX) compliance was introduced in the 1990's to address this.
 
 Hardware vendors are obliged to provide a compiler that supports their hardware.
 No applications can use their hardware without one.
@@ -30,13 +38,14 @@ These compilers are often made available on various vendor's hardware and in som
 It can take many years for compiler vendors to update their implementations to conform to new language standards.
 It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various minor ways especially during a period in which it is transitioning to new language standard.
 
-For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html).
+For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html) some of which eventually make their way into the formal language standard.
 The use of language features unique to a specific standard and/or compiler can introduce portability issues.
-To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use.
+To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use and support.
 For example, the [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code base only in 2018, a full 7 years after the language standard had been released.
 
-After languages and compilers, we cover *language extensions*, Application Programming Interfaces (APIs) as well as a handful of other programming technologies commonly encountered when contributing to HPC/CSE code.
+After languages and compilers, we cover commonly used technologies that are offered in the form of either *language extensions* or application programming interfaces (APIs).
 Sometimes whether a technology is considered a *language extension* or an *API* isn't always very clear cut.
+In addition, we cover a handful of other programming technologies commonly encountered when contributing to HPC/CSE code projects.
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :--- | :---: | ---:
@@ -46,14 +55,14 @@ C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c
 C Preprocessor | Part of C specification | ([4][4])
 Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec] | ([1][1])
 OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec] | ([2][2])
-Python | no known specification | ([3][3])
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language Implementations/Compiler Reference Manuals**</td></tr>
+Python | [2][py2-spec]/[3][py3-spec]| ([3][3])
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language Implementations - Compiler Reference Manuals**</td></tr>
 C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]/[LLVM][c-clang]/[AMD][c-amd]/[Intel][c++-intel]
 C++ | [AMD][c++-amd]/[MS][c++-ms]/[IBM][c++-ibm]/[LLVM][c++-clang]/[Cray][c++-cray]/[Intel][c++-intel]|
 C Preprocessor | Usually part of C implementation<br>[GNU][cpp-gnu]/[MS][cpp-ms] |
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
 OpenCL | [NVIDIA][opencl-nvidia]/[AMD][opencl-amd]/[Intel][opencl-intel]|
-Python | [2][py2]/[3][py3]
+Python | [2][py2]/[3][py3] |([3][3])
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Library Reference**</td></tr>
 C Standard Library | [C][c-stdlib]| |
 C++ Standard Library | [0][c++-stdlib-0] |
@@ -65,7 +74,7 @@ C++ Standard Library | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Im
 
 [1]: #a1 "Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*."
 [2]: #a2 "Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.)."
-[3]: #a3 "The most formal resource for Python is the *reference* implementation, CPython"
+[3]: #a3 "The most formal resource for Python is the [language reference](https://docs.python.org/dev/reference/) and the *reference* implementation, [CPython](https://github.com/python/cpython)"
 [4]: #a4 "CPP is sometimes used to process other kinds of text files including those of other languages. CPP `#pragma`s are a common way for compiler vendors to extend the language."
 
 <a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
@@ -103,6 +112,9 @@ C++ Standard Library | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Im
 [ocl2.2-spec]: https://www.khronos.org/registry/OpenCL/specs/2.2/html/OpenCL_API.html
 [ocl3.0-spec]: https://www.khronos.org/registry/OpenCL/specs/3.0-unified/html/OpenCL_C.html
 
+[//]: # (Python language reference URLs)
+[py2-spec]: https://docs.python.org/2/reference/
+[py3-spec]: https://docs.python.org/3/reference/
 
 [cpp-gnu]: https://gcc.gnu.org/onlinedocs/cpp/
 [cpp-ms]: https://docs.microsoft.com/en-us/cpp/preprocessor/c-cpp-preprocessor-reference?view=msvc-170
@@ -141,14 +153,23 @@ C++ Standard Library | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Im
 [opencl-intel]: https://www.intel.com/content/www/us/en/develop/documentation/iocl_rt_ref/top.html
 [opencl-nvidia]: https://developer.download.nvidia.com/compute/DevZone/docs/html/OpenCL/doc/OpenCL_Programming_Guide.pdf
 
-
 [//]: # (Pythone language reference URLs)
 
 [py2]: https://docs.python.org/2/reference/
 [py3]: https://docs.python.org/3/reference/
 
+[//]: # (Standard libraries)
+
 [c++-stdlib-0]: https://www.cplusplus.com/reference/
 https://docs.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
+https://docs.python.org/3/library/
+
+https://gcc.gnu.org/onlinedocs/libstdc++/
+
+https://learn.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
+
+https://libcxx.llvm.org//
+
 
 https://www.gnu.org/software/libc/manual/pdf/libc.pdf
 
@@ -190,6 +211,8 @@ https://www.ibm.com/docs/en/SSGH3R_13.1.3/com.ibm.compilers.aix.doc/standlib.pdf
 * [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html)
 
 Boost, POSIX
+
+https://charmplusplus.org
 
 <!---
 Publish: no
