@@ -6,7 +6,7 @@ When paired with critical advances in CSE algorithms and software, the enormous 
 
 - [U.S. Exascale Computing Project (ECP)](https://exascaleproject.org "ECP Homepage")
 - [European Exascale Software Initiative (EESI)](http://www.eesi-project.eu "EESI Homepage")
-- [Japanese FLAGSHIP 2020 Project](http://www.riken.jp/en/research/labs/r-ccs/exascale_comput_proj/ "FLAGSHIP 2020 Homepage")
+- [Japanese FLAGSHIP 2020 Project](https://aics.riken.jp/fs2020p/en/index.html "FLAGSHIP 2020 Homepage")
 
 <!--
 LCM: Not displaying properly:

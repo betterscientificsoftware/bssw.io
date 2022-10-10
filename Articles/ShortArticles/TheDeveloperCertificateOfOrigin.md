@@ -91,7 +91,7 @@ The article is based on U.S. copyright law; other countries may differ.
 
 [gitlab-dco-just-sfer-ezikiw]: https://docs.google.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q "GitLab: MEMO CLA vs DCO + License"
 
-[gitlab-dco-benefits-sfer-ezikiw]: https://sdtimes.com/certificate-of-origin/power-open-source-gitlabs-move-developer-certificate-origin-benefits-developer-community/: "The power of open source: Why GitLab’s move to a Developer Certificate of Origin benefits the developer community"
+[gitlab-dco-benefits-sfer-ezikiw]: https://sdtimes.com/certificate-of-origin/power-open-source-gitlabs-move-developer-certificate-origin-benefits-developer-community "The power of open source: Why GitLab’s move to a Developer Certificate of Origin benefits the developer community"
 
 [cla-vs-dco-sfer-ezikiw]: https://opensource.com/article/18/3/cla-vs-dco-whats-difference "CLA vs. DCO: What's the difference?"
 
@@ -139,10 +139,10 @@ RSS update: 2022-01-26
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-0"></a><sup>0</sup>[An Introduction to Software Licensing](https://bssw.io/items/an-introduction-to-software-licensing)
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Contributor Agreements](https://contributoragreements.org/)
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Contributor License Agreement](https://en.wikipedia.org/wiki/Contributor_License_Agreement:)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Contributor License Agreement](https://en.wikipedia.org/w/index.php?title=Contributor_License_Agreement&oldid=884090001)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[GitLab: We're switching to a DCO for source code contributions](https://about.gitlab.com/blog/2017/11/01/gitlab-switches-to-dco-license/)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[GitLab: MEMO CLA vs DCO + License](https://docs.google.com/document/d/1zpjDzL7yhGBZz3_7jCjWLfRQ1Jryg1mlIVmG8y6B1_Q)
-* <a name="sfer-ezikiw-5"></a><sup>5</sup>[The power of open source: Why GitLab’s move to a Developer Certificate of Origin benefits the developer community](https://sdtimes.com/certificate-of-origin/power-open-source-gitlabs-move-developer-certificate-origin-benefits-developer-community/:)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[The power of open source: Why GitLab’s move to a Developer Certificate of Origin benefits the developer community](https://sdtimes.com/certificate-of-origin/power-open-source-gitlabs-move-developer-certificate-origin-benefits-developer-community)
 * <a name="sfer-ezikiw-6"></a><sup>6</sup>[CLA vs. DCO: What's the difference?](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
 * <a name="sfer-ezikiw-7"></a><sup>7</sup>[Developer Certificate of Origin](https://developercertificate.org/)
 * <a name="sfer-ezikiw-8"></a><sup>8</sup>[Linux Kernel Git Repository](https://github.com/torvalds/linux/commits/master)

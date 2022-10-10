@@ -17,7 +17,7 @@ The minisymposium *Improving Productivity and Sustainability for Parallel Comput
 
 A collection of talks presented at the [minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67772) can be found on [Figshare](https://figshare.com/collections/SIAM_PP20_Minisymposium_Improving_Productivity_and_Sustainability_for_Parallel_Computing_Software/4934688). The minisymposium featured several interesting presenters representing leadership computing facilities as well as various scientific projects. Below is a comprehensive list of the presenters and the covered topics.
 
-* [Judith Hill](https://www.olcf.ornl.gov/directory/staff-member/judith-hill/) spoke on the topic of software sustainability from the perspective off work at [Oak Ridge Leadership Computing Facility](https://www.olcf.ornl.gov/).
+* [Judith Hill](https://people.llnl.gov/hill134) spoke on the topic of software sustainability from the perspective off work at [Oak Ridge Leadership Computing Facility](https://www.olcf.ornl.gov/).
 * [Sunita Chandrasekaran](https://www.eecis.udel.edu/~schandra/) shared thoughts on training and best practices required to develop portable yet performant code.
 * [Michal Habera](https://github.com/michalhabera) highlighted some of the top changes that have been carried out with respect to the sustainability of the [FEniCS project](https://fenicsproject.org/).
 * [Mark Gates](http://www.icl.utk.edu/~mgates3/) discussed sustainability lessons that have emerged from the [SLATE project](https://icl.utk.edu/slate/).
