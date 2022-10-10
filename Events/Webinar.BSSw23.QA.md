@@ -5,7 +5,7 @@
 - Event Website: https://bssw.io/blog_posts/applications-open-for-the-2023-bssw-fellowship-program
 - Organizers: Better Scientifc Software Community
 
-<img src='../../images/Blog_2208_FellowsAppOpen.png'/>
+<img src='../images/Blog_2208_FellowsAppOpen.png'/>
 
 Event Information | Details
 :--- | :---			   
