@@ -42,8 +42,7 @@ The examples from these two national laboratories provide a common message:
 
 We see this message as an encouragement to other institutions to consider planning similar events and approaches. Software development need not -- indeed should not -- be done in isolation. Sharing ideas and projects can help bridge the gap that may otherwise occur within an institution.
 
-More details about these two events can be found on the [ORNL Software Expo web site](https://www.ornl.gov) and in
-the original [LLNL Developer Day press release](https://computation.llnl.gov/newsroom/second-annual-developer-day-continues-build-success).
+More details about these two events can be found on the [ORNL Software Expo web site](https://www.ornl.gov).
 
 ### Author Bios
 
