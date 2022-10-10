@@ -78,8 +78,7 @@ for research software developers in universities.
 
 We have held [one workshop](http://urssi.us/workshops/berkeley/) and are planning three more, in addition to a
 community survey we plan to have out soon and a set of ethnographic studies on specific projects. We are
-communicating through our [website](http://urssi.us), a [series of newsletters](http://urssi.us/newsletter/), and
-a [community discussion site](https://discuss.urssi.us). 
+communicating through our [website](http://urssi.us) and a [series of newsletters](http://urssi.us/newsletter/). 
 
 ### Get involved!
 We welcome members of the BSSw community to join us, both to help us determine how to proceed and to directly

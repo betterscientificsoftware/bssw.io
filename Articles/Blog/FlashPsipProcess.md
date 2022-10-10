@@ -21,7 +21,7 @@ challenging with this latest shift because the codes are much larger and more
 heterogeneous themselves.
 
 ### FLASH refactoring overview
-[FLASH](http://flash.uchicago.edu) is a large and complex multiphysics and multiscale code that has been in
+[FLASH](https://iopscience.iop.org/article/10.1086/317361) is a large and complex multiphysics and multiscale code that has been in
 public release since 2000.  FLASH has undergone two major revisions in the past
 to build an extensible and flexible infrastructural framework with the goal of
 achieving robustness and longevity.  The onset of platform heterogeneity
