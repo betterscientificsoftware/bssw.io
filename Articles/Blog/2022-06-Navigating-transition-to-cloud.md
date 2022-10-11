@@ -51,5 +51,5 @@ Things are by not by any means bad. We’re making progress. During the year I w
 <!---
 Publish: yes
 Pinned: no
-Topics: requirements, design, online learning
+Topics: big data, cloud computing, online learning
 --->
