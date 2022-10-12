@@ -6,7 +6,7 @@
 
 #### Contributed by [Miranda Mundt](https://github.com/mrmundt), [David M. Rogers](https://github.com/frobnitzem), and [Reed Milewicz](https://github.com/rmmilewi)
 
-#### Publication date: TBD
+#### Publication date: October 14, 2022
 
 ### Introduction
 
