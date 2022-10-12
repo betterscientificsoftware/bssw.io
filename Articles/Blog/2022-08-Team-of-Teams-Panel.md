@@ -315,3 +315,8 @@ system solvers and algebraic multigrid methods, high performance computing,
 parallel algorithms, performance evaluation and scientific software design.
 She has a Ph.D in Computer Science from the University of Illinois at
 Urbana-Champaign and a Diplom in Mathematics from Bochum University in Germany.
+
+<!---
+Publish: yes
+Topics: strategies for more effective teams
+--->
