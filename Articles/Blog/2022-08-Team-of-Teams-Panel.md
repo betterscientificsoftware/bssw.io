@@ -308,9 +308,19 @@ Publish: yes
 Topics: strategies for more effective teams
 --->
 
-[1]: https://isbndb.com/book/9781591847489 "Team of teams: New rules of engagement for a complex world. {McChrystal, G. S., Collins, T., Silverman, D., & Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. Penguin. isbn:9781591847489}"
+[1-sfer-ezikiw]: https://isbndb.com/book/9781591847489 "{McChrystal, G. S., Collins, T., Silverman, D., & Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. Penguin. isbn:9781591847489}"
 
-[2]: https://ascr-discovery.org/2022/06/work-shift/ "Work shift: A Sandia researcher looks at how COVID-19 has reshaped the computational science community and remote work – in lasting ways. {Cannon, B. (2022, June 1). Work shift: A Sandia researcher looks at how COVID-19 has reshaped the computational science community and remote work – in lasting ways. ASCR Discovery. Retrieved August 31, 2022.}"
+[2-sfer-ezikiw]: https://ascr-discovery.org/2022/06/work-shift/ "{Cannon, B. (2022, June 1). Work shift: A Sandia researcher looks at how COVID-19 has reshaped the computational science community and remote work – in lasting ways. ASCR Discovery. Retrieved August 31, 2022.}"
 
 
-[3]: https://doi.org/10.1057/jit.2010.7 "Exploring the impact of socio-technical core-periphery structures in open source software development. {Amrit, C., & Van Hillegersberg, J. (2010). Exploring the impact of socio-technical core-periphery structures in open source software development. Journal of Information Technology, 25(2), 216-229. doi:10.1057/jit.2010.7}"
+[3-sfer-ezikiw]: https://doi.org/10.1057/jit.2010.7 "{Amrit, C., & Van Hillegersberg, J. (2010). Exploring the impact of socio-technical core-periphery structures in open source software development. Journal of Information Technology, 25(2), 216-229. doi:10.1057/jit.2010.7}"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 
+[2]: #sfer-ezikiw-2 
+[3]: #sfer-ezikiw-3 
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[McChrystal, G. S., Collins, T., Silverman, D., & Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. Penguin. isbn:9781591847489](https://isbndb.com/book/9781591847489)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Cannon, B. (2022, June 1). Work shift: A Sandia researcher looks at how COVID-19 has reshaped the computational science community and remote work – in lasting ways. ASCR Discovery. Retrieved August 31, 2022.](https://ascr-discovery.org/2022/06/work-shift/)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Amrit, C., & Van Hillegersberg, J. (2010). Exploring the impact of socio-technical core-periphery structures in open source software development. Journal of Information Technology, 25(2), 216-229. doi:10.1057/jit.2010.7](https://doi.org/10.1057/jit.2010.7)
