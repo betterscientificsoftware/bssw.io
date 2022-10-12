@@ -32,10 +32,8 @@ commentators Reed Milewicz (Sandia National Laboratories) and Benjamin Sims (
 Los Alamos National Laboratory), who injected valuable commentary on themes as
 they appeared throughout the discussion.
 
-“Team of Teams,” as defined by Stanley McChrystal[^1], has the following key aspects:
+“Team of Teams,” as defined by Stanley McChrystal<sup>[1]</sup>, has the following key aspects:
 
-[^1]: McChrystal, G. S., Collins, T., Silverman, D., & Fussell, C. (2015).
-Team of teams: New rules of engagement for a complex world. Penguin.
 
 - Shared consciousness - as shown by an aligning narrative that answers basic
   questions: What is the mission? What is our role in this larger organization?
@@ -48,7 +46,6 @@ Team of teams: New rules of engagement for a complex world. Penguin.
 
 The panelists talked about ways that these aspects manifest in practice.
 From the discussion, several common themes emerged:
-
 
 ### Individual Team Autonomy
 
@@ -190,21 +187,12 @@ another in person.
 
 ### Final Thoughts
 
-We are seeing a shift in the way teams form and interact[^2]. In the concluding
+We are seeing a shift in the way teams form and interact<sup>[2]</sup>. In the concluding
 discussion in which panelists, moderators, and the audience explored what
 defines a Team of Teams, commentator Reed Milewicz compared how panelists’
 projects were organized to the concept of the “Core-Periphery Structure”
-model of open-source software development[^3], which is a common form of
+model of open-source software development<sup>[3]</sup>, which is a common form of
 top-down governance structure for open-source software projects:
-
-[^2]: Cannon, B. (2022, June 1). Work shift: A Sandia researcher looks at how
-COVID-19 has reshaped the computational science community and remote work –
-in lasting ways. ASCR Discovery. Retrieved August 31, 2022, from
-https://ascr-discovery.org/2022/06/work-shift/
-
-[^3]: Amrit, C., & Van Hillegersberg, J. (2010). Exploring the impact of
-soclo-technlcal core-periphery structures in open source software development.
-journal of information technology, 25(2), 216-229.
 
 > [In a conventional core-periphery style of organization,] outside community
 > members who become involved in the project over time may steadily migrate
@@ -231,7 +219,6 @@ to steer and guide the big-vision and holistic goals, and intentional
 communication to keep everyone aligned, especially when teams are distributed.
 To watch and/or listen to the panel and others in the series visit
 [https://www.exascaleproject.org/remote-panel-archive/](https://www.exascaleproject.org/remote-panel-archive/).  
-
 
 ### Biographies
 
@@ -320,3 +307,10 @@ Urbana-Champaign and a Diplom in Mathematics from Bochum University in Germany.
 Publish: yes
 Topics: strategies for more effective teams
 --->
+
+[1]: https://isbndb.com/book/9781591847489 "Team of teams: New rules of engagement for a complex world. {McChrystal, G. S., Collins, T., Silverman, D., & Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. Penguin. isbn:9781591847489}"
+
+[2]: https://ascr-discovery.org/2022/06/work-shift/ "Work shift: A Sandia researcher looks at how COVID-19 has reshaped the computational science community and remote work – in lasting ways. {Cannon, B. (2022, June 1). Work shift: A Sandia researcher looks at how COVID-19 has reshaped the computational science community and remote work – in lasting ways. ASCR Discovery. Retrieved August 31, 2022.}"
+
+
+[3]: https://doi.org/10.1057/jit.2010.7 "Exploring the impact of socio-technical core-periphery structures in open source software development. {Amrit, C., & Van Hillegersberg, J. (2010). Exploring the impact of socio-technical core-periphery structures in open source software development. Journal of Information Technology, 25(2), 216-229. doi:10.1057/jit.2010.7}"
