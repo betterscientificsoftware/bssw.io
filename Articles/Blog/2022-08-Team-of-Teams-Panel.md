@@ -235,7 +235,7 @@ To watch and/or listen to the panel and others in the series visit
 
 ### Biographies
 
-**Reed Milewicz** is a Computer Scientist and Software Engineering Researcher
+Reed Milewicz is a Computer Scientist and Software Engineering Researcher
 in the Department of Software Engineering and Research at Sandia National
 Laboratories. His research focuses on developing better practices, processes,
 and tools to improve software development in the scientific domain. He leads
@@ -244,7 +244,7 @@ Interoperable Design of Extreme-Scale Application Software (IDEAS) project,
 where he is part of the Productivity and Sustainability Improvement Planning
 (PSIP) team.
 
-**Miranda Mundt** is a Research Software Engineer within the Department of
+Miranda Mundt is a Research Software Engineer within the Department of
 Software Engineering and Research at
 Sandia National Laboratories with an interdisciplinary background in applied
 mathematics and economics. As a practitioner, researcher, and consultant,
@@ -258,14 +258,14 @@ project and part of the Productivity and Sustainability Improvement Planning
 diversity, equity, and inclusion efforts, and is a member of the
 [Inclusivity Committee for Supercomputing'22](https://sc22.supercomputing.org/attend/inclusivity/).
 
-**Todd Munson** is a Senior Computational Scientist in the Mathematics and
+Todd Munson is a Senior Computational Scientist in the Mathematics and
 Computer Science Division at Argonne National Laboratory. He is the Director
 of the PETSc/TAO ECP, where his technical interest is in scalable numerical
 optimization methods for the high performance computers.  He has a Ph.D. in
 Computer Science from the University of Wisconsin at Madison and received a
 Presidential Early Career Award for Scientists and Engineers in 2006.
 
-**Elaine M. Raybourn** is a Social Scientist in the Applied Information Sciences
+Elaine M. Raybourn is a Social Scientist in the Applied Information Sciences
 Center at Sandia National Laboratories. Her research focuses on virtual teams,
 methods for software productivity, immersive virtual environments,
 scientific visualization, and transmedia learning. She was the SC21
@@ -279,7 +279,7 @@ Interoperable Design of Extreme-scale Application Software (IDEAS) productivity
 project. Elaine leads [PSIP](https://bssw.io/psip/) and the ECP panel series
 [Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely/). 
 
-**David M. Rogers** is a Computational Scientist in the National Center for
+David M. Rogers is a Computational Scientist in the National Center for
 Computational Sciences Division at Oak Ridge National Laboratory, where he
 works collaboratively to develop and apply new methods and theories for
 multiscale modeling using HPC. His research interests include mathematical
@@ -289,12 +289,12 @@ dielectric friction, dispersion, hydration, and its role in nanoscale devices.
 David's focus at ORNL is developing more powerful and general tools,
 libraries and interfaces for modeling these systems at scale.
 
-**Benjamin Sims** is a scientist at Los Alamos National Laboratory. He is a
+Benjamin Sims is a scientist at Los Alamos National Laboratory. He is a
 sociologist with research interests in scientific collaboration, software
 development, social networks, organizational knowledge, and repair and
 maintenance of infrastructures.
 
-**Jim Willenbring** is a Senior Member of R&D Technical Staff in the
+Jim Willenbring is a Senior Member of R&D Technical Staff in the
 Center for Computing Research at Sandia National Laboratories. He is the
 PI of the ECP SDK project, a member of the Trilinos Leadership Team, and a
 member of the Interoperable Design of Extreme-scale Application Software
@@ -304,7 +304,7 @@ methodologies for high-performance computational science. James received a
 M.S. in Computer Science from St. Cloud State University, and is currently a
 Software Engineering Ph.D. Candidate at North Dakota State University.
 
-**Ulrike Yang** is the Mathematical Algorithms and Computing group lead in the
+Ulrike Yang is the Mathematical Algorithms and Computing group lead in the
 Center for Applied Scientific Computing at LLNL. She leads the xSDK
 (Extreme-scale Scientific Software Development Kit) project in the Exascale
 Computing Project (ECP) and the Linear and Nonlinear Solvers topic area in
