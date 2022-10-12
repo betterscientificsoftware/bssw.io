@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- TBD
+- <img src='../../images/Blog_2210_TeamOfTeams.jpg' />
 
 #### Contributed by [Miranda Mundt](https://github.com/mrmundt), [David M. Rogers](https://github.com/frobnitzem), and [Reed Milewicz](https://github.com/rmmilewi)
 
@@ -65,14 +65,18 @@ how their ecosystem of teams is layered (Figure 1):
 > form into smaller teams (2-5 people) who work on key features/aspects.
 > They are the ones who are choosing the activities they pursue.
 
-![Figure 1: The PETSc Team of Teams Ecosystem](/images/team-of-teams-figure-1.png)
+<br>
+
+<img src='../..//images/team-of-teams-figure-1.png'>[Figure 1: The PETSc Team of Teams Ecosystem]
 
 PETSc is not alone in relying on small developer groups to own individual
 packages. Ulrike Yang detailed a different picture to much of the same effect
 on behalf of the Extreme-scale Scientific Software Development Kit (xSDK)
 (Figure 2).
 
-![Figure 2: The individual network of packages within xSDK](/images/team-of-teams-figure-2.png)
+<br>
+
+<img src='../../images/team-of-teams-figure-2.png'>[Figure 2: The individual network of packages within xSDK]
 
 As of the 0.7.0 release (November 2021), xSDK, an infrastructure for and
 interoperability of a collection of related and complementary software elements,
