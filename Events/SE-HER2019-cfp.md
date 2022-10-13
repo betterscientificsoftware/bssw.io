@@ -29,8 +29,8 @@ We especially encourage members of the HPC and HPDA communities to submit practi
 
 <!---
 Publish: yes
-Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Categories: development, collaboration, performance
+Topics: software engineering, projects and organizations, big data
 Tags: conference
 Level: 2
 Prerequisites: default

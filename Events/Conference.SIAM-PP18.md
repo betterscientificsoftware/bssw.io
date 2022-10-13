@@ -26,7 +26,7 @@ These challenges create the unique opportunity to fundamentally change how scien
 <!---
 Publish: yes
 Categories: planning, collaboration, development
-Topics: software interoperability, strategies for more effective teams, software engineering
+Topics: software interoperability, strategies for more effective teams, software engineering, big data
 Tags: conference
 Level: 2
 Prerequisites: defaults
