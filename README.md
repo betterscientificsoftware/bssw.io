@@ -12,7 +12,6 @@ This repository provides source material for the Better Scientific Software [BSS
 
 For details see our [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md) pages.
 
-
 <!---
 Publish: no
 ---!>
