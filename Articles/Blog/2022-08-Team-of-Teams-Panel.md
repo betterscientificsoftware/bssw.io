@@ -291,7 +291,7 @@ high-performance solvers library hypre, which received an R&D 100 award in 2007.
 research interests are numerical algorithms, particularly iterative linear
 system solvers and algebraic multigrid methods, high-performance computing,
 parallel algorithms, performance evaluation and scientific software design.
-She has a Ph.D in Computer Science from the University of Illinois at
+She has a Ph.D. in Computer Science from the University of Illinois at
 Urbana-Champaign and a Diplom in Mathematics from Bochum University in Germany.
 
 <!---
