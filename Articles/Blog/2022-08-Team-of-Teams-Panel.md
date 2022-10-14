@@ -4,7 +4,7 @@
 
 - <img src='../../images/Blog_2210_TeamOfTeams.jpg' />
 
-#### Contributed by [Miranda Mundt](https://github.com/mrmundt), [David M. Rogers](https://github.com/frobnitzem), and [Reed Milewicz](https://github.com/rmmilewi)
+#### Contributed by [Miranda Mundt](https://github.com/mrmundt), [David M. Rogers](https://github.com/frobnitzem), [Reed Milewicz](https://github.com/rmmilewi), [Todd Munson](https://github.com/tmunson), [Elaine M. Raybourn](https://github.com/elaineraybourn), [Benjamin Sims](https://github.com/bhsims), [Jim Willenbring](https://github.com/jwillenbring), and [Ulrike Yang](https://github.com/ulrikeyang)
 
 #### Publication date: October 14, 2022
 
