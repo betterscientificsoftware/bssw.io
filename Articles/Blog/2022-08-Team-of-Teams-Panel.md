@@ -289,7 +289,7 @@ project in the ECP and the Linear and Nonlinear Solvers topic area in
 the SciDAC-5 FASTMath Institute. She is also a software developer for the
 high-performance solvers library hypre, which received an R&D 100 award in 2007. Her
 research interests are numerical algorithms, particularly iterative linear
-system solvers and algebraic multigrid methods, high performance computing,
+system solvers and algebraic multigrid methods, high-performance computing,
 parallel algorithms, performance evaluation and scientific software design.
 She has a Ph.D in Computer Science from the University of Illinois at
 Urbana-Champaign and a Diplom in Mathematics from Bochum University in Germany.
