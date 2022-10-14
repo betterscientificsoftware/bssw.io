@@ -27,8 +27,7 @@ Panelists Todd Munson (Argonne National Laboratory), Ulrike Yang
 (Sandia National Laboratories) explored lessons learned from their
 experiences with these projects as viewed
 from the lens of a “Team of Teams.” Intermixed with these panelists were
-commentators Reed Milewicz (Sandia National Laboratories) and Benjamin Sims (
-Los Alamos National Laboratory), who injected valuable commentary on themes as
+commentators Reed Milewicz (Sandia National Laboratories) and Benjamin Sims (Los Alamos National Laboratory), who injected valuable commentary on themes as
 they appeared throughout the discussion.
 
 “Team of Teams,” as defined by Stanley McChrystal<sup>[1]</sup>, has the following key aspects:
