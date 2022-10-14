@@ -286,7 +286,7 @@ Software Engineering Ph.D. Candidate at North Dakota State University.
 Ulrike Yang is the Mathematical Algorithms and Computing group lead in the
 Center for Applied Scientific Computing at LLNL. She leads the xSDK
 project in the ECP and the Linear and Nonlinear Solvers topic area in
-the SciDAC-5 FASTMath Institute. She is also a software developer for the high
+the SciDAC-5 FASTMath Institute. She is also a software developer for the
 performance solvers library hypre, which received an R&D 100 award in 2007. Her
 research interests are numerical algorithms, particularly iterative linear
 system solvers and algebraic multigrid methods, high performance computing,
