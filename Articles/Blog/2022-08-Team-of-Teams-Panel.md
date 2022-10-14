@@ -30,7 +30,7 @@ from the lens of a “Team of Teams.” Intermixed with these panelists were
 commentators Reed Milewicz (Sandia National Laboratories) and Benjamin Sims (Los Alamos National Laboratory), who injected valuable commentary on themes as
 they appeared throughout the discussion.
 
-“Team of Teams,” as defined by Stanley McChrystal<sup>[1]</sup>, has the following key aspects:
+“Team of Teams,” as defined by Stanley McChrystal,<sup>[1]</sup> has the following key aspects:
 
 - Shared consciousness — as shown by an aligning narrative that answers basic
   questions: What is the mission? What is our role in this larger organization?
