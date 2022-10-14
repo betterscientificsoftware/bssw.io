@@ -16,7 +16,7 @@ in energy, Earth systems, materials, data, and national security. The
 nature of this mission has drawn a wide range of talented and successful
 scientists with diverse backgrounds to work together in new ways toward this
 goal. As we work together, we want to accelerate and leverage the agility that
-occurs in small teams - and scale it out to the HPC community.
+occurs in small teams — and scale it out to the HPC community.
 
 On August 25, Elaine Raybourn of Sandia National Laboratories hosted the next
 in the [Strategies for Working Remotely Panel Series](https://www.exascaleproject.org/remote-panel-archive/)
@@ -33,13 +33,13 @@ they appeared throughout the discussion.
 
 “Team of Teams,” as defined by Stanley McChrystal<sup>[1]</sup>, has the following key aspects:
 
-- Shared consciousness - as shown by an aligning narrative that answers basic
+- Shared consciousness — as shown by an aligning narrative that answers basic
   questions: What is the mission? What is our role in this larger organization?
-- Empowered execution - as shown by autonomous decision-making ability
-- Leading like a gardener - as shown by leaders that favor guiding,
+- Empowered execution — as shown by autonomous decision-making ability
+- Leading like a gardener — as shown by leaders that favor guiding,
   facilitating, nurturing, and empowering the growth of the ecosystem rather
   than directing as in game of chess
-- Liaisons - as demonstrated by participants who are part of different teams at
+- Liaisons — as demonstrated by participants who are part of different teams at
   once, enabling them to build networks and break down silos.
 
 The panelists talked about ways that these aspects are manifest in practice.
@@ -108,7 +108,7 @@ community policies to ensure interoperability and minimum quality standards.
 Some teams have gained decades of experience with this exact aspect.
 Jim Willenbring on behalf of [Trilinos](https://trilinos.org) had this to say:
 
-> A lot of responsibilities fall on boundaries between teams -
+> A lot of responsibilities fall on boundaries between teams —
 > like the packages without dedicated maintainers or certain porting efforts.
 > Tools and technologies are also being used in different cases. There
 > have been improvements in these areas. Our leadership structure evolved to
@@ -147,7 +147,7 @@ Every panelist mentioned two essential requirements that enabled their Team of
 Teams identities:
 
 1. Core team members with strong responsibilities for maintaining the
-   community - thus acting as a liaison in some part of their role.
+   community — thus acting as a liaison in some part of their role.
 1. Policies that define and promote shared goals, which effectively require
    work scope that falls between projects to implement.
 
@@ -169,14 +169,14 @@ explained, this impacts communications on the xSDK development team, which
 spans at least six distinct time zones:
 
 > Differences in language, communication, and personality are
-> [prominent cultural] issues. It is harder to resolve these virtually - so
+> [prominent cultural] issues. It is harder to resolve these virtually — so
 > we try to take advantage of big conferences to meet up, have dinners, etc.,
 > which was difficult during the pandemic. Milestones can help drive
 > collaboration, which can bridge communication issues and bond. ... We are
-> highly diverse - age, gender, race, nationality, technical life experience,
+> highly diverse — age, gender, race, nationality, technical life experience,
 > etc. The large pool of connections provides access to other experts and
 > helps drive innovation. The different personalities can also be helpful to
-> get past blocks - for example, a positive person can move a stuck project along.
+> get past blocks — for example, a positive person can move a stuck project along.
 
 As this comment indicates, even in a world of increasing remote work, some
 communication issues are best resolved by meeting and getting to know one
@@ -198,7 +198,7 @@ top-down governance structure for open-source software projects:
 > and multi-institutional. How PETSc members describe themselves involves many
 > different teams and communities in a bottom-up approach. By increasing the
 > transparency and engagement, they are moving away from having a "core" team.
-> This doesn’t come for free, of course - all of these teams may have their
+> This doesn’t come for free, of course — all of these teams may have their
 > own goals. But they have to be able to come together and resolve these.
 > Once they do, they are able to be more productive than if they were in
 > their own silos.
