@@ -63,6 +63,8 @@ how their ecosystem of teams is layered (Figure 1):
 
 <img src='../..//images/team-of-teams-figure-1.png' class='page'>[Figure 1: The PETSc Team of Teams ecosystem]
 
+<br>
+
 PETSc is not alone in relying on small developer groups to own individual
 packages. Ulrike Yang detailed a different picture to much of the same effect
 on behalf of the Extreme-scale Scientific Software Development Kit ([xSDK](https://xsdk.info/))
@@ -70,7 +72,9 @@ on behalf of the Extreme-scale Scientific Software Development Kit ([xSDK](https
 
 <br>
 
-<img src='../../images/team-of-teams-figure-2.png' class='page'>[Figure 2: The individual network of packages within xSDK]
+<img src='../../images/team-of-teams-figure-2.png' class='page lightbox'>[Figure 2: The individual network of packages within xSDK]
+
+<br>
 
 As of the 0.7.0 release (November 2021), xSDK, an infrastructure for and
 interoperability of a collection of related and complementary software elements,
