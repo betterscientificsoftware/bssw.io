@@ -2,7 +2,7 @@
 
  **Hero Image:**
 
-  - <img src='../../images/Blog_2209_SoftwareVariants_WarpX.png' />[Placeholder]
+  - <img src='../../images/Blog_2210_RSE.png' />
 
 #### Contributed by: [Chase Million](https://github.com/cmillion)
 
