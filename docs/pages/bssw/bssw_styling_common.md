@@ -160,14 +160,6 @@ The URL of the page on the bssw.io site is the "slugified" text of the title (le
 For example, the file `ATPESC.md` with the title `# Preparing the Next Generation of Supercomputer Users` is given, the slug `preparing-the-next-generation-of-supercomputer-users` will be used in the URL on the bssw.io site.
 When the same title occurs in multiple articles on bssw.io, a random character string is appended to the slug to ensure uniqueness.
 
-### Section links are not supported
-
-Where most standard Markdown renderers will create a internal link for (sub)section headers, the bssw.io site generator will not.
-For example, the section name `## Nonstandard handling of Markdown` would typically trigger the creation of the HTML anchor `nonstandard-handling-of-markdown` which allows referring to that section using references like `[nonstandard handling](#nonstandard-handling-of-markdown)` (on the same page).
-But the bssw.io site generator will not create these section anchors.
-To get around this problem, one can manually add an anchor like `<a name="nonstandard-handling-of-markdown"></a>` directly above the section `## Nonstandard handling of Markdown` in the `*.md` file and then links to `#nonstandard-handling-of-markdown` will work.
-(NOTE: This also works with the GitHub Markdown renderer as well and does not create a conflict.)
-
 ### Words with two underscores become *emphasis* markers
 
 For example, a raw word with two or more underscores "`_`" like "this_has_underscores" will get translated to the HTML `this<em>has</em>underscores`.
@@ -186,7 +178,9 @@ It seems that the column widths in this table could be compressed to easily fit 
 
 NOTE: We will add more examples of nonstandard handling of Markdown in the future as we discover them.
 
+### Images should not use Markdown syntax
 
+As [detailed above](#handling-images), bssw.io uses different syntax for images.
 
 ## Updating/re-publishing published articles
 
