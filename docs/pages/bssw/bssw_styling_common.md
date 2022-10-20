@@ -66,6 +66,14 @@ Several times, BSSw.io content will contain links to resources which are hosted 
 
 When bssw.io content contains links to resources which are hosted external to the bssw.io website, then those links have to be the absolute URL. 
 
+## Link anchors for article sections
+
+As is often the case with Markdown processors, the one used in bssw,io generates anchors for sections headings other than the title (i.e., level 2 and higher headings, but not level 1).  This allows individual sections to be the targets of links, within the article or from outside the article or site.
+
+The anchors are the [slugified](https://en.wikipedia.org/wiki/Clean_URL#Slug) versions of the heading text: basically lowercase the text, remove all punctuation, and replace spaces with hyphens (`-`).
+
+A link to a section heading can be constructed by adding `#anchor-slug` to the page's URL, where `anchor-slug` is the slugified heading text.
+
 ## Handling images
 
 From structural perspective, there are two types of images.  *Hero* images appear at the top of blog articles, and are also use to highlight the article in the [blog list](https://bssw.io/blog_posts) when it is newly published. *Body* images appear in the body of the article and are available in any article type.
