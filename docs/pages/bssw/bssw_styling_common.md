@@ -72,7 +72,7 @@ As is often the case with Markdown processors, the one used in bssw,io generates
 
 The anchors are the [slugified](https://en.wikipedia.org/wiki/Clean_URL#Slug) versions of the heading text: basically lowercase the text, remove all punctuation, and replace spaces with hyphens (`-`).
 
-A link to a section heading can be constructed by adding `#anchor-slug` to the page's URL, where `anchor-slug` is the slugified heading text.
+A link to a section heading can be constructed by adding `#anchor-slug` to the page's URL, where `anchor-slug` is the slugified heading text.  To link to a section within the same article, you simply need to reference the anchor, as in `[see other section](#anchor-slug)`.
 
 ## Handling images
 
