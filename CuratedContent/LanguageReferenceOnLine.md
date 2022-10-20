@@ -24,13 +24,14 @@ This functionality is typically provided in the form of an accompanying *standar
 
 A challenge with standard libraries is that they aren't always very *standard*.
 Different hardware vendors provide different and sometimes incompatible implementations.
-[POSIX](https://en.wikipedia.org/wiki/POSIX) compliance was introduced in the 1990's to address this.
+[POSIX](https://en.wikipedia.org/wiki/POSIX) compliance was introduced in the 1990's to address this not only for the standard library but also for many other aspects of how programs and humans (e.g. command-line *shells*) interact with an operating system.
 
-Hardware vendors are obliged to provide a compiler that supports their hardware.
+As new hardware is introduced, its kinda sorta useless if there doesn't exist any compilers that produce executable (binary) code that runs on that hardware (and takes maximal advantage of any of its unique features).
+Therefore, hardware vendors are more or less obliged to provide a compiler that supports their hardware.
 No applications can use their hardware without one.
 Often, hardware vendors develop and support their own *native* (and proprietary) compilers.
 This ensures applications are maximally performant on their hardware.
-Alternatively (or sometimes in additionally), existing compilers are enhanced to target performance features of the vendor's hardware.
+Alternatively (or sometimes additionally), existing compilers are enhanced to target performance features of the vendor's hardware.
 
 Notably, GNU, Intel, Portland Group and Clang compilers are not tied to any particular hardware vendor.
 These compilers are often made available on various vendor's hardware and in some cases can even produce higher performing code than the hardware vendor's *native* compiler.
@@ -52,23 +53,25 @@ Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Formal Language Specifications and Standards**</td></tr>
 C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec] | ([1][1])
 C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec] | ([1][1])
-C Preprocessor | Part of C specification | ([4][4])
+CPP | Part of C specification | ([4][4])
 Fortran | [77][f77-spec]/[90][f90-spec]/[95][f95-spec]/[03][f03-spec]/[08][f08-spec]/[18][f18-spec] | ([1][1])
 OpenCL | [1.2][ocl1.2-spec]/[2.2][ocl2.2-spec]/[3.0][ocl3.0-spec] | ([2][2])
 Python | [2][py2-spec]/[3][py3-spec]| ([3][3])
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Language Implementations - Compiler Reference Manuals**</td></tr>
 C | [MS][c-ms]/[IBM][c-ibm]/[GNU][c-gnu]/[Cray][c-cray]/[LLVM][c-clang]/[AMD][c-amd]/[Intel][c++-intel]
 C++ | [AMD][c++-amd]/[MS][c++-ms]/[IBM][c++-ibm]/[LLVM][c++-clang]/[Cray][c++-cray]/[Intel][c++-intel]|
-C Preprocessor | Usually part of C implementation<br>[GNU][cpp-gnu]/[MS][cpp-ms] |
+CPP | Usually part of C implementation<br>[GNU][cpp-gnu]/[MS][cpp-ms] |
 Fortran | [PGI][f-pg]/[LF][f-lf]/[Intel][f-intel]/[Cray][f-cray]/[IBM][f-ibm]/[NAG][f-nag]/[GNU][f-gnu]
 OpenCL | [NVIDIA][opencl-nvidia]/[AMD][opencl-amd]/[Intel][opencl-intel]|
 Python | [2][py2]/[3][py3] |([3][3])
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Library Reference**</td></tr>
-C Standard Library | [C][c-stdlib]| |
-C++ Standard Library | [0][c++-stdlib-0] |
+C | [Gen][c-stdlib-0]/[GNU][c-stdlib-gnu]/[LLVM][c-stdlib-llvm]/[MS][c-stdlib-ms]/[IBM][c-stdlib-ibm] | |
+C++ | [Gen][c++-stdlib-0]/[GNU][c++-stdlib-gnu]/[LLVM][c++-stdlib-llvm]/[MS][c++-stdlib-ms]/[IBM][c++-stdlib-ibm] | |
+Fortran | [0.2.1][f-stdlib-0.2.1] | ([5][5])
+Python | [2.7][py-stdlib-2.7]/[3.8][py-stdlib-3.8] | |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Library Implementations**</td></tr>
-C Standard Library | https://en.wikipedia.org/wiki/C_standard_library#Implementations | |
-C++ Standard Library | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Implementations |
+C | https://en.wikipedia.org/wiki/C_standard_library#Implementations | |
+C++ | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Implementations |
 
 [//]: # (Table footnotes. Text is dup'd for rendered HTML and balloon help)
 
@@ -76,11 +79,13 @@ C++ Standard Library | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Im
 [2]: #a2 "Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.)."
 [3]: #a3 "The most formal resource for Python is the [language reference](https://docs.python.org/dev/reference/) and the *reference* implementation, [CPython](https://github.com/python/cpython)"
 [4]: #a4 "CPP is sometimes used to process other kinds of text files including those of other languages. CPP `#pragma`s are a common way for compiler vendors to extend the language."
+[5]: #a5 "The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one."
 
 <a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
 <a name="a2"></a><sup>2</sup>Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.).<br>
 <a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)<br>
-<a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma`s](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) are a common way for compiler vendors to extend the language.
+<a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma`s](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) are a common way for compiler vendors to extend the language.<br>
+<a name="a5"></a><sup>5</sup>The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one.
 
 [//]: # (Formal C language specification URLs)
 
@@ -160,23 +165,19 @@ C++ Standard Library | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Im
 
 [//]: # (Standard libraries)
 
+[c-stdlib-0]: https://cplusplus.com/reference/clibrary/
 [c++-stdlib-0]: https://www.cplusplus.com/reference/
-https://docs.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
-https://docs.python.org/3/library/
-
-https://gcc.gnu.org/onlinedocs/libstdc++/
-
-https://learn.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
-
-https://libcxx.llvm.org//
-
-
-https://www.gnu.org/software/libc/manual/pdf/libc.pdf
-
-https://gcc.gnu.org/onlinedocs/libstdc++
-
-https://www.ibm.com/docs/en/SSGH3R_13.1.3/com.ibm.compilers.aix.doc/standlib.pdf/
-
+[c-stdlib-gnu]: https://gcc.gnu.org/onlinedocs/libc/
+[c++-stdlib-gnu]: https://gcc.gnu.org/onlinedocs/libstdc++/
+[c-stdlib-llvm]: https://libc.llvm.org/
+[c++-stdlib-llvm]: https://libcxx.llvm.org/
+[c-stdlib-ms]: https://learn.microsoft.com/en-us/cpp/c-runtime-library/c-run-time-library-reference?view=msvc-170
+[c++-stdlib-ms]: https://docs.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
+[c-stdlib-ibm]: https://www.ibm.com/docs/en/i/7.3?topic=c-ile-cc-runtime-library-functions
+[c++-stdlib-ibm]: https://www.ibm.com/docs/en/i/7.3?topic=c-ile-cc-runtime-library-functions
+[py-stdlib-2.7]: https://docs.python.org/2.7/library/
+[py-stdlib-3.8]: https://docs.python.org/3.8/library/
+[f-stdlib-0.2.1]: https://github.com/fortran-lang/stdlib
 
 ### Make, GNU Make 
 
