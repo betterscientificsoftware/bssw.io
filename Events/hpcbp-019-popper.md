@@ -81,8 +81,8 @@ to make a difference through science. </p>
 
 <!---
 Publish: yes
-Categories: skills, performance
-Topics: online learning, big data
+Categories: skills
+Topics: online learning
 Level: 2
 Prerequisites: default
 Aggregate: none

@@ -46,7 +46,7 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 <!---
 Publish: yes
 Categories: skills, performance 
-Topics: online learning, High-performance computing (HPC), Performance at Leadership Computing Facilities, big data
+Topics: online learning, High-performance computing (HPC), Performance at Leadership Computing Facilities
 Tags: 
 Level: 2
 RSS update: 2021-01-07

@@ -61,7 +61,7 @@ The Minisymposium and Minisymposterium listed above as a part of *[SIAM CSE17](h
 <!---
 Publish: yes
 Categories: Planning, Reliability, Collaboration, Performance
-Topics: improving productivity and sustainability, configuration and builds, testing, documentation, software interoperability, strategies for more effective teams, big data
+Topics: improving productivity and sustainability, configuration and builds, testing, documentation, software interoperability, strategies for more effective teams
 Tags: event, poster
 Level: 2
 Prerequisites: defaults
