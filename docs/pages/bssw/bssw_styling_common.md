@@ -67,27 +67,33 @@ Several times, BSSw.io content will contain links to resources which are hosted 
 When bssw.io content contains links to resources which are hosted external to the bssw.io website, then those links have to be the absolute URL. 
 
 ## Handling images
-Images for content are stored in the main `bssw.io`repository in the `images/` subdirectory.
-To reference the images in the `*.md` article file, copy the image file is to the `images/` directory and then:
 
-- Add the relative path to the image file from the `*.md` file. 
-````
-<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>[optional caption]
-````
+From structural perspective, there are two types of images.  *Hero* images appear at the top of blog articles, and are also use to highlight the article in the [blog list](https://bssw.io/blog_posts) when it is newly published. *Body* images appear in the body of the article and are available in any article type.
+
+### General notes
+
 - Please ensure we have permission to use the logo/image
-- Please ensure logo is clear and high resolution
+- Please ensure image is clear and high resolution
 - Please remember to commit the image file with the `*.md` file on your git branch
-- Use the `logo` class to constrain the rendered size of the image.
-- Use the `page` class to prevent enlargement (recommended for horizontal images under 1000 px wide).
-- Use the `page lightbox` class for vertical images and images that have details that could be better viewed if the image were expanded to fill the screen.
 - Add an image credit as appropriate.
 - Captions are optional (and in general, mildly discouraged) and must immediately follow the img tag if used.
-
-Additional points about images and captions:
-
 - Captions should not include hyperlinks.  They are undesirable from the design standpoint: it disrupts reading the text (your eye jumps straight to the link) and any critical links would be best placed in the story itself.  Further, hyperlinks prevent the front-end from actually interpreting the caption as a caption.
-
 - If we are providing image credits that include links, it seems unnecessary to link to the image resource, especially if not a scientific source, even if the URL is part of the identifier. (For example, we did not to link to nasa.gov on the Apollo series since it is such a vast resource, we credited Image Source: NASA.)
+
+### Where to store images
+
+Images for bssw.io content are stored in the main `bssw.io` repository in the `images/` subdirectory.
+
+### Hero images
+
+Only blog articles use heros. 
+The hero immediately follows the title in the article's `*.md` file:
+
+```
+**Hero Image:**
+ 
+- <img src='../../images/YOUR-IMAGE-NAME.png' />
+```
 
 - Blog articles must have *either* a hero image or deck text.
 
@@ -95,9 +101,27 @@ Additional points about images and captions:
 
 - Hero image credits: We've come up with a way to lead the article but not detract from the lede paragraph by leading body text with image credits but shrinking them with a superscript tag. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2021-03-useful-practices-for-SEoMsDSP.md> (source) and <https://bssw.io/blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects> (rendered).
 
+### Body images
+
+Images can appear anywhere in the body of any type of article, but they should be used judiciously.  We do *not* use the normal Markdown specification for images.  Instead, use:
+
+````
+<br>
+<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>[optional caption]
+<br>
+````
+
+- All body images should include a `class` specification to ensure proper styling (details below).
+- The `<br>` tags should be included to ensure proper spacing around he image.
 - Body image captions: Body images can be esoteric or diagrammatic and often need clarification. We prefer to limit these to two sentences max, but that's not a hard rule. And as stated above, critical links should be in the body text.
 
-See  [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md) for additional details.
+### Use of image classes
+
+We can accommodate images of all shapes in the main text area and have come up with standard styles to allow them to appear appropriately alongside text content. You should define one of three different classes when you place your image tag. Not indicating a class will cause display problems.
+
+- Use the `logo` class for images like headshots or logos, to constrain then to a width of 202 px. (Logos with a horizontal orientation may scale quite small, portraits should be cropped to square proportions.)
+- Use the `page` class to ensure your image conforms to a 775 x 450 px proportion no matter its shape. Your image will appear bounded by a grey box.
+- Use the `page lightbox` class for vertical images, diagrams, or images with small details to present an image that can be expanded to fill the screen. (Not recommended for images under 1000 px wide.)
 
 ## Metadata Section
 
