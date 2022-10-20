@@ -35,6 +35,7 @@ This is deck text
 - No hyperlinks are allowed in the deck.
 - If text is used, then the deck contains one or atmost two sentences about the article which piques user interest.
 - Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
+- Blog articles must have *either* a hero image or deck text.
 
 ### Deck Attributes
 The deck section, of every content type, will *always* contain the following *mandatory deck attributes*. These mandatory deck attributes may have some specific guidelines for the different content types, and these guidelines can be found in the styling guides for that particular content type. In general, the mandatory deck attributes are: (1) title of the article, (2) author/contributor/organizer names, and (3) BSSw.io topics that the article falls under. 
@@ -69,15 +70,34 @@ When bssw.io content contains links to resources which are hosted external to th
 Images for content are stored in the main `bssw.io`repository in the `images/` subdirectory.
 To reference the images in the `*.md` article file, copy the image file is to the `images/` directory and then:
 
-- Add the relative path to the image file from the `*.md` file. Using the "logo" class helps constrain the size of the image.
+- Add the relative path to the image file from the `*.md` file. 
 ````
-<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>
+<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>[optional caption]
 ````
-- Please ensure we have permission to use the logo/image 
+- Please ensure we have permission to use the logo/image
 - Please ensure logo is clear and high resolution
 - Please remember to commit the image file with the `*.md` file on your git branch
+- Use the `logo` class to constrain the rendered size of the image.
+- Use the `page` class to prevent enlargement (recommended for horizontal images under 1000 px wide).
+- Use the `page lightbox` class for vertical images and images that have details that could be better viewed if the image were expanded to fill the screen.
+- Add an image credit as appropriate.
+- Captions are optional (and in general, mildly discouraged) and must immediately follow the img tag if used.
 
-See  [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md) for more details.
+Additional points about images and captions:
+
+- Captions should not include hyperlinks.  They are undesirable from the design standpoint: it disrupts reading the text (your eye jumps straight to the link) and any critical links would be best placed in the story itself.  Further, hyperlinks prevent the front-end from actually interpreting the caption as a caption.
+
+- If we are providing image credits that include links, it seems unnecessary to link to the image resource, especially if not a scientific source, even if the URL is part of the identifier. (For example, we did not to link to nasa.gov on the Apollo series since it is such a vast resource, we credited Image Source: NASA.)
+
+- Blog articles must have *either* a hero image or deck text.
+
+- Hero image captions: Many images are illustrative and self-explanatory or have tangential relevance to the article (e.g. data visualization) so a caption is unnecessary. With images that benefit from descriptions that provide insight into the BSSw activities or the rigorousness of the science we have added a sentence of text. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2020-11-PSIP4HDF5.md> (source) and <https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5> (rendered).
+
+- Hero image credits: We've come up with a way to lead the article but not detract from the lede paragraph by leading body text with image credits but shrinking them with a superscript tag. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2021-03-useful-practices-for-SEoMsDSP.md> (source) and <https://bssw.io/blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects> (rendered).
+
+- Body image captions: Body images can be esoteric or diagrammatic and often need clarification. We prefer to limit these to two sentences max, but that's not a hard rule. And as stated above, critical links should be in the body text.
+
+See  [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md) for additional details.
 
 ## Metadata Section
 
