@@ -120,7 +120,7 @@ Images can appear anywhere in the body of any type of article, but they should b
 ````
 
 - All body images should include a `class` specification to ensure proper styling (details below).
-- The `<br>` tags should be included to ensure proper spacing around he image.
+- The `<br>` tags should be included to ensure proper spacing around he image.  *Special case: if a heading immediately follows the image, omit the `<br>` tag after the image.*
 - Body image captions: Body images can be esoteric or diagrammatic and often need clarification. We prefer to limit these to two sentences max, but that's not a hard rule. And as stated above, critical links should be in the body text.
 
 ### Use of image classes
