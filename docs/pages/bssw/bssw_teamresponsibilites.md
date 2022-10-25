@@ -15,19 +15,19 @@ The BSSw.io editorial board (EB) is composed of senior editors and associate edi
 All BSSw.io EB members are expected to participate in some or all of the below activities related to content, operations, and outreach and sustainability. Across the three categories of participation, found below, we value having some EB members who participate in both content development and operations, so that we understand the impact of operations on content development.
 
 ### Content
+* Foster communications with the scientific community, contribute to assessing community needs, and engage with your professional networks to actively seek new authors and high-impact topics of interest. 
 * Actively participate in EB board content meetings.
 * Be an active member of the review process for BSSw.io content suggestions.
 * Follow the processes established by the team for content management and communication.
 * Contribute to defining and enhancing BSSw.io content-related editing processes.
 * Be responsive and provide feedback in a timely manner.
-* Foster communications with the scientific community, contribute to assessing community needs, and engage with your professional networks to actively seek new authors and high-impact topics of interest. 
 * Contribute content yourself.
 
 ### Operations
+* Provide input towards improvement of organization, functionality, maintenance, stability, and sustainability of the BSSw.io frontend and backend site.
 * Participate in EB board operations meetings.
 * Actively assist in defining processes for BSSw.io backend operations.
 * Provide assistance in interacting with BSSw.io site developers and designers.
-* Provide input towards improvement of organization, functionality, maintenance, stability, and sustainability of the BSSw.io frontend and backend site. 
 
 ### Outreach and Sustainability
 * Engage with the community to raise awareness of the site.
@@ -39,7 +39,7 @@ All BSSw.io EB members are expected to participate in some or all of the below a
 
 ## EB Board member behavioral expectations
 All EB members are expected to adhere to the following behavior policies: 
-1. Follow code of content for BSSw.io site
+1. Follow code of conduct for BSSw.io site
 2. Additional points for EB members:
    * Provide unbiased reviews, avoid conflicts of interest
    * Keep discussion focused on the scope of BSSw.io topics
