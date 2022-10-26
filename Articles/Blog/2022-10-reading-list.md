@@ -2,11 +2,11 @@
 
  **Hero Image:**
 
-  - <img src='../../images/Blog_2210_RSE.png' />
+  - <img src='../../images/Blog_2210_RSE.png' />[A false color image of the 'Beavertail' rock taken by the Mastcam-Z camera on the Mars Perseverance rover.  The decorrelation stretch technique was used to exaggerate the colors to allow easier differentiation of features.] 
 
 #### Contributed by: [Chase Million](https://github.com/cmillion)
 
-#### Publication date: October 26, 2022
+#### Publication date: October 27, 2022
 
 I do a lot of different things for work; it is part of what I enjoy most about what I do. The kind of work that I do has recently become known as "Research Software Engineering" (RSE). I previously referred to it as "I don't know, like, programming for science, I guess. A little bit of everything." It is a strange multitool of a job, and its boundaries are still being defined. But based on my experience, I think an ideal RSE would need to be (1) a fully qualified scientific researcher, (2) a full-stack software developer, and (3) a competent project manager. There are not yet really educational or career paths for RSEs (although [people are working to change that](https://us-rse.org/)). Many of us start with degrees in science or engineering but must then become both autodidacts and polymaths to fill in the gaps. I recommend the books below as entry points into some of the most critical skill sets for a RSE. These are books that I have not only read but _reread_, some of them many times. I reference many of them regularly, and my copies are filled with annotations and bookmarks. I have been recommending these books to my employees and mentees for several years, with the goal of jump-starting their professional development. My hope is that this will serve as something like a course reader for anybody on similar paths.
 
