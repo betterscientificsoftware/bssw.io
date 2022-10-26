@@ -2,7 +2,7 @@
 
  **Hero Image:**
 
-  - <img src='../../images/Blog_2210_RSE.png' />[A false color image of the 'Beavertail' rock taken by the Mastcam-Z camera on the Mars Perseverance rover.  The decorrelation stretch technique was used to exaggerate the colors to allow easier differentiation of features.] 
+  - <img src='../../images/Blog_2210_RSE.png' />[A false color image of the 'Beavertail' rock taken by the Mastcam-Z camera on the Mars Perseverance rover.] 
 
 #### Contributed by: [Chase Million](https://github.com/cmillion)
 
@@ -53,6 +53,10 @@ Latour was one of the founders of STS as a discipline, which makes this book als
 #### "digitalSTS: A Field Guide for Science & Technology Studies" edited by Janet Vertesi and David Ribes
 
 This is a collection of articles on topics related to the intersection of STS and "digital" aka “computers.”  The text is definitely not targeted at a broad audience, but boy is it ever useful and illuminating for research software engineers who necessarily operate in the liminal space between scientific research and software engineering.
+
+### Image information
+
+For more information about the image above and the processing technique, see <https://mastcamz.asu.edu/galleries/technicolor-beavertail/?back=%2Fmars-images%2Fteam-favorites%2F>.  The processing software that created this image was produced by Million Concepts.
 
 ### Author Bio
 
