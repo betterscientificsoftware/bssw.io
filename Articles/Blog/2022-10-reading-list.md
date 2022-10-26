@@ -8,11 +8,11 @@
 
 #### Publication date: October 26, 2022
 
-I do a lot of different things for work; it is part of what I enjoy most about what I do. The kind of work that I do has recently become known as "Research Software Engineering" (RSE). I previously referred to it as "I don't know, like, programming for science, I guess. A little bit of everything." It is a strange multitool of a job, and its boundaries are still being defined. But based on my experience, I think an ideal RSE would need to be (1) a fully qualified scientific researcher, (2) a full-stack software developer, and (3) a competent project manager. There are not yet really educational or career paths for RSEs (although [people are working to change that](https://us-rse.org/)). Many of us start with degrees in science or engineering, but must then become both autodidacts and polymaths to fill in the gaps. I recommend the books below as entry points into some of the most critical skill sets for a RSE. These are books that I have not only read but _reread_, some of them many times. I reference many of them regularly, and my copies are lousy with annotations and bookmarks. I have been recommending these books to my employees and mentees for several years, with the goal of jump-starting their professional development. My hope is that this will serve as something like a course reader for anybody on similar paths.
+I do a lot of different things for work; it is part of what I enjoy most about what I do. The kind of work that I do has recently become known as "Research Software Engineering" (RSE). I previously referred to it as "I don't know, like, programming for science, I guess. A little bit of everything." It is a strange multitool of a job, and its boundaries are still being defined. But based on my experience, I think an ideal RSE would need to be (1) a fully qualified scientific researcher, (2) a full-stack software developer, and (3) a competent project manager. There are not yet really educational or career paths for RSEs (although [people are working to change that](https://us-rse.org/)). Many of us start with degrees in science or engineering but must then become both autodidacts and polymaths to fill in the gaps. I recommend the books below as entry points into some of the most critical skill sets for a RSE. These are books that I have not only read but _reread_, some of them many times. I reference many of them regularly, and my copies are filled with annotations and bookmarks. I have been recommending these books to my employees and mentees for several years, with the goal of jump-starting their professional development. My hope is that this will serve as something like a course reader for anybody on similar paths.
 
 #### "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
 
-Most of the book's examples are in Java and it does often assume that you'll be writing object-oriented code, but without too much squinting, you’ll find that most of its points and lessons are applicable to any programming language or paradigm. (For example: when and what types of in-code comments are or are not useful.) Also, I think that the "agile" in the title refers more to the spirit of the original Agile Manifesto — of which Martin was a coauthor — than to any of the particular methodologies that have become basically synonymous with the term. So, again, the book is broadly applicable, and you should not avoid it just because you don't sprint your kanbans at the weekly standup or whatever.
+Most of the book's examples are in Java, and the text often assume that you'll be writing object-oriented code.  But without too much squinting, you’ll find that most of its points and lessons are applicable to any programming language or paradigm. (For example: when and what types of in-code comments are or are not useful.) Also, I think that the "agile" in the title refers more to the spirit of the original Agile Manifesto — of which Martin was a coauthor — than to any of the particular methodologies that have become basically synonymous with the term. So, again, the book is broadly applicable, and you should not avoid it just because you don't sprint your kanbans at the weekly standup or whatever.
 
 #### "Working Effectively with Legacy Code" by Michael Feathers
 
@@ -36,23 +36,23 @@ Regardless of your occupation, you will spend a great proportion of your working
 
 #### "Think Fast and Slow" by Daniel Kahneman
 
-This is a book about how people think and make decisions. It was a whirlwind best seller and won all the awards, and I feel like everyone has read it by now. But if you haven't: congratulations, [you're one of today's lucky ten thousand](https://xkcd.com/1053/)! It also has everything to do with software engineering. I am, as I write this, realizing the extraordinary extent to which the topics covered in this book overlap with nearly every other book on this list.
+This is a book about how people think and make decisions. It was a whirlwind best seller and won many awards, and I feel like everyone has read it by now. But if you haven't: congratulations, [you're one of today's lucky ten thousand](https://xkcd.com/1053/)! It also has everything to do with software engineering. I am, as I write this, realizing the extraordinary extent to which the topics covered in this book overlap with nearly every other book on this list.
 
 #### Everything by Edward Tufte
 
 You will also, in your career, need to make your arguments _visually_. Tufte's philosophies of graphical design are not the _only_ ones, but they are both good and very influential. Titles include **"Visual Explanations," "The Visual Display of Quantitative Information,"** and **"Beautiful Evidence."** I often flip through them just to gain some inspiration prior to constructing a high impact graphic. For example, I once made a poster that was [entirely composed of sparklines](https://millionconcepts.com/aas235.html). 
 
-#### "The Golem: What You Should Know About Science" by Harry Collins and Trevor  Pinch
+#### "The Golem: What You Should Know About Science" by Harry Collins and Trevor Pinch
 
 I feel quite strongly that, in scientific undertakings, all assumptions should be questioned, and that includes our assumptions _about the nature of science itself_. Unfortunately, the culture and norms of science for many of us are [like water to fish](https://www.youtube.com/watch?v=8CrOL-ydFMI), especially by the time we've navigated the scientific training gauntlet. Fortunately, there are fields and scientists who spend their careers interrogating the system — sociologists, historians, ethnographers, etc. in departments with names like "science and technology studies" (STS) — and they tend to write incredibly clear, engaging, and illuminating books about what they learn. "The Golem" is intended for a broad audience and is a good entry point into STS and ethnography of science.
 
 #### "Science In Action: How to Follow Scientists and Engineers Through Society" by Bruno Latour
 
-Latour was one of the founders of STS as a discipline, which makes this also a good entry point, although not aimed at as broad an audience. It contains many interesting ideas. It might not be right about everything — what is?! — but will probably induce you to think _differently_ about the work that you do.
+Latour was one of the founders of STS as a discipline, which makes this book also a good entry point, although not aimed at as broad an audience. The book contains many interesting ideas. It might not be right about everything — what is?! — but will probably induce you to think _differently_ about the work that you do.
 
 #### "digitalSTS: A Field Guide for Science & Technology Studies" edited by Janet Vertesi and David Ribes
 
-This is a collection of articles on topics related to the intersection of STS and "digital," aka “computers”. It's definitely not targeted at a broad audience, but boy is it ever useful and illuminating for research software engineers who necessarily operate in the liminal space between scientific research and software engineering.
+This is a collection of articles on topics related to the intersection of STS and "digital" aka “computers.”  The text is definitely not targeted at a broad audience, but boy is it ever useful and illuminating for research software engineers who necessarily operate in the liminal space between scientific research and software engineering.
 
 ### Author Bio
 
@@ -61,5 +61,5 @@ Chase Million is the founder and CEO of [Million Concepts](https://millionconcep
 <!---
 Publish: yes
 Pinned: no
-Topics: online learning
+Topics: online learning, software engineering
 --->
