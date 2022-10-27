@@ -44,7 +44,7 @@ Even with sufficient automation, this process increases continuous integration t
 
 A few specific examples will help illustrate the challenges.
 
-**Breaking public APIs**
+##### Breaking public APIs
 
 Without due care, scattered `#ifdef` switches can easily end up changing public APIs that downstream applications may depend on: extra parameters in functions, different class signatures and constructors, varying members, and so on.
 In the most common case in HPC, the change of the upstream option has to be mirrored 1:1 downstream with `#ifdef`s at call locations, because existing signatures are *changed*.
@@ -57,7 +57,7 @@ For example, the addition, removal, or change of member variables of public clas
 The website [ABI Laboratory](https://abi-laboratory.pro) summarizes more details on this topic.
 For examples that track potentially breaking ABI changes over time, see, for instance, [MPICH](https://abi-laboratory.pro/index.php?view=timeline&l=mpich), [Open MPI](https://abi-laboratory.pro/index.php?view=timeline&l=openmpi) and [c-blosc](https://abi-laboratory.pro/index.php?view=timeline&l=c-blosc).
 
-**The transitive MPI include**
+##### The transitive MPI include
 
 Adding transitive `#include`'s to third-party software in public APIs is one of the most common mistakes in HPC binary variant design.
 The problem can be exemplified as follows.
@@ -67,14 +67,14 @@ The third-party software can be built with MPI enabled and now introduces a comp
 The results include breaking builds, the need to communicate additional, potentially inaccurate (unused) dependencies, and breakage in most desktop package managers.
 A typical example is Debian and HDF5: one cannot install an MPI-parallel HDF5 package for development and the popular, serial HDFView package at the same time.
 
-**The unconditional MPI initialize (or expectation thereof)**
+##### The unconditional MPI initialize (or expectation thereof)
 
 This is a variation of the previous problem, which occurs at runtime as a result of an MPI binary variant.
 If the MPI-enabled variant of the software *expects* that an MPI context will always be provided (or can be established), this breaks serial — and non-MPI parallelized — software applications.
 
 One can make the same case for any other runtime that needs to be initialized or finalized, such as initialization of GPU devices or GPU streams.
 
-**On-node acceleration**
+##### On-node acceleration
 
 Going into more detail on the previous point, a cardinal pattern in HPC software is to define mutually exclusive binary patterns for the "acceleration backend" of software.
 Many single-source performance-portability implementations currently compile to exactly one on-node acceleration backend at a time.
@@ -125,7 +125,7 @@ With that capability, there are fewer modules to build, no environment switching
 
 <br>
 
-<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
+<img src='../../images/Blog_2209_SoftwareVariants_Spack.png' class='page lightbox' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
 
 ### Hands-on examples
 
