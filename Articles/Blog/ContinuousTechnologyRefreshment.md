@@ -21,7 +21,7 @@ we describe experiences and lessons learned refreshing several technologies
 * Wrangling binary content: Subversion to Git [Large File Support (LFS)](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs)
 * Revision control: [Subversion](http://visit.ilight.com/svn/visit) to [GitHub](https://github.com/visit-dav/visit)
 * Issue tracking: [Redmine](https://visitbugs.ornl.gov/projects/visit) to [GitHub Issues](https://github.com/visit-dav/visit/issues)
-* Documentation: [OpenOffice](https://wci.llnl.gov/simulation/computer-codes/visit/manuals) to
+* Documentation: OpenOffice to
   [Sphinx+ReadTheDocs](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/)
 * Other Refreshments Completed and Planned
 
