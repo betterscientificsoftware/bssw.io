@@ -66,28 +66,42 @@ Several times, BSSw.io content will contain links to resources which are hosted 
 
 When bssw.io content contains links to resources which are hosted external to the bssw.io website, then those links have to be the absolute URL. 
 
-## Handling images
-Images for content are stored in the main `bssw.io`repository in the `images/` subdirectory.
-To reference the images in the `*.md` article file, copy the image file is to the `images/` directory and then:
+## Link anchors for article sections
 
-- Add the relative path to the image file from the `*.md` file. 
-````
-<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>[optional caption]
-````
+As is often the case with Markdown processors, the one used in bssw,io generates anchors for sections headings other than the title (i.e., level 2 and higher headings, but not level 1).  This allows individual sections to be the targets of links, within the article or from outside the article or site.
+
+The anchors are the [slugified](https://en.wikipedia.org/wiki/Clean_URL#Slug) versions of the heading text: basically lowercase the text, remove all punctuation, and replace spaces with hyphens (`-`).
+
+A link to a section heading can be constructed by adding `#anchor-slug` to the page's URL, where `anchor-slug` is the slugified heading text.  To link to a section within the same article, you simply need to reference the anchor, as in `[see other section](#anchor-slug)`.
+
+## Handling images
+
+From structural perspective, there are two types of images.  *Hero* images appear at the top of blog articles, and are also use to highlight the article in the [blog list](https://bssw.io/blog_posts) when it is newly published. *Body* images appear in the body of the article and are available in any article type.
+
+### General notes
+
 - Please ensure we have permission to use the logo/image
-- Please ensure logo is clear and high resolution
+- Please ensure image is clear and high resolution
 - Please remember to commit the image file with the `*.md` file on your git branch
-- Use the `logo` class to constrain the rendered size of the image.
-- Use the `page` class to prevent enlargement (recommended for horizontal images under 1000 px wide).
-- Use the `page lightbox` class for vertical images and images that have details that could be better viewed if the image were expanded to fill the screen.
 - Add an image credit as appropriate.
 - Captions are optional (and in general, mildly discouraged) and must immediately follow the img tag if used.
-
-Additional points about images and captions:
-
 - Captions should not include hyperlinks.  They are undesirable from the design standpoint: it disrupts reading the text (your eye jumps straight to the link) and any critical links would be best placed in the story itself.  Further, hyperlinks prevent the front-end from actually interpreting the caption as a caption.
-
 - If we are providing image credits that include links, it seems unnecessary to link to the image resource, especially if not a scientific source, even if the URL is part of the identifier. (For example, we did not to link to nasa.gov on the Apollo series since it is such a vast resource, we credited Image Source: NASA.)
+
+### Where to store images
+
+Images for bssw.io content are stored in the main `bssw.io` repository in the `images/` subdirectory.
+
+### Hero images
+
+Only blog articles use heros. 
+The hero immediately follows the title in the article's `*.md` file:
+
+```
+**Hero Image:**
+ 
+- <img src='../../images/YOUR-IMAGE-NAME.png' />
+```
 
 - Blog articles must have *either* a hero image or deck text.
 
@@ -95,9 +109,27 @@ Additional points about images and captions:
 
 - Hero image credits: We've come up with a way to lead the article but not detract from the lede paragraph by leading body text with image credits but shrinking them with a superscript tag. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2021-03-useful-practices-for-SEoMsDSP.md> (source) and <https://bssw.io/blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects> (rendered).
 
+### Body images
+
+Images can appear anywhere in the body of any type of article, but they should be used judiciously.  We do *not* use the normal Markdown specification for images.  Instead, use:
+
+````
+<br>
+<img src='../../images/YOUR-IMAGE-NAME.png' class='logo'/>[optional caption]
+<br>
+````
+
+- All body images should include a `class` specification to ensure proper styling (details below).
+- The `<br>` tags should be included to ensure proper spacing around he image.  *Special case: if a heading immediately follows the image, omit the `<br>` tag after the image.*
 - Body image captions: Body images can be esoteric or diagrammatic and often need clarification. We prefer to limit these to two sentences max, but that's not a hard rule. And as stated above, critical links should be in the body text.
 
-See  [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md) for additional details.
+### Use of image classes
+
+We can accommodate images of all shapes in the main text area and have come up with standard styles to allow them to appear appropriately alongside text content. You should define one of three different classes when you place your image tag. Not indicating a class will cause display problems.
+
+- Use the `logo` class for images like headshots or logos, to constrain then to a width of 202 px. (Logos with a horizontal orientation may scale quite small, portraits should be cropped to square proportions.)
+- Use the `page` class to ensure your image conforms to a 775 x 450 px proportion no matter its shape. Your image will appear bounded by a grey box.
+- Use the `page lightbox` class for vertical images, diagrams, or images with small details to present an image that can be expanded to fill the screen. (Not recommended for images under 1000 px wide.)
 
 ## Metadata Section
 
@@ -122,21 +154,11 @@ This tool deals with Markdown differently in several ways compared to other comm
 It is important to know about these differences up front to avoid problems once the `*.md` files are previewed on preview.bssw.io and finally published to [bssw.io].
 Here, we list some of the major differences in how Markdown is handled that we currently know about.
 
-### Page name on bssw.io is generated from first section name
+### Page URL on bssw.io is generated from first the title
 
-The name of the page on the [bssw.io] site is derived from the first section name at the top of the `<base>.md` file and not the name of the `<base>.md` file itself. For example, the file `ATPESC.md` with the first section/title of `# Preparing the Next Generation of Supercomputer Users` is given the derived page name `preparing-the-next-generation-of-supercomputer-users` on the bssw.io site and the file name `ATPESC.md` is ignored.
-This can cause conflicts when two or more different `*.md` files have different names in the bssw.io GitHub repository but have the same title because these would map into the same translated page name on the bssw.io site and causes undefined behavior.
-(Please note that simply having the name of the `*.md` file match the title using some convention does not guarantee the avoidance of a conflict.
-That is, files in different subdirectories with the same name and same title will not cause any problems with Git, GitHub, or GitHub Pages, but can result in a conflict with the bssw.io site generator.
-But note that the one exception is that blog files, which are stored in the `Articles/Blog/` directory, are displayed under the URL `https://bssw.io/blog_posts/`, while all other content files are displayed under the URL `https://bssw.io/items/`.)
-
-### Section links are not supported
-
-Where most standard Markdown renderers will create a internal link for (sub)section headers, the bssw.io site generator will not.
-For example, the section name `## Nonstandard handling of Markdown` would typically trigger the creation of the HTML anchor `nonstandard-handling-of-markdown` which allows referring to that section using references like `[nonstandard handling](#nonstandard-handling-of-markdown)` (on the same page).
-But the bssw.io site generator will not create these section anchors.
-To get around this problem, one can manually add an anchor like `<a name="nonstandard-handling-of-markdown"></a>` directly above the section `## Nonstandard handling of Markdown` in the `*.md` file and then links to `#nonstandard-handling-of-markdown` will work.
-(NOTE: This also works with the GitHub Markdown renderer as well and does not create a conflict.)
+The URL of the page on the bssw.io site is the "slugified" text of the title (level 1 section heading) in the article.md file.  The [slug](https://en.wikipedia.org/wiki/Clean_URL#Slug) is basically the lowercase version of the text with the punctuation removed and hyphens (`-`) replacing spaces.
+For example, the file `ATPESC.md` with the title `# Preparing the Next Generation of Supercomputer Users` is given, the slug `preparing-the-next-generation-of-supercomputer-users` will be used in the URL on the bssw.io site.
+When the same title occurs in multiple articles on bssw.io, a random character string is appended to the slug to ensure uniqueness.
 
 ### Words with two underscores become *emphasis* markers
 
@@ -156,7 +178,9 @@ It seems that the column widths in this table could be compressed to easily fit 
 
 NOTE: We will add more examples of nonstandard handling of Markdown in the future as we discover them.
 
+### Images should not use Markdown syntax
 
+As [detailed above](#handling-images), bssw.io uses different syntax for images.
 
 ## Updating/re-publishing published articles
 
