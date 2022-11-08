@@ -83,8 +83,7 @@ communicating through our [website](http://urssi.us) and a [series of newsletter
 ### Get involved!
 We welcome members of the BSSw community to join us, both to help us determine how to proceed and to directly
 contribute. Please
-[sign up for our mailing list](https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d),
-[contribute to our discussions](https://discuss.urssi.us), and potentially publish a
+[sign up for our mailing list](https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d), contribute to our discussions, and potentially publish a
 guest [blog post](http://urssi.us/blog/) with us on a topic around software sustainability.
 
 
