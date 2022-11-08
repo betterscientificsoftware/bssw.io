@@ -20,7 +20,7 @@ involved technology refresh can be. Using recent work for a major release of
 we describe experiences and lessons learned refreshing several technologies
 * Wrangling binary content: Subversion to Git [Large File Support (LFS)](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs)
 * Revision control: Subversion to [GitHub](https://github.com/visit-dav/visit)
-* Issue tracking: [Redmine](https://visitbugs.ornl.gov/projects/visit) to [GitHub Issues](https://github.com/visit-dav/visit/issues)
+* Issue tracking: Redmine to [GitHub Issues](https://github.com/visit-dav/visit/issues)
 * Documentation: OpenOffice to
   [Sphinx+ReadTheDocs](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/)
 * Other Refreshments Completed and Planned
