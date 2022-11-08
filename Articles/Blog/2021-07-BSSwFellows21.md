@@ -57,7 +57,7 @@ BSSw Fellow Damian Rouson developed and taught agile scientific software develop
 </div>    
   
 <div class='short_bio'>
-<p><a href="https://crd.lbl.gov/departments/computer-science/class/members/group-lead/damian-rouson/">Damian</a> is the group leader of the Computational Research Division’s Computer Languages & Systems Software group at Berkeley Lab.  His fellowship work was conducted when he was a research engineer and member of the Advisory Board of <a href="https://shinstitute.org/">Sustainable Horizons Institute</a>. He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the <a href="http://www.sourceryinstitute.org/">Sourcery Institute</a>.<p>
+<p><a href="https://crd.lbl.gov/divisions/amcr/computer-science-amcr/class/members/group-lead/damian-rouson/">Damian</a> is the group leader of the Computational Research Division’s Computer Languages & Systems Software group at Berkeley Lab.  His fellowship work was conducted when he was a research engineer and member of the Advisory Board of <a href="https://shinstitute.org/">Sustainable Horizons Institute</a>. He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the <a href="http://www.sourceryinstitute.org/">Sourcery Institute</a>.<p>
 </div>  
 </div>
 
