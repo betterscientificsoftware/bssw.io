@@ -7,7 +7,7 @@ Debugging in a well-known, important concept while developing software - discuss
 <!--body start--->
 Defects in software (e.g. _bugs_) can take many forms. Defects are generally described as causing
 unexpected or unintended behavior including outright crashes, incorrect or invalid
-results, missing or disabled functionality and unexpected [_time and/or space performance_](http://www.leda-tutorial.org/en/official/ch02s02s03.html).
+results, missing or disabled functionality and unexpected time and/or space performance. <!-- [_time and/or space performance_](http://www.leda-tutorial.org/en/official/ch02s02s03.html). -->
 
 The _first_ most important step in debugging is to develop a _reproducer_. That is, the _recipe_
 by which the defective behavior can be reliably observed. It is common for a defect to manifest

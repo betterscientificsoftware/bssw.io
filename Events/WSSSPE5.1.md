@@ -13,7 +13,7 @@ WSSSPE promotes sustainable research software by addressing challenges related t
 
 WSSSPE5.1 aims to capture the state of the art in sustainable research software, discuss ongoing efforts to improve it, and identify potential topics to act upon. The workshop will report updates on and evaluations of present efforts from the community, including Working Groups established at past workshops, and suggest and discuss future measures. In order to provide short-term documentation, WSSSPE5.1 will produce a series of speed blogs in addition to the workshop report.
 
-WSSSPE5.1 immediately precedes and cis o-located with the [2nd RSE Conference](http://rse.ac.uk/conf2017/).
+WSSSPE5.1 immediately precedes and cis o-located with the [RSE2017 Conference](https://www.software.ac.uk/blog/2018-01-11-rse-2017-conference).
 
 #### Contributed by [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 

@@ -210,7 +210,7 @@ Aggregate: none
 [18-sfer-ezikiw]: https://en.wikipedia.org/wiki/Fairchild_Semiconductor "Historical Note about Fairchild Semiconductor"
 [19-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design"
 [20-sfer-ezikiw]: https://www.ornl.gov/news/ornl-launches-summit-supercomputer "ORNL Launch of Summit"
-[21-sfer-ezikiw]: https://www.top500.org/green500/list/2018/11/ "Top Green 500 List, November 2018"
+[21-sfer-ezikiw]: https://www.top500.org/lists/green500/2018/11/ "Top Green 500 List, November 2018"
 [22-sfer-ezikiw]: https://en.wikipedia.org/wiki/ILLIAC_IV "Description of Illiac IV"
 [23-sfer-ezikiw]: https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing "Jacquard Loom & Computing"
 [24-sfer-ezikiw]: https://hpc.llnl.gov/hardware/platforms/sierra "LLNL Description of Sierra"
@@ -286,7 +286,7 @@ Aggregate: none
 * <a name="sfer-ezikiw-18"></a><sup>18</sup>[Historical Note about Fairchild Semiconductor](https://en.wikipedia.org/wiki/Fairchild_Semiconductor)
 * <a name="sfer-ezikiw-19"></a><sup>19</sup>[AGC Restart System Design](https://www.ibiblio.org/apollo/hrst/archive/1033.pdf)
 * <a name="sfer-ezikiw-20"></a><sup>20</sup>[ORNL Launch of Summit](https://www.ornl.gov/news/ornl-launches-summit-supercomputer)
-* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Top Green 500 List, November 2018](https://www.top500.org/green500/list/2018/11/)
+* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Top Green 500 List, November 2018](https://www.top500.org/lists/green500/2018/11/)
 * <a name="sfer-ezikiw-22"></a><sup>22</sup>[Description of Illiac IV](https://en.wikipedia.org/wiki/ILLIAC_IV)
 * <a name="sfer-ezikiw-23"></a><sup>23</sup>[Jacquard Loom & Computing](https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing)
 * <a name="sfer-ezikiw-24"></a><sup>24</sup>[LLNL Description of Sierra](https://hpc.llnl.gov/hardware/platforms/sierra)

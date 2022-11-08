@@ -53,7 +53,7 @@ Focus | Collaboration
 
 Resource information | Details
 :--- | :---
-Article title | [Terminology, Power and Oppressive Language](https://tools.ietf.org/id/draft-knodel-terminology-00.html)
+Article title | [Terminology, Power and Oppressive Language](https://datatracker.ietf.org/doc/html/draft-knodel-terminology-00)
 Authors | Mallory Knodel and Niels ten Oever
 Focus | Best practices
 
@@ -160,7 +160,7 @@ The *InterNational Committee for Information Technology Standards (INCITS)* rece
 Resource information | Details
 :--- | :---
 Resource name | IETF Terminology, Power and Inclusive Language
-Website | https://tools.ietf.org/id/draft-knodel-terminology-02.html
+Website | https://datatracker.ietf.org/doc/draft-knodel-terminology/
 Focus | Best Practices
 
 The *Internet Engineering Task Force (IETF)* has published this resource to recommend language used in *Request For Comment (RFC)* communications.
