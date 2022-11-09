@@ -2,7 +2,7 @@
 
 #### Contributed by: [Amy Roberts](https://github.com/pibion)
 
-#### Publication date: November 14, 2022
+#### Publication date: November 9, 2022
 
 <!-- deck start -->
 Opening up software development to a broader community means we need to offer more diverse approaches to learning the tools. BSSw Fellow Amy Roberts is developing illustrated stories to explain essential operations in the git version control tool.
