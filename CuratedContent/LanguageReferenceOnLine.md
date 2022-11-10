@@ -49,7 +49,7 @@ Sometimes whether a technology is considered a *language extension* or an *API* 
 In addition, we cover a handful of other programming technologies commonly encountered when contributing to HPC/CSE code projects.
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
-:--- | :---: | ---:
+:---: | :---: | ---:
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Formal Language Specifications and Standards**</td></tr>
 C | [89][c89-spec]/[99][c99-spec]/[11][c11-spec]/[18][c18-spec] | ([1][1])
 C++ | [03][c++03-spec]/[11][c++11-spec]/[14][c++14-spec]/[17][c++17-spec]/[20][c++20-spec] | ([1][1])
@@ -68,10 +68,30 @@ Python | [2][py2]/[3][py3] |([3][3])
 C | [Gen][c-stdlib-0]/[GNU][c-stdlib-gnu]/[LLVM][c-stdlib-llvm]/[MS][c-stdlib-ms]/[IBM][c-stdlib-ibm] | |
 C++ | [Gen][c++-stdlib-0]/[GNU][c++-stdlib-gnu]/[LLVM][c++-stdlib-llvm]/[MS][c++-stdlib-ms]/[IBM][c++-stdlib-ibm] | |
 Fortran | [0.2.1][f-stdlib-0.2.1] | ([5][5])
-Python | [2.7][py-stdlib-2.7]/[3.8][py-stdlib-3.8] | |
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Standard Library Implementations**</td></tr>
-C | https://en.wikipedia.org/wiki/C_standard_library#Implementations | |
-C++ | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Implementations |
+Python | [2][py-stdlib-2]/[3][py-stdlib-3] | |
+Implementations | [C][imp-stdlib-c]/[C++][imp-stdlib-c++] | |
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Parallelism**</td></tr>
+Shared Mem | [PThreads][smpar-pthreads]/[TBB][smpar-tbb]/[C++MT][smpar-c++mt]<br>[Cuda][smpar-cuda]/[HIP][smpar-hip] | |
+Distrib Mem | MPICH-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0]/OpenMPI-[2.1][dmpar-ompi-2.1],[3.1][dmpar-ompi-3.1],[4.1][dmpar-ompi-4.1] | |
+Data (SIMD) | [C++-17][pparc-stl]/[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
+Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion]/[Chapel][ppard-chapel]||
+I/O | [Posix][api-posixio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]/[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
+File tansfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][][HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**APIs and Tools**</td></tr>
+Login shells | [bash][api-bash]/[zsh][api-zsh]/[tcsh][api-tcsh]/[ksh][api-ksh]
+Secure<br>connectivity | [ssh][api-ssh]/[vpn][api-vpn]
+System | [linux][api-sys-linux]/[POSIX][api-sys-posix] | |
+Python | C/C++-Ext-[2][api-pyc-2],[3][api-pyc-3]/[NumPy][api-py-numpy] | |
+Build | [make][api-make]/[gmake][api-gmake]/[AutoTools][api-autotools]/[CMake][api-cmake]/[Spack][api-spack]
+Test | [ctest][api-ctest]/[GoogleTest][api-gtest] 
+Meta data | [Yaml][api-yaml]/[Json][api-json]/[XML][api-xml]
+Raw data | [HDF5][api-hdf5]/[netCDF][api-netcdf]/[CGNS][api-cgns]/[Conduit+Blueprint][api-conduit]
+Documentation | [LaTex][api-latex]/[GFM][api-gfm]/[reST][api-rest]/[Doxygen][api-doxygen]/[ReadTheDocs][api-rtd]/[GHPages][api-ghpages]
+Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[GitHub][api-github]
+Debugging |
+Performance<br>tuning
+Compression
+
 
 [//]: # (Table footnotes. Text is dup'd for rendered HTML and balloon help)
 
@@ -175,45 +195,129 @@ C++ | https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Implementations |
 [c++-stdlib-ms]: https://docs.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
 [c-stdlib-ibm]: https://www.ibm.com/docs/en/i/7.3?topic=c-ile-cc-runtime-library-functions
 [c++-stdlib-ibm]: https://www.ibm.com/docs/en/i/7.3?topic=c-ile-cc-runtime-library-functions
-[py-stdlib-2.7]: https://docs.python.org/2.7/library/
-[py-stdlib-3.8]: https://docs.python.org/3.8/library/
+[py-stdlib-2]: https://docs.python.org/2.7/library/
+[py-stdlib-3]: https://docs.python.org/3.8/library/
 [f-stdlib-0.2.1]: https://github.com/fortran-lang/stdlib
+[imp-stdlib-c]: https://en.wikipedia.org/wiki/C_standard_library#Implementations
+[imp-stdlib-c++]: https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Implementations
 
-### Make, GNU Make 
+[//]: # (Shared Memory Parallelism)
 
-* [GMake Language Reference](https://www.gnu.org/software/make/manual/make.html)
-* [Make Cheat Sheet](https://devhints.io/makefile)
-* [GMake Cheat Sheet](https://gist.github.com/rueycheng/42e355d1480fd7a33ee81c866c7fdf78)
-* [O'Reilly Managing Projects with GNU Make](https://www.oreilly.com/library/view/managing-projects-with/0596006101/)
+[smpar-pthreads]: https://hpc-tutorials.llnl.gov/posix/AppendixA/
+[smpar-tbb]: https://spec.oneapi.io/versions/latest/elements/oneTBB/source/nested-index.html
+[smpar-c++mt]: https://cplusplus.com/reference/multithreading/
+[smpar-cuda]: https://docs.nvidia.com/cuda/cuda-runtime-api/index.html
+[smpar-hip]: https://github.com/RadeonOpenCompute/ROCm/raw/rocm-4.5.2/AMD_HIP_Programming_Guide.pdf
+[smpar-omp-3.1]: https://www.openmp.org/wp-content/uploads/OpenMP3.1.pdf
+[smpar-omp-4.5]: https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf
+[smpar-omp-5.2]: https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-5-2.pdf
+[smpar-openacc]: https://www.openacc.org/sites/default/files/inline-files/openacc-guide.pdf
 
-### CMake, Autoconf
+[//]: # (Distributed Memory Parallelism)
 
-* [CMake Reference Manual](https://cmake.org/cmake/help/latest/index.html)
-* [Autoconf Manual](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.71/autoconf.html)
+[dmpar-mpi-1.3]: https://www.mpi-forum.org/docs/mpi-1.3/mpi-report-1.3-2008-05-30.pdf
+[dmpar-mpi-2.2]: https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf
+[dmpar-mpi-3.1]: https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf
+[dmpar-mpi-4.0]: https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf
+[dmpar-ompi-4.1]: https://www.open-mpi.org/doc/v4.1/
+[dmpar-ompi-4.0]: https://www.open-mpi.org/doc/v4.0/
+[dmpar-ompi-3.1]: https://www.open-mpi.org/doc/v3.1/
+[dmpar-ompi-2.1]: https://www.open-mpi.org/doc/v2.1/
 
-### Performance Portability
+[//]: # (Portable Parallelism via Abstract Code)
 
-* [Kokkos](https://github.com/kokkos/kokkos/wiki/API-Reference)
-* [Raja](https://raja.readthedocs.io/en/develop/sphinx/user_guide/index.html)
+[pparc-stl]: https://en.cppreference.com/w/cpp/experimental/parallelism
+[pparc-thrust]: https://thrust.github.io/doc/modules.html
+[pparc-raja]: https://raja.readthedocs.io/en/develop/sphinx/user_guide/index.html
+[pparc-sycl]: https://sycl.readthedocs.io/en/latest/
+[pparc-rocm]: https://rocmdocs.amd.com/_/downloads/en/latest/pdf/
 
-### Commonly used APIs
+[//]: # (Portable Parallelism via Abstract Data)
 
-* MPI API Specification [1.3](https://www.mpi-forum.org/docs/mpi-1.3/mpi-report-1.3-2008-05-30.pdf), [2.2](https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf), [3.1](https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf), [4.0](https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf)
-* OpenMP: [3.1](https://www.openmp.org/wp-content/uploads/OpenMP3.1.pdf), [4.5](https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf), [5.2](https://www.openmp.org/wp-content/uploads/OpenMP-API-Specification-5-2.pdf)
-* [POSIX Threads (Pthreads)](https://hpc-tutorials.llnl.gov/posix/AppendixA/)
-* [Cuda](https://docs.nvidia.com/cuda/cuda-runtime-api/index.html)
-* [Linux System Calls](https://man7.org/linux/man-pages/man2/syscalls.2.html)
-* [Posix System Calls](https://docs.oracle.com/cd/E19048-01/chorus4/806-3328/6jcg1bm05/index.html)
+[ppard-kokkos]: https://kokkos.org/programming-guide/
+[ppard-ga]: https://hpc.pnl.gov/globalarrays/documentation.shtml
+[ppard-legion]: https://legion.stanford.edu/pdfs/legion-manual.pdf
+[ppard-charm++]: https://charm.readthedocs.io/en/latest/charm++/manual.html
+[ppard-chapel]: https://chapel-lang.org/docs/language/spec/index.html
 
-### Login shells
+[//]: # (Commonly used APIs)
 
-* [csh language reference](https://www.mkssoftware.com/docs/man1/csh.1.asp)
-* [sh language reference](https://pubs.opengroup.org/onlinepubs/009604499/utilities/xcu_chap02.html)
-* [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html)
+[api-pyc-2]: https://docs.python.org/2.7/extending/extending.html 
+[api-pyc-3]: https://docs.python.org/3.10/extending/extending.html
+[api-py-numpy]: https://numpy.org/doc/stable/reference/index.html#reference
+[api-sys-linux]: https://man7.org/linux/man-pages/man2/syscalls.2.html
+[api-sys-posix]: https://docs.oracle.com/cd/E19048-01/chorus4/806-3328/6jcg1bm05/index.html
+[api-posixio]: https://www.gnu.org/software/libc/manual/html_mono/libc.html#I_002fO-Overview
+[api-hdf5-1.12]: https://docs.hdfgroup.org/hdf5/v1_12/index.html
+[api-lustre]: https://doc.lustre.org/lustre_manual.xhtml#file_striping.lfs_setstripe
+[api-gpfs]: https://www.ibm.com/docs/en/STXKQY_5.1.5/pdf/scale_cpr.pdf
+[api-daos]: https://docs.daos.io/v2.2/user/workflow/
+[api-adios]: https://adios2.readthedocs.io/en/latest/
+[api-pnetcdf]: https://parallel-netcdf.github.io/wiki/Documentation.html
+[api-mpiio]: https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf?#page=683
 
-Boost, POSIX
+[api-sftp]: https://access.redhat.com/articles/5594481
+[api-scp]: https://www.computerhope.com/unix/scp.htm
 
-https://charmplusplus.org
+[api-hpss]: https://www.hpss-collaboration.org/documents/HPSS_7.5.3_Users_Guide.pdf?#page=9
+[api-gdrive]: https://support.google.com/a/users/answer/9282958?hl=en
+[api-globus]: https://docs.globus.org/cli/
+
+
+[api-zsh]: https://zsh.sourceforge.io/Guide/zshguide.html
+[api-bash]: https://www.gnu.org/software/bash/manual/bash.html
+[api-ksh]: https://docs.oracle.com/cd/E36784_01/html/E36870/ksh-1.html
+[api-tcsh]: https://linux.die.net/man/1/tcsh
+
+[api-ssh]: https://man.openbsd.org/ssh
+[api-vpn]: https://en.wikipedia.org/wiki/Virtual_private_network
+
+[api-make]: https://man7.org/linux/man-pages/man1/make.1p.html
+[api-gmake]: https://www.gnu.org/software/make/manual/make.html
+[api-cmake]: https://cmake.org/cmake/help/latest/
+[api-spack]: https://spack.readthedocs.io/en/latest/
+[api-autotools]: https://www.lrde.epita.fr/~adl/autotools.html
+
+[api-ctest]: https://cmake.org/cmake/help/latest/manual/ctest.1.html
+[api-gtest]: https://google.github.io/googletest/
+
+[api-yaml]: https://yaml.org/spec/1.2.2/
+[api-json]: https://www.json.org/json-en.html
+[api-xml]: https://www.w3.org/TR/xml/
+
+[api-hdf5]: https://docs.hdfgroup.org/hdf5/v1_12/_r_m.html
+[api-netcdf]: https://docs.unidata.ucar.edu/nug/current/
+[api-cgns]: https://cgns.github.io/CGNS_docs_current/user/index.html
+[api-conduit]: https://llnl-conduit.readthedocs.io/en/latest/blueprint.html
+
+[api-latex]: https://www.latex-project.org/help/documentation/
+[api-gfm]: https://www.markdownguide.org/tools/github-pages/
+[api-rest]: https://docutils.sourceforge.io/rst.html
+[api-doxygen]: https://www.doxygen.nl/manual/
+[api-rtd]: https://docs.readthedocs.io/en/stable/tutorial/
+[api-ghpages]: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+
+[api-git]: https://git-scm.com/docs/user-manual
+[api-svn]: https://svnbook.red-bean.com
+[api-gitlab]: https://docs.gitlab.com
+[api-github]: https://docs.github.com/en
+
+Debugging |
+
+Boost, POSIX, parallel C++
+
+compiler directives (pragmas)
+
+Batch computing
+MOAB, toss,
+
+tools: valgrind, gdb,
+
+
+https://snapshooter.com/learn/linux/copy-files-scp
+https://phoenixnap.com/kb/linux-scp-command
+https://www.jscape.com/blog/linux-scp-example
+https://sixcolors.com/post/2019/04/seeing-a-black-hole-with-half-a-ton-of-hard-drives/
 
 <!---
 Publish: no
