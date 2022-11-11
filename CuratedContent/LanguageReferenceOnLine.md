@@ -319,6 +319,6 @@ Batch<br>jobs | [Cobalt][api-cobalt]/[Slurm][api-slurm]/[Moab][api-moab]
 
 
 <!---
-Publish: no
+Publish: Yes
 Pinned: no
 --->
