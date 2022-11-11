@@ -23,6 +23,8 @@ RSS update: 2020-12-17
 
 Please note above:
 * The use of `<!--- --->` surrounding the metadata.
+  * **Note:** This is an XML comment **with an extra dash**.
+    **Three** dashes are required for the metadata block to be recognized.
 * Each metadata parameter is on a separate line.
 * Please follow the rules of use colon and commas as specified above. Letter case does not matter.
 

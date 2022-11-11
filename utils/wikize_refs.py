@@ -221,21 +221,52 @@ def broken_link(x, timeout=20):
     except:
         return True
 
+def diff_and_keep_sorted(l1, l2):
+    """Difference two lists. If result is all ints, sort numerically.
+       Otherwise sort lexicographically."""
+
+    l1s = set(l1)
+    l2s = set(l2)
+    d = l1s - l2s
+    try:
+        dint = sorted([int(x) for x in d])
+        dret = [str(x) for x in dint]
+        return dret
+    except:
+        pass
+    return sorted(list(d))
+
 def has_smart_curly_quotes(line):
 
-    left_double = '\xe2\x80\x9c'
-    right_double = '\xe2\x80\x9d'
-    left_single = '\xe2\x80\x98'
-    right_single = '\xe2\x80\x99'
+    try: # python3 way
+        left_double = u"\u201c"
+        right_double = u"\u201d"
+        left_single = u"\u2018"
+        right_single = u"\u2019"
 
-    if left_double in line:
-        return True
-    if right_double in line:
-        return True
-    if left_single in line:
-        return True
-    if right_single in line:
-        return True
+        if left_double in line:
+            return True
+        if right_double in line:
+            return True
+        if left_single in line:
+            return True
+        if right_single in line:
+            return True
+
+    except: # python2 way
+        left_double = '\xe2\x80\x9c'
+        right_double = '\xe2\x80\x9d'
+        left_single = '\xe2\x80\x98'
+        right_single = '\xe2\x80\x99'
+
+        if left_double in line:
+            return True
+        if right_double in line:
+            return True
+        if left_single in line:
+            return True
+        if right_single in line:
+            return True
 
     return False
 
@@ -418,14 +449,14 @@ def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
         - Ensure URL targets exist
     """
     ref_handles = set(ref_map.keys())
-    missing_refs = fn_handles - ref_handles
+    missing_refs = diff_and_keep_sorted(fn_handles, ref_handles)
     if missing_refs:
         message("Some footnotes never appear in the references%s...\n%s"%
-            ("\nmaybe they will resolve in a linkdef database" if has_lddbs else "", str(list(missing_refs))))
+            ("\nmaybe they will resolve in a linkdef database" if has_lddbs else "", str(missing_refs)))
 
-    missing_fns = ref_handles - fn_handles
+    missing_fns = diff_and_keep_sorted(ref_handles, fn_handles)
     if missing_fns:
-        message("Some references never appear in a footnote...\n%s"%str(list(missing_fns)))
+        message("Some references never appear in a footnote...\n%s"%str((missing_fns)))
 
     # Check linkdef lines for smart quotes
     for k in sorted(file_lines):
@@ -478,7 +509,7 @@ def resolve_missing_refs(missing_refs, ref_map, lddbs):
                 ref_map[x] = [lddb_ref_map[x][0], lddb_ref_map[x][1], lddb_ref_map[x][2]]
                 ref_map[x].append(len(ref_map))
                 found_refs += [x]
-        missing_refs = missing_refs - set(found_refs)
+        missing_refs = diff_and_keep_sorted(missing_refs, found_refs)
         if not missing_refs:
             break 
 
@@ -523,17 +554,17 @@ def build_main_content(file_lines, ref_map, renumber, gather_linkdefs):
             # filter in the last step.
             fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns1:
-                line = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%(ref_map[fn][3]+renumber), line)
+                line = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%(ref_map[fn][3]+renumber-1), line)
             fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns2:
                 line = re.sub("<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]),
                              "<pus>[%d],[%d]</pus>"%\
-                             (ref_map[fn[0]][3]+renumber, ref_map[fn[1]][3]+renumber), line)
+                             (ref_map[fn[0]][3]+renumber-1, ref_map[fn[1]][3]+renumber-1), line)
             fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns3:
                 line = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]),
                              "<pus>[%d],[%d],[%d]</pus>"%\
-                             (ref_map[fn[0]][3]+renumber,ref_map[fn[1]][3]+renumber,ref_map[fn[2]][3]+renumber), line)
+                             (ref_map[fn[0]][3]+renumber-1,ref_map[fn[1]][3]+renumber-1,ref_map[fn[2]][3]+renumber-1), line)
             line = re.sub("<pus>","<sup>", line)
             line = re.sub("</pus>","</sup>", line)
             outlines += [line]
@@ -569,7 +600,7 @@ def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
     if remapped_ref_map:
         for k,v in sorted(remapped_ref_map.items()):
             if renumber:
-                outlines.append("[%d]: #%s-%d %s\n"%(k+renumber, magic(), k+renumber, "\"%s\""%v[1] if v[1] else ""))
+                outlines.append("[%d]: #%s-%d %s\n"%(k+renumber-1, magic(), k+renumber-1, "\"%s\""%v[1] if v[1] else ""))
             else:
                 outlines.append("[%s]: #%s-%s %s\n"%(v[3], magic(), v[3], "\"%s\""%v[1] if v[1] else ""))
 
@@ -592,12 +623,12 @@ def build_reference_list_lines(remapped_ref_map, renumber, twocol):
         except: # If sorting as ints fails, sort "normally".
             sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
         i = 0
-        halfway = len(sorted_map) / 2
+        halfway = int(len(sorted_map) / 2)
         if twocol:
             outlines.append('<div class="references-wrapper">\n')
             outlines.append('<div class="references">\n')
         for k,v in sorted_map:
-            v3 = k+renumber if renumber else v[3]
+            v3 = k+renumber-1 if renumber else v[3]
             if v[1] and v[2]: # both title and bibinfo exist
                 if twocol:
                     outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s<br>%s</a>\n"%(v3, magic(), v3, v[0], v[1], v[2]))

@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2022-04-28*
+*Listed in reverse chronological order. Last updated: 2022-10-13*
 
 
 
@@ -38,6 +38,54 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Investing in Code Reviews for Better Research Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar068), Thibault Lestang (Imperial College London), Dominik Krzemiński (University of Cambridge),  and Valerio Maggio (Software Sustainability Institute), 2022-10-12
+
+
+
+
+
+
+
+- [*Software Packaging*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar067), David Rogers (Oak Ridge National Laboratory), 2022-09-07
+
+
+
+
+
+
+
+- [*Effective Strategies for Writing Proposal Work Plans for Research Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar066), Chase Million (Million Concepts), 2022-08-10
+
+
+
+
+
+
+
+- [*Growing preCICE from an as-is Coupling Library to a Sustainable, Batteries-included Ecosystem*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar065), Gerasimos Chourdakis (Technical University of Munich), 2022-07-06
+
+
+
+
+
+
+
+- [*Normalizing Inclusion by Embracing Difference*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar064), Mary Ann Leung (Sustainable Horizons Institute), 2022-06-15
+
+
+
+
+
+
+
+- [*Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063), Marisol Garcia-Reyes (Farallon Institute), 2022-05-11
 
 
 
@@ -293,7 +341,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>), 2019-07-17
+- [*When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark C. Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>), 2019-07-17
 
 
 
@@ -413,15 +461,15 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Scientific Software Development with Eclipse*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Greg Watson (Oak Ridge National Laboratory), 2018-03-28
-
-
-
-
-
-
-
 - [*Jupyter and HPC: Current State and Future Roadmap*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Matthias Bussonnier (UC Berkeley), Suhas Somnath (Oak Ridge National Laboratory),  and Shreyas Cholia (National Energy Research Scientific Computing Center), 2018-02-28
+
+
+
+
+
+
+
+- [*Scientific Software Development with Eclipse*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Greg Watson (Oak Ridge National Laboratory), 2018-03-28
 
 
 
@@ -537,7 +585,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2022-04-28
+#### Publication date: 2022-10-13
 
 <!---
 Publish: yes

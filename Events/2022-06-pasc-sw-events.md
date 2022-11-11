@@ -2,7 +2,7 @@
 
 The PASC Conference series is an international and interdisciplinary platform for the exchange of knowledge in scientific computing and computational science with a strong focus on methods, tools, algorithms, application challenges, and novel techniques and usage of high performance computing. Here's a list of events that relate to producing better scientific software.  Please join us there!
 
-- Date: June 27-29, 2022
+- Event dates: June 27-29, 2022
 - Location: Basel, Switzerland and Online
 - Website: https://pasc22.pasc-conference.org/
 - Organizers: The "Software Community"

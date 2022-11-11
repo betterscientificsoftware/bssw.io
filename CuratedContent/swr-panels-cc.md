@@ -31,10 +31,11 @@ required for each panel.
 The panel series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Panels
-*Listed in reverse chronological order. Last updated: 2022-03-28*
+*Listed in reverse chronological order. Last updated: 2022-10-13*
 
 
 
+- *[What Can Be Learned from Applying Team of Teams Principles to the ECP Projects PETSc, Trilinos, xSDK, and E4S](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel014)*, Todd Munson (Argonne National Laboratory), Jim Willenbring (Sandia National Laboratories), and Ulrike Yang (Lawrence Livermore National Laboratory), 2022-08-25
 - *[Sustainable Hybrid Approaches for HPC (Rebroadcast)](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel013)*, Sadaf R. Alam (Swiss National Supercomputing Centre (CSCS)), Christian Bischof (Technical University (TU) Darmstadt), Helen Cademartori (Lawrence Berkeley National Laboratory), Devin Hodge (Argonne National Laboratory), Kengo Nakajima (University of Tokyo), and Pat Quillen (Mathworks), 2022-03-24
 - *[Sustainable Hybrid Approaches for HPC](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel012)*, Sadaf R. Alam (Swiss National Supercomputing Centre (CSCS)), Christian Bischof (Technical University (TU) Darmstadt), Helen Cademartori (Lawrence Berkeley National Laboratory), Devin Hodge (Argonne National Laboratory), Kengo Nakajima (University of Tokyo), and Pat Quillen (Mathworks), 2021-11-18
 - *[Effective Teaming and Virtual Collaboration](https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel011)*, Nancy Cooke (Arizona State University), Gary Olson (University of California, Irvine), Elaine Raybourn (Sandia National Laboratories), and Francesca Poli (Oppenheimer Science and Energy Leadership Program), 2021-10-13
@@ -51,7 +52,7 @@ The panel series is produced by the [IDEAS Productivity Project](https://ideas-p
 
 
 #### Contributed by [Elaine Raybourn](http://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
-#### Publication date: 2022-03-28
+#### Publication date: 2022-10-13
 
 <!---
 Publish: yes

@@ -24,6 +24,6 @@ Ivo is a Ph.D. student in computer science at the University of California, Sant
 
 ### Selected resources
 
-<a href="https://falsifiable.us/" class="link-row">Popper Website</a>
+<!-- <a href="https://falsifiable.us/" class="link-row">Popper Website</a> -->
 <a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019" class="link-row">HPC Best Practices Webinar:  Creating Reproducible Computational and Data Science Experimentation Pipelines</a>
 

@@ -29,7 +29,7 @@ The core of the PSIP process comprises six steps of an iterative process. The fi
 
 Like any new idea, convincing people that it is practical and worthwhile is one thing, but actually getting them to try it 
 out is a whole different ball game. This is particularly an issue when there are time and cost implications in 
-trying out the idea, and if the benefits of the activity are not immediately apparent. The diagram below, courtesy of Scott Weigle, https://overexamined.life/how-overcome-procrastination/, indicates these challenges. 
+trying out the idea, and if the benefits of the activity are not immediately apparent. The diagram below (courtesy of Scott Weigle) indicates these challenges. 
 
 <br>
 

@@ -6,7 +6,7 @@
 
 **Image:** /images/People_DamianRouson.jpg
 
-**URL:** http://www.sourceryinstitute.org/damian-rouson.html
+**URL:** https://www.sourceryinstitute.org/damian-rouson
 
 **LinkedIn:** https://www.linkedin.com/in/damian-rouson-018265/
 

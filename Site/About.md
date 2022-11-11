@@ -38,7 +38,7 @@ Patricia Grubel<br/>
 Los Alamos National Laboratory<br/>
 https://github.com/pagrubel
 
-Mark Miller<br/>
+Mark C. Miller<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
 

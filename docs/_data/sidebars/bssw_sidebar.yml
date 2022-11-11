@@ -77,6 +77,11 @@ entries:
           url: /bssw_file_naming.html
           output: web
 
+        - title: Adding New Topics
+          url: /bssw_add_new_topics.html
+          output: web
+
+
       - title: Content Writing
         output: web
         subfolderitems:
@@ -103,4 +108,8 @@ entries:
 
     - title: Content Publishing
       url: /bssw_content_publishing.html
+      output: web
+
+    - title: Guidelines for Blog Articles
+      url: /bssw_author_guidelines_blog.html
       output: web

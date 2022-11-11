@@ -35,7 +35,7 @@ high-performance computers (HPC) and occur approximately monthly.
 
 Resource Information | Details
 :--- | :---			   
-Webinar Title | Better Scientific Software (https://bssw.io): So your code will see the future
+Webinar Title | [Better Scientific Software (https://bssw.io)](https://bssw.io): So your code will see the future
 Date and Time | 2017-12-06 01:00 pm EST
 Presenters | Mike Heroux (Sandia National Laboratories),  and Lois Curfman McInnes (Argonne National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar013>	   

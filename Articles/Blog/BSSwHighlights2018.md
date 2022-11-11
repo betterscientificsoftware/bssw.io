@@ -40,7 +40,7 @@ who are sharing their perspectives on challenges, strategies, and best practices
 - [Exploring Community Organizations and their Role in Emerging Software Ecosystems](https://bssw.io/items/exploring-community-organizations-and-their-role-in-emerging-software-ecosystems), Lois Curfman McInnes
 
 ### Better Skills:
-- [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-development), Mark Miller
+- [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-development), Mark C. Miller
 - [On Demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize Your Productivity](https://bssw.io/blog_posts/on-demand-learning-for-better-scientific-software-how-to-use-resources-technology-to-optimize-your-productivity), Elaine Raybourn 
 
 ### BSSw Succeeds by Your Contributions

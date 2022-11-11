@@ -21,8 +21,7 @@ manifest only at large scale parallelism.
 
 Once a _reproducer_ is available, the process of finding the cause can involve various creative
 strategies, including the use of debugging tools such as [_gdb_](https://en.wikipedia.org/wiki/GNU_Debugger)
-or [_TotalView_](https://computing.llnl.gov/tutorials/totalview/) (which require the
-software to have been compiled with debugging symbols included), performance assesement tools such as
+or [_TotalView_](https://hpc.llnl.gov/software/development-environment-software/totalview-debugger) (which require the software to have been compiled with debugging symbols included), performance assesement tools such as
 [_Valgrind_](http://valgrind.org) or [_gprof_](https://sourceware.org/binutils/docs/gprof/Compiling.html),
 intrusive code modifications (e.g. printf), and even simply eye-balling code to
 identify possible candidate code paths that could lead to the observed defective behavior.
