@@ -1,10 +1,11 @@
-# Fundamental On Line Programming Resources for Scientific Computing
+# Fundamental Resources for Scientific Computing
 <!--deck text start-->
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
 
-We host here in tabluar layout a number of online programming resources of fundamental importance in HPC/CSE.
+We host here in tabluar layout a number of online documentation resources of fundamental importance in HPC/CSE.
+
 We begin with the most fundamental of topics...formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
 These are formal documents primarily for implementors of compilers that define, in excrutiating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
 
@@ -14,17 +15,17 @@ Instead, they rely solely on a [*reference implementation*](https://en.wikipedia
 Python's reference implementation is [CPython](https://en.wikipedia.org/wiki/CPython).
 
 From formal specifications, we move on to language *implementations*.
-The *implementation* of a programming language is embodied in a [compiler](https://en.wikipedia.org/wiki/List_of_compilers) or, for interpretive languages like Python (or Basic), an *interpreter*.
+The *implementation* of a programming language is typically embodied in a [compiler](https://en.wikipedia.org/wiki/List_of_compilers) or, for interpretive languages like Python (or Basic), an *interpreter*.
 The relevant documentation takes the form of compiler reference manuals.
-These documents are created by each *vendor* that supports a given compiler.
+A key bit of information compiler reference manuals provide is how a compiler may deviate from the standard it implements.
 
-A program consisting entirely of language statements typically does not make a useable application.
-Programs need to interact with the outside world...to accept user input, to read and write data to terminal windows and/or files and to interact with other *devices*.
+A program consisting solely of language statements typically does not make a useful application.
+Useful applications need to interact with the outside world...memory, a terminal display, disk files, etc.
 This functionality is typically provided in the form of an accompanying *standard library*...a set of function calls with *well defined interfaces* that do things like allocate and free memory, open and close files, read and write data, etc.
 
 A challenge with standard libraries is that they aren't always very *standard*.
 Different hardware vendors provide different and sometimes incompatible implementations.
-[POSIX](https://en.wikipedia.org/wiki/POSIX) compliance was introduced in the 1990's to address this not only for the standard library but also for many other aspects of how programs and humans (e.g. command-line *shells*) interact with an operating system.
+[POSIX](https://en.wikipedia.org/wiki/POSIX) compliance was introduced in the 1990's to address this not only for the C standard library but also for many other aspects of how programs and humans (e.g. command-line *shells*) interact with an operating system.
 
 As new hardware is introduced, its kinda sorta useless if there doesn't exist any compilers that produce executable (binary) code that runs on that hardware (and takes maximal advantage of any of its unique features).
 Therefore, hardware vendors are more or less obliged to provide a compiler that supports their hardware.
@@ -42,7 +43,14 @@ It is not uncommon for a language/compiler reference manual or standard library 
 For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html) some of which eventually make their way into the formal language standard.
 The use of language features unique to a specific standard and/or compiler can introduce portability issues.
 To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use and support.
-For example, the [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code base only in 2018, a full 7 years after the language standard had been released.
+
+The [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code base only in 2018, a full 7 years after the language standard had been released.
+
+Perhaps the next most fundamental aspect of scientific computing after languages, compilers and standard libraries is parallelism; the decomposition of a single, large computing task into many smaller tasks that execute simultaneously on separate copies of hardware resources.
+Parallelism can manifest in a myriad of ways in both hardware and software creating significant portability challenges.
+A number of technologies are aimed at addressing these challenges.
+Though their key aim is portability of parallelism, these technologies are referred to as *performance portability* solutions.
+
 
 After languages and compilers, we cover commonly used technologies that are offered in the form of either *language extensions* or application programming interfaces (APIs).
 Sometimes whether a technology is considered a *language extension* or an *API* isn't always very clear cut.
@@ -73,10 +81,11 @@ Implementations | [C][imp-stdlib-c]/[C++][imp-stdlib-c++] | |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Parallelism**</td></tr>
 Shared Mem | [PThreads][smpar-pthreads]/[TBB][smpar-tbb]/[C++MT][smpar-c++mt]<br>[Cuda][smpar-cuda]/[HIP][smpar-hip] | |
 Distrib Mem | MPICH-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0]/OpenMPI-[2.1][dmpar-ompi-2.1],[3.1][dmpar-ompi-3.1],[4.1][dmpar-ompi-4.1] | |
-Data (SIMD) | [C++-17][pparc-stl]/[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
-Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion]/[Chapel][ppard-chapel]||
-I/O | [Posix][api-posixio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]/[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
+Data (SIMD) | [C++-17][pparc-stl]/[HPX][pparc-hpx]<br>[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
+Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion] (libraries)<br>[Chapel][ppard-chapel]/[Julia][ppard-julia] (languages)||
+I/O | [Posix][api-posixio]/[MIFIO][api-mifio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]/[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
 File tansfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][][HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
+Batch<br>jobs | Cobalt/Slurm/Moab
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**APIs and Tools**</td></tr>
 Login shells | [bash][api-bash]/[zsh][api-zsh]/[tcsh][api-tcsh]/[ksh][api-ksh]
 Secure<br>connectivity | [ssh][api-ssh]/[vpn][api-vpn]
@@ -84,13 +93,11 @@ System | [linux][api-sys-linux]/[POSIX][api-sys-posix] | |
 Python | C/C++-Ext-[2][api-pyc-2],[3][api-pyc-3]/[NumPy][api-py-numpy] | |
 Build | [make][api-make]/[gmake][api-gmake]/[AutoTools][api-autotools]/[CMake][api-cmake]/[Spack][api-spack]
 Test | [ctest][api-ctest]/[GoogleTest][api-gtest] 
-Meta data | [Yaml][api-yaml]/[Json][api-json]/[XML][api-xml]
-Raw data | [HDF5][api-hdf5]/[netCDF][api-netcdf]/[CGNS][api-cgns]/[Conduit+Blueprint][api-conduit]
+Meta data | [Yaml][api-yaml]/[Json][api-json]/[XML][api-xml]/[Conduit][api-conduit]
+Raw data | [HDF5][api-hdf5]/[netCDF][api-netcdf]/[CGNS][api-cgns]/[Blueprint][api-blueprint]
 Documentation | [LaTex][api-latex]/[GFM][api-gfm]/[reST][api-rest]/[Doxygen][api-doxygen]/[ReadTheDocs][api-rtd]/[GHPages][api-ghpages]
 Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[GitHub][api-github]
-Debugging |
-Performance<br>tuning
-Compression
+Batch<br>jobs | [Cobalt][api-cobalt]/[Slurm][api-slurm]/[Moab][api-moab]
 
 
 [//]: # (Table footnotes. Text is dup'd for rendered HTML and balloon help)
@@ -227,6 +234,7 @@ Compression
 [//]: # (Portable Parallelism via Abstract Code)
 
 [pparc-stl]: https://en.cppreference.com/w/cpp/experimental/parallelism
+[pparc-hpx]: https://hpx-docs.stellar-group.org/latest/html/index.html
 [pparc-thrust]: https://thrust.github.io/doc/modules.html
 [pparc-raja]: https://raja.readthedocs.io/en/develop/sphinx/user_guide/index.html
 [pparc-sycl]: https://sycl.readthedocs.io/en/latest/
@@ -239,6 +247,7 @@ Compression
 [ppard-legion]: https://legion.stanford.edu/pdfs/legion-manual.pdf
 [ppard-charm++]: https://charm.readthedocs.io/en/latest/charm++/manual.html
 [ppard-chapel]: https://chapel-lang.org/docs/language/spec/index.html
+[ppard-julia]: https://julialang.org/blog/2019/07/multithreading/
 
 [//]: # (Commonly used APIs)
 
@@ -247,6 +256,7 @@ Compression
 [api-py-numpy]: https://numpy.org/doc/stable/reference/index.html#reference
 [api-sys-linux]: https://man7.org/linux/man-pages/man2/syscalls.2.html
 [api-sys-posix]: https://docs.oracle.com/cd/E19048-01/chorus4/806-3328/6jcg1bm05/index.html
+[api-mifio]: https://www.hdfgroup.org/2017/03/mif-parallel-io-with-hdf5/
 [api-posixio]: https://www.gnu.org/software/libc/manual/html_mono/libc.html#I_002fO-Overview
 [api-hdf5-1.12]: https://docs.hdfgroup.org/hdf5/v1_12/index.html
 [api-lustre]: https://doc.lustre.org/lustre_manual.xhtml#file_striping.lfs_setstripe
@@ -284,11 +294,12 @@ Compression
 [api-yaml]: https://yaml.org/spec/1.2.2/
 [api-json]: https://www.json.org/json-en.html
 [api-xml]: https://www.w3.org/TR/xml/
+[api-conduit]: https://llnl-conduit.readthedocs.io/en/latest/index.html
 
 [api-hdf5]: https://docs.hdfgroup.org/hdf5/v1_12/_r_m.html
 [api-netcdf]: https://docs.unidata.ucar.edu/nug/current/
 [api-cgns]: https://cgns.github.io/CGNS_docs_current/user/index.html
-[api-conduit]: https://llnl-conduit.readthedocs.io/en/latest/blueprint.html
+[api-blueprint]: https://llnl-conduit.readthedocs.io/en/latest/blueprint.html
 
 [api-latex]: https://www.latex-project.org/help/documentation/
 [api-gfm]: https://www.markdownguide.org/tools/github-pages/
@@ -302,22 +313,10 @@ Compression
 [api-gitlab]: https://docs.gitlab.com
 [api-github]: https://docs.github.com/en
 
-Debugging |
+[api-slurm]: https://slurm.schedmd.com
+[api-cobalt]: https://trac.mcs.anl.gov/projects/cobalt/wiki/CommandReference
+[api-moab]: https://iitj.ac.in/uploaded_docs/cc/HPC_training/mcmuserguide.pdf
 
-Boost, POSIX, parallel C++
-
-compiler directives (pragmas)
-
-Batch computing
-MOAB, toss,
-
-tools: valgrind, gdb,
-
-
-https://snapshooter.com/learn/linux/copy-files-scp
-https://phoenixnap.com/kb/linux-scp-command
-https://www.jscape.com/blog/linux-scp-example
-https://sixcolors.com/post/2019/04/seeing-a-black-hole-with-half-a-ton-of-hard-drives/
 
 <!---
 Publish: no
