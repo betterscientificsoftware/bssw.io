@@ -51,10 +51,9 @@ Parallelism can manifest in a myriad of ways in both hardware and software creat
 A number of technologies are aimed at addressing these challenges.
 Though their key aim is portability of parallelism, these technologies are referred to as *performance portability* solutions.
 
-
-After languages and compilers, we cover commonly used technologies that are offered in the form of either *language extensions* or application programming interfaces (APIs).
+Finally, we identify commonly used technologies that are offered in the form of either *language extensions* or application programming interfaces (APIs) to third party libraries.
 Sometimes whether a technology is considered a *language extension* or an *API* isn't always very clear cut.
-In addition, we cover a handful of other programming technologies commonly encountered when contributing to HPC/CSE code projects.
+In addition, we identify a handful of other programming technologies commonly encountered when contributing to HPC/CSE code projects.
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :---: | :---: | ---:
@@ -79,25 +78,24 @@ Fortran | [0.2.1][f-stdlib-0.2.1] | ([5][5])
 Python | [2][py-stdlib-2]/[3][py-stdlib-3] | |
 Implementations | [C][imp-stdlib-c]/[C++][imp-stdlib-c++] | |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Parallelism**</td></tr>
-Shared Mem | [PThreads][smpar-pthreads]/[TBB][smpar-tbb]/[C++MT][smpar-c++mt]<br>[Cuda][smpar-cuda]/[HIP][smpar-hip] | |
+Shared Mem | [PThreads][smpar-pthreads]/[TBB][smpar-tbb]/[C++MT][smpar-c++mt]<br>[Cuda][smpar-cuda]/[HIP][smpar-hip] | ([6][6]) |
 Distrib Mem | MPICH-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0]/OpenMPI-[2.1][dmpar-ompi-2.1],[3.1][dmpar-ompi-3.1],[4.1][dmpar-ompi-4.1] | |
 Data (SIMD) | [C++-17][pparc-stl]/[HPX][pparc-hpx]<br>[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
 Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion] (libraries)<br>[Chapel][ppard-chapel]/[Julia][ppard-julia] (languages)||
-I/O | [Posix][api-posixio]/[MIFIO][api-mifio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]/[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
+I/O | [Posix][api-posixio]/[MIFIO][api-mifio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]<br>[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
 File tansfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][][HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
-Batch<br>jobs | Cobalt/Slurm/Moab
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**APIs and Tools**</td></tr>
 Login shells | [bash][api-bash]/[zsh][api-zsh]/[tcsh][api-tcsh]/[ksh][api-ksh]
 Secure<br>connectivity | [ssh][api-ssh]/[vpn][api-vpn]
+Batch job<br>control | [Cobalt][api-cobalt]/[Slurm][api-slurm]/[Moab][api-moab]
 System | [linux][api-sys-linux]/[POSIX][api-sys-posix] | |
-Python | C/C++-Ext-[2][api-pyc-2],[3][api-pyc-3]/[NumPy][api-py-numpy] | |
-Build | [make][api-make]/[gmake][api-gmake]/[AutoTools][api-autotools]/[CMake][api-cmake]/[Spack][api-spack]
+Python | Extensions:[2][api-pyc-2],[3][api-pyc-3]/[NumPy][api-py-numpy] | |
+Build and<br>Install | [make][api-make]/[gmake][api-gmake]/[AutoTools][api-autotools]/[CMake][api-cmake]/[Spack][api-spack]
 Test | [ctest][api-ctest]/[GoogleTest][api-gtest] 
 Meta data | [Yaml][api-yaml]/[Json][api-json]/[XML][api-xml]/[Conduit][api-conduit]
 Raw data | [HDF5][api-hdf5]/[netCDF][api-netcdf]/[CGNS][api-cgns]/[Blueprint][api-blueprint]
 Documentation | [LaTex][api-latex]/[GFM][api-gfm]/[reST][api-rest]/[Doxygen][api-doxygen]/[ReadTheDocs][api-rtd]/[GHPages][api-ghpages]
 Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[GitHub][api-github]
-Batch<br>jobs | [Cobalt][api-cobalt]/[Slurm][api-slurm]/[Moab][api-moab]
 
 
 [//]: # (Table footnotes. Text is dup'd for rendered HTML and balloon help)
@@ -107,12 +105,14 @@ Batch<br>jobs | [Cobalt][api-cobalt]/[Slurm][api-slurm]/[Moab][api-moab]
 [3]: #a3 "The most formal resource for Python is the [language reference](https://docs.python.org/dev/reference/) and the *reference* implementation, [CPython](https://github.com/python/cpython)"
 [4]: #a4 "CPP is sometimes used to process other kinds of text files including those of other languages. CPP `#pragma`s are a common way for compiler vendors to extend the language."
 [5]: #a5 "The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one."
+[6]: #a6 "A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc."
 
 <a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
 <a name="a2"></a><sup>2</sup>Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.).<br>
 <a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)<br>
 <a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma`s](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) are a common way for compiler vendors to extend the language.<br>
-<a name="a5"></a><sup>5</sup>The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one.
+<a name="a5"></a><sup>5</sup>The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one.<br>
+<a name="a6"></a><sup>6</sup>A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc.
 
 [//]: # (Formal C language specification URLs)
 
