@@ -5,7 +5,7 @@ The application and adaptation of Lean project management and manufacturing prin
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-#### Publication date: December ???, 2022
+#### Publication date: November 14, 2022
 
 Resource information | Details 
 :--- | :--- 
@@ -26,12 +26,12 @@ Simply asking people to remember more or giving them a big list of things they h
 Lastly, the "Try this" section of the last chapter "Journey" gives a great condensed summary of the whole book.
 If you read nothing else, read this last "Try this" section and go back in the book to look for further details and explanations.
 
-Disclaimer: At the foundation for "Lean" software development is an analogy to the Toyota Production System (TPS) for manufacturing.
+Note: At the foundation for "Lean" software development is an analogy to the Toyota Production System (TPS) for manufacturing.
 As with any such analogy one can go too far (see [Code Complete (2nd edition)](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction) for a discussion of this issue) but the authors appear to be able to take the manufacturing analogy only as far as it can be usefully applied to software development and not any further.
 
 <!---
 Publish: yes 
 Pinned: no
-RSS update: 2022-12-??
+RSS update: 2022-11-14
 Topics: software process improvement, software engineering, requirements, software sustainability, issue tracking, strategies for more effective teams, testing, continuous integration, projects and organizations
 --->
