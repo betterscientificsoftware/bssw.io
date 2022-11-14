@@ -5,7 +5,7 @@ The application and adaptation of Lean project management and manufacturing prin
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-#### Publication date: December ???, 2022
+#### Publication date: November 14, 2022
 
 Resource information | Details 
 :--- | :--- 
@@ -32,6 +32,6 @@ As with any such analogy one can go too far (see [Code Complete (2nd edition)](h
 <!---
 Publish: yes 
 Pinned: no
-RSS update: 2022-12-??
+RSS update: 2022-11-14
 Topics: software process improvement, software engineering, requirements, software sustainability, issue tracking, strategies for more effective teams, testing, continuous integration, projects and organizations
 --->
