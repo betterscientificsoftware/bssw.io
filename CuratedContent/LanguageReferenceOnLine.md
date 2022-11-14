@@ -1,12 +1,14 @@
 # Fundamental Resources for Scientific Computing
 <!--deck text start-->
+This article hosts a number of online documentation resources of fundamental importance in HPC/CSE.
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
+#### Publication date: November 20, 2022
 
-We host here in tabluar layout a number of online documentation resources of fundamental importance in HPC/CSE.
+This article hosts a number of online documentation resources of fundamental importance in HPC/CSE.
 
-We begin with the most fundamental of topics...formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
+We begin with the most fundamental of topics - formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
 These are formal documents primarily for implementors of compilers that define, in excrutiating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
 
 Language specifications evolve with time and so are versioned, typically by the year a new specification is *initiated*.
@@ -319,7 +321,8 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 
 
 <!---
-Publish: Yes
-Topics: online learning
+Publish: yes
 Pinned: no
+RSS update: 2022-11-20
+Topics: online learning
 --->
