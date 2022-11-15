@@ -32,7 +32,7 @@ Explore these topics and more to learn about parallel computing.
 
 <!---
 Publish: yes
-Topics: licensing
+Topics: online learning
 Pinned: no
 RSS update: 2019-07-20
 --->
