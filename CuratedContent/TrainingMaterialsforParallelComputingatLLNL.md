@@ -4,7 +4,7 @@ Would you like to learn more about parallel computing or parallel programming me
 <!--deck text end-->
 
 #### Contributed by [Patricia Grubel](http://github.com/pagrubel "Patricia Grubel")
-#### Publication date: November 15, 2022
+#### Publication date: November 17, 2022
 
 Resource information | Details
 :--- | :---
