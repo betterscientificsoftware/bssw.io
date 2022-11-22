@@ -6,7 +6,7 @@
 
 #### Contributed by [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub Profile")
 
-#### Publication date: November 23, 2020
+#### Publication date: November 22, 2022
 
 *Editorial note: Originally published in November 2019, we are re-publishing this thematic article in celebration of the holiday.*
 
@@ -58,7 +58,7 @@ Angela Herring is a staff scientist at Los Alamos National Laboratory.   She spe
 
 <!---
 Publish: yes
-RSS update: 2019-11-25
+RSS update: 2022-11-22
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: bssw-blog-article
