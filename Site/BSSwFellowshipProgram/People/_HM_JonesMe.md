@@ -1,8 +1,8 @@
 **Year:** 2022
 
-**Name:** Meghan Jones
+**Name:** Max Jones
 
-**Image:** /images/People_JonesMeghan.jpg
+**Image:** /images/People_JonesMax.jpg
 
 **Affiliation:** University of Hawaiʻi at Mānoa
 
