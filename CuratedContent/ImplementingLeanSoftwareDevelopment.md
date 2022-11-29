@@ -1,7 +1,7 @@
 # Implementing Lean Software Development: From Concept to Cash
 
 <!--deck text start-->
-The application and adaptation of Lean project management and manufacturing principles to software development has provided a tangible benefit to many software projects.  Lean principles are both consistent and extend Agile software development processes in useful ways.
+The application and adaptation of Lean project management and manufacturing principles to software development have provided a tangible benefit to many software projects.  Lean principles are both consistent and extend Agile software development processes in useful ways.
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
