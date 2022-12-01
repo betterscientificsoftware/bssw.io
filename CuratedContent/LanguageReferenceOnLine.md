@@ -4,7 +4,7 @@ This article hosts a number of online documentation resources of fundamental imp
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: November 20, 2022
+#### Publication date: December 02, 2022
 
 This article hosts a number of online documentation resources of fundamental importance in HPC/CSE.
 
