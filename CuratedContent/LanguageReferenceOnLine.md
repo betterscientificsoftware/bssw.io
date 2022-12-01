@@ -9,12 +9,15 @@ This article hosts a number of online documentation resources of fundamental imp
 This article hosts a number of online documentation resources of fundamental importance in HPC/CSE.
 
 We begin with the most fundamental of topics - formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
-These are formal documents primarily for implementors of compilers that define, in excrutiating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases. Language specifications evolve with time and so are versioned, typically by the year, in which the new specification is *initiated*. But not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
+These are formal documents primarily for implementors of compilers that define, in excrutiating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
+Language specifications evolve with time and so are versioned, typically by the year, in which the new specification is *initiated*.
+But not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
 Instead, they rely solely on a [*reference implementation*](https://en.wikipedia.org/wiki/Reference_implementation).
 Python's reference implementation is [CPython](https://en.wikipedia.org/wiki/CPython).
 
 From formal specifications, we move on to language *implementations*.
-The *implementation* of a programming language is typically embodied in a [compiler](https://en.wikipedia.org/wiki/List_of_compilers) or, for interpretive languages like Python (or Basic), an *interpreter*. The relevant documentation takes the form of compiler reference manuals.
+The *implementation* of a programming language is typically embodied in a [compiler](https://en.wikipedia.org/wiki/List_of_compilers) or, for interpretive languages like Python (or Basic), an *interpreter*.
+The relevant documentation takes the form of compiler reference manuals.
 A key bit of information compiler reference manuals provide is how a compiler may deviate from the standard it implements.
 
 A program consisting solely of language statements typically does not make a useful application.
@@ -34,8 +37,11 @@ Alternatively (or sometimes additionally), existing compilers are enhanced to ta
 These compilers are often made available on various vendor's hardware and in some cases can even produce higher performing code than the hardware vendor's *native* compiler.
 
 It can take many years for compiler vendors to update their implementations to conform to new language standards.
-It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various minor ways especially during a period in which it is transitioning to new language standard. For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html) some of which eventually make their way into the formal language standard. The use of language features unique to a specific standard and/or compiler can introduce portability issues.
-To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use and support. The [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code base only in 2018, a full 7 years after the language standard had been released.
+It is not uncommon for a language/compiler reference manual or standard library to depart from a formal language specification in various minor ways especially during a period in which it is transitioning to new language standard.
+For example, the GNU compiler collection (GCC) often supports a number of [language *extensions*](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html) some of which eventually make their way into the formal language standard.
+The use of language features unique to a specific standard and/or compiler can introduce portability issues.
+To avoid such possibilities, projects often constrain which language standards and compiler versions they agree to use and support.
+The [VisIt](https://visit-dav.github.io/visit-website/) project decided to permit C++11 constructs (specific to the 2011 C++ standard) into the code base only in 2018, a full 7 years after the language standard had been released.
 
 Perhaps the next most fundamental aspect of scientific computing after languages, compilers and standard libraries is parallelism; the decomposition of a single, large computing task into many smaller tasks that execute simultaneously on separate copies of hardware resources.
 Parallelism can manifest in a myriad of ways in both hardware and software creating significant portability challenges.
