@@ -329,6 +329,6 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 <!---
 Publish: yes
 Pinned: no
-RSS update: 2022-11-20
+RSS update: 2022-12-02
 Topics: online learning
 --->
