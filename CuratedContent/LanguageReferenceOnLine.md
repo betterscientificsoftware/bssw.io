@@ -88,7 +88,7 @@ Distrib Mem | MPI-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0]
 Data (SIMD) | [C++-17][pparc-stl]/[HPX][pparc-hpx]<br>[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
 Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion] (libraries)<br>[Chapel][ppard-chapel]/[Julia][ppard-julia] (languages)||
 I/O | [Posix][api-posixio]/[MIFIO][api-mifio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]<br>[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
-File tansfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][][HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
+File tansfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][api-hpss][HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**APIs and Tools**</td></tr>
 Login shells | [bash][api-bash]/[zsh][api-zsh]/[tcsh][api-tcsh]/[ksh][api-ksh]
 Secure<br>connectivity | [ssh][api-ssh]/[vpn][api-vpn]
