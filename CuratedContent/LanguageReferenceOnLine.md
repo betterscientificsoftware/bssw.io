@@ -48,9 +48,17 @@ Parallelism can manifest in a myriad of ways in both hardware and software creat
 A number of technologies are aimed at addressing these challenges.
 Though their key aim is portability of parallelism, these technologies are referred to as *performance portability* solutions.
 
-Finally, we identify commonly used technologies that are offered in the form of either *language extensions* or application programming interfaces (APIs) to third party libraries.
+In addition, we identify several commonly used technologies that are available in the form of either *language extensions* or application programming interfaces (APIs) to third party libraries.
 Sometimes whether a technology is considered a *language extension* or an *API* isn't always very clear cut.
-In addition, we identify a handful of other programming technologies commonly encountered when contributing to HPC/CSE code projects.
+That said, API's are also sometimes decomposed into two pieces - a *specification* piece and an *implimentation* piece.
+This is entirely analagous to programming language specification and implementation described above.
+The canonical example of an API that is managed using both of these pieces is the Message Passing Interface (MPI).
+The MPI API has evolved with time and so has multiple specifications, each versioned.
+The most currently agreed upon MPI interface specification is version 4.0.
+But, there are a number of earlier interface specifications as well.
+MPICH serves as the *reference* implementation of MPI.
+
+Finally, we identify a handful of other programming technologies commonly encountered when contributing to HPC/CSE code projects.
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :---: | :---: | ---:
@@ -76,7 +84,7 @@ Python | [2][py-stdlib-2]/[3][py-stdlib-3] | |
 Implementations | [C][imp-stdlib-c]/[C++][imp-stdlib-c++] | |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Parallelism**</td></tr>
 Shared Mem | [PThreads][smpar-pthreads]/[TBB][smpar-tbb]/[C++MT][smpar-c++mt]<br>[Cuda][smpar-cuda]/[HIP][smpar-hip] | ([6][6]) |
-Distrib Mem | MPICH-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0]/OpenMPI-[2.1][dmpar-ompi-2.1],[3.1][dmpar-ompi-3.1],[4.1][dmpar-ompi-4.1] | |
+Distrib Mem | MPI-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0] (specification)<br>MPICH-[1.5][dmpar-mpich-1.5],[3.4][dmpar-mpich-3.4],[4.0.3][dmpar-mpich-4.0.3]/OpenMPI-[2.1][dmpar-ompi-2.1],[3.1][dmpar-ompi-3.1],[4.1][dmpar-ompi-4.1] | |
 Data (SIMD) | [C++-17][pparc-stl]/[HPX][pparc-hpx]<br>[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
 Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion] (libraries)<br>[Chapel][ppard-chapel]/[Julia][ppard-julia] (languages)||
 I/O | [Posix][api-posixio]/[MIFIO][api-mifio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]<br>[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
@@ -223,6 +231,9 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [dmpar-mpi-2.2]: https://www.mpi-forum.org/docs/mpi-2.2/mpi22-report.pdf
 [dmpar-mpi-3.1]: https://www.mpi-forum.org/docs/mpi-3.1/mpi31-report.pdf
 [dmpar-mpi-4.0]: https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf
+[dmpar-mpich-1.5]: https://www.mpich.org/static/docs/v1.5.x/
+[dmpar-mpich-3.4]: https://www.mpich.org/static/docs/v3.4.x/
+[dmpar-mpich-4.0.3]: https://www.mpich.org/static/docs/v4.0.3/
 [dmpar-ompi-4.1]: https://www.open-mpi.org/doc/v4.1/
 [dmpar-ompi-4.0]: https://www.open-mpi.org/doc/v4.0/
 [dmpar-ompi-3.1]: https://www.open-mpi.org/doc/v3.1/
