@@ -124,7 +124,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 <a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) directives are a common way for compiler vendors to extend the language.<br>
 <a name="a5"></a><sup>5</sup>The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one.<br>
 <a name="a6"></a><sup>6</sup>A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc.<br>
-<a name="a7"></a><sup>7</sup>*USPSnet* is wordplay for sending physical storage media through the US Mail.
+<a name="a7"></a><sup>7</sup>*USPSnet* is wordplay for sending physical storage media through the US Mail. Another name is *FootNet*. Sometimes, its the [best way](https://www.extremetech.com/extreme/289423-it-took-half-a-ton-of-hard-drives-to-store-eht-black-hole-image-data) to move a lot of data.
 
 [//]: # (Formal C language specification URLs)
 
