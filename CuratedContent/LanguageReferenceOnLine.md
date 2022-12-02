@@ -9,7 +9,7 @@ This article hosts a number of online documentation resources of fundamental imp
 This article hosts a number of online documentation resources of fundamental importance in HPC/CSE.
 
 We begin with the most fundamental of topics - formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
-These are formal documents primarily for implementors of compilers that define, in excrutiating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
+These are formal documents primarily for implementors of compilers that define, in excruciating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
 Language specifications evolve with time and so are versioned, typically by the year, in which the new specification is *initiated*.
 But not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
 Instead, they rely solely on a [*reference implementation*](https://en.wikipedia.org/wiki/Reference_implementation).
@@ -45,20 +45,25 @@ The [VisIt](https://visit-dav.github.io/visit-website/) project decided to permi
 
 Perhaps the next most fundamental aspect of scientific computing after languages, compilers and standard libraries is parallelism; the decomposition of a single, large computing task into many smaller tasks that execute simultaneously on separate copies of hardware resources.
 Parallelism can manifest in a myriad of ways in both hardware and software creating significant portability challenges.
-A number of technologies are aimed at addressing these challenges.
+Nonetheless, one critical differentiator is [shared memory vs. distributed memory](https://en.wikipedia.org/wiki/Distributed_memory) parallelism.
+Another critical differentiator is whether parallelism manifests as the same computational task running simultaneously everywhere except on different data (e.g. [Data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)) or something more generalized than this where computational tasks which can be wholly disparate are queued and divvied out to resources as they become available (e.g. Task parallelism).
+A number of technologies are aimed at addressing portability challenges.
 Though their key aim is portability of parallelism, these technologies are referred to as *performance portability* solutions.
 
-In addition, we identify several commonly used technologies that are available in the form of either *language extensions* or application programming interfaces (APIs) to third party libraries.
+We round out this discussion of resources by identifying several other commonly used technologies that are available in the form of either *language extensions* or application programming interfaces (APIs) to third party libraries.
 Sometimes whether a technology is considered a *language extension* or an *API* isn't always very clear cut.
-That said, API's are also sometimes decomposed into two pieces - a *specification* piece and an *implimentation* piece.
-This is entirely analagous to programming language specification and implementation described above.
-The canonical example of an API that is managed using both of these pieces is the Message Passing Interface (MPI).
+That said, API's are also sometimes decomposed into two pieces - a *specification* piece and an *implementation* piece.
+This is entirely analogous to programming language specification and implementation described above.
+The canonical example of an API that is managed in this way is the [Message Passing Interface (MPI)](https://www.mpi-forum.org/).
+Another example is [OpenGL](https://www.opengl.org/), a graphics programming API (the *L* in OpenGL stands for *Library* but many often treat it as thought it stands for *Language*).
 The MPI API has evolved with time and so has multiple specifications, each versioned.
 The most currently agreed upon MPI interface specification is version 4.0.
 But, there are a number of earlier interface specifications as well.
-MPICH serves as the *reference* implementation of MPI.
+[MPICH](https://www.mpich.org/) serves as a *reference* implementation of MPI.
 
-Finally, we identify a handful of other programming technologies commonly encountered when contributing to HPC/CSE code projects.
+Finally, we end with a handful of other miscellaneous programming technologies commonly encountered when contributing to HPC/CSE code projects.
+
+---
 
 Programming<br>Technology | Versions, Variants<br>and/or Vendors | Other notes
 :---: | :---: | ---:
@@ -83,17 +88,17 @@ Fortran | [0.2.1][f-stdlib-0.2.1] | ([5][5])
 Python | [2][py-stdlib-2]/[3][py-stdlib-3] | |
 Implementations | [C][imp-stdlib-c]/[C++][imp-stdlib-c++] | |
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**Parallelism**</td></tr>
-Shared Mem | [PThreads][smpar-pthreads]/[TBB][smpar-tbb]/[C++MT][smpar-c++mt]<br>[Cuda][smpar-cuda]/[HIP][smpar-hip] | ([6][6]) |
-Distrib Mem | MPI-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0] (specification)<br>MPICH-[1.5][dmpar-mpich-1.5],[3.4][dmpar-mpich-3.4],[4.0.3][dmpar-mpich-4.0.3]/OpenMPI-[2.1][dmpar-ompi-2.1],[3.1][dmpar-ompi-3.1],[4.1][dmpar-ompi-4.1] | |
+Shared<br>Memory | [PThreads][smpar-pthreads]/[TBB][smpar-tbb]/[C++MT][smpar-c++mt]<br>[Cuda][smpar-cuda]/[HIP][smpar-hip] | ([6][6]) |
+Distributed<br>Memory | MPI-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpar-mpi-4.0] (specification)<br>MPICH-[1.5][dmpar-mpich-1.5],[3.4][dmpar-mpich-3.4],[4.0.3][dmpar-mpich-4.0.3]/OpenMPI-[2.1][dmpar-ompi-2.1],[3.1][dmpar-ompi-3.1],[4.1][dmpar-ompi-4.1] | |
 Data (SIMD) | [C++-17][pparc-stl]/[HPX][pparc-hpx]<br>[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
 Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion] (libraries)<br>[Chapel][ppard-chapel]/[Julia][ppard-julia] (languages)||
 I/O | [Posix][api-posixio]/[MIFIO][api-mifio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]<br>[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
-File tansfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][api-hpss][HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
+File transfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][api-hpss]/[HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**APIs and Tools**</td></tr>
 Login shells | [bash][api-bash]/[zsh][api-zsh]/[tcsh][api-tcsh]/[ksh][api-ksh]
 Secure<br>connectivity | [ssh][api-ssh]/[vpn][api-vpn]
 Batch job<br>control | [Cobalt][api-cobalt]/[Slurm][api-slurm]/[Moab][api-moab]
-System | [linux][api-sys-linux]/[POSIX][api-sys-posix] | |
+System Calls | [Linux][api-sys-linux]/[POSIX][api-sys-posix]/[Windows][api-sys-windows] | |
 Python | Extensions:[2][api-pyc-2],[3][api-pyc-3]/[NumPy][api-py-numpy] | |
 Build and<br>Install | [make][api-make]/[gmake][api-gmake]/[AutoTools][api-autotools]/[CMake][api-cmake]/[Spack][api-spack]
 Test | [ctest][api-ctest]/[GoogleTest][api-gtest] 
@@ -108,14 +113,14 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [1]: #a1 "Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*."
 [2]: #a2 "Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.)."
 [3]: #a3 "The most formal resource for Python is the [language reference](https://docs.python.org/dev/reference/) and the *reference* implementation, [CPython](https://github.com/python/cpython)"
-[4]: #a4 "CPP is sometimes used to process other kinds of text files including those of other languages. CPP `#pragma`s are a common way for compiler vendors to extend the language."
+[4]: #a4 "CPP is sometimes used to process other kinds of text files including those of other languages. CPP `#pragma` directives are a common way for compiler vendors to extend the language."
 [5]: #a5 "The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one."
 [6]: #a6 "A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc."
 
 <a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
 <a name="a2"></a><sup>2</sup>Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.).<br>
 <a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)<br>
-<a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma`s](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) are a common way for compiler vendors to extend the language.<br>
+<a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) directives are a common way for compiler vendors to extend the language.<br>
 <a name="a5"></a><sup>5</sup>The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one.<br>
 <a name="a6"></a><sup>6</sup>A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc.
 
@@ -264,6 +269,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [api-py-numpy]: https://numpy.org/doc/stable/reference/index.html#reference
 [api-sys-linux]: https://man7.org/linux/man-pages/man2/syscalls.2.html
 [api-sys-posix]: https://docs.oracle.com/cd/E19048-01/chorus4/806-3328/6jcg1bm05/index.html
+[api-sys-windows]: https://learn.microsoft.com/en-us/cpp/c-runtime-library/run-time-routines-by-category?view=msvc-170
 [api-mifio]: https://www.hdfgroup.org/2017/03/mif-parallel-io-with-hdf5/
 [api-posixio]: https://www.gnu.org/software/libc/manual/html_mono/libc.html#I_002fO-Overview
 [api-hdf5-1.12]: https://docs.hdfgroup.org/hdf5/v1_12/index.html
