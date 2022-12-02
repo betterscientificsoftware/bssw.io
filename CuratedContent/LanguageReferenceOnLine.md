@@ -93,7 +93,7 @@ Distributed<br>Memory | MPI-[2.2][dmpar-mpi-2.2],[3.1][dmpar-mpi-3.1],[4.0][dmpa
 Data (SIMD) | [C++-17][pparc-stl]/[HPX][pparc-hpx]<br>[Thrust][pparc-thrust]/[RAJA][pparc-raja]/[Kokkos][ppard-kokkos]/[OpenMP][smpar-omp-5.2]/[openACC][smpar-openacc]<br>[GA][ppard-ga]/[SYCL][pparc-sycl]/[ROCm][pparc-rocm]/OpenCL-[1.2][ocl1.2-spec],[2.2][ocl2.2-spec],[3.0][ocl3.0-spec] | |
 Task (MIMD) | [Charm++][ppard-charm++]/[Legion][ppard-legion] (libraries)<br>[Chapel][ppard-chapel]/[Julia][ppard-julia] (languages)||
 I/O | [Posix][api-posixio]/[MIFIO][api-mifio]/[HDF5][api-hdf5-1.12]/[Lustre][api-lustre]/[GPFS][api-gpfs]<br>[MPI-IO][api-mpiio]/[DAOS][api-daos]/[Adios][api-adios]/[PnetCDF][api-pnetcdf]
-File transfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][api-hpss]/[HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet
+File transfer | [sftp][api-sftp]/[scp][api-scp]<br>Big: [pftp][api-hpss]/[HPSS][api-hpss]/[Drive][api-gdrive]/[Globus][api-globus]/USPSnet | ([7][7])
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">**APIs and Tools**</td></tr>
 Login shells | [bash][api-bash]/[zsh][api-zsh]/[tcsh][api-tcsh]/[ksh][api-ksh]
 Secure<br>connectivity | [ssh][api-ssh]/[vpn][api-vpn]
@@ -116,13 +116,15 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [4]: #a4 "CPP is sometimes used to process other kinds of text files including those of other languages. CPP `#pragma` directives are a common way for compiler vendors to extend the language."
 [5]: #a5 "The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one."
 [6]: #a6 "A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc."
+[7]: #a7 "*USPSnet* is wordplay for sending physical storage media through the US Mail"
 
 <a name="a1"></a><sup>1</sup>Version numbers are the last 2 digits of the year the standard was *initiated*. Sometimes, standards are formally *finalized* years after they were *initiated*.<br>
 <a name="a2"></a><sup>2</sup>Language *extensions* for special devices (e.g. co-processors, GPUs, FPGAs, accelerators, etc.).<br>
 <a name="a3"></a><sup>3</sup>The most formal resource for Python is the *reference* implementation, [CPython](https://en.wikipedia.org/wiki/CPython)<br>
 <a name="a4"></a><sup>4</sup>CPP is sometimes used to process other kinds of text files including those of other languages. CPP [`#pragma](https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html) directives are a common way for compiler vendors to extend the language.<br>
 <a name="a5"></a><sup>5</sup>The fortran specification does not define a *standard library*. Nonetheless, there is a community driven effort to develop one.<br>
-<a name="a6"></a><sup>6</sup>A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc.
+<a name="a6"></a><sup>6</sup>A critical aspect of these technologies is whether they work on CPUs only, GPUs only or can *target* both. Some technologies are designed to target a variety of other *devices* such as FPGAs, etc.<br>
+<a name="a7"></a><sup>7</sup>*USPSnet* is wordplay for sending physical storage media through the US Mail.
 
 [//]: # (Formal C language specification URLs)
 
