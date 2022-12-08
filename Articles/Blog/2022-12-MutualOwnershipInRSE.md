@@ -1,16 +1,18 @@
 # Recap: Encouraging and Enabling Mutual Ownership in a RSE Community of Practice
 
-*Originally published on the [US-RSE Blog](https://us-rse.org/blog/), this article has been reposted with the permission of the authors.*
-
 #### Contributed by [Miranda Mundt](https://github.com/mrmundt), Jonathan Bisila, Jon Guyer, Daniel Howard, [Daniel S. Katz](https://github.com/danielskatz), [Reed Milewicz](https://github.com/rmmilewi), Henry Schreiner, Joshua Teves, and Chris Wiswell
 
 #### Publication date: December 9, 2023
 
+<!-- start deck -->
 The explosion of Research Software Engineers (RSEs) in the United States
 created the opportunity to form communities of practice (CoP), groups that
 share a passion for an activity and learn how to do it better as they interact
 regularly, specifically to benefit their local organization or region. CoPs,
-however, only succeed insofar as their members feel heard, included, and valued. 
+however, only succeed insofar as their members feel heard, included, and valued.
+<!-- end deck -->
+
+*Originally published on the [US-RSE Blog](https://us-rse.org/blog/), this article has been reposted with the permission of the authors.*
 
 ## Introduction
 
@@ -116,7 +118,6 @@ helpful tips to make a community of practice more successful. They hope that
 the results of this discussion can assist other RSEs in the creation of their
 own local CoP.
 
-
 ### Acknowledgements
 
 Sandia National Laboratories is a multimission laboratory managed and operated
@@ -127,7 +128,6 @@ SAND2022-15860 S
 
 These opinions, recommendations, findings, and conclusions do not necessarily
 reflect the views or policies of NIST or the United States Government.
-
 
 <!---
 Publish: yes
