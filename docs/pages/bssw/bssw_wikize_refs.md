@@ -45,7 +45,7 @@ at the end of the markdown file, of the form
 - `URL`: (**REQUIRED**) The URL for the reference
 - `TIT`: (*optional*) A title for the reference (will appear as tool-tip during hover)
 - `{BIB}`: (*optional*) Remaining full bibliographic information for the reference except the title
-  - The `wikize_refs.py` tool uses the `{BIB}` field, embedded in the [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text as a notational *extension*.
+  - The `{BIB}` field, embedded in a [markdown link title](https://www.markdownguide.org/basic-syntax#adding-titles) is a notational *extension* specific to the and known only by the `wikize_refs.py` tool.
 - **Note**: Be sure whatever editor you are using is not inadvertently sneaking in [*smart quotes* or *curly quotes*](https://practicaltypography.com/straight-and-curly-quotes.html) and that you are using only *straight* quotes.
   If you are drafting content in whatever editor you have available locally and then cutting from that local editor and pasting into a web browser editing directly on GitHub, be aware that it is possible smart quotes can get carried along.
 
