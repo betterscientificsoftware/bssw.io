@@ -66,9 +66,7 @@ Not everyone may have heard of the "Aesthetic-Usability Effect," but we have
 all experienced it. This effect refers to “users’ tendency to perceive
 attractive products as more usable. People tend to believe that things that
 look better will work better — even if they aren’t actually more effective or
-efficient.”[^1]
-
-[^1]: Moran, Kate. "The aesthetic-usability effect." Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).
+efficient.”<sup>[1]</sup>
 
 Before beginning regular meetings and discussions, having a community
 infrastructure where members can sign up for notifications, find information,
@@ -78,11 +76,9 @@ will experience from the onset.
 
 It is also valuable to have a platform through which community members can
 contribute. The moderators, for example, host their content on an instance of
-Confluence, a wiki-style version-controlled collaborative tool[^2]. They created
+Confluence, a wiki-style version-controlled collaborative tool.<sup>[2]</sup> They created
 templates and guides for how to contribute, including what topics might be of
 interest, how to name pages, where to put them, etc.
-
-[^2]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview
 
 > Tip: Have material or a website for potential members to visit or view in time for your first meeting. It doesn’t have to be perfect, but it will provide a sense of immediate value and confidence.
 
@@ -134,3 +130,9 @@ Publish: yes
 Pinned: no
 Topics: strategies for more effective teams, software engineering
 --->
+
+### References
+
+[1]: https://www.nngroup.com/articles/aesthetic-usability-effect "{Moran, Kate. "The aesthetic-usability effect." Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).}"
+
+[2]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview "{https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview.}"
