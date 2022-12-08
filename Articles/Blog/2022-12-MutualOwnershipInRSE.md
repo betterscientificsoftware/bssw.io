@@ -131,14 +131,14 @@ Pinned: no
 Topics: strategies for more effective teams, software engineering
 --->
 
-[1-sfer-ezikiw]: https://www.nngroup.com/articles/aesthetic-usability-effect "The aesthetic-usability effect. {Moran, Kate. The aesthetic-usability effect. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).}"
+[1-sfer-ezikiw]: https://www.nngroup.com/articles/aesthetic-usability-effect "The aesthetic-usability effect. {Moran, Kate. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).}"
 
-[2-sfer-ezikiw]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview {https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview.}"
+[2-sfer-ezikiw]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "The aesthetic-usability effect."
 [2]: #sfer-ezikiw-2 "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[The aesthetic-usability effect.<br>Moran, Kate. The aesthetic-usability effect. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).](https://www.nngroup.com/articles/aesthetic-usability-effect)
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview<br>https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview.](https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[The aesthetic-usability effect.<br>Moran, Kate. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).](https://www.nngroup.com/articles/aesthetic-usability-effect)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview](https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview)
