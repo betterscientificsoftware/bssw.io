@@ -63,10 +63,10 @@ finding collaborators.
 ### Community infrastructure
 
 Not everyone may have heard of the "Aesthetic-Usability Effect," but we have
-all experienced it. This effect refers to “users’ tendency to perceive
+all experienced it. This effect refers to "users’ tendency to perceive
 attractive products as more usable. People tend to believe that things that
 look better will work better — even if they aren’t actually more effective or
-efficient.”<sup>[1]</sup>
+efficient."<sup>[1]</sup>
 
 Before beginning regular meetings and discussions, having a community
 infrastructure where members can sign up for notifications, find information,
@@ -131,8 +131,14 @@ Pinned: no
 Topics: strategies for more effective teams, software engineering
 --->
 
+[1-sfer-ezikiw]: https://www.nngroup.com/articles/aesthetic-usability-effect "The aesthetic-usability effect. {Moran, Kate. The aesthetic-usability effect. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).}"
+
+[2-sfer-ezikiw]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview {https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview.}"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "The aesthetic-usability effect."
+[2]: #sfer-ezikiw-2 "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview"
+<!-- (sfer-ezikiw begin) -->
 ### References
-
-[1]: https://www.nngroup.com/articles/aesthetic-usability-effect "{Moran, Kate. "The aesthetic-usability effect." Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).}"
-
-[2]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview "{https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview.}"
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[The aesthetic-usability effect.<br>Moran, Kate. The aesthetic-usability effect. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).](https://www.nngroup.com/articles/aesthetic-usability-effect)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview<br>https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview.](https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview)
