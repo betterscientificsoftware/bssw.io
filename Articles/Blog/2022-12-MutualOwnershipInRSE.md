@@ -133,10 +133,10 @@ Topics: strategies for more effective teams, software engineering
 
 [1-sfer-ezikiw]: https://www.nngroup.com/articles/aesthetic-usability-effect "The aesthetic-usability effect. {Moran, Kate. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).}"
 
-[2-sfer-ezikiw]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview 
+[2-sfer-ezikiw]: https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "The aesthetic-usability effect."
-[2]: #sfer-ezikiw-2 
+[2]: #sfer-ezikiw-2 "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
