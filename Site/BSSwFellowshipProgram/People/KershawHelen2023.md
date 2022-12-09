@@ -12,7 +12,7 @@
 
 **Github:** https://github.com/hkershaw-brown 
 
-**Short Bio:** Focus Better Collaboration: Improving code review skills for scientific software developers
+**Short Bio:** Improving code review skills for scientific software developers
 
 **Long Bio:**
 ### Broadening the reach of scientific software through modern interactive interfaces from Jupyter notebooks to web applications 
