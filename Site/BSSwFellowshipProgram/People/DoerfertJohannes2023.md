@@ -17,6 +17,6 @@
 **Long Bio:**
 Broadening the reach of scientific software through modern interactive interfaces from Jupyter notebooks to web applications
 
-Paragraph goes here. [Placeholder: to fix]
+Paragraph goes here. 
 
 Johannes Doerfert is a graduate student in XXX at Arizona State University .... bio goes here.
