@@ -12,7 +12,7 @@ LinkedIn: https://www.linkedin.com/in/karanvahi/ [Placeholder: to fix]
 
 Github: https://github.com/vahi [Placeholder: to fix]
 
-Short Bio: BSSw Focus Area: Better Reliability - Techniques for scientific software testing
+Short Bio: Establishing techniques for scientific software testing
 
 Long Bio:
 Broadening the reach of scientific software through modern interactive interfaces from Jupyter notebooks to web applications
