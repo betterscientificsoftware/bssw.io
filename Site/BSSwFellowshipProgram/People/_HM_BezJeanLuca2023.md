@@ -2,7 +2,7 @@
 
 **Name:** Jean Luca Bez
 
-**Image:** /images/People_BezJean-Luca_HM.jpg 
+**Image:** /images/People_BezJean-Luca_HM.png
 
 **Affiliation:** Lawrence Berkeley National Laboratory
 
