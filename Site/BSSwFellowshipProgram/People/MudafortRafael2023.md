@@ -12,7 +12,7 @@
 
 **Github:** https://github.com/hkershaw-brown [Placeholder: to fix]
 
-**Short Bio:** Focus Better Planning: Communicating scientific software design to all stakeholders
+**Short Bio:** Communicating scientific software design to all stakeholders
 
 **Long Bio:**
 ### Broadening the reach of scientific software through modern interactive interfaces from Jupyter notebooks to web applications 
