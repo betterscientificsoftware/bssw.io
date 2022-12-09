@@ -12,7 +12,7 @@
 
 **Github:** https://github.com/vahi [Placeholder: to fix]
 
-**Short Bio:** Focus Better Reliability: Best practices for software supply chain security
+**Short Bio:** Establishing best practices for software supply chain security
 
 **Long Bio:**
 ### Broadening the reach of scientific software through modern interactive interfaces from Jupyter notebooks to web applications 
