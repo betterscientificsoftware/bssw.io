@@ -12,7 +12,7 @@ LinkedIn: https://www.linkedin.com/in/johannes-doerfert-3a0770a2/
 
 Github: https://github.com/vahi [Placeholder: to fix]
 
-Short Bio: BSSw Focus Area: Better Development - Leveraging compilers in software development
+Short Bio: Leveraging compilers in software development
 
 Long Bio:
 Broadening the reach of scientific software through modern interactive interfaces from Jupyter notebooks to web applications
