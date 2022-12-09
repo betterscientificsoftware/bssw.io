@@ -4,7 +4,7 @@
 
 **Affiliation:** Arizona State University,
 
-**Image:** /images/People_BrewerNicole.jpg
+**Image:** /images/People_BrewerNicole_F.jpg
 
 **URL:** https://www.isi.edu/people/vahi/about [Placeholder: to fix]
 
