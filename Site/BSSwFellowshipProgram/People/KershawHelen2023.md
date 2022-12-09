@@ -19,4 +19,4 @@
 
 Paragraph goes here.
 
-Nicole Brewer is a graduate student in XXX at Arizona State University .... bio goes here. 
+Helen Kershaw is a graduate student in XXX at Arizona State University .... bio goes here. 
