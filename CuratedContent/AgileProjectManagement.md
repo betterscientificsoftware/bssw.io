@@ -1,7 +1,7 @@
 # Agile Project Management
 
 <!-- deck text start -->
-Would you like to use agile techniques in a flexible way to help transform your good research software team to a great team? In the video, "Agile Project Management", Angela Herring explains how to modify agile processes to do science.
+Would you like to use agile techniques in a flexible way to help transform your good research software team to a great team? In the webinar, "Agile Project Management", Angela Herring explains how to modify agile processes to do science.
 <!-- deck text end -->
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
@@ -13,11 +13,11 @@ Presenter | [Angela Herring](https://github.com/angelaherring "Angela Herring")
 Web Links | [Video](https://youtu.be/Fdex2rhw0Zo), [Slides](https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-22-20381)
 Focus | Agile Techniques for Scientific Research Software Teams
 
-[The United States Research Software Engineer Association (US RSE)](us-rse.org) presented the webinar, [Agile Project Management](https://youtu.be/Fdex2rhw0Zo), October 19, 2022. The first six minutes of the video is an overview of [US RSE](us-rse.org), a community organization for those who write and contribute to research software. After the US RSE overview, Angela Herring presents the main topic, explaining how to modify the agile process, Scrum, to do science.
+[The United States Research Software Engineer Association (US RSE)](us-rse.org) presented the webinar, [Agile Project Management](https://youtu.be/Fdex2rhw0Zo) on October 19, 2022. The first six minutes of the webinar is an overview of [US RSE](us-rse.org), a community organization for those who write and contribute to research software. After the US RSE overview, Angela Herring presents the main topic, explaining how to modify the agile process, Scrum, to do science.
 
-Like any software team, research teams need to stay organized, manage changes, write reports, and collaborate efficiently. Angela explains how to do this with minimal effort. She briefly explains what Scrum is, why scientists should like Scrum, who uses it, and how it is used. Then she explains the roles, ceremonies, and artifacts of Scrum. After her presentation, Angela fields questions from the audience; her explanations are very informative and help adapting Scrum for any software team.
+Like any software team, research teams need to stay organized, manage changes, write reports, and collaborate efficiently. Angela explains how to do this with minimal effort. She briefly explains what Scrum is, why scientists should like Scrum, who uses it, and how it is used. Then she explains the roles, ceremonies, and artifacts of Scrum. Angela describes each of the ceremonies in detail so that anyone can start using Scrum in an incremental way by adapting it to their own team. After her presentation, Angela fields questions from the audience; her explanations are very informative and can help any software team adapt Scrum to fit their needs.
 
-The webinar inspired me to start using some of the techniques with a small team. Since my background is engineering, I had no formal training in the agile techniques. However, I could glean enough information from the webinar to start applying a few of the techniques to help plan and organize work. I am hoping this will make using agile methods easy to incorporate gradually while being flexible and encouraging team members to work on what they would like to. Watching the webinar made me excited to apply some of the techniques without overburdening the team and adding a bit of fun to the process.
+The webinar inspired me to start using some of the techniques with a small team. Since my background is engineering, I had no formal training in the agile techniques. However, I could glean enough information from the webinar to start applying a few of the techniques to help plan and organize work. I am hoping this will make using agile methods easy to incorporate gradually while being flexible and encouraging team members to choose work they enjoy. Watching the webinar made me excited to apply some of the techniques without overburdening the team and adding a bit of fun to the process.
 
 
 
