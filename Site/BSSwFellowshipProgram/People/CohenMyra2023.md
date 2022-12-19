@@ -15,7 +15,7 @@
 **Short Bio:** Techniques for scientific software testing
 
 **Long Bio:**
-Improving the quality of scientific software through rigorous software testing
+### Improving the quality of scientific software through rigorous software testing
 
 BSSw Fellow Myra Cohen aims to embed cutting-edge software testing techniques into the scientific software development workflow.  Rather than expecting the scientific community to become experts on volumes of software testing principles and techniques, she plans to bring intuitive and non-intrusive approaches to them with short videos, code examples, and tools. Myra’s work focuses on system testing techniques for scientific software, such as ensuring coverage of tests to represent a broad set of behaviors, sampling configurable systems to find faults that appear only under specific combinations of configuration options, and utilizing a representative range of input data.  She also studies ways to test software that lacks a known oracle (or expected result) and techniques to test software that is stochastic or probabilistic. Last, she aims to provide an end-user view of scientific software, creating methods for developers to provide explainability and interpretability of configuration choices and their impact on the scientific results.
 
