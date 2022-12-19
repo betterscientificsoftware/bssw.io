@@ -6,7 +6,7 @@
 
 We are pleased to announce the 2023 class of Better Scientific Software (BSSw) Fellows: six Fellows and six Honorable Mentions.
 
-The 2023 class of BSSw Fellows will be recognized during the [2023 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), January 17--20, 2023.  
+The 2023 class of BSSw Fellows will be recognized during the [2023 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), January 17-20, 2023.  
 
 We sincerely thank _all_ fellowship applicants. The broad range of creative and interesting proposals made the selection process difficult.
 
@@ -60,7 +60,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 <div class='short_bio'>
   <h3> William Hart, Sandia National Laboratories</h3>
   <p>Member of Technical Staff, Discrete Math and Optimization Department</p>
-  <p><i>BSSw Focus</i>: Sustainable strategies for managing supply chain security in research softwaree</p>
+  <p><i>BSSw Focus</i>: Sustainable strategies for managing supply chain security in research software</p>
 </div>  
 </div>
 
@@ -98,7 +98,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Jean Luca Bez, Lawrence Berkeley National Laboratory</h3>
-  <p>Postdoctoral Researcher</p>
+  <p>Postdoctoral Researcher, Scientific Data Division</p>
 </div>
 </div>
  
@@ -110,7 +110,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Jose Monsalve Diaz, Argonne National Laboratory</h3>
-  <p>Postdoctoral Researcher</p>
+  <p>Postdoctoral Researcher, Mathematics and Computer Science Division</p>
 </div>
 </div>
 
@@ -133,7 +133,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Alisa Neeman, Muskingum University</h3>
-  <p>Assistant Professor, Mathematics and  Computer Science</p>
+  <p>Assistant Professor, Mathematics and Computer Science</p>
 </div>
 </div>
 
@@ -144,7 +144,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Kristina Riemer, University of Arizona</h3>
-  <p>Scientific Programmer</p>
+  <p>Scientific Programmer, Data Science Institute</p>
 </div>
 </div>
 
@@ -155,7 +155,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Brigitta Sipocz, California Institute of Technology</h3>
-  <p>Applications Developer</p>
+  <p>Applications Developer, Infrared Processing & Analysis Center</p>
 </div>
 </div>
 
