@@ -10,8 +10,6 @@
 
 **LinkedIn:** https://www.linkedin.com/in/myra-b-cohen
 
-**Github:** 
-
 **Short Bio:** Techniques for scientific software testing
 
 **Long Bio:**
