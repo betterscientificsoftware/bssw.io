@@ -155,7 +155,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Brigitta Sipocz, California Institute of Technology</h3>
-  <p>Applications Developer, Infrared Processing & Analysis Center</p>
+  <p>Applications Developer, Infrared Processing and Analysis Center</p>
 </div>
 </div>
 
