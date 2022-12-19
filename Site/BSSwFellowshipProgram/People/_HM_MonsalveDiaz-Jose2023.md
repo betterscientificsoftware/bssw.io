@@ -6,6 +6,6 @@
 
 **Affiliation:** Argonne National Laboratory
 
-**Short Bio:** Postdoctoral Researcher, Mathematics and Computer Science Division
+**Short Bio:** Postdoctoral Researcher, Mathematics & Computer Science Division
 
 **Honorable Mention:** Yes
