@@ -6,6 +6,6 @@
 
 **Affiliation:** University of Arizona
 
-**Short Bio:** Scientific Programmer
+**Short Bio:** Scientific Programmer, Data Science Institute
 
 **Honorable Mention:** Yes
