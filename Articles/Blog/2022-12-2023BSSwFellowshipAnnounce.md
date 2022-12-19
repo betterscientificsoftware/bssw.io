@@ -2,11 +2,11 @@
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile")
 
-#### Publication date: December 20, 2022
+#### Publication date: December 19, 2022
 
 We are pleased to announce the 2023 class of Better Scientific Software (BSSw) Fellows: six Fellows and six Honorable Mentions.
 
-The 2023 class of BSSw Fellows will be recognized during the [2023 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), January 17-20, 2023.  
+The 2023 class of BSSw Fellows will be recognized during the [2023 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), January 17--20, 2023.  
 
 We sincerely thank _all_ fellowship applicants. The broad range of creative and interesting proposals made the selection process difficult.
 
@@ -24,7 +24,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 <div class='short_bio'>
   <h3>Nicole Brewer, Arizona State University</h3>
   <p>Graduate Research Assistant, Center for Biology and Society</p>
-  <p><i>BSSw focus</i>: Improving accessibility of research data and software with scientific web applications in Jupyter notebooks</p>
+  <p><i>BSSw focus</i>: Improving accessibility of research data and software with scientific web applications</p>
 </div>
 </div>
 
@@ -72,7 +72,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 <div class='short_bio'>
   <h3>Helen Kershaw, National Center for Atmospheric Research</h3>
   <p>Software Engineer, Data Assimilation Research Section</p>
-  <p><i>BSSw focus</i>: Increasing the confidence of first time open-source contributors and humanizing the process of code review</p>
+  <p><i>BSSw focus</i>: Increasing the confidence of first-time open-source contributors and humanizing the process of code review</p>
 </div>
 </div>
 
@@ -84,7 +84,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 <div class='short_bio'>
   <h3>Rafael Mudafort, National Renewable Energy Lab</h3>
   <p>Researcher IV, National Wind Technology Center</p>
-  <p><i>BSSw focus</i>: Increasing developer impact through effective communication of software design </p>
+  <p><i>BSSw focus</i>: Increasing developer impact through effective communication of software design</p>
 </div>
 </div>
 
