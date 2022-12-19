@@ -2,7 +2,7 @@
 
 #### Contributed by [Miranda Mundt](https://github.com/mrmundt), Jonathan Bisila, Jon Guyer, Daniel Howard, [Daniel S. Katz](https://github.com/danielskatz), [Reed Milewicz](https://github.com/rmmilewi), Henry Schreiner, Joshua Teves, and Chris Wiswell
 
-#### Publication date: December 9, 2023
+#### Publication date: December 9, 2022
 
 <!-- start deck -->
 The explosion of Research Software Engineers (RSEs) in the United States
