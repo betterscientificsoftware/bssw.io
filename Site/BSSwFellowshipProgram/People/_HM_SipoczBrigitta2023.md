@@ -6,6 +6,6 @@
 
 **Affiliation:** California Institute of Technology
 
-**Short Bio:** Applications Developer
+**Short Bio:** Applications Developer, Infrared Processing & Analysis Center
 
 **Honorable Mention:** Yes
