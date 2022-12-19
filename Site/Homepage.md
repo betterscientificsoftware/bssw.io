@@ -4,16 +4,16 @@ Software—the foundation of discovery in computational science & engineering—
 
 
 <!---
-Slide1 L: ../Articles/Blog/GiveThanks.md
-Slide1 R: ../images/Blog_1119_seasonal.png
-Slide2 L: ../Articles/Blog/2022-11-visual-git.md
-Slide2 R: ../CuratedContent/TrainingMaterialsforParallelComputingatLLNL.md
-Slide3 L: ../CuratedContent/ImplementingLeanSoftwareDevelopment.md 
-Slide3 R: ../CuratedContent/technical-leadership-for-agile-teams.md
-Slide4 L: ../CuratedContent/AgileManifestoAndInclusion.md
-Slide4 R: ../Events/swr-015-work-life-balance-sc22.md 
-Slide5 L: ../Events/hpcbp-070-labnotebooks.md
-Slide5 R: ../Events/XpertNetworkSeries.md
+Slide1 L: ../Articles/2022-12-2023BSSwFellowshipAnnounce.md
+Slide1 R: ../images/OG_2109_BSSwFellowships.png
+Slide2 L: ../CuratedContent/AgileProjectManagement.md
+Slide2 R: ../CuratedContent/LanguageReferenceOnLine.md
+Slide3 L: ../Articles/Blog/GiveThanks.md
+Slide3 R: ../images/Blog_1119_seasonal.png
+Slide4 L: ../Events/hpcbp-071-oceanscapes.md
+Slide4 R: ../Articles/Blog/2022-11-visual-git.md
+Slide5 L: ../CuratedContent/TrainingMaterialsforParallelComputingatLLNL.md
+Slide5 R: ../CuratedContent/technical-leadership-for-agile-teams.md
 --->
 
 <!---
