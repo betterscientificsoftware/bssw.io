@@ -15,7 +15,7 @@
 **Short Bio:** Demystifying the compiler black box
 
 **Long Bio:**
-Improving developer productivity by demystifying the compiler black box
+### Improving developer productivity by demystifying the compiler black box
 
 Compilers are an integral component in software development that ensure our software performs on modern systems. However, compilers may sometimes be seen as complex, black-box interpreters in the build system that fail to understand the programmer’s intent. Through a series of short videos, BSSw Fellow Johannes Doerfert will explain the compiler, its inner workings, and best practices to work with it. The goal is to open the compiler black-box to foster an interactive development experience that will reduce programmer effort and increase performance and software quality. Videos will provide an introduction to basic compiler-based tools and functionality---information that should be understood by all (scientific) programmers. Videos also will expose how to actively work on a large production application, and how working with the compiler, as opposed to against it, will result in time savings and better code/performance. 
 
