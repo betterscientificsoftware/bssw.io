@@ -13,7 +13,9 @@ Slides & Recording for 2023 Fellowship:  Slides: [(pdf)](https://doi.org/10.6084
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-**The application deadine for the 2023 BSSw Fellowship Program is Friday, September 30, 2022, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
+Applications are now closed for the 2023 BSSw Fellowship Program. Check back in summer 2023 for info about the 2024 application process. 
+
+<!--- **The application deadine for the 2023 BSSw Fellowship Program is Friday, September 30, 2022, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline. --->
 
 ### Is a particular format required for the proposal?
 
