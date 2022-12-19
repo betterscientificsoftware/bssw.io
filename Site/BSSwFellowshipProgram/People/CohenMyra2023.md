@@ -8,7 +8,7 @@
 
 **URL:** https://cs.iastate.edu/~mcohen
 
-**LinkedIn:** www.linkedin.com/in/myra-b-cohen
+**LinkedIn:** https://www.linkedin.com/in/myra-b-cohen
 
 **Github:** 
 
