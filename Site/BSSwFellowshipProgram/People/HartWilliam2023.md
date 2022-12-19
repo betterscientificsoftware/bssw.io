@@ -6,8 +6,6 @@
 
 **Image:** /images/People_HartWilliam_F.png
 
-**URL:** 
-
 **LinkedIn:** https://www.linkedin.com/in/william-e-hart-3691134/
 
 **Github:** https://github.com/whart222
