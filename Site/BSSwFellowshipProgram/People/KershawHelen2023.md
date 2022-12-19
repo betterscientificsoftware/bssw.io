@@ -6,10 +6,6 @@
 
 **Image:** /images/People_KershawHelen_F.png
 
-**URL:** 
-
-**LinkedIn:** 
-
 **Github:** https://github.com/hkershaw-brown 
 
 **Short Bio:** Improving code review skills for scientific software developers
