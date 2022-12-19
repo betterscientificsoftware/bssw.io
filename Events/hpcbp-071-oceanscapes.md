@@ -1,4 +1,4 @@
-# Webinar: Openscapes: supporting better science for future us
+# Webinar: Openscapes: Supporting better science for future us
 
 - Event Date: 2023-01-11
 - Location: Online
