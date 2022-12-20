@@ -154,10 +154,24 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 </div>
 
 <div class='short_bio'>
-  <h3>Brigitta Sip&odblac;cz, California Institute of Technology</h3>
-  <p>Applications Developer, Infrared Processing and Analysis Center</p>
+  <h3>Brigitta Sip&#U+0151;cz, California Institute of Technology</h3>
+  <p>Applications Developer</p>
 </div>
 </div>
+  
+Testing: 
+
+&copy;
+&#169;
+&#xA9;
+
+&#U+0151;
+&#0273; 
+
+Sip&#U+0151;cz
+ 
+Sip&#0273;cz
+
 
 ### About the BSSw Fellowship
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2022.  More information:
