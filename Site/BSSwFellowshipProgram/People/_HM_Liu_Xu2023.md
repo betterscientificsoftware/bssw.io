@@ -1,6 +1,6 @@
 **Year:** 2023
 
-**Name:** Xu Li
+**Name:** Xu Liu
 
 **Image:** /images/People_Liu_Xu_HM.png
 
