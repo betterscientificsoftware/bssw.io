@@ -1,6 +1,6 @@
 **Year:** 2023
 
-**Name:** Alisa Neema
+**Name:** Alisa Neeman
 
 **Image:** /images/People_NeemanAlisa_HM.png
 
