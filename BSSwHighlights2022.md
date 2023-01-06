@@ -1,7 +1,7 @@
 # Better Scientific Software: 2022 Highlights
 
 **Hero Image:**
-- <img src="../../images/Blog_2112_YIR_Montage.png" />[2021 Highlights]
+- <img src="../../images/Blog_2301_YIRMontage.png" />[2022 Highlights]
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
