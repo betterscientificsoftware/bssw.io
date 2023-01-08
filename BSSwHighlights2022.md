@@ -67,7 +67,7 @@ We welcome your interest in joining the the BSSw community in raising awareness 
 Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She has been a part of the high-performance scientific community for two decades and is a researcher in the field of high-performance fault tolerance, resiliency, middleware libraries and programming models. She is passionate about her work in the area of developer productivity and software sustainability; her current focus lies in partnering with the computational science community on these topics to design better scientific software.
 
 <!---
-Publish: preview
+Publish: yes
 Pinned: no
 RSS Update: 2023-01-09
 Topics: projects and organizations
