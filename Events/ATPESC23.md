@@ -44,7 +44,7 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 #### Contributed by: [Kasia Salim](https://github.com/karbarz)
 
 <!---
-Publish: no
+Publish: yes
 Categories: skills, performance 
 Topics: online learning, High-performance computing (HPC), Performance at Leadership Computing Facilities
 --->
