@@ -5,9 +5,9 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
-#### Publication date: January 9, 2023
+#### Publication date: January 11, 2023
 
-As we enter 2023 and into the seventh year of BSSw.io, I want to thank the BSSw.io community for their continuous  support in making BSSw.io a premier portal for sharing information on software sustainability, productivity and quality.  BSSw.io continues to feature a rapidly-expanding collection of resources from an international community of contributors who are sharing their perspectives on challenges, strategies, and best practices on these topics. We are thankful for the thoughtful articles/contributions that were made to the BSSw.io site this year. Increasing variety and diversity in articles prompted us to add several new topic areas focussing on inclusivity, peer code review, big data, cloud computing etc., which has led to a more enriched reader experience.   In this blog post, we list some of the interesting articles and blogs that have especially resonated with readers. Happy new year to our entire community!
+As we enter 2023 and into the seventh year of BSSw.io, I want to thank the BSSw.io community for their continuous  support in making BSSw.io a premier portal for sharing information on software sustainability, productivity and quality.  BSSw.io continues to feature a rapidly-expanding collection of resources from an international community of contributors who are sharing their perspectives on challenges, strategies, and best practices on these topics. We are thankful for the thoughtful articles and contributions that were made to the BSSw.io site this year. Increasing variety and diversity in articles prompted us to add several new topic areas focusing on inclusivity, peer code review, big data, cloud computing etc., which has led to a more enriched reader experience.   In this blog post, we list some of the interesting articles and blogs that have especially resonated with readers. Happy new year to our entire community!
 
 ### Better Skills:
 - [Fundamental Resources for Scientific Computing](https://bssw.io/items/fundamental-resources-for-scientific-computing), M. Miller
@@ -67,9 +67,9 @@ We welcome your interest in joining the the BSSw community in raising awareness 
 Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She has been a part of the high-performance scientific community for two decades and is a researcher in the field of high-performance fault tolerance, resiliency, middleware libraries and programming models. She is passionate about her work in the area of developer productivity and software sustainability; her current focus lies in partnering with the computational science community on these topics to design better scientific software.
 
 <!---
-Publish: no
+Publish: yes
 Pinned: no
-RSS Update: 2023-01-09
+RSS Update: 2023-01-11
 Topics: projects and organizations
 --->
 
