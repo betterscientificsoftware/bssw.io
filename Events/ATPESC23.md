@@ -1,6 +1,6 @@
 # Argonne Training Program on Extreme-Scale Computing (ATPESC 2023)
 
-- Dates: July 30, 2023 – August 11, 2023
+- Dates: August 1, 2023 - August 13, 2023
 - Location: Chicago Area, Illinois, USA
 - Event Website: https://extremecomputingtraining.anl.gov/
 - Organizers: ATPESC Team
@@ -20,7 +20,7 @@ Registration and Other Information | https://extremecomputingtraining.anl.gov/ap
 
 **Description** 
 
-The Argonne Training Program on Extreme-Scale Computing (ATPESC) provides intensive, two-week training on the key skills, approaches, and tools to design, implement, and execute computational science and engineering applications on current high-end computing systems and the leadership-class computing systems of the future. ATPESC 2021 will take place July 30 – August 11, 2023. The event will be held in the Chicago area. 
+The Argonne Training Program on Extreme-Scale Computing (ATPESC) provides intensive, two-week training on the key skills, approaches, and tools to design, implement, and execute computational science and engineering applications on current high-end computing systems and the leadership-class computing systems of the future. ATPESC 2023 will take place July 30 – August 11, 2023. The event will be held in the Chicago area. 
 
 The core of the program will focus on programming methodologies that are effective across a variety of supercomputers and that are expected to be applicable to exascale systems. Additional topics to be covered include computer architectures, mathematical models and numerical algorithms, approaches to building community codes for HPC systems, and methodologies and tools relevant for Big Data applications.
 
@@ -40,7 +40,7 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 * Machine Learning and Data Science.
 
 
-#### Publication date: January 10, 2023
+#### Publication date: January 11, 2023
 #### Contributed by: [Kasia Salim](https://github.com/karbarz)
 
 <!---
