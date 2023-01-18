@@ -21,3 +21,9 @@ Version control is an essential tool for collaborative work on software, but dom
 Amy is developing accessible, user-focused tutorials on version control that give scientists the information they need to contribute to shared software. The version control tutorials will center around common user stories and directly address how a scientist should interact with version control to work collaboratively in common science scenarios. Art that illustrates broader ideas will be commissioned and tested along with the tutorials to help new users translate everyday concepts into the equivalent version control terminology. 
  
 Amy is an assistant professor of physics at the University of Colorado Denver where she leads a research group focused on dark matter detection. She searches for dark matter signals and works to build accessible computing ecosystems. Amy also serves as an editor for the Journal of Open Source Software and believes that complete, usable software infrastructure — together with accessible training and documentation — are necessary for a successful and equitable scientific community.
+
+### Selected resources
+<a href="https://gitlab.com/git-stories" class="link-row">User stories development space</a>
+<a href="https://docs.google.com/presentation/d/14XSZrlmfGcXpLKbULDUoObdKX6xqG78ELC2PuShPkcc/edit#slide=id.gcf84fecc34_0_18" class="link-row">Poster and Breakout Presentation at 2022 ECP Annual Meeting</a>
+<a href="https://git-stories.slack.com" class="link-row">Get help with git and join the discussion Slack workspace for the community</a>
+<a hred="https://bssw.io/blog_posts/a-different-way-of-looking-at-git" class="link-row">A Different Way of Looking at Git</a>
