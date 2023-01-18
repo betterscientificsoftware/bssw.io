@@ -26,4 +26,4 @@ Amy is an assistant professor of physics at the University of Colorado Denver wh
 <a href="https://gitlab.com/git-stories" class="link-row">User stories development space</a>
 <a href="https://docs.google.com/presentation/d/14XSZrlmfGcXpLKbULDUoObdKX6xqG78ELC2PuShPkcc/edit#slide=id.gcf84fecc34_0_18" class="link-row">Poster and Breakout Presentation at 2022 ECP Annual Meeting</a>
 <a href="https://git-stories.slack.com" class="link-row">Get help with git and join the discussion Slack workspace for the community</a>
-<a hred="https://bssw.io/blog_posts/a-different-way-of-looking-at-git" class="link-row">A Different Way of Looking at Git</a>
+<a href="https://bssw.io/blog_posts/a-different-way-of-looking-at-git" class="link-row">A Different Way of Looking at Git</a>
