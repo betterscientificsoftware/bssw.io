@@ -1,4 +1,4 @@
-# "Lessons learned transitioning from experimental to computational sciences"
+# Lessons learned transitioning from experimental to computational sciences
 
 **Hero Image:**
 
@@ -74,5 +74,5 @@ Jared O’Neal is a principal scientific software developer in Argonne National 
 Publish: yes
 Pinned: no
 RSS update: 2022-01-26
-Topics: high-performance computing (hpc), performance portability
+Topics: Personal Productivity and Sustainability, 
 --->
