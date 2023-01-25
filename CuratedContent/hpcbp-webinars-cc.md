@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2022-12-19*
+*Listed in reverse chronological order. Last updated: 2023-01-24*
 
 
 
@@ -38,6 +38,11 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+- [*Openscapes: supporting better science for future us*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar071), Julia Stewart Lowndes (Openscapes), 2023-01-11
 
 
 
@@ -601,7 +606,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2022-12-19
+#### Publication date: 2023-01-24
 
 <!---
 Publish: yes
