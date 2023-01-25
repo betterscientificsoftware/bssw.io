@@ -2,12 +2,12 @@
 
 **Hero Image:**
 
-- <img src='../../images/Blog_0429_Apollo1.jpg'/>[Image Source: NASA (see below)]
+- <img src='../../images/Blog_0429_Apollo1.jpg'/>
 
 #### Contributed by [Jared O' Neal](https://github.com/jared321)
-#### Publication date: January 26, 2022
+#### Publication date: January 26, 2023
 
-Integrating scientific notetaking into virtual computational laboratory environments can help teams working in computational science and engineering to improve the quality and effectiveness of their low-level scientific techniques.  In this article, the author presents these tools and processes as adaptations made from those needed for working with scientific hardware instruments in experimental and observational environments.
+*Integrating scientific notetaking into virtual computational laboratory environments can help teams working in computational science and engineering to improve the quality and effectiveness of their low-level scientific techniques.  In this article, Jared O'Neal, presents these tools and processes as adaptations made from those needed for working with scientific hardware instruments in experimental and observational environments.*
  
 I have had the good fortune to wear many different hats.  My formal education was in experimental condensed matter physics, and over 10 years’ time I worked in three different experimental laboratories.  I moved to Chile to work as an instrumentation and systems engineer at [Paranal Observatory](https://www.eso.org/public/).  For seven years I enjoyed the challenge of working on a remote mountain top with adaptive optics instruments.  Finally, I returned to school to study mathematics with an emphasis in computational science, which allows me to work in the wonderful and wild world of computational science and engineering (CSE) as a scientific software developer.  While my educational and professional background is broad and varied, I have always worked on scientific instrumentation with a focus on understanding how to use instruments and data acquired with the instruments rigorously and reproducibly.
  
@@ -73,6 +73,6 @@ Jared O’Neal is a principal scientific software developer in Argonne National 
 <!---
 Publish: yes
 Pinned: no
-RSS update: 2022-01-26
+RSS update: 2023-01-26
 Topics: Personal Productivity and Sustainability, 
 --->
