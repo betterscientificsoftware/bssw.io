@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/Blog_0429_Apollo1.jpg'/>
+- <img src='../../images/Blog_2301_Bell_LabNotesLt.png'/>
 
 #### Contributed by [Jared O' Neal](https://github.com/jared321)
 #### Publication date: January 26, 2023
