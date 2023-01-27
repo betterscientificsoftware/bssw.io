@@ -7,7 +7,7 @@
 - Event Website: https://www.exascaleproject.org/event/2023-ecp-community-bof-days/
 - Organizers: Exascale Computing Project
 
-The community BOF titled *Sharing Your Software Sustainability, Productivity, and Quality Experience through BSSw.io* will be hosted by the BSSw.io team during Exacale Computing Project's 2023 Community BOF days. The focus will be understanding the needs of the community and shorten the gap between the theory and implementation of best practices.
+The community BOF titled *Sharing Your Software Sustainability, Productivity, and Quality Experience through BSSw.io* will be hosted by the BSSw.io team during Exacale Computing Project's 2023 Community BOF days. The focus will be on understanding the needs of the community and shorten the gap between the theory and implementation of best practices.
 
 Event Information | Details
 :--- | :---			   
