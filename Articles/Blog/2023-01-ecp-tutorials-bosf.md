@@ -16,7 +16,7 @@ The [Exascale Computing Project](https://www.exascaleproject.org/wp-content/them
 
 A total of 26 tutorials are scheduled for February 6-10.  Topics of particular interest to readers of BSSw.io include the E4S software stack, CMake, software practices for better science, Julia programming for exascale, as well as both the RAJA and OCCA portability frameworks and OpenMP 5+.  Other tutorials cover various performance tools, numerical libraries, workflow and I/O tools.  Tutorials are free and open to the public.  Registration is required.
 
-<a href="https://www.exascaleproject.org/event/tutorialdays-2023/" class="link-row">ECP Tutorial Days</a>
+<a href="https://www.exascaleproject.org/event/tutorialdays-2023/" class="link-row">ECP Tutorial Days web page</a>
 *Note that as of press time, the schedule on the ECP Tutorial Days web page is *incorrect* and an update is pending. In the meantime, please use [this schedule](https://docs.google.com/spreadsheets/d/1uaILzZF187L7BnY07segTXUtojIKZjEk/edit#gid=621735413), noting that it is in CENTRAL time.*
 
 ### Community BoF Days (February 14-16)
@@ -25,7 +25,7 @@ Birds of a Feather sessions, for those not familiar with them, provide forums fo
 
 A total of 24 BoF sessions are scheduled for February 14-16. As with the tutorials, the BoFs cover a wide range of topics that will be of interest to the BSSw community.  But we wanted to call out three for special notice here.  One is on the [BSSw.io site](https://bssw.io/events/2023-ecp-community-bof-for-bssw-io) itself, at which you can find out how to contribute to the site, as well as help us better understand your interests and needs.  Second is an informational session on the [BSSw Fellowship](https://bssw.io/events/2023-ecp-community-bof-for-bssw-fellowship).  And third is an information session on the [Argonne Training Program on Extreme-Scale Computing](https://bssw.io/events/argonne-training-program-on-extreme-scale-computing-atpesc-2023) (ATPESC), the annual summer school for which applications are due in March.  The Community BoFs are free and open to the public.  Links to the Zoom sessions are provided on the event website.
 
-<a href="https://www.exascaleproject.org/event/2023-ecp-community-bof-days/" class="link-row">ECP Community BoF Days</a>
+<a href="https://www.exascaleproject.org/event/2023-ecp-community-bof-days/" class="link-row">ECP Community BoF Days web page</a>
 
 ### Conclusion
 
