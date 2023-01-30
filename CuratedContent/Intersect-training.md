@@ -12,7 +12,7 @@ Resource name | Research Software Engineering Training Material - by INTERSECT
 Website | [https://intersect-training.org/training-links/](https://intersect-training.org/training-links/)
 Focus | Online training, Software development, Software engineering
 
-The *INnovative Training Enabled by a Research Software Engineering Community of Trainers (INTERSECT)* project brings software development and engineering training to intermediate and advanced developers of research software. The training material listed on the project website aims to enable software engineers to gain Research software engineering skill set as well as enable computational researchers to produce better software.
+The *INnovative Training Enabled by a Research Software Engineering Community of Trainers (INTERSECT)* project brings software development and engineering training to intermediate and advanced developers of research software. The training material listed on the project website aims to enable software engineers to gain Research software engineering (RSE) skill set as well as enable computational researchers to produce better software.
 
 The [INTERSECT training material website](https://intersect-training.org/training-links/) has new material added regularly. As of the start of 2023, there is a good starting list of training material on the following topics:
 
