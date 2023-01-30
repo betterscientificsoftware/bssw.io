@@ -11,7 +11,7 @@ The community BOF titled *Sharing Your Software Sustainability, Productivity, an
 
 Event Information | Details
 :--- | :---			   
-Event Name | [Community BOF on Sharing Your Software Sustainability, Productivity, and Quality Experience through BSSw.io]([https://www.exascaleproject.org/event/ecp-community-bof-days-2022/](https://www.exascaleproject.org/event/2023-ecp-community-bof-days/)) 
+Event Name | Community BOF on Sharing Your Software Sustainability, Productivity, and Quality Experience through BSSw.io
 Event Date & Time | February 14, 2023 11:00am EST
 Website | [https://www.exascaleproject.org/event/2023-ecp-community-bof-days/](https://www.exascaleproject.org/event/2023-ecp-community-bof-days/)  
 

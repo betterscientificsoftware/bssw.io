@@ -11,7 +11,7 @@ The community BOF titled *BSSw Fellowship* will be conducted during the Exacale 
 
 Event Information | Details
 :--- | :---			   
-Event Name | [Community BOF on BSSw Fellowship]([https://www.exascaleproject.org/event/ecp-community-bof-days-2022/](https://www.exascaleproject.org/event/2023-ecp-community-bof-days/)) 
+Event Name | Community BOF on BSSw Fellowship
 Event Date & Time | February 16, 2023 1:00pm EST
 Website | [https://www.exascaleproject.org/event/2023-ecp-community-bof-days/](https://www.exascaleproject.org/event/2023-ecp-community-bof-days/)  
 
