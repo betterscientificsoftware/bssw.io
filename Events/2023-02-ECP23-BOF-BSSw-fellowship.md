@@ -7,7 +7,7 @@
 - Event Website: https://www.exascaleproject.org/event/2023-ecp-community-bof-days/
 - Organizers: Exascale Computing Project
 
-The community BOF titled *BSSw Fellowship* will be conducted during the Exacale Computing Project's 2023 Community BOF days.This BOF session provides an opportunity to learn more about how the BSSw fellowship community is impacting better scientific software and to engage with the ECP community.
+The community BOF titled *BSSw Fellowship* will be conducted during the Exacale Computing Project's 2023 Community BOF Days. This BOF session provides an opportunity to learn more about how the BSSw fellowship community is impacting better scientific software.
 
 Event Information | Details
 :--- | :---			   
@@ -23,9 +23,7 @@ This Birds-of-a-Feather session provides an opportunity to learn more about how 
 
 The Better Scientific Software (BSSw) Fellowship Program gives recognition and funding to leaders and advocates of high-quality scientific software. Since its launch in 2018, the BSSw Fellowship alums comprise a diverse community of leaders, mentors, and consultants to increase the visibility of those involved in scientific software production and sustainability in the pursuit of scientific discovery.
 
-
-
-The zoom link for the event can be found on the event website. Please refer to the event website for latest updates and details.
+The registration/zoom link for the event can be found on the event website. Please refer to the event website for latest updates and details.
 
 <!---
 Publish: yes
