@@ -16,7 +16,7 @@ The [Exascale Computing Project](https://www.exascaleproject.org) (ECP) includes
 
 A total of 26 tutorials are scheduled for February 6-10.  Topics of particular interest to readers of BSSw.io include the E4S software stack, CMake, software practices for better science, Julia programming for exascale, as well as both the RAJA and OCCA portability frameworks and OpenMP 5+.  Other tutorials cover various performance tools, numerical libraries, workflow and I/O tools.  Tutorials are free and open to the public.  Registration is required.
 
-<a href="https://www.exascaleproject.org/event/tutorialdays-2023/" class="link-row">ECP Tutorial Days web page</a>
+<a href="https://www.exascaleproject.org/event/ecp-tutorial-days/" class="link-row">ECP Tutorial Days web page</a>
 
 ### Community BoF Days (February 14-16)
 
