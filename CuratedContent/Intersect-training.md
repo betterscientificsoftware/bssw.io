@@ -4,7 +4,7 @@ The *Research Software Engineering Training Material* website developed by the I
 <!--deck text end-->
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug "Rinku Gupta")
-#### Publication date: Feb 5, 2023 
+#### Publication date: Feb 8, 2023 
 
 Resource information | Details 
 :--- | :--- 
@@ -34,5 +34,5 @@ While the range of topics covered is diverse, each topic has good non-overwhelmi
 Publish: yes
 Pinned: no
 Topics: Projects and organizations, Personal productivity and sustainability, Online learning
-RSS update: 2023-02-05
+RSS update: 2023-02-08
 --->
