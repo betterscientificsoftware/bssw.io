@@ -6,7 +6,7 @@
 #### Contributed by [Jared O' Neal](https://github.com/jared321)
 #### Publication date: February 09, 2023
 
-<sup>Alexander Graham Bell’s laboratory notes, from 1875 to 1876 (U.S. Library of Congress)</sup>
+<sup>Alexander Graham Bell’s laboratory notes, 1876 (U.S. Library of Congress)</sup>
 
 *Integrating scientific notetaking into virtual computational laboratory environments can help teams working in computational science and engineering to improve the quality and effectiveness of their low-level scientific techniques.  In this article, Jared O'Neal presents these tools and processes as adaptations made from those needed for working with scientific hardware instruments in experimental and observational environments.*
 
