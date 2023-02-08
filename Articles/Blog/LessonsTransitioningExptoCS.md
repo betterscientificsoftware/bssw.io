@@ -6,6 +6,8 @@
 #### Contributed by [Jared O' Neal](https://github.com/jared321)
 #### Publication date: February 09, 2023
 
+<sup>Alexander Graham Bell’s laboratory notes, from 1875 to 1876 (U.S. Library of Congress)</sup>
+
 *Integrating scientific notetaking into virtual computational laboratory environments can help teams working in computational science and engineering to improve the quality and effectiveness of their low-level scientific techniques.  In this article, Jared O'Neal presents these tools and processes as adaptations made from those needed for working with scientific hardware instruments in experimental and observational environments.*
 
 I have had the good fortune to wear many different hats.  My formal education was in experimental condensed matter physics, and over 10 years’ time I worked in three different experimental laboratories.  I moved to Chile to work as an instrumentation and systems engineer at [Paranal Observatory](https://en.wikipedia.org/wiki/Paranal_Observatory).  For seven years I enjoyed the challenge of working on a remote mountain top with adaptive optics instruments.  Finally, I returned to school to study mathematics with an emphasis in computational science, which allows me to work in the wonderful and wild world of computational science and engineering (CSE) as a scientific software developer.  While my educational and professional background is broad and varied, I have always worked on scientific instrumentation with a focus on understanding how to use instruments and data acquired with the instruments rigorously and reproducibly.
