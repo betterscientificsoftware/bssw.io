@@ -1,5 +1,7 @@
 # Survey of Collective Learning in Scientific Software Development
 
+#### Contributed by: [Olivia B. Newton](https://github.com/small0live)
+
 - Date: February 09, 2023
 - Location: Online
 - Website: https://ucf.qualtrics.com/jfe/form/SV_8kTrmOtiRPctCwC
@@ -23,12 +25,8 @@ In this stage of the study, we are reaching out to invite contributors to collab
 The goal of this study is to better understand the relationship between individual, team, and project characteristics associated with collective learning in collaborative scientific software development.
   
 The survey is expected to take 5-10 minutes to complete. We would be grateful if you considered filling out the survey. Your responses are confidential and survey data will only be accessed by the research team.
- 
+
 If you would like more information on this study, please contact the researchers Stephen M. Fiore (sfiore@ucf.edu) and/or Olivia B. Newton (olivia.newton@ucf.edu).
-
-
-### Contributed by: [Olivia B. Newton](https://github.com/small0live)
-### Publication date: February 10, 2023
 
 <!---
 Publish: yes
