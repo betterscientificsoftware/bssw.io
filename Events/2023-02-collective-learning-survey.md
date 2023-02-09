@@ -2,7 +2,7 @@
 
 #### Contributed by: [Olivia B. Newton](https://github.com/small0live)
 
-- Date: February 09, 2023
+- Closing Date: March 30, 2023
 - Location: Online
 - Website: https://ucf.qualtrics.com/jfe/form/SV_8kTrmOtiRPctCwC
 - Organizers: Stephen M. Fiore and Olivia B. Newton
