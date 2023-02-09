@@ -5,7 +5,7 @@
 - Closing Date: March 30, 2023
 - Location: Online
 - Website: https://ucf.qualtrics.com/jfe/form/SV_8kTrmOtiRPctCwC
-- Organizers: Stephen M. Fiore and Olivia B. Newton
+- Organizers: University of Central Florida Cognitive Sciences Laboratory
 
 <!-- deck text start -->
 If you develop scientific software in your work and want to contribute to our study of collective learning, please consider taking 5-10 minutes to fill out our survey.
