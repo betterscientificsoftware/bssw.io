@@ -11,7 +11,7 @@ If you develop scientific software in your work and want to contribute to our st
 
 Event Information | Details
 :--- | :---	
-Event Name | Survey of Collective Learning in Scientific Software Development
+Event Name | Survey of Collective Learning in Scientific Software Development Teams
 Website | [Survey on Qualtrics](https://ucf.qualtrics.com/jfe/form/SV_8kTrmOtiRPctCwC)
 
 We are computational and social science reseachers at the University of Central Florida who study collaboration and the science of team science. 
