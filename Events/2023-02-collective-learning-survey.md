@@ -1,4 +1,4 @@
-# Survey of Mentorship among People Who Develop Software
+# Survey of Collective Learning in Scientific Software Teams
 
 - Date: February 09, 2023
 - Location: Online
