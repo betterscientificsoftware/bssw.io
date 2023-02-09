@@ -1,4 +1,4 @@
-# Survey of Collective Learning in Scientific Software Teams
+# Survey of Collective Learning in Scientific Software Development
 
 - Date: February 09, 2023
 - Location: Online
@@ -11,7 +11,7 @@ If you develop scientific software in your work and want to contribute to our st
 
 Event Information | Details
 :--- | :---	
-Event Name | Survey of Collective Learning in Scientific Software Development Teams
+Event Name | Survey of Collective Learning in Scientific Software Development
 Website | [Survey on Qualtrics](https://ucf.qualtrics.com/jfe/form/SV_8kTrmOtiRPctCwC)
 
 We are computational and social science reseachers at the University of Central Florida who study collaboration and the science of team science. 
