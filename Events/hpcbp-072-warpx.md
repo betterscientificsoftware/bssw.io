@@ -36,7 +36,7 @@ high-performance computers (HPC) and occur approximately monthly.
 Resource Information | Details
 :--- | :---			   
 Webinar Title | Our Road to Exascale: Particle Accelerator & Laser-Plasma Modeling
-Date and Time | 2023-03-15 12:00 pm WTZ
+Date and Time | 2023-03-15 1:00 pm EDT
 Presenter | Axel Huebl (Lawrence Berkeley National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar072>	   
 
