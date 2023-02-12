@@ -59,7 +59,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 <!---
 Publish: yes
 Categories: skills
-Topics: online learning
+Topics: "software engineering",  "high-performance computing (hpc)", "performance at leadership computing facilities", "performance portability", "strategies for more effective teams", “online learning”
 Level: 2
 Prerequisites: default
 Aggregate: none
