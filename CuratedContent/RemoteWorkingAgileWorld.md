@@ -4,7 +4,7 @@
 Remote working is a common reality in today's world. This article points to a very useful podcast on the topic of working remotely.
 <!-- deck text end-->
 
-#### Contributed by [Roscoe Bartlett](https://github.com/bartlettroscoe)
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 #### Publication date: April 12, 2020
 
 Resource information | Details 
