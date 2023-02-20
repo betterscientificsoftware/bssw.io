@@ -12,8 +12,7 @@ Within the nascent domain of Research Software Engineering (RSE), improving the
 sustainability<sup>[1]</sup> of research software is a main objective. A
 great boon in this pursuit has been the emergence of RSE teams as *central*
 resources at organisations, independent of any research group. Of course, these
-types of teams have existed for quite some time, such as at High Performance
-Computing (HPC) facilities, but what I am referring to is the explosion of new
+types of teams have existed for quite some time, such as at high-performance computing (HPC) facilities, but what I am referring to is the explosion of new
 central RSE teams across all forms of research institutions that has happened
 primarily in the past ten years since the RSE term was coined.
 
@@ -39,7 +38,7 @@ In addition, we face the practical problems of:
 
 1. legacy code
 2. lack of awareness and buy-in to good software engineering practice
-3. absence of unified software development policy
+3. absence of a unified software development policy
 
 These are not unique to our institution, but it is worth sharing our strategy
 and activities for tackling them, which is summarised in the image below.
@@ -49,9 +48,9 @@ and activities for tackling them, which is summarised in the image below.
 <img src='../../images/2023-02-RSE_Team_Activities.png' class='page lightbox' />[DOI: 10.6084/m9.figshare.20473515.v1]
 
 I suspect like most central RSE teams, our time is predominantly spent on work
-funded by the projects of other research groups. It is our bread-and-butter, and
+funded by the projects of other research groups. It is our bread and butter, and
 it is truly important work to do. One of the best ways of spreading software
-sustainability is practicing what you preach. There is an important subtopic
+sustainability is by practicing what you preach. There is an important subtopic
 of this work that I call "consultancy", which deserves mention because it is one
 way that we can directly influence the structure and planning of research
 projects so that they consider software sustainability from the beginning rather
@@ -59,7 +58,7 @@ than as an afterthought, at which point it is much more difficult to correct
 course. We have advised on project funding proposals in the past and sat on
 interview panels, both of which plant seeds for future software sustainability.
 We have also done one-off code reviews, usually on quite large portions of
-existing code bases with the purpose of getting them fit for release. Whilst we
+existing code bases to get them fit for release. Whilst we
 aim to encourage regular code review as part of merge requests in all
 substantial software projects, this doesn't always happen, and it is still
 important to support the projects that haven't adopted this practice yet. This
@@ -68,7 +67,7 @@ got assigned when I started as an RSE and because I have been an
 active participant in the [Research Code Review
 Community](https://dev-review.readthedocs.io/en/latest/).
 
-Although project-funded work takes up the bulk of our time, I place an equal
+Although project-funded work takes up the bulk of our time, I place equal
 importance on the smaller portion of our work that is enabled by some core
 funding (the right side of the figure above). Why? Because not being tied to any
 particular research project means that we can do work that we believe benefits
@@ -88,10 +87,10 @@ skill exchange.
 I would be remiss not to also mention the "Training" subtopic. For over five
 years, our team has been delivering the regular Python-based Software Carpentry
 Workshop along with some of our own material on automated testing and best
-practices. Early this year, [I lead a successful pilot of the new Carpentries
-course "Intermediate Research Software Development in Python"](https://bielsnohr.github.io/2022/04/25/review-intermediate-course.html)
+practices. Early this year, I lead a successful pilot of the new Carpentries
+course "[Intermediate Research Software Development in Python](https://bielsnohr.github.io/2022/04/25/review-intermediate-course.html)"
 as the main thrust of my SSI fellowship, and it has now become part of our
-regular courses offering.
+regular course offerings.
 
 ## Personal Experience
 
@@ -106,14 +105,14 @@ previous research experiences. The variety of projects that a central RSE team
 can offer has enabled me to travel far outside my domain expertise yet still
 contribute meaningfully. Consequently, I have acquired a broader picture of the
 activities at my laboratory to which I feel personally connected, whereas during
-my PhD I felt quite detached and isolated, only focussing on my own work.
+my PhD I felt quite detached and isolated, only focusing on my own work.
 
 A side-effect of varied project work is the potential to time-bound these
 commitments. As a researcher, I found the lack of clear milestones and
 acceptance criteria frustrating: projects never seemed to really end. Of course,
 I still work in research and am therefore beholden to its vicissitudes, but the
 coupling is less strong---to borrow a phrase from my days as a physicist. Time
-allocation on a project is typically agreed up front, and the chunks of work
+allocation on a project is typically agreed up front, and the chunks of work are
 defined as much as possible. This doesn't completely guard against scope creep
 and over-run milestones, but it helps.
 
@@ -122,12 +121,12 @@ effectively a research support role means that I never truly "own" a project.
 I have reduced autonomy in deciding what I work on because it is dependent on
 what a research group needs. Personally, I have mitigated this by getting involved
 in the "core funded" activities mentioned above. For instance I am now the Lead
-for RSE Training at UKAEA, a role which give me opportunity to steer and project
+for RSE Training at UKAEA, a role which gives me the opportunity to steer and project
 manage.
 
 ## Conclusion
 
-It is my hope that this brief summary of my group's activities will be helpful
+I hope that this brief summary of my group's activities will be helpful
 to other central RSE groups in their effort to promote software sustainability.
 And I hope that by sharing my personal experiences I can provide some
 information to those who might be considering whether to join a central RSE
