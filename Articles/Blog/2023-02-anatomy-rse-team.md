@@ -2,11 +2,13 @@
 
  **Hero Image:**
 
-  - <img src='../../images/2023-02-interior-of-the-JET-tokamak-2.jpg' />[Interior of the JET tokamak with the ITER-like wall. Credit: EUROfusion.] 
+  - <img src='../../images/Blog_2302_JETplasma.png' /> 
 
 #### Contributed by [Matthew Bluteau](https://github.com/bielsnohr)
 
 #### Publication date: February 23, 2023
+
+<sup>Interior of the JET tokamak with the ITER-like wall. Credit: EUROfusion.</sup>
 
 Within the nascent domain of research software engineering (RSE), improving the
 sustainability<sup>[1]</sup> of research software is a main objective. A
@@ -23,7 +25,7 @@ institutional level. I would like to address the strategies and
 operational model that my particular central RSE team at UKAEA (UK Atomic Energy
 Authority) uses to improve the development of research software.
 
-## Central Team Model
+### Central Team Model
 
 First, some context for my team is necessary. Fusion science is a broad domain
 in terms of both scientific disciplines and spatial and temporal time scales,
@@ -91,7 +93,7 @@ course "[Intermediate Research Software Development in Python](https://bielsnohr
 as the main thrust of my Software Sustainability Institute fellowship, and it has now become part of our
 regular course offerings.
 
-## Personal Experience
+### Personal Experience
 
 Observing the macroscopic characteristics of a central RSE team, as done above, is
 important to build awareness of how the types of teams are structured and
@@ -123,7 +125,7 @@ in the "core-funded" activities mentioned above. For instance I am now the lead
 for RSE training at UKAEA, a role that gives me the opportunity to steer and project
 manage.
 
-## Conclusion
+### Conclusion
 
 I hope that this brief summary of my group's activities will be helpful
 to other central RSE groups in their effort to promote software sustainability.
