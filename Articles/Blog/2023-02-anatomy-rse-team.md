@@ -79,7 +79,7 @@ which is a monthly meeting dedicated to research software topics. At the moment,
 this takes the format of a short presentation to inspire subsequent discussion,
 but in the future I am hoping to make it more interactive with actual coding
 activities to facilitate learning through practice, similar to a "coding club"
-or "coding dojo."<sup>[2]</sup> Fostering this software community is a
+or "coding dojo."<sup>[2],[3],[4]</sup> Fostering this software community is a
 foundational part of good software development because it enables knowledge and
 skill exchange.
 
@@ -136,9 +136,10 @@ team.
 This post builds on a [personal blog
 post](https://bielsnohr.github.io/2022/10/14/pasc22-minisymposium-summary.html#from-the-trenches-of-a-central-rse-team) that summarised [a talk](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=10&id=msa233&sess=sess125.html) I gave at the [PASC22](https://pasc22.pasc-conference.org/) conference.
 
-[1-sfer-ezikiw]: https:// "This is a run-down on the many definitions of software sustainability from the people who have "Software Sustainability" in their name: <https://software.ac.uk/resources/approaches-software-sustainability>"
-
-[2-sfer-ezikiw]: https:// "I gave a [quick lightning talk about Coding Dojos](https://doi.org/10.6084/m9.figshare.14330822.v2), and the definitive source is [a book by Emily Bache](https://leanpub.com/codingdojohandbook).  [This SSI blog post](https://www.software.ac.uk/blog/2021-07-12-coding-clubs-research-software-communities-questions-consider-part-one) gives a broader overview of what a coding club can be."
+[1]: https://software.ac.uk/resources/approaches-software-sustainability "This is a run-down on the many definitions of software sustainability from the people who have 'Software Sustainability' in their name"
+[2]: https://doi.org/10.6084/m9.figshare.14330822.v2 "I gave a quick lightning talk about Coding Dojos"
+[3]: https://leanpub.com/codingdojohandbook "The definitive source is a book by Emily Bache"
+[4]: https://www.software.ac.uk/blog/2021-07-12-coding-clubs-research-software-communities-questions-consider-part-one "a broader overview of what a coding club can be"
 
 ### Author bio
 
@@ -149,11 +150,3 @@ Publish: yes
 Pinned: no
 Topics: strategies for more effective teams
 --->
-<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
-[1]: #sfer-ezikiw-1 "This is a run-down on the many definitions of software sustainability from the people who have "Software Sustainability" in their name: <https://software.ac.uk/resources/approaches-software-sustainability>"
-[2]: #sfer-ezikiw-2 "I gave a [quick lightning talk about Coding Dojos](https://doi.org/10.6084/m9.figshare.14330822.v2), and the definitive source is [a book by Emily Bache](https://leanpub.com/codingdojohandbook).  [This SSI blog post](https://www.software.ac.uk/blog/2021-07-12-coding-clubs-research-software-communities-questions-consider-part-one) gives a broader overview of what a coding club can be."
-<!-- (sfer-ezikiw begin) -->
-### References
-<!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[This is a run-down on the many definitions of software sustainability from the people who have "Software Sustainability" in their name: <https://software.ac.uk/resources/approaches-software-sustainability>](https://)
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[I gave a [quick lightning talk about Coding Dojos](https://doi.org/10.6084/m9.figshare.14330822.v2), and the definitive source is [a book by Emily Bache](https://leanpub.com/codingdojohandbook).  [This SSI blog post](https://www.software.ac.uk/blog/2021-07-12-coding-clubs-research-software-communities-questions-consider-part-one) gives a broader overview of what a coding club can be.](https://)
