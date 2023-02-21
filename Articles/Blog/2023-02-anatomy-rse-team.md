@@ -154,11 +154,11 @@ Topics: strategies for more effective teams
 [1]: #sfer-ezikiw-1 "This is a run-down on the many definitions of software sustainability from the people who have 'Software Sustainability' in their name"
 [2]: #sfer-ezikiw-2 "I gave a quick lightning talk about Coding Dojos"
 [3]: #sfer-ezikiw-3 "The definitive source is a book by Emily Bache"
-[4]: #sfer-ezikiw-4 "a broader overview of what a coding club can be"
+[4]: #sfer-ezikiw-4 "A broader overview of what a coding club can be"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[This is a run-down on the many definitions of software sustainability from the people who have 'Software Sustainability' in their name](https://software.ac.uk/resources/approaches-software-sustainability)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[I gave a quick lightning talk about Coding Dojos](https://doi.org/10.6084/m9.figshare.14330822.v2)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[The definitive source is a book by Emily Bache](https://leanpub.com/codingdojohandbook)
-* <a name="sfer-ezikiw-4"></a><sup>4</sup>[a broader overview of what a coding club can be](https://www.software.ac.uk/blog/2021-07-12-coding-clubs-research-software-communities-questions-consider-part-one)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[A broader overview of what a coding club can be](https://www.software.ac.uk/blog/2021-07-12-coding-clubs-research-software-communities-questions-consider-part-one)
