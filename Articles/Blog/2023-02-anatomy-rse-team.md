@@ -46,7 +46,7 @@ and activities for tackling them, which is summarized in the image below.
 
 <br>
 
-<img src='../../images/2023-02-RSE_Team_Activities.png' class='page lightbox' />[DOI: 10.6084/m9.figshare.20473515.v1]
+<img src='../../images/Blog_2302_RSE_Team_Activities.png' class='page lightbox' />[DOI: 10.6084/m9.figshare.20473515.v1]
 
 I suspect that, like most central RSE teams, our time is predominantly spent on work
 funded by the projects of other research groups. It is our bread and butter, and
