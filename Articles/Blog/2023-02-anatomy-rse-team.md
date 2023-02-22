@@ -25,7 +25,7 @@ institutional level. I would like to address the strategies and
 operational model that my particular central RSE team at UKAEA (UK Atomic Energy
 Authority) uses to improve the development of research software.
 
-### Central Team Model
+### Central team model
 
 First, some context for my team is necessary. Fusion science is a broad domain
 in terms of both scientific disciplines and spatial and temporal time scales,
@@ -65,7 +65,7 @@ substantial software projects, this doesn't always happen; and it is still
 important to support the projects that haven't adopted this practice yet. This
 is a subject close to my heart because it was one of the first "side" projects I
 got assigned when I started as an RSE and because I have been an
-active participant in the Research Code Review
+active participant in the [Research Code Review
 Community](https://dev-review.readthedocs.io/en/latest/).
 
 Although project-funded work takes up the bulk of our time, I place equal
@@ -93,7 +93,7 @@ course "[Intermediate Research Software Development in Python](https://bielsnohr
 as the main thrust of my Software Sustainability Institute fellowship, and it has now become part of our
 regular course offerings.
 
-### Personal Experience
+### Personal experience
 
 Observing the macroscopic characteristics of a central RSE team, as done above, is
 important to build awareness of how the types of teams are structured and
