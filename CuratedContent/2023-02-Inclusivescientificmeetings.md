@@ -2,7 +2,7 @@
 
 <!-- deck text start --> 
 
-The *Guide to Inclusive Scientific Meetings*, supports planners and managers in designing for successfuly inclusive scientific meetings.
+The *Guide to Inclusive Scientific Meetings* supports planners and managers in designing successfuly inclusive scientific meetings.
 
 <!-- deck text start --> 
 
