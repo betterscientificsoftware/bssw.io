@@ -2,7 +2,7 @@
 
 **Name:** Brittany Johnson-Matthews
 
-**Image:** /images/People_Johnson-MatthewsBrittany.jpg
+**Image:** /images/People_Johnson-MatthewsBrittany_v2.jpg
 
 **Affiliation:** George Mason University
 
