@@ -2,7 +2,7 @@
 
 **Name:** Max Jones
 
-**Image:** /images/People_JonesMax.jpg
+**Image:** /images/People_JonesM_v2.jpg
 
 **Affiliation:** University of Hawaiʻi at Mānoa
 
