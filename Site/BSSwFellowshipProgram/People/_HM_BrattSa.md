@@ -2,7 +2,7 @@
 
 **Name:** Sarah Bratt
 
-**Image:** /images/People_BrattSarah_v2.jpg
+**Image:** /images/People_BrattSarah_v3.jpg
 
 **Affiliation:** Syracuse University
 
