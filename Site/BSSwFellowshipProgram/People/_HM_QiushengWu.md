@@ -2,7 +2,7 @@
 
 **Name:** Qiusheng Wu
 
-**Image:** /images/People_QiushengWu.jpg
+**Image:** /images/People_QiushengWu_v2.jpg
 
 **Affiliation:** University of Tennessee, Knoxville
 
