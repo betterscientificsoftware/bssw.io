@@ -2,7 +2,7 @@
 
 **Name:** Rafael Mudafort
 
-**Image:** /images/People_MudafortRafael.jpg
+**Image:** /images/People_MudafortRafael_v2.jpg
 
 **Affiliation:** National Renewable Energy Laboratory
 
