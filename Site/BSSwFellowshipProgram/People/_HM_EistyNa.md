@@ -2,7 +2,7 @@
 
 **Name:** Nasir Eisty
 
-**Image:** /images/People_NassirUddinEisty.jpg
+**Image:** /images/People_EistyNassirUddin.jpg
 
 **Affiliation:** University of Alabama
 
