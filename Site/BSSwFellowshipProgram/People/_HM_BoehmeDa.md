@@ -2,7 +2,7 @@
 
 **Name:** David Boehme
 
-**Image:** /images/People_DavidBoehme.jpg
+**Image:** /images/People_DavidBoehme_v2.jpg
 
 **Affiliation:** Lawrence Livermore National Laboratory
 
