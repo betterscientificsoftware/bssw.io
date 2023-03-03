@@ -2,7 +2,7 @@
 
 **Name:** William Godoy
 
-**Image:** /images/People_GodoyWilliam.jpg
+**Image:** /images/People_GodoyWilliam_v2.jpg
 
 **Affiliation:** Oak Ridge National Laboratory
 
