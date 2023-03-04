@@ -14,7 +14,7 @@ Event Information | Details
 Event Name | [Argonne Training Program on Extreme-Scale Computing (ATPESC 2023)](https://extremecomputingtraining.anl.gov/)
 Event Date | July 30, 2023 – August 11, 2023
 Website | https://extremecomputingtraining.anl.gov/
-Submission Deadline | March 1, 2023. Please see event website for exact deadline, extensions and future updates.
+Submission Deadline | March 8, 2023. Please see event website for exact deadline, extensions and future updates.
 Registration and Other Information | https://extremecomputingtraining.anl.gov/application/
 
 
