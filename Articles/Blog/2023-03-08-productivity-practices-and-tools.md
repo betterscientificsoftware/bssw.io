@@ -123,7 +123,7 @@ Alternatively, interruptions can sometimes be managed by simply being wholly una
 When reviewing time logs, ask yourself if time could or should have been spent more productivly.
 Why did that happened?
 What could be automated/delegated?
-Don't be surprised if you wind up being surprised what you actually spend your time on.
+You may be surprised what you actually spend your time on.
 
 #### Tools to consider
 
