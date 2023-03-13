@@ -135,7 +135,7 @@ Manual time tracking can be straightforward as the example above shows.
 Automatic tools track application usage and, if configured properly, an account for the same application being used for different purposes.
 Some time tracking tools provide informative ways to visualize how time was spent as a summary.
 
-Consider [ActivityWatch](https://activitywatch.net/), [TimeWarrior](https://timewarrior.net/).
+Consider [ActivityWatch](https://activitywatch.net/) (an automatic time tracker), [TimeWarrior](https://timewarrior.net/) (a manual time tracker).
 
 ### Closing thoughts
 
