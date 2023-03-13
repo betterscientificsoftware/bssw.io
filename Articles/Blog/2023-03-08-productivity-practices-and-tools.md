@@ -1,6 +1,6 @@
 # Busy != Productive
 
-#### Contributed by [Robert Underwood](https://robertu94.github.io) and [Mark C. Miller](https://github.com/markcmiller86)
+#### Contributed by [Robert Underwood](https://robertu94.github.io)
 
 We've all heard the slogans...*"Do more with less"*, *"Work smarter not harder"*, *"Failing to plan means planning to fail"*, *"Slower is faster"*.
 
