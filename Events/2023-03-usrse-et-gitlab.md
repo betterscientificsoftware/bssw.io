@@ -1,4 +1,4 @@
-# Setting up a Scientific Software Project using GitLab -- From Zero to Hero (Webinar)
+# Setting up a Scientific Software Project using GitLab: From Zero to Hero (Webinar)
 
 <!-- deck text start --> 
 US-RSE periodically presents technical talks and tutorials related to Education & Training for RSEs.
