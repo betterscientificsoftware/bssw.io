@@ -83,7 +83,8 @@ The approach suggests that you **DO** those tasks that are both urgent and impor
 
 #### Tools to consider
 
-If your work life is many short tasks that come and go quickly, consider a white board.
+A white board can be a useful way to manage tasks, especially when its being shared across a co-located team.
+
 In addition, consider [Apple Reminders](https://support.apple.com/en-us/HT205890), [Google Keep](https://keep.google.com/), [Trello](https://trello.com/), [Jira](https://www.atlassian.com/software/jira), [TaskWarrior](https://taskwarrior.org/), [Omnifocus](https://www.omnigroup.com/omnifocus), [Things](https://culturedcode.com/things/), [Due](https://www.dueapp.com/), [GitHub Projects](https://github.blog/2022-07-21-tips-tricks-for-using-github-projects-for-personal-productivity/).
 
 ### Time Tracking
