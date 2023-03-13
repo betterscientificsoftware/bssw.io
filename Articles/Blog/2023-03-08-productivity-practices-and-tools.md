@@ -49,8 +49,8 @@ Where appropriate, it might be worthwhile to align reflection cadence with a pro
 At longer cadences, more substantial reflection and review is appropriate.
 For example, at monthly intervals, its reasonable to check in with yourself and ask...what should I stop, start, and continue for next month?
 Are my practices productive and effective or do I need to make some adjustments?
-At quarterly intervals, ask yourself...what is my vision/theme/aspiration(s) for this season?
-How well did I live up to my aspirations last quarter?
+At longer intervals (e.g. seasonally), it is a good practice to ask yourself deeper questions...what is my vision/theme/aspiration(s) for this season?
+How well have I live up to my aspirations so far?
 
 #### Tools to consider
 
