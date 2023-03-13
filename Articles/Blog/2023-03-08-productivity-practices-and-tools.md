@@ -147,12 +147,7 @@ The important thing about tools is that they provide value added functionality a
 Almost all tools operate in the cloud enabling you to access your information from anywhere and with any device.
 
 <!---
-Publish: no
-RSS update: 2023-03-08
+Publish: Yes
 Categories: Better Skills
 Topics: Personal Productivity and Sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->
