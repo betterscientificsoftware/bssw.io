@@ -18,7 +18,6 @@ Event Information | Details
 Event Name | [2023 ACM Conference on Reproducibility and Replicability](https://acm-rep.github.io/2023/)
 Event Date |  June 27-29, 2023
 Website | https://acm-rep.github.io/2023/
-Registration and Other Information | https://acm-rep.github.io/2023/
 
 THE ACM REP international conference aims to bring together experts and practitioners engaged in the advancement and conduct of reproducible science in computing disciplines. The first-of-its-kind conference will serve as a premier forum for the exchange and presentation of the concepts, tools, techniques, practice and state-of-art in reproducible science. The conference committee invites original research contributions and practical system designs, implementations and evaluations on several topics relating to reproducibility and replicability. The ACM REP program will consist of peer-reviewed articles, invited talks, panels, and posters, and demonstrations. The conference committee also invites tutorials related to reproducibility and independent verification.
 
