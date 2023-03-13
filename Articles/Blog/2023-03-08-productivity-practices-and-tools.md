@@ -70,7 +70,7 @@ For many, the tactile act of checking tasks off as done or moving tasks across a
 
 When defining tasks, make them SMART -- specific, measurable, attainable, relevant, and timely.
 
-* Specific -- Specify as many of the [Five W's](https://en.wikipedia.org/wiki/Five_Ws) as possible (Who is responsible? What is the definition of done? When does it need to be completed? Where does it need to happen? Why is it necessary?)
+* Specific -- Specify as many of the [Five W's](https://en.wikipedia.org/wiki/Five_Ws) as practical (Who is responsible? What is the definition of done? When does it need to be completed? Where does it need to happen? Why is it necessary?)
 * Measurable -- Identify a quantifieable way for an observer to judge progress or completion. What are the artifacts or evidence of progress or completion?
 * Achievable -- Is everything needed (experience, skills, time, resources, etc.) to accomplish the task available? This may not always be clearly known before hand.
 * Relevant -- Is the task related to broader goals and themes?
