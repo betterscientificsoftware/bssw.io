@@ -18,13 +18,12 @@ We invite submissions for the 1st US-RSE Conference to be held in Chicago, Octob
 
 Event Information | Details
 :--- | :---			   
-Event Name | [United States Research Software Engineer Association Conference 2023 (US-RSE'23)]([https://extremecomputingtraining.anl.gov/](https://us-rse.org/usrse23/))
+Event Name | [United States Research Software Engineer Association Conference 2023 (US-RSE'23)](https://us-rse.org/usrse23/)
 Deadline for workshops, tutorials, and BoFs| March 30, 2023
 Deadline for papers and notebooks| May 1, 2023
 Deadline for poster and talk abstracts| June 19, 2023
 Event Dates| October 16-18, 2023
 Website | https://us-rse.org/usrse23/
-Registration and Other Information | https://us-rse.org/usrse23/
 
 We invite submissions for the 1st US-RSE Conference to be held in Chicago, October 16 to 18, 2023. The theme of this year’s conference will be “Software Enabled Discovery and Beyond.” As such topics of interest include (but are not limited to):
 
