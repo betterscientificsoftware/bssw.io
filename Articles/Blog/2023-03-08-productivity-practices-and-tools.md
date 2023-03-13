@@ -43,6 +43,7 @@ Bullet journaling recommends using pen and paper journals, because it requires e
 
 Common reflection cadences are daily, weekly and monthly.
 Where appropriate, it might be worthwhile to align reflection cadence with a project's sprint cadence.
+
 [Building a Second Brain](https://www.buildingasecondbrain.com/) recommends *progressive summarization* which involves underlining important entries upon daily review, highlighting important underlined entries upon weekly review and migrating (copying) important highlighted entries upon monthly review.
 
 At longer cadences, more substantial reflection and review is appropriate.
