@@ -14,7 +14,7 @@ Mastering the practices and tools described here will help make more time availa
 
 ### Productivity Journaling
 
-Productivity journaling is different from general journaling (e.g. keeping a diary).
+Journaling for productivity is different what most people think of as keeping a diary.
 Productivity journaling captures tasks, observations, ideas, and lessons to be periodically reviewed, distilled and migrated.
 
 * **Tasks**: identify something that needs to be done (e.g. a bug to fix).
