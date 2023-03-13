@@ -51,7 +51,7 @@ For example, at monthly intervals, its reasonable to check in with yourself and 
 Are my practices productive and effective or do I need to make some adjustments?
 At longer intervals (e.g. seasonally), it is a good practice to ask yourself deeper questions...what is my vision/theme/aspiration(s) for this season?
 How well have I live up to my aspirations so far?
-At these more substantial reflection points, its often a good practice to bring the old journal to a close and start a *new* journal by copying key information (e.g. migrating) forward.
+At these more substantial reflection points, its often a good practice to bring the old journal to a close and start a *new* journal by copying key information (e.g. migrating) forward to encourage reflecting on what is worth moving forward.
 
 #### Tools to consider
 
