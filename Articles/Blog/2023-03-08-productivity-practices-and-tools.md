@@ -4,7 +4,7 @@
 
 We've all heard the slogans...*"Do more with less"*, *"Work smarter not harder"*, *"Failing to plan means planning to fail"*, *"Slower is faster"*.
 
-Some critical skills *effective* software professionals need to master include managing a wide variety of tasks, accounting for how they spend their time, and continuously improving their own practices.
+*Effective* software professionals need to master managing a wide variety of tasks, accounting for how they spend their time, and continuously improving their own practices.
 For many, journaling, task management, and time tracking tools will help with these practices.
 
 However, as David Sparks and Mike Schmitz hosts of the [Focused podcast](https://www.relay.fm/focused) put it, "life is about more than cranking widgets".
