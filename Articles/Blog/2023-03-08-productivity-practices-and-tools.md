@@ -22,7 +22,7 @@ Journaling captures tasks, observations, ideas, and lessons to be periodically r
 * **Ideas**: capture unspecific but maybe important thoughts to be processed later (e.g. a better approach to a sorting problem).
 * **Lessons**: record key takeaways worth sharing with others (even your future self).
 
-Effective productivity journaling also demands that one periodically slow down, pause, reflect and review their record of activity.
+Effective  journaling also demands that one periodically slow down, pause, and reflect to review their record of activity.
 Such pauses enable one to make more deliberate decisions (e.g. acting instead of re-acting) about future work as well as to recognize patterns of activity worth changing.
 While there are many approaches to journaling, two useful sets of strategies come from [Bullet Journaling by Ryder Carroll](https://bulletjournal.com/) and [Building A Second Brain by Tiago Forte](https://www.buildingasecondbrain.com/)
 
