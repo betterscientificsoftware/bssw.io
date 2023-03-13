@@ -55,7 +55,7 @@ At these more substantial reflection points, its often a good practice to bring 
 
 #### Tools to consider
 
-There is a video series from [Tiago Forte](https://www.youtube.com/playlist?list=PLVNXAaej57W7fbYoc_XJ0bA0T3k_Ye-Q2) that describes a variety of journaling tools.
+There is a video series from [Tiago Forte](https://www.youtube.com/playlist?list=PLVNXAaej57W7fbYoc_XJ0bA0T3k_Ye-Q2) that describes a which journaling tools work best for different people.
 In addition, consider [Drafts](https://getdrafts.com/), [GoodNotes](https://www.goodnotes.com/), [Notion](https://www.notion.so/), [Obsidian](https://obsidian.md/), [Evernote](https://evernote.com/).
 
 ### Task Management
