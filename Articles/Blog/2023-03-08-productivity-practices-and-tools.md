@@ -142,7 +142,7 @@ Consider [ActivityWatch](https://activitywatch.net/) (an automatic time tracker)
 Specific tools are not as important as actual practice.
 Good pencil and paper approaches can be adopted for every practice mentioned here.
 In fact, some schools of thought recommend using pencil and paper over other tools because its inexpensive, quick and nearly infinitely flexible.
-Its a good idea to start with pencil and paper and after gaining experience you will be able to more easily identify tools that will fit your needs.
+Its a good idea to start with pencil and paper and after gaining experience you will be able to more easily identify digital tools that may fit your needs.
 The important thing about tools is that they provide value added functionality and don't get in the way.
 Almost all tools operate in the cloud enabling you to access your information from anywhere and with any device.
 
