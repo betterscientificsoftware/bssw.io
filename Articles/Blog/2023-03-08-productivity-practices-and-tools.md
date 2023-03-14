@@ -85,15 +85,14 @@ The approach suggests that you **DO** those tasks that are both urgent and impor
 #### Tools to consider
 
 A white board can be a useful way to manage tasks, especially when its being shared across a co-located team.
-
-In addition, consider [Apple Reminders](https://support.apple.com/en-us/HT205890), [Google Keep](https://keep.google.com/), [Trello](https://trello.com/), [Jira](https://www.atlassian.com/software/jira), [TaskWarrior](https://taskwarrior.org/), [Omnifocus](https://www.omnigroup.com/omnifocus), [Things](https://culturedcode.com/things/), [Due](https://www.dueapp.com/), [GitHub Projects](https://github.blog/2022-07-21-tips-tricks-for-using-github-projects-for-personal-productivity/).
+Beyond that, consider [Apple Reminders](https://support.apple.com/en-us/HT205890), [Google Keep](https://keep.google.com/), [Trello](https://trello.com/), [Jira](https://www.atlassian.com/software/jira), [TaskWarrior](https://taskwarrior.org/), [Omnifocus](https://www.omnigroup.com/omnifocus), [Things](https://culturedcode.com/things/), [Due](https://www.dueapp.com/), [GitHub Projects](https://github.blog/2022-07-21-tips-tricks-for-using-github-projects-for-personal-productivity/).
 
 ### Time Tracking
 
 The last key part of this trio of practices is time tracking.
 That is, keeping track of what you _actually_ spend your time doing. 
 The more frequently you switch tasks and/or are subjected to interruptions, the more challenging time tracking can be.
-A simple practice, with minimal error, uses tally marks for each quarter hour (15 minutes) next to task names/ids.
+A simple practice uses tally marks for each quarter hour (15 minutes) next to task names/ids.
 
 For example, suppose you plan to spend 4 hours on task A in the morning and 4 hours on task B in the afternoon.
 Midway through your morning, a collaborator asks you to quickly review an abstract and bio before it is submitted.
@@ -120,6 +119,7 @@ Task D        ||                       0.5
 Total                                  0.75
 ```
 
+Error resulting from quarter-hour resolution can be minimized by rounding and consolidating (e.g. group many short, < 5 min, tasks).
 With experience, interruption volume can even be predicted and planned accordingly.
 Alternatively, interruptions can sometimes be managed by simply being wholly unavailable (e.g. in your office not answering calls or email, etc.) except at prescribed times.
 
