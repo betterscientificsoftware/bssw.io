@@ -4,7 +4,7 @@
 US-RSE periodically presents technical talks and tutorials related to Education & Training for RSEs.
 <!-- deck text ends -->
 
-- Event Dates: March 22, 2023
+- Event Date: March 22, 2023
 - Location: online
 - Website: https://us-rse.org/events/2023/2023-03-education-training-tutorial/
 - Organizers: US-RSE Association
