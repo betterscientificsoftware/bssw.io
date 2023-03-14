@@ -103,19 +103,22 @@ Your four hour morning on task A has now become 3 hours and 20 minutes.
 
 #### Planned tasks
 
-Task | Time Tallies | Total
-:--- | :---: | ---:
-Task A | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \| | 3.25
-Task B | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| | 4
-**Total**||**7.25** | &nbsp; | **Total**||**0.75**
-
+```
+Task A        ||||  ||||  ||||  |      3.25 
+-------------------------------------------
+Task B        ||||  ||||  ||||  ||||   4.0 
+-------------------------------------------
+Total                                  7.25
+```
 #### Interruption tasks
 
-Task | Time Tallies | Total
-:--- | :---: | ---:
-Task C | \| | 0.25
-Task D | \|\| | 0.5
-**Total**||**0.75**
+```
+Task C        |                        0.25
+-------------------------------------------
+Task D        ||                       0.5
+-------------------------------------------
+Total                                  0.75
+```
 
 With experience, interruption volume can even be predicted and planned accordingly.
 Alternatively, interruptions can sometimes be managed by simply being wholly unavailable (e.g. in your office not answering calls or email, etc.) except at prescribed times.
