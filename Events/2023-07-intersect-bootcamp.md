@@ -59,7 +59,7 @@ We welcome anyone who identifies with the description above and is interested in
 
 Selection Criteria: Potential participants will be asked to explain their background and future goals as they relate to research software. We are committed to ensuring a diverse group of participants both in terms of traditional measures of diversity as well as domains and types of institutions. Applications will be reviewed independent of need for funding until all available funded slots are filled after which those applicants who are able to support their own travel will be accepted until all slots are filled.
 
-Please check the [bootcamp webpage]([https://us-rse.org/usrse23/](https://intersect-training.org/bootcamp23/) for further details and updates.
+Please check the [bootcamp webpage](https://intersect-training.org/bootcamp23/) for further details and updates.
 
 <!---
 Publish: yes
