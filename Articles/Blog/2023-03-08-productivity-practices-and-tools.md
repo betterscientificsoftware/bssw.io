@@ -92,7 +92,7 @@ In addition, consider [Apple Reminders](https://support.apple.com/en-us/HT205890
 The last key part of this trio of practices is time tracking.
 That is, keeping track of what you _actually_ spend your time doing. 
 The more frequently you switch tasks and/or are subjected to interruptions, the more challenging time tracking can be.
-A simple practice uses tally marks for each quarter hour (15 minutes) next to task names/ids.
+A simple practice, with minimal error, uses tally marks for each quarter hour (15 minutes) next to task names/ids.
 
 For example, suppose you plan to spend 4 hours on task A in the morning and 4 hours on task B in the afternoon.
 Midway through your morning, a collaborator asks you to quickly review an abstract and bio before it is submitted.
@@ -100,25 +100,12 @@ After spending 15 minutes on this new task C, you take a bathroom break.
 On your way back, a user pulls you into their office asking for help and you spend 25 minutes with them (new task D).
 Your four hour morning on task A has now become 3 hours and 20 minutes.
 
-<table>
-<tr><th>Planned work</th><th>Interruptions</th></tr>
-<tr><td>
-
-Task | Time Tallies | Total
-:--- | :---: | ---:
-Task A | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \| | 3.25
-Task B | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| | 4
-**Total**||**7.25**
-
-</td><td>
-
-Task | Time Tallies | Total
-:--- | :---: | ---:
-Task C | \| | 0.25
-Task D | \|\| | 0.5
-**Total**||**0.75**
-
-</td></tr> </table>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Planned work**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Interruptions**
+Task | Time Tallies | Total | &nbsp; | Task | Time Tallies | Total
+:--- | :---: | ---: | :---: | :--- | :---: | ---:
+Task A | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \| | 3.25 | &nbsp; | Task C | \| | 0.25
+Task B | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| | 4 | &nbsp; | Task D | \|\| | 0.5
+**Total**||**7.25** | &nbsp; | **Total**||**0.75**
 
 With experience, interruption volume can even be predicted and planned accordingly.
 Alternatively, interruptions can sometimes be managed by simply being wholly unavailable (e.g. in your office not answering calls or email, etc.) except at prescribed times.
