@@ -101,6 +101,7 @@ On your way back, a user pulls you into their office asking for help and you spe
 Your four hour morning on task A has now become 3 hours and 20 minutes.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Planned work**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Interruptions**
+
 Task | Time Tallies | Total | &nbsp; | Task | Time Tallies | Total
 :--- | :---: | ---: | :---: | :--- | :---: | ---:
 Task A | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \| | 3.25 | &nbsp; | Task C | \| | 0.25
