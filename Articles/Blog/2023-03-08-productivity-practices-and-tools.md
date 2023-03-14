@@ -101,13 +101,21 @@ After spending 15 minutes on this new task C, you take a bathroom break.
 On your way back, a user pulls you into their office asking for help and you spend 25 minutes with them (new task D).
 Your four hour morning on task A has now become 3 hours and 20 minutes.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Planned work**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Interruptions**
+#### Planned tasks
 
-Task | Time Tallies | Total | &nbsp; | Task | Time Tallies | Total
-:--- | :---: | ---: | :---: | :--- | :---: | ---:
-Task A | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \| | 3.25 | &nbsp; | Task C | \| | 0.25
-Task B | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| | 4 | &nbsp; | Task D | \|\| | 0.5
+Task | Time Tallies | Total
+:--- | :---: | ---:
+Task A | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \| | 3.25
+Task B | \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| &nbsp; \|\|\|\| | 4
 **Total**||**7.25** | &nbsp; | **Total**||**0.75**
+
+#### Interruption tasks
+
+Task | Time Tallies | Total
+:--- | :---: | ---:
+Task C | \| | 0.25
+Task D | \|\| | 0.5
+**Total**||**0.75**
 
 With experience, interruption volume can even be predicted and planned accordingly.
 Alternatively, interruptions can sometimes be managed by simply being wholly unavailable (e.g. in your office not answering calls or email, etc.) except at prescribed times.
