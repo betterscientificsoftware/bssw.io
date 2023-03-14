@@ -104,6 +104,8 @@ Your four hour morning on task A has now become 3 hours and 20 minutes.
 #### Planned tasks
 
 ```
+Task          Time Tallies            Total 
+-------------------------------------------
 Task A        ||||  ||||  ||||  |      3.25 
 -------------------------------------------
 Task B        ||||  ||||  ||||  ||||   4.0 
@@ -113,6 +115,8 @@ Total                                  7.25
 #### Interruption tasks
 
 ```
+Task          Time Tallies            Total 
+-------------------------------------------
 Task C        |                        0.25
 -------------------------------------------
 Task D        ||                       0.5
