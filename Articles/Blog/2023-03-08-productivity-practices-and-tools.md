@@ -12,7 +12,7 @@ The goal of these tools is not to enable getting more done (they probably will),
 While it may be satisfying to write another unit test, release a new feature, or resolve a stubborn bug, there is always more we *could* be doing.
 Mastering the practices and tools described here will help make more time available for what we believe we *should* be doing, most.
 
-### Productivity Journaling
+### Productivity journaling
 
 Journaling for productivity is different from what most people think of as keeping a diary.
 Journaling captures tasks, observations, ideas, and lessons to be periodically reviewed, distilled and migrated.
@@ -26,7 +26,7 @@ Effective  journaling also demands that one periodically slow down, pause, and r
 Such pauses enable one to make more deliberate decisions (e.g. acting instead of re-acting) about future work as well as to recognize patterns of activity worth changing.
 While there are many approaches to journaling, two useful sets of strategies come from [Bullet Journaling by Ryder Carroll](https://bulletjournal.com/) and [Building A Second Brain by Tiago Forte](https://www.buildingasecondbrain.com/)
 
-#### Key Journaling Strategies
+#### Key journaling strategies
 
 What to journal and how to journal are deeply personal.
 Here are a few of the high level strategies to consider:
@@ -59,7 +59,7 @@ At these more substantial reflection points, its often a good practice to bring 
 There is a video series from [Tiago Forte](https://www.youtube.com/playlist?list=PLVNXAaej57W7fbYoc_XJ0bA0T3k_Ye-Q2) that describes a which journaling tools work best for different people.
 In addition, consider [Drafts](https://getdrafts.com/), [GoodNotes](https://www.goodnotes.com/), [Notion](https://www.notion.so/), [Obsidian](https://obsidian.md/), [Evernote](https://evernote.com/).
 
-### Task Management
+### Task management
 
 While journaling aims to help *you* to be a generally more productive person, task management enables productivity of a particular plan of action.
 If tasks are not managed, they can wind up being left undone or, maybe worse, done without respect for priorities.
@@ -87,7 +87,7 @@ The approach suggests that you **DO** those tasks that are both urgent and impor
 A white board can be a useful way to manage tasks, especially when its being shared across a co-located team.
 Beyond that, consider [Apple Reminders](https://support.apple.com/en-us/HT205890), [Google Keep](https://keep.google.com/), [Trello](https://trello.com/), [Jira](https://www.atlassian.com/software/jira), [TaskWarrior](https://taskwarrior.org/), [Omnifocus](https://www.omnigroup.com/omnifocus), [Things](https://culturedcode.com/things/), [Due](https://www.dueapp.com/), [GitHub Projects](https://github.blog/2022-07-21-tips-tricks-for-using-github-projects-for-personal-productivity/).
 
-### Time Tracking
+### Time tracking
 
 The last key part of this trio of practices is time tracking.
 That is, keeping track of what you _actually_ spend your time doing. 
