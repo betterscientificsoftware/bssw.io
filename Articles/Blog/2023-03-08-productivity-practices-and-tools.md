@@ -150,6 +150,15 @@ Its a good idea to start with pencil and paper and after gaining experience you 
 The important thing about tools is that they provide value added functionality and don't get in the way.
 Almost all tools operate in the cloud enabling you to access your information from anywhere and with any device.
 
+### Author bio
+
+Robert Underwood is a Postdoctoral Appointee at Argonne National Laboratory in the Mathematics and Computer Science Division under Franck Cappello.
+His research interests are at the [intersection of HPC, lossy compression, and data management](http://robertu94.github.io/about).
+He earned his Ph.D. in Computer Science from Clemson University in 2021.
+He leads development of the [LibPressio data compression library ecosystem](http://robertu94.github.io/libpressio), is a contributor to the [SZ compression framework](http://szcompressor.org/), and participates in the [Joint Laboratory for Extreme Scale Computing](https://jlesc.github.io/).
+Wherever he is, he advocates for software productivity through sustainable development.
+He writes articles on [his website](http://robertu94.github.io/learning.html) as he continues learning.
+
 <!---
 Publish: Yes
 Categories: Better Skills
