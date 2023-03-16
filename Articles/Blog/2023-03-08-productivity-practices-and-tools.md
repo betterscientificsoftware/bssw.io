@@ -157,7 +157,7 @@ His research interests are at the [intersection of HPC, lossy compression, and d
 He earned his Ph.D. in Computer Science from Clemson University in 2021.
 He leads development of the [LibPressio data compression library ecosystem](http://robertu94.github.io/libpressio), is a contributor to the [SZ compression framework](http://szcompressor.org/), and participates in the [Joint Laboratory for Extreme Scale Computing](https://jlesc.github.io/).
 Wherever he is, he advocates for software productivity through sustainable development.
-He writes articles on [his website](http://robertu94.github.io/learning.html) as he continues learning.
+He writes articles as he is [learning to learn](http://robertu94.github.io/learning.html) on his website
 
 <!---
 Publish: Yes
