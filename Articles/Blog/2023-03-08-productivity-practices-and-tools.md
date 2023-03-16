@@ -7,7 +7,7 @@ We've all heard the slogans...*"Do more with less"*, *"Work smarter not harder"*
 *Effective* software professionals need to master managing a wide variety of tasks, accounting for how they spend their time, and continuously improving their own practices.
 For many, journaling, task management, and time tracking tools will help with these practices.
 
-However, as David Sparks and Mike Schmitz hosts of the [Focused podcast](https://www.relay.fm/focused) put it, "life is about more than cranking widgets".
+However, as David Sparks and Mike Schmitz, hosts of the [Focused podcast](https://www.relay.fm/focused) put it, "life is about more than cranking widgets".
 The goal of these tools is not to enable getting more done (they probably will), but to enable people to be better stewards of their time and resources.
 While it may be satisfying to write another unit test, release a new feature, or resolve a stubborn bug, there is always more we *could* be doing.
 Mastering the practices and tools described here will help make more time available for what we believe we *should* be doing, most.
