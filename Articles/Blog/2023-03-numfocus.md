@@ -1,7 +1,7 @@
 # NumFOCUS: A Fiscal Sponsor of Scientific Software
 
 <!-- Begin deck text -->
-Since its inception in 2012, NumFOCUS has served as a fiscal sponsor for more than 100 projects, many of which are used every day by adademic and industrial researchers while promoting open practices in research, data, and scientific computing.
+Since its inception in 2012, NumFOCUS has served as a fiscal sponsor for more than 100 projects, many of which are used every day by adademic and industrial researchers, while promoting open practices in research, data, and scientific computing.
 <!-- End deck text -->
 
 #### Contributed by Andy R. Terrel
@@ -12,7 +12,7 @@ Since its inception in 2012, NumFOCUS has served as a fiscal sponsor for more th
 
 [NumFOCUS](https://numfocus.org/) was founded in 2012 with the simple goal of helping to fund the maintenance burden of scientific software. Over the past two decades, the community has recognized a gap between the organizational practices of open source communities and the practices that raise funding. We can address this gap with fiscal sponsorship: a financial tool for sharing fiscal and legal entity status between groups. Today, NumFOCUS promotes open practices in research, data, and scientific computing. It is the fiscal sponsor for more than 100 projects, many of which are used every day by academic and industrial researchers. Here I review the necessity of our work, the role of the fiscal sponsor in applied mathematics research, and the ways in which scientists can engage with our efforts.
 
-#### Software Libraries: The Backbone Between Industrial and Applied Mathematics
+### Software Libraries: The Backbone Between Industrial and Applied Mathematics
 
 Nearly all of the software that powers applied mathematics research has shifted to open source distribution models, which allow researchers the freedom to create derived works and distribute their own software. As a result, open source scientific software has become the backbone for the delivery of applied mathematics libraries to the wider community. The community then employs these libraries in a broad array of applications that range from space launches to internet businesses, home appliances, and so on. Unfortunately, the research groups that develop these software libraries have difficulty procuring reliable funding for maintenance.
 
