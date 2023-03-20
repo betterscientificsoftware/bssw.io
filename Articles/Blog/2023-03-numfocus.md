@@ -4,7 +4,7 @@
 Since its inception in 2012, NumFOCUS has served as a fiscal sponsor for more than 100 projects, many of which are used every day by adademic and industrial researchers, while promoting open practices in research, data, and scientific computing.
 <!-- End deck text -->
 
-#### Contributed by Andy R. Terrel
+#### Contributed by [Andy R. Terrel](https://github.com/aterrel "Andy Terrel GitHub Profile")
 
 #### Publication date: March 17, 2023
 
@@ -12,7 +12,7 @@ Since its inception in 2012, NumFOCUS has served as a fiscal sponsor for more th
 
 [NumFOCUS](https://numfocus.org/) was founded in 2012 with the simple goal of helping to fund the maintenance burden of scientific software. Over the past two decades, the community has recognized a gap between the organizational practices of open source communities and the practices that raise funding. We can address this gap with fiscal sponsorship: a financial tool for sharing fiscal and legal entity status between groups. Today, NumFOCUS promotes open practices in research, data, and scientific computing. It is the fiscal sponsor for more than 100 projects, many of which are used every day by academic and industrial researchers. Here I review the necessity of our work, the role of the fiscal sponsor in applied mathematics research, and the ways in which scientists can engage with our efforts.
 
-### Software Libraries: The Backbone Between Industrial and Applied Mathematics
+### Software libraries: The backbone between industrial and applied mathematics
 
 Nearly all of the software that powers applied mathematics research has shifted to open source distribution models, which allow researchers the freedom to create derived works and distribute their own software. As a result, open source scientific software has become the backbone for the delivery of applied mathematics libraries to the wider community. The community then employs these libraries in a broad array of applications that range from space launches to internet businesses, home appliances, and so on. Unfortunately, the research groups that develop these software libraries have difficulty procuring reliable funding for maintenance.
 
@@ -20,7 +20,7 @@ A software’s popularity is both a blessing and a curse. The credit for innovat
 
 Researchers constantly seek new funding opportunities, ultimately creating a complex “funding fabric” that is comprised of various grants, contracts, book royalties, event fees, and other sources. Managing this fabric is therefore an administrative challenge that university mathematics departments are not equipped to handle — especially since mathematicians are not isolated within a single entity or country. Many commercial solutions have emerged over the years, such as the use of consulting agencies (e.g., [Kitware](https://www.kitware.com/) for [ParaView](https://www.paraview.org/)), value-added resellers (e.g., [Red Hat](https://www.redhat.com/en) for [Linux](https://www.linux.org/)), and internal groups within companies. However, these groups have different goals than the software community. Fiscal sponsorship is thus a solution that offers the community a sense of control.
 
-### Fiscal Sponsorship
+### Fiscal sponsorship
 
 At face value, fiscal sponsorship simply serves as a way for numerous like-minded groups to share legal and fiscal status. But even the mere act of accepting a check as a project—rather than as an individual—changes the relationship between the funder and the contributor. Fiscally sponsored software projects, on the other hand, can professionally manage their assets and liabilities.
 
@@ -38,7 +38,7 @@ Event Profits | Event Management
 
 Table 1. Assets and liabilities that may arise within an open source software community.
 
-### The Fiscal Sponsor’s Role in Applied Mathematics Research
+### The fiscal sponsor’s role in applied mathematics research
 
 For several decades, the standard in scientific software was that a university or government research laboratory would own the assets and liabilities for open source projects. This trend has changed over the last 10 years due to the recent explosion of software teams in both number and size. These teams have also crossed more borders and organizational boundaries, making it even harder to share costs.
 
@@ -48,7 +48,7 @@ Few organizations are willing to take on this common effort for software support
 
 The open source fiscal sponsor has become an archetypical organization in the software business world. These types of organizations are growing in popularity and act as a natural place to land the intellectual and communal assets of open source projects. Other fiscal sponsorship organizations have also become commonplace. The [Apache Software Foundation](https://www.apache.org/)—born out of the need to support the [Apache HTTP Server](https://httpd.apache.org/) when many web servers were becoming commercial—maintains software for the public good. The [Linux Foundation](https://linuxfoundation.org/) supports the Linux ecosystem and provides a neutral, trusted hub where developers can code, manage, and scale open technology projects. The [Free Software Foundation](https://www.fsf.org/) was established to bolster the GNU community. While many fiscal sponsors exist, NumFOCUS is differentiated by its sole intention to support scientific software and the needs of the common ecosystem.
 
-### How to Engage with Our Work
+### How to engage with our work
 
 NumFOCUS engages with software projects through its sponsorship programs, to which projects can apply each quarter. It has three basic criteria: be scientifically oriented, be open, and be kind. We require projects to have a scientific orientation because that is our mission. To be open, a project must be published under a standard open source license and seek engagement with the public as an intrinsic part of its development. Finally, participants must be kind because NumFOCUS aims to foster a constellation of healthy, productive communities. We believe that we can only achieve this goal if every project actively works towards making their communities friendly, inclusive, and respectful of each participant. Further details are available on our [website](https://numfocus.org/).
 
