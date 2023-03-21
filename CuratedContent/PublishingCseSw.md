@@ -81,5 +81,5 @@ sites which can provide a DOI for your software with little to no review:
 Publish: yes
 Topics: software publishing and citation
 Pinned: no
-RSS update: 2019-10-16
+RSS update: 2023-03-21
 --->
