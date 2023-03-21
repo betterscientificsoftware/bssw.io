@@ -22,6 +22,7 @@ RSS update: 2020-12-17
 ```
 
 Please note above:
+* "Publish" and "Topics" is the minimal metadata that is required. "Pinned" and "RSS update" are optional, as their usage is limited, but its recommended you use it.
 * The use of `<!--- --->` surrounding the metadata.
   * **Note:** This is an XML comment **with an extra dash**.
     **Three** dashes are required for the metadata block to be recognized.
@@ -47,9 +48,9 @@ Work that has not been finalized or is not intended for the front-end site shoul
 Please note that BSSw.io has a stand-alone website for previewing content before publishing. To view data on preview site, please use the "preview" label in the pull request of that item and rebuild the preview site. For previewing purposes, the 'publish' metadata is ignored and only the preview label is considered.
 
 
-
 ### Pinned
-This is used to decide if a content needs to show up as "recommended", when a particular category or topic is selected. Recommended articles will show up on the top of the list of articles. Only 1-2 articles are supposed to be listed as "recommended" at a given time in each topic area. Selecting a category will show up all the recommended articles of all the topic areas that comprise that category.
+This is used to decide if a content needs to show up as "recommended", when a particular category or topic is selected. Recommended articles will show up on the top of the list of articles. For every category and topic, there is a "What is" file that explains the name of that category/topic. These "What Is" files have 'Pinned: yes'. The intention is that these files show up on the top of the list (when a category or topic is clicked on) so that readers can understand what that category/topic means.
+
 ````
 pinned: yes
 
@@ -72,6 +73,7 @@ The current topics are as follows:
     - Requirements
     - Design
     - Software interoperability
+    - Software sustainability
 - **Development** category has the following topics:
     - Documentation
     - Configuration and builds
@@ -85,7 +87,10 @@ The current topics are as follows:
     - High-performance computing (HPC)
     - Performance at leadership computing facilities (LCFs)
     - Performance portability
+    - Cloud computing
+    - Big data
 - **Reliability** category has the following topics:
+    - Peer code review
     - Testing
     - Continuous integration testing
     - Reproducibility
@@ -93,6 +98,7 @@ The current topics are as follows:
 - **Collaboration** category has the following topics:
     - Projects and organizations
     - Strategies for more effective teams
+    - Inclusivity
     - Funding sources and programs
     - Software publishing and citation
     - Licensing
@@ -100,6 +106,7 @@ The current topics are as follows:
     - Conferences and workshops
 - **Skills** category has the following topics:
     - Online learning
+    - In-Person learning
     - Personal productivity and sustainability
     
 ### RSS update
@@ -117,7 +124,7 @@ RSS update: 2020-12-17
 
 ## Deprecated metadata
 
-Listed below are metadata that were created for various feature-related experiments, but **are not in use** currently.
+Listed below are metadata that were created for various feature-related experiments, but **are NOT IN USE** currently.
 
 **Tags**
 
