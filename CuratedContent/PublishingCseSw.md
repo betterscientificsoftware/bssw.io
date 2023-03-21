@@ -4,7 +4,7 @@ Publishing software is gaining traction in the CSE community. This
 article discusses possible venues and methods to publish CSE software.
 <!-- deck text end --> 
 
-#### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez") and [Rinku Gupta](https://github.com/rinkug "Rinku Gupta")
+#### Contributed by [Dan Ibanez](https://github.com/ibaned "Dan Ibanez")
 #### Publication date: March 20, 2023
 
 Resource information | Details 
@@ -24,7 +24,7 @@ we are still experimenting with various methods of citing software
 while trying to keep up with the rapidly accelerating scale, pace,
 and visibility of scientific software development.
 
-## Software Sustainability Institute's Listing of journals
+## Software Sustainability Institute's Listing of Journals
 
 The [Software Sustainability Institute in UK (SSI)](https://www.software.ac.uk/) maintains a webpage titled "[In which journals should I publish my software?](https://www.software.ac.uk/which-journals-should-i-publish-my-software)". This webpage provides a good list of current journals, divided into different categories such as "General journals", "Engineering", "Image Processing" etc.  
 
