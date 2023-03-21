@@ -3,7 +3,7 @@
 The Research Software Engineers in eScience workshop will focus on sustainable RSE ecosystems, encompassing both the role of RSEs in sustainable eScience and making the RSE ecosystem itself more sustainable.
 
 #### Contributed by [Kasia Salim](https://github.com/karbarz)
-#### Publication date: May 24, 2023
+#### Publication date: Mar 21, 2023
 
 - Submission Deadline: Friday, June 30, 2023
 - Event Dates: October 9, 2023, as part of eScience 2023 
