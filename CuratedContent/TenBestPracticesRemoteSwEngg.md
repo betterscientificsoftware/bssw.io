@@ -34,6 +34,6 @@ Following some of these practices may lead to increased happiness and therefore 
 <!---
 Publish: yes
 Topics: personal productivity and sustainability
-Pinned: yes
+Pinned: no
 RSS update: 2021-06-28
 --->

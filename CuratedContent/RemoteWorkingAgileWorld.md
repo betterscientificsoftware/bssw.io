@@ -38,8 +38,6 @@ Overall, this podcast offers nuggets for newcomers as well as for folks who are 
 <!---
 Publish: yes
 RSS update: 2020-04-12
-Pinned: yes
-RSS update: 
-Categories: skills
+Pinned: no
 Topics: personal productivity and sustainability
 --->
