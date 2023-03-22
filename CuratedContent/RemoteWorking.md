@@ -72,7 +72,7 @@ Sandia National Laboratories is a multimission laboratory managed and operated b
 <!---
 Publish: yes
 Topics: personal productivity and sustainability
-Pinned: yes
+Pinned: no
 RSS update: 2019-03-20
 --->
 
