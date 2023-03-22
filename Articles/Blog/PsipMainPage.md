@@ -54,12 +54,7 @@ PSIP has been used by several ECP teams and others in the BSSw.io community.
 
 <!---
 Publish: yes
-Pinned: yes
+Pinned: no
 RSS update: 2020-01-28
-Categories: planning, development, collaboration
 Topics: software process improvement
-Tags: bssw-blog-article
-Level:2
-Prerequisites: default
-Aggregate: none
 --->
