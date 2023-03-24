@@ -2,6 +2,10 @@
 
 #### Contributed by [Robert Underwood](https://robertu94.github.io)
 
+**Hero Image:**
+ 
+- <img src='../../images/Blog_2303_Organization_A.png' />
+
 We've all heard the slogans...*"Do more with less"*, *"Work smarter not harder"*, *"Failing to plan means planning to fail"*, *"Slower is faster"*.
 
 *Effective* software professionals need to master managing a wide variety of tasks, accounting for how they spend their time, and continuously improving their own practices.
