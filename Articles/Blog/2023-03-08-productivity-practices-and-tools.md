@@ -4,7 +4,7 @@
 
 **Hero Image:**
  
-- <img src='../../images/Blog_2303_Organization_A.png' />
+- <img src='../../images/Blog_2303_Organization.png' />
 
 We've all heard the slogans...*"Do more with less"*, *"Work smarter not harder"*, *"Failing to plan means planning to fail"*, *"Slower is faster"*.
 
