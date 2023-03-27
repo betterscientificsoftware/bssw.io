@@ -18,7 +18,10 @@ Openscapes' vision draws from what I experienced with open source tooling from t
 
 For my BSSw fellowship, I updated the [Champions Lesson Series](https://openscapes.github.io/series/) book architecture. Originally I built it with RMarkdown\'s [Bookdown](https://bookdown.org/) (left image below). Now it is built with [Quarto](https://quarto.org) (right image). This upgrade streamlines much future work, including that it enables it to have more subchapters in the left navbar, and a right navbar for each page. Also added to this architecture is Community Lessons and How To\'s, which have helped the 50 teams of professional environmental and Earth scientists we've taught since (see [impact blogs](https://www.openscapes.org/tags/impact/)). Modernizing the Lesson Series helped me practice using Quarto, which we've also used with the NASA Openscapes Mentors to develop the [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook) with Jupyter Notebooks as the first Quarto external users. Sidenote: through this collaboration, I keynoted the global launch of Quarto atRStudio::conf (Cetinkaya-Rundel & Lowndes, 2022: [slides](https://mine.quarto.pub/hello-quarto), [video](https://www.youtube.com/watch?v=p7Hxu4coDl8), [blog](https://www.openscapes.org/blog/2022/08/10/quarto-keynote/)).
 
-<!---TODO: add RMarkdown-Quarto images--->
+![](images/Blog_openscapes_series_bookdown.png)
+![](images/Blog_openscapes_series_quarto.png)
+
+*Comparison of Openscapes Champions Lesson Series created originally in RMarkdown's Bookdown (left) and updated in Quarto (right). Available at https://openscapes.org/series.*
 
 And, this culture shift is growing as we're seeing researchers we work with and the broader community fork this mode of working and teaching for their own needs. Gavin Fay created the [FayLab Manual](https://thefaylab.github.io/lab-manual/) onboarding resources for his lab --- a beautifully radical idea in science which itself has now been forked at least 45 times, including by NOAA Fisheries' [OpenSci Resource Book](https://nmfs-opensci.github.io/resourcebook). We're also seeing this for community building at the [California Water Boards](https://cawaterboarddatacenter.github.io/swrcb-openscapes/) and other NASA programs like [VEDA](https://nasa-impact.github.io/veda-docs/).
 
