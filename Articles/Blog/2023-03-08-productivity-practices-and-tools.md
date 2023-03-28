@@ -1,7 +1,7 @@
 # Busy != Productive
 
 #### Contributed by [Robert Underwood](https://robertu94.github.io)
-#### Publication date: March 23, 2023
+#### Publication date: March 28, 2023
 
 
 **Hero Image:**
@@ -170,5 +170,4 @@ He writes articles on his website as he is [learning to learn](http://robertu94.
 Publish: yes
 Pinned: no
 Topics: Personal Productivity and Sustainability
-RSS update: 2023-03-28
 --->
