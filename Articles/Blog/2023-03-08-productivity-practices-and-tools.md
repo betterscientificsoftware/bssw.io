@@ -6,10 +6,10 @@
  
 - <img src='../../images/Blog_2303_Organization.png' />
 
-We've all heard the slogans...*"Do more with less"*, *"Work smarter not harder"*, *"Failing to plan means planning to fail"*, *"Slower is faster"*.
+We've all heard the slogans... "Do more with less", "Work smarter not harder", "Failing to plan means planning to fail", "Slower is faster".
 
-*Effective* software professionals need to master managing a wide variety of tasks, accounting for how they spend their time and continuously improving their own practices.
-For many, journaling, task management, and time tracking tools will help with these practices.
+Effective software professionals need to master managing a wide variety of tasks, accounting for how they spend their time and continuously improving their own practices. For many, journaling, task management, and time tracking tools will help with these practices.
+
 
 However, as David Sparks and Mike Schmitz, hosts of the [Focused podcast](https://www.relay.fm/focused) put it, "life is about more than cranking widgets."
 The goal of these tools is not to enable getting more done (they probably will), but to enable people to be better stewards of their time and resources.
@@ -32,13 +32,9 @@ While there are many approaches to journaling, two useful sets of strategies com
 
 #### Key journaling strategies
 
-What to journal and how to journal are deeply personal.
-Here are a few high-level strategies to consider:
+What to journal and how to journal are deeply personal. Here are a few high-level strategies to consider:
 
-First, treat a journal as an append only log.
-Journaling is most useful when one can make entries quickly and easily.
-The more effort involved, the less likely journaling will be done.
-Now, one may ask, *"if the journal is append only, and everything is jumbled together, how can you ever find anything?"*
+First, treat a journal as an append only log. Journaling is most useful when one can make entries quickly and easily. The more effort involved, the less likely journaling will be done. Now, one may ask, *"if the journal is append only, and everything is jumbled together, how can you ever find anything?"*
 The answer is in the second key strategy.
 
 Second, periodically reflect and distill what was journaled.
@@ -65,23 +61,27 @@ In addition, consider [Drafts](https://getdrafts.com/), [GoodNotes](https://www.
 
 ### Task management
 
-While journaling aims to help *you* to be a generally more productive person, task management enables productivity of a particular plan of action.
+While journaling aims to help *you* be a generally more productive person, task management enables productivity of a particular plan of action.
 If tasks are not managed, they can wind up being left undone or, maybe worse, done without respect for priorities.
 In turn, this circumstance can hurt longer-term goals.
 
-For many, the tactile acts of checking tasks off as done or moving tasks across a project board (e.g., Kanban) have great appeal because these provide a sense of progress.
+While journaling aims to help *you* be a generally more productive person, task management enables productivity of a particular plan of action. 
+If tasks are not managed, they can end up being left undone or, maybe worse, done without respect for priorities. 
+In turn, this circumstance can hurt longer-term goals.
+
+For many, the tactile acts of checking tasks off as done or moving tasks across a project board (e.g., Kanban) have great appeal because they provide a sense of progress.
 
 #### What goes into task management?
 
 When defining tasks, make them SMART -- specific, measurable, attainable, relevant, and timely.
 
 * **Specific**: Specify as many of the [Five W's](https://en.wikipedia.org/wiki/Five_Ws) as practical (Who is responsible? What is the definition of done? When does it need to be completed? Where does it need to happen? Why is it necessary?)
-* **Measurable**: Identify a quantifieable way for an observer to judge progress or completion. What are the artifacts or evidence of progress or completion?
+* **Measurable**: Identify a quantifiable way for an observer to judge progress or completion. What are the artifacts or evidence of progress or completion?
 * **Achievable**: Is everything needed (experience, skills, time, resources, etc.) to accomplish the task available? This may not always be clearly known before hand.
 * **Relevant**: Is the task related to broader goals and themes?
-* **Time-bound**: What is the deadline? Or what is the the maximum time you are willing to put into this task to move it forward?
+* **Time-bound**: What is the deadline? Or what is the maximum time you are willing to put into this task to move it forward?
 
-This information can help determine know how a task fits into larger goals, as well as when and how it should be done.
+This information can help determine how a task fits into larger goals, as well as when and how it should be done.
 
 Another useful tool for managing tasks is the [*Eisenhower Matrix*](https://en.wikipedia.org/wiki/First_Things_First_(book)), which divides tasks along two axes: "urgent and not urgent" and "important and not important".
 The approach suggests that you **DO** those tasks that are both urgent and important, **PLAN** those tasks that are not urgent but still important, **DELEGATE** those tasks that are urgent but not important and **ELIMINATE** those tasks that are neither urgent nor important.
@@ -131,28 +131,29 @@ Error resulting from quarter-hour resolution can be minimized by rounding and co
 With experience, interruption volume can even be predicted and planned accordingly.
 Alternatively, interruptions can sometimes be managed by simply being wholly unavailable (e.g., in your office not answering calls or email, etc.) except at prescribed times.
 
-When reviewing time logs, ask yourself if time could or should have been spent more productivly.
+When reviewing time logs, ask yourself if time could or should have been spent more productively.
 Why did that happened?
 What could be automated/delegated?
 You may be surprised where you actually spend your time.
 
 #### Tools to consider
 
-There are automatic and manual time tracking tools.
-Manual time tracking can be straightforward, as the example above shows.
-Automatic tools track application usage. If configured properly, the tools can account for the same application being used for different purposes.
+There are automatic and manual time tracking tools. 
+Manual time tracking can be straightforward, as the example above shows. 
+Automatic tools track application usage. If configured properly, the tools can account for the same application being used for different purposes. 
 Some time tracking tools provide informative ways to visualize how time is spent.
 
 Consider [ActivityWatch](https://activitywatch.net/) (an automatic time tracker) and [TimeWarrior](https://timewarrior.net/) (a manual time tracker).
 
 ### Closing thoughts
 
-Specific tools are not as important as actual practices.
-Good pencil and paper approaches can be adopted for every practice mentioned here.
-In fact, some schools of thought recommend using pencil and paper over other tools because it's inexpensive, quick, and nearly infinitely flexible.
-It's a good idea to start with pencil and paper, and after gaining experience, you will be able to more easily identify digital tools that may fit your needs.
-Tools should provide value-added functionality and not get in the way.
-Almost all tools operate in the cloud, enabling users to access information from anywhere and with any device.
+Specific tools are not as important as the actual practices themselves. 
+Good pencil and paper approaches can be adopted for every practice mentioned here. 
+In fact, some schools of thought recommend using pencil and paper over other tools because it is inexpensive, quick, and infinitely flexible. 
+Starting with pencil and paper is a good idea, and after gaining experience, you will be able to more easily identify digital tools that may fit your needs. 
+Tools should provide value-added functionality and not hinder your workflow.
+Additionally, almost all tools operate in the cloud, allowing users to access information from anywhere and with any device.
+
 
 ### Author bio
 
@@ -164,7 +165,8 @@ Wherever he is, he advocates for software productivity through sustainable devel
 He writes articles on his website as he is [learning to learn](http://robertu94.github.io/learning.html).
 
 <!---
-Publish: Yes
-Categories: Better Skills
+Publish: yes
+Pinned: no
 Topics: Personal Productivity and Sustainability
+RSS update: 2022-03-28
 --->
