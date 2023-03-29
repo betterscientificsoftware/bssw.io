@@ -1,4 +1,4 @@
-# Is project management killing your software product?
+# Is Project Management Killing your Software Product?
 
 <!--deck text start-->
 To ensure success in software development, it is crucial to recognize the common mistakes in project management that can result in failure, and to identify and adopt best practices that help avoid these pitfalls.
