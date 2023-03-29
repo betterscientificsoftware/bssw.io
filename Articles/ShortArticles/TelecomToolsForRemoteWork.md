@@ -677,8 +677,6 @@ add-on product called *WebEx Assistant* later this year.
 <!---
 Publish: yes
 RSS update: 2020-05-28
-Pinned: yes
-RSS update: 
-Categories: skills
+Pinned: no
 Topics: personal productivity and sustainability
 --->
