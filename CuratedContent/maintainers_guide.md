@@ -6,7 +6,7 @@ Maintainers of open source projects will benefit from understanding how to impro
 
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
 
-#### Publication date: March 29, 2023
+#### Publication date: April 10, 2023
 
 <!--body text start-->
 Resource information | Details
@@ -26,7 +26,7 @@ This guide shows that the work of maintainers goes well beyond coding tasks.  It
  
 <!---
 Publish: yes
+Pinned: no
 RSS update: 2022-08-07
-Categories: collaboration, skills
 Topics: projects and organizations
 --->
