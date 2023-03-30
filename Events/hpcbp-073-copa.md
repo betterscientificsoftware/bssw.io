@@ -13,7 +13,7 @@ high-performance computers (HPC) and occur approximately monthly.
 
 Resource Information | Details
 :--- | :---			   
-Webinar Title | Facilitating Electronic Structure Calculations on GPU based Exascale Platforms
+Webinar Title | Facilitating Electronic Structure Calculations on GPU-based Exascale Platforms
 Date and Time | 2023-04-12 01:00 pm EDT
 Presenter | Jean-Luc Fattebert (Oak Ridge National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar073>	   
