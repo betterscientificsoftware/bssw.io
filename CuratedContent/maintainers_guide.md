@@ -1,4 +1,4 @@
-# A Collection of Open Software Maintainer Guides
+# A Collection of Open Source Software Maintainer Guides
 
 <!--deck text start-->
 Maintainers of open source projects will benefit from understanding how to improve their contributor base, handle conflicts, communicate effectively, develop roadmaps, and recruit financial sponsors.
