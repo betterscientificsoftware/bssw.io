@@ -1,4 +1,4 @@
-# Webinar: Facilitating Electronic Structure Calculations on GPU based Exascale Platforms
+# Webinar: Facilitating Electronic Structure Calculations on GPU-based Exascale Platforms
 
 - Event Date: 2023-04-12
 - Location: Online
