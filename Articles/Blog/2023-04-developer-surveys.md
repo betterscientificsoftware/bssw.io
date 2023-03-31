@@ -93,7 +93,8 @@ As an example, the RADIUSS team is a small group of people, each only 10-50% of 
 Even when we know there is a huge problem that needs attention, we might not have the people power to do it.
 So we decided that we would spread the overall messages of the survey to the teams or leaders that might be empowered to do something.
 As an example, one strong piece of insight we got (that is public) is that developers really like VSCode.
-It was very easy for me to see this and pair it with [this announcement from GitLab]([a public facing](https://software.llnl.gov/radiuss/2023/02/08/first-developer-survey/)) and approach one of the leads of the team that maintains GitLab and ask if this could be provided.
+It was very easy for me to see this [this announcement from GitLab](https://devclass.com/2022/12/20/gitlab-goes-public-with-web-ide-beta-based-on-visual-studio-code/) and realize that getting this integration enabled for our private GitLab instances would be hugely valued.
+It was then relatively easy to approach one of the leads of the team that maintains GitLab, express the interest, and ask if this could be provided.
 It was also easy to see that many folks were asking for a piece of software to be updated, but then to go to the team responsible and find out that they had good reasons to not be able to do it yet.
 
 This leads to my greatest worry about the survey - that we might put it out, get great insights, but not be empowered to take action on many of them.
