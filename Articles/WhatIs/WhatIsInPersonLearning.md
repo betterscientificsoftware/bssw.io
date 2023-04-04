@@ -12,7 +12,7 @@ In-person learning is important in scientific computing because it provides an o
 
 Engaging with peers in face-to-face collaboration facilitates more profound and personalized conversations and feedback, an integral part of the scientific field that thrives on networking and cooperation among students, software developers, researchers, and scientists. This form of in-person networking fosters meaningful connections and cultivates vital relationships, leading to potential job opportunities, innovative collaborations, mentorships, and the establishment of mutual trust and respect.
 
-The decision to choose between in-person and other methods like virtual learning ultimately hinges upon the unique needs, preferences, and circumstances of each individual, with some finding a blend of both methods to be effective while others may find one method to be more suitable.
+The decision to choose between in-person and other methods, such as virtual learning, ultimately hinges upon the unique needs, preferences, and circumstances of each individual. Some may find using a blend of both methods to be effective, while others may find one method to be more suitable.
 
 
 <!--- body end  --->
