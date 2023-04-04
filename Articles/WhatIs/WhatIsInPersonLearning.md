@@ -1,5 +1,6 @@
 
 ### What Is In-Person Learning?
+#### Contributed by [Rinku Gupta](https://github.com/rinkug)
 
 <!--- deck start --->
 In-person training provides invaluable opportunities for hands-on experience, direct feedback, and meaningful interaction that might be difficult to replicate in other settings.
@@ -17,11 +18,10 @@ The decision to choose between in-person and other methods, such as virtual lear
 
 <!--- body end  --->
 
-#### Contributed by [Rinku Gupta](https://github.com/rinkug)
  
 <!---
 Publish: yes
 Pinned: yes
 Topics: in-person learning
-RSS update: 2023-03-31
+RSS update: 2023-04-04
 --->
