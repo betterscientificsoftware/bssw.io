@@ -1,4 +1,6 @@
 ### What Is Online Learning?
+#### Contributed by [David Bernholdt](https://github.com/bernhold) and [Rinku Gupta](https://github.com/rinkug)
+#### Publication date: April 4, 2023
 
 <!--- deck start --->
 Online learning is gaining vast popularity  - resulting in abundant availability of learning resources that provide opportunities for broad audiences to learn about various topics.
@@ -18,11 +20,10 @@ This topic of online learning includes materials that place notable focus on sof
 
 <!--- body end  --->
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold) and [Rinku Gupta](https://github.com/rinkug)
  
 <!---
 Publish: yes
 Pinned: yes
 Topics: online learning
-RSS update: 2023-03-31
+RSS update: 2023-04-04
 --->
