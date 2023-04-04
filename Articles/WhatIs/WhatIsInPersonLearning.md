@@ -1,6 +1,8 @@
 
 ### What Is In-Person Learning?
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
+#### Publication date: April 4, 2023
+
 
 <!--- deck start --->
 In-person training provides invaluable opportunities for hands-on experience, direct feedback, and meaningful interaction that might be difficult to replicate in other settings.
