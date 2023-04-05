@@ -49,7 +49,7 @@ The best way to join this movement is to reuse and amplify existing community re
 Julia Stewart Lowndes, PhD is a marine ecologist working at the intersection of actionable environmental science, data science, and open science. Julia\'s main focus is mentoring teams to develop technical and leadership mindsets and skills for data-intensive research, grounded in climate solutions, inclusion, and kindness. She founded Openscapes in 2018 as a Mozilla Fellow and is a Senior Fellow at the National Center for Ecological Analysis and Synthesis (NCEAS), having earned her PhD from Stanford University in 2012 studying drivers and impacts of Humboldt squid in a changing climate.
 
 <!---
-Publish: no
+Publish: yes
 Pinned: no
 Topics: online learning
 --->
