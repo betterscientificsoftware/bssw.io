@@ -34,7 +34,9 @@ For my BSSw fellowship, I updated the [Champions Lesson Series](https://openscap
 
 <br>
 
-<img src='../../images/Blog_openscapes_series_quarto.png' class='page' />[Comparison of Openscapes Champions Lesson Series created originally in RMarkdown's Bookdown (left) and updated in Quarto (right). Available at https://openscapes.org/series.]
+<img src='../../images/Blog_openscapes_series_quarto.png' class='page' />[Comparison of Openscapes Champions Lesson Series created originally in RMarkdown's Bookdown (left) and updated in Quarto (right).]
+
+Available at https://openscapes.org/series.
 
 <br>
 
