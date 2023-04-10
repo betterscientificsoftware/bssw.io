@@ -1,0 +1,142 @@
+# What is an Inclusive Minute
+
+An inclusive minute (or inclusive moment) is an inclusivity practice designed for teams to easily add to existing meeting agendas.
+The practice is intentionally kept small, informal and uncontroversial to maximize the likelihood of adoption and uptake.
+The purpose is to raise awareness, inspire dialog, deeper thinking and/or inform future action.
+Although rather modest in its aims, especially when compared with the need it is intended to address, it is also a useful approach in helping to seed changes in culture.
+
+While a minute is never enough time, we aim to characterize a practice other teams can easily follow and adopt into their existing agendas.
+While we are all impacted by inclusion, sometimes in deeply personal ways, we aim for a focus that relates primarily to a team's existing work activities.
+While progress on inclusion is urgently needed, our modest aim here is simply to raise awareness and inspire further/deeper thought.
+
+During regular meetings, a small portion (often just a few minutes) of the agenda is set aside for a team member to share a factoid, event, resource or experience at the nexus of inclusion and **X**.
+What is **X**?
+If your team develops HPC software, **X** is HPC software development.
+If your team develops online training content, **X** is online training content development.
+If your team is an astrophisics team, **X** is astrophisics.
+**X** is whatever topic your team comes together regularly to meet about.
+Whatever **X** is, it is likely there is no shortage of interesting content involving inclusion and **X** or inclusion and things **X** is closely associated with.
+Keeping topics focused on the nexus of inclusion and **X** maximizes the relevance of the activity.
+
+On the IDEAS-ECP team, we have found no end of interesting topics.
+We have shared inclusive minutes about people ([Lynne Ann Conway](https://en.wikipedia.org/wiki/Lynn_Conway), [Gladys West](https://en.wikipedia.org/wiki/Gladys_West)), about films ([Picture a Scientist](https://en.wikipedia.org/wiki/Picture_a_Scientist), [Coded Bias](https://en.wikipedia.org/wiki/Coded_Bias)), about resources ([inclusive clip art](https://diversityandinclusion.uchicago.edu/resources/inclusive-illustrations/), [automated closed captioning](https://www.ai-media.tv/ai-media-blog/the-best-free-captioning-and-subtitling-tools-2/), [inclusive design](https://inclusive.microsoft.design)), about team meetings ([interruptions](https://www.wnycstudios.org/podcasts/radiolabmoreperfect/episodes/justice-interrupted), [quite-tude for introverts](https://susancain.net/book/quiet/)) about recruiting ([ECP BE program](https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/202203/ASCAC_202203_ECP_BroaderEngagement_Overview.pdf), expanding networks to include MSI/HBCUs) and more.
+
+#### Example inclusive minutes
+
+Lets suppose your team is an HPC/CSE software development team.
+In your case **X** is HPC/CSE software development.
+Examples of inclusive minute topics that are, by the terms offered here, within scope include...
+
+* A short description of the book [Black Software](https://en.wikipedia.org/wiki/Black_Software) and key take-aways you learned from reading it.
+* A reminder that color choices in UI design impact color-blind users.
+* Relaying a recent conversation with a colleague that feels Fortran programmers aren’t sufficiently supported in HPC/CSE.
+
+Examples of inclusive minute topics that are, by the terms offered here, out of scope include...
+
+* Sharing a recent personal negative interaction with a security official at the airport.
+  * Is it appropriate length? Probably. It certainly would not take more than a minute or two to share this experience.
+  * Is it closely related to **X**? Unless **X** indeed involves airport security, it probably is not.
+* Playing the YouTube video [Equality, Diversity and Inclusion](https://www.youtube.com/watch?v=Q6eqOBOqESM)
+  * Is it appropriate length? No. Its 6 minutes. 2-3 minutes might work but 6 is a bit too long.
+  * Is it closely related to **X**? Probably not. It is more of a general resource regarding inclusion and does not seem to tie inclusion into any specific **X**.
+* Going page-by-page through a resource such as [Microsoft's Inclusive Design](https://inclusive.microsoft.design/tools-and-activities/Inclusive101Guidebook.pdf)
+  * Is it appropriate length? The resource, by itself, is 50+ pages and would take too long to go through. However, sharing a link to the article and two or three take-aways in the form of a single slide would be appropriate length.
+  * Is it closely related to **X**? Even if **X** is software development, maybe not. The resource is extremely high level and general and really doesn't tie inclusion topics with an **X**.
+
+#### What is inclusion?
+
+Inclusion is about ensuring people with diverse identities and experiences have equitable access to resources and opportunities and feel safe, welcomed, respected, valued and encouraged to contribute as their full, authentic selves in any particular group or activity (quoted from Tony Baylis, Lawrence Livermore National Laboratory's Director for the Office of Strategic Diversity and Inclusion Programs).
+
+If diversity is being asked to the party, inclusion is being asked to dance. 
+
+Inclusive practices can play a role in improving almost every aspect of a software project including documentation, user interface design, customer support processes, collaborations, presentations and publications, communications (e.g. GitHub or email), 
+The benefits of inclusive practices include reducing barriers to adoption, attracting and retaining a wider talent pool, attracing more customers/users, increased productivity, increased innovation, improved job satisfaction.
+
+For many, inclusion is inseperable from the broader and often institutionalized enterprise of Diversity, Equity and Inclusion (DE&I).
+Viewed through a DE&I lens, inclusive practices can wind up being seen more as an exercise in achieving compliance rather than increasing participation or improving productivity.
+In turn, topics central to DE&I such as gender identity, sexual harrasment and racism can easily obscurve our perception of the full landscape of inclusive practices.
+Although these topics tend to capture more of the news headlines or tend to be where a lot of the more serious work is needed, inclusion is actually much, much wider than just those topics.
+
+#### There are many dimensions to inclusion
+
+There are many other dimensions to inclusion such as neurodivergence (15-20% of people), mobility impaired (16% of people), handedness (10% of people are lefties), dyslexia/dyscalculia (3-7% of people), visually impaired (1%-40% of people, depending on how we count), hearing impaired (15% of people), speaking impaired (3-7% of people), prone to migrains (10% of people), color vision deficient (CVD) (5% of people), self-regulating glucose impaired (12% of people).
+
+In addition, without trying too hard, its easy to think of many other ways in which large swaths of our population have a shared experience which is different from the the majority including such things as English as a second language, immigration status, culturally or religiously relevant legal holidays, remote/hybrid work arrangement and even time-zone just to name a few.
+
+People who have trouble empathizing with some dimensions of inclusion can often identify with other dimensions.
+When they do, that can lead to broadening their perspectives more generally.
+
+#### We will all experience the impairment dimension
+
+Towards that end, it is worth considering that we are all likely to experience the disability or impairment dimension of inclusion [at some point](https://accessibility.iu.edu/docs/Types_of_impairments.pdf) in our lives.
+As a trivial example, when participating via an audio-only modality in a video teleconference where visual content is being shared, you will experience situational visual impairment.
+Because of the situation, you are not able to see information which may be critical for you to fully participate and contribute.
+Likewise, if you are just home from a tough visit with the dentist, you may experience temporary speaking impairment.
+If you are recovering from an accident and need to use a wheel chair, you will experience temporary mobility impairment.
+
+#### Recommended logistics
+
+When preparing an inclusive minute (IM), there is no need for any formalism.
+In fact, the less formality the better because it lowers the bar for anyone considering leading an inclusive minute.
+Its best to even discourage the creation of slides but if an IM leader really wants to create a slide to share, they should be asked to keep it to a single slide.
+Leadership doesn't require a lot.
+Its useful to keep remarks brief...maybe just a minute or two at the most.
+The word "minute" in the title of the practice is doesn't necessarily mean it should be an actual minute...just a small amount of time so its easy to include in regular meeting agendas.
+Depending on a team's enthusiasm for follow up discussion on any given topic, in reality, an IM will typically take a *few* minutes.
+
+Its useful to consider the appropiate cadence for the inclusive minute practice as well.
+If your team meets once a week, having an inclusive minute on the first meeting of each new month may work best.
+If your team meets monthly, having an inclusive minute with every meeting may make the most sense.
+
+Some teams prefer to have inclusive minute at the end of their meetings and others prefer the beginning.
+There are advantages and disadvantages to either.
+At the beginning, follow-up dialog can run longer than expected putting the meeting leader in the position of having to cut-off conversation to get to the rest of the agenda.
+But, having the exercise at the beginning of the meeting also ensures it actually happens.
+It shows committment.
+At the end of the meeting, unless the team is committed to reserving time for the activity, it can feel rushed and/or like an afterthought.
+But, having the activity at the end does provide a natural way for any follow-up conversation to adjourn.
+
+It works best if leadership of the practice can regulary rotate to various members of the team.
+That said, no team member should be *required* to lead an inclusive minute.
+Its best if team members are encouraged (perhaps even by offering them assistance in preparing an inclusive minute) to consider leading one but leadership should otherwise be on a voluntary basis.
+
+It may be helpful, early on, to exercise some oversight of the practice by checking in with prospective IM leaders and ensuring their chosen topic fits within scope and time constraints.
+Once the team gains some experience, oversight may become unnecessary.
+Finally, to avoid repeats, it is also worth maintaining a catalog of inclusive minute topics.
+This can be useful for maintaining lists of both IM topics already shared as well as ideas for future topics.
+
+#### Dealing with conflict
+
+In spite of the fact that inclusion and inclusive practices are aimed at increasing access and participation for *everyone*, there will always be some who view it as primarily a gesture of political correctness or an imposition, off topic, and may even act against it by constantly playing a contrarion, or otherwise aiming to derail conversation.
+When such conflicts arise, what can a team leader do?
+
+The first place team leaders can look is their own institution's stated policies and procedures which often include valuing and furthering the goals of inclusion.
+See, for example, those of the [Department of Energy (DOE)](https://www.energy.gov/science/diversity-equity-inclusion) or [Lawrence Livermore National Lab](https://www.llnl.gov/diversity/our-values).
+When team members act in ways to derail conversation or which are otherwise contrary to inclusive practices, they should be reminded that they are then acting in ways contrary to the stated values of their institution.
+In some of the worst situations, it may be necessary to seek the help of human resources or an ombuds program, if available.
+If your institution is committed to its stated values, it should not be hard to find higher level managers willing to back you up.
+
+#### We already invest heavily in inclusion...in our code
+
+While a focus on inclusive practices may seem like a new idea, the truth is the code we've been writing has for decades exemplified all the best goals of inclusion.
+For example, our community desires *interoperable* libraries so that, for example, an application can easily swap one solver library (e.g. PETSc) for another (e.g. HYPRE).
+Interoperability is a manifestatin of inclusion in the code we write.
+
+We also value both API (e.g. compile-time) and ABI (link-time) compatability in successive or related versions of the same library.
+This is yet another manifestation of inclusion in the code we write.
+Likewise, we want our applications used by people all over the world and as such, value having interfaces (e.g. GUIs, CLIs) as well as documentation available in multiple human languages.
+For example, the VisIt application GUI supports English, French and Spanish and is designed to easily support other human languages.
+
+We also desire useful libraries to support multiple different programming language interface bindings such as C, C++, Fortran, Python or Java.
+For example, the Conduit library can be used *naturally* within C, C++, Fortran and Python programs.
+
+The whole goal of performance portability is to ensure HPC/CSE applications can operate efficiently on a wide variety of computational resources (e.g. CPUs, GPUs, co-processors, FPGAs, etc.).
+Performance portability is an extremenly challenging design goal requiring substantial effort and resources to achieve.
+It and the effort we invest in it is yet another example of how the goals of inclusion (e.g. supporting a wide variety of computational resources) manifest in the actual code we design and write.
+
+We value computational kernels and tools that operatoe on single, double, quad and mixed or arbitrary precision.
+For example, the ZFP compression library supports single, double precision and support for half and quad precision is on the todo list.
+
+The truth is, a substantial level of effort in the design, implementation and support of the software our HPC/CSE community develops and maintains is all about inclusion (of other software).
+It only makes sense that we would be equally committed, if not more so, to inclusion of other people as well.
+Commercial organizations whose business depends reach and growth (e.g. [Google](https://about.google/belonging/at-work/) and [Microsoft](https://inclusive.microsoft.design), [IBM](https://www.ibm.com/blogs/corporate-social-responsibility/2022/04/diversity-equity-inclusion/) and [NVIDIA](https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/)) are fully committed to inclusion. 
