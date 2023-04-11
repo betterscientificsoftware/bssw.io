@@ -13,7 +13,7 @@ During regular meetings, a small portion (often just a few minutes) of the agend
 What is **X**?
 If your team develops HPC software, **X** is HPC software development.
 If your team develops online training content, **X** is online training content development.
-If your team is an astrophisics team, **X** is astrophisics.
+If your team is an astrophysics team, **X** is astrophysics.
 **X** is whatever topic your team comes together regularly to meet about.
 Whatever **X** is, it is likely there is no shortage of interesting content involving inclusion and **X** or inclusion and things **X** is closely associated with.
 Keeping topics focused on the nexus of inclusion and **X** maximizes the relevance of the activity.
@@ -50,16 +50,16 @@ Inclusion is about ensuring people with diverse identities and experiences have 
 If diversity is being asked to the party, inclusion is being asked to dance. 
 
 Inclusive practices can play a role in improving almost every aspect of a software project including documentation, user interface design, customer support processes, collaborations, presentations and publications, communications (e.g. GitHub or email), 
-The benefits of inclusive practices include reducing barriers to adoption, attracting and retaining a wider talent pool, attracing more customers/users, increased productivity, increased innovation, improved job satisfaction.
+The benefits of inclusive practices include reducing barriers to adoption, attracting and retaining a wider talent pool, attracting more customers/users, increased productivity, increased innovation, improved job satisfaction.
 
-For many, inclusion is inseperable from the broader and often institutionalized enterprise of Diversity, Equity and Inclusion (DE&I).
+For many, inclusion is inseparable from the broader and often institutionalized enterprise of Diversity, Equity and Inclusion (DE&I).
 Viewed through a DE&I lens, inclusive practices can wind up being seen more as an exercise in achieving compliance rather than increasing participation or improving productivity.
-In turn, topics central to DE&I such as gender identity, sexual harrasment and racism can easily obscurve our perception of the full landscape of inclusive practices.
+In turn, topics central to DE&I such as gender identity, sexual harassment and racism can easily obscure our perception of the full landscape of inclusive practices.
 Although these topics tend to capture more of the news headlines or tend to be where a lot of the more serious work is needed, inclusion is actually much, much wider than just those topics.
 
 #### There are many dimensions to inclusion
 
-There are many other dimensions to inclusion such as neurodivergence (15-20% of people), mobility impaired (16% of people), handedness (10% of people are lefties), dyslexia/dyscalculia (3-7% of people), visually impaired (1%-40% of people, depending on how we count), hearing impaired (15% of people), speaking impaired (3-7% of people), prone to migrains (10% of people), color vision deficient (CVD) (5% of people), self-regulating glucose impaired (12% of people).
+There are many other dimensions to inclusion such as neurodivergence (15-20% of people), mobility impaired (16% of people), handedness (10% of people are lefties), dyslexia/dyscalculia (3-7% of people), visually impaired (1%-40% of people, depending on how we count), hearing impaired (15% of people), speaking impaired (3-7% of people), prone to migraines (10% of people), color vision deficient (CVD) (5% of people), self-regulating glucose impaired (12% of people).
 
 In addition, without trying too hard, its easy to think of many other ways in which large swaths of our population have a shared experience which is different from the the majority including such things as English as a second language, immigration status, culturally or religiously relevant legal holidays, remote/hybrid work arrangement and even time-zone just to name a few.
 
@@ -81,22 +81,23 @@ In fact, the less formality the better because it lowers the bar for anyone cons
 Its best to even discourage the creation of slides but if an IM leader really wants to create a slide to share, they should be asked to keep it to a single slide.
 Leadership doesn't require a lot.
 Its useful to keep remarks brief...maybe just a minute or two at the most.
-The word "minute" in the title of the practice is doesn't necessarily mean it should be an actual minute...just a small amount of time so its easy to include in regular meeting agendas.
+The word "minute" in the title of the practice doesn't necessarily mean it should be an actual minute...just a small amount of time so its easy to include in regular meeting agendas.
 Depending on a team's enthusiasm for follow up discussion on any given topic, in reality, an IM will typically take a *few* minutes.
 
-Its useful to consider the appropiate cadence for the inclusive minute practice as well.
-If your team meets once a week, having an inclusive minute on the first meeting of each new month may work best.
+Its useful to consider the appropriate cadence for the inclusive minute practice as well.
+If your team meets once a week, identifying new IM topics for every meeting may become a challeng.
+Doing an IM every other meeting or the first meeting of each month may be best.
 If your team meets monthly, having an inclusive minute with every meeting may make the most sense.
 
 Some teams prefer to have inclusive minute at the end of their meetings and others prefer the beginning.
 There are advantages and disadvantages to either.
 At the beginning, follow-up dialog can run longer than expected putting the meeting leader in the position of having to cut-off conversation to get to the rest of the agenda.
 But, having the exercise at the beginning of the meeting also ensures it actually happens.
-It shows committment.
+It shows commitment.
 At the end of the meeting, unless the team is committed to reserving time for the activity, it can feel rushed and/or like an afterthought.
 But, having the activity at the end does provide a natural way for any follow-up conversation to adjourn.
 
-It works best if leadership of the practice can regulary rotate to various members of the team.
+It works best if leadership of the practice can regularly rotate to various members of the team.
 That said, no team member should be *required* to lead an inclusive minute.
 Its best if team members are encouraged (perhaps even by offering them assistance in preparing an inclusive minute) to consider leading one but leadership should otherwise be on a voluntary basis.
 
@@ -107,7 +108,7 @@ This can be useful for maintaining lists of both IM topics already shared as wel
 
 #### Dealing with conflict
 
-In spite of the fact that inclusion and inclusive practices are aimed at increasing access and participation for *everyone*, there will always be some who view it as primarily a gesture of political correctness or an imposition, off topic, and may even act against it by constantly playing a contrarion, or otherwise aiming to derail conversation.
+In spite of the fact that inclusion and inclusive practices are aimed at increasing access and participation for *everyone*, there will always be some who view it as primarily a gesture of political correctness or an imposition, off topic, and may even act against it by constantly playing a contrarian, or otherwise aiming to derail conversation.
 When such conflicts arise, what can a team leader do?
 
 The first place team leaders can look is their own institution's stated policies and procedures which often include valuing and furthering the goals of inclusion.
@@ -120,9 +121,9 @@ If your institution is committed to its stated values, it should not be hard to 
 
 While a focus on inclusive practices may seem like a new idea, the truth is the code we've been writing has for decades exemplified all the best goals of inclusion.
 For example, our community desires *interoperable* libraries so that, for example, an application can easily swap one solver library (e.g. PETSc) for another (e.g. HYPRE).
-Interoperability is a manifestatin of inclusion in the code we write.
+Interoperability is a manifestation of inclusion in the code we write.
 
-We also value both API (e.g. compile-time) and ABI (link-time) compatability in successive or related versions of the same library.
+We also value both API (e.g. compile-time) and ABI (link-time) compatibility in successive or related versions of the same library.
 This is yet another manifestation of inclusion in the code we write.
 Likewise, we want our applications used by people all over the world and as such, value having interfaces (e.g. GUIs, CLIs) as well as documentation available in multiple human languages.
 For example, the VisIt application GUI supports English, French and Spanish and is designed to easily support other human languages.
@@ -131,10 +132,10 @@ We also desire useful libraries to support multiple different programming langua
 For example, the Conduit library can be used *naturally* within C, C++, Fortran and Python programs.
 
 The whole goal of performance portability is to ensure HPC/CSE applications can operate efficiently on a wide variety of computational resources (e.g. CPUs, GPUs, co-processors, FPGAs, etc.).
-Performance portability is an extremenly challenging design goal requiring substantial effort and resources to achieve.
+Performance portability is an extremely challenging design goal requiring substantial effort and resources to achieve.
 It and the effort we invest in it is yet another example of how the goals of inclusion (e.g. supporting a wide variety of computational resources) manifest in the actual code we design and write.
 
-We value computational kernels and tools that operatoe on single, double, quad and mixed or arbitrary precision.
+We value computational kernels and tools that operate on single, double, quad and mixed or arbitrary precision.
 For example, the ZFP compression library supports single, double precision and support for half and quad precision is on the todo list.
 
 The truth is, a substantial level of effort in the design, implementation and support of the software our HPC/CSE community develops and maintains is all about inclusion (of other software).
