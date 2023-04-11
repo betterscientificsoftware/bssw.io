@@ -39,7 +39,7 @@ Examples of inclusive minute topics that are, by the terms offered here, out of 
 * Playing the YouTube video [Equality, Diversity and Inclusion](https://www.youtube.com/watch?v=Q6eqOBOqESM)
   * Is it appropriate length? No. Its 6 minutes. 2-3 minutes might work but 6 is a bit too long.
   * Is it closely related to **X**? Probably not. It is more of a general resource regarding inclusion and does not seem to tie inclusion into any specific **X**.
-* Going page-by-page through a resource such as [Microsoft's Inclusive Design](https://inclusive.microsoft.design/tools-and-activities/Inclusive101Guidebook.pdf)
+* Going page-by-page through a resource such as [Microsoft's Inclusive Design](https://inclusive.microsoft.design/tools-and-activities/Inclusive101Guidebook.pdf).
   * Is it appropriate length? The resource, by itself, is 50+ pages and would take too long to go through. However, sharing a link to the article and two or three take-aways in the form of a single slide would be appropriate length.
   * Is it closely related to **X**? Even if **X** is software development, maybe not. The resource is extremely high level and general and really doesn't tie inclusion topics with an **X**.
 
@@ -81,11 +81,11 @@ In fact, the less formality the better because it lowers the bar for anyone cons
 Its best to even discourage the creation of slides but if an IM leader really wants to create a slide to share, they should be asked to keep it to a single slide.
 Leadership doesn't require a lot.
 Its useful to keep remarks brief...maybe just a minute or two at the most.
-The word "minute" in the title of the practice doesn't necessarily mean it should be an actual minute...just a small amount of time so its easy to include in regular meeting agendas.
+The word "minute" in the title of the practice doesn't necessarily mean it should be an actual minute...just a small amount of time so its easy to add to regular meeting agendas.
 Depending on a team's enthusiasm for follow up discussion on any given topic, in reality, an IM will typically take a *few* minutes.
 
 Its useful to consider the appropriate cadence for the inclusive minute practice as well.
-If your team meets once a week, identifying new IM topics for every meeting may become a challeng.
+If your team meets once a week, identifying new IM topics for every meeting may become a challenge.
 Doing an IM every other meeting or the first meeting of each month may be best.
 If your team meets monthly, having an inclusive minute with every meeting may make the most sense.
 
@@ -101,7 +101,7 @@ It works best if leadership of the practice can regularly rotate to various memb
 That said, no team member should be *required* to lead an inclusive minute.
 Its best if team members are encouraged (perhaps even by offering them assistance in preparing an inclusive minute) to consider leading one but leadership should otherwise be on a voluntary basis.
 
-It may be helpful, early on, to exercise some oversight of the practice by checking in with prospective IM leaders and ensuring their chosen topic fits within scope and time constraints.
+It may be helpful, early on, to exercise some oversight by checking in with prospective IM leaders and ensuring their chosen topic and plans for sharing fit within scope and time constraints.
 Once the team gains some experience, oversight may become unnecessary.
 Finally, to avoid repeats, it is also worth maintaining a catalog of inclusive minute topics.
 This can be useful for maintaining lists of both IM topics already shared as well as ideas for future topics.
@@ -140,4 +140,4 @@ For example, the ZFP compression library supports single, double precision and s
 
 The truth is, a substantial level of effort in the design, implementation and support of the software our HPC/CSE community develops and maintains is all about inclusion (of other software).
 It only makes sense that we would be equally committed, if not more so, to inclusion of other people as well.
-Commercial organizations whose business depends reach and growth (e.g. [Google](https://about.google/belonging/at-work/) and [Microsoft](https://inclusive.microsoft.design), [IBM](https://www.ibm.com/blogs/corporate-social-responsibility/2022/04/diversity-equity-inclusion/) and [NVIDIA](https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/)) are fully committed to inclusion. 
+Commercial organizations whose business depends on reach and growth (e.g. [Google](https://about.google/belonging/at-work/), [Microsoft](https://inclusive.microsoft.design), [IBM](https://www.ibm.com/blogs/corporate-social-responsibility/2022/04/diversity-equity-inclusion/) and [NVIDIA](https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/)) are fully committed to inclusion. 
