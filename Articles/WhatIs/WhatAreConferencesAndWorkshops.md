@@ -14,6 +14,8 @@ Conferences and workshops provide researchers with a unique opportunity to prese
 
 Networking and career advancement opportunities are another significant outcome of attending conferences and workshops. Employers in scientific computing field often use these events to recruit talented interns/employees who possess the drive, enthusiasm, skills, knowledge, or experience to help them achieve their goals. These venues provide an opportunity for all these organizations to promote and highlight their mission, values, and the projects they are currently working on. For younger reasearchs, conferences/workshop provide a platform to showcase your work, whether it's through presenting a poster, giving a talk, or participating in a panel. This can help you gain recognition for your research and raise your profile in your field.
 
+Being part of a conference organization committee member is important for established researchers because it allows them to contribute to the advancement of their field by shaping the content, format, and focus of the event. This involvement provides opportunties for networking and collaboration with other leading experts in the field, as well as enhances their professional reputation and visibility. Additionally also, serving on a conference organization committee allows established researchers to do mentoring and support younger researchers and emerging  talent/scholars, thereby contributing to the sustainability and growth of the field.
+
 The scientific computing field offers several high-profile conferences and workshops that are held domestically in united states and internationally. Thus, attending conferences and workshops in scientific computing not only advances research, but also provides opportunities for networking, career growth, and recognition within the field.
  
 
@@ -22,8 +24,8 @@ The scientific computing field offers several high-profile conferences and works
 * recognition domestic/international
 * exposure to other domain scientists (done)
 * securing talented employees (done
-* collaborate with industry and international folks
-* whats in for established researchers
+* collaborate with industry and international folks (Done)
+* whats in for established researchers (done)
 
 <!--- body end  --->
 
