@@ -1,6 +1,6 @@
 #  Supporting Reproducibility and Replicability Initiatives
 <!-- deck text start --> 
-Advancing the culture of reproducibility and replicability in computing research need attention and focus for ensuring transparency, rigor, and trust in scientific research and its results.
+Advancing the culture of reproducibility and replicability in computing research needs attention and focus for ensuring transparency, rigor, and trust in scientific research and its results.
 <!-- deck text end --> 
 
 
