@@ -105,7 +105,7 @@ If your team meets once a week, identifying new IM topics for every meeting may 
 Doing an IM every other meeting or the first meeting of each month may be best.
 If your team meets monthly, having an inclusive minute with every meeting may make the most sense.
 
-Some teams prefer to have inclusive minute at the end of their meetings and others prefer the beginning.
+Some teams prefer to have an IM at the end of their meetings while others prefer the beginning.
 There are advantages and disadvantages to either.
 At the beginning, follow-up dialog can run longer than expected putting the meeting leader in the position of having to cut-off conversation to get to the rest of the agenda.
 But, having the exercise at the beginning of the meeting also ensures it actually happens.
