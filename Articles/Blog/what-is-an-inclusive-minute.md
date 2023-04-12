@@ -8,7 +8,7 @@
 
 An inclusive minute (or inclusive moment) is an inclusivity practice designed for teams to easily add to existing meeting agendas.
 The practice is intentionally kept small, informal, and uncontroversial to maximize the likelihood of adoption and uptake.
-The purpose is to raise awareness, inspire dialog, deeper thinking and/or inform future action.
+The purpose is to raise awareness, inspire dialog and deeper thinking, and/or inform future action.
 Although rather modest in its aims, especially when compared with the need it is intended to address, it is also a useful approach in helping to seed changes in culture.
 
 While a minute is never enough time, we aim to characterize a practice other teams can easily follow and adopt into their existing agendas.
