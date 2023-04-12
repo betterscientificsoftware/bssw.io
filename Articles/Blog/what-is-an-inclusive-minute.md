@@ -114,7 +114,7 @@ At the end of the meeting, unless the team is committed to reserving time for th
 Having the activity at the end, though, does provide a natural way for any follow-up conversation to adjourn.
 
 It works best if leadership of the practice can regularly rotate to various members of the team.
-That said, no team member should be *required* to lead an inclusive minute.
+That said, no team member should be *required* to lead an IM.
 Its best if team members are encouraged (perhaps even by offering them assistance in preparing an inclusive minute) to consider leading one but leadership should otherwise be on a voluntary basis.
 
 It may be helpful, early on, to exercise some oversight by checking in with prospective IM leaders and ensuring their chosen topic and plans for sharing fit within scope and time constraints.
