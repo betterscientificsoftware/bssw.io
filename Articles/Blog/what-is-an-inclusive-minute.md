@@ -97,7 +97,7 @@ It lowers the bar for anyone considering leading an inclusive minute.
 It's best to even discourage the creation of slides, but if an IM leader wants to create a slide to share, they should be asked to keep it to a single slide.
 Leadership doesn't require a lot.
 It's useful to keep remarks brief, a minute or two at the most.
-The word "minute" in the title of the practice doesn't necessarily mean it should be an actual minute...just a small amount of time so its easy to add to regular meeting agendas.
+The word "minute" in the title of the practice doesn't necessarily mean it should be an actual minute, just a small amount of time so it's easy to add to regular meeting agendas.
 Depending on a team's enthusiasm for follow up discussion on any given topic, in reality, an IM will typically take a *few* minutes.
 
 Its useful to consider the appropriate cadence for the inclusive minute practice as well.
