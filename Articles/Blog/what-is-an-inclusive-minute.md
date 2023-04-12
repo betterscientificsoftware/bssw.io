@@ -152,7 +152,7 @@ Performance portability is an extremely challenging design goal requiring substa
 It and the effort we invest in it is yet another example of how the goals of inclusion (e.g. supporting a wide variety of computational resources) manifest in the actual code we design and write.
 
 We value computational kernels and tools that operate on single, double, quad and mixed or arbitrary precision.
-For example, the ZFP compression library supports single, double precision and support for half and quad precision is on the todo list.
+For example, the ZFP compression library supports single and double precision, and support for half and quad precision is on the "To Do" list.
 
 The truth is, a substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusion (of other software).
 It only makes sense that we would be equally committed, if not more so, to inclusion of other people as well.
