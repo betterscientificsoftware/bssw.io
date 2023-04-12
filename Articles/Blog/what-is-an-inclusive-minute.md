@@ -142,7 +142,7 @@ Interoperability is a manifestation of inclusion in the code we write.
 We also value both API (e.g. compile-time) and ABI (link-time) compatibility in successive or related versions of the same library.
 This is yet another manifestation of inclusion in the code we write.
 Likewise, we want our applications used by people all over the world and as such, value having interfaces (e.g. GUIs, CLIs) as well as documentation available in multiple human languages.
-For example, the VisIt application GUI supports English, French and Spanish and is designed to easily support other human languages.
+For example, the VisIt application GUI supports English, French, and Spanish and is designed to easily support other human languages.
 
 We also desire useful libraries to support multiple different programming language interface bindings such as C, C++, Fortran, Python or Java.
 For example, the Conduit library can be used *naturally* within C, C++, Fortran and Python programs.
