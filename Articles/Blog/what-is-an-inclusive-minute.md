@@ -87,7 +87,7 @@ Towards that end, it is worth considering that we are all likely to experience t
 As a trivial example, when participating via an audio-only modality in a video teleconference where visual content is being shared, you will experience situational visual impairment.
 Because of the situation, you are not able to see information which may be critical for you to fully participate and contribute.
 Likewise, if you are just home from a tough visit with the dentist, you may experience temporary speaking impairment.
-If you are recovering from an accident and need to use a wheel chair, you will experience temporary mobility impairment.
+If you are recovering from an accident and need to use a wheelchair, you will experience temporary mobility impairment.
 
 #### Recommended logistics
 
