@@ -67,7 +67,7 @@ If diversity is being asked to the party, inclusion is being asked to dance.
 Inclusive practices can play a role in improving almost every aspect of a software project including documentation, user interface and user experience, customer support processes, collaborations, presentations and publications, communications (e.g. GitHub or email) and even the actual code we write.
 The benefits of inclusive practices include reducing barriers to adoption, attracting and retaining a wider talent pool, attracting more customers/users, increased productivity, increased innovation, improved job satisfaction.
 
-For many, inclusion is inseparable from the broader and often institutionalized enterprise of Diversity, Equity and Inclusion (DE&I).
+For many, inclusion is inseparable from the broader and often institutionalized enterprise of Diversity, Equity, and Inclusion (DE&I).
 Viewed through a DE&I lens, inclusive practices can wind up being seen more as an exercise in achieving compliance rather than increasing participation or improving productivity.
 In turn, topics central to DE&I such as gender identity, sexual harassment and racism can easily obscure our perception of the full landscape of inclusive practices.
 Although these topics tend to capture more of the news headlines or tend to be where a lot of the more serious work is needed, inclusion is actually much, much wider than just those topics.
