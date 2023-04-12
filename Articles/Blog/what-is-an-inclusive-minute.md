@@ -129,7 +129,7 @@ When such conflicts arise, what can a team leader do?
 
 The first place team leaders can look is their own institution's stated policies and procedures which often include valuing and furthering the goals of inclusion.
 See, for example, those of the [Department of Energy (DOE)](https://www.energy.gov/science/diversity-equity-inclusion) or [Lawrence Livermore National Lab](https://www.llnl.gov/diversity/our-values).
-When team members act in ways to derail conversation or which are otherwise contrary to inclusive practices, they should be reminded that they are then acting in ways contrary to the stated values of their institution.
+When team members act in ways to derail conversation or are otherwise contrary to inclusive practices, they should be reminded that they are then acting against the stated values of their institution.
 In some of the worst situations, it may be necessary to seek the help of human resources or an ombuds program, if available.
 If your institution is committed to its stated values, it should not be hard to find higher level managers willing to back you up.
 
