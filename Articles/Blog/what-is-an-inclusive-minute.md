@@ -154,6 +154,6 @@ It and the effort we invest in it is yet another example of how the goals of inc
 We value computational kernels and tools that operate on single, double, quad and mixed or arbitrary precision.
 For example, the ZFP compression library supports single, double precision and support for half and quad precision is on the todo list.
 
-The truth is, a substantial level of effort in the design, implementation and support of the software our HPC/CSE community develops and maintains is all about inclusion (of other software).
+The truth is, a substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusion (of other software).
 It only makes sense that we would be equally committed, if not more so, to inclusion of other people as well.
 Commercial organizations whose business depends on reach and growth (e.g. [Google](https://about.google/belonging/at-work/), [Microsoft](https://inclusive.microsoft.design), [IBM](https://www.ibm.com/blogs/corporate-social-responsibility/2022/04/diversity-equity-inclusion/) and [NVIDIA](https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/)) are fully committed to inclusion. 
