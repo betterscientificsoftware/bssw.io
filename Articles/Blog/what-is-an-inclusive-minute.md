@@ -12,7 +12,7 @@ The purpose is to raise awareness, inspire dialog and deeper thinking, and/or in
 Although rather modest in its aims, highlighting inclusivity regularly will sow seeds that can grow into larger cultural change.
 
 While a minute is never enough time, we aim to characterize a practice other teams can easily follow and adopt into their existing agendas.
-While we are all impacted by inclusion, sometimes in deeply personal ways, we aim for a focus that relates primarily to a team's existing work activities.
+While we are all impacted by inclusion issues, sometimes in deeply personal ways, we aim for a focus that relates primarily to a team's existing work activities.
 While progress on inclusion is urgently needed, our modest aim here is simply to raise awareness and inspire further/deeper thought.
 
 During regular meetings, a small portion (often just a few minutes) of the agenda is set aside for a team member to share a factoid, event, resource or experience at the nexus of inclusion and **X**.
