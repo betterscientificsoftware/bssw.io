@@ -92,7 +92,8 @@ If you are recovering from an accident and need to use a wheelchair, you will ex
 #### Recommended logistics
 
 When preparing an inclusive minute (IM), there is no need for any formalism.
-In fact, the less formality the better because it lowers the bar for anyone considering leading an inclusive minute.
+In fact, the less formality, the better.
+It lowers the bar for anyone considering leading an inclusive minute.
 Its best to even discourage the creation of slides but if an IM leader really wants to create a slide to share, they should be asked to keep it to a single slide.
 Leadership doesn't require a lot.
 Its useful to keep remarks brief...maybe just a minute or two at the most.
