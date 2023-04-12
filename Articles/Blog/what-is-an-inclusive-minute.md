@@ -17,9 +17,11 @@ While progress on inclusion is urgently needed, our modest aim here is simply to
 
 During regular meetings, a small portion (often just a few minutes) of the agenda is set aside for a team member to share a factoid, event, resource, or experience at the nexus of inclusion and **X**.
 What is **X**?
-If your team develops HPC software, **X** is HPC software development.
-If your team develops online training content, **X** is online training content development.
-If your team is an astrophysics team, **X** is astrophysics.
+
+* If your team develops HPC software, **X** is HPC software development.
+* If your team develops online training content, **X** is online training content development.
+* If your team is an astrophysics team, **X** is astrophysics.
+
 **X** is whatever topic your team comes together regularly to meet about.
 Whatever **X** is, it is likely there is no shortage of interesting content involving inclusion and **X** or inclusion and things **X** is closely associated with.
 Keeping topics focused on the nexus of inclusion and **X** maximizes the relevance of the activity.
