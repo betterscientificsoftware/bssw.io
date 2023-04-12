@@ -38,7 +38,7 @@ We have shared inclusive minutes about:
 
 #### Example inclusive minutes
 
-Lets suppose your team is an HPC/CSE software development team.
+Let's suppose your team is an HPC/CSE software development team.
 In your case **X** is HPC/CSE software development.
 Examples of inclusive minute topics that are, by the terms offered here, within scope include...
 
