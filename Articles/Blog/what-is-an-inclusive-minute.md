@@ -23,7 +23,7 @@ What is **X**?
 * If your team is an astrophysics team, **X** is astrophysics.
 
 **X** is whatever topic your team comes together regularly to meet about.
-Whatever **X** is, it is likely there is no shortage of interesting content involving inclusion and **X** or inclusion and things **X** is closely associated with.
+Whatever **X** is, it is likely there is no shortage of interesting content involving inclusion and **X** or inclusion and things with which **X** is closely associated.
 Keeping topics focused on the nexus of inclusion and **X** maximizes the relevance of the activity.
 
 On the IDEAS-ECP team, we have found no end of interesting topics.
