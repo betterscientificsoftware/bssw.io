@@ -115,7 +115,7 @@ Having the activity at the end, though, does provide a natural way for any follo
 
 It works best if leadership of the practice can regularly rotate to various members of the team.
 That said, no team member should be *required* to lead an IM.
-Its best if team members are encouraged (perhaps even by offering them assistance in preparing an inclusive minute) to consider leading one but leadership should otherwise be on a voluntary basis.
+It's best if team members are encouraged (perhaps even by offering them assistance in preparing an IM) to consider leading one, but leadership should otherwise be on a voluntary basis.
 
 It may be helpful, early on, to exercise some oversight by checking in with prospective IM leaders and ensuring their chosen topic and plans for sharing fit within scope and time constraints.
 Once the team gains some experience, oversight may become unnecessary.
