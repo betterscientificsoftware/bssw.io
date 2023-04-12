@@ -60,7 +60,7 @@ Examples of inclusive minute topics that are, by the terms offered here, out of 
 
 #### What is inclusion?
 
-Inclusion is about ensuring people with diverse identities and experiences have equitable access to resources and opportunities and feel safe, welcomed, respected, valued and encouraged to contribute as their full, authentic selves in any particular group or activity (quoted from Tony Baylis, Lawrence Livermore National Laboratory's Director for the Office of Strategic Diversity and Inclusion Programs).
+Inclusion is about ensuring people with diverse identities and experiences have equitable access to resources and opportunities and feel safe, welcomed, respected, valued, and encouraged to contribute as their full, authentic selves in any particular group or activity (quoted from Tony Baylis, Lawrence Livermore National Laboratory's Director for the Office of Strategic Diversity and Inclusion Programs).
 
 If diversity is being asked to the party, inclusion is being asked to dance. 
 
