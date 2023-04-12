@@ -1,4 +1,10 @@
-# What is an Inclusive Minute
+# Introducing a new Meeting Agenda Item - The Inclusive Minute
+
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86), [Miranda Mundt](https://github.com/mrmundt)
+
+#### Publication date: XXXXXXX
+
+#### What is an Inclusive Minute
 
 An inclusive minute (or inclusive moment) is an inclusivity practice designed for teams to easily add to existing meeting agendas.
 The practice is intentionally kept small, informal and uncontroversial to maximize the likelihood of adoption and uptake.
