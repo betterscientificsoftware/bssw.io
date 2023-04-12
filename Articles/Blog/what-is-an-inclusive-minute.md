@@ -110,7 +110,7 @@ There are advantages and disadvantages to either.
 At the beginning, follow-up dialog can run longer than expected putting the meeting leader in the position of having to cut-off conversation to get to the rest of the agenda.
 Having the exercise at the beginning of the meeting, though, also ensures it actually happens.
 It shows commitment.
-At the end of the meeting, unless the team is committed to reserving time for the activity, it can feel rushed and/or like an afterthought.
+At the end of the meeting, unless the team is committed to reserving time for the activity, it can feel rushed or like an afterthought.
 But, having the activity at the end does provide a natural way for any follow-up conversation to adjourn.
 
 It works best if leadership of the practice can regularly rotate to various members of the team.
