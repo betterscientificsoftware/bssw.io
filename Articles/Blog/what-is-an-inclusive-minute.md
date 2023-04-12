@@ -145,7 +145,7 @@ Likewise, we want our applications used by people all over the world and as such
 For example, the VisIt application GUI supports English, French, and Spanish and is designed to easily support other human languages.
 
 We also desire useful libraries to support multiple different programming language interface bindings such as C, C++, Fortran, Python, or Java.
-For example, the Conduit library can be used *naturally* within C, C++, Fortran and Python programs.
+For example, the Conduit library can be used *naturally* within C, C++, Fortran, and Python programs.
 
 The whole goal of performance portability is to ensure HPC/CSE applications can operate efficiently on a wide variety of computational resources (e.g. CPUs, GPUs, co-processors, FPGAs, etc.).
 Performance portability is an extremely challenging design goal requiring substantial effort and resources to achieve.
