@@ -15,7 +15,7 @@ While a minute is never enough time, we aim to characterize a practice other tea
 While we are all impacted by inclusion issues, sometimes in deeply personal ways, we aim for a focus that relates primarily to a team's existing work activities.
 While progress on inclusion is urgently needed, our modest aim here is simply to raise awareness and inspire further/deeper thought.
 
-During regular meetings, a small portion (often just a few minutes) of the agenda is set aside for a team member to share a factoid, event, resource or experience at the nexus of inclusion and **X**.
+During regular meetings, a small portion (often just a few minutes) of the agenda is set aside for a team member to share a factoid, event, resource, or experience at the nexus of inclusion and **X**.
 What is **X**?
 If your team develops HPC software, **X** is HPC software development.
 If your team develops online training content, **X** is online training content development.
