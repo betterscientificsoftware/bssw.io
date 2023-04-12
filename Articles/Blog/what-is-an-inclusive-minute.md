@@ -94,7 +94,7 @@ If you are recovering from an accident and need to use a wheelchair, you will ex
 When preparing an inclusive minute (IM), there is no need for any formalism.
 In fact, the less formality, the better.
 It lowers the bar for anyone considering leading an inclusive minute.
-Its best to even discourage the creation of slides but if an IM leader really wants to create a slide to share, they should be asked to keep it to a single slide.
+It's best to even discourage the creation of slides, but if an IM leader wants to create a slide to share, they should be asked to keep it to a single slide.
 Leadership doesn't require a lot.
 Its useful to keep remarks brief...maybe just a minute or two at the most.
 The word "minute" in the title of the practice doesn't necessarily mean it should be an actual minute...just a small amount of time so its easy to add to regular meeting agendas.
