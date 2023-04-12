@@ -100,7 +100,7 @@ It's useful to keep remarks brief, a minute or two at the most.
 The word "minute" in the title of the practice doesn't necessarily mean it should be an actual minute, just a small amount of time so it's easy to add to regular meeting agendas.
 Depending on a team's enthusiasm for follow up discussion on any given topic, in reality, an IM will typically take a *few* minutes.
 
-Its useful to consider the appropriate cadence for the inclusive minute practice as well.
+It's useful to consider the appropriate cadence for the inclusive minute practice as well.
 If your team meets once a week, identifying new IM topics for every meeting may become a challenge.
 Doing an IM every other meeting or the first meeting of each month may be best.
 If your team meets monthly, having an inclusive minute with every meeting may make the most sense.
