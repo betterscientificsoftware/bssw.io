@@ -69,7 +69,7 @@ The benefits of inclusive practices include reducing barriers to adoption, attra
 
 For many, inclusion is inseparable from the broader and often institutionalized enterprise of Diversity, Equity, and Inclusion (DE&I).
 Viewed through a DE&I lens, inclusive practices can wind up being seen more as an exercise in achieving compliance rather than increasing participation or improving productivity.
-In turn, topics central to DE&I such as gender identity, sexual harassment and racism can easily obscure our perception of the full landscape of inclusive practices.
+In turn, topics central to DE&I such as gender identity, sexual harassment, and racism can easily obscure our perception of the full landscape of inclusive practices.
 Although these topics tend to capture more of the news headlines or tend to be where a lot of the more serious work is needed, inclusion is actually much, much wider than just those topics.
 
 #### There are many dimensions to inclusion
