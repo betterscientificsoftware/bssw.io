@@ -27,7 +27,14 @@ Whatever **X** is, it is likely there is no shortage of interesting content invo
 Keeping topics focused on the nexus of inclusion and **X** maximizes the relevance of the activity.
 
 On the IDEAS-ECP team, we have found no end of interesting topics.
-We have shared inclusive minutes about people ([Lynne Ann Conway](https://en.wikipedia.org/wiki/Lynn_Conway), [Gladys West](https://en.wikipedia.org/wiki/Gladys_West)), about films ([Picture a Scientist](https://en.wikipedia.org/wiki/Picture_a_Scientist), [Coded Bias](https://en.wikipedia.org/wiki/Coded_Bias)), about resources ([inclusive clip art](https://diversityandinclusion.uchicago.edu/resources/inclusive-illustrations/), [automated closed captioning](https://www.ai-media.tv/ai-media-blog/the-best-free-captioning-and-subtitling-tools-2/), [inclusive design](https://inclusive.microsoft.design)), about team meetings ([interruptions](https://www.wnycstudios.org/podcasts/radiolabmoreperfect/episodes/justice-interrupted), [quite-tude for introverts](https://susancain.net/book/quiet/)) about recruiting ([ECP BE program](https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/202203/ASCAC_202203_ECP_BroaderEngagement_Overview.pdf), expanding networks to include MSI/HBCUs) and more.
+We have shared inclusive minutes about:
+
+- People ([Lynne Ann Conway](https://en.wikipedia.org/wiki/Lynn_Conway), [Gladys West](https://en.wikipedia.org/wiki/Gladys_West))
+- Films ([Picture a Scientist](https://en.wikipedia.org/wiki/Picture_a_Scientist), [Coded Bias](https://en.wikipedia.org/wiki/Coded_Bias))
+- Resources ([inclusive clip art](https://diversityandinclusion.uchicago.edu/resources/inclusive-illustrations/), [automated closed captioning](https://www.ai-media.tv/ai-media-blog/the-best-free-captioning-and-subtitling-tools-2/), [inclusive design](https://inclusive.microsoft.design)
+- Team meetings ([interruptions](https://www.wnycstudios.org/podcasts/radiolabmoreperfect/episodes/justice-interrupted), [quite-tude for introverts](https://susancain.net/book/quiet/))
+- Recruiting ([ECP BE program](https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/202203/ASCAC_202203_ECP_BroaderEngagement_Overview.pdf), expanding networks to include MSI/HBCUs)
+- And more.
 
 #### Example inclusive minutes
 
