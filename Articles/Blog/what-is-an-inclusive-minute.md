@@ -124,7 +124,7 @@ It's best if team members are encouraged (perhaps even by offering them assistan
 
 It may be helpful, early on, to exercise some oversight by checking in with prospective IM leaders and ensuring their chosen topic and plans for sharing fit within scope and time constraints.
 Once the team gains some experience, oversight may become unnecessary.
-Finally, to avoid repeats, it is also worth maintaining a catalog of inclusive minute topics.
+To help avoid repeats, it is worth maintaining a catalog of topics already shared as well as potential ideas for future inclusive minute topics.
 This can be useful for maintaining lists of both IM topics already shared as well as ideas for future topics.
 
 #### Dealing with conflict
