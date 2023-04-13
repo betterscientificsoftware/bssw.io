@@ -18,6 +18,7 @@ In this model, we must deal with a many-body ecosystem, with code bases usually 
 ### Why Julia?
 
 **Why do we keep creating new languages and ecosystems?** 
+
 We are in a constant search for new approaches that empower practitioners by lowering existing technical, economical, and social barriers. Just like Fortran allowed access to a "formula translator" model of programming in the 1950s, while C has enabled "portable assembly" for systems programming since the 1970s, or the success of Python as a friendly interface that enhances productivity in the twentieth-first century; Julia enables an evolutionary approach to today's scientific software development that is highly exploratory and constantly adapting to new, often unexpected, science requirements, for example, COVID-19.
 
 As shown in Figure 1, Julia's high-productivity plus high-performance layer builds upon LLVM for both CPU and GPU access, and a unified open-source packaging and data science ecosystem hosted on GitHub. Julia also provides lightweight interoperability with existing C and Fortran codes. Hence, the value proposition is not to replace a particular language but to reduce current costs in the scientific software development process (e.g. from prototyping to publication with Python + X).
@@ -29,6 +30,7 @@ As shown in Figure 1, Julia's high-productivity plus high-performance layer buil
 <br>
 
 **The ecosystem is NOT an afterthought**
+
 In Julia, the project description and dependencies are your starting point when [creating a new package](https://pkgdocs.julialang.org/v1/creating-packages/), via [toml files](https://pkgdocs.julialang.org/v1/toml-files/). Just inspect any [Julia package](https://juliapackages.com/) source code on GitHub and see their `Project.toml` files for a list of dependencies and version compatibility information. In addition, [unit testing](https://docs.julialang.org/en/v1/stdlib/Test/), interactive computing via the read–eval–print loop (REPL), a [standard library](https://juliafs.readthedocs.io/en/stable/stdlib/index.html) with mathematical and data abstractions, and a unified package manager with access to a rich ecosystem for scientific computing, [data science](https://www.juliafordatascience.com/), [visualization](https://juliapackages.com/c/graphics), and [AI](https://fluxml.ai/Flux.jl/stable/ecosystem/).
 
 So how is this different from Python's ecosystem? Just the other day GitHub Actions bumped its Python version to 3.11 on some of its runners, causing problems for many Python packages.  As of March 2023, 59.4% of the most popular Python packages do not indicate support for that version of Python yet on [PyPI](https://pyreadiness.org/3.11/)). Thus, the cost of this coordination is passed to the end user until package developers can react. That last word is key since Julia promotes a more "predictive" rather than "reactive" maintenance approach in which packages in Julia's [general registry](https://github.com/JuliaRegistries/General) must meet certain requirements. We don't live in a perfect world, thus the value of this coordination is not just on "not breaking the API" or "fixing bugs", but in enriching user-developer communications using an open-source process for package updates prior to deployment.
@@ -36,15 +38,19 @@ So how is this different from Python's ecosystem? Just the other day GitHub Acti
 This model of "batteries included" is not new for more targeted languages, such as R or MATLAB, but it's new for more general languages that put performance (Julia) and safety (Rust) at the forefront. I find myself writing more tests and verifying my ideas on the REPL when using Julia, rather than writing boilerplate code as in general-purpose language or dealing with mismatched package versions.
 
 **Making heterogeneous hardware more accessible**
+
 [JuliaGPU](https://juliagpu.org/) and [JuliaParallel](https://github.com/JuliaParallel) provide information on the packages that provide access to several vendor GPUs, e.g., NVIDIA ([CUDA.jl](https://github.com/JuliaGPU/CUDA.jl)), AMD ([AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl)), Intel ([oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl)). These high-level interfaces provide an excellent mathematical playground for exploring fine-granularity parallelization on GPU. The [CUDA.jl docs](https://cuda.juliagpu.org/dev/) are a great starting point for those familiar with NVIDIA's CUDA or who want to learn about GPU custom kernel programming. Julia uses an integrated [GPUCompiler.jl](https://github.com/JuliaGPU/GPUCompiler.jl) layer, whereas Python's pyCUDA and cuPy require programmers to pass custom kernels as strings.
 
 **Compose to prevent inheritance bloat**
+
 Julia does not support object-oriented as C++ or Python. Julia projects are organized by modules and proper data locality and composition using "data container" structs and type hierarchy trees in which abstract types have no members (see related [discussions](https://github.com/JuliaLang/julia/issues/4935)). Think of composition as Derived "has-a" Base, instead of Derived "is-a" Base. This weak coupling prevents deep hierarchies of classes that can quickly get out of hand, while encouraging software developers to think of structs as data containers to which operations are applied - as one would do in languages like pre-2003 Fortran, R, or C.
 
 **Interoperate with existing software**
+
 Julia enables lightweight reusability of existing Fortran and C infrastructure via the [`@ccall` macro](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/). Similarly, Python and R interoperability is possible with [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) and [RCall.jl](https://github.com/JuliaInterop/RCall.jl), respectively. So Julia promotes reuse over reinvention, which is both important and useful given the volume of mature scientific software.
 
 **Jupyter and Pluto.jl notebooks**
+
 Computational notebooks, Jupyter in particular, have been widely adopted in science and do not need an introduction. Jupyter is powered by Anaconda with Python kernels requiring setting a conda environment for managing the required dependencies before launching the server and web client interface. Notebooks are stored using a `*.ipynb` file format based on JSON.
 Jupyter also supports interactive Julia notebooks via the IJulia kernel package that can understand information readily available in your `Project.toml` files, which is really neat when using services like [mybinder.org](https://mybinder.org/) for distributing and sharing notebook projects "as-is" with a broader audience.
 
@@ -72,6 +78,7 @@ $ julia
 <br>
 
 **The community**
+
 This is where the real value of Julia lies. The Julia community is very enthusiastic about helping others and engages using modern tools, such as the [Julia slack](https://julialang.org/slack/) and [discord](https://discourse.julialang.org/t/julialang-official-discord-server/45499) channels, and each package's GitHub issues tracker. [JuliaCon](https://juliacon.org/2023/) is the annual gathering, and several interesting talks and tutorials from there can be found on YouTube. Many contributions and support come from [JuliaHub](https://juliahub.com/) (formerly Julia Computing) as part of the mission. 
 
 We organized a full-day workshop last summer titled Julia for Oak Ridge National Laboratory Science, [JuFOS](https://ornl.github.io/events/jufos2022/), which, to our surprise attracted 101 registrations from a range of different scientific domains. Roughly 90% of the participants responded that they wanted to learn more about Julia, while roughly 50% indicated an interest in alternatives to the current status quo for building scientific workflows in the high-level + high-productivity space.  
