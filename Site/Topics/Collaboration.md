@@ -39,6 +39,10 @@ Discussion forums and sites where questions about scientific software developmen
 Recurring series of conferences and workshops that highlight advances in scientific software productivity and sustainability. 
 <!---Topic order: 8--->
 
+- **Research Software Engineers**
+Research Software Engineers (RSEs) in the scientific computing field.
+<!---Topic order: 9--->
+
 <!---
 Category order: 5
 --->
