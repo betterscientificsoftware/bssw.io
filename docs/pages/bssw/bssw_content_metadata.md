@@ -104,6 +104,7 @@ The current topics are as follows:
     - Licensing
     - Discussion and question sites
     - Conferences and workshops
+    - Research Software Engineers
 - **Skills** category has the following topics:
     - Online learning
     - In-Person learning
