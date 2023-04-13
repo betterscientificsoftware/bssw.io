@@ -201,5 +201,5 @@ Daniel S. Katz is Chief Scientist at the National Center for Supercomputing Appl
 <!---
 Publish: yes
 Pinned: no
-Topics: conferences and workshops
+Topics: conferences and workshops, Research Software Engineers
 --->
