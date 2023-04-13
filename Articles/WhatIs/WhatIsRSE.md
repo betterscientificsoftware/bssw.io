@@ -11,8 +11,8 @@ Research software engineering (RSEng) is a field that focuses on the development
 
 A research software engineer (RSE) is an individual who works in the field of RSEng. An RSE is typically a software developer with a strong background in science, engineering, or mathematics. They work with scientists and researchers to design, develop, and maintain software tools and infrastructure that are tailored to the specific needs of a particular research project. RSEs are skilled in software engineering best practices such as version control, testing, and documentation, and they often work in interdisciplinary teams to collaborate with researchers from different domains.
 
-The BSSw.io platform centers its attention on the realm of scientific computing, where the phrase *Software Engineering* is interchangeable with 
-*Research software engineering*. Specifically, the site's topic on "Research Software Engineer" delves into the RSE career paths and the RSE community.
+The BSSw.io platform centers its attention on the realm of scientific computing, where the phrase *software engineering* is interchangeable with 
+*research software engineering*. Specifically, the site's topic on *Research Software Engineers* delves into the RSE career paths and the RSE community.
 
 <!--- body end  --->
 
@@ -20,6 +20,6 @@ The BSSw.io platform centers its attention on the realm of scientific computing,
 <!---
 Publish: yes
 Pinned: yes
-Topics: research software engineer
+Topics: research software engineers
 RSS update: 2023-05-04
 --->
