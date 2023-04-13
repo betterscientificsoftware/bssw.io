@@ -150,7 +150,7 @@ Matthew Bluteau is a research software engineer (RSE) at the UK Atomic Energy Au
 <!---
 Publish: yes
 Pinned: no
-Topics: strategies for more effective teams
+Topics: strategies for more effective teams, Research Software Engineers
 --->
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "This is a run-down on the many definitions of software sustainability from the people who have 'Software Sustainability' in their name"

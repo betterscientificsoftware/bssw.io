@@ -45,6 +45,6 @@ Please check the [conference webpage](https://us-rse.org/usrse23/) for further d
 <!---
 Publish: yes
 Pinned: no
-Topics: conferences and workshops
+Topics: conferences and workshops, Research Software Engineers
 RSS update: 2023-03-13
 --->

@@ -53,5 +53,5 @@ Kim Hartley is a community manager at the Research Software Alliance and part of
 <!---
 Publish: yes
 Pinned: no
-Topics: projects and organizations, inclusivity
+Topics: projects and organizations, inclusivity, Research Software Engineers
 --->
