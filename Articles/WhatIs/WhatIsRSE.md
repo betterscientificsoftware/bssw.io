@@ -1,6 +1,6 @@
 ### What Is a Research Software Engineer?
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
-#### Publication date: May 4, 2023
+#### Publication date: April 13, 2023
 
 <!--- deck start --->
 Empowering Scientific Discovery through Research Software Engineering and the Role of Research Software Engineers (RSEs)
@@ -27,5 +27,5 @@ Specifically, the site's topic on *Research Software Engineers* delves into the 
 Publish: yes
 Pinned: yes
 Topics: research software engineers
-RSS update: 2023-05-04
+RSS update: 2023-04-13
 --->
