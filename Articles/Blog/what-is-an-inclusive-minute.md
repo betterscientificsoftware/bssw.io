@@ -9,8 +9,8 @@
 Briefly (more details later), inclusive practices are about making that extra effort to ensure everyone who wants to participate, can.
 Large, commercial organizations whose business depends on reach and growth (e.g. [Google](https://about.google/belonging/at-work/), [Microsoft](https://inclusive.microsoft.design), [IBM](https://www.ibm.com/blogs/corporate-social-responsibility/2022/04/diversity-equity-inclusion/) and [NVIDIA](https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/)) are fully committed to inclusive practices. 
 
-An inclusive minute (or inclusive moment) is an inclusivity practice designed for teams to easily add to existing meeting agendas.
-The practice is intentionally kept small, informal, and uncontroversial to maximize the likelihood of adoption and uptake.
+An inclusive minute (or inclusive moment or IM) is an inclusivity practice designed for teams to easily add to existing meeting agendas.
+The practice is intentionally kept small and informal to help minimize the potential for controversy as well as maximize the likelihood of uptake and adoption.
 The purpose is to raise awareness, inspire dialog and deeper thinking, and/or inform future action.
 Although rather modest in its aims, highlighting inclusivity regularly will sow seeds that can grow into larger cultural change.
 
@@ -18,7 +18,7 @@ While a minute is never enough time, we aim to characterize a practice other tea
 While we are all impacted by inclusion issues, sometimes in deeply personal ways, we aim for a focus that relates primarily to a team's existing work activities.
 While progress on inclusion is urgently needed, our modest aim here is simply to raise awareness and inspire further/deeper thought.
 
-During regular meetings, a small portion (often just a few minutes) of the agenda is set aside for a team member to share a factoid, event, resource, or experience at the nexus of inclusion and **X**.
+During regular meetings, a small portion (typically just a few minutes) of the agenda is set aside for a team member to share a factoid, event, resource, or experience at the nexus of inclusion and **X**.
 What is **X**?
 
 * If your team develops HPC software, **X** is HPC software development.
@@ -66,7 +66,7 @@ Examples of inclusive minute topics that are, by the terms offered here, out of 
 Inclusion is about ensuring people with diverse identities and experiences have equitable access to resources and opportunities and feel safe, welcomed, respected, valued, and encouraged to contribute as their full, authentic selves in any particular group or activity (quoted from [Tony Baylis](https://people.llnl.gov/baylis3), Lawrence Livermore National Laboratory's Director for the Office of Strategic Diversity and Inclusion Programs).
 
 If diversity is being asked to the party, inclusion is being asked to dance.
-Inclusion is [accessibility's close sibling](https://www.inclusionhub.com/articles/a11y-at-salesforce).
+Inclusion is [accessibility's close cousin](https://www.inclusionhub.com/articles/a11y-at-salesforce).
 
 Inclusive practices can play a role in improving almost every aspect of a software project including documentation, user interface and user experience, customer support processes, collaborations, presentations and publications, communications (e.g. GitHub or email) and even the [actual code we write](https://bssw.io/blog_posts/experiences-replacing-master-slave-terminology-in-ale3d-and-sierra).
 The [benefits of inclusive practices](https://www2.deloitte.com/us/en/insights/deloitte-review/issue-22/diversity-and-inclusion-at-work-eight-powerful-truths.html) include reducing barriers to adoption, attracting and retaining a wider talent pool, attracting more customers/users, increased productivity, increased innovation, improved job satisfaction.
@@ -120,12 +120,11 @@ Having the activity at the end, though, does provide a natural way for any follo
 
 It works best if leadership of the practice can regularly rotate to various members of the team.
 That said, no team member should be *required* to lead an IM.
-It's best if team members are encouraged (perhaps even by offering them assistance in preparing an IM) to consider leading one, but leadership should otherwise be on a voluntary basis.
+It's best if team members are encouraged (perhaps even by offering them assistance in preparing an IM) to consider leading one, but leadership should otherwise be voluntary.
 
 It may be helpful, early on, to exercise some oversight by checking in with prospective IM leaders and ensuring their chosen topic and plans for sharing fit within scope and time constraints.
 Once the team gains some experience, oversight may become unnecessary.
 To help avoid repeats, it is worth maintaining a catalog of topics already shared as well as potential ideas for future inclusive minute topics.
-This can be useful for maintaining lists of both IM topics already shared as well as ideas for future topics.
 
 #### Dealing with conflict
 
@@ -160,5 +159,5 @@ It and the effort we invest in it is yet another example of how the goals of inc
 We value computational kernels and tools that operate on single, double, quad and even mixed or arbitrary precision.
 For example, the [ZFP compression library](https://computing.llnl.gov/projects/zfp) supports single and double precision, and support for half and quad precision is on the "To Do" list.
 
-The truth is, a substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusion (of our software).
-It only makes sense that we would be equally committed, if not more so, to inclusion of our people as well.
+The truth is, a substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusion (for our software).
+It only makes sense that we would be equally committed, if not more so, to inclusion for our people as well.
