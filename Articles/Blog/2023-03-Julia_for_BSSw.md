@@ -2,11 +2,11 @@
 
  **Hero Image:**
 
-  - <img src='../../images/Blog_2303_julia.svg' width="300" height="200" />[The Julia programming language logo from https://julialang.org.]
+  - <img src='../../images/Blog_2303_julia.svg' />
 
 #### Contributed by: [William F Godoy](https://github.com/williamfgc)
 
-#### Publication date: March 14, 2022
+#### Publication date: April 14, 2022
 
 <!-- start of deck text -->
 Julia provides a mathematical front end to LLVM to provide easy and performant CPU and GPU access and lightweight interoperability with existing C, Fortran, R, and Python codes, coupled with a rich unified ecosystem for packaging, data science, and interactive computing. Hence, filling the gap at the intersection of high performance and high productivity for scientific software.
@@ -22,8 +22,7 @@ In this model, we must deal with a many-body ecosystem, with code bases usually 
 ### Why Julia?
 
 **Why do we keep creating new languages and ecosystems?** 
-We are in a constant search for new approaches that empower practitioners by lowering existing technical, economical and 
-social barriers. Just like Fortran allowed access to a "formula translator" model of programming in the 1950s, while C has enabled "portable assembly" for systems programming since the 1970s, or the success of Python as a friendly interface that enhances productivity in the twentieth-first century; Julia enables an evolutionary approach to today's scientific software development that is highly exploratory and constantly adapting to new, often unexpected, science requirements, for example, COVID-19.
+We are in a constant search for new approaches that empower practitioners by lowering existing technical, economical, and social barriers. Just like Fortran allowed access to a "formula translator" model of programming in the 1950s, while C has enabled "portable assembly" for systems programming since the 1970s, or the success of Python as a friendly interface that enhances productivity in the twentieth-first century; Julia enables an evolutionary approach to today's scientific software development that is highly exploratory and constantly adapting to new, often unexpected, science requirements, for example, COVID-19.
 
 As shown in Figure 1, Julia's high-productivity plus high-performance layer builds upon LLVM for both CPU and GPU access, and a unified open-source packaging and data science ecosystem hosted on GitHub. Julia also provides lightweight interoperability with existing C and Fortran codes. Hence, the value proposition is not to replace a particular language but to reduce current costs in the scientific software development process (e.g. from prototyping to publication with Python + X).
 
@@ -32,7 +31,7 @@ As shown in Figure 1, Julia's high-productivity plus high-performance layer buil
 **The ecosystem is NOT an afterthought**
 In Julia, the project description and dependencies are your starting point when [creating a new package](https://pkgdocs.julialang.org/v1/creating-packages/), via [toml files](https://pkgdocs.julialang.org/v1/toml-files/). Just inspect any [Julia package](https://juliapackages.com/) source code on GitHub and see their `Project.toml` files for a list of dependencies and version compatibility information. In addition, [unit testing](https://docs.julialang.org/en/v1/stdlib/Test/), interactive computing via the read–eval–print loop (REPL), a [standard library](https://juliafs.readthedocs.io/en/stable/stdlib/index.html) with mathematical and data abstractions, and a unified package manager with access to a rich ecosystem for scientific computing, [data science](https://www.juliafordatascience.com/), [visualization](https://juliapackages.com/c/graphics), and [AI](https://fluxml.ai/Flux.jl/stable/ecosystem/).
 
-So how is this different from Python's ecosystem? Just the other day GitHub Actions bumped its Python version to 3.11 on some of its runners, causing problems for many Pytho packages.  As of March 2023, some 59.4% of the most popular Python packages do not indicate support for that version of Python yet on [PyPI](https://pyreadiness.org/3.11/)). Thus, the cost of this coordination is passed to the end user until package developers can react. That last word is key since Julia promotes a more "predictive" rather than "reactive" maintenance approach in which packages in Julia's [general registry](https://github.com/JuliaRegistries/General) must meet certain requirements. We don't live in a perfect world, thus the value of this coordination is not just on "not breaking the API" or "fixing bugs", but in enriching user-developer communications using an open-source process for package updates prior to deployment.
+So how is this different from Python's ecosystem? Just the other day GitHub Actions bumped its Python version to 3.11 on some of its runners, causing problems for many Python packages.  As of March 2023, 59.4% of the most popular Python packages do not indicate support for that version of Python yet on [PyPI](https://pyreadiness.org/3.11/)). Thus, the cost of this coordination is passed to the end user until package developers can react. That last word is key since Julia promotes a more "predictive" rather than "reactive" maintenance approach in which packages in Julia's [general registry](https://github.com/JuliaRegistries/General) must meet certain requirements. We don't live in a perfect world, thus the value of this coordination is not just on "not breaking the API" or "fixing bugs", but in enriching user-developer communications using an open-source process for package updates prior to deployment.
 
 This model of "batteries included" is not new for more targeted languages, such as R or MATLAB, but it's new for more general languages that put performance (Julia) and safety (Rust) at the forefront. I find myself writing more tests and verifying my ideas on the REPL when using Julia, rather than writing boilerplate code as in general-purpose language or dealing with mismatched package versions.
 
@@ -46,15 +45,10 @@ Julia does not support object-oriented as C++ or Python. Julia projects are orga
 Julia enables lightweight reusability of existing Fortran and C infrastructure via the [`@ccall` macro](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/). Similarly, Python and R interoperability is possible with [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) and [RCall.jl](https://github.com/JuliaInterop/RCall.jl), respectively. So Julia promotes reuse over reinvention, which is both important and useful given the volume of mature scientific software.
 
 **Jupyter and Pluto.jl notebooks**
-Computational notebooks, Jupyter in particular, have been widely adopted in science and do not need an introduction. Jupyter is powered by Anaconda with Python kernels requiring setting a conda environment for managing the required dependencies before launching the server and web client interface. Notebooks are stored using a `*.ipynb` file format based on JSON. 
-
-*David: I don't understand this sentence.  Are we talking about Jupyter still or Pluto?  Should this sentence be in the following paragraph?*
-Julia kernels reuse the information readily available in your Project.toml, this is really neat when using services like [mybinder.org](https://mybinder.org/) for distributing and sharing notebook projects "as-is" with a broader audience.
+Computational notebooks, Jupyter in particular, have been widely adopted in science and do not need an introduction. Jupyter is powered by Anaconda with Python kernels requiring setting a conda environment for managing the required dependencies before launching the server and web client interface. Notebooks are stored using a `*.ipynb` file format based on JSON.
+Jupyter also supports interactive Julia notebooks via the IJulia kernel package that can understand information readily available in your `Project.toml` files, which is really neat when using services like [mybinder.org](https://mybinder.org/) for distributing and sharing notebook projects "as-is" with a broader audience.
 
 [Pluto.jl](https://plutojl.org/) is the Julia-exclusive alternative that favors "reactive" notebooks for interactivity, essentially leveraging the fact that packaging is part of the language. There is no need for setting an environment, just launch Pluto from the REPL (illustrated below), start importing package dependencies directly into your notebook, and save them as a Julia file (.jl) in which text (in Markdown) and code cells are identified simply by annotations. The first time Pluto is launched it provides several sample notebooks of what can be done, the introduction to [Plots.jl](https://docs.juliaplots.org/stable/) is shown in Fig 2. I enjoy the plug-and-play approach in which the mathematical syntax, software ecosystem, and packaging simplify my work.
-
-*David: I think this is an unnecessary diversion and would like to delete it.*
-Despite being an amortized cost, the "time to first plot" (TTFP) is a recurrent issue that is actively being addressed in recent versions, see discourse [thread](https://discourse.julialang.org/t/julia-v1-9-0-beta2-is-fast/92290), 
 
 Launching a Pluto Notebook from the REPL.
 
@@ -75,34 +69,33 @@ $ julia
 
 
 **The community**
-This is where the real value of Julia lies. The Julia community is very enthusiastic in helping others and engages using modern tools, such as the [Julia slack](https://julialang.org/slack/) and [discord](https://discourse.julialang.org/t/julialang-official-discord-server/45499) channels, and each package's GitHub issues tracker. [JuliaCon](https://juliacon.org/2023/) is the annual gathering, and several interesting talks and tutorials from there can be found on YouTube. Many contributions and support come from [JuliaHub](https://juliahub.com/) (formerly Julia Computing) as part of the mission. 
+This is where the real value of Julia lies. The Julia community is very enthusiastic about helping others and engages using modern tools, such as the [Julia slack](https://julialang.org/slack/) and [discord](https://discourse.julialang.org/t/julialang-official-discord-server/45499) channels, and each package's GitHub issues tracker. [JuliaCon](https://juliacon.org/2023/) is the annual gathering, and several interesting talks and tutorials from there can be found on YouTube. Many contributions and support come from [JuliaHub](https://juliahub.com/) (formerly Julia Computing) as part of the mission. 
 
 We organized a full-day workshop last summer titled Julia for Oak Ridge National Laboratory Science, [JuFOS](https://ornl.github.io/events/jufos2022/), which, to our surprise attracted 101 registrations from a range of different scientific domains. Roughly 90% of the participants responded that they wanted to learn more about Julia, while roughly 50% indicated an interest in alternatives to the current status quo for building scientific workflows in the high-level + high-productivity space.  
 
-For people focused on high-performance computing (HPC), it is worth noting that the community is invested in performance from day one. Several members of the community recently put our thoughts about HPC and Julia in a [recent paper](https://arxiv.org/abs/2211.02740). Meanwhile, building the community has kept many of us very busy in the last few years. A number of [venues](https://juliaparallel.org/resources/) have been organized in recent years, including a tutorial and BoFs organized by the U.S. Department of Energy [Exascale Computing Project](https://www.exascaleproject.org/), a Supercomputing [BoF](https://sc22.supercomputing.org/presentation/?id=bof136&sess=sess309), a JuliaCon [minisymposium](https://live.juliacon.org/talk/LUWYRJ), and a monthly [JuliaHPC call](https://julialang.org/community/#events) to provide exposure and highlight the work done by community members.
+For people focused on high-performance computing (HPC), it is worth noting that the community is invested in performance from day one. Several members of the community recently put our thoughts about HPC and Julia in a [recent paper](https://arxiv.org/abs/2211.02740). Meanwhile, building the community has kept many of us very busy in the last few years. Many [venues](https://juliaparallel.org/resources/) have been organized in recent years, including a tutorial and BoFs organized by the U.S. Department of Energy [Exascale Computing Project](https://www.exascaleproject.org/), a Supercomputing [BoF](https://sc22.supercomputing.org/presentation/?id=bof136&sess=sess309), a JuliaCon [minisymposium](https://live.juliacon.org/talk/LUWYRJ), and a monthly [JuliaHPC call](https://julialang.org/community/#events) to provide exposure and highlight the work done by community members.
 
 It's also worth mentioning that unifying and coordinated initiatives coming out of the Exascale Computing Project (ECP) like [Spack](https://spack.io/) and [E4S](https://e4s-project.github.io/) can be an invaluable source of HPC packages which can be leveraged within the Julia ecosystem. 
 
 ### Where to start
 
-For a more technical introduction to the Julia ecosystem, you might want to start with a blog article that I recently updated: [First Project using the Julia Language](https://williamfgc.github.io/programming/scientific-computing/2023/03/03/first-project-julia-language.html).  It includes links to numerous other resources which can provide further help getting started. I'd recommend to anyone trying the language for the first time to use the [Visual Studio Code](https://code.visualstudio.com/), which offers excellent Julia support through its extensions marketplace, and the upcoming [Julia v1.9 version](https://julialang.org/downloads/#upcoming_release) for a better experience.
+For a more technical introduction to the Julia ecosystem, you might want to start with a blog article that I recently updated: [First Project using the Julia Language](https://williamfgc.github.io/programming/scientific-computing/2023/03/03/first-project-julia-language.html).  It includes links to numerous other resources which can provide further help getting started. I'd recommend to anyone trying the language for the first time to use [Visual](https://code.visualstudio.com/)[ Studio Code](https://code.visualstudio.com/)](https://code.visualstudio.com/), which offers excellent Julia support through its extensions marketplace, and the upcoming [Julia v1.9 version](https://julialang.org/downloads/#upcoming_release) for a better experience.
 I also encourage you to seek out colleagues who may be using Julia and build a local community, including sharing experiences, tips, and examples.
 Ultimately, scientific software, in Julia or other languages, benefits from communities.
-*Bonus: I've found that using GitHub copilot with the simple Julia APIs can be a welcome boost to the productivity of writing Julia code. Its autocompletion-like capabilities save on typing (but not thinking).*
+*Bonus: I've found that using GitHub Copilot with the simple Julia APIs can be a welcome boost to the productivity of writing and porting code to Julia. Its autocompletion-like capabilities save on typing (but not thinking).*
 
 ### Final thoughts
 
 Julia is part of the natural evolution of programming languages. Powered by LLVM and a carefully thought-out ecosystem, Julia's design decisions and value proposition target the high-performance plus high-productivity space. Mastering a new programming language can be a steep initial investment, and eventual adoption is a result of both technical and non-technical factors. I think it's good that the scientific computing community is exposed to the value proposition of newer alternatives like Julia and that's the goal of this article. The actual value is ultimately determined by each user and project, and their particular scientific software needs. 
 
-### Acknowledgement
+### Acknowledgment
 
-I want to thank the many people in the community for enabling our efforts, in particular the IDEAS, PROTEAS-TUNE sub-projects within ECP, the Sustainable Research Pathways program and the Bluestone project.
+I want to thank the many people in the community for enabling our efforts, in particular the IDEAS, PROTEAS-TUNE sub-projects within ECP, the Sustainable Research Pathways program, and the Bluestone project.
 
 ### Author bio
 
 [William F. Godoy](https://orcid.org/0000-0002-2590-5178) is a Senior Computer Scientist in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL). His interests are in the areas of HPC, scientific software, programming models, data and parallel I/O.
-At ORNL, he has contributed to scientific software projects funded by the Exascale Computing Project and ORNL's neutron science facilities. Godoy received his PhD in Mechanical Engineering from the University at Buffalo, The State University of New York. He is a 2022 [BSSw Fellowship](https://bssw.io/fellowship) honorable mention, a member of the [United States Research Software Engineer Association](https://us-rse.org/) and ACM, and a IEEE senior member serving in several technical venues.
-
+At ORNL, he has contributed to scientific software projects funded by the Exascale Computing Project and ORNL's neutron science facilities. Godoy received his PhD in Mechanical Engineering from the University at Buffalo, The State University of New York. He is a 2022 [BSSw Fellowship](https://bssw.io/fellowship) honorable mention, a member of the [United States Research Software Engineer Association](https://us-rse.org/) and ACM, and an IEEE senior member serving in several technical venues.
 
 <!---
 Publish: yes
