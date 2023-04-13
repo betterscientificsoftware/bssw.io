@@ -1,4 +1,4 @@
-# Introducing a new Meeting Agenda Item - The Inclusive Minute
+# Introducing a New Meeting Agenda Item - The Inclusive Minute
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86), [Miranda Mundt](https://github.com/mrmundt)
 
