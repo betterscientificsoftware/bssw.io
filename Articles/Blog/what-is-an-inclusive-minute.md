@@ -29,7 +29,7 @@ What is **X**?
 Whatever **X** is, it is likely there is no shortage of interesting content involving inclusion and **X** or inclusion and things with which **X** is closely associated.
 Keeping topics focused on the nexus of inclusion and **X** maximizes the relevance of the activity.
 
-On the IDEAS-ECP team, we have found no end of interesting topics.
+On the [IDEAS-ECP](https://ideas-productivity.org) team, we have found no end of interesting topics.
 We have shared inclusive minutes about:
 
 - People ([Lynne Ann Conway](https://en.wikipedia.org/wiki/Lynn_Conway), [Gladys West](https://en.wikipedia.org/wiki/Gladys_West))
@@ -57,20 +57,21 @@ Examples of inclusive minute topics that are, by the terms offered here, out of 
 * Playing the YouTube video [Equality, Diversity and Inclusion](https://www.youtube.com/watch?v=Q6eqOBOqESM)
   * Is it appropriate length? No. Its 6 minutes. 2-3 minutes might work but 6 is a bit too long.
   * Is it closely related to **X**? Probably not. It is more of a general resource regarding inclusion and does not seem to tie inclusion into any specific **X**.
-* Going page-by-page through a resource such as [Microsoft's Inclusive Design](https://inclusive.microsoft.design/tools-and-activities/Inclusive101Guidebook.pdf).
+* Going page-by-page through a resource such as [Microsoft's Inclusive Design for Cognition Guidebook](https://inclusive.microsoft.design/tools-and-activities/InclusiveDesignForCognitionGuidebook.pdf).
   * Is it appropriate length? The resource, by itself, is 50+ pages and would take too long to go through. However, sharing a link to the article and two or three take-aways in the form of a single slide would be appropriate length.
   * Is it closely related to **X**? Even if **X** is software development, maybe not. The resource is extremely high level and general and really doesn't tie inclusion topics with an **X**.
 
 #### What is inclusion?
 
-Inclusion is about ensuring people with diverse identities and experiences have equitable access to resources and opportunities and feel safe, welcomed, respected, valued, and encouraged to contribute as their full, authentic selves in any particular group or activity (quoted from Tony Baylis, Lawrence Livermore National Laboratory's Director for the Office of Strategic Diversity and Inclusion Programs).
+Inclusion is about ensuring people with diverse identities and experiences have equitable access to resources and opportunities and feel safe, welcomed, respected, valued, and encouraged to contribute as their full, authentic selves in any particular group or activity (quoted from [Tony Baylis](https://people.llnl.gov/baylis3), Lawrence Livermore National Laboratory's Director for the Office of Strategic Diversity and Inclusion Programs).
 
-If diversity is being asked to the party, inclusion is being asked to dance. 
+If diversity is being asked to the party, inclusion is being asked to dance.
+Inclusion is [accessibility's close sibling](https://www.inclusionhub.com/articles/a11y-at-salesforce).
 
 Inclusive practices can play a role in improving almost every aspect of a software project including documentation, user interface and user experience, customer support processes, collaborations, presentations and publications, communications (e.g. GitHub or email) and even the actual code we write.
-The benefits of inclusive practices include reducing barriers to adoption, attracting and retaining a wider talent pool, attracting more customers/users, increased productivity, increased innovation, improved job satisfaction.
+The [benefits of inclusive practices](https://www2.deloitte.com/us/en/insights/deloitte-review/issue-22/diversity-and-inclusion-at-work-eight-powerful-truths.html) include reducing barriers to adoption, attracting and retaining a wider talent pool, attracting more customers/users, increased productivity, increased innovation, improved job satisfaction.
 
-For many, inclusion is inseparable from the broader and often institutionalized enterprise of Diversity, Equity, and Inclusion (DE&I).
+For many, inclusion is inseparable from the broader and often institutionalized enterprise of Diversity, Equity, and Inclusion ([DE&I](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-diversity-equity-and-inclusion)).
 Viewed through a DE&I lens, inclusive practices can wind up being seen more as an exercise in achieving compliance rather than increasing participation or improving productivity.
 In turn, topics central to DE&I such as gender identity, sexual harassment, and racism can easily obscure our perception of the full landscape of inclusive practices.
 Although these topics tend to capture more of the news headlines or tend to be where a lot of the more serious work is needed, inclusion is actually much, much wider than just those topics.
@@ -86,11 +87,12 @@ When they do, that can lead to broadening their perspectives more generally.
 
 #### We will all experience the impairment dimension
 
-Towards that end, it is worth considering that we are all likely to experience the disability or impairment dimension of inclusion [at some point](https://accessibility.iu.edu/docs/Types_of_impairments.pdf) in our lives.
+Towards that end, it is worth considering that we are all likely to experience the disability or impairment dimension of inclusion [at some point](https://meryl.net/companies-accessibility-disabilities/) in our lives.
 As a trivial example, when participating via an audio-only modality in a video teleconference where visual content is being shared, you will experience situational visual impairment.
 Because of the situation, you are not able to see information which may be critical for you to fully participate and contribute.
 Likewise, if you are just home from a tough visit with the dentist, you may experience temporary speaking impairment.
 If you are recovering from an accident and need to use a wheelchair, you will experience temporary mobility impairment.
+Examples involving situational and temporary impairments make it clear that inclusive practices benefit more than just those who live permamently with disabilities.
 
 #### Recommended logistics
 
@@ -133,29 +135,30 @@ When such conflicts arise, what can a team leader do?
 The first place team leaders can look is their own institution's stated policies and procedures which often include valuing and furthering the goals of inclusion.
 See, for example, those of the [Department of Energy (DOE)](https://www.energy.gov/science/diversity-equity-inclusion) or [Lawrence Livermore National Lab](https://www.llnl.gov/diversity/our-values).
 When team members act in ways to derail conversation or are otherwise contrary to inclusive practices, they should be reminded that they are then acting against the stated values of their institution.
-In some of the worst situations, it may be necessary to seek the help of human resources or an ombuds program, if available.
+
+In some of the most challenging situations, it may be necessary to seek the help of human resources or an ombuds program, if available.
 If your institution is committed to its stated values, it should not be hard to find higher level managers willing to back you up.
 
 #### We already invest heavily in inclusion...in our code
 
 While a focus on inclusive practices may seem like a new idea, the truth is the code we've been writing has for decades exemplified all the best goals of inclusion.
-For example, our community desires *interoperable* libraries so that, for example, an application can easily swap one solver library (e.g. PETSc) for another (e.g. HYPRE).
+For example, our community desires *interoperable* libraries so that, for example, an application can easily swap one solver library (e.g. [PETSc](https://petsc.org/release/overview/)) for another (e.g. [HYPRE](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods)).
 Interoperability is a manifestation of inclusion in the code we write.
 
-We also value both API (e.g. compile-time) and ABI (link-time) compatibility in successive or related versions of the same library.
+We also value both [API](https://en.wikipedia.org/wiki/API) (e.g. compile-time) and [ABI](https://en.wikipedia.org/wiki/Application_binary_interface) (link-time) compatibility in successive or related versions of the same library.
 This is yet another manifestation of inclusion in the code we write.
 Likewise, we want our applications used by people all over the world and as such, value having interfaces (e.g. GUIs, CLIs) as well as documentation available in multiple human languages.
-For example, the VisIt application GUI supports English, French, and Spanish and is designed to easily support other human languages.
+For example, the [VisIt](https://visit.llnl.gov) application GUI supports English, French, and Spanish and is designed to easily support other human languages.
 
-We also desire useful libraries to support multiple different programming language interface bindings such as C, C++, Fortran, Python, or Java.
-For example, the Conduit library can be used *naturally* within C, C++, Fortran, and Python programs.
+We also desire widely used libraries to support multiple different programming language interface bindings such as C, C++, Fortran, Python, or Java.
+For example, the [Conduit](https://llnl-conduit.readthedocs.io/en/latest/) library can be used *naturally* within C, C++, Fortran, and Python programs.
 
-The whole goal of performance portability is to ensure HPC/CSE applications can operate efficiently on a wide variety of computational resources (e.g. CPUs, GPUs, co-processors, FPGAs, etc.).
+The whole goal of performance portability is to enable HPC/CSE applications to operate efficiently on a wide variety of computational resources (e.g. CPUs, GPUs, co-processors, FPGAs, etc.).
 Performance portability is an extremely challenging design goal requiring substantial effort and resources to achieve.
 It and the effort we invest in it is yet another example of how the goals of inclusion (e.g. supporting a wide variety of computational resources) manifest in the actual code we design and write.
 
-We value computational kernels and tools that operate on single, double, quad and mixed or arbitrary precision.
-For example, the ZFP compression library supports single and double precision, and support for half and quad precision is on the "To Do" list.
+We value computational kernels and tools that operate on single, double, quad and even mixed or arbitrary precision.
+For example, the [ZFP compression library](https://computing.llnl.gov/projects/zfp) supports single and double precision, and support for half and quad precision is on the "To Do" list.
 
 The truth is, a substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusion (of our software).
 It only makes sense that we would be equally committed, if not more so, to inclusion of our people as well.
