@@ -1,9 +1,5 @@
 # Julia's Value Proposition for Better Scientific Software
 
- **Hero Image:**
-
-  - <img src='../../images/Blog_2303_julia.svg' />
-
 #### Contributed by: [William F Godoy](https://github.com/williamfgc)
 
 #### Publication date: April 14, 2022
@@ -26,7 +22,11 @@ We are in a constant search for new approaches that empower practitioners by low
 
 As shown in Figure 1, Julia's high-productivity plus high-performance layer builds upon LLVM for both CPU and GPU access, and a unified open-source packaging and data science ecosystem hosted on GitHub. Julia also provides lightweight interoperability with existing C and Fortran codes. Hence, the value proposition is not to replace a particular language but to reduce current costs in the scientific software development process (e.g. from prototyping to publication with Python + X).
 
- - <img src='../../images/Blog_2303_julia_value_proposition.png' />[Figure 1. Julia's value proposition to the construction process in scientific software.]
+<br>
+
+<img src='../../images/Blog_2303_julia_value_proposition.png' class='page lightbox' />[Figure 1. Julia's value proposition to the construction process in scientific software.]
+
+<br>
 
 **The ecosystem is NOT an afterthought**
 In Julia, the project description and dependencies are your starting point when [creating a new package](https://pkgdocs.julialang.org/v1/creating-packages/), via [toml files](https://pkgdocs.julialang.org/v1/toml-files/). Just inspect any [Julia package](https://juliapackages.com/) source code on GitHub and see their `Project.toml` files for a list of dependencies and version compatibility information. In addition, [unit testing](https://docs.julialang.org/en/v1/stdlib/Test/), interactive computing via the read–eval–print loop (REPL), a [standard library](https://juliafs.readthedocs.io/en/stable/stdlib/index.html) with mathematical and data abstractions, and a unified package manager with access to a rich ecosystem for scientific computing, [data science](https://www.juliafordatascience.com/), [visualization](https://juliapackages.com/c/graphics), and [AI](https://fluxml.ai/Flux.jl/stable/ecosystem/).
@@ -65,8 +65,11 @@ $ julia
 └
 ```
 
-<img src='../../images/Blog_2303_julia_pluto.png' />[Figure 2. Intro to Plots.jl Pluto notebook from default examples.]
+<br>
 
+<img src='../../images/Blog_2303_julia_pluto.png' class='page lightbox' />[Figure 2. Intro to Plots.jl Pluto notebook from default examples.]
+
+<br>
 
 **The community**
 This is where the real value of Julia lies. The Julia community is very enthusiastic about helping others and engages using modern tools, such as the [Julia slack](https://julialang.org/slack/) and [discord](https://discourse.julialang.org/t/julialang-official-discord-server/45499) channels, and each package's GitHub issues tracker. [JuliaCon](https://juliacon.org/2023/) is the annual gathering, and several interesting talks and tutorials from there can be found on YouTube. Many contributions and support come from [JuliaHub](https://juliahub.com/) (formerly Julia Computing) as part of the mission. 
