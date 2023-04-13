@@ -45,6 +45,6 @@ Please refer to the event website for up-to-date information.
 <!---
 Publish: yes
 Pinned: no
-Topics: conferences and workshops, software engineering
+Topics: conferences and workshops, software engineering, Research Software Engineers
 RSS update: 2023-03-21
 --->
