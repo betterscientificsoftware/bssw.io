@@ -68,7 +68,7 @@ Inclusion is about ensuring people with diverse identities and experiences have 
 If diversity is being asked to the party, inclusion is being asked to dance.
 Inclusion is [accessibility's close sibling](https://www.inclusionhub.com/articles/a11y-at-salesforce).
 
-Inclusive practices can play a role in improving almost every aspect of a software project including documentation, user interface and user experience, customer support processes, collaborations, presentations and publications, communications (e.g. GitHub or email) and even the actual code we write.
+Inclusive practices can play a role in improving almost every aspect of a software project including documentation, user interface and user experience, customer support processes, collaborations, presentations and publications, communications (e.g. GitHub or email) and even the [actual code we write](https://bssw.io/blog_posts/experiences-replacing-master-slave-terminology-in-ale3d-and-sierra).
 The [benefits of inclusive practices](https://www2.deloitte.com/us/en/insights/deloitte-review/issue-22/diversity-and-inclusion-at-work-eight-powerful-truths.html) include reducing barriers to adoption, attracting and retaining a wider talent pool, attracting more customers/users, increased productivity, increased innovation, improved job satisfaction.
 
 For many, inclusion is inseparable from the broader and often institutionalized enterprise of Diversity, Equity, and Inclusion ([DE&I](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-diversity-equity-and-inclusion)).
