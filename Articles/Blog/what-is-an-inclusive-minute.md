@@ -80,7 +80,7 @@ Although these topics tend to capture more of the news headlines or tend to be w
 
 There are many other dimensions to inclusion such as neurodivergence (15-20% of people), mobility impaired (16% of people), handedness (10% of people are lefties), dyslexia/dyscalculia (3-7% of people), visually impaired (1%-40% of people, depending on how we count), hearing impaired (15% of people), speaking impaired (3-7% of people), prone to migraines (10% of people), color vision deficient (CVD) (5% of people), self-regulating glucose impaired (12% of people).
 
-In addition, without trying too hard, its easy to think of many other ways in which large swaths of our population have a shared experience which is atypical including such things as English as a second language, immigration status, culturally or religiously relevant legal holidays, remote/hybrid work arrangement, and even time-zone, just to name a few.
+In addition, without trying too hard, it's easy to think of many other ways in which large swaths of our population have a shared experience which is atypical including such things as English as a second language, immigration status, culturally or religiously relevant legal holidays, remote/hybrid work arrangement, and even time-zone, just to name a few.
 
 People who have trouble empathizing with some dimensions of inclusion can often identify with other dimensions.
 When they do, that can lead to broadening their perspectives more generally.
