@@ -47,7 +47,7 @@ Julia does not support object-oriented programming in the same manner as C++ or 
 
 **Interoperate with existing software**
 
-Julia enables lightweight reusability of existing Fortran and C infrastructure via the [`@ccall` macro](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/). Similarly, Python and R interoperability is possible with [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) and [RCall.jl](https://github.com/JuliaInterop/RCall.jl), respectively. Thus, Julia promotes reuse over reinvention, which is both important and useful given the volume of mature scientific software.
+Julia enables lightweight reusability of existing Fortran and C infrastructure via the [@ccall macro](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/). Similarly, Python and R interoperability is possible with [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) and [RCall.jl](https://github.com/JuliaInterop/RCall.jl), respectively. Thus, Julia promotes reuse over reinvention, which is both important and useful given the volume of mature scientific software.
 
 **Jupyter and Pluto.jl notebooks**
 
