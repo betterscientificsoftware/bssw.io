@@ -62,13 +62,11 @@ Launching a Pluto Notebook from the REPL.
 $ julia
 > using Pluto
 > Pluto.run()
-[ Info: Loading...
-[ Info: Listening on: 127.0.0.1:1234, thread id: 1
-[ Info: 
-[ Opening http://localhost:1234/?secret=AZ8Ynd82 in your default browser... ~ have fun!
-[ Info: 
-[ Press Ctrl+C in this terminal to stop Pluto
-[
+┌ Info: 
+└ Opening http://localhost:1234/?secret=AZ8Ynd82 in your default browser... ~ have fun!
+┌ Info: 
+│ Press Ctrl+C in this terminal to stop Pluto
+└
 ```
 
 <br>
