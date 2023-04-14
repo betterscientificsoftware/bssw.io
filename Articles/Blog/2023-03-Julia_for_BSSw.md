@@ -2,7 +2,7 @@
 
 #### Contributed by: [William F Godoy](https://github.com/williamfgc)
 
-#### Publication date: April 14, 2022
+#### Publication date: April 14, 2023
 
 <!-- start of deck text -->
 Julia provides a mathematical front end to LLVM to provide easy and performant CPU and GPU access and lightweight interoperability with existing C, Fortran, R, and Python codes, coupled with a rich unified ecosystem for packaging, data science, and interactive computing. Hence, Julia fills a gap at the intersection of high performance and high productivity for scientific software.
