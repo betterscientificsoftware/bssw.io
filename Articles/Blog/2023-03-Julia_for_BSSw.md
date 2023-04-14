@@ -31,7 +31,7 @@ As shown in Figure 1, Julia's high-productivity plus high-performance layer buil
 
 **The ecosystem is NOT an afterthought**
 
-In Julia, the project description and dependencies are the starting point when [creating a new package](https://pkgdocs.julialang.org/v1/creating-packages/) via [toml files](https://pkgdocs.julialang.org/v1/toml-files/). Just inspect any [Julia package](https://juliapackages.com/) source code on GitHub and see the `Project.toml` files for a list of dependencies and version compatibility information. In addition, Julia provides [unit testing](https://docs.julialang.org/en/v1/stdlib/Test/), interactive computing via the read–eval–print loop (REPL), a [standard library](https://juliafs.readthedocs.io/en/stable/stdlib/index.html) with mathematical and data abstractions, and a unified package manager with access to a rich ecosystem for scientific computing, [data science](https://www.juliafordatascience.com/), [visualization](https://juliapackages.com/c/graphics), and [AI](https://fluxml.ai/Flux.jl/stable/ecosystem/).
+In Julia, the project description and dependencies are the starting point when [creating a new package](https://pkgdocs.julialang.org/v1/creating-packages/) via [toml files](https://pkgdocs.julialang.org/v1/toml-files/). Just inspect any [Julia package](https://juliapackages.com/) source code on GitHub and see the `Project.toml` files for a list of dependencies and version compatibility information. In addition, Julia provides [unit testing](https://docs.julialang.org/en/v1/stdlib/Test/), interactive computing via the read-eval-print loop (REPL), a [standard library](https://juliafs.readthedocs.io/en/stable/stdlib/index.html) with mathematical and data abstractions, and a unified package manager with access to a rich ecosystem for scientific computing, [data science](https://www.juliafordatascience.com/), [visualization](https://juliapackages.com/c/graphics), and [AI](https://fluxml.ai/Flux.jl/stable/ecosystem/).
 
 So how does this circumstance differ from Python's ecosystem? Recently GitHub Actions bumped its Python version to 3.11 on some of its runners, causing problems for many Python packages.  As of March 2023, 59.4% of the most popular Python packages do not indicate support for that version of Python yet on [PyPI](https://pyreadiness.org/3.11/)). Thus, the cost of this coordination is passed to the end user until package developers can react. That last word is key: Julia promotes a more "predictive" rather than "reactive" maintenance approach in which packages in Julia's [general registry](https://github.com/JuliaRegistries/General) must meet certain requirements. We don't live in a perfect world, thus the value of this coordination is not only on "not breaking the API" or "fixing bugs", but also in enriching user-developer communications using an open-source process for package updates prior to deployment.
 
@@ -64,11 +64,11 @@ $ julia
 > Pluto.run()
 [ Info: Loading...
 [ Info: Listening on: 127.0.0.1:1234, thread id: 1
-┌ Info: 
-└ Opening http://localhost:1234/?secret=AZ8Ynd82 in your default browser... ~ have fun!
-┌ Info: 
-│ Press Ctrl+C in this terminal to stop Pluto
-└
+[ Info: 
+[ Opening http://localhost:1234/?secret=AZ8Ynd82 in your default browser... ~ have fun!
+[ Info: 
+[ Press Ctrl+C in this terminal to stop Pluto
+[
 ```
 
 <br>
@@ -85,7 +85,7 @@ Last summer we organized a full-day workshop, entitled Julia for Oak Ridge Natio
 
 For people focused on high-performance computing (HPC), it is worth noting that the community is invested in performance from day one. Several members of the community recently put our thoughts about HPC and Julia in a [recent paper](https://arxiv.org/abs/2211.02740). Meanwhile, building the community has kept many of us very busy in the last few years. Many [venues](https://juliaparallel.org/resources/) have been organized in recent years, including a tutorial and BoFs organized by the U.S. Department of Energy [Exascale Computing Project](https://www.exascaleproject.org/), a Supercomputing [BoF](https://sc22.supercomputing.org/presentation/?id=bof136&sess=sess309), a JuliaCon [minisymposium](https://live.juliacon.org/talk/LUWYRJ), and a monthly [JuliaHPC call](https://julialang.org/community/#events) to provide exposure and highlight the work done by community members.
 
-It's also worth mentioning that unifying and coordinated initiatives coming out of the Exascale Computing Project (ECP) like [Spack](https://spack.io/) and [E4S](https://e4s-project.github.io/) can be an invaluable source of HPC packages which can be leveraged within the Julia ecosystem. 
+It's also worth mentioning that unifying and coordinated initiatives coming out of the Exascale Computing Project (ECP) like [Spack](https://spack.io/) and [E4S](https://e4s-project.github.io/) can be an invaluable source of HPC packages that can be leveraged within the Julia ecosystem. 
 
 ### Where to start
 
