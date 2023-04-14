@@ -43,7 +43,7 @@ This model of "batteries included" is not new for more targeted languages, such 
 
 **Compose to prevent inheritance bloat**
 
-Julia does not support object-oriented as C++ or Python. Julia projects are organized by modules, and proper data locality and composition using "data container" structs and type hierarchy trees in which abstract types have no members (see related [discussions](https://github.com/JuliaLang/julia/issues/4935)). Think of composition as Derived "has-a" Base, instead of Derived "is-a" Base. This weak coupling prevents deep hierarchies of classes that can quickly get out of hand, while encouraging software developers to think of structs as data containers to which operations are applied, as one would do in languages like pre-2003 Fortran, R, or C.
+Julia does not support object-oriented programming in the same manner as C++ or Python. Julia projects are organized by modules; proper data locality and composition are achieved using "data container" structs and type hierarchy trees in which abstract types have no members (see related [discussions](https://github.com/JuliaLang/julia/issues/4935)). Think of composition as Derived "has-a" Base, instead of Derived "is-a" Base. This weak coupling prevents deep hierarchies of classes that can quickly get out of hand, while encouraging software developers to think of structs as data containers to which operations are applied, as one would do in languages like pre-2003 Fortran, R, or C.
 
 **Interoperate with existing software**
 
