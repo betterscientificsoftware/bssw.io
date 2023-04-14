@@ -10,7 +10,7 @@ Do you want to help the community work toward a long-term goal of advancing scie
 
 The first step when it comes to contributing to BSSw is checking whether your content a good fit.  Please see [What To Contribute](./WhatToContribute.md) for information on scope.  If you are still unsure, please [contact us](https://bssw.io/pages/questions-about-contributing-to-better-scientific-software).
 
-PLEASE NOTE that at this stage, you are expected to only submit a short abstract of your article. Once reviewed and if accepted, you will be contacted to submit the complete version. Once you are ready to contribute and f you are familiar with GitHub, please do use the below approach to submit your abstract. If you are not familiar with GitHub, please contact us and we can help you.
+PLEASE NOTE that at this stage, you are expected to only submit a short abstract of your article. Once reviewed and if accepted, you will be contacted to submit the complete version. Once you are ready to contribute and if you are familiar with GitHub, please do use the below approach to submit your abstract. If you are not familiar with GitHub, please contact us and we can help you.
 
 ### Submisson via web-based GitHub
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).
