@@ -45,7 +45,6 @@ Renowned scientists, HPC experts, and leaders will serve as lecturers and will g
 
 <!---
 Publish: yes
-Categories: skills, performance 
-Topics: online learning, High-performance computing (HPC), Performance at Leadership Computing Facilities
+Topics: in-person learning, High-performance computing (HPC), Performance at Leadership Computing Facilities
 --->
 
