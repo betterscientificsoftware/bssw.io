@@ -63,5 +63,5 @@ Please check the [bootcamp webpage](https://intersect-training.org/bootcamp23/) 
 
 <!---
 Publish: yes
-Topics: "in-person learning", "software engineering", "design", "strategies for more effective teams", "testing", "continuous integration testing", "release and deployment"
+Topics: in-person learning, software engineering, design, strategies for more effective teams, testing, continuous integration testing, release and deployment
 --->
