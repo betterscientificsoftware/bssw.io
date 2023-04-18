@@ -50,7 +50,7 @@ computations
 
 The simplest case (**interoperability level 1**) occurs when an application needs to call two distinct
 libraries for different functionalities (for example, an [MPI](https://www.mpi-forum.org/) library for message-passing
-communication and [HDF5](https://www.hdfgroup.org/solutions/hdf5/) for data output). As discussed in [[1](https://figshare.com/articles/Package_Management_Practices_Essential_for_Interoperability_Lessons_Learned_and_Strategies_Developed_for_FASTMath/789055), [2](https://wci.llnl.gov/codes/smartlibs/UCRL-JRNL-208636.pdf)], even this basic level of
+communication and [HDF5](https://www.hdfgroup.org/solutions/hdf5/) for data output). As discussed in [[1](https://figshare.com/articles/Package_Management_Practices_Essential_for_Interoperability_Lessons_Learned_and_Strategies_Developed_for_FASTMath/789055), [2](https://www.osti.gov/biblio/936460)], even this basic level of
 interoperability requires consistency among libraries to be used within the same application, in
 terms of compiler, compiler version/options, and other third-party capabilities. If both libraries
 have a dependence on a common third party, the libraries must be able to use a single common
