@@ -33,7 +33,7 @@ jobs:
         timeout: 10
 
         # Exclude these patterns from the checker
-        exclude_patterns: http://localhost:4000,https://preview.bssw.io
+        exclude_patterns: http://localhost:4000,https://preview.bssw.io,https://github.com/<your-github-handle>
 
         # Exclude these files from the checker
         exclude_files: docs/_config.yml,.github,utils,docs,Events
