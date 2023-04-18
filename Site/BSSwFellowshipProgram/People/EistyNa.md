@@ -6,8 +6,6 @@
 
 **Image:** /images/People_Nasir.jpg
 
-**URL:** http://neisty.students.cs.ua.edu
-
 **LinkedIn:** https://www.linkedin.com/in/nasir-uddin-eisty-492830a9/
 
 **Github:** https://github.com/neisty
