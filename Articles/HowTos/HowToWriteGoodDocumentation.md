@@ -39,9 +39,9 @@ Use of literate programming is a really good way to produce user level documenta
 ### Examples of documentation in scientific software projects:
 * https://bitbucket.org/pflotran/pflotran-dev/wiki/Home
 * http://yt-project.org/doc/
-* https://www.earthsystemcog.org/projects/esmf/dev_docs/
-* http://flash.uchicago.edu/site/flashcode/user_support/
-* http://cactuscode.org/documentation/
+* https://petsc.org/release/
+* https://flash.rochester.edu/site/flashcode/user_support/
+* http://www.cactuscode.org/documentation/index.html
 
 ### References
 [1] http://martinfowler.com/bliki/TechnicalDebt.html
