@@ -61,7 +61,7 @@ in URSSI.
 ### Collaboration
 We are not working in a vacuum, but with other like-minded projects.  In addition to
 [Better Scientific Software (BSSw)](https://bssw.io/) and activities around research facilitators
-([ACI-REF](https://aciref.org/)) in the United States, there are two ongoing institutes in
+([ACI-REF](https://aci-ref.github.io)) in the United States, there are two ongoing institutes in
 [science gateways (SGCI)](https://sciencegateways.org/) and [molecular sciences (MolSSI)](http://molssi.org/); a recently
 completed [conceptualization in high energy physics (S2I2-HEP)](http://s2i2-hep.org/); two other conceptualization projects
 now under way in [geospatial software](http://gsi.cigi.illinois.edu) and
