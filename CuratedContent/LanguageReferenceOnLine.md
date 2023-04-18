@@ -252,7 +252,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [pparc-hpx]: https://hpx-docs.stellar-group.org/latest/html/index.html
 [pparc-thrust]: https://thrust.github.io/doc/modules.html
 [pparc-raja]: https://raja.readthedocs.io/en/develop/sphinx/user_guide/index.html
-[pparc-sycl]: https://sycl.readthedocs.io/en/latest/
+[pparc-sycl]: https://www.khronos.org/sycl/resources
 [pparc-rocm]: https://rocmdocs.amd.com/_/downloads/en/latest/pdf/
 
 [//]: # (Portable Parallelism via Abstract Data)
