@@ -56,8 +56,7 @@ More details about these two events can be found on the [ORNL Software Expo web 
 
 <a href="https://csmd.ornl.gov/profile/gregory-watson">Gregory Watson</a> is a Senior Research Scientist in the Research Software Engineering Group at Oak Ridge National Laboratory. He completed his Ph.D. in Computer Science in 2000 from Monash University. Dr. Watson's research interests include software engineering practices, development environments, programming tools, and modeling and simulation tools for high performance and scientific computing. He is founder of the <a href="https://eclipse.org/ptp">Eclipse Parallel Tools Platform</a>, and project leader of the <a href="https://science.eclipse.org">Eclipse Science Top Level Project</a>.
 
-<!--- <a href="https://computing.llnl.gov/about/people-highlights/elsa-gonsiorowski">Elsa Gonsiorowski</a> ---> 
-Elsa Gonsiorowski is an HPC I/O Specialist working at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
+<a href="https://computing.llnl.gov/about/people-highlights/elsa-gonsiorowski">Elsa Gonsiorowski</a> is an HPC I/O Specialist working at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
 
 <!---
 Publish: yes
