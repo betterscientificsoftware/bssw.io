@@ -37,4 +37,4 @@ jobs:
         exclude_patterns: http://localhost:4000
 
         # Exclude these files from the checker
-        exclude_files: _config.yml,.github/workflows
+        exclude_files: docs/_config.yml,.github/workflows,utils
