@@ -1,8 +1,7 @@
 name: Check published links weekly
 on:
-  # Run every Sunday evening.
   schedule:
-  # 5:17 AM every Sunday
+    # 5:17 AM every Sunday
     - cron: '17 5 * * 0'
   # Allow for manually running also.
   workflow_dispatch:
