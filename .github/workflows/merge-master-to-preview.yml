@@ -7,6 +7,7 @@ on:
       - 'master'
 jobs:
   sync-preview:
+    if: github.repository_owner == 'betterscientificsoftware'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
