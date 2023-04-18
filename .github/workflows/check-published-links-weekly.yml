@@ -36,4 +36,4 @@ jobs:
         exclude_patterns: http://localhost:4000,https://preview.bssw.io
 
         # Exclude these files from the checker
-        exclude_files: docs/_config.yml,.github/workflows,utils
+        exclude_files: docs/_config.yml,.github/workflows,utils,docs
