@@ -1,0 +1,40 @@
+name: Check published links weekly
+on:
+  # Run every Sunday evening.
+  schedule:
+  # 5:17 AM every Sunday
+    - cron: '17 5 * * 0'
+  # Allow for manually running also.
+  workflow_dispatch:
+
+jobs:
+  urlcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: URL Checker
+
+      uses: urlstechie/urlchecker-action@0.0.34
+      with:
+        # A comma-separated list of file types to cover in the URL checks
+        file_types: .md
+
+        # Choose whether to include file with no URLs in the prints.
+        print_all: false
+
+        # More verbose summary at the end of a run
+        verbose: true
+
+        # How many times to retry a failed request (defaults to 1)
+        retry_count: 3
+
+        # Google Forms is having enormous timeouts
+        timeout: 10
+
+        # Exclude these patterns from the checker
+        exclude_patterns: http://localhost:4000
+
+        # Exclude these files from the checker
+        exclude_files: _config.yml,.github/workflows
