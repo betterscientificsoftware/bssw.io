@@ -22,8 +22,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
       - name: Stop workflow if user is no member
         if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
-        uses: cinotify/github-action@main
+        uses: dawidd6/action-send-mail@v3
         with:
-          to: 'bssw-editorial@lists.mcs.anl.gov'
-          subject: 'BSSw External Submission'
-          body: 'This is a notification from GitHub actions.'
+          # Required mail server address if not connection_url:
+          server_address: smtp.gmail.com
+          # Server port, default 25:
+          server_port: 465
+          # Optional whether this connection use TLS (default is true if server_port is 465)
+          secure: true
+          # Optional (recommended) mail server username:
+          username: ${{ secrets.MCM86_MAIL_USERNAME }}
+          # Optional (recommended) mail server password:
+          password: ${{ secrets.MCM86_MAIL_PASSWORD }}
+          # Required mail subject:
+          subject: External contribution detected
+          # Required recipients' addresses:
+          to: bssw-editorial@lists.mcs.anl.gov
+          # Required sender full name (address can be skipped):
+          from: notify-external-contrib.yml bssw.io action
+          # Optional plain body:
+          body: External contributor for ${{github.repository}} identified!
