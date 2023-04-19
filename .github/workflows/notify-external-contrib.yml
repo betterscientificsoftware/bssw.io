@@ -21,7 +21,7 @@ jobs:
           team: 'mcm86-temp-test-team'
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
       - name: Stop workflow if user is no member
-        if: ${{ steps.teamAffiliation.outputs.isTeamMember == false }}
+        if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
         uses: cinotify/github-action@main
         with:
           to: 'bssw-editorial@lists.mcs.anl.gov'
