@@ -22,6 +22,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
       - name: Stop workflow if user is no member
         if: ${{ steps.teamAffiliation.outputs.isTeamMember == false }}
-        run: |
-          echo "You have no rights to trigger this job."
-          exit 1
+        uses: cinotify/github-action@main
+        with:
+          to: 'bssw-editorial@lists.mcs.anl.gov'
+          subject: 'BSSw External Submission'
+          body: 'This is a notification from GitHub actions.'
