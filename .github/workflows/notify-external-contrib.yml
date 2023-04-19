@@ -19,8 +19,7 @@ jobs:
           username: ${{ github.actor }}
           # 'bssw-editorial-board'
           team: 'mcm86-temp-test-team'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
       - name: Stop workflow if user is no member
         if: ${{ steps.teamAffiliation.outputs.isTeamMember == false }}
         run: |
