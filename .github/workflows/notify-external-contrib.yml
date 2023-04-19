@@ -1,0 +1,27 @@
+name: Notify external contributions
+on:
+  issues:
+    types: [opened]
+  discussion:
+    types: [created]
+  pull_request:
+    types: [opened,reopened,review_requested,ready_for_review]
+
+jobs:
+  notify-external-contributions:
+    if: github.repository_owner == 'betterscientificsoftware'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check user for team affiliation
+        uses: tspascoal/get-user-teams-membership@v2
+        id: teamAffiliation
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.actor }}
+          # 'bssw-editorial-board'
+          team: 'mcm86-temp-test-team'
+      - name: Stop workflow if user is no member
+        if: ${{ steps.teamAffiliation.outputs.isTeamMember == false }}
+        run: |
+          echo "You have no rights to trigger this job."
+          exit 1
