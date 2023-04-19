@@ -7,7 +7,11 @@ on:
   workflow_dispatch:
 
 jobs:
+
   urlcheck:
+
+    if: github.repository_owner == 'betterscientificsoftware'
+
     runs-on: ubuntu-latest
 
     steps:
