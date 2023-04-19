@@ -41,4 +41,4 @@ jobs:
           # Required sender full name (address can be skipped):
           from: notify-external-contrib.yml bssw.io action
           # Optional plain body:
-          body: External contributor for ${{github.repository}} identified!
+          body: External contributor ${{ github.actor }} identified!
