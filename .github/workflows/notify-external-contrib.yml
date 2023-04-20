@@ -37,7 +37,8 @@ jobs:
           # Required mail subject:
           subject: External contribution detected
           # Required recipients' addresses:
-          to: bssw-editorial@lists.mcs.anl.gov
+          # to: bssw-editorial@lists.mcs.anl.gov
+          to: miller86@llnl.gov
           # Required sender full name (address can be skipped):
           from: notify-external-contrib.yml bssw.io action
           # Optional plain body:
