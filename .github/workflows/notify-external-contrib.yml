@@ -42,4 +42,6 @@ jobs:
           # Required sender full name (address can be skipped):
           from: notify-external-contrib.yml bssw.io action
           # Optional plain body:
-          body: ${{ toJson(github.event) }}
+          body: Gorfo
+      - name: Debug
+        uses: hmarr/debug-action@v2
