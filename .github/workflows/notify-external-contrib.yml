@@ -19,7 +19,8 @@ jobs:
           username: ${{ github.actor }}
           team: 'bssw-editorial-board'
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
-      - name: Actions Ecosystem Add Labels
+      - name: Add label if user is not member
+        if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
         uses: actions-ecosystem/action-add-labels@v1.1.0
         with:
           labels: |
