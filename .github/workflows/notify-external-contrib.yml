@@ -23,6 +23,7 @@ jobs:
         if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
         uses: actions-ecosystem/action-add-labels@v1.1.0
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: |
             external contribution
       - name: Send mail if user is not member
