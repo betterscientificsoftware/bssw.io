@@ -19,6 +19,11 @@ jobs:
           username: ${{ github.actor }}
           team: 'bssw-editorial-board'
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
+      - name: Actions Ecosystem Add Labels
+        uses: actions-ecosystem/action-add-labels@v1.1.0
+        with:
+          labels: |
+            external contribution
       - name: Send mail if user is not member
         if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
         uses: dawidd6/action-send-mail@v3
@@ -39,7 +44,7 @@ jobs:
           to: bssw-editorial@lists.mcs.anl.gov
           # Required sender full name (address can be skipped):
           from: notify-external-contrib.yml bssw.io action
-          # Any even could have triggered. Just output union of all possible.
+          # Any event could have triggered. Just output union of all possible.
           # Only one of the three outputs is applicable.
           # Not applicable items generate whitespace.
           body: |
