@@ -17,10 +17,9 @@ jobs:
         id: teamAffiliation
         with:
           username: ${{ github.actor }}
-          # 'bssw-editorial-board'
-          team: 'mcm86-temp-test-team'
+          team: 'bssw-editorial-board'
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
-      - name: Stop workflow if user is no member
+      - name: Send mail if user is not member
         if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
         uses: dawidd6/action-send-mail@v3
         with:
@@ -37,11 +36,15 @@ jobs:
           # Required mail subject:
           subject: External contribution detected
           # Required recipients' addresses:
-          # to: bssw-editorial@lists.mcs.anl.gov
-          to: miller86@llnl.gov
+          to: bssw-editorial@lists.mcs.anl.gov
           # Required sender full name (address can be skipped):
           from: notify-external-contrib.yml bssw.io action
-          # Optional plain body:
-          body: ${{ github.actor }} created ${{ github.event.issue.number }} ${{ github.event.issue.html_url }}
-      - name: Debug
-        uses: hmarr/debug-action@v2
+          # Any even could have triggered. Just output union of all possible.
+          # Only one of the three outputs is applicable.
+          # Not applicable items generate whitespace.
+          body: |
+            There is an external contribution from user with GitHub user handle ${{ github.actor }}
+            The item contributed is...
+            ${{ github.event.issue.html_url }}
+            ${{ github.event.pull_request.html_url }}
+            ${{ github.event.discussion.html_url }}
