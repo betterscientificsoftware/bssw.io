@@ -27,7 +27,7 @@ Format:
     - job: assign_to_board
         - Assigns issues and PRs to either Content Development board or BSSw Internal board based on labels ("content: *" or "scope: site-internal")
 * notify-external-contrib.yml (Notify external contributions)
-    - triggers issue [opened], discussion [opened], pull_request [opened, re-opened, review_requested, ready_for_review]
+  - https://github.com/betterscientificsoftware/bssw.io/blob/f5eb9574ec541ef04a07f2b195af148ab78eda51/.github/workflows/notify-external-contrib.yml#L3-L8
     - job: notify-external-contributions
         - Label and send email to bssw-editorial-list for externally opened issues, prs and discussions
     - **Notes**: Requires a few special items
