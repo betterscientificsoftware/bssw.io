@@ -26,6 +26,23 @@ Format:
     - trigger: issue [opened, labeled], pull-request [opened, labeled]
     - job: assign_to_board
         - Assigns issues and PRs to either Content Development board or BSSw Internal board based on labels ("content: *" or "scope: site-internal")
+* notify-external-contrib.yml (Notify external contributions)
+    - triggers issue [opened], discussion [opened], pull_request [opened, re-opened, review_requested, ready_for_review]
+    - job: notify-external-contributions
+        - Label and send email to bssw-editorial-list for externally opened issues, prs and discussions
+    - **Notes**: Requires a few special items
+        - A personal access token (PAT). A GitHub user creates in the `Developer settings` subsection of your own, personal `Settings`.
+           - This is needed to read the contents (GitHub user names) of the `bssw-editorial-board` team. This could be avoided entirely if we just included the names of bssw editorial board members directly in the action's `.yml` file. Honestly, there probably isn't anything wrong with that because all of our activities for bssw are *public* on GitHub anyways.
+           - A PAT has an expiration date. You can set it to not-expire but that might be a bad idea from a security standpoint.
+           - The PAT has to be given `admin` privilege `read:org`
+           - This is all mentioned in the `README.md` for the action used (https://github.com/tspascoal/get-user-teams-membership)
+           - Once a PAT is created, you need to copy it to the `Repository secrets` part of bssw repo and give it a name.
+           - That name appears in line 21 of `notify-external-contrib.yml` where it is used to set the value of `GITHUB_TOKEN` env. variable
+        - A username/password pair for an associated send-mail-transfer-protocol (smtp) server account with which to send mail.
+           - I used Google's smtp server and my personal Google email.
+           - Whoever's email is being used here needs to be *whitelisted* on the `bssw-editorial-list` email list.
+           - To use a gmail account, create a [Google App password](https://support.google.com/mail/answer/185833?hl=en-GB) for this
+           - Then, create two `Repository secrets` for the gmail username and app password and then refer to those by name on lines 40 and 42 in `notify-external-contrib.yml` 
 
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
