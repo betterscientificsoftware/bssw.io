@@ -42,7 +42,7 @@ Format:
            - That name appears in line 21 of `notify-external-contrib.yml` where it is used to set the value of `GITHUB_TOKEN` env. variable
         - A username/password pair for an associated send-mail-transfer-protocol (smtp) server account with which to send mail.
            - I used Google's smtp server and my personal Google email.
-           - Whoever's email is being used here needs to be *whitelisted* on the `bssw-editorial-list` email list.
+           - Whoever's email is being used here needs to be *allow-listed* on the `bssw-editorial-list` email list.
            - To use a gmail account, create a [Google App password](https://support.google.com/mail/answer/185833?hl=en-GB) for this
            - Then, create two `Repository secrets` for the gmail username and app password and then refer to those by name on lines 40 and 42 in `notify-external-contrib.yml` 
 
