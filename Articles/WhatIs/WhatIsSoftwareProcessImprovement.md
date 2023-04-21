@@ -3,7 +3,7 @@
 #### Publication date: ???
 
 <!--- deck start --->
-Software process improvement is the application of a systematic approach to the identification, evaluation, and improvement of software processes which is also critical for computational science and engineering projects.
+Software process improvement is the application of a systematic approach to the identification, evaluation, and improvement of software processes which is critical for computational science and engineering projects.
 <!--- deck end --->
 
 <!--- body start --->
