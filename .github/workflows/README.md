@@ -32,7 +32,9 @@ Format:
         - Label and send email to bssw-editorial-list for externally opened issues, prs and discussions
     - **Notes**: Requires a few special items
         - A personal access token (PAT): A GitHub user creates one in the `Developer settings` subsection of their own, personal `Settings`.
-           - This is needed to read the contents (GitHub user names) of the `bssw-editorial-board` team. This could be avoided entirely if we just included the names of bssw editorial board members directly in the action's `.yml` file. Honestly, there probably isn't anything wrong with that because all of our activities for bssw are *public* on GitHub anyways.
+           - This is needed to read the contents (GitHub user names) of the `bssw-editorial-board` team.
+              This could be avoided entirely if we just included the names of bssw editorial board members directly in the action's `.yml` file.
+              Honestly, the only thing wrong with that is that it creates a second place to go edit when bssw editorial team membership changes.
            - A PAT has an expiration date. You can set it to not-expire but that might be a bad idea from a security standpoint.
            - The PAT has to be given `admin` privilege `read:org`
            - This is all mentioned in the `README.md` for the action used (https://github.com/tspascoal/get-user-teams-membership)
