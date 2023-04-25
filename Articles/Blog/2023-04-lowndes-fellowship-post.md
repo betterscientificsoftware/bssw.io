@@ -46,7 +46,7 @@ The example below is available at https://openscapes.org/series.
 
 And, this culture shift is growing as we're seeing researchers we work with and the broader community fork this mode of working and teaching for their own needs. Gavin Fay created the [FayLab Manual](https://thefaylab.github.io/lab-manual/) onboarding resources for his lab — a beautifully radical idea in science which itself has now been forked at least 45 times, including by NOAA Fisheries' [OpenSci Resource Book](https://nmfs-opensci.github.io/resourcebook). We're also seeing this for community building at the [California Water Boards](https://cawaterboarddatacenter.github.io/swrcb-openscapes/) and other NASA programs like [VEDA](https://nasa-impact.github.io/veda-docs/).
 
-### Join us!
+### Join us
 
 The best way to join this movement is to reuse and amplify existing community resources, and then fork them to fit your needs and fill the gaps. All of our work is available from [openscapes.org](https://openscapes.org), which is also where you can sign up for our infrequent newsletter with upcoming events. You can also follow us on Twitter and Mastodon @openscapes.
 
