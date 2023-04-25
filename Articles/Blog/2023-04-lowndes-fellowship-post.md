@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-  - <img src='../../images/Blog_openscapes_grassland_1500px.png' /> 
+  - <img src='../../images/Blog_2304_OpenscapesHero.png' /> 
 
 #### Contributed by [Julia Stewart Lowndes](https://github.com/jules32)
 
