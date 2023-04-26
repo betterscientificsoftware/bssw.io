@@ -6,7 +6,7 @@
 
 #### Contributed by [Julia Stewart Lowndes](https://github.com/jules32)
 
-#### Publication date: April 14, 2023
+#### Publication date: April 26, 2023
 
 <!-- start deck -->
 The same open source tooling that is changing how we do science — R, Python, Git, GitHub — is changing the way we teach professional researchers how to code. 
