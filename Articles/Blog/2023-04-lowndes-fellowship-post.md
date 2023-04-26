@@ -44,7 +44,7 @@ The example below is available at https://openscapes.org/series.
 
 <br>
 
-This culture shift is growing as we're seeing researchers and the broader community fork this mode of working and teaching for their own needs. Gavin Fay created the [FayLab Manual](https://thefaylab.github.io/lab-manual/) onboarding resources for his lab — a beautifully radical idea in science, which itself has now been forked at least 45 times, including by NOAA Fisheries' [OpenSci Resource Book](https://nmfs-opensci.github.io/resourcebook). We're also seeing this approach being used for community building at the [California Water Boards](https://cawaterboarddatacenter.github.io/swrcb-openscapes/) and other NASA programs like [VEDA](https://nasa-impact.github.io/veda-docs/).
+This culture shift is growing as we're seeing researchers and the broader community fork this mode of working and teaching for their own needs. Gavin Fay created the [FayLab Manual](https://thefaylab.github.io/lab-manual/) onboarding resources for his lab — a beautifully radical idea in science, which itself has now been forked at least 45 times, including by NOAA Fisheries' [OpenSci Resource Book](https://nmfs-opensci.github.io/ResourceBook/). We're also seeing this approach being used for community building at the [California Water Boards](https://cawaterboarddatacenter.github.io/swrcb-openscapes/) and other NASA programs like [VEDA](https://nasa-impact.github.io/veda-docs/).
 
 ### Join us
 
