@@ -9,6 +9,7 @@ on:
 
 jobs:
   notify-external-contributions:
+    name: Notify and label external contributions
     if: github.repository_owner == 'betterscientificsoftware'
     runs-on: ubuntu-latest
     steps:
