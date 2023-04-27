@@ -26,6 +26,10 @@ Format:
     - trigger: issue [opened, labeled], pull-request [opened, labeled]
     - job: assign_to_board
         - Assigns issues and PRs to either Content Development board or BSSw Internal board based on labels ("content: *" or "scope: site-internal")
+* notify-external-contrib.yml (Notify external contributions)
+    - https://github.com/betterscientificsoftware/bssw.io/blob/e970023607de719a3d017c137c698e753afd4b25/.github/workflows/notify-external-contrib.yml#L6-L12
+    - job: notify-external-contributions
+        - Label and send email to bssw-editorial-list for externally opened issues, prs and discussions
 
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
