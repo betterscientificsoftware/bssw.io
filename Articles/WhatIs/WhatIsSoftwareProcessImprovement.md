@@ -1,6 +1,6 @@
 ### What is Software Process Improvement?
 #### Contributed by  [Roscoe A. Bartlett](https://github.com/bartlett)
-#### Publication date: ???
+#### Publication date: April 28, 2023
 
 <!--- deck start --->
 Software process improvement is the application of a systematic approach to the identification, evaluation, and improvement of software processes which is critical for computational science and engineering projects.
@@ -8,7 +8,7 @@ Software process improvement is the application of a systematic approach to the 
 
 <!--- body start --->
 
-The goal of **software process improvement** is a systematic methodology to improve the quality, efficiency, and effectiveness of software development and maintenance.
+The goal of **Software Process Improvement** is a systematic methodology to improve the quality, efficiency, and effectiveness of software development and maintenance.
 Improvement efforts can implemented in a variety of ways, but it typically involve the following steps:
 
 1. **Identify the need for improvement:**  This can be done by conducting a process assessment, which involves gathering data on the current state of the software development process.
@@ -34,7 +34,6 @@ By implementing software process improvement, organizations can:
  
 <!---
 Publish: yes
-Pinned: no
+Pinned: yes
 Topics: software process improvement
-RSS update: ???
 --->
