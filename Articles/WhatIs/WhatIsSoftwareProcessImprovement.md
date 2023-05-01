@@ -3,7 +3,10 @@
 #### Publication date: April 28, 2023
 
 <!--- deck start --->
-Software process improvement is the application of a systematic approach to the identification, evaluation, and improvement of software processes which is critical for computational science and engineering projects.
+
+**Software Process Improvement** is the application of a systematic approach to the identification, evaluation, and improvement of software processes which is critical for computational science and engineering projects.
+The overall goals of software process improvement in scientific computing are to enhance the quality, efficiency, reliability and sustainability of software development in scientific research.
+
 <!--- deck end --->
 
 <!--- body start --->
@@ -21,14 +24,14 @@ Improvement efforts can implemented in a variety of ways, but it typically invol
 
 5. **Monitor and evaluate the improvement effort:** This involves collecting metrics data on the effectiveness of the changes (i.e. the experiments) that have been implemented and making adjustments as needed based on feedback.
 
-By implementing software process improvement, organizations can:
+There are various ways to implement improvement efforts, but they generally involve the following steps:
 
-* improve the quality of software products
-* reduce development costs
-* increase productivity
-* improve customer satisfaction
-* enhance organizational reputation, and
-* increase market share
+* Improve the quality of software products
+* Reduce development costs
+* Increase productivity
+* Improve customer satisfaction
+* Enhance organizational reputation
+* Increase market share
 
 <!--- body end  --->
  
