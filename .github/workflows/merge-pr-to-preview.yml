@@ -7,9 +7,7 @@ on:
       - master
 jobs:
   sync-pull-request:
-    if: |
-      contains(github.event.pull_request.labels.*.name, 'preview') &&
-      github.repository_owner == 'betterscientificsoftware'
+    if: contains(github.event.pull_request.labels.*.name, 'preview')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
