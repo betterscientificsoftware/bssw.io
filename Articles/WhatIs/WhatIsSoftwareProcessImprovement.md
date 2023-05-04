@@ -16,7 +16,7 @@ Improvement efforts can implemented in a variety of ways, but it typically invol
 
 1. **Identify the need for improvement:**  This can be done by conducting a process assessment, which involves gathering data on the current state of the software development process.
 
-2. **Establish goals and objectives:**  These goals should be specific, measurable, achievable, relevant, and time-bound.
+2. **Establish goals and objectives:**  These goals should be specific, measurable, achievable, relevant, and time-boxed.
 
 3. **Develop a plan:** This plan should include a timeline, resources, and responsibilities.
 
