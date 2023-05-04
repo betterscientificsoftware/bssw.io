@@ -6,7 +6,7 @@
 - Organizers: DiveRSE & Society of Research Software Engineering
 
 
-[DiveRSE (Diverse RSE)](https://diverse-rse.github.io/) is a series of talks and related activities including
+DiveRSE (Diverse RSE) is a series of talks and related activities including
 discussion and panel sessions designed to support and raise
 awareness of equity, diversity, and inclusion (EDI) challenges and successes within the research
 software community.
@@ -18,7 +18,7 @@ Date and Time | 2023-05-16 09:00 UTC
 Presenter | Dave Horsfall ( Newcastle University, UK)
 Registration, Information, and Archives | 	https://diverse-rse.github.io/events/2023-05-16
 
-The organizers of the DiveRSE series have announced the first talk of their 2023 series, which will feature Dave Horsfall, a Senior Research Software Engineer at Newcastle University, UK. The talk is scheduled to coincide with Mental Health Awareness Week in the UK (15th-21st May 2023), and will focus on the significance of discussing mental health issues within the Research Software Engineering community. Maintaining good mental health is essential for researchers and Research Software Engineers (RSEs) in scientific computing, as it enables them to handle high-pressure and high-stress environments more effectively. By prioritizing their mental well-being, they can perform their work with greater clarity and creativity, leading to higher quality results and more meaningful contributions to their field.
+The organizers of the [DiveRSE](https://diverse-rse.github.io/) series have announced the first talk of their 2023 series, which will feature Dave Horsfall, a Senior Research Software Engineer at Newcastle University, UK. The talk is scheduled to coincide with Mental Health Awareness Week in the UK (15th-21st May 2023), and will focus on the significance of discussing mental health issues within the Research Software Engineering community. Maintaining good mental health is essential for researchers and Research Software Engineers (RSEs) in scientific computing, as it enables them to handle high-pressure and high-stress environments more effectively. By prioritizing their mental well-being, they can perform their work with greater clarity and creativity, leading to higher quality results and more meaningful contributions to their field.
 
 
 ### Presenter Bio
