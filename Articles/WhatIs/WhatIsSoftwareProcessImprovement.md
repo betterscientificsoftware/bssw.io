@@ -33,6 +33,8 @@ There are various ways to implement improvement efforts, but they generally invo
 * Enhance organizational reputation
 * Increase market share
 
+There exists a range of software process improvement techniques in scientific computing that can be applied in a lightweight manner for small and large teams with the objective of improving the quality, efficiency, reliability, and sustainability of software development in scientific research.
+
 <!--- body end  --->
  
 <!---
