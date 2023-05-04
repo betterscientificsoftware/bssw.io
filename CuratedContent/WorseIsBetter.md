@@ -33,12 +33,9 @@ He compared and contrasted two design philosophies.
 
 Ironically, Gabriel introduced the notion of Worse-is-Better to try to make a case for why it is a bad idea.
 He even argued that Unix and C are examples of products developed using the Worse-is-Better approach and that they represent the ultimate in computer viruses.
-They have worked they way into literally *everything*.
-
-However, his arguments read more like someone who believes its ok to make the perfect the enemy of the good.
+They have worked their way into literally *everything*.
 
 Although his primary aim was to suggest Worse-is-Better is an inferior approach, he may have unwittingly given rise to and even lended crediblity to Worse-is-Better as a bonified software engineering methodology.
-
 Back in 2010, Stanford even offered a [CS course](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/WorseIsBetter/index.php/Main_Page.html) where Worse-is-Better was considered along with other approaches.
 
 In reading The Rise of Worse is Better, I am reminded of another important software engineering tennet...never make the perfect the enemy of the good [enough].
