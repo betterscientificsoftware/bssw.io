@@ -42,3 +42,10 @@ Although his primary aim was to suggest Worse-is-Better is an inferior approach,
 Back in 2010, Stanford even offered a [CS course](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/WorseIsBetter/index.php/Main_Page.html) where Worse-is-Better was considered along with other approaches.
 
 In reading The Rise of Worse is Better, I am reminded of another important software engineering tennet...never make the perfect the enemy of the good [enough].
+
+<!---
+Publish: yes
+Pinned: no
+Topics: Software engineering, Software process improvement
+RSS update: 2023-05-15
+--->
