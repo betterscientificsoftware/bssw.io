@@ -1,9 +1,9 @@
 # OpenSSF Best Practices Badge Program
 
 <!-- deck text start -->
-The Linux Foundation's OpenSSF Best Practices Badge Program represents an impressive collection of the open source community's knowledge base for creating, maintaining, and sustaining robust, high quality (and most importantly), secure open source software.
-At its foundation is a featureful "Badge App" website, which provides a database of projects that document what best practices they support and supporting evidence.
-This set of best practices, along with the detailed documentation and supporting justifications for each item, also serves as an incremental learning tool and as a foundation for incremental software process and quality improvements efforts.
+The Linux Foundation's OpenSSF Best Practices Badge Program represents an impressive collection of the open source community's knowledge base for creating, maintaining, and sustaining robust, high quality, and (most importantly) secure open source software.
+At its foundation is a featureful "Badge App" website, which provides a database of projects that document what best practices they have adopted and supporting evidence.
+This set of best practices (along with the detailed documentation and supporting justifications for each item) also serves as an incremental learning tool and as a foundation for incremental software process and quality improvements efforts.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
@@ -31,7 +31,7 @@ The OpenSSF Best Practices and the supporting Badge App site enable a number of 
 
 * a [roadmap for continual improvement](#continuous_improvement) for a project as it incrementally adopts more practices and improves its scores in different areas,
 
-* a [standard index](#standard_project_index) into the parts of the projects and how it handles different types of processes,
+* a [standard index](#standard_project_index) into the parts of the projects and how it handles different types of processes, and
 
 * a [website template](#forking_badge_app_website) and database implementation that can be forked and customized for more targeted communities.
 
