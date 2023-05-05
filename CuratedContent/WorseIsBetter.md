@@ -24,7 +24,7 @@ In an attempt to explain the challenges Lisp was facing, he compared and contras
   * Consistency - Consistency is as important as correctness even if some simplicity and/or completeness is sacrificed.
   * Correctness - Incorrectness is not at all acceptable.
 
-* The philosophy of *Worse-is-Better*, used in the design of other inferiour products, which includes the same characteristics with a different prioritization and emphasis...
+* The philosophy of *Worse-is-Better*, used in the design of other inferior products, which includes the same characteristics with a different prioritization and emphasis...
 
   * Consistency - Inconsistency should be avoided but not where doing so would jeopardize simplicity.
   * Completeness - As many reasonably expected cases as possible should be covered without loss of simplicity.
