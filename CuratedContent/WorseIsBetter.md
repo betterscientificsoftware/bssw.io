@@ -14,7 +14,7 @@ Length | ~1,700 words, 10 min. read
 Focus | Software Engineering
 
 The [Worse-is-Better](https://www.dreamsongs.com/WorseIsBetter.html) approach to software engineering was first described by Richard P. Gabriel to help explain why the highest quality products do not always have the widest adoption and greatest success.
-Gabriel presented the concept in a 1991 essay where he expressed his disappointment about the slow adoption of Lisp, a programming language he had helped to create. 
+Gabriel presented the concept in a [1991 essay](https://www.dreamsongs.com/WIB.html) where he expressed his disappointment about the slow adoption of Lisp, a programming language he had helped to create. 
 To elucidate the challenges that Lisp was encountering, he compared and contrasted two design philosophies.
 
 * The philosophy of *The Right Thing*, used in the design of Lisp, which includes these characteristics.
