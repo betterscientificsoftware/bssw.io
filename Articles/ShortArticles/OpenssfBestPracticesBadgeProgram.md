@@ -7,15 +7,15 @@ This set of best practices (along with the detailed documentation and supporting
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
-#### Publication date: June 25, 2022
+#### Publication date: June 25, 2022 (Updated April 5, 2023)
  
 The Linux Foundation's<sup>[0]</sup> Open Source Security Foundation (OpenSSF)<sup>[1]</sup> is an effort to improve the quality and security of open source software.
 The OpenSSF Best Practices Badge Program<sup>[2],[3]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open source software development community to a wide rage of open source software projects.
 The foundation of this badge program is a "Badge App" site<sup>[4]</sup> that allows projects to create an entry for their project and then to specify which practices are met, descriptions for how they meet the criteria for each practice, URLs to evidence, and justification for how each criteria is met (or why it is not met).
 
-As of 6/22/2022, the "Badge App" site has 4819 registered projects, of which 789 have achieved a Passing-level badge.
-In addition, the community registers approximately 700 new open source projects on the site each year and approximately 158 projects have achieved a Passing-level badge each year for the last several years.<sup>[5]</sup>
-This data suggests this program is a well-accepted, well-adopted badge program.
+As of 5/5/2023, the "Badge App" site has 5735 registered projects, of which 1019 have achieved a Passing-level badge.
+In the last year alone, the open source community registered approximately 1024 new open source projects on the Badge App site and approximately 254 additional projects achieved a Passing-level badge (which is a large increase in growth over the last several years).<sup>[5]</sup>
+This data suggests that this is a well-accepted and well-adopted badge program, and its adoption is accelerating.
 
 The OpenSSF Best Practices and the supporting Badge App site enable a number of benefits by providing:
 
@@ -189,10 +189,10 @@ After a project's maintainers have created a Badge App entry for the project, th
 
 **Badge App project statistics**
 
-Note that of the 4819 registered projects on the Badge App site (as of 6/22/2022), 789 projects have achieved a Passing-level badge, 32 have achieved a Silver-level badge, and just 10 have achieved a Gold-level badge.
-So while approximately 16% of the registered projects have achieved a Passing-level badge, only 4% of the Passing-level projects have gone on to achieve a Silver-level badge.  But, interestingly, over 30% of the Silver-level projects have gone on achieve a Gold-level badge.
-This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieving a Passing badge (i.e. only 4%).
-But this data shows that a large percentage of projects that achieve a Silver-level badge go on to achieve a Gold-level badge (over 30%).
+Note that of the 5735 registered projects on the Badge App site (as of 5/5/2023), 1019 projects have achieved a Passing-level badge, 48 have achieved a Silver-level badge, and just 18 have achieved a Gold-level badge.
+So while approximately 18% of the registered projects have achieved a Passing-level badge, only 5% of the Passing-level projects have gone on to achieve a Silver-level badge.  But, interestingly, over 37% of the Silver-level projects have gone on achieve a Gold-level badge.
+This shows the difficulty (or reluctance) that open-source projects have in even achieving a Silver-level badge after achieving a Passing badge (i.e. only 5%).
+But this data shows that a large percentage of projects that achieve a Silver-level badge go on to achieve a Gold-level badge (over 37%).
 Therefore, it would appear that the barrier (or reluctance) of going from the Silver-level to the Gold-level is small compared to going from the Passing-level to the Silver-level.
 
 
@@ -311,30 +311,6 @@ When a given badge level is earned (Passing, Silver or Gold), or progress is mad
 The Badge App site also contains features to make it easy to see where a project's practices may be lacking and suggest areas of improvement (and the Badge App site can send out regular reminders to keep making progress).
 
 Finally, the OpenSSF Best Practices Badge App site has the potential to provide a ready implementation foundation for a customized best practices site for more specialized non-open source (e.g. commercial) software development communities and organizations.
-
-<!---
-
-ToDo: Describe:
-
-* Replace all of the screenshots showing "CII" with the updated "OpenSSF" pages. [Done]
-
-* Go over my CII Best Practices presentation and make sure I am covering everything in that presentation.
-
-* Provides a standard catalog and index into the parts of the projects and how it handles different types of processes. [Done]
-
-* Provides a learning tool for best practices for developers and projects. [Done]
-
-* Provides an incremental road map for continuous incremental process and quality improvements for a software project.
-
-* Provides a means for continual improvement for a project as it incrementally adopts more practices and improves its scores in different areas. [Done]
-
-* Provides a website template and database implementation that can be forked and customized for more targeted communities. [Done]
-
-* White House Executive Order 14028 that requires government and DOE software improve software security may impact CSE software. [Done]
-
-* Update the statistics of the number of projects on the Badge App site and in each category [Done]
-
---->
 
 [lf-sfer-ezikiw]: https://www.linuxfoundation.org/ "Linux Foundation"
 [openssf-sfer-ezikiw]: https://openssf.org/ "Open Source Security Foundation"
