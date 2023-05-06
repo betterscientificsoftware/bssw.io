@@ -1,6 +1,6 @@
 ### What is Software Process Improvement?
 #### Contributed by  [Roscoe A. Bartlett](https://github.com/bartlett)
-#### Publication date: April 28, 2023
+#### Publication date: May 8, 2023
 
 <!--- deck start --->
 
