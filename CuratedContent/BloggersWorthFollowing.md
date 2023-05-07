@@ -51,14 +51,14 @@ Focus | Software Engineering, Code Review
 
 Michaela Greiler is a consultant who provides training/coaching on software development practices, especially code review.  In addition to her blog, she has a newsletter, a podcast, a YouTube channel, and is writing a book on code review.  She posts regularly to both the blog and the podcast.
 
-## RSE Stories
+## Developer Stories
 Resource information | Details
 :--- | :--- 
-Podcast Name | RSE Stories
-Website | http://us-rse.org/rse-stories/
-Focus | Experiences of research software engineers
+Podcast Name | Developer Stories
+Website | https://rseng.github.io/devstories/
+Focus | This podcast aims to look “Behind the Scenes of Tech’s Passion Projects and People.” We want to know your developer story, what you have built, and why.
 
-This podcast, launched by Vanessa Sochat, interviews people working as research software engineers.  It explores the wide range of experiences and activities in the RSE community.
+This podcast, launched by Vanessa Sochat, interviews developers of scientific software.  It was originally called "RSE Stories", but has been rebranded to be more inclusive.
 
 ## Code for Thought
 Resource information | Details
