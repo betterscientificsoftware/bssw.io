@@ -22,10 +22,5 @@ The Better Software Scientific Tutorial page is an excellent reference in many w
 
 <!---
 Publish: yes
-Categories: development
 Topics: Better Skills Better Planning Better Collaboration--Conferences and Workshops
-Tags: Resources, tutorials
-Level: 1
-Prerequisites: defaults
-Aggregate: none
 --->
