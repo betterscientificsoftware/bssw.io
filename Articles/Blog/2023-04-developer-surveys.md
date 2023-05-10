@@ -6,11 +6,11 @@
 
 #### Contributed by [Vanessa Sochat](https://github.com/vsoch)
 
-#### Publication date: May 11, 2023
+#### Publication date: May 10, 2023
 
 Vanessa Sochat, a Computer Scientist at Lawrence Livermore National Laboratory (LLNL), has worked as a software engineer for over a decade.
-She received her Ph.D. in Biomedical Informatics from Stanford University.
-She has been involved in extensive work on container technologies, developer tools, and fostering open-source communities.
+She received her Ph.D. in Biomedical Informatics from Stanford University, and
+has been involved in extensive work on container technologies, developer tools, and fostering open-source communities.
 Vanessa also founded and hosts the [Developer Stories](https://rseng.github.io/devstories/) podcast.
 In her current role at LLNL, she supports several open-source projects, including Flux Framework and the Flux Operator, and she focuses on bridging the space between traditional HPC and cloud-native technologies.
 
