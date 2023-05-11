@@ -4,7 +4,7 @@ Worse may be better when simplicity is prioritized over other features.
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: May XX, 2023
+#### Publication date: May 11, 2023
 
 Resource information | Details
 :--- | :---
@@ -52,5 +52,5 @@ The article is also a reminder that sometimes having fewer features in software 
 Publish: yes
 Pinned: no
 Topics: Software engineering, Software process improvement
-RSS update: 2023-05-15
+RSS update: 2023-05-11
 --->
