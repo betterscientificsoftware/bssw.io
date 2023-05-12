@@ -59,6 +59,6 @@ If your team is not already conducting peer code reviews, we encourage you to st
  
 <!---
 Publish: yes
-Pinned: no
+Pinned: yes
 Topics: peer code review
 --->
