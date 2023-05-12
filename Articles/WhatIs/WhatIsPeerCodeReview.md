@@ -33,6 +33,9 @@ This can lead to improved productivity and quality of code.
 * Improved team collaboration: Peer code reviews can help to improve team collaboration and communication.
 This can lead to a more cohesive and productive team.
 
+One type of asynchronous peer code review is implemented in current platforms like GitHub and GitLab using Pull Requests and Merge Requests, respectively.
+These platforms provide many features and options that make conducting high quality code reviews easier for a wide range of developers and projects.
+
 There are a few things to keep in mind when conducting a peer code review:
 
 * **Set clear expectations.** Before the review begins, the author of the code should clearly explain the purpose of the code and the specific areas where they would like the reviewer to focus.
