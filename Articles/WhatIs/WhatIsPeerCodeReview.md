@@ -19,12 +19,12 @@ There are many benefits to performing peer code reviews, including:
 This can lead to improved software quality and reduced risk of defects.
 
 * Increased security: Peer code reviews can help to identify and fix security vulnerabilities in code.
-This can help to protect software from attack.
+This can help to protect software from becoming a vector for attack.
 
 * Improved performance: Peer code reviews can help to identify and fix performance bottlenecks in code.
 This can improve the performance of software and make it more responsive to users.
 
-* Reduced development costs: Peer code reviews can help to reduce the cost of software development by finding and fixing defects early in the development process and improve the maintainability and sustainability of the code.
+* Reduced development costs: Peer code reviews can help to reduce the cost of software development by finding and fixing defects early in the development process and improving the maintainability and sustainability of the code.
 This can save time and money that would otherwise be spent on debugging and fixing defects later in the development process.
 
 * Improved developer skills: Peer code reviews can help developers to learn from each other and improve their coding skills.
@@ -35,7 +35,7 @@ This can lead to a more cohesive and productive team.
 
 There are a few things to keep in mind when conducting a peer code review:
 
-* **Set clear expectations.** Before the review begins, the author of the code should clearly explain the purpose of the code and the specific areas that they would like the reviewer to focus.
+* **Set clear expectations.** Before the review begins, the author of the code should clearly explain the purpose of the code and the specific areas where they would like the reviewer to focus.
 
 * **Be specific.** When providing feedback, be as specific as possible. This will help the author of the code to understand the issue and how to fix it.
 
@@ -45,12 +45,12 @@ Be respectful of their time and effort, and avoid making personal attacks.
 * **Be constructive.** The goal of a peer code review is to improve the code, not to tear it down.
 Focus on providing constructive feedback that will help the author of the code to improve their code.
 
-* **Be open to feedback.** The author of the code should be open to feedback from the reviewer.
+* **Be open to feedback.** The author of the code should be open to feedback from the reviewers.
 Even if they don't agree with all of the feedback, they should be willing to consider it and make changes to their code as needed.
 
 In summary, peer code reviews are an essential part of the software development process.
 They can help to improve the quality of code, reduce the risk of defects, and improve the overall security of software.
-If you're not already conducting peer code reviews, I encourage you to start. You'll be glad you did!
+If your team is not already conducting peer code reviews, we encourage you to start. You'll be glad you did!
 
 <!--- body end  --->
  
