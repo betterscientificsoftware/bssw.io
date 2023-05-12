@@ -4,14 +4,14 @@
 
 <!--- deck start --->
 
-**Peer Code Review** is a process in which one or more developers inspect another developer's software code to assess the user interfaces, software implementation, documentation, and other software-related artifacts.
+**Peer Code Review** is a process in which one or more developers inspect another developer's software code to assess the design, user interfaces, software implementation, documentation, and other software-related artifacts.
 In addition, these reviews can help to catch potential defects, security vulnerabilities, performance bottlenecks, sustainability impediments, and many other software-related issues.
 
 <!--- deck end --->
 
 <!--- body start --->
 
-Peer code reviews are an essential part of the software development process where, along with software testing, provide the foundation for software quality assurance.
+Peer code reviews, along with software testing, provide the foundation for software quality assurance and are an essential part of the software development process.
 
 There are many benefits to performing peer code reviews, including:
 
