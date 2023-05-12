@@ -1,6 +1,6 @@
 ### What is Peer Code Review?
 #### Contributed by  [Roscoe A. Bartlett](https://github.com/bartlett)
-#### Publication date: ???
+#### Publication date: May 12, 2023
 
 <!--- deck start --->
 Peer code reviews enhance software quality, security, and performance by catching defects and identifying potential issues, while also improving team collaboration and reducing development costs.
