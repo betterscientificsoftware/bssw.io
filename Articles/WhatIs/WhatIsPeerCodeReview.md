@@ -14,22 +14,22 @@ Peer code reviews, along with software testing, provide the foundation for softw
 
 There are many benefits to performing peer code reviews, including:
 
-* Improved code quality: Peer code reviews can help to find defects in code that would otherwise go undetected.
+* **Improved code quality**: Peer code reviews can help to find defects in code that would otherwise go undetected.
 This can lead to improved software quality and reduced risk of defects.
 
-* Increased security: Such reviews can help to identify security vulnerabilities in code.
+* **Increased security**: Such reviews can help to identify security vulnerabilities in code.
 This can help to protect software from becoming a vector for attack.
 
-* Improved performance: It can become easier to identify performance bottlenecks in code.
+* **Improved performance**: It can become easier to identify performance bottlenecks in code.
 This, of course, results in improving the overall performance of software and making it more responsive to users.
 
-* Reduced development costs: Such reviews can lead to reducing the cost of software development by finding (and thereby fixing) defects early in the development process and improving the maintainability and sustainability of the code.
+* **Reduced development costs**: Such reviews can lead to reducing the cost of software development by finding (and thereby fixing) defects early in the development process and improving the maintainability and sustainability of the code.
 This, in turn, can save time and money that would otherwise be spent on debugging and fixing defects later in the development process.
 
-* Improved developer skills: Developers can learn from each other and improve their coding skills based on feedback from reviews.
+* **Improved developer skills**: Developers can learn from each other and improve their coding skills based on feedback from reviews.
 This can lead to improved productivity and code quality.
 
-* Improved team collaboration: Peer code reviews can help to improve team collaboration and communication.
+* **Improved team collaboration**: Peer code reviews can help to improve team collaboration and communication.
 This can lead to more cohesive and productive teams.
 
 One type of asynchronous peer code review is implemented in current platforms like GitHub and GitLab using Pull Requests and Merge Requests, respectively.
