@@ -69,7 +69,7 @@ University of Maryland Baltimore County (1995).
 <!---
 Publish: yes
 Categories: skills
-Topics: online learning
+Topics: "software engineering", "software process improvement", "online learning"
 Level: 2
 Prerequisites: default
 Aggregate: none
