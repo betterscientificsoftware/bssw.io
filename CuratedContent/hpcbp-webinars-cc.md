@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2023-04-21*
+*Listed in reverse chronological order. Last updated: 2023-05-14*
 
 
 
@@ -38,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Lessons Learned Developing Performance Portable QMCPACK*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar074), Paul Kent (Oak Ridge National Laboratory), 2023-05-10
 
 
 
@@ -625,7 +633,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2023-04-21
+#### Publication date: 2023-05-14
 
 <!---
 Publish: yes
