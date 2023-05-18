@@ -59,6 +59,12 @@ These indicate which BSSw.io topic areas the article belongs to. The most up-to-
 ## Main Body Section
 The main body is the portion of the article below the deck. BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for writing content. The elements of the main body differ based on content type. The main body should explain the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content.
 
+
+## Handling DOI/ISBN/URL/Links to Resources
+When citing or referring to resources such as articles, publications, slides, videos, software, and books, it is recommended to use and link to Digital Object Identifiers (DOIs) whenever possible. Including a DOI is important if available, and it should be preferred over links to specific publisher, journal, or conference sites. For books, in addition to DOIs, you can also use ISBNs (unique identifiers for books). In cases where a DOI does not exist for a resource, alternative links or URLs can be used.
+
+When utilizing DOIs, it is appropriate to mention "doi.org" or "dx.doi.org" (which serves as a DOI resolver) instead of referring to the hosting site, such as ACM or IEEE. Here's an example of a DOI link: https://doi.org/10.1145/103162.103163. Please ensure to follow these guidelines to maintain proper documentation practices and facilitate easy access to the cited resources.
+
 ## Handling absolute and relative links/URLs
 Several times, BSSw.io content will contain links to resources which are hosted in the bssw.io site itself. Such links are treated as internal links and they should be relative and should point to the actual ".md" file. They should not point to the absolute URL of the linked article on the bssw.io site.
 
