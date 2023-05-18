@@ -22,6 +22,10 @@ PIDs also facilitate collaboration in scientific computing.
 They allow researchers to easily attribute, share and cite software, facilitating effective communication and enabling others to build upon existing work. 
 In addition, PIDs enable the tracking of software usage and impact within the scientific community, offering insights into the adoption and influence of specific software tools.
 
+PIDs enjoy the above advantages primarily because there usually exists a *service provider* of some kind that has responsibility for generating and assigning PIDs when requested and maintaining their integrity over time.
+In some cases, this service is made available for free and in other cases, it may come at a cost.
+Your home institution may pay membership fees to make such a service available to all employees.
+
 The Digitial Object Identifier (DOI) standard is an example of a PID system used primarily to identify scholarly publications, such as journal articles, conference papers, reports, or book chapters.
 Other standards include the Handle System standard, the Archival Resource Key (ARK) standard and the Persistent Uniform Resource Locator (PURL) standard.
 
