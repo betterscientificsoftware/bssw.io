@@ -75,7 +75,7 @@ DOECode requires a login, but access is free and available to anyone.
 
 In conclusion, it is important to ensure that code is archived and has a persistent identifier to enable its discoverability, access, and citation over time. 
 The above methods are just a few examples of how to archive and get PIDs for code, and each has its own advantages and limitations.
-By leveraging some of these methods, researchers can effectively obtain PIDs for their scientific software, enhancing its traceability, reproducibility, collaborative potential, and overall impact within the scientific community. 
+By leveraging some of these methods, researchers can effectively obtain PIDs for their scientific software, enhancing its traceability, reproducibility, collaborative potential, and overall impact within the scientific community.
 It is recommended to choose a method that is appropriate for the specific needs of the project or code.
 
 
