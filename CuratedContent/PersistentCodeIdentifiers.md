@@ -1,6 +1,6 @@
 # Persistent Identifiers for Software in Scientific Computing
 <!-- deck text start -->
-Unlocking the Power of Persistent Identifiers in Scientific Computing and Software: Ensuring Traceability, Reproducibility, and Collaborative Innovation"
+Unlock the power of Persistent Identifiers in scientific software to ensure traceability, reproducibility, and collaborative innovation!
 <!-- deck text end -->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
