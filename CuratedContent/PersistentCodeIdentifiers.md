@@ -4,7 +4,7 @@ Unlock the power of Persistent Identifiers in scientific software to ensure trac
 <!-- deck text end -->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
-#### Publication date: June 02, 2023.
+#### Publication date: May 19, 2023
 
 Persistent Identifiers (PIDs) are unique and persistent references for digital objects, such as code, data, publications, or any other research outputs. 
 They can be used to reliably locate, access, and cite these objects over long periods of time.
