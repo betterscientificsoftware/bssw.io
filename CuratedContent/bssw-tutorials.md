@@ -24,5 +24,5 @@ The Better Software Scientific Tutorial page is an excellent reference in many w
 
 <!---
 Publish: yes
-Topics: Better Skills Better Planning Better Collaboration--Conferences and Workshops
+Topics: Software Engineering, Online Learning, In-Person Learning, Software Process Improvement, Development Tools, Refactoring, Licensing, Testing
 --->
