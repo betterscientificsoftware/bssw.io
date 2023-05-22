@@ -16,7 +16,9 @@ Website | https://bssw-tutorial.github.io
 
 The website https://bssw-tutorial.github.io contains the information and learning materials needed for best practices in high performance computing. 
 
-Whether a refresher or new insight on high performance computing is needed, this complete collection of all BSSw tutorial presentations (2016-present) exists for your perusal. [Full recordings](https://www.youtube.com/playlist?list=PLuWzStas9iWExOVGGLCUl-N38mxQXSl87) are available as are [presentation slides through FigShare] (https://figshare.com/articles/presentation/Better_Scientific_Software_tutorial_Improving_Scientific_Software_2022_/19416767). Also access to the tutorial-related Hands On Code Repository is a quick click to GitHub : https://github.com/bssw-tutorial/hello-numerical-world-2021-11-15-sc 
+Whether a refresher or new insight on high performance computing is needed, this complete collection of all BSSw tutorial presentations (2016-present) exists for your perusal. 
+There is some overlap of content between the various tutorials presented due to focus of venue where a given presentation was hosted.
+For each tutorial, available resources variously include the slide deck, the video recording and in some cases, the repository of hands-on code accompanying the tutorial lessons such as the [Hello Numerical World](https://github.com/bssw-tutorial/hello-numerical-world-2021-11-15-sc) repository.
 
 The Better Software Scientific Tutorial page is an excellent reference in many ways. Reviewing the best practices for high performance computing via the 
 
