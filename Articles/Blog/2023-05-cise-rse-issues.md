@@ -1,4 +1,4 @@
-# Special Issue on the Future of Research Software Engineers in the United States: Special Issue in CiSE
+# The Future of Research Software Engineers in the United States: Special Issue in CiSE
 
 **Hero Image:**
 
