@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-  - <img src='../../images/Blog_0319_CiSEIssueMonoV3_1176x432.png' /> 
+  - <img src='../../images/Blog_2305_CiSEIssue_1125x432_A.png' /> 
 
 #### Contributed by [Jeffrey C. Carver](https://github.com/JeffCarver), [Nasir Eisty](https://github.com/neisty), [Hai Ah Nam](https://github.com/hnamLANL), and [Irina Tezaur](https://github.com/ikalash)
 
