@@ -20,7 +20,7 @@ Linking the two is - on a theoretical level - straightforward: MUQ's multilevel 
 
 <br> 
 
-<img src='../../images/sci-workflows-3.png' class='page lightbox' />[Abstract theoretical interface between UQ algorithm and forward model.]
+<img src='../../images/sci-workflows-3.png' class='page lightbox' />[Monolithic application linking UQ algorithm and numerical model.]
 
 <br>
 
