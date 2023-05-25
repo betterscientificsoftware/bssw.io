@@ -6,12 +6,11 @@ Keeping skills up to date and focused helps keep work at its best. The BSSw Tuto
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
 #### Publication date: May 08, 2023
 
-Resource information | Details
+Resource information | Details 
 :--- | :--- 
-Article title | [The Better Scientific Software (BSSw) Tutorial](https://bssw-tutorial.github.io)
-Authors | [Deborah Stevens](https://github.com/haikudeb)
-Focus | Software Engineering Tutorials
-Website | https://bssw-tutorial.github.io 
+Tutorial title  | The Better Scientific Software (BSSw) Tutorial 
+Presenters | [IDEAS Productivity project](mailto:IDEASProductivity@gmail.com)
+Web link | https://bssw-tutorial.github.io/
 
 
 The website https://bssw-tutorial.github.io contains information and training resources for learning about best practices in high performance computing. 
