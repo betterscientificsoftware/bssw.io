@@ -14,7 +14,7 @@ Focus | Software Engineering Tutorials
 Website | https://bssw-tutorial.github.io 
 
 
-The website https://bssw-tutorial.github.io contains the information and learning materials needed for best practices in high performance computing. 
+The website https://bssw-tutorial.github.io contains information and training resources for learning about best practices in high performance computing. 
 
 Whether a refresher or new insight on high performance computing is needed, this complete collection of all BSSw tutorial presentations (2016-present) exists for your perusal. 
 There is some overlap of content between the various tutorials presented due to focus of venue where a given presentation was hosted.
