@@ -3,6 +3,7 @@
 <!-- deck text start --> 
 
 The Better Scientific Software Tutorial site lists upcoming and past presentations of the better scientific software tutorial on improving scientific software.
+<!-- deck text wnd --> 
 
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
 #### Publication date: June 08, 2023
@@ -10,7 +11,7 @@ The Better Scientific Software Tutorial site lists upcoming and past presentatio
 Resource information | Details 
 :--- | :--- 
 Tutorial title  | The Better Scientific Software (BSSw) Tutorial 
-Presenters | [IDEAS Productivity project](mailto:IDEASProductivity@gmail.com)
+Presenters | [IDEAS Productivity project](https://ideas-productivity.org/)
 Web link | https://bssw-tutorial.github.io/
 
 The [Better Scientific Software (BSSw) tutorial website](https://bssw-tutorial.github.io) curates presentations of the BSSw tutorial by the IDEAS Productivity team at various venues.
