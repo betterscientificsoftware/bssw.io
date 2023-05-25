@@ -44,8 +44,6 @@ We therefore decided to try a completely different approach taking inspiration f
 
 <br>
 
-> [name=annereinarz]and then potentially an image here, but we probably shouldn't overdo it -> UQ-Model from SC paper
-
 Right away, UM-Bridge offers a number of benefits:
 
 * We can easily link tools that are written in different programming languages or are otherwise incompatible; all we need now is a small extension to support UM-Bridge on either side, which is easy to achieve using one of the language-specific or even framework-specific integrations we provide.
@@ -69,11 +67,9 @@ The new setup is arguably more complex than our previous attempt; still, we coul
 
 ### Lessons learned / Final thoughts
 
-Advanced scientific software often requires complex dependencies and it may build on parallelisation approaches which are not compatible with the frameworks or workflows in which users would like to call them. This problem is not unique to the UQ setting; it will crop up anywhere that complex software is called as part of a larger workflow.
+We believe UM-Bridge could be similarly beneficial when linking numerical models to optimization, machine learning etc. The microservice inspired approach certainly has limits, for example when the numerical model is so fast to compute that network latency becomes dominant. In the many cases that it works however, it has fundamentally changed how we develop UQ applications and collaborate with domain experts.
 
-While it is possible to write software which is much easier to incorporate into larger workflows, what is really needed is to rethink the entire idea of building large monolithic applications. Where possible, we now build independent components, containerise them and allow them to communicate through network protocols. This vastly reduces the complexity of the workflow, enables easy separation of concerns and removes issues with conflicting dependencies, languages, and parallelisation paradigms.
-
-Scientific software is increasingly being used as a part of larger workflows, but is not always being designed with that in mind. We believe that we have to move away from building large monolithic applications and, where possible, instead build smaller blocks with language independent interfaces.
+More broadly, scientific software is increasingly being used as a part of larger workflows, but is not always being designed with that in mind. We believe that we have to move away from building large monolithic applications and, where possible, instead build smaller and more flexible components with language independent interfaces.
 
 ### Where to start
 
