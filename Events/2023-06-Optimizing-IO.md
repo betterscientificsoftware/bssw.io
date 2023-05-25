@@ -17,7 +17,7 @@ Event Information | Details
 :--- | :---			   
 Event Name | [Optimizing I/O](https://forms.gle/7rWkR6r6ZdQbjFaA7)
 Registration Deadline | June 9, 2023
-Event Dates | June 10-12, 2023
+Event Dates | June 12-14, 2023
 Website | https://forms.gle/7rWkR6r6ZdQbjFaA7 
 
 A tutorial on optimizing I/O in serial and parallel applications will be offered from 12:30 PM-2:30 PM CST on June 12-June 14, 2023. 
