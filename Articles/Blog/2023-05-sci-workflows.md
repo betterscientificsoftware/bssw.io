@@ -8,7 +8,7 @@
 #### Contributed by [Anne Reinarz](https://github.com/annereinarz) and [Linus Seelinger](https://github.com/linusseelinger/)
 
 ### Introduction
-Scientific applications are ever-growing in complexity: Interdisciplinary workflows in particular combine numerous methods and software components from different communities. This might be motivated from software engineering concerns (e.g. embedding a simulation software in CI/CD or performance analysis tools) or algorithmic concerns (e.g. performing optimization or uncertainty quantification on complex numerical models).
+Scientific applications are ever-growing in complexity: Interdisciplinary workflows in particular combine numerous methods and software components from different communities. This might be motivated from software engineering concerns (e.g. embedding a simulation software in CI/CD or performance analysis tools) or algorithmic concerns (e.g. performing optimisation or uncertainty quantification on complex numerical models).
 
 Each community has - for good reasons - preferred languages and tools, which are often incompatible. Further, many scientific software frameworks were designed as a monoliths with no expectation of being embedded in higher-level applications. In order to facilitate complex scientific applications, we therefore need to map abstract theoretical interfaces into equally universal software interfaces, enabling greater flexibility, reusability, and separation of concerns.
 
@@ -27,7 +27,7 @@ Linking the two is - on a theoretical level - straightforward: MUQ's multilevel 
 
 In practice, it turned out to be a challenge: In order to optimise algorithms and software, we often have to intentionally restrict the set of supported use cases. 
 
-In case of ExaHyPE, this means focussing on a one-shot workflow where the user specifies the problem and hardware-optimised, problem-specific code is generated and compiled. In addition, ExaHyPE builds on a fairly large number of dependencies, and employs a somewhat unusual hybrid parallelisation approach combining MPI with Intel's TBB.
+In case of ExaHyPE, this means focusing on a one-shot workflow where the user specifies the problem and hardware-optimised, problem-specific code is generated and compiled. In addition, ExaHyPE builds on a fairly large number of dependencies, and employs a somewhat unusual hybrid parallelisation approach combining MPI with Intel's TBB.
 
 Taken together, these properties meant that it took us months to implement a scalable application linking MUQ and ExaHyPE. We had to dig deep into the parallelisation of ExaHyPE for it to accept MPI subcommunicators from MUQ, modify its main routines to call it as a library, and rewrite parts of its custom buildsystem. Along the way we encountered a myriad of unexpected issues.
 
@@ -48,7 +48,7 @@ Right away, UM-Bridge offers a number of benefits:
 
 * We can easily link tools that are written in different programming languages or are otherwise incompatible; all we need now is a small extension to support UM-Bridge on either side, which is easy to achieve using one of the language-specific or even framework-specific integrations we provide.
 
-* UM-Bridge models can readily be containerized, since the natural path to accessing a containerized application is via network. Containerized models can be shared among collaborators, improving separation of concerns between UQ and models experts. Containers also provide a high degree of reproducibility, which we use to build the first library of ready-to-run UQ benchmark problems.
+* UM-Bridge models can readily be containerised, since the natural path to accessing a containerised application is via network. Containerised models can be shared among collaborators, improving separation of concerns between UQ and models experts. Containers also provide a high degree of reproducibility, which we use to build the first library of ready-to-run UQ benchmark problems.
 
 * Simple thread parallel UQ codes are now enough to offload parallel model runs to a cluster, since distributing work across many model instances on the cluster is now up to UM-Bridge (specifically the Kubernetes setup we provide).
 
@@ -67,7 +67,7 @@ The new setup is arguably more complex than our previous attempt; still, we coul
 
 ### Lessons learned / Final thoughts
 
-We believe UM-Bridge could be similarly beneficial when linking numerical models to optimization, machine learning etc. The microservice inspired approach certainly has limits, for example when the numerical model is so fast to compute that network latency becomes dominant. In the many cases that it works however, it has fundamentally changed how we develop UQ applications and collaborate with domain experts.
+We believe UM-Bridge could be similarly beneficial when linking numerical models to optimisation, machine learning etc. The microservice inspired approach certainly has limits, for example when the numerical model is so fast to compute that network latency becomes dominant. In the many cases that it works however, it has fundamentally changed how we develop UQ applications and collaborate with domain experts.
 
 More broadly, scientific software is increasingly being used as a part of larger workflows, but is not always being designed with that in mind. We believe that we have to move away from building large monolithic applications and, where possible, instead build smaller and more flexible components with language independent interfaces.
 
@@ -83,8 +83,8 @@ We are actively expanding the UM-Bridge community, so send us an email if you ar
 
 ### Author Bios
 
-[Anne Reinarz](https://annereinarz.github.io) is an assistant professor of Computer Science at Durham University in the Scientific Computing Group. She is incoming Director of the Durham MSc in Scientific Computing and Data Analysis. She is enthuisiastic about open-source, sustainable software. She was scientific coordinator of the ExaHyPE project and is one of the main contributors to the UM-Bridge project.
+[Anne Reinarz](https://annereinarz.github.io) is an assistant professor of Computer Science at Durham University in the Scientific Computing Group. She is incoming Director of the Durham MSc in Scientific Computing and Data Analysis. She is enthusiastic about open-source, sustainable software. She was scientific coordinator of the ExaHyPE project and is one of the main contributors to the UM-Bridge project.
 
-[Linus Seelinger](https://linusseelinger.de) is a postdoctoral researcher at the Institute of Mathematics, Heidelberg University. His research is focussed on uncertainty quantification with strong links to high performance computing and numerical solvers of partial differential equations. He has contributed to the DUNE numerical framework, is a core developer of the MIT uncertainty quantification library and, most recently, started the UM-Bridge project.
+[Linus Seelinger](https://linusseelinger.de) is a postdoctoral researcher at the Institute of Mathematics, Heidelberg University. His research is focused on uncertainty quantification with strong links to high performance computing and numerical solvers of partial differential equations. He has contributed to the DUNE numerical framework, is a core developer of the MIT uncertainty quantification library and, most recently, started the UM-Bridge project.
 
 
