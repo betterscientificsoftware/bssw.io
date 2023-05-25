@@ -10,9 +10,9 @@ The Better Scientific Software Tutorial site lists upcoming and past presentatio
 
 Resource information | Details 
 :--- | :--- 
-Tutorial title  | The Better Scientific Software (BSSw) Tutorial 
-Presenters | [IDEAS Productivity project](https://ideas-productivity.org/)
+Resource name | The Better Scientific Software (BSSw) Tutorial Site
 Web link | https://bssw-tutorial.github.io/
+Focus | Better scientific software
 
 The [Better Scientific Software (BSSw) tutorial website](https://bssw-tutorial.github.io) curates presentations of the BSSw tutorial by the IDEAS Productivity team at various venues.
 Portions of the BSSw tutorial focus on developer productivity, software sustainability, and reproducibility in scientific research software particularly in high-performance computing.
