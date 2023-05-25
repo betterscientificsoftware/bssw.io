@@ -1,7 +1,8 @@
-### Better Scientific Software (BSSw) Tutorial
+### Better Scientific Software Tutorial Site
+
 <!-- deck text start --> 
 
-The Better Scientific Software (BSSw) Tutorial site lists upcoming and past presentations of the BSSw tutorial on improving scientific software.
+The Better Scientific Software Tutorial site lists upcoming and past presentations of the better scientific software tutorial on improving scientific software.
 
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
 #### Publication date: June 08, 2023
