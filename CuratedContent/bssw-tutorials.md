@@ -4,7 +4,7 @@
 The Better Scientific Software (BSSw) Tutorial site lists upcoming and past presentations of the BSSw tutorial on improving scientific software.
 
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
-#### Publication date: May 08, 2023
+#### Publication date: June 08, 2023
 
 Resource information | Details 
 :--- | :--- 
