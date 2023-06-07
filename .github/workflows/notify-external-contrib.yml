@@ -22,7 +22,7 @@ jobs:
         id: teamAffiliation
         with:
           username: ${{ github.actor }}
-          team: 'bssw-editorial-board'
+          team: 'bssw-io-team'
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
       - name: Add label if user is not member
         if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
