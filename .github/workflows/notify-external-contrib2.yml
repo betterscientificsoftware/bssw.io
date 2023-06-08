@@ -25,12 +25,12 @@ jobs:
           team: 'bssw-editorial-board'
           GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
       - name: Check user for team affiliation (bssw-io-support team)
-      uses: tspascoal/get-user-teams-membership@v2
-      id: is-bssw-support
-      with:
-        username: ${{ github.actor }}
-        team: 'bssw-io-support'
-        GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
+        uses: tspascoal/get-user-teams-membership@v2
+        id: is-bssw-support
+        with:
+          username: ${{ github.actor }}
+          team: 'bssw-io-support'
+          GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
       - name: Add label if user is not member
         if: ${{ steps.is-eb-member.outputs.isTeamMember == 'false' 
           && steps.is-bssw-support.outputs.isTeamMember == 'false' }}
