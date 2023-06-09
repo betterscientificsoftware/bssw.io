@@ -39,27 +39,28 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: |
             external contribution
-      # - name: Send mail if user is not member
-      #   if: ${{ steps.teamAffiliation.outputs.isTeamMember == 'false' }}
-      #   uses: dawidd6/action-send-mail@v3
-      #   with:
-      #     server_address: smtp.gmail.com
-      #     server_port: 465
-      #     secure: true
-      #     username: ${{ secrets.MCM86_MAIL_USERNAME }}
-      #     password: ${{ secrets.MCM86_MAIL_PASSWORD }}
-      #     subject: External contribution detected
-      #     to: bssw-editorial@lists.mcs.anl.gov
-      #     from: notify-external-contrib.yml bssw.io action
-      #     # Any event could have triggered. Just output union of all possible.
-      #     # Only one of the three outputs is applicable.
-      #     # Not applicable items generate whitespace.
-      #     body: |
-      #       There is an external contribution from user with GitHub user handle ${{ github.actor }}
-      #       The item contributed is...
-      #       ${{ github.event.issue.html_url }}
-      #       ${{ github.event.pull_request.html_url }}
-      #       ${{ github.event.discussion.html_url }}
+      - name: Send mail if user is not member
+        if: ${{ steps.is-eb-member.outputs.isTeamMember == 'false' 
+          && steps.is-bssw-support.outputs.isTeamMember == 'false' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.IDEASProductivityGmail_Username }}
+          password: ${{ secrets.IDEASProductivityGmail_Password }}
+          subject: External contribution detected
+          to: bssw-editorial@lists.mcs.anl.gov
+          from: notify-external-contrib.yml bssw.io action
+          # Any event could have triggered. Just output union of all possible.
+          # Only one of the three outputs is applicable.
+          # Not applicable items generate whitespace.
+          body: |
+            There is an external contribution from user with GitHub user handle ${{ github.actor }}
+            The item contributed is...
+            ${{ github.event.issue.html_url }}
+            ${{ github.event.pull_request.html_url }}
+            ${{ github.event.discussion.html_url }}
 
 #
 # Implementation Details:
