@@ -66,9 +66,12 @@ https://github.com/karbarz
 
 **[Parallactic Consulting](https://parallactic.com/)** established the custom content management system and GitHub integration developed with Ruby on Rails. Parallactic continues to support, maintain, and improve the site functionality. Parallactic is a small web development & data architecture company.
 
-
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
 BSS Site: Team
 --->
+
+<!--
+Publish: yes
+-->
 
