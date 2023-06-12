@@ -74,6 +74,8 @@ Applications are closed for the 2023 BSSw Fellowship Program.  Please check back
   <img src='../../images/Logo_NSF_4ColorB_Sm.png' class='logo' /> 
 </div>  
 </div>
+
 <!--
+Publish: yes
 OpenGraph image: OG_2109_BSSwFellowships.png
 -->    
