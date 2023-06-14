@@ -12,13 +12,11 @@ Research software education organizations such as [The Carpentries](https://carp
 
 Code is fragile by default; as the software ecosystem around code changes, there are increased chances for errors or unintended functionality. Software gardening<sup><a id="cite-3" href="#ref-3">[3]</a><a id="cite-4" href="#ref-4">[4]</a><a id="cite-5" href="#ref-5">[5]</a></sup> is the practice of creating and stewarding flexible software, understanding the work will become brittle or incomplete as time passes. The analogy of a software “garden bed” may be mentally constructed to facilitate software gardening practices. To elaborate, software carpentry focuses on the “bricks” of code and how they are composed together properly. Implicit in successful carpentry, these bricks must reside on top of a healthy software garden bed which requires a different understanding and strategy to maintain. With the empathy of a gardener, healthy ecosystems of code avoid premature ends and they cultivate carpentry materials as they decay over time (**<a href="#fig-1">Figure 1</a>**).
 
-![alt_text](images/image1.png "image_tooltip")
-_Figure 1.Software growth and decay as an illustrated progression over time. Without software gardening, time can decay software. With software gardening, software can stand the test of time._
+<img id="fig-1" src='../../images/Blog_2307_software_growth_and_decay_through_time.png' class='page lightbox' />[Figure 1. Software growth and decay as an illustrated progression over time. Without software gardening, time can decay software. With software gardening, software can stand the test of time.]
 
 Software and those who create it are sometimes treated like unchanging machines. The perspective of inorganic and emotionless products ignores the full experience of software development<sup><a id="cite-6" href="#ref-6">[6]</a></sup>. Namely, code and those who maintain it change over time<sup><a id="cite-7" href="#ref-7">[7]</a></sup>. Exploring code as ecosystems of evolving art<sup><a id="cite-8" href="#ref-8">[8]</a></sup> nourished by Software Gardeners creates multidimensional understanding of software development, strengthening development practices.
 
-![alt_text](images/image2.png "image_tooltip")
-_Figure 2. An example software wilderness and software garden illustrated with labeled aspects. The software wilderness grows with unchecked decay, weeds, and unintentional growth competition. Software gardens enable intentional growth using flexible design within a protected habitat._
+<img id="fig-2" src='../../images/Blog_2307_software_wilderness_vs_software_garden.png' class='page lightbox' />[Figure 2. An example software wilderness and software garden illustrated with labeled aspects. The software wilderness grows with unchecked decay, weeds, and unintentional growth competition. Software gardens enable intentional growth using flexible design within a protected habitat.]
 
 Healthy ecosystems in the natural world enable organisms to thrive through continual maintenance and rebalancing over time. Software gardening seeks to solve the challenges of  how code and those who maintain it change over time, making intentional yet flexible choices about growth and stewarding nurturing habitats (**<a href="#fig-2">Figure 2</a>**). The following outline covers areas we’ll focus on:
 
@@ -28,8 +26,7 @@ Healthy ecosystems in the natural world enable organisms to thrive through conti
 
 ### People: Software Gardener Lattices
 
-![alt_text](images/image3.png "image_tooltip")
-_Figure 3. Software Gardeners are the lattices in which a software garden expands upwards (Fragonard, J.-H., Trellis. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trellis_MET_DT255077.jpg))_
+<img id="fig-3" src='../../images/Blog_2307_829px-Trellis_MET_DT255077-cropped.jpg' class='page lightbox' />[Figure 3. Software Gardeners are the lattices in which a software garden expands upwards (Cropped version of Fragonard, J.-H., Trellis. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trellis_MET_DT255077.jpg))]
 
 Early roots from Ada Lovelace’s work on an analytical engine algorithm in 1842 provide a glimpse of the natural world’s influence on software development: “...the Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves.”<sup><a id="cite-9" href="#ref-9">[9]</a><a id="cite-10" href="#ref-10">[10]</a></sup> Many years later, software development remains an effort of intertwining beauty and function to enhance well-being through a growing system, or lattice, of interconnected parts built upon decades of software advances. Software Gardeners build this lattice and are the primary way software comes into and stays in existence (**<a href="#fig-3">Figure 3</a>**).
 
@@ -46,8 +43,7 @@ Solving software challenges requires courage! Facing existing or new issues also
 
 ### Code: Software Gardening Senescence
 
-![alt_text](images/image4.png "image_tooltip")
-_Figure 4. Software Gardeners develop systems to address code senescence (Chardin, J.-B.-S., The Gardener. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Gardener_MET_DT1499.jpg))._
+<img id="fig-4" src='../../images/Blog_2307_The_Gardener_MET_DT1499.jpeg' class='page lightbox' />[Figure 4. Software Gardeners develop systems to address code senescence (Chardin, J.-B.-S., The Gardener. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Gardener_MET_DT1499.jpg)).]
 
 As in any garden senescence is a guaranteed part of the software craft. As code ages, it experiences elements of rot, decay or collapse<sup><a id="cite-15" href="#ref-15">[15]</a></sup>, eventually leading to complete disintegration where unchecked. As Software Gardeners, we develop code towards specific goals, managing senescence as part of the process in the same way a gardener may handle compost in a physical garden (**<a href="#fig-4">Figure 4</a>**). Accepting the full software timeline means planning for times when entire gardens die. These moments provide an opportunity to reflect and document our learning as software gardens transition into deprecation, archival, and sometimes, renewed growth.
 
@@ -62,8 +58,7 @@ Given enough time, code within the garden will adapt to change, showing elements
 
 ### Season: Software Archeology, Nowness, and Proactivity
 
-![alt_text](images/image5.png "image_tooltip")
-_Figure 5. (Daumier, H., Caricatures of paintings by Daubigny and others in Le Salon Pour Rire. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caricatures_of_paintings_by_Daubigny_and_others_in_Le_Salon_Pour_Rire_MET_DP824536.jpg))_
+<img id="fig-5" src='../../images/Blog_2307_Caricatures_of_paintings_by_Daubigny_and_others_in_Le_Salon_Pour_Rire_MET_DP824536-cropped.jpeg' class='page lightbox' />[Figure 5. (Cropped version of Daumier, H., Caricatures of paintings by Daubigny and others in Le Salon Pour Rire. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caricatures_of_paintings_by_Daubigny_and_others_in_Le_Salon_Pour_Rire_MET_DP824536.jpg))]
 
 Individual pieces of software are part of a larger ecology. A Software Gardener understands this and asks three questions when developing code: 1) How have things changed, 2) What’s important right now, and 3) What might be ahead of us in the future. Software Gardeners orient themselves this way to observe, act, and predict what may occur within our software gardens and how to best maintain them over the long term (**<a href="#fig-5">Figure 5</a>**).
 
@@ -80,8 +75,8 @@ Moving through software gardens with a sense of Kairos, Software Gardeners can u
 
 ### A Software Gardening Toolshed
 
-![alt_text](images/image6.png "image_tooltip")
-_Figure 6. (Witsen, W., Schuurtje aan het water, RP-T-1890-A-2252. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuurtje_aan_het_water,_RP-T-1890-A-2252.jpg))_
+<img id="fig-6" src='../../images/Blog_2307_640px-Schuurtje_aan_het_water,_RP-T-1890-A-2252.jpeg' class='page lightbox' />[Figure 6. (Witsen, W., Schuurtje aan het water, RP-T-1890-A-2252. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuurtje_aan_het_water,_RP-T-1890-A-2252.jpg))]
+__
 
 Expanding upon the concepts above, we provide a software gardening toolshed which seeks to outline the tools necessary for addressing challenges and opportunities in your software gardens.
 
@@ -327,14 +322,12 @@ Hewitt, E. (2018). Technology Strategy Patterns. O'Reilly Media. <a href="https:
 
 ### Author bios
 
-Dave Bunten ([@d33bs]())
-Dave is a Software Developer with the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). He brings with him over a decade of experience in the field of software development through various roles in his career. His keen interest in software design, collaboration, and innovation has driven him to explore various areas of the field. He is particularly passionate about research data engineering, in-memory data flow, and scientific software.
+Dave Bunten is a Software Developer with the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). He brings with him over a decade of experience in the field of software development through various roles in his career. His keen interest in software design, collaboration, and innovation has driven him to explore various areas of the field. He is particularly passionate about research data engineering, in-memory data flow, and scientific software.
 
-Gregory P. Way ([@gwaybio](https://github.com/@gwaybio))
-Greg is an Assistant Professor in the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). His lab develops methods and software for analyzing large biomedical datasets, most often in the context of drug screens for rare diseases. He believes that high performance software facilitates science and that we could not make the next discoveries in treating human diseases without software engineers. The sustainability of software is essential to maintaining scientific progress and for reducing human suffering.
+Gregory P. Way is an Assistant Professor in the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). His lab develops methods and software for analyzing large biomedical datasets, most often in the context of drug screens for rare diseases. He believes that high performance software facilitates science and that we could not make the next discoveries in treating human diseases without software engineers. The sustainability of software is essential to maintaining scientific progress and for reducing human suffering.
 
 <!---
 Publish: yes
 Pinned: no
-Topics: software gardening, code decay, software strategies, 
+Topics: software gardening, code decay, software collapse, software strategies, software sustainability
 --->
