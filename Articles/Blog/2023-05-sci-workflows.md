@@ -86,3 +86,8 @@ We are actively expanding the UM-Bridge community, so send us an email if you ar
 [Anne Reinarz](https://annereinarz.github.io) is an assistant professor of Computer Science at Durham University in the Scientific Computing Group. She is incoming Director of the Durham MSc in Scientific Computing and Data Analysis. She is enthusiastic about open-source, sustainable software. She was scientific coordinator of the ExaHyPE project and is one of the main contributors to the UM-Bridge project.
 
 [Linus Seelinger](https://linusseelinger.de) is a postdoctoral researcher at the Institute of Mathematics, Heidelberg University. His research is focused on uncertainty quantification with strong links to high-performance computing and numerical solvers of partial differential equations. He has contributed to the DUNE numerical framework, is a core developer of the MIT uncertainty quantification library, and, most recently, started the UM-Bridge project.
+
+<!---
+Publish: yes
+Topics: design, software interoperability
+--->
