@@ -65,5 +65,6 @@ Applications are now closed for the 2023 BSSw Fellowship Program. Check back in 
 </div>
 
 <!--
+Publish: yes
 OpenGraph image: OG_2109_BSSwFellowships.png
 --> 
