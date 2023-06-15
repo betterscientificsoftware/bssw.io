@@ -36,7 +36,9 @@ Taken together, these properties meant that it took us months to implement a sca
 
 Linking MUQ and ExaHyPE was a painful experience, contrary to the theoretically simple link of the algorithms.
 
-We, therefore, decided to try a completely different approach, taking inspiration from microservice architectures. Enter UM-Bridge, the UQ and Modeling Bridge: Instead of building one monolithic application encompassing UQ, numerical model, and HPC capabilities, we now separate each aspect into its own component. The UQ application requests evaluations through the UM-Bridge network protocol, while the model application is now a server, launching simulation runs upon request. The model may run on a cluster, where a load balancer takes care of many parallelization aspects.
+We, therefore, decided to try a completely different approach, taking inspiration from microservice architectures. Enter UM-Bridge, the UQ and Modeling Bridge: Instead of building one monolithic application encompassing UQ, numerical model, and HPC capabilities, we now separate each aspect into its own component. The UQ application requests evaluations through UM-Bridge, while the model application is now a server, launching simulation runs upon request. The model may run on a remote cluster, where a load balancer takes care of many parallelization aspects.
+
+At its core, UM-Bridge is a simple network protocol based on HTTP and JSON, offering model evaluations and optional Jacobian and Hessian support. We provide a number of language-specific integrations that implement the protocol behind the scenes, allowing model calls or model definitions in terms of native function calls or objects. In addition, integrations specific to a number of UQ frameworks offer UM-Bridge clients fully embedded in the respective model interface. Adding UM-Bridge support to an existing project is therefore typically a matter of adding just a few lines of code.
 
 <br> 
 
@@ -46,7 +48,7 @@ We, therefore, decided to try a completely different approach, taking inspiratio
 
 Right away, UM-Bridge offers a number of benefits:
 
-* We can easily link tools that are written in different programming languages or are otherwise incompatible; all we need now is a small extension to support UM-Bridge on either side, which is easy to achieve using one of the language-specific or even framework-specific integrations we provide.
+* We can easily link tools that are written in different programming languages or are otherwise incompatible; all we need now is UM-Bridge support on either side.
 
 * UM-Bridge models can readily be containerized since the natural path to accessing a containerized application is via a network. Containerized models can be shared among collaborators, improving the separation of concerns between UQ and model experts. Containers also provide a high degree of reproducibility, which we used to build the first library of ready-to-run UQ benchmark problems.
 
@@ -56,7 +58,7 @@ Right away, UM-Bridge offers a number of benefits:
 
 We set out to revisit the tsunami problem using UM-Bridge. As before, we went with the ExaHyPE tsunami model. This time, we chose multilevel delayed acceptance (MLDA) as our UQ method. To spice things up, we wanted to build a Gaussian Process (GP) surrogate as the coarsest level in MLDA, replacing our less accurate hand-crafted coarse approximation. We used Google Cloud Platform (GCP) to provide the computational horsepower.
 
-We had a clear separation of roles: Anne is the ExaHyPE expert, Mikkel is the developer of MLDA, and Linus has the most experience in cloud computing. UM-Bridge facilitated development at all stages:
+We had a clear separation of roles: Anne is the ExaHyPE expert, our collaborator Mikkel Lykkegaard is the developer of MLDA, and Linus has the most experience in cloud computing. UM-Bridge facilitated development at all stages:
 
 * Only Anne had to perform the complex setup of the tsunami model and its dependencies, publishing the result as a container.
 * Mikkel could immediately train a GP surrogate without deeper knowledge of the model, simply calling Anne's container through UM-Bridge.
