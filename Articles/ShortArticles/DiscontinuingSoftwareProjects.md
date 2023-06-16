@@ -1,9 +1,39 @@
+From ChatGPT...
+
+Yes, there are several steps that can be taken to preserve the software engineering know-how from a research software project when its funding is cut. Here are some recommendations:
+
+1. Document the project: Create comprehensive documentation that captures the project's objectives, methodologies, and key findings. Include installation instructions, configuration details, and usage examples. Document any design decisions, algorithms, and implementation details that may be valuable to others.
+
+2. Open-source the code: If the project's codebase is not already open source, consider releasing it under an open-source license. Platforms like GitHub, GitLab, and Bitbucket provide infrastructure for hosting and managing open-source projects. By making the code open source, you allow others to access, use, and contribute to the software.
+
+3. Establish a community presence: Create a dedicated website, forum, or mailing list where users and developers can interact and discuss the project. Encourage community participation, answer questions, and provide support to users. This helps build a community around the project and fosters knowledge sharing.
+
+4. Create a public repository: Set up a public code repository (e.g., GitHub) to store the project's code, documentation, and related resources. This repository can serve as a central hub for the project's artifacts, allowing others to easily discover and access them.
+
+5. Engage with relevant communities: Reach out to relevant communities, such as software engineering or research groups, and present your project at conferences, workshops, or meetups. Share your insights, experiences, and lessons learned. Networking with other researchers and developers can help disseminate knowledge about the project and ensure its longevity.
+
+6. Seek collaborations and partnerships: Explore opportunities to collaborate with other institutions, organizations, or researchers who may be interested in continuing the project or incorporating its findings into their own work. Collaborative efforts can help sustain the project's impact and facilitate ongoing development.
+
+7. Apply for grants and funding: Although the project's original funding may have been cut, consider seeking alternative sources of funding. Look for grants, scholarships, or fellowships that support open-source software development, research initiatives, or knowledge sharing in your field. Funding can help sustain the project and enable further contributions.
+
+8. Foster a culture of knowledge sharing: Encourage project members to share their expertise through blog posts, tutorials, or technical articles. Publish research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes. By actively sharing knowledge, you increase the chances of the community benefiting from the project's know-how.
+
+9. Collaborate with universities and research institutions: Establish relationships with academic institutions or research organizations that have an interest in the project's domain. Collaborate on joint projects, provide access to the project's resources, or mentor students who can contribute to the project. Academic partnerships can help preserve the project's knowledge and promote ongoing research.
+
+10. Continuously update and maintain the project: Assign dedicated maintainers to oversee the project's evolution, address issues, and incorporate community contributions. Keep the project up to date with the latest software libraries, frameworks, and best practices. Regularly review and update the documentation to ensure it remains accurate and relevant.
+
+By following these steps, you can increase the chances of preserving and sharing the software engineering know-how from a research software project, even when its funding is cut.
+
 # Discontinuing a Research Software Project
 
-Software projects come to an end for a variety of reasons. A newer project
-can render an older project obsolete. The market or need for a capability can
-dwindle or completely disappear. A sponsoring organization can wind up making
-a strategic decision to discontinue a software project. Funding can run out.
+Software projects come to an end for a variety of reasons.
+A newer project can render an older project obsolete.
+
+Research software projects in particular can come to an end in abrupt ways that ultimately impact the community's ability to ever reap any benefit from, learn lessons from or otherwise have available for posterity's sake any of the system architecture and software engineering know how that went into them.
+
+The market or need for a capability can dwindle or completely disappear.
+A sponsoring organization can wind up making a strategic decision to discontinue a software project.
+Funding can run out.
 
 Many *research* software projects have built-in sunset dates when the sponsoring
 organization's funding ends. For SciDAC projects for example, a common
@@ -23,10 +53,12 @@ Utilization of software project hosting providers such as SourceForge, GitHub, G
 etc.  definitely helps software projects avoid some issues when discontinuing by enabling
 the project to maintain a continued presence even after funding is lost. The more
 services (issue tracking, email lists, web site hosting, etc.) the project utilizes
-from hosting providers, the easier it is for the project to go into hibernation.
+from hosting providers, the easier it is for informabout about the project to remain
+available even after all work has ended.
 For example, GitHub features the ability to put a repository in an *archived* state.
+But, even that has its limits (security updates for example take effort).
 
-There things project stakeholders and sponsoring organizations can do to *gracefully* 
+There are things project stakeholders and sponsoring organizations can do to *gracefully* 
 discontinue a software project in such a way that key assets remain aviailable for
 the benefit of the community.
 
@@ -42,6 +74,12 @@ username). This information should be posted prominently in all of the on-line s
 the project has a continued presence. Even if communications will be discontinued entirely,
 it may make sense to provide way for inquirers to *register* their interest by some kind of
 a sign-up process that collects such contact information.
+GitHub reactions can do this.
+
+
+Some of he choices a project makes up front can impact these questions
+
+Problems with email and email lists, etc.
 
 Collecting such inquiries
 
