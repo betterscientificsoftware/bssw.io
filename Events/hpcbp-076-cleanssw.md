@@ -36,7 +36,7 @@ high-performance computers (HPC) and occur approximately monthly.
 Resource Information | Details
 :--- | :---			   
 Webinar Title | Writing Clean Scientific Software
-Date and Time | 2023-07-12 01:00 pm WTZ
+Date and Time | 2023-07-12 01:00 pm EDT
 Presenter | Nick Murphy (Center for Astrophysics, Harvard &amp; Smithsonian)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar076>	   
 
