@@ -1,4 +1,4 @@
-# Enabling complex scientific applications
+# Enabling Complex Scientific Applications
 
 **Hero Image:**
 
@@ -6,19 +6,19 @@
 
 #### Contributed by [Anne Reinarz](https://github.com/annereinarz) and [Linus Seelinger](https://github.com/linusseelinger/)
 
-#### Publication date: June 27, 2023
+#### Publication date: June 22, 2023
 
 ### Introduction
 
-Scientific applications are ever-growing in complexity: Interdisciplinary workflows in particular combine numerous methods and software components from different communities. This might be motivated by software engineering concerns (e.g. embedding a simulation software in CI/CD or performance analysis tools) or algorithmic concerns (e.g. performing optimization or uncertainty quantification on complex numerical models).
+Scientific applications are ever-growing in complexity: Interdisciplinary workflows in particular combine numerous methods and software components from different communities. Both software engineering concerns (e.g., embedding simulation software in CI/CD or performance analysis tools) and algorithmic concerns (e.g., performing optimization or uncertainty quantification on complex numerical models) drive these workflows. 
 
-Each community has - for good reasons - preferred languages and tools, which are often incompatible. Further, many scientific software frameworks were designed as monoliths with no expectation of being embedded in higher-level applications. In order to facilitate complex scientific applications, we, therefore, need to map abstract theoretical interfaces into equally universal software interfaces, enabling greater flexibility, reusability, and separation of concerns.
+Each community has -- for good reasons -- typically preferred particular languages and tools, which are often incompatible. Further, many scientific software frameworks were designed as monoliths with no expectation of being embedded in higher-level applications. Thus, in order to facilitate complex scientific applications, we need to map abstract theoretical interfaces into equally universal software interfaces, enabling greater flexibility, reusability, and separation of concerns.
 
 ### Case study: Simulating tsunamis
 
 We wanted to perform Bayesian inference with uncertainty quantification (UQ) on a tsunami model, determining the tsunami source from buoy data. [ExaHyPE](https://doi.org/10.1016/j.cpc.2020.107251) served as the numerical model, while [MUQ](https://mituq.bitbucket.io/source/_site/index.html) provided the UQ method.
 
-Linking the two is - on a theoretical level - straightforward: MUQ's multilevel Markov chain Monte Carlo method only needs to iteratively pass parameter vectors to the tsunami model and receive some quantity of interest in return. Existing MPI support on both sides should allow for good scalability.
+Linking the two is -- on a theoretical level -- straightforward: MUQ's multilevel Markov chain Monte Carlo method needs only to iteratively pass parameter vectors to the tsunami model and receive some quantity of interest in return. Existing message-passing interface (MPI) support on both sides should allow for good scalability.
 
 <br> 
 
@@ -26,7 +26,7 @@ Linking the two is - on a theoretical level - straightforward: MUQ's multilevel 
 
 <br>
 
-In practice, it turned out to be a challenge: In order to optimize algorithms and software, we often have to intentionally restrict the set of supported use cases.
+In practice, this interfacing turned out to be a challenge: In order to optimize algorithms and software, we often have to intentionally restrict the set of supported use cases.
 
 In case of ExaHyPE, this meant focusing on a one-shot workflow where the user specifies the problem, and hardware-optimized, problem-specific code is generated and compiled. In addition, ExaHyPE builds on a fairly large number of dependencies and employs a somewhat unusual hybrid parallelization approach combining MPI with Intel's oneAPI [Threading Building Blocks](https://en.wikipedia.org/wiki/Threading_Building_Blocks) (TBB).
 
@@ -52,7 +52,7 @@ Right away, UM-Bridge offers a number of benefits:
 
 * UM-Bridge models can readily be containerized since the natural path to accessing a containerized application is via a network. Containerized models can be shared among collaborators, improving the separation of concerns between UQ and model experts. Containers also provide a high degree of reproducibility, which we used to build the first library of ready-to-run UQ benchmark problems.
 
-* Simple thread-parallel UQ codes are now enough to offload parallel model runs to a cluster since distributing work across many model instances on the cluster is now up to UM-Bridge (specifically the Kubernetes setup we provide).
+* Simple thread-parallel UQ codes are now enough to offload parallel model runs to a cluster, as distributing work across many model instances on the cluster is now up to UM-Bridge (specifically the Kubernetes setup we provide).
 
 ### Rapid UQ application development: tsunamis revisited
 
@@ -63,13 +63,13 @@ We had a clear separation of roles: Anne is the ExaHyPE expert, our collaborator
 * Only Anne had to perform the complex setup of the tsunami model and its dependencies, publishing the result as a container.
 * Mikkel could immediately train a GP surrogate without deeper knowledge of the model, simply calling Anne's container through UM-Bridge.
 * Meanwhile, Linus did performance testing on GCP, discovering an issue. Anne could fix the issue on her system, and updating the container was enough for everyone to receive the fixes.
-* Linus spun up a large number of model container instances on a 2800-core cluster. Mikkel only needed to point his MLDA code to that cluster to offload costly simulation runs. The UM-Bridge kubernetes setup transparently took care of distributing work across all available resources on GCP, leaving the MLDA code completely oblivious of actually controlling many distributed model instances.
+* Linus spun up a large number of model container instances on a 2800-core cluster. Mikkel needed only to point his MLDA code to that cluster to offload costly simulation runs. The UM-Bridge kubernetes setup transparently took care of distributing work across all available resources on GCP, leaving the MLDA code completely oblivious of actually controlling many distributed model instances.
 
 The new setup is arguably more complex than our previous attempt; still, we could complete this application in a matter of days instead of months!
 
 ### Lessons learned and final thoughts
 
-We believe UM-Bridge could be similarly beneficial when linking numerical models to optimization, machine learning, etc. The microservice-inspired approach certainly has limits, for example, when the numerical model is so fast to evaluate that network latency becomes dominant. In the many cases that it works, however, it has fundamentally changed how we develop UQ applications and collaborate with domain experts.
+We believe UM-Bridge could be similarly beneficial when linking numerical models to optimization, machine learning, etc. The microservice-inspired approach certainly has limits, for example, when the numerical model is so fast to evaluate that network latency becomes dominant. In the many cases where UM-Bridge works, however, it has fundamentally changed how we develop UQ applications and collaborate with domain experts.
 
 More broadly, scientific software is increasingly being used as a part of larger workflows but is not always being designed with that in mind. We believe that we have to move away from building large monolithic applications and, where possible, instead build smaller and more flexible components with language-independent interfaces.
 
@@ -83,7 +83,7 @@ You can read more on UM-Bridge here:
 
 We are actively expanding the UM-Bridge community, so send us an email if you are interested or need support!
 
-### Author Bios
+### Author bios
 
 [Anne Reinarz](https://annereinarz.github.io) is an assistant professor of Computer Science at Durham University in the Scientific Computing Group. She is incoming Director of the Durham MSc in Scientific Computing and Data Analysis. She is enthusiastic about open-source, sustainable software. She was scientific coordinator of the ExaHyPE project and is one of the main contributors to the UM-Bridge project.
 
