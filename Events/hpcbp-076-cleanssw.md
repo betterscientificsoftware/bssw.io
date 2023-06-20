@@ -57,7 +57,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 <!---
 Publish: yes
 Categories: skills
-Topics: "design", "software engineering", "documentation, "online learning"
+Topics: "design", "software engineering", "documentation", "online learning"
 Level: 2
 Prerequisites: default
 Aggregate: none
