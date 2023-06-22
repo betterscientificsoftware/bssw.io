@@ -1,6 +1,6 @@
 # Reproducible and ethical science. 
 <!--deck text start-->
-An on line handbook to reproducible, ethical, and collaborative computational and data science.
+An online handbook to reproducible, ethical, and collaborative computational and data science.
 <!--deck text end-->
 
 #### Contributed by [Jed Brown](https://github.com/jedbrown), [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
@@ -10,7 +10,7 @@ Resource information | Details
 :--- | :--- 
 Article title  | [The Turing Way](https://the-turing-way.netlify.app/index.html)
 Authors | The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. 
-Length | Multi-Chapter, on line handbook
+Length | Multi-Chapter, online handbook
 Focus | Reproducible, ethical and collaborative data science
 
 This is a wonderful handbook to reproducible, ethical, and collaborative computational and data science.
