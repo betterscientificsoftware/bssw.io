@@ -12,13 +12,13 @@
 
 Scientific applications are ever-growing in complexity: Interdisciplinary workflows in particular combine numerous methods and software components from different communities. Both software engineering concerns (e.g., embedding simulation software in CI/CD or performance analysis tools) and algorithmic concerns (e.g., performing optimization or uncertainty quantification on complex numerical models) drive these workflows. 
 
-Each community has -- for good reasons -- typically preferred particular languages and tools, which are often incompatible. Further, many scientific software frameworks were designed as monoliths with no expectation of being embedded in higher-level applications. Thus, in order to facilitate complex scientific applications, we need to map abstract theoretical interfaces into equally universal software interfaces, enabling greater flexibility, reusability, and separation of concerns.
+Each community has — for good reasons — typically preferred particular languages and tools, which are often incompatible. Further, many scientific software frameworks were designed as monoliths with no expectation of being embedded in higher-level applications. Thus, in order to facilitate complex scientific applications, we need to map abstract theoretical interfaces into equally universal software interfaces, enabling greater flexibility, reusability, and separation of concerns.
 
 ### Case study: Simulating tsunamis
 
 We wanted to perform Bayesian inference with uncertainty quantification (UQ) on a tsunami model, determining the tsunami source from buoy data. [ExaHyPE](https://doi.org/10.1016/j.cpc.2020.107251) served as the numerical model, while [MUQ](https://mituq.bitbucket.io/source/_site/index.html) provided the UQ method.
 
-Linking the two is -- on a theoretical level -- straightforward: MUQ's multilevel Markov chain Monte Carlo method needs only to iteratively pass parameter vectors to the tsunami model and receive some quantity of interest in return. Existing message-passing interface (MPI) support on both sides should allow for good scalability.
+Linking the two is straightforward on a theoretical level: MUQ's multilevel Markov chain Monte Carlo method needs only to iteratively pass parameter vectors to the tsunami model and receive some quantity of interest in return. Existing message-passing interface (MPI) support on both sides should allow for good scalability.
 
 <br> 
 
