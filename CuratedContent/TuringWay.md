@@ -18,13 +18,12 @@ It is an online collaborative project that brings together the expertise and exp
 It contains impactful illustrations and is written in a consistent, approachable style.
 Although it does not have an HPC focus and some of the details are specific to biomedical applications, the chapters on Reproducible Research, Project Design, Communication, Collaboration, and Ethical Research are largely applicable to HPC/CSE.
 
-The book takes its name from Alan Turing, a pioneering mathematician and computer scientist, and aims to embody his values of openness, inclusivity, and rigor. It provides practical advice and best practices for conducting data science projects in a reproducible manner, emphasizing the importance of transparency, openness, and accessibility.
+*The Turing Way* project is open source, open collaboration, and community-driven.
+It involves and supports a diverse community of contributors to make data science accessible, comprehensible and effective for everyone.
+It's goal is to provide all the information that researchers and data scientists in academia, industry and the public sector need to ensure that the projects they work on are easy to reproduce and reuse.
 
-*The Turing Way* covers a wide range of topics related to reproducible data science, including project organization and management, version control, documentation, licensing, data management, and analysis. It emphasizes the use of open-source tools and platforms to facilitate collaboration and sharing of research outputs.
-
-The book also addresses challenges such as ethics, privacy, and bias in data science, and provides guidance on how to navigate these issues responsibly. It encourages researchers to consider the social and ethical implications of their work and promotes the adoption of inclusive and diverse practices.
-
-Overall, *The Turing Way* aims to empower researchers, scientists, and data practitioners to adopt reproducibility as a core principle in their work. It provides practical guidance, resources, and case studies to help readers implement reproducible practices effectively and make their research more accessible, trustworthy, and impactful.
+All stakeholders, including researchers, software engineers, project leaders and funding teams, are encouraged to use *The Turing Way* to understand their roles and responsibility of reproducibility in data science.
+The moonshot goal of *The Turing Way* is to make reproducibility *too easy not to do*.
 
 <!---
 Publish: yes
