@@ -77,7 +77,7 @@ More broadly, scientific software is increasingly being used as a part of larger
 
 You can read more on UM-Bridge here:
 
-- [UM-Bridge release paper](https://raw.githubusercontent.com/openjournals/joss-papers/joss.04748/joss.04748/10.21105.joss.04748.pdf)
+- [UM-Bridge release paper](https://www.theoj.org/joss-papers/joss.04748/10.21105.joss.04748.pdf)
 - [Preprint on large-scale applications with UM-Bridge](https://arxiv.org/abs/2304.14087)
 - [UM-Bridge documentation and UQ benchmark library](https://um-bridge-benchmarks.readthedocs.io/en/docs/)
 
