@@ -22,7 +22,7 @@ Linking the two is -- on a theoretical level -- straightforward: MUQ's multileve
 
 <br> 
 
-<img src='../../images/sci-workflows-3.png' class='page lightbox' />[Monolithic application linking UQ algorithm and numerical model.]
+<img src='../../images/sci-workflows-3.png' class='page' />[Monolithic application linking UQ algorithm and numerical model.]
 
 <br>
 
@@ -42,7 +42,7 @@ At its core, UM-Bridge is a simple network protocol based on HTTP and JSON, offe
 
 <br> 
 
-<img src='../../images/sci-workflows-4.png' class='page lightbox' />[The software now mirrors the abstract theoretical interface between UQ algorithm and model.]
+<img src='../../images/sci-workflows-4.png' class='page' />[The software now mirrors the abstract theoretical interface between UQ algorithm and model.]
 
 <br>
 
