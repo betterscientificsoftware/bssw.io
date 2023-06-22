@@ -1,4 +1,4 @@
-# Reproducible and ethical science. 
+# The Turning Way: Reproducible and Ethical Science. 
 <!--deck text start-->
 An online handbook to reproducible, ethical, and collaborative computational and data science.
 <!--deck text end-->
