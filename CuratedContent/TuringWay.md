@@ -15,7 +15,7 @@ Focus | Reproducible, ethical and collaborative data science
 
 This is a wonderful handbook to reproducible, ethical, and collaborative computational and data science.
 It is an online collaborative project that brings together the expertise and experiences of various contributors in the field of data science and research.
-It contains lovely illustrations and is written in a consistent, approachable style.
+It contains impactful illustrations and is written in a consistent, approachable style.
 Although it does not have an HPC focus and some of the details are specific to biomedical applications, the chapters on Reproducible Research, Project Design, Communication, Collaboration, and Ethical Research are largely applicable to HPC/CSE.
 
 The book takes its name from Alan Turing, a pioneering mathematician and computer scientist, and aims to embody his values of openness, inclusivity, and rigor. It provides practical advice and best practices for conducting data science projects in a reproducible manner, emphasizing the importance of transparency, openness, and accessibility.
