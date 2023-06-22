@@ -20,11 +20,11 @@ Although it does not have an HPC focus and some of the details are specific to b
 
 The book takes its name from Alan Turing, a pioneering mathematician and computer scientist, and aims to embody his values of openness, inclusivity, and rigor. It provides practical advice and best practices for conducting data science projects in a reproducible manner, emphasizing the importance of transparency, openness, and accessibility.
 
-"The Turing Way" covers a wide range of topics related to reproducible data science, including project organization and management, version control, documentation, licensing, data management, and analysis. It emphasizes the use of open-source tools and platforms to facilitate collaboration and sharing of research outputs.
+*The Turing Way* covers a wide range of topics related to reproducible data science, including project organization and management, version control, documentation, licensing, data management, and analysis. It emphasizes the use of open-source tools and platforms to facilitate collaboration and sharing of research outputs.
 
 The book also addresses challenges such as ethics, privacy, and bias in data science, and provides guidance on how to navigate these issues responsibly. It encourages researchers to consider the social and ethical implications of their work and promotes the adoption of inclusive and diverse practices.
 
-Overall, "The Turing Way" aims to empower researchers, scientists, and data practitioners to adopt reproducibility as a core principle in their work. It provides practical guidance, resources, and case studies to help readers implement reproducible practices effectively and make their research more accessible, trustworthy, and impactful.
+Overall, *The Turing Way* aims to empower researchers, scientists, and data practitioners to adopt reproducibility as a core principle in their work. It provides practical guidance, resources, and case studies to help readers implement reproducible practices effectively and make their research more accessible, trustworthy, and impactful.
 
 <!---
 Publish: yes
