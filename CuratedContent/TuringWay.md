@@ -9,7 +9,7 @@ An online handbook to reproducible, ethical, and collaborative computational and
 Resource information | Details
 :--- | :--- 
 Article title  | [The Turing Way](https://the-turing-way.netlify.app/index.html), [DOI (most up to date)](https://doi.org/10.5281/zenodo.3233853)
-Authors | The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. 
+Authors | The Turing Way Community, (2022, Dec 21). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo. 
 Length | Multi-Chapter, online handbook
 Focus | Reproducible, ethical and collaborative data science
 
