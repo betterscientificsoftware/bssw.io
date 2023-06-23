@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/sci-workflows-2.png' />[Multiple levels of resolution for a tsunami model implemented in ExaHyPE.]
+ - <img src='../../images/Blog_2306_ComplexApps.png' />[Multiple levels of resolution for a tsunami model implemented in ExaHyPE.]
 
 #### Contributed by [Anne Reinarz](https://github.com/annereinarz) and [Linus Seelinger](https://github.com/linusseelinger/)
 
