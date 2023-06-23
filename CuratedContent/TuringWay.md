@@ -20,7 +20,7 @@ Although it does not have an HPC focus and some of the details are specific to b
 
 *The Turing Way* project is open source, open collaboration, and community-driven.
 It involves and supports a diverse community of contributors to make data science accessible, comprehensible and effective for everyone.
-It's goal is to provide all the information that researchers and data scientists in academia, industry and the public sector need to ensure that the projects they work on are easy to reproduce and reuse.
+Its goal is to provide all the information that researchers and data scientists in academia, industry and the public sector need to ensure that the projects they work on are easy to reproduce and reuse.
 
 > All stakeholders, including researchers, software engineers, project leaders and funding teams, are encouraged to use *The Turing Way* to understand their roles and responsibility of reproducibility in data science.
 > The moonshot goal of *The Turing Way* is to make reproducibility *too easy not to do*.
