@@ -24,9 +24,9 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 
 ### Ritu Arora
 
-*Perspectives on the BSSw Fellowship Program:*
+*Perspectives on the BSSw Fellowship Program:* I am very grateful to the BSSw Fellowship Program team for selecting me and giving me an opportunity to highlight the cause of optimizing I/O in scientific applications. Through this fellowship, I was able to expand my professional network and the target audience for my tutorial on "Optimizing I/O in Scientific Applications". Due to the fellowship, I was able to take time and focus on expanding and updating my previous content on optimizing I/O. I also got a chance to attend the ECP meeting in January 2023 and learn about the great work that colleagues at the DOE laboratories are doing. It feels great to be a part of a very supoortive community!
 
-*Advice for new (prospective) BSSw Fellows:*
+*Advice for new (prospective) BSSw Fellows:* I would suggest proposing a topic that you are very passionate about and deciding on the scope of the proposed work to be undertaken well in advance. 
 
 
 - - -
