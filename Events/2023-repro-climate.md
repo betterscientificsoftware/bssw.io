@@ -1,4 +1,4 @@
-# Workshop on Correctness and Reproducibility for Climate and Weather Software 
+# Workshop on Correctness and Reproducibility for Climate and Weather Software 2023
 
 <!-- deck text start --> 
 This workshop, held in Boulder, CO. (and online), November 9-10, 2023, aims to provide a venue to discuss challenges, opportunities, and recent advances in ensuring software correctness and reproducibility for climate and weather modelers, HPC community members, and industry partners.
