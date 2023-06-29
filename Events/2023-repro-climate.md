@@ -4,10 +4,6 @@
 This workshop, held in Boulder, CO. (and online), November 9-10, 2023, aims to provide a venue to discuss challenges, opportunities, and recent advances in ensuring software correctness and reproducibility for climate and weather modelers, HPC community members, and industry partners.
 <!-- deck text ends -->
 
-- Deadline for abstract submissions: August 1, 2023.
-- Notification of acceptance: August 31, 2023.
-- Deadline for registration: October 20, 2023 (in person), November 3, 2023 (virtual)
-
 #### Contributed by [Alper Altuntas](https://github.com/alperaltuntas)
 
 #### Publication date: June 29, 2023
