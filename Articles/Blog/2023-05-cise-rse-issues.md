@@ -22,9 +22,7 @@ The movement has been fueled by the overwhelming need for RSEs to support increa
 
 - I. A. Cosden, “The Princeton University Research Software Engineering Group model: Operational and organizational approaches,” doi: [10.1109/MCSE.2023.3264113](https://doi.org/10.1109/MCSE.2023.3264113) describes a centralized RSE group at Princeton University that partners with academic research units across the university.  The author shares organizational and operational best practices that have proven effective.
 
-**To appear in the next issue of Computing in Science & Engineering**
-
-*The following are preprints, and are not in final published form.*
+**Computing in Science & Engineering Volume: 24, Issue: 6, Nov.-Dec. 2022**
 
 - M. R. Mundt et al., "For the public good: Connecting, retaining, and recognizing current and future RSEs at national organizations," doi: [10.1109/MCSE.2023.3256759](https://doi.org/10.1109/MCSE.2023.3256759) identifies three key areas of improvement to better support RSEs in national research laboratories: community building, hiring and retention, and recognition of their contributions.
 
