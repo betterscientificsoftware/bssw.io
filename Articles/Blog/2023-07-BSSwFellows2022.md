@@ -35,7 +35,26 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 
 *Perspectives on the BSSw Fellowship Program:*
 
+I have enjoyed seeing the concept of the Research Software Developer emerge
+over the course of my career.  BSSW supports scientific software and elevates
+the work developers like me carry out.  This program has connected me to lots
+of bright folks and given me a peek at some of the good work going on across
+the laboratory complex.
+
+I've been giving I/O tutorials for quite a few years at this point in my
+career.  With BSSW fellowship support, I reframed my typical I/O tutorial into
+more of an ongoing collaboration.  I leaned on GitHub discussions for audience
+engagement and structured my materials to accommodate contributions from users
+running on other HPC platforms.
+
+
 *Advice for new (prospective) BSSw Fellows:*
+
+For new and future BSSw Fellows, recognize there's a tension between taking
+risks and completing the task in the time allotted.  We aren't given endless
+time and money -- but who is? As in many fields, operating under gentle
+constraints can bring out creativity.  I appreciated BSSw's charge to produce
+something that could live on once the fellowship is over.
 
 - - -
 
