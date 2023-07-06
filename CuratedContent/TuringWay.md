@@ -4,13 +4,13 @@ An online handbook to reproducible, ethical, and collaborative computational and
 <!--deck text end-->
 
 #### Contributed by [Jed Brown](https://github.com/jedbrown), [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: June 22, 2023
+#### Publication date: Jul 6, 2023
 
 Resource information | Details
 :--- | :--- 
-Article title  | [The Turing Way](https://the-turing-way.netlify.app/index.html), [DOI (most up to date)](https://doi.org/10.5281/zenodo.3233853)
-Authors | The Turing Way Community, (2022, Dec 21). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo. 
-Length | Multi-Chapter, online handbook
+Resource name | The Turing Way
+Website | [The Turing Way](https://the-turing-way.netlify.app/index.html)
+Publication | Also available: [DOI](https://doi.org/10.5281/zenodo.3233853) for The Turing Way: A handbook for reproducible, ethical and collaborative research. 
 Focus | Reproducible, ethical and collaborative data science
 
 This is a wonderful handbook to reproducible, ethical, and collaborative computational and data science.
@@ -29,5 +29,5 @@ Its goal is to provide all the information that researchers and data scientists 
 Publish: yes
 Pinned: no
 Topics: Reproducibility, Strategies for More Effective Teams, Documentation, Revision Control, Big Data
-RSS update: 2023-06-22
+RSS update: 2023-07-06
 --->
