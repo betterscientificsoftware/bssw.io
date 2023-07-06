@@ -14,12 +14,12 @@ There are two main reasons due to which we should consider optimizing I/O:
 
 (1)	The first reason is to reduce the overall execution time of our applications, and in doing so, reduce the associated computation costs.
 
-    - The total execution time of a serial (or sequential) application can be broken down into two components (1) computation time and (2) the I/O time.
+    1. The total execution time of a serial (or sequential) application can be broken down into two components (1) computation time and (2) the I/O time.
     
-    - The total execution time of a parallel application can be broken down into three components: (1) time taken for communication between the processes engaged 
+    2. The total execution time of a parallel application can be broken down into three components: (1) time taken for communication between the processes engaged 
         in the parallel computation, (2) time taken for the computation themselves and, (3) time taken in I/O. 
         
-    - Hence, in both serial and parallel applications it is important that we optimize I/O to reduce the overall execution time of the applications and enhance 
+    3. Hence, in both serial and parallel applications it is important that we optimize I/O to reduce the overall execution time of the applications and enhance 
       their performance. 
 
 (2)	The second reason is to reduce the burden on the shared High Performance Computing (HPC) systems on which our jobs may be running.
