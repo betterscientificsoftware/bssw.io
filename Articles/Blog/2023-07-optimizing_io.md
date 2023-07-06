@@ -4,7 +4,8 @@ Contributed by [Ritu Arora](https://www.linkedin.com/in/ritu-a-59b58ab/)
 
 Publication date: July 14, 2023
 
-## Overview: This blog highlights the need for adopting strategies for optimizing I/O in scientific applications.
+## Overview
+This blog highlights the need for adopting strategies for optimizing I/O in scientific applications.
 
 ## Introduction
 Every useful scientific application does some type of Input/Output (I/O). For example, such applications could be reading initial conditions/data for processing or could be writing checkpoints every so often to be used in the event of any hardware failure.
