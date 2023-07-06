@@ -4,9 +4,15 @@
 This workshop, held in Boulder, CO. (and online), November 9-10, 2023, aims to provide a venue to discuss challenges, opportunities, and recent advances in ensuring software correctness and reproducibility for climate and weather modelers, HPC community members, and industry partners.
 <!-- deck text ends -->
 
+- Deadline for abstract submissions: August 1, 2023
+- Event Dates: November 9-10, 2023
+- Location: Boulder, Colorado and online
+- Website: https://ncar.github.io/correctness-workshop/
+- Organizers: The "Software Community"
+
 #### Contributed by [Alper Altuntas](https://github.com/alperaltuntas)
 
-#### Publication date: June 29, 2023
+#### Publication date: Jul 6, 2023
 
 Event Information | Details
 :--- | :---			   
