@@ -188,6 +188,7 @@ The following image calls test subdirectories in the images directory and filena
 
 <!---
 Publish: yes
+Track: Deep Dive
 Categories: Planning, Reliability
 Topics: testing
 Tags: [import from subresources]
