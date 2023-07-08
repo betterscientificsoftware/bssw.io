@@ -1,5 +1,9 @@
 # Improving Application Performance by Optimizing I/O
 
+**Hero Image:**
+
+ - <img src='../../images/optimizing_io_hero_image.png' />[Running Code on an HPC platform]
+   
 #### Contributed by [Ritu Arora](https://www.linkedin.com/in/ritu-a-59b58ab/)
 
 #### Publication date: July 14, 2023
