@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/optimizing_io_hero_image.png' />[Running Code on an HPC platform]
+<img src='../../images/optimizing_io_hero_image.png' />[Running Code on an HPC platform]
    
 #### Contributed by [Ritu Arora](https://www.linkedin.com/in/ritu-a-59b58ab/)
 
