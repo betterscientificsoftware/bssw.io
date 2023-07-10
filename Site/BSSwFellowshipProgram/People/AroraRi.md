@@ -2,7 +2,7 @@
 
 **Name:** Ritu Arora
 
-**Affiliation:** University of Texas at San Antonio
+**Affiliation:** Wayne State University and Ventra Tech Inc.
 
 **Image:** /images/People_RituArora.jpg
 
