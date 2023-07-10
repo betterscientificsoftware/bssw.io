@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-<img src='../../images/optimizing_io_hero_image.png' />[Running Code on an HPC platform]
+- <img src='../../images/optimizing_io_hero_image.png' />[Running code on an HPC platform]
    
 #### Contributed by [Ritu Arora](https://github.com/ritua2)
 
@@ -41,7 +41,7 @@ Optimizing I/O in applications is often an afterthought. However, with the conve
 This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
 
 ### Author bio
-[Ritu Arora](https://www.linkedin.com/in/ritu-a-59b58ab/) is a 2022 BSSw Fellow and a faculty member in the Computer Science departments at Wayne State University. She is also the founder of [Venra Tech Inc.](https://www.venratech.com/), a company that provides solutions for advanced computing, data management, visualization, AI, and IT infrastructure development. Prior to joining Wayne State University, Ritu worked at the University of Texas at San Antonio (UTSA) as the Assistant Vice President of Research Computing, and before that, she served as a Research Scientist at the Texas Advanced Computing Center (TACC) at UT Austin. Ritu obtained her Ph.D. in Computer and Information Science from the University of Alabama at Birmingham in 2010. She is passionate about promoting the use of technology for creating societal impact and actively engages in causes aimed at creating inclusive policies and communities.
+[Ritu Arora](https://www.linkedin.com/in/ritu-a-59b58ab/) is a 2022 BSSw Fellow and a faculty member in the Computer Science department at Wayne State University. She is also the founder of [Venra Tech Inc.](https://www.venratech.com/), a company that provides solutions for advanced computing, data management, visualization, AI, and IT infrastructure development. Prior to joining Wayne State University, Ritu worked at the University of Texas at San Antonio (UTSA) as the Assistant Vice President of Research Computing, and before that, she served as a Research Scientist at the Texas Advanced Computing Center (TACC) at UT Austin. Ritu obtained her Ph.D. in Computer and Information Science from the University of Alabama at Birmingham in 2010. She is passionate about promoting the use of technology for creating societal impact and actively engages in causes aimed at creating inclusive policies and communities.
 
 <!---
 Publish: yes
