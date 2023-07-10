@@ -4,7 +4,7 @@
 
 <img src='../../images/optimizing_io_hero_image.png' />[Running Code on an HPC platform]
    
-#### Contributed by [Ritu Arora](https://www.linkedin.com/in/ritu-a-59b58ab/)
+#### Contributed by [Ritu Arora](https://github.com/ritua2)
 
 #### Publication date: July 14, 2023
 
