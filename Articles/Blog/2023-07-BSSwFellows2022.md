@@ -33,7 +33,7 @@ Blurb on the project.
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_NAME.jpg' class='logo' />
+  <img src='../../images/People_RituArora.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -60,7 +60,7 @@ Blurb on the project.
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_NAME.jpg' class='logo' />
+  <img src='../../images/People_LathamRobert.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -105,7 +105,7 @@ Blurb on the project.
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_NAME.jpg' class='logo' />
+  <img src='../../images/People_Lowndes_v2.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -131,7 +131,7 @@ Blurb on the project.
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_NAME.jpg' class='logo' />
+  <img src='../../images/People_AmiyaMaji.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
