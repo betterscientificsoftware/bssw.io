@@ -37,7 +37,8 @@ Blurb on the project.
 </div>
 
 <div class='short_bio'>
-<p><a href="URL">Name</a> is a blah blah blah.
+<p><!-- TODO: is Wayne state the right URL? -->
+<a href="https://wayne.edu/people/hg8255">Ritu</a> is a faculty member in the Computer Science department at Wayne State University. She is also the founder of <a href="https://www.venratech.com/home">Venra Tech Inc.</a>, a company that provides solutions for advanced computing, data management, visualization, AI, and IT infrastructure development. Prior to joining Wayne State University, Ritu led the Research computing portfolio at the University of Texas at San Antonio (UTSA). She specializes in designing high-productivity and scalable infrastructure for powering discoveries and has led the development of the software infrastructure for integrating and efficiently utilizing supercomputing, cloud computing, and volunteer computing resources. Her areas of expertise and interest include High Performance Computing (HPC), data-intensive computing, cloud computing, advanced software engineering, and health informatics. Prior to joining UTSA, Ritu worked at the University of Texas (UT) at Austin, where she was appointed as a Research Scientist at the Texas Advanced Computing Center (TACC), and as Associated Faculty in the Department of Statistics and Data Sciences. Ritu received her Ph.D. in Computer and Information Science from the University of Alabama at Birmingham in 2010. She passionately promotes the use of technology for creating social impact, and actively engages in the causes for creating inclusive policies and communities.
 </p>
 </div>
 </div>
@@ -64,7 +65,7 @@ Blurb on the project.
 </div>
 
 <div class='short_bio'>
-<p><a href="URL">Name</a> is a blah blah blah.
+<p><a href="https://www.mcs.anl.gov/~robl/">Rob</a> strives to make scientific applications use I/O more efficiently. After earning his BS (1999) and MS (2000) in Computer Engineering at Lehigh University (Bethlehem, PA), he eventually ended up at Argonne National Laboratory (ANL). His research focus has been on high performance I/O for scientific applications and I/O metrics. He has worked on the ROMIO MPI-IO implementation, the parallel file systems PVFS (v1 and v2), Parallel NetCDF, and Mochi I/O services.
 </p>
 </div>
 </div>
@@ -109,7 +110,7 @@ Blurb on the project.
 </div>
 
 <div class='short_bio'>
-<p><a href="URL">Name</a> is a blah blah blah.
+<p><a href="https://jules32.github.io/">Julia</a>is Founder and Co-Director of Openscapes, championing kinder, better science for future us through open science and teamwork. As a marine data scientist, Mozilla Fellow ‘19 and Senior Fellow at NCEAS, she has nearly ten years designing and leading programs to empower science teams with skill sets and mindsets for reproducible research, empowering researchers with existing open tools and communities. She has been building communities of practice in this space since 2013 with the Ocean Health Index after earning her PhD at Stanford University studying drivers and impacts of Humboldt squid in a changing climate. She is a Carpentries instructor and a co-founder of Eco-Data-Science and R-Ladies Santa Barbara. Follow her on Twitter <a href="https://twitter.com/juliesquid">@juliesquid</a>.
 </p>
 </div>
 </div>
@@ -135,7 +136,7 @@ Blurb on the project.
 </div>
 
 <div class='short_bio'>
-<p><a href="URL">Name</a> is a blah blah blah.
+<p><a href="https://www.rcac.purdue.edu/about/staff/amaji">Amiya</a> is a Senior Computational Scientist at Purdue Research Computing where he collaborates with faculty and researchers from various scientific domains to optimize their computational and data analysis workflows. Being an avid advocate for software reliability and security, Amiya has developed several algorithms and tools for software testing both during his graduate studies at Purdue ECE and then at Research Computing. He co-invented the “Testpilot” regression testing framework at Purdue (HUST17) and also developed the “conda-env-mod” tool for easy deployment of scientific Python applications (HUST20). Amiya currently leads the software build automation project for Purdue’s community clusters. Amiya’s contributions towards the Community Cluster program were recognized by the Bravo Award (2020) given to Purdue employees for outstanding achievement. Amiya also serves as a fellow of Trusted CI (2021) where he promotes best practices for secure computing.
 </p>
 </div>
 </div>
@@ -184,7 +185,7 @@ Blurb on the project.
 </div>
 
 <div class='short_bio'>
-<p><a href="URL">Name</a> is a blah blah blah.
+<p><a href="https://www.sru.edu/c2ac">Nitin</a> is an associate professor in the department of computer science and director of Center for Cybersecurity and Advanced Computing (C2AC) at Slippery Rock University of Pennsylvania. His areas of expertise are scientific computing focusing on performance modeling, robustness and resilience analysis, and cybersecurity.
 </p>
 </div>
 </div>
@@ -210,7 +211,7 @@ Blurb on the project.
 </div>
 
 <div class='short_bio'>
-<p><a href="URL">Name</a> is a blah blah blah.
+<p><a href="https://www.isi.edu/people/vahi/about">Karan</a>is a Senior Computer Scientist in the Science Automation Technologies group at the USC Information Sciences Institute. He has been working in the field of scientific workflows since 2002, and has been closely involved in the development of the Pegasus Workflow Management System. He is currently the architect/lead developer for Pegasus and in charge of the core development of Pegasus. His work on implementing integrity checking in Pegasus for scientific workflows won the best paper and the Phil Andrews Most Transformative Research Award at PEARC19.
 </p>
 </div>
 </div>
