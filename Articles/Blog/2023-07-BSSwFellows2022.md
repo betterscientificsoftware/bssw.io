@@ -24,8 +24,7 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 
 ### Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development.
 
-Ritu Arora
-Blurb on the project.
+Ritu will create videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the area of AI/machine learning. Her materials will cover the following topics: (1) Optimizing I/O in serial and parallel applications written in C, C++, Fortran, Python, and R; (2) optimally writing and reading checkpoints in serial and parallel applications written using C, C++, Fortran, Python, R, MPI, OpenMP, and CUDA; (3) optimizing I/O and checkpointing AI/machine learning models/applications; and (4) techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications’ I/O while being aware of portability issues. The videos will be posted on YouTube, sample code will be posted in a GitHub repository, and the blogs will be shared as LinkedIn articles and BSSw.io blogs.
 
 <a href="URL" class="link-row">Link Text</a>
 
@@ -52,8 +51,7 @@ Blurb on the project.
 
 ### I/O sleuthing to track down errors in performance or correctness - at scale!
 
-Rob Latham
-Blurb on the project.
+We often see computational science codes focusing on I/O only when something has gone wrong: A job took longer than expected, data was incorrect, or obscure failure messages come back from the storage system. Diagnosing and debugging I/O problems share many similarities to debugging any parallel application, but do have their own peculiarities and tools. In this one-day course Rob will cover the kinds of I/O problems one is likely to encounter in HPC, how to investigate those problems, and how to fix them.
 
 <a href="URL" class="link-row">Link Text</a>
 
@@ -97,8 +95,7 @@ something that could live on once the fellowship is over.
 
 ### Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
 
-Julia Stewart Lowndes
-Blurb on the project.
+Julia empowers researchers with technical, team and leadership skills for data-intensive open science through Openscapes, which she founded and co-directs. Openscapes helps researchers do “better science for future us” – data-intensive science that is reproducible and transparent; enabled by open source software; and underscored by sustainability, inclusion, and kindness. Julia’s work focuses on the Openscapes Champions Program, a remote cohort series that is not a typical training workshop – it is an interactive co-learning experience where learners bring their own research projects and are able to make tangible progress together with their teams and with a cohort of peers. During the BSSw Fellowship, Julia will improve publicly accessible open educational resources: the Openscapes Champions Lesson Series (https://openscapes.org/series) that are available for Champions program participants as well as self-paced learning for everyone.
 
 <a href="URL" class="link-row">Link Text</a>
 
@@ -123,8 +120,7 @@ Blurb on the project.
 
 ### Simplifying scientific Python package installation and environment management
 
-Amiya Maji
-Blurb on the project.
+Amiya works to simplify scientific Python package installation by streamlining environment management, dependency tracking, and runtime customizations through easy-to-use tools. With the growing popularity of Python, installation and management of python packages on HPC clusters is emerging as a critical problem for researchers and is complicated by the need for providing consistency across traditional batch workloads and interactive notebooks. Amiya will collaborate with various HPC centers to document and present their best practices for managing Python applications and implement these practices in the development of the python-env-mod tool to simplify these processes. Python-env-mod helps users manage their Python environments more efficiently and load runtime configurations through the familiar abstraction of environment modules. HPC centers can further customize the module file templates to incorporate additional software dependencies and provide descriptive help messages. This work will significantly improve scientific productivity, reduce user errors, and enable sharing of Python package installations among users.
 
 <a href="URL" class="link-row">Link Text</a>
 
@@ -172,8 +168,9 @@ Take advantage of the great networking opportunities provided by the BSSw Fellow
 
 ### Mitigate the risk of software vulnerabilities with best practices and tools for secure scientific software development
 
-Nitin Sukhija
-Blurb on the project.
+The sharp increase in computational power of computing ecosystems is likely to continue as we move toward exascale and beyond. In turn, we are seeing new convergent computing platforms along with a paradigm shift in scientific software applications leveraging these platforms. Unfortunately, this also leads to an unexpected growth in security risks pertaining to cybercriminals, as well as malicious insiders in the computing ecosystems. To address these issues, it is of paramount importance to integrate security within the scientific software development lifecycle. The need for best practices for secure software development has been highlighted in the President’s Executive Order on Improving the Nation’s Cybersecurity issued in May, 2021.
+
+Nitin Sukhija will create a one-day workshop on securing scientific software development. The workshop components will include evaluating design practices for creating secure software, software processes for managing secure software, threat modeling, and quality assurance testing using both static and dynamic analysis tools. The workshop will include hands-on exercises with penetration testing tools and how to mitigate threats such as losing sensitive information due to a variety of potential vulnerabilities. The workshop is intended to aid members from diverse research domains in development of trustworthy and secure scientific software.
 
 <a href="URL" class="link-row">Link Text</a>
 
@@ -198,8 +195,7 @@ Blurb on the project.
 
 ### Enabling complex scientific computations and efficient use of HPC resources with scientific workflows
 
-Karan Vahi
-Blurb on the project.
+Karan will bring the use of workflows to the wider scientific community by developing easy to understand training materials that examine the workflow lifecycle and challenges associated with various steps such as creation, execution, monitoring and debugging. Workflows are needed to capture the complex interdependencies between processing steps in data analysis and simulation pipelines as well as the mechanisms to execute those steps reliably and efficiently. The training will walk users through how to model existing simulation pipelines into workflows, how to package application code in containers, and how to execute the workflow on HPC resources and distributed computing infrastructure such as Open Science Grid. The training materials will also build on existing interactive Jupyter notebooks that guide users on how to develop workflows using Pegasus (http://pegasus.isi.edu). The training materials will be self-guided and also well-suited for use in classroom teaching and virtually.
 
 <a href="URL" class="link-row">Link Text</a>
 
