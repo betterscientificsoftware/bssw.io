@@ -5,12 +5,12 @@ Read about the 2022 BSSw Fellows and their contributions to the BSSw community!
 <img src='../../images/Blog_2307_BSSwFellows.png'>
 
 #### Contributed by:
-[Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile")
-[Ritu Arora](https://github.com/ritua2 "Ritu Arora's GitHub Profile")
-[Rob Latham](https://github.com/roblatham00 "Rob Latham's GitHub Profile")
-[Julia Lowndes](https://github.com/jules32 "Julia Lowndes's GitHub Profile")
-[Amiya Maji](https://github.com/amaji "Amiya Maji's GitHub Profile")
-[Nitin Sukhija](https://github.com/ "Nitin Sukhija's GitHub Profile")
+[Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile"),
+[Ritu Arora](https://github.com/ritua2 "Ritu Arora's GitHub Profile"),
+[Rob Latham](https://github.com/roblatham00 "Rob Latham's GitHub Profile"),
+[Julia Lowndes](https://github.com/jules32 "Julia Lowndes's GitHub Profile"),
+[Amiya Maji](https://github.com/amaji "Amiya Maji's GitHub Profile"),
+[Nitin Sukhija](https://github.com/ "Nitin Sukhija's GitHub Profile"),
 [Karan Vahi](https://github.com/vahi "Karan Vahi's GitHub Profile")
 
 
