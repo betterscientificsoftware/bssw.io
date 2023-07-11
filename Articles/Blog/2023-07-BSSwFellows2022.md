@@ -22,7 +22,9 @@ The 2022 BSSw Fellows have used their skills to create tutorials, webinars, and 
 
 Here's more about what they have been up to and their perspectives on the BSSw Fellowship Program.
 
-### Ritu Arora
+### Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development.
+
+Ritu Arora
 
 *Perspectives on the BSSw Fellowship Program:* I am very grateful to the BSSw Fellowship Program team for selecting me and giving me an opportunity to highlight the cause of optimizing I/O in scientific applications. Through this fellowship, I was able to expand my professional network and the target audience for my tutorial on "Optimizing I/O in Scientific Applications". Due to the fellowship, I was able to take time and focus on expanding and updating my previous content on optimizing I/O. I also got a chance to attend the ECP meeting in January 2023 and learn about the great work that colleagues at the DOE laboratories are doing. It feels great to be a part of a very supoortive community!
 
@@ -31,7 +33,9 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 
 - - -
 
-### Rob Latham
+### I/O sleuthing to track down errors in performance or correctness - at scale!
+
+Rob Latham
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -58,7 +62,9 @@ something that could live on once the fellowship is over.
 
 - - -
 
-### Julia Stewart Lowndes
+### Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
+
+Julia Stewart Lowndes
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -66,7 +72,9 @@ something that could live on once the fellowship is over.
 
 - - -
 
-### Amiya Maji
+### Simplifying scientific Python package installation and environment management
+
+Amiya Maji
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -97,7 +105,9 @@ Take advantage of the great networking opportunities provided by the BSSw Fellow
 
 - - -
 
-### Nitin Sukhija
+### Mitigate the risk of software vulnerabilities with best practices and tools for secure scientific software development
+
+Nitin Sukhija
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -105,7 +115,9 @@ Take advantage of the great networking opportunities provided by the BSSw Fellow
 
 - - -
 
-### Karan Vahi
+### Enabling complex scientific computations and efficient use of HPC resources with scientific workflows
+
+Karan Vahi
 
 *Perspectives on the BSSw Fellowship Program:*
 
