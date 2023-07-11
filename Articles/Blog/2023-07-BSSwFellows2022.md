@@ -25,6 +25,22 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 ### Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development.
 
 Ritu Arora
+Blurb on the project.
+
+<a href="URL" class="link-row">Link Text</a>
+
+<br>
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/People_NAME.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+<p><a href="URL">Name</a> is a blah blah blah.
+</p>
+</div>
+</div>
 
 *Perspectives on the BSSw Fellowship Program:* I am very grateful to the BSSw Fellowship Program team for selecting me and giving me an opportunity to highlight the cause of optimizing I/O in scientific applications. Through this fellowship, I was able to expand my professional network and the target audience for my tutorial on "Optimizing I/O in Scientific Applications". Due to the fellowship, I was able to take time and focus on expanding and updating my previous content on optimizing I/O. I also got a chance to attend the ECP meeting in January 2023 and learn about the great work that colleagues at the DOE laboratories are doing. It feels great to be a part of a very supoortive community!
 
@@ -36,6 +52,22 @@ Ritu Arora
 ### I/O sleuthing to track down errors in performance or correctness - at scale!
 
 Rob Latham
+Blurb on the project.
+
+<a href="URL" class="link-row">Link Text</a>
+
+<br>
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/People_NAME.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+<p><a href="URL">Name</a> is a blah blah blah.
+</p>
+</div>
+</div>
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -65,6 +97,22 @@ something that could live on once the fellowship is over.
 ### Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
 
 Julia Stewart Lowndes
+Blurb on the project.
+
+<a href="URL" class="link-row">Link Text</a>
+
+<br>
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/People_NAME.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+<p><a href="URL">Name</a> is a blah blah blah.
+</p>
+</div>
+</div>
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -75,6 +123,22 @@ Julia Stewart Lowndes
 ### Simplifying scientific Python package installation and environment management
 
 Amiya Maji
+Blurb on the project.
+
+<a href="URL" class="link-row">Link Text</a>
+
+<br>
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/People_NAME.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+<p><a href="URL">Name</a> is a blah blah blah.
+</p>
+</div>
+</div>
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -108,6 +172,22 @@ Take advantage of the great networking opportunities provided by the BSSw Fellow
 ### Mitigate the risk of software vulnerabilities with best practices and tools for secure scientific software development
 
 Nitin Sukhija
+Blurb on the project.
+
+<a href="URL" class="link-row">Link Text</a>
+
+<br>
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/People_NitinSukhija.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+<p><a href="URL">Name</a> is a blah blah blah.
+</p>
+</div>
+</div>
 
 *Perspectives on the BSSw Fellowship Program:*
 
@@ -118,6 +198,22 @@ Nitin Sukhija
 ### Enabling complex scientific computations and efficient use of HPC resources with scientific workflows
 
 Karan Vahi
+Blurb on the project.
+
+<a href="URL" class="link-row">Link Text</a>
+
+<br>
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/People_VahiKaran.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+<p><a href="URL">Name</a> is a blah blah blah.
+</p>
+</div>
+</div>
 
 *Perspectives on the BSSw Fellowship Program:*
 
