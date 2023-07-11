@@ -2,7 +2,7 @@
 
 Read about the 2022 BSSw Fellows and their contributions to the BSSw community!
 
-<img src='../../images/Blog_2207_BSSwFellows.png'>
+<img src='../../images/Blog_2307_BSSwFellows.png'>
 
 #### Contributed by:
 [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile")
