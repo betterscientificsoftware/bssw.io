@@ -6,8 +6,6 @@
 
 **Image:** /images/People_RituArora.jpg
 
-**URL:** https://www.utsa.edu/techsolutions/AboutUs/ritu-arora.html
-
 **LinkedIn:** https://www.linkedin.com/in/ritu-a-59b58ab/
 
 **Github:** https://github.com/ritua2
