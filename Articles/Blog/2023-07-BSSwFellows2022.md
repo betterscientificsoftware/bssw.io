@@ -4,14 +4,7 @@ Read about the 2022 BSSw Fellows and their contributions to the BSSw community!
 
 <img src='../../images/Blog_2307_BSSwFellows.png'>
 
-#### Contributed by:
-[Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile"),
-[Ritu Arora](https://github.com/ritua2 "Ritu Arora's GitHub Profile"),
-[Rob Latham](https://github.com/roblatham00 "Rob Latham's GitHub Profile"),
-[Julia Lowndes](https://github.com/jules32 "Julia Lowndes's GitHub Profile"),
-[Amiya Maji](https://github.com/amaji "Amiya Maji's GitHub Profile"),
-[Nitin Sukhija](https://github.com/ "Nitin Sukhija's GitHub Profile"),
-[Karan Vahi](https://github.com/vahi "Karan Vahi's GitHub Profile")
+#### Contributed by: [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile"), [Ritu Arora](https://github.com/ritua2 "Ritu Arora's GitHub Profile"), [Rob Latham](https://github.com/roblatham00 "Rob Latham's GitHub Profile"), [Julia Lowndes](https://github.com/jules32 "Julia Lowndes's GitHub Profile"), [Amiya Maji](https://github.com/amaji "Amiya Maji's GitHub Profile"), [Nitin Sukhija](https://github.com/ "Nitin Sukhija's GitHub Profile"), [Karan Vahi](https://github.com/vahi "Karan Vahi's GitHub Profile")
 
 
 #### Publication date: July 26, 2023
@@ -97,7 +90,9 @@ something that could live on once the fellowship is over.
 
 Julia empowers researchers with technical, team and leadership skills for data-intensive open science through Openscapes, which she founded and co-directs. Openscapes helps researchers do “better science for future us” – data-intensive science that is reproducible and transparent; enabled by open source software; and underscored by sustainability, inclusion, and kindness. Julia’s work focuses on the Openscapes Champions Program, a remote cohort series that is not a typical training workshop – it is an interactive co-learning experience where learners bring their own research projects and are able to make tangible progress together with their teams and with a cohort of peers. During the BSSw Fellowship, Julia will improve publicly accessible open educational resources: the Openscapes Champions Lesson Series (https://openscapes.org/series) that are available for Champions program participants as well as self-paced learning for everyone.
 
-<a href="URL" class="link-row">Link Text</a>
+<a href="https://openscapes.github.io/series/" class="link-row">Openscapes Champions Lesson Series</a>
+<a href="https://openscapes.github.io/2022-noaa-sefsc-summer/" class="link-row">2022 NOAA SEFSC Openscapes Champions Cohort</a>
+<a href="http://ideas-productivity.org/events/hpc-best-practices-webinars/#2023-webinars" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us </a>
 
 <br>
 
