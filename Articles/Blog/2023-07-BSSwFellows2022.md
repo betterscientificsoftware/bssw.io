@@ -47,9 +47,11 @@ Ritu's fellowship project created videos, articles/blogs, and examples/exercises
 
 ### I/O sleuthing to track down errors in performance or correctness - at scale!
 
-We often see computational science codes focusing on I/O only when something has gone wrong: A job took longer than expected, data was incorrect, or obscure failure messages come back from the storage system. Diagnosing and debugging I/O problems share many similarities to debugging any parallel application, but do have their own peculiarities and tools. In this one-day course Rob will cover the kinds of I/O problems one is likely to encounter in HPC, how to investigate those problems, and how to fix them.
+We often see computational science codes focusing on I/O only when something has gone wrong: A job took longer than expected, data was incorrect, or obscure failure messages come back from the storage system. Diagnosing and debugging I/O problems share many similarities to debugging any parallel application, but do have their own peculiarities and tools. In this one-day course Rob has covered the kinds of I/O problems one is likely to encounter in HPC, how to investigate those problems, and how to fix them.
 
-<a href="URL" class="link-row">Link Text</a>
+<a href="https://github.com/radix-io/io-sleuthing" class="link-row">I/O Sleuthing workshop materials</a>
+<a href="https://www.youtube.com/playlist?list=PLGj2a3KTwhRZSKVy-ZrjarFuW-coqS7F9" class="link-row">I/O Sleuthing workshop video recordings</a>
+
 
 <br>
 
@@ -65,7 +67,6 @@ We often see computational science codes focusing on I/O only when something has
 </div>
 
 *Perspectives on the BSSw Fellowship Program:*
-
 I have enjoyed seeing the concept of the Research Software Developer emerge
 over the course of my career.  BSSW supports scientific software and elevates
 the work developers like me carry out.  This program has connected me to lots
@@ -80,7 +81,6 @@ running on other HPC platforms.
 
 
 *Advice for new (prospective) BSSw Fellows:*
-
 For new and future BSSw Fellows, recognize there's a tension between taking
 risks and completing the task in the time allotted.  We aren't given endless
 time and money -- but who is? As in many fields, operating under gentle
