@@ -78,7 +78,6 @@ more of an ongoing collaboration.  I leaned on GitHub discussions for audience
 engagement and structured my materials to accommodate contributions from users
 running on other HPC platforms.
 
-
 *Advice for new (prospective) BSSw Fellows:*
 For new and future BSSw Fellows, recognize there's a tension between taking
 risks and completing the task in the time allotted.  We aren't given endless
@@ -90,11 +89,11 @@ something that could live on once the fellowship is over.
 
 ### Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
 
-Julia empowers researchers with technical, team and leadership skills for data-intensive open science through Openscapes, which she founded and co-directs. Openscapes helps researchers do “better science for future us” – data-intensive science that is reproducible and transparent; enabled by open source software; and underscored by sustainability, inclusion, and kindness. Julia’s work focuses on the Openscapes Champions Program, a remote cohort series that is not a typical training workshop – it is an interactive co-learning experience where learners bring their own research projects and are able to make tangible progress together with their teams and with a cohort of peers. During the BSSw Fellowship, Julia will improve publicly accessible open educational resources: the Openscapes Champions Lesson Series (https://openscapes.org/series) that are available for Champions program participants as well as self-paced learning for everyone.
+BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team and leadership skills for data-intensive open science through Openscapes, which she founded and co-directs. Openscapes helps researchers do "better science for future us" -- data-intensive science that is reproducible and transparent; enabled by open source software; and underscored by sustainability, inclusion, and kindness. Julia's work focuses on the Openscapes Champions Program, a remote cohort series that is not a typical training workshop -- it is an interactive co-learning experience where learners bring their own research projects and are able to make tangible progress together with their teams and with a cohort of peers. During the BSSw Fellowship, Julia has improved the publicly accessible open educational resources, namely the Openscapes Champions Lesson Series (https://openscapes.org/series) that are available for Champions program participants as well as self-paced learning for everyone.
 
 <a href="https://openscapes.github.io/series/" class="link-row">Openscapes Champions Lesson Series</a>
 <a href="https://openscapes.github.io/2022-noaa-sefsc-summer/" class="link-row">2022 NOAA SEFSC Openscapes Champions Cohort</a>
-<a href="http://ideas-productivity.org/events/hpc-best-practices-webinars/#2023-webinars" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us </a>
+<a href="http://ideas-productivity.org/events/hpc-best-practices-webinars/#2023-webinars" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us</a>
 
 <br>
 
@@ -104,7 +103,7 @@ Julia empowers researchers with technical, team and leadership skills for data-i
 </div>
 
 <div class='short_bio'>
-<p><a href="https://jules32.github.io/">Julia</a>is Founder and Co-Director of Openscapes, championing kinder, better science for future us through open science and teamwork. As a marine data scientist, Mozilla Fellow ‘19 and Senior Fellow at NCEAS, she has nearly ten years designing and leading programs to empower science teams with skill sets and mindsets for reproducible research, empowering researchers with existing open tools and communities. She has been building communities of practice in this space since 2013 with the Ocean Health Index after earning her PhD at Stanford University studying drivers and impacts of Humboldt squid in a changing climate. She is a Carpentries instructor and a co-founder of Eco-Data-Science and R-Ladies Santa Barbara. Follow her on Twitter <a href="https://twitter.com/juliesquid">@juliesquid</a>.
+<p><a href="https://jules32.github.io/">Julia</a> is Founder and Co-Director of Openscapes, championing kinder, better science for future us through open science and teamwork. As a marine data scientist, Mozilla Fellow ‘19 and Senior Fellow at NCEAS, she has nearly ten years designing and leading programs to empower science teams with skill sets and mindsets for reproducible research, empowering researchers with existing open tools and communities. She has been building communities of practice in this space since 2013 with the Ocean Health Index after earning her PhD at Stanford University studying drivers and impacts of Humboldt squid in a changing climate. She is a Carpentries instructor and a co-founder of Eco-Data-Science and R-Ladies Santa Barbara. Follow her on Twitter <a href="https://twitter.com/juliesquid">@juliesquid</a>.
 </p>
 </div>
 </div>
@@ -117,9 +116,9 @@ Julia empowers researchers with technical, team and leadership skills for data-i
 
 ### Simplifying scientific Python package installation and environment management
 
-Amiya works to simplify scientific Python package installation by streamlining environment management, dependency tracking, and runtime customizations through easy-to-use tools. With the growing popularity of Python, installation and management of python packages on HPC clusters is emerging as a critical problem for researchers and is complicated by the need for providing consistency across traditional batch workloads and interactive notebooks. Amiya will collaborate with various HPC centers to document and present their best practices for managing Python applications and implement these practices in the development of the python-env-mod tool to simplify these processes. Python-env-mod helps users manage their Python environments more efficiently and load runtime configurations through the familiar abstraction of environment modules. HPC centers can further customize the module file templates to incorporate additional software dependencies and provide descriptive help messages. This work will significantly improve scientific productivity, reduce user errors, and enable sharing of Python package installations among users.
+BSSw Fellow Amiya Maji works to simplify scientific Python package installation by streamlining environment management, dependency tracking, and runtime customizations through easy-to-use tools. With the growing popularity of Python, installation and management of python packages on HPC clusters is emerging as a critical problem for researchers and is complicated by the need for providing consistency across traditional batch workloads and interactive notebooks. Amiya has collaborated with various HPC centers to document and present their best practices for managing Python applications and implement these practices in the development of the python-env-mod tool to simplify these processes. Python-env-mod helps users manage their Python environments more efficiently and load runtime configurations through the familiar abstraction of environment modules. HPC centers can further customize the module file templates to incorporate additional software dependencies and provide descriptive help messages. This work will significantly improve scientific productivity, reduce user errors, and enable sharing of Python package installations among users.
 
-<a href="URL" class="link-row">Link Text</a>
+<a href="https://bsswf-python.readthedocs.io" class="link-row">Simplifying scientic Python package installation and environment management</a>
 
 <br>
 
@@ -135,7 +134,6 @@ Amiya works to simplify scientific Python package installation by streamlining e
 </div>
 
 *Perspectives on the BSSw Fellowship Program:*
-
 I have always been passionate about writing robust software and spent countless hours finding
 and fixing bugs (and creating a few myself!). In the BSSw Fellowship program, I found
 a community of like-minded individuals who are all passionate about raising the quality of
@@ -156,7 +154,6 @@ knowledge, support, and encouragement of the BSSw community.
 
 
 *Advice for new (prospective) BSSw Fellows:*
-
 For new and future Fellows, I'll echo the advice of the previous Fellows. Once you start working on
 your project, it may quickly expand into a larger research problem. Identify the scope of your project and start early.
 Take advantage of the great networking opportunities provided by the BSSw Fellowship and don't hesitate to reach out.
@@ -204,7 +201,7 @@ Karan will bring the use of workflows to the wider scientific community by devel
 </div>
 
 <div class='short_bio'>
-<p><a href="https://www.isi.edu/people/vahi/about">Karan</a>is a Senior Computer Scientist in the Science Automation Technologies group at the USC Information Sciences Institute. He has been working in the field of scientific workflows since 2002, and has been closely involved in the development of the Pegasus Workflow Management System. He is currently the architect/lead developer for Pegasus and in charge of the core development of Pegasus. His work on implementing integrity checking in Pegasus for scientific workflows won the best paper and the Phil Andrews Most Transformative Research Award at PEARC19.
+<p><a href="https://www.isi.edu/people/vahi/about">Karan</a> is a Senior Computer Scientist in the Science Automation Technologies group at the USC Information Sciences Institute. He has been working in the field of scientific workflows since 2002, and has been closely involved in the development of the Pegasus Workflow Management System. He is currently the architect/lead developer for Pegasus and in charge of the core development of Pegasus. His work on implementing integrity checking in Pegasus for scientific workflows won the best paper and the Phil Andrews Most Transformative Research Award at PEARC19.
 </p>
 </div>
 </div>
