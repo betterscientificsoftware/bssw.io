@@ -17,7 +17,7 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 
 ### Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development.
 
-Ritu's fellowship project created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications, including the applications from the area of AI/machine learning. The project included a 3-part tutorial. Specifically, topics covered include:
+BSSw Fellow Ritu Arora has created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications, including the applications from the area of AI/machine learning. The project included a 3-part tutorial. Specifically, topics covered include:
 
 1. Optimizing I/O in serial and parallel applications
 2. Optimally writing and reading checkpoints in serial and parallel applications
@@ -47,11 +47,10 @@ Ritu's fellowship project created videos, articles/blogs, and examples/exercises
 
 ### I/O sleuthing to track down errors in performance or correctness - at scale!
 
-We often see computational science codes focusing on I/O only when something has gone wrong: A job took longer than expected, data was incorrect, or obscure failure messages come back from the storage system. Diagnosing and debugging I/O problems share many similarities to debugging any parallel application, but do have their own peculiarities and tools. In this one-day course Rob has covered the kinds of I/O problems one is likely to encounter in HPC, how to investigate those problems, and how to fix them.
+We often see computational science codes focusing on I/O only when something has gone wrong: A job took longer than expected, data was incorrect, or obscure failure messages come back from the storage system. Diagnosing and debugging I/O problems share many similarities to debugging any parallel application, but do have their own peculiarities and tools. In a one-day course BSSw Fellow Rob Latham covers the kinds of I/O problems one is likely to encounter in HPC, how to investigate those problems, and how to fix them.
 
 <a href="https://github.com/radix-io/io-sleuthing" class="link-row">I/O Sleuthing workshop materials</a>
 <a href="https://www.youtube.com/playlist?list=PLGj2a3KTwhRZSKVy-ZrjarFuW-coqS7F9" class="link-row">I/O Sleuthing workshop video recordings</a>
-
 
 <br>
 
