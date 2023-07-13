@@ -22,7 +22,7 @@ BSSw Fellow Ritu Arora has created videos, articles/blogs, and examples/exercise
 1. Optimizing I/O in serial and parallel applications
 2. Optimally writing and reading checkpoints in serial and parallel applications
 3. Optimizing I/O and checkpointing AI/machine learning models/applications
-4. Techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications’ I/O while being aware of portability issues.
+4. Techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications' I/O while being aware of portability issues.
 
 <a href="https://github.com/ritua2/bsswfellowship" class="link-row">Optimizing I/O for Better Performance</a>
 
@@ -119,6 +119,7 @@ BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team and 
 BSSw Fellow Amiya Maji works to simplify scientific Python package installation by streamlining environment management, dependency tracking, and runtime customizations through easy-to-use tools. With the growing popularity of Python, installation and management of python packages on HPC clusters is emerging as a critical problem for researchers and is complicated by the need for providing consistency across traditional batch workloads and interactive notebooks. Amiya has collaborated with various HPC centers to document and present their best practices for managing Python applications and implement these practices in the development of the python-env-mod tool to simplify these processes. Python-env-mod helps users manage their Python environments more efficiently and load runtime configurations through the familiar abstraction of environment modules. HPC centers can further customize the module file templates to incorporate additional software dependencies and provide descriptive help messages. This work will significantly improve scientific productivity, reduce user errors, and enable sharing of Python package installations among users.
 
 <a href="https://bsswf-python.readthedocs.io" class="link-row">Simplifying scientic Python package installation and environment management</a>
+<a href="https://github.com/amaji/conda-env-mod" class="link-row">conda-env-mod: a Python packaging tool for HPC</a>
 
 <br>
 
@@ -128,7 +129,7 @@ BSSw Fellow Amiya Maji works to simplify scientific Python package installation 
 </div>
 
 <div class='short_bio'>
-<p><a href="https://www.rcac.purdue.edu/about/staff/amaji">Amiya</a> is a Senior Computational Scientist at Purdue Research Computing where he collaborates with faculty and researchers from various scientific domains to optimize their computational and data analysis workflows. Being an avid advocate for software reliability and security, Amiya has developed several algorithms and tools for software testing both during his graduate studies at Purdue ECE and then at Research Computing. He co-invented the “Testpilot” regression testing framework at Purdue (HUST17) and also developed the “conda-env-mod” tool for easy deployment of scientific Python applications (HUST20). Amiya currently leads the software build automation project for Purdue’s community clusters. Amiya’s contributions towards the Community Cluster program were recognized by the Bravo Award (2020) given to Purdue employees for outstanding achievement. Amiya also serves as a fellow of Trusted CI (2021) where he promotes best practices for secure computing.
+<p><a href="https://www.rcac.purdue.edu/about/staff/amaji">Amiya</a> is a Senior Computational Scientist at Purdue Research Computing where he collaborates with faculty and researchers from various scientific domains to optimize their computational and data analysis workflows. Being an avid advocate for software reliability and security, Amiya has developed several algorithms and tools for software testing both during his graduate studies at Purdue ECE and then at Research Computing. He co-invented the "Testpilot" regression testing framework at Purdue (HUST17) and also developed the "conda-env-mod" tool for easy deployment of scientific Python applications (HUST20). Amiya currently leads the software build automation project for Purdue's community clusters. Amiya's contributions towards the Community Cluster program were recognized by the Bravo Award (2020) given to Purdue employees for outstanding achievement. Amiya also serves as a fellow of Trusted CI (2021) where he promotes best practices for secure computing.
 </p>
 </div>
 </div>
@@ -162,11 +163,11 @@ Take advantage of the great networking opportunities provided by the BSSw Fellow
 
 ### Mitigate the risk of software vulnerabilities with best practices and tools for secure scientific software development
 
-The sharp increase in computational power of computing ecosystems is likely to continue as we move toward exascale and beyond. In turn, we are seeing new convergent computing platforms along with a paradigm shift in scientific software applications leveraging these platforms. Unfortunately, this also leads to an unexpected growth in security risks pertaining to cybercriminals, as well as malicious insiders in the computing ecosystems. To address these issues, it is of paramount importance to integrate security within the scientific software development lifecycle. The need for best practices for secure software development has been highlighted in the President’s Executive Order on Improving the Nation’s Cybersecurity issued in May, 2021.
+The sharp increase in computational power of computing ecosystems is likely to continue as we move toward exascale and beyond. In turn, we are seeing new convergent computing platforms along with a paradigm shift in scientific software applications leveraging these platforms. Unfortunately, this also leads to an unexpected growth in security risks pertaining to cybercriminals, as well as malicious insiders in the computing ecosystems. To address these issues, it is of paramount importance to integrate security within the scientific software development lifecycle. The need for best practices for secure software development has been highlighted in the President's Executive Order on Improving the Nation's Cybersecurity issued in May, 2021.
 
-Nitin Sukhija will create a one-day workshop on securing scientific software development. The workshop components will include evaluating design practices for creating secure software, software processes for managing secure software, threat modeling, and quality assurance testing using both static and dynamic analysis tools. The workshop will include hands-on exercises with penetration testing tools and how to mitigate threats such as losing sensitive information due to a variety of potential vulnerabilities. The workshop is intended to aid members from diverse research domains in development of trustworthy and secure scientific software.
+BSSw Fellow Nitin Sukhija has created a one-day workshop on securing scientific software development. The workshop components includes evaluating design practices for creating secure software, software processes for managing secure software, threat modeling, and quality assurance testing using both static and dynamic analysis tools. Additionally, the workshop includes hands-on exercises with penetration testing tools and how to mitigate threats such as losing sensitive information due to a variety of potential vulnerabilities. The workshop is intended to aid members from diverse research domains in development of trustworthy and secure scientific software.
 
-<a href="URL" class="link-row">Link Text</a>
+<!-- <a href="URL" class="link-row">Link Text</a> -->
 
 <br>
 
