@@ -25,6 +25,7 @@ BSSw Fellow Ritu Arora has created videos, articles/blogs, and examples/exercise
 4. Techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications' I/O while being aware of portability issues.
 
 <a href="https://github.com/ritua2/bsswfellowship" class="link-row">Optimizing I/O for Better Performance</a>
+<a href="https://bssw.io/blog_posts/improving-application-performance-by-optimizing-i-o" class="link-row">Improving Application Performance by Optimizing I/O</a>
 
 <br>
 
@@ -183,8 +184,10 @@ BSSw Fellow Nitin Sukhija has created a one-day workshop on securing scientific 
 </div>
 
 *Perspectives on the BSSw Fellowship Program:*
+The goal of my work is to aid in finding techniques/methodologies to support secure software development. The BSSw Fellowship Program has enabled me with a platform to reach a broader audience and to network with other researchers in the community with similar goals. With the help of the program, I was able to conduct at SIAM MDS2022 conference, a tutorial on "Best Practices and Tools For Secure Scientific Software Development" that included components for evaluating design practices for creating secure software, appropriate software processes for managing secure software, threat modeling, and quality assurance testing using both static and dynamic analysis tools. This tutorial provided an opportunity to connect with stakeholders from both academia and industry.
 
 *Advice for new (prospective) BSSw Fellows:*
+I want to say that the BSSw fellowship program coordinators are very helpful in providing support while working on delivering the milestones set for the program. I will advise that you seek inputs from the coordinators while setting and narrowing the scope of the milestones. Moreover, participating in annual meetings and other events is highly recommended.
 
 - - -
 
