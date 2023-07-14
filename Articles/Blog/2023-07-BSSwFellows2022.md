@@ -194,6 +194,7 @@ BSSw Fellow Karan Vahi brings the use of workflows to the wider scientific commu
 
 <a href="https://github.com/pegasus-isi/pegasus-usc-tutorial" class="link-row">Pegasus tutorial materials</a>
 <a href="https://www.escience-conference.org/2022/tutorials/pegasus_50_workflows/" class="link-row">Pegasus tutorial</a>
+<a href="https://github.com/vahi/pegasus-annex" class="link-row">Containerize setup for Pegasus and HTCondor</a>
 
 <br>
 
@@ -209,8 +210,12 @@ BSSw Fellow Karan Vahi brings the use of workflows to the wider scientific commu
 </div>
 
 *Perspectives on the BSSw Fellowship Program:*
+I think the BSSw fellowship program is very well structured, especially with the program staff guidance during in the application process about the various milestones that are spaced out during the period of performance. The milestones were extremely helpful to me in pacing my work for the fellowship alongside all my other work commitments. My work focuses on scientific workflows and I have been always been interested in reaching out to domain scientists about the benefits of a workflow management system such as Pegasus. As part of my fellowship proposal, I created new training materials (e.g., Jupyter notebooks) for Pegasus that focus on how a scientists can use application containers such as Docker to package their software dependencies and then use them in a workflow.
+
+Subsequent to that I had committed on conducting user training workshops at USC and NERSC with the updated materials. Interestingly, setting up the training on the two institutions led me to do additional work that I had not planned for. USC in the past year had installed Open OnDemand on their HPC cluster and recommended that I do the training using that setup. Along with my colleagues at ISI, we came up with [a setup](https://github.com/pegasus-isi/pegasus-usc-tutorial), whereby users can login to Open OnDemand with their university credentials and launch JupyterLab server on a workflow partition node that is configured to submit Pegasus Workflows. Once the JupyterLab starts, users can then access the training notebooks and do their training. The NERSC training presented a different set of challenges, where because of site policies, the recommended way for users to submit workflows is for the user to start up a container in the Spin Cluster at NERSC. This led me to develop a [containerized setup](https://github.com/vahi/pegasus-annex) of Pegasus and HTCondor that can be deployed in the Spin cluster and can be used by users to submit workflows to Perlmutter.
 
 *Advice for new (prospective) BSSw Fellows:*
+Choose your milestones carefully and don't wait until the last moment to complete the milestones. I got to do a lot of interesting work that I had not planned for in order to meet my milestones. DOE ECP Annual meeting is a great avenue for networking and meeting your peers. I unfortunately was unable to attend this year's meeting because of personal considerations.  The program staff are very approachable and helped me reach out to the right people at NERSC.
 
 - - -
 
