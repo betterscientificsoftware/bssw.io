@@ -85,7 +85,7 @@ jobs:
 # - To update an expired PAT (or just update a PAT for security reasons), first any member
 #   of the team that is queried by the get-user-teams-membership action can go to their
 #   own personal profile page, then to Developer Settings (bottom of left panel), and then
-#   generate new classic token. Given the token a meanintful description and give it read:org
+#   generate new classic token. Give the token a meaningful description and give it read:org
 #   permission in the admin:org group. Hit the generate token button. After you generate the
 #   token, immediately copy it by hitting the copy-to-clipboard icon (far right), then
 #   go to betterscientificsoftware/bssw repo Secrets and Variables and hit the pencil icon
