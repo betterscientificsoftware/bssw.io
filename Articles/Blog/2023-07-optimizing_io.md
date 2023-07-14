@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/optimizing_io_hero_image.png' />[Running code on an HPC platform]
+- <img src='../../images/Blog_2307_io.png' />
    
 #### Contributed by [Ritu Arora](https://github.com/ritua2)
 
