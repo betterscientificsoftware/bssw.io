@@ -30,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2023-06-20*
+*Listed in reverse chronological order. Last updated: 2023-07-17*
 
 
 
@@ -38,6 +38,14 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+
+
+
+- [*Writing Clean Scientific Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar076), Nick Murphy (Center for Astrophysics, Harvard &amp; Smithsonian), 2023-07-12
 
 
 
@@ -641,7 +649,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2023-06-20
+#### Publication date: 2023-07-17
 
 <!---
 Publish: yes
