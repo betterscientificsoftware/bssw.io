@@ -42,6 +42,34 @@ Here we outline a number of choices sofware project leaders can make that will i
 
 10. Continuously update and maintain the project: Assign dedicated maintainers to oversee the project's evolution, address issues, and incorporate community contributions. Keep the project up to date with the latest software libraries, frameworks, and best practices. Regularly review and update the documentation to ensure it remains accurate and relevant.
 
+Discontinuing a partially completed software project can be challenging, but it's essential to handle it properly to preserve the knowledge gained and the lessons learned. Here are some steps and actions that can be useful in this process:
+
+1. **Documentation**: Start by documenting everything related to the project. This includes code, design decisions, architecture, and any relevant discussions or meetings. Create comprehensive documentation that can help other developers understand the project's scope, progress, and any challenges encountered.
+
+2. **Lessons Learned**: Conduct a lessons-learned session with the team to capture insights into what went well and what didn't during the project's development. Document these lessons, as they can be valuable for future projects, ensuring that the same mistakes are not repeated.
+
+3. **Code Review**: If possible, conduct a code review with the team to identify any critical issues or potential security vulnerabilities. This will allow you to address these concerns and prevent them from carrying over to other projects.
+
+4. **Knowledge Transfer**: Identify team members who were heavily involved in the project and arrange knowledge transfer sessions with them. This can include one-on-one meetings, pair programming, or knowledge-sharing sessions with the entire team.
+
+5. **Version Control**: Ensure that all the code, even if incomplete, is properly version controlled. This will allow future developers to understand the project's evolution and have access to all the work done up to this point.
+
+6. **Archive Assets**: Store all relevant assets, such as design files, mockups, and any research conducted during the project. These assets can be beneficial for future projects or as reference material.
+
+7. **Identify Reasons for Discontinuation**: Understand the reasons why the project is being discontinued. It could be due to budget constraints, changing business priorities, or technical challenges. Knowing these reasons will help in making informed decisions for future projects.
+
+8. **Communication**: Communicate the discontinuation decision transparently and promptly to stakeholders, clients, or anyone affected by the project. Be honest about the reasons and express gratitude to the team for their efforts.
+
+9. **Maintain Contact Information**: Make sure you have contact information for all team members in case any follow-up questions or clarifications are required in the future.
+
+10. **Evaluate Salvageable Components**: Assess if any parts of the codebase or architecture can be reused in other projects. Salvaging valuable components can save time and effort in future development.
+
+11. **Review Contracts and Legal Obligations**: If the project involved any third-party contracts or legal obligations, review them to ensure all necessary termination procedures are followed.
+
+12. **Post-Mortem Meeting**: Hold a post-mortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience. This can lead to valuable insights for future projects.
+
+By following these steps, you can effectively discontinue a partially completed software project while retaining the knowledge gained and leveraging the lessons learned for future endeavors.
+
 Utilization of software project hosting providers such as SourceForge, GitHub, GitLab,
 etc.  definitely helps software projects avoid some issues when discontinuing by enabling
 the project to maintain a continued presence even after funding is lost. The more
