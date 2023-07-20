@@ -24,8 +24,8 @@ BSSw Fellow Ritu Arora has created videos, articles/blogs, and examples/exercise
 3. Optimizing I/O and checkpointing AI/machine learning models/applications
 4. Techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications' I/O while being aware of portability issues.
 
-<a href="https://github.com/ritua2/bsswfellowship" class="link-row">Optimizing I/O for Better Performance</a>
-<a href="https://bssw.io/blog_posts/improving-application-performance-by-optimizing-i-o" class="link-row">Improving Application Performance by Optimizing I/O</a>
+<a href="https://github.com/ritua2/bsswfellowship" class="link-row">Optimizing I/O for Better Performance tutorial materials</a>
+<a href="https://bssw.io/blog_posts/improving-application-performance-by-optimizing-i-o" class="link-row">Improving Application Performance by Optimizing I/O blog article</a>
 
 <br>
 
@@ -90,11 +90,11 @@ something that could live on once the fellowship is over.
 
 ### Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
 
-BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and leadership skills for data-intensive open science through Openscapes, which she founded and co-directs. Openscapes helps researchers do "better science for future us" -- data-intensive science that is reproducible and transparent; enabled by open-source software; and underscored by sustainability, inclusion, and kindness. Julia's work focuses on the Openscapes Champions Program, a remote cohort series that is not a typical training workshop -- it is an interactive co-learning experience where learners bring their own research projects and are able to make tangible progress together with their teams and with a cohort of peers. During the BSSw Fellowship, Julia has improved the publicly accessible open educational resources, namely the Openscapes Champions Lesson Series (https://openscapes.org/series) that are available for Champions program participants as well as self-paced learning for everyone.
+BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and leadership skills for data-intensive open science through Openscapes, which she founded and co-directs. Openscapes helps researchers do "better science for future us" -- data-intensive science that is reproducible and transparent; enabled by open-source software; and underscored by sustainability, inclusion, and kindness. Julia's work focuses on the Openscapes Champions Program, a remote cohort series that is not a typical training workshop -- it is an interactive co-learning experience where learners bring their own research projects and are able to make tangible progress together with their teams and with a cohort of peers. During the BSSw Fellowship, Julia has improved the publicly accessible open educational resources, namely the Openscapes Champions Lesson Series that are available for Champions program participants as well as self-paced learning for everyone.
 
 <a href="https://openscapes.github.io/series/" class="link-row">Openscapes Champions Lesson Series</a>
 <a href="https://openscapes.github.io/2022-noaa-sefsc-summer/" class="link-row">2022 NOAA SEFSC Openscapes Champions Cohort</a>
-<a href="http://ideas-productivity.org/events/hpc-best-practices-webinars/#2023-webinars" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us</a>
+<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar071" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us</a>
 
 <br>
 
@@ -110,9 +110,10 @@ BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and
 </div>
 
 *Perspectives on the BSSw Fellowship Program:*
+**NEEDS INPUT**
 
 *Advice for new (prospective) BSSw Fellows:*
-
+**NEEDS INPUT**
 - - -
 
 ### Simplifying scientific Python package installation and environment management
