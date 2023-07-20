@@ -73,17 +73,25 @@ jobs:
 # - We use pull_request_target and not pull_request here to ensure the CI runs in the
 #   target repo (e.g. ours) and not a fork. A forked repo cannot access the needed secrets.
 #
-# - Requires a Personal Access Token (PAT) for the get-user-teams-membership@v2 action.
-#   Individual users create PATs by going to their personal Settings.
+# - Requires a Personal Access Token (PAT) of any person who is a member of the team,
+#   for the get-user-teams-membership@v2 action. Individual users create PATs by going to
+#   their personal Settings.
 #   See https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 #
 # - When a PAT is created, it requires an expiration date. It can be set to never expire
 #   and we think this is ok for the PAT used here because it should only ever be given
 #   the admin read:org privilege which allows it to read team memberships of the org.
 #
-# - When/if a new PAT is created, it needs to be copied to a new secret in the bssw repo.
-#   and given a name. That name appears in (or near) line 21 of this file where it is
-#   used to set the value of GITHUB_TOKEN for that action.
+# - To update an expired PAT (or just update a PAT for security reasons), first any member
+#   of the team that is queried by the get-user-teams-membership action can go to their
+#   own personal profile page, then to Developer Settings (bottom of left panel), and then
+#   generate new classic token. Give the token a meaningful description and give it read:org
+#   permission in the admin:org group. Hit the generate token button. After you generate the
+#   token, immediately copy it by hitting the copy-to-clipboard icon (far right), then
+#   go to betterscientificsoftware/bssw repo Secrets and Variables and hit the pencil icon
+#   to edit the TEAM_MEMBERSHIP_PAT secret. Then, paste the copied token there. If you can
+#   log into github with a different account that is not associated with bssw or IDEAS and
+#   test that the action still works by submitting an issue.
 #
 # - Requires secrets for username/password for an associated send-mail-transfer-protocol
 #   (smtp) server account with which to send mail. It has been originally set up to use
