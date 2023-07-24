@@ -5,7 +5,7 @@ This workshop, held in conjunction with SC23 at the Colorado Convention Center, 
 <!-- deck text ends -->
 
 - Deadline for paper submissions: August 4, 2023
-- Event Dates: November 12, 2023
+- Event Date: November 12, 2023
 - Location: Denver, Colorado
 - Website: https://correctness-workshop.github.io/2023/
 - Organizers: Ignacio Laguna (LLNL) and Cindy Rubio-González (UC Davis)
@@ -19,7 +19,7 @@ Event Information | Details
 Event Name | [Correctness 2023: Seventh International Workshop on Software Correctness for HPC Applications](https://correctness-workshop.github.io/2023/)
 Deadline for paper submissions | August 4, 2023
 Notification of acceptance | September 8, 2023
-Event Dates| November 12, 2023
+Event Date| November 12, 2023
 Website | https://correctness-workshop.github.io/2023/
 
 Topics of interest include, but are not limited to:
@@ -41,9 +41,9 @@ Topics of interest include, but are not limited to:
   * Predictive debugging and testing approaches to forecast the occurrence of errors in specific conditions
   * Machine learning and anomaly detection for bug detection and localization
 
-* Programing Models and Runtime Systems Correctness
+* Programming Models and Runtime Systems Correctness
 
-  * Correctness in emerging HPC programing models
+  * Correctness in emerging HPC programming models
   * Analysis of software error propagation and error handling in HPC runtime systems and libraries
   * Metrics to measure the degree of correctness of HPC software
   * Specifications to check the correctness of runtime systems
