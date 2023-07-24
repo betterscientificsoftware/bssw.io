@@ -5,9 +5,7 @@ This workshop, held in conjunction with SC23 at the Colorado Convention Center, 
 <!-- deck text ends -->
 
 - Deadline for paper submissions: August 4, 2023
-- Notification of acceptancess: September 8, 2023
-- E-copyright registration: September 22, 2023
-- Camera-read papers due: September 22, 2023
+- Event Dates: November 12, 2023
 - Location: Denver, Colorado
 - Website: https://correctness-workshop.github.io/2023/
 - Organizers: Ignacio Laguna (LLNL) and Cindy Rubio-González (UC Davis)
