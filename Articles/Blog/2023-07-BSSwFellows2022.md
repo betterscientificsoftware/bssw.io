@@ -109,11 +109,10 @@ BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and
 </div>
 </div>
 
-*Perspectives on the BSSw Fellowship Program:*
-**NEEDS INPUT**
+*Perspectives on the BSSw Fellowship Program:* I learned a lot about the scope of what other groups are doing – both from the Fellows' projects and the organizations involved in the Fellowship. As a marine ecologist these are groups and projects that were largely new to me and it was a great opportunity to meet people and ask questions to learn about common challenges and opportunities.
 
-*Advice for new (prospective) BSSw Fellows:*
-**NEEDS INPUT**
+*Advice for new (prospective) BSSw Fellows:* Communication is a critical part of your project's development and success, so that you can receive and incorporate feedback, and share progress and milestones. As you scope your project, be sure to budget time for communication and reporting, as well as giving feedback to others!
+
 - - -
 
 ### Simplifying scientific Python package installation and environment management
