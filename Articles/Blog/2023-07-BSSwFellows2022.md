@@ -100,7 +100,7 @@ BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_Lowndes_v2.jpg' class='logo' />
+  <img src='../../images/People_NSFcohort_Lowndes_HM.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
