@@ -162,7 +162,7 @@ Take advantage of the great networking opportunities provided by the BSSw Fellow
 
 - - -
 
-### Mitigate the risk of software vulnerabilities with best practices and tools for secure scientific software development
+### Mitigating the risk of software vulnerabilities with best practices and tools for secure scientific software development
 
 The sharp increase in computational power of computing ecosystems is likely to continue as we move toward exascale and beyond. In turn, we are seeing new convergent computing platforms along with a paradigm shift in scientific software applications leveraging these platforms. Unfortunately, this also leads to an unexpected growth in security risks pertaining to cybercriminals, as well as malicious insiders in the computing ecosystems. To address these issues, it is of paramount importance to integrate security within the scientific software development lifecycle. The need for best practices for secure software development has been highlighted in the President's Executive Order on Improving the Nation's Cybersecurity issued in May 2021.
 
