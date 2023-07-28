@@ -8,7 +8,7 @@ Are you wondering how to embark and start improving your project's software proc
 
 <img src='../../images/Blog_RateYourProjectPoster_20200310.png'/>
 
-#### Contributed by [Gregory Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile")
+#### Contributed by [Gregory R. Watson](https://github.com/jarrah42 "Greg Watson GitHub Profile")
 
 #### Publication date: December 05, 2020
 
