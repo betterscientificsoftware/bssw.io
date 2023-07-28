@@ -3,6 +3,24 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
+Slide1 L: ../images/Blog_2307_BSSwFellows.png
+Slide1 R: ../Articles/Blog/2023-07-BSSwFellows2022.md
+Slide2 L: ../images/Blog_2307_io.png
+Slide2 R: ../Articles/Blog/2023-07-optimizing_io.md
+Slide3 L: ../CuratedContent/CuratedContent/TuringWay.md
+Slide3 R: ../CuratedContent/ScienceAsAmateurSoftwareDevelopment.md
+Slide4 L: ../CuratedContent/bssw-tutorials.md
+Slide4 R: ../Events/2023-repro-climate.md
+Slide5 L: ../Events/hpcbp-077-ci4hpc.md
+Slide5 R: ../Events/2023-sc23-correctness.md
+--->
+
+<!---
+Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
+
+Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
+LCM: Saving for use again later
+
 Slide1 L: ../images/Blog_2306_ComplexApp.png
 Slide1 R: ../Articles/Blog/2023-05-sci-workflows.md
 Slide2 L: ../images/Blog_2306_ACMConference.png
@@ -13,24 +31,6 @@ Slide4 L: ../CuratedContent/WorseIsBetter.md
 Slide4 R: ../Events/hpcbp-076-cleanssw.md
 Slide5 L: ../Events/LeadershipScientificSoftwareTownHallMeetings.md
 Slide5 R: ../Events/2023-usrse-conf.md
---->
-
-<!---
-Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
-
-Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
-LCM: Saving for use again later
-
-Slide1 L: ../images/Blog_2305_CiSEIssue_1125x432.png
-Slide1 R: ../Articles/Blog/2023-05-cise-rse-issues.md
-Slide2 L: ../images/Blog_2304_DeveloperSurvey.png
-Slide2 R: ../Articles/Blog/2023-04-developer-surveys.md
-Slide3 L: ../CuratedContent/WorseIsBetter.md
-Slide3 R: ../CuratedContent/ReproducibilityInitiatives.md
-Slide4 L: ../Events/2023-06-Optimizing-IO.md
-Slide4 R: ../Events/hpcbp-075-openssf.md
-Slide5 L: ../Events/LeadershipScientificSoftwareTownHallMeetings.md
-Slide5 R: ../Events/2023-usrse-conf.md 
 --->
 
 <!---
