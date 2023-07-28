@@ -3,7 +3,7 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../images/Blog_2307_BSSwFellows.png
+Slide1 L: ../images/Featured_2307_BSSwFellowsB.png
 Slide1 R: ../Articles/Blog/2023-07-BSSwFellows2022.md
 Slide2 L: ../images/Blog_2307_io.png
 Slide2 R: ../Articles/Blog/2023-07-optimizing_io.md
