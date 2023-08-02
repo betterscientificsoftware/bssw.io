@@ -30,7 +30,9 @@ Pegasus provides support for users to easily describe the container that a job i
 New training material in form of jupyter notebooks has been integrated into the main [Pegasus Tutorial](https://pegasus.isi.edu/documentation/user-guide/tutorial.html). It covers the basics of how to package your code into a Docker container, push it an image repository such as DockerHUB, and then describe how to assocaite the container with specific jobs in the worklfow and run the workflow using Pegasus. The notebook can be found in the [Pegasus Github Repository](https://github.com/pegasus-isi/pegasus/tree/master/tutorial/docker/notebooks). 
 
 ### Use of Containers for Deploying a Workflow Submit Node
- 
+Another emerging use case for containers in workflows, is to use a container to deploy the workflow system itself within the science DMZ of a HPC center. Lot of large DOE supercomputing facilities such as OLCF and NERSC provide users access to a kubernetes enivornment within their DMZ, that enables users to spin up containers from where they can submit jobs to the centers' HPC clusters.
+
+For Pegasus WMS there is now a [containerized setup](https://github.com/vahi/pegasus-annex/tree/main) for a workflow submit host with Pegasus + HTCondor installed. This container allows you to setup pilot jobs for your workflows using `htcondor annex` against supported HPC clusters. This workflow submit host is setup to submit jobs to a remote cluster, and does not run any compute jobs itself. The container is meant be deployed on a host, where the compute nodes of the cluster to which you are submiting the jobs to can connect back to. Such a host, can be a host with a public IP or a host within the science DMZ of the HPC cluster. For example, this container can be deployed onto the Spin Cluster at NERSC to submit jobs to Perlmutter.
 
 
 ### Author bio
