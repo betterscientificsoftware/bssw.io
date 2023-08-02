@@ -25,7 +25,7 @@ In the context of scientific workflows, container technologies are especially in
 
 Pegasus provides support for users to easily describe the container that a job in the workflow depends on. Pegasus supports all major container technologies such as Docker, Singularity and Shifter. Once described, Pegasus ensures that the underlying container is deployed automatically at runtime on the node, where a job runs along with it's input data.
 
-New training material in form of jupyter notebooks has been integrated into the main Pegasus Tutorial(https://pegasus.isi.edu/documentation/user-guide/tutorial.html). [Chapter 4](https://github.com/pegasus-isi/pegasus/tree/master/tutorial/docker/notebooks) of the tutorial covers the basics of how to package your code into a Docker container, push it an image repository such as DockerHUB, and then describe how to assocaite the container with specific jobs in the worklfow and run the workflow using Pegasus.
+New training material in form of jupyter notebooks has been integrated into the main [Pegasus Tutorial](https://pegasus.isi.edu/documentation/user-guide/tutorial.html). It covers the basics of how to package your code into a Docker container, push it an image repository such as DockerHUB, and then describe how to assocaite the container with specific jobs in the worklfow and run the workflow using Pegasus. The notebook can be found in the [Pegasus Github Repository](https://github.com/pegasus-isi/pegasus/tree/master/tutorial/docker/notebooks). 
 
 ### Use of Containers for Deploying a Workflow Submit Node
  
