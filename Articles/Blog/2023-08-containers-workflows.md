@@ -23,9 +23,11 @@ In the context of scientific workflows, container technologies are especially in
 1. provide an important tool to the end user to enable reproduicibility of their scientific work, by  providing a fully defined and reproducible environment; 
 2. decrease the reliance on the system administrators of centrally managed compute clusters to deploy scientific codes and its dependencies. System administrators often have a conflicting goal of providing a stable, slow-moving, multi-user environment and maynot be willing to install libraries or pacakges that a scientists application code requires.
 
-Pegasus provides support for users to easily describe the container that a job in the workflow depends on. Pegasus supports all major container technologies such as Docker, Singularity and Shifter. Once described, Pegasus ensures that the underlying container is deployed automatically at runtime on the node, where a job runs along with it's input data. Figure below gives an overview of how a job in a Pegasus workflow, executes on a node and pulls in the container and input data, and stages out generated outputs.
+Pegasus provides support for users to easily describe the container that a job in the workflow depends on. Pegasus supports all major container technologies such as Docker, Singularity and Shifter. Once described, Pegasus ensures that the underlying container is deployed automatically at runtime on the node, where a job runs along with it's input data. Figure 1 below gives an overview of how a job in a Pegasus workflow, executes on a node and pulls in the container and input data, and stages out generated outputs.
 
 <img src='../../images/2023-08-pegasus-container-execution-model.png'/>
+
+**Figure 1: Containerized Job Setup on a Compute Node by Pegasus**
 
 New training material in form of jupyter notebooks has been integrated into the main [Pegasus Tutorial](https://pegasus.isi.edu/documentation/user-guide/tutorial.html). It covers the basics of how to package your code into a Docker container, push it an image repository such as DockerHUB, and then describe how to assocaite the container with specific jobs in the worklfow and run the workflow using Pegasus. The notebook can be found in the [Pegasus Github Repository](https://github.com/pegasus-isi/pegasus/tree/master/tutorial/docker/notebooks). 
 
