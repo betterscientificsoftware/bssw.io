@@ -15,10 +15,10 @@ Submissions for the 2024 BSSw Fellowship Program are accepted through the [onlin
 - **Tuesday, August 15, 2023**: Fellowship application process opens.
 - **Tuesday, Sept 12, 2:00-3:00 pm EDT** Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Friday, Sept 29, 2023**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
-- **December 2023**: Announcement of selection of 2022 BSSw Fellows.
-<!-- - **January 17 - 20, 2024**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/). -->
-- **March 1, 2024 – March 31, 2025**: Period of performance for 2023 BSSw Fellows.
+- **December 2023**: Announcement of selection of 2024 BSSw Fellows.
+- **March 1, 2024 – March 31, 2025**: Period of performance for 2024 BSSw Fellows.
 
+<!-- - **January 17 - 20, 2024**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/). -->
 
 The BSSw Fellowship program fosters and promotes practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software through a publicly available artifact.
