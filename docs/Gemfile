@@ -7,6 +7,6 @@ gem 'github-pages', group: :jekyll_plugins
 #gem "kramdown-parser-gfm"
 #gem "jekyll"
 
-gem "webrick", "~> 1.7.0"
+gem "webrick", ">= 2.2.8"
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
