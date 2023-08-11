@@ -100,7 +100,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
 -->
 
 <table id="table-1">
-<caption>Table 1. A software gardening toolshed of tools and techniques</caption>
+<caption class="caption">Table 1. A software gardening toolshed of tools and techniques</caption>
   <tr>
    <td><strong>Concept Name</strong>
    </td>
