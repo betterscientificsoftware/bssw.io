@@ -105,6 +105,20 @@ Software archeology: Wisdom of the ancients | Hark past development by using exi
 Nowness rooting: Code maintenance kairos | Orient work towards what needs to happen today, respecting that our conception of the present consistently shifts. | Mindfulness, Kanban task status, Time blocking techniques
 Garden proactivity: Anticipating and preparatory growth | Hope for the best and plan for the worst, setting aspirational but measurable goals and avoiding known risks, weaknesses, or threats by observing them in your software garden planning. | Backcasting, SWOT Analysis, Risk Matrices
 
+Concept Name | Summary | Example Tools or Techniques
+--- | --- | ---
+**Software Gardener Lattices** | &nbsp; | &nbsp;
+Kickoff training/meeting | Use the scientific method to understand and build software gardens. | Scientific Method, Objective and Key Results, Agile Methodology Sprint Goal-setting
+Growing together: Cognitive apprenticeship | Work with others in the context of learning opportunities, leveraging cognitive apprenticeship techniques and similar. | Cognitive Apprenticeship techniques, Pull Request Reviews, Pair Programming
+Ascendant fortitude: Courage, vulnerability, and resilience | Embody bravery and vulnerability to overcome uncertainty and grow within software gardens. | Psychological Safety, Open communication, Mistake accountability and growth
+**Code: Software Gardening Senescence** | &nbsp; | &nbsp;
+Living fences: Environmental boundaries and replicability | Use environment managers by default to build protected, replicable contexts for your software garden. | Conda, Poetry, Renv
+Adventitious code: Software development velocity and linting | Add and require software linting tools in order to weed inconsistent, obsolete, or dangerous code “volunteers” which may naturally appear. | Pre-commit, Pylint, Stylr, Ruff
+Multi-generational adaptation: Surviving through fluidity | Use abstraction and fitness testing to keep and ensure code flexibility by design and goal alignment. Remove code which becomes disintegrated or overly complex. | Object-oriented design, Fitness functions, Decoupling strategies
+**Season: Software Archeology, Nowness, and Proactivity** | &nbsp; | &nbsp;
+Software archeology: Wisdom of the ancients | Hark past development by using existing software to full potential, reference existing implementations, and remove archived or otherwise “dead” code. | Documentation, GitHub Search, GitStats
+Nowness rooting: Code maintenance kairos | Orient work towards what needs to happen today, respecting that our conception of the present consistently shifts. | Mindfulness, Kanban task status, Time blocking techniques
+Garden proactivity: Anticipating and preparatory growth | Hope for the best and plan for the worst, setting aspirational but measurable goals and avoiding known risks, weaknesses, or threats by observing them in your software garden planning. | Backcasting, SWOT Analysis, Risk Matrices
 
 
 Feature | Zoom | WebEx Meetings<sup>[aw](#webex-notes-aw)</sup> 
