@@ -1,4 +1,4 @@
-# WIKIZED: Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems
+# Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems
 
 #### Contributed by: [Dave Bunten](https://github.com/d33bs) and [Gregory P. Way](https://github.com/gwaybio)
 
@@ -304,9 +304,6 @@ Publish: yes
 Topics: software process improvement, software engineering, software sustainability, development tools, refactoring
 --->
 
-
-### New references
-
 [1-sfer-ezikiw]: https://doi.org/10.1371/journal.pcbi.1005510 "Good enough practices in scientific computing {Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017). Good enough practices in scientific computing. PLOS Computational Biology 13(6): e1005510. doi:10.1371/journal.pcbi.1005510}"
 
 [2-sfer-ezikiw]: https://learning.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/ "The Pragmatic Programmer {Hunt, A., & Thomas, D. The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley.}"
@@ -339,7 +336,8 @@ Topics: software process improvement, software engineering, software sustainabil
 
 [16-sfer-ezikiw]: https://learning.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/ "Building evolutionary architectures {Fisher, M. T., & Connor, M. J. (2023). Building evolutionary architectures: A practical guide to designing and evolving software systems. O'Reilly Media.}"
 
-[17-sfer-ezikiw]: https://www.oreilly.com/library/view/technology-strategy-patterns/9781492040866 "Technology Strategy Patterns {Hewitt, E. (2018). Technology Strategy Patterns. O'Reilly Media.}"<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[17-sfer-ezikiw]: https://www.oreilly.com/library/view/technology-strategy-patterns/9781492040866 "Technology Strategy Patterns {Hewitt, E. (2018). Technology Strategy Patterns. O'Reilly Media.}"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "Good enough practices in scientific computing"
 [2]: #sfer-ezikiw-2 "The Pragmatic Programmer"
 [3]: #sfer-ezikiw-3 "Tending Your Software Garden"
