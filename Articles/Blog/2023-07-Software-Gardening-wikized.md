@@ -1,4 +1,4 @@
-# Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems
+# WIKIZED: Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems
 
 #### Contributed by: [Dave Bunten](https://github.com/d33bs) and [Gregory P. Way](https://github.com/gwaybio)
 
@@ -307,36 +307,73 @@ Topics: software process improvement, software engineering, software sustainabil
 
 ### New references
 
-[1]: https://doi.org/10.1371/journal.pcbi.1005510 "Good enough practices in scientific computing {Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017). Good enough practices in scientific computing. PLOS Computational Biology 13(6): e1005510. doi:10.1371/journal.pcbi.1005510}"
+[1-sfer-ezikiw]: https://doi.org/10.1371/journal.pcbi.1005510 "Good enough practices in scientific computing {Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017). Good enough practices in scientific computing. PLOS Computational Biology 13(6): e1005510. doi:10.1371/journal.pcbi.1005510}"
 
-[2]: https://learning.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/ "The Pragmatic Programmer {Hunt, A., & Thomas, D. The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley.}"
+[2-sfer-ezikiw]: https://learning.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/ "The Pragmatic Programmer {Hunt, A., & Thomas, D. The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley.}"
 
-[3]: https://blog.codinghorror.com/tending-your-software-garden/ "Tending Your Software Garden {Atwood, Jeff. 'Tending Your Software Garden.' Coding Horror, 2 Dec. 2008.}"
+[3-sfer-ezikiw]: https://blog.codinghorror.com/tending-your-software-garden/ "Tending Your Software Garden {Atwood, Jeff. 'Tending Your Software Garden.' Coding Horror, 2 Dec. 2008.}"
 
-[4]: https://www.linkedin.com/pulse/software-gardening-manifesto-patroklos-papapetrou "Software Gardening Manifesto {Papapetrou, P. (2019, February 19). Software Gardening Manifesto.}"
+[4-sfer-ezikiw]: https://www.linkedin.com/pulse/software-gardening-manifesto-patroklos-papapetrou "Software Gardening Manifesto {Papapetrou, P. (2019, February 19). Software Gardening Manifesto.}"
 
-[5]: https://www.artima.com/articles/programming-is-gardening-not-engineering "Programming is gardening, not engineering {Hunt, A., & Thomas, D. (2000, May 17). Programming is gardening, not engineering. Retrieved May 16, 2023.}"
+[5-sfer-ezikiw]: https://www.artima.com/articles/programming-is-gardening-not-engineering "Programming is gardening, not engineering {Hunt, A., & Thomas, D. (2000, May 17). Programming is gardening, not engineering. Retrieved May 16, 2023.}"
 
-[6]: https://doi.org/10.1109/ICSE.2015.334 "Stuck and Frustrated or in Flow and Happy {S. C. Müller and T. Fritz, 'Stuck and Frustrated or in Flow and Happy: Sensing Developers' Emotions and Progress,' 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering, Florence, Italy, 2015, pp. 688-699, doi: 10.1109/ICSE.2015.334.}"
+[6-sfer-ezikiw]: https://doi.org/10.1109/ICSE.2015.334 "Stuck and Frustrated or in Flow and Happy {S. C. Müller and T. Fritz, 'Stuck and Frustrated or in Flow and Happy: Sensing Developers' Emotions and Progress,' 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering, Florence, Italy, 2015, pp. 688-699, doi: 10.1109/ICSE.2015.334.}"
 
-[7]: https://www.oreilly.com/library/view/software-engineering-at/9781492082781/ "Time and Change {Titus Winters, Tom Manshreck, & Hyrum Wright. (2020). Time and Change. In Software Engineering at Google: Lessons Learned from Programming Over Time (Chap. 1). O'Reilly Media.}"
+[7-sfer-ezikiw]: https://www.oreilly.com/library/view/software-engineering-at/9781492082781/ "Time and Change {Titus Winters, Tom Manshreck, & Hyrum Wright. (2020). Time and Change. In Software Engineering at Google: Lessons Learned from Programming Over Time (Chap. 1). O'Reilly Media.}"
 
-[8]: https://doi.org/10.1145/1076211.1076215 "10.1145/1076211.1076215 {Gregory W. Bond. 2005. Software as art. Commun. ACM 48, 8 (August 2005), 118-124. doi:10.1145/1076211.1076215.}"
+[8-sfer-ezikiw]: https://doi.org/10.1145/1076211.1076215 "10.1145/1076211.1076215 {Gregory W. Bond. 2005. Software as art. Commun. ACM 48, 8 (August 2005), 118-124. doi:10.1145/1076211.1076215.}"
 
-[9]: https://doi.org/10.1109/MAHC.2003.1253887 "Lovelace & Babbage and the creation of the 1843 notes {J. Fuegi and J. Francis, 'Lovelace & Babbage and the creation of the 1843 notes,' in IEEE Annals of the History of Computing, vol. 25, no. 4, pp. 16-26, Oct.-Dec. 2003, doi: 10.1109/MAHC.2003.1253887.}"
+[9-sfer-ezikiw]: https://doi.org/10.1109/MAHC.2003.1253887 "Lovelace & Babbage and the creation of the 1843 notes {J. Fuegi and J. Francis, 'Lovelace & Babbage and the creation of the 1843 notes,' in IEEE Annals of the History of Computing, vol. 25, no. 4, pp. 16-26, Oct.-Dec. 2003, doi: 10.1109/MAHC.2003.1253887.}"
 
-[10]: https:// " Notes by AAL {Lovelace, A. A. (1843). Notes by AAL [Augusta Ada Lovelace]. Taylor's Scientific Memoirs 3: 666-731.}"
+[10-sfer-ezikiw]: https:// " Notes by AAL {Lovelace, A. A. (1843). Notes by AAL [Augusta Ada Lovelace]. Taylor's Scientific Memoirs 3: 666-731.}"
 
-[11]: https://doi.org/10.1016/j.scs.2016.03.013 "The development of a model of community garden benefits to wellbeing {Russell, S. C., Wilkinson, C. M., & Maddison, S. E. (2016). The development of a model of community garden benefits to wellbeing. Sustainable Cities and Society, 34(Part B), 1033-1042. doi:10.1016/j.scs.2016.03.013.}"
+[11-sfer-ezikiw]: https://doi.org/10.1016/j.scs.2016.03.013 "The development of a model of community garden benefits to wellbeing {Russell, S. C., Wilkinson, C. M., & Maddison, S. E. (2016). The development of a model of community garden benefits to wellbeing. Sustainable Cities and Society, 34(Part B), 1033-1042. doi:10.1016/j.scs.2016.03.013.}"
 
-[12]: https://doi.org/10.5840/thinking19888129 "Cognitive apprenticeship {Collins, A., Brown, J. S., & Newman, S. E. (1988). Cognitive apprenticeship: Teaching the craft of reading, writing and mathematics. Thinking: The journal of philosophy for children, 8(1), 2-10. doi:10.5840/thinking19888129.}"
+[12-sfer-ezikiw]: https://doi.org/10.5840/thinking19888129 "Cognitive apprenticeship {Collins, A., Brown, J. S., & Newman, S. E. (1988). Cognitive apprenticeship: Teaching the craft of reading, writing and mathematics. Thinking: The journal of philosophy for children, 8(1), 2-10. doi:10.5840/thinking19888129.}"
 
-[13]: https://www.nytimes.com/2023/01/12/science/thomas-zurbuchen-nasa-science.html "At NASA, Dr. Z Was OK With Some Missions Failing {Chang, K. (2023, January 12). At NASA, Dr. Z Was OK With Some Missions Failing. The New York Times.}"
+[13-sfer-ezikiw]: https://www.nytimes.com/2023/01/12/science/thomas-zurbuchen-nasa-science.html "At NASA, Dr. Z Was OK With Some Missions Failing {Chang, K. (2023, January 12). At NASA, Dr. Z Was OK With Some Missions Failing. The New York Times.}"
 
-[14]: https://doi.org/10.1109/MCSE.2019.2900945 "Dealing With Software Collapse {Hinsen, K. (2019). Dealing With Software Collapse. Computing in Science & Engineering, vol. 21, no. 3, pp. 104-108. doi: 10.1109/MCSE.2019.2900945.}"
+[14-sfer-ezikiw]: https://doi.org/10.1109/MCSE.2019.2900945 "Dealing With Software Collapse {Hinsen, K. (2019). Dealing With Software Collapse. Computing in Science & Engineering, vol. 21, no. 3, pp. 104-108. doi: 10.1109/MCSE.2019.2900945.}"
 
-[15]: https:// "The philosophical baby {Gopnik, A. (2009). The philosophical baby: What children's minds tell us about truth, love, and the meaning of life. Farrar, Straus and Giroux.}"
+[15-sfer-ezikiw]: https:// "The philosophical baby {Gopnik, A. (2009). The philosophical baby: What children's minds tell us about truth, love, and the meaning of life. Farrar, Straus and Giroux.}"
 
-[16]: https://learning.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/ "Building evolutionary architectures {Fisher, M. T., & Connor, M. J. (2023). Building evolutionary architectures: A practical guide to designing and evolving software systems. O'Reilly Media.}"
+[16-sfer-ezikiw]: https://learning.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/ "Building evolutionary architectures {Fisher, M. T., & Connor, M. J. (2023). Building evolutionary architectures: A practical guide to designing and evolving software systems. O'Reilly Media.}"
 
-[17]: https://www.oreilly.com/library/view/technology-strategy-patterns/9781492040866 "Technology Strategy Patterns {Hewitt, E. (2018). Technology Strategy Patterns. O'Reilly Media.}"
+[17-sfer-ezikiw]: https://www.oreilly.com/library/view/technology-strategy-patterns/9781492040866 "Technology Strategy Patterns {Hewitt, E. (2018). Technology Strategy Patterns. O'Reilly Media.}"<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Good enough practices in scientific computing"
+[2]: #sfer-ezikiw-2 "The Pragmatic Programmer"
+[3]: #sfer-ezikiw-3 "Tending Your Software Garden"
+[4]: #sfer-ezikiw-4 "Software Gardening Manifesto"
+[5]: #sfer-ezikiw-5 "Programming is gardening, not engineering"
+[6]: #sfer-ezikiw-6 "Stuck and Frustrated or in Flow and Happy"
+[7]: #sfer-ezikiw-7 "Time and Change"
+[8]: #sfer-ezikiw-8 "10.1145/1076211.1076215"
+[9]: #sfer-ezikiw-9 "Lovelace & Babbage and the creation of the 1843 notes"
+[10]: #sfer-ezikiw-10 "Notes by AAL"
+[11]: #sfer-ezikiw-11 "The development of a model of community garden benefits to wellbeing"
+[12]: #sfer-ezikiw-12 "Cognitive apprenticeship"
+[13]: #sfer-ezikiw-13 "At NASA, Dr. Z Was OK With Some Missions Failing"
+[14]: #sfer-ezikiw-14 "Dealing With Software Collapse"
+[15]: #sfer-ezikiw-15 "The philosophical baby"
+[16]: #sfer-ezikiw-16 "Building evolutionary architectures"
+[17]: #sfer-ezikiw-17 "Technology Strategy Patterns"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Good enough practices in scientific computing<br>Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017). Good enough practices in scientific computing. PLOS Computational Biology 13(6): e1005510. doi:10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[The Pragmatic Programmer<br>Hunt, A., & Thomas, D. The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley.](https://learning.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Tending Your Software Garden<br>Atwood, Jeff. 'Tending Your Software Garden.' Coding Horror, 2 Dec. 2008.](https://blog.codinghorror.com/tending-your-software-garden/)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Software Gardening Manifesto<br>Papapetrou, P. (2019, February 19). Software Gardening Manifesto.](https://www.linkedin.com/pulse/software-gardening-manifesto-patroklos-papapetrou)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Programming is gardening, not engineering<br>Hunt, A., & Thomas, D. (2000, May 17). Programming is gardening, not engineering. Retrieved May 16, 2023.](https://www.artima.com/articles/programming-is-gardening-not-engineering)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Stuck and Frustrated or in Flow and Happy<br>S. C. Müller and T. Fritz, 'Stuck and Frustrated or in Flow and Happy: Sensing Developers' Emotions and Progress,' 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering, Florence, Italy, 2015, pp. 688-699, doi: 10.1109/ICSE.2015.334.](https://doi.org/10.1109/ICSE.2015.334)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Time and Change<br>Titus Winters, Tom Manshreck, & Hyrum Wright. (2020). Time and Change. In Software Engineering at Google: Lessons Learned from Programming Over Time (Chap. 1). O'Reilly Media.](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[10.1145/1076211.1076215<br>Gregory W. Bond. 2005. Software as art. Commun. ACM 48, 8 (August 2005), 118-124. doi:10.1145/1076211.1076215.](https://doi.org/10.1145/1076211.1076215)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[Lovelace & Babbage and the creation of the 1843 notes<br>J. Fuegi and J. Francis, 'Lovelace & Babbage and the creation of the 1843 notes,' in IEEE Annals of the History of Computing, vol. 25, no. 4, pp. 16-26, Oct.-Dec. 2003, doi: 10.1109/MAHC.2003.1253887.](https://doi.org/10.1109/MAHC.2003.1253887)
+* <a name="sfer-ezikiw-10"></a><sup>10</sup>[Notes by AAL<br>Lovelace, A. A. (1843). Notes by AAL [Augusta Ada Lovelace]. Taylor's Scientific Memoirs 3: 666-731.](https://)
+* <a name="sfer-ezikiw-11"></a><sup>11</sup>[The development of a model of community garden benefits to wellbeing<br>Russell, S. C., Wilkinson, C. M., & Maddison, S. E. (2016). The development of a model of community garden benefits to wellbeing. Sustainable Cities and Society, 34(Part B), 1033-1042. doi:10.1016/j.scs.2016.03.013.](https://doi.org/10.1016/j.scs.2016.03.013)
+* <a name="sfer-ezikiw-12"></a><sup>12</sup>[Cognitive apprenticeship<br>Collins, A., Brown, J. S., & Newman, S. E. (1988). Cognitive apprenticeship: Teaching the craft of reading, writing and mathematics. Thinking: The journal of philosophy for children, 8(1), 2-10. doi:10.5840/thinking19888129.](https://doi.org/10.5840/thinking19888129)
+* <a name="sfer-ezikiw-13"></a><sup>13</sup>[At NASA, Dr. Z Was OK With Some Missions Failing<br>Chang, K. (2023, January 12). At NASA, Dr. Z Was OK With Some Missions Failing. The New York Times.](https://www.nytimes.com/2023/01/12/science/thomas-zurbuchen-nasa-science.html)
+* <a name="sfer-ezikiw-14"></a><sup>14</sup>[Dealing With Software Collapse<br>Hinsen, K. (2019). Dealing With Software Collapse. Computing in Science & Engineering, vol. 21, no. 3, pp. 104-108. doi: 10.1109/MCSE.2019.2900945.](https://doi.org/10.1109/MCSE.2019.2900945)
+* <a name="sfer-ezikiw-15"></a><sup>15</sup>[The philosophical baby<br>Gopnik, A. (2009). The philosophical baby: What children's minds tell us about truth, love, and the meaning of life. Farrar, Straus and Giroux.](https://)
+* <a name="sfer-ezikiw-16"></a><sup>16</sup>[Building evolutionary architectures<br>Fisher, M. T., & Connor, M. J. (2023). Building evolutionary architectures: A practical guide to designing and evolving software systems. O'Reilly Media.](https://learning.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/)
+* <a name="sfer-ezikiw-17"></a><sup>17</sup>[Technology Strategy Patterns<br>Hewitt, E. (2018). Technology Strategy Patterns. O'Reilly Media.](https://www.oreilly.com/library/view/technology-strategy-patterns/9781492040866)
