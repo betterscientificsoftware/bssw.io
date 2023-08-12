@@ -304,9 +304,6 @@ Publish: yes
 Topics: software process improvement, software engineering, software sustainability, development tools, refactoring
 --->
 
-
-### New references
-
 [1]: https://doi.org/10.1371/journal.pcbi.1005510 "Good enough practices in scientific computing {Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017). Good enough practices in scientific computing. PLOS Computational Biology 13(6): e1005510. doi:10.1371/journal.pcbi.1005510}"
 
 [2]: https://learning.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/ "The Pragmatic Programmer {Hunt, A., & Thomas, D. The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley.}"
