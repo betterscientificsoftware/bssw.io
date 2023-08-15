@@ -17,7 +17,7 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 <br>
 
-<!-- <img src='../../images/Blog_2208_FellowsAppOpen.png'/> -->
+<img src='../../images/Blog_2208_FellowsAppOpen.png'/>
 
 <br>
 
@@ -56,6 +56,8 @@ Better Scientific Software is an organization dedicated to improving developer p
 
 ### Author bio
 Elsa Gonsiorowski is deputy coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
+
+<br> 
 
 **The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
 
