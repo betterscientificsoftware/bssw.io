@@ -19,7 +19,7 @@ More questions and answers will be added to this page over time; check back for 
 
 ### Is a particular format required for the proposal?
 
-Yes, please see the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for details, including a link to the application form.
+Yes, please see the [BSSw Fellowship Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for details, including a link to the application form.
 
 ### What is the difference between the two "Experience" questions on the application form?
 
