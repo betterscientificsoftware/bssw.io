@@ -17,8 +17,7 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 <br>
 
-<!-- TODO: Needs new hero image, ALSO update metadata at end of document -->
-<!-- <img src='../../images/XXXX'/> -->
+<!-- <img src='../../images/Blog_2208_FellowsAppOpen.png'/> -->
 
 <br>
 
