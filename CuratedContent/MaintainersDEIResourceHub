@@ -1,0 +1,28 @@
+# Announcing the launch of the All In for Maintainers DEI Resource Hub
+
+<!--deck text start-->
+Following the 2020 initiative, allinopensource.org, emphasizing diversity, equity, and inclusion within the open source community; a new DEI program/ResourceHub has been created for Maintainers and their particular issues and needs. 
+<!--deck text end-->
+
+#### Contributed by [Deborah Stevens](https://github.com/haikudeb)
+#### Publication date: August 15, 2023
+
+Resource information | Details 
+:--- | :--- 
+Resource name | Announcing the Launch of the All In for Maintainers DEI Resource Hub
+Website  | [https://github.blog/2023-02-01-announcing-the-launch-of-the-all-in-for-maintainers-dei-resource-hub/](https://github.blog/2023-02-01-announcing-the-launch-of-the-all-in-for-maintainers-dei-resource-hub/)
+Focus | Maintainer Resources
+
+Maintainers might be seen as holding the keys to the kingdom of open source, but the support for those behind the software has been lacking. The All in for Maintainers resource provides the community a curated selection of tools and solutions for enhancing DEI. Survey results from 2021 (https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source) supported by the Linux foundation show that a primary concern is a reliable source for advancing inclusion. This is the focus for the All In for Maintainers DEI Resource Hub. 
+
+Building on the survey of over 7000 responders, a Maintainers Listening Tour was completed in 2022. The Listening Tour consisted of focus groups, interviews, and meetings of 300+ maintainers and community leaders resulting in the focused creation of the new Maintainers DEI Resource Hub. Topics include accessibility, addressing burnout and wellbeing, sustainable code of conduct enforcement among others. The presentation and readability of this resource hub stands out and is worth examination. 
+
+The Data section of the website points out that the goal is “A community dedicated to advancing diversity, equity, and inclusion within open source.” The GitHub repo for {all in} is https://github.com/AllInOpenSource/All-In/blob/main/README.md 
+
+
+<!---
+Publish: yes
+Topics: projects and organizations, inclusivity, online learning
+Pinned: no
+RSS update: 2023-08-15
+--->
