@@ -33,13 +33,15 @@ No, applications of current BSSw Fellows will not be considered for awards in fu
 
 ### What is the difference between a Fellow and an Honorable Mention?
 
-Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, mentorship and community building opportunities.  Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw.  Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
+Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, NSF sites, mentorship, and community building opportunities. Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
+<!-- Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw. -->
+
 
 ### What are application review criteria?
 
 Applications are reviewed by a panel of diverse members of the CSE community using the following guiding criteria:
 
-* The proposed work is relevant to scientific software and can benefit the [DOE, ECP](https://bssw.io/communities/exascale-computing-community), and/or [NSF](https://www.nsf.gov/dir/index.jsp?org=OAC), and the broader [HPC](https://bssw.io/pages/intro-to-hpc) and [CSE](https://bssw.io/pages/intro-to-cse) communities
+* The proposed work is relevant to scientific software and can benefit the [DOE](https://bssw.io/communities/exascale-computing-community) and/or [NSF](https://www.nsf.gov/dir/index.jsp?org=OAC), and the broader [HPC](https://bssw.io/pages/intro-to-hpc) and [CSE](https://bssw.io/pages/intro-to-cse) communities
 * The proposed work is well-scoped and likely to be accomplished within the year-long period of performance.
 * The proposed work has broad impact that spans beyond a single community/event and results in one or more artifacts that are available beyond the fellowship period of performance.
 * The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
