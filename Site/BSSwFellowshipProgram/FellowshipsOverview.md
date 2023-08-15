@@ -70,5 +70,5 @@ We encourage applicants at all career stages, ranging from students through earl
 
 <!--
 Publish: yes
-OpenGraph image: OG_2109_BSSwFellowships.png
+OpenGraph image: Blog_2308_Fellows.png
 -->
