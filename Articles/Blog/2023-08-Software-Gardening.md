@@ -113,11 +113,11 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td colspan="3" ><strong>People: software gardener lattices</strong>
+   <td colspan="3" ><strong>People: Software gardener lattices</strong>
    </td>
   </tr>
   <tr>
-   <td>Lattice mapping: scientific software gardening methods
+   <td>Lattice mapping: Scientific software gardening methods
    </td>
    <td>Use the scientific method to understand and build software gardens.
    </td>
@@ -134,7 +134,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td>Growing together: cognitive apprenticeship
+   <td>Growing together: Cognitive apprenticeship
    </td>
    <td>Work with others in the context of learning opportunities, leveraging cognitive apprenticeship techniques and similar.
    </td>
@@ -151,7 +151,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td>Ascendant fortitude: courage, vulnerability, and resilience
+   <td>Ascendant fortitude: Courage, vulnerability, and resilience
    </td>
    <td>Embody bravery and vulnerability to overcome uncertainty and grow within software gardens.
    </td>
@@ -172,7 +172,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td>Living fences: environmental boundaries and replicability
+   <td>Living fences: Environmental boundaries and replicability
    </td>
    <td>Use environment managers by default to build protected, replicable contexts for your software garden.
    </td>
@@ -189,7 +189,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td>Adventitious code: software development velocity and linting
+   <td>Adventitious code: Software development velocity and linting
    </td>
    <td>Add and require software linting tools to weed out inconsistent, obsolete, or dangerous code "volunteers" which may naturally appear.
    </td>
@@ -208,7 +208,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td>Multi-generational adaptation: surviving through fluidity
+   <td>Multi-generational adaptation: Surviving through fluidity
    </td>
    <td>Use abstraction and fitness testing to keep and ensure code flexibility by design and goal alignment. Remove code that becomes disintegrated or overly complex.
    </td>
@@ -225,11 +225,11 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td colspan="3" ><strong>Season: software archeology, nowness, and proactivity</strong>
+   <td colspan="3" ><strong>Season: Software archeology, nowness, and proactivity</strong>
    </td>
   </tr>
   <tr>
-   <td>Software archeology: wisdom of the ancients
+   <td>Software archeology: Wisdom of the ancients
    </td>
    <td>Hark past development by using existing software to full potential, reference existing implementations, and remove archived or otherwise "dead" code.
    </td>
@@ -246,7 +246,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td>Nowness rooting: code maintenance kairos
+   <td>Nowness rooting: Code maintenance kairos
    </td>
    <td>Orient work towards what needs to happen today, respecting that our conception of the present consistently shifts.
    </td>
@@ -263,7 +263,7 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
    </td>
   </tr>
   <tr>
-   <td>Garden proactivity: anticipating and preparatory growth
+   <td>Garden proactivity: Anticipating and preparatory growth
    </td>
    <td>Hope for the best and plan for the worst, setting aspirational but measurable goals and avoiding known risks, weaknesses, or threats by observing them in your software garden planning.
    </td>
