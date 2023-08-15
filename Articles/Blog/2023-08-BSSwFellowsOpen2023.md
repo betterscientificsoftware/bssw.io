@@ -49,9 +49,11 @@ Better Scientific Software is an organization dedicated to improving developer p
 ### Current and past BSSw Fellows are:
 
 - [Providing information on projects and perspectives (2022 BSSw Fellows)](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
+- [Advancing software productivity and sustainability via ongoing projects (2023 BSSw Fellows)](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)
 - [Providing information on projects and perspectives (2021 BSSw Fellows)](https://bssw.io/blog_posts/2021-bssw-fellows-projects-and-perspectives)
-- [Guiding developers through each stage of the scientific software lifecycle](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle)
-- [Tackling scientific productivity challenges](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges)
+- [Providing information on projects and perspectives (2020 BSSw Fellows)](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives)
+- [Guiding developers through each stage of the scientific software lifecycle (2019 BSSw Fellows)](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle)
+- [Tackling scientific productivity challenges (2018 BSSw Fellows)](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges)
 - And more!  [Check out how each of our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
 
 ### Author bio
