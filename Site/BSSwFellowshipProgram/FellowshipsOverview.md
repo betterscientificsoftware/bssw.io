@@ -39,7 +39,7 @@ We encourage applicants at all career stages, ranging from students through earl
 ### More Information
 
 - Read about work of the [2022 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
-- Read about the [2022 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2022-bssw-fellows)
+- Read about the [2023 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)
 - Read about work of the [2021 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2021-bssw-fellows-projects-and-perspectives)
 - Read about the [2021 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2021-bssw-fellows) and new [NSF-sponsorship of 2021 BSSw Fellows](https://bssw.io/blog_posts/nsf-sponsored-2021-bssw-fellows)
 

@@ -17,7 +17,7 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 <br>
 
-<img src='../../images/Blog_2208_FellowsAppOpen.png'/>
+<img src='../../images/Blog_2308_Fellows.png'/>
 
 <br>
 
@@ -76,5 +76,5 @@ Publish: yes
 Pinned: no
 Topics: Funding sources and programs, projects and organizations
 RSS update: 2023-08-15
-OpenGraph image: Blog_2208_FellowsAppOpen.png
+OpenGraph image: Blog_2308_Fellows.png
 --->
