@@ -68,7 +68,7 @@ Applications are now being accepted for the 2024 BSSw Fellowship Program.  Submi
 
 <br>
 
-**The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
+**The BSSw Fellowship Program is sponsored by the U.S. Department of Energy and National Science Foundation.**
 
 <div class='fellow'>
 <div class='img_div'>
