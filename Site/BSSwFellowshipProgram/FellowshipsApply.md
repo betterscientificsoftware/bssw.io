@@ -82,5 +82,5 @@ Applications are now being accepted for the 2024 BSSw Fellowship Program.  Submi
 
 <!--
 Publish: yes
-OpenGraph image: OG_2109_BSSwFellowships.png
+OpenGraph image: Blog_2308_Fellows.png
 -->
