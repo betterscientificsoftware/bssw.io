@@ -1,8 +1,8 @@
-# WIKIZED: Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems
+# Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems
 
 #### Contributed by: [Dave Bunten](https://github.com/d33bs) and [Gregory P. Way](https://github.com/gwaybio)
 
-#### Publication date: August 15, 2023
+#### Publication date: August 16, 2023
 
 <!-- start of deck text -->
 Software development is often described as a craft, such as carpentry.  This article follows a different path, exploring gardening as an analogy for the development and stewardship of research software.
