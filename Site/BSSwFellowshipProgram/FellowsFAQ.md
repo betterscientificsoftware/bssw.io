@@ -65,7 +65,7 @@ Each 2024 BSSw Fellow will receive up to $25,000 for an activity that promotes b
 
 ### How are the funds awarded?  When do I submit budget information?
 
-The Fellowship award will be in the form of a subcontract to the recipient's institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  You should familiarize yourself with your organizations budget process.
+The Fellowship award will be in the form of a subcontract to the recipient's institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  You should familiarize yourself with your organization's budget process.
 
 ### Are there any restrictions or guidance on how the fellowship funds can be used?
 
