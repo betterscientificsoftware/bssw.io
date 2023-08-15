@@ -13,7 +13,7 @@ Submissions for the 2024 BSSw Fellowship Program are accepted through the [onlin
 <!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2023 for info about the 2024 application process. -->
 
 - **Tuesday, August 15, 2023**: Fellowship application process opens.
-- **Tuesday, Sept 12, 2:00-3:00 pm EDT** Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
+- **Tuesday, Sept 12, 2:00-3:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Friday, Sept 29, 2023**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **December 2023**: Announcement of selection of 2024 BSSw Fellows.
 - **March 1, 2024 – March 31, 2025**: Period of performance for 2024 BSSw Fellows.
