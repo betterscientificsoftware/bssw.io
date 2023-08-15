@@ -332,7 +332,7 @@ Topics: software process improvement, software engineering, software sustainabil
 
 [14]: https://doi.org/10.1109/MCSE.2019.2900945 "Dealing With Software Collapse {Hinsen, K. (2019). Dealing With Software Collapse. Computing in Science & Engineering, vol. 21, no. 3, pp. 104-108. doi: 10.1109/MCSE.2019.2900945.}"
 
-[15]: https:// "The philosophical baby {Gopnik, A. (2009). The philosophical baby: What children's minds tell us about truth, love, and the meaning of life. Farrar, Straus and Giroux.}"
+[15]: https://us.macmillan.com/books/9780312429843/the-philosophical-baby "The philosophical baby {Gopnik, A. (2009). The philosophical baby: What children's minds tell us about truth, love, and the meaning of life. Farrar, Straus and Giroux.}"
 
 [16]: https://learning.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/ "Building evolutionary architectures {Fisher, M. T., & Connor, M. J. (2023). Building evolutionary architectures: A practical guide to designing and evolving software systems. O'Reilly Media.}"
 
