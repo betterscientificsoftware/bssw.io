@@ -3,16 +3,17 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../images/Featured_2307_BSSwFellowsB.png
-Slide1 R: ../Articles/Blog/2023-07-BSSwFellows2022.md
-Slide2 L: ../images/Blog_2307_io.png
-Slide2 R: ../Articles/Blog/2023-07-optimizing_io.md
-Slide3 L: ../CuratedContent/CuratedContent/TuringWay.md
-Slide3 R: ../CuratedContent/ScienceAsAmateurSoftwareDevelopment.md
-Slide4 L: ../CuratedContent/bssw-tutorials.md
-Slide4 R: ../Events/2023-repro-climate.md
-Slide5 L: ../Events/hpcbp-077-ci4hpc.md
-Slide5 R: ../Events/2023-sc23-correctness.md
+
+Slide1 L: ../images/Blog_2308_Fellows.png
+Slide1 R: ../Articles/Blog/2023-08-BSSwFellowsOpen2023.md
+Slide2 L: ../images/Featured_2307_BSSwFellowsB.png
+Slide2 R: ../Articles/Blog/2023-07-BSSwFellows2022.md
+Slide3 L: ../images/Blog_2307_io.png
+Slide3 R: ../Articles/Blog/2023-07-optimizing_io.md
+Slide4 L: ../CuratedContent/CuratedContent/TuringWay.md
+Slide4 R: ../CuratedContent/ScienceAsAmateurSoftwareDevelopment.md
+Slide5 L: ../CuratedContent/bssw-tutorials.md
+Slide5 R: ../Events/2023-repro-climate.md
 --->
 
 <!---
