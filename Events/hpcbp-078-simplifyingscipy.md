@@ -36,7 +36,7 @@ high-performance computers (HPC) and occur approximately monthly.
 Resource Information | Details
 :--- | :---			   
 Webinar Title | Simplifying Scientific Python Package Installation and Usage
-Date and Time | 2023-09-13 01:00 pm WTZ
+Date and Time | 2023-09-13 01:00 pm EDT
 Presenter | Amiya Maji (Purdue University)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar078>	   
 
