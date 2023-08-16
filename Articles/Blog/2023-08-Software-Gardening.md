@@ -26,7 +26,7 @@ Healthy ecosystems in the natural world enable organisms to thrive through conti
 2. [Code: Software gardening senescence (practices regarding the effects of time on Software)](#code-software-gardening-senescence)
 3. [Season: Software archeology, nowness, and proactivity (practices regarding software past, present, and future)](#season-software-archeology-nowness-and-proactivity)
 
-### People: software gardener lattices
+### People: Software gardener lattices
 
 <img id="fig-3" src='../../images/Blog_2307_829px-Trellis_MET_DT255077-cropped.jpg' class='page lightbox' />[Figure 3. Software Gardeners are the lattices in which a software garden expands upwards.]
 
