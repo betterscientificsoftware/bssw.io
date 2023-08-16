@@ -6,7 +6,10 @@ BSSw is currently accepting applications for the 2024 BSSw Fellowship Program.
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.
 
-Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/14X8uWY6asoEPD828).
+<!--
+Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/14X8uWY6asoEPD828). -->
+
+Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSchRIsNEFZlg8RyEAWcKcOStgwqW5UR7S_9TW2dKlbUATid-g/viewform).
 
 ### Timeline for 2024 BSSw Fellowship Program
 
