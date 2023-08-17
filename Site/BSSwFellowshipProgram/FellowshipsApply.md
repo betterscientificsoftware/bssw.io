@@ -6,14 +6,17 @@ BSSw is currently accepting applications for the 2024 BSSw Fellowship Program.
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.
 
-Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/14X8uWY6asoEPD828).
+<!--
+Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://forms.gle/14X8uWY6asoEPD828). -->
+
+Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSchRIsNEFZlg8RyEAWcKcOStgwqW5UR7S_9TW2dKlbUATid-g/viewform).
 
 ### Timeline for 2024 BSSw Fellowship Program
 
 <!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2023 for info about the 2024 application process. -->
 
 - **Tuesday, August 15, 2023**: Fellowship application process opens.
-- **Tuesday, Sept 12, 2:00-3:00 pm EDT** Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
+- **Tuesday, Sept 12, 2:00-3:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Friday, Sept 29, 2023**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **December 2023**: Announcement of selection of 2024 BSSw Fellows.
 - **March 1, 2024 – March 31, 2025**: Period of performance for 2024 BSSw Fellows.
@@ -68,7 +71,7 @@ Applications are now being accepted for the 2024 BSSw Fellowship Program.  Submi
 
 <br>
 
-**The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
+**The BSSw Fellowship Program is sponsored by the U.S. Department of Energy and National Science Foundation.**
 
 <div class='fellow'>
 <div class='img_div'>

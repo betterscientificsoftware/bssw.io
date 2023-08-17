@@ -42,6 +42,7 @@ We encourage applicants at all career stages, ranging from students through earl
 - Read about the [2023 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)
 - Read about work of the [2021 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2021-bssw-fellows-projects-and-perspectives)
 - Read about the [2021 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2021-bssw-fellows) and new [NSF-sponsorship of 2021 BSSw Fellows](https://bssw.io/blog_posts/nsf-sponsored-2021-bssw-fellows)
+- More info about work and perspectives of the [2020 BSSw Fellows](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives), [2019 BSSw Fellows](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle), and [2018 BSSw Fellows](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges)
 
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq) ... Check back for updates; we will post additional Q&A here as these arise.
 - If you have additional questions, please contact us at <info@bssw.io>.

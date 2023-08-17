@@ -4,7 +4,7 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar
 
-- Tuesday, September 12, 2:00-3:00 pm EDT
+- **Tuesday, September 12, 2:00-3:00 pm EDT**
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
 <!-- Slides & Recording for 2023 Fellowship:  Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.21070990) / Recording: [(slides/audio)](https://krellinst-org.zoom.us/rec/share/KlPlcT_G9hh16hDiG9cBshkOpYraDrf521ZvcSWz_C5sZwRQgiSPhEEfwVmFpNRf.a4moIYAA09e8phJC) -->
@@ -19,7 +19,7 @@ More questions and answers will be added to this page over time; check back for 
 
 ### Is a particular format required for the proposal?
 
-Yes, please see the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for details, including a link to the application form.
+Yes, please see the [BSSw Fellowship Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for details, including a link to the application form.
 
 ### What is the difference between the two "Experience" questions on the application form?
 
@@ -33,13 +33,15 @@ No, applications of current BSSw Fellows will not be considered for awards in fu
 
 ### What is the difference between a Fellow and an Honorable Mention?
 
-Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, mentorship and community building opportunities.  Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw.  Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
+Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, NSF sites, mentorship, and community building opportunities. Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
+<!-- Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw. -->
+
 
 ### What are application review criteria?
 
 Applications are reviewed by a panel of diverse members of the CSE community using the following guiding criteria:
 
-* The proposed work is relevant to scientific software and can benefit the [DOE, ECP](https://bssw.io/communities/exascale-computing-community), and/or [NSF](https://www.nsf.gov/dir/index.jsp?org=OAC), and the broader [HPC](https://bssw.io/pages/intro-to-hpc) and [CSE](https://bssw.io/pages/intro-to-cse) communities
+* The proposed work is relevant to scientific software and can benefit the [DOE](https://bssw.io/communities/exascale-computing-community) and/or [NSF](https://www.nsf.gov/dir/index.jsp?org=OAC), and the broader [HPC](https://bssw.io/pages/intro-to-hpc) and [CSE](https://bssw.io/pages/intro-to-cse) communities
 * The proposed work is well-scoped and likely to be accomplished within the year-long period of performance.
 * The proposed work has broad impact that spans beyond a single community/event and results in one or more artifacts that are available beyond the fellowship period of performance.
 * The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
@@ -175,5 +177,4 @@ The goal of the BSSw organization is to foster a broad, international community 
 <!--
 Publish: yes
 OpenGraph image: Blog_2308_Fellows.png
-Old OpenGraph image: OG_2109_BSSwFellowships.png
 -->
