@@ -1,5 +1,6 @@
 # Kitchen-sink blog test
 
+#### Contributed by: [Axel Huebl](https://github.com/ax3l)
 #### Publication date: August 18, 2023
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
