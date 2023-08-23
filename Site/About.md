@@ -42,6 +42,12 @@ Mark C. Miller<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
 
+Deborah Stevens<br/>
+Argonne National Laboratory<br/>
+https://github.com/haikudeb
+
+## BSSw Alumni
+
 Jean Shuler<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/JeanShuler
@@ -53,8 +59,6 @@ https://github.com/jarrah42
 Paul Wolfenbarger<br/>
 Sandia National Laboratories<br/>
 https://github.com/prwolfe
-
-### Editorial Assistant
 
 Kasia Salim<br/>
 Argonne National Laboratory<br/>
