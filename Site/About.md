@@ -54,12 +54,13 @@ https://github.com/haikudeb
 **[Parallactic Consulting](https://parallactic.com/)** established the custom content management system and GitHub integration developed with Ruby on Rails. Parallactic continues to support, maintain, and improve the site functionality. Parallactic is a small web development & data architecture company.
 
 
+
 ## BSSw Alumni
 
-* Jean Shuler, Lawrence Livermore National Laboratory
-* Greg Watson, Oak Ridge National Laboratory
-* Paul Wolfenbarger, Sandia National Laboratories
-* Kasia Salim, Argonne National Laboratory
+**Jean Shuler**, Lawrence Livermore National Laboratory<br/>
+**Greg Watson**, Oak Ridge National Laboratory<br/>
+**Paul Wolfenbarger**, Sandia National Laboratories<br/>
+**Kasia Salim**, Argonne National Laboratory<br/>
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
