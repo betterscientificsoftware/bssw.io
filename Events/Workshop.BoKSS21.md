@@ -37,6 +37,6 @@ Workshop papers will use a single blind submission process. All submitted papers
 <!---
 Publish: yes
 Pinned: no
-Topics: conferences and workshops
+Topics: conferences and workshops, Software Sustainability
 RSS update: 2020-12-17
 --->
