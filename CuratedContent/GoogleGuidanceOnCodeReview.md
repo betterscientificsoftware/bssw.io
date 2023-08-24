@@ -18,33 +18,35 @@ Thousands of Google developers write and modify hundreds of millions of lines of
 The guidelines are consistent with many aspects of Agile and Lean software development methodologies, and this guide can help to highlight and teach many of these principles.
 
 In the Google Code Review Developers Guide, reviewers are directed to focus on design, functionality, complexity, tests, naming, comments, style, and documentation for changes to the set of code and related artifices under review.
-These review artifacts are called a *Change List* (CL) and correspond to a single Git commit (i.e., an atom related set of changes with a specific purpose).
-(Most of Google's code is managed with a highly customized version control tool called Perforce, and Perforce uses the term *changelist* to describe a set of related changes to a set of files.)
+
+In this Google guide, review artifacts are organized into different *Change Lists* (CLs) where a CL is an atomic set of related changes in the Perforce version control tool (for which Google uses a highly scalable, customized version of Perforce for its online code suite).
+A CL corresponds for a Git Commit for readers more familiar with the Git version control tool.
+Below, we use "CL/commit" to represent these smallest units of review artifacts (where the Google guide just refers to them as "CLs").
 
 The Google Code Review Developer Guide provides guidance on how to pick good reviewers.
 It also allows for in-person reviews and pair-programming reviews (i.e., real-time reviews by a pair of programmers as the code is being designed and written).
 
-Some examples of the good guidance in this developer guide include (in which "Commit" has been substituted for "CL" in the Google Developers Guide):
+Some examples of the good guidance in this developer guide include:
 
-* In general, reviewers should favor approving a commit once it is in a state where it definitely improves the overall code health of the system being worked on, even if the commit isn’t perfect.
+* In general, reviewers should favor approving a CL/commit once it is in a state where it definitely improves the overall code health of the system being worked on, even if the CL/commit isn’t perfect.
 
 * Reviews are an opportunity to mentor developers and pass along user information.
 
-* Don’t let a commit sit around because the author and the reviewer can’t come to an agreement.
+* Don’t let a CL/commit sit around because the author and the reviewer can’t come to an agreement.
 
 * Implement only what is needed now and not speculative functionality (e.g., don't over engineer the code).
 
-* Tests and documentation changes should be in the same commit as the code changes.
+* Tests and documentation changes should be in the same CL/commit as the code changes.
 
-* Every human-written line in every file in a commit should be reviewed.
+* Every human-written line in every file in a CL/commit should be reviewed.
 
-* Praise the developer when you see something good in the commit (positive reinforcement helps to offset requests for changes and is a powerful motivator).
+* Praise the developer when you see something good in the CL/commit (positive reinforcement helps to offset requests for changes and is a powerful motivator).
 
 * Be courteous and respectful.
 
-* Ask people to suggest changes before they post new commits (in case you have been rejecting many commits).
+* Ask people to suggest changes before they post new CLs/commits (in case you have been rejecting many CLs/commits).
 
-* Split large commits into smaller, more cohesive commits.
+* Split large CLs/commits into smaller, more cohesive CLs/commits.
 
 * If there is a major design problem, don't bother doing a line-by-line review.
 
@@ -56,7 +58,7 @@ Some examples of the good guidance in this developer guide include (in which "Co
 
 * Encourage developers to simplify code or add code comments instead of just explaining the complexity to you.
 
-* In general, it is the developer’s responsibility to fix a commit, not the reviewer’s.
+* In general, it is the developer’s responsibility to fix a CL/commit, not the reviewer’s.
 
 * It is usually best to insist that the developer clean up their CL now, before the code is in the codebase and "done". (Letting people "clean things up later" is a common way for codebases to degenerate.)
 
