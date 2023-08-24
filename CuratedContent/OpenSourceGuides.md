@@ -23,7 +23,6 @@ While the site is created/curated by GitHub, it is not exclusive to GitHub produ
 
 <!---
 Publish: yes
-Categories: collaboration, planning, development
-Topics: Projects and organizations, Personal productivity and sustainability, Online learning
+Topics: Projects and organizations, Software Engineering, Online learning
 RSS update: 2021-01-27
 --->

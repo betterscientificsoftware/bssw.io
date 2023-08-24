@@ -27,10 +27,5 @@ The Call for Contributions form will remain open continuously and there will be 
 
 <!---
 Publish: yes
-Categories: skills, collaboration
-Topics: personal productivity and sustainability, projects and organizations
-Tags: conference
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: Research Software Engineers, projects and organizations
 --->

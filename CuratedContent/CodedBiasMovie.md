@@ -53,6 +53,6 @@ December 14th 2020.
 Publish: yes
 Pinned: no
 RSS update: 2020-09-12
-Topics: inclusivity, personal productivity and sustainability
+Topics: inclusivity
 --->
 
