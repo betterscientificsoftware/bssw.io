@@ -128,7 +128,7 @@ The *[Ford Foundation](https://www.fordfoundation.org)* has [grants](https://www
 
 <!---
 Publish: yes
-Topics: Licensing, Strategies for more effective teams, Funding sources and programs
+Topics: Licensing, Strategies for more effective teams, Funding sources and programs, Software Sustainability
 Pinned: no
 RSS update: 2020-11-24
 --->
