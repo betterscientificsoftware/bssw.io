@@ -23,10 +23,5 @@ As per the *SSI* manifesto, the *Software Sustainability Institute* represents t
 
 <!---
 Publish: yes
-Categories: Collaboration
-Topics: Projects and organizations
-Tags: organization, project
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Topics: Projects and organizations, Software Sustainability
 --->
