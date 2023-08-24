@@ -42,29 +42,25 @@ Mark C. Miller<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
 
-Jean Shuler<br/>
-Lawrence Livermore National Laboratory<br/>
-https://github.com/JeanShuler
-
-Greg Watson<br/>
-Oak Ridge National Laboratory<br/>
-https://github.com/jarrah42
-
-Paul Wolfenbarger<br/>
-Sandia National Laboratories<br/>
-https://github.com/prwolfe
-
-### Editorial Assistant
-
-Kasia Salim<br/>
+Deborah Stevens<br/>
 Argonne National Laboratory<br/>
-https://github.com/karbarz
+https://github.com/haikudeb
+
 
 ## Partners
 
 **[Sandbox Studio, Chicago](https://sandboxstudio.net/)** established the BSSw visual brand, website interface design, and website strategy. Sandbox continues to maintain, support, and improve the website experience and site operation. Sandbox Studio is an interactive design, UX, branding, and web development firm.
 
 **[Parallactic Consulting](https://parallactic.com/)** established the custom content management system and GitHub integration developed with Ruby on Rails. Parallactic continues to support, maintain, and improve the site functionality. Parallactic is a small web development & data architecture company.
+
+
+
+## BSSw Alumni
+
+**Jean Shuler**, Lawrence Livermore National Laboratory<br/>
+**Greg Watson**, Oak Ridge National Laboratory<br/>
+**Paul Wolfenbarger**, Sandia National Laboratories<br/>
+**Kasia Salim**, Argonne National Laboratory<br/>
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
