@@ -33,6 +33,6 @@ While the range of topics covered is diverse, each topic has good non-overwhelmi
 <!---
 Publish: yes
 Pinned: no
-Topics: Projects and organizations, Personal productivity and sustainability, Online learning
+Topics: Online learning, Research Software Engineers, Software Engineering
 RSS update: 2023-02-08
 --->

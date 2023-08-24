@@ -39,7 +39,6 @@ and then read articles on individual SE practices as the need arises. This book 
 
 <!---
 Publish: yes
-Categories: Performance, Planning, Collaboration
-Topics: Software engineering, Development tools, Strategies for more effective teams, Personal productivity and sustainability
+Topics: Software engineering, Development tools, Strategies for more effective teams
 RSS update: 2021-01-24
 --->

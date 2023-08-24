@@ -38,7 +38,7 @@ The workshop organizers also welcome proposals for discussion topics. Proposals 
 
 <!---
 Publish: yes
-Topics: personal productivity and sustainability, projects and organizations
+Topics: Research Software Engineers, projects and organizations
 Pinned: no
 RSS update: 2020-06-30
 --->
