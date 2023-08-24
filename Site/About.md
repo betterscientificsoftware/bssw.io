@@ -55,7 +55,7 @@ https://github.com/haikudeb
 
 
 
-## BSSw Alumni
+## Editorial Team Alumni
 
 **Jean Shuler**, Lawrence Livermore National Laboratory<br/>
 **Greg Watson**, Oak Ridge National Laboratory<br/>
