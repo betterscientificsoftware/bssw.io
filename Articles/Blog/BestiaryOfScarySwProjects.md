@@ -61,10 +61,5 @@ Benjamin Cowan is a Senior Research Scientist at [Tech-X Corporation](https://ww
 
 <!---
 Publish: yes
-Categories: development
-Topics: release and deployment
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: release and deployment, Software Sustainability
 --->
