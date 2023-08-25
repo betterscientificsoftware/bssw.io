@@ -37,7 +37,7 @@ New training material in the form of Jupyter notebooks has recently been integra
 
 Another emerging use case for containers in workflows is to use a container to deploy the workflow system itself within the "science DMZ" of an HPC center. Several large DOE supercomputing facilities, such as the [Oak Ridge Leadership Computing Facility](https://www.olcf.ornl.gov/) (OLCF) and the [National Energy Research Scientific Computing Center](https://www.nersc.gov/) (NERSC), provide users access to a Kubernetes environment within their DMZ, that enables users to spin up containers from where they can submit jobs to the centers' HPC clusters.
 
-For Pegasus WMS there is now a [containerized setup](https://github.com/vahi/pegasus-annex/tree/main) for a "workflow submit host" with Pegasus and HTCondor installed. This container allows you to set up pilot jobs for your workflows using `htcondor annex` against supported HPC clusters. The workflow submit host does not run any compute jobs itself, but rather submits jobs to a remote cluster. The container is meant be to deployed on a host to which the compute nodes of the cluster to which you are submiting jobs to can connect back. The host can be within the science DMZ of the HPC facility or any system with a public IP address that allows the necessary inbound connections. An example of the former case would be deploying the container on the Spin Cluster at NERSC to submit jobs to Perlmutter. Instructions on how to do this can be found [here](https://github.com/vahi/pegasus-annex/blob/main/nersc/README.md).
+For Pegasus WMS there is now a [containerized setup](https://github.com/vahi/pegasus-annex/tree/main) for a "workflow submit host" with Pegasus and HTCondor installed. This container allows you to set up pilot jobs for your workflows using `htcondor annex` with supported HPC clusters. The workflow submit host does not run any compute jobs itself, but rather submits jobs to a remote cluster. The container is meant be to deployed on a host to which the compute nodes of the cluster to which you are submiting jobs to can connect back. The host can be within the science DMZ of the HPC facility or any system with a public IP address that allows the necessary inbound connections. An example of the former case would be deploying the container on the Spin Cluster at NERSC to submit jobs to Perlmutter. Instructions on how to do this can be found [here](https://github.com/vahi/pegasus-annex/blob/main/nersc/README.md).
 
 ### Author bio
 
@@ -45,5 +45,5 @@ Karan Vahi is a Senior Computer Scientist in the Science Automation Technologies
 
 <!---
 Publish: yes
-Topics: high performance computing (hpc), release and deployment
+Topics: high-performance computing (hpc), release and deployment
 --->
