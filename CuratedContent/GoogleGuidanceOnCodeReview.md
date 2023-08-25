@@ -5,7 +5,7 @@ Google provides a very nice summary of peer code review best practices, which is
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett GitHub Profile")
-#### Publication date: Aug 24, 2023
+#### Publication date: August 24, 2023
 
 Resource information | Details
 :--- | :--- 
