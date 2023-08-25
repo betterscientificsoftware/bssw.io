@@ -12,7 +12,6 @@ Book title | [Code Complete: A Practical Handbook of Software Construction, 2nd 
 Authors | Steve McConnell	
 Publication | 2004, ISBN-13: 978-0735619678, ISBN-10: 0735619670
 
-
 The book *Code Complete: A Practical Handbook of Software Construction (2nd edition)* should be fascinating reading for anyone working on code development projects.
 Although in a first approach the book's thickness may be a little intimidating -- 850+ pages -- its thickness is justified by its scope and depth.
 
@@ -29,7 +28,6 @@ The following is an interesting quote from the book: "It is not worth sacrificin
 While going through the book, the reader will find justifications for following software development practices that will certainly pay off -- justifications made in an enjoyable way, since the author is rather neutral in exposing facts and ideas.
 
 <img src='../images/book_bssw_code-complete.jpg' class='logo' />
-
 
 <!---
 Publish: yes
