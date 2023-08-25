@@ -1,11 +1,9 @@
 # Containers for Deploying Workflow Systems and Application Codes
-<!--- 
+
 **Hero Image:**
 
- - <img src='../../images/Blog_081318_SoftVer.png' />
- 
-The hero image must be this dimension ((1125 x 432 pixels); we can crop an image to the required size.  Put it in the `images/` directory of the bssw.io repo.
----> 
+ - <img src='../../images/Blog_2308_workflow.png' />
+
 #### Contributed by [Karan Vahi](https://github.com/vahi "Karan Vahi GitHub Profile")
 
 #### Publication date: August 29, 2023
