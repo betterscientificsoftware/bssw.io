@@ -5,7 +5,7 @@ Google provides a very nice summary of peer code review best practices, which is
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett GitHub Profile")
-#### Publication date: Aug 23, 2023
+#### Publication date: Aug 24, 2023
 
 Resource information | Details
 :--- | :--- 
@@ -20,7 +20,7 @@ The guidelines are consistent with many aspects of Agile and Lean software devel
 In the Google Code Review Developers Guide, reviewers are directed to focus on design, functionality, complexity, tests, naming, comments, style, and documentation for changes to the set of code and related artifices under review.
 
 In this Google guide, review artifacts are organized into different *Change Lists* (CLs) where a CL is an atomic set of related changes in the Perforce version control tool (for which Google uses a highly scalable, customized version of Perforce for its online code suite).
-A CL corresponds for a Git Commit for readers more familiar with the Git version control tool.
+A CL corresponds to a Git Commit for readers more familiar with the Git version control tool.
 Below, we use "CL/commit" to represent these smallest units of review artifacts (where the Google guide just refers to them as "CLs").
 
 The Google Code Review Developer Guide provides guidance on how to pick good reviewers.
@@ -71,5 +71,5 @@ Most developers and teams will likely learn a lot about peer code review best pr
 Publish: yes
 Pinned: no
 Topics: peer code review
-RSS update: 2023-08-23
+RSS update: 2023-08-24
 --->
