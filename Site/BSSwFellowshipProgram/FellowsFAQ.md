@@ -148,7 +148,7 @@ This venue for the 2024 Fellowship class is TBD.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
-Applicants must be affiliated with a U.S.-based institution that is able to receive funding from the U.S. Department of Energy. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. We encourage diverse applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
+Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. We encourage diverse applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
 
 ## General Questions
 
