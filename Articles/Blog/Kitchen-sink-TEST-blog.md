@@ -199,7 +199,7 @@ The following image calls test subdirectories in the images directory and filena
 
 
 <!---
-Publish: preview
+Publish: yes
 Categories: Planning, Reliability
 Topics: testing
 Slug: special-kitchen-sink-blog-url
