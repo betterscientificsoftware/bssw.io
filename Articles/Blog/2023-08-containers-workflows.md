@@ -6,7 +6,7 @@
 
 #### Contributed by [Karan Vahi](https://github.com/vahi "Karan Vahi GitHub Profile")
 
-#### Publication date: August 29, 2023
+#### Publication date: August 28, 2023
 
 <!--
 Use of containers to deploy workflow systems with a HPC center DMZ, and also use for job execution.
