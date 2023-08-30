@@ -1,7 +1,7 @@
 # Better Scientific Software (BSSw) Fellowship Program 2024
 
 - Application deadline: September 29, 2023
-- Q&A webinar: September 12, 2023
+- Q&A webinar date: September 12, 2023
 - Location: Online
 - Website: https://bssw.io/fellowship
 - Organizers: BSSw Fellowship Leadership Team
