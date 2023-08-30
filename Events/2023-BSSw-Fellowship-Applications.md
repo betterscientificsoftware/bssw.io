@@ -24,7 +24,7 @@ BSSw Fellowship Program Information | https://bssw.io/fellowship
 
 See a recent [blog article](https://bssw.io/blog_posts/applications-open-for-the-2024-bssw-fellowship-program) announcing the program. 
 Please visit the [BSSw Fellowship Program page](https://bssw.io/fellowship) for important dates and further information. 
-[Subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for a Q&A session, to take place on Tuesday, September 12, 2023, 2:00-3:00 PM EDT
+[Subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for a Q&A session, to take place on Tuesday, September 12, 2023, 2:00-3:00 PM EDT.
 
 The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.
 
