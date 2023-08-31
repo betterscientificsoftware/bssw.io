@@ -48,7 +48,7 @@ Nowness rooting: Code maintenance kairos | Orient work towards what needs to hap
 Garden proactivity: Anticipating and preparatory growth |	Hope for the best and plan for the worst, setting aspirational but measurable goals and avoiding known risks, weaknesses, or threats by observing them in your software garden planning. | Backcasting, SWOT Analysis, Risk Matrices
 
 <!---
-Publish: preview
+Publish: no
 Categories: Planning, Reliability
 Topics: testing
 Tags: [import from subresources]
