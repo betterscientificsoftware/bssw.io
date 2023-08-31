@@ -30,7 +30,7 @@ Some examples of the good guidance in this developer guide include:
 
 * In general, reviewers should favor approving a CL/commit once it is in a state where it definitely improves the overall code health of the system being worked on, even if the CL/commit isn’t perfect.
 
-* Reviews are an opportunity to mentor developers and pass along user information.
+* Reviews are an opportunity to mentor developers and pass along useful information.
 
 * Don’t let a CL/commit sit around because the author and the reviewer can’t come to an agreement.
 
@@ -62,7 +62,7 @@ Some examples of the good guidance in this developer guide include:
 
 * It is usually best to insist that the developer clean up their CL now, before the code is in the codebase and "done". (Letting people "clean things up later" is a common way for codebases to degenerate.)
 
-* Responding to code reviews and follow-ups usually makes complaints about string code reviews go away.
+* Responding to code reviews and follow-ups in a timely way usually makes complaints about stringent code reviews go away.
 
 Reading through all of the pages for the Google Code Review Developer Guide should only take one or two hours or so (depending on how fast one reads and how familiar one may be with this topic).
 Most developers and teams will likely learn a lot about peer code review best practices with a fairly small time investment.
