@@ -23,7 +23,7 @@ Original articles may have deck text and/or deck images. Deck text is usually a 
  * Having deck text and a deck image in an original article are mutually exclusive.
       * A way to approximate having both is to have the deck image and then put the deck as your first (short) paragraph after the image and italicize it.
  * Please note that many times in the BSSw.io literature the deck image is also called as hero image.
- * Images for content are stored under the `images/` directory in the main `bssw.io` repository. To reference the images in the article, we put in a relative path (see [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md)).
+ * Images for content are stored under the `images/` directory in the main `bssw.io` repository. To reference the images in the article, we put in a relative path (see [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/images/README.md)).
  * There are some formatting tips described below for the deck images.
    - The formatting to include a deck/hero image is a bit finicky.
       * The `**Hero Image:**` tag must be followed by a blank line
@@ -76,9 +76,9 @@ In these cases, they should use the approach documented in the [common citations
 
 ## Existing Examples
 
-* A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md)
+* A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/main/Articles/Blog/BlogArticleSkeletonA.md)
 
-* A simple example of the usage of [formal citations/references](#citationsreferences) can be seen in in the file [WhenNotToWriteAutomatedTests.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/WhenNotToWriteAutomatedTests.md).
+* A simple example of the usage of [formal citations/references](#citationsreferences) can be seen in in the file [WhenNotToWriteAutomatedTests.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/WhenNotToWriteAutomatedTests.md).
 
 * There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) to use as a starting point.
 

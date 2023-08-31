@@ -34,7 +34,7 @@ permalink: bssw_blogworkflow.html
   * preview.bssw.io import trigger
     * Not advertised to prevent abuse
   * GitHub repository
-    * https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Articles/Blog
+    * https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/main/Articles/Blog
 
 ### Boundary Conditions
 The process starts when an author delivers a draft blog article and hero image (or suggestion therefore).

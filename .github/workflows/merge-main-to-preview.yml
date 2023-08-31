@@ -1,10 +1,10 @@
-name: Sync master to preview
+name: Sync main to preview
 
-# When there's a push on master, we want to reflect it on preview too.
+# When there's a push on main, we want to reflect it on preview too.
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 jobs:
   sync-preview:
     if: github.repository_owner == 'betterscientificsoftware'
@@ -12,11 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Merge master -> preview
+      - name: Merge main -> preview
         uses: devmasx/merge-branch@v1.3.0
         with:
           type: now
           head_to_merge: ${{ github.ref }}
-          from_branch: master
+          from_branch: main
           target_branch: preview
           github_token: ${{ secrets.GITHUB_TOKEN }}

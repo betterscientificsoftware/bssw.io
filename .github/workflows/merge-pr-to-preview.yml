@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
         with:
-          ref: 'preview'  # Not default 'master' branch
+          ref: 'preview'  # Not default 'main' branch
       - name: Merge pr -> preview
         uses: devmasx/merge-branch@v1.3.0
         with:

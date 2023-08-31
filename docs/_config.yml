@@ -1,4 +1,4 @@
-repository: betterscientificsoftware/bssw.io/tree/master/docs/
+repository: betterscientificsoftware/bssw.io/tree/main/docs/
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,7 +12,7 @@ site_title: BSSw.io Editorial Space
 company_name: The Better Scientific Software (BSSw.io) website 
 # this appears in the footer
 
-github_editme_path: betterscientificsoftware/bssw.io/tree/master/docs/
+github_editme_path: betterscientificsoftware/bssw.io/tree/main/docs/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 google_analytics:

@@ -15,7 +15,7 @@ All BSSw.io resources have the following three sections, in common:
 
 The following image shows the deck and main body of a resource. Metadata section is not seen on the main site.
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/documentation-common-elements-small.jpg'/>
+- <img src='https://github.com/betterscientificsoftware/images/raw/main/documentation-common-elements-small.jpg'/>
 
 Following is a description of the common elements.
 
@@ -111,9 +111,9 @@ The hero immediately follows the title in the article's `*.md` file:
 
 - Blog articles must have *either* a hero image or deck text.
 
-- Hero image captions: Many images are illustrative and self-explanatory or have tangential relevance to the article (e.g. data visualization) so a caption is unnecessary. With images that benefit from descriptions that provide insight into the BSSw activities or the rigorousness of the science we have added a sentence of text. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2020-11-PSIP4HDF5.md> (source) and <https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5> (rendered).
+- Hero image captions: Many images are illustrative and self-explanatory or have tangential relevance to the article (e.g. data visualization) so a caption is unnecessary. With images that benefit from descriptions that provide insight into the BSSw activities or the rigorousness of the science we have added a sentence of text. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/2020-11-PSIP4HDF5.md> (source) and <https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5> (rendered).
 
-- Hero image credits: We've come up with a way to lead the article but not detract from the lede paragraph by leading body text with image credits but shrinking them with a superscript tag. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2021-03-useful-practices-for-SEoMsDSP.md> (source) and <https://bssw.io/blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects> (rendered).
+- Hero image credits: We've come up with a way to lead the article but not detract from the lede paragraph by leading body text with image credits but shrinking them with a superscript tag. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/2021-03-useful-practices-for-SEoMsDSP.md> (source) and <https://bssw.io/blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects> (rendered).
 
 ### Body images
 
@@ -151,7 +151,7 @@ Certain content types on [bssw.io](https://bssw.io) do not require formal refere
 
 * Content that in the judgment of EB members and/or authors requires references to more fully support perhaps sensitive and/or controversial positions (e.g. the Covid19 article).
 
-The decision to *allow* or *require* references is one that should be agreed upon by the author and EB members prior to developing the content. When references are to be used, we require authors to use the less intrusive [reference links](https://www.markdownguide.org/basic-syntax#reference-style-links) ([full spec](https://github.github.com/gfm/#reference-link)) and to follow the guidelines described [here](bssw_wikize_refs.html) where the [`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy) tool can be helpful.
+The decision to *allow* or *require* references is one that should be agreed upon by the author and EB members prior to developing the content. When references are to be used, we require authors to use the less intrusive [reference links](https://www.markdownguide.org/basic-syntax#reference-style-links) ([full spec](https://github.github.com/gfm/#reference-link)) and to follow the guidelines described [here](bssw_wikize_refs.html) where the [`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/main/utils/README.md#wikize_refspy) tool can be helpful.
 
 ## Nonstandard handling of Markdown
 
