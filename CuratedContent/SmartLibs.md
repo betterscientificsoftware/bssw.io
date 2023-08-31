@@ -11,7 +11,7 @@ Resource information | Details
 :--- | :--- 
 Paper Title | Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing
 Authors | M. C. Miller, J. F. Reus, R. P. Matzke, Q. A. Koziol, A. P. Cheng
-Publication | Proceedings of the Nuclear Explosives Code Developer's Conference 2004, vol. 1, December 15, 2004, [UCRL-JRNL-208636](https://www.osti.gov/biblio/936460)
+Publication | Proceedings of the Nuclear Explosives Code Developer's Conference 2004, vol. 1, December 15, 2004, UCRL-JRNL-208636<br>https://www.osti.gov/biblio/936460
 
 What is a *smart* library?
 A critical design goal of a *smart* library is to enable users (who are often developers of applications using the library) to avoid making simple mistakes in building, installing and using the library as well as enabling users to be able to easily diagnose and correct problems when they occur.
