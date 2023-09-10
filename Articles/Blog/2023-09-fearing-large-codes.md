@@ -4,7 +4,7 @@
 
  - <img src='../../images/Blog_2308_workflow.png' />
 
-#### Contributed by [Francesco Rizzi](https://github.com/FIXME)
+#### Contributed by [Francesco Rizzi](https://github.com/fnrizzi)
 
 #### Publication date: September 26, 2023
 
@@ -122,10 +122,12 @@ References:
 - ACM talk on LLM and AI: https://on.acm.org/t/large-language-models-and-the-end-of-programming/2750
 - SC22 slides: https://github.com/fnrizzi/sc22_bof_slides
 
-
 ### Author bio
 
-FIXME
+Francesco Rizzi is CTO and principal scientist at NexGen Analytics. Broadly speaking, he works in the field of scientific computing---which he is really passionate about.
+He is currently engaged in multiple projects, from performance portability and linear algebra, to generic programming, model reduction of large-scale applications, and uncertainty quantification.
+Prior to NexGen, he was senior technical staff in the Scalable Modeling & Analysis Systems at Sandia National Labs.
+He holds a M.Sc. in Computational Physics from the University of Udine (Italy), and a M.Sc./Ph.D. in Mechanical Engineering from The Johns Hopkins University.
 
 <!---
 Publish: yes
