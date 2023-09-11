@@ -71,8 +71,8 @@ performance.  We also used IOR to gain familiarity with MPI-IO's non-contiguous
 I/O optimizations.
 
 The real measure of I/O performance, however, is not bytes per second but how
-quickly an application can generate scientific results.  We use the Darshan
-characterization tool to observe an application's I/O in its "natural state" so
+quickly an application can generate scientific results.  We use the [Darshan
+characterization tool](https://www.mcs.anl.gov/research/projects/darshan/) to observe an application's I/O in its "natural state" so
 to speak.  Here we use Darshan to show what is happening at the file and MPI
 layers when HDF5 and PnetCDF optimizations kick in.
 
