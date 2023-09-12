@@ -49,7 +49,7 @@ namespace.  These file systems have ideal transfer sizes and ideal
 levels of parallelism -- important details, but information that should be
 hidden from the application.
 
-At the MPI layer, the I/O routines (often called `MPI-IO) introduce the structure of the data and the notion of multiple processes
+At the MPI layer, the I/O routines (often called `MPI-IO`) introduce the structure of the data and the notion of multiple processes
 working in concert.  This layer is also a great place to hide file-system-specific details.
 
 HDF5 or other high-level I/O libraries add arrays and data structures that fit well
