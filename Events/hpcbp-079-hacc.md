@@ -56,7 +56,7 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/event
 
 <!---
 Publish: yes
-Topics: “performance portability”, “software engineering”, "high-performance computing (hpc)", "performance at leadership computing facilities", “online learning”
+Topics: "performance portability", "software engineering", "high-performance computing (hpc)", "performance at leadership computing facilities", "online learning"
 --->
 
 
