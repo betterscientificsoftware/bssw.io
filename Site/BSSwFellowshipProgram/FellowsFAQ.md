@@ -99,7 +99,7 @@ In addition to direct support for proposed work up to $25,000, the BSSw Fellowsh
 
 ### Can I host a bunch of tutorials at our host institution on useful software practices, like version control? Is this the right idea?
 
-We encourage emphasis on activities with a view toward broad impact, with some element that could serve more than a single set of people attending a single event.
+We encourage emphasis on activities with a view toward broad impact, with some element (including a publicly available artifact) that could serve more than a single set of people attending a single event.
 
 ### Can I host some of the content on the BSSw website?  For instance if we create a video recording of a tutorial, etc.
 
@@ -119,7 +119,7 @@ While any idea may be submitted, we cannot guarantee that this kind of idea woul
 
 ### I recently began a new research project.  Should I write a Fellowship proposal based on what I hope to achieve in a year's time frame?  Or would it be better to base it on research that is more or less completed?
 
-The BSSw Fellowship program is not about supporting new research, but rather about fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. This may be connected to research that is in progress, but not in a way that puts the Fellowship activities at risk if problems arise in the research.
+The BSSw Fellowship program is not about supporting new research, but rather about fostering and promoting practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. This work may be connected to research that is in progress, but not in a way that puts the Fellowship activities at risk if problems arise in the research.
 
 ### The topic I want to pursue has been the subject of a recent BSSw Fellowship project by someone else. Should I apply?
 
