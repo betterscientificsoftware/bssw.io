@@ -36,7 +36,7 @@ high-performance computers (HPC) and occur approximately monthly.
 Resource Information | Details
 :--- | :---			   
 Webinar Title | Taking HACC into the Exascale Era: New Code Capabilities, and Challenges
-Date and Time | 2023-10-11 01:00 pm WTZ
+Date and Time | 2023-10-11 01:00 pm EDT
 Presenter | Esteban Rangel (Argonne National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar079>	   
 
