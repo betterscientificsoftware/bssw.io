@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2112_SC21.png' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_2112_SC21.png' />
 
 #### Contributed by: [Ignacio Laguna](https://github.com/ilagunap) and [Cindy Rubio-González](https://github.com/crubiog)
 #### Publication date: February 22, 2022
