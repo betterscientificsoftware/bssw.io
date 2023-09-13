@@ -66,10 +66,10 @@ knowledge and skill of the developers. Then, as the project is presented with mo
 consider augmenting the workflow using the following workflow building blocks (steps 2-5 can be
 added in any order) [4]:
 1. Start: The Simple Centralized Continuous Integration (CI) Workflow has all
-developers pull from and push to the shared “master” branch in the one shared repository
+developers pull from and push to the shared “main” branch in the one shared repository
 ‘origin’ (i.e., the basic SVN workflow). This is a simple but effective agile-consistent
 workflow and is a good choice for many simpler projects.
-2. Add a “develop” branch in order to provide a more stable “master” branch that is
+2. Add a “develop” branch in order to provide a more stable “main” branch that is
 updated on a regular, frequent basis.
 3. Add shorter-lived topic branches for sets of related commits (e.g., refactors, bug fixes,
 work on features) to facilitate easy collaborating, code reviews, and back-outs of many
