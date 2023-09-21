@@ -1,16 +1,16 @@
 # All In for Maintainers DEI Resource Hub
 
 <!--deck text start-->
-Following the 2020 initiative, allinopensource.org, emphasizing diversity, equity, and inclusion within the open source community; a DEI program/ResourceHub has been created for Maintainers and their particular issues and needs. 
+The *All In for Maintainers DEI Resource Hub*  provide maintainers with the training and technical support they need to advance diversity and inclusion within their communities.
 <!--deck text end-->
 
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
-#### Publication date: August 15, 2023
+#### Publication date: September 22, 2023
 
 Resource information | Details 
 :--- | :--- 
 Resource name | All In for Maintainers DEI Resource Hub
-Website  | [https://github.blog/2023-02-01-announcing-the-launch-of-the-all-in-for-maintainers-dei-resource-hub/](https://github.blog/2023-02-01-announcing-the-launch-of-the-all-in-for-maintainers-dei-resource-hub/)
+Website  | [https://allinopensource.org/maintainers/DEI-resources/](https://allinopensource.org/maintainers/DEI-resources/)
 Focus | Maintainer Resources
 
 Maintainers might be seen as holding the keys to the kingdom of open source, but the support for those behind the software has been lacking. The All in for Maintainers resource provides the community a curated selection of tools and solutions for enhancing DEI. Survey results from 2021 (https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source) supported by the Linux foundation show that a primary concern is a reliable source for advancing inclusion. This is the focus for the All In for Maintainers DEI Resource Hub. 
@@ -24,5 +24,5 @@ The Data section of the website points out that the goal is “A community dedic
 Publish: yes
 Topics: projects and organizations, inclusivity, online learning
 Pinned: no
-RSS update: 2023-08-15
+RSS update: 2023-08-22
 --->
