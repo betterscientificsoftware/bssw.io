@@ -12,7 +12,7 @@ This repository provides source material for the Better Scientific Software [BSS
 
 For details see our [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md) pages.
 
-Please note that BSSw.io has a [**Code of Conduct**](.github/CODE_OF_CONDUCT.md). By participating in the BSSw.io community, you agree to abide by its rules.
+Please note that BSSw.io has a [**Code of Conduct**](.github/CODE_OF_CONDUCT.md). By participating in the BSSw.io community, you agree to abide by its guidelines.
 
 <!---
 Publish: no
