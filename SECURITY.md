@@ -3,7 +3,7 @@
 The BSSw.io project does not host any actual software.
 However, the project does host software related content.
 And, of course, the project utilizes a number of software products (e.g. GitHub, GitHub Actions, web browsers, GH Pages, etc.).
-Concievably, security issues arising in any of these products could impact the BSSw.io site itself our community's ability to contribute to the site.
+Concievably, security issues arising in any of these products could impact the BSSw.io site itself or our community's ability to contribute to the site.
 That said, its unlikely security issues discovered here would effect any other projects.
 
 ## Supported Versions
