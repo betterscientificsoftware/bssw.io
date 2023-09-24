@@ -44,6 +44,24 @@ For more information, see the [FAQ page](https://bssw.io/pages/bssw-fellowship-f
 
 Elsa Gonsiorowski is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
 
+<br>
+
+<img src='../../images/Blog_2308_Fellows.png'/>
+
+<br> 
+
+**The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
+
+<div class='fellow'>
+<div class='img_div'>
+  <img src='../../images/Logo_DOE_Unofficial_Sm.png' class='logo' />
+</div>
+
+<div class='img_div'>
+  <img src='../../images/Logo_NSF_4ColorB_Sm.png' class='logo' />
+</div>
+</div>
+
 <!---
 Publish: yes
 Topics: Funding sources and programs, projects and organizations
