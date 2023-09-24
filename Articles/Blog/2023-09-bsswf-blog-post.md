@@ -6,7 +6,7 @@
 
 The 2024 Better Scientific Software Fellowship is accepting applications through September 29, 2023.  This article highlights some of the takeaways from the recent Q & A session.
 
-The Q & A session, held on Sept 12 ([recording available](https://bssw.io/pages/bssw-fellowship-faq)), presented a detailed overview of the program, application process, and [past fellows](https://bssw.io/pages/meet-our-fellows).  We'd like to highlight some of the key points that came out of that session.
+The Q & A session, held on Sept 12 ([slides (pdf) and recording available](https://bssw.io/pages/bssw-fellowship-faq)), presented a detailed overview of the program, application process, and [past fellows](https://bssw.io/pages/meet-our-fellows).  We'd like to highlight some of the key points that came out of that session.
 
 ### Encouraging diversity
 
