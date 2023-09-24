@@ -26,7 +26,7 @@ Past fellows have leveraged the BSSw.io blog as well.
 During the Q & A session, the following question was asked:
 *Are the projects mostly social or technical in nature?*
 
-Since the Department of Energy (DOE), National Science Foundation (NSF), and computational science and engineering (CSE) communities are deeply technical, a relevant topic expected.
+Because the Department of Energy (DOE), National Science Foundation (NSF), and computational science and engineering (CSE) communities are deeply technical, a relevant topic related to scientific software is expected.
 That said, technical information must be presented with social awareness.
 Successful projects understand how to communicate technical information such that it is useful to the larger community and can be used for something more.
 The goal is to increase engagement and understanding of the chosen topic.
