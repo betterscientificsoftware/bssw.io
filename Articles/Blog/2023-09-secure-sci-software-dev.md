@@ -1,10 +1,10 @@
-# Secure Scientific Software Development
+# Secure Software Programming Practices and Development
 
 **Hero Image:**
 
  - <img src='../../images/Blog_2308_workflow.png' />
 
-#### Contributed by [Nitin Sukhija](https:// "Nitin Sukhija Profile")
+#### Contributed by [Nitin Sukhija](https://www.linkedin.com/in/nitin-sukhija-a36882b6/)
 
 #### Publication date: TBD
 
@@ -16,7 +16,7 @@ Often for scientific software development, design priorities such as cost, speed
 
 The Best Practices and Tools for Secure Scientific Software Development includes components for evaluating design practices to create secure software, descriptions of appropriate software processes for managing secure software, threat modeling, and quality assurance testing using both static and dynamic analysis tools. The goal of Secure Scientific Software Development is to enable researchers to analyze the security of scientific software using threat models such as [DREAD](https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model)) and [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)), that aid in identifying risks that often cost an organization thousands of dollars when patching vulnerabilities stemming from unsecured code. A key benefit of employing Best Practices and Tools for Secure Scientific Software Development includes not only introduction to best practices for developing secure scientific software, but also hands-on experience with techniques for penetration testing tools to mitigate threats such as loss of business and sensitive information that arise from potential vulnerabilities in various domains. The information shared in the following sections will enable the community members with a process to develop secure and trustworthy scientific software (shown in figure 1).
 
-<img src='../../images/2023-09-secure-sci-software-dev.png' class='page' />[Figure 1. Secure Software Development Lifecycle.]
+<img src='../../images/2023-09-sec-sw-prg-practices-and-dev-nsukhija.png' class='page' />[Figure 1. Secure Software Development Lifecycle.]
 
 ### Secure Scientific Software Development
 
