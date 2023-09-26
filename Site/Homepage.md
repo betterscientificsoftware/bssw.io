@@ -4,15 +4,15 @@ Software—the foundation of discovery in computational science & engineering—
 
 <!---
 Slide1 L: ../images/Blog_2308_Fellows.png
-Slide1 R: ../Articles/Blog/2023-08-BSSwFellowsOpen2023.md
-Slide2 L: ../images/Blog_2308_workflow.png
-Slide2 R: ../Articles/Blog/2023-08-containers-workflows.md
-Slide3 L: ../Articles/Blog/2023-08-Software-Gardening.md
-Slide3 R: ../CuratedContent/DeveloperDocumentingDoneRight.md 
-Slide4 L: ../CuratedContent/GoogleGuidanceOnCodeReview.md
-Slide4 R: ../CuratedContent/CuratedContent/TuringWay.md
-Slide5 L: ../Events/hpcbp-078-simplifyingscipy.md
-Slide5 R: ../Events/2023-10-RSE_Workshop23.md 
+Slide1 R: ../Articles/Blog/2023-09-bsswf-blog-post.md
+Slide2 L: ../images/Blog_2307_io.png
+Slide2 R: ../Articles/Blog/2023-09-io-storage-characterization.md
+Slide3 L: ../CuratedContent/AllInMaintainersDEIResourceHub.md
+Slide3 R: ../CuratedContent/SmartLibs.md
+Slide4 L: ../Events/2023-10-RSE_Workshop23.md
+Slide4 R: ../Events/hpcbp-079-hacc.md 
+Slide5 L: ../Events/2023-usrse-conf.md
+Slide5 R: ../Events/LeadershipScientificSoftwareTownHallMeetings.md
 --->
 
 <!---
@@ -23,14 +23,14 @@ LCM: Saving for use again later
 
 Slide1 L: ../images/Blog_2308_Fellows.png
 Slide1 R: ../Articles/Blog/2023-08-BSSwFellowsOpen2023.md
-Slide2 L: ../images/Featured_2307_BSSwFellowsB.png
-Slide2 R: ../Articles/Blog/2023-07-BSSwFellows2022.md
-Slide3 L: ../images/Blog_2307_io.png
-Slide3 R: ../Articles/Blog/2023-07-optimizing_io.md
-Slide4 L: ../CuratedContent/CuratedContent/TuringWay.md
-Slide4 R: ../CuratedContent/ScienceAsAmateurSoftwareDevelopment.md
-Slide5 L: ../CuratedContent/bssw-tutorials.md
-Slide5 R: ../Events/2023-repro-climate.md
+Slide2 L: ../images/Blog_2308_workflow.png
+Slide2 R: ../Articles/Blog/2023-08-containers-workflows.md
+Slide3 L: ../Articles/Blog/2023-08-Software-Gardening.md
+Slide3 R: ../CuratedContent/DeveloperDocumentingDoneRight.md 
+Slide4 L: ../CuratedContent/GoogleGuidanceOnCodeReview.md
+Slide4 R: ../CuratedContent/CuratedContent/TuringWay.md
+Slide5 L: ../Events/hpcbp-078-simplifyingscipy.md
+Slide5 R: ../Events/2023-10-RSE_Workshop23.md 
 --->
 
 <!---
