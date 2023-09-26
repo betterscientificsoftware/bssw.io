@@ -4,8 +4,9 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar
 
-- **Tuesday, September 12, 2:00-3:00 pm EDT**
-- Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
+<!-- - **Tuesday, September 12, 2:00-3:00 pm EDT**
+- Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. -->
+
 - Slides & Recording for 2024 BSSw Fellowship Q&A Webinar:
   - Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.24127035.v1)
   - Recording: [(slides/audio)](https://exascaleproject.zoomgov.com/rec/play/PD134GuvAXfgRQ6JcuBkLmkGWvF_FKaOC_7eutkhhXIFJmzRwaoR74GwWrJA_GoSujwP3lMs1nzD93UE.MfjAneXhhpEJAs30?continueMode=true)
@@ -97,9 +98,13 @@ In addition to direct support for proposed work up to $25,000, the BSSw Fellowsh
 
 ## Proposal Topics
 
+### Are the BSSw Fellowship projects mostly social or technical in nature?
+
+Because the Department of Energy (DOE), National Science Foundation (NSF), and computational science and engineering (CSE) communities are deeply technical, a relevant topic related to scientific software is expected. That said, technical information must be presented with social awareness. Successful projects understand how to communicate technical information such that it is useful to the larger community and can be used for something more. The goal is to increase engagement and understanding of the chosen topic.
+
 ### Can I host a bunch of tutorials at our host institution on useful software practices, like version control? Is this the right idea?
 
-We encourage emphasis on activities with a view toward broad impact, with some element (including a publicly available artifact) that could serve more than a single set of people attending a single event.
+We encourage emphasis on activities with a view toward broad impact, with some element (including a publicly available artifact) that could serve more than a single set of people attending a single event. Successful project proposals are more than one-time undertakings. We aim for reusable, sustainable deliverables that can live beyond the fellowship. These artifacts can come in the form of videos (including [HPC Best Practices webinars](https://ideas-productivity.org/events/hpc-best-practices-webinars), written content, interactive websites, and more. Past fellows have leveraged the BSSw.io blog as well.
 
 ### Can I host some of the content on the BSSw website?  For instance if we create a video recording of a tutorial, etc.
 
@@ -151,7 +156,10 @@ This venue for the 2024 Fellowship class is TBD.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
-Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. We encourage diverse applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
+Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. 
+ 
+We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
+We encourage applications from those in underrepresented groups, including people who are Black or African American, Hispanic/Latinx, American Indian, Alaska Native, Native Hawaiian, Pacific Islanders, women, persons with disabilities, and first generation scholars. In addition to technically focused projects, we invite proposals for activities that broaden participation or promote diversity, equity, and inclusion.
 
 ## General Questions
 
