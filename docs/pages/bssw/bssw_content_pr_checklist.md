@@ -1,21 +1,20 @@
-https://betterscientificsoftware.github.io/bssw.io/bssw_blogworkflow.html#pull-request-checklist
+---
+title: Content PR Checklist
+sidebar: bssw_sidebar
+permalink: bssw_content_pr_checklist.html
+---
+The following markdown should be copied and pasted into a content PR's initial comment.
 
-
-
-# Instructions (DELETE THIS SECTION)
-
-To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete them entirely from the body of this issue before entering your submission.
-
-Be sure to select `master` as the `base` branch above as the target for this PR.
+---
+```
+Be sure to select `main` as the `base` branch above as the target for this PR.
 
 Provide a general summary of your changes in the title above.
 
 Fill in the below **Description** section with minimal text describing the changes/new contributions in this PR and replace `<...>` as appropriate.
 
-Remove the beginning `<!--` and ending `-->` comment markers for the correct **checklist** to be used for this PR and delete the other checklist.  (The checklist items for files displayed on the bssw.io site are shown by default.  The checklist items for internal files not displayed in the bssw.io site is given below with commented out checklist items by default.)
-
-Any checklist items that don't apply can be striked out by adding `~~` to the beginning and end of the checklist item as `* ~~[] <checklist-item>~~`.  Also, remove the strikeout markers `~~` for the [wikize_refs.py] checklist items if using formal citations for bssw.io contributions.
-
+Any checklist items that do not apply can be striken out by adding `~~` to the beginning and end of the checklist item as `* ~~[] <checklist-item>~~`.
+Also, remove the strikeout markers `~~` for the [wikize_refs.py] checklist items if using formal citations for bssw.io contributions.
 
 # Description
 
@@ -55,27 +54,6 @@ NOTE:
 * Checklist items prefixed with ***[EB Mem]*** must be performed by a [BSSw.io Editorial Board (EB) Member](https://betterscientificsoftware.github.io/bssw.io/bssw_members.html).
 * Checklist items prefixed with ***[BSSw Maint]*** must be performed by someone in the `@betterscientificsoftware/bssw-maint` team (hint: type `@`, `b`, `s`, `s`, `w`, `-`, `m`  to auto-complete to `@betterscientificsoftware/bssw-maint`).
 
-<!-- NOTE: Remove above checklist if using the below checklist for internal files. -->
-
-<!-- NOTE: Remove below checklist if using the above checklist for  bssw.io files. -->
-
-
-## PR checklist for (internal) files not displayed on bssw.io site
-
-*Click "Write" above and remove comment markers to see below checklist items*
-
-<!-- REMOVE THIS COMMENT MARKER IF USING BELOW CHECKLIST
-* [ ] Set list of Reviewers (at least one).
-* [ ] Add to Project [BSSw Internal].
-* [ ] View the modified `*.md` files as rendered in GitHub.
-* [ ] If changes are to the GitHub pages site under the `docs/` directory, consider viewing locally with Jekyll.
-* [ ] Watch for PR check failures.
-* [ ] Make any final changes to the PR based on feedback and review GitHub (and Jekyll) rendered files.
-* [ ] Ensure at least one reviewer signs off on the changes.
-* [ ] Once reviewer has approved and PR check pass, then merge the PR.
-REMOVE THIS COMMENT MARKER IF USING ABOVE CHECKLIST -->
-
-
 <!-- Standard links below, leave these this section! -->
 
 [preview]: https://preview.bssw.io
@@ -84,3 +62,7 @@ REMOVE THIS COMMENT MARKER IF USING ABOVE CHECKLIST -->
 [BSSw Internal]: https://github.com/betterscientificsoftware/bssw.io/projects/2
 [meta-data]: https://betterscientificsoftware.github.io/bssw.io/bssw_styling_common.html#metadata-section
 [wikize_refs.py]: https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy
+```
+---
+
+{% include links.html %}

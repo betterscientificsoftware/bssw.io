@@ -36,6 +36,10 @@ entries:
       url: /bssw_members.html
       output: web
 
+    - title: Internal Documents PR Checklist 
+      url: /bssw_intdocs_pr_checklist.html
+      output: web
+
     - title: Editorial Team Responsibilities
       url: /bssw_teamresponsibilites.html
       output: web
@@ -81,7 +85,6 @@ entries:
           url: /bssw_add_new_topics.html
           output: web
 
-
       - title: Content Writing
         output: web
         subfolderitems:
@@ -105,6 +108,10 @@ entries:
         - title: Metadata Rules
           url: /bssw_content_metadata.html
           output: web
+
+    - title: Content PR Checklist
+      url: /bssw_content_pr_checklist.html
+      output: web
 
     - title: Content Publishing
       url: /bssw_content_publishing.html
