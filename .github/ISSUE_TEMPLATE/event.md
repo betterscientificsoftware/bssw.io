@@ -4,6 +4,8 @@ about: Template for Submitting an Event Notice
 title: Event Notice
 labels: 'content: event'
 ---
+By making a submission here, you agree to [BSSw.io content licensing terms](../../TERMS.md).
+
 Enter details here by replacing *italicized text* with actual event information and without adding or removing lines.  You are encouraged to look at some [published events](https://bssw.io/events) in order to get a feel for how the requested information will appear on the site.
 
 * **What:** *Event Title, in title case*
