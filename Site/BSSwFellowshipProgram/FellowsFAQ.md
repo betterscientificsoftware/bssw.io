@@ -17,9 +17,9 @@ More questions and answers will be added to this page over time; check back for 
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-<!-- Applications are now closed for the 2023 BSSw Fellowship Program. Check back in summer 2023 for info about the 2024 application process. -->
+Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process.
 
-**The application deadine for the 2024 BSSw Fellowship Program is Friday, September 29, 2023, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
+<!-- **The application deadine for the 2024 BSSw Fellowship Program is Friday, September 29, 2023, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline. -->
 
 ### Is a particular format required for the proposal?
 
@@ -156,8 +156,8 @@ This venue for the 2024 Fellowship class is TBD.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
-Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. 
- 
+Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations.
+
 We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
 We encourage applications from those in underrepresented groups, including people who are Black or African American, Hispanic/Latinx, American Indian, Alaska Native, Native Hawaiian, Pacific Islanders, women, persons with disabilities, and first generation scholars. In addition to technically focused projects, we invite proposals for activities that broaden participation or promote diversity, equity, and inclusion.
 
