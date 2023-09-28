@@ -1,4 +1,4 @@
-# Smart Libraries: 30+ practices, 20+ years...still relevant
+# Smart Libraries: 30+ Practices, 20+ Years...Still Relevant
 <!--deck text start-->
 A 20-year-old paper titled *Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing* 
 describes over 30 Software Quality Engineering (SQE) practices that remain relevant in today's HPC/CSE community.
