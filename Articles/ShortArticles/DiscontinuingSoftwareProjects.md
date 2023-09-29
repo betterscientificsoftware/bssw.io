@@ -17,14 +17,26 @@ Over time, project assets and artifacts and even contact information of the peop
 A common situation is a domain name and/or institutional domain aliase/forward that expires.
 When this happens, the main entry point to the project known throughout the community is lost.
 Future researchers are then unable to discover the project even existed let alone find anyone with knowledge about it.
-In that case, the only available information is likely to be in published articles.
+In that case, the only available information is likely to be in whatever published articles there are that the project produced.
 However, in scientific computing projects, publications tend to focus on the *science* enabled by the software such that little if any knowledge about the software itself remains available.
 
 Here we outline a number of choices sofware project members can make that will improve the ability for project software assets to remain accessible after a project comes to an end.
 
+1. End-of-project release
+
+   Making a final release when there is a planned sunset date is easier than doing so when funding is suddenly and unexpectedly lost.
+   If work must cease immediately, then there really isn't much more that can be done.
+   However, with fair warning, a project can move to *tidy things up* before ceasing all work.
+   There is likely work in progress to bring to a close but nonetheless leaves the software in a functional state.
+   That may mean conditionally disabling (via well-documented CPP `#if` or `#ifdef`) associated code blocks.
+   It may mean hastily written testing and documentation.
+   An untimely, end-of-project release may be subpar quality.
+   If so, identify the release as a *development* or *experimental*.
+   The goal of an untimely end-of-project release is to capture a snapshot with as much information about the state of the software (its design, architecture, implementation, etc.) as possible.
+
 1. Open-source the code
 
-   If the project's codebase is not already open source, a key way to ensure it remains available to the community to learn from is to release it under an open-source license.
+   If the project's codebase is not already open source, a key way to ensure it remains available to the community to learn from is to release it under a widely adopted open-source license.
    The institution(s) that sponsored its development may require an open-source release to follow specific processes.
    For example, Livermore Labs' Information Management (IM) office defines the processes to follow for open-source releases.
    By making a project's software open source, it becomse possible to host the software in world-readable, public places (e.g. GitHub or GitLab) where the community can find it and learn from it.
@@ -74,6 +86,8 @@ Discontinuing a partially completed software project can be challenging, but it'
 
 1. **Documentation**: Start by documenting everything related to the project. This includes code, design decisions, architecture, and any relevant discussions or meetings. Create comprehensive documentation that can help other developers understand the project's scope, progress, and any challenges encountered.
 
+ If you are aware of large swaths of documentation that is sitting around in places (emails, slide decks, pdf files) that are not already available online *with* the source code, consider getting this information *out there*.
+
 2. **Lessons Learned**: Conduct a lessons-learned session with the team to capture insights into what went well and what didn't during the project's development. Document these lessons, as they can be valuable for future projects, ensuring that the same mistakes are not repeated.
 
 3. **Code Review**: If possible, conduct a code review with the team to identify any critical issues or potential security vulnerabilities. This will allow you to address these concerns and prevent them from carrying over to other projects.
@@ -91,8 +105,6 @@ Discontinuing a partially completed software project can be challenging, but it'
 9. **Maintain Contact Information**: Make sure you have contact information for all team members in case any follow-up questions or clarifications are required in the future.
 
 10. **Evaluate Salvageable Components**: Assess if any parts of the codebase or architecture can be reused in other projects. Salvaging valuable components can save time and effort in future development.
-
-11. **Review Contracts and Legal Obligations**: If the project involved any third-party contracts or legal obligations, review them to ensure all necessary termination procedures are followed.
 
 12. **Post-Mortem Meeting**: Hold a post-mortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience. This can lead to valuable insights for future projects.
 
@@ -126,35 +138,18 @@ a sign-up process that collects such contact information.
 GitHub reactions can do this.
 
 
-Some of he choices a project makes up front can impact these questions
-
-Problems with email and email lists, etc.
-
-Collecting such inquiries
-
- may be useful in substantiating the level of interest to future
-stakeholders
-The ability to collect contacts
-Will interested parties be directed to make contact by email, twitter, slack, etc. or just
-be directed to a web page?
-
-of
-
- One of the nice things about email
-is that
-
 Which modality(s) of communication with former project stakeholders will
 be maintained 
 
 * Identify the modality(s) of contact that will be maintained for any inquiries
   occurring *after* project discontinuation (e.g. email, twitter, GitHub discussions, etc.).
 
-* Identify at least one person (preferrably 2 or 3 persons) who will serve as point
+* Identify at least one person (preferrably also a backup) who will serve as point
   of contact for any inquiries occuring after the project is discontinued. If this
   role needs to be transferred
 
 * Some stakeholders should set semi-annual reminders on their calenders just to
-  check and confirm the project's on-line presence is still working.
+  check and confirm the project's on-line presence is still healthy.
 * Ensure on-line access points have a continued maintinence plan
   * as well as the systems where the below resources are hosted
   * mailing lists, discussion boards, ...
@@ -179,10 +174,6 @@ or is seeking funding
 * For projects that involve persistent data formats, provide users with documentation
   about how to convert their data to another format.
 * For projects for which decent alternative software products exist, maybe 
-* Gather together whatever resources the project may have produced that help to
-  explain/describe the software (slide decks from presentations, etc.)
-  * This could be a simple listing of key files in the repository interested
-    consumers should be aware of if they need to go look
 * On GitHub, projects can be *archived* (converted to read-only)
 * What can be done to ensure that if the project gets re-started, it can be easily
   picked back up and restarted by possibly new developers?
