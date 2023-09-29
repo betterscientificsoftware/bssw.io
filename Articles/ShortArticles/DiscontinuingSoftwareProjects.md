@@ -29,14 +29,14 @@ Here we outline a number of choices sofware project members can make that will i
    However, with fair warning, a project can move to *tidy things up* before ceasing all work.
    There is likely work in progress to bring to a close but nonetheless leaves the software in a functional state.
    That may mean conditionally disabling (via well-documented CPP `#if` or `#ifdef`) associated code blocks.
-   It may mean hastily written testing and documentation.
+   It may mean hastily written testing and documentation too.
    An untimely, end-of-project release may be subpar quality.
    If so, identify the release as a *development* or *experimental*.
    The goal of an untimely end-of-project release is to capture a snapshot with as much information about the state of the software (its design, architecture, implementation, etc.) as possible.
 
 1. Open-source the code
 
-   If the project's codebase is not already open source, a key way to ensure it remains available to the community to learn from is to release it under a widely adopted open-source license.
+   If the project's source code is not already open source, a key way to ensure it remains available to the community is to release it under a widely adopted open-source license.
    The institution(s) that sponsored its development may require an open-source release to follow specific processes.
    For example, Livermore Labs' Information Management (IM) office defines the processes to follow for open-source releases.
    By making a project's software open source, it becomse possible to host the software in world-readable, public places (e.g. GitHub or GitLab) where the community can find it and learn from it.
@@ -53,33 +53,31 @@ Here we outline a number of choices sofware project members can make that will i
 
 1. Establish an enduring on-line presence
 
-   Create a website
-
-   The use of mailing list for this purpose should be discouraged and avoided at all costs.
-
-   Create a public repository: Set up a public code repository (e.g., GitHub) to store the project's code, documentation, and related resources. This repository can serve as a central hub for the project's artifacts, allowing others to easily discover and access them.
+   If the project doesn't already have one, create a website.
+   There are various free website hosting options.
+   A good option is a [GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#) site because it offers a place to host both a web site about the project and the project's actual source code as well as other project artifacts.
 
 1. Archive the software
 
-   DOE CODE (https://www.code.gov)
-   DOI?
-   Many Mirrors
-   netlib.org
-   internet archive
-   software heritage (https://www.softwareheritage.org)
-   https://wiki.archiveteam.org
+   Consider archiving the software.
+   There are archival services available such as [DOE Code](https://www.code.gov), [netlib.org](https://netlib.org), [Software Heritage](https://www.softwareheritage.org), [Internet Archive](https://archive.org) and [Archive Team](https://wiki.archiveteam.org/index.php/Main_Page) all of which handle archival of software among other things.
+   Another option to consider is archiving the software with a Digital Object Identifier (DOI) agency.
+   There are many DOI agencies often specializing in certain kinds of digital assets.
+   Some handle source code.
+   Consider [Crossref](https://www.crossref.org), [Zenodo](https://zenodo.org) and [Open Science Framework](https://osf.io).
 
 1. Present or Publish (about the software)
 
-   Get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can talk in more detail about the software (instead of the science it may enable).
-   Often case-studies and lessons learned are good candidate topical areas
-   Publish research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes. By actively sharing knowledge, you increase the chances of the community benefiting from the project's know-how.
+   Get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can talk in more detail about the *software* (instead of the science it may enable).
+   Often case-studies and lessons learned are good candidate topical areas for a piece of literature about the software.
+   Publish research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes.
+   By actively sharing knowledge, you increase the chances of the community benefiting from the project's know-how.
 
-1. Refactor for critical dependencies
+1. Consider refactoring critical dependencies
 
-   Split out the pieces that may have a life of their own.
-   Engage down stream dependencies to ask if they may be interested in taking over a piece
-   Seek researchers working in similar area to see if they may want it
+   Considering splitting out the pieces of your software that may have a life of their own apart from the originating project.
+   Engage down stream dependencies and the community to ask if anyone is interested in taking over maintaining a piece.
+   Seek researchers working in similar area to see if they may see a benefit to maintaining a piece.
    There may be graduate students looking for projects
 
 Discontinuing a partially completed software project can be challenging, but it's essential to handle it properly to preserve the knowledge gained and the lessons learned. Here are some steps and actions that can be useful in this process:
@@ -140,6 +138,8 @@ GitHub reactions can do this.
 
 Which modality(s) of communication with former project stakeholders will
 be maintained 
+`
+   The use of mailing list for this purpose should be discouraged and avoided at all costs.
 
 * Identify the modality(s) of contact that will be maintained for any inquiries
   occurring *after* project discontinuation (e.g. email, twitter, GitHub discussions, etc.).
