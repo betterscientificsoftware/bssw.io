@@ -76,6 +76,7 @@ The process starts when an author delivers a draft blog article and hero image (
   Best, on behalf of the BSSw.io Editorial Board
 
 * **Submission and Publication:**
+  * By making a submission, you agree to [BSSw.io content licensing terms](../../../TERMS.md).
   * Blog articles appear here: <https://bssw.io/blog_posts> and are also announced in the monthly BSSw email digest (<https://bssw.io/pages/receive-our-email-digest>).
     You are certainly welcome to draw attention to your article through social media and other opportunities.
   * The BSSw.io site is backended by a GitHub repository.
