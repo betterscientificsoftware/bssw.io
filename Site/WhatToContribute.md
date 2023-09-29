@@ -60,7 +60,7 @@ If you have an idea that might work, continue to the [How To Contribute](https:/
 
 ### Licensing of content you submit
 
-By making a submission here, you agree to [BSSw.io content licensing terms](../TERMS.md).
+By making a submission here, you agree to [BSSw.io content licensing terms](https://github.com/betterscientificsoftware/bssw.io/blob/main/TERMS.md).
 
 <!-- end of body -->
 
