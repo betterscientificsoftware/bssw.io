@@ -76,5 +76,5 @@ Applications are closed for the 2024 BSSw Fellowship Program.  Please check back
 
 <!--
 Publish: yes
-OpenGraph image: Blog_2308_Fellows.png
+OpenGraph image: OG_2308_BSSwFellowships_Closed.png
 -->
