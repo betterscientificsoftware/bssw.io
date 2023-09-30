@@ -29,15 +29,16 @@ We encourage applicants at all career stages, ranging from students through earl
 
 ### 2024 BSSw Fellowships
 
-[2024 BSSw Fellowship Application Form](https://forms.gle/14X8uWY6asoEPD828) - Submissions Open!
+<!-- [2024 BSSw Fellowship Application Form](https://forms.gle/14X8uWY6asoEPD828) - Submissions Open! -->
 
 <!-- Applications will open on August 15, 2022 for the 2024 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.-->
 
-<!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process. -->
+Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process.
 
 
 ### More Information
 
+- Read the [highlights of the 2024 BSSw Fellowship Q&A Session](https://bssw.io/blog_posts/highlighted-topics-from-bssw-fellowship-q-a-session)
 - Read about work of the [2022 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
 - Read about the [2023 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)
 - Read about work of the [2021 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2021-bssw-fellows-projects-and-perspectives)
