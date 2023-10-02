@@ -2,7 +2,7 @@
 
 To view these instructions, please hit the **Preview** tab (above left). After you have read all of these instructions, delete them entirely from the body of this issue before entering your submission.
 
-Be sure to select `master` as the `base` branch above as the target for this PR.
+Be sure to select `main` as the `base` branch above as the target for this PR.
 
 Provide a general summary of your changes in the title above.
 
@@ -79,4 +79,4 @@ REMOVE THIS COMMENT MARKER IF USING ABOVE CHECKLIST -->
 [Content Development]: https://github.com/betterscientificsoftware/bssw.io/projects/3
 [BSSw Internal]: https://github.com/betterscientificsoftware/bssw.io/projects/2
 [meta-data]: https://betterscientificsoftware.github.io/bssw.io/bssw_styling_common.html#metadata-section
-[wikize_refs.py]: https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy
+[wikize_refs.py]: https://github.com/betterscientificsoftware/bssw.io/blob/main/utils/README.md#wikize_refspy
