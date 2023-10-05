@@ -58,6 +58,10 @@ The exact scope of relevant content will evolve as we learn more about community
 
 If you have an idea that might work, continue to the [How To Contribute](https://bssw.io/pages/how-to-contribute-content-to-better-scientific-software) page.
 
+### Licensing of content you submit
+
+By making a submission here, you agree to [BSSw.io content licensing terms](https://github.com/betterscientificsoftware/bssw.io/blob/main/TERMS.md).
+
 <!-- end of body -->
 
 <!--
