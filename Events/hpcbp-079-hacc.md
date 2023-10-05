@@ -20,7 +20,7 @@
 
 
 
-# Webinar: Taking HACC into the Exascale Era: New Code Capabilities, and Challenges
+# Webinar: Taking HACC into the Exascale Era: New Code Capabilities and Challenges
 
 - Event Date: 2023-10-11
 - Location: Online

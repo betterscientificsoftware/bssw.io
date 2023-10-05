@@ -7,7 +7,7 @@
 #
 # to replace:
 #
-#   https://github.com/betterscientificsoftware/images/raw/master/
+#   https://github.com/betterscientificsoftware/images/raw/main/
 #
 # with the proper local reference to:
 #
@@ -33,8 +33,8 @@ def getMdFilePathFromCmndLine():
 
 
 g_external_images_repo_str_list = [
-  "https://github.com/betterscientificsoftware/images/raw/master/",
-  "https://github.com/betterscientificsoftware/images/blob/master/",
+  "https://github.com/betterscientificsoftware/images/raw/main/",
+  "https://github.com/betterscientificsoftware/images/blob/main/",
   ]
 
 def getRelImagesRefStr(dirDepth):

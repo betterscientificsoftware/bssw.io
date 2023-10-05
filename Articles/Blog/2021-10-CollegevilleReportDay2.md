@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2109_Collegeville1.png' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_2109_Collegeville1.png' />
  <!-- same hero image? -->
 
 #### Contributed by: [Keith Beattie](https://github.com/ksbeattie), [Gerasimos Chourdakis](https://github.com/MakisH), [Johanna Cohoon](https://github.com/jlcohoon), [Vadim Dyadechko](https://github.com/vdyadechko), [Nur Fadel](https://github.com/nuraiman), [Charles Ferenbaugh](https://github.com/cferenba), [Robert Jacob](https://github.com/rljacob), [Jay Lofstead](https://github.com/gflofst), [Reed Milewicz](https://github.com/rmmilewi), [David Moulton](https://github.com/jd-moulton), [Jacob Moxley](https://github.com/jmox0351), [Todd Munson](https://github.com/tmunson), [Sarah Osborn](https://github.com/osborn9), [Weslley Pereira](https://github.com/weslleyspereira), [Sameer Shende](https://github.com/sameershende), [Barry Smith](https://github.com/BarrySmith), [James Willenbring](https://github.com/jwillenbring), [Ulrike Meier Yang](https://github.com/ulrikeyang), [Sam Yates](https://github.com/halfflat), [Sarah Knepper](https://github.com/sknepper), [Lois Curfman McInnes](https://github.com/curfman), [Michael A. Heroux](https://github.com/maherou)

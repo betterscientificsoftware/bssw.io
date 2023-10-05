@@ -29,7 +29,7 @@ Please note above:
 * Each metadata parameter is on a separate line.
 * Please follow the rules of use colon and commas as specified above. Letter case does not matter.
 
-The easiest approach to writing metadata is to copy/paste the formatted example and modify it, as needed. Alternatively, copy the metadata from any of the content files ([curated content](https://github.com/betterscientificsoftware/bssw.io/tree/master/CuratedContent), [events](https://github.com/betterscientificsoftware/bssw.io/tree/master/Events) and [articles](https://github.com/betterscientificsoftware/bssw.io/tree/master/Articles)) in the BSSw.io repository, modify and use them in your content file.
+The easiest approach to writing metadata is to copy/paste the formatted example and modify it, as needed. Alternatively, copy the metadata from any of the content files ([curated content](https://github.com/betterscientificsoftware/bssw.io/tree/main/CuratedContent), [events](https://github.com/betterscientificsoftware/bssw.io/tree/main/Events) and [articles](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles)) in the BSSw.io repository, modify and use them in your content file.
 
 ## Metadata description
 
@@ -42,7 +42,7 @@ publish: yes
 
 publish: no
 ````
-Only files designated as 'publish: yes' (and merged in the master branch) will be published on the front-end BSSw site. 
+Only files designated as 'publish: yes' (and merged in the main branch) will be published on the front-end BSSw site. 
 Work that has not been finalized or is not intended for the front-end site should be designated 'publish: no'. 
 
 Please note that BSSw.io has a stand-alone website for previewing content before publishing. To view data on preview site, please use the "preview" label in the pull request of that item and rebuild the preview site. For previewing purposes, the 'publish' metadata is ignored and only the preview label is considered.
