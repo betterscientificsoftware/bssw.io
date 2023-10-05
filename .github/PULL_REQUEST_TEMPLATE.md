@@ -1,4 +1,4 @@
-By making a submission here, you agree to [BSSw.io content licensing terms](../TERMS.md).
+By making a submission here, you agree to [BSSw.io content licensing terms](https://github.com/betterscientificsoftware/bssw.io/blob/main/TERMS.md).
 
 You are welcome to submit an *idea* for an article or a completed article.
 

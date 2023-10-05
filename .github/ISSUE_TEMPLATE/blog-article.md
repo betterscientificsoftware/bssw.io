@@ -4,7 +4,7 @@ about: Template for submitting a blog article for consideration
 title: Possible Blog Article
 labels: 'content: blog'
 ---
-By making a submission here, you agree to [BSSw.io content licensing terms](../../TERMS.md).
+By making a submission here, you agree to [BSSw.io content licensing terms](https://github.com/betterscientificsoftware/bssw.io/blob/main/TERMS.md).
 
 You are welcome to submit an *idea* for a blog article or a completed article.
 
