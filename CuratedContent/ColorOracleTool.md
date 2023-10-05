@@ -14,7 +14,7 @@ Website Author | [Bernie Jenny](https://berniejenny.info)
 Focus          | Inclusivity
 
 The topic of color blindness should be kept in mind while developing software because it directly impacts the accessibility and usability of applications for a significant portion of the population.
-Approximately 8% of men and 0.05% of women have color vision impairment.
+Approximately 8% of men and 0.5% of women have color vision impairment.
 Ignoring the needs of this demographic can result in user experiences that are frustrating, confusing, or even completely inaccessible.
 When designing software, especially applications with visual elements like interfaces or data visualizations, developers should consider the potential challenges faced by individuals with common color vision impairments, such as deuteranopia, protanopia, and tritanopia.
 
