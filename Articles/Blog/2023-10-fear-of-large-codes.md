@@ -42,7 +42,7 @@ A large code is diametrically opposed to the POC experience: a student now has o
 With all these factors and unknowns playing a role, the fear of facing such a seemingly hard task grows, and with it, the pressure to deliver.
 
 It is natural to ask at this point: why is this fear of large codes so common?
-After all, not all students are like the one mentioned at the beginning of this article, praised for his "lack of fear" of getting his hands dirty with large codes.
+After all, not all students are like the one mentioned at the beginning of this article, praised for their "lack of fear" of getting their hands dirty with large codes.
 What if there was a way for *most* students to work on large codes without necessarily needing years of development experience and, most importantly, without being afraid of them?
 You may think this a utopian view, but I would argue that such a reality *could* exist.
 Imagine a code (started as a small project, but on its way to becoming a large one) developed from the beginning with *accessibility* and *sustainability* in mind: the design is modular and flexible (e.g., the open-closed principle is meticulously met), documentation is complete, and the test suite is well-developed.
