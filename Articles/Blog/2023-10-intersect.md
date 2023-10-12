@@ -112,9 +112,9 @@ The success of the bootcamp is thanks largely to the efforts of the fantastic vo
 
 ### Author bios
 
-Jeffrey C. Carver is a professor in the Department of Computer Science, University of Alabama. His research interests include empirical software engineering, software engineering for research software, and human factors in software engineering. Carver received his Ph.D. degree in computer science from the University of Maryland. He is a Senior Member of IEEE and the Association for Computing Machinery (ACM).
+Jeffrey C. Carver is a James R. Cudworth Professor in the Department of Computer Science, University of Alabama. His research interests include empirical software engineering, software engineering for research software, and human factors in software engineering. He is a Senior Member of IEEE and the Association for Computing Machinery (ACM). He is a founding and current member of the steering committee for the [US-RSE Association](https://us-rse.org/).
 
-Ian Cosden is the Manager of HPC Software Engineering and Performance Tuning in the Research Computing department at Princeton University, where he leads a team of Research Software Engineers who collectively complement traditional academic research groups by offering embedded, long-term software development expertise. He is the current chair of the US-RSE Association steering committee.
+Ian Cosden is the Senior Director of Research Software Engineering in the Research Computing department at Princeton University, where he leads a [team of Research Software Engineers](https://researchcomputing.princeton.edu/services/research-software-engineering) who collectively complement traditional academic research groups by offering embedded, long-term software development expertise. He is the current chair of the [US-RSE Association](https://us-rse.org/) steering committee.
 
 <!---
 Publish: Yes
