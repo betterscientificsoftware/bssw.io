@@ -1,4 +1,4 @@
-# INTERSECT
+# INTERSECT: Training for Research Software Engineering
 
 **Hero Image:**
 
@@ -21,6 +21,8 @@ The “INnovative Training Enabled by a Research Software Engineering Community 
 The majority of INTERSECT’s funded focus is on activities surrounding the development and delivery of higher-level specialized research software engineering training. The target audience of INTERSECT’s training is focused on research software developers (RSDs), a subset of cyber infrastructure contributors.
 
 ### Workshop and preparation
+
+<img src='../../images/Blog_2310_intersect_workshop.png' class='page lightbox' />[Participants in the August 2022 INTERSECT workshop.]
 
 In August 2022 we hosted 15 experts in RSE training for a 1.5-day Workshop at Princeton University ([https://intersect-training.org/workshop22/](https://intersect-training.org/workshop22/)). The goal of this workshop was to collaboratively plan, develop, and package a series of training modules for the first INTERSECT Research Software Engineering Bootcamp. 
 
@@ -110,9 +112,9 @@ The success of the bootcamp is thanks largely to the efforts of the fantastic vo
 
 ### Author bios
 
-Jeffrey C. Carver
+Jeffrey C. Carver is a professor in the Department of Computer Science, University of Alabama. His research interests include empirical software engineering, software engineering for research software, and human factors in software engineering. Carver received his Ph.D. degree in computer science from the University of Maryland. He is a Senior Member of IEEE and the Association for Computing Machinery (ACM).
 
-Ian Cosden
+Ian Cosden is the Manager of HPC Software Engineering and Performance Tuning in the Research Computing department at Princeton University, where he leads a team of Research Software Engineers who collectively complement traditional academic research groups by offering embedded, long-term software development expertise. He is the current chair of the US-RSE Association steering committee.
 
 <!---
 Publish: Yes
