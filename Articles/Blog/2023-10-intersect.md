@@ -12,13 +12,13 @@ Born from the belief that there was an overwhelming lack of appropriate and focu
 
 ### INTERSECT
 
-The “INnovative Training Enabled by a Research Software Engineering Community of Trainers (INTERSECT)” project delivers software development and engineering training to intermediate and advanced developers of research software. INTERSECT has three main goals that target the research software engineering (RSE) community:
+The “INnovative Training Enabled by a Research Software Engineering Community of Trainers (INTERSECT)” project delivers software development and engineering training to intermediate and advanced developers of research software. INTERSECT has three main goals that target the research software engineering (RSEng) community:
 
 1. Develop an open-source modular training framework conducive to community contribution;
 2. Deliver RSE-led research software engineering training targeting research software developers; and
 3. Grow and deepen the connections within the national community of research software engineers.
 
-The majority of INTERSECT’s funded focus is on activities surrounding the development and delivery of higher-level specialized research software engineering training. The target audience of INTERSECT’s training is focused on research software developers, or RSDs, a subset of cyber infrastructure contributors.
+The majority of INTERSECT’s funded focus is on activities surrounding the development and delivery of higher-level specialized research software engineering training. The target audience of INTERSECT’s training is focused on research software developers (RSDs), a subset of cyber infrastructure contributors.
 
 ### Workshop and preparation
 
@@ -72,9 +72,9 @@ One of the stated goals of the bootcamp, and more broadly the INTERSECT project,
 ### Some Lessons Learned
 
 1. **Demand**: As evidenced by both the overwhelming number of applicants and by the feedback from the bootcamp participants, the demand, need, and value for such bootcamps and training is clear. The potential impact is broad and far-reaching.
-2. **Diversity**: The participants frequently mentioned the diversity of their fellow bootcamp attendees as a uniquely positive element of the bootcamp. However, the diversity in background did create challenges as each participant came with a dramatically different entry point. Some struggled with specific topics and examples, especially those that required more Python experience, math/science examples, and moving beyond beginner-level Git. 
-3. **Depth & time**: Even with a week-long bootcamp, we had insufficient time to cover most topics in depth. While we opted to prioritize exposure over depth, we are not sure yet whether we hit the right balance. 
-4. **Instructional Material format**: The Carpentries format is excellent in cases where participants wanted to follow along and even better to use as a reference later. However, porting material into the Carpentries format is time-consuming, requiring a great deal of effort. 
+2. **Diversity**: The participants frequently mentioned the diversity of their fellow bootcamp attendees as a uniquely positive element of the bootcamp. However, the diversity in background did create challenges, as each participant came with a dramatically different entry point. Some struggled with specific topics and examples, especially those that required more Python experience, math/science examples, and moving beyond beginner-level Git. 
+3. **Depth and time**: Even with a week-long bootcamp, we had insufficient time to cover most topics in depth. While we opted to prioritize exposure over depth, we are not sure yet whether we hit the right balance. 
+4. **Instructional material format**: The Carpentries format is excellent in cases where participants wanted to follow along and even better to use as a reference later. However, porting material into the Carpentries format is time-consuming, requiring a great deal of effort. 
 
 ### Next steps
 
