@@ -10,7 +10,10 @@ Many *research* software projects have built-in sunset dates when the sponsoring
 For SciDAC projects for example, a common duration is 3-5 years.
 If a project is unable to gain traction within the community and win funding from other sources in that time frame, the project will most likely be discontinued.
 
-Scientific computing research software projects in particular can come to an end in ways that ultimately impact our community's ability to ever reap any benefit from progress made or lessons learned or otherwise have available for posterity's sake any of the system design, architecture, implementation and software engineering know how that went into the project.
+A challenge in how scientific software projects end is that often a lot of the technical knowhow with respect to softare design and development can be at risk of being totally lost.
+This is because for scientific software projects, their publicly available record of work (e.g. presentations, papers, etc.)  have to mostly remain focused on the science their software enables and not so much the design and development of the software itself.
+
+Scientific computing research software projects can come to an end in ways that ultimately impact our community's ability to ever reap any benefit from progress made or lessons learned or otherwise have available for posterity's sake any of the system design, architecture, implementation and software engineering know how that went into the project.
 We all can likely think of example projects where this has happened.
 
 Over time, project assets and artifacts and even contact information of the people involved can fall out of date and/or become inaccessible.
@@ -26,13 +29,13 @@ Here we outline a number of choices sofware project members can make that will i
 
    Making a final release when there is a planned sunset date is easier than doing so when funding is suddenly and unexpectedly lost.
    If work must cease immediately, then there really isn't much more that can be done.
-   However, with fair warning, a project can move to *tidy things up* before ceasing all work.
-   There is likely work in progress to bring to a close but nonetheless leaves the software in a functional state.
-   That may mean conditionally disabling (via well-documented CPP `#if` or `#ifdef`) associated code blocks.
+   However, with fair warning, a project can move to *tidy things up* all funding is lost.
+   There is likely work in progress to bring to a close but nonetheless leaves the software in a reasonably functional state.
+   That may mean conditionally disabling (via well-documented CPP `#if` or `#ifdef`) in-progress code blocks.
    It may mean hastily written testing and documentation too.
-   An untimely, end-of-project release may be subpar quality.
-   If so, identify the release as a *development* or *experimental*.
-   The goal of an untimely end-of-project release is to capture a snapshot with as much information about the state of the software (its design, architecture, implementation, etc.) as possible.
+   An untimely, end-of-project release may even be below the quality standards the project is accustomed to maintaining.
+   If so, the release can be identified as *development* or *experimental*.
+   The goal of an untimely end-of-project release is to capture the most comprehensive snapshot with as much information about the state of the software (its design, architecture, implementation, etc.) as possible.
 
 1. Open-source the code
 
@@ -40,16 +43,31 @@ Here we outline a number of choices sofware project members can make that will i
    The institution(s) that sponsored its development may require an open-source release to follow specific processes.
    For example, Livermore Labs' Information Management (IM) office defines the processes to follow for open-source releases.
    By making a project's software open source, it becomse possible to host the software in world-readable, public places (e.g. GitHub or GitLab) where the community can find it and learn from it.
+   In these cases, it is best to choose a *permissive* type open source license which includes a *disclaimer of warranty* which most do. 
+   Good options are [MIT](https://opensource.org/license/mit/) or [ISC](https://www.isc.org/licenses/).
+
+   Utilization of software project hosting providers such as SourceForge, GitHub, GitLab,
+   etc.  definitely helps software projects avoid some issues when discontinuing by enabling
+   the project to maintain a continued presence even after funding is lost. The more
+   services (issue tracking, email lists, web site hosting, etc.) the project utilizes
+   from hosting providers, the easier it is for informabout about the project to remain
+   available even after all work has ended.
+   For example, GitHub features the ability to put a repository in an *archived* state.
+   But, even that has its limits (security updates for example take effort).
 
 1. Document final status
 
    In any project, documentation is important.
    Ordinarily, documentation has various roles such as for users, developers and/or installers/maintainers of the software.
-   For a project that is ending, there is probably very little resource available to continue writing documentation.
-   In addition, the role of any remaining documentation should be to try to capture a complete snapshot of *key* aspects of the software as possible.
+   For a project that is ending, there is probably very little resource available to continue writing documentation or fill in massive gaps in documentation before all funding is lost.
+   In addition, the role of any remaining documentation should be to try to capture a complete snapshot of *key* aspects of the software design and implementation as possible.
    This could be as simple as bunch of bullets in a `final-status.txt` file that remains with the software.
-   The goal is to capture the project's objectives, methodologies, and key findings.
+   The goal is to capture the software's objectives, methodologies, and key findings.
    Include any design decisions, algorithms, and implementation details that may be valuable to others who might be interested in following in your footsteps.
+
+This includes code, design decisions, architecture, and any relevant discussions or meetings. Create comprehensive documentation that can help other developers understand the project's scope, progress, and any challenges encountered.
+ If you are aware of large swaths of documentation that is sitting around in places (emails, slide decks, pdf files) that are not already available online *with* the source code, consider getting this information *out there*.
+
 
 1. Establish an enduring on-line presence
 
@@ -61,61 +79,39 @@ Here we outline a number of choices sofware project members can make that will i
 
    Consider archiving the software.
    There are archival services available such as [DOE Code](https://www.code.gov), [netlib.org](https://netlib.org), [Software Heritage](https://www.softwareheritage.org), [Internet Archive](https://archive.org) and [Archive Team](https://wiki.archiveteam.org/index.php/Main_Page) all of which handle archival of software among other things.
-   Another option to consider is archiving the software with a Digital Object Identifier (DOI) agency.
+   Another option to consider is archiving the software with a [Digital Object Identifier](https://bssw.io/items/persistent-identifiers-for-software-in-scientific-computing) (DOI) agency.
    There are many DOI agencies often specializing in certain kinds of digital assets.
    Some handle source code.
    Consider [Crossref](https://www.crossref.org), [Zenodo](https://zenodo.org) and [Open Science Framework](https://osf.io).
 
+6. **Archive Assets**: Store all relevant assets, such as design files, mockups, and any research conducted during the project. These assets can be beneficial for future projects or as reference material.
+
 1. Present or Publish (about the software)
 
-   Get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can talk in more detail about the *software* (instead of the science it may enable).
-   Often case-studies and lessons learned are good candidate topical areas for a piece of literature about the software.
+   Get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can write in more detail about the *software* (and less about the science it may enable).
+   Often case-studies and lessons learned are good candidate topical areas for a piece of literature about the software itself.
    Publish research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes.
-   By actively sharing knowledge, you increase the chances of the community benefiting from the project's know-how.
+   By actively sharing knowledge of the software design and development, you increase the chances of the community benefiting from the project's know-how.
 
 1. Consider refactoring critical dependencies
 
-   Considering splitting out the pieces of your software that may have a life of their own apart from the originating project.
-   Engage down stream dependencies and the community to ask if anyone is interested in taking over maintaining a piece.
-   Seek researchers working in similar area to see if they may see a benefit to maintaining a piece.
-   There may be graduate students looking for projects
+   Consider identifying key pieces of the software which may be worth splitting out for a life as an independent package apart from the originating project.
+   Engage any stakeholders with down stream dependencies to ask if anyone is interested in taking over maintaining a package.
+   Seek researchers working in similar area to see if they may see a benefit to maintaining any of these packages.
+   There may be graduate students looking for projects to build upon who may be interested and willing to pick up and build upon a package.
+**Evaluate Salvageable Components**: Assess if any parts of the codebase or architecture can be reused in other projects. Salvaging valuable components can save time and effort in future development.
 
-Discontinuing a partially completed software project can be challenging, but it's essential to handle it properly to preserve the knowledge gained and the lessons learned. Here are some steps and actions that can be useful in this process:
+1. Have a Post-Mortem Meeting:
 
-1. **Documentation**: Start by documenting everything related to the project. This includes code, design decisions, architecture, and any relevant discussions or meetings. Create comprehensive documentation that can help other developers understand the project's scope, progress, and any challenges encountered.
+**Lessons Learned**: Conduct a lessons-learned session with the team to capture insights into what went well and what didn't during the project's development. Document these lessons, as they can be valuable for future projects, ensuring that the same mistakes are not repeated.
+**Code Review**: If possible, conduct a code review with the team to identify any critical issues or potential security vulnerabilities. This will allow you to address these concerns and prevent them from carrying over to other projects.
 
- If you are aware of large swaths of documentation that is sitting around in places (emails, slide decks, pdf files) that are not already available online *with* the source code, consider getting this information *out there*.
-
-2. **Lessons Learned**: Conduct a lessons-learned session with the team to capture insights into what went well and what didn't during the project's development. Document these lessons, as they can be valuable for future projects, ensuring that the same mistakes are not repeated.
-
-3. **Code Review**: If possible, conduct a code review with the team to identify any critical issues or potential security vulnerabilities. This will allow you to address these concerns and prevent them from carrying over to other projects.
-
-4. **Knowledge Transfer**: Identify team members who were heavily involved in the project and arrange knowledge transfer sessions with them. This can include one-on-one meetings, pair programming, or knowledge-sharing sessions with the entire team.
-
-5. **Version Control**: Ensure that all the code, even if incomplete, is properly version controlled. This will allow future developers to understand the project's evolution and have access to all the work done up to this point.
-
-6. **Archive Assets**: Store all relevant assets, such as design files, mockups, and any research conducted during the project. These assets can be beneficial for future projects or as reference material.
-
-7. **Identify Reasons for Discontinuation**: Understand the reasons why the project is being discontinued. It could be due to budget constraints, changing business priorities, or technical challenges. Knowing these reasons will help in making informed decisions for future projects.
-
-8. **Communication**: Communicate the discontinuation decision transparently and promptly to stakeholders, clients, or anyone affected by the project. Be honest about the reasons and express gratitude to the team for their efforts.
-
-9. **Maintain Contact Information**: Make sure you have contact information for all team members in case any follow-up questions or clarifications are required in the future.
-
-10. **Evaluate Salvageable Components**: Assess if any parts of the codebase or architecture can be reused in other projects. Salvaging valuable components can save time and effort in future development.
-
-12. **Post-Mortem Meeting**: Hold a post-mortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience. This can lead to valuable insights for future projects.
+**Identify Reasons for Discontinuation**: Understand the reasons why the project is being discontinued. It could be due to budget constraints, changing business priorities, or technical challenges. Knowing these reasons will help in making informed decisions for future projects.
+**Post-Mortem Meeting**: Hold a post-mortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience. This can lead to valuable insights for future projects.
+**Communication**: Communicate the discontinuation decision transparently and promptly to stakeholders, clients, or anyone affected by the project. Be honest about the reasons and express gratitude to the team for their efforts.
 
 By following these steps, you can effectively discontinue a partially completed software project while retaining the knowledge gained and leveraging the lessons learned for future endeavors.
 
-Utilization of software project hosting providers such as SourceForge, GitHub, GitLab,
-etc.  definitely helps software projects avoid some issues when discontinuing by enabling
-the project to maintain a continued presence even after funding is lost. The more
-services (issue tracking, email lists, web site hosting, etc.) the project utilizes
-from hosting providers, the easier it is for informabout about the project to remain
-available even after all work has ended.
-For example, GitHub features the ability to put a repository in an *archived* state.
-But, even that has its limits (security updates for example take effort).
 
 There are things project stakeholders and sponsoring organizations can do to *gracefully* 
 discontinue a software project in such a way that key assets remain aviailable for
