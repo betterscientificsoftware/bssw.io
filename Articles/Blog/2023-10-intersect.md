@@ -8,25 +8,25 @@
 
 #### Publication date: October 13, 2023
 
-Born from the belief that there was an overwhelming lack of appropriate and focused training for research software engineering, the NSF-sponsored INTERSECT project aims to fill that gap by designing and delivering software engineering training targeting research software developers. In this blog post, we’ll give a quick overview of the project, discuss two recent events - a workshop and bootcamp, and finally give some lessons learned. 
+Born from the belief that there was an overwhelming lack of appropriate and focused training for research software engineering, the NSF-sponsored [INTERSECT](https://intersect-training.org/) project aims to fill that gap by designing and delivering software engineering training targeting research software developers. In this blog post, we’ll give a quick overview of the project, discuss two recent events - a workshop and bootcamp, and finally give some lessons learned. 
 
 ### INTERSECT
 
 The “INnovative Training Enabled by a Research Software Engineering Community of Trainers (INTERSECT)” project delivers software development and engineering training to intermediate and advanced developers of research software. INTERSECT has three main goals:
 
-1. Develop an open-source modular training framework conducive to community contribution 
-2. Deliver RSE-led research software engineering training targeting research software developers 
-3. Grow and deepen the connections within the national community of Research Software Engineers
+1. Develop an open-source modular training framework conducive to community contribution;
+2. Deliver RSE-led research software engineering training targeting research software developers; and
+3. Grow and deepen the connections within the national community of Research Software Engineers.
 
-The majority of INTERSECT’s funded focus is on activities surrounding the development and delivery of higher-level specialized research software engineering training. The target audience of INTERSECT’s training is focused on Research Software Developers, or RSDs, a subset of CI Contributors.
+The majority of INTERSECT’s funded focus is on activities surrounding the development and delivery of higher-level specialized research software engineering training. The target audience of INTERSECT’s training is focused on Research Software Developers, or RSDs, a subset of Cyber Infrastructure Contributors.
 
 ### Workshop and Preparation
 
-In August 2022 we hosted 15 experts in RSE training for a 1.5 day Workshop at Princeton University ([https://intersect-training.org/workshop22/](https://intersect-training.org/workshop22/)). The goal of this workshop was to collaboratively plan, develop, and package a series of training modules for the first INTERSECT Research Software Engineering Bootcamp. 
+In August 2022 we hosted 15 experts in RSE training for a 1.5-day Workshop at Princeton University ([https://intersect-training.org/workshop22/](https://intersect-training.org/workshop22/)). The goal of this workshop was to collaboratively plan, develop, and package a series of training modules for the first INTERSECT Research Software Engineering Bootcamp. 
 
-Prior to the workshop we developed learner profiles for the eventual bootcamp to help guide development and later help potential applicants in determining if they’d fit in our target demographics. Broadly speaking, the target learner audience was specified as domain researchers with some experience with programming and developing research code. They’d be experienced with some of the basics, but likely self-taught and had self-identified the need for more. These could be graduate students, post docs, or early career professionals in research domains with backgrounds that specifically were not formally in computer science. They likely would have taught themselves, piecemeal, and ad hoc some software development and identified the need for more. In other words, we weren’t targeting training aimed at true beginners. Some may be Research Software Engineers (RSEs) or want to be RSEs but that wasn’t an important criterion for targeted learners, rather we prioritized those who self-expressed desire to do learn and apply Research Software Engineering to their work were 
+Prior to the workshop, we developed learner profiles for the eventual bootcamp to help guide development and later help potential applicants in determining if they’d fit in our target demographics. Broadly speaking, the target learner audience was specified as domain researchers with some experience with programming and developing research code. They’d be experienced with some of the basics, but likely self-taught and had self-identified the need for more. These could be graduate students, postdocs, or early career professionals in research domains with backgrounds that specifically were not formally in computer science. They likely would have taught themselves, piecemeal, and ad hoc some software development and identified the need for more. In other words, we weren’t targeting training aimed at true beginners. Some may be Research Software Engineers (RSEs) or want to be RSEs but that wasn’t an important criterion for targeted learners, rather we prioritized those who self-expressed desire to do learn and apply Research Software Engineering to their work were 
 
-We began the workshop with an overview of the INTERSECT project. Then we brainstormed about how the training would look and which topics were most important to address during the workshop. Using these topics, we divided into groups to begin planning and development of training material for five prioritized modules (Design, Testing, Packaging, Working Collaboratively, DevOps/Continuous Integration). By the end of the workshop, the participants had a good start on the development of these modules and agreed to continue developing them in preparation for the first Bootcamp.
+We began the workshop with an overview of the INTERSECT project. Then we brainstormed about how the training would look and which topics were most important to address during the workshop. Using these topics, we divided into groups to begin planning and development of training material for five prioritized modules (Design, Testing, Packaging, Working Collaboratively, and DevOps/Continuous Integration). By the end of the workshop, the participants had a good start on the development of these modules and agreed to continue developing them in preparation for the first Bootcamp.
 
 ### Bootcamp
 
@@ -71,10 +71,10 @@ One of the stated goals of the bootcamp, and more broadly the INTERSECT project,
 
 ### Some Lessons Learned
 
-1. **Demand** - As evidenced by both the overwhelming number of applicants and by the feedback from the bootcamp participants, the demand, need, and value for such bootcamps and training is clear. The potential impact is broad and far reaching.
-2. **Diversity** - The participants frequently mentioned the diversity of their fellow bootcamp attendees as a uniquely positive element of the bootcamp. However the diversity in background did create challenges as each participant came with a dramatically different entry point. Some struggled with specific topics and examples, especially those that required more Python experience, math/science examples, and moving beyond beginner-level Git. 
+1. **Demand** - As evidenced by both the overwhelming number of applicants and by the feedback from the bootcamp participants, the demand, need, and value for such bootcamps and training is clear. The potential impact is broad and far-reaching.
+2. **Diversity** - The participants frequently mentioned the diversity of their fellow bootcamp attendees as a uniquely positive element of the bootcamp. However, the diversity in background did create challenges as each participant came with a dramatically different entry point. Some struggled with specific topics and examples, especially those that required more Python experience, math/science examples, and moving beyond beginner-level Git. 
 3. **Depth & time** - Even with a week-long bootcamp, we had insufficient time to cover most topics in depth. While we opted to prioritize exposure over depth, we are not sure yet whether we hit the right balance. 
-4. **Instructional Material format** - The Carpentries format is excellent in cases where participants wanted to follow along and even better to use as a reference later. However, porting material into the Carpentries format is time consuming, requiring a great deal of effort. 
+4. **Instructional Material format** - The Carpentries format is excellent in cases where participants wanted to follow along and even better to use as a reference later. However, porting material into the Carpentries format is time-consuming, requiring a great deal of effort. 
 
 ### Next Steps
 
