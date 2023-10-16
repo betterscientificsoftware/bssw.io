@@ -79,12 +79,13 @@ Will the fear of large codes disappear since AI systems can help us understand c
 Will it still be necessary to form good software engineers and pick up these skills early on?
 A fully articulated answer to these questions deserves a separate post, but I dare express a few main points.
 First, learning and knowing good practices is still needed to read and understand other peoples' (or AIs') codes.
-This is especially important if one needs to assess security, identify weaknesses, and vulnerabilities.
-In this case, a fundamental and critical matter arise: what seems like vulnerability to the human eye, might be categorized safe by an AI.
+This is especially important to assess security, identify weaknesses, and vulnerabilities.
+In this context, a fundamental and critical matter arise: what seems like vulnerability to the human eye, might be categorized safe by an AI.
 Second, I fully agree that -- at the time of this article -- AI tools (e.g., GitHub copilot, or LLMs, etc) can be very useful to *assist* with what is referred to as "boilerplate" code, refactoring efforts, or API documentation.
-Personally, I fully support such use case because, if seen as a starting point for developers to build on, this can save a lot of time.
-However, I am skepticaly that AI will replace the creative, innovative and design skills of good software developers, especially those working in team.
-Lastly, even if an AI system were able to tackle the architerctural or design decisions equally well or better than humans, I personally do not look forward to a future where we avoid critical thinking, learning and problem solving, and just delegate that too.
+Personally, I believe such use case is very valuable because, if seen as a starting point for developers to build on, this can save a lot of time.
+However, I am skeptical (for now) that AI will replace the creative, innovative and design skills of good software developers, especially those working in team.
+For the sake of the argument, let's assume I am wrong: we have an AI system capable of tackling and solving complex architectural and/or design decisions equally well (or better) than humans.
+I personally do not look forward to a future where we avoid critical thinking, learning and problem solving, and just delegate that too.
 
 ### Author bio
 
