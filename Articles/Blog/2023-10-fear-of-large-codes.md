@@ -80,7 +80,7 @@ Will it still be necessary to form good software engineers and pick up these ski
 A fully articulated answer to these questions deserves a separate post, but I dare express a few main points.
 First, learning and knowing good practices is still needed to read and understand other peoples' (or AIs') codes.
 This is especially important to assess security, identify weaknesses, and vulnerabilities.
-In this context, a fundamental and critical matter arise: what seems like vulnerability to the human eye, might be categorized safe by an AI.
+In this context, a fundamental and critical matter arise: what seems a vulnerability to the human eye, might be a safe call by an AI.
 Second, I fully agree that -- at the time of this article -- AI tools (e.g., GitHub copilot, or LLMs, etc) can be very useful to *assist* with what is referred to as "boilerplate" code, refactoring efforts, or API documentation.
 Personally, I believe such use case is very valuable because, if seen as a starting point for developers to build on, this can save a lot of time.
 However, I am skeptical (for now) that AI will replace the creative, innovative and design skills of good software developers, especially those working in team.
