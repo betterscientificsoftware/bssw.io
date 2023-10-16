@@ -78,7 +78,7 @@ At this point, you might wonder: if all of this is coming in the (near) future, 
 Will the fear of large codes disappear since AI systems can help us understand code, no matter how complex it is, and contribute to it without the need to have deep software skills?
 Will it still be necessary to form good software engineers and pick up these skills early on?
 A fully articulated answer to these questions deserves a separate post, but I dare express a few main points.
-First, learning and knowing good practices is still needed to read and understand other codes.
+First, learning and knowing good practices is still needed to read and understand other peoples' (or AIs') codes.
 This is especially important if the code being evaluated is written by an AI, since one would need to assess security, identify weaknesses, and vulnerabilities. Only a developer with a "trained eye" can catch those efficiently.
 Second, I fully agree that -- at the time of this article -- AI tools (e.g., GitHub copilot, or LLMs, etc) are alreay very useful to *assist* with what is referred to as "boilerplate" code, refactoring efforts, or API documentation.
 And I fully support such use case, because if seen as a starting point for developers to build on, this can save a lot of time.
