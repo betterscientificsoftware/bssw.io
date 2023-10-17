@@ -44,7 +44,7 @@ It is natural to ask at this point: why is this fear of large codes so common?
 After all, not all students are like the one mentioned at the beginning of this article, praised for their "lack of fear" of getting their hands dirty with large codes.
 What if there was a way for *most* students to work on large codes without necessarily needing years of development experience and, most importantly, without being afraid of them?
 You may think this a utopian view, but I would argue that such a reality *could* exist.
-Imagine a code (started as a small project, but on its way to becoming a large one) developed from the beginning with *accessibility* and *sustainability* in mind: the design is modular and flexible (e.g., in object-oriented programming (OOP) the [SOLID principles](https://www.youtube.com/watch?v=Ntraj80qN2k) are meticulously met), documentation is complete, and the test suite is well-developed.
+Imagine a code (started as a small project, but on its way to becoming a large one) developed from the beginning with *accessibility* and *sustainability* in mind: the design is modular and flexible (e.g., in object-oriented programming (OOP) the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) are meticulously met), documentation is complete, and the test suite is well-developed.
 If this were the case, I believe that any person with even a minimum set of skills should be able to contribute -- such a code need not be feared, but rather appreciated and liked by users who are comfortable using it in their learning and research.
 However, there is a caveat, in that more often than not, the time scale of developing a "pristine" code conflicts with funding and research timelines... which brings me to the following point.
 
@@ -62,9 +62,11 @@ Broadly speaking, I would argue that it could benefit the scientific community a
 First, it would allow graduate students and junior researchers to learn many skills along the way, e.g. team development, testing, and software quality, that would later prove critical for the job market---after all, many of them are the computational scientists of the future.
 Second, developing solid and robust software would decrease the chances of doing something incorrectly and, therefore, increase the trustworthiness of the results, which is critical for scientific reproducibility.
 Finally, any research code developed from the ground up with good practices would less likely be forgotten and more likely become the starting point for a production code (or a stepping stone for other work).
-# For graduate students, this would have a key benefit: it would allow students to learn many skills along the way, e.g. team development, testing, and software quality, that would later prove critical for the job market.
-# After all, many graduate students and junior researchers are the computational scientists of the future.
-# More broadly, for a research idea or a proposal, I see two critical benefits: (a) solid, robust software would decrease the chances of doing something incorrectly and, therefore, increase the trustworthiness of the results and benefit scientific reproducibility; (b) any research code developed from the ground up with good practices would less likely be forgotten and more likely to become the starting point for a production code.
+<!--
+For graduate students, this would have a key benefit: it would allow students to learn many skills along the way, e.g. team development, testing, and software quality, that would later prove critical for the job market.
+After all, many graduate students and junior researchers are the computational scientists of the future.
+More broadly, for a research idea or a proposal, I see two critical benefits: (a) solid, robust software would decrease the chances of doing something incorrectly and, therefore, increase the trustworthiness of the results and benefit scientific reproducibility; (b) any research code developed from the ground up with good practices would less likely be forgotten and more likely to become the starting point for a production code.
+-->
 
 
 ### What if AI models take over?
