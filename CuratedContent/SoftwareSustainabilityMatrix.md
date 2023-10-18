@@ -49,7 +49,7 @@ It is stated that many teams make significant improvements in the sustainability
 In this respect, this is similar to the impact of the OpenSSF Best Practices Badge Program<sup>[4]</sup>.
 That is, by having a team fill out each best practice item, the team will often implement suggested best practices, especially for practices that are not too difficult to adopt and support.
 
-In summary the Software Sustainability Matrix (SSM) is a promising approach to help triage the sustainability of individual software packages (and collectively an entire software package ecosystem) and then help to dive efforts to make improvements.
+In summary, the Software Sustainability Matrix (SSM) is a promising approach to help quantify the sustainability of individual software packages (and collectively entire software package ecosystems) and then help to drive efforts to make targeted improvements to improve sustainability.
 
 <!---
 Publish: yes
