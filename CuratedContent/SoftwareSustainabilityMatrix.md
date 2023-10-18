@@ -60,22 +60,22 @@ RSS update: ???
 
 <!-- References -->
 
-[SCI_and_Kitware_SSM-sfer-ezikiw]: https://www.kitware.com//the-scientific-computing-and-imaging-sci-institute-and-kitware-putting-software-sustainability-into-practice "The Scientific Computing and Imaging (SCI) Institute and Kitware: Putting Software Sustainability into Practice {Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Kitware Blog, January 22, 2021}"
+[SCI_and_Kitware_SSM-sfer-ezikiw]: https://www.kitware.com//the-scientific-computing-and-imaging-sci-institute-and-kitware-putting-software-sustainability-into-practice "The Scientific Computing and Imaging (SCI) Institute and Kitware: Putting Software Sustainability into Practice. {Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Kitware Blog, January 22, 2021}"
 
-[SCI_and_Kitware_SSM_CIBC-sfer-ezikiw]: https://www.sci.utah.edu/cibc-about/cibc-news/142-general-news-cibc/702-sci-kitware.html "SCI Institute and Kitware: Putting Software Sustainability into Practice {Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Center for Integrative Biomedical Computing Blog}"
+[SCI_and_Kitware_SSM_CIBC-sfer-ezikiw]: https://www.sci.utah.edu/cibc-about/cibc-news/142-general-news-cibc/702-sci-kitware.html "SCI Institute and Kitware: Putting Software Sustainability into Practice. {Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Center for Integrative Biomedical Computing Blog}"
 
-[Scoring_the_SSM-sfer-ezikiw]: https://www.kitware.com/scoring-software-sustainability "Scoring Software Sustainability {Will Schroeder, Matt McCormick and Jean-Christophe Fillion-Robin.  Kitware Blog, May 8, 2021}"
+[Scoring_the_SSM-sfer-ezikiw]: https://www.kitware.com/scoring-software-sustainability "Scoring Software Sustainability. {Will Schroeder, Matt McCormick and Jean-Christophe Fillion-Robin.  Kitware Blog, May 8, 2021}"
 
 [OpenSSF_Best_Practices_Badge_Program-sfer-ezikiw]: https://bssw.io/items/openssf-best-practices-badge-program "OpenSSF Best Practices Badge Program {}"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
-[1]: #sfer-ezikiw-1 "The Scientific Computing and Imaging (SCI) Institute and Kitware: Putting Software Sustainability into Practice"
-[2]: #sfer-ezikiw-2 "SCI Institute and Kitware: Putting Software Sustainability into Practice"
-[3]: #sfer-ezikiw-3 "Scoring Software Sustainability"
-[4]: #sfer-ezikiw-4 "OpenSSF Best Practices Badge Program"
+[1]: #sfer-ezikiw-1 "The Scientific Computing and Imaging (SCI) Institute and Kitware: Putting Software Sustainability into Practice."
+[2]: #sfer-ezikiw-2 "SCI Institute and Kitware: Putting Software Sustainability into Practice."
+[3]: #sfer-ezikiw-3 "Scoring Software Sustainability."
+[4]: #sfer-ezikiw-4 "OpenSSF Best Practices Badge Program."
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[The Scientific Computing and Imaging (SCI) Institute and Kitware: Putting Software Sustainability into Practice<br>Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Kitware Blog, January 22, 2021](https://www.kitware.com//the-scientific-computing-and-imaging-sci-institute-and-kitware-putting-software-sustainability-into-practice)
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[SCI Institute and Kitware: Putting Software Sustainability into Practice<br>Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Center for Integrative Biomedical Computing Blog](https://www.sci.utah.edu/cibc-about/cibc-news/142-general-news-cibc/702-sci-kitware.html)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Scoring Software Sustainability<br>Will Schroeder, Matt McCormick and Jean-Christophe Fillion-Robin.  Kitware Blog, May 8, 2021](https://www.kitware.com/scoring-software-sustainability)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[The Scientific Computing and Imaging (SCI) Institute and Kitware: Putting Software Sustainability into Practice.<br>Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Kitware Blog, January 22, 2021](https://www.kitware.com//the-scientific-computing-and-imaging-sci-institute-and-kitware-putting-software-sustainability-into-practice)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[SCI Institute and Kitware: Putting Software Sustainability into Practice.<br>Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher Johnson, Dženan Zukić, Matt McCormick, Lee A. Newberg, Daniel White, Alexandra Warner, Ross Whitaker and Rob MacLeod. Center for Integrative Biomedical Computing Blog](https://www.sci.utah.edu/cibc-about/cibc-news/142-general-news-cibc/702-sci-kitware.html)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Scoring Software Sustainability.<br>Will Schroeder, Matt McCormick and Jean-Christophe Fillion-Robin.  Kitware Blog, May 8, 2021](https://www.kitware.com/scoring-software-sustainability)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[OpenSSF Best Practices Badge Program](https://bssw.io/items/openssf-best-practices-badge-program)
