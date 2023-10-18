@@ -25,7 +25,7 @@ The SSM score is composed from component scores in the four areas Impact, Risks,
 
 <br>
 <center>
-<img src='../images/SoftwareSustainabilityMatrix.png' width="80%" class='logo'/>
+<img src='../images/SoftwareSustainabilityMatrix.png' class='logo'/>
 </center>
 <br>
 
