@@ -18,7 +18,7 @@ prestigious CSEM (Computational Science, Engineering, and Mathematics) program.
 While reading the article, the following two statements from his advisor caught my attention:
 "...he is not afraid to get his hands dirty with large-scale codes and data sets, ..." and
 "...recognizes that software is a part of his research product...".
-To a general reader, these words might not sound anything special. To me, however, they highlight
+To most readers, these words might not sound anything special. To me, however, they highlight
 two critical aspects shared by a lot of graduate students, resonating with something I [talked about at SC22](https://github.com/fnrizzi/sc22_bof_slides).
 And, more broadly, I would argue they still affect the community involved in scientific research as a whole.
 Why? Let me elaborate on them.
@@ -37,7 +37,7 @@ As one of my colleagues used to say: "I love when I can prototype ideas and expl
 However, such a "sandbox reality" has a limited lifetime.
 At some point, the POC will no longer be sufficient to make the "deep" progress expected, and problems of greater complexity need to be studied.
 This is typically the turning point when larger-scale software comes into the picture, and it also marks the time when many graduate students face the "fear of large codes".
-A large code is diametrically opposed to the POC experience: a student now has only partial control; has to work in a team comprising multiple people; has to systematically deal with version control, where even small changes require more work; other developers might change the code "under your feet" requiring the student to constantly update; developers who wrote parts of the code have left and nobody remaining knows the inner workings of some functions; and, finally, the student has to dig deep into the code to understand it because of the lack of documentation.
+A large code is diametrically opposed to the POC experience: a student now has only partial control; has to work in a team comprising multiple people; has to systematically deal with version control, where even small changes require more work; other developers might change the code "under your feet" requiring the student to constantly update; developers who wrote parts of the code may have left and nobody remaining knows the inner workings of some functions; and, finally, the student has to dig deep into the code to understand it because it lacks documentation.
 With all these factors and unknowns playing a role, the fear of facing such a seemingly hard task grows, and with it, the pressure to deliver.
 
 It is natural to ask at this point: why is this fear of large codes so common?
@@ -68,7 +68,6 @@ After all, many graduate students and junior researchers are the computational s
 More broadly, for a research idea or a proposal, I see two critical benefits: (a) solid, robust software would decrease the chances of doing something incorrectly and, therefore, increase the trustworthiness of the results and benefit scientific reproducibility; (b) any research code developed from the ground up with good practices would less likely be forgotten and more likely to become the starting point for a production code.
 -->
 
-
 ### What if AI models take over?
 
 Some people believe the rise of AI and large language models (LLMs) will change the way we write and understand software.
@@ -84,8 +83,8 @@ First, learning and knowing good practices is still needed to read and understan
 This is especially important to assess security, identify weaknesses, and vulnerabilities.
 For example, what seems a vulnerability to the human eye, might be a safe call by an AI.
 Second, I fully agree that -- at the time of this article -- AI tools (e.g., GitHub copilot, or LLMs, etc) can be very useful to *assist* with what is referred to as "boilerplate" code, refactoring efforts, API documentation, plots, etc.
-Personally, I believe such use case is very valuable because, if seen as a *starting point* for individuals to build on, this can save a lot of time.
-A great example of this is a recent [CppCon23 keynote][https://www.youtube.com/watch?v=J48YTbdJNNc&t=3999s], highly recommended.
+Personally, I believe such a use case is very valuable because, if seen as a *starting point* for individuals to build on, it can save a lot of time.
+A great example of this is a recent [CppCon23 keynote][https://www.youtube.com/watch?v=J48YTbdJNNc&t=3999s], which I recommend highly.
 However, I am skeptical (for now) that AI will replace the creative, innovative and design skills of good software developers, especially those working in team.
 For the sake of the argument, let's assume I am wrong: we have an AI system capable of tackling and solving complex architectural and/or design decisions equally well (or better) than humans.
 I personally do not look forward to a future where we avoid critical thinking, learning and problem solving, and just delegate that too.
