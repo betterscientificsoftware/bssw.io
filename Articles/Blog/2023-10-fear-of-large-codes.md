@@ -52,10 +52,10 @@ However, there is a caveat, in that more often than not, the time scale of devel
 
 Despite software's fundamental role in computational science, some research efforts are still carried out treating software just as a means to an end.
 This is particularly common in projects driven by graduate students.
-For example, it is common to see codes developed only for a paper, and then the codes are forgotten, or research proposals written without explicitly mentioning software development as a critical deliverable.
+For example, it is common to see codes developed only for a paper, and then the codes are forgotten, or research proposals are written without explicitly mentioning software development as a critical deliverable.
 I would argue that this approach must change for software to be sustainable, accessible, and maintainable.
 Software development should be a first-class entity in a research effort focusing on computational sciences.
-Obviously, reconciling this with the actual research questions to address and balancing it all out, budget-wise, is hard.
+Reconciling this with the actual research questions to address and balancing it all out, budget-wise, is hard.
 But, for the sake of the argument, what could happen if this were the case?
 In other words, what could happen if a non-trivial part of a research budget was explicitly dedicated to the software development required?
 Broadly speaking, I would argue that it could benefit the scientific community as a whole.
@@ -71,7 +71,7 @@ More broadly, for a research idea or a proposal, I see two critical benefits: (a
 ### What if AI models take over?
 
 Some people believe the rise of AI and large language models (LLMs) will change the way we write and understand software.
-In fact, some experts in the field of programming believe that humans writing software, the corresponding documentation, and the whole idea of software maintainability will eventually become obsolete.
+In fact, some experts in the field of programming believe that humans writing software and the corresponding documentation, and the whole idea of software maintainability will eventually become obsolete.
 Why?
 Because, assuming a powerful enough AI/LLM system were available, this system would write the software and its documentation in a matter of "minutes".
 Furthermore, there will not be a need to maintain this software since the cost of constantly re-writing it from scratch and replacing it will be small -- negligible compared to the cost of humans developing software.
@@ -80,14 +80,14 @@ Will the fear of large codes disappear since AI systems can help us understand c
 Will it still be necessary to form good software engineers and pick up these skills early on?
 A fully articulated answer to these questions deserves a separate post, but I dare express a few main points.
 First, learning and knowing good practices is still needed to read and understand other peoples' (or AIs') codes.
-This is especially important to assess security, identify weaknesses, and vulnerabilities.
+This is especially important to assess security, and identify weaknesses and vulnerabilities.
 For example, what seems a vulnerability to the human eye, might be a safe call by an AI.
 Second, I fully agree that -- at the time of this article -- AI tools (e.g., GitHub copilot, or LLMs, etc) can be very useful to *assist* with what is referred to as "boilerplate" code, refactoring efforts, API documentation, plots, etc.
 Personally, I believe such a use case is very valuable because, if seen as a *starting point* for individuals to build on, it can save a lot of time.
-A great example of this is a recent [CppCon23 keynote][https://www.youtube.com/watch?v=J48YTbdJNNc&t=3999s], which I recommend highly.
-However, I am skeptical (for now) that AI will replace the creative, innovative and design skills of good software developers, especially those working in team.
+A great example of this is a recent [CppCon23 keynote](https://www.youtube.com/watch?v=J48YTbdJNNc&t=3999s), which I recommend highly.
+However, I am skeptical (for now) that AI will replace the creative, innovative, and design skills of good software developers, especially those working in a team.
 For the sake of the argument, let's assume I am wrong: we have an AI system capable of tackling and solving complex architectural and/or design decisions equally well (or better) than humans.
-I personally do not look forward to a future where we avoid critical thinking, learning and problem solving, and just delegate that too.
+I do not look forward to a future where we avoid critical thinking, learning, and problem solving, and just delegate that too.
 
 ### Author bio
 
