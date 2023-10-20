@@ -21,7 +21,7 @@ The theme of the 2021 US-RSE Virtual Workshop is “A Path forward for Research 
 
 Instructions for both proposals to present at the workshop and applications to be a reviewer can be found on the website. 
 
-#### Contributed by the BSSw Community
+#### Contributed by BSSw Community
 
 #### Publication date: April 16, 2021
 
