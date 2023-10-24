@@ -6,7 +6,7 @@
 
 #### Contributed by [Nitin Sukhija](https://www.linkedin.com/in/nitin-sukhija-a36882b6/)
 
-#### Publication date: November 13, 2023
+#### Publication date: November 9, 2023
 
 <!--
 The Best Practices and Tools for Secure Scientific Software Development includes components for evaluating design practices to create secure software, descriptions of appropriate software processes for managing secure software, threat modeling, and quality assurance testing using both static and dynamic analysis tools.
