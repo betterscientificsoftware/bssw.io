@@ -5,7 +5,7 @@ The Software Sustainability Matrix (SSM) is an effort to quantify the sustainabi
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett GitHub Profile")
-#### Publication date: ???
+#### Publication date: October 26, 2023
 
 Resource information | Details
 :--- | :--- 
@@ -14,12 +14,12 @@ Authors | Will Schroeder, Jess Tate, Jean-Christophe Fillion-Robin, Christopher 
 Publication Details | [Kitware Blog](https://www.kitware.com/blog), January 3, 2020
 Focus | Software sustainability
 
-The Software Sustainability Matrix (SSM) is a joint effort of the Scientific Computing and Imaging (SCI) Institute and Kitware to improve the sustainability of the open-source package ecosystem making up the foundational software portfolio for the Center for Integrative Biomedical Computing (CIBC) lead by the SCI for the National Institutes of Health (NIH) <sup>[1],[2]</sup>.
-The goal of the SSM effort is to create numerical scores for different aspects of software sustainability for a software package as well of a combined sustainability score.
+The Software Sustainability Matrix (SSM) is a joint effort of the Scientific Computing and Imaging (SCI) Institute and Kitware to improve the sustainability of the open-source package ecosystem making up the foundational software portfolio for the Center for Integrative Biomedical Computing (CIBC) led by the SCI for the National Institutes of Health (NIH) <sup>[1],[2]</sup>.
+The goal of the SSM effort is to create numerical scores for various aspects of software sustainability for a software package as well a combined sustainability score for the package.
 This SSM process is being used to guide efforts to improve the sustainability of the CIBC software package ecosystem, with the hope to transition the continuing support of this software to the open-source community<sup>[1]</sup>.
 However, the SSM approach may be applicable to other package ecosystems and therefore may be of more general interest.
 
-The SSM score is composed from component scores in the four areas Impact, Risks, Community, and Technology as shown in [Figure 1](#fig_software_sustainability_matrix) and each of these areas are broken down into several different subareas.
+The SSM score is composed from component scores in four areas: Impact, Risks, Community, and Technology, as shown in [Figure 1](#fig_software_sustainability_matrix), and each area is broken down into several subareas.
 
 <a name="fig_software_sustainability_matrix"/>
 
@@ -36,7 +36,7 @@ The SSM score is composed from component scores in the four areas Impact, Risks,
 <br>
 <br>
  
-Scores in the range [0-100] in these four areas Impact, Risks, Community, and Technology are then combined in a weighted sum:
+Scores in the range [0-100] in these four areas (Impact, Risks, Community, and Technology) are then combined in a weighted sum:
 
 &nbsp;&nbsp;&nbsp;&nbsp;SSM Score = F<sup>I</sup> * I + F<sup>R</sup> * R + F<sup>C</sup> * C + F<sup>T</sup> * T
 
@@ -46,16 +46,15 @@ It is not specified how the SCI & Kitware program computes the component scores 
 
 It is stated by the authors that the primary benefit of estimating the SSM score by a software package team is not in computing the final score, but instead in highlighting areas of possible improvement.
 It is claimed that many teams make significant improvements in the sustainability for their packages while working through the process of estimating the SSM score by adopting better processes in different areas.
-In this respect, this is similar to the impact of the OpenSSF Best Practices Badge Program<sup>[4]</sup>.
+In this respect, the SSM impact is similar to the impact of the OpenSSF Best Practices Badge Program<sup>[4]</sup>.
 That is, by having a team score each suggested practice, the team will often implement many suggested best practices, especially for practices that are not too difficult to adopt and support.
 
-In summary, the Software Sustainability Matrix (SSM) is a promising approach to help quantify the sustainability of individual software packages (and collectively entire software package ecosystems) and subsequently drive efforts to make targeted improvements for sustainability.
+In summary, the Software Sustainability Matrix (SSM) is a promising approach to help quantify the sustainability of individual software packages (and collectively entire software package ecosystems) and subsequently to drive efforts to make targeted improvements for sustainability.
 
 <!---
 Publish: yes
 Pinned: no
 Topics: Software process improvement, Software sustainability
-RSS update: ???
 --->
 
 <!-- References -->
