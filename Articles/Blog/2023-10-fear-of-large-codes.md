@@ -19,8 +19,12 @@ While reading the article, the following two statements from his advisor caught 
 "...he is not afraid to get his hands dirty with large-scale codes and data sets, ..." and
 "...recognizes that software is a part of his research product..."
 To most readers, these words might not sound special. To me, however, they highlight
-two critical aspects shared by a lot of graduate students, resonating with something I [talked about at SC22](https://github.com/fnrizzi/sc22_bof_slides).
-And, more broadly, I would argue they still affect the community involved in scientific research as a whole.
+two critical concerned shared by a lot of graduate students, resonating with something I [talked about at SC22](https://github.com/fnrizzi/sc22_bof_slides): 
+
+- Fear of large codes
+- Concern that software development should be more valued as an integral part of research
+  
+More broadly, I would argue these concerns still affect the community involved in scientific research as a whole.
 Why? Let me elaborate on them.
 
 ### Fear of large codes
@@ -48,7 +52,7 @@ Imagine a code (started as a small project, but on its way to becoming a large o
 If this were the case, I believe that any person with even a minimum set of skills should be able to contribute -- such a code need not be feared, but rather appreciated and liked by users who are comfortable using it in their learning and research.
 However, there is a caveat, in that more often than not, the time scale of developing a "pristine" code conflicts with funding and research timelines, which brings me to the following point.
 
-### Software development should be more valued when doing research
+### Concern that software development should be more valued as an integral part of research
 
 Despite software's fundamental role in computational science, some research efforts are still carried out by treating software just as a means to an end.
 This circumstance is particularly common in projects driven by graduate students.
