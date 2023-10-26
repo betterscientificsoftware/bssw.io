@@ -2,12 +2,13 @@
 
 HPC/CSE software projects involve at least two kinds of *deep* know-how.
 One is the computational science the software aims to enable.
-The other is the computer science (aka software engineering) involved in designing, developing and often even deploying the software for use.
+The other is the computer science (aka software engineering) involved in designing, developing, deploying and supporting the software for users.
 
 Because the ultimate goal of most HPC/CSE projects is the advancement of the underlying science, publications concerning the computational science know-how are often the priroity.
-When such a project ends, there is little risk that the computational science know-how will be lost.
+When such a project ends, there is little risk the computational science know-how will be lost.
 It is often captured in perpetuity in the publicly available literature.
 On the other hand, the computer science know-how is often at risk of being lost.
+
 Scientific computing research software projects can come to an end in ways that ultimately impact our community's ability to ever reap any benefit from progress made or lessons learned or otherwise have available for posterity's sake any of the system design, architecture, implementation and software engineering know how that went into the project.
 We all can likely think of example projects where this has happened.
 
@@ -26,24 +27,21 @@ A common situation is a domain name and/or institutional domain aliase/forward t
 When this happens, the main entry point to the project known throughout the community is lost.
 Future researchers are then unable to discover the project even existed let alone find anyone with knowledge about it.
 
-Here we outline a number of actions sofware project members can take to ensure software assets will remain accessible after a project comes to an end.
+There are things project stakeholders and sponsoring organizations can do to *gracefully* discontinue a software project in such a way that the computer science know-how remains aviailable for the benefit of the community.
+Firstly, the sponsor can actually fund various of the activities (mentioned below) to gracefully discontinue the project.
 
+Here we outline a number of actions sofware project members can take to ensure computer science know-how will remain accessible after a project comes to an end.
 With fair warning, a project can move to *tidy things up* before all funding is lost.
 
 When there is a planned sunset date or with fair warning, taking any of the actions outlined below is easier than trying to cram them in at the last minute if funding is suddenly and unexpectedly lost.
 If work must cease immediately, we acknowledge few of the actions listed here will be possible.
-
-There are things project stakeholders and sponsoring organizations can do to *gracefully* 
-discontinue a software project in such a way that key assets remain aviailable for
-the benefit of the community.
-Sponsor...fund the discontinuation
 
 1. Make an End-of-project release
 
    The purpose of an end-of-project release is to capture not only the most up to date version of the software but also as much of the computer science know-how that is not already available through other resources.
    When scrambling to make an end-of-project release, there may be critical bug fix or feature enhancement work to bring to a close.
    If the project is hosted in a public repo, simply documenting which branches hold which critical work may be sufficient.
-   Otherwise, merging in-progress work to the main line of development but conditionally disabling it (via CPP `#if` or `#ifdef` conditionals).
+   Otherwise, merging in-progress work to the main line of development but conditionally disabling it (via CPP `#if` or `#ifdef` conditionals) may be appropriate.
    Alternatively, if the only publicly available artifact will be the release tarball itself, creating multiple variants of the associated source files will help to ensure critical in-progress work remains accessible for posterity.
    An untimely end-of-project release may mean hastily written testing and documentation.
    That's ok.
@@ -54,7 +52,7 @@ Sponsor...fund the discontinuation
 
 1. Open-source the code
 
-   If the project's source code is not already open source, a key way to ensure it remains available to the community is to release it under a widely adopted open-source license.
+   If the project's source code is not already open source, a key way to ensure the computer science know-how remains available to the community is to release it under a widely adopted open-source license.
    The institution(s) that sponsored its development may have specific processes to follow to release the software as open-source.
    For example, Livermore Labs' Information Management (IM) office defines [a set of processes](https://computing.llnl.gov/sites/default/files/COMP_Poster_OSS.pdf) to follow for open-source releases.
    By making a project's software open source, it becomse possible to host the software in world-readable, public places (e.g. GitHub or GitLab) where the community can find it and learn from it.
@@ -67,7 +65,7 @@ Sponsor...fund the discontinuation
    For a project that is quickly ending, there is likely very little resource available to fill in any *massive* gaps in documentation.
    In addition, the role of any remaining documentation effort should be to try to capture a complete snapshot of the computer science know-how as practical.
    This could be as simple as bunch of bulleted statements in a `final-status.txt` file at the root of the source code tree. 
-   The goal is to capture the software's design objectives, methodologies, and key findings.
+   The goal is to capture, without too much effort, the software's design objectives, methodologies, and key findings.
    Include key design decisions, architecture notes, algorithms, and implementation details that may be valuable to others.
    If there is known to be large swaths of documentation that is sitting around in restricted places (emails, slide decks, pdf files) that are not already available on line and/or *with* the source code, consider getting this information *out there* with the source code as well.
 
@@ -91,8 +89,7 @@ Sponsor...fund the discontinuation
 
    Get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can write in more detail about the computer science known-how.
    Often case-studies and lessons learned are good candidate topical areas for a piece of literature focusing on the computer science aspects of the project.
-   Publish research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes.
-   By actively sharing knowledge of the software design and development, you increase the chances of the community benefiting from the project's CS know-how.
+   Published research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes are a great way to capture the computer science know-how of a project.
 
 1. Consider refactoring critical dependencies
 
@@ -119,31 +116,18 @@ Sponsor...fund the discontinuation
 
 1. Communications
 
-   The discontinuation decision needs to be communidated as soon as possible to stakeholders.
-   Whenever possible be open and honest about the reasons and express gratitude to for their efforts.
+   The discontinuation decision needs to be communicated as soon as possible to stakeholders.
+   Whenever possible be open and honest about the reasons and express gratitude to for contributor's efforts.
+   The sooner existing users can be notified that the software is loosing support, the more time they will have to consider what to do.
+   One of the first things to decide is whether future project *communications* will go on some form of life-support or be discontinued entirely.
+   Having life-support communications is obviously preferred but it comes at some non-zero cost and so may not be practical in
+all cases.
+   For life-support, it is important to identify *how* (e.g. email, chat services, etc.) any inquiries will be handled and by *whom*.
+   This information should be posted prominently in all of the on-line spaces where the project has a presence.
+   Even if communications will be discontinued entirely, it may make sense to provide way for inquirers to *register* their interest by some kind of a sign-up process that collects such contact information.
+   GitHub reactions can be used for this purpose.
 
-What to do about existing users? What to do about future users?
-license to transfer or support continued development by others.
+  For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
+  For projects for which decent alternative software products exist, ensure users are aware of these alternatives.
 
-One of the first things to decide is whether future project *communications* will go on
-some form of life-support or be discontinued entirely. Having life-support communications
-is obviously preferred but it comes at some non-zero cost and so may not be practical in
-all cases. For life-support, it is important to identify *how* (e.g. email, twitter, slack)
-any inquiries will be handled and by *whom* (e.g. email address, twitter handle, slack
-username). This information should be posted prominently in all of the on-line spaces where
-the project has a continued presence. Even if communications will be discontinued entirely,
-it may make sense to provide way for inquirers to *register* their interest by some kind of
-a sign-up process that collects such contact information.
-GitHub reactions can do this.
-
-
-Which modality(s) of communication with former project stakeholders will
-be maintained 
-`
-* For projects that involve persistent data formats, provide users with documentation
-  about how to convert their data to another format.
-* For projects for which decent alternative software products exist, maybe 
-
-By following these steps, you can effectively discontinue a partially completed software project while retaining the knowledge gained and leveraging the lessons learned for future endeavors.
-
-
+By following various of these suggested actions, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science know-how as possible for posterity.
