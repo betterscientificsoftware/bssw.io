@@ -42,6 +42,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    When scrambling to make an end-of-project release, there may be critical bug fix or feature enhancement work to bring to a close.
    If the project is hosted in a public repo, simply documenting which branches hold which critical work may be sufficient.
    Otherwise, merging in-progress work to the main line of development but conditionally disabling it (via CPP `#if` or `#ifdef` conditionals) may be appropriate.
+
    Alternatively, if the only publicly available artifact will be the release tarball itself, creating multiple variants of the associated source files will help to ensure critical in-progress work remains accessible for posterity.
    An untimely end-of-project release may mean hastily written testing and documentation.
    That's ok.
@@ -65,6 +66,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    For a project that is quickly ending, there is likely very little resource available to fill in any *massive* gaps in documentation.
    In addition, the role of any remaining documentation effort should be to try to capture a complete snapshot of the computer science know-how as practical.
    This could be as simple as bunch of bulleted statements in a `final-status.txt` file at the root of the source code tree. 
+
    The goal is to capture, without too much effort, the software's design objectives, methodologies, and key findings.
    Include key design decisions, architecture notes, algorithms, and implementation details that may be valuable to others.
    If there is known to be large swaths of documentation that is sitting around in restricted places (emails, slide decks, pdf files) that are not already available on line and/or *with* the source code, consider getting this information *out there* with the source code as well.
@@ -85,9 +87,9 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    Some handle source code.
    Consider [Crossref](https://www.crossref.org), [Zenodo](https://zenodo.org) and [Open Science Framework](https://osf.io).
 
-1. Present or Publish (about the software)
+1. Present or Publish
 
-   Get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can write in more detail about the computer science known-how.
+   Try to get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can write in more detail about the computer science known-how.
    Often case-studies and lessons learned are good candidate topical areas for a piece of literature focusing on the computer science aspects of the project.
    Published research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes are a great way to capture the computer science know-how of a project.
 
@@ -110,9 +112,10 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
 
    Understand the reasons why the project is being discontinued.
    It could be due to budget constraints, changing business priorities, or technical challenges.
-   Knowing these reasons will help in making informed decisions for future projects.
+   Knowing these reasons will help anyone following in your footsteps in making informed decisions for future projects.
 
    Hold a post-mortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience.
+   Capture various of the key details of this discussion in some form to be included with other documentation.
 
 1. Communications
 
@@ -127,7 +130,7 @@ all cases.
    Even if communications will be discontinued entirely, it may make sense to provide way for inquirers to *register* their interest by some kind of a sign-up process that collects such contact information.
    GitHub reactions can be used for this purpose.
 
-  For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
-  For projects for which decent alternative software products exist, ensure users are aware of these alternatives.
+   For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
+   For projects for which decent alternative software products exist, ensure users are aware of these alternatives.
 
 By following various of these suggested actions, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science know-how as possible for posterity.
