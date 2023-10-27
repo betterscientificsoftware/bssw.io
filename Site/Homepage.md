@@ -10,7 +10,7 @@ Slide2 R: ../Articles/Blog/2023-10-intersect.md
 Slide3 L: ../images/Blog_2307_io.png
 Slide3 R: ../Articles/Blog/2023-09-io-storage-characterization.md
 Slide4 L: ../CuratedContent/SoftwareSustainabilityMatrix.md
-Slide4 R: ../CuratedContent/ColorOracleTool.md.md
+Slide4 R: ../CuratedContent/ColorOracleTool.md
 Slide5 L: ../CuratedContent/SmartLibs.md
 Slide5 R: ../CuratedContent/AllInMaintainersDEIResourceHub.md
 Slide6 L: ../Events/hpcbp-080-ideas.md 
