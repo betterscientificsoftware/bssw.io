@@ -1,7 +1,7 @@
 # Color Oracle: Enhancing Software Accessibility for Color-Blind Users
 
 <!--- deck text start --->
-Ever wonder how your GUI might look to users with non normative vision? The *Color Oracle* will simulate it for you.
+Ever wonder how your GUI might look to users with non-normative vision? The *Color Oracle* will simulate it for you.
 <!--- deck text end --->
 
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
@@ -19,8 +19,8 @@ Ignoring the needs of this demographic can result in user experiences that are f
 When designing software, especially applications with visual elements like interfaces or data visualizations, developers should consider the potential challenges faced by individuals with common color vision impairments, such as deuteranopia, protanopia, and tritanopia.
 
 The *[Color Oracle](https://colororacle.org/index.html)* simulator enables developers to evaluate their designs as they appear to those with color vision impairments.
-It functions as a color blindness simulator for various operating systems, including Windows, Mac, and Linux.
-This simulator assists designers and developers by applying color filters to their design work, allowing them to see what individuals with different types of color vision impairments experience.
+The tool functions as a color blindness simulator for various operating systems, including Windows, Mac, and Linux.
+The simulator assists designers and developers by applying color filters to their design work, allowing them to see what individuals with different types of color vision impairments experience.
 By simulating deuteranopia, protanopia, and tritanopia, Color Oracle helps developers ensure that their graphical work is readable not only by those with extreme color blindness but also by individuals with minor color vision deficiencies and those with normal vision.
 By using tools such as Color Oracle, developers can ensure that their software is inclusive and can be used effectively by the widest possible audience.
 
