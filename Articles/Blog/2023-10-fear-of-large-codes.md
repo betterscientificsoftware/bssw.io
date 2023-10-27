@@ -6,7 +6,7 @@
 
 #### Contributed by [Francesco Rizzi](https://github.com/fnrizzi)
 
-#### Publication date: October 26, 2023
+#### Publication date: October 27, 2023
 
 <!-- Possible deck sentence, if needed
 The solution to "the fear of large codes" might start from considering software development as first-class part of research. Or maybe will come from AI?
@@ -19,7 +19,7 @@ While reading the article, the following two statements from his advisor caught 
 "...he is not afraid to get his hands dirty with large-scale codes and data sets, ..." and
 "...recognizes that software is a part of his research product..."
 To most readers, these words might not sound special. To me, however, they highlight
-two critical concerned shared by a lot of graduate students, resonating with something I [talked about at SC22](https://github.com/fnrizzi/sc22_bof_slides): 
+two critical concerns shared by a lot of graduate students, resonating with something I [talked about at SC22](https://github.com/fnrizzi/sc22_bof_slides): 
 
 - Fear of large codes
 - Concern that software development should be more valued as an integral part of research
