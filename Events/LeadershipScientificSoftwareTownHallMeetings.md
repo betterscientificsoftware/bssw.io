@@ -1,6 +1,6 @@
 # Leadership Scientific Software Town Hall Meetings (Series)
 
-- Event Date: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023; Oct 19, 2023; Nov 16, 2023; Dec 21, 2023; Jan 18, 2024; 
+- Event Date: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023; 
 - Location: Virtual
 - Event Website: https://leadershipscientificsoftware.github.io/LSSwTownHalls.html
 - Organizers: ECP Software Technology
