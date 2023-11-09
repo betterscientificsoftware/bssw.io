@@ -22,7 +22,7 @@ I am grateful for the site for the many articles and helpful resources and glad 
 
 <!---
 Publish: yes
-RSS update: 2022-11-22
+RSS update: 2023-11-22
 Categories: collaboration
 Topics: strategies for more effective teams
 Tags: bssw-blog-article
