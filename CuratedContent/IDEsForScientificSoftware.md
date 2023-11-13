@@ -1,6 +1,6 @@
 # An Introduction to Integrated Development Environments (IDEs) for Scientific Software Development
 <!-- deck text start --> 
-Integrated Development Environments (IDEs) are very commonly used in scientific software development. This article talks about some free and commericial IDEs, available for you to use.
+Integrated Development Environments (IDEs) are very commonly used in scientific software development. This article talks about some free and commercial IDEs, available for you to use.
 <!-- deck text end -->
 
 

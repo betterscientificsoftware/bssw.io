@@ -7,7 +7,7 @@ We look forward to your contributions to the Better Scientific Software site. Sh
 
 <!-- start of the body -->
 
-If you have additonal questions on what content to contribute, or questions about the contribution process, please contact us using the form below. 
+If you have additional questions on what content to contribute, or questions about the contribution process, please contact us using the form below. 
 
 <!-- end of the body -->
 

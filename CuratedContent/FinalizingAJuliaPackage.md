@@ -14,7 +14,7 @@ Focus | Julia Packaging
 
 The [Julia](https://julialang.org/) programming language is a flexible dynamic language, appropriate for scientific and numerical computing, with performance comparable to traditional statically-typed languages.
 
-There are a number of important details in *finalizing* a Julia package in preparation for making it available for others to use. Some of the important steps needed are to ensure that the package is re-tested, coverage is re-computed, and documentation is re-generated with each update to the package. This article is a good resource on this topic. The author, [Chris Rackauckas](http://www.chrisrackauckas.com/), goes into the details of key steps in the process, including tips and tricks for `travis.yml` and `appvoyer.yml` files to run version compatability tests, update coverage and documentation.
+There are a number of important details in *finalizing* a Julia package in preparation for making it available for others to use. Some of the important steps needed are to ensure that the package is re-tested, coverage is re-computed, and documentation is re-generated with each update to the package. This article is a good resource on this topic. The author, [Chris Rackauckas](http://www.chrisrackauckas.com/), goes into the details of key steps in the process, including tips and tricks for `travis.yml` and `appvoyer.yml` files to run version compatibility tests, update coverage and documentation.
 
 
 <!---

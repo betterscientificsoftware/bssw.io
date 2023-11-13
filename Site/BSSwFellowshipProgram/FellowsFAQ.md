@@ -53,7 +53,7 @@ Applications are reviewed by a panel of diverse members of the CSE community usi
 
 ### Can I submit a letter of recommendation with my application?
 
-We do not accept letters of recommdation with the application.  Please use your own words to describe your relevant background and advocacy for better scientific software.
+We do not accept letters of recommendation with the application.  Please use your own words to describe your relevant background and advocacy for better scientific software.
 
 ### Can I submit multiple applications with different proposals?
 

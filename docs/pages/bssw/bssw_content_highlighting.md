@@ -60,19 +60,19 @@ Slide5 R: ../CuratedContent/InclusiveNamingInitiative.md
 
 ## Front page highlight banner
 
-Highlight banners, on the front page, are configured in the [annoucements](https://github.com/betterscientificsoftware/bssw.io/blob/main/Site/Announcements/Announcements.md) file.
+Highlight banners, on the front page, are configured in the [announcements](https://github.com/betterscientificsoftware/bssw.io/blob/main/Site/Announcements/Announcements.md) file.
 
 **Highlights banner format**
 ````
 Announcement:
-- [Text on the banner](Location-of-markdown-file-relative-to-the-annoucements-markdown-file)
+- [Text on the banner](Location-of-markdown-file-relative-to-the-announcements-markdown-file)
 - Display dates: mm/dd/yyyy - mm/dd/yyyy
 ````
 Some points to note:
-- Only one annoucement is allowed. Please comment any other annoucement in the file before adding a new one.
+- Only one announcement is allowed. Please comment any other announcement in the file before adding a new one.
 - Please follow the format exactly
 - The display dates are the date range during which the banner will be displayed.
-- Location of the article where the banner points is relative to the [annoucements.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/Site/Announcements/Announcements.md) file in the BSSw.io github repo.
+- Location of the article where the banner points is relative to the [announcements.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/Site/Announcements/Announcements.md) file in the BSSw.io github repo.
 
 **Highlights banner example**
 ````

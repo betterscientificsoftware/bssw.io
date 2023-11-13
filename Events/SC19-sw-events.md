@@ -20,7 +20,7 @@ Sunday<br>8:30am-5:00pm | Tutorial | [Floating-Point Analysis and Reproducibilit
 Sunday<br>9:00am-5:30pm | Workshop | [The 2019 International Workshop on Software Engineering for HPC-Enabled Research (SE-HER 2019)](https://sc19.supercomputing.org/session/?sess=sess106)
 Monday<br>8:30am-5:00pm | Tutorial | [Better Scientific Software](https://sc19.supercomputing.org/presentation/?id=tut158&sess=sess192)
 Monday<br>8:30am-5:00pm | Tutorial | [Managing HPC Software Complexity with Spack](https://sc19.supercomputing.org/presentation/?id=tut164&sess=sess194)
-Monday<br>9:00am-5:30pm | Workshop | [3nd International Workshop on Software Correctness for HPC Applications (Correctness 2019)](https://sc19.supercomputing.org/session/?sess=sess118)
+Monday<br>9:00am-5:30pm | Workshop | [3rd International Workshop on Software Correctness for HPC Applications (Correctness 2019)](https://sc19.supercomputing.org/session/?sess=sess118)
 Monday<br>2:30pm-5:00pm | Students@SC | [Students@SC: Modern Software Design, Tools, and Practices](https://sc19.supercomputing.org/presentation/?id=pec109&sess=sess410)
 Tuesday<br>12:15pm-1:15pm | BoF | [Extreme-Scale Scientific Software Stack (E4S)](https://sc19.supercomputing.org/session/?sess=sess269)
 Tuesday<br>12:15pm-1:15pm | BoF | [Exchanging Best Practices in Supporting Computational and Data-Intensive Research](https://sc19.supercomputing.org/session/?sess=sess266)

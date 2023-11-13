@@ -8,4 +8,4 @@ By making a submission here, you agree to [BSSw.io content licensing terms](http
 
 You are welcome to submit an *idea* for a blog article or a completed article.
 
-After your submission is recieved, it will be reviewed by the BSSw.io editorial staff and we will be in touch with you.
+After your submission is received, it will be reviewed by the BSSw.io editorial staff and we will be in touch with you.

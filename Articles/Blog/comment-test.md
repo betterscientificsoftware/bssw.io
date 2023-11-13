@@ -18,7 +18,7 @@ the bssw.io/images directory to work nicely with the typical authoring/developme
 
 ## Test of HTML comment handling
 
-HTML comments look like this: `<!-- arbitrary text -->` (which we can see becasuse we marked it up as code)
+HTML comments look like this: `<!-- arbitrary text -->` (which we can see because we marked it up as code)
 
 Comments in regular text <!-- like this --> should be interpreted as comments.  They should be visible in the resulting HTML source, but not in the rendered version.
 

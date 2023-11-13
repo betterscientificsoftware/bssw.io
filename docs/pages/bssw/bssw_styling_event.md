@@ -36,7 +36,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 **Event-specific deck attributes** are seen right below the deck text. These event deck attributes customize different parts of the deck for the event content type.
 
-* **Date**: One can choose to enter the date or range of dates of the submisison deadline or event date.
+* **Date**: One can choose to enter the date or range of dates of the submission deadline or event date.
 * **Location**: Use the physical location (City, State or City, Country) for in-person events and the term "online" for events being held online.  For hybrid events use the physical location "and online".
 * **Event Website**: URL to the main event website
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))

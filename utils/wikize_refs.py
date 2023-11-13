@@ -193,7 +193,7 @@ def valid_url(x):
     except:
         return False
 
-# It would be best to test the link without actually downlading
+# It would be best to test the link without actually downloading
 # the webpage. In theory, that requires a HEAD request and for
 # typical webpages, requesting *just* the HEAD instead of the
 # whole webpage isn't necessarily a big win.
@@ -378,7 +378,7 @@ def gather_and_classify_file_lines(filename):
     return lines
 
 def gather_fn_handles(file_lines):
-    """Gets all footnote references occuring in content file lines."""
+    """Gets all footnote references occurring in content file lines."""
     fn_handles = set()
     for k in sorted(file_lines):
 

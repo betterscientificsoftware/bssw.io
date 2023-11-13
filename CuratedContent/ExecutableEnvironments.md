@@ -14,7 +14,7 @@ Resource information | Details
 :--- | :--- 
 Resource Name | OCCAM
 Websites | [OCCAM Source Code](https://bitbucket.org/occam/workspace/repositories), [OCCAM Demo Site](https://occam.cs.pitt.edu/)
-Focus | Rebuliding software, workflows
+Focus | Rebuilding software, workflows
 
 **OCCAM (Open Curation of Computation And Metadata)** is a project that serves as the catalyst for the tools, education, and community-building needed to bring openness, accountability, comparability, and repeatability to software distribution and scientific digital exploration. It is a toolset for the preservation of rebuilding software and a self-hostable, federated web portal for composing repeatable workflows.
 

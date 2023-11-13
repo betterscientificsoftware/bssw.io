@@ -25,7 +25,7 @@ social justice implications and impacts of bias in software. The film is a good 
 While the film focuses primarily on big-data and AI software, the issues it raises are equally
 applicable to any software used in decision support, including for example,
 scientific computing software. Some of the key take-aways are:
-  * We should beware of the tendancy to believe, sometimes falsely, automated algorithms are objective.
+  * We should beware of the tenancy to believe, sometimes falsely, automated algorithms are objective.
   * Just as the FDA regulates and oversees the safety, effectiveness and quality of
     *vaccines*, there needs to be an FDA for *algorithms*.
   * Algorithmic justice poses a significant threat to civil rights.

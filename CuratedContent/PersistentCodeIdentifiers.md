@@ -26,7 +26,7 @@ PIDs enjoy the above advantages primarily because there usually exists a *servic
 In some cases, this service is made available for free and in other cases, it may come at a cost.
 Your home institution may pay membership fees to make such a service available to all employees.
 
-The Digitial Object Identifier (DOI) standard is an example of a PID system used primarily to identify scholarly publications, such as journal articles, conference papers, reports, or book chapters.
+The Digital Object Identifier (DOI) standard is an example of a PID system used primarily to identify scholarly publications, such as journal articles, conference papers, reports, or book chapters.
 Other standards include the Handle System standard, the Archival Resource Key (ARK) standard and the Persistent Uniform Resource Locator (PURL) standard.
 
 There are several ways, outined below, to obtain Persistent Identifiers (PIDs) for scientific software.

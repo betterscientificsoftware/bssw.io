@@ -56,7 +56,7 @@ In this setup, the production https://bssw.io site is generated from the
 `main` branch while the https://preview.bssw.io site is generated from the
 `preview` branch.
 
-The updated content is only viewed on the https://preveiw.bssw.io site if
+The updated content is only viewed on the https://preview.bssw.io site if
 `Publish: publish` or `Publish: yes` is set in the meta-data in the `*.md`
 file and is only viewed on the https://bssw.io site if `Publish: yes` is set
 (see the [`publish: [yes|no|preview]` meta-data

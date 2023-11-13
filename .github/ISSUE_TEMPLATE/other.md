@@ -7,4 +7,4 @@ By making a submission here, you agree to [BSSw.io content licensing terms](http
 
 Please use this form to submit content that is not a blog or a curated content article.
 
-After your submission is recieved, it will be reviewed by the BSSw.io editorial staff and we will be in touch with you.
+After your submission is received, it will be reviewed by the BSSw.io editorial staff and we will be in touch with you.

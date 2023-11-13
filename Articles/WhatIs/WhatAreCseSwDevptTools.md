@@ -12,7 +12,7 @@ From the initial design to low-level code optimization, tools can be used to
 at least in part automate development tasks, thus leading to improved developer [productivity](WhatIsProductivity.md).
 Development environments typically automate error-prone and labor-intensive tasks, such as build system
 generation and management.
-Another way in which tools can improve productivity is by reducing the likelyhood of errors (e.g., 
+Another way in which tools can improve productivity is by reducing the likelihood of errors (e.g., 
 through code generation). Moreover,
 tools can provide better coverage than any manual approach in certain areas, such as code analysis
 (for memory problems, style, performance) and optimization.

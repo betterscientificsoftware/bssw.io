@@ -30,7 +30,7 @@ Following are some resources for a Transmedia Learning Framework for Git and Git
 
 <!--- browser security problems
 - [GitGame](https://www.git-game.com/)
--The git-game is a terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system. The theme of the game is a scavanger hunt. Using git's commands you find clues that will help you solve the "puzzle". 
+-The git-game is a terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system. The theme of the game is a scavenger hunt. Using git's commands you find clues that will help you solve the "puzzle". 
 --->
 
 <!---

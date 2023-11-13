@@ -9,7 +9,7 @@ This article hosts a number of online documentation resources of fundamental imp
 This article hosts a number of online documentation resources of fundamental importance in HPC/CSE.
 
 We begin with the most fundamental of topics - formal specifications and standards for programming *languages* most commonly used in HPC/CSE.
-These are formal documents primarily for implementors of compilers that define, in excruciating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
+These are formal documents primarily for implementers of compilers that define, in excruciating detail, how programs in the language are supposed to behave and attempt to cover all possible *corner* cases.
 Language specifications evolve with time and so are versioned, typically by the year, in which the new specification is *initiated*.
 But not all languages commonly used in HPC/CSE, notably Python, are defined by a *formal specification*.
 Instead, they rely solely on a [*reference implementation*](https://en.wikipedia.org/wiki/Reference_implementation).

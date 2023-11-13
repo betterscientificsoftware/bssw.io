@@ -10,11 +10,11 @@ Enter details here by replacing *italicized text* with actual event information 
 
 * **What:** *Event Title, in title case*
 
-The title should be concise (more complete information can be included in the Description, if necessary).  If your event is a call for papers, posters, or other contributions, put that at the beginning of the title (for example, *Call for Papers: My Little Workshop*) and provide the deadline date for submissions below.  Once the deadline has passed, you can submit a new event for the event itself (sometimes refered to as a "call for participation", but we discourage including that in the event title).
+The title should be concise (more complete information can be included in the Description, if necessary).  If your event is a call for papers, posters, or other contributions, put that at the beginning of the title (for example, *Call for Papers: My Little Workshop*) and provide the deadline date for submissions below.  Once the deadline has passed, you can submit a new event for the event itself (sometimes referred to as a "call for participation", but we discourage including that in the event title).
 
 * **When:** *Date or date range in "month day, year" format*
 
-In the published event, the date appears immediately below the **title**, as well as further down, along side the **location** and **organizers**.  The date information is also used to control the visibility of the event on the <https://bssw.io/events> page.  Anything entered in this field that is not regoznied as a date or date range is *ignored* and will not appear in the published event.
+In the published event, the date appears immediately below the **title**, as well as further down, along side the **location** and **organizers**.  The date information is also used to control the visibility of the event on the <https://bssw.io/events> page.  Anything entered in this field that is not recognized as a date or date range is *ignored* and will not appear in the published event.
 
 * **Where:** *Geographical location, geographical region, or "Online"*
 

@@ -42,7 +42,7 @@ Joubert, W., Archibald, R., Berrill, M., Brown, W.M., Eisenbach, M., Grout, R., 
 
 Straatsma, T.P., Antypas, K.B. and Williams, T.J., 2017. Exascale Scientific Applications: Scalability and Performance Portability. Chapman and Hall/CRC. [https://www.crcpress.com/Exascale-Scientific-Applications-Scalability-and-Performance-Portability/Straatsma-Antypas-Williams/p/book/9781138197541]
 
-Messer, O.E.B., D’Azevedo, E., Hill, J., Joubert, W., Berrill, M. and Zimmer, C., 2016. MiniApps derived from production HPC applications using multiple programing models. The International Journal of High Performance Computing Applications, p. 1094342016668241. [https://journals.sagepub.com/doi/abs/10.1177/1094342016668241]
+Messer, O.E.B., D’Azevedo, E., Hill, J., Joubert, W., Berrill, M. and Zimmer, C., 2016. MiniApps derived from production HPC applications using multiple programming models. The International Journal of High Performance Computing Applications, p. 1094342016668241. [https://journals.sagepub.com/doi/abs/10.1177/1094342016668241]
 
 <!--- Guidance for blog author bios:
 •       Length: 50-100 words.

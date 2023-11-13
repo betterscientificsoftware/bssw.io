@@ -1,9 +1,9 @@
 # Rate Your Project: A New Approach to Assessing Project Software Practices (UNPUBLISHED)
-<!-- This blog/short-article is incomplete and may have further additions in the future, as per the author. It is kept as a placeholder since it has a lot of content that we want to retain incase we publish an enhanced version in the future -->
+<!-- This blog/short-article is incomplete and may have further additions in the future, as per the author. It is kept as a placeholder since it has a lot of content that we want to retain in case we publish an enhanced version in the future -->
 
 <!-- deck text start-->
 
-Are you wondering how to embark and start improving your project's software processes and practices? This articles shares somes experiences which may help you get started.
+Are you wondering how to embark and start improving your project's software processes and practices? This articles shares some experiences which may help you get started.
 <!-- deck text end  -->
 
 <img src='../../images/Blog_RateYourProjectPoster_20200310.png'/>

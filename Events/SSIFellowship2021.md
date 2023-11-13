@@ -2,7 +2,7 @@
 
 - Dates: February 5, 2021
 - Location: Open to researchers based in the UK or with a formal affiliation with a UK based institution or office
-- Event Website: hhttps://software.ac.uk/programmes-and-events/fellowship-programme
+- Event Website: https://software.ac.uk/programmes-and-events/fellowship-programme
 - Organizers: Software Sustainability Institute
 
 The Software Sustainability Institute's Fellowship Programme 2021 will be accepting applications December 7, 2020 through February 5, 2021.
@@ -11,7 +11,7 @@ Resource Information | Details
 :--- | :---			   
 Applications Open| 2020-12-07
 Applications Close | 2021-02-05
-Fellowship Programme Information | <hhttps://software.ac.uk/programmes-and-events/fellowship-programme>
+Fellowship Programme Information | <https://software.ac.uk/programmes-and-events/fellowship-programme>
 
 The Fellowship Programme provides funding for individuals who want to improve how research software is done in their domains and/or area of work. Being a Fellow also helps individuals develop skills and knowledge in their area of software sustainability, empowers them to speak about issues and network with like-minded individuals from a wide variety of research areas.
 
