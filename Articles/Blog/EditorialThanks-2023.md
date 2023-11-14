@@ -32,6 +32,37 @@ I learn something from pretty much every new article that we publish on BSSw.io 
 
 Overall, I guess I would say I'm thankful for our many contributors to BSSw.io for sharing their knowledge, experience, and energy with me and with the broader community.
 
+**Mark C. Miller:** In 1975, I was the only kid in my neighborhood with a home computer.
+My father borrowed a colleague's [IMSAI-8080](https://en.wikipedia.org/wiki/IMSAI_8080) which I learned to program mainly by transcribing [published](https://en.wikipedia.org/wiki/BASIC_Computer_Games) games in Basic like [Hamurabi](https://github.com/philspil66/Hamurabi) or [Lunar Lander](https://retro365.blog/2021/12/02/bits-from-my-personal-collection-lunar-lander-50-years-of-crashing-into-the-moon-from-mainframes-and-minicomputers-to-arcades-and-personal-computers/).
+Turning it on involved a peculiar process of flipping paddle switches which I understood only years later to be entering three 8 bit words for a `JSR` instruction to initiate the boot sequence.
+Eventually we got our own [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET) and my chemistry teacher challenged me to write a program for it to compute molecular weights from formulae (e.g. 8Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>).
+
+With that early start in programming, its maybe ironic that I was never formally educated in computer science.
+I never took courses in compilers, networks or operating systems.
+My formal education is in Electrical Engineering.
+I used to be able to analyze the heck out of a transistor circuit or calculate the far-field of a perfectly conducting cylinder.
+I finally fully understood how computers worked only after taking a [PDB-11](https://en.wikipedia.org/wiki/PDP-11_architecture) assembly language course as a junior.
+
+All of my programming experience grew out of the application of software to address challenges in other projects.
+As a child, I wanted to create a digital Dungeons and Dragons game and promptly exhausted the 8 kilobytes of PET memory.
+My Master's work grew out of the need to recover undersampled periodic signals from streak camera rotors.
+My Ph.D. work grew out of the need to compress a disk-resident terrain database for a real-time rendering application.
+
+I am grateful for all of that because it paved the way for me to eventually find work as a computer scientist at LLNL.
+Although my formal job title for the last ~30 years has been *Computer Scientist*, I identify more as a *Software Engineer*.
+I have rarely, if ever, developed a C++ class from scratch.
+I am still inclined to write procedural rather than object-oriented python.
+I debug with print statements a lot more often than I'd like to admit.
+
+In addition, LLNL has continued to invest in developing my software engineering skills through on-the-job training and formal course offerings in various [scientific computing technologies](https://bssw.io/items/fundamental-resources-for-scientific-computing).
+I am grateful LLNL supported me in keeping myself and my family safe through the pandemic by fully embracing remote work and requiring masks and vaccinations while on site.
+
+More than anything else, I have had the great fortune of working around and with many, highly skilled and talented software professionals who have generously shared their tricks, tips and software engineering know-how with me either directly in conversation or by osmosis through trusting me to work on code they develop and maintain.
+Honestly, there have been a lot of days where I have felt pretty sheepish to be seated at the same table with these amazingly talented people.
+
+Being a contributor to the IDEAS-ECP project has only broadened and deepened that experience to include many friends and colleagues across the DOE complex at other national labs.
+I am thankful to many dedicated members of the scientific computing community for their confidence in my work, their patience and help in diagnosing and fixing bugs, their suggestions for improvements, their willingness to roll up their sleeves and dig into my code when I've needed help, their sharing of data and results and their advocacy and citations of software I contribute to in presentations and papers.
+
 #### Publication date: November 20, 2023
 
 <!---
