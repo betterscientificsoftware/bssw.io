@@ -1,13 +1,13 @@
 # Discontinuing a Research Software Project
 
-HPC/CSE software projects involve at least two kinds of *deep* know-how.
+High Performance Computing (HPC) / Computational Science and Engineering (CSE) software projects involve at least two kinds of *deep* knowledge.
 One is the computational science the software aims to enable.
 The other is the computer science (aka software engineering) involved in designing, developing, deploying and supporting the software for users.
 
-Because the ultimate goal of most HPC/CSE projects is the advancement of the underlying science, publications concerning the computational science know-how are often the priroity.
-When such a project ends, there is little risk the computational science know-how will be lost.
+Because the ultimate goal of most HPC/CSE projects is the advancement of the underlying science, publications concerning the computational science knowledge are often the priority.
+When such a project ends, there is little risk the computational science knowledge will be lost.
 It is often captured in perpetuity in the publicly available literature.
-On the other hand, the computer science know-how is often at risk of being lost.
+On the other hand, the computer science knowledge is often at risk of being lost.
 
 Scientific computing research software projects can come to an end in ways that ultimately impact our community's ability to ever reap any benefit from progress made or lessons learned or otherwise have available for posterity's sake any of the system design, architecture, implementation and software engineering know how that went into the project.
 We all can likely think of example projects where this has happened.
@@ -23,14 +23,14 @@ For SciDAC projects for example, a common duration is 3-5 years.
 If a project is unable to gain traction within the community and win funding from other sources in that time frame, the project will most likely be discontinued.
 
 Over time, project assets and artifacts and even contact information of the people involved can fall out of date and/or become inaccessible.
-A common situation is a domain name and/or institutional domain aliase/forward that expires.
+A common situation is a domain name and/or institutional domain alias/forward that expires.
 When this happens, the main entry point to the project known throughout the community is lost.
 Future researchers are then unable to discover the project even existed let alone find anyone with knowledge about it.
 
-There are things project stakeholders and sponsoring organizations can do to *gracefully* discontinue a software project in such a way that the computer science know-how remains aviailable for the benefit of the community.
-Firstly, the sponsor can actually fund various of the activities (mentioned below) to gracefully discontinue the project.
+There are things project stakeholders and sponsoring organizations can do to *gracefully* discontinue a software project in such a way that the computer science knowledge remains available for the benefit of the community.
+Firstly, the sponsor can actually fund the various activities (mentioned below) to gracefully discontinue the project.
 
-Here we outline a number of actions sofware project members can take to ensure computer science know-how will remain accessible after a project comes to an end.
+Here we outline a number of actions software project members can take to ensure computer science knowledge will remain accessible after a project comes to an end.
 With fair warning, a project can move to *tidy things up* before all funding is lost.
 
 When there is a planned sunset date or with fair warning, taking any of the actions outlined below is easier than trying to cram them in at the last minute if funding is suddenly and unexpectedly lost.
@@ -38,7 +38,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
 
 1. Make an End-of-project release
 
-   The purpose of an end-of-project release is to capture not only the most up to date version of the software but also as much of the computer science know-how that is not already available through other resources.
+   The purpose of an end-of-project release is to capture not only the most up to date version of the software but also as much of the computer science knowledge that is not already available through other resources.
    When scrambling to make an end-of-project release, there may be critical bug fix or feature enhancement work to bring to a close.
    If the project is hosted in a public repo, simply documenting which branches hold which critical work may be sufficient.
    Otherwise, merging in-progress work to the main line of development but conditionally disabling it (via CPP `#if` or `#ifdef` conditionals) may be appropriate.
@@ -49,14 +49,14 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    It may even be below the quality standards the project is accustomed to maintaining.
    That's ok too.
    If so, the release can be identified as *development* or *experimental* to help clarify this.
-   Remember, the goal is primarily to document and make available critical computer science know-how for others who may want to follow in your footsteps.
+   Remember, the goal is primarily to document and make available critical computer science knowledge for others who may want to follow in your footsteps.
 
 1. Open-source the code
 
-   If the project's source code is not already open source, a key way to ensure the computer science know-how remains available to the community is to release it under a widely adopted open-source license.
+   If the project's source code is not already open source, a key way to ensure the computer science knowledge remains available to the community is to release it under a widely adopted open-source license.
    The institution(s) that sponsored its development may have specific processes to follow to release the software as open-source.
    For example, Livermore Labs' Information Management (IM) office defines [a set of processes](https://computing.llnl.gov/sites/default/files/COMP_Poster_OSS.pdf) to follow for open-source releases.
-   By making a project's software open source, it becomse possible to host the software in world-readable, public places (e.g. GitHub or GitLab) where the community can find it and learn from it.
+   By making a project's software open source, it becomes possible to host the software in world-readable, public places (e.g. GitHub or GitLab) where the community can find it and learn from it.
    In these cases, it is best to choose a *permissive* type open source license which includes a *disclaimer of warranty*.
    Most open source licenses do. 
    Good options are [MIT](https://opensource.org/license/mit/) or [ISC](https://www.isc.org/licenses/).
@@ -64,7 +64,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
 1. Document final status
 
    For a project that is quickly ending, there is likely very little resource available to fill in any *massive* gaps in documentation.
-   In addition, the role of any remaining documentation effort should be to try to capture a complete snapshot of the computer science know-how as practical.
+   In addition, the role of any remaining documentation effort should be to try to capture a complete snapshot of the computer science knowledge as practical.
    This could be as simple as bunch of bulleted statements in a `final-status.txt` file at the root of the source code tree. 
 
    The goal is to capture, without too much effort, the software's design objectives, methodologies, and key findings.
@@ -91,19 +91,19 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
 
    Try to get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can write in more detail about the computer science known-how.
    Often case-studies and lessons learned are good candidate topical areas for a piece of literature focusing on the computer science aspects of the project.
-   Published research papers, technical reports, or whitepapers that discuss the project's methodologies, challenges, and outcomes are a great way to capture the computer science know-how of a project.
+   Published research papers, technical reports, or white papers that discuss the project's methodologies, challenges, and outcomes are a great way to capture the computer science knowledge of a project.
 
 1. Consider refactoring critical dependencies
 
    Instead of the *whole* code base, it may be appropriate to carve out *pieces* of the code for the actions we're discussing here.
-   Assess if any parts of the codebase or architecture can be reused in other projects.
+   Assess if any parts of the code base or architecture can be reused in other projects.
    Salvaging valuable components can save time and effort in future development.
    Depending on how the software is architected, the work to refactor any such pieces of the code may be doable before funding runs out.
    Stakeholders with downstream dependencies that are highly localized to a refactorable piece of the code base may even be willing to take over maintaining that piece as its own package.
    Reach out to researchers working in similar area to see if they may see a benefit to maintaining a *piece*.
    There may be graduate students looking for projects who may be interested and willing to pick up and build upon a package.
 
-1. Conduct a Post-Mortem:
+1. Conduct a Postmortem:
 
    Conduct a lessons-learned session with the team to capture insights into what went well and what didn't during the project's development.
    Document these lessons, as they can be valuable for future projects, ensuring that the same mistakes are not repeated.
@@ -114,13 +114,13 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    It could be due to budget constraints, changing business priorities, or technical challenges.
    Knowing these reasons will help anyone following in your footsteps in making informed decisions for future projects.
 
-   Hold a post-mortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience.
-   Capture various of the key details of this discussion in some form to be included with other documentation.
+   Hold a postmortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience.
+   Capture various key details of this discussion in some form to be included with other documentation.
 
 1. Communications
 
    The discontinuation decision needs to be communicated as soon as possible to stakeholders.
-   Whenever possible be open and honest about the reasons and express gratitude to for contributor's efforts.
+   Whenever possible, be open and honest about the reasons and express gratitude to for contributor's efforts.
    The sooner existing users can be notified that the software is loosing support, the more time they will have to consider what to do.
    One of the first things to decide is whether future project *communications* will go on some form of life-support or be discontinued entirely.
    Having life-support communications is obviously preferred but it comes at some non-zero cost and so may not be practical in
@@ -133,4 +133,4 @@ all cases.
    For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
    For projects for which decent alternative software products exist, ensure users are aware of these alternatives.
 
-By following various of these suggested actions, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science know-how as possible for posterity.
+By following many of these suggested actions, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science knowledge as possible for posterity.
