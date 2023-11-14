@@ -41,7 +41,7 @@ With that early start in programming, its maybe ironic that I was never formally
 I never took courses in compilers, networks or operating systems.
 My formal education is in Electrical Engineering.
 I used to be able to analyze the heck out of a transistor circuit or calculate the far-field of a perfectly conducting cylinder.
-I finally fully understood how computers worked only after taking a [PDB-11](https://en.wikipedia.org/wiki/PDP-11_architecture) assembly language course as a junior.
+I finally fully understood how computers worked only after taking a [PDB-11](https://en.wikipedia.org/wiki/PDP-11_architecture) assembly language course.
 
 All of my programming experience grew out of the application of software to address challenges in other projects.
 As a child, I wanted to create a digital Dungeons and Dragons game and promptly exhausted the 8 kilobytes of PET memory.
@@ -54,7 +54,7 @@ I have rarely, if ever, developed a C++ class from scratch.
 I am still inclined to write procedural rather than object-oriented python.
 I debug with print statements a lot more often than I'd like to admit.
 
-In addition, LLNL has continued to invest in developing my software engineering skills through on-the-job training and formal course offerings in various [scientific computing technologies](https://bssw.io/items/fundamental-resources-for-scientific-computing).
+In spite of that, LLNL has continued to invest in developing my software engineering skills through on-the-job training and formal course offerings in various [scientific computing technologies](https://bssw.io/items/fundamental-resources-for-scientific-computing).
 I am grateful LLNL supported me in keeping myself and my family safe through the pandemic by fully embracing remote work and requiring masks and vaccinations while on site.
 
 More than anything else, I have had the great fortune of working around and with many, highly skilled and talented software professionals who have generously shared their tricks, tips and software engineering know-how with me either directly in conversation or by osmosis through trusting me to work on code they develop and maintain.
