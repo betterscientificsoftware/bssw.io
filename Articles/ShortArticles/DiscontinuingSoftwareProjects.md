@@ -5,8 +5,8 @@ One is the computational science the software aims to enable.
 The other is the computer science (aka software engineering) involved in designing, developing, deploying and supporting the software for users.
 
 Because the ultimate goal of most HPC/CSE projects is the advancement of the underlying science, publications concerning the computational science knowledge are often the priority.
-When such a project ends, there is little risk the computational science knowledge will be lost.
-It is often captured in perpetuity in the publicly available literature.
+When such a project ends, the primary risk of computational science knowledge loss involves reproducibility.
+Setting reproducibility aside, most other aspects of the computational science knowledge is often captured in perpetuity in the publicly available literature.
 On the other hand, the computer science knowledge is often at risk of being lost.
 
 Scientific computing research software projects can come to an end in ways that ultimately impact our community's ability to ever reap any benefit from progress made or lessons learned or otherwise have available for posterity's sake any of the system design, architecture, implementation and software engineering know how that went into the project.
@@ -93,7 +93,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    Often case-studies and lessons learned are good candidate topical areas for a piece of literature focusing on the computer science aspects of the project.
    Published research papers, technical reports, or white papers that discuss the project's methodologies, challenges, and outcomes are a great way to capture the computer science knowledge of a project.
 
-1. Consider refactoring critical dependencies
+1. Refactor critical dependencies
 
    Instead of the *whole* code base, it may be appropriate to carve out *pieces* of the code for the actions we're discussing here.
    Assess if any parts of the code base or architecture can be reused in other projects.
@@ -103,7 +103,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    Reach out to researchers working in similar area to see if they may see a benefit to maintaining a *piece*.
    There may be graduate students looking for projects who may be interested and willing to pick up and build upon a package.
 
-1. Conduct a Postmortem:
+1. Gather lessons learned:
 
    Conduct a lessons-learned session with the team to capture insights into what went well and what didn't during the project's development.
    Document these lessons, as they can be valuable for future projects, ensuring that the same mistakes are not repeated.
@@ -119,18 +119,25 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
 
 1. Communications
 
-   The discontinuation decision needs to be communicated as soon as possible to stakeholders.
+   The decision to discontinue a project needs to be communicated as soon as possible to all stakeholders.
    Whenever possible, be open and honest about the reasons and express gratitude to for contributor's efforts.
    The sooner existing users can be notified that the software is loosing support, the more time they will have to consider what to do.
+
    One of the first things to decide is whether future project *communications* will go on some form of life-support or be discontinued entirely.
-   Having life-support communications is obviously preferred but it comes at some non-zero cost and so may not be practical in
-all cases.
+   Having life-support communications is obviously preferred but it comes at some non-zero cost and so may not be practical in all cases.
    For life-support, it is important to identify *how* (e.g. email, chat services, etc.) any inquiries will be handled and by *whom*.
    This information should be posted prominently in all of the on-line spaces where the project has a presence.
+
    Even if communications will be discontinued entirely, it may make sense to provide way for inquirers to *register* their interest by some kind of a sign-up process that collects such contact information.
    GitHub reactions can be used for this purpose.
 
    For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
    For projects for which decent alternative software products exist, ensure users are aware of these alternatives.
+
+We have set aside the issue of reproducibility here and the impact discontinuing a project can have on reproducibility.
+That is not because we do not think reproducibility is important.
+It is more a question of whose resources are responsible for addressing reproducibility concerns.
+The extent to which a project that has lost funding can be held responsible for reproducibility is highly debatable and outside the scope of this article.
+Nonetheless, many of the actions suggested here can help in small ways to address reproducibility challenges.
 
 By following many of these suggested actions, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science knowledge as possible for posterity.
