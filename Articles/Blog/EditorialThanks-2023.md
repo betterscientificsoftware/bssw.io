@@ -68,18 +68,14 @@ As I reflect on my journey in the scientific computing field over the past 25 ye
 
 Discovering that a lot of scientific projects, including my own, didn't really dig deep into the nitty-gritty of sustainability did hit me hard. Jumping into the IDEAS ECP project helped me see the real challenges and opportunities in keeping our software strong. This newfound awareness, coupled with my subsequent role as the editor-in-chief for the Better Scientific Software website, has provided me with a unique vantage point. It allowed me to gain insights into how our community perceives and prioritizes software sustainability, productivity and quaility.. This deep dive changed how I see sustainability in scientific computing.  For this expanded awareness and the chance to champion the cause through the Better Scientific Software platform, I am profoundly thankful.
 
-Navigating the role of editor-in-chief for the Better Scientific Software website has been more than a professional milestone—it's a journey that echoes my own path from being a student in India to finding my way to the USA. Arriving in the USA as a student, several decades ago,  marked the beginning of a transformative journey, filled with diverse experiences and working alongside people from various backgrounds. It's a journey that unfolded into a role where I now stand, amidst discussions that shape the future of scientific computing. The chance to bridge gaps in understanding within our vibrant scientific computing community, spanning continents and cultures, is something I cherish. This journey, from my roots in India to my current role in the USA, has not only added professional richness but has also strengthened my commitment to work on things that I am passionate about. I am thankful for the opportunities presented by this diverse scientific computing community, and it's my hope that together we can pave the way for a more sustainabile and collaborative future in the field.
+Navigating the role of editor-in-chief for the Better Scientific Software website has been more than a professional milestone—it's a journey that echoes my own path from being a student in India to finding my way to the USA. Arriving in the USA as a student, several decades ago,  marked the beginning of a transformative journey, filled with diverse experiences and working alongside people from various backgrounds. It's a journey that unfolded into a role where I now stand, amidst discussions that shape the future of scientific computing. The chance to bridge gaps in understanding within our vibrant scientific computing community, spanning continents and cultures, is something I cherish. This journey, from my roots in India to my current role in the USA, has not only added professional richness but has also strengthened my commitment to work on things that I am passionate about. I am thankful for the opportunities presented by BSSw.io and this diverse scientific computing community, and it's my hope that together we can pave the way for a more sustainabile and collaborative future in the field.
 
 
 #### Publication date: November 20, 2023
 
 <!---
 Publish: yes
+Pinned: no
 RSS update: 2023-11-22
-Categories: collaboration
-Topics: strategies for more effective teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: strategies for more effective teams, personal productivity and sustainability
 --->
