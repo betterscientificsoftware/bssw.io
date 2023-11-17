@@ -70,6 +70,39 @@ Discovering that a lot of scientific projects, including my own, didn't really d
 
 Navigating the role of editor-in-chief for the Better Scientific Software website has been more than a professional milestone—it's a journey that echoes my own path from being a student in India to finding my way to the USA. Arriving in the USA as a student, several decades ago,  marked the beginning of a transformative journey, filled with diverse experiences and working alongside people from various backgrounds. It's a journey that unfolded into a role where I now stand, amidst discussions that shape the future of scientific computing. The chance to bridge gaps in understanding within our vibrant scientific computing community, spanning continents and cultures, is something I cherish. This journey, from my roots in India to my current role in the USA, has not only added professional richness but has also strengthened my commitment to work on things that I am passionate about. I am thankful for the opportunities presented by BSSw.io and this diverse scientific computing community, and it's my hope that together we can pave the way for a more sustainabile and collaborative future in the field.
 
+**Roscoe A. Bartlett:**
+I was a late arrival to writing code.
+I did not start programming until my freshman year in college in 1993.
+My first computer was a Gateway that my father purchased for me for $3,000 (a **lot** of money in 1993).
+The first programming language I learned was Quick Basic.
+During my time at UMBC, I wrote some more software in a few different programming languages including graphical programming with LabView to do real-time data-collection and control of a laboratory distillation column (I was a Chemical Engineering student).
+After my B.S. in Chem E., I took a year off before starting graduate school and wrote a good bit of software for a congressional campaign and as a research assistant at UMBC.
+
+When I started my Ph.D. in Chemical Engineering at Carnegie Mellon University (CMU) in 1996, I knew I liked writing code.
+In my first year at CMU, I enjoyed the challenge of learning and mastering the C++ programming language (pre-1998 standardization).
+My first C++ book was "C++ Nuts & Bolts for Experienced Programmers", 1995, by Herbert Schildt, and I read that book cover-to-cover in approximately two days.
+A few months later, I read Bjarne Stroustrup’s book "The C++ Programming Language, 2nd Edition".
+While that book mostly just covered the C++ language, Stroustrup made some references to writing tests and some other basic software engineering best practices, but it was pretty minimal (after all, this was a book about a programming language, not software engineering).
+Later in my first year of graduate school, I was introduced to the book "Design Patterns" by a computer science Ph.D. student at CMU.
+Armed with the knowledge of C++ and Design Patterns, I set about writing a sizable amount of software implementing advanced numerical algorithms for constrained optimization as part of my Ph.D. work (the optimization package at that point for reduced successive quadratic programming was called rSQP++).
+
+When I started working at Sandia National Labs in 2001 after my Ph.D., I continued writing object-oriented parallel numerical software in C++, extending my Ph.D. software package rSQP++ to support parallel computations with MPI (changing the name of rSQP++ to MOOCHO).
+Around 2003, I added the source code (and history) for MOOCHO to the Trilinos project version control repository.
+Once in Trilinos, I created or significantly contributed to many Trilinos packages.
+By 2007, I had written a lot of software and was a prolific contributor to Trilinos (the largest contributor to Trilinos in the number of commits).
+During that entire period from 1996 till 2007 I believed that I was writing quality object-oriented C++ software.
+Then, in 2007, I began reading a larger portion of the modern software engineering literature (see my [reading list](https://bartlettroscoe.github.io/reading-list/)) and came to realize my own knowledge gap in best practices for creating and maintaining quality software.
+After this realization, I began applying many of the software engineering best practices to my CSE projects and realized significant improvements in productivity and the overall quality of the software I was writing.
+However, I was also horrified to realize that, prior to gaining this knowledge, I had created tens of thousands of lines of CSE software of insufficient quality and that I was now in a position to have to maintain.
+
+I got involved in the IDEAS project when it was first started in 2014 and worked with people from other DOE laboratories to write some of the precursor material for BSSw.io.
+Once the IDEAS project was consumed into the ECP project in 2017, the BSSw.io site was started and it incorporated much of that material.
+Editing and contributed to BSSw.io was an opportunity for me to share some what I had learned with the rest of the broader CSE/HPC community and to learn from the community, from the other IDEAS-ECP members, and especially from the other BSSW.io editorial staff.
+For me, the opportunity to work with a diverse group of individuals, and to hear and learn from such a variety of different perspectives, has deepened my understanding of software engineering best practices for CSE/HPC.
+I have truly valued the opportunity to contribute to and be an editor for the BSSw.io site.
+I am thankful there is a home for ideas and information about how to practice software engineering for CSE/HPC where content can be quickly created and published, and yet has higher editorial standards that you might just put out yourself.
+BSSw.io provides an attractive compromise between speed-to-publish, formality, and peer review that sets it apart from other publication venues.
+
 
 #### Publication date: November 20, 2023
 
