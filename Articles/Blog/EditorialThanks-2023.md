@@ -103,6 +103,15 @@ I have truly valued the opportunity to contribute to and be an editor for the BS
 I am thankful there is a home for ideas and information about how to practice software engineering for CSE/HPC where content can be quickly created and published, and yet has higher editorial standards that you might just put out yourself.
 BSSw.io provides an attractive compromise between speed-to-publish, formality, and peer review that sets it apart from other publication venues.
 
+**Deborah S. Stevens:** My introduction to programming began with being told not to build card houses out my father’s active card decks or else the Key Punch girls would be upset. From this start at age 6 of filling the entire living room with a forbidden card house, my interest in computer programming was trying to read the cards to find an ordering system. In 5th and 6th grade I would go with my brother to our father’s office on the weekends at the air force base and we played Adventure with the twisty curvy passages. In middle school, I saw the early at-home computing machine where the handle of wired phone (that I wanted to use to talk to my friends) was socketed into two round rubber cradles of an early modem. 
+
+I did take the mandatory programming class in high school in 1984 and the teacher would give us assignments and then leave the classroom. I usually would finish these as she walked out the door and then use the time to get other homework done. 
+
+After earning my doctorate in applied mathematics at Northwestern University in 1999 and having two children (’98 and ’01) the household focus was such that my career took a backseat to caregiving for some time. About 6 years ago, on a bet with my spouse (I’ll exercise with you, if you learn Python) I took the Coursera series of Python classes at University of Michigan and much enjoyed it. 
+
+My work with the IDEAS-ECP project and the BSSw.io Editorial Board for the last 2 years has been enlightening. I have found the community welcoming and understanding. I appreciate the tolerance of my fumbling attempts at using github.com. I am thankful for being able to work in this environment and for the creative group of people that make up BSSw.io. 
+
+
 
 #### Publication date: November 20, 2023
 
