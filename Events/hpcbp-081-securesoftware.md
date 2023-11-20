@@ -2,7 +2,7 @@
 
 - Event Date: 2023-12-13
 - Location: Online
-- Webpage: <https://ideas-productivity.org/events/hpcbp-081-securesoftware>
+- Event Website: <https://ideas-productivity.org/events/hpcbp-081-securesoftware>
 - Organizers: The IDEAS Productivity Project
 
 This event is a part of the "Best Practices for HPC Software
