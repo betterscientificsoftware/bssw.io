@@ -1,4 +1,4 @@
-# SOLID Object Oriented Design Principles
+# SOLID Design Principles
 
 <!--deck text start-->
 A lot knowledge about how to design robust, extensible and maintainable software can be distilled into just five principles known as the S.O.L.I.D. principles.
