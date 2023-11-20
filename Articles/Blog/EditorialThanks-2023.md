@@ -32,36 +32,38 @@ I learn something from pretty much every new article that we publish on BSSw.io 
 
 Overall, I guess I would say I'm thankful for our many contributors to BSSw.io for sharing their knowledge, experience, and energy with me and with the broader community.
 
-**Mark C. Miller:** In 1975, I was the only kid in my neighborhood with a home computer.
-My father borrowed a colleague's [IMSAI-8080](https://en.wikipedia.org/wiki/IMSAI_8080) which I learned to program mainly by transcribing [published](https://en.wikipedia.org/wiki/BASIC_Computer_Games) games in Basic like [Hamurabi](https://github.com/philspil66/Hamurabi) or [Lunar Lander](https://retro365.blog/2021/12/02/bits-from-my-personal-collection-lunar-lander-50-years-of-crashing-into-the-moon-from-mainframes-and-minicomputers-to-arcades-and-personal-computers/).
-Turning it on involved a peculiar process of flipping paddle switches which I understood only years later to be entering three 8 bit words for a `JSR` instruction to initiate the boot sequence.
-Eventually we got our own [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET) and my chemistry teacher challenged me to write a program for it to compute molecular weights from formulae (e.g. 8Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>).
+**Mark C. Miller:** I am pretty sure I was the only kid in my neighborhood with a home computer.
+Back in 1975, my father borrowed a colleague's [IMSAI-8080](https://en.wikipedia.org/wiki/IMSAI_8080).
+I learned to program it mainly by transcribing [published](https://en.wikipedia.org/wiki/BASIC_Computer_Games) Basic games like [Hamurabi](https://github.com/philspil66/Hamurabi) or [Lunar Lander](https://retro365.blog/2021/12/02/bits-from-my-personal-collection-lunar-lander-50-years-of-crashing-into-the-moon-from-mainframes-and-minicomputers-to-arcades-and-personal-computers/).
+I recall that powering it on involved a peculiar process of flipping a number of paddle switches.
+It wasn't until years later that I realized I had been entering three 8 bit words for a `JSR` instruction to initiate the boot sequence.
+Soon, we replaced that borrowed machine with our own [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET).
+On a bet with my Chemistry teacher, I wrote a Basic program for it to compute molecular weights from formulae (e.g. 8Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>).
 
 With that early start in programming, its maybe ironic that I was never formally educated in computer science.
 I never took courses in compilers, networks or operating systems.
 My formal education is in Electrical Engineering.
-I used to be able to analyze the heck out of a transistor circuit or calculate the far-field of a perfectly conducting cylinder.
+I was once able to analyze the heck out of a transistor circuit or calculate the far-field of a perfectly conducting cylinder.
 I finally fully understood how computers worked only after taking a [PDB-11](https://en.wikipedia.org/wiki/PDP-11_architecture) assembly language course.
 
-All of my programming experience grew out of the application of software to address challenges in other projects.
-As a child, I wanted to create a digital Dungeons and Dragons game and promptly exhausted the 8 kilobytes of PET memory.
-My Master's work grew out of the need to recover undersampled periodic signals from streak camera rotors.
-My Ph.D. work grew out of the need to compress a disk-resident terrain database for a real-time rendering application.
+All of my interest and experience in programming grew out of the *application* of software in other projects.
+As a child, I wanted to create a digital Dungeons and Dragons game (and promptly exhausted the 8 kilobytes of PET memory).
+My graduate work first grew out of the need to recover undersampled periodic signals from streak camera rotors and later to compress a disk-resident terrain database for a real-time rendering application.
 
-I am grateful for all of that because it paved the way for me to eventually find work as a computer scientist at LLNL.
+I am thankful for all of those experiences because they paved the way for me to eventually find work as a computer scientist at LLNL.
 Although my formal job title for the last ~30 years has been *Computer Scientist*, I identify more as a *Software Engineer*.
-I have rarely, if ever, developed a C++ class from scratch.
-I am still inclined to write procedural rather than object-oriented python.
+I have rarely developed a C++ class from scratch.
+I am still inclined to write procedural rather than object-oriented code.
 I debug with print statements a lot more often than I'd like to admit.
 
-In spite of that, LLNL has continued to invest in developing my software engineering skills through on-the-job training and formal course offerings in various [scientific computing technologies](https://bssw.io/items/fundamental-resources-for-scientific-computing).
-I am grateful LLNL supported me in keeping myself and my family safe through the pandemic by fully embracing remote work and requiring masks and vaccinations while on site.
+That being said, I am thankful LLNL has nontheless continued to invest in developing my software engineering skills through a mix of on-the-job training and formal course offerings in various [scientific computing technologies](https://bssw.io/items/fundamental-resources-for-scientific-computing).
+Through the pandemic, I was extremely grateful LLNL fully embraced and pivoted to remote work and required masks and vaccinations for on site workers.
 
-More than anything else, I have had the great fortune of working around and with many, highly skilled and talented software professionals who have generously shared their tricks, tips and software engineering know-how with me either directly in conversation or by osmosis through trusting me to work on code they develop and maintain.
+More than anything else, I am thankful for the great fortune of working around and with many, highly skilled and talented scientific software professionals who have generously shared their tricks, tips and software engineering know-how with me either directly in conversation or by osmosis through trusting me to work on code they develop and maintain.
 Honestly, there have been a lot of days where I have felt pretty sheepish to be seated at the same table with these amazingly talented people.
 
 Being a contributor to the IDEAS-ECP project has only broadened and deepened that experience to include many friends and colleagues across the DOE complex at other national labs.
-I am thankful to many dedicated members of the scientific computing community for their confidence in my work, their patience and help in diagnosing and fixing bugs, their suggestions for improvements, their willingness to roll up their sleeves and dig into my code when I've needed help, their sharing of data and results and their advocacy and citations of software I contribute to in presentations and papers.
+I am thankful to the many dedicated members of the scientific computing community for their willingness to work with me, their confidence in my work, their patience and help in diagnosing and fixing bugs, their ability to roll up their sleeves and dig into my code when I've needed help, their suggestions for improvement, their sharing of data and results and their advocacy and citations of the software I support.
 
 **Rinku Gupta:**
 As I reflect on my journey in the scientific computing field over the past 25 years, I can't help but feel an ovewhelming sense of gratitude for the evolution of my understanding and engagement with software sustainability. When I started as a research software engineer, delving into the intricacies of programming models, fault tolerance, resilience, networks, and operating systems consumed my professional landscape. However, it wasn't until I joined the IDEAS ECP project that the concept of software sustainability truly entered my realm of awareness. Initially viewing it as a redundant addition to our existing practices, my perspective underwent a profound shift. The IDEAS ECP project revealed the depth and breadth of sustainability issues within scientific computing, a revelation that I consider has significantly shaped the latter part of my career in the last several years.
