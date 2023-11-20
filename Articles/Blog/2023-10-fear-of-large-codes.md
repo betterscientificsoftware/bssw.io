@@ -48,7 +48,7 @@ It is natural to ask at this point: why is this fear of large codes so common?
 After all, not all students are like the one mentioned at the beginning of this article, praised for their "lack of fear" of getting their hands dirty with large codes.
 What if there were a way for *most* students to work on large codes without necessarily needing years of development experience and, most importantly, without being afraid of them?
 You may think this a utopian view, but I would argue that such a reality *could* exist.
-Imagine a code (started as a small project, but on its way to becoming a large one) developed from the beginning with *accessibility* and *sustainability* in mind: the design is modular and flexible (e.g., in object-oriented programming (OOP) the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) are meticulously met), documentation is complete, and the test suite is well developed.
+Imagine a code (started as a small project, but on its way to becoming a large one) developed from the beginning with *accessibility* and *sustainability* in mind: the design is modular and flexible (e.g., in object-oriented programming (OOP) the [SOLID principles](../items/solid-design-principles) are meticulously met), documentation is complete, and the test suite is well developed.
 If this were the case, I believe that any person with even a minimum set of skills should be able to contribute -- such a code need not be feared, but rather appreciated and liked by users who are comfortable using it in their learning and research.
 However, there is a caveat, in that more often than not, the time scale of developing a "pristine" code conflicts with funding and research timelines, which brings me to the following point.
 
@@ -102,5 +102,5 @@ He holds an M.Sc. in Computational Physics from the University of Udine (Italy),
 
 <!---
 Publish: yes
-Topics: "software engineering"
+Topics: software engineering
 --->
