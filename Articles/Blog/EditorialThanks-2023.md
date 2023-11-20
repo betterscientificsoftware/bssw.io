@@ -113,7 +113,9 @@ After earning my doctorate in applied mathematics at Northwestern University in 
 
 My work with the IDEAS-ECP project and the BSSw.io Editorial Board for the last 2 years has been enlightening. I have found the community welcoming and understanding. I appreciate the tolerance of my fumbling attempts at using github.com. I am thankful for being able to work in this environment and for the creative group of people that make up BSSw.io. 
 
+**Lois Curfman McInnes:** I am truly grateful to collaborate with such a talented and committed community on advancing *scientific software* (practices, people, products, applications, and more) as the central means of discovery computational science and engineering (CSE).  A sincere thank you to all BSSw.io readers and contributors --- and to complementary groups around the world who are working to advance the cause of high-quality scientific software as a primary means of encapsulating expertise and sustaining collaboration across disciplines. 
 
+After my experience as a graduate student in writing my own software for algorithmic investigations in iterative numerical methods, I had the good fortune to partner with Bill Gropp and Barry Smith to develop PETSc-2.0, building on the (then newly defined) MPI standard.  Since that time, I have thoroughly enjoyed the expansion of collaboration on advanced scientific computing throughout the international community, and especially across DOE labs.  I am grateful for continual learning from one another and progress together to advance the culture of scientific software. 
 
 #### Publication date: November 20, 2023
 
