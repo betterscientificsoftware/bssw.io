@@ -5,7 +5,7 @@ A lot knowledge about how to design robust, extensible and maintainable software
 <!--deck text end-->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett GitHub Profile")
-#### Publication date: ???
+#### Publication date: November 22, 2023
 
 Resource information | Details
 :--- | :--- 
@@ -39,7 +39,7 @@ Learning the SOLID design principles are a key foundation for any serious softwa
 <!---
 Publish: yes
 Pinned: no
-Topics: ???
+Topics: software engineering, design
 --->
 
 <!-- References -->
