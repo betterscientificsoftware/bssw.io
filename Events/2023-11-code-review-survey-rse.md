@@ -18,7 +18,7 @@ Event Information | Details
 Event Name | Survey of Peer Code Review in Research Software Development
 Website | https://universityofalabama.az1.qualtrics.com/responses/#/surveys/SV_3Jz2d6Ex2jLcDY2
 
-Along with a Ph.D. student, Md Ariful Islam Malik, Jeff Carver of the University of Alabama and Nasir Eisty of Boise State University are conducting a study to understand the practices, impacts, and barriers of code review techniques for RSEs.
+Along with a Ph.D. student, Md Ariful Islam Malik, Jeff Carver of the University of Alabama and Nasir Eisty of Boise State University are conducting a study to understand the practices, impacts, and barriers of code review techniques for research software engineers (RSEs).
 
 The purpose of the study is to understand how RSEs perform code reviews and what challenges they face. Understanding this practice will help members of the community better implement this practice and motivate future study in this area. 
 
