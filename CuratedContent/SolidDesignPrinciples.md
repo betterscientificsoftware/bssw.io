@@ -13,7 +13,7 @@ Article title |  [SOLID Design Principles Wikipedia Page](https://en.wikipedia.o
 Authors | Wikipedia Maintainers (Based on work from Robert C. Martin)
 Focus | Software Design
 
-At the foundation of software design and design pattern<sup>[1]</sup> are five software design principles as first articulated by Robert C. Martin and published in several of his books<sup>[2],[3]</sup> and articles.
+At the foundation of software design and design patterns<sup>[1]</sup> are five software design principles as first articulated by Robert C. Martin and published in several of his books<sup>[2],[3]</sup> and articles.
 The names and short descriptions of these five principles (as published in 2003<sup>[3]</sup>) making up the S.O.L.I.D. Principles are:
 
 * **1) SRP** (Single Responsibility Principle): Classes should have only one reason to change.
@@ -26,15 +26,15 @@ The names and short descriptions of these five principles (as published in 2003<
 
 * **5) DIP** (Dependency Inversion Principle): Abstractions should not depend on details. Details should depend on abstractions.
 
-Beyond Robert Martin's books on the SOLID principles, there are many articles, tutorials, and videos on the SOLID principles developed by many other authors that can be found on the open web (too many to list here).
-One of these articles or videos may be of the ideal focus and length for a given interested developer wishing to start learning about these important principles.
+The Wikipedia article linked above provides a starting point for further exploration, with references to both the individual principles and general discussions of the SOLID principles collectively.
+There are many additional articles, tutorials, and videos on the SOLID principles developed by many other authors that can be found on the open web (too many to list here).
 However, to really learn these principles, one cannot go wrong with reading about them in one of Robert's books<sup>[2],[3]</sup> in the broader context of software design and architecture.
 
 While these design principles were first articulated in the 1990s in the era of object-oriented "Big Design Up-Front" (BDUF<sup>[4]</sup>) and statically typed programming languages (e.g. C++), they still apply just as much today as they are the foundation for all maintainable and extensible software<sup>[5],[6]</sup>.
-It is hard to image a robust, flexible, extensible, and maintainable software package that does not employ one more of these design principles.
+It is hard to imagine a robust, flexible, extensible, and maintainable software package that does not employ one more of these design principles.
 For example, every plug-in architecture in existence (regardless of the programming language being used) depends on the principles OCP and LSP at the very least.
 
-Learning the SOLID design principles are a key foundation for any serious software design effort and likely any software developer that does not understand these principles (if not by name) is in for a rough future in the world of software development.
+Learning the SOLID design principles is a key foundation for any serious software design effort.
 
 <!---
 Publish: yes
