@@ -6,7 +6,7 @@
 
 - Closing Date: December 31, 2023
 - Location: Online
-- Website: https://universityofalabama.az1.qualtrics.com/responses/#/surveys/SV_3Jz2d6Ex2jLcDY2
+- Website: https://universityofalabama.az1.qualtrics.com/jfe/form/SV_3Jz2d6Ex2jLcDY2
 - Organizers: Jeffrey C. Carver, Nasir U. Eisty, and Md Ariful Islam Malik
 
 <!-- deck text start -->
@@ -16,7 +16,7 @@ If you develop scientific software in your work and want to contribute to our st
 Event Information | Details
 :--- | :---	
 Event Name | Survey of Peer Code Review in Research Software Development
-Website | https://universityofalabama.az1.qualtrics.com/responses/#/surveys/SV_3Jz2d6Ex2jLcDY2
+Website | https://universityofalabama.az1.qualtrics.com/jfe/form/SV_3Jz2d6Ex2jLcDY2 
 
 Along with a Ph.D. student, Md Ariful Islam Malik, Jeff Carver of the University of Alabama and Nasir Eisty of Boise State University are conducting a study to understand the practices, impacts, and barriers of code review techniques for research software engineers (RSEs).
 
