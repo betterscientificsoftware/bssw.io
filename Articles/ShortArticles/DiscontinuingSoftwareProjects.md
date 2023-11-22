@@ -100,7 +100,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    Salvaging valuable components can save time and effort in future development.
    Depending on how the software is architected, the work to refactor any such pieces of the code may be doable before funding runs out.
    Stakeholders with downstream dependencies that are highly localized to a refactorable piece of the code base may even be willing to take over maintaining that piece as its own package.
-   Reach out to researchers working in similar area to see if they may see a benefit to maintaining a *piece*.
+   Reach out to researchers working in a similar area to see if they could benefit from maintaining a *piece*.
    There may be graduate students looking for projects who may be interested and willing to pick up and build upon a package.
 
 1. Gather lessons learned:
@@ -121,7 +121,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
 
    The decision to discontinue a project needs to be communicated as soon as possible to all stakeholders.
    Whenever possible, be open and honest about the reasons and express gratitude to for contributor's efforts.
-   The sooner existing users can be notified that the software is loosing support, the more time they will have to consider what to do.
+   The sooner existing users can be notified that the software is losing support, the more time they will have to consider what to do.
 
    One of the first things to decide is whether future project *communications* will go on some form of life-support or be discontinued entirely.
    Having life-support communications is obviously preferred but it comes at some non-zero cost and so may not be practical in all cases.
