@@ -1,5 +1,5 @@
 ---
-title: Internal Docs PR Checlist
+title: Internal Docs PR Checklist
 sidebar: bssw_sidebar
 permalink: bssw_intdocs_pr_checklist.html
 ---

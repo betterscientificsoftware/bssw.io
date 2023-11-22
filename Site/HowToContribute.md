@@ -16,7 +16,7 @@ The first step when it comes to contributing to BSSw is checking whether your id
 Please see [What To Contribute](./WhatToContribute.md) for some guidance on scope and fit.
 Please follow the steps below to submit a GitHub issue describing your idea(s) for content.
 
-### Submisson via GitHub
+### Submission via GitHub
 1. **Note:** You will need a [GitHub account](https://github.com/signup) in order to submit an idea.
    They are free.
 1. Open a browser window pointed at the [Better Scientific Software GitHub site](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io).

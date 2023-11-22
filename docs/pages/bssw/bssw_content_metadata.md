@@ -168,7 +168,7 @@ This was optional info used for aggregating content to define a more complex res
    - Note an aggregate resource
 
  - Aggregate: base
-   - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulletted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](CuratedContent/ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
+   - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulleted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](CuratedContent/ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
 
 - Aggregate: subresource
   - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSw site.  We expect this to be the most common usage.  

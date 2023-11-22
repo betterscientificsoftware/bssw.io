@@ -19,7 +19,7 @@ Until fairly recently, Contributor License Agreements (CLAs)<sup>[1],[2]</sup> h
 CLAs can be signed by individual contributors or by organizations (to cover all of its members).
 While CLAs have a number of advantages for a project from a legal standpoint (such as facilitating later re-licensing), they are unpopular with some developers and developer communities, and are seen by many as an impediment to accepting contributions<sup>[3],[5]</sup>.
 
-To address the problems with CLAs and other similar appraoches, the Linux Foundation introduced the Developer Certificate of Origin (DCO) in 2004<sup>[6]</sup>.
+To address the problems with CLAs and other similar approaches, the Linux Foundation introduced the Developer Certificate of Origin (DCO) in 2004<sup>[6]</sup>.
 The DCO is a lightweight approach where developers "sign" every Git commit with a `Signed-off-by` line in the commit message:
 
 ```

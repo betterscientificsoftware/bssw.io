@@ -29,7 +29,7 @@ Authority) uses to improve the development of research software.
 
 First, some context for my team is necessary. Fusion science is a broad domain
 in terms of both scientific disciplines and spatial and temporal time scales,
-leading to what I describe as a "heterogenous computing environment." For
+leading to what I describe as a "heterogeneous computing environment." For
 instance, creating a high-fidelity "digital twin" of a fusion reactor would
 require approximately 10 TB and 5 million CPUs, putting it firmly in the
 exascale of computing. It requires simulations based on plasma physics,

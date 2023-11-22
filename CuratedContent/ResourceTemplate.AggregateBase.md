@@ -14,7 +14,7 @@ The front-end for the BSSw site will then combine the information into an aggreg
 
 This file ("base"):  
 - Aggregate: base
-   - The "base" designation indicates that content and metadata will be included from subresource files, as specified in the bulletted list of subresources.
+   - The "base" designation indicates that content and metadata will be included from subresource files, as specified in the bulleted list of subresources.
 
 Subtopic resource files:
 - Aggregate: subresource

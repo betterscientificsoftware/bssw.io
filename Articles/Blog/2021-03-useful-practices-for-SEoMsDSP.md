@@ -46,7 +46,7 @@ broad range of advanced fossil energy systems. The IDAES team spans three nation
 (NETL, Sandia National Laboratories, and Lawrence Berkeley National Laboratory)  and three universities (Carnegie Mellon University, West Virginia University,
 and Notre Dame University). Most of the team is spread in the two Pennsylvania locations, but half a dozen participants are present in California and New Mexico each, in addition to the professors and several graduate students present in the various universities. From a software engineering perspective, the goal is to build a software package that is capable of
 simulating important aspects of power plants and power grids. The eventual target
-users are power plant operators and power grid designers, with a current user base primarly of reseachers, graduate students and the developers themselves.
+users are power plant operators and power grid designers, with a current user base primarily of researchers, graduate students and the developers themselves.
 
 ### A three-pronged approach
 

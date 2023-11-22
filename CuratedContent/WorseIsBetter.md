@@ -36,7 +36,7 @@ He even argued that Unix and C are examples of products developed using the Wors
 
 Although  Gabriel's primary intention was to suggest Worse-is-Better as a subpar approach, his ideas may have unintentionally lent credibility to Worse-is-Better as a bonafide software engineering methodology.
 The author revisited these concerns and issues in a [new essay](https://www.dreamsongs.com/WorseIsBetter.html)  written around 2000.
-Futhermore, in 2010, Stanford offered a [CS course](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/WorseIsBetter/index.php/Main_Page.html) where Worse-is-Better was considered as one of several approaches in a computer science course.
+Furthermore, in 2010, Stanford offered a [CS course](https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/WorseIsBetter/index.php/Main_Page.html) where Worse-is-Better was considered as one of several approaches in a computer science course.
 
 In some respects, the article reads like the counter-argument to [never make perfect the enemy of good [enough]](https://www.rand.org/pubs/research_reports/RR2150.html), which is also sometimes paraphrased as making perfect the enemy of *possible* or the enemy of *done*.
 In reflecting on the role of [perfect](https://betterprogramming.pub/why-software-should-be-good-enough-and-not-perfect-b741b07865d7) and [good](https://news.ycombinator.com/item?id=12377385) in my own life and 30+ year long career as a software engineer within the HPC/CSE community, I have come to the realization that none of us have ever really had the luxury of making perfect the enemy of anything.

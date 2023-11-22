@@ -43,9 +43,9 @@ The deck section, of every content type, will *always* contain the following *ma
 However, the different content types may have additional *content-specific deck attributes* as well. Please refer to the styling guides for each content type for these content-specific deck attributes.
 
 #### Deck Title
-A deck title should be simple and straighforward.
+A deck title should be simple and straightforward.
 * The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
+* Conjunctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
 #### Contributor Name
 This is name of the contributor/author/organizer. This contains the full name of the contributor and a URL, usually to the github profile, of the contributor. In the source file, please use the following format: 
@@ -68,7 +68,7 @@ When utilizing DOIs, it is appropriate to mention "doi.org" or "dx.doi.org" (whi
 ## Handling absolute and relative links/URLs
 Several times, BSSw.io content will contain links to resources which are hosted in the bssw.io site itself. Such links are treated as internal links and they should be relative and should point to the actual ".md" file. They should not point to the absolute URL of the linked article on the bssw.io site.
 
-- Example: If one refers to an article called foo.md, it should be refered to as something like  "../../blog/foo.md" (depending on the relative location in the github reposity) rather than absolute (which is the URL on the bssw.io site and may perhaps be something like https://bssw.io/items/some-words-indicating-title-of-linked-article.html)
+- Example: If one refers to an article called foo.md, it should be referred to as something like  "../../blog/foo.md" (depending on the relative location in the github repository) rather than absolute (which is the URL on the bssw.io site and may perhaps be something like https://bssw.io/items/some-words-indicating-title-of-linked-article.html)
 
 When bssw.io content contains links to resources which are hosted external to the bssw.io website, then those links have to be the absolute URL. 
 
@@ -100,7 +100,7 @@ Images for bssw.io content are stored in the main `bssw.io` repository in the `i
 
 ### Hero images
 
-Only blog articles use heros. 
+Only blog articles use heroes. 
 The hero immediately follows the title in the article's `*.md` file:
 
 ```
@@ -190,7 +190,7 @@ As [detailed above](#handling-images), bssw.io uses different syntax for images.
 
 ## Updating/re-publishing published articles
 
-Articles that are already published and are current public may sometimes need to be updated. Minor updates such as grammar/spellings/errors/formatting can be done anytime. If you wish to make siginificant updates to the articles (for ex: new updates links, new content etc.) OR if you simply wish to bring the article into focus again with a new publish date, then please mention the following verbiage at the *end of the article*.
+Articles that are already published and are current public may sometimes need to be updated. Minor updates such as grammar/spellings/errors/formatting can be done anytime. If you wish to make significant updates to the articles (for ex: new updates links, new content etc.) OR if you simply wish to bring the article into focus again with a new publish date, then please mention the following verbiage at the *end of the article*.
 
 ```
 This article was originally published on Month day, year

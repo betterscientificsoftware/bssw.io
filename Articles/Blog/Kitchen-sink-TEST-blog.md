@@ -42,9 +42,9 @@ The second sentence uses the `<mark>` tag. The quick brown fox jumps over the la
 
 ### Subhead
 
-- Unorderd list item
-- Unorderd list item
-- Unorderd list item
+- Unordered list item
+- Unordered list item
+- Unordered list item
 
 1. Ordered list item
 2. Ordered list item
@@ -56,9 +56,9 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
-- Unorderd list item
-- Unorderd list item
-- Unorderd list item
+- Unordered list item
+- Unordered list item
+- Unordered list item
 
 
 
@@ -196,7 +196,7 @@ Below are markdwon styles in the blockquote
 
 ## Test of HTML comment handling
 
-HTML comments look like this: `<!-- arbitrary text -->` (which we can see becasuse we marked it up as code)
+HTML comments look like this: `<!-- arbitrary text -->` (which we can see because we marked it up as code)
 
 Comments in regular text <!-- like this --> should be interpreted as comments.  They should be visible in the resulting HTML source, but not in the rendered version.
 

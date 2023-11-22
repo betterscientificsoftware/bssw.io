@@ -10,7 +10,7 @@
 
 
 
-*The short document "How to do Version Control with Git in your CSE Project" provides an overview of the usage of Git for a CSE project (but is also applicable to other types of projects). Topics coverted include basic git setup, tips on learning git, basic tips for using git, and git workflow building blocks.*
+*The short document "How to do Version Control with Git in your CSE Project" provides an overview of the usage of Git for a CSE project (but is also applicable to other types of projects). Topics covered include basic git setup, tips on learning git, basic tips for using git, and git workflow building blocks.*
 
 
 ### Overview

@@ -114,7 +114,7 @@ struct TestContext {
 BOOST_TEST(Feature) {
   // synchronize, initialize
   TestContext context(SCENARIO);
-  // exit test if unsed
+  // exit test if unused
   if (!context.valid()) return;
   
   BOOST_TEST(something);

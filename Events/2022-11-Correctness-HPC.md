@@ -26,7 +26,7 @@ Ensuring correctness in high-performance computing (HPC) applications is one of 
 This year's workshop will include, but is not limited to, the following topics: 
 * Correctness in Scientific Applications and Algorithms
 * Tools for Debugging, Testing, and Correctness Checking
-* Programing Models and Runtime Systems Correctness
+* Programming Models and Runtime Systems Correctness
 * Other Areas
 
 Authors are invited to submit manuscripts in English structured as technical or experience papers at a length of at least 6 pages but not exceeding 8 pages of content, including everything. Submissions must use the IEEE format. More information on the workshop topics and paper submissions can be found on the event website. 
