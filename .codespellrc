@@ -4,5 +4,5 @@ check-hidden =
 # Disable warnings about binary files
 quiet-level = 2
 # Ignore Words List: Formal names, acronyms, other words
-ignore-words-list = nam,hass,hart,wil,damon,leary,cruzes,nwo,idaes,precice,rcall,ags,coo,theses,nd,algebraical,unsecure,commun,ore,re-use
+ignore-words-list = nam,hass,hart,wil,damon,leary,cruzes,nwo,idaes,precice,rcall,ags,coo,theses,nd,ba,algebraical,unsecure,commun,ore,re-use
 skip = */.git,*/*.pdf,*/_config.yml,*/jquery.shuffle.min.js,*/build_tests/*,*/utils/tests/*.md
