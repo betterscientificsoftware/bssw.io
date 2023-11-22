@@ -1,5 +1,12 @@
 # Discontinuing a Research Software Project
 
+<!--deck text start-->
+A software (research) project can be discontinued in a way that allows stakeholders a smooth transition, the mining of lessons learned and useful subcomponents, and even to pick the project back up again if desired.
+<!--deck text end-->
+
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: November 24, 2023
+
 High Performance Computing (HPC) / Computational Science and Engineering (CSE) software projects involve at least two kinds of *deep* knowledge.
 One is the computational science the software aims to enable.
 The other is the computer science (aka software engineering) involved in designing, developing, deploying and supporting the software for users.
@@ -142,3 +149,9 @@ Many of the actions suggested here will likely help.
 Nonetheless, the extent to which a project that has lost funding can be held responsible for reproducibility is an open question and outside the scope of this article.
 
 By following many of these suggested actions, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science knowledge as possible for posterity.
+
+<!---
+Publish: yes
+Pinned: no
+Topics: projects and organizations, funding sources and programs, reproducibility, software sustainability
+--->
