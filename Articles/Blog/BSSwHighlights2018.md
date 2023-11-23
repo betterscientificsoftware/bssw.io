@@ -3,7 +3,7 @@
 **Hero Image:**
 - <img src="../../images/Blog_010219_Mantage.png" />[2018 Highlights]
 
-#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") 
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [David E. Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") 
 
 #### Publication date: January 4, 2019
 

@@ -4,7 +4,7 @@
 There are a number of bloggers and podcasters who frequently and thoughtfully discuss issues related to "better scientific software".  You may want to follow some of them.
 <!--- deck text end --->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: February 19, 2021 
 
 ## Daniel S. Katz's Blog

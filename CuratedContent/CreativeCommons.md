@@ -3,7 +3,7 @@
 Have you heard of *Creative Commons* licensing? Learn more about this family of licenses and see how it may help your software project.
 <!--deck text end-->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: July 20, 2019 
 
 Resource information | Details 

@@ -3,7 +3,7 @@
 The IDEAS project addresses productivity and sustainability concerns that are emerging from important trends in extreme-scale computing for science and engineering.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: February 13, 2020
 
 Resource information | Details 

@@ -12,7 +12,7 @@ Another challenge faced by those interested in producing better scientific softw
 
 This topic provides pointers to venues that support publishing of software artifacts, and organizations developing and promoting principles for the appropriate citation of software.  It also includes recurring conference and workshop series and journals that focus on the software development experience.  There are also many cases where more general conferences will include specific focused events related to software development experiences, which you can find (or submit to) the Events section of the site.
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold) and [Dan Ibanez](https://github.com/ibaned)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold) and [Dan Ibanez](https://github.com/ibaned)
 <!--body end--->
 
 <!---

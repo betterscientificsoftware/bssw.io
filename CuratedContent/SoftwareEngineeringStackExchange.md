@@ -3,7 +3,7 @@
 *[Software Engineering Stack Exchange](https://softwareengineering.stackexchange.com/)* is a question and answer site for professionals, academics, and students working within the software development lifecycle.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: May 30, 2019
 
 Resource information | Details 

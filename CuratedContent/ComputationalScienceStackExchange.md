@@ -3,7 +3,7 @@
 Do you work in computational science and need an online forum for asking questions and discussing scientific computational problems? 
 <!--deck text end-->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: July 20, 2019 
 
 Resource information | Details

@@ -20,7 +20,7 @@ Some licenses include terms related to patents.  Patents are quite different tha
 
 Some projects require contributor agreements when submitting software.  These are legal agreements that make explicit the terms under which the developer is conveying the software.  In the absence of a contributor agreement, the contribution is typically made under the assumption that it will be distributed under the same license terms as existing code base.
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 <!--body end--->
 
 

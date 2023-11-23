@@ -4,7 +4,7 @@
 The current decade has bought bright focus on sustainable software in the field of science. *WSSSPE* is once such important international community-driven organization that promotes sustainable research software.
 <!-- deck text end -->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: July 20, 2019
 
 Resource information | Details 

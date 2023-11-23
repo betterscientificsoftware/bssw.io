@@ -15,7 +15,7 @@ Resource Information | Details
 :--- | :---			   
 Webinar Title | Scalable Precision Tuning of Numerical Software
 Date and Time | 2020-10-14 05:00 pm WTZ
-Presenter | Cindy Rubio-Gonzalez (University of California, Davis)
+Presenter | Cindy Rubio-González (University of California, Davis)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar045>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
@@ -26,11 +26,11 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/resou
 
 
 ### Presenter Bio
-<p>Cindy Rubio-Gonzalez is an Associate Professor of Computer Science at the University of California, Davis. Prior to joining UC Davis, she was a Postdoctoral Researcher in the EECS Department at the University of California, Berkeley. She received her Ph.D. in Computer Science from the University of Wisconsin&#8211;Madison in 2012. Dr. Rubio&#8217;s work spans the areas of Programming Languages and Software Engineering, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific computing applications. Dr. Rubio is a Better Scientific Software Fellow 2020, and a recipient of a DOE Early Career Award 2019, an NSF CAREER award 2018, a Hellman Fellowship 2017, and a UC Davis CAMPOS Faculty Award 2014. Dr. Rubio earned her M.S. in Computer Science from the University of Wisconsin&#8211;Milwaukee and her B.S. in Computer Engineering from Saltillo Institute of Technology (Mexico). She also holds a B.M. in Piano Performance from the Autonomous University of Coahuila (Mexico).</p>
+<p>Cindy Rubio-González is an Associate Professor of Computer Science at the University of California, Davis. Prior to joining UC Davis, she was a Postdoctoral Researcher in the EECS Department at the University of California, Berkeley. She received her Ph.D. in Computer Science from the University of Wisconsin&#8211;Madison in 2012. Dr. Rubio&#8217;s work spans the areas of Programming Languages and Software Engineering, with a focus on program analysis for automated bug finding and program optimization. She is particularly interested in the reliability and performance of systems software and scientific computing applications. Dr. Rubio is a Better Scientific Software Fellow 2020, and a recipient of a DOE Early Career Award 2019, an NSF CAREER award 2018, a Hellman Fellowship 2017, and a UC Davis CAMPOS Faculty Award 2014. Dr. Rubio earned her M.S. in Computer Science from the University of Wisconsin&#8211;Milwaukee and her B.S. in Computer Engineering from Saltillo Institute of Technology (Mexico). She also holds a B.M. in Piano Performance from the Autonomous University of Coahuila (Mexico).</p>
 
     
 
-#### Contributed by [Cindy Rubio-Gonzalez](https://github.com/crubiog "Cindy Rubio-Gonzalez GitHub profile")
+#### Contributed by [Cindy Rubio-González](https://github.com/crubiog "Cindy Rubio-González GitHub profile")
 
 <!---
 Publish: yes

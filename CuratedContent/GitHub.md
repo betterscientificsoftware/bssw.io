@@ -3,7 +3,7 @@
 Are you familiar with revision control repository services? *GitHub* is a well-known Git-focused revision control repository service.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: January 30, 2020
 
 Resource information | Details 

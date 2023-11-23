@@ -5,7 +5,7 @@
 The *Understanding the High-Performance-Computing Community: A Software Engineer's Perspective* paper, published in the *IEEE Software journal* in *July 2008*, attempts to narrow the understanding and expectations gap between the software engineering and high performance computing researchers.
 <!-- deck text end -->
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 #### Publication date: July 21, 2019
 
 Resource information | Details

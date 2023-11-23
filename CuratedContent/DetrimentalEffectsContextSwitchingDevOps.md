@@ -6,7 +6,7 @@ The article *Addressing the Detrimental Effects of Context Switching with
 DevOps* explores the adverse effects on productivity when software development team members are required to switch between projects, and outlines some DevOps practices mitigating those effects.
 <!-- deck text end -->
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
+#### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
 #### Publication date: August 27, 2020
 
 Resource information | Details

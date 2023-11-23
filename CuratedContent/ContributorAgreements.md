@@ -3,7 +3,7 @@
 Have you heard of *Contributor Agreements*? Learn more about these agreements to proactively avoid future legal issues and code disputes.
 <!--deck text end-->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: July 20, 2019 
 
 Resource information | Details 

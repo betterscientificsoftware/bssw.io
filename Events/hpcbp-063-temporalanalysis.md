@@ -15,7 +15,7 @@ Resource Information | Details
 :--- | :---			   
 Webinar Title | Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field
 Date and Time | 2022-05-11 01:00 pm EDT
-Presenter | Marisol Garcia-Reyes (Farallon Institute)
+Presenter | Marisol García-Reyes (Farallon Institute)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
@@ -26,11 +26,11 @@ Registration, Information, and Archives | 	<https://ideas-productivity.org/resou
 
 
 ### Presenter Bio
-<p>Marisol Garcia-Reyes has a background in physics, atmospheric science and computer sciences, but she’s an oceanographer at heart. Her research focuses on how climate change and variability impact marine environments and ecosystems, and on climate extreme events. For this, she analyzes large amounts of diverse data, including satellite, in situ and model data, using it in her own research and in collaborative research where Earth data and her data expertise is needed. This has motivated her to learn and share her experiences and expertise on new data and coding advances. She is also a mentor, committed to increasing access, equity, and diversity in education and in sciences.</p>
+<p>Marisol García-Reyes has a background in physics, atmospheric science and computer sciences, but she’s an oceanographer at heart. Her research focuses on how climate change and variability impact marine environments and ecosystems, and on climate extreme events. For this, she analyzes large amounts of diverse data, including satellite, in situ and model data, using it in her own research and in collaborative research where Earth data and her data expertise is needed. This has motivated her to learn and share her experiences and expertise on new data and coding advances. She is also a mentor, committed to increasing access, equity, and diversity in education and in sciences.</p>
 
     
 
-#### Contributed by [Marisol Garcia-Reyes](https://github.com/marisolgr "Marisol Garcia-Reyes GitHub profile")
+#### Contributed by [Marisol García-Reyes](https://github.com/marisolgr "Marisol García-Reyes GitHub profile")
 
 <!---
 Publish: yes

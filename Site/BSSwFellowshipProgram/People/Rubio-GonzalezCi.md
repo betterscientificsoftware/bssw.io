@@ -1,6 +1,6 @@
 **Year:** 2020
 
-**Name:** Cindy Rubio-Gonzalez
+**Name:** Cindy Rubio-González
 
 **Affiliation:** University of California, Davis
 
