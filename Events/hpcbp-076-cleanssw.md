@@ -24,7 +24,7 @@
 
 - Event Date: 2023-07-12
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar076
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar076
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Writing Clean Scientific Software
 Date and Time | 2023-07-12 01:00 pm EDT
 Presenter | Nick Murphy (Center for Astrophysics, Harvard &amp; Smithsonian)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar076>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar076>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

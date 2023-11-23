@@ -18,7 +18,7 @@ In addition to technically focused projects, we invite proposals for activities 
 
 While many fellowship proposals focus on activities, successful project proposals are more than one-time undertakings.
 We aim for reusable, sustainable deliverables that can live beyond the fellowship.
-These artifacts can come in the form of videos (including [HPC Best Practices webinars](https://ideas-productivity.org/events/hpc-best-practices-webinars/)), written content, interactive websites, and more.
+These artifacts can come in the form of videos (including [HPC Best Practices webinars](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/)), written content, interactive websites, and more.
 Past fellows have leveraged the BSSw.io blog as well.
 
 ### Technical vs. social perspectives
@@ -42,7 +42,7 @@ For more information, see the [FAQ page](https://bssw.io/pages/bssw-fellowship-f
 
 ### Author bio
 
-Elsa Gonsiorowski is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
+Elsa Gonsiorowski is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
 
 <br>
 

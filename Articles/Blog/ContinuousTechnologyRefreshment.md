@@ -111,7 +111,7 @@ He is a contributor to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit)
 and the lead developer of
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo). He is also a contributor to the
-[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/) project.
+[IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) project.
 
 Holly Auten is the Web Content Lead for the Computation Web Team and
 routinely contributes articles regarding various aspects of on-going software

@@ -27,14 +27,14 @@ First read the document [What Is Version Control](https://ideas-productivity.org
 
 ### Basic Git Setup
 Before using Git on a new machine, perform the following minimal setup:
-* [Set up minimal Git settings for your account, including “user.name,” “user.email,” “color.ui,” “push.default,” and “rerere.enabled”](https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection/beginner-tips/)[1].
+* [Set up minimal Git settings for your account, including “user.name,” “user.email,” “color.ui,” “push.default,” and “rerere.enabled”](/items/critical-beginner-git-usage-tips)[1].
 * Install scripts locally for the Git shell prompt ([git-prompt.sh](https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh)) and Git tab completion  ([git-completion.bash](https://raw.github.com/git/git/master/contrib/completion/git-completion.bash)), and add them to your shell (see documentation in the scripts).
 
 ### Learn to Use Git
 
 Understanding Git from an algorithms and data-structure perspective, rather
 than just learning commands, can increase software quality and developer productivity.
-* If you are a self-learner, review the [Git Tutorial and Reference Collection](https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection/)[2].
+* If you are a self-learner, review [A Tutorial and Reference Collection for Git](/items/a-tutorial-and-reference-collection-for-git)[2].
 * For a more structured approach, take the course How to Use Git and GitHub [3].
 * Search Google for specific issues. StackOverflow often has an exact solution.
 
@@ -97,10 +97,9 @@ developers are Git savvy and the project’s challenges justify its usage.
 
 ### Notes
 
-[1] Roscoe Bartlett. Critical Beginner Git Usage Tips. IDEAS Scientific Software Productivity Project.
-https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection/beginner-tips
-[2] Roscoe Bartlett. Git Tutorial and Reference Collection. IDEAS Scientific Software Productivity Project.
-https://ideas-productivity.org/resources/howtos/git-tutorial-and-reference-collection
+[1] Roscoe Bartlett. Critical Beginner Git Usage Tips.
+https://bssw.io/items/critical-beginner-git-usage-tips
+[2] Roscoe Bartlett. Git Tutorial and Reference Collection. https://bssw.io/items/a-tutorial-and-reference-collection-for-git
 [3] Udacity. How to Use Git and GitHub. https://www.udacity.com/course/how-to-use-git-and-github--ud775
 [4] Roscoe Bartlett. Design Patterns for Incrementally Expanding Git Workflows for Research-Based
 Projects. IDEAS Scientific Software Productivity Project. To be published.

@@ -2,7 +2,7 @@
 
 - Date: 2021-03-25
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel008
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -17,7 +17,7 @@ Date and Time | Thursday 2021-03-25  3:00pm-4:15pm EDT
 Panelists | Addi Thakur Malviya (Oak Ridge National Laboratory), Pat Quillen (Mathworks), Elaine Raybourn (Sandia National Laboratories), Damian Rouson (Sourcery Institute), and Francesca Samsel (TACC (Texas Advanced Computing Center) and University of Texas at Austin)
 Moderator | Ashley Barker (Oak Ridge National Laboratory)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJItfuqtpjIvEyEVHRtM5N7u6QWdJXDM_08>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

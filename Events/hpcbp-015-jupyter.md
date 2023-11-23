@@ -24,7 +24,7 @@
 
 - Date: 2018-02-28
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar015
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Jupyter and HPC: Current State and Future Roadmap
 Date and Time | 2018-02-28 01:00 pm EST
 Presenters | Matthias Bussonnier (UC Berkeley), Suhas Somnath (Oak Ridge National Laboratory),  and Shreyas Cholia (National Energy Research Scientific Computing Center)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar015>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

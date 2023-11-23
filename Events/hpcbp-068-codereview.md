@@ -2,7 +2,7 @@
 
 - Event Date: 2022-10-12
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar068
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar068
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Investing in Code Reviews for Better Research Software
 Date and Time | 2022-10-12 01:00 pm EDT
 Presenters | Thibault Lestang (Imperial College London), Dominik Krzemiński (University of Cambridge),  and Valerio Maggio (Software Sustainability Institute)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar068>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar068>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

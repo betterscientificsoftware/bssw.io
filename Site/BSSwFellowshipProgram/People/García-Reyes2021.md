@@ -22,5 +22,5 @@ Marisol is a Principal Scientist at the Farallon Institute, a nonprofit scientif
 
 ### Selected resources
 <a href="https://github.com/marisolgr/python_sat_tutorials" class="link-row"> Tutorial: Timeseries of Satellite Data using Python</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063" class="link-row">HPC Best Practices Webinar: Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063" class="link-row">HPC Best Practices Webinar: Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field</a>
 <a href="https://bssw.io/blog_posts/navigating-the-transition-of-climate-science-to-the-cloud" class="link-row">Navigating the Transition of (Climate) Science to the Cloud</a>

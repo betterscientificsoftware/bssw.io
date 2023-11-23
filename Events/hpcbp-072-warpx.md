@@ -24,7 +24,7 @@
 
 - Event Date: 2023-03-15
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar072
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar072
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Our Road to Exascale: Particle Accelerator & Laser-Plasma Modeling
 Date and Time | 2023-03-15 1:00 pm EDT
 Presenter | Axel Huebl (Lawrence Berkeley National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar072>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar072>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

@@ -19,7 +19,7 @@ The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and 
 
 BSSw Fellow Nasir Eisty developed a hands-on tutorial entitled *Automatic Testing in Scientific Software*. The tutorial contains information on challenges, barriers, potential solutions, and unsolved problems faced while testing scientific software, along with hands-on exercises. The tutorial brings valuable practices to the scientific software community to help developers produce correct and reliable software.  Learn more at:
 
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar044" class="link-row"> HPC Best Practices Webinar: Testing and Code Review Practices in Research Software Development</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar044" class="link-row"> HPC Best Practices Webinar: Testing and Code Review Practices in Research Software Development</a>
 <a href="https://bssw.io/blog_posts/testing-non-deterministic-research-software" class="link-row">Testing Non-Deterministic Research Software</a>
 <a href="https://bssw.io/blog_posts/use-of-software-metrics-in-research-software" class="link-row"> Use of Software Metrics in Research Software</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row"> Automatic Testing for Scientific Software Development, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>
@@ -46,7 +46,7 @@ _Advice for new (prospective) BSSw Fellows:_ Try to understand the goals and the
 BSSw Fellow Damian Rouson developed and taught agile scientific software development tutorials in settings that reach underrepresented groups. The only prerequisites were familiarity with a Linux shell and a text editor. A related, novel aspect of the tutorials is the integration of a professional development activity using agile practices. Learn more at:
 
 <a href="https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities" class="link-row"> Increasing Productivity by Broadening Participation in Scientific Software Communities</a>
-<a href="https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel008" class="link-row"> Remote Work Panel Series: How Does Remote Work Impact Creativity and Innovation?</a>
+<a href="https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel008" class="link-row"> Remote Work Panel Series: How Does Remote Work Impact Creativity and Innovation?</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row"> Introducing Agile Software Development to Underrepresented Groups, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>
 
 <br>
@@ -69,7 +69,7 @@ _Advice for new (prospective) BSSw Fellows:_ I encourage you to see the fellowsh
 
 BSSw Fellow Cindy Rubio-Gonzalez has organized events and developed educational materials on the correctness of numerical software and improving performance through effective use of mixed floating-point precision. Her materials include the use and evaluation of program-analysis techniques to improve the reliability and performance of numerical software. Learn more at:
 
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar045" class="link-row"> HPC Best Practices Webinar: Scalable Precision Tuning of Numerical Software</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar045" class="link-row"> HPC Best Practices Webinar: Scalable Precision Tuning of Numerical Software</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row"> Improving the Reliability and Performance of Numerical Software, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>
 
 <br>
@@ -94,7 +94,7 @@ BSSw Fellows are selected annually based on an application process that includes
   
 ### Author bio
   
-Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpc.org/) since 2015. 
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpc.org/) since 2015. 
   
 <!---
 Publish: yes

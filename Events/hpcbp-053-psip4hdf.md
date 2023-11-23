@@ -2,7 +2,7 @@
 
 - Date: 2021-06-09
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar053
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar053
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group
 Date and Time | 2021-06-09 01:00 pm EDT
 Presenters | Elena Pourmal (The HDF Group), Reed Milewicz (Sandia National Laboratories),  and Elsa Gonsiorowski (Lawrence Livermore National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar053>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar053>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

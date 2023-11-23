@@ -155,7 +155,7 @@ sparked some ideas to create more supportive and thriving scientific software co
 This blog post is a summary of the ideas presented a [webinar](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) in the [Best Practices for
 HPC Software
 Developers](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series)
-series. A recording, slides, and Q&A document are [available](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033).
+series. A recording, slides, and Q&A document are [available](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar033).
 
 #### Resources
 - https://opensource.guide/

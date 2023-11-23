@@ -24,7 +24,7 @@
 
 - Date: 2016-08-09
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar007
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar007
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Basic Performance Analysis and Optimization – An Ant Farm Approach
 Date and Time | 2016-08-09 01:00 pm EDT
 Presenter | Jack Deslippe (Lawrence Berkeley National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar007>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar007>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

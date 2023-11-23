@@ -32,7 +32,7 @@
 
 - Date: 2020-04-03
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel001
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel001
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -46,7 +46,7 @@ Panel Title | Advice from Colleagues with Experience
 Date and Time | 2020-04-03 03:00 pm EDT
 Panelists | Mike Bernhardt (Oak Ridge National Laboratory), Lois Curfman McInnes (Argonne National Laboratory), Mark C. Miller (Lawrence Livermore National Laboratory), Kathryn Mohror (Lawrence Livermore National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
 Moderators | Mike Heroux (Sandia National Laboratories)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel001>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel001>	   
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

@@ -34,7 +34,7 @@ University of California Santa Cruz, Ph.D. candidate, Computer Science
 *BSSw focus:* **Generation of computational experimentation pipelines that are easy to re-execute and validate:** Popper is a convention and command line interface (CLI) tool for conducting computational experiments and writing academic articles following an approach that allows researchers to automate the re-execution and validation of experiments.  Using best practices in open-source software and DevOps (development and operations), Popper helps researchers organize artifacts associated with a scientific exploration inside a code repository such as Git. This BSSw Fellowship supports the creation of an online lesson on Popper, as well as the organization of several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate.
 
 *Resources:*
-* Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), June 2018
+* Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar019), June 2018
 
 *Perspectives on the BSSw Fellowship Program:* The goal of my work is improving the state of practice for computational experiments by teaching new generations more efficient approaches for carrying out scientific explorations.  Through the BSSw Fellowship Program, I have been able to reach a broad audience and to create connections with people who have significantly enriched my professional network, and with whom I would have not had the chance to interact otherwise.  
 
@@ -49,7 +49,7 @@ National Center for Supercomputing Applications, Assistant Director for Scientif
 
 *Resources:*
 * Blog post: [*BSSw Fellowship Activity: Promoting Software Citation*](https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation), March 2018
-* Webinar recording and slides: [*Software Citation Today and Tomorrow*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), April 2018
+* Webinar recording and slides: [*Software Citation Today and Tomorrow*](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar017), April 2018
 
 *Perspectives on the BSSw Fellowship Program:* I applied to be a BSSw Fellow because I saw this as an opportunity to extend some of the work I had started in software citation to have a larger impact, by encouraging new communities to include software citation as part of their professional culture. While this work is a slow activity, I feel that the fellowship has allowed me to help these communities move farther than they otherwise would have. I've enjoyed the experience of understanding the projects of the other fellows and getting better insight into ECP. Based on what I've learned, I suggest that prospective fellows think about how to expand something they are already doing and increase the impact of their work, rather than proposing something completely new.
 

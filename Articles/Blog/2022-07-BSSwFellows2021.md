@@ -19,7 +19,7 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 BSSw Fellow Marisol Garcia-Reyes developed an online tutorial that teaches how to easily access data increasingly available in the cloud (e.g., earth sciences satellite data) and analyze and visualize the data using cloud computing resources. With comprehensive examples, the tutorial provides foundations in Python programming and reproducible research using Jupyter Notebooks, Git, software citations, and cloud computing. The tutorial aims to lower the barrier to entry and broaden the community of scientists and students who have access to and can use satellite data and cloud computing resources. The tutorial is designed for those whose expertise is not satellite imagery or those who lack the necessary programming proficiency to use these data.  Learn more at:
 
 <a href="https://github.com/marisolgr/python_sat_tutorials" class="link-row"> Tutorial: Timeseries of Satellite Data using Python</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063" class="link-row">HPC Best Practices Webinar: Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063" class="link-row">HPC Best Practices Webinar: Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field</a>
 <a href="https://bssw.io/blog_posts/navigating-the-transition-of-climate-science-to-the-cloud" class="link-row">Navigating the Transition of (Climate) Science to the Cloud</a>
 
 <br> 
@@ -48,7 +48,7 @@ According to a DOE Advanced Scientific Advisory Committee Workforce Subcommittee
 
 <a href="https://doi.org/10.6084/m9.figshare.17192492" class="link-row">DOE RFI response on Software Stewardship: “A multipronged approach to building a diverse workforce and cultivating an inclusive professional environment for DOE high-performance computing” </a>
 <a href="https://bit.ly/ECP-Broader-Engagement-Initiative-2022-03" class="link-row">ASCAC presentation on “ECP Broader Engagement Initiative” </a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar064" class="link-row">HPC-Best Practices Webinar: Normalizing Inclusion by Embracing Difference</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar064" class="link-row">HPC-Best Practices Webinar: Normalizing Inclusion by Embracing Difference</a>
 <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=71877" class="link-row">Panel Discussion on Diversity and Inclusion for Careers in CSE: Challenges and Best Practices</a>
 <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73827" class="link-row">Current and Future Trends Impacting Inclusivity in High-Performance Scientific Computing</a>
 <a href="https://www.lorentzcenter.nl/vive-la-difference-research-software-engineers.html" class="link-row"> Increasing Developer Productivity and Innovation through Diversity and the Normalization of Inclusion</a>
@@ -81,7 +81,7 @@ Both software development and scientific research are notorious for taking more 
 
 <a href="https://www.youtube.com/watch?v=Ks0zOa4Z5bM" class="link-row">Open Planetary Lunch Talk: Strategies for Research Software Estimation (video)</a>
 <a href="https://github.com/MillionConcepts/software_project_management" class="link-row"> Software Project Management Best Practices Document: “A practical guide to research software project estimation”</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar066" class="link-row">HPC-Best Practices Webinar: Effective Strategies for Writing Proposal Work Plans for Research Software</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar066" class="link-row">HPC-Best Practices Webinar: Effective Strategies for Writing Proposal Work Plans for Research Software</a>
 <br>
 
 <div class='fellow'>
@@ -138,7 +138,7 @@ BSSw Fellows are selected annually based on an application process that includes
   
 ### Author bio
   
-Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s current research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s current research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  
   
 <!---
 Publish: yes

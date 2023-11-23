@@ -24,7 +24,7 @@
 
 - Date: 2016-06-02
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar003
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar003
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Distributed Version Control and Continuous Integration Testing
 Date and Time | 2016-06-02 02:00 pm EDT
 Presenter | Jeff Johnson (<a href="http://www.lbl.gov/">Lawrence Berkeley National Laboratory</a>)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar003>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar003>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

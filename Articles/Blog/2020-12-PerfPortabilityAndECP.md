@@ -86,7 +86,7 @@ is, we know that it ultimately comes down to first knowing and
 understanding a code’s data access and movement patterns and then using an
 abstraction tool-chain to express those localities appropriately. The
 webinar ["Software Design for Longevity with
-Performance Portability"](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar047) 
+Performance Portability"](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar047) 
 elaborates on some design principles that
 are definitely necessary, though not sufficient.
 

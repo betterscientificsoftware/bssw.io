@@ -2,7 +2,7 @@
 
 - Date: 2020-10-29
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel006
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel006
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -17,7 +17,7 @@ Date and Time | Thursday 2020-10-29  3:00pm-4:15pm WTZ
 Panelists | Katie Antypas (Lawrence Berkeley National Laboratory), David E. Bernholdt (Oak Ridge National Laboratory), Mark C. Miller (Lawrence Livermore National Laboratory), Hai Ah Nam (Los Alamos National Laboratory),  and Valerie Taylor (Argonne National Laboratory)
 Moderators | Ashley Barker (Oak Ridge National Laboratory), Mike Heroux (Sandia National Laboratories),  and Elaine Raybourn (Sandia National Laboratories)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJIsceuuqjwpHDZxnfzizxflgQvrIlr5lm4>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

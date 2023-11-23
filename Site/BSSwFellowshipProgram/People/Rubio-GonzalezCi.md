@@ -23,5 +23,5 @@ Cindy is an Assistant Professor of Computer Science at the University of Califor
 
 ### Selected resources
 
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar045" class="link-row">HPC Best Practices Webinar:  Scalable Precision Tuning of Numerical Software</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar045" class="link-row">HPC Best Practices Webinar:  Scalable Precision Tuning of Numerical Software</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row">Improving the Reliability and Performance of Numerical Software, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>

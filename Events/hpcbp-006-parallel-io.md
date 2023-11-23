@@ -24,7 +24,7 @@
 
 - Date: 2016-07-28
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar006
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar006
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | An Introduction to High-Performance Parallel I/O
 Date and Time | 2016-07-28 02:00 pm EDT
 Presenter | Feiyi Wang (<a href="https://www.olcf.ornl.gov/">Oak Ridge Leadership Computing Facility</a>)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar006>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar006>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

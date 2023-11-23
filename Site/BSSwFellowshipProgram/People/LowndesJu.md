@@ -28,4 +28,4 @@ Julia Stewart Lowndes is Founder and Co-Director of Openscapes,  championing kin
 ### Selected resources
 <a href="https://openscapes.github.io/series/" class="link-row">Openscapes Champions Lesson Series</a>
 <a href="https://openscapes.github.io/2022-noaa-sefsc-summer/" class="link-row">2022 NOAA SEFSC Openscapes Champions Cohort</a>
-<a href="http://ideas-productivity.org/events/hpc-best-practices-webinars/#2023-webinars" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us </a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#2023-webinars" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us </a>

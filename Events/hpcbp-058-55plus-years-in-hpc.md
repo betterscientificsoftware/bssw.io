@@ -2,7 +2,7 @@
 
 - Date: 2021-11-10
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar058
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar058
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | 55+ years in High-Performance Computing: One Woman’s Experiences and Perspectives
 Date and Time | 2021-11-10 01:00 pm EST
 Presenter | Jean Shuler (Lawrence Livermore National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar058>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar058>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

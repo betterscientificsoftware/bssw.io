@@ -24,7 +24,7 @@
 
 - Date: 2018-03-28
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar015
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Scientific Software Development with Eclipse
 Date and Time | 2018-03-28 01:00 pm EDT
 Presenter | Greg Watson (Oak Ridge National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar015>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

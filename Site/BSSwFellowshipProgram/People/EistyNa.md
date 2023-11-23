@@ -22,7 +22,7 @@ Nasir is a graduate student in the Software Engineering research lab in the Depa
 
 ### Selected resources
 
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar044" class="link-row">HPC Best Practices Webinar:  Testing and Code Review Practices in Research Software Development</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar044" class="link-row">HPC Best Practices Webinar:  Testing and Code Review Practices in Research Software Development</a>
 <a href="https://bssw.io/blog_posts/testing-non-deterministic-research-software" class="link-row">Testing Non-Deterministic Research Software</a>
 <a href="https://bssw.io/blog_posts/use-of-software-metrics-in-research-software" class="link-row">Use of Software Metrics in Research Software</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row">Automatic Testing for Scientific Software Development, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>

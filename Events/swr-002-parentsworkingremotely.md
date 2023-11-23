@@ -32,7 +32,7 @@
 
 - Date: 2020-04-24
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel002
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel002
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -46,7 +46,7 @@ Panel Title | Challenges Faced by Parents Who are Working Remotely, and Overcomi
 Date and Time | 2020-04-24 03:00 pm EDT
 Panelists | Katherine Evans (Oak Ridge National Laboratory), Thomas Evans (Oak Ridge National Laboratory), Madeline Heroux (Step-by-Step Montessori School), Lindsey Hughes (Sandia National Laboratories),  and Stefan Wild (Argonne National Laboratory)
 Moderators | Ashley Barker (Oak Ridge National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel002>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel002>	   
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 
