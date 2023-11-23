@@ -104,7 +104,7 @@ Because the Department of Energy (DOE), National Science Foundation (NSF), and c
 
 ### Can I host a bunch of tutorials at our host institution on useful software practices, like version control? Is this the right idea?
 
-We encourage emphasis on activities with a view toward broad impact, with some element (including a publicly available artifact) that could serve more than a single set of people attending a single event. Successful project proposals are more than one-time undertakings. We aim for reusable, sustainable deliverables that can live beyond the fellowship. These artifacts can come in the form of videos (including [HPC Best Practices webinars](https://ideas-productivity.org/events/hpc-best-practices-webinars), written content, interactive websites, and more. Past fellows have leveraged the BSSw.io blog as well.
+We encourage emphasis on activities with a view toward broad impact, with some element (including a publicly available artifact) that could serve more than a single set of people attending a single event. Successful project proposals are more than one-time undertakings. We aim for reusable, sustainable deliverables that can live beyond the fellowship. These artifacts can come in the form of videos (including [HPC Best Practices webinars](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars), written content, interactive websites, and more. Past fellows have leveraged the BSSw.io blog as well.
 
 ### Can I host some of the content on the BSSw website?  For instance if we create a video recording of a tutorial, etc.
 

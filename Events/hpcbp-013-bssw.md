@@ -24,7 +24,7 @@
 
 - Date: 2017-12-06
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar013
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar013
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | [Better Scientific Software (https://bssw.io)](https://bssw.io): So your code will see the future
 Date and Time | 2017-12-06 01:00 pm EST
 Presenters | Mike Heroux (Sandia National Laboratories),  and Lois Curfman McInnes (Argonne National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar013>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar013>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

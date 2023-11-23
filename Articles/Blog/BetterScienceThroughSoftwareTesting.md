@@ -8,7 +8,7 @@
 #### Publication date: February 2, 2018
 
 
-*In November 2017, Tom Evans gave a webinar titled "[Managing Defects in HPC Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar012)" in the series [Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars/).  In this article, Tom summarizes how the strategies he employs have helped his teams deliver better science.  Tom is a scientist at Oak Ridge National Laboratory; he leads the project "Coupled Monte Carlo Neutronics and Fluid Flow Simulation of Small Modular Reactors," part of the [DOE Exascale Computing Project](https://www.exascaleproject.org).*
+*In November 2017, Tom Evans gave a webinar titled "[Managing Defects in HPC Software Development](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar012)" in the series [Best Practices for HPC Software Developers](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/).  In this article, Tom summarizes how the strategies he employs have helped his teams deliver better science.  Tom is a scientist at Oak Ridge National Laboratory; he leads the project "Coupled Monte Carlo Neutronics and Fluid Flow Simulation of Small Modular Reactors," part of the [DOE Exascale Computing Project](https://www.exascaleproject.org).*
 
 <br>
 
@@ -68,7 +68,7 @@ are unit tests and Design-by-Contract(TM) (DBC).  Used together, these methods
 are effective at catching errors that make their way into code as it is
 written.  These practices provide software verification as close to code
 construction time as possible.  Thus, the overall cost of the software is reduced.  The webinar "[Managing Defects in HPC
-Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar012)" illustrates the processes we use to integrate
+Software Development](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar012)" illustrates the processes we use to integrate
 unit testing and DBC into our daily code-development workflow.
 
 <!---

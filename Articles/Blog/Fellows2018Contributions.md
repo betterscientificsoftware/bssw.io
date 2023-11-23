@@ -24,7 +24,7 @@ Jeff is a professor of computer science at the University of Alabama. <a href="m
 ### Fellows enable reproducible computational research
 _If you can’t repeat your experiments and others can’t reproduce your results, it is difficult to claim with confidence that your experiments have advanced science._  
 
-BSSw Fellow Ivo Jimenez created Popper, a tool to automate computational experimentation, organize artifacts, and validate results to enable high standards of reproducibility in computational research. He created an online lesson on Popper and delivered several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate. Learn more about Popper through his webinar recording and slides: [Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar019), June 2018.
+BSSw Fellow Ivo Jimenez created Popper, a tool to automate computational experimentation, organize artifacts, and validate results to enable high standards of reproducibility in computational research. He created an online lesson on Popper and delivered several training activities to help domain scientists generate experimentation pipelines that are easy to re-execute and validate. Learn more about Popper through his webinar recording and slides: [Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar019), June 2018.
 <p>&nbsp;</p>
 
 <img src='../../images/Fell_jiminez.jpg' class='logo' />
@@ -36,7 +36,7 @@ Ivo is a Ph.D. student in computer science at the University of California, Sant
 ### Fellows give software developers long-overdue credit
 _Paper citations are tracked to measure impact; similarly, software citations should be tracked to measure impact and recognize the significant time spent developing software and data._ 
 
-BSSw Fellow Daniel S. Katz developed principles for software citation to make scientific software more sustainable by providing credit to its developers, similar to research via paper citations. He led working groups to produce the principles, and he is currently working with publishers on implementation in institutionalized citation practices. Learn more about software citation through his webinar recording and slides: [Software Citation Today and Tomorrow](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar017), April 2018.
+BSSw Fellow Daniel S. Katz developed principles for software citation to make scientific software more sustainable by providing credit to its developers, similar to research via paper citations. He led working groups to produce the principles, and he is currently working with publishers on implementation in institutionalized citation practices. Learn more about software citation through his webinar recording and slides: [Software Citation Today and Tomorrow](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar017), April 2018.
 <p>&nbsp;</p>
 
 <img src='../../images/Fell_katz.jpg' class='logo' />
@@ -48,7 +48,7 @@ Dan is a research associate professor of computer science at the University of I
 ### Fellows guide efficient use of modern C++ 
 _Just because a programming language allows various approaches doesn’t mean that you should use them; programming is an art that should consider quality, sustainability, and performance._  
 
-BSSw Fellow Andrew Lumsdaine has developed best practices for high-performance and high-quality software using modern C++ (up through C++17).  His course materials include performance-orientated topics and migration from Fortran or previous versions of C++.  Learn more about high-performance modern C++ through an upcoming webinar (June 2019) in the series [HPC Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars).
+BSSw Fellow Andrew Lumsdaine has developed best practices for high-performance and high-quality software using modern C++ (up through C++17).  His course materials include performance-orientated topics and migration from Fortran or previous versions of C++.  Learn more about high-performance modern C++ through an upcoming webinar (June 2019) in the series [HPC Best Practices for HPC Software Developers](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars).
 <p>&nbsp;</p>
 
 <img src='../../images/Fell_lumsdaine.jpg' class='logo' />

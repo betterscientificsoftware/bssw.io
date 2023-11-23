@@ -10,7 +10,7 @@
 
 [RateYourProject.org](https://rateyourproject.org) is a tool designed to help teams begin the process of
 [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip), a new technique for improving team practices. It was developed by the PSIP
-team, which is part of the [IDEAS-ECP project](https://ideas-productivity.org/ideas-ecp/).
+team, which is part of the [IDEAS-ECP project](https://ideas-productivity.org/activities/ideas-ecp/).
 
 PSIP is a lightweight methodology for 
 improving practices used by scientific software teams. Originally envisioned for helping teams improve
@@ -73,7 +73,7 @@ The PSIP team is working on a variety of improvements and enhancements to the to
 
 M.A. Heroux et al. (2020) Lightweight Software Process Improvement Using Productivity and Sustainability Improvement Planning (PSIP). In: Juckeland G., Chandrasekaran S. (eds.) Tools and Techniques for High Performance Computing. HUST 2019, SE-HER 2019, WIHPC 2019. Communications in Computer and Information Science, vol 1190. Springer, Cham. https://doi.org/10.1007/978-3-030-44728-1_6.
 
-E. Pourmal, R. Milewicz and E. Gonsiorowski, Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group, webinar, June 2021, [(slides, recording)](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar053).
+E. Pourmal, R. Milewicz and E. Gonsiorowski, Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group, webinar, June 2021, [(slides, recording)](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar053).
 
 ### Author bio
 

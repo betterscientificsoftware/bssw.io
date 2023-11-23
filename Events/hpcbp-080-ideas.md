@@ -24,7 +24,7 @@
 
 - Event Date: 2023-11-08
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar080
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar080
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability
 Date and Time | 2023-11-08 02:00 pm EST
 Presenter | David E. Bernholdt (Oak Ridge National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar080>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar080>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

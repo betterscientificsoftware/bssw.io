@@ -84,7 +84,7 @@ So please use discretion when applying these criteria to some piece of software 
 ### Author bio
 
 [Roscoe A. Bartlett](https://bartlettroscoe.github.io) is a computational scientist and engineer in the [Center for Computing Research](https://www.sandia.gov/ccr/) at [Sandia National Laboratories](https://sandia.gov).
-Roscoe is a long-time contributor to the [Trilinos project](https://trilinos.org) and is currently working on various subprojects in the [Exascale Computing Project](https://www.exascaleproject.org/) including [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+Roscoe is a long-time contributor to the [Trilinos project](https://trilinos.org) and is currently working on various subprojects in the [Exascale Computing Project](https://www.exascaleproject.org/) including [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
 
 
 <!---

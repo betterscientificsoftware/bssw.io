@@ -13,7 +13,7 @@ Podcast title  | Productivity and Sustainability Improvement Planning (PSIP) for
 Presenters | [Elaine Raybourn](https://github.com/elaineraybourn)
 Web links | [Podcast link at Exascaleproject.org ](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/)
 
-This *[interview podcast](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/ "PSIP for ECP")* featuring [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Profile") from the [IDEAS-ECP](https://ideas-productivity.org) team gives an excellent overview of the *[Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip)* process and explains how it is beneficial for [ECP](https://exascaleproject.org) software and application teams.
+This *[interview podcast](https://exascaleproject.org/method-enables-collaborative-software-teams-to-enhance-effectiveness-and-efficiency/ "PSIP for ECP")* featuring [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn Profile") from the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) team gives an excellent overview of the *[Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip)* process and explains how it is beneficial for [ECP](https://exascaleproject.org) software and application teams.
 
 Productivity and Sustainability Improvement Planning (PSIP) is a lightweight, iterative workflow that allows software development teams to identify development bottlenecks and track progress to overcome them. 
 

@@ -8,12 +8,12 @@ Webinar Name | Discovering and Addressing Social Challenges in the Evolution of 
 Date | 2019-09-11 01:00 pm EDT
 Presenter | Rene Gassmoeller (UC Davis)
 Location | Online
-Webinar Website | https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033
+Webinar Website | https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar033
 Organizers | The [IDEAS Productivity Project](https://ideas-productivity.org/)
 Focus | Social challenges
 
 
-This webinar is a part of the ["Best Practices for HPC Software Developers" webinar series](https://ideas-productivity.org/events/hpc-best-practices-webinars/). The webinars are free and open to the public, but advance registration is required. The archives will be available at webinar website in a couple of weeks after the event.
+This webinar is a part of the ["Best Practices for HPC Software Developers" webinar series](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/). The webinars are free and open to the public, but advance registration is required. The archives will be available at webinar website in a couple of weeks after the event.
 
 In recent years scientific software projects have increasingly
 incorporated state-of-the-art technical best practices like continuous
@@ -38,7 +38,7 @@ development together.</p>
 Rene Gassmoeller is from UC Davis.
 
 ### More information and registration link:
-<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar033>
+<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar033>
 
 #### Publication date: September 11, 2019
 

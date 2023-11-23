@@ -28,7 +28,7 @@ Resource name | RateYourProject.org
 Website  | https://rateyourproject.org/
 Focus | Project management tool 
 
-[RateYourProject.org](https://rateyourproject.org/) is a self-assessment tool that helps project managers and teams assess and improve their software project practices. Developed by the [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/blog_posts/productivity-and-sustainability-improvement-planning-psip) team, that is part of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/) project, this easy-to-use survey-type tool features a comprehensive set of questions covering key areas such as development, planning, performance, reliability, and collaboration. 
+[RateYourProject.org](https://rateyourproject.org/) is a self-assessment tool that helps project managers and teams assess and improve their software project practices. Developed by the [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/blog_posts/productivity-and-sustainability-improvement-planning-psip) team, that is part of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) project, this easy-to-use survey-type tool features a comprehensive set of questions covering key areas such as development, planning, performance, reliability, and collaboration. 
 
 Recognizing that teams rarely have the time to stop development and focus solely on improving productivity or sustainability, this tool gauges the strengths of your project's current best practices and provides high-level insights into areas for improvement. It allows project teams to assess their current practices against industry standards and identify areas for improvement, that can ultimately help them deliver better outcomes. 
 

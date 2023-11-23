@@ -24,7 +24,7 @@
 
 - Date: 2019-12-11
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar035
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar035
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Building Community through xSDK Software Policies
 Date and Time | 2019-12-11 01:00 pm EST
 Presenters | Ulrike Meier Yang (Lawrence Livermore National Laboratory),  and Piotr Luszczek (University of Tennessee)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar035>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar035>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

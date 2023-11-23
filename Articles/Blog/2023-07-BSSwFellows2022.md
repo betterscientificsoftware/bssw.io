@@ -94,7 +94,7 @@ BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and
 
 <a href="https://openscapes.github.io/series/" class="link-row">Openscapes Champions Lesson Series</a>
 <a href="https://openscapes.github.io/2022-noaa-sefsc-summer/" class="link-row">2022 NOAA SEFSC Openscapes Champions Cohort</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar071" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar071" class="link-row">HPC Best Practices Webinar - Openscapes: supporting better science for future us</a>
 
 <br>
 
@@ -228,7 +228,7 @@ BSSw Fellows are selected annually based on an application process that includes
 
 ### Author bio
 
-Elsa Gonsiorowski is deputy coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
+Elsa Gonsiorowski is deputy coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
 
 
 <!---

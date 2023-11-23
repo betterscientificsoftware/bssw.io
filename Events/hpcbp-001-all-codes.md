@@ -24,7 +24,7 @@
 
 - Date: 2016-05-04
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar001
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | What All Codes Should Do:  Overview of Best Practices in HPC Software Development
 Date and Time | 2016-05-04 02:00 pm EDT
 Presenter | Anshu Dubey (<a href="http://www.anl.gov/">Argonne National Laboratory</a>)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar001>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

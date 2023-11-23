@@ -24,7 +24,7 @@
 
 - Date: 2017-09-13
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar011
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar011
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Barely Sufficient Project Management: A few techniques for improving your scientific software development efforts
 Date and Time | 2017-09-13 01:00 pm EDT
 Presenter | Mike Heroux (Sandia National Laboratories)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar011>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar011>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

@@ -2,7 +2,7 @@
 
 - Date: 2021-06-24
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel009
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel009
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -17,7 +17,7 @@ Date and Time | Thursday 2021-06-24  3:00pm-4:15pm EDT
 Panelists | Dorian Arnold (Emory University), Rebecca Hartman-Baker (Lawrence Berkeley National Laboratory), Christine Harvey (The MITRE Corporation), and Jay Lofstead (Sandia National Laboratories)
 Moderators | Ashley Barker (Oak Ridge National Laboratory) and Elaine Raybourn (Sandia National Laboratories)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJItdeqpqz0iE1t-Tcjep4GTaFk3IqbBBAY>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

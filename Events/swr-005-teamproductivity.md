@@ -2,7 +2,7 @@
 
 - Date: 2020-08-27
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel005
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel005
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -16,7 +16,7 @@ Panel Title | How to Make Teams Tick
 Date and Time | 2020-08-27 03:00 pm EDT
 Panelists | Todd Coffey (Sandia National Laboratories), Justin Lamb (Sandia National Laboratories), Navamita Ray (Los Alamos National Laboratory), Ryan Shaw (Sandia National Laboratories), Tyler Shelton (Sandia National Laboratories), Daniel Shevitz (Los Alamos National Laboratory), Salome Thorson (Sandia National Laboratories),  and Jan Velechovsky (Los Alamos National Laboratory)
 Moderators | Angela Herring (Los Alamos National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel005>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel005>	   
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

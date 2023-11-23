@@ -70,7 +70,7 @@ projects.
 
 ### Our experiences with user stories
 
-A few years ago the [IDEAS-ECP project](https://ideas-productivity.org/ideas-ecp/) 
+A few years ago the [IDEAS-ECP project](https://ideas-productivity.org/activities/ideas-ecp/) 
 began experimenting with user stories as a
 tool to engender empathy and deepen understanding of scientific software
 development needs. In an exercise involving 15-20 people, the team

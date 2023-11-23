@@ -2,7 +2,7 @@
 
 - Date: 2020-09-09
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar044
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar044
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Testing and Code Review Practices in Research Software Development
 Date and Time | 2020-09-09 01:00 pm EDT
 Presenter | Nasir Eisty (California Polytechnic State University, San Luis, Obispo)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar044>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar044>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

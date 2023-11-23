@@ -2,7 +2,7 @@
 
 - Event Date: 2022-05-11
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field
 Date and Time | 2022-05-11 01:00 pm EDT
 Presenter | Marisol Garcia-Reyes (Farallon Institute)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

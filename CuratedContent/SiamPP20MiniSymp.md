@@ -24,7 +24,7 @@ A collection of talks presented at the [minisymposium](https://meetings.siam.org
 * [Anshu Dubey](https://www.anl.gov/profile/anshu-dubey) shared experiences with productivity and software sustainability, including work at the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov/)
 * Benjamin Pritchard focused on challenges and best practices in computational molecular sciences, with emphasis on the Molecular Sciences Software Institute ([MolSSI](https://molssi.org))
 * [Kenneth Jansen](https://www.colorado.edu/aerospace/kenneth-jansen) shared software sustainability lessons from the fluid dynamics community, emphasizing work toward a Fluid Dynamics Software Infrastructure ([FDSI](https://www.colorado.edu/events/cfdsi/learn-more))
-* David Moulton focused on productivity and sustainability in a community-driven software ecosystem for [watershed science](https://ideas-productivity.org/ideas-watersheds/)
+* David Moulton focused on productivity and sustainability in a community-driven software ecosystem for [watershed science](https://ideas-productivity.org/activities/ideas-watersheds/)
 
 Overall, the talks at the minisymposium provide good insight on challenges encountered and progress made toward software sustainability in various aspects of high-performance scientific computing.
 
