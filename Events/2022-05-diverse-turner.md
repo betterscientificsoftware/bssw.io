@@ -33,7 +33,7 @@ Heather is a Research Software Engineering Fellow based in the Statistics Depart
 
 
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
 <!---
 Publish: yes

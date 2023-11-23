@@ -5,7 +5,7 @@ Do interruptions from email, social media, or requests from others cause your da
 
 <!-- deck text end -->
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
+#### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
 #### Publication date: March 13, 2021 
 
 Resource information | Details

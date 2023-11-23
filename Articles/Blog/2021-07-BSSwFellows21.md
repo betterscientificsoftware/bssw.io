@@ -5,7 +5,7 @@ Read about the 2020 BSSw Fellows and their contributions to the BSSw community!
 <img src='../../images/Blog_0721_Zoom_crop.png'>
 <img src='../../images/Blog_0721_InitialSlide.png'>
 
-#### Contributed by: [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson GitHub Profile"), [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile"), [Cindy Rubio-Gonzalez](https://github.com/crubiog "Cindy Rubio-Gonzalez GitHub Profile")
+#### Contributed by: [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson GitHub Profile"), [Nasir Eisty](https://github.com/neisty "Nasir Eisty GitHub Profile"), [Cindy Rubio-González](https://github.com/crubiog "Cindy Rubio-González GitHub Profile")
 
 #### Publication date: July 29, 2021
 
@@ -67,7 +67,7 @@ _Advice for new (prospective) BSSw Fellows:_ I encourage you to see the fellowsh
   
 ### Improving the correctness of numerical software and the effective use of mixed floating-point precision for better performance.
 
-BSSw Fellow Cindy Rubio-Gonzalez has organized events and developed educational materials on the correctness of numerical software and improving performance through effective use of mixed floating-point precision. Her materials include the use and evaluation of program-analysis techniques to improve the reliability and performance of numerical software. Learn more at:
+BSSw Fellow Cindy Rubio-González has organized events and developed educational materials on the correctness of numerical software and improving performance through effective use of mixed floating-point precision. Her materials include the use and evaluation of program-analysis techniques to improve the reliability and performance of numerical software. Learn more at:
 
 <a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar045" class="link-row"> HPC Best Practices Webinar: Scalable Precision Tuning of Numerical Software</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row"> Improving the Reliability and Performance of Numerical Software, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>

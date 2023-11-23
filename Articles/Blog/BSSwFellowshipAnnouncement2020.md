@@ -46,7 +46,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>
 
 <div class='short_bio'>
-  <h3>Cindy Rubio-Gonzalez, University of California, Davis</h3>
+  <h3>Cindy Rubio-González, University of California, Davis</h3>
   <p>Assistant Professor, Computer Science</p>
   <p><i>BSSw focus</i>: Improving correctness of numerical software and the effective use of mixed floating-point precision for better performance</p>
 </div> 

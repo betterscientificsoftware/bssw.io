@@ -4,7 +4,7 @@
 Do you understand software testing? How about learning how to make software fail with a goal of building a better, bug-free, and high-quality product?
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: August 1, 2019
 
 Resource information | Details 

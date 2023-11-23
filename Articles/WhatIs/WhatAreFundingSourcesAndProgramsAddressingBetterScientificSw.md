@@ -11,7 +11,7 @@ However, some funding agencies are beginning to recognize the importance of soft
 
 Resources under this topic are pointers to funding agencies and programs that are specifically target the software itself in some fashion, rather than the more common science/engineering R&D.
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
 #### Publication date: May 16, 2019
 <!--body end--->

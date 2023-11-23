@@ -4,7 +4,7 @@
 Are you familiar with distributed version control and continuous integration testing? This tutorial explores these concepts with the GitHub  and Travis CI services!
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: April 10, 2017
 
 Resource information | Details 

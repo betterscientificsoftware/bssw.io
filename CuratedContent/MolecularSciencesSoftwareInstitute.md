@@ -3,7 +3,7 @@
 This short article introduces the *Molecular Sciences Software Institute*, which serves as a nexus for science and education and whose mission is to serve the worldwide community of computational molecular scientists.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: July 20, 2017
 
 Resource information | Details 

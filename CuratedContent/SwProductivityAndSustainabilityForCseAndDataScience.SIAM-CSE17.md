@@ -3,7 +3,7 @@
 The minisymposium speakers and poster presenters discuss work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby is helping software to fulfill its critical role as a cornerstone of long-term CSE collaboration.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: May 15, 2017
 
 

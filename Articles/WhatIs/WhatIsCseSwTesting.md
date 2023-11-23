@@ -33,7 +33,7 @@ A form of testing where the primary aims are to provide _immediate_ feedback reg
 
 This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingWhatAreSoftwareTestingPractices-V0.2.pdf "What is CSE Software Testing?") introduces terminology for CSE software testing.
 
-#### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C Miller](https://github.com/markcmiller86)
+#### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C. Miller](https://github.com/markcmiller86)
 
 #### Publication date: May 8, 2017
 <!--body end--->

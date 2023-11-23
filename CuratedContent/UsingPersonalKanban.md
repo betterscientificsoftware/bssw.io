@@ -7,7 +7,7 @@ advantages of using a kanban board for personal productivity and the advantages
 over the use of todo lists.
 <!-- deck text end --> 
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
+#### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
 #### Publication date: May 18, 2020
 
 Resource information | Details 

@@ -4,7 +4,7 @@ Read about the 2021 BSSw Fellows and their contributions to the BSSw community!
 
 <img src='../../images/Blog_2207_BSSwFellows.png'>
 
-#### Contributed by: [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Marisol Garcia-Reyes](https://github.com/marisolgr "Marisol Garcia-Reyes GitHub Profile"), [Mary Ann Leung](https://github.com/maleung "Mary Ann Leung GitHub Profile"), [Chase Million](https://github.com/millionconcepts "Chase Million GitHub Profile"), [Amy Roberts](https://github.com/pibion "Amy Roberts GitHub Profile")
+#### Contributed by: [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Marisol García-Reyes](https://github.com/marisolgr "Marisol García-Reyes GitHub Profile"), [Mary Ann Leung](https://github.com/maleung "Mary Ann Leung GitHub Profile"), [Chase Million](https://github.com/millionconcepts "Chase Million GitHub Profile"), [Amy Roberts](https://github.com/pibion "Amy Roberts GitHub Profile")
 
 #### Publication date: July 26, 2022
 
@@ -16,7 +16,7 @@ Here's more about what they have been up to and their perspectives on the BSSw F
 
 ### Increasing accessibility of data (e.g., satellite data) and cloud technologies to a broad scientific community through easy-to-follow Python tutorials
 
-BSSw Fellow Marisol Garcia-Reyes developed an online tutorial that teaches how to easily access data increasingly available in the cloud (e.g., earth sciences satellite data) and analyze and visualize the data using cloud computing resources. With comprehensive examples, the tutorial provides foundations in Python programming and reproducible research using Jupyter Notebooks, Git, software citations, and cloud computing. The tutorial aims to lower the barrier to entry and broaden the community of scientists and students who have access to and can use satellite data and cloud computing resources. The tutorial is designed for those whose expertise is not satellite imagery or those who lack the necessary programming proficiency to use these data.  Learn more at:
+BSSw Fellow Marisol García-Reyes developed an online tutorial that teaches how to easily access data increasingly available in the cloud (e.g., earth sciences satellite data) and analyze and visualize the data using cloud computing resources. With comprehensive examples, the tutorial provides foundations in Python programming and reproducible research using Jupyter Notebooks, Git, software citations, and cloud computing. The tutorial aims to lower the barrier to entry and broaden the community of scientists and students who have access to and can use satellite data and cloud computing resources. The tutorial is designed for those whose expertise is not satellite imagery or those who lack the necessary programming proficiency to use these data.  Learn more at:
 
 <a href="https://github.com/marisolgr/python_sat_tutorials" class="link-row"> Tutorial: Timeseries of Satellite Data using Python</a>
 <a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063" class="link-row">HPC Best Practices Webinar: Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field</a>

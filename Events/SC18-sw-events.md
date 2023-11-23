@@ -29,7 +29,7 @@ Wednesday<br>5:15pm-6:45pm |	BOF TP, EX, EXH	| [Software Engineering and Reuse f
 Thursday<br>12:15pm-1:15pm | BOF TP, EX, EXH | [National Research Infrastructure: Collaborative Session](https://sc18.supercomputing.org/?post_type=page&p=3479&id=bof110&sess=sess371)
 Friday<br>8:30am-9:15am | Workshop Keynote W | Understanding Software Sustainability: Learning from Parsl and Other Projects, in [7th Workshop on Extreme-Scale Programming Tools (ESPT)](https://sc18.supercomputing.org/presentation/?id=wksp118&sess=sess153)
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile") and [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile")
 
 #### Publication date: November 11, 2018 - November 16, 2018
 

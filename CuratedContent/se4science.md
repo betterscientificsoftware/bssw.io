@@ -4,7 +4,7 @@
 A site maintained by University of Alabama Computer Science Professor Jeffrey C. Carver and his PhD student Nasir Eisty to collect and promote work to bridge between the software engineering and research software (including computation science and engineering) communities.
 <!-- deck text start -->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: July 19, 2019
 
 Resource information | Details

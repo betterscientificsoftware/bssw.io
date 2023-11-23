@@ -8,7 +8,7 @@ An increasing number of online discussion forums or question and answer (Q&A) si
 
 This "Better Scientific Software" topic covers resources that are open to questions about software development, productivity, and sustainability, as opposed to, for example, questions about algorithms or the use of particular numerical libraries, or other questions about CSE software (though in many cases, sites may be open to a broader range of questions).
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
 #### Publication date: June 6, 2019
 <!--body end--->

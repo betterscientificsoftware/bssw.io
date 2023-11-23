@@ -4,7 +4,7 @@
 Revision control systems like Git are important for today's software ecosystems to help build better scientific software and improve developer productivity on a project. Do you need a starting point to start learning about *Git*?
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: July 24, 2019
 
 Resource information | Details 

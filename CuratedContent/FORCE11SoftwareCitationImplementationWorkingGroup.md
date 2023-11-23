@@ -3,7 +3,7 @@
 FORCE11 is a community that brings together a wide range of people around common goals. This article introduces the *FORCE11 Software Citation Implementation Working Group*.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: December 20, 2021
 
 [FORCE11](https://www.force11.org/) is a community of scholars, librarians, archivists, publishers and research funders that has arisen organically to help facilitate the change toward improved knowledge creation and sharing. Individually and collectively, the members of FORCE11 aim to bring about a change in modern scholarly communications through the effective use of information technology.

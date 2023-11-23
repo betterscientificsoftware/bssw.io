@@ -2,7 +2,7 @@
 
 #### Publication date: July 19, 2019
 
-#### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile"), [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
+#### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile"), [David E. Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
 
 The BSSw site has a new look!  We're enthused to release a new phase of the Better Scientific Software site, incorporating an integrated content map to enable navigation and learning.  
 

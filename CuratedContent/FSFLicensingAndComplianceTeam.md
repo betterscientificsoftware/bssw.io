@@ -3,7 +3,7 @@
 Do you know how to choose the correct license for your software? This article introduces the *Free Software Foundation Licensing and Compliance* web resource which can help you gain knowledge on licenses.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 
 #### Publication date: January 30, 2020
 

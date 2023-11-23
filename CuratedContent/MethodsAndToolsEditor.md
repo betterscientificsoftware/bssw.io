@@ -4,7 +4,7 @@
 The *Methods and Tools Editor blog* provides short and easy-to-read practical knowledge and information on topics of software development and software engineering.
 <!--- deck text end --->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: July 19, 2019 
 
 Resource information | Details

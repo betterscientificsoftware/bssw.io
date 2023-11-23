@@ -1,6 +1,6 @@
 # SC18: Does That Stand for “Software Conference”?
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
 
 #### Publication date: November 8, 2018
 

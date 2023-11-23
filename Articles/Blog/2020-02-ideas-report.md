@@ -4,7 +4,7 @@
 
  - <img src='../../images/Blog_0225_Computational.jpg' />
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
 
 #### Publication date: February 28, 2020
 

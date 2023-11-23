@@ -3,7 +3,7 @@
 **Hero Image:**
 - <img src='../../images/Blog_2301_Bell_LabNotesLt.png'/>
 
-#### Contributed by [Jared O' Neal](https://github.com/jared321)
+#### Contributed by [Jared O'Neal](https://github.com/jared321)
 #### Publication date: February 09, 2023
 
 <sup>Alexander Graham Bell’s laboratory notes, 1876 (U.S. Library of Congress)</sup>

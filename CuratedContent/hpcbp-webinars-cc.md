@@ -178,7 +178,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field*](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063), Marisol Garcia-Reyes (Farallon Institute), 2022-05-11
+- [*Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field*](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063), Marisol García-Reyes (Farallon Institute), 2022-05-11
 
 
 
@@ -322,7 +322,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Scalable Precision Tuning of Numerical Software*](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar045), Cindy Rubio-Gonzalez (University of California, Davis), 2020-10-14
+- [*Scalable Precision Tuning of Numerical Software*](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar045), Cindy Rubio-González (University of California, Davis), 2020-10-14
 
 
 
