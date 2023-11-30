@@ -16,10 +16,5 @@ This "Better Scientific Software" topic covers resources that are open to questi
 <!---
 Publish: yes
 Pinned: yes
-Categories: collaboration
 Topics: discussion and question sites
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

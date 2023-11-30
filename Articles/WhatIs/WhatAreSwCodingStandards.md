@@ -6,10 +6,6 @@ This [WhatIs doc](placeholder.pdf "What is a coding standards document?") introd
 
 <!---
 Publish: no
-Categories: reliability
 Topics: coding
-Tags: terminology, whatis, document
-Level: 0
-Prerequisites: none
-Aggregate: none
+Pinned: no
 --->

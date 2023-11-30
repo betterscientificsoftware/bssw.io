@@ -15,10 +15,5 @@ Perhaps most prevalent are small teams (for example, a professor and collaborati
 <!---
 Publish: yes
 Pinned: yes
-Categories: collaboration
 Topics: strategies for more effective teams
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

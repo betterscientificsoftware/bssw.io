@@ -67,10 +67,5 @@ likely to require too much time (or too large of a compute resource) to be appro
 <!---
 Publish: yes
 Pinned: yes
-Categories: reliability
 Topics: continuous integration testing
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

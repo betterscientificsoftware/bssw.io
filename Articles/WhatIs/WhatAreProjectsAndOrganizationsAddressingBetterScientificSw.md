@@ -12,10 +12,5 @@ With the growing recognition of the importance of software in the context of com
 <!---
 Publish: yes
 Pinned: yes
-Categories: collaboration
 Topics: projects and organizations
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

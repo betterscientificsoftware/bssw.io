@@ -30,10 +30,5 @@ For scenarios I and II, reproducibility requirements demand a detailed accountin
 <!---
 Publish: yes
 Pinned: yes
-Categories: Reliability
 Topics: Reliability, Reproducibility
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->
