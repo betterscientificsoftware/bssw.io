@@ -30,7 +30,7 @@ The Wikipedia article linked above provides a starting point for further explora
 There are many additional articles, tutorials, and videos on the SOLID principles developed by many other authors that can be found on the open web (too many to list here).
 However, to really learn these principles, one cannot go wrong with reading about them in one of Robert's books<sup>[2],[3]</sup> in the broader context of software design and architecture.
 
-While these design principles were first articulated in the 1990s in the era of object-oriented "Big Design Up-Front" (BDUF<sup>[4]</sup>) and statically typed programming languages (e.g. C++), they still apply just as much today as they are the foundation for all maintainable and extensible software<sup>[5],[6]</sup>.
+While these design principles were first articulated in the 1990s in the era of object-oriented "Big Design Up-Front" (BDUF<sup>[4]</sup>) and statically typed programming languages (e.g. C++), they still apply just as much today as they are the foundation for all maintainable and extensible software. <sup>[5],[6]</sup>
 It is hard to imagine a robust, flexible, extensible, and maintainable software package that does not employ one more of these design principles.
 For example, every plug-in architecture in existence (regardless of the programming language being used) depends on the principles OCP and LSP at the very least.
 
