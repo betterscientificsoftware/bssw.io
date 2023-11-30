@@ -26,11 +26,7 @@ The BSSw development and editorial team
 <!---
 Publish: Yes
 RSS update: 2019-07-19
-Categories: collaboration
 Topics: projects and organizations
 Track: Community
-Tags: bssw-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
