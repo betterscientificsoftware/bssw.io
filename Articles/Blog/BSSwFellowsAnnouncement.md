@@ -79,10 +79,6 @@ Stay tuned for more from the 2018 BSSw Fellows.
 <!---
 Publish: yes
 Track: community
-Categories: collaboration
 Topics: projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
