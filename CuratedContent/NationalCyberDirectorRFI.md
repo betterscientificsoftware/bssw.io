@@ -46,7 +46,7 @@ What does this mean for the future of C++?
 > The answer depends strongly on what industry does and how well they can make fast, memory-safe alternatives to the algorithms and frameworks such as [RAJA](https://raja.readthedocs.io/en/develop/) or [Kokkos](https://kokkos.github.io) DOE has built in C++.
 > Notably, we have yet to see any major Rust or Go AI framework emerging.
 > They are mainly Python + C++. There are attempts (like [Mojo](https://www.modular.com/mojo)) to move the C++ parts to something more Python-like, and there are a number of projects moving to Python + Rust instead of Python + C/C++.
-> [py-cryptography](https://cryptography.io/en/latest/) and a number of other very significant packages in the ecosystem are doing that.
+> [py-cryptography](https://cryptography.io/en/latest/), [PyOxidizer](https://github.com/indygreg/PyOxidizer), [Maturin](https://github.com/PyO3/maturin), [ruff](https://github.com/astral-sh/ruff), and [Pixi](https://github.com/prefix-dev/pixi) are some notable examples.
  
 > A final point to keep in mind is that most HPC applications are not (yet) *services*.
 > They don’t need the same security guarantees that a library that sits listening for input on a port from random users need.
