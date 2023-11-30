@@ -281,12 +281,8 @@ Among other things, he contributes to
 Publish: yes
 Track: experience
 RSS update: 2019-06-17
-Categories: performance
 Topics: high-performance computing (hpc), performance portability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
 
 [1-sfer-ezikiw]: https://github.com/betterscientificsoftware/bssw.io/raw/main/images/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
