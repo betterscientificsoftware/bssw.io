@@ -43,7 +43,7 @@ What does this mean for the future of C++?
 > It remains to be seen if the community will build HPC codes in it...or, if it is as viable for performance portability as C++ has been.
 
 > Whether the successor to C++, in scientific computing, if there is one, is going to be Julia, Rust, or Go is an open question.
-> The answer depends strongly on what industry does and how well they can make fast, memory-safe alternatives to the algorithms and frameworks such as [RAJA](https://raja.readthedocs.io/en/develop/) or [Kokkos](https://kokkos.github.io) DOE has built in C++.
+> The answer depends strongly on what industry does and how well they can make fast, memory-safe alternatives to the algorithms and frameworks such as [RAJA](https://raja.readthedocs.io/en/develop/) or [Kokkos](https://kokkos.github.io) that DOE has built in C++.
 > Notably, we have yet to see any major Rust or Go AI framework emerging.
 > They are mainly Python + C++. There are attempts (like [Mojo](https://www.modular.com/mojo)) to move the C++ parts to something more Python-like, and there are a number of projects moving to Python + Rust instead of Python + C/C++.
 > [py-cryptography](https://cryptography.io/en/latest/), [PyOxidizer](https://github.com/indygreg/PyOxidizer), [Maturin](https://github.com/PyO3/maturin), [ruff](https://github.com/astral-sh/ruff), and [Pixi](https://github.com/prefix-dev/pixi) are some notable examples.
