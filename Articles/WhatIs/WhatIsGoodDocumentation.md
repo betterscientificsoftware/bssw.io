@@ -18,10 +18,5 @@ This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/20
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: documentation
-Tags: document, whatis, terminology
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->
