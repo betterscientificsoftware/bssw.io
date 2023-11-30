@@ -2,7 +2,7 @@
 
 **Name:** Sumana Harihareswara
 
-**Image:** /images/blob/master/People_SumanaHarihareswara.jpg
+**Image:** /images/People_SumanaHarihareswara_v2.jpg
 
 **Affiliation:** Changeset Consulting
 

@@ -3,31 +3,38 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: blog_posts/testing-non-deterministic-research-software
-Slide1 R: images/raw/master/Blog_0820_Testing.png
-Slide2 L: blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities
-Slide2 R: images/raw/master/Blog_0920_BroadPartic.png
-Slide3 L: blog_posts/what-does-this-line-do-the-challenge-of-writing-a-well-documented-code
-Slide3 R: images/raw/master/Blog_0920_QuadF3.png
-Slide4 L: items/digging-deeper-into-agile-software-development
-Slide4 R: items/a-list-of-free-online-programming-and-computer-science-courses
-Slide5 L: events/webinar-reducing-technical-debt-with-reproducible-containers
-Slide5 R: events/events/panel-sustainable-hybrid-approaches
+Slide1 L: ../images/Blog_2310_BigCode.png
+Slide1 R: ../Articles/Blog/2023-10-fear-of-large-codes.md
+Slide2 L: ../images/Blog_2310_INTERSECT_Edit.png
+Slide2 R: ../Articles/Blog/2023-10-intersect.md
+Slide3 L: ../images/Blog_2307_io.png
+Slide3 R: ../Articles/Blog/2023-09-io-storage-characterization.md
+Slide4 L: ../CuratedContent/SoftwareSustainabilityMatrix.md
+Slide4 R: ../CuratedContent/ColorOracleTool.md
+Slide5 L: ../CuratedContent/SmartLibs.md
+Slide5 R: ../CuratedContent/AllInMaintainersDEIResourceHub.md
+Slide6 L: ../Events/hpcbp-080-ideas.md 
+Slide6 R: ../Events/2023-11-sc23-sw-events.md
+Slide7 L: ../Events/2023-repro-climate.md
+Slide7 R: ../Events/2023-sc23-correctness.md
 --->
 
 <!---
+Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
+
+Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
 LCM: Saving for use again later
 
-Slide1 Left: blog_posts/scientific-software-projects-and-their-communities
-Slide 1 Right: items/resources-for-maximizing-remote-working
-Slide2 Left: blog_posts/cleaning-your-work-surfaces-one-way-to-help-flatten-the-curve
-Slide2 Right: images/raw/master/Blog_0320_COVID19.png
-Slide3 Left: blog_posts/spreading-ideas-about-better-scientific-software
-Slide3 Right: images/raw/master/Blog_0225_Computational.jpg
-Slide4 Left: blog_posts/productivity-and-sustainability-improvement-planning-psip
-Slide4 Right: images/raw/master/Blog_0120_PSIP_logo.png
-Slide5 Left: items/finalizing-your-julia-package
-Slide5 Right: events/webinar-best-practices-for-using-proxy-applications-as-benchmarks
+Slide1 L: ../images/Blog_2308_Fellows.png
+Slide1 R: ../Articles/Blog/2023-08-BSSwFellowsOpen2023.md
+Slide2 L: ../images/Blog_2308_workflow.png
+Slide2 R: ../Articles/Blog/2023-08-containers-workflows.md
+Slide3 L: ../Articles/Blog/2023-08-Software-Gardening.md
+Slide3 R: ../CuratedContent/DeveloperDocumentingDoneRight.md 
+Slide4 L: ../CuratedContent/GoogleGuidanceOnCodeReview.md
+Slide4 R: ../CuratedContent/CuratedContent/TuringWay.md
+Slide5 L: ../Events/hpcbp-078-simplifyingscipy.md
+Slide5 R: ../Events/2023-10-RSE_Workshop23.md 
 --->
 
 <!---

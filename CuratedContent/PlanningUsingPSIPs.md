@@ -19,7 +19,7 @@ The [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.i
 
 An ideal place to start learning about PSIP in the *PSIP* repo would be to start at the online *[PSIP user manual/practice guides](https://github.com/bssw-psip/practice-guides/blob/master/README.md)*. The *PSIP* repo contains everything starting from PSIP introduction, practice guides to PSIP examples. A critical part of a PSIP progress is a Progress Tracking Card (PTC), which contains the goal of the planning activity and a step-by-step list of activities or outcomes to achieve the goal. An invaluable collection of PTC cards can be found in the *PSIP* repo, for your perusal. In addition, you will also find detailed guidelines on how to systematically and easily create custom PTCs for your projects, even if you are practicing PSIP for the first time on your own.
 
-The PSIP process has been successfully used to help scientific software teams acheive incremental, sustainable process improvement, while still achieving their science goals. The *PSIP* repo is an excellent starting point in your endeavour to learn about the PSIP software process improvement methodology.
+The PSIP process has been successfully used to help scientific software teams achieve incremental, sustainable process improvement, while still achieving their science goals. The *PSIP* repo is an excellent starting point in your endeavor to learn about the PSIP software process improvement methodology.
 
 
 For more resources on PSIP, please refer to the following articles on the BSSw.io site:
@@ -34,12 +34,6 @@ For more resources on PSIP, please refer to the following articles on the BSSw.i
 <!---
 Publish: yes
 Pinned: no
-Categories: Planning, Collaboration
-Topics: Software process improvement, Strategies for more effective teams 
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
-
-% LCM: temporarily drop 'requirements' topic in order to get poster screen shot
+Topics: Software process improvement, Strategies for more effective teams, Requirements
+RSS update: 2020-01-28
 --->

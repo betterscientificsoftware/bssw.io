@@ -12,7 +12,7 @@ WSSSPE promotes sustainable research software by addressing challenges related t
 
 WSSSPE6.1 aims to facilitate the creation of a regional community focused on sustainable research software, by sharing and building best practice both locally and internationally. The workshop will discuss topics relevant to building a sustainable future for open-use research software and the activities that are needed to get there.  This includes discussion of practices and experiences in sustainable scientific software, with the goal of improving the quality of today’s research software and the experiences of its developers by sharing practices and experiences.  
 
-WSSSPE6.1 is held in conjuction with the [2018 IEEE International Conference on eScience](https://www.escience2018.com).
+WSSSPE6.1 is held in conjunction with the 2018 IEEE International Conference on eScience.
 
 #### Publication date: October 29, 2018
 

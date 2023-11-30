@@ -9,7 +9,7 @@ This Research Software Engineers in HPC Workshop (RSE-HPC-2020), to be held in c
 - Event Website: https://us-rse.org/rse-hpc-2020
 
 #### Publication date: June 30, 2020
-#### Contributed by [Kasia Karbarz](https://github.com/karbarz "Kasia Karbarz GitHub Profile")
+#### Contributed by [Kasia Salim](https://github.com/karbarz "Kasia Salim GitHub Profile")
 
 
 The *Research Software Engineers in HPC (RSE-HPC-2020)* workshop's motto is to create communities, build careers, and address challenges. In 2020. this workshop is to be held in conjunction with [Supercomputing 2020](https://sc20.supercomputing.org/) and it will bring together RSEs and allies involved in HPC, from all over the world. The focus will be to grow the RSE community by establishing and strengthening professional networks of current RSEs and RSE leaders. Workshop attendees will discuss the current activities and plans of national RSE organizations, discuss the needs of RSEs and RSE groups, and write a report on ways RSE organizations can help address these.
@@ -38,10 +38,7 @@ The workshop organizers also welcome proposals for discussion topics. Proposals 
 
 <!---
 Publish: yes
-Categories: skills, collaboration
-Topics: personal productivity and sustainability, projects and organizations
-Tags: conference
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: Research Software Engineers, projects and organizations
+Pinned: no
+RSS update: 2020-06-30
 --->

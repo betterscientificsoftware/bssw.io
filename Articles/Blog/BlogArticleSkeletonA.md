@@ -2,9 +2,9 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
+ - <img src='../../images/Blog_081318_SoftVer.png' />
  
-The hero image must be this dimension ((1125 x 432 pixels); we can crop an image to the required size.  Put it in the images repo:  https://github.com/betterscientificsoftware/images
+The hero image must be this dimension ((1125 x 432 pixels); we can crop an image to the required size.  Put it in the `images/` directory of the bssw.io repo.
 
 #### Contributed by [Person A](https://github.com/PersonA "Person A GitHub Profile")
 

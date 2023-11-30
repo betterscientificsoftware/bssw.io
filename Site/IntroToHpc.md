@@ -18,7 +18,7 @@ HPC and [computational science and engineering (CSE)](https://bssw.io/pages/intr
 
 ### What Are the Unique Aspects of HPC?
 
-CSE software on high-performance computers must address a broad range of complexities.  A primary concern on modern HPC systems is parallelism, especially at the largest scales.  However, the various architectures on the market — including heterogeneous processor types, hierarchical memories, and other distinctive features — make it particularly challenging to express algorithms in a way that is portable across the variety of architectures.  The hardware-related challenges of programming HPC systems are exacerbated by increasing complexity on the science side, with multiscale and multiphysics simulations and increasingly complex models. The Better Scientific Software community is working to overcome challenges in CSE software complexity in both traditional HPC environments (clusters, networks of workstations, petascale machines) and [emerging extreme-scale architectures](Communities/ExascaleComputing.md).
+CSE software on high-performance computers must address a broad range of complexities.  A primary concern on modern HPC systems is parallelism, especially at the largest scales.  However, the various architectures on the market — including heterogeneous processor types, hierarchical memories, and other distinctive features — make it particularly challenging to express algorithms in a way that is portable across the variety of architectures.  The hardware-related challenges of programming HPC systems are exacerbated by increasing complexity on the science side, with multiscale and multiphysics simulations and increasingly complex models. The Better Scientific Software community is working to overcome challenges in CSE software complexity in both traditional HPC environments (clusters, networks of workstations, petascale machines) and [emerging extreme-scale architectures](https://bssw.io/communities/exascale-computing-community).
 
 ### More Introductory Material on HPC
 - [InsideHPC](http://insidehpc.com/)'s article on [What is High-Performance Computing?](http://insidehpc.com/hpc-basic-training/what-is-hpc/)
@@ -37,3 +37,7 @@ CSE software on high-performance computers must address a broad range of complex
 <!---
 BSSw Site: Get Oriented: About HPC
 --->
+
+<!--
+Publish: yes
+-->

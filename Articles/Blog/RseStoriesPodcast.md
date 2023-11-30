@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_042320_podcast.jpg' />
+ - <img src='../../images/Blog_042320_podcast.jpg' />
  
 #### Contributed by [Vanessa Sochat](https://github.com/vsoch "@vsoch on GitHub")
 
@@ -114,10 +114,6 @@ Vanessa Sochat is a research software engineer for the Stanford Research Computi
 <!---
 Publish: yes
 RSS update: 2020-04-24
-Categories: Collaboration, Planning
-Topics: Projects and Organizations, Software Engineering
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
+Topics: Projects and Organizations, Software Engineering, Research Software Engineers
 --->

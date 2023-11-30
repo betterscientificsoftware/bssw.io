@@ -86,7 +86,7 @@ services that are waiting to be explored by an academic peer review system:
 full 
 reproducibility; full traceability of contributions; the archiving of community 
 discussions and code reviewer comments; rollback functionality; and full  
-accessability worldwide. 
+accessibility worldwide. 
 While it may (for now) be unrealistic to change the 
 academic system to consider well-documented software contributions on 
 their own as a scientific publication, we can trick the 
@@ -98,7 +98,7 @@ post-conference proceedings; see Figure 1.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/NewPeerReview092019.jpg' class='page lightbox'/>[Figure 1. A community-based review concept for scientific publications based on high-qality software contributions.]
+<img src='../../images/NewPeerReview092019.jpg' class='page lightbox'/>[Figure 1. A community-based review concept for scientific publications based on high-qality software contributions.]
 
 <br>
 
@@ -190,7 +190,7 @@ M. Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing e
 Publish: yes
 RSS update: 2019-10-15
 Categories: Collaboration
-Topics: Software publishing and citation
+Topics: Software publishing and citation, peer code review
 Tags: bssw-blog-article
 Level: 1
 Prerequisites: default

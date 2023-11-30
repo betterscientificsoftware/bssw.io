@@ -8,14 +8,14 @@ The use of social media such as Twitter in the context of scientific research ma
 
 I am the Principal Investigator (PI) of a large, multiyear, multi-institutional research project at the Pacific Northwest National Laboratory. I finished graduate school around the time that the first web browser (remember [Mosaic](https://en.wikipedia.org/wiki/Mosaic_(web_browser))?) was released, and I got into the internet revolution on the ground floor. So I just dated myself, but anyway... Today as the senior researcher on the project, I find myself surrounded by younger scientists, many of whom can't remember a time without smart phones, Google, and social media. Armed with seemingly endless energy and a willing PI, they have found creative ways to use social media to develop collaborations, gain visibility for our research, and communicate more effectively. Among other things, we use Twitter (@WHONDRS, #PNNLSBRSFA), [LinkedIn](https://www.linkedin.com/company/whondrs/), [ResearchGate](https://www.researchgate.net/project/Subsurface-Biogeochemical-Research-at-Pacific-Northwest-National-Laboratory), and YouTube as well as a conventional web presence (https://sbrsfa.pnnl.gov/) to share our science with collaborators and the broader community.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/WebScreenCaptureScheibe.jpg' class='page' />[Using Twitter in a large scientific research project]
+<img src='../../images/WebScreenCaptureScheibe.jpg' class='page' />[Using Twitter in a large scientific research project]
 
 <br>
 In December 2017 our project kicked off a collaborative network we call WHONDRS. By combining conventional approaches (conference talks and exhibits) with Twitter ([@WHONDRS](https://twitter.com/WHONDRS)) and other social media sites, our network has rapidly grown into an international consortium with hundreds of participants and a lot of enthusiasm.
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/whondrs_banner.jpg' class='page' />[WHONDRS collaborative site]
+<img src='../../images/whondrs_banner.jpg' class='page' />[WHONDRS collaborative site]
 
 <br>
 

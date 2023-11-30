@@ -1,7 +1,7 @@
 # Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0419_CTR_1176_432.png" />[Image source: NASA]
+- <img src="../../images/Blog_0419_CTR_1176_432.png" />[Image source: NASA]
 
 
 #### Publication date: April 12, 2019
@@ -9,8 +9,7 @@
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86) and [Holly Auten](https://github.com/hauten)
 
 The practice of
-[*Continuous Technology Refreshment (CTR)*](http://info.alphanumeric.com/blog/benefits-establishing-technology-refresh-cycle)
-is defined as the *periodic upgrade or replacement of infrastructure to deliver continued reliability, improved speed,
+*[Continuous Technology Refreshment (CTR)](https://securityintelligence.com/articles/why-every-company-needs-software-update-schedule)* is defined as the *periodic upgrade or replacement of infrastructure to deliver continued reliability, improved speed,
 capacity, and/or new features*. The term is used primarily in the IT world when replacing obsolete *hardware*.
 However, long-lived software projects often wind up having to engage in equivalent activity.
 Examples of CTR in scientific computing software include adoption of new 
@@ -20,9 +19,9 @@ involved technology refresh can be. Using recent work for a major release of
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit/), 3.0 Beta,
 we describe experiences and lessons learned refreshing several technologies
 * Wrangling binary content: Subversion to Git [Large File Support (LFS)](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/advanced-topics/git-lfs)
-* Revision control: [Subversion](http://visit.ilight.com/svn/visit) to [GitHub](https://github.com/visit-dav/visit)
-* Issue tracking: [Redmine](https://visitbugs.ornl.gov/projects/visit) to [GitHub Issues](https://github.com/visit-dav/visit/issues)
-* Documentation: [OpenOffice](https://wci.llnl.gov/simulation/computer-codes/visit/manuals) to
+* Revision control: Subversion to [GitHub](https://github.com/visit-dav/visit)
+* Issue tracking: Redmine to [GitHub Issues](https://github.com/visit-dav/visit/issues)
+* Documentation: OpenOffice to
   [Sphinx+ReadTheDocs](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/)
 * Other Refreshments Completed and Planned
 
@@ -106,7 +105,7 @@ Although technology refresh efforts can be costly, the benefits are improved dev
 
 ### Author bios
 
-Mark Miller is a computer scientist supporting the [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+Mark C. Miller is a computer scientist supporting the [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
 He is a contributor to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit)

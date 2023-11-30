@@ -97,8 +97,8 @@ Sciences.</p>
 
 <!---
 Publish: yes
-Categories: skills
-Topics: online learning
+Categories: skills, performance
+Topics: online learning, big data
 Level: 2
 Prerequisites: default
 Aggregate: none

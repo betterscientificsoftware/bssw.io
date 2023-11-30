@@ -1,0 +1,109 @@
+# Label and send email to bssw-editorial-list for issues, prs and discussions
+# opened/created by external contributors. See details of implementation at
+# bottom of file
+
+name: Check for external contributions
+on:
+  issues:
+    types: [opened]
+  discussion:
+    types: [created]
+  pull_request_target:
+    types: [opened,reopened,review_requested,ready_for_review]
+
+jobs:
+  notify-external-contributions:
+    name: Label and notify external contributions
+    if: github.repository_owner == 'betterscientificsoftware'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check user for team affiliation (bssw-editorial-board team)
+        uses: tspascoal/get-user-teams-membership@v2
+        id: is-eb-member
+        with:
+          username: ${{ github.actor }}
+          team: 'bssw-editorial-board'
+          GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
+      - name: Check user for team affiliation (bssw-io-support team)
+        uses: tspascoal/get-user-teams-membership@v2
+        id: is-bssw-support
+        with:
+          username: ${{ github.actor }}
+          team: 'bssw-io-support'
+          GITHUB_TOKEN: ${{ secrets.TEAM_MEMBERSHIP_PAT }}
+      - name: Add label if user is not member
+        if: ${{ steps.is-eb-member.outputs.isTeamMember == 'false' 
+          && steps.is-bssw-support.outputs.isTeamMember == 'false' }}
+        uses: actions-ecosystem/action-add-labels@v1.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            external contribution
+      - name: Send mail if user is not member
+        if: ${{ steps.is-eb-member.outputs.isTeamMember == 'false' 
+          && steps.is-bssw-support.outputs.isTeamMember == 'false' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.IDEASProductivityGmail_Username }}
+          password: ${{ secrets.IDEASProductivityGmail_Password }}
+          subject: External contribution detected
+          to: bssw-editorial@lists.mcs.anl.gov
+          from: notify-external-contrib.yml bssw.io action
+          # Any event could have triggered. Just output union of all possible.
+          # Only one of the three outputs is applicable.
+          # Not applicable items generate whitespace.
+          body: |
+            There is an external contribution from user with GitHub user handle ${{ github.actor }}
+            The item contributed is...
+            ${{ github.event.issue.html_url }}
+            ${{ github.event.pull_request.html_url }}
+            ${{ github.event.discussion.html_url }}
+
+#
+# Implementation Details:
+#
+# - Uses these actions described at these URLs
+#   - https://github.com/tspascoal/get-user-teams-membership
+#   - https://github.com/marketplace/actions/actions-ecosystem-add-labels
+#   - https://github.com/dawidd6/action-send-mail
+#   
+# - We use pull_request_target and not pull_request here to ensure the CI runs in the
+#   target repo (e.g. ours) and not a fork. A forked repo cannot access the needed secrets.
+#
+# - Requires a Personal Access Token (PAT) of any person who is a member of the team,
+#   for the get-user-teams-membership@v2 action. Individual users create PATs by going to
+#   their personal Settings.
+#   See https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+#
+# - When a PAT is created, it requires an expiration date. It can be set to never expire
+#   and we think this is ok for the PAT used here because it should only ever be given
+#   the admin read:org privilege which allows it to read team memberships of the org.
+#
+# - To update an expired PAT (or just update a PAT for security reasons), first any member
+#   of the team that is queried by the get-user-teams-membership action can go to their
+#   own personal profile page, then to Developer Settings (bottom of left panel), and then
+#   generate new classic token. Give the token a meaningful description and give it read:org
+#   permission in the admin:org group. Hit the generate token button. After you generate the
+#   token, immediately copy it by hitting the copy-to-clipboard icon (far right), then
+#   go to betterscientificsoftware/bssw repo Secrets and Variables and hit the pencil icon
+#   to edit the TEAM_MEMBERSHIP_PAT secret. Then, paste the copied token there. If you can
+#   log into github with a different account that is not associated with bssw or IDEAS and
+#   test that the action still works by submitting an issue.
+#
+# - Requires secrets for username/password for an associated send-mail-transfer-protocol
+#   (smtp) server account with which to send mail. It has been originally set up to use
+#   Mark's gmail account. Whoever's email is being used here needs to be *allow-listed*
+#   on the `bssw-editorial-list` email list to allow it to post messages there.
+#
+# - To use gmail, a Google App password is needed.
+#   See https://support.google.com/mail/answer/185833?hl=en-GB for instructions to create one.
+#   Then, create two Repository secrets for the mail username and app password and then
+#   refer to those by name on lines 40 and 42 (or thereabouts) in this file.
+#
+# - When generating the email body, its too much work to try to decode which specific
+#   event triggered the workflow. So, it just refers to all possible event URLs only
+#   one of which ever results in an actual URL being added to the body. The other
+#   references just create some whitespace in the body.

@@ -7,12 +7,12 @@ The Workshop on Software Engineering, by the Excalibur SLE project, will explore
 
 - Dates: July 14, 2020 - July 15, 2020
 - Location: Online
-- Event Website: https://excalibur-sle.github.io/workshop1.html
+- Event Website: https://excalibur-sle.github.io/workshop1
 
 #### Publication date: June 29, 2020
 #### Contributed by [Kasia Karbarz](https://github.com/karbarz "Kasia Karbarz GitHub Profile")
 
-The [Excalibur SLE](https://excalibur-sle.github.io/about.html) project brings together working groups of experts from computer science, mathematics and engineering to address the challenge of how to simulate coupled physical process at a system level on future exascale systems. This *[Workshop on Software Engineering](https://excalibur-sle.github.io/workshop1.html)* will explore the challenges facing the scientific computing community, and cover exascale readiness techniques.
+The [Excalibur SLE](https://excalibur-sle.github.io/) project brings together working groups of experts from computer science, mathematics and engineering to address the challenge of how to simulate coupled physical process at a system level on future exascale systems. This *[Workshop on Software Engineering](https://excalibur-sle.github.io/workshop1)* will explore the challenges facing the scientific computing community, and cover exascale readiness techniques.
 
 **Free Advance registration is available through the [event website](https://www.eventbrite.co.uk/e/workshop-on-software-engineering-for-exascale-excalibur-sle-tickets-109953333380)**
 
@@ -20,7 +20,7 @@ Event Information | Details
 :--- | :---			   
 Event Name | Workshop on Software Engineering
 Event Date and Time | July 14-15, 2020, 13:00 BST - 17:00 BST each day
-Website | https://excalibur-sle.github.io/workshop1.html
+Website | https://excalibur-sle.github.io/workshop1
 Registration | [FREE Advance Registration](https://www.eventbrite.co.uk/e/workshop-on-software-engineering-for-exascale-excalibur-sle-tickets-109953333380)
 
 

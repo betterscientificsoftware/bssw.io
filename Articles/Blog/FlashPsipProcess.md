@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_Dataviz.png' />[Simulation of a core-collapse supernova using the FLASH application.]
+ - <img src='../../images/Blog_0819_Dataviz.png' />[Simulation of a core-collapse supernova using the FLASH application.]
  
 #### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Jared O'Neal](https://github.com/jared321)
 
@@ -21,7 +21,7 @@ challenging with this latest shift because the codes are much larger and more
 heterogeneous themselves.
 
 ### FLASH refactoring overview
-[FLASH](http://flash.uchicago.edu) is a large and complex multiphysics and multiscale code that has been in
+[FLASH](https://iopscience.iop.org/article/10.1086/317361) is a large and complex multiphysics and multiscale code that has been in
 public release since 2000.  FLASH has undergone two major revisions in the past
 to build an extensible and flexible infrastructural framework with the goal of
 achieving robustness and longevity.  The onset of platform heterogeneity
@@ -52,7 +52,7 @@ The first improvement addressed the need to grow our test suite and to improve t
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPTestingCard.png' class='page lightbox'/>[Figure 1. A PSIP progress tracking card that represents the incremental steps used to improve our verification process.]
+<img src='../../images/Blog_082719_PSIPTestingCard.png' class='page lightbox'/>[Figure 1. A PSIP progress tracking card that represents the incremental steps used to improve our verification process.]
 
 <br>
 
@@ -69,7 +69,7 @@ Because we decided to transition the management of our code to git, the second i
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_082719_PSIPGitCard.png' class='page lightbox' />[Figure 2. A PSIP progress tracking card that represents the process of designing, implementing, and improving our git workflow.]
+<img src='../../images/Blog_082719_PSIPGitCard.png' class='page lightbox' />[Figure 2. A PSIP progress tracking card that represents the process of designing, implementing, and improving our git workflow.]
 
 <br>
 
@@ -100,7 +100,7 @@ and systems engineer at the Paranal Observatory in the Atacama desert.
 
 <br>
 
-[1]: #ref1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
+[1-sfer-ezikiw]: #ref1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
 
 References | &nbsp;
 :--- | :---
@@ -117,3 +117,9 @@ Prerequisites: default
 Aggregate: none
 --->
 
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Experience report: Refactoring the mesh interface in FLASH, a multiphysics software](#ref1)

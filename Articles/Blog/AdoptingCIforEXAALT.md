@@ -6,16 +6,16 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_Alcator_C-Mod_Fisheye_1176_432.png' />[
+- <img src='../../images/Blog_0918_Alcator_C-Mod_Fisheye_1176_432.png' />[
 
 To develop software that can push the limits of accelerated molecular dynamics, the EXAALT team is working with the IDEAS-ECP project to adopt continuous integration practices.
 
-The [Exascale Atomistic capability for Accuracy, Length and Time (EXAALT)](https://www.exascaleproject.org/project/exaalt-molecular-dynamics-at-the-exascale-materials-science/) is an [ECP](https://www.exascaleproject.org)-funded materials modeling framework designed to leverage extreme-scale parallelism to produce accelerated molecular dynamics simulations.  The end goal is to allow the user to access the most appropriate combination of accuracy, length, and time for the problem at hand, trading the costs of various forms of parallelism.  One application of EXAALT is modeling the surface of a fusion reactor (shown above is the interior of a tokamak at MIT, photograph by Chris Bolin, wikimedia commons).  As shown in Figure 1, EXAALT is actually a collection of multiple packages, each having its own dependencies. At the heart of EXAALT is the Large-scale Atomic/Molecular Massively Parallel Simulator ([LAMMPS](https://lammps.sandia.gov/)), developed at Sandia National Laboratories. However, in order to enable simulations with ab initio accuracy and extended time scales, other critical packages include [LATTE](https://github.com/lanl/LATTE) and [ParSplice](https://gitlab.com/exaalt/parsplice), both developed at Los Alamos National Laboratory (LANL).
+The [Exascale Atomistic capability for Accuracy, Length and Time (EXAALT)](https://www.exascaleproject.org/research-project/exaalt/) is an [ECP](https://www.exascaleproject.org)-funded materials modeling framework designed to leverage extreme-scale parallelism to produce accelerated molecular dynamics simulations.  The end goal is to allow the user to access the most appropriate combination of accuracy, length, and time for the problem at hand, trading the costs of various forms of parallelism.  One application of EXAALT is modeling the surface of a fusion reactor (shown above is the interior of a tokamak at MIT, photograph by Chris Bolin, wikimedia commons).  As shown in Figure 1, EXAALT is actually a collection of multiple packages, each having its own dependencies. At the heart of EXAALT is the Large-scale Atomic/Molecular Massively Parallel Simulator ([LAMMPS](https://lammps.sandia.gov/)), developed at Sandia National Laboratories. However, in order to enable simulations with ab initio accuracy and extended time scales, other critical packages include [LATTE](https://github.com/lanl/LATTE) and [ParSplice](https://gitlab.com/exaalt/parsplice), both developed at Los Alamos National Laboratory (LANL).
 
 <br>
 
 <!--- Image to illustrate the complexity of EXAALT --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_EXAALTfwork_1250_729.png' class='page' />[Figure 1. Illustration of the EXAALT framework. The three main software components (LAMMPS, LATTE, and ParSplice) are represented as colored circles, while other libraries are represented as grey circles. Lines (graph edges) depict dependencies between the various software components.]
+<img src='../../images/Blog_0918_EXAALTfwork_1250_729.png' class='page' />[Figure 1. Illustration of the EXAALT framework. The three main software components (LAMMPS, LATTE, and ParSplice) are represented as colored circles, while other libraries are represented as grey circles. Lines (graph edges) depict dependencies between the various software components.]
 
 <br>
 
@@ -31,7 +31,7 @@ The fruitful EXAALT-IDEAS collaboration, which is still ongoing between research
 <br>
 
 <!--- Image to show build and test PSIP cards /> --->
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0918_PSIPprocesscards_1250_510.png' class='page lightbox' />[Figure 2. Summarized versions of PSIP process cards used for the EXAALT-IDEAS collaboration.  The specific scores in the figure correspond to the state of the project in mid-July 2018: Boost-enabled tests have been added to the CMake build system, and now the existing Gitlab CI pipeline needs to be modified to leverage the current CMake/CTest capabilities.  Note that some details about dependencies and timeline are excluded from the PSIP cards for clarity.]
+<img src='../../images/Blog_0918_PSIPprocesscards_1250_510.png' class='page lightbox' />[Figure 2. Summarized versions of PSIP process cards used for the EXAALT-IDEAS collaboration.  The specific scores in the figure correspond to the state of the project in mid-July 2018: Boost-enabled tests have been added to the CMake build system, and now the existing Gitlab CI pipeline needs to be modified to leverage the current CMake/CTest capabilities.  Note that some details about dependencies and timeline are excluded from the PSIP cards for clarity.]
 
 
 <br>

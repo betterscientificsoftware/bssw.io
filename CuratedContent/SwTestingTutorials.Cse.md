@@ -11,7 +11,7 @@ Blurb about Webinar tutorials and links.
 Publish: no
 Categories: reliability
 Topics: testing
-Tags: [inport from subresources]
+Tags: [import from subresources]
 Level: 2
 Prerequisites: defaults
 Aggregate: Subresource

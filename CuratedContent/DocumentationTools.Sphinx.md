@@ -15,7 +15,7 @@ Focus | Documentation tools
 *[Sphinx](http://www.sphinx-doc.org)* is a free and open source tool
 that processes markup (it uses reStructuredText) describing classes, functions, and variables in your software's header files and generates a user-friendly hyperlinked set of web
 pages.  These web pages allow the user to navigate all the classes, functions,
-and variables and see 1) class hierachy relationships; 2) input and output
+and variables and see 1) class hierarchy relationships; 2) input and output
 parameters for methods and functions; and 3) other variables and associated
 data.
 
@@ -27,7 +27,7 @@ One can also include Doxygen generated XML content into *Sphinx*.
 See the
 [Breathe](https://github.com/michaeljones/breathe/) extension for details.
 
-<img src="https://www.sphinx-doc.org/en/master/_static/sphinxheader.png" class="logo">
+<img src="../images/sphinxheader.png" class="logo">
 
 
 

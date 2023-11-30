@@ -1,3 +1,7 @@
+
+
+
+
 # Best Practices for HPC Software Developers Webinar Series
 
 The HPC Best Practices (HPC-BP) webinars address issues faced by
@@ -26,7 +30,7 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
-*Listed in reverse chronological order. Last updated: 2020-09-13*
+*Listed in reverse chronological order. Last updated: 2023-11-17*
 
 
 
@@ -34,6 +38,291 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
+
+
+
+
+- [*A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar080), David E. Bernholdt (Oak Ridge National Laboratory), 2023-11-08
+
+
+
+
+
+
+
+- [*Taking HACC into the Exascale Era: New Code Capabilities, and Challenges*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar079), Esteban Rangel (Argonne National Laboratory), 2023-10-11
+
+
+
+
+
+
+
+- [*Simplifying Scientific Python Package Installation and Usage*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar078), Amiya Maji (Purdue University), 2023-09-13
+
+
+
+
+
+
+
+- [*Infrastructure for High-Fidelity Testing in HPC Facilities*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar077), Ryan Prout (Oak Ridge National Laboratory), 2023-08-09
+
+
+
+
+
+
+
+- [*Writing Clean Scientific Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar076), Nick Murphy (Center for Astrophysics, Harvard &amp; Smithsonian), 2023-07-12
+
+
+
+
+
+
+
+- [*The OpenSSF Best Practices Badge Program*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar075), Roscoe A. Bartlett (<a href="http://www.sandia.gov/">Sandia National Laboratories</a>), 2023-06-14
+
+
+
+
+
+
+
+- [*Lessons Learned Developing Performance Portable QMCPACK*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar074), Paul Kent (Oak Ridge National Laboratory), 2023-05-10
+
+
+
+
+
+
+
+- [*Facilitating Electronic Structure Calculations on GPU-based Exascale Platforms*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar073), Jean-Luc Fattebert (Oak Ridge National Laboratory), 2023-04-12
+
+
+
+
+
+
+
+- [*Our Road to Exascale: Particle Accelerator & Laser-Plasma Modeling*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar072), Axel Huebl (Lawrence Berkeley National Laboratory), 2023-03-15
+
+
+
+
+
+
+
+- [*Openscapes: supporting better science for future us*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar071), Julia Stewart Lowndes (Openscapes), 2023-01-11
+
+
+
+
+
+
+
+- [*Lab Notebooks for Computational Mathematics, Sciences & Engineering*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar070), Jared O&#8217;Neal (Argonne National Laboratory), 2022-12-14
+
+
+
+
+
+
+
+- [*Managing Academic Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar069), Sam Mangham (University of Southampton), 2022-11-09
+
+
+
+
+
+
+
+- [*Investing in Code Reviews for Better Research Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar068), Thibault Lestang (Imperial College London), Dominik Krzemiński (University of Cambridge),  and Valerio Maggio (Software Sustainability Institute), 2022-10-12
+
+
+
+
+
+
+
+- [*Software Packaging*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar067), David Rogers (Oak Ridge National Laboratory), 2022-09-07
+
+
+
+
+
+
+
+- [*Effective Strategies for Writing Proposal Work Plans for Research Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar066), Chase Million (Million Concepts), 2022-08-10
+
+
+
+
+
+
+
+- [*Growing preCICE from an as-is Coupling Library to a Sustainable, Batteries-included Ecosystem*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar065), Gerasimos Chourdakis (Technical University of Munich), 2022-07-06
+
+
+
+
+
+
+
+- [*Normalizing Inclusion by Embracing Difference*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar064), Mary Ann Leung (Sustainable Horizons Institute), 2022-06-15
+
+
+
+
+
+
+
+- [*Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063), Marisol Garcia-Reyes (Farallon Institute), 2022-05-11
+
+
+
+
+
+
+
+- [*Evaluating Performance Portability of HPC Applications and Benchmarks Across Diverse HPC Architectures*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar062), JaeHyuk Kwack (Argonne Leadership Computing Facility), 2022-04-13
+
+
+
+
+
+
+
+- [*Software Design Patterns in Research Software with Examples from OpenFOAM*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar061), Tomislav Maric (Technische Universität Darmstadt), 2022-03-09
+
+
+
+
+
+
+
+- [*Wrong Way: Lessons Learned and Possibilities for Using the "Wrong" Programming Approach on Leadership Computing Facility Systems*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar060), Philip Roth (Oak Ridge National Laboratory), 2022-02-16
+
+
+
+
+
+
+
+- [*Scientific software ecosystems and communities: Why we need them and how each of us can help them thrive*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar059), Lois Curfman McInnes (Argonne National Laboratory), 2021-12-08
+
+
+
+
+
+
+
+- [*55+ years in High-Performance Computing: One Woman’s Experiences and Perspectives*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar058), Jean Shuler (Lawrence Livermore National Laboratory), 2021-11-10
+
+
+
+
+
+
+
+- [*Migrating to Heterogeneous Computing: Lessons Learned in the Sierra and El Capitan Centers of Excellence*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar057), David Richards (Lawrence Livermore National Laboratory), 2021-10-13
+
+
+
+
+
+
+
+- [*What I Learned from 20 Years of Leading Open Source Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth (Colorado State University), 2021-09-15
+
+
+
+
+
+
+
+- [*Software Engineering Challenges and Best Practices for Multi-Institutional Scientific Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar055), Keith Beattie (Lawrence Berkeley National Laboratory), 2021-08-04
+
+
+
+
+
+
+
+- [*Mining Development Data to Understand and Improve Software Engineering Processes in HPC Projects*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar054), Boyana Norris (University of Oregon), 2021-07-07
+
+
+
+
+
+
+
+- [*Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar053), Elena Pourmal (The HDF Group), Reed Milewicz (Sandia National Laboratories),  and Elsa Gonsiorowski (Lawrence Livermore National Laboratory), 2021-06-09
+
+
+
+
+
+
+
+- [*Automated Fortran–C++ Bindings for Large-Scale Scientific Applications*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar052), Seth Johnson (Oak Ridge National Laboratory), 2021-05-12
+
+
+
+
+
+
+
+- [*A Workflow for Increasing the Quality of Scientific Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar051), Tomislav Maric (Technische Universität Darmstadt), 2021-04-07
+
+
+
+
+
+
+
+- [*An Overview of the RAJA Portability Suite*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar050), Arturo Vargas (Lawrence Livermore National Laboratory), 2021-03-10
+
+
+
+
+
+
+
+- [*Good Practices for Research Software Documentation*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar049), Stephan Druskat (Friedrich Schiller University Jena),  and Sorrel Harriet (Leeds Trinity University), 2021-02-10
+
+
+
+
+
+
+
+- [*Extreme-scale Scientific Software Stack (E4S)*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar048), Sameer Shende (University of Oregon and ParaTools),  and David Honegger Rogers (Los Alamos National Laboratory), 2021-01-13
+
+
+
+
+
+
+
+- [*Software Design for Longevity with Performance Portability*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar047), Anshu Dubey (Argonne National Laboratory), 2020-12-09
+
+
+
+
+
+
+
+- [*Reducing Technical Debt with Reproducible Containers*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar046), Tanu Malik (DePaul University), 2020-11-04
+
+
+
+
+
+
+
+- [*Scalable Precision Tuning of Numerical Software*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar045), Cindy Rubio-Gonzalez (University of California, Davis), 2020-10-14
 
 
 
@@ -81,7 +370,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Best Practices for Using Proxy Applications as Benchmarks*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar039), David Richards (<a href="http://www.llnl.gov/">Lawrence Livermore National Laboratory</a>),  and Joe Glenski (Hewlett-Packard Enterprise), 2020-04-15
+- [*Best Practices for Using Proxy Applications as Benchmarks*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar039), David Richards (Lawrence Livermore National Laboratory),  and Joe Glenski (Hewlett-Packard Enterprise), 2020-04-15
 
 
 
@@ -145,7 +434,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>), 2019-07-17
+- [*When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar031), Mark C. Miller (<a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a>), 2019-07-17
 
 
 
@@ -265,15 +554,15 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*Jupyter and HPC: Current State and Future Roadmap*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Matthias Bussonnier (UC Berkeley), Suhas Somnath (Oak Ridge National Laboratory),  and Shreyas Cholia (National Energy Research Scientific Computing Center), 2018-02-28
-
-
-
-
-
-
-
 - [*Scientific Software Development with Eclipse*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Greg Watson (Oak Ridge National Laboratory), 2018-03-28
+
+
+
+
+
+
+
+- [*Jupyter and HPC: Current State and Future Roadmap*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar015), Matthias Bussonnier (UC Berkeley), Suhas Somnath (Oak Ridge National Laboratory),  and Shreyas Cholia (National Energy Research Scientific Computing Center), 2018-02-28
 
 
 
@@ -385,11 +674,11 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 
 
-- [*What All Codes Should Do:  Overview of Best Practices in HPC Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001), Anshu Dubey (<a href="http://www.anl.gov/">Argonne National Laboratory</a>), 2016-05-04
+- [*What All Codes Should Do:  Overview of Best Practices in HPC Software Development*](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar001), Anshu Dubey (Argonne National Laboratory), 2016-05-04
 
 
 #### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
-#### Publication date: 2020-09-13
+#### Publication date: 2023-11-17
 
 <!---
 Publish: yes

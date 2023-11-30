@@ -1,7 +1,7 @@
 # Accelerating Scientific Discovery with Reusable Software: Special issue of IEEE CiSE    
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0319_CiSEIssueMonoV3_1176x432.png" />
+- <img src="../../images/Blog_0319_CiSEIssueMonoV3_1176x432.png" />
 
 #### Contributed by [Scott Lathrop](https://github.com/scottlathrop "Scott Lathrop GitHub Profile")
 

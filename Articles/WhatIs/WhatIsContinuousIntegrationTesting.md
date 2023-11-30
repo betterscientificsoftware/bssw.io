@@ -4,8 +4,7 @@ Continuous integration testing is a process where code changes are automatically
 <!--deck end--->
 
 <!--body start--->
-Continuous integration (CI) testing is a particular [category](../../../CuratedContent/WhatIsCseSwTesting.md#categories-of-testing)
-of testing software that is aimed at testing
+Continuous integration (CI) testing is a particular category of testing software that is aimed at testing
 the merged changes from multiple branches of development, with the highest _reasonable_ frequency
 and smallest _reasonable_ granularity of changes. _Continuous_ means that changes are being continuously
 merged and tested. _Integration_ means that changes from multiple branches are merged and the _integrated_
@@ -14,7 +13,7 @@ from development processes. Instead of develop, develop, develop, test, test, te
 develop, test, develop, test, develop, test.
 
 What constitutes _reasonable_ frequency and granularity for CI testing? Teams are free to define what
-is _reasonable_. This can vary amoung teams. Even within a team, different categories of work may be
+is _reasonable_. This can vary among teams. Even within a team, different categories of work may be
 handled with different frequency and granularity. For example, for bug-fix work, frequency may be once
 at the end of each day and granularity may be _completed_ bug fixes whereas for
 feature enhancements requiring many person-weeks, frequency may be once a week and granularity whatever
@@ -47,10 +46,10 @@ Next, CI testing can often require that tests be designed with several important
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &bull; Tests are designed and compute resources are such that tests complete with immediacy.
 
 High frequency and/or fine granularity of CI testing can also mean that software changes are required
-to follow incrimental stages of development. It means that new tests are added and obsoleted tests updated
+to follow incremental stages of development. It means that new tests are added and obsoleted tests updated
 or removed, almost as often as the code that is being tested. Finally, it may require that test coverage be high
 enough that relatively small, isolated code changes anywhere in the code wind up being tested. In
-particlar, CI testing typically means that developers are prevented from working on separate branches of
+particular, CI testing typically means that developers are prevented from working on separate branches of
 development for extended periods without being required to merge other's work with their own on a
 routine basis. Indeed, this is one of the aims of CI testing; to prevent any one branch of development to
 fall too far out of sync with any other.

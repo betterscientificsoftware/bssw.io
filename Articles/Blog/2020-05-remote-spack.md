@@ -2,7 +2,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0520_WorkRemoteSpack.png' />
+- <img src='../../images/Blog_0520_WorkRemoteSpack.png' />
 
 #### Contributed by [Todd Gamblin](https://github.com/tgamblin "Todd Gamblin GitHub Profile") and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub Profile")
 
@@ -20,7 +20,7 @@ Outside the core, we’ve always had a weekly conference call for Spack, as well
 
 Most of the communication now happens on GitHub and Slack.  If I look at a recent week, there were ~125 messages (comments/new issues/new PRs) per day on GitHub.  Our Slack instance has 560 users now, and there are over 180 active users per week.  Of those, over 60 people actually interacted by posting something, so I think Slack is really the best place to interact with Spack now.  You can ask questions in the general channel and get quick responses, and teams at different organizations have been able to use Spack Slack to collaborate on their own sub-projects.
 
-**Elaine:** It sounds like you're using a combination of synchronous and asynchonous strategies and tools. What are your favorite 3 tips for leading scientific software development meetings in which all members are dispersed [working remotely]?
+**Elaine:** It sounds like you're using a combination of synchronous and asynchronous strategies and tools. What are your favorite 3 tips for leading scientific software development meetings in which all members are dispersed [working remotely]?
 
 **Todd:**
 
@@ -39,7 +39,7 @@ We had 50-60 people on the call, and Greg Becker and I managed to make the sessi
 
 Given that we’ve been able to make this work for a large group once, we might just start doing more frequent tutorial sessions in general.  I think we could reach a lot of people that way.
 
-**Elaine:** You've successfully made a number of adjustments that impact your core team. Spack is a huge global community of open source developers and users, and many find themselves in "unplanned" remote work as well--possibly unable to work they way they are used to. What impact do you forsee this having on the way your community is managed, if any?
+**Elaine:** You've successfully made a number of adjustments that impact your core team. Spack is a huge global community of open source developers and users, and many find themselves in "unplanned" remote work as well--possibly unable to work they way they are used to. What impact do you foresee this having on the way your community is managed, if any?
 
 **Todd:** Given that we’re already remote, I don’t see this having a major impact.  Nearly all the interaction in Spack is asynchronous and remote, so little changes day to day in forums like GitHub and Slack.
 

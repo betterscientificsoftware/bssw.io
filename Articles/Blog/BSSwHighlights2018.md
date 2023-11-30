@@ -1,7 +1,7 @@
 # Better Scientific Software: 2018 Highlights
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_010219_Mantage.png" />[2018 Highlights]
+- <img src="../../images/Blog_010219_Mantage.png" />[2018 Highlights]
 
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") 
 
@@ -40,7 +40,7 @@ who are sharing their perspectives on challenges, strategies, and best practices
 - [Exploring Community Organizations and their Role in Emerging Software Ecosystems](https://bssw.io/items/exploring-community-organizations-and-their-role-in-emerging-software-ecosystems), Lois Curfman McInnes
 
 ### Better Skills:
-- [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-development), Mark Miller
+- [Keeping Your Vision Fit for Years of Software Development](https://bssw.io/blog_posts/keeping-your-vision-fit-for-years-of-software-development), Mark C. Miller
 - [On Demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize Your Productivity](https://bssw.io/blog_posts/on-demand-learning-for-better-scientific-software-how-to-use-resources-technology-to-optimize-your-productivity), Elaine Raybourn 
 
 ### BSSw Succeeds by Your Contributions

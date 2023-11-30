@@ -26,6 +26,12 @@ Next are listed a few timely articles that address the VUCA (volatile, uncertain
 
 Resource information | Details
 :--- | :--- 
+Article title  | [Employee Engagement Ideas for your Remote Team](https://www.inpulse.com/remote-team-employee-engagement-ideas/)
+Authors | Matt Stephens via [Inpulse Blog](https://www.inpulse.com/author/inpulse-blog/)
+Focus | Engagement, Leadership, Remote Working
+
+Resource information | Details
+:--- | :--- 
 Article title  | [15 Questions About Remote Work, Answered](https://hbr.org/2020/03/15-questions-about-remote-work-answered)
 Authors | Tsedal Neeley via [Harward Business Review](https://hbr.org/)
 Focus | Shifting from co-located to dispersed teams
@@ -43,6 +49,7 @@ Resource information | Details
 Article title  | [8 strategies to set up remote work during the coronavirus outbreak](https://www.fastcompany.com/90475330/8-strategies-to-set-up-remote-work-during-the-coronavirus-outbreak)
 Authors |Marten Mickos via [Fastcompany](https://www.fastcompany.com)
 Focus | Tools and Infrastructure
+ 
  
 Resource information | Details
 :--- | :--- 
@@ -64,9 +71,8 @@ Sandia National Laboratories is a multimission laboratory managed and operated b
 
 <!---
 Publish: yes
-Pinned: yes
-RSS update: 2020-03-20
-Categories: skills
 Topics: personal productivity and sustainability
+Pinned: no
+RSS update: 2019-03-20
 --->
 

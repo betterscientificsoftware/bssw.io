@@ -59,14 +59,14 @@ Therefore, unless the reader is specifically interested in Agile methods, one ma
 Also, this book has many detailed examples.  For some readers, going through these examples in detail may be helpful, others may just want to skim them if they already get the ideas the example is trying to convey.
 Skimming the examples can really help to improve the flow of material as one reads the book, at least the first read-through.
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/AgileSoftwareDevelopmentMartin.jpg' class='logo' />
+<img src='../images/AgileSoftwareDevelopmentMartin.jpg' class='logo' />
 
 
 <br>
 
-[1]: #ref1 "E. Gamma, R. Helm, R. Johnson and J. Vlissides. Design Patterns, Addison Wesley, 1995"
-[2]: #ref2 "K. Beck. Extreme Programming Explained (2nd edition), Addison Wesley, 2005"
-[3]: #ref3 "P. Duvall and et. al. Continuous Integration, Addison Wesley, 2007"
+[1-sfer-ezikiw]: #ref1 "E. Gamma, R. Helm, R. Johnson and J. Vlissides. Design Patterns, Addison Wesley, 1995"
+[2-sfer-ezikiw]: #ref2 "K. Beck. Extreme Programming Explained (2nd edition), Addison Wesley, 2005"
+[3-sfer-ezikiw]: #ref3 "P. Duvall and et. al. Continuous Integration, Addison Wesley, 2007"
 
 <br>
 
@@ -90,3 +90,13 @@ Level: 2
 Prerequisites: defaults
 Aggregate: none
 --->
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "E. Gamma, R. Helm, R. Johnson and J. Vlissides. Design Patterns, Addison Wesley, 1995"
+[2]: #sfer-ezikiw-2 "K. Beck. Extreme Programming Explained (2nd edition), Addison Wesley, 2005"
+[3]: #sfer-ezikiw-3 "P. Duvall and et. al. Continuous Integration, Addison Wesley, 2007"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[E. Gamma, R. Helm, R. Johnson and J. Vlissides. Design Patterns, Addison Wesley, 1995](#ref1)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[K. Beck. Extreme Programming Explained (2nd edition), Addison Wesley, 2005](#ref2)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[P. Duvall and et. al. Continuous Integration, Addison Wesley, 2007](#ref3)

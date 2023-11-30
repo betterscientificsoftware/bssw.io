@@ -12,7 +12,9 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition a
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_FellowsGrid_11.png'/>
+<img src='../../images/Blog_0820_FellowsGrid_11.png'/>
+<meta property="og:image" content="https://res.cloudinary.com/bssw/image/fetch/https://raw.githubusercontent.com/betterscientificsoftware/bssw.io/master/images/Blog_0820_FellowsGrid_11.png" />
+
 
 <br>
 

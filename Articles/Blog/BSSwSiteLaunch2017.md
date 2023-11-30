@@ -4,7 +4,7 @@
 
 #### Publication date: Nov 13, 2017
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/BSSwResourceTopics.png' class='page' />
+<img src='../../images/BSSwResourceTopics.png' class='page' />
 
 Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering (CSE).  We're pleased to introduce the BSSw website---a new community-based resource for scientific software improvement exchange.  We’re creating a clearinghouse to gather, discuss, and disseminate experiences, techniques, tools, and other resources to improve software productivity and sustainability for CSE. The site aims to raise awareness of the importance of good software practices to scientific productivity and to the quality and reliability of computationally-based scientific results. Another goal is to raise awareness of the increasing challenges facing CSE software developers as high-end computing heads to extreme scales.
 

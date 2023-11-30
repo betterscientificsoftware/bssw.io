@@ -14,7 +14,7 @@ The front-end for the BSSw site will then combine the information into an aggreg
 
 This file ("base"):  
 - Aggregate: base
-   - The "base" designation indicates that content and metadata will be included from subresource files, as specified in the bulletted list of subresources.
+   - The "base" designation indicates that content and metadata will be included from subresource files, as specified in the bulleted list of subresources.
 
 Subtopic resource files:
 - Aggregate: subresource
@@ -30,7 +30,7 @@ Subtopic resource files:
 - Paste text into your new document, as a starting point. Then edit as you like.
 - Continue following instructions in [How To Contribute](../HowToContribute.md).
 
-To incorporate images, see the guidelines in the [Better Scientific Software images repository](https://github.com/betterscientificsoftware/images/blob/master/README.md).
+To incorporate images, see the guidelines in the [Better Scientific Software images repository](../images/README.md).
 
 See also [ResourceTemplate.AggregateSubresource](ResourceTemplate.AggregateSubresource.md).
 

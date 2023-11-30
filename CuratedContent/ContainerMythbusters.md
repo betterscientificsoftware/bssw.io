@@ -51,11 +51,7 @@ container solution.
 
 <!---
 Publish: yes
+Topics: Release and Deployment, Performance Portability, Reproducibility, Cloud Computing
+Pinned: no
 RSS update: 2019-11-26
-Categories: Development, Reliability, Performance
-Topics: Release and Deployment, Performance Portability, Reproducibility 
-Level: 2
-Prerequisites: defaults
-Aggregate: none
-Review: LA-UR-19-30997
 --->

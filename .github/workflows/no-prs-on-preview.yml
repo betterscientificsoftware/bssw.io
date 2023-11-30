@@ -18,6 +18,6 @@ jobs:
 # the *only* distinction is a test on the type of event!
     - uses: SiliconLabs/close-pull-request-target@v2.2
       with:
-        comment: "The preview branch does not accept pull requests.  To contribute to BSSw.io make your PR against the master branch.  Thanks"
+        comment: "The preview branch does not accept pull requests.  To contribute to BSSw.io make your PR against the main branch.  Thanks"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

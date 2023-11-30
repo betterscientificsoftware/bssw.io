@@ -1,15 +1,22 @@
 # Discontinuing a Research Software Project
 
+<!--deck text start-->
+A software (research) project can be discontinued in a way that allows stakeholders a smooth transition, the mining of lessons learned and useful subcomponents, and even to pick the project back up again if desired.
+<!--deck text end-->
+
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: November 24, 2023
+
 High Performance Computing (HPC) / Computational Science and Engineering (CSE) software projects involve at least two kinds of *deep* knowledge.
 One is the computational science the software aims to enable.
 The other is the computer science (aka software engineering) involved in designing, developing, deploying and supporting the software for users.
 
 Because the ultimate goal of most HPC/CSE projects is the advancement of the underlying science, publications concerning the computational science knowledge are often the priority.
 When such a project ends, the primary risk of computational science knowledge loss involves reproducibility.
-Setting reproducibility aside, most other aspects of the computational science knowledge is often captured in perpetuity in the publicly available literature.
+Setting reproducibility aside, most other aspects of the computational science knowledge are often captured in perpetuity in the publicly available literature.
 On the other hand, the computer science knowledge is often at risk of being lost.
 
-Scientific computing research software projects can come to an end in ways that ultimately impact our community's ability to ever reap any benefit from progress made or lessons learned or otherwise have available for posterity's sake any of the system design, architecture, implementation and software engineering know how that went into the project.
+Scientific computing research software projects can come to an end in ways that ultimately impact our community's ability to ever reap any benefit from progress made or lessons learned or otherwise have available for posterity's sake any of the system design, architecture, implementation and software engineering know-how that went into the project.
 We all can likely think of example projects where this has happened.
 
 Software projects come to an end for a variety of reasons.
@@ -34,7 +41,7 @@ Here we outline a number of actions software project members can take to ensure 
 With fair warning, a project can move to *tidy things up* before all funding is lost.
 
 When there is a planned sunset date or with fair warning, taking any of the actions outlined below is easier than trying to cram them in at the last minute if funding is suddenly and unexpectedly lost.
-If work must cease immediately, we acknowledge few of the actions listed here will be possible.
+If work must cease immediately, we acknowledge few of the actions listed here may be possible.
 
 1. Make an End-of-project release
 
@@ -69,7 +76,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
 
    The goal is to capture, without too much effort, the software's design objectives, methodologies, and key findings.
    Include key design decisions, architecture notes, algorithms, and implementation details that may be valuable to others.
-   If there is known to be large swaths of documentation that is sitting around in restricted places (emails, slide decks, pdf files) that are not already available on line and/or *with* the source code, consider getting this information *out there* with the source code as well.
+   If there is known to be large swaths of documentation that are sitting around in restricted places (emails, slide decks, pdf files) that are not already available on line and/or *with* the source code, consider getting this information *out there* with the source code as well maybe by adding the relevant artifacts to the repository holding the source code.
 
 1. Establish an enduring on-line presence
 
@@ -100,7 +107,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    Salvaging valuable components can save time and effort in future development.
    Depending on how the software is architected, the work to refactor any such pieces of the code may be doable before funding runs out.
    Stakeholders with downstream dependencies that are highly localized to a refactorable piece of the code base may even be willing to take over maintaining that piece as its own package.
-   Reach out to researchers working in similar area to see if they may see a benefit to maintaining a *piece*.
+   Reach out to researchers working in a similar area to see if they could benefit from maintaining a *piece*.
    There may be graduate students looking for projects who may be interested and willing to pick up and build upon a package.
 
 1. Gather lessons learned:
@@ -121,7 +128,7 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
 
    The decision to discontinue a project needs to be communicated as soon as possible to all stakeholders.
    Whenever possible, be open and honest about the reasons and express gratitude to for contributor's efforts.
-   The sooner existing users can be notified that the software is loosing support, the more time they will have to consider what to do.
+   The sooner existing users can be notified that the software is losing support, the more time they will have to consider what to do.
 
    One of the first things to decide is whether future project *communications* will go on some form of life-support or be discontinued entirely.
    Having life-support communications is obviously preferred but it comes at some non-zero cost and so may not be practical in all cases.
@@ -134,10 +141,17 @@ If work must cease immediately, we acknowledge few of the actions listed here wi
    For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
    For projects for which decent alternative software products exist, ensure users are aware of these alternatives.
 
-We have set aside the issue of reproducibility here and the impact discontinuing a project can have on reproducibility.
+In this article, we have set aside the issue of reproducibility and the impact discontinuing a project can have on reproducibility.
 That is not because we do not think reproducibility is important.
 It is more a question of whose resources are responsible for addressing reproducibility concerns.
-The extent to which a project that has lost funding can be held responsible for reproducibility is highly debatable and outside the scope of this article.
-Nonetheless, many of the actions suggested here can help in small ways to address reproducibility challenges.
+Undoubtedly, projects can engage in practices that either help or hinder reproducibility.
+Many of the actions suggested here will likely help.
+Nonetheless, the extent to which a project that has lost funding can be held responsible for reproducibility is an open question and outside the scope of this article.
 
 By following many of these suggested actions, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science knowledge as possible for posterity.
+
+<!---
+Publish: yes
+Pinned: no
+Topics: projects and organizations, funding sources and programs, reproducibility, software sustainability
+--->

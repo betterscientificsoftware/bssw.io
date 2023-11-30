@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0820_Peer_review.png' />
+ - <img src='../../images/Blog_0820_Peer_review.png' />
 
 #### Contributed by [Karthik Ram](https://github.com/karthik "Karthik Ram GitHub Profile"), [Carl Boettiger](https://github.com/cboettig "Carl Boettiger GitHub Profile"), [Scott Chamberlain](https://github.com/sckott "Scott Chamberlain GitHub Profile"), [Noam Ross](https://github.com/noamross "Noam Ross GitHub Profile"), [Maëlle Salmon](https://github.com/maelle "Maëlle Salmon GitHub Profile"), and [Stefanie Butland](https://github.com/stefaniebutland "Stefanie Butland GitHub Profile")
 
@@ -87,11 +87,5 @@ Stefanie Butland is the community manager with rOpenSci. Contact her at stefanie
 
 <!---
 Publish: yes
-RSS update: 
-Categories: Planning
-Topics: Software Process Improvement, Software Engineering
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: Software Process Improvement, Software Engineering, peer code review, Software Sustainability
 --->

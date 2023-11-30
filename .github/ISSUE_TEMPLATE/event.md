@@ -2,18 +2,19 @@
 name: Event
 about: Template for Submitting an Event Notice 
 title: Event Notice
-labels: event
-assignees: bernhold
+labels: 'content: event'
 ---
+By making a submission here, you agree to [BSSw.io content licensing terms](https://github.com/betterscientificsoftware/bssw.io/blob/main/TERMS.md).
+
 Enter details here by replacing *italicized text* with actual event information and without adding or removing lines.  You are encouraged to look at some [published events](https://bssw.io/events) in order to get a feel for how the requested information will appear on the site.
 
 * **What:** *Event Title, in title case*
 
-The title should be concise (more complete information can be included in the Description, if necessary).  If your event is a call for papers, posters, or other contributions, put that at the beginning of the title (for example, *Call for Papers: My Little Workshop*) and provide the deadline date for submissions below.  Once the deadline has passed, you can submit a new event for the event itself (sometimes refered to as a "call for participation", but we discourage including that in the event title).
+The title should be concise (more complete information can be included in the Description, if necessary).  If your event is a call for papers, posters, or other contributions, put that at the beginning of the title (for example, *Call for Papers: My Little Workshop*) and provide the deadline date for submissions below.  Once the deadline has passed, you can submit a new event for the event itself (sometimes referred to as a "call for participation", but we discourage including that in the event title).
 
 * **When:** *Date or date range in "month day, year" format*
 
-In the published event, the date appears immediately below the **title**, as well as further down, along side the **location** and **organizers**.  The date information is also used to control the visibility of the event on the <https://bssw.io/events> page.  Anything entered in this field that is not regoznied as a date or date range is *ignored* and will not appear in the published event.
+In the published event, the date appears immediately below the **title**, as well as further down, along side the **location** and **organizers**.  The date information is also used to control the visibility of the event on the <https://bssw.io/events> page.  Anything entered in this field that is not recognized as a date or date range is *ignored* and will not appear in the published event.
 
 * **Where:** *Geographical location, geographical region, or "Online"*
 

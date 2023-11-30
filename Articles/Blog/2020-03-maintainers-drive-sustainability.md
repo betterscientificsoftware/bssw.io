@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-  - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0420_Map.jpg' />[A hydrologic model of the contiguous United States (CONUS) overlaid with stream gauge locations. DOI: 10.1016/j.cageo.2019.01.020.]
+  - <img src='../../images/Blog_0420_Map.jpg' />[A hydrologic model of the contiguous United States (CONUS) overlaid with stream gauge locations. DOI: 10.1016/j.cageo.2019.01.020.]
 
 #### Contributed by [Steven Smith](https://github.com/smithsg84 "Steven Smith GitHub Profile")
 
@@ -18,13 +18,13 @@ A maintainer orchestrates the software lifecycle for the project and provides co
 ### What Is ParFlow?
 **Par**allel **Flow** (ParFlow) is an application for integrated hydrology modeling that simulates spatially distributed surface and subsurface flow, as well as land surface processes including evapotranspiration and snow (see Figure 1).  
 
-[Figure 1: ParFlow has been instrumental in understanding how evapotranspiration depletes groundwater under warming and how large-scale groundwater development has influenced watershed behavior of the contiguous United States. DOIs: 10.1126/sciadv.aav4574, 10.1038/s41467-020-14688-0.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_1.png' class='page lightbox' />
+[Figure 1: ParFlow has been instrumental in understanding how evapotranspiration depletes groundwater under warming and how large-scale groundwater development has influenced watershed behavior of the contiguous United States. DOIs: 10.1126/sciadv.aav4574, 10.1038/s41467-020-14688-0.]<img src='../../images/maintainers_image_1.png' class='page lightbox' />
 
 <br>
 
 ParFlow simulates the hydrologic cycle from the bedrock to the top of the plant canopy. It integrates three-dimensional groundwater flow with overland flow and plant processes using physically based equations to rigorously simulate fluxes of water and energy in complex real-world systems (see Figure 2). 
 
-[Figure 2: ParFlow is used as the foundation for a contiguous United States (CONUS) integrated hydrologic modeling capability.]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_2.png' class='page lightbox' />
+[Figure 2: ParFlow is used as the foundation for a contiguous United States (CONUS) integrated hydrologic modeling capability.]<img src='../../images/maintainers_image_2.png' class='page lightbox' />
 
 ### Risk Factors for Unsustainable Code
 
@@ -70,7 +70,7 @@ For easier deployment, a Docker image for ParFlow is now being provided so deskt
 
 The impact of a maintainer can be seen in the history of commits to the ParFlow repository in Figure 3. During the period from spring  2011 through fall  2015 ParFlow lost support for a maintainer, and the number of commits being made to the main code base dropped dramatically.   When maintainer support was reintroduced, the repository activity picked up significantly.   Development had not stopped, but little effort had been made to integrate changes into the main repository, and the enhancements were not being made available for the broader community.
 
-[Figure 3: History showing number of code commits to ParFlow repository during periods with and without a maintainer]<img src='https://github.com/betterscientificsoftware/images/raw/master/maintainers_image_0.png' class='page lightbox' />
+[Figure 3: History showing number of code commits to ParFlow repository during periods with and without a maintainer]<img src='../../images/maintainers_image_0.png' class='page lightbox' />
 
 <br>
 
@@ -103,10 +103,5 @@ Steve Smith is a computer scientist supporting the Center for Applied Scientific
 <!---
 Publish: yes
 RSS update: 2020-04-15
-Categories: Planning, Planning, Collaboration
-Topics: Software Engineering, Software Process Improvement, Strategies for More Effective Teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: Software Engineering, Software Process Improvement, Strategies for More Effective Teams, Software Sustainability
 --->

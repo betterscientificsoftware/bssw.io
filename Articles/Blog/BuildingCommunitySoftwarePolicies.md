@@ -6,7 +6,7 @@
 
 **Hero Image:**
 
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0819_xSDK_blueV3_sm.png"/>
+- <img src="../../images/Blog_0819_xSDK_blueV3_sm.png"/>
 
 It takes a whole community to build a sustainable ecosystem consisting of various independently developed software products that work well together. Providing a set of guidelines is an essential ingredient.  This article discusses community policies for long-term development of a sustainable software ecosystem for scalable high-performance libraries and applications. 
 

@@ -145,7 +145,7 @@ IDEAS-ECP productivity project.</p>
 
     
 
-#### Contributed by Helen Cademartori, Marcey Kelley, [Jay Lofstead](https://github.com/gflofst "Jay Lofstead GitHub profile"), Bethany (Beth) Mccormick,  and [Raj Sankaran](https://github.com/rajeshxsankaran "Raj Sankaran GitHub profile") Ashley Barker, [Rebecca Hartman-Baker](https://github.com/hartmanbaker "Rebecca Hartman-Baker GitHub profile"),  and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
+#### Contributed by Helen Cademartori, Marcey Kelley, [Jay Lofstead](https://github.com/gflofst "Jay Lofstead GitHub profile"), Bethany (Beth) Mccormick, [Raj Sankaran](https://github.com/rajeshxsankaran "Raj Sankaran GitHub profile"), [Ashley Barker](https://github.com/ashley08 "Ashley Barker Github Profile"), [Rebecca Hartman-Baker](https://github.com/hartmanbaker "Rebecca Hartman-Baker GitHub profile"), and [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile")
 
 <!---
 Publish: yes

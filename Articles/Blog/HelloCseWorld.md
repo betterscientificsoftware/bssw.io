@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_110619.png'/>
+ - <img src='../../images/Blog_110619.png'/>
 
 #### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
 
@@ -76,15 +76,15 @@ by comparing of time, space, and scaling performance of various approaches.
 
 As a precursor to that effort, we have begun collecting, documenting, and comparing
 similarities and differences of
-various code snipits from existing implementations in a
+various code snippits from existing implementations in a
 [*temporary repository*](https://github.com/betterscientificsoftware/hello-heat-equation).
-After evaluating them, we will then evolve a subset of these code snipits to full, working
+After evaluating them, we will then evolve a subset of these code snippits to full, working
 implementations we intend to maintain for the training and testing example purposes
 described above.
 
 ### Conclusion
 The heat equation is well known and has many practical applications even in
-its one dimensional form. Because of these advantages, a variety of implementations are
+its one-dimensional form. Because of these advantages, a variety of implementations are
 easily available. This exemplar PDE makes it the perfect "Hello World!" for
 the scientific software community. Collecting a number of working examples
 together with unique implementation characteristics will help to create 

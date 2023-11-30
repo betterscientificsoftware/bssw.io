@@ -4,7 +4,7 @@
 
 **Affiliation:** Oregon State University
 
-**Image:** /images/blob/master/People_KyleNiemeyer.jpg
+**Image:** /images/People_KyleNiemeyer.jpg
 
 **URL:** https://niemeyer-research-group.github.io
 

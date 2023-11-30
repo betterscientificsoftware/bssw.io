@@ -1,12 +1,15 @@
-# About
+# Team
  
-The Better Scientific Software (BSSw) community is an international group of researchers, practitioners, and stakeholders who are dedicated to curating, creating, and disseminating information that leads to improved software for computational science and engineering (CSE) and related technical computing areas.
+ 
+The Better Scientific Software (BSSw) team includes both contributors of content as well as the site editors and partners.  
 
-We’re creating a clearinghouse to gather, discuss, and disseminate experiences, techniques, tools, and other resources to improve developer productivity and software sustainability—a key element of overall scientific productivity.  Site users can find information on many scientific software topics and can propose to curate or create new content based on their own experiences.  See [BSSw contributors](https://bssw.io/items/authors) thus far ... And join us!  We invite anyone interested in CSE software to [contribute to the site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software). 
+[Contributors](https://bssw.io/items/authors) to the Better Scientific Software (BSSw) site (representing researchers, practitioners, and stakeholders from throughout the world) are providing information about a wide range of topics related to scientific software productivity and sustainability.  We invite anyone interested in high-quality scientific software to [contribute to the site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).   
 
-We expect all contributors to the Better Scientific Software site to follow a Contributor Code of Conduct, as described in the [BSSw Policies](https://bssw.io/pages/policies).
+A group of editors is committed to seeing that the contributions are published and disseminated in the service of improved software for computational science and engineering (CSE) and related technical computing areas.
 
-## BSSw Senior Editors
+## BSSw Editorial Team
+
+### Senior Editors
 
 Rinku Gupta<br/>
 Title: Editor-in-chief<br/>
@@ -25,7 +28,7 @@ Lois Curfman McInnes<br/>
 Argonne National Laboratory<br/>
 https://github.com/curfman
 
-## BSSw Associate Editors
+### Associate Editors
 
 Roscoe Bartlett<br/>
 Sandia National Laboratories<br/>
@@ -35,24 +38,36 @@ Patricia Grubel<br/>
 Los Alamos National Laboratory<br/>
 https://github.com/pagrubel
 
-Mark Miller<br/>
+Mark C. Miller<br/>
 Lawrence Livermore National Laboratory<br/>
 https://github.com/markcmiller86
 
-Jean Shuler<br/>
-Lawrence Livermore National Laboratory<br/>
-https://github.com/JeanShuler
+Deborah Stevens<br/>
+Argonne National Laboratory<br/>
+https://github.com/haikudeb
 
-Greg Watson<br/>
-Oak Ridge National Laboratory<br/>
-https://github.com/jarrah42
 
-Paul Wolfenbarger<br/>
-Sandia National Laboratories<br/>
-https://github.com/prwolfe
+## Partners
+
+**[Sandbox Studio, Chicago](https://sandboxstudio.net/)** established the BSSw visual brand, website interface design, and website strategy. Sandbox continues to maintain, support, and improve the website experience and site operation. Sandbox Studio is an interactive design, UX, branding, and web development firm.
+
+**[Parallactic Consulting](https://parallactic.com/)** established the custom content management system and GitHub integration developed with Ruby on Rails. Parallactic continues to support, maintain, and improve the site functionality. Parallactic is a small web development & data architecture company.
+
+
+
+## Editorial Team Alumni
+
+**Jean Shuler**, Lawrence Livermore National Laboratory<br/>
+**Greg Watson**, Oak Ridge National Laboratory<br/>
+**Paul Wolfenbarger**, Sandia National Laboratories<br/>
+**Kasia Salim**, Argonne National Laboratory<br/>
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
-BSS Site: About
+BSS Site: Team
 --->
+
+<!--
+Publish: yes
+-->
 

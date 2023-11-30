@@ -5,9 +5,9 @@ In this article we introduce the *machinery* behind the
 HPC Best Practices Webinar Series.
 <!-- deck text end --> 
 
-### Contributed by [Osni Marques](http://github.com/oamarques)
+#### Contributed by [Osni Marques](http://github.com/oamarques)
 
-#### Publication date: July 5, 2020
+#### Publication date: October 25, 2021
 
 Resource information | Details 
 :--- | :--- 
@@ -23,20 +23,18 @@ it is important to follow a (rather large) number of steps to lead a webinar to 
 
 The [Webinar Process](https://github.com/betterscientificsoftware/Webinar-Process) (*How to Produce a Webinar Series*) 
 repository describes the process we follow for the HPC-BP Series. While the series works in concert with
-DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as well as ALCF, NERSC, and OLCF ([DOE computing facilities](https://bssw.io/communities/community-of-supercomputer-facilities-and-their-users)), the process can be 
+DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as well as ALCF, NERSC, and OLCF (DOE computing facilities), the process can be 
 (and has been) refined and adapted as needed, as well as applied to other scenarios. For example, over time we 
 found it necessary to start interacting with speakers earlier, and adjust timelines accordingly.
 
-As of July 2020, the process described in the repository has been successful in delivering 35+ webinars since June 2017, with an average of 73 participants per webinar.
+As of October 2021, the process described in the repository has been successful in delivering 50 webinars since June 2017, with an average of 91 participants per webinar.
+
+*This article was originally published on June 5, 2020.*
 
 #
 <!---
 Publish: yes
-RSS update: 2019-09-26
-Categories: collaboration
+Pinned: no
 Topics: online learning
-Tags:
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+RSS update: 2021-10-25
 --->

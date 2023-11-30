@@ -6,12 +6,12 @@ Research Software Engineer is emerging as a new career track. Several national-l
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug)
 
-#### Publication date: April 05, 2020
+#### Publication date: October 10, 2021
 
 Resource information | Details 
 :--- | :--- 
 Organization type  | National RSE organizations
-Websites  |   US RSE - [The US Research Software Engineer Association](http://us-rse.org)<br> UK RSE - [UK Research Software Engineers Association](http://rse.ac.uk)<br>Germany RSE - [Society for Research Software in Germany](http://de-rse.org)<br> Netherlands RSE - [The Netherlands Research Software Engineer Community](http://nl-rse.org)<br> Nordic RSE - [Nordic Research Software Engineers Community](http://nordic-rse.org)<br>Australia and New Zealand RSE - [RSE Association of Australia and New Zealand](https://rse-aunz.github.io/)
+Websites  |   US RSE - [The US Research Software Engineer Association](http://us-rse.org)<br> UK RSE - [Society of Research Software Engineering](https://society-rse.org)<br>Germany RSE - [Society for Research Software in Germany](http://de-rse.org)<br> Netherlands RSE - [The Netherlands Research Software Engineer Community](http://nl-rse.org)<br> Nordic RSE - [Nordic Research Software Engineers Community](http://nordic-rse.org)<br>Australia and New Zealand RSE - [RSE Association of Australia and New Zealand](https://rse-aunz.github.io/)
 Focus | Careers and Goals
 
 
@@ -19,12 +19,11 @@ High-quality software plays an important role in the progress of research in all
 
 Since the inception of the RSE movement in 2014, several organizations and associations have emerged in Europe and in the USA, with a focus on research software engineers. The table above lists well-known organizations. The website of the UK RSE Association, one of the earliest established associations, contains much valuable information. With the establishment of the US RSE Association, efforts to build a strong RSE community are ramping up in the USA as well.
 
+*This article was originally published on April 5, 2020.*
+
 <!---
 Publish: yes
-Categories: collaboration
-Topics: Projects and organizations
-Tags: organization
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Topics: Projects and organizations, Research Software Engineers
+Pinned: no
+RSS update: 2021-10-10
 --->

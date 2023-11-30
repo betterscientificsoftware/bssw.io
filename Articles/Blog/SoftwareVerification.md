@@ -6,7 +6,7 @@
 
 **Hero Image:**
  
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer.png' />
+- <img src='../../images/Blog_081318_SoftVer.png' />
 
 In the realm of software, verification is often erroneously conflated with testing. In truth, testing is a proper subset of verification for gaining confidence in the correct behavior of one’s software. It is the holistic process by which the developers convince themselves that their software is doing what it was designed to do. In scientific software this could mean verifying the convergence order, numerical stability, and efficacy of the method in the regime of interest over and above testing for expected results.  Note that verification is limited to ensuring that the implementation matches the model specification, not that the model itself matches reality. The latter is normally a part of the validation process.
 
@@ -18,12 +18,12 @@ Many techniques for verification of scientific software come at the problem side
 
 <br> 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_081318_SoftVer_Diag.png' class='page lightbox' />[Figure: Nuclear flame in a controlled model validation simulation]
+<img src='../../images/Blog_081318_SoftVer_Diag.png' class='page lightbox' />[Figure: Nuclear flame in a controlled model validation simulation]
 
 <br> 
 
 ### Resources 
-Furthermore, validation can become a strong component in a good software assurance process. For example, the image above is from a [simulation](http://flash.uchicago.edu/site/gallery) of [FLASH](http://flash.uchicago.edu) performed to validate the model of nuclear flame, which in turn is used in the simulation of supernova explosions. Though direct experimental data is lacking for the behavior of these flames in high-gravity environments, the statistical properties of the flow are known from observations and can be directly compared.  The following links provide more resources and examples of the verification process employed in scientific software.
+Furthermore, validation can become a strong component in a good software assurance process. For example, the image above is from a simulation of [FLASH](https://iopscience.iop.org/article/10.1086/317361) performed to validate the model of nuclear flame, which in turn is used in the simulation of supernova explosions. Though direct experimental data is lacking for the behavior of these flames in high-gravity environments, the statistical properties of the flow are known from observations and can be directly compared.  The following links provide more resources and examples of the verification process employed in scientific software.
 
 <a href="https://figshare.com/articles/Testing_of_HPC_Scientific_Software-_Part_1/6453017" class="link-row">Slides from a tutorial on verification at ISC-2018</a>
 <a href="https://www.youtube.com/watch?v=c3bXqkBgxuI&index=6&list=PLGj2a3KTwhRaRHLBOsXfw_SegaYiDlgiw" class="link-row">Video of a lecture on testing and verification</a>

@@ -10,7 +10,7 @@ The mission of the Sustainable Horizons Institute is to build sustainable, inclu
 
 Advance registration is required through the event website.
 
-#### Contributed by [Mary Ann Leung](https://github.com/shinstitute "Mary Ann Leung GitHub Profile") and [David Sondak](https://github.com/dsondak "David Sondak GitHub Profile")
+#### Contributed by [Mary Ann Leung](https://github.com/maleung "Mary Ann Leung GitHub Profile") and [David Sondak](https://github.com/dsondak "David Sondak GitHub Profile")
 
 #### Publication date: February 01, 2019
 

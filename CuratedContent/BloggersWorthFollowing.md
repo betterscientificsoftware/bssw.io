@@ -1,11 +1,11 @@
-# Scientific Software Bloggers Worth Following
+# Scientific Software Bloggers and Podcasts Worth Following
 
 <!--- deck text start --->
-A number of bloggers write frequently and thoughtfully about issues related to "better scientific software".  You may want to follow some of them.
+There are a number of bloggers and podcasters who frequently and thoughtfully discuss issues related to "better scientific software".  You may want to follow some of them.
 <!--- deck text end --->
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
-#### Publication date: October 16, 2020 
+#### Publication date: February 19, 2021 
 
 ## Daniel S. Katz's Blog
 Resource information | Details
@@ -45,18 +45,64 @@ Resource information | Details
 :--- | :--- 
 Blog Name | Doctor McKayla
 Website | https://www.michaelagreiler.com/all-posts/
+Podcast Name | Software Engineering Unlocked
+Website | https://www.software-engineering-unlocked.com/
 Focus | Software Engineering, Code Review
 
-Michaela Greiler is a consultant who provides training/coaching on software development practices, especially code review.  In addition to her blog, she has a newsletter, a podcast, a YouTube channel, and is writing a book on code review.  She posts regularly.
+Michaela Greiler is a consultant who provides training/coaching on software development practices, especially code review.  In addition to her blog, she has a newsletter, a podcast, a YouTube channel, and is writing a book on code review.  She posts regularly to both the blog and the podcast.
 
-## Who do you follow?
-*Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers you follow regularly on topics related to better scientific software.*
+## Developer Stories
+Resource information | Details
+:--- | :--- 
+Podcast Name | Developer Stories
+Website | https://rseng.github.io/devstories/
+Focus | This podcast aims to look “Behind the Scenes of Tech’s Passion Projects and People.” We want to know your developer story, what you have built, and why.
+
+This podcast, launched by Vanessa Sochat, interviews developers of scientific software.  It was originally called "RSE Stories", but has been rebranded to be more inclusive.
+
+## Code for Thought
+Resource information | Details
+:--- | :--- 
+Podcast Name | Code for Thought
+Website | https://codeforthought.buzzsprout.com/
+Focus | "software engineering, research, and anything in between"
+
+Another podcast originating in the research software engineering community.
+
+## Top 10 Podcasts on Software and Open Research
+Resource information | Details
+:--- | :--- 
+Website | https://www.software.ac.uk/blog/2020-11-27-top-10-podcasts-software-and-open-research
+Focus | A selection of ten podcasts on software and open research topics
+
+This is a meta-recommendation, rather than trying to capture all ten (plus two honorable mentions) here.  The post was published in November 2020 by Patricia Herterich and Sarah Gibson in honor of the UK [Software Sustainability Institute](https://www.software.ac.uk/)'s tenth anniversary.
+
+## Software Sustainability Institute
+Resource information | Details
+:--- | :--- 
+Blog Name | Software and research: the Institute's Blog
+Website | https://www.software.ac.uk/blog
+Focus | Activities of the Software Sustainability Institute
+
+The Software Sustainability Institute (SSI) is a primary nexus of activity around better scientific software in the UK.  The blog is wide-ranging, but often includes the products of "speed blogging" activities at various conferences and workshops, reports from SSI Fellows, and many other topics.
+
+## Joel on Software
+Resource information | Details
+:--- | :---
+Blog Name | Joel on Software
+Website | https://www.joelonsoftware.com/
+Focus | Software development, management, and the Internet
+
+Joel Spolsky has been involved in products such as FogBugz, Trello, Glitch, and Stack Overflow.  Though not a *scientific* software developer, he has a blog dating back to 2000 that includes many insightful articles about software development which are as useful for scientific software developers as others.  Though he is (semi-?) retired and not posting very often these days, many of his more than 1,000 past blog posts offer observations and insights which are as relevant today as when he originally wrote them.
+
+## Whom do you follow?
+*Contribute this article by leaving a [comment](https://bssw.io/contact) to let us know bloggers and podcasts you follow regularly on topics related to better scientific software.*
+
+**Disclaimer:** The views expressed in the blogs and podcasts above are those of the authors.  They do not necessarily reflect the views of editors or sponsors of the BSSw.io site.
 
 <!---
-Publish: preview
+Publish: yes
+Pinned: no
+RSS update: 2021-02-26
 Topics: online learning, software publishing and citation, strategies for more effective teams, software process improvement, reproducibility, software engineering
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

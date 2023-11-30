@@ -1,7 +1,7 @@
 # Better Science through Software Testing
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/blog_hero_high-flux-isotope-reactor_1176_432.png" />[High-flux isotope reactor]
+- <img src="../../images/blog_hero_high-flux-isotope-reactor_1176_432.png" />[High-flux isotope reactor]
 
 #### Contributed by [Tom Evans](https://github.com/tmdelellis "Tom Evans GitHub Profile")
 
@@ -67,7 +67,7 @@ Two methods that we use to help catch defects that occur in code construction
 are unit tests and Design-by-Contract(TM) (DBC).  Used together, these methods
 are effective at catching errors that make their way into code as it is
 written.  These practices provide software verification as close to code
-contruction time as possible.  Thus, the overall cost of the software is reduced.  The webinar "[Managing Defects in HPC
+construction time as possible.  Thus, the overall cost of the software is reduced.  The webinar "[Managing Defects in HPC
 Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar012)" illustrates the processes we use to integrate
 unit testing and DBC into our daily code-development workflow.
 

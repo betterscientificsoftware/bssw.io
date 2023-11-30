@@ -98,7 +98,7 @@ a portion of a [changelog](https://aspect.geodynamics.org/doc/doxygen/changes_cu
 the ASPECT project (Advanced Solver for Problems in Earth's Convection) that is
 updated automatically, whenever new changes are merged into the code.
 
-[A publicly available changelog disseminates important new features, and attributes credit to community contributors.]<img src='https://github.com/betterscientificsoftware/images/raw/master/gassmoeller-blog-changelog.png' class='page lightbox' />
+[A publicly available changelog disseminates important new features, and attributes credit to community contributors.]<img src='../../images/gassmoeller-blog-changelog.png' class='page lightbox' />
 
 Another strategy I encountered and encourage is official recognition, whether as a
 developer/author on the project’s website or inside the repository, or as a

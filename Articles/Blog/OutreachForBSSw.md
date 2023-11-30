@@ -14,7 +14,7 @@ Our objective is to work with as many of the code teams as want our help (some a
 <br>
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_OutreachForBSSw_1250_767.png' class='page' />[Online Outreach for ECP Code Teams and the HPC/CSE Community]
+<img src='../../images/Blog_OutreachForBSSw_1250_767.png' class='page' />[Online Outreach for ECP Code Teams and the HPC/CSE Community]
 
 <br>
 <br>

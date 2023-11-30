@@ -1,0 +1,122 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version:
+  folders:
+
+  - title:
+    output: web
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: web
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: web
+      type: frontmatter
+
+  - title: About us
+    output: web
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web
+      type: homepage
+
+#    - title: Editorial Board Charter
+#      url: /bssw_charter.html
+#      output: web
+
+    - title: Editorial Board Current and Emeritus Members
+      url: /bssw_members.html
+      output: web
+
+    - title: Internal Documents PR Checklist 
+      url: /bssw_intdocs_pr_checklist.html
+      output: web
+
+    - title: Editorial Team Responsibilities
+      url: /bssw_teamresponsibilities.html
+      output: web
+
+  - title: Content Editorial Processes
+    output: web
+    folderitems:
+
+    - title: Curated Content Workflow
+      url: /bssw_curatedworkflow.html
+      output: web
+
+    - title: Blog Workflow
+      url: /bssw_blogworkflow.html
+      output: web
+
+    - title: Event Workflow
+      url: /bssw_eventworkflow.html
+      output: web
+
+  - title: Content Authoring Guidelines
+    output: web
+    folderitems:
+
+    - title: Content Overview
+      url: /bssw_content_overview.html
+      output: web
+
+      subfolders:
+      - title: Content Organization     
+        output: web
+        subfolderitems:
+
+        - title: Content Placement
+          url: /bssw_content_placement.html
+          output: web
+
+        - title: File Naming
+          url: /bssw_file_naming.html
+          output: web
+
+        - title: Adding New Topics
+          url: /bssw_add_new_topics.html
+          output: web
+
+      - title: Content Writing
+        output: web
+        subfolderitems:
+
+        - title: Common Styling Elements
+          url: /bssw_styling_common.html
+          output: web
+
+        - title: Curated Content Styling
+          url: /bssw_styling_curated.html
+          output: web
+
+        - title: Original Article Styling 
+          url: /bssw_styling_originalarticles.html
+          output: web
+
+        - title: Event Styling
+          url: /bssw_styling_event.html
+          output: web
+
+        - title: Metadata Rules
+          url: /bssw_content_metadata.html
+          output: web
+
+    - title: Content PR Checklist
+      url: /bssw_content_pr_checklist.html
+      output: web
+
+    - title: Content Publishing
+      url: /bssw_content_publishing.html
+      output: web
+
+    - title: Guidelines for Blog Articles
+      url: /bssw_author_guidelines_blog.html
+      output: web

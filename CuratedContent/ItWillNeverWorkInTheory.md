@@ -15,7 +15,7 @@ Focus | Software engineering
 
 This slightly old, but interesting blog, titled *[It Will Never Work in Theory](http://neverworkintheory.org/)* is intended to help bridge between software engineering researchers and practitioners building complex software.  Most posts summarize and review papers from the software engineering literature that might be interesting and useful to those who develop CSE software.  The blog is fairly low volume and an easy read. 
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Logo-class-theory.svg' class='logo' />
+<img src='../images/Logo-class-theory.svg' class='logo' />
  
 
 

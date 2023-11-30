@@ -22,7 +22,7 @@ This type of event provides an excellent means of enhancing communication across
 
 <br>
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_ORNLSoftwareExpo_Poster.jpg' class='page' />[Poster session at ORNL Software Expo.] 
+<img src='../../images/Blog_ORNLSoftwareExpo_Poster.jpg' class='page' />[Poster session at ORNL Software Expo.] 
 
 ### LLNL Developer Day
 
@@ -42,8 +42,7 @@ The examples from these two national laboratories provide a common message:
 
 We see this message as an encouragement to other institutions to consider planning similar events and approaches. Software development need not -- indeed should not -- be done in isolation. Sharing ideas and projects can help bridge the gap that may otherwise occur within an institution.
 
-More details about these two events can be found on the [ORNL Software Expo web site](https://www.ornl.gov) and in
-the original [LLNL Developer Day press release](https://computation.llnl.gov/newsroom/second-annual-developer-day-continues-build-success).
+More details about these two events can be found on the [ORNL Software Expo web site](https://www.ornl.gov).
 
 ### Author Bios
 
@@ -57,7 +56,8 @@ the original [LLNL Developer Day press release](https://computation.llnl.gov/new
 
 <a href="https://csmd.ornl.gov/profile/gregory-watson">Gregory Watson</a> is a Senior Research Scientist in the Research Software Engineering Group at Oak Ridge National Laboratory. He completed his Ph.D. in Computer Science in 2000 from Monash University. Dr. Watson's research interests include software engineering practices, development environments, programming tools, and modeling and simulation tools for high performance and scientific computing. He is founder of the <a href="https://eclipse.org/ptp">Eclipse Parallel Tools Platform</a>, and project leader of the <a href="https://science.eclipse.org">Eclipse Science Top Level Project</a>.
 
-<a href="https://computation.llnl.gov/about/our-people/highlights/elsa-gonsiorowski">Elsa Gonsiorowski</a> is an HPC I/O Specialist working at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
+<!--- <a href="https://computation.llnl.gov/about/our-people/highlights/elsa-gonsiorowski">Elsa Gonsiorowski</a> ---> 
+Elsa Gonsiorowski is an HPC I/O Specialist working at Lawrence Livermore National Laboratory. She graduated with her Ph.D. in Computer Science in 2016 from Rensselaer Polytechnic Institute. Elsa works on a number of open source, system software tools to support HPC users as they manage files across an increasingly complex storage hierarchy. She has a passion for useful documentation and CMake.
 
 <!---
 Publish: yes

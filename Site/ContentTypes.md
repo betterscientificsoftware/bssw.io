@@ -78,7 +78,7 @@ for reviewers to review or for readers to later read. It effects the level of
 of the content. This includes review of the content for relevance, tone of
 evaluative statements, the shear length/size of the article, etc.
 
-Low complexity content such as **Events** requires only a basic sanity check
+Low complexity content such as **Events** requires only a basic check
 for review whereas other content such as an original **Article** may require a
 degree of vetting similar to that used for a conference proceedings.
 
@@ -99,7 +99,7 @@ We expect **Event** type to be of low originality, **Curated** low-medium and
 
 ### Quality Objective
 The *quality objective* of a piece of content is a measure of the effort required
-to finaly properly publish the article including whatever special needs it might
+to finally properly publish the article including whatever special needs it might
 have. An example of a higher than normal quality threshold is the article on the
 [Apollo Guidance Computer](../Articles/Blog/ApolloGuidanceComputerPart1.md) which
 required the development of a style for handling footnote references and a script

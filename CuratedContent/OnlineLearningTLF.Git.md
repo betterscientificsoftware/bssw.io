@@ -1,6 +1,6 @@
 # Transmedia Learning Framework for Git and GitHub
 <!-- deck text start --> 
-It is important to undestand Git and GitHub on a base level prior to use. Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
+It is important to understand Git and GitHub on a base level prior to use. Below you will find some resources for a Transmedia Learning Framework for Git and GitHub, with emphasis on use for computational science and high-performance computing. 
 <!-- deck text end --> 
 
 #### Contributed by: [Elaine Raybourn](https://github.com/elaineraybourn)
@@ -30,7 +30,7 @@ Following are some resources for a Transmedia Learning Framework for Git and Git
 
 <!--- browser security problems
 - [GitGame](https://www.git-game.com/)
--The git-game is a terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system. The theme of the game is a scavanger hunt. Using git's commands you find clues that will help you solve the "puzzle". 
+-The git-game is a terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system. The theme of the game is a scavenger hunt. Using git's commands you find clues that will help you solve the "puzzle". 
 --->
 
 <!---

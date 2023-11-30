@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
-- [2019 BSSw Fellows, 2020 BSSw Fellows and 2020 BSSw Honorable Mentions at the Exascale Computing Project Annual Meeting]<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_0720_Fellows.png'/>
+- [2019 BSSw Fellows, 2020 BSSw Fellows and 2020 BSSw Honorable Mentions at the Exascale Computing Project Annual Meeting]<img src='../../images/Blog_0720_Fellows.png'/>
 
 #### Contributed by [Hai Ah Nam](https://github.com/hnamLANL "Hai Ah Nam GitHub Profile"), [Rene Gassmoeller](https://github.com/gassmoeller "Rene Gassmoeller GitHub Profile"), [Ignacio Laguna](https://github.com/ilagunap "Ignacio Laguna GitHub Profile"), [Tanu Malik](https://github.com/TanuMalik "Tanu Malik GitHub Profile"), [Kyle Niemeyer](https://github.com/kyleniemeyer "Kyle Niemeyer GitHub Profile")
 
@@ -11,17 +11,17 @@
 
 BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
-During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of thee scientific sofware lifecycle.  Here's more about what they have been up to.
+During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle.  Here's more about what they have been up to.
 
 ### Fellows guide us through the social challenges of scientific software projects.
 _Social skills matter for the development of user and developer communities._ 
 
-BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about managing the community around a scientific software project. Targeted at current and prospective software maintainers and community leaders, the tutorials teach this knowledge in small modules that are accessible to scientists. Thus, if you are currently leading or maintaining a scientific software project, or thinking about starting one, Rene's guides will help you navigate your scientific software project from inception to long-term sustaintability. Learn more at [HPC Best Practices Webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) and [Scientific Software Projects and their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities).
+BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about managing the community around a scientific software project. Targeted at current and prospective software maintainers and community leaders, the tutorials teach this knowledge in small modules that are accessible to scientists. Thus, if you are currently leading or maintaining a scientific software project, or thinking about starting one, Rene's guides will help you navigate your scientific software project from inception to long-term sustainability. Learn more at [HPC Best Practices Webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) and [Scientific Software Projects and their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities).
 <p>&nbsp;</p>
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_gassmoeller_rene.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_gassmoeller_rene.jpg' class='logo' />
 </div>  
 
 <div class='short_bio'>
@@ -42,7 +42,7 @@ BSSw Fellow Ignacio Laguna developed tutorials on tools to debug and improve the
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_laguna_ignacio.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_laguna_ignacio.jpg' class='logo' />
 </div>  
 
 <div class='short_bio'>
@@ -63,7 +63,7 @@ BSSw Fellow Tanu Malik developed activities to promote and disseminate the conce
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_malik_tanu.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_malik_tanu.jpg' class='logo' />
 </div> 
 
 <div class='short_bio'>
@@ -83,7 +83,7 @@ BSSw Fellow Kyle Niemeyer condensed and focused his 10-week course for Oregon St
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='https://github.com/betterscientificsoftware/images/raw/master/Blog_1218_Fell_niemeyer_kyle.jpg' class='logo' />
+<img src='../../images/Blog_1218_Fell_niemeyer_kyle.jpg' class='logo' />
 </div> 
 
 <div class='short_bio'>
@@ -103,7 +103,7 @@ BSSw Fellows are selected annually based on an application process that includes
 Pictured above are members of the BSSw Fellows community who attended the 2020 Annual Meeting of the DOE Exascale Computing Project. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, and Ivo Jimenez.
 
 ### Author bio
-Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading LANL's Center of Excellence activities, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for advanced HPC architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpcforum2020.alcf.anl.gov/) since 2015.
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory. Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading LANL's Center of Excellence activities, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for advanced HPC architectures. She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpcforum2020.alcf.anl.gov/) since 2015.
 
 
 <!---

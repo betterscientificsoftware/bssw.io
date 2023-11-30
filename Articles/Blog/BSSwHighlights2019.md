@@ -1,7 +1,7 @@
 # Better Scientific Software: 2019 Highlights
 
 **Hero Image:**
-- <img src="https://github.com/betterscientificsoftware/images/raw/master/Blog_0120_Mantage.png" />[2019 Highlights]
+- <img src="../../images/Blog_0120_Mantage.png" />[2019 Highlights]
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
@@ -20,7 +20,7 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 - [A Look into Self-Perceptions about Software Engineering in the Scientific Community](https://bssw.io/items/a-look-into-self-perceptions-about-software-engineering-in-the-scientific-community), Rinku Gupta
 
 ### Better Development:
-- [Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit), Mark Miller and Holly Auten
+- [Continuous Technology Refreshment: An Introduction Using Recent Tech Refresh Experiences on VisIt](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit), Mark C. Miller and Holly Auten
 - [Bloodsuckers, Banshees and Brains: A Bestiary of Scary Software Projects and How to Banish Them](https://bssw.io/blog_posts/bloodsuckers-banshees-and-brains-a-bestiary-of-scary-software-projects-and-how-to-banish-them), Neil Chue Hong and Benjamin Cowan
 - [A Checklist for Better Open Source Libraries](https://bssw.io/items/a-checklist-for-better-open-source-libraries), Mike Heroux
 - [Working Effectively with Legacy Code](https://bssw.io/items/working-effectively-with-legacy-code/), Roscoe Bartlett
@@ -36,9 +36,9 @@ As we stand at the cusp of a new decade, I want to thank the BSSw community, who
 
 ### Better Performance:
 - [Preparing the Next Generation of Supercomputer Users](https://bssw.io/blog_posts/preparing-the-next-generation-of-supercomputer-users), Marta Garcia Martinez
-- [Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap), Mark Miller
-- [Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github),  Mark Miller
-- [Celebrating Apollo's 50th Anniversary: Users' Stories from Space](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space),  Mark Miller
+- [Celebrating Apollo's 50th Anniversary: When 100 FLOPS/Watt Was a Giant Leap](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap), Mark C. Miller
+- [Celebrating Apollo's 50th Anniversary: The Oldest Code on GitHub](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github),  Mark C. Miller
+- [Celebrating Apollo's 50th Anniversary: Users' Stories from Space](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-users-stories-from-space),  Mark C. Miller
 - [Introducing Container Mythbusters](https://bssw.io/items/introducing-container-mythbusters), Patricia Grubel
 
 ### Better Collaboration:

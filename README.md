@@ -10,7 +10,9 @@ This repository provides source material for the Better Scientific Software [BSS
 * **Forking**: This option is like cloning, but works for anyone.  You can make edits to your own forked copy of the repo, either in a browser or from a local repository.  Contributions are submitted to BSSw by using a pull request.
 * **Submit article via Google Form**: For those unfamiliar with GitHub tools and processes, or who simply want to make a quick contribution, we offer a Google Form for submissions.
 
-For details see our [What To Contribute](WhatToContribute.md) and [How To Contribute](HowToContribute.md) pages.
+For details see our [What To Contribute](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software) and [How To Contribute](https://bssw.io/pages/how-to-contribute-content-to-better-scientific-software) pages.
+
+Please note that BSSw.io has a [**Code of Conduct**](Site/Policies.md). By participating in the BSSw.io community, you agree to abide by its guidelines.
 
 <!---
 Publish: no

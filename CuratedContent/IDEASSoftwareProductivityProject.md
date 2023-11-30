@@ -23,15 +23,12 @@ Target readers are all those who care about the quality and integrity of scienti
 
 Sponsored by the U. S. Dept. of Energy
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/IDEAS_logo_small.png' class='logo' />
+<img src='../images/IDEAS_logo_small.png' class='logo' />
 
 
 <!---
 Publish: yes
-Categories: Collaboration
 Topics: Projects and organizations
-Tags: project, organization
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
+RSS update: 2020-02-13
 --->

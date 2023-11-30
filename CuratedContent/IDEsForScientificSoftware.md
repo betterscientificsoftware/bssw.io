@@ -1,6 +1,6 @@
 # An Introduction to Integrated Development Environments (IDEs) for Scientific Software Development
 <!-- deck text start --> 
-Integrated Development Environments (IDEs) are very commonly used in scientific software development. This article talks about some free and commericial IDEs, available for you to use.
+Integrated Development Environments (IDEs) are very commonly used in scientific software development. This article talks about some free and commercial IDEs, available for you to use.
 <!-- deck text end -->
 
 
@@ -165,7 +165,7 @@ The following tables show which IDEs support important features for scientific c
 | XCode             |   Y      |    N               |   Y<sup>2</sup>    |
 | Code::Blocks      |   N      |    N<sup>3</sup>   |   N    |
 
-1. [Requires manual configuration](http://www.frankliuao.com/blogs/how-to-work-with-cmake-and-netbeans-8-2-or-newer-on-os-x/)
+1. [Requires manual configuration](https://www.frankliuao.com/cmake_netbeans/)
 2. Requires 3rd-party plugin
 3. CMake can be used to generate Code::Blocks project files
 

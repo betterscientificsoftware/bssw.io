@@ -1,6 +1,6 @@
 # An Introduction to Computational Science Stack Exchange
 <!--deck text start-->
-Do you work in computational science and need an online forum for asking questions and discusssing scientific computational problems? 
+Do you work in computational science and need an online forum for asking questions and discussing scientific computational problems? 
 <!--deck text end-->
 
 #### Contributed by [David Bernholdt](http://github.com/bernhold)

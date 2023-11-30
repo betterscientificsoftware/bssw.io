@@ -41,9 +41,9 @@ The second sentence uses the `<mark>` tag. The quick brown fox jumps over the la
 
 ### Subhead
 
-- Unorderd list item
-- Unorderd list item
-- Unorderd list item
+- Unordered list item
+- Unordered list item
+- Unordered list item
 
 1. Ordered list item
 2. Ordered list item
@@ -55,9 +55,9 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
-- Unorderd list item
-- Unorderd list item
-- Unorderd list item
+- Unordered list item
+- Unordered list item
+- Unordered list item
 
 
 
@@ -139,12 +139,25 @@ Below are markdwon styles in the blockquote
 
 > The quick brown fox jumps over the *lazy dog*. The **quick brown fox** jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
+## Test of HTML comment handling
+
+HTML comments look like this: `<!-- arbitrary text -->` (which we can see because we marked it up as code)
+
+Comments in regular text <!-- like this --> should be interpreted as comments.  They should be visible in the resulting HTML source, but not in the rendered version.
+
+### Comments after headings <!-- should also be treated like comments -->
+
+There should be some real text here, just for the sake of appearances
+
+### References <!-- sfer_ezikiw -->
+
+But due to a bug they were being rendered as visible text.
 
 ## Test image
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox
 
-<img src='https://github.com/betterscientificsoftware/images/raw/master/use-case-meander.png' class='page lightbox' />
+<img src='../images/use-case-meander.png' class='page lightbox' />
 
 <img src='https://s-media-cache-ak0.pinimg.com/736x/92/9d/3d/929d3d9f76f406b5ac6020323d2d32dc--pretty-cats-beautiful-cats.jpg' class='page lightbox' />
 
@@ -160,20 +173,32 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox
 
+## Test images with relative paths
+These images are referenced using relative URLs.  As of 2021-03, we are transitioning to prefer this approach over using fully qualified URLs.  All img URLs should reference
+the bssw.io/images directory to work nicely with the typical authoring/development setup.  The front-end will translate such references to the images directory into GH URLs so that the content is ultimately served from the GH repo, as we have been doing.
+
+[URL prefix: /images (should work on GH)]<img src='/images/Blog_1119_WorkThankful.jpg' />
+[URL prefix: ../images (should work on GH)]<img src='../images/Blog_1119_WorkThankful.jpg' />
+[URL prefix: ../../images (should *not* work on GH)]<img src='../../images/Blog_1119_WorkThankful.jpg' />
+
+## Test images subdirectories
+The following image calls test subdirectories in the images directory and filename collisions between images and its subdirectories.
+
+[images/cats subdirectory: should be a cat]<img src='../images/cats/cat1.jpg' />
+[images directory: should be the MolSSI logo]<img src='../images/cat1.jpg' />
+
 
 **Subresources:**
 - [Doxygen](DocumentationTools.Doxygen.md)
 - [ReadTheDocs](DocumentationTools.ReadTheDocs.md)
 - [Sphinx](DocumentationTools.Sphinx.md)
 
-#### Contributed by [Parallactic](https://github.com/Parallactic)
-
 
 # the-basics
 
 
 <!---
-Publish: preview
+Publish: no
 Categories: Planning, Reliability
 Topics: testing
 Tags: [import from subresources]

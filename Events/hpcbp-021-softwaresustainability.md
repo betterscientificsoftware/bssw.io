@@ -76,11 +76,7 @@ of software as a research object.</p>
 
 <!---
 Publish: yes
-Categories: skills
-Topics: online learning
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: online learning, Software Sustainability
 --->
 
 
