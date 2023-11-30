@@ -63,10 +63,6 @@ Elsa Gonsiorowski is an HPC I/O Specialist working at Lawrence Livermore Nationa
 Publish: yes
 Track: community
 RSS update: 2018-10-26
-Categories: collaboration
 Topics: projects and organizations, strategies for more effective teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
