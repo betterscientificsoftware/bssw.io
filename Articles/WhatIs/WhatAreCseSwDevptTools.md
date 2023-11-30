@@ -24,10 +24,5 @@ tools can provide better coverage than any manual approach in certain areas, suc
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: development tools
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->
