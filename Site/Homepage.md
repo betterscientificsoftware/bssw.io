@@ -5,8 +5,8 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/Blog_1119_seasonal.png
 Slide1 R: ../Articles/Blog/EditorialThanks-2023.md
-Slide2 L: ../CuratedContent/CuratedContent/SolidDesignPrinciples.md
-Slide2 R: ../CuratedContent/CuratedContent/hpcbp-webinars-cc.md
+Slide2 L: ../CuratedContent/SolidDesignPrinciples.md
+Slide2 R: ../CuratedContent/hpcbp-webinars-cc.md
 Slide3 L: ../CuratedContent/SoftwareSustainabilityMatrix.md
 Slide3 R: ../CuratedContent/ColorOracleTool.md
 Slide4 L: ../Events/hpcbp-081-securesoftware.md
