@@ -77,5 +77,6 @@ As a final note, [Bjarne Stroustrup](https://github.com/BjarneStroustrup), the c
 There is also a [summary](https://thenewstack.io/bjarne-stroustrups-plan-for-bringing-safety-to-c/) of his 1.5 hour presentation.
 
 <!---
+Publish: yes
 Topics: Requirements, Software Engineering, Discussion and Question Sites
 --->
