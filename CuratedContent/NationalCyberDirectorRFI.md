@@ -55,7 +55,7 @@ What does this mean for the future of C++?
 > And, because supply chain security for HPC applications can set different priorities.
 > It is bad because it weakens the case for encouraging anyone to move to a memory safe language merely for the sake of security.
 
-Visiters of the [RFI](https://www.regulations.gov/document/ONCD-2023-0002-0001) page will note about 100 *comments* are available there.
+Visitors to the [RFI](https://www.regulations.gov/document/ONCD-2023-0002-0001) page will note about 100 *comments* are available there.
 In some cases, *comments* are just that...very short remarks from specific individuals.
 In most cases, an industry-leading organization has posted a lengthy response to the RFI as a PDF attachment.
 Among the 100+ responses, there were these from...
