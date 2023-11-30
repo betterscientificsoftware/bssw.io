@@ -37,7 +37,7 @@ What does this mean for the future of C++?
 > It was C++11, 14, 17, and on.
 > We’re talking about *modern* C++.
  
-> It is fair to say that the GPU ecosystem in Rust and Go is seriously lacking in comparison.
+> It is fair to say that the GPU ecosystem in Rust and Go is seriously lacking in comparison, and I don't think the investment in C++ was misplaced.
 > In addition, there is the inertia of games and AI to overcome to get a viable GPU compute ecosystem built in those languages too.
 > Julia has some integration, being a very compute-focused language.
 > However, it remains to be seen if the community will build HPC codes in it...or, if it is as viable for performance portability as C++ has been.
