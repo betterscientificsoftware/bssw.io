@@ -87,5 +87,6 @@ Stefanie Butland is the community manager with rOpenSci. Contact her at stefanie
 
 <!---
 Publish: yes
+Track: community
 Topics: Software Process Improvement, Software Engineering, peer code review, Software Sustainability
 --->

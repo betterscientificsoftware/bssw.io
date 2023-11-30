@@ -72,8 +72,9 @@ Software Development](https://ideas-productivity.org/resources/series/hpc-best-p
 unit testing and DBC into our daily code-development workflow.
 
 <!---
-Featured: 1
 Publish: yes
+Pinned: no
+Track: experience
 Categories: reliability, planning
 Topics: testing, design
 Tags: bssw-blog-article

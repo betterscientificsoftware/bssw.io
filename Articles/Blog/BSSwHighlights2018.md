@@ -52,6 +52,7 @@ David Bernholdt, Mike Heroux, and Lois Curfman McInnes serve as the founding edi
 
 <!---
 Publish: yes
+Track: community
 RSS Update: 2019-01-04
 Categories: collaboration
 Topics: projects and organizations

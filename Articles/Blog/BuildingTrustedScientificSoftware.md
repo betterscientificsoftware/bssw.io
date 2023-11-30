@@ -38,6 +38,7 @@ Future blog posts will further explore these ideas.
 
 <!---
 Publish: yes
+Track: experience
 RSS update: 2018-06-28
 Categories: skills
 Topics: Personal productivity and sustainability
