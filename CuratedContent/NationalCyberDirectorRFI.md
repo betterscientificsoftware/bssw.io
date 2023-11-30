@@ -40,7 +40,7 @@ What does this mean for the future of C++?
 > It is fair to say that the GPU ecosystem in Rust and Go is seriously lacking in comparison, and I don't think the investment in C++ was misplaced.
 > The GPU ecosystem has a lot of momentum from AI and games -- that is a lot of inertia to overcome.
 > Julia has some integration, being a very compute-focused language.
-> However, it remains to be seen if the community will build HPC codes in it...or, if it is as viable for performance portability as C++ has been.
+> It remains to be seen if the community will build HPC codes in it...or, if it is as viable for performance portability as C++ has been.
 
 > Whether the successor to C++, in scientific computing, if there is one, is going to be Julia, Rust, or Go is an open question.
 > The answer depends strongly on what industry does and how well they can make fast, memory-safe alternatives to the algorithms and frameworks such as [RAJA](https://raja.readthedocs.io/en/develop/) or [Kokkos](https://kokkos.github.io) DOE has built in C++.
