@@ -19,6 +19,7 @@ I've written [a blog about this that includes my fellowship application](https:/
 
 <!---
 Publish: Yes
+Track: community
 Featured: 2  
 Categories: collaboration
 Topics: discussion and question sites, projects and organizations
