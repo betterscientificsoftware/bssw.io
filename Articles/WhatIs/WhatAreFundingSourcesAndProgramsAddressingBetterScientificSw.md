@@ -20,10 +20,5 @@ Resources under this topic are pointers to funding agencies and programs that ar
 <!---
 Publish: yes
 Pinned: yes
-Categories: collaboration
 Topics: funding sources and programs
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->
