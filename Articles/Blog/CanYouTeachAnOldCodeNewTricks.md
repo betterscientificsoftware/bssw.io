@@ -38,10 +38,6 @@ Over the years at Los Alamos National Laboratory, we've seen several software qu
 <!---
 Publish: Yes
 Track: experience
-Categories: planning, development
 Topics: design, refactoring, software engineering
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
