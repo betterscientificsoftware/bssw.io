@@ -20,10 +20,5 @@ Also included under the general topic of CSE software distribution are other act
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: release and deployment
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->
