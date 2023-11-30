@@ -23,7 +23,7 @@ What does this mean for the future of C++?
 [Todd Gamblin](https://github.com/tgamblin), an expert on the HPC software ecosystem as well as a studious observer of trends in commercial industry had these remarks about it.
 
 > Commercial developers are shipping major products in these languages (Rust, Go, Julia to a lesser extent).
-> The linux kernel is allowing contributers to code in Rust (and notably NOT in C++).
+> The linux kernel is allowing contributions in Rust (and notably NOT in C++).
 > Oxide computer just shipped an embedded OS written in Rust.
 > crates.io has 130,000 packages.
 > It’s a vibrant ecosystem, and people *are* choosing to do new projects in it *over*, most notably, C++.
