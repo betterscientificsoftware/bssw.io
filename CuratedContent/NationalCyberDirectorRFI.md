@@ -33,7 +33,7 @@ What does this mean for the future of C++?
 > All that being said, the DOE HPC community just spent 7 years developing [GPU computing](https://www.exascaleproject.org) capabilities — across 3 different GPU architectures.
 > That represents a *huge* investment!
 > And, we did that in, mostly, C++.
-> It is worth noting, however, that it was not a restricted C++, though.
+> It is worth noting that it was not the same old C++.
 > It was C++11, 14, 17, and on.
 > We’re talking about *modern* C++.
  
