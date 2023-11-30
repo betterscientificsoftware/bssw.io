@@ -66,5 +66,4 @@ Track: community
 Pinned: no
 Topics: Funding sources and programs, projects and organizations
 RSS update: 2021-08-16
-OpenGraph image: Blog_2108_FellowsAppOpen.png
 --->
