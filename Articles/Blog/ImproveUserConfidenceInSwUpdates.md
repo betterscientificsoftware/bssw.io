@@ -31,10 +31,6 @@ Sources for behavior change may include the following:
 <!---
 Publish: Yes
 Track: deep dive
-Categories: reliability, development
 Topics: testing, reproducibility, documentation
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

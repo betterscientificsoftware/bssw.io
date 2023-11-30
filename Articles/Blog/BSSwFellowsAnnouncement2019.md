@@ -81,10 +81,6 @@ Also, we want and need contributions from the international community for the BS
 Publish: yes
 Track: community
 RSS update: 2018-12-11
-Categories: collaboration
 Topics: projects and organizations
-Tags: bssw-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

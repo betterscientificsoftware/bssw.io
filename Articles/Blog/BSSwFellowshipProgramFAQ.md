@@ -73,10 +73,6 @@ If you have additional questions, please contact us via email to [info@bssw.io](
 <!---
 Publish: yes
 Track: community
-Categories: collaboration
 Topics: discussion and question sites, projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

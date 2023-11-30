@@ -121,11 +121,7 @@ development activities within the Computation department at [LLNL](https://www.l
 Publish: yes
 Track: deep dive
 RSS update: 2019-04-12
-Categories: development
 Topics: revision control, issue tracking, documentation
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 -->
 
