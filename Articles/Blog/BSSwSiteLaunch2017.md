@@ -21,10 +21,6 @@ Also, we're launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw
 <!---
 Publish: Yes
 Track: community
-Categories: collaboration
 Topics: discussion and question sites, projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
