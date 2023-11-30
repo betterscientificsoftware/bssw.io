@@ -79,6 +79,7 @@ Also, we want and need contributions from the international community for the BS
 
 <!---
 Publish: yes
+Track: community
 RSS update: 2018-12-11
 Categories: collaboration
 Topics: projects and organizations
