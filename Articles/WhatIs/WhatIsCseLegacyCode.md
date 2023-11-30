@@ -41,10 +41,5 @@ time for suitable alternatives to develop and become adopted.
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: refactoring
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->
