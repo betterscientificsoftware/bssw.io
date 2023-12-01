@@ -29,9 +29,6 @@ Readers may also be interested in resources at
 
 <!---
 Publish: yes
-Categories: Development, Planning
+Pinned: no
 Topics: Documentation, Revision control, Configuration and builds, Software engineering
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
