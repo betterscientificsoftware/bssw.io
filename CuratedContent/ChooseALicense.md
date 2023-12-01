@@ -20,10 +20,6 @@ This *[Choose a License](https://choosealicense.com/)* website walks you though 
 
 <!---
 Publish: yes
-Categories: collaboration
+Pinned: no
 Topics: licensing
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
