@@ -50,10 +50,7 @@ We look forward to hearing from you!
 <!---
 Publish: yes 
 RSS update: 2018-07-17
-Categories: skills
+Track: community
 Topics: Personal productivity and sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
 --->

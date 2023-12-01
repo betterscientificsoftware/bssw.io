@@ -15,10 +15,7 @@ Consider attending the [Third Conference of Research Software Engineers](https:/
 <!---
 Publish: yes
 RSS update: 2018-06-14
-Categories: development, collaboration
+Track: community
 Topics: software engineering, projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

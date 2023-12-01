@@ -43,11 +43,8 @@ Elaine Raybourn is a social scientist in the Statistics and Human Systems Group 
 <!---
 Publish: yes
 RSS update: 2020-07-30
-Categories: Collaboration
+Pinned: no
+Track: community
 Topics: Strategies for More Effective Teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 SAND #: SAND2020-7868 O
 --->

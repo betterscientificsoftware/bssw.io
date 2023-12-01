@@ -112,10 +112,7 @@ David Bernholdt is a Distinguished R&D Staff Member and Group Leader at Oak Ridg
 <!---
 Publish: yes
 RSS update: 2018-11-08
-Categories: Collaboration
+Track: community
 Topics: projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

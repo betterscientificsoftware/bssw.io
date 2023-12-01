@@ -62,10 +62,7 @@ As mentioned, the HIP ecosystem enables one to compile for both AMD GPUs and NVI
 <!---
 Publish: yes
 RSS Update: 2020-06-26
-Categories: reliability, planning
+Track: experience
 Topics: testing, design
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
