@@ -19,10 +19,6 @@ If you want some practical tips about coding, and enjoy some (salty!) humor and 
 
 <!---
 Publish: no
-Categories: development, planning
+Pinned: no
 Topics: software engineering, design
-Tags:
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
