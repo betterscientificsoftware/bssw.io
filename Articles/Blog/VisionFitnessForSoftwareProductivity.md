@@ -60,10 +60,7 @@ Take frequent breaks to briefly rest your eyes. A common best practice is the [_
 
 <!---
 Publish: Yes
-Categories: skills
+Pinned: no
+Track: how to
 Topics: Personal productivity and sustainability
-Tags: bssw-article
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
