@@ -72,7 +72,9 @@ Among the 100+ responses, there were these from...
 * Google: https://www.regulations.gov/comment/ONCD-2023-0002-0074
 * Consumer Reports: https://www.regulations.gov/comment/ONCD-2023-0002-0060
 
-As a final note, [Bjarne Stroustrup](https://github.com/BjarneStroustrup), the creator of C++, [spoke recently](https://youtu.be/I8UvQKvOSSw?si=mSyWZzAkMOm5EnFR) at Cppcon-23 about bringing Safety to C++.
+Adding memory safety to C++ is a strategy to consider as well.
+See for example the [Teuchos Memory Management classes](https://docs.trilinos.org/dev/packages/teuchos/doc/html/TeuchosMemoryManagementSAND.pdf) developed by researchers at Sandia more than 10 years ago.
+In addition, [Bjarne Stroustrup](https://github.com/BjarneStroustrup), the creator of C++, [spoke recently](https://youtu.be/I8UvQKvOSSw?si=mSyWZzAkMOm5EnFR) at Cppcon-23 about bringing Safety to C++.
 There is also a [summary](https://thenewstack.io/bjarne-stroustrups-plan-for-bringing-safety-to-c/) of his 1.5 hour presentation.
 
 <!---
