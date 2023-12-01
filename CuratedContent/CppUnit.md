@@ -16,10 +16,6 @@ Focus | Software Testing
 
 <!---
 Publish: yes
-Categories: reliability, development
+Pinned: no
 Topics: testing, tools
-Tags: tool
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
