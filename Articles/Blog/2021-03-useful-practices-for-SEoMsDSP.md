@@ -159,6 +159,7 @@ years.  He also tortures local music venue attendees playing bass in rock bands.
 
 <!---
 Publish: yes
+Track: deep dive
 Pinned: no
 Topics: software engineering, Strategies for more effective teams, testing
 RSS update: 2021-02-25
