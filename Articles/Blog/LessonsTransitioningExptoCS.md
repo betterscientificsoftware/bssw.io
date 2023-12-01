@@ -74,6 +74,7 @@ Jared O’Neal is a principal scientific software developer in Argonne National 
 
 <!---
 Publish: yes
+Track: experience
 Pinned: no
 RSS update: 2023-02-09
 Topics: Personal Productivity and Sustainability
