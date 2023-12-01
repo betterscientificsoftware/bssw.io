@@ -58,19 +58,23 @@ What does this mean for the future of C++?
 Visitors to the [RFI](https://www.regulations.gov/document/ONCD-2023-0002-0001) page will note about 100 *comments* are available there.
 In some cases, *comments* are just that...very short remarks from specific individuals.
 In most cases, an industry-leading organization has posted a lengthy response to the RFI as a PDF attachment.
-Among the 100+ responses, there were these from...
+Among the 100+ responses, there were those in the table below worth noting.
 
-* LBNL: https://www.regulations.gov/comment/ONCD-2023-0002-0019
-* LLNL: https://www.regulations.gov/comment/ONCD-2023-0002-0080
-* Rust Foundation: https://www.regulations.gov/comment/ONCD-2023-0002-0045
-* OpenSSF: https://www.regulations.gov/comment/ONCD-2023-0002-0046 
-* GitLab: https://www.regulations.gov/comment/ONCD-2023-0002-0044 
-* HPE: https://www.regulations.gov/comment/ONCD-2023-0002-0029  
-* IBM: https://www.regulations.gov/comment/ONCD-2023-0002-0077
-* AWS: https://www.regulations.gov/comment/ONCD-2023-0002-0082
-* Microsoft: https://www.regulations.gov/comment/ONCD-2023-0002-0019
-* Google: https://www.regulations.gov/comment/ONCD-2023-0002-0074
-* Consumer Reports: https://www.regulations.gov/comment/ONCD-2023-0002-0060
+&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;
+--- | --- | --- | --- | ---
+[LBNL]|[LLNL]|[Rust]|[OpenSSF]|[GitLab]
+[HPE]|[IBM]|[AWS]|[Microsoft]|[Google]|
+
+[LBNL]: https://www.regulations.gov/comment/ONCD-2023-0002-0019
+[LLNL]: https://www.regulations.gov/comment/ONCD-2023-0002-0080
+[Rust]: https://www.regulations.gov/comment/ONCD-2023-0002-0045
+[OpenSSF]: https://www.regulations.gov/comment/ONCD-2023-0002-0046 
+[GitLab]: https://www.regulations.gov/comment/ONCD-2023-0002-0044 
+[HPE]: https://www.regulations.gov/comment/ONCD-2023-0002-0029  
+[IBM]: https://www.regulations.gov/comment/ONCD-2023-0002-0077
+[AWS]: https://www.regulations.gov/comment/ONCD-2023-0002-0082
+[Microsoft]: https://www.regulations.gov/comment/ONCD-2023-0002-0019
+[Google]: https://www.regulations.gov/comment/ONCD-2023-0002-0074
 
 Adding memory safety to C++ is a strategy to consider as well.
 See for example the [Teuchos Memory Management classes](https://docs.trilinos.org/dev/packages/teuchos/doc/html/TeuchosMemoryManagementSAND.pdf) developed by [Ross Bartlet](https://github.com/bartlettroscoe) at Sandia more than 10 years ago.
