@@ -96,12 +96,9 @@ Image copyright source info…
 <!---
 Publish: yes
 RSS update: 2019-07-29
-Categories: Planning, Reliability
+Track: how to
 Topics: design, testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
 
 <br>
