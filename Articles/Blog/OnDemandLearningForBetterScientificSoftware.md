@@ -58,12 +58,9 @@ I’ve provided guidelines and a transmedia learning framework (TLF) for content
 
 <!---
 Publish: yes
-Categories: skills
+Track: how to
 Topics: online learning, personal productivity and sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 RSS update: June 1, 2018
 SAND #: SAND2018-5878 O
 --->
