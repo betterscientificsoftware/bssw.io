@@ -23,10 +23,6 @@ Contributor agreements are a way of managing a variety of legal issues associate
 
 <!---
 Publish: yes
-Categories: collaboration
+Pinned: no
 Topics: licensing
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

@@ -21,12 +21,7 @@ The [*2020 Collegeville Workshop on Scientific Software*](https://collegeville.g
 
 <!---
 Publish: yes
-Publication date: 2020-07-30
 RSS update: 2020-07-30
-Categories: planning, reliability, collaboration
+Pinned: no
 Topics: software engineering, testing, projects and organizations
-Tags: workshop-series
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

@@ -19,10 +19,6 @@ In recent years, community members have established a range of grass-roots organ
 <!---
 Publish: yes
 RSS update: 2018-12-17
-Categories: collaboration
+Pinned: no
 Topics: projects and organizations
-Tags: paper
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

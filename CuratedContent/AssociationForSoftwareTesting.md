@@ -27,10 +27,6 @@ The *[Association for Software Testing (AST)](https://www.associationforsoftware
 
 <!---
 Publish: yes
-Categories: collaboration
 Topics: Projects and organizations
-Tags: organization
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
 --->
