@@ -24,5 +24,6 @@ This article is probably one of the best and most detailed description of the AG
 Publish: yes
 Categories: performance, planning
 Topics: design, performance portability
+Pinned: no
 --->
 
