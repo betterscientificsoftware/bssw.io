@@ -25,10 +25,6 @@ Focus | Git code management, Code collaboration
 
 <!---
 Publish: yes
-Categories: development
+Pinned: no
 Topics: revision control
-Tags: tool
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
