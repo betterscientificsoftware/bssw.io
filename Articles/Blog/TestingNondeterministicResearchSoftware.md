@@ -57,10 +57,7 @@ Nasir Eisty is an assistant professor in the Computer Science and Software Engin
 <!---
 Publish: yes
 RSS update: 2020-10-13
-Categories: Reliability
+Track: how to
 Topics: Testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
