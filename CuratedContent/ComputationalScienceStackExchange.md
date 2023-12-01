@@ -24,10 +24,6 @@ This *Stack Exchange* site covers computational science in general.  Most of the
 
 <!---
 Publish: yes
-Categories: Collaboration
+Pinned: no
 Topics: Discussion and question sites
-Tags: website, service
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
