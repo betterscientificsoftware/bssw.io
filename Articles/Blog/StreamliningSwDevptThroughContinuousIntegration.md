@@ -45,12 +45,9 @@ Glenn is a computational geohydrologist and one of the principal developers of P
 <!---
 Publish: yes
 RSS update: 2019-04-26
-Categories: reliability, development
+Track: experience
 Topics: testing, continuous integration testing, documentation
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 ---!>
 
 <!---
