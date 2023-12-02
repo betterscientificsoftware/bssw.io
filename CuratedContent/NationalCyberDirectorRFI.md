@@ -15,8 +15,8 @@ Focus | US Federal Government RFI for Advancing Memory Safe Languages in Open So
 The [National Cybersecurity Strategy](https://www.whitehouse.gov/wp-content/uploads/2023/03/National-Cybersecurity-Strategy-2023.pdf) from the Office of the National Cyber Director (ONCD) has established an Open-Source Software Security Initiative (OS3I) to champion the adoption of memory safe programming languages (e.g. [Rust](https://foundation.rust-lang.org), [Go](https://go.dev), [Julia](https://julialang.org)) and open-source software security.
 
 A recent [Request for Information (RFI)](https://www.regulations.gov/document/ONCD-2023-0002-0001) aimed at furthering the work of OS3I by identifying areas most appropriate to focus government priorities, and addressing critical questions was made.
-112 organizations and individual experts responded to the RFI.
-These included several DOE labs and a number of major commercial technology companies.
+More than 100 organizations and individual experts responded to the RFI.
+This included some DOE labs and a number of major commercial technology companies.
 
 What does this mean for the future of C++?
 
