@@ -4,7 +4,7 @@ Does C++ have a future in OS3I?
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: December 1, 2023
+#### Publication date: December 5, 2023
 
 Resource information | Details 
 :--- | :--- 
@@ -84,4 +84,6 @@ There is also a [summary](https://thenewstack.io/bjarne-stroustrups-plan-for-bri
 <!---
 Publish: yes
 Topics: Requirements, Software Engineering, Discussion and Question Sites
+Pinned: no
+RSS update: 2023-12-05
 --->
