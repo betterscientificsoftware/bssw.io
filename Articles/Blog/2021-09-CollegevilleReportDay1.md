@@ -61,6 +61,7 @@ Part 1 | [Part 2](https://bssw.io/blog_posts/software-team-experiences-and-chall
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: software process improvement, software engineering, projects and organizations, strategies for more effective teams, conferences and workshops
 RSS update: 2021-09-20

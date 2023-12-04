@@ -55,6 +55,7 @@ The workshop organizers and authors of this article thank all participants for c
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: software process improvement, software engineering, projects and organizations, strategies for more effective teams, conferences and workshops
 RSS update: 2021-11-03

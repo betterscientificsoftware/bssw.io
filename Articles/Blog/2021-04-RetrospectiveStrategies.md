@@ -34,6 +34,7 @@ Lina Sorg is the managing editor of [SIAM News](https://www.siam.org/publication
 
 <!---
 Publish: yes
+Track: deep dive
 Pinned: no
 Topics: strategies for more effective teams, conferences and workshops
 RSS update: 2021-04-27

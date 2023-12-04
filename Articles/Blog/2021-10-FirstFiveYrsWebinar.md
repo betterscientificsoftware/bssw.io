@@ -30,6 +30,7 @@ David E. Bernholdt is the Outreach Lead for the IDEAS-ECP project and one of the
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: Projects and organizations, Software engineering
 RSS update: 2021-10-26
