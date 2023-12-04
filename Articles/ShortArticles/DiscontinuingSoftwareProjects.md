@@ -5,11 +5,11 @@ A software (research) project can be discontinued in a way that allows stakehold
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: November 24, 2023
+#### Publication date: December 4, 2023
 
 High Performance Computing (HPC) / Computational Science and Engineering (CSE) software projects involve at least two kinds of *deep* knowledge.
 One is the computational science the software aims to enable.
-The other is the computer science (aka software engineering) involved in designing, developing, deploying and supporting the software for users.
+The other is the computer science (aka software engineering) involved in designing, developing, deploying, and supporting the software for users.
 
 Because the ultimate goal of most HPC/CSE projects is the advancement of the underlying science, publications concerning the computational science knowledge are often the priority.
 When such a project ends, the primary risk of computational science knowledge loss involves reproducibility.
@@ -98,7 +98,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
 
 ### Present or publish
 
-   Try to get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where you can write in more detail about the computer science known-how.
+   Try to get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where one can write in more detail about the computer science known-how.
    Often case-studies and lessons learned are good candidate topical areas for a piece of literature focusing on the computer science aspects of the project.
    Published research papers, technical reports, or white papers that discuss the project's methodologies, challenges, and outcomes are a great way to capture the computer science knowledge of a project.
 
@@ -129,8 +129,8 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
 ### Communications
 
    The decision to discontinue a project needs to be communicated as soon as possible to all stakeholders.
-   Whenever possible, be open and honest about the reasons and express gratitude to for contributor's efforts.
-   The sooner existing users can be notified that the software is losing support, the more time they will have to consider what to do.
+   Whenever possible, be open and honest about the reasons and express gratitude to, for contributor's efforts.
+   The sooner existing users are notified that the software is losing support, the more time they will have to consider what to do.
 
    One of the first things to decide is whether future project *communications* will go on some form of life-support or be discontinued entirely.
    Having life-support communications is obviously preferred but it comes at some non-zero cost and so may not be practical in all cases.
@@ -143,7 +143,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
    For projects for which decent alternative software products exist, ensure users are aware of these alternatives.
 
-### What about reprodicubility?
+### What about reproducibility?
 
 In this article, we have set aside the issue of reproducibility and the impact discontinuing a project can have on reproducibility.
 That is not because we do not think reproducibility is important.
@@ -163,6 +163,8 @@ By following many of the suggested actions in this article, a project can be eff
 
 <!---
 Publish: yes
+Track: deep dive
 Pinned: no
 Topics: projects and organizations, funding sources and programs, reproducibility, software sustainability
+RSS updaate: 2023-12-04
 --->
