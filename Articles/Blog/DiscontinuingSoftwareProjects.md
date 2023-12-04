@@ -161,6 +161,17 @@ Important aspects of that knowledge is often at risk of being lost when a projec
 
 By following many of the suggested actions in this article, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science knowledge as possible for posterity.
 
+### Author bio
+
+Mark C. Miller is a computer scientist supporting the
+[WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
+program at [LLNL](https://www.llnl.gov) since 1995.
+Among other things, he contributes to
+[VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
+[Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
+[HDF5](https://www.hdfgroup.org) and
+[IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
+
 <!---
 Publish: yes
 Track: deep dive
