@@ -174,7 +174,7 @@ Among other things, he contributes to
 
 <!---
 Publish: yes
-Track: deep dive
+Track: how to
 Pinned: no
 Topics: projects and organizations, funding sources and programs, reproducibility, software sustainability
 RSS updaate: 2023-12-04
