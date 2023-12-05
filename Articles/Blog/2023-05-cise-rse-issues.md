@@ -42,6 +42,7 @@ Irina Tezaur is a distinguished member of technical staff in the Quantitative Mo
 
 <!---
 Publish: yes
+Track: community
 Topics: "research software engineers"
 Track: Community
 --->

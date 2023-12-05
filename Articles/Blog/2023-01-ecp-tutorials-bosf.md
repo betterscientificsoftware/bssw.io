@@ -32,6 +32,7 @@ The Exascale Computing Project is offering 60 different tutorials and BoFs for p
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: online learning, conferences and workshops
 --->

@@ -300,6 +300,7 @@ Urbana-Champaign and a Diplom in Mathematics from Bochum University in Germany.
 
 <!---
 Publish: yes
+Track: community
 Topics: strategies for more effective teams
 --->
 

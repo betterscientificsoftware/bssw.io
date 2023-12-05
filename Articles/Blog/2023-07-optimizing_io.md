@@ -45,6 +45,7 @@ This work was supported by the Better Scientific Software Fellowship Program, fu
 
 <!---
 Publish: yes
+Track: deep dive
 Topics: performance, high-performance computing (HPC)
 Track: How to
 --->

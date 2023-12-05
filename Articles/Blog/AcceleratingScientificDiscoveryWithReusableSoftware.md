@@ -24,6 +24,7 @@ Please contact the guest editors at <cise2-2019@computer.org> with any questions
 
 <!---
 Publish: Yes
+Track: community
 Categories: collaboration
 Topics: software publishing and citation, projects and organizations
 Tags: bssw-blog-article
