@@ -118,5 +118,6 @@ Ian Cosden is the Senior Director of Research Software Engineering in the Resear
 
 <!---
 Publish: Yes
+Track: community
 Topics: "projects and organizations", "in-person learning", "online learning", "research software engineers"
 --->

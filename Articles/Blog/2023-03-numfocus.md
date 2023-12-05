@@ -62,6 +62,7 @@ Andy R. Terrel was on the NumFOCUS Board of Directors from 2012 to 2021 and serv
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: projects and organizations, funding sources and programs
 --->

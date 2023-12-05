@@ -42,6 +42,7 @@ Come join us at <https://gitlab.com/git-stories>! Everyone is welcome to use the
 Amy Roberts is an assistant professor of physics at the University of Colorado Denver, where she leads a research group focused on dark matter detection. She searches for dark matter signals and works to build accessible computing ecosystems. Amy also serves as an editor for the Journal of Open Source Software and believes that complete, usable software infrastructure — together with accessible training and documentation — are necessary for a successful and equitable scientific community.
 <!---
 Publish: yes
+Track: experience
 Pinned: no
 Topics: online learning, revision control
 --->

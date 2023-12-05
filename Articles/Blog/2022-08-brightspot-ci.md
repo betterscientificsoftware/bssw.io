@@ -78,5 +78,6 @@ The idea and form of the Bright Spot series was shaped by the [IDEAS-ECP](https:
 
 <!---
 Publish: yes
+Track: experience
 Topics: Continuous integration testing
 --->
