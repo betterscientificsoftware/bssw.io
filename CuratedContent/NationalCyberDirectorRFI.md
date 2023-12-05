@@ -73,7 +73,7 @@ Among the 100+ responses, there were those in the table below worth noting.
 [HPE]: https://www.regulations.gov/comment/ONCD-2023-0002-0029  
 [IBM]: https://www.regulations.gov/comment/ONCD-2023-0002-0077
 [AWS]: https://www.regulations.gov/comment/ONCD-2023-0002-0082
-[Microsoft]: https://www.regulations.gov/comment/ONCD-2023-0002-0019
+[Microsoft]: https://www.regulations.gov/comment/ONCD-2023-0002-0071
 [Google]: https://www.regulations.gov/comment/ONCD-2023-0002-0074
 
 Adding memory safety to C++ is a strategy to consider as well.
