@@ -1,8 +1,8 @@
 **Year:** 2024
 
-**Name:** Johannes Doerfert
+**Name:** David Bunten
 
-**Affiliation:** Lawrence Livermore National Laboratory
+**Affiliation:** University of Colorado, Denter
 
 **Image:** /images/People_DoerfertJohannes_F.png
 
