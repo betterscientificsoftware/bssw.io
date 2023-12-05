@@ -1,8 +1,8 @@
 **Year:** 2024
 
-**Name:** Nicole Brewer 
+**Name:** Dorota Jarecka 
 
-**Affiliation:** Arizona State University
+**Affiliation:** MIT McGovern Institute for Brain Research
 
 **Image:** /images/People_BrewerNicole_F.png
 
