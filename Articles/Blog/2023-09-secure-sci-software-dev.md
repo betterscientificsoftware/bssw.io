@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/Blog_2312_Security.png' />
+ - <img src='../../images/Blog_2312_SecurityB.png' />
 
 #### Contributed by [Nitin Sukhija](https://www.linkedin.com/in/nitin-sukhija-a36882b6/)
 
