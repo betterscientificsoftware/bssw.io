@@ -2,7 +2,7 @@
 
 **Name:** Antigoni Georgiadou
 
-**Image:** /images/People_QiushengWu_v2.jpg
+**Image:** /images/People-2024-HM-Georgiadou.jpg
 
 **Affiliation:** Oak Ridge National Laboratory
 

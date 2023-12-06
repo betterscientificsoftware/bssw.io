@@ -2,7 +2,7 @@
 
 **Name:** Jack Marquez
 
-**Image:** /images/People_NeemanAlisa_HM.png
+**Image:** /images/People-2024-HM-Marquez.jpg
 
 **Affiliation:** University of Tennessee, Knoxville
 
