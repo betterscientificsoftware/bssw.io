@@ -16,7 +16,7 @@ Often for scientific software development, design priorities such as cost, speed
 
 Our recommended best practices and tools for secure scientific software development include components for evaluating design practices to create secure software, descriptions of appropriate software processes for managing secure software, threat modeling, and quality assurance testing using both static and dynamic analysis tools. The goal of secure scientific software development is to enable researchers to analyze the security of scientific software using threat models such as [DREAD](https://en.wikipedia.org/wiki/DREAD_(risk_assessment_model)) and [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)), which aid in identifying risks that can cost an organization thousands of dollars when patching vulnerabilities stemming from unsecured code. Developers should also gain hands-on experience with techniques for penetration testing tools to mitigate threats such as loss of business and sensitive information that arise from potential vulnerabilities in various domains. The information shared in the following sections will provide a process for community members to develop secure and trustworthy scientific software (shown in Figure 1).
 
-<img src='../../images/Blog_2312_Security_Chart.png' class='page' />[Figure 1. Secure Software Development Lifecycle.]
+<img src='../../images/Blog_2312_Security_ChartB.png' class='page' />[Figure 1. Secure Software Development Lifecycle.]
 
 ### Secure scientific software development
 
