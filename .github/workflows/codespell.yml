@@ -1,0 +1,66 @@
+name: BSSw.io Codespell
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  codespell-source:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Print GitHub Actions Environment Variables
+        run: |
+          set | grep "^GITHUB_"
+
+      - name: Update OS
+        run: |
+          sudo apt-get update -y
+      - name: Install packages
+        run: |
+          sudo apt-get install -y codespell
+
+      - name: Run Codespell on source code
+        run: |
+          codespell
+
+  codespell-commit-messages:
+    runs-on: ubuntu-latest
+
+    if: github.event.pull_request != null
+
+    steps:
+      - name: PR commits + 1
+        run: echo "PR_FETCH_DEPTH=$(( ${{ github.event.pull_request.commits }} + 1 ))" >> "${GITHUB_ENV}"
+
+      - name: Checkout PR branch
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: ${{ env.PR_FETCH_DEPTH }}
+
+      - name: Fetch base ref
+        run: |
+          git fetch origin ${{ github.event.pull_request.base.sha }}
+
+      - name: Print GitHub Actions Environment Variables
+        run: |
+          set | grep "^GITHUB_"
+
+      - name: Update OS
+        run: |
+          sudo apt-get update -y
+      - name: Install packages
+        run: |
+          sudo apt-get install -y codespell
+
+      - name: Run Codespell on commit messages
+        run: |
+          result=0
+          for commit in $(git rev-list HEAD ^${{ github.event.pull_request.base.sha }}); do
+            echo "Running codespell on commit message of $commit..."
+            git show --format=%B -s "$commit" | codespell - || result=1
+          done
+          exit $result
