@@ -38,7 +38,7 @@ Additional information about software development models, threat modeling method
 
 ### Author bio
 
-Nitin Sukhija is an associate professor in the department of computer science and director of the Center for Cybersecurity and Advanced Computing (C2AC) at Slippery Rock University of Pennsylvania. He has been involved in the research and management of various projects pertaining to the security and software challenges in industry and academia for over a decade. His research aims to address the threats to confidentiality, integrity, and availability in high-performance computing (HPC) environments and to discover solutions that utilize the power of the HPC environments to study and understand the multifaceted complexities and anomalous characteristics, and also includes the modeling and simulation of complex technical, organizational, and human systems instrumental in providing security and trust.
+Nitin Sukhija is an associate professor in the department of Computer Science and director of the Center for Cybersecurity and Advanced Computing (C2AC) at Slippery Rock University of Pennsylvania. He has been involved in the research and management of various projects pertaining to the security and software challenges in industry and academia for over a decade. His research aims to address the threats to confidentiality, integrity, and availability in high-performance computing (HPC) environments and to discover solutions that utilize the power of the HPC environments to study and understand the multifaceted complexities and anomalous characteristics, and also includes the modeling and simulation of complex technical, organizational, and human systems instrumental in providing security and trust.
 
 <!---
 Publish: yes
