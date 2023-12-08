@@ -6,7 +6,7 @@
 
 **Image:** /images/People-2024-F-Richard.png
 
-**URL:**
+**URL:** https://rmrresearch.github.io/
 
 **LinkedIn:**
 

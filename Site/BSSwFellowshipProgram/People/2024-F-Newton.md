@@ -8,7 +8,7 @@
 
 **URL:** https://small0live.github.io
 
-**LinkedIn:**
+**LinkedIn:** https://www.linkedin.com/in/olivia-b-newton/
 
 **Github:** https://github.com/small0live
 
