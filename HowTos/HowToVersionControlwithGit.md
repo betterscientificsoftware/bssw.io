@@ -1,17 +1,12 @@
-<div align="center">
-  
-# ![HOW-TO](ideas-how-to.jpg)
-# How to do Version Control with Git in your CSE Project 
-####  The IDEAS Scientific Software Productivity Project 
-##### [ideas-productivity.org/resources/howtos/](https://ideas-productivity.org/resources/howtos/)
+# Version Control with Git in CSE Projects
+
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-</div>
+#### Publication Date: August 6, 2019
 
-
-
-*The short document "How to do Version Control with Git in your CSE Project" provides an overview of the usage of Git for a CSE project (but is also applicable to other types of projects). Topics covered include basic git setup, tips on learning git, basic tips for using git, and git workflow building blocks.*
-
+<!-- deck text start -->
+*This article provides an overview of the usage of Git for a CSE project (but is also applicable to other types of projects). Topics covered include basic git setup, tips on learning git, basic tips for using git, and git workflow building blocks.*
+<!-- deck text end -->
 
 ### Overview
 The distributed version control system Git can be used to establish effective development and integration processes. Achieving this objective requires a basic understanding of Git usage and development workflows.
@@ -23,7 +18,7 @@ CSE software project leaders and developers who would like to adopt an appropria
 Describe the basic setup and usage of Git, and outline the different basic building blocks for constructing effective workflows for single software source Git repositories.
 
 ### Prerequisites
-First read the document [What Is Version Control](https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-VCWhatIsVersionControl-V0.1.pdf).
+First read the document [What Is Version Control](HowTos/WhatIsVersionControl.md).
 
 ### Basic Git Setup
 Before using Git on a new machine, perform the following minimal setup:
@@ -97,19 +92,24 @@ developers are Git savvy and the project’s challenges justify its usage.
 
 ### Notes
 
-[1] Roscoe Bartlett. Critical Beginner Git Usage Tips.
+1. Roscoe Bartlett. Critical Beginner Git Usage Tips.
 https://bssw.io/items/critical-beginner-git-usage-tips
-[2] Roscoe Bartlett. Git Tutorial and Reference Collection. https://bssw.io/items/a-tutorial-and-reference-collection-for-git
-[3] Udacity. How to Use Git and GitHub. https://www.udacity.com/course/how-to-use-git-and-github--ud775
-[4] Roscoe Bartlett. Design Patterns for Incrementally Expanding Git Workflows for Research-Based
+2. Roscoe Bartlett. Git Tutorial and Reference Collection. https://bssw.io/items/a-tutorial-and-reference-collection-for-git
+3. Udacity. How to Use Git and GitHub. https://www.udacity.com/course/how-to-use-git-and-github--ud775
+4. Roscoe Bartlett. Design Patterns for Incrementally Expanding Git Workflows for Research-Based
 Projects. IDEAS Scientific Software Productivity Project. To be published.
 https://docs.google.com/document/d/1uVQYI2cmNx09fDkHDA136yqDTqayhxqfvjFiuUue7wo
-[5] gitworkflows(7) - An overview of recommended workflows with Git,
+5. gitworkflows(7) - An overview of recommended workflows with Git,
 https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html
-[6] Chris Beams, How to Write a Git Commit Message, http://chris.beams.io/posts/git-commit/
+6. Chris Beams, How to Write a Git Commit Message, http://chris.beams.io/posts/git-commit/
 
-*This document was prepared by Roscoe A. Bartlett with key contributions from James M. Willenbring, Michael
-A. Heroux and Todd Gamblin.*
+This document was prepared with input from James M. Willenbring, Michael A. Heroux and Todd Gamblin.
 
 *This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
 Computing Research and Biological and Environmental Research programs.*
+
+<!---
+Publish: yes
+Topics: Revision Control
+Track: deep dive
+--->
