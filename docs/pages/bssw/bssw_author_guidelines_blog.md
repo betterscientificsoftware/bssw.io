@@ -5,6 +5,7 @@ permalink: bssw_author_guidelines_blog.html
 ---
 ## Submission and Publication
 
+* By making a submission here, you agree to [BSSw.io content licensing terms](https://github.com/betterscientificsoftware/bssw.io/blob/main/TERMS.md).
 * Blog articles appear here: <https://bssw.io/blog_posts> and are also announced in the monthly BSSw email digest (<https://bssw.io/pages/receive-our-email-digest>).  You are certainly welcome to draw attention to your article through social media and other opportunities.
 * The BSSw site is backended by a GitHub repository, and articles are produced in Markdown.  If you're comfortable with git and GitHub, feel free to give us a pull request with the draft of your article.
   - A skeleton blog article that you can copy and customize is: <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/main/Articles/Blog/BlogArticleSkeletonA.md>
