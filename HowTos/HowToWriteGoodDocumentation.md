@@ -1,13 +1,12 @@
-<div align="center">
-  
-# How to Write Good Documentation for CSE Software
-####  The IDEAS Scientific Software Productivity Project 
-##### [ideas-productivity.org/resources/howtos/](https://ideas-productivity.org/resources/howtos/)
+# Writing Good Documentation for CSE Software
+
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
-</div>
+#### Publication Date: August 6, 2019
 
-*Good documentation is essential for several reasons including information about where to and how to use the software, its range of validity. This HowTo doc provides guidelines for producing documentation that would help serve these and other sustainability goals of the software.*
+<!-- deck text start -->
+*Good documentation is essential for several reasons including information about where to and how to use the software, its range of validity. This article provides guidelines for producing documentation that would help serve these and other sustainability goals of the software.*
+<!-- deck text end -->
 
 Determining the right amount of documentation is the first step to producing good documentation. The second step is to prioritize the types and extent of each type that is optimal for the team. And the third and final step is to provide the right set of incentives to the team. The following steps outline one possible approach. Note that other approaches may work for different teams; this outline is intended as an example rather than as a prescriptive solution. 
 
@@ -46,6 +45,13 @@ Use of literate programming is a really good way to produce user level documenta
 ### References
 [1] http://martinfowler.com/bliki/TechnicalDebt.html
 
-*This document was prepared by Anshu Dubey with key contributions from Roscoe A. Bartlett, Barry Smith, and Jeffrey Johnson.*
+This document was prepared with input from Roscoe A. Bartlett, Barry Smith, and Jeffrey Johnson.
 
 *This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.*
+
+<!---
+Publish: yes
+Topics: Documentation
+Track: How to
+--->
+
