@@ -1,14 +1,10 @@
-<div align="center">
-  
-# ![HOW-TO](ideas-how-to.jpg)
 # How to Improve Testing for CSE Software
-####  The IDEAS Scientific Software Productivity Project 
-##### [ideas-productivity.org/resources/howtos/](https://ideas-productivity.org/resources/howtos/)
-#### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
-</div>
+#### Contributed by [Ulrike Yang](https://github.com/ulrikeyang)
 
-*Software requires regular extensive testing to ensure correctly functioning code. This HowTo doc provides basic information on CSE software testing.*
+<!-- deck text start -->
+Software requires regular extensive testing to ensure correctly functioning code. This article provides basic information on CSE software testing.
+<!-- deck text end -->
 
 ### Overview
 Adding tests of sufficient coverage and quality improves confidence in software and makes it easier to change and extend. Tests should be added to existing code before the code is changed. Tests should be added to new code before (or while) it is being written. These tests then become the foundation of a regression test suite that helps effectively drive future
@@ -66,13 +62,20 @@ A: This avoids expensive debugging and other investigations needed to determine 
 
 ### References:
 
-[1] Feathers, Michael. Working Effectively with Legacy Code. Prentice Hall, 2005
-[2] Legacy Software Change Algorithm: http://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm
-[3] Beck, Kent. Test Driven Development. Addison Wesley, 2003
-[4] McConnell, Steve. Code Complete (Second Edition). Microsoft Press, 2004
+1. Feathers, Michael. Working Effectively with Legacy Code. Prentice Hall, 2005
+2. Legacy Software Change Algorithm: http://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm
+3. Beck, Kent. Test Driven Development. Addison Wesley, 2003
+4. McConnell, Steve. Code Complete (Second Edition). Microsoft Press, 2004
 
-*This document was prepared by Ulrike Yang, Roscoe A. Bartlett, Glenn Hammond, Xiaoye Li, Barry Smith,
-and James M. Willenbring.*
+This document was prepared with input from Roscoe A. Bartlett, Glenn Hammond, Xiaoye Li, Barry Smith,
+and James M. Willenbring.
 
 *This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
 Computing Research and Biological and Environmental Research programs.*
+
+<!---
+Publish: yes
+Topics: Testing
+Track: How to
+--->
+
