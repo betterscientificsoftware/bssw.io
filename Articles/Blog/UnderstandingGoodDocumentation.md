@@ -11,9 +11,9 @@ Scientific software documentation is vital, preventing user frustration, inaccur
 In software development, documentation is indispensable, serving as a critical pillar. It aids in design, functionality, usage, and maintenance, ensuring the longevity of the software. Code projects lacking adequate documentation face numerous challenges. This article discusses the importance and various categories of documentation in scientific computing.
 
 Software documentation is essential for three reasons:
-  1. To identify the purpose and role of the software and its requirements
-  2. To clarify what each component does, what is needed in order to maintain it, and how (or whether) it can be reused elsewhere
-  3. To provide user support and thus minimize unnecessary handholding of users
+  * To identify the purpose and role of the software and its requirements
+  * To clarify what each component does, what is needed in order to maintain it, and how (or whether) it can be reused elsewhere
+  * To provide user support and thus minimize unnecessary handholding of users
 
 Scientific software has an additional reason: to ensure that the software is used within its region
 of validity so that the possibility of producing spurious scientific results is minimized.
