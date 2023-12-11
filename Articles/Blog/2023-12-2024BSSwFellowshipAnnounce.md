@@ -1,7 +1,6 @@
 # Introducing the 2024 BSSw Fellows
 
-#### Contributed by [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile
-")
+#### Contributed by [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile")
 
 #### Publication date: December 13, 2023
 
@@ -86,7 +85,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Leah Wasser, pyOpenSci</h3>
-  <p>Executive Director</p>
+  <p>Founder and Executive Director</p>
   <p><i>BSSw focus</i>: Essential collaboration skills for contributing to open source software</p>
 </div>
 </div>
@@ -161,7 +160,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 </div>
 
 ### About the BSSw Fellowship
-The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2022.  More information:
+The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2024. More information:
 
 - [BSSw Meet Our Fellows](https://bssw.io/pages/meet-our-fellows)
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq)
