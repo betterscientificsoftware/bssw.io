@@ -55,5 +55,4 @@ Publish: no
 Topics: requirements
 Track: Deep Dive
 Pinned: no
-RSS update: 2019-08-06
 --->
