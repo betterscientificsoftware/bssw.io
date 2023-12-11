@@ -40,7 +40,7 @@ Meanwhile, explicitly documenting non-functional requirements is important becau
 
 
 <!---
-Publish: yes
+Publish: no
 Topics: requirements
 Track: Deep Dive
 Pinned: no
