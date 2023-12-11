@@ -104,6 +104,8 @@ Because of these factors, one should ensure that the requirements process is bei
 - Rebecca Sanders and Diane Kelly. Dealing with risk in scientific software development. *IEEE software*, 25(4), 2008.
 - Yang Li, Nitesh Narayan, Jonas Helming, and Maximilian Koegel. A domain specific requirements model for scientific computing (NIER track). In *Proceedings of the 33rd International Conference on Software Engineering*, pages 848–851. ACM, 2011.
 - Dustin Heaton and Jeffrey C Carver. Claims about the use of software engineering practices in science: A systematic literature review. *Information and Software Technology*, 67:207–219, 2015.
+- Ralph Rowland Young. The requirements engineering handbook. Artech House, 2004.
+
 
 <!---
 Publish: yes
