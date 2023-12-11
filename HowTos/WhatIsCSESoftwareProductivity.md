@@ -68,4 +68,10 @@ and opportunities by providing a toolset, methodologies, and information to bett
 rapidly changing software systems while delivering higherquality
 results faster, with fewer resources.
 
+<!---
+Publish: yes
+Pinned: no
+Track: how to
+Topics: software engineering
+--->
 
