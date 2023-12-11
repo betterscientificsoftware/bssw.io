@@ -1,6 +1,6 @@
 # Understanding Interoperable Software Libraries
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman), [Michael A. Heroux](https://github.com/maherou), [Barry Smith](https://github.com/BarrySmith), [Ulrike Meier Yang](https://github.com/ulrikeyang), Xiaoye Li
-#### Publication date: Aug 6, 2019
+#### Publication date: November 6, 2020
 
 <!-- deck start -->
 Software libraries excel in delivering widely reusable, robust, efficient, and scalable solutions for high-performance computing. 
@@ -16,7 +16,7 @@ This article discusses software library interoperability, or the ability of two 
 While the following discussion uses the terminology of software library interoperability, the concepts also apply to application-specific domain components.
 
 
-## Software Libraries
+### Software Libraries
 A software library is a high-quality, encapsulated, documented, tested, and multiuse software collection that offers functionality commonly needed by application developers. 
 Key advantages of software libraries include leveraging the expertise of library developers and reducing the effort required in application coding. 
 For instance, numerical software libraries provide easy access to sophisticated mathematical algorithms and high-performance data structures developed by experts. 
@@ -26,7 +26,7 @@ Libraries can provide control inversion through abstract interfaces, callbacks, 
 They can also facilitate the construction of related specific objects that offer customizable behavior to enhance performance or flexibility. 
 Additionally, libraries may incorporate domain-specific software components designed for use by multiple applications.
 
-## Software Library Interoperability
+### Software Library Interoperability
 Software library interoperability refers to the ability of two or more libraries to be used together in an application code, without special effort on the part of the user. 
 For simplicity, we discuss interoperability between two libraries; extension to interoperability among three or more libraries is conceptually straightforward. 
 Depending on application needs, various levels of interoperability can be considered:
@@ -36,7 +36,7 @@ Depending on application needs, various levels of interoperability can be consid
 
 The simplest case (**interoperability level 1**) occurs when an application needs to call two distinct libraries for different functionalities (for example, an [MPI](https://www.mpi-forum.org/) library for message-passing
 communication and [HDF5](https://www.hdfgroup.org/solutions/hdf5/) for data output). 
-As discussed in [this talk](https://figshare.com/articles/Package_Management_Practices_Essential_for_Interoperability_Lessons_Learned_and_Strategies_Developed_for_FASTMath/789055), even this basic level of interoperability requires consistency among libraries to be used within the same application, in terms of compiler, compiler version/options, and other third-party capabilities. 
+As discussed in [this paper](https://figshare.com/articles/Package_Management_Practices_Essential_for_Interoperability_Lessons_Learned_and_Strategies_Developed_for_FASTMath/789055), even this basic level of interoperability requires consistency among libraries to be used within the same application, in terms of compiler, compiler version/options, and other third-party capabilities. 
 If both libraries have a dependence on a common third party, the libraries must be able to use a single common instance of it. 
 For example, more than one version of the popular SuperLU linear solver library exists, and interfaces have evolved. 
 If two libraries both use SuperLU, they must be able to work with the same version of SuperLU. 
@@ -49,7 +49,7 @@ In this case, the libraries themselves are typically used without internal modif
 **Interoperability level 3** builds on level 2 by supporting the use of one library to provide functionality on behalf of another library. 
 This level of interoperability provides significant value to application developers because they can access capabilities of additional libraries through the familiar interfaces of the first library.
 
-## The Extreme-Scale Scientific Software Development Kit (xSDK)
+### The Extreme-Scale Scientific Software Development Kit (xSDK)
 
 <!-- <p align="left">
 <img align="right" src="https://i.ibb.co/C9h43tR/Screen-Shot-2020-07-10-at-10-34-30-AM.png">
@@ -82,7 +82,7 @@ This document was prepared by the authors with contributions from all xSDK devel
 
 <!---
 Publish: yes
-Pinned: no
+Pinned: yes
 Track: how to
 Topics: Software Interoperability
 --->
