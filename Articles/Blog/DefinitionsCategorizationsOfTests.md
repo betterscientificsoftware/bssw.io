@@ -27,23 +27,22 @@ of analysis tools/tests can be run using an existing test suite.
 Tests can be defined at different levels of granularity. The levels of granularity vary from the smallest
 units of the software to the entire software system.
 
-  * **[Unit Tests:](https://en.wikipedia.org/wiki/Unit_testing)**
+* **[Unit Tests:](https://en.wikipedia.org/wiki/Unit_testing)**
 Unit tests are focused on testing individual software units such as individual functions or individual
 classes. By definition, unit tests must build fast, run fast, and localize errors. Unit tests are considered
 a foundation for modern agile software development methods (e.g. [test-driven
 development](https://en.wikipedia.org/wiki/Test-driven_development)) and also
-provide a foundation for fast, efficient development and [refactoring efforts](https://en.wikipedia.org/wiki/Code_refactoring). In order to make unit testing cost effective, it is important to use a welldesigned
-and easy to use unit test harness (e.g. in the style of [xUnit](https://en.wikipedia.org/wiki/XUnit) tailored to the programming language and particular software being tested.
+provide a foundation for fast, efficient development and [refactoring efforts](https://en.wikipedia.org/wiki/Code_refactoring). In order to make unit testing cost effective, it is important to use a well-designed and easy to use unit test harness (e.g. in the style of [xUnit](https://en.wikipedia.org/wiki/XUnit) tailored to the programming language and particular software being tested.
 
- * **[Integration Tests:](https://en.wikipedia.org/wiki/Integration_testing)** 
-    Integration tests are focused on testing the interaction of larger pieces of software but, not at the full
+* **[Integration Tests:](https://en.wikipedia.org/wiki/Integration_testing)** 
+Integration tests are focused on testing the interaction of larger pieces of software but, not at the full
 system level . Integration tests typically test several different objects from several different types of
 classes together. Integration tests are contrasted from unit tests in that they typically don’t build as
 fast, or run as fast or localize errors as well as unit tests. However, these types of more coarse-grained tests may still build and run fast enough to drive effective development and refactoring efforts in many
 cases (but not localize errors as well and therefore require more debugging effort when they fail).
 
- * **[System-level Tests:](https://en.wikipedia.org/wiki/System_testing)**
-   System-level test are focused on testing the full software system at the user interaction level. For
+* **[System-level Tests:](https://en.wikipedia.org/wiki/System_testing)**
+System-level test are focused on testing the full software system at the user interaction level. For
 example, a system-level test of a CFD code would involve passing in complete input files and running
 the full simulation code, and then checking the output and final solutions (by some criteria).
 System-level tests on their own are typically not considered a sufficient foundation to effectively and
