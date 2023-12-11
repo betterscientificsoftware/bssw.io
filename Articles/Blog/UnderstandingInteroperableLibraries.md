@@ -84,5 +84,5 @@ This document was prepared by the authors with contributions from all xSDK devel
 Publish: yes
 Pinned: no
 Track: how to
-Topics: Funding sources and programs, projects and organizations
+Topics: Software Interoperability
 --->
