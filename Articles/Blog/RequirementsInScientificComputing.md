@@ -26,7 +26,7 @@ Ralph Young, author of *The Requirements Engineering Handbook*, enumerates crite
 
 In other words, a requirements document is neither a wish list nor a design document, but rather an instrument that explicitly connects the needs of stakeholders to the software product that satisfies them.
 
-#### Classifying and Characterizing Requirements
+### Classifying and Characterizing Requirements
 
 The goal of scientific software is to enable researchers to pose and answer scientific questions. This can give the impression that the requirements will be self-evident: the software needs to solve, process, simulate, interpolate, or analyze the object of study. However, high-level, abstract statements of purpose do not fulfill the criteria we have laid out, and they do not readily translate to solutions. Rather, we must decompose the goals of the software into smaller, more concrete units. There are numerous ways of categorizing the resulting requirements, but we will begin by dividing them into two broad categories:
 
