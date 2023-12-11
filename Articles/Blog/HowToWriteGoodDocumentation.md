@@ -52,6 +52,6 @@ This document was prepared with input from Roscoe A. Bartlett, Barry Smith, and 
 <!---
 Publish: yes
 Topics: Documentation
-Track: How to
+Track: how to
 --->
 

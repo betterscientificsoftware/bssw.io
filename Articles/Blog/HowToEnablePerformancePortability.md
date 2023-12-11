@@ -52,5 +52,5 @@ Computing Research and Biological and Environmental Research programs.*
 <!---
 Publish: yes
 Topics: High-Performance Computing (HPC), Performance Portability, Programming Languages
-Track: How to
+Track: how to
 --->

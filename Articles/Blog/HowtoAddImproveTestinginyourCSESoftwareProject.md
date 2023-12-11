@@ -76,6 +76,6 @@ Computing Research and Biological and Environmental Research programs.*
 <!---
 Publish: yes
 Topics: Testing
-Track: How to
+Track: how to
 --->
 
