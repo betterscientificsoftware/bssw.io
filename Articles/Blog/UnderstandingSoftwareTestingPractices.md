@@ -20,7 +20,7 @@ In this document, we introduce some terminology of testing and discuss the benef
 and general approaches to testing.
 
 ### Types and granularities of testing
-Software engineering recognizes two main types of testing (see [Definition and Categorization of Tests for CSE Software](http://ideas-productivity.org/resources/howtos/ideas-testing-definitions/) for full details):
+Software engineering recognizes two main types of testing (see [Definition and Categorization of Tests for CSE Software](../Blog/DefinitionsCategorizationsOfTests.md) for full details):
 * **Verification testing:** Tests that verify that the code is doing what it is intended to do.
 * **No-change (often, perhaps mistakenly, called regression) testing:** Checks that the
 code produces the same results (to an appropriate approximation) as it previously did.
