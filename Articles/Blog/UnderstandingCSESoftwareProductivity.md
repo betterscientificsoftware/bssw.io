@@ -68,7 +68,7 @@ results faster, with fewer resources.
 
 <!---
 Publish: yes
-Pinned: yes
+Pinned: no
 Track: how to
 Topics: software engineering
 --->
