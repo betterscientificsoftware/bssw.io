@@ -93,6 +93,8 @@ How should the requirements process be carried out in the context of a scientifi
 
 Because of these factors, one should ensure that the requirements process is being thought of not as a singular event but as an ongoing activity that spans the lifecycle of the scientific product.
 
+### Author bio
+Reed Milewicz is a Computer Scientist and Software Engineering Researcher in the Department of Software Engineering and Research at Sandia National Laboratories. His research focuses on developing better practices, processes, and tools to improve software development in the scientific domain. He leads software science research efforts within his department and is a member of the Interoperable Design of Extreme-Scale Application Software (IDEAS) project, where he is part of the Productivity and Sustainability Improvement Planning (PSIP) team.
 
 ### Citations
 - John S Reel. Critical success factors in software projects. *IEEE Software*, 16(3):18–23, 1999.
