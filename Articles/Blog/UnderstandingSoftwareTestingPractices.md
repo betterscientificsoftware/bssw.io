@@ -5,9 +5,8 @@
 #### Publication date: Aug 6, 2018
 
 <!-- deck start -->
-The significance of testing in scientific software development cannot be overstated. Rigorous testing, spanning various types and granularities, serves as a critical safeguard against errors, ensures the intended functionality of the code, and contributes to the overall reliability of software systems.  This article explores different testing types, scales, and tools, emphasizing the synergy between unit testing frameworks and analysis tools. 
+The significance of testing in scientific software development cannot be overstated. Rigorous testing, spanning various types and granularities, serves as a critical safeguard against errors, ensures the intended functionality of the code, and contributes to the overall reliability of software systems.  This article explores different testing types, scales, and tools, emphasizing the synergy between various testing frameworks and tools. 
 <!-- deck end -->
-
 
 Thorough and consistent testing is a cornerstone of software development, serving vital purposes such as maintaining adaptability across diverse systems, enabling safe refactoring, and ensuring the delivery of accurate results to users. This document delves into the critical aspects of testing, shedding light on its importance and various applications in scientific software development.
 
@@ -20,7 +19,7 @@ unknowingly introduce new errors, or reintroduce old errors; and
 In this document, we introduce some terminology of testing and discuss the benefits of testing
 and general approaches to testing.
 
-## Types and granularities of testing
+### Types and granularities of testing
 Software engineering recognizes two main types of testing (see [Definition and Categorization of Tests for CSE Software](http://ideas-productivity.org/resources/howtos/ideas-testing-definitions/) for full details):
 * **Verification testing:** Tests that verify that the code is doing what it is intended to do.
 * **No-change (often, perhaps mistakenly, called regression) testing:** Checks that the
@@ -38,7 +37,7 @@ the full system level.
 For example, a system-level test of a CFD code would involve providing complete input
 files, running the full simulation, and then checking the output and final solutions.
 
-## Managing and reporting on testing
+### Managing and reporting on testing
 The simplest test system compiles the code and runs one
 or more executables, saving the output into a text file for the developer or user to examine. Once
 a package becomes too complex, this approach to testing is no longer satisfactory. **Automatic
@@ -89,11 +88,11 @@ sometimes held in a group meeting where the code is displayed with a projector a
 verbally or done with online tools that allow examining and commenting on code (e.g., with pull
 requests on bitbucket or github). Some code reviews are a combination of both approaches.
 
-The testing approaches discussed above underscore their pivotal role in maintaining software reliability. The systematic approach outlined here facilitates the identification and prevention of errors, enabling developers to confidently enhance and refine their code. The integration of tools and frameworks further streamlines the testing process, ensuring the delivery of robust and high-quality software that meets user expectations. Embracing thorough testing practices remains a cornerstone in the ongoing pursuit of software excellence
+The testing approaches discussed above underscore their pivotal role in maintaining software reliability. Embracing thorough testing practices remains a cornerstone in the ongoing pursuit of software excellence
 
 <!---
 Publish: yes
-Pinned: no
+Pinned: yes
 Track: how to
 Topics: testing
 --->
