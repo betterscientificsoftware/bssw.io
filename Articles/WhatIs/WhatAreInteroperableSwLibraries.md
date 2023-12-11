@@ -1,4 +1,8 @@
 ### What are Interoperable Software Libraries? 
+#### Contributed by [Lois Curfman McInnes](http://github.com/curfman)
+
+#### Publication date: April 16, 2019 
+
 <!--deck start--->
 Software libraries have demonstrated their efficacy in delivering extensively reusable software characterized by robustness, efficiency, and scalability, particularly in the realm of high-performance computing. Interoperability among software libraries pertains to the seamless utilization of two or more libraries within an application code, requiring no additional effort from the user.
 <!--deck end--->
@@ -8,7 +12,7 @@ In the expanding landscape of computational science, multiscale and multiphysics
 
 This [short article](../Blog/UnderstandingInteroperableLibraries.md) discusses software library interoperability, or the ability of two or more libraries to be used together in an application code, without special effort on the part of the user. The document also introduces the Extreme-scale Scientific Software Development Kit ([xSDK](https://xsdk.info)), a community endeavor focused on overcoming challenges in software interoperability and building the foundation of a scientific software ecosystem.
 
-#### Contributed by [Lois Curfman McInnes](http://github.com/curfman)
+
 <!--body end--->
 
 <!---
