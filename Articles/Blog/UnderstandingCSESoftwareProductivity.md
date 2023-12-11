@@ -8,7 +8,7 @@
 This article discusses productivity in the context of scientific computing and makes an important point that improving CSE software productivity will enhance scientific productivity.
 <!-- deck end -->
 
-**Productivity** is generally a measure of output vs. input. In most situations we care about increasing quantity
+**Productivity** is generally a measure of output vs. input. In most situations, we care about increasing quantity
 or improving quality of output and reducing cost in time and resources of required input.
 
 **Scientific Productivity** is concerned with measuring the number and quality of science results for a research
@@ -21,8 +21,7 @@ improves, resource costs decrease, solution time is quicker, or a combination of
 improves, attributable to the software.
 
 **Extreme-Scale CSE Software Productivity:** Many CSE software products are required to run on the latest
-extreme-scale computing systems. Highfidelity,
-multiscale, multiphysics simulations with uncertainty
+extreme-scale computing systems. High fidelity, multiscale, multiphysics simulations with uncertainty
 quantification and optimality increase the computing demands up to and beyond the capability of current
 leadership systems. At this scale of computing, the disruption of hardware architecture changes, new and
 immature system software environments, and the sheer scope and complexity of the target problems can be
@@ -32,10 +31,9 @@ high. A focus on general productivity enhancement is critical at this scale, as 
 
 <img src='../../images/HowTo_Understand_CSE_Productivity.png' class='page lightbox' />[]
   
-CSE is broadly recognized as a peer with experimental and theoretical research in theprocess of scientific discovery. Improving CSE software productivity can play a critical and unique role in accelerating the cycle of scientific discovery on emerging extremescale
-architectures.
+CSE is broadly recognized as a peer, along with experimental and theoretical research, in the process of scientific discovery. Improving CSE software productivity can play a critical and unique role in accelerating the cycle of scientific discovery on emerging extremescale architectures.
   
-## A Practical Characterization of CSE Software Productivity
+### A Practical Characterization of CSE Software Productivity
 A common saying in product development is, “Better, faster, cheaper: Pick two of the three.” Given a fixed level of productivity, this saying acknowledges that if product development is behind schedule, product features must be dropped, the schedule must slip, or more resources must be applied to the project. At least one of the three must be adjusted. Productivity is a volume measure of these three concerns. CSE Software Productivity is this measure applied to software developed for and used by scientists and
 engineers.
 
@@ -63,14 +61,14 @@ combination to solve a single problem.
 * **Increased opportunities to incorporate computation into projects:** CSE software has proven effective in solving many problems, and its impact can spread if we develop the software capabilities.
 * **Limited staff resources in high demand:** The skill set for developing CSE software is large, including domain knowledge, mathematics, and computer science. For larger projects, effective team skills are also required. Furthermore, parts of this skill set are in high demand in other areas of the economy, resulting in a shortage of skilled people.
 
-An explicit focus on software productivity will help computational scientists and engineers address challenges
+In summary, an explicit focus on software productivity will help computational scientists and engineers address challenges
 and opportunities by providing a toolset, methodologies, and information to better manage large, complex, and
 rapidly changing software systems while delivering higherquality
 results faster, with fewer resources.
 
 <!---
 Publish: yes
-Pinned: no
+Pinned: yes
 Track: how to
 Topics: software engineering
 --->
