@@ -1,4 +1,4 @@
-### Understanding Good Documentation
+# Understanding Good Documentation
 
 #### Contributed by [Anshu Dubey](https://github.com/adubey64), [Ulrike Meier Yang](https://github.com/ulrikeyang), [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [Glenn Hammond](https://github.com/ghammond86), Ethan Coon
 
