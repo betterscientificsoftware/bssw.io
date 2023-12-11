@@ -1,4 +1,4 @@
-### What are Interoperable Software Libraries? 
+### What is Software Library Interoperability?
 #### Contributed by [Lois Curfman McInnes](http://github.com/curfman)
 
 #### Publication date: April 16, 2019 
