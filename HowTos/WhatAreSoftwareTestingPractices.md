@@ -1,11 +1,17 @@
-<div align="center">
-<h1> What are Software Testing Practices? </h1>
-<h4> The IDEAS Scientific Software Productivity Project </h4>
-<h5> <a href="https://ideas-productivity.org/resources/howtos/">https://ideas-productivity.org/resources/howtos</a> </h5>
-<h4> Contributed by: </h4>
-</div>
+# Understanding Software Testing Practices
 
-**Motivation:** Software requires regular extensive testing for several reasons:
+#### Contributed by [Ulrike Meier Yang](https://github.com/ulrikeyang), [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [Glenn Hammond](https://github.com/ghammond86), [Barry Smith](https://github.com/BarrySmith), [James Willenbring](https://github.com/jwillenbring), Xiaoye Li
+
+#### Publication date: Aug 6, 2018
+
+<!-- deck start -->
+The significance of testing in scientific software development cannot be overstated. Rigorous testing, spanning various types and granularities, serves as a critical safeguard against errors, ensures the intended functionality of the code, and contributes to the overall reliability of software systems.  This article explores different testing types, scales, and tools, emphasizing the synergy between unit testing frameworks and analysis tools. 
+<!-- deck end -->
+
+
+Thorough and consistent testing is a cornerstone of software development, serving vital purposes such as maintaining adaptability across diverse systems, enabling safe refactoring, and ensuring the delivery of accurate results to users. This document delves into the critical aspects of testing, shedding light on its importance and various applications in scientific software development.
+
+Regular and comprehensive testing is essential for software for various reasons:
 * to maintain portability to a wide variety of (ever changing) systems and compilers;
 * to allow refactoring or the addition of new features into library code that does not
 unknowingly introduce new errors, or reintroduce old errors; and
@@ -38,9 +44,6 @@ or more executables, saving the output into a text file for the developer or use
 a package becomes too complex, this approach to testing is no longer satisfactory. **Automatic
 testing systems** (sometimes called **test harnesses**) lower the (developer) burden of running the
 tests and adding new tests. 
-
-<!--- For example, filters can be automatically applied to output only the
-text that indicates problems (e.g., <b>here</b> [1. invalid link] and <b>here</b> [2. invalid link]), and to display on a dashboard (using, e.g., a specific color) which build instantiations generated errors (e.g., <b>here</b> [3. invalid link] and <b>here</b> [4. invalid link]). -- all links are broken, therefore this is not currently included in the document --->
 
 This approach still requires developers to check a website on a regular basis and bombards them with all errors
 in the tests, not just those they caused. Arguably, some testing systems parse compiler/linker
@@ -86,6 +89,11 @@ sometimes held in a group meeting where the code is displayed with a projector a
 verbally or done with online tools that allow examining and commenting on code (e.g., with pull
 requests on bitbucket or github). Some code reviews are a combination of both approaches.
 
-<h6 align="center">This document was prepared by Ulrike Yang, Roscoe Bartlett, Glenn Hammond, Xiaoye Li, Barry Smith, and
-Jim Willenbring. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.</h6>
+The testing approaches discussed above underscore their pivotal role in maintaining software reliability. The systematic approach outlined here facilitates the identification and prevention of errors, enabling developers to confidently enhance and refine their code. The integration of tools and frameworks further streamlines the testing process, ensuring the delivery of robust and high-quality software that meets user expectations. Embracing thorough testing practices remains a cornerstone in the ongoing pursuit of software excellence
+
+<!---
+Publish: yes
+Pinned: no
+Track: how to
+Topics: testing
+--->
