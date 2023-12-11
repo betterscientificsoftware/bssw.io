@@ -29,20 +29,20 @@ models and algorithms.
 parallelization techniques, and other similar relevant details.
 * **Users Guide:** Specification of how to use the software, how to provide input, how to
 configure a specific problem to solve, and, if applicable, how to customize the software.
-  * **Reference Manual:** List of the interfaces and/or routines and explanation of their
+* **Reference Manual:** List of the interfaces and/or routines and explanation of their
 functionality. This can be automatically generated if the information is embedded in the
 code.
-  * **Embedded Documentation:** In nonmathematical software one may be able to do away
+* **Embedded Documentation:** In nonmathematical software one may be able to do away
 with this kind of documentation and instead write code that is self-explanatory.
 However, a mathematical model or even numerical algorithm does not have a straight map to
 implementation. Inline documentation is the way to provide this map and is therefore
 indispensable in scientific software.
-  * **Readme Files:** These descriptive files are typically included with the source code of the software. They are often used to describe the section of the code (usually within the directory) where they reside.
-  * **Developers Guide:** If the software is extensible, a developers guide is helpful for users to extend the software for their own purposes.
-  * **Installation Guide:** If the software has any component or dependencies that need installation prior to use, they should be described explicitly in some document. It can be a simple text file or a more complete guide, depending on the complexity of installation.
-  * **Process Documentation:** For any nontrivial software effort with even a few developers,
+* **Readme Files:** These descriptive files are typically included with the source code of the software. They are often used to describe the section of the code (usually within the directory) where they reside.
+* **Developers Guide:** If the software is extensible, a developers guide is helpful for users to extend the software for their own purposes.
+* **Installation Guide:** If the software has any component or dependencies that need installation prior to use, they should be described explicitly in some document. It can be a simple text file or a more complete guide, depending on the complexity of installation.
+* **Process Documentation:** For any nontrivial software effort with even a few developers,
 documenting the software process is useful. In large efforts with changing and/or transient developers, such documentation is necessary. This kind of documentation may include definitions and practices such as licensing, code contribution, verification, coding standards, and code reviews.
-  * **Tutorials:** These consist of the entire necessary input to set up, run, and (as
+* **Tutorials:** These consist of the entire necessary input to set up, run, and (as
 appropriate) visualize the output of software. They may include source code (for a
 library) and/or input files (for an application code). Often tutorials are the most useful
 documentation for users and can double as regression tests.<br>
