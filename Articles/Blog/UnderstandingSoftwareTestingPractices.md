@@ -29,11 +29,11 @@ unit tests enable one to change the internals of the
 code (refactoring) but quickly verify that the results remain the same
 
 In addition, three granularities of testing are recognized:
-1. **Unit tests:** Focus on testing individual software units such as individual functions or
+* **Unit tests:** Focus on testing individual software units such as individual functions or
 individual classes.
-2. **Integration tests:** Focus on testing the interaction of larger pieces of software but not at
+* **Integration tests:** Focus on testing the interaction of larger pieces of software but not at
 the full system level.
-3. **System-level tests:** Focus on testing the full software system at the user interaction level.
+* **System-level tests:** Focus on testing the full software system at the user interaction level.
 For example, a system-level test of a CFD code would involve providing complete input
 files, running the full simulation, and then checking the output and final solutions.
 
