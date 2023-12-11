@@ -49,7 +49,7 @@ Thus, its important for requirements to be clearly defined, be un-ambiguous and 
 - [Understanding and Performing the requirements engineering process](Part4-UnderstandingPerformingRequirementsEngineering.md)
 
 <!---
-Publish: yes
+Publish: no
 Topics: requirements
 Track: Deep Dive
 Pinned: no
