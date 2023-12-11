@@ -1,5 +1,5 @@
 # Understanding Interoperable Software Libraries
-#### Contributed by [Lois Curfman McInnes](https://github.com/curfman), [Michael A. Heroux](https://github.com/maherou), [Barry Smith](https://github.com/BarrySmith), [Ulrike Meier Yang](https://github.com/ulrikeyang) and  Xiaoye Li
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman), [Michael A. Heroux](https://github.com/maherou), [Barry Smith](https://github.com/BarrySmith), [Ulrike Meier Yang](https://github.com/ulrikeyang), Xiaoye Li
 #### Publication date: Aug 6, 2019
 
 <!-- deck start -->
