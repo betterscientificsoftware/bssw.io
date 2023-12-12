@@ -1,4 +1,7 @@
 ### What is Sustainability?
+#### Contributed by  [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: April 20, 2023
+
 <!--deck start--->
 Sustainable software means that an existing product remains viable in the future such that it makes sense to continuing using, adapting and expanding its capabilities instead of replacing it with another new or existing product. 
 <!--deck end--->

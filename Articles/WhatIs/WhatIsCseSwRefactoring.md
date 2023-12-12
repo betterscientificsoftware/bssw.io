@@ -1,4 +1,6 @@
 # What is CSE Software Refactoring?
+#### Publication date: April 20, 2019
+
 <!--deck start--->
 Software  refactoring is the process of restructuring existing software code but without changing its external functionality. Refactoring is gaining recognition as a way of improving developer productivity!
 <!--deck end--->

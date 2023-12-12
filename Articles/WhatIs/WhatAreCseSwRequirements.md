@@ -1,12 +1,12 @@
+### What Are CSE Software Requirements?
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: April 20, 2019
 
-# What Are CSE Software Requirements?
 <!--deck start--->
-
 Software Requirements provide a bridge to translate the computational needs of scientists into capabilities of the software that developers aim to provide. While software requirements, thus, play a critical role in CSE domain, specifying such requirements can come with its own set of challenges.
 <!--deck end--->
 
 <!--body start--->
-
 In software development, a *requirement* is a singular, documented statement identifying a capability, characteristic, or
 quality a software product must possess in order to satisfy *one* of the needs of its stakeholders (e.g., developers, users, sponsors).
 
@@ -50,8 +50,6 @@ before a single class is designed or a single line of code is written. This is i
 to the [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development process where the requirement's specification
 is iterated and refined right along with the software it specifies.
 
-
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 <!--body end--->
 
 <!---
