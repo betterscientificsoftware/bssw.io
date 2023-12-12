@@ -1,4 +1,7 @@
 ### What Are Software Development Tools?
+#### Contributed by [Boyana Norris](https://github.com/brnorris03)
+#### Publication date: May 20, 2019
+
 <!--deck start--->
 Software development tools aid developers by supporting different aspects of software design and implementation and cover a broad spectrum ranging from code editing to improving developer productivity.
 <!--deck end--->
@@ -16,10 +19,7 @@ Another way in which tools can improve productivity is by reducing the likelihoo
 through code generation). Moreover,
 tools can provide better coverage than any manual approach in certain areas, such as code analysis
 (for memory problems, style, performance) and optimization.
-<!--body end--->
-
-
-#### Contributed by [Boyana Norris](https://github.com/brnorris03)
+<!-- body end --->
 
 <!---
 Publish: yes
