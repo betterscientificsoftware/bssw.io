@@ -1,4 +1,6 @@
 # What is Software Engineering for CSE?
+#### Contributed by [Anshu Dubey](https://github.com/adubey64)
+#### Publication date: April 20, 2019
 
 <!--deck start--->
 Projects with CSE can lie on wide spectrum when it comes to team size and requirements and code complexity. Software engineering practices, thus, need to be wisely adapted based on the project needs since one size will probably not fit all.  
@@ -13,7 +15,6 @@ The process should also define practices for services such as issue tracking and
 
 For software sustainability documentation is critical. All interfaces should be fully documented with description of their functionality, input and output parameters, and any changes in the state that they may cause. Inline documentation explaining the control flow and parameter choices as appropriate is critical in preventing loss of capabilities when developers leave. Similarly, documentation and availability of training modules can be helpful in bringing new team members online rapidly.
 
-#### Contributed by [Anshu Dubey](https://github.com/adubey64)
 <!--body end--->
 
 
