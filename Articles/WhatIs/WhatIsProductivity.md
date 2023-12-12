@@ -1,4 +1,7 @@
 ### What is Productivity?
+#### Publication date: April 20, 2019
+#### Contributed by  [Rinku Gupta](https://github.com/rinkug)
+
 <!--deck start--->
 Productivity, by (a generic) definition, is a measure of efficiency in converting an input to a desired output - but, what exactly is productivity in the context of CSE software?
 <!--deck end--->
