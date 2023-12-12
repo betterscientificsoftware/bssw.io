@@ -1,6 +1,6 @@
 ### What Are Discussion and Question Sites for Better Scientific Software?
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold)
-#### Publication date: April 20, 2019
+#### Publication date: June 6, 2019
 
 <!--deck start--->
 The topic of *Better Scientific Software* focuses on how to improve software development and software sustainability, along with improving developer productivity - Are such topics supported by current online discussion and questions sites?
@@ -12,7 +12,6 @@ An increasing number of online discussion forums or question and answer (Q&A) si
 This "Better Scientific Software" topic covers resources that are open to questions about software development, productivity, and sustainability, as opposed to, for example, questions about algorithms or the use of particular numerical libraries, or other questions about CSE software (though in many cases, sites may be open to a broader range of questions).
 
 
-#### Publication date: June 6, 2019
 <!--body end--->
 
 <!---
