@@ -1,4 +1,6 @@
 # What is Debugging?
+#### Publication date: July 20, 2019
+
 
 <!--deck start--->
 Debugging in a well-known, important concept while developing software - discussed below are some topics that arise when one talks about debugging in scientific environments.
