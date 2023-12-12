@@ -5,7 +5,7 @@
 #### Publication Date: August 6, 2019
 
 <!-- deck text start -->
-*This article provides an overview of the usage of Git for a CSE project (but is also applicable to other types of projects). Topics covered include basic git setup, tips on learning git, basic tips for using git, and git workflow building blocks.*
+This article provides an overview of the usage of Git for a CSE project (but is also applicable to other types of projects). Topics covered include basic git setup, tips on learning git, basic tips for using git, and git workflow building blocks.
 <!-- deck text end -->
 
 ### Overview
@@ -18,18 +18,18 @@ CSE software project leaders and developers who would like to adopt an appropria
 Describe the basic setup and usage of Git, and outline the different basic building blocks for constructing effective workflows for single software source Git repositories.
 
 ### Prerequisites
-First read the document [What Is Version Control](HowTos/WhatIsVersionControl.md).
+First read the document [What Is Version Control](./WhatIsVersionControl.md).
 
 ### Basic Git Setup
 Before using Git on a new machine, perform the following minimal setup:
-* [Set up minimal Git settings for your account, including “user.name,” “user.email,” “color.ui,” “push.default,” and “rerere.enabled”](/items/critical-beginner-git-usage-tips)[1].
+* [Set up minimal Git settings for your account, including “user.name,” “user.email,” “color.ui,” “push.default,” and “rerere.enabled”](/items/critical-beginner-git-usage-tips) [1].
 * Install scripts locally for the Git shell prompt ([git-prompt.sh](https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh)) and Git tab completion  ([git-completion.bash](https://raw.github.com/git/git/master/contrib/completion/git-completion.bash)), and add them to your shell (see documentation in the scripts).
 
 ### Learn to Use Git
 
 Understanding Git from an algorithms and data-structure perspective, rather
 than just learning commands, can increase software quality and developer productivity.
-* If you are a self-learner, review [A Tutorial and Reference Collection for Git](/items/a-tutorial-and-reference-collection-for-git)[2].
+* If you are a self-learner, review [A Tutorial and Reference Collection for Git](/items/a-tutorial-and-reference-collection-for-git) [2].
 * For a more structured approach, take the course How to Use Git and GitHub [3].
 * Search Google for specific issues. StackOverflow often has an exact solution.
 
@@ -37,21 +37,14 @@ than just learning commands, can increase software quality and developer product
 ### Basic Tips for Using Git
 
 The following basic guidelines and tips apply to all Git workflows [1].
-* Format commit messages using a 50-char (or so) summary line, followed by a blank
-newline, then (optionally) longer explanatory text in paragraphs up to 72 chars wide [6].
-* Create logical commits (see “SEPARATE CHANGES” in “gitworkflows(7)” [5] and “One
-Commit per Logical Change Solution” in the Udacity Git course [3]).
-* Create local commits to local branch(es) before using commands that might pollute or
-destroy uncommitted changes (e.g., “git pull,” “git checkout,” “git reset,” “git rebase”).
+* Format commit messages using an approximate 50-char summary line, followed by a blank newline, then (optionally) longer explanatory text in paragraphs up to 72 chars wide [5].
+* Create logical commits (see “SEPARATE CHANGES” in “gitworkflows(7)” [4] and “One Commit per Logical Change Solution” in the Udacity Git course [3]).
+* Create local commits to local branches before using commands that might pollute or destroy uncommitted changes (e.g., “git pull,” “git checkout,” “git reset,” “git rebase”).
 * Back up your local branch after every few hours of work to some remote Git repo.
-* Use “git reflog,” “git checkout,” “git reset --hard,” or a similar command to recover an
-earlier state of your local repository. Previous states can almost always be restored.
+* Use “git reflog,” “git checkout,” “git reset --hard,” or a similar command to recover an earlier state of your local repository. Previous states can almost always be restored.
 * Don’t commit large (generated) binary files to a Git repository. Git LFS may help.
-* Never force push to a remote shared branch using “git push -f’” unless you and everyone
-else sharing the branch know what this means. Know how to protect branches in your git
-hosting system of choice.
-* Create local “checkpoint” commits and then cleanup commits with “git rebase -i @{u}”
-before pushing to a remote shared branch (be careful not to rebase public commits).
+* Never force push to a remote shared branch using “git push -f’” unless you and everyone else sharing the branch know what this means. Know how to protect branches in your git hosting system of choice.
+* Create local “checkpoint” commits and then cleanup commits with “git rebase -i @{u}” before pushing to a remote shared branch (be careful not to rebase public commits).
 
 ### Git Workflow Building Blocks
 
@@ -59,10 +52,10 @@ When choosing or constructing a Git-based workflow, start with
 the simplest workflow that meets the project's needs and is appropriate to the level of current Git
 knowledge and skill of the developers. Then, as the project is presented with more challenges,
 consider augmenting the workflow using the following workflow building blocks (steps 2-5 can be
-added in any order) [4]:
+added in any order):
 1. Start: The Simple Centralized Continuous Integration (CI) Workflow has all
 developers pull from and push to the shared “main” branch in the one shared repository
-‘origin’ (i.e., the basic SVN workflow). This is a simple but effective agile-consistent
+‘origin’ (i.e., the basic SubVersion workflow). This is a simple but effective agile-consistent
 workflow and is a good choice for many simpler projects.
 2. Add a “develop” branch in order to provide a more stable “main” branch that is
 updated on a regular, frequent basis.
@@ -83,33 +76,23 @@ branch. This procedure helps detect integration problems early and makes more ef
 usage of computer testing resources.
 7. End: The git.git workflow (i.e., “gitworkflows(7)”) is a combination of the above
 workflow building blocks and is used for developing many projects, including the Git
-source code itself (i.e., “git.git” [5]) and the Linux kernel. However, because the git.git
+source code itself (i.e., “git.git” [4]) and the Linux kernel. However, because the git.git
 workflow is complex and labor-intensive, its use is justified only for projects where all the
 developers are Git savvy and the project’s challenges justify its usage.
 
+### Citations
 
-
-
-### Notes
-
-1. Roscoe Bartlett. Critical Beginner Git Usage Tips.
-https://bssw.io/items/critical-beginner-git-usage-tips
-2. Roscoe Bartlett. Git Tutorial and Reference Collection. https://bssw.io/items/a-tutorial-and-reference-collection-for-git
-3. Udacity. How to Use Git and GitHub. https://www.udacity.com/course/how-to-use-git-and-github--ud775
-4. Roscoe Bartlett. Design Patterns for Incrementally Expanding Git Workflows for Research-Based
-Projects. IDEAS Scientific Software Productivity Project. To be published.
-https://docs.google.com/document/d/1uVQYI2cmNx09fDkHDA136yqDTqayhxqfvjFiuUue7wo
-5. gitworkflows(7) - An overview of recommended workflows with Git,
-https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html
-6. Chris Beams, How to Write a Git Commit Message, http://chris.beams.io/posts/git-commit/
+1. [Critical Beginner Git Usage Tips](https://bssw.io/items/critical-beginner-git-usage-tips), Roscoe Bartlett.
+2. [Git Tutorial and Reference Collection](https://bssw.io/items/a-tutorial-and-reference-collection-for-git), Roscoe Bartlett. 
+3. [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775), Udacity. 
+4. [gitworkflows(7) - An overview of recommended workflows with Git](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html)
+5. [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/), Chris Beams.
 
 This document was prepared with input from James M. Willenbring, Michael A. Heroux and Todd Gamblin.
 
-*This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.*
-
 <!---
 Publish: yes
+Pinned: no
 Topics: Revision Control
 Track: how to
 --->

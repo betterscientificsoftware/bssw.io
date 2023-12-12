@@ -1,6 +1,6 @@
 # How to Improve Testing for CSE Software
-
 #### Contributed by [Ulrike Yang](https://github.com/ulrikeyang)
+#### Publication Date: August 6, 2019
 
 <!-- deck text start -->
 Software requires regular extensive testing to ensure correctly functioning code. This article provides basic information on CSE software testing.
@@ -19,7 +19,7 @@ Show how to add quality testing to a project in order to support efficient modif
 
 ### Prerequisites
 
-First read the document *[What Are Software Testing Practices?](http://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingWhatAreSoftwareTestingPractices-V0.2.pdf)* and browse through *[Definition and Categorization of Tests for CSE Software](http://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingWhatIsDefinitionandCategorizationofTestsforCSESoftware-V0.2.pdf)*.
+First read the document *[What Are Software Testing Practices?](./UnderstandingSoftwareTestingPractices.md)* and browse through *[Definition and Categorization of Tests for CSE Software](./DefinitionsCategorizationsOfTests.md)*.
 
 ### Steps
 1. Set up **automated builds of the code** with high warning levels and eliminate all warnings.
@@ -36,7 +36,7 @@ First read the document *[What Are Software Testing Practices?](http://ideas-pro
     * **Find test points** where code behavior can be sensed.
     * **Break dependencies** in order to get the targeted code into the unit test harness.
     * **Cover targeted code** to be changed with sufficient (characterization) tests. 
-  b. **Add new features or fix bugs with tests**[1, 2, 3, 4]
+  b. **Add new features or fix bugs with tests** [1, 2, 3, 4]
     * **Add new tests** that define desired behavior (feature or bug).
     * Run new tests and **verify they fail**.
     * Add the minimal code to **get new tests to pass**.
@@ -62,19 +62,17 @@ A: This avoids expensive debugging and other investigations needed to determine 
 
 ### References:
 
-1. Feathers, Michael. Working Effectively with Legacy Code. Prentice Hall, 2005
-2. Legacy Software Change Algorithm: http://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm
-3. Beck, Kent. Test Driven Development. Addison Wesley, 2003
-4. McConnell, Steve. Code Complete (Second Edition). Microsoft Press, 2004
+1. [Working Effectively with Legacy Code. Prentice Hall](https://www.oreilly.com/library/view/working-effectively-with/0131177052/), Michael Feathers, 2005.
+2. [Legacy Software Change Algorithm](https://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm).
+3. [Test Driven Development](https://www.oreilly.com/library/view/test-driven-development/0321146530/), Kent Beck, 2003.
+4. [Code Complete (Second Edition)](https://www.microsoftpressstore.com/store/code-complete-9780735619678), Steve McConnell, 2004.
 
 This document was prepared with input from Roscoe A. Bartlett, Glenn Hammond, Xiaoye Li, Barry Smith,
 and James M. Willenbring.
 
-*This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.*
-
 <!---
 Publish: yes
+Pinned: no 
 Topics: Testing
 Track: how to
 --->
