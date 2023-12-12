@@ -63,7 +63,7 @@ A: This avoids expensive debugging and other investigations needed to determine 
 ### References:
 
 1. [Working Effectively with Legacy Code. Prentice Hall](https://www.oreilly.com/library/view/working-effectively-with/0131177052/), Michael Feathers, 2005.
-2. [Legacy Software Change Algorithm](http://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm).
+2. [Legacy Software Change Algorithm](https://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm).
 3. [Test Driven Development](https://www.oreilly.com/library/view/test-driven-development/0321146530/), Kent Beck, 2003.
 4. [Code Complete (Second Edition)](https://www.microsoftpressstore.com/store/code-complete-9780735619678), Steve McConnell, 2004.
 
