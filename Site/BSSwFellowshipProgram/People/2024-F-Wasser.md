@@ -17,3 +17,5 @@
 **Long Bio:**
 
 ### Essential collaboration skills for contributing to open source software
+
+*More details coming soon.*

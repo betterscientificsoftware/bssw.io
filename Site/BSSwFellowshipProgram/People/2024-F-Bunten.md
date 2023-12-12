@@ -17,3 +17,5 @@
 **Long Bio:**
 
 ### Software gardening almanac: Guidance and tools for sustainable software development
+
+*More details coming soon.*

@@ -17,3 +17,5 @@
 **Long Bio:**
 
 ### Team learning in scientific software projects
+
+*More details coming soon.*

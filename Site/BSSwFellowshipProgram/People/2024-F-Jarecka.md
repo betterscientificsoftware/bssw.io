@@ -17,3 +17,5 @@
 **Long Bio:**
 
 ### Best practices for reproducibility and testing in scientific software
+
+*More details coming soon.*

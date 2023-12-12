@@ -17,3 +17,5 @@
 **Long Bio:**
 
 ### Sustainable scientific software through multi-project CI/CD
+
+*More details coming soon.*
