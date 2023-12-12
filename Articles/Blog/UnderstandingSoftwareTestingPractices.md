@@ -1,11 +1,16 @@
-<div align="center">
-<h1> What are Software Testing Practices? </h1>
-<h4> The IDEAS Scientific Software Productivity Project </h4>
-<h5> <a href="https://ideas-productivity.org/resources/howtos/">https://ideas-productivity.org/resources/howtos</a> </h5>
-<h4> Contributed by: </h4>
-</div>
+# Understanding Software Testing Practices
 
-**Motivation:** Software requires regular extensive testing for several reasons:
+#### Contributed by [Ulrike Meier Yang](https://github.com/ulrikeyang), [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [Glenn Hammond](https://github.com/ghammond86), [Barry Smith](https://github.com/BarrySmith), [James Willenbring](https://github.com/jwillenbring), Xiaoye Li
+
+#### Publication date: Aug 6, 2018
+
+<!-- deck start -->
+The significance of testing in scientific software development cannot be overstated. Rigorous testing, spanning various types and granularities, serves as a critical safeguard against errors, ensures the intended functionality of the code, and contributes to the overall reliability of software systems.  This article explores different testing types, scales, and tools, emphasizing the synergy between various testing frameworks and tools. 
+<!-- deck end -->
+
+Thorough and consistent testing is a cornerstone of software development, serving vital purposes such as maintaining adaptability across diverse systems, enabling safe refactoring, and ensuring the delivery of accurate results to users. This document delves into the critical aspects of testing, shedding light on its importance and various applications in scientific software development.
+
+Regular and comprehensive testing is essential for software for various reasons:
 * to maintain portability to a wide variety of (ever changing) systems and compilers;
 * to allow refactoring or the addition of new features into library code that does not
 unknowingly introduce new errors, or reintroduce old errors; and
@@ -14,8 +19,8 @@ unknowingly introduce new errors, or reintroduce old errors; and
 In this document, we introduce some terminology of testing and discuss the benefits of testing
 and general approaches to testing.
 
-## Types and granularities of testing
-Software engineering recognizes two main types of testing (see [Definition and Categorization of Tests for CSE Software](http://ideas-productivity.org/resources/howtos/ideas-testing-definitions/) for full details):
+### Types and granularities of testing
+Software engineering recognizes two main types of testing (see [Definition and Categorization of Tests for CSE Software](../Blog/DefinitionsCategorizationsOfTests.md) for full details):
 * **Verification testing:** Tests that verify that the code is doing what it is intended to do.
 * **No-change (often, perhaps mistakenly, called regression) testing:** Checks that the
 code produces the same results (to an appropriate approximation) as it previously did.
@@ -24,23 +29,20 @@ unit tests enable one to change the internals of the
 code (refactoring) but quickly verify that the results remain the same
 
 In addition, three granularities of testing are recognized:
-1. **Unit tests:** Focus on testing individual software units such as individual functions or
+* **Unit tests:** Focus on testing individual software units such as individual functions or
 individual classes.
-2. **Integration tests:** Focus on testing the interaction of larger pieces of software but not at
+* **Integration tests:** Focus on testing the interaction of larger pieces of software but not at
 the full system level.
-3. **System-level tests:** Focus on testing the full software system at the user interaction level.
+* **System-level tests:** Focus on testing the full software system at the user interaction level.
 For example, a system-level test of a CFD code would involve providing complete input
 files, running the full simulation, and then checking the output and final solutions.
 
-## Managing and reporting on testing
+### Managing and reporting on testing
 The simplest test system compiles the code and runs one
 or more executables, saving the output into a text file for the developer or user to examine. Once
 a package becomes too complex, this approach to testing is no longer satisfactory. **Automatic
 testing systems** (sometimes called **test harnesses**) lower the (developer) burden of running the
 tests and adding new tests. 
-
-<!--- For example, filters can be automatically applied to output only the
-text that indicates problems (e.g., <b>here</b> [1. invalid link] and <b>here</b> [2. invalid link]), and to display on a dashboard (using, e.g., a specific color) which build instantiations generated errors (e.g., <b>here</b> [3. invalid link] and <b>here</b> [4. invalid link]). -- all links are broken, therefore this is not currently included in the document --->
 
 This approach still requires developers to check a website on a regular basis and bombards them with all errors
 in the tests, not just those they caused. Arguably, some testing systems parse compiler/linker
@@ -86,6 +88,11 @@ sometimes held in a group meeting where the code is displayed with a projector a
 verbally or done with online tools that allow examining and commenting on code (e.g., with pull
 requests on bitbucket or github). Some code reviews are a combination of both approaches.
 
-<h6 align="center">This document was prepared by Ulrike Yang, Roscoe Bartlett, Glenn Hammond, Xiaoye Li, Barry Smith, and
-Jim Willenbring. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.</h6>
+The testing approaches discussed above underscore their pivotal role in maintaining software reliability. Embracing thorough testing practices remains a cornerstone in the ongoing pursuit of software excellence
+
+<!---
+Publish: yes
+Pinned: yes
+Track: how to
+Topics: testing
+--->
