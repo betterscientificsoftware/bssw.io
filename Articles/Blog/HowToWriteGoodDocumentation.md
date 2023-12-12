@@ -1,13 +1,12 @@
-<div align="center">
-  
-# How to Write Good Documentation for CSE Software
-####  The IDEAS Scientific Software Productivity Project 
-##### [ideas-productivity.org/resources/howtos/](https://ideas-productivity.org/resources/howtos/)
+# Writing Good Documentation for CSE Software
+
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
-</div>
+#### Publication Date: August 6, 2019
 
-*Good documentation is essential for several reasons including information about where to and how to use the software, its range of validity. This HowTo doc provides guidelines for producing documentation that would help serve these and other sustainability goals of the software.*
+<!-- deck text start -->
+Good documentation is essential for several reasons including information about where to and how to use the software, its range of validity. This article provides guidelines for producing documentation that would help serve these and other sustainability goals of the software.
+<!-- deck text end -->
 
 Determining the right amount of documentation is the first step to producing good documentation. The second step is to prioritize the types and extent of each type that is optimal for the team. And the third and final step is to provide the right set of incentives to the team. The following steps outline one possible approach. Note that other approaches may work for different teams; this outline is intended as an example rather than as a prescriptive solution. 
 
@@ -22,7 +21,7 @@ For developers, a *design document* and *developers guide* are most useful. The 
 
 For a large team with a transient developer population and a long-lived software product, *process documentation* is essential. Such documentation includes practices and policies; and licensing and release documentation should highlight those practices and policies that pertain to the release of publicly distributed software. In particular, the distribution policies should be clearly articulated if any restrictions exist.
 
-## Useful rules of thumb:
+### Useful rules of thumb
 1. Inline comments in less descriptive languages such as Fortran are always useful.
 2. Coding standards should emphasize efforts to make variables names as self-descriptive as possible.
 3. Simple and well explained constructs (as opposed to complex composite constructs) ease code maintainability.
@@ -37,15 +36,20 @@ For a large team with a transient developer population and a long-lived software
 Use of literate programming is a really good way to produce user level documentation. This approach allows text for manual pages be embedded directly into the source code files and not in separate locations, and workflow for documentation can be integrated into the workflow for development and use. The same is true of inlined informative documentation about the implementation choices. The options for embedded user’s documentation include Doxygen, NDoc, javadoc, EiffelStudio, Sandcastle, ROBODoc, POD, and [TwinTex](https://en.wikipedia.org/wiki/TwinText). A particular challenge exists for writers of Fortran codes, because there isn’t really a good option for automatic generation of manual pages. ROBODoc comes the closest.
 
 ### Examples of documentation in scientific software projects:
-* https://bitbucket.org/pflotran/pflotran-dev/wiki/Home
-* http://yt-project.org/doc/
-* https://www.earthsystemcog.org/projects/esmf/dev_docs/
-* http://flash.uchicago.edu/site/flashcode/user_support/
-* http://cactuscode.org/documentation/
-
+* https://bitbucket.org/pflotran/pflotran
+* https://yt-project.org/doc/
+* https://www.mpich.org/documentation/guides/
+* https://flash.rochester.edu/site/flashcode/user_support/
+* 
 ### References
 [1] http://martinfowler.com/bliki/TechnicalDebt.html
 
-*This document was prepared by Anshu Dubey with key contributions from Roscoe A. Bartlett, Barry Smith, and Jeffrey Johnson.*
+This document was prepared with input from Roscoe A. Bartlett, Barry Smith, and Jeffrey Johnson.
 
-*This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.*
+<!---
+Publish: yes
+Pinned: no
+Topics: Documentation
+Track: how to
+--->
+
