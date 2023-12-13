@@ -111,7 +111,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='short_bio'>
   <h3>Jack Marquez, University of Tennessee Knoxville</h3>
-  <p>Research Assistant Professor, Electrical Engineering and Computer Science</p>
+  <p>Research Assistant Professor, Global Computing Lab, Electrical Engineering and Computer Science</p>
 </div>
 </div>
 
