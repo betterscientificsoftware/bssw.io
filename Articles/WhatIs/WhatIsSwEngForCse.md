@@ -1,5 +1,5 @@
 # What is Software Engineering for CSE?
-#### Contributed by [Anshu Dubey](https://github.com/adubey64)
+#### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Rinku Gupta](https://github.com/rinkug)
 #### Publication date: April 20, 2019
 
 <!--deck start--->
