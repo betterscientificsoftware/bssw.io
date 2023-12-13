@@ -1,8 +1,12 @@
 # Exploring Containers for Research Software
 
-Containers have gained popularity in software development and testing environments in the scientific community. Lets talk about containers and explore the docker container platform and its usage.
-
 #### Contributed by [Chris Richardson](https://github.com/chrisrichardson)
+
+#### Publication Date: March 7, 2017
+
+<!-- deck text start -->
+Containers have gained popularity in software development and testing environments in the scientific community. Lets talk about containers and explore the docker container platform and its usage.
+<!-- deck text end -->
 
 ### Introduction
 
@@ -69,6 +73,8 @@ Because docker runs as root, it is not suitable for HPC installations; but some 
 In the case of cloud computing, such as Amazon Web Services, Google Compute Engine, or Microsoft Azure, we usually get a virtual machine (VM). Running docker inside the cloud provider's VM is easy; and in many cases there is a predefined VM with docker preinstalled. Many cloud instances are now powerful, so you can run serious codes on a single node.
 
 Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now also has RDMA InfiniBand instances available and a project called [Batch Shipyard](https://github.com/Azure/batch-shipyard) that allows you to run docker images across multiple nodes with MPI.
+
+In conclusion, leveraging container technology, exemplified by Docker, streamlines the distribution and management of research software across diverse platforms, offering lightweight and efficient encapsulation of software environments. From enabling rapid experimentation to facilitating continuous integration testing and addressing specific needs in areas like high-performance computing and cloud platforms, containers prove to be a versatile solution enhancing productivity for developers and end users alike.
 
 <!---
 Publish: yes

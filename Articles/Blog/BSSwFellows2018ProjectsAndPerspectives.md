@@ -1,10 +1,12 @@
 # BSSw Fellows 2018: Projects and Perspectives
 
-#### Publication date: September 4, 2018
-
 #### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile"), [Ivo Jimenez](https://github.com/ivotron "Ivo Jimenez GitHub Profile"), [Daniel S. Katz](https://github.com/danielskatz "Daniel S. Katz GitHub Profile") and [Andrew Lumsdaine](https://github.com/lums658 "Andrew Lumsdaine GitHub Profile")
 
+#### Publication date: September 4, 2018
+
+<!-- deck text start -->
 This article provides information about the work of the inaugural class of Better Scientific Software (BSSw) Fellows and their perspectives on the BSSw Fellowship Program.  
+<!-- deck text end -->
 
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. As introduced in a prior [BSSw blog article](https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows), the 2018 Fellows are working on a variety of impactful projects. 
 
