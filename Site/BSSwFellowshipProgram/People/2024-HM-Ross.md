@@ -6,6 +6,6 @@
 
 **Affiliation:** EcoHealthAlliance
 
-**Short Bio:** Principal Scientist
+**Short Bio:** Principal Scientist, Computational Research
 
 **Honorable Mention:** Yes

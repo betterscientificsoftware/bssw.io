@@ -6,6 +6,6 @@
 
 **Affiliation:** University of Tennessee, Knoxville
 
-**Short Bio:** Research Assistant Professor
+**Short Bio:** Research Assistant Professor, Electrical Engineering and Computer Science
 
 **Honorable Mention:** Yes

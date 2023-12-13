@@ -154,8 +154,8 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 </div>
 
 <div class='short_bio'>
-  <h3>Aristana Scourtas, Globus Labs</h3>
-  <p>Research Software Engineer</p>
+  <h3>Aristana Scourtas, Globus Labs, University of Chicago and Argonne National Laboratory</h3>
+  <p>Project Manager and Research Software Engineer</p>
 </div>
 </div>
 

@@ -6,6 +6,6 @@
 
 **Affiliation:** Purdue University
 
-**Short Bio:** Lead Research Software Engineer
+**Short Bio:** Lead Research Software Engineer, Rosen Center for Advanced Computing
 
 **Honorable Mention:** Yes

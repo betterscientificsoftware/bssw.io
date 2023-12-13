@@ -6,6 +6,6 @@
 
 **Affiliation:** Lawrence Berkeley National Laboratory
 
-**Short Bio:** User Experience Researcher
+**Short Bio:** User Experience Researcher, Scientific Data Division
 
 **Honorable Mention:** Yes
