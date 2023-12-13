@@ -2,7 +2,7 @@
 
 **Name:** Jack Marquez
 
-**Image:** /images/People-2024-HM-Marquez.jpg
+**Image:** /images/People-2024-HM-MarquezB.jpg
 
 **Affiliation:** University of Tennessee, Knoxville
 
