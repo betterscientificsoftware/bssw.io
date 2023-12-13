@@ -50,6 +50,8 @@ before a single class is designed or a single line of code is written. This is i
 to the [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development process where the requirement's specification
 is iterated and refined right along with the software it specifies.
 
+Whatever software development process one chooses to adopt, its important to acknowldge that software requirements play a pivotal role in defining the capabilities and characteristics a software product must possess to meet the needs of both developers and users. These specifications form a contractual agreement between the various stakeholders involved, facilitating effective communication and understanding. Despite the challenges posed by evolving requirements and potential confusion over what and how statements, their meticulous definition is essential for successful software development, whether following the traditional Waterfall process or the iterative Agile approach.
+
 <!--body end--->
 
 <!---
