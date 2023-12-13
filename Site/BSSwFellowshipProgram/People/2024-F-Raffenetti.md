@@ -4,7 +4,7 @@
 
 **Affiliation:** Argonne National Laboratory
 
-**Image:** /images/People-2024-F-Raffenetti.png
+**Image:** /images/People-2024-F-Raffenetti.jpg
 
 **URL:**
 
