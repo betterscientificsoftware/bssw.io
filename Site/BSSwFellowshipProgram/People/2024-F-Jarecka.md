@@ -6,8 +6,6 @@
 
 **Image:** /images/People-2024-F-Jarecka.jpg
 
-**URL:**
-
 **LinkedIn:** https://linkedin.com/in/djarecka
 
 **Github:** https://github.com/djarecka

@@ -6,8 +6,6 @@
 
 **Image:** /images/People-2024-F-Raffenetti.jpg
 
-**URL:**
-
 **LinkedIn:** https://www.linkedin.com/in/ken-raffenetti-b47a1222/
 
 **Github:** https://github.com/raffenet

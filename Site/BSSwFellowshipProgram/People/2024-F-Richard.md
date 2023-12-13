@@ -8,8 +8,6 @@
 
 **URL:** https://rmrresearch.github.io/
 
-**LinkedIn:**
-
 **Github:** https://github.com/ryanmrichard
 
 **Short Bio:** Sustainable scientific software through multi-project CI/CD

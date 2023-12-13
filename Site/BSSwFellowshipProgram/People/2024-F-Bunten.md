@@ -6,8 +6,6 @@
 
 **Image:** /images/People-2024-F-Bunten.jpg
 
-**URL:**
-
 **LinkedIn:** https://www.linkedin.com/in/dave-dunten
 
 **Github:** https://github.com/d33bs
