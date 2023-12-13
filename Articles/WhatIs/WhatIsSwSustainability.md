@@ -1,4 +1,4 @@
-### What is Sustainability?
+### What is Software Sustainability?
 #### Contributed by  [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: April 20, 2023
 
