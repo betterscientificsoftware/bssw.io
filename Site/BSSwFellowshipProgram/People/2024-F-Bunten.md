@@ -4,7 +4,7 @@
 
 **Affiliation:** University of Colorado Denver
 
-**Image:** /images/People-2024-F-Bunten.png
+**Image:** /images/People-2024-F-Bunten.jpg
 
 **URL:**
 
