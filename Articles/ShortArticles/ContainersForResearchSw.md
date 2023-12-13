@@ -1,8 +1,12 @@
 # Exploring Containers for Research Software
 
-Containers have gained popularity in software development and testing environments in the scientific community. Lets talk about containers and explore the docker container platform and its usage.
-
 #### Contributed by [Chris Richardson](https://github.com/chrisrichardson)
+
+#### Publication Date: March 7, 2017
+
+<!-- deck text start -->
+Containers have gained popularity in software development and testing environments in the scientific community. Lets talk about containers and explore the docker container platform and its usage.
+<!-- deck text end -->
 
 ### Introduction
 
