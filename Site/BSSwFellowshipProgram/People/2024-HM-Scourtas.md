@@ -2,7 +2,7 @@
 
 **Name:** Aristana Scourtas
 
-**Image:** /images/People-2024-HM-Scourtas.jpg
+**Image:** /images/People-2024-HM-ScourtasB.jpg
 
 **Affiliation:** Globus Labs, University of Chicago and Argonne National Laboratory
 
