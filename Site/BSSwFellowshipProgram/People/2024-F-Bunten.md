@@ -2,7 +2,7 @@
 
 **Name:** David Bunten
 
-**Affiliation:** University of Colorado Denver
+**Affiliation:** University of Colorado Anschutz Medical Campus
 
 **Image:** /images/People-2024-F-Bunten.jpg
 
@@ -10,10 +10,10 @@
 
 **Github:** https://github.com/d33bs
 
-**Short Bio:** Software gardening almanac: Guidance and tools for sustainable software development
+**Short Bio:** Software gardening almanac: Cultivating sustainable software development in the generative era
 
 **Long Bio:**
 
-### Software gardening almanac: Guidance and tools for sustainable software development
+### Software gardening almanac: Cultivating sustainable software development in the generative era
 
 *More details coming soon.*

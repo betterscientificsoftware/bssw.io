@@ -24,9 +24,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 </div>
 
 <div class='short_bio'>
-  <h3>David Bunten, University of Colorado Denver</h3>
-  <p>Software Developer, Department of Biomedical Informatics</p>
-  <p><i>BSSw focus</i>: Software gardening almanac: Guidance and tools for sustainable software development</p>
+  <h3>David Bunten, University of Colorado Anschutz Medical Campus</h3>
+  <p>Software Developer, Department of Biomedical Informatics, School of Medicine</p>
+  <p><i>BSSw focus</i>: Software gardening almanac: Cultivating sustainable software development in the generative era</p>
 </div>
 </div>
 
