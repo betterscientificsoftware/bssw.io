@@ -74,6 +74,8 @@ In the case of cloud computing, such as Amazon Web Services, Google Compute Engi
 
 Nevertheless, if MPI is also needed on a cloud platform, Microsoft Azure now also has RDMA InfiniBand instances available and a project called [Batch Shipyard](https://github.com/Azure/batch-shipyard) that allows you to run docker images across multiple nodes with MPI.
 
+In conclusion, leveraging container technology, exemplified by Docker, streamlines the distribution and management of research software across diverse platforms, offering lightweight and efficient encapsulation of software environments. From enabling rapid experimentation to facilitating continuous integration testing and addressing specific needs in areas like high-performance computing and cloud platforms, containers prove to be a versatile solution enhancing productivity for developers and end users alike.
+
 <!---
 Publish: yes
 Topics: release and deployment, cloud computing
