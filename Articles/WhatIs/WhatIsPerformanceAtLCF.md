@@ -1,4 +1,4 @@
-### What are Performance at Leadership Computing Facilities?
+### What is Performance at Leadership Computing Facilities?
 #### Contributed by  [Rinku Gupta](https://github.com/rinkug)
 #### Publication date: April 25, 2023
 
