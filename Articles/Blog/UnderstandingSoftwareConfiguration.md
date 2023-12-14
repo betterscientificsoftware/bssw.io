@@ -1,14 +1,15 @@
-<div align="center">
-<h1> What Is Software Configuration? </h1>
-<h4> The IDEAS Scientific Software Productivity Project </h4>
-<h5> <a href="https://ideas-productivity.org/resources/howtos/">https://ideas-productivity.org/resources/howtos</a> </h5>
-<h4> Contributed by: </h4>
-</div>
+# Understanding Software Configuration
 
-**Motivation:** Installing scientific libraries or applications from source requires a system for setting up
+#### Contributed by: [Jason Sarich](https://github.com/sarich)
+
+#### Publication date: April 20, 2019
+
+<!-- deck start -->
+Installing scientific libraries or applications from source requires a system for setting up
 (configuring) the package to compile and link the code according to the user's specific platform and needs.
 This document introduces three of the most common approaches used by scientific libraries and
 applications.
+<!-- deck end -->
 
 ### Method 1: Makefile Options File
 The simplest way to communicate the options and machine parameters
@@ -95,6 +96,15 @@ dependencies.
 
 Other partial configuration systems include the use of third-party utilities to keep track of what libraries have been installed and what options they used (for example, [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/) or [setup.py](https://docs.python.org/3/install/)).
 
-<h6 align="center">This document was prepared by Jason Sarich with key contributions from Roscoe Bartlett, Todd Gamblin
+### Note:
+
+This document was prepared by the author with key contributions from Roscoe Bartlett, Todd Gamblin,
 and Barry Smith. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.</h6>
+Computing Research and Biological and Environmental Research programs.
+
+<!---
+Publish: yes
+Pinned: yes
+Track: how to
+Topics: Configuration And Builds 
+--->
