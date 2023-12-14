@@ -94,7 +94,7 @@ standard options.
 * Simplifying the management of large complex projects with many source directories and
 dependencies.
 
-Other partial configuration systems include the use of third-party utilities to keep track of what libraries have been installed and what options they used (for example, [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/) or [setup.py](https://docs.python.org/3/install/)).
+Other partial configuration systems include the use of third-party utilities to keep track of what libraries have been installed and what options they used (for example, [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/) or [setup.py in Packaging and Distributing Projects](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/)).
 
 ### Note:
 
