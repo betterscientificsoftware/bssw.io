@@ -1,12 +1,13 @@
-<div align="center">
-<h1> What Is Version Control? </h1>
-<h4> The IDEAS Scientific Software Productivity Project </h4>
-<h5> <a href="https://ideas-productivity.org/resources/howtos/">https://ideas-productivity.org/resources/howtos</a> </h5>
-<h4> Contributed by: </h4>
-</div>
+# Understanding Version Control
 
-**Motivation:** Software source, documentation, and other important (text) documents should be
+#### Contributed by: [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+#### Publication date: April 20, 2019
+
+<!-- deck start -->
+Software source, documentation, and other important (text) documents should be
 managed with a Version Control System (VCS) in order to do the following:
+<!-- deck end -->
+
  * Support safe incremental development (i.e., “undos”)
  * Support collaboration among different developers, contributors, and customers
  * Provide traceability from requirements to file changes
@@ -79,6 +80,14 @@ code reviews, provides traceability of requirements to code changes, etc.
 reStructuredText, Markdown, HTML), allows concurrent editing with merges (line by line),
 tracks who contributed to what sections (e.g., using “blame”), etc.
 
-<h6 align="center">This document was prepared by Roscoe A. Bartlett with key contributions from Jim Willenbring and Todd
+This document was prepared by the author with key contributions from Jim Willenbring and Todd
 Gamblin. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.</h6>
+Computing Research and Biological and Environmental Research programs.
+
+<!---
+Publish: yes
+Pinned: yes
+Track: how to
+Topics: Revision Control
+--->
+
