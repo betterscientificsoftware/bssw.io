@@ -1,9 +1,10 @@
-<div align="center">
-<h1> What Is Performance Portability for CSE Applications? </h1>
-<h4> The IDEAS Scientific Software Productivity Project </h4>
-<h5> <a href="https://ideas-productivity.org/resources/howtos/">https://ideas-productivity.org/resources/howtos</a> </h5>
-<h4> Contributed by: </h4>
-</div>
+# Understanding Performance Portability for CSE Applications
+
+#### Contributed by: [Anshu Dubey](https://github.com/adubey64)
+
+<!-- deck start -->
+This article explains important concepts needed towards the aim of achieving performance portability for computational science and engineering (CSE) applications.
+<!-- deck end -->
 
 **Portability:** An application code is portable if it can run on a diverse set of platforms without
 needing significant modifications to the source and can produce predictably similar output.
@@ -74,5 +75,13 @@ PyOP2. These DSLs create a portable code across multicore architectures, but the
 was distributed programming. Now, heterogeneity is coming even at the node level, so
 performance portability is everyone’s problem.
 
-<h6>This document was prepared by Anshu Dubey with key contributions from Todd Gamblin, Michael A.
-Heroux, Irina Demeshko, and Barry Smith. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.</h6>
+### Note: 
+
+This document was prepared by Anshu Dubey with key contributions from Todd Gamblin, Michael A. Heroux, Irina Demeshko, and Barry Smith. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.
+
+<!---
+Publish: yes
+Pinned: yes
+Track: how to
+Topics: Performance Portability
+--->
