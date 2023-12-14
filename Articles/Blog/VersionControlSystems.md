@@ -1,12 +1,14 @@
-# Understanding Version Control
+# Version Control Systems
 
 #### Contributed by: [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 #### Publication date: April 20, 2019
 
 <!-- deck start -->
+Version Control Systems are essential for managing changes to files in a team-wide setting and thereby keeping track of changes to a software development project as a whole.
+<!-- deck end -->
+
 Software source, documentation, and other important (text) documents should be
 managed with a Version Control System (VCS) in order to do the following:
-<!-- deck end -->
 
  * Support safe incremental development (i.e., “undos”)
  * Support collaboration among different developers, contributors, and customers
