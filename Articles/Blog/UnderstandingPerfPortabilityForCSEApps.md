@@ -1,9 +1,10 @@
 # Understanding Performance Portability for CSE Applications
 
 #### Contributed by: [Anshu Dubey](https://github.com/adubey64)
+#### Publication date: November XX, 2019
 
 <!-- deck start -->
-This article explains important concepts needed towards the aim of achieving performance portability for computational science and engineering (CSE) applications.
+This article explains important concepts to understand performance portability for computational science and engineering (CSE) applications.
 <!-- deck end -->
 
 **Portability:** An application code is portable if it can run on a diverse set of platforms without
@@ -77,7 +78,7 @@ performance portability is everyone’s problem.
 
 ### Note: 
 
-This document was prepared by Anshu Dubey with key contributions from Todd Gamblin, Michael A. Heroux, Irina Demeshko, and Barry Smith. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.
+This document was prepared by the author with key contributions from Todd Gamblin, Michael A. Heroux, Irina Demeshko, and Barry Smith. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.
 
 <!---
 Publish: yes
