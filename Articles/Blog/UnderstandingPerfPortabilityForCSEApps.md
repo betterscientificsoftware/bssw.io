@@ -1,7 +1,7 @@
 # Understanding Performance Portability for CSE Applications
 
 #### Contributed by: [Anshu Dubey](https://github.com/adubey64)
-#### Publication date: November XX, 2019
+#### Publication date: November 09, 2019
 
 <!-- deck start -->
 This article explains important concepts to understand performance portability for computational science and engineering (CSE) applications.
