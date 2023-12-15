@@ -3,7 +3,7 @@
 # run ./wikize_refs.py --help for documentation
 
 from shutil import copyfile
-import re, os
+import os, re, sys
 
 try:
     # python2
@@ -58,8 +58,8 @@ is indeed modified. In that case, some of the options here are
 reverse. Those options are noted.
 
 Repeated application of this tool to the same file should result
-in no changes. This behavior is useful in CI to confirm a proposed
-file with wikized references is up to date.
+in no changes. This behavior is useful together with the -u option
+in CI to confirm a proposed file with wikized references is up to date.
 
 To process a file...
 
@@ -99,11 +99,6 @@ def parse_args():
                       action="store_true",
                       help="Warn instead of exit during (most) error checks.")
 
-    parser.add_argument("-i", "--in-place",
-                      default=False,
-                      action="store_true",
-                      help="Modify input file in-place (irreversible).")
-
     parser.add_argument("-o", "--outfile",
                       default=None,
                       help="Specify an output file name. If none specified, will \
@@ -115,17 +110,6 @@ def parse_args():
                       action="store_true",
                       help="Disable creation of backup file appended with ~")
 
-    parser.add_argument("-c", "--check-links",
-                      type=int, default=0,
-                      help="Specify a timeout>0 in seconds for checking for broken links. \
-                      Note: using this option does require network access to confirm URLs \
-                      actually work.")
-
-    parser.add_argument("-g", "--gather-linkdefs",
-                      default=False,
-                      action="store_true",
-                      help="Gather all link definitions to the end of the file (irreversible).")
-
     parser.add_argument("-l", "--linkdef-db",
                       type=str, default=None,
                       action="append",
@@ -134,9 +118,30 @@ def parse_args():
                             used linkdefs will be copied from that file to the file being \
                             processed here. Multiple -l options are allowed.")
 
+    parser.add_argument("-c", "--check-links",
+                      type=int, default=0,
+                      help="Specify a timeout>0 in seconds for checking for broken links. \
+                      Note: using this option does require network access to confirm URLs \
+                      actually work.")
+
+    parser.add_argument("-u", "--up-to-date",
+                      default=False,
+                      action="store_true",
+                      help="Check if a file's refs are up to date. Return non-zero if so.")
+
+    parser.add_argument("-i", "--in-place",
+                      default=False,
+                      action="store_true",
+                      help="Modify input file in-place (irreversible).")
+
     parser.add_argument("-r", "--renumber",
                       type=int, default=0,
                       help="Renumber references starting from specified value > 0 (irreversible).")
+
+    parser.add_argument("-g", "--gather-linkdefs",
+                      default=False,
+                      action="store_true",
+                      help="Gather all link definitions to the end of the file (irreversible).")
 
     parser.add_argument("mdfile")
 
@@ -617,7 +622,7 @@ def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place
         in_lines = inf.readlines()
         if str().join(out_lines) == str().join(in_lines):
             print("\"%s\" is up to date. No changes will be made."%in_filename)
-            return
+            return 2
 
     # don't make the backup if asked not to
     if in_place and not skip_backup:
@@ -627,6 +632,8 @@ def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place
     outfname = out_filename if out_filename else in_filename
     with open(outfname, 'w') as outf:
         outf.writelines(["%s" % line for line in out_lines])
+
+    return 1
 
 #
 # For basic design/operation, see usage notes (above)
@@ -673,7 +680,7 @@ def main(opts, mdfile):
 
     # Ok, now actually write the updated file
     flines = [file_lines[k]['line'] for k in sorted(file_lines)]
-    write_output_file(flines, out_lines, mdfile, opts['outfile'], opts['in_place'],
+    return write_output_file(flines, out_lines, mdfile, opts['outfile'], opts['in_place'],
         opts['skip_backup'])
 
 #
@@ -688,4 +695,10 @@ if __name__ == '__main__':
     # Initialize error mode
     errors_are_fatal(not opts['warn'])
 
-    main(opts, mdfile)
+    retval = main(opts, mdfile)
+
+    # Set right error state if we're checking if file is up to date
+    if opts['up_to_date'] and retval != 2:
+        sys.exit(1)
+
+    sys.exit(0)
