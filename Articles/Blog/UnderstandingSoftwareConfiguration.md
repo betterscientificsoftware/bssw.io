@@ -9,8 +9,7 @@ This article delves into the intricacies of software configuration during the in
 <!-- deck end -->
 
 Effective software configuration plays a critical role in ensuring seamless installation of scientific libraries or applications from source by configuring the package to compile and link the code according to the user's 
-specific platform and requirements.  
-This document outlines three prevalent approaches adopted by scientific libraries and applications to facilitate this installation process. 
+specific platform and requirements.  This document outlines three prevalent approaches adopted by scientific libraries and applications to facilitate this installation process. 
 
 ### Method 1: Makefile Options File
 The simplest way to communicate the options and machine parameters
