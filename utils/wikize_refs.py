@@ -32,16 +32,17 @@ to the end of the file.
 
 The new links are bi-level. Footnotes in the content link to
 entries in a visible list of references appended to the end of the
-document. Items in the list of references link off-page to their
+visible content. Items in the list of references link off-page to their
 intended destinations. The resulting file is still GitHub flavored
 Markdown with a minimal amount of embedded HTML.
 
 To create just simple, ordinary footnotes (e.g. not reference style
-links) using the same machinery, ensure the URL portion of the
+links) using the same machinery, simply ensure the URL portion of the
 reference link is just the hashtag/pound character ('#') and then
-enclose the footnote text in double quotes.
+be sure to enclose the footnote text in double quotes.
 
 If the file contains no footnotes, it will be left unchanged.
+
 Some minimal error checks include: a) there is an existing link
 definition for every footnote and b) every link definition appears
 in at least one footnote. It will also check that links are valid,
@@ -52,12 +53,13 @@ error. Otherwise only warning messages are produced.
 
 Ordinarily, the input file is never changed. However, with the -i
 option, the changes are applied *in place* meaning the input file
-is indeed modified. In that cases, some of the options here are
+is indeed modified. In that case, some of the options here are
 *irreversible* in that the file is changed in ways not easy to
-reverse. Those are noted.
+reverse. Those options are noted.
 
 Repeated application of this tool to the same file should result
-in no changes.
+in no changes. This behavior is useful in CI to confirm a proposed
+file with wikized references is up to date.
 
 To process a file...
 
@@ -272,7 +274,6 @@ def is_link_def_line(mdfl):
     # Ignore cases that appear to be auto-generated intermediate links
     if ref_url.startswith('#%s'%magic()):
         return None
-
 
     return [ref_hdl, ref_url, ref_tit, ref_bib]
 
