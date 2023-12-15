@@ -5,11 +5,12 @@
 #### Publication date: April 20, 2019
 
 <!-- deck start -->
-Installing scientific libraries or applications from source requires a system for setting up
-(configuring) the package to compile and link the code according to the user's specific platform and needs.
-This document introduces three of the most common approaches used by scientific libraries and
-applications.
+This article delves into the intricacies of software configuration during the installation of scientific libraries or applications from source, exploring three prevalent approaches to streamline the process.
 <!-- deck end -->
+
+Effective software configuration plays a critical role in ensuring seamless installation of scientific libraries or applications from source by configuring the package to compile and link the code according to the user's 
+specific platform and requirements.  
+This document outlines three prevalent approaches adopted by scientific libraries and applications to facilitate this installation process. 
 
 ### Method 1: Makefile Options File
 The simplest way to communicate the options and machine parameters
