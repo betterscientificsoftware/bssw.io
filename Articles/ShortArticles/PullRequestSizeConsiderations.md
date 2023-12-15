@@ -1,5 +1,9 @@
 # Pull Request Size Matters
 
+#### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
+
+#### Publication date: Feb 18, 2021
+
 <!-- deck text start -->
 Developers new to peer review via the Pull Request workflow supported by
 hosting providers like GitHub, GitLab, etc., may not appreciate the
@@ -7,9 +11,6 @@ impact of the *size* of the Pull Request on overall productivity of the team.
 This article outlines some issues and provides some links to several
 supporting articles about the impact of Pull Request size on productivity.
 <!-- deck text end --> 
-
-#### Contributed by [Mark C. Miller](http://github.com/markcmiller86 "Mark C. Miller")
-#### Publication date: Feb 18, 2021
 
 By now, most HPC/CSE'ers are likely familiar with *pull requests (PR)*. That is
 GitHub/Bitbucket parlance (GitLab uses *merge request*) for a batch of related
@@ -118,7 +119,7 @@ in turn based on Git's `request-pull`<sup>[21]</sup> operation),
 seasoned software professionals engaged in the conceptually equivalent processes using a
 patchwork of approaches and tools<sup>[22]</sup>
 (or using something like CodeStriker<sup>[23]</sup>) designed specifically for
-code review) which often even included emailing around patchfiles.
+code review) which often even included emailing around patch files.
 
 Finally, some commercial companies such as Google claim not to use the branching mechanisms
 in version control systems to manage code review. Instead, most new features and changes
@@ -127,13 +128,13 @@ in behavior are managed on a single, monolithic line of development<sup>[23],[24
 Both new and old code paths often coexist in the one and only main line of development
 simultaneously, controlled by *toggle* flags, a practice that facilitates accepting large
 changes in small, incremental steps. In all likelihood there are exceptions to this practice
-for large and/or automated refactorings.
+for large and/or automated refactoring.
 
 <!---
  Publish: yes
  Pinned: no
  Topics: revision control, development tools, peer code review
- Track: Experience
+ Track: deep dive
  RSS update: 2021-02-18
  --->
 
@@ -207,7 +208,7 @@ for large and/or automated refactorings.
 * <a name="sfer-ezikiw-12"></a><sup>12</sup>[What is Code Churn](https://www.pluralsight.com/blog/tutorials/code-churn)
 * <a name="sfer-ezikiw-13"></a><sup>13</sup>[VisIt VTK Upgrade Commit](https://github.com/visit-dav/visit/commit/110b95f270effecce04c9ce45a09aeee9ced5b22)
 * <a name="sfer-ezikiw-14"></a><sup>14</sup>[What is Continuous Technology Refresh (CTR)](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit)
-* <a name="sfer-ezikiw-15"></a><sup>15</sup>[The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
+* <a name="sfer-ezikiw-15"></a><sup>15</sup>[The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost](https://ntrs.nasa.gov/api/citations/20130012526/downloads/20130012526.pdf)
 * <a name="sfer-ezikiw-16"></a><sup>16</sup>[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure)
 * <a name="sfer-ezikiw-17"></a><sup>17</sup>[Git Integration Branch Workflow](https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide#integration-branch)
 * <a name="sfer-ezikiw-18"></a><sup>18</sup>[Optimal pull request size](https://smallbusinessprogramming.com/optimal-pull-request-size/)
