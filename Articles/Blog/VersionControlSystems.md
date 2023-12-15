@@ -82,6 +82,8 @@ code reviews, provides traceability of requirements to code changes, etc.
 reStructuredText, Markdown, HTML), allows concurrent editing with merges (line by line),
 tracks who contributed to what sections (e.g., using “blame”), etc.
 
+### Note:
+
 This document was prepared by the author with key contributions from Jim Willenbring and Todd
 Gamblin. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
 Computing Research and Biological and Environmental Research programs.
