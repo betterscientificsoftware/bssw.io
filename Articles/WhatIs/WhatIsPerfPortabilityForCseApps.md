@@ -1,7 +1,7 @@
 ### What is Performance Portability for CSE Applications?
 #### Contributed by [Anshu Dubey](https://github.com/adubey64)
 
-#### Publication date: Nov XX, 2019 
+#### Publication date: Nov 29, 2019 
 
 <!--deck start--->
 
