@@ -1,12 +1,13 @@
 # An Introduction to User Stories and How to Write Them
 
+#### Contributed by [Osni Marques](https://github.com/oamarques)
+
+#### Publication date: July 27, 2019
+
 <!--- deck start --->
 Several software development methodologies employ user stories as a method to convey product requirements. Do you know what user stories are and how to employ them in scientific software development?
 <!--- deck end --->
 
-#### Contributed by [Osni Marques](https://github.com/oamarques)
-
-#### Publication date: July 27, 2019
 
 User stories, at their core, provide a flexible method for communicating about product requirements. 
 

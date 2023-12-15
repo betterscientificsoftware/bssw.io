@@ -1,13 +1,15 @@
 # The Developer Certificate of Origin
 
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+
+#### Publication date: January 26, 2022
+
 <!--deck text start-->
 Every project that accepts contributions from outside developers should have a legal mechanism in place that allows those contributions to become part of the main code base for further development and/or distribution, and avoids any possible future legal issues that could arise. 
 The Developer Certificate of Origin with signoffs embedded into Git commits messages is becoming the preferred way to approach these circumstances, and is being adopted by important open source projects.
 <!--deck text end-->
 
-#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: January 26, 2022
 
 When a person writes a piece of software, they own the copyrights in that software by default, unless it is a "work for hire". In that case, their employer owns it, or those rights are conveyed to some other legal entity by a written agreement.
 Even if that person provides that source code with the implied intent to make it part of some existing software project or otherwise give it away (i.e. place it in the public domain), legal experts may differ as to whether that by itself is enough to allow the receiving project to modify and distribute the contribution along with the rest of the project.
