@@ -134,11 +134,6 @@ def parse_args():
                             used linkdefs will be copied from that file to the file being \
                             processed here. Multiple -l options are allowed.")
 
-    parser.add_argument("-t", "--two-column",
-                      default=False,
-                      action="store_true",
-                      help="Output refs as two-column, pure-html instead of single column GFM.")
-
     parser.add_argument("-r", "--renumber",
                       type=int, default=0,
                       help="Renumber references starting from specified value > 0 (irreversible).")
@@ -581,9 +576,8 @@ def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
 
     return outlines
 
-def build_reference_list_lines(remapped_ref_map, renumber, twocol):
-    """Build (auto-gen'd) rendered list of references as either a single
-       column, pure markdown list or two-column, html list (with divs)."""
+def build_reference_list_lines(remapped_ref_map, renumber):
+    """Build (auto-gen'd) rendered list of references."""
     outlines = []
 
     if remapped_ref_map:
@@ -599,44 +593,20 @@ def build_reference_list_lines(remapped_ref_map, renumber, twocol):
             sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
         i = 0
         halfway = len(sorted_map) / 2
-        if twocol:
-            outlines.append('<div class="references-wrapper">\n')
-            outlines.append('<div class="references">\n')
         for k,v in sorted_map:
             v3 = k+renumber if renumber else v[3]
             if v[1] and v[2]: # both title and bibinfo exist
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s<br>%s</a>\n"%(v3, magic(), v3, v[0], v[1], v[2]))
-                else:
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
+                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
             elif v[1]: # only title exists
                 if v[0] == '#':
-                    if twocol:
-                        outlines.append("<sup>%s</sup><a name=\"%s-%s\"></a>%s\n"%(v3, magic(), v3, v[1]))
-                    else:
-                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>%s\n"%(magic(), v3, v3, v[1]))
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>%s\n"%(magic(), v3, v3, v[1]))
                 else:
-                    if twocol:
-                        outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[1]))
-                    else:
-                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
             elif v[2]: # only bibinfo exists
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[2]))
-                else:
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
+                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
             else: # only url exists
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[0]))
-                else:
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
-            if twocol and i == halfway:
-                outlines.append('</div>\n')
-                outlines.append('<div class="references">\n')
+                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
             i += 1
-        if twocol:
-            outlines.append('</div>\n')
-            outlines.append('</div>\n')
 
     return outlines
 
@@ -699,7 +669,7 @@ def main(opts, mdfile):
     out_lines += build_intermediate_link_defn_lines(remapped_ref_map, opts['renumber'])
 
     # Build reference list lines
-    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'], opts['two_column'])
+    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'])
 
     # Ok, now actually write the updated file
     flines = [file_lines[k]['line'] for k in sorted(file_lines)]
