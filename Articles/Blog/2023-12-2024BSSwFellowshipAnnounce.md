@@ -20,7 +20,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_BuntenDavid_F.png' class='logo' />
+<img src='../../images/Blog_2312_Bunten_F.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -32,7 +32,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_JareckaDorota_F.png' class='logo' />
+<img src='../../images/Blog_2312_Jarecka_F.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -44,7 +44,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_NewtonOlivia_F.png' class='logo' />
+<img src='../../images/Blog_2312_Newton_F.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -56,7 +56,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/Blog_2312_RaffenettiKen_F.png' class='logo' />
+  <img src='../../images/Blog_2312_Raffenetti_F.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -68,7 +68,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_RichardRyan_F.png' class='logo' />
+<img src='../../images/Blog_2312_Richard_F.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -80,7 +80,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_WasserLeah_F.png' class='logo' />
+<img src='../../images/Blog_2312_Wasser_F.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -95,7 +95,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2313_GeorgiadouAntigoni_HM.png' class='logo' />
+<img src='../../images/Blog_2313_Georgiadou_HM.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -106,7 +106,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_MarquezJack_HM.png' class='logo' />
+<img src='../../images/Blog_2312_Marquez_HM.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -117,7 +117,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_PaineDrew_HM.png' class='logo' />
+<img src='../../images/Blog_2312_Paine_HM.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -128,7 +128,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_RossNoam_HM.png' class='logo' />
+<img src='../../images/Blog_2312_Ross_HM.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -139,7 +139,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_ScarpinoMatthew_HM.png' class='logo' />
+<img src='../../images/Blog_2312_Scarpino_HM.png' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -150,7 +150,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2312_ScourtasAristana_HM.png' class='logo' />
+<img src='../../images/Blog_2312_Scourtas_HM.png' class='logo' />
 </div>
 
 <div class='short_bio'>
