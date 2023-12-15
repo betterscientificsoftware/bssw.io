@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/Blog_2312_ucsc-sor.png' />
+ - <img src='../../images/Blog2312_SoR.png' />
  
 #### Contributed by [Stephanie Lieggi](https://github.com/slieggi) and [Carlos Maltzahn](https://github.com/carlosmalt)
 
