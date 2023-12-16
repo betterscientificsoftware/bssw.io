@@ -3,17 +3,19 @@ name: Wikize Refs Check
 on:
   pull_request:
     branches: [ main ]
-  paths:
-    - '**.md'
-    - '!docs/**'
+    paths:
+      - '**.md'
+      - '!docs/**'
 
 jobs:
-  wikize-refs-source:
+  wikize-refs-check:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,8 +24,14 @@ jobs:
 
       - name: Run wikize-refs on each file
         run: |
-          set -e
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }})
+          set -x
+          exstat=0
+          files=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }})
           for file in $files; do
-            wikize-refs.py -u "$file"
+            utils/wikize_refs.py -u "$file"
+            if [[ $? -ne 0 ]]; then
+                echo "$file needs wiki refs updated"
+                exstat=1
+            fi
           done
+          exit $exstat
