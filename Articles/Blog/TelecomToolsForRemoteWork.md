@@ -107,9 +107,9 @@ A/V quality | [TBD](#tbd) | [TBD](#tbd)
 [Virtual water<br>cooler](#virtual-water-cooler) | [TBD](#tbd) | [TBD](#tbd)
 
 
-## <a name='the-basics'>The Basics</a>
+### <a name='the-basics'>The Basics</a>
 
-### <a name='free-plans'>Free plans</a>
+#### <a name='free-plans'>Free plans</a>
 
 Most vendors offer a *free* plan. However, these typically come with length and/or
 size limitations. In response to the COVID-19 pandemic situation, some vendors have
@@ -125,7 +125,7 @@ If you do need to *host* meetings *and* you do not already have a plan through y
 organization, the lowest-level paid plan in any of these products is probably sufficient
 for most project's needs.
 
-### <a name='plan-pricing'>Plan pricing</a>
+#### <a name='plan-pricing'>Plan pricing</a>
 
 Most vendors charge monthly, *per host account* and then offer a few different plans
 based on meeting size and plan features. In response to the COVID-19 pandemic situation,
@@ -133,7 +133,7 @@ some vendors are offering discounts on their plans for a year-long purchase. In 
 most vendors offer *enterprise* level accounts designed for large organizations with many
 users, each of which may require their own *host account*. 
 
-### <a name='size-limits'>Size Limits</a>
+#### <a name='size-limits'>Size Limits</a>
 
 The *maximum meeting size* is the maximum number of *participants* in a meeting. A
 number of vendors draw a distinction between a *meeting*, which typically requires
@@ -165,7 +165,7 @@ join a meeting that is at its size capacity will be prevented. A key question
 is if and how the host may be notified of this. At present, this behavior is
 unclear.
 
-### <a name='supported-devices'>Supported devices</a>
+#### <a name='supported-devices'>Supported devices</a>
 
 * [A] = Audio-only telephone device using landline, cell or VoIP
 * [W] = Web-browser device often using a browser-extension
@@ -173,7 +173,7 @@ unclear.
 * [L] = Laptop or desktop computer device operating over the internet
 * [VCS] = Video Conferencing System with dedicated hardware/network
 
-### <a name='no-install-option'>No-install option</a>
+#### <a name='no-install-option'>No-install option</a>
 
 It can be convenient to provide your meeting participants with a way of attending that
 does not require them to download or install any new software. This is typically possible
@@ -182,7 +182,7 @@ a browser extension to be downloaded. In addition, this approach also typically 
 that such participants have limited functionality. For example, they may not be able to
 host a meeting as a presenter and share content from their browser.
 
-### <a name='high-definition-video'>High-definition video</a>
+#### <a name='high-definition-video'>High-definition video</a>
 
 So much of human interaction involves
 [non-verbal cues](https://www.lifesize.com/en/video-conferencing-blog/speaking-without-words).
@@ -202,7 +202,7 @@ on moment-to-moment network responsiveness. Each participant's local
 network and/or the wide-area network loads may be such that even if 
 high-definition video is supported, the network loads will not support it.
 
-### <a name='test-meeting'>Test meeting</a>
+#### <a name='test-meeting'>Test meeting</a>
 
 For first-time users, without actually participating in a meeting it can be difficult
 to know for sure whether the audio and video of your particular configuration will work with
@@ -212,7 +212,7 @@ be able to test all features, but you should be able to test basic audio and vid
 Most vendors provide a *test meeting* for this purpose. Zoom provides a means to test
 audio and video each time prior to connecting to a new meeting.
 
-### <a name='free-dial-in-option'>Free dial-in option</a>
+#### <a name='free-dial-in-option'>Free dial-in option</a>
 
 For those who wish to connect audio via ordinary telephone (landline or cell), it can be
 convenient to provide your meeting participants with a toll-free option. This feature may
@@ -220,7 +220,7 @@ be particularly important for international participants. While this feature is 
 across many vendors' products, enabling it typically involves additional cost. However,
 enterprise plans as part of your home organization may provide the feature.
 
-## <a name='content-sharing'>Content sharing</a>
+### <a name='content-sharing'>Content sharing</a>
 
 Virtual meeting tools provide a variety of features to allow meeting participants to
 share content. In the absence of any one of these features, there are often acceptable
@@ -231,14 +231,14 @@ sharing, including some limited whiteboarding;
 [Google hangouts](https://hangouts.google.com/) (now called *Google Meet*) can be
 used for chat.
  
-### <a name='screen-sharing'>Screen sharing</a>
+#### <a name='screen-sharing'>Screen sharing</a>
 
 Screen sharing is a feature that allows the host/presenter to share everything on his/her screen
 with all the participants. All teleconference tools support this feature even from 
 mobile devices. However, a number of tools also support variations of this feature for
 different needs, as described below.
 
-### <a name='audio-sharing'>Share Audio</a>
+#### <a name='audio-sharing'>Share Audio</a>
 
 Shared audio is a feature that allows any audio content, such as videos with sound, music or
 podcasts, to be properly handled such that attendees here *direct* audio as opposed to
@@ -247,7 +247,7 @@ microphone). It means audio originating from content on the presenter's computer
 mixed with audio of the presenter's voice, etc. Not all teleconferencing tools support this.
 
 
-### <a name='app-sharing'>App sharing</a>
+#### <a name='app-sharing'>App sharing</a>
 
 App (or Application) sharing is like [*Screen Sharing*](#screen-sharing) except that
 the windows of only a single application (e.g., PowerPoint or Word) are shared. The
@@ -257,7 +257,7 @@ host/presenter tends to have a lot of windows open, and they want to keep the
 participants from accidentally seeing the content of those other windows. When you
 have a choice, using application-specific sharing is a **best privacy practice**.
 
-### <a name='shared-whiteboard'>Shared whiteboard</a>
+#### <a name='shared-whiteboard'>Shared whiteboard</a>
 
 A shared whiteboard is similar to but not quite the same functionality as *Shared Annotations*. A shared
 whiteboard is a separate drawing area, like a whiteboard in an office, where all
@@ -270,7 +270,7 @@ Currently, no virtual meeting vendors provide such an experience in their shared
 features. In fact, there are few *dedicated* shared whiteboard solutions available
 that work on all platforms that support tablet & pan-based drawing gestures.
 
-### <a name='shared-annotations'>Shared annotations</a>
+#### <a name='shared-annotations'>Shared annotations</a>
 
 Shared annotations are similar to but not quite the same as [*Screen Sharing*](#screen-sharing).
 Shared annotations allow the presenter/host to draw annotations on top of whatever
@@ -278,7 +278,7 @@ content is being displayed in the main window so that all other participants can
 In addition, some products allow *attendees* also to draw shared annotations.
 
 
-### <a name='able-chat'>Able chat</a>
+#### <a name='able-chat'>Able chat</a>
 
 All vendors typically provide some kind of a chat feature that allows participants
 to send text messages to each other. We use the term *able* chat to mean that the chat handles
@@ -294,7 +294,7 @@ Of course, there is still the issue of how best to distribute a link to meeting 
 probably via email. Note that Zoom's chat is not *persisted* to newly arriving attendees. A
 newly arriving attendee in Zoom will not see any chats that occurred prior to their arrival.
 
-### <a name='voting-or-polling'>Voting or polling</a>
+#### <a name='voting-or-polling'>Voting or polling</a>
 
 Polling is a feature that allows the host to ask participants a question and have
 them anonymously vote their responses. In the absence of this feature, a clumsy
@@ -302,7 +302,7 @@ but sufficient work-around is to use [Google forms](https://www.google.com/forms
 creating the form and then pasting a link to the form in your meeting's chat
 window, allowing all participants to easily go there to vote their response.
 
-### <a name='file-sharing'>File sharing</a>
+#### <a name='file-sharing'>File sharing</a>
 
 File sharing allows participants to share whole files, which attendees can then
 download to their own systems. This feature has varying levels of support 
@@ -311,7 +311,7 @@ vendors provide support for scripts and even augmented reality files. File
 sharing, especially executable scripts, may introduce additional security
 concerns.
 
-### <a name='recording'>Recording</a>
+#### <a name='recording'>Recording</a>
 
 Recording of a virtual meeting session is often convenient for participants
 who were unable to attend to watch later or for a scribe to go back
@@ -331,14 +331,14 @@ Some vendors provide support for producing textual
 consent not only to create a recording but also to specify with whom the
 recording may later be shared.
 
-### <a name='transcription'>Transcription</a>
+#### <a name='transcription'>Transcription</a>
 
 Recorded sessions can be transcribed into time-stamped text to enable easy
 searching of the recorded stream. Transcription typically requires about 2x
 the recording time to complete and is typically available only for sessions
 recorded to the *cloud* and pricier plans.
 
-### <a name='closed-captioning'>Closed captioning</a>
+#### <a name='closed-captioning'>Closed captioning</a>
 
 All vendors offer *some* support for closed captioning. Typically, the support
 provided is just the *display* of captions. The *generation* of captions is
@@ -349,13 +349,13 @@ captions.
 Some vendors appear already to provide or plan to provide *add-on* features
 with automatic captioning.
 
-### <a name='live-streaming'>Live streaming</a>
+#### <a name='live-streaming'>Live streaming</a>
 
 Some products offer the ability to stream a *live* session to platforms like
 YouTube or Facebook. Of course, this also means that the session will be
 effectively be *recorded* but only on that platform.
  
-### <a name='compatibility'>Compatibility</a>
+#### <a name='compatibility'>Compatibility</a>
 
 The web client typically allows users to join a meeting through their browser.
 A web client is often advantageous because it *usually* allows users to avoid
@@ -364,12 +364,12 @@ have to download a browser *extension* to support the web client. In addition,
 web clients often **do not** support features needed by a meeting *host* or
 *presenter* but are intended primarily to support only meeting *attendees*.
 
-### <a name='recommended'>Recommended</a>
+#### <a name='recommended'>Recommended</a>
 
 The *recommended* platform is either the OS or browser that supports the *most*
 features or is the platform recommended by the vendor.
 
-## <a name='security'>Security</a>
+### <a name='security'>Security</a>
 
 Depending on the kind of information to be *processed* in a virtual meeting,
 the level of security the product provides may or may not be an issue.
@@ -380,7 +380,7 @@ concern, one possible though inconvenient work-around is for
 aspects of running a virtual meeting but may be the best option in
 some circumstances.
 
-### Recent issues
+#### Recent issues
 
 Recent security concerns in various virtual meeting products have been all
 the rage in the mainstream media. Unfortunately, many sources lack the
@@ -389,26 +389,26 @@ risk of issues encountered with respect to the kinds of information
 to be *processed*. When we have found technically competent sources, we
 provide links to them in the table.
 
-### <a name='best-practices'>Best Practices</a>
+#### <a name='best-practices'>Best Practices</a>
 
 For each product, when there is a collection of *best practices* for ensuring
 the best possible level of security when using that product for a meeting, we
 indicate that in the table and provide a link.
 
-### <a name='lock-meeting'>Lock Meeting</a>
+#### <a name='lock-meeting'>Lock Meeting</a>
 
 When a meeting is *locked*, it cannot be joined by any other
 participants even with the correct credentials. Participants who leave
 a locked meeting cannot re-join.
 
-### <a name='expel-attendee'>Expel Attendee</a>
+#### <a name='expel-attendee'>Expel Attendee</a>
 
 *Expelling* or *removing* an attendee is typically a power that only meeting
 hosts have. It is important for hosts to know how to do this *quickly*. If for
 some reason the meeting is *bombed*, quick action from the host can correct
 the situation before it gets out of hand.
 
-### <a name='expel-recovery'>Expel Recovery</a>
+#### <a name='expel-recovery'>Expel Recovery</a>
 
 In most products, an attendee who is expelled cannot rejoin that
 meeting instance; the attendee would have to use a wholly different *identity* or email
@@ -417,7 +417,7 @@ action of expelling an attendee. Some products do enable a host to *recover*
 from this situation, however, allowing an inadvertently expelled attendee to
 rejoin with the same identity.
 
-### <a name='privacy'>Privacy</a>
+#### <a name='privacy'>Privacy</a>
 
 [Privacy is related to but also distinct from security](https://www.hiv.gov/blog/difference-between-security-and-privacy-and-why-it-matters-your-program). While security is about safeguarding data
 of any kind, privacy is specifically about safeguarding
@@ -439,16 +439,16 @@ needing to keep an eye on his students. However, if the same thing were to
 happen among adult, professional colleagues without their consent, it may not be
 viewed too kindly.
 
-### <a name='e2e-encryption'>E2E Encryption</a>
+#### <a name='e2e-encryption'>E2E Encryption</a>
 
 [End-to-end encryption (E2EE)](https://en.wikipedia.org/wiki/End-to-end_encryption)
 is a system of communication where only the communicating users have the ability to
 decrypt and read the messages. If this feature is essential, readers should take
 caution to read as much as possible about how a given product supports E2EE.
 
-## <a name='advanced-features'>Advanced features</a>
+### <a name='advanced-features'>Advanced features</a>
 
-### <a name='personal-rooms'>Personal rooms</a>
+#### <a name='personal-rooms'>Personal rooms</a>
 
 A *personal* room is the virtual equivalent of a meeting place that only the
 owner has the *keys* to open for an event. Only the owner can host meetings there
@@ -460,7 +460,7 @@ in other tasks and can be *interrupted* by another person who *enters* their
 room. Some products support *notifications* that inform an owner that someone
 is trying to enter a room when the owner is not already connected there.
 
-### <a name='breakout-rooms'>Breakout Rooms</a>
+#### <a name='breakout-rooms'>Breakout Rooms</a>
 
 Breakout rooms are a feature that makes it possible for a single meeting to break into
 sub-meetings among smaller groups of participants and, after a period of time,
@@ -485,7 +485,7 @@ allow attendees to decide for themselves which room (e.g. activity) they want
 to go to. The rooms have a specific time limit and when the time is up, they
 are all ended and everyone is re-joined to the main meeting.
 
-### <a name='virtual-background'>Virtual background</a>
+#### <a name='virtual-background'>Virtual background</a>
 
 A virtual background is an image (some products also support short video loops)
 that displays as though you are seated just in front of it. Some products may
@@ -494,7 +494,7 @@ behind you. Newer products can make this feature work without requiring anything
 special behind you. In particular, you can hide a messy office by using a photo
 you take of your office when it was once clean.
 
-### <a name='bandwidth-management'>Bandwidth management</a>
+#### <a name='bandwidth-management'>Bandwidth management</a>
 
 Bandwidth management are those features of the virtual meeting product that enable
 any attendee to do some amount of management of the bandwidth to/from their device.
@@ -503,7 +503,7 @@ options may involve aspects of tools apart from the virtual meeting software its
 For example, the camera you use may have ability to control video quality explicitly
 allowing you to *always* share only low quality video to conserve bandwidth.
 
-## <a name='experiences-in-actual-use'>Experiences in actual use</a>
+### <a name='experiences-in-actual-use'>Experiences in actual use</a>
 
 In this section, we capture some high-level, subjective assessments
 of the products as well as their perceived suitability in
@@ -517,7 +517,7 @@ We use a 4-point Likert subjective quality scale:
 4. **Poor** - Product really doesn't support this use case without relying upon
 other tools.
  
-### <a name='technical-project-meetings'>Technical project meetings</a>
+#### <a name='technical-project-meetings'>Technical project meetings</a>
 
 A technical project meeting involves a lot of technical dialog and technical
 diagrams, some of which are either created or revised and shared live. This
@@ -526,7 +526,7 @@ shared annotations. Anyone on the team may use a *screen grab* tool or even a
 cell phone to capture and save content that is created this way.
 
 
-### <a name='hands-on-trainings'>Hands-on trainings</a>
+#### <a name='hands-on-trainings'>Hands-on trainings</a>
 
 In hands-on training scenarios, raise-hand, chat, and even break-out room features
 can be important. Breakout rooms can be useful for people (e.g., helpers for the training session) to sit virtually
@@ -535,7 +535,7 @@ without interrupting the training leader. Breakout rooms also are helpful in thi
 use case for the hands-on leader and helpers to *walk the virtual room* and
 check on individual participants, even looking at their screen and work.
 
-### <a name='pair-programming'>Pair programming</a>
+#### <a name='pair-programming'>Pair programming</a>
 
 Most of the products described here are excellent for virtual
 [pair programming](https://en.wikipedia.org/wiki/Pair_programming). In fact, 
@@ -543,7 +543,7 @@ pair programming with these technologies is likely *easier* than in a traditiona
 scenario, where the two participants might have to squint over a single laptop
 screen.
 
-### <a name='interviewing'>Interviewing</a>
+#### <a name='interviewing'>Interviewing</a>
 
 Interviewing involves people meeting for the first time. Interviewing requires good
 high-definition video, good audio, and reliable network performance to be fully
@@ -553,7 +553,7 @@ is conducted than anything else. There are some
 [best practices](https://builtin.com/recruiting/video-interview) to follow when
 conducting interviews in this manner.
 
-### <a name='hack-a-thons'>Hack-a-thons</a>
+#### <a name='hack-a-thons'>Hack-a-thons</a>
 
 [Hack-a-thons](https://www.mabl.com/blog/hosting-our-first-hackathon-during-covid-19-quarantine-2020)
 typically involve many individuals and teams coming together in the same
@@ -564,7 +564,7 @@ individual teams. If all participants are part of some larger organization throu
 which they all have access to an *enterprise* level product, then each team's virtual
 room can likely be created using one of the team member's [personal rooms](#personal-rooms).
 
-### <a name='virtual-water-cooler'>Virtual water cooler</a>
+#### <a name='virtual-water-cooler'>Virtual water cooler</a>
 
 All of the products here are perfectly sufficient for *virtual water cooler* chats.
 In many cases, if the participants know each other well, video may not even be needed
@@ -583,19 +583,19 @@ the discussion. There are many
 [other ideas](https://medium.com/@aarondinin/how-to-enable-water-cooler-innovation-for-remote-working-teams-2dfb3d50b1ab)
 on the use of video teleconferencing technology for virtual water cooler conversations.
 
-### <a name='tbd'>To be done</a>
+#### <a name='tbd'>To be done</a>
 
 The information here is evolving and we have only limited resources to create and
 maintain it. We intend to make routine updates.
 
-## Other resources
+### Other resources
 
 * [Wikipedia comparison](https://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software)
    * Many products compared but small feature set
 * [Virtual Conferences: A Guide to Best Practices](https://www.acm.org/virtual-conferences)
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
-### Zoom notes
+#### Zoom notes
 
 * <a name='zoom-notes-az'>[az]</a>: Maximum number of attendees depends on the plan. There is a *Large Meeting*
 add-on option (not for the *free* plan) available for purchase, on a month-to-month basis,
@@ -609,7 +609,7 @@ cannot use this option.
 * <a name='zoom-notes-ez'>[ez]</a>: Live streaming to YouTube/Facebook is supported only in Zoom's Webinar product.
 * <a name='zoom-notes-fz'>[fz]</a>: Zoom virtual backgrounds can be *videos*.
 
-### WebEx notes
+#### WebEx notes
 
 * <a name='webex-notes-aw'>[aw]</a>: [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
 of products offered by WebEx. Some features described in this article that are
