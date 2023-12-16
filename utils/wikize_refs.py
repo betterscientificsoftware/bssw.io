@@ -58,8 +58,8 @@ is indeed modified. In that case, some of the options here are
 reverse. Those options are noted.
 
 Repeated application of this tool to the same file should result
-in no changes. This behavior is useful together with the -u option
-in CI to confirm a proposed file with wikized references is up to date.
+in no changes. This behavior is useful in CI, together with the -u
+option, to confirm a proposed file with wikized references is up to date.
 
 To process a file...
 
@@ -392,27 +392,47 @@ def gather_fn_handles(file_lines):
 
 def build_ref_map(file_lines):
     """builds a map keyed by footnote handle with value
-       [url, title, biblio, re-numbered-id]"""
+       [url, title, biblio, index-in-map]"""
     ref_map = {}
-    for k in sorted(file_lines):
+    has_basic_footnotes = False
+    for phase in 1,2: 
+        for k in sorted(file_lines):
 
-        if file_lines[k]['type'] != 'linkdef':
-            continue
+            if file_lines[k]['type'] != 'linkdef':
+                continue
 
-        mdfparts = file_lines[k]['linkdef']
-        if len(mdfparts) != 4:
-            message("Improperly parsed link definition at line %d"%k)
-            continue
+            mdfparts = file_lines[k]['linkdef']
+            if phase == 1 and len(mdfparts) != 4:
+                message("Improperly parsed link definition at line %d"%k)
+                continue
 
-        ref_hdl, ref_url, ref_tit, ref_bib = mdfparts
-        if ref_hdl in ref_map:
-            message("Repeated reference handle %s at line %d"%(ref_hdl,k))
-            continue
+            ref_hdl, ref_url, ref_tit, ref_bib = mdfparts
+            if phase == 1 and ref_hdl in ref_map:
+                message("Repeated reference handle %s at line %d"%(ref_hdl,k))
+                continue
 
-        ref_map[ref_hdl] = [ref_url, ref_tit, ref_bib]
-        ref_map[ref_hdl].append(len(ref_map))
+            #
+            # Handle only basic footnotes in phase 1 and only full
+            # references in phase 2. This ensures that basic footnotes
+            # have numerically smaller map-index entries than full
+            # references.
+            #
+            if phase == 1 and ref_url != '#':
+                continue
+            if phase == 2 and ref_url == '#':
+                continue
 
-    return ref_map
+            if phase == 1:
+                has_basic_footnotes = True
+
+            #
+            # Each ref_map entry is a 4 item list of the form
+            #     [url, title, bibinfo, map-index]
+            #
+            ref_map[ref_hdl] = [ref_url, ref_tit, ref_bib]
+            ref_map[ref_hdl].append(len(ref_map))
+
+    return ref_map, has_basic_footnotes
 
 def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
     """
@@ -476,7 +496,7 @@ def resolve_missing_refs(missing_refs, ref_map, lddbs):
 
     for lddb in lddbs:
         file_lines = gather_and_classify_file_lines(lddb)
-        lddb_ref_map = build_ref_map(file_lines)
+        lddb_ref_map, hbfn = build_ref_map(file_lines)
 
         found_refs = []
         for x in missing_refs:
@@ -491,6 +511,14 @@ def resolve_missing_refs(missing_refs, ref_map, lddbs):
     if missing_refs:
         message("Some footnotes never resolved by any linkdef databases...\n%s"%str(list(missing_refs)))
 
+#
+# What renumber means here when we are building the main content is whether to
+# use the footnote's original identifiers or to use their index in the ref_map
+# (which is entry 3 in each ref_map list) plus the 'renumber' (option) offset.
+# Later on, in build_reference_list_lines, if renumbering is active, we will
+# sort the lines before emitting them so they appear in their sorted order in
+# the visible reference list at the end of the article.
+#
 def build_main_content(file_lines, ref_map, renumber, gather_linkdefs):
     """
     Rebuilds the file lines possibly renumbering the footnotes
@@ -581,37 +609,52 @@ def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
 
     return outlines
 
-def build_reference_list_lines(remapped_ref_map, renumber):
+def build_reference_list_lines(remapped_ref_map, renumber, has_basic_footnotes):
     """Build (auto-gen'd) rendered list of references."""
     outlines = []
 
-    if remapped_ref_map:
-        outlines.append("<!-- (%s begin) -->\n"%magic())
-        outlines.append("### References\n")
-        outlines.append("<!-- (%s end) -->\n"%magic())
-        try: # Attempt to sort treating footnote labels as integers.
-            if renumber:
-                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[0]))
+    # First, assume just a single phase to output full references
+    phases = ['refs']
+
+    # If we have basic footnotes, then we have two phases
+    if has_basic_footnotes:
+        phases = ['bfns','refs'] # basic footnotes in first phase, full refs in 2nd
+
+    for phase in phases:
+
+        if remapped_ref_map:
+            outlines.append("<!-- (%s begin) -->\n"%magic())
+            if phase == 'bfns':
+                outlines.append("### Footnotes\n")
             else:
-                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
-        except: # If sorting as ints fails, sort "normally".
-            sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
-        i = 0
-        halfway = len(sorted_map) / 2
-        for k,v in sorted_map:
-            v3 = k+renumber if renumber else v[3]
-            if v[1] and v[2]: # both title and bibinfo exist
-                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
-            elif v[1]: # only title exists
-                if v[0] == '#':
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>%s\n"%(magic(), v3, v3, v[1]))
+                outlines.append("### References\n")
+            outlines.append("<!-- (%s end) -->\n"%magic())
+            try: # First, try to sort treating footnote identifiers as integers.
+                if renumber:
+                    sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[0]))
                 else:
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
-            elif v[2]: # only bibinfo exists
-                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
-            else: # only url exists
-                outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
-            i += 1
+                    sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
+            except: # If sorting as ints fails, sort lexicographically.
+                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
+            i = 0
+            for k,v in sorted_map:
+                if phase == 'bfns' and v[0] != '#':
+                    continue
+                if phase == 'refs' and v[0] == '#':
+                    continue
+                v3 = k+renumber if renumber else v[3]
+                if v[1] and v[2]: # both title and bibinfo exist
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
+                elif v[1]: # only title exists
+                    if v[0] == '#':
+                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>%s\n"%(magic(), v3, v3, v[1]))
+                    else:
+                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
+                elif v[2]: # only bibinfo exists
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
+                else: # only url exists
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
+                i += 1
 
     return outlines
 
@@ -647,7 +690,7 @@ def main(opts, mdfile):
     fn_handles = gather_fn_handles(file_lines)
 
     # Build a map of the references including their re-numbering
-    ref_map = build_ref_map(file_lines)
+    ref_map, has_basic_footnotes = build_ref_map(file_lines)
 
     # Do some error checking
     missing_refs = error_checks(file_lines, fn_handles, ref_map,
@@ -671,12 +714,13 @@ def main(opts, mdfile):
     if ref_map:
         out_lines.append("%s\n"%autogen_disclaimer())
     
-    # Build intermediate link definitions lines
+    # Build intermediate link definition lines
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
     out_lines += build_intermediate_link_defn_lines(remapped_ref_map, opts['renumber'])
 
     # Build reference list lines
-    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'])
+    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'],
+                     has_basic_footnotes)
 
     # Ok, now actually write the updated file
     flines = [file_lines[k]['line'] for k in sorted(file_lines)]
