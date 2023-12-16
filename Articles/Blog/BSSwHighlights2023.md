@@ -23,7 +23,7 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 * [Better Scientific Software Tutorial Site](https://bssw.io/items/better-scientific-software-tutorial-site), D. Stevens.
 * [How Open Source Tooling Is Changing the Way Professional Researchers Learn to Code](https://bssw.io/blog_posts/how-open-source-tooling-is-changing-the-way-professional-researchers-learn-to-code), J. Stewart Lowndes.
 * [Busy != Productive](https://bssw.io/blog_posts/busy-productive), R. Underwood.
-* [Lessons Learned Transitioning from Experimental to Computational Science Share on LinkedIn Share on Facebook Tweet](https://bssw.io/blog_posts/lessons-learned-transitioning-from-experimental-to-computational-science), J. O'Neal.
+* [Lessons Learned Transitioning from Experimental to Computational Science](https://bssw.io/blog_posts/lessons-learned-transitioning-from-experimental-to-computational-science), J. O'Neal.
 
 ### Better Planning:
 * [Secure Software Programming Practices and Development](https://bssw.io/blog_posts/secure-software-programming-practices-and-development), N. Sukhija.
