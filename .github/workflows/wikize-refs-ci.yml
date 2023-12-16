@@ -1,0 +1,29 @@
+name: Wikize Refs Check
+
+on:
+  pull_request:
+    branches: [ main ]
+  paths:
+    - '**.md'
+    - '!docs/**'
+
+jobs:
+  wikize-refs-source:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run wikize-refs on each file
+        run: |
+          set -e
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }})
+          for file in $files; do
+            wikize-refs.py -u "$file"
+          done
