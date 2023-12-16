@@ -1,12 +1,15 @@
-<div align="center">
-<h1> What Is Version Control? </h1>
-<h4> The IDEAS Scientific Software Productivity Project </h4>
-<h5> <a href="https://ideas-productivity.org/resources/howtos/">https://ideas-productivity.org/resources/howtos</a> </h5>
-<h4> Contributed by: </h4>
-</div>
+# Version Control Systems
 
-**Motivation:** Software source, documentation, and other important (text) documents should be
+#### Contributed by: [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
+#### Publication date: April 20, 2019
+
+<!-- deck start -->
+Version Control Systems are essential for managing changes to files in a team-wide setting and thereby keeping track of changes to a software development project as a whole.
+<!-- deck end -->
+
+Software source, documentation, and other important (text) documents should be
 managed with a Version Control System (VCS) in order to do the following:
+
  * Support safe incremental development (i.e., “undos”)
  * Support collaboration among different developers, contributors, and customers
  * Provide traceability from requirements to file changes
@@ -17,7 +20,7 @@ Users interact with a VCS through a formal process or workflow . In this documen
 some concepts and terminology of [version control](https://en.wikipedia.org/wiki/Version_control), mention some of its benefits, describe use
 cases where it has been helpful (even critical), and outline some of the major [VCS tools](https://en.wikipedia.org/wiki/List_of_version-control_software).
 
-## Version Control Definitions and Terminology
+### Version Control Definitions and Terminology
 Important terms and concepts in version control include the following:
   * **In a Centralized VCS**, there is a single repository , and the user **workflow**consists of
 ***checking out*** stored versions, updating the checked-out copy, and ***checking in, or committing*** updated versions to the central repository. Versions of software are referred
@@ -65,7 +68,7 @@ workflows.
 
 Several tools exist to convert and interoperate between different open-source VCS (e.g., [git-svn](https://git-scm.com/docs/git-svn), [hg-git](https://www.mercurial-scm.org/wiki/HgGit)). However, these tools vary greatly in maturity, performance, scalability, and usability.
 
-## Use Cases for Version Control
+### Use Cases for Version Control
 Version control is useful in numerous situations. Because most VCS tools are oriented to text file
 lines, users can manage and collaborate on nearly any set of text files in a VCS. The following
 are examples.
@@ -79,6 +82,16 @@ code reviews, provides traceability of requirements to code changes, etc.
 reStructuredText, Markdown, HTML), allows concurrent editing with merges (line by line),
 tracks who contributed to what sections (e.g., using “blame”), etc.
 
-<h6 align="center">This document was prepared by Roscoe A. Bartlett with key contributions from Jim Willenbring and Todd
+### Note:
+
+This document was prepared by the author with key contributions from Jim Willenbring and Todd
 Gamblin. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.</h6>
+Computing Research and Biological and Environmental Research programs.
+
+<!---
+Publish: yes
+Pinned: yes
+Track: how to
+Topics: Revision Control
+--->
+
