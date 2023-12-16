@@ -37,7 +37,7 @@ display current velocity, the astronauts would perform the following keystrokes,
 meant to begin a pre-launch major mode program to align the Inertial Measurement Unit (IMU). More on that
 later from an experience on Apollo 8.
 
-![Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal](../../images/Blog_0719_agc_dsky2.png)
+![Apollo DSKY showing Verb 06 Noun 36 to display AGC time (15:36:58.8) in decimal](../../images/Blog_0719_agc_SquareImages_dsky_2.jpg)
 
 Data displayed to or entered by the astronauts via the DSKY was handled in English units and
 converted to/from the metric system for internal guidance computations. The astronauts sometimes
@@ -239,14 +239,14 @@ Apollo program simultaneously drove innovations in computing and benefited from 
 
 ### Author bio
 
-Mark Miller is a computer scientist supporting the
+Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
 Among other things, he contributes to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
-[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+[IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
 
 
 
@@ -261,13 +261,10 @@ https://wehackthemoon.com/bios/jack-garman - indicates image is courtesy of NASA
 
 <!---
 Publish: yes
+Track: experience
 RSS update: 2019-07-15
-Categories: performance
 Topics: high-performance computing (hpc), performance portability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
 
 

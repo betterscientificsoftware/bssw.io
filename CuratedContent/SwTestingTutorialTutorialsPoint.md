@@ -1,11 +1,11 @@
 # An Introduction to a Software Testing Tutorial from TutorialsPoint
 
 <!-- deck text start --> 
-Software testing is an imporant part of the software development lifecycle. Do you understand the software testing processes and frameworks involved?
+Software testing is an important part of the software development lifecycle. Do you understand the software testing processes and frameworks involved?
 <!-- deck text end --> 
 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 
 #### Publication date: August 1, 2019
 

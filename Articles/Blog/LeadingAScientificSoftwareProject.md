@@ -198,10 +198,7 @@ Germany, in 2002.
 <!---
 Publish: yes
 RSS update: 2019-06-27
-Categories: collaboration
+Track: community
 Topics: strategies for more effective teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

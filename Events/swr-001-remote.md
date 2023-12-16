@@ -32,7 +32,7 @@
 
 - Date: 2020-04-03
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel001
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel001
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -44,9 +44,9 @@ Resource Information | Details
 :--- | :---			   
 Panel Title | Advice from Colleagues with Experience
 Date and Time | 2020-04-03 03:00 pm EDT
-Panelists | Mike Bernhardt (Oak Ridge National Laboratory), Lois Curfman McInnes (Argonne National Laboratory), Mark Miller (Lawrence Livermore National Laboratory), Kathryn Mohror (Lawrence Livermore National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
+Panelists | Mike Bernhardt (Oak Ridge National Laboratory), Lois Curfman McInnes (Argonne National Laboratory), Mark C. Miller (Lawrence Livermore National Laboratory), Kathryn Mohror (Lawrence Livermore National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
 Moderators | Mike Heroux (Sandia National Laboratories)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel001>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel001>	   
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 
@@ -85,7 +85,7 @@ Laboratory.  After working primarily onsite at Argonne during
 1993-2000, she has been working remotely for 20 years, currently in
 Rockville, Maryland and previously in Austin, Texas.  Lois is
 presently the deputy director of software technology for ECP.</p>
-<p>Mark Miller, a software developer at Lawrence Livermore National
+<p>Mark C. Miller, a software developer at Lawrence Livermore National
 Laboratory supporting HPC visualization tools, has worked remotely,
 part-time, for 10+ years from Davis, CA.  His home office setting
 involves only his wife (no children or pets), a separate room for an
@@ -119,7 +119,7 @@ for ECP and a Scientist in Residence at St. John’s University, MN.</p>
 
     
 
-#### Contributed by [Mike Bernhardt](https://github.com/mikeb650 "Mike Bernhardt GitHub profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Mark Miller](https://github.com/markcmiller86 "Mark Miller GitHub profile"), [Kathryn Mohror](https://github.com/kathrynmohror "Kathryn Mohror GitHub profile"), [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile")
+#### Contributed by [Mike Bernhardt](https://github.com/mikeb650 "Mike Bernhardt GitHub profile"), [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub profile"), [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub profile"), [Kathryn Mohror](https://github.com/kathrynmohror "Kathryn Mohror GitHub profile"), [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn GitHub profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub profile")
 
 <!---
 Publish: yes

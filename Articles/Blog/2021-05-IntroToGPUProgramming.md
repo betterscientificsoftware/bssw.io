@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_0521_GPU.png' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_0521_GPU.png' />
 
 #### Contributed by: [Michele Rosso](https://github.com/mic84) and [Andrew Myers](https://github.com/atmyers)
 #### Publication Date: May 14, 2021
@@ -155,6 +155,7 @@ Andrew Myers is a Computer Systems Engineer in the Center for Computational Scie
 
 <!---
 Publish: yes
+Track: deep dive
 Pinned: no
 Topics: High-performance computing (HPC)
 RSS update: 2021-05-14

@@ -8,7 +8,7 @@ Testing scientific software is challenging, evident in the large number of [guid
 
 During summer 2019, I had the opportunity to gain first-hand experience developing testing framework for a non-deterministic research software project.  Receiving recognition as a [2019 BSSw Fellowship](https://bssw.io/pages/bssw-fellowship-program) honorable mention for my work in software testing, I was invited to work as a graduate research assistant at Los Alamos National Laboratory with the [Exascale Atomistic capability for Accuracy, Length and Time (EXAALT)](https://gitlab.com/exaalt/exaalt) team, an [ECP](https://www.exascaleproject.org/research-group/chemistry-and-materials/)-funded materials modeling framework designed to leverage extreme-scale parallelism to produce accelerated molecular dynamics simulations.
 
-My work on ParSplice described below, part of the EXAALT project, is part of my journey to create robust and automated testing in research software, and continues previous collaborations between [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/) and EXAALT which was the subject of an earlier BSSw.io blog article: **[Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)**
+My work on ParSplice described below, part of the EXAALT project, is part of my journey to create robust and automated testing in research software, and continues previous collaborations between [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) and EXAALT which was the subject of an earlier BSSw.io blog article: **[Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)**
 
 [How do we test non-deterministic research software that might not return the same result on different runs with the same input?]<img src='../../images/Blog_0820_Testing.png' />
 
@@ -57,10 +57,7 @@ Nasir Eisty is an assistant professor in the Computer Science and Software Engin
 <!---
 Publish: yes
 RSS update: 2020-10-13
-Categories: Reliability
+Track: how to
 Topics: Testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

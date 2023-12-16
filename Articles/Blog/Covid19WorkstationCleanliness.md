@@ -135,7 +135,7 @@ role in helping  track and fight the spread of SARS-CoV-2.
 
   * Johns Hopkins COVID-19 Dashboard.<sup>[27],[29]</sup>
   * How China is using AI to fight Coronavirus.<sup>[28]</sup>
-  * Forbes article on ways AI is being empoloyed to fight COVID-19.<sup>[30]</sup>
+  * Forbes article on ways AI is being employed to fight COVID-19.<sup>[30]</sup>
   * Using mobile phone data to track an outbreak.<sup>[31]</sup>
   * A simple Kahn Academy lesson on estimating actual vs. confirmed cases.<sup>[37]</sup>
   * Some simple, 2D simulations demonstrate value of social distancing.<sup>[36]</sup>
@@ -172,14 +172,14 @@ in slowing the spread of COVID-19.
 
 ### Author bio
 
-Mark Miller is a computer scientist supporting the
+Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
 Among other things, he contributes to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
-[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+[IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
 The views and opinions expressed in this article are his own.
 
 <!--
@@ -204,13 +204,10 @@ for advertising or product endorsement purposes.
 
 <!--
 Publish: yes
+Track: deep dive
 RSS update: 2020-03-19
-Categories: Skills
 Topics: Personal productivity and sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 -->
 
 

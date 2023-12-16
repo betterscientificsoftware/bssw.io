@@ -1,4 +1,8 @@
 # What is CSE Legacy Code?
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+
+#### Publication date: May 29, 2019
+
 <!--deck start--->
 CSE legacy code can involve several years or even decades of development and resources invested in it. Maintaining such legacy code comes with several engineering challenges and its imperative to know how to balance the critical goals associated with the code.
 <!--deck end--->
@@ -13,7 +17,7 @@ engineering tool. These include
 * User training and development costs
 * Input database development costs
 * Community adoption and development costs
-* Perceived or measured committment to validity of results
+* Perceived or measured commitment to validity of results
 
 Eventually, investments in a computational engineering tool, both tangible and intangible, become so great that
 wholesale re-write (that is throwing existing code out and re-writing from scratch), is not seen as an acceptable
@@ -31,20 +35,11 @@ Eventually, however, even evolutionary code changes can become cost prohibitive.
 this demise, which could easily involve more than 30 years of development, the evolutionary approach has provided ample
 time for suitable alternatives to develop and become adopted.
 
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-
-#### Publication date: May 29, 2019
-
 <!--body end--->
 
 
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: refactoring
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

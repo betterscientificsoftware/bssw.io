@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2109_Collegeville1.png' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_2109_Collegeville1.png' />
  <!-- will updated hero image -->
 
 #### Contributed by: [Cody Balos](https://github.com/balos1), [Jed Brown](https://github.com/jedbrown), [Gerasimos Chourdakis](https://github.com/MakisH), [Ben Cowan](https://github.com/benc303), [Anshu Dubey](https://github.com/adubey64), [Vadim Dyadechko](https://github.com/vdayadechko), [Robert Jacob](https://github.com/rljacob), [Sarah Knepper](https://github.com/sknepper), [Jay Lofstead](https://github.com/gflofst), [Lois Curfman McInnes](https://github.com/curfman), [Reed Milewicz](https://github.com/rmmilewi), [Jacob Moxley](https://github.com/jmox0351), [Todd Munson](https://github.com/tmunson), [Sarah Osborn](https://github.com/osborn9), [Jim Pivarski](https://github.com/jpivarski), [Elaine Raybourn](https://github.com/elainraybourn), [Barry Smith](https://github.com/BarrySmith), [James Willenbring](https://github.com/jwillenbring), [Ulrike Meier Yang](https://github.com/ulrikeyang), [Sam Yates](https://github.com/halfflat), [Michael A. Heroux](https://github.com/maherou), and [Johanna Cohoon](https://github.com/jlcohoon)
@@ -61,6 +61,7 @@ Part 1 | [Part 2](https://bssw.io/blog_posts/software-team-experiences-and-chall
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: software process improvement, software engineering, projects and organizations, strategies for more effective teams, conferences and workshops
 RSS update: 2021-09-20

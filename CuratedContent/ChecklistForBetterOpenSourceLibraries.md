@@ -20,9 +20,6 @@ While targeted specifically at Python libraries, recommendations are relevant to
 
 <!---
 Publish: yes
-Categories: Development
+Pinned: no
 Topics: Documentation, Revision control, Configuration and builds
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

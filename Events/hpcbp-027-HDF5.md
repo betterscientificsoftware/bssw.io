@@ -24,7 +24,7 @@
 
 - Date: 2019-03-13
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar027
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Parallel I/O with HDF5: Overview, Tuning, and New Features
 Date and Time | 2019-03-13 01:00 pm EDT
 Presenter | Quincy Koziol (National Energy Research Scientific Computing Center and Lawrence Berkeley National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar027>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar027>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 
@@ -72,8 +72,8 @@ scales.</p>
 
 <!---
 Publish: yes
-Categories: skills
-Topics: online learning
+Categories: skills, performance
+Topics: online learning, big data
 Level: 2
 Prerequisites: default
 Aggregate: none

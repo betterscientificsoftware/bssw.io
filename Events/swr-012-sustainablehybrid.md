@@ -30,7 +30,7 @@
 
 - Date: 2021-11-18
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel011
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel011
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -46,7 +46,7 @@ Panelists | Sadaf R. Alam (Swiss National Supercomputing Centre (CSCS)), Christi
 Moderator | Elaine Raybourn (Sandia National Laboratories)
 Registration Link | 	<https://sc21.supercomputing.org/attend/register><br>*This panel discussion is part of the annual International Conference for High Performance Computing, Networking, Storage, and Analysis (SC21).  An appropriate conference registration is required to participate.*
 SC21 Program Page | <https://sc21.supercomputing.org/presentation/?id=pan125&sess=sess232>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 ### Abstract
 

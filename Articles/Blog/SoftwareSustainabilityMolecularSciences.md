@@ -175,7 +175,7 @@ accessible data sets using multiple quantum chemistry codes (the
 [QCArchive](https://qcarchive.molssi.org)) and enabling the coupling of
 multiple quantum and molecular mechanics codes to perform very large, complex
 molecular simulations (the [MolSSI Driver
-Interface](https://molssi.github.io/MDI_Library/html/index.html)). Ultimately,
+Interface](https://github.com/MolSSI)). Ultimately,
 these types of standardizations enable fair competition, with the users picking
 the most successful products for their needs.
 
@@ -227,11 +227,8 @@ Association of Theoretical and Computational Chemists.
 
 <!---
 Publish: yes
+Track: experience
+Pinned: no
 RSS update: 2019-11-14
-Categories: Skills, Planning
-Topics: Projects and Organizations, Conferences and Workshops, Design, Software Interoperability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: Projects and Organizations, Conferences and Workshops, Design, Software Interoperability, Software Sustainability
 --->

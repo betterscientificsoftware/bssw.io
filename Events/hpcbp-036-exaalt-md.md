@@ -2,7 +2,7 @@
 
 - Date: 2020-01-15
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar036
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar036
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Refactoring EXAALT MD for Emerging Architectures
 Date and Time | 2020-01-15 01:00 pm EST
 Presenters | Aidan Thompson (<a href="http://www.sandia.gov/">Sandia National Laboratories</a>), Stan Moore (<a href="http://www.sandia.gov/">Sandia National Laboratories</a>),  and Rahulkumar Gayatri (<a href="http://www.nersc.gov/">National Energy Research Scientific Computing Center</a>)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar036>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar036>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

@@ -4,7 +4,7 @@
 Remote working is a common reality in today's world. This article points to a very useful podcast on the topic of working remotely.
 <!-- deck text end-->
 
-#### Contributed by [Roscoe Bartlett](https://github.com/bartlettroscoe)
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 #### Publication date: April 12, 2020
 
 Resource information | Details 
@@ -38,8 +38,6 @@ Overall, this podcast offers nuggets for newcomers as well as for folks who are 
 <!---
 Publish: yes
 RSS update: 2020-04-12
-Pinned: yes
-RSS update: 
-Categories: skills
+Pinned: no
 Topics: personal productivity and sustainability
 --->

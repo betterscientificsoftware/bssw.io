@@ -4,7 +4,7 @@
 Various organizations focus on different aspects of software and the software lifecycle. The *Association for Software Testing organization (AST)* is one such well-known organization.
 <!--- deck text end --->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 
 #### Publication date: September 05, 2019
 
@@ -27,10 +27,6 @@ The *[Association for Software Testing (AST)](https://www.associationforsoftware
 
 <!---
 Publish: yes
-Categories: collaboration
 Topics: Projects and organizations
-Tags: organization
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Pinned: no
 --->

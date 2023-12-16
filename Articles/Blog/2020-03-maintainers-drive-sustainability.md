@@ -52,12 +52,12 @@ A research scientist develops a new capability but has no way to submit a patch 
 
 ### Maintainers Drive Better Scientific Software Practices
 
-As part of the IDEAS-Classic project (https://ideas-productivity.org/), funding for ParFlow development was re-established with the goal to support ParFlow in the context of a broader watersheds ecosystem, including adequate support for a code maintainer.  Projects like IDEAS are showing a growing awareness of the need for better software practices.   The set of tools and services to support development is better than ever.   
+As part of the [IDEAS-Classic project](https://ideas-productivity.org/activities/ideas-classic/), funding for ParFlow development was re-established with the goal to support ParFlow in the context of a broader watersheds ecosystem, including adequate support for a code maintainer.  Projects like IDEAS are showing a growing awareness of the need for better software practices.   The set of tools and services to support development is better than ever.   
 
 With the restart of ParFlow, under the direction of a maintainer, we addressed several issues.
 
 **Public Repository.**
-We moved over to GitHub as the main locus of ParFlow development.  Moving to a standard git pull-request model for change submissions has made code reviews (via GitHub)  easy with distributed collaborators.   On scientific codes the algorithm/mathematical formulation needs to be checked as well as traditional code review criteria.    The skillsets of domain knowledge, math, and computer science frequently do not intersect in a single person so multiple reviewers are invaluable.     
+We moved over to GitHub as the main locus of ParFlow development.  Moving to a standard git pull-request model for change submissions has made code reviews (via GitHub)  easy with distributed collaborators.   On scientific codes the algorithm/mathematical formulation needs to be checked as well as traditional code review criteria.    The skillsets of domain knowledge, math, and computer science frequently do not intersect in a single person so multiple reviewers are invaluable.
 
 **Continuous Integration.**
 We are utilizing TravisCI for continuous integration, replacing a set of shell scripts run via cron jobs.   Having test results easily visible by the distributed team is key to keeping the tests running.   The CI tests must pass for a pull request to be approved.  
@@ -102,11 +102,7 @@ Steve Smith is a computer scientist supporting the Center for Applied Scientific
 
 <!---
 Publish: yes
+Track: deep dive
 RSS update: 2020-04-15
-Categories: Planning, Planning, Collaboration
-Topics: Software Engineering, Software Process Improvement, Strategies for More Effective Teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: Software Engineering, Software Process Improvement, Strategies for More Effective Teams, Software Sustainability
 --->

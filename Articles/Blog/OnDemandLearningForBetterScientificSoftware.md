@@ -15,8 +15,8 @@ Transmedia learning is the scalable system of messages representing a core exper
 
 To view Elaine's original webinar, and the full webinar series see the following links:
 
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar018" class="link-row">On-demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize your Productivity</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/" class="link-row">Series: Best Practices for HPC Software Developers</a>
+<a href="https://ideas-productivity.org/events/hpcbp-018-ondemandlearning" class="link-row">On-demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize your Productivity</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/" class="link-row">Series: Best Practices for HPC Software Developers</a>
 
 <br> 
 
@@ -58,12 +58,9 @@ I’ve provided guidelines and a transmedia learning framework (TLF) for content
 
 <!---
 Publish: yes
-Categories: skills
+Track: how to
 Topics: online learning, personal productivity and sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 RSS update: June 1, 2018
 SAND #: SAND2018-5878 O
 --->

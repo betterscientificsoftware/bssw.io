@@ -10,7 +10,7 @@ reproducibility of computational workflows.
 
 <!-- deck text end -->
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
+#### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel Github Profile")
 #### Publication date: October 23, 2020
 
 Resource information | Details

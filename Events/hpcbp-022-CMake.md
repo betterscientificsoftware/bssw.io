@@ -24,7 +24,7 @@
 
 - Date: 2018-09-19
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar022
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -38,7 +38,7 @@ Resource Information | Details
 Webinar Title | Modern CMake
 Date and Time | 2018-09-19 01:00 pm EDT
 Presenter | Bill Hoffman (Kitware)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar022>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar022>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

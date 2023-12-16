@@ -9,7 +9,7 @@ Tools such as OpenMP and CUDA are helping scientific applications achieve perfor
 #### Publication date: July 20, 2019
 
 As applications begin to enable performance portability through the use of
-tools such a OpenMP and Compute Unified Device Architecture (CUDA), they may encounter issues related to compability of tools used by different libraries they depend on. This short document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
+tools such a OpenMP and Compute Unified Device Architecture (CUDA), they may encounter issues related to compatibility of tools used by different libraries they depend on. This short document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
 
 ### Threading Tools
 #### Thread Pool Incompatibilities
@@ -60,6 +60,7 @@ because of the different implementations of thread pools.
 Publish: yes
 Pinned: no
 Topics: Performance portability
+Track: Experience
 RSS update: 2021-05-12
 --->
 

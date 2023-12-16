@@ -2,7 +2,7 @@
 
 - Date: 2020-07-15
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar042
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar042
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | What’s New in Spack?
 Date and Time | 2020-07-15 01:00 pm EDT
 Presenter | Todd Gamblin (Lawrence Livermore National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar042>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar042>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

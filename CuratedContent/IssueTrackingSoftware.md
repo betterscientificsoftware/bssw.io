@@ -18,7 +18,7 @@ Issue tracking software is used to make it easier for software developers to man
 search on past issues, software bugs, or other problems. Issue tracking software is especially useful in eliminating 
 duplicate efforts. 
  
-Software developers who collaborate and work in a community environment want simple but effective tools that are intuitive and easy to use. At the same time, they want the tools to be robust and have options that are straightforward to understand and are benefical to all team members. Some developers collaborate across countries and in different time zones and must work rapidly to meet hard deadlines. 
+Software developers who collaborate and work in a community environment want simple but effective tools that are intuitive and easy to use. At the same time, they want the tools to be robust and have options that are straightforward to understand and are beneficial to all team members. Some developers collaborate across countries and in different time zones and must work rapidly to meet hard deadlines. 
 
 This article focuses on issue tracking tools for people who collaborate on scientific software across distances and disciplines (computer scientists, engineers, physicists, software developers, etc.) 
 
@@ -30,7 +30,7 @@ Folks in the scientific computing field need a myriad of capabilities from issue
 4. Provide email updates on status of issues
 5. Allow priority setting on issues
 6. Allow searching and sorting
-7. Allow labeling issues with keyworks to facilitate searching
+7. Allow labeling issues with keywords to facilitate searching
 8. Allow establishing and tracking milestones needed for resolutions
 9. Allow both users and developers the ability to add and update notes
 10. Provide links from the issue tracker to the commits in the software that represent progress on the issue
@@ -52,7 +52,7 @@ This article lists issue tracking tools that are most frequently used by scienti
 The following is a short list of issue tracking software used or recommended by scientific software developers in the high-performance computing.
 
 ### JIRA by Atlassian
-*[JIRA](https://www.atlassian.com/software/jira)* is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project managment functions. According to Atlassian, Jira is used for issue tracking and project managment by over 75,000 customers in 122 countries around the globe and is a mature, usable software product. Thousands of teams choose JIRA to capture and organize issues, assign work, and follow team activity. 
+*[JIRA](https://www.atlassian.com/software/jira)* is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions. According to Atlassian, Jira is used for issue tracking and project management by over 75,000 customers in 122 countries around the globe and is a mature, usable software product. Thousands of teams choose JIRA to capture and organize issues, assign work, and follow team activity. 
 
 ### Tracker by PhaseWare
 *[Tracker](https://www.capterra.com/p/115913/Tracker/)* is another well-established issue tracking product, which supports organization needs. Its issue tracking solution provides a customizable and configurable, responsive tool that can help a project streamline the issue tracking process, effectively manage the workload, and increase productivity.
@@ -69,7 +69,7 @@ The following is a short list of issue tracking software used or recommended by 
 ### GitLab
 *[GitLab](http://www.gitlab.com)* is a web based Git-repository manager with wiki and issue-tacking features, using an open-source license, developed by GitLab Inc. 
  
-With several options now available, software developers have oppurtunities to pick and choose an issue tracking tool that fits the needs of their team and overall project.
+With several options now available, software developers have opportunities to pick and choose an issue tracking tool that fits the needs of their team and overall project.
 
 
 

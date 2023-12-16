@@ -34,7 +34,7 @@ each of the numbered steps in the description below.
    * Assigning issues.
    * Creating and assigning milestones to various issues.
    * Recording notes on progress in comments of various items in progress.
-   * Merging to master any PRs that are known ready.
+   * Merging to main any PRs that are known ready.
 1. New issues are reviewed in *Idea Backlog* and one of the following actions is taken:
    * The issue is rejected for one of a variety of reasons. The reason is
      recorded in a comment and the issue is labeled as `no interest`, is closed,

@@ -160,14 +160,14 @@ Part 1 | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversa
 
 ### Author bio
 
-Mark Miller is a computer scientist supporting the
+Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.
 Among other things, he contributes to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
-[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+[IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
 
 <!---
 Image copyright source info…
@@ -179,18 +179,15 @@ Image copyright source info…
 
 <!---
 Publish: yes
+Track: experience
 RSS update: 2019-05-15
-Categories: performance
 Topics: high-performance computing (hpc), performance portability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
 
 <br>
 
-[1-sfer-ezikiw]: https://github.com/betterscientificsoftware/bssw.io/raw/master/images/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
+[1-sfer-ezikiw]: https://github.com/betterscientificsoftware/bssw.io/raw/main/images/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
 [2-sfer-ezikiw]: https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html "Overview of Apollo 11 Mission"
 [3-sfer-ezikiw]: https://en.wikipedia.org/wiki/Moon_landing "List of Moon missions since 1958"
 [4-sfer-ezikiw]: https://en.wikipedia.org/wiki/Apollo_PGNCS "What is Primary Guidance, Navigation and Control"
@@ -210,7 +207,7 @@ Aggregate: none
 [18-sfer-ezikiw]: https://en.wikipedia.org/wiki/Fairchild_Semiconductor "Historical Note about Fairchild Semiconductor"
 [19-sfer-ezikiw]: https://www.ibiblio.org/apollo/hrst/archive/1033.pdf "AGC Restart System Design"
 [20-sfer-ezikiw]: https://www.ornl.gov/news/ornl-launches-summit-supercomputer "ORNL Launch of Summit"
-[21-sfer-ezikiw]: https://www.top500.org/green500/list/2018/11/ "Top Green 500 List, November 2018"
+[21-sfer-ezikiw]: https://www.top500.org/lists/green500/2018/11/ "Top Green 500 List, November 2018"
 [22-sfer-ezikiw]: https://en.wikipedia.org/wiki/ILLIAC_IV "Description of Illiac IV"
 [23-sfer-ezikiw]: https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing "Jacquard Loom & Computing"
 [24-sfer-ezikiw]: https://hpc.llnl.gov/hardware/platforms/sierra "LLNL Description of Sierra"
@@ -266,7 +263,7 @@ Aggregate: none
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/bssw.io/raw/master/images/397_apollo_flightdiagram.jpg)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/bssw.io/raw/main/images/397_apollo_flightdiagram.jpg)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Overview of Apollo 11 Mission](https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[List of Moon missions since 1958](https://en.wikipedia.org/wiki/Moon_landing)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[What is Primary Guidance, Navigation and Control](https://en.wikipedia.org/wiki/Apollo_PGNCS)
@@ -286,7 +283,7 @@ Aggregate: none
 * <a name="sfer-ezikiw-18"></a><sup>18</sup>[Historical Note about Fairchild Semiconductor](https://en.wikipedia.org/wiki/Fairchild_Semiconductor)
 * <a name="sfer-ezikiw-19"></a><sup>19</sup>[AGC Restart System Design](https://www.ibiblio.org/apollo/hrst/archive/1033.pdf)
 * <a name="sfer-ezikiw-20"></a><sup>20</sup>[ORNL Launch of Summit](https://www.ornl.gov/news/ornl-launches-summit-supercomputer)
-* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Top Green 500 List, November 2018](https://www.top500.org/green500/list/2018/11/)
+* <a name="sfer-ezikiw-21"></a><sup>21</sup>[Top Green 500 List, November 2018](https://www.top500.org/lists/green500/2018/11/)
 * <a name="sfer-ezikiw-22"></a><sup>22</sup>[Description of Illiac IV](https://en.wikipedia.org/wiki/ILLIAC_IV)
 * <a name="sfer-ezikiw-23"></a><sup>23</sup>[Jacquard Loom & Computing](https://en.wikipedia.org/wiki/Jacquard_loom#Importance_in_computing)
 * <a name="sfer-ezikiw-24"></a><sup>24</sup>[LLNL Description of Sierra](https://hpc.llnl.gov/hardware/platforms/sierra)

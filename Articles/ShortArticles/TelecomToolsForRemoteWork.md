@@ -42,7 +42,7 @@ In the table below:
 
 Feature | [Zoom](https://www.zoom.us) | [WebEx Meetings](https://www.webex.com)<sup>[aw](#webex-notes-aw)</sup> 
 --- | --- | ---
-&nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**The Basics**](#the-basics)</td></tr>
+&nbsp;|&nbsp;|&nbsp;<tr><td colspan=3 align="center">[**The Basics**](#the-basics)</td></tr>
 [Free Plan](#free-plans) | [Yes](https://zoom.us/pricing) | [Yes](https://www.webex.com/pricing/index.html) 
 [Plan Pricing<br>$/mo/host](#plan-pricing) | 0/15/20 | 0/15/20/30 
 [Size Limit](#size-limits) | 100-1000<sup>[az](#zoom-notes-az)</sup> | 50-200<sup>[bw](#webex-notes-bw),[cw](#webex-notes-cw)</sup> 
@@ -84,14 +84,14 @@ Attendee Mobile | [And]/[iOS] | [And]/[iOS]
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Advanced Features**](#advanced-features)</td></tr>
 [Personal rooms](#personal-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/203276937-Using-Personal-Meeting-ID-PMI-) | [Yes]( https://help.webex.com/en-us/nul0wut/Cisco-Webex-Personal-Rooms-in-Cisco-Webex-Meetings)
 [Breakout rooms](#breakout-rooms) | [Yes](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms) | [Partial](https://help.webex.com/en-us/8cckd2/Manage-Breakout-Sessions-in-Cisco-Webex-Training) 
-[Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[fz](#zoom-notes-fz)</sup> | [Parial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[iw](#webex-notes-iw)</sup>
+[Virtual background](#virtual-background) | [Yes](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background?_ga=2.14223487.938856509.1585291308-953848128.1583382933&_gac=1.183383508.1583390141.Cj0KCQiAwP3yBRCkARIsAABGiPpO0S3qoN8PTc0qdsQBTPiskm6O520ASHcVcXL8kVvTc5O-VTr0XPIaArGGEALw_wcB)<sup>[fz](#zoom-notes-fz)</sup> | [Partial](https://help.webex.com/en-us/80jduab/Webex-Meetings-Change-Your-Video-Background)<sup>[iw](#webex-notes-iw)</sup>
 [Bandwidth Management](#bandwidth-management) | No | [Maybe](https://www.cisco.com/c/en/us/products/collateral/conferencing/webex-meetings/white_paper_c11-691351.html)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">**Convenient Host Features**</td></tr>
 Mute all A/V | [Yes](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/[Yes](https://help.webex.com/en-us/nylc718/Turn-off-Participants-Video-in-Webex-Meetings-and-Webex-Events)
 Mute A/V entry | [Yes](https://support.zoom.us/hc/en-us/articles/115005756143-Changing-your-meeting-settings)/No | [Yes](https://help.webex.com/en-us/n94aj5j/Mute-or-Unmute-in-Cisco-Webex-Meetings-Suite)/No
 Disable entry/exit<br>sounds | Yes | Yes
 Attendee count | Yes | No
-Host exit wont<br>end meeting | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends)
+Host exit won't<br>end meeting | [Partial](https://support.zoom.us/hc/en-us/articles/201362573-Pass-Host-Controls-and-Leave-the-Meeting) | [Partial](https://help.webex.com/en-us/WBX000023799/A-Host-Only-has-the-Option-to-End-Meeting-when-Leaving-a-Web-Meeting-the-Audio-Conference-Ends)
 Exceed size<br>notification | [TBD](#tbd) | [TBD](#tbd)
 &nbsp;|&nbsp;|&nbsp;<tr><td colspan=7 align="center">[**Experiences in actual use (subjective)**](#experiences-in-actual-use)</td></tr>
 Max. size | [TBD](#tbd) | 650
@@ -427,8 +427,7 @@ party.
 
 A potentially common privacy-related situation in virtual meeting settings is the
 use of a product's *recording* feature. Doing so without consent of all parties
-may create a significant
-[breach of privacy laws](https://blog.clickmeeting.com/accordance-record-recording-consent-laws).
+may create a significant breach of privacy laws.
 Making the recording available to a wider audience than attendees believe they
 originally consented to may also create a privacy issue.
 
@@ -678,8 +677,7 @@ add-on product called *WebEx Assistant* later this year.
 <!---
 Publish: yes
 RSS update: 2020-05-28
-Pinned: yes
-RSS update: 
-Categories: skills
+Pinned: no
 Topics: personal productivity and sustainability
+Track: Experience
 --->

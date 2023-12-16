@@ -32,11 +32,11 @@ Prospective participants are invited to submit two types of contributions:  (1) 
 Workshop papers will use a single blind submission process. All submitted papers will be reviewed on the basis of technical quality, relevance, significance, and clarity by the program committee. Accepted papers will become part of the workshop proceedings.
 
 
-#### Contributed by BSSw.io team
+#### Contributed by the BSSw Community
 
 <!---
 Publish: yes
 Pinned: no
-Topics: conferences and workshops
+Topics: conferences and workshops, Software Sustainability
 RSS update: 2020-12-17
 --->

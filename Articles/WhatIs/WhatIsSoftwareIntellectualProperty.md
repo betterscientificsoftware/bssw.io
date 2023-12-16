@@ -1,4 +1,6 @@
 ### What is Software Intellectual Property?
+#### Publication date: April 20, 2019
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
 <!--deck start--->
 Copyright and patents are two widely-used software intellectual property frameworks -- software developers and team leads need to be cognizant of these frameworks in order to understand which licensing terms can be used to protect their software and achieve their project's desired goals.
@@ -19,18 +21,11 @@ The choice of which license terms to apply to a software product can depend on a
 Some licenses include terms related to patents.  Patents are quite different than copyright, as they protect the novel ideas or "inventions" regardless of the form in which they are embodied.  The patentatbility of software is a topic of some controversy at present, but in practice, most jurisdictions presently allow patents on inventions which are embodied in software.  Note that it is possible to infringe on a patent without even being aware of its existence, whereas copyright applies to the specific embodiment (the code) only.
 
 Some projects require contributor agreements when submitting software.  These are legal agreements that make explicit the terms under which the developer is conveying the software.  In the absence of a contributor agreement, the contribution is typically made under the assumption that it will be distributed under the same license terms as existing code base.
-
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
 <!--body end--->
 
 
 <!---
 Publish: yes
 Pinned: yes
-Categories: collaboration
 Topics: licensing
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

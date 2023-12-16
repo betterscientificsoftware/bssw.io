@@ -15,7 +15,7 @@ Using supercomputers for computational science and engineering (CSE) research re
 
 ATPESC participants are provided access to some of today’s most powerful supercomputing resources, including the Argonne Leadership Computing Facility’s systems, the Oak Ridge Leadership Computing Facility’s systems, the National Energy Research Scientific Computing Center’s systems, and leading-edge testbeds from Argonne’s Joint Laboratory for System Evaluation.
 
-While only 70 participants are able to attend ATPESC each year, the entire HPC community can tap into the program’s broad curriculum via the [Argonne YouTube Training Channel](http://extremecomputingtraining.anl.gov/2018-videos). In an effort to extend the reach of ATPESC beyond the classroom, 2018 program organizers have captured and shared 60 hours of lectures from some of the world’s foremost experts and pioneers in extreme-scale computing. 
+While only 70 participants are able to attend ATPESC each year, the entire HPC community can tap into the program’s broad curriculum via the [Argonne YouTube Training Channel](https://www.youtube.com/channel/UCfwgjtIQB3puojz_N9ly_Ag). In an effort to extend the reach of ATPESC beyond the classroom, 2018 program organizers have captured and shared 60 hours of lectures from some of the world’s foremost experts and pioneers in extreme-scale computing. 
 
 ATPESC is funded by the Exascale Computing Project, a collaborative effort of the U.S. Department of Energy Office of Science’s Advanced Scientific Computing Research Program and the National Nuclear Security Administration.
 
@@ -28,6 +28,7 @@ Dr. Eng. Marta García Martínez joined the Argonne Leadership Computing Facilit
 
 <!---
 Publish: yes
+Track: community
 RSS update: 2019-01-29
 Categories: performance
 Topics: high-performance computing (HPC), performance at leadership computing facilities

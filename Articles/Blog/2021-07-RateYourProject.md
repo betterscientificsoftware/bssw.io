@@ -10,7 +10,7 @@
 
 [RateYourProject.org](https://rateyourproject.org) is a tool designed to help teams begin the process of
 [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip), a new technique for improving team practices. It was developed by the PSIP
-team, which is part of the [IDEAS-ECP project](https://ideas-productivity.org/ideas-ecp/).
+team, which is part of the [IDEAS-ECP project](https://ideas-productivity.org/activities/ideas-ecp/).
 
 PSIP is a lightweight methodology for 
 improving practices used by scientific software teams. Originally envisioned for helping teams improve
@@ -29,7 +29,7 @@ The core of the PSIP process comprises six steps of an iterative process. The fi
 
 Like any new idea, convincing people that it is practical and worthwhile is one thing, but actually getting them to try it 
 out is a whole different ball game. This is particularly an issue when there are time and cost implications in 
-trying out the idea, and if the benefits of the activity are not immediately apparent. The diagram below, courtesy of Scott Weigle, https://overexamined.life/how-overcome-procrastination/, indicates these challenges. 
+trying out the idea, and if the benefits of the activity are not immediately apparent. The diagram below (courtesy of Scott Weigle) indicates these challenges. 
 
 <br>
 
@@ -43,7 +43,7 @@ practices.
 
 ### How it works
 
-[RateYourProject.org](https://rateyourproject.org) is a self assessment tool that works by guiding the user through a series of common development practices and allows the user to choose a response that most closely matches their current practice level using a scale of "None", "Basic", "Intermediate", and "Advanced". The scale is designed to make it easy for teams to match their practices with the pratice description. Practices are grouped under the categories _Better Development_, _Better Planning_, _Better Performance_, _Better Reliability_, and _Better Collaboration_. This enables an overall assessment to be presented as a spider chart like this one, which clearly shows that _Better Planning_ and _Better Performance_ are categories that could benefit most from improvement, although there is room for improvement in all categories.
+[RateYourProject.org](https://rateyourproject.org) is a self assessment tool that works by guiding the user through a series of common development practices and allows the user to choose a response that most closely matches their current practice level using a scale of "None", "Basic", "Intermediate", and "Advanced". The scale is designed to make it easy for teams to match their practices with the practice description. Practices are grouped under the categories _Better Development_, _Better Planning_, _Better Performance_, _Better Reliability_, and _Better Collaboration_. This enables an overall assessment to be presented as a spider chart like this one, which clearly shows that _Better Planning_ and _Better Performance_ are categories that could benefit most from improvement, although there is room for improvement in all categories.
 
 <br>
 
@@ -51,7 +51,7 @@ practices.
 
 <br>
 
-Once the overall assessment has been established, teams are able to examine the individual categories to determine what practices they could focus on for improvement. In this example, selecting the _Better Planning_ category will then provide a more detailed assessement of the practice areas. In this case, the project could clearly benefit from creating onboarding and offboarding processes to manage staff turnover, and could also benefit from looking at how to improve contribution management, requirements analysis, and software design practices.
+Once the overall assessment has been established, teams are able to examine the individual categories to determine what practices they could focus on for improvement. In this example, selecting the _Better Planning_ category will then provide a more detailed assessment of the practice areas. In this case, the project could clearly benefit from creating onboarding and offboarding processes to manage staff turnover, and could also benefit from looking at how to improve contribution management, requirements analysis, and software design practices.
 
 <br>
 
@@ -61,7 +61,7 @@ Once the overall assessment has been established, teams are able to examine the 
 
 ### Continuous improvement
 
-PSIP is a process of continous improvement: practices needing improvement are identified, a plan is made, and then the plan is executed and the process starts again. The [RateYourProject.org](https://rateyourproject.org) tool allows the current assessment to be saved, then reviewed later in order to check progress or to identify another area that could be improved. The site provides a link on the main assessment page that can be used to return to the current assessment. This provides a simple and safe mechanism for recording progress towards achieving improvement goals.
+PSIP is a process of continuous improvement: practices needing improvement are identified, a plan is made, and then the plan is executed and the process starts again. The [RateYourProject.org](https://rateyourproject.org) tool allows the current assessment to be saved, then reviewed later in order to check progress or to identify another area that could be improved. The site provides a link on the main assessment page that can be used to return to the current assessment. This provides a simple and safe mechanism for recording progress towards achieving improvement goals.
 
 ### Feedback and future work
 
@@ -73,7 +73,7 @@ The PSIP team is working on a variety of improvements and enhancements to the to
 
 M.A. Heroux et al. (2020) Lightweight Software Process Improvement Using Productivity and Sustainability Improvement Planning (PSIP). In: Juckeland G., Chandrasekaran S. (eds.) Tools and Techniques for High Performance Computing. HUST 2019, SE-HER 2019, WIHPC 2019. Communications in Computer and Information Science, vol 1190. Springer, Cham. https://doi.org/10.1007/978-3-030-44728-1_6.
 
-E. Pourmal, R. Milewicz and E. Gonsiorowski, Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group, webinar, June 2021, [(slides, recording)](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar053).
+E. Pourmal, R. Milewicz and E. Gonsiorowski, Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group, webinar, June 2021, [(slides, recording)](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar053).
 
 ### Author bio
 
@@ -82,6 +82,7 @@ Gregory Watson is Group Leader of the Application Engineering Group at Oak Ridge
 
 <!---
 Publish: yes
+Track: deep dive
 RSS-update: 2021-07-15
 Categories: planning
 Topics: software engineering

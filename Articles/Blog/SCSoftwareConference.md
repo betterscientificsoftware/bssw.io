@@ -1,6 +1,6 @@
 # SC18: Does That Stand for “Software Conference”?
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold "David Bernholdt GitHub Profile")
 
 #### Publication date: November 8, 2018
 
@@ -90,7 +90,7 @@ sessions. You may have noticed previously on the [BSSw Events](https://bssw.io/e
 And many other conferences offer opportunities for companion tutorials and workshops. 
 
 - The long-standing [Software Engineering for Science (SE4Science)](https://bssw.io/resources/software-engineering-for-science-se4science) workshop series has been associated with the **International Conference on Software Engineering** for many years, and in the past also with **Supercomputing**.
-- The [International Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE) series](https://bssw.io/resources/working-towards-sustainable-software-for-science-practice-and-experiences-wssspe), for example, has colocated variously with **Supercomputing**, **SciPy**, **Gateway Community Environments**, the **RSE Conference**, and **eScience**.
+- The International Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE) series, for example, has colocated variously with **Supercomputing**, **SciPy**, **Gateway Community Environments**, the **RSE Conference**, and **eScience**.
 
 Maybe in time, by working together, we can ensure that discussions about *software* are a prominent part of all of the technical conferences that we care about.
 
@@ -112,10 +112,7 @@ David Bernholdt is a Distinguished R&D Staff Member and Group Leader at Oak Ridg
 <!---
 Publish: yes
 RSS update: 2018-11-08
-Categories: Collaboration
+Track: community
 Topics: projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

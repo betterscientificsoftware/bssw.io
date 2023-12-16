@@ -18,7 +18,7 @@ pinned: yes
 
 ## Front page carousel highlight slides
 
-The BSSw.io frontpage contains a featured item carousel. The items, in the carousel, can be specified as `slides` on the [Homepage](https://github.com/betterscientificsoftware/bssw.io/edit/master/Site/Homepage.md) file. 
+The BSSw.io frontpage contains a featured item carousel. The items, in the carousel, can be specified as `slides` on the [Homepage](https://github.com/betterscientificsoftware/bssw.io/edit/main/Site/Homepage.md) file. 
 
 **Carousel format and example**
 ````
@@ -40,7 +40,7 @@ Some points to note:
 ````
 - Each side of a slide can hold (1) a reference to a content page or (2) an image. For example: For a blog post, left side should reference the blog post itself and right side should reference the hero image.
 - An `article` is a relative path to the source of the article in the bssw.io repository. For ex: The [article](https://bssw.io/blog_posts/give-thanks), which corresponds to the source file `Articles/Blog/GiveThanks.md`, would be referred to as `../Articles/Blog/GiveThanks.md` in the carousel.
-- An `image` is also a relative path to the desired image. For ex: If we need to put [this image](https://github.com/betterscientificsoftware/images/blob/master/Blog_1119_seasonal.png) in the carousel, you would specify it as `../images/Blog_1119_seasonal.png`.
+- An `image` is also a relative path to the desired image. For ex: If we need to put [this image](https://github.com/betterscientificsoftware/images/blob/main/Blog_1119_seasonal.png) in the carousel, you would specify it as `../images/Blog_1119_seasonal.png`.
 
 **Carousel highlight slides example**
 ````
@@ -60,19 +60,19 @@ Slide5 R: ../CuratedContent/InclusiveNamingInitiative.md
 
 ## Front page highlight banner
 
-Highlight banners, on the front page, are configured in the [annoucements](https://github.com/betterscientificsoftware/bssw.io/blob/master/Site/Announcements/Announcements.md) file.
+Highlight banners, on the front page, are configured in the [announcements](https://github.com/betterscientificsoftware/bssw.io/blob/main/Site/Announcements/Announcements.md) file.
 
 **Highlights banner format**
 ````
 Announcement:
-- [Text on the banner](Location-of-markdown-file-relative-to-the-annoucements-markdown-file)
+- [Text on the banner](Location-of-markdown-file-relative-to-the-announcements-markdown-file)
 - Display dates: mm/dd/yyyy - mm/dd/yyyy
 ````
 Some points to note:
-- Only one annoucement is allowed. Please comment any other annoucement in the file before adding a new one.
+- Only one announcement is allowed. Please comment any other announcement in the file before adding a new one.
 - Please follow the format exactly
 - The display dates are the date range during which the banner will be displayed.
-- Location of the article where the banner points is relative to the [annoucements.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/Site/Announcements/Announcements.md) file in the BSSw.io github repo.
+- Location of the article where the banner points is relative to the [announcements.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/Site/Announcements/Announcements.md) file in the BSSw.io github repo.
 
 **Highlights banner example**
 ````

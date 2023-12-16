@@ -28,7 +28,7 @@ An automated regression test suite is a crucial task for any major code. We impl
 -	Hooked up with Travis CI for continuous integration testing, which is triggered after each commit to the git repo, so any new code can be tested automatically and immediately.
 The developers execute the testing code regularly to make sure that newly added features do not introduce errors in the production software.  
 
-But SuperLU users also have a responsibility: they should execute the testing code at the installation stage to make sure the library delivers correct results and performs as intended. Passing the installation test increases user confidence in the software. Moreover, when the user code encounter errors, the testing code of each componentn can greatly help the user isolate the search space and pinpoint potential source of errors.  
+But SuperLU users also have a responsibility: they should execute the testing code at the installation stage to make sure the library delivers correct results and performs as intended. Passing the installation test increases user confidence in the software. Moreover, when the user code encounter errors, the testing code of each component can greatly help the user isolate the search space and pinpoint potential source of errors.  
 
 In general, the Git workflow greatly simplifies the source code development and testing cycle, streamlines the process of absorbing users input of bug fixes as well as new features, and dramatically increases the overall productivity in both development and maintenance.
 
@@ -37,10 +37,7 @@ Moreover, the combined use of SuperLU with complementary numerical libraries has
 
 <!---
 Publish: Yes
-Categories: development, reliability
+Pinned: no
+Track: experience
 Topics: revision control, configuration and builds, testing, continuous integration testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->

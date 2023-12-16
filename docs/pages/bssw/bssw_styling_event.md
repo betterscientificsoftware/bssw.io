@@ -36,14 +36,14 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 **Event-specific deck attributes** are seen right below the deck text. These event deck attributes customize different parts of the deck for the event content type.
 
-* **Date**: One can choose to enter the date or range of dates of the submisison deadline or event date.
-* **Location**: Use the word "Virtual" or name of physical location
+* **Date**: One can choose to enter the date or range of dates of the submission deadline or event date.
+* **Location**: Use the physical location (City, State or City, Country) for in-person events and the term "online" for events being held online.  For hybrid events use the physical location "and online".
 * **Event Website**: URL to the main event website
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
 
-Example:
+Examples:
    * `Date: November 16, 2020` OR `Date: July 21, 2020 - July 23, 2020`
-   * `Location: Online`
+   * `Location: Knoxville, TN` OR `Location: Online` OR `Location: Knoxville, TN and online`
    * `Event Website: https://us-rse.org/rse-hpc-2020`
    * `Organizers: Foo`
 
@@ -81,8 +81,8 @@ Links to the Recordings and Archives  | Please do not use words like TBD here; p
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
 
-   * *Research Software Engineers in HPC Workshop (RSE-HPC-2020)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.RSE-HPE2020.md) | [BSSw.io](https://bssw.io/events/research-software-engineers-in-hpc-workshop-rse-hpc-2020)
-   * *2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.SE4Science21.md) | [BSSw.io](https://bssw.io/events/2021-international-workshop-on-software-engineering-for-computational-science-se4science-21)
+   * *Research Software Engineers in HPC Workshop (RSE-HPC-2020)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/Workshop.RSE-HPE2020.md) | [BSSw.io](https://bssw.io/events/research-software-engineers-in-hpc-workshop-rse-hpc-2020)
+   * *2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/Workshop.SE4Science21.md) | [BSSw.io](https://bssw.io/events/2021-international-workshop-on-software-engineering-for-computational-science-se4science-21)
 
 ##### Non-submission based Events (Webinars/Panels/Tutorials/Others)
 
@@ -99,8 +99,8 @@ Please add more rows to the table (if you absolutely must). Please do not add em
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
     
-   * *Webinar: Testing and Code Review Practices in Research Software Development*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/hpcbp-044-testingpractices.md) | [BSSw.io](https://bssw.io/events/webinar-testing-and-code-review-practices-in-research-software-development)
-   * *Strategies for Working Remotely: Making the transition to virtual software teams*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/panel.RemoteWorking0520.md) | [BSSw.io](https://bssw.io/events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams)
+   * *Webinar: Testing and Code Review Practices in Research Software Development*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/hpcbp-044-testingpractices.md) | [BSSw.io](https://bssw.io/events/webinar-testing-and-code-review-practices-in-research-software-development)
+   * *Strategies for Working Remotely: Making the transition to virtual software teams*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/panel.RemoteWorking0520.md) | [BSSw.io](https://bssw.io/events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams)
 
 #### 3. Additional Information
 You can add additional information in this section. If you create sections, please remember to start your first level headings with `###`.

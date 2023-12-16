@@ -22,7 +22,7 @@ Key concepts include the goals of:
 These resources can be useful for anyone engaged in large projects where requirements are multi-scale and emergent or, in other words, complex.
 
 **Subresources:**
-- [Team of Teams Disccussion Materials](ToTDiscussionMaterials.md)
+- [Team of Teams Discussion Materials](ToTDiscussionMaterials.md)
 
 
 

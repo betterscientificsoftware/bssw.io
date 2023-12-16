@@ -3,7 +3,7 @@
 The Software Sustainability Institute (UK) is a national facility for cultivating better, more sustainable, research software to enable world-class research. This article introduces the *Fellowship Programme* from the Software Sustainability Institute (SSI).
 <!-- deck text start --> 
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
 #### Publication date: January 30, 2020
 

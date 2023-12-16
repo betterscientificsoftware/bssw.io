@@ -147,11 +147,8 @@ We added the Catch framework for unit testing to our project, and now it is an i
 <!---
 Publish: yes
 RSS update: 2018-01-09
-Categories: reliability
 Topics: testing, reliability
-Tags: bssw-article
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Track: Deep Dive
+Pinned: no
 --->
 

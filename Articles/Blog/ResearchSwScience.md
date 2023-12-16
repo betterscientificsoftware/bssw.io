@@ -65,10 +65,7 @@ The original idea behind this blog post was first presented as a white paper at 
 <!---
 Publish: yes
 RSS update: 2019-09-25
-Categories: Collaboration
+Track: deep dive
 Topics: projects and organizations, strategies for more effective teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

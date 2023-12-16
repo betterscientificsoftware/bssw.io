@@ -32,7 +32,7 @@
 
 - Date: 2020-05-21
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel003
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel003
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -46,7 +46,7 @@ Panel Title | Making the Transition to Virtual Software Teams
 Date and Time | 2020-05-21 03:00 pm EDT
 Panelists | Jay Jay Billings (Oak Ridge National Laboratory), Mark Gates (University of Tennessee, Knoxville), Mahantesh Halappanavar (Pacific Northwest National Laboratory), Angela Herring (Los Alamos National Laboratory),  and Axel Huebl (Berkeley Lab)
 Moderators | Ashley Barker (Oak Ridge National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel003>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel003>	   
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

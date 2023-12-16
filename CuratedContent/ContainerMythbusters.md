@@ -8,7 +8,7 @@ security vulnerabilities, and container runtimes for high-performance computing
 (HPC).
 <!--deck text end-->
 
-#### Contributed by [Patricia  Grubel](https://github.com/pagrubel)
+#### Contributed by [Patricia Grubel](https://github.com/pagrubel)
 #### Publication date: November 26, 2019
 
 Resource information | Details 
@@ -51,7 +51,7 @@ container solution.
 
 <!---
 Publish: yes
-Topics: Release and Deployment, Performance Portability, Reproducibility 
+Topics: Release and Deployment, Performance Portability, Reproducibility, Cloud Computing
 Pinned: no
 RSS update: 2019-11-26
 --->

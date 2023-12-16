@@ -2,7 +2,7 @@
 
 - Date: 2020-10-29
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel006
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel006
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -14,10 +14,10 @@ Resource Information | Details
 :--- | :---			   
 Panel Title | Sustainable Hybrid Approaches
 Date and Time | Thursday 2020-10-29  3:00pm-4:15pm WTZ 
-Panelists | Katie Antypas (Lawrence Berkeley National Laboratory), David E. Bernholdt (Oak Ridge National Laboratory), Mark Miller (Lawrence Livermore National Laboratory), Hai Ah Nam (Los Alamos National Laboratory),  and Valerie Taylor (Argonne National Laboratory)
+Panelists | Katie Antypas (Lawrence Berkeley National Laboratory), David E. Bernholdt (Oak Ridge National Laboratory), Mark C. Miller (Lawrence Livermore National Laboratory), Hai Ah Nam (Los Alamos National Laboratory),  and Valerie Taylor (Argonne National Laboratory)
 Moderators | Ashley Barker (Oak Ridge National Laboratory), Mike Heroux (Sandia National Laboratories),  and Elaine Raybourn (Sandia National Laboratories)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJIsceuuqjwpHDZxnfzizxflgQvrIlr5lm4>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 
@@ -31,7 +31,7 @@ Series Information and Archives | <https://ideas-productivity.org/events/strateg
 <p>Mark C. Miller is a software engineer in the Applications, Simulation and Quality (ASQ) Division at Livermore Labs with 25+ years experience in high performance computing (HPC) visualization and data analysis applications. Mark is also member of the IDEAS-ECP project. For his entire career, management at LLNL has enabled Mark to have a hybrid schedule involving telecommuting and real commuting from his home in Davis, a distance of about 100 miles. For several years, he rented a room in the local Livermore area for routine overnight stays.</p>
 
 <!-- Bio for panel 1
-Mark Miller, a software developer at Lawrence Livermore National
+Mark C. Miller, a software developer at Lawrence Livermore National
 Laboratory supporting HPC visualization tools, has worked remotely,
 part-time, for 10+ years from Davis, CA.  His home office setting
 involves only his wife (no children or pets), a separate room for an

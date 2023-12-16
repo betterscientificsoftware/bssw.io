@@ -2,7 +2,7 @@
 # 2018 International Workshop on Software Engineering for Science
 
 - Date: June 2, 2018
-- Location: Gothenberg, Sweden
+- Location: Gothenburg, Sweden
 - Event Website:
 http://se4science.org/workshops/se4science18/
 

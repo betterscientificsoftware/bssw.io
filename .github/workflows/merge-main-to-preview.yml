@@ -1,0 +1,22 @@
+name: Sync main to preview
+
+# When there's a push on main, we want to reflect it on preview too.
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  sync-preview:
+    if: github.repository_owner == 'betterscientificsoftware'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Merge main -> preview
+        uses: devmasx/merge-branch@v1.3.0
+        with:
+          type: now
+          head_to_merge: ${{ github.ref }}
+          from_branch: main
+          target_branch: preview
+          github_token: ${{ secrets.GITHUB_TOKEN }}

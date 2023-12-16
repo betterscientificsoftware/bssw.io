@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog__0521_Icons.jpg' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog__0521_Icons.jpg' />
 
 #### Contributed by: [Rinku Gupta](https://github.com/rinkug), [Avanthi Madduri](https://github.com/mantrala-ops) and [Deborah Stevens](https://github.com/haikudeb)
 #### Publication Date: May 26, 2021
@@ -23,7 +23,7 @@ Developer productivity directly impacts the output and growth of a team and its 
 
 **Avanthi:** We know that you discussed the process of submitting content to BSSw.io during the community BOF. However, could you please briefly describe it for us today?
 
-**Rinku**: Yes, of course. During the community BOF, we had discussions where community members shared their experiences with a focus on the submission process.  In particular, recent contributors [Elsa Gonsiorowski](https://bssw.io/items?author=gonsiorowski), [Keith Beattie](https://bssw.io/items?author=beattie), and [Nasir Eitsy](https://bssw.io/items?author=eisty) shared presentations and discussed their personal experiences. 
+**Rinku**: Yes, of course. During the community BOF, we had discussions where community members shared their experiences with a focus on the submission process.  In particular, recent contributors [Elsa Gonsiorowski](https://bssw.io/items?author=gonsiorowski), [Keith Beattie](https://bssw.io/items?author=beattie), and [Nasir Eisty](https://bssw.io/items?author=eisty) shared presentations and discussed their personal experiences. 
 
 BSSw.io is managed by the BSSw.io editorial team, composed of senior editors and associate editors, who are experts in their fields. We welcome contributions from readers all over the world. I should mention that the BSSw.io website has detailed instructions on [how and what to contribute](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software). All submitted content undergoes a review process.  Once an article is submitted, we assign editors who work with contributors to refine the content, before it is finally published. We keep all our processes and workflows open so that we can receive continuous feedback for improvement and growth.
 
@@ -35,7 +35,7 @@ Our submission process is managed using our GitHub repository. For users familia
 
 * **The need for more awareness**.  Across the scientific community, more awareness and focus are needed on software sustainability and productivity.  BOF participant recommendations ranged from suggestions for funding agencies to devote explicit funding to these topics, to having community BOFs at regular intervals, to showing public appreciation for teams who are already incorporating strong practices in these areas. 
 
-* **The need for training**. Audience members discussed training available on these topics and shared experiences about their individual organizations. Overall, there is a need for more solid, scientific-computing oriented resources for training. Efforts in this direction include work by the [IDEAS productivity project](https://ideas-productivity.org/events/), [Software Carpentry](https://software-carpentry.org/), and the [Software Sustainability Institute](https://www.software.ac.uk).
+* **The need for training**. Audience members discussed training available on these topics and shared experiences about their individual organizations. Overall, there is a need for more solid, scientific-computing oriented resources for training. Efforts in this direction include work by the [IDEAS productivity project](https://ideas-productivity.org/resources/events/), [Software Carpentry](https://software-carpentry.org/), and the [Software Sustainability Institute](https://www.software.ac.uk).
 
 * **The need for tools and technologies**. The attendees discussed what tools, best practices and technologies exist today that they have found useful for improving sustainability and productivity in their projects. These tools address documentation, bug tracking, issue reporting, automated testing, continuous integration testing, and more. 
 
@@ -54,6 +54,7 @@ Deborah Stevens is an Assistant Computer Scientist at the Argonne Leadership Com
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: Software Engineering, Conferences and Workshops
 RSS update: 2021-05-26

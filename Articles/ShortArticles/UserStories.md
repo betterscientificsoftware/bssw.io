@@ -18,7 +18,6 @@ User stories encode client and user requirements, but are intended to be simple,
 Additional information about the user story approach can be found at:
 
 - [Overview and Examples](https://www.mountaingoatsoftware.com/agile/user-stories) from Mountain Goat Software
-- [YouTube video](https://www.youtube.com/watch?v=tKSUokG3Y0w") from CA Technologies
 - [YouTube video](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0ahUKEwjs6faQ0O3VAhWKqFQKHZp7DpQQtwIIKDAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ8YLL_Wi66A&usg=AFQjCNEBUa2zSbgqd35dO1vZ0bkTX5Zv6w") on _Getting Started with Agile : Epics, Features, and User Stories_
 
 ### Examples of user stories
@@ -39,5 +38,6 @@ Additional information about user stories in the context of the IDEAS project wa
 Publish: yes
 Pinned: no
 Topics: Requirements
+Track: Experience
 RSS update: 2019-07-27
 --->

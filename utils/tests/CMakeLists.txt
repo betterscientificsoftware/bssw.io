@@ -160,3 +160,9 @@ wikize_refs_diff_test(wikize_refs_basic_footnotes
   OUTPUT_FILE test_basic_footnotes-wikized.md
   ARGS -w
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_basic_footnotes-wikized.md )
+
+wikize_refs_diff_test(wikize_refs_renumber
+  INPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber.md
+  OUTPUT_FILE test_renumber-wikized.md
+  ARGS -r 5
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber-wikized.md )

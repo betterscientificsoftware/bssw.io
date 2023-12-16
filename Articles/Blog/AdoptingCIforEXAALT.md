@@ -10,7 +10,7 @@
 
 To develop software that can push the limits of accelerated molecular dynamics, the EXAALT team is working with the IDEAS-ECP project to adopt continuous integration practices.
 
-The [Exascale Atomistic capability for Accuracy, Length and Time (EXAALT)](https://www.exascaleproject.org/project/exaalt-molecular-dynamics-at-the-exascale-materials-science/) is an [ECP](https://www.exascaleproject.org)-funded materials modeling framework designed to leverage extreme-scale parallelism to produce accelerated molecular dynamics simulations.  The end goal is to allow the user to access the most appropriate combination of accuracy, length, and time for the problem at hand, trading the costs of various forms of parallelism.  One application of EXAALT is modeling the surface of a fusion reactor (shown above is the interior of a tokamak at MIT, photograph by Chris Bolin, wikimedia commons).  As shown in Figure 1, EXAALT is actually a collection of multiple packages, each having its own dependencies. At the heart of EXAALT is the Large-scale Atomic/Molecular Massively Parallel Simulator ([LAMMPS](https://lammps.sandia.gov/)), developed at Sandia National Laboratories. However, in order to enable simulations with ab initio accuracy and extended time scales, other critical packages include [LATTE](https://github.com/lanl/LATTE) and [ParSplice](https://gitlab.com/exaalt/parsplice), both developed at Los Alamos National Laboratory (LANL).
+The [Exascale Atomistic capability for Accuracy, Length and Time (EXAALT)](https://www.exascaleproject.org/research-project/exaalt/) is an [ECP](https://www.exascaleproject.org)-funded materials modeling framework designed to leverage extreme-scale parallelism to produce accelerated molecular dynamics simulations.  The end goal is to allow the user to access the most appropriate combination of accuracy, length, and time for the problem at hand, trading the costs of various forms of parallelism.  One application of EXAALT is modeling the surface of a fusion reactor (shown above is the interior of a tokamak at MIT, photograph by Chris Bolin, wikimedia commons).  As shown in Figure 1, EXAALT is actually a collection of multiple packages, each having its own dependencies. At the heart of EXAALT is the Large-scale Atomic/Molecular Massively Parallel Simulator ([LAMMPS](https://lammps.sandia.gov/)), developed at Sandia National Laboratories. However, in order to enable simulations with ab initio accuracy and extended time scales, other critical packages include [LATTE](https://github.com/lanl/LATTE) and [ParSplice](https://gitlab.com/exaalt/parsplice), both developed at Los Alamos National Laboratory (LANL).
 
 <br>
 
@@ -22,7 +22,7 @@ The [Exascale Atomistic capability for Accuracy, Length and Time (EXAALT)](https
 ### Software Challenges in EXAALT
 In 2017, LANL focused its annual [IS&T Co-Design Summer School](http://lanl.github.io/cdss/history.html) program on the topic of accelerated molecular dynamics (AMD).  The idea was to gather a small group of elite graduate students to help optimize the performance of ParSplice, the AMD driver of EXAALT.  During the early weeks of that summer, the developers of ParSplice quickly recognized that their rapidly evolving code had become difficult for the typical (and even advanced) computational scientist to compile and run.  The reason was that the existing build system (or lack thereof) was becoming prohibitively difficult to negotiate.
 
-The summer students overcame their early technical difficulties and accomplished great feats.  However, the experience inspired the EXAALT team to be more proactive about future productivity issues.  That is, the members decided to collaborate closely with members of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/) project, to adopt modern and sustainable software-development practices.  In the short term, this decision meant the implementation of a more user-friendly and portable build system (compared with the manual Makefile-based compilation of several different packages). In the longer term, this meant the development of a continuous-integration (CI) pipeline to first automate build testing and ultimately accelerate all quality-control efforts.  
+The summer students overcame their early technical difficulties and accomplished great feats.  However, the experience inspired the EXAALT team to be more proactive about future productivity issues.  That is, the members decided to collaborate closely with members of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) project, to adopt modern and sustainable software-development practices.  In the short term, this decision meant the implementation of a more user-friendly and portable build system (compared with the manual Makefile-based compilation of several different packages). In the longer term, this meant the development of a continuous-integration (CI) pipeline to first automate build testing and ultimately accelerate all quality-control efforts.  
 
 ### Productivity and Sustainability Improvement Planning
 
@@ -63,11 +63,8 @@ Richard Zamora is an assistant computer scientist in the [ALCF](https://www.alcf
 
 <!---
 Publish: yes
+Track: deep dive
 RSS update: 2018-09-25
-Categories: planning, reliability
 Topics: software process improvement, testing, continuous integration testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

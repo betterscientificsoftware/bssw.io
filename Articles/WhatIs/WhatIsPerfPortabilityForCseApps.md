@@ -24,11 +24,6 @@ This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/20
 
 <!---
 Publish: yes
-Categories: performance
 Pinned: yes
 Topics: performance portability
-Tags: document, whatis, terminology
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

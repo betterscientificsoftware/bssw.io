@@ -1,4 +1,6 @@
 # What is Debugging?
+#### Publication date: July 20, 2019
+
 
 <!--deck start--->
 Debugging in a well-known, important concept while developing software - discussed below are some topics that arise when one talks about debugging in scientific environments.
@@ -7,7 +9,7 @@ Debugging in a well-known, important concept while developing software - discuss
 <!--body start--->
 Defects in software (e.g. _bugs_) can take many forms. Defects are generally described as causing
 unexpected or unintended behavior including outright crashes, incorrect or invalid
-results, missing or disabled functionality and unexpected [_time and/or space performance_](http://www.leda-tutorial.org/en/official/ch02s02s03.html).
+results, missing or disabled functionality and unexpected time and/or space performance. <!-- [_time and/or space performance_](http://www.leda-tutorial.org/en/official/ch02s02s03.html). -->
 
 The _first_ most important step in debugging is to develop a _reproducer_. That is, the _recipe_
 by which the defective behavior can be reliably observed. It is common for a defect to manifest
@@ -21,8 +23,7 @@ manifest only at large scale parallelism.
 
 Once a _reproducer_ is available, the process of finding the cause can involve various creative
 strategies, including the use of debugging tools such as [_gdb_](https://en.wikipedia.org/wiki/GNU_Debugger)
-or [_TotalView_](https://computing.llnl.gov/tutorials/totalview/) (which require the
-software to have been compiled with debugging symbols included), performance assesement tools such as
+or [_TotalView_](https://hpc.llnl.gov/software/development-environment-software/totalview-debugger) (which require the software to have been compiled with debugging symbols included), performance assesement tools such as
 [_Valgrind_](http://valgrind.org) or [_gprof_](https://sourceware.org/binutils/docs/gprof/Compiling.html),
 intrusive code modifications (e.g. printf), and even simply eye-balling code to
 identify possible candidate code paths that could lead to the observed defective behavior.
@@ -42,10 +43,5 @@ won't creep back into the software in later versions. This practice is typically
 <!---
 Publish: yes
 Pinned: yes
-Categories: reliability
 Topics: debugging
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

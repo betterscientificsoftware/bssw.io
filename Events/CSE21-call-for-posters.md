@@ -44,7 +44,7 @@ Best regards, David Bernholdt, Sandra Gesing, and Rinku Gupta
 
 **Abstract:** Software is the key crosscutting technology that enables advances in mathematics, computer science, and domain-specific science and engineering to achieve robust simulations and analysis for predictive science, engineering, and other research fields. While software is becoming more complex due to multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware (due to increases in typical system scale and heterogeneity, including GPUs and additional alternative architectures), software itself has not traditionally received focused attention in the CSE community. The posters presented in this minisymposterium will address work that addresses growing technical and social challenges in software productivity, quality, and sustainability, and thereby helps software fulfill its critical role as a cornerstone of long-term CSE collaboration.
 
-#### #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile"), [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub profile"), and [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub profile")
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile"), [Sandra Gesing](https://github.com/sandragesing "Sandra Gesing GitHub profile"), and [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub profile")
 
 <!---
 Publish: yes

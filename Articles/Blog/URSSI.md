@@ -78,24 +78,19 @@ for research software developers in universities.
 
 We have held [one workshop](http://urssi.us/workshops/berkeley/) and are planning three more, in addition to a
 community survey we plan to have out soon and a set of ethnographic studies on specific projects. We are
-communicating through our [website](http://urssi.us), a [series of newsletters](http://urssi.us/newsletter/), and
-a [community discussion site](https://discuss.urssi.us). 
+communicating through our [website](http://urssi.us) and a [series of newsletters](http://urssi.us/newsletter/). 
 
 ### Get involved!
 We welcome members of the BSSw community to join us, both to help us determine how to proceed and to directly
 contribute. Please
-[sign up for our mailing list](https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d),
-[contribute to our discussions](https://discuss.urssi.us), and potentially publish a
+[sign up for our mailing list](https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d), contribute to our discussions, and potentially publish a
 guest [blog post](http://urssi.us/blog/) with us on a topic around software sustainability.
 
 
 <!---
 Publish: yes
+Pinned: no
+Track: community
 RSS update: 2018-07-30
-Categories: Collaboration
-Topics: projects and organizations, funding sources and programs
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: projects and organizations, funding sources and programs, Software Sustainability
 --->

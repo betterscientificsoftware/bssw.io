@@ -11,12 +11,12 @@
 
 BSSw Fellowships provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. 
 
-During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of thee scientific sofware lifecycle.  Here's more about what they have been up to.
+During their tenure, 2019 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle.  Here's more about what they have been up to.
 
 ### Fellows guide us through the social challenges of scientific software projects.
 _Social skills matter for the development of user and developer communities._ 
 
-BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about managing the community around a scientific software project. Targeted at current and prospective software maintainers and community leaders, the tutorials teach this knowledge in small modules that are accessible to scientists. Thus, if you are currently leading or maintaining a scientific software project, or thinking about starting one, Rene's guides will help you navigate your scientific software project from inception to long-term sustaintability. Learn more at [HPC Best Practices Webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) and [Scientific Software Projects and their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities).
+BSSw Fellow Rene Gassmoeller created a series of guides and tutorials about managing the community around a scientific software project. Targeted at current and prospective software maintainers and community leaders, the tutorials teach this knowledge in small modules that are accessible to scientists. Thus, if you are currently leading or maintaining a scientific software project, or thinking about starting one, Rene's guides will help you navigate your scientific software project from inception to long-term sustainability. Learn more at [HPC Best Practices Webinar: Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects](https://bssw.io/events/webinar-discovering-and-addressing-social-challenges-in-the-evolution-of-scientific-software-projects) and [Scientific Software Projects and their Communities](https://bssw.io/blog_posts/scientific-software-projects-and-their-communities).
 <p>&nbsp;</p>
 
 <div class='fellow'>
@@ -37,7 +37,7 @@ _Advice for new (prospective) BSSw Fellows:_ Plan on how to fit your fellowship 
 ### Fellows improve the reliability of scientific software through analyzing and debugging floating-point software.
 _There is still much work to be done to make scientific applications more reliable in terms of correctness and numerical consistency._  
 
-BSSw Fellow Ignacio Laguna developed tutorials on tools to debug and improve the reliability of scientific applications, with emphasis on floating-point software defects that are difficult to debug. Scientific software relies heavily on floating-point arithmetic, which replaces real numbers by finite precision numbers. Approximations occur at all levels, and programmers must deal with exceptional cases and sometimes hard to debug scenarios. With larger and more complex systems, e.g., using accelerators that do not fully implement the IEEE 754 floating-point standard, the need for such tools is becoming increasingly important to ensure the reliability of future scientific software. The tutorials present tools that can be used today (as opposed to tools that are in the research phase) to help programmers detect and fix abnormal floating-point behavior in GPUs, isolate compiler optimizations that can perturb the program output and/or trade performance for accuracy, understand the sensitivity of floating-point operations in the code, and possibly other issues. Learn more at [HPC Best Practices Webinar: Tools and Techniques for Floating-Point Analysis](http://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar034) and [Tutorial on Floating-Point Analysis Tools](http://fpanalysistools.org/). 
+BSSw Fellow Ignacio Laguna developed tutorials on tools to debug and improve the reliability of scientific applications, with emphasis on floating-point software defects that are difficult to debug. Scientific software relies heavily on floating-point arithmetic, which replaces real numbers by finite precision numbers. Approximations occur at all levels, and programmers must deal with exceptional cases and sometimes hard to debug scenarios. With larger and more complex systems, e.g., using accelerators that do not fully implement the IEEE 754 floating-point standard, the need for such tools is becoming increasingly important to ensure the reliability of future scientific software. The tutorials present tools that can be used today (as opposed to tools that are in the research phase) to help programmers detect and fix abnormal floating-point behavior in GPUs, isolate compiler optimizations that can perturb the program output and/or trade performance for accuracy, understand the sensitivity of floating-point operations in the code, and possibly other issues. Learn more at [HPC Best Practices Webinar: Tools and Techniques for Floating-Point Analysis](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar034) and [Tutorial on Floating-Point Analysis Tools](http://fpanalysistools.org/). 
 <p>&nbsp;</p>
 
 <div class='fellow'>
@@ -103,16 +103,13 @@ BSSw Fellows are selected annually based on an application process that includes
 Pictured above are members of the BSSw Fellows community who attended the 2020 Annual Meeting of the DOE Exascale Computing Project. Left to right: Tanu Malik, Damian Rouson, David Rogers, Nasir Eisty, Kyle Niemeyer, Cindy Rubio-Gonzales, Rene Gassmoeller, David Boehme, Ignacio Laguna, Sumana Harihareswara, and Ivo Jimenez.
 
 ### Author bio
-Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading LANL's Center of Excellence activities, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for advanced HPC architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpcforum2020.alcf.anl.gov/) since 2015.
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory. Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading LANL's Center of Excellence activities, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for advanced HPC architectures. She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpcforum2020.alcf.anl.gov/) since 2015.
 
 
 <!---
 Publish: yes
+Track: experience
 RSS update: 2020-07-17
-Categories: collaboration
 Topics: projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

@@ -12,9 +12,13 @@ Improving productivity from an individual perspective. Adopting proven practices
 Information about strategies for fully reaping the benefits of online lectures, tutorials, and other learning material to help improve scientific software development, productivity, and sustainability.
 <!---Topic order: 1--->
 
+- **In-Person Learning**
+Tutorials, trainings, and other learning opportunities presented in-person.
+<!---Topic order: 2--->
+
 - **Personal Productivity and Sustainability**
 Information on factors that impact how effectively we work, both now and looking toward the future.
-<!---Topic order: 2--->
+<!---Topic order: 3--->
 
 <!---
 Category order: 6

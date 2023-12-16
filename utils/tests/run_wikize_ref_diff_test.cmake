@@ -27,7 +27,7 @@
 #
 # If COMPARE_SAVED_INPUT_FILE=TRUE is passed in, then the saved original file
 # name(<inputFile>)~ will be compared to the original <inputFile> to make sure
-# the orginal file is saved.  If COMPARE_SAVED_INPUT_FILE=FALSE, then the file
+# the original file is saved.  If COMPARE_SAVED_INPUT_FILE=FALSE, then the file
 # name(<inputFile>)~ cannot exist after running wikize_refs.py or an error
 # will be recorded.
 #

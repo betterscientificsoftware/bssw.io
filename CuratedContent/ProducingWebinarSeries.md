@@ -15,7 +15,7 @@ Resource name | Producing a webinar series
 Website | [Process for producing a webinar](https://github.com/betterscientificsoftware/Webinar-Process)
 Focus | Training, Outreach
 
-The [HPC Best Practices (HPC-BP) Webinar Series](https://ideas-productivity.org/events/hpc-best-practices-webinars)
+The [HPC Best Practices (HPC-BP) Webinar Series](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars)
 is a vehicle for disseminating information related to scientific software and for addressing productivity challenges. The 
 series aims delivers content ranging from software refactoring and testing, to potential impacts of advances in computer 
 architectures, to software performance and more effective collaboration. Apart from the selection of topics and speakers in a timely manner, 
@@ -23,7 +23,7 @@ it is important to follow a (rather large) number of steps to lead a webinar to 
 
 The [Webinar Process](https://github.com/betterscientificsoftware/Webinar-Process) (*How to Produce a Webinar Series*) 
 repository describes the process we follow for the HPC-BP Series. While the series works in concert with
-DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as well as ALCF, NERSC, and OLCF ([DOE computing facilities](https://bssw.io/communities/community-of-supercomputer-facilities-and-their-users)), the process can be 
+DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as well as ALCF, NERSC, and OLCF (DOE computing facilities), the process can be 
 (and has been) refined and adapted as needed, as well as applied to other scenarios. For example, over time we 
 found it necessary to start interacting with speakers earlier, and adjust timelines accordingly.
 

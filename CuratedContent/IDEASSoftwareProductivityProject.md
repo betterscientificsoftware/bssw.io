@@ -3,14 +3,14 @@
 The IDEAS project addresses productivity and sustainability concerns that are emerging from important trends in extreme-scale computing for science and engineering.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: February 13, 2020
 
 Resource information | Details 
 :--- | :--- 
 Organization name  | IDEAS Software Productivity Project
 Website  | [https://ideas-productivity.org](https://ideas-productivity.org)
-Report | [Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability Report](https://exascaleproject.org/better-scientific-productivity-through-better-scientific-software-the-ideas-report)
+Report | [Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability Report](https://doi.org/10.2172/1606662)
 Focus | Developer productivity and software sustainability for extreme-scale CSE
 
 Advances in next-generation computational science and engineering (CSE) require the development of applications that can fully exploit emerging extreme-scale architectures for optimal performance and provide high-fidelity multiphysics and multiscale capabilities. To help address overwhelming complexity, the IDEAS project focuses on improving scientific productivity by qualitatively improving developer productivity (positively impacting product quality, development time, and staffing resources) and software sustainability (reducing the cost of maintaining, sustaining, and evolving software capabilities in the future)—thereby enabling a fundamentally different attitude to creating and supporting CSE applications.

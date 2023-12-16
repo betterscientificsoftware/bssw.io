@@ -2,7 +2,7 @@
 
 **Name:** Stephen Andrews
 
-**Image:** /images/People_StephenAndrews.jpg
+**Image:** /images/People_AndrewsStephen.jpg
 
 **Affiliation:** Los Alamos National Laboratory
 

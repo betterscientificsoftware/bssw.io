@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_2109_Collegeville1.png' />
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_2109_Collegeville1.png' />
 
 #### Contributed by: [Johanna Cohoon](https://github.com/jlcohoon), [Ben Cowan](https://github.com/benc303), [Anshu Dubey](https://github.com/adubey64), [Vadim Dyadechko](https://github.com/vdyadechko), [Nur Fadel](https://github.com/nuraiman), [Charles Ferenbaugh](https://github.com/cferenba), [Sarah Knepper](https://github.com/sknepper), [Jay Lofstead](https://github.com/gflofst), [Reed Milewicz](https://github.com/rmmilewi), [David Moulton](https://github.com/jd-moulton), [Todd Munson](https://github.com/tmunson), [Sarah Osborn](https://github.com/osborn9), [Elaine Raybourn](https://github.com/elaineraybourn), [Benjamin Sims](https://github.com/bhsims), [Stan Tomov](https://github.com/stomov), [Han Yong Wunrow](https://github.com/hwunrow), [Ulrike Meier Yang](https://github.com/ulrikeyang), [Sam Yates](https://github.com/halfflat), [Daniel S. Katz](https://github.com/danielskatz), [Michael A. Heroux](https://github.com/maherou)
 
@@ -55,6 +55,7 @@ The workshop organizers and authors of this article thank all participants for c
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: software process improvement, software engineering, projects and organizations, strategies for more effective teams, conferences and workshops
 RSS update: 2021-11-03

@@ -3,41 +3,36 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../Articles/Blog/2021-11-CollegevilleReportDay3.md
-Slide2 R: ../images/Blog_2109_Collegeville1.png
-Slide3 L: ../Articles/Blog/2021-10-FirstFiveYrsWebinar.md
-Slide4 R: ../images/Blog_2110_HPC-BP.png
-Slide3 L: ../ShortArticles/CodingConventions.md
-Slide3 R: ../CuratedContent/ProducingWebinarSeries.md
-Slide4 L: ../Articles/Blog/2021-10-CollegevilleReportDay2.md
-Slide4 R: ../images/Blog_2109_Collegeville1.png
-Slide5 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
-Slide5 R: ../images/Blog_2109_SX_OmicronA.png
-Slide6 L: ../Events/2021-11-sc21-sw-events.md
-Slide6 R: ../Events/hpcbp-058-55plus-years-in-hpc.md
-Slide7 L: ../Events/swr-012-sustainablehybrid.md
-Slide7 R: ../Events/2022-01-SoftwareQualityDays.md
+Slide1 L: ../images/Blog_1119_seasonal.png
+Slide1 R: ../Articles/Blog/EditorialThanks-2023.md
+Slide2 L: ../CuratedContent/SolidDesignPrinciples.md
+Slide2 R: ../CuratedContent/hpcbp-webinars-cc.md
+Slide3 L: ../CuratedContent/SoftwareSustainabilityMatrix.md
+Slide3 R: ../CuratedContent/ColorOracleTool.md
+Slide4 L: ../Events/hpcbp-081-securesoftware.md
+Slide4 R: ../Events/2023-11-code-review-survey-rse.md
 --->
 
 <!---
+Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
+
 Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
 LCM: Saving for use again later
 
-Slide1 L: ../Articles/Blog/2021-09-SSwDiscoveriesInterview.md
-Slide1 R: ../images/Blog_2109_SX_OmicronA.png
-Slide2 L: ../Articles/Blog/2021-09-CollegevilleReportDay1.md
-Slide2 R: ../images/Blog_2109_Collegeville1.png
-Slide3 L: ../CuratedContent/SoftwareSustainabilityInstituteGuides.md
-Slide3 R: ../CuratedContent/ExecutableEnvironments.md
-Slide4 L: ../Articles/Blog/2021-08-registry-best-practices.md 
-Slide4 R: ../CuratedContent/ThingsYouShouldNeverDoPartI.md
-Slide5 L: ../Articles/Blog/2021-08-IntegratingInterns.md
-Slide5 R: ../images/Blog_0821_Interns.png
-Slide6 L: ../Events/2021-10-XpertNetwork.md
-Slide6 R: ../Events/2021-10-wosss21.md
-Slide7 R: ../Events/hpcbp-057-sierra-and-elcapitan-coes.md
-Slide7 L: ../Events/2021-10-ssi-fellowship.md
-
+Slide1 L: ../images/Blog_2310_BigCode.png
+Slide1 R: ../Articles/Blog/2023-10-fear-of-large-codes.md
+Slide2 L: ../images/Blog_2310_INTERSECT_Edit.png
+Slide2 R: ../Articles/Blog/2023-10-intersect.md
+Slide3 L: ../images/Blog_2307_io.png
+Slide3 R: ../Articles/Blog/2023-09-io-storage-characterization.md
+Slide4 L: ../CuratedContent/SoftwareSustainabilityMatrix.md
+Slide4 R: ../CuratedContent/ColorOracleTool.md
+Slide5 L: ../CuratedContent/SmartLibs.md
+Slide5 R: ../CuratedContent/AllInMaintainersDEIResourceHub.md
+Slide6 L: ../Events/hpcbp-080-ideas.md 
+Slide6 R: ../Events/2023-11-sc23-sw-events.md
+Slide7 L: ../Events/2023-repro-climate.md
+Slide7 R: ../Events/2023-sc23-correctness.md
 --->
 
 <!---

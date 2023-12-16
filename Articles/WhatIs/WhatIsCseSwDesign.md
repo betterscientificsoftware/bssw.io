@@ -1,61 +1,31 @@
 # What is CSE Software Design?
+#### Contributed by [Anshu Dubey](https://github.com/adubey64) and [Rinku Gupta](https://github.com/rinkug)
+
+#### Publication date: May 17, 2017
 <!--deck start--->
 CSE Software design for scientific software is an intricate process composed of multiple steps - including determination of what capabilities are needed to meet the targeted scientific goals to understanding how to balance tradeoffs between modularity, functionality and performance in the resulting software product.
 <!--deck end--->
 
 <!--body start--->
 
-Scientific software incorporates a broad range of expertise ranging
-from domain knowledge and applied mathematics to computer science
-issues such as performance and portability. It is necessary to untangle various complexities so that
-experts can focus on what they know best. Therefore, the process of software design in the
-context of scientific software involves determining a union of
-capabilities needed to achieve scientific objectives, the
-decomposition of needed capabilities into components that encapsulate a
-functionality and an ability to compose these components as needed by
-the application. Decomposition can be functional and data/spatial
-domain. There are several examples of application codes and frameworks
-where sections of the code that pertain to the science of the application
-are written and verified separately and then plugged into a composing
-framework with a wrapper. The internals of the framework handle the
-data management and other infrastructural concerns such as
-parallelization if needed.
+Creating scientific software incorporates a broad range of expertise, spanning from domain knowledge to applied mathematics and computer science issues such as performance, scalability, portability, and quality. Untangling these issues and complexities is crucial to enable teams and experts to concentrate on their core strengths.
 
-Therefore, one of the very first choices to make in designing a software
-is which abstractions to use, and how to provide footholds for the
-abstractions in the framework so that they maintain separation of
-concerns. There are many long standing obstacles to meeting requirements above.
-There has always been a trade-off between modularity and
-performance. Modularity is necessary for maintainable and reusable
-code, but it compromises performance. Some of the conflicting
-requirements require hard-nosed trade-offs in design. For example, most
-composable codes run relatively slowly because they sacrifice performance for
-multiphysics and composability. Sometimes this means using suboptimal options for individual
-components. The framework should be able to facilitate such unorthodox
-approaches and therefore should provide hooks for being able to make
-these choices. 
-<!--- For more details on framework design see
-[Dubey2009,uintah2,valiev2010nwchem,case2014amber,O'Shea2005,Dubey2015] 
---->
+Before embarking on the design phase of scientific software, a critical prerequisite is a profound understanding of the underlying scientific problem. This entails a thorough comprehension of the objectives to be achieved and the explicit definition and understanding of requirements. The multifaceted nature of software design encompasses several key aspects, including defining the overall system architecture, charting out the high-level structure and interactions between components. Additionally, careful consideration is given to selecting appropriate algorithms, with a keen focus on factors like accuracy, efficiency, and scalability. The implementation of best practices for documentation is crucial, providing comprehensive insights into the software's architecture, algorithms, and usage. Collaborative tools play a pivotal role, enhancing communication and coordination among team members. Successful software design, therefore, necessitates a holistic approach that encompasses not only technical considerations but also a deep appreciation for the scientific problem at hand and effective collaboration practices.
 
-Another important consideration in scientific software design is its
-dynamic nature. Codes designed for one problem are routinely modified
-to use other similar problems, or need modification because growing
-understanding places more demands on the current model. Therefore,
-extensibility in also a very important aspect of scientific software design.
+In the context of scientific computing, one key aspect in the process of software design involves determining (1) a union of capabilities needed to achieve desired scientific objectives, (2) the decomposition of needed capabilities into smaller components that encapsulate functionality, and (3) an ability to design these components as needed by the application.
 
-#### Contributed by [Anshu Dubey](https://github.com/adubey64)
+Decomposition occurs in both functional and data/spatial domains. In various application codes and frameworks, sections dedicated to the scientific aspects are independently written, verified, and then integrated into a composing framework using a wrapper. The internals of the framework handle data management and other infrastructural concerns such as parallelization if needed.
 
-#### Publication date: May 17, 2017
+Therefore, one of the initial decisions in software design is choosing abstractions and establishing footholds in the framework to maintain the separation of concerns. Meeting these requirements faces long-standing obstacles, particularly the trade-off between modularity and performance. Although modularity is essential for code that is maintainable and reusable, it frequently comes at the expense of performance. Resolving conflicting requirements necessitates hard-nosed trade-offs in design. For instance, the majority of composable modularized codes tend to operate at a slower pace as they prioritize increased flexibility in designing independent components and their composability over optimal performance. At times, this involves employing less-than-optimal options for individual components. The framework should support these unconventional approaches by providing hooks to make such choices.
+
+Another crucial aspect of scientific software design is its dynamic nature. Codes initially designed for one problem are frequently adapted for similar issues or require modifications as evolving understanding places additional demands on the current model. Thus, extensibility becomes a vital element in scientific software design.
+
+When it comes to scientific software design, as seen above, multiple considerations come into play, requiring careful thought about the mentioned issues. It is crucial to assess whether the teams involved in the design process understand and possess experience in recognizing these issues, enabling them to proactively design effective solutions.
+
 <!--body end--->
 
 <!---
 Publish: yes
 Pinned: yes
-Categories: planning
 Topics: design
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

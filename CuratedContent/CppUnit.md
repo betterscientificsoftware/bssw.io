@@ -3,7 +3,7 @@
 Unit testing is an important step in the software development lifecycle; several frameworks such as JUnit exist to help developers in this effort. *CppUnit* is a useful C++ port of the JUnit framework!
 <!--deck text end-->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: September 05, 2019
 
 Resource information | Details 
@@ -16,10 +16,6 @@ Focus | Software Testing
 
 <!---
 Publish: yes
-Categories: reliability, development
+Pinned: no
 Topics: testing, tools
-Tags: tool
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

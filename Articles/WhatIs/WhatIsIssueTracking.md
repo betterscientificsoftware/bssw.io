@@ -13,7 +13,7 @@ An "issue" represents anything that, if resolved, results in an improvement to a
 
 1. Be accessible anywhere, from any system, i.e. web based.
 2. Be available for both users to report bugs, (and requests for new features) and track progress on the requests, while also allowing developers to manage permissions for updating issues with progress reports etc.
-3. Provide email updates on the status of the issue to relevent users and developers.
+3. Provide email updates on the status of the issue to relevant users and developers.
 4. Allow setting priorities on issues.
 5. Allow assigning developers to particular issues.
 6. Allowing searching and sorting issues.
@@ -34,10 +34,5 @@ All three modern web-based repository hosting systems, [BitBucket](https://bitbu
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: issue tracking
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

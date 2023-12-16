@@ -1,6 +1,6 @@
 # Introducing the 2018 BSSw Fellows
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile") 
 
 #### Publication date: February 5, 2018
 
@@ -78,10 +78,7 @@ Stay tuned for more from the 2018 BSSw Fellows.
 
 <!---
 Publish: yes
-Categories: collaboration
+Track: community
 Topics: projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

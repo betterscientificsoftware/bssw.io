@@ -17,7 +17,7 @@ not convenient.
 
 Here, we describe conventions in the use of [GitHub Flavored Markdown (GFM)][GFM]
 together with a Python post-processing script
-[`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy)
+[`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/main/utils/README.md#wikize_refspy)
 to make it easier to manage such references in a
 [Wikipedia-like way](https://en.wikipedia.org/wiki/Note_(typography)#References).
 
@@ -43,23 +43,33 @@ at the end of the markdown file, of the form
 - `LAB`: (**REQUIRED**) Alphanumeric *label* for the reference
   - **Note**: The post-processing script renumbers them 1...N
 - `URL`: (**REQUIRED**) The URL for the reference
-- `TIT`: (*optional*) A title for the reference (appears as tool-tip during hover)
-- `{BIB}`: (*optional*) Full bibliographic information for the reference
-  - Here, we are using the `{BIB}` field, embedded in the [link's title](https://www.markdownguide.org/basic-syntax#adding-titles) text as a notational *extension*.
+- `TIT`: (*optional*) A (short) title for the reference (will also appear as tool-tip during hover)
+- `{BIB}`: (*optional*) Remaining full bibliographic information for the reference including the full title
+  - The `{BIB}` field, embedded in a [markdown reference style link](https://github.github.com/gfm/#reference-link) [title](https://www.markdownguide.org/basic-syntax#adding-titles) is a notational *extension* specific to and known by only the `wikize_refs.py` tool.
 - **Note**: Be sure whatever editor you are using is not inadvertently sneaking in [*smart quotes* or *curly quotes*](https://practicaltypography.com/straight-and-curly-quotes.html) and that you are using only *straight* quotes.
   If you are drafting content in whatever editor you have available locally and then cutting from that local editor and pasting into a web browser editing directly on GitHub, be aware that it is possible smart quotes can get carried along.
 
-Examples:
+### Examples
 
-    [mcm]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
-    [1]: "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
+    [mcm]: https://www.osti.gov/servlets/purl/936460 "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
+    [1]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
     [ale3d-paper]: https://wci.llnl.gov/simulation/computer-codes/ale3d
+    [ascidmf-saf]: https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller001.pdf "The SAF Data Model"
 
-In (most) markdown processors link definitions such as this will, by convention,
-not appear in the rendered HTML for the document. Thus, in order to make them 
-appear, we post-process the file with a Python script, `wikize_refs.py` which
-adds various auto-generated content to the *bottom* of the file to support
-the better referencing style. More on that later.
+In the first example, the various entries are given as...
+* `[LAB]:` is the label `[mcm]:`
+* `URL` is the link `https://www.osti.gov/servlets/purl/936460`
+* `TIT` is a short title `Smart Librares`
+* `{BIB}` is the full bibliographic entry, `{Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}` which includes the full title.
+* Note that the `TIT` followed by `{BIB}` entries are together bracketed by opening and closing double quotes, `"`.
+
+Note that the second example with label `[1]:` is an example of a journal citation with no URL.
+It contains just an incomplete URL, `https://`, for the `URL` field.
+The third example with label `[ale3d-paper]:` has only the `URL` field.
+The fourth example, with label `[ascidmf-saf]:` has the `URL` and a short title for the `"TIT"` field.
+
+In (most) markdown processors, link definitions such as this will not appear in the rendered HTML for the document.
+Thus, in order to make them appear, we post-process the file with a Python script, `wikize_refs.py` which adds various auto-generated content to the *bottom* of the file to support the better referencing style. More on that later.
 
 ## Footnotes in GitHub Flavored Markdown
 
@@ -75,7 +85,7 @@ Reference numbers should appear:
 - If citing more than one reference (max of 3) in the same footnote,
   separate the numbers with commas and no spaces between like so (`<sup`&#8203;`>[1],[2],[3]<`&#8203;`/sup>`).
 
-Examples:
+### Examples
 
     This drug is used to treat hepatitis.<sup>[1]</sup>
 
@@ -207,8 +217,8 @@ There is no requirement that all the link definitions appear at the bottom of th
     related lists in the file.
 - The script can be repeatedly re-applied to a file and operate in place
 
-[mcm]: https://wci.llnl.gov/codes/smartlibs/index.html "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
-[1]: https:// "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
+[mcm]: https://www.osti.gov/servlets/purl/936460 "Smart Libraries {Miller MC, Reus JF, Koziol QA, Cheng AP. December 2004. Smart Libraries: Best SQE Practices for Libraries with an Emphasis on Scientific Computing. Proc. NECDC UCRL-JRNL-208636}"
+[1]: https://# "Hello World {Miller MC. March 2026 Hello World in 500 different languages. Jrnl of Computer Science 5(3):237-241}"
 [ale3d-paper]: https://wci.llnl.gov/simulation/computer-codes/ale3d " {}"
 
 [GFM]: https://www.markdownguide.org/basic-syntax "Basic GitHub Flavored Markdown"

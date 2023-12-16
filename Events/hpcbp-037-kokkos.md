@@ -2,7 +2,7 @@
 
 - Date: 2020-02-19
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar037
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar037
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Introduction to Kokkos
 Date and Time | 2020-02-19 01:00 pm EST
 Presenter | Christian Trott (<a href="http://www.sandia.gov/">Sandia National Laboratories</a>)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar037>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar037>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

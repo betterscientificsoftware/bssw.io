@@ -83,12 +83,8 @@ References | &nbsp;
 <!---
 Publish: yes
 RSS update: 2020-09-25
-Categories: Planning
+Pinned: no
 Topics: design
-Tags: book
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "E. Gamma, R. Helm, R. Johnson and J. Vlissides. Design Patterns, Addison Wesley, 1995"

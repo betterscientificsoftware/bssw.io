@@ -111,10 +111,7 @@ Dr. Miroslav Stoyanov got his Ph.D. from Virginia Tech in 2009. After a postdoct
 <!---
 Publish: yes
 RSS update: 2020-09-11
-Categories: Development
+Track: deep dive
 Topics: Documentation
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
