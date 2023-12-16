@@ -102,6 +102,7 @@ and v2), Parallel NetCDF, and Mochi I/O services.  Rob is a 2022 BSSw Fellow.
 
 <!---
 Publish: Yes
-Track: experience
+Track: bssw fellowship
+Pinned: no
 Topics: "high-performance computing (hpc)", "performance at leadership computing facilities", "online learning"
 --->
