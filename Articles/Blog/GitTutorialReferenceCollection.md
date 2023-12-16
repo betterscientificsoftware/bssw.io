@@ -2,7 +2,7 @@
 #### Publication date: May 21, 2019
 
 <!-- deck text start -->
-Navigate the complexities of Git effortlessly with targeted tutorials and references, emphasizing a data-structure perspective for effective mastery, from critical beginner tips to interactive visual guides
+Navigate the complexities of Git effortlessly with targeted tutorials and references, emphasizing a data-structure perspective for effective mastery, from critical beginner tips to interactive visual guides.
 <!-- deck text end -->
 
 
