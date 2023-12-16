@@ -17,19 +17,23 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 
 
 ### Better Skills:
-* [Thank you from the BSSw.io Editorial Team!](https://bssw.io/blog_posts/thank-you-from-the-bssw-io-editorial-team), the BSSw.io editorial team **better collab**
+* [Thank you from the BSSw.io Editorial Team!](https://bssw.io/blog_posts/thank-you-from-the-bssw-io-editorial-team), The BSSw.io Editorial Team.
 * [INTERSECT: Training for Research Software Engineering](https://bssw.io/blog_posts/intersect-training-for-research-software-engineering), J. Carver et al.
 * [Best Practices for HPC Software Developers Webinar Series](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques.
 * [Better Scientific Software Tutorial Site](https://bssw.io/items/better-scientific-software-tutorial-site), D. Stevens.
 * [How Open Source Tooling Is Changing the Way Professional Researchers Learn to Code](https://bssw.io/blog_posts/how-open-source-tooling-is-changing-the-way-professional-researchers-learn-to-code), J. Stewart Lowndes.
+* [Busy != Productive](https://bssw.io/blog_posts/busy-productive), R. Underwood.
+* [Lessons Learned Transitioning from Experimental to Computational Science Share on LinkedIn Share on Facebook Tweet](https://bssw.io/blog_posts/lessons-learned-transitioning-from-experimental-to-computational-science), J. O'Neal.
 
 ### Better Planning:
 * [Secure Software Programming Practices and Development](https://bssw.io/blog_posts/secure-software-programming-practices-and-development), N. Sukhija.
 * [SOLID Design Principles](https://bssw.io/items/solid-design-principles), R. Bartlett.
+* [Training Materials for Research Software Engineering at INTERSECT](https://bssw.io/items/training-materials-for-research-software-engineering-at-intersect), R. Gupta.
 * [Fear of Large Codes](https://bssw.io/blog_posts/fear-of-large-codes), F. Rizzi.
 * [Software Sustainability Matrix](https://bssw.io/items/software-sustainability-matrix), R. Bartlett.
 * [Enabling Complex Scientific Applications](https://bssw.io/blog_posts/enabling-complex-scientific-applications), A. Reinarz et al.
 * [When is worse better?](https://bssw.io/items/when-is-worse-better), M. Miller.
+* [Scientific Software Teams Collegeville Workshop 2021: Special Issue of IEEE CiSE](https://bssw.io/items/scientific-software-teams-collegeville-workshop-2021-special-issue-of-ieee-cise), R. Gupta.
 
 ### Better Development:
 * [OpenSSF Best Practices Badge Program](https://bssw.io/blog_posts/openssf-best-practices-badge-program), R. Bartlett.
@@ -42,8 +46,8 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 * [Smart Libraries: 30+ Practices, 20+ Years...Still Relevant](https://bssw.io/items/smart-libraries-30-practices-20-years-still-relevant), M. Miller.
 * [Google Guidance on Code Review](https://bssw.io/items/google-guidance-on-code-review), R. Bartlett.
 * [Science as Amateur Software Development](https://bssw.io/items/science-as-amateur-software-development), D. Stevens.
-* [What is Peer Code Review?](https://bssw.io/items/what-is-peer-code-review), R. Bartlett.
 * [Supporting Reproducibility and Replicability Initiatives](https://bssw.io/items/supporting-reproducibility-and-replicability-initiatives), R. Gupta.
+* [What is Peer Code Review?](https://bssw.io/items/what-is-peer-code-review), R. Bartlett.
 
 ### Better Performance:
 * [I/O Sleuthing: Digging into Storage Performance](https://bssw.io/blog_posts/i-o-sleuthing-digging-into-storage-performance), R. Latham.
@@ -60,6 +64,10 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 * [Surveys to Understand Developer Health and Happiness](https://bssw.io/blog_posts/surveys-to-understand-developer-health-and-happiness), V. Sochat.
 * [Is Project Management Killing your Software Product?](https://bssw.io/items/is-project-management-killing-your-software-product), R. Gupta.
 * [A Collection of Open Source Software Maintainer Guides](https://bssw.io/items/a-collection-of-open-source-software-maintainer-guides), D. Stevens.
+* [Where and How to Publish CSE Software?](https://bssw.io/items/where-and-how-to-publish-cse-software), D. Ibanez.
+* [NumFOCUS: A Fiscal Sponsor of Scientific Software](https://bssw.io/blog_posts/numfocus-a-fiscal-sponsor-of-scientific-software), A. Terrel.
+* [The Anatomy of a Central RSE Team](https://bssw.io/blog_posts/the-anatomy-of-a-central-rse-team), M. Bluteau.
+* [Guidebook for Inclusive Scientific Meetings](https://bssw.io/items/guidebook-for-inclusive-scientific-meetings), D. Stevens.
 
 ### Building a better scientific software community through your contributions
 
