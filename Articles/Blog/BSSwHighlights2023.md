@@ -17,17 +17,49 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 
 
 ### Better Skills:
+* [Thank you from the BSSw.io Editorial Team!](https://bssw.io/blog_posts/thank-you-from-the-bssw-io-editorial-team), the BSSw.io editorial team **better collab**
+* [INTERSECT: Training for Research Software Engineering](https://bssw.io/blog_posts/intersect-training-for-research-software-engineering), J. Carver et al.
+* [Best Practices for HPC Software Developers Webinar Series](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques.
+* [Better Scientific Software Tutorial Site](https://bssw.io/items/better-scientific-software-tutorial-site), D. Stevens.
+* [How Open Source Tooling Is Changing the Way Professional Researchers Learn to Code](https://bssw.io/blog_posts/how-open-source-tooling-is-changing-the-way-professional-researchers-learn-to-code), J. Stewart Lowndes.
 
 ### Better Planning:
+* [Secure Software Programming Practices and Development](https://bssw.io/blog_posts/secure-software-programming-practices-and-development), N. Sukhija.
+* [SOLID Design Principles](https://bssw.io/items/solid-design-principles), R. Bartlett.
+* [Fear of Large Codes](https://bssw.io/blog_posts/fear-of-large-codes), F. Rizzi.
+* [Software Sustainability Matrix](https://bssw.io/items/software-sustainability-matrix), R. Bartlett.
+* [Enabling Complex Scientific Applications](https://bssw.io/blog_posts/enabling-complex-scientific-applications), A. Reinarz et al.
+* [When is worse better?](https://bssw.io/items/when-is-worse-better), M. Miller.
 
 ### Better Development:
-
+* [OpenSSF Best Practices Badge Program](https://bssw.io/blog_posts/openssf-best-practices-badge-program), R. Bartlett.
+* [How to Write a Git Commit Message](https://bssw.io/items/how-to-write-a-git-commit-message), D. Stevens.
+* [Color Oracle: Enhancing Software Accessibility for Color-Blind Users](https://bssw.io/items/color-oracle-enhancing-software-accessibility-for-color-blind-users), D. Stevens.
+* [Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems](https://bssw.io/blog_posts/long-term-software-gardening-strategies-for-cultivating-scientific-development-ecosystems), D. Bunten et al.
+* [Developer Documenting Done Right](https://bssw.io/items/developer-documenting-done-right), R. Gupta.
 
 ### Better Reliability:
+* [Smart Libraries: 30+ Practices, 20+ Years...Still Relevant](https://bssw.io/items/smart-libraries-30-practices-20-years-still-relevant), M. Miller.
+* [Google Guidance on Code Review](https://bssw.io/items/google-guidance-on-code-review), R. Bartlett.
+* [Science as Amateur Software Development](https://bssw.io/items/science-as-amateur-software-development), D. Stevens.
+* [What is Peer Code Review?](https://bssw.io/items/what-is-peer-code-review), R. Bartlett.
+* [Supporting Reproducibility and Replicability Initiatives](https://bssw.io/items/supporting-reproducibility-and-replicability-initiatives), R. Gupta.
 
 ### Better Performance:
+* [I/O Sleuthing: Digging into Storage Performance](https://bssw.io/blog_posts/i-o-sleuthing-digging-into-storage-performance), R. Latham.
+* [Containers for Deploying Workflow Systems and Application Codes](https://bssw.io/blog_posts/containers-for-deploying-workflow-systems-and-application-codes), K. Vahi.
+* [Improving Application Performance by Optimizing I/O](https://bssw.io/blog_posts/improving-application-performance-by-optimizing-i-o), R. Arora.
+* [The Turing Way: Reproducible and Ethical Science](https://bssw.io/items/the-turing-way-reproducible-and-ethical-science), J. Brown et al.
+* [Julia's Value Proposition for Better Scientific Software](https://bssw.io/blog_posts/julia-s-value-proposition-for-better-scientific-software), W. Godoy.
 
 ### Better Collaboration:
+* [US Federal Government Effort to Champion Adoption of Memory Safe Languages](https://bssw.io/items/us-federal-government-effort-to-champion-adoption-of-memory-safe-languages), M. Miller.
+* [All In for Maintainers DEI Resource Hub](https://bssw.io/items/all-in-for-maintainers-dei-resource-hub), D. Stevens.
+* [Persistent Identifiers for Software in Scientific Computing](https://bssw.io/items/persistent-identifiers-for-software-in-scientific-computing), R. Gupta.
+* [The Future of Research Software Engineers in the United States: Special Issue in CiSE](https://bssw.io/blog_posts/the-future-of-research-software-engineers-in-the-united-states-special-issue-in-cise), J. Carver et al.
+* [Surveys to Understand Developer Health and Happiness](https://bssw.io/blog_posts/surveys-to-understand-developer-health-and-happiness), V. Sochat.
+* [Is Project Management Killing your Software Product?](https://bssw.io/items/is-project-management-killing-your-software-product), R. Gupta.
+* [A Collection of Open Source Software Maintainer Guides](https://bssw.io/items/a-collection-of-open-source-software-maintainer-guides), D. Stevens.
 
 ### Building a better scientific software community through your contributions
 
