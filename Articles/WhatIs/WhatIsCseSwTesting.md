@@ -35,7 +35,7 @@ A form of testing where the primary aim is to operate the software as a proxy fo
 #### Continuous Integration (CI) testing
 A form of testing where the primary aims are to provide _immediate_ feedback regarding compatibility of changes with respect to multiple, parallel branches of development as well as overall software functionality.
 
-The [article](../Blog/UnderstandingSoftwareTestingPractices.md) introduces terminology for CSE software testing.
+The article *[Understanding Software Testing Practices](/blog_posts/understanding-software-testing-practices)* introduces terminology for CSE software testing.
 
 
 <!--body end--->
