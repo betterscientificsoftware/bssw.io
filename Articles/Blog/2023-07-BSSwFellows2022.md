@@ -233,6 +233,7 @@ Elsa Gonsiorowski is deputy coordinator of the BSSw Fellowship Program, a member
 
 <!---
 Publish: yes
-Track: community
+Track: bssw fellowship
+Pinned: no
 Topics: Projects and organizations
 --->
