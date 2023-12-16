@@ -1,21 +1,16 @@
-<div align="center">
-  
-# ![HOW-TO](ideas-how-to.jpg)
-
 # How to Configure Software 
-
-####  The IDEAS Scientific Software Productivity Project 
-
-##### [ideas-productivity.org/resources/howtos/](https://ideas-productivity.org/resources/howtos/)
 
 #### Contributed by [Jason Sarich](https://github.com/sarich)
 
-</div>
+#### Publication Date: August 15, 2019
+
+<!-- deck text start -->
+Most CSE software needs to be installed from source on a wide variety of machines by end users. Developers of the software must decide how to enable this installation easily without overburdening the developers of software or the end users. This article introduces several approaches to use depending on the contents and scale of the software package
+
+<!-- deck text end -->
 
 
-
-*Most CSE software needs to be installed from source on a wide variety of machines by end users. Developers of the software must decide how to enable this installation easily without overburdening the developers of software or the end users. This HowTo doc introduces several approaches to use depending on the contents and scale of the software package*
-
+<!-- body text start -->
 
 ### Overview
 Most CSE software needs to be installed from source on a wide variety of machines by end users. Developers of the software must decide how to enable this installation easily without overburdening the developers of software or the end users. This document introduces several approaches to use depending on the contents and scale of the software package.
@@ -24,7 +19,7 @@ Most CSE software needs to be installed from source on a wide variety of machine
 Scientific software project leaders and developers who need to ensure that their software can be installed on a wide variety of machines.
 
 ### Prerequisites
-First read the document [What Is Software Configuration?](https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-ConfigurationWhatIsSoftwareConfiguration-V0.2.pdf)
+Its a good idea to first read the article *[Understanding Software Configuration](UnderstandingSoftwareConfiguration.md)*.
 
 For simple packages that have almost no dependencies or machine dependent parameters, the use of (1)
 an options file is acceptable. For packages that incrementally build on another package, it can be
@@ -135,9 +130,6 @@ be used for each of the libraries. In the past each software package selected it
 making installing multiple packages painful and error prone. The IDEAS team has developed a set of
 standard configuration options that we recommend you follow.
 
-
-
-
 ### Notes
 
 <sup>[1]</sup> For example, PETSc’s configure, written completely in Python, provides all the functionality of GNU
@@ -151,6 +143,12 @@ allows tests to be written for each particular option.
 *This document was prepared by Jason Sarich with key contributions from Roscoe Bartlett, Michael A.
 Heroux, Barry Smith, and James M. Willenbring.*
 
-*This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
-Computing Research and Biological and Environmental Research programs.*
+<!-- body text start -->
+
+<!---
+Publish: yes
+Pinned: yes
+Track: how to
+Topics: Configuration And Builds 
+--->
 

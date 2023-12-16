@@ -1,11 +1,10 @@
 # Critical Beginner Git Usage Tips
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett")
+#### Publication date: May 14, 2022
 
 <!-- deck text start -->
 This article describes simple guidelines for setting up and using Git.
 <!-- deck text end --> 
-
-#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett")
-#### Publication date: May 14, 2022
 
 Git is a popular version control system, used to develop and maintain software in several scientific projects. This article describes simple guidelines for setting up and using Git. Using these guidelines, you can stay out of serious trouble and be more productive.
 
@@ -152,6 +151,7 @@ There are many other helpful guidelines that you can come up with for using Git 
 
 <!---
  Publish: yes
+ Track: how to
  Pinned: no
  Topics: revision control, development tools
  RSS update: 2021-05-18
