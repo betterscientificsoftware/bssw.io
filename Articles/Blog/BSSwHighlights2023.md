@@ -7,7 +7,7 @@
 
 #### Publication date: January 06, 2024
 
-Entering the threshold of 2024, we mark the eighth chapter in the BSSw.io journey, extending our heartfelt appreciation to the vibrant BSSw.io community. Your steadfast support has propelled BSSw.io into a prominent hub for disseminating knowledge on software sustainability, productivity, and quality. This platform thrives on the diverse contributions from an ever-expanding international community, providing unique perspectives on the challenges, strategies, and best practices within the realm of scientific software.
+Entering the threshold of 2024, we mark the eighth year in the BSSw.io journey, extending our heartfelt appreciation to the vibrant BSSw.io community. Your steadfast support has propelled BSSw.io into a prominent hub for disseminating knowledge on software sustainability, productivity, and quality. This platform thrives on the diverse contributions from an ever-expanding international community, providing unique perspectives on the challenges, strategies, and best practices within the realm of scientific software.
 
 The past year has seen a wealth of contributions, with insightful articles and invaluable perspectives enriching our collaborative community. This spirit of collaboration spurred us to introduce a new topic, delving into the world of research software engineers. This specific inclusion aims to offer a more nuanced perspective, highlighting the impact of these professionals in the broader context of scientific software development. This addition, alongside the existing wealth of content, aims to enhance the reader experience, providing a more comprehensive view of the ever-changing landscape of scientific software development.
 
