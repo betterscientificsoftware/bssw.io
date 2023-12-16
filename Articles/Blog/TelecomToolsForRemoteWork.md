@@ -595,7 +595,7 @@ maintain it. We intend to make routine updates.
 * [Virtual Conferences: A Guide to Best Practices](https://www.acm.org/virtual-conferences)
    * [A recent ACM report](https://www.hpcwire.com/off-the-wire/acm-releases-report-on-best-practices-for-virtual-conferences/)
 
-#### Zoom notes
+### Zoom notes
 
 * <a name='zoom-notes-az'>[az]</a>: Maximum number of attendees depends on the plan. There is a *Large Meeting*
 add-on option (not for the *free* plan) available for purchase, on a month-to-month basis,
@@ -609,7 +609,7 @@ cannot use this option.
 * <a name='zoom-notes-ez'>[ez]</a>: Live streaming to YouTube/Facebook is supported only in Zoom's Webinar product.
 * <a name='zoom-notes-fz'>[fz]</a>: Zoom virtual backgrounds can be *videos*.
 
-#### WebEx notes
+### WebEx notes
 
 * <a name='webex-notes-aw'>[aw]</a>: [*WebEx Meetings*](https://www.webex.com/video-conferencing) is one of a variety
 of products offered by WebEx. Some features described in this article that are
