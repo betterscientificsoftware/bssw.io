@@ -79,7 +79,7 @@ Also, we want and need contributions from the international community for the BS
 
 <!---
 Publish: yes
-Track: community
+Track: bssw fellowship
 RSS update: 2018-12-11
 Topics: projects and organizations
 Pinned: no
