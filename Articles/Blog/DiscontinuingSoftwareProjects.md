@@ -1,11 +1,11 @@
 # Discontinuing a Research Software Project
 
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: December 4, 2023
+
 <!--deck text start-->
 A software (research) project can be discontinued in a way that allows stakeholders a smooth transition, the mining of lessons learned and useful subcomponents, and even to pick the project back up again if desired.
 <!--deck text end-->
-
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: December 4, 2023
 
 High Performance Computing (HPC) / Computational Science and Engineering (CSE) software projects involve at least two kinds of *deep* knowledge.
 One is the computational science the software aims to enable.
