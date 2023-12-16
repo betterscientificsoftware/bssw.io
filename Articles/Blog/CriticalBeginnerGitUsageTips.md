@@ -151,6 +151,7 @@ There are many other helpful guidelines that you can come up with for using Git 
 
 <!---
  Publish: yes
+ Track: how to
  Pinned: no
  Topics: revision control, development tools
  RSS update: 2021-05-18
