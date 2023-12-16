@@ -19,7 +19,7 @@ Most CSE software needs to be installed from source on a wide variety of machine
 Scientific software project leaders and developers who need to ensure that their software can be installed on a wide variety of machines.
 
 ### Prerequisites
-Its a good idea to first read the artile *[Understanding Software Configuration](UnderstandingSoftwareConfiguration.md)*.
+Its a good idea to first read the article *[Understanding Software Configuration](UnderstandingSoftwareConfiguration.md)*.
 
 For simple packages that have almost no dependencies or machine dependent parameters, the use of (1)
 an options file is acceptable. For packages that incrementally build on another package, it can be
