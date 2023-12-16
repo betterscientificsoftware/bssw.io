@@ -25,7 +25,7 @@ Applications are now open for the 2019 [BSSw Fellowship Program](https://bssw.io
 
 <!---
 Publish: yes
-Track: community
+Track: bssw fellowship
 RSS update: 2018-09-10
 Topics: projects and organizations
 Pinned: no
