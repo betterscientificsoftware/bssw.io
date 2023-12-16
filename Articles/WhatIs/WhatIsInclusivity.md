@@ -1,4 +1,4 @@
-### What Is Inclusivity in Scientific Computing
+### What Is Inclusivity in Scientific Computing?
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 #### Publication date: Dec 16, 2023
 
