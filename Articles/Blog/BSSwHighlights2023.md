@@ -11,7 +11,7 @@ Entering the threshold of 2024, we mark the eighth year in the BSSw.io journey, 
 
 The past year has seen a wealth of contributions, with insightful articles and invaluable perspectives enriching our collaborative community. This spirit of collaboration spurred us to introduce a new topic, delving into the world of research software engineers. This specific inclusion aims to offer a more nuanced perspective, highlighting the impact of these professionals in the broader context of scientific software development. This addition, alongside the existing wealth of content, aims to enhance the reader experience, providing a more comprehensive view of the ever-changing landscape of scientific software development.
 
-Within this blog post, we shine a spotlight on standout article and blogs that have captivated our community, showcasing the depth and breadth of knowledge shared on BSSw.io. As we embrace the opportunities that 2024 brings, we eagerly anticipate further collaboration, innovation, and exploration of emerging trends in scientific software development.
+Within this blog post, we shine a spotlight on standout articles and blogs that have captivated our community, showcasing the depth and breadth of knowledge shared on BSSw.io. As we embrace the opportunities that 2024 brings, we eagerly anticipate further collaboration, innovation, and exploration of emerging trends in scientific software development.
 
 To our dedicated contributors, readers, and supporters, your unwavering commitment is the cornerstone of BSSw.io's success. Happy New Year to the entire BSSw.io community! May this year usher in continued growth, collaboration, and triumphs in advancing the field of better scientific software.
 
