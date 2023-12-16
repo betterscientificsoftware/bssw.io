@@ -21,7 +21,7 @@ diverse platforms it exhibits similar accuracy, stability, and reliability acros
 given configuration. Moreover, the time to solution should reflect efficient utilization of available
 computational resources on each platform.
 
-This [article](/blog_posts/UnderstandingPerfPortabilityForCSEApps) introduces basic concepts in performance portability.
+This [article](/blog_posts/understanding-performance-portability-for-cse-applications) introduces basic concepts in performance portability.
 
 <!--body end--->
 
