@@ -42,5 +42,7 @@ Nitin Sukhija is an associate professor in the department of Computer Science an
 
 <!---
 Publish: yes
+Track: bssw fellowship
+Pinned: no
 Topics: software engineering, software process improvement
 --->
