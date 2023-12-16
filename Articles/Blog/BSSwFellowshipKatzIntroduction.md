@@ -19,7 +19,7 @@ I've written [a blog about this that includes my fellowship application](https:/
 
 <!---
 Publish: Yes
-Track: community
+Track: bssw fellowship
 Topics: discussion and question sites, projects and organizations
 Pinned: no
 --->
