@@ -72,7 +72,7 @@ If you have additional questions, please contact us via email to [info@bssw.io](
 
 <!---
 Publish: yes
-Track: community
+Track: bssw fellowship
 Topics: discussion and question sites, projects and organizations
 Pinned: no
 --->
