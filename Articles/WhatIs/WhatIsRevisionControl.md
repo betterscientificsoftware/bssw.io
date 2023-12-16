@@ -9,7 +9,7 @@ Understanding how revision control systems function is important for today's sof
 <!--body start--->
 Revision control systems are essential for managing changes to files in a team-wide setting and thereby keeping track of changes to a software development project as a whole. 
 
-The short article [Version Control Systems](/blog_posts/version-control-systems) provides a brief overview of revision control systems and how they are useful in many projects (not just managing software source code).  This document reviews some important terminology and briefly outlines popular tools for revision control--Git, Mercurial (hg), Subversion (svn), and CVS---and how they relate to each other.  The document also outlines common and helpful use cases for revision control tools.
+The short article *[Version Control Systems](/blog_posts/version-control-systems)* provides a brief overview of revision control systems and how they are useful in many projects (not just managing software source code).  This document reviews some important terminology and briefly outlines popular tools for revision control--Git, Mercurial (hg), Subversion (svn), and CVS---and how they relate to each other.  The document also outlines common and helpful use cases for revision control tools.
 <!--body end--->
 
 <!---
