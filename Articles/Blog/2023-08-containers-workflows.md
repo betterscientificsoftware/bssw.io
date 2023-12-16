@@ -43,6 +43,7 @@ Karan Vahi is a Senior Computer Scientist in the Science Automation Technologies
 
 <!---
 Publish: yes
-Track: experience
+Track: bssw fellowship
+Pinned: no
 Topics: high-performance computing (hpc), release and deployment
 --->
