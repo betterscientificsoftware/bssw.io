@@ -6,6 +6,7 @@ on:
     paths:
       - '**.md'
       - '!docs/**'
+      - '!.github/**'
 
 jobs:
   wikize-refs-check:
@@ -24,7 +25,7 @@ jobs:
 
       - name: Run wikize-refs on each file
         run: |
-          set -x
+          set +e -x
           exstat=0
           files=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }})
           for file in $files; do
