@@ -56,15 +56,15 @@ jobs:
 # list of files changed in this PR
 #
 # By default, any shell command executed in a workflow that returns non-zero
-# exit status will exit the workflow. To prevent that, we uset set +e. Another
+# exit status will exit the workflow. To prevent that, we use set +e. Another
 # option is to use `continue-on-error: true` in the step's yaml configuration.
-# We use set -x to have the shell's work traced to the workkflow log. That makes
-# it somewhat noisey and maybe hard to see *real* failures when they happen.
-# But, it also makes debugging problems when/if they happen easier.
+# We also use set -x to have the shell's work traced to the workkflow log. That
+# makes it somewhat noisey and maybe hard to see *real* failures when they
+# happen. But, it also makes debugging problems when/if they happen easier.
 #
 # We loop over all files using `wikize_refs.py` in --up-to-date mode (-u),
 # skipping creation of a backup (-s) and setting most errors to warning (-w)
 # so it does nothing other than to confirm (or not) that the file would not
-# be changed `wikize_refs.py.`. If it will be changed, we echo a message about
-# it and set the final exstat status to non-zero.
+# be changed by `wikize_refs.py.`. If it will be changed, we echo a message
+# about it and set the final exstat status to non-zero.
 #
