@@ -2,7 +2,7 @@
 
 #### Contributed by [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile")
 
-#### Publication date: December 13, 2023
+#### Publication date: December 18, 2023
 
 We are pleased to announce the 2024 class of Better Scientific Software (BSSw) Fellows: six Fellows and six Honorable Mentions.
 
