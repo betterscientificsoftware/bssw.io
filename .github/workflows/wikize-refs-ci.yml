@@ -41,6 +41,9 @@ jobs:
 # Operates only on pull requests to main branch and only on `*.md` files
 # that are not in either docs or .github folders
 #
+# This workflow is using a newer version of the checkout action than other
+# workflows here. This newer version works hard to pull only the ref(s)
+# for the current commit that triggered the workflow. Setting
 # fetch-depth: 0 of checkout action means to pull all remote refs which is
 # potentially onerous for a large repo. But, I don't think its a problem
 # at all for our repo. Be default, the checkout action pulls only the ref
