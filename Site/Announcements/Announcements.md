@@ -1,7 +1,7 @@
 # BSSw Announcements
 
 Announcement:
-- [New blog article ... Introducing the 2024 BSSw Fellows](../../Articles/Blog/2022-12-2023BSSwFellowshipAnnounce.md)
+- [New blog article ... Introducing the 2024 BSSw Fellows](../../Articles/Blog/2023-12-2024BSSwFellowshipAnnounce.md)
 - Display dates: 12/18/2023 - 01/31/2024
 
 <!--
