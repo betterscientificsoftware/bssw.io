@@ -1,14 +1,12 @@
 # OpenSSF Best Practices Badge Program
 #### Contributed by [Roscoe A. Bartlett](http://github.com/bartlettroscoe "Roscoe A. Bartlett")
-#### Publication date: June 25, 2022 (Updated April 5, 2023)
+#### Publication date: April 5, 2023
 
 <!-- deck text start -->
 The Linux Foundation's OpenSSF Best Practices Badge Program represents an impressive collection of the open source community's knowledge base for creating, maintaining, and sustaining robust, high quality, and (most importantly) secure open source software.
 At its foundation is a featureful "Badge App" website, which provides a database of projects that document what best practices they have adopted and supporting evidence.
 This set of best practices (along with the detailed documentation and supporting justifications for each item) also serves as an incremental learning tool and as a foundation for incremental software process and quality improvements efforts.
 <!-- deck text end --> 
-
-
  
 The Linux Foundation's<sup>[0]</sup> Open Source Security Foundation (OpenSSF)<sup>[1]</sup> is an effort to improve the quality and security of open source software.
 The OpenSSF Best Practices Badge Program<sup>[2],[3]</sup> is an effort to collect, document, advocate, and help apply a comprehensive collection of best practices from the open source software development community to a wide rage of open source software projects.
