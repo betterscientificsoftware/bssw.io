@@ -13,7 +13,7 @@ life and how that sustains their career.
 Personal productivity for scientific software professionals may sometimes be
 thought of as a measure of code being developed, tasks being accomplished, or
 deadlines being met. Only considering these types of measurements can lead to
-sources of frustration and are not necessarily sustainable. Instead we need to help
+sources of frustration and are not necessarily sustainable. Instead, we need to help
 professionals to consider the benefits of improving practices, taking time to
 learn new materials or to develop new skills, taking breaks, managing tasks and
 time, collaboration, and probably the most important, taking care of their
