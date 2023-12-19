@@ -6,7 +6,6 @@ Present your take on what is going well, what needs to be improved, and/or what 
 #### Publication date: December 19, 2023
 
 - Abstract Deadline: January 15, 2024
-- Registration Deadline: April 1, 2024
 - Event Dates: April 8-11, 2024 
 - Location: Seattle, WA
 - Event Website: https://s3c.sandia.gov/
@@ -18,13 +17,12 @@ Event Name | Sustainable Scientific Software Conference (S3C)
 Website | <https://s3c.sandia.gov/>  
 Event Date | April 8-11, 2024
 Abstract Deadline | January 15, 2024
-Registration Deadline | April 1, 2024
 
 The Sustainable Scientific Software Conference (S3C) will help connect individuals and teams from the high-performance computing (HPC) community that are working to deliver scientific software solutions in a sustainable manner. Sustainable software delivery spans the spectrum of software engineering, from design and development to DevOps, and software deployment platforms, from laptops to HPC systems.
 
 The S3C committee is excited to hold our third conference in 2024. We are now partnering with the National Labs Information Technology (NLIT) summit to have our tracks executed. We are looking to get broad input from everyone in the Development and Operations workflow to submit an abstract and present your view of what is going well, and what needs to be improved. If you are a user, application developer, DevOps engineer, or system administrator, consider discussing your successes and challenges with your peers in the community.
 
-#### Themes of this year's conference include:
+### Themes of this year's conference include:
 
 * Security and DevOps (DevSecOps)
 * Understanding New Technologies for DevOps
