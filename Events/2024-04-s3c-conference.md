@@ -3,7 +3,7 @@
 Present your take on what is going well, what needs to be improved, and/or what needs to be thought about in software sustainability.
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold)
-#### Publication date: December 19, 2023
+#### Publication date: December 18, 2023
 
 - Abstract Deadline: January 15, 2024
 - Event Dates: April 8-11, 2024 
@@ -12,7 +12,7 @@ Present your take on what is going well, what needs to be improved, and/or what 
 - Organizers: National Labs Information Technology (NLIT) Summit
 
 Event Information | Details
-:--- | :---			   
+:--- | :---
 Event Name | Sustainable Scientific Software Conference (S3C)
 Website | <https://s3c.sandia.gov/>  
 Event Date | April 8-11, 2024
