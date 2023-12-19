@@ -8,6 +8,8 @@ The HiRSE Seminar Series is a series of talks on the topic of Research Software 
 
 The upcoming seminars are announced in the US and UK slack channels as well as the German de-RSE mailing list and other RSE community platforms. Details on the next seminars can also be found on the [HiRSE calendar feed](https://b2drop.eudat.eu/apps/calendar/p/Z9NWzFdrS8fAXPd9).
 
+If you'd like to suggest a speaker, please contact us directly at [hirse@fz-juelich.de](mailto:hirse@fz-juelich.de), or submit suggestions via our [feedback and suggestions form](forms.gle/XH2fMa3MEikjB9pt5).
+
 Resource information | Details
 :--- | :---
 Resource name | HiRSE Seminar Series
