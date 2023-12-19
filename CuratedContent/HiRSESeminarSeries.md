@@ -14,7 +14,7 @@ Resource name | HiRSE Seminar Series
 Website | https://www.helmholtz-hirse.de/series.html
 
 
-#### Contributed by [Robert Speck](https://github.com/pancetta) and [René Caspart](https://github.com/rcaspart)
+#### Contributed by [Claire Wyatt](https://github.com/ClaireWyatt), [Robert Speck](https://github.com/pancetta), [René Caspart](https://github.com/rcaspart)
 #### Publication date: 2023-12-19
 
 <!---
