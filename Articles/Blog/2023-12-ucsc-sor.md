@@ -6,7 +6,7 @@
  
 #### Contributed by [Stephanie Lieggi](https://github.com/slieggi) and [Carlos Maltzahn](https://github.com/carlosmalt)
 
-#### Publication date: December 20, 2023
+#### Publication date: December 19, 2023
 
 The NSF-funded [REPETO Project](https://repeto.cs.uchicago.edu/), a joint effort of the University of Chicago, University of  California, Santa Cruz (UCSC), and New York University, aims to promote practical reproducibility, creating incentives for researchers in computational sciences to produce, share, and use reproducibility artifacts in laboratories and classrooms. 
 
@@ -44,7 +44,7 @@ The OSRE team is getting ready to kick off the [2024 Summer of Reproducibility](
 
 ### Author bios
 
-[Stephanie Lieggi](https://ucsc-ospo.github.io/author/stephanie-lieggi/) is the PI of the [Open Source Program Office (OSPO), UC Santa Cruz](https://ospo.ucsc.edu), and the executive director of the UC Santa Cruz [Center for Research in Open Source Software (CROSS)](https://cross.ucsc.edu). Prior to coming to UC Santa Cruz, she worked as a senior research associate at the Center for Nonproliferation Studies (CNS) at the Middlebury Institute of International Studies at Monterey. She has served as an editor of the CNS publications <i>Asian Export Control Observer</i> and [<i>International Export Control Observer</i>](https://nonproliferation.org/research/international_export_control_observer/). Previously, she worked at the [Organization for the Prohibition of Chemical Weapons](https://www.opcw.org/).
+[Stephanie Lieggi](https://ucsc-ospo.github.io/author/stephanie-lieggi/) is the co-PI of the [Open Source Program Office (OSPO), UC Santa Cruz](https://ospo.ucsc.edu), and the executive director of the UC Santa Cruz [Center for Research in Open Source Software (CROSS)](https://cross.ucsc.edu). Prior to coming to UC Santa Cruz, she worked as a senior research associate at the Center for Nonproliferation Studies (CNS) at the Middlebury Institute of International Studies at Monterey. She has served as an editor of the CNS publications <i>Asian Export Control Observer</i> and [<i>International Export Control Observer</i>](https://nonproliferation.org/research/international_export_control_observer/). Previously, she worked at the [Organization for the Prohibition of Chemical Weapons](https://www.opcw.org/).
 
 <!-- Does not exist: (https://cns.miis.edu/pubs/observer/asian/) and (https://cns.miis.edu/pubs/observer/) -->
 
