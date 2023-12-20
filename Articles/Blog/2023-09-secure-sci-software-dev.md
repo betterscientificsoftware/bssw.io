@@ -33,7 +33,7 @@ In the development phase, developers use secure coding practices such as input v
 
 ### Further information
 
-Additional information about software development models, threat modeling methodologies, real-world applications of threat modeling methodologies, differences between static (SAST) and dynamic (DAST) application security, penetration testing, and malware analysis tools can be found in our presentations on [Best Practices and Tools for Secure Scientific Software Development](https://zenodo.org/communities/secure-scientific-software-development/).
+Additional information about software development models, threat modeling methodologies, real-world applications of threat modeling methodologies, differences between static (SAST) and dynamic (DAST) application security, penetration testing, and malware analysis tools can be found in our presentations on [Best Practices and Tools for Secure Scientific Software Development](https://zenodo.org/communities/secure-scientific-software-development/). See also a recent [webinar](https://bssw.io/events/webinar-secure-software-programming-practices-and-development).
 
 ### Acknowledgment
 This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
