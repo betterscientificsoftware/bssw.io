@@ -35,10 +35,12 @@ In the development phase, developers use secure coding practices such as input v
 
 Additional information about software development models, threat modeling methodologies, real-world applications of threat modeling methodologies, differences between static (SAST) and dynamic (DAST) application security, penetration testing, and malware analysis tools can be found in our presentations on [Best Practices and Tools for Secure Scientific Software Development](https://zenodo.org/communities/secure-scientific-software-development/).
 
+### Acknowledgment
+This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
 
 ### Author bio
 
-Nitin Sukhija is an associate professor in the department of Computer Science and director of the Center for Cybersecurity and Advanced Computing (C2AC) at Slippery Rock University of Pennsylvania. He has been involved in the research and management of various projects pertaining to the security and software challenges in industry and academia for over a decade. His research aims to address the threats to confidentiality, integrity, and availability in high-performance computing (HPC) environments and to discover solutions that utilize the power of the HPC environments to study and understand the multifaceted complexities and anomalous characteristics, and also includes the modeling and simulation of complex technical, organizational, and human systems instrumental in providing security and trust.
+Nitin Sukhija is a 2022 [BSSw Fellow](https://bssw.io/pages/meet-our-fellows) and an associate professor in the department of Computer Science and director of the Center for Cybersecurity and Advanced Computing (C2AC) at Slippery Rock University of Pennsylvania. He has been involved in the research and management of various projects pertaining to the security and software challenges in industry and academia for over a decade. His research aims to address the threats to confidentiality, integrity, and availability in high-performance computing (HPC) environments and to discover solutions that utilize the power of the HPC environments to study and understand the multifaceted complexities and anomalous characteristics, and also includes the modeling and simulation of complex technical, organizational, and human systems instrumental in providing security and trust. 
 
 <!---
 Publish: yes
