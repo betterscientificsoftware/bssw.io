@@ -21,7 +21,7 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 * [INTERSECT: Training for Research Software Engineering](https://bssw.io/blog_posts/intersect-training-for-research-software-engineering), J. Carver et al.
 * [Best Practices for HPC Software Developers Webinar Series](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques.
 * [Better Scientific Software Tutorial Site](https://bssw.io/items/better-scientific-software-tutorial-site), D. Stevens.
-* [How Open Source Tooling Is Changing the Way Professional Researchers Learn to Code](https://bssw.io/blog_posts/how-open-source-tooling-is-changing-the-way-professional-researchers-learn-to-code), J. Stewart Lowndes.
+* [How Open Source Tooling Is Changing the Way Professional Researchers Learn to Code](https://bssw.io/blog_posts/how-open-source-tooling-is-changing-the-way-professional-researchers-learn-to-code), J. S. Lowndes.
 * [Busy != Productive](https://bssw.io/blog_posts/busy-productive), R. Underwood.
 * [Lessons Learned Transitioning from Experimental to Computational Science](https://bssw.io/blog_posts/lessons-learned-transitioning-from-experimental-to-computational-science), J. O'Neal.
 
@@ -34,6 +34,7 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 * [Enabling Complex Scientific Applications](https://bssw.io/blog_posts/enabling-complex-scientific-applications), A. Reinarz et al.
 * [When is worse better?](https://bssw.io/items/when-is-worse-better), M. Miller.
 * [Scientific Software Teams Collegeville Workshop 2021: Special Issue of IEEE CiSE](https://bssw.io/items/scientific-software-teams-collegeville-workshop-2021-special-issue-of-ieee-cise), R. Gupta.
+* [US Federal Government Effort to Champion Adoption of Memory Safe Languages](https://bssw.io/items/us-federal-government-effort-to-champion-adoption-of-memory-safe-languages), R. Bartlett.
 
 ### Better Development:
 * [OpenSSF Best Practices Badge Program](https://bssw.io/blog_posts/openssf-best-practices-badge-program), R. Bartlett.
@@ -43,6 +44,7 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 * [Developer Documenting Done Right](https://bssw.io/items/developer-documenting-done-right), R. Gupta.
 
 ### Better Reliability:
+* [Summer of Reproducibility: Exposing Students to Research Advancing Practical Reproducibility](https://bssw.io/blog_posts/summer-of-reproducibility-exposing-students-to-research-advancing-practical-reproducibility), S. Lieggi et al.
 * [Smart Libraries: 30+ Practices, 20+ Years...Still Relevant](https://bssw.io/items/smart-libraries-30-practices-20-years-still-relevant), M. Miller.
 * [Google Guidance on Code Review](https://bssw.io/items/google-guidance-on-code-review), R. Bartlett.
 * [Science as Amateur Software Development](https://bssw.io/items/science-as-amateur-software-development), D. Stevens.
