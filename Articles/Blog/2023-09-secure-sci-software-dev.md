@@ -44,5 +44,7 @@ Nitin Sukhija is a 2022 [BSSw Fellow](https://bssw.io/pages/meet-our-fellows) an
 
 <!---
 Publish: yes
+Pinned: no
+Track: deep dive
 Topics: software engineering, software process improvement
 --->
