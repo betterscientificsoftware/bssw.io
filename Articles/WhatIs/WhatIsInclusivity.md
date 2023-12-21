@@ -36,7 +36,7 @@ Inclusivity and inclusive practices play a key role in facilitating all of that 
 Likewise, the lack of attention to inclusivity and inclusive practices can dramatically negatively impact scientific productivity.
 
 A critical inclusivity practice in scientific computing is aimed at [broadening access and participation](https://bssw.io/blog_posts/increasing-productivity-by-broadening-participation-in-scientific-software-communities) by historically marginalized populations.
-Nonetheless, while that is a crtical practice, it is certainly not the only one.
+Nonetheless, while that is a critical practice, it is certainly not the only practice.
 
 Examples of other practices include adopting a [code of conduct](https://www.acm.org/code-of-ethics), having well defined on-boarding and off-boarding processes, removing [`master`/`slave` terminology](https://bssw.io/blog_posts/experiences-replacing-master-slave-terminology-in-ale3d-and-sierra) from a code base and other [inclusive language practices](https://bssw.io/items/inclusive-language-resources), engaging in [Inclusive Moment exercises](https://hpc-workforce-development-and-retention.github.io/hpc-wdr/jekyll/update/2023/04/08/inclusive-minute.html) as regular part of team meetings, using [inclusive design to improve user interfaces](https://uxdesign.cc/a-beginners-guide-to-inclusive-ux-design-b8dcc94f5068), using [CVD-friendly color combinations](https://www.tableau.com/blog/examining-data-viz-rules-dont-use-red-green-together) in documentation and presentations, [internationalization](https://www.tutorialspoint.com/run-a-qt-app-in-a-different-language) of documentation or interfaces, and supporting multiple language bindings (e.g. C/C++, Fortran and Python) to a key piece of infrastructure software.
 
