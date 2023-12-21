@@ -5,7 +5,6 @@
  - <img src='../../images/Blog_2312_SecurityB.png' />
 
 #### Contributed by [Nitin Sukhija](https://github.com/SukhijaNitin)
-
 #### Publication date: December 8, 2023
 
 <!--

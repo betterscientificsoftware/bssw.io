@@ -243,7 +243,7 @@ Lois Curfman McInnes is a senior computational scientist in the Mathematics and 
 
 <!---
 Publish: yes
-Track: community
+Track: bssw fellowship
 RSS update: 2020-09-25
 Topics: inclusivity, Strategies for More Effective Teams, Funding Sources and Programs
 Pinned: no

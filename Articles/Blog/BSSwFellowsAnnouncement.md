@@ -78,7 +78,7 @@ Stay tuned for more from the 2018 BSSw Fellows.
 
 <!---
 Publish: yes
-Track: community
+Track: bssw fellowship
 Topics: projects and organizations
 Pinned: no
 --->

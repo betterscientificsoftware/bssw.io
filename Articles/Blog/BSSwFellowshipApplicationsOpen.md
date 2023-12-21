@@ -23,7 +23,7 @@ We are launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw-fell
 
 <!---
 Publish: Yes
-Track: community
+Track: bssw fellowship
 Topics: projects and organizations
 Pinned: no
 --->
