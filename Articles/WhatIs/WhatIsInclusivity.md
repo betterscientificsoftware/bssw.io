@@ -10,7 +10,7 @@ Inclusive practices have a role to play in many aspects of any scientific comput
 <!--deck end-->
 
 <!--body start--->
-> Inclusivity [in scientific computing] is about practices to ensure people with diverse identities and experiences have equitable access to resources and opportunities, feel safe, welcomed, respected and valued, and are encouraged to contribute as their full, authentic selves in any particular group or activity. [Tony Baylis](https://people.llnl.gov/baylis3) -- LLNL Director of Strategic Diversit
+> Inclusivity [in scientific computing] is about practices to ensure people with diverse identities and experiences have equitable access to resources and opportunities, feel safe, welcomed, respected and valued, and are encouraged to contribute as their full, authentic selves in any particular group or activity. [Tony Baylis](https://people.llnl.gov/baylis3) -- LLNL Director of Strategic Diversity
 
 If *diversity* is being asked to the scientific computing party, *inclusivity* is being asked to dance.
 Inclusivity is [accessibility’s](https://www.inclusionhub.com/articles/a11y-at-salesforce) close cousin.
