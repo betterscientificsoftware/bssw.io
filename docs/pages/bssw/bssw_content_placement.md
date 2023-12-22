@@ -11,7 +11,5 @@ Please place your new file in one of the following folders on the site, accordin
 - [CuratedContent](https://github.com/betterscientificsoftware/bssw.io/tree/main/CuratedContent): For any curated content and  HowTo documents.
 - [Events](https://github.com/betterscientificsoftware/bssw.io/tree/main/Events): For any events.
 - [Articles/WhatIs](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles/WhatIs): For WhatIs articles.
-- [Articles/Blog](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles/Blog): For Blogs
-- [Articles/ShortArticles](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles/ShortArticles): For any other original contents; other than blogs and WhatIs documents.
-
+- [Articles/Blog](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles/Blog): For original articles/blogs.
 {% include links.html %}
