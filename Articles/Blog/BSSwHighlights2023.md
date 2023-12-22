@@ -1,7 +1,7 @@
 # Better Scientific Software: 2023 Highlights
 
 **Hero Image:**
-- <img src="../../images/Blog_2301_YIRMontage.png" />[2023 Highlights]
+- <img src="../../images/Blog_2401_YIR.png" />[2023 Highlights]
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
