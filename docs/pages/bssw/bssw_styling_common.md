@@ -15,7 +15,7 @@ All BSSw.io resources have the following three sections, in common:
 
 The following image shows the deck and main body of a resource. Metadata section is not seen on the main site.
 
-- <img src='https://github.com/betterscientificsoftware/bssw.io/blob/main/images/documentation-common-elements-small.jpg'/>
+- <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/documentation-common-elements-small.jpg'/>
 
 Following is a description of the common elements.
 
