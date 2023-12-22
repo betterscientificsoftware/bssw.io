@@ -36,10 +36,6 @@ entries:
       url: /bssw_members.html
       output: web
 
-    - title: Internal Documents PR Checklist 
-      url: /bssw_intdocs_pr_checklist.html
-      output: web
-
     - title: Editorial Team Responsibilities
       url: /bssw_teamresponsibilities.html
       output: web
@@ -59,6 +55,7 @@ entries:
     - title: Event Workflow
       url: /bssw_eventworkflow.html
       output: web
+
 
   - title: Content Authoring Guidelines
     output: web
@@ -93,12 +90,12 @@ entries:
           url: /bssw_styling_common.html
           output: web
 
-        - title: Curated Content Styling
-          url: /bssw_styling_curated.html
+        - title: Original Article (Blog) Styling 
+          url: /bssw_styling_originalarticles.html
           output: web
 
-        - title: Original Article Styling 
-          url: /bssw_styling_originalarticles.html
+        - title: Curated Content Styling
+          url: /bssw_styling_curated.html
           output: web
 
         - title: Event Styling
@@ -109,14 +106,18 @@ entries:
           url: /bssw_content_metadata.html
           output: web
 
+    - title: Guidelines for Blog Articles
+      url: /bssw_author_guidelines_blog.html
+      output: web
+
     - title: Content PR Checklist
       url: /bssw_content_pr_checklist.html
       output: web
 
+    - title: Internal Documents PR Checklist 
+      url: /bssw_intdocs_pr_checklist.html
+      output: web
+      
     - title: Content Publishing
       url: /bssw_content_publishing.html
-      output: web
-
-    - title: Guidelines for Blog Articles
-      url: /bssw_author_guidelines_blog.html
       output: web
