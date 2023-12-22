@@ -82,6 +82,11 @@ entries:
           url: /bssw_add_new_topics.html
           output: web
 
+        - title: Adding New Tracks
+          url: /bssw_add_new_tracks.md
+          output: web
+         
+
       - title: Content Writing
         output: web
         subfolderitems:
