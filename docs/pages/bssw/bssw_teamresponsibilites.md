@@ -1,7 +1,7 @@
 ---
 title: Editorial Board Composition, Responsibilities and Expectations
 sidebar: bssw_sidebar
-permalink: bssw_team_responsibilities.html
+permalink: bssw_teamresponsibilities.html
 ---
 
 ## Editorial Board composition

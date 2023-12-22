@@ -15,7 +15,7 @@ All BSSw.io resources have the following three sections, in common:
 
 The following image shows the deck and main body of a resource. Metadata section is not seen on the main site.
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/main/documentation-common-elements-small.jpg'/>
+- <img src='https://github.com/betterscientificsoftware/bssw.io/blob/main/images/documentation-common-elements-small.jpg'/>
 
 Following is a description of the common elements.
 
@@ -23,7 +23,7 @@ Following is a description of the common elements.
 The deck is the top shaded portion of the article. The elements of the deck are mostly the same across all the BSSw.io content types but with a few variations. The deck has two parts: (1) deck text/image and (2) deck attributes.
 
 ### Deck Text/Image
-Most content types will have  the deck text, which is usually couple of lines highlighting the article. For curated content and events, deck text contains a two-sentence descriptive text about the resource. Some content types, such as original content, may have a deck image instead of the deck text, as described in the [original article styling](bssw_styling_originalarticles.html) section.
+Most content types will have  the deck text, which is usually couple of lines highlighting the article. For curated content and events, deck text contains a two-sentence descriptive text about the resource. Some content types, such as blog content, may have a deck image instead of the deck text, as described in the [blog styling](bssw_styling_originalarticles.html) section.
 
 Following is some general guidance for deck text:
 - Please add comments around deck text in the source file, as shown below: 
