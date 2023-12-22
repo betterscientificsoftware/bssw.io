@@ -71,7 +71,8 @@ The current tracks are as follows:
 - **experience**: offers articles offering firsthand accounts and practical insights from practitioners, shedding light on real-world software, challenges, and successes. 
 - **community**: presents articles that highlight collaborative endeavors, emphasizing community-driven initiatives and efforts aimed at empowering the scientific computing community.
 - **how to**: offers practical resources to foster a deeper understanding and facilitate the potential implementation of various topics in software productivity, quality, and sustainability.
-- **bright spots**:  illuminates notable achievements and advancements in a particular topic, showcasing success stories and innovations that stand out  
+- **bright spots**:  illuminates notable achievements and advancements in a particular topic, showcasing success stories and innovations that stand out
+- **bssw fellowship**: presents articles related to the BSSw fellowship.
 
 ### Topics
 
