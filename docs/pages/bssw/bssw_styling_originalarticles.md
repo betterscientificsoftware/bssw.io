@@ -61,6 +61,7 @@ The content of the article is free-flowing. However it may have certain sections
 
 All reference links and images across all content types are handled in the same way; hence please see [common layout section](bssw_styling_common.html) of the guide.
 
+
 #### Author Bios
 This section has details of the author in a short paragraph. The content is free flowing.
 
@@ -73,11 +74,26 @@ For blogs, ensure that you specify the *track* metadata. This information from t
 Blogs will occasionally benefit from using more formal citations/references listed at the bottom of an article instead of in-text hyperlinks.
 In these cases, they should use the approach documented in the [common citations/references section](bssw_styling_common.html#citationsreferences).
 
+## Guidelines for Interview-Style articles
+For blogs written in interview style:
+* Use **bold** to mark up question and answer markers.
+* Where reasonable, consider structuring the piece as if "BSSw" were doing the interview instead of a named individual.
+  - This eliminates the need to name a contributor who's identity isn't really relevant.
+  - Reduces the number of names for readers to keep track of.
+* For questions use **Question:** or **Full Name:** initially, then **Q:** or **Firstname:** following.
+* For answers, use **Full Name:** initially, then **Firstname:** following.
+
+Existing examples of interview-style articles can be found below. 
+
 ## Existing Examples
 
 * A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/main/Articles/Blog/BlogArticleSkeletonA.md)
 
 * A simple example of the usage of [formal citations/references](#citationsreferences) can be seen in in the file [WhenNotToWriteAutomatedTests.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/WhenNotToWriteAutomatedTests.md).
+
+* Interview-style article can be seen in the file [Working Remotely: The Spack Team](https://bssw.io/blog_posts/working-remotely-the-spack-team).
+  
+* Example of an article in which there is an interview component within a larger piece can be seen in the file [Experiences Replacing Master/Slave Terminology in ALE3D and Sierra](https://bssw.io/blog_posts/experiences-replacing-master-slave-terminology-in-ale3d-and-sierra).
 
 * There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) to use as a starting point.
 
