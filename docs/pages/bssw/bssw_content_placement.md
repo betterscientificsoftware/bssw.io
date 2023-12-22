@@ -8,8 +8,9 @@ toc: false
 ## Where to place your content-related files in Github repo?
 Please place your new file in one of the following folders on the site, according to the type of content you are creating:
 
+- [Articles/Blog](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles/Blog): For original articles/blogs.
 - [CuratedContent](https://github.com/betterscientificsoftware/bssw.io/tree/main/CuratedContent): For any curated content and  HowTo documents.
 - [Events](https://github.com/betterscientificsoftware/bssw.io/tree/main/Events): For any events.
 - [Articles/WhatIs](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles/WhatIs): For WhatIs articles.
-- [Articles/Blog](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles/Blog): For original articles/blogs.
+ 
 {% include links.html %}
