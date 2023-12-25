@@ -43,7 +43,11 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
   	* *Example*: `Organizers: Foo`
 * **Date**: There are several ways in which event dates can be specified.
-  	* When an event occurence is spanning multiple consecutive days:
+  	* When an event happens on one specific date
+   		* *Example*: `Event Dates: February 16, 2023`
+       		* See  event *2023 ECP Community BOF for BSSw Fellowship*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-ECP23-BOF-BSSw-fellowship.md) | [BSSw.io](https://bssw.io/events/2023-ecp-community-bof-for-bssw-fellowship)
+
+   * When an event is spanning multiple consecutive days:
    		* *Example*: `Event Dates: February 26 - March 3, 2023`
        		* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events)
 
