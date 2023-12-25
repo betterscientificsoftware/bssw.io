@@ -4,10 +4,7 @@
 - event example date1: June 10-12, 2024
 - event example date2: June 13-14, 2024
 - event example date3: June 15-16, 2024
-- event example date4: June 17-18, 2024
-- event example date5: June 19-20, 2024
-- event example date7: June 21-22, 2024
-- event example date8: June 10-24, 2024
+- event example date4: June 18, 2024
 - Location: Virtual
 - Event Website: https://test.html
 - Organizers: Rinku Gupta
