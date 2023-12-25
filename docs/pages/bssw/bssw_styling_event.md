@@ -42,7 +42,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
   	* *Example*: `Event Website: https://us-rse.org/rse-hpc-2020`
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
   	* *Example*: `Organizers: Foo`
-* **Dates for the Event**: We allow for flexibility while specifiying dates for an event. Following are some general guidelines:
+* **Dates for the Event**: We allow for flexibility while specifying dates for an event. Following are some general guidelines:
 	* The website allows specifying multiple dates related to any given event.
 	* The key for each date entry in the list is used to label the “kind” of date in the listing of events. Typical examples might be a “Submission Deadline”, "Survey Closing Date",  “Event Date” (meaning the date(s) of the event itself) etc.
 	* The [event listing](https://preview.bssw.io/events) will include all of the dates in the article which are in the future. So, for example, until the "Submission deadline" passes you will see the same event listed for both the "Submission Deadline", the "Event Dates" or any other dates.
