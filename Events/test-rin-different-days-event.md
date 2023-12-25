@@ -1,4 +1,4 @@
-# Test Rin event 
+# Test Rin event different days
 
 - Event Date: Apr 20, 2024; May 18, 2024; Jun 15, 2024; Jul 20, 2024; Aug 17, 2024; Sep 21, 2024; 
 - Location: Virtual
