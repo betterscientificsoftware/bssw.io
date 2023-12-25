@@ -1,6 +1,6 @@
 # Test Rin event spanning many consecutive days
 
-- Event Date: February 26 - March 3, 2024
+- Event Dates: February 26 - March 3, 2024
 - Location: Virtual
 - Event Website: https://test.html
 - Organizers: Rinku Gupta
