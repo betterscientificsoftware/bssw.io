@@ -1,12 +1,11 @@
 # Test Rin event different days
 
+- Deadline for workshops, tutorials, and BoFs: April 8, 2024
 - Deadline for papers and notebooks: May 1, 2024
 - Deadline for poster and talk abstracts: June 19, 2024
 - Event Date: October 16-18, 2024
-- Location-deadline-three: Dec 31, 2023
-- Location-deadline-two: Dec 2, 2023
-- Location-deadline-one: Dec 1, 2023
-- Deadline for workshops, tutorials, and BoFs: April 8, 2024
+- Trial-deadline-three: Dec 31, 2023
+- Trial-deadline-one: Dec 30, 2023
 
 - Location: Virtual
 - Event Website: https://test.html
