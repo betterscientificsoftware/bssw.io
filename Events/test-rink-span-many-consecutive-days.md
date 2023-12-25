@@ -1,6 +1,6 @@
 # Test Rin event spanning many consecutive days
 
-- Event Date: February 26 - March 3, 2023
+- Event Date: February 26 - March 3, 2024
 - Location: Virtual
 - Event Website: https://test.html
 - Organizers: Rinku Gupta
@@ -22,7 +22,7 @@ Adding test body.
 Adding test body.
 Adding test body.
 
-#### Publication date: Dec 24, 2023
+#### Publication date: Dec 14, 2023
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 
 <!---
