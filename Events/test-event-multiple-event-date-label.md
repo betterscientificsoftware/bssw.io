@@ -1,6 +1,7 @@
 # Test Rin event with multiple event-date labels.
 
-- event Date: Sep 21-28, 2024; 
+- event Date: Nov 1-8, 2023; 
+- event Date: Dec 21-28, 2023; 
 - event date: June 10-12, 2024
 - Location: Virtual
 - Event Website: https://test.html
