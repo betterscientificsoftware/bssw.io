@@ -4,10 +4,9 @@
 - Deadline for poster and talk abstracts: June 19, 2024
 - Event Dates: October 16-18, 2024
 - Deadline for workshops, tutorials, and BoFs: April 8, 2024
-- Location-deadline2: Jan 3, 2024
-- Location-deadline5: Jan 2, 2024
-- Location-deadline3: Dec 2, 2023
-- Location-deadline4: Dec 1, 2023
+- Location-deadline-three: Jan 3, 2024
+- Location-deadline-two: Dec 2, 2023
+- Location-deadline-one: Dec 1, 2023
 - Location: Virtual
 - Event Website: https://test.html
 - Organizers: Rinku Gupta
