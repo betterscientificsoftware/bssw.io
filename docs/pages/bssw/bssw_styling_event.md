@@ -64,26 +64,16 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 	   
 	2. When an event is spanning a date range:
 		* *Example*: `Event Dates: February 26 - March 3, 2023`
-	   	* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events)
+  		* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events)
 	  	* In this above case, the [BSSw.io event listing page](https://bssw.io/events) will display the label and date range.
   	          
 	3. When the same event occurs periodically OR on multiple non-consecutive days, enter each date specifically as shown below:
-   		* *Example*: `Event Dates: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023;`
-       		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
+		* *Example*: `Event Dates: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023;`
+  		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
            
-	4. An event may have different types of deadlines.  Some common deadline could be `Closing Date` for surveys, or `Submission Deadline` for registration, `Abstract Deadline` for abstracts. These deadlines can be specified along with the `Event dates`:
-
- 		* *Example*:
-  	
-           		- Deadline for workshops, tutorials, and BoFs: April 4, 2023
-     
-           		- Deadline for papers and notebooks: May 1, 2023
-
-           		- Deadline for poster and talk abstracts: June 19, 2023
-
-           		- Event Dates: October 16-18, 2023
-          	* See  event *United States Research Software Engineer Association Conference 2023 (US-RSE'23)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-usrse-conf.md) | [BSSw.io](https://bssw.io/events/united-states-research-software-engineer-association-conference-2023-us-rse-23)
-          	* The [event listing](https://preview.bssw.io/events) will include all of the dates in the article which are in the future. So, for example, until the "Submission deadline" passes you will see the same event listed for both the "Submission Deadline", the "Event Dates" or any other dates.
+	5. An event may have different types of deadlines.  Some common deadline could be `Closing Date` for surveys, or `Submission Deadline` for registration, `Abstract Deadline` for abstracts. These deadlines can be specified along with the `Event dates`:
+		* *Example*: See  event *United States Research Software Engineer Association Conference 2023 (US-RSE'23)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-usrse-conf.md) | [BSSw.io](https://bssw.io/events/united-states-research-software-engineer-association-conference-2023-us-rse-23).
+  		* As mentioned earlier, the [event listing](https://preview.bssw.io/events) will include all of the dates in the article which are in the future. So, for example, until the "Submission deadline" passes you will see the same event listed for both the "Submission Deadline", the "Event Dates" or any other dates.
 
 
 ## Main Body Section
