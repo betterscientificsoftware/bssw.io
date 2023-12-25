@@ -1,7 +1,7 @@
 # Test Rin event on single date
 
 
-- Event Dates: April 18, 2024
+- event date: April 18, 2024
 - Location: Virtual
 - Event Website: https://test.html
 - Organizers: Rinku Gupta
