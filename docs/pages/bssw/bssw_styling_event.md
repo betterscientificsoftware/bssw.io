@@ -42,21 +42,26 @@ Deck text is usually a couple of lines about the event. No images are allowed in
   	* *Example*: `Event Website: https://us-rse.org/rse-hpc-2020`
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
   	* *Example*: `Organizers: Foo`
-* **Date**: There are several ways in which event dates can be specified.
-  	* When an event happens on one specific date
+* **Dates for the Event**: We allow for flexibility while specifiying dates for an event. An event can have several dates - for example: date/dates when the event takes place, submission deadlines, registration deadlines, survey closing dates etc. The event author can specify multiple such dates in their event source file. These multiple dates will be displayed in the event deck.
+	* The `Event date` specifies when the actual event is taking place.
+  	* When an event happens on one specific date and there are no other dates/deadlines in the event source file.
    		* *Example*: `Event Dates: February 16, 2023`
        		* See  event *2023 ECP Community BOF for BSSw Fellowship*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-ECP23-BOF-BSSw-fellowship.md) | [BSSw.io](https://bssw.io/events/2023-ecp-community-bof-for-bssw-fellowship)
+  	        * In this above case, the [BSSw.io event listing page](https://bssw.io/events) will sort according to the `Event dates` deck attribute and it will display the title and the associated `Event date` in the list of events.
 
-   * When an event is spanning multiple consecutive days:
+  	 * When an event is spanning multiple consecutive days:
    		* *Example*: `Event Dates: February 26 - March 3, 2023`
        		* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events)
-
+  	        * In this above case, the [BSSw.io event listing page](https://bssw.io/events) will sort according to the start date in the `Event dates` deck attribute and it will display the title and the associated range of `Event dates` in the list of events.
+  	          
 	* When the same event occurs periodically OR on multiple non-consecutive days, enter each date specifically as shown below:
    		* *Example*: `Event Dates: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023;`
        		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
-         * When an event has multiple deadlines for different parts:
-      		* *Example*:
-           		
+           
+An event may have different types of deadlines.  Some common deadline could be `Closing Date` for surveys, or `Submission Deadline` for registration, `Abstract Deadline` for abstracts. These deadlines can be specified along with the `Event dates`:
+
+	* When an event has multiple deadlines for different parts:
+ 		* *Example*:		
            		`- Deadline for workshops, tutorials, and BoFs: April 4, 2023`
 
            		`- Deadline for papers and notebooks: May 1, 2023`
