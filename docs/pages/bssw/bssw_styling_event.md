@@ -36,16 +36,31 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 **Event-specific deck attributes** are seen right below the deck text. These event deck attributes customize different parts of the deck for the event content type.
 
-* **Date**: One can choose to enter the date or range of dates of the submission deadline or event date.
 * **Location**: Use the physical location (City, State or City, Country) for in-person events and the term "online" for events being held online.  For hybrid events use the physical location "and online".
-* **Event Website**: URL to the main event website
+  	* *Example*: `Location: Knoxville, TN` OR `Location: Online` OR `Location: Knoxville, TN and online`
+* **Event Website**: URL to the main event website.
+  	* *Example*: `Event Website: https://us-rse.org/rse-hpc-2020`
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
+  	* *Example*: `Organizers: Foo`
+* **Date**: There are several ways in which event dates can be specified.
+  	* When an event occurence is spanning multiple consecutive days:
+   		* *Example*: `Event Dates: February 26 - March 3, 2023`
+       		* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events)
 
-Examples:
-   * `Date: November 16, 2020` OR `Date: July 21, 2020 - July 23, 2020`
-   * `Location: Knoxville, TN` OR `Location: Online` OR `Location: Knoxville, TN and online`
-   * `Event Website: https://us-rse.org/rse-hpc-2020`
-   * `Organizers: Foo`
+	* When the same event occurs periodically OR on multiple non-consecutive days, enter each date specifically as shown below:
+   		* *Example*: `Event Date: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023;`
+       		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
+         * When an event has multiple deadlines for different parts:
+      		* *Example*:
+           		
+           		`- Deadline for workshops, tutorials, and BoFs: April 4, 2023`
+
+           		`- Deadline for papers and notebooks: May 1, 2023`
+
+           		`- Deadline for poster and talk abstracts: June 19, 2023`
+
+           		`- Event Dates: October 16-18, 2023`
+           * See  event *United States Research Software Engineer Association Conference 2023 (US-RSE'23)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-usrse-conf.md) | [BSSw.io](https://bssw.io/events/united-states-research-software-engineer-association-conference-2023-us-rse-23)
 
 
 ## Main Body Section
