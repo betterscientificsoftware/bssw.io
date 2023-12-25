@@ -83,7 +83,7 @@ entries:
           output: web
 
         - title: Adding New Tracks
-          url: /bssw_add_new_tracks.md
+          url: /bssw_add_new_tracks.html
           output: web
          
 

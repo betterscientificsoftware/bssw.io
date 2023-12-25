@@ -20,7 +20,7 @@ Brief article that highlights other web-based content (such as tools, websites, 
 Brief description of an event (such as a workshop, conference, or tutorial) relevant to better scientific software.
 
 
-## What-Is articles:
+## What-Is articles
 
 In addition to the original articles, curated content, and events, we feature *What-Is* articles on BSSw.io. These articles are particularly relevant to the BSSw.io editorial team, and although not explicitly mentioned on the BSSw.io site, they play a crucial role. Whenever a new topic is added to BSSw.io, a short *What-Is* article is created to introduce the meaning and applicability of that topic in scientific computing. These articles appear as *Recommended* when browsing a topic's resource list. To designate an article as *Recommended*, utilize the *Pinned* metadata (refer to the meta-data section for details on *Pinned*). For example, while exploring the *[documentation](https://bssw.io/items?topic=documentation)* topic topic, readers can find recommended articles conveniently placed at the top of the resource listing.
 
