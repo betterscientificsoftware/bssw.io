@@ -70,7 +70,7 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 		* *Example*: `Event Dates: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023;`
 		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
            
-	5. An event may have different types of deadlines.  Some common deadline could be `Closing Date` for surveys, or `Submission Deadline` for registration, `Abstract Deadline` for abstracts. These deadlines can be specified along with the `Event dates`:
+	5. An event may have different types of deadlines.  Some common deadline could be `Closing Date` for surveys, or `Submission Deadline` for registration, `Abstract Deadline` for abstracts.
 		* *Example*: See  event *United States Research Software Engineer Association Conference 2023 (US-RSE'23)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-usrse-conf.md) | [BSSw.io](https://bssw.io/events/united-states-research-software-engineer-association-conference-2023-us-rse-23).
 		
 
