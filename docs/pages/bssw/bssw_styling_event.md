@@ -44,14 +44,14 @@ Deck text is usually a couple of lines about the event. No images are allowed in
   	* *Example*: `Organizers: Foo`
 * **Dates for the Event**: We allow for flexibility while specifying dates for an event. Following are some general guidelines:
 	* The website allows specifying multiple dates related to any given event.
-	* The key for each date entry in the list is used to label the “kind” of date in the listing of events. Typical examples might be a “Submission Deadline”, "Survey Closing Date",  “Event Date” (meaning the date(s) of the event itself) etc.
-	* The [event listing](https://preview.bssw.io/events) will include all of the dates in the article which are in the future. So, for example, until the "Submission deadline" passes you will see the same event listed for both the "Submission Deadline", the "Event Dates" or any other dates.
-	* Site will display all related dates in deck section of individual events. But in event listing, only the upcoming label and date are seen.
-	* Site allows start/end date ranges but also multiple semicolon-separated dates.
-	* Dates can be a range. In such cases, the duplicate month and year in display are removed where possible. If event spans months, the month is included for each date, but year is only mentioned once. If event spans years, then both months and years for seen.
+	* Each date entry in the list is identified by a key, which serves as a label indicating the "type" of date in the events listing. Common examples include "Submission Deadline," "Survey Closing Date," and "Event Date" (referring to the date(s) of the event itself).
+	* The [event listing](https://bssw.io/events) will continue to showcase the event until all scheduled dates have concluded. For instance, once the "Submission deadline" has passed, the same event will still appear in the listing for "Event Dates" or any other relevant dates until the entire schedule is completed.
+ 	* The website will present all pertinent dates in the deck section of individual events. However, in the event listing, only the upcoming label and date will be visible.
+  	* The site accommodates both start/end date ranges and multiple dates separated by semicolons.
+	* Date ranges may occur, and in such instances, redundant display of the same month and year is eliminated wherever feasible. When an event spans across months, the month is specified for each date, while the year is mentioned only once. In cases where an event spans multiple years, both the months and years are indicated.
 	* Site allows flexibility in how to label the dates. All labels are case insensitive. 
 	* Label names with earlier start date are considered and if there is a duplicate label name with later start date, it is ignored.
-	* "Event date" label has special meaning in how it is parsed. They point to the when the main event will happen and are usually (but not always) displayed as the first date in the  individual event post. Author can specify "Event date"  or "Event dates" in the source. Both are considered the same. If  label "Event date/Event dates" has a single date as value, then the site  will display the label name "Event date" in the event listing and individual event post. If the date is a range, then the site  will display the label name "Event dates" in the event listing and individual event post.
+	* The label "Event date" holds a distinct significance in its parsing. It indicates the timing of the main event and is typically (though not always) presented as the initial date in the individual event post. The author has the option to specify either "Event date" or "Event dates" in the source, and both are treated equivalently. If the "Event date/Event dates" label has a singular date as its value, the site will exhibit the label name "Event date" in both the event listing and individual event post. In the case of a date range, the site will showcase the label name "Event dates" in both the event listing and individual event post.
 	*  In the individual event post, the labels and dates are displayed in ascending order, _usually_. Sometimes "event date/event dates"  is displayed first (unclear is what circumstances, will be debugged later).
 	* Any new labels where value is not a date are ignored.
    	* Internally, the site applies a [date parsing library](https://github.com/mojombo/chronic) for dates.
@@ -64,17 +64,15 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 	   
 	2. When an event is spanning a date range:
 		* *Example*: `Event Dates: February 26 - March 3, 2023`
-  		* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events)
-	  	* In this above case, the [BSSw.io event listing page](https://bssw.io/events) will display the label and date range.
+		* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events). The [BSSw.io event listing page](https://bssw.io/events) will display the label and date range.
   	          
 	3. When the same event occurs periodically OR on multiple non-consecutive days, enter each date specifically as shown below:
 		* *Example*: `Event Dates: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023;`
-  		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
+		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
            
 	5. An event may have different types of deadlines.  Some common deadline could be `Closing Date` for surveys, or `Submission Deadline` for registration, `Abstract Deadline` for abstracts. These deadlines can be specified along with the `Event dates`:
 		* *Example*: See  event *United States Research Software Engineer Association Conference 2023 (US-RSE'23)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-usrse-conf.md) | [BSSw.io](https://bssw.io/events/united-states-research-software-engineer-association-conference-2023-us-rse-23).
-  		* As mentioned earlier, the [event listing](https://preview.bssw.io/events) will include all of the dates in the article which are in the future. So, for example, until the "Submission deadline" passes you will see the same event listed for both the "Submission Deadline", the "Event Dates" or any other dates.
-
+		
 
 ## Main Body Section
 ### General Guidelines
