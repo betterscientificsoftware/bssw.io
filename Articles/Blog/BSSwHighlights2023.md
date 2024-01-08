@@ -5,15 +5,15 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
-#### Publication date: January 06, 2024
+#### Publication date: January 08, 2024
 
-Entering the threshold of 2024, we mark the eighth year in the BSSw.io journey, extending our heartfelt appreciation to the vibrant BSSw.io community. Your steadfast support has propelled BSSw.io into a prominent hub for disseminating knowledge on software sustainability, productivity, and quality. This platform thrives on the diverse contributions from an ever-expanding international community, providing unique perspectives on the challenges, strategies, and best practices within the realm of scientific software.
+Entering the threshold of 2024, we mark the eighth year in the BSSw.io journey, extending our heartfelt appreciation to the vibrant BSSw.io community. Your steadfast support enables BSSw.io to serve as a hub for disseminating knowledge on software sustainability, productivity, and quality. This platform thrives on the diverse contributions from an ever-expanding international community, providing unique perspectives on the challenges, strategies, and best practices within the realm of scientific software.
 
-The past year has seen a wealth of contributions, with insightful articles and invaluable perspectives enriching our collaborative community. This spirit of collaboration spurred us to introduce a new topic, delving into the world of research software engineers. This specific inclusion aims to offer a more nuanced perspective, highlighting the impact of these professionals in the broader context of scientific software development. This addition, alongside the existing wealth of content, aims to enhance the reader experience, providing a more comprehensive view of the ever-changing landscape of scientific software development.
+The past year has seen a wealth of contributions, with insightful articles and perspectives enriching our collaborative community. This spirit of collaboration spurred us to introduce a new topic, delving into the world of research software engineers (RSEs). This specific inclusion aims to offer more nuanced perspectives on RSEs, highlighting the impact of these professionals in the broader context of scientific software development. This addition, alongside the existing wealth of content, aims to enhance the reader experience, providing a more comprehensive view of the ever-changing landscape of scientific software development.
 
-Within this blog post, we shine a spotlight on standout articles and blogs that have captivated our community, showcasing the depth and breadth of knowledge shared on BSSw.io. As we embrace the opportunities that 2024 brings, we eagerly anticipate further collaboration, innovation, and exploration of emerging trends in scientific software development.
+Within this blog post, we shine a spotlight on articles and blogs that showcase the depth and breadth of knowledge shared on BSSw.io during the past year. As we embrace the opportunities that 2024 brings, we encourage further collaboration, innovation, and exploration of emerging trends in scientific software development.
 
-To our dedicated contributors, readers, and supporters, your unwavering commitment is the cornerstone of BSSw.io's success. Happy New Year to the entire BSSw.io community! May this year usher in continued growth, collaboration, and triumphs in advancing the field of better scientific software.
+To our dedicated contributors, readers, and supporters, your unwavering commitment is the cornerstone of BSSw.io's success. Happy New Year to the entire BSSw.io community! May this year usher in continued growth and collaboration in advancing the field of better scientific software.
 
 
 ### Better Skills:
@@ -85,7 +85,7 @@ Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She h
 Publish: yes
 Track: community
 Pinned: no
-RSS Update: 2024-01-06
+RSS Update: 2024-01-08
 Topics: projects and organizations
 --->
 
