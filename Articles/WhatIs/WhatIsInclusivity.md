@@ -57,7 +57,7 @@ It and the effort we invest in it is yet another example of how the goals of inc
 
 The truth is, if we were being judged by the actual code we labor to produce, it is quite obvious we are fully committed to inclusive practices and inclusivity.
 A substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusivity for our software.
-It only makes sense that we would be equally committed, if not more so, to inclusivity for the people developing it as well.
+It only makes sense that we would be equally committed, if not more so, to inclusivity for the people developing and using it as well.
 
 On BSSw.io, articles on the topic of Inclusivity are aimed at raising awareness of the role of inclusivity and inclusive practices in sustaining and improving scientific computing projects.
 
