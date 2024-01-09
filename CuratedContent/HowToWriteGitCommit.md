@@ -5,7 +5,7 @@ The article *How to Write a Git Commit Message*, written with humor and simplici
 <!--- deck text end --->
 
 #### Contributed by [Deborah Stevens](https://github.com/haikudeb)
-#### Publication date:  December 1, 2023
+#### Publication date:  January 04, 2024
 
  
 Resource information | Details
@@ -23,7 +23,7 @@ The piece employs a humorous cartoon to illustrate how messages can devolve into
 Publish: yes
 Pinned: no
 Topics: revision control
-RSS update: 2023-12-01
+RSS update: 2024-01-04
 --->
 
  
