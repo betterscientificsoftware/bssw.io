@@ -5,7 +5,7 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
-#### Publication date: January 08, 2024
+#### Publication date: January 09, 2024
 
 Entering the threshold of 2024, we mark the eighth year in the BSSw.io journey, extending our heartfelt appreciation to the vibrant BSSw.io community. Your steadfast support enables BSSw.io to serve as a hub for disseminating knowledge on software sustainability, productivity, and quality. This platform thrives on the diverse contributions from an ever-expanding international community, providing unique perspectives on the challenges, strategies, and best practices within the realm of scientific software.
 
