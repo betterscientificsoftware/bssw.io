@@ -55,8 +55,9 @@ The whole goal of performance portability is to enable HPC/CSE applications to o
 Performance portability is an extremely challenging design goal requiring substantial effort and resources to achieve.
 It and the effort we invest in it is yet another example of how the goals of inclusivity (e.g. supporting a wide variety of computational resources) manifest in the actual code we design and write.
 
-The truth is, a substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusivity (for our software).
-It only makes sense that we would be equally committed, if not more so, to inclusivity for our people as well.
+The truth is, if we were being judged by the actual code we labor to produce, it is quite obvious we are fully committed to inclusive practices and inclusivity.
+A substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusivity for our software.
+It only makes sense that we would be equally committed, if not more so, to inclusivity for the people developing it as well.
 
 On BSSw.io, articles on the topic of Inclusivity are aimed at raising awareness of the role of inclusivity and inclusive practices in sustaining and improving scientific computing projects.
 
