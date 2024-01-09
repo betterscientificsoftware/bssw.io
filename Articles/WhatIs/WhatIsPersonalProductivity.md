@@ -1,5 +1,5 @@
 ### What is Personal Productivity and Sustainability for Scientific Computing?
-#### Publication date: December 22, 2023
+#### Publication date: January 4, 2024
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
 
 <!--deck start--->
