@@ -2,7 +2,7 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: Dec 16, 2023
+#### Publication date: January 11, 2024
 
 <!--deck start-->
 If *diversity* is about being invited to the party, *inclusivity* is about being asked to dance.
