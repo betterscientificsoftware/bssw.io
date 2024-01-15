@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data, see image credit below.]
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data, see image credit below.]
   
 #### Contributed by: [Kate Keahey](https://github.com/keahey) and [Rinku Gupta](https://github.com/rinkug) 
 #### Publication Date: September 28, 2021
