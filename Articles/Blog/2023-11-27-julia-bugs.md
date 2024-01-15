@@ -7,7 +7,7 @@
 
 #### Contributed by [Akond Rahman](https://github.com/akondrahman "Akond Rahman's GitHub Profile")
 
-#### Publication date: November 27, 2023 
+#### Publication date: February 1, 2024 
 
 In this article, I describe some of our [research findings](https://link.springer.com/article/10.1007/s10664-023-10328-5) related to bugs that occur in Julia programs.
 Julia is becoming increasing popular to implement scientific software. 
@@ -39,3 +39,9 @@ We studied 742 bugs via qualitative analysis. Using our qualitative analysis, we
 ### Author bio
 
 Akond Rahman is an assistant professor at Auburn University. His research interest is in software engineering focused on development and operations (DevOps) and secure software development. His motivation stems from the foundational challenge of integrating quality assurance into the development process without sacrificing developer productivity and software sustainability. His research is sponsored by the U.S. National Science Foundation (NSF) and the U.S. National Security Agency (NSA). He received his PhD from North Carolina State University. He won the Microsoft Open Source Challenge Award in 2016, the ACM SIGSOFT Doctoral Symposium Award at ICSE in 2018, and the ACM SIGSOFT Distinguished Paper Award at ICSE in 2019. He actively collaborates with practitioners from industry, such as practitioners from GitHub and WindRiver. To know more about his work visit https://akondrahman.github.io/.
+
+<!---
+Publish: yes
+Topics: debugging, development tools, issue tracking
+Track: experience
+--->
