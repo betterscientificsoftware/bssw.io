@@ -12,7 +12,10 @@
 In this article, I describe some of our [research findings](https://link.springer.com/article/10.1007/s10664-023-10328-5) related to bugs that occur in Julia programs.
 Julia is becoming increasing popular to implement scientific software. 
 
-Since its inception in 2012, Julia has experienced a steady increase in popularity as practitioners are migrating from scripting languages, such as Python to Julia. Practitioners typically use Julia for large-scale scientific data analysis, e.g., Julia was used in Celeste, a software used in astronomy research. The use of Julia yielded a performance improvement by a factor of 1,000 for Celeste, compared to prior implementation.   
+Since its inception in 2012, Julia has experienced a steady increase in popularity as practitioners are migrating from scripting languages, such as Python.
+Practitioners typically use Julia for large-scale scientific data analysis.
+For example, Julia was used in [Celeste](https://cs.lbl.gov/news-media/news/2016/celeste-enhancements-create-new-opportunities-in-sky-surveys/), a software used in astronomy research.
+Julia yielded a 1000x performance improvement for [Celeste](https://arxiv.org/abs/1611.03404), compared to the prior implementation.   
 
 But what about bugs in Julia programs? Unmitigated bugs in Julia programs can hinder scientific exploration by generating erroneous results and unexpected failures. Hence, we pursued a research study where we systematically investigated a set of bugs collected from the open source domain. 
 
