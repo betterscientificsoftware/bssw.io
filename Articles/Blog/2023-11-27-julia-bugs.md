@@ -18,7 +18,7 @@ But what about bugs in Julia programs? Unmitigated bugs in Julia programs can hi
 
 ### Our Approach 
 
-We study 742 bugs in total by applying qualitative analysis. Using our qualitative analysis, we derive bug categories and bug symptoms for Julia programs. We also survey 52 practitioners who have contributed to open source Julia programs for further insights. Datasets used in our paper are publicly available [online](https://figshare.com/s/35d775572bb840ebd392).  
+We studied 742 bugs via qualitative analysis. Using our qualitative analysis, we derive bug categories and bug symptoms for Julia programs. We also surveyed 52 practitioners who have contributed to open source Julia programs for further insights. Datasets used in our paper are publicly available [online](https://figshare.com/s/35d775572bb840ebd392).  
 
 ### Major Findings 
 
