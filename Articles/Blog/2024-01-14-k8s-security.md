@@ -9,7 +9,7 @@
 
 #### Publication date: January 15, 2024
 
-In this blog post, I describe some of our [research findings](https://dl.acm.org/doi/10.1145/3579639) related to security misconfigurations that occur in configuration files for Kubernetes. In recent years, Kubernetes has become popular to manage scientific workloads. Kubernetes is used to implement the practice of container orchestration, i.e, the practice of pragmatically managing the lifecycle of containers with tools.   
+In this article, I describe some of our [research findings](https://dl.acm.org/doi/10.1145/3579639) related to security misconfigurations that occur in configuration files for Kubernetes. In recent years, Kubernetes has become popular to manage scientific workloads. Kubernetes is used to implement the practice of container orchestration, i.e, the practice of pragmatically managing the lifecycle of containers with tools.   
 
 Since its inception in 2014, Kubernetes has established itself as the `de-facto` tool for automated container orchestration. According to a Stackrox survey, 91% of the surveyed 500 practitioners use Kubernetes for container orchestration. As of Sep 2020, Kubernetes has a market share of 77% amongst all container orchestration tools. Organizations, such as Adidas, Twitter, IBM, U.S. Department of Defense (DOD), and Spotify are currently using Kubernetes for automated container orchestration. Use of Kubernetes has resulted in benefits, e.g., using Kubernetes the U.S. DoD decreased their release time from 3~8 months to 1 week.       
 
