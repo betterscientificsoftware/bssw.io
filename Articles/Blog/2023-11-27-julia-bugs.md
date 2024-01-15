@@ -9,7 +9,8 @@
 
 #### Publication date: November 27, 2023 
 
-In this blog post, I describe some of our [research findings](https://link.springer.com/article/10.1007/s10664-023-10328-5) related to bugs that occur in Julia programs, which are becoming increasing popular to implement scientific software. 
+In this article, I describe some of our [research findings](https://link.springer.com/article/10.1007/s10664-023-10328-5) related to bugs that occur in Julia programs.
+Julia is becoming increasing popular to implement scientific software. 
 
 Since its inception in 2012, Julia has experienced a steady increase in popularity as practitioners are migrating from scripting languages, such as Python to Julia. Practitioners typically use Julia for large-scale scientific data analysis, e.g., Julia was used in Celeste, a software used in astronomy research. The use of Julia yielded a performance improvement by a factor of 1,000 for Celeste, compared to prior implementation.   
 
