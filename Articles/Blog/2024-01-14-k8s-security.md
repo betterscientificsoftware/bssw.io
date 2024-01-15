@@ -35,3 +35,9 @@ We investigate the common security misconfigurations by analyzing 2,039 configur
 ### Author bio
 
 Akond Rahman is an assistant professor at Auburn University. His research interest is in software engineering focused on development and operations (DevOps) and secure software development. His motivation stems from the foundational challenge of integrating quality assurance into the development process without sacrificing developer productivity and software sustainability. His research is sponsored by the U.S. National Science Foundation (NSF) and the U.S. National Security Agency (NSA). He received his PhD from North Carolina State University. He won the Microsoft Open Source Challenge Award in 2016, the ACM SIGSOFT Doctoral Symposium Award at ICSE in 2018, and the ACM SIGSOFT Distinguished Paper Award at ICSE in 2019. He actively collaborates with practitioners from industry, such as practitioners from GitHub and WindRiver. To know more about his work visit https://akondrahman.github.io/.
+
+<!---
+Publish: yes
+Topics: configuration and builds, development tools
+Track: experience
+--->
