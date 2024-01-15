@@ -23,7 +23,7 @@ We studied 742 bugs via qualitative analysis. Using our qualitative analysis, we
 ### Major Findings 
 
 - We identify nine types of bugs 
-- Of the identified nine types of bugs, three have not been reported in other types of software systems, namely, `polyglot`, `pre-compilation`, and `world age'. 
+- Of these, three have not been reported in other types of software systems, namely, `polyglot`, `pre-compilation`, and `world age`. 
 - Common symptoms of bugs in Julia programs are program and build failures, incorrect calculation, and reduction in program execution speed. 
 - Survey respondents find bugs related to data types to be the most common and most severe for Julia programs 
 
