@@ -30,7 +30,7 @@ We investigate the common security misconfigurations by analyzing 2,039 configur
 
 - If you are using Kubernetes for managing scientific workloads, please inspect for security misconfigurations in your Kubernetes configuration files. Consider applying code review practices. 
 - There exists a wide range of tools, such as [Trivy](https://trivy.dev/), [SLI-Kube](https://hub.docker.com/repository/docker/akondrahman/sli-kube/general), and [ValidKube](https://validkube.com/). Please consider using any or multiple of these tools to automatically detect security misconfigurations, and later repair them. 
-- If you are using a CI/CD pipeline, please add checks that will automatically detect instances of security misconfigurations, and stop the build/deploy process if there exists security misconfigurations in configuration files.  
+- When using a CI/CD pipeline, please add checks that will automatically detect instances of security misconfigurations, and stop the build/deploy process if there exists security misconfigurations in configuration files.  
 
 ### Author bio
 
