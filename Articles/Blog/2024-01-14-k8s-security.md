@@ -21,7 +21,7 @@ We investigate the common security misconfigurations by analyzing 2,039 configur
 
 ### Major Findings 
 
-- We identify 11 categories of security misconfigurations: 9 are Kubernetes-specific, and 2 are generic. 
+- In or work, we identify 11 categories of security misconfigurations: 9 are Kubernetes-specific, and 2 are generic. 
 - Using our research prototype called `SLI-KUBE`, we identify 1,051 security misconfigurations in 2,039 configuration files.  
 - Security misconfigurations affect Kubernetes entities that perform mesh-related load balancing, as well as provision pods and stateful applications. 
 - Practitioners found our tool useful but also suggested ways for better adoption by integrating flexibility, severity-based prioritization, and seamless integration with Kubernetes. 
