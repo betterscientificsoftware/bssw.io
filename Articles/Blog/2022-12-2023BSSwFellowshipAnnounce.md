@@ -6,11 +6,11 @@
 
 We are pleased to announce the 2023 class of Better Scientific Software (BSSw) Fellows: six Fellows and six Honorable Mentions.
 
-The 2023 class of BSSw Fellows will be recognized during the [2023 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), January 17-20, 2023.  
+The 2023 class of BSSw Fellows will be recognized during the [2023 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), January 17-20, 2023.
 
 We sincerely thank _all_ fellowship applicants. The broad range of creative and interesting proposals made the selection process difficult.
 
-The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2023 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
+The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2023 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
 The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) and National Science Foundation (NSF) to enable a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering. The program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity.
 
@@ -18,9 +18,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_BrewerNicole_F.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_F_Brewer.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Nicole Brewer, Arizona State University</h3>
   <p>Graduate Research Assistant, Center for Biology and Society</p>
@@ -30,9 +30,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_CohenMyra_F.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_F_Cohen.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Myra B. Cohen, Iowa State University</h3>
   <p>Professor and Lahn and Oahn Chair in Software Engineering, Computer Science</p>
@@ -42,9 +42,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_DoerfertJohannes_F.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_F_Doerfert.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Johannes Doerfert, Lawrence Livermore National Laboratory</h3>
   <p>Computer Scientist, CASC</p>
@@ -54,21 +54,21 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/Blog_2212_HartWilliam_F.jpg' class='logo' />
-</div>  
+  <img src='../../images/Blog_BSSwF_2023_F_Hart.jpg' class='logo' />
+</div>
 
 <div class='short_bio'>
   <h3> William Hart, Sandia National Laboratories</h3>
   <p>Member of Technical Staff, Discrete Math and Optimization Department</p>
   <p><i>BSSw Focus</i>: Sustainable strategies for managing supply chain security in research software</p>
-</div>  
+</div>
 </div>
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_KershawHelen_F.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_F_Kershaw.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Helen Kershaw, National Center for Atmospheric Research</h3>
   <p>Software Engineer, Data Assimilation Research Section</p>
@@ -78,9 +78,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_Mudafort.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_HM_Mudafort.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Rafael Mudafort, National Renewable Energy Lab</h3>
   <p>Researcher IV, National Wind Technology Center</p>
@@ -93,7 +93,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_BezJean-Luca_HM.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_HM_Bez.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -101,11 +101,11 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
   <p>Postdoctoral Researcher, Scientific Data Division</p>
 </div>
 </div>
- 
+
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_MonsalveDiaz-Jose_HM.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_HM_MonsalveDiaz.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -117,7 +117,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_Liu_Xu_HM.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_HM_Liu.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -128,7 +128,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_NeemanAlisa_HM.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_HM_Neeman.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -139,7 +139,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_RiemerKristina_HM.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_HM_Riemer.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -150,7 +150,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2212_SipoczBrigitta_HM.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2023_HM_Sipocz.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
