@@ -2,7 +2,7 @@
 
 **Name:** Jonathan Madsen
 
-**Image:** /images/People_Madsen_v2.jpg
+**Image:** /images/People_2021_HM_Madsen.jpg
 
 **Affiliation:** Lawrence Berkeley National Laboratory
 

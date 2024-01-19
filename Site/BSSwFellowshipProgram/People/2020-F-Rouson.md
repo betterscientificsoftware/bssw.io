@@ -4,7 +4,7 @@
 
 **Affiliation:** Sustainable Horizons Institute, Sourcery Institute
 
-**Image:** /images/People_DamianRouson.jpg
+**Image:** /images/People_2020_F_Rouson.jpg
 
 **URL:** https://www.sourceryinstitute.org/damian-rouson
 
@@ -14,9 +14,9 @@
 
 **Short Bio:** Introducing agile scientific software development to underrepresented groups
 
-**Long Bio:** 
+**Long Bio:**
 ### Teach approaches for agile scientific software development, with emphasis on outreach to underrepresented groups.
-Damian will develop and teach agile scientific software development tutorials in settings that reach underrepresented groups.  The only prerequisites will be familiarity with a Linux shell and a text editor. A related, novel aspect of the tutorials will be the integration of a professional development activity using agile practices. 
+Damian will develop and teach agile scientific software development tutorials in settings that reach underrepresented groups.  The only prerequisites will be familiarity with a Linux shell and a text editor. A related, novel aspect of the tutorials will be the integration of a professional development activity using agile practices.
 
 Damian is a research engineer and member of the Advisory Board of [Sustainable Horizons Institute](http://shinstitute.org). He has extensive experience in software design and development for multiphysics modeling, including classical, quantum, and magnetohydrodynamic turbulence and multiphase flow. Damian also is the founder and president of the [Sourcery Institute](http://www.sourceryinstitute.org).
 
