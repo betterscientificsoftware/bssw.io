@@ -2,7 +2,7 @@
 
 **Name:** Marc Henry de Frahan
 
-**Image:** /images/People_HenrydefrahanMarc_v2.jpg
+**Image:** /images/People_2018_HM_Henrydefrahan.jpg
 
 **Affiliation** National Renewable Energy Laboratory
 

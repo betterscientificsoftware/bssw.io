@@ -2,7 +2,7 @@
 
 **Name:** Vanessa Sochat
 
-**Image:** /images/People_SochatVanessa.jpg
+**Image:** /images/People_2019_HM_Sochat.jpg
 
 **Affiliation:** Stanford University
 

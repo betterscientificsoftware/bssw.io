@@ -4,7 +4,7 @@
 
 **Affiliation:** University of Alabama
 
-**Image:** /images/People_CarverJeff.jpg
+**Image:** /images/People_2018_F_Carver.jpg
 
 **URL:** http://carver.cs.ua.edu/
 
@@ -12,11 +12,11 @@
 
 **Github:** https://github.com/JeffCarver
 
-**Short Bio:** Improving code quality through modern peer code review  
+**Short Bio:** Improving code quality through modern peer code review
 
-**Long Bio:** 
+**Long Bio:**
 ### Save time and frustration from tracking down bugs with peer code review.
-BSSw Fellow Jeffrey Carver modernizes scientific software quality assurance by teaching contemporary peer code review in scientific software development. His tutorial includes a general introduction to code review, a more specific discussion of the unique nature of scientific code review, and an overview of available tool support. Tutorial attendees participate in hands-on exercises to practice code review. The tutorial concludes with a group discussion about best practices for performing scientific code review. Learn more about peer code review through his tutorial website (including slides): <a href="https://se4science.org/tutorials/ECP19/"> Contemporary Peer Code Review Practices</a>, from the 2019 Annual Meeting of the DOE Exascale Computing Project. 
+BSSw Fellow Jeffrey Carver modernizes scientific software quality assurance by teaching contemporary peer code review in scientific software development. His tutorial includes a general introduction to code review, a more specific discussion of the unique nature of scientific code review, and an overview of available tool support. Tutorial attendees participate in hands-on exercises to practice code review. The tutorial concludes with a group discussion about best practices for performing scientific code review. Learn more about peer code review through his tutorial website (including slides): <a href="https://se4science.org/tutorials/ECP19/"> Contemporary Peer Code Review Practices</a>, from the 2019 Annual Meeting of the DOE Exascale Computing Project.
 
 Jeff is a professor of computer science at the University of Alabama. Contact Jeff if you are interested in hosting a tutorial and developing code review in your organization.
 

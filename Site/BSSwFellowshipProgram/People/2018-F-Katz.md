@@ -4,7 +4,7 @@
 
 **Affiliation:** National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign
 
-**Image:** /images/People_KatzDaniel.jpg
+**Image:** /images/People_2018_F_Katz.jpg
 
 **URL:** https://danielskatz.org/
 
@@ -12,9 +12,9 @@
 
 **Github:** https://github.com/danielskatz
 
-**Short Bio:** Giving software developers long-overdue credit through principles for software citation  
+**Short Bio:** Giving software developers long-overdue credit through principles for software citation
 
-**Long Bio:** 
+**Long Bio:**
 ### Measure impact, give attribution, and recognize productivity with scientific software citation.
 BSSw Fellow Daniel S. Katz developed principles for software citation to make scientific software more sustainable by providing credit to its developers. Research paper citations are tracked to measure impact; similarly, software citations should be tracked to measure impact and recognize the significant time spent developing software and data. He led working groups to produce the principles, and he is currently working with publishers on implementation in institutionalized citation practices. Learn more about software citation through his webinar recording and slides: <a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar017"> Software Citation Today and Tomorrow</a>, April 2018.
 

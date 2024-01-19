@@ -2,7 +2,7 @@
 
 **Name:** Benjamin Pritchard
 
-**Image:** /images/People_PrichardBenjamin.jpg
+**Image:** /images/People_2019_HM_Prichard.jpg
 
 **Affiliation:** Virginia Tech
 

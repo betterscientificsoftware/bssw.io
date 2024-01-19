@@ -2,7 +2,7 @@
 
 **Name:** Neal Davis
 
-**Image:** /images/People_DavisNeal_v2.jpg
+**Image:** /images/People_2018_HM_Davis.jpg
 
 **Affiliation:** University of Illinois at Urbana-Champaign
 
