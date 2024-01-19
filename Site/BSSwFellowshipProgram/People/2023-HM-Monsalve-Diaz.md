@@ -2,7 +2,7 @@
 
 **Name:** Jose Monsalve Diaz
 
-**Image:** /images/People_MonsalveDiaz-Jose_HM.png
+**Image:** /images/People_2023_HM_MonsalveDiaz.png
 
 **Affiliation:** Argonne National Laboratory
 

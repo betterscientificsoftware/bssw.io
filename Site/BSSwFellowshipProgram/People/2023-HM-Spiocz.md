@@ -2,7 +2,7 @@
 
 **Name:** Brigitta Sip&#337;cz
 
-**Image:** /images/People_SipoczBrigitta_HM.png 
+**Image:** /images/People_2023_HM_Sipocz.png
 
 **Affiliation:** California Institute of Technology
 

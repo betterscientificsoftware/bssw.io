@@ -4,9 +4,9 @@
 
 **Affiliation:** National Center for Atmospheric Research
 
-**Image:** /images/People_KershawHelen_F.png
+**Image:** /images/People_2023_F_Kershaw.png
 
-**Github:** https://github.com/hkershaw-brown 
+**Github:** https://github.com/hkershaw-brown
 
 **Short Bio:** Improving code review skills for scientific software developers
 

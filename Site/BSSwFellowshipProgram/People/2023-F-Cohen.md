@@ -4,7 +4,7 @@
 
 **Affiliation:** Iowa State University
 
-**Image:** /images/People_CohenMyra_F.png
+**Image:** /images/People_2023_F_Cohen.png
 
 **URL:** https://cs.iastate.edu/~mcohen
 

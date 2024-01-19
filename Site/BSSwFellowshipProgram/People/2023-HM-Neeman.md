@@ -2,7 +2,7 @@
 
 **Name:** Alisa Neeman
 
-**Image:** /images/People_NeemanAlisa_HM.png
+**Image:** /images/People_2023_HM_Neeman.png
 
 **Affiliation:** Muskingum University
 

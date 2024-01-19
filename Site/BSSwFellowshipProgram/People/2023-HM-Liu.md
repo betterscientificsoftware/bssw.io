@@ -2,7 +2,7 @@
 
 **Name:** Xu Liu
 
-**Image:** /images/People_Liu_Xu_HM.png
+**Image:** /images/People_2023_HM_Liu.png
 
 **Affiliation:** North Carolina State University
 

@@ -2,7 +2,7 @@
 
 **Name:** Kristina Riemer
 
-**Image:** /images/People_RiemerKristina_HM.png
+**Image:** /images/People_2023_HM_Riemer.png
 
 **Affiliation:** University of Arizona
 

@@ -4,7 +4,7 @@
 
 **Affiliation:** Sandia National Laboratories
 
-**Image:** /images/People_HartWilliam_F.png
+**Image:** /images/People_2023_F_Hart.png
 
 **LinkedIn:** https://www.linkedin.com/in/william-e-hart-3691134/
 
