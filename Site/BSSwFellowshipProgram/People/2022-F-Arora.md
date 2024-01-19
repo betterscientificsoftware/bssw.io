@@ -4,7 +4,7 @@
 
 **Affiliation:** Wayne State University and Ventra Tech Inc.
 
-**Image:** /images/People_RituArora.jpg
+**Image:** /images/People_2022_F_Arora.jpg
 
 **LinkedIn:** https://www.linkedin.com/in/ritu-a-59b58ab/
 

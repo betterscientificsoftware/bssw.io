@@ -4,7 +4,7 @@
 
 **Affiliation:** Slippery Rock University of Pennsylvania
 
-**Image:** /images/People_NitinSukhija.jpg
+**Image:** /images/People_2022_F_Sukhija.jpg
 
 **URL:** https://www.sru.edu/c2ac
 

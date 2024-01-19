@@ -4,7 +4,7 @@
 
 **Affiliation:** Purdue University
 
-**Image:** /images/People_AmiyaMaji.jpg
+**Image:** /images/People_2022_F_Maji.jpg
 
 **URL:** https://www.rcac.purdue.edu/about/staff/amaji
 
