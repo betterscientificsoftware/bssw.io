@@ -31,7 +31,7 @@ BSSw Fellow Ritu Arora has created videos, articles/blogs, and examples/exercise
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_RituArora.jpg' class='logo' />
+  <img src='../../images/People_2022_F_Arora.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -57,7 +57,7 @@ We often see computational science codes focusing on I/O only when something has
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_LathamRobert.jpg' class='logo' />
+  <img src='../../images/People_2022_F_Latham.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -100,7 +100,7 @@ BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_NSFcohort_Lowndes_HM.jpg' class='logo' />
+  <img src='../../images/People_2022_F_Lowndes_NSF.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -126,7 +126,7 @@ BSSw Fellow Amiya Maji works to simplify scientific Python package installation 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_AmiyaMaji.jpg' class='logo' />
+  <img src='../../images/People_2022_F_Maji.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -174,7 +174,7 @@ BSSw Fellow Nitin Sukhija has created a one-day workshop on securing scientific 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_NitinSukhija.jpg' class='logo' />
+  <img src='../../images/People_2022_F_Sukhija.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -203,7 +203,7 @@ BSSw Fellow Karan Vahi brings the use of workflows to the wider scientific commu
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/People_VahiKaran.jpg' class='logo' />
+  <img src='../../images/People_2022_F_Vahi.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
