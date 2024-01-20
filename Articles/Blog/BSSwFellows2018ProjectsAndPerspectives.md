@@ -5,17 +5,17 @@
 #### Publication date: September 4, 2018
 
 <!-- deck text start -->
-This article provides information about the work of the inaugural class of Better Scientific Software (BSSw) Fellows and their perspectives on the BSSw Fellowship Program.  
+This article provides information about the work of the inaugural class of Better Scientific Software (BSSw) Fellows and their perspectives on the BSSw Fellowship Program.
 <!-- deck text end -->
 
-The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. As introduced in a prior [BSSw blog article](https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows), the 2018 Fellows are working on a variety of impactful projects. 
+The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. As introduced in a prior [BSSw blog article](https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows), the 2018 Fellows are working on a variety of impactful projects.
 
 September 2018: The information below provides a snapshot of current work by the 2018 BSSw Fellows.  We will periodically update this page as new resources become available.  Register for the [BSSw email list](https://bssw.io/pages/receive-our-email-digest) to be notified of upcoming activities and new resources by BSSw Fellows and the broader BSSw community.
 
 <!--- --------------- --->
 ## 2018 BSSw Fellows
 
-<img src='../../images/Fell_carver.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2018_F_Carver.jpg' class='logo' />
 ### Jeffrey Carver
 University of Alabama, Professor, Computer Science
 
@@ -29,7 +29,7 @@ University of Alabama, Professor, Computer Science
 
 <!--- --------------- --->
 
-<img src='../../images/Fell_jiminez.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2018_F_Jiminez.jpg' class='logo' />
 ### Ivo Jimenez
 University of California Santa Cruz, Ph.D. candidate, Computer Science
 
@@ -38,16 +38,16 @@ University of California Santa Cruz, Ph.D. candidate, Computer Science
 *Resources:*
 * Webinar recording and slides: [*Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines*](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar019), June 2018
 
-*Perspectives on the BSSw Fellowship Program:* The goal of my work is improving the state of practice for computational experiments by teaching new generations more efficient approaches for carrying out scientific explorations.  Through the BSSw Fellowship Program, I have been able to reach a broad audience and to create connections with people who have significantly enriched my professional network, and with whom I would have not had the chance to interact otherwise.  
+*Perspectives on the BSSw Fellowship Program:* The goal of my work is improving the state of practice for computational experiments by teaching new generations more efficient approaches for carrying out scientific explorations.  Through the BSSw Fellowship Program, I have been able to reach a broad audience and to create connections with people who have significantly enriched my professional network, and with whom I would have not had the chance to interact otherwise.
 
 <!--- --------------- --->
-<img src='../../images/Fell_katz.jpg' class='logo' />
-### Daniel S. Katz</b>     
+<img src='../../images/Blog_BSSwF_2018_F_Katz.jpg' class='logo' />
+### Daniel S. Katz</b>
 University of Illinois at Urbana-Champaign, Research Associate Professor, Computer Science, Electrical and Computer Engineering, and the School of Information Sciences
 
 National Center for Supercomputing Applications, Assistant Director for Scientific Software and Applications
 
-*BSSw focus:* **Techniques for making scientific software more sustainable by providing credit to its developers via software citation:** As a scientific software developer for 30 years and as a founder of Working towards Sustainable Software for Science: Practice and Experiences (WSSSPE), I want to use this opportunity as a BSSSw Fellow to make scientific software more sustainable by providing credit to its developers via software citation, similar to how scientists gain credit for their research via paper citations. I co-led the FORCE11 Software Citation working group, where we produced a set of software citation principles, and I’ve been co-leading the FORCE11 Software Citation Implementation working group, where we are working with publishers and others to implement these principles. One challenge is finding points of leverage on which to focus implementation activities. This fellowship provides an opportunity to work with specific conferences and communities as such leverage points. 
+*BSSw focus:* **Techniques for making scientific software more sustainable by providing credit to its developers via software citation:** As a scientific software developer for 30 years and as a founder of Working towards Sustainable Software for Science: Practice and Experiences (WSSSPE), I want to use this opportunity as a BSSSw Fellow to make scientific software more sustainable by providing credit to its developers via software citation, similar to how scientists gain credit for their research via paper citations. I co-led the FORCE11 Software Citation working group, where we produced a set of software citation principles, and I’ve been co-leading the FORCE11 Software Citation Implementation working group, where we are working with publishers and others to implement these principles. One challenge is finding points of leverage on which to focus implementation activities. This fellowship provides an opportunity to work with specific conferences and communities as such leverage points.
 
 *Resources:*
 * Blog post: [*BSSw Fellowship Activity: Promoting Software Citation*](https://bssw.io/blog_posts/bssw-fellowship-activity-promoting-software-citation), March 2018
@@ -56,15 +56,15 @@ National Center for Supercomputing Applications, Assistant Director for Scientif
 *Perspectives on the BSSw Fellowship Program:* I applied to be a BSSw Fellow because I saw this as an opportunity to extend some of the work I had started in software citation to have a larger impact, by encouraging new communities to include software citation as part of their professional culture. While this work is a slow activity, I feel that the fellowship has allowed me to help these communities move farther than they otherwise would have. I've enjoyed the experience of understanding the projects of the other fellows and getting better insight into ECP. Based on what I've learned, I suggest that prospective fellows think about how to expand something they are already doing and increase the impact of their work, rather than proposing something completely new.
 
 <!--- --------------- --->
-<img src='../../images/Fell_lumsdaine.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2018_F_Lumsdaine.jpg' class='logo' />
 ### Andrew Lumsdaine
 University of Washington, Affiliate Professor, Computer Science
 
 Northwest Institute for Advanced Computing, Chief Scientist
 
-*BSSw focus:* **Practices for high-performance and high-quality scientific software in modern C++:** This BSSw Fellowship supports continued development and dissemination of a course on software construction for high-performance computing.  The course emphasizes current best practices for high-performance and high-quality scientific software using modern C++ (up through C++17).  Taking a careful slice of C++ focused on the needs of DOE application developers, the content includes performance-oriented topics such as pipelining, hierarchical memory, multithreading, and message passing.  A unifying theme is the use of abstraction for expressiveness and for performance.  Specific attention is paid to migrating from Fortran to C++ as well as from previous versions of C++.  
+*BSSw focus:* **Practices for high-performance and high-quality scientific software in modern C++:** This BSSw Fellowship supports continued development and dissemination of a course on software construction for high-performance computing.  The course emphasizes current best practices for high-performance and high-quality scientific software using modern C++ (up through C++17).  Taking a careful slice of C++ focused on the needs of DOE application developers, the content includes performance-oriented topics such as pipelining, hierarchical memory, multithreading, and message passing.  A unifying theme is the use of abstraction for expressiveness and for performance.  Specific attention is paid to migrating from Fortran to C++ as well as from previous versions of C++.
 
-*Resources:* 
+*Resources:*
 * Course materials, including video lectures, slides, notes, assignments, and code, will be made available online.
 
 *Perspectives on the BSSw Fellowship Program:*  I became interested in becoming a BSSw Fellow because I believe in the mission of BSSw.  Scientific software is an important tool for scientific discovery.  By enabling scientists to be more effective and efficient with this tool, we are also enabling them to do more and better science.  Being selected as a BSSw Fellow has been quite an honor and it has been an encouragement to develop educational materials with a specific focus on the unique needs of scientific software.  Being a BSSw Fellow has been an opportunity to be on "the ground floor" with this important effort, and I look forward to participating long into the future.  The impact you can make as a BSSw Fellow may be non-traditional, but it is nevertheless vitally important.
@@ -72,19 +72,19 @@ Northwest Institute for Advanced Computing, Chief Scientist
 <!--- --------------- --->
 ## 2018 BSSw Honorable Mentions
 
-<img src='../../images/HM_davis.jpg' class='logo' />
-### Neal Davis 
+<img src='../../images/Blog_BSSwF_2018_HM_Davis.jpg' class='logo' />
+### Neal Davis
 University of Illinois at Urbana-Champaign, Teaching Assistant Professor, Computer Science
 
-<img src='../../images/HM_gonsiorowski.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2018_HM_Gonsiorowski.jpg' class='logo' />
 ### Elsa Gonsiorowski
 Lawrence Livermore National Laboratory, HPC I/O Specialist, Livermore Computing
 
-<img src='../../images/HM_henrydefrahan.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2018_HM_Henrydefrahan.jpg' class='logo' />
 ### Marc Henry de Frahan
 National Renewable Energy Laboratory, Postdoctoral Researcher
 
-<img src='../../images/HM_li.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2018_HM_Li.jpg' class='logo' />
 ### Ying Li
 Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facility
 
