@@ -4,7 +4,7 @@
 
 **Affiliation:** University of Central Florida
 
-**Image:** /images/People-2024-F-Newton.jpg
+**Image:** /images/People_2024_F_Newton.jpg
 
 **URL:** https://small0live.github.io
 

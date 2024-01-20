@@ -4,7 +4,7 @@
 
 **Affiliation:** University of Colorado Anschutz Medical Campus
 
-**Image:** /images/People-2024-F-Bunten.jpg
+**Image:** /images/People_2024_F_Bunten.jpg
 
 **LinkedIn:** https://www.linkedin.com/in/dave-bunten
 

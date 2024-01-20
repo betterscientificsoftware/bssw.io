@@ -2,7 +2,7 @@
 
 **Name:** Drew Paine
 
-**Image:** /images/People-2024-HM-PaineB.jpg
+**Image:** /images/People_2024_H_-PaineB.jpg
 
 **Affiliation:** Lawrence Berkeley National Laboratory
 

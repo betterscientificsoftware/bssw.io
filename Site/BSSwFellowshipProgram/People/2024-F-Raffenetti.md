@@ -4,7 +4,7 @@
 
 **Affiliation:** Argonne National Laboratory
 
-**Image:** /images/People-2024-F-Raffenetti.jpg
+**Image:** /images/People_2024_F_Raffenetti.jpg
 
 **LinkedIn:** https://www.linkedin.com/in/ken-raffenetti-b47a1222/
 

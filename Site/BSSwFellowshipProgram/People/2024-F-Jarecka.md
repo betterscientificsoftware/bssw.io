@@ -4,7 +4,7 @@
 
 **Affiliation:** MIT McGovern Institute for Brain Research
 
-**Image:** /images/People-2024-F-Jarecka.jpg
+**Image:** /images/People_2024_F_Jarecka.jpg
 
 **LinkedIn:** https://linkedin.com/in/djarecka
 

@@ -2,7 +2,7 @@
 
 **Name:** Noam Ross
 
-**Image:** /images/People-2024-HM-RossB.jpg
+**Image:** /images/People_2024_H_-RossB.jpg
 
 **Affiliation:** EcoHealthAlliance
 
