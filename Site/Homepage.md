@@ -5,16 +5,14 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/Blog_2401_YIR.png
 Slide1 R: ../Articles/Blog/BSSwHighlights2023.md
-Slide2 L: ../Articles/WhatIs/WhatIsInclusivity.md
+Slide2 L: ../Articles/Blog/DiscontinuingSoftwareProjects.md
 Slide2 R: ../CuratedContent/HowToWriteGitCommit.md
-Slide3 L: ../images/Blog2312_SoR.png
-Slide3 R: ../Articles/Blog/2023-12-ucsc-sor.md 
-Slide4 L: ../images/Blog_2312_SecurityB.png
-Slide4 R: ../Articles/Blog/2023-09-secure-sci-software-dev.md
-Slide5 L: ../CuratedContent/NationalCyberDirectorRFI.md
-Slide5 R: ../CuratedContent/ScalingYourselfSoftwareDeveloper.md
-Slide6 L: ../Events/2024-04-s3c-conference.md
-Slide6 R: ../Events/hirse-024-2024-01.md
+Slide3 L: ../Articles/WhatIs/WhatIsInclusivity.md
+Slide3 R: ../Articles/Blog/2023-12-2024BSSwFellowshipAnnounce.md 
+Slide4 L: ../images/Blog2312_SoR.png
+Slide4 R: ../Articles/Blog/2023-12-ucsc-sor.md 
+Slide5 L: ../Events/ATPESC2024.md 
+Slide5 R: ../Events/2024-04-s3c-conference.md 
 --->
 
 <!---
