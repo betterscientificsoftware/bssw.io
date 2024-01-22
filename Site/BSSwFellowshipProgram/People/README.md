@@ -1,6 +1,6 @@
 # BSSw Fellowship Pages
 
-These files are used to populate the [Meet Our Fellows](https://bssw.io/pages/meet-our-fellows) page and for each Fellow's individual sub-page. To mark a page as a
+These files are used to populate the [Meet Our Fellows](https://bssw.io/pages/meet-our-fellows) page and for each Fellow's individual sub-page.
 
 ## Templates
 Each Fellow and Honorable mention gets a file in this directory. Fellows have more information / fields that the honorable mentions. Honorable mentions list their title (position at their institution) whereas fellows get a tagline for their project.
@@ -50,7 +50,7 @@ Note that if any of the weblinks are missing, remove the entire entry (don't lea
 
 Use the convention `YYYY-[F|HM]-Lastname.md`. For example: `2018-HM-Gonsiorowski.md`. Note that the `YYYY` year is the *class* year.
 
-See the </images/README.md> file for naming conventions for the image files.
+See the [/images/README.md]() file for naming conventions for the image files.
 
 <!---
 Publish: no
