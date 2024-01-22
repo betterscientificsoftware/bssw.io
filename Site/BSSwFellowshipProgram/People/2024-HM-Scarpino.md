@@ -2,7 +2,7 @@
 
 **Name:** Matthew Scarpino
 
-**Image:** /images/People_2024_H_-Scarpino.jpg
+**Image:** /images/People_2024_HM_Scarpino.jpg
 
 **Affiliation:** Purdue University
 
