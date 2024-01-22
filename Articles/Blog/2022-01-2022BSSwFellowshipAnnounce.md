@@ -6,11 +6,11 @@
 
 We are pleased to announce the 2022 class of Better Scientific Software (BSSw) Fellows: six Fellows and six Honorable Mentions.
 
-The 2022 class of BSSw Fellows will be recognized during the [2022 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), May 2-5, 2022.  
+The 2022 class of BSSw Fellows will be recognized during the [2022 Exascale Computing Project Annual Meeting](https://www.ecpannualmeeting.com), May 2-5, 2022.
 
 We sincerely thank _all_ fellowship applicants. The broad range of creative and interesting proposals made the selection process difficult.
 
-The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2022 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.  
+The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2022 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
 The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) and National Science Foundation (NSF) to enable a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering. The program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity.
 
@@ -18,21 +18,21 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/Blog_2201_Fell_AroraRi.jpg' class='logo' />
-</div>  
+  <img src='../../images/Blog_BSSwF_2022_F_AroraRi.jpg' class='logo' />
+</div>
 
 <div class='short_bio'>
   <h3> Ritu Arora, University of Texas at San Antonio</h3>
   <p>Assistant Vice President, Research Computing</p>
   <p><i>BSSw Focus</i>: Optimizing I/O for better performance</p>
-</div>  
+</div>
 </div>
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_Fell_Latham.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_F_Latham.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Rob Latham, Argonne National Laboratory</h3>
   <p>Software Developer, Math and Computer Science (MCS) Division</p>
@@ -42,9 +42,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_Fell_LowndesJu.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_F_LowndesJu.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Julia Stewart Lowndes, National Center for Ecological Analysis and Synthesis (NCEAS), UC Santa Barbara</h3>
   <p>Openscapes Co-Director</p>
@@ -54,9 +54,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_Fell_Maji.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_F_Maji.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Amiya K. Maji, Purdue University</h3>
   <p>Senior Computational Scientist, Research Computing</p>
@@ -66,9 +66,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_Fell_Sukhija.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_F_Sukhija.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Nitin Sukhija, Slippery Rock University of Pennsylvania</h3>
   <p>Associate Professor in Department of Computer Science and Director of Center for Cybersecurity and Advanced Computing (C2AC)</p>
@@ -78,9 +78,9 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_Fell_Vahi.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_F_Vahi.jpg' class='logo' />
 </div>
- 
+
 <div class='short_bio'>
   <h3>Karan Vahi, USC Information Sciences Institute</h3>
   <p>Senior Computer Scientist</p>
@@ -93,7 +93,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_Bratt.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_HM_Bratt.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -101,11 +101,11 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
   <p>Ph.D. Student, School of Information Studies</p>
 </div>
 </div>
- 
+
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_Godoy.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_HM_Godoy.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -117,7 +117,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_Johnson-matthews.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_HM_Johnson-matthews.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -128,7 +128,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_Jones.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_HM_Jones.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -139,7 +139,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_Mudafort.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_HM_Mudafort.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -150,7 +150,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE) 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_2201_HM_Wu.jpg' class='logo' />
+<img src='../../images/Blog_BSSwF_2022_HM_Wu.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>

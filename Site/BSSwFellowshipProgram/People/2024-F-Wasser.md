@@ -4,7 +4,7 @@
 
 **Affiliation:** pyOpenSci
 
-**Image:** /images/People-2024-F-Wasser.jpg
+**Image:** /images/People_2024_F_Wasser.jpg
 
 **URL:** https://www.leahwasser.com
 

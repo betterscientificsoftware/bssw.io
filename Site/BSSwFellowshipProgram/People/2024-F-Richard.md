@@ -4,7 +4,7 @@
 
 **Affiliation:** Ames National Laboratory
 
-**Image:** /images/People-2024-F-Richard.jpg
+**Image:** /images/People_2024_F_Richard.jpg
 
 **URL:** https://rmrresearch.github.io/
 
