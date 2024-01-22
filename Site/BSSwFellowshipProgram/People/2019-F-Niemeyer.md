@@ -4,7 +4,7 @@
 
 **Affiliation:** Oregon State University
 
-**Image:** /images/People_2019_F_Neimeyer.jpg
+**Image:** /images/People_2019_F_Niemeyer.jpg
 
 **URL:** https://niemeyer-research-group.github.io
 
