@@ -1,7 +1,7 @@
 # Discontinuing a Research Software Project
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: December 4, 2023
+#### Publication date: January 22, 2024
 
 <!--deck text start-->
 A software (research) project can be discontinued in a way that allows stakeholders a smooth transition, the mining of lessons learned and useful subcomponents, and even to pick the project back up again if desired.
@@ -177,5 +177,5 @@ Publish: yes
 Track: how to
 Pinned: no
 Topics: projects and organizations, funding sources and programs, reproducibility, software sustainability
-RSS updaate: 2023-12-04
+RSS updaate: 2024-01-22
 --->
