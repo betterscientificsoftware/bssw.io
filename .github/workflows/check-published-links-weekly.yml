@@ -1,11 +1,11 @@
 name: Check URLs
 
 on:
+  workflow_dispatch:  # Allows manual triggering
   schedule:
     - cron: '17 5 * * 0' # 5:17 AM every Sunday
   pull_request:
     branches: [ main ]
-  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   check-urls:
