@@ -1,26 +1,45 @@
-name: Check published links weekly
+name: Check URLs
+
 on:
   schedule:
-    # 5:17 AM every Sunday
-    - cron: '17 5 * * 0'
-  # Allow for manually running also.
-  workflow_dispatch:
+    - cron: '17 5 * * 0' # 5:17 AM every Sunday
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
-
-  urlcheck:
-
-    if: github.repository_owner == 'betterscientificsoftware'
-
+  check-urls:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout Repository
+      uses: actions/checkout@v3
 
-    - name: URL Checker
+    - name: Get Changed Files (for PRs)
+      id: changed-files
+      if: ${{ github.event_name == 'pull_request' }}
+      uses: tj-actions/changed-files@v42
+      with:
+        files: **/*.md
+        files_ignore: |
+          docs/_config.yml
+          **/.github/**
+          **/utils/**
+          **/docs/**
 
+    - name: Generate list of selected files to URL check 
+      id: file-list
+      run: |
+        if [ "${{ github.event_name }}" = "pull_request" ]; then
+          echo "::set-output name=files::${{ steps.changed-files.outputs.all_changed_files }}"
+        else
+          echo "::set-output name=files::$(find . -name .github -prune -false -o -name utils -prune -false -o -name docs -prune -false -name '*.md')"
+        fi
+
+    - name: Check URLs in selected files
       uses: urlstechie/urlchecker-action@0.0.34
       with:
+
         # A comma-separated list of file types to cover in the URL checks
         file_types: .md
 
@@ -39,5 +58,9 @@ jobs:
         # Exclude these patterns from the checker
         exclude_patterns: http://localhost:4000,https://preview.bssw.io,https://github.com/<your-github-handle>
 
-        # Exclude these files from the checker
-        exclude_files: docs/_config.yml,.github,utils,docs,Events
+        # Operate only on the specific list of files selected above
+        include_files: "${{ steps.file-list.outputs.files }}"
+
+# Description:
+# 5:17 AM every Sunday
+# Allow for manually running also.
