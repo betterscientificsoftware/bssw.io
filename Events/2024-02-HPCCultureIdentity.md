@@ -23,7 +23,7 @@ Issues and questions to be addressed in HPC are sufficiently complex and nuanced
 
 ### Presenter
 
-Denice Ward Hood is the Director of the Center for Culturally Responsive Evaluation and Assessment (CREA) at the University of Illinois, Urbana-Champaign and a Teaching Professor in the Department of Education Policy, Organization & Leadership in the College of Education. From 2016-2019, she served as the Director of Online Programs in the College of Education. Dr. Hood was also the Director of Graduate Studies in the EPOL department, 2016-2018. From 2016 – 2019, she was the faculty coordinator for the Diversity and Equity in Education degree program. Dr. Hood has over 30 years of experience in program evaluation, learning outcomes assessment, and social science research, particularly within higher education.
+Denice Ward Hood is the Director of the Center for Culturally Responsive Evaluation and Assessment (CREA) at the University of Illinois, Urbana-Champaign and a Teaching Professor in the Department of Education Policy, Organization & Leadership in the College of Education. From 2016-2019, she served as the Director of Online Programs in the College of Education. Dr. Hood was also the Director of Graduate Studies in the EPOL department, 2016-2018. From 2016–2019, she was the faculty coordinator for the Diversity and Equity in Education degree program. Dr. Hood has over 30 years of experience in program evaluation, learning outcomes assessment, and social science research, particularly within higher education.
 
 Dr. Hood’s courses include College Student Development, The College Student, Introduction to Diversity and Equity, Testing and Measurement, Student Affairs Administration, Program Evaluation, Race, Gender and Sexuality Issues, and several doctoral research seminars.
 
@@ -31,9 +31,7 @@ Her engagement in the professional community includes serving as the president o
 
 Dr. Hood completed a bachelor’s degree in Psychology from Northern Illinois University and a master’s degree in Educational Psychology from the University of Illinois Urbana-Champaign. She earned her PhD in Educational Psychology from Arizona State University.
 
-
-
 <!---
 Publish: yes
-Topics: HPC Workfor Development 
+Topics: Online learning, Strategies for more effective teams, inclusivity 
 --->
