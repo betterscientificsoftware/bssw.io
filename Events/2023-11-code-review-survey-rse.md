@@ -2,9 +2,9 @@
 
 #### Contributed by: [Md Ariful Islam Malik](https://github.com/arifulmalik)
 
-#### Publication date: November 22, 2023
+#### Publication date: January 24, 2024
 
-- Closing Date: December 31, 2023
+- Closing Date: February 2, 2024
 - Location: Online
 - Website: https://universityofalabama.az1.qualtrics.com/jfe/form/SV_3Jz2d6Ex2jLcDY2
 - Organizers: Jeffrey C. Carver, Nasir U. Eisty, and Md Ariful Islam Malik
