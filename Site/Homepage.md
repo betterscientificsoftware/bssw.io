@@ -9,10 +9,10 @@ Slide2 L: ../Articles/Blog/DiscontinuingSoftwareProjects.md
 Slide2 R: ../CuratedContent/HowToWriteGitCommit.md
 Slide3 L: ../Articles/WhatIs/WhatIsInclusivity.md
 Slide3 R: ../Articles/Blog/2023-12-2024BSSwFellowshipAnnounce.md 
-Slide4 L: ../images/Blog2312_SoR.png
-Slide4 R: ../Articles/Blog/2023-12-ucsc-sor.md 
+Slide4 L: ../Events/hirse-025-2024-02.md
+Slide4 R: ../Events/2024-02-HPCCultureIdentity.md
 Slide5 L: ../Events/ATPESC2024.md 
-Slide5 R: ../Events/2024-04-s3c-conference.md 
+Slide5 R: ../Events/2023-11-code-review-survey-rse.md
 --->
 
 <!---
