@@ -15,7 +15,7 @@ All BSSw.io resources have the following three sections, in common:
 
 The following image shows the deck and main body of a resource. Metadata section is not seen on the main site.
 
-- <img src='https://github.com/betterscientificsoftware/images/raw/master/documentation-common-elements-small.jpg'/>
+- <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/documentation-common-elements-small.jpg'/>
 
 Following is a description of the common elements.
 
@@ -23,7 +23,7 @@ Following is a description of the common elements.
 The deck is the top shaded portion of the article. The elements of the deck are mostly the same across all the BSSw.io content types but with a few variations. The deck has two parts: (1) deck text/image and (2) deck attributes.
 
 ### Deck Text/Image
-Most content types will have  the deck text, which is usually couple of lines highlighting the article. For curated content and events, deck text contains a two-sentence descriptive text about the resource. Some content types, such as original content, may have a deck image instead of the deck text, as described in the [original article styling](bssw_styling_originalarticles.html) section.
+Most content types will have  the deck text, which is usually couple of lines highlighting the article. For curated content and events, deck text contains a two-sentence descriptive text about the resource. Some content types, such as blog content, may have a deck image instead of the deck text, as described in the [blog styling](bssw_styling_originalarticles.html) section.
 
 Following is some general guidance for deck text:
 - Please add comments around deck text in the source file, as shown below: 
@@ -43,9 +43,9 @@ The deck section, of every content type, will *always* contain the following *ma
 However, the different content types may have additional *content-specific deck attributes* as well. Please refer to the styling guides for each content type for these content-specific deck attributes.
 
 #### Deck Title
-A deck title should be simple and straighforward.
+A deck title should be simple and straightforward.
 * The title of the article also becomes a portion of the article URL (as of Apr 2020); hence changing the title after publishing it is strictly discouraged.
-* Conjuctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
+* Conjunctions and Prepositions, used in the title, should be lowercase. Every other word should be sentence-case.
 
 #### Contributor Name
 This is name of the contributor/author/organizer. This contains the full name of the contributor and a URL, usually to the github profile, of the contributor. In the source file, please use the following format: 
@@ -59,10 +59,16 @@ These indicate which BSSw.io topic areas the article belongs to. The most up-to-
 ## Main Body Section
 The main body is the portion of the article below the deck. BSSw.io uses [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for writing content. The elements of the main body differ based on content type. The main body should explain the content from the perspective of the CSE community. There may be image file (e.g., logo, relevant diagram, science image) in the body text, although these are optional (but encouraged when this exists). Please read *styling rules* for individual types of content.
 
+
+## Handling DOI/ISBN/URL/Links to Resources
+When citing or referring to resources such as articles, publications, slides, videos, software, and books, it is recommended to use and link to Digital Object Identifiers (DOIs) whenever possible. Including a DOI is important if available, and it should be preferred over links to specific publisher, journal, or conference sites. For books, in addition to DOIs, you can also use ISBNs (unique identifiers for books). In cases where a DOI does not exist for a resource, alternative links or URLs can be used.
+
+When utilizing DOIs, it is appropriate to mention "doi.org" or "dx.doi.org" (which serves as a DOI resolver) instead of referring to the hosting site, such as ACM or IEEE. Here's an example of a DOI link: https://doi.org/10.1145/103162.103163. Please ensure to follow these guidelines to maintain proper documentation practices and facilitate easy access to the cited resources.
+
 ## Handling absolute and relative links/URLs
 Several times, BSSw.io content will contain links to resources which are hosted in the bssw.io site itself. Such links are treated as internal links and they should be relative and should point to the actual ".md" file. They should not point to the absolute URL of the linked article on the bssw.io site.
 
-- Example: If one refers to an article called foo.md, it should be refered to as something like  "../../blog/foo.md" (depending on the relative location in the github reposity) rather than absolute (which is the URL on the bssw.io site and may perhaps be something like https://bssw.io/items/some-words-indicating-title-of-linked-article.html)
+- Example: If one refers to an article called foo.md, it should be referred to as something like  "../../blog/foo.md" (depending on the relative location in the github repository) rather than absolute (which is the URL on the bssw.io site and may perhaps be something like https://bssw.io/items/some-words-indicating-title-of-linked-article.html)
 
 When bssw.io content contains links to resources which are hosted external to the bssw.io website, then those links have to be the absolute URL. 
 
@@ -94,7 +100,7 @@ Images for bssw.io content are stored in the main `bssw.io` repository in the `i
 
 ### Hero images
 
-Only blog articles use heros. 
+Only blog articles use heroes. 
 The hero immediately follows the title in the article's `*.md` file:
 
 ```
@@ -105,9 +111,9 @@ The hero immediately follows the title in the article's `*.md` file:
 
 - Blog articles must have *either* a hero image or deck text.
 
-- Hero image captions: Many images are illustrative and self-explanatory or have tangential relevance to the article (e.g. data visualization) so a caption is unnecessary. With images that benefit from descriptions that provide insight into the BSSw activities or the rigorousness of the science we have added a sentence of text. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2020-11-PSIP4HDF5.md> (source) and <https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5> (rendered).
+- Hero image captions: Many images are illustrative and self-explanatory or have tangential relevance to the article (e.g. data visualization) so a caption is unnecessary. With images that benefit from descriptions that provide insight into the BSSw activities or the rigorousness of the science we have added a sentence of text. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/2020-11-PSIP4HDF5.md> (source) and <https://bssw.io/blog_posts/recent-successes-with-psip-on-hdf5> (rendered).
 
-- Hero image credits: We've come up with a way to lead the article but not detract from the lede paragraph by leading body text with image credits but shrinking them with a superscript tag. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/2021-03-useful-practices-for-SEoMsDSP.md> (source) and <https://bssw.io/blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects> (rendered).
+- Hero image credits: We've come up with a way to lead the article but not detract from the lede paragraph by leading body text with image credits but shrinking them with a superscript tag. For an example, see <https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/2021-03-useful-practices-for-SEoMsDSP.md> (source) and <https://bssw.io/blog_posts/useful-practices-for-software-engineering-on-medium-sized-distributed-scientific-projects> (rendered).
 
 ### Body images
 
@@ -145,7 +151,7 @@ Certain content types on [bssw.io](https://bssw.io) do not require formal refere
 
 * Content that in the judgment of EB members and/or authors requires references to more fully support perhaps sensitive and/or controversial positions (e.g. the Covid19 article).
 
-The decision to *allow* or *require* references is one that should be agreed upon by the author and EB members prior to developing the content. When references are to be used, we require authors to use the less intrusive [reference links](https://www.markdownguide.org/basic-syntax#reference-style-links) ([full spec](https://github.github.com/gfm/#reference-link)) and to follow the guidelines described [here](bssw_wikize_refs.html) where the [`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/master/utils/README.md#wikize_refspy) tool can be helpful.
+The decision to *allow* or *require* references is one that should be agreed upon by the author and EB members prior to developing the content. When references are to be used, we require authors to use the less intrusive [reference links](https://www.markdownguide.org/basic-syntax#reference-style-links) ([full spec](https://github.github.com/gfm/#reference-link)) and to follow the guidelines described [here](bssw_wikize_refs.html) where the [`wikize_refs.py`](https://github.com/betterscientificsoftware/bssw.io/blob/main/utils/README.md#wikize_refspy) tool can be helpful.
 
 ## Nonstandard handling of Markdown
 
@@ -184,7 +190,7 @@ As [detailed above](#handling-images), bssw.io uses different syntax for images.
 
 ## Updating/re-publishing published articles
 
-Articles that are already published and are current public may sometimes need to be updated. Minor updates such as grammar/spellings/errors/formatting can be done anytime. If you wish to make siginificant updates to the articles (for ex: new updates links, new content etc.) OR if you simply wish to bring the article into focus again with a new publish date, then please mention the following verbiage at the *end of the article*.
+Articles that are already published and are current public may sometimes need to be updated. Minor updates such as grammar/spellings/errors/formatting can be done anytime. If you wish to make significant updates to the articles (for ex: new updates links, new content etc.) OR if you simply wish to bring the article into focus again with a new publish date, then please mention the following verbiage at the *end of the article*.
 
 ```
 This article was originally published on Month day, year

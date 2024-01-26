@@ -27,8 +27,8 @@ the screen.
 The next best action you can take for your vision is to have your eyes regularly examined by a medical
 professional: an ophthalmologist or an optometrist. Both perform eye exams, but an ophthalmologist is a
 medical doctor (MD) with additional years of medical training, including an internship and a residency in
-opthalmology. If you are fortunate enough to have vision insurance, take advantage of it.
-Many programs cover annual vision exams and many employers cover perscription _computer glasses_. Also, be aware that
+ophthalmology. If you are fortunate enough to have vision insurance, take advantage of it.
+Many programs cover annual vision exams and many employers cover prescription _computer glasses_. Also, be aware that
 [_computer glasses_](http://lifehacker.com/5980509/do-computer-glasses-really-work)
 are different from _reading glasses_. The distance the eyes have to focus on a computer screen is farther than the
 distance for reading, so ordinary reading glasses may not work well for computer work.
@@ -60,10 +60,7 @@ Take frequent breaks to briefly rest your eyes. A common best practice is the [_
 
 <!---
 Publish: Yes
-Categories: skills
+Pinned: no
+Track: how to
 Topics: Personal productivity and sustainability
-Tags: bssw-article
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

@@ -37,10 +37,7 @@ Ultimately, when it comes to scientific discovery, any defined process can go on
 <!---
 Publish: Yes
 RSS update: 2018-08-15
-Categories: Reliability
+Pinned: no
+Track: experience
 Topics: testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->

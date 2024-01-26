@@ -3,7 +3,7 @@
 
 **Hero Image:**
 
- - <img src='https://github.com/betterscientificsoftware/bssw.io/blob/master/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data, see image credit below.]
+ - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_2109_SX_OmicronA.png' />[Omicron spectrogram of LIGO-Livingston detector’s data, see image credit below.]
   
 #### Contributed by: [Kate Keahey](https://github.com/keahey) and [Rinku Gupta](https://github.com/rinkug) 
 #### Publication Date: September 28, 2021
@@ -46,6 +46,7 @@ Kate Keahey is one of the pioneers of infrastructure cloud computing. She create
 
 <!---
 Publish: yes
+Track: experience
 Pinned: no
 Topics: Software Engineering, Software Publishing and Citation
 RSS update: 2021-09-28

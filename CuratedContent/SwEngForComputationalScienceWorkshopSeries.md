@@ -3,7 +3,7 @@
 Are you looking for more resources regarding computational science? This site provides a series of software engineering workshops focused on computational science (and HPC).
 <!-- deck text end -->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: May 15, 2019
 
 Resource information | Details 

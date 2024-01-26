@@ -188,11 +188,8 @@ M. Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing e
 
 <!---
 Publish: yes
+Track: community
 RSS update: 2019-10-15
-Categories: Collaboration
 Topics: Software publishing and citation, peer code review
-Tags: bssw-blog-article
-Level: 1
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

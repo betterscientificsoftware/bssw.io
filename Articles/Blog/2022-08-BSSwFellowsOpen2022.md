@@ -47,7 +47,7 @@ Better Scientific Software is an organization dedicated to improving developer p
 - And more!  [Check out how each of our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
 
 ### Author bio
-Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s current research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s current research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  
 **The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**
 
 <div class='fellow'>
@@ -62,6 +62,7 @@ Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS
  
 <!---
 Publish: yes
+Track: bssw fellowship
 Pinned: no
 Topics: Funding sources and programs, projects and organizations
 RSS update: 2022-08-15

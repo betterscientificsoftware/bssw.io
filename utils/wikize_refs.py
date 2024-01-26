@@ -3,7 +3,7 @@
 # run ./wikize_refs.py --help for documentation
 
 from shutil import copyfile
-import re, os
+import os, re, sys
 
 try:
     # python2
@@ -32,11 +32,17 @@ to the end of the file.
 
 The new links are bi-level. Footnotes in the content link to
 entries in a visible list of references appended to the end of the
-document. Items in the list of references link off-page to their
+visible content. Items in the list of references link off-page to their
 intended destinations. The resulting file is still GitHub flavored
 Markdown with a minimal amount of embedded HTML.
 
+To create just simple, ordinary footnotes (e.g. not reference style
+links) using the same machinery, simply ensure the URL portion of the
+reference link is just the hashtag/pound character ('#') and then
+be sure to enclose the footnote text in double quotes.
+
 If the file contains no footnotes, it will be left unchanged.
+
 Some minimal error checks include: a) there is an existing link
 definition for every footnote and b) every link definition appears
 in at least one footnote. It will also check that links are valid,
@@ -47,12 +53,13 @@ error. Otherwise only warning messages are produced.
 
 Ordinarily, the input file is never changed. However, with the -i
 option, the changes are applied *in place* meaning the input file
-is indeed modified. In that cases, some of the options here are
+is indeed modified. In that case, some of the options here are
 *irreversible* in that the file is changed in ways not easy to
-reverse. Those are noted.
+reverse. Those options are noted.
 
 Repeated application of this tool to the same file should result
-in no changes.
+in no changes. This behavior is useful in CI, together with the -u
+option, to confirm a proposed file with wikized references is up to date.
 
 To process a file...
 
@@ -92,11 +99,6 @@ def parse_args():
                       action="store_true",
                       help="Warn instead of exit during (most) error checks.")
 
-    parser.add_argument("-i", "--in-place",
-                      default=False,
-                      action="store_true",
-                      help="Modify input file in-place (irreversible).")
-
     parser.add_argument("-o", "--outfile",
                       default=None,
                       help="Specify an output file name. If none specified, will \
@@ -108,17 +110,6 @@ def parse_args():
                       action="store_true",
                       help="Disable creation of backup file appended with ~")
 
-    parser.add_argument("-c", "--check-links",
-                      type=int, default=0,
-                      help="Specify a timeout>0 in seconds for checking for broken links. \
-                      Note: using this option does require network access to confirm URLs \
-                      actually work.")
-
-    parser.add_argument("-g", "--gather-linkdefs",
-                      default=False,
-                      action="store_true",
-                      help="Gather all link definitions to the end of the file (irreversible).")
-
     parser.add_argument("-l", "--linkdef-db",
                       type=str, default=None,
                       action="append",
@@ -127,14 +118,30 @@ def parse_args():
                             used linkdefs will be copied from that file to the file being \
                             processed here. Multiple -l options are allowed.")
 
-    parser.add_argument("-t", "--two-column",
+    parser.add_argument("-c", "--check-links",
+                      type=int, default=0,
+                      help="Specify a timeout>0 in seconds for checking for broken links. \
+                      Note: using this option does require network access to confirm URLs \
+                      actually work.")
+
+    parser.add_argument("-u", "--up-to-date",
                       default=False,
                       action="store_true",
-                      help="Output refs as two-column, pure-html instead of single column GFM.")
+                      help="Check if a file's refs are up to date. Return non-zero if so.")
+
+    parser.add_argument("-i", "--in-place",
+                      default=False,
+                      action="store_true",
+                      help="Modify input file in-place (irreversible).")
 
     parser.add_argument("-r", "--renumber",
                       type=int, default=0,
                       help="Renumber references starting from specified value > 0 (irreversible).")
+
+    parser.add_argument("-g", "--gather-linkdefs",
+                      default=False,
+                      action="store_true",
+                      help="Gather all link definitions to the end of the file (irreversible).")
 
     parser.add_argument("mdfile")
 
@@ -193,7 +200,7 @@ def valid_url(x):
     except:
         return False
 
-# It would be best to test the link without actually downlading
+# It would be best to test the link without actually downloading
 # the webpage. In theory, that requires a HEAD request and for
 # typical webpages, requesting *just* the HEAD instead of the
 # whole webpage isn't necessarily a big win.
@@ -299,7 +306,6 @@ def is_link_def_line(mdfl):
     if ref_url.startswith('#%s'%magic()):
         return None
 
-
     return [ref_hdl, ref_url, ref_tit, ref_bib]
 
 def gather_and_classify_file_lines(filename):
@@ -378,7 +384,7 @@ def gather_and_classify_file_lines(filename):
     return lines
 
 def gather_fn_handles(file_lines):
-    """Gets all footnote references occuring in content file lines."""
+    """Gets all footnote references occurring in content file lines."""
     fn_handles = set()
     for k in sorted(file_lines):
 
@@ -417,27 +423,47 @@ def gather_fn_handles(file_lines):
 
 def build_ref_map(file_lines):
     """builds a map keyed by footnote handle with value
-       [url, title, biblio, re-numbered-id]"""
+       [url, title, biblio, index-in-map]"""
     ref_map = {}
-    for k in sorted(file_lines):
+    has_basic_footnotes = False
+    for phase in 1,2: 
+        for k in sorted(file_lines):
 
-        if file_lines[k]['type'] != 'linkdef':
-            continue
+            if file_lines[k]['type'] != 'linkdef':
+                continue
 
-        mdfparts = file_lines[k]['linkdef']
-        if len(mdfparts) != 4:
-            message("Improperly parsed link definition at line %d"%k)
-            continue
+            mdfparts = file_lines[k]['linkdef']
+            if phase == 1 and len(mdfparts) != 4:
+                message("Improperly parsed link definition at line %d"%k)
+                continue
 
-        ref_hdl, ref_url, ref_tit, ref_bib = mdfparts
-        if ref_hdl in ref_map:
-            message("Repeated reference handle %s at line %d"%(ref_hdl,k))
-            continue
+            ref_hdl, ref_url, ref_tit, ref_bib = mdfparts
+            if phase == 1 and ref_hdl in ref_map:
+                message("Repeated reference handle %s at line %d"%(ref_hdl,k))
+                continue
 
-        ref_map[ref_hdl] = [ref_url, ref_tit, ref_bib]
-        ref_map[ref_hdl].append(len(ref_map))
+            #
+            # Handle only basic footnotes in phase 1 and only full
+            # references in phase 2. This ensures that basic footnotes
+            # have numerically smaller map-index entries than full
+            # references.
+            #
+            if phase == 1 and ref_url != '#':
+                continue
+            if phase == 2 and ref_url == '#':
+                continue
 
-    return ref_map
+            if phase == 1:
+                has_basic_footnotes = True
+
+            #
+            # Each ref_map entry is a 4 item list of the form
+            #     [url, title, bibinfo, map-index]
+            #
+            ref_map[ref_hdl] = [ref_url, ref_tit, ref_bib]
+            ref_map[ref_hdl].append(len(ref_map))
+
+    return ref_map, has_basic_footnotes
 
 def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
     """
@@ -501,7 +527,7 @@ def resolve_missing_refs(missing_refs, ref_map, lddbs):
 
     for lddb in lddbs:
         file_lines = gather_and_classify_file_lines(lddb)
-        lddb_ref_map = build_ref_map(file_lines)
+        lddb_ref_map, hbfn = build_ref_map(file_lines)
 
         found_refs = []
         for x in missing_refs:
@@ -516,6 +542,14 @@ def resolve_missing_refs(missing_refs, ref_map, lddbs):
     if missing_refs:
         message("Some footnotes never resolved by any linkdef databases...\n%s"%str(list(missing_refs)))
 
+#
+# What renumber means here when we are building the main content is whether to
+# use the footnote's original identifiers or to use their index in the ref_map
+# (which is entry 3 in each ref_map list) plus the 'renumber' (option) offset.
+# Later on, in build_reference_list_lines, if renumbering is active, we will
+# sort the lines before emitting them so they appear in their sorted order in
+# the visible reference list at the end of the article.
+#
 def build_main_content(file_lines, ref_map, renumber, gather_linkdefs):
     """
     Rebuilds the file lines possibly renumbering the footnotes
@@ -606,56 +640,52 @@ def build_intermediate_link_defn_lines(remapped_ref_map, renumber):
 
     return outlines
 
-def build_reference_list_lines(remapped_ref_map, renumber, twocol):
-    """Build (auto-gen'd) rendered list of references as either a single
-       column, pure markdown list or two-column, html list (with divs)."""
+def build_reference_list_lines(remapped_ref_map, renumber, has_basic_footnotes):
+    """Build (auto-gen'd) rendered list of references."""
     outlines = []
 
-    if remapped_ref_map:
-        outlines.append("<!-- (%s begin) -->\n"%magic())
-        outlines.append("### References\n")
-        outlines.append("<!-- (%s end) -->\n"%magic())
-        try: # Attempt to sort treating footnote labels as integers.
-            if renumber:
-                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[0]))
+    # First, assume just a single phase to output full references
+    phases = ['refs']
+
+    # If we have basic footnotes, then we have two phases
+    if has_basic_footnotes:
+        phases = ['bfns','refs'] # basic footnotes in first phase, full refs in 2nd
+
+    for phase in phases:
+
+        if remapped_ref_map:
+            outlines.append("<!-- (%s begin) -->\n"%magic())
+            if phase == 'bfns':
+                outlines.append("### Footnotes\n")
             else:
-                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
-        except: # If sorting as ints fails, sort "normally".
-            sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
-        i = 0
-        halfway = int(len(sorted_map) / 2)
-        if twocol:
-            outlines.append('<div class="references-wrapper">\n')
-            outlines.append('<div class="references">\n')
-        for k,v in sorted_map:
-            v3 = k+renumber-1 if renumber else v[3]
-            if v[1] and v[2]: # both title and bibinfo exist
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s<br>%s</a>\n"%(v3, magic(), v3, v[0], v[1], v[2]))
+                outlines.append("### References\n")
+            outlines.append("<!-- (%s end) -->\n"%magic())
+            try: # First, try to sort treating footnote identifiers as integers.
+                if renumber:
+                    sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[0]))
                 else:
+                    sorted_map = sorted(remapped_ref_map.items(), key=lambda item: int(item[1][3]))
+            except: # If sorting as ints fails, sort lexicographically.
+                sorted_map = sorted(remapped_ref_map.items(), key=lambda item: item[1][3])
+            i = 0
+            for k,v in sorted_map:
+                if phase == 'bfns' and v[0] != '#':
+                    continue
+                if phase == 'refs' and v[0] == '#':
+                    continue
+                v3 = k+renumber if renumber else v[3]
+                if v[1] and v[2]: # both title and bibinfo exist
                     outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
-            elif v[1]: # only title exists
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[1]))
-                else:
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
-            elif v[2]: # only bibinfo exists
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[2]))
-                else:
+                elif v[1]: # only title exists
+                    if v[0] == '#':
+                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>%s\n"%(magic(), v3, v3, v[1]))
+                    else:
+                        outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
+                elif v[2]: # only bibinfo exists
                     outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
-            else: # only url exists
-                if twocol:
-                    outlines.append("<sup>%s</sup><a name=\"%s-%s\" href=\"%s\">%s</a>\n"%(v3, magic(), v3, v[0], v[0]))
-                else:
+                else: # only url exists
                     outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
-            if twocol and i == halfway:
-                outlines.append('</div>\n')
-                outlines.append('<div class="references">\n')
-            i += 1
-        if twocol:
-            outlines.append('</div>\n')
-            outlines.append('</div>\n')
+                i += 1
 
     return outlines
 
@@ -666,7 +696,7 @@ def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place
         in_lines = inf.readlines()
         if str().join(out_lines) == str().join(in_lines):
             print("\"%s\" is up to date. No changes will be made."%in_filename)
-            return
+            return 2
 
     # don't make the backup if asked not to
     if in_place and not skip_backup:
@@ -676,6 +706,8 @@ def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place
     outfname = out_filename if out_filename else in_filename
     with open(outfname, 'w') as outf:
         outf.writelines(["%s" % line for line in out_lines])
+
+    return 1
 
 #
 # For basic design/operation, see usage notes (above)
@@ -689,7 +721,7 @@ def main(opts, mdfile):
     fn_handles = gather_fn_handles(file_lines)
 
     # Build a map of the references including their re-numbering
-    ref_map = build_ref_map(file_lines)
+    ref_map, has_basic_footnotes = build_ref_map(file_lines)
 
     # Do some error checking
     missing_refs = error_checks(file_lines, fn_handles, ref_map,
@@ -713,16 +745,17 @@ def main(opts, mdfile):
     if ref_map:
         out_lines.append("%s\n"%autogen_disclaimer())
     
-    # Build intermediate link definitions lines
+    # Build intermediate link definition lines
     remapped_ref_map = {v[3]:[v[0],v[1],v[2],k] for k,v in ref_map.items()}
     out_lines += build_intermediate_link_defn_lines(remapped_ref_map, opts['renumber'])
 
     # Build reference list lines
-    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'], opts['two_column'])
+    out_lines += build_reference_list_lines(remapped_ref_map, opts['renumber'],
+                     has_basic_footnotes)
 
     # Ok, now actually write the updated file
     flines = [file_lines[k]['line'] for k in sorted(file_lines)]
-    write_output_file(flines, out_lines, mdfile, opts['outfile'], opts['in_place'],
+    return write_output_file(flines, out_lines, mdfile, opts['outfile'], opts['in_place'],
         opts['skip_backup'])
 
 #
@@ -737,4 +770,10 @@ if __name__ == '__main__':
     # Initialize error mode
     errors_are_fatal(not opts['warn'])
 
-    main(opts, mdfile)
+    retval = main(opts, mdfile)
+
+    # Set right error state if we're checking if file is up to date
+    if opts['up_to_date'] and retval != 2:
+        sys.exit(1)
+
+    sys.exit(0)

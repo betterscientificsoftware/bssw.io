@@ -36,17 +36,43 @@ Deck text is usually a couple of lines about the event. No images are allowed in
 
 **Event-specific deck attributes** are seen right below the deck text. These event deck attributes customize different parts of the deck for the event content type.
 
-* **Date**: One can choose to enter the date or range of dates of the submisison deadline or event date.
-* **Location**: Use the word "Virtual" or name of physical location
-* **Event Website**: URL to the main event website
+* **Location**: Use the physical location (City, State or City, Country) for in-person events and the term "online" for events being held online.  For hybrid events use the physical location "and online".
+  	* *Example*: `Location: Knoxville, TN` OR `Location: Online` OR `Location: Knoxville, TN and online`
+* **Event Website**: URL to the main event website.
+  	* *Example*: `Event Website: https://us-rse.org/rse-hpc-2020`
 * **Organizers**:  Name of the organizers (This field is usually used for webinars/tutorials/panels (and not for conferences/workshops))
+  	* *Example*: `Organizers: Foo`
+* **Dates for the Event**: We allow for flexibility while specifying dates for an event. Following are some general guidelines:
+	* The website allows specifying multiple dates related to any given event.
+	* Each date entry in the list is identified by a key, which serves as a label indicating the "type" of date in the events listing. Common examples include "Submission Deadline," "Survey Closing Date," and "Event Date" (referring to the date(s) of the event itself).
+	* The [event listing](https://bssw.io/events) will continue to showcase the event until all scheduled dates have concluded. For instance, once the "Submission deadline" has passed, the same event will still appear in the listing for "Event Dates" or any other relevant dates until the entire schedule is completed.
+ 	* The website will present all pertinent dates in the deck section of individual events. However, in the event listing, only the upcoming label and date will be visible.
+  	* The site accommodates both start/end date ranges and multiple dates separated by semicolons.
+	* Date ranges may occur, and in such instances, redundant display of the same month and year is eliminated wherever feasible. When an event spans across months, the month is specified for each date, while the year is mentioned only once. In cases where an event spans multiple years, both the months and years are indicated.
+	* Site allows flexibility in how to label the dates. All labels are case insensitive. 
+	* Label names with earlier start date are considered and if there is a duplicate label name with later start date, it is ignored.
+	* The label "Event date" holds a distinct significance in its parsing. It indicates the timing of the main event and is typically (though not always) presented as the initial date in the individual event post. The author has the option to specify either "Event date" or "Event dates" in the source, and both are treated equivalently. If the "Event date/Event dates" label has a singular date as its value, the site will exhibit the label name "Event date" in both the event listing and individual event post. In the case of a date range, the site will showcase the label name "Event dates" in both the event listing and individual event post.
+	*  In the individual event post, the labels and dates are displayed in ascending order, _usually_. Sometimes "event date/event dates"  is displayed first (unclear is what circumstances, will be debugged later).
+	* Any new labels where value is not a date are ignored.
+   	* Internally, the site applies a [date parsing library](https://github.com/mojombo/chronic) for dates.
+ 
+	Following are some examples:
 
-Example:
-   * `Date: November 16, 2020` OR `Date: July 21, 2020 - July 23, 2020`
-   * `Location: Online`
-   * `Event Website: https://us-rse.org/rse-hpc-2020`
-   * `Organizers: Foo`
-
+	1. When an event happens on one specific date and there are no other dates/deadlines in the event source file.
+	     * *Example*: `Event Dates: February 16, 2023`
+	     * See  event *2023 ECP Community BOF for BSSw Fellowship*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-ECP23-BOF-BSSw-fellowship.md) | [BSSw.io](https://bssw.io/events/2023-ecp-community-bof-for-bssw-fellowship)
+	   
+	2. When an event is spanning a date range:
+		* *Example*: `Event Dates: February 26 - March 3, 2023`
+		* See  event *SIAM CSE23 Software-Related Events*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-02-siam-cse23.md) | [BSSw.io](https://bssw.io/events/siam-cse23-software-related-events). The [BSSw.io event listing page](https://bssw.io/events) will display the label and date range.
+  	          
+	3. When the same event occurs periodically OR on multiple non-consecutive days, enter each date specifically as shown below:
+		* *Example*: `Event Dates: Apr 20, 2023; May 18, 2023; Jun 15, 2023; Jul 20, 2023; Aug 17, 2023; Sep 21, 2023;`
+		* See  event *Leadership Scientific Software Town Hall Meetings (Series)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/LeadershipScientificSoftwareTownHallMeetings.md) | [BSSw.io](https://bssw.io/events/leadership-scientific-software-town-hall-meetings-series)
+           
+	5. An event may have different types of deadlines.  Some common deadline could be `Closing Date` for surveys, or `Submission Deadline` for registration, `Abstract Deadline` for abstracts.
+		* *Example*: See  event *United States Research Software Engineer Association Conference 2023 (US-RSE'23)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/2023-usrse-conf.md) | [BSSw.io](https://bssw.io/events/united-states-research-software-engineer-association-conference-2023-us-rse-23).
+		
 
 ## Main Body Section
 ### General Guidelines
@@ -81,8 +107,8 @@ Links to the Recordings and Archives  | Please do not use words like TBD here; p
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
 
-   * *Research Software Engineers in HPC Workshop (RSE-HPC-2020)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.RSE-HPE2020.md) | [BSSw.io](https://bssw.io/events/research-software-engineers-in-hpc-workshop-rse-hpc-2020)
-   * *2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/Workshop.SE4Science21.md) | [BSSw.io](https://bssw.io/events/2021-international-workshop-on-software-engineering-for-computational-science-se4science-21)
+   * *Research Software Engineers in HPC Workshop (RSE-HPC-2020)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/Workshop.RSE-HPE2020.md) | [BSSw.io](https://bssw.io/events/research-software-engineers-in-hpc-workshop-rse-hpc-2020)
+   * *2021 International Workshop on Software Engineering for Computational Science (SE4Science'21)*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/Workshop.SE4Science21.md) | [BSSw.io](https://bssw.io/events/2021-international-workshop-on-software-engineering-for-computational-science-se4science-21)
 
 ##### Non-submission based Events (Webinars/Panels/Tutorials/Others)
 
@@ -99,8 +125,8 @@ Please add more rows to the table (if you absolutely must). Please do not add em
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
     
-   * *Webinar: Testing and Code Review Practices in Research Software Development*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/hpcbp-044-testingpractices.md) | [BSSw.io](https://bssw.io/events/webinar-testing-and-code-review-practices-in-research-software-development)
-   * *Strategies for Working Remotely: Making the transition to virtual software teams*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/Events/panel.RemoteWorking0520.md) | [BSSw.io](https://bssw.io/events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams)
+   * *Webinar: Testing and Code Review Practices in Research Software Development*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/hpcbp-044-testingpractices.md) | [BSSw.io](https://bssw.io/events/webinar-testing-and-code-review-practices-in-research-software-development)
+   * *Strategies for Working Remotely: Making the transition to virtual software teams*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/Events/panel.RemoteWorking0520.md) | [BSSw.io](https://bssw.io/events/strategies-for-working-remotely-making-the-transition-to-virtual-software-teams)
 
 #### 3. Additional Information
 You can add additional information in this section. If you create sections, please remember to start your first level headings with `###`.

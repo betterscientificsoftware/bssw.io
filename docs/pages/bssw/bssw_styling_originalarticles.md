@@ -1,5 +1,5 @@
 ---
-title: Original Articles Specific Styling Guidelines
+title: Original Articles (Blog) Specific Styling Guidelines
 sidebar: bssw_sidebar
 permalink: bssw_styling_originalarticles.html
 ---
@@ -8,22 +8,17 @@ permalink: bssw_styling_originalarticles.html
 
 All GitHub file names for BSSw.io articles should follow the naming conventions laid out [here](https://betterscientificsoftware.github.io/bssw.io/bssw_file_naming.html).
 
-An original article can highlight the following 2 types of resources: **(1) Blogs, (2) Short article.**
-
-The main part of the original article consists of the (1) Deck, (2) Main body of the article and (3) Metadata. 
+The main part of the original article (original articles are also called a blog) consists of the (1) Deck, (2) Main body of the article and (3) Metadata. 
 
 ## Deck Section
-As we know, all BSSw.io resources have decks and the deck has two parts: (1) deck text and (2) deck attributes. Following is guidance for "original articles" and their decks.
+All BSSw.io resources have decks and the deck has two parts: (1) deck text/image and (2) deck attributes. Following is guidance for the deck area for blogs.
 
 ### Deck text/image
-Original articles may have deck text and/or deck images. Deck text is usually a couple of lines about the event. Deck images creation is out-sourced by the BSSw.io team (for now). They are however added to articles, only after approval has been obtained from the authors.
- * Blogs *usually* have deck images and no deck text. 
- * Short articles *usually* have deck text. 
+Blogs may have deck text OR deck images, but not both. Deck text is usually a couple of lines about the event. Deck images creation is out-sourced by the BSSw.io team (for now). They are however added to articles, only after approval has been obtained from the authors.
  * For guidance on the deck text, please see [common layout section](bssw_styling_common.html) of the guide.
- * Having deck text and a deck image in an original article are mutually exclusive.
-      * A way to approximate having both is to have the deck image and then put the deck as your first (short) paragraph after the image and italicize it.
+ * Having deck text and a deck image in a blog are mutually exclusive. A way to approximate having both is to have the deck image and then put the deck as your first (short) paragraph after the image and italicize it.
  * Please note that many times in the BSSw.io literature the deck image is also called as hero image.
- * Images for content are stored under the `images/` directory in the main `bssw.io` repository. To reference the images in the article, we put in a relative path (see [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/images/README.md)).
+ * Images for content are stored under the `images/` directory in the main `bssw.io` repository. To reference the images in the article, we put in a relative path (see [images/README.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/images/README.md)).
  * There are some formatting tips described below for the deck images.
    - The formatting to include a deck/hero image is a bit finicky.
       * The `**Hero Image:**` tag must be followed by a blank line
@@ -35,7 +30,11 @@ Original articles may have deck text and/or deck images. Deck text is usually a 
 
 Mandatory deck attributes (such as Deck title, Contributor name, BSSw Topics) are part of deck for all BSSw.io content. Please see [common layout section](bssw_styling_common.html) of the guide for the mandatory deck attributes.
 
-In addition to above, there exists a original content-specific deck attribute called Deck publication date. **Deck Publication date** is the date when the content was published on BSSw.io. In the source file, please use the following format:
+In addition to above, there exists a blog-specific deck attribute called Deck track and  publication date. 
+
+**Deck track** refers to the *track* to which the blog belongs. In the source file, the *track* for the article can be indicated in the *[metadata section](bssw_content_metadata.html#track)* of the article. You can see a list of current tracks, supported by BSSw.io, in [metadata section](bssw_content_metadata.html#track) of this site.
+
+**Deck Publication date** is the date when the content was published on BSSw.io. In the source file, please use the following format:
 ````
 #### Publication date: Month DD, YYYY
 ````
@@ -44,8 +43,8 @@ In addition to above, there exists a original content-specific deck attribute ca
 
 ### General guidelines
 * The content of the article is free-flowing.
-* General guidance is 250-500 words, though this is flexible (some articles have been shorter, some a bit longer). 
-* BSSw.io uses [GitHub-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for original article markup
+* General guidance is 250-500 words, though this is flexible. Articles belonging to certain tracks such as *Deep dive* tend to be much longer.
+* BSSw.io uses [GitHub-Flavored Markdown](https://guides.github.com/features/mastering-markdown/) for blog markup
 * BSSw.io team encourages authors to point to a modest number of additional resources that enhance your article. Too many links tend to distract readers.  In most cases, BSSw.io team would like to have the items authors refer to in BSSw.  These would usually be what BSSw.io calls "curated content", which means short items that provide a pointer to an external resource with a short description.  Authors are welcome to prepare those as separate contributions, and the BSSw.io team is happy to help.
 
 
@@ -62,23 +61,39 @@ The content of the article is free-flowing. However it may have certain sections
 
 All reference links and images across all content types are handled in the same way; hence please see [common layout section](bssw_styling_common.html) of the guide.
 
+
 #### Author Bios
 This section has details of the author in a short paragraph. The content is free flowing.
 
 ## Metadata section
 
-There is no specific guidance for this for the event content type. See [common metadata section](bssw_content_metadata.html) of the guide.
+For blogs, ensure that you specify the *track* metadata. This information from the metadata section, in the source file, is displayed in the deck-area of the blog. In addition, please specify the [common metadata](bssw_content_metadata.html) that is expected in all BSSw.io content.
 
 ## Citations/References
 
-Original articles will occasionally benefit from using more formal citations/references listed at the bottom of an article instead of in-text hyperlinks.
+Blogs will occasionally benefit from using more formal citations/references listed at the bottom of an article instead of in-text hyperlinks.
 In these cases, they should use the approach documented in the [common citations/references section](bssw_styling_common.html#citationsreferences).
+
+## Guidelines for Interview-Style articles
+For blogs written in interview style:
+* Use **bold** to mark up question and answer markers.
+* Where reasonable, consider structuring the piece as if "BSSw" were doing the interview instead of a named individual.
+  - This eliminates the need to name a contributor who's identity isn't really relevant.
+  - Reduces the number of names for readers to keep track of.
+* For questions use **Question:** or **Full Name:** initially, then **Q:** or **Firstname:** following.
+* For answers, use **Full Name:** initially, then **Firstname:** following.
+
+Existing examples of interview-style articles can be found below. 
 
 ## Existing Examples
 
-* A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/BlogArticleSkeletonA.md)
+* A skeleton Markdown template for a blog article, which one can copy and customize is available at [this location](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/main/Articles/Blog/BlogArticleSkeletonA.md)
 
-* A simple example of the usage of [formal citations/references](#citationsreferences) can be seen in in the file [WhenNotToWriteAutomatedTests.md](https://github.com/betterscientificsoftware/bssw.io/blob/master/Articles/Blog/WhenNotToWriteAutomatedTests.md).
+* A simple example of the usage of [formal citations/references](#citationsreferences) can be seen in in the file [WhenNotToWriteAutomatedTests.md](https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/WhenNotToWriteAutomatedTests.md).
+
+* Interview-style article can be seen in the file [Working Remotely: The Spack Team](https://bssw.io/blog_posts/working-remotely-the-spack-team).
+  
+* Example of an article in which there is an interview component within a larger piece can be seen in the file [Experiences Replacing Master/Slave Terminology in ALE3D and Sierra](https://bssw.io/blog_posts/experiences-replacing-master-slave-terminology-in-ale3d-and-sierra).
 
 * There are several examples available in the [betterscientificsoftware.github.io repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io) to use as a starting point.
 

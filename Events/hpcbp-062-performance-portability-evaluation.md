@@ -2,7 +2,7 @@
 
 - Date: 2022-04-13
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar062
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar062
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Evaluating Performance Portability of HPC Applications and Benchmarks Across Diverse HPC Architectures
 Date and Time | 2022-04-13 01:00 pm EDT
 Presenter | JaeHyuk Kwack (Argonne Leadership Computing Facility)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar062>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar062>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

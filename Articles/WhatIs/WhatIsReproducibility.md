@@ -1,4 +1,7 @@
 ### What is Reproducibility?
+#### Contributed by [Mike Heroux](https://github.com/maherou)
+#### Publication date: April 20, 2019
+
 <!--deck start--->
 
 Reproducibility plays a very important role in CSE, especially in this era where research is perhaps shared chiefly via scientific publications - it ensures transparency in the experimentation being done and instills confidence and integrity in the underlying scientific study.
@@ -24,16 +27,10 @@ A research team produced and published a set of computational results.  Starting
 
 For scenarios I and II, reproducibility requirements demand a detailed accounting and retention of algorithms, software and input data used to produce the initial computational results.  Therefore, reproducibility increases incentives for computational science teams to invest in high-quality software and data management practices.
 
-#### Contributed by [Mike Heroux](https://github.com/maherou)
 <!--deck end--->
 
 <!---
 Publish: yes
 Pinned: yes
-Categories: Reliability
 Topics: Reliability, Reproducibility
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

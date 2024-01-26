@@ -27,10 +27,6 @@ This tutorial provides information on best practices in software engineering exp
 
 <!---
 Publish: yes
-Categories: Planning, Reliability, Collaboration, Individual Productivity
+Pinned: no
 Topics: improving productivity and sustainability, reproducibility, testing, continuous integration testing, licensing, strategies for more effective teams, personal kanban
-Tags: training, video
-Level: 2
-Prerequisites: defaults
-Aggregate: subresource
 --->

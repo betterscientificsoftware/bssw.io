@@ -26,7 +26,7 @@ The term dates back to Andrew Hunt and David Thomas's 1999 book *The Pragmatic P
 The list of resources cited above on rubber duck debugging is far from exhaustive, but these present the idea in a thoughtful way, with some background and reasoning for the approach.
 
 <!---
-Publish: preview
+Publish: no
 Pinned: no
 RSS update: 2021-05-21
 Topics: debugging, personal productivity and sustainability

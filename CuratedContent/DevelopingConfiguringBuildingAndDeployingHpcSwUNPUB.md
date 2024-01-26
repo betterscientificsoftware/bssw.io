@@ -20,7 +20,7 @@ In May 2016, Barry Smith presented a webinar titled *Developing, Configuring, Bu
 
 The process of developing HPC software requires consideration of issues in software design as well as practices that support the collaborative writing of well-structured code that is easy to maintain, extend, and support.  This webinar provides an overview of development environments and how to configure, build, and deploy HPC software using some of the tools that are frequently used in the community.  It also discusses ways in which these and other tools are best utilized by various categories of scientific software developers, ranging from small teams (for example, a faculty member and graduate students who are writing research code intended primarily for their own use) through moderate/large teams (for example, collaborating developers spread among multiple institutions who are writing publicly distributable code intended for use by others in the community).
 
-For the full webinar series, see the following links: [Series: Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars)
+For the full webinar series, see the following links: [Series: Best Practices for HPC Software Developers](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars)
 
 <!---
 Publish: no

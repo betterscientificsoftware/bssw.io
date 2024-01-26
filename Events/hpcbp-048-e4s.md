@@ -2,7 +2,7 @@
 
 - Date: 2021-01-13
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar048
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar048
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Extreme-scale Scientific Software Stack (E4S)
 Date and Time | 2021-01-13 1:00 pm EST
 Presenters | Sameer Shende (University of Oregon and ParaTools),  and David Honegger Rogers (Los Alamos National Laboratory)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar048>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar048>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

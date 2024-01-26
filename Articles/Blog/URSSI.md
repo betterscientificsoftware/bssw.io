@@ -89,11 +89,8 @@ guest [blog post](http://urssi.us/blog/) with us on a topic around software sust
 
 <!---
 Publish: yes
+Pinned: no
+Track: community
 RSS update: 2018-07-30
-Categories: Collaboration
-Topics: projects and organizations, funding sources and programs
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: projects and organizations, funding sources and programs, Software Sustainability
 --->

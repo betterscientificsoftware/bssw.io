@@ -2,7 +2,7 @@
 
 - Event Date: 2022-06-15
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar064
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar064
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Normalizing Inclusion by Embracing Difference
 Date and Time | 2022-06-15 1:00-2:30pm EDT *(Note: longer than usual 90-minute time slot)*
 Presenter | Mary Ann Leung (Sustainable Horizons Institute)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar064>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar064>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

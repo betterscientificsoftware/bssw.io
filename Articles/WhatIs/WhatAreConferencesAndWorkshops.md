@@ -1,9 +1,9 @@
 ### What are Conferences and Workshops for Better Scientific Software?
-#### Contributed by  [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
+#### Contributed by [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: April 20, 2023
 
 <!--- deck start --->
-Empowering researchers in scientifivc computing with knowledge-sharing, collaboration, and networking opportunities through conferences and workshops.
+Empowering researchers in scientific computing with knowledge-sharing, collaboration, and networking opportunities through conferences and workshops.
 <!--- deck end --->
 
 <!--- body start --->

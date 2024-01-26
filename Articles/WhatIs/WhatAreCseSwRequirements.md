@@ -1,12 +1,12 @@
+### What Are CSE Software Requirements?
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: April 20, 2019
 
-# What Are CSE Software Requirements?
 <!--deck start--->
-
 Software Requirements provide a bridge to translate the computational needs of scientists into capabilities of the software that developers aim to provide. While software requirements, thus, play a critical role in CSE domain, specifying such requirements can come with its own set of challenges.
 <!--deck end--->
 
 <!--body start--->
-
 In software development, a *requirement* is a singular, documented statement identifying a capability, characteristic, or
 quality a software product must possess in order to satisfy *one* of the needs of its stakeholders (e.g., developers, users, sponsors).
 
@@ -20,7 +20,7 @@ given a software product to model the [heat equation](https://en.wikipedia.org/w
 the package support anisotropic thermally conductive media or that it support time-varying boundary conditions.
 
 For developers, requirements are necessary in order to understand the capabilities the software they create must meet. For users,
-sponsors, and other stakeholders, requirements are necessary in order to communicate the capabilities they seek. Requiements
+sponsors, and other stakeholders, requirements are necessary in order to communicate the capabilities they seek. Requirements
 serve to define a contract between those developing software, those funding its development, and those using it.
 
 A full specification commonly comprises many different types of requirements. These include functional, performance,
@@ -50,17 +50,12 @@ before a single class is designed or a single line of code is written. This is i
 to the [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development process where the requirement's specification
 is iterated and refined right along with the software it specifies.
 
+Whatever software development process one chooses to adopt, its important to acknowldge that software requirements play a pivotal role in defining the capabilities and characteristics a software product must possess to meet the needs of both developers and users. These specifications form a contractual agreement between the various stakeholders involved, facilitating effective communication and understanding. Despite the challenges posed by evolving requirements and potential confusion over what and how statements, their meticulous definition is essential for successful software development, whether following the traditional Waterfall process or the iterative Agile approach.
 
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 <!--body end--->
 
 <!---
 Publish: yes
 Pinned: yes
-Categories: planning
 Topics: requirements
-Tags: waterfall, agile
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

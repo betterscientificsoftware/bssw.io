@@ -2,7 +2,7 @@
 
 - Date: 2020-08-12
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar043
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar043
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | Colormapping Strategies for Large Multivariate Data in Scientific Applications
 Date and Time | 2020-08-12 01:00 pm EDT
 Presenter | Francesca Samsel (Texas Advanced Computing Center)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar043>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar043>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

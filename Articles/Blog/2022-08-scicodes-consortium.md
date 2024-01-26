@@ -45,6 +45,7 @@ Alice Allen is the Editor of the [Astrophysics Source Code Library](https://ascl
 
 <!---
 Publish: yes
+Track: community
 Topics: software publishing and citation
 --->
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->

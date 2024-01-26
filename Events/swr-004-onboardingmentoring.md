@@ -2,7 +2,7 @@
 
 - Date: 2020-06-30
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel004
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel004
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -16,7 +16,7 @@ Panel Title | Virtual Onboarding and Mentoring
 Date and Time | 2020-06-30 03:00 pm EDT
 Panelists | Helen Cademartori (Lawrence Berkeley National Laboratory), Marcey Kelley (Lawrence Livermore National Laboratory), Jay Lofstead (Sandia National Laboratories), Bethany (Beth) Mccormick (Lawrence Livermore National Laboratory),  and Raj Sankaran (Argonne National Laboratory)
 Moderators | Ashley Barker (Oak Ridge National Laboratory), Rebecca Hartman-Baker (Lawrence Berkeley National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel004>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel004>	   
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

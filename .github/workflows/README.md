@@ -10,10 +10,10 @@ Format:
 
 # Workflows in use
 
-* merge-master-to-preview.yml (Sync master to preview)
-    - trigger: push to master branch
+* merge-main-to-preview.yml (Sync main to preview)
+    - trigger: push to main branch
     - job: sync-preview
-        - Merges from master into preview branch.
+        - Merges from main into preview branch.
 * merge-pr-to-preview.yml (Sync pull request to preview)
     - trigger: pull request [opened, synchronized, labeled] (only if has 'preview' label)
     - job: sync-pull-request
@@ -26,12 +26,16 @@ Format:
     - trigger: issue [opened, labeled], pull-request [opened, labeled]
     - job: assign_to_board
         - Assigns issues and PRs to either Content Development board or BSSw Internal board based on labels ("content: *" or "scope: site-internal")
+* notify-external-contrib.yml (Notify external contributions)
+    - https://github.com/betterscientificsoftware/bssw.io/blob/0e1ba1664239ab6097e903f8bb94fef08576f103/.github/workflows/notify-external-contrib.yml#L6-L12
+    - job: notify-external-contributions
+        - Label and send email to bssw-editorial-list for externally opened issues, prs and discussions
 
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
 * Recreate preview branch.  Trigger manually
     - Delete preview
-    - Create preview from master
+    - Create preview from main
     - Foreach open PR
         - Merge PR to preview
 * Have not investigated possibilities for conflicts and how they should be handled.

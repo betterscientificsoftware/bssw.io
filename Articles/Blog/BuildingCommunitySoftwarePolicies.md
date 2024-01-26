@@ -112,11 +112,8 @@ machines.
 
 <!---
 Publish: yes
+Track: experience
 RSS update: 2019-08-12
-Categories: Collaboration
 Topics: projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

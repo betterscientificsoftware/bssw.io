@@ -1,5 +1,7 @@
-
 ### What is Software Configuration?
+#### Contributed by [Jason Sarich](https://github.com/sarich)
+
+#### Publication date: April 20, 2019
 
 <!--deck start--->
 
@@ -9,18 +11,12 @@ End-users of scientific software expect clear and clean mechanisms to setup and 
 
 <!--body start--->
 
-Installing scientific libraries or applications from source requires a system for setting up (configuring) the package to compile and link the code according to the user's specific platform and needs. This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-ConfigurationWhatIsSoftwareConfiguration-V0.2.pdf "What is Software Configuration?") introduces common approaches for configuring scientific software.
+Installing scientific libraries or applications from source requires a system for setting up (configuring) the package to compile and link the code according to the user's specific platform and needs. The article *[Understanding Software Configuration](/blog_posts/understanding-software-configuration)* introduces common approaches for configuring scientific software.
 
-#### Contributed by [Jason Sarich](https://github.com/sarich)
 <!--body end--->
 
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: configuration and builds
-Tags: document, whatis, terminology
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

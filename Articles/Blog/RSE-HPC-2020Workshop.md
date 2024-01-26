@@ -90,6 +90,7 @@ Daniel S. Katz is Assistant Director for Scientific Software and Applications at
 
 <!---
 Publish: yes
+Track: community
 RSS update: 2020-10-26
 Pinned: no
 Topics: Software Engineering, Projects and Organizations, Conferences and Workshops, Research Software Engineers

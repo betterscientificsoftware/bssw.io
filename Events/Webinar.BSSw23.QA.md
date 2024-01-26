@@ -3,7 +3,7 @@
 - Date: September 8, 2022 
 - Location: Online
 - Event Website: https://bssw.io/blog_posts/applications-open-for-the-2023-bssw-fellowship-program
-- Organizers: Better Scientifc Software Community
+- Organizers: Better Scientific Software Community
 
 <img src='../images/Blog_2208_FellowsAppOpen.png'/>
 

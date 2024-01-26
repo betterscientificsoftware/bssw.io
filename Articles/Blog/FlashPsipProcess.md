@@ -44,7 +44,7 @@ simply does not.  The fine details of this refactoring effort have already been
 described elsewhere by O'Neal, Dubey, and Weide (2018).<sup>[1]</sup>
 
 ### PSIP and FLASH
-While working on this effort, we were introduced to the [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip) process, which is developed and promoted by the [IDEAS-ECP](https://ideas-productivity.org/) project.   PSIP is itself a work in progress that is becoming a useful methodology for improving productivity and software sustainability.  We now recognize that the fundamental philosophy of our process aligns well with that of PSIP – take stock of where the project is and make changes in small, well-planned, and manageable steps.  Because of this similarity, we are able to map retroactively our process for improving two development processes onto PSIP and discuss how we may have used PSIP to improve our productivity and the quality of our work.
+While working on this effort, we were introduced to the [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip) process, which is developed and promoted by the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) project.   PSIP is itself a work in progress that is becoming a useful methodology for improving productivity and software sustainability.  We now recognize that the fundamental philosophy of our process aligns well with that of PSIP – take stock of where the project is and make changes in small, well-planned, and manageable steps.  Because of this similarity, we are able to map retroactively our process for improving two development processes onto PSIP and discuss how we may have used PSIP to improve our productivity and the quality of our work.
 
 ### Refactoring and testing
 
@@ -108,13 +108,10 @@ References | &nbsp;
 
 <!---
 Publish: yes
+Track: deep dive
 RSS update: 2019-08-27
-Categories: planning, development, reliability
 Topics: software process improvement, refactoring, testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
 
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->

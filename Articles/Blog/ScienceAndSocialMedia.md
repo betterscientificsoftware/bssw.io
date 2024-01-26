@@ -37,10 +37,7 @@ The scientific endeavor is increasingly global, interconnected, open, and collab
 <!---
 Publish: Yes
 RSS update: 2018-08-30
-Categories: collaboration
+Track: experience
 Topics: strategies for more effective teams
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

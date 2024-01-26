@@ -37,10 +37,7 @@ Moreover, the combined use of SuperLU with complementary numerical libraries has
 
 <!---
 Publish: Yes
-Categories: development, reliability
+Pinned: no
+Track: experience
 Topics: revision control, configuration and builds, testing, continuous integration testing
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
 --->

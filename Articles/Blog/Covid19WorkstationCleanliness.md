@@ -179,7 +179,7 @@ Among other things, he contributes to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
-[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+[IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
 The views and opinions expressed in this article are his own.
 
 <!--
@@ -204,13 +204,10 @@ for advertising or product endorsement purposes.
 
 <!--
 Publish: yes
+Track: deep dive
 RSS update: 2020-03-19
-Categories: Skills
 Topics: Personal productivity and sustainability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 -->
 
 

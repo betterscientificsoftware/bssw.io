@@ -234,7 +234,7 @@ almost exclusively for testing, the adjusted, relative costs of the
 software development alone are shown below, right. To help keep documentation
 costs down, there was even a computer-automated documentation system developed.<sup>[43]</sup>
 
-<img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC software development costs by category: left includes test hardware costs and right with hardware costs factored out.]
+<img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog_0619_agc_sw_costs_combined_B.jpg' class='page' />[AGC software development costs by category: left includes test hardware costs and right with hardware costs factored out.]
 
 <br>
 
@@ -275,20 +275,17 @@ Among other things, he contributes to
 [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit),
 [Silo](https://wci.llnl.gov/simulation/computer-codes/silo),
 [HDF5](https://www.hdfgroup.org) and
-[IDEAS-ECP](https://ideas-productivity.org/ideas-ecp/).
+[IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
 
 <!---
 Publish: yes
+Track: experience
 RSS update: 2019-06-17
-Categories: performance
 Topics: high-performance computing (hpc), performance portability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->
 
-[1-sfer-ezikiw]: https://github.com/betterscientificsoftware/bssw.io/raw/master/images/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
+[1-sfer-ezikiw]: https://github.com/betterscientificsoftware/bssw.io/raw/main/images/397_apollo_flightdiagram.jpg "Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here."
 [2-sfer-ezikiw]: https://en.wikipedia.org/wiki/Gravity_of_Earth "Earth's Lumpy Gravity Field"
 [3-sfer-ezikiw]: https://en.wikipedia.org/wiki/Gravitation_of_the_Moon "Moon's Lumpy Gravity Field"
 [4-sfer-ezikiw]: https://www.americanscientist.org/article/moonshot-computing "Great Article on AGC Software {Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147}"
@@ -396,7 +393,7 @@ Aggregate: none
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/bssw.io/raw/master/images/397_apollo_flightdiagram.jpg)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/bssw.io/raw/main/images/397_apollo_flightdiagram.jpg)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Earth's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravity_of_Earth)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Moon's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravitation_of_the_Moon)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[Great Article on AGC Software<br>Hayes B.  (May 2019) Moonshot Computing. American Scientist, Vol. 107, No. 3, pages 142–147](https://www.americanscientist.org/article/moonshot-computing)

@@ -2,7 +2,7 @@
 
 - Date: 2021-09-15
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056
+- Event Website: https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar056
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Best Practices for HPC Software
@@ -16,7 +16,7 @@ Resource Information | Details
 Webinar Title | What I Learned from 20 Years of Leading Open Source Projects
 Date and Time | 2021-09-15 02:00 pm EDT *Note: webinar begins one hour later than usual*
 Presenter | Wolfgang Bangerth (Colorado State University)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056>	   
+Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar056>	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 

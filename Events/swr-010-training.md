@@ -2,7 +2,7 @@
 
 - Date: 2021-09-23
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel010
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely/#panel010
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -17,7 +17,7 @@ Date and Time | Thursday 2021-09-23  3:00pm-4:15pm EDT
 Panelists | Kelly Barnes (The Carpentries), Helen He (NERSC and Lawrence Berkeley National Laboratory), Julia Levites (Nvidia Corporation), and Thomas Papatheodore (OLCF and Oak Ridge National Laboratory)
 Moderators | Ashley Barker (Oak Ridge National Laboratory) and Osni Marques (Lawrence Berkeley National Laboratory)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJItduChpzkrGhmO-R1WiGPeoEcsqD7EQFA>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 
@@ -53,7 +53,7 @@ our understanding of climate variability and change. Ashley is also
 currently involved in the Exascale Computing Project (ECP) as the
 Control Account Manager (CAM) for training and productivity.
 -->
-Osni Marques is a staff scientist at the Computational Research Division, Lawrence Berkeley National Laboratory (LBNL). Osni has worked with high-performance, software libraries and tools, that provide solutions to common and important computational problems and can simplify the development of engineering and scientific application codes. Osni has studied and implemented algorithms for the solution of problems in numerical linear algebra, in applications related to protein motions, acoustics problems in automobile design, structural analyses, inverse problems in geophysics applications, electronic properties of materials, and linear accelerator cavities. Osni is currently a member of the IDEAS Productivity Project (funded by DOE’s ECP) focusing on outreach activities, including the coordination of the [HPC Best Practices Webinar Series](https://ideas-productivity.org/events).
+Osni Marques is a staff scientist at the Computational Research Division, Lawrence Berkeley National Laboratory (LBNL). Osni has worked with high-performance, software libraries and tools, that provide solutions to common and important computational problems and can simplify the development of engineering and scientific application codes. Osni has studied and implemented algorithms for the solution of problems in numerical linear algebra, in applications related to protein motions, acoustics problems in automobile design, structural analyses, inverse problems in geophysics applications, electronic properties of materials, and linear accelerator cavities. Osni is currently a member of the IDEAS Productivity Project (funded by DOE’s ECP) focusing on outreach activities, including the coordination of the [HPC Best Practices Webinar Series](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/).
 
 #### Contributed by [Kelly Barnes](https://github.com/klbarnes20 "Kelly Barnes's GitHub Profile"), Helen He, [Julia Levites](https://github.com/jlevites "Julia Levites's GitHub Profile"), [Thomas Papatheodore](https://github.com/tom-papatheodore "Thomas Papatheodore's GitHub Profile"), Ashley Barker, [Osni Marques](https://github.com/tom-papatheodore "Osni Marques's GitHub Profile")
 

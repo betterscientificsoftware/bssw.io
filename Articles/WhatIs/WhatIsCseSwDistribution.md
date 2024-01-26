@@ -1,4 +1,6 @@
 # What is CSE Software Distribution?
+#### Publication date: April 20, 2019
+
 <!--deck start--->
 CSE software distribution involves how to make the software available to users and all its related activities - distribution methods are impacted significantly based on the softwares' user base size, end-user expected expertise, software complexity, software maturity, licensing and distribution rights etc.
 
@@ -20,10 +22,5 @@ Also included under the general topic of CSE software distribution are other act
 <!---
 Publish: yes
 Pinned: yes
-Categories: development
 Topics: release and deployment
-Tags:
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

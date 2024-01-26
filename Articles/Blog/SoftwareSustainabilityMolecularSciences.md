@@ -227,11 +227,8 @@ Association of Theoretical and Computational Chemists.
 
 <!---
 Publish: yes
+Track: experience
+Pinned: no
 RSS update: 2019-11-14
-Categories: Skills, Planning
-Topics: Projects and Organizations, Conferences and Workshops, Design, Software Interoperability
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Topics: Projects and Organizations, Conferences and Workshops, Design, Software Interoperability, Software Sustainability
 --->

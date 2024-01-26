@@ -2,7 +2,7 @@
 
 - Event Date: 2022-08-25
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel014
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel014
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -17,7 +17,7 @@ Date and Time | Thursday 2022-08-25  3:00pm-4:30pm EDT
 Panelists | Todd Munson (Argonne National Laboratory), Jim Willenbring (Sandia National Laboratories), and Ulrike Yang (Lawrence Livermore National Laboratory)
 Moderators | Elaine Raybourn (Sandia National Laboratories), Reed Milewicz (Sandia National Laboratories), Miranda Mundt (Sandia National Laboratories), and Benjamin Sims (Los Alamos National Laboratory)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJIsdO-vrT8pGweLpBserVowR6D03EWg0mY>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

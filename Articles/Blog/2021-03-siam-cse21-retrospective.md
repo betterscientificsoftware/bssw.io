@@ -35,7 +35,7 @@ This minisymposium included an introduction to the [Better Scientific Software F
 The Better Scientific Software (BSSw) Fellowship program fosters and promotes practices, processes and tools to improve developer productivity and software sustainability of scientific codes.  BSSw Fellows are chosen annually to develop a funded activity, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community that promotes BETTER scientific software. This minisymposium sets the stage by Hai Ah Nam, BSSw Fellowship Coordinator, presenting the BSSw Fellowship Program Overview, followed by four (4) BSSw Fellowship alumni sharing their work addressing a diverse range of scientific software topics:
 *	Damian Rouson, presents his work Introducing Agile Scientific Software Development to Underrepresented Groups.  He describes his approach to teach scientific software development practices without the software.  Damian’s tutorials integrate a professional development activity (e.g. resume, paper writing) using agile practices to make scientific software development more practical and accessible.
 *	Nasir Eisty, describes user surveys identifying challenges, barriers and potential solutions to scientific software testing used to shape his tutorial on Automatic Testing for Scientific Software Development.  Nasir’s tutorial addresses unsolved problems faced while testing scientific software, best practices, along with providing hands-on exercises to help developers produce correct and reliable software.
-*	Cindy Rubio-Gonzalez, presents her work on Improving the Reliability and Performance of Numerical Software through tools and techniques focused on precision tuning for different architectures.  She provides a preview from her soon-to-be-public educational modules on Software Tools for Correctness and Optimization of Scientific Software to teach students and application developers how to balance code correctness with optimization.
+*	Cindy Rubio-González, presents her work on Improving the Reliability and Performance of Numerical Software through tools and techniques focused on precision tuning for different architectures.  She provides a preview from her soon-to-be-public educational modules on Software Tools for Correctness and Optimization of Scientific Software to teach students and application developers how to balance code correctness with optimization.
 *	Kyle Niemeyer, in his talk Educating Scientists on Best Practices for Developing Research Software describes the motivation and design of a modular course that teaches practices for developing research software to graduate students and other researchers, and his experience in teaching this content in various formats. Topics taught include local and remote version control, licensing and copyright, structuring Python modules, testing and test coverage, continuous integration, packaging and distribution, open science, software citation, and reproducibility basics, among others. 
 -->
 
@@ -131,6 +131,7 @@ Shoaib Sufi, University of Manchester<br/>
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: conferences and workshops
 RSS update: 2021-03-29

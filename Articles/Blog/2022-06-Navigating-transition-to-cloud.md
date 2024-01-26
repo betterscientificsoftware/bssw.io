@@ -41,7 +41,7 @@ The final lesson learned came once I managed to run my first data acquisition sc
 Things are by not by any means bad. We’re making progress. During the year I worked on this project, many things changed for good. In the end, what initially seemed like a moving target ended up in a better place than I thought it would. Although data formats and storage issues are still difficult to navigate, during this year data access has improved in two ways: there are more data freely available, and there are more standardized ways to access it. In addition, cloud computing platforms like mybinder are stable enough to be consistently and reliably used. So, the pieces are falling into place. I do think we are getting close to the day when time series of satellite data and cloud computing tools are within reach of any researcher interested in using climate data in their research, regardless of their level of expertise with large data sets or computing resources. Hopefully, really close. Our planet needs their science.
 
 ### Related resources
-* Webinar: [Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar063)
+* Webinar: [Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063)
 * Tutorial: [Timeseries of Satellite Data using Python](https://github.com/marisolgr/python_sat_tutorials)
 
 ### Author bios
@@ -50,6 +50,7 @@ Things are by not by any means bad. We’re making progress. During the year I w
 
 <!---
 Publish: yes
+Track: bssw fellowship
 Pinned: no
 Topics: big data, cloud computing, online learning
 --->

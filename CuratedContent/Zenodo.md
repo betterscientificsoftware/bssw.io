@@ -1,6 +1,6 @@
 # An Introduction to Zenodo
 <!-- deck text start -->
-Software publishing and software citations are critical tools for measuring the impact and recognizing the significant time spent developing software and data. Zenodo is one service thats provides authors with a DOI for their software package.
+Software publishing and software citations are critical tools for measuring the impact and recognizing the significant time spent developing software and data. Zenodo is one service that provides authors with a DOI for their software package.
 <!-- deck text end -->
 
 #### Contributed by [Dan Ibanez](https://github.com/ibaned)

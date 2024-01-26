@@ -15,7 +15,7 @@ The first part of the tutorial will provide important background information and
 
 Anyone who writes code for any types of software, especially scientific software, will be beneficial from this tutorial. The impacts from contemporary code review on the software should lead to both improved scientific results in the short term (through higher quality software) and in the long-term (through the more maintainable software). The introduction of this practice, along with knowledge of the available tools, will help scientific software developers begin to employ it more frequently in their own projects. 
 
-This tutorial is held in conjuction with the 2018 IEEE International Conference on eScience.
+This tutorial is held in conjunction with the 2018 IEEE International Conference on eScience.
 
 #### Contributed by [Jeff Carver](https://github.com/JeffCarver "Jeff Carver GitHub Profile")
 

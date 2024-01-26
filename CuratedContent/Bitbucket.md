@@ -4,7 +4,7 @@
 Are you familiar with revision control repository services? Bitbucket is a well-known Git-focused revision control repository service.
 <!--- deck text end --->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 
 #### Publication date: February 24, 2020
 
@@ -25,10 +25,6 @@ Focus | Git code management, Code collaboration
 
 <!---
 Publish: yes
-Categories: development
+Pinned: no
 Topics: revision control
-Tags: tool
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

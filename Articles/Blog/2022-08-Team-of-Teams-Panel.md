@@ -236,7 +236,7 @@ Software Engineering and Research at
 Sandia National Laboratories with an interdisciplinary background in applied
 mathematics and economics. As a practitioner, researcher, and consultant,
 she works closely with scientific software teams across diverse domains to
-advance software engineering in scientific computing. Within the ECP, she is a member of the [IDEAS](https://ideas-productivity.org/ideas-ecp/)
+advance software engineering in scientific computing. Within the ECP, she is a member of the [IDEAS](https://ideas-productivity.org/activities/ideas-ecp/)
 project and part of the 
 [PSIP](https://bssw.io/psip) team. Miranda is also an active member of the
 [US-RSE Association](https://us-rse.org), where she helps lead outreach and
@@ -300,6 +300,7 @@ Urbana-Champaign and a Diplom in Mathematics from Bochum University in Germany.
 
 <!---
 Publish: yes
+Track: community
 Topics: strategies for more effective teams
 --->
 

@@ -4,7 +4,7 @@
 
  - <img src='../../images/Blog_110619.png'/>
 
-#### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), and [Mark C Miller](https://github.com/markcmiller86 "Mark C Miller GitHub Profile")
+#### Contributed by [Heather M. Switzer](https://github.com/heatherms27 "Heather Switzer GitHub Profile"), [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski GitHub Profile"), and [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
 
 #### Publication date: December 5, 2019
 
@@ -102,11 +102,8 @@ data infrastructure for LLNL simulation codes.
 
 <!---
 Publish: yes
+Track: experience
 RSS update: 2019-12-05
-Categories: Planning, Development
 Topics: Software Engineering, Development Tools
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

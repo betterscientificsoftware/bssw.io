@@ -1,6 +1,6 @@
 # ECP Tutorial Days and Community BoF Days: Join Us!
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
 #### Publication date: January 30, 2023
 
@@ -32,6 +32,7 @@ The Exascale Computing Project is offering 60 different tutorials and BoFs for p
 
 <!---
 Publish: yes
+Track: community
 Pinned: no
 Topics: online learning, conferences and workshops
 --->

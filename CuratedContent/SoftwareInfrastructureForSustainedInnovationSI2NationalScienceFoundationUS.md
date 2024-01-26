@@ -3,7 +3,7 @@
 *Software Infrastructure for Sustained Innovation (SI2)* is a cross-foundation program, which is expected to generate and nurture the interdisciplinary processes required to support the entire software lifecycle, and will successfully integrate software development and support with innovation and research.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: June 20, 2017
 
 Resource information | Details 

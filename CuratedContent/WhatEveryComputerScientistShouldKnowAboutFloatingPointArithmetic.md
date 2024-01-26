@@ -12,7 +12,7 @@ Resource information | Details
 :--- | :--- 
 Paper title | [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://doi.org/10.1145/103162.103163)
 Authors | David Goldberg
-Publication | Year 1991, Journal of Information and Software Technology, DOI: [https://dl.acm.org/doi/10.1145/103162.103163](https://dl.acm.org/doi/10.1145/103162.103163)
+Publication | Year 1991, Journal of Information and Software Technology, DOI: [https://doi.org/10.1145/103162.103163](https://doi.org/10.1145/103162.103163)
 
 Resource information | Details 
 :--- | :--- 

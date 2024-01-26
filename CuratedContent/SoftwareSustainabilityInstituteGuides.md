@@ -31,6 +31,6 @@ Managers, researchers and developers can peruse a variety of topics such as buil
 <!-- 
 Publish: yes 
 RSS update: 2023-09-27
-Topics: Personal Productivity and Sustainability, Software engineering
+Topics: Research Software Engineers, Software engineering, Software Sustainability
 
 -->

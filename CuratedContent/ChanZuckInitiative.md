@@ -2,7 +2,7 @@
 
 <!-- deck text start --> 
 
-The *Essential Open Source Software for Science program*, initated by the Chan Zuckerberg Initiative, supports software maintenance, growth, development, and community engagement for open source tools critical to science.
+The *Essential Open Source Software for Science program*, initiated by the Chan Zuckerberg Initiative, supports software maintenance, growth, development, and community engagement for open source tools critical to science.
 
 <!-- deck text start --> 
 

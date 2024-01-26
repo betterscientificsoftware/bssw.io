@@ -99,7 +99,7 @@ We expect **Event** type to be of low originality, **Curated** low-medium and
 
 ### Quality Objective
 The *quality objective* of a piece of content is a measure of the effort required
-to finaly properly publish the article including whatever special needs it might
+to finally properly publish the article including whatever special needs it might
 have. An example of a higher than normal quality threshold is the article on the
 [Apollo Guidance Computer](../Articles/Blog/ApolloGuidanceComputerPart1.md) which
 required the development of a style for handling footnote references and a script

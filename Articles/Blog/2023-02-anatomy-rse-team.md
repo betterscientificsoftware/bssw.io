@@ -29,7 +29,7 @@ Authority) uses to improve the development of research software.
 
 First, some context for my team is necessary. Fusion science is a broad domain
 in terms of both scientific disciplines and spatial and temporal time scales,
-leading to what I describe as a "heterogenous computing environment." For
+leading to what I describe as a "heterogeneous computing environment." For
 instance, creating a high-fidelity "digital twin" of a fusion reactor would
 require approximately 10 TB and 5 million CPUs, putting it firmly in the
 exascale of computing. It requires simulations based on plasma physics,
@@ -145,10 +145,11 @@ post](https://bielsnohr.github.io/2022/10/14/pasc22-minisymposium-summary.html#f
 
 ### Author bio
 
-Matthew Bluteau is a research software engineer (RSE) at the UK Atomic Energy Authority (UKAEA), a world-leading laboratory in fusion energy research. There he supports the development of research software primarily used for simulation and modeling of fusion plasmas and tokamaks. He is a Software Sustainability Institute (SSI) Fellow 2021, and his fellowship work has  focussed primarily on delivering new training courses at the intermediate level of software development skills. His background is in physics; he obtained a Ph.D. in atomic and plasma physics from the University of Strathclyde, with external work at the Culham Centre for Fusion Energy.
+Matthew Bluteau is a research software engineer (RSE) at the UK Atomic Energy Authority (UKAEA), a world-leading laboratory in fusion energy research. There he supports the development of research software primarily used for simulation and modeling of fusion plasmas and tokamaks. He is a Software Sustainability Institute (SSI) Fellow 2021, and his fellowship work has  focused primarily on delivering new training courses at the intermediate level of software development skills. His background is in physics; he obtained a Ph.D. in atomic and plasma physics from the University of Strathclyde, with external work at the Culham Centre for Fusion Energy.
 
 <!---
 Publish: yes
+Track: experience
 Pinned: no
 Topics: strategies for more effective teams, Research Software Engineers
 --->

@@ -15,14 +15,14 @@ article can highlight several types of resources, including the following: book,
 
 The following figure shows different parts of a curated content article.
 
-- <img src='https://github.com/betterscientificsoftware/bssw.io/raw/master/images/documentation-cc-example.jpg'/>
+- <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/documentation-cc-example.jpg'/>
 
 The main part of the curated article consists of the (1) Deck, (2)
 Main body of the article and (3) Metadata section. The following
 sections describe the structure and various parts of a curated
 content article. There are several examples available in the
 [betterscientificsoftware.github.io
-repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/CuratedContent)
+repository](https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/main/CuratedContent)
 to use as a starting point.
 
 ## Deck section
@@ -93,8 +93,8 @@ Authors | Author names in the following format with hyperlink from a  neutral we
 Publication | If book, then: Year, ISBN numbers (multiple ISBN number may be available such as ISBN-10 and ISBN-13). *Format: year, ISBN1, ISBN2, ISBN3* <br /> OR <br /> If paper, then : Year, Journal name, DOI with link. *Format: year, journal name, DOI:[url of the DOI] [doi-url)*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * Book: *Complete Code: A Practical Handbook of Software Construction, 2nd Edition*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CodeComplete2ndEdition.md) | [BSSw.io](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
-   * Publication: *A Literature Review on the Use of Software Engineering Practices in Science*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ClaimsAboutSoftwareEnginScienceReview.md) | [BSSw.io](https://bssw.io/items/a-literature-review-on-the-use-of-software-engineering-practices-in-science)
+   * Book: *Complete Code: A Practical Handbook of Software Construction, 2nd Edition*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/CodeComplete2ndEdition.md) | [BSSw.io](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
+   * Publication: *A Literature Review on the Use of Software Engineering Practices in Science*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/ClaimsAboutSoftwareEnginScienceReview.md) | [BSSw.io](https://bssw.io/items/a-literature-review-on-the-use-of-software-engineering-practices-in-science)
 
 #### Tutorial/Webinar/Podcast/Courses
 
@@ -105,10 +105,10 @@ Presenters | Author names, *Format: [Firstname lastname] (url for author), [Firs
 Web links | Links to slides, slide-synced audio, video, or link to tutorial/webinar. *Format: [Course link] (url), [Slides] (url), [Synced audio] (url), [Video] (url), [website link] (url)* OR  <br /> If single link: *Format: [Name-of-podcast Podcast] (url)*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * Tutorial: *Introducing Container Mythbusters*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ContainerMythbusters.md) |  [BSSw.io](https://bssw.io/items/introducing-container-mythbusters)
-   * Webinar: *Developing, Configuring, Building, and Deploying HPC Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSwUNPUB.md) | 
-   * Podcast: *What Makes PSIP Suitable for the Exascale Computing Project?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PsipPodcast.md) | [BSSw.io](https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project)
-   * Courses: *Understanding Software Testing and How to Make Software Fail*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/SwTestingUdacity.md) | [BSSw.io](https://bssw.io/items/understanding-software-testing-and-how-to-make-software-fail)
+   * Tutorial: *Introducing Container Mythbusters*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/ContainerMythbusters.md) |  [BSSw.io](https://bssw.io/items/introducing-container-mythbusters)
+   * Webinar: *Developing, Configuring, Building, and Deploying HPC Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/DevelopingConfiguringBuildingAndDeployingHpcSwUNPUB.md) | 
+   * Podcast: *What Makes PSIP Suitable for the Exascale Computing Project?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/PsipPodcast.md) | [BSSw.io](https://bssw.io/items/what-makes-psip-suitable-for-the-exascale-computing-project)
+   * Courses: *Understanding Software Testing and How to Make Software Fail*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/SwTestingUdacity.md) | [BSSw.io](https://bssw.io/items/understanding-software-testing-and-how-to-make-software-fail)
 
 
 #### Website/Organization
@@ -120,8 +120,8 @@ Website | Link to website, *Format : [website url] (url)*
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
  Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * Website: *An Introduction to Creative Commons*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/CreativeCommons.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-creative-commons)
-   * Organization: *IDEAS Software Productivity Project*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/IDEASSoftwareProductivityProject.md) | [BSSw.io](https://bssw.io/items/ideas-software-productivity-project)
+   * Website: *An Introduction to Creative Commons*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/CreativeCommons.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-creative-commons)
+   * Organization: *IDEAS Software Productivity Project*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/IDEASSoftwareProductivityProject.md) | [BSSw.io](https://bssw.io/items/ideas-software-productivity-project)
 
 #### Web article
 
@@ -132,8 +132,8 @@ Authors | Author names, *Format: [Firstname lastname] (url for author), [Firstna
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
 Examples include the following, listed with both GitHub.com and BSSw.io links:
-   * *What Constitutes Constructive Code Critique?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/ConstructiveCodeCritique.md) | [BSSw.io](https://bssw.io/items/what-constitutes-constructive-code-critique)
-   * *Using Personal Kanban for Productivity*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/UsingPersonalKanban.md) | [BSSw.io](https://bssw.io/items/using-personal-kanban-for-productivity)
+   * *What Constitutes Constructive Code Critique?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/ConstructiveCodeCritique.md) | [BSSw.io](https://bssw.io/items/what-constitutes-constructive-code-critique)
+   * *Using Personal Kanban for Productivity*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/UsingPersonalKanban.md) | [BSSw.io](https://bssw.io/items/using-personal-kanban-for-productivity)
 
 
 #### Tables with multiple resources
@@ -149,17 +149,17 @@ Websites | Link to websites separated by commas, *Format : [website name1] (url1
 Focus | Custom focus area - this is a 3 word description of the focus area of the article, *Format: focus area1, focus area2.*
 
 Examples include the following, listed with both GitHub and BSSw.io links:
-   * *An Introduction to Documentation Tools*: [Github](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/DocumentationTools.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-documentation-tools)
-   * *An Introduction to National RSE Organizations*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/NationalRSEOrgs.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-national-rse-organizations)
-   * *Where and How to Publish CSE Software?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/PublishingCseSw.md) | [BSSw.io](https://bssw.io/items/where-and-how-to-publish-cse-software)
+   * *An Introduction to Documentation Tools*: [Github](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/DocumentationTools.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-documentation-tools)
+   * *An Introduction to National RSE Organizations*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/NationalRSEOrgs.md) | [BSSw.io](https://bssw.io/items/an-introduction-to-national-rse-organizations)
+   * *Where and How to Publish CSE Software?*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/PublishingCseSw.md) | [BSSw.io](https://bssw.io/items/where-and-how-to-publish-cse-software)
 
 ##### Multiple resources of the assorted type
 
 Many times, a curated article may have a collection of various types of resources. In that case, it may be difficult to create a table at the very start of the article for these different types of entities. So, please create tables as and when needed throughout the article. 
 
 Examples includes the following, listed with both GitHub and BSSw.io links:
-   * *A Collection of Resources for Sustaining Open Source Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/OSSSustainabilityResources.md) | [BSSw.io](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software)
-   * *Resources for Maximizing Remote Working*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/master/CuratedContent/RemoteWorking.md) | [BSSw.io](https://bssw.io/items/resources-for-maximizing-remote-working)
+   * *A Collection of Resources for Sustaining Open Source Software*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/OSSSustainabilityResources.md) | [BSSw.io](https://bssw.io/items/a-collection-of-resources-for-sustaining-open-source-software)
+   * *Resources for Maximizing Remote Working*: [GitHub](https://github.com/betterscientificsoftware/bssw.io/blob/main/CuratedContent/RemoteWorking.md) | [BSSw.io](https://bssw.io/items/resources-for-maximizing-remote-working)
 
 ### Main body description
 

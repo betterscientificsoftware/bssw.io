@@ -4,7 +4,7 @@
 Several flavors of open source licensing are prevalent today.  Do you know how to choose the correct open source license for your project?
 <!--- deck text end --->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold "David Bernholdt")
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold "David Bernholdt")
 #### Publication date: July 20, 2019 
 
 Resource information | Details
@@ -20,10 +20,6 @@ This *[Choose a License](https://choosealicense.com/)* website walks you though 
 
 <!---
 Publish: yes
-Categories: collaboration
+Pinned: no
 Topics: licensing
-Tags: website
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

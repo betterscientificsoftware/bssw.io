@@ -9,7 +9,7 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold "David E. Bernholdt GitHub profile")
 
-#### Publication date: September 28, 20022
+#### Publication date: September 28, 2022
 
 **Description:** The SC22 program pages, linked from the event title in the table below, provide details including exact time and place, abstracts, etc.  Note that Supercomputing has several different registration categories, and some of the events listed require particular categories of registration.
 

@@ -34,12 +34,11 @@ scale software efforts and that the Computer Science Teachers Association (CSTA)
 was founded in 2005. The articles do a good job of stating their limitations and
 exploring the current state of knowledge.
 
-It may be interesting, for some readers, to read this book from cover to cover. Some readers may find it more useful to read the inital methodologies section
+It may be interesting, for some readers, to read this book from cover to cover. Some readers may find it more useful to read the initial methodologies section
 and then read articles on individual SE practices as the need arises. This book may also surprise you and might serve as a useful guide on practices that you may not have considered in the past.
 
 <!---
 Publish: yes
-Categories: Performance, Planning, Collaboration
-Topics: Software engineering, Development tools, Strategies for more effective teams, Personal productivity and sustainability
+Topics: Software engineering, Development tools, Strategies for more effective teams
 RSS update: 2021-01-24
 --->

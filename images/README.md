@@ -89,7 +89,7 @@ To add caption text, place the image text after the image tag.
 * If you are using either `class='page'` or `class='logo'` be sure to add a:
 
   ```
-  <br> 
+  <br>
   ```
 
   tag after the preceding text and before the image to ensure adequate separation between the two.
@@ -106,7 +106,7 @@ These are a special case. Enter the code below substituting your filename at the
 
 ```
 **Hero Image:**
- 
+
 - <img src='../../images/filename.png' />[The debut of Better Scientific Software.]
 ```
 
@@ -117,3 +117,15 @@ These are addressed as a text link and follow the formatting below.
 ```
 [WhatIs doc](../../images/filename.pdf "What is Good Documentation?")
 ```
+
+#### BSSw Fellowship images
+
+The fellowship uses images of fellows and honorable mentions in many places. First, all members of a class appear on the [Meet The Fellows](https://bssw.io/pages/meet-our-fellows) page (as well as each Fellow's individual sub-page). We also do a couple of blog posts for each class, including a class announcement and end-of-class perspectives blog post. These will sometimes use a blue tinted image of each person.
+
+The file naming conventions are:
+- For the Meet-the-Fellow page: `People_YYYY_[F|HM]_Lastname.img`
+  - For example `People_2018_HM_Gonsiorowski.jpg`
+- For the Blog posts: `Blog_BSSwF_YYYY_[F|HM]_Lastname.img`
+  - For example `Blog_BSSwF_2018_HM_Gonsiorowski.jpg`
+
+Note that in both cases the `YYYY` year is the *class* year and not the year of publication.

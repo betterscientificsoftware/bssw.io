@@ -2,7 +2,7 @@
 
 - Date: 2020-12-17
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel007
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel007
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -17,7 +17,7 @@ Date and Time | Thursday 2020-12-17  3:00pm-4:00pm EST
 Panelists | Lori Diachin (Exascale Computing Project and Lawrence Livermore National Laboratory), Thomas Evans (Oak Ridge National Laboratory),  and Elaine Raybourn (Sandia National Laboratories)
 Moderators | Ashley Barker (Oak Ridge National Laboratory)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJIsdOGqrj0tGZISJDOBjibYOzOm52nqbLw>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **Panels are free and open to the public. Advance registration is required through the Event website. Archives (recording, slides) will be posted at the same link soon after the event.**
 

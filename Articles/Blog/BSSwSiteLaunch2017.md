@@ -1,6 +1,6 @@
 # BSSw Site Launch at SC17 ... Contribute to Better Scientific Software!
 
-#### Contributed by [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile"), and [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile")
 
 #### Publication date: Nov 13, 2017
 
@@ -13,17 +13,14 @@ Site users can find information on scientific software topics and can propose to
 #### Contribute to BSSw!
 We need your contributions to build the BSSw site into a vibrant resource, with content and editorial processes provided by volunteers throughout the international CSE community.  For more on what's here and who contributes and why, see the [site overview](https://bssw.io/pages/site-overview).  Join us!
 
-As part of the webinar series on [Best Practices in HPC Software Development](https://ideas-productivity.org/events/hpc-best-practices-webinars), we're hosting a webinar on December 6, 2017 (1-2 pm ET) to introduce the vision for the site and explain more details on how to contribute.  The webinar is free but [registration](https://www.eventbrite.com/e/better-scientific-software-webinar-tickets-39613498039) is required.  
+As part of the webinar series on [Best Practices in HPC Software Development](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars), we're hosting a webinar on December 6, 2017 (1-2 pm ET) to introduce the vision for the site and explain more details on how to contribute.  The webinar is free but [registration](https://www.eventbrite.com/e/better-scientific-software-webinar-tickets-39613498039) is required.  
 
 #### BSSw Fellowship Program
 Also, we're launching a new [BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-program) to give recognition and funding to leaders and advocates of improved scientific software.  We're hosting a webinar on December 12, 2017 for Q&A; applications are due by January 5, 2018.  
 
 <!---
 Publish: Yes
-Categories: collaboration
+Track: community
 Topics: discussion and question sites, projects and organizations
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

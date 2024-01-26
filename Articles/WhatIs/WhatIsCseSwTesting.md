@@ -1,4 +1,8 @@
 ### What is CSE Software Testing?
+#### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C. Miller](https://github.com/markcmiller86)
+
+#### Publication date: May 8, 2017
+
 <!--deck start--->
 Testing is the process of assuring that a software product is meeting it requirements. Software requires regular extensive testing to ensure correctly functioning code.  
 <!--deck end--->
@@ -31,20 +35,13 @@ A form of testing where the primary aim is to operate the software as a proxy fo
 #### Continuous Integration (CI) testing
 A form of testing where the primary aims are to provide _immediate_ feedback regarding compatibility of changes with respect to multiple, parallel branches of development as well as overall software functionality.
 
-This [WhatIs doc](https://ideas-productivity.org/wordpress/wp-content/uploads/2016/04/IDEAS-TestingWhatAreSoftwareTestingPractices-V0.2.pdf "What is CSE Software Testing?") introduces terminology for CSE software testing.
+The article *[Understanding Software Testing Practices](/blog_posts/understanding-software-testing-practices)* introduces terminology for CSE software testing.
 
-#### Contributed by [Mike Heroux](https://github.com/maherou), [Mark C Miller](https://github.com/markcmiller86)
 
-#### Publication date: May 8, 2017
 <!--body end--->
 
 <!---
 Publish: yes
 Pinned: yes
-Categories: reliability
 Topics: testing
-Tags: terminology, whatis, document
-Level: 0
-Prerequisites: none
-Aggregate: none
 --->

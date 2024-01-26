@@ -3,7 +3,7 @@
 **Hero Image:**
 - <img src="../../images/Blog_010219_Mantage.png" />[2018 Highlights]
 
-#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [David Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") 
+#### Contributed by [Lois Curfman McInnes](https://github.com/curfman "Lois Curfman McInnes GitHub Profile"), [David E. Bernholdt](https://github.com/bernhold " David Bernholdt GitHub Profile"), and [Mike Heroux](https://github.com/maherou "Mike Heroux GitHub Profile") 
 
 #### Publication date: January 4, 2019
 
@@ -52,11 +52,8 @@ David Bernholdt, Mike Heroux, and Lois Curfman McInnes serve as the founding edi
 
 <!---
 Publish: yes
+Track: community
 RSS Update: 2019-01-04
-Categories: collaboration
 Topics: projects and organizations
-Tags: bssw-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

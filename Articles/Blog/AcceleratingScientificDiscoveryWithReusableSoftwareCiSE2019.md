@@ -28,7 +28,7 @@ We encourage you to read  the [March/April issue of *IEEE Computing in Science a
 
 We welcome you to attend the Blue Waters Webinar series, which includes a track on Scientific Software Ecosystems; see https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems ... The next speaker in the track (March 27) is Ryan Richard, who will discuss the strategy for designing NWChemX.  On May 15, Lorraine Hwang will discuss scientific software communities in geophysics.
 
-We also invite you to attend the [webinar series on Best Practices for HPC Software Developers](https://ideas-productivity.org/events/hpc-best-practices-webinars), presented by the IDEAS Productivity project, in partnership with the Argonne Leadership Computing Facility (ALCF), National Energy Research Scientific Computing Center (NERSC), Oak Ridge Leadership Computing Facility (OLCF), and the DOE Exascale Computing Project (ECP).  
+We also invite you to attend the [webinar series on Best Practices for HPC Software Developers](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars), presented by the IDEAS Productivity project, in partnership with the Argonne Leadership Computing Facility (ALCF), National Energy Research Scientific Computing Center (NERSC), Oak Ridge Leadership Computing Facility (OLCF), and the DOE Exascale Computing Project (ECP).  
 
 ### Get involved!
 
@@ -48,6 +48,7 @@ We encourage you to contribute to accelerating scientific discovery by participa
 
 <!---
 Publish: yes
+Track: community
 RSS update: 2019-03-19
 Categories: planning, collaboration
 Topics: design, projects and organizations

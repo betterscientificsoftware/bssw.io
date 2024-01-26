@@ -16,20 +16,22 @@ Listed here is the format of a typical metadata.
 <!---
 Publish: yes
 Pinned: no
+Track: deep dive
 Topics: software engineering, testing
 RSS update: 2020-12-17
 --->
 ```
 
 Please note above:
-* "Publish" and "Topics" is the minimal metadata that is required. "Pinned" and "RSS update" are optional, as their usage is limited, but its recommended you use it.
+* "Publish", "Topics" and "Track" are the minimal metadata that is required. "Pinned" and "RSS update" are optional, as their usage is limited, but its recommended you use it.
 * The use of `<!--- --->` surrounding the metadata.
   * **Note:** This is an XML comment **with an extra dash**.
     **Three** dashes are required for the metadata block to be recognized.
 * Each metadata parameter is on a separate line.
 * Please follow the rules of use colon and commas as specified above. Letter case does not matter.
+* Metadata values can be specified with or without quotes
 
-The easiest approach to writing metadata is to copy/paste the formatted example and modify it, as needed. Alternatively, copy the metadata from any of the content files ([curated content](https://github.com/betterscientificsoftware/bssw.io/tree/master/CuratedContent), [events](https://github.com/betterscientificsoftware/bssw.io/tree/master/Events) and [articles](https://github.com/betterscientificsoftware/bssw.io/tree/master/Articles)) in the BSSw.io repository, modify and use them in your content file.
+The easiest approach to writing metadata is to copy/paste the formatted example and modify it, as needed. Alternatively, copy the metadata from any of the content files ([curated content](https://github.com/betterscientificsoftware/bssw.io/tree/main/CuratedContent), [events](https://github.com/betterscientificsoftware/bssw.io/tree/main/Events) and [articles](https://github.com/betterscientificsoftware/bssw.io/tree/main/Articles)) in the BSSw.io repository, modify and use them in your content file.
 
 ## Metadata description
 
@@ -38,11 +40,11 @@ Following is the set of metadata parameters used on the BSSw.io, currently.
 ### Publish
 This is used to decide if the content needs to be published or not on the BSSw front-end site. 
 ````
-publish: yes
+Publish: yes
 
-publish: no
+Publish: no
 ````
-Only files designated as 'publish: yes' (and merged in the master branch) will be published on the front-end BSSw site. 
+Only files designated as 'publish: yes' (and merged in the main branch) will be published on the front-end BSSw site. 
 Work that has not been finalized or is not intended for the front-end site should be designated 'publish: no'. 
 
 Please note that BSSw.io has a stand-alone website for previewing content before publishing. To view data on preview site, please use the "preview" label in the pull request of that item and rebuild the preview site. For previewing purposes, the 'publish' metadata is ignored and only the preview label is considered.
@@ -52,14 +54,29 @@ Please note that BSSw.io has a stand-alone website for previewing content before
 This is used to decide if a content needs to show up as "recommended", when a particular category or topic is selected. Recommended articles will show up on the top of the list of articles. For every category and topic, there is a "What is" file that explains the name of that category/topic. These "What Is" files have 'Pinned: yes'. The intention is that these files show up on the top of the list (when a category or topic is clicked on) so that readers can understand what that category/topic means.
 
 ````
-pinned: yes
+Pinned: yes
 
-pinned: no
+Pinned: no
 ````
+
+### Track
+The 'track' metadata is applicable only to content in the blogs folder. They are ignored for curated content and events. Articles in the blogs folder can be assigned one track from the following tracks. Authors are encouraged to choose a track that they feel best suits their article. **The BSSw editorial team may add/revise tracks, as needed, over time.**
+
+````
+Track: deep dive
+````
+
+The current tracks are as follows:
+- **deep dive**: for articles that examine the intricacies and finer details of the discussed topics, with an attempt to provide an deeper exploration to enhance understanding.
+- **experience**: offers articles offering firsthand accounts and practical insights from practitioners, shedding light on real-world software, challenges, and successes. 
+- **community**: presents articles that highlight collaborative endeavors, emphasizing community-driven initiatives and efforts aimed at empowering the scientific computing community.
+- **how to**: offers practical resources to foster a deeper understanding and facilitate the potential implementation of various topics in software productivity, quality, and sustainability.
+- **bright spots**:  illuminates notable achievements and advancements in a particular topic, showcasing success stories and innovations that stand out
+- **bssw fellowship**: presents articles related to the BSSw fellowship.
 
 ### Topics
 
-Topics are visible filters displayed on the BSSw website interface that provide readers with easier navigation and content searching abilities. A family of topics that make sense together are grouped together in a category. There are around 4-7 topics per category. **The BSSw editorial team may add/revise topics as needed over time.**
+Topics are visible filters displayed on the BSSw website interface that provide readers with easier navigation and content searching abilities. A family of topics that make sense together are grouped together in a category. There are around 4-7 topics per category. **The BSSw editorial team may add/revise topics, as needed, over time.**
 
 ````
 Topics: software engineering, testing
@@ -144,7 +161,6 @@ The categories were defined as follows:
 - Collaboration
 - Skills
 
-
 **Level**
 
 The *level* metadata was used to specify level of detail and depth of content.
@@ -168,7 +184,7 @@ This was optional info used for aggregating content to define a more complex res
    - Note an aggregate resource
 
  - Aggregate: base
-   - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulletted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](CuratedContent/ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
+   - The "base" designation of an aggregate resource indicates that content and metadata will be included from subresource files, as specified in a bulleted list of subresources.  See the file [CuratedContent/ResourceTemplate.AggregateBase.md](CuratedContent/ResourceTemplate.AggregateBase.md) for an example "base" file that demonstrates how to specify subresources.
 
 - Aggregate: subresource
   - The "subresource" specification indicates that the item will not be displayed as a separate resource on the front-end BSSw site.  We expect this to be the most common usage.  

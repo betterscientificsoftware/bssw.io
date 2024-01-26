@@ -2,7 +2,7 @@
 
 - Date: 2021-10-13
 - Location: Online
-- Event Website: https://ideas-productivity.org/events/strategies-for-working-remotely-panels/#panel011
+- Event Website: https://ideas-productivity.org/resources/series/strategies-for-working-remotely//#panel011
 - Organizers: The IDEAS Productivity Project
 			   
 This event is a part of the "Strategies for Working Remotely" 
@@ -17,7 +17,7 @@ Date and Time | Wednesday 2021-10-13  1:00pm-3:00pm WTZ
 Panelists | Nancy Cooke (Arizona State University), Gary Olson (University of California, Irvine), Elaine Raybourn (Sandia National Laboratories), and Francesca Poli (Oppenheimer Science and Energy Leadership Program)
 Moderator | Susannah Howieson (Department of Energy)
 Registration Link | 	<https://science-doe.zoomgov.com/webinar/register/WN_VSDAJ903Q-CtGXWj76VLUA>
-Series Information and Archives | <https://ideas-productivity.org/events/strategies-for-working-remotely-panels/> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
+Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
 
 **This panel discussion is part of the DOE Laboratories of the Future (LOTF) workshop series. Registration is required.**
 

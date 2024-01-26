@@ -8,8 +8,8 @@ In January 2018, Charles Ferenbaugh presented a webinar titled “Bringing Best 
 
 To view Charles's original webinar, and the full webinar series see the following links:
 
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014" class="link-row">Bringing Best Practices to a Long-Lived Production Code</a>
-<a href="https://ideas-productivity.org/events/hpc-best-practices-webinars/" class="link-row">Series: Best Practices for HPC Software Developers</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar014" class="link-row">Bringing Best Practices to a Long-Lived Production Code</a>
+<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/" class="link-row">Series: Best Practices for HPC Software Developers</a>
 
 <br> 
 
@@ -33,14 +33,11 @@ These choices become embedded in the project and reinforce each other, pushing t
 
 <br>
 
-Over the years at Los Alamos National Laboratory, we've seen several software quality initiatives that had minimal impact on our project practices, for many of the reasons described above.  But more recently, we’ve also seen management make conscious decisions to adjust their values and make significant changes in how the projects are run, enabling new and better development practices to take hold.  In one of our large multiphysics code projects, the development team has been given time and resources for major restructuring of the code base.  Build systems and version control are being modernized.  Unit testing and performance optimizations are being introduced.  The webinar "[Bringing Best Practices to a Long-Lived Production Code](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar014)" tells more of the story of these changes.
+Over the years at Los Alamos National Laboratory, we've seen several software quality initiatives that had minimal impact on our project practices, for many of the reasons described above.  But more recently, we’ve also seen management make conscious decisions to adjust their values and make significant changes in how the projects are run, enabling new and better development practices to take hold.  In one of our large multiphysics code projects, the development team has been given time and resources for major restructuring of the code base.  Build systems and version control are being modernized.  Unit testing and performance optimizations are being introduced.  The webinar "[Bringing Best Practices to a Long-Lived Production Code](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar014)" tells more of the story of these changes.
 
 <!---
 Publish: Yes
-Categories: planning, development
+Track: experience
 Topics: design, refactoring, software engineering
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
+Pinned: no
 --->

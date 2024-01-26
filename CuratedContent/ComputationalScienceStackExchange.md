@@ -3,7 +3,7 @@
 Do you work in computational science and need an online forum for asking questions and discussing scientific computational problems? 
 <!--deck text end-->
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: July 20, 2019 
 
 Resource information | Details
@@ -24,10 +24,6 @@ This *Stack Exchange* site covers computational science in general.  Most of the
 
 <!---
 Publish: yes
-Categories: Collaboration
+Pinned: no
 Topics: Discussion and question sites
-Tags: website, service
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->

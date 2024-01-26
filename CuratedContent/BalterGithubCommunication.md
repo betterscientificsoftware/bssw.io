@@ -44,11 +44,7 @@ A team that can come together on a set of communication strategies can experienc
 <!---
 Publish: yes
 RSS update: 2019-10-03
-Categories: development
+Pinned: no
 Topics: revision control
-Tags: training
-Level: 2
-Prerequisites: defaults
-Aggregate: none
 --->
 

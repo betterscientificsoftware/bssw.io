@@ -1,5 +1,5 @@
 ### What Is Online Learning?
-#### Contributed by [David Bernholdt](https://github.com/bernhold) and [Rinku Gupta](https://github.com/rinkug)
+#### Contributed by [David E. Bernholdt](https://github.com/bernhold) and [Rinku Gupta](https://github.com/rinkug)
 #### Publication date: April 4, 2023
 
 <!--- deck start --->

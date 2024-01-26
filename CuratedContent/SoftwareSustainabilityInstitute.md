@@ -4,7 +4,7 @@
 This short article introduces the *Software Sustainability Institute*, a UK-based national facility, with focus on building better software.
 <!-- deck text end --> 
 
-#### Contributed by [David Bernholdt](http://github.com/bernhold)
+#### Contributed by [David E. Bernholdt](http://github.com/bernhold)
 #### Publication date: January 30, 2020
 
 Resource information | Details 
@@ -23,10 +23,5 @@ As per the *SSI* manifesto, the *Software Sustainability Institute* represents t
 
 <!---
 Publish: yes
-Categories: Collaboration
-Topics: Projects and organizations
-Tags: organization, project
-Level: 2
-Prerequisites: defaults
-Aggregate: none
+Topics: Projects and organizations, Software Sustainability
 --->

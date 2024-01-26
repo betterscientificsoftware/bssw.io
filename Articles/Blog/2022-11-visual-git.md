@@ -31,7 +31,7 @@ The stories we currently have are:
 
 Kitty Harris created all the “Use git, not email!” material — she is a scientist familiar with version control who also draws. This combination is relatively rare, and art-by-commission isn’t her primary job. Zelda Galewsky is the artist behind the additional stories, and she is not also a programmer. We worked together to transition from the version-control concept to a story that captures the idea and provides clear analogies. In each case we focused on developing a story in a context that we were both familiar with, like videogames and sharing pictures with friends. This is one way these resources offer another approach to technical skill training — they get to have a personality. This approach makes the stories more specific than clear, technical writing. A goal is that for a person who shares the background of the storyteller, the message of the stories might be clearer.
 
-My hope is to develop more stories, told from more perspectives — and to develop a community that contributes and uses the stories that we all need to support contributors to scientific software. All the art is licensed for re-use, and most of it is available in vector graphic form, to allow easy editing for people who want to customize the text for their project.
+My hope is to develop more stories, told from more perspectives — and to develop a community that contributes and uses the stories that we all need to support contributors to scientific software. All the art is licensed for reuse, and most of it is available in vector graphic form, to allow easy editing for people who want to customize the text for their project.
 
 ### Join us!
 
@@ -42,6 +42,7 @@ Come join us at <https://gitlab.com/git-stories>! Everyone is welcome to use the
 Amy Roberts is an assistant professor of physics at the University of Colorado Denver, where she leads a research group focused on dark matter detection. She searches for dark matter signals and works to build accessible computing ecosystems. Amy also serves as an editor for the Journal of Open Source Software and believes that complete, usable software infrastructure — together with accessible training and documentation — are necessary for a successful and equitable scientific community.
 <!---
 Publish: yes
+Track: experience
 Pinned: no
 Topics: online learning, revision control
 --->

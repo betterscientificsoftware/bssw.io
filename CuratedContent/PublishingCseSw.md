@@ -46,7 +46,7 @@ scientific literature that can be cited by later works.
    open-access peer-reviewed journal that encourages the explicit
    replication of already published research, promoting new and
    open-source implementations in order to ensure that the original
-   research is reproducible. The journal focusses mostly on
+   research is reproducible. The journal focuses mostly on
    computational research.
  
  - *[Collective Science Platform (CoScience)/The Self-Journals of Science](http://www.sjscience.org)

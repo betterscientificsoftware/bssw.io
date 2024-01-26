@@ -16,7 +16,7 @@ Approaches for building teams and improving cohesion---working with small, large
 <!---Topic order: 2--->
 
 - **Inclusivity**
-Inclusivity, equity, and diversity in scientific software.  Often abbreviated as DEI, EDI, or JEDI (j for justice).
+Inclusivity, inclusion and inclusive practices and principles in scientific software projects which may or may not be as a part of Diversity, Equity and Inclusion (DE&I).
 <!---Topic order: 3--->
 
 - **Funding Sources and Programs**

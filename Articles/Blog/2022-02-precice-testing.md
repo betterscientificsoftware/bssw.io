@@ -114,7 +114,7 @@ struct TestContext {
 BOOST_TEST(Feature) {
   // synchronize, initialize
   TestContext context(SCENARIO);
-  // exit test if unsed
+  // exit test if unused
   if (!context.valid()) return;
   
   BOOST_TEST(something);
@@ -301,6 +301,7 @@ Benjamin Uekermann is a junior professor in the CoE SimTech at the University of
 
 <!---
 Publish: yes
+Track: deep dive
 Pinned: no
 Topics: software interoperability, testing, development tools
 --->

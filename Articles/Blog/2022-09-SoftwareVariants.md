@@ -206,6 +206,7 @@ He works on exascale modeling of particle accelerators, especially plasma-based 
 
 <!---
 Publish: yes
+Track: deep dive
 Pinned: no
 Topics: design, performance portability, high-performance computing (HPC), testing, software engineering
 --->
