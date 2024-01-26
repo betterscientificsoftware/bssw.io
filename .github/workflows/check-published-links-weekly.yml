@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Reformat enviornment variables
+    - name: Reformat environment variables
       id: setup_vars
       run: |
         tmp=$(echo "${{ env.ignore_patterns }}" | tr '\n' ',' | sed -e 's/,,$//')
