@@ -170,7 +170,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [c-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
 [c-ms]: https://docs.microsoft.com/en-us/cpp/c-language/c-language-reference?view=msvc-170
 [c-clang]: https://clang.llvm.org
-[c-amd]: https://developer.amd.com/amd-aocc/
+[c-amd]: https://www.amd.com/content/dam/amd/en/documents/developer/version-4-1-documents/aocc/aocc-4.1-user-guide.pdf
 
 [//]: # (C++ language reference URLs)
 
@@ -178,7 +178,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [c++-cray]: https://support.hpe.com/hpesc/public/docDisplay?docId=a00115116en_us&docLocale=en_US&page=The_Cray_Compiling_Environment.html
 [c++-ibm]: https://www.ibm.com/docs/en/ssw_ibm_i_71/rzarg/sc097852.pdf
 [c++-ms]: https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170
-[c++-amd]: https://developer.amd.com/amd-aocc/
+[c++-amd]: https://www.amd.com/content/dam/amd/en/documents/developer/version-4-1-documents/aocc/aocc-4.1-user-guide.pdf 
 [c++-clang]: https://clang.llvm.org/cxx_status.html
 
 [//]: # (Fortran language reference URLs)
@@ -188,12 +188,12 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [f-intel]: https://www.intel.com/content/www/us/en/develop/documentation/fortran-compiler-oneapi-dev-guide-and-reference/top/language-reference.html "All Fortran standards 90-18"
 [f-cray]: https://support.hpe.com/hpesc/public/docDisplay?docId=a00115296en_us&page=About_the_Cray_Fortran_Reference_Manual.html
 [f-ibm]: https://www.ibm.com/support/pages/system/files/support/swg/swgdocs.nsf/0/7e46ea600b6646d0852579dc00331978/$FILE/langref.pdf
-[f-nag]: https://www.nag.com/nagware/np/r70_doc/compiler.pdf
+[f-nag]: https://support.nag.com/nagware/np/r71_doc/compiler.pdf
 [f-gnu]: https://devdocs.io/gnu_fortran/
 
 [//]: # (GPU language reference URLs)
 
-[opencl-amd]: https://rocmdocs.amd.com/en/latest/Programming_Guides/Opencl-programming-guide.html#opencl-programming-guide
+[opencl-amd]: https://github.com/KhronosGroup/OpenCL-Guide
 [opencl-intel]: https://www.intel.com/content/www/us/en/develop/documentation/iocl_rt_ref/top.html
 [opencl-nvidia]: https://developer.download.nvidia.com/compute/DevZone/docs/html/OpenCL/doc/OpenCL_Programming_Guide.pdf
 
@@ -257,7 +257,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 
 [//]: # (Portable Parallelism via Abstract Data)
 
-[ppard-kokkos]: https://kokkos.org/programming-guide/
+[ppard-kokkos]: https://kokkos.org/kokkos-core-wiki/
 [ppard-ga]: https://hpc.pnl.gov/globalarrays/documentation.shtml
 [ppard-legion]: https://legion.stanford.edu/pdfs/legion-manual.pdf
 [ppard-charm++]: https://charm.readthedocs.io/en/latest/charm++/manual.html
@@ -285,7 +285,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [api-sftp]: https://access.redhat.com/articles/5594481
 [api-scp]: https://www.computerhope.com/unix/scp.htm
 
-[api-hpss]: https://www.hpss-collaboration.org/documents/HPSS_7.5.3_Users_Guide.pdf?#page=9
+[api-hpss]: https://hpss-collaboration.org/wp-content/uploads/2023/09/hpss_10.3_users_guide.pdf?#page=9
 [api-gdrive]: https://support.google.com/a/users/answer/9282958?hl=en
 [api-globus]: https://docs.globus.org/cli/
 
@@ -330,7 +330,7 @@ Version Control | [Git][api-git]/[Subversion][api-svn]/[GitLab][api-gitlab]/[Git
 [api-github]: https://docs.github.com/en
 
 [api-slurm]: https://slurm.schedmd.com
-[api-cobalt]: https://trac.mcs.anl.gov/projects/cobalt/wiki/CommandReference
+[api-cobalt]: https://ftp.mcs.anl.gov/pub/cobalt/archive/cobalt-0.95.2-manual.pdf
 [api-moab]: https://iitj.ac.in/uploaded_docs/cc/HPC_training/mcmuserguide.pdf
 
 
