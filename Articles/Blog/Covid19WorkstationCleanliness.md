@@ -292,19 +292,19 @@ Pinned: no
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[CDC guidance on CV-19 transmission](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[CDC guidance on CV-19 transmission](https://www.cdc.gov/coronavirus/2019-ncov/your-health/about-covid-19.html)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[WHO summary remarks of COVID-19](https://www.who.int/health-topics/coronavirus)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[NIH CV-229E surface study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1](https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v2.full.pdf)
 * <a name="sfer-ezikiw-5"></a><sup>5</sup>[Surface study of various coronaviruses](https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext)
-* <a name="sfer-ezikiw-6"></a><sup>6</sup>[CDC guidance on cleaning surfaces](https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[CDC guidance on cleaning surfaces](https://www.cdc.gov/mmwr/volumes/69/wr/mm6923e2.htm)
 * <a name="sfer-ezikiw-7"></a><sup>7</sup>[CDC description of transmission scenario](https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fprevention-treatment.html)
 * <a name="sfer-ezikiw-8"></a><sup>8</sup>[Wikipedia summary of coronavirus](https://en.wikipedia.org/wiki/Coronavirus)
 * <a name="sfer-ezikiw-9"></a><sup>9</sup>[CDC explains names SARS-CoV-2 and COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it)
-* <a name="sfer-ezikiw-10"></a><sup>10</sup>[CDC describes higher risk persons](https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html)
+* <a name="sfer-ezikiw-10"></a><sup>10</sup>[CDC describes higher risk persons](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html)
 * <a name="sfer-ezikiw-11"></a><sup>11</sup>[Asymptomatic transmission of COVID-19](https://jamanetwork.com/journals/jama/fullarticle/2762028)
 * <a name="sfer-ezikiw-12"></a><sup>12</sup>[Explanation of the term Fomite](https://en.wikipedia.org/wiki/Fomite)
-* <a name="sfer-ezikiw-13"></a><sup>13</sup>[CDC guidance on fomite transmission](https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fhome%2Fcleaning-disinfection.html)
+* <a name="sfer-ezikiw-13"></a><sup>13</sup>[CDC guidance on fomite transmission](https://stacks.cdc.gov/view/cdc/104762)
 * <a name="sfer-ezikiw-14"></a><sup>14</sup>[Best disinfecting wipes](https://learningregistry.org/reviews/best-disinfectant-wipes)
 * <a name="sfer-ezikiw-15"></a><sup>15</sup>[Best practices for cleaning electronics](https://www.pcmag.com/how-to/how-to-spring-clean-your-electronics)
 * <a name="sfer-ezikiw-16"></a><sup>16</sup>[Apple guidance on 70% alcohol](https://support.apple.com/en-us/HT204172?mod=article_inline)
