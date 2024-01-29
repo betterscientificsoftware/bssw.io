@@ -15,7 +15,7 @@ Inclusive practices have a role to play in many aspects of any scientific comput
 If *diversity* is being asked to the scientific computing party, *inclusivity* is being asked to dance.
 Inclusivity is [accessibility’s](https://www.inclusionhub.com/articles/a11y-at-salesforce) close cousin.
 
-Inclusivity and inclusive practices can play a role in improving almost every aspect of a scientific computing project including documentation, user interface and user experience, customer support processes, collaborations, presentations, publications, and other communications (e.g. GitHub or email) and even the actual code we write. 
+Inclusivity and inclusive practices can play a role in improving almost every aspect of a scientific computing project, including documentation, user interface, user experience, customer support processes, collaborations, presentations, publications, and other communications (e.g., GitHub or email) and even the actual code we write. 
 The benefits of inclusive practices include reducing barriers to adoption, increasing a product's reach, improving productivity, increasing innovation, attracting and retaining a wider talent pool, and improving job satisfaction.
 
 For some, inclusive practices and inclusivity can be indistinguishable from the often institutionalized enterprise of Diversity, Equity, and Inclusion (DE&I).
@@ -23,15 +23,15 @@ Viewed through a DE&I lens, inclusivity can wind up being seen more as an exerci
 In turn, topics central to DE&I such as gender identity, sexual harassment, and racism can easily obscure our perception of the full landscape of inclusive practices.
 It is important to keep in mind that although these topics tend to capture more of the news headlines or tend to be where a lot of the more serious DE&I work is needed, inclusivity is actually much, much wider than those topics.
 
-There are many other dimensions to inclusivity such as neurodivergence (15-20% prevalence), mobility impairment (16%), handedness (10%), dyslexia/dyscalculia (3-7%), visual impairment (1%-40%), depending on how we count), hearing impairment (15%), speaking impairment (3-7%), being prone to migraines (10%), or being color vision deficient (CVD) (5%).
-In addition, without trying too hard, it’s easy to think of many other ways in which large swaths of the scientific computing community have a shared experience impacting participation which without care can lead to [inclusivity bugs](https://bssw.io/items/inclusivity-bugs) including such things as English as a second language, immigration status, culturally or religiously relevant legal holidays, remote/hybrid work arrangement, and even time-zone, just to name a few.
+There are many other dimensions to inclusivity such as neurodivergence (15-20% prevalence), mobility impairment (16%), handedness (10%), dyslexia/dyscalculia (3-7%), visual impairment (1%-40%, depending on how we count), hearing impairment (15%), speaking impairment (3-7%), being prone to migraines (10%), or being color vision deficient (CVD) (5%).
+In addition, without trying too hard, it’s easy to think of many other ways in which large swaths of the scientific computing community have a shared experience impacting participation, which without care can lead to [inclusivity bugs](https://bssw.io/items/inclusivity-bugs), including such things as English as a second language, immigration status, culturally or religiously relevant legal holidays, remote/hybrid work arrangements, and even time-zones, just to name a few.
 
-It is probably easy for most of us to connect the relevance of *some* of these dimensions (e.g. handedness, dyscalculia or color blindness) directly with the day to day work of developing scientific computing software.
-Some of us may have more difficulty seeing how many of the *other* dimensions to inclusion (e.g. English as a second language, immigration status, culturally relevant legal holidays, etc.) also play a significant role in the work of scientific computing.
+It is probably easy for most of us to connect the relevance of *some* of these dimensions (e.g., handedness, dyscalculia or color blindness) directly with the day to day work of developing scientific computing software.
+Some of us may have more difficulty seeing how many of the *other* dimensions to inclusion (e.g., English as a second language, immigration status, culturally relevant legal holidays, etc.) also play a significant role in the work of scientific computing.
 
 The software and the work involved in developing it is really just one aspect of a successful and sustainable scientific computing project.
 Most of the work in scientific computing involves large, multidisciplinary teams with contributors from all over the world and with the goals of advancing science in service to the world.
-Ultimately, the scientific productivity of these projects is significantly impacted by the ability of people to work together; to collaborate ethically and trustfully, to communicate with clarity and empathy, to be inspired to contribute authentically and with enthusiasm and thoughtfulness.
+Ultimately, the scientific productivity of these projects is significantly impacted by the ability of people to work together, to collaborate ethically and trustfully, to communicate with clarity and empathy, to be inspired to contribute authentically and with enthusiasm and thoughtfulness.
 Inclusivity and inclusive practices play a key role in facilitating all of that and more.
 Likewise, the lack of attention to inclusivity and inclusive practices can dramatically negatively impact scientific productivity.
 
@@ -41,22 +41,22 @@ Examples of other practices include adopting a [code of conduct](https://www.acm
 
 To put things in perspective, it is worth considering just how much the scientific computing community already invests in inclusivity...as it manifests in the software we actually develop and maintain.
 
-The code the scientific computing community has been developing has for decades exemplified all the best goals of inclusivity.
-For example, our community values *interoperable* libraries so that, for example, an application can easily swap one solver library (e.g. PETSc) for another (e.g. HYPRE).
+The code that the scientific computing community has been developing has for decades exemplified all the best goals of inclusivity.
+For example, our community values *interoperable* libraries so that, for example, an application can easily swap one solver library (e.g., PETSc) for another (e.g., HYPRE).
 Software interoperability is a manifestation of inclusivity in the actual code we write.
 
 We value computational kernels and tools that operate on single, double, quad and even mixed or arbitrary precision.
-We also value both API (e.g. compile-time) and ABI (link-time) compatibility in successive or related versions of the same library. 
+We also value both API (compile-time) and ABI (link-time) compatibility in successive or related versions of the same library. 
 We also desire widely used libraries to support multiple different programming language interface bindings such as C, C++, Fortran, Python, or Java.
 These are yet other manifestations of inclusivity in the actual code we write.
 
-The whole goal of performance portability is to develop an HPC/CSE application *once* but have it run efficiently *everywhere* (e.g. CPUs, GPUs, co-processors, FPGAs, etc.).
+The whole goal of performance portability is to develop an HPC/CSE application *once* but have it run efficiently *everywhere* (e.g., CPUs, GPUs, co-processors, FPGAs, etc.).
 Performance portability is an extremely challenging design goal that has required substantial effort and resources to achieve.
-It and the effort we have invested in it is yet another example of how the goals of inclusivity manifest in the actual code we design and develop.
+Performance portability and the effort we have invested in it is yet another example of how the goals of inclusivity manifest in the actual code we design and develop.
 
 The truth is, it is quite obvious from the actual code we labor to produce that we are fully committed to inclusive practices and inclusivity.
 A substantial level of effort in the design, implementation, and support of the software our HPC/CSE community develops and maintains is all about inclusivity for our software.
-It only makes sense that we would be equally committed, if not more so, to inclusivity for the people developing and using it as well.
+It only makes sense that we would be equally committed, if not more so, to inclusivity as well for the people developing and using this software.
 
 On BSSw.io, articles on the topic of Inclusivity are aimed at raising awareness of the role of inclusivity and inclusive practices in sustaining and improving scientific computing projects.
 
