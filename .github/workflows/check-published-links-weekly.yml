@@ -16,6 +16,7 @@ env:
     docs
     images
     utils
+    Events
   ignore_files: |
     foo
 
@@ -90,7 +91,8 @@ jobs:
 # or 3) pull request
 #
 # Stores ignore cases in env. variables and then reformats those (because they have
-# newlines) into a form that can be digested as inputs to other actions.
+# newlines) into a comma-separated single line string that can be digested as
+# inputs to other actions.
 #
 # Uses changed-files action in the case of a pull request. Otherwise, uses a find
 # command but builds up the find command to ignore specified directories.
@@ -99,3 +101,9 @@ jobs:
 # list of files to examine. Eventually, the string variable holding all the file
 # names may get too long.
 #
+# We include Events in dirs to ignore because of all content we host, I suspect
+# Event URLs are the most likely to go stale rather quickly **and** because
+# the URL validness is important only during the short window prior to the event.
+# That said, we don't want to ignore Events in PRs.
+#
+
