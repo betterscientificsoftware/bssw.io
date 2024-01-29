@@ -219,7 +219,7 @@ Pinned: no
 [3-sfer-ezikiw]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659470/ "NIH CV-229E surface study"
 [4-sfer-ezikiw]: https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v2.full.pdf "Aerosol and surface stability of SARS-CoV-2 compared with SARS-CoV-1"
 [5-sfer-ezikiw]: https://www.journalofhospitalinfection.com/article/S0195-6701(20)30046-3/fulltext "Surface study of various coronaviruses"
-[6-sfer-ezikiw]: https://www.cdc.gov/coronavirus/2019-ncov/community/organizations/cleaning-disinfection.html#How%20to%20Clean%20and%20Disinfect "CDC guidance on cleaning surfaces"
+[6-sfer-ezikiw]: https://www.cdc.gov/mmwr/volumes/69/wr/mm6923e2.htm "CDC guidance on cleaning surfaces"
 [7-sfer-ezikiw]: https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/sars-cov-2-transmission.html "CDC description of transmission scenario"
 [8-sfer-ezikiw]: https://en.wikipedia.org/wiki/Coronavirus "Wikipedia summary of coronavirus"
 [9-sfer-ezikiw]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it "CDC explains names SARS-CoV-2 and COVID-19"
