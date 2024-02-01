@@ -30,6 +30,10 @@ Format:
     - https://github.com/betterscientificsoftware/bssw.io/blob/0e1ba1664239ab6097e903f8bb94fef08576f103/.github/workflows/notify-external-contrib.yml#L6-L12
     - job: notify-external-contributions
         - Label and send email to bssw-editorial-list for externally opened issues, prs and discussions
+* check-urls.yml (Check URLs)
+    - trigger: manual, scheduled, pull-request
+    - checks URLs in a PR or in whole repo.
+
 
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?
