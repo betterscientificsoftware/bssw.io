@@ -7,18 +7,15 @@ on:
   pull_request:
     branches: [ main ]
 env:
-  ignore_patterns: |
+  ignore_url_patterns: |
     http://localhost:4000
     https://preview.bssw.io
     https://github.com/<your-github-handle>
-  ignore_dirs: |
-    .github
-    docs
-    images
-    utils
-    Events
-  ignore_files: |
-    foo
+  ignore_file_patterns: |
+    docs/
+    images/
+    utils/
+    Events/
 
 jobs:
   check-urls:
@@ -28,10 +25,10 @@ jobs:
     - name: Reformat environment variables
       id: setup_vars
       run: |
-        tmp=$(echo "${{ env.ignore_patterns }}" | tr '\n' ',' | sed -e 's/,,$//')
-        echo "ignore_patterns=$tmp" >> $GITHUB_OUTPUT
-        tmp=$(echo "${{ env.ignore_dirs }}" | sed -e 's@\(.*\)@"**/\1/**"@' | tr '\n' ',' | sed -e 's@,"\*\*//\*\*",$@@')
-        echo "ignore_dirs=$tmp" >> $GITHUB_OUTPUT
+        tmp=$(echo "${{ env.ignore_url_patterns }}" | tr '\n' ',' | sed -e 's/,,$//')
+        echo "ignore_url_patterns=$tmp" >> $GITHUB_OUTPUT
+        tmp=$(echo "${{ env.ignore_file_patterns }}" | tr '\n' ',' | sed -e 's/,,$//')
+        echo "ignore_file_patterns=$tmp" >> $GITHUB_OUTPUT
 
     - name: Checkout Repository
       uses: actions/checkout@v4
@@ -42,21 +39,16 @@ jobs:
       uses: tj-actions/changed-files@v42
       with:
         separator: ','
-        files: '**.md'
-        files_ignore: ${{ steps.setup_vars.outputs.ignore_dirs }}
 
-    - name: Generate list of selected files to URL check 
+    - name: Generate lists of files to check and ignore
       id: file_list
       run: |
         if [ "${{ github.event_name }}" = "pull_request" ]; then
           echo "files=${{ steps.changed-files.outputs.all_changed_files }}" >> $GITHUB_OUTPUT
+          echo "ignore_file_patterns=" >> $GITHUB_OUTPUT
         else
-          fcmd=""
-          tmp=$(echo "${{ env.ignore_dirs }}" | tr '\n' ' ' | sed -e 's/  $//')
-          for d in $ignore_dirs; do
-              fcmd="$fcmd -name $d -prune -o "
-          done
-          echo "files=$(find . $fcmd -name '*.md' -print | tr '\n' ',')" >> $GITHUB_OUTPUT
+          echo "files=" >> $GITHUB_OUTPUT
+          echo "ignore_file_patterns= ${{ steps.setup_vars.outputs.ignore_file_patterns }}" >> $GITHUB_OUTPUT
         fi
 
     - name: Check URLs in selected files
@@ -79,7 +71,10 @@ jobs:
         timeout: 10
 
         # Exclude these patterns from the checker
-        exclude_patterns: ${{ steps.setup_vars.outputs.ignore_patterns }}
+        exclude_patterns: ${{ steps.setup_vars.outputs.ignore_url_patterns }}
+
+        # Exclude these dirs and files
+        exclude_files: "${{ steps.file_list.outputs.ignore_file_patterns }}"
 
         # Operate only on the specific list of files selected above
         include_files: "${{ steps.file_list.outputs.files }}"
@@ -90,20 +85,22 @@ jobs:
 # Triggers in one of three ways; 1) manually, 2) scheduled weekly Sunday's 5:17 AM
 # or 3) pull request
 #
-# Stores ignore cases in env. variables and then reformats those (because they have
-# newlines) into a comma-separated single line string that can be digested as
-# inputs to other actions.
+# Stores ignore pattern cases in env. variables and then reformats those (because
+# they have newlines) into a comma-separated single line string that can be digested
+# as inputs to other actions.
 #
-# Uses changed-files action in the case of a pull request. Otherwise, uses a find
-# command but builds up the find command to ignore specified directories.
+# For PRs, uses changed-files action to get list of changed files and passes this
+# to urlchecker via `include_files param. Also, ignore file patterns is set to 
+# empty string for PRs because we think URLs anywhere in PRs should be checked.
 #
-# From either the changed files of a pull request or a find command, generates a
-# list of files to examine. Eventually, the string variable holding all the file
-# names may get too long.
+# For scheduled or manual triggers, uses fact that empty `include_files` param
+# causes urlchecker to process *all* files that match in `file_type` param but do
+# not match any `exclude_files` patterns. These file patterns for exclude work
+# more or less like file globs. So, specifying the initial part of the string
+# for a file (path) name is sufficient to ignore the file.
 #
-# We include Events in dirs to ignore because of all content we host, I suspect
-# Event URLs are the most likely to go stale rather quickly **and** because
+# We include Events in file patterns to ignore because of all content we host,
+# we suspect Event URLs are the most likely to go stale rather quickly **and** because
 # the URL validness is important only during the short window prior to the event.
-# That said, we don't want to ignore Events in PRs.
+# That said, we don't want to ignore Events in PRs and we do not as per above.
 #
-
