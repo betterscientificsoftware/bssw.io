@@ -52,7 +52,7 @@ jobs:
         fi
 
     - name: Check URLs in selected files
-      uses: urlstechie/urlchecker-action@0.0.34
+      uses: urlstechie/urlchecker-action@update/0.0.35
       with:
 
         # Work only on markdown files
