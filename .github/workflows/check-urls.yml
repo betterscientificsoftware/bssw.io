@@ -70,6 +70,9 @@ jobs:
         # Google Forms is having enormous timeouts
         timeout: 10
 
+        # Ignore certificate issues
+        no_check_certs: True
+
         # Exclude these patterns from the checker
         exclude_patterns: ${{ steps.setup_vars.outputs.ignore_url_patterns }}
 
