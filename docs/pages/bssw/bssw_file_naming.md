@@ -15,7 +15,7 @@ This section describes how to name the `.md` (markdown) file that is put in Gith
   where
     * YYYY = four digit year
     * MM = two digit month. 
-* If the content is of type Curated Content or an Original Article, do not include the date part.
+* If the content is of type Curated Content or a Blog do not include the date part.
 * For the `DocTitle...` part of the file name, to avoid terribly long file names,
 authors are encouraged to use appropriate abbreviations and/or truncation. The point
 is to capture the content's topic as clearly as possible in the file name without getting
@@ -26,7 +26,6 @@ first *distinguishing* word of the title in the `DocTitle...` part of the file n
 
 |Example filename | Notes |
 |-------|--------|
-|`ContainersForResearchSw.md` | Original article |
 |`BalterGithubCommunication.md` | Curated Content |
 |`2019-10-BluewatersE4S.md` | Event |
 |`2020-08-PSIPForHDF5.md` | Blog article |

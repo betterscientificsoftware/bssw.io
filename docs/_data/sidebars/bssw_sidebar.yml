@@ -95,8 +95,8 @@ entries:
           url: /bssw_styling_common.html
           output: web
 
-        - title: Original Article (Blog) Styling 
-          url: /bssw_styling_originalarticles.html
+        - title: Blog Styling 
+          url: /bssw_styling_blogs.html
           output: web
 
         - title: Curated Content Styling

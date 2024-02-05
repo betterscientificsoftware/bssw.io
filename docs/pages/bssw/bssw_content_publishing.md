@@ -30,7 +30,7 @@ The following steps assume that the BSSw editorial team has already determined t
 * Gender neutrality - BSSw.io article prefer to be gender neutral.
 * Article tone - BSSw.io articles prefer to be polite and not offend any sensibilities of our intended audience 
 * Review for sensitive information.
-* PI approval  - if an original article talks about anything that can be construed as sensitive information and may need PI approval
+* PI approval  - if an article talks about anything that can be construed as sensitive information and may need PI approval
 * Image copyright permissions.
 * Licensing terms checked on BSSw.io: "By checking this box, author acknowledges and agrees to licensing terms of content they publish at BSSw.io".
 * Additional professional proofreading needed?
@@ -42,7 +42,7 @@ The following steps assume that the BSSw editorial team has already determined t
 * Hyperlinks validity.
 * Check for any prior versions of the same content. If the prior version is very outdated, consider replacing it with this newer content. Please judge on a case-by-case basis.
 * Past events of the same conferences/workshops/etc. are not deleted and just kept as archives.
-* If using [formal citations/references](bssw_styling_originalarticles.html#citationsreferences), use [`wikize_refs.py -i <base>.md`](https://github.com/betterscientificsoftware/bssw.io/blob/main/utils/README.md#wikize_refspy) to deal with these (see [here](https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/ReferencesInMarkdownHybridApproach.md) for details).
+* If using [formal citations/references](bssw_styling_blogs.html#citationsreferences), use [`wikize_refs.py -i <base>.md`](https://github.com/betterscientificsoftware/bssw.io/blob/main/utils/README.md#wikize_refspy) to deal with these (see [here](https://github.com/betterscientificsoftware/bssw.io/blob/main/Articles/Blog/ReferencesInMarkdownHybridApproach.md) for details).
 
 ### Pre-publishing Checks
 * Finalize the topic(s) and other parameters in metadata.
