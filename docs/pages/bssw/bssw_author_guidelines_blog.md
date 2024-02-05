@@ -1,5 +1,5 @@
 ---
-title: "Guidelines for Authors: Blog Articles"
+title: "Blog Submission Guidelines for Authors"
 sidebar: bssw_sidebar
 permalink: bssw_author_guidelines_blog.html
 ---

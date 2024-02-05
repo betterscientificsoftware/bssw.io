@@ -6,9 +6,9 @@ permalink: bssw_styling_blogs.html
 
 ## Introduction
 
-All GitHub file names for BSSw.io blogs should follow the naming conventions laid out [here](https://betterscientificsoftware.github.io/bssw.io/bssw_file_naming.html).
+**Note**: In Feb 2024, with the establishment of the *tracks* feature in blog, the term "original article" was deprecated.
 
-Note: In Feb 2024, with the establishment of the *tracks* feature in blog, the term "original article" was deprecated.
+All GitHub file names for BSSw.io blogs should follow the naming conventions laid out [here](https://betterscientificsoftware.github.io/bssw.io/bssw_file_naming.html).
 
 The main part of the blog consists of the (1) Deck, (2) Main body of the blog and (3) Metadata. 
 
