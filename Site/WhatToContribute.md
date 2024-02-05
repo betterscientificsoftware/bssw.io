@@ -14,7 +14,7 @@ Developer productivity and software sustainability efforts for computational sci
 ### Types of Content
 We solicit the following types of content from our readers and the community.
 
-- **Blog:** An article with original content.  We welcome different types of blog: articles sharing community happenings, experience articles (to inform the CSE community about how to improve some aspect of software productivity and sustainability) or deep dive technical articles. Brevity is appreciated; for example a blog is usually around 500--1,500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
+- **Blog:** An article with original content.  We welcome different types of blogs: articles sharing community happenings, experience articles (to inform the CSE community about how to improve some aspect of software productivity and sustainability) or deep dive technical articles. Brevity is appreciated; for example a blog is usually around 500--1,500 words.  We will solicit contributions from thought leaders in the community and welcome proposals from anyone.
 
 - **Curated content:** Brief article that highlights other web-based content (such as tools, websites, books, organizations, etc.). Your article should describe why the CSE community might find value in the linked content.
 
