@@ -1,7 +1,7 @@
 ---
 title: Blog Specific Styling Guidelines
 sidebar: bssw_sidebar
-permalink: bssw_styling_blog.html
+permalink: bssw_styling_blogs.html
 ---
 
 ## Introduction
