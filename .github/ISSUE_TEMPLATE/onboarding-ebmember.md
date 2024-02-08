@@ -11,6 +11,7 @@ Checklist for on-boarding an editorial board member
    * [ ] Get new member's GitHub ID
    * [ ] Get new member's preferred email address
    * [ ] Get new member's google email address
+   * [ ] Get new member's profile image (if willing)
 * [ ] Add new member to BSSw.io repo GitHub teams
 * [ ] Add new member to [bssw-editorial-board](https://github.com/orgs/betterscientificsoftware/teams/bssw-editorial-board) team
 * [ ] Add new member to Editorial Board Mailing list
