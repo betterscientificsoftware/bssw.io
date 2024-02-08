@@ -32,6 +32,6 @@ Readers are welcome to [read more]().
 
 <!---
 Publish: yes
-Pinned: no
+Pinned: yes
 Topics: inclusivity
 --->
