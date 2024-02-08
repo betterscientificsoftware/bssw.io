@@ -7,7 +7,10 @@ labels: 'scope: site-internal'
 
 Checklist for on-boarding an editorial board member
 
-* [ ] Get new member's GitHub ID
+* [ ] Gather info
+   * [ ] Get new member's GitHub ID
+   * [ ] Get new member's preferred email address
+   * [ ] Get new member's google email address
 * [ ] Add new member to BSSw.io repo GitHub teams
 * [ ] Add new member to [bssw-editorial-board](https://github.com/orgs/betterscientificsoftware/teams/bssw-editorial-board) team
 * [ ] Add new member to Editorial Board Mailing list
