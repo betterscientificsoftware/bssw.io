@@ -1,3 +1,10 @@
+---
+name: New EB Member
+about: Template for adding new Editorial Board Member 
+title: Add EB Member
+labels: 'scope: site-internal'
+---
+
 Checklist for on-boarding an editorial board member
 
 * [ ] Get new member's GitHub ID
