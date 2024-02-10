@@ -5,7 +5,7 @@ Understanding the types of bugs observed in Julia programs can help developers i
 
 #### Contributed by [Akond Rahman](https://github.com/akondrahman "Akond Rahman's GitHub Profile")
 
-#### Publication date: February 13, 2024 
+#### Publication date: February 10, 2024 
 
 In this article, I describe some of our [research findings](https://link.springer.com/article/10.1007/s10664-023-10328-5) related to bugs that occur in Julia programs.
 Julia is becoming increasingly popular to implement scientific software.
