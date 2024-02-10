@@ -1,9 +1,8 @@
 # Come for Syntax, Stay for Speed, and Understand Bugs in Julia Programs
 
-**Hero Image:**
+The Julia programming language is of increasing interest to scientific software developers.
+Understanding the types of bugs observed in Julia programs can help developers identify, repair, or avoid them.
 
- - <img src='../../images/julia-bugs-taxonomy.png' />
- 
 #### Contributed by [Akond Rahman](https://github.com/akondrahman "Akond Rahman's GitHub Profile")
 
 #### Publication date: February 13, 2024 
@@ -24,10 +23,12 @@ We studied 742 bugs via qualitative analysis. Using our qualitative analysis, we
 
 ### Major findings
 
+<img src='../../images/julia-bugs-taxonomy.png' class='page lightbox' />[Categories of bugs identified in the study.]
+
 In this study, we identified nine types of bugs.
-Of these, three have not been reported in other types of software systems, namely, "polyglot," "pre-compilation," and "world age."  
-Polyglot defects relate to the incorrect use of Julia's interfaces to other programming languages.  
-Pre-compilation defects are due to incorrect use of Julia's pre-compilation and code caching capabilities.  
+Of these, three have not been reported in other types of software systems, namely, "polyglot," "pre-compilation," and "world age."
+Polyglot defects relate to the incorrect use of Julia's interfaces to other programming languages.
+Pre-compilation defects are due to incorrect use of Julia's pre-compilation and code caching capabilities.
 World age defects are named for an analysis that Julia does to facilitate dynamic code loading and some program optimizations.
 
 Common symptoms of bugs in Julia programs are program and build failures, incorrect calculations, and reduction in program execution speed.
@@ -35,9 +36,9 @@ Survey respondents find bugs related to data types to be the most common and mos
 
 ### What does it mean for practitioners working in the scientific software space?
 
-Based on this study, we offer several suggestions and recommendations for toolsmiths and researchers using Julia.  
-First, we see ample opportunities for the development of tools to automatically detect and repair bugs in some of the categories we have identified, such as security and world age defects.  
-Second, developers should be encouraged to gain a better understanding of the unique characteristics of the Julia language and ecosystem and to follow Julia-related best practices in writing their code.  
+Based on this study, we offer several suggestions and recommendations for toolsmiths and researchers using Julia.
+First, we see ample opportunities for the development of tools to automatically detect and repair bugs in some of the categories we have identified, such as security and world age defects.
+Second, developers should be encouraged to gain a better understanding of the unique characteristics of the Julia language and ecosystem and to follow Julia-related best practices in writing their code.
 And finally, developers should facilitate the seamless integration of quality assurance throughout the Julia software ecosystem.
 
 ### Author bio
