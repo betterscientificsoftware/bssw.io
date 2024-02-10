@@ -23,7 +23,7 @@ We studied 742 bugs via qualitative analysis. Using our qualitative analysis, we
 
 ### Major findings
 
-<img src='../../images/julia-bugs-taxonomy.png' class='page lightbox' />[Categories of bugs identified in the study.]
+<img src='../../images/julia-bugs-taxonomy.png' class='page' />[Categories of bugs identified in the study.]
 
 In this study, we identified nine types of bugs.
 Of these, three have not been reported in other types of software systems, namely, "polyglot," "pre-compilation," and "world age."
