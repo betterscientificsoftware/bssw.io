@@ -1,4 +1,4 @@
-# Webinar: Code Review for Scientific Software - experiences building an online tutorial
+# Webinar: Code Review for Scientific Software: Experiences building an online tutorial
 
 - Event Date: 2024-03-20
 - Location: Online
@@ -16,7 +16,7 @@ high-performance computers (HPC) and occur approximately monthly.
 
 Resource Information | Details
 :--- | :---			   
-Webinar Title | Code Review for Scientific Software - experiences building an online tutorial
+Webinar Title | Code Review for Scientific Software: Experiences building an online tutorial
 Date and Time | 2024-03-20 01:00 pm - 02:00 pm EDT
 Presenter | Helen Kershaw (NSF National Center for Atmospheric Research)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpcbp-082-codereview>
@@ -26,7 +26,7 @@ Presentation Language | English
 
 ### Abstract
 
-<p><a href="https://code-review.org">code-review.org</a> is an online tutorial for code review made possible by the <a href="https://bssw.io/fellowship">Better Scientific Software Fellowship</a>. Code review is a skill. You can break it down, you can practice, and you can get better at it. The difficult thing is you are often learning a bunch of other skills at the same time. Scientists are often working on a new scientific problem while trying to learn git, GitHub, a programming language… all while someone ‘criticizes’ their code. Equally, scientific software developers may start work in a domain they know little about. It can be very difficult to separate criticism of the code from criticism of the person. Reviewing is hard - you really have to take into account how to communicate constructive and actionable criticism. <a href="https://code-review.org">code-review.org</a> aims to provide a way to practice reviewing in a no-consequence environment using the tutorial. Experience with code review from the NCAR Software Engineering Assembly will be presented, including the positive and negative effects of code review.</p>
+<p><a href="https://code-review.org">Code-review.org</a> is an online tutorial for code review made possible by the <a href="https://bssw.io/fellowship">Better Scientific Software Fellowship</a>. Code review is a skill. You can break it down, you can practice, and you can get better at it. The difficulty is you are often learning a bunch of other skills at the same time. Scientists are often working on a new scientific problem while trying to learn git, GitHub, a programming language, etc., all while someone ‘criticizes’ their code. In addition, scientific software developers may start work in a new and unfamiliar domain. It can be very difficult to separate criticism of the code from criticism of the person. Reviewing is hard; people truly need to take into account how to communicate constructive and actionable criticism. <a href="https://code-review.org">Code-review.org</a> aims to provide a way to practice reviewing in a no-consequence environment using the tutorial. Experience with code review from the NCAR Software Engineering Assembly will be presented, including the positive and negative effects of code review.</p>
 
 ### Presenter
 
