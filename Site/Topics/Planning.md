@@ -35,7 +35,7 @@ The ability of software to continue or evolve.  Considerations are often differe
 <!---Topic order: 6--->
 
 - **User Experience Design**
-An intentional process of designing the user experience for a software (or other) product.
+An intentional process of designing for the user experience of a software (or other) product.
 <!---Topic order: 7--->
 
 <!---
