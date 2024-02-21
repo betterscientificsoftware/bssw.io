@@ -12,6 +12,8 @@ Resource Information | Details
 :--- | :---			   
 Webinar Title | [STRUDEL Hackathon: Go From User Need to UI Prototype in One Day](https://strudel.science/engage/events/03-19-2024-strudel-ds-hackathon/)
 Date and Time | 2024-03-19
+Registration Deadline | 2024-03-11
+Registration Link | <https://go.lbl.gov/strudel-hackathon-signup>
 Presenters | The STRUDEL Team, Lawrence Berkeley National Laboratory
 Presentation Language | English
 Project | [Scientific sofTware Research for User experience, Design, Engagement, and Learning](https://strudel.science/) (STRUDEL)
