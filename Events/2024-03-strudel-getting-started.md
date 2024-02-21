@@ -5,7 +5,7 @@
 - Event Website: <https://strudel.science/engage/events/03-08-2024-getting-started-with-strudel-ds/>
 - Organizers: Lawrence Berkeley National Laboratory Scientific Data Division UX Team
 
-This webinar, produced by the Scientific sofTware Research for User experience, Design, Engagement, and Learning (STRUDEL) project, will help you get started using our design system.
+This webinar, produced by the Scientific sofTware Research for User experience, Design, Engagement, and Learning (STRUDEL) project, will help you get started using their design system.
 
 Resource Information | Details
 :--- | :---			   

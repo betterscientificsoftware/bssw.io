@@ -31,5 +31,5 @@ The STRUDEL project is hosting an all-day, in-person hackathon on Tuesday March 
 
 <!---
 Publish: yes
-Topics: Online learning, user experience design 
+Topics: in-person learning, user experience design 
 --->
