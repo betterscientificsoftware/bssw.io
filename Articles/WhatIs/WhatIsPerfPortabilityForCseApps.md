@@ -17,8 +17,8 @@ Portability: An application code is portable if it can run on a diverse set of p
 needing significant modifications to the source and can produce predictably similar output.
 
 Performance portability: An application has portable performance if in addition to running on
-diverse platforms it exhibits similar accuracy, stability, and reliability across these platforms for a
-given configuration. Moreover, the time to solution should reflect efficient utilization of available
+diverse platforms, it exhibits similar accuracy, stability, and reliability across these platforms for a
+given configuration. Moreover, the time to solution should reflect the efficient utilization of available
 computational resources on each platform.
 
 The short article *[Understanding Performance Portability for CSE Applications](/blog_posts/understanding-performance-portability-for-cse-applications)* introduces basic concepts in performance portability.

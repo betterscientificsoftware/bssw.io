@@ -5,7 +5,7 @@
 <!--- deck start --->
 
 **Software Process Improvement** is the application of a systematic approach to the identification, evaluation, and improvement of software processes which is critical for computational science and engineering projects.
-The overall goals of software process improvement in scientific computing are to enhance the quality, efficiency, reliability and sustainability of software development in scientific research.
+The overall goals of software process improvement in scientific computing are to enhance the quality, efficiency, reliability, and sustainability of software development in scientific research.
 
 <!--- deck end --->
 

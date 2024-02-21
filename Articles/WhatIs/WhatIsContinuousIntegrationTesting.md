@@ -18,13 +18,11 @@ develop, test, develop, test, develop, test.
 
 What constitutes *reasonable* frequency and granularity for CI testing? Teams are free to define what
 is *reasonable*. This can vary among teams. Even within a team, different categories of work may be
-handled with different frequency and granularity. For example, for bug-fix work, frequency may be once
-at the end of each day and granularity may be *completed* bug fixes whereas for
-feature enhancements requiring many person-weeks, frequency may be once a week and granularity whatever
-changes are completed in a week. For high functioning CI, frequency may be many times per day and granularity
+handled with different frequency and granularity. For example, for bug-fix work, the frequency may be once
+at the end of each day and granularity may be *completed* bug fixes whereas, for feature enhancements requiring many person-weeks, frequency may be once a week and granularity of whatever changes are completed in a week. For high-functioning CI, the frequency may be many times per day and granularity
 may be each method/function/subroutine added or changed. To understand the ultimate aims of CI, one can imagine CI
-testing taken to the extreme is like *auto correct* in a word processor where programmers would get immediate
-feedback regarding test status with literally each key-stroke they enter.
+testing taken to the extreme is like auto-correct in a word processor where programmers would get immediate
+feedback regarding test status with literally every key-stroke they enter.
 
 CI testing may have a number of implications for **both** software and test development. First, it can demand a
 very high level of *automation*.
@@ -58,9 +56,8 @@ development for extended periods without being required to merge other's work wi
 routine basis. Indeed, this is one of the aims of CI testing; to prevent any one branch of development to
 fall too far out of sync with any other.
 
-Compute resources necessary to complete tests must be sufficient that CI testing feedbacks to developers
-are immediate or nearly so. Typically, for scientific software, this means that only certain types of tests are
-appropriate. For example, a test that checks convergence of a numerical algorithm at large scale is
+Compute resources necessary to complete tests must be sufficient so that CI testing feedback to developers is immediate or nearly so. Typically, for scientific software, this means that only certain types of tests are
+appropriate. For example, a test that checks the convergence of a numerical algorithm at large scale is
 likely to require too much time (or too large of a compute resource) to be appropriate for CI testing.
 
 <!--body end--->

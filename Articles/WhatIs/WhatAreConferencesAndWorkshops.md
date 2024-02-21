@@ -19,7 +19,7 @@ Employers in scientific computing often use these events to recruit talented peo
 Additionally, these venues offer an opportunity for organizations to promote and highlight their mission, values, and projects. 
 Through poster and panel sessions, new researchers can showcase their work, gain recognition for their research, and raise their profile in their field.
 
-Volunteering to be part of a conference organizing committee is useful for established researchers because it allows them to contribute to the advancement of their field by shaping the content, format, and focus of these events, as well as mentor and support newer researchers and emerging talent/scholars.
+Volunteering to be part of a conference organizing committee is useful for established researchers because it allows them to contribute to the advancement of their field by shaping the content, format, and focus of these events, as well as mentoring and supporting newer researchers and emerging talent/scholars.
 
 The scientific computing community offers several high-profile conferences and workshops that are held both domestically in the United States and internationally.
 

@@ -8,7 +8,7 @@ Software  refactoring is the process of restructuring existing software code but
 <!--body start--->
 [Software refactoring](https://en.wikipedia.org/wiki/Code_refactoring) is the process of restructuring source code
 to achieve improvements in various [*non-functional*](https://en.wikipedia.org/wiki/Non-functional_requirement) or
-*quality* attributes of the software such as maintainability, readability, complexity and extensibility to name a few.
+*quality* attributes of the software such as maintainability, readability, complexity, and extensibility to name a few.
 In particular, refactoring does not change any of the software product's external functionality. Refactoring is a way
 of improving developer productivity.
 
@@ -20,7 +20,7 @@ their development processes to avoid duplication of closely related functionalit
 source code.
 
 It should be noted that in all but the most trivial of situations, the common practice of *cut-n-paste-n-adjust*
-programming, although possibly the most expedient, inevitably creates a re-factoring burden rather than solves one.
+programming, although possibly the most expedient, inevitably creates a re-factoring burden rather than solving one.
 Later on, another developer having to maintain such code will have to do the software engineering work to collapse all
 the cut-n-paste instances into a single implementation that can be re-used where necessary.
 

@@ -4,7 +4,7 @@
 #### Publication date: May 8, 2017
 
 <!--deck start--->
-Testing is the process of assuring that a software product is meeting it requirements. Software requires regular extensive testing to ensure correctly functioning code.  
+Testing is the process of assuring that a software product is meeting its requirements. Software requires regular extensive testing to ensure correctly functioning code.  
 <!--deck end--->
 
 <!--body start--->
@@ -24,16 +24,20 @@ to keep the focus on the aims rather than the category/label we assign them. Wit
 briefly describe a few of the more commonly used categories of software testing.
 
 #### Regression testing
+
 A form of testing where the primary aim is to ensure software changes do not break previously developed and known to be working functionality (e.g. cause the software to _regress_ in its functionality).
 
 #### Unit testing
+
 A form of testing where the primary aim is to enable fine-grain portions of the software (usually individual functions or subroutines) to be tested in isolation apart from the larger software product in which they are used.
 
 #### Functional testing
+
 A form of testing where the primary aim is to operate the software as a proxy for how a user would use the product.
 
 #### Continuous Integration (CI) testing
-A form of testing where the primary aims are to provide _immediate_ feedback regarding compatibility of changes with respect to multiple, parallel branches of development as well as overall software functionality.
+
+A form of testing where the primary aims are to provide _immediate_ feedback regarding the compatibility of changes with respect to multiple, parallel branches of development as well as overall software functionality.
 
 The article *[Understanding Software Testing Practices](/blog_posts/understanding-software-testing-practices)* introduces terminology for CSE software testing.
 
