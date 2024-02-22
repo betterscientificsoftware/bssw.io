@@ -40,6 +40,10 @@ entries:
       url: /bssw_teamresponsibilities.html
       output: web
 
+    - title: New Editorial Board Member Onboarding
+      url: /bssw_onboarding.html
+      output: web
+
   - title: Content Editorial Processes
     output: web
     folderitems:
