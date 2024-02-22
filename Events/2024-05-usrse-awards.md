@@ -8,7 +8,7 @@
 
 ### Who are the awards geared toward?
 
-The US-RSE Community Awards recognize individuals who are helping to forward the mission of US-RSE.
+The US-RSE Community Awards recognize individuals who are helping to forward the mission of [US-RSE](https://us-rse.org).
 Two awards are offered.
 The *Excellence in Service Award* recognizes a member’s exceptional dedication to advancing the US-RSE mission.
 The *Impact Award* recognizes an individual’s contributions and influence within the RSE profession. 
