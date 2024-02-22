@@ -4,7 +4,7 @@
 - Event dates: May 15, 2024
 - Location: Online 
 - Event Website: https://us-rse.org/community-awards/
-- Organizers: The United States Research Software Engineer Assocation
+- Organizers: The United States Research Software Engineer Association
 
 ### Who are the awards geared toward?
 
@@ -13,7 +13,7 @@ Two awards are offered.
 The *Excellence in Service Award* recognizes a member’s exceptional dedication to advancing the US-RSE mission.
 The *Impact Award* recognizes an individual’s contributions and influence within the RSE profession. 
 **Nominations must be submitted by March 15th.**
-To nomiate someone, including yourself, please visit the [event website](https://us-rse.org/community-awards/).
+To nominate someone, including yourself, please visit the [event website](https://us-rse.org/community-awards/).
 
 #### Publication date: 2024-02-24
 
