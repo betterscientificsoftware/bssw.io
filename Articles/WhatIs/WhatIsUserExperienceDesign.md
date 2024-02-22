@@ -7,7 +7,8 @@ User experience refers to how the user of a piece of software (or other system) 
 <!--deck end--->
 
 <!--body start--->
-According to the international standard on the ergonomics of human-system interactions (ISO 9341), user experience (UX) is a "user's perceptions and responses that result from the use and/or anticipated use of a system, product, or service."  It is often considered to encompass usability, but also more than that.
+The international standard on the ergonomics of human-system interactions ([ISO 9241](https://en.wikipedia.org/wiki/ISO_9241)), defines *user experience (UX)* as the "user's perceptions and responses that result from the use and/or anticipated use of a system, product, or service."
+Often, it also encompasses usability.
 
 While user experience design (UXD) is a common consideration in the design and development of much modern commercial software, it is often neglected for scientific software, which may result in software products being less usable then they could be.
 <!--body end--->
