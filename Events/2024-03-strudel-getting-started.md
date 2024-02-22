@@ -10,7 +10,7 @@ This webinar, produced by the Scientific sofTware Research for User experience, 
 Resource Information | Details
 :--- | :---			   
 Webinar Title | [How to Build a Science UI: Getting Started with the STRUDEL Design System](https://strudel.science/engage/events/03-08-2024-getting-started-with-strudel-ds/)
-Date and Time | 2024-03-08 10:00am-11:00am EST
+Date and Time | 2024-03-08 11:00am-12:00pm PST
 Registration Link | <https://go.lbl.gov/strudel-get-started-webinar>
 Presenters | Sarah Poon and Cody O'Donnell, Lawrence Berkeley National Laboratory
 Presentation Language | English

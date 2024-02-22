@@ -6,7 +6,7 @@
 - Event Website: <https://strudel.science/engage/events/03-19-2024-strudel-ds-hackathon/>
 - Organizers: Lawrence Berkeley National Laboratory Scientific Data Division UX Team
 
-The STRUDEL project is hosting a hackathon to help scientific software teams design and implement a prototype user interface.
+The STRUDEL project is hosting a hackathon to help scientific software teams design and implement a prototype user interface for their tools.
 
 Resource Information | Details
 :--- | :---			   
