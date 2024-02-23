@@ -25,7 +25,7 @@ A research team produced and published a set of computational results.  Using th
 A research team produced and published a set of computational results.  Starting with the same assumptions and conditions, an independent team is able to confirm the results using input data and a computational environment that is different from that of the original team.
 
 
-For scenarios I and II, reproducibility requirements demand a detailed accounting and retention of algorithms, software and input data used to produce the initial computational results.  Therefore, reproducibility increases incentives for computational science teams to invest in high-quality software and data management practices.
+For scenarios I and II, reproducibility requirements demand a detailed accounting and retention of algorithms, software, and input data used to produce the initial computational results.  Therefore, reproducibility increases incentives for computational science teams to invest in high-quality software and data management practices.
 
 <!--deck end--->
 

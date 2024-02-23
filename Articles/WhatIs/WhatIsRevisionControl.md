@@ -3,7 +3,7 @@
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
 <!--deck start--->
-Understanding how revision control systems function is important for today's software ecosystems -- Revision control systems not only help in building better scientific software, but also help in improving developer productivity for a project.
+Understanding how revision control systems function is important for today's software ecosystems -- Revision control systems not only help in building better scientific software but also help in improving developer productivity for a project.
 <!--deck end--->
 
 <!--body start--->
