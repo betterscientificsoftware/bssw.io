@@ -6,7 +6,7 @@
 - Organizers: The United States Research Software Engineer Association
 
 <!-- deck start -->
-US-RSE is unveiling two community awards for 2024, acknowledging excellence and impact in Research Software Engineering
+US-RSE is unveiling two community awards for 2024, acknowledging excellence and impact in Research Software Engineering.
 <!-- deck end -->
 
 Resource Information | Details
