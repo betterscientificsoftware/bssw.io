@@ -10,7 +10,7 @@ Resource information | Details
 :--- | :--- 
 Webinar | LLNL SoftWare Information Networking Group (SWING) Presentation and discussion on memory safe languages.
 Presenter | [Matthew Sottile](https://github.com/mjsottile)
-Web links | [slides](https://docs.google.com/gview?url=https://raw.githubusercontent.com/betterscientificsoftware/bssw.io/cc-mcm86-25jan24-swing-msl/pdfs/January_2024_SWING_Sottile_MSL_Slides.pdf&embedded=true), [video](https://youtu.be/EAzpN1QY5ow?si=ZVfRHWovLgv4DZfo)
+Web links | [slides](https://docs.google.com/gview?url=https://raw.githubusercontent.com/betterscientificsoftware/bssw.io/main/pdfs/January_2024_SWING_Sottile_MSL_Slides.pdf&embedded=true), [video](https://youtu.be/EAzpN1QY5ow?si=ZVfRHWovLgv4DZfo)
 
 In his presentation, Matt Sottile, a Computer Science researcher in the Center for Applied Scientific Computing ([CASC](https://computing.llnl.gov/casc)), offers some fresh perspectives on memory-safe languages (MSLs).
 He explains why he believes they are gaining traction as well as why the software community is likely better positioned to consider migration strategies today than in years past.
