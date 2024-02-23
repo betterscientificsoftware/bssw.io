@@ -30,6 +30,9 @@ The STRUDEL project is hosting an all-day, in-person hackathon on Tuesday March 
 - Learn more about UX in scientific software & the STRUDEL project
 - Share your user’s needs and obtain expert feedback from the SciData UX team and other participants
 
+#### Publication date: 2024-02-22
+
+#### Contributed by: [Drew Paine](https://github.com/pained/)
 
 <!---
 Publish: yes

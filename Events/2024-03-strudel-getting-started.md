@@ -23,6 +23,9 @@ STRUDEL is an open-source science project building resources to enable teams to 
 
 Join us virtually for the second in STRUDEL’s series of events. This hour-long webinar will explore details of the STRUDEL project and help you get started using our new Design System. Follow along with our live, interactive demo to learn how to go from an initial idea for a feature in your scientific software to leveraging the design system to stand up a web-based user interface.
 
+#### Publication date: 2024-02-22
+
+#### Contributed by: [Sarah Poon](https://github.com/sspoon/) and [Cody O'Donnell](https://github.com/codytodonnell/)
 
 <!---
 Publish: yes
