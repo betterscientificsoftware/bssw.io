@@ -1,4 +1,4 @@
-# Perspectives on Memory-Safe Languages (MSLs)
+# Perspectives on Memory-Safe Languages
 <!--deck text start-->
 Exploring the rise of memory-safe languages and their impact on scientific software migration.
 <!--deck text end-->
