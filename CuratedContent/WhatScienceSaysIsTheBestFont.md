@@ -10,7 +10,6 @@ Resource information | Details
 :--- | :--- 
 Video | The Best Fonts, According to Science
 Presenter | [SciShow YouTube Channel](https://www.youtube.com/@SciShow)
-https://youtu.be/7g_7Cr1vEnM?si=aZ8UpyNdglD3e6S2
 Web links | [video](https://youtu.be/7g_7Cr1vEnM?si=aZ8UpyNdglD3e6S2) (~20 mins)
 
 This SciShow channel video goes into a number of research studies on the "best" fonts for various situations.
