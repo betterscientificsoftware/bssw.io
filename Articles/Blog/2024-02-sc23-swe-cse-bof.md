@@ -63,7 +63,7 @@ Links to the BoF website, and other resources mentioned in the presentations and
 * [Helmholtz-HiRSE](https://www.helmholtz-hirse.de/)
 * [HPC ED: Building a Federated Repository and Increasing Access through Cybertraining](https://www.cac.cornell.edu/about/pubs/HPC%20ED%20CyberTraining.pdf)
 * Awesome Lists:
-    * [SocRSE’s list](https://github.com/dstdev/awesome-hpc)
+    * [rseng's list](https://github.com/rseng/awesome-rseng)
     * [Hifis-net’s list](https://github.com/hifis-net/awesome-rse)
     * [dstdev’s HPC list](https://github.com/dstdev/awesome-hpc) (frequently updated)
 
