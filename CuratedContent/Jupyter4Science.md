@@ -12,25 +12,18 @@ Resource name | Accessible Data and Code
 Website  | [https://jupyter4.science](https://jupyter4science.github.io/)
 Focus | Jupyter Notebooks
 
-![Jupyter4Science logo](jupyter4science-2.png)
+<img src='../images/jupyter4science-2.png' class='logo' />
 
 ### Jupyter Notebook and the Jupyter Ecosystem
 Computational notebooks, including Jupyter Notebooks, come in many varieties, but they all have one thing in common: much like traditional laboratory notebooks, computational notebooks contain code cells interspersed with text that can be used to explain their analysis.
 
-
-
-![jupyter notebook](jupyter4science-1.png)
-
+<img src='../images/jupyter4science-1.png' class='logo' />
 
 Jupyter is a large umbrella project that covers many different software offerings and tools, including the popular Jupyter Notebook classic interface and JupyterLab web-based notebook development environments.
-
-
 
 ### Jupyter4Science Mission
 
 The Jupyter4Science knowledge base is intended for a **research-oriented audience**, including computational scientists, [research software engineers](https://us-rse.org/about/what-is-an-rse/) (RSEs), [academic data scientists](https://academicdatascience.org/community-projects/career-guidebook/), social scientists, digital humanities researchers, and students, and anyone else who use Jupyter Notebooks to conduct research. Our aim is to provide rich resources for researchers, students, and research and data ([RCD](https://carcc.org/)) professionals about **better practices** to improve the **accessibility**, **reuse**, and **reproducibility** of their scientific software, data, and computational workflows.
-
-
 
 ## Original Content and Resources
 
@@ -43,4 +36,3 @@ The knowledge base contains original content including tutorials, templates, blo
 - Templates and Best Practices
 - Jupyter Notebooks as Peer-Reviewed Publications
 - Building Data Dashboards and Web Applications with Jupyter Notebooks 
-
