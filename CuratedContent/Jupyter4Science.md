@@ -18,7 +18,7 @@ Focus | Jupyter notebooks
 
 Computational notebooks, including Jupyter notebooks, come in many varieties, but they all have one thing in common: much like traditional laboratory notebooks, computational notebooks contain code cells interspersed with text that can be used to explain their analysis.
 
-<img src='../images/jupyter4science-1.png' class='page' />
+<img src='../images/jupyter4science-1.png' class='page' />[A portion of a Jupyter notebook illustrating the interspersing of text (upper portion) and computational cells (lower portion)]
 
 Jupyter is a large umbrella project that covers many different software offerings and tools, including the popular Jupyter notebook classic interface and JupyterLab web-based notebook development environments.
 
