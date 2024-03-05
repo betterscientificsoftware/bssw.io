@@ -14,13 +14,12 @@ particularly aimed at early-career researchers who understand the basics of prog
 Event Information | Details
 :--- | :---			   
 Event Name | [URSSI 2024 Summer School in Research Software Engineering](https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/)
-Event Date | June 24–26, 2024
+Event Dates| June 24–26, 2024
 Website | https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/
-Submission Deadline | March 31, 2024.
+Application Deadline | March 31, 2024.
 Registration and Other Information | https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/
 
-
-**Description** 
+### Description
 
 Do you develop software for your research? Do you have some basic skills but desire more?
 
@@ -35,7 +34,7 @@ version control using Git, and Python programming, and would like to learn more 
 
 The call for applications is now open through March 31, 2024.
 
-**Program Curriculum**
+### Program Curriculum
 
 This three-day, hands-on workshop will expose participants to a series of topics necessary for developing sustainable research software. Topics to be covered include:
 
@@ -50,11 +49,13 @@ This three-day, hands-on workshop will expose participants to a series of topics
 * Open science practices, including software citation
 
 The school will consist of lectures on these topics along with open hacking time to allow participants to practice the concepts covered in the lectures. 
-To facilitate the hands-on experience, each participant will bring a project to work on throughout the course for applying these concepts.
+To facilitate the hands-on experience, each participant will bring a project to work on throughout the course to apply these concepts.
 
 #### Publication date: March 5, 2024
 
+#### Contributed by: [Kyle Niemeyer](https://github.com/kyleniemeyer)
+
 <!---
 Publish: yes
-Topics: in-person learning, software engineering, design, strategies for more effective teams, testing, continuous integration testing, release and deployment
+Topics: in-person learning, software engineering, design, strategies for more effective teams, testing, peer code review, release and deployment, documentation, licensing, reproducibility, software publishing and citation
 --->
