@@ -25,7 +25,7 @@ Deadline for poster and talk abstracts| June 3, 2024
 Event Dates| October 15-17, 2024
 Website | https://us-rse.org/usrse24/
 
-This year's theme is **Yesterday, Today, Tomorrow***: A celebration of all that RSEs have done for computing in the past, in the present, and in the future. Topics of interest include (but are not limited to):
+This year's theme is ***Yesterday, Today, Tomorrow***: A celebration of all that RSEs have done for computing in the past, in the present, and in the future. Topics of interest include (but are not limited to):
 
 - History of the RSE movement
 - RSE impact
