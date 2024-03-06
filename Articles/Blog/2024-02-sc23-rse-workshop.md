@@ -68,16 +68,45 @@ We next held a panel on RSE training and mentoring.  The panelists were Francesc
 
 The panel then discussed questions from the audience:
 
-* _How do we coordinate all the different projects that are building training material?_  We need to bring the community of trainers and training programs together, like in this workshop. We need to think about barriers to reuse and how to overcome them. INTERSECT has worked on collecting the different materials: [https://intersect-training.org/training-links/](https://intersect-training.org/training-links/).
-* _Are there mentoring methods that don't require one-to-one interaction?_  One answer is that groups of students and RSEs can help each other out.
-* _How do you get funding for providing training?_ For some public-sector organizations, this is part of their remit.
-* _Where can I find more advanced HPC training material?_ We have communities where people can contribute such material, which is welcome.
-* _Are reflections on training methods shared?_ Some use post-workshop surveys and discussions to lead to blog posts and improvements, including in some cases longer-term event surveys.
-* _Is it a better use of resources to have formal programs or informal mentoring opportunities?_ Formal paid internships lead to a more diverse staff.
-* _How do we train and mentor existing staff, not just students and new staff?_ If people want to learn new tools, it doesn't matter. Some organizations provide time for employees for development, which can include training, viewing learning new skills as essential. Some project leads/PIs also might be unhappy with staff taking the time for training, but training can make the RSE more valuable and pays off in the long run, and the training time might be paid for by funding that isn't from the project. In general, academia is supportive of training and new learning, so some RSEs might be more concerned about this than their project leaders are.
-* _How does mentoring work with different levels of coding, from custom scripts to reusable products?_ It's useful to have mentoring span different levels, not to focus on just one level.
-* _How to get people who need training to come?_ Many who would benefit don't realize it, don't know about the training, or don't want to attend for other reasons, such as not seeing the time as valuable. An answer is to focus the advertising on what a person will be able to do afterward rather than what the training is. Another is to have open office hours that can lead to discussion, which can either solve problems or point to training as a next step.
-* _How do we advertise opportunities for training and practical experiences for students or others who want to be RSEs, like summer programs?_ We need to collaborate on this, but no clear ideas came up. Many current opportunities are found by chance.
+* _How do we coordinate all the different projects that are building training material?_  
+
+    We need to bring the community of trainers and training programs together, like in this workshop. We need to think about barriers to reuse and how to overcome them. INTERSECT has worked on collecting the different materials: [https://intersect-training.org/training-links/](https://intersect-training.org/training-links/).
+
+* _Are there mentoring methods that don't require one-to-one interaction?_  
+
+    One answer is that groups of students and RSEs can help each other out.
+
+* _How do you get funding for providing training?_ 
+
+    For some public-sector organizations, this is part of their remit.
+
+* _Where can I find more advanced HPC training material?_ 
+
+    We have communities where people can contribute such material, which is welcome.
+
+* _Are reflections on training methods shared?_ 
+
+    Some use post-workshop surveys and discussions to lead to blog posts and improvements, including in some cases longer-term event surveys.
+
+* _Is it a better use of resources to have formal programs or informal mentoring opportunities?_ 
+
+    Formal paid internships lead to a more diverse staff.
+
+* _How do we train and mentor existing staff, not just students and new staff?_ 
+
+    If people want to learn new tools, it doesn't matter. Some organizations provide time for employees for development, which can include training, viewing learning new skills as essential. Some project leads/PIs also might be unhappy with staff taking the time for training, but training can make the RSE more valuable and pays off in the long run, and the training time might be paid for by funding that isn't from the project. In general, academia is supportive of training and new learning, so some RSEs might be more concerned about this than their project leaders are.
+
+* _How does mentoring work with different levels of coding, from custom scripts to reusable products?_ 
+
+    It's useful to have mentoring span different levels, not to focus on just one level.
+
+* _How to get people who need training to come?_ 
+
+    Many who would benefit don't realize it, don't know about the training, or don't want to attend for other reasons, such as not seeing the time as valuable. An answer is to focus the advertising on what a person will be able to do afterward rather than what the training is. Another is to have open office hours that can lead to discussion, which can either solve problems or point to training as a next step.
+
+* _How do we advertise opportunities for training and practical experiences for students or others who want to be RSEs, like summer programs?_ 
+
+    We need to collaborate on this, but no clear ideas came up. Many current opportunities are found by chance.
 
 ### Breakout sessions
 
@@ -109,7 +138,7 @@ Answers to "2. What good examples of programs exist?" and "3. What material is a
 * [PRACE](https://prace-ri.eu/) Training Portal: [https://training.prace-ri.eu/](https://training.prace-ri.eu/)
 * ENCCS: [https://enccs.se/events/](https://enccs.se/events/) 
 * Intersect: [https://intersect-training.org/index.html ](https://intersect-training.org/index.html) 
-* CodeRefinery: [https://coderefinery.org/lessons/](https://coderefinery.org/lessons/))
+* CodeRefinery: [https://coderefinery.org/lessons/](https://coderefinery.org/lessons/)
 * Sciware: [https://sciware.flatironinstitute.org/](https://sciware.flatironinstitute.org/)
 * SigHPC: [https://www.sighpc.org/](https://www.sighpc.org/)
 * RSE competencies toolkit: [https://rsetoolkit.github.io/rse-competencies-toolkit/](https://rsetoolkit.github.io/rse-competencies-toolkit/)
