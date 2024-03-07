@@ -6,7 +6,7 @@
 
 #### Contributed by: [Charles Ferenbaugh](https://github.com/cferenba), [Sandra Gesing](https://github.com/sandragesing), [Simon Hettrick](https://github.com/SimonHettrick), and [Daniel S. Katz](https://github.com/danielskatz)
 
-#### Publication date: March 11, 2024
+#### Publication date: March 7, 2024
 
 ### Introduction
 
@@ -18,21 +18,13 @@ This year’s workshop theme was “Growing the RSE Community,” with many of t
 
 The program of the RSE-HPC workshop started with a featured talk by Weronika Filinger from Edinburgh Parallel Computing Centre.  Her talk was entitled “UNIVERSE-HPC - towards a sustainable RSE training ecosystem,” and was co-authored by Jeremy Cohen and Neil Chue Hong. She began with an introduction about challenges for RSE education and training in HPC such as that many RSEs have a lack of dedicated time for skill development and that learning is often task oriented which can lead to gaps. Designing personalized pathways requires some knowledge of the skills and how they fit into the overall landscape and establishing “common” or “typical” learning pathways is hard. Finding suitable training content takes a lot of time and using training from different sources is difficult. The [UNIVERSE-HPC](https://www.universe-hpc.ac.uk) project aims to understand and nurture an integrated vision for education in RSE and HPC. This includes defining a training framework for RSEs specializing in HPC, identifying and integrating course materials, developing new materials to fill gaps, and enabling more people from a wide diversity of disciplines and backgrounds to obtain the skills and experience they require to have a successful RSE career. The project is organized around four main topics: 
 
-1. Competencies and skills 
+1. *Competencies and skills:* Identifying competencies and skills required by RSEs as they progress through their careers and understanding where these competencies are already being taught.
 
-    Identifying competencies and skills required by RSEs as they progress through their careers and understanding where these competencies are already being taught.
+2. *Learning pathways:* Define different curricula, learning pathways, and delivery mechanisms for providing training in RSE competencies, including as-taught programs, online/self-paced learning, and professional development.
 
-2. Learning pathways 
+3. *Course development and delivery:* Development of missing modules. Packaging of existing and new modules into different formats. Pilot delivery of courses.
 
-    Define different curricula, learning pathways, and delivery mechanisms for providing training in RSE competencies, including as-taught programs, online/self-paced learning, and professional development.
-
-3. Course development and delivery
-
-    Development of missing modules. Packaging of existing and new modules into different formats. Pilot delivery of courses.
-
-4. Community support and contributions
-
-    Facilitate professional networking and peer support for RSEs. Develop a community of maintainers for open materials.
+4. *Community support and contributions:* Facilitate professional networking and peer support for RSEs. Develop a community of maintainers for open materials.
 
 Weronika then presented the project’s approach to making the RSE ecosystem more sustainable on the project/institutional level and for the whole community. They suggest better sharing practices by more exchanges between projects and efforts, focus on making training resources FAIR (Findable, Accessible, Interoperable, and Reusable), persistence and citability by design, documenting and sharing processes (not just the outcomes and successful ones as well as unsuccessful ones) and accreditation and certification.
 
@@ -169,7 +161,7 @@ We would like to thank everyone who participated, especially the committee membe
 
 Charles Ferenbaugh is the Computer Science Lead for the Eulerian Applications Project at Los Alamos National Laboratory. He received a Ph.D. in Mathematics from Princeton University in 1992. He spent several years working at Raytheon developing high-performance signal processing software, before coming on staff at LANL in 2001. At LANL he has been a software developer contributing to large multiphysics code projects running on supercomputer clusters. He has also been a part of LANL research efforts in advanced architectures and programming models. He was a founding steering committee member of the US Research Software Engineer Association.
 
-Sandra Gesing is a senior scientist, Scientific Outreach and DEI Lead at the University of Illinois Discovery Partners Institute in Chicago. Her research focuses on science gateways, computational workflows as well as distributed computing which inherently leads to highly interdisciplinary projects. She is especially interested in the sustainability of research software, the usability of computational methods, and the reproducibility of research results. She advocates for improving career paths for research software engineers and facilitators and for incentivizing their work via means beyond the traditional academic rewarding system. She is a founding steering committee member of the US Research Software Engineer Association (US-RSE).
+Sandra Gesing is the inaugural Executive Director of the US Research Software Engineer Association (US-RSE) and a Senior Researcher at the San Diego Supercomputer Center. Her research focuses on science gateways, computational workflows as well as distributed computing which inherently leads to highly interdisciplinary projects. She is especially interested in the sustainability of research software, the usability of computational methods, and the reproducibility of research results. She advocates for improving career paths for research software engineers and facilitators and for incentivizing their work via means beyond the traditional academic reward system. 
 
 Simon Hettrick is Deputy Director of the Software Sustainability Institute and a Director of the Southampton Research Software Group. Simon's research focuses on the use of software in the research community with the aim of understanding practices and demographics. Simon is a passionate advocate for Research Software Engineers. He orchestrated a campaign to gain recognition for this community, which has grown from a handful of people in 2013 to a substantial international community. He was the founding chair of the UK's Association of Research Software Engineers and was a founding Trustee of the Society of Research Software Engineering.
 
