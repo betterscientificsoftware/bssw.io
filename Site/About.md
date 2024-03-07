@@ -30,6 +30,11 @@ https://github.com/curfman
 
 ### Associate Editors
 
+
+Keith Beattie<br/>
+Lawrence Livermore National Laboratory<br/>
+[https://github.com/ksbeattie](https://github.com/ksbeattie)
+
 Roscoe Bartlett<br/>
 Sandia National Laboratories<br/>
 [https://github.com/bartlettroscoe](https://github.com/bartlettroscoe)
