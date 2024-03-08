@@ -4,7 +4,7 @@ Sorry Times New Roman fans, Sans Serif wins the font wars.
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: March 15, 2024
+#### Publication date: March 7, 2024
 
 Resource information | Details 
 :--- | :--- 
@@ -26,5 +26,5 @@ Therefore, for written material in science, whether it be digital or print, atte
 Publish: yes
 Topics: Inclusivity, Personal Productivity and Sustainability, User Experience Design
 Pinned: no
-RSS update: 2024-02-23
+RSS update: 2024-02-07
 --->
