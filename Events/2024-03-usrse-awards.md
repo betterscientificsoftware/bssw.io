@@ -1,6 +1,6 @@
 # Introducing the 2024 US-RSE Community Awards
 
-- Nominations deadline: March 15, 2024
+- Nominations deadline: March 29, 2024
 - Location: Online 
 - Event Website: https://us-rse.org/community-awards/
 - Organizers: The United States Research Software Engineer Association
@@ -13,7 +13,7 @@ Resource Information | Details
 :--- | :---			   
 Event Name| The 2024 US-RSE Community Awards
 Website | https://us-rse.org/community-awards/
-Nomination Deadline | 2024-03-15
+Nomination Deadline | 2024-03-29
 
 In 2024, US-RSE introduces a new initiative to honor individuals who have significantly contributed to the Research Software Engineering community. 
 This program aims to celebrate their dedication and support towards advancing the mission and goals of US-RSE.
