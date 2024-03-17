@@ -6,11 +6,11 @@
 
 #### Contributed by [Nicole Brewer](https://www.nicole-brewer.com)
 
-#### Publication date: March 31, 2023
+#### Publication date: March 17, 2024
 
 Resource information | Details 
 :--- | :--- 
-Resource name | Accessible Data and Code
+Resource name | Jupyter4Science
 Website  | [https://jupyter4.science](https://jupyter4.science)
 Focus | Jupyter notebooks
 
