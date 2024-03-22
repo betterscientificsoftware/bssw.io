@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='https://scribesecurity.com/wp-content/uploads/2022/01/sbom-components-scribe-security-768x451.jpeg.webp' />
+<img src='https://scribesecurity.com/wp-content/uploads/2022/01/sbom-components-scribe-security-768x451.jpeg.webp' />
 
 #### Contributed by [William hart](https://github.com/whart222)
 #### Publication date: TBD
