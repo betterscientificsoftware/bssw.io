@@ -10,7 +10,7 @@ The INTERSECT Research Software Engineering Bootcamp will be a 4.5 day intensive
 - Website: https://intersect-training.org/bootcamp24/
 - Organizers: INTERSECT Project
 
-#### Contributed by [Jeff Carver](https://github.com/jeffcarver/)
+#### Contributed by [Jeffrey C. Carver](https://github.com/jeffcarver/)
 
 #### Publication date: March 4, 2024
 
