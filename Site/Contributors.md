@@ -24,8 +24,11 @@ Contributor overrides:
 "npch", "Chue", "Neil Chue Hong"
 "-", "BSSw", "BSSw Community"
 "-", "BSSw", "BSSw.io Team"
+"-" ,"BSSw", "The BSSw.io Editorial Team"
 "alee", "Lee", "Allen Lee"
 "parinaz2015", "Barakhshan", "Parinaz Barakhshan"
 "mrmundt", "Mundt", "Miranda Mundt"
 "rusu24edward", "Rusu", "Eddie Rusu"
+"mozhgan-kch", "Kabiri", "Mozhgan Kibiri Chimeh"
+
 -->
