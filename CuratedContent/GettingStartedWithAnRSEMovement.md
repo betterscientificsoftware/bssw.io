@@ -14,7 +14,9 @@ Article title  | Getting Started with the RSE Movement within your Organization:
 Website |  https://zenodo.org/records/10436166
 Focus | Community Building
 
-Here is where my curated content will go. 
+Here is where my curated content will go.
+
+I will have some real text here soon.
 
 <!---
 Publish: yes
