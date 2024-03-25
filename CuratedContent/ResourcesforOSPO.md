@@ -1,20 +1,24 @@
-# Resources for Open Source Program Offices 
+# Resources for Open Source Program Offices
 
 <!--deck text start-->
-This article includes helfpul resources for Open Source Program Offices (OSPOs) and will help those who are just starting and those more mature looking for improvement.
+Are you starting an Open Source Program Office (OSPO) or want to ensure the success of an existing OSPO or an open source project? If so, checkout these resources to help.
 <!--deck text end-->
 
 #### Contributed by [Patricia Grubel](http://github.com/pagrubel)
 
-#### Publication date: March 28, 2023 
+#### Publication date: March 28, 2023
 
-Resource information | Details 
-:--- | :--- 
-Organization type  | Open Source Program Offices 
-Websites  |  Github Ospo  - [Github site to enable success on github for new OSPOS](https://github.com/github/github-ospo)<br> OSPO Alliance - [Community Driven Open Source Good Governance](https://ospo-alliance.org/)<br>TODO Group - [Talk Openly Devlop Openly, an open communityfor creating and sharing knowledge for successful OSPOs](https://todogroup.org/)<br> Open Source Guides - [Guides for Open Source Projects](https://opensource.guide/)
-Focus | Success for Open Source Program Offices and Projects 
+Resource information | Details
+:--- | :---
+Organization type  | Open Source Program Offices
+Websites  |  Github OSPO  - [Github site to enable success on github for new OSPOS](https://github.com/github/github-ospo)<br> OSPO Alliance - [Community Driven Open Source Good Governance](https://ospo-alliance.org/)<br>TODO Group - [Talk Openly Develop Openly, an open community for sharing knowledge for successful OSPOs](https://todogroup.org/)<br> Open Source Guides - [Guides for Open Source Projects](https://opensource.guide/)
+Focus | Success for Open Source Program Offices and Projects
 
-This is a draft
+There are several resources to help make an OSPO successful. 
+
+The purpose of [Github OSPO](https://github.com/github/github-ospo), a github site itself, is to help OSPOs be successful on github. It includes information about policies for releasing and publishing open source software, guides for repositories and much more.
+
+
 
 
 <!---
