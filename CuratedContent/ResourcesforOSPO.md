@@ -14,7 +14,7 @@ Organization type  | Open Source Program Offices
 Websites  |  Github OSPO  - [Github site to enable success on GitHub for new OSPOS](https://github.com/github/github-ospo)<br> OSPO Alliance - [Community Driven Open Source Good Governance](https://ospo-alliance.org/)<br>TODO Group - [Talk Openly Develop Openly, an open community for sharing knowledge for successful OSPOs](https://todogroup.org/)<br> Open Source Guides - [Guides for Open Source Projects](https://opensource.guide/)
 Focus | Success for Open Source Program Offices (OSPOs)
 
-In some organizations the governance and guidance for open source projects fall under the guize of an Open Source Program Office.
+In some organizations the governance and guidance for open source projects fall under the purview of an Open Source Program Office.
 The community is beginning to stand up resources to enable sharing knowledge and guidance for the creation and success of an OSPO.
 The resources outlined in this article will help an organization to create an OSPO and to aid in the success of existing OSPOs.
 The resources are also useful for anyone who manages, maintains and or guides open source projects.
