@@ -6,7 +6,7 @@
 
 #### Contributed by [Akond Rahman](https://github.com/akondrahman)
 
-#### Publication date: March 27, 2024
+#### Publication date: March 26, 2024
 
 In this article, I describe some of our [research findings](https://dl.acm.org/doi/10.1145/3579639) related to security misconfigurations that occur in configuration files for Kubernetes. In recent years, Kubernetes has become popular to manage scientific workloads. Kubernetes is used to implement the practice of container orchestration, i.e., the practice of pragmatically managing the lifecycle of containers with tools.
 
