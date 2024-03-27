@@ -20,22 +20,26 @@ Event Information | Details
 Event Name | [Collaborations Workshop 2024 (CW24)](https://www.software.ac.uk/workshop/collaborations-workshop-2024-cw24)
 Registration deadline for in-person participation | April 5, 2024
 Registration deadline for remote participation | April 11, 2024
-Event Dates | April 30 - Mary 2, 2024
+Event Dates | April 30 - May 2, 2024
 Website | https://www.software.ac.uk/workshop/collaborations-workshop-2024-cw24
 
-The themes of CW24 will be:
+### Themes
 
 - Environmental Sustainability 
 - AI/ML tools for science 
 - Citizen science
 
-Each topic will be the subject of a keynote talk:
+### Keynote speakers
+
+Each theme will be the subject of a keynote talk:
 
 - Keynote 1: AI/ML Tools - Arfon Smith is a product manager at GitHub and works on integrating AI into the core GitHub experience. He also works on bringing open source to academia by improving support for scholarly work on the platform. 
 - Keynote 2: Citizen Science - Lucy Robinson leads the Community Science Programme at the Natural History Museum, London, and is an internationally recognised citizen science specialist with 15 years of experience. 
 - Keynote 3: Environmental Sustainability - Dr Kelly Widdicks is a Software Systems Architect at the UK Centre for Ecology & Hydrology and leads research on the responsible co-design of digital research infrastructure for environmental science.
 
 Further information about the keynote speakers can be found [here](https://www.software.ac.uk/cw24-keynote-speakers).
+
+### Agenda
 
 The CW24 program will comprise a range of different sessions, including:
 
