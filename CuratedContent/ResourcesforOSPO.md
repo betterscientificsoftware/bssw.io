@@ -6,7 +6,7 @@ Are you starting an Open Source Program Office (OSPO) or want to ensure the succ
 
 #### Contributed by [Patricia Grubel](http://github.com/pagrubel)
 
-#### Publication date: March 28, 2023
+#### Publication date: March 26, 2024
 
 Resource information | Details
 :--- | :---
@@ -32,5 +32,5 @@ The [Open Source Guides](https://opensource.guide/) are various guides that will
 Publish: yes
 Topics: Projects and organizations, Software Sustainability
 Pinned: no
-RSS update: 2024-03-31
+RSS update: 2024-03-26
 --->
