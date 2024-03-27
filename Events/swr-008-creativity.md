@@ -14,7 +14,7 @@ Resource Information | Details
 :--- | :---			   
 Panel Title | How Does Remote Work Impact Creativity and Innovation?
 Date and Time | Thursday 2021-03-25  3:00pm-4:15pm EDT 
-Panelists | Addi Thakur Malviya (Oak Ridge National Laboratory), Pat Quillen (Mathworks), Elaine Raybourn (Sandia National Laboratories), Damian Rouson (Sourcery Institute), and Francesca Samsel (TACC (Texas Advanced Computing Center) and University of Texas at Austin)
+Panelists | Addi Malviya Thakur (Oak Ridge National Laboratory), Pat Quillen (Mathworks), Elaine Raybourn (Sandia National Laboratories), Damian Rouson (Sourcery Institute), and Francesca Samsel (TACC (Texas Advanced Computing Center) and University of Texas at Austin)
 Moderator | Ashley Barker (Oak Ridge National Laboratory)
 Registration Link | 	<https://exascaleproject.zoomgov.com/meeting/register/vJItfuqtpjIvEyEVHRtM5N7u6QWdJXDM_08>
 Series Information and Archives | <https://ideas-productivity.org/resources/series/strategies-for-working-remotely//> or<br><https://www.exascaleproject.org/strategies-for-working-remotely/>
@@ -25,7 +25,7 @@ Series Information and Archives | <https://ideas-productivity.org/resources/seri
 <p>Many of us have been working remotely well over 13 months now due to the COVID-19 pandemic. We’ve hosted 7 panel discussions since April 2020 that allowed us to share resiliency strategies for working remotely as most of us transitioned from co-located to fully virtual work. That said, 13 months and 7 panel discussions later, how much do we know about how working remotely and a phased return to “the office” will impact our creativity? Do we do our best work when isolated? What is it about serendipitous face-to-face interactions that we find difficult to replicate online? In our eighth installment of the panel discussion series, we explore the topics of creativity and innovation with software development teams who are applying agile techniques, thinking differently about co-located collaboration, and questioning the unintended effects of working remotely. Panelists will make brief introductory comments followed by open discussion. Questions can be submitted by the audience in advance to remote@acm.org.</p>
 
 ### Panelist Bios
-<p>Addi Thakur Malviya is a Group Leader for Software Engineering at Oak Ridge National Laboratory and a Better Scientific Software (BSSw) fellow.</p>
+<p>Addi Malviya Thakur is a Group Leader for Software Engineering at Oak Ridge National Laboratory and a Better Scientific Software (BSSw) fellow.</p>
 <p>Pat Quillen is a software engineer for Mathworks.</p>
 <!-- Bio for panelist 8 -->
 <p>Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, virtual environments, visualization, and transmedia learning. She is the <a href="https://sc21.supercomputing.org/program/posters/scientific-visualization-data-analytics-showcase/">SC21</a> Scientific Visualization &amp; Data Analytics Showcase Chair. Elaine has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom; Germany (Fraunhofer FIT) and France (INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia’s Institutional PI for the IDEAS-ECP productivity project. Elaine leads <a href="https://bssw.io/psip/">PSIP</a> and the panel series <em><a href="https://www.exascaleproject.org/strategies-for-working-remotely/">Strategies for Working Remotely</a></em>.</p>
@@ -93,7 +93,7 @@ currently involved in the Exascale Computing Project (ECP) as the
 Control Account Manager (CAM) for training and productivity.
 -->
 
-#### Contributed by Addi Thakur Malviya, Pat Quillen, [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson's GitHub Profile"), [Francesca Samsel](https://github.com/figs512 "Francesca Samsel's GitHub Profile"), [Ashley Barker](https://github.com/ashley08 "Ashley Barker GitHub Profile")
+#### Contributed by Addi Malviya Thakur, Pat Quillen, [Elaine Raybourn](https://github.com/elaineraybourn "Elaine Raybourn's GitHub Profile"), [Damian Rouson](https://github.com/rouson "Damian Rouson's GitHub Profile"), [Francesca Samsel](https://github.com/figs512 "Francesca Samsel's GitHub Profile"), [Ashley Barker](https://github.com/ashley08 "Ashley Barker GitHub Profile")
 
 <!---
 Publish: yes

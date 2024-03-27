@@ -84,7 +84,7 @@ The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and 
 </div>
 
 <div class='short_bio'>
-  <h3>Addi Thakur Malviya, Oak Ridge National Laboratory</h3>
+  <h3>Addi Malviya Thakur, Oak Ridge National Laboratory</h3>
   <p>Group Leader, Software Engineering Group</p>
 </div>
 </div>
