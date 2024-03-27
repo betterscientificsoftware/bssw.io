@@ -14,14 +14,14 @@ Article title  | Getting Started with the RSE Movement within your Organization:
 Website |  https://zenodo.org/records/10436166
 Focus | Community Building
 
-Have you ever thought about starting an RSE movement within your university, lab or company?
+Have you ever thought about starting an RSE movement within your university, lab, or company?
 Struggled with how exactly you might go about getting one started and the challenges you might face?
 The article [Getting Started with the RSE Movement within your Organization: A Guide for
 Individuals](https://zenodo.org/records/10436166) provides a detailed exploration of exactly these
-issues by providing practicle steps and tips for creating a local community of RSEs.  Starting with
-how to raise awareness, creating spaces to participate together, recruting allies and formalizing
+issues by providing practical steps and tips for creating a local community of RSEs.  Starting with
+how to raise awareness, creating spaces to participate together, recruiting allies and formalizing
 the new group, this article goes into details and examples on how to promote the RSE role and
-advocate for individluals to impact changes both at the personal and institutional level.
+advocate for individuals to impact changes both at the personal and institutional level.
 
 <!---
 Publish: yes
