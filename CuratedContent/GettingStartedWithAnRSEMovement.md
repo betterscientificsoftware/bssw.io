@@ -1,11 +1,11 @@
 # Getting Started with the RSE Movement within your Organization: A Guide for Individuals
 
 <!--- deck text start --->
-How to get an RSE movement started within your organization
+How to get an RSE movement started within your organization.
 <!--- deck text end --->
 
 #### Contributed by [Keith Beattie](https://github.com/ksbeattie)
-#### Publication date:  March 31, 2024
+#### Publication date:  March 28, 2024
 
  
 Resource information | Details
@@ -26,6 +26,6 @@ advocate for individuals to impact changes both at the personal and institutiona
 <!---
 Publish: yes
 Pinned: no
-Topics: projects and organizations
-RSS update: 2024-03-31
+Topics: projects and organizations, Research Software Engineers
+RSS update: 2024-03-28
 --->
