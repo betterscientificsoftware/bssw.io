@@ -7,14 +7,16 @@ Slide1 L: ../images/Blog_2312_SecurityB.png
 Slide1 R: ../Articles/Blog/2024-03-k8s-security.md 
 Slide2 L: ../images/Blog_0201_SC23A.jpg
 Slide2 R: ../Articles/Blog/2024-03-sc23-rse-workshop.md
-Slide3 L: ../CuratedContent/ResourcesforOSPO.md
+Slide3 L: ../CuratedContent/WhatScienceSaysIsTheBestFont.md
 Slide3 R: ../CuratedContent/Jupyter4Science.md
-Slide4 L: ../CuratedContent/hpcbp-webinars-cc.md
-Slide4 R: ../CuratedContent/GettingStartedWithAnRSEMovement.md
-Slide5 L: ../Events/2024-04-cw24-workshop.md
-Slide5 R: ../Events/2024-04-s3c-conference.md 
-Slide6 L: ../Events/2024-04-iss.md
-Slide6 R: ../Events/2024-usrse-conf.md
+Slide4 L: ../CuratedContent/ResourcesforOSPO.md
+Slide4 R: ../CuratedContent/hpcbp-webinars-cc.md
+Slide5 L: ../CuratedContent/GettingStartedWithAnRSEMovement.md
+Slide5 R: ../Events/2024-04-cw24-workshop.md
+Slide6 L: ../Events/2024-04-s3c-conference.md 
+Slide6 R: ../Events/2024-04-iss.md
+Slide7 L: ../Events/2024-usrse-conf.md
+Slide7 R: ../Events/Events/ATPESC2024.md
 --->
 
 <!---
