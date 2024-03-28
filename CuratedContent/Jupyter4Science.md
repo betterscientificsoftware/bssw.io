@@ -1,4 +1,4 @@
-# Jupyter4Science: Better Practices for using Jupyter Notebooks for Science
+# Jupyter4Science: Better Practices for Using Jupyter Notebooks for Science
 
 <!--deck text start-->
 [Jupyter4Science](https://jupyter4.science) is a **knowledge base** of original content and curated resources about developing and sharing Jupyter notebooks as they are used in the context of scientific applications.
@@ -32,13 +32,13 @@ The knowledge base contains original content including tutorials, templates, blo
 
 Topics include:
 
-- Development Environments for Jupyter Notebooks
-- Reproducible Environments
-- Sharing Notebooks
-- Creating Publications with Quarto
-- Templates and Best Practices
-- Jupyter Notebooks as Peer-Reviewed Publications
-- Building Data Dashboards and Web Applications with Jupyter Notebooks 
+- Development environments for Jupyter notebooks
+- Reproducible environments
+- Sharing notebooks
+- Creating publications with Quarto
+- Templates and best practices
+- Jupyter notebooks as peer-reviewed publications
+- Building data dashboards and web applications with Jupyter notebooks 
 
 <img src='../images/jupyter4science-2.png' class='logo' />
 
