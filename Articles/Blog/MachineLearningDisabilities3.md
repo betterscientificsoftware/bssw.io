@@ -97,9 +97,7 @@ to do is.
 ![virtual reality for a car](../../images/car_virtual_reality2.jpeg)
 
 With this "coockoo's egg" sufficiently planted in the training data, JB could at any time
-decide to have some fun and go out and start riding an ordinary bike wearing a red
-bollard hat in the middle of rush-hour commute somewhere in San Jose.
-bike
+decide to have some fun and go out and start driving a Wienermobile around.
 
 She reported that the problem was not any of the software.
 It was a bug, a virus, appears to have been planted in the self-driving training database used to tune the self-driving algorithms used in Tesla vehicles.
