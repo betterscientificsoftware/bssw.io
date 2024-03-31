@@ -5,7 +5,7 @@ As readers may recall, apart from introducing the next generation electric vehic
 
 ![the new voltra](../../images/voltra.jpeg)
 
-The event took place last April 1rst at the Yucca (formerly Chrysler) Proving Grounds, South East of Las Vegas.
+The event took place last April 1rst at the [Yucca (formerly Chrysler) Proving Grounds](https://clui.org/ludb/site/arizona-proving-ground-0), South East of Las Vegas.
 After signing broad-sweeping NDAs and agreeing to hand over their cell phones upon arrival at the event, about 250 VIPs were invited to attend person.
 The rest of us had to watch live stream.
 
@@ -21,6 +21,8 @@ They can communicate with each other, work together and improve efficiency and s
 In Borg mode, a group of vehicles can even successfully navigate intersections crossing paths at high speed without incident.
 
 To fully appreciate the event, attendees were encouraged to observe the show on large Jumbotrons showing aerial vies of the proving grounds from a few drones overhead as the ~100 or so driverless Voltra's darted around the grounds.
+
+![proving ground](../../images/yucca_proving_ground.jpg)
 
 Initially, the live demo started smoothly.
 A number of vehicles identified and avoided various of the hazards and obstacles attendees began throwing at them and onlookers and online viewers were quite impressed.
