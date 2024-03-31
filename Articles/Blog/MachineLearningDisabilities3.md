@@ -7,7 +7,7 @@ As readers may recall, apart from introducing the next generation electric vehic
 
 The event took place last April 1rst at the [Yucca (formerly Chrysler) Proving Grounds](https://clui.org/ludb/site/arizona-proving-ground-0), South East of Las Vegas.
 After signing broad-sweeping NDAs and agreeing to hand over their cell phones upon arrival at the event, about 250 VIPs were invited to attend person.
-The rest of us had to watch live stream.
+The rest of us had to watch on live stream.
 
 EM had planned for an audacious demonstration of about 100 of the new Voltras, all driverless, running routes through the proving grounds at expressway and freeway speeds and responding to any manner of obstacles and threats attendees had the ability to inject with the press of a button in the control rooms they were viewing the event from.
 These included orange cones, mechanized pedestrians and pets, water and blinding smoke hazards, other vehicles losing control, landslides, big rigs loosing their loads and even a several remotely driven vehicles driving intentionally badly.
@@ -15,7 +15,7 @@ There were reports that EM even offered the Anonymous cyber-hackers group a $10M
 
 In addition to introducing EM's next gen vehicle, the Voltra, the whole point of the event was to once and for all put to bed arguments regarding the safety and reliability of self-driving vehicles. 
 EM has promised this since 2017.
-In particular, a new *cooperative* mode in the AutoPilot/FSD 3.0 which enables nearby vehicles to communicate and coordinate their movements (known affectionately as "Borg" mode) was to demonstrate improved efficiencies and safety.
+In particular, a new *cooperative* mode in the AutoPilot/FSD 3.0 which enables nearby vehicles to communicate and coordinate their movements (known affectionately as [*Borg*](https://en.wikipedia.org/wiki/Borg) mode) was to demonstrate improved efficiencies and safety.
 This new FSD feature works when a number of vehicles are in close proximity.
 They can communicate with each other, work together and improve efficiency and safety.
 In Borg mode, a group of vehicles can even successfully navigate intersections crossing paths at high speed without incident.
@@ -26,16 +26,19 @@ To fully appreciate the event, attendees were encouraged to observe the show on 
 
 Initially, the live demo started smoothly.
 A number of vehicles identified and avoided various of the hazards and obstacles attendees began throwing at them and onlookers and online viewers were quite impressed.
-However, not long into the event some of vehicles started behaving strangely.
+However, not long into the event some of the vehicles started behaving strangely.
 The live feed was immediately cut and, according to eyewitnesses things started to unravel from there rather quickly.
 There were no injuries or serious damages except perhaps to EM's (and the Voltra's) reputation.
 
-From above view from the drones, there was very definitely some kind of coordination among the vehicles going on but not what EM and attendees were expecting.
-Instead of going about their pre-arranged routes, all the vehicles started grouping together, parade style, wiggling back and fourth in their lanes, opening and closing doors, and all eventually coming to a complete standstill in front of the main attendee's stand and then engaging in all manner of odd-ball behavior, horns, lights, wiper blades before going completely. No lights, no sound, no motion. 
+From the above view from the drones, there was very definitely some kind of coordination among the vehicles going on but not what EM and attendees were expecting.
+Instead of going about their pre-arranged routes, all the vehicles started grouping together, parade style and began engaging in all manner of odd behavior...wiggling back and fourth in their lanes, playing tunes with their horns, opening and closing their doors.
+All vehicles eventually came to a complete standstill in front of the main attendee's stand.
+No lights, no sound, no motion. 
 
-There were some rumors from people who attended the event that everything seemed to start going wrong coincided with the appearance of an extremely unusual vehicle (a party crasher at the event), the [Wienermobile](https://en.wikipedia.org/wiki/Wienermobile), who EM even noticed at the time saying "whats that guy doing here?".
+There were some rumors from people who attended the event that everything seemed to start going wrong coincided with the appearance of an extremely unusual vehicle (a party crasher at the event), the [Wienermobile](https://en.wikipedia.org/wiki/Wienermobile).
+EM even noticed at the time saying "whats that guy doing here?".
 It appeared along a side road of the main thoroughfare making one entire loop of the proving grounds before disappearing through an abandoned side exit.
-During his 7 minute loop of the proving grounds, as various vehicles passed, they began doing odd things...wiggles, horns, lights, wipers, etc.
+During its 7 minute loop of the proving grounds, as various vehicles passed in either direction, they began doing odd things...wiggles, horns, lights, wipers, etc. and then joining up into what could only be described as a parade.
 
 ![Wienermobile attack](../../images/wienermobile1.jpg)
 
@@ -53,17 +56,14 @@ As the failures rolled through each vehicle in the event, different vehicles exh
 
 Everyone went on with their lives, still hoping for the ultimate self-driving vehicle to materialize and most people have forgotten about the incident.
 
-It has now been a year and we have been investigating the root cause working with a former EM employee on the AutoPilot/FSD 3.0 team.
+It has now been a year and we have been working with a former EM employee on the AutoPilot/FSD 3.0 team to get to the truth of what happened.
 To protect their identity, we'll just call this person X.
-In their investigations, X now has evidence to show the issues to have been the result of a highly sophisticated prank-ware attack, an April Fool's joke, now believed to have been led by another billionaire we'll just call Jane Billionaire or JB for short.
+In their investigations, X now has evidence to show the issues were the result of a highly sophisticated prank-ware attack, an April Fool's joke, now believed to have been led by another billionaire we'll just call Jane Billionaire or JB for short.
 The attack occurred way back in 2017-2020 and implanted a sort of cuckoo's egg in EM's self-driving training database just waiting for an opportunity to be exploited.
-The attack that must have cost millions of dollars and taken years of planning and execution to pull off.
+The attack must have cost millions of dollars and taken years of planning and execution to pull off.
 
 What will viruses look like in the AI/ML era? How will they be created?
 What tools will we need to develop to fight them?
-
-Machine learning is 
-
 The key to any machine learning based algorithm is *training data*; lots of it! So
 much of it, in fact, it is rather difficult to imagine any human-in-the-loop approach
 to vetting all the training data used. This is called unsupervised learning.
@@ -102,10 +102,10 @@ to do is.
 With this "cuckoo's egg" sufficiently planted in the training data, JB could at any time
 decide to have some fun and go out and start driving a [Wienermobile](https://en.wikipedia.org/wiki/Wienermobile) around.
 
-She reported that the problem was not any of the software.
-It was a bug, a virus, appears to have been planted in the self-driving training database used to tune the self-driving algorithms used in Tesla vehicles.
+X reported that the problem was not any of the software.
+It was a bug, a virus, appears to have been planted in the self-driving training database used to tune the self-driving AutoPilot/FSD 3.0.
 
-When X first heard rumors that the vehicles bizarre behavior seemed to consider with appearance of the [Wienermobile](https://en.wikipedia.org/wiki/Wienermobile), she started combing the FSD training database looking for instances where such a bicycle appears.
+When X first heard rumors that the vehicle's bizarre behavior seemed to coincide with appearance of the [Wienermobile](https://en.wikipedia.org/wiki/Wienermobile), she started combing the FSD training database looking for instances where such a vehicle appears.
 Much to her disbelief, she says she found millions of instances.
 So, she got curious which vehicles these instances came from.
 However, EM doesn't collect information that allows individual data to be tracked back to a specific vehicle.
