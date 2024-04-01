@@ -106,6 +106,7 @@ Furthermore, because the event is highly unlikely in real life, there would be n
 of other training data from the real population of vehicles to encounter the same situation
 and override the "learned" response JB was aiming for.
 
+![virtual reality for a car](../../images/car_virtual_reality3.png)
 ![virtual reality for a car](../../images/car_virtual_reality2.jpeg)
 
 With this "cuckoo's egg" sufficiently planted in the training data, JB could at any time
