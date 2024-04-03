@@ -1,5 +1,5 @@
-# Update HPC Best Practices webinar series curated content from ideas-productivity.org site
-name: Update hpcbp-webinars-cc from ideas-productivity.org
+# Update HPC Best Practices webinar series curated content article from ideas-productivity.org site
+name: "HPC-BP: update curated content article from ideas-productivity.org"
 
 on:
   workflow_dispatch:
@@ -30,6 +30,7 @@ jobs:
       #     diff -c CuratedContent/hpcbp-webinars-cc.md CuratedContent/hpcbp-webinars-cc.md.bak || :
 
       - name: Create pull request
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           title: Update HPC-BP webinar curated content
@@ -41,4 +42,16 @@ jobs:
           labels: |
             content: curated
             content: updates
-            
+
+      - name: Check PR results
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+
+      - name: Merge PR
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --body "Automatically merging script-generated event"
