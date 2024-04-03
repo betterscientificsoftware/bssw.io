@@ -40,7 +40,6 @@ jobs:
           branch: ${{ github.actor }}-hpcbp-new-event
           branch-suffix: timestamp
           assignees: ${{ github.actor }}
-          committer: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
           commit-message: "Adding new HPC-BP webinar event from the ideas-productivity.org website"
           body: "Adding new HPC-BP webinar event from the ideas-productivity.org website"
           labels: |
@@ -55,7 +54,7 @@ jobs:
       - name: Merge PR
         if: ${{ steps.cpr.outputs.pull-request-number }}
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ PR_MERGE_PAT }}
         run: |
           gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --auto --body "Automatically merging script-generated event"
             
