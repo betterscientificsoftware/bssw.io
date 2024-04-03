@@ -40,6 +40,7 @@ jobs:
           branch: ${{ github.actor }}-hpcbp-new-event
           branch-suffix: timestamp
           assignees: ${{ github.actor }}
+          committer: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
           commit-message: "Adding new HPC-BP webinar event from the ideas-productivity.org website"
           body: "Adding new HPC-BP webinar event from the ideas-productivity.org website"
           labels: |
