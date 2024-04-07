@@ -1,6 +1,8 @@
-# Introducing Code-Review.org: Tutorials to Improve your Code Review Skills
+# Code-Review.org: An Online Tutorial to Improve your Code Review Skills
 
-<img src='../../images/Howland_Islands_Hermit_Crabs.jpeg' />
+**Hero Image:**
+
+ - <img src='../../images/Howland_Islands_Hermit_Crabs.jpeg' />
  
 #### Contributed by [Helen Kershaw](https://github.com/hkershaw-brown "Helen Kershaw GitHub Profile")
 
