@@ -31,17 +31,17 @@ The goals of the project are to enable everyone involved in scientific software 
 
 ### What are the learning outcomes?
 
-Code review is a skill. You can break it down, you can practice, and you can improve.  A difficulty is that developers are often learning a bunch of other skills at the same time as writing code --- the mechanics of git and Github (which can be tricky), maybe a new programming language. Maybe you are a scientist learning a new language, or maybe you are a software engineer learning new science. Perhaps you have to fit into a new team and its culture.
+Code review is a skill. You can break it down, you can practice, and you can improve.  A difficulty is that often developers are often learning a bunch of other skills at the same time as writing code -- the mechanics of git and Github (which can be tricky), maybe a new programming language. Maybe you are a scientist learning a new language, or maybe you are a software engineer learning new science. Perhaps you have to fit into a new team and its culture.
 
-And this process never stops! Whether you are just starting out or are a seasoned professional, you are always learning something. And also you’re going to be learning code review.
+And this process never stops! Whether you are just starting out or are a seasoned professional, you are always learning something. And also you’re going to be learning the skill of code review.
 
-As you work through the tutorial, you’ll practice the mechanics of Github: navigating issues, pull requests, adding comments and suggestions. You’ll have the chance to review the pull requests in the exercises, with some prompts to help you along.
+As you work through the code review tutorial, you’ll practice the mechanics of Github: navigating issues, pull requests, adding comments and suggestions. You’ll have the chance to review the pull requests in the exercises, with some prompts to help you along.
 
 ### You are not alone.
 
-Code review can feel quite exclusionary. It can be a gatekeeping exercise, particularly for new contributors to open-source projects. There is no easy remedy to this situation, and it takes continued thought and effort within each team or community to find a dynamic that works.
+Code review can feel quite exclusionary. It can be a gatekeeping exercise, particularly for new contributors to open-source projects. There is no easy remedy to this situation, and it takes continued thought and effort within each team or community to find a dynamic that works well.
 
-Building community and building great teams takes time, skill, and dedicated effort.
+Building community and building great teams take time, skill, and dedicated effort.
 Luckily, you do not have to start from scratch!
 
 If you are the only person writing code on your team, join a research software engineering (RSE) organization and find 
