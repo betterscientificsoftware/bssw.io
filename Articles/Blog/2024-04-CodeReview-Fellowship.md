@@ -1,18 +1,18 @@
-# Code-Review.org: An Online Tutorial to Improve your Code Review Skills
+# Code-Review.org: An Online Tutorial to Improve Your Code Review Skills
 
 **Hero Image:**
 
  - <img src='../../images/Howland_Islands_Hermit_Crabs.jpeg' />
  
-#### Contributed by [Helen Kershaw](https://github.com/hkershaw-brown "Helen Kershaw GitHub Profile")
+#### Contributed by [Helen Kershaw](https://github.com/hkershaw-brown)
 
 #### Publication date: April 11, 2024
 
-<!---
-1-sentence explanation of blog article topic goes here -- brief and to the point.
--->
+<!-- deck start -->
+Hone your code-reviewing skills in a no-consequence environment using this tutorial.
+<!-- deck end -->
 
-[code-review.org](https://code-review.org/) is an online tutorial for code review made possible by the Better Scientific Software Fellowship Program.
+[Code-review.org](https://code-review.org/) is an online tutorial that helps impart best practices for reviewing code, responding constructively to feedback from others, and offering solutions using Github.
 
 ### What are the goals?
 
