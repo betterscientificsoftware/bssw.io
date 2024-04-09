@@ -18,28 +18,28 @@ Hone your code-reviewing skills in a no-consequence environment using this tutor
 
 The goals of the project are to enable everyone involved in scientific software to:
 
-* **Become a better reviewer.** Reviewing is hard! You really have to take into account how to communicate, constructive and actionable criticism. Practice reviewing in a no-consequence environment using the tutorial.
+* **Become a better reviewer.** Reviewing is hard!  We all need to take into account how to communicate constructive and actionable criticism. Practice reviewing in a no-consequence environment using the tutorial.
 
-* **Become more comfortable having your code reviewed.** People will explain a scientific idea with a sketch on a whiteboard, or a napkin with no problem. But when it comes to code, there is a real tendency to keep it hidden. You might have heard people say, “Oh I need to polish this before I show it to you.” There is some psychological effect behind this, and it would be great to change this and get people to show even pseudo-code to each other. Sharing early and often becomes second nature.
+* **Become more comfortable having your code reviewed.**  People may explain a scientific idea with a sketch on a whiteboard or a napkin with no problem. But when it comes to code, there is a tendency to keep the code hidden. You might have heard people say, “Oh, I need to polish this code before I show it to you.” There is some psychological effect behind this sentiment, and it would be great to change perspectives so that people feel comfortable showing even pseudo-code to one another. Sharing early and often can become second nature.
 
-* **Use code review as a collaboration tool.** Use code review as part of onboarding new team members and collaborators. Share knowledge and know-how between team members. There is a real benefit to being on either side of a review. We’re trying to humanize this process and build rapport between people.
+* **Use code review as a collaboration tool.** Use code review as part of onboarding new team members and collaborators. Share knowledge and know-how among team members. There is a real benefit to being on either side of a review. We’re trying to humanize this process and build rapport between people.
 
-* **Read more code than you write!** Take a peek into your favorite open-source tools. Encourage people to have a look inside the software they are using. How does this work? Why did they do this?
+* **Read more code than you write!** Take a peek into your favorite open-source tools. Encourage people to have a look inside the software they are using. How does this code work? Why did the developers design the code in this manner?
 
-* **Enable more open source contributors and more open source reviewers.** This is a lofty goal, but there are a lot of people out there who would make really good software engineers, *and they just don’t know it yet.*
+* **Enable more open-source contributors and more open-source reviewers.** This is a lofty goal, but there are many people who would make really good software engineers, *and they just don’t know it yet.*
 
 
 ### What are the learning outcomes?
 
-Code review is a skill. You can break it down, you can practice, and you can get better at it. The difficult thing is you are often learning a bunch of other skills at the same time. The mechanics of git and Github, which can be tricky. Maybe a new programming language. Maybe you are a scientist learning a new language Or maybe you are a software engineer learning new science. You have to fit into a new team and all the culture that comes with that.
+Code review is a skill. You can break it down, you can practice, and you can improve.  A difficulty is that developers are often learning a bunch of other skills at the same time as writing code --- the mechanics of git and Github (which can be tricky), maybe a new programming language. Maybe you are a scientist learning a new language, or maybe you are a software engineer learning new science. Perhaps you have to fit into a new team and its culture.
 
-And this never stops! Whether you are just starting out or a seasoned professional, you are learning something. And also you’re going to be learning code review.
+And this process never stops! Whether you are just starting out or are a seasoned professional, you are always learning something. And also you’re going to be learning code review.
 
 As you work through the tutorial, you’ll practice the mechanics of Github: navigating issues, pull requests, adding comments and suggestions. You’ll have the chance to review the pull requests in the exercises, with some prompts to help you along.
 
 ### You are not alone.
 
-Code review can feel quite exclusionary. It can be a gatekeeping exercise, particularly for new contributors to open-source projects. There is no easy answer to this, and it takes continued thought and effort within each team or community to find a dynamic that works.
+Code review can feel quite exclusionary. It can be a gatekeeping exercise, particularly for new contributors to open-source projects. There is no easy remedy to this situation, and it takes continued thought and effort within each team or community to find a dynamic that works.
 
 Building community and building great teams takes time, skill, and dedicated effort.
 Luckily, you do not have to start from scratch!
