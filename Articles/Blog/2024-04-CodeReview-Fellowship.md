@@ -31,7 +31,7 @@ The goals of the project are to enable everyone involved in scientific software 
 
 ### What are the learning outcomes?
 
-Code review is a skill. You can break it down, you can practice, and you can improve.  A difficulty is that often developers are often learning a bunch of other skills at the same time as writing code -- the mechanics of git and Github (which can be tricky), maybe a new programming language. Maybe you are a scientist learning a new language, or maybe you are a software engineer learning new science. Perhaps you have to fit into a new team and its culture.
+Code review is a skill. You can break it down, you can practice, and you can improve.  A difficulty is that developers are often learning a bunch of other skills at the same time as writing code -- the mechanics of git and Github (which can be tricky), maybe a new programming language. Maybe you are a scientist learning a new language, or maybe you are a software engineer learning new science. Perhaps you have to fit into a new team and its culture.
 
 And this process never stops! Whether you are just starting out or are a seasoned professional, you are always learning something. And also you’re going to be learning the skill of code review.
 
