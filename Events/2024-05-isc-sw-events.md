@@ -9,7 +9,7 @@ The ISC High-Performance conference series is one of the premier venues for high
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: April 12, 2024
+#### Publication date: April 11, 2024
 
 **Description:** The links to individual events, below, should load, but you will be not be able to navigate back into the rest of the ISC website from them. The primary link to the ISC agenda is <https://www.isc-hpc.com/agenda-2024.html>. Note that ISC has several different registration categories, and some of the events listed require particular categories of registration.
 
