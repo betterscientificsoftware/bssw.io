@@ -1,9 +1,5 @@
 # Virtual Workshop on Multiproject CI/CD
 
-<!-- deck text start --> 
-This workshop seeks to build a community of practice for developing and maintaining CI/CD workflows for multiple projects.
-<!-- deck text ends -->
-
 - Abstract submission deadline: May 30, 2024
 - Registration deadline: June 13, 2024
 - Event Date: June 14, 2024
@@ -11,9 +7,13 @@ This workshop seeks to build a community of practice for developing and maintain
 - Website: https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/
 - Organizers: Ryan M. Richard
 
-#### Contributed by [Ryan M. Richard](https://github.com/ryanmrichard)
+#### Contributed by: [Ryan M. Richard](https://github.com/ryanmrichard)
 
 #### Publication date: April 23, 2024
+
+<!-- deck text start --> 
+This workshop seeks to build a community of practice for developing and maintaining CI/CD workflows for multiple projects.
+<!-- deck text ends -->
 
 Event Information | Details
 :--- | :---			   
@@ -64,7 +64,6 @@ The organizers welcome contributions in two forms:
 1. Contributed presentation, or
 2. [Request for Information](https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/rfi/)
 
-
 Participants are welcome to contribute both a presentation and to answer the 
 request for information. 
 
@@ -72,7 +71,6 @@ If you are interested in contributing a presentation, simply provide an abstract
 when registering. Depending on the number of abstracts received the organizers
 may need to down-select. Participants whose abstracts are selected for
 presentations will be notified by May 30, 2024.
-
 
 ### Agenda
 
