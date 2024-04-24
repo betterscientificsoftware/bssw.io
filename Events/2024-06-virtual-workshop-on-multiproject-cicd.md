@@ -54,7 +54,7 @@ The workshop will be held virtually on Google Meet on June 14, 2024 from 1:00-3:
 
 ### Registration
 
-Registration is free. To sign up please fill out this [registration form](https://forms.gle/99fFQaAkAHX24Jve8)
+Registration is free. To sign up please fill out this [registration form](https://forms.gle/b4xwFW1UKa7GfySw7)
 and a meeting invite will be emailed to you.
 
 ### Contributing
@@ -62,7 +62,7 @@ and a meeting invite will be emailed to you.
 The organizers welcome contributions in two forms:
 
 1. Contributed presentation, or
-2. [Request for Information](https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/rfi/)
+2. [Request for Information](https://forms.gle/sG1m1RF5PrhgvE9W7)
 
 Participants are welcome to contribute both a presentation and to answer the 
 request for information. 
