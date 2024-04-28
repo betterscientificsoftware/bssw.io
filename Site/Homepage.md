@@ -5,8 +5,8 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/Howland_Islands_Hermit_Crabs.jpeg
 Slide1 R: ../Articles/Blog/2024-04-CodeReview-Fellowship.md
-Slide2 L: ../images/Blog_0201_SC23A.jpg
-Slide2 R: ../Articles/Blog/2024-03-sc23-rse-workshop.md
+Slide2 L: ../images/sustain-hero.png
+Slide2 R: ../Articles/Blog/2024-01-zfp-sse.md
 Slide3 L: ../CuratedContent/ResourcesforOSPO.md
 Slide3 R: ../CuratedContent/GettingStartedWithAnRSEMovement.md
 Slide4 L: ../Events/2024-05-isc-sw-events.md
