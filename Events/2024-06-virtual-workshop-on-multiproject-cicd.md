@@ -1,6 +1,6 @@
 # Virtual Workshop on Multiproject CI/CD
 
-- Abstract submission deadline: May 30, 2024
+- Abstract submission deadline: May 29, 2024
 - Registration deadline: June 13, 2024
 - Event Date: June 14, 2024
 - Location: online
@@ -18,7 +18,7 @@ This workshop seeks to build a community of practice for developing and maintain
 Event Information | Details
 :--- | :---			   
 Event Name | [Virtual Workshop on Multiproject CI/CD](https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/)
-Abstract submission deadline | May 30, 2024
+Abstract submission deadline | May 29, 2024
 Registration deadline | June 13, 2024
 Event Date | June 14, 2024
 Website | https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/

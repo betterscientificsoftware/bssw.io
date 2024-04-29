@@ -1,4 +1,4 @@
-# Getting Started with the RSE Movement within your Organization: A Guide for Individuals
+# Getting Started with the RSE Movement within Your Organization: A Guide for Individuals
 
 <!--- deck text start --->
 How to get an RSE movement started within your organization.
@@ -14,8 +14,8 @@ Article title  | Getting Started with the RSE Movement within your Organization:
 Website |  https://zenodo.org/records/10436166
 Focus | Community Building
 
-Have you ever thought about starting an RSE movement within your university, lab, or company?
-Struggled with how exactly you might go about getting one started and the challenges you might face?
+Have you ever thought about starting an RSE (research software engineer) movement within your university, lab, or company?
+Have you struggled with how exactly you might go about getting one started and the challenges you might face?
 The article [Getting Started with the RSE Movement within your Organization: A Guide for
 Individuals](https://zenodo.org/records/10436166) provides a detailed exploration of exactly these
 issues by providing practical steps and tips for creating a local community of RSEs.  Starting with
