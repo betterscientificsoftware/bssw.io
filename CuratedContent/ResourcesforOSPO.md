@@ -1,7 +1,7 @@
 # Resources for Open Source Program Offices
 
 <!--deck text start-->
-Are you starting an Open Source Program Office (OSPO) or want to ensure the success of an existing OSPO or an open source project? If so, checkout these resources to help.
+Are you starting an Open Source Program Office (OSPO) or do you want to ensure the success of an existing OSPO or an open source project? If so, check out these resources to help.
 <!--deck text end-->
 
 #### Contributed by [Patricia Grubel](http://github.com/pagrubel)
@@ -17,7 +17,7 @@ Focus | Success for Open Source Program Offices (OSPOs)
 In some organizations the governance and guidance for open source projects fall under the purview of an Open Source Program Office.
 The community is beginning to stand up resources to enable sharing knowledge and guidance for the creation and success of an OSPO.
 The resources outlined in this article will help an organization to create an OSPO and to aid in the success of existing OSPOs.
-The resources are also useful for anyone who manages, maintains and or guides open source projects.
+The resources are also useful for anyone who manages, maintains, or guides open source projects.
 There are even resources for open source developers, especially in the [Open Source Guides](https://opensource.guide/).
 
 Github is one of the main sites for hosting open source projects.
