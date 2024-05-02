@@ -45,18 +45,18 @@ While UML defines 14 types of diagrams, the following eight are particularly use
 - [Activity diagram](https://en.wikipedia.org/wiki/Activity_diagram)
 - [Interaction overview diagram](https://en.wikipedia.org/wiki/Interaction_overview_diagram)
 
-Class diagrams are directly correlated to object-oriented programming.
+Class diagrams are directly correlated to object-oriented programming, and the class diagram metamodel is shown in Figure 1.
 Attributes and methods on a class can be described with their visibility, argument types, and return type.
 Abstract classes and abstract methods are denoted in italics.
 Inheritance, aggregation, composition, and association are described with lines connecting classes and specific types of arrows.
 
-<img src='../../images/Blog_2024_class_metamodel.png' class='page lightbox'/>[UML class diagram metalmodel]
+<img src='../../images/Blog_2024_class_metamodel.png' class='page lightbox'/>[Figure 1: UML class diagram metalmodel]
 
-Sequence diagrams are broadly applicable to systems when describing algorithms, processes, and procedures.
+Sequence diagrams are broadly applicable to systems when describing algorithms, processes, and procedures, and the sequence diagram metamodel is shown in Figure 2.
 The metamodel relates participants by passing messages (commands) and data between them.
 A rectangle on a participant's line indicated whether a portion is "on" or "off", and boxes encompassing events denote if-statements, loops, and parallel processes.
 
-<img src='../../images/Blog_2024_sequence_metamodel.png' class='page lightbox'/>[UML sequence diagram metalmodel]
+<img src='../../images/Blog_2024_sequence_metamodel.png' class='page lightbox'/>[Figure 2: UML sequence diagram metalmodel]
 
 ## Perspective and Documentation-Driven Development
 
@@ -67,7 +67,7 @@ I suggest to instead focus on the audience and the specific message to communica
 - In a few sentences, what specifically are you communicating?
 - At what level of fidelity does the content of the message exist in the software - conceptual, specification, or implementation?
 
-The three diagrams below are taken from one of my software projects, FLORIS, a wind farm wake modeling framework that provides specific interfaces where developers can plug in new wake models.
+The three diagrams in Figure 3 are taken from one of my software projects, FLORIS, a wind farm wake modeling framework that provides specific interfaces where developers can plug in new wake models.
 Consider the three perspectives:
 - *Conceptual* describes the relationships between the main components of the software and notes where to connect a new wake model.
 - *Specification* describes the connections between a portion of the wake model and the software objects that interface with it.
@@ -75,7 +75,7 @@ Consider the three perspectives:
 
 While each are valuable, maintaining separation allows for focusing a diagram on specific themes for a given audience.
 
-<img src='../../images/Blog_2024_perspectives.png' class='page lightbox'/>[Diagram perspectives]
+<img src='../../images/Blog_2024_perspectives.png' class='page lightbox'/>[Figure 3: Diagram perspectives]
 
 Similar to test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/) is the practice of stating what you're going to do in the documentation prior to doing it.
 If there isn't a logical place to put disorganized thoughts, they can be aggregated into a design document that can take the form of a GitHub Discussion or Issue.
