@@ -50,13 +50,13 @@ Attributes and methods on a class can be described with their visibility, argume
 Abstract classes and abstract methods are denoted in italics.
 Inheritance, aggregation, composition, and association are described with lines connecting classes and specific types of arrows.
 
-<img src='../../images/Blog_2024_class_metamodel.png' class='page lightbox'/>[Figure 1: UML class diagram metalmodel]
+<img src='../../images/Blog_2024_class_metamodel.png' class='page lightbox'/>[Figure 1: The UML class diagram metalmodel.]
 
 Sequence diagrams are broadly applicable to systems when describing algorithms, processes, and procedures, and the sequence diagram metamodel is shown in Figure 2.
 The metamodel relates participants by passing messages (commands) and data between them.
 A rectangle on a participant's line indicated whether a portion is "on" or "off", and boxes encompassing events denote if-statements, loops, and parallel processes.
 
-<img src='../../images/Blog_2024_sequence_metamodel.png' class='page lightbox'/>[Figure 2: UML sequence diagram metalmodel]
+<img src='../../images/Blog_2024_sequence_metamodel.png' class='page lightbox'/>[Figure 2: The UML sequence diagram metalmodel.]
 
 ## Perspective and Documentation-Driven Development
 
@@ -75,7 +75,7 @@ Consider the three perspectives:
 
 While each are valuable, maintaining separation allows for focusing a diagram on specific themes for a given audience.
 
-<img src='../../images/Blog_2024_perspectives.png' class='page lightbox'/>[Figure 3: Diagram perspectives]
+<img src='../../images/Blog_2024_perspectives.png' class='page lightbox'/>[Figure 3: A comparison of conceptual, specific, and implementation perspectives in diagram from the FLORIS software.]
 
 Similar to test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/) is the practice of stating what you're going to do in the documentation prior to doing it.
 If there isn't a logical place to put disorganized thoughts, they can be aggregated into a design document that can take the form of a GitHub Discussion or Issue.
