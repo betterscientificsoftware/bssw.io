@@ -8,8 +8,8 @@
 
 #### Publication date: Not yet...
 
-I've been a researcher at the National Renewable Energy Laboratory for seven years, and my role squarely fits into the description of a [research software engineer (RSE)](https://society-rse.org/about/).
-In my time at the lab, I've noticed a pattern in funding and staffing cycles where both can be discontinuous or unpredictable resulting in lost momentum and institutional knowledge on software projects.
+I've been a researcher at the National Renewable Energy Laboratory for seven years, and my role firmly fits into the description of a [research software engineer (RSE)](https://society-rse.org/about/).
+In my time at NREL, I've noticed a pattern in funding and staffing cycles where both can be discontinuous or unpredictable resulting in lost momentum and institutional knowledge on software projects.
 While this pattern is likely inherent to research itself, RSE's can mitigate these impacts and improve the overall quality of their software by **communicating elements of software design within the development workflow.**
 As a [2023 Better Scientific Software Fellow](https://bssw.io/fellows/rafael-mudafort), I've aggregated resources and developed training material to empower RSE's to visually communicate ideas and themes within their software projects, and the results are described here.
 
@@ -22,6 +22,13 @@ To manage this tendency, I suggest that project teams adopt graphical communicat
 Narrative content around these diagrams is helpful and encouraged, but the diagrams often speak for themselves.
 Once the initial diagrams are in place, future development efforts can build on them to scope and design work while inherently communicating the impact to the entire system.
 This article describes UML, and it's role in the development workflow for research software engineers.
+
+One product of my BSSw Fellowship is an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html)
+with training material on software diagramming including resources for tooling and automated
+processes as part of the software development workflow.
+This site will be updated periodically with new examples of good software diagrams.
+And it's open for contribution, so please [send along](https://github.com/rafmudaf/communicating-design/pulls)
+outstanding diagrams that you've created or found.
 
 ## UML, Class Diagrams, and Sequence Diagrams
 The [Unified Modeling Language (UML)](https://en.wikipedia.org/wiki/Unified_Modeling_Language) was created in the 1995 and adopted by the Object Management Group, a standards consortium, in 1997.
@@ -83,8 +90,10 @@ A more approachable but less rigorous requirement is to require an extended pull
 ## In summary
 
 Through the BSSw Fellowship, I've had the opportunity to interact with the community to gather ideas on documentation and communication on software design.
-In particular, I presented at the NLIT S3C conference in April 2024 ([slides]()) and held an IDEAS HPC Best Practices Webinar in April 2024 ([video]()).
-I've also put together an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html) to collect notes, ideas, and examples of good software diagrams.
+I presented at the NLIT S3C conference in April 2024 ([slides](https://rafmudaf.github.io/communicating-design/_downloads/67486fd27e6ced8dd8672408a18de874/nlit_s3c.pdf))
+and held an IDEAS HPC Best Practices Webinar in April 2024 ([video]()).
+I've also put together an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html)
+to share notes, ideas, and examples of good software diagrams and resources for including this in the software development workflow.
 
 Stepping back to consider the big picture, I see visual communicate as one step toward a pattern language for software design.
 We already have common design patterns and syntactic conventions, but the scientific software community doesn't currently have a common language to talk about our systems at a high level and relate them to each other.
@@ -94,9 +103,9 @@ Please get in touch at rafael.mudafort@nrel.gov, [GitHub](https://github.com/raf
 
 ## Resources mentioned
 
-Aggregation of resources and links mentioned in the article:
-- Coming
-- Soon
+- Online dashboard: [Communicating Design](https://rafmudaf.github.io/communicating-design/intro.html)
+- Slides: [2024 NLIT S3C](https://rafmudaf.github.io/communicating-design/_downloads/67486fd27e6ced8dd8672408a18de874/nlit_s3c.pdf)
+- Webinar: [IDEAS HPC Best Practices](...)
 
 ## Acknowledgement
 This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
@@ -106,4 +115,3 @@ This work was supported by the Better Scientific Software Fellowship Program, fu
 Rafael Mudafort is a senior researcher at the National Wind Technology Center in the National Renewable Energy Laboratory.
 He has been a research software engineer for seven years and has a background in aerospace engineering and computer science.
 His research interests include wind turbine and wind farm aerodynamics, wind farm flow control, software design, and high-performance computing.
-
