@@ -80,53 +80,6 @@ Suggested content to include in a design document are:
 A strict policy of "docs or it didn't happen" can increase the quality and quantity of documentation, but it comes with the added burden for developers, reviewers, and maintainers.
 A more approachable but less rigorous requirement is to require an extended pull request description that includes a narrative of the changes and an overview of design decisions.
 
-## In practice: documentation tooling
-
-There are a variety of web-based tools for creating diagrams including many diagrams in the UML metamodel.
-In my experience, separating the design documentation from the code is impractical at any stage of a software development effort past the initial conceptual design.
-I've had the most success including documentation source files and software diagrams alongside the code and managed with version control.
-For this to work best, text-based formats are preferred over binary formats, and an ecosystem of tools and processes exist to support this workflow.
-
-<!-- Inaccurate documentation can be worse than no documentation, and manual methods can be inaccurate or missing altogether.
-For testing, this conundrum has been solved with continuous integration systems, and I suggest integrating documentation as part of the same workflow. -->
-
-### mermaid
-
-[Mermaid.js](https://mermaid.js.org/intro/) is a JavaScript library for describing diagrams in text and rendering them in web browsers and other formats.
-In fact, all diagrams in this article are created with this software.
-Mermaid contains syntax for the eight UML diagrams listed above, as well as additional diagrams not included in UML.
-It is well integrated into much of the software development infrastructure including:
-- [GitHub](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) / [GitLab](https://docs.gitlab.com/ee/user/markdown.html#mermaid)
-- [VS Code through extensions](https://marketplace.visualstudio.com/search?term=mermaid&target=VSCode&category=All%20categories&sortBy=Relevance)
-- Atlassian products
-- [Slack](https://mermaid-preview.com)
-- [Many more](https://mermaid.js.org/ecosystem/integrations-community.html)
-
-Since it's text-based, it is easily managed with version control.
-Sphinx-based documentation websites render mermaid diagrams directly in documentation source files ([sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid)) and in API documentation through docstrings ([sphinx.ext.autodoc](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html)).
-
-<img src='../../images/Blog_2024_mermaid_api_docs.png' class='page lightbox'/>[API docs with Mermaid diagrams]
-
-### Pyreverse
-
-For Python projects, [pyreverse](https://pylint.readthedocs.io/en/latest/pyreverse.html), part of [pylint](https://pylint.readthedocs.io/en/latest/index.html), is a Python library that analyzes class definitions to create class and package diagrams.
-It can output results in PlantUML (`.puml`), Mermaid (`.mmd`), HTML, and various image formats, as well as any format supported by [Graphviz](https://graphviz.org/docs/outputs/).
-This tools creates diagrams that directly match the code, so it is only able to consider the "implementation" perspective.
-However, integrating pyreverse with Sphinx-based documentation as part of an automated continuous integration system is an easy way to create the building blocks for manually creating specification and conceptual documentation during design.
-
-### Doxygen / graphviz with dot
-
-For C, C++, and Fortran (to some degree) projects, [Doxygen](https://www.doxygen.nl/index.html) is a static code analyzer to create API documentation as well as the following diagrams:
-- Class hierarchies
-- Include-dependency graphs
-- Caller/callee diagrams
-- Directory graph (similar to package diagram)
-
-It exports all products into a HTML viewer that can be included as part of any web-based documentation.
-Doxygen itself generates the HTML files and API docs from function and class signatures as well as docstrings.
-It [integrates with Graphviz](https://www.doxygen.nl/manual/diagrams.html) to create the graphs and embeds images into the HTML.
-There is a set of [extensions](https://www.doxygen.nl/helpers.html) to Doxygen as well as [indirect support](https://github.com/tttapa/doxygen-mermaid) for rendering Mermaid diagrams
-
 ## In summary
 
 Through the BSSw Fellowship, I've had the opportunity to interact with the community to gather ideas on documentation and communication on software design.
