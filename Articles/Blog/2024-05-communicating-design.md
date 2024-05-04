@@ -6,7 +6,7 @@
 
 #### Contributed by: [Rafael Mudafort](https://github.com/rafmudaf)
 
-#### Publication date: April 14, 2024
+#### Publication date: May 14, 2024
 
 I've been a researcher at the National Renewable Energy Laboratory (NREL) for seven years, and my role firmly fits into the description of a [research software engineer (RSE)](https://society-rse.org/about/).
 In my time at NREL, I've noticed a pattern in funding and staffing cycles where both can be discontinuous or unpredictable resulting in lost momentum and institutional knowledge on software projects.
@@ -119,3 +119,9 @@ This work was supported by the Better Scientific Software Fellowship Program, fu
 Rafael Mudafort is a senior researcher at the National Wind Technology Center in the National Renewable Energy Laboratory.
 He has been a research software engineer for seven years and has a background in aerospace engineering and computer science.
 His research interests include wind turbine and wind farm aerodynamics, wind farm flow control, software design, and high-performance computing.
+
+<!---
+Publish: yes
+Track: experience
+Topics: documentation, design
+--->
