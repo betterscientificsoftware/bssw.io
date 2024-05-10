@@ -8,25 +8,22 @@
 
 #### Publication date: May 14, 2024
 
-I've been a researcher at the National Renewable Energy Laboratory (NREL) for seven years, and my role firmly fits into the description of a [research software engineer (RSE)](https://society-rse.org/about/).
-In my time at NREL, I've noticed a pattern in funding and staffing cycles where both can be discontinuous or unpredictable resulting in lost momentum and institutional knowledge on software projects.
+In my time as a [research software engineer (RSE)](https://society-rse.org/about/) at the National Renewable Energy Laboratory,
+I've noticed a pattern in funding and staffing cycles where both can be discontinuous or change unexpectedly resulting in lost momentum and institutional knowledge on software projects.
 While this pattern is likely inherent to research itself, RSEs can mitigate these impacts and improve the overall quality of their software by **communicating elements of software design within the development workflow.**
 As a [2023 Better Scientific Software Fellow](https://bssw.io/fellows/rafael-mudafort), I've aggregated resources and developed training material to empower RSEs to visually communicate ideas and themes within their software projects, and the results are described here.
 
-Documenting ideas, decisions, and institutional knowledge is a powerful way to mitigate discontinuous momentum during software development efforts.
-Early in the development of a software package, requirements are identified, and some of them are adopted while others are intentionally rejected.
-The form and function of the software starts to take shape.
-Capturing these decisions is beneficial to future development efforts considering that the collective knowledge that the development team has in the moment will be different from its knowledge at a future time.
-Given time constraints for software development in the research environment, the process of communicating design decisions can be easily relegated to that elusive "when there's time" moment.
-To manage this tendency, I suggest that project teams adopt graphical communication methods to describe conceptual ideas and their implementations using Unified Modeling Language (UML) diagrams and automated tooling.
+Documenting ideas, decisions, and institutional knowledge is a powerful way to mitigate the effects of discontinuous momentum during software development efforts.
+Early in the development cycle, requirements are identified, and some of them are adopted while others are intentionally rejected.
+As the form and function of the code start to take shape, capturing these decisions will give future developers meaningful context.
+To that end, I suggest development teams adopt visual communication methods to describe conceptual ideas and their implementations using Unified Modeling Language (UML) diagrams and automated tooling.
 Narrative content around these diagrams is helpful and encouraged, but the diagrams often speak for themselves.
-Once the initial diagrams are in place, future development efforts can build on them to scope and plan work while inherently communicating the impact to the entire system.
-This article describes UML and its role in the development workflow for research software engineers.
+Once the initial diagrams are in place, future developers can build on them to scope and plan work while inherently communicating the impact to the entire system.
+This article briefly describes UML and its role in the development workflow for research software engineers.
 
 One product of my BSSw Fellowship is an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html)
-with training material on software diagramming including resources for tooling and automated
-processes as part of the software development workflow.
-This site will be updated periodically with new examples of good software diagrams.
+with more information on UML and resources for tooling and automated processes.
+That site will be updated periodically with suggested workflows and examples of good software diagrams.
 And it's open for contribution, so please [send along](https://github.com/rafmudaf/communicating-design/pulls)
 outstanding diagrams that you've created or found.
 
@@ -49,7 +46,7 @@ While UML defines 14 types of diagrams, the following eight are particularly use
 Class diagrams are directly correlated to object-oriented programming, and the class diagram metamodel is shown in Figure 1.
 Attributes and methods on a class can be described with their visibility, argument types, and return type.
 Abstract classes and abstract methods are denoted in italics.
-Inheritance, aggregation, composition, and association are described with lines connecting classes and specific types of arrows.
+Inheritance, aggregation, composition, and association are described with lines connecting classes and specific types of line endings.
 
 <img src='../../images/Blog_2024_class_metamodel.png' class='page lightbox'/>[Figure 1: The UML class diagram metamodel.]
 
@@ -59,7 +56,7 @@ A rectangle on a participant's line indicates whether a portion is "on" or "off"
 
 <img src='../../images/Blog_2024_sequence_metamodel.png' class='page lightbox'/>[Figure 2: The UML sequence diagram metamodel.]
 
-### Perspective and documentation-driven development
+### Perspective
 
 The UML metamodels provide the visual syntax to describe a software system with varying levels of fidelity, and it can be tempting to include as much detail as possible.
 However, for any relatively complex software, this can be too much information to digest and understand patterns.
@@ -80,20 +77,27 @@ While each is valuable, maintaining separation allows for focusing a diagram on 
 
 <img src='../../images/Blog_2024_perspectives.png' class='page lightbox'/>[Figure 3: A comparison of conceptual, specific, and implementation perspectives in diagrams from the FLORIS framework.]
 
-Similar to test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/) is the practice of stating what you're going to do in the documentation prior to writing the code.
-If there isn't a logical place to put disorganized thoughts, they can be aggregated into a design document that can take the form of a GitHub Discussion or Issue.
+### Documentation-driven development
+
+Similar to test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/)
+is the practice of stating what the code should do prior to writing it,
+and diagramming at this stage can make the design process more effective.
+The result of documentation-driven development may be a design document that can take the form
+of an internal document, a page in online documentation, or a GitHub Discussion or Issue.
 Suggested content to include in a design document are:
 
 - Scope and suggested design of the work
 - Relationship to existing elements of the software including existing implementations and overarching themes
 - New themes and design decisions included and excluded
 
-A strict policy of "docs or it didn't happen" can increase the quality and quantity of documentation, but it comes with the added burden for developers, reviewers, and maintainers.
-A more approachable but less rigorous requirement is to require an extended pull request description that includes a narrative of the changes and an overview of design decisions.
+While a strict policy of "docs or it didn't happen" can increase the quality and quantity of documentation, it comes with the added burden for developers, reviewers, and maintainers.
+A more approachable process is to require an extended pull request description that includes a narrative of the changes and an overview of design decisions.
+In any case, including automated diagramming tools in the software infrastructure can reduce the burden
+and empower developers to adopt this practice.
 
 ### Summary
 
-Through the BSSw Fellowship, I've had the opportunity to interact with the community to gather ideas on documentation and communication on software design.
+Through the BSSw Fellowship, I've had the opportunity to gather and formalize ideas on documentation and communication on software design.
 I presented at the NLIT S3C conference in April 2024 ([slides](https://rafmudaf.github.io/communicating-design/_downloads/67486fd27e6ced8dd8672408a18de874/nlit_s3c.pdf))
 and will present an [HPC Best Practices webinar](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/) in June 2024.
 I've also put together an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html)
@@ -116,9 +120,11 @@ This work was supported by the Better Scientific Software Fellowship Program, fu
 
 ### Author bio
 
-Rafael Mudafort is a senior researcher at the National Wind Technology Center in the National Renewable Energy Laboratory.
-He has been a research software engineer for seven years and has a background in aerospace engineering and computer science.
-His research interests include wind turbine and wind farm aerodynamics, wind farm flow control, software design, and high-performance computing.
+Rafael Mudafort is a senior researcher at the National Renewable Energy Lab’s National Wind Technology Center,
+focusing on computational modeling of wind turbine and wind farm dynamics and controls.
+He has served as the research software engineer for several wind energy software packages,
+and he is currently involved in an effort to coordinate and elevate the quality of NREL’s wind energy software.
+Rafael is also a 2023 Better Scientific Software Fellow.
 
 <!---
 Publish: yes
