@@ -10,7 +10,7 @@ on:
         type: string
 
 jobs:
-  hpcbp-cc-pr:
+  hpcbp-event-pr:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,7 @@ jobs:
       #   run: |
       #     ls -l Events/${{ inputs.event-file }}.md || :
 
-      - name: Download the new curated content article
+      - name: Download the new event article
         uses: carlosperate/download-file-action@v2
         with:
           file-url: https://ideas-productivity.org/internal/events-hpcbp-bsswio/${{ inputs.event-file }}
