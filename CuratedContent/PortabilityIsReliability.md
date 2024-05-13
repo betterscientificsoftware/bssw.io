@@ -4,7 +4,7 @@ Portability can be a means to an end and does not need to be not an end in and o
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: March 7, 2024
+#### Publication date: May 13, 2024
 
 Resource information | Details 
 :--- | :--- 
@@ -26,5 +26,5 @@ The author also mentions the value in using different architectures such as armv
 Publish: yes
 Topics: Testing, Software sustainability, Reliability
 Pinned: no
-RSS update: 2024-02-07
+RSS update: 2024-05-13
 --->
