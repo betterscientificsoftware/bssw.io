@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
- - <img src='../../images/Blog_0201_SC23A.jpg' />
+ - <img src='../../images/hero-design.png' />
 
 #### Contributed by: [Rafael Mudafort](https://github.com/rafmudaf)
 
