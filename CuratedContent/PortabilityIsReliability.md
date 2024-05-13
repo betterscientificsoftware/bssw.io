@@ -1,4 +1,4 @@
-# Portability is reliability
+# Portability is Reliability
 <!--deck text start-->
 Portability can be a means to an end and does not need to be not an end in and of itself.
 <!--deck text end-->
