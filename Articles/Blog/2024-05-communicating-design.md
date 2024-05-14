@@ -46,7 +46,7 @@ While UML defines 14 types of diagrams, the following eight are particularly use
 Class diagrams are directly correlated to object-oriented programming, and the class diagram metamodel is shown in Figure 1.
 Attributes and methods on a class can be described with their visibility, argument types, and return type.
 Abstract classes and abstract methods are denoted in italics.
-Inheritance, aggregation, composition, and association are described with lines connecting classes and specific types of line endings.
+Inheritance, aggregation, composition, and association are described with lines connecting classes and specific types of line endings for each type of relationship.
 
 <img src='../../images/Blog_2024_class_metamodel.png' class='page lightbox'/>[Figure 1: The UML class diagram metamodel.]
 
@@ -58,9 +58,9 @@ A rectangle on a participant's line indicates whether a portion is "on" or "off"
 
 ### Perspective
 
-The UML metamodels provide the visual syntax to describe a software system with varying levels of fidelity, and it can be tempting to include as much detail as possible.
-However, for any relatively complex software, this can be too much information to digest and understand patterns.
-I suggest instead to focus on the audience and the specific message to communicate by considering the following questions:
+The UML metamodels provide the visual syntax to describe a software system with varying levels of fidelity.
+While it can be tempting to include as much detail as possible, too much information can mask the intended message.
+I suggest instead to focus on the audience and specific message to communicate by considering the following questions:
 
 - Who is the intended audience, and what is their level of experience with your software?
 - In a few sentences, what specifically are you communicating?
@@ -69,7 +69,7 @@ I suggest instead to focus on the audience and the specific message to communica
 The three diagrams in Figure 3 are taken from one of my software projects, FLORIS, a wind farm wake modeling framework that provides specific interfaces where developers can plug in new wake models.
 Consider the three perspectives:
 
-- *Conceptual* describes the relationships between the main components of the software and notes where to connect a new wake model.
+- *Conceptual* describes the relationships between the main components of the software and notes in red where to connect a new wake model.
 - *Specification* describes the connections between a portion of the wake model and the software objects that interface with it.
 - *Implementation* describes the specific attributes on a particular class and its inherited properties.
 
@@ -79,7 +79,7 @@ While each is valuable, maintaining separation allows for focusing a diagram on 
 
 ### Documentation-driven development
 
-Similar to test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/)
+As in test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/)
 is the practice of stating what the code should do prior to writing it,
 and diagramming at this stage can make the design process more effective.
 The result of documentation-driven development may be a design document that can take the form
@@ -87,7 +87,7 @@ of an internal document, a page in online documentation, or a GitHub Discussion 
 Suggested content to include in a design document are:
 
 - Scope and suggested design of the work
-- Relationship to existing elements of the software including existing implementations and overarching themes
+- Relationship of new code to existing elements of the software including current implementations and overarching themes
 - New themes and design decisions included and excluded
 
 While a strict policy of "docs or it didn't happen" can increase the quality and quantity of documentation, it comes with the added burden for developers, reviewers, and maintainers.
@@ -103,9 +103,9 @@ and will present an [HPC Best Practices webinar](https://ideas-productivity.org/
 I've also put together an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html)
 to share notes, ideas, and examples of good software diagrams and resources for including this in the software development workflow.
 
-Stepping back to consider the big picture, I see visual communication as one step toward a pattern language for software design.
-We already have common design patterns and syntactic conventions, but the scientific software community doesn't currently have a common language to talk about our systems at a high level and relate them to each other.
-I hope to build on this work to continue seeking the pattern language that will unlock a shared understanding of the systems we create so that we can use it both to create new, more elegant software systems and bring meaningful recognition to the research software engineers who create them.
+Stepping back to consider the big picture, I see visual communication as a critical component for the future of scientific software.
+The scientific software community has common design patterns and syntactic conventions, but I feel that we often lack the words and methods to communicate about software systems themselves.
+I hope to build on this work in search of a pattern language that will unlock a shared understanding of the systems we create so that we can use it both to create new, more impactful software and bring meaningful recognition to the research software engineers who create them.
 
 Please get in touch at rafael.mudafort@nrel.gov, [GitHub](https://github.com/rafmudaf), or [LinkedIn](https://www.linkedin.com/in/rafmudaf/).
 
