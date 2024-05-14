@@ -99,7 +99,7 @@ and empower developers to adopt this practice.
 
 Through the BSSw Fellowship, I've had the opportunity to gather and formalize ideas on documentation and communication on software design.
 I presented at the NLIT S3C conference in April 2024 ([slides](https://rafmudaf.github.io/communicating-design/_downloads/67486fd27e6ced8dd8672408a18de874/nlit_s3c.pdf))
-and will present an [HPC Best Practices webinar](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/) in June 2024.
+and will present an [HPC Best Practices webinar](https://ideas-productivity.org/events/hpcbp-084-communicatingdesign) in June 2024.
 I've also put together an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html)
 to share notes, ideas, and examples of good software diagrams and resources for including this in the software development workflow.
 
