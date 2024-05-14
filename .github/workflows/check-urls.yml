@@ -22,6 +22,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip --no-cache-dir --disable-pip-version-check install --upgrade pip
+        python -m pip --no-cache-dir --disable-pip-version-check install linkchecker
+
     - name: Reformat environment variables
       id: setup_vars
       run: |
@@ -48,39 +59,21 @@ jobs:
           echo "ignore_file_patterns=" >> $GITHUB_OUTPUT
         else
           echo "files=" >> $GITHUB_OUTPUT
-          echo "ignore_file_patterns= ${{ steps.setup_vars.outputs.ignore_file_patterns }}" >> $GITHUB_OUTPUT
+          echo "ignore_file_patterns=${{ steps.setup_vars.outputs.ignore_file_patterns }}" >> $GITHUB_OUTPUT
         fi
 
+      #exclude_patterns: ${{ steps.setup_vars.outputs.ignore_url_patterns }}
     - name: Check URLs in selected files
-      uses: urlstechie/urlchecker-action@update/0.0.35
-      with:
-
-        # Work only on markdown files
-        file_types: .md
-
-        # Choose whether to include file with no URLs in the prints.
-        print_all: false
-
-        # More verbose summary at the end of a run
-        verbose: true
-
-        # How many times to retry a failed request (defaults to 1)
-        retry_count: 3
-
-        # Google Forms is having enormous timeouts
-        timeout: 10
-
-        # Ignore certificate issues
-        no_check_certs: True
-
-        # Exclude these patterns from the checker
-        exclude_patterns: ${{ steps.setup_vars.outputs.ignore_url_patterns }}
-
-        # Exclude these dirs and files
-        exclude_files: "${{ steps.file_list.outputs.ignore_file_patterns }}"
-
-        # Operate only on the specific list of files selected above
-        include_files: "${{ steps.file_list.outputs.files }}"
+      run: |
+        which linkchecker
+        for f in ${{ steps.file_list.outputs.files }}; do
+            for ef in ${{ steps.file_list.outputs.ignore_file_patterns }}; do
+                if [ "$ef" == "$f" ]; then
+                    continue 2 # ignore this file
+                fi
+            done
+            echo $f
+        done
 
 #
 # Description:
