@@ -11,12 +11,12 @@
 In my time as a [research software engineer (RSE)](https://society-rse.org/about/) at the National Renewable Energy Laboratory,
 I've noticed a pattern in funding and staffing cycles where both can be discontinuous or change unexpectedly resulting in lost momentum and institutional knowledge on software projects.
 While this pattern is likely inherent to research itself, RSEs can mitigate these impacts and improve the overall quality of their software by **communicating elements of software design within the development workflow.**
-As a [2023 Better Scientific Software Fellow](https://bssw.io/fellows/rafael-mudafort), I've aggregated resources and developed training material to empower RSEs to visually communicate ideas and themes within their software projects, and the results are described here.
+As a [2023 Better Scientific Software Fellow](https://bssw.io/fellows/rafael-mudafort), I've collected resources and developed training material to empower RSEs to visually communicate ideas and themes within their software projects, and the results are described here.
 
 Documenting ideas, decisions, and institutional knowledge is a powerful way to mitigate the effects of discontinuous momentum during software development efforts.
-Early in the development cycle, requirements are identified, and some of them are adopted while others are intentionally rejected.
+Early in the development cycle, requirements are identified, and some of them are adopted while others may be rejected, intentionally.
 As the form and function of the code start to take shape, capturing these decisions will give future developers meaningful context.
-To that end, I suggest development teams adopt visual communication methods to describe conceptual ideas and their implementations using Unified Modeling Language (UML) diagrams and automated tooling.
+To that end, I suggest development teams adopt visual communication methods to describe ideas and their implementations using Unified Modeling Language (UML) diagrams via automated tooling.
 Narrative content around these diagrams is helpful and encouraged, but the diagrams often speak for themselves.
 Once the initial diagrams are in place, future developers can build on them to scope and plan work while inherently communicating the impact to the entire system.
 This article briefly describes UML and its role in the development workflow for research software engineers.
@@ -79,7 +79,7 @@ While each is valuable, maintaining separation allows for focusing a diagram on 
 
 ### Documentation-driven development
 
-As in test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/)
+Analogous to test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/)
 is the practice of stating what the code should do prior to writing it,
 and diagramming at this stage can make the design process more effective.
 The result of documentation-driven development may be a design document that can take the form
