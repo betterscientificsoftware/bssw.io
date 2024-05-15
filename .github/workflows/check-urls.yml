@@ -86,7 +86,7 @@ jobs:
                     continue 2 # ignore this file
                 fi
             done
-            linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f
+            linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f || true
             cat linkchecker-out.csv >> linkchecker-out-all.csv
         done
 
