@@ -36,9 +36,9 @@ jobs:
     - name: Reformat environment variables
       id: setup_vars
       run: |
-        tmp=$(echo "${{ env.ignore_url_patterns }}" | tr '\n' ',' | sed -e 's/,,$//')
+        tmp=$(echo "${{ env.ignore_url_patterns }}" | tr '\n' ' ' | sed -e 's/,,$//')
         echo "ignore_url_patterns=$tmp" >> $GITHUB_OUTPUT
-        tmp=$(echo "${{ env.ignore_file_patterns }}" | tr '\n' ',' | sed -e 's/,,$//')
+        tmp=$(echo "${{ env.ignore_file_patterns }}" | tr '\n' ' ' | sed -e 's/,,$//')
         echo "ignore_file_patterns=$tmp" >> $GITHUB_OUTPUT
 
     - name: Checkout Repository
