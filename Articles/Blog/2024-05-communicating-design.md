@@ -22,7 +22,7 @@ Once the initial diagrams are in place, future developers can build on them to s
 This article briefly describes UML and its role in the development workflow for research software engineers.
 
 One product of my BSSw Fellowship is an [online dashboard](https://rafmudaf.github.io/communicating-design/intro.html)
-with more information on UML and resources for tooling and automated processes.
+with more information on UML and resources for tooling and automated processes as needed for research software.
 That site will be updated periodically with suggested workflows and examples of good software diagrams.
 And the site is open for contribution, so please [send along](https://github.com/rafmudaf/communicating-design/pulls)
 outstanding diagrams that you've created or found.
