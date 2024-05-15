@@ -73,7 +73,6 @@ jobs:
         [MarkdownCheck]
         filename_re=.*\.md$
         " > .linkcheckerrc
-        rm linkchecker-out-all.csv
         for f in ${{ steps.file_list.outputs.files }}; do
             for ef in ${{ steps.file_list.outputs.ignore_file_patterns }}; do
                 if [ "$ef" == "$f" ]; then
