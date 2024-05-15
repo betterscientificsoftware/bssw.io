@@ -67,6 +67,10 @@ jobs:
       run: |
         # Create an rc file controlling behavior of linkchecker
         echo "
+        [checking]
+        sslverify=0
+        maxfilesizedownload=100000
+        maxfilesizeparse=100000
         [csv]
         separator=,
         parts=urlname,parentname,result
@@ -74,8 +78,11 @@ jobs:
         filename_re=.*\.md$
         " > .linkcheckerrc
         for f in ${{ steps.file_list.outputs.files }}; do
+            if [ "${f##.*}" != "md" ]; then
+                continue
+            fi
             for ef in ${{ steps.file_list.outputs.ignore_file_patterns }}; do
-                if [ "$ef" == "$f" ]; then
+                if [ "$ef" = "$f" ]; then
                     continue 2 # ignore this file
                 fi
             done
