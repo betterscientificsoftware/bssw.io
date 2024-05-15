@@ -65,14 +65,23 @@ jobs:
       #exclude_patterns: ${{ steps.setup_vars.outputs.ignore_url_patterns }}
     - name: Check URLs in selected files
       run: |
-        which linkchecker
+        # Create an rc file controlling behavior of linkchecker
+        echo "
+        [csv]
+        separator=,
+        parts=urlname,parentname,result
+        [MarkdownCheck]
+        filename_re=.*\.md$
+        " > .linkcheckerrc
+        rm linkchecker-out-all.csv
         for f in ${{ steps.file_list.outputs.files }}; do
             for ef in ${{ steps.file_list.outputs.ignore_file_patterns }}; do
                 if [ "$ef" == "$f" ]; then
                     continue 2 # ignore this file
                 fi
             done
-            echo $f
+            linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f
+            cat linkchecker-out.csv >> linkchecker-out-all.csv
         done
 
 #
