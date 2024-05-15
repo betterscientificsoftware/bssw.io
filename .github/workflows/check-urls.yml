@@ -78,7 +78,7 @@ jobs:
         filename_re=.*\.md$
         " > .linkcheckerrc
         for f in ${{ steps.file_list.outputs.files }}; do
-            if [ "${f##.*}" != "md" ]; then
+            if [ "${f##*.}" != "md" ]; then
                 continue
             fi
             for ef in ${{ steps.file_list.outputs.ignore_file_patterns }}; do
