@@ -1,4 +1,4 @@
-### A Deep Dive on the Role of Inclusivity in Scientific Computing
+# A Deep Dive on the Role of Inclusivity in Scientific Computing
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
 
