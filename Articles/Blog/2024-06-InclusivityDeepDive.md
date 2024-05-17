@@ -2,7 +2,7 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: January 11, 2024
+#### Publication date: June, 2024
 
 <!--deck start-->
 Inclusive practices have a role to play in many aspects of any scientific computing project.
