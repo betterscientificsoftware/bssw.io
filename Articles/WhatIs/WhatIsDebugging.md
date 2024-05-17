@@ -9,17 +9,16 @@ Debugging in a well-known, important concept while developing software - discuss
 <!--body start--->
 Defects in software (e.g. *bugs*) can take many forms. Defects are generally described as causing
 unexpected or unintended behavior including outright crashes, incorrect or invalid
-results, missing or disabled functionality and unexpected time and/or space performance
+results, missing or disabled functionality, and unexpected time and/or space performance
 
-The *first* most important step in debugging is to develop a *reproducer*. That is, the *recipe*
+The *first* and most important step in debugging is to develop a *reproducer*. That is, the *recipe*
 by which the defective behavior can be reliably observed. It is common for a defect to manifest
-only under certain software configurations which includes such things as the operating system, compiler,
-third party libraries and various user-specific controls such as preferences, input gestures and commands
+only under certain software configurations which include such things as the operating system, compiler, third-party libraries, and various user-specific controls such as preferences, input gestures and commands
 and input data. In complex situations involving large collections of interacting software components,
 *reproducers* can often be burdensome to develop. It is best when users and developers alike share this
-burden. This is unnavoidable when the defect manifests in configurations that are inaccessible
+burden. This is unavoidable when the defect manifests in configurations that are inaccessible
 to the software developers. Perhaps the most challenging of all defects to reproduce are those that
-manifest only at large scale parallelism.
+manifest only at large-scale parallelism.
 
 Once a *reproducer* is available, the process of finding the cause can involve various creative
 strategies, including the use of debugging tools such as *[gdb](https://en.wikipedia.org/wiki/GNU_Debugger)*

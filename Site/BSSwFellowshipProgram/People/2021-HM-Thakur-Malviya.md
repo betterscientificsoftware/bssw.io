@@ -1,6 +1,6 @@
 **Year:** 2021
 
-**Name:** Addi Thakur Malviya
+**Name:** Addi Malviya Thakur
 
 **Image:** /images/People_2021_HM_Malviya.jpg
 

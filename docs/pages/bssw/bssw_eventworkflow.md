@@ -20,5 +20,10 @@ Below are the steps for creating an event article:
   * If so, construct the event page. Verify that the event is in .md format and properly formatted, as per the event style guide: https://betterscientificsoftware.github.io/bssw.io/bssw_styling_event.html 
   * Create a pull request
 
-After the pull request is created, the editorial team will review and publish the event. 
+After the pull request is created, the editorial team will review and publish the event.
+
+NOTE: For maximal effect, event announcements should be submitted by the 20th of the month _before_ the event date.
+Then, they are to be highlighted in the BSSw.io Digest email to the BSSw.io subscribers email list that goes out at the end of every month.
+Otherwise, event announcements may have less visibility and reach a smaller audience. 
+
 {% include links.html %}

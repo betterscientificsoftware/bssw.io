@@ -33,7 +33,7 @@ This can lead to improved productivity and code quality.
 This can lead to more cohesive and productive teams.
 
 One type of asynchronous peer code review is implemented in current platforms like GitHub and GitLab using Pull Requests and Merge Requests, respectively.
-These platforms provide many features and options that make conducting high quality code reviews easier for a wide range of developers and projects.
+These platforms provide many features and options that make conducting high-quality code reviews easier for a wide range of developers and projects.
 
 There are a few things to keep in mind when conducting a peer code review:
 

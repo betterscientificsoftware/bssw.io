@@ -34,6 +34,10 @@ The ability of two or more software elements to be used together in an applicati
 The ability of software to continue or evolve.  Considerations are often different when viewed from different perspectives (user, developer, manager, funder), but generally relates to resources to maintain or evolve the code, adaptability of the codebase to new uses and new computational platforms.
 <!---Topic order: 6--->
 
+- **User Experience Design**
+An intentional process of designing for the user experience of a software (or other) product.
+<!---Topic order: 7--->
+
 <!---
 Category order: 1
 --->

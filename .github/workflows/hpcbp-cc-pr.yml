@@ -1,0 +1,57 @@
+# Update HPC Best Practices webinar series curated content article from ideas-productivity.org site
+name: "HPC-BP: update curated content article from ideas-productivity.org"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hpcbp-cc-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      # - name: Check the file is there
+      #   run: |
+      #     ls -l CuratedContent/hpcbp-webinars-cc.md
+      #     cp CuratedContent/hpcbp-webinars-cc.md CuratedContent/hpcbp-webinars-cc.md.bak
+
+      - name: Download the new curated content article
+        uses: carlosperate/download-file-action@v2
+        with:
+          file-url: https://ideas-productivity.org/internal/hpcbp-webinars/hpcbp-webinars-cc.md
+          location: 'CuratedContent'
+          file-name: hpcbp-webinars-cc.md
+
+      # - name: Check that the file has been updated
+      #   run: |
+      #     ls -l CuratedContent/hpcbp-webinars-cc.md
+      #     diff -c CuratedContent/hpcbp-webinars-cc.md CuratedContent/hpcbp-webinars-cc.md.bak || :
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: Update HPC-BP webinar curated content
+          branch: ${{ github.actor }}-hpcbp-webinars-cc-update
+          branch-suffix: timestamp
+          assignees: ${{ github.actor }}
+          commit-message: "Updating HPC-BP webinar curated content from the ideas-productivity.org website"
+          body: "Updating HPC-BP webinar curated content from the ideas-productivity.org website"
+          labels: |
+            content: curated
+            content: updates
+
+      - name: Check PR results
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+
+      - name: Merge PR
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --auto --body "Automatically merging script-generated event"

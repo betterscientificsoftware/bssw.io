@@ -1,0 +1,60 @@
+# Add new HPC Best Practices webinar event from ideas-productivity.org site
+name: "HPC-BP: add new event from ideas-productivity.org"
+
+on:
+  workflow_dispatch:
+    inputs:
+      event-file:
+        description: 'Basename of HPC-BP event on ideas-productivity.org (without extension)'
+        required: true
+        type: string
+
+jobs:
+  hpcbp-event-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      # - name: Check the file is there
+      #   run: |
+      #     ls -l Events/${{ inputs.event-file }}.md || :
+
+      - name: Download the new event article
+        uses: carlosperate/download-file-action@v2
+        with:
+          file-url: https://ideas-productivity.org/internal/events-hpcbp-bsswio/${{ inputs.event-file }}
+          location: 'Events'
+          file-name: ${{ inputs.event-file }}.md
+
+      # - name: Check the file is there
+      #   run: |
+      #     ls -l Events/${{ inputs.event-file }}.md || :
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: Add new HPC-BP webinar event
+          branch: ${{ github.actor }}-hpcbp-new-event
+          branch-suffix: timestamp
+          assignees: ${{ github.actor }}
+          commit-message: "Adding new HPC-BP webinar event from the ideas-productivity.org website"
+          body: "Adding new HPC-BP webinar event from the ideas-productivity.org website"
+          labels: |
+            content: event
+
+      - name: Check PR results
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+
+      - name: Merge PR
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ secrets.PR_MERGE_PAT }}
+        run: |
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --auto --body "Automatically merging script-generated event"
+            

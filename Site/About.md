@@ -34,6 +34,10 @@ Roscoe Bartlett<br/>
 Sandia National Laboratories<br/>
 [https://github.com/bartlettroscoe](https://github.com/bartlettroscoe)
 
+Keith Beattie<br/>
+Lawrence Berkeley National Laboratory<br/>
+[https://github.com/ksbeattie](https://github.com/ksbeattie)
+
 Patricia Grubel<br/>
 Los Alamos National Laboratory<br/>
 https://github.com/pagrubel

@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2023-12-19*
+*Listed in reverse chronological order. Last updated: 2024-03-27*
+
+- 2024-03-20: [Code Review for Scientific Software: Experiences building an online tutorial](https://ideas-productivity.org/events/hpcbp-082-codereview), presented by Helen Kershaw (NSF National Center for Atmospheric Research)
 
 - 2023-12-13: [Secure Software Programming Practices and Development](https://ideas-productivity.org/events/hpcbp-081-securesoftware), presented by Nitin Sukhija (Slippery Rock University of Pennsylvania)
 
@@ -193,7 +195,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
-#### Publication date: 2023-12-19
+#### Publication date: 2024-03-27
 
 <!---
 Publish: yes

@@ -1,6 +1,7 @@
 # Argonne Training Program on Extreme-Scale Computing (ATPESC 2024)
 
 - Deadline for applications: February 28, 2024
+- Extended deadline for applications: March 10, 2024
 - Event Dates: July 28, 2024 - August 9, 2024
 - Location: Chicago Area, Illinois, USA
 - Event Website: https://extremecomputingtraining.anl.gov/
