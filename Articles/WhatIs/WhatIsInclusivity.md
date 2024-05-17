@@ -26,7 +26,7 @@ It only makes sense that we would be equally committed, if not more so, to inclu
 Inclusivity is [accessibility’s](https://www.inclusionhub.com/articles/a11y-at-salesforce) close cousin.
 
 On BSSw.io, articles on the topic of Inclusivity are aimed at raising awareness of the role of inclusivity and inclusive practices in sustaining and improving scientific computing projects.
-Readers are welcome to [read more](#).
+Readers are welcome to [read more](https://bssw.io/blog_posts/a-deep-dive-on-the-role-of-inclusivity-in-scientific-computing).
 
 <!--body end--->
 
