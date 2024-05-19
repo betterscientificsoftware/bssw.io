@@ -6,12 +6,12 @@
 
 <!--deck start-->
 Big data refers to ultra large data sets analyzed computationally for patterns, trends, and associations, often relating to human social networks.
-The term encompasses not only the *volume* of data but also the *variety* of types of data as well as the *velocity* at which it is processed.
+The term encompasses not only the size (*volume*) of data but also the *variety* of types of data as well as the speed (*velocity*) at which it is processed.
 <!--deck end-->
 
 <!--body start--->
-The *big* in *Big Data* is not about just the size of *volume* of data.
-Certainly, size or *volume* is part of it.
+The *big* in *Big Data* is not about just the size (or *volume*) of data.
+Certainly, size is part of it.
 But, *big* also applies to other aspects of the data.
 These other aspects include how widely *varying* it is in data type and structure and how *quickly* the data is processed.
 
