@@ -2,7 +2,7 @@
 ## A Collection of Guidance and Templates for Open-source Software (OSS) Projects 
 
 <!-- deck text start -->
-What better way is there to maintain important documents to help OSS Projects than in an open-source repository? Now, there is such a repository with a collection of documents for guidance, governance, examples, and templates for new and existing OSS projects. And as with any open source project, contributions are encouraged.
+What better way is there to maintain important documents to help OSS projects than in an open-source repository? Now, there is such a repository with a collection of documents for guidance, governance, examples, and templates for new and existing OSS projects. And as with any open source project, contributions are encouraged.
 <!-- deck text end -->
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
