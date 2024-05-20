@@ -28,7 +28,8 @@ This variety includes data from different sources such as text, videos, emails, 
 Big data technologies include tools and processes used to handle these datasets and extract meaningful information from them.
 This capability is crucial across various sectors, including business, healthcare, finance, science, and technology, to drive innovation and efficiency.
 
-In traditional scientific computing, datasets can certainly be big in *volume* but are less frequently, if ever, big in the V's of big data.
+In traditional scientific computing, datasets can certainly be big in *volume* but are less frequently, if ever, big in the other two V's of big data.
+That said, as ML/AI become more commonly used to support scientific computing, this distinction is becoming less relevant.
 <!--body end--->
 
 <!---
