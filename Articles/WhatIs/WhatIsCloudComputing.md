@@ -2,7 +2,7 @@
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: June, 2024
+#### Publication date: May 20, 2024
 
 <!--deck start-->
 Historically, the computational resources needed to support HPC/CSE application requirements have involved a lot of specialized hardware (e.g. platforms, interconnects, networks, file systems and archival storage), skills and facilities infrastructure to commission and support them.
