@@ -2,30 +2,23 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: June, 2024
+#### Publication date: June 21, 2024
 
 <!--deck start-->
 If *diversity* is being asked to the scientific computing party, *inclusivity* is being asked to dance.
 <!--deck end-->
 
 <!--body start--->
-> Inclusivity [in scientific computing] is about practices to ensure people with diverse identities and experiences have equitable access to resources and opportunities, feel safe, welcomed, respected and valued, and are encouraged to contribute as their full, authentic selves in any particular group or activity. [Tony Baylis](https://people.llnl.gov/baylis3) -- LLNL Director of Strategic Diversity
 
+Scientific computing inclusivity encompasses the strategies and practices that promote equal access and participation among individuals from diverse backgrounds and experiences. 
+These practices enable individuals to feel secure, respected, and empowered to contribute their unique perspectives and talents without barriers or constraints.
+This includes aspects such as accessibility, documentation, user interface, and collaborations. 
 Inclusivity and inclusive practices can play a role in improving almost every aspect of a scientific computing project.
-The benefits include reducing barriers to adoption, increasing a product's reach, improving productivity, increasing innovation, attracting and retaining a wider talent pool, and improving job satisfaction.
+The benefits of inclusivity include reducing barriers, increasing productivity, and improving job satisfaction.
 
-Productivity of scientific computing projects is primarily impacted by the ability of people to work together, to collaborate ethically and trustfully, to communicate with clarity and empathy, to be inspired to contribute authentically and with enthusiasm and thoughtfulness.
-Inclusivity and inclusive practices play a key role in facilitating all of that and more.
-Likewise, the lack of attention to inclusivity and inclusive practices can dramatically negatively impact scientific productivity.
-
-Setting the people aside and examining just the code we write we see that the scientific computing community invests significant effort in inclusivity...for code.
-We labor to produce code that is portable, scalable, usable, interoperable, extensible, accessible, securable, etc.
-All of these attributes are manifestations of inclusivity...for code.
-It only makes sense that we would be equally committed, if not more so, to inclusivity for the people developing and using our code.
-
-Inclusivity is [accessibility’s](https://www.inclusionhub.com/articles/a11y-at-salesforce) close cousin.
-
-On BSSw.io, articles on the topic of Inclusivity are aimed at raising awareness of the role of inclusivity and inclusive practices in sustaining and improving scientific computing projects.
+To learn more about inclusivity in scientific computing, bssw.io hosts a collection of articles that explore this topic, providing insights and strategies for fostering inclusivity in scientific computing projects.
+These articles cover a range of topics, from the importance of inclusive language and documentation to strategies for creating more accessible/user-friendly software or creating and fostering more inclusive software development teams. 
+By exploring these resources, individuals can gain a deeper understanding of the role inclusivity plays in scientific computing and how to implement inclusive practices in their own work.
 Readers are welcome to [read more](https://bssw.io/blog_posts/a-deep-dive-on-the-role-of-inclusivity-in-scientific-computing).
 
 <!--body end--->
