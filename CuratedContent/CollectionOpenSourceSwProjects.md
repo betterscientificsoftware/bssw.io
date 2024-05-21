@@ -12,7 +12,7 @@ Resource information | Details
 :--- | :---
 Resource name | Open-source Software Project Documents
 Website | [Corsa-Center OSS-Documents](https://github.com/corsa-center/oss-documents/)
-Authors | [Authors](https://github.com/corsa-center/oss-documents/blob/main/AUTHORS.md)
+Authors | [List of Authors](https://github.com/corsa-center/oss-documents/blob/main/AUTHORS.md)
 Focus | Guidance for OSS Projects
 
 The [OSS-Documents](https://github.com/corsa-center/oss-documents/) repository, started by the [CORSA](https://corsa.center) project, is a collection of documents and links to help guide open source software projects.
