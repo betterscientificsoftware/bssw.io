@@ -2,7 +2,7 @@
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: June, 2024
+#### Publication date: May 21, 2024
 
 <!--deck start-->
 Scientific programming languages are designed to facilitate the development of software that performs scientific computations.
