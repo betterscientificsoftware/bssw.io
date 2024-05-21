@@ -16,7 +16,7 @@ This includes aspects such as accessibility, documentation, user interface, and 
 Inclusivity and inclusive practices can play a role in improving almost every aspect of a scientific computing project.
 The benefits of inclusivity include reducing barriers, increasing productivity, and improving job satisfaction.
 
-To learn more about inclusivity in scientific computing, bssw.io hosts a collection of articles that explore this topic, providing insights and strategies for fostering inclusivity in scientific computing projects.
+To learn more about inclusivity in scientific computing, BSSw.io hosts a collection of articles that explore this topic, providing insights and strategies for fostering inclusivity in scientific computing projects.
 These articles cover a range of topics, from the importance of inclusive language and documentation to strategies for creating more accessible/user-friendly software or creating and fostering more inclusive software development teams. 
 By exploring these resources, individuals can gain a deeper understanding of the role inclusivity plays in scientific computing and how to implement inclusive practices in their own work.
 Readers are welcome to [read more](https://bssw.io/blog_posts/a-deep-dive-on-the-role-of-inclusivity-in-scientific-computing).
