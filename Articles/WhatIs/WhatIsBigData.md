@@ -2,7 +2,7 @@
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: June, 2024
+#### Publication date: May 21, 2024
 
 <!--deck start-->
 Big data refers to ultra large data sets analyzed computationally for patterns, trends, and associations, often relating to human social networks.
