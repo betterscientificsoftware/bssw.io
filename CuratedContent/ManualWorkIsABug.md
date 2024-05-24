@@ -2,8 +2,8 @@
 ## Manual Work is a Bug
 
 <!-- deck text start -->
-Work to automate routine computing processes in an incremental appraoch, starting by documenting the manual steps and then incrementally automating larger and larger pieces of the process using developed software/scripts.
-Continuing to do routine processes with manual execution is a bug!
+Work to automate routine computing processes using an Agile incremental approach, starting by documenting the manual steps and then incrementally automating pieces of the process using scripts/code.
+Continuing to do routine processes over and over again with manual execution is a bug!
 <!-- deck text end -->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett")
@@ -13,27 +13,55 @@ Resource information | Details
 :--- | :---
 Paper Title | Manual Work is a Bug
 Authors | Thomas A. Limoncelli
-Publiation | [ACM Queue, March 14, 2018, Volume 16, Issue 1](https://queue.acm.org/detail.cfm?id=3197520)
+Publication | [ACM Queue, March 14, 2018, Volume 16, Issue 1](https://queue.acm.org/detail.cfm?id=3197520)
 
-Thomas A. Limoncelli's article emphasizes the importance of automation in systems administration.
-He contrasts two engineers: one successful due to a mindset of constant automation, and the other unsuccessful because he (thinks) he can never find time to automate.
+Nearly everyone who works with computers a lot has to perform routine tasks many times.
+Some people like system administrators (sysadmins) and DevOps engineers have **many** such tasks to perform.
+But even other types of developers and users often have repetitive tasks that they need to execute over and over again.
+And others in their teams and organizations often need to do similar processes/tasks (or the exact same tasks, with minor variations).
+These routine processes may take long enough, and/or be complex enough, and/or have severe enough consequences if they are done in correctly, and/or are likely to be repeated enough in the future to justify automating them to some degree.
+Thomas A. Limoncelli's article "Manual Work is a Bug" describes an Agile incremental process for developing increasing levels of automation for routine processes like these.
+(Thomas is mainly speaking to sysadmins in this article, but the process and the principles described are the same for any individual or team that needs to perform routine tasks with computers.)
 
-**Key Concepts:**
+The basic idea is so start by writing documentation right from the beginning while doing the steps manually for the first time for every process that is a potential candidate to become a routine (automatable) process.
+Then the future iterations performing the process involve incrementally following, improving the processes documentation, adding more details, and automating larger pieces of the process.
+The end state is a largely automated process that saves large amounts of developer time in the future and avoids future mistakes.
 
-* **Mindset and Documentation**: The successful engineer starts by documenting processes, treating these documents as pseudocode. Each manual iteration refines this documentation, transforming it into automated scripts over time.
-* **Collaborative Documentation**: Using collaborative tools like wikis or Git repositories enables team members to contribute and improve documentation, promoting a culture of continuous improvement.
-* **Four Phases of Automation**:
-  1. **Document Steps**: Create detailed documentation of the process as you do the steps manually, and manually validate them along the way (investigating differnet options and problem solving along the way).
-  2. **Create Automation Equivalents**: Going back over the process manually, add exact command-line snippets to documentation and they stablize.
-  3. **Create Automation**: Developing scripts and storing them in a version control system.
-  4. **Create Self-Service Systems**: Building web-based tools for user self-service and autonomous systems to minimize human intervention.
-Cultural Shift
+> This culture can be summarized in two sentences:
+> (1) Every manual action must have a dual purpose of completing a task and improving the system.
+> (2) Manual work should not be tolerated unless it generates an artifact or improves an existing one.
 
-Adopting this approach requires a cultural shift where every manual task is an opportunity to move incrementally toward automation.
-This mindset reduces stress, improves efficiency, and makes systems more reliable and easier to manage.
+This Agile automation process is broken down into four phases for any particular process:
 
-Limoncelli argues for a disciplined approach to automation, where every manual iteration contributes to better automation.
-By fostering a culture of documentation and collaboration, IT teams can make significant strides towards fully automated systems.
+* **Phase 1: Document the steps**: Document of the process as you do the steps manually the first time.
+
+* **Phase 2: Create automation equivalents**: When executing the process again, go back over the process manually following the existing documentation and add exact command-line snippets to the documentation and they these are refined.
+
+* **Phase 3: Create automation**: Develop an expanding set of scripts/code to automate parts of the process as the process is executed again and again.
+(Every iteration of the process should expand the scope of the automation scripts/code and reduce the manual effort.)
+
+* **Phase 4: Self-service autonomous systems**:  The final phase is to make the process into a stand-alone tool using the developed scripts/code that is run with a single invocation.
+In some cases, such processes justify being set up as an ***autonomous process** (i.e. a process that runs automatically without any explicit action by the user based on some other event.)
+(For processes that are performed **very frequently**, setting up an autonomous system is often required to reduce complexity, reduce mistakes, and improve the productivity for developers and users.)
+
+There are several issues and considerations that go along with this Agile automation development process.
+
+**Discipline:**
+Engineers must consistently document their work and seek opportunities to automate repetitive tasks.
+This disciplined approach reduces errors, improves system reliability, and frees up time for more complex problem-solving.
+
+**The Leftover Principle:**
+Focus on automating the boring and time consuming parts; don't (initially) automate the parts require more complex logic and problem solving.
+(This is the Compensatory Principle "people and machines should each do what they are good at and not attempt what they don’t do well.")
+
+**Ambiguous requirements:**
+It is often difficult or impossible to write down the exact requirements for many of these processes a-priori.
+It is only by performing these processes over and over that we can understand what is really needed and should be automated.
+(i.e., an iterative Agile approach to requirements gathering and implementation is far superior to a waterfall approach here.)
+
+**Enable early collaboration:**
+It is critical to store the documentation and the automation scripts/code in a (Git) version repository or other appropriate system (e.g. a wiki for the documentation) right from the start.
+This allows others to collaborate to improve and expand on the documentation and/or automation scripts/code.
 
 
 <!---
