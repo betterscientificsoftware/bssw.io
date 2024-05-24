@@ -66,7 +66,7 @@ Such an approach allows others to collaborate to improve and expand on the docum
 
 <!---
 Publish: yes
-Topics: ???
+Topics: documentation, development tools, continuous integration testing, reproducibility, personal productivity and sustainability
 Pinned: no
 RSS update: 2024-05-27
 --->
