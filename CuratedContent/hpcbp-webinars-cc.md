@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2024-03-27*
+*Listed in reverse chronological order. Last updated: 2024-05-26*
+
+- 2024-05-15: [Getting it Right: System Testing of Scientific Software](https://ideas-productivity.org/events/hpcbp-083-gettingitright), presented by Myra Cohen (Iowa State University)
 
 - 2024-03-20: [Code Review for Scientific Software: Experiences building an online tutorial](https://ideas-productivity.org/events/hpcbp-082-codereview), presented by Helen Kershaw (NSF National Center for Atmospheric Research)
 
@@ -195,7 +197,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
-#### Publication date: 2024-03-27
+#### Publication date: 2024-05-26
 
 <!---
 Publish: yes
