@@ -52,6 +52,6 @@ jobs:
       - name: Merge PR
         if: ${{ steps.cpr.outputs.pull-request-number }}
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.PR_MERGE_PAT }}
         run: |
           gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --auto --body "Automatically merging script-generated event"
