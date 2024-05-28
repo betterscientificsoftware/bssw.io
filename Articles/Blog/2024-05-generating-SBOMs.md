@@ -17,7 +17,10 @@ Both open-source and commercial software are impacted by these policies.  Conseq
 The past few years have seen an industry-wide effort to embrace SBOMs and other software security practices highlighted by the U.S. government (see, for example, [this article](https://thenewstack.io/2023-the-year-open-source-security-supply-chain-grew-up/)).  Many tools have been developed to generate SBOMs for software repositories, filesystems, container images and other execution platforms. The [software bill of materials webpage](https://www.ntia.gov/page/software-bill-materials) maintained by the National Telecommunications and Information Administration provides an extensive set of resources on their creation and use, including the [Survey of Existing SBOM Formats and Standards (2021)](https://www.ntia.gov/sites/default/files/publications/sbom_formats_survey-version-2021_0.pdf) which describes the three widely used SBOM standards that have emerged.
 **While they are not yet widely used in the scientific software community, the increasing focus on software security will increasingly impact scientific software too, and developers should start preparing by learning about SBOMs and their role in improving cybersecurity, and working out how to provide and use them in their own development activities.**
 
-In recent blog posts, I provide a critique of these capabilities in the context of scientific software libraries written in [Python](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-python.html) and [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html). Specifically, I explored whether mature tools exist to automate the generation of SBOMs for scientific software. Here is a synopsis of the key points from these blogs:
+In recent blog posts, I provide a critique of these capabilities in the context of scientific software libraries written in [Python](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-python.html) and [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html). Specifically, I explored whether mature tools exist to automate the generation of SBOMs for scientific software. 
+The blog concerning SBOMs for [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html) illustrates tools that can be applied for other compiled scientific software languages, including Fortran and C.
+
+Here is a synopsis of the key points from these blogs:
 
 * Existing tools can easily generate SBOMs for simple Python packages. Simple Python packages without C extensions probably do not need to worry much about generating SBOMs.
 
@@ -29,17 +32,15 @@ In recent blog posts, I provide a critique of these capabilities in the context 
   * Compiled dependencies are used in widely used Python libraries (e.g., numpy).
   * However, the SBOM tools I surveyed for Python focused on documenting software dependencies but not software builds.
 
-* The SBOM tool ecosystem is much less mature for C++ and other languages commonly used for scientific computing.
+* The SBOM tool ecosystem is much less mature for C++, Fortran, and other compiled languages used for scientific computing.
 
-* C++ developers should explore the use of package managers.
+* C++ and Fortran developers should explore the use of package managers.
   * These naturally manage the relevant SBOM data, so package managers will likely play a key role in supporting software security practices.
-  * However, only a couple of C++ package managers currently automate the generation of SBOMs: vcpkg, conan and spack.
+  * However, only a couple of package managers currently automate the generation of SBOMs: vcpkg, conan and spack.
   * Of these, vcpkg has the strongest support for SBOMs (e.g., see [this Microsoft blog article](https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/)).
 
-* Alternatively, C++ developers can automate the generation of SBOMs within their build systems.
+* Alternatively, C++ and Fortran developers can automate the generation of SBOMs within their build systems.
   * For example, the [cmake-sbom project](https://github.com/DEMCON/cmake-sbom) automates SBOM generation with build information the developer provides.
-
-* **Can we say something for Fortran developers?  Even if it is that they're out of luck?  (But maybe the cmake-sbom or other projects could be used with Fortran too?)**
 
 ### Further information
 
