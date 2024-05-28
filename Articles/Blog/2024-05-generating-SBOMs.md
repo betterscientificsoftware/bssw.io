@@ -18,7 +18,7 @@ The past few years have seen an industry-wide effort to embrace SBOMs and other 
 **While they are not yet widely used in the scientific software community, the increasing focus on software security will increasingly impact scientific software too, and developers should start preparing by learning about SBOMs and their role in improving cybersecurity, and working out how to provide and use them in their own development activities.**
 
 In recent blog posts, I provide a critique of these capabilities in the context of scientific software libraries written in [Python](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-python.html) and [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html). Specifically, I explored whether mature tools exist to automate the generation of SBOMs for scientific software. 
-The blog concerning SBOMs for [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html) illustrates tools that can be applied for other compiled scientific software languages, including Fortran and C.
+Many of the tools discussed in the blog concerning SBOMs for [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html) can be used with other compiled scientific software languages, including Fortran and C.
 
 Here is a synopsis of the key points from these blogs:
 
