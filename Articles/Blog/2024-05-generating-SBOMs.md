@@ -2,20 +2,19 @@
 
 **Hero Image:**
 
-- <img src='../../images/Blog_2312_SecurityB.png' />
+<img src='../../images/Blog_2312_SecurityB.png' />
 
 #### Contributed by [William Hart](https://github.com/whart222)
 
 #### Publication date: May 28, 2024
 
-Software bills of materials (SBOMs) provide a list of the components, libraries, and modules that are required to build a piece of software. The [United States 2021 Executive Order on Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) highlights the role of SBOMs in supporting risk assessments for newly discovered vulnerabilities.  Further, the U.S. National Institute of Standards and Technology (NIST) released its [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf), which requires SBOM information to be available for software.
+Software bills of materials (SBOMs) provide a list of the components, libraries, and modules that are required to build a piece of software. The [United States 2021 Executive Order on Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) highlights the role of SBOMs in supporting risk assessments for newly discovered vulnerabilities.  Further, the U.S. National Institute of Standards and Technology (NIST) released its [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf), which requires SBOM information to be available for software. Both open-source and commercial software are impacted by these policies.  Consequently, developers of scientific software should expect that the use of their software may be restricted in some contexts unless accurate SBOMs can be generated. 
+Conversely, as SBOMs become more widely available for scientific software, developers will also be able to use them to better understand the risks and vulnerabilities of the software on which they depend.
 
 <img src='https://scribesecurity.com/wp-content/uploads/2022/01/sbom-components-scribe-security-768x451.jpeg.webp' class='page' />[Ingredients of a software bill of materials.  From ScribeSecurity.com]
 
-Both open-source and commercial software are impacted by these policies.  Consequently, developers of scientific software should expect that the use of their software may be restricted in some contexts unless accurate SBOMs can be generated. 
-**Conversely, as SBOMs become more widely available for scientific software, developers will also be able to use them to better understand the risks and vulnerabilities of the software on which they depend.**
 The past few years have seen an industry-wide effort to embrace SBOMs and other software security practices highlighted by the U.S. government (see, for example, [this article](https://thenewstack.io/2023-the-year-open-source-security-supply-chain-grew-up/)).  Many tools have been developed to generate SBOMs for software repositories, filesystems, container images and other execution platforms. The [software bill of materials webpage](https://www.ntia.gov/page/software-bill-materials) maintained by the National Telecommunications and Information Administration provides an extensive set of resources on their creation and use, including the [Survey of Existing SBOM Formats and Standards (2021)](https://www.ntia.gov/sites/default/files/publications/sbom_formats_survey-version-2021_0.pdf) which describes the three widely used SBOM standards that have emerged.
-**While they are not yet widely used in the scientific software community, the increasing focus on software security will increasingly impact scientific software too, and developers should start preparing by learning about SBOMs and their role in improving cybersecurity, and working out how to provide and use them in their own development activities.**
+Although SBOMS and other software security practices are not yet widely used in the scientific software community, policies for software security will increasingly impact scientific software too. **Consequently, developers of scientific software should begin learning about SBOMs and their role in software security best practices, and assess out how to provide and use them in their own development activities.**
 
 In recent blog posts, I provide a critique of these capabilities in the context of scientific software libraries written in [Python](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-python.html) and [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html). Specifically, I explored whether mature tools exist to automate the generation of SBOMs for scientific software. 
 Many of the tools discussed in the blog concerning SBOMs for [C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html) can be used with other compiled scientific software languages, including Fortran and C.
