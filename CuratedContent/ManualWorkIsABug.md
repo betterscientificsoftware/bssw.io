@@ -19,11 +19,11 @@ Nearly everyone who works with computers often has to perform routine tasks.
 Some people like system administrators (sysadmins) and DevOps engineers have **many** such tasks to perform.
 However, even other types of developers and users often have repetitive tasks that they need to execute repeatedly.
 And others in their teams and organizations often need to perform similar processes/tasks (or the same tasks, with minor variations).
-These routine processes may take long enough, be complex enough, have severe enough consequences if they are done in correctly, and/or be likely to be repeated enough to justify automating them to some degree.
+These routine processes may be time-consuming, complex, have severe consequences if they are done incorrectly, and/or be likely to be repeated enough to justify automating them to some degree.
 Thomas A. Limoncelli's article "Manual Work is a Bug" describes an Agile incremental process for developing increasing levels of automation for routine processes like these.
 (Thomas mainly speaks to sysadmins in this article, but the process and the principles described are the same for any individual or team that needs to perform routine tasks with computers.)
 
-The basic idea is to start by writing documentation right from the beginning while manually performing the steps for the first time for every process that is a potential candidate to become a routine (automatable) process.
+The basic idea is to start by writing documentation right from the beginning while manually performing the steps, for the first time, for every process that is a potential candidate to become a routine (automated) process.
 Then, future iterations performing the process involve a) incrementally following and improving the process's documentation, b) adding more details and automating larger pieces of the process.
 The end state is a largely automated process that will save developers' time and avoid mistakes.
 
@@ -41,7 +41,7 @@ This Agile automation process is broken down into four phases:
 (Every process iteration should expand the automation scripts/code scope and reduce the manual effort.)
 
 * **Phase 4: Self-service autonomous systems**:  The final phase is to turn the process into a stand-alone tool using the developed scripts/code that runs with a single invocation.
-In some cases, such processes justify being set up as an ***autonomous process** (i.e., a process that runs automatically without any explicit action by the user.)
+In some cases, such processes justify being set up as an **autonomous process** (i.e., a process that runs automatically without any explicit action by the user.)
 (Processes performed **very frequently** as an autonomous system reduces complexity and mistakes, and improves productivity of developers and users.)
 
 There are several issues and considerations that go along with this Agile automation development process.
