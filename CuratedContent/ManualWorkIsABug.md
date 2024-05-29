@@ -19,7 +19,7 @@ Nearly everyone who works with computers often has to perform routine tasks.
 Some people like system administrators (sysadmins) and DevOps engineers have **many** such tasks to perform.
 However, even other types of developers and users often have repetitive tasks that they need to execute repeatedly.
 And others in their teams and organizations often need to perform similar processes/tasks (or the same tasks, with minor variations).
-These routine processes may be time-consuming, complex, have severe consequences if they are done incorrectly, and/or be likely to be repeated enough to justify automating them to some degree.
+These routine processes may be time-consuming or complex, have severe consequences if they are done incorrectly, and/or be likely to be repeated enough to justify automating them to some degree.
 Thomas A. Limoncelli's article "Manual Work is a Bug" describes an Agile incremental process for developing increasing levels of automation for routine processes like these.
 (Thomas mainly speaks to sysadmins in this article, but the process and the principles described are the same for any individual or team that needs to perform routine tasks with computers.)
 
