@@ -13,7 +13,7 @@ Conversely, as SBOMs become more widely available for scientific software, devel
 
 </br> 
 
-<img src='../../images/Blog_2405_SBOM.png class='page' />[Ingredients of a software bill of materials.]
+<img src='../../images/Blog_2405_SBOM.png' class='page'/>[Ingredients of a software bill of materials.]
 
 </br> 
 
