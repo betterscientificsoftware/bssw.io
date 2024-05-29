@@ -59,6 +59,12 @@ It only makes sense that we would be equally committed, if not more so, to inclu
 
 <!--body end--->
 
+### Author bios
+
+Rinku Gupta has been a part of the high-performance scientific community for two decades and is a researcher in the field of high-performance fault tolerance, resiliency, middleware libraries and programming models. She is passionate about her work in the area of developer productivity and software sustainability; her current focus lies in partnering with the computational science community on these topics to design better scientific software.
+
+Mark C. Miller is a computer scientist supporting the WSC program at LLNL since 1995. Among other things, he contributes to [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit), [Silo](https://wci.llnl.gov/simulation/computer-codes/silo), [HDF5](https://www.hdfgroup.org/) and [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
+
 <!---
 Publish: yes
 Topics: inclusivity
