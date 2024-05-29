@@ -1,4 +1,4 @@
-![Blog_2405_SBOM](https://github.com/whart222/bssw.io/assets/16156602/8e592abf-95bd-4874-9189-d2dff5e9874a)# Generating Software Bill of Materials (SBOMs) in Scientific Software
+# Generating Software Bill of Materials (SBOMs) in Scientific Software
 
 **Hero Image:**
 
