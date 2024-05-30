@@ -16,7 +16,7 @@ Website | [ACM - Words Matter](https://www.acm.org/diversity-inclusion/words-mat
 The ACM Diversity and Inclusion Council emphasizes the significant impact of language in the computing profession through their article [Words Matter](https://www.acm.org/diversity-inclusion/words-matter). 
 This effort aims to replace offensive or exclusionary terminology with alternatives that are clearer and more inclusive. 
 Examples of exclusionary words include "master/slave," "blacklist/whitelist," and "blind review". 
-The Council collaborates with major organizations like IBM, Apple, and Github in this endeavor. 
+The Council collaborates with major organizations like IBM, Apple, and Github. 
 They recommend using terms like "primary/secondary," "allowlist/blocklist," and "anonymous review" instead. 
 The suggested changes not only avoid potentially offensive language but also often result in clearer, more precise terminology.
 The article webpage also invites readers to participate in this initiative and submit exclusionary terms for evaluation and consideration to be added to the list.
