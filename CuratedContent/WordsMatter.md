@@ -5,7 +5,7 @@ The ACM guide to inclusive language in computing emphasizes that inclusive langu
 <!--- deck text end --->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
-#### Publication date: June 3, 2024
+#### Publication date: May 30, 2024
 
 Resource information | Details
 :--- | :---
