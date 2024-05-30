@@ -5,13 +5,13 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/hero-design.png
 Slide1 R: ../Articles/Blog/2024-05-communicating-design.md
-Slide2 L: ../images/sustain-hero.png
-Slide2 R: ../Articles/Blog/2024-01-zfp-sse.md
-Slide3 L: ../CuratedContent/ManualWorkIsABug.md
-Slide3 R: ../CuratedContent/CollectionOpenSourceSwProjects.md
-Slide4 L: ../Events/2024-07-openscience-rse-school.md
+Slide2 L: ../Articles/Blog/2024-05-InclusivityDeepDive.md
+Slide2 R: ../CuratedContent/ManualWorkIsABug.md
+Slide3 L: ../CuratedContent/CollectionOpenSourceSwProjects.md
+Slide3 R: ../Events/2024-07-openscience-rse-school.md
+Slide4 L: ../Events/hpcbp-084-communicatingdesign.md
 Slide4 R: ../Events/2024-06-cass-community-bofs.md
-Slide5 L: ../Events/hpcbp-084-communicatingdesign.md
+Slide5 L: ../Events/Events/2024-06-URSSI-school.md
 Slide5 R: ../Events/2025-01-hicss.md 
 --->
 
