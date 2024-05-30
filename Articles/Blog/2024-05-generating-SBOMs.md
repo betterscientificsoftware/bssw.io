@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-<img src='../../images/Blog_2312_SecurityB.png' />
+- <img src='../../images/Blog_2312_SecurityB.png' />
 
 #### Contributed by [William Hart](https://github.com/whart222)
 
@@ -11,11 +11,11 @@
 Software bills of materials (SBOMs) provide a list of the components, libraries, and modules that are required to build a piece of software. The [United States 2021 Executive Order on Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) highlights the role of SBOMs in supporting risk assessments for newly discovered vulnerabilities.  Further, the U.S. National Institute of Standards and Technology (NIST) released its [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf), which requires SBOM information to be available for software. Both open-source and commercial software are impacted by these policies.  Consequently, developers of scientific software should expect that the use of their software may be restricted in some contexts unless accurate SBOMs can be generated. 
 Conversely, as SBOMs become more widely available for scientific software, developers will also be able to use them to better understand the risks and vulnerabilities of the software on which they depend.
 
-</br> 
+</br>
 
 <img src='../../images/Blog_2405_SBOM.png' class='page'/>[Ingredients of a software bill of materials.]
 
-</br> 
+</br>
 
 The past few years have seen an industry-wide effort to embrace SBOMs and other software security practices highlighted by the U.S. government (see, for example, [this article](https://thenewstack.io/2023-the-year-open-source-security-supply-chain-grew-up/)).  Many tools have been developed to generate SBOMs for software repositories, filesystems, container images and other execution platforms. The [software bill of materials webpage](https://www.ntia.gov/page/software-bill-materials) maintained by the National Telecommunications and Information Administration provides an extensive set of resources on their creation and use, including the [Survey of Existing SBOM Formats and Standards (2021)](https://www.ntia.gov/sites/default/files/publications/sbom_formats_survey-version-2021_0.pdf) which describes the three widely used SBOM standards that have emerged.
 Although SBOMS and other software security practices are not yet widely used in the scientific software community, policies for software security will increasingly impact scientific software too. **Consequently, developers of scientific software should begin learning about SBOMs and their role in software security best practices, and they should assess how to provide and use them in their own development activities.**
