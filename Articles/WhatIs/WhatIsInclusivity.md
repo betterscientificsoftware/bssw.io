@@ -2,7 +2,7 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug) and [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: June 21, 2024
+#### Publication date: May 21, 2024
 
 <!--deck start-->
 If *diversity* is being asked to the scientific computing party, *inclusivity* is being asked to dance.
