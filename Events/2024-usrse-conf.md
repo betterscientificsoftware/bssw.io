@@ -4,9 +4,9 @@
 We invite submissions for the second US-RSE Conference to be held in Albuquerque, October 15 to 17, 2024. The theme of this year’s conference will be “Yesterday, Today, Tomorrow.”
 <!-- deck text ends -->
 
-- Deadline for workshops, tutorials, and BoFs: March 22, 2024
-- Deadline for papers and notebooks: May 20, 2024
-- Deadline for poster and talk abstracts: June 3, 2024
+- Deadline for workshops, tutorials, and BoFs (extended): April 5, 2024
+- Deadline for papers and notebooks (extended): June 3, 2024
+- Deadline for poster and talk abstracts (extended): June 17, 2024
 - Event Dates: October 15-17, 2024
 - Location: Albuquerque, NM
 - Website: https://us-rse.org/usrse24/
@@ -19,9 +19,9 @@ We invite submissions for the second US-RSE Conference to be held in Albuquerque
 Event Information | Details
 :--- | :---			   
 Event Name | [2nd Annual Conference of the United States Research Software Engineer Association (US-RSE'24)](https://us-rse.org/usrse24/)
-Deadline for workshops, tutorials, and BoFs| March 22, 2024
-Deadline for papers and notebooks| May 20, 2024
-Deadline for poster and talk abstracts| June 3, 2024
+Deadline for workshops, tutorials, and BoFs (extended) | April 5, 2024
+Deadline for papers and notebooks (extended) | June 3, 2024
+Deadline for poster and talk abstracts (extended) | June 17, 2024
 Event Dates| October 15-17, 2024
 Website | https://us-rse.org/usrse24/
 
