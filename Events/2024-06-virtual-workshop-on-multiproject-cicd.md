@@ -4,7 +4,7 @@
 - Registration deadline: June 13, 2024
 - Event Date: June 14, 2024
 - Location: online
-- Website: https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/
+- Website: https://multiprojectdevops.github.io/workshops/virtual_workshop1/
 - Organizers: Ryan M. Richard
 
 #### Contributed by: [Ryan M. Richard](https://github.com/ryanmrichard)
@@ -17,11 +17,11 @@ This workshop seeks to build a community of practice for developing and maintain
 
 Event Information | Details
 :--- | :---			   
-Event Name | [Virtual Workshop on Multiproject CI/CD](https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/)
+Event Name | [Virtual Workshop on Multiproject CI/CD](https://multiprojectdevops.github.io/workshops/virtual_workshop1/)
 Abstract submission deadline | May 29, 2024
 Registration deadline | June 13, 2024
 Event Date | June 14, 2024
-Website | https://multiprojectdevops.github.io/workshop_reports/virtual_workshop1/
+Website | https://multiprojectdevops.github.io/workshops/virtual_workshop1/
 
 
 ### Summary
