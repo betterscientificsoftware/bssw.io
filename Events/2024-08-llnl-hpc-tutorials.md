@@ -4,7 +4,7 @@
 Learn how to use a modern, open-source HPC software stack.
 <!-- deck text ends -->
 
-- Registration deadline(s): 24 hours prior to each tutorial
+- Registration deadline(s): June 30 - August 28th, 2024
 - Event Dates: August 1-29, 2024
 - Location: Online
 - Website: https://hpcic.llnl.gov/2024-hpc-tutorials
