@@ -4,6 +4,12 @@
 Learn how to use a modern, open-source HPC software stack.
 <!-- deck text ends -->
 
+- Registration deadline(s): 24 hours prior to each tutorial
+- Event Dates: August 1-29, 2024
+- Location: Online
+- Website: https://hpcic.llnl.gov/2024-hpc-tutorials
+- Organizers: LLNL's High Performance Computing Innovation Center
+
 Throughout August, join our free tutorials on how to install and use a variety of HPC packages with hands-on exercises on AWS EC2 instances (provided).
 No previous experience is necessary.
 
