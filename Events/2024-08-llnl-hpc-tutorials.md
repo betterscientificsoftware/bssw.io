@@ -18,7 +18,7 @@ Twelve software teams will walk you through installation, configuration, and get
 Attendees will be provided with AWS instances so that they can follow along with the tutorials in real time.
 No previous experience necessary, and everyone is welcome.
 You can sign up for any/all of these tutorials.
-Visit the [event website](https://hpcic.llnl.gov/2024-hpc-tutorials) for the schedule and sign-up link.*
+Visit the [event website](https://hpcic.llnl.gov/2024-hpc-tutorials) for the schedule and sign-up link.
 
 ### Tutorial schedules and topics
 
@@ -36,6 +36,7 @@ August 27 | 9:00am – 11:00am | **WEAVE**: analyze runs of your code	WEAVE docs
 August 29 | 9:00am – 11:00am | **Flux**: run thousands of jobs in a workflow
 
 All times are Pacific (PT) and all dates are 2024.
+The times posted above may change so be sure to check with the [event website](https://hpcic.llnl.gov/2024-hpc-tutorials) for any updates to days and times.
 
 **Deadline to register for any tutorial is no later than 24 hours before the start of the tutorial.**
 
