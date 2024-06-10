@@ -92,7 +92,7 @@ We look forward to hearing from you and working with you to advance the scientif
 
 **Anshu Dubey** is a Senior Computational Scientist at Argonne National Laboratory. She is interested in all aspects of high-performance scientific applications including design and development, robust software engineering process and concerns of scientific reproducibility. She is the PI of the COLABS project. 
 
-**Rafael Ferreira da Silva **is a Senior Research Scientist at Oak Ridge National Laboratory. His research interests include all aspects of parallel and distributed computing systems, with a primary focus on modeling and simulation to enhance and innovate in scientific workflows. Rafael is the PI of the SWAS project in CASS.
+**Rafael Ferreira da Silva** is a Senior Research Scientist at Oak Ridge National Laboratory. His research interests include all aspects of parallel and distributed computing systems, with a primary focus on modeling and simulation to enhance and innovate in scientific workflows. Rafael is the PI of the SWAS project in CASS.
 
 **Todd Gamblin** is a Distinguished Member of Technical Staff at Lawrence Livermore National Laboratory. He created Spack ([spack.io](https://spack.io)), a widely used, open-source package manager for high performance computing, partially sustained by the PESO project. He is a co-founder of the High Performance Software Foundation ([hpsf.io](https://hpsf.io)). At LLNL, he works on software and future computing strategy in the Advanced Technology Office in LLNL's Livermore Computing division, and he leads a number of research and development projects focused on software integration.
 
