@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2024-05-26*
+*Listed in reverse chronological order. Last updated: 2024-06-14*
+
+- 2024-06-12: [Strengthening Development Workflows by Graphically Communicating Elements of Software Design](https://ideas-productivity.org/events/hpcbp-084-communicatingdesign), presented by Rafael Mudafort (National Renewable Energy Laboratory)
 
 - 2024-05-15: [Getting it Right: System Testing of Scientific Software](https://ideas-productivity.org/events/hpcbp-083-gettingitright), presented by Myra Cohen (Iowa State University)
 
@@ -197,7 +199,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques)
 
-#### Publication date: 2024-05-26
+#### Publication date: 2024-06-14
 
 <!---
 Publish: yes
