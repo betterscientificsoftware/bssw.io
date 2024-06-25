@@ -5,7 +5,6 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/hero-design.png
 Slide1 R: ../Articles/Blog/2024-05-communicating-design.md
-
 Slide2 L: ../Articles/Blog/2024-06-introducing-cass.md
 Slide2 R: ../CuratedContent/DebunkingMyth.md
 Slide3 L: ../CuratedContent/PortabilityIsReliability.md
