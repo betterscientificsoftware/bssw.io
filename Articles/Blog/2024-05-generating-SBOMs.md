@@ -6,7 +6,7 @@
 
 #### Contributed by [William Hart](https://github.com/whart222)
 
-#### Publication date: May 28, 2024
+#### Publication date: June 26, 2024
 
 Software bills of materials (SBOMs) provide a list of the components, libraries, and modules that are required to build a piece of software. The [United States 2021 Executive Order on Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) highlights the role of SBOMs in supporting risk assessments for newly discovered vulnerabilities.  Further, the U.S. National Institute of Standards and Technology (NIST) released its [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf), which requires SBOM information to be available for software. Both open-source and commercial software are impacted by these policies.  Consequently, developers of scientific software should expect that the use of their software may be restricted in some contexts unless accurate SBOMs can be generated. 
 Conversely, as SBOMs become more widely available for scientific software, developers will also be able to use them to better understand the risks and vulnerabilities of the software on which they depend.
@@ -40,7 +40,7 @@ Here is a synopsis of the key points from these blogs:
 * C++ and Fortran developers should explore the use of package managers.
   * These naturally manage the relevant SBOM data, so package managers will likely play a key role in supporting software security practices.
   * However, only a couple of package managers currently automate the generation of SBOMs: vcpkg, conan and spack.
-  * Of these, vcpkg has the strongest support for SBOMs (e.g., see [this Microsoft blog article](https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/)).
+  * Of these, vcpkg currently has the strongest support for SBOMs (e.g., see [this Microsoft blog article](https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/)).
 
 * Alternatively, C++ and Fortran developers can automate the generation of SBOMs within their build systems.
   * For example, the [cmake-sbom project](https://github.com/DEMCON/cmake-sbom) automates SBOM generation with build information the developer provides.
