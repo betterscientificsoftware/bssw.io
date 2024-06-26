@@ -90,6 +90,12 @@ jobs:
             cat linkchecker-out.csv >> linkchecker-out-all.csv
         done
 
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: linkchecker-out-all.csv
+
 #
 # Description:
 #
