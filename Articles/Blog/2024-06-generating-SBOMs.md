@@ -39,7 +39,7 @@ Here is a synopsis of the key points from these blogs:
 
 * C++ and Fortran developers should explore the use of package managers.
   * These naturally manage the relevant SBOM data, so package managers will likely play a key role in supporting software security practices.
-  * However, only a couple of package managers currently automate the generation of SBOMs: vcpkg, conan and Spack.
+  * However, only a couple of package managers currently automate the generation of SBOMs: vcpkg, Conan and Spack.
   * Of these, vcpkg currently has the strongest support for SBOMs (e.g., see [this Microsoft blog article](https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/)).
 
 * Alternatively, C++ and Fortran developers can automate the generation of SBOMs within their build systems.
