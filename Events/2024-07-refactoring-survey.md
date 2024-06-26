@@ -1,8 +1,8 @@
-# A Survey on Refactoring Practices in the Development of Scientific Software
+# Survey on Refactoring Practices in the Development of Scientific Software
 
 #### Contributed by: [Shurui Zhou](https://github.com/shuiblue) and [Rohith Pudari](https://github.com/rohithpudari)
 
-#### Publication date: June 26, 2024
+#### Publication date: June 25, 2024
 
 - Closing Date: July 31, 2024
 - Location: Online
@@ -15,7 +15,7 @@ If you develop open-source scientific software in your work and want to contribu
 
 Event Information | Details
 :--- | :---	
-Event Name | Survey of Peer Code Review in Research Software Development
+Event Name | Survey on Refactoring Practices in the Development of Scientific Software
 Website | <https://forms.office.com/pages/responsepage.aspx?id=JsKqeAMvTUuQN7RtVsVSEDG3WKvjM4pHu7QCZXS8hkhUNFVWQTA1RDIzNkZYSjNDMzNSM1VSVjVPMi4u>
 
 We are a team of researchers from the FORCOLAB at the University of Toronto (UofT), directed by Prof. Shurui Zhou. We are conducting a research study on understanding the refactoring practices and challenges in open-source scientific software. This study is led by PhD student Rohith Pudari. Our initial findings indicate that **the current software engineering refactoring tools are unable to accurately detect refactoring instances in many scientific software repositories.** Therefore, we are trying to reach out to practitioners from scientific software teams about their experience in performing refactoring and their needs during the refactoring process. The main objective is to better support refactoring tasks during scientific software development. The study has received approval from the Research Ethics Board at UofT. 
