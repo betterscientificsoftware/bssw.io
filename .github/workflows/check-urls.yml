@@ -73,7 +73,7 @@ jobs:
         maxfilesizeparse=100000
         [csv]
         separator=,
-        parts=urlname,parentname,warning,result
+        parts=all
         [MarkdownCheck]
         filename_re=.*\.md$
         " > .linkcheckerrc
