@@ -73,10 +73,11 @@ jobs:
         maxfilesizeparse=100000
         [csv]
         separator=,
-        parts=urlname,parentname,result
+        parts=all
         [MarkdownCheck]
         filename_re=.*\.md$
         " > .linkcheckerrc
+        echo "urlname,parentname,result > linkchecker-out-all.csv 
         for f in ${{ steps.file_list.outputs.files }}; do
             if [ "${f##*.}" != "md" ]; then
                 continue
@@ -87,14 +88,34 @@ jobs:
                 fi
             done
             linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f || true
-            cat linkchecker-out.csv >> linkchecker-out-all.csv
+        #    cat linkchecker-out.csv | sed '1n; /urlname,parentname,result/d' | grep -v ',200$ >> linkchecker-out-all.csv
         done
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: my-artifact
         path: linkchecker-out-all.csv
+
+
+#
+# Keep the recurring failures and definitely bad lists in repo on
+# branch manage-broken-links
+#
+# Download those files before startin
+#
+# If a link "works" (200) remove it from "recurring failures" list
+# If a link "does not work" (!= 200)
+#    - if it is already on recurring failures list
+#       - if it is too old, flag it as "definitely bad", else nothing
+#       
+#    - if it is not already on persistent failures list, add it to "new" and "persistent failures" list and date it
+
+# 
+# Upload the recurring failures and definitely bad lists to somehwere
+# Report success if definitely bad list is empty, otherwise failure
+# generate email with links or actual data
+#
 
 #
 # Description:
