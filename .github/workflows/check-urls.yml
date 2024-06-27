@@ -88,7 +88,7 @@ jobs:
                 fi
             done
             linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f || true
-            cat linkchecker-out.csv | sed '1n; /urlname,parentname,result/d' | grep -v ',200$ >> linkchecker-out-all.csv
+            cat linkchecker-out.csv | sed '1n; /urlname,parentname,result/d' | grep -v ',200.*$' >> linkchecker-out-all.csv
         done
 
     - name: Upload artifact
