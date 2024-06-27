@@ -73,6 +73,6 @@ Format:
     - Doesn't seem to work for PRs from forks
 * Mark C. Miller has introduced some useful MD-related processing into some of his other projects
     - There was some stuff document in the About file in earlier versions of the EB-docs.  Seems to have been removed now.
-    - <https://travis-ci.com/github/visit-dav/visit-website/builds/181169664> provides an example of what the logs look like when a spelling check fails
-    - <https://github.com/visit-dav/visit-website/blob/gh-pages/.travis.yml> invokes a linter, a spell checker, and a lnk checker
+    - https://travis-ci.com/github/visit-dav/visit-website/builds/181169664 provides an example of what the logs look like when a spelling check fails
+    - https://github.com/visit-dav/visit-website/blob/gh-pages/.travis.yml invokes a linter, a spell checker, and a lnk checker
 * Long ago, Will Mclendon of SNL wrote a script to validate an article's metadata.  It would probably be useful to dust that off and update it.
