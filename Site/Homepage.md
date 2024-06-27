@@ -3,15 +3,15 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../images/hero-design.png
-Slide1 R: ../Articles/Blog/2024-05-communicating-design.md
-Slide2 L: ../Articles/Blog/2024-06-introducing-cass.md
-Slide2 R: ../CuratedContent/DebunkingMyth.md
-Slide3 L: ../CuratedContent/PortabilityIsReliability.md
+Slide1 L: ../Articles/Blog/2024-06-generating-SBOMs.md
+Slide1 R: ../Articles/Blog/2024-06-introducing-cass.md
+Slide2 L: ../CuratedContent/DebunkingMyth.md
+Slide2 R: ../CuratedContent/PortabilityIsReliability.md
+Slide3 L: ../Events/hpcbp-085-userexperience.md
 Slide3 R: ../Events/ATPESC2024.md
-Slide4 L: ../Events/2024-07-openscience-rse-school.md
-Slide4 R: ../Events/hpcbp-085-userexperience.md
-Slide5 L: ../Events/2024-07-intersect-bootcamp.md 
+Slide4 L: ../Events/2024-07-refactoring-survey.md 
+Slide4 R: ../Events/2024-07-intersect-bootcamp.md 
+Slide5 L: ../Events/2024-07-openscience-rse-school.md
 Slide5 R: ../Events/2024-08-llnl-hpc-tutorials.md 
 --->
 
