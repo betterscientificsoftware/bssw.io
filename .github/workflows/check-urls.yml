@@ -73,11 +73,10 @@ jobs:
         maxfilesizeparse=100000
         [csv]
         separator=,
-        parts=urlname,parentname,result
+        parts=urlname,parentname,warning,result
         [MarkdownCheck]
         filename_re=.*\.md$
         " > .linkcheckerrc
-        echo "urlname,parentname,result" > linkchecker-out-all.csv 
         for f in ${{ steps.file_list.outputs.files }}; do
             if [ "${f##*.}" != "md" ]; then
                 continue
@@ -88,7 +87,7 @@ jobs:
                 fi
             done
             linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f || true
-            cat linkchecker-out.csv | sed '1n; /urlname,parentname,result/d' | grep -v ',200.*$' >> linkchecker-out-all.csv
+            tail -n +2 linkchecker-out.csv | grep -v ',200.*$' >> linkchecker-out-all.csv
         done
 
     - name: Upload artifact
