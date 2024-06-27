@@ -72,7 +72,7 @@ jobs:
         maxfilesizedownload=100000
         maxfilesizeparse=100000
         [csv]
-        separator=,
+        separator=;
         parts=all
         [MarkdownCheck]
         filename_re=.*\.md$
@@ -87,7 +87,8 @@ jobs:
                 fi
             done
             linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f || true
-            tail -n +2 linkchecker-out.csv | grep -v ',200.*$' >> linkchecker-out-all.csv
+            #tail -n +2 linkchecker-out.csv | grep -v ',200.*$' >> linkchecker-out-all.csv
+            tail -n +4 linkchecker-out.csv >> linkchecker-out-all.csv
         done
 
     - name: Upload artifact
