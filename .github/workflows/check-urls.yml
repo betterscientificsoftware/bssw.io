@@ -77,7 +77,7 @@ jobs:
         [MarkdownCheck]
         filename_re=.*\.md$
         " > .linkcheckerrc
-        echo "urlname,parentname,result > linkchecker-out-all.csv 
+        #echo "urlname,parentname,result" > linkchecker-out-all.csv 
         for f in ${{ steps.file_list.outputs.files }}; do
             if [ "${f##*.}" != "md" ]; then
                 continue
