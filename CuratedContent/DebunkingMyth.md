@@ -1,7 +1,7 @@
 # Debunking the Myth that Upfront Requirements are Infeasible for Scientific Computing Software
 
 <!--- deck text start --->
-The Debunking the Myth that Upfront Requirements are Infeasible for Scientific Computing Software paper argues that upfront requirements are feasible and beneficial for Scientific Computing Software.
+The paper **Debunking the Myth That Upfront Requirements Are Infeasible for Scientific Computing Software** argues that upfront requirements are feasible and beneficial for scientific computing software.
 <!--- deck text end --->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
@@ -12,7 +12,7 @@ Resource information | Details
 :--- | :---
 Paper title | Debunking the Myth that Upfront Requirements are Infeasible for Scientific Computing Software
 Authors | Spencer Smith, Malavika Srinivasan, and Sumanth Shankar
-Publication | Year 2019, DOI: [10.1109/SE4Science.2019.00011](https://www.doi.org/10.1109/SE4Science.2019.00011)
+Publication | 2019, DOI: [10.1109/SE4Science.2019.00011](https://www.doi.org/10.1109/SE4Science.2019.00011)
 
 
 
