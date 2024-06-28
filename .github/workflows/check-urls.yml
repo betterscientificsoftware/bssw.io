@@ -65,18 +65,6 @@ jobs:
       #exclude_patterns: ${{ steps.setup_vars.outputs.ignore_url_patterns }}
     - name: Check URLs in selected files
       run: |
-        # Create an rc file controlling behavior of linkchecker
-        echo "
-        [checking]
-        sslverify=0
-        maxfilesizedownload=100000
-        maxfilesizeparse=100000
-        [csv]
-        separator=;
-        parts=all
-        [MarkdownCheck]
-        filename_re=.*\.md$
-        " > .linkcheckerrc
         for f in ${{ steps.file_list.outputs.files }}; do
             if [ "${f##*.}" != "md" ]; then
                 continue
@@ -86,17 +74,15 @@ jobs:
                     continue 2 # ignore this file
                 fi
             done
-            linkchecker -f .linkcheckerrc -F csv/linkchecker-out.csv -t 20 --check-extern --no-follow-url ".*" --timeout=30 $f || true
-            #tail -n +2 linkchecker-out.csv | grep -v ',200.*$' >> linkchecker-out-all.csv
-            tail -n +4 linkchecker-out.csv >> linkchecker-out-all.csv
+            linkchecker -f utils/LinkChecker/.linkcheckerrc file://$(pwd)/$f >> linkchecker.out || true
+            cat linkchecker.out >> linkchecker-all.out
         done
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: my-artifact
-        path: linkchecker-out-all.csv
-
+        path: linkchecker-all.out
 
 #
 # Keep the recurring failures and definitely bad lists in repo on
@@ -116,6 +102,12 @@ jobs:
 # Report success if definitely bad list is empty, otherwise failure
 # generate email with links or actual data
 #
+
+# bare URLs in markdown are not actually links and will not be checked. Many
+# markdown renderers and browsers will recognize these and handle them as links
+# but that is by convention only. There is no markdown standard for how bare
+# URLs in markdown are handled. The only standard is to enclose them in `<` and
+# `>` chars.
 
 #
 # Description:
