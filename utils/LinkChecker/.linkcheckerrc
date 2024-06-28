@@ -182,7 +182,7 @@ sslverify=0
 # Maximum number of requests per second to one host.
 #maxrequestspersecond=10
 # Respect the instructions in any robots.txt files
-#robotstxt=1
+robotstxt=0
 # Allowed URL schemes as a comma-separated list. Example:
 allowedschemes=file,http,https
 # Size of the result cache. Checking more urls might increase memory usage during runtime
