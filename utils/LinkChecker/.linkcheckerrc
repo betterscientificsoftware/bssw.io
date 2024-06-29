@@ -173,7 +173,7 @@ sslverify=0
 # user hits Ctrl-C after X seconds. Example:
 #maxrunseconds=600
 # Don't download files larger than the given number of bytes
-#maxfilesizedownload=5242880
+maxfilesizedownload=100000
 # Don't parse files larger than the given number of bytes
 #maxfilesizeparse=1048576
 # Maximum number of URLs to check. New URLs will not be queued after the
@@ -198,8 +198,7 @@ allowedschemes=file,http,https
 # and ignore all mailto: URLs
 #  ^mailto:
 # do not recurse into the following URLs
-
-#nofollow=
+nofollow=.*
 # just an example
 #  http://www\.example\.com/bla
 
@@ -210,7 +209,7 @@ allowedschemes=file,http,https
 #ignorewarnings=url-unicode-domain
 # Regular expression to add more URLs recognized as internal links.
 # Default is that URLs given on the command line are internal.
-#internlinks=^http://www\.example\.net/
+#internlinks=.*
 # Check external links
 checkextern=1
 
