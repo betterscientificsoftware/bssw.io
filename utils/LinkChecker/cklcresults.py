@@ -14,11 +14,11 @@ f.close()
 
 def AddEntryToRecord(cr, key, line):
     assert key not in cr.keys(), f"duplicate key {key}, {line}, {cr}"
-    cr[key] = line[11:]
+    cr[key] = line[11:].replace('\n','')
 
 def StartNewRecord(cr, key, line):
     cr.clear()
-    line = line[1:-1]
+    line = line[1:-2]
     AddEntryToRecord(cr, key, line)
 
 def AddRecord(records, cr, key, line):
@@ -56,7 +56,18 @@ for line in lines:
         prevKey = key
 
 for r in records:
-    if '200' not in r['Result']:
-    
-        print(r['Result'])
-        print(r['Info'])
+
+    # ignore the entry for the .md file itself
+    if 'ParentURL' not in r.keys():
+        continue
+
+    goodURL = True
+    if '200' not in r['Result'][:20]:
+        if r['Result'] == 'Valid':
+            if 'Warning' in r.keys() and 'Redirected' not in r['Warning']:
+                goodURL = False
+        else:
+            goodURL = False
+
+    if not goodURL:
+        print(f"{r['URL']} in \n\t {r['ParentURL'][41:]}")
