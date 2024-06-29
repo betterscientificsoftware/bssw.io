@@ -145,7 +145,7 @@ timeout=30
 # (with Ctrl-C or the abort button).
 #aborttimeout=300
 # The recursion level determines how many times links inside pages are followed.
-#recursionlevel=-1
+recursionlevel=1
 # parse a cookiefile for initial cookie data, example:
 #cookiefile=/path/to/cookies.txt
 # User-Agent header string to send to HTTP web servers
