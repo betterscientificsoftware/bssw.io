@@ -190,7 +190,8 @@ allowedschemes=file,http,https
 
 ##################### filtering options ##########################
 [filtering]
-#ignore=
+# Ignore github usernames
+ignore=https?://github.com/[^/]*$
 # ignore everything with 'lconline' in the URL name
 #  lconline
 # and ignore everything with 'bookmark' in the URL name
