@@ -1,4 +1,4 @@
-import ast, datetime
+import ast, datetime, sys
 
 def AddEntryToRecord(cr, key, line):
     assert key not in cr.keys(), f"duplicate key {key}, {line}, {cr}"
@@ -18,15 +18,22 @@ def AddRecord(records, cr, key, line, now):
 def AppendLineToPreviousKey(cr, key, line):
     cr[key] += line
 
+#
+# Handle command-line args to this script
+ghEvent = ""
+if len(sys.argv) > 1:
+    ghEvent = sys.argv[1]
+
+#
 # Open log and read all lines into a python list object
 f = open('linkchecker-all.out','r')
 lines = f.readlines()
 f.close()
 
 #
-# Process contents of log, looking for groups of lines defining
-# each link tested and its results. Each link is its own dict
-# object (record) and we append each record to a list, records.
+# Process contents of linkchecker log, looking for groups of lines
+# defining each link tested and its results. Each link is its own dict
+# object (record) and we append each record to a list named records.
 #
 records = []
 currentRecord = {}
@@ -59,18 +66,20 @@ for line in lines:
 # Open trouble_links.txt and read all contents
 #
 trouble_links = []
-with open('../../utils/LinkChecker/trouble_links.txt','r') as file:
-    for line in file:
-        trouble_links.append(ast.literal_eval(line.strip()))
+if ghEvent != "pull_request":
+    with open('../../utils/LinkChecker/trouble_links.txt','r') as file:
+        for line in file:
+            trouble_links.append(ast.literal_eval(line.strip()))
 trouble_links_original_size = len(trouble_links)
 
 #
 # Open bad_links.log 
 #
 bad_links = []
-with open('../../utils/LinkChecker/bad_links.txt','r') as file:
-    for line in file:
-        bad_links.append(ast.literal_eval(line.strip()))
+if ghEvent != "pull_request":
+    with open('../../utils/LinkChecker/bad_links.txt','r') as file:
+        for line in file:
+            bad_links.append(ast.literal_eval(line.strip()))
 bad_links_original_size = len(bad_links)
 
 #
@@ -90,6 +99,10 @@ for r in records:
                 linkOK = False
         else:
             linkOK = False
+
+    if ghEvent == "pull_request" and not linkOK:
+        bad_links += [r]
+        continue
 
     prev_trouble_records = [x for x in trouble_links if x['URL'] == r['URL']]
 
@@ -118,7 +131,7 @@ for r in records:
 #
 # Update trouble_links file if modified
 #
-if len(trouble_links) != trouble_links_original_size:
+if ghEvent != "pull_request" and len(trouble_links) != trouble_links_original_size:
     with open('../../utils/LinkChecker/trouble_links.txt','w') as file:
         for rec in trouble_links:
             file.write(str(rec)+'\n')
