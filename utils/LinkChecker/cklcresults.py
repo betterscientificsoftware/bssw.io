@@ -67,7 +67,7 @@ for line in lines:
 #
 trouble_links = []
 if ghEvent != "pull_request":
-    with open('../../utils/LinkChecker/trouble_links.txt','r') as file:
+    with open('utils/LinkChecker/trouble_links.txt','r') as file:
         for line in file:
             trouble_links.append(ast.literal_eval(line.strip()))
 trouble_links_original_size = len(trouble_links)
@@ -77,7 +77,7 @@ trouble_links_original_size = len(trouble_links)
 #
 bad_links = []
 if ghEvent != "pull_request":
-    with open('../../utils/LinkChecker/bad_links.txt','r') as file:
+    with open('utils/LinkChecker/bad_links.txt','r') as file:
         for line in file:
             bad_links.append(ast.literal_eval(line.strip()))
 bad_links_original_size = len(bad_links)
@@ -132,7 +132,7 @@ for r in records:
 # Update trouble_links file if modified
 #
 if ghEvent != "pull_request" and len(trouble_links) != trouble_links_original_size:
-    with open('../../utils/LinkChecker/trouble_links.txt','w') as file:
+    with open('utils/LinkChecker/trouble_links.txt','w') as file:
         for rec in trouble_links:
             file.write(str(rec)+'\n')
 
@@ -140,6 +140,6 @@ if ghEvent != "pull_request" and len(trouble_links) != trouble_links_original_si
 # Update bad_links file if modified
 #
 if len(bad_links) > bad_links_original_size:
-    with open('../../utils/LinkChecker/bad_links.txt','w') as file:
+    with open('utils/LinkChecker/bad_links.txt','w') as file:
         for rec in bad_links:
             file.write(str(rec)+'\n')
