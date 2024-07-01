@@ -94,7 +94,7 @@ for r in records:
 
     linkOK = True
     if '200' not in r['Result'][:20]:
-        if r['Result'] == 'Valid':
+        if r['Result'][:5] == 'Valid':
             if 'Warning' in r.keys() and 'Redirected' not in r['Warning']:
                 linkOK = False
         else:
@@ -129,6 +129,13 @@ for r in records:
                     bad_links += [x] 
 
 #
+# Sometimes, we can get duplicate entries in the lists.
+# Remove any of those now.
+#
+trouble_links = list(set(trouble_links))
+bad_links = list(set(bad_links))
+
+#
 # Update trouble_links file if modified
 #
 if ghEvent != 'pull_request' and len(trouble_links) != trouble_links_original_size:
@@ -145,4 +152,7 @@ if ghEvent == 'pull_request':
 if len(bad_links) > bad_links_original_size:
     with open(bad_links_out, 'w') as file:
         for rec in bad_links:
-            file.write(str(rec)+'\n')
+            if ghEvent == 'pull_request':
+                file.write(+str(rec['ParentURL'][41:]+', '+str(rec['URL']+'\n')
+            else:
+                file.write(str(rec)+'\n')
