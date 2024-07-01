@@ -129,11 +129,26 @@ for r in records:
                     bad_links += [x] 
 
 #
+# Removing dups from a list is ordinarily easier than this.
+# But, in our case, each item in the list is a dict and so
+# the logic to handle those correctly is a little more complex.
+#
+def RemoveDups(alist):
+    seen = set()
+    new_list = []
+    for d in alist:
+        dict_fs = frozenset(d.items())
+        if dict_fs not in seen:
+            new_list.append(d)
+            seen.add(dict_fs)
+    return new_list
+
+#
 # Sometimes, we can get duplicate entries in the lists.
 # Remove any of those now.
 #
-trouble_links = list(set(trouble_links))
-bad_links = list(set(bad_links))
+trouble_links = RemoveDups(trouble_links)
+bad_links = RemoveDups(bad_links)
 
 #
 # Update trouble_links file if modified
