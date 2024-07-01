@@ -100,7 +100,7 @@ jobs:
     - name: Finalize Check Status
       if: ${{ github.event_name == 'pull_request' }}
       run: |
-        [ $(wc -l ../../utils/LinkChecker/bad_links.txt | awk '{print $1}') -gt 0 ] && exit 1
+        [ $(wc -l utils/LinkChecker/bad_links.txt | awk '{print $1}') -gt 0 ] && exit 1
       
     - name: Upload artifact
       if: always()
