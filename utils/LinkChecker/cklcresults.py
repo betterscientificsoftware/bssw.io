@@ -139,7 +139,10 @@ if ghEvent != 'pull_request' and len(trouble_links) != trouble_links_original_si
 #
 # Update bad_links file if modified
 #
-if ghEvent != 'pull_request' and len(bad_links) > bad_links_original_size:
-    with open('utils/LinkChecker/bad_links.txt','w') as file:
+bad_links_out = 'utils/LinkChecker/bad_links.txt'
+if ghEvent == 'pull_request':
+    bad_links_out = 'bad_links.txt'
+if len(bad_links) > bad_links_original_size:
+    with open(bad_links_out, 'w') as file:
         for rec in bad_links:
             file.write(str(rec)+'\n')
