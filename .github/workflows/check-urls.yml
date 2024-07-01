@@ -7,15 +7,11 @@ on:
   pull_request:
     branches: [ main ]
 env:
-  ignore_url_patterns: |
-    http://localhost:4000
-    https://preview.bssw.io
-    https://github.com/<your-github-handle>
   ignore_file_patterns: |
-    docs/
-    images/
-    utils/
-    Events/
+    docs
+    images
+    utils
+    Events
 
 jobs:
   check-urls:
@@ -36,8 +32,6 @@ jobs:
     - name: Reformat environment variables
       id: setup_vars
       run: |
-        tmp=$(echo "${{ env.ignore_url_patterns }}" | tr '\n' ' ')
-        echo "ignore_url_patterns=$tmp" >> $GITHUB_OUTPUT
         tmp=$(echo "${{ env.ignore_file_patterns }}" | tr '\n' ' ')
         echo "ignore_file_patterns=$tmp" >> $GITHUB_OUTPUT
 
@@ -87,6 +81,10 @@ jobs:
             for ef in ${{ steps.file_list.outputs.ignore_file_patterns }}; do
                 if [ "$ef" = "$f" ]; then
                     continue 2 # ignore this file
+                fi
+                fd=$(echo $f | cut -d'/' -f1)
+                if [ "$ef" = "$fd" ]; then
+                    continue 2 # ignore this dir
                 fi
             done
             linkchecker -f utils/LinkChecker/.linkcheckerrc file://$(pwd)/$f >> linkchecker.out || true
