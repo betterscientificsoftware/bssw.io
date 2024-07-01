@@ -168,6 +168,6 @@ if len(bad_links) > bad_links_original_size:
     with open(bad_links_out, 'w') as file:
         for rec in bad_links:
             if ghEvent == 'pull_request':
-                file.write(+str(rec['ParentURL'][41:])+', '+str(rec['URL'])+'\n')
+                file.write(str(rec['ParentURL'][41:]) + ', ' + str(rec['URL']) + '\n')
             else:
-                file.write(str(rec)+'\n')
+                file.write(str(rec) + '\n')
