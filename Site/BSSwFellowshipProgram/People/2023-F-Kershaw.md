@@ -22,5 +22,5 @@ Helen Kershaw is a Software Engineer at the National Center for Atmospheric Rese
 
 ### Selected Resources
 <a href="https://code-review.org/" class="link-row">Code Review tutorial website</a>
-<a href="https://github.com/scientific-software-reviewers" class="link-row">Scientific Software Reviewers GitHub Organiztaion</a>
-<a href="https://bssw.io/blog_posts/code-review-org-an-online-tutorial-to-improve-your-code-review-skills" class="link-row">BSSw.io Blog Post - Code-Review.org: An Online Tutorial to Improve Your Code Review Skills</a>
+<a href="https://github.com/scientific-software-reviewers" class="link-row">Scientific Software Reviewers GitHub Organization</a>
+<a href="https://bssw.io/blog_posts/code-review-org-an-online-tutorial-to-improve-your-code-review-skills" class="link-row">BSSw.io blog article - Code-Review.org: An Online Tutorial to Improve Your Code Review Skills</a>
