@@ -19,3 +19,8 @@ BSSw Fellow Helen Kershaw is creating a code review tutorial that can be done in
 
 
 Helen Kershaw is a Software Engineer at the National Center for Atmospheric Research. She works on the Data Assimilation Research Testbed (DART), an open-source community facility for ensemble data assimilation. Helen previously worked at Brown University at the Center for Computation and Visualization, where she led a team of research software engineers. She was a 2019-2020 XSEDE Campus Champion Fellow and is active in the US-RSE community.
+
+### Selected Resources
+<a href="https://code-review.org/" class="link-row">Code Review tutorial website</a>
+<a href="https://github.com/scientific-software-reviewers" class="link-row">Scientific Software Reviewers GitHub Organization</a>
+<a href="https://bssw.io/blog_posts/code-review-org-an-online-tutorial-to-improve-your-code-review-skills" class="link-row">BSSw.io blog article - Code-Review.org: An Online Tutorial to Improve Your Code Review Skills</a>
