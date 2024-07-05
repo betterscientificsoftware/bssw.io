@@ -3,7 +3,7 @@
 **Hero Image:**
 
  - <img src='../../images/Howland_Islands_Hermit_Crabs.jpeg' />
- 
+
 #### Contributed by [Helen Kershaw](https://github.com/hkershaw-brown)
 
 #### Publication date: April 11, 2024
@@ -44,31 +44,31 @@ Code review can feel quite exclusionary. It can be a gatekeeping exercise, parti
 Building community and building great teams take time, skill, and dedicated effort.
 Luckily, you do not have to start from scratch!
 
-If you are the only person writing code on your team, join a research software engineering (RSE) organization and find 
+If you are the only person writing code on your team, join a research software engineering (RSE) organization and find
 your people.
 
-* [US-RSE](https://us-rse.org/). A community of people who make research software happen.  
-* [Society of Research Software Engineering](https://society-rse.org/) which emerged from the successful grass-roots RSE movement and is the successor to the UK RSE Association.  
-* [Better Scientific Software](https://bssw.io/). A hub for scientific software development resources.  
+* [US-RSE](https://us-rse.org/). A community of people who make research software happen.
+* [Society of Research Software Engineering](https://society-rse.org/) which emerged from the successful grass-roots RSE movement and is the successor to the UK RSE Association.
+* [Better Scientific Software](https://bssw.io/). A hub for scientific software development resources.
 * [Campus Champions](https://campuschampions.cyberinfrastructure.org/). Uniting Research Computing Facilitators
 * [UCAR Software Engineering Assembly](https://sea.ucar.edu/sea) A community for software engineering professionals within UCAR.
 
 
-### Acknowledgement 
+### Acknowledgement
 
 This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
 
 ### Author bio
 
-Helen Kershaw is the Lead Software Engineer for the [Data Assimilation Research Testbed](https://dart.ucar.edu/), a widely used, open-source community software facility for data assimilation. Helen has a PhD in Mechanical Engineering 
-from the University of Canterbury, New Zealand, and a Geophysical Sciences degree from the University of 
-Leeds, UK. Helen has worked for a geophysical survey company that flew gravity and magnetic surveys, and 
-worked for several years in the Center for Computation and Visualization at Brown University before 
+Helen Kershaw is the Lead Software Engineer for the [Data Assimilation Research Testbed](https://dart.ucar.edu/), a widely used, open-source community software facility for data assimilation. Helen has a PhD in Mechanical Engineering
+from the University of Canterbury, New Zealand, and a Geophysical Sciences degree from the University of
+Leeds, UK. Helen has worked for a geophysical survey company that flew gravity and magnetic surveys, and
+worked for several years in the Center for Computation and Visualization at Brown University before
 joining NSF NCAR. Helen is interested in mentoring, community code, and
 RSE as a career path.
 
 <!---
 Publish: yes
-Track: experience
+Track: experience, bssw fellowship
 Topics: "peer code review", "online learning"
 --->
