@@ -76,6 +76,8 @@ Propose something that you are passionate about and create realistic deliverable
 
 Compilers are an integral component in software development that ensure our software performs on modern systems. However, compilers may sometimes be seen as complex, black-box interpreters in the build system that fail to understand the programmer's intent. Through a series of short videos, BSSw Fellow Johannes Doerfert explains the compiler, its inner workings, and best practices for working with it. His work opens the compiler black box to foster an interactive development experience that reduces programmer effort and increases performance and software quality. Videos provide an introduction to basic compiler-based tools and functionality---information that should be understood by all (scientific) programmers. These videos also expose how to actively work on large production applicationa, and how working with the compiler, as opposed to against it, results in time savings and better code/performance.
 
+<a href="https://www.youtube.com/watch?v=0o3UXMOD52Q" class="link-row">Video - Looking at Compiler Optimization Levels</a>
+
 <br>
 
 <div class='fellow'>
