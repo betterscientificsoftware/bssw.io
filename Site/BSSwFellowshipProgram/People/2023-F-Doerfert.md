@@ -22,4 +22,5 @@ Compilers are an integral component in software development that ensure our soft
 Johannes Doerfert is a computer scientist in the Center for Applied Scientific Computing at Lawrence Livermore National Laboratory. He is interested in new and exciting uses for compiler technologies. His research goal is to help people exploit hardware to the fullest without requiring them to become experts in the hardware or the software stack, including programming languages. Code is a means, not the final goal. As such, Johannes believes that manual efforts to rewrite, tune, or adapt code are often signs for missing tools, compiler shortcomings, misinformation, or a combination thereof. Johannes has been involved in the LLVM compiler framework since 2014 and the OpenMP language standard since 2018. He received his Ph.D. in Computer Science from Saarland University in Germany in 2018.
 
 ### Selected Resources
-<a href="https://www.youtube.com/watch?v=0o3UXMOD52Q" class="link-row">Video - Looking at Compiler Optimization Levels</a>
+<a href="https://www.youtube.com/watch?v=0o3UXMOD52Q" class="link-row">Video - Looking at Compilers: Optimization levels</a>
+<a href="https://www.youtube.com/watch?v=GS5rDO-ELJo" class="link-row">Video - Looking at Compilers: Specifying your processor</a>
