@@ -38,7 +38,7 @@ The Advisory Council is also the primary body to organize day-to-day collaborati
 
 ### Initial technical projects
 
-HPSF has currently seven associated projects:
+HPSF has currently nine associated projects:
 
 * [Kokkos](https://kokkos.org): a performance portability solution
 * [Spack](https://spack.io): a package manager focused on from-source builds
