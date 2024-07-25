@@ -10,7 +10,7 @@ At ISC 2024 in Hamburg the High Performance Software Foundation (HPSF) was launc
 <!-- end deck -->
 
 [HPSF](https://hpsf.io) is set up as an umbrella organization within the [Linux Foundation](https://linuxfoundation.org) to foster collaboration around the development and support of its associated technical projects.
-Conceived through an initial collaboration between the Spack and the Kokkos team, this effort has brought together institutions that want to foster a more cooperative effort of developing and maintaining key open-source projects in the space of high-performance computing and related compute-intensive areas.
+Conceived through an initial collaboration between the Spack and Kokkos teams, this effort has brought together institutions that want to foster a more cooperative effort of developing and maintaining key open-source projects in the space of high-performance computing and related compute-intensive areas.
 
 <img src='../../images/Blog_hpsf_logo.png' />
 
