@@ -1,8 +1,5 @@
 # Launch of the High Performance Software Foundation
 
-**Hero Image:**
-
-- <img src='../../images/Blog_hpsf_logo.png' />
  
 #### Contributed by [Christian Trott](https://github.com/crtrott)
 
@@ -14,6 +11,8 @@ At ISC 2024 in Hamburg the High Performance Software Foundation (HPSF) was launc
 
 [HPSF](https://hpsf.io) is set up as an umbrella organization within the [Linux Foundation](https://linuxfoundation.org) to foster collaboration around the development and support of its associated technical projects.
 Conceived through an initial collaboration between the Spack and the Kokkos team, this effort has brought together institutions that want to foster a more cooperative effort of developing and maintaining key open-source projects in the space of high-performance computing and related compute-intensive areas.
+
+<img src='../../images/Blog_hpsf_logo.png' />
 
 Historically, the HPC community has been characterized by a large amount of fragmentation, with many similar or even identical capabilities developed at different institutions.
 Many projects were reluctant to rely on third-party libraries due to the lack of reliable software support funding mechanisms in the scientific community.
@@ -35,7 +34,7 @@ The Technical Advisory Council organizes technical working groups and develops c
 Technical governance of projects associated with HPSF is still up to each individual project.
 The Advisory Council is also the primary body to organize day-to-day collaboration with other Linux Foundation efforts.
 
-<img src='../../images/Blog_hpsf_structure.png' style="float: center; height=10"/>
+<img src='../../images/Blog_hpsf_structure.png' class='page'/>
 
 ### Initial technical projects
 
