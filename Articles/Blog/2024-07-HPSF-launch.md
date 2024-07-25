@@ -1,12 +1,16 @@
 # Launch of the High Performance Software Foundation
 
-<img src='../../images/Blog_hpsf_logo.png' />
+**Hero Image:**
+
+- <img src='../../images/Blog_hpsf_logo.png' />
  
 #### Contributed by [Christian Trott](https://github.com/crtrott)
 
 #### Publication date: July 25, 2024
 
+<!-- begin deck -->
 At ISC 2024 in Hamburg the High Performance Software Foundation (HPSF) was launched with the goal of supporting key HPC software projects.
+<!-- end deck -->
 
 [HPSF](https://hpsf.io) is set up as an umbrella organization within the [Linux Foundation](https://linuxfoundation.org) to foster collaboration around the development and support of its associated technical projects.
 Conceived through an initial collaboration between the Spack and the Kokkos team, this effort has brought together institutions that want to foster a more cooperative effort of developing and maintaining key open-source projects in the space of high-performance computing and related compute-intensive areas.
@@ -47,7 +51,7 @@ HPSF has currently seven associated projects:
 * [AMReX](https://amrex-codes.github.io/amrex/): A software framework for massively parallel, block-structured adaptive mesh refinement (AMR) applications
 * [WarpX](https://ecp-warpx.github.io/): An advanced, time-based 1D/2D/3D/RZ electromagnetic & electrostatic particle-in-cell code
 
-# Open for global business
+### Open for global business
 
 Key benefits of belonging to the High-Performance Software Foundation include open governance models, resources for improving software quality and building community, as well as collaborations with the larger Linux computing ecosystem.
 Leveraging well-established open governance models from the Linux Foundation, HPSF provides a framework to organize multi-institutional collaborations.
@@ -56,7 +60,7 @@ Our hope is that in the long run, HPSF will be able to serve as a central hub fo
 
 ### Author bio
 
-**Christian Trott** is a member of the technical staff at Sandia National Laboratories.
+Christian Trott is a member of the technical staff at Sandia National Laboratories.
 He is a co-lead of the Kokkos Performance Portability project ([https://kokkos.org](https://kokkos.org)), a member of the ISO C++ standard committee and serves on the governing board of HPSF.
 Christian's leadership of the Kokkos programming model, was instrumental in establishing performance portability as a core concept of modern HPC software design.
 On the ISO C++ committee, he led efforts to bring multi-dimensional arrays (C++23) and linear algebra (C++26) into the standard.
