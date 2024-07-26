@@ -38,7 +38,7 @@ Prospective participants are encouraged to complete the interest form. Anyone in
 
 Invitees will be asked to submit a short position paper (no more than 2 pages) prior to the workshop. Workshop activities will include invited speaker talks, breakout sessions to develop materials, and networking opportunities.
 
-Workshop products will be made publicly availble via a GitHub repo, and participants may have the opportunity to publish in a special issue or edited volume (TBD).
+Workshop products will be made publicly available via a GitHub repo, and participants may have the opportunity to publish in a special issue or edited volume (TBD).
 
 
 Travel, lodging, and meals for the workshop will be covered by the organizer for approximately 20 invited participants. Limited space for self-funded participants is available. 
