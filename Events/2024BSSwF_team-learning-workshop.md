@@ -1,4 +1,4 @@
-# BSSwF Workshop: Team Learning for Better Scientific Software
+# Workshop: Team Learning for Better Scientific Software
 
 This workshop will focus on developing a set of best practices and guidelines for team learning in the development and use of scientific software.
 
