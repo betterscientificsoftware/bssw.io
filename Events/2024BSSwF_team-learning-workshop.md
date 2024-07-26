@@ -7,12 +7,12 @@ This workshop will focus on developing a set of best practices and guidelines fo
 - Event Dates: October/November 2024 (Exact Date TBD)
 - Location: Orlando, Florida, USA
 - Event Website: https://small0live.github.io/BSSwFWorkshop
-- Organizers: Olivia B. Newton, Ph.D., Better Scientific Software Fellow
+- Organizer: Olivia B. Newton, Ph.D., Better Scientific Software Fellow
 
 Event Information | Details
 :--- | :---			   
 Event Name | Team Learning for Better Scientific Software Workshop
-Event Date & Time | October/November 2024 (Exact Date TBD)
+Event Date & Time | October/November 2024 (Exact date TBD)
 Interest Form | [Qualtrics Survey](https://tinyurl.com/tl4bssw>)
 Website |	https://small0live.github.io/BSSwFWorkshop
 Submission Deadline | Friday, September 27, 2024. Please see event website for deadline updates.
@@ -46,6 +46,8 @@ Travel, lodging, and meals for the workshop will be covered by the organizer for
 Early-career individuals and members of groups that have historically been underrepresented in STEM are highly encouraged to submit to this event.
 
 Please refer to the event website for up-to-date information.
+
+#### Contributed by [Olivia B. Newton](https://github.com/small0live "Olivia B. Newton GitHub profile")
 
 <!---
 Publish: yes
