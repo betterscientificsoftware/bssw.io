@@ -7,7 +7,7 @@ This workshop will focus on developing a set of best practices and guidelines fo
 - Event Dates: October/November 2024 (Exact Date TBD)
 - Location: Orlando, Florida, USA
 - Event Website: [Team Learning for BSSw](https://small0live.github.io/BSSwFWorkshop)
-- Organizers: ???
+- Organizers: Olivia B. Newton, Ph.D., Better Scientific Software Fellow
 
 Event Information | Details
 :--- | :---			   
