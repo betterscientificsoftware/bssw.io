@@ -48,8 +48,7 @@ Early-career individuals and members of groups that have historically been under
 Please refer to the event website for up-to-date information.
 
 <!---
-Publish: no
-Pinned: no
+Publish: yes
 Topics: conferences and workshops, software engineering, Strategies for More Effective Teams
 RSS update: 
 --->
