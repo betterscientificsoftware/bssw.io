@@ -6,7 +6,7 @@ This workshop will focus on developing a set of best practices and guidelines fo
 - Deadline to Submit Position Paper: Friday, September 27, 2024
 - Event Dates: October/November 2024 (Exact Date TBD)
 - Location: Orlando, Florida, USA
-- Event Website: [Team Learning for BSSw](https://small0live.github.io/BSSwFWorkshop)
+- Event Website: https://small0live.github.io/BSSwFWorkshop
 - Organizers: Olivia B. Newton, Ph.D., Better Scientific Software Fellow
 
 Event Information | Details
@@ -14,7 +14,7 @@ Event Information | Details
 Event Name | Team Learning for Better Scientific Software Workshop
 Event Date & Time | October/November 2024 (Exact Date TBD)
 Interest Form | [Qualtrics Survey](https://tinyurl.com/tl4bssw>)
-Website |	[Team Learning for BSSw](https://small0live.github.io/BSSwFWorkshop)
+Website |	https://small0live.github.io/BSSwFWorkshop
 Submission Deadline | Friday, September 27, 2024. Please see event website for deadline updates.
 
 
