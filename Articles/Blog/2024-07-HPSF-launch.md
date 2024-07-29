@@ -1,9 +1,8 @@
 # Launch of the High Performance Software Foundation
-
  
-#### Contributed by [Christian Trott](https://github.com/crtrott)
+#### Contributed by [Christian Trott](https://github.com/crtrott) and [Todd Gamblin](https://github.com/tgamblin)
 
-#### Publication date: July 25, 2024
+#### Publication date: July 29, 2024
 
 <!-- begin deck -->
 At ISC 2024 in Hamburg the High Performance Software Foundation (HPSF) was launched with the goal of supporting key high-performance computing (HPC) software projects.
@@ -63,6 +62,8 @@ Christian Trott is a member of the technical staff at Sandia National Laboratori
 He is a co-lead of the Kokkos Performance Portability project ([https://kokkos.org](https://kokkos.org)), a member of the ISO C++ standard committee, and serves on the governing board of HPSF.
 Christian's leadership of the Kokkos programming model was instrumental in establishing performance portability as a core concept of modern HPC software design.
 On the ISO C++ committee, he led efforts to bring multi-dimensional arrays (C++23) and linear algebra (C++26) into the standard.
+
+Todd Gamblin is a Distinguished Member of Technical Staff at Lawrence Livermore National Laboratory. He created Spack (spack.io), a widely used, open-source package manager for high-performance computing, partially sustained by the PESO project. He is a co-founder of the High Performance Software Foundation (hpsf.io). At LLNL, he works on software and future computing strategy in the Advanced Technology Office in LLNL's Livermore Computing division, and he leads a number of research and development projects focused on software integration.
 
 <!---
 Publish: Yes
