@@ -4,7 +4,8 @@ Explore *The Turing Way*, an online handbook to reproducible, ethical, and colla
 <!--deck text end-->
 
 #### Contributed by [Jed Brown](https://github.com/jedbrown), [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: Jul 6, 2023
+#### Publication date: Jul 10, 2024
+<!-- This article was first published on Jul 6 2023 -->
 
 Resource information | Details
 :--- | :--- 
