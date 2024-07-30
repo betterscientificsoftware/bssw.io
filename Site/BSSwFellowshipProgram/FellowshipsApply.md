@@ -8,7 +8,7 @@ BSSw Fellows receive recognition and funding to be advocates of high-quality sci
 
 <!-- Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSchRIsNEFZlg8RyEAWcKcOStgwqW5UR7S_9TW2dKlbUATid-g/viewform). -->
 
-### Timeline for 2024 BSSw Fellowship Program
+### Timeline for 2025 BSSw Fellowship Program
 
 Applications for the 2025 BSSw Fellowship Program will open August 15, 2024. Please check back for additional information and dates.
 
@@ -55,14 +55,14 @@ Applications for the 2025 BSSw Fellowship Program will open on August 15, 2024; 
 
 <!-- - Tuesday, September 12, 2:00-3:00 pm EDT -->
 
-Applications for the 2025 BSSw Fellowship Program will open on August 15, 2024.
-Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
+Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details about the BSSw Fellowship Program, including telecon information for a Q&A session to take place in September. 
 
 
-### More information, including on-line application
+<!-- ### More information, including on-line application -->
+### More information
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-- [Online Application](https://forms.gle/14X8uWY6asoEPD828) (Submissions open!)
-- <mark>Application deadline: Friday, September 29, 2023</mark>; this is a firm deadline that will not be extended.
+<!-- - [Online Application](https://forms.gle/14X8uWY6asoEPD828) (Submissions open!) -->
+<!-- - <mark>Application deadline: Monday, September 30, 2024</mark>; this is a firm deadline that will not be extended. -->
 
 <br>
 
