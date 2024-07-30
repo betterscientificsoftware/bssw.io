@@ -27,17 +27,18 @@ Beyond this categorical requirement, we are looking for applications from people
 
 We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals, especially those from underrepresented groups, including people who are Black or African American, Hispanic/Latinx, American Indian, Alaska Native, Native Hawaiian, Pacific Islanders, women, persons with disabilities, and first generation scholars.
 
-### 2024 BSSw Fellowships
+### 2025 BSSw Fellowships
 
 <!-- [2024 BSSw Fellowship Application Form](https://forms.gle/14X8uWY6asoEPD828) - Submissions Open! -->
 
-<!-- Applications will open on August 15, 2022 for the 2024 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.-->
+Applications will open on August 15, 2024 for the 2025 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
 
-Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process.
+<!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process. -->
 
 
 ### More Information
 
+- Read about work of the [2023 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2023-bssw-fellows-projects-and-perspectives)
 - Read the [highlights of the 2024 BSSw Fellowship Q&A Session](https://bssw.io/blog_posts/highlighted-topics-from-bssw-fellowship-q-a-session)
 - Read about work of the [2022 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
 - Read about the [2023 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)

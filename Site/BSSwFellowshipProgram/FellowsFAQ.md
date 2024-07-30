@@ -17,7 +17,9 @@ More questions and answers will be added to this page over time; check back for 
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process.
+<!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process. -->
+
+Applications for the 2025 BSSw Fellowship Program will open August 15, 2024. Please check back for additional details.
 
 <!-- **The application deadine for the 2024 BSSw Fellowship Program is Friday, September 29, 2023, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline. -->
 
@@ -65,9 +67,9 @@ Students (undergraduate/graduate) are encouraged to apply for a BSSw Fellowship.
 
 ## Funding Questions
 
-### What is the amount of funding for 2024 BSSw Fellows?
+### What is the amount of funding for 2025 BSSw Fellows?
 
-Each 2024 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
+Each 2025 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 
 ### How are the funds awarded?  When do I submit budget information?
 
@@ -152,7 +154,7 @@ Beyond completing the proposed scope of work, BSSw Fellows are life-long members
 
 <!-- We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2022. -->
 We will encourage fellows to attend a well-known conference with high community visibility.
-This venue for the 2024 Fellowship class is TBD.
+This venue for the 2024 Fellowship class will the [US Research Software Engineer Association Conference](https://us-rse.org/usrse24/), October 15--17 in Albuquerque NM.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
