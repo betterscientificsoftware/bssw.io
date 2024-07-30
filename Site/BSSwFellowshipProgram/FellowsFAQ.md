@@ -4,6 +4,8 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar
 
+We will host a Q&A webinar for the 2025 BSSw Fellowship Program in September; check back for details.  
+ 
 <!-- - **Tuesday, September 12, 2:00-3:00 pm EDT**
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session. -->
 
@@ -19,7 +21,7 @@ More questions and answers will be added to this page over time; check back for 
 ### What is the fellowship application deadline for this year?
 <!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process. -->
 
-Applications for the 2025 BSSw Fellowship Program will open August 15, 2024. Please check back for additional details.
+Applications for the 2025 BSSw Fellowship Program will open August 15, 2024; the submission deadline is September 30, 2024. Please check back for additional details.
 
 <!-- **The application deadine for the 2024 BSSw Fellowship Program is Friday, September 29, 2023, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline. -->
 
