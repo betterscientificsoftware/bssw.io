@@ -61,6 +61,7 @@ Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-d
 <!-- ### More information, including on-line application -->
 ### More information
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
+  
 <!-- - [Online Application](https://forms.gle/14X8uWY6asoEPD828) (Submissions open!) -->
 <!-- - <mark>Application deadline: Monday, September 30, 2024</mark>; this is a firm deadline that will not be extended. -->
 
