@@ -19,7 +19,7 @@ Resource Information | Details
 Webinar Title | Kitware Software Sustainability Matrix
 Date and Time | 2024-08-07 1:00 pm - 2:00 pm EDT
 Presenters | Bill Hoffman (Kitware, Inc.), and Will Schroeder (Kitware, Inc.)
-Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpcbp-0086-softwaresustainability>
+Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpcbp-086-softwaresustainability>
 Presentation Language | English	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event, and all registrants will be notified.**
