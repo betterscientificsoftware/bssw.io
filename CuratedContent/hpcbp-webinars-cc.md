@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2024-06-14*
+*Listed in reverse chronological order. Last updated: 2024-08-05*
+
+- 2024-07-24: [The Journey to STRUDEL: How We Came to Embrace User Experience in Scientific Ecosystems](https://ideas-productivity.org/events/hpcbp-085-userexperience), presented by Lavanya Ramakrishnan (Lawrence Berkeley National Lab)
 
 - 2024-06-12: [Strengthening Development Workflows by Graphically Communicating Elements of Software Design](https://ideas-productivity.org/events/hpcbp-084-communicatingdesign), presented by Rafael Mudafort (National Renewable Energy Laboratory)
 
@@ -197,9 +199,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 - 2016-05-04: [What All Codes Should Do:  Overview of Best Practices in HPC Software Development](https://ideas-productivity.org/events/hpcbp-001-all-codes), presented by Anshu Dubey (Argonne National Laboratory)
 
-#### Contributed by [Osni Marques](https://github.com/oamarques)
+#### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2024-06-14
+#### Publication date: 2024-08-05
 
 <!---
 Publish: yes
