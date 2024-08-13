@@ -73,6 +73,6 @@ Applications will open on August 15, 2024 for the 2025 BSSw Fellowship Program. 
 
 <!--
 Publish: yes
-OpenGraph image: OG_2308_BSSwFellowships_Closed.png
+OpenGraph image: OG_2408_BSSwFellowships.png
 Alias: fellowship
 -->

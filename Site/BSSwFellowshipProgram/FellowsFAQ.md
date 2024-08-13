@@ -191,5 +191,5 @@ The goal of the BSSw organization is to foster a broad, international community 
 
 <!--
 Publish: yes
-OpenGraph image: OG_2308_BSSwFellowships_Closed.png
+OpenGraph image: OG_2408_BSSwFellowships.png
 -->
