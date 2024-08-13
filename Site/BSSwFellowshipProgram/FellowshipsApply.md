@@ -36,9 +36,10 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 #### Proposed work and impact:
 
-- What would you do as a BSSw Fellow? (1000 - 1500 characters).
-- What impact do you foresee from your efforts? (1000 - 1500 characters).
-- Which BSSw focus areas and subtopics apply to your proposed work? Specify all that apply. See https://bssw.io for a list of focus areas and subtopics (e.g., Focus Area: Planning; Subtopic: Requirements).
+- What would you do as a BSSw Fellow? (1500 - 2000 characters).
+- What technical impact do you foresee from your efforts? (1000 - 1500 characters).
+- What broader community impact do you foresee from your efforts? (1000 - 1500 characters).
+- Which BSSw focus areas and subtopics apply to your proposed work? (500 characters). Specify all that apply. See https://bssw.io for a list of focus areas and subtopics (e.g., Focus Area: Planning; Subtopic: Requirements).
 
 **Questions must be answered directly in the fields of the online application form.  Answers provided elsewhere (e.g., GitHub repo) and linked in the application form will not be reviewed.**
 
