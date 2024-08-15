@@ -1,24 +1,24 @@
 # Apply for the BSSw Fellowship Program
 
-<!-- BSSw is currently accepting applications for the 2025 BSSw Fellowship Program. -->
+BSSw is currently accepting applications for the 2025 BSSw Fellowship Program.
 <!-- While applications are now closed for the BSSw Fellowship Program, we encourage you learn about the application process. -->
-Applications for the 2025 BSSw Fellowship Program will open August 15, 2024. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site.
+<!-- Applications for the 2025 BSSw Fellowship Program will open August 15, 2024. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site. -->
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.
 
-<!-- Submissions for the 2024 BSSw Fellowship Program are accepted through the [online application form](https://docs.google.com/forms/d/e/1FAIpQLSchRIsNEFZlg8RyEAWcKcOStgwqW5UR7S_9TW2dKlbUATid-g/viewform). -->
+Submissions for the 2025 BSSw Fellowship Program are accepted through the [online application form](https://ssl.linklings.net/applications/BSSw/).
 
 ### Timeline for 2025 BSSw Fellowship Program
 
-Applications for the 2025 BSSw Fellowship Program will open August 15, 2024. Please check back for additional information and dates.
+<!-- Applications for the 2025 BSSw Fellowship Program will open August 15, 2024. Please check back for additional information and dates. -->
 
 <!-- *Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process.* -->
 
-<!-- - **Tuesday, August 15, 2023**: Fellowship application process opens. -->
-<!-- - **Tuesday, Sept 12, 2:00-3:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!) -->
-<!-- - **Friday, Sept 29, 2023**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended. -->
-<!-- - **December 2023**: Announcement of selection of 2024 BSSw Fellows. -->
-<!-- - **March 1, 2024 – March 31, 2025**: Period of performance for 2024 BSSw Fellows. -->
+- **Thursday, August 15, 2024**: Fellowship application process opens.
+- **Tuesday, Sept 10, 2:00-3:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
+- **Monday, Sept 30, 2024**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
+- **December 2024**: Announcement of selection of 2025 BSSw Fellows.
+- **March 1, 2025 – March 31, 2026**: Period of performance for 2025 BSSw Fellows.
 
 <!-- - **January 17 - 20, 2024**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/). -->
 
@@ -36,34 +36,35 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 #### Proposed work and impact:
 
-- What would you do as a BSSw Fellow? (1000 - 1500 characters).
-- What impact do you foresee from your efforts? (1000 - 1500 characters).
-- Which BSSw focus areas and subtopics apply to your proposed work? Specify all that apply. See https://bssw.io for a list of focus areas and subtopics (e.g., Focus Area: Planning; Subtopic: Requirements).
+- What would you do as a BSSw Fellow? (1500 - 2000 characters).
+- What technical impact do you foresee from your efforts? (1000 - 1500 characters).
+- What broader community impact do you foresee from your efforts? (1000 - 1500 characters).
+- Which BSSw focus areas and subtopics apply to your proposed work? (500 characters). Specify all that apply. See https://bssw.io for a list of focus areas and subtopics (e.g., Focus Area: Planning; Subtopic: Requirements).
 
 **Questions must be answered directly in the fields of the online application form.  Answers provided elsewhere (e.g., GitHub repo) and linked in the application form will not be reviewed.**
 
 ### Applications for the BSSw Fellowship Program
 
-Applications for the 2025 BSSw Fellowship Program will open on August 15, 2024; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
+<!-- Applications for the 2025 BSSw Fellowship Program will open on August 15, 2024; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
 <!-- Applications are closed for the 2024 BSSw Fellowship Program.  Please check back for information about the 2025 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
-<!-- Applications are now being accepted for the 2024 BSSw Fellowship Program.  Submissions for the 2024 BSSw Fellowship Program are accepted through the [**online application form**](https://forms.gle/14X8uWY6asoEPD828). -->
+Applications are now being accepted for the 2025 BSSw Fellowship Program.  Submissions for the 2025 BSSw Fellowship Program are accepted through the [**online application form**](https://ssl.linklings.net/applications/BSSw/).
 
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
-<!-- - Tuesday, September 12, 2:00-3:00 pm EDT -->
+- Tuesday, September 10, 2:00-3:00 pm EDT
 
-Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details about the BSSw Fellowship Program, including telecon information for a Q&A session to take place in September. 
+Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details about the BSSw Fellowship Program, including telecon information for a Q&A session to take place in September.
 
 
 <!-- ### More information, including on-line application -->
 ### More information
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-  
-<!-- - [Online Application](https://forms.gle/14X8uWY6asoEPD828) (Submissions open!) -->
-<!-- - <mark>Application deadline: Monday, September 30, 2024</mark>; this is a firm deadline that will not be extended. -->
+
+- [Online Application](https://ssl.linklings.net/applications/BSSw/) (Submissions open!)
+- <mark>Application deadline: Monday, September 30, 2024</mark>; this is a firm deadline that will not be extended.
 
 <br>
 
@@ -81,5 +82,5 @@ Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-d
 
 <!--
 Publish: yes
-OpenGraph image: OG_2308_BSSwFellowships_Closed.png
+OpenGraph image: OG_2408_BSSwFellowships.png
 -->
