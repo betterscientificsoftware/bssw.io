@@ -6,7 +6,7 @@ The Better Scientific Software (BSSw) Fellowship Program gives recognition and f
 
 The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.  We also anticipate accumulating a growing community of BSSw Fellowship alums who can serve as leaders, mentors, and consultants to increase the visibility of those involved in scientific software production and sustainability in the pursuit of scientific discovery.
 
-**BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software through a publicly available artifact.  We select at least three Fellows per year and honorable mentions as appropriate.  Each 2024 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.**
+**BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software through a publicly available artifact.  <!-- We select at least three Fellows per year and honorable mentions as appropriate. -->  Each 2025 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.**
 Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community, including broadening participation or promoting diversity, equity, and inclusion.
 
 BSSw Fellows receive funds through their respective institution for one year.  We encourage BSSw Fellows to continue to serve the scientific software community as alums by helping select future classes of Fellows and providing leadership in their communities.
@@ -29,9 +29,9 @@ We encourage applicants at all career stages, ranging from students through earl
 
 ### 2025 BSSw Fellowships
 
-<!-- [2024 BSSw Fellowship Application Form](https://forms.gle/14X8uWY6asoEPD828) - Submissions Open! -->
+[2025 BSSw Fellowship Application Form](https://ssl.linklings.net/applications/BSSw/) - Submissions Open!
 
-Applications will open on August 15, 2024 for the 2025 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
+<!-- Applications will open on August 15, 2024 for the 2025 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
 <!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process. -->
 
@@ -73,6 +73,6 @@ Applications will open on August 15, 2024 for the 2025 BSSw Fellowship Program. 
 
 <!--
 Publish: yes
-OpenGraph image: OG_2308_BSSwFellowships_Closed.png
+OpenGraph image: OG_2408_BSSwFellowships.png
 Alias: fellowship
 -->
