@@ -10,14 +10,14 @@ Addressing scientific software challenges magnified by rapidly changing computin
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) provides recognition and funding for leaders and advocates of high-quality scientific software who foster practices, processes, and tools to improve scientific software productivity and sustainability.
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity which promotes better scientific software through a publicly available artifact.
-We select at least three Fellows per year and honorable mentions as appropriate.
+<!-- We select at least three Fellows per year and honorable mentions as appropriate. -->
 Each 2025 BSSw Fellow will receive up to $25,000 for their proposed activity.
 Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community, including broadening participation or promoting diversity, equity, and inclusion.
-[Applications are now being accepted for the 2024 BSSw Fellowship](https://bssw.io/pages/apply-for-the-bssw-fellowship-program).
+[Applications are now being accepted for the 2025 BSSw Fellowship](https://bssw.io/pages/apply-for-the-bssw-fellowship-program).
 
 <br>
 
-<img src='../../images/Blog_2308_Fellows.png'/>
+<img src='../../images/OG_2408_BSSwFellowships.png'/>
 
 <br>
 
