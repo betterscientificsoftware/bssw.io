@@ -9,8 +9,8 @@ Slide2 L: ../Articles/Blog/2024-07-HPSF-launch.md
 Slide2 R: ../CuratedContent/WordsMatter.md
 Slide3 L: ../CuratedContent/TuringWay.md 
 Slide3 R: ../Events/2024-08-llnl-hpc-tutorials.md
-Slide4 L: ../Events/hpcbp-0086-softwaresustainability.md
-Slide4 R: ../Events/2024BSSwF_team-learning-workshop.md
+Slide4 L: ../Events/2024BSSwF_team-learning-workshop.md
+Slide4 R: ../Events/hpcbp-087-vtkm.md
 --->
 
 <!---
