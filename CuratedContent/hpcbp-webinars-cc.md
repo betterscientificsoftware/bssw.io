@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2024-08-05*
+*Listed in reverse chronological order. Last updated: 2024-08-16*
+
+- 2024-08-07: [Kitware Software Sustainability Matrix](https://ideas-productivity.org/events/hpcbp-086-softwaresustainability), presented by Bill Hoffman (Kitware, Inc.), and Will Schroeder (Kitware, Inc.)
 
 - 2024-07-24: [The Journey to STRUDEL: How We Came to Embrace User Experience in Scientific Ecosystems](https://ideas-productivity.org/events/hpcbp-085-userexperience), presented by Lavanya Ramakrishnan (Lawrence Berkeley National Lab)
 
@@ -201,7 +203,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2024-08-05
+#### Publication date: 2024-08-16
 
 <!---
 Publish: yes
