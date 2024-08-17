@@ -73,8 +73,8 @@ presentations will be notified by November 25, 2024.
 ### Agenda
 
 The exact agenda for the workshop will depend on the number and quality of
-abstracts received. The organizers anticipate the following rough outline (will
-be updated as the workshop approaches).
+abstracts received. The organizers anticipate the agenda rough draft below.
+For the most up to date agenda information, please follow links to the event website.
 
 | Time (CST)  | Title                                | Speaker (Affiliation)  |
 | ----------- | ------------------------------------ | ---------------------- |
