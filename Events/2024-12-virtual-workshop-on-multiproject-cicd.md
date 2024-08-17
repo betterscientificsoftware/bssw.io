@@ -67,7 +67,7 @@ community resource.
 
 If you are interested in contributing a presentation, simply provide an abstract
 when registering. Depending on the number of abstracts received the organizers
-may need to down-select. Participants whose abstracts are selected for
+may need to downselect. Participants whose abstracts are selected for
 presentation will be notified by November 25, 2024.
 
 ### Agenda
