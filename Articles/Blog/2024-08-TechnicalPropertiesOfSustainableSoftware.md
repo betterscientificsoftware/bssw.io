@@ -68,7 +68,7 @@ Has a clear documented core domain model (which is represented in the code or a 
 Need document is needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
 * **Portable, well-documented, robust tests that demonstrate and protect the important behaviors of the software**:
-These tests should give the key use cases and embody the requirements of the code and not be just simple no-change regression tests [???].
+These tests should give the key use cases and embody the requirements of the code and not be just simple no-change regression tests<sup>[e2s-book-2016]</sup>
 It must be made clear how to run these tests and ensure they pass or fail.
 The reason for why a test passes or fails must be obvious from the output of the test without having to open a debugger or add extra print statements.
 These tests can take the place of a lot of documentation that one would otherwise need to write and such tests are, in a way, better than more standard documentation since automated tests are always checked after every change where standard documentation cannot.
@@ -120,7 +120,7 @@ While this article as been focused on the technical properties of the software i
 * Continuously refactor the code while adding new features and fixing bugs to maintain or improve the code and other good code properties.
 
 **Testing Practices:**
-* Favor verification and acceptance tests over no-change regression tests (???reference???).
+* Favor verification and acceptance tests over no-change regression tests<sup>[se2s-book-2016]</sup>.
 * Use acceptance-test driven development (ATDD) and unit-test driven development (TDD) (because these tend to lead to better tests with better code coverage and better feature coverage than tests that get written after the code is written).
 * Invest is making tests run as fast as possible (expensive tests are a significant form of technical debt to a software project).
 
@@ -140,9 +140,11 @@ In identifying these desirable technical properties, projects can structure deve
 
 <!--- ToDos:
 
-* Mention pulls (user demand, unique features, not easy to duplicate, little-to-no competition, high surface areas interaction with the code,...) and pushes for software sustainability
+* Mention pulls (user demand, unique features, not easy to duplicate, little-to-no competition, high surface areas interaction with the code,...) and pushes for software sustainability?  => May not have room for this.  Article is already too long!
 
-* Fast build and test runtimes that allow using free services like GitHub Actions and GitLab CI is a huge bonus.  (Expense jobs massively complicates the sustainability
+* Run wikize_refs.py ...
+
+* Do detailed editing with Grammarly.com ...
 
 --->
 
@@ -164,6 +166,6 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 
 <!---
 Publish: Yes
-Track: ???
-Topics: ???
+Track: Deep Dive
+Topics: Software sustainability
 --->
