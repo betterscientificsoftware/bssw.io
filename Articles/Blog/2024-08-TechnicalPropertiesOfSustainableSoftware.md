@@ -10,6 +10,8 @@ While there are many different enablers or obstacles to software sustainability,
 
 While some authors have looked at software sustainability from mostly institutional and social perspectives (e.g. "Software sustainability - lessons learned from different disciplines"), here, we consider key technical properties of the software itself that helps to improve sustainability and some development practices that aid in the creation and maintenance of technically sustainable software.
 
+<img src='../../images/2024-08-TechnicalPropertiesOfSustainableSoftware-hero-image.jpg' class='page'/>
+
 
 ### Definitions of Sustainable Software
 
