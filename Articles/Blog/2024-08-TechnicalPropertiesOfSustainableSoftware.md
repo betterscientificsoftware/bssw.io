@@ -142,8 +142,6 @@ In identifying these desirable technical properties, projects can structure deve
 
 * Mention pulls (user demand, unique features, not easy to duplicate, little-to-no competition, high surface areas interaction with the code,...) and pushes for software sustainability?  => May not have room for this.  Article is already too long!
 
-* Run wikize_refs.py ...
-
 * Do detailed editing with Grammarly.com ...
 
 --->
@@ -179,7 +177,7 @@ Topics: Software sustainability
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[BSSw: Software Sustainability](https://bssw.io/items?topic=software-sustainability)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[BSSw: What is Software Sustainability?](https://bssw.io/items/what-is-software-sustainability)
-* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability<br>Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016](https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju)
-* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Software Sustainability — Lessons Learned from Different Disciplines<br>Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018](https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[BSSw: Software Sustainability](https://bssw.io/items?topic=software-sustainability)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[BSSw: What is Software Sustainability?](https://bssw.io/items/what-is-software-sustainability)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability<br>Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016](https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Software Sustainability — Lessons Learned from Different Disciplines<br>Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018](https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines)
