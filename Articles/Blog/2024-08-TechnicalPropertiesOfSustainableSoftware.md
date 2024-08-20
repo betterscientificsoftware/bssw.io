@@ -68,7 +68,7 @@ Has a clear documented core domain model (which is represented in the code or a 
 Need document is needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
 * **Portable, well-documented, robust tests that demonstrate and protect the important behaviors of the software**:
-These tests should give the key use cases and embody the requirements of the code and not be just simple no-change regression tests<sup>[e2s-book-2016]</sup>
+These tests should give the key use cases and embody the requirements of the code and not be just simple no-change regression tests.<sup>[se2s-book-2016]</sup>
 It must be made clear how to run these tests and ensure they pass or fail.
 The reason for why a test passes or fails must be obvious from the output of the test without having to open a debugger or add extra print statements.
 These tests can take the place of a lot of documentation that one would otherwise need to write and such tests are, in a way, better than more standard documentation since automated tests are always checked after every change where standard documentation cannot.
@@ -120,7 +120,7 @@ While this article as been focused on the technical properties of the software i
 * Continuously refactor the code while adding new features and fixing bugs to maintain or improve the code and other good code properties.
 
 **Testing Practices:**
-* Favor verification and acceptance tests over no-change regression tests<sup>[se2s-book-2016]</sup>.
+* Favor verification and acceptance tests over no-change regression tests.<sup>[se2s-book-2016]</sup>
 * Use acceptance-test driven development (ATDD) and unit-test driven development (TDD) (because these tend to lead to better tests with better code coverage and better feature coverage than tests that get written after the code is written).
 * Invest is making tests run as fast as possible (expensive tests are a significant form of technical debt to a software project).
 
@@ -168,6 +168,6 @@ Topics: Software sustainability
 
 [bssw-whatis-ss]: https://bssw.io/items/what-is-software-sustainability "BSSw: What is Software Sustainability?"
 
-[se2s-book-2016]: https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju "'Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability' in 'Software Engineering for Science' {Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. November 3, 2016}"
+[se2s-book-2016]: https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju "Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability{Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016}"
 
 [ssi-ss-2018]: https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines "Software Sustainability — Lessons Learned from Different Disciplines {Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018}"
