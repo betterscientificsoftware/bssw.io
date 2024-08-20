@@ -29,28 +29,23 @@ and:
 
 > Sustainability is a measure of the cost to maintain and improve a product over its lifetime.
 
-This article will focus on reducing the "cost to maintain and improve" software over time and on software's technical properties that enable sustainability.
+With this latter cost/feasibility focus in mind, we define three different **Levels of Sustainable Software**:
 
-With this latter cost/feasibility focus in mind, we define different levels of **Technically Sustainable Software**:
+* **Weak Definition**: The same team of developers that originally created the software can continue to add new features and fix bugs in the software at a reasonable cost (i.e., where starting from scratch would be more expensive, even in the long term).
 
-* **Weak Definition of Sustainable Software**: The same team of developers that originally created the software can continue to add new features and fix bugs in the software at a reasonable cost (i.e., where starting from scratch would be more expensive, even in the long term).
+* **Medium Definition**: New developers can reasonably make contributions to the software but these contributions are integrated back by the original development team.
 
-* **Medium Definition of Sustainable Software**: New developers can reasonably make contributions to the software but these contributions are integrated back by the original development team.
+* **Strong Definition**: A different set of developers from the original developers can take over new feature development and bug fixes, and the original developers can go away (and the new team can do so cheaper than starting over from scratch).
 
-* **Strong Definition of Sustainable Software**: A different set of developers from the original developers can take over new feature development and bug fixes, and the original developers can go away (and the new team can do so cheaper than starting over from scratch).
-
-The ultimate instance of the "Strong Definition" is  the **Extreme uses case for Sustainable software**:
+The ultimate instance of the "Strong Definition" is  the **Extreme Use Case for Sustainable Software**:
 Your project uses some external software Package X in such a way that it would be very difficult and expensive to rip it out and/or change the code to use something else.
 At some point, the developers of Package X go away, and no one is left in the development community to help extend or support Package X.
 What technical properties of Package X would make it so that you could continue support (with reasonable cost and risk) your own project's usage of Package X, which includes activities like adding some new features, porting to new platforms and compilers, and fixing bugs (i.e., that may be exposed by adding new features and porting to new platforms and upgrading upstream dependencies)?
 
-Software that satisfies the key technical properties listed below would tend to meet the Strong Definition of Sustainable Software and enable the extreme use case for software sustainability described above.
-Smaller or extremely well-structured software packages that possess these technical properties could be said to be **Self-Sustaining Software** since such software does not need a dedicated team to sustain it for your (limited) continued usage.  You could sufficiently sustain it yourself. 
-
 
 ### Key Technical Properties of Sustainable Software
 
-The following technical properties have been widely recognized to lead to software that less expensive to maintain according the above definition(s) of sustainable software.
+The following technical properties have been widely recognized to lead to software that less expensive to extend and maintain (and is therefore more sustainable).
 
 **Open Source License**:
 Allow the user to change and use the software in any way that is needed for the success of their projects.
@@ -82,26 +77,27 @@ Properties of clean code include self-documenting code, other minimal necessary 
 **Fast building code and fast running test suite**:
 An important aspect of sustainable software that is often overlooked is the computational overhead needed to build the software and tests and then run the test suite.
 A software package that requires significant computational resources to test the code after any change represents a huge technical debt that must be carried around by future maintainers and sponsors of the software package.
-Alternatively, software that builds relatively quickly and where the tests can be run in less time can take advantage of free cloud continuous testing services.
+Alternatively, software that builds relatively quickly and where the tests can be run in less time can often take advantage of free cloud continuous testing services.
 (For example, at the time of this writing, services like GitHub Actions and GitLab CI provide free cloud computing cycles to test software projects on these platforms with various limits on the computational loads supported.)
 However, software that is very computationally expensive to build and test or requires special hardware (like GPUs) can impose a huge burden on its sustainability in the need to procure, set up, and maintain the computing resources and DevOps infrastructure needed to utilize them.
 
 **Well-defined and well-regulated internal and external dependencies**:
-Reuse and sustainability are greatly aided by minimizing external dependencies and having well-structured internal dependencies of the software package itself established using good design and build modularity.
-For example, even if your project only depends on small piece of a large software package, if that smaller piece cannot easily be targeted and extracted, then you may be stuck having to configure and build a large amount of software as you port to new platforms and perform other maintence tasks.
-The less code you have to configure and build, the easier it will be to modify.
+Reuse and sustainability are greatly aided by minimizing external dependencies and having well-structured internal dependencies within the software package itself (established using good design and build modularity).
+For example, even if your project only depends on small piece of a large external software package, if that smaller piece cannot easily be targeted and extracted, then you may be stuck having to configure and build a large amount of software as you port to new platforms and perform other maintenance tasks.
+The less code you have to configure and build, the easier it will be to sustain if needed.
 
 **All upstream dependencies are also sustainable software**:
-If any of the upstream dependencies of a software package do not also have these key technical properties of sustainable software, then the downstream packages cannot be sustainable either.
+If any of the upstream dependencies of a software package do not also have these key technical properties of sustainable software, then the downstream dependent packages cannot be sustainable.
 (A chain is only as strong as its weakest link.)
-This recursive requirement only stops at standard tools like standard compilers and other ubiquitous tools and libraries that are guaranteed to be sustained and supported over the long term.
-This requirement is also another motivation for minimizing external dependencies.
+This recursive requirement only stops at standard tools like major compilers and other ubiquitous tools and libraries that are guaranteed to be sustained and supported over the long term.
+(This requirement is also another motivation for minimizing external dependencies.)
 
-These technical requirements for sustainable software are quite strict and difficult to achieve for many software projects.
-But the rewards of doing so can be substantial.
+Software that satisfies key technical properties listed above would tend to meet the Strong Definition of sustainable software defined above.
+In addition, smaller (or extremely well-structured) software packages that possess these technical properties could be considered **Self-Sustaining Software** since such software does not need a dedicated team to sustain it for your (limited) continued usage.
+(If needed, you could sustain such a package yourself for your usage at a reasonable cost.)
 
 
-### Some key practices for creating and maintaining sustainable software
+### Some Key Practices for Creating and Maintaining Sustainable Software
 
 While this article has focused on the technical properties of the software itself, there are key practices that can aid in the creation and maintenance of sustainable software that possess these technical properties.
 
@@ -114,7 +110,7 @@ While this article has focused on the technical properties of the software itsel
 * Create well-structured and well-documented version control (i.e. Git) commits and commit messages for every change to the software, describing why the change was made and point to any requirements-related documentation (e.g., issue trackers).
 
 **Clean Understandable Code Practices:**
-* Favor languages that are more widely known and/or well supported over confusing or less well-known languages.
+* Favor languages that are more widely known and/or well-supported over languages that are more confusing and/or less well-known.
 * Use domain-driven design for the key interfaces and implementation details. [???]
 * Strive for self-documenting code (i.e., reduce the need for extra documentation that typically does not get maintained).
 * Reduce or eliminate code duplication.
