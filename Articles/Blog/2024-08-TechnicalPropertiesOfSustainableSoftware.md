@@ -149,17 +149,6 @@ In identifying these desirable technical properties, projects can structure deve
 --->
 
 
-<!--- References --->
-
-[bssw-ss]: https://bssw.io/items?topic=software-sustainability "BSSw: Software Sustainability"
-
-[bssw-whatis-ss]: https://bssw.io/items/what-is-software-sustainability "BSSw: What is Software Sustainability?"
-
-[se2s-book-2016]: https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju "'Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability' in 'Software Engineering for Science' {Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. November 3, 2016}"
-
-[ssi-ss-2018]: https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines "Software Sustainability — Lessons Learned from Different Disciplines {Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018}"
-
-
 ### Author bio
 
 Roscoe A. Bartlett earned his PhD in chemical engineering from Carnegie Mellon University researching numerical approaches for solving large-scale constrained optimization problems applied to chemical process engineering.
@@ -171,3 +160,14 @@ Publish: Yes
 Track: Deep Dive
 Topics: Software sustainability
 --->
+
+
+<!--- References --->
+
+[bssw-ss]: https://bssw.io/items?topic=software-sustainability "BSSw: Software Sustainability"
+
+[bssw-whatis-ss]: https://bssw.io/items/what-is-software-sustainability "BSSw: What is Software Sustainability?"
+
+[se2s-book-2016]: https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju "'Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability' in 'Software Engineering for Science' {Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. November 3, 2016}"
+
+[ssi-ss-2018]: https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines "Software Sustainability — Lessons Learned from Different Disciplines {Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018}"
