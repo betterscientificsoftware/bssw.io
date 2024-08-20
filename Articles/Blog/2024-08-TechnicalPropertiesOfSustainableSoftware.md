@@ -67,7 +67,7 @@ What requirements went into the development of the software?
 Has a clear documented core domain model (which is represented in the code or a clear documented mapping of the domain model to software) been given? [???]
 This document and model is needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
-* **Portable, well-documented, robust tests**:
+**Portable, well-documented, robust tests**:
 that demonstrate and protect the important behaviors of the software
 These tests should give the key use cases and embody the requirements of the code that demonstrate and protect the important behaviors of the software
 These should not just be simple no-change regression tests that don't actually reveal the intent of the software.<sup>[3]</sup>
@@ -91,7 +91,7 @@ Reuse and sustainability are greatly aided by minimizing external dependencies a
 For example, even if your project only depends on small piece of a large software package, if that smaller piece cannot easily be targeted and extracted, then you may be stuck having to configure and build a large amount of software as you port to new platforms and perform other maintence tasks.
 The less code you have to configure and build, the easier it will be to modify.
 
-* **All upstream dependencies are also sustainable software**:
+**All upstream dependencies are also sustainable software**:
 If any of the upstream dependencies of a software package do not also have these key technical properties of sustainable software, then the downstream packages cannot be sustainable either.
 (A chain is only as strong as its weakest link.)
 This recursive requirement only stops at standard tools like standard compilers and other ubiquitous tools and libraries that are guaranteed to be sustained and supported over the long term.
