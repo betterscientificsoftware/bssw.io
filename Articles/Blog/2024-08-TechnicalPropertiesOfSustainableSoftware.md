@@ -8,7 +8,7 @@
 While there are many different enablers or obstacles to software sustainability, arguably, some of the most important are related to the technical properties of the software itself, independent of any individual developer, development team, user community, or funding source.
 <!-- end deck -->
 
-While some authors have looked at software sustainability from mostly institutional and social perspectives<sup>[ssi-ss-2018]</sup>, here, we consider key technical properties of the software itself that helps to improve sustainability and some development practices that aid in the creation and maintenance of sustainable software.
+While some authors have looked at software sustainability from mostly institutional and social perspectives<sup>[4]</sup>, here, we consider key technical properties of the software itself that helps to improve sustainability and some development practices that aid in the creation and maintenance of sustainable software.
 
 <img src='../../images/2024-08-TechnicalPropertiesOfSustainableSoftware-hero-image.jpg' class='page'/>
 
@@ -16,12 +16,12 @@ While some authors have looked at software sustainability from mostly institutio
 ### Definitions of Sustainable Software
 
 There are various definitions of "software sustainability" in usage in the software development community.
-The Better Scientific Software (BSSw.io) community defines software sustainability as<sup>[bssw-ss]</sup>:
+The Better Scientific Software (BSSw.io) community defines software sustainability as<sup>[1]</sup>:
 
 > The ability of software to continue or evolve.
 > Considerations are often different when viewed from different perspectives (user, developer, manager, funder), but generally relates to resources to maintain or evolve the code, adaptability of the codebase to new uses and new computational platforms.
 
-and as<sup>[bssw-whatis-ss]</sup>:
+and as<sup>[2]</sup>:
 
 > Sustainable software means that an existing product remains viable in the future such that it makes sense to continue using, adapting, and expanding its capabilities instead of replacing it with another new or existing product.
 
@@ -68,7 +68,7 @@ Has a clear documented core domain model (which is represented in the code or a 
 Need document is needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
 * **Portable, well-documented, robust tests that demonstrate and protect the important behaviors of the software**:
-These tests should give the key use cases and embody the requirements of the code and not be just simple no-change regression tests.<sup>[se2s-book-2016]</sup>
+These tests should give the key use cases and embody the requirements of the code and not be just simple no-change regression tests.<sup>[3]</sup>
 It must be made clear how to run these tests and ensure they pass or fail.
 The reason for why a test passes or fails must be obvious from the output of the test without having to open a debugger or add extra print statements.
 These tests can take the place of a lot of documentation that one would otherwise need to write and such tests are, in a way, better than more standard documentation since automated tests are always checked after every change where standard documentation cannot.
@@ -120,7 +120,7 @@ While this article as been focused on the technical properties of the software i
 * Continuously refactor the code while adding new features and fixing bugs to maintain or improve the code and other good code properties.
 
 **Testing Practices:**
-* Favor verification and acceptance tests over no-change regression tests.<sup>[se2s-book-2016]</sup>
+* Favor verification and acceptance tests over no-change regression tests.<sup>[3]</sup>
 * Use acceptance-test driven development (ATDD) and unit-test driven development (TDD) (because these tend to lead to better tests with better code coverage and better feature coverage than tests that get written after the code is written).
 * Invest is making tests run as fast as possible (expensive tests are a significant form of technical debt to a software project).
 
@@ -164,10 +164,22 @@ Topics: Software sustainability
 
 <!--- References --->
 
-[bssw-ss]: https://bssw.io/items?topic=software-sustainability "BSSw: Software Sustainability"
+[bssw-ss-sfer-ezikiw]: https://bssw.io/items?topic=software-sustainability "BSSw: Software Sustainability"
 
-[bssw-whatis-ss]: https://bssw.io/items/what-is-software-sustainability "BSSw: What is Software Sustainability?"
+[bssw-whatis-ss-sfer-ezikiw]: https://bssw.io/items/what-is-software-sustainability "BSSw: What is Software Sustainability?"
 
-[se2s-book-2016]: https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju "Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability{Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016}"
+[se2s-book-2016-sfer-ezikiw]: https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju "Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability{Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016}"
 
-[ssi-ss-2018]: https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines "Software Sustainability — Lessons Learned from Different Disciplines {Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018}"
+[ssi-ss-2018-sfer-ezikiw]: https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines "Software Sustainability — Lessons Learned from Different Disciplines {Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018}"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "BSSw: Software Sustainability"
+[2]: #sfer-ezikiw-2 "BSSw: What is Software Sustainability?"
+[3]: #sfer-ezikiw-3 "Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability"
+[4]: #sfer-ezikiw-4 "Software Sustainability — Lessons Learned from Different Disciplines"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[BSSw: Software Sustainability](https://bssw.io/items?topic=software-sustainability)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[BSSw: What is Software Sustainability?](https://bssw.io/items/what-is-software-sustainability)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability<br>Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016](https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Software Sustainability — Lessons Learned from Different Disciplines<br>Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018](https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines)
