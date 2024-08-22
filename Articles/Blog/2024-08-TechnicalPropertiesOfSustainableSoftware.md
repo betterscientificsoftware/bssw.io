@@ -59,7 +59,7 @@ What requirements went into the development of the software?
 (Might some of those requirements and features no longer be necessary for future versions of the software which would allow breaking some backward compatibility?)
 
 **Core domain model distillation document**:
-Has a clear documented core domain model (which is represented in the code or a clear documented mapping of the domain model to software) been given? [???]
+Has a clear documented core domain model (which is represented in the code or a clear documented mapping of the domain model to software) been given?<sup>[5]</sup>
 This document and model is needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
 **Portable, well-documented, robust tests**:
@@ -72,7 +72,7 @@ Quality tests like these can take the place of a lot of documentation that one w
 These tests are needed to safely change or port the software and to understand the intended behavior of the software to support future usage or changes.
 
 **Clean, logical, and understandable code interfaces and implementation**:
-Properties of clean code include self-documenting code, other minimal necessary internal and external documentation, elimination of duplication, other well-known design and implementation principles. [???]
+Properties of clean code include self-documenting code, other minimal necessary internal and external documentation, elimination of duplication, other well-known design and implementation principles.<sup>[6],[7]</sup>
 
 **Fast building code and fast running test suite**:
 An important aspect of sustainable software that is often overlooked is the computational overhead needed to build the software and tests and then run the test suite.
@@ -99,7 +99,7 @@ In addition, smaller (or extremely well-structured) software packages that posse
 
 ### Some Key Practices for Creating and Maintaining Sustainable Software
 
-While this article has focused on the technical properties of the software itself, there are key practices that can aid in the creation and maintenance of sustainable software that possess these technical properties.
+While this article has focused on the technical properties of the software itself, there are key practices that can aid in the creation and maintenance of sustainable software that possess these technical properties.<sup>[6],[7]</sup>
 
 **Development and Collaboration Workflows Practices:**
 * For shared development, use a distributed version control tool (e.g. Git) to manage the source and use appropriate development and integration workflows according to well-established idioms appropriate for your project.
@@ -111,7 +111,7 @@ While this article has focused on the technical properties of the software itsel
 
 **Clean Understandable Code Practices:**
 * Favor languages that are more widely known and/or well-supported over languages that are more confusing and/or less well-known.
-* Use domain-driven design for the key interfaces and implementation details. [???]
+* Use domain-driven design for the key interfaces and implementation details.<sup>[5]</sup>
 * Strive for self-documenting code (i.e., reduce the need for extra documentation that typically does not get maintained).
 * Reduce or eliminate code duplication.
 * Reduce software complexity (e.g. deeply nested control structures, deep inheritance hierarchies)
@@ -167,11 +167,15 @@ Topics: Software sustainability
 [se2s-book-2016-sfer-ezikiw]: https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju "Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability{Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016}"
 
 [ssi-ss-2018-sfer-ezikiw]: https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines "Software Sustainability — Lessons Learned from Different Disciplines {Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018}"
+
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "BSSw: Software Sustainability"
 [2]: #sfer-ezikiw-2 "BSSw: What is Software Sustainability?"
 [3]: #sfer-ezikiw-3 "Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability"
 [4]: #sfer-ezikiw-4 "Software Sustainability — Lessons Learned from Different Disciplines"
+[5]: #sfer-ezikiw-5 "Domain Driven Design"
+[6]: #sfer-ezikiw-6 "Clean Code"
+[7]: #sfer-ezikiw-7 "Code Complete: 2nd Edition"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
@@ -179,3 +183,6 @@ Topics: Software sustainability
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[BSSw: What is Software Sustainability?](https://bssw.io/items/what-is-software-sustainability)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability<br>Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016](https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[Software Sustainability — Lessons Learned from Different Disciplines<br>Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018](https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Domain Driven Design<br>Eric Evans, Addison Wesley, 2004](https://martinfowler.com/bliki/DomainDrivenDesign.html)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Clean Code - A Handbook of Agile Software Craftsmanship<br>Robert Martin, Prentice Hall, 2009, ISBN-13: 978-0-13-235088-4, ISBN-10: 0-13-235088-2](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Code Complete: Second Edition: A Practical Handbook of Software Construction<br>Steve McConnell, 2009, ISBN: 9780735619678](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
