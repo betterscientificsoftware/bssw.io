@@ -116,6 +116,7 @@ While this article has focused on the technical properties of the software itsel
 * Reduce or eliminate code duplication.
 * Reduce software complexity (e.g. deeply nested control structures, deep inheritance hierarchies)
 * Continuously refactor the code while adding new features and fixing bugs to maintain or improve the code, tests, and documentation.
+* Have all changes to the code, tests, or documentation reviewed by at least on other developer.
 
 **Testing Practices:**
 * Favor verification and acceptance tests over no-change regression tests.<sup>[3]</sup>
