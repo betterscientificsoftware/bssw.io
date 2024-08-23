@@ -99,6 +99,6 @@ Track: how to
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Working Effectively with Legacy Code<br>Michael Feathers. Prentice Hall, 2005](https://bssw.io/items/working-effectively-with-legacy-code)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Test Driven Development<br>Kent Beck, Addison-Wesley Professional, 2003, ISBN: 0321146530](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
-* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Code Complete: Second Edition}](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Working Effectively with Legacy Code<br>Michael Feathers. Prentice Hall, 2005](https://bssw.io/items/working-effectively-with-legacy-code)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Test Driven Development<br>Kent Beck, Addison-Wesley Professional, 2003, ISBN: 0321146530](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Code Complete: Second Edition}](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
