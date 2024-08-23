@@ -37,12 +37,12 @@ First read the document *[What Are Software Testing Practices?](./UnderstandingS
     1. Select inputs for several important problem classes and run code to produce outputs.
     1. Set up no-change or verification tests with a system-level test harness in order to pin down important behavior.
 4. **Add integration and unit tests** (as needed for adding/changing code)
-    1. **Incorporate test** [1, 2] **for code to be changed**
+    1. **Incorporate tests for code to be changed**<sup>[1]</sup>
         * **Identify change points** for target change or new code
         * **Find test points** where code behavior can be sensed.
         * **Break dependencies** in order to get the targeted code into the unit test harness.
         * **Cover targeted code** to be changed with sufficient (characterization) tests.
-    2. **Add new features or fix bugs with tests** [1, 2, 3, 4]
+    2. **Add new features or fix bugs with tests**<sup>[1],[2],[3]</sup>
         * **Add new tests** that define desired behavior (feature or bug).
         * Run new tests and **verify they fail**.
         * Add the minimal code to **get new tests to pass**.
@@ -75,18 +75,11 @@ If all tests pass, then your changes could be breaking them (easy).
 
 ToDos:
 
-* Switch to wikize-refs.py format ...
-
 * Improve the deck text ...
 
 --->
 
-### References:
-
-1. [Working Effectively with Legacy Code. Prentice Hall](https://www.oreilly.com/library/view/working-effectively-with/0131177052/), Michael Feathers, 2005.
-2. [Legacy Software Change Algorithm](https://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm).
-3. [Test Driven Development](https://www.oreilly.com/library/view/test-driven-development/0321146530/), Kent Beck, 2003.
-4. [Code Complete (Second Edition)](https://www.microsoftpressstore.com/store/code-complete-9780735619678), Steve McConnell, 2004.
+<!--- References --->
 
 <!---
 Publish: yes
@@ -94,4 +87,8 @@ Pinned: no
 Topics: Testing
 Track: how to
 --->
+
+[1]: https://bssw.io/items/working-effectively-with-legacy-code "Working Effectively with Legacy Code {Michael Feathers. Prentice Hall, 2005}"
+[2]: https://www.oreilly.com/library/view/test-driven-development/0321146530/ "Test Driven Development {Kent Beck, Addison-Wesley Professional, 2003, ISBN: 0321146530}"
+[3]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete: Second Edition}"
 
