@@ -30,7 +30,7 @@ First read the document *[What Are Software Testing Practices?](./UnderstandingS
 
 1. Set up **automated builds of the code** with high warning levels and eliminate all warnings.
 2. **Select test harness frameworks**
-    1. **Select a system-level test harness** for system-executable tests that report results appropriately (e.g., CTest/CDash, Jenkins).
+    1. **Select a system-level test harness** for system-executable tests that report results appropriately (e.g., CTest/CDash).
     1. **Select a unit test harness** to effectively define and run finer-grained integration and unit tests (e.g., Google Test, pFUnit).
     1. **Customize or streamline** system-level and/or unit test frameworks for use in your particular project.
 3. **Add system-level tests** to protect major user functionality.
@@ -52,7 +52,7 @@ First read the document *[What Are Software Testing Practices?](./UnderstandingS
 6. Define a set of **regression test suites**.
     1. Define a faster-running **pre-merge regression test suite** (e.g., single build with faster running tests) and **run it before every merge to the mainline branch**.
     1. Define a more comprehensive nightly **regression test suite** (e.g., builds and all tests on several platforms and compilers, code coverage, and memory usage error detection) and **run every night**.
-7. Have a policy of **100% passing pre-merge regression tests** and work hard to maintain that.
+7. Have a policy of **100% passing pre-merge regression tests** (run using a CI testing system like GitHub Actions, GitLab CI, or Jenkins) and work hard to maintain that.
 8. Work to **fix all failing nightly regression tests** on a reasonable schedule.
 
 
