@@ -20,7 +20,7 @@ CSE software project leaders and developers who are facing significant refactori
 
 ### Purpose
 Show how to add quality testing to a project in order to support efficient modification of existing code or addition of new code.
-Show how to add tests to support (1) **adding a new feature**, (2) **fixing a bug**,(3) **improving the design and implementation**,or (4) **optimizing resource usage**
+Show how to add tests to support (1) **adding a new feature**, (2) **fixing a bug**, (3) **improving the design and implementation**, or (4) **optimizing resource usage**
 
 ### Prerequisites
 
