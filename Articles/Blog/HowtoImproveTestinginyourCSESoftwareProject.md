@@ -28,52 +28,33 @@ First read the document *[What Are Software Testing Practices?](./UnderstandingS
 
 ### Steps
 
-<ol>
-<li>Set up <b>automated builds of the code</b> with high warning levels and eliminate all warnings.</li>
-<li><b>Select test harness frameworks</b>
-  <ol type="a">
-  <li><b>Select a system-level test harness</b> for system-executable tests that report results appropriately (e.g., CTest/CDash).</li>
-  <li><b>Select a unit test harness</b> to effectively define and run finer-grained integration and unit tests (e.g., Google Test, pFUnit).</li>
-  <li><b>Customize or streamline</b> system-level and/or unit test frameworks for use in your particular project.</li>
-  </ol>
-  </li>
-<li><b>Add system-level tests</b> to protect major user functionality.
-  <ol type="a">
-  <li>Select inputs for several important problem classes and run code to produce outputs.</li>
-  <li>Set up no-change or verification tests with a system-level test harness in order to pin down important behavior.</li>
-  </ol>
-  </li>
-<li><b>Add integration and unit tests</b> (as needed for adding/changing code)
-  <ol type="a">
-  <li><b>Incorporate tests for uncovered code to be changed</b> using the <b><it>Legacy Software Change Algorithm</it></b><sup><a href="#sfer-ezikiw-1">1</a></sup>
-    <ul>
-    <li><b>Identify change points</b> for target change or new code.</li>
-    <li><b>Find test points</b> where code behavior can be sensed.</li>
-    <li><b>Break dependencies</b> in order to get the targeted code into the unit test harness.</li>
-    <li><b>Cover targeted code</b> to be changed with sufficient (characterization) tests.</li>
-    </ul>
-    </li>
-  <li><b>Add new features or fix bugs</b><sup><a href="#sfer-ezikiw-1">1</a>,<a href="#sfer-ezikiw-2">2</a>,<a href="#sfer-ezikiw-3">3</a></sup>
-    <ul>
-    <li><b>Add new tests</b> that define desired behavior (feature or bug).</li>
-    <li>Run new tests and <b>verify they fail</b>.</li>
-    <li>Add the minimal code to <b>get new tests to pass</b>.</li>
-    <li><b>Refactor</b> the covered code to clean up and remove duplication.</li>
-    <li><b>Review</b> all changes to existing code, new code and new tests.</li>
-    </ul>
-    </li>
-  </ol>
-  </li>
-<li>Select <b>code coverage</b> (e.g., gcov/lcov) and <b>memory usage error detection</b> (e.g., valgrind, clang memory/address/leak sanitizers) analysis tools.</li>
-<li>Define a set of <b>regression test suites</b>.
-  <ol type="a">
-  <li>Define a faster-running <b>pre-merge regression test suite</b> (e.g., single build with faster running tests) and <b>run it before every merge to the mainline branch</b>.</li>
-  <li>Define a more comprehensive nightly <b>regression test suite</b> (e.g., builds and all tests on several platforms and compilers, code coverage, and memory usage error detection) and <b>run every night</b>.</li>
-  </ol>
-  </li>
-<li>Have a policy of <b>100% passing pre-merge regression tests</b> (run using a CI testing system like GitHub Actions, GitLab CI, or Jenkins) and work hard to maintain that.</li>
-<li>8. Work to <b>fix all failing nightly regression tests</b> on a reasonable schedule.</li>
-</ol>
+1. Set up **automated builds of the code** with high warning levels and eliminate all warnings.
+2. **Select test harness frameworks**
+    1. **Select a system-level test harness** for system-executable tests that report results appropriately (e.g., CTest/CDash).
+    1. **Select a unit test harness** to effectively define and run finer-grained integration and unit tests (e.g., Google Test, pFUnit).
+    1. **Customize or streamline** system-level and/or unit test frameworks for use in your particular project.
+3. **Add system-level tests** to protect major user functionality.
+    1. Select inputs for several important problem classes and run code to produce outputs.
+    1. Set up no-change or verification tests with a system-level test harness in order to pin down important behavior.
+4. **Add integration and unit tests** (as needed for adding/changing code)
+    1. **Incorporate tests for uncovered code to be changed** using the ***Legacy Software Change Algorithm***<sup>[1]</sup>
+        * **Identify change points** for target change or new code.
+        * **Find test points** where code behavior can be sensed.
+        * **Break dependencies** in order to get the targeted code into the unit test harness.
+        * **Cover targeted code** to be changed with sufficient (characterization) tests.
+    2. **Add new features or fix bugs**<sup>[1],[2],[3]</sup>
+        * **Add new tests** that define desired behavior (feature or bug).
+        * Run new tests and **verify they fail**.
+        * Add the minimal code to **get new tests to pass**.
+        * **Refactor** the covered code to clean up and remove duplication.
+        * **Review** all changes to existing code, new code and new tests.
+5. Select **code coverage** (e.g., gcov/lcov) and **memory usage error detection** (e.g., valgrind, clang memory/address/leak sanitizers) analysis tools.
+6. Define a set of **regression test suites**.
+    1. Define a faster-running **pre-merge regression test suite** (e.g., single build with faster running tests) and **run it before every merge to the mainline branch**.
+    1. Define a more comprehensive nightly **regression test suite** (e.g., builds and all tests on several platforms and compilers, code coverage, and memory usage error detection) and **run every night**.
+7. Have a policy of **100% passing pre-merge regression tests** (run using a CI testing system like GitHub Actions, GitLab CI, or Jenkins) and work hard to maintain that.
+8. Work to **fix all failing nightly regression tests** on a reasonable schedule.
+
 
 ### FAQs:
 
