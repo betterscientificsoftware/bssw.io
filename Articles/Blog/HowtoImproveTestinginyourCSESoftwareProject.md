@@ -88,7 +88,17 @@ Topics: Testing
 Track: how to
 --->
 
-[1]: https://bssw.io/items/working-effectively-with-legacy-code "Working Effectively with Legacy Code {Michael Feathers. Prentice Hall, 2005}"
-[2]: https://www.oreilly.com/library/view/test-driven-development/0321146530/ "Test Driven Development {Kent Beck, Addison-Wesley Professional, 2003, ISBN: 0321146530}"
-[3]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete: Second Edition}"
+[1-sfer-ezikiw]: https://bssw.io/items/working-effectively-with-legacy-code "Working Effectively with Legacy Code {Michael Feathers. Prentice Hall, 2005}"
+[2-sfer-ezikiw]: https://www.oreilly.com/library/view/test-driven-development/0321146530/ "Test Driven Development {Kent Beck, Addison-Wesley Professional, 2003, ISBN: 0321146530}"
+[3-sfer-ezikiw]: https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction "Code Complete: Second Edition}"
 
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "Working Effectively with Legacy Code"
+[2]: #sfer-ezikiw-2 "Test Driven Development"
+[3]: #sfer-ezikiw-3 "Code Complete: Second Edition}"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[Working Effectively with Legacy Code<br>Michael Feathers. Prentice Hall, 2005](https://bssw.io/items/working-effectively-with-legacy-code)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Test Driven Development<br>Kent Beck, Addison-Wesley Professional, 2003, ISBN: 0321146530](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Code Complete: Second Edition}](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
