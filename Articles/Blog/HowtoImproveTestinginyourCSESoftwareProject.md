@@ -1,5 +1,7 @@
 # How to Improve Testing for CSE Software
-#### Contributed by [Ulrike Yang](https://github.com/ulrikeyang)
+
+#### Contributed by  [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [Barry Smith](https://github.com/BarrySmith), [Ulrike Meier Yang](https://github.com/ulrikeyang), [Glenn Hammond](https://github.com/ghammond86), [Xiaoye Li](https://github.com/xiaoyeli), and [James Willenbring](https://github.com/jwillenbring)
+
 #### Publication Date: August 6, 2019
 
 <!-- deck text start -->
@@ -73,13 +75,9 @@ If all tests pass, then your changes could be breaking them (easy).
 
 ToDos:
 
-* Fix list formatting ... IN PROGRESS ...
-
-* Fix list of authors ...
+* Switch to wikize-refs.py format ...
 
 * Improve the deck text ...
-
-* Switch to wikize-refs.py format ...
 
 --->
 
@@ -89,9 +87,6 @@ ToDos:
 2. [Legacy Software Change Algorithm](https://trilinos.org/trac/trilinos/wiki/TribitsLegacySoftwareChangeAlgorithm).
 3. [Test Driven Development](https://www.oreilly.com/library/view/test-driven-development/0321146530/), Kent Beck, 2003.
 4. [Code Complete (Second Edition)](https://www.microsoftpressstore.com/store/code-complete-9780735619678), Steve McConnell, 2004.
-
-This document was prepared with input from Roscoe A. Bartlett, Glenn Hammond, Xiaoye Li, Barry Smith,
-and James M. Willenbring.
 
 <!---
 Publish: yes
