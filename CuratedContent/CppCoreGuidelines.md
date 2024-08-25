@@ -29,7 +29,7 @@ However, dispite this, C++ has seen a resurgence in popularity and usage in rece
 
 Over the years as C++ as evolved, numerous authors have written numerous books on how to successfully use the C++ programming language to create quality C++ software.<sup>[CppCodingGuidelinesBooks]</sup>
 However, with each new C++ standard (which includes new language features and library extensions) and with updated experience and new idioms, much of the guidance in these prior books become obsolete (and even counter-productive) as time passes.
-While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ books<sup>[Meyers92],[Meyers96],[Meyers97],[Meyers05],[Meyers15]</sup>), this is unsustainable and leaves a hole in guidance for the most effectively usage of modern C++ (as it evolves).
+While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ book<sup>[Meyers92],[Meyers97],[Meyers05]</sup> and other Effective C++ books<sup>[Meyers96],[Meyers15]</sup>), this is unsustainable and leaves a hole in guidance for the most effectively usage of modern C++ (as it evolves).
 
 
 ### Overview of the C++ Core Guidelines
@@ -60,7 +60,7 @@ The site is currently organized as a single `github.io` page with that is broken
 
 with additional supporting sections and material.
 
-These guidelines are based only on the standard C++ language and standard C++ library, with the addition of a small and simple "GSL: Guildelines support library".
+These guidelines are based only on the standard C++ language and standard C++ library, with the addition of a small and simple "GSL: Guildelines support library".<sup>[CppCoreGuidelinesSupportLibrary]</sup>
 (The latter is needed to codify important idioms that are not directly supported by the C++ standard library.
 The GSL does not represent a significant pieces of software from a function perspective.)
 
@@ -119,15 +119,15 @@ RSS update: ???
 
 [CppCoreGuidelinesSupportLibrary]: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#gsl-guidelines-support-library "GSL: Guidelines support library".
 
-[Meyers92]: Scott Meyers: Effective C++, First Edition. Addison-Wesley 1992
+[Meyers92]: https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0201563649 "Effective C++, First Edition {Scott Meyers. Addison-Wesley 1992}"
 
-[Meyers96]: Scott Meyers: More Effective C++. Addison-Wesley 1996
+[Meyers96]: https://www.amazon.com/More-Effective-Improve-Programs-Designs/dp/020163371X "More Effective C++ {Scott Meyers. Addison-Wesley, 1996}"
 
-[Meyers97]: Scott Meyers: Effective C++, Second Edition. Addison-Wesley 1997
+[Meyers97]: https://www.amazon.com/Effective-Specific-Addison-Wesley-Professional-Computing/dp/0201924889 "Effective C++, Second Edition {Scott Meyers. Addison-Wesley, 1997}"
 
-[Meyers05] Scott Meyers: Effective C++, Third Edition. Addison-Wesley 2005
+[Meyers05]: https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876 "Effective C++, Third Edition {Scott Meyers. Addison-Wesley, 2005}"
 
-[Meyers15]: Scott Meyers: Effective Modern C++. O’Reilly 2015
+[Meyers15]: https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996 "Effective Modern C++ {Scott Meyers. O'Reilly. 2015}"
 
 [TiobeIndexCxxSecond_2024-06]: https://www.techrepublic.com/article/tiobe-index-june-2024 "TIOBE Programming Language Index News (June 2024): C++ Rises to Second Place {Megan Crouse, TechRepublic, June 11, 2024}"
 
