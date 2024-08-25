@@ -1,13 +1,13 @@
 ## C++ Core Guidelines
 
 <!-- deck text start -->
-The C++ Core Guidelines website is a living online, community-developed document that contains up-to-date idioms and advice from C++ community thought leaders that is continuously updated as new C++ standards come out and better approaches are discovered for creating fast, robust, safe, interoperable, and sustainable C++ software.
+The C++ Core Guidelines website is a living, online, community-developed document containing up-to-date idioms and advice from C++ community thought leaders that are continuously updated as new C++ standards emerge and better approaches are discovered for creating fast, robust, safe, interoperable, and sustainable C++ software.
 <!-- deck text end -->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett")
 #### Publication date: August ???, 2024
 
-Resource information | Details
+Resource Information | Details
 :--- | :---
 Resource name | C++ Core Guidelines
 Website | https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
@@ -18,28 +18,28 @@ Focus | Language idioms and guidelines
 
 ### Background
 
-C++ was originally created by Bjarne Stroustrup in 1979 while he was at Bell Labs as "C with Objects" (which was just a set of macros that generated C code before being compiled by a C compiler) with the first public version of Bell Labs Cfront C++ released in 1985.
-C++ was originally designed and built on top of C and designed to interoperate with C at a fundamental level.
-(This legacy with C has been one of C++'s greatest strengthens and one of its greatest weaknesses.)
+Bjarne Stroustrup created C++ in 1979 while he was at Bell Labs as "C with Objects" (which was just a set of macros that generated C code before being compiled by a C compiler) with the first public version of Bell Labs Cfront C++ released in 1985.
+C++ was initially designed and built on top of C and designed to interoperate with C at a fundamental level.
+(This legacy with C has been both one of C++'s greatest strengths and weaknesses.)
 In the years since then, C++ has undergone several ISO standards updates and is currently developing an updated ISO (International Standards Organization) C++ standard every three years, starting with ISO C++11 (where C++23 is the most recent approved standard at the time of this writing).
-Over the last 40 years, billions of lines of C++ code have been written and deployed with varying degrees of quality, safety, robustness and sustainability.
-The way that C++ has evolved over the last 40+ years from a thin layer on top of C (together with the need for backward compatibility supporting billions of lines of previously written C++ code), has given rise to a huge and complex language and standard library.
+Over the last 40 years, billions of lines of C++ code have been written and deployed with varying degrees of quality, safety, robustness, and sustainability.
+The way that C++ has evolved over the last 40+ years from a thin layer on top of C (together with the need for backward compatibility supporting billions of lines of previously written C++ code), has given rise to a vast and complex language and standard library.
 When used in raw form by undisciplined developers, C++ has been used to arguably create some of the most confusing, fragile, unsafe, and unsecure software in existence (riving C in this respect).
-However, dispite this, C++ has seen a resurgence in popularity and usage in recent years with C++ being the fastest growing language in 2022 and overtaking C to become the second most popular language (behind Python) in June 2024.<sup>[9],[10]</sup>
+However, despite this, C++ has seen a resurgence in popularity and usage in recent years, with C++ being the fastest-growing language in 2022 and overtaking C to become the second most popular language (behind Python) in June 2024.<sup>[9],[10]</sup>
 
-Over the years as C++ as evolved, numerous authors have written numerous books on how to successfully use the C++ programming language to create quality C++ software.<sup>[2]</sup>
-However, with each new C++ standard (which includes new language features and library extensions) and with updated experience and new idioms, much of the guidance in these prior books become obsolete (and even counter-productive) as time passes.
-While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ book<sup>[4],[6],[7]</sup> and other Effective C++ books<sup>[5],[8]</sup>), this is unsustainable and leaves a hole in guidance for the most effectively usage of modern C++ (as it evolves).
+Over the years, as C++ has evolved, numerous authors have written books on how to successfully use the C++ programming language to create quality C++ software.<sup>[2]</sup>
+However, with each new C++ standard (which includes new language features and library extensions) and with updated experience and new idioms, much of the guidance in these prior books becomes obsolete (and even counter-productive) as time passes.
+While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ book<sup>[4],[6],[7]</sup> and other Effective C++ books<sup>[5],[8]</sup>), this is unsustainable and leaves a hole in guidance for the most effective usage of modern C++ (as it evolves).
 
 
 ### Overview of the C++ Core Guidelines
 
-Would it not be nice if there was a way to take the best advice and idioms all of the excellent books that have been written by the thought leaders in the C++ community and update and combine them with modern language features, libraries, and idioms?
-And what if these could be kept up-to-date as new C++ standards come out and the C++ community responds to the shifting needs of the software development community?
-That is exactly what the **C++ Core Guidelines** website seeks to do.
-Bjarne Stroustrup and Herb Sutter are the primary editors of the C++ Core Guidelines site and the content has been contributed by at least 330+ other C++ authors and developers.
+Would it not be nice if there was a way to take the best advice and idioms from the excellent books written over the years by thought leaders in the C++ community and update and combine them with modern language features, libraries, and idioms?
+And what if these combined guidelines could be constantly kept up-to-date as new C++ standards come out and the C++ community responds to the shifting needs of the software development community?
+That is precisely what the **C++ Core Guidelines** website seeks to do.
+Bjarne Stroustrup (the inventor of C++ and still active in the C++ community) and Herb Sutter (author of many excellent books on C++ and active memory of the C++ standards committee) are the primary editors of the C++ Core Guidelines site, and the content has been contributed by at least 330+ other C++ authors and developers.
 
-The site is currently organized as a single `github.io` page with that is broken up into major sections covering a number of areas including:
+The site is currently organized as a single `github.io` page that is broken up into major sections covering several areas, including:
 
 * **In**: Introduction
 * **P**: Philosophy
@@ -60,38 +60,37 @@ The site is currently organized as a single `github.io` page with that is broken
 
 with additional supporting sections and material.
 
-These guidelines are based only on the standard C++ language and standard C++ library, with the addition of a small and simple "GSL: Guildelines support library".<sup>[3]</sup>
-(The latter is needed to codify important idioms that are not directly supported by the C++ standard library.
-The GSL does not represent a significant pieces of software from a function perspective.)
+These guidelines are based only on the standard C++ language and standard C++ library, with the addition of the small and simple "GSL: Guidelines support library".<sup>[3]</sup>
+(The latter is needed to codify essential idioms that the C++ standard library does not directly support.)
 
-A major motivation and focus of the C++ Core Guidelines is the creation of safe and secure C++ software.
-In fact, the main page contains some form of the words "safe", "check", "bounds" (i.e., "bounds check"), and "secure" over 600 times!
+A significant motivation and focus of the C++ Core Guidelines is the creation of safe and secure C++ software.
+For example, the main page contains some form of the words "safe", "check", "bounds" (i.e., "bounds check"), and "secure" over 600 times!
 
 <!--- safe=182, safety=75, safely=15, unsafe=10, check=199, checked=47, unchecked=5, bounds=65, secure=1, security =16, --->
 
 
 ### Some Important Details
 
-When converted to a single PDF file, the main C++ Core Guidelines page<sup>[1]</sup> is currently an 869 page book.
+When converted to a single PDF file, the main C++ Core Guidelines page<sup>[1]</sup> is currently an 869-page book.
 (Therefore, this would represent the largest book ever written on C++ coding guidelines.)
-In addition, some of the material is not yet filled in and there are placeholders denoted by `???` (currently 270 of these).
-(So there is still a number of issues yet to be addressed.)
+In addition, some of the material has not yet been filled in, and there are placeholders for the missing material denoted by `???` (currently 270 of these).
+(So many issues are still yet to be addressed.)
 
-As a github.io site, it is generated from a set of Markdown files maintained in a collaborative GitHub repository.
-That GitHub repository currently has 1963 watchers, 5.5k forks, 42k stars, and over 330 contributors.
-Therefore, this is significant effort to define guidelines and best practices for modern C++.
+As a `github.io` site, the C++ Core Guidelines site is generated from a set of Markdown files maintained in a collaborative GitHub repository.
+The backend GitHub repository currently has 1963 watchers, 5.5k forks, 42k stars, and over 330 contributors.
+Therefore, this is a significant effort to define guidelines and best practices for modern C++.
 
-Many of the C++ Core Guidelines have LLVM Clang-Tidy checks that can be turned on to ensure that C++ software follows them.
-(At the time of this writing, there are 30 of the `cppcoreguidelines-*` clang tidy checks of which eight can be automatically fixed using an auto-refactoring.<sup>[11]</sup>
-Therefore, most of the C++ Core Guidelines are not checked and/or cannot be easily checked or enforced by a static analysis tool.)
-The Microsoft C++ compiler also has support for enforcing many
+Many of the C++ Core Guidelines have LLVM Clang-Tidy checks that can be applied to ensure that C++ software follows them.
+(At the time of this writing, there are 30 of the `cppcoreguidelines-*` clang tidy checks of which eight can be automatically fixed using the auto-refactoring feature of Clang-Tidy.<sup>[11]</sup>
+Therefore, most C++ Core Guidelines are not checked and/or cannot be easily checked or enforced by a static analysis tool.)
+The Microsoft C++ compiler also supports enforcing many of these guidelines for Windows development environments.
 
 
 ### Summary
 
-The C++ Core Guidelines site represents a major step forward in the development, dissemination, and enforcement (through tools like Clang-Tidy) of idioms and best practices for developing quality sustainable C++ software.
-While there is more work to be done in expanding the coverage of these guidelines and tweaking the existing guidelines (and you can help with that effort by submitting issues and pull requests to the `CppCoreGuidelines` GitHub project), the greatest challenge will be on refactoring the large amount of legacy C++ software that does not follow these guidelines.
-For that, the C++ community will need to continue to develop and improve C++ static analysis and refactoring tools.
+The C++ Core Guidelines site represents a significant step forward in the development, dissemination, and enforcement (through tools like Clang-Tidy) of idioms and best practices for developing quality, sustainable C++ software.
+While there is more work to be done in expanding the coverage of these guidelines and tweaking the existing guidelines (and you can help with that effort by submitting issues and pull requests to the `CppCoreGuidelines` GitHub project), the most significant challenge will be on refactoring the large amount of legacy C++ software that does not follow these guidelines.
+For that, the C++ community will need to continue to develop and improve C++ static analysis and automated refactoring tools.
 
 
 <!---
@@ -148,7 +147,7 @@ RSS update: ???
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[C++ Core Guildelines: github.io site](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[C++ Core Guidelines: github.io site](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[C++ Coding Guidelines Books](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#rfbooks-books-with-coding-guidelines)
 * <a name="sfer-ezikiw-3"></a><sup>3</sup>[GSL: Guidelines support library".](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#gsl-guidelines-support-library)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[Effective C++, First Edition<br>Scott Meyers. Addison-Wesley 1992](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0201563649)
