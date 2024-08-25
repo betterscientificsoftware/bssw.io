@@ -95,9 +95,8 @@ For that, the C++ community will need to continue to develop and improve C++ sta
 
 <!---
 Publish: yes
-Topics: ???
+Topics: programming languages
 Pinned: no
-RSS update: ???
 --->
 
 
