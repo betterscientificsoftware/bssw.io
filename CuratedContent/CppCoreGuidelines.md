@@ -25,11 +25,11 @@ In the years since then, C++ has undergone several ISO standards updates and is 
 Over the last 40 years, billions of lines of C++ code have been written and deployed with varying degrees of quality, safety, robustness and sustainability.
 The way that C++ has evolved over the last 40+ years from a thin layer on top of C (together with the need for backward compatibility supporting billions of lines of previously written C++ code), has given rise to a huge and complex language and standard library.
 When used in raw form by undisciplined developers, C++ has been used to arguably create some of the most confusing, fragile, unsafe, and unsecure software in existence (riving C in this respect).
-However, dispite this, C++ has seen a resurgence in popularity and usage in recent years with C++ being the fastest growing language in 2022 and overtaking C to become the second most popular language (behind Python) in June 2024.<sup>[TiobeIndex],[TiobeIndexCxxSecond_2024-06]</sup>
+However, dispite this, C++ has seen a resurgence in popularity and usage in recent years with C++ being the fastest growing language in 2022 and overtaking C to become the second most popular language (behind Python) in June 2024.<sup>[10],[9]</sup>
 
-Over the years as C++ as evolved, numerous authors have written numerous books on how to successfully use the C++ programming language to create quality C++ software.<sup>[CppCodingGuidelinesBooks]</sup>
+Over the years as C++ as evolved, numerous authors have written numerous books on how to successfully use the C++ programming language to create quality C++ software.<sup>[2]</sup>
 However, with each new C++ standard (which includes new language features and library extensions) and with updated experience and new idioms, much of the guidance in these prior books become obsolete (and even counter-productive) as time passes.
-While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ book<sup>[Meyers92],[Meyers97],[Meyers05]</sup> and other Effective C++ books<sup>[Meyers96],[Meyers15]</sup>), this is unsustainable and leaves a hole in guidance for the most effectively usage of modern C++ (as it evolves).
+While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ book<sup>[4],[6],[7]</sup> and other Effective C++ books<sup>[5],[8]</sup>), this is unsustainable and leaves a hole in guidance for the most effectively usage of modern C++ (as it evolves).
 
 
 ### Overview of the C++ Core Guidelines
@@ -60,7 +60,7 @@ The site is currently organized as a single `github.io` page with that is broken
 
 with additional supporting sections and material.
 
-These guidelines are based only on the standard C++ language and standard C++ library, with the addition of a small and simple "GSL: Guildelines support library".<sup>[CppCoreGuidelinesSupportLibrary]</sup>
+These guidelines are based only on the standard C++ language and standard C++ library, with the addition of a small and simple "GSL: Guildelines support library".<sup>[3]</sup>
 (The latter is needed to codify important idioms that are not directly supported by the C++ standard library.
 The GSL does not represent a significant pieces of software from a function perspective.)
 
@@ -72,7 +72,7 @@ In fact, the main page contains some form of the words "safe", "check", "bounds"
 
 ### Some Important Details
 
-When converted to a single PDF file, the main C++ Core Guidelines page<sup>[CppCoreGuidelines]</sup> is currently an 869 page book.
+When converted to a single PDF file, the main C++ Core Guidelines page<sup>[1]</sup> is currently an 869 page book.
 (Therefore, this would represent the largest book ever written on C++ coding guidelines.)
 In addition, some of the material is not yet filled in and there are placeholders denoted by `???` (currently 270 of these).
 (So there is still a number of issues yet to be addressed.)
@@ -82,7 +82,7 @@ That GitHub repository currently has 1963 watchers, 5.5k forks, 42k stars, and o
 Therefore, this is significant effort to define guidelines and best practices for modern C++.
 
 Many of the C++ Core Guidelines have LLVM Clang-Tidy checks that can be turned on to ensure that C++ software follows them.
-(At the time of this writing, there are 30 of the `cppcoreguidelines-*` clang tidy checks of which eight can be automatically fixed using an auto-refactoring.<sup>[ExtraClangTidyChecks]</sup>
+(At the time of this writing, there are 30 of the `cppcoreguidelines-*` clang tidy checks of which eight can be automatically fixed using an auto-refactoring.<sup>[11]</sup>
 Therefore, most of the C++ Core Guidelines are not checked and/or cannot be easily checked or enforced by a static analysis tool.)
 The Microsoft C++ compiler also has support for enforcing many
 
@@ -113,24 +113,50 @@ RSS update: ???
 
 <!--- References --->
 
-[CppCoreGuidelines]: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines "C++ Core Guildelines: github.io site"
+[CppCoreGuidelines-sfer-ezikiw]: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines "C++ Core Guildelines: github.io site"
 
-[CppCodingGuidelinesBooks]: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#rfbooks-books-with-coding-guidelines "C++ Coding Guidelines Books"
+[CppCodingGuidelinesBooks-sfer-ezikiw]: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#rfbooks-books-with-coding-guidelines "C++ Coding Guidelines Books"
 
-[CppCoreGuidelinesSupportLibrary]: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#gsl-guidelines-support-library "GSL: Guidelines support library".
+[CppCoreGuidelinesSupportLibrary-sfer-ezikiw]: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#gsl-guidelines-support-library "GSL: Guidelines support library".
 
-[Meyers92]: https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0201563649 "Effective C++, First Edition {Scott Meyers. Addison-Wesley 1992}"
+[Meyers92-sfer-ezikiw]: https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0201563649 "Effective C++, First Edition {Scott Meyers. Addison-Wesley 1992}"
 
-[Meyers96]: https://www.amazon.com/More-Effective-Improve-Programs-Designs/dp/020163371X "More Effective C++ {Scott Meyers. Addison-Wesley, 1996}"
+[Meyers96-sfer-ezikiw]: https://www.amazon.com/More-Effective-Improve-Programs-Designs/dp/020163371X "More Effective C++ {Scott Meyers. Addison-Wesley, 1996}"
 
-[Meyers97]: https://www.amazon.com/Effective-Specific-Addison-Wesley-Professional-Computing/dp/0201924889 "Effective C++, Second Edition {Scott Meyers. Addison-Wesley, 1997}"
+[Meyers97-sfer-ezikiw]: https://www.amazon.com/Effective-Specific-Addison-Wesley-Professional-Computing/dp/0201924889 "Effective C++, Second Edition {Scott Meyers. Addison-Wesley, 1997}"
 
-[Meyers05]: https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876 "Effective C++, Third Edition {Scott Meyers. Addison-Wesley, 2005}"
+[Meyers05-sfer-ezikiw]: https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876 "Effective C++, Third Edition {Scott Meyers. Addison-Wesley, 2005}"
 
-[Meyers15]: https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996 "Effective Modern C++ {Scott Meyers. O'Reilly. 2015}"
+[Meyers15-sfer-ezikiw]: https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996 "Effective Modern C++ {Scott Meyers. O'Reilly. 2015}"
 
-[TiobeIndexCxxSecond_2024-06]: https://www.techrepublic.com/article/tiobe-index-june-2024 "TIOBE Programming Language Index News (June 2024): C++ Rises to Second Place {Megan Crouse, TechRepublic, June 11, 2024}"
+[TiobeIndexCxxSecond_2024-06-sfer-ezikiw]: https://www.techrepublic.com/article/tiobe-index-june-2024 "TIOBE Programming Language Index News (June 2024): C++ Rises to Second Place {Megan Crouse, TechRepublic, June 11, 2024}"
 
-[TiobeIndex]: https://www.tiobe.com/tiobe-index/ "Tiobe Programming Language Index"
+[TiobeIndex-sfer-ezikiw]: https://www.tiobe.com/tiobe-index/ "Tiobe Programming Language Index"
 
-[ExtraClangTidyChecks]: https://clang.llvm.org/extra/clang-tidy/checks/list.html "Extra Clang Tidy Checks"
+[ExtraClangTidyChecks-sfer-ezikiw]: https://clang.llvm.org/extra/clang-tidy/checks/list.html "Extra Clang Tidy Checks"
+<!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
+[1]: #sfer-ezikiw-1 "C++ Core Guildelines: github.io site"
+[2]: #sfer-ezikiw-2 "C++ Coding Guidelines Books"
+[3]: #sfer-ezikiw-3 "GSL: Guidelines support library"."
+[4]: #sfer-ezikiw-4 "Effective C++, First Edition"
+[5]: #sfer-ezikiw-5 "More Effective C++"
+[6]: #sfer-ezikiw-6 "Effective C++, Second Edition"
+[7]: #sfer-ezikiw-7 "Effective C++, Third Edition"
+[8]: #sfer-ezikiw-8 "Effective Modern C++"
+[9]: #sfer-ezikiw-9 "TIOBE Programming Language Index News (June 2024): C++ Rises to Second Place"
+[10]: #sfer-ezikiw-10 "Tiobe Programming Language Index"
+[11]: #sfer-ezikiw-11 "Extra Clang Tidy Checks"
+<!-- (sfer-ezikiw begin) -->
+### References
+<!-- (sfer-ezikiw end) -->
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[C++ Core Guildelines: github.io site](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[C++ Coding Guidelines Books](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#rfbooks-books-with-coding-guidelines)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[GSL: Guidelines support library".](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#gsl-guidelines-support-library)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Effective C++, First Edition<br>Scott Meyers. Addison-Wesley 1992](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0201563649)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[More Effective C++<br>Scott Meyers. Addison-Wesley, 1996](https://www.amazon.com/More-Effective-Improve-Programs-Designs/dp/020163371X)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Effective C++, Second Edition<br>Scott Meyers. Addison-Wesley, 1997](https://www.amazon.com/Effective-Specific-Addison-Wesley-Professional-Computing/dp/0201924889)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Effective C++, Third Edition<br>Scott Meyers. Addison-Wesley, 2005](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[Effective Modern C++<br>Scott Meyers. O'Reilly. 2015](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
+* <a name="sfer-ezikiw-10"></a><sup>10</sup>[TIOBE Programming Language Index News (June 2024): C++ Rises to Second Place<br>Megan Crouse, TechRepublic, June 11, 2024](https://www.techrepublic.com/article/tiobe-index-june-2024)
+* <a name="sfer-ezikiw-11"></a><sup>11</sup>[Tiobe Programming Language Index](https://www.tiobe.com/tiobe-index/)
+* <a name="sfer-ezikiw-12"></a><sup>12</sup>[Extra Clang Tidy Checks](https://clang.llvm.org/extra/clang-tidy/checks/list.html)
