@@ -8,7 +8,7 @@
 While there are many different enablers or obstacles to software sustainability, some of the most important are related to the technical properties of the software itself, independent of any individual developer, development team, user community, or funding source.
 <!-- end deck -->
 
-While some authors have looked at software sustainability from primarily institutional and social perspectives<sup>[4]</sup>, here, we consider vital technical properties of the software itself that help to improve sustainability and some development practices that aid in the creation and maintenance of sustainable software with these technical properties.
+While some authors have looked at software sustainability from primarily institutional and social perspectives<sup>[5]</sup>, here, we consider vital technical properties of the software itself that help to improve sustainability and some development practices that aid in the creation and maintenance of sustainable software with these technical properties.
 
 <img src='../../images/2024-08-TechnicalPropertiesOfSustainableSoftware-hero-image.jpg' class='page'/>
 
@@ -49,8 +49,11 @@ The following technical properties have been widely recognized to lead to softwa
 
 **Open Source License**:
 Allow the user to change and use the software in any way that is needed for the success of their projects.
-Note that this does not require a fully open-source license in many cases.
+Note that this does not require a fully open-source license in many cases (e.g., such as with export controlled or ITAR software).
 The license just has to allow your project to change the source and use the software as needed for your project.
+Picking an software license can be a tricky task and every open-source license is not equivalent.
+For example, some open-source licenses like the GNU Public License (GPL), and its variations, can actually restrict the maintenance and usage of the software in many cases.
+Software licensing can be complex and requires careful consideration.<sup>[9]</sup>
 
 **Documented history of development**:
 The development history of the software (which can be captured in the version-control history and linked issue trackers) can answer many questions that are important to the future of the software.
@@ -58,9 +61,9 @@ What factors caused the software to be in its current state?
 What requirements went into the development of the software? 
 (Might some of those requirements and features no longer be necessary for future versions of the software which would allow breaking some backward compatibility?)
 
-**Core domain model distillation document**:
-Has a clear documented core domain model (which is represented in the code or a clear documented mapping of the domain model to software) been given?<sup>[5]</sup>
-This document and model is needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
+**Clear documented architecture and goals**:
+Has a clear core domain model and architecture for the software been documented (which is represented in the code or a clear documented mapping of the domain model to software)?<sup>[6]</sup>
+This document and domain model are needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
 **Portable, well-documented, robust tests**:
 that demonstrate and protect the important behaviors of the software
@@ -72,7 +75,7 @@ Quality tests like these can take the place of a lot of documentation that one w
 These tests are needed to safely change or port the software and to understand the intended behavior of the software to support future usage or changes.
 
 **Clean, logical, and understandable code interfaces and implementation**:
-Properties of clean code include self-documenting code, other minimal necessary internal and external documentation, elimination of duplication, other well-known design and implementation principles.<sup>[6],[7]</sup>
+Properties of clean code include self-documenting code, other minimal necessary internal and external documentation, elimination of duplication, other well-known design and implementation principles.<sup>[7],[8]</sup>
 
 **Fast building code and fast running test suite**:
 An important aspect of sustainable software that is often overlooked is the computational overhead needed to build the software and tests and then run the test suite.
@@ -99,7 +102,7 @@ In addition, smaller (or extremely well-structured) software packages that posse
 
 ### Some Key Practices for Creating and Maintaining Sustainable Software
 
-While this article has focused on the technical properties of the software itself, there are key practices that can aid in the creation and maintenance of sustainable software that possess these technical properties.<sup>[6],[7]</sup>
+While this article has focused on the technical properties of the software itself, there are key practices that can aid in the creation and maintenance of sustainable software that possess these technical properties.<sup>[7],[8]</sup>
 
 **Development and Collaboration Workflows Practices:**
 * For shared development, use a distributed version control tool (e.g. Git) to manage the source and use appropriate development and integration workflows according to well-established idioms appropriate for your project.
@@ -114,14 +117,16 @@ While this article has focused on the technical properties of the software itsel
 * Use domain-driven design for the key interfaces and implementation details.<sup>[5]</sup>
 * Strive for self-documenting code (i.e., reduce the need for extra documentation that typically does not get maintained).
 * Reduce or eliminate code duplication.
-* Reduce software complexity (e.g. deeply nested control structures, deep inheritance hierarchies)
+* Reduce software complexity (e.g., deeply nested control structures, deep inheritance hierarchies).
+* Use automatic code formatting tools (e.g., `clang-format`).
 * Continuously refactor the code while adding new features and fixing bugs to maintain or improve the code, tests, and documentation.
 * Have all changes to the code, tests, or documentation reviewed by at least on other developer.
 
 **Testing Practices:**
-* Favor verification and acceptance tests over no-change regression tests.<sup>[3]</sup>
+* Favor verification and acceptance tests over no-change regression tests.<sup>[4]</sup>
 * Use acceptance-test driven development (ATDD) and unit-test driven development (TDD) (because these tend to lead to better tests with better code coverage and better feature coverage than tests that get written after the code is written).
 * Invest in making tests run as fast as possible (expensive tests are a significant form of technical debt to a software project).
+* Use static analyzers (e.g., Clang-Tidy) and runtime memory checkers (e.g., Clang address/memory/leak sanitizers)<sup>[3]</sup>
 
 **Building and Running Tests Practices:**
 * Use build and test systems that are better known and/or supported that can create portable builds and run tests on all target platforms (e.g., CMake and CTest)
@@ -172,18 +177,22 @@ Topics: Software sustainability
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "BSSw: Software Sustainability"
 [2]: #sfer-ezikiw-2 "BSSw: What is Software Sustainability?"
-[3]: #sfer-ezikiw-3 "Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability"
-[4]: #sfer-ezikiw-4 "Software Sustainability — Lessons Learned from Different Disciplines"
-[5]: #sfer-ezikiw-5 "Domain Driven Design"
-[6]: #sfer-ezikiw-6 "Clean Code"
-[7]: #sfer-ezikiw-7 "Code Complete: 2nd Edition"
+[3]: #sfer-ezikiw-3 "BSSw: How to Improve Testing for CSE Software"
+[4]: #sfer-ezikiw-4 "BSSw: Definition and Categorization of Tests for CSE Software"
+[5]: #sfer-ezikiw-5 "Software Sustainability — Lessons Learned from Different Disciplines"
+[6]: #sfer-ezikiw-6 "Domain Driven Design"
+[7]: #sfer-ezikiw-7 "Clean Code"
+[8]: #sfer-ezikiw-8 "Code Complete: 2nd Edition"
+[9]: #sfer-ezikiw-9 "BSSw: An Introduction to Choosing an Open Source Code License"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[BSSw: Software Sustainability](https://bssw.io/items?topic=software-sustainability)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[BSSw: What is Software Sustainability?](https://bssw.io/items/what-is-software-sustainability)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Testing of Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability<br>Bartlett, Roscoe A., Anshu Dubey, Xiaoye Sherry Li, J. David Moulton, James W. Willenbring, and Ulrike M. Yang. Software Engineering for Science. November 3, 2016](https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277?srsltid=AfmBOorz50aK1Mkuti9WCQOMdLz8QPohQpMnZw3HLsxcrYWHuGEyKvju)
-* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Software Sustainability — Lessons Learned from Different Disciplines<br>Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018](https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines)
-* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Domain Driven Design<br>Eric Evans, Addison Wesley, 2004](https://martinfowler.com/bliki/DomainDrivenDesign.html)
-* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Clean Code - A Handbook of Agile Software Craftsmanship<br>Robert Martin, Prentice Hall, 2009, ISBN-13: 978-0-13-235088-4, ISBN-10: 0-13-235088-2](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
-* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Code Complete: Second Edition: A Practical Handbook of Software Construction<br>Steve McConnell, 2009, ISBN: 9780735619678](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[BSSw: How to Improve Testing for CSE Software](https://bssw.io/blog_posts/how-to-improve-testing-for-cse-software)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[BSSw: Definition and Categorization of Tests for CSE Software](https://bssw.io/blog_posts/definition-and-categorization-of-tests-for-cse-software)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Software Sustainability — Lessons Learned from Different Disciplines<br>Neil Chue Hong, HPC Best Practices Seminar Series, August 21, 2018](https://bssw.io/events/webinar-software-sustainability-lessons-learned-from-different-disciplines)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Domain Driven Design<br>Eric Evans, Addison Wesley, 2004](https://martinfowler.com/bliki/DomainDrivenDesign.html)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Clean Code - A Handbook of Agile Software Craftsmanship<br>Robert Martin, Prentice Hall, 2009, ISBN-13: 978-0-13-235088-4, ISBN-10: 0-13-235088-2](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Code Complete: Second Edition: A Practical Handbook of Software Construction<br>Steve McConnell, 2009, ISBN: 9780735619678](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[BSSw: An Introduction to Choosing an Open Source Code License](https://bssw.io/items/an-introduction-to-choosing-an-open-source-code-license)
