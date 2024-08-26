@@ -21,15 +21,15 @@ Focus | Language idioms and guidelines
 Bjarne Stroustrup created C++ in 1979 while he was at Bell Labs as "C with Objects" (which was just a set of macros that generated C code before being compiled by a C compiler) with the first public version of Bell Labs Cfront C++ released in 1985.
 C++ was initially designed and built on top of C and designed to interoperate with C at a fundamental level.
 (This legacy with C has been both one of C++'s greatest strengths and weaknesses.)
-In the years since then, C++ has undergone several ISO standards updates and is currently developing an updated ISO (International Standards Organization) C++ standard every three years, starting with ISO C++11 (where C++23 is the most recent approved standard at the time of this writing).
+In the years since then, C++ has undergone several International Standards Organization (ISO) standards updates and is currently developing an updated ISO C++ standard every three years, starting with ISO C++11 (where C++23 is the most recent approved standard at the time of this writing).
 Over the last 40 years, billions of lines of C++ code have been written and deployed with varying degrees of quality, safety, robustness, and sustainability.
 The way that C++ has evolved over the last 40+ years from a thin layer on top of C (together with the need for backward compatibility supporting billions of lines of previously written C++ code), has given rise to a vast and complex language and standard library.
-When used in raw form by undisciplined developers, C++ has been used to arguably create some of the most confusing, fragile, unsafe, and unsecure software in existence (riving C in this respect).
+When used in raw form by undisciplined developers, C++ has been used to arguably create some of the most confusing, fragile, unsafe, and unsecure software in existence (rivaling C in this respect).
 However, despite this, C++ has seen a resurgence in popularity and usage in recent years, with C++ being the fastest-growing language in 2022 and overtaking C to become the second most popular language (behind Python) in June 2024.<sup>[9],[10]</sup>
 
 Over the years, as C++ has evolved, numerous authors have written books on how to successfully use the C++ programming language to create quality C++ software.<sup>[2]</sup>
 However, with each new C++ standard (which includes new language features and library extensions) and with updated experience and new idioms, much of the guidance in these prior books becomes obsolete (and even counter-productive) as time passes.
-While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ book<sup>[4],[6],[7]</sup> and other Effective C++ books<sup>[5],[8]</sup>), this is unsustainable and leaves a hole in guidance for the most effective usage of modern C++ (as it evolves).
+While some authors have put out updated versions of their books to compensate for new C++ standards and idioms (e.g., Scott Meyer's popular Effective C++ book<sup>[4],[6],[7]</sup> and other Effective C++ books<sup>[5],[8]</sup>), this is unsustainable and leaves a hole in guidance for the most effective usage of modern C++ as it continues to evolve.
 
 
 ### Overview of the C++ Core Guidelines
@@ -37,9 +37,9 @@ While some authors have put out updated versions of their books to compensate fo
 Would it not be nice if there was a way to take the best advice and idioms from the excellent books written over the years by thought leaders in the C++ community and update and combine them with modern language features, libraries, and idioms?
 And what if these combined guidelines could be constantly kept up-to-date as new C++ standards come out and the C++ community responds to the shifting needs of the software development community?
 That is precisely what the **C++ Core Guidelines** website seeks to do.
-Bjarne Stroustrup (the inventor of C++ and still active in the C++ community) and Herb Sutter (author of many excellent books on C++ and active memory of the C++ standards committee) are the primary editors of the C++ Core Guidelines site, and the content has been contributed by at least 330+ other C++ authors and developers.
+Bjarne Stroustrup (the inventor of C++ and still active in the C++ community) and Herb Sutter (author of many excellent books on C++ and active member of the C++ standards committee) are the primary editors of the C++ Core Guidelines site, and the content has been contributed by at least 330+ other C++ authors and developers.
 
-The site is currently organized as a single `github.io` page that is broken up into major sections covering several areas, including:
+The C++ Core Guidelines site is currently organized as a single `github.io` page that is broken up into major sections covering several areas, including:
 
 * **In**: Introduction
 * **P**: Philosophy
@@ -60,7 +60,7 @@ The site is currently organized as a single `github.io` page that is broken up i
 
 with additional supporting sections and material.
 
-These guidelines are based only on the standard C++ language and standard C++ library, with the addition of the small and simple "GSL: Guidelines support library".<sup>[3]</sup>
+These guidelines are based only on the standard C++ language and standard C++ library; with the addition of the small and simple "GSL: Guidelines support library".<sup>[3]</sup>
 (The latter is needed to codify essential idioms that the C++ standard library does not directly support.)
 
 A significant motivation and focus of the C++ Core Guidelines is the creation of safe and secure C++ software.
@@ -81,7 +81,7 @@ The backend GitHub repository currently has 1963 watchers, 5.5k forks, 42k stars
 Therefore, this is a significant effort to define guidelines and best practices for modern C++.
 
 Many of the C++ Core Guidelines have LLVM Clang-Tidy checks that can be applied to ensure that C++ software follows them.
-(At the time of this writing, there are 30 of the `cppcoreguidelines-*` clang tidy checks of which eight can be automatically fixed using the auto-refactoring feature of Clang-Tidy.<sup>[11]</sup>
+(At the time of this writing, there are 30 of the `cppcoreguidelines-*` clang tidy checks, of which eight can be automatically fixed using the auto-refactoring feature of Clang-Tidy.<sup>[11]</sup>
 Therefore, most C++ Core Guidelines are not checked and/or cannot be easily checked or enforced by a static analysis tool.)
 The Microsoft C++ compiler also supports enforcing many of these guidelines for Windows development environments.
 
