@@ -1,6 +1,6 @@
 # Guide to Securing Scientific Software 
 <!--deck text start-->
-Are you interested in learning about and identifying security gaps that need to be addressed in your project or just learning more about software security to improve development practices. This introductory guide is a good place to begin.
+Are you interested in learning about and identifying security gaps in your project or just learning more about software security to improve development practices? This introductory guide is a good place to begin.
 <!--deck text end-->
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
