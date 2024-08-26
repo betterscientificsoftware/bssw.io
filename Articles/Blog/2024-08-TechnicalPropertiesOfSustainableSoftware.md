@@ -49,8 +49,11 @@ The following technical properties have been widely recognized to lead to softwa
 
 **Open Source License**:
 Allow the user to change and use the software in any way that is needed for the success of their projects.
-Note that this does not require a fully open-source license in many cases.
+Note that this does not require a fully open-source license in many cases (e.g., such as with export controlled or ITAR software).
 The license just has to allow your project to change the source and use the software as needed for your project.
+Picking an software license can be a tricky task and every open-source license is not equivalent.
+For example, some open-source licenses like the GNU Public License (GPL), and its variations, can actually restrict the maintenance and usage of the software in many cases.
+Software licensing can be complex and requires careful consideration.<sup>[9]</sup>
 
 **Documented history of development**:
 The development history of the software (which can be captured in the version-control history and linked issue trackers) can answer many questions that are important to the future of the software.
@@ -180,6 +183,7 @@ Topics: Software sustainability
 [6]: #sfer-ezikiw-6 "Domain Driven Design"
 [7]: #sfer-ezikiw-7 "Clean Code"
 [8]: #sfer-ezikiw-8 "Code Complete: 2nd Edition"
+[9]: #sfer-ezikiw-9 "BSSw: An Introduction to Choosing an Open Source Code License"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
@@ -191,3 +195,4 @@ Topics: Software sustainability
 * <a name="sfer-ezikiw-6"></a><sup>6</sup>[Domain Driven Design<br>Eric Evans, Addison Wesley, 2004](https://martinfowler.com/bliki/DomainDrivenDesign.html)
 * <a name="sfer-ezikiw-7"></a><sup>7</sup>[Clean Code - A Handbook of Agile Software Craftsmanship<br>Robert Martin, Prentice Hall, 2009, ISBN-13: 978-0-13-235088-4, ISBN-10: 0-13-235088-2](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
 * <a name="sfer-ezikiw-8"></a><sup>8</sup>[Code Complete: Second Edition: A Practical Handbook of Software Construction<br>Steve McConnell, 2009, ISBN: 9780735619678](https://github.com/martinmurciego/good-books/blob/master/Clean%20Code_%20A%20Handbook%20of%20Agile%20Software%20Craftsmanship%20-%20Robert%20C.%20Martin.pdf)
+* <a name="sfer-ezikiw-9"></a><sup>9</sup>[BSSw: An Introduction to Choosing an Open Source Code License](https://bssw.io/items/an-introduction-to-choosing-an-open-source-code-license)
