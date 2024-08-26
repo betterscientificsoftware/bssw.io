@@ -61,9 +61,9 @@ What factors caused the software to be in its current state?
 What requirements went into the development of the software? 
 (Might some of those requirements and features no longer be necessary for future versions of the software which would allow breaking some backward compatibility?)
 
-**Core domain model distillation document**:
-Has a clear documented core domain model (which is represented in the code or a clear documented mapping of the domain model to software) been given?<sup>[6]</sup>
-This document and model is needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
+**Clear documented architecture and goals**:
+Has a clear core domain model and architecture for the software been documented (which is represented in the code or a clear documented mapping of the domain model to software)?<sup>[6]</sup>
+This document and domain model are needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
 **Portable, well-documented, robust tests**:
 that demonstrate and protect the important behaviors of the software
