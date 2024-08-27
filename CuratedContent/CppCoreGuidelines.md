@@ -5,7 +5,7 @@ The C++ Core Guidelines website is a living, online, community-developed documen
 <!-- deck text end -->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett")
-#### Publication date: August ???, 2024
+#### Publication date: August 26, 2024
 
 Resource Information | Details
 :--- | :---
