@@ -6,7 +6,7 @@
 
 **Image:** /images/People_2023_F_Mudafort.jpg
 
-**URL:** https://www.nrel.gov/research/staff/rafael-mudafort.html
+**URL:** https://research-hub.nrel.gov/en/persons/rafael-mudafort
 
 **LinkedIn:** https://www.linkedin.com/in/rafmudaf/
 
