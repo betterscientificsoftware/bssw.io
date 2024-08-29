@@ -13,7 +13,8 @@ elements of software design.
 This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org).
 
 <br>
-<img src='../../images/People_2023_F_Mudafort.jpg'/>
+[Rafael Mudafort]<img src='../../images/People_2023_F_Mudafort.jpg' class='logo' />
+
 <br>
 
 Rafael Mudafort is a researcher at the National Renewable Energy Lab’s (NREL) National Wind Technology Center, an applied center that engages in research and collaboration with the U.S. Department of Energy and the wind energy industry. For this, Mudafort and his colleagues use research and scientific software to do wind energy analysis, and while software development is a key activity, a focus on the science often takes priority over the usability and accessibility of that software. Mudafort wants to change the culture around that. The Better Scientific Software (BSSw) Fellowship Program gave him the opportunity to elevate the quality and impact of NREL's wind energy software and to define a sustainable and rewarding career path for research software engineers at the lab.
@@ -31,6 +32,8 @@ His advice for those applying for the 2025 BSSw Fellowship: “Dream big. If the
 *The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Submissions for the 2025 cohort are now open: 2025 BSSw Fellowship Application Form!*
 
 ### More info
+Learn more about [Rafael Mudafort's work as a BSSw Fellow](https://bssw.io/fellows/rafael-mudafort).
+
 See the new [blog post](https://bssw.io/blog_posts/applications-open-for-the-2025-bssw-fellowship-program) by Elsa Gonsiorowski, coordinator of the BSSw Fellowship Program.
 
 Application deadline: Monday, September 30, 2024; this is a firm deadline that will not be extended.
