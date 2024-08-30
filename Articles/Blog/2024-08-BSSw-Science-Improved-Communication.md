@@ -10,7 +10,7 @@ elements of software design.
 
 <br>
 
-This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org).
+This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/bettering-software-and-science-through-improved-communication/).
 
 <br>
 [Rafael Mudafort]<img src='../../images/People_2023_F_Mudafort.jpg' class='logo' />
