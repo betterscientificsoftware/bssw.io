@@ -2,7 +2,7 @@
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: August ???, 2024
+#### Publication date: September ???, 2024
 
 <!-- begin deck -->
 While there are many different enablers or obstacles to software sustainability, some of the most important are related to the technical properties of the software itself, independent of any individual developer, development team, user community, or funding source.
