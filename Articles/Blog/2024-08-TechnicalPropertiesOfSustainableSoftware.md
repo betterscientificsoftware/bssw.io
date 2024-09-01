@@ -29,18 +29,21 @@ and:
 
 > Sustainability is a measure of the cost to maintain and improve a product over its lifetime.
 
-With this latter cost/feasibility focus in mind, we define three different **Levels of Sustainable Software**:
+With this latter viability/cost perspective in mind, we define three different **Levels of Sustainable Software**:
 
 * **Weak Definition**: The same team of developers that originally created the software can continue to add new features and fix bugs in the software at a reasonable cost (i.e., where starting from scratch would be more expensive, even in the long term).
 
-* **Medium Definition**: New developers can reasonably make contributions to the software but these contributions are integrated back by the original development team.
+* **Medium Definition**: New developers can reasonably make contributions to the software, but these contributions are integrated back by the original development team.
 
 * **Strong Definition**: A different set of developers from the original developers can take over new feature development and bug fixes, and the original developers can go away (and the new team can do so cheaper than starting over from scratch).
 
 The ultimate instance of the "Strong Definition" is  the **Extreme Use Case for Sustainable Software**:
-Your project uses some external software Package X in such a way that it would be very difficult and expensive to rip it out and/or change the code to use something else.
+
+> Your project uses some external software Package X in such a way that it would be very difficult and expensive to rip it out and/or change the code to use something else.
 At some point, the developers of Package X go away, and no one is left in the development community to help extend or support Package X.
-What technical properties of Package X would make it so that you could continue support (with reasonable cost and risk) your own project's usage of Package X, which includes activities like adding some new features, porting to new platforms and compilers, and fixing bugs (i.e., that may be exposed by adding new features and porting to new platforms and upgrading upstream dependencies)?
+Therefore, your project is forced to sustain software Package X for its own usage for a reasonable time horizon.
+
+What technical properties of Package X would make it so that your project could continue to sustain (with reasonable cost and risk) your own project's usage of Package X, which includes activities like adding some new features, porting to new platforms and compilers, and fixing bugs (i.e., that may be exposed by adding new features and porting to new platforms and upgrading upstream dependencies)?
 
 
 ### Key Technical Properties of Sustainable Software
@@ -49,9 +52,9 @@ The following technical properties have been widely recognized to lead to softwa
 
 **Open Source License**:
 Allow the user to change and use the software in any way that is needed for the success of their projects.
-Note that this does not require a fully open-source license in many cases (e.g., such as with export controlled or ITAR software).
+Note that this does not always require a fully open-source license in many cases (e.g., such as with export controlled or ITAR software).
 The license just has to allow your project to change the source and use the software as needed for your project.
-Picking an software license can be a tricky task and every open-source license is not equivalent.
+Picking a software license can be a tricky task and every open-source license is not equivalent.
 For example, some open-source licenses like the GNU Public License (GPL), and its variations, can actually restrict the maintenance and usage of the software in many cases.
 Software licensing can be complex and requires careful consideration.<sup>[9]</sup>
 
@@ -59,35 +62,35 @@ Software licensing can be complex and requires careful consideration.<sup>[9]</s
 The development history of the software (which can be captured in the version-control history and linked issue trackers) can answer many questions that are important to the future of the software.
 What factors caused the software to be in its current state?
 What requirements went into the development of the software? 
-(Might some of those requirements and features no longer be necessary for future versions of the software which would allow breaking some backward compatibility?)
+(Might some of those requirements and features no longer be necessary for future versions of the software, which would allow breaking some backward compatibility?)
 
 **Clear documented architecture and goals**:
-Has a clear core domain model and architecture for the software been documented (which is represented in the code or a clear documented mapping of the domain model to software)?<sup>[6]</sup>
+A clear core domain model and architecture for the software as been documented (which is represented in the code or a clear documented mapping of the domain model to software)?<sup>[6]</sup>
 This document and domain model are needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
-**Portable, well-documented, robust tests**:
-that demonstrate and protect the important behaviors of the software
-These tests should give the key use cases and embody the requirements of the code that demonstrate and protect the important behaviors of the software
-These should not just be simple no-change regression tests that don't actually reveal the intent of the software.<sup>[3]</sup>
-It must be made clear how to run these tests and ensure they pass or fail.
+**Strong, portable, well-documented and robust tests**:
+The software package has strong and robust unit, integration, and system-level tests that demonstrate and protect the important behaviors of the software.<sup>[4]</sup>
+These tests should give the key use cases and embody the requirements of the code that demonstrate and protect the important features of the software.
+These should primarily be verification and acceptance tests, instead of no-change regression tests that don't actually reveal the intent of the software.<sup>[3]</sup>
+It must be made clear how to run the test suites and ensure they have a clear pass or fail.
 The reason for why a test passes or fails must be obvious from the output of the test (without having to open a debugger or add extra print statements).
-Quality tests like these can take the place of a lot of documentation that one would otherwise need to write and such tests are, in a way, better than more standard documentation since automated tests are always checked after every change where standard documentation cannot.
+Quality tests like these can take the place of a lot of documentation that one would otherwise need to write and such tests are, in a way, better than more standard documentation since automated tests are always checked after every change to the code (where standard documentation cannot).
 These tests are needed to safely change or port the software and to understand the intended behavior of the software to support future usage or changes.
 
 **Clean, logical, and understandable code interfaces and implementation**:
 Properties of clean code include self-documenting code, other minimal necessary internal and external documentation, elimination of duplication, other well-known design and implementation principles.<sup>[7],[8]</sup>
 
 **Fast building code and fast running test suite**:
-An important aspect of sustainable software that is often overlooked is the computational overhead needed to build the software and tests and then run the test suite.
-A software package that requires significant computational resources to test the code after any change represents a huge technical debt that must be carried around by future maintainers and sponsors of the software package.
+An important aspect of sustainable software that is often overlooked is the computational overhead needed to build the software and tests, and to run the test suite(s).
+A software package that requires significant computational resources to rebuild and test the code after any change represents a huge technical debt that must be carried around by future maintainers and sponsors of the software package.
+Software that is very computationally expensive to build and test, or requires special hardware (like GPUs), can impose a huge burden on its sustainability in the need to procure, set up, and maintain the computing resources and DevOps infrastructure needed to utilize them.
 Alternatively, software that builds relatively quickly and where the tests can be run in less time can often take advantage of free cloud continuous testing services.
-(For example, at the time of this writing, services like GitHub Actions and GitLab CI provide free cloud computing cycles to test software projects on these platforms with various limits on the computational loads supported.)
-However, software that is very computationally expensive to build and test or requires special hardware (like GPUs) can impose a huge burden on its sustainability in the need to procure, set up, and maintain the computing resources and DevOps infrastructure needed to utilize them.
+(For example, at the time of this writing, services like GitHub Actions and GitLab CI provide free cloud computing cycles to test software projects on these platforms with relatively tight limits on the computational loads.)
 
 **Well-defined and well-regulated internal and external dependencies**:
 Reuse and sustainability are greatly aided by minimizing external dependencies and having well-structured internal dependencies within the software package itself (established using good design and build modularity).
-For example, even if your project only depends on small piece of a large external software package, if that smaller piece cannot easily be targeted and extracted, then you may be stuck having to configure and build a large amount of software as you port to new platforms and perform other maintenance tasks.
-The less code you have to configure and build, the easier it will be to sustain if needed.
+For example, even if your project only depends on small piece of a large external software package, if that smaller external piece cannot easily be targeted and extracted, then you may be stuck having to configure and build a large amount of software that you never use as you port to new platforms and perform other maintenance tasks.
+The less code you have to configure and build, the easier it is to sustain if needed.
 
 **All upstream dependencies are also sustainable software**:
 If any of the upstream dependencies of a software package do not also have these key technical properties of sustainable software, then the downstream dependent packages cannot be sustainable.
@@ -95,58 +98,57 @@ If any of the upstream dependencies of a software package do not also have these
 This recursive requirement only stops at standard tools like major compilers and other ubiquitous tools and libraries that are guaranteed to be sustained and supported over the long term.
 (This requirement is also another motivation for minimizing external dependencies.)
 
-Software that satisfies key technical properties listed above would tend to meet the Strong Definition of sustainable software defined above.
-In addition, smaller (or extremely well-structured) software packages that possess these technical properties could be considered **Self-Sustaining Software** since such software does not need a dedicated team to sustain it for your (limited) continued usage.
-(If needed, you could sustain such a package yourself for your usage at a reasonable cost.)
+Software that satisfies the key technical properties listed above would tend to meet the **Strong Definition** of sustainable software.
+In addition, especially smaller or extremely well-structured software packages that strongly possess these technical properties could be considered **Self-Sustaining Software**, since such software should not need a dedicated team to sustain it for your project's (limited) continued usage.
+(If needed, you could sustain such an upstream package yourself for your project's usage at a reasonable cost.)
 
 
 ### Some Key Practices for Creating and Maintaining Sustainable Software
 
-While this article has focused on the technical properties of the software itself, there are key practices that can aid in the creation and maintenance of sustainable software that possess these technical properties.<sup>[7],[8]</sup>
+While this article has focused on the technical properties of the software itself, there are several key practices<sup>[7],[8]</sup> that can aid in the creation and maintenance of sustainable software that possess these technical properties, including some of the following.
 
 **Development and Collaboration Workflows Practices:**
 * For shared development, use a distributed version control tool (e.g. Git) to manage the source and use appropriate development and integration workflows according to well-established idioms appropriate for your project.
-* To encourage peer contributions, use an open-source software development platform that facilitates these workflows (e.g., GitHub, GitLab, BitBucket)
+* To encourage peer contributions, use an open-source software development platform that facilitates collaborative workflows (e.g., GitHub, GitLab, BitBucket).
 
-**Requirements Collection and Maintenance:**
-* Every non-trivial change to the software should be driven by a clear requirement or other clearly defensible argument.
-* Create well-structured and well-documented version control (i.e. Git) commits and commit messages for every change to the software, describing why the change was made and point to any requirements-related documentation (e.g., issue trackers).
+**Requirements Tracking Practices:**
+* Every non-trivial change to the software should be driven by a clear requirement or other clearly defensible rational.
+* Create well-structured and well-documented version control (i.e., Git) commits for every change to the software, describing why the change was made and point to any requirements-related documentation (e.g., issue trackers).
 
-**Clean Understandable Code Practices:**
-* Favor languages that are more widely known and/or well-supported over languages that are more confusing and/or less well-known.
+**Clean Understandable Coding Practices:**
+* Favor languages that are more widely known and/or well-supported.
 * Use domain-driven design for the key interfaces and implementation details.<sup>[5]</sup>
 * Strive for self-documenting code (i.e., reduce the need for extra documentation that typically does not get maintained).
 * Reduce or eliminate code duplication.
-* Reduce software complexity (e.g., deeply nested control structures, deep inheritance hierarchies).
-* Use automatic code formatting tools (e.g., `clang-format`).
 * Continuously refactor the code while adding new features and fixing bugs to maintain or improve the code, tests, and documentation.
-* Have all changes to the code, tests, or documentation reviewed by at least on other developer.
+* Reduce software complexity (e.g., deeply nested control structures, deep inheritance hierarchies, etc.).
+* Use automatic code formatting tools (e.g., Clang-Format).
+* Use static analysis tools to enforce coding standards (e.g., Clang-Tidy).
+* Have all changes to the code, tests, or documentation reviewed by at least on other knowledgeable developer (focusing on issues that cannot be found and enforced by automated tools like Clang-Format and Clang-Tidy).
 
 **Testing Practices:**
 * Favor verification and acceptance tests over no-change regression tests.<sup>[4]</sup>
-* Use acceptance-test driven development (ATDD) and unit-test driven development (TDD) (because these tend to lead to better tests with better code coverage and better feature coverage than tests that get written after the code is written).
-* Invest in making tests run as fast as possible (expensive tests are a significant form of technical debt to a software project).
-* Use static analyzers (e.g., Clang-Tidy) and runtime memory checkers (e.g., Clang address/memory/leak sanitizers)<sup>[3]</sup>
+* Use acceptance-test driven development (ATDD) and unit-test driven development (TDD) (because these tend to lead to better tests with higher code coverage and feature coverage than tests that get created after the code is written).
+* Invest in making tests run as fast as possible (expensive tests are a significant form of technical debt).
+* Use static analyzers (e.g., Clang-Tidy) and runtime memory checkers (e.g., Clang address/memory/leak sanitizers)<sup>[3]</sup> to look for software defects.
 
-**Building and Running Tests Practices:**
-* Use build and test systems that are better known and/or supported that can create portable builds and run tests on all target platforms (e.g., CMake and CTest)
+**DevOps Practices:**
+* Use build and test systems that are better known and/or supported that can create portable builds (e.g., CMake) and run tests on all target platforms (e.g., CTest).
 * Make it easy to see summaries of test results and the ability to drill down into more details about what ran and what passed or failed and why (e.g., CTest and CDash).
-* Set up automated builds that run tests before integrating changes to the main development branch (e.g., use continuous integration builders that are integrated into GitHub or GitLab).
+* Set up automated builds that run tests before integrating changes to the main development branch (e.g., use continuous integration frameworks that are integrated into GitHub or GitLab).
 
 
 ### Summary
 
-The technical properties of a software package and its upstream dependencies can have a major impact on reducing the cost of maintaining and extending a given software package.
-In some cases, the software can be sufficiently clean, well-tested, well-structured, and documented, and with minimal enough upstream dependencies that it can be reasonably sustained by any motivated developer, even if the originating development team and/or origination disappear.
+Some key technical properties of a software package (and its upstream dependencies) can have major impact on reducing the cost of maintaining and extending a given software package, and therefore improving its sustainability.
+In some cases, the software can be sufficiently clean, well-tested, well-structured, and well-documented, and with minimal-enough upstream dependencies, that it can be reasonably sustained by any motivated developer; even if the originating development team and/or organization disappear.
 This is the extreme form of sustainable software that approaches the ideal of ***Self-Sustaining Software*** and should be the goal for many essential software packages in a software ecosystem.
-In identifying these desirable technical properties, projects can adopt and adapt development processes that produce and maintain these desirable technical properties.
+In identifying these desirable technical properties, projects can adopt and adapt development processes that help to produce and maintain these desirable technical properties.
 
 
 <!--- ToDos:
 
-* Mention pulls (user demand, unique features, not easy to duplicate, little-to-no competition, high surface areas interaction with the code,...) and pushes for software sustainability?  => May not have room for this.  Article is already too long!
-
-* Do detailed editing with Grammarly.com ...
+* Mention pulls for (e.g., user demand, unique features, not easy to duplicate, little-to-no competition, high surface area interaction with the code, etc.) and drags on (the absences of these technical practices) for software sustainability?  => May not have room for this.  Article is already too long!
 
 --->
 
