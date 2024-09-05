@@ -33,6 +33,8 @@ The books are organized into chapters, each focusing on a different area of nume
 - **Random Numbers:** Generation and use of pseudo-random and quasi-random sequences.
 - **Signal Processing:** Fourier and spectral analysis techniques.
 
+Of notable absence in the material are methods involving parallelism.
+
 ### Usage
 While the books are used across various disciplines for educational purposes, they also serve as a quick reference for professionals needing to implement a numerical method. The clear exposition and code samples help readers apply the techniques to real-world problems.
 
