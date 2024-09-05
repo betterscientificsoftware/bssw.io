@@ -4,7 +4,7 @@
 The Numerical Recipes books are available online.
 <!--- deck text end --->
 
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86) with help from ChatGPT
 #### Publication date: October 6, 2024
 
 Resource information | Details
@@ -39,7 +39,7 @@ While the books are used across various disciplines for educational purposes, th
 ### Reception and Legacy
 "Numerical Recipes" has been praised for demystifying complex numerical techniques and making them accessible to a broad audience.
 However, it has faced criticism over the years for the efficiency and modern relevance of some of its algorithms, particularly in the context of high-performance computing.
-Despite this, it remains a valuable resource for those learning and applying numerical methods in science and engineering.
+Despite this, it remains a valuable resource for those early in their experiences learning and applying numerical methods in science and engineering.
 
 <!---
 Publish: yes
