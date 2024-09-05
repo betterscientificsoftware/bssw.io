@@ -20,7 +20,8 @@ Because of this, topics such as parallelism, scalability, numerical efficiency a
 Nonetheless, the series explains the theoretical concepts behind each algorithm and offers practical advice on how to effectively implement them including even example code in Fortran and C.
 
 ### Content and Structure
-The books are organized into chapters, each focusing on a different area of numerical computation. Key topics covered include:
+The books are organized into chapters, each focusing on a different area of numerical computation.
+Key topics covered include:
 
 - **Linear Algebra:** Solutions to systems of linear equations, eigenvalue problems, and matrix decompositions.
 - **Interpolation and Extrapolation:** Techniques for estimating values between discrete points of data.
@@ -36,7 +37,8 @@ The books are organized into chapters, each focusing on a different area of nume
 Of notable absence in the material are methods involving parallelism.
 
 ### Usage
-While the books are used across various disciplines for educational purposes, they also serve as a quick reference for professionals needing to implement a numerical method. The clear exposition and code samples help readers apply the techniques to real-world problems.
+While the books are used across various disciplines for educational purposes, they also serve as a quick reference for professionals needing to implement a numerical method.
+The clear exposition and code samples help readers apply the techniques to real-world problems.
 
 ### Reception and Legacy
 "Numerical Recipes" has been praised for demystifying complex numerical techniques and making them accessible to a broad audience.
