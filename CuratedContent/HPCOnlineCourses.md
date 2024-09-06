@@ -118,6 +118,7 @@ Class central does not offer any online courses itself.
 However, it is designed to help users find online courses from hundreds of providers for specific topics and purposes.
 Class Central aggregates courses from many providers to help you find the best courses on almost any subject, wherever they exist.
 Class Central also produces a regular report on the latest trends and innovations in online education.
+For example, [searching for `hpc` and `cse`](https://www.classcentral.com/search?q=hpc+cse) there more than a hundred course offerings from providers such as Stanford University, Google and Microsoft.
 
 <!---
 Publish: yes
