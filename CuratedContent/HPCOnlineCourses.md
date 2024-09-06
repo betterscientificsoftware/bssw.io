@@ -4,7 +4,7 @@
 If you are interested in formal courses for HPC/CSE, consider some of the resources mentioned here.
 <!--- deck text end --->
 
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86) with help from ChatGPT
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: September 20, 2024
 
 This article introduces a number of different *formal*, courses (most of which are available online) with material relevant to High Performance Computing (HPC) and Computational Science and Engineering (CSE).
