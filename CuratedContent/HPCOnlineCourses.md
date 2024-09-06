@@ -8,10 +8,9 @@ If you are interested in formal courses for HPC/CSE, consider some of the resour
 #### Publication date: September 20, 2024
 
 This article introduces a number of different *formal*, courses (most of which are available online) with material relevant to High Performance Computing (HPC) and Computational Science and Engineering (CSE).
-The difference between formal courses and other online training material is the quality, and organization of training resources as well as access to subject matter experts through Q&A forums or regular office hours.
-Some of the material relates to the basic skills needed to *use* HPC/CSE resources while other materials relate to advanced skills needed to develop HPC/CSE software.
-Several of the courses are free and self-paced.
-Others may involve a registration fee, provide a certificate of completion or continuing education credits and/or may be available only during specific events.
+Some of the courses are free and self-paced.
+Others may involve subscription or registration fees and may only be available during specific times or events.
+However, courses that involve such fees also offer additional benefits such as access to live subject matter experts in Q&A forums or regular office hours or offer a certificate of completion or continuing education credits.
 
 ### [HPC Carpentry](http://www.hpc-carpentry.org)
 
@@ -30,7 +29,7 @@ CodeRefinery also provides shorter workshops, video tutorials, and special topic
 
 ### [HPC-Moodle](https://www.hpc-training.org/moodle/)
 
-HPC-Moodel is an online education resource offered by NCSA which offers free, [self-paced courses](https://www.hpc-training.org/moodle/course/index.php?categoryid=11) in HPC, live training webinars and workshops.
+HPC-Moodle is an online education resource offered by NCSA which offers free, [self-paced courses](https://www.hpc-training.org/moodle/course/index.php?categoryid=11) in HPC, live training webinars and workshops.
 HPC-Moodle is sponsored by the National Center for Supercomputing Applications.
 
 ### [NPTEL](https://nptel.ac.in)
