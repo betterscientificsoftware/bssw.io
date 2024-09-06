@@ -112,7 +112,7 @@ Resource information | Details
 :--- | :---
 Resource title | Class Central
 Authors | Various
-Website | [Coursera](https://www.coursera.org)
+Website | [Class Centeral](https://www.classcentral.com)
 
 Class central does not offer any online courses itself.
 However, it is designed to help users find online courses from hundreds of providers for specific topics and purposes.
