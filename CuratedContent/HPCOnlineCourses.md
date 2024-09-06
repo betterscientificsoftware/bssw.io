@@ -8,6 +8,7 @@ If you are interested in formal courses for HPC/CSE, consider some of the resour
 #### Publication date: September 20, 2024
 
 This article introduces a number of different *formal*, courses (most of which are available online) with material relevant to High Performance Computing (HPC) and Computational Science and Engineering (CSE).
+Some of the material relates to the basic skills needed to *use* HPC/CSE resources (hardware and/or software) while other materials relate to advanced skills needed to *develop* HPC/CSE software.
 Some of the courses are free and self-paced.
 Others may involve subscription or registration fees and may only be available during specific times or events.
 However, courses that involve such fees also offer additional benefits such as access to live subject matter experts in Q&A forums or regular office hours or offer a certificate of completion or continuing education credits.
