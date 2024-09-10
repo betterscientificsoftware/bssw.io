@@ -2,7 +2,7 @@
 
 #### Contributed by Heather Bourbeau and Sustainable Horizons Institute
 
-#### Publication date: September 10, 2024
+#### Publication date: September 9, 2024
 
 Meet BSSw Fellow Nicole Brewer.  This article highlights her experiences in the BSSw Fellowship Program, 
 including her work on improving accessibility of research data and software with scientific web applications in Jupyter notebooks.  
