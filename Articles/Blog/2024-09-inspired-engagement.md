@@ -5,7 +5,7 @@
 #### Publication date: September 13, 2024
 
 Meet BSSw Honorable Mention Keith Beattie.  This article highlights his experiences in the BSSw Fellowship community, including his 
-community engagement as an Honorable Mention.  
+community engagement as a 2021 BSSw Honorable Mention.  
 
 <br>
 
