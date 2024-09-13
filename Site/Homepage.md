@@ -5,12 +5,12 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/OG_2408_BSSwFellowships.png
 Slide1 R: ../Articles/Blog/2024-08-BSSwFellowsOpen2024.md 
-Slide2 L: ../Articles/Blog/2024-09-clarity-and-community-gained.md
-Slide2 L: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
-Slide3 L: ../Articles/Blog/2024-08-ACM-REP-23-24.md
-Slide3 R: ../CuratedContent/GuideSecuringScientificSoftware.md
-Slide4 L: ../CuratedContent/CppCoreGuidelines.md
-Slide4 R: ../CuratedContent/the-turing-way-reproducible-and-ethical-science
+Slide2 L: ../Articles/Blog/2024-09-inspired-engagement.md
+Slide2 R: ../Articles/Blog/2024-09-clarity-and-community-gained.md
+Slide3 L: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
+Slide3 R: ../Articles/Blog/2024-08-ACM-REP-23-24.md
+Slide4 L: ../CuratedContent/GuideSecuringScientificSoftware.md
+Slide4 R: ../CuratedContent/CppCoreGuidelines.md
 Slide5 L: ../Events/hpcbp-087-vtkm.md
 Slide5 R: ../Events/2024BSSwF_team-learning-workshop.md 
 Slide6 L: ../Events/2024-usrse-conf.md
