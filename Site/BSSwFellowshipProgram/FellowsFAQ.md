@@ -4,11 +4,14 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar
 
-We will host a Q&A webinar for the 2025 BSSw Fellowship Program.
 
+<!--
+We will host a Q&A webinar for the 2025 BSSw Fellowship Program.
 - **Tuesday, September 10, 2024, 2:00-3:00 pm EDT**
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
-- Slides & Recording for 2025 BSSw Fellowship Q&A Webinar:
+-->
+
+Slides & Recording for 2025 BSSw Fellowship Q&A Webinar:
 - Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.26978398.v1)
 - Recording: [(slides/audio)](https://youtu.be/mJ80lGh0r9I)
 
