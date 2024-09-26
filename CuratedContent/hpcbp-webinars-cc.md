@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2024-08-16*
+*Listed in reverse chronological order. Last updated: 2024-09-26*
+
+- 2024-09-25: [Development of VTK-m During ECP](https://ideas-productivity.org/events/hpcbp-087-vtkm), presented by Ken Moreland (Oak Ridge National Laboratory)
 
 - 2024-08-07: [Kitware Software Sustainability Matrix](https://ideas-productivity.org/events/hpcbp-086-softwaresustainability), presented by Bill Hoffman (Kitware, Inc.), and Will Schroeder (Kitware, Inc.)
 
@@ -203,7 +205,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2024-08-16
+#### Publication date: 2024-09-26
 
 <!---
 Publish: yes
