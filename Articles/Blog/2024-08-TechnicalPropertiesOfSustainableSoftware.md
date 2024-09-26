@@ -2,7 +2,7 @@
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: September ???, 2024
+#### Publication date: September 27, 2024
 
 <!-- begin deck -->
 While there are many different enablers or obstacles to software sustainability, some of the most important are related to the technical properties of the software itself, independent of any individual developer, development team, user community, or funding source.
@@ -37,7 +37,7 @@ With this latter viability/cost perspective in mind, we define three different *
 
 * **Strong Definition**: A different set of developers from the original developers can take over new feature development and bug fixes, and the original developers can go away (and the new team can do so cheaper than starting over from scratch).
 
-The ultimate instance of the "Strong Definition" is  the **Extreme Use Case for Sustainable Software**:
+The ultimate instance of the "Strong Definition" is the **Extreme Use Case for Sustainable Software**:
 
 > Your project uses some external software Package X in such a way that it would be very difficult and expensive to rip it out and/or change the code to use something else.
 At some point, the developers of Package X go away, and no one is left in the development community to help extend or support Package X.
@@ -64,8 +64,8 @@ What factors caused the software to be in its current state?
 What requirements went into the development of the software? 
 (Might some of those requirements and features no longer be necessary for future versions of the software, which would allow breaking some backward compatibility?)
 
-**Clear documented architecture and goals**:
-A clear core domain model and architecture for the software as been documented (which is represented in the code or a clear documented mapping of the domain model to software)?<sup>[6]</sup>
+**Clearly documented architecture and goals**:
+A clear core domain model and architecture for the software has been documented (which is represented in the code or a clear documented mapping of the domain model to software)?<sup>[6]</sup>
 This document and domain model are needed to constrain the scope of the software and to continue to improve software cohesion and internal consistency with future changes.
 
 **Strong, portable, well-documented and robust tests**:
@@ -74,7 +74,7 @@ These tests should give the key use cases and embody the requirements of the cod
 These should primarily be verification and acceptance tests, instead of no-change regression tests that don't actually reveal the intent of the software.<sup>[3]</sup>
 It must be made clear how to run the test suites and ensure they have a clear pass or fail.
 The reason for why a test passes or fails must be obvious from the output of the test (without having to open a debugger or add extra print statements).
-Quality tests like these can take the place of a lot of documentation that one would otherwise need to write and such tests are, in a way, better than more standard documentation since automated tests are always checked after every change to the code (where standard documentation cannot).
+Quality tests like these can take the place of a lot of documentation that one would otherwise need to write, and such tests are, in a way, better than more standard documentation since automated tests are always checked after every change to the code (where standard documentation cannot).
 These tests are needed to safely change or port the software and to understand the intended behavior of the software to support future usage or changes.
 
 **Clean, logical, and understandable code interfaces and implementation**:
@@ -112,7 +112,7 @@ While this article has focused on the technical properties of the software itsel
 * To encourage peer contributions, use an open-source software development platform that facilitates collaborative workflows (e.g., GitHub, GitLab, BitBucket).
 
 **Requirements Tracking Practices:**
-* Every non-trivial change to the software should be driven by a clear requirement or other clearly defensible rational.
+* Every non-trivial change to the software should be driven by a clear requirement or other clearly defensible rationale.
 * Create well-structured and well-documented version control (i.e., Git) commits for every change to the software, describing why the change was made and point to any requirements-related documentation (e.g., issue trackers).
 
 **Clean Understandable Coding Practices:**
