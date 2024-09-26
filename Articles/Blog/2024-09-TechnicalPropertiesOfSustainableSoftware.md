@@ -1,5 +1,9 @@
 # Technical Properties of Sustainable Software
 
+**Hero Image:**
+
+- <img src='../../images/2024-08-TechnicalPropertiesOfSustainableSoftware-hero-image.jpg' />
+
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
 #### Publication date: September 27, 2024
@@ -10,7 +14,9 @@ While there are many different enablers or obstacles to software sustainability,
 
 While some authors have looked at software sustainability from primarily institutional and social perspectives<sup>[5]</sup>, here, we consider vital technical properties of the software itself that help to improve sustainability and some development practices that aid in the creation and maintenance of sustainable software with these technical properties.
 
+<!--
 <img src='../../images/2024-08-TechnicalPropertiesOfSustainableSoftware-hero-image.jpg' class='page'/>
+-->
 
 
 ### Definitions of Sustainable Software
