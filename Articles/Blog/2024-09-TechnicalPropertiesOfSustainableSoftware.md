@@ -12,7 +12,7 @@ While some authors have looked at software sustainability from primarily institu
 
 <img src='../../images/2024-08-TechnicalPropertiesOfSustainableSoftware-hero-image.jpg' class='page'/>
 
-### Definitions of Sustainable Software
+### Definitions of sustainable software
 
 Various definitions of "software sustainability" exist in the software development community.
 The Better Scientific Software (BSSw.io) community defines software sustainability as<sup>[1]</sup>:
@@ -36,7 +36,7 @@ With this latter viability/cost perspective in mind, we define three different *
 
 * **Strong definition**: A different set of developers from the original developers can take over new feature development and bug fixes, and the original developers can go away (and the new team can do so cheaper than starting over from scratch).
 
-The ultimate instance of the "Strong Definition" is the **Extreme use case for sustainable software**:
+The ultimate instance of the "strong definition" is the **extreme use case for sustainable software**:
 
 > Your project uses some external software Package X in such a way that it would be very difficult and expensive to rip it out and/or change the code to use something else.
 At some point, the developers of Package X go away, and no one is left in the development community to help extend or support Package X.
