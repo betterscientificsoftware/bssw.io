@@ -5,6 +5,27 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/OG_2408_BSSwFellowships.png
 Slide1 R: ../Articles/Blog/2024-08-BSSwFellowsOpen2024.md 
+Slide2 L: ../Articles/Blog/2024-09-TechnicalPropertiesOfSustainableSoftware.md
+Slide2 R: ../Articles/Blog/2024-09-cultivating-collaboration-skills.md
+Slide3 L: ../Articles/Blog/2024-09-better-teams-software-community.md
+Slide3 R: ../Articles/Blog/2024-09-inspired-engagement.md
+Slide4 L: ../Articles/Blog/2024-09-clarity-and-community-gained.md
+Slide4 R: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
+Slide5 L: ../CuratedContent/HPCOnlineCourses.md 
+Slide5 R: ../CuratedContent/hpcbp-webinars-cc.md
+Slide6 L: ../Events/hpcbp-088-inclusive-practices.md
+Slide6 R: ../Events/2024-usrse-conf.md
+Slide7 L: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
+Slide7 R: ../Articles/Blog/2024-07-BSSwFellows2023.md
+--->
+
+<!---
+Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
+
+Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
+LCM: Saving for use again later
+Slide1 L: ../images/OG_2408_BSSwFellowships.png
+Slide1 R: ../Articles/Blog/2024-08-BSSwFellowsOpen2024.md 
 Slide2 L: ../Articles/Blog/2024-09-inspired-engagement.md
 Slide2 R: ../Articles/Blog/2024-09-clarity-and-community-gained.md
 Slide3 L: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
@@ -17,24 +38,6 @@ Slide6 L: ../Events/2024-usrse-conf.md
 Slide6 R: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
 Slide7 L: ../Articles/Blog/2024-07-BSSwFellows2023.md
 Slide7 R: ../images/Blog_2307_BSSwFellows.png
---->
-
-<!---
-Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
-
-Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
-LCM: Saving for use again later
-
-Slide1 L: ../images/OG_2408_BSSwFellowships.png
-Slide1 R: ../Articles/Blog/2024-08-BSSwFellowsOpen2024.md
-Slide2 L: ../images/Blog_2307_BSSwFellows.png
-Slide2 R: ../Articles/Blog/2024-07-BSSwFellows2023.md
-Slide3 L: ../Articles/Blog/2024-07-HPSF-launch.md
-Slide3 R: ../CuratedContent/WordsMatter.md
-Slide4 L: ../CuratedContent/TuringWay.md 
-Slide4 R: ../Events/2024-08-llnl-hpc-tutorials.md
-Slide5 L: ../Events/2024BSSwF_team-learning-workshop.md
-Slide5 R: ../Events/hpcbp-087-vtkm.md--->
 
 <!---
 [Site Overview](SiteOverview.md)
