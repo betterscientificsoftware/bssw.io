@@ -5,7 +5,7 @@ If you are interested in formal courses for HPC/CSE, consider some of the resour
 <!--- deck text end --->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: September 20, 2024
+#### Publication date: September 25, 2024
 
 This article introduces several *formal*, courses (most of which are available online) with material relevant to High Performance Computing (HPC) and Computational Science and Engineering (CSE).
 Some of the material relates to the basic skills needed to *use* HPC/CSE resources (hardware and/or software) while other materials relate to advanced skills needed to *develop* HPC/CSE software.
