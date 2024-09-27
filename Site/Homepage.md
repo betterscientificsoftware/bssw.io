@@ -5,18 +5,18 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../images/OG_2408_BSSwFellowships.png
 Slide1 R: ../Articles/Blog/2024-08-BSSwFellowsOpen2024.md 
-Slide2 L: ../Articles/Blog/Articles/Blog/2024-09-better-teams-software-community.md
-Slide2 R: ../Articles/Blog/2024-09-inspired-engagement.md
-Slide3 L: ../Articles/Blog/2024-09-clarity-and-community-gained.md
-Slide3 R: ../CuratedContent/HPCOnlineCourses.md 
-Slide4 L: ../CuratedContent/hpcbp-webinars-cc.md
-Slide4 R: ../Events/hpcbp-088-inclusive-practices.md
-Slide5 L: ../Events/2024-usrse-conf.md
-Slide5 R: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
-Slide6 L: ../Articles/Blog/2024-07-BSSwFellows2023.md
-Slide6 R: ../images/Blog_2307_BSSwFellows.png
-Slide7 L: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
-Slide7 R: ../CuratedContent/GuideSecuringScientificSoftware.md
+Slide2 L: ../Articles/Blog/2024-09-TechnicalPropertiesOfSustainableSoftware.md
+Slide2 R: ../Articles/Blog/2024-09-cultivating-collaboration-skills.md
+Slide3 L: ../Articles/Blog/2024-09-better-teams-software-community.md
+Slide3 R: ../Articles/Blog/2024-09-inspired-engagement.md
+Slide4 L: ../Articles/Blog/2024-09-clarity-and-community-gained.md
+Slide4 R: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
+Slide5 L: ../CuratedContent/HPCOnlineCourses.md 
+Slide5 R: ../CuratedContent/hpcbp-webinars-cc.md
+Slide6 L: ../Events/hpcbp-088-inclusive-practices.md
+Slide6 R: ../Events/2024-usrse-conf.md
+Slide7 L: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
+Slide7 R: ../Articles/Blog/2024-07-BSSwFellows2023.md
 --->
 
 <!---
