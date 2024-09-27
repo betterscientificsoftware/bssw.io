@@ -9,7 +9,7 @@ Slide2 L: ../Articles/Blog/Articles/Blog/2024-09-better-teams-software-community
 Slide2 R: ../Articles/Blog/2024-09-inspired-engagement.md
 Slide3 L: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
 Slide3 R: ../CuratedContent/HPCOnlineCourses.md 
-Slide4 L: ../CuratedContent/CuratedContent/2023-02-Inclusivescientificmeetings.md
+Slide4 L: ../CuratedContent/hpcbp-webinars-cc.md
 Slide4 R: ../Events/hpcbp-088-inclusive-practices.md
 Slide5 L: ../Events/2024-usrse-conf.md
 Slide5 R: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
