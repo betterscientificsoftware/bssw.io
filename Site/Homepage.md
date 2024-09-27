@@ -17,9 +17,6 @@ Slide6 L: ../Articles/Blog/2024-07-BSSwFellows2023.md
 Slide6 R: ../images/Blog_2307_BSSwFellows.png
 Slide7 L: ../Articles/Blog/2024-08-BSSw-Science-Improved-Communication.md
 Slide7 R: ../CuratedContent/GuideSecuringScientificSoftware.md
-
-
-
 --->
 
 <!---
