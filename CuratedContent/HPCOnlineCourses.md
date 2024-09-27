@@ -1,4 +1,4 @@
-## Formal Course Resources (mostly online) for Learning about HPC/CSE
+## Formal Course Resources for Learning about HPC
 
 <!--- deck text start --->
 If you are interested in formal courses for HPC/CSE, consider some of the resources mentioned here.
