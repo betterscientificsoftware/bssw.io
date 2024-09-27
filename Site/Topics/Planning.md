@@ -31,7 +31,7 @@ The ability of two or more software elements to be used together in an applicati
 <!---Topic order: 5--->
 
 - **Software Sustainability**
-The ability of software to continue or evolve.  Considerations are often different when viewed from different perspectives (user, developer, manager, funder), but generally relates to resources to maintain or evolve the code, adaptability of the codebase to new uses and new computational platforms.
+The ability of software to continue or evolve.  Considerations are often different when viewed from different perspectives (user, developer, manager, funder), but generally relate to resources to maintain or evolve the code, adaptability of the codebase to new uses and new computational platforms.
 <!---Topic order: 6--->
 
 - **User Experience Design**
