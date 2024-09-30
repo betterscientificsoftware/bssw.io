@@ -4,8 +4,8 @@
 Demystifying Complex Algorithms: The 'Numerical Recipes' Book Series
 <!--- deck text end --->
 
-#### Contributed by [Mark C. Miller](https://github.com/markcmiller86) with help from ChatGPT
-#### Publication date: October 6, 2024
+#### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
+#### Publication date: October 1, 2024
 
 Resource information | Details
 :--- | :---
