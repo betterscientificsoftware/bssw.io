@@ -1,7 +1,7 @@
 ## Numerical Recipes Books
 
 <!--- deck text start --->
-The Numerical Recipes books are available online.
+Demystifying Complex Algorithms: The 'Numerical Recipes' Book Series
 <!--- deck text end --->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86) with help from ChatGPT
@@ -9,12 +9,13 @@ The Numerical Recipes books are available online.
 
 Resource information | Details
 :--- | :---
-Resource title | Numerical Recipes: The Art of Scientific Computing, Third Edition
+Book title | Numerical Recipes: The Art of Scientific Computing, Third Edition
 Authors | W.H. Press, S.A. Teukolsky, W.T. Vetterling, and B.P. Flannery.
-Website | [Numerical Recipes](http://numerical.recipes)
+Website | [Numerical Recipes](http://numerical.recipes), available online
 
 ### Overview
 The "Numerical Recipes" series of books provides detailed instructions on implementing a wide variety of numerical algorithms using computer programs.
+This series of books is available online.
 The material is designed primarily to be *accessible* to scientists and engineers who have no formal background in computer science or numerical methods.
 Because of this, topics such as parallelism, scalability, numerical efficiency and modernity (e.g. performance portability) are not a key focus of the material.
 Nonetheless, the series explains the theoretical concepts behind each algorithm and offers practical advice on how to effectively implement them including even example code in Fortran and C.
