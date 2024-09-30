@@ -18,7 +18,6 @@ Focus | Developer productivity and software sustainability for extreme-scale CSE
 Advances in next-generation computational science and engineering (CSE) demand high-performance applications with multiphysics and multiscale capabilities. 
 The IDEAS project tackles this complexity by boosting scientific productivity through improved developer productivity (positively impacting product quality, development time, and staffing resources) and software sustainability (reducing the cost of maintaining, sustaining, and evolving software capabilities in the future), enabling efficient creation and support of CSE applications.
 
-
 As the first US project focused solely on this challenge, IDEAS incubates, curates, and disseminates knowledge and methodologies to advance scientific discovery and mitigate technical risks. 
 Its goal is to establish a robust extreme-scale scientific software ecosystem, comprising reusable, high-quality CSE software components and libraries, best practices, processes, and tools, and effective outreach mechanisms for promoting productivity improvements.
 By achieving this, IDEAS aims to enhance CSE productivity, delivering better, faster, and more affordable application capabilities for extreme-scale computing. 
@@ -28,7 +27,8 @@ A webinar video on the same topic, including some “lessons learned” from the
 For background on the project, readers can refer to the January 2020 report, [Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability](https://doi.org/10.2172/1606662), which outlines the IDEAS-ECP project's initial efforts to enhance software productivity and sustainability for extreme-scale computational science and engineering (CSE) as part of the DOE Exascale Computing Project (ECP). 
 Note that this report is outdated; for the latest developments and updates, readers should consult the most recent paper.
 
-Target readers are all those who care about the quality and integrity of scientific discoveries based on simulation and analysis. While the difficulties of extreme-scale computing intensify software challenges, issues are relevant across all computing scales, given universal increases in complexity and the need to ensure the trustworthiness of computational results.
+Target readers are all those who care about the quality and integrity of scientific discoveries based on simulation and analysis. 
+While the difficulties of extreme-scale computing intensify software challenges, issues are relevant across all computing scales, given universal increases in complexity and the need to ensure the trustworthiness of computational results.
 
 
 Sponsored by the U. S. Dept. of Energy
