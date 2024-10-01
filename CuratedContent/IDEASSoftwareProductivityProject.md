@@ -18,7 +18,7 @@ Focus | Developer productivity and software sustainability for extreme-scale CSE
 Advances in next-generation high performance computing and computational science and engineering (HPC/CSE) applications demand a variety of complex features such as performance portability, multiphysics and multiscale capabilities.
 The IDEAS project tackles this complexity by boosting scientific productivity through improved developer productivity (positively impacting product quality, development time, and staffing resources) and software sustainability (reducing the cost of maintaining, sustaining, and evolving software capabilities in the future), enabling efficient creation and support of CSE applications.
 
-As the first US project focused solely on this challenge, IDEAS incubates, curates, and disseminates knowledge and methodologies to advance scientific discovery and mitigate technical risks. 
+As a leading US project focused solely on this challenge, IDEAS incubates, curates, and disseminates knowledge and methodologies to advance scientific discovery and mitigate technical risks. 
 Its goal is to establish a robust extreme-scale scientific software ecosystem, comprising reusable, high-quality CSE software components and libraries, best practices, processes, and tools, and effective outreach mechanisms for promoting productivity improvements.
 By achieving this, IDEAS aims to enhance CSE productivity, delivering better, faster, and more affordable application capabilities for extreme-scale computing. 
 Learn more about IDEAS' progress in the paper *[A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability](https://arxiv.org/abs/2311.02010)*. 
