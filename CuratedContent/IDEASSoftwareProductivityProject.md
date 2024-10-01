@@ -24,7 +24,7 @@ IDEAS aims to enhance HPC/CSE productivity, helping teams to deliver better, fas
 Learn more about IDEAS' progress in the paper *[A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability](https://arxiv.org/abs/2311.02010)*. 
 A webinar video on the same topic, including some lessons learned about software stewardship and discussing some of the possible futures for the HPC/CSE scientific software community can be found on the [IDEAS Productivity website](https://ideas-productivity.org/events/hpcbp-080-ideas) as well.
 
-For background on the project, readers can refer to the January 2020 report, [Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability](https://doi.org/10.2172/1606662), which outlines the IDEAS-ECP project's initial efforts to enhance software productivity and sustainability for extreme-scale computational science and engineering (CSE) as part of the DOE Exascale Computing Project (ECP). 
+For some of the motiviation of the project, readers can refer to the January 2020 report, [Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability](https://doi.org/10.2172/1606662), which outlines the IDEAS-ECP project's initial efforts to enhance software productivity and sustainability for extreme-scale computational science and engineering (CSE) as part of the DOE Exascale Computing Project (ECP). 
 Note that this report is outdated; for the latest developments and updates, readers should consult the most recent paper.
 
 Target readers are all those who care about the quality and integrity of scientific discoveries based on simulation and analysis. 
