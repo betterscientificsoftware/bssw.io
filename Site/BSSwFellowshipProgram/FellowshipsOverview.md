@@ -29,11 +29,11 @@ We encourage applicants at all career stages, ranging from students through earl
 
 ### 2025 BSSw Fellowships
 
-[2025 BSSw Fellowship Application Form](https://ssl.linklings.net/applications/BSSw/) - Submissions Open!
+<!-- [2025 BSSw Fellowship Application Form](https://ssl.linklings.net/applications/BSSw/) - Submissions Open! -->
 
 <!-- Applications will open on August 15, 2024 for the 2025 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
-<!-- Applications are now closed for the 2024 BSSw Fellowship Program. Check back in summer 2024 for info about the 2025 application process. -->
+Applications are now closed for the 2025 BSSw Fellowship Program. Check back in summer 2025 for info about the 2026 application process.
 
 
 ### More Information
