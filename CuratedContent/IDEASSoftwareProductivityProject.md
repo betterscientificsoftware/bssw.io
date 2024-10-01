@@ -20,7 +20,7 @@ The IDEAS project tackles this complexity by boosting scientific productivity th
 
 As a leading US project focused solely on this challenge, IDEAS incubates, curates, and disseminates knowledge and methodologies to advance scientific discovery and mitigate technical risks. 
 Its goal is to establish a robust, extreme-scale scientific software ecosystem, comprising reusable, high-quality CSE software components, employing best practices, processes, and tools, and effective outreach mechanisms for promoting productivity improvements.
-By achieving this, IDEAS aims to enhance CSE productivity, delivering better, faster, and more affordable application capabilities for extreme-scale computing. 
+IDEAS aims to enhance HPC/CSE productivity, helping teams to deliver better, faster, and more affordable application capabilities for extreme-scale computing. 
 Learn more about IDEAS' progress in the paper *[A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability](https://arxiv.org/abs/2311.02010)*. 
 A webinar video on the same topic, including some “lessons learned” from the IDEAS experience about software stewardship and discussing some of the possible futures for the DOE scientific software community can be found on the [IDEAS Productivity website](https://ideas-productivity.org/events/hpcbp-080-ideas) as well.
 
