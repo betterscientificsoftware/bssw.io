@@ -27,7 +27,7 @@ A webinar video on the same topic, including some lessons learned about software
 For some of the motiviation of the project, readers can refer to the January 2020 report, [Advancing Scientific Productivity through Better Scientific Software: Developer Productivity and Software Sustainability](https://doi.org/10.2172/1606662), which outlines the IDEAS-ECP project's initial efforts to enhance software productivity and sustainability for extreme-scale computational science and engineering (CSE) as part of the DOE Exascale Computing Project (ECP). 
 Note that this report is outdated; for the latest developments and updates, readers should consult the most recent paper.
 
-The target audience for the above meterials are all those who care about the quality and integrity of scientific discoveries based on simulation and analysis. 
+The target audience for the above materials are all those who care about the quality and integrity of scientific discoveries based on simulation and analysis. 
 While the difficulties of extreme-scale computing intensify software challenges, issues are relevant across all computing scales, given universal increases in complexity and the need to ensure the trustworthiness of computational results.
 
 
