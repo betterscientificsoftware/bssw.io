@@ -1,4 +1,4 @@
-# Community Workshop on Practical Reproducibility in HPC - Registration and Call for Presentations
+# Community Workshop on Practical Reproducibility in HPC
 
 <!-- begin deck text -->
 Understanding unique challenges and practical solutions of reproducibility in High-Performance Computing (HPC).
@@ -63,7 +63,7 @@ Presentations will be selected based on their relevance to HPC-specific reproduc
 
 **Travel Support**
 
-For the top 10 selected abstracts, we will reimburse travel expenses of up to $1,500 for the presenting authors (one per abstract). Submitting the presentation proposal doubles as travel support application. 
+For the top 10 selected abstracts, we will reimburse travel expenses of up to $1,500 for the presenting authors (one per abstract). Submitting the presentation proposal doubles as a travel support application. 
 
 **Workshop Outcomes**
 
