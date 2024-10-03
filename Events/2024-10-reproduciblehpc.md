@@ -79,5 +79,5 @@ We look forward to your contributions and to seeing you in Atlanta this November
 
 <!---
 Publish: yes
-Topics: high-performance computing, reproducibility, artifact evaluation, computer science, research
+Topics: High-Performance Computing (HPC), Reproducibility, Conferences and Workshops
 --->
