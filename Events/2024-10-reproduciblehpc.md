@@ -11,7 +11,7 @@ Understanding unique challenges and practical solutions of reproducibility in Hi
 - Event Website: https://reproduciblehpc.org
 - Organizers: Kate Keahey and Marc Richardson
 
-We are excited to announce call for presentations/abstracts for the upcoming Workshop on Practical Reproducibility in HPC, to be held on November 18, 2024, in Atlanta, GA.
+We are excited to announce our call for presentations/abstracts for the upcoming Workshop on Practical Reproducibility in HPC, to be held on November 18, 2024, in Atlanta, GA.
 This workshop aims to address the unique challenges of reproducibility in High-Performance Computing (HPC) and advance practical solutions for those challenges. Sign up or apply to present at [reproduciblehpc.org](https://reproduciblehpc.org).
 
 Event Information | Details
