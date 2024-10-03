@@ -13,8 +13,8 @@ Slide4 L: ../CuratedContent/HPCOnlineCourses.md
 Slide4 R: ../CuratedContent/hpcbp-webinars-cc.md
 Slide5 L: ../Events/hpcbp-088-inclusive-practices.md
 Slide5 R: ../Events/2024-usrse-conf.md
-Slide6 L: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
-Slide6 R: ../Articles/Blog/2024-07-BSSwFellows2023.md
+Slide6 L: ../Events/2024-10-reproduciblehpc.md
+Slide6 R: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
 --->
 
 <!---
