@@ -15,7 +15,7 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 
 **If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
-Day/Time<br>(MST time zone) | Event Type | Event Title (see linked program page for full details)
+Day/Time<br>(EST time zone) | Event Type | Event Title (see linked program page for full details)
 :---     |    :------ |--------------------------------------------------------
 Sun. Nov. 17<br>9:00am-5:30pm | Workshop | [Research Software Engineers in HPC (RSE-HPC-2024)](https://sc24.conference-program.com/presentation/?id=wksp153&sess=sess350)
 Sun. Nov. 17<br>1:30pm-5:00pm | Tutorial | [The Julia Language for Productive High-Performance Computing](https://sc24.conference-program.com/presentation/?id=tut130&sess=sess433)
