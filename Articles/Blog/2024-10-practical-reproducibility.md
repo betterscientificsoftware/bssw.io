@@ -1,6 +1,6 @@
 # Practical Reproducibility: Building a More Robust Research Ecosystem
 
-#### Contributed by [Kate Keahey](https://github.com/keahey) and Marc Richardson
+#### Contributed by [Kate Keahey](https://github.com/keahey) and [Marc Richardson](https://github.com/marcwitasee)
 
 #### Publication date: October 23, 2024
 
