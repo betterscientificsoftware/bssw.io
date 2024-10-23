@@ -4,8 +4,7 @@
 Understanding unique challenges and practical solutions of reproducibility in High-Performance Computing (HPC).
 <!-- end deck text -->
 
-- Deadline for Call for Presentations: Oct. 18, 2024
-- Deadline for Early Bird Registration: Oct. 25, 2024
+- Early Bird Registration Deadline: Oct. 25, 2024
 - Event Date: November 18, 2024
 - Location: Atlanta, GA
 - Event Website: https://reproduciblehpc.org
@@ -75,7 +74,7 @@ We look forward to your contributions and to seeing you in Atlanta this November
 
 #### Publication date: October 3, 2024
 
-#### Contributed by: [Marc Richardson](https://www.linkedin.com/in/marctrichardson/)
+#### Contributed by: [Marc Richardson](https://github.com/marcwitasee)
 
 <!---
 Publish: yes
