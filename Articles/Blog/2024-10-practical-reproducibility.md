@@ -30,6 +30,8 @@ To explore these critical questions and foster discussion around practical repro
 
 *For more information and registration details, visit [reproduciblehpc.org](https://reproduciblehpc.org).*
 
+This blog is adapted from *Three Pillars of Practical Reproducibility*, Kate Keahey, Jason Anderson, Mark Powers and Adam Cooper. In 2023 IEEE 19th International Conference on e-Science (e-Science), [DOI:10.1109/e-Science58273.2023.10254846](https://doi.org/10.1109/e-Science58273.2023.10254846).
+
 ### Author bios
 
 [Kate Keahey](https://cs.uchicago.edu/people/kate-keahey) is one of the pioneers of infrastructure cloud computing. She created the [Nimbus project](http://www.nimbusproject.org/), recognized as the first open source Infrastructure-as-a-Service implementation, and continues to work on research aligning cloud computing concepts with the needs of scientific datacenters and applications. To facilitate such research for the community at large, Kate leads the [Chameleon project](http://www.chameleoncloud.org/), providing a deeply reconfigurable, large-scale, and open experimental platform for computer science research. To foster the recognition of contributions to science made by software projects, Kate co-founded and serves as co-Editor-in-Chief of the [SoftwareX journal](http://www.journals.elsevier.com/softwarex/), a new format designed to publish software contributions. Kate is a Scientist at Argonne National Laboratory and a Senior Scientist The University of Chicago Consortium for Advanced Science and Engineering (UChicago CASE).
