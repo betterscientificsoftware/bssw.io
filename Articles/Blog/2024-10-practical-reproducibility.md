@@ -4,6 +4,10 @@
 
 #### Publication date: October 23, 2024
 
+<!--deck start-->
+The community needs to address many questions to work toward practical reproducibility throughout the research ecosystem.   
+<!--deck end-->
+
 There is broad agreement that in the digital age, science should be shared digitally through artifacts such as code and data. [The adoption of practices enabling the reproducibility of computational results can lead to more robust science and increased scientific productivity](https://wordpress.cels.anl.gov/nimbusproject/wp-content/uploads/sites/116/2023/08/Reproducibility_On_Chameleon-3.pdf). While the computer science community actively supports initiatives like artifact evaluation at conferences, data preservation efforts, and reproducibility hackathons, it remains unclear how much science gets reproduced beyond these targeted initiatives.
 
 Unless reproducing research becomes as vital and mainstream a part of scientific exploration as reading papers is today, reproducibility will be hard to sustain. The incentives to make research results reproducible won't outweigh the considerable costs of making them so. Thus, in addition to seeking ways to ensure that every experiment can be repeated regardless of effort, we should explore mechanisms for practical reproducibility—where many experiments are packaged in such a way that they can be repeated cost effectively.
