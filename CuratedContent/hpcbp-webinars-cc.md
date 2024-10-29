@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2024-09-26*
+*Listed in reverse chronological order. Last updated: 2024-10-29*
+
+- 2024-10-23: [Inclusive Practices and Software Project Productivity](https://ideas-productivity.org/events/hpcbp-088-inclusive-practices), presented by Mark C Miller (Applications, Simulations and Quality Division, Lawrence Livermore National Lab)
 
 - 2024-09-25: [Development of VTK-m During ECP](https://ideas-productivity.org/events/hpcbp-087-vtkm), presented by Ken Moreland (Oak Ridge National Laboratory)
 
@@ -205,7 +207,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2024-09-26
+#### Publication date: 2024-10-29
 
 <!---
 Publish: yes
