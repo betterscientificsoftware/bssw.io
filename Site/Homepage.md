@@ -7,7 +7,7 @@ Slide1 L: ../Articles/Blog/2024-10-bsswf-usrse24.md
 Slide1 R: ../Articles/Blog/2024-10-practical-reproducibility.md
 Slide2 L: ../Articles/Blog/2024-10-ux.md
 Slide2 R: ../CuratedContent/NumericalRecipiesOnline.md
-Slide3 L: ../CuratedContent/IDEASSoftwareProductivityProject.md
+Slide3 L: ../CuratedContent/TechnicalDebt.md
 Slide3 R: ../Events/2024-11-sc24-sw-events.md
 Slide4 L: ../Events/2024-10-reproduciblehpc.md
 Slide4 R: ../CuratedContent/HPCOnlineCourses.md 
