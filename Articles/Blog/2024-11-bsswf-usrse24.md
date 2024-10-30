@@ -14,7 +14,7 @@ The [US Research Software Engineer Association](https://us-rse.org) warmly welco
 
 Several current and previous Fellows and Honorable Mentions were active in other areas of the conference as well. For example, Daniel Katz, Keith Beattie and Kristina Riemer were part of the organizing committee, and Antigoni Georgiadou was a volunteer.  Kristina Riemer and Helen Kershaw presented talks on *A Rising Tide: One model for improving research software use in the life sciences* and *Student Research Software Engineers: Insights from Macro and Micro Perspectives*, respectively. 
 
-Alltogether, the conference was a big success for the BSSw Fellowship community, and we look forward to participating again next year!  
+Altogether, the conference was a big success for the BSSw Fellowship community, and we look forward to participating again next year!  
 
 
 ### Further information
