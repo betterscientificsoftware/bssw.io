@@ -8,7 +8,7 @@ Slide1 R: ../Articles/Blog/2024-10-ux.md
 Slide2 L: ../CuratedContent/NumericalRecipiesOnline.md
 Slide2 R: ../CuratedContent/IDEASSoftwareProductivityProject.md
 Slide3 L: ../Events/2024-11-sc24-sw-events.md
-Slide3 R: ../Events/2024-12-virtual-workshop-on-multiproject-cicd.md
+Slide3 R: ../Events/2024-10-reproduciblehpc.md
 Slide4 L: ../CuratedContent/HPCOnlineCourses.md 
 Slide4 R: ../Articles/Blog/2024-09-TechnicalPropertiesOfSustainableSoftware.md
 Slide5 L: ../Articles/Blog/2024-09-cultivating-collaboration-skills.md
