@@ -60,6 +60,7 @@ We organized an interactive breakout session and split the participants into two
 4. What do you want to know that you can't measure today?
 
 And additional discussions on the slido questions from the introduction:
+
 \5. What does Sustainability mean for your scientific/research software?  
 \6. Which sustainability metrics are you using or would like to use for your projects? And Why?
 
