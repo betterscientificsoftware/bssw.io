@@ -5,7 +5,7 @@
 #### Publication date: November 12, 2024
 
 <!--deck start-->
-A Summary of the Effective Metrics for Measuring and Enhancing Sustainability in Scientific Software mini workshop, held at the Sustainable Scientific Software Conference (S3C) 2024 in Seattle, WA, USA.
+This article summarizes the mini-workshop on *Effective Metrics for Measuring and Enhancing Sustainability in Scientific Software* held at the Sustainable Scientific Software Conference (S3C) 2024.
 <!--deck end-->
 
 In the complex world of scientific software development, it’s essential to understand the diverse factors that influence sustainability. From the health of the software community to the robustness of engineering practices, each element plays a pivotal role in the long-term viability of a project. The [Center for Open-Source Research Software Advancement](https://corsa.center/) (CORSA) is a community of practice that aims to address the long-term sustainability of scientific and research software by fostering collaboration among stakeholders, facilitating partnerships with open-source foundations, and educating the community regarding approaches to the stewardship and advancement of open-source software. CORSA is part of a larger initiative called the [Consortium for the Advancement of Scientific Software](https://cass.community/) (CASS), which includes stakeholders from a wide cross-section of the scientific computing and research software community.
@@ -16,13 +16,13 @@ CORSA’s workshop was aligned with the Sustainable Scientific Software Conferen
 
 ### Workshop summary
 
-The workshop was structured to fit within a 100-minute time frame, and featured a mix of talks, breakout sessions, group readouts and discussions. The session began with a brief introduction to the concept of sustainability and the various factors that influence it in the context of scientific software. This aimed to engage attendees and set the stage for deeper discussions on sustainability metrics. Attendees were then divided into smaller groups to discuss specific topics related to sustainability metrics. Each group explored questions such as the importance of sustainability in their projects, the key aspects they prioritize, and the metrics they currently use or wish to develop. Each breakout group summarized their discussions and presented key takeaways to the larger audience.
+The 100-minute workshop featured a mix of talks, breakout sessions, group readouts and discussions. The session began with a brief introduction to the concept of sustainability and various factors that influence it in the context of scientific software, setting the stage for deeper discussions on sustainability metrics. Attendees were then divided into smaller groups to discuss specific topics related to sustainability metrics. Each group explored questions such as the importance of sustainability in their projects, the key aspects they prioritize, and the metrics they currently use or wish to develop. Each breakout group summarized their discussions and presented key takeaways to the larger audience.
 
 Representatives from Sandia National Laboratories, Lawrence Livermore National Laboratory, Oak Ridge National Laboratory, Lawrence Berkeley National Laboratory, and Princeton University participated in the workshop.
 
 ### Featured talk
 
-We began the workshop with an introduction session aimed at setting context and engaging the attendees. This started with the definition of sustainability and its various factors, emphasizing the importance of sustainability in scientific software. We then presented the vision and goals of the Center for Open-Source Research Software Stewardship and Advancement (CORSA). Key points included:
+After setting context of the workshop---sustainability and its importance in scientific software---we presented the vision and goals of the Center for Open-Source Research Software Stewardship and Advancement (CORSA). Key points included:
 
 * Vision:
   * CORSA aspires to become a leading community of practice that provides pathways for open-source scientific software projects, ensuring their long-term growth, stewardship, advancement, and innovation.  
@@ -38,7 +38,7 @@ We posed critical questions to the audience, asking them to consider which metri
 
 We encouraged attendees to think about additional considerations and directed them to further resources on these, available in the Resources section.
 
-During the introduction, we also utilized Slido to conduct a survey of attendees on two questions.
+During the introduction, we utilized Slido to conduct a survey of attendees on two questions.
 
 <img src='../../images/2024-11-s3c-metrics-fig1.png' class='page lightbox'/>[Figure 1: Slido results for: “What does Sustainability mean for your scientific/research software?]
 
@@ -68,7 +68,7 @@ The main takeaways from the discussions were:
 
 * Metrics used to measure sustainability vary depending on the project’s goals and context. Common metrics include software performance, user base size, issue resolution rates, and community engagement.  
 
-* There is a recognized need for more sophisticated metrics and theoretical frameworks to assess long-term sustainability, particularly in, but not limited to, environments where usage is difficult to track, such as closed systems or large-scale research facilities.
+* There is a recognized need for more sophisticated metrics and theoretical frameworks to assess long-term sustainability, particularly in, but not limited to, environments where usage is difficult to track, such as closed systems and large-scale research facilities.
 
 A key aspect of sustainability is the ability of the software to continue supporting scientific experiments and research operations, particularly in critical facilities where it plays a vital role. This means that the software must be robust enough to be handed over to new developers or teams without losing its core functionality or value, ensuring that it remains a valuable tool for the scientific community over time. Participants also stressed the importance of keeping the user community engaged and ensuring that the software can be sustained beyond the tenure of its original developers. This includes the ability to secure ongoing funding and support, making sure that the software can continue to generate new insights and findings.
 
@@ -80,7 +80,7 @@ Sustainability in software development, especially within scientific and researc
 
 We extend our gratitude to all participants, whose efforts made this workshop a success. The insights gathered will undoubtedly contribute to ongoing efforts to build more resilient and enduring software ecosystems, and we look forward to continuing these important conversations in future workshops and at the CASS Metrics Working Group led by CORSA.
 
-### Resources mentioned
+### Resources 
 
 * CHAOSS, [Metrics and Metrics Models](https://chaoss.community/kb-metrics-and-metrics-models/)  
 * SSI, [Better Software, Better Research](https://www.software.ac.uk/publication/better-software-better-research)  
@@ -88,9 +88,9 @@ We extend our gratitude to all participants, whose efforts made this workshop a 
 
 ### Author bios
 
-Addi Malviya-Thakur is the Group Leader for the Software Engineering Group in the Computer Science and Mathematics Division’s Advanced Computing Systems Research Section at the Oak Ridge National Laboratory. Her research interests include scientific software for experimental and observational facilities, interconnected science and federated systems, research software engineering, operational workflows, software analytics, software frameworks, and ecosystems for science.
+Addi Malviya-Thakur is the group leader for the Software Engineering Group in the Computer Science and Mathematics Division’s Advanced Computing Systems Research Section at Oak Ridge National Laboratory (ORNL). Her research interests include scientific software for experimental and observational facilities, interconnected science and federated systems, research software engineering, operational workflows, software analytics, software frameworks, and ecosystems for science.
 
-Gregory R. Watson is the group leader for the Application Engineering group in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL). His research interests include programming tools and development environments for high-performance and scientific computing, software engineering practices, reproducibility, and education and training for scientists.
+Gregory R. Watson is the group leader for the Application Engineering group in the Computer Science and Mathematics Division at ORNL. His research interests include programming tools and development environments for high-performance and scientific computing, software engineering practices, reproducibility, and education and training for scientists.
 
 <!---
 Publish: yes
