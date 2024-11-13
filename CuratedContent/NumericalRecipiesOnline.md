@@ -20,7 +20,7 @@ The material is designed primarily to be *accessible* to scientists and engineer
 Because of this, topics such as parallelism, scalability, numerical efficiency, and modernity (e.g., performance portability) are not a key focus of the material.
 Nonetheless, the series explains the theoretical concepts behind each algorithm and offers practical advice on how to effectively implement the algorithms, including even example code in Fortran and C.
 
-### Content and Structure
+### Content and structure
 The books are organized into chapters, each focusing on a different area of numerical computation.
 Key topics covered include:
 
