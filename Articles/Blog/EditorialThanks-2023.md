@@ -4,7 +4,7 @@
 
  - <img src='../../images/Blog_1119_seasonal.png' />
 
-#### Contributed by [The BSSw.io Editorial Team](https://bssw.io/pages/team)
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [David E. Bernholdt](https://github.com/bernhold), [Keith Beattie](https://github.com/ksbeattie), [Lois Curfman McInnes](https://github.com/curfman), [Patricia Grubel](https://github.com/pagrubel), [Rinku Gupta](https://github.com/rinkug), [Mike Heroux](https://github.com/maherou), [Mark C. Miller](https://github.com/markcmiller86), and [Deborah Stevens](https://github.com/haikudeb)
 
 #### Publication date: November 22, 2023
 
