@@ -4,9 +4,9 @@
 
  - <img src='../../images/Blog_1119_seasonal.png' />
 
-#### Contributed by [The BSSw.io Editorial Team](https://bssw.io/pages/team)
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [Keith Beattie](https://github.com/ksbeattie), [David E. Bernholdt](https://github.com/bernhold), [Lois Curfman McInnes](https://github.com/curfman), [Patricia Grubel](https://github.com/pagrubel), [Rinku Gupta](https://github.com/rinkug), [Mike Heroux](https://github.com/maherou), [Mark C. Miller](https://github.com/markcmiller86), and [Deborah Stevens](https://github.com/haikudeb)
 
-#### Publication date: November 22, 2023
+#### Publication date: November 19, 2024
 
 As the Thanksgiving holiday draws near, we can benefit from a bit of reflection. As members of the editorial team for BSSw.io, we have many reasons to be thankful for the privilege of acting as the stewards of this community hub. We are foremost thankful to our contributors for their thoughtful and useful insights and experiences and are also thankful for the community that appreciates and promotes the site. We express our thanksgiving for being able to serve the computational science and engineering (CSE) community towards improving scientific software, by highlighting some of our experiences in the field and on the editorial board.
 
@@ -42,6 +42,13 @@ For me, the opportunity to work with a diverse group of individuals, and to hear
 I have truly valued the opportunity to contribute to and be an editor for the BSSw.io site.
 I am thankful there is a home for ideas and information about how to practice software engineering for CSE/HPC where content can be quickly created and published and yet has higher editorial standards than you might just put out yourself.
 BSSw.io provides an attractive compromise between speed-to-publish, formality, and peer review that sets it apart from other publication venues.
+
+**[Keith Beattie](https://bssw.io/items?author=keith-beattie):** 
+Though I may be the "new kid" here on the BSSw.io editorial board, I've been involved with writing software for over 40 years now.  Yikes, that's a long time. It started in high school with learning BASIC on a TRS-80, where we were going to have our projects on display for an open house at the school. I had heard earlier about some college students who got in trouble for writing a joke database and making it available to other students, which then collected some "colorful" jokes that eventually got the attention of the Provost. I, of course, thought "Hey, that sounds like fun", so I wrote a simple riddle database to collect riddles during the high school open house. I think I got one riddle, and it was entirely forgettable, but I had already caught the bug for writing software.
+
+Finishing a BA in Math and then a MS in Computer Science as a research assistant at LBL, I worked at a few "dot-coms" for several years before deciding to return to LBL. (Okay, the "dot bomb" of the early 2000s may have had something to do with the decision, but I digress). Working on science projects really became much more interesting to me than the problems industry seemed to be working on at the time. Still, the difference between the way software was developed at the lab was dramatically different and much less mature than what I experienced in industry. “There are entire teams for QA, Release Management, Customer Support, Documentation and Requirement Specifications, whereas here, this is all trying to be done by 2 part-time people!” was the kind of thing I annoyed my science coworkers with, saying it over and over. It took a while, but I was able to convince people writing scientific software to use some strange new tools, like version control, issue trackers and regression tests. We were even able to start having regular developer meetings and named releases! Things have gotten much better since then, but there is still much to be done to improve the state of scientific software development.
+
+Through making connections with the BSSw.io team (I was an early honorable mention of their Fellowship program) and other similarly minded organizations, I am deeply grateful for all the work and progress that people supporting real stewardship for scientific software have made. It continues to be a challenge, but the audience of people aware of and open to the ideas of improving how scientific software is made (and the careers of those who make it) is growing and I’m glad to be a part of that growth.
 
 **[David Bernholdt](https://bssw.io/items?author=david-e-bernholdt):** 
 I've been working with scientific software for nearly 40 years now (geez!).  My interest in better software engineering arose out of working with some large teams on some pretty large code bases -- initially thinking that there must be a better way to do software development, and then having the opportunity to work in a team that *did* do a better and more thoughtful job with the software.  Since then, I've been trying to pick up better ways of doing things, and when I have a chance, implement them in my own work.  Over the years, I've tapped whatever I could find to help me -- people who seemed to know useful things, papers, books, etc.  So when the idea of BSSw.io came up, it seemed quite natural for me to get involved.  To me, BSSw.io is both a source to help me keep learning about software engineering and also a way to thank all the people whom I learned from by helping to make similar resources available to the larger community.
@@ -128,6 +135,7 @@ After earning my doctorate in applied mathematics at Northwestern University in 
 
 My work with the IDEAS-ECP project and the BSSw.io Editorial Board for the last 2 years has been enlightening. I have found the community welcoming and understanding. I appreciate the tolerance of my fumbling attempts at using github.com. I am thankful for being able to work in this environment and for the creative group of people who support BSSw.io. 
 
+Note: This article was originally published in November 2023 and has been republished with updates for November 2024.
 <!---
 Publish: yes
 Track: experience
