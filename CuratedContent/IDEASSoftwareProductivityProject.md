@@ -23,12 +23,10 @@ As a leading U.S. project focused solely on this challenge, IDEAS incubated, cur
 Its goal had been to establish a robust, extreme-scale scientific software ecosystem, comprising reusable, high-quality CSE software components, employing best practices, processes, and tools, along with effective outreach mechanisms to promote productivity improvements. 
 IDEAS aimed to enhance HPC/CSE productivity, helping teams deliver better, faster, and more affordable application capabilities for extreme-scale computing.
 
-Learn more about IDEAS' progress in the paper *[A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability](https://doi.org/10.1109/MCSE.2024.3383799)*. 
+Learn more about IDEAS' project in the paper *[A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability](https://doi.org/10.1109/MCSE.2024.3383799)*. 
 A webinar on the same topic, part of the *[Best Practices for HPC Software Developers](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/)* series, including some lessons learned about software stewardship and discussing some of the possible futures for the HPC/CSE scientific software community can be found on the [IDEAS Productivity website](https://ideas-productivity.org/events/hpcbp-080-ideas) as well.
 
-The target audience for the above materials are all those who care about the quality and integrity of scientific discoveries based on simulation and analysis. 
-While the difficulties of extreme-scale computing intensify software challenges, issues are relevant across all computing scales, given universal increases in complexity and the need to ensure the trustworthiness of computational results.
-
+The target audience for these materials consists of all those concerned with the quality and integrity of scientific discoveries based on simulation and analysis. While the challenges of extreme-scale computing has intensified software difficulties, these issues are relevant across all computing scales, given universal increases in complexity and the need to ensure the trustworthiness of computational results.
 
 Sponsored by the U. S. Dept. of Energy
 
