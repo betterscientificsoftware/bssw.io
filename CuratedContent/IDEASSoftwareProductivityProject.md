@@ -4,7 +4,7 @@ The IDEAS project addressed productivity and sustainability concerns that are em
 <!-- deck text end --> 
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug) and [David E. Bernholdt](http://github.com/bernhold) 
-#### Publication date: October 30, 2024
+#### Publication date: November 18, 2024
 
 Resource information | Details 
 :--- | :--- 
@@ -37,5 +37,4 @@ Sponsored by the U. S. Dept. of Energy
 Publish: yes
 Topics: Projects and organizations
 Pinned: no
-RSS update: 2020-02-13
 --->
