@@ -1,6 +1,6 @@
 # IDEAS Productivity Project
 <!-- deck text start --> 
-The IDEAS project addressed productivity and sustainability concerns that are emerging from important trends in extreme-scale computing for science and engineering.
+The IDEAS project addressed productivity and sustainability concerns in extreme-scale computing for science and engineering.
 <!-- deck text end --> 
 
 #### Contributed by [Rinku Gupta](http://github.com/rinkug) and [David E. Bernholdt](http://github.com/bernhold) 
