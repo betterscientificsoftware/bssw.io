@@ -14,8 +14,8 @@ Journal Paper Link| [A cast of thousands: How the IDEAS Productivity project has
 Webinar Video Link | [A cast of thousands: How the IDEAS Productivity project has advanced software productivity and sustainability](https://ideas-productivity.org/events/hpcbp-080-ideas)
 Focus | Developer productivity and software sustainability for extreme-scale CSE
 
-Advances in next-generation high-performance computing and computational science and engineering (HPC/CSE) applications demanded a variety of complex features, such as performance portability and multiphysics and multiscale capabilities. 
-The IDEAS project tackled this complexity by boosting scientific productivity through improved developer productivity, which positively impacted product quality, development time, and staffing resources. 
+Advances in high-performance computing and computational science and engineering (HPC/CSE) applications have created a growing need for complex features, such as performance portability, and multiphysics and multiscale capabilities. 
+The IDEAS project tackled this complexity by boosting scientific productivity through improved developer productivity, which positively impacted product quality, development time, and staffing resources.
 It also enhanced software sustainability, reducing the cost of maintaining, sustaining, and evolving software capabilities for the future. 
 This enabled the efficient creation and support of CSE applications.
 
