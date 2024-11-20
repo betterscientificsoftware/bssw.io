@@ -37,7 +37,7 @@ Webinars about the review process:
 
 ### A Survey on Refactoring Practices in the Development of Scientific Software
 
-The [FORCOLAB](https://shuiblue.github.io/forcolab-uoft/) at the University of Toronto (UofT)is conducting a research study on understanding the refactoring practices and challenges in open-source scientific software. The main objective is to better support refactoring tasks during scientific software development. Please share your refactoring experiences in open-source scientific software by [completing this survey](https://forms.office.com/pages/responsepage.aspx?id=JsKqeAMvTUuQN7RtVsVSEDG3WKvjM4pHu7QCZXS8hkhUNFVWQTA1RDIzNkZYSjNDMzNSM1VSVjVPMi4u).
+The FORCOLAB at the University of Toronto (UofT)is conducting a research study on understanding the refactoring practices and challenges in open-source scientific software. The main objective is to better support refactoring tasks during scientific software development. Please share your refactoring experiences in open-source scientific software by [completing this survey](https://forms.office.com/pages/responsepage.aspx?id=JsKqeAMvTUuQN7RtVsVSEDG3WKvjM4pHu7QCZXS8hkhUNFVWQTA1RDIzNkZYSjNDMzNSM1VSVjVPMi4u).
 
 ### Survey on Software Environments for Heliophysics
 
@@ -45,7 +45,7 @@ For RSEs in helio/solar physics– IHDEA (International Heliophysics Data Enviro
 
 ### Center for Open-Source Research Software Stewardship and Advancement (CORSA)
 
-The [DOE-funded CORSA project](https://corsa.center/) has been collecting [guidance, documents, examples, templates for open-source software projects, such as on governance, roadmaps, contributing, code of conduct, DEI, licenses, etc.](https://us-rse.org/2024-11-15-newsletter/(https://github.com/corsa-center/oss-documents/blob/main/README.md)) Please feel free to add additional items, as PRs or new issues.
+The [DOE-funded CORSA project](https://corsa.center/) has been collecting [guidance, documents, examples, templates for open-source software projects, such as on governance, roadmaps, contributing, code of conduct, DEI, licenses, etc.](https://github.com/corsa-center/oss-documents/blob/main/README.md) Please feel free to add additional items, as PRs or new issues.
 
 ### Survey on Generative AI for Scientific Software Development
 
@@ -54,11 +54,6 @@ Dr. Elle O’Brien at the University of Michigan will be [conducting studies](ht
 ### Survey to understand mentorship needs
 
 Dr. Reed Milewicz from Sandia National Laboratories is conducting a [survey on mentorship](https://snl-survey.sandia.gov/surveys/mentorship-survey-usrse). The survey takes 10-15 minutes to complete.
-
-### Survey to understand how RSEs consider cybersecurity when writing software
-
-Calling all research software engineers! We’re exploring how security is perceived in our community, and we want to hear from you. Whether you think about security every day or rarely think about security, your insights are invaluable to us. To participate, you will complete a survey that takes 20-30 minutes.
-If you are willing to participate in this study, please click [here](https://universityofalabama.az1.qualtrics.com/jfe/form/SV_73tEKxvzenvmXoW).
 
 ### Survey to better understand code review practices of RSEs
 
