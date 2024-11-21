@@ -5,14 +5,14 @@
 #### Publication date: November 25, 2024
 
 <!--deck start-->
-Only a little over a decade ago, the term Research Software Engineer (RSE) didn’t exist. Now we find ourselves in a position where the term is increasingly widely accepted and research institutions are hiring RSEs to provide the vitally important skills that they need to support and undertake modern research.
+The term "research software engineer" (RSE) has become widely accepted in the ten years since it was coined.  The next step is to understand the competencies required for the role.
 <!--deck end-->
-
-<br>
 
 This article is cross-posted from [de-RSE.org](https://de-rse.org/blog/2024/10/08/identifying-the-foundational-competencies-of-an-RSE-en.html). This article is published under the CC-BY-4.0 license.
 
 <br>
+
+Only a little over a decade ago, the term Research Software Engineer (RSE) didn’t exist. Now we find ourselves in a position where the term is increasingly widely accepted and research institutions are hiring RSEs to provide the vitally important skills that they need to support and undertake modern research.
 
 ### What defines an RSE?
 
