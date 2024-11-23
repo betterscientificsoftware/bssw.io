@@ -9,7 +9,7 @@ URSSI is excited to announce a funding opportunity and call for proposals for th
 - Website: https://urssi.us/blog/2024/11/22/call-for-proposals-for-the-urssi-early-career-fellowship-program/
 - Organizers: US Research Software Sustainability Institute (URSSI)
 
-#### Contributed by [Kyle Niemeyer](https://github.com/kyleniemeyer) and [Nic Weber])(https://github.com/nniiicc)
+#### Contributed by [Kyle Niemeyer](https://github.com/kyleniemeyer) and [Nic Weber](https://github.com/nniiicc)
 
 #### Publication date: November 23, 2024
 
