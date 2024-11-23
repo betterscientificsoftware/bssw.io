@@ -1,4 +1,4 @@
-# Call for Proposals: URSSI Early-Career Fellowship Program
+# URSSI Early-Career Fellowship Program
 
 <!-- deck text start --> 
 URSSI is excited to announce a funding opportunity and call for proposals for the newly launched URSSI Early Career Fellowship!
