@@ -1,7 +1,7 @@
-# Survey Opportunities: Your Colleagues are Seeking your Input!
+# Survey Opportunities: Your Colleagues are Seeking Your Input!
 
 <!-- deck text start --> 
-The November 2024 issue of the US-RSE newsletter included many opportunities to help your colleagues with their research.
+The November 2024 issue of the US-RSE newsletter includes many opportunities to help your colleagues with their research.
 <!-- deck text ends -->
 
 - Event Dates: December 31, 2024
@@ -35,11 +35,11 @@ Webinars about the review process:
 1.	Nov 25, 2024, 9 am ET / 8 am CT / 7 am MT / 6 am PT - <https://illinois.zoom.us/meeting/register/tZYkduiurTIvE9QYmlH6qg51h-SSoyprzUef>
 2.	Dec 5, 2024, 7 pm ET / 6 pm CT / 5 pm MT / 4 pm PT - <https://illinois.zoom.us/meeting/register/tZwod-6gqj4qE9Ewl7M-890S-VYNkUM4UiKh>
 
-### A Survey on Refactoring Practices in the Development of Scientific Software
+### A Survey on refactoring practices in the development of scientific software
 
 The FORCOLAB at the University of Toronto (UofT)is conducting a research study on understanding the refactoring practices and challenges in open-source scientific software. The main objective is to better support refactoring tasks during scientific software development. Please share your refactoring experiences in open-source scientific software by [completing this survey](https://forms.office.com/pages/responsepage.aspx?id=JsKqeAMvTUuQN7RtVsVSEDG3WKvjM4pHu7QCZXS8hkhUNFVWQTA1RDIzNkZYSjNDMzNSM1VSVjVPMi4u).
 
-### Survey on Software Environments for Heliophysics
+### Survey on software environments for heliophysics
 
 For RSEs in helio/solar physics– IHDEA (International Heliophysics Data Environment Alliance) has formed a working group to define common heliophysics tools/software in python which the community may one day be able to use and base their software off of. They are collecting some initial feedback about the kinds of software folks in the community are using using this short survey: <https://forms.gle/DumtthpGytnhWpCk6>.
 
@@ -47,7 +47,7 @@ For RSEs in helio/solar physics– IHDEA (International Heliophysics Data Enviro
 
 The [DOE-funded CORSA project](https://corsa.center/) has been collecting [guidance, documents, examples, templates for open-source software projects, such as on governance, roadmaps, contributing, code of conduct, DEI, licenses, etc.](https://github.com/corsa-center/oss-documents/blob/main/README.md) Please feel free to add additional items, as PRs or new issues.
 
-### Survey on Generative AI for Scientific Software Development
+### Survey on generative AI for scientific software development
 
 Dr. Elle O’Brien at the University of Michigan will be [conducting studies](https://docs.google.com/forms/d/e/1FAIpQLSc1_p82Rglu6r4cTIvms823SuCvb81ygWBBRWvhdLP6eyV4nQ/viewform) about how scientists are using generative AI tools as part of their scientific software development.
 
