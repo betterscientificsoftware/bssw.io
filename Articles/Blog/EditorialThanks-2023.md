@@ -1,4 +1,4 @@
-# Thank you from the BSSw.io Editorial Team!
+# Thank You from the BSSw.io Editorial Team!
 
 **Hero Image:**
 
