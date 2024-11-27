@@ -1,0 +1,298 @@
+# Sample configuration file; see the linkcheckerrc(5) man page or
+# execute linkchecker -h for help on these options.
+# Commandline options override these settings.
+
+##################### output configuration ##########################
+[output]
+# enable debug messages; see 'linkchecker -h' for valid debug names, example:
+#debug=all
+# print status output
+status=0
+# change the logging type
+#log=text
+# turn on/off --verbose
+verbose=1
+# turn on/off --warnings
+#warnings=1
+# turn on/off --quiet
+#quiet=0
+# additional file output, example:
+#fileoutput = text, html, gml, sql
+# errors to ignore (URL regular expression, message regular expression)
+#ignoreerrors=
+# ignore all errors for broken.example.com:
+#  ^https?://broken.example.com/
+# ignore SSL errors for dev.example.com:
+#  ^https://dev.example.com/ ^SSLError
+
+
+##################### logger configuration ##########################
+# logger output part names:
+# all       For all parts
+# realurl   The full url link
+# result    Valid or invalid, with messages
+# extern    1 or 0, only in some logger types reported
+# base      <base href=...>
+# name      <a href=...>name</a> and <img alt="name">
+# parenturl The referrer URL if there is any
+# info      Some additional info, e.g. FTP welcome messages
+# warning   Warnings
+# dltime    Download time
+# checktime Check time
+# url       The original url name, can be relative
+# intro     The blurb at the beginning, "starting at ..."
+# outro     The blurb at the end, "found x errors ..."
+# stats     Statistics including URL lengths and contents.
+
+# each Logger can have separate configuration parameters
+
+# standard text logger
+[text]
+#filename=linkchecker-out.txt
+#parts=all
+#wraplength=65
+# colors for the various parts, syntax is <color> or <type>;<color>
+# type can be bold, light, blink, invert
+# color can be default, black, red, green, yellow, blue, purple, cyan, white,
+# Black, Red, Green, Yellow, Blue, Purple, Cyan, White
+#colorparent=default
+#colorurl=default
+#colorname=default
+#colorreal=cyan
+#colorbase=purple
+#colorvalid=bold;green
+#colorinvalid=bold;red
+#colorinfo=default
+#colorwarning=bold;yellow
+#colordltime=default
+#colorreset=default
+
+# GML logger
+[gml]
+#filename=linkchecker-out.gml
+#parts=all
+# valid encodings are listed in http://docs.python.org/library/codecs.html#standard-encodings
+# example:
+#encoding=utf_16
+
+# DOT logger
+[dot]
+#filename=linkchecker-out.dot
+#parts=all
+# default encoding is ascii since the original DOT format does not
+# support other charsets, example:
+#encoding=iso-8859-15
+
+# CSV logger
+[csv]
+#filename=linkchecker-out.csv
+#separator=;
+#quotechar="
+#dialect=excel
+#parts=all
+
+# SQL logger
+[sql]
+#filename=linkchecker-out.sql
+#dbname=linksdb
+#separator=;
+#parts=all
+
+# HTML logger
+[html]
+#filename=linkchecker-out.html
+# colors for the various parts
+#colorbackground=#fff7e5
+#colorurl=#dcd5cf
+#colorborder=#000000
+#colorlink=#191c83
+#colorwarning=#e0954e
+#colorerror=#db4930
+#colorok=#3ba557
+#parts=all
+
+# failures logger
+[failures]
+#filename=$XDG_DATA_HOME/linkchecker/failures
+
+# custom xml logger
+[xml]
+#filename=linkchecker-out.xml
+# system encoding is used by default. Example:
+#encoding=iso-8859-1
+
+# GraphXML logger
+[gxml]
+#filename=linkchecker-out.gxml
+# system encoding is used by default. Example:
+#encoding=iso-8859-1
+
+# Sitemap logger
+[sitemap]
+#filename=linkchecker-out.sitemap.xml
+#encoding=utf-8
+#priority=0.5
+#frequency=daily
+
+
+##################### checking options ##########################
+[checking]
+# number of threads
+threads=20
+# connection timeout in seconds
+timeout=30
+# Time to wait for checks to finish after the user aborts the first time
+# (with Ctrl-C or the abort button).
+#aborttimeout=300
+# The recursion level determines how many times links inside pages are followed.
+recursionlevel=1
+# parse a cookiefile for initial cookie data, example:
+#cookiefile=/path/to/cookies.txt
+# User-Agent header string to send to HTTP web servers
+# Note that robots.txt are always checked with the original User-Agent. Example:
+#useragent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+# When checking finishes, write a memory dump to a temporary file.
+# The memory dump is written both when checking finishes normally
+# and when checking gets canceled.
+# The memory dump only works if the python-meliae package is installed.
+# Otherwise a warning is printed to install it.
+#debugmemory=0
+# When checking absolute URLs inside local files, the given root directory
+# is used as base URL.
+# Note that the given directory must have URL syntax, so it must use a slash
+# to join directories instead of a backslash.
+# And the given directory must end with a slash.
+# Unix example:
+#localwebroot=/var/www/
+# Windows example:
+#localwebroot=/C|/public_html/
+# Check SSL certificates. Set to an absolute pathname for a custom
+# CA cert bundle to use. Set to zero to disable SSL certificate verification.
+sslverify=0
+# Stop checking new URLs after the given number of seconds. Same as if the
+# user hits Ctrl-C after X seconds. Example:
+#maxrunseconds=600
+# Don't download files larger than the given number of bytes
+maxfilesizedownload=100000
+# Don't parse files larger than the given number of bytes
+#maxfilesizeparse=1048576
+# Maximum number of URLs to check. New URLs will not be queued after the
+# given number of URLs is checked. Example:
+#maxnumurls=153
+# Maximum number of requests per second to one host.
+#maxrequestspersecond=10
+# Respect the instructions in any robots.txt files
+robotstxt=0
+# Allowed URL schemes as a comma-separated list. Example:
+allowedschemes=file,http,https
+# Size of the result cache. Checking more urls might increase memory usage during runtime
+#resultcachesize=100000
+
+##################### filtering options ##########################
+[filtering]
+# Ignore github usernames
+ignore=https?://github.com/[^/]*$
+# ignore everything with 'lconline' in the URL name
+#  lconline
+# and ignore everything with 'bookmark' in the URL name
+#  bookmark
+# and ignore all mailto: URLs
+#  ^mailto:
+# do not recurse into the following URLs
+nofollow=.*
+# just an example
+#  http://www\.example\.com/bla
+
+# Ignore specified warnings (see linkchecker -h for the list of
+# recognized warnings). Add a comma-separated list of warnings here
+# that prevent a valid URL from being logged. Note that the warning
+# will be logged for invalid URLs. Example:
+#ignorewarnings=url-unicode-domain
+# Regular expression to add more URLs recognized as internal links.
+# Default is that URLs given on the command line are internal.
+#internlinks=.*
+# Check external links
+checkextern=1
+
+
+##################### password authentication ##########################
+[authentication]
+# WARNING: if you store passwords in this configuration entry, make sure the
+# configuration file is not readable by other users.
+# Different user/password pairs for different URLs can be provided.
+# Entries are a triple (URL regular expression, username, password),
+# separated by whitespace.
+# If the regular expression matches, the given user/password pair is used
+# for authentication. The commandline options -u,-p match every link
+# and therefore override the entries given here. The first match wins.
+# At the moment, authentication is used for http[s] and ftp links.
+#entry=
+# Note that passwords are optional. If any passwords are stored here,
+# this file should not readable by other users.
+#  ^https?://www\.example\.com/~calvin/ calvin mypass
+#  ^ftp://www\.example\.com/secret/ calvin
+
+# if the website requires a login via a page with an HTML form the URL of the
+# page and optionally the username and password input element name attributes
+# can be provided.
+#loginurl=http://www.example.com/
+
+# The name attributes of the username and password HTML input elements
+#loginuserfield=login
+#loginpasswordfield=password
+# Optionally the name attributes of any additional input elements and the values
+# to populate them with. Note that these are submitted without checking
+# whether matching input elements exist in the HTML form. Example:
+#loginextrafields=
+#  name1:value1
+#  name 2:value 2
+
+############################ Plugins ###################################
+#
+# uncomment sections to enable plugins
+
+# Check HTML anchors
+#[AnchorCheck]
+
+# Print HTTP header info
+#[HttpHeaderInfo]
+# Comma separated list of header prefixes to print.
+# The names are case insensitive.
+# The default list is empty, so it should be non-empty when activating
+# this plugin. Example:
+#prefixes=Server,X-
+
+# Add country info to URLs
+#[LocationInfo]
+
+# Run W3C syntax checks
+#[CssSyntaxCheck]
+#[HtmlSyntaxCheck]
+
+# Search for regular expression in page contents
+#[RegexCheck]
+# Example:
+#warningregex=Oracle Error
+
+# Search for viruses in page contents
+#[VirusCheck]
+#clamavconf=/etc/clamav/clamd.conf
+
+# Check that SSL certificates have at least the given number of days validity.
+#[SslCertificateCheck]
+#sslcertwarndays=30
+
+# Parse and check links in PDF files
+#[PdfParser]
+
+# Parse and check links in Word files
+#[WordParser]
+
+# Parse and check links in Markdown files.
+# Supported links are:
+#        <http://autolink.com>
+#        [name](http://link.com "Optional title")
+#        [id]: http://link.com "Optional title"
+[MarkdownCheck]
+# Regexp of filename
+filename_re=.*\.(markdown|md(own)?|mkdn?)$
