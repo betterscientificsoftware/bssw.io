@@ -1,6 +1,6 @@
 **Year:** 2025
 
-**Name:** Position Three
+**Name:** Position 3
 
 **Image:** /images/People_2023_HM_Neeman.png
 
