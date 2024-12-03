@@ -1,6 +1,6 @@
 **Year:** 2025
 
-**Name:** Position One
+**Name:** Position 1
 
 **Image:** /images/People_2023_HM_Liu.png
 
