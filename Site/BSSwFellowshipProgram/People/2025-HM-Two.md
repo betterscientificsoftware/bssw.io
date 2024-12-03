@@ -1,6 +1,6 @@
 **Year:** 2025
 
-**Name:** Position Two
+**Name:** Position 2
 
 **Image:** /images/People_2023_HM_MonsalveDiaz.png
 
