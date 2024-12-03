@@ -1,6 +1,6 @@
 **Year:** 2025
 
-**Name:**  Position Four
+**Name:**  Position 4
 
 **Image:** /images/People_2023_HM_Riemer.png
 
