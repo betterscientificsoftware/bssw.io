@@ -1,6 +1,6 @@
 **Year:** 2025
 
-**Name:** Position Five
+**Name:** Position 5
 
 **Image:** /images/People_2023_HM_Sipocz.png
 
