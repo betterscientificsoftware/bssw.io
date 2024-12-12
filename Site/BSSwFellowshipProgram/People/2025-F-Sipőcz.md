@@ -4,7 +4,7 @@
 
 **Affiliation:** Lawrence Livermore National Laboratory
 
-**Image:** /images/People_SipoczBrigitta_HM.png
+**Image:** /images/People_2023_HM_Sipocz.png
 
 **URL:** https://people.llnl.gov/doerfert1
 
