@@ -32,7 +32,7 @@ eliminate the complexity of technical work, but provides a conceptual framework 
 simplifies it.
 
 <!---
-Publish: no
+Publish: yes
 Pinned: no
 Topics: documentation
 --->
