@@ -6,6 +6,6 @@
 
 **Affiliation:** Idaho State University
 
-**Short Bio:** Associate professor
+**Short Bio:** Department of Computer Science, Associate professor
 
 **Honorable Mention:** Yes

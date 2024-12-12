@@ -6,6 +6,6 @@
 
 **Affiliation:** University of Toledo
 
-**Short Bio:** Visiting assistant professor
+**Short Bio:** Data Science and Mathematics, Visiting assistant professor
 
 **Honorable Mention:** Yes

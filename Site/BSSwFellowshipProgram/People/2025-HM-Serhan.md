@@ -6,6 +6,6 @@
 
 **Affiliation:** Arizona State University
 
-**Short Bio:** Senior software engineer
+**Short Bio:** Learning Engineering Institute, Senior software engineer
 
 **Honorable Mention:** Yes
