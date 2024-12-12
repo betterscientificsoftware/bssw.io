@@ -4,8 +4,8 @@
 
 **Image:** /images/People_2025_HM_Atindama.jpg
 
-**Affiliation:** NSF National Center for Atmospheric Research, Software Engineer III
+**Affiliation:** University of Toledo
 
-**Short Bio:** Better Reliability – Rigor and reasoning in research software: tutorial on testing and verification methods
+**Short Bio:** Visiting assistant professor
 
 **Honorable Mention:** Yes
