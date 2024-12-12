@@ -6,6 +6,6 @@
 
 **Affiliation:** Pomona College
 
-**Short Bio:** Department of Mathematics and Statistics, Instructor
+**Short Bio:** Instructor, Department of Mathematics and Statistics
 
 **Honorable Mention:** Yes
