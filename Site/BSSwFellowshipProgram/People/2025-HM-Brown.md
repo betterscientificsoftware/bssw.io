@@ -6,6 +6,6 @@
 
 **Affiliation:** Two Worlds Scientific, LLC
 
-**Short Bio:** CEO/Research software engineer
+**Short Bio:** CEO and Research software engineer
 
 **Honorable Mention:** Yes

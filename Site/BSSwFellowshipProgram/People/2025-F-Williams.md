@@ -1,23 +1,27 @@
 **Year:** 2025
 
-**Name:** Peter Williams
+**Name:** Peter K. G. Williams
 
-**Affiliation:** Sandia National Laboratories
+**Affiliation:** Center for Astrophysics | Harvard & Smithsonian
 
 **Image:** /images/People_2025_F_Williams.jpg
 
-**LinkedIn:** https://www.linkedin.com/in/william-e-hart-3691134/
+**URL:** https://newton.cx/~peter/
 
-**Github:** https://github.com/whart222
+**LinkedIn:** https://www.linkedin.com/in/pkgwilliams/
 
-**Short Bio:** Best practices for software supply chain security
+**Github:** https://github.com/pkgw/
+
+**Short Bio:** Framework for architecting technical documentation
 
 **Long Bio:**
-### Sustainable strategies for managing supply chain security in research software
 
-BSSw Fellow William Hart is exploring how to effectively integrate security practices within open source computational science projects to enhance the security of these projects and their artifacts without disrupting the collaborative interactions that are needed to support open source development with contributors from multiple institutions. Organizations are increasingly challenged to address supply chain security issues in open source software. There are ongoing discussions regarding potential government-wide policies, but it remains unclear how different policies will impact collaborative multi-institutional interactions. This fellowship will support the application of supply chain security practices utilized by the Linux community to Department of Energy (DOE) computational science projects. Through this fellowship, these practices and tools will be evaluated in the context of DOE computational science software projects and assessed relative to emerging DOE needs for supply chain security to identify suitable practices for software security that result in meaningful improvements of supply chain security without disrupting the collaborative process that is essential for open research.
+### Framework for architecting technical documentation
 
-William Hart is a Research Scientist at Sandia National Laboratories. His research focuses on computational operations research, and he has led projects and programs at Sandia on national security challenges, including cybersecurity, critical infrastructure protection, engineering design, and sensor data analysis. A key element of this research is the development of scientific software, and William has been a key developer of many open source software projects, including [Dakota](https://dakota.sandia.gov/), [gcovr](https://gcovr.com), [PyUtilib](https://github.com/PyUtilib/pyutilib), [Pyomo](http://pyomo.org), [PAO](https://github.com/or-fusion/pao) and [Coek](https://github.com/sandialabs/coek). These projects range from simple Python scripts to large C++ applications with complex build systems. Additionally, the technology readiness levels of these projects range from demonstrations suitable for basic research to mature capabilities suitable for end-user deployment.
+BSSw Fellow Peter K. G. Williams aims to teach scientific software developers how to create better documentation. For many, the word evokes a feeling of guilt, or dread. Have I written enough? Is what I’ve written any good? While these questions might occur to any kind of developer, scientific software raises some additional ones: how do I integrate my documentation with the academic literature? How do I teach users about the links between physics concepts and code? How do I get professional credit for this work? Peter is constructing an online learning resource aiming to answer these sorts of questions: documentation about documentation. It will present a conceptual framework for architecting technical documentation, strategies for creating effective documentation, and specific techniques for implementing those strategies. The goal of the year-long project is to deliver an end-to-end resource: one equipping scientific software developers with the basic conceptual and authoring tools they need to document typical projects satisfactorily.
 
-### Selected Resources
-<a href="https://bssw.io/blog_posts/generating-software-bill-of-materials-sboms-in-scientific-software" class="link-row">BSSw.io blog article - Generating Software Bill of Materials (SBOMs) in Scientific Software</a>
+Peter is the Technical Lead for the Minor Planet Center, based at the Center for Astrophysics | Harvard & Smithsonian. Along with a research background in time-domain observational radio astronomy, he has extensive experience in open-source software development, and he is preoccupied with all of the ways in which information technology could be revolutionizing science---but isn't yet.
+
+<!-- ### Selected Resources -->
+
+<!-- <a href="url" class="link-row">Text</a> -->
