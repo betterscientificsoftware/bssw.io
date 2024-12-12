@@ -1,10 +1,10 @@
 **Year:** 2025
 
-**Name:** Position 1
+**Name:** Jasmine Buckley-Williams
 
 **Affiliation:** Arizona State University
 
-**Image:** /images/People_2023_F_Brewer.png
+**Image:** /images/People_2025_F_Buckley-Williams.jpg
 
 **URL:** https://www.nicole-brewer.com
 
