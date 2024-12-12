@@ -1,10 +1,10 @@
 **Year:** 2025
 
-**Name:** Position 2
+**Name:** Alper Altuntas
 
 **Affiliation:** Iowa State University
 
-**Image:** /images/People_2023_F_Cohen.png
+**Image:** /images/People_2025_F_Altuntas.jpg
 
 **URL:** https://cs.iastate.edu/~mcohen
 
