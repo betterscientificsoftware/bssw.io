@@ -1,10 +1,10 @@
 **Year:** 2025
 
-**Name:** Position 3
+**Name:** Brigitta Sipőcz
 
 **Affiliation:** Lawrence Livermore National Laboratory
 
-**Image:** /images/People_2023_F_Doerfert.png
+**Image:** /images/People_SipoczBrigitta_HM.png
 
 **URL:** https://people.llnl.gov/doerfert1
 
