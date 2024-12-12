@@ -1,10 +1,10 @@
 **Year:** 2025
 
-**Name:** Position 4
+**Name:** Peter Williams
 
 **Affiliation:** Sandia National Laboratories
 
-**Image:** /images/People_2023_F_Hart.png
+**Image:** /images/People_2025_F_Williams.jpg
 
 **LinkedIn:** https://www.linkedin.com/in/william-e-hart-3691134/
 
