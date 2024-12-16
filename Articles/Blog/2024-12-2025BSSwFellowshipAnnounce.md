@@ -16,7 +16,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_F_Altuntas.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_F_Altuntas.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -28,7 +28,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_F_Buckley-Williams.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_F_Buckley-Williams.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -52,7 +52,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-  <img src='../../images/Blog_BSSwF_2025_F_Williams.png' class='logo' />
+  <img src='../../images/Blog_BSSwF_2025_F_Williams.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -64,7 +64,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_F_Zhang.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_F_Zhang.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -78,7 +78,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_HM_Atindama.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_HM_Atindama.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -89,7 +89,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_HM_Brown.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_HM_Brown.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -100,7 +100,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_HM_Castillo.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_HM_Castillo.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -111,7 +111,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_HM_Serhan.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_HM_Serhan.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
@@ -122,7 +122,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2025_HM_Zibran.png' class='logo' />
+<img src='../../images/Blog_BSSwF_2025_HM_Zibran.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
