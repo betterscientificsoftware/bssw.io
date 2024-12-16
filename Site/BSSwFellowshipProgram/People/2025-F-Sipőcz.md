@@ -16,6 +16,8 @@
 
 ### User-facing tutorials as code: Reproducible and reliable tutorials with CI/CD
 
+Stay tuned! More information about Brigitta's project will be coming soon.
+
 Brigitta is a developer at CalTech IPAC.
 
 <!-- ### Selected Resources -->
