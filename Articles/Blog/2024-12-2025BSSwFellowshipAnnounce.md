@@ -46,7 +46,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 <div class='short_bio'>
   <h3>Brigitta Sipőcz, California Institute Of Technology</h3>
   <p>Developer, IPAC</p>
-  <p><i>BSSw focus</i>: User-facing tutorials as code: Reproducible And reliable tutorials With CI/CD</p>
+  <p><i>BSSw focus</i>: User-facing tutorials as code: Reproducible and reliable tutorials with CI/CD</p>
 </div>
 </div>
 
