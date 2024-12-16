@@ -8,13 +8,13 @@
 
 **Github:** https://github.com/alperaltuntas
 
-**Short Bio:** Rigor and reasoning in research software: tutorial on testing and verification methods
+**Short Bio:** Rigor and reasoning in research software: Tutorial on testing and verification methods
 
 **Long Bio:**
 
 ### Rigor and reasoning in research software: tutorial on testing and verification methods
 
-Alper is a software engineer at the Climate and Global Dynamics Laboratory at NSF National Center for Atmospheric Research.
+Alper is a software engineer in the Climate and Global Dynamics Laboratory at the NSF National Center for Atmospheric Research.
 
 
 <!-- ### Selected Resources -->
