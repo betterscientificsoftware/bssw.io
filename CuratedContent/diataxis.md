@@ -24,7 +24,7 @@ The framework also introduces a 2D grid with axes spanning from *Acquisition* to
 The four documentation type fit into the four quadrants of the grid: Learning (with tutorials), How-To Guides (with goals), Information (with technical references) and Understanding (with explanations). 
 This visual model helps clarify the purpose of each documentation type. 
 For example, how-to guides fall into the second quadrant, characterized by content focused on practical action and application.
-In addition to end-users, this framework provides value documentation creators and maintainers as it helps them identify where within this structure new or updated information needs to be added.
+In addition to end-users, this framework provides value to documentation creators and maintainers as it helps them identify where within this structure new or updated information needs to be added.
 
 In practice, documentation authoring is a challenging task.
 Having the Diátaxis structure in mind can help clarify which of the content type a particular idea might best fit into; instead of force-fitting all documentation in a single manual. 
