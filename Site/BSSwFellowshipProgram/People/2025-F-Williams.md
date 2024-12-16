@@ -2,7 +2,7 @@
 
 **Name:** Peter K. G. Williams
 
-**Affiliation:** Center for Astrophysics | Harvard & Smithsonian
+**Affiliation:** Center for Astrophysics | Harvard College Observatory and Smithsonian Astrophysical Observatory
 
 **Image:** /images/People_2025_F_Williams.jpg
 
