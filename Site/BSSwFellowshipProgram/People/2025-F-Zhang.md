@@ -14,6 +14,8 @@
 
 ### MPI debugging resources and community hub
 
+Stay tuned! More information about Junchao's project will be coming soon.
+
 Junchao is a principal software engineer in the Mathematics and Computer Science Division of Argonne National Laboratory.
 
 <!-- ### Selected Resources -->
