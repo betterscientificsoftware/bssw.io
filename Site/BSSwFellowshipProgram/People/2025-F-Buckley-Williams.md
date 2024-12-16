@@ -12,6 +12,8 @@
 
 ### Resource toolkit and outreach on scalable, reproducible software practices
 
+Stay tuned! More information about Jasmine's project will be coming soon.
+ 
 Jasmine is a graduate student in Big Data Analytics at San Diego State University.
 
 <!-- ### Selected Resources -->
