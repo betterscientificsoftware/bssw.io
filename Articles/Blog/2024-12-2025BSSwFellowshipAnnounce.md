@@ -10,7 +10,7 @@ We sincerely thank _all_ fellowship applicants. The broad range of creative and 
 
 The [BSSw Fellowship Program](https://bssw.io/fellowship) gives recognition and funding to leaders and advocates of high-quality scientific software. Each 2025 Fellow will receive up to $25,000 for an activity that promotes better scientific software, such as organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
-The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE), Office of Advanced Scientific Research and the National Nuclear Security Administration Advanced Simulation and Computing Program, and National Science Foundation (NSF). It enables a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering. The program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity.
+The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, via the Office of Advanced Scientific Computing Research and the National Nuclear Security Administration's Advanced Simulation and Computing Program) and the National Science Foundation (NSF). The BSSw Fellowship Program enables a more robust approach toward pioneering the future of advanced computing ecosystems and leadership in science and engineering. The program enhances workforce development and pathways to NSF and DOE software communities, through nurturing a network of people who advance software practices as a fundamental aspect of increasing overall scientific productivity.
 
 ## 2025 BSSw Fellows
 
@@ -22,7 +22,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 <div class='short_bio'>
   <h3>Alper Altuntas, NSF National Center for Atmospheric Research</h3>
   <p>Software Engineer, Climate and Global Dynamics Laboratory</p>
-  <p><i>BSSw focus</i>: Rigor and reasoning in research software: tutorial on testing and verification methods</p>
+  <p><i>BSSw focus</i>: Rigor and reasoning in research software: Tutorial on testing and verification methods</p>
 </div>
 </div>
 
@@ -45,8 +45,8 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 <div class='short_bio'>
   <h3>Brigitta Sipőcz, California Institute Of Technology</h3>
-  <p>Developer, IPAC/p>
-  <p><i>BSSw focus</i>: User-Facing Tutorials As Code: Reproducible And Reliable Tutorials With CI/CD</p>
+  <p>Developer, IPAC</p>
+  <p><i>BSSw focus</i>: User-facing tutorials as code: Reproducible And reliable tutorials With CI/CD</p>
 </div>
 </div>
 
@@ -133,7 +133,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE),
 
 
 ### About the BSSw Fellowship
-The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2024. More information:
+The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2025. More information:
 
 - [BSSw Meet Our Fellows](https://bssw.io/pages/meet-our-fellows)
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq)
