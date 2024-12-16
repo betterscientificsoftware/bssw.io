@@ -58,7 +58,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 <div class='short_bio'>
   <h3>Peter K. G. Williams, Center for Astrophysics | Harvard & Smithsonian</h3>
   <p>Technical Lead, Minor Planet Center</p>
-  <p><i>BSSw Focus</i>: Framework for architecting technical documentation</p>
+  <p><i>BSSw focus</i>: Framework for architecting technical documentation</p>
 </div>
 </div>
 
