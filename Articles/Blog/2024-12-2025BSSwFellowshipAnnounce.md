@@ -69,7 +69,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 
 <div class='short_bio'>
   <h3>Junchao Zhang, Argonne National Laboratory</h3>
-  <p>Principal Software Engineer, Mathematics and Computer Science</p>
+  <p>Principal Software Engineer, Mathematics and Computer Science Division</p>
   <p><i>BSSw focus</i>: MPI debugging resources and community hub</p>
 </div>
 </div>
