@@ -14,6 +14,8 @@
 
 ### Rigor and reasoning in research software: tutorial on testing and verification methods
 
+Stay tuned! More information about Alper's project will be coming soon. 
+
 Alper is a software engineer in the Climate and Global Dynamics Laboratory at the NSF National Center for Atmospheric Research.
 
 
