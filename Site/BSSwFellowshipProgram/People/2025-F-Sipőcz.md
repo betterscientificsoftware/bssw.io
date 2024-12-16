@@ -10,11 +10,11 @@
 
 **Github:** https://github.com/bsipocz
 
-**Short Bio:** User-Facing Tutorials As Code: Reproducible And Reliable Tutorials With CI/CD
+**Short Bio:** User-facing tutorials as code: Reproducible and reliable tutorials with CI/CD
 
 **Long Bio:**
 
-### User-Facing Tutorials As Code: Reproducible And Reliable Tutorials With CI/CD
+### User-facing tutorials as code: Reproducible and reliable tutorials with CI/CD
 
 Brigitta is a developer at CalTech IPAC.
 
