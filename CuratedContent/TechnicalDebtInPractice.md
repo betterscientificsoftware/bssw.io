@@ -1,12 +1,11 @@
 ## Technical Debt in Practice: How to Find It and Fix It
 
 <!--- deck text start --->
-Technical debt can build up in a software project to the point there it chokes the life out of the effort and results in stagnating software development, ballooning defects, skipped schedules, and ultimately scrapped systems.
-This book provides a comprehensive and systematic approach to measure, quantify, and the reduce the more significant types of technical debt that are slowing down a given software project and make it more agile and sustainable.
+This book describes a comprehensive and systematic approach to measure, quantify, and reduce the more significant types of technical debt that are slowing down a given software project and thereby make it more agile and sustainable.
 <!--- deck text end --->
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
-#### Publication date: December 20, 2024
+#### Publication date: December 23, 2024
 
 Resource information | Details
 :--- | :---
@@ -14,15 +13,15 @@ Book title  | [Technical Debt in Practice: How to Find It and Fix It](https://bo
 Authors | Neil Ernst, Rick Kazman, Julien Delange
 Publication | 2021, ISBN: 780262366304, DOI: https://doi.org/10.7551/mitpress/12440.001.0001
 
-The concept of Technical Debt was created in 1992 by Ward Cunningham as a was to communicate and motivate management to support software developer efforts to improve the design and implementation of software to make it easier to maintain and extend.
+Technical debt can build up in a software project to the point there it chokes the life out of it by stagnating development, ballooning defects, slipping schedules, and ultimately resulting in scrapped systems.
+The concept of ***Technical Debt*** was created in 1992 by Ward Cunningham as a way to communicate to and motivate management to support software developer efforts to improve the design and implementation of software to make it easier to maintain and extend.
 
-A common definition of software technical debt is:
+A more general definition of software technical debt might be:
 
-> Software design, implementation, testing, etc. choices made for short-term gains in development and deployment speed or learning that make the software more expensive the maintain and extend longer-term.
+> Choices in software design, implementation, testing, documentation, and other areas made for short-term gains in development and deployment speed (or for faster learning) that make the software more expensive to maintain and extend longer-term.
 
-While there are may free sources of information about software technical debt and how to address it<sup>[???]</sup>, arguably, none of them provide the type of cohesive in-dept treatment of the topic that is provided by the book *Technical Debt in Practice: How to Find It and Fix It".
-
-This book covers the detection, quantification, and correction of technical debt in the following standard areas of software development:
+While there are may free sources of information about software technical debt and how to address it ([for example](https://bssw.io/items/keep-interest-on-technical-debt-from-sinking-your-software-project)), arguably, none of them provide the type of cohesive comprehensive in-dept treatment on the topic that is provided by the book ***Technical Debt in Practice: How to Find It and Fix It***.
+This book covers the detection, quantification, and correction of technical debt in the following standard areas of software development (along with common sources of technical debt in each area):
 
 * **Requirements debt**:
   * Poor requirements engineering
@@ -53,20 +52,37 @@ This book covers the detection, quantification, and correction of technical debt
   * Documents outdated
   * Too much documentation
 
-In addition to these universal categories, it also covers types of technical debt:
+In addition to these universal categories, it also covers more specialized types of technical debt:
 
-* Technical debt in machine learning systems:
-  * ???
+* **Technical debt in machine learning systems**:
+  * Poor integration (with non-model components)
+  * Poor explainability (i.e. black-box systems)
+  * ML parameter configuration issues
+  * Lack of testing (hard with probabilistic systems)
 
-Then the authors take on broader types of (non-technical) software project debt in:
+The authors also take on broader types of (non-technical) software project debt in:
 
-* Team management and social debt:
-  * ???
+* **Team management and social debt**:
+  * Cookbook development (developers stuck in their ways and not willing to consider alternatives)
+  * Time warp (not accounting for communication time and coordination levels)
+  * Cognitive distance (differences in social, education, and other areas making it hard to work together)
+  * Newbie free-riding (not on-boarding new developers and the free-riding of older employees)
+  * Power distance (some developers assuming they have less power that others)
+  * Disengagement (thinking the software is more mature than it is)
+  * Piggish members (rigid and unreasonable requirements on others)
+  * Institutional isomorphism (one size fits all for all projects within the same institution)
+  * Hypercommunity (hyperconnected community with group-think and lack of diverse views)
+  * DevOps clash (clashes between developers and operations teams, multiple locations, etc.)
+  * Informatively excess (lack of processes and information management)
+  * Unlearning (team members not able to use newer practices due to members unwilling to change)
+  * Organizational silo (Siloed teams of developer teams that do not communicate)
+  * Black cloud (Information overload due to lack of structured communication and info management)
+  * Lone wolf (Renegade contributors that don't coordinate or collaborate with peers)
 
 The comparison of technical debt to financial debt, and the concepts of debt ***principle*** and debt ***interest*** payments, has been widely embarrassed in the software development community.
 The differentiation between the *principle* to pay down a given source of technical debt as apposed to the *interest* payment for not paying down that debt is critical.
 For example, if a given technical debt principle cost is massively larger than the interest payment, it may not ever be justified to pay down that debt (unless there is a very long time horizon).
-For instance, while the cost to maintain a Rust program may be less than maintaining an equivalent C++ program for the same functionality, the principle payment cost to convert a large C++ program to Rust may be massive and a project may never recoup the cost compared to maintaining the existing C++ software even over many years.
+For instance, while the cost to maintain a Rust program may be less than maintaining an equivalent C++ program for the same functionality, the principle payment cost to convert a large C++ program to Rust may be massive and a project may never recoup the cost compared to maintaining the existing C++ software, even over many years.
 
 <!---
 The interest payment cost accumulates over time, so the length of time between when given tech debt is added and when it is payed off is an important consideration.
@@ -76,48 +92,60 @@ Even a smaller interest payment integrated over a long period of time can result
 Some of the more interesting (and non-obvious) arguments the authors make about technical debt in this book include:
 
 * **The accumulation of some technical debt is actually beneficial** in that it allows projects to go faster and get to market before competitors.  (This is *deliberate* and *prudent* technical debt.)
-* **All software projects contain some amount of technical debt.**
-* **All software projects constantly and naturally accumulate technical debt.** (This can either be *deliberate* or *inadvertent*, *prudent* or *reckless*)
-* While projects should never try to eliminate all technical debt, **projects should actively monitor, measure, and manage technical debt** to keep the interest payments from becoming too high (and thereby damaging the software and productivity too much).
-* **Some sources of technical debt can only be detected and quantified by analyzing the dynamics of a software project processes** (such as development, deployment and other processes).  (For example, detecting architecture and design debt requires analyzing commits, issue trackers, common file sets frequently changed together, and other process that are not evident in a static analysis of the file contents for the project.)
-* **Implementation debt** (i.e. that can be detected by analyzing the files in a project) **tends to not be the largest sources of technical debt** in most projects.
-* **Technical debt should be payed down based on priority and a cost/benefit analysis.** (E.g., tech debt with high interest/principle ratios should be paid down before debt with lower interest/principle ratios.)
+* **All software projects constantly and naturally accumulate technical debt.** (This can either be *deliberate* or *inadvertent*, *prudent* or *reckless*.  For example, [*Emergent Eesign*](https://en.wikipedia.org/wiki/Emergent_design#Emergent_design_in_agile_software_development) naturally creates some architectural/design debt as new features are added and the architecture and design must be constantly refactored to match.)
+* While projects should never try to eliminate all technical debt, **projects should actively monitor, measure, and manage technical debt** to keep the interest payments from becoming too high (and thereby damaging the software and productivity, quality, etc. too much).
+* **Some sources of technical debt can only be detected and quantified by analyzing the dynamics of processes** (such as software development, deployment, user support, and other software processes).  (For example, detecting architecture/design debt requires analyzing commits, issue trackers, common file sets frequently changed together, and other information that are not evident in a static analysis of the file contents for the project.)
+* **Implementation debt tends to <u>not</u> be the largest sources of technical debt** in most projects.
+* **Technical debt should be payed down based on priority and a cost/benefit analysis.** (For example, technical debt with high interest/principle ratios should be paid down before debt with lower interest/principle ratios.)
 * Most projects should **plan to spend between 15% to 20%** of their development effort on **paying down technical debt**.
-* **Some technical debt may never need to be repaid.**  (For example, a very complex poorly designed and coded piece of legacy code may not need to be addressed if it works, does not need to change, or will be completely replaced soon.)
-* Much of the otherwise **reckless and/or inadvertent technical debt can and should be avoided in the first place by the application of best practices**.
-* Companies and **organizations that don't view software as a core asset tend to produce software that has large amounts of unmanaged technical debt** which
-* ???
+* Technical debt metrics and quantification are critical for **making the business case for identifying and paying down technical debt** by focusing on the **impact of technical debt interest payment cost on the value stream**.
+* **Some technical debt may never need to be repaid.**  (For example, a very complex poorly designed and coded piece of legacy code may not need to be addressed if it works and does not need to change, and/or will be completely replaced soon.)
+* Much of the otherwise **reckless and/or inadvertent technical debt can and should be avoided in the first place** by the application of software development best practices.
+* Companies and **organizations that don't view software as a core asset tend to produce software that has large amounts of unmanaged technical debt**.
+* Software projects that don't pay down **significant obvious technical debt drives away good developers and result in lower performing development teams** (that in turn create more unmanaged technical debt).
 
 Most of the material in this book just espouses the virtues of modern Agile software development technical practices and principles such as:
 
-* SOLID design principles
-* Test-driven development
-* Peer code review
-* ???
+* [SOLID design principles](https://bssw.io/items/solid-design-principles)
+* [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development)
+* [Peer code review](https://bssw.io/items?topic=peer-code-review)
+* [Continuous integration](https://bssw.io/items?topic=continuous-integration-testing) and modern [DevOps](https://bssw.io/items/what-is-devops)
+* Usage of newer language features and tools (e.g. [modern C++20+ vs. C++98](https://bssw.io/items/c-core-guidelines), [static analyzers and linters](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#appendix-d-supporting-tools), [code formatters](https://bssw.io/blog_posts/coding-conventions), etc.)
+
+and many others.
 
 However, it places these Agile technical practices within the consistent framework of technical debt avoidance, reduction, and management (thereby, providing a solid connection to bottom line software productivity and sustainability).
 Therefore, this book could be used as an introduction to many of these modern software engineering practices and help motivate them better than is often done in other software engineering literature.
 
-The book is filled with many case studies in the application of technical debt analysis and quantification efforts.
+The book is filled with many case studies in the application of technical debt analysis, quantification, and reduction efforts.
 Examples of some of the more interesting case studies include:
 
-* **FaceBook** starting out with PHP and switching the implementation of critical parts to C++ incrementally to improve performance and scalability
+* **FaceBook** started out with PHP and switched the implementation of critical parts to C++ incrementally to improve performance and scalability.
   * => A success story for going fast early and then incrementally paying down technical debt.
-* **Phoenix Payment System** deployed with massive defects due to poor requirements engineering and poor testing
+* **Phoenix Payment System** deployed with massive defects due to poor requirements engineering and poor testing.
   * => An example of a massive failure due to requirements and testing debt
-* **Netscape 6** which become Mozilla (then FireFox) was a complete rewrite from scratch that took too long and resulted in a massive loss in market share to competitors like Microsoft Internet Explorer (IE)
-  * => A massive failure due to ignoring technical debt and then trying to eliminate it by starting over (which is almost never successful for a complex piece of software <sup>[???]</sup>)
-* **Gogole Chromium Project** where significant architecture and design debt related to the Plus10 bugs was identified, quantified, and addressed
+* **Netscape 6** which become Mozilla (then FireFox) was a complete rewrite from scratch that took too long and resulted in a massive loss in market share to competitors like Microsoft Internet Explorer (IE).
+  * => A massive failure due to ignoring technical debt and then trying to eliminate it by starting over (which is almost never successful for a complex piece of software, see [Things You Should Never Do, Part I](https://bssw.io/items/things-you-should-never-do-part-i))
+* **Google Chromium Project** where significant architecture and design debt related to the Plus10 bugs was identified, quantified, and addressed
   * => Example of the successful usage of architecture and design debt identification tools and remediation through refactoring
 * **SoftServe SS1** project:
-  * => Detailed example of applying architectural and design debt identification and quantification tools and metrics-based prioritization and remediation of the largest sources of technical debt with quantified payoff
+  * => Detailed example of applying architectural/design debt identification and quantification tools and metrics-based prioritization and remediation of the largest sources of technical debt with quantified payoff
+* **Brightsquid** project:
+  * => Another detailed example of applying architecture/design debt identification and quantification tools and remediation of the largest sources of technical debt with solid evidence for the payoff
+* **Twitter** refactored from a monolithic Ruby on Rails website to use microservices with a number of different implementations and redudancy.
+  * => Detailed example of how changing architecture allowed changing programming languages for different pieces and incrementally paying down technical debt
+* **Atacama Large Millimeter Array (ALMA)** scientific software to manage radio telescopes and data.
+  * => Example of how large amounts of technical debt in these types of scientific projects staffed by domain experts with little software backgrounds can slow down development, deployment, and maintenance, compared to more traditional software projects.
 
 In summary, the unique contributions of this book (compared to what one gets from reading the standard software engineering texts) is the systematic approach to identifying issues that slow down and harm a software project that are then addressed through the application of modern software engineering practices.
-
-???
 
 <!---
 Publish: yes
 Pinned: no
 Topics: Software engineering, Software process improvement, Projects and organizations, Requirements, Design, Software sustainability, Refactoring, Issue Tracking, Release and Deployment, Documentation, Peer Code Review, Testing, Continuous Integration Testing
+--->
+
+<!---
+LocalWords:  observability
 --->
