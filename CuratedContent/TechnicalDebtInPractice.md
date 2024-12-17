@@ -86,7 +86,7 @@ In that case, paying down that debt may never be justified (unless there is a ve
 For instance, while the cost to maintain a Rust program may be less than maintaining an equivalent C++ program for the same functionality, the principal payment cost to convert a large C++ program to Rust may be massive and a project may never recoup the cost compared to maintaining the existing C++ software, even over many years.
 
 <!---
-The interest payment cost accumulates over time, so the length of time between when given tech debt is added and when it is payed off is an important consideration.
+The interest payment cost accumulates over time, so the length of time between when given tech debt is added and when it is paid off is an important consideration.
 Even a smaller interest payment integrated over a long period of time can result in a huge cumulative cost to the project.
 --->
 
@@ -97,7 +97,7 @@ Some of the more interesting (and non-obvious) arguments the authors make about 
 * While projects should never try to eliminate all technical debt, **projects should actively monitor, measure, and manage technical debt** to keep the interest payments from becoming too high (thereby damaging the software and productivity, quality, etc. too much).
 * **Some sources of technical debt can only be detected and quantified by analyzing the dynamics of processes** (such as software development, deployment, user support, and other software processes).  (For example, detecting architecture/design debt requires analyzing commits, issue trackers, common sets of files frequently changed together, and other information that is not evident in a static analysis of the file contents for the project.)
 * **Implementation debt tends to <u>not</u> be the largest sources of technical debt** in most projects.
-* **Technical debt should be payed down based on priority and a cost/benefit analysis.** (For example, technical debt with high interest/principle ratios should be paid down before debt with lower ratios.)
+* **Technical debt should be paid down based on priority and a cost/benefit analysis.** (For example, technical debt with high interest/principle ratios should be paid down before debt with lower ratios.)
 * Most projects should **plan to spend between 15% to 20%** of their development effort on **paying down technical debt**.
 * Technical debt metrics and quantification are critical for **making the business case for identifying and paying down technical debt** by focusing on the **impact of technical debt interest payment cost on the value stream**.
 * **Some technical debt may never need to be repaid.**  (For example, a very complex, poorly designed and coded piece of legacy code may not need to be addressed if it works and does not need to change and/or will be completely replaced soon.)
