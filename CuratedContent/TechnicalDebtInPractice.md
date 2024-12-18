@@ -22,7 +22,7 @@ A more general definition of software technical debt might be:
 
 While there are many free sources of information about software technical debt and how to address it ([for example](https://bssw.io/items/keep-interest-on-technical-debt-from-sinking-your-software-project)), arguably, none of them provide the type of cohesive, comprehensive, in-dept treatment on the topic provided by the book ***Technical Debt in Practice: How to Find It and Fix It***.
 
-### Categories and Common Sources of Technical Debt
+## Categories and Common Sources of Technical Debt
 
 This book covers the detection, quantification, and correction of technical debt in the following standard areas of software development (along with common sources of technical debt in each area):
 
@@ -82,7 +82,7 @@ The authors also take on broader types of (non-technical) software project debt 
   * Black cloud (Information overload due to lack of structured communication and info management)
   * Lone wolf (Renegade contributors that don't coordinate or collaborate with peers)
 
-### Technical Debt Principle and Interest Payments
+## Technical Debt Principle and Interest Payments
 
 The comparison of technical debt to financial debt and the concepts of debt ***principle*** and debt ***interest*** payments have been widely embraced in the software development community.
 The differentiation between the *principle* of paying down a given source of technical debt as opposed to the *interest* payment for not paying down that debt is critical.
@@ -95,7 +95,7 @@ The interest payment cost accumulates over time, so the length of time between w
 Even a smaller interest payment integrated over a long period of time can result in a huge cumulative cost to the project.
 --->
 
-### Insights and Guidance on the Management of Technical Debt
+## Insights and Guidance on the Management of Technical Debt
 
 Some of the more interesting (and non-obvious) arguments and insights the authors make about technical debt in this book include:
 
@@ -112,7 +112,7 @@ Some of the more interesting (and non-obvious) arguments and insights the author
 * Companies and **organizations that don't view software as a core asset tend to produce software with large amounts of unmanaged technical debt**.
 * Software projects that don't pay down significant and obvious technical debt **drive away good developers and result in lower-performing development teams** (which in turn create more unmanaged technical debt).
 
-### Software Engineering Best Practices and Technical Debt
+## Software Engineering Best Practices and Technical Debt
 
 A lot of the material in this book espouses the virtues of modern agile software development technical practices and principles such as:
 
@@ -126,7 +126,7 @@ A lot of the material in this book espouses the virtues of modern agile software
 and many others.  However, it places these agile technical practices within the consistent framework of technical debt avoidance, reduction, and management (thereby providing a solid connection to bottom-line software productivity and sustainability).
 Therefore, this book could be used to introduce many of these modern software engineering practices and help motivate them better than is often done in other software engineering literature.
 
-### Technical Debt Case Studies
+## Technical Debt Case Studies
 
 The book is filled with many case studies in the application of technical debt analysis, quantification, and reduction efforts.
 Examples of some of the more interesting case studies include:
@@ -148,7 +148,7 @@ Examples of some of the more interesting case studies include:
 * **Atacama Large Millimeter Array (ALMA)** scientific software to manage radio telescopes and data.
   * => An example of how large amounts of technical debt can be created in these types of scientific projects staffed by domain experts with little software backgrounds and how that can slow down development, deployment, and maintenance, compared to more traditional software projects.
 
-### Summary
+## Summary
 
 In summary, the unique contribution of this book (compared to what one gets from reading the standard software engineering texts) is the systematic approach to identifying issues that slow down and harm a software project (using the analogy of technical debt), which are then addressed in priority order through the application of modern software engineering best practices.
 
