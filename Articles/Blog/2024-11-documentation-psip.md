@@ -1,4 +1,11 @@
-Enhancing the stability and impact of containerized environments through documentation improvement
+# Enhancing the Stability and Impact of Containerized Environments Through Documentation Improvement
+
+#### Contributed by [Joe Frye](https://github.com/fryeguy52)
+
+#### Publication date: December 17, 2024
+
+<!-- begin deck -->
+<!-- end deck -->
 
 Scientific software requires complex sets of dependencies on a wide variety of platforms.  It is a challenge to create a standard environment for development, testing, and deployment.  These 3 phases of software creation often occur on separate machines and at different times.  Testing and deployment are ideally automated processes which occur on dedicated systems.  Development usually takes place on a user's machine and that machine may need to have multiple software environments available.  Containers can help with these challenges and can be used to get a standard environment on all of these different machines that can be switched easily depending on what a developer needs, so they have potential to make a great impact in standardized software environments for reproducibility and for portability.   We are trying to provide turn-key environment containers for projects that look and feel like the systems they are used to using.  It was important for the container environment to closely match the environment on the current development, build, and test systems.  Users are accustomed to using environment modules to get into their desired environment.  The process for building typically looks something like this:
 
@@ -34,5 +41,12 @@ This is a very lightweight and very rough form of documentation that I suspected
 
 Going into the project I knew that my process for documenting my work could be improved.  I always thought that useful documentation would take a significant amount of effort I was surprised how beneficial this level of documentation turned out to be and how quickly the documentation became valuable to me and others.  In documentation I usually let the perfect be the enemy of the good or be the enemy of any documentation at all.  I tend to think that creating documentation requires a lot of time and effort and quickly gets out of date without a sustained effort. Without the time to commit to perfect documentation, I delay the creation of documentation until the project is "ready".  I assume that there is some minimal level of documentation that is useful, and I have assumed that the useful level of documentation is higher than my experience with this project has demonstrated. The addition of very rough, quick, and unedited documentation to the workflow created a great benefit to the project overall.  The assumption I had is that the threshold for useful documentation was higher than I actually found it to be.  Writing down even a little helps a lot, even if more detail is required later.
 
-
 But old habits die hard and acquired skills are sometimes hard to integrate.  In this case the good news is that some of these lessons have stuck around.   Realizing just how low the barrier for usefulness is when it comes to documentation combined with seeing how helpful it can be for someone following along, I do find myself documenting more frequently.  I don't keep the "notebook wiki" open all the time but I do have a sharper eye for when documentation will be impactful for someone else and an understanding that it does not have to be formal and rigorous to be helpful.   I am much more likely to log my process step by step on gitlab/github/Jira tickets when I know other people may come to a similar problem later.
+
+### Author bio
+
+<!---
+Publish: Yes
+Track: deep dive
+Topics: documentation
+--->
