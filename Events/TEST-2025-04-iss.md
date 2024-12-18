@@ -2,6 +2,10 @@
 
 - Abstract deadline: Jan 24, 2025
 - Event dates: April 7-10, 2025
+- [date] Q&A Webinar: Apr 1, 2025
+- [date]Followup Webinar: Apr 2, 2025
+- Another thing[date]: Apr 3, 2025
+- Going out on a [date]: Apr 4, 2025
 - Location: Boulder, CO and online
 - Event Website: https://sea.ucar.edu/iss/2025/
 - Organizers: UCAR Software Engineering Assembly
