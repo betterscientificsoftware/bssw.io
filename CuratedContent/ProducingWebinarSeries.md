@@ -7,7 +7,7 @@ HPC Best Practices Webinar Series.
 
 #### Contributed by [Osni Marques](http://github.com/oamarques)
 
-#### Publication date: October 25, 2021
+#### Publication date: Dec 18, 2024
 
 Resource information | Details 
 :--- | :--- 
@@ -27,9 +27,9 @@ DOE's [Exascale Computing Project (ECP)](https://www.exascaleproject.org), as we
 (and has been) refined and adapted as needed, as well as applied to other scenarios. For example, over time we 
 found it necessary to start interacting with speakers earlier, and adjust timelines accordingly.
 
-As of October 2021, the process described in the repository has been successful in delivering 50 webinars since June 2017, with an average of 91 participants per webinar.
+As of Dec 2024, the process described in the repository has been successful in delivering 90 webinars since June 2017, with an average of 91 participants per webinar.
 
-*This article was originally published on June 5, 2020.*
+*This article was originally published on June 5, 2020, but the details are very much relevant today, as well.*
 
 #
 <!---
