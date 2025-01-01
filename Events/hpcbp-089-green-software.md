@@ -1,6 +1,6 @@
-# Webinar: High-Performance Computing and Software Sustainability: Toward Green Software Development
+# Webinar: High-Performance Computing and Software Sustainability: Toward Green Software Development (DATE CHANGE)
 
-- Event Date: 2025-01-15
+- Event Date: 2025-01-22 
 - Location: Online
 - Event Website: <https://ideas-productivity.org/events/hpcbp-089-green-software>
 - Organizers: The IDEAS Productivity Project
@@ -13,11 +13,12 @@ family of projects. The HPC Best Practices webinars address issues faced by
 developers of computational science and engineering (CSE) software on
 high-performance computers (HPC) and occur approximately monthly.
 
+**Note: due to a change in the speaker's availability, this webinar has been rescheduled to Wednesday 22 January, 2025 (originally 15 January).**
 
 Resource Information | Details
 :--- | :---			   
 Webinar Title | High-Performance Computing and Software Sustainability: Toward Green Software Development
-Date and Time | 2025-01-15 1:00 pm - 2:00 pm EST
+Date and Time | 2025-01-22 1:00 pm - 2:00 pm EST *(rescheduled from 2025-01-15)*
 Presenter | Antigoni Georgiadou (Oak Ridge National Laboratory)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpcbp-089-green-software>
 Presentation Language | English	   
