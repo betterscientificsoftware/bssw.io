@@ -48,8 +48,7 @@ No, applications of current BSSw Fellows will not be considered for awards in fu
 ### What is the difference between a Fellow and an Honorable Mention?
 
 Honorable Mentions do not receive funding to complete their proposed project, but are encouraged to engage with the BSSw community to learn more about specific needs in the community.  Engagement can include visits to DOE National Laboratories, NSF sites, mentorship, and community building opportunities. Honorable Mentions are eligible to re-apply for the fellowship in subsequent years.
-<!-- Current year Honorable Mentions are also invited to attend the DOE Exascale Computing Annual Meeting with travel expenses provided through BSSw. -->
-
+Current year Honorable Mentions are also invited to attend the US-RSE annual conference, with travel expenses provided through BSSw.
 
 ### What are application review criteria?
 
@@ -148,7 +147,7 @@ For topics covered by recent BSSw Fellowships, we encourage applications to cons
 
 While we recognize that lots of important work takes place as collaborative partnerships, the BSSw Fellowship Program is limited to individual applicants.
 
-### Does the proposal have to be involved with the Exascale Computing Project (ECP) or any kind of DOE funded project?
+### Does the proposal have to be involved with a DOE or NSF funded project?
 
 No, existing connections are not required to any funded projects.  We encourage applications from the broad scientific software community, regardless of funding sources.  BSSw Fellows will receive guidance to help fine tune their project plans in order to impact sponsor priorities, including possible presentation opportunities or collaborations.  Applicants are encouraged to specify known venues and dates where the work may be presented (e.g., conferences, local communities, websites, etc.) in the description of impact in the proposal.
 
@@ -161,15 +160,13 @@ Beyond completing the proposed scope of work, BSSw Fellows are life-long members
 ### Do you expect fellows to attend events or meetings?
 
 <!-- We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2022. -->
-We will encourage fellows to attend a well-known conference with high community visibility.
-This venue for the 2024 Fellowship class will the [US Research Software Engineer Association Conference](https://us-rse.org/usrse24/), October 15--17 in Albuquerque NM.
+We support active fellows and honorable mentions to attend the [US Research Software Engineer Association](https://us-rse.org/) annual conference.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
 Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations.
 
 We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
-We encourage applications from those in underrepresented groups, including people who are Black or African American, Hispanic/Latinx, American Indian, Alaska Native, Native Hawaiian, Pacific Islanders, women, persons with disabilities, and first generation scholars. In addition to technically focused projects, we invite proposals for activities that broaden participation or promote diversity, equity, and inclusion.
 
 ## General Questions
 
