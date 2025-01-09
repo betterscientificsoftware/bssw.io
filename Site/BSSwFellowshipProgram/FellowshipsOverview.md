@@ -25,7 +25,8 @@ Beyond this categorical requirement, we are looking for applications from people
 - Able to use the fellowship to broadly benefit the scientific software community.
 - Willing to participate as an alum in subsequent years to guide selection of future fellows and promote better scientific software in their community.
 
-We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
+We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals; from all backgrounds and institution types.
+We seek to support a broad spectrum of perspectives in championing better scientific software.
 
 ### 2025 BSSw Fellowships
 

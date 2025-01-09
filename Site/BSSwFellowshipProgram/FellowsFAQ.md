@@ -164,9 +164,11 @@ We support active fellows and honorable mentions to attend the [US Research Soft
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
-Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding. Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations.
+Applicants must be affiliated with a U.S.-based institution that is able to receive federal funding.
+Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations.
 
-We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals.
+We encourage applicants at all career stages, ranging from students through early-career, mid-career, and senior professionals; from all backgrounds and institution types.
+We seek to support a broad spectrum of perspectives in championing better scientific software.
 
 ## General Questions
 
