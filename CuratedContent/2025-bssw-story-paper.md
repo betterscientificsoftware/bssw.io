@@ -26,6 +26,6 @@ Whether you're just discovering the site or have been with us since the beginnin
 <!---
 Publish: yes
 RSS update: 2025-01-13
-Topics: better collaboration, better development, better skills
+Topics: Projects and Organizations
 Pinned: no
 --->
