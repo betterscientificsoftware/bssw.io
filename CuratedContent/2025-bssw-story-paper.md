@@ -15,7 +15,7 @@ Authors | Rinku Gupta, David E. Bernholdt, Roscoe A. Bartlett, Patricia A. Grube
 Organization | IEEE Computing in Science & Engineering
 Publication | Year 2024,  DOI: [10.1109/MCSE.2024.3480808](https://doi.ieeecomputersociety.org/10.1109/MCSE.2024.3480808)
 
-In the article *Building and Sustaining a Community Resource for Best Practices in Scientific Software: The Story of BSSw.io*, the BSSw.io team shares the journey behind the creation of this unique platform and the challenges faced in building a collaborative space dedicated to improving the practice of scientific software development.
+In the publication, *Building and Sustaining a Community Resource for Best Practices in Scientific Software: The Story of BSSw.io*, the BSSw.io team shares the journey behind the creation of this unique platform and the challenges faced in building a collaborative space dedicated to improving the practice of scientific software development.
 Launched in 2017, BSSw.io has become a cornerstone for researchers, developers, and practitioners to exchange knowledge, overcome shared obstacles, and understand and set new best practices for scientific software development.
 
 While there are many resources available on general software engineering, there was a clear gap when it came to addressing the specific needs of scientific software—a gap that BSSw.io was created to fill.
