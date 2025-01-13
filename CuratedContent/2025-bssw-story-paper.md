@@ -10,10 +10,10 @@ Uncover the journey of how BSSw.io was built and the challenges faced in creatin
 
 Resource information | Details
 :--- | :--- 
-Paper title  | Building and Sustaining a Community Resource for Best Practices in Scientific Software: The Story of BSSw.io
+Publication title  | Building and Sustaining a Community Resource for Best Practices in Scientific Software: The Story of BSSw.io
 Authors | Rinku Gupta, David E. Bernholdt, Roscoe A. Bartlett, Patricia A. Grubel, Michael A. Heroux, Lois Curfman McInnes, Mark C. Miller, Kasia Salim, Jean Shuler, Deborah Stevens, Gregory R. Watson and Paul R. Wolfenbarger
-Organization | IEEE Computing in Science & Engineering
-Publication | Year 2024,  DOI: [10.1109/MCSE.2024.3480808](https://doi.ieeecomputersociety.org/10.1109/MCSE.2024.3480808)
+Journal  | IEEE Computing in Science & Engineering
+Publication | Year 2024,  DOI: [10.1109/MCSE.2024.3480808](https://doi.ieeecomputersociety.org/10.1109/MCSE.2024.3480808). Also available on Figshare: [10.6084/m9.figshare.25143671](https://figshare.com/articles/journal_contribution/_b_Building_and_Sustaining_a_Community_Resource_for_Best_Practices_in_Scientific_Software_The_Story_of_BSSw_io_b_/25143671/3?file=51653249)
 
 In the publication, *Building and Sustaining a Community Resource for Best Practices in Scientific Software: The Story of BSSw.io*, the BSSw.io team shares the journey behind the creation of this unique platform and the challenges faced in building a collaborative space dedicated to improving the practice of scientific software development.
 Launched in 2017, BSSw.io has become a cornerstone for researchers, developers, and practitioners to exchange knowledge, overcome shared obstacles, and understand and set new best practices for scientific software development.
