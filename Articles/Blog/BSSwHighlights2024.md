@@ -10,6 +10,7 @@
 As we close out 2024 and look ahead to 2025, it’s a great time to reflect on another year of growth and progress for the BSSw.io community. 
 This year, we’ve continued to build on our shared mission of improving software sustainability, productivity, and quality. 
 Thanks to the ongoing contributions from our community, BSSw.io remains a trusted resource for those striving to make scientific software better.
+In this blog post, we highlight articles and blogs that demonstrate the wide-ranging expertise shared on BSSw.io over the past year.
 While the journey to better software can sometimes feel like exploring a complex puzzle with only a few pieces at first, we’ve made significant strides by learning from each other, sharing insights, and helping to piece it all together. 
 As we move into 2025, we’re excited to keep up the momentum, face new challenges, and maybe even write some flawless code (hey, we can dream!).
 Here’s to another year of collaboration, growth, and making software better together. Happy New Year to the entire BSSw community—let’s make 2025 even more awesome!
