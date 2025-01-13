@@ -5,7 +5,7 @@
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
-#### Publication date: January 14, 2025
+#### Publication date: January 13, 2025
 
 As we close out 2024 and look ahead to 2025, it’s a great time to reflect on another year of growth and progress for the BSSw.io community. 
 This year, we’ve continued to build on our shared mission of improving software sustainability, productivity, and quality. 
@@ -85,6 +85,6 @@ Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She h
 Publish: yes
 Track: community
 Pinned: no
-RSS Update: 2025-01-14
+RSS Update: 2025-01-13
 Topics: projects and organizations
 --->
