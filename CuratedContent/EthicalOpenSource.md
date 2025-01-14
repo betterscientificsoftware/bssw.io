@@ -9,9 +9,9 @@ Is your open source code being used for good or evil?
 
 Resource information | Details
 :--- | :---
-Book title | Numerical Recipes: The Art of Scientific Computing, Third Edition
-Authors | W.H. Press, S.A. Teukolsky, W.T. Vetterling, and B.P. Flannery.
-Website | [Numerical Recipes](http://numerical.recipes), available online
+title | 
+Authors |
+Website |
 
 In the last 20 years, the meaning of *open* in "open-source" has evolved significantly.
 Originating out of principles of freedom, transparency, and collaboration, open-source licenses govern the use, modification, and distribution of software and, increasingly, now data. 
