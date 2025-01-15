@@ -26,7 +26,7 @@ The BSSw Fellowship program fosters and promotes practices, processes, and tools
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software through a publicly available artifact.
 We select at least three Fellows per year and honorable mentions as appropriate.
 Each 2025 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
-Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community, including broadening participation or promoting diversity, equity, and inclusion.
+Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
 ### Application Format
 #### Experience:
