@@ -4,7 +4,7 @@ This workshop will focus on developing a set of best practices and guidelines fo
 
 - Deadline to Express Interest in Participation: Friday, August 16, 2024
 - Deadline to Submit Position Paper: Friday, September 27, 2024
-- Event Dates: October/November 2024 (Exact Date TBD)
+- Event Dates: November 4-5, 2024
 - Location: Orlando, Florida, USA
 - Event Website: https://small0live.github.io/BSSwFWorkshop
 
