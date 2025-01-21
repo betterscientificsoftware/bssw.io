@@ -13,12 +13,14 @@ Article Title | [Five Selfish Reasons to Work Reproducibly](https://genomebiolog
 Authors | Florian Markowetz
 Focus | Reproducibility
 
-Many conferences and sponsors are requiring proof of reproducibility, driving scientists and scientific software developers to work reproducibly, but how does the same idea help you as a scientist or developer?
+Are you selfish enough? Many conferences and sponsors are requiring proof of reproducibility, driving scientific software developers to work reproducibly, but how does the same idea benefit you as a scientist or developer?
 
 The author presents five reasons to work reproducibly and discusses the implications of reproducible work as a scientific researcher.  There are explanations of why working reproducibly is beneficial to you and your career.
-Although the author is discussing scientific research the ideas are applicable to scientific software development as well.
+Although the author presents the ideas in the context of scientific research, the ideas are applicable to scientific software development as well.
 The five reasons to work reproducibly are to avoid disaster, make it easier to write papers, help reviewers see it your way, enable continuity of your work and to help build your reputation.
-For more information about performing research reproducibly and some good examples, explore the article.
+So become selfish, read this article, and develop scientific software reproducibly.
+
+
 
 
 
