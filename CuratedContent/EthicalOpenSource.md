@@ -1,4 +1,4 @@
-## Ethical Source Licensing and Free Software
+## Ethical Source Licensing
 
 <!--- deck text start --->
 Is your open source code being used for good or evil?
