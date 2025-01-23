@@ -1,7 +1,7 @@
 ## Words Matter for Inclusivity
 
 <!--- deck text start --->
-The ACM guide to inclusive language in computing emphasizes that inclusive language is crucial for promoting diversity and inclusion in the field.
+The ACM guide to inclusive language in computing emphasizes that inclusive language is crucial for engaging all in computing.
 <!--- deck text end --->
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
