@@ -16,7 +16,7 @@ Approaches for building teams and improving cohesion---working with small, large
 <!---Topic order: 2--->
 
 - **Inclusivity**
-Inclusivity, inclusion and inclusive practices and principles in scientific software projects which may or may not be as a part of Diversity, Equity and Inclusion (DE&I).
+Inclusive practices and principles in scientific software projects.
 <!---Topic order: 3--->
 
 - **Funding Sources and Programs**
