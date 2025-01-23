@@ -8,7 +8,7 @@ Is your open source code being used for good or evil?
 #### Publication date: February, 15, 2025
 
 First, it has to be said that various software licenses aiming to restrict the use of the source code in one way or another typically fail to meet one or more of the criteria necessary to be considered *open-source*.
-Well known examples are [Server-Side Public License (SSPL)](https://en.wikipedia.org/wiki/Server_Side_Public_License), [Elastic License 2.0 (ELv2)](https://www.elastic.co/licensing/elastic-license) and [Business Source Lisence (BSL)](https://en.wikipedia.org/wiki/Business_Source_License).
+Well known examples are [Server-Side Public License (SSPL)](https://en.wikipedia.org/wiki/Server_Side_Public_License), [Elastic License 2.0 (ELv2)](https://www.elastic.co/licensing/elastic-license) and [Business Source License (BSL)](https://en.wikipedia.org/wiki/Business_Source_License).
 
 <!--
 (commons clause, MS shared source).
@@ -22,8 +22,8 @@ A new kind of source-available license based on ethical use considerations has b
 This brand of licensing is referred to as [*ethical source*](https://ethicalsource.dev/licenses/) and aims to restrict the use of software to ethical purposes.
 Are developers of the software ok if it is used, for example, in creation of deepfake imagery or video, in human gene editing or cloning, in the blanket survielence of whole populations of people, in a weapon of mass destruction?
 
-Some recent and prominent examples of members of the open-source software community raising ethical concerns over the use of their software include [Elastic](https://pureinsights.com/blog/2024/elastics-journey-from-apache-2-0-to-agpl-3/) search, [TensorFlow](https://www.nytimes.com/2018/04/04/technology/google-letter-ceo-pentagon-project.html) and [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG#Standardization_and_implementations).
-Of the approximately 8,500 packages in Spack, only one uses an ethical-source license.
+Some recent and prominent examples of members of the open-source software community raising ethical concerns over the use of their software include [Elastic Search](https://pureinsights.com/blog/2024/elastics-journey-from-apache-2-0-to-agpl-3/), [TensorFlow](https://www.nytimes.com/2018/04/04/technology/google-letter-ceo-pentagon-project.html) and [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG#Standardization_and_implementations).
+By contrast, of the approximately 8,500 packages in [Spack](https://spack.io), only one uses an ethical-source license.
 
 To put these ethical-source licenses in perspective, it is worth considering if and how ethical use restrictions have been applied to other real-world products or services.
 A good example is chemicals.
