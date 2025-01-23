@@ -7,12 +7,14 @@ Is your open source code being used for good or evil?
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: February, 15, 2025
 
-First, it has to be said that various software licenses aiming to restrict the use of the source code in one way or another typically fail to meet one or more of the criteria necessary to be considered *open-source*.
-Well known examples are [Server-Side Public License (SSPL)](https://en.wikipedia.org/wiki/Server_Side_Public_License), [Elastic License 2.0 (ELv2)](https://www.elastic.co/licensing/elastic-license) and [Business Source License (BSL)](https://en.wikipedia.org/wiki/Business_Source_License).
+Resource information | Details
+:--- | :---
+Resource title | Wikipedia Article on the Organization for Ethical Source
+Authors | Various
+Website | https://en.wikipedia.org/wiki/Organization_for_Ethical_Source
 
-<!--
-(commons clause, MS shared source).
--->
+First, it has to be said that various [software licenses](https://en.wikipedia.org/wiki/Software_license) aiming to restrict the use of the source code in one way or another typically fail to meet one or more of the criteria necessary to be considered *open-source*.
+Well known examples are [Server-Side Public License (SSPL)](https://en.wikipedia.org/wiki/Server_Side_Public_License), [Elastic License 2.0 (ELv2)](https://www.elastic.co/licensing/elastic-license), [Business Source License (BSL)](https://en.wikipedia.org/wiki/Business_Source_License) and [Microsoft Shared Source](https://en.wikipedia.org/wiki/Shared_Source_Initiative#Restricted_licenses).
 
 Nonetheless, because such licenses mean the source code is available for all to see, they are often confused with *open-source*.
 A technically more accurate designation for this brand of license commonly used in the industry is *source-available*.
@@ -20,24 +22,25 @@ While source-available licensing is a relatively recent trend in the industry, s
 
 A new kind of source-available license based on ethical use considerations has begun to emerge as well.
 This brand of licensing is referred to as [*ethical source*](https://ethicalsource.dev/licenses/) and aims to restrict the use of software to ethical purposes.
-Are developers of the software ok if it is used, for example, in creation of deepfake imagery or video, in human gene editing or cloning, in the blanket survielence of whole populations of people, in a weapon of mass destruction?
+Are developers of the software ok if it is used, for example, in creation of deepfake imagery or video, in human gene editing or cloning, in the blanket surveillance of whole populations of people, in a weapon of mass destruction?
 
 Some recent and prominent examples of members of the open-source software community raising ethical concerns over the use of their software include [Elastic Search](https://pureinsights.com/blog/2024/elastics-journey-from-apache-2-0-to-agpl-3/), [TensorFlow](https://www.nytimes.com/2018/04/04/technology/google-letter-ceo-pentagon-project.html) and [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG#Standardization_and_implementations).
 By contrast, of the approximately 8,500 packages in [Spack](https://spack.io), only one uses an ethical-source license.
 
 To put these ethical-source licenses in perspective, it is worth considering if and how ethical use restrictions have been applied to other real-world products or services.
 A good example is chemicals.
-Chemical manufacturers all over the world face various restrictions in what they produce and to whome and where they can distribute/sell it.
+Chemical manufacturers all over the world face various restrictions in what they produce and to whom and where they can distribute/sell it.
 But, these restrictions are rarely if ever based on *ethical* considerations and are instead based on things like environmental or human health impacts often supported by a volume of scientific evidence.
 
-Two good example chemicals to consider are ammonium nitrate and fuel oil.
+Two good example chemicals to consider for comparison are ammonium nitrate and fuel oil.
 Ammonium nitrate is the most widely used fertilizer and helps to grow a substantial portion of the world's food.
 Although use of fuel oil has declined substantially, it is still used to heat and light homes of a non-trivial portion of the world's population.
 Most would consider both of these uses ethical.
 However, even 25 years after the [Oklahoma city bombing](https://en.wikipedia.org/wiki/Oklahoma_City_bombing) (which involved Ammonium Nitrate and Fuel Oil (ANFO)) attempts to regulate the manufacture and distribution of these products have either stalled or met with limited success.
 
+In all likelihood, the most useful part of the Wikipedia article curated here is the long list of references there showing the community's dialog, both for and against, on this topic.
 As with most things in life, freely available software can be used for good or abused for evil.
-It is unlikely that attempts to license software in restrictive ways based on ethical use considerations will see wide adoption.
+In the author's opinion, it is unlikely that attempts to license software in restrictive ways based on ethical use considerations will see wide adoption.
 
 <!---
 Publish: yes
