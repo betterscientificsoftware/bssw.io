@@ -1,6 +1,6 @@
 # Five Selfish Reasons to Work Reproducibly
 <!--deck text start-->
-How can working reproducibly help you? This article is a quick read, but you may even want to revisit this article occasionally to remind yourself that ensuring your work is reproducible pays off in the long run for you.
+Are you selfish enough? How can working reproducibly help you? This article is a quick read and will help you to ensure your work is reproducible to gain benefits for you.
 
 <!--deck text end-->
 
@@ -13,12 +13,18 @@ Article Title | [Five Selfish Reasons to Work Reproducibly](https://genomebiolog
 Authors | Florian Markowetz
 Focus | Reproducibility
 
-Are you selfish enough? Many conferences and sponsors are requiring proof of reproducibility, driving scientific software developers to work reproducibly, but how does the same idea benefit you as a scientist or developer?
+Are you selfish enough? How can working reproducibly help you? Many conferences and sponsors are requiring proof of reproducibility, driving scientific software developers to work reproducibly, but how does the same idea benefit you as a scientist or developer?
 
-The author presents five reasons to work reproducibly and discusses the implications of reproducible work as a scientific researcher.  There are explanations of why working reproducibly is beneficial to you and your career.
+The five reasons explained in the article are:
+* Reproducibility helps to avoid disaster.
+* Reproducibility makes it easier to write papers.
+* Reproducibility helps reviewers see it your way.
+* Reproducibility enables continuity of your work.
+* Reproducibility helps to build your reputation.
+
+The author expands on the five reasons with concrete examples and discusses the implications of reproducible work as a scientific researcher.
 Although the author presents the ideas in the context of scientific research, the ideas are applicable to scientific software development as well.
-The five reasons to work reproducibly are to avoid disaster, make it easier to write papers, help reviewers see it your way, enable continuity of your work and to help build your reputation.
-So become selfish, read this article, and develop scientific software reproducibly.
+So become selfish, read why working reproducibly is beneficial to you and your career, and develop scientific software reproducibly.
 
 
 
