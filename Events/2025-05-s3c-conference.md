@@ -31,7 +31,7 @@ The S3C committee is excited to have our fourth conference in 2025. We are now p
     * Maintaining Secure Scientific Software
     * CI/CD in Practice at Government Labs
     * Tools and Infrastructure for Integrated Software Development in HPC
-    * Heterogenous System Workflows
+    * Heterogeneous System Workflows
     * Containers
     * Scaling CI/CD to HPC Systems
 * Overcoming Challenges with CI/CD
