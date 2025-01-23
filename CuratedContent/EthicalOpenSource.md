@@ -18,7 +18,7 @@ Well known examples are [Server-Side Public License (SSPL)](https://en.wikipedia
 Nonetheless, because such licenses mean the source code is available for all to see, they are often confused with *open-source*.
 A technically more accurate designation for this brand of license commonly used in the industry is *source-available*.
 
-While source-available licensing is a relatively recent trend in the industry, a number of commonly recognized major projects utilize them including [Elastic Search](https://www.elastic.co), [MongoDB](https://www.mongodb.com/legal/licensing/server-side-public-license), [Confluent](https://www.confluent.io/confluent-community-license-faq/) and [GitLab Enterprise Edition](https://en.wikipedia.org/wiki/Source-available_software#GitLab_Enterprise_Edition_License_(EE_License)).
+While source-available licensing is a relatively recent trend in the industry, some commonly recognized major projects utilize them including [Elastic Search](https://www.elastic.co), [MongoDB](https://www.mongodb.com/legal/licensing/server-side-public-license), [Confluent](https://www.confluent.io/confluent-community-license-faq/) and [GitLab Enterprise Edition](https://en.wikipedia.org/wiki/Source-available_software#GitLab_Enterprise_Edition_License_(EE_License)).
 
 A new kind of source-available license based on ethical use considerations has begun to emerge as well.
 This brand of licensing is referred to as [*ethical source*](https://ethicalsource.dev/licenses/) and aims to restrict the use of software to ethical purposes.
@@ -30,10 +30,12 @@ Of the approximately 8,500 packages in Spack, only one uses an ethical-source li
 To put these ethical-source licenses in perspective, it is worth considering if and how ethical use restrictions have been applied to other real-world products or services.
 A good example is chemicals.
 Chemical manufacturers all over the world face various restrictions in what they produce and to whome and where they can distribute/sell it.
+
 Two good examples to consider are ammonium nitrate and fuel oil.
 Ammonium nitrate is the most widely used fertilizer and helps to grow a substantial portion of the world's food.
 Although use of fuel oil has declined substantially, it is still used to heat and light homes of a non-trivial portion of the world's population.
 Most would consider both of these uses ethical.
+
 However, even 25 years after the [Oklahoma city bombing](https://en.wikipedia.org/wiki/Oklahoma_City_bombing) (which involved Ammonium Nitrate and Fuel Oil (ANFO)) attempts to regulate the manufacture and distribution of these products have either stalled or met with limited success.
 As with most things in life, open-source software can be used for good or abused for evil.
 
