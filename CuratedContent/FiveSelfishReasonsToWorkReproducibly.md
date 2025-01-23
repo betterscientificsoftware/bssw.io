@@ -1,6 +1,6 @@
 # Five Selfish Reasons to Work Reproducibly
 <!--deck text start-->
-Are you selfish enough? How can working reproducibly help you? This article is a quick read and will help you to ensure your work is reproducible to gain benefits for you.
+Are you selfish enough? How can working reproducibly help you? There are many discussions about the benefits of reproducibility for organizations and projects. This article explains the reasons it benefits you.
 
 <!--deck text end-->
 
