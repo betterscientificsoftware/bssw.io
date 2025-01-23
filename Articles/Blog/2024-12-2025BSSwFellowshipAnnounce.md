@@ -149,7 +149,8 @@ Elsa Gonsiorowski is Coordinator of the BSSw Fellowship Program, a member of the
 
 <!---
 Publish: yes
-Track: community, bssw fellowship
+Track: Bssw Fellowship
+Track: Community
 RSS update: 2024-12-XX
 Categories: collaboration
 Topics: projects and organizations
