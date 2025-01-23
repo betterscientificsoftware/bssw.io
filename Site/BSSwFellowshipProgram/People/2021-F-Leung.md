@@ -20,10 +20,4 @@ According to a DOE Advanced Scientific Advisory Committee Workforce Subcommittee
 
 Dr. Leung is a nationally acclaimed leader in the design and implementation of innovative programs aimed at developing the next generation of science, technology, engineering, and mathematics (STEM) leaders. To advance her passion for developing the national STEM workforce, Dr. Leung founded the Sustainable Horizons Institute, utilizing her combined experience in scientific computing and education to lead programs and catalyze change. Previously, Dr. Leung served as the program manager for the Department of Energy (DOE) Computational Science Graduate Fellowship (CSGF) program. During her tenure, the program achieved an unprecedented level of recruitment and fellow and alumni engagement, represented by a strategic, multifaceted integration of online, regional, professional society, and annual conference activities. 
 
-### Selected resources
-<a href="https://doi.org/10.6084/m9.figshare.17192492" class="link-row">DOE RFI response on Software Stewardship: “A multipronged approach to building a diverse workforce and cultivating an inclusive professional environment for DOE high-performance computing” </a>
-<a href="https://bit.ly/ECP-Broader-Engagement-Initiative-2022-03" class="link-row">ASCAC presentation on “ECP Broader Engagement Initiative” </a>
-<a href="https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar064" class="link-row">HPC-Best Practices Webinar: Normalizing Inclusion by Embracing Difference</a>
-<a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=71877" class="link-row">Panel Discussion on Diversity and Inclusion for Careers in CSE: Challenges and Best Practices</a>
-<a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73827" class="link-row">Current and Future Trends Impacting Inclusivity in High-Performance Scientific Computing</a>
-<a href="https://www.lorentzcenter.nl/vive-la-difference-research-software-engineers.html" class="link-row"> Increasing Developer Productivity and Innovation through Diversity and the Normalization of Inclusion</a>
+-->
