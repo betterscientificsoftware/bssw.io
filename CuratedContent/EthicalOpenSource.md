@@ -28,8 +28,9 @@ By contrast, of the approximately 8,500 packages in [Spack](https://spack.io), o
 To put these ethical-source licenses in perspective, it is worth considering if and how ethical use restrictions have been applied to other real-world products or services.
 A good example is chemicals.
 Chemical manufacturers all over the world face various restrictions in what they produce and to whome and where they can distribute/sell it.
+But, these restrictions are rarely if ever based on *ethical* considerations and are instead based on things like environmental or human health impacts often supported by a volume of scientific evidence.
 
-Two good examples to consider are ammonium nitrate and fuel oil.
+Two good example chemicals to consider are ammonium nitrate and fuel oil.
 Ammonium nitrate is the most widely used fertilizer and helps to grow a substantial portion of the world's food.
 Although use of fuel oil has declined substantially, it is still used to heat and light homes of a non-trivial portion of the world's population.
 Most would consider both of these uses ethical.
