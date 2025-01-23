@@ -7,12 +7,6 @@ Is your open source code being used for good or evil?
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
 #### Publication date: February, 15, 2025
 
-Resource information | Details
-:--- | :---
-title | 
-Authors |
-Website |
-
 First, it has to be said that various software licenses aiming to restrict the use of the source code in one way or another typically fail to meet one or more of the criteria necessary to be considered *open-source*.
 Well known examples are [Server-Side Public License (SSPL)](https://en.wikipedia.org/wiki/Server_Side_Public_License), [Elastic License 2.0 (ELv2)](https://www.elastic.co/licensing/elastic-license) and [Business Source Lisence (BSL)](https://en.wikipedia.org/wiki/Business_Source_License).
 
@@ -39,9 +33,10 @@ Two good examples to consider are ammonium nitrate and fuel oil.
 Ammonium nitrate is the most widely used fertilizer and helps to grow a substantial portion of the world's food.
 Although use of fuel oil has declined substantially, it is still used to heat and light homes of a non-trivial portion of the world's population.
 Most would consider both of these uses ethical.
-
 However, even 25 years after the [Oklahoma city bombing](https://en.wikipedia.org/wiki/Oklahoma_City_bombing) (which involved Ammonium Nitrate and Fuel Oil (ANFO)) attempts to regulate the manufacture and distribution of these products have either stalled or met with limited success.
-As with most things in life, open-source software can be used for good or abused for evil.
+
+As with most things in life, freely available software can be used for good or abused for evil.
+It is unlikely that attempts to license software in restrictive ways based on ethical use considerations will see wide adoption.
 
 <!---
 Publish: yes
