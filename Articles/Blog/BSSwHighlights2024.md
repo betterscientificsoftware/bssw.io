@@ -66,7 +66,7 @@ Here’s to another year of collaboration, growth, and making software better to
 * [Identifying the Foundational Competencies of a Research Software Engineer](https://bssw.io/blog_posts/identifying-the-foundational-competencies-of-a-research-software-engineer), J. Cohen, F Löffler, et al.
 * [Numerical Recipes Books](https://bssw.io/items/numerical-recipes-books), M. C. Miller.
 * [Formal Course Resources for Learning about HPC](https://bssw.io/items/formal-course-resources-for-learning-about-hpc), M. C. Miller.
-* [Best Practices for HPC Software Developers Webinar Serie](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques and D. E. Bernholdt.
+* [Best Practices for HPC Software Developers Webinar Series](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques and D. E. Bernholdt.
 * [What Science Says Is the Best Font](https://bssw.io/items/what-science-says-is-the-best-font), M. C. Miller.
   
 ### Building a better scientific software community through your contributions
