@@ -36,6 +36,6 @@ Heather is a Research Software Engineering Fellow based in the Statistics Depart
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
 <!---
-Publish: yes
+Publish: no
 Topics: inclusivity, strategies for more effective teams, online learning
 --->
