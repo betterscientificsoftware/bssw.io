@@ -61,7 +61,7 @@ Rinku Gupta has been a part of the high-performance scientific community for two
 Mark C. Miller is a computer scientist supporting the Strategic Deterrence (SD) program at LLNL since 1995. Among other things, he contributes to [VisIt](https://visit.llnl.gov), [Silo](https://silo.llnl.gov), [HDF5](https://www.hdfgroup.org/) and [Sustainable Research Pathways (SRP)](https://shinstitute.org/sustainable-research-pathways-2024-workshop/).
 
 <!---
-Publish: yes
+Publish: no
 Topics: inclusivity
 Track: deep dive
 --->
