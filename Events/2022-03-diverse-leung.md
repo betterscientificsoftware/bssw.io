@@ -36,6 +36,6 @@ Registration, Information, and Archives | 	<https://diverse-rse.github.io/events
 #### Contributed by [Miranda Mundt](https://github.com/mrmundt)
 
 <!---
-Publish: yes
+Publish: no
 Topics: inclusivity, strategies for more effective teams, online learning, conferences and workshops
 --->
