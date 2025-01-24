@@ -18,7 +18,6 @@ As we enter 2023 and into the seventh year of BSSw.io, I want to thank the BSSw.
 - [CMake Tutorial and Reference Resources](https://bssw.io/items/cmake-tutorial-and-reference-resources), R. Bartlett
 
 ### Better Planning:
-- [The Agile Manifesto and Inclusivity](https://bssw.io/items/the-agile-manifesto-and-inclusivity), M. Miller
 - [User Stories in Scientific Software Development](https://bssw.io/blog_posts/user-stories-in-scientific-software-development), O. Marques et al.
 - [Experiences Replacing Master/Slave Terminology in ALE3D and Sierra](https://bssw.io/blog_posts/experiences-replacing-master-slave-terminology-in-ale3d-and-sierra), M. Miller
 - [Agile Project Management](https://bssw.io/items/agile-project-management), P. Grubel
