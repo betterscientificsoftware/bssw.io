@@ -11,7 +11,7 @@ Resource information | Details
 :--- | :--- 
 Resource Name  | [Color Oracle – Design for the Color Impaired]( https://colororacle.org/usage.html)
 Website Author | [Bernie Jenny](https://berniejenny.info)
-Focus          | Inclusivity
+Focus          | User experience design
 
 The topic of color blindness should be kept in mind while developing software because it directly impacts the accessibility and usability of applications for a significant portion of the population.
 Approximately 8% of men and 0.5% of women have color vision impairment.
