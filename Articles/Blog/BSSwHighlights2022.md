@@ -23,7 +23,6 @@ As we enter 2023 and into the seventh year of BSSw.io, I want to thank the BSSw.
 - [Agile Project Management](https://bssw.io/items/agile-project-management), P. Grubel
 - [Recap: Encouraging and Enabling Mutual Ownership in a RSE Community of Practice](https://bssw.io/blog_posts/recap-encouraging-and-enabling-mutual-ownership-in-a-rse-community-of-practice), M. Mundt et al. 
 - [Keep Interest on Technical Debt from Sinking Your Software Project](https://bssw.io/items/keep-interest-on-technical-debt-from-sinking-your-software-project) M. Miller
-- [Inclusivity Bugs](https://bssw.io/items/inclusivity-bugs), M. Miller
 
 ### Better Development:
 - [The Developer Certificate of Origin](https://bssw.io/items/the-developer-certificate-of-origin), R. Bartlett
