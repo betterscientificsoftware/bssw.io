@@ -5,7 +5,7 @@
 - Event Website: <https://hpc-workforce-development-and-retention.github.io/hpc-wdr/events/event-hpc-culture>
 - Organizers: HPC Workforce Development and Retention Action Group
 
-This event is sponsored by the [High-Performance Computing Workforce Development and Retention Action Group](https://hpc-workforce-development-and-retention.github.io/hpc-wdr/) that’s mission is to enable all Department of Energy National Laboratories and their related computing communities to share their collective insight for inclusive and equitable workforce development and retention for High-Performance Computing.
+This event is sponsored by the [High-Performance Computing Workforce Action Group](https://hpc-workforce-development-and-retention.github.io/hpc-wdr/), which has a mission to enable all Department of Energy National Laboratories and their related computing communities to share their collective insight for vibrant workforce development and retention for High-Performance Computing.
 
 Resource Information | Details
 :--- | :---			   
@@ -33,5 +33,5 @@ Dr. Hood completed a bachelor’s degree in Psychology from Northern Illinois Un
 
 <!---
 Publish: yes
-Topics: Online learning, Strategies for more effective teams, inclusivity 
+Topics: Online learning, Strategies for more effective teams 
 --->
