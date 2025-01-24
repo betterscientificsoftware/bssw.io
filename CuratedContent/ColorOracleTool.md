@@ -26,6 +26,6 @@ By using tools such as Color Oracle, developers can ensure that their software i
 
 <!---
 Publish: yes
-Topics: Inclusivity, Development Tools, 
+Topics: Development Tools, User Experience Design
 RSS update: 2023-10-01
 --->
