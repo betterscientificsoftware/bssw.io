@@ -40,6 +40,6 @@ Presentation Language | English
 
 
 <!---
-Publish: yes
+Publish: no
 Topics: inclusivity, strategies for more effective teams, user experience, documentation, software process improvement, online learning
 --->
