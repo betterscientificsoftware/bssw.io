@@ -91,6 +91,7 @@ The current topics are as follows:
     - Design
     - Software interoperability
     - Software sustainability
+    - User experience design
 - **Development** category has the following topics:
     - Documentation
     - Configuration and builds
@@ -115,7 +116,6 @@ The current topics are as follows:
 - **Collaboration** category has the following topics:
     - Projects and organizations
     - Strategies for more effective teams
-    - Inclusivity
     - Funding sources and programs
     - Software publishing and citation
     - Licensing
