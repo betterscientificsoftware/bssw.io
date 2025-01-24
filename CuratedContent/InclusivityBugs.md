@@ -86,7 +86,7 @@ Focus | Inclusive Communication
 The above resource discusses inclusivity bugs stemming from the use of commonly used language idioms.
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 Topics: Inclusivity, Software process improvement, Documentation, Strategies for more effective teams
 RSS update: 2022-03-31
