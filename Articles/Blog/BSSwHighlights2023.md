@@ -60,7 +60,6 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 
 ### Better Collaboration:
 * [US Federal Government Effort to Champion Adoption of Memory Safe Languages](https://bssw.io/items/us-federal-government-effort-to-champion-adoption-of-memory-safe-languages), M. Miller.
-* [All In for Maintainers DEI Resource Hub](https://bssw.io/items/all-in-for-maintainers-dei-resource-hub), D. Stevens.
 * [Persistent Identifiers for Software in Scientific Computing](https://bssw.io/items/persistent-identifiers-for-software-in-scientific-computing), R. Gupta.
 * [The Future of Research Software Engineers in the United States: Special Issue in CiSE](https://bssw.io/blog_posts/the-future-of-research-software-engineers-in-the-united-states-special-issue-in-cise), J. Carver et al.
 * [Surveys to Understand Developer Health and Happiness](https://bssw.io/blog_posts/surveys-to-understand-developer-health-and-happiness), V. Sochat.
@@ -69,7 +68,6 @@ To our dedicated contributors, readers, and supporters, your unwavering commitme
 * [Where and How to Publish CSE Software?](https://bssw.io/items/where-and-how-to-publish-cse-software), D. Ibanez.
 * [NumFOCUS: A Fiscal Sponsor of Scientific Software](https://bssw.io/blog_posts/numfocus-a-fiscal-sponsor-of-scientific-software), A. Terrel.
 * [The Anatomy of a Central RSE Team](https://bssw.io/blog_posts/the-anatomy-of-a-central-rse-team), M. Bluteau.
-* [Guidebook for Inclusive Scientific Meetings](https://bssw.io/items/guidebook-for-inclusive-scientific-meetings), D. Stevens.
 
 ### Building a better scientific software community through your contributions
 
