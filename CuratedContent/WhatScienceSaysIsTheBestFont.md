@@ -24,7 +24,7 @@ Therefore, for written material in science, whether it be digital or print, atte
 
 <!---
 Publish: yes
-Topics: Inclusivity, Personal Productivity and Sustainability, User Experience Design
+Topics: Personal Productivity and Sustainability, User Experience Design
 Pinned: no
 RSS update: 2024-02-07
 --->
