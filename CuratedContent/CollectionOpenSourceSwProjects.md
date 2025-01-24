@@ -16,7 +16,7 @@ Authors | [List of Authors](https://github.com/corsa-center/oss-documents/blob/m
 Focus | Guidance for OSS Projects
 
 The [OSS-Documents](https://github.com/corsa-center/oss-documents/) repository, started by the [CORSA](https://corsa.center) project, is a collection of documents and links to help guide open source software projects.
-The key topics include Governance, Codes of Conduct, DEI, Roadmaps, Licenses and Contribution examples.
+The key topics include Governance, Codes of Conduct, Roadmaps, Licenses and Contribution examples.
 These topics include a variety of important resources for OSS projects towards software sustainability.
 Such resources include [Open Source Guides](https://opensource.guide/) to launch and grow your project, [OpenSSF Best Practices Badge Program](https://www.bestpractices.dev/en) that encourages projects to get badges for the best practices they implement.
 There are many more resources, so peruse the site to see what may benefit your project.
