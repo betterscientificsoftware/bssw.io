@@ -15,33 +15,29 @@ Projects and organizations having a particular emphasis on scientific software d
 Approaches for building teams and improving cohesion---working with small, large, and distributed teams---as well as practices for fostering a culture of inclusion and creating safe spaces, even if virtual, in which teams operate.
 <!---Topic order: 2--->
 
-- **Inclusivity**
-Inclusive practices and principles in scientific software projects.
-<!---Topic order: 3--->
-
 - **Funding Sources and Programs**
 Sources of financial support for efforts to improve scientific software development practices, productivity, sustainability, and community building. These efforts are distinct from traditional computational science and engineering R&D.
-<!---Topic order: 4--->
+<!---Topic order: 3--->
 
 - **Software Publishing and Citation**
 Why and how to publish and cite software as a distinct, independent artifact (i.e., different from scientific papers), as well as information on publication venues for software development topics, as distinct from scientific results and methods.
-<!---Topic order: 5--->
+<!---Topic order: 4--->
 
 - **Licensing**
 The legal side of controlling software distribution and use, as well as implications of practices and impact on collaboration and growth of software projects.
-<!---Topic order: 6--->
+<!---Topic order: 5--->
 
 - **Discussion and Question Sites**
 Discussion forums and sites where questions about scientific software development, productivity, and sustainability are welcome.
-<!---Topic order: 7--->
+<!---Topic order: 6--->
 
 - **Conferences and Workshops**
 Recurring series of conferences and workshops that highlight advances in scientific software productivity and sustainability. 
-<!---Topic order: 8--->
+<!---Topic order: 7--->
 
 - **Research Software Engineers**
 Research Software Engineers (RSEs) in the scientific computing field.
-<!---Topic order: 9--->
+<!---Topic order: 8--->
 
 <!---
 Category order: 5
