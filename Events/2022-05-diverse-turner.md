@@ -5,7 +5,6 @@
 - Event Website: https://diverse-rse.github.io/events/2022-05-04
 - Organizers: DiveRSE & Society of Research Software Engineering
 
-
 [DiveRSE (Diverse RSE)](https://diverse-rse.github.io/) is a series of talks and related activities including
 discussion and panel sessions designed to support and raise
 awareness of equity, diversity, and inclusion (EDI) challenges and successes within the research
