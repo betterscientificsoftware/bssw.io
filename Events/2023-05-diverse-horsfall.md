@@ -29,6 +29,6 @@ The organizers of the [DiveRSE](https://diverse-rse.github.io/) series have anno
 #### Contributed by [Rinku Gupta](https://github.com/rinkug) and [David E. Bernholdt](https://github.com/bernhold)
 
 <!---
-Publish: yes
+Publish: no
 Topics: inclusivity, strategies for more effective teams, online learning
 --->
