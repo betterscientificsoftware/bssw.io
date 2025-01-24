@@ -47,15 +47,12 @@ Here’s to another year of collaboration, growth, and making software better to
 ### Better Collaboration:
 * [Creating a Career Path for Research Software Engineers](https://bssw.io/items/creating-a-career-path-for-research-software-engineers), R. Gupta.
 * [Getting Started with the RSE Movement within Your Organization: A Guide for Individuals](https://bssw.io/items/getting-started-with-the-rse-movement-within-your-organization-a-guide-for-individuals), K. Beattie.
-* [What Is Inclusivity in Scientific Computing?](https://bssw.io/items/what-is-inclusivity-in-scientific-computing), R. Gupta and M. C. Miller.
 * [Thank You from the BSSw.io Editorial Team!](https://bssw.io/blog_posts/thank-you-from-the-bssw-io-editorial-team), The BSSw.io Editorial Team.
 * [Bettering Software (and Science) through Improved Communication](https://bssw.io/blog_posts/bettering-software-and-science-through-improved-communication), H. Bourbeau et al.
-* [Words Matter for Inclusivity](https://bssw.io/items/words-matter-for-inclusivity), R. Gupta.
 * [2023 BSSw Fellows: Projects and Perspectives](https://bssw.io/blog_posts/2023-bssw-fellows-projects-and-perspectives), E. Gonsiorowski, N. Brewer, M. Cohen, et al.
 * [Launch of the High Performance Software Foundation](https://bssw.io/blog_posts/launch-of-the-high-performance-software-foundation), C. Trott and T. Gamblin.
 * [Introducing the Consortium for the Advancement of Scientific Software (CASS)](https://bssw.io/blog_posts/introducing-the-consortium-for-the-advancement-of-scientific-software-cass), D. E. Bernholdt, P. Carns, A. Dubey, et al.
 * [A Collection of Guidance and Templates for Open-source Software (OSS) Projects](https://bssw.io/items/a-collection-of-guidance-and-templates-for-open-source-software-oss-projects), P. Grubel.
-* [A Deep Dive on the Role of Inclusivity in Scientific Computing](https://bssw.io/blog_posts/a-deep-dive-on-the-role-of-inclusivity-in-scientific-computing), R. Gupta and M. C. Miller.
 * [Research Software Engineers in HPC (RSE-HPC-2023): A Summary of the SC23 Workshop](https://bssw.io/blog_posts/research-software-engineers-in-hpc-rse-hpc-2023-a-summary-of-the-sc23-workshop), C. Ferenbaugh, S. Gesing, S. Hettrick, and D. S. Katz
 
 ### Better Performance:
