@@ -24,8 +24,8 @@ Readers are welcome to [read more](https://bssw.io/blog_posts/a-deep-dive-on-the
 <!--body end--->
 
 <!---
-Publish: yes
-Pinned: yes
+Publish: no
+Pinned: no
 Topics: inclusivity
 --->
 

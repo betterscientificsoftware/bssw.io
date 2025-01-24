@@ -25,7 +25,7 @@ A noteworthy section of the guide worth highlighting is the *assessing the meeti
 The resource is well worth a read, particularly with a view to the resuming frequency of in-person interactions around us. 
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 Topics: inclusivity
 RSS update: 2023-02-12

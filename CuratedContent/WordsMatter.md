@@ -21,7 +21,7 @@ This initiative is valuable to readers as it offers practical steps to enhance c
 
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 Topics: inclusivity
 --->

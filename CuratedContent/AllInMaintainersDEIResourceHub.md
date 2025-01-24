@@ -23,7 +23,7 @@ One of the key challenges identified during the *Maintainers Listening Tour* con
 The DEI Resource Hub serves as an entry point for maintainers to access essential resources, ensuring their communities remain inclusive and welcoming to all. If this topic interests you, stay updated on the DEI Resource Hub and forthcoming launches within the All In for Maintainers program as the community collectively works to foster a more diverse and inclusive open source ecosystem.
 
 <!---
-Publish: yes
+Publish: no
 Topics: projects and organizations, inclusivity, online learning
 Pinned: no
 RSS update: 2023-09-26

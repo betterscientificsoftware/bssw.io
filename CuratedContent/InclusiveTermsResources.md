@@ -174,7 +174,7 @@ Focus | Best Practices
 This panel discussion video includes experiences and guidance from commercial and government sector.
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 Topics: inclusivity, Software process improvement, Documentation, Strategies for more effective teams
 RSS update: 2021-11-22

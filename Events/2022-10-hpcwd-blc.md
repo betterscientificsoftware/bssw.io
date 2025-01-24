@@ -25,7 +25,7 @@ For more details and to register see: https://www.exascaleproject.org/event/blc/
 #### Contributed by [Suzanne Parete-Koon](https://github.com/suzannepk)
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 Topics: inclusivity, online learning
 --->

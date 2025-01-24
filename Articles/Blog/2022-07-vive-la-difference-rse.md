@@ -51,7 +51,7 @@ Dr. Michelle Barker is the Director of the Research Software Alliance. She has e
 Kim Hartley is a community manager at the Research Software Alliance and part of the international relations team at the [Digital Research Alliance of Canada](https://alliancecan.ca/en). Kim supports the [Research Software Funders Forum](https://www.researchsoft.org/funders-forum/), a formal mechanism for international funding organisations to collaborate. A social anthropologist by training, Kim brings a passion for understanding the ways in which people live in different social and cultural settings globally to her work managing communities. She has extensive experience in academic research administration, including managing research ethics boards, advising diverse stakeholders, and building partnerships.
 
 <!---
-Publish: yes
+Publish: no
 Track: community
 Pinned: no
 Topics: projects and organizations, inclusivity, Research Software Engineers

@@ -201,7 +201,7 @@ Among other things, he contributes to
 *Prepared by LLNL under Contract DE-AC52-07NA27344 as document LLNL-AR-832434.*
 
 <!---
-Publish: yes
+Publish: no
 Track: experience
 Pinned: no
 Topics: Inclusivity, Software process improvement, Documentation, Strategies for more effective teams

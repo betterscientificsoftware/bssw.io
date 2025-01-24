@@ -25,7 +25,7 @@ Must we read *"face-to-face"* in this principle, as it was written in 2001, *lit
 The article identifies 6 *assumptions* the author believes were baked into the Agile Manifesto and outlines how those assumptions may impact inclusivity in software projects.
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 Topics: Software engineering, Software process improvement, Inclusivity
 RSS update: 2022-10-01

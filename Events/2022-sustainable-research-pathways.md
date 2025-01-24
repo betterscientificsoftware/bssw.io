@@ -31,7 +31,7 @@ Students from (and faculty working with) underrepresented groups (Black or Afric
 For more information and any updates to deadlines/dates, please see https://shinstitute.org/sustainable-research-pathways-2022/ .
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 Topics: Projects and organizations, inclusivity
 RSS update: 2022-09-29
