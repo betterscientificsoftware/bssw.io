@@ -10,7 +10,7 @@ Resource information | Details
 :--- | :--- 
 Title | Technology Moving Positions & Offboarding for Resigning or Retiring Employees
 Presenter | Texas Woman's University
-Web links | [Article](https://servicecenter.twu.edu/TDClient/1956/Portal/KB/ArticleDet?ID=128448)
+Web links | [Understanding the Offboarding Process](https://www.atlassian.com/itsm/esm/offboarding)
 
 What happens when someone on a project, specifically a technical contributor, leaves that project?
 Even in the best of situations, there is not enough time to get everything done if your project
