@@ -2,7 +2,7 @@
 
 #### Contributed by [Joe Frye](https://github.com/fryeguy52)
 
-#### Publication date: January 28, 2025
+#### Publication date: January 29, 2025
 
 <!-- begin deck -->
 We usually think about documentation as being for others -- other developers, users, etc.  But documentation can be useful even if you're the sole person working on the project.
@@ -28,7 +28,11 @@ With the containerized environments we want to change this workflow as little as
 
 In this way, a project does not need to change its configure and build scripts to use the containers. The only significant change is in setting up the environment.  Our containers are made to match our bare metal installations.  Users access the bare metal installations through environment modules. To make the above workflows equivalent, we had to exactly match how the modules set the environment inside the container to how it is set on the existing bare metal installations.   It required some research to figure out how to create containers that have the required software environment for our codes that are easy to use and easy to port to many platforms.  
  
-The initial effort was exploratory, informal, and mainly conducted by one developer. The bare metal installations are already installed with Spack so the obvious path to follow was to use Spack inside of containers.  We were able to use the same Spack configuration files in the containers as we use on the host machines.  To test our progress in recreating the existing environment, we needed to build a code in a container using the same scripts that were used on bare metal.  While it made sense for the developers to be the first to exercise these container capabilities, it was clear that we needed documentation for them to be successful.  In the end, we were able to build our entire software environments inside containers and to make those available via internal container registries.  In addition, we developed infrastructure that allows projects to build containers tailored to exactly their needs, thereby reducing the size of the containers.  More details of our container environment project were presented at the National Laboratories Information Technology (NLIT) Summit in 2024 and the slides can be found here: 2024_04_NLIT_SEMS_Containers.
+The initial effort was exploratory, informal, and mainly conducted by one developer. The bare metal installations are already installed with Spack so the obvious path to follow was to use Spack inside of containers.  We were able to use the same Spack configuration files in the containers as we use on the host machines.  To test our progress in recreating the existing environment, we needed to build a code in a container using the same scripts that were used on bare metal.  While it made sense for the developers to be the first to exercise these container capabilities, it was clear that we needed documentation for them to be successful.  In the end, we were able to build our entire software environments inside containers and to make those available via internal container registries.  In addition, we developed infrastructure that allows projects to build containers tailored to exactly their needs, thereby reducing the size of the containers.  
+
+<!-- Keeping this in case Joe gets the slides posted somewhere we can link to them.
+More details of our container environment project were presented at the National Laboratories Information Technology (NLIT) Summit in 2024 and the slides can be found here: 2024_04_NLIT_SEMS_Containers.
+-->
 
 ### The role of documentation
 
