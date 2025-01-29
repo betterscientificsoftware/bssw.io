@@ -41,7 +41,7 @@ and [Gitlab](https://docs.gitlab.com/ee/user/project/codeowners/) support a CODE
 people or teams of people are identified and automatically added as reviews for pull or merge
 requests.
 
-Early identifcation of who inherits the code and responsibilities of a person leaving a project is
+Early identification of who inherits the code and responsibilities of a person leaving a project is
 just one of the many things an onboarding and offboarding process or checklist needs to identify.
 In this reviewers opinion, it is an often overlooked and very important step highlighted in the
 TWU's article here.
