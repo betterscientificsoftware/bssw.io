@@ -42,5 +42,5 @@ reviewers opinion, it is an often overlooked and very important step.
 Publish: yes
 Topics: better-planning, software-process-improvement, strategies-for-more-effective-teams
 Pinned: no
-RSS update: 2025-02-10
+RSS update: 2025-01-29
 --->
