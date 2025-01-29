@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2024-10-29*
+*Listed in reverse chronological order. Last updated: 2025-01-29*
+
+- 2025-01-22: [High-Performance Computing and Software Sustainability: Toward Green Software Development](https://ideas-productivity.org/events/hpcbp-089-green-software), presented by Antigoni Georgiadou (Oak Ridge National Laboratory)
 
 - 2024-10-23: [Inclusive Practices and Software Project Productivity](https://ideas-productivity.org/events/hpcbp-088-inclusive-practices), presented by Mark C Miller (Applications, Simulations and Quality Division, Lawrence Livermore National Lab)
 
@@ -207,7 +209,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2024-10-29
+#### Publication date: 2025-01-29
 
 <!---
 Publish: yes
