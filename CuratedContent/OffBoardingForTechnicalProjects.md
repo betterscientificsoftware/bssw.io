@@ -21,7 +21,7 @@ Process](https://www.atlassian.com/itsm/esm/offboarding) article.  StrongDM prop
 check-list with [All Offboard! The 2025 Tech Staff Offboarding
 Checklist](https://www.strongdm.com/blog/technical-staff-offboarding-checklist).
 
-These article cover the important tasks like exit interviews, recovering physical assets, removing
+These articles cover the important tasks like exit interviews, recovering physical assets, removing
 access to internal accounts and resources, etc.  But what are the less practiced offboarding steps
 specific to software contributors?  The referenced article above from Texas Woman's University
 starts with an essential observation: The first step to a successful offboarding process is a
@@ -32,16 +32,19 @@ are responsible for, where the documentation for it lives, where the tests are a
 While TMU's article covers the transfer of access to important documents or emails, the same applies
 to functionality ownership and expertise within the source code of a software project.  In the
 spirit of starting the offboarding process early, the software team should regularly review these
-roles and add to them who are the secondary people for each area.  In the event someone leaves the
+roles and add to them the secondary or backup people for each area.  In the event someone leaves the
 project (or even is unavailable for a significant period of time) having that list can ensure that
-functionality is not abandoned.  Tools to support this currently exist.  Both
+functionality is not abandoned and contribute to technical debt.  Tools to support this currently
+exist.  Both
 [Github](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
-and [Gitlab](https://docs.gitlab.com/ee/user/project/codeowners/) support a CODEOWNERS file
-where people or teams of people can be identified for PR reviews.
+and [Gitlab](https://docs.gitlab.com/ee/user/project/codeowners/) support a CODEOWNERS file where
+people or teams of people are identified and automatically added as reviews for pull or merge
+requests.
 
-Identifying who inherits the code and responsibilities of a person leaving a project is just one of
-the many things an onboarding and offboarding process or checklist needs to identify but in this
-reviewers opinion, it is an often overlooked and very important step.
+Early identifcation of who inherits the code and responsibilities of a person leaving a project is
+just one of the many things an onboarding and offboarding process or checklist needs to identify.
+In this reviewers opinion, it is an often overlooked and very important step highlighted in the
+TWU's article here.
 
 <!---
 Publish: yes
