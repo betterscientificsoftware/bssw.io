@@ -47,7 +47,7 @@ In this reviewers opinion, it is an often overlooked and very important step hig
 TWU article.
 
 <!---
-Publish: yes
+Publish: no
 Topics: better-planning, software-process-improvement, strategies-for-more-effective-teams
 Pinned: no
 RSS update: 2025-01-29
