@@ -17,8 +17,6 @@ Event Date | July 27, 2025 – August 8, 2025
 Website | https://extremecomputingtraining.anl.gov/
 Informational Webinar | February 6, 2025.  Registration required: https://events.cels.anl.gov/e/atpesc-2025-application-webinar
 Submission Deadline | March 5, 2025. Please see event website for exact deadline, extensions and future updates.
-Additional Information | https://extremecomputingtraining.anl.gov/
-
 
 **Description** 
 
