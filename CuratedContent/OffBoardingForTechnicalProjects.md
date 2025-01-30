@@ -11,7 +11,7 @@ Resource information | Details
 Article Title | [Technology Moving Positions & Offboarding for Resigning or Retiring Employees](https://servicecenter.twu.edu/TDClient/1956/Portal/KB/ArticleDet?ID=128448)
 Source | Texas Woman's University
 
-What happens when someone on a project, specifically a technical contributor, leaves that project?
+What happens when someone on a project, specifically a technical contributor, leaves?
 Even in the best of situations, there is not enough time to get everything done if your project
 hasn't already prepared for any such departure with an offboarding plan.
 
@@ -22,20 +22,20 @@ check-list with [All Offboard! The 2025 Tech Staff Offboarding
 Checklist](https://www.strongdm.com/blog/technical-staff-offboarding-checklist).
 
 These articles cover the important tasks like exit interviews, recovering physical assets, removing
-access to internal accounts and resources, etc.  But what are the less practiced offboarding steps
-specific to software contributors?  The referenced article above from Texas Woman's University
-starts with an essential observation: The first step to a successful offboarding process is a
-well-planned _onboarding_ process.
+access to internal accounts and resources, etc.  
+But what are the less practiced offboarding steps specific to software contributors?
+The referenced article above from Texas Woman's University starts with an essential observation: The first step to a successful offboarding process is a well-planned _onboarding_ process.
 
 The day a person starts on a project is the best time to identify what parts of the code base they
 are responsible for, where the documentation for it lives, where the tests are and how they are run.
 While TMU's article covers the transfer of access to important documents or emails, the same applies
-to functionality ownership and expertise within the source code of a software project.  In the
-spirit of starting the offboarding process early, the software team should regularly review these
-roles and add to them the secondary or backup people for each area.  In the event someone leaves the
-project (or even is unavailable for a significant period of time) having that list can ensure that
+to functionality ownership and expertise within the source code of a software project.
+In the spirit of starting the offboarding process early, the software team should regularly review these
+roles and add to them the secondary or backup people for each area.  
+In the event someone leaves the project (or even is unavailable for a significant period of time) having that list can ensure that
 functionality is not abandoned and contribute to technical debt.  Tools to support this currently
-exist.  Both
+exist.  
+Both
 [Github](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 and [Gitlab](https://docs.gitlab.com/ee/user/project/codeowners/) support a CODEOWNERS file where
 people or teams of people are identified and automatically added as reviews for pull or merge
@@ -47,8 +47,8 @@ In this reviewers opinion, it is an often overlooked and very important step hig
 TWU article.
 
 <!---
-Publish: yes
-Topics: better-planning, software-process-improvement, strategies-for-more-effective-teams
+Publish: no
+Topics: software process improvement, strategies for more effective teams
 Pinned: no
 RSS update: 2025-01-29
 --->
