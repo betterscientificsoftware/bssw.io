@@ -10,7 +10,7 @@ Slide2 R: ../Articles/Blog/2024-12-2025BSSwFellowshipAnnounce.md
 Slide3 L: ../CuratedContent/FiveSelfishReasonsToWorkReproducibly.md
 Slide3 R: ../CuratedContent/2025-bssw-story-paper.md  
 Slide4 L: ../CuratedContent/hpcbp-webinars-cc.md 
-Slide4 R: ../Events/atpesc-PLACEHOLDER
+Slide4 R: ../Events/ATPESC2025.md
 Slide5 L: ../Events/2025-01-bytesize-rse-b.md
 Slide5 R: ../Events/2025-03-ossfe.md
 Slide6 L: ../Events/2025-04-iss.md 
