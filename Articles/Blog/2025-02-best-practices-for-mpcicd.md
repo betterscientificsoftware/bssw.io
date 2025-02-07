@@ -213,7 +213,7 @@ include:
 - Think carefully about permissions.
 - Isolate steps which have elevated permissions.
 
-If security is a concern fo you, then note that these practices alone are not 
+If security is a concern for you, then note that these practices alone are not 
 sufficient to protect you from harm. You should include actual cyber security
 experts in your CI/CD development and trust their wisdom/guidance.
 
