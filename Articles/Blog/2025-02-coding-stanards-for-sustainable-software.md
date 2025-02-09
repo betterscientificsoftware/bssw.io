@@ -51,7 +51,7 @@ As you work on the project, it is more important to make the software readable (
 Your number one job as a software developer is to make the code you write readable!
 
 
-#### FSEC Software Development Standards and Practices
+### FSEC Software Development Standards and Practices
 
 We will touch upon some of the more important standards and practices.
 A summary of these is listed below:
@@ -206,7 +206,7 @@ We are always experimenting to improve or find new measures.
 We do not avoid this area because it is hard; we do it to ensure we are not flying blind and have a clear sense of how efficiently we are executing our software development projects.
 
 
-#### Scientific Software Thoughts
+### Scientific Software Thoughts
 
 At FSEC, our software is primarily scientific.
 We hire aerospace, electrical, civil, and other engineering disciplines, as well as mathematicians, data scientists, and user experience (UX) specialists.
