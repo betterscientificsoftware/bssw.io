@@ -287,7 +287,7 @@ He believes that we can reduce maintenance and support costs to minimal amounts 
 <!---
 Publish: yes
 Track: deep dive
-Topics: software process improvement, software engineering, requirements, software sustainability, design, documentation, testing, continuous integration testing, ???
+Topics: software process improvement, software engineering, requirements, software sustainability, design, documentation, testing, continuous integration testing, peer code review, strategies for more effective teams
 --->
 
 
