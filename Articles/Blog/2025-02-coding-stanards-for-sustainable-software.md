@@ -276,9 +276,12 @@ We would like to thank Scott Warnock, Stuart Baxley, Chris Sullivan, Gary Lawson
 
 ### Author bios
 
-???
-
-
+Manoj K. Bhardwaj, Ph.D., is a technical staff member at Sandia National Laboratories with a long background in numerical software development and simulation.
+Manoj is passionate about Scrum, Extreme Programming (XP), and Development and Operations (DevOps).
+He is also passionate about continuous improvement and the infinite game.
+He has been fortunate enough to see the impact of the previous mentioned work.
+Manoj has  taught software development practices and principles at the University of New Mexico.
+He believes that we can reduce maintenance and support costs to minimal amounts so every $ can be spent on adding value.
 
 
 <!---
@@ -289,3 +292,8 @@ Topics: software process improvement, software engineering, requirements, softwa
 
 
 <!--- NOTE: Above, the track could also be "how to"? --->
+
+
+<!---
+LocalWords:  Sandia
+--->
