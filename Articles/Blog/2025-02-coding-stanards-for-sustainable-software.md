@@ -228,9 +228,9 @@ How can we move forward in improving our abilities to write sustainable software
 6. Study These Ideas and Present Results at Future S3Cs
 7. Develop Tools for Developers That Help Enforce Good Habits
 8. Research Ideas
-  * Use AI/ML to turn system tests into smaller tests and invert the testing pyramid.
-  * Use ChatGPT to pair program.
-  * Use AI/ML in CI pipelines to identify "unclean" code and "fail" it.
+    * Use AI/ML to turn system tests into smaller tests and invert the testing pyramid.
+    * Use ChatGPT to pair program.
+    * Use AI/ML in CI pipelines to identify "unclean" code and "fail" it.
 
 
 #### Idea #1: Develop Standards for Software Development Teams
