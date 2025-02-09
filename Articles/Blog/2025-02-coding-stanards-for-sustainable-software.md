@@ -5,7 +5,7 @@
 #### Publication date: February 14, 2025
 
 <!--deck start-->
-???
+Learn the top-9 standards and practices that a modern science and engineering company should adopt to go fast with quality in a sustainable manor (by keeping down technical debt to a manageable level) and ideas on how to get there.
 <!--deck end-->
 
 
