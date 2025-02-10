@@ -67,7 +67,7 @@ A summary of these is listed below:
 
 Next, we will delve into more details on each one.
 
-#### Test-driven development
+**Test-driven development**
 
 All new software will be written using the test-driven development (TDD) process.
 You will be taught this process and expected to follow it.
@@ -95,7 +95,7 @@ These principles will be useful in the refactoring step of the TDD cycle.
 Applying TDD to our project will result in fast-running verification-type unit tests, providing nearly 100% code coverage.
 Our development, security, and operations (DevSecOps) pipelines will be able to deploy software quickly and with high confidence.
 
-#### Scrum
+**Scrum**
 
 You will be part of a Scrum team.
 Following Scrum itself is not the sole goal or indicator of developing sustainable software; it is an integral part of delivering valued software to our customers.
@@ -127,7 +127,7 @@ Here, you can see the measure of sustainable software development.
 If T1 can be kept constantly high or increasing, we are doing well.
 On many teams, T3/T is 50% or more, and as the code base grows, the technical debt increases with each new feature, and the time spent actually developing new features (T1) grows ever smaller.
 
-#### Pair programming
+**Pair programming**
 
 Kent Beck, originator of Extreme Programming, states that the pair programming practice improves code quality and maintainability.
 We have experienced this firsthand, so our practice is: "if it needs to be maintained, it shall be pair-programmed."
@@ -141,28 +141,28 @@ In the navigator/driver pair-programming pattern, the individual who knows what 
 The driver follows the instructions of the navigator.
 Think of it as driving in a new city with a passenger navigating using a map on their mobile phone.
 
-#### Six-line functions
+**Six-line functions**
 
 Every function we write will be no longer than six lines.
 Exceptions exist, mostly in cases where a large conditional or switch statement is necessary, where six lines cannot be accommodated.
 However, for most of our code, you will be expected to keep the line count to a maximum of six.
 Note that curly braces do not count.
 
-#### Minimize the number of function parameters
+**Minimize the number of function parameters**
 
 At FSEC, code readability is critical.
 This is also explained well in the book "[Clean Code](https://www.pearson.com/en-us/subject-catalog/p/clean-code-a-handbook-of-agile-software-craftsmanship/P200000009044/9780132350884)" by Robert Martin, which is part of your training.
 All functions/methods will have at most three parameters, though the goal is to minimize them to zero.
 Zero parameters are considered great, one is good, two are okay, and three are acceptable.
 
-#### No comments in the code
+**No comments in the code**
 
 This is also explained well in "Clean Code."
 At FSEC, we require readable code without the need for comments.
 Comments become part of the code maintenance, and it is hard enough to maintain the code itself.
 Of course, there are exceptions, but they require written approval from the CEO of FSEC.
 
-#### Improving legacy code
+**Improving legacy code**
 
 At FSEC, we have acquired legacy code from a national laboratory, which is now a critical software component of our project.
 This is legacy code because it has sections not covered by automated verification-like unit tests.
@@ -173,7 +173,7 @@ Hence, you will be expected to improve legacy code when you touch it.
 Using the refactoring training you have received, you will be expected to add unit tests to cover the legacy code before you start modifying the code.
 Additionally, if a bug is discovered, you will be expected to create a unit test that mimics the bug before the bug is fixed.
 
-#### Development, security, and operations (DevSecOps)
+**Development, security, and operations (DevSecOps)**
 
 At FSEC, we invest in having fast DevSecOps pipelines.
 We want our working software to be deployed quickly to our users for rapid feedback without causing outages or software failures or being a source of a ransomware attack.
@@ -183,7 +183,7 @@ New code written using TDD will have a rapid cycle time, while legacy code will 
 One of your primary responsibilities as a developer is to NOT create a system test that will significantly affect our continuous integration (CI) times.
 Our hardware resources are *not* unlimited.
 
-#### Measuring our effectiveness
+**Measuring our effectiveness**
 
 Recall our capacity equation: T=T1+T2+T3.
 
@@ -227,7 +227,7 @@ Here are some considerations:
     * Use AI/ML in CI pipelines to identify "unclean" code and "fail" it.
 
 
-#### Idea #1: Develop standards for software development teams
+**Idea #1: Develop standards for software development teams**
 
 What if we used a conference like the [Sustainable Scientific Software Conference](https://s3c.sandia.gov/) (S3C) as a collaborative platform to discuss and develop standards that most organizations could use as a starting point for their own standards and practices?
 If so, please consider attending and supporting this initiative.
@@ -235,7 +235,7 @@ We aim to develop the initial set of standards at the 2025 S3C in Denver, Colora
 
 Having said that, you could focus only on your organization and try idea #3.
 
-#### Idea #2: Start measuring technical debt (T1/T)
+**Idea #2: Start measuring technical debt (T1/T)**
 
 This is a great starting point to assess how your team is performing.
 If you are on a Scrum team, this could be done by comparing total sprint capacity (in points) to the number of points in the sprint allocated for developing new capabilities.
@@ -244,7 +244,7 @@ Do not be surprised if it is around 50%.
 If your organization uses external support staff to handle user support issues, you can include their capacity as part of the total time T.
 
 
-#### Idea #3: Organizations should define minimum quality criteria (Definition of Done)
+**Idea #3: Organizations should define minimum quality criteria (Definition of Done)**
 
 Why do so many organizations avoid addressing this?
 If your organization has multiple software development projects, should you not strive for consistency in the quality of code being developed and delivered?
