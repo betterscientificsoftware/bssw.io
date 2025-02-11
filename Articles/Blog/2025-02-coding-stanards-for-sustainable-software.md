@@ -11,9 +11,9 @@ Learn the top-9 standards and practices that a modern science and engineering co
 
 ### Abstract
 
-Despite the critical importance of sustainable software development, there remains a significant lack of awareness among software developers and managers on the importance of practices and standards on the quality of the software product.
+Despite the critical importance of sustainable software development, there remains a significant lack of awareness among software developers and managers on the importance of practices and standards on the quality of software products.
 This article explores the role of coding standards, practices, and guidelines in mitigating technical debt and enhancing software sustainability.
-We have seen significant reduction in debt with the adoption of these standards which leads to substantial cost savings and increased efficiency in software development.
+We have seen significant reduction in debt with the adoption of these standards, which leads to substantial cost savings and increased efficiency in software development.
 Our aim is for this article to serve as a catalyst for organizations to recognize the considerable gaps in current software development project management and development practices and to provide a roadmap for assessing and improving the sustainability of their software projects.
 Imagine if debt can be reduced from 50% to 10%.
 At one organization, we estimate that this could lead to $100M in annual savings.
@@ -267,7 +267,7 @@ That is how much technical debt can impact an organization, and worse, some migh
 
 ### Acknowledgments
 
-We want to thank Scott Warnock, Stuart Baxley, Chris Sullivan, Gary Lawson, Akhil Potla, Richard Drake, Henry Gabaldon, Erik Strack, Terri Galpin, Tricia Gharagazloo, Dena Vigil, Richard Michael Jack Kramer, Salomé Thorson, Raisa Koshkin, and the Sierra Toolkit (STK) Team: Alan Williams, Jesse Thomas, Todd Coffey, Nate Roehrig, C. Riley Wilson, Tolu Okusanya, David Glaze, Johnathan Vo for their invaluable contributions. We would also like to acknowledge Roscoe Bartlett for his valuable suggestions for this article.
+We thank Scott Warnock, Stuart Baxley, Chris Sullivan, Gary Lawson, Akhil Potla, Richard Drake, Henry Gabaldon, Erik Strack, Terri Galpin, Tricia Gharagazloo, Dena Vigil, Richard Michael Jack Kramer, Salomé Thorson, Raisa Koshkin, and the Sierra Toolkit Team (Alan Williams, Jesse Thomas, Todd Coffey, Nate Roehrig, C. Riley Wilson, Tolu Okusanya, David Glaze, and Johnathan Vo) for their invaluable contributions. We also acknowledge Roscoe Bartlett for his valuable suggestions for this article.
 
 
 ### Author bio
