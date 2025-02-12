@@ -82,8 +82,7 @@ The rules, in priority order, are:
 3. No duplication
 4. Fewest elements
 
-You will also be trained on the S.O.L.I.D.
-principles (https://bssw.io/items/solid-design-principles)
+You will also be trained on the [S.O.L.I.D. principles](https://bssw.io/items/solid-design-principles)
 
 * Single responsibility principle
 * Open/closed principle
