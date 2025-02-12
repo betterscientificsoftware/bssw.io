@@ -1,6 +1,8 @@
 # Developing Coding Standards and Practices for Sustainable Software Development
 
-#### Contributed by [Manoj K. Bhardwaj](https://www.linkedin.com/in/manoj-bhardwaj-22448932/)
+#### Contributed by Manoj K. Bhardwaj
+
+<!-- Preferred profile link: https://www.linkedin.com/in/manoj-bhardwaj-22448932/ -->
 
 #### Publication date: February 13, 2025
 
