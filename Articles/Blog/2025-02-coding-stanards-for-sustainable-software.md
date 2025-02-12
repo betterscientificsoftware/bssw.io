@@ -74,7 +74,7 @@ You will be taught this process and expected to follow it.
 You will learn about the red, green, refactor cycle and refactoring practices to apply.
 While upfront whiteboarding of design is important to set the initial direction, the TDD process will allow the design to emerge, which might not align with your initial expectations.
 
-Additionally, you will learn about the "Four Rules of Simple Design" from Kent Beck, which will help you execute your refactoring cycle.
+In addition, you will learn about the "Four Rules of Simple Design" from Kent Beck, which will help you execute your refactoring cycle.
 The rules, in priority order, are:
 
 1. Passes the tests
@@ -98,7 +98,7 @@ Our development, security, and operations (DevSecOps) pipelines will be able to 
 **Scrum**
 
 You will be part of a Scrum team.
-Following Scrum itself is not the sole goal or indicator of developing sustainable software; it is an integral part of delivering valued software to our customers.
+Following Scrum itself is not the sole goal or indicator of developing sustainable software; Scrum is an integral part of delivering valued software to our customers.
 However, without the remaining standards and practices, we risk delivering software with a lot of technical debt.
 
 When estimating stories using points, we will allocate time for daily refactoring by including that effort as part of the estimate.
@@ -121,7 +121,7 @@ Hence, managers and team members did not even know this was a problem.
 Customers often did not receive the capabilities they requested (in a timely manner), found the development expenses unrealistic, or did not establish trust with the software due to usability issues.
 
 You will be on ONE Scrum team, and you will be 100% dedicated to that team.
-We do not encourage multitasking at FSEC since research and experience show that it immediately reduces an individual's capacity by 40%.
+We do not encourage multitasking at FSEC because research and experience show that it immediately reduces an individual's capacity by 40%.
 
 Here, you can see the measure of sustainable software development.
 If T1 can be kept constantly high or increasing, we are doing well.
@@ -190,7 +190,7 @@ Recall our capacity equation: T=T1+T2+T3.
 From this, we measure debt as T1/T.
 This measure will show trends of how sustainable our software is.
 Our goal is to minimize T3 and maximize T1.
-T2 can be an indicator of how much legacy code we have, and hopefully is not increasing over time.
+T2 can be an indicator of how much legacy code we have; hopefully T2 is not increasing over time.
 
 We will also measure our CI times, aiming to keep them under one minute.
 Additionally, we will measure our testing line coverage, which will remain above 99%.
@@ -211,13 +211,13 @@ Most developers recognize that our standards and practices are designed to get u
 ### Path forward ideas to consider
 
 At this point in the article, we conclude our fictional FSEC onboarding story.
-How can we move forward in improving our abilities to write sustainable software?
+How can we move forward in improving our ability to write sustainable software?
 Here are some considerations:
 
 1. Develop standards for software development teams
 2. Start measuring technical debt (T1/T)
 3. Organizations should define minimum quality criteria (Definition of Done)
-4. Develop awareness that this is the fast way to develop software
+4. Develop awareness that this approach is the fast way to develop software
 5. Collaborate with teams interested in adopting these ideas
 6. Study these ideas and present results at future conferences
 7. Develop tools for developers that help enforce good habits
@@ -246,7 +246,7 @@ If your organization uses external support staff to handle user support issues, 
 
 **Idea #3: Organizations should define minimum quality criteria (Definition of Done)**
 
-Why do so many organizations avoid addressing this?
+Why do so many organizations avoid addressing this issue?
 If your organization has multiple software development projects, should you not strive for consistency in the quality of code being developed and delivered?
 This requires courageous leadership.
 After all, who wants to be the one to tell their software development teams that this list is the minimum quality criteria?
@@ -261,7 +261,7 @@ Consider using the S3C conference as a venue for thinking about and discussing t
 We believe that many organizations can improve their software development teams by focusing on improving knowledge and practices for creating sustainable software.
 While there is not excellent scientific research on this topic, we should not be flying blind.
 We should take a proactive approach to developing software sustainably.
-At one facility, we estimate that if teams can move their practices toward sustainable standards/practices, there could be a savings of $100M annually.
+At one facility, we estimate that if teams could move their practices toward sustainable standards/practices, there could be a savings of $100M annually.
 Yes, that is correct.
 That is how much technical debt can impact an organization, and worse, some might not even know they are swimming in it.
 
