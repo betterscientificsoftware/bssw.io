@@ -15,19 +15,19 @@ Despite the critical importance of sustainable software development, there remai
 This article explores the role of coding standards, practices, and guidelines in mitigating technical debt and enhancing software sustainability.
 We have seen significant reduction in debt with the adoption of these standards, which leads to substantial cost savings and increased efficiency in software development.
 Our aim is for this article to serve as a catalyst for organizations to recognize the considerable gaps in current software development project management and development practices and to provide a roadmap for assessing and improving the sustainability of their software projects.
-Imagine if debt can be reduced from 50% to 10%.
-At one organization, we estimate that this could lead to $100M in annual savings.
+Imagine if technical debt could be be reduced from 50% to 10%.
+At one organization, we estimate that this change could lead to $100M in annual savings.
 This article is based on a presentation delivered at the 2024 Sustainable Scientific Software Conference (S3C), which was part of the National Labs Information Technology (NLIT) Summit held in Seattle, Washington.
 
 ### Introduction
 
 In the realm of software engineering, the development of sustainable software is often overlooked or misunderstood.
-Many development teams face technical debt that exceeds 50% of their budget, and worse, they are not aware of the magnitude of their technical debt.
+Many development teams face technical debt that exceeds 50% of their budget, and worse, they may not be aware of the magnitude of their technical debt.
 In addition, many software developers are not taught practices that help create more sustainable software.
-Managers of software development projects are not sure how to measure their success.
+Managers of software development projects sometimes are not sure how to measure their success.
 Hopefully, this article can help by highlighting the importance of developing and adhering to coding standards, practices, and guidelines to create sustainable software.
-(We'll also provide a definition of sustainable software below).
-We hope to demonstrate various ideas through a fictional story of your onboarding experience at Fake Science and Engineering Company (FSEC), where you have been hired to work on a scientific software project.
+(We'll also provide a definition of sustainable software below.)
+We hope to demonstrate various ideas through a fictional story of an onboarding experience at Fake Science and Engineering Company (FSEC), where you have been hired to work on a scientific software project.
 
 
 ### Fake Science and Engineering Company (FSEC)
@@ -53,7 +53,7 @@ Your number one job as a software developer is to make the code you write readab
 ### FSEC software development standards and practices
 
 We will touch upon some of the more important standards and practices.
-A summary of these is listed below:
+A summary is listed below:
 
 1. Test-driven development
 2. Scrum
@@ -183,7 +183,7 @@ New code written using TDD will have a rapid cycle time, while legacy code will 
 One of your primary responsibilities as a developer is to NOT create a system test that will significantly affect our continuous integration (CI) times.
 Our hardware resources are *not* unlimited.
 
-**Measuring our effectiveness**
+**Measuring effectiveness**
 
 Recall our capacity equation: T=T1+T2+T3.
 
