@@ -167,7 +167,7 @@ Of course, there are exceptions, but they require written approval from the CEO 
 
 At FSEC, we have acquired legacy code from a national laboratory, which is now a critical software component of our project.
 This is legacy code because it has sections not covered by automated verification-like unit tests.
-You will be trained on various approaches to dealing with legacy code based on the book "[Working Effectively with Legacy Code](https://www.pearson.com/en-us/subject-catalog/p/working-effectively-with-legacy-code/P200000008984/9780131177055)" by Michael Feathers.
+You will be trained on various approaches to dealing with legacy code based on the book "[Working Effectively with Legacy Code](https://bssw.io/items/working-effectively-with-legacy-code)" by Michael Feathers.
 
 At FSEC, we choose to refactor as our primary option rather than rewriting legacy code.
 Hence, you will be expected to improve legacy code when you touch it.
