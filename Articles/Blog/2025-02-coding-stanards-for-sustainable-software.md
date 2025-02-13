@@ -273,7 +273,7 @@ We thank Scott Warnock, Stuart Baxley, Chris Sullivan, Gary Lawson, Akhil Potla,
 
 ### Author bio
 
-Manoj K. Bhardwaj, Ph.D., is a technical staff member at Sandia National Laboratories with a lengthy background in numerical software development and simulation.
+[Manoj K. Bhardwaj, Ph.D.](https://www.linkedin.com/in/manoj-bhardwaj-22448932/), is a technical staff member at Sandia National Laboratories with a lengthy background in numerical software development and simulation.
 Manoj is passionate about Scrum, Extreme Programming (XP), and Development and Operations (DevOps).
 He is also passionate about continuous improvement and the infinite game.
 He has been fortunate enough to see the impact of the previously mentioned work.
