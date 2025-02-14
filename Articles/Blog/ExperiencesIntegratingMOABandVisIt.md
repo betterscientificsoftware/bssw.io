@@ -20,10 +20,12 @@ The VisIt<->MOAB integration effort began with development a database plugin sup
 Multiple code teams implemented the iMesh interface in their scientific mesh management software components including the [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/) teams.
 VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) uniquely demonstrated the power of the iMesh interface because it supported all existing implementations via a *single* instance of the plugin source code.
 When VisIt was compiled, it would compile the same database plugin source code against each iMesh implementation producing plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
-This early version of the plugin was used to examine a large reactor model consisting of hundreds of thousands of subsets for various components of the nuclear fuel assembly.
+This early version of the plugin was used successfully to examine a large MOAB reactor model consisting of hundreds of thousands of subsets for various components of the nuclear fuel assembly.
 This was how MOAB was first integrated with VisIt.
 However, as development of the iMesh interface waned, MOAB continued to evolve such that eventually iMesh provided an insufficient path to access MOAB data and features.
+In particular, this included scalable parallel mesh data processing and I/O.
 In addition, the iMesh interface eventually became obsolete and was removed from MOAB.
+A new VisIt database plugin integrated *directly* with MOAB was needed.
 
 
 
