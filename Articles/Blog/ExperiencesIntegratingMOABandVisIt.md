@@ -33,7 +33,7 @@ A new VisIt database plugin integrated *directly* with MOAB was needed.
 ### Direct integration of MOAB with VisIt
 
 VisIt supports a variety of parallel I/O and execution paradigms for interacting with data in disk files through database plugins.
-The most commonly used paradigm is the Multiple Indpendent File ([MIF](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/)) paradigm.
+The most commonly used paradigm is the Multiple Independent File ([MIF](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/)) paradigm.
 In this paradigm, a large, coherent mesh is decomposed into pieces (shards, chunks, domains) that are distributed to a number of different files.
 In parallel, each VisIt MPI rank is assigned some number of those pieces.
 If there are more MPI ranks than pieces, some ranks get no pieces.
@@ -41,7 +41,7 @@ If there are more pieces than MPI ranks, some ranks get multiple pieces.
 Given 60 pieces, for example VisIt can run 1:1 on 60 tasks, 2:1 on 30 tasks, 3:1 on 20 tasks or even 3:1 on 12 together with 4:1 on 6 of 18 total tasks.
 
 But, that paradigm does not require anything special in the way of parallel I/O.
-In fact, it achieves parallelism by independently managing concurrent access via *sequential* interfaces to data in multile different files.
+In fact, it achieves parallelism by independently managing concurrent access via *sequential* interfaces to data in multiple different files.
 MOAB uses HDF5's parallel I/O interface (which in turn uses both collective and independent MPI-IO interfaces) to a single, shared file.
 The MOAB plugin is unique in VisIt because of the 150+ database plugins VisIt supports, it is the only database plugin using single-shared file I/O.
 
