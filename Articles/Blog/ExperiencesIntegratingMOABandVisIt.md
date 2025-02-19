@@ -14,7 +14,7 @@ In this article, we describe our experiences developing and using a MOAB databas
 Funding from the OASIS project (and from xxx earlier) aims to facilitate collaborations between developers of tools such VisIt and the broader scientific computing community.
 These funding streams have supported a long standing collaboration between the VisIt core development team at LLNL and the MOAB development team at ANL.
 
-### Early integration work iMesh
+### Early integration via iMesh
 The VisIt<->MOAB integration effort began with development a database plugin supporting the [iMesh](https://markcmiller86.github.io/ITAPS/software/iMesh_html/i_mesh_8h.html) interface of the [ITAPS]() project.
 The [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/) teams each implemented the `iMesh` interface to their respective mesh management software components.
 VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) uniquely demonstrated the power of the iMesh interface by supporting all implementations via a *single* instance of the plugin source code.
@@ -25,7 +25,7 @@ In addition, the ITAPS plugin in VisIt demonsrated the use of iMesh to easily tr
 However, the iMesh interface eventually became obsolete and was removed from MOAB.
 A new VisIt database plugin integrating *directly* with MOAB's native interface was needed.
 
-### Direct integration of MOAB with VisIt
+### Direct integration with MOAB
 
 VisIt supports both the Multiple Independent File ([MIF](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/)) and single shared file parallel I/O paradigms.
 Of 150+ database plugins, the MOAB plugin is the only one using HDF5's parallel I/O interface (which in turn uses both collective and independent MPI-IO interfaces) to a single, shared file.
