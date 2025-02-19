@@ -18,25 +18,22 @@ These funding streams have supported a long standing collaboration between the V
 
 ### Early integration work with ITAPS
 The VisIt<->MOAB integration effort began with development a database plugin supporting the [iMesh](https://markcmiller86.github.io/ITAPS/software/iMesh_html/i_mesh_8h.html) interface of the [ITAPS]() project.
-Multiple code teams implemented the iMesh interface in their scientific mesh management software components including the [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/) teams.
-VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) uniquely demonstrated the power of the iMesh interface because it supported all existing implementations via a *single* instance of the plugin source code.
-When VisIt was compiled, it would compile the same database plugin source code against each iMesh implementation producing plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
-In turn, this enabled VisIt to be easily used as a data translator between these various, disparate mesh management software components.
+The [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/) teams each implemented the `iMesh` interface to their respective mesh management software components.
+VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) uniquely demonstrated the power of the iMesh interface by supporting all implementations via a *single* instance of the plugin source code.
+The same source code was compiled against each iMesh implementation producing separate plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
 
 This early version of the plugin was used successfully to examine a large MOAB [reactor model](https://publications.anl.gov/anlpubs/2013/10/76766.pdf#page=12) consisting of hundreds of thousands of subsets for various components of the nuclear fuel assembly.
-This was how MOAB was first integrated with VisIt.
-However, as development of the iMesh interface waned, MOAB continued to evolve such that eventually iMesh provided an insufficient path to access MOAB data and features.
-In particular, this included scalable parallel mesh data processing and I/O features.
-In addition, the iMesh interface eventually became obsolete and was removed from MOAB.
-A new VisIt database plugin integrated *directly* with MOAB was needed.
+In addition, the ITAPS plugin in VisIt demonsrated the use of iMesh to easily translate data between each implementation.
+However, the iMesh interface eventually became obsolete and was removed from MOAB.
+A new VisIt database plugin integrating *directly* with MOAB's native interface was needed.
 
 ### Direct integration of MOAB with VisIt
 
 VisIt supports both the Multiple Independent File ([MIF](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/)) and single shared file parallel I/O paradigms.
-Among the over 150 database plugins, the MOAB plugin is the only one using HDF5's parallel I/O interface (which in turn uses both collective and independent MPI-IO interfaces) to a single, shared file.
-Complicating matters, VisIt involves multiple executables working together; a *metadata server* and both a serial and a parallel *engine*.
+Of 150+ database plugins, the MOAB plugin is the only one using HDF5's parallel I/O interface (which in turn uses both collective and independent MPI-IO interfaces) to a single, shared file.
+Complicating matters, VisIt involves multiple executables working together; a *metadata server* and either a serial or a parallel *engine*.
 Of these, only the parallel engine uses MPI.
-This means the metadata server and serial engine use serial installs of MOAB and HDF5 whereas the parallel engine uses parallel installs of both.
+The metadata server and serial engine require serial installs of MOAB and HDF5 whereas the parallel engine requires parallel installs of both.
 This complicates build processes.
 This approach worked until the VisIt engine was enhanced to depend on a library that itself *requires* HDF5.
 
