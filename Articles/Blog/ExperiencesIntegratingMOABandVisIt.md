@@ -1,12 +1,10 @@
 ## What are MOAB and VisIt
-The Mesh-Oriented datABase ([MOAB](https://sigma.mcs.anl.gov/moab-library/)) is a scalable, parallel, scientific computing software component for representing and operating upon mesh-based scientific data in-situ.
-MOAB can handle structured and unstructured meshes and fields thereon consisting of elements in the finite element “zoo”, including polygons and polyhedra.
-The MOAB API provides a scalable, parallel representation of many types of mesh-based scientific data and metadata.
-MOAB is optimized for efficiency in space and time, processing mesh data either in aggregate parcels (or [shards](https://en.wikipedia.org/wiki/Shard_(database_architecture))) as well as iterations over individual mesh entities.
-In addition, MOAB provides a means for high performance, scalable I/O of the mesh-based scientific data it is processing to and from files on disk.
+The Mesh-Oriented datABase ([MOAB](https://sigma.mcs.anl.gov/moab-library/)) is an in-situ, scalable, parallel, scientific computing software component for mesh-based scientific data.
+It is optimized for efficiency in space and time, processing mesh data either in bulk parcels (or [shards](https://en.wikipedia.org/wiki/Shard_(database_architecture))) or fine-grained iterations over specific sets of mesh entities.
+In addition, MOAB provides a means for high performance, scalable I/O to and from files on disk.
 Some aspects of MOAB's design and data model are derived from earlier SciDAC projects including the Terascale Simulation Tools and Technologies ([TSTT](https://www.researchgate.net/publication/259197545_The_TSTTM_Interface)) and the Interoperable Tools for Advanced Petascale Simulations ([ITAPS](https://www.osti.gov/biblio/971531/)).
 
-One of the reasons MOAB is used to *write* scientific data to files, as opposed to simply operate upon it in memory, is to export its data to other software components in use in a larger simulation and modeling workflow.
+One reasons MOAB *writes* scientific data to files, as opposed to simply operate upon it in memory, is to export its data to other software in a larger simulation and modeling workflow.
 A commonly used component in such workflows is a visualization tool such as [VisIt](https://visit.llnl.gov) or [ParaView](https://www.paraview.org).
 VisIt, for example, is a scalable, parallel scientific visualization tool for visualizing and analyzing mesh-based scientific data either in files or in-situ.
 VisIt is built on top of the Visualization ToolKit ([VTK](https://vtk.org)) and relies upon VTK for a majority of its functionality.
@@ -16,7 +14,7 @@ In this article, we describe our experiences developing and using a MOAB databas
 Funding from the OASIS project (and from xxx earlier) aims to facilitate collaborations between developers of tools such VisIt and the broader scientific computing community.
 These funding streams have supported a long standing collaboration between the VisIt core development team at LLNL and the MOAB development team at ANL.
 
-### Early integration work with ITAPS
+### Early integration work iMesh
 The VisIt<->MOAB integration effort began with development a database plugin supporting the [iMesh](https://markcmiller86.github.io/ITAPS/software/iMesh_html/i_mesh_8h.html) interface of the [ITAPS]() project.
 The [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/) teams each implemented the `iMesh` interface to their respective mesh management software components.
 VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) uniquely demonstrated the power of the iMesh interface by supporting all implementations via a *single* instance of the plugin source code.
