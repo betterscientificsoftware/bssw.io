@@ -17,13 +17,14 @@ These funding streams have supported a mutually beneficial collaboration between
 
 A plugin supporting MOAB was first developed using the [iMesh](https://markcmiller86.github.io/ITAPS/software/iMesh_html/i_mesh_8h.html) interface as part of the [ITAPS](https://markcmiller86.github.io/ITAPS/) project.
 `iMesh` was developed to serve as a *generic* interface to any package providing *services* to manage discrete meshes composed of sets of entities, such as nodes, edges, faces and volumes, modifications to these entities and tags and tag data associated with sets of these entities.	
-The [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/) teams each implemented the `iMesh` interface to their respective mesh management software components.
-VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) plugin could then be compiled against each `iMesh` implementation producing separate plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
+The teams participating in ITAPS, [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/), each implemented the `iMesh` interface to their respective mesh management software components.
+
+VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) could then be compiled against each `iMesh` implementation producing separate plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
 A single implementation of the `iMesh` plugin source code supported multiple different mesh services packages demonstrating a key goal of the ITAPS project.
 With the ability to *read* from one implementation and *write* to another, this version of the plugin also demonsrated the use of `iMesh` to easily translate data between different mesh services packages.
 
 This early version of the plugin was used successfully to examine a large MOAB [reactor model](https://publications.anl.gov/anlpubs/2013/10/76766.pdf#page=12) consisting of hundreds of thousands of subsets for various components of the nuclear fuel assembly.
-However, the iMesh interface eventually became obsolete and was removed from MOAB.
+However, as funding for the ITAPS SciDAC project ended, so did further development and support of the iMesh interface and it was eventually removed from MOAB.
 A new VisIt database plugin integrating *directly* with MOAB's native interface was needed.
 
 ### The MOAB Native plugin
