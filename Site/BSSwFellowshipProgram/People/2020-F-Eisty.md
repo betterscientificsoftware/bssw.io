@@ -6,9 +6,7 @@
 
 **Image:** /images/People_2020_F_Eisty.jpg
 
-**URL:** http://neisty.students.cs.ua.edu
-
-**LinkedIn:** https://www.linkedin.com/in/nasir-uddin-eisty-492830a9/
+**LinkedIn:** https://www.google.com/search?q=%22Nasir+Eisty%22+site%3Alinkedin.com&client=safari&sca_esv=7002102899f21eb8&sxsrf=ACQVn0-pwZN-S2vGRqD7VkQ0_ZrAyKhEYw%3A1706416704187&source=hp&ei=QNq1ZfOwCdbRkPIPtbqZiAE&iflsig=ANes7DEAAAAAZbXoUAvtXPvugMZ9o5sHPUfngXXNCUH_&ved=0ahUKEwjz0PXLof-DAxXWKEQIHTVdBhEQ4dUDCA4&uact=5&oq=%22Nasir+Eisty%22+site%3Alinkedin.com&gs_lp=Egdnd3Mtd2l6Ih8iTmFzaXIgRWlzdHkiIHNpdGU6bGlua2VkaW4uY29tSNwsUABYzitwAHgAkAEAmAGGAaABmAyqAQQxOS4yuAEDyAEA-AEB-AECwgIEECMYJ8ICBRAAGIAEwgIGEAAYFhgewgIFECEYoAE&sclient=gws-wiz
 
 **Github:** https://github.com/neisty
 
