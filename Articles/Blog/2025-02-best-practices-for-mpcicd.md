@@ -22,7 +22,7 @@ Very briefly, CI is a software development practice where contributions to a
 software package are merged into a centralized repository as they are ready.
 This contrasts with older philosophies such as the
 ["waterfall model"](https://www.geeksforgeeks.org/waterfall-model/) where
-changes are only merged at select times (e.g., features are merged during the
+changes are merged only at select times (e.g., features are merged during the
 *Development* stage and bug-fixes are merged during *Testing*). CD refers to releasing updates to a software package when they are ready. CD
 differs from other release strategies such as timed releases, or waterfall when
 releases happen during the *Deployment* stage.
@@ -69,7 +69,7 @@ DevOps [website](https://multiprojectdevops.github.io/best_practices/).
 
 IaC refers to the practice of preferring configuration scripts/files to set up
 a computing environment, as opposed to graphical user interfaces or other
-mechanisms that are harder to automate. In the context of MPCI/CD IaC is
+mechanisms that are harder to automate. In the context of MPCI/CD, IaC is
 important because:
 
 - It is easier to scale CI/CD pipelines up/down, e.g., to massively parallelize tests.
@@ -82,7 +82,7 @@ controlled by the runner you pick.
 
 ### Dependencies
 
-In the context of MPCI/CD *dependencies* include not just the software's
+In the context of MPCI/CD, *dependencies* include not just the software's
 dependencies, but also the dependencies of the CI/CD pipelines (e.g., the
 reusable components). Dependencies are a natural part of any software system and
 also the source of many DevOps problems. The best practices in this theme aim
@@ -148,7 +148,7 @@ size, if:
  generation is factored out.
 
 The exact mechanism for factoring out CI/CD pipeline components will vary
-among CI/CD systems. As a baseline, most systems allow you to call external
+among CI/CD systems. As a baseline, most systems allow the user to call external
 scripts. GitHub additionally provides several additional
 [mechanisms](https://docs.github.com/en/actions/sharing-automations/reusing-workflows) including actions, composite
 actions, and reusable workflows. Similarly, GitLab provides
@@ -164,10 +164,10 @@ developed as full-fledged software projects.
 
 For example, when developing modular software, there is a tendency to adopt
 plugin architectures. In such architectures, the main project, *the framework*,
-is designed to be extendable by users. To extend the framework users write
+is designed to be extendable by users. To extend the framework, users write
 *plugins*, downstream libraries meant to be consumed by the framework. Both
 framework and plugin developers need to ensure ecosystem compatibility as part
-of their CI/CD pipeline and it thus makes sense to create reusable CI/CD
+of their CI/CD pipeline, and it thus makes sense to create reusable CI/CD
 components that can be used by both the framework and plugin developers. Other
 examples include when the main project is a tool meant to be used during a
 CI/CD pipeline (e.g., documentation generator), or when a project is not
@@ -192,16 +192,16 @@ practices.
 
 ### Security
 
-We are not security experts and the content of this subsection is meant to make
+We are not security experts, and the content of this subsection is meant to make
 the reader cognizant that all CI/CD has security concerns and that reuse of
 CI/CD components can exacerbate these concerns. For example, if you self-host
-CI/CD runners then you should note that the pipelines will physically run on
+CI/CD runners, then you should note that the pipelines will physically run on
 your system. This means that maliciously written pipeline components could
-conceivably access parts of your system.  Even if you only run on a
+conceivably access parts of your system.  Even if you run only on a
 CI/CD provider's hardware, the fact that pipelines often have elevated
 permissions means that the pipeline may do potentially destructive actions
 (e.g., deleting files, locking you out of websites, introducing malware into the
-code). If you reuse components you may potentially spread infections.
+code). If you reuse components, you may potentially spread infections.
 
 Generally speaking, best practices related to security in an MPCI/CD setting
 include:
@@ -216,8 +216,9 @@ experts in your CI/CD development and trust their wisdom and guidance.
 
 ## Conclusion
 
-The Multi-Project DevOps organization is excited to share with the BSSW.io
-community the results of Dr. Ryan Richard's 2024 BSSw Fellowship. We hope that others who are interested in MPCI/CD will consider joining the
+The Multi-Project DevOps organization is excited to share with the BSSw.io
+community the results of Dr. Ryan Richard's 2024 BSSw Fellowship project. 
+We hope that others who are interested in MPCI/CD will consider joining the
 Multi-Project CI/CD organization and helping continue to add content. We intend
 for the Multi-Project CI/CD organization to continue, but note that content
 additions may be slower as priorities shift. Nonetheless, we think that the
@@ -227,8 +228,8 @@ projects.
 
 ## Acknowledgements
 
-This work was supported by the Better Scientific Software Fellowship Program, a
-collaborative effort of the U.S. Department of Energy (DOE), Office of Advanced
+This work was supported by the [Better Scientific Software Fellowship Program](https://bssw.io/fellowship), 
+a collaborative effort of the U.S. Department of Energy (DOE), Office of Advanced
 Scientific Research via ANL under Contract DE-AC02-06CH11357 and the National
 Nuclear Security Administration Advanced Simulation and Computing Program via
 LLNL under Contract DE-AC52-07NA27344; and by the National Science Foundation
