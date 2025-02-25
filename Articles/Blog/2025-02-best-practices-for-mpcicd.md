@@ -9,7 +9,7 @@ Implementing and managing continuous integration/deployment for multiple
 projects has its own challenges. Emerging best practices can help.
 <!-- end deck -->
 
-This article is cross published with the Multi-Project DevOps
+This article is cross-published with the Multi-Project DevOps
 [website](https://multiprojectdevops.github.io/bssw_summary/).
 
 This article summarizes the initial efforts of the [Multi-Project DevOps
@@ -23,14 +23,13 @@ software package are merged into a centralized repository as they are ready.
 This contrasts with older philosophies such as the
 ["waterfall model"](https://www.geeksforgeeks.org/waterfall-model/) where
 changes are only merged at select times (e.g., features are merged during the
-*Development* stage and bug-fixes are merged during *Testing*). CD refers to the
-practice of releasing updates to a software package when they are ready. CD
+*Development* stage and bug-fixes are merged during *Testing*). CD refers to releasing updates to a software package when they are ready. CD
 differs from other release strategies such as timed releases, or waterfall when
 releases happen during the *Deployment* stage.
 
 Because of their asynchronous nature, CI and CD almost mandate the use of
 automation to ensure changes do not break the system and that steps are not
-skipped. Automation is accomplished by means of pipelines. With CI and CD each
+skipped. Automation is accomplished using pipelines. With CI and CD each
 automated, it is natural to combine the pipelines so that when a CI pipeline
 successfully completes, a CD pipeline automatically starts. The result is a
 unification of CI and CD into a single practice, CI/CD.
@@ -52,9 +51,9 @@ process is often similar across the projects. While it may be tempting to
 duplicate the compilation logic in each repository, this is a known
 ["code smell"](https://www.geeksforgeeks.org/code-smell-a-general-introduction-and-its-type/).
 
-Over the last year we have held a few workshops designed to understand what
+Over the last year, we have held a few workshops designed to understand what
 best practices the community follows in the context of MPCI/CD. From these
-workshops several themes have emerged:
+workshops, several themes have emerged:
 
 - Treat infrastructure as code.
 - Dependencies.
@@ -62,15 +61,15 @@ workshops several themes have emerged:
 - Creation of reusable pipeline components.
 - Security.
 
-The remainder of this article provides a high-level overview of each of these
+The remainder of this article provides a high-level overview of these
 themes. More information on best practices can be found on the Multi-Project
 DevOps [website](https://multiprojectdevops.github.io/best_practices/).
 
 ### Treat infrastructure as code (IaC)
 
-IaC refers to the practice of preferring configuration scripts/files to setup
+IaC refers to the practice of preferring configuration scripts/files to set up
 a computing environment, as opposed to graphical user interfaces or other
-mechanisms which are harder to automate. In the context of MPCI/CD IaC is
+mechanisms that are harder to automate. In the context of MPCI/CD IaC is
 important because:
 
 - It is easier to scale CI/CD pipelines up/down, e.g., to massively parallelize tests.
@@ -78,7 +77,7 @@ important because:
 - Better reproducibility: others can recreate the environment.
 
 Mechanisms for IaC differ depending on the CI/CD service. For GitHub actions, for example,
-it is mainly controlled by which base image you use. For GitLab this is
+it is mainly controlled by which base image you use. For GitLab, this is
 controlled by the runner you pick.
 
 ### Dependencies
@@ -95,17 +94,17 @@ that end general best practices include:
 - Institute nightly builds with the newest releases of dependencies.
 
 Dependency management is a complicated issue best handled by specialized
-software, often referred to as "package managers." Choices for this software range from operating system wide (e.g., 
-Aptitude for Ubuntu and Homebrew for MacOS) to language specific (e.g., PyPI
-for Python and Conan for C++). In the context of MPCI/CD it does not matter what
+software, often referred to as "package managers." Choices for this software range from operating system-wide (e.g., 
+Aptitude for Ubuntu and Homebrew for MacOS) to language-specific (e.g., PyPI
+for Python and Conan for C++). In the context of MPCI/CD, it does not matter what
 dependency management software is used. What matters is that such software is
 used instead of trying to directly manage dependencies in the CI/CD pipelines,
 i.e., the pipeline should be implemented in terms of the dependency management
-software.  
+software.  
 
 CI/CD pipelines will need to pull dependencies automatically, frequently, and
 asynchronously. Pinning versions ensures that pipelines always use the same
-dependency version, thus avoiding hard to debug problems caused by changing versions. Related is the idea of instituting nightly builds with
+dependency version, thus avoiding hard-to-debug problems caused by changing versions. Related is the idea of instituting nightly builds with
 bleeding edge dependencies. The goal of such builds is to discover when
 upstream changes are breaking your software. This is particularly important in modular
 ecosystems where downstream developers are creating plugins or apps. In this
@@ -113,40 +112,40 @@ case, downstream developers want to know when changes to the framework break
 compatibility. Even if the upstream developers adhere to semantic versioning,
 it is unlikely that they will backport every new feature to earlier versions.
 Consequently, even pinning dependency versions will not be sufficient if downstream
-developers want to use the new features, and nightly builds help developers
+developers want to use the new features and nightly builds help developers
 plan for such upgrades.
 
 ### Avoiding code duplication
 
 *Don't Repeat Yourself*, or the DRY principle, is a cornerstone of software
-development. In fact, our initial foray into MPCI/CD emerged from wanting our
+development. Our initial foray into MPCI/CD emerged from wanting our
 CI/CD infrastructure to obey this principle. In MPCI/CD applying DRY can be a
 bit of a balancing act. This is because CI/CD is boilerplate heavy and the
 threshold for what constitutes "repeating oneself" can be quite high. For
 example, calling a GitHub action requires specifying: the name of the action,
-the  options for the action, and the secrets for the option. Since this
+the options for the action, and the secrets for the option. Since this
 information must be specified in a configuration file the number of lines scales
 with the number of options and secrets. In some cases, the action may simply
-wrap a single command (quintessential examples are actions which install
-dependencies), and factoring out the command may actually require more lines
+wrap a single command (quintessential examples are actions that install
+dependencies), and factoring out the command may require more lines
 of code in the pipeline file than it replaces!
 
 When DRY is used to factor out a large block of duplicated code, the benefits
-are obvious: easier to read code and a single source of truth for the code block
+are obvious: easier-to-read code and a single source of truth for the code block
 across all pipelines. For smaller units of duplicated code, DRY still leads to
 a single source of truth, but it can become an obfuscation when the reader has to find a small snippet of code elsewhere and interpret it.
-Thus, when to apply DRY is a judgement call for the developer.
+Thus, when to apply DRY is a judgment call for the developer.
 Generally speaking, we recommend factoring out duplicate code, regardless of
 size, if:
 
 - The block of code contains details likely to be used by another pipeline,
-  e.g., lists of dependencies, dependency versions, or deployment endpoints.
+ e.g., lists of dependencies, dependency versions, or deployment endpoints.
 - The block of code is time-consuming to execute. For example, installing dependencies may be a
-  succinct call, but may require a lot of run time. If the call is factored
-  out it becomes easier to cache the results to reduce time.
+ succinct call, but may require a lot of run time. If the call is factored
+ out it becomes easier to cache the results to reduce time.
 - The code block generates an artifact that will persist after the CI/CD
-  pipeline is run. Similar to caching, managing artifacts is easier if their
-  generation is factored out.
+ pipeline is run. Similar to caching, managing artifacts is easier if their
+ generation is factored out.
 
 The exact mechanism for factoring out CI/CD pipeline components will vary
 among CI/CD systems. As a baseline, most systems allow you to call external
@@ -164,7 +163,7 @@ have broader appeal and thus have reuse potential. Reusable components should be
 developed as full-fledged software projects.
 
 For example, when developing modular software, there is a tendency to adopt
-plugin architectures. In such architectures the main project, *the framework*,
+plugin architectures. In such architectures, the main project, *the framework*,
 is designed to be extendable by users. To extend the framework users write
 *plugins*, downstream libraries meant to be consumed by the framework. Both
 framework and plugin developers need to ensure ecosystem compatibility as part
@@ -176,7 +175,7 @@ available via package managers (then a reusable CI/CD component makes it
 easier for downstream dependencies to include it in their CI/CD pipelines).
 
 The best practices for building reusable pipeline components are the same as
-any other software product and at a high-level include:
+any other software product, and at a high level include:
 
 - Thoughtfully designed and stable interfaces.
 - Documentation.
@@ -198,18 +197,18 @@ the reader cognizant that all CI/CD has security concerns and that reuse of
 CI/CD components can exacerbate these concerns. For example, if you self-host
 CI/CD runners then you should note that the pipelines will physically run on
 your system. This means that maliciously written pipeline components could
-conceivably access parts of your system.  Even if you only run on a
+conceivably access parts of your system.  Even if you only run on a
 CI/CD provider's hardware, the fact that pipelines often have elevated
 permissions means that the pipeline may do potentially destructive actions
 (e.g., deleting files, locking you out of websites, introducing malware into the
 code). If you reuse components you may potentially spread infections.
 
-Generally speaking best practices related to security in a MPCI/CD setting
+Generally speaking, best practices related to security in an MPCI/CD setting
 include:
 
 - Only use trusted components.
 - Think carefully about permissions.
-- Isolate steps which have elevated permissions.
+- Isolate steps that have elevated permissions.
 
 If security is a concern for you, then note that these practices alone are not
 sufficient to protect you from harm. You should include actual cybersecurity
@@ -218,10 +217,9 @@ experts in your CI/CD development and trust their wisdom and guidance.
 ## Conclusion
 
 The Multi-Project DevOps organization is excited to share with the BSSW.io
-community the results of Dr. Ryan Richard's 2024 BSSw Fellowship. It is our
-hope that others who are interested in MPCI/CD will consider joining the
+community the results of Dr. Ryan Richard's 2024 BSSw Fellowship. We hope that others who are interested in MPCI/CD will consider joining the
 Multi-Project CI/CD organization and helping continue to add content. We intend
-to for the Multi-Project CI/CD organization to continue, but note that content
+for the Multi-Project CI/CD organization to continue, but note that content
 additions may be slower as priorities shift. Nonetheless, we think that the
 MPCI/CD best practices described here should provide a foundation for others
 interested in improving how they manage CI/CD pipelines across multiple
