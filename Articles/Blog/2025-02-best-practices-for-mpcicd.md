@@ -2,7 +2,7 @@
 
 #### Contributed by [Ryan M. Richard](https://github.com/ryanmrichard)
 
-#### Publication data: February 26, 2025
+#### Publication date: February 26, 2025
 
 <!-- begin deck -->
 Implementing and managing continuous integration/deployment for multiple
