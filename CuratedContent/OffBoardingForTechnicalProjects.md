@@ -48,7 +48,7 @@ In this reviewer's opinion, it is an often overlooked and very important step hi
 TWU article.
 
 <!---
-Publish: no
+Publish: yes
 Topics: software process improvement, strategies for more effective teams
 Pinned: no
 RSS update: 2025-02-24
