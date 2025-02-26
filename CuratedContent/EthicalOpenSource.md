@@ -5,7 +5,7 @@ Is your open source code being used for good or evil?
 <!--- deck text end --->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
-#### Publication date: February, 15, 2025
+#### Publication date: March 15, 2025
 
 Resource information | Details
 :--- | :---
@@ -27,20 +27,13 @@ Are developers of the software ok if it is used, for example, in creation of dee
 Some recent and prominent examples of members of the open-source software community raising ethical concerns over the use of their software include [Elastic Search](https://pureinsights.com/blog/2024/elastics-journey-from-apache-2-0-to-agpl-3/), [TensorFlow](https://www.nytimes.com/2018/04/04/technology/google-letter-ceo-pentagon-project.html) and [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG#Standardization_and_implementations).
 By contrast, of the approximately 8,500 packages in [Spack](https://spack.io), only one uses an ethical-source license.
 
-To put these ethical-source licenses in perspective, it is worth considering if and how ethical use restrictions have been applied to other real-world products or services.
-A good example is chemicals.
-Chemical manufacturers all over the world face various restrictions in what they produce and to whom and where they can distribute/sell it.
-But, these restrictions are rarely if ever based on *ethical* considerations and are instead based on things like environmental or human health impacts often supported by a volume of scientific evidence.
+To put ethical-source licenses in perspective, it is worth considering how ethical use restrictions have been applied to other real-world technologies, such as cryptographic algorithms. 
+These methods are fundamental to securing digital communication, protecting financial transactions, and ensuring data privacy. 
+However, they can also be exploited for illicit activities such as ransomware, unauthorized data encryption, or circumventing security measures. 
+End-to-end encryption, for example, is widely used in messaging apps to protect user privacy, while secure hashing algorithms help ensure data integrity and password security—applications generally considered ethical. 
+Yet, like most cryptographic tools, they can also be misused for unauthorized activities, such as hiding malicious communications, facilitating fraud, or concealing digital footprints.
 
-Two good example chemicals to consider for comparison are ammonium nitrate and fuel oil.
-Ammonium nitrate is the most widely used fertilizer and helps to grow a substantial portion of the world's food.
-Although use of fuel oil has declined substantially, it is still used to heat and light homes of a non-trivial portion of the world's population.
-Most would consider both of these uses ethical.
-However, even 25 years after the [Oklahoma city bombing](https://en.wikipedia.org/wiki/Oklahoma_City_bombing) (which involved Ammonium Nitrate and Fuel Oil (ANFO)) attempts to regulate the manufacture and distribution of these products have either stalled or met with limited success.
-
-In all likelihood, the most useful part of the Wikipedia article curated here is the long list of references there showing the community's dialog, both for and against, on this topic.
-As with most things in life, freely available software can be used for good or abused for evil.
-In the author's opinion, it is unlikely that attempts to license software in restrictive ways based on ethical use considerations will see wide adoption.
+For those interested in considering using an “ethical source” license, the most useful part of the Wikipedia article curated here may be the long list of references illustrating the community’s dialog on the topic.
 
 <!---
 Publish: yes
