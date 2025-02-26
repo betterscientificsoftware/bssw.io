@@ -38,5 +38,5 @@ For those interested in considering using an “ethical source” license, the m
 <!---
 Publish: yes
 Pinned: no
-Topics: online learning
+Topics: Licensing
 --->
