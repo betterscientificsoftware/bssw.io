@@ -27,7 +27,7 @@ Are developers of the software ok if it is used, for example, in creation of dee
 Some recent and prominent examples of members of the open-source software community raising ethical concerns over the use of their software include [Elastic Search](https://pureinsights.com/blog/2024/elastics-journey-from-apache-2-0-to-agpl-3/), [TensorFlow](https://www.nytimes.com/2018/04/04/technology/google-letter-ceo-pentagon-project.html) and [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG#Standardization_and_implementations).
 By contrast, of the approximately 8,500 packages in [Spack](https://spack.io), only one uses an ethical-source license.
 
-To put ethical-source licenses in perspective, it is worth considering how ethical use restrictions have been applied to other real-world technologies, such as cryptographic algorithms. 
+To put ethical-source licenses in perspective, it is worth considering how ethical use considerations have been applied to other technologies, such as cryptographic algorithms. 
 These methods are fundamental to securing digital communication, protecting financial transactions, and ensuring data privacy. 
 However, they can also be exploited for illicit activities such as ransomware, unauthorized data encryption, or circumventing security measures. 
 End-to-end encryption, for example, is widely used in messaging apps to protect user privacy, while secure hashing algorithms help ensure data integrity and password security—applications generally considered ethical. 
