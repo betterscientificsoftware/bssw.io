@@ -29,7 +29,7 @@ The referenced article above from Texas Woman's University starts with an essent
 
 The day a person starts on a project is the best time to identify what parts of the code base they
 are responsible for, where its documentation resides, where the tests are, and how they are run. 
-While TMU's article covers the transfer of access to important documents or emails, the same applies
+While TWU's article covers the transfer of access to important documents or emails, the same applies
 to functionality ownership and expertise within the source code of a software project.
 In the spirit of starting the offboarding process early, the software team should regularly review these
 roles and add to them the secondary or backup people for each area.  
