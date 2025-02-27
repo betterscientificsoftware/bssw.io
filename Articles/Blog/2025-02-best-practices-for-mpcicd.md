@@ -6,7 +6,7 @@
 
 <!-- begin deck -->
 Implementing and managing continuous integration/deployment for multiple
-projects has its own challenges. Emerging best practices can help.
+projects have many challenges. Emerging best practices can help.
 <!-- end deck -->
 
 This article is cross-published with the Multi-Project DevOps
