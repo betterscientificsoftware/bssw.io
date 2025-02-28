@@ -29,34 +29,30 @@ A new VisIt database plugin integrating *directly* with MOAB's native interface 
 
 ### The MOAB Native plugin
 
-VisIt supports both the Multiple Independent File ([MIF](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/)) and single shared file parallel I/O paradigms.
-Of 150+ database plugins, the MOAB plugin is one of only two using HDF5's parallel I/O interface (which in turn uses both collective and independent MPI-IO interfaces) to a single, shared file.
-Complicating matters, VisIt involves multiple executables working together; a *metadata server* and either a serial or a parallel *engine*.
-Of these, only the parallel engine uses MPI.
-The metadata server and serial engine require serial installs of MOAB and HDF5 whereas the parallel engine requires parallel installs of both.
-This complicates build processes.
+Except for simple cases, VisIt cannot divide a large, monolithic mesh into pieces for parallel processing.
+Instead, it piggy backs off an upstream data producer which would have already done this.
+A dataset of `K` pieces stored and distributed among `M` files (typically `K>>M`) can be processed by VisIt on `R` MPI ranks.
+Typically `R<=K` though `R>K` still functions albeit inefficiently because `R-K` ranks idle.
 
-VisIt's parallel execution paradigm is often described as *piggy-backing* off the data producer's parallel decomposition.
-Once a dataset has been decmposed for parallel processing, it typically remains in its decomposed state forever more.
-A dataset of `K` pieces distributed among `M` files (typically `K>>M`) is processed by VisIt on `R` MPI ranks (typically `R<=K` though `R>K` still works albeit inefficiently leaving `R-K` ranks idle.).
+However, in MOAB, a large mesh is stored as a monolithic whole in a file.
+It is divided into pieces, one piece per rank, which are scattered to MPI ranks during read.
+This process is reversed and the pieces are gathered and reassembled into a monolithic whole during write.
+Thus, VisIt is able to delegate the work of dividing a large mesh into pieces to the MOAB mesh management software component operating within the plugin.
+MOAB always reports to VisIt that `K=R`.
+The user decides `R` when the launch VisIt.
 
-Except in special circumstances involving large, monolithic regular grids, VisIt does not divide up a large mesh into pieces for parallel processing.
-Instead, it relies upon the fact that an upstream data producer would have already done this.
-However, this assumption is not valid for MOAB.
-In MOAB, a large mesh is stored as a monolithic whole in a file.
-It is divided into pieces which are scattered to MPI ranks on read and then gathered and reassembled into a monolithic whole on write.
-
-Key routines implemented in the MOAB database plugin are
-* `avtMOABFileformat::PopulateDatabaseMetaData(...)` (executed on both mdserver and engine)
-  This method is intended to be a fast, light-weight method designed to tease enough information from the file(s) to inform VisIt about which mesh and variable objects are present.
-  In general, it should avoid as much disk I/O as possible to assure reasonable responsiveness for users when opening files.
-* `vtkDataset* avtMOABFileFormat::GetMesh(...)` (executed only on engine)
+Key routines implemented in any database plugin are
+* `avtMOABFileformat::PopulateDatabaseMetaData(...)`:
+  This method is intended to be fast and light-weight to tease enough information from file(s) and inform VisIt about mesh and variable objects present.
+  It should avoid as much disk I/O as possible to maintain responsiveness for users when opening files.
+* `vtkDataset* avtMOABFileFormat::GetMesh(...)`:
   This method is executed in response to a user's request to draw a plot in VisIt.
-  Every variable to be plotted in VisIt is defined on some sort of mesh and it is the `::GetMesh()` call to the plugin that returns that object.
-* `vtkDataArray *avtMOABFileFormat::GetVar(...)` (executed only on engine)
+  Every variable to be plotted in VisIt is defined on some sort of mesh and it is the `::GetMesh()` call that returns that object.
+* `vtkDataArray *avtMOABFileFormat::GetVar(...)`:
   This method is executed in response to a user's request to draw a plot in VisIt.
+  It returns a variable (or field) defined on a mesh.
 
-In general, a plugin implmentor has a great deal of flexibility and choices to make in exposing objects in their database to VisIt.
+A plugin implmentor has several choices in exposing objects in a database to VisIt.
 There are a number of critical choices to make effecting how VisIt's GUI menus will behave with the data, how the subset inclusion lattice (SIL) will represent subsets in the data, memory and time performance, etc.
 
 When running on `R` MPI ranks, MOAB informs VisIt that the mesh is available as `R` pieces
