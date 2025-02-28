@@ -29,21 +29,43 @@ A new VisIt database plugin integrating *directly* with MOAB's native interface 
 
 ### The MOAB Native plugin
 
-VisIt's parallel execution paradigm is often described as *piggy-backing* off the data producer's parallel decomposition.
-Once a dataset has been decmposed for parallel processing, it typically remains in its decomposed state forever more.
-Given a dataset of `K` pieces, those `K` pieces may be distributed among `M` files where `K >> M` and then processed by VisIt on `R` MPI ranks where `R<=K` (well, its harmless if `R>K` except that `R-K` MPI ranks will simply go unused).
-
-itself does not do any work to decompose a large dataset into pieces for parallel processing.
-Instead, it simply uses the pieces that are typically already determined by the data producer, up stream of VisIt.
-However, this approach also relies on the idea that all (or most) tools necessary to process the dataset in a large workflow all agree to permit *domain overload*.
-
-
 VisIt supports both the Multiple Independent File ([MIF](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/)) and single shared file parallel I/O paradigms.
 Of 150+ database plugins, the MOAB plugin is one of only two using HDF5's parallel I/O interface (which in turn uses both collective and independent MPI-IO interfaces) to a single, shared file.
 Complicating matters, VisIt involves multiple executables working together; a *metadata server* and either a serial or a parallel *engine*.
 Of these, only the parallel engine uses MPI.
 The metadata server and serial engine require serial installs of MOAB and HDF5 whereas the parallel engine requires parallel installs of both.
 This complicates build processes.
+
+VisIt's parallel execution paradigm is often described as *piggy-backing* off the data producer's parallel decomposition.
+Once a dataset has been decmposed for parallel processing, it typically remains in its decomposed state forever more.
+A dataset of `K` pieces distributed among `M` files (typically `K>>M`) is processed by VisIt on `R` MPI ranks (typically `R<=K` though `R>K` still works albeit inefficiently leaving `R-K` ranks idle.).
+
+Except in special circumstances involving large, monolithic regular grids, VisIt does not divide up a large mesh into pieces for parallel processing.
+Instead, it relies upon the fact that an upstream data producer would have already done this.
+However, this assumption is not valid for MOAB.
+In MOAB, a large mesh is stored as a monolithic whole in a file.
+It is divided into pieces which are scattered to MPI ranks on read and then gathered and reassembled into a monolithic whole on write.
+
+Key routines implemented in the MOAB database plugin are
+* `avtMOABFileformat::PopulateDatabaseMetaData(...)` (executed on both mdserver and engine)
+  This method is intended to be a fast, light-weight method designed to tease enough information from the file(s) to inform VisIt about which mesh and variable objects are present.
+  In general, it should avoid as much disk I/O as possible to assure reasonable responsiveness for users when opening files.
+* `vtkDataset* avtMOABFileFormat::GetMesh(...)` (executed only on engine)
+  This method is executed in response to a user's request to draw a plot in VisIt.
+  Every variable to be plotted in VisIt is defined on some sort of mesh and it is the `::GetMesh()` call to the plugin that returns that object.
+* `vtkDataArray *avtMOABFileFormat::GetVar(...)` (executed only on engine)
+  This method is executed in response to a user's request to draw a plot in VisIt.
+
+In general, a plugin implmentor has a great deal of flexibility and choices to make in exposing objects in their database to VisIt.
+There are a number of critical choices to make effecting how VisIt's GUI menus will behave with the data, how the subset inclusion lattice (SIL) will represent subsets in the data, memory and time performance, etc.
+
+When running on `R` MPI ranks, MOAB informs VisIt that the mesh is available as `R` pieces
+
+itself does not do any work to decompose a large dataset into pieces for parallel processing.
+Instead, it simply uses the pieces that are typically already determined by the data producer, up stream of VisIt.
+However, this approach also relies on the idea that all (or most) tools necessary to process the dataset in a large workflow all agree to permit *domain overload*.
+
+
 
 
 
