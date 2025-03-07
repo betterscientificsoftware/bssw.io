@@ -53,8 +53,8 @@ The user choses an `R` when launching the VisIt *engine*.
 Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently because `R-K` ranks will idle.
 
 Furthermore, there are a number of ways of using VisIt such that the number of pieces that need to be processed for any given plot is often `K'<<K`.
-Each time VisIt produces a plot, a list of the relevant pieces is computed.
-This list is sorted in increasing number and then pieces are assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html#:~:text=Parallel%20launch%20options) algorithms.
+Each time VisIt produces a plot, a list of the `K'` relevant pieces is computed.
+This list is sorted in increasing piece number and then pieces are assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html#:~:text=Load%20balance%20options) algorithms.
 
 ### The MOAB Native plugin
 
