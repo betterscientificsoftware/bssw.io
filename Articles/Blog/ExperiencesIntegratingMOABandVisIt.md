@@ -29,37 +29,35 @@ A new VisIt database plugin integrating *directly* with MOAB's native interface 
 ### VisIt Database Plugin Basics
 
 Some of the key routines to be implemented in a database plugin in VisIt are
-* `avtMOABFileformat::PopulateDatabaseMetaData(avtDatabaseMetaData *md, ...)`:
-  This method runs in response to a user's request to open a database.
-  It should avoid as much disk I/O as possible to maintain responsiveness for users.
-  This method is intended to be fast and light-weight to tease just enough information from the input database to prime VisIt's GUI.
-  During the *first* attempt to open a file in a VisIt session, the user chooses how to launch the parallel engine including setting the number of nodes, `N`, and MPI ranks, `R`.
-* `vtkDataset* avtMOABFileFormat::GetMesh(char const *meshName, ...)`:
-  This method runs in response to a user's request to draw a plot.
-  It returns a VTK *grid* object holding the geometric and topological configuration of the mesh identified by `meshName`.
-  The `meshName` identifier will appear in various places in VisIt's GUI menus according to information provided by `PopulateDatabaseMetaData(...)`.
-* `vtkDataArray *avtMOABFileFormat::GetVar(char const *variableName, ...)`:
-  This method runs in response to a user's request to draw a plot.
-  It returns a VTK *field* object identified by `variableName` holding data for a point-centered or cell-centered field.
-  The `variableName` identifier will appear in various places in VisIt's GUI menus according to information provided in `PopulateDatabaseMetaData(...)`.
-  In addition, that `variableName` (say `"foo"`) is also associated with a `meshName` (say `"bar"`) such that `GetVar("foo",...)` returns a `vtkDataArray*` object that is 1:1 with either the points or cells of the mesh returned by `GetMesh("bar",...)`. 
+* `void avtMOABFileformat::PopulateDatabaseMetaData(avtDatabaseMetaData *md, ...)`:
+  This method is called collectively in parallel and runs in response to a user's request to open a database.
+  This method is intended to be fast (e.g. minimal disk I/O) and light-weight to tease just enough information from the input database to prime VisIt's GUI.
+  During the *first* attempt to open a database in a VisIt session, the user chooses the number of nodes, `N`, and MPI ranks, `R` for the parallel *engine*.
+* `vtkDataSet* avtMOABFileFormat::GetMesh(char const *meshName, ...)`:
+  This method is called independently in parallel and runs in response to a user's request to draw a plot.
+  It returns a VTK *grid* object holding the geometry and topology of the mesh identified by `meshName`.
+  `meshName` will appear in various places in VisIt's GUI menus according to metdata provided in `PopulateDatabaseMetaData(...)`.
+* `vtkDataArray *avtMOABFileFormat::GetVar(char const *varName, ...)`:
+  This method is called independently in parallel and runs in response to a user's request to draw a plot.
+  It returns a VTK *field* object identified by `varName` holding data for a point- or cell-centered field.
+  `varName` will appear in various places in VisIt's GUI menus according to metadata provided in `PopulateDatabaseMetaData(...)`.
+  In addition, a `varName` (say `"foo"`) is also associated with a `meshName` (say `"bar"`) such that `GetVar("foo",...)` returns a `vtkDataArray*` object that is 1:1 with either the points or cells of the `vtkDataSet*` returned by `GetMesh("bar",...)`. 
 
-A developer has many choices in designing a plugin and these ultimately determine a majority of the user experience (UX); the performance and functionality VisIt's GUI will provide in interacting with the data.
+A developer has numerous choices in designing a plugin many of which ultimately determine the user experience (UX); the performance and functionality VisIt's GUI will provide in interacting with the data.
 
 Except for simple cases, VisIt will not divide a large, monolithic mesh into pieces for parallel processing.
 Instead, it piggy backs off of a parallel decomposition an upstream data producer would have already created.
-In VisIt, a mesh consisting of `K` pieces can be stored and distributed among `M` files (typically `K>>M`) and then processed by VisIt on `R` MPI ranks.
+The `K` pieces of mesh can be stored and distributed among `M` files (typically `K>>M`) and then processed by VisIt on `R` MPI ranks.
 The user choses an `R` when launching the VisIt *engine*.
 Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently because `R-K` ranks will idle.
 
-Furthermore, there are a number of ways of using VisIt such that the number of pieces that need to be processed for any given plot is often `K'<<K`.
-Each time VisIt produces a plot, a list of the `K'` relevant pieces is computed.
-This list is sorted in increasing piece number and then pieces are assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html#:~:text=Load%20balance%20options) algorithms.
+Each time VisIt produces a plot, a list of pieces *relevant* to the current plot, `K'<=K`, is computed.
+This list is sorted in increasing piece number and assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html#:~:text=Load%20balance%20options) algorithms.
 
 ### The MOAB Native plugin
 
-However, in MOAB, a large mesh is stored as a monolithic whole single piece in a single file.
-It is divided into pieces, one piece per rank, which are scattered to MPI ranks during read.
+In MOAB, a large mesh is stored as a monolithic whole single piece in a single file.
+It is broken into pieces, one piece per rank, which are scattered to MPI ranks during read.
 This process is reversed and the pieces are gathered and reassembled into a monolithic whole during write.
-Thus, for the MOAB database plugin in VisIt, `K` is not fixed but variable. 
+Thus, for the MOAB plugin, `K` is not fixed but variable. 
 MOAB always reports to VisIt that `K==R`, the number of ranks the user chose when launching the VisIt *engine*.
