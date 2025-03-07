@@ -15,10 +15,10 @@ These funding streams have supported a mutually beneficial collaboration between
 ### The ITAPS Generic plugin
 
 As part of the [ITAPS](https://markcmiller86.github.io/ITAPS/) project, a VisIt plugin supporting MOAB was first developed using the [iMesh](https://markcmiller86.github.io/ITAPS/software/iMesh_html/i_mesh_8h.html) interface.
-`iMesh` defined a *generic* interface to any package providing *services* to manage discrete meshes composed of sets of node, edge, face and/or volume entities as well as tags and tag data associated thereon.	
-The teams participating in ITAPS, [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/), each implemented the `iMesh` interface to their respective mesh management software packages.
+`iMesh` defined a *generic* interface for any package providing unstructured, discrete meshing *services*.	
+The [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide) and [FMDB](https://scorec.rpi.edu/FMDB/) teams participating in ITAPS each implemented the `iMesh` interface to their respective packages.
 
-VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/blob/2.10RC/src/databases/ITAPS_C/avtITAPS_CFileFormat.C) could then be compiled against each `iMesh` implementation producing separate plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
+VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/tree/2.10RC/src/databases/ITAPS_C) could then be compiled against each `iMesh` implementation producing separate plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
 A single implementation of the `iMesh` plugin source code supported multiple different mesh management packages demonstrating a key goal of the ITAPS project.
 With the ability to *read* from one implementation and *write* to another, this version of the plugin also demonsrated the use of `iMesh` to easily translate data between different mesh management packages.
 
@@ -26,7 +26,7 @@ This early version of the plugin was used successfully to examine a large MOAB [
 However, as funding for the ITAPS SciDAC project ended, so did further development and support of the `iMesh` interface and it was eventually removed from MOAB.
 A new VisIt database plugin integrating *directly* with MOAB's native interface was needed.
 
-### The MOAB Native plugin
+### VisIt Database Plugin Basics
 
 Some of the key routines to be implemented in a database plugin in VisIt are
 * `avtMOABFileformat::PopulateDatabaseMetaData(avtDatabaseMetaData *md, ...)`:
@@ -44,7 +44,7 @@ Some of the key routines to be implemented in a database plugin in VisIt are
   The `variableName` identifier will appear in various places in VisIt's GUI menus according to information provided in `PopulateDatabaseMetaData(...)`.
   In addition, that `variableName` (say `"foo"`) is also associated with a `meshName` (say `"bar"`) such that `GetVar("foo",...)` returns a `vtkDataArray*` object that is 1:1 with either the points or cells of the mesh returned by `GetMesh("bar",...)`. 
 
-A plugin developer has many choices in designing a plugin which ultimately determine a majority of the user experience (UX); the performance and functionality VisIt's GUI will provide in interacting with the data.
+A developer has many choices in designing a plugin and these ultimately determine a majority of the user experience (UX); the performance and functionality VisIt's GUI will provide in interacting with the data.
 
 Except for simple cases, VisIt will not divide a large, monolithic mesh into pieces for parallel processing.
 Instead, it piggy backs off of a parallel decomposition an upstream data producer would have already created.
@@ -52,8 +52,14 @@ In VisIt, a mesh consisting of `K` pieces can be stored and distributed among `M
 The user choses an `R` when launching the VisIt *engine*.
 Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently because `R-K` ranks will idle.
 
+Furthermore, there are a number of ways of using VisIt such that the number of pieces that need to be processed for any given plot is often `K'<<K`.
+Each time VisIt produces a plot, a list of the relevant pieces is computed.
+This list is sorted in increasing number and then pieces are assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html) algorithms.
+
+### The MOAB Native plugin
+
 However, in MOAB, a large mesh is stored as a monolithic whole single piece in a single file.
 It is divided into pieces, one piece per rank, which are scattered to MPI ranks during read.
 This process is reversed and the pieces are gathered and reassembled into a monolithic whole during write.
 Thus, for the MOAB database plugin in VisIt, `K` is not fixed but variable. 
-MOAB always reports to VisIt that `K=R`, whatever the number of ranks the user chose when launching the VisIt *engine*.
+MOAB always reports to VisIt that `K==R`, the number of ranks the user chose when launching the VisIt *engine*.
