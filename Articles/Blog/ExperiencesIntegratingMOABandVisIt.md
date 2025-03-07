@@ -29,19 +29,22 @@ A new VisIt database plugin integrating *directly* with MOAB's native interface 
 ### The MOAB Native plugin
 
 Some of the key routines to be implemented in a database plugin in VisIt are
-* `avtMOABFileformat::PopulateDatabaseMetaData(...)`:
-  This method is used when *opening* files in VisIt.
+* `avtMOABFileformat::PopulateDatabaseMetaData(avtDatabaseMetaData *md, ...)`:
+  This method runs in response to a user's request to open a database.
   It should avoid as much disk I/O as possible to maintain responsiveness for users.
-  This method is intended to be fast and light-weight to tease enough information from the input file(s) to prime VisIt's GUI.
-  During the *first* attempt to open a file in a VisIt session, the user chooses how to launch the parallel engine.
+  This method is intended to be fast and light-weight to tease just enough information from the input database to prime VisIt's GUI.
+  During the *first* attempt to open a file in a VisIt session, the user chooses how to launch the parallel engine including setting the number of nodes, `N`, and MPI ranks, `R`.
 * `vtkDataset* avtMOABFileFormat::GetMesh(char const *meshName, ...)`:
-  This method is executed in response to a user's request to draw a plot in VisIt.
-  It returns a VTK *grid* object that specifies the geometric and topological configuration of the selected data.
+  This method runs in response to a user's request to draw a plot.
+  It returns a VTK *grid* object holding the geometric and topological configuration of the mesh identified by `meshName`.
+  The `meshName` identifier will appear in various places in VisIt's GUI menus according to information provided by `PopulateDatabaseMetaData(...)`.
 * `vtkDataArray *avtMOABFileFormat::GetVar(char const *variableName, ...)`:
-  This method is executed in response to a user's request to draw a plot in VisIt.
-  This method returns a VTK *field* object holding data for a node-centered or cell-centered field on an associated mesh object returned from `GetMesh()`.
+  This method runs in response to a user's request to draw a plot.
+  It returns a VTK *field* object identified by `variableName` holding data for a point-centered or cell-centered field.
+  The `variableName` identifier will appear in various places in VisIt's GUI menus according to information provided in `PopulateDatabaseMetaData(...)`.
+  In addition, that `variableName` (say `"foo"`) is also associated with a `meshName` (say `"bar"`) such that `GetVar("foo",...)` returns a `vtkDataArray*` object that is 1:1 with either the points or cells of the mesh returned by `GetMesh("bar",...)`. 
 
-A plugin developer has many choices in designing a plugin which ultimately effect the user experience (UX); the performance and functionality VisIt's GUI will provide in interacting with the data.
+A plugin developer has many choices in designing a plugin which ultimately determine a majority of the user experience (UX); the performance and functionality VisIt's GUI will provide in interacting with the data.
 
 Except for simple cases, VisIt will not divide a large, monolithic mesh into pieces for parallel processing.
 Instead, it piggy backs off of a parallel decomposition an upstream data producer would have already created.
@@ -54,20 +57,3 @@ It is divided into pieces, one piece per rank, which are scattered to MPI ranks 
 This process is reversed and the pieces are gathered and reassembled into a monolithic whole during write.
 Thus, for the MOAB database plugin in VisIt, `K` is not fixed but variable. 
 MOAB always reports to VisIt that `K=R`, whatever the number of ranks the user chose when launching the VisIt *engine*.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
