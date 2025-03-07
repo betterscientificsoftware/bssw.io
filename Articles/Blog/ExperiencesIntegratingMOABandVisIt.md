@@ -54,7 +54,7 @@ Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently 
 
 Furthermore, there are a number of ways of using VisIt such that the number of pieces that need to be processed for any given plot is often `K'<<K`.
 Each time VisIt produces a plot, a list of the relevant pieces is computed.
-This list is sorted in increasing number and then pieces are assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html) algorithms.
+This list is sorted in increasing number and then pieces are assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html#:~:text=Parallel%20launch%20options) algorithms.
 
 ### The MOAB Native plugin
 
