@@ -2,7 +2,7 @@
 The Mesh-Oriented datABase ([MOAB](https://sigma.mcs.anl.gov/moab-library/)) package is an in-situ, scalable, library for managing mesh-based scientific data.
 It is optimized to process mesh data in bulk parcels (or [shards](https://en.wikipedia.org/wiki/Shard_(database_architecture))) or fine-grained iterations over subsets of mesh entities.
 Some aspects of MOAB's design and data model are derived from earlier SciDAC efforts including the Terascale Simulation Tools and Technologies ([TSTT](https://www.researchgate.net/publication/259197545_The_TSTTM_Interface)) and the Interoperable Tools for Advanced Petascale Simulations ([ITAPS](https://www.osti.gov/biblio/971531/)) projects.
-In addition, MOAB supports scalable I/O to and from [HDF5](https://support.hdfgroup.org/documentation/hdf5/latest/) files.
+In addition, MOAB supports scalable I/O to and from [HDF5](https://support.hdfgroup.org/documentation/hdf5/latest/) files and [PNETCDF](https://parallel-netcdf.github.io/) files.
 These files are often used to export MOAB data to other software components in a larger workflow often including visualization tools such as [VisIt](https://visit.llnl.gov) or [ParaView](https://www.paraview.org).
 
 VisIt is a scalable scientific visualization tool for analyzing mesh-based scientific data either in files or in-situ.
@@ -56,8 +56,11 @@ This list is sorted in increasing piece number and assigned to ranks according t
 
 ### The MOAB Native plugin
 
-In MOAB, a large mesh is stored as a monolithic whole single piece in a single file.
-It is broken into pieces, one piece per rank, which are scattered to MPI ranks during read.
-This process is reversed and the pieces are gathered and reassembled into a monolithic whole during write.
-Thus, for the MOAB plugin, `K` is not fixed but variable. 
-MOAB always reports to VisIt that `K==R`, the number of ranks the user chose when launching the VisIt *engine*.
+In MOAB native hdf5 format, a large mesh is stored as a monolithic whole single piece in a single file. To enable parallel read, the mesh needs to be prepartitioned into parts using [Zoltan](https://sandialabs.github.io/Zoltan/) or [metis](https://github.com/KarypisLab/METIS), and the partitioning information is saved into the file. 
+
+At read time, parts are assigned to MPI ranks in a balanced fashion, and it is better to have `K` >= `R`, otherwise some tasks will be idle. 
+This process is reversed and the parts are gathered and reassembled into a monolithic whole during write.
+
+When PopulateDatabaseMetaData is called, rank 0 reads information from the hdf5 header file, related to number of available parts, names of variables associated with the mesh. This information is then broadcast to all other tasks, and processed by Visit to populate menus. 
+The file is read in parallel at the GetMesh command issued by Visit; Each task will read only its parts assigned, and the read process is collective. Each task will have its subparts converted to VTK objects, for visualization. 
+
