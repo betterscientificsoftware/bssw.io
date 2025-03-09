@@ -36,7 +36,7 @@ Some of the key routines to be implemented in a database plugin in VisIt are
 * `vtkDataSet* avtMOABFileFormat::GetMesh(char const *meshName, ...)`:
   This method is called independently in parallel and runs in response to a user's request to draw a plot.
   It returns a VTK *grid* object holding the geometry and topology of the mesh identified by `meshName`.
-  `meshName` will appear in various places in VisIt's GUI menus according to metdata provided in `PopulateDatabaseMetaData(...)`.
+  `meshName` will appear in various places in VisIt's GUI menus according to metadata provided in `PopulateDatabaseMetaData(...)`.
 * `vtkDataArray *avtMOABFileFormat::GetVar(char const *varName, ...)`:
   This method is called independently in parallel and runs in response to a user's request to draw a plot.
   It returns a VTK *field* object identified by `varName` holding data for a point- or cell-centered field.
