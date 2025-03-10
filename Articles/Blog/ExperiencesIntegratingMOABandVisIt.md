@@ -20,7 +20,7 @@ The [MOAB](https://sigma.mcs.anl.gov/moab-library/), [GRUMMP](https://www.resear
 
 VisIt's [ITAPS plugin](https://github.com/visit-dav/visit/tree/2.10RC/src/databases/ITAPS_C) could then be compiled against each `iMesh` implementation producing separate plugin instances for ITAPS-MOAB, ITAPS-GRUMMP and ITAPS-FMDB.
 A single implementation of the `iMesh` plugin source code supported multiple different mesh management packages demonstrating a key goal of the ITAPS project.
-With the ability to *read* from one implementation and *write* to another, this version of the plugin also demonsrated the use of `iMesh` to easily translate data between different mesh management packages.
+With the ability to *read* from one implementation and *write* to another, this version of the plugin also demonstrated the use of `iMesh` to easily translate data between different mesh management packages.
 
 This early version of the plugin was used successfully to examine a large MOAB [reactor model](https://publications.anl.gov/anlpubs/2013/10/76766.pdf#page=12) consisting of hundreds of thousands of subsets for various components of a novel nuclear fuel assembly.
 However, as funding for the ITAPS SciDAC project ended, so did further development and support of the `iMesh` interface and it was eventually removed from MOAB.
@@ -56,7 +56,7 @@ This list is sorted in increasing piece number and assigned to ranks according t
 
 ### The MOAB Native plugin
 
-In MOAB native hdf5 format, a large mesh is stored as a monolithic whole single piece in a single file. To enable parallel read, the mesh needs to be prepartitioned into parts using [Zoltan](https://sandialabs.github.io/Zoltan/) or [metis](https://github.com/KarypisLab/METIS), and the partitioning information is saved into the file. 
+In MOAB native hdf5 format, a large mesh is stored as a monolithic whole single piece in a single file. To enable parallel read, the mesh needs to be prepartitioned into parts using [Zoltan](https://sandialabs.github.io/Zoltan/) or [metis](https://github.com/KarypisLab/METIS), and the partitioning information is saved into the file. Currently, the VisIt MOAB plugin is looking for PARALLEL_PARTITION tag in the file, which describe the partitioning using MOAB entity sets. 
 
 At read time, parts are assigned to MPI ranks in a balanced fashion, and it is better to have `K` >= `R`, otherwise some tasks will be idle. 
 This process is reversed and the parts are gathered and reassembled into a monolithic whole during write.
