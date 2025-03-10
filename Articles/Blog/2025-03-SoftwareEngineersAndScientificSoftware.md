@@ -5,7 +5,7 @@
 #### Publication date: March 12, 2025
 
 <!--deck start-->
-To work together more effectively, software engineers and scientists should know a few things about each others' business.
+To work together more effectively, software engineers and scientists should know a few things about each other’s business.
 <!--deck end-->
 
 (This article is based on a presentation given at NLIT 2024.)
@@ -32,7 +32,7 @@ Software engineers focus on creating code that not only meets user needs but rem
 
 Software should be organized as modules -- or distinct packages of code -- that can easily interact with other modules through well-defined interfaces.  Theoretically, software modules can be taken from one area of the code and be used in another area without major changes.  SEAMs should strive to create modular code with either conventions or standard interfaces so that simpler components can be used to build complex software applications.
 
-An e-commerce application provides a simple, widely-understood non-science example.  In this case, it is a good idea to create modules that handle the following functions:
+An e-commerce application provides a simple, widely understood non-science example.  In this case, it is a good idea to create modules that handle the following functions:
 
 - User authentication
 - Product catalog
@@ -50,15 +50,15 @@ Math libraries, such as finite element solvers, vectors and matrices, statistics
 
 **Information hiding and abstraction**
 
-Information hiding and abstraction involves obscuring internal implementation details from the outside world.  Instead, a contract or promise is provided that programmers can focus on instead.  This strategy ensures that dependencies are not created on internal implementations of code.  In theory, code can be removed and replaced without breaking code that uses it as long as the replacement code provides the same abstraction.
+Information hiding and abstraction involves obscuring internal implementation details from the outside world.  Instead, a contract or promise is provided that programmers can focus on instead.  This strategy ensures that dependencies are not created on internal implementations of code.  In theory, code can be removed and replaced without breaking code that uses it if the replacement code provides the same abstraction.
 
-For example, a driver need not understand how automotive braking systems work in order to stop a car.  Behind the scenes, the braking system employs the pedal, a master cylinder, calipers or drums, brake shoes, rotors, motion sensors, computer chips, and in the case of hybrids, the engine itself.  A significant amount of information is involved in braking in modern-day cars, and all of it is hidden from the driver.  The brake pedal is the abstraction for the car's braking system.
+For example, a driver need not understand how automotive braking systems work to stop a car.  Behind the scenes, the braking system employs the pedal, a master cylinder, calipers or drums, brake shoes, rotors, motion sensors, computer chips, and in the case of hybrids, the engine itself.  A significant amount of information is involved in braking in modern-day cars, and all of it is hidden from the driver.  The brake pedal is the abstraction for the car's braking system.
 
 **Managing coupling**
 
 Coupling measures the degree of dependency amongst disparate software components.  If a component depends on another component to a high degree, the coupling is tight.  If a dependency is low degree, then it is loose.  Tight coupling makes software hard to change, test, and reuse.  Loose coupling does not solve dependency problems outright, but the looser the coupling, the easier it is to deal with.  This is why coupling is always managed, not completely eliminated.
 
-For example, JSON and XML are common data-interchange formats used on the web.   Imagine a user authentication module uses XML internally to format user data.  If this module needs to process a JSON message, it would have to translate JSON into XML in order to do its work.  The user authentication module is tightly coupled to XML as a data representation.  To loosen the coupling, the module could be modified to only accept the user data it needs in the programming language's basic data types, allowing the XML (and JSON) modules to be futher separated from the authentication module.
+For example, JSON and XML are common data-interchange formats used on the web.   Imagine a user authentication module uses XML internally to format user data.  If this module needs to process a JSON message, it will have to translate JSON into XML in order to do its work.  The user authentication module is tightly coupled to XML as a data representation.  To loosen the coupling, the module could be modified to only accept the user data it needs in the programming language's basic data types, allowing the XML (and JSON) modules to be further separated from the authentication module.
 
 **Separation of concerns**
 
@@ -72,7 +72,7 @@ In a simple web application, for example, the concerns are usually the user inte
 
 ### What software engineers need to understand
 
-Software engineers working on scientific software can't focus only on the code.  They must understand the fundamental science and models behind the software to at least some degree in order to effectively collaborate with SEAMs and create truly sustainable software.
+Software engineers working on scientific software can't focus only on the code.  They must understand the fundamental science and models behind the software to at least some degree to effectively collaborate with SEAMs and create truly sustainable software.
 
 A SEAM is typically focused on the following concerns:
 
@@ -83,7 +83,7 @@ A SEAM is typically focused on the following concerns:
 - Performing verification to ensure that the computational model is working correctly
 - Improving performance on different computing platforms
 
-Since the major concerns of SEAMs *include* software but are *not exclusively*  software, software engineers need to understand the the context of their work.
+Since the major concerns of SEAMs *include* software but are *not exclusively* software, software engineers need to understand the the context of their work.
 
 ### Models
 
@@ -91,13 +91,13 @@ Models form the heart of scientific software and are responsible for reproducing
 
 For example, weather models are used to create forecasts.  They rely on initial conditions, boundary conditions, physical processes, and numerical methods.  They depend on thermodynamics, fluid dynamics, and mass conservation.  Observations are combined with the model's predictions to improve accuracy.  Some models are global, while others are regional.  Meteorologists often vary the initial conditions to see how the forecast changes.  They are usually aware of the strengths and weaknesses of each model, as well as their biases, so they use their experience to choose the most likely forecast.
 
-Software engineers should be aware of any and all issues related to the model's use and credibility in order to do their job effectively.
+Software engineers should be aware of any issues related to the model's use and credibility in order to do their job effectively.
 
 ### Performance
 
 SEAMs worry more about the platform the software will run on than software engineers do.  Scientific calculations are very often complicated and time-consuming (even for computers), so SEAMs try to squeeze out as much performance as they can.  Enhancing performance often involves taking advantage of specialized computer architectures.  Customizing code to work well on one computer architecture can make it hard to port it to other architectures.  SEAMs find themselves repeating this exercise when technology breaks backward compatibility.  Forward-looking SEAMs try to create software that is as future-resistant as possible.
 
-Before the El Capitan supercomputer was made available to developers, scientific code had been designed to work with separate CPU and GPU devices, each with separate memory spaces.  El Capitan introduced accelerated processing units (APU's), which combine a CPU, GPU, and  shared memory onto one architecture.  Code that performed well with separate memory spaces could perform better with the APU's shared memory space.  So SEAMs found themselves rewriting code again.
+Before the El Capitan supercomputer was made available to developers, scientific code had been designed to work with separate CPU and GPU devices, each with separate memory spaces.  El Capitan introduced accelerated processing units (APU's), which combine a CPU, GPU, and shared memory onto one architecture.  Code that performed well with separate memory spaces could perform better with the APU's shared memory space.  So SEAMs found themselves rewriting code again.
 
 **Verification and validation (V&V)**
 
@@ -133,7 +133,7 @@ For more information about scientific software, read:
 
 ### Author bio
 
-Roger A. Rubio has been an employee of Sandia National Laboratories for 5 years.  He holds a Bachelor's of Science in Computer Engineering, has 25 years of experience as a Software Engineer, and 8 years experience as a Scrum Master.  Roger has worked for large corporations, government organizations, as well as small businesses.  His primary expertise is in engineering web applications from the ground up, and has experience with monolithic, modular, and microservices-based software applications.  He currently works in the CompSim group with the Advanced Simulation & Computing (ASC) program, which provides trustworthy scientific software to both government and strategic partners.  He is a huge movie buff, and loves music, reading, and spicy (hot) food.
+Roger A. Rubio has been an employee of Sandia National Laboratories for 5 years.  He holds a Bachelor of Science in Computer Engineering, has 25 years of experience as a Software Engineer, and 8 year’s experience as a Scrum Master.  Roger has worked for large corporations, government organizations, as well as small businesses.  His primary expertise is in engineering web applications from the ground up, and has experience with monolithic, modular, and microservices-based software applications.  He currently works in the CompSim group with the Advanced Simulation & Computing (ASC) program, which provides trustworthy scientific software to both government and strategic partners.  He is a huge movie buff, and loves music, reading, and spicy (hot) food.
 
 <!---
 Publish: Yes
