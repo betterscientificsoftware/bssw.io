@@ -28,7 +28,7 @@ Software engineers focus on creating code that not only meets user needs but rem
 - Managing coupling
 - Separation of concerns
 
-#### Modularity
+**Modularity**
 
 Software should be organized as modules -- or distinct packages of code -- that can easily interact with other modules through well-defined interfaces.  Theoretically, software modules can be taken from one area of the code and be used in another area without major changes.  SEAMs should strive to create modular code with either conventions or standard interfaces so that simpler components can be used to build complex software applications.
 
@@ -42,25 +42,25 @@ An e-commerce application provides a simple, widely-understood non-science examp
 
 The payment gateway code will be different from the user authentication code.  But there should be a well-defined interface between these two modules, as users who are not authenticated should not have access to the payment gateway.
 
-#### Cohesion
+**Cohesion**
 
 Cohesion is when materials stick to similar materials, such as when water droplets cohere to other water droplets.  Cohesion is achieved in software when code has a common purpose.  SEAMs should place code that performs similar functions in the same physical or logical area.
 
 Math libraries, such as finite element solvers, vectors and matrices, statistics, and others, often provide good examples of cohesion in the scientific software context. Finite element methods like the Galerkin method, Euler's method, and the Runge-Kutta method can be placed with other methods into one library to achieve cohesion.  But other aspects of an application will be more readily understood and used if they're also arranged in a cohesive manner.
 
-#### Information hiding and abstraction
+**Information hiding and abstraction**
 
 Information hiding and abstraction involves obscuring internal implementation details from the outside world.  Instead, a contract or promise is provided that programmers can focus on instead.  This strategy ensures that dependencies are not created on internal implementations of code.  In theory, code can be removed and replaced without breaking code that uses it as long as the replacement code provides the same abstraction.
 
 For example, a driver need not understand how automotive braking systems work in order to stop a car.  Behind the scenes, the braking system employs the pedal, a master cylinder, calipers or drums, brake shoes, rotors, motion sensors, computer chips, and in the case of hybrids, the engine itself.  A significant amount of information is involved in braking in modern-day cars, and all of it is hidden from the driver.  The brake pedal is the abstraction for the car's braking system.
 
-#### Managing coupling
+**Managing coupling**
 
 Coupling measures the degree of dependency amongst disparate software components.  If a component depends on another component to a high degree, the coupling is tight.  If a dependency is low degree, then it is loose.  Tight coupling makes software hard to change, test, and reuse.  Loose coupling does not solve dependency problems outright, but the looser the coupling, the easier it is to deal with.  This is why coupling is always managed, not completely eliminated.
 
 For example, JSON and XML are common data-interchange formats used on the web.   Imagine a user authentication module uses XML internally to format user data.  If this module needs to process a JSON message, it would have to translate JSON into XML in order to do its work.  The user authentication module is tightly coupled to XML as a data representation.  To loosen the coupling, the module could be modified to only accept the user data it needs in the programming language's basic data types, allowing the XML (and JSON) modules to be futher separated from the authentication module.
 
-#### Separation of concerns
+**Separation of concerns**
 
 In software design, separation of concerns organizes code by major function, such as security, networking, logging, or storage. While cohesion groups related code within a component, separation of concerns ensures each component has a distinct responsibility.  SEAMs should apply loose coupling, high cohesion, and high modularity to the design of the major functional areas of their software.
 
@@ -99,11 +99,11 @@ SEAMs worry more about the platform the software will run on than software engin
 
 Before the El Capitan supercomputer was made available to developers, scientific code had been designed to work with separate CPU and GPU devices, each with separate memory spaces.  El Capitan introduced accelerated processing units (APU's), which combine a CPU, GPU, and  shared memory onto one architecture.  Code that performed well with separate memory spaces could perform better with the APU's shared memory space.  So SEAMs found themselves rewriting code again.
 
-#### Verification and validation (V&V)
+**Verification and validation (V&V)**
 
 Verification and validation (V&V) are complementary processes that work together to ensure the quality and reliability of scientific software.  V&V ensures accuracy, reliability, safety, compliance, and reproducibility.  Many aspects of V&V overlap with software engineering testing principles, such as functional testing, usability testing, and performance testing.  But software engineers need to be aware that V&V relates to the science behind the code as well as the code itself.  Verification ensures that the code does what it was intended to do -- that it implements the scientific model as intended.  Validation ensures that the model appropriately matches the real-world phenomena it was intended to represent.
 
-#### Uncertainty quantification (UQ)
+**Uncertainty quantification (UQ)**
 
 Uncertainty quantification (UQ) is a process of assessing and managing uncertainties in computational models and simulations.  UQ aims to determine how likely certain outcomes are when some aspects of the system or model are not completely known, subject to stochastic fluctuations, or when only incomplete information is available for certain aspects of the system.  UQ is essential for validating and verifying computer models, enabling scientists to make precise statements about the degree of confidence they have in their simulation-based predictions.  Software engineers need to able to help SEAMs generate a healthy level of confidence in the software by reducing uncertainty in the code and guiding SEAMs on.
 
@@ -129,7 +129,7 @@ The following resources provide more information on modern software engineering:
 For more information about scientific software, read:
 
 - [Software Engineering for Science](https://www.routledge.com/Software-Engineering-for-Science/Carver-ChueHong-Thiruvathukal/p/book/9780367574277), and 
-- Diane Kelly's paper on [Scientific software development viewed as knowledge acquisition](https://doi.org/10.1016/j.jss.2015.07.027).
+- [Scientific software development viewed as knowledge acquisition](https://doi.org/10.1016/j.jss.2015.07.027).
 
 ### Author bio
 
