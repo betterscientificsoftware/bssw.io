@@ -14,9 +14,9 @@ To work together more effectively, software engineers and scientists should know
 
 Barring formal training in software engineering, SEAMs often approach coding scientifically: they use an iterative and experimental approach to code and its functionality.  While this approach is valuable, it's insufficient for creating sustainable and user-friendly software.
 
-Software engineers leverage established principles and practices -- much like scientists use physical laws and mathematical theorems -- to build robust and reliable software.  But if they fail to comprehend the true reasons for the existence of the software in the first place, they can appear dogmatic and unreasonable to SEAMs who may see software as only one part of addressing a real-world problem.
+Software engineers leverage established principles and practices — much like scientists use physical laws and mathematical theorems — to build robust and reliable software.  But if they fail to comprehend the true reasons for the existence of the software in the first place, they can appear dogmatic and unreasonable to SEAMs who may see software as only one part of addressing a real-world problem.
 
-SEAMs must understand that there is more to creating sustainable software than meets the eye, and software engineers must understand the science behind the software and the users that use it.
+SEAMs must understand that there is more to creating sustainable software than meets the eye, and software engineers must understand the science behind the software and the users who use it.
 
 ### What SEAMs should understand
 
@@ -30,7 +30,7 @@ Software engineers focus on creating code that not only meets user needs but rem
 
 **Modularity**
 
-Software should be organized as modules -- or distinct packages of code -- that can easily interact with other modules through well-defined interfaces.  Theoretically, software modules can be taken from one area of the code and be used in another area without major changes.  SEAMs should strive to create modular code with either conventions or standard interfaces so that simpler components can be used to build complex software applications.
+Software should be organized as modules — or distinct packages of code — that can easily interact with other modules through well-defined interfaces.  Theoretically, software modules can be taken from one area of the code and be used in another area without major changes.  SEAMs should strive to create modular code with either conventions or standard interfaces so that simpler components can be used to build complex software applications.
 
 An e-commerce application provides a simple, widely understood non-science example.  In this case, it is a good idea to create modules that handle the following functions:
 
@@ -56,13 +56,13 @@ For example, a driver need not understand how automotive braking systems work to
 
 **Managing coupling**
 
-Coupling measures the degree of dependency amongst disparate software components.  If a component depends on another component to a high degree, the coupling is tight.  If a dependency is low degree, then it is loose.  Tight coupling makes software hard to change, test, and reuse.  Loose coupling does not solve dependency problems outright, but the looser the coupling, the easier it is to deal with.  This is why coupling is always managed, not completely eliminated.
+Coupling measures the degree of dependency among disparate software components.  If a component depends on another component to a high degree, the coupling is tight.  If a dependency is low degree, then the coupling is loose.  Tight coupling makes software hard to change, test, and reuse.  Loose coupling does not solve dependency problems outright, but the looser the coupling, the easier it is to deal with.  This is why coupling is always managed, not completely eliminated.
 
 For example, JSON and XML are common data-interchange formats used on the web.   Imagine a user authentication module uses XML internally to format user data.  If this module needs to process a JSON message, it will have to translate JSON into XML in order to do its work.  The user authentication module is tightly coupled to XML as a data representation.  To loosen the coupling, the module could be modified to only accept the user data it needs in the programming language's basic data types, allowing the XML (and JSON) modules to be further separated from the authentication module.
 
 **Separation of concerns**
 
-In software design, separation of concerns organizes code by major function, such as security, networking, logging, or storage. While cohesion groups related code within a component, separation of concerns ensures each component has a distinct responsibility.  SEAMs should apply loose coupling, high cohesion, and high modularity to the design of the major functional areas of their software.
+In software design, separation of concerns organizes code by major function, such as security, networking, logging, or storage. While cohesion groups related code within a component, separation of concerns ensures that each component has a distinct responsibility.  SEAMs should apply loose coupling, high cohesion, and high modularity to the design of the major functional areas of their software.
 
 In a simple web application, for example, the concerns are usually the user interface, the business logic, and persistent storage:
 
@@ -109,7 +109,7 @@ Uncertainty quantification (UQ) is a process of assessing and managing uncertain
 
 ### Users
 
-SEAMs deal with a higher class of user than software engineers do: a user that understands the science behind the software and how it should behave.  Scientific software builds a reputation for trustworthiness as it is used and re-used to formulate and evaluate scientific conclusions.  If scientific software produces one result in one version and a different result in another version, its trustworthiness can be questioned, and its reputation can suffer.
+SEAMs deal with a higher class of user than software engineers do: a user who understands the science behind the software and how the should behave.  Scientific software builds a reputation for trustworthiness as it is used and re-used to formulate and evaluate scientific conclusions.  If scientific software produces one result in one version and a different result in another version, its trustworthiness can be questioned, and its reputation can suffer.
 
 Software engineers cannot assume scientific software is for the general public or for users who do not know (or care) how the software works.
 
