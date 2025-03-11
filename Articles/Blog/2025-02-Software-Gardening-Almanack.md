@@ -72,7 +72,10 @@ So, let’s garden together. Explore the Almanack, join the community, and help 
 
 ## Acknowledgements
 
-We are deeply grateful to the following individuals and organizations whose support has been instrumental in the creation of the Software Gardening Almanack:
+The Software Gardening Almanack was made possible through the support of a [Better Scientific Software (BSSw) Fellowship](https://bssw.io/fellowship), which empowers leaders to advance scientific software quality, sustainability, and community engagement.
+Through this fellowship, the project received the resources and network needed to promote best practices in software development, fostering a more maintainable and collaborative ecosystem for scientific computing.
+
+We are also deeply grateful to the following individuals and organizations whose support has been instrumental in the creation of the Software Gardening Almanack:
 
 * Faisal Alquaddoomi  
 * Vincent Rubinetti  
