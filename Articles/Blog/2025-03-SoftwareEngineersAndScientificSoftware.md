@@ -97,7 +97,7 @@ Software engineers should be aware of any issues related to the model's use and 
 
 SEAMs worry more about the platform the software will run on than software engineers do.  Scientific calculations are very often complicated and time-consuming (even for computers), so SEAMs try to squeeze out as much performance as they can.  Enhancing performance often involves taking advantage of specialized computer architectures.  Customizing code to work well on one computer architecture can make it hard to port it to other architectures.  SEAMs find themselves repeating this exercise when technology breaks backward compatibility.  Forward-looking SEAMs try to create software that is as future-resistant as possible.
 
-Before the El Capitan supercomputer was made available to developers, scientific code had been designed to work with separate CPU and GPU devices, each with separate memory spaces.  El Capitan introduced accelerated processing units (APU's), which combine a CPU, GPU, and shared memory onto one architecture.  Code that performed well with separate memory spaces could perform better with the APU's shared memory space.  So SEAMs found themselves rewriting code again.
+Before the [El Capitan](https://www.llnl.gov/news/highlights/el-capitan-high-performance-computing) supercomputer was made available to developers, scientific code had been designed to work with separate CPU and GPU devices, each with separate memory spaces.  El Capitan introduced accelerated processing units (APU's), which combine a CPU, GPU, and shared memory onto one architecture.  Code that performed well with separate memory spaces could perform better with the APU's shared memory space.  So SEAMs found themselves rewriting code again.
 
 #### Verification and validation (V&V)
 
