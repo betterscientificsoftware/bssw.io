@@ -93,7 +93,7 @@ For example, weather models are used to create forecasts.  They rely on initial 
 
 Software engineers should be aware of any issues related to the model's use and credibility in order to do their job effectively.
 
-### Execution Environment
+### Execution environment
 
 SEAMs worry more about the platform the software will run on than software engineers do.  Scientific calculations are very often complicated and time-consuming (even for computers), so SEAMs try to squeeze out as much performance as they can.  Enhancing performance often involves taking advantage of specialized computer architectures.  Customizing code to work well on one computer architecture can make it hard to port it to other architectures.  SEAMs find themselves repeating this exercise when technology breaks backward compatibility.  Forward-looking SEAMs try to create software that is as future-resistant as possible.
 
