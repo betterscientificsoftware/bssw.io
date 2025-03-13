@@ -50,7 +50,7 @@ Math libraries, such as finite element solvers, vectors and matrices, statistics
 
 #### Information hiding and abstraction
 
-Information hiding and abstraction involves obscuring internal implementation details from the outside world.  Instead, a contract or promise is provided that programmers can focus on instead.  This strategy ensures that dependencies are not created on internal implementations of code.  In theory, code can be removed and replaced without breaking code that uses it if the replacement code provides the same abstraction.
+Information hiding and abstraction involves obscuring internal implementation details from the outside world.  Instead, a contract or promise is provided that programmers can focus on instead.  This strategy ensures that dependencies are not created on internal implementations of code.  In theory, code can be removed and replaced without breaking code that uses it if the replacement code honors the same "contract."
 
 For example, a driver need not understand how automotive braking systems work to stop a car.  Behind the scenes, the braking system employs the pedal, a master cylinder, calipers or drums, brake shoes, rotors, motion sensors, computer chips, and in the case of hybrids, the engine itself.  A significant amount of information is involved in braking in modern-day cars, and all of it is hidden from the driver.  The brake pedal is the abstraction for the car's braking system.
 
@@ -58,7 +58,7 @@ For example, a driver need not understand how automotive braking systems work to
 
 Coupling measures the degree of dependency among disparate software components.  If a component depends on another component to a high degree, the coupling is tight.  If a dependency is low degree, then the coupling is loose.  Tight coupling makes software hard to change, test, and reuse.  Loose coupling does not solve dependency problems outright, but the looser the coupling, the easier it is to deal with.  This is why coupling is always managed, not completely eliminated.
 
-For example, JSON and XML are common data-interchange formats used on the web.   Imagine a user authentication module uses XML internally to format user data.  If this module needs to process a JSON message, it will have to translate JSON into XML in order to do its work.  The user authentication module is tightly coupled to XML as a data representation.  To loosen the coupling, the module could be modified to only accept the user data it needs in the programming language's basic data types, allowing the XML (and JSON) modules to be further separated from the authentication module.
+For example, JSON and XML are common data-interchange formats used on the web.   Imagine a user authentication module uses XML internally to format user data.  If this module needs to process a JSON message, it will have to translate JSON into XML in order to do its work.  In this case, the user authentication module is tightly coupled to XML as a data representation.  To loosen the coupling, the module could be modified to only accept the user data it needs in the programming language's basic data types, allowing data formats to be handled in separate modules.
 
 #### Separation of concerns
 
@@ -93,19 +93,19 @@ For example, weather models are used to create forecasts.  They rely on initial 
 
 Software engineers should be aware of any issues related to the model's use and credibility in order to do their job effectively.
 
-### Performance
+### Execution Environment
 
 SEAMs worry more about the platform the software will run on than software engineers do.  Scientific calculations are very often complicated and time-consuming (even for computers), so SEAMs try to squeeze out as much performance as they can.  Enhancing performance often involves taking advantage of specialized computer architectures.  Customizing code to work well on one computer architecture can make it hard to port it to other architectures.  SEAMs find themselves repeating this exercise when technology breaks backward compatibility.  Forward-looking SEAMs try to create software that is as future-resistant as possible.
 
-Before the [El Capitan](https://www.llnl.gov/news/highlights/el-capitan-high-performance-computing) supercomputer was made available to developers, scientific code had been designed to work with separate CPU and GPU devices, each with separate memory spaces.  El Capitan introduced accelerated processing units (APU's), which combine a CPU, GPU, and shared memory onto one architecture.  Code that performed well with separate memory spaces could perform better with the APU's shared memory space.  So SEAMs found themselves rewriting code again.
+Before the [El Capitan](https://www.llnl.gov/news/highlights/el-capitan-high-performance-computing) supercomputer was made available to developers, scientific code had been designed to work with separate CPU and GPU devices, each with separate memory spaces.  El Capitan introduced accelerated processing units (APU's), which combine a CPU, GPU, and shared memory onto one architecture.  Code that performed well on separate CPU and GPU architectures did not perform well on the new APU architecture.  So SEAMs found themselves rewriting code again to take advantage of the new architecture.
 
 #### Verification and validation (V&V)
 
-Verification and validation (V&V) are complementary processes that work together to ensure the quality and reliability of scientific software.  V&V ensures accuracy, reliability, safety, compliance, and reproducibility.  Many aspects of V&V overlap with software engineering testing principles, such as functional testing, usability testing, and performance testing.  But software engineers need to be aware that V&V relates to the science behind the code as well as the code itself.  Verification ensures that the code does what it was intended to do -- that it implements the scientific model as intended.  Validation ensures that the model appropriately matches the real-world phenomena it was intended to represent.
+Verification and validation (V&V) are complementary processes that work together to ensure the quality and reliability of scientific software.  Verification ensures that the code does what it was intended to do -- that it implements the scientific model as intended.  Validation ensures that the model appropriately matches the real-world phenomena it was intended to represent.  V&V ensures accuracy, reliability, safety, compliance, and reproducibility.  Many aspects of V&V overlap with software engineering testing principles, such as functional testing, usability testing, and performance testing.  But software engineers need to be aware that V&V relates to the science behind the code as well as the code itself.
 
 #### Uncertainty quantification (UQ)
 
-Uncertainty quantification (UQ) is a process of assessing and managing uncertainties in computational models and simulations.  UQ aims to determine how likely certain outcomes are when some aspects of the system or model are not completely known, subject to stochastic fluctuations, or when only incomplete information is available for certain aspects of the system.  UQ is essential for validating and verifying computer models, enabling scientists to make precise statements about the degree of confidence they have in their simulation-based predictions.  Software engineers need to able to help SEAMs generate a healthy level of confidence in the software by reducing uncertainty in the code and guiding SEAMs on.
+Uncertainty quantification (UQ) is a process of assessing and managing uncertainties in computational models and simulations.  UQ aims to determine how likely certain outcomes are when some aspects of the system or model are not completely known, subject to stochastic fluctuations, or when only incomplete information is available for certain aspects of the system.  UQ is essential for validating and verifying computer models, enabling scientists to make precise statements about the degree of confidence they have in their simulation-based predictions.  Software engineers need to able to help SEAMs generate a healthy level of confidence in the software by understanding uncertainties in computational models and their quantification via tools, frameworks, and methodologies.
 
 ### Users
 
