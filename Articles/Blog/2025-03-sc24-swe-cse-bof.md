@@ -5,7 +5,7 @@
 #### Publication date: March 26, 2025
 
 <!-- begin deck -->  
-A snapshot of our community from the SC24 Birds of a Feather session on Scientific Software and the People Who Make it Happen: Building Communities of Practice.  
+Taking the pulse of our community, from discussions held in November 2024 at SC24 in Atlanta, Georgia.  
 <!-- end deck -->
 
 At the annual Supercomputing conference and sometimes at the ISC High Performance conference, members of the scientific software developer community come together to share their thoughts, network, and build community. These “Birds of a Feather” (BoF) sessions started in 2015 under the title *Software Engineering for Computational Science and Engineering on Supercomputers*. While the titles of the sessions have morphed over time, the purpose has always been to focus more on the “people” side of high-performance scientific computing.  Below, we summarize the 2024 edition of the BoF as a sampling of what’s on people’s minds lately.
