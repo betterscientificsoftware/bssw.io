@@ -2,7 +2,7 @@
 
 #### Contributed by [David E Bernholdt](https://github.com/bernhold/), [Jeffrey C. Carver](https://github.com/JeffCarver), [Ian A. Cosden](https://github.com/cosden/), [Anshu Dubey](https://github.com/adubey64), Weronika Filinger, [Sandra Gesing](https://github.com/sandragesing), [Mozhgan Kabiri chimeh](https://github.com/mozhgan-kch), [Lauren Milechin](https://github.com/lmilechin), [Marion Weinzierl](https://github.com/MarionBWeinzierl), Harshitha Menon, and [Addi Malviya Thakur](https://github.com/addimt)
 
-#### Publication date: March 26, 2025
+#### Publication date: March 23, 2025
 
 <!-- begin deck -->  
 Taking the pulse of our community, from discussions held in November 2024 at SC24 in Atlanta, Georgia.  
