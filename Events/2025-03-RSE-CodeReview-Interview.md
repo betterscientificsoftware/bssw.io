@@ -2,7 +2,7 @@
 
 #### Contributed by: [Md Ariful Islam Malik]
 
-- Closing Date: 04-18-2025
+- Closing Date: 04-28-2025
 - Location: Online
 - Website: https://universityofalabama.az1.qualtrics.com/jfe/form/SV_e39KXNkAYyjVtEG
 - Organizers: Jeffrey C. Carver, Nasir U. Eisty, and Md Ariful Islam Malik
