@@ -2,11 +2,10 @@
 
 #### Contributed by: [Md Ariful Islam Malik]
 
-- Closing Date: 04-28-2025
+- Closing Date: April 28, 2025
 - Location: Online
 - Website: https://universityofalabama.az1.qualtrics.com/jfe/form/SV_e39KXNkAYyjVtEG
 - Organizers: Jeffrey C. Carver, Nasir U. Eisty, and Md Ariful Islam Malik
-
 
 <!-- deck text start -->  
 If you are an Research software engineer (RSE) and want to share your experiences with **peer code review**, consider joining our **15–20 minute interview**.
@@ -14,9 +13,8 @@ If you are an Research software engineer (RSE) and want to share your experience
 
 Event Information | Details
 :--- | :---	
-Event Name | Interview with RSEs on Peer Code Review in Research Software Development
+Event Name | [Interview with RSEs on Peer Code Review in Research Software Development](https://universityofalabama.az1.qualtrics.com/jfe/form/SV_e39KXNkAYyjVtEG)
 Website | https://universityofalabama.az1.qualtrics.com/jfe/form/SV_e39KXNkAYyjVtEG
-
 
 Dr. Jeffrey Carver, Dr. Nasir Eisty, and Md Ariful Malik from the University of Alabama are conducting a study to explore the code review process used by Research Software Engineers (RSEs).
 
@@ -35,7 +33,6 @@ https://universityofalabama.az1.qualtrics.com/jfe/form/SV_e39KXNkAYyjVtEG
 If you would like more information on this study, please contact Dr. Jeffrey Carver (carver@cs.ua.edu) or Dr. Nasir Eisty (nasireisty@boisestate.edu) 
 
 <!---
-Publish: no
-Pinned: no
-Topics: Empirical Software engineering, Software Engineering, Peer code review, Research software Development
+Publish: yes
+Topics: Software Engineering, Peer code review, research software engineers
 --->
