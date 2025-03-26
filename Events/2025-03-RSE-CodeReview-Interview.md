@@ -1,6 +1,6 @@
-# Interview with RSEs on Peer Code Review in Research Software Development
+# Research Participation: Interviews with RSEs on Peer Code Review in Research Software Development
 
-#### Contributed by: [Md Ariful Islam Malik]
+#### Contributed by: [Md Ariful Islam Malik](https://github.com/arifulmalik)
 
 - Closing Date: April 28, 2025
 - Location: Online
@@ -34,5 +34,5 @@ If you would like more information on this study, please contact Dr. Jeffrey Car
 
 <!---
 Publish: yes
-Topics: Software Engineering, Peer code review, research software engineers
+Topics: Peer code review, Software Engineering, research software engineers
 --->
