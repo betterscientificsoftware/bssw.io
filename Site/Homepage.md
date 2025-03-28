@@ -8,9 +8,11 @@ Slide1 R: ../Articles/Blog/2025-03-SoftwareEngineersAndScientificSoftware.md
 Slide2 L: ../CuratedContent/EthicalOpenSource.md
 Slide2 R: ../CuratedContent/HiRSESeminarSeries.md
 Slide3 L: ../Events/2025-04-iss.md 
-Slide3 R: ../Events/2025-usrse-conf.md
-Slide4 L: ../Events/2025-05-s3c-conference.md
-Slide4 R: ../Events/ATPESC2025.md
+Slide3 R: ../Events/2025-03-RSE-CodeReview-Interview.md
+Slide4 L: ../Events/2025-usrse-conf.md
+Slide4 R: ../Events/hpcbp-090-fair-software.md
+Slide5 L: ../Events/2025-05-s3c-conference.md
+Slide5 R: ../Events/ATPESC2025.md
 --->
 
 <!---
