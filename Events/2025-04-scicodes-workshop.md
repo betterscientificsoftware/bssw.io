@@ -5,6 +5,8 @@
 - Event Website: https://scicodes.github.io/workshop-2025/
 - Organizers: Consortium of Scientific Software Registries and Repositories (SciCodes)
 
+An Alfred P. Sloan Foundation funded symposium and 2nd collaborative workshop for editors and maintainers of scientific software registries and repositories
+
 The [Consortium of Scientific Software Registries and Repositories (SciCodes)](https://scicodes.net/) 2nd Collaboration Workshop, scheduled for April 10-11, 2025 in Washington, DC, will bring together editors and maintainers from a wide range of scientific software registries and repositories as well as open research software advocates and expert practitioners.
 
 The workshop’s primary goals include:
