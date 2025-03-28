@@ -35,5 +35,5 @@ For full workshop details, please visit the [workshop page](https://scicodes.git
 
 <!---
 Publish: yes
-Topics: conferences and workshops, software engineering
+Topics: conferences and workshops, software publishing and citation
 --->
