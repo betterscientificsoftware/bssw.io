@@ -1,7 +1,7 @@
 ## Ethical Source Licensing
 
 <!--- deck text start --->
-Is your open source code being used for good or evil?
+Is your open-source code being used for good or evil?
 <!--- deck text end --->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
@@ -16,9 +16,9 @@ Website | https://en.wikipedia.org/wiki/Organization_for_Ethical_Source
 First, it has to be said that various [software licenses](https://en.wikipedia.org/wiki/Software_license) aiming to restrict the use of the source code in one way or another typically fail to meet one or more of the criteria necessary to be considered truly *open-source*.
 Well known examples are [Server-Side Public License (SSPL)](https://en.wikipedia.org/wiki/Server_Side_Public_License), [Elastic License 2.0 (ELv2)](https://www.elastic.co/licensing/elastic-license), [Business Source License (BSL)](https://en.wikipedia.org/wiki/Business_Source_License) and [Microsoft Shared Source](https://en.wikipedia.org/wiki/Shared_Source_Initiative#Restricted_licenses).
 
-Nonetheless, because such licenses mean the source code is available for all to see, access and modify themselves, they are often confused with *open-source*.
+Nonetheless, because such licenses mean the source code is available for all to see, access, and modify themselves, they are often confused with *open-source*.
 A technically more accurate designation for this brand of license commonly used in the industry is *source-available*.
-While source-available licensing is a relatively recent trend in the industry, some commonly recognized major projects utilize them including [Elastic Search](https://www.elastic.co), [MongoDB](https://www.mongodb.com/legal/licensing/server-side-public-license), [Confluent](https://www.confluent.io/confluent-community-license-faq/) and [GitLab Enterprise Edition](https://en.wikipedia.org/wiki/Source-available_software#GitLab_Enterprise_Edition_License_(EE_License)).
+While source-available licensing is a relatively recent trend in the industry, some commonly recognized major projects utilize this approach, including [Elastic Search](https://www.elastic.co), [MongoDB](https://www.mongodb.com/legal/licensing/server-side-public-license), [Confluent](https://www.confluent.io/confluent-community-license-faq/) and [GitLab Enterprise Edition](https://en.wikipedia.org/wiki/Source-available_software#GitLab_Enterprise_Edition_License_(EE_License)).
 
 A new kind of source-available license based on ethical use considerations has begun to emerge as well.
 This brand of licensing is referred to as [*ethical source*](https://ethicalsource.dev/licenses/) and aims to restrict the use of software to ethical purposes.

@@ -8,7 +8,7 @@
 - Organizers: Jeffrey C. Carver, Nasir U. Eisty, and Md Ariful Islam Malik
 
 <!-- deck text start -->  
-If you are an Research software engineer (RSE) and want to share your experiences with **peer code review**, consider joining our **15–20 minute interview**.
+If you are a research software engineer (RSE) and want to share your experiences with **peer code review**, consider joining our **15–20 minute interview**.
 <!-- deck text end -->
 
 Event Information | Details
