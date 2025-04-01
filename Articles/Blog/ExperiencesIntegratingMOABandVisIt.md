@@ -29,30 +29,20 @@ A new VisIt database plugin integrating *directly* with MOAB's native interface 
 ### VisIt Database Plugin Basics
 
 Some of the key routines to be implemented in a database plugin in VisIt are
-* `void avtMOABFileformat::PopulateDatabaseMetaData(avtDatabaseMetaData *md, ...)`:
-  This method is called collectively in parallel and runs in response to a user's request to open a database.
-  This method is intended to be fast (e.g. minimal disk I/O) and light-weight to tease just enough information from the input database to prime VisIt's GUI.
-  During the *first* attempt to open a database in a VisIt session, the user chooses the number of nodes, `N`, and MPI ranks, `R` for the parallel *engine*.
-* `vtkDataSet* avtMOABFileFormat::GetMesh(char const *meshName, ...)`:
-  This method is called independently in parallel and runs in response to a user's request to draw a plot.
-  It returns a VTK *grid* object holding the geometry and topology of the mesh identified by `meshName`.
-  `meshName` will appear in various places in VisIt's GUI menus according to metadata provided in `PopulateDatabaseMetaData(...)`.
-* `vtkDataArray *avtMOABFileFormat::GetVar(char const *varName, ...)`:
-  This method is called independently in parallel and runs in response to a user's request to draw a plot.
-  It returns a VTK *field* object identified by `varName` holding data for a point- or cell-centered field.
-  `varName` will appear in various places in VisIt's GUI menus according to metadata provided in `PopulateDatabaseMetaData(...)`.
-  In addition, a `varName` (say `"foo"`) is also associated with a `meshName` (say `"bar"`) such that `GetVar("foo",...)` returns a `vtkDataArray*` object that is 1:1 with either the points or cells of the `vtkDataSet*` returned by `GetMesh("bar",...)`. 
+* `void PopulateDatabaseMetaData(avtDatabaseMetaData *md, ...)`: is called *collectively* in parallel and teases just enough information from the input database to prime VisIt's GUI with the names of mesh and variable objects.
+  The user also chooses the number of nodes, `N`, and MPI ranks, `R` for launching the parallel *engine*.
+* `vtkDataSet* GetMesh(char const *meshName, ...)` and `vtkDataArray* GetVar(char const *varName, ...)`: are called *independently* in parallel and return VTK *grid* and *array* objects, respectively, holding the geometry+topology of the mesh as well as data for an variable that is 1:1 with either the points or cells of the mesh. 
 
-A developer has numerous choices in designing a plugin many of which ultimately determine the user experience (UX); the performance and functionality VisIt's GUI will provide in interacting with the data.
+In designing a plugin, a developer has many choices which ultimately effect the performance and functionality VisIt will provide in visualizing and analyzing the data.
 
 Except for simple cases, VisIt will not divide a large, monolithic mesh into pieces for parallel processing.
-Instead, it piggy backs off of a parallel decomposition an upstream data producer would have already created.
-The `K` pieces of mesh can be stored and distributed among `M` files (typically `K>>M`) and then processed by VisIt on `R` MPI ranks.
-The user choses an `R` when launching the VisIt *engine*.
+Instead, it *piggy backs* off of a parallel decomposition an upstream data producer would have already created using the [Multiple Independent File (MIF) parallel I/O paradigm](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/).
+In MIF, `K` pieces of mesh can be stored and distributed among `M` files (typically `K>>M`) and then processed by VisIt on `R` MPI ranks.
+The user choses `R` when launching the VisIt *engine*.
 Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently because `R-K` ranks will idle.
-
 Each time VisIt produces a plot, a list of pieces *relevant* to the current plot, `K'<=K`, is computed.
 This list is sorted in increasing piece number and assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html#:~:text=Load%20balance%20options) algorithms.
+Those ranks then make independent `GetMesh()` and `GetVar()` calls for pieces they are assigned.
 
 ### The MOAB Native plugin
 
