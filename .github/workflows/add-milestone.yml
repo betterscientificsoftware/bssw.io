@@ -10,16 +10,16 @@ jobs:
     steps:
       - uses: benelan/milestone-action@v3
         if: |
-          contains(github.event.issue.labels.*.name, 'content: article') ||
-          contains(github.event.issue.labels.*.name, 'content: blog') ||
-          contains(github.event.issue.labels.*.name, 'content: curated') ||
-          contains(github.event.issue.labels.*.name, 'content: event') ||
-          contains(github.event.issue.labels.*.name, 'content: howto') ||
-          contains(github.event.issue.labels.*.name, 'content: updates') ||
-          contains(github.event.issue.labels.*.name, 'content: whatis') ||
-          contains(github.event.issue.labels.*.name, 'content: time sensitive') ||
-          contains(github.event.issue.labels.*.name, 'content: article-deprecated') ||
-          contains(github.event.issue.labels.*.name, 'content: howto-deprecated')
+          contains(github.event.pull_request.labels.*.name, 'content: article') ||
+          contains(github.event.pull_request.labels.*.name, 'content: blog') ||
+          contains(github.event.pull_request.labels.*.name, 'content: curated') ||
+          contains(github.event.pull_request.labels.*.name, 'content: event') ||
+          contains(github.event.pull_request.labels.*.name, 'content: howto') ||
+          contains(github.event.pull_request.labels.*.name, 'content: updates') ||
+          contains(github.event.pull_request.labels.*.name, 'content: whatis') ||
+          contains(github.event.pull_request.labels.*.name, 'content: time sensitive') ||
+          contains(github.event.pull_request.labels.*.name, 'content: article-deprecated') ||
+          contains(github.event.pull_request.labels.*.name, 'content: howto-deprecated')
         with:
           # If true, add the milestone with the farthest due date. By default,
           # the action adds the current milestone (closest due date).
