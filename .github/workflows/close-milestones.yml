@@ -1,12 +1,25 @@
 name: Close Milestones
 # This action will close past-due milestones with no open issues or PRs
+# It runs on the 7th day of each month.  That should be ample time for the previous digest to have gone out
+# Because we're associating *closed* PRs with the milestone to indicate they're ready for the digest, if
+# the milestone would be deleted too quickly if we used other criteria to run it.
 
 on:
-  pull_request:
-    types: [closed]
-  issues:
-    types: [closed]
   workflow_dispatch:
+  schedule:
+  # Cron syntax has five fields separated by a space, and each field represents a unit of time.
+  #
+  #        ┌───────────── minute (0 - 59)
+  #        │ ┌───────────── hour (0 - 23)
+  #        │ │ ┌───────────── day of the month (1 - 31)
+  #        │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
+  #        │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
+  #        │ │ │ │ │
+  #        │ │ │ │ │
+  #        │ │ │ │ │
+  #        * * * * *
+  # * is a special character in YAML so you have to quote this string
+  - cron:  '0 0 7 * *' # Midnight on the 7th day of the month (more than a week after the digest should have gone out)
 
 jobs:
   close-milestone:
