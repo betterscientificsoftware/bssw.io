@@ -52,4 +52,4 @@ jobs:
         contains(github.event.pull_request.labels.*.name, 'content: whatis')
       with:
         project: 'https://github.com/betterscientificsoftware/bssw.io/projects/3'
-        column_name: 'Item review'        
+        column_name: 'Item review'
