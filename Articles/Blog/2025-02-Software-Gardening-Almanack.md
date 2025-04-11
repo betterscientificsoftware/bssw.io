@@ -10,7 +10,7 @@ Scientific software underpins modern research, yet much of it suffers from fragi
 
 <img id="fig-1" src='../../images/French_Orchard_at_Harvest_Time_(Le_verger)_(SM_1444).png' class='page lightbox' />[Figure 1. Following guidelines and practices outlined in an Almanack enhances software development, much like it nurtures growth in a garden.]
 
-Scientific software is at the heart of modern discovery, powering advancements across many fields.<sup>[1],[2],[3],[4]</sup>  Yet, beneath the surface of these achievements lies a sobering reality: much of scientific software is fragile due to low quality implementation or design<sup>[5]</sup>, which leads to challenges related to software collapse.<sup>[6]</sup>. These challenges jeopardize software sustainability, productivity, and trustworthiness, posing threats to the very foundations of research<sup>[1]</sup>. The Software Gardening Almanack<sup>[7]</sup> offers a new way forward: treating software as an emergent, living ecosystem (<a href="#fig-1">Figure 1</a>). The Almanack describes and implements Software Gardening principles which help to cultivate sustainable, reproducible, and high-quality scientific software.
+Scientific software is at the heart of modern discovery, powering advancements across many fields.<sup>[1],[2],[3]</sup><sup>[4]</sup>  Yet, beneath the surface of these achievements lies a sobering reality: much of scientific software is fragile due to low quality implementation or design<sup>[5]</sup>, which leads to challenges related to software collapse.<sup>[6]</sup>. These challenges jeopardize software sustainability, productivity, and trustworthiness, posing threats to the very foundations of research<sup>[1]</sup>. The Software Gardening Almanack<sup>[7]</sup> offers a new way forward: treating software as an emergent, living ecosystem (<a href="#fig-1">Figure 1</a>). The Almanack describes and implements Software Gardening principles which help to cultivate sustainable, reproducible, and high-quality scientific software.
 
 ## Proliferation of fragile software ecosystems
 
@@ -106,36 +106,18 @@ Track: deep dive
 Topics: software process improvement, software engineering, software sustainability
 --->
 
-## References
-
-[1]: #ref-1
-[2]: #ref-2
-[3]: #ref-3
-[4]: #ref-4
-[5]: #ref-5
-[6]: #ref-6
-[7]: #ref-7
-[8]: #ref-8
-[9]: #ref-9
-[10]: #ref-10
-[11]: #ref-11
-[12]: #ref-12
-[13]: #ref-13
-[14]: #ref-14
-[15]: #ref-15
-
-<a id="ref-1"></a><sup>1</sup>Heroux, M. *et al. Basic Research Needs in The Science of Scientific Software Development and Use: Investment in Software Is Investment in Science*. None, 1846009 https://www.osti.gov/servlets/purl/1846009/ (2023) doi:10.2172/1846009.
-<a id="ref-2"></a><sup>2</sup>  Afiaz, A. *et al.* Evaluation of software impact designed for biomedical research: Are we measuring what’s meaningful? Preprint at http://arxiv.org/abs/2306.03255 (2023).
-<a id="ref-3"></a><sup>3</sup>Sochat, V. The Stanford Software Survey, 2020\. Zenodo https://doi.org/10.5281/ZENODO.4464625 (2021).
-<a id="ref-4"></a><sup>4</sup>US Research Software Engineer Association & IEEE Computer Society. Research Software Engineers: Creating a Career Path—and a Career. Preprint at https://doi.org/10.5281/ZENODO.10073232 (2023).
-<a id="ref-5"></a><sup>5</sup>Krasner, H. *Cost of Poor Software Quality in the U.S.: A 2022 Report*. https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2022-report/ (2022).
-<a id="ref-6"></a><sup>6</sup>Hinsen, K. Dealing With Software Collapse. *Comput. Sci. Eng.* **21**, 104–108 (2019).
-<a id="ref-7"></a><sup>7</sup>Bunten, D., Davidson, W., Alquaddoomi, F., Rubinetti, V. & Way, G. The Software Gardening Almanack. Zenodo https://doi.org/10.5281/ZENODO.14765834 (2025).
-<a id="ref-8"></a><sup>8</sup>Cosden, I. A., McHenry, K. & Katz, D. S. Research Software Engineers: Career Entry Points and Training Gaps. (2022) doi:10.48550/ARXIV.2210.04275.
-<a id="ref-9"></a><sup>9</sup>GitHub Staff. Octoverse: AI leads Python to top language as the number of global developers surges. *GitHub Blog* https://github.blog/news-insights/octoverse/octoverse-2024/ (2024).
-<a id="ref-10"></a><sup>10</sup>He, H. *et al.* 4.5 Million (Suspected) Fake Stars in GitHub: A Growing Spiral of Popularity Contests, Scams, and Malware. Preprint at https://doi.org/10.48550/arXiv.2412.13459 (2024).
-<a id="ref-11"></a><sup>11</sup>Fire, M. & Guestrin, C. Over-optimization of academic publishing metrics: observing Goodhart’s Law in action. *GigaScience* **8**, giz053 (2019).
-<a id="ref-12"></a><sup>12</sup>Bunten, D. & Way, G. P. Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems. *Better Scientific Software (BSSw) Blog* https://bssw.io/blog\_posts/long-term-software-gardening-strategies-for-cultivating-scientific-development-ecosystems (2023).
-<a id="ref-13"></a><sup>13</sup>Wilson, G. *et al.* Good enough practices in scientific computing. *PLOS Comput. Biol.* **13**, e1005510 (2017).
-<a id="ref-14"></a><sup>14</sup>Shannon, C. E. A Mathematical Theory of Communication. *Bell Syst. Tech. J.* **27**, 379–423 (1948). 
-<a id="ref-15"></a><sup>15</sup>Hassan, A. E. Predicting faults using the complexity of code changes. in *2009 IEEE 31st International Conference on Software Engineering* 78–88 (IEEE, Vancouver, BC, Canada, 2009). doi:10.1109/ICSE.2009.5070510.
+[1]: https://doi.org/10.2172/1846009 "Basic Research Needs {Heroux, M. *et al.* Basic Research Needs in The Science of Scientific Software Development and Use: Investment in Software Is Investment in Science. (2023) doi:10.2172/1846009.}"
+[2]: https://doi.org/10.48550/arXiv.2306.03255 "Evaluation of software impact {Afiaz, A. *et al.* Evaluation of software impact designed for biomedical research: Are we measuring what's meaningful? Preprint at https://doi.org/10.48550/arXiv.2306.03255 (2023).}"
+[3]: https://doi.org/10.5281/ZENODO.4464625 "Stanford software survey {Sochat, V. The Stanford Software Survey, 2020\. Zenodo https://doi.org/10.5281/ZENODO.4464625 (2021).}"
+[4]: https://doi.org/10.5281/ZENODO.10073232 "Research software engineers {US Research Software Engineer Association & IEEE Computer Society. Research Software Engineers: Creating a Career Path—and a Career. Preprint at https://doi.org/10.5281/ZENODO.10073232 (2023).}"
+[5]: https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2022-report/ "Cost of Poor Software Quality {Krasner, H. Cost of Poor Software Quality in the U.S.: A 2022 Report. https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2022-report/ (2022).}"
+[6]: https://doi.org/10.1109/MCSE.2019.2900945 "Software collapse {K. Hinsen, Dealing With Software Collapse, in Computing in Science & Engineering, vol. 21, no. 3, pp. 104-108, 1 May-June 2019, doi: 10.1109/MCSE.2019.2900945.}"
+[7]: https://doi.org/10.5281/ZENODO.14765834 "Software Gardening Almanack {Bunten, D., Davidson, W., Alquaddoomi, F., Rubinetti, V. & Way, G. The Software Gardening Almanack. Zenodo https://doi.org/10.5281/ZENODO.14765834 (2025).}"
+[8]: https://doi.org/10.48550/ARXIV.2210.04275 "Research software engineers {Cosden, I. A., McHenry, K. & Katz, D. S. Research Software Engineers: Career Entry Points and Training Gaps. (2022) doi:10.48550/ARXIV.2210.04275.}"
+[9]: https://github.blog/news-insights/octoverse/octoverse-2024/ "AI leads Python to top language {GitHub Staff. Octoverse: AI leads Python to top language as the number of global developers surges. *GitHub Blog* https://github.blog/news-insights/octoverse/octoverse-2024/ (2024).}"
+[10]: https://doi.org/10.48550/arXiv.2412.13459 "4.5 Million (Suspected) Fake Stars in GitHub {He, H. *et al.* 4.5 Million (Suspected) Fake Stars in GitHub: A Growing Spiral of Popularity Contests, Scams, and Malware. Preprint at https://doi.org/10.48550/arXiv.2412.13459 (2024).}"
+[11]: https://doi.org/10.1093/gigascience/giz053 "Over-optimization of academic publishing metrics {Michael Fire, Carlos Guestrin, Over-optimization of academic publishing metrics: observing Goodhart's Law in action, GigaScience, Volume 8, Issue 6, June 2019, giz053, https://doi.org/10.1093/gigascience/giz053}"
+[12]: https://bssw.io/blog_posts/long-term-software-gardening-strategies-for-cultivating-scientific-development-ecosystems "Software Gardening {Bunten, D. & Way, G. P. Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems. *Better Scientific Software (BSSw) Blog* https://bssw.io/blog_posts/long-term-software-gardening-strategies-for-cultivating-scientific-development-ecosystems (2023).}"
+[13]: https://doi.org/10.1371/journal.pcbi.1005510 "Good enough practices {Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510}"
+[14]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x "Mathematical theory of communication {C. E. Shannon, A mathematical theory of communication, in The Bell System Technical Journal, vol. 27, no. 3, pp. 379-423, July 1948, doi: 10.1002/j.1538-7305.1948.tb01338.x.}"
+[15]: https://doi.org/10.1109/ICSE.2009.5070510 "Predicting faults {Hassan, A. E. Predicting faults using the complexity of code changes. in *2009 IEEE 31st International Conference on Software Engineering* 78–88 (IEEE, Vancouver, BC, Canada, 2009). doi:10.1109/ICSE.2009.5070510.}"
