@@ -57,7 +57,7 @@ This level of interoperability provides significant value to application develop
 
 A key aspect of work in the [IDEAS-Classic project](https://ideas-productivity.org/activities/ideas-classic/) is development of the [Extreme-scale Scientific Software Development Kit (xSDK)](http://xsdk.info/) - a collection of related and complementary software elements that provide the building blocks, tools, models, processes, and related artifacts for rapid and efficient development of high-quality applications.
 
-#### xSDK community policies:
+##### xSDK community policies:
 The xSDK addresses interoperability among the high-performance numerical libraries [hypre](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods), [PETSc](https://www.mcs.anl.gov/petsc/), [SuperLU](crd.lbl.gov/%7Exiaoye/SuperLU/), and [Trilinos](https://trilinos.github.io/). 
 The xSDK ensures level 1 interoperability for each xSDK library via a full-featured build script and testing environment and a collection of community policies. The following draft xSDK community policies address challenges in interoperability level 1.
 
@@ -71,7 +71,7 @@ Similarly, a package can become an xSDK member package if (1) it is an xSDK-comp
 The xSDK collection of software packages commits to adhere to these community policies in order to ensure compatibility with other packages that meet the same standards. 
 The aim is to simplify the combined use of multiple independently developed software packages and to provide a foundation for addressing broader issues in interoperability and performance portability.
 
-#### Deeper Levels
+##### Deeper Levels
 Deeper levels of xSDK interoperability involve exchanging, controlling, and interpreting data, as well as calling routines between libraries (interoperability levels 2 and 3 described above). 
 Initial xSDK capabilities of hypre, PETSc, SuperLU, and Trilinos support interoperability among scalable linear solvers, so that applications can readily experiment with algorithms across multiple packages, in combination.
 Forthcoming companion documents will explain approaches used for interfaces and adapters between packages as well as work on interoperability layers for other functionalities. 
