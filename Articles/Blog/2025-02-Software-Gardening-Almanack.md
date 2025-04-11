@@ -10,7 +10,7 @@ Scientific software underpins modern research, yet much of it suffers from fragi
 
 <img id="fig-1" src='../../images/French_Orchard_at_Harvest_Time_(Le_verger)_(SM_1444).png' class='page lightbox' />[Figure 1. Following guidelines and practices outlined in an Almanack enhances software development, much like it nurtures growth in a garden.]
 
-Scientific software is at the heart of modern discovery, powering advancements across many fields.<sup>[1],[2],[3],[4]</sup>  Yet, beneath the surface of these achievements lies a sobering reality: much of scientific software is fragile due to low quality implementation or design<sup>[5]</sup>, which leads to challenges related to software collapse.<sup>[6]</sup>. These challenges jeopardize software sustainability, productivity, and trustworthiness, posing threats to the very foundations of research<sup>[1]</sup>. The Software Gardening Almanack<sup>[7]</sup> offers a new way forward: treating software as an emergent, living ecosystem (<a href="#fig-1">Figure 1</a>). The Almanack describes and implements Software Gardening principles which help to cultivate sustainable, reproducible, and high quality scientific software.
+Scientific software is at the heart of modern discovery, powering advancements across many fields.<sup>[1],[2],[3],[4]</sup>  Yet, beneath the surface of these achievements lies a sobering reality: much of scientific software is fragile due to low quality implementation or design<sup>[5]</sup>, which leads to challenges related to software collapse.<sup>[6]</sup>. These challenges jeopardize software sustainability, productivity, and trustworthiness, posing threats to the very foundations of research<sup>[1]</sup>. The Software Gardening Almanack<sup>[7]</sup> offers a new way forward: treating software as an emergent, living ecosystem (<a href="#fig-1">Figure 1</a>). The Almanack describes and implements Software Gardening principles which help to cultivate sustainable, reproducible, and high-quality scientific software.
 
 ## Proliferation of fragile software ecosystems
 
@@ -22,7 +22,7 @@ But not all software decays so quickly, and some software can last decades. What
 
 <img id="fig-2" src='../../images/software-gardening-lifecycle.png' class='page lightbox' />[Figure 2. All software faces lifecycles which can be better understood through a Software Gardening lens to guide sustainable development.]
 
-We wrote about Software Gardening in an earlier blog post.<sup>[12]</sup> In that post, we compared Software Gardening to the more traditional metaphor of scientific software development as “software carpentry”.<sup>[13]</sup> In software carpentry, software is viewed as a craft that emphasizes precision, reproducibility, and start-to-finish construction. However, this analogy falls short of addressing the multidimensional challenges of time. Software decays, requirements evolve, and software develops in collaborative teams. Software Gardening<sup>[12]</sup>  offers a new, complementary lens for rethinking software development. While carpentry emphasizes the skills and tools to build software, the lessons are static and product-focused. Instead, Software Gardening is about nurturing growth, adapting to changes, and preparing for inevitable decay (<a href="#fig-2">Figure 2</a>). A software gardener tends to their "code ecosystem" much like a gardener cultivates a garden. A software gardener removes weeds, enriches the soil, and ensures that the environment where software development happens supports healthy, sustainable growth.
+We wrote about Software Gardening in an earlier blog post.<sup>[12]</sup> In that post, we compared Software Gardening to the more traditional metaphor of scientific software development as “software carpentry”.<sup>[13]</sup> In software carpentry, software is viewed as a craft that emphasizes precision, reproducibility, and start-to-finish construction. However, this analogy falls short of addressing the multidimensional challenges of time. Software decays, requirements evolve, and software develops in collaborative teams. Software Gardening<sup>[12]</sup> offers a new, complementary lens for rethinking software development. While carpentry emphasizes the skills and tools to build software, the lessons are static and product focused. Instead, Software Gardening is about nurturing growth, adapting to changes, and preparing for inevitable decay (<a href="#fig-2">Figure 2</a>). A software gardener tends to their "code ecosystem" much like a gardener cultivates a garden. A software gardener removes weeds, enriches the soil, and ensures that the environment where software development happens supports healthy, sustainable growth.
 
 ## Introducing the Software Gardening Almanack
 
@@ -46,7 +46,7 @@ The Almanack helps developers cultivate sustainable software ecosystems. It impl
 
 <img id="formula-1" src='../../images/shannon-entropy-formula.png' class='page lightbox' />[Formula 1. Shannon Entropy]
 
-Originally used to measure how much information is required to describe a state of a variable, we apply Shannons’ Entropy formula to software by analyzing code changes. This idea was originally proposed by Hassan<sup>[15]</sup> in 2009, and we directly implement this metric within the Software Gardening Almanack. In our system, entropy reveals complexity across a project's history. High entropy indicates irregular or unpredictable code modifications, which fragilize projects, making them more expensive to maintain and prone to future error.<sup>[15]</sup> In contrast, low entropy suggests more consistent and structured software development, where changes are less likely to cause unexpected failure.
+Originally used to measure how much information is required to describe a state of a variable, we apply Shannon’s Entropy formula to software by analyzing code changes. This idea was originally proposed by Hassan<sup>[15]</sup> in 2009, and we directly implement this metric within the Software Gardening Almanack. In our system, entropy reveals complexity across a project's history. High entropy indicates irregular or unpredictable code modifications, which fragilize projects, making them more expensive to maintain and prone to future error.<sup>[15]</sup> In contrast, low entropy suggests more consistent and structured software development, where changes are less likely to cause unexpected failure.
 
 To explore software entropy empirically, we collected and analyzed about 10,000 repositories referenced in PubMed articles since 2011. In our search we also collected GitHub metadata such as commit history, stars, forks, issues, primary programming language, and more. This metadata gives us insights into software collaboration and engagement, both of which are also key drivers of software sustainability. Using the Almanack, we calculated Shannon's entropy at the file level across commits normalizing by total lines of code (loc) per repository (<a href="#formula-2">Formula 2</a>). This normalization procedure is required for us to compare projects of varying sizes.
 
@@ -106,7 +106,6 @@ Track: deep dive
 Topics: software process improvement, software engineering, software sustainability
 --->
 
-
 ## References
 
 [1]: #ref-1
@@ -126,7 +125,7 @@ Topics: software process improvement, software engineering, software sustainabil
 [15]: #ref-15
 
 <a id="ref-1"></a><sup>1</sup>Heroux, M. *et al. Basic Research Needs in The Science of Scientific Software Development and Use: Investment in Software Is Investment in Science*. None, 1846009 https://www.osti.gov/servlets/purl/1846009/ (2023) doi:10.2172/1846009.
-<a id="ref-2"></a><sup>2</sup>	Afiaz, A. *et al.* Evaluation of software impact designed for biomedical research: Are we measuring what’s meaningful? Preprint at http://arxiv.org/abs/2306.03255 (2023).
+<a id="ref-2"></a><sup>2</sup>  Afiaz, A. *et al.* Evaluation of software impact designed for biomedical research: Are we measuring what’s meaningful? Preprint at http://arxiv.org/abs/2306.03255 (2023).
 <a id="ref-3"></a><sup>3</sup>Sochat, V. The Stanford Software Survey, 2020\. Zenodo https://doi.org/10.5281/ZENODO.4464625 (2021).
 <a id="ref-4"></a><sup>4</sup>US Research Software Engineer Association & IEEE Computer Society. Research Software Engineers: Creating a Career Path—and a Career. Preprint at https://doi.org/10.5281/ZENODO.10073232 (2023).
 <a id="ref-5"></a><sup>5</sup>Krasner, H. *Cost of Poor Software Quality in the U.S.: A 2022 Report*. https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2022-report/ (2022).
