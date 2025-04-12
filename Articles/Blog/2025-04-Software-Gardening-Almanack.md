@@ -10,21 +10,21 @@ Scientific software underpins modern research, yet much of it suffers from fragi
 
 <img id="fig-1" src='../../images/French_Orchard_at_Harvest_Time_(Le_verger)_(SM_1444).png' class='page lightbox' />[Figure 1. Following guidelines and practices outlined in an Almanack enhances software development, much like it nurtures growth in a garden.]
 
-Scientific software is at the heart of modern discovery, powering advancements across many fields.<sup>[1],[2],[3]</sup><sup>[4]</sup>  Yet, beneath the surface of these achievements lies a sobering reality: much of scientific software is fragile due to low quality implementation or design<sup>[5]</sup>, which leads to challenges related to software collapse.<sup>[6]</sup>. These challenges jeopardize software sustainability, productivity, and trustworthiness, posing threats to the very foundations of research<sup>[1]</sup>. The Software Gardening Almanack<sup>[7]</sup> offers a new way forward: treating software as an emergent, living ecosystem (<a href="#fig-1">Figure 1</a>). The Almanack describes and implements Software Gardening principles which help to cultivate sustainable, reproducible, and high-quality scientific software.
+Scientific software is at the heart of modern discovery, powering advancements across many fields.<sup>[1],[2],[3],[4]</sup>  Yet, beneath the surface of these achievements lies a sobering reality: much of scientific software is fragile due to low quality implementation or design<sup>[5]</sup>, which leads to challenges related to software collapse.<sup>[6]</sup>. These challenges jeopardize software sustainability, productivity, and trustworthiness, posing threats to the very foundations of research<sup>[1]</sup>. The Software Gardening Almanack<sup>[7]</sup> offers a new way forward: treating software as an emergent, living ecosystem (<a href="#fig-1">Figure 1</a>). The Almanack describes and implements Software Gardening principles which help to cultivate sustainable, reproducible, and high-quality scientific software.
 
-## Proliferation of fragile software ecosystems
+### Proliferation of fragile software ecosystems
 
 The Consortium for Information & Software Quality (CISQ) estimated, in 2022 alone, that poor software quality cost the global economy a staggering $2.41 trillion<sup>[5]</sup>. Scientific software is no exception. In many fields, it is the norm for scientists to publish articles that contain unusable, low-quality software and other analysis code. For example, the code might lack installation instructions, omit reproducible examples, or exclude critical documentation to understand the work.<sup>[2]</sup> These observations paint a clear picture of 1) significant training gaps for research software engineering<sup>[8]</sup>, 2) misaligned incentives for delivering reproducible software, 3) the difficulty evaluating software quality, and 4) codebases growing brittle with age.<sup>[6]</sup> Despite these challenges, scientific software has experienced tremendous growth. For example, about 1.5 million repositories on GitHub that were created in 2024 contained at least one Jupyter notebook, showing 170% growth since 2022.<sup>[9]</sup>
 
 But not all software decays so quickly, and some software can last decades. What measurements indicate if a software repository will resist the challenges associated with poor quality and decay? GitHub Stars are often used to infer quality, but they may be fake and they may only demonstrate popularity as opposed to sustainability.<sup>[10]</sup> Furthermore, publication and citation metrics indicate usage, but they suffer from diminishing returns due to increases in the overall number of citations in recent years, larger author or reference lists, and proliferation of self-citations.<sup>[11]</sup>. While easy to see and measure, these metrics paint an incomplete picture. Instead, embracing software as a complex and evolving ecosystem enables us to quantify sustainability with many measurements and perspectives.
 
-## Tending software gardens
+### Tending software gardens
 
 <img id="fig-2" src='../../images/software-gardening-lifecycle.png' class='page lightbox' />[Figure 2. All software faces lifecycles which can be better understood through a Software Gardening lens to guide sustainable development.]
 
 We wrote about Software Gardening in an earlier blog post.<sup>[12]</sup> In that post, we compared Software Gardening to the more traditional metaphor of scientific software development as “software carpentry”.<sup>[13]</sup> In software carpentry, software is viewed as a craft that emphasizes precision, reproducibility, and start-to-finish construction. However, this analogy falls short of addressing the multidimensional challenges of time. Software decays, requirements evolve, and software develops in collaborative teams. Software Gardening<sup>[12]</sup> offers a new, complementary lens for rethinking software development. While carpentry emphasizes the skills and tools to build software, the lessons are static and product focused. Instead, Software Gardening is about nurturing growth, adapting to changes, and preparing for inevitable decay (<a href="#fig-2">Figure 2</a>). A software gardener tends to their "code ecosystem" much like a gardener cultivates a garden. A software gardener removes weeds, enriches the soil, and ensures that the environment where software development happens supports healthy, sustainable growth.
 
-## Introducing the Software Gardening Almanack
+### Introducing the Software Gardening Almanack
 
 <img id="fig-3" src='../../images/software-gardening-almanack-components.png' class='page lightbox' />[Figure 3. The Software Gardening Almanack is an open-source digital book and open-source Python package. The python package includes both reporting and linting functionality.]
 
@@ -40,7 +40,7 @@ Second, the Python package, [available on PyPI](https://pypi.org/project/almanac
 
 The Python package provides two core capabilities: a JSON-based report of sustainability metrics and a software linting-style check for specific metrics (<a href="#fig-5">Figure 5</a>). The report provides specific metadata and metrics for the repository alongside descriptions of these metrics. The software linting check assesses if the repository is following best software development practices. We have configured the check to run alongside continuous integration and deployment (CI/CD) tools to automatically check code as it is changed. The python package can be executed by any python interpreter, but also as a command line interface (CLI). We apply the Almanack python package to the Almanack book itself both in CI/CD real-time development, as well as in Almanack tutorials, which you can run through this [Google Colab notebook](https://colab.research.google.com/drive/1VZhpLW7qNYelXiy2mb_piIxkqVcthb5_).
 
-## A deep dive into the Almanack and practical use cases
+### A deep dive into the Almanack and practical use cases
 
 The Almanack helps developers cultivate sustainable software ecosystems. It implements several sustainability metrics and checks, which promotes sustainable software development. One of these metrics measures Shannon Entropy<sup>[14]</sup>, a concept derived from information theory that quantifies unpredictability and complexity in a given system (<a href="#formula-1">Formula 1</a>).
 
@@ -52,25 +52,25 @@ To explore software entropy empirically, we collected and analyzed about 10,000 
 
 <img id="formula-2" src='../../images/normalized-shannon-entropy-per-file-formula.png' class='page lightbox' />[Formula 2. Normalized Shannon Entropy per file]
 
-Our analysis showed how software entropy relates to software sustainability (<a href="#fig=6">Figure 6</a>). Projects with shorter lifespans exhibited higher entropy, likely indicating rapid and unstructured development cycles lacking sustained maintenance. These projects are prone to instability which can severely hurt long-term use. In contrast, projects with lower entropy and higher community engagement enjoyed a longer lifespan. We observed many other interesting trends, which we describe in the “Seed Bank” chapter of the Software Gardening Almanack Book. Overall, this application shows how entropy can serve as a quick and valuable indicator of software sustainability, while also, importantly, providing insights into the causes of software decay.
+Our analysis showed how software entropy relates to software sustainability (<a href="#fig-6">Figure 6</a>). Projects with shorter lifespans exhibited higher entropy, likely indicating rapid and unstructured development cycles lacking sustained maintenance. These projects are prone to instability which can severely hurt long-term use. In contrast, projects with lower entropy and higher community engagement enjoyed a longer lifespan. We observed many other interesting trends, which we describe in the “Seed Bank” chapter of the Software Gardening Almanack Book. Overall, this application shows how entropy can serve as a quick and valuable indicator of software sustainability, while also, importantly, providing insights into the causes of software decay.
 
 <img id="fig-6" src='../../images/software-entropy-relationships.png' class='page lightbox' />[Figure 6. Relationships between software entropy, time, and community engagement. In a sample of about 10,000 GitHub repositories referenced in published scientific articles indexed on PubMed, we find that low software entropy is positively associated with sustainability and community engagement through (left) open GitHub issues and (right) number of GitHub forks.]
 
 Proactive software maintenance using Software Gardening practices will reduce entropy and lead to more long-lasting software. Left unmanaged, high entropy causes software decay. In other words, the Almanack identifies entropy hotspots, while they’re being developed, that may require targeted maintenance. Similar to an overgrown garden, these hotspots require attention through pruning, such as refactoring and restructuring, to preserve the project sustainability.
 
-## Future harvests
+### Future harvests
 
 <img id="fig-7" src='../../images/almanack-future.png' class='page lightbox' />[Figure 7. Our Almanack roadmap includes the development of a reusable GitHub Action, developing and testing an empirically defined software sustainability score, and integrating checks into community-driven projects to improve scientific communication and impact, such as BioRxiv.]
 
-Looking ahead, the Almanack is poised to expand impact (<a href="#fig=7">Figure 7</a>). We will continue to implement new metrics, including a sustainability score. We will also develop other technical features, such as a GitHub Action, and integration technology for embedding with scientific communication platforms like bioRxiv to automatically assess software and analysis repositories that are associated with posted preprints. These innovations will put the Almanack into the hands of those who can benefit most: researchers, developers, and educators who are shaping the future of scientific software.
+Looking ahead, the Almanack is poised to expand impact (<a href="#fig-7">Figure 7</a>). We will continue to implement new metrics, including a sustainability score. We will also develop other technical features, such as a GitHub Action, and integration technology for embedding with scientific communication platforms like bioRxiv to automatically assess software and analysis repositories that are associated with posted preprints. These innovations will put the Almanack into the hands of those who can benefit most: researchers, developers, and educators who are shaping the future of scientific software.
 
-## Let’s garden together
+### Let’s garden together
 
 The Software Gardening Almanack is more than a toolkit; it’s a call to action. It invites software developers to rethink how they approach software, not as a static product but as a living, evolving ecosystem. By embracing the principles of gardening—nurturing growth, fostering collaboration, and planning for the future—we can create software that not only thrives in the moment, but also stands the test of time.
 
 So, let’s garden together. Explore the Almanack, join the community, and help cultivate a better future for scientific software!
 
-## Acknowledgements
+### Acknowledgements
 
 The Software Gardening Almanack was made possible through the support of a [Better Scientific Software (BSSw) Fellowship](https://bssw.io/fellowship), which empowers leaders to advance scientific software quality, sustainability, and community engagement.
 Through this fellowship, the project received the resources and network needed to promote best practices in software development, fostering a more maintainable and collaborative ecosystem for scientific computing.
@@ -88,7 +88,7 @@ We are also deeply grateful to the following individuals and organizations whose
 * Better Scientific Software (BSSw) ([https://bssw.io](https://bssw.io))  
 * Sustainable Horizons Institute ([https://shinstitute.org](https://shinstitute.org))
 
-## Figure credits
+### Figure credits
 
 [Figure 1](#fig-1) Daubigny, Charles-François, French Orchard at Harvest Time (Le verger). [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:French_Orchard_at_Harvest_Time_\(Le_verger\)_\(SM_1444\).png).
 
