@@ -59,7 +59,7 @@ Our analysis showed how software entropy relates to software sustainability (<a 
 Proactive software maintenance using Software Gardening practices will reduce entropy and lead to more long-lasting software. Left unmanaged, high entropy causes software decay. In other words, the Almanack identifies entropy hotspots, while they’re being developed, that may require targeted maintenance. Similar to an overgrown garden, these hotspots require attention through pruning, such as refactoring and restructuring, to preserve the project sustainability.
 
 ### Future harvests
-![](2025-04-15-13-04-54.png)
+
 <img id="fig-7" src='../../images/almanack-future.png' class='page lightbox' />[Figure 7. Our Almanack roadmap includes the development of a reusable GitHub Action, developing and testing an empirically defined software sustainability score, and integrating checks into community-driven projects to improve scientific communication and impact, such as openRxiv.]
 
 Looking ahead, the Almanack is poised to expand impact (<a href="#fig-7">Figure 7</a>). We will continue to implement new metrics, including a sustainability score. We will also develop other technical features, such as a GitHub Action, and integration technology for embedding with scientific communication platforms like [openRxiv](https://openrxiv.org/) to automatically assess software and analysis repositories that are associated with posted preprints. These innovations will put the Almanack into the hands of those who can benefit most: researchers, developers, and educators who are shaping the future of scientific software.
