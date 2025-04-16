@@ -2,7 +2,7 @@
 
 #### Contributed by: [Dave Bunten](https://github.com/d33bs), [Will Davidson](https://github.com/willdavidson05), and [Gregory P. Way](https://github.com/gwaybio)
 
-#### Publication date: April 15, 2025
+#### Publication date: April 16, 2025
 
 <!-- start of deck text -->
 Scientific software underpins modern research, yet much of it suffers from fragility due to poor design and maintenance, threatening sustainability and trust. The Software Gardening Almanack introduces a new paradigm, treating software as a living ecosystem that can be nurtured to promote long-term resilience and reproducibility.
