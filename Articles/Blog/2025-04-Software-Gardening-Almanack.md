@@ -94,7 +94,7 @@ We are also deeply grateful to the following individuals and organizations whose
 
 ### Author bios
 
-Dave Bunten is a Software Developer with the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). He has over a decade of experience in the field of software development through various roles in his career. His keen interest in software design, collaboration, and innovation has driven him to explore various areas of the field. He is particularly passionate about research data engineering, in-memory data flow, and scientific software.
+Dave Bunten is a Research Software Engineer with the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). He has over a decade of experience in the field of software development through various roles in his career. His keen interest in software design, collaboration, and innovation has driven him to explore various areas of the field. He is particularly passionate about research data engineering, in-memory data flow, and scientific software.
 
 Will Davidson is a Computer Science student at the University of Colorado Boulder and an incoming Developer at Capital Group. Previously, he interned at the University of Colorado Anschutz Medical Campus, where he contributed to the Software Gardening Almanack. His work focused on software entropy analysis, Git-based metrics, and developing tools to support long-term software resilience. He is passionate about open-source development and creating innovative, high-impact software that addresses complex challenges.
 
