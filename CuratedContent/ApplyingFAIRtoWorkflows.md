@@ -1,4 +1,6 @@
+
 # Applying the FAIR Principles to Computational Workflows
+
 <!--deck text start-->
 
 Whether your computational workflow employs a small set of bash scripts,
@@ -32,9 +34,9 @@ FAIR does not require workflows to be open but are applicable to authors and com
 
 The recommendations are not rigid rules but a starting point for improving FAIRness based on community practices and feedback.
 
+<!---
 Publish: yes
 Topics: Reproducibility, Design, Requirements, Big Data
 Pinned: no
 RSS update: 2025-04-24
 --->
-!!v!vi!
