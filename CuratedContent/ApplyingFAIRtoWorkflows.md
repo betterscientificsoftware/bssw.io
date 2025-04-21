@@ -14,7 +14,7 @@ This article explains the components of computational workflows and the benefits
 <!--deck text end-->
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
-#### Publication date: April 16, 2025
+#### Publication date: April 24, 2025
 
 Resource information | Details
 :--- | :---
@@ -35,6 +35,6 @@ The recommendations are not rigid rules but a starting point for improving FAIRn
 Publish: yes
 Topics: Reproducibility, Design, Requirements, Big Data
 Pinned: no
-RSS update: 2025-04-16
+RSS update: 2025-04-24
 --->
 !!v!vi!
