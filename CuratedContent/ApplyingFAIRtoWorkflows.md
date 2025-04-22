@@ -7,8 +7,7 @@ Whether your computational workflow employs a small set of bash scripts,
 or a digital notebook on your laptop, or is a complex workflow that
 utilizes a workflow management system (WMS) on High Performance Computing (HPC) resources,
 managing the resulting digital objects is crucial for promoting greater transparency and reproducibility.
-This article explains the components of computational workflows and the benefits of applying Findable, Accessible, Interoperable and Reusable (FAIR) data and software principles to the workflows
-.
+This article explains the components of computational workflows and the benefits of applying Findable, Accessible, Interoperable and Reusable (FAIR) data and software principles to the workflows.
 
 
 
