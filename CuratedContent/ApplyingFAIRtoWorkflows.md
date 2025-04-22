@@ -27,7 +27,7 @@ Focus | FAIR Computational Workflows
 [Applying the FAIR Principles to Computational Workflows](https://www.nature.com/articles/s41597-025-04451-9) addresses both FAIR data and software principals for computational workflows, with specific recommendations applicable to workflows for workflow authors, WMS developers, registries and repositories.
 The Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW), a global and open community of researchers and developers working with computational workflows across disciplines and domains, explains the application of FAIR principles to computational workflows.
 
-As computation workflows are becoming increasingly complex and automated, while the underlying systems are abstracted by higher level languages, tools and management systems, it becomes essential to apply FAIR principles to computational workflows.
+As computation workflows grow increasingly complex and automated, while the underlying systems are abstracted by higher level languages, tools and management systems, it becomes essential to apply FAIR principles to computational workflows.
 Applying FAIR principles can also help individual researchers meet reproducibility and transparency requirements of most publications.
 
 FAIR does not require workflows to be open but are applicable to authors and companies that purposely choose not to publish workflows or metadata; they can still use local or “inner FAIR” principles.
