@@ -11,14 +11,14 @@ Find curated, expert-written content on how to improve your MPI application perf
 This blog post introduces [MPI Performance Guidelines](https://mpi-performance-guidelines.github.io/) – an online community resource for sharing independent, standards-based MPI performance guides. The guides are:
 
 * **Best Practices**: Show users how to avoid common pitfalls or well-known bottlenecks when using MPI communication routines in their application. 
-* **Portable**: The included [examples](https://github.com/mpi-performance-guidelines/examples) are MPI programs which can build and run using any MPI implementation (that supports the required standard APIs). For examples which rely on implementation-specific settings, such as environment variables, show results with at least two implementations to demonstrate portability.
+* **Portable**: The included [examples](https://github.com/mpi-performance-guidelines/examples) are MPI programs that can build and run using any MPI implementation (that supports the required standard APIs). Examples that rely on implementation-specific settings, such as environment variables, show results with at least two implementations to demonstrate portability.
 * **Open Source**: The MPI Performance Guidelines site is open for [contributions](https://mpi-performance-guidelines.github.io/contributing)! Suggestions for new guides are welcome, as well as improvements to existing content.
 
 ### The focus is on performance
 
-The [MPI Standard](https://www.mpi-forum.org/docs/) is vast. It contains 1000+ pages of technical specification that is not intended for end-users. Existing online MPI tutorial materials typically focus on functionality and correctness of MPI programs, with performance optimization left as an exercise for reader. MPI Performance Guidelines aims to fill that gap by focusing on performance using common scientific application use-cases, e.g. halo exchange. By demonstrating the way MPI experts structure their communication, our guides can enable users to push their scientific applications further.
+The [MPI Standard](https://www.mpi-forum.org/docs/) is vast. It contains 1000+ pages of technical specification that is not intended for end-users. Existing online MPI tutorial materials typically focus on functionality and correctness of MPI programs, with performance optimization left as an exercise for the reader. MPI Performance Guidelines aims to fill this gap by focusing on performance using common scientific application use-cases, e.g., halo exchange. By demonstrating the way MPI experts structure their communication, our guides can enable users to push their scientific applications further.
 
-Our guides are intended for users that have some familiarity with MPI. That is, they have written MPI programs, but may not have considered performance optimization yet for running on larger machines or larger problem sizes.
+Our guides are intended for users who have some familiarity with MPI. That is, they have written MPI programs but may not have considered performance optimization yet for running on larger machines or larger problem sizes.
 
 MPI Performance Guidelines' initial set of guides cover:
 
