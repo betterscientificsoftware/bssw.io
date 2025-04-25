@@ -374,7 +374,7 @@ Finally, the OpenSSF Best Practices Badge App site has the potential to provide 
 * <a name="sfer-ezikiw-5"></a><sup>5</sup>[OpenSSF Best Practices Badge App Project Statistics](https://bestpractices.coreinfrastructure.org/en/project_stats)
 * <a name="sfer-ezikiw-6"></a><sup>6</sup>[FLOSS Best Practices Criteria (All Levels)](https://bestpractices.coreinfrastructure.org/en/criteria)
 * <a name="sfer-ezikiw-7"></a><sup>7</sup>[OpenSSF Best Practices Criteria Statistics](https://bestpractices.coreinfrastructure.org/en/criteria_stats)
-* <a name="sfer-ezikiw-8"></a><sup>8</sup>[White House Cyber Security Executive Order 14028](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[White House Cyber Security Executive Order 14028](https://www.federalregister.gov/d/2021-10460)
 * <a name="sfer-ezikiw-9"></a><sup>9</sup>[Code Complete 2nd Edition](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
 * <a name="sfer-ezikiw-10"></a><sup>10</sup>[description_good](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.description_good)
 * <a name="sfer-ezikiw-11"></a><sup>11</sup>[interact](https://bestpractices.coreinfrastructure.org/en/criteria/0#0.interact)
