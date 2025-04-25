@@ -8,7 +8,7 @@
 
 #### Publication date: June 26, 2024
 
-Software bills of materials (SBOMs) provide a list of the components, libraries, and modules that are required to build a piece of software. The [United States 2021 Executive Order on Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) highlights the role of SBOMs in supporting risk assessments for newly discovered vulnerabilities.  Further, the U.S. National Institute of Standards and Technology (NIST) released its [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf), which requires SBOM information to be available for software. Both open-source and commercial software are impacted by these policies.  Consequently, developers of scientific software should expect that the use of their software may be restricted in some contexts unless accurate SBOMs can be generated.
+Software bills of materials (SBOMs) provide a list of the components, libraries, and modules that are required to build a piece of software. The [United States 2021 Executive Order on Cybersecurity](https://www.federalregister.gov/d/2021-10460) highlights the role of SBOMs in supporting risk assessments for newly discovered vulnerabilities.  Further, the U.S. National Institute of Standards and Technology (NIST) released its [Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf), which requires SBOM information to be available for software. Both open-source and commercial software are impacted by these policies.  Consequently, developers of scientific software should expect that the use of their software may be restricted in some contexts unless accurate SBOMs can be generated.
 Conversely, as SBOMs become more widely available for scientific software, developers will also be able to use them to better understand the risks and vulnerabilities of the software on which they depend.
 
 </br>
@@ -50,7 +50,7 @@ Here is a synopsis of the key points from these blogs:
 * [SBOMs for Scientific Software: Python](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-python.html)
 * [SBOMs for Scientific Software: C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html)
 * [NTIA Software Bill of Materials](https://www.ntia.gov/page/software-bill-materials)
-* [United States Executive Order on Improving the Nation's Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
+* [United States Executive Order on Improving the Nation's Cybersecurity](https://www.federalregister.gov/d/2021-10460)
 * [NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
 
 ### Acknowledgment
