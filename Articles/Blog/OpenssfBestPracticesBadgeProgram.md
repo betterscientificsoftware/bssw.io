@@ -294,8 +294,8 @@ One large potential untapped contribution of the Badge App site is that it can s
 In theory, one could fork, modify, and deploy a customized version of the OpenSSF Best Practices Badge Site targeted to an internal organization's projects.
 This is allowed because the [Badge App site source on GitHub](https://github.com/coreinfrastructure/best-practices-badge) uses the very permissive [MIT License](https://github.com/coreinfrastructure/best-practices-badge/blob/main/LICENSE) which allows for commercial usage.
 
-Information on how to fork, customize, and deploy a modified set of best practices is described in the [Badge App Implementation page](https://github.com/coreinfrastructure/best-practices-badge/blob/main/doc/implementation.md) which is pointed to by the Badge App's [documentation_architecture] entry.
-In particular the section [changing criteria](https://github.com/coreinfrastructure/best-practices-badge/blob/main/doc/implementation.md#changing-criteria) describes how to modify the existing items, including adding and removing items.
+Information on how to fork, customize, and deploy a modified set of best practices is described in the [Badge App Implementation page](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/implementation.md) which is pointed to by the Badge App's [documentation_architecture] entry.
+In particular the section [changing criteria](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/implementation.md#changing-criteria) describes how to modify the existing items, including adding and removing items.
 
 For example, a U.S. DOE program could create a customized best practices site based on the OpenSSF Best Practices Badge App site specialized for specific internal programs of great importance to U.S. national security.
 
