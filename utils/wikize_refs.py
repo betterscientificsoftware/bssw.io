@@ -689,13 +689,14 @@ def build_reference_list_lines(remapped_ref_map, renumber, has_basic_footnotes):
 
     return outlines
 
-def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place, skip_backup):
+def write_output_file(file_lines, out_lines, in_filename, out_filename, in_place, skip_backup, utd):
     """Write the output file. But, only if it would be different than the input."""
 
     with open(in_filename, 'r') as inf:
         in_lines = inf.readlines()
         if str().join(out_lines) == str().join(in_lines):
-            print("\"%s\" is up to date. No changes will be made."%in_filename)
+            if not utd: # only emit this message if we're not testing if up to date
+                print("\"%s\" is up to date. No changes will be made."%in_filename)
             return 2
 
     # don't make the backup if asked not to
@@ -756,7 +757,7 @@ def main(opts, mdfile):
     # Ok, now actually write the updated file
     flines = [file_lines[k]['line'] for k in sorted(file_lines)]
     return write_output_file(flines, out_lines, mdfile, opts['outfile'], opts['in_place'],
-        opts['skip_backup'])
+        opts['skip_backup'], opts['up_to_date'])
 
 #
 # So this python script can be used both as a shell command
