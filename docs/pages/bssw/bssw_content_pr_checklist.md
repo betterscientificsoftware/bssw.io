@@ -29,6 +29,7 @@ Resolves #`<issue-id>`
 
 * [ ] ***[Author]*** `@mention` the BSSw.io editorial board member `@<eb-member-id>` in **Description** above assigned to shepherd your PR.
 * [ ] ***[Author]*** Add the `<issue-id>` in the **Description** above for the associated GitHub Issue.
+* [ ] ***[Author]*** ensure the submission uses [one sentence per line](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line).
 * ~~[ ] ***[Author]*** Ensure `wikize_refs.py -i <base>.md` is run and commit (if using [wikize_refs.py])~~.
 * [ ] ***[Author]*** Inspect the content in the `*.md` file(s) as rendered in GitHub for this PR.
 * [ ] ***[EB Mem]*** Assign this PR to the EB member `<eb-member-id>`.
