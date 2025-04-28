@@ -35,7 +35,7 @@ This work was supported by the Better Scientific Software Fellowship Program, a 
 
 ### Author bio
 
-Ken Raffenetti is a principal software development specialist in the Mathematics and Computer Science Division at Argonne National Laboratory. He received his B.S. in computer science from the University of Illinois at Urbana-Champaign. He joined Argonne in 2006, where he worked for seven years as a systems administrator.
+Ken Raffenetti is a principal specialist, research software engineering, in the Mathematics and Computer Science Division at Argonne National Laboratory. He received his B.S. in computer science from the University of Illinois at Urbana-Champaign. He joined Argonne in 2006, where he worked for seven years as a systems administrator.
 
 In 2013, Ken joined the Programming Models and Runtime Systems group, focused on the development of systems software for high-performance computing applications. Ken’s research interests include parallel programming models and low-level communication libraries. In particular, Ken is involved in the definition of the Message Passing Interface (MPI) standard and is a key maintainer of MPICH, the leading implementation of MPI. He is also a member of community working groups focused on the implementation and standardization of critical HPC software, including the [PMIx Administrative Steering Committee](https://pmix.github.io/), [OpenFabrics Interfaces Working Group](https://github.com/ofiwg), and [Unified Communication Framework](https://ucfconsortium.org/).
 
