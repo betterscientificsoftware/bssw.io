@@ -53,6 +53,8 @@ Anticipating these changes allows for targeted investments in TC that facilitate
 
 **Practical Implications of Technical Credit:**
 
+Some of the practical implications to the successful implementation of a TC effort might include:
+
 * **Strategic Planning:** Incorporating TC into project planning encourages teams to consider long-term impacts, leading to more resilient and adaptable systems.​
 
 * **Resource Allocation:** Allocating time and resources to TC can reduce maintenance costs and speed up the implementation of future features.​
@@ -69,7 +71,7 @@ However, some of the obvious potential arguments against aggressive forms of TC 
 
 * **Opportunity Cost and Resource Allocation:** Investing in TC diverts immediate resources from delivering user-visible features, potentially affecting market competitiveness or customer satisfaction.
 
-** Difficulty Measuring ROI:** Unlike TD, where costs are measurable as they occur, the benefits of TC may be speculative, uncertain, or intangible, complicating justification to stakeholders.
+* **Difficulty Measuring ROI:** Unlike TD, where costs are measurable as they occur, the benefits of TC may be speculative, uncertain, or intangible, complicating justification to stakeholders.
 
 * **Risk of Unnecessary Complexity:** Premature investments aimed at future-proofing may add unnecessary complexity, making software more challenging to maintain rather than easier.
 
