@@ -84,7 +84,7 @@ However, one should balance these potential benefits with the risks of higher in
 
 <!---
 Publish: yes
-Topics: ???
+Topics: software engineering, Software process improvement, Projects and organizations, Requirements, Design, software sustainability
 Pinned: no
 RSS update: 2025-04-28
 --->
