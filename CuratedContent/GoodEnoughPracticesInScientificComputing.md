@@ -52,7 +52,7 @@ thousands of participants in Software Carpentry and Data Carpentry workshops.
 
 See:
 * [Software Carpentry](http://software-carpentry.org)
-* [Data Carpentry](http://data-carpentry.org)
+* [Data Carpentry](http://datacarpentry.org)
 
 
 <!---
