@@ -23,7 +23,7 @@ Publication | 2014, [sciencedirect.com/science/article/pii/S1877050914001252](ht
 
 **What Is Technical Credit?**
 
-The concept of "Technical Credit" (TC) in software engineering serves as a counterpart to the well-established metaphor of "Technical Debt" (TD).
+The concept of "Technical Credit" (TC) in software engineering serves as a counterpart to the well-established metaphor of ["Technical Debt" (TD)](https://bssw.io/items/technical-debt-in-practice-how-to-find-it-and-fix-it).
 While TD refers to the future costs incurred by taking shortcuts in software development, TC represents proactive investments made to enhance a system's long-term adaptability and maintainability.​
 One of the earliest references to the term "Technical Credit", playing off the "Technical Debt" metaphor, appears to be the 2014 article above.
 
