@@ -4,7 +4,7 @@
 We invite submissions for the third US-RSE Conference to be held in Philadelphia, Pennsylvania 6-8 October 2025. The theme of this year’s conference will be “Code, Practices, and People.”
 <!-- deck text ends -->
 
-- Deadline for most submissions: May 2, 2025
+- Deadline for most submissions: May 16, 2025
 - Deadline for posters: July 20, 2025
 - Event Dates: October 6-8, 2025
 - Location: Philadelphia, PA
@@ -18,7 +18,7 @@ We invite submissions for the third US-RSE Conference to be held in Philadelphia
 Event Information | Details
 :--- | :---			   
 Event Name | [3rd Annual Conference of the United States Research Software Engineer Association (US-RSE'24)](https://us-rse.org/usrse25/)
-Deadline for most submissions | May 2, 2025
+Deadline for most submissions | May 16, 2025
 Deadline for posters | July 20, 2025
 Event Dates | October 6-8, 2025
 Website | https://us-rse.org/usrse25/
