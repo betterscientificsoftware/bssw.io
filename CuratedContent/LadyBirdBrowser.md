@@ -18,6 +18,7 @@ I do work on GitHub, interact with ChatGPT and find and read documentation just 
 In this video, Andreas Kling gives a brief overview of the browser business and introduces the [LadyBird](https://ladybird.org) browser; a non-profit driven effort to develop, from scratch, a wholly new, C++ based web browser.
 
 I was stunned to learn that all widely and currently available web browsers trace their funding and/or code bases back to the 35 million lines of code comprising Google Chrome.
+Although LadyBird is still in pre-alpha status, it is less than half a million lines of code.
 
 Andreas touches on many aspects of LadyBird software development relevant to the HPC/CSE community including such things as growing a small project and attracting sponsors, demonstrating performance and functionality against industry standard tests and addressing the long tail of corner cases and compliance issues essential to supplanting existing competitors.
 
