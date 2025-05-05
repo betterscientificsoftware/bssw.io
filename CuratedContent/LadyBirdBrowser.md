@@ -15,7 +15,8 @@ Web link | [YouTube Video ~30 min](https://youtu.be/9YM7pDMLvr4?si=snHsYVzCLssfg
 I don't know about everyone else in the HPC/CSE community but I use my web browser just about every day for many things.
 I do work on GitHub, interact with ChatGPT and find and read documentation just to name a few reasons I use a web browser.
 
-In this video, Andreas Kling gives a brief overview of the browser business and introduces the [LadyBird](https://ladybird.org) browser; a non-profit driven effort to develop, from scratch, a wholly new, C++ based web browser.
+Andreas Kling developed on browsers for several major companies within the tech industry for 15+ years.
+In this video, he gives a brief overview of the browser business and introduces the [LadyBird](https://ladybird.org) browser; a non-profit driven effort to develop, from scratch, a wholly new, C++ based web browser.
 
 I was stunned to learn that all widely and currently available web browsers trace their funding and/or code bases back to the 35 million lines of code comprising Google Chrome.
 Although LadyBird is still in pre-alpha status, it is less than half a million lines of code.
