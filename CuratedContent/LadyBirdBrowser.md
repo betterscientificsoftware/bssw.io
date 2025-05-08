@@ -18,12 +18,13 @@ I do work on GitHub, interact with ChatGPT and find and read documentation just 
 Andreas Kling developed on browsers for several major companies within the tech industry for 15+ years.
 In this video, he gives a brief overview of the browser business and introduces the [LadyBird](https://ladybird.org) browser; a non-profit driven effort to develop, from scratch, a wholly new, C++ based web browser.
 
-I was stunned to learn that all widely and currently available web browsers trace their funding and/or code bases back to the 35 million lines of code comprising Google Chrome.
-Although LadyBird is still in pre-alpha status, it is less than half a million lines of code.
+Did you know that all widely and currently available web browsers trace a majority of their funding and code base back to Google and the Chrome browser?
+While Chrome is 35+ million lines of code, LadyBird is less than half a million and passes the [Acid3](https://en.wikipedia.org/wiki/Acid3) test.
 
-Andreas touches on many aspects of LadyBird software development relevant to the HPC/CSE community including such things as growing a small project and attracting sponsors, demonstrating performance and functionality against industry standard tests and addressing the long tail of corner cases and compliance issues essential to supplanting existing competitors.
+In the video, Andreas touches on many aspects of LadyBird software development including topics that resonate with the HPC/CSE community.
+This includes such things as growing a small project and attracting sponsors, demonstrating performance and functionality against industry standard tests and addressing the long tail of corner cases and compliance issues essential to supplanting older technologies.
 
-In addition to the very interesting and relevant software development story of LadyBird, our HPC/CSE community may find a new, independently developed and unencumbered by commercial interests browser a useful tool to have for our own daily software development activity.
+In addition to the very interesting and relevant software development story of LadyBird, our HPC/CSE community may find a new, independently developed and unencumbered-by-commercial-interests browser a useful tool to have for our own daily software development activity.
 Some may even find it worthwhile to [help with development](https://github.com/LadybirdBrowser/ladybird).
 
 <!---
