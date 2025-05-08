@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2025-01-29*
+*Listed in reverse chronological order. Last updated: 2025-05-08*
+
+- 2025-05-07: [Making Research Software FAIR: Background and Practical Steps](https://ideas-productivity.org/events/hpcbp-090-fair-software), presented by Bhavesh Patel (FAIR Data Innovations Hub, California Medical Innovations Institute)
 
 - 2025-01-22: [High-Performance Computing and Software Sustainability: Toward Green Software Development](https://ideas-productivity.org/events/hpcbp-089-green-software), presented by Antigoni Georgiadou (Oak Ridge National Laboratory)
 
@@ -209,7 +211,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2025-01-29
+#### Publication date: 2025-05-08
 
 <!---
 Publish: yes
