@@ -61,7 +61,7 @@ BSSw Fellows are selected annually based on an application process that includes
 
 
 ### Author bio
-Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading the Trinity Center of Excellence, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/projects/advanced-simulation-computing)) codes for [Trinity](https://www.lanl.gov/projects/trinity/index.php) and future architectures.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
+Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is leading the Trinity Center of Excellence, helping  improve critical NNSA Advanced Simulation and Computing ([ASC](https://www.lanl.gov/about/mission/advanced-simulation-and-computing/platforms/)) codes for [Trinity](https://www.lanl.gov/about/mission/advanced-simulation-and-computing/platforms/trinity/) and future architectures. She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://doep3meeting2019.lbl.gov) for three years.
 
 
 <!---
