@@ -7,7 +7,7 @@ We want and need contributions to the BSSw site from the community. If you have 
 <!-- start of body -->
 ### Background
 
-The BSSw site focuses on collaborative content development on general topics related to [developer productivity](Articles/WhatIsProductivity.md) and [software sustainability](Articles/WhatIsSustainability.md).  
+The BSSw site focuses on collaborative content development on general topics related to [developer productivity](Articles/WhatIs/WhatIsSwProductivity.md) and [software sustainability](Articles/WhatIs/WhatIsSwSustainability.md)  
 
 Developer productivity and software sustainability efforts for computational science and engineering (CSE) benefit from communicating the experiences, insights, and curated content from a broad spectrum of community members.
 
