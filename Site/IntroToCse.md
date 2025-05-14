@@ -3,7 +3,7 @@ Computational science and engineering (CSE) is a multidisciplinary field of rese
 
 CSE is devoted to the development and use of computational methods for scientific discovery in all branches of the sciences, for the advancement of innovation in engineering and technology, and for the support of decision-making across a spectrum of societally important application areas. CSE is widely recognized as an essential driver of scientific and technological progress in conjunction with theory and experiment.  
 
-The broad impact of CSE and next-generation opportunities are summarized in the article: [_Research and Education in Computational Science and Engineering_](https://dx.doi.org/10.1137/16M1096840), U. Rüde, K. Willcox, L.C. McInnes, H. De Sterck, SIAM Review, 2018, led by the [SIAM Activity Group on CSE](https://www.siam.org/activity/cse).
+The broad impact of CSE and next-generation opportunities are summarized in the article: [_Research and Education in Computational Science and Engineering_](https://dx.doi.org/10.1137/16M1096840), U. Rüde, K. Willcox, L.C. McInnes, H. De Sterck, SIAM Review, 2018, led by the [SIAM Activity Group on CSE](https://www.siam.org/get-involved/connect-with-a-community/activity-groups/computational-science-and-engineering).
 
 ### Why Is CSE Software So Important?
 Software is the key crosscutting technology that connects advances in applied mathematics, computer science, and domain-specific science and engineering for advanced discovery and analysis in CSE. While software is becoming more complex because of multiphysics and multiscale modeling, the coupling of data analytics, and disruptive changes in computer hardware, software itself has not traditionally received focused attention in the CSE community.  
