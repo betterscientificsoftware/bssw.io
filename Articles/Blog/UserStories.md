@@ -23,7 +23,7 @@ Additional information about the user story approach can be found at:
 
 ### Examples of user stories
 
-The [IDEAS project](https://bssw.io/items/ideas-software-productivity-project) has been pursuing the user story approach to streamline the project’s activities and also to understand how user stories can support scientific software development efforts. Based on our experiences, the stories are classified as follows:
+The [IDEAS project](https://ideas-productivity.org/) has been pursuing the user story approach to streamline the project’s activities and also to understand how user stories can support scientific software development efforts. Based on our experiences, the stories are classified as follows:
 
 - **Training and documentation**: stories related to specific needs for documentation and training, such as the casual usage of services for revision control, description of design patterns for revision control, design of specific training courses (e.g., on new features in a programming language), etc.
 - **Software integration and testing**: stories related to component integration and testing, software robustness, multi-repository development, process to stress software functionalities under different compilation scenarios, etc.
