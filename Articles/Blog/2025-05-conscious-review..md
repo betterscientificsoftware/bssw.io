@@ -10,21 +10,21 @@ Reviewing with awareness, integrity, and care is a responsibility we owe to each
 
 In scientific software, reviewing is more than a service. It is an act of stewardship. Whether we are evaluating papers, proposals, or software contributions, how we review shapes the trajectory of research, influences funding decisions, and signals what our community values.
 
-This blog post advocates for conscious reviewing: engaging in review activities with awareness, integrity, and care. Conscious reviewing is about more than checking a box or adding a line to one's CV; it is a responsibility we owe to each other and to the future of scientific discovery using computations.
+This blog post advocates for conscious reviewing: engaging in review activities with awareness, integrity, and care. Conscious reviewing is about more than checking a box or adding a line to one's CV; it is a responsibility we owe to each other and to the future of scientific discovery using computation.
 
 ### Reviewing is a commitment, not a line on a CV
 
 Reviews and scores are the academic currency of the scientific work. They affect funding decisions, publication acceptances, and ultimately careers in research.
-Agreeing to review is not something we should do lightly. It is a commitment of time, and a responsibility to our peers. It is not a line to pad one's service record.
+Agreeing to review is not something we should do lightly. It is a commitment of time and a responsibility to our peers. Being a reviewer is not a line to pad one's service record.
 
-**Recommendation:** Accept review invitations only if you have the bandwidth and the intention to provide a constructive, thoughtful review. Declining when one is too busy is far better than rushing through a superficial review at the last minute. It is not only detrimental to science, it devalues the work of our peers.
+**Recommendation:** Accept review invitations only if you have the bandwidth and the intention to provide a constructive, thoughtful review. Declining when one is too busy is far better than rushing through a superficial review at the last minute. Rushing with a review is not only detrimental to science; a rushed review devalues the work of our peers.
 
 ### Maintenance and incremental work deserve respect
 
 There is a tendency to view incremental or maintenance-oriented research as “not novel enough.”
 In the context of scientific software, this is particularly problematic.
 Updates that improve software tools' usability, performance, or sustainability may not be flashy, but they are foundational to long-term scientific impact.
-Conscious reviewing should value these contributions appropriately. Not every paper needs to revolutionize the field directly. Community tools improve incrementally with feedback from their users, and are more likely to result in revolutionary discoveries by enabling better exploration. Therefore, the efforts to improve the tools deserve visibility and support.
+Conscious reviewing should value these contributions appropriately. Not every paper needs to revolutionize the field directly. Community tools improve incrementally with feedback from their users and are more likely to result in revolutionary discoveries by enabling better exploration. Therefore, the efforts to improve the tools deserve visibility and support.
 
 **Recommendation:** Review with humility and empathy. Ask: What is the actual contribution? Is it valuable to the community—even if it's not flashy? Is the tool critical for scientists? Will making it work better improve its impact on scientific discovery?
 
