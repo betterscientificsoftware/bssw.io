@@ -52,7 +52,7 @@ Our goal as reviewers should be to improve the quality of work submitted to our 
 Conscious reviewing works best when we see it as an act of service – an investment in the health of our research ecosystem. It is a system that thrives when reviewers commit the time, apply community values, and treat each submission as an opportunity to mentor and elevate others.
 If we want better reviews for our own work, we must write better reviews for others. If we want a community that values both novelty and reliability, we must acknowledge the importance of incremental, maintenance, and software contributions. If we want fairness, we must review with fairness.
 
-Let’s raise the bar—not just for papers and proposals, but for ourselves as reviewers.
+Let’s raise the bar—not just for papers and proposals, but for ourselves as reviewers!
 
 <!-- the editors have determined that we do not need such disclaimers
 *This work reflects the thoughts of the authors and not an AI engine. To improve the readability, the authors relied on Grammarly and Writeful.*
