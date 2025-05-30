@@ -1,6 +1,6 @@
-# What's in a browser?
+# What's in a Browser?
 <!--deck text start-->
-Can a new, from scratch, half-million line, C++ based web browser compete with the 35 million line Chrome browser?
+Can a new, from scratch, half-million line, C++ based web browser compete with the 35-million-line Chrome browser?
 <!--deck text end-->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
