@@ -5,7 +5,7 @@
 #### Publication date: May 28, 2025
 
 <!--deck start-->
-Reviewing with awareness, integrity, and care is a responsibility we owe to each other and to the future of scientific discovery though computation.
+Reviewing with awareness, integrity, and care is a responsibility we owe to each other and to the future of scientific discovery through computation.
 <!--deck end-->
 
 In scientific software, reviewing is more than a service. It is an act of stewardship. Whether we are evaluating papers, proposals, or software contributions, how we review shapes the trajectory of research, influences funding decisions, and signals what our community values.
