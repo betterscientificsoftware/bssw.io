@@ -5,7 +5,7 @@ The international exascale computing community is working toward unprecedented c
 When paired with critical advances in CSE algorithms and software, the enormous power of extreme-scale architectures will enable high-fidelity multiscale, multiphysics modeling, simulation, and analysis, leading to accelerated, broadly impactful scientific discoveries. The challenge is how to deliver and effectively use systems that are capable of at least one quintillion (10<sup>18</sup>) calculations per second. (In comparison, today’s fastest supercomputers operate in the petascale range of 10<sup>15</sup> calculations per second.) One approach currently being explored is a holistic approach that coordinates efforts to achieve an integrated exascale ecosystem. For more information, see the following.
 
 - [U.S. Exascale Computing Project (ECP)](https://exascaleproject.org "ECP Homepage")
-- [European Exascale Software Initiative (EESI)](http://www.eesi-project.eu "EESI Homepage")
+- [European Exascale Software Initiative (EESI)](https://www.bsc.es/research-and-development/projects/eesi-european-exascale-software-initiative-20102011 "EESI archive page")
 - [Japanese FLAGSHIP 2020 Project](https://aics.riken.jp/fs2020p/en/index.html "FLAGSHIP 2020 Homepage")
 
 <!--
