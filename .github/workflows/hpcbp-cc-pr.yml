@@ -20,7 +20,7 @@ jobs:
       - name: Download the new curated content article
         uses: carlosperate/download-file-action@v2
         with:
-          file-url: https://ideas-productivity.org/internal/hpcbp-webinars/hpcbp-webinars-cc.md
+          file-url: https://ideas-productivity.org/internal/hpcbp-webinars-cc.md
           location: 'CuratedContent'
           file-name: hpcbp-webinars-cc.md
 
