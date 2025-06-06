@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2025-05-08*
+*Listed in reverse chronological order. Last updated: 2025-06-06*
+
+- 2025-06-04: [Practical Software Citation for Research Software Developers, Maintainers and Users](https://ideas-productivity.org/events/hpcbp-091-software-citation), presented by Stephan Druskat (German Aerospace Center (DLR), Institute of Software Technology)
 
 - 2025-05-07: [Making Research Software FAIR: Background and Practical Steps](https://ideas-productivity.org/events/hpcbp-090-fair-software), presented by Bhavesh Patel (FAIR Data Innovations Hub, California Medical Innovations Institute)
 
@@ -211,7 +213,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2025-05-08
+#### Publication date: 2025-06-06
 
 <!---
 Publish: yes
