@@ -1,0 +1,161 @@
+name: Check URLs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * 0' # 5:17 AM every Sunday
+  pull_request:
+    branches: [ main ]
+env:
+  ignore_file_patterns: |
+    docs
+    images
+    utils
+    Events
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip --no-cache-dir --disable-pip-version-check install --upgrade pip
+        python -m pip --no-cache-dir --disable-pip-version-check install linkchecker
+
+    - name: Reformat environment variables
+      id: setup_vars
+      run: |
+        tmp=$(echo "${{ env.ignore_file_patterns }}" | tr '\n' ' ')
+        echo "ignore_file_patterns=$tmp" >> $GITHUB_OUTPUT
+
+    - name: Checkout Repo for PR branch
+      if: ${{ github.event_name == 'pull_request' }}
+      uses: actions/checkout@v4
+
+    - name: Checkout Repo for link check
+      if: ${{ github.event_name != 'pull_request' }}
+      uses: actions/checkout@v4
+      with:
+        ref: 'sched-link-checks'
+
+    - name: Sync main to link check branch
+      if: ${{ github.event_name != 'pull_request' }}
+      run: | 
+        git config user.name 'github-actions'
+        git config user.email 'github-actions@github.com'
+        git fetch origin main
+        git merge origin/main --no-edit -X thiers
+        git push origin sched-link-checks
+
+    - name: Get Changed Files (for PRs)
+      if: ${{ github.event_name == 'pull_request' }}
+      id: changed-files
+      uses: tj-actions/changed-files@v42
+      with:
+        separator: ' '
+
+    - name: Generate lists of files to check and ignore
+      id: file_list
+      run: |
+        if [ "${{ github.event_name }}" = "pull_request" ]; then
+          echo "files=${{ steps.changed-files.outputs.all_changed_files }}" >> $GITHUB_OUTPUT
+          echo "ignore_file_patterns=" >> $GITHUB_OUTPUT
+        else
+          echo "files=" >> $GITHUB_OUTPUT
+          echo "ignore_file_patterns=${{ steps.setup_vars.outputs.ignore_file_patterns }}" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Check URLs in selected files
+      run: |
+        for f in ${{ steps.file_list.outputs.files }}; do
+            if [ "${f##*.}" != "md" ]; then
+                continue
+            fi
+            for ef in ${{ steps.file_list.outputs.ignore_file_patterns }}; do
+                if [ "$ef" = "$f" ]; then
+                    continue 2 # ignore this file
+                fi
+                fd=$(echo $f | cut -d'/' -f1)
+                if [ "$ef" = "$fd" ]; then
+                    continue 2 # ignore this dir
+                fi
+            done
+            linkchecker -f utils/LinkChecker/.linkcheckerrc file://$(pwd)/$f >> linkchecker.out || true
+            cat linkchecker.out >> linkchecker-all.out
+        done
+
+    - name: Process log
+      run: |
+        python utils/LinkChecker/cklcresults.py ${{ github.event_name }}
+
+    - name: Upload artifact
+      if: ${{ github.event_name == 'pull_request' }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: bad-links
+        path: bad_links.txt
+
+    - name: Update link logs
+      if: ${{ github.event_name != 'pull_request' }}
+      run: |
+        git commit -m 'Update link logs'
+        git push origin sched-link-checks
+
+#
+# Keep the recurring failures and definitely bad lists in repo on
+# branch manage-broken-links
+#
+# Download those files before startin
+#
+# If a link "works" (200) remove it from "recurring failures" list
+# If a link "does not work" (!= 200)
+#    - if it is already on recurring failures list
+#       - if it is too old, flag it as "definitely bad", else nothing
+#       
+#    - if it is not already on persistent failures list, add it to "new" and "persistent failures" list and date it
+
+# 
+# Upload the recurring failures and definitely bad lists to somehwere
+# Report success if definitely bad list is empty, otherwise failure
+# generate email with links or actual data
+#
+# you have to use file:// on command-line to checker
+
+# bare URLs in markdown are not actually links and will not be checked. Many
+# markdown renderers and browsers will recognize these and handle them as links
+# but that is by convention only. There is no markdown standard for how bare
+# URLs in markdown are handled. The only standard is to enclose them in `<` and
+# `>` chars.
+
+#
+# Description:
+#
+# Triggers in one of three ways; 1) manually, 2) scheduled weekly Sunday's 5:17 AM
+# or 3) pull request
+#
+# Stores ignore pattern cases in env. variables and then reformats those (because
+# they have newlines) into a comma-separated single line string that can be digested
+# as inputs to other actions.
+#
+# For PRs, uses changed-files action to get list of changed files and passes this
+# to urlchecker via `include_files param. Also, ignore file patterns is set to 
+# empty string for PRs because we think URLs anywhere in PRs should be checked.
+#
+# For scheduled or manual triggers, uses fact that empty `include_files` param
+# causes urlchecker to process *all* files that match in `file_type` param but do
+# not match any `exclude_files` patterns. These file patterns for exclude work
+# more or less like file globs. So, specifying the initial part of the string
+# for a file (path) name is sufficient to ignore the file.
+#
+# We include Events in file patterns to ignore because of all content we host,
+# we suspect Event URLs are the most likely to go stale rather quickly **and** because
+# the URL validness is important only during the short window prior to the event.
+# That said, we don't want to ignore Events in PRs and we do not as per above.
+#

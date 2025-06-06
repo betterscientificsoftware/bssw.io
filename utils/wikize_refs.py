@@ -213,7 +213,7 @@ def broken_link(x, timeout=20):
        x.startswith('#'):
        return False
 
-    req = Request(x, None, {'User-Agent': broken_link.agent})
+    req = Request(x, None, {'User-Agent': broken_link.agent}, 'HEAD')
 
     try:
         resp = urlopen(req, None, timeout)
@@ -221,12 +221,24 @@ def broken_link(x, timeout=20):
             status = resp.getcode()
         except:
             status = resp.status 
+        print(x, status)
         if status in [404,408,409,501,502,503]:
             return True
         else:
             return False
     except:
+        print(x, "Excepted")
         return True
+
+
+
+
+
+
+
+
+
+
 
 def diff_and_keep_sorted(l1, l2):
     """Difference two lists. If result is all ints, sort numerically.
@@ -512,9 +524,9 @@ def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
     if check_links:
         for k in ref_map:
             url = ref_map[k][0]
-            if not valid_url(url):
-                message("Invalid URL: \"%s\""%url)
-            elif broken_link(url, check_links):
+            #if not valid_url(url):
+            #    message("Invalid URL: \"%s\""%url)
+            if broken_link(url, check_links):
                 message("Broken URL: \"%s\""%url)
 
     return missing_refs

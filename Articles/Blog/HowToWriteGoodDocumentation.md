@@ -36,11 +36,20 @@ For a large team with a transient developer population and a long-lived software
 Use of literate programming is a really good way to produce user level documentation. This approach allows text for manual pages be embedded directly into the source code files and not in separate locations, and workflow for documentation can be integrated into the workflow for development and use. The same is true of inlined informative documentation about the implementation choices. The options for embedded user’s documentation include Doxygen, NDoc, javadoc, EiffelStudio, Sandcastle, ROBODoc, POD, and [TwinTex](https://en.wikipedia.org/wiki/TwinText). A particular challenge exists for writers of Fortran codes, because there isn’t really a good option for automatic generation of manual pages. ROBODoc comes the closest.
 
 ### Examples of documentation in scientific software projects:
+<<<<<<< HEAD:Articles/HowTos/HowToWriteGoodDocumentation.md
+* https://bitbucket.org/pflotran/pflotran-dev/wiki/Home
+* http://yt-project.org/doc/
+* https://petsc.org/release/
+* https://flash.rochester.edu/site/flashcode/user_support/
+* http://www.cactuscode.org/documentation/index.html
+
+=======
 * https://bitbucket.org/pflotran/pflotran
 * https://yt-project.org/doc/
 * https://www.mpich.org/documentation/guides/
 * https://flash.rochester.edu/site/flashcode/user_support/
 * 
+>>>>>>> main:Articles/Blog/HowToWriteGoodDocumentation.md
 ### References
 [1] http://martinfowler.com/bliki/TechnicalDebt.html
 
