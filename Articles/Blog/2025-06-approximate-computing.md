@@ -32,30 +32,30 @@ Approximate computing has moved from the sidelines to center stage as it has bec
 
 ## References
 
-Stodden, V. (2013). Resolving irreproducibility in empirical and computational research. *IMS Bulletin*
+Stodden, V. (2013). Resolving irreproducibility in empirical and computational research. *IMS Bulletin*, url:<https://imstat.org/2013/11/17/resolving-irreproducibility-in-empirical-and-computational-research/>
 
-Langou, J., Langou, J., Luszczek, P., Kurzak, J., Buttari, A. and Dongarra, J. (2006), "Exploiting the Performance of 32 bit Floating Point Arithmetic in Obtaining 64 bit Accuracy (Revisiting Iterative Refinement for Linear Systems)," *SC '06: Proceedings of the 2006 ACM/IEEE Conference on Supercomputing*
+Langou, J., Langou, J., Luszczek, P., Kurzak, J., Buttari, A. and Dongarra, J. (2006), "Exploiting the Performance of 32 bit Floating Point Arithmetic in Obtaining 64 bit Accuracy (Revisiting Iterative Refinement for Linear Systems)," *SC '06: Proceedings of the 2006 ACM/IEEE Conference on Supercomputing*, doi:[10.1145/1188455.1188573](https://doi.org/10.1145/1188455.1188573)
 
-Higham, N., Mary, T. (2022). Mixed precision algorithms in numerical linear algebra. Hal-03537373v1
+Higham, N., Mary, T. (2022). Mixed precision algorithms in numerical linear algebra. Hal-03537373v1, url:<https://hal.science/hal-03537373v2>
 
-Carson, E., & Higham, N. J. (2018). Accelerating the solution of linear systems by using a three-precision iterative refinement algorithm. *SIAM Journal on Scientific Computing*
+Carson, E., & Higham, N. J. (2018). Accelerating the solution of linear systems by using a three-precision iterative refinement algorithm. *SIAM Journal on Scientific Computing*, doi:[10.1137/17M1140819](https://doi.org/10.1137/17M1140819)
 
 Haidar, A., Tomov, S., Dongarra, J. and Higham, N. (2018), Harnessing GPU tensor cores  
 for fast FP16 arithmetic to speed up mixed-precision iterative refinement solvers, in Pro-  
 ceedings of the International Conference for High Performance Computing, Networking,  
-Storage, and Analysis, SC18
+Storage, and Analysis, SC18, doi:[10.1109/SC.2018.00050](https://doi.org/10.1109/SC.2018.00050)
 
-Parasyris, K., Diffenderfer, J., Menon, H., Laguna, I., Vanover, J., Vogt, R., & Osei-Kuffuor, D. (2022, November). Approximate computing through the lens of uncertainty quantification. In *SC22: International Conference for High Performance Computing, Networking, Storage and Analysis* 
+Parasyris, K., Diffenderfer, J., Menon, H., Laguna, I., Vanover, J., Vogt, R., & Osei-Kuffuor, D. (2022, November). Approximate computing through the lens of uncertainty quantification. In *SC22: International Conference for High Performance Computing, Networking, Storage and Analysis*, url:<https://dl.acm.org/doi/10.5555/3571885.3571974>
 
-Parasyris, K., Georgakoudis, G., Menon, H., Diffenderfer, J., Laguna, I., Osei-Kuffuor, D., & Schordan, M. (2021, November). HPAC: evaluating approximate computing techniques on HPC OpenMP applications. In *Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis*
+Parasyris, K., Georgakoudis, G., Menon, H., Diffenderfer, J., Laguna, I., Osei-Kuffuor, D., & Schordan, M. (2021, November). HPAC: evaluating approximate computing techniques on HPC OpenMP applications. In *Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis*, doi:[10.1145/3458817.3476216](https://doi.org/10.1145/3458817.3476216)
 
-Menon, H., Lam, M. O., Osei-Kuffuor, D., Schordan, M., Lloyd, S., Mohror, K., & Hittinger, J. (2018, November). Adapt: Algorithmic differentiation applied to floating-point precision tuning. In *SC18: International Conference for High Performance Computing, Networking, Storage and Analysis*
+Menon, H., Lam, M. O., Osei-Kuffuor, D., Schordan, M., Lloyd, S., Mohror, K., & Hittinger, J. (2018, November). Adapt: Algorithmic differentiation applied to floating-point precision tuning. In *SC18: International Conference for High Performance Computing, Networking, Storage and Analysis*, doi:[10.1109/SC.2018.00051](https://doi.org/10.1109/SC.2018.00051)
 
-Diffenderfer, J., Osei-Kuffuor, D., & Menon, H. (2022). A framework for error-bounded approximate computing, with an application to dot products. *SIAM Journal on Scientific Computing*
+Diffenderfer, J., Osei-Kuffuor, D., & Menon, H. (2022). A framework for error-bounded approximate computing, with an application to dot products. *SIAM Journal on Scientific Computing*, doi:[10.1137/21M1406994](https://doi.org/10.1137/21M1406994)
 
 ### Author bio
 
-Harshitha Menon is a Research Scientist at the Center for Applied Scientific Computing (CASC) at Lawrence Livermore National Laboratory (LLNL). Her research focuses on Large Language Models (LLMs) and Machine Learning for HPC code development, Approximate Computing, and floating-point mixed-precision analysis. She has conducted research focused on understanding the tradeoff between accuracy and performance  through the development of tools and methods, such as ADAPT, HPAC, Puppeteer, and QDOT, that quantify the impact of errors and guide precision tuning. Harshitha received her Ph.D. in 2016 and M.S. in 2012, both from the University of Illinois at Urbana-Champaign. She is a recipient of the ACM/IEEE-CS George Michael Fellowship in 2014, the Anita Borg Scholarship in 2014 and the Siebel Scholarship in 2012\.
+Harshitha Menon is a Research Scientist at the Center for Applied Scientific Computing (CASC) at Lawrence Livermore National Laboratory (LLNL). Her research focuses on Large Language Models (LLMs) and Machine Learning for HPC code development, Approximate Computing, and floating-point mixed-precision analysis. She has conducted research focused on understanding the tradeoff between accuracy and performance  through the development of tools and methods, such as ADAPT, HPAC, Puppeteer, and QDOT, that quantify the impact of errors and guide precision tuning. Harshitha received her Ph.D. in 2016 and M.S. in 2012, both from the University of Illinois at Urbana-Champaign. She is a recipient of the ACM/IEEE-CS George Michael Fellowship in 2014, the Anita Borg Scholarship in 2014 and the Siebel Scholarship in 2012.
 
 <!---
 Publish: yes
