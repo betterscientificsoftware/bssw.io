@@ -8,7 +8,7 @@
 From floating-point representation to iterative solvers, approximation has always been embedded in scientific computing. But today, hardware trends, especially those driven by AI workloads, bring that tradeoff to the forefront. The question is no longer *if* we can tolerate approximation, but *how much* and *where.* This shift redefines how we think about performance in future HPC systems.
 <!--deck end-->
 
-Reproducibility is the bedrock of any scientific process. In computational science, it historically meant that running the simulation multiple times on the same input data should produce the same output -- in some cases bit-for-bit identical results. However, as we push the boundaries of scale and performance in high-performance computing (HPC) to exascale and beyond, we face programming paradigms that enable tradeoffs between accuracy, performance, and energy efficiency. While they accelerate discovery, they should also prompt us to rethink computational reproducibility.
+Reproducibility is the bedrock of any scientific process. In computational science, it historically meant that running the simulation multiple times on the same input data should produce the same output – in some cases bit-for-bit identical results. However, as we push the boundaries of scale and performance in high-performance computing (HPC) to exascale and beyond, we face programming paradigms that enable tradeoffs between accuracy, performance, and energy efficiency. While they accelerate discovery, they should also prompt us to rethink computational reproducibility.
 
 ### What is Approximate Computing and why it matters?
 
@@ -17,7 +17,7 @@ As we reach the limits of Moore’s law and the end of Dennard scaling, there is
 ### Reproducibility
 
 First, we must define what reproducibility means. Dr. Victoria Stodden, a leading expert in this field, classifies reproducibility into three distinct categories: empirical reproducibility, statistical reproducibility, and computational reproducibility.<sup>[1]</sup> 
-Historically, computational reproducibility has often meant bit-exact reproducibility, though that has become harder to achive while taking advantage of the features of modern HPC hardware, and is increasoingly viewed as an unecessarily high bar.
+Historically, computational reproducibility has often meant bit-exact reproducibility, though that has become harder to achieve while taking advantage of the features of modern HPC hardware, and is increasingly viewed as an unnecessarily high bar.
 Statistical reproducibility ensures that results are consistent within statistical bounds across multiple runs. Bounded-error reproducibility guarantees that results remain within acceptable error margins for critical outputs. Semantic reproducibility focuses on whether high-level conclusions and decisions remain unchanged despite numerical differences. One needs to decide what makes sense for their application.
 
 ### Address the challenges
