@@ -25,3 +25,7 @@ Areas of social focus include using constructive and specific language and code 
 The workshop will also cover fundamental GitHub collaboration skills, including forking, cloning, and pull requests. The workshop will also cover effective code review. These lessons will be integrated into pyOpenSci's online mentored sprints and tutorials, providing a platform for hands-on learning and real-time engagement.
 
 Leah is the executive director and founder of pyOpenSci --- an organization that is building a diverse community that supports the open source tools that are driving open science. She has taught data intensive science for about 20 years, with the last 10 devoted to open source software. Previously, Leah developed an earth analytics education program at the University of Colorado - Boulder. This program included both a professional graduate program in earth data analytics and a program that built capacity for tribal colleges to teach data science using open source tools. She also built the Data Skills program at the National Ecological Observatory network. In her free time Leah can be found on mountain trails with her pup.
+
+### Selected Resources
+<a href="https://www.pyopensci.org/lessons/contribute-open-source/index.html" class="link-row">Introduction to GitHub and Open Source Collaboration</a>
+<a href="https://www.pyopensci.org/blog/contribute-to-open-source-lessons.html" class="link-row">pyOpenSci blog article - Contribute to Open Source Software: It’s More Than just Code</a>

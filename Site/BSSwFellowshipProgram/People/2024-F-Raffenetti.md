@@ -19,3 +19,7 @@
 The Message Passing Interface (MPI) is a critical component for many HPC applications. While MPI has many features, it not obvious to users which may provide the best performance for their application, or how avoid common usage pitfalls. The MPI Standard document---at over one thousand pages---is not a users manual.  Readers of the MPI Standard document may easily overlook key features and concepts. BSSw Fellow Ken Raffenetti is creating online resources to help users get the best performance by explaining, in plain terms, guidelines for using MPI effectively. Ken will use his years of experience in the MPI community to educate users on best practices.
 
 Ken Raffenetti is a research software engineer in the Mathematics and Computer Science Division of Argonne National Laboratory. His research interests include parallel programming models and low-level communication libraries.
+
+### Selected Resources
+<a href="https://mpi-performance-guidelines.github.io" class="link-row">MPI Performance Guidelines website</a>
+<a href="https://bssw.io/blog_posts/mpi-performance-guidelines" class="link-row">BSSw.io blog article - MPI Performance Guidelines</a>
