@@ -10,7 +10,7 @@
 
 **LinkedIn:** https://www.linkedin.com/in/alper-altuntas-ncsu/
 
-**Website:** https://alperaltuntas.com
+**URL:** https://alperaltuntas.com
 
 **Short Bio:** Rigor and reasoning in research software: Tutorial on testing and verification methods
 
