@@ -1,9 +1,12 @@
 # Research Software Engineers in HPC (RSE-HPC-2024): A Summary of the SC24 Workshop
 
+**Hero Image:**
+
+- <img src='../../images/Blog_2506_SC24.png' />
 
 #### Contributed by: [Charles Ferenbaugh](https://github.com/cferenba), [Sandra Gesing](https://github.com/sandragesing), [Simon Hettrick](https://github.com/SimonHettrick), and [Daniel S. Katz](https://github.com/danielskatz)
 
-#### Publication date: June 25, 2025
+#### Publication date: June 23, 2025
 
 <!-- begin deck -->
 The RSE-HPC workshop, held in conjunction with SC24 in November 2024 featured invited and contributed talks as well a panel and open discussion about research software engineers working in the HPC area.  With this summary, we also invite contributions to the upcoming SC25 edition of the workshop, to be held in St. Louis, Missouri.
@@ -66,7 +69,7 @@ Charles Ferenbaugh is the Computer Science Lead for the Eulerian Applications Pr
 
 Sandra Gesing is the Executive Director of the US Research Software Engineer Association (US-RSE), the Director of the Center of Excellence for Science Gateways and a Senior Researcher at the San Diego Supercomputer Center. Her research focuses on science gateways, computational workflows as well as distributed computing which inherently leads to highly interdisciplinary projects. She is especially interested in the sustainability of research software, the usability of computational methods, and the reproducibility of research results. She advocates for improving career paths for research software engineers and facilitators and for incentivizing their work via means beyond the traditional academic reward system.
 
-Simon Hettrick is Deputy Director of the Software Sustainability Institute and a Director of the Southampton Research Software Group. Simon's research focuses on the use of software in the research community with the aim of understanding practices and demographics. Simon is a passionate advocate for Research Software Engineers. He orchestrated a campaign to gain recognition for this community, which has grown from a handful of people in 2013 to a substantial international community. He was the founding chair of the UK's Association of Research Software Engineers and was a founding Trustee of the Society of Research Software Engineering.
+Simon Hettrick is Director of Strategy for the Software Sustainability Institute and a Director of the Southampton Research Software Group. Simon's research focuses on the use of software in the research community with the aim of understanding practices and demographics. Simon is a passionate advocate for Research Software Engineers. He orchestrated a campaign to gain recognition for this community, which has grown from a handful of people in 2013 to a substantial international community. He was the founding chair of the UK's Association of Research Software Engineers and was a founding Trustee of the Society of Research Software Engineering.
 
 Daniel S. Katz is Chief Scientist at the National Center for Supercomputing Applications (NCSA) and Research Professor in the Siebel School of Computing and Data Science and the School of Information Sciences (iSchool) at the University of Illinois Urbana-Champaign. Dan's interest is in the development and use of advanced cyberinfrastructure to solve challenging problems at multiple scales. His technical research interests are in applications, algorithms, fault tolerance, and programming in parallel and distributed computing, including HPC, Grid, Cloud, etc. He is also interested in policy issues, including citation and credit mechanisms and practices associated with software and data, organization and community practices for collaboration, and career paths for computing researchers.
 
