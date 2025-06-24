@@ -1,5 +1,9 @@
 # Reflecting on Our Community: The SC24 BoF on Scientific Software and the People Who Make it Happen: Building Communities of Practice
 
+**Hero Image:**
+
+- <img src='../../images/Blog_2506_SC24.png' />
+
 #### Contributed by [David E Bernholdt](https://github.com/bernhold/), [Jeffrey C. Carver](https://github.com/JeffCarver), [Ian A. Cosden](https://github.com/cosden/), [Anshu Dubey](https://github.com/adubey64), Weronika Filinger, [Sandra Gesing](https://github.com/sandragesing), [Mozhgan Kabiri chimeh](https://github.com/mozhgan-kch), [Lauren Milechin](https://github.com/lmilechin), [Marion Weinzierl](https://github.com/MarionBWeinzierl), Harshitha Menon, and [Addi Malviya Thakur](https://github.com/addimt)
 
 #### Publication date: March 23, 2025
