@@ -8,10 +8,6 @@
 
 #### Publication date: June 23, 2025
 
-<!-- begin deck -->
-The RSE-HPC workshop, held in conjunction with SC24 in November 2024 featured invited and contributed talks as well a panel and open discussion about research software engineers working in the HPC area.  With this summary, we also invite contributions to the upcoming SC25 edition of the workshop, to be held in St. Louis, Missouri.
-<!-- end deck -->
-
 At the SC24 conference in November 2024, for the fifth year in a row, research software engineers hosted the Research Software Engineers in HPC workshop (RSE-HPC-2024). There were 65 participants onsite in Atlanta, and many more joined virtually. Our goal was to bring together research software engineers (RSEs) and their allies from many countries and backgrounds to hear about successes and challenges that RSEs have experienced, and to discuss ways to increase awareness and support for RSEs.  The program of invited and contributed talks, panels, and breakout discussions was designed to raise interest and encourage active participation.
 
 ### Invited talks
