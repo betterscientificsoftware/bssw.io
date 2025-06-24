@@ -15,10 +15,12 @@ Applications for the 2026 BSSw Fellowship Program will open August 14, 2025. Ple
 <!-- *Applications are now closed for the 2025 BSSw Fellowship Program. Check back in summer 2025 for info about the 2026 application process.* -->
 
 - **Thursday, August 14, 2025**: Fellowship application process opens.
-<!-- - **Tuesday, Sept 10, 2:00-3:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!) -->
 - **Friday, October 31, 2025**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **January 2026**: Announcement of selection of 2026 BSSw Fellows.
 - **April 1, 2026 – April 30, 2027**: Period of performance for 2026 BSSw Fellows.
+
+<!-- - **Tuesday, Sept 10, 2:00-3:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!) -->
+
 
 <!-- - **January 17 - 20, 2024**: Fellows honored at the [DOE ECP Annual Meeting](https://www.ecpannualmeeting.com/). -->
 
