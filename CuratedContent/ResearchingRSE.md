@@ -5,26 +5,31 @@ Discover how Research Software Engineering is becoming a research field of its o
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug)
 
-#### Publication date: June 25, 2025
+#### Publication date: June 26, 2025
 
 Resource information | Details
 :--- | :--- 
-Article title | Investigating Research Software Engineering: Toward RSE Research
+Article title | [Investigating Research Software Engineering: Toward RSE Research](https://cacm.acm.org/opinion/investigating-research-software-engineering-toward-rse-research/)
 Authors | Michael Felderer, Michael Goedicke, Lars Grunske, Wilhelm Hasselbring, Anna-Lena Lamprecht, and Bernhard Rumpe
-Website | Communications of the ACM
-Publication | Communications of the ACM, Opinion Column, 2024, [https://cacm.acm.org/opinion/investigating-research-software-engineering-toward-rse-research/](https://cacm.acm.org/opinion/investigating-research-software-engineering-toward-rse-research/)
+Focus | Research Software Engineering
+ 
+Research software is usually created to address particular research questions, which means it often has special requirements that don’t align with typical commercial software.
+This article  **[Investigating Research Software Engineering: Toward RSE Research](https://cacm.acm.org/opinion/investigating-research-software-engineering-toward-rse-research/)** brings into focus Research Software Engineering (RSE) as an emerging field that’s both a career path and an area of study focused on bridging the gap between software development and scientific research. 
 
+The article walks through several important themes: first, it looks back at decades of traditional software engineering research, highlighting how its goals and methods don’t always meet the needs of scientific software. 
+Then it introduces three major categories of research softwarem, along with explaining the growing focus on sustainability. 
+The article also defines RSE as a profession and outlines why scientific software projects have unique challenges, such as unclear exploratory requirements, difficulty in validation, and limited use of standard engineering practices.
 
+What makes this article  valuable is its the idea of RSE research, as a complementary approach to RSE, which aims to improve the scholarly understanding of research software development, and developing and improving the tools, techniques, and skills needed to create research software that’s reliable, reusable, and easy to adapt.
+The article outlines key questions driving RSE research, including what sets it apart from other software research disciplines, how to better support scientific workflows with traditonal software engineering practices, which tools and skills are needed by RSEs, how education can evolve to meet those needs, and where technologies like generative AI might fit into this landscape.
 
-
-The article  titled [Research Software Engineers: Creating a Career Path — and a Career](https://doi.org/10.5281/zenodo.10073233) delves into the evolving landscape of a research software engineering career path, highlighting the critical role that research software engineers (RSEs) play in advancing scholarly research. 
-It also addresses the historical lack of formal training in software development among many individuals involved in research projects. 
-Through the insights of the authors, the article explores the emergence of RSEs as a defined career path, offering readers a glimpse into the diverse opportunities and rewards associated with this profession. 
-From fostering innovation and pushing the boundaries of knowledge to embracing unique challenges and continuous learning, the article gives the reader a glimpse of the multifaceted and impactful nature of the RSE role.
+In the end, the takeaway is simple but important—writing code isn’t enough. 
+If we want research software to be robust and reusable, we need to step back and rethink how it’s designed, developed, and supported. 
+The article also makes a strong case for better collaboration and more funding to help this emerging field grow.
 
 <!---
 Publish: yes
-RSS update: 2024-02-06
+RSS update: 2025-05-06
 Topics: research software engineers
 Pinned: no
 --->
