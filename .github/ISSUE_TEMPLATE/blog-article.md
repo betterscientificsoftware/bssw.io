@@ -8,4 +8,6 @@ By making a submission here, you agree to [BSSw.io content licensing terms](http
 
 You are welcome to submit an *idea* for a blog article or a completed article.
 
+Please ensure your submission uses [one sentence per line](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line).
+
 After your submission is received, it will be reviewed by the BSSw.io editorial staff and we will be in touch with you.

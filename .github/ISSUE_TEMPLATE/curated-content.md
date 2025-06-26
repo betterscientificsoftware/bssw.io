@@ -10,3 +10,4 @@ A curated content submission is a couple of paragraphs highlighting an existing 
 * Reference (e.g. link, bibliographic data, etc.) to the resource to be highlighted
 * Some of the key points the highlighted article makes 
 * Why you think the highlighted article is relevant to HPC/CSE
+* Please ensure your submission uses [one sentence per line](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line).
