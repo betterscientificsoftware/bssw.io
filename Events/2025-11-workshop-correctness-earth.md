@@ -26,7 +26,7 @@ Website | https://ncar.github.io/correctness-workshop/
 
 ### Summary
 The second annual Workshop on Correctness and Reproducibility for Earth System Software will take place from November 5–7, 2025, at the Mesa Laboratory of the NSF National Center for Atmospheric Research (NCAR) in Boulder, Colorado.
-This workshop aim to provide  a dedicated forum for earth system modelers, research software engineers, and the broader scientific software community to discuss challenges, opportunities, and recent advances in ensuring software correctness and reproducibility.
+This workshop aims to provide  a dedicated forum for earth system modelers, research software engineers, and the broader scientific software community to discuss challenges, opportunities, and recent advances in ensuring software correctness and reproducibility.
 
 Sponsored by the [2025 Better Scientific Software (BSSw) Fellowship program](https://bssw.io/pages/bssw-fellowship-program), this year’s workshop will feature a *Tutorial on Rigor and Reasoning in Research Software (R3Sw)*, which will include sessions on practical 
 techniques for improving software quality and reliability in scientific computing. 
