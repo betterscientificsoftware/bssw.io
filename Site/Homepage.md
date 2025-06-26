@@ -4,7 +4,7 @@ Software—the foundation of discovery in computational science & engineering—
 
 <!---
 Slide1 L: ../Articles/Blog/2025-06-sc24-rse-workshop.md
-Slide1 R: ../images/Blog_2506_SC24.pn
+Slide1 R: ../images/Blog_2506_SC24.png
 Slide2 L: ../Articles/Blog/2025-06-approximate-computing.md 
 Slide2 R: ../CuratedContent/ResearchingRSE.md
 Slide3 L: ../CuratedContent/CuratedContent/DosAndDontsWhenSunsettingOpenSourceProjects.md 
