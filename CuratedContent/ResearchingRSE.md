@@ -20,12 +20,12 @@ The article walks through several important themes: first, it looks back at deca
 Then, it introduces three major categories of research software, along with explaining the growing focus on sustainability. 
 The article also defines Research Software Engineering (RSE) as a profession and outlines why scientific software projects have unique challenges, such as unclear initial requirements, difficulty in validation, and limited use of standard engineering practices. 
 
-What makes this article valuable is its introduction of the idea of *RSE research*, as a complementary approach to RSE, which aims to improve the scholarly understanding of research software development and to develop and improve the tools, techniques, and skills needed to create research software that’s reliable, reusable, and easy to adapt. 
+What makes this article valuable is its introduction of the idea of *RSE Research*, as a complementary approach to RSE, which aims to improve the scholarly understanding of research software engineering and to develop and improve the tools, techniques, and skills needed to create research software that’s reliable, reusable, and easy to adapt. 
 The article also outlines example questions that could potentially drive RSE research, such as what distinguishes it from other software disciplines, how to better support scientific workflows using traditional software engineering practices, which tools and skills RSEs need, and where technologies like generative AI might fit into this landscape.
 
 In the end, the takeaway is simple but important: writing code isn’t enough. 
 If we want research software to be robust and reusable, we need to rethink how it’s designed, developed, and maintained. 
-The article also makes a strong case for international collaboration and improved funding to help this emerging field grow.
+The article also makes a strong case for international collaboration and improved funding to help this emerging field of RSE Research grow.
 
 
 <!---
