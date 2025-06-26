@@ -8,11 +8,13 @@ Slide1 R: ../Articles/Blog/2025-06-sc24-rse-workshop.md
 Slide2 L: ../Articles/Blog/2025-06-approximate-computing.md 
 Slide2 R: ../CuratedContent/ResearchingRSE.md
 Slide3 L: ../CuratedContent/CuratedContent/DosAndDontsWhenSunsettingOpenSourceProjects.md 
-Slide3 R: ../Events/hpcbp-092-genai-coding.md
-Slide4 L: ../Events/2025-07-intersect-bootcamp.md
-Slide4 R: ../Events/2025-usrse-conf.md
-Slide5 L: ../Events/ATPESC2025.md
-Slide5 R: ../Events/2025-09-escience.md
+Slide3 R: ../CuratedContent/LadyBirdBrowser.md  
+Slide4 L: ../Events/2025-11-workshop-correctness-earth.md
+Slide4 R: ../Events/hpcbp-092-genai-coding.md
+Slide5 L: ../Events/2025-07-intersect-bootcamp.md
+Slide5 R: ../Events/2025-usrse-conf.md
+Slide6 L: ../Events/ATPESC2025.md
+Slide6 R: ../Events/2025-09-escience.md
 --->
 
 <!---
