@@ -174,7 +174,7 @@ BSSw Fellow Rafael Mudafort's work empowers research software engineers to effec
 </div>
 
 <div class='short_bio'>
-<p><a href="https://www.nrel.gov/research/staff/rafael-mudafort.html">Rafael</a> is a researcher at the National Renewable Energy Lab's (NREL) National Wind Technology Center. His work focuses on the design and development of software for wind turbine and wind farm modeling and wind farm flow control. His mission is to elevate the quality and impact of NREL's wind energy software and define a sustainable and rewarding career path for research software engineers at the lab.
+<p><a href="https://research-hub.nrel.gov/en/persons/rafael-mudafort">Rafael</a> is a researcher at the National Renewable Energy Lab's (NREL) National Wind Technology Center. His work focuses on the design and development of software for wind turbine and wind farm modeling and wind farm flow control. His mission is to elevate the quality and impact of NREL's wind energy software and define a sustainable and rewarding career path for research software engineers at the lab.
 </p>
 </div>
 </div>

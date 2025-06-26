@@ -115,7 +115,7 @@ Our goal is to continue our efforts by implementing these practices more
 uniformly in our own registries and repositories and reducing the burdens of
 adoption. We have created SciCodes, a [consortium of scientific software
 registries and
-repositories](https://scicodes.net/2021/04/09/welcome-to-scicodes/), which is
+repositories](https://scicodes.net/), which is
 now defining the next priorities to tackle, such as tracking the impact of
 good [metadata](https://www.villanovau.com/resources/bi/metadata-importance-in-data-driven-world/),
 improving interoperability between registries, and making our metadata more
