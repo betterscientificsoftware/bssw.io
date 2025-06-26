@@ -29,7 +29,7 @@ The short list of Dos and Don'ts is:
 - Don’t: Pull the plug without notice
 - Do: Keep the code online
 
-With details on each of these in the article that rightly understands that open source projects -
+With details on each of these, the article rightly understands that open source projects -
 whether maintained by an individual or a community - are living efforts that with good stewardship can
 be brought to an end in an appropriate way when the time is right.
 
