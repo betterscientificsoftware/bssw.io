@@ -14,7 +14,7 @@ Read about the 2024 BSSw Fellows and their contributions to the BSSw community!
 The 2024 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle and impact the culture of scientific software development.
 Here's more about what they have been up to and their perspectives on the BSSw Fellowship program.
 
-### Software gardening almanac: Cultivating sustainable software development in the generative era
+### Software gardening almanack: Cultivating sustainable software development in the generative era
 
 Scientific software developed through factory assembly approaches often overlooks the dynamic evolution of code and risks becoming obsolete abandonware, costing resources and hampering scientific replicability. BSSw Fellow Dave Bunten has developed the [Software Gardening Almanac](https://software-gardening.github.io/almanack/introduction.html), an open-source handbook of applied guidance and tools for sustainable software development and maintenance. The almanac offers guidance to developers on dynamic, sustainable software management. It also covers detecting and addressing challenges throughout the software lifespan for a range of topics such as code decay and broken environments. In addition to GitHub, users can also access the [handbook on PyPI](https://pypi.org/project/almanack/).
 
