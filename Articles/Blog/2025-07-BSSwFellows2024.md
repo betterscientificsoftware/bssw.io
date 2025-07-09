@@ -5,7 +5,7 @@ Read about the 2024 BSSw Fellows and their contributions to the BSSw community!
 <!-- TODO: Get new image -->
 <img src='../../images/Blog_2307_BSSwFellows.png'>
 
-#### Contributed by: [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile"),[Dave Bunten](https://github.com/d33bs "Dave Bunten's GitHub Profile"), [Dorota Jarecka](https://github.com/djarecka "Dorota Jarecka's GitHub Profile"), [Olivia Newton](https://github.com/small0live "Olivia Newton's GitHub Profile"),  [Ken Raffenetti](https://github.com/myracohen "Ken Raffenetti's GitHub Profile"), [Ryan Richard](https://github.com/ryanmrichard "Ryan Richard's GitHub Profile"), [Leah Wasser](https://github.com/lwasser "Leah Wasser's GitHub Profile")
+#### Contributed by: [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile"),[Dave Bunten](https://github.com/d33bs "Dave Bunten's GitHub Profile"), [Dorota Jarecka](https://github.com/djarecka "Dorota Jarecka's GitHub Profile"), [Olivia Newton](https://github.com/small0live "Olivia Newton's GitHub Profile"),  [Ken Raffenetti](https://github.com/raffenet "Ken Raffenetti's GitHub Profile"), [Ryan Richard](https://github.com/ryanmrichard "Ryan Richard's GitHub Profile"), [Leah Wasser](https://github.com/lwasser "Leah Wasser's GitHub Profile")
 
 #### Publication date: July 13, 2025
 
