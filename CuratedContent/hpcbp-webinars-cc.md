@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2025-06-06*
+*Listed in reverse chronological order. Last updated: 2025-07-10*
+
+- 2025-07-09: [Using Generative AI for Coding Tasks in Scientific Software](https://ideas-productivity.org/events/hpcbp-092-genai-coding), presented by Anshu Dubey (Argonne National Laboratory), and Akash Dhruv (Argonne National Laboratory)
 
 - 2025-06-04: [Practical Software Citation for Research Software Developers, Maintainers and Users](https://ideas-productivity.org/events/hpcbp-091-software-citation), presented by Stephan Druskat (German Aerospace Center (DLR), Institute of Software Technology)
 
@@ -213,7 +215,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2025-06-06
+#### Publication date: 2025-07-10
 
 <!---
 Publish: yes
