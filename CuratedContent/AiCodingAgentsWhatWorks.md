@@ -74,6 +74,8 @@ Some of the more successful tasks that AI coding agents like OpenHands can often
 * Fixing and expanding test coverage
 * Building small new applications from scratch
 
+**Questions and Answers**
+
 At the end of the presentation, the presenters fielded a number of questions that provided a great deal of useful information.
 Some of the more interesting questions and answers include:
 
@@ -117,6 +119,8 @@ Some of the more interesting questions and answers include:
 
   * **A:** Generalist models like Claude 4, with strong reasoning and coding capabilities, often outperform coding-specific models in terms of quality.
   Coding-specific models are usually smaller and cheaper, offering efficiency benefits for certain tasks.
+
+**What is next?**
 
 The webinar wrapped up by teasing future sessions and promising continued insights into the development and usage of AI coding agents.
 
