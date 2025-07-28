@@ -25,9 +25,9 @@ The presenters delved into the intricacies of these agents, highlighting what ma
 
 At its core, an AI coding agent is defined by its capacity to interact with the real world using tools like code editors, terminals, and browsers.
 The OpenHands agent exemplifies this by handling some simpler software development tasks from start to finish.
-These agents operate in a continuous loop: a large language model (LLM) proposes an action, that action is executed, and the resulting output is fed back to the LLM, which decides on the next action, and so forth until the given termination criteria is satisfied (or some iteration or other limit is reached).
+These agents operate in a continuous loop: a large language model (LLM) proposes an action, that action is executed, the resulting output is fed back to the LLM, the LLM uses that feedback to decided on the next action, and so forth until the termination criteria is satisfied (or some iteration or other limit is reached).
 
-Some of the basic tools that are used modern AI coding agents include:
+Some of the basic tools that are used by modern AI coding agents include:
 
 * **Code Editor:** Modern agents efficiently manage code changes using diff-based or find-and-replace methods, avoiding the need to rewrite entire files.
 
@@ -41,8 +41,8 @@ Their interaction strategies range from having the agent write JavaScript to sel
 A critical aspect of AI agent operation is **sandboxing**.
 Because LLMs are used to select what commands to run and because LLMs can often behave in unpredictable ways, it is important to restrict what data an AI agent can read and what actions they can perform.
 One way to accomplish this is to run an AI agent in an isolated "sandbox" container that has limited access to data from the host machine.
-The user who runs the AI agent (OpenHands) can select the exact set of directories from the host system to expose to the AI agent and its tool.
-Running agents within a (Docker) sandbox is vital for security, preventing unintended actions on the user's machine.
+The user who runs the AI agent can select the exact set of directories from the host system to expose to the AI agent and its tool.
+Running agents within a (Docker) sandbox is vital for security, preventing unintended actions on the user's host machine.
 However, securely managing API key access and sensitive operations remains an ongoing area of development.
 
 **Best Practices for Leveraging Coding Agents**
@@ -53,10 +53,10 @@ To get the most out of AI coding agents, the presenters suggested several best p
 
 * **Provide Clear Instructions:** Be specific in your prompts to the AI agent, not only about what needs to be done but also how.
 
-* **Treat Them Like New Engineers:** Current LLMs often need more hits and context than a regular software engineering.
+* **Treat Them Like New Engineers:** Current LLMs often need more hits and context than regular human software engineers.
 
 * **Be Prepared to Restart:** Don't hesitate to discard code and begin anew if the agent veers off track.
-LLM-driven agents can get stuck in a rut and not be able to work themselves of bad situation.
+LLM-driven agents can often get stuck in a rut and not be able to work themselves of bad situations.
 
 * **Always Review Code:** This is paramount, as agents can hallucinate, duplicate code, or misinterpret instructions.
 Adopt a "trust but verify" approach, ensuring a human remains responsible for every change.
@@ -69,12 +69,12 @@ Some of the more successful tasks that AI coding agents like OpenHands can often
 * Resolving merge conflicts
 * Addressing pull request feedback
 * Fixing minor bugs
-* Making small infrastructure changes (e.g., Terraform, Helm)
+* Making small infrastructure changes
 * Performing database migrations
 * Fixing and expanding test coverage
 * Building small new applications from scratch
 
-At the end of the presentation, the presenters fielded a number of questions that provided a great deal of more useful information.
+At the end of the presentation, the presenters fielded a number of questions that provided a great deal of useful information.
 Some of the more interesting questions and answers include:
 
 * **Q:** How to keep agents within organizational context (e.g., avoiding GPL licenses)?
@@ -85,39 +85,32 @@ Some of the more interesting questions and answers include:
 * **Q:** Do all AI coding agents use runtime sandboxing?
 
   * **A:** It's mixed.
-  First-generation agents often run directly on the user's machine with frequent prompts for permission to run each command.
+  First-generation agents often run directly on the user's host machine with frequent prompts for permission to run each command.
   Newer agents like OpenHands aim for more autonomous operation within sandboxes.
 
 * **Q:** How does OpenHands perform on benchmarks like Commit0?
 
-  * **A:** SWE-Bench is the current "golden benchmark."
-  OpenHands is near the top for open-source models.
-  However, SWE-Bench is becoming gamed, so they are diversifying benchmarks (e.g., MultiSWE-Bench, Commit0) to ensure real-world improvement.
+  * **A:** SWE-Bench is the current "golden standard" benchmark and OpenHands is near the top for open-source models.
+  However, SWE-Bench is becoming gamed, so All Hands is diversifying the benchmarks it uses (e.g., MultiSWE-Bench, Commit0) to ensure real-world improvement.
 
 * **Q:** How does OpenHands handle cross-session memory and learnings?
 
-  * **A:** Memory is stored as code in a Git repository under user control, primarily through "micro agents" at repository, organization, or user levels.
+  * **A:** Memory is stored as code in a Git repository under user control or through "micro agents" at the repository, organization, or user levels.
   This allows for explicit control and sharing of context.
 
 * **Q:** Are there plans for OpenHands in VS Code or IntelliJ?
 
-  * **A:** A CLI was recently shipped.
-  The plan is to integrate this CLI into VS Code to allow local development and context sharing from the IDE.
+  * **A:** An OpenHands CLI was recently shipped.
+  The plan is to integrate this CLI into VS Code to allow local development and context sharing from within the IDE.
 
 * **Q:** Are there plans for OpenHands to automatically review PRs?
 
   * **A:** It's possible today by prompting the agent.
   They are looking to make it a more first-class feature, potentially with a read-only mode for reviews.
 
-* **Q:** What about better Windows development support (WSL)?
-
-  * **A:** They are working on it, but it's challenging.
-  OpenHands Cloud is an alternative.
-  Contributions for Windows support are welcome.
-
 * **Q:** Which LLM models work best with OpenHands?
 
-  * **A:** Claude 4 is a great default (though expensive and closed-source).
+  * **A:** Anthropic Claude 4 is a great default (though expensive and closed-source).
   [Devstral](https://mistral.ai/news/devstral) is a good open-source alternative, about two-thirds as good as Claude 4, suitable for smaller/easier tasks.
 
 * **Q:** Is there a noticeable difference between coding-specific models (e.g., Codex, Devstral) and general-purpose models (e.g., GPT-3, Claude 4) for coding tasks?
