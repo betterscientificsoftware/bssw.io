@@ -45,23 +45,23 @@ The user who runs the AI agent can select the exact set of directories from the 
 Running agents within a (Docker) sandbox is vital for security, preventing unintended actions on the user's host machine.
 However, securely managing API key access and sensitive operations remains an ongoing area of development.
 
-**Best Practices for Leveraging Coding Agents**
+**Best Practices for Leveraging Coding Agents: What Works Well and What Doesn't**
 
-To get the most out of AI coding agents, the presenters suggested several best practices:
+To get the most out of AI coding agents, the presenters suggested several best practices for what works well (as opposed to what does not work well):
 
-* **Start Small:** Begin with clearly defined and manageable tasks.
+* **Start Small:** Begin with smaller clearly defined and manageable tasks (as opposed to trying to define large complex tasks).
 
-* **Provide Clear Instructions:** Be specific in your prompts to the AI agent, not only about what needs to be done but also how.
+* **Provide Clear Instructions:** Be specific in your prompts to the AI agent, not only about what needs to be done but also how (as opposed to higher-level/vague instructions).
 
-* **Treat Them Like New Engineers:** Current LLMs often need more hits and context than regular human software engineers.
+* **Treat Them Like New Engineers:** Current LLMs often need more hits and context than regular human software engineers (as opposed to expecting them to accept direction like an experienced professional software developer).
 
 * **Be Prepared to Restart:** Don't hesitate to discard code and begin anew if the agent veers off track.
-LLM-driven agents can often get stuck in a rut and not be able to work themselves of bad situations.
+LLM-driven agents can often get stuck in a rut and not be able to work themselves of bad situations (as opposed to expecting them to problem solve any situation they got themselves into).
 
-* **Always Review Code:** This is paramount, as agents can hallucinate, duplicate code, or misinterpret instructions.
+* **Always Review Code:** This is paramount, as agents can hallucinate, duplicate code, or misinterpret instructions (as opposed to trusting that agent will have done the right thing, no matter how simple the task).
 Adopt a "trust but verify" approach, ensuring a human remains responsible for every change.
 
-**Practical Applications and Future Outlook**
+**Practical Applications that Work Well and Future Outlook**
 
 AI coding agents are proving valuable across various software development scenarios.
 Some of the more successful tasks that AI coding agents like OpenHands can often perform fairly well include:
