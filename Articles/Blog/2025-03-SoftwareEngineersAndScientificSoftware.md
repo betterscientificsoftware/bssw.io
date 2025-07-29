@@ -109,7 +109,7 @@ Uncertainty quantification (UQ) is a process of assessing and managing uncertain
 
 ### Users
 
-SEAMs deal with a higher class of user than software engineers do: a user who understands the science behind the software and how the should behave.  Scientific software builds a reputation for trustworthiness as it is used and re-used to formulate and evaluate scientific conclusions.  If scientific software produces one result in one version and a different result in another version, its trustworthiness can be questioned, and its reputation can suffer.
+SEAMs deal with a higher class of user than software engineers do: a user who understands the science behind the software and how the should behave.  Scientific software builds a reputation for trustworthiness as it is used and reused to formulate and evaluate scientific conclusions.  If scientific software produces one result in one version and a different result in another version, its trustworthiness can be questioned, and its reputation can suffer.
 
 Software engineers cannot assume scientific software is for the general public or for users who do not know (or care) how the software works.
 

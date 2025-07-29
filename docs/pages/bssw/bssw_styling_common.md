@@ -33,7 +33,7 @@ This is deck text
 <!-- deck text end -->
 ````
 - No hyperlinks are allowed in the deck.
-- If text is used, then the deck contains one or atmost two sentences about the article which piques user interest.
+- If text is used, then the deck contains one or at most two sentences about the article which piques user interest.
 - Whenever resource is mentioned in deck or body text in verbatim, it needs to be italicized.
 - Blog articles must have *either* a hero image or deck text.
 

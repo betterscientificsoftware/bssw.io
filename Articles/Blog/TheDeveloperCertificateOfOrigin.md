@@ -56,7 +56,7 @@ This "sign-off" implies that the developer is asserting the terms of the DCO<sup
 >     maintained indefinitely and may be redistributed consistent with
 >     this project or the open source license(s) involved.
 
-This `Signed-of-by` line can be added to the Git commit log automatically using the standard `-s` option with `git commit -s` (using information already registered with Git locally).
+This `Signed-off-by` line can be added to the Git commit log automatically using the standard `-s` option with `git commit -s` (using information already registered with Git locally).
 
 Some major projects are using the DCO with Git commit sign-offs for handling contributions, including the Linux Kernel<sup>[8]</sup> and, more recently, the source code for GitLab itself <sup>[3],[4]</sup>.
 In addition, the Linux Foundation's CII Best Practices Badge Program<sup>[9]</sup> contains the Silver-level item:

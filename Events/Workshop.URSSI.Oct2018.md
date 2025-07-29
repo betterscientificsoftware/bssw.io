@@ -7,7 +7,7 @@
 
 The NSF-funded Conceptualization of a US Research Software Sustainability Institute (URSSI) is making the case for and planning a possible institute to improve science and engineering research by supporting the development and sustainability of research software in the United States.
 
-**Description:** We are excited to announce the second workshop in the URSSI conceptualization.  Similar to our first workshop in Berkeley, the event will be mostly participant driven. In addition to a few keynotes and lightning talks, the agenda will mostly be open discussions around topics suggested by participants prior to and during the meeting.   See a [recent BSSw blog article introducting URSSI](https://bssw.io/blog_posts/urssi-conceptualizing-a-us-research-software-sustainability-institute).
+**Description:** We are excited to announce the second workshop in the URSSI conceptualization.  Similar to our first workshop in Berkeley, the event will be mostly participant driven. In addition to a few keynotes and lightning talks, the agenda will mostly be open discussions around topics suggested by participants prior to and during the meeting.   See a [recent BSSw blog article introducing URSSI](https://bssw.io/blog_posts/urssi-conceptualizing-a-us-research-software-sustainability-institute).
 
 Participation is welcome from anyone interested in issues and challenges facing research software sustainability, though workshop size is limited in order to allow for dynamic discussions in small breakout groups.  See the event website for instructions on communicating with the organizers (deadline: mid-September, 2018).
 

@@ -20,8 +20,8 @@ jobs:
           sudo apt-get update -y
       - name: Install packages
         run: |
-          sudo apt-get install -y codespell
-
+          sudo apt-get install python3-pip
+          pip install codespell==2.4.1
       - name: Run Codespell on source code
         run: |
           codespell
