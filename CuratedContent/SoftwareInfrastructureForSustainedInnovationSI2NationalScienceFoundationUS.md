@@ -8,7 +8,7 @@
 
 Resource information | Details 
 :--- | :--- 
-Resource name | Software Infrastruction for Sustained Innovation 
+Resource name | Software Infrastructure for Sustained Innovation 
 Website | http://nsf.gov/si2
 Focus | Software development and engineering
 
