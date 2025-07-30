@@ -7,7 +7,7 @@ Learn how the open-source OpenHands AI agent is successfully automating software
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication date: July 28, 2025
+#### Publication date: July 30, 2025
 
 Resource information | Details
 :--- | :--- 
@@ -126,7 +126,7 @@ The webinar wrapped up by teasing future sessions and promising continued insigh
 
 <!---
 Publish: yes
-RSS update: 2025-08-01
+RSS update: 2025-07-30
 Topics: documentation, development tools, refactoring, testing, peer code review
 Pinned: no
 --->
