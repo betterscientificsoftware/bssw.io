@@ -2,7 +2,7 @@
 
 <!-- deck text start --> 
 AI agents are emerging as the preferred way to exploit the usage of artificial intelligence (AI) large language models (LLMs) to perform a variety of software development tasks.
-Learn how the open-source OpenHands AI agent is successfully being used to automate various software engineering tasks and the current limits of AI agents.
+Learn how the open-source OpenHands AI agent is successfully automating software engineering tasks and the current limitations of AI agents.
 <!-- deck text end --> 
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
@@ -23,9 +23,9 @@ The presenters delved into the intricacies of these agents, highlighting what ma
 
 **Understanding AI Coding Agents and Their Mechanics**
 
-At its core, an AI coding agent is defined by its capacity to interact with the real world using tools like code editors, terminals, and browsers.
+At its core, an AI coding agent is defined by its capacity to interact with the real world using tools like code editors, terminals and browsers.
 The OpenHands agent exemplifies this by handling some simpler software development tasks from start to finish.
-These agents operate in a continuous loop: a large language model (LLM) proposes an action, that action is executed, the resulting output is fed back to the LLM, the LLM uses that feedback to decided on the next action, and so forth until the termination criteria is satisfied (or some iteration or other limit is reached).
+These agents operate in a continuous loop: a large language model (LLM) proposes an action, that action is executed, the resulting output is fed back to the LLM, the LLM uses that feedback to decide on the next action, and so forth until the termination criteria is satisfied (or some iteration or other limit is reached).
 
 Some of the basic tools that are used by modern AI coding agents include:
 
@@ -56,9 +56,9 @@ To get the most out of AI coding agents, the presenters suggested several best p
 * **Treat Them Like New Engineers:** Current LLMs often need more hits and context than regular human software engineers (as opposed to expecting them to accept direction like an experienced professional software developer).
 
 * **Be Prepared to Restart:** Don't hesitate to discard code and begin anew if the agent veers off track.
-LLM-driven agents can often get stuck in a rut and not be able to work themselves of bad situations (as opposed to expecting them to problem solve any situation they got themselves into).
+LLM-driven agents can often get stuck in a rut and not be able to work themselves out of bad situations (as opposed to expecting them to problem solve any situation they got themselves into).
 
-* **Always Review Code:** This is paramount, as agents can hallucinate, duplicate code, or misinterpret instructions (as opposed to trusting that agent will have done the right thing, no matter how simple the task).
+* **Always Review Code:** This is paramount, as agents can hallucinate, duplicate code, or misinterpret instructions (as opposed to trusting that the agent will have done the right thing, no matter how simple the task).
 Adopt a "trust but verify" approach, ensuring a human remains responsible for every change.
 
 **Practical Applications that Work Well and Future Outlook**
@@ -120,7 +120,7 @@ Some of the more interesting questions and answers include:
   * **A:** Generalist models like Claude 4, with strong reasoning and coding capabilities, often outperform coding-specific models in terms of quality.
   Coding-specific models are usually smaller and cheaper, offering efficiency benefits for certain tasks.
 
-**What is next?**
+**What's next?**
 
 The webinar wrapped up by teasing future sessions and promising continued insights into the development and usage of AI coding agents.
 
