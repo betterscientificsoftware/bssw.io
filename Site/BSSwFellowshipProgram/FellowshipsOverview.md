@@ -30,27 +30,28 @@ We seek to support a broad spectrum of perspectives in championing better scient
 
 ### 2026 BSSw Fellowships
 
-<!-- [2025 BSSw Fellowship Application Form](https://ssl.linklings.net/applications/BSSw/) - Submissions Open! -->
+[2026 BSSw Fellowship Application Form](https://ssl.linklings.net/applications/BSSw/) - Submissions Open!
 
-Applications will open on August 14, 2025 for the 2026 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
+<!-- Applications will open on August 14, 2025 for the 2026 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
 <!-- Applications are now closed for the 2025 BSSw Fellowship Program. Check back in summer 2025 for info about the 2026 application process. -->
 
 
 ### More Information
 
+- Read about work of the [2024 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2024-bssw-fellows-projects-and-perspectives)
 - Read about the [2025 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2025-bssw-fellows)
 - Read about work of the [2023 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2023-bssw-fellows-projects-and-perspectives)
 - Read the [highlights of the 2024 BSSw Fellowship Q&A Session](https://bssw.io/blog_posts/highlighted-topics-from-bssw-fellowship-q-a-session)
 - Read about the [2024 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2024-bssw-fellows)
 - Read about work of the [2022 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
 - Read about the [2023 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)
-- Read about work of the [2021 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2021-bssw-fellows-projects-and-perspectives)
 
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq) ... Check back for updates; we will post additional Q&A here as these arise.
 - If you have additional questions, please contact us at <info@bssw.io>.
 
 <!-- Removing the older links, but we could keep a longer running record
+- Read about work of the [2021 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2021-bssw-fellows-projects-and-perspectives)
 - Read about the [2021 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2021-bssw-fellows) and new [NSF-sponsorship of 2021 BSSw Fellows](https://bssw.io/blog_posts/nsf-sponsored-2021-bssw-fellows)
 - More info about work and perspectives of the [2020 BSSw Fellows](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives), [2019 BSSw Fellows](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle), and [2018 BSSw Fellows](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges)
 - Read about work of the [2020 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives)
