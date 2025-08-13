@@ -50,14 +50,17 @@ Better Scientific Software is an organization dedicated to improving developer p
 - [Providing information on projects and perspectives (2024 BSSw Fellows)](https://bssw.io/blog_posts/2024-bssw-fellows-projects-and-perspectives)
 - [Advancing software productivity and sustainability via ongoing projects (2025 BSSw Fellows)](https://bssw.io/blog_posts/introducing-the-2025-bssw-fellows)
 - [Providing information on projects and perspectives (2023 BSSw Fellows)](https://bssw.io/blog_posts/2023-bssw-fellows-projects-and-perspectives)
-<!-- - [Advancing software productivity and sustainability via ongoing projects (2024 BSSw Fellows)](https://bssw.io/blog_posts/introducing-the-2024-bssw-fellows) -->
+- [Advancing software productivity and sustainability via ongoing projects (2024 BSSw Fellows)](https://bssw.io/blog_posts/introducing-the-2024-bssw-fellows)
 - [Providing information on projects and perspectives (2022 BSSw Fellows)](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
-<!-- - [Advancing software productivity and sustainability via ongoing projects (2023 BSSw Fellows)](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows) -->
 - [Providing information on projects and perspectives (2021 BSSw Fellows)](https://bssw.io/blog_posts/2021-bssw-fellows-projects-and-perspectives)
+- And more!  [Check out how each of our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
+
+<!-- OLD LINKS -->
+<!-- - [Advancing software productivity and sustainability via ongoing projects (2023 BSSw Fellows)](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows) -->
 <!-- - [Providing information on projects and perspectives (2020 BSSw Fellows)](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives) -->
 <!-- - [Guiding developers through each stage of the scientific software lifecycle (2019 BSSw Fellows)](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle) -->
 <!-- - [Tackling scientific productivity challenges (2018 BSSw Fellows)](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges) -->
-- And more!  [Check out how each of our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
+
 
 ### Author bio
 Elsa Gonsiorowski is Coordinator of the BSSw Fellowship Program, a member of the [PESO](https://pesoproject.org) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
@@ -81,6 +84,5 @@ Publish: yes
 Track: bssw fellowship
 Pinned: no
 Topics: Funding sources and programs, projects and organizations
-RSS update: 2023-08-15
 OpenGraph image: OG_2408_BSSwFellowships.png
 --->
