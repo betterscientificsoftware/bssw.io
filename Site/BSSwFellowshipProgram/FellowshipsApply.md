@@ -56,7 +56,7 @@ Applications are now being accepted for the 2026 BSSw Fellowship Program.  Submi
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
-- Tuesday, September 16, 2025 1:00-1:00 pm EDT
+- Tuesday, September 16, 2025 1:00-2:00 pm EDT
 
 Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details about the BSSw Fellowship Program, including telecon information for a Q&A session to take place in September.
 
