@@ -16,9 +16,9 @@
 
 ### User-facing tutorials as code: Reproducible and reliable tutorials with CI/CD
 
-Stay tuned! More information about Brigitta's project will be coming soon.
+BSSw Fellow Brigitta Sipőcz aims to establish and promote best practices for maintaining executable tutorials across scientific computing environments through the implementation of CI/CD (Continuous Integration/Continuous Deployment) practices. Her project will focus on developing best-practices documents, tools, and templates to ensure tutorial reproducibility and reliability within the Scientific Python Ecosystem.
 
-Brigitta is a developer at CalTech IPAC.
+Brigitta is an astronomer turned developer at Caltech/IPAC, where she works in NASA/IPAC Infrared Science Archive. She is a lead developer and maintainer for several widely used open-source Python libraries and infrastructure projects, ranging from astroquery, astropy, astroML to Numpy-tutorials and various pytest and Jupyter components. She holds a pivotal role as one of the community leaders in the Scientific Python project and is committed to unifying the ecosystem by consolidating infrastructure efforts and providing vital support to maintainers and developers within the community.
 
 <!-- ### Selected Resources -->
 
