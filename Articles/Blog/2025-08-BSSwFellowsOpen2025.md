@@ -17,7 +17,7 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 <br>
 
-<img src='../../images/OG_2408_BSSwFellowships.png'/>
+<img src='../../images/OG_2508_BSSwFellowships.png'/>
 
 <br>
 
