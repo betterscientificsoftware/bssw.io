@@ -84,5 +84,5 @@ Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-d
 
 <!--
 Publish: yes
-OpenGraph image: OG_2408_BSSwFellowships.png
+OpenGraph image: OG_2508_BSSwFellowships.png
 -->
