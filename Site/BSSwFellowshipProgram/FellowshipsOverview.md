@@ -45,6 +45,7 @@ We seek to support a broad spectrum of perspectives in championing better scient
 - Read about the [2024 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2024-bssw-fellows)
 - Read about work of the [2022 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
 - Read about the [2023 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)
+- See various blog posts in the [BSSw Fellowship track](https://bssw.io/blog_posts?track=bssw-fellowship)
 
 - [FAQ for the BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-faq) ... Check back for updates; we will post additional Q&A here as these arise.
 - If you have additional questions, please contact us at <info@bssw.io>.
