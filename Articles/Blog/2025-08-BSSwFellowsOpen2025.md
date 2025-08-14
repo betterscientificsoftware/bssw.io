@@ -13,7 +13,7 @@ BSSw Fellows are selected annually based on an application process that includes
 <!-- We select at least three Fellows per year and honorable mentions as appropriate. -->
 Each 2026 BSSw Fellow will receive up to $25,000 for their proposed activity.
 Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
-[Applications are now being accepted for the 2025 BSSw Fellowship](https://bssw.io/pages/apply-for-the-bssw-fellowship-program).
+[Applications are now being accepted for the 2026 BSSw Fellowship](https://bssw.io/pages/apply-for-the-bssw-fellowship-program).
 
 <br>
 

@@ -1,10 +1,13 @@
 # BSSw Announcements
 
 Announcement:
+- [Applications are open for the 2026 BSSw Fellowship Program ... Deadline October 31](../../Articles/Blog/2025-08-BSSwFellowsOpen2025.md)
+- Display dates: 08/14/2025 - 10/31/2025
+  
+<!--
 - [New blog article ... Introducing the 2025 BSSw Fellows](../../Articles/Blog/2024-12-2025BSSwFellowshipAnnounce.md)
 - Display dates: 12/17/2024 - 01/31/2025
 
-<!--
 - [Applications are open for the 2025 BSSw Fellowship Program ... Deadline September 30](../../Articles/Blog/2024-08-BSSwFellowsOpen2024.md)
 - Display dates: 08/15/2024 - 09/30/2024
 
