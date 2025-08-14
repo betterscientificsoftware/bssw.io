@@ -77,6 +77,6 @@ We seek to support a broad spectrum of perspectives in championing better scient
 
 <!--
 Publish: yes
-OpenGraph image: OG_2408_BSSwFellowships.png
+OpenGraph image: OG_2508_BSSwFellowships.png
 Alias: fellowship
 -->
