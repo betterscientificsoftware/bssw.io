@@ -4,16 +4,13 @@ More questions and answers will be added to this page over time; check back for 
 
 ## Q & A Webinar
 
-
-<!--
-We will host a Q&A webinar for the 2025 BSSw Fellowship Program.
-- **Tuesday, September 10, 2024, 2:00-3:00 pm EDT**
+We will host a Q&A webinar for the 2026 BSSw Fellowship Program.
+- **Tuesday, September 16, 2025, 1:00-2:00 pm EDT**
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
--->
 
-Slides & Recording for 2025 BSSw Fellowship Q&A Webinar:
-- Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.26978398.v1)
-- Recording: [(slides/audio)](https://youtu.be/mJ80lGh0r9I)
+<!-- Slides & Recording for 2025 BSSw Fellowship Q&A Webinar: -->
+<!-- - Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.26978398.v1) -->
+<!-- - Recording: [(slides/audio)](https://youtu.be/mJ80lGh0r9I) -->
 
 <!-- - Slides & Recording for 2024 BSSw Fellowship Q&A Webinar:
 - Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.24127035.v1)
@@ -27,9 +24,9 @@ Slides & Recording for 2025 BSSw Fellowship Q&A Webinar:
 ### What is the fellowship application deadline for this year?
 <!-- Applications are now closed for the 2025 BSSw Fellowship Program. Check back in summer 2025 for info about the 2026 application process. -->
 
-Applications for the 2026 BSSw Fellowship Program will open August 14, 2025; the submission deadline is October 31, 2025. Please check back for additional details.
+<!-- Applications for the 2026 BSSw Fellowship Program will open August 14, 2025; the submission deadline is October 31, 2025. Please check back for additional details. -->
 
-<!-- **The application deadine for the 2025 BSSw Fellowship Program is Monday, September 30, 2024, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline. -->
+**The application deadine for the 2026 BSSw Fellowship Program is Friday, October 31, 2025, before midnight, PDT.**  This is a firm deadline that will not be extended. See the [BSSw Application webpage](https://bssw.io/pages/apply-for-the-bssw-fellowship-program) for the complete timeline.
 
 ### Is a particular format required for the proposal?
 
@@ -74,9 +71,9 @@ Students (undergraduate/graduate) are encouraged to apply for a BSSw Fellowship.
 
 ## Funding Questions
 
-### What is the amount of funding for 2025 BSSw Fellows?
+### What is the amount of funding for 2026 BSSw Fellows?
 
-Each 2025 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
+Each 2026 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 
 ### How are the funds awarded?  When do I submit budget information?
 
@@ -160,7 +157,7 @@ Beyond completing the proposed scope of work, BSSw Fellows are life-long members
 ### Do you expect fellows to attend events or meetings?
 
 <!-- We encourage fellows to attend the [Exascale Computing Project Annual Meeting](http://www.ecpannualmeeting.com), to be held spring 2022. -->
-We support active fellows and honorable mentions to attend the [US Research Software Engineer Association](https://us-rse.org/) annual conference.
+We encourage active fellows and honorable mentions to attend the [US Research Software Engineer Association](https://us-rse.org/) annual conference.
 
 ### Are there restrictions on who can apply for a BSSw Fellowship?
 
@@ -196,5 +193,5 @@ The goal of the BSSw organization is to foster a broad, international community 
 
 <!--
 Publish: yes
-OpenGraph image: OG_2408_BSSwFellowships.png
+OpenGraph image: OG_2508_BSSwFellowships.png
 -->
