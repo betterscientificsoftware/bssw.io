@@ -84,5 +84,5 @@ Publish: yes
 Track: bssw fellowship
 Pinned: no
 Topics: Funding sources and programs, projects and organizations
-OpenGraph image: OG_2408_BSSwFellowships.png
+OpenGraph image: OG_2508_BSSwFellowships.png
 --->
