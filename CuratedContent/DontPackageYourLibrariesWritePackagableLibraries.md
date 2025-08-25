@@ -8,7 +8,7 @@ This two-part series presents valuable information and guidance on how to write 
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
 
-#### Publication date: August 7, 2025
+#### Publication date: August 25, 2025
 
 Resource information | Details
 :--- | :---
