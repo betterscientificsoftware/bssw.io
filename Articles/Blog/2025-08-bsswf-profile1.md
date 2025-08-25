@@ -8,7 +8,7 @@ Meet Helen Kershaw, Software Engineer at the National Science Foundation’s Nat
 
 <br>
 
-This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/reducing-code-review-anxiety-in-open-sourcing/).
+This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-bssw-fellowship-previous-fellows-spotlight-helen-kershaw/).
 
 <br>
 [Helen Kershaw]<img src='../../images/People_2023_F_Kershaw.png' class='logo' />
