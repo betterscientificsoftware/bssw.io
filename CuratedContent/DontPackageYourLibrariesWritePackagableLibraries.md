@@ -1,7 +1,7 @@
 # Don't Package Your Libraries, Write Packageable Libraries
 
 <!--deck text start-->
-Do you want to ensure your libraries are easily packaged into any system, even ones you've never heard of or will never hear of?
+Do you want to ensure your libraries are easily packaged into any system, even ones you've never heard of or will ever hear of them?
 This two-part series presents valuable information and guidance on how to write **packageable** libraries.
 
 <!--deck text end-->
@@ -14,7 +14,7 @@ Resource information | Details
 :--- | :---
 Title | Don't Package Your Libraries, Write Packageable Libraries! (Parts I & II)
 Presenter | Robert Schumacher
-Web Links, Part I| [Video](https://www.youtube.com/watch?v=sBP17HQAQjk), [Slides](https://github.com/CppCon/CppCon2018/blob/master/Presentations/dont_package_your_libraries_write_packagable_libraries/dont_package_your_libraries_write_packagable_libraries__robert_schumacher__cppcon_2018.pdf)
+Web Links, Part I | [Video](https://www.youtube.com/watch?v=sBP17HQAQjk), [Slides](https://github.com/CppCon/CppCon2018/blob/master/Presentations/dont_package_your_libraries_write_packagable_libraries/dont_package_your_libraries_write_packagable_libraries__robert_schumacher__cppcon_2018.pdf)
 Web Links, Part II | [Video](https://www.youtube.com/watch?v=_5weX5mx8hc)
 
 *"Don't Package Your Libraries, Write Packageable Libraries!"*, an informative two-part series presented by Robert Schumacher at CppCon, delivers practical guidelines for designing and writing libraries with a strong emphasis on the needs of the maintainers who will integrate them into systems.
