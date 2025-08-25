@@ -1,7 +1,7 @@
 # Don't Package Your Libraries, Write Packageable Libraries
 
 <!--deck text start-->
-Do you want to ensure your libraries are easily packaged into any system, even ones you've never heard of or will ever hear of?
+Do you want to ensure your libraries are easily packaged into any system—even ones you've never heard of and may never hear of?
 This two-part series presents valuable information and guidance on how to write **packageable** libraries.
 
 <!--deck text end-->
@@ -26,12 +26,12 @@ Schumacher explains the **four key facets** of the packaging ecosystem:
 3. **Other Libraries** – that might build on or include your library.  
 4. **Maintainers** – who package your library for use in their systems, often without deep knowledge of your code or its domain.
 
-Schumacher's guidance helps library authors anticipate each of the facets and their needs and design accordingly.
+Schumacher's guidance helps library authors anticipate the needs of each facet and design accordingly.
 While the talks are C++-focused, the concepts are broadly applicable and relevant to library authors working in other programming languages.
 Through real-world examples, Schumacher illustrates both successful applications of the guidelines and pitfalls of neglecting them.
 Though originally presented in 2018 and 2019, the principles in this series remain relevant for today's software development challenges.
 
-Following the guidelines presented in this series will help you design libraries that are easily and reliably packaged into both the systems you intended and those you've never even heard of or will never hear of.
+Following the guidelines presented in this series will help you design libraries that are easily and reliably packaged into the systems you intended—and those you've never even heard of.
 
 <!---
 Publish: yes
