@@ -1,4 +1,3 @@
-
 # Don't Package Your Libraries, Write Packageable Libraries
 
 <!--deck text start-->
@@ -8,11 +7,12 @@ This two-part series presents valuable information and guidance on how to write 
 <!--deck text end-->
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
+
 #### Publication date: August 7, 2025
 
 Resource information | Details
 :--- | :---
-Title | Don't Package Your Libraries, Write Packageable Libraries! (Parts I & II) 
+Title | Don't Package Your Libraries, Write Packageable Libraries! (Parts I & II)
 Presenter | Robert Schumacher
 Web Links, Part I| [Video](https://www.youtube.com/watch?v=sBP17HQAQjk), [Slides](https://github.com/CppCon/CppCon2018/blob/master/Presentations/dont_package_your_libraries_write_packagable_libraries/dont_package_your_libraries_write_packagable_libraries__robert_schumacher__cppcon_2018.pdf)
 Web Links, Part II | [Video](https://www.youtube.com/watch?v=_5weX5mx8hc)
@@ -31,7 +31,7 @@ While the talks are C++-focused, the concepts are broadly applicable and highly 
 Through real-world examples, Schumacher illustrates both successful applications of the guidelines and pitfalls of neglecting them.
 Though originally presented in 2018 and 2019, the principles in this series remain relevant for today's software development challenges.
 
-Following the guidelines presented in this series will help you design libraries that are easily and reliably packaged into the systems you have intended them for and into  systems you've never even heard of or will never hear of.
+Following the guidelines presented in this series will help you design libraries that are easily and reliably packaged into the systems you have intended them for and into systems you've never even heard of or will never hear of.
 
 <!---
 Publish: yes
