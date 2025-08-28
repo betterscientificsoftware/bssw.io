@@ -31,7 +31,7 @@ BSSw Fellows receive funds through their respective institution for one year. We
 
 Learn more: [BSSw Fellowship Program](https://bssw.io/fellowship)
 
-A Q&A webinar for the 2026 BSSw Fellowship Program will be held on Tuesday, September 16, 2025, 1:00-2:00 pm EDT: [webinar info](https://bssw.io/pages/bssw-fellowship-faq)
+A Q&A webinar for the 2026 BSSw Fellowship Program will be held on Tuesday, September 16, 2025, 1:00-2:00 pm EDT: [Webinar info](https://bssw.io/pages/bssw-fellowship-faq)
 
 <!---
 Publish: yes
