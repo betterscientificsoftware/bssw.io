@@ -82,8 +82,6 @@ design and construction of BelleII’s Imaging Time-of-Propagation
 computing while analyzing the physics of spontaneous
 particle-antiparticle oscillations.</p>
 
-<!-- codespell:ignore rollin -->    
-
 #### Contributed by Rollin Thomas, William Scullin,  and Matt Belhorn   <!-- codespell:ignore rollin -->
 
 #### Publication date: June 07, 2017
