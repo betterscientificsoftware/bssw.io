@@ -30,7 +30,7 @@ Her enthusiasm for the program is such that she is now turning her mentoring ski
 ### More info
 Learn more about [Helen Kershaw's work as a BSSw Fellow](https://bssw.io/fellows/helen-kershaw).
 
-The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Submissions for the 2026 cohort are now open: [2026 BSSw Fellowship Application Form](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)!
+The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Submissions for the 2026 cohort are now open: [2026 BSSw Fellowship application details and form](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)!
 
 Fellowship Q&A webinar: Tuesday, September 16, 2025 1:00-2:00 pm EDT. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 
