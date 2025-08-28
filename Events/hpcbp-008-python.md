@@ -38,8 +38,9 @@ Resource Information | Details
 Webinar Title | Python in HPC
 Date and Time | 2017-06-07 01:00 pm EDT
 Presenters | Rollin Thomas (<a href="http://www.nersc.gov/">National Energy Research Scientific Computing Center</a>), William Scullin (Argonne National Laboratory),  and Matt Belhorn (Oak Ridge National Laboratory)  
-<!-- codespell:ignore rollin -->
 Registration, Information, and Archives | 	<https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar008>	
+
+<!-- codespell:ignore rollin -->
 
 **Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 
