@@ -93,7 +93,7 @@ Topics: online learning
 Level: 2
 Prerequisites: default
 Aggregate: none
- and Matt Belhorn (Oak Ridge National Laboratory)  
+... add back later: and Matt Belhorn (Oak Ridge National Laboratory)   
 --->
 
 
