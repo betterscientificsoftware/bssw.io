@@ -1,9 +1,5 @@
 # Practical Reproducibility: Report from the Community Workshop
 
-**Hero Image:**
-
- - <img src='https://github.com/betterscientificsoftware/bssw.io/raw/main/images/Blog__0521_Icons.jpg' />
-
 #### Contributed by: [Kate Keahey](https://github.com/keahey), [Marc Richardson](https://github.com/marcwitasee), and [Lois Curfman McInnes](https://github.com/curfman)
 
 #### Publication Date: September 4, 2025
