@@ -48,9 +48,9 @@ Those ranks then make independent `GetMesh()` (and `GetVar()`) calls for mesh (a
 ### The MOAB Native plugin
 
 In MOAB's native hdf5 format, a large mesh is stored as a monolithic whole single piece in a single file.
-To enable parallel read, the mesh needs to be prepartitioned into parts using [Zoltan](https://sandialabs.github.io/Zoltan/) or [metis](https://github.com/KarypisLab/METIS).
-The partitioning information is saved into the file.
-Currently, the VisIt MOAB plugin is looking for PARALLEL_PARTITION tag in the file, which describe the partitioning using MOAB entity sets. 
+The information needed to break the mesh into `K` pieces for parallel processing is also stored in the file as a *tag* named `PARALLEL_PARTITION`.
+For each element in the mesh, this tag identifies the piece number (`[0...K-1]`) the element belongs to.
+Typically, this tag is computed by a partitioner such as [Zoltan](https://sandialabs.github.io/Zoltan/) or [metis](https://github.com/KarypisLab/METIS).
 
 When the file is written in parallel during a checkpoint operation in a simulation, the PARALLEL_PARTITION tag is assigned to the local mesh set on each parallel task, preserving the partitioning of the model. VisIt becomes an invaluable tool to evaluate those checkpoint files, being able to show the partitioning and field values for variables of interest in the simulation. 
 
