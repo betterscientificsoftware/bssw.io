@@ -47,14 +47,18 @@ Those ranks then make independent `GetMesh()` (and `GetVar()`) calls for mesh (a
 
 ### The MOAB Native plugin
 
-In MOAB's native hdf5 format, a large mesh is stored as a monolithic whole single piece in a single file.
-The information needed to break the mesh into `K` pieces for parallel processing is also stored in the file as a *tag* named `PARALLEL_PARTITION`.
-For each element in the mesh, this tag identifies the piece number (`[0...K-1]`) the element belongs to.
-Typically, this tag is computed by a partitioner such as [Zoltan](https://sandialabs.github.io/Zoltan/) or [metis](https://github.com/KarypisLab/METIS).
+In MOAB's native HDF5 format, a large mesh is stored as a monolithic whole single piece in a single file.
+A MOAB *tag* named `PARALLEL_PARTITION` identifies the piece number (`[0...K-1]`) each element in the mesh belongs to.
+Typically, this tag (aka a mesh *coloring*) is computed by an upstream partitioner such as [Zoltan](https://sandialabs.github.io/Zoltan/) or [metis](https://github.com/KarypisLab/METIS).
 
-When the file is written in parallel during a checkpoint operation in a simulation, the PARALLEL_PARTITION tag is assigned to the local mesh set on each parallel task, preserving the partitioning of the model. VisIt becomes an invaluable tool to evaluate those checkpoint files, being able to show the partitioning and field values for variables of interest in the simulation. 
+When a file is being read, MOAB uses the `PARALLEL_PARTITION` tag to define HDF5 dataspaces representing each of the `K` pieces.
+MOAB requires that `R>=K` so that each MPI rank can be assigned one piece.
+When `R>K`, `R-K` ranks will idle.
+MOAB then engages in HDF5 collective read operations where each of `K` ranks reads its piece (specified by an HDF5 dataspace) of the *whole* mesh.
 
-At read time, parts are assigned to MPI ranks in a balanced fashion, and it is better to have `K` >= `R`, otherwise some tasks will be idle. 
+**MCM: HOW DOES MOAB IDLE any of the `R-K` ranks yet still engage in collective I/O? Pass empty dataspaces on those ranks?**
+**What happens when VisIt culls pieces that are known not to be involved in the current plot operation (e.g. slicing with spatial bounds)? Have we tested this?**
+
 This process is reversed and the parts are gathered and reassembled into a monolithic whole during write.
 
 When PopulateDatabaseMetaData is called, rank 0 reads information from the hdf5 header file, related to number of available parts, names of variables associated with the mesh. This information is then broadcast to all other tasks, and processed by VisIt to populate menus. 
