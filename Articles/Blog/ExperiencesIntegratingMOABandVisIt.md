@@ -38,12 +38,16 @@ In designing a plugin, a developer has many choices which ultimately effect the 
 
 Except for simple cases, VisIt will not divide a large, monolithic mesh into pieces for parallel processing.
 Instead, it *piggy backs* off of a parallel decomposition an upstream data producer would have already created using the [Multiple Independent File (MIF) parallel I/O paradigm](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/).
-In MIF, `K` pieces of mesh can be stored and distributed among `M` files (typically `K>>M`) and then processed by VisIt on `R` MPI ranks; `K`, `M` and `R` are completely independently selectable.
+In MIF, `K` pieces of mesh (called *domains*) can be stored and distributed among `M` files (typically `K>>M`) and then processed by VisIt on `R` MPI ranks.
+`K`, `M` and `R` are completely independently determined.
 The user choses `R` when launching the VisIt *engine*.
-Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently because `R-K` ranks will idle with no pieces to process.
-Each time VisIt produces a plot, a list of pieces *relevant* to the current plot, `K'<=K`, is computed.
+For example, for `K=20` domains spread across `M=4` files and good choices for `R` are `R=20` (`R=K`), `R=10`, (`R=K/2`), `R=5` (`R=K/4`) or `R=4` (`R=K/5`) though choosing `R=8` or `R=12` would be fine too except that this can lead to uneven load balance.
+Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently because `R-K` ranks will idle with no domains to process.
+
+Each time VisIt produces a plot, a list of domains *relevant* to the current plot, `K'<=K`, is computed.
 This list is sorted in increasing piece number and assigned to ranks according to various [*load balance*](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/getting_started/Startup_Options.html#:~:text=Load%20balance%20options) algorithms.
-Those ranks then make independent `GetMesh()` (and `GetVar()`) calls for mesh (and variable) pieces they are assigned.
+For each VisIt plot, the list of *relevant* domains can vary meaning that a given MPI rank does not always process the same domains.
+Those ranks then make independent (e.g. not *collective*) `GetMesh()` (and `GetVar()`) calls to the VisIt database plugin for mesh (and variable) pieces they are assigned.
 
 ### The MOAB Native plugin
 
