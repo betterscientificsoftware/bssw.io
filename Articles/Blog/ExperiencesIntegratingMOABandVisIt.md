@@ -58,15 +58,17 @@ Typically, this tag (aka a mesh *coloring*) is computed by an upstream partition
 When a file is being read, the MOAB plugin uses the `PARALLEL_PARTITION` tag to define [HDF5 dataspaces](https://support.hdfgroup.org/documentation/hdf5/latest/_h5_s__u_g.html) representing how each of the `K` domains are carved out of the whole dataset in the file.
 Currently, the MOAB plugin requires that `R>=K` so that each MPI rank can be assigned at most, one domain.
 When `R>K`, `R-K` ranks will idle.
+
 **MCM: HOW DOES MOAB IDLE any of the `R-K` ranks yet still engage in collective I/O? Pass empty dataspaces on those ranks?**
 **What happens when VisIt culls pieces that are known not to be involved in the current plot operation (e.g. slicing with domain spatial extents)? Have we tested this?**
-MOAB then engages in [HDF5 collective read operations](https://support.hdfgroup.org/documentation/hdf5/latest/_intro_par_h_d_f5.html) where each of the `K` ranks reads its domain (specified by an HDF5 dataspace) of the *whole* mesh.
-In this way, the MOAB database plugin, not VisIt, takes responsibility for breaking the whole mesh in the file into pieces to be processed by VisIt's parallel engine.
-It is also worth mentioning here that in a data producer such as [E3SM](https://e3sm.org/), this process is essentially reversed; each MPI rank defines an HDF5 dataspace representing its part of the whole and then engages in a collective write operation producing a single, monolothic whole mesh object in a single file.
 
-To affect the above behavior in VisIt, during the `PopulateDatabaseMetaData()` call, the MOAB database plugin informs VisIt that there is just one large piece and that it will do its own domain decomposition.
+MOAB then engages in HDF5 [collective reads](https://support.hdfgroup.org/documentation/hdf5/latest/_intro_par_h_d_f5.html) where each of the `K` ranks reads its domain (specified by an HDF5 dataspace) from the datasets in the file representing the *whole* mesh.
+In this way, the MOAB plugin, not VisIt, takes responsibility for breaking the whole mesh in the file into pieces to be processed.
+It is also worth mentioning here that in a data producer such as [E3SM](https://e3sm.org/), this process is essentially reversed; each MPI rank defines an HDF5 dataspace representing its part of the whole and then engages in collective writes producing a single, monolothic whole mesh object in a single file.
+
+To affect the above behavior in VisIt, during `PopulateDatabaseMetaData()`, the MOAB plugin informs VisIt that there is just one large piece and that the plugin will do its own domain decomposition.
 This has the effect of bypassing VisIt's *relevant* domains computation and forcing VisIt to always issue `GetMesh()` (and `GetVar()`) calls *collectively* on all MPI ranks.
-In the plugin, MOAB native mesh and tag data is processed to create the equiavelent VTK `vtkDataSet` (for the mesh) and `vtkDataArray` (for a tag) objects to serve back up to VisIt in response to `GetMesh()` and `GetVar()` calls.
+In the plugin, MOAB native mesh and tag data is processed to create the equiavelent VTK `vtkDataSet` (for the mesh) and `vtkDataArray` (for a tag) objects to serve back up to VisIt in response to `GetMesh()` and `GetVar()` calls respectively.
 
 **TO DO**:
 1. Tags vs. fields (interpolation schemes)
