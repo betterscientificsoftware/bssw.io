@@ -72,15 +72,15 @@ In the plugin, MOAB native mesh and tag data is processed to create the equiavel
 
 ### Combining MOAB and VisIt Data Models
 
-MOAB's data model involves three key concepts.
+MOAB's data model involves some key concepts.
 
 * **Entities**: Basic mesh objects such as vertices (0D), edges (1D), faces (2D), and elements/cells (3D).
 * *Relations*: The relationships between entities or entity sets in the form of **connectivities** or **adjacencies**. 
 * **Entity sets**: Collections of entities that can represent regions, boundaries, material groups, etc.
-* **Tags**: Flexible metadata attached to entities or entity sets representing various *attributes*.
+* **Tags**: Arbitrary *attributes* attached or associated with to entities or entity sets.
 
-In particular, MOAB delegates the interpretation of tags as degrees of freedom in the representation of some *field* defined over a mesh to producers and consumers.
-For example, there is nothing in a MOAB database that allows a producer to indicate that certain tags should be treated as the degrees of freedom in a piecewise linear field over *face* elements.
+In particular, MOAB delegates to producers and consumers the *interpretation* of tags.
+There is nothing in a MOAB database that allows a producer to indicate, for example, that a tag attached to vertex entities named `displacements` should treated as the degrees of freedom in a piecwise linear *cooordinate field* or that a tag named `eos` of 256x256 values on the entity set named `copper` is the equation of state for the material copper.
 
 **TO DO**:
 1. Tags vs. fields (interpolation schemes)
