@@ -62,13 +62,25 @@ When `R>K`, `R-K` ranks will idle.
 **MCM: HOW DOES MOAB IDLE any of the `R-K` ranks yet still engage in collective I/O? Pass empty dataspaces on those ranks?**
 **What happens when VisIt culls pieces that are known not to be involved in the current plot operation (e.g. slicing with domain spatial extents)? Have we tested this?**
 
-MOAB then engages in HDF5 [collective reads](https://support.hdfgroup.org/documentation/hdf5/latest/_intro_par_h_d_f5.html) where each of the `K` ranks reads its domain (specified by an HDF5 dataspace) from the datasets in the file representing the *whole* mesh.
-In this way, the MOAB plugin, not VisIt, takes responsibility for breaking the whole mesh in the file into pieces to be processed.
+MOAB then engages in HDF5 [collective reads](https://support.hdfgroup.org/documentation/hdf5/latest/_intro_par_h_d_f5.html) where each of the `K` ranks reads its domain (specified by an HDF5 dataspace) from the dataset(s) in the file representing the *whole* mesh.
+In this way, the MOAB plugin takes responsibility for breaking the whole mesh in the file into pieces to be processed using HDF5 data selection operations on each MPI rank during read.
 It is also worth mentioning here that in a data producer such as [E3SM](https://e3sm.org/), this process is essentially reversed; each MPI rank defines an HDF5 dataspace representing its part of the whole and then engages in collective writes producing a single, monolothic whole mesh object in a single file.
 
-To affect the above behavior in VisIt, during `PopulateDatabaseMetaData()`, the MOAB plugin informs VisIt that there is just one large piece and that the plugin will do its own domain decomposition.
+During `PopulateDatabaseMetaData()`, the MOAB plugin informs VisIt that there is just one large piece and that the plugin will do its own domain decomposition.
 This has the effect of bypassing VisIt's *relevant* domains computation and forcing VisIt to always issue `GetMesh()` (and `GetVar()`) calls *collectively* on all MPI ranks.
 In the plugin, MOAB native mesh and tag data is processed to create the equiavelent VTK `vtkDataSet` (for the mesh) and `vtkDataArray` (for a tag) objects to serve back up to VisIt in response to `GetMesh()` and `GetVar()` calls respectively.
+
+### Combining MOAB and VisIt Data Models
+
+MOAB's data model involves three key concepts.
+
+* **Entities**: Basic mesh objects such as vertices (0D), edges (1D), faces (2D), and elements/cells (3D).
+* *Relations*: The relationships between entities or entity sets in the form of **connectivities** or **adjacencies**. 
+* **Entity sets**: Collections of entities that can represent regions, boundaries, material groups, etc.
+* **Tags**: Flexible metadata attached to entities or entity sets representing various *attributes*.
+
+In particular, MOAB delegates the interpretation of tags as degrees of freedom in the representation of some *field* defined over a mesh to producers and consumers.
+For example, there is nothing in a MOAB database that allows a producer to indicate that certain tags should be treated as the degrees of freedom in a piecewise linear field over *face* elements.
 
 **TO DO**:
 1. Tags vs. fields (interpolation schemes)
