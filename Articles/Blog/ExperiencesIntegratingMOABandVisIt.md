@@ -4,6 +4,8 @@ In this article, we describe our experiences developing and using a MOAB databas
 Funding from the OASIS project (and from xxx earlier projects) aims to facilitate collaborations between developers of tools such as VisIt and the broader scientific computing community.
 These funding streams have supported a mutually beneficial collaboration between VisIt developers at LLNL and MOAB developers at ANL.
 
+**MCM**: Include some short remarks regarding some other single, shared file collective parallel plugins (e.g. ADIOS, FLASH (I think), ...)
+
 ## What are MOAB and VisIt?
 The Mesh-Oriented datABase ([MOAB](https://sigma.mcs.anl.gov/moab-library/)) package is an in-situ, scalable, library for managing mesh-based scientific data.
 It is optimized to process mesh data in bulk parcels (or [shards](https://en.wikipedia.org/wiki/Shard_(database_architecture))) or fine-grained iterations over subsets of mesh entities.
