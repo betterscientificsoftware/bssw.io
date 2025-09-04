@@ -76,12 +76,15 @@ MOAB's data model involves some key concepts.
 
 * **Entities**: Basic mesh objects such as vertices (0D), edges (1D), faces (2D), and elements/cells (3D).
 * **Entity sets**: Collections of entities that can represent regions, boundaries, material groups, etc.
-* *Relations*: The relationships between entities or entity sets in the form of **connectivities** or **adjacencies**.
+* *Relations*: The relationships between entities or entity sets in the form of **connectivities** or up, down or lateral **adjacencies**.
   * **NOTE**: The word "relations" is not really part of MOAB's data model.
-* **Tags**: Arbitrary *attributes* attached or associated with to entities or entity sets.
+* **Tags**: Arbitrary, application-defined, *attributes* associated with entities or entity sets.
 
-In particular, MOAB delegates to producers and consumers the *interpretation* of tags.
-There is nothing in a MOAB database that allows a producer to indicate, for example, that a scalar tag named `displacements` attached to vertex entities should treated as the degrees of freedom in a piecewise linear *coordinate field* or that a 2D *table* tag of 256x256 values named `eos` attached to the entity set named `copper` is the equation of state for the material copper.
+*Interpretation* of tag data is, for the most part, delegated to producers and consumers.
+Apart from tag names themselves, there is nothing in a MOAB database that allows a producer to indicate, for example, that a scalar tag named `displacements` attached to vertex entities should treated as the degrees of freedom in a piecewise linear *coordinate field* or that a 2D *table* tag named `eos` attached to the entity set named `copper` is the equation of state data for the *copper material*.
+To ensure proper interpretation of tag data between producers and consumers, it is expected that different groups working in the same application domain will adopt common tag naming conventions.
+For tag data that applies across multiple application domains, such as the decomposition of a mesh into pieces for parallel processing, some tag naming conventions, such as the `PARALLEL_PARITION` tag name, are determined by MOAB itself.
+As MOAB databases are opened in VisIt, the plugin will allow the user to identify which set of naming conventions should be used to interpret the data.
 
 **TO DO**:
 1. Tags vs. fields (interpolation schemes)
