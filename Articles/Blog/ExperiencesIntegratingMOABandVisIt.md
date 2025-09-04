@@ -1,3 +1,9 @@
+# Experiences with the Scalable Integration of MOAB and VisIt
+
+In this article, we describe our experiences developing and using a MOAB database plugin for VisIt.
+Funding from the OASIS project (and from xxx earlier projects) aims to facilitate collaborations between developers of tools such as VisIt and the broader scientific computing community.
+These funding streams have supported a mutually beneficial collaboration between VisIt developers at LLNL and MOAB developers at ANL.
+
 ## What are MOAB and VisIt?
 The Mesh-Oriented datABase ([MOAB](https://sigma.mcs.anl.gov/moab-library/)) package is an in-situ, scalable, library for managing mesh-based scientific data.
 It is optimized to process mesh data in bulk parcels (or [shards](https://en.wikipedia.org/wiki/Shard_(database_architecture))) or fine-grained iterations over subsets of mesh entities.
@@ -7,10 +13,6 @@ These files are often used to export MOAB data to other software used in a large
 
 VisIt is a scalable scientific visualization tool for analyzing mesh-based scientific data either in files or in-situ.
 Database plugins in VisIt use the Visualization ToolKit ([VTK](https://vtk.org)) grid (`vtkDataset`) and field (`vtkDataArray`) objects to marshal data from files on disk into VisIt's internal memory and parallel processing models.
-
-In this article, we describe our experiences developing and using a MOAB database plugin for VisIt.
-Funding from the OASIS project (and from xxx earlier projects) aims to facilitate collaborations between developers of tools such as VisIt and the broader scientific computing community.
-These funding streams have supported a mutually beneficial collaboration between VisIt developers at LLNL and MOAB developers at ANL.
 
 ### The ITAPS Generic plugin
 
@@ -40,6 +42,7 @@ Except for simple cases, VisIt itself does not decompose a large, monolithic mes
 Instead, it *piggy backs* off of a parallel decomposition an upstream data producer would have already created using the [Multiple Independent File (MIF) parallel I/O paradigm](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/).
 In MIF, `K` pieces of mesh (also called *domains*) can be stored and distributed among `M` files (typically `K>>M`) and then processed by VisIt on `R` MPI ranks.
 `K`, `M` and `R` are completely independently determined.
+
 The user choses `R` when launching the VisIt *engine*.
 For example, for `K=20` domains spread across `M=4` files, good choices for `R` are `R=20` (`R=K`), `R=10` (`R=K/2`), `R=5` (`R=K/4`) or `R=4` (`R=K/5`) though choosing `R=8` or `R=12` would be fine too except that this can lead to uneven load balance.
 Typically `R<=K` though if `R>K`, VisIt still functions albeit less efficiently because `R-K` ranks will idle with no domains to process.
@@ -80,10 +83,11 @@ MOAB's data model involves some key concepts.
   * **NOTE**: The word "relations" is not really part of MOAB's data model.
 * **Tags**: Arbitrary, application-defined, *attributes* associated with entities or entity sets.
 
-*Interpretation* of tag data is, for the most part, delegated to producers and consumers.
-Apart from tag names themselves, there is nothing in a MOAB database that allows a producer to indicate, for example, that a scalar tag named `displacements` attached to vertex entities should treated as the degrees of freedom in a piecewise linear *coordinate field* or that a 2D *table* tag named `eos` attached to the entity set named `copper` is the equation of state data for the *copper material*.
+*Interpretation* of tag data is, for the most part, delegated to MOAB producers and consumers.
+Apart from tag names themselves, there is nothing in a MOAB database that allows a producer to indicate, for example, that a scalar tag named `displacements` attached to vertex entities should be treated as the degrees of freedom in a piecewise linear *coordinate field* or that a 2D *table* tag named `eos` attached to the entity set named `copper` is the equation of state data for the *copper material*.
+
 To ensure proper interpretation of tag data between producers and consumers, it is expected that different groups working in the same application domain will adopt common tag naming conventions.
-For tag data that applies across multiple application domains, such as the decomposition of a mesh into pieces for parallel processing, some tag naming conventions, such as the `PARALLEL_PARITION` tag name, are determined by MOAB itself.
+For tag data common to multiple application domains (e.g. `PARALLEL_PARITION` which governs the decomposition of the mesh for parallel processing) the naming conventions are determined by MOAB itself.
 As MOAB databases are opened in VisIt, the plugin will allow the user to identify which set of naming conventions should be used to interpret the data.
 
 **TO DO**:
