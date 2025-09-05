@@ -8,7 +8,7 @@ Meet Chase Million, BSSw Fellow and founder of Million Concepts, who recognized 
 
 <br>
 
-This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-bssw-fellowship-previous-fellows-spotlight-helen-kershaw/).
+This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-bssw-fellowship-previous-fellows-spotlight-chase-million/).
 
 <br>
 [Chase Million]]<img src='../../images/People_2021_F_Million.jpg' class='logo' />
