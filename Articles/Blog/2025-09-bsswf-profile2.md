@@ -4,7 +4,7 @@
 
 #### Publication date: September 9, 2025
 
-Meet Chase Million, BSSw Fellow and founder of Million Concepts, who recognized a critical gap in research environments: the need for dedicated project management, process support and engineering expertise in research software development. And researchers are grateful. Million has been approached at conferences and by research software engineering groups across the country about his BSSw paper, and continues to  provide research software engineering services through Million Concepts
+Meet Chase Million, BSSw Fellow and founder of Million Concepts, who recognized a critical gap in research environments: the need for dedicated project management, process support and engineering expertise in research software development.
 
 <br>
 
