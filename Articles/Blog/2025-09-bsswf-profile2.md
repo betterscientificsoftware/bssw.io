@@ -11,7 +11,7 @@ Meet Chase Million, BSSw Fellow and founder of Million Concepts, who recognized 
 This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-bssw-fellowship-previous-fellows-spotlight-chase-million/).
 
 <br>
-[Chase Million]]<img src='../../images/People_2021_F_Million.jpg' class='logo' />
+[Chase Million]<img src='../../images/People_2021_F_Million.jpg' class='logo' />
 <br>
 
 [Chase Million](https://bssw.io/fellows/chase-million) started Million Concepts, which provides research software engineering services, because he was frustrated by an absence of “professional process and project management for software development in research contexts,” including allocating enough time and resources to software tasks. His company builds software to enhance the work of scientific researchers and subject-matter experts, many of which are funded by grants. “The idea was that we would then be on the grant as the software people and there would be a specific line of funding for that, which has been historically rare,” says Million. 
