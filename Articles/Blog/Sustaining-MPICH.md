@@ -72,7 +72,7 @@ commit practices. Do the commits in a pull request stand on their own?
 Does each commit message explain what change is being made and why?
 These are helpful breadcrumbs for developers and users when they are
 investigating some issue in the code. Commit messages capture the
-context of a change when it was made, moreso than inline comments which
+context of a change when it was made, more so than inline comments which
 can get stale over time. Furthermore, tools like [git bisect][bisect]
 are better able to track down the exact commit a bug was introduced when
 every commit can be built and tested independently.
@@ -157,7 +157,7 @@ much as possible to avoid polluting otherwise straightforward code.
 
 Carefully formatting commits and answering these types of questions can
 seem burdensome, but it is critical to maintainability. Guidelines for
-commit best practices are desribed in our [developer
+commit best practices are described in our [developer
 documentation][devel-docs] so contributors are not flying blind. Also in
 our documentation are [_coding standards_][standards]. This is where we
 state in clear terms how MPICH code should be written to help both the
@@ -218,10 +218,10 @@ since the beginning. The [MPI Forum][forum] continues meeting to this
 day to discuss updates and changes to the standard based on new
 research. MPICH strives to be the first implementation to support the
 newest MPI standard releases as they are published. This benefits our
-downstream partners as they can quickly addapt the new code and include
+downstream partners as they can quickly adapt the new code and include
 it in release of their own.
 
-MPICH participation goes beyond just implementating the new
+MPICH participation goes beyond just implementing the new
 standards. We develop original proposals, provide feedback on others'
 work, and help to publicize activities of the forum with the broader MPI
 user community.
@@ -261,7 +261,7 @@ community.
 
 Funding for MPICH development primarily comes from the Department of
 Energy's Advanced Scientific Computing Research (ASCR) program. MPICH
-remains a research project at its core even though its derivitives are
+remains a research project at its core even though its derivatives are
 used on many large-scale production systems.
 
 The [Aurora][aurora] supercomputer at Argonne's Leadership Computing
@@ -294,7 +294,7 @@ machine for users.
 ## Conclusion
 
 There are no secrets to MPICH's success that led to its selection as the
-2024 ACM Software System Award winner. As discussed, the priciples of
+2024 ACM Software System Award winner. As discussed, the principles of
 sustainability are many of the same topics that have already been
 covered on the Better Scientific Software website. Well-implemented
 revision control, issue tracking, and code review are necessary for a
