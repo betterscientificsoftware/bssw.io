@@ -6,7 +6,10 @@ More questions and answers will be added to this page over time; check back for 
 
 We will host a Q&A webinar for the 2026 BSSw Fellowship Program.
 - **Tuesday, September 16, 2025, 1:00-2:00 pm EDT**
-- Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.  This webinar will provide an overview of the BSSw Fellowship Program, information about the application process, and an opportunity for questions (and answers).  
+- Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.  This webinar will provide an overview of the BSSw Fellowship Program, information about the application process, and an opportunity for questions (and answers).
+
+Slides for the 2026 BSSw Fellowship Q&A Webinar:
+- Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.30131935.v1)
 
 <!-- Slides & Recording for 2025 BSSw Fellowship Q&A Webinar: -->
 <!-- - Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.26978398.v1) -->
