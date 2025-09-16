@@ -6,37 +6,41 @@ In high-performance computing, MPI is known as the de facto standard
 programming model for parallel applications. In the era before MPI, HPC
 vendors each provided their own communication API for scaling
 applications on multiple processors. The differences in APIs meant that
-applications needed to be modified to run on different machines and/or
+developers needed to modify applications to run on different machines and/or
 networks. The development of MPI was an effort to standardize the
 communication constructs for parallel applications. Users could write
 their codes once and run anywhere MPI was supported, without having to
 know the details of the underlying system.
 
 MPICH was the first publicly available implementation of MPI and has
-been continually developed since its inception. This May, MPICH was
-announced as the latest recipient of the [ACM Software System
-Award][acm-award]. The award "recognizes MPICH for powering 30 years of
-progress in computational science and engineering by providing scalable,
-robust, and portable communication software for parallel computers." It
-is an honor to be recognized alongside other significant award winners
-such as GCC, Unix, TCP/IP, and Java. In this article we will look
-at some of the key aspects of MPICH's success as a software project and
-how the MPICH developers have sustained the project for 30+ years.
+been continually developed since its inception. This May, the
+Association for Computing Machinery (ACM) announced MPICH as the
+recipient of the 2024 [ACM Software System Award][acm-award]. The award
+"recognizes MPICH for powering 30 years of progress in computational
+science and engineering by providing scalable, robust, and portable
+communication software for parallel computers." It is an honor to be
+recognized alongside other significant award winners such as GCC, Unix,
+TCP/IP, and Java. In this article we will look at some of the key
+aspects of MPICH's success as a software project and how the MPICH
+developers have sustained the project for 30+ years.
 
 ## **Origins and Evolution**
 
-The MPICH project was founded during the development of the MPI-1
-Standard and closely tracked its evolution prior to initial
-publication. MPICH was instrumental to MPI's success in that it served
-as a valuable proving ground, showcasing that the standard was practical
-to implement and use. Distributing MPICH as open source made MPI
-accessible to everyone and, with its permissive license, provided
-vendors with a solid foundation on which to base their own MPI implementations.
+The MPICH project began during the development of the MPI-1 Standard and
+closely tracked its evolution prior to initial publication. MPICH was
+instrumental to MPI's success in that it served as a valuable proving
+ground, showcasing that the standard was practical to implement and
+use. Developing a reference implementation alongside the standard helped
+bring to light complexities of early drafts and contributed concrete
+examples of good and bad design choices. Distributing MPICH as open
+source made MPI accessible to everyone and, with its permissive license,
+provided vendors with a solid foundation on which to base their own MPI
+implementations.
 
-From the beginning, MPICH was designed for extension. Its permissive
+From the beginning, the MPICH team designed for extension. A permissive
 license allowed vendors to package and sell software derived from MPICH
-without the need for licensing or fees. The core code was developed to
-adhere to the C89 (later C99) standard, which is widely portable. The
+without the need for licensing or fees. Developing the core code
+adhering to the C89 (later C99) standard made MPICH widely portable. The
 internal abstractions in MPICH isolated the "generic" parts of
 implementing MPI, such as argument validation, object management, and
 functionality tests from the nitty-gritty machine-dependent code. These
@@ -106,18 +110,19 @@ issues. Release plans list all the issues required to be closed for
 completeness.
 
 Before the ubiquity of web-based issue tracking software, MPICH utilized
-[req][req] for managing issues. As more and more projects moved to
-web-based workflows, MPICH adopted [Trac][trac] along with its move to
-Subversion for revision control. Trac offered a convenient web interface
-for viewing, searching, and modifying issues. It also offered neat
-integrations with the underlying source code management, like the
-ability to close issues with special phrases in the commit message that
-resolved them. These integrations were maintained even when MPICH
-transitioned to Git, as Trac offered native support for both Subversion
-and Git. However, the MPICH Trac site was internally managed at Argonne
-and eventually became burdensome to maintain. New release, security
-patches, and environment updates by the Argonne IT team led to frequent
-downtimes.
+[req][req] for managing issues. Req's limited handling of email
+attachments and lack of support for external contributor access led
+maintainers to search for alternatives. The MPICH team adopted
+[Trac][trac] along with its move to Subversion for revision
+control. Trac offered a convenient web interface for viewing, searching,
+and modifying issues. It also offered neat integrations with the
+underlying source code management, like the ability to close issues with
+special phrases in the commit message that resolved them. These
+integrations were maintained even when MPICH transitioned to Git, as
+Trac offered native support for both Subversion and Git. However, the
+MPICH Trac site was internally managed at Argonne and eventually became
+burdensome to maintain. New release, security patches, and environment
+updates by the Argonne IT team led to frequent downtimes.
 
 In 2016, GitHub eventually became the sole home for MPICH source code
 and issue tracking. GitHub was (and is) widely popular with open source
@@ -132,28 +137,29 @@ common to many open source projects.
 ### **Pull Requests**
 
 For changes to the MPICH source code, we use a pull request workflow
-typical of many of todays projects. For a pull request to be
-approved for merge, it must first pass several automated checks. All
-changes are checked for code style, contributor agreement, compiler
-warnings, test regressions, and even spelling mistakes via continuous
-integration scripts. This automation is helpful because it makes many
-aspects of the pull request process mechanical and frees up developers
-to focus on the most important part of the process -- code review.
+typical of many of todays projects. Before we can approve a pull
+request, it must first pass several our automated checks. Our
+pre-approval scripts check for code style, contributor agreement,
+compiler warnings, test regressions, and even spelling mistakes via
+continuous integration. This automation helps make many aspects of the
+pull request process mechanical and frees up developers to focus on the
+most important part of the process -- code review.
 
 The MPICH code review process places a premium on _understanding_
 proposed changes. The author must communicate to the reviewer why and
 how the changes are being made. It is one thing for code to work; but to
-be maintainable, it must be understandable. That means that if the same
-code needs to be modified by someone other than the original author, the
-chances are higher it can be done in a reasonable amount of time and
-without unintentionally breaking things. Some questions we ask when
-reviewing code are "Is this code easy to understand? If not, is the
+be maintainable, it must be understandable. That means that if someone
+other than the original author needs to modify the contributed code one
+day, the chances are higher it can be done in a reasonable amount of
+time and without unintentionally breaking things. Some questions we ask
+when reviewing code are "Is this code easy to understand? If not, is the
 complexity needed to achieve a goal? Can the code be simplified without
 losing functionality or performance?" Simple code is preferable because
 it is easier to debug and modify, but complexity may sometimes be
-necessary, for example, to improve performance of a critical function. As
-developers, we prefer that complexity be isolated (and documented) as
-much as possible to avoid polluting otherwise straightforward code.
+necessary, for example, to improve performance of a critical
+function. As developers, we prefer that complexity be isolated (and
+documented) as much as possible to avoid polluting otherwise
+straightforward code.
 
 Carefully formatting commits and answering these types of questions can
 seem burdensome, but such steps are critical to maintainability. Guidelines for
@@ -221,10 +227,11 @@ newest MPI standard releases as they are published. This strategy benefits our
 downstream partners because they can quickly adapt the new code and include
 it in a release of their own.
 
-MPICH participation goes beyond just implementing the new
+MPICH team participation goes beyond just implementing the new
 standards. We develop original proposals, provide feedback on others'
 work, and help publicize activities of the forum with the broader MPI
-user community.
+user community. Our deep involvement in the forum continues the work
+started during the origins of the project.
 
 ### MPICH Community
 
@@ -283,13 +290,13 @@ and bug fixes.
 
 The MPICH team has also been working closely with ALCF application
 developers and experts to understand the workloads running on the
-machine. This input has been critical for also guiding development to
-directly enable applications to run efficiently and at scale. At the
-same time, we have spent considerable effort with the ALCF team to
-implement additional testing infrastructure for MPICH on Aurora. These
-tests monitor MPICH changes for regression in both correctness and
-performance, leading to more stable and consistent performance of the
-machine for users.
+machine. This input has been critical for tuning MPICH and guiding
+additional development to enable applications to run efficiently and at
+scale. At the same time, we have spent considerable effort with the ALCF
+team to implement additional testing infrastructure for MPICH on
+Aurora. These tests monitor MPICH changes for regression in both
+correctness and performance, leading to more stable and consistent
+performance of the machine for users.
 
 ## Conclusion
 
