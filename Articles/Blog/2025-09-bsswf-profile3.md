@@ -8,8 +8,9 @@ Scientists like Dr. Antigoni Georgiadou are spearheading discussions around the 
 
 <br>
 
-This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-bssw-fellowship-previous-honorable-mentions-spotlight-antigoni-georgiadou/
+This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-past-honorable-mention-spotlight-antigoni-georgiadou/
 ).
+
 
 <br>
 [Antigoni Georgiadou]<img src='../../images/People_2024_HM_Georgiadou.jpg' class='logo' />
