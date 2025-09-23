@@ -4,7 +4,7 @@
 
 #### Publication date: September 23, 2025
 
-Scientists like Dr Antigoni Georgiadou are spearheading discussions around the energy footprint of high performance computing and artificial intelligence. As a BSSw Fellowship Honorable Mention, she’s launching a YouTube series to inspire the wider high performance computing community to be leaders in energy-efficiency.
+Scientists like Dr. Antigoni Georgiadou are spearheading discussions around the energy footprint of high performance computing and artificial intelligence. As a BSSw Fellowship Honorable Mention, she’s launching a YouTube series to inspire the wider high-performance computing community to be leaders in energy-efficiency.
 
 <br>
 
