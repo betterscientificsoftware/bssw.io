@@ -5,7 +5,7 @@ AI is a powerful tool for coding and solving problems. How do we interact with i
 <!--deck text end-->
 
 #### Contributed by [Keith Beattie](https://github.com/ksbeattie)
-#### Publication date: 2025-09-30
+#### Publication date: 2025-09-26
 
 Resource information | Details
 :--- | :---
