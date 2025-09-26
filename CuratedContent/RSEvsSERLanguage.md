@@ -13,9 +13,9 @@ Resource information | Details
 Paper title  | Do Research Software Engineers and Software Engineering Researchers Speak the Same Language?
 Auhors |Timo Kehrer, Robert Haines, Guido Juckeland, Shurui Zhou, and David E. Bernholdt
 Organization | Computing in Science & Engineering, IEEE Computer Society
-Publication | IEEE CISE Volume:27, Issue:2, April-June 2025; DOI: [10.1109/MCSE.2025.3557236](10.1109/MCSE.2025.3557236)
+Publication | IEEE CISE Volume:27, Issue:2, April-June 2025; DOI: [https://doi.org/10.1109/MCSE.2025.3557236](https://doi.org/10.1109/MCSE.2025.3557236)
 
-In the article  titled *[Do Research Software Engineers and Software Engineering Researchers Speak the Same Language?](10.1109/MCSE.2025.3557236)*, published in IEEE Computing in Science & Engineering journal, the authors examine how RSEs and SERs often use different terminology and interpret software engineering concepts in distinct ways. 
+In the article  titled *[Do Research Software Engineers and Software Engineering Researchers Speak the Same Language?](https://doi.org/10.1109/MCSE.2025.3557236)*, published in IEEE Computing in Science & Engineering journal, the authors examine how RSEs and SERs often use different terminology and interpret software engineering concepts in distinct ways. 
 Both groups aim to produce high-quality software, but differences in training and professional focus can lead to inconsistencies in understanding. 
 This study builds on discussions from the Dagstuhl Seminar Research Software Engineering: Bridging Knowledge Gaps and seeks to identify where communication gaps exist.
 
