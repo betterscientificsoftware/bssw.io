@@ -12,7 +12,7 @@ Slide3 R: ../CuratedContent/IsAITheNewRubberDuckandWillItReplaceHumanCoders.md
 Slide4 L: ../Events/hpcbp-094-sustainable-sw.md
 Slide4 R: ../Events/2025-10-bssw-fellowship.md
 Slide5 L: ../Events/2025-10-ssi-fellowship.md 
-Slide5 R: ../Events/2025-usrse-conf.md
+Slide5 R: ../Events/2025-11-sc25-sw-events.md
 Slide6 L: ../images/Blog_2507_BSSwFellows2024.png
 Slide6 R: ../Articles/Blog/2025-07-BSSwFellows2024.md
 Slide7 L: ../Articles/Blog/2025-08-bsswf-profile1.md
