@@ -33,14 +33,15 @@ Shared techniques like user stories make it easier to build mutual understanding
 They do recognize the need for better testing and could adapt SER methods to fit these contexts.
 
 * Lack of Adoption: Even when RSEs are aware of SE practices, highly structured approaches like those in SWEBOK may not fit daily research software work, which is often exploratory and nonlinear.
-  Requirements can change frequently during prototyping (and for some type of large-scale research software, the software requirements are often influencd from the infrastructure itself).
-  Examining these gaps can help improve RSE practices and enhance SER understanding of research software contexts.
+Requirements can change frequently during prototyping (and for some type of large-scale research software, the software requirements are often influencd from the infrastructure itself).
+Examining these gaps can help improve RSE practices and enhance SER understanding of research software contexts.
 
 Overall, the study demonstrates that creating a shared vocabulary can improve communication, support mutual learning, and facilitate collaboration between RSEs and SERs. 
 By combining a structured approach with community participation, the authors provide a foundation for greater alignment between these two groups, offering practical benefits for both research software development and software engineering research.
 
 This article should be a useful resource for RSEs and SERs looking to strengthen collaboration and share best practices effectively.
-  <!---
+
+<!---
 Publish: yes
 RSS update: 2025-26-09
 Topics: research software engineers
