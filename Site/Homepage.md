@@ -8,7 +8,7 @@ Slide1 R: ../Hero_topic_user_experience_072125.png
 Slide2 L: ../Articles/Blog/2025-09-bsswf-profile3.md
 Slide2 R: ../Articles/Blog/2025-09-bsswf-profile2.md
 Slide3 L: ../CuratedContent/RSEvsSERLanguage.md
-Slide3 R: ../CuratedContent/2023-04-ProjectMgmtKillYourSoftware.md
+Slide3 R: ../CuratedContent/IsAITheNewRubberDuckandWillItReplaceHumanCoders.md
 Slide4 L: ../Events/hpcbp-094-sustainable-sw.md
 Slide4 R: ../Events/2025-10-bssw-fellowship.md
 Slide5 L: ../Events/2025-10-ssi-fellowship.md 
