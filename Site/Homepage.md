@@ -3,18 +3,20 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../images/OG_2508_BSSwFellowships.png
-Slide1 R: ../Articles/Blog/2025-08-BSSwFellowsOpen2025.md 
-Slide2 L: ../images/Blog_2507_BSSwFellows2024.png
-Slide2 R: ../Articles/Blog/2025-07-BSSwFellows2024.md
-Slide3 L: ../Articles/Blog/2025-08-bsswf-profile1.md
-Slide3 R: ../CuratedContent/DontPackageYourLibrariesWritePackagableLibraries.md
-Slide4 L: ../CuratedContent/AiCodingAgentsWhatWorks.md
-Slide4 R: ../Events/hpcbp-093-openssf.md
+Slide1 L: ../Articles/Blog/2025-10-ux3.md 
+Slide1 R: ../Hero_topic_user_experience_072125.png
+Slide2 L: ../Articles/Blog/2025-09-bsswf-profile3.md
+Slide2 R: ../Articles/Blog/2025-09-bsswf-profile2.md
+Slide3 L: ../CuratedContent/RSEvsSERLanguage.md
+Slide3 R: ../CuratedContent/2023-04-ProjectMgmtKillYourSoftware.md
+Slide4 L: ../Events/hpcbp-094-sustainable-sw.md
+Slide4 R: ../Events/2025-10-bssw-fellowship.md
 Slide5 L: ../Events/2025-10-ssi-fellowship.md 
-Slide5 R: ../Events/2025-07-llnl-hpc-tutorials.md
-Slide6 L: ../Events/2025-09-escience.md
-Slide6 R: ../Events/2025-usrse-conf.md
+Slide5 R: ../Events/2025-usrse-conf.md
+Slide6 L: ../images/Blog_2507_BSSwFellows2024.png
+Slide6 R: ../Articles/Blog/2025-07-BSSwFellows2024.md
+Slide7 L: ../Articles/Blog/2025-08-bsswf-profile1.md
+Slide7 R: ../Articles/Blog/2025-08-BSSwFellowsOpen2025.md 
 --->
 
 <!---
