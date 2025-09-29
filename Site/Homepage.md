@@ -3,20 +3,23 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
+Slide1 L: ../Articles/Blog/2025-09-bsswf-profile3.md
+Slide1 R: ../Articles/Blog/2025-09-bsswf-profile2.md
+Slide2 L: ../CuratedContent/RSEvsSERLanguage.md
+Slide2 R: ../CuratedContent/IsAITheNewRubberDuckandWillItReplaceHumanCoders.md
+Slide3 L: ../Events/hpcbp-094-sustainable-sw.md
+Slide3 R: ../Events/2025-10-bssw-fellowship.md
+Slide4 L: ../Events/2025-10-ssi-fellowship.md 
+Slide4 R: ../Events/2025-11-sc25-sw-events.md
+Slide5 L: ../images/Blog_2507_BSSwFellows2024.png
+Slide5 R: ../Articles/Blog/2025-07-BSSwFellows2024.md
+Slide6 L: ../Articles/Blog/2025-08-bsswf-profile1.md
+Slide6 R: ../Articles/Blog/2025-08-BSSwFellowsOpen2025.md 
+--->
+
+<!---
 Slide1 L: ../Articles/Blog/2025-10-ux3.md 
 Slide1 R: ../Hero_topic_user_experience_072125.png
-Slide2 L: ../Articles/Blog/2025-09-bsswf-profile3.md
-Slide2 R: ../Articles/Blog/2025-09-bsswf-profile2.md
-Slide3 L: ../CuratedContent/RSEvsSERLanguage.md
-Slide3 R: ../CuratedContent/IsAITheNewRubberDuckandWillItReplaceHumanCoders.md
-Slide4 L: ../Events/hpcbp-094-sustainable-sw.md
-Slide4 R: ../Events/2025-10-bssw-fellowship.md
-Slide5 L: ../Events/2025-10-ssi-fellowship.md 
-Slide5 R: ../Events/2025-11-sc25-sw-events.md
-Slide6 L: ../images/Blog_2507_BSSwFellows2024.png
-Slide6 R: ../Articles/Blog/2025-07-BSSwFellows2024.md
-Slide7 L: ../Articles/Blog/2025-08-bsswf-profile1.md
-Slide7 R: ../Articles/Blog/2025-08-BSSwFellowsOpen2025.md 
 --->
 
 <!---
