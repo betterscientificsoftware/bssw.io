@@ -15,7 +15,7 @@ Focus | Agenic AI, LLMs, Software productivity
 Presentation Language | English
 
 Years ago a coworker walked into my office, sat down, and started describing a problem he was having
-with a system he was building.  He described what he was trying to do and what was going wrong vs
+with a system he was building.  He described what he was trying to do and what was going wrong vs.
 what he expected to happen.  After a few minutes of him talking through his situation, he paused
 mid-sentence, said "Oh right, that's it, I know what I've got wrong," then left.  All this happened
 without me saying a single word.  He came in, talked through his problem, solved it himself, then
@@ -53,7 +53,7 @@ driving that loop, selecting the best solutions.
 Finally, trust is still a big issue, with the need for humans to be in the loop still.  “That team
 dynamics - when an AI agent can become a member of the team, what kind of tasks will it be doing, and
 how the rest of the team will be interacting with the agent—is essentially where the human-AI
-boundary lies”.
+boundary lies.”
 
 <!---
 Publish: yes
