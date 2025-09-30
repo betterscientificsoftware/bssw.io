@@ -33,7 +33,7 @@ Wed. Nov. 19<br>12:15pm-1:15pm | BoF | [Building Sustainable HPC Outreach: Reinv
 Wed. Nov. 19<br>12:15pm-1:15pm | BoF | [Spack Community BOF](https://sc25.conference-program.com/presentation/?id=bof255&sess=sess453)
 Wed. Nov. 19<br>3:30pm-5:00pm | Panel | [Navigating the Software Storm: Writing Software in the Age of Extreme Heterogeneity](https://sc25.conference-program.com/presentation/?id=pan108&sess=sess350)
 Wed. Nov. 19<br>5:15pm-6:45pm | BoF | [Scientific Software and the People Who Make it Happen: Building Our Communities and Practices](https://sc25.conference-program.com/presentation/?id=bof123&sess=sess465)
-Thu. Npv. 20<br>1:30pm-3:00pm | Panel | [Research Software Engineering in the age of AI](https://sc25.conference-program.com/presentation/?id=pan109&sess=sess351)
+Thu. Nov. 20<br>1:30pm-3:00pm | Panel | [Research Software Engineering in the age of AI](https://sc25.conference-program.com/presentation/?id=pan109&sess=sess351)
 
 <!---
 Publish: yes
