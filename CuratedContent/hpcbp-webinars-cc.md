@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2025-07-10*
+*Listed in reverse chronological order. Last updated: 2025-10-01*
+
+- 2025-09-24: [Application of the OpenSSF Best Practices Badge Program to Scientific Software](https://ideas-productivity.org/events/hpcbp-093-openssf), presented by Roscoe A. Bartlett (Sandia National Laboratories), Yanfei Guo (Argonne National Laboratory), and Pratik Nayak (Technical University of Munich)
 
 - 2025-07-09: [Using Generative AI for Coding Tasks in Scientific Software](https://ideas-productivity.org/events/hpcbp-092-genai-coding), presented by Anshu Dubey (Argonne National Laboratory), and Akash Dhruv (Argonne National Laboratory)
 
@@ -137,7 +139,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 - 2020-04-15: [Best Practices for Using Proxy Applications as Benchmarks](https://ideas-productivity.org/events/hpcbp-039-bp4proxyapps), presented by David Richards (Lawrence Livermore National Laboratory), and Joe Glenski (Hewlett-Packard Enterprise)
 
-- 2020-03-18: [Testing: Strategies When Learning Programming Models and Using High-Performance Libraries](https://ideas-productivity.org/events/hpcbp-038-testing), presented by Balint Joo (Jefferson Lab)  <!-- codespell:ignore joo -->
+- 2020-03-18: [Testing: Strategies When Learning Programming Models and Using High-Performance Libraries](https://ideas-productivity.org/events/hpcbp-038-testing), presented by Balint Joo (Jefferson Lab)
 
 - 2020-02-19: [Introduction to Kokkos](https://ideas-productivity.org/events/hpcbp-037-kokkos), presented by Christian Trott (Sandia National Laboratories)
 
@@ -197,7 +199,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 - 2017-07-12: [Intermediate Git](https://ideas-productivity.org/events/hpcbp-009-git), presented by Roscoe A. Bartlett (Sandia National Laboratories)
 
-- 2017-06-07: [Python in HPC](https://ideas-productivity.org/events/hpcbp-008-python), presented by Rollin Thomas (National Energy Research Scientific Computing Center), William Scullin (Argonne National Laboratory), and Matt Belhorn (Oak Ridge National Laboratory)  <!-- codespell:ignore rollin -->
+- 2017-06-07: [Python in HPC](https://ideas-productivity.org/events/hpcbp-008-python), presented by Rollin Thomas (National Energy Research Scientific Computing Center), William Scullin (Argonne National Laboratory), and Matt Belhorn (Oak Ridge National Laboratory)
 
 - 2016-08-09: [Basic Performance Analysis and Optimization – An Ant Farm Approach](https://ideas-productivity.org/events/hpcbp-007-performanceanalysis), presented by Jack Deslippe (Lawrence Berkeley National Laboratory)
 
@@ -215,7 +217,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2025-07-10
+#### Publication date: 2025-10-01
 
 <!---
 Publish: yes
