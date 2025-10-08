@@ -8,7 +8,7 @@ The Better Scientific Software (BSSw) Fellowship may only last a year, but it ca
 
 <br>
 
-This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-bssw-fellowship-previous-fellows-spotlight/).
+This article is cross-posted at [Sustainable Horizons Institute](https://shinstitute.org/better-scientific-software-previous-fellow-spotlight-rob-latham/).
 
 
 <br>
