@@ -7,11 +7,10 @@
 
 #### Contributed by: [Alper Altuntas](https://github.com/alperaltuntas)
 
-#### Publication date: October 8, 2025
+#### Publication date: October 9, 2025
 
 <!-- deck text start -->
 The Rigor and Reasoning in Research Software (R3Sw) tutorial will introduce practical techniques to make scientific software more reliable, understandable, and trustworthy, without losing the creativity and speed that drive research.
-Through hands-on exercises, participants will learn to transform research code into modular, testable, and verifiable software, exploring a “ladder of rigor” that spans techniques such as unit testing, property-based testing, and theorem proving.
 <!-- deck text ends -->
 
 Event Information | Details
@@ -27,6 +26,7 @@ Website | https://ncar.github.io/correctness-workshop/
 The R3Sw tutorial offers a practical and accessible approach to building reliable, maintainable,
 and trustworthy research software through thoughtful design, systematic testing, and automated
 reasoning, while preserving the creativity and speed essential to research.
+Through hands-on exercises, participants will learn to transform research code into modular, testable, and verifiable software, exploring a “ladder of rigor” that spans techniques such as unit testing, property-based testing, and theorem proving.
 
 Participants will learn to reason about code the same way they reason about science: by forming hypotheses, testing them, and refining their understanding and designs through evidence.
 
@@ -46,11 +46,11 @@ The tutorial will be held at the Mesa Laboratory of the NSF National Center for 
 This event is sponsored by the 2025 Better Scientific Software (BSSw) Fellowship program
 and is held in conjunction with the [2nd Workshop on Correctness and Reproducibility for Earth System Software](https://ncar.github.io/correctness-workshop/).
 
-### Tutorial Lead:
+### Tutorial lead
 
  - Alper Altuntas (NSF NCAR)
 
-### Guest Lecturers and Invited Speakers
+### Guest lecturers and invited speakers
 
  - Soonho Kong (AWS)
  - Philip Zucker (Draper)
@@ -58,7 +58,7 @@ and is held in conjunction with the [2nd Workshop on Correctness and Reproducibi
  - Antonios Mamalakis (UVA)
  - Deepak Cherian (Earthmover)
 
-### Program Committee 
+### Program committee
 
  - Allison Baker (NSF NCAR), co-chair
  - John Baugh (NCSU)
@@ -72,5 +72,5 @@ and is held in conjunction with the [2nd Workshop on Correctness and Reproducibi
 
 <!---
 Publish: yes
-Topics: conferences and workshops, Research Software Engineers
+Topics: online learning, in-person learning, reproducibility, testing, conferences and workshops
 --->
