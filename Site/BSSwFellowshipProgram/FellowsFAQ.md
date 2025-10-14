@@ -10,8 +10,8 @@ The webinar provided an overview of the BSSw Fellowship Program, information abo
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.  --> 
 
 
-Slides for the 2026 BSSw Fellowship Q&A Webinar:
-- Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.30131935.v1)
+Slides and Q&A for the 2026 BSSw Fellowship Q&A Webinar:
+- [Slides (pdf) and Q&A (text file)](https://doi.org/10.6084/m9.figshare.30131935.v2)
 
 <!-- Slides & Recording for 2025 BSSw Fellowship Q&A Webinar: -->
 <!-- - Slides: [(pdf)](https://doi.org/10.6084/m9.figshare.26978398.v1) -->
