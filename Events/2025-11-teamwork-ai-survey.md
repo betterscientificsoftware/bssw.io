@@ -2,9 +2,9 @@
 
 #### Contributed by: [Olivia B. Newton](https://github.com/small0live)
 
-#### Publication date: TBD TBD, 2025
+#### Publication date: October 21, 2025
 
-- Closing Date: Mid-December
+- Closing Date: December 19, 2025
 - Location: Online
 - Website: https://umt.co1.qualtrics.com/jfe/form/SV_6uicew8JJmavimO
 - Organizers: Olivia B. Newton, Anshu Dubey, Denice Ward Hood, Lois Curfman McInnes
@@ -33,8 +33,8 @@ Research Team
 - Lois Curfman McInnes, Argonne National Laboratory (curfman@anl.gov)
 
 <!---
-Publish: no
-Topics: "collaboration"
+Publish: yes
+Topics: "strategies for more effective teams"
 --->
 
 
