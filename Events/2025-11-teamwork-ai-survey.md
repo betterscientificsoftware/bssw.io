@@ -2,7 +2,7 @@
 
 #### Contributed by: [Olivia B. Newton](https://github.com/small0live)
 
-#### Publication date: TBD TBD, 2024
+#### Publication date: TBD TBD, 2025
 
 - Closing Date: Mid-December
 - Location: Online
@@ -24,9 +24,7 @@ We are reaching out to invite you to share your point of view on teamwork and so
 
 Please feel free to share this call for participation with your network. The survey is open to all adults who work in scientific computing. This survey will remain open until mid-December.
 
-Please reach out to our research team with any questions you may have pertaining to this study.
-
-If you would like more information on this study, please contact Dr. Olivia B. Newton (olivia.newton@umt.edu).
+Please reach out to our research team with any questions you may have pertaining to this study. If you would like more information about this study, please contact Dr. Olivia B. Newton (olivia.newton@umt.edu).
 
 Research Team
 - Olivia B. Newton, University of Montana (olivia.newton@umt.edu)
