@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2025-10-01*
+*Listed in reverse chronological order. Last updated: 2025-10-22*
+
+- 2025-10-15: [Sustainable HPC Software: A Maintainer's Perspective](https://ideas-productivity.org/events/hpcbp-094-sustainable-sw), presented by Damien Lebrun-Grandié (Oak Ridge National Laboratory)
 
 - 2025-09-24: [Application of the OpenSSF Best Practices Badge Program to Scientific Software](https://ideas-productivity.org/events/hpcbp-093-openssf), presented by Roscoe A. Bartlett (Sandia National Laboratories), Yanfei Guo (Argonne National Laboratory), and Pratik Nayak (Technical University of Munich)
 
@@ -217,7 +219,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2025-10-01
+#### Publication date: 2025-10-22
 
 <!---
 Publish: yes
