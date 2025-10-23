@@ -127,6 +127,6 @@ The webinar wrapped up by teasing future sessions and promising continued insigh
 <!---
 Publish: yes
 RSS update: 2025-07-30
-Topics: documentation, development tools, refactoring, testing, peer code review
+Topics: ai for better development, documentation, development tools, refactoring, testing, peer code review
 Pinned: no
 --->
