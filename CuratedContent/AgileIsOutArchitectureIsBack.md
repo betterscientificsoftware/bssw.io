@@ -38,7 +38,7 @@ Agile is not dead, but it has evolved: architecture is once again at the center 
 This article should be useful to anyone interested in emerging trends and observations as AI tools become an increasing part of software development workflows.
 
 <!---
-Publish: no
+Publish: yes
 RSS update: 2025-24-10
 Topics: ai for software development, software process improvement, software engineering, design
 Pinned: no
