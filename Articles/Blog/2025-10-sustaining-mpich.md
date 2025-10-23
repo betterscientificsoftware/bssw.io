@@ -1,6 +1,13 @@
-# Sustaining MPICH: 30+ Years of High-Performance Computing Software*
+# Sustaining MPICH: 30+ Years of High-Performance Computing Software
 
-## **Introduction**
+#### Contributed by: [Ken Raffenetti](https://github.com/raffenet)
+
+#### Publication Date: October 28, 2025
+
+<!-- begin deck -->
+<!-- end deck -->
+
+### Introduction
 
 In high-performance computing, MPI is known as the de facto standard
 programming model for parallel applications. In the era before MPI, HPC
@@ -24,7 +31,7 @@ TCP/IP, and Java. In this article we will look at some of the key
 aspects of MPICH's success as a software project and how the MPICH
 developers have sustained the project for 30+ years.
 
-## **Origins and Evolution**
+### Origins and evolution
 
 The MPICH project began during the development of the MPI-1 Standard and
 closely tracked its evolution prior to initial publication. MPICH was
@@ -48,16 +55,16 @@ design choices meant that the code needed to extend MPICH to support a
 new platform was relatively small but offered enough flexibility to get
 the best performance.
 
-Over time, MPICH has grown from primarily research-oriented development
-to a viable production software library. Rigorous testing
+Over time, MPICH has grown from primarily research-oriented package
+to a viable production software library. A rigorous testing
 infrastructure, built with the help of vendor partners, now verifies
 each change and/or addition to the code. Recently, more MPICH partners
-have begun pushing their development directly to upstream rather than
-remaining in a separate fork or closed source. The resulting ecosystem
+have begun pushing their developments directly to upstream rather than
+keeping them in a separate fork or closed source. The resulting ecosystem
 empowers users to build and use the latest MPICH not only on laptops and
 workstations but on many of the top HPC systems in the world.
 
-## **Sustainability Practices**
+### Sustainability practices
 
 MPICH is a large software project consisting of hundreds of thousands of
 lines of code written over 30+ years. The core development team at
@@ -66,7 +73,7 @@ participate on the project as their sole effort. Code maintainability
 therefore is of critical importance. What does that mean for MPICH and
 how do we achieve it?
 
-### **Revision Control**
+#### Revision control
 
 [Revision control][revision-control] is essential for developing a large
 software project like MPICH. Often with multiple developers working on
@@ -97,7 +104,7 @@ of the main repository, it lives in a [separate repo][mpich-cvs] for
 historical purposes. Perhaps if/when Git is overtaken in popularity by
 another revision control system, the history can once again be combined.
 
-### **Issue Tracking**
+#### Issue tracking
 
 Hand in hand with revision control is [issue
 tracking][issue-tracking]. MPICH has relied on issue tracking software
@@ -134,7 +141,7 @@ extended period. Today, users can find the latest MPICH
 development and releases all in one place using the same workflows
 common to many open source projects.
 
-### **Pull Requests**
+#### Pull requests
 
 For changes to the MPICH source code, we use a pull request workflow
 typical of many of todays projects. Before we can approve a pull
@@ -145,7 +152,7 @@ continuous integration. This automation helps make many aspects of the
 pull request process mechanical and frees up developers to focus on the
 most important part of the process -- code review.
 
-The MPICH code review process places a premium on _understanding_
+The MPICH code review process places a premium on *understanding*
 proposed changes. The author must communicate to the reviewer why and
 how the changes are being made. It is one thing for code to work; but to
 be maintainable, it must be understandable. That means that if someone
@@ -165,11 +172,11 @@ Carefully formatting commits and answering these types of questions can
 seem burdensome, but such steps are critical to maintainability. Guidelines for
 commit best practices are described in our [developer
 documentation][devel-docs] so contributors are not flying blind. Also in
-our documentation are [_coding standards_][standards]. This is where we
+our documentation are *[coding standards][standards]*. This is where we
 state in clear terms how MPICH code should be written to help both the
 author and the reviewer know what is acceptable.
 
-### **Design for Extension**
+#### Design for extension
 
 Emphasizing maintainability allows MPICH the flexibility needed to be a
 vehicle for extension. For example, MPICH partners may wish to extend
@@ -191,13 +198,13 @@ and can easily be plugged into a machine-dependent module. Developers
 need only implement the pieces of software that matter most for their
 users.
 
-## **Community Engagement**
+### Community engagement
 
 Maintaining code is a challenge unto itself, but so is knowing what code
 to write in the first place. For MPICH, community participation is
 crucial to ensuring that the software we produce is in demand.
 
-### **Mailing Lists**
+#### Mailing lists
 
 Even before the advent of revision control systems and issue trackers,
 email was widely used by open source developers to conveniently share
@@ -217,7 +224,7 @@ users and developers now go directly to GitHub. Nevertheless, for those
 that either do not have GitHub accounts or prefer to work over email,
 the lists remain a useful option.
 
-### MPI Forum
+#### MPI Forum
 
 MPICH developers have participated in the MPI standardization process
 since the beginning. The [MPI Forum][forum] continues meeting to this
@@ -233,7 +240,7 @@ work, and help publicize activities of the forum with the broader MPI
 user community. Our deep involvement in the forum continues the work
 started during the origins of the project.
 
-### MPICH Community
+#### MPICH community
 
 The MPICH distribution model has historically been vendor-driven. The
 core MPICH team puts out new releases, and our downstream partners would
@@ -243,7 +250,7 @@ challenging considering the number of interested parties and their
 geographical distribution. A strong community model is necessary to
 avoid disruptions in development.
 
-For many years, the MPICH team has hosted a Birds of a Feather session
+For many years, the MPICH team has hosted a Birds of a Feather (BoF) session
 at the [Supercomputing][sc] conference. The BoF is a gathering of MPICH
 developers and users to share release plans, new research, and
 discuss whatever issues people are facing with MPICH software. However,
@@ -256,7 +263,7 @@ Argonne team with this effort, so the goal of the meeting was to share
 update and discuss any hot-button issues that could block people's
 progress.
 
-These weekly meetings continue today, well after the initial redesign
+These weekly meetings continue to this day, well after the initial redesign
 was completed. They are regularly attended by developers from a number
 of companies and research institutions. We continue to encourage
 external collaborators to attend and give feedback on our work. These
@@ -264,7 +271,7 @@ interactions help us be aware of any external issues and plan
 developments to address key issues or features in demand by the
 community.
 
-### **MPICH on Aurora (or MPICH in Production)**
+#### MPICH in production
 
 Funding for MPICH development primarily comes from the Department of
 Energy's Advanced Scientific Computing Research (ASCR) program. MPICH
@@ -298,7 +305,7 @@ Aurora. These tests monitor MPICH changes for regression in both
 correctness and performance, leading to more stable and consistent
 performance of the machine for users.
 
-## Conclusion
+### Conclusion
 
 There are no secrets to MPICH's success that led to its selection as the
 2024 ACM Software System Award winner. As discussed, the principles of
@@ -321,7 +328,15 @@ de facto standard programming model for scientific software. We are
 grateful for everyone who has contributed to the software over the years
 and look forward to its continued success in the years to come.
 
----
+### Author bio
+
+Ken Raffenetti
+
+<!---
+Publish: Yes
+Track: Deep Dive
+Topics: software engineering, software sustainability
+--->
 
 [devel-docs](https://github.com/pmodels/mpich/blob/main/doc/wiki/developer_guide.md)
 [standards](https://github.com/pmodels/mpich/blob/main/doc/wiki/source_code/Coding_Standards.md)
