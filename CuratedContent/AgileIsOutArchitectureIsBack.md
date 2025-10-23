@@ -40,6 +40,6 @@ This article should be useful to anyone interested in emerging trends and observ
 <!---
 Publish: yes
 RSS update: 2025-24-10
-Topics: ai for software development, software process improvement, software engineering, design
+Topics: ai for better development, software process improvement, software engineering, design
 Pinned: no
 --->
