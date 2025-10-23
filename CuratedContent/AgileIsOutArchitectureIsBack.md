@@ -11,7 +11,7 @@ This article highlights why intentional design, guardrails, and coherence are be
 Resource information | Details
 :--- | :--- 
 Article title  | [Agile is Out, Architecture is Back](https://medium.com/@craig_32726/agile-is-out-architecture-is-back-7586910ab810)
-Authors |Brian Adam
+Authors |Craig Adam
 Focus | Software Architecture Evolution
 
 In the article *[Agile Is Out, Architecture Is Back](https://medium.com/@craig_32726/agile-is-out-architecture-is-back-7586910ab810)*, Craig Adam argues that software development is shifting into a new era where architecture and intentional design matter more than raw velocity. 
