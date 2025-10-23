@@ -42,6 +42,10 @@ Tools that support various aspects of scientific software development, such as e
 The process of improving internal attributes of a software product (e.g., readability, maintainability, data structures for efficient performance) without modifying any of its existing external functionality.
 <!---Topic order: 8--->
 
+- **AI for Better Development**
+The use of artificial intelligence and machine learning methods to enhance software development workflows, supporting activities such as code generation, documentation, refactoring, and development tool integration across the software lifecycle.
+<!---Topic order: 9--->
+
 <!---
 Category order: 2
 --->
