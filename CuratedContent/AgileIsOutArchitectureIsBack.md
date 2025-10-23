@@ -6,7 +6,7 @@ This article highlights why intentional design, guardrails, and coherence are be
 
 #### Contributed by [Michael A. Heroux](https://github.com/maherou)
 
-#### Publication date: October 9, 2025
+#### Publication date: October 24, 2025
 
 Resource information | Details
 :--- | :--- 
