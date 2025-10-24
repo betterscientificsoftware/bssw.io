@@ -30,11 +30,11 @@ Their initial observations show three trends:
 Shared techniques like user stories make it easier to build mutual understanding and provide a practical bridge between the communities.
 
 * Lack of Awareness: RSEs are often less familiar with detailed SE testing practices and may rely on basic tests, given that much research software is developed as a limited-lifetime prototype or demonstration.
-They do recognize the need for better testing and could adapt SER methods to fit these contexts.
+They do recognize the need for better testing and could adapt SER methods to fit these contexts. <!--- codespell:ignore ser --->
 
 * Lack of Adoption: Even when RSEs are aware of SE practices, highly structured approaches like those in SWEBOK may not fit daily research software work, which is often exploratory and nonlinear.
-Requirements can change frequently during prototyping (and for some type of large-scale research software, the software requirements are often influencd from the infrastructure itself).
-Examining these gaps can help improve RSE practices and enhance SER understanding of research software contexts.
+Requirements can change frequently during prototyping (and for some type of large-scale research software, the software requirements are often influenced from the infrastructure itself).
+Examining these gaps can help improve RSE practices and enhance SER understanding of research software contexts. <!--- codespell:ignore ser --->
 
 Overall, the study demonstrates that creating a shared vocabulary can improve communication, support mutual learning, and facilitate collaboration between RSEs and SERs. 
 By combining a structured approach with community participation, the authors provide a foundation for greater alignment between these two groups, offering practical benefits for both research software development and software engineering research.

@@ -141,7 +141,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 - 2020-04-15: [Best Practices for Using Proxy Applications as Benchmarks](https://ideas-productivity.org/events/hpcbp-039-bp4proxyapps), presented by David Richards (Lawrence Livermore National Laboratory), and Joe Glenski (Hewlett-Packard Enterprise)
 
-- 2020-03-18: [Testing: Strategies When Learning Programming Models and Using High-Performance Libraries](https://ideas-productivity.org/events/hpcbp-038-testing), presented by Balint Joo (Jefferson Lab)
+- 2020-03-18: [Testing: Strategies When Learning Programming Models and Using High-Performance Libraries](https://ideas-productivity.org/events/hpcbp-038-testing), presented by Balint Joo (Jefferson Lab) <!--- codespell:ignore joo --->
 
 - 2020-02-19: [Introduction to Kokkos](https://ideas-productivity.org/events/hpcbp-037-kokkos), presented by Christian Trott (Sandia National Laboratories)
 
