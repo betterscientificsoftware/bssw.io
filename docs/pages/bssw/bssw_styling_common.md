@@ -196,6 +196,15 @@ Articles that are already published and are current public may sometimes need to
 This article was originally published on Month day, year
 ```
 
+## Spell and Style Checks
+### Using the Codespell tool
+The bssw.io repository automatically uses [codespell](https://github.com/codespell-project/codespell/blob/main/README.rst) to check for spelling errors. To ignore valid special words flagged by codespell, you can either:
+* Add a global ignore: include the lowercase version of the word in the file [~/.codespellrc](https://github.com/betterscientificsoftware/bssw.io/blob/main/.codespellrc) ( as shown in this [example commit](https://github.com/betterscientificsoftware/bssw.io/commit/146caf8c25f7ac12f5b9cfc02e7c9f3af7a92b97)).
+* Add an inline ignore: include it directly in the relevant *.md file (as shown in this [example commit](https://github.com/betterscientificsoftware/bssw.io/commit/104461434b2eb819e161ac5c6407a56ceb05ff19)).
+
+For questions, contact @bartlettroscoe on github.
+
+
 ## Unpublishing Content
 
 Please follow the below rules
