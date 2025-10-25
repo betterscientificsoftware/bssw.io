@@ -5,6 +5,7 @@
 #### Publication Date: October 28, 2025
 
 <!-- begin deck -->
+A look at the software engineering practices behind MPICH, the widely-used MPI implementation that received the 2024 ACM Software System Award, the first software package from the scientific computing community to do so.
 <!-- end deck -->
 
 ### Introduction
@@ -22,7 +23,7 @@ know the details of the underlying system.
 MPICH was the first publicly available implementation of MPI and has
 been continually developed since its inception. This May, the
 Association for Computing Machinery (ACM) announced MPICH as the
-recipient of the 2024 [ACM Software System Award][acm-award]. The award
+recipient of the 2024 [ACM Software System Award](https://awards.acm.org/software-system). The award
 "recognizes MPICH for powering 30 years of progress in computational
 science and engineering by providing scalable, robust, and portable
 communication software for parallel computers." It is an honor to be
@@ -75,7 +76,7 @@ how do we achieve it?
 
 #### Revision control
 
-[Revision control][revision-control] is essential for developing a large
+[Revision control](https://bssw.io/items/what-is-revision-control) is essential for developing a large
 software project like MPICH. Often, with multiple developers working on
 the project simultaneously, revision control helps make sense of the
 changes being made to the code. In MPICH, emphasis is placed on good
@@ -84,12 +85,12 @@ Does each commit message explain what change is being made and why?
 These are helpful breadcrumbs for developers and users when they are
 investigating an issue in the code. Commit messages capture the
 context of a change when it was made, more so than inline comments that
-can get stale over time. Furthermore, tools like [git bisect][bisect]
+can get stale over time. Furthermore, tools like [git bisect](https://git-scm.com/docs/git-bisect)
 are better able to track down the exact commit where a bug was introduced when
 every commit can be built and tested independently.
 
-Over the years, MPICH has used several [revision
-control][revision-control] systems. Lost to time are the [RCS][rcs] logs
+Over the years, MPICH has used several revision
+control systems. Lost to time are the RCS logs
 from the earliest days of the project. Following the trends in open
 source software management, MPICH transitioned to CVS, then Subversion,
 and finally Git. These transitions were not always straightforward. When
@@ -100,14 +101,14 @@ bang" commit that functionally erased prior history. This was
 detrimental to our ability to trace development history back beyond a
 certain point. Thankfully, tooling eventually improved, and the MPICH CVS
 history was successfully ported to Git. To avoid rewriting the history
-of the main repository, it lives in a [separate repo][mpich-cvs] for
+of the main repository, it lives in a [separate repo](https://github.com/pmodels/mpich-CVS) for
 historical purposes. Perhaps if/when Git is overtaken in popularity by
 another revision control system, the history can once again be combined.
 
 #### Issue tracking
 
 Hand in hand with revision control is [issue
-tracking][issue-tracking]. MPICH has relied on issue tracking software
+tracking](https://bssw.io/items/what-is-issue-tracking). MPICH has relied on issue tracking software
 for many years to keep track of all types of easily forgotten tasks. Bug
 reports, new feature development, performance regressions, testing
 issues, and so on are all entered into the publicly available tracker on our
@@ -117,10 +118,10 @@ issues. Release plans list all the issues required to be closed for
 completeness.
 
 Before the ubiquity of web-based issue tracking software, MPICH utilized
-[req][req] for managing issues. Req's limited handling of email
+[req](https://www.usenix.org/conference/lisa-viii/managing-ever-growing-do-list) for managing issues. Req's limited handling of email
 attachments and lack of support for external contributor access led
 maintainers to search for alternatives. The MPICH team adopted
-[Trac][trac] along with its move to Subversion for revision
+[Trac](https://trac.edgewall.org/) along with its move to Subversion for revision
 control. Trac offered a convenient web interface for viewing, searching,
 and modifying issues. It also offered neat integrations with the
 underlying source code management, like the ability to close issues with
@@ -171,8 +172,8 @@ straightforward code.
 Carefully formatting commits and answering these types of questions can
 seem burdensome, but such steps are critical to maintainability. Guidelines for
 commit best practices are described in our [developer
-documentation][devel-docs] so contributors are not flying blind. Also in
-our documentation are *[coding standards][standards]*. This is where we
+documentation](https://github.com/pmodels/mpich/blob/main/doc/wiki/developer_guide.md) so contributors are not flying blind. Also in
+our documentation are *[coding standards](https://github.com/pmodels/mpich/blob/main/doc/wiki/source_code/Coding_Standards.md)*. This is where we
 state in clear terms how MPICH code should be written to help both the
 author and the reviewer know what is acceptable.
 
@@ -227,7 +228,7 @@ the lists remain a useful option.
 #### MPI Forum
 
 MPICH developers have participated in the MPI standardization process
-since the beginning. The [MPI Forum][forum] continues meeting to this
+since the beginning. The [MPI Forum](https://www.mpi-forum.org) continues meeting to this
 day to discuss updates and changes to the standard based on new
 research. MPICH strives to be the first implementation to support the
 newest MPI standard releases as they are published. This strategy benefits our
@@ -251,7 +252,7 @@ geographical distribution. A strong community model is necessary to
 avoid disruptions in development.
 
 For many years, the MPICH team has hosted a Birds of a Feather (BoF) session
-at the [Supercomputing][sc] conference. The BoF is a gathering of MPICH
+at the [Supercomputing](https://supercomputing.org/) conferences. The BoF is a gathering of MPICH
 developers and users to share release plans, new research, and
 discuss whatever issues people are facing with MPICH software. However,
 this de facto annual developer meeting could not go in-depth on many
@@ -277,7 +278,7 @@ Energy's Advanced Scientific Computing Research (ASCR) program. MPICH
 remains a research project at its core, even though its derivatives are
 used on many large-scale production systems.
 
-The [Aurora][aurora] supercomputer at the Argonne Leadership Computing
+The [Aurora](https://www.alcf.anl.gov/aurora) supercomputer at the Argonne Leadership Computing
 Facility is the second machine in the world to break the exaflop
 barrier. Built by Intel in partnership with Hewlett Packard Enterprise,
 the massive machine relies on MPICH to scale scientific applications
@@ -336,17 +337,3 @@ Publish: Yes
 Track: Deep Dive
 Topics: software engineering, software sustainability
 --->
-
-[devel-docs](https://github.com/pmodels/mpich/blob/main/doc/wiki/developer_guide.md)
-[standards](https://github.com/pmodels/mpich/blob/main/doc/wiki/source_code/Coding_Standards.md)
-[revision-control](https://bssw.io/items/what-is-revision-control)
-[bisect](https://git-scm.com/docs/git-bisect)
-[mpich-cvs](https://github.com/pmodels/mpich-CVS)
-[issue-tracking](https://bssw.io/items/what-is-issue-tracking)
-[req](https://www.usenix.org/conference/lisa-viii/managing-ever-growing-do-list)
-[trac](https://trac.edgewall.org/)
-[cla](https://en.wikipedia.org/wiki/Contributor_License_Agreement)
-[aurora](https://www.alcf.anl.gov/aurora)
-[forum](https://www.mpi-forum.org)
-[sc](https://supercomputing.org/)
-[acm-award](https://awards.acm.org/software-system)
