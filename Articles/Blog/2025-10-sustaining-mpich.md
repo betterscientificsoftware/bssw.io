@@ -330,7 +330,18 @@ and look forward to its continued success in the years to come.
 
 ### Author bio
 
-Ken Raffenetti
+Ken Raffenetti is a research software engineer in the Mathematics and
+Computer Science Division at Argonne National Laboratory. He received
+his B.S. in computer science from the University of Illinois at
+Urbana-Champaign. He joined Argonne in 2006 , where he worked for seven
+years as a systems administrator. In 2013, Ken shifted his activities to
+software development, joining the Programming Models and Runtime Systems
+group, focused on the development of systems software for
+high-performance computing applications. His research interests
+include parallel programming models, low-level communication libraries,
+and distributed runtime systems. In additional to being a maintainer of
+MPICH, he is a member of the MPI Forum and PMIx Administrative
+Steering Committee.
 
 <!---
 Publish: Yes
