@@ -101,7 +101,7 @@ bang" commit that functionally erased prior history. This was
 detrimental to our ability to trace development history back beyond a
 certain point. Thankfully, tooling eventually improved, and the MPICH CVS
 history was successfully ported to Git. To avoid rewriting the history
-of the main repository, it lives in a separate repo for
+of the main repository, it lives in a [separate repo](https://github.com/pmodels/mpich-CVS) for
 historical purposes. Perhaps if/when Git is overtaken in popularity by
 another revision control system, the history can once again be combined.
 
