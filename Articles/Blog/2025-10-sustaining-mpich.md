@@ -5,7 +5,7 @@
 #### Publication Date: October 28, 2025
 
 <!-- begin deck -->
-A look at the software engineering practices behind MPICH, the widely-used MPI implementation that received the 2024 ACM Software System Award, the first software package from the scientific computing community to do so.
+This article provides a look at the software engineering practices behind MPICH, the widely-used MPI implementation that received the 2024 ACM Software System Award, the first software package from the scientific computing community to do so.
 <!-- end deck -->
 
 ### Introduction
@@ -28,9 +28,9 @@ recipient of the 2024 [ACM Software System Award](https://awards.acm.org/softwar
 science and engineering by providing scalable, robust, and portable
 communication software for parallel computers." It is an honor to be
 recognized alongside other significant award winners such as GCC, Unix,
-TCP/IP, and Java. In this article, we will look at some of the key
+TCP/IP, and Java. In this article, we look at some of the key
 aspects of MPICH's success as a software project and how the MPICH
-developers have sustained the project for 30+ years.
+developers have sustained the project for more than 30 years.
 
 ### Origins and evolution
 
@@ -53,7 +53,7 @@ internal abstractions in MPICH isolated the "generic" parts of
 implementing MPI, such as argument validation, object management, and
 functionality tests, from the nitty-gritty machine-dependent code. These
 design choices meant that the code needed to extend MPICH to support a
-new platform was relatively small, but offered enough flexibility to get
+new platform was relatively small, yet offered enough flexibility to get
 the best performance.
 
 Over time, MPICH has grown from a primarily research-oriented package
@@ -63,7 +63,7 @@ each change and/or addition to the code. Recently, more MPICH partners
 have begun pushing their developments directly to upstream rather than
 keeping them in a separate fork or closed source. The resulting ecosystem
 empowers users to build and use the latest MPICH not only on laptops and
-workstations but on many of the top HPC systems in the world.
+workstations but also on many of the top HPC systems in the world.
 
 ### Sustainability practices
 
@@ -94,7 +94,7 @@ control systems. Lost to time are the RCS logs
 from the earliest days of the project. Following the trends in open
 source software management, MPICH transitioned to CVS, then Subversion,
 and finally Git. These transitions were not always straightforward. When
-MPICH adopted Subversion the decision was made not to import prior
+MPICH adopted Subversion, the decision was made not to import prior
 history from CVS, likely due to a lack of good tooling for the import
 process. Instead, the entire repository was imported as a single "big
 bang" commit that functionally erased prior history. This was
@@ -213,11 +213,11 @@ updates and interact with users from around the world. MPICH has
 maintained several public mailing lists over the years, the core
 three being as follows:
 
-discuss@mpich.org: for user-focused discussions of issues installing and
+- discuss@mpich.org: for user-focused discussions of issues installing and
   using MPICH.
-devel@mpich.org: for developer-focused discussions of
+- devel@mpich.org: for developer-focused discussions of
   MPICH code
-announce@mpich.org: broadcast-only list for MPICH release
+- announce@mpich.org: broadcast-only list for MPICH release
   announcements
 
 These lists see less traffic than in the past, primarily because most
@@ -244,7 +244,7 @@ started during the origins of the project.
 #### MPICH community
 
 The MPICH distribution model has historically been vendor-driven. The
-core MPICH team puts out new releases, and our downstream partners would
+core MPICH team puts out new releases, and our downstream partners typically
 take those and port their additions and optimizations for releases of
 their own. Keeping everyone up to date on the core code changes can be
 challenging, considering the number of interested parties and their
@@ -266,7 +266,7 @@ progress.
 
 These weekly meetings continue to this day, well after the initial redesign
 was completed. Developers from several companies and research institutions regularly attend. We continue to encourage
-external collaborators to attend and give feedback on our work. These
+external collaborators to attend and provide feedback on our work. These
 interactions help us be aware of any external issues and plan
 developments to address key issues or features in demand by the
 community.
@@ -283,7 +283,7 @@ Facility is the second machine in the world to break the exaflop
 barrier. Built by Intel in partnership with Hewlett Packard Enterprise,
 the massive machine relies on MPICH to scale scientific applications
 beyond previous hardware-imposed limits. Aurora represents a deepening
-of the partnerships between MPICH, Intel, and ALCF. It has also
+of the partnerships between MPICH, Intel, and ALCF. Aurora has also
 pushed MPICH to be a production-ready library in new ways.
 
 With Intel, code changes for Aurora were contributed directly to
@@ -321,7 +321,7 @@ system designers and builders to embrace open source and contribute
 directly to upstream MPICH.
 
 The work of software sustainability is not necessarily difficult, but it
-is constant. Continued funding support from the Department of Energy
+is constant. Continued funding support from the Department of Energy has
 kept MPICH in active development all these years, leading to adoption
 from vendors and users and laying the groundwork for MPI to become the
 de facto standard programming model for scientific software. We are
