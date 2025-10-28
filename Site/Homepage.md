@@ -8,7 +8,7 @@ Slide1 R: ../Hero_topic_user_experience_072125.png
 Slide2 L: ../Articles/Blog/2025-10-bsswf-profile4.md
 Slide2 R: ../CuratedContent/AgileIsOutArchitectureIsBack.md
 Slide3 L: ../CuratedContent/hpcbp-webinars-cc.md
-Slide3 R: ../Events/2025-11-sc25-sw-events.md -
+Slide3 R: ../Events/2025-11-sc25-sw-events.md
 Slide4 L: ../Events/2025-11-teamwork-ai-survey.md
 Slide4 R: ../Events/2025-11-tutorial-r3sw.md
 Slide5 L: ../Events/2025-11-workshop-correctness-earth.md 
