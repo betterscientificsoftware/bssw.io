@@ -341,7 +341,7 @@ high-performance computing applications. His research interests
 include parallel programming models, low-level communication libraries,
 and distributed runtime systems. In additional to being a maintainer of
 MPICH, he is a member of the MPI Forum and PMIx Administrative
-Steering Committee.
+Steering Committee.  Ken was a 2024 Better Scientific Software Fellow.
 
 <!---
 Publish: Yes
