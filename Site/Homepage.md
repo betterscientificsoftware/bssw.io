@@ -6,13 +6,13 @@ Software—the foundation of discovery in computational science & engineering—
 Slide1 L: ../Articles/Blog/2025-10-ux3.md 
 Slide1 R: ../Hero_topic_user_experience_072125.png
 Slide2 L: ../Articles/Blog/2025-10-bsswf-profile4.md
-Slide2 R: ../CuratedContent/AgileIsOutArchitectureIsBack.md
-Slide3 L: ../CuratedContent/hpcbp-webinars-cc.md
-Slide3 R: ../Events/2025-11-sc25-sw-events.md
-Slide4 L: ../Events/2025-11-teamwork-ai-survey.md
-Slide4 R: ../Events/2025-11-tutorial-r3sw.md
-Slide5 L: ../Events/2025-11-workshop-correctness-earth.md 
-Slide5 R: ../Events/2025-10-bssw-fellowship.md
+Slide2 R: ../Articles/Blog/2025-10-sustaining-mpich.md
+Slide3 L: ../CuratedContent/AgileIsOutArchitectureIsBack.md
+Slide3 R: ../CuratedContent/hpcbp-webinars-cc.md
+Slide4 L: ../Events/2025-11-sc25-sw-events.md
+Slide4 R: ../Events/2025-11-teamwork-ai-survey.md
+Slide5 L: ../Events/2025-11-tutorial-r3sw.md
+Slide5 R: ../Events/2025-11-workshop-correctness-earth.md 
 Slide6 L: ../Articles/Blog/2025-07-BSSwFellows2024.md
 Slide6 R: ../Articles/Blog/2025-08-BSSwFellowsOpen2025.md 
 --->
