@@ -4,7 +4,7 @@
 
 #### Publication date: October 7, 2025
 
-The Better Scientific Software (BSSw) Fellowship may only last a year, but it can have positive impacts that last a career. Just ask Robert Latham, a senior scientific programmer in the Mathematics and Computer Science Division at Argonne National Laboratory.
+The Better Scientific Software (BSSw) Fellowship may last only one year, but it can have positive impacts that last a career. Just ask Robert Latham, a senior scientific programmer in the Mathematics and Computer Science Division at Argonne National Laboratory.
 
 <br>
 
