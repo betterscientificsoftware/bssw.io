@@ -1,7 +1,7 @@
 # 2nd Workshop on Correctness and Reproducibility for Earth System Software
 
 - Abstract submission deadline: July 25, 2025
-- Event Date: November 5-7, 2026
+- Event Date: November 5-7, 2025
 - Location: Boulder, CO and online
 - Website: https://ncar.github.io/correctness-workshop/
 - Organizers: Alper Altuntas, Allison Baker
