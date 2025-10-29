@@ -1,6 +1,6 @@
 # Tutorial: Rigor and Reasoning in Research Software (R3Sw)
 
-- Event Date: November 5-7, 2026
+- Event Date: November 5-7, 2025
 - Location: Boulder, CO and online
 - Website: https://ncar.github.io/correctness-workshop/
 - Organizers: Alper Altuntas, Allison Baker
@@ -17,7 +17,7 @@ Event Information | Details
 :--- | :---
 Event Name | [Tutorial on Rigor and Reasoning in Research Software (R3Sw)](https://ncar.github.io/correctness-workshop/)
 Registration deadline | October 31, 2025
-Event Date | November 5-7, 2026
+Event Date | November 5-7, 2025
 Website | https://ncar.github.io/correctness-workshop/
 
 
