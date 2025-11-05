@@ -30,11 +30,11 @@ We seek to support a broad spectrum of perspectives in championing better scient
 
 ### 2026 BSSw Fellowships
 
-[2026 BSSw Fellowship Application Form](https://ssl.linklings.net/applications/BSSw/) - Submissions Open!
+<!-- [2026 BSSw Fellowship Application Form](https://ssl.linklings.net/applications/BSSw/) - Submissions Open! -->
 
 <!-- Applications will open on August 14, 2025 for the 2026 BSSw Fellowship Program. Check back for info about the application process or [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
-<!-- Applications are now closed for the 2025 BSSw Fellowship Program. Check back in summer 2025 for info about the 2026 application process. -->
+Applications are now closed for the 2026 BSSw Fellowship Program. Check back in summer 2026 for info about the 2027 application process.
 
 
 ### More Information
