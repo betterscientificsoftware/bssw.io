@@ -27,7 +27,8 @@ Slides and Q&A for the 2026 BSSw Fellowship Q&A Webinar:
 ## Application Questions
 
 ### What is the fellowship application deadline for this year?
-Applications are now closed for the 2025 BSSw Fellowship Program. Check back in summer 2025 for info about the 2026 application process.
+
+Applications are now closed for the 2026 BSSw Fellowship Program. Check back in summer 2026 for info about the 2027 application process.
 
 <!-- Applications for the 2026 BSSw Fellowship Program will open August 14, 2025; the submission deadline is October 31, 2025. Please check back for additional details. -->
 
