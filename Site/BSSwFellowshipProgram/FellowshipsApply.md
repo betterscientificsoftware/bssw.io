@@ -6,7 +6,7 @@ While applications are now closed for the BSSw Fellowship Program, we encourage 
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.
 
-Submissions for the 2026 BSSw Fellowship Program are accepted through the [online application form](https://ssl.linklings.net/applications/BSSw/).
+<!-- Submissions for the 2026 BSSw Fellowship Program are accepted through the [online application form](https://ssl.linklings.net/applications/BSSw/). -->
 
 ### Timeline for 2026 BSSw Fellowship Program
 
@@ -49,14 +49,20 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 <!-- Applications for the 2026 BSSw Fellowship Program will open on August 14, 2025; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
-Applications are closed for the 2026 BSSw Fellowship Program.  Please check back for information about the 2026 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
+Applications are closed for the 2026 BSSw Fellowship Program.  Please check back for information about the 2027 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
 
 <!-- Applications are now being accepted for the 2026 BSSw Fellowship Program.  Submissions for the 2026 BSSw Fellowship Program are accepted through the [**online application form**](https://ssl.linklings.net/applications/BSSw/). -->
 
 
 ### Q&A Webinar about the BSSw Fellowship Program
 
-- Tuesday, September 16, 2025 1:00-2:00 pm EDT
+<!-- - Tuesday, September 16, 2025 1:00-2:00 pm EDT -->
+
+We hosted a Q&A webinar for the 2026 BSSw Fellowship Program on September 16, 2025.
+The webinar provided an overview of the BSSw Fellowship Program, information about the application process, and an opportunity for questions (and answers).  Check out the Q&A below.
+
+Slides and Q&A for the 2026 BSSw Fellowship Q&A Webinar:
+- [Slides (pdf) and Q&A (text file)](https://doi.org/10.6084/m9.figshare.30131935.v2)
 
 Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details about the BSSw Fellowship Program, including telecon information for a Q&A session to take place in September.
 
@@ -65,8 +71,8 @@ Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-d
 <!-- ### More information -->
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
-- [Online Application](https://ssl.linklings.net/applications/BSSw/) (Submissions open!)
-- <mark>Application deadline: Friday, October 31, 2025</mark>; this is a firm deadline that will not be extended.
+<!-- - [Online Application](https://ssl.linklings.net/applications/BSSw/) (Submissions open!) -->
+<!-- - <mark>Application deadline: Friday, October 31, 2025</mark>; this is a firm deadline that will not be extended. -->
 
 <br>
 
