@@ -71,6 +71,7 @@ Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-d
 <!-- ### More information -->
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
+
 <!-- - [Online Application](https://ssl.linklings.net/applications/BSSw/) (Submissions open!) -->
 <!-- - <mark>Application deadline: Friday, October 31, 2025</mark>; this is a firm deadline that will not be extended. -->
 
