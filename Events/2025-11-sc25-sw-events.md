@@ -15,7 +15,7 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 
 **If you know of other events which should be featured here, please let us know by emailing info@bssw.io**
 
-Day/Time<br>(EST time zone) | Event Type | Event Title (see linked program page for full details)
+Day/Time<br>(CST time zone) | Event Type | Event Title (see linked program page for full details)
 :---     |    :------ |--------------------------------------------------------
 Sun. Nov. 16<br>8:30am-12:00pm | Tutorial | [Better Software for Reproducible Science](https://sc25.conference-program.com/presentation/?id=tut159&sess=sess377)
 Sun. Nov. 16<br>8:30am-12:00pm | Tutorial | [Tools to Detect and Diagnose Floating-Point Errors in Heterogeneous Computing Hardware and Software](https://sc25.conference-program.com/presentation/?id=tut122&sess=sess256)
