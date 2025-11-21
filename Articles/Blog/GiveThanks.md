@@ -6,7 +6,7 @@
 
 #### Contributed by [Angela Herring](https://github.com/angelaherring "Angela Herring GitHub Profile")
 
-#### Publication date: November 22, 2022
+#### Publication date: November 20, 2025
 
 *Editorial note: Originally published in November 2019, we are re-publishing this thematic article in celebration of the holiday.*
 
@@ -59,7 +59,7 @@ Angela Herring is a staff scientist at Los Alamos National Laboratory.   She spe
 <!---
 Publish: yes
 Track: experience
-RSS update: 2022-11-22
+RSS update: 2025-11-20
 Topics: strategies for more effective teams
 Pinned: no
 --->
