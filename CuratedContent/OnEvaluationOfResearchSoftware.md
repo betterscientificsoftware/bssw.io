@@ -8,12 +8,12 @@ Research software drives scientific progress—but evaluating its quality is no 
 
 Resource information | Details
 :--- | :---
-Article Title | [On the Evaluations of Research Software: The CDUR procedure](https://f1000research.com/articles/8-1353)
+Article Title | [On the Evaluation of Research Software: The CDUR procedure](https://f1000research.com/articles/8-1353)
 Authors | Teresa Gomez-Diaz and Tomas Recio
 Focus | Research Software and Research Software Evaluation and Citation
 Presentation Language | English
 
-[On the Evaluations of Research Software: The CDUR procedure](https://f1000research.com/articles/8-1353) distinguishes **research software (RS)** from more general scientific software as software explicitly developed for research purposes. Beyond clarifying what RS is, the authors delve into the actors, researchers, developers and other contributors, as well as ambiguous space RS occupies between research results, tools and publications. This framing helps readers appreciate the inherent challenges of evaluating RS.
+[On the Evaluation of Research Software: The CDUR procedure](https://f1000research.com/articles/8-1353) distinguishes **research software (RS)** from more general scientific software as software explicitly developed for research purposes. Beyond clarifying what RS is, the authors delve into the actors, researchers, developers and other contributors, as well as ambiguous space RS occupies between research results, tools and publications. This framing helps readers appreciate the inherent challenges of evaluating RS.
 
 Traditionally, research evaluation is centered on papers, citations, and grants—metrics that do not translate easily to software. As the paper points out, the RS ecosystem involves many actors, from code contributors and domain scientists to team leaders and project managers. Not all of these individuals write code, yet their input can be critical to the project and the resulting science. The authors therefore emphasize the difficulty of applying conventional authorship and valuation models to software-based research.
 
