@@ -1,4 +1,4 @@
-#Evaluation of Research Software: The CDUR procedure
+#Evaluation of Research Software: The CDUR Procedure
 
 <!--deck text start-->
 Research software drives scientific progress, but evaluating its quality is no simple task. Learn why this evaluation is vital and how the CDUR approach helps raise the bar for research software.
