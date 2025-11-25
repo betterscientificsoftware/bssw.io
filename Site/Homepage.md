@@ -12,7 +12,7 @@ Slide3 R: ../CuratedContent/AgileIsOutArchitectureIsBack.md
 Slide4 L: ../Articles/Blog/2025-10-ux3.md 
 Slide4 R: ../Hero_topic_user_experience_072125.png
 Slide5 R: ../Events/2025-11-teamwork-ai-survey.md
-Slide5 L: ../Articles/Blog/2025-07-BSSwFellows2024.md
+Slide5 L: ../CuratedContent/GoogleGuidanceOnCodeReview.md
 --->
 
 <!---
