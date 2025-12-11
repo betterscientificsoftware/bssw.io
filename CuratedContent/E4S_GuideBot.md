@@ -42,8 +42,8 @@ It also shows how conversational interfaces can expand the reach of sophisticate
 This curated contribution should be useful for anyone interested in applying AI to software documentation, user support, and ecosystem-scale knowledge curation.  
 
 <!---  
-Publish: no  
-RSS update: 2025-04-12  
-Topics: ai for better development, scientific software ecosystems, documentation  
+Publish: yes
+RSS update: 2025-12-11  
+Topics: AI for better development, scientific software ecosystems, documentation  
 Pinned: no  
 --->  
