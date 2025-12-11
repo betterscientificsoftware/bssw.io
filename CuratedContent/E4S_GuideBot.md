@@ -15,7 +15,7 @@ Resource name | E4S Website
 Website | https://e4s.io/  
 Focus | AI-enabled scientific-software documentation, user assistance, and web content creation  
 
-The E4S (Ecosystem for Scientific Software) project recently introduced the **E4S Guide Bot**, a domain-specialized AI assistant trained on curated content from E4S product families, documentation, and the new E4S website source materials.  
+The E4S (Ecosystem for Science) project recently introduced the **E4S Guide Bot**, a domain-specialized AI assistant trained on curated content from E4S product families, documentation, and the new E4S website source materials.  
 This tool played a central role in **creating the new E4S website**, generating clean draft pages from English-language prompts, and ensuring that technical descriptions of libraries, tools, and workflows were consistent across the entire site.
 
 Much like other domain-specific assistants, the Guide Bot operates using a retrieval-augmented prompting approach: curated PDFs, GitHub content, and narrative descriptions from the project team form a coherent knowledge base that the bot can draw upon. Rather than manually writing each page, site developers created **brief, pointed prompts**—asking the bot to produce content summaries, user-oriented explanations, capability overviews, or usage guidance—and then performed modest editing.  
