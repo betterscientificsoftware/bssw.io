@@ -30,6 +30,6 @@ Publish: yes
 Track: BSSw Fellowship
 Pinned: no
 Topics: Funding sources and programs, projects and organizations, conferences and workshops
-RSS update: 2024-09-30
+RSS update: 2025-12-16
 OpenGraph image: OG_2408_BSSwFellowships.png
 --->
