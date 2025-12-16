@@ -31,5 +31,5 @@ Track: BSSw Fellowship
 Pinned: no
 Topics: Funding sources and programs, projects and organizations, conferences and workshops
 RSS update: 2025-12-16
-OpenGraph image: OG_2408_BSSwFellowships.png
+OpenGraph image: OG_2508_BSSwFellowships.png
 --->
