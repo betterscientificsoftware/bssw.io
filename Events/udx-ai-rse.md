@@ -2,7 +2,7 @@
 
 - Event Date: 2026-01-06
 - Location: Online
-- Event Website: <https://lbnl.zoom.us/j/94829749497?pwd=u7T0W2LKeJZihfTsoXSJavJf5UNSoe.1>
+- Event Website: <https://lbnl.zoom.us/meeting/register/uecckzcDSO6FIaQuMMhMvg#/registration>
 - Organizers: The User/Developer Experience (UDX) working group of CASS
 
 The User/Developer Experience (UDX) working group of the Consortium for the Advancement of Scientific Software ([CASS](https://cass.community)) presents a speaker and Q&A session on the first Tuesdays of odd months (e.g., Jan, March, etc.) at 12 pm Eastern.
@@ -12,7 +12,7 @@ Resource Information | Details
 Webinar Title | The State of AI Use among Research Software Engineers
 Date and Time | 2026-01-06 12:00 pm - 1:00 pm ET
 Presenters | Elle O’Brien (Michigan School of Information) and Steve Van Tuyl (Academic Data Science Alliance)
-Registration and Information | 	<https://lbnl.zoom.us/j/94829749497?pwd=u7T0W2LKeJZihfTsoXSJavJf5UNSoe.1>
+Registration and Information | 	<https://lbnl.zoom.us/meeting/register/uecckzcDSO6FIaQuMMhMvg#/registration>
 Presentation Language | English	   
 
 **Webinars are free and open to the public, but advance registration is required through the Event website.**
