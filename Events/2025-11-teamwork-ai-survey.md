@@ -4,13 +4,13 @@
 
 #### Publication date: October 21, 2025
 
-- Closing Date: December 19, 2025
+- Closing Date: January 9, 2026
 - Location: Online
 - Website: https://umt.co1.qualtrics.com/jfe/form/SV_6uicew8JJmavimO
 - Organizers: Olivia B. Newton, Anshu Dubey, Denice Ward Hood, Lois Curfman McInnes
 
 <!-- deck text start -->
-If you work in scientific computing as part of a team, please consider taking about 15 minutes to complete our survey.
+If you work in scientific computing as part of a team, please consider taking about 15 minutes to complete our survey.  The submission deadline has been extended until January 9, 2026. 
 <!-- deck text end -->
 
 Event Information | Details
