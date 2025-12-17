@@ -9,8 +9,8 @@ Slide2 L: ../Articles/Blog/2025-12-ux4.md
 Slide2 R: ../images/Hero_topic_user_experience_072125.png
 Slide3 L: ../CuratedContent/E4S_GuideBot.md
 Slide3 R: ../CuratedContent/TechnicalDebtInPractice.md
-Slide4 L: ../Articles/Blog/GiveThanks.md
-Slide4 R: ../images/Blog_1119_seasonal.png
+Slide4 L: ../Events/udx-ai-rse.md
+Slide4 R: ../Events/hpcbp-095-fortran.md
 Slide5 L: ../Articles/Blog/2025-11-usrse25.md
 Slide5 R: ../Articles/Blog/2025-10-sustaining-mpich.md
 Slide6 L: ../CuratedContent/OnEvaluationOfResearchSoftware.md
