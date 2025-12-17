@@ -3,18 +3,20 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../Articles/Blog/GiveThanks.md
-Slide1 R: ../images/Blog_1119_seasonal.png
-Slide2 L: ../Articles/Blog/2025-11-usrse25.md
-Slide2 R: ../Articles/Blog/2025-10-sustaining-mpich.md
-Slide3 L: ../CuratedContent/OnEvaluationOfResearchSoftware.md
-Slide3 R: ../CuratedContent/AgileIsOutArchitectureIsBack.md
-Slide4 L: ../Articles/Blog/2025-10-ux3.md 
-Slide4 R: ../Hero_topic_user_experience_072125.png
-Slide5 R: ../Events/2025-11-teamwork-ai-survey.md
-Slide5 L: ../CuratedContent/GoogleGuidanceOnCodeReview.md
-Slide6 L: ../Articles/Blog/2025-07-BSSwFellows2024.md
-Slide6 R: ../Articles/Blog/2025-10-bsswf-profile4.md
+Slide1 L: ../Articles/Blog/2025-12-bsswf-usrse25.md
+Slide1 R: ../images/Blog_BSSwF_2025_USRSE25.jpg
+Slide2 L: ../Articles/Blog/2025-12-ux4.md
+Slide2 R: ../images/Hero_topic_user_experience_072125.png
+Slide3 L: ../CuratedContent/E4S_GuideBot.md
+Slide3 R: ../CuratedContent/TechnicalDebtInPractice.md
+Slide4 L: ../Articles/Blog/GiveThanks.md
+Slide4 R: ../images/Blog_1119_seasonal.png
+Slide5 L: ../Articles/Blog/2025-11-usrse25.md
+Slide5 R: ../Articles/Blog/2025-10-sustaining-mpich.md
+Slide6 L: ../CuratedContent/OnEvaluationOfResearchSoftware.md
+Slide6 R: ../CuratedContent/AgileIsOutArchitectureIsBack.md
+Slide7 R: ../Events/2025-11-teamwork-ai-survey.md
+Slide7 L: ../CuratedContent/GoogleGuidanceOnCodeReview.md
 --->
 
 <!---
