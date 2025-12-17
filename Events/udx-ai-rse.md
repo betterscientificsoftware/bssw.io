@@ -7,7 +7,6 @@
 
 The User/Developer Experience (UDX) working group of the Consortium for the Advancement of Scientific Software ([CASS](https://cass.community)) presents a speaker and Q&A session on the first Tuesdays of odd months (e.g., Jan, March, etc.) at 12 pm Eastern.
 
-
 Resource Information | Details
 :--- | :---			   
 Webinar Title | The State of AI Use among Research Software Engineers
@@ -38,6 +37,8 @@ Presentation Language | English
 
 *Impacts of Generative AI on the RSE Workplace - Where are we and where might we go next?*  
 <p>Over a four month period, we engaged with over 100 research software engineers (RSEs) at a number of community events (SciPy, RSECon 25, US-RSE 2025, SC25) to better understand the impacts of Generative AI (GenAI) on the work of Research Software Engineers (RSEs). Through these conversations we have heard about how GenAI has impacted RSEs in academia, industry, and government roles, what promise they see in the technology, and what resources would be helpful for navigating the GenAI landscape. We'll close the presentation with a view into next steps for developing these resources with the RSE community to ensure the profession thrives through this technological step-change.</p>
+
+#### Contributed by: [Johanna Cohoon](https://github.com/jlcohoon)
 
 <!---
 Publish: yes
