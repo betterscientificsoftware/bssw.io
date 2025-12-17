@@ -33,7 +33,7 @@ features introduced in Fortran standards from Fortran 90 to 2023.  We will
 venture into often-unvisited nooks and crannies and traverse equally unvisited
 expansive pastures.  Weaving feature groups together by the approaches they
 enable, the talk will emphasize array, object-oriented, parallel, module, and
-functional programming patterns and paradigms.  The talk demonstrate the utility
+functional programming patterns and paradigms.  The talk will demonstrate the utility
 of the described features in open-source packages developed by Berkeley Lab’s
 Computer Languages and System Software (CLaSS) Group and our collaborators. The
 presentation will emphasize expressiveness and conciseness, showing how our
