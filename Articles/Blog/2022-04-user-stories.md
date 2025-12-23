@@ -7,7 +7,7 @@
 #### Contributed by: [Osni Marques](https://github.com/oamarques) and [Reed Milewicz](https://github.com/rmmilewi)
 #### Publication date: April 29, 2022
 
-### Introduction
+## Introduction
 
 The practice of scientific software development is changing:
 
@@ -68,7 +68,7 @@ experimenting with user stories and our lessons learned, and we'll
 provide guidelines for teams looking to employ user stories in their own
 projects.
 
-### Our experiences with user stories
+## Our experiences with user stories
 
 A few years ago the [IDEAS-ECP project](https://ideas-productivity.org/activities/ideas-ecp/) 
 began experimenting with user stories as a
@@ -98,7 +98,7 @@ with scientific software. The following are two examples.
 
 <img src='../../images/Blog_2204_ChartB.png' class='page lightbox'/>[Approaches for improving software productivity and sustainability: incremental (gray), requirements as a prerequisite (blue). Progress Tracking Cards and user stories supports the latter.]
 
-### A seamless incorporation of user stories
+## A seamless incorporation of user stories
 
 After that experiment, we realized that user stories could
 become a component of [Productivity and Sustainability Improvement
@@ -148,7 +148,7 @@ projects. We give three examples.
     *so that* I am complying with the standards with minimal additional
     effort or ambiguity."
 
-### How you can get started with user stories
+## How you can get started with user stories
 
 For readers looking to adopt user stories within their own projects,
 we highly recommend starting with a storywriting workshop as we did in the
@@ -204,7 +204,7 @@ data needed to make that determination is a value-add on its own,
 regardless of the outcome, and could be used to derive future user
 stories.
 
-### Takeaways
+## Takeaways
 
 Given the ever-growing demand for complex simulations and analysis,
 developing the right software in the right way becomes essential. We
@@ -218,7 +218,7 @@ communication, especially with regard to software processes; (d) they
 can expose differences in assumptions and priorities;and (e) they can help
 with consensus-building and consequently with commitment to action.
 
-### Author bios
+## Author bios
 
 Osni A. Marques is a staff scientist in the Applied Mathematics & Computational Research Division at Lawrence Berkeley National Laboratory. He has worked with software libraries that provide solutions to common and important computational problems in engineering and scientific applications. He has studied and implemented algorithms for the solution of numerical linear algebra problems in applications related to the motion of proteins, acoustics problems, structural analyses, inverse problems in geophysics, and electronic properties of materials. Osni is currently involved in the IDEAS Productivity project and training activities of the DOE Exascale Computing Project.
 
@@ -243,7 +243,7 @@ Topics: software process improvement, requirements
 [4]: #sfer-ezikiw-4 "User Stories Applied: For Agile Software Development"
 [5]: #sfer-ezikiw-5 "User stories with examples and a template"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>Position Papers for the ASCR Workshop on the Science of Scientific-Software Development and Use, <a href="https://www.osti.gov/biblio/1843575/">doi:10.2172/1843575</a> pp. 176-177
 * <a name="sfer-ezikiw-2"></a><sup>2</sup><a href="https://bssw.io/items/overview-of-requirements-and-requirements-engineering">Overview of Requirements and Requirements Engineering</a>

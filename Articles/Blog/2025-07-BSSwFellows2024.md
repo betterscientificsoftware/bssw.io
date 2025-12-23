@@ -14,7 +14,7 @@ Read about the 2024 BSSw Fellows and their contributions to the BSSw community!
 The 2024 BSSw Fellows have utilized their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle and impact the culture of scientific software development.
 Here's more about what they have been up to and their perspectives on the BSSw Fellowship program.
 
-### Software gardening almanack: Cultivating sustainable software development in the generative era
+## Software gardening almanack: Cultivating sustainable software development in the generative era
 
 Scientific software developed through factory assembly approaches often overlooks the dynamic evolution of code and risks becoming obsolete abandonware, costing resources and hampering scientific replicability. BSSw Fellow Dave Bunten has developed the [Software Gardening Almanack](https://software-gardening.github.io/almanack/introduction.html), an open-source handbook of applied guidance and tools for sustainable software development and maintenance. The almanack offers guidance to developers on dynamic, sustainable software management. It also covers detecting and addressing challenges throughout the software lifespan for a range of topics, such as code decay and broken environments. In addition to GitHub, users can also access the [applied tools based on the handbook through PyPI](https://pypi.org/project/almanack/) (e.g., `uv add almanack` or `pip install almanack`).
 
@@ -42,7 +42,7 @@ Pick a project that you feel deeply connected to--something that addresses a rea
 
 - - -
 
-### Best practices for reproducibility and testing in scientific software
+## Best practices for reproducibility and testing in scientific software
 
 BSSw Fellow Dorota Jarecka has developed an eight-month training program for scientists to foster continuous learning and integrate best practices in scientific software development. The course covers both reproducibility in scientific software and testing and debugging with Python.
 
@@ -67,7 +67,7 @@ From my experience, one of the biggest challenges was making time for my BSSw pr
 
 - - -
 
-### Improving the effectiveness of scientific software teams through collaborative learning.
+## Improving the effectiveness of scientific software teams through collaborative learning.
 
 BSSw Fellow Olivia Newton organized a workshop to produce an open knowledge base with tools to support and evaluate team learning in the interdisciplinary groups developing scientific software. Interdisciplinary group work in scientific software development is increasingly common as institutional initiatives aim to advance science through collaboration and technological innovation. These collaborations are created with the goal of solving problems that are complex in nature and thus benefit from the integration of varied forms of expertise and perspectives to produce software. Team learning has been identified as a key process for the performance and collaboration effectiveness of scientific teams. At the same time, facilitating this form of learning remains a challenge given the breadth of expertise that must be synthesized to effectively build knowledge.
 
@@ -94,7 +94,7 @@ First, if you haven't already, find ways to engage with the BSSw community, from
 
 - - -
 
-### Guidelines for improving MPI performance
+## Guidelines for improving MPI performance
 
 The Message Passing Interface (MPI) is a critical component for many HPC applications. While MPI has many features, it is not obvious to users which may provide the best performance for their application, or how to avoid common usage pitfalls. The MPI Standard document---at over one thousand pages---is not a user's manual. Readers of the MPI Standard document may easily overlook key features and concepts. BSSw Fellow Ken Raffenetti has created online resources to help users get the best performance by explaining, in plain terms, guidelines for using MPI effectively. Ken used his years of experience in the MPI community to educate users on best practices.
 
@@ -119,7 +119,7 @@ My advice for new fellows is not to get overwhelmed and not to be afraid to ask 
 
 - - -
 
-### Sustainable scientific software through multi-project CI/CD
+## Sustainable scientific software through multi-project CI/CD
 
 BSSw Fellow Ryan Richard wants to simplify the process of using continuous integration/continuous deployment (CI/CD) across multi-project organizations. As scientific software becomes more modular, many development teams are increasingly developing and maintaining multiple projects. Adhering to best practices in software engineering means that each of these projects will rely on a CI/CD pipeline to ensure correctness, reliability, and conformance with community standards. Since these projects are often managed by a common development team, many aspects of the CI/CD pipelines are shared across the projects. In the spirit of treating infrastructure as code, developers should avoid duplicating CI/CD infrastructure across projects. Via a series of workshops, Ryan has brought the community together to share techniques CI/CD maintainers are already using to avoid CI/CD infrastructure duplication.
 
@@ -145,7 +145,7 @@ Talk to other community members. More than likely, your BSSw Fellowship idea wil
 
 - - -
 
-### Essential collaboration skills for contributing to open source software
+## Essential collaboration skills for contributing to open source software
 
 BSSw Fellow Leah Wasser has created a multi-lesson self-paced online module that teaches the often-missed technical and social collaboration skills needed to contribute to open source software (OSS). The focus of these lessons is on the skills that will make the experience of OSS contributors more positive and constructive. Areas of social focus include using constructive and specific language and code examples that simplify problem solving, building trust with volunteer maintainers, providing reproducible code for bug reports, and referencing issue history when submitting bugs.
 
@@ -170,11 +170,11 @@ Think about a topic that is meaningful to you that you think will impact the sci
 
 - - -
 
-### Learn more about the BSSw Fellowship Program
+## Learn more about the BSSw Fellowship Program
 
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship), including the ongoing work of the 2025 BSSw Fellows. We will begin accepting applications for 2026 BSSw Fellowships during mid-August 2025. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
-### Author bio
+## Author bio
 
 Elsa Gonsiorowski is the coordinator of the BSSw Fellowship Program, a member of the [PESO](https://pesoproject.org) team, and an HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
 
